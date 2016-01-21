@@ -1,5 +1,3 @@
 ---
-title: 'Rackspace How-To Home'
+title: 'Rackspace Howtos Home'
 ---
-
-# Rackspace How-To Home

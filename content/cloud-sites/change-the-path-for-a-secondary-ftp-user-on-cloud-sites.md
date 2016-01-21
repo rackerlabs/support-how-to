@@ -1,0 +1,34 @@
+---
+node_id: 555
+title: Change the path for a secondary FTP user on Cloud Sites
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2015-06-12'
+last_modified_by: Kelly Holcomb
+product: Cloud Sites
+product_url: cloud-sites
+---
+
+**Note:** This article refers to the [Cloud Sites Control
+Panel](https://manage.rackspacecloud.com/). You can access this
+interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
+by clicking the **Cloud Control Panel** menu at the top of the window
+and selecting **Cloud Sites**.
+
+To change the the access path for a secondary FTP user, follow these
+steps:
+
+1.  Log in to your Cloud Sites Control Panel at
+    <http://manage.rackspacecloud.com>.
+2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+3.  Click the domain that contains the FTP account that you want
+    to alter.
+4.  Click the **Security **tab.
+5.  In the Permissions For Editing Your Website section, click the user
+    name of the FTP user whose access path you want to change.
+6.  On the Edit User page, select the new top level of access for
+    the user.
+7.  Click **Save**.
+
+

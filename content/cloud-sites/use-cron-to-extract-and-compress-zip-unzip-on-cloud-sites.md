@@ -1,0 +1,138 @@
+---
+node_id: 699
+title: 'Use cron to extract and compress (zip & unzip) on Cloud Sites'
+type: article
+created_date: '2011-03-16'
+created_by: Rackspace Support
+last_modified_date: '2016-01-21'
+last_modified_by: Rose Contreras
+product: Cloud Sites
+product_url: cloud-sites
+---
+
+### Scripting extraction and compression of files
+
+### General Process:
+
+In Cloud Sites, the general process for extracting and compressing files
+through a cron job consists of the following steps:
+
+1.  Creating the script File
+2.  Uploading the aforementioned file to the site through FTP.
+3.  Scheduling the cron job through the Cloud Sites Control Panel's
+    Features tab.
+
+**IMPORTANT NOTE:** Please make sure that you set up the cron job
+"command type" to be **Perl** to properly execute the shell script (.sh
+file). Cron jobs that run over 900 seconds (15 minutes) are
+automatically terminated.
+
+### Creating the Script File
+
+To create the script file, simply open up a text editor on your local
+machine and copy/paste the sample code (provided in the examples below)
+for the operation you wish to accomplish:
+
+-   Compressing: [zip](#zip) or [tar](#tar)
+-   Decompressing: [unzip](#unzip) or [tar](#untar)
+
+Once complete, save the file with the **.sh** extension.
+
+### <span>I. Compressing</span>
+
+**Suggested Filename:** *compress.sh*
+
+###
+
+**NOTE:** For these examples make sure to replace "/SOURCE/DIRECTORY/"
+and "/DESTINATION DIRECTORY" with the appropriate Web directories (like
+"/mnt/stor1-wc1-dfw1/123456/www.example.com/web/content/archives/").
+
+### Zip compression
+
+To compress a directory to zip format add these lines to the script:
+
+    #!/bin/sh
+    zip -9pr /DESTINATION/DIRECTORY/file.zip /SOURCE/DIRECTORY/
+
+Where "file.zip" is the name that you assign to the zip file.
+
+The final script should look similar to this:
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Zip_script_visual.png" width="709" height="142" />
+
+**Note:** *If you're only compressing a single file the script would be
+similar, but would not require the "r" in the options.*
+
+*For example:*
+
+    #!/bin/sh
+    zip -9p /DESTINATION/DIRECTORY/file.zip /SOURCE/DIRECTORY/targetfile.txt
+
+###
+
+###
+
+### Tar.gz compression
+
+Put this in the script to archive and compress a directory into a
+gzipped tar format:
+
+    #!/bin/sh
+    tar -cvzf /DESTINATION/DIRECTORY/file.tar.gz /SOURCE/DIRECTORY/
+
+Where "file.tar.gz" is the name that you assign to the compressed file.
+
+The final script should look similar to this:
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Zip_script_visual.png" width="727" height="145" />
+
+### <span>II. Extracting</span>
+
+###
+
+**Suggested Filename:** *decompress.sh*
+
+### Zip extraction
+
+Add these lines to decompress from zip format:
+
+    #!/bin/sh
+    unzip -o /SOURCE/DIRECTORY/file.zip -d /DESTINATION/DIRECTORY/
+
+Where "file.zip" is the name of the zip file to be uncompressed.
+
+The final script should look similar to this:
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Unzip_script_visual_0.png" width="717" height="138" />
+
+###
+
+(**NOTE: the -o option will force unzip to overwrite existing files!**)
+
+Where "file.tar" is the name that you assign to the compressed file.
+
+### Tar.gz extraction
+
+Put this in the script to extract from tar format:
+
+    #!/bin/sh
+    tar -xvzf /SOURCE/DIRECTORY/file.tar.gz -C /DESTINATION/DIRECTORY/
+
+Where "file.tar.gz" is the name of the compressed file.
+
+The final script should look similar to this:
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Untar_script_visual.png" width="712" height="136" />
+
+### Cron FAQ's:
+
+[What is a cron
+job?](/how-to/cloud-sites-faq "What is a cron job?")
+
+[How do I enable or disable
+cron?](/how-to/enable-or-disable-a-cloud-sites-scheduled-task-cron-job "How do I enable or disable cron?")
+
+[How do I schedule a cron
+job?](/how-to/how-do-i-schedule-a-cron-job-for-cloud-sites "How do I schedule a cron job?")
+

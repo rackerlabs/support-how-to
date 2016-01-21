@@ -1,0 +1,65 @@
+---
+node_id: 3754
+title: Before you move to General Purpose or I/O Cloud Server (checklist)
+type: article
+created_date: '2013-11-04'
+created_by: David Hendler
+last_modified_date: '2015-11-12'
+last_modified_by: Cat Lookabaugh
+product: Cloud Servers
+product_url: cloud-servers
+---
+
+General Purpose and I/O-optimized Cloud Servers offer an increase in
+drive and networking speed,but there are some factors to consider before
+moving your current environment. This checklist provides information
+that you need to consider to ensure that you are ready to move.
+
+Premigration considerations:
+----------------------------
+
+General Purpose Cloud Servers cannot be resized, so ensuring that your
+architecture is correct from the start is important. Best practices
+include splitting your web and application servers from your database
+server and putting them behind a load balancer. This split will enable
+you to easily scale horizontally in the future without the need for
+downtime or requiring DNS changes.
+
+
+
+Premigration actions
+--------------------
+
+-   If you currently have a First Generation Cloud Server, you must back
+    up your data with Cloud Backup before you manually migrate
+    your server. If you want to build a server based on Linux, you can
+    move your data with rsync after your new server is built.
+-   If you have a Next Generation cloud server, you might be able to
+    create an image to migrate to General Purpose Cloud Servers. Consult
+    the following table:
+    |                               |                                                              |
+    |-------------------------------|--------------------------------------------------------------|
+    | Size of existing server (RAM) | Create a General Purpose Cloud Server of this size via image |
+    | 512 MB                        | 1 GB or larger                                               |
+    | 1 GB                          | 2 GB or higher                                               |
+    | 2 GB or larger                | Cannot use an image to build a General Purpose Cloud Server  |
+
+
+
+-   Ensure that any automation you have set up allows for a 40 GB
+    system drive.
+-   Audit your current and future storage needs to determine how to best
+    organize the data with the General Purpose Cloud
+    Server configuration. You will have multiple disks instead of a
+    single monolithic disk. Consider the following options:
+    -   Use the system disk only.
+    -   Use both the system and data disk.
+    -   Create a single RAID 0 volume out of the multiple data disks on
+        larger servers.
+    -   Leverage Cloud Block Storage for portability.
+-   If you use Cloud Backup, ensure that all of your data is backed up
+    when you create your new General Purpose Cloud Server.
+-   If you have disk monitoring set up, you must set up monitoring for
+    your system disk and data disk or disks separately.
+
+
