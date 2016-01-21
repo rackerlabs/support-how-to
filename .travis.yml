@@ -21,5 +21,4 @@ install:
     - echo $TRAVIS_COMMIT
 
 script:
-    - echo 'Hai Travis!'
-#    - kc-preparer
+    - kc-preparer
