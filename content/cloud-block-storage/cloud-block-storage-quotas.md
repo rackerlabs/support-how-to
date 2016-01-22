@@ -1,11 +1,11 @@
 ---
 node_id: 3902
-title: Cloud Block Storage Quotas
+title: Cloud Block Storage quotas
 type: article
 created_date: '2014-02-12'
 created_by: Rose Contreras
-last_modified_date: '2014-10-16'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-22'
+last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -18,7 +18,7 @@ support request to ask for an increase. In your request, be sure to
 include the storage amount that you need (TBs or volume count), storage
 type (SATA or SSD), and region (for example, DFW or LON).
 
-Note: Your Cloud Block Storage quota is independent from any other
+**Note**: Your Cloud Block Storage quota is independent from any other
 account quotas that you might have.
 
 You can use the OpenStack Cinder API to see your current block storage
@@ -35,7 +35,7 @@ The result of this request follows:
     {
         "quota_set": {
             "gigabytes": 10240,
-            "id": &ldquo;<Customer Number>",
+            "id": <Customer Number>",
             "snapshots": -1,
             "volumes": 50
         }
@@ -43,7 +43,7 @@ The result of this request follows:
 
 For Cinder client users, the request looks like the following example:
 
-    MFTUG6DH2G->$ cinder quota-show <Customer Number>
+    $ cinder quota-show <Customer Number>
     +-----------+-------+
     |  Property | Value |
     +-----------+-------+
@@ -51,6 +51,3 @@ For Cinder client users, the request looks like the following example:
     | snapshots |   -1  |
     |  volumes  |   50  |
     +-----------+-------+
-
-
-
