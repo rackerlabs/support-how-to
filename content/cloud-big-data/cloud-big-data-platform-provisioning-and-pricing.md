@@ -17,11 +17,11 @@ new nodes on the configuration. The provisioning of resources in Cloud
 Big Data Platform can be done easily via the Rackspace Cloud Control
 Panel or API. For more information about how to get started using Cloud
 Big Data Platform, see the [Getting
-Started](http://docs.rackspace.com/cbd/api/v1.0/cbd-getting-started/content/DB_Doc_Change_History.html)
+Started](http://docs.rackspace.com/cbd/api/v1.0/cbd-getting-started/content/CBD_Overview.html)
 Guide.
 
 Although Cloud Big Data Platform uses a standard and common Apache
-Hadoop^TM^ distribution, it differs from running Hadoop on dedicated
+Hadoop &trade; distribution, it differs from running Hadoop on dedicated
 servers or plain cloud servers. The back-end infrastructure of Cloud Big
 Data Platform has been optimized for running Hadoop at scale and
 includes gigabit Ethernet, optimized local storage, and easy API access.
