@@ -16,11 +16,7 @@ Intelligence. You can do this through the [Cloud Control
 Panel](https://mycloud.rackspace.com/) by following these steps:
 
 1.  Create a database. For instructions on creating a database at the
-    command-line by using the trove client, see [Create Your First Cloud
-    Database](http://docs.rackspace.com/cdb/api/v1.0/cdb-getting-started/content/Create_Cloud_Database.html).
+    command-line by using the trove client, see [Create a database instance by using the trove client](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#create-a-database-instance-by-using-the-trove-client).
 
-2.  Establish monitoring checks and alarms for the database as described
-    in [Monitoring Cloud Databases in the Cloud Control
-    Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel).
-
-
+2.  Establish monitoring checks and alarms for the database as described in
+    [Monitoring Cloud Databases in the Cloud Control Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel).
