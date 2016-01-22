@@ -13,16 +13,10 @@ product_url: cloud-servers
 After you have installed Postfix, you can work with settings in the
 **main.cf** file to further configure Postfix.
 
--   [Modular nature of Postfix](#modular)
--   [The main.cf file](#maincf)
--   [Test the settings](#test)
--   [Summary](#summary)
-
 **Note:** This article assumes that you are using a single domain for
 your email needs.
 
-Modular nature of Postfix
--------------------------
+### Modular nature of Postfix
 
 One of the key aspects of Postfix is that it is designed to be a modular
 package. The base installation itself is fairly small, and the vast
@@ -39,8 +33,7 @@ Postfix and editing multiple files for what might seem like simple
 settings. Such modularity will be useful when you start adding multiple
 domains, users, and aliases to your setup.
 
-The main.cf file
-----------------
+### The main.cf file
 
 To see the **main.cf** file, issue the following command:
 
@@ -67,20 +60,20 @@ This article focuses on the last section, which looks as follows on the
     recipient_delimiter = +
     inet_interfaces = all
 
-Note that some of the settings already have the host name from the base
+**Note**: Some of the settings already have the host name from the base
 Postfix installation.
 
 Although some of the settings might be self-explanatory, the following
 sections describe them so that you can get a better understanding of
 Postfix and what you can do with it.
 
-### myhostname
+#### myhostname
 
 The `myhostname` value was set during the Postfix installation when you
 entered the domain name that you want to use. This name also matches the
 cloud server host name.
 
-### aliases
+#### aliases
 
 Aliases provide a method for delivering mail to different users without
 having to set up dozens of different accounts. The default settings in
@@ -119,7 +112,7 @@ database for any changes to occur. Use the following command:
 
     sudo newaliases
 
-### myorigin
+#### myorigin
 
 Internal emails from packages such as cron jobs do not supply full mail
 credentials; they use the `myorigin` setting instead. As such, you need
@@ -147,7 +140,7 @@ Setting the `myorigin` parameter this way allows for easier
 administration at a later date because only one setting (`myhostname`)
 needs to change. All the other parameters take the change from that.
 
-### mydestination
+#### mydestination
 
 Although you have not yet set the server to receive mail, the
 `mydestination` parameter defines the domains from which the server will
@@ -163,12 +156,12 @@ administration by using the `$mydomain` variable as follows:
 
     mydestination = $mydomain, localhost.$mydomain, localhost
 
-### relayhosts
+#### relayhosts
 
 For the setup in this series of articles, you do not need this setting.
 You can leave it blank.
 
-### mynetworks
+#### mynetworks
 
 The `mynetworks` parameter defines the network to use. The default value
 includes IPv6 settings, which you can remove. The remaining value looks
@@ -176,12 +169,12 @@ as follows:
 
     mynetworks = 127.0.0.0/8
 
-### The rest
+#### The rest
 
 You can use the default values for the remaining settings. They are
 relevant for more complex configurations.
 
-### Final settings
+#### Final settings
 
 After the preceding changes, the last section in the example **main.cf**
 file looks as follows:
@@ -200,8 +193,7 @@ file looks as follows:
     recipient_delimiter = +
     inet_interfaces = all
 
-Test the settings
------------------
+### Test the settings
 
 As with all packages, after you have made any changes to the
 configuration, you must restart, as follows:
@@ -220,11 +212,9 @@ email to a working email address, as shown in the following example.
 You should receive an email from the correct user and the correct
 domain. Check the headers to verify that they are correct.
 
-Summary
--------
+### Summary
 
 Configuring Postfix can be a daunting task. This introduction helps with
 the basics and shows how using variables instead of hard coding domain
 names can save time and effort in any future
-administration.[](/how-to/creating-dns-records-and-receiving-emails-via-postfix)
-
+administration. For more information on using Postfix, see [Creating DNS records and receiving emails via PostFix](/how-to/creating-dns-records-and-receiving-emails-via-postfix).
