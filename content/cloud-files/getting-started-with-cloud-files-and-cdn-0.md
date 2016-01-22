@@ -1,6 +1,6 @@
 ---
 node_id: 5122
-title: Getting started with Cloud Files and CDN
+title: Cloud Files and CDN
 type: article
 created_date: '2016-01-14'
 created_by: Stephanie Fillmon
