@@ -282,21 +282,21 @@ ensure that your firewall isn't blocking outgoing connections on port
 
 #### How do I troubleshoot the Skipped, Missed, Errored, and Failed statuses?
 
--   **Skipped**: This error likely occurs because the frequency of the
+-   **Skipped:** This error likely occurs because the frequency of the
     backup job is set too high. Consider reducing the frequency of the
     job, or reducing the amount of data. If this is the initial job,
     then the subsequent jobs might finish faster.
--   **Missed**: Verify that the agent is running on the server. If the agent
+-   **Missed:** Verify that the agent is running on the server. If the agent
     is not already running, then start it. Next, check the logs to
     determine why the backup job failed. An agent should never go
     offline by itself. Either a software exception occurred or the agent
     was manually terminated.
--   **Errored**: Look in the logs on the server. The agent stores all the
+-   **Errored:** Look in the logs on the server. The agent stores all the
     logs in one location (see the following section). Review the logs
     line by line. If you cannot determine the cause of the error, raise
     a ticket with the SME group, and they can help you identify
     the problem.
--   **Failed**: As with the *Errored* status, check the logs on the server. A
+-   **Failed:** As with the *Errored* status, check the logs on the server. A
     failed status is severe.
 
 ### Agent logs
