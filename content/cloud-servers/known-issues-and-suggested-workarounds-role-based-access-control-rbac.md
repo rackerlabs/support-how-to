@@ -55,6 +55,6 @@ account is reactivated.</span>
 must re-enable users through the API or by contacting support at
 1-800-961-4454. </span>
 
- [&lt; RBAC FAQs](/how-to/faq-role-based-access-control-rbac)    -    [Getting Started with RBAC &gt;](/how-to/getting-started-with-role-based-access-control-rbac-0)
+ [&lt; RBAC FAQ](/how-to/faq-role-based-access-control-rbac)    -    [Getting Started with RBAC &gt;](/how-to/getting-started-with-role-based-access-control-rbac-0)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

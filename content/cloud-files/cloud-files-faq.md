@@ -1,6 +1,6 @@
 ---
 node_id: 4980
-title: Cloud Files - FAQs
+title: Cloud Files - FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support

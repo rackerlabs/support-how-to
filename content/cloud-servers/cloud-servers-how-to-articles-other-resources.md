@@ -44,7 +44,7 @@ articles:</span></span></span>
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Cloud Servers:
-FAQs</span></span></span>](/how-to/product-faq/cloud-servers)
+FAQ</span></span></span>](/how-to/product-faq/cloud-servers)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Getting Started with Cloud

@@ -42,4 +42,4 @@ product_url: cloud-block-storage
 ###  API Developer Guide & FAQ's
 
 - [Cloud Block Storage API Developer Guide](http://docs.rackspace.com/cbs/api/v1.0/cbs-devguide/content/overview.html)
-- [Cloud Block Storage FAQs](/how-to/cloud-block-storage)
+- [Cloud Block Storage FAQ](/how-to/cloud-block-storage)
