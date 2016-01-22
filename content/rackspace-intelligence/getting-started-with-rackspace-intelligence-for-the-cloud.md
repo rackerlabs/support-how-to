@@ -144,7 +144,7 @@ You can manage how you are notified of status changes.
 You can also manage  
 which notifications are suppressed.
 You can examine a log to investigate changes that occurred while
-notifications were suppressed. 
+notifications were suppressed.
 
 #### Report infrastructure status
 
@@ -152,7 +152,7 @@ When Rackspace Intelligence detects a status change, it can report its
 findings by sending email or a text message. Rackspace Intelligence can
 also respond to a status change by executing a policy that was defined
 by
-a [webhook](http://docs.rackspace.com/cas/api/v1.0/autoscale-gettingstarted/content/Authenticated_Webhooks_and_Anonymous_Webhooks.html).
+a [webhook](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
 
 To customize how Rackspace Intelligence responds when it detects a
 status change, perform the following actions:
