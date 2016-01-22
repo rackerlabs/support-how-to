@@ -17,18 +17,17 @@ transactions logs.
 
 This process has the following steps:
 
--   [Check the SQL Server Agent service](#checksqlserveragentservice)
--   [Create the maintenance plan](#createmaintenanceplan)
--   [Full backup settings](#fullbackupsettings)
--   [Define differential backup Settings](#differentialbackupsettings)
--   [Define transaction log backup
-    settings](#transactionlogbackupsettings)
--   [Set up the transaction log cleanup task](#transactionlogcleanup)
--   [Test your setup](#testsetup)
--   [Troubleshoot errors by viewing the job history](#errors)
+1.  Check the SQL Server Agent service
+2.  Create the maintenance plan
+3.  Full backup settings
+4.  Define differential backup Settings
+5.  Define transaction log backup
+    settings
+6.  Set up the transaction log cleanup task
+7.  Test your setup
+8.  Troubleshoot errors by viewing the job history
 
-Check SQL Server Agent service
-----------------------------------
+### Check SQL Server Agent service
 
 Verify that the SQL Server Agent service is running and set to
 automatic. The maintenance plan depends on this service to run.
@@ -47,8 +46,7 @@ automatic. The maintenance plan depends on this service to run.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckSQLServerAgent3.png" width="439" height="188" />
 
-Create the maintenance plan
------------------------------------
+### Create the maintenance plan
 
 1.  Launch the SQL Management Studio and log in.
 2.  In the Object Explorer pane, go to **Management** &gt; **Maintenance
@@ -71,11 +69,7 @@ Create the maintenance plan
 6.  On the Select Maintenance Task Order page, leave the order as shown,
     and then click **Next**.
 
-
-----
-
-Define full backup settings
----------------------------
+### Define full backup settings
 
 On the Define Back Up Database (Full) Task page, set up the full backup
 according to the following instructions.
@@ -111,8 +105,7 @@ according to the following instructions.
 12. On the Define Back Up Database (Full) Task page of the Maintenance
     Plan Wizard, click **Next**.
 
-Define differential Backup Settings
----------------------------------------
+### Define differential Backup Settings
 
 On the Define Back Up Database (Differential) Task page, set up the
 differential backup according to the following instructions. The
@@ -139,8 +132,7 @@ settings are similar to the settings for the full backup.
 12. On the Define Back Up Database (Differential) Task page of the
     Maintenance Plan Wizard, click **Next**.
 
-Define transaction log backup settings
-------------------------------------------
+### Define transaction log backup settings
 
 On the Define Back Up Database (Transaction Log) Task page, set up the
 transaction log backup according to the following instructions.
@@ -185,10 +177,7 @@ transaction log backup according to the following instructions.
     The new maintenance plan is listed under **Maintenance Plans** in
     the Object Explorer pane.
 
-
-
-Set up the transaction Log Cleanup Task
--------------------------------------------
+### Set up the transaction Log Cleanup Task
 
 This section demonstrates how to set up a maintenance cleanup task. This
 task is set to clean up the transaction logs after three days. This
@@ -243,8 +232,7 @@ transaction log backups between the full and differential backups.
     You have finished setting up your maintenance backup plan. You can
     adjust your backup plan to your needs, but you should first test it.
 
-Test your setup
--------------------
+### Test your setup
 
 After you are done setting up your maintenance plan, verify that it
 works. You can wait a few days to see if the job completes, or you can
@@ -261,9 +249,7 @@ force the job to run by performing the following steps.
 If all of your steps run without error, your maintenance plan works and
 you are finished.
 
-Troubleshoot errors by viewing the job history
---------------------------------------------------
-
+### Troubleshoot errors by viewing the job history
 
 If any of the jobs fail when testing the maintenance plan, view the job
 history to see what failed.
@@ -289,4 +275,3 @@ When your maintenance plan is reliable, check it in a few days to see if
 it is running as expected. Verify that the **.bak** files are being
 removed after the expiration and that the transaction logs are being
 cleaned up after three days.
-
