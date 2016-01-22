@@ -27,7 +27,7 @@ circumstance should updates be completed manually.
 
 First, you must SSH into your server and run the below commands
 consecutively on a user with sudo or superuser privileges. You might
-wish to review [Rackspace Cloud Backup - Install the agent on
+wish to review [Install the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing the steps shown below.
 
@@ -46,7 +46,6 @@ Backup Updater that keeps the agent up to date on the system. ****
 
 
 ### Update the agent for yum-based Systems, like CentOS, Fedora, and Red Hat
-
 
 First, you must SSH into your server and run the below commands
 consecutively on a user with sudo or superuser privileges. You might
