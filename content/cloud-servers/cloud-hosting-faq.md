@@ -10,10 +10,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-DNS
----
+### DNS
 
-### What is an SOA record?
+#### What is an SOA record?
 
 A Start of Authority (SOA) resource record indicates which DNS name
 server is the best source of information for the specified domain. Every
@@ -31,13 +30,9 @@ domain is **hostmaster@rackspace.com**. You can see the SOA record for
 
         dig rackspace.com +nssearch
 
-
-
 The following information is returned:
 
     SOA ns.rackspace.com. hostmaster.rackspace.com. 1392389079 300 300 1814400 300 from server 69.20.95.4 in 12 ms.
-
-
 
 The SOA record includes the following details:
 
@@ -53,22 +48,16 @@ The SOA record includes the following details:
 -   Minimum TTL, this default applies to all resource records in the
     zone
 
-^[back\\ to\\ top](#top)^
-
 ------------------------------------------------------------------------
 
-FAQ
----
+### FAQ
 
-### Does Rackspace donate used equipment?
+#### Does Rackspace donate used equipment?
 
 Rackspace sends ALL used compute/storage/network/drives (e-waste) to a
 certified electronics refurbisher that is under contract with Rackspace.
 This insures that all assets are securely and responsibly processed. We
-are working on an &ldquo;Employee Purchase Program&rdquo; with the refurbishing
+are working on an Employee Purchase Program with the refurbishing
 company to offer Rackers discounts on purchasing used/lower cost gear
 that has been cleaned, tested and carries a limited warranty. Stay tuned
 for more on this.
-
-^[back\\ to\\ top](#top)^
-

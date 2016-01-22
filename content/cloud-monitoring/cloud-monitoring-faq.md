@@ -79,7 +79,7 @@ section in the Rackspace Monitoring Developer's Guide.
 As the complexity of your business increases with the number of
 products, customers, websites, etc., there is an increasing possibility
 of one or more of your resources suffering from a variety of system
-failures. Learning of a problem from your customers means that you&rsquo;ve
+failures. Learning of a problem from your customers means that you've
 already lost business, and your customers are already having a negative
 experience using your website or application. Preventing this is what
 Rackspace Monitoring is all about.
@@ -89,7 +89,7 @@ Rackspace Monitoring is all about.
 Rackspace Monitoring is an API driven cloud service built for
 infrastructure monitoring. It offers a simple yet powerful feature-set,
 allowing extreme flexibility in configuration and execution. Very
-simply, we help answer the question, &ldquo;Is my service up and running?&rdquo; To
+simply, we help answer the question, "Is my service up and running?"" To
 do that, we have two simple objectives; to alert the resource owner
 before their customer knows, and to take measure against allowing the
 system to go down in the first place.
@@ -126,6 +126,16 @@ your account team.
 #### Will you support SNMP traps?
 
 Not yet, but we are planning on starting in the near future.
+
+#### How is Rackspace Monitoring billed?
+
+Rackspace Monitoring bills you by how much you use. While other monitoring
+services lock you into a month-long or even year-long contract, with Rackspace
+Monitoring, you are billed by the hourly usage based on how many checks were
+running in that hour, and from how many monitoring zones were involved.
+Adjusting your usage is quick and easy, and this flexibility can help
+reduce unnecessary costs. Never again will you have to pay for more
+than what you use.
 
 ------------------------------------------------------------------------
 
@@ -274,7 +284,7 @@ failure; no matter what, your monitoring service will remain functional.
 
 #### What is a Monitoring Zone?
 
-A monitoring zone is the &ldquo;launch point&rdquo; of a check. You can launch
+A monitoring zone is the launch point of a check. You can launch
 checks from multiple monitoring zones.
 
 #### What is an Alarm?
@@ -284,9 +294,9 @@ on the result of the check.
 
 #### What mechanism do we use to check that the site content is reliably correct?
 
-At this time, we don&rsquo;t do "synthetic transactions&rdquo; (a simulated set of
+At this time, we don't do "synthetic transactions" (a simulated set of
 actions.) However, we do support checking the HTML of the response. We
-follow redirects but don&rsquo;t check content within a frame/iframe.
+follow redirects but don't check content within a frame/iframe.
 
 #### What is a Notification Plan?
 
@@ -318,7 +328,7 @@ safe and secure.
 
 A Check specifies what aspect of the resource you wish to monitor.
 
-#### What&rsquo;s the most important aspect of Rackspace Monitoring?
+#### What's the most important aspect of Rackspace Monitoring?
 
 The user experience. At Rackspace, we strive to make your interactions
 with us and our products as easy as possible, and we work towards
@@ -330,7 +340,7 @@ even easier than ours when using the product.
 
 An Entity is the resource (website, server, etc) you wish to monitor.
 
-#### Once I&rsquo;ve made a check, how will I know it works?
+#### Once I've made a check, how will I know it works?
 
 We have an on-demand simulation feature which allows the user to test
 the functionality of their monitoring system by simulating a normal
@@ -341,7 +351,7 @@ operating situation.
 Rackspace Monitoring was built as a means, not an end. Although just as
 (and in many aspects, more) advanced than the other monitoring services,
 Rackspace Monitoring has promoted reliable functionality and a solid
-foundation over superficial &ldquo;whizz bang&rdquo; features. This is by no means
+foundation over superficial "whizz bang" features. This is by no means
 the final product - we plan to continue innovating and improving on what
 we have already, which is a solid, reliable foundation for the future.
 Customer feedback remains a very valuable source of input concerning the
@@ -358,7 +368,7 @@ monitoring all of them.
 
 #### How does this compare to open source solutions like Nagios?
 
-It is targeted at replacing these type of tools. Right now we don&rsquo;t
+It is targeted at replacing these type of tools. Right now we don't
 offer all the features of Nagios; however, Rackspace Monitoring is
 hosted as a service, API driven and built for the cloud. Rackspace
 Monitoring also provides geographically redundant checks which is
@@ -370,7 +380,7 @@ for an upgrade package, and no need for downtime).
 
 #### Will there be an API call or published URI to get all the collector IPs as with Cloudkick?
 
-Listing monitoring zones will give you CIDR&rsquo;s of the set of collectors
+Listing monitoring zones will give you CIDRs of the set of collectors
 in that zone. To get the most accurate list possible use this API call.
 
 #### Does "60 day retention" mean "default 60 days on all customer alert log data"? If so, can customers ask that it be less than 60 days for some bizarre reason?
@@ -381,7 +391,7 @@ future though.
 #### Are there good patterns to use to better leverage the alarm language?
 
 Most of the interesting patterns are represented here. Let us know in
-the comments if there are additional examples you&rsquo;d like to contribute.
+the comments if there are additional examples you'd like to contribute.
 
 #### How are Email notifications sent? Do I need to worry they will end up in my SPAM folder?
 
@@ -394,7 +404,7 @@ We wanted to build a state of the art monitoring platform. This requires
 the data collection to be separate from the thresholding. On the CLI/API
 level, this is a more complex user experience, but provides the most
 flexibility. The dashboard GUI simplifies the process for those users
-who don&rsquo;t want to work with a CLI.
+who don't want to work with a CLI.
 
 #### I've heard about this Alarm Language. How does it work?
 
@@ -442,7 +452,7 @@ would report an OK status, but if you also monitor from the eastern data
 center, you will be alerted to this problem before it affects your
 customers.
 
-If you&rsquo;re only monitoring from a single zone, and for some reason there
+If you're only monitoring from a single zone, and for some reason there
 is an error with a check, you may get false notifications that your site
 has a problem, when in reality it is working fine. Using multiple
 monitoring zones helps prevent these false alarms by verifying a system
@@ -469,4 +479,3 @@ You must set up your account at the Rackspace Cloud account signup
 process [here](https://cart.rackspace.com/cloud/).  Once complete,
 adding incremental monitoring is fast and easy, especially in the [Cloud
 Control Panel](https://mycloud.rackspace.com/).
-
