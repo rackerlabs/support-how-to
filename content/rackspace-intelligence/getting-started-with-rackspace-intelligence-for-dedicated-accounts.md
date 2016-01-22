@@ -34,7 +34,7 @@ As a customer with a dedicated account:
     For more information, see [Remote check
     types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-check-types).
 
-**Note**: Rackspace customers who have Dedicated devices that are still
+**Note**: Rackspace customers who have dedicated devices that are still
 using the Sitescope monitoring system will not be able to access
 Rackspace Intelligence until after all devices have been upgraded to
 Rackspace Monitoring. The effort to upgrade devices from Sitescope to
@@ -48,7 +48,7 @@ completed before the end of the 2015.
 -   [Explore the Rackspace Intelligence dashboard for dedicated
     accounts](/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
 -   [Learn about the differences between Rackspace Intelligence for
-    Cloud accounts and for Dedicated
+    Cloud accounts and for dedicated
     accounts](/how-to/differences-between-rackspace-intelligence-for-cloud-accounts-and-dedicated-accounts)
 
 **When you want to log into Rackspace Intelligence**
@@ -58,13 +58,13 @@ completed before the end of the 2015.
 
 **To view and create graphs of activity in Rackspace Intelligence**
 
--   [Create and view graphs of activity in Rackspace Intelligence for
+-   [Work with activity graphs in Rackspace Intelligence for
     dedicated
     accounts](/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts)
 
 **To learn more about your alarms, checks, notifications, and
 notificaton plans**
 
--   [Working with alarms, checks, notifications, and notification plans
+-   [Work with alarms, checks, notifications, and notification plans
     for dedicated
     accounts](/how-to/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace)
