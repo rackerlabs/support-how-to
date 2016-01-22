@@ -28,11 +28,11 @@ As a customer with a dedicated account:
     your applications.
 -   Create customized visualizations and graphs.
 -   Use remote checks of type
-    [ping](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.ping), [tcp](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.tcp),
+    [ping](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ping), [tcp](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-tcp),
     and
-    [http](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.http).
+    [http](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-http).
     For more information, see [Remote check
-    types](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html).
+    types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-check-types).
 
 **Note**: Rackspace customers who have Dedicated devices that are still
 using the Sitescope monitoring system will not be able to access
