@@ -31,30 +31,17 @@ and then click **Entities**.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitoring-create-entity-top-bar.png" width="729" height="283" />
 
-From the Monitor Entities section, you can perform the following actions
+From the **Monitor Entities** section, you can perform the following actions
 on the list of entities:
 
--   [Sort
-    entities](/how-to/monitoring-entities-with-rackspace-intelligence)
--   [View the details of an
-    entity](/how-to/monitoring-entities-with-rackspace-intelligence)
--   [Create an
-    entity](/how-to/monitoring-entities-with-rackspace-intelligence)
--   [Update an
-    entity](/how-to/monitoring-entities-with-rackspace-intelligence)
--   [Visualize an
-    entity](/how-to/monitoring-entities-with-rackspace-intelligence)
-
-Sort entities
------------------
+### Sort entities
 
 You can sort the list of monitored entities by entity name, by the
 number of alarms reported for each entity in the Critical, Warning, and
 OK categories, and by the number of monitoring checks reported for each
 entity.
 
-View the details of an entity
----------------------------------
+### View the details of an entity
 
 All the entity labels in Rackspace Intelligence are linked to an entity
 details page. To view the details page for an entity, click on the
@@ -70,8 +57,7 @@ If the entity is a cloud server, the details page provides the same
 information that you can get about the server by using the Cloud Control
 Panel or by logging in to the server itself.
 
-Create an entity
---------------------
+### Create an entity
 
 1.  To create a new entity, on the Monitoring page, click **Create
     Entity**.
@@ -84,8 +70,7 @@ Rackspace Intelligence creates the entity and displays the information
 on the entity details page. You can now update the entity by adding an
 IP address or a check. See the next section for instructions.
 
-Update an entity
---------------------
+### Update an entity
 
 You can update an existing entity by clicking the **Actions** menu at
 the top of the entity details page.
@@ -176,8 +161,7 @@ the **Suppression Targets** section.
 For more information about suppressions, see [Working with notification
 suppressions](/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
 
-Visualize an entity
------------------------
+### Visualize an entity
 
 In the list of entities, click in the **Visualize** column of the row
 for an entity to launch a **Default Graphs** presentation for the
@@ -188,4 +172,3 @@ configured for the entity.
 
 For checks that are defined but not configured, a link to begin the
 process of configuring the check is provided.
-
