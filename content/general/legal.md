@@ -85,7 +85,7 @@ are service marks or registered service marks of Rackspace US, Inc. in
 the United States and/or other countries. OpenStack&trade; and OpenStack logo
 are trademarks of OpenStack, LLC.
 
-All other product names and trademarks used in the Rackspace How To 
+All other product names and trademarks used in the Rackspace How-To 
 documentation are for identification purposes only to refer to
 either the entities claiming the marks and names or their products, and
 are property of their respective owners.  We do not intend our use or
