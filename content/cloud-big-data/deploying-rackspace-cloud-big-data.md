@@ -97,12 +97,9 @@ as well as a data ingest method supported by Rackspace:
 
 **Apache Hive**: <http://hive.apache.org>
 
-**Apache Spark:**
+**Apache Spark:**<http://http://spark.apache.org>
 
-
-
-[**Rackspace
-Swifts**:]()[/how-to/swift-filesystem-for-hadoop](/how-to/swift-filesystem-for-hadoop)
+**Rackspace Swifts**:[/how-to/swift-filesystem-for-hadoop](/how-to/swift-filesystem-for-hadoop)
 
 **Getting Data Into Your Cluster**:
 [/how-to/getting-data-into-your-big-data-cluster](/how-to/getting-data-into-your-big-data-cluster)
