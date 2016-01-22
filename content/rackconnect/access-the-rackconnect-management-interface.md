@@ -10,8 +10,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section**: [Getting started with RackConnect
-v2.0](/how-to/rackconnect-v20)
+**Previous section**: [RackConnect v2.0](/how-to/rackconnect-v20)
 
 You can access the RackConnect Management Interface from the
 [MyRackspace Portal](https://my.rackspace.com/). To view your
@@ -38,4 +37,3 @@ The status indicators can be green, blue, red, or yellow.
 
 [Managing RackConnect v2.0 Network
 Policies](/how-to/managing-rackconnect-v20-network-policies)
-
