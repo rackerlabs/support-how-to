@@ -25,20 +25,7 @@ creating your Cloud Server to help protect the integrity of your data.
 (**Note:** The commands in this article are meant for Ubuntu.  Small
 modifications may be required for other distributions.)
 
--   [Log in](#Log_in)
--   [User administration](#User_administration)
--   [SSH keygen](#SSH_keygen)
--   [SSH copy](#SSH_copy)
--   [SSH Permissions](#SSH_Permissions)
--   [SSH config](#SSH_config)
--   [iptables in Ubuntu](#iptables)
--   [iptables in RedHat](#iptablesRH)
--   [If you're locked out...](#If_you.27re_locked_out...)
-
-
-
-Log in
-------
+### Log in
 
 As soon as you have your IP address and password for your Cloud Server,
 login via SSH:
@@ -49,26 +36,20 @@ If you rebuilt your Cloud Server, you may get a message informing you
 that the "remote host identification has changed".
 
 When logging into a Cloud Server via SSH, we learned about the security
-features of [matching the remote host with known
-keys](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
- When you rebuild a Cloud Server, the remote host key changes.  As such,
-your computer thinks there is something dodgy going on.
+features of [matching the remote host with known keys](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console). When you rebuild a Cloud Server, the remote host key changes. As such, your computer thinks there is something dodgy going on.
 
 All you need to do is remove the older entry for the Cloud Server IP:
 
-On your *local* computer, edit the SSH known\_hosts file and remove any
+On your *local* computer, edit the **.ssh/known_hosts** file and remove any
 entries that point to your Cloud Server IP address.
 
     nano ~/.ssh/known_hosts
 
 If you are not using Linux or a Mac on your local computer, the location
-of the known\_hosts file will differ.  Please refer to your own OS for
+of the **.ssh/known_hosts** file will differ.  Please refer to your own OS for
 details of where this file is kept.
 
-
-
-User administration
--------------------
+### User administration
 
 Once logged in to the Cloud Server, immediately change your root
 password to one of your choosing.
@@ -95,10 +76,10 @@ At the end of the file add:
     demo   ALL=(ALL) ALL
 
 When you are finished, press the key combination `Ctrl-X` to exit, press
-'`y`' to confirm your saving the changes, and press the Enter key to
+`y` to confirm your saving the changes, and press the **Enter** key to
 save as the indicated file, '`/etc/sudoers.tmp`' .
 
-NOTE: You may find that while working in the nano editor, the
+**Note**: You may find that while working in the nano editor, the
 backspace/delete key works backwards, deleting characters in front of
 the cursor rather than behind it.  This can be resolved by editing the
 '/etc/nanorc' file (with nano, for example) and either uncommenting or
@@ -109,10 +90,7 @@ adding the line:
 The corrected behavior will take effect after the file has been saved
 and nano has been opened again.
 
-
-
-SSH keygen
-----------
+### SSH keygen
 
 One effective way of securing SSH access to your cloud server is to use
 a **public/private** key.  This means that a 'public' key is placed on
@@ -127,9 +105,7 @@ workstation:
 
     mkdir ~/.ssh
 
-That's assuming you use Linux or a Mac and the folder does not exist.
- Follow the link to read a detailed article for [key generation using
-Putty for
+That's assuming you use Linux or a Mac and the folder does not exist. Follow the link to read a detailed article for [key generation using Putty for
 Windows](/how-to/generating-rsa-keys-with-ssh-puttygen).
 
 To create the ssh keys, on your *local* workstation enter:
@@ -138,21 +114,18 @@ To create the ssh keys, on your *local* workstation enter:
 
 If you do not want a passphrase then just press enter when prompted.
 
-That created two files in the .ssh directory: id\_rsa and id\_rsa.pub.
+That created two files in the .ssh directory: **id_rsa** and **id_rsa.pub**.
 The pub file holds the public key. This is the file that is placed on
 the Cloud Server.
 
 The other file is your private key. Never show, give away or keep this
 file on a public computer.
 
-
-
-SSH copy
---------
+### SSH copy
 
 Now we need to get the public key file onto the Cloud Server.
 
-We'll use the '`scp`' (secure copy) command for this as it is an easy
+We'll use the `scp` (secure copy) command for this as it is an easy
 and secure means of transferring files.
 
 Still on your *local* workstation enter this command:
@@ -165,17 +138,14 @@ Change the IP address to your cloud server and the location to your
 admin user's home directory (remember the admin user in this example is
 called demo).
 
-
-
-SSH Permissions
----------------
+### SSH Permissions
 
 OK, so now we've created the public/private keys and we've copied the
 public key onto the Cloud Server.
 
 Now we need to sort out a few permissions for the ssh key.
 
-On your Cloud Server, create a directory called .ssh in the 'demo'
+On your Cloud Server, create a directory called **.ssh** in the 'demo'
 user's home folder and move the pub key into it.
 
     mkdir /home/demo/.ssh
@@ -194,16 +164,13 @@ see the order of things: create the key on your local workstation, copy
 the public key to the Cloud Server, and set the correct permissions for
 the key.
 
+### SSH config
 
-
-SSH config
-----------
-
-**Note: ***If you have Cloud Servers with a Managed Operations, do not
+**Note**: If you have Cloud Servers with a Managed Operations, do not
 change the default SSH configuration by disabling port 22 because our
 automation uses this port for access to your server.  If your server
 does not have Managed Operations, you can choose to implement the
-following optional security safeguard.*
+following optional security safeguard.
 
 Because keeping the SSH service on the default port of 22 makes it an
 easier target, we'll change the default SSH configuration to make it
@@ -238,10 +205,7 @@ the new port.
 
 That's worth emphasizing:  **Do not restart ssh yet.**
 
-
-
-iptables in Ubuntu
-------------------
+### iptables in Ubuntu
 
 The utility called iptables is the default firewall for Linux systems.
  It works by refusing to allow connections to ports or services that you
@@ -314,7 +278,7 @@ save your rules permanently:
 
     iptables-save > /etc/iptables.up.rules
 
-#### Add a networking script
+### Add a networking script
 
 Now we need to ensure that the iptables rules are applied when we reboot
 the server.  If the server was rebooted before this step the changes
@@ -338,8 +302,7 @@ Save your changes, and then make the new script executable:
 That should ensure that whenever your network interfaces are brought up
 (usually just at boot time), the firewall will be too.
 
-iptables in Red Hat
------------------------
+### iptables in Red Hat
 
 If you are using a Red Hat distribution, iptables works a little
 differently.  Using the commands below, you can change your iptables
@@ -400,13 +363,12 @@ ruleset!
 
         # sudo /sbin/service iptables restart
 
+### Restarting ssh
 
+Now we'll restart the ssh service.
 
-Restarting ssh
---------------
-
-Now we'll restart the ssh service.  **Make sure you stay logged in while
-you restart ssh and test it with a new connection.**  That way if
+**Note**: Make sure you stay logged in while
+you restart ssh and test it with a new connection. That way if
 something goes wrong you can troubleshoot it more easily.
 
 On most distributions the service is "sshd", and you restart it with the
@@ -420,20 +382,17 @@ restarted with a similar command:
         # sudo service ssh restart
 
 If you have trouble making a new connection after restarting ssh, check
-the symptoms to see what may be wrong.  If the connection times out,
-there may be a problem with the iptables config.  If you get a warning
+the symptoms to see what may be wrong. If the connection times out,
+there may be a problem with the iptables config. If you get a warning
 about a private key, your key may not be installed on the server
 properly (check for extra linebreaks or characters that were missed in a
-copy and paste operation).  If you've been rebuilding the server then
-you may need to [remove the host key from your known hosts
-file](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
+copy and paste operation). If you've been rebuilding the server then
+you may need to [remove the host key from your known hosts file](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
 before you can make a connection.
 
-If you're locked out...
------------------------
+### Troubleshooting
 
 The incorrect configuration of SSH, sudo and/or iptables could cause you
-to be locked out of your system.  If this occurs, please log into the
-The Rackspace Cloud Control Panel and use the Web Console or Rescue Mode
+to be locked out of your system. If this occurs, please log into the
+the Rackspace Cloud Control Panel and use the Web Console or Rescue Mode
 to repair the configurations.
-
