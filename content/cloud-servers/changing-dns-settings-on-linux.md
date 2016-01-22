@@ -35,7 +35,7 @@ in the file. Use the IP addresses of the name servers when entering
 them, since the system won't know what to do with domain names until
 after it knows how to get to the DNS servers.
 
-Open resolv.conf with an editor like nano to make the necessary changes
+Open **resolv.conf** with an editor like nano to make the necessary changes
 (if it doesn't exist already this will create the file for us):
 
     sudo nano /etc/resolv.conf
@@ -136,4 +136,3 @@ Then test as above, using the "ping6" command instead of the regular
 It's that simple - change or add those name servers and once the
 settings are saved the system will use them right away. Make sure the
 changes take with a quick ping to test it and you'll be done.
-
