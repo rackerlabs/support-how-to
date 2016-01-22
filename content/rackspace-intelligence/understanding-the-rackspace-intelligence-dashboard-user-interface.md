@@ -29,13 +29,13 @@ You can also examine different aspects of how Rackspace Intelligence is
 configured to monitor your system by accessing the following sections
 from the header:
 
--   Monitor
--   Suppress
--   Notify
--   Visualize
+-   **Monitor**
+-   **Suppress**
+-   **Notify**
+-   **Visualize**
 
 Within each section, you can refine your focus by choosing from the
-offerings in that section. For example, in the Monitor section, you can
+offerings in that section. For example, in the **Monitor** section, you can
 choose to work
 with [entities](/how-to/monitoring-entities-with-rackspace-intelligence) or [open
 alerts](/how-to/monitoring-open-alerts-with-rackspace-intelligence).
@@ -58,4 +58,3 @@ Intelligence interface, you can predict where to find the information
 and tools that you need.
 
 <img src="/knowledge_center/sites/default/files/field/image/intelligence-ui-461x597.png" alt="With the Rackspace Intelligence UI, you can visualize activity and you can perform functions similar to those available with Cloud Monitoring." width="461" height="597" />
-

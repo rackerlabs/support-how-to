@@ -23,22 +23,12 @@ Rackspace Intelligence offers a variety of reporting options. Use the
 predefined or custom graph options to generate an informative view of
 your system's activity.
 
-Working with predefined graphs
-------------------------------
+### Work with predefined graphs
 
 Rackspace Intelligence provides predefined graphs that represent the
 activity of any entity that you choose during any time range that you
 choose. To see these graphs, click **Visualize** at the top of the
 interface, and then click **Basic Graphs**.
-
-<div class="content">
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
 
 If you choose a preset time range, Rackspace Intelligence shows data
 collected for the entity during the most recent period of that range:
@@ -55,16 +45,7 @@ last time stamp.
 
 <img src="/knowledge_center/sites/default/files/field/image/preset1.1_0.png" width="640" height="50" />
 
-Working with custom graphs
---------------------------
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+### Work with custom graphs
 
 You can customize your Rackspace Intelligence graphs by choosing how to
 focus:
@@ -73,15 +54,15 @@ focus:
 -   Focus on a single entity, examining it with multiple metrics.
 
 Click **Visualize** at the top of the interface, click **Custom
-Graphs**, and then choos your focus.
+Graphs**, and then choose your focus.
 
-### Explore a metric
+#### Explore a metric
 
 When you focus on a single metric, you can simultaneously view that
 metric on any of the entities you have defined. For example, you can
 choose to see the percentage of idle time for all your entities.
 
-### Explore an entity
+#### Explore an entity
 
 When you focus on a single entity, you can simultaneously view any of
 the metrics available for that entity. For example, you can choose to
@@ -104,14 +85,3 @@ time frame for which you want the metrics to be generated.
 
 Rackspace applies the selected time range to display the graphs for your
 selected checks.
-
-
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
