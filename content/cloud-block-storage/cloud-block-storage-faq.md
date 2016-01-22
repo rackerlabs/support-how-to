@@ -4,8 +4,8 @@ title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-22'
+last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -257,4 +257,3 @@ For your security, the used portions of the physical disk are
 overwritten with zeroes before the deleted volume's disk space is
 reallocated to the shared pool of disk resources. At this point, your
 data cannot be recovered and is not visible to other customers.
-
