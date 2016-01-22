@@ -1,10 +1,10 @@
 ---
 node_id: 3934
-title: Create a clone of a Cloud Block Storage Volume
+title: Create a clone of a Cloud Block Storage volume
 type: article
 created_date: '2014-03-18'
 created_by: David Hendler
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
@@ -26,7 +26,7 @@ type prior to beginning the volume clone process. Additionally, volume
 cloning also allows you to increase the size of the new volume. The
 cloned volume must be the same size or larger than original volume, the
 new volume cannot be smaller. Keep in mind if you do use cloning to
-increase the size of your volume, be sure to resize your filesytem (if
+increase the size of your volume, be sure to resize your file system (if
 supported) in order to take advantage of the new larger clone.
 
 Prior to the availability of the volume cloning feature, customers were
@@ -35,23 +35,23 @@ needed. The advantage to using volume cloning instead of snapshotting is
 that volume cloning transfers your data directly between volumes,
 without the need to use a Cloud Files snapshot as an intermediate step.
 
-Volume Cloning shares many similarities with Volume Snapshots. Namely,
-they both utilize LVM as the primary copy and locking mechanism and
-therefore detaching prior to cloning is recommended. Click
+Volume cloning shares many similarities with volume snapshots. Namely,
+they both utilize LVM as the primary copy and locking mechanism, and
+therefore, detaching prior to cloning is recommended. Click
 [here](/how-to/allowing-snapshots-without-detaching-the-volumes)
 for additional information on allowing snapshots (now clones) without
 detaching the volumes.
 
 
 
-### **Create a Volume Clone**
+### Create a volume clone
 
 It is a good idea to detach your Volume from your Server before you take
 a Volume Clone. This is the safest method to prevent your Server from
 writing information while you are backing it up. That could get your
 data out of sync and could create a problem. To detach your Volume, see
-the instructions on "Detatch and Delete Volumes". You can always
-re-attach the Volume by following the "Attach Volume to a Server" steps
+the instructions on "Detach and delete volumes". You can always
+re-attach the Volume by following the "Attach volume to a server" steps
 on the [Create and attach a Cloud Block Storage
 volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
 article.
@@ -64,18 +64,24 @@ volume prior to snapshotting.
 
 Steps to create a volume clone:
 
-1.  Navigate to the Clone Volume popup by either
+1\.  Navigate to the **Clone Volume** popup by either
 
--   Clicking the "Actions" button on the Volume Details screen.
+-   Clicking the **Actions** button on the **Volume Details** screen.
+
     or
--   Click the Action cog next to the Volume name in the Block Storage
-    Volumes screen.
--   Click the "Clone Volume" link.
--   Give the new volume a name. The default is the volume's name
-    followed by the &ldquo;-clone&rdquo; suffix.
--   Specify the volume type and size.
--   Click the "Clone Volume" button.
--   After you click the "Clone Volume" button and are redirected to the
+
+-   Click the Action cog next to the **Volume name** in the **Block Storage
+    Volumes** screen.
+
+2\.  Click the **Clone Volume** link.
+
+3\.  Give the new volume a name. The default is the volume's name followed by the &ldquo;-clone&rdquo; suffix.
+
+4\.  Specify the volume type and size.
+
+5\.  Click the **Clone Volume** button.
+
+6\.  After you click the **Clone Volume** button and are redirected to the
     new volume details page, you can safely reattach your volume.
 
  **Note:** While considerably faster than creating a volume from a
@@ -84,24 +90,25 @@ clone.
 
 
 
-###  **Delete a Volume Clone**
+###  Delete a volume clone
 
-1.  Once created, a cloned volume can be treated like any other
+1\. Once created, a cloned volume can be treated like any other
     existing volume.
-2.  A CBS volume can be deleted by either
+
+2\. A CBS volume can be deleted by either
 
 -   Selecting "Delete Volume&rdquo; from the Actions button on the Volume
     Details screen.
 
-or
+    or
 
 -   Selecting "Delete Volume&rdquo; from the Action cog next to the Volume
     name in the Block Storage Volumes screen.
 
 
-### **Volume Cloning Mini-FAQ**
+### Frequently asked questions about volume cloning
 
--   **How is cloning different from snapshotting? **A snapshot cannot be
+-   **How is cloning different from snapshotting?** A snapshot cannot be
     directly used as a volume. You need to create a volume from the
     snapshot before you can attach it to your server. Snapshots are
     stored redundantly in Cloud Files, however creating volumes from
@@ -109,8 +116,6 @@ or
     a clone. If your application is time sensitive, please consider
     using volume cloning instead. A volume Clone is usable copy of the
     source volume and can be attached and used immediately.
-
-<!-- -->
 
 -   **Do I need to detach my volume prior to cloning?** While not
     required, it is a good idea to detach your volume from your server
@@ -132,29 +137,21 @@ or
     cloned volume will remain in creating status until the source volume
     data has been fully copied to the new clone.
 
-<!-- -->
-
 -   **Can I create multiple clones from a single volume
-    simultaneously? **No. Creating multiple clones simultaneously from
+    simultaneously?** No. Creating multiple clones simultaneously from
     the same volume will fail.
 
-<!-- -->
-
--   **Can I clone between regions? **No. Volumes can only be cloned
+-   **Can I clone between regions?** No. Volumes can only be cloned
     within the same region.
 
-<!-- -->
-
--   **Can I simultaneously snapshot and clone the same volume? **No.
+-   **Can I simultaneously snapshot and clone the same volume?** No.
     Volume snapshots and cloning share the same locking mechanism, and
     therefor cannot happen simultaneously on the same volume.
 
 
-### **Volume Cloning Constraints**
+### Volume cloning constraints
 
--   You cannot create more than one clone per volume at a
+You cannot create more than one clone per volume at a
     time. Snapshots and cloning use the same locking mechanism, so a
     snapshot and clone of the same volume cannot be
     running concurrently.
-
-
