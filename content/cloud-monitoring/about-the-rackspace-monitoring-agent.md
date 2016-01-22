@@ -6,17 +6,17 @@ created_date: '2012-11-13'
 created_by: Susan Million
 last_modified_date: '2016-01-21'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
-<span>The Rackspace Monitoring Agent allows you to monitor the internals
+The Rackspace Monitoring Agent allows you to monitor the internals
 of your Cloud Server by running checks that are installed on your server
 locally rather than launching checks from one or more of the Rackspace
 data centers. Because the agent is installed locally, it is immediately
 aware of any system resource changes to your Cloud Server. The agent
 records any updated or changed information and forwards it to the
-Rackspace Monitoring system. </span>
+Rackspace Monitoring system.
 
 The Rackspace Monitoring Agent is capable of monitoring the following
 system information:
@@ -61,4 +61,3 @@ Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent "Install the
 
 [Troubleshoot the Monitoring
 Agent](/how-to/troubleshooting-the-rackspace-monitoring-agent "Troubleshoot the Monitoring Agent")
-

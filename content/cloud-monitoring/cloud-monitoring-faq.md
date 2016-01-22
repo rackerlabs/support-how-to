@@ -6,7 +6,7 @@ created_date: '2015-12-10'
 created_by: Stephanie Fillmon
 last_modified_date: '2016-01-20'
 last_modified_by: Stephanie Fillmon
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
