@@ -10,8 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Application and load testing guidelines
-________________________________________
+### Application and load testing guidelines
 
 Rackspace understands that customers need to determine the performance of their applications and acquire performance benchmarks for their Rackspace-hosted assets as part of offering a professional experience to their own customers. To help Rackspace customers acquire useful data without compromising the performance of their own or other Rackspace customers' servers, we are providing some helpful load-testing risk indicators.
 
@@ -19,19 +18,19 @@ This article sets out Rackspace's position on application, load, and performance
 
 **Note:** Customers who perform any testing on or against Rackspace Cloud Servers should be aware that they are operating under the terms of our [Global Acceptable Use Policy (AUP)](http://www.rackspace.com/information/legal/global/aup).
 
-## Policing and enforcement
+### Policing and enforcement
 
 Rackspace monitors all of our Cloud host servers for activities that reduce the performance of customers' virtual servers. If we find a customer's virtual server being used in a way that affects other customers' virtual servers, we reserve the right to hard reboot, suspend, or switch off the impacting server. We further reserve the right to suspend or terminate the impacting customer's Rackspace Cloud account.
 
 Customers who want to perform application tests, load tests, and performance-benchmarking tests should observe the following guidelines before and during each test and stop the test immediately if the indicated thresholds are breached.
 
-## Load-testing guidelines
+### Load-testing guidelines
 
 Good testing practice requires that you continually monitor the effect of your test as you apply load. Before running such tests, ensure that you know how to view actual RAM, disk IO, and network usage in real-time. These metrics provide the early-warning signs that a test risks interfering with other customers' servers on the same host. See the following sections for specific thresholds.
  
 ### Linux virtual servers
 
-Install and use the <code>screen</code> package for your Linux distribution in to run and view the following commands at the same time. To compile screen from source, go to the [GNU homepage]( http://www.gnu.org/software/screen/).
+Install and use the `screen` package for your Linux distribution in to run and view the following commands at the same time. To compile screen from source, go to the [GNU homepage]( http://www.gnu.org/software/screen/).
 
 **RAM:** Use the following command to view RAM use as you perform tests:
 
@@ -43,13 +42,13 @@ Don’t let the value in the Free column in the +/- buffers/cache line go lower 
 
      top
 
-Watch the <code>%wa</code> number in the second line. It might occasionally rise above 1.0 but it should not be above 1.0 for more than a couple of seconds.
+Watch the `%wa` number in the second line. It might occasionally rise above 1.0 but it should not be above 1.0 for more than a couple of seconds.
 
 **Network use:** Use the following command to view network use as you perform tests:
 
      sudo watch -n 10 -d /sbin/ip addr show eth0
 
-Watch the <code>RX bytes</code> number. Every 10 seconds, the <code>-d</code> argument highlights any changes in RX bytes numbers. The 10-second pause gives you time to note the RX bytes number before it changes. You can reduce the amount of math required to calculate exact changes if you remember that at least eight digits must change – per <code>watch -d</code> highlighting – between each 10-second update before you need to apply any arithmetic. For virtual machines with 2 GB RAM or more, at least nine digits must change before you need to calculate the exact change. The following table shows the maximum change in RX bytes per second by server size.
+Watch the `RX bytes` number. Every 10 seconds, the <code>-d</code> argument highlights any changes in RX bytes numbers. The 10-second pause gives you time to note the RX bytes number before it changes. You can reduce the amount of math required to calculate exact changes if you remember that at least eight digits must change – per <code>watch -d</code> highlighting – between each 10-second update before you need to apply any arithmetic. For virtual machines with 2 GB RAM or more, at least nine digits must change before you need to calculate the exact change. The following table shows the maximum change in RX bytes per second by server size.
  
 <table>
 	<tr>
@@ -85,8 +84,6 @@ Watch the <code>RX bytes</code> number. Every 10 seconds, the <code>-d</code> ar
 	</tr>
 </table>
 
-<p>&nbsp;</p>
-
 ### Windows virtual servers
 
 To view and log the performance of a server, you need to use the Performance Monitor.
@@ -94,7 +91,6 @@ To view and log the performance of a server, you need to use the Performance Mon
      perfmon.exe
 
 This section describes some counters that you can use to ensure that you do not exceed the thresholds and affect other customers on the server. You will have to change the scale of the graphs and also the counters in Performance Monitor, especially regarding memory use. If you find these hard to read and track, we recommend that you use the <code>resmon.exe</code> utility to track them.
-
 
 #### Processor use
 
@@ -107,7 +103,6 @@ Threshold: Don't let this counter exceed 90 percent.
 #### Memory use
 
 There are several memory-related counters to watch during load testing.
-
 
 - **Method 1**
 
@@ -144,7 +139,6 @@ Counter: **PhysicalDisk > Disk Time > _Total**
 Purpose: Amount of time that the disk is active
 
 Threshold: 90 percent
-
 
 Counter: **PhysicalDisk > Avg. Disk Queue Length > _Total**
 
@@ -194,7 +188,6 @@ Threshold: Don't let link speed rise above the **Maximum PerfMon Link Speed (%)*
 		<td>15.00%</td>
 	</tr>
 </table>
-<p>&nbsp;</p>
 
 ### Network latency tests
 
@@ -215,4 +208,3 @@ Ping is publicly accessible for the following servers:
 - sandbox.syd2.rackspace.net
 
 **Note:** To remove DNS lookup effects, you might want to determine each test server's IP address and ping the IP address directly.
-<p>&nbsp;</p>
