@@ -1,6 +1,6 @@
 ---
 node_id: 2062
-title: RACKSPACE KNOWLEDGE CENTER LICENSE
+title: RACKSPACE HOW TO LICENSE
 type: page
 created_date: '2012-08-24'
 created_by: Rackspace Support
@@ -10,7 +10,7 @@ product: undefined
 product_url: undefined
 ---
 
-Except where otherwise noted, Rackspace Knowledge Center site and
+Except where otherwise noted, Rackspace How To site and
 documentation is licensed under the Creative Commons
 Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 
@@ -18,12 +18,12 @@ Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 
 That means:
 
--   **Attribution:**  Rackspace Knowledge Center documents are intended
+-   **Attribution:**  Rackspace How To documents are intended
     for use by Rackspace customers. Please credit Rackspace for the
     documentation and don&rsquo;t pass around old versions that may not
     reflect the latest changes.
 -   **Non-Commercial Use:** Rackspace defines &ldquo;commercial use&rdquo; of the
-    Rackspace Knowledge Center documentation as republication
+    Rackspace How To documentation as republication
     for profit. Using the documentation within a commercial enterprise,
     or using the guide to develop for-profit applications using
     Rackspace&rsquo;s Cloud Servers API is allowed and encouraged.
@@ -40,10 +40,10 @@ the license terms included with the code in the file named &ldquo;README&rdquo;,
 
 
 
-**RACKSPACE KNOWLEDGE CENTER DISCLAIMER**
+**RACKSPACE HOW TO DISCLAIMER**
 -----------------------------------------
 
-The Rackspace Knowledge Center articles are for informational purposes
+The Rackspace How To articles are for informational purposes
 only and are provided &ldquo;AS IS.&rdquo;  The information set forth in these
 articles is intended as a guide and not as a step-by-step process, and
 does not represent an assessment of any specific compliance with laws or
@@ -53,7 +53,7 @@ requirements for your specific environment.
 
 RACKSPACE MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR
 IMPLIED, AS TO THE ACCURACY OR COMPLETENESS OF THE CONTENTS OF THE
-RACKSPACE KNOWLEDGE CENTER SITE AND/OR DOCUMENTATION AND RESERVES THE
+RACKSPACE HOW TO SITE AND/OR DOCUMENTATION AND RESERVES THE
 RIGHT TO MAKE CHANGES TO SPECIFICATIONS AND PRODUCT/SERVICES DESCRIPTION
 AT ANY TIME WITHOUT NOTICE.  RACKSPACE RESERVES THE RIGHT TO DISCONTINUE
 OR MAKE CHANGES TO ITS SERVICES OFFERINGS AT ANY TIME WITHOUT NOTICE.
@@ -65,9 +65,9 @@ WHATSOEVER, AND DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY, RELATING TO
 ITS SERVICES INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTY OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 
-ALTHOUGH PART OF THE KNOWLEDGE CENTER DOCUMENTATION EXPLAINS HOW
+ALTHOUGH PART OF THE HOW TO DOCUMENTATION EXPLAINS HOW
 RACKSPACE SERVICES MAY WORK WITH THIRD PARTY PRODUCTS, THE INFORMATION
-CONTAINED IN THE KNOWLEDGE CENTER ARTICLES IS NOT DESIGNED TO WORK WITH
+CONTAINED IN THE ARTICLES IS NOT DESIGNED TO WORK WITH
 ALL SCENARIOS. ANY USE OR CHANGES TO THIRD PARTY PRODUCTS AND/OR
 CONFIGURATIONS SHOULD BE MADE AT THE DISCRETION OF YOUR ADMINISTRATORS
 AND SUBJECT TO THE APPLICABLE TERMS AND CONDITIONS OF SUCH THIRD PARTY.
@@ -85,8 +85,8 @@ are service marks or registered service marks of Rackspace US, Inc. in
 the United States and/or other countries. OpenStack&trade; and OpenStack logo
 are trademarks of OpenStack, LLC.
 
-All other product names and trademarks used in the Rackspace Knowledge
-Center documentation are for identification purposes only to refer to
+All other product names and trademarks used in the Rackspace How To 
+documentation are for identification purposes only to refer to
 either the entities claiming the marks and names or their products, and
 are property of their respective owners.  We do not intend our use or
 display of other companies&rsquo; tradenames, trademarks, or service marks to
