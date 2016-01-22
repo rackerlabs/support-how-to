@@ -46,7 +46,7 @@ and hundreds of tips for getting the most out of your Cloud Files.
 Check out these popular articles:
 
 -   [Rackspace Cloud Files
-    FAQs](/how-to/cloud-files-faq)
+    FAQ](/how-to/cloud-files-faq)
 -   [Best Practices Using Cloud
     Files](/how-to/best-practices-for-using-cloud-files)
 -   [Mounting Rackspace Cloud Files to Linux Using

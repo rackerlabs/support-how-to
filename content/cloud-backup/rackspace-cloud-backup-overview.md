@@ -52,7 +52,7 @@ using Cloud Backup on the following directories:
 For more information, see [Best Practices for Cloud
 Backup](/how-to/best-practices-for-cloud-backup)
 and the [Cloud Backup
-FAQs](/how-to/cloud-backup-faq)
+FAQ](/how-to/cloud-backup-faq)
 or visit Cloud Backup's [main product
 page](http://www.rackspace.com/cloud/backup/).
 

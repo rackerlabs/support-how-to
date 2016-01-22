@@ -1,6 +1,6 @@
 ---
 node_id: 4128
-title: developer+ FAQs
+title: developer+ FAQ
 type: article
 created_date: '2014-07-14'
 created_by: David Hendler

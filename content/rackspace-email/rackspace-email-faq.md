@@ -1,6 +1,6 @@
 ---
 node_id: 4977
-title: 'Rackspace Email: FAQs'
+title: 'Rackspace Email FAQ'
 type: article
 created_date: '2015-12-02'
 created_by: Rackspace Support

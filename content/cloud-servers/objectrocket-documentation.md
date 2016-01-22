@@ -104,7 +104,7 @@ Tools page](http://docs.objectrocket.com/tools.html).
 Have a question?
 ----------------
 
-Read the [FAQs](http://docs.objectrocket.com/faq.html).
+Read the [FAQ](http://docs.objectrocket.com/faq.html).
 
 Support
 -------

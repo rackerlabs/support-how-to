@@ -14,7 +14,7 @@ The following permissions matrix displays specific permissions for the roles in 
 
 [Cloud Orchestration API v1.0 Developer Guide](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)
 
-[Cloud Orchestration FAQs](/how-to/cloud-orchestration-faq)
+[Cloud Orchestration FAQ](/how-to/cloud-orchestration-faq)
 
 [Cloud Orchestration Terminology](/how-to/permissions-matrix-for-cloud-orchestration)
 
