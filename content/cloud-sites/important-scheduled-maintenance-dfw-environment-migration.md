@@ -36,7 +36,7 @@ Center, which includes FAQ&rsquo;s for individual technologies. Updated
 testlink information will be provided as a courtesy to review your site
 functionality prior to the migration.
 
-Please review the links below which include FAQs & helpful information
+Please review the links below which include FAQ & helpful information
 on common break changes for your specific technology during to prepare
 for the upcoming DFW
 migrations. [](/how-to/information-for-aspnet-changes-0)
