@@ -272,13 +272,13 @@ ensure that your firewall isn't blocking outgoing connections on port
 
 #### What do the backup statuses Skipped, Missed, Errored, and Failed mean?
 
--   Skipped: The backup job was skipped because a  backup job was
+-   **Skipped:** The backup job was skipped because a  backup job was
     already queued. A single backup job can be queued only once.
--   Missed: The backup job was missed because the agent did not respond.
+-   **Missed:** The backup job was missed because the agent did not respond.
     The agent was likely offline.
--   Errored: An error occurred during the backup. The backup job did
+-   **Errored:** An error occurred during the backup. The backup job did
     run, but it needs to be investigated.
--   Failed: A serious problem occurred, and the backup job did not run.
+-   **Failed:** A serious problem occurred, and the backup job did not run.
 
 #### How do I troubleshoot the Skipped, Missed, Errored, and Failed statuses?
 
