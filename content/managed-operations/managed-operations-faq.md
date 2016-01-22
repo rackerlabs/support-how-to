@@ -154,7 +154,7 @@ additional level of support that includes monitoring, OS and application
 infrastructure layer support, and technical guidance for your Cloud
 Servers.
 
--   [Rackspace Cloud Backup:
+-   [Rackspace Cloud Backup
     FAQ](/how-to/cloud-backup-faq)
 -   [Rackspace Cloud Backup: Getting Started
     Guide](/how-to/cloud-backup)
