@@ -1,6 +1,6 @@
 ---
 node_id: 2038
-title: Rackspace Cloud Backup - Create a backup
+title: Create a backup with Cloud backup
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
@@ -15,11 +15,11 @@ backup of the data on your cloud server.
 
 ### Previous sections
 
--   [Rackspace Cloud Backup -
-    Overview](/how-to/rackspace-cloud-backup-overview)
--   [Rackspace Cloud Backup - Install the agent on
+-   [Cloud Backup
+    overview](/how-to/rackspace-cloud-backup-overview)
+-   [Install the Cloud Backup agent on
     Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
--   [Rackspace Cloud Backup - Install the agent on
+-   [Install the Cloud Backup agent on
     Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 
 **Note:** You can use the Cloud Backup tool to back up your data files
@@ -31,8 +31,7 @@ image, see [Create an image of a server and restore a server from a
 saved
 image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 
-Create a server backup
-----------------------
+### Create a server backup
 
 1.  Log in to the [Cloud Control
     Panel](https://mycloud.rackspace.com/).
@@ -73,6 +72,5 @@ Create a server backup
 
 ### Next steps
 
-[Rackspace Cloud Backup - View backup
-information](/how-to/rackspace-cloud-backup-view-backup-information)
-
+[View backup information
+with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
