@@ -142,7 +142,7 @@ on Linux systems:
 -   PID file for running the agent: /var/run/driveclient.pid
 -   Database: search for a \*.db file under /var/cache/driveclient
 
-**Note: **If driveclient is installed as an individual user, most of
+**Note:** If driveclient is installed as an individual user, most of
 these files are under \~/.driveclient.
 
 #### Agent file locations (Windows)
@@ -170,6 +170,3 @@ In a typical installation, the files will be located in these folders:
 
 To disable logging, remove the tag named `appender-ref` from
 `log4cxx.xml`.
-
-
-
