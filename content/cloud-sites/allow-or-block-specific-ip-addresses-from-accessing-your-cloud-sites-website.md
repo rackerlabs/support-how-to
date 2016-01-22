@@ -23,7 +23,7 @@ includes the visitor's IP address.
 In the **.htaccess** file that contains your rules, insert the following
 code.
 
-#### Allow only a certain IP addresses
+### Allow only a certain IP addresses
 
     Require all denied
     allow from env=allowclient
@@ -33,7 +33,7 @@ code.
 2.2, replace **Require all denied** with **order deny,allow | deny from
 all**.
 
-#### Allow only a certain IP address when your site is using SSL
+### Allow only a certain IP address when your site is using SSL
 
     Require all denied
     allow from env=allowclient
@@ -46,7 +46,7 @@ all**.
 You can also use the enviromental variable **HTTP:X-Forwarded-For **for
 the **Allow Only **feature via SSL.
 
-#### Allow only a certain IP address with **HTTP:X-Forwarded-For**
+### Allow only a certain IP address with **HTTP:X-Forwarded-For**
 
     RewriteEngine On
     RewriteCond %{HTTP:X-Forwarded-For} 000\.000\.000\.000
@@ -56,7 +56,7 @@ Replace **000.000.000.000** with your IP address, which allows only your
 IP address to access your site. You can then develop your site without
 restrictions. **You can repeat line 1 to allow multiple IP addresses.**
 
-#### Deny one or more IP addresses
+### Deny one or more IP addresses
 
     Require all granted
     Deny from env=DenyAccess
@@ -66,7 +66,7 @@ restrictions. **You can repeat line 1 to allow multiple IP addresses.**
 2.2, replace **Require all granted | Deny from env=DenyAccess** ****
 with **Order Allow,Deny | Deny from env=DenyAccess | Allow from all**.
 
-#### Deny one or more IP addresses when your site is using SSL
+### Deny one or more IP addresses when your site is using SSL
 
     Require all granted
     Deny from env=DenyAccess
