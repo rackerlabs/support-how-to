@@ -28,7 +28,7 @@ As a customer with a dedicated account:
     your applications.
 -   Create customized visualizations and graphs.
 -   Use remote checks of type
-    [ping](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.ping),[tcp](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.tcp),
+    [ping](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.ping), [tcp](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.tcp),
     and
     [http](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html#section-ct-remote.http).
     For more information, see [Remote check
