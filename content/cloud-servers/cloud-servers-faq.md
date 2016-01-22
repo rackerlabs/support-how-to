@@ -26,8 +26,7 @@ accounts, you are responsible for installing and maintaining all
 software on your server. Rackspace does provide support for specific
 software and server configurations on Cloud Servers with Managed
 Operations. For more information on supported systems and third party
-packages, see [Cloud Servers with Managed Operations - Spheres of
-Support](/how-to/cloud-servers-with-managed-operations-support-for-linux).
+packages, see [Cloud Servers with Managed Operations - Spheres of Support](/how-to/cloud-servers-with-managed-operations-support-for-linux).
 
 #### Do you support Ruby/Python/(insert language or application here)?
 
@@ -43,9 +42,7 @@ Software Development Kits (SDKs) documented at
 #### Do you host DNS?
 
 Yes. Our Control Panel has a DNS menu for maintaining domain records for
-your Cloud Servers. See [Create DNS records for Cloud Servers with the
-Control
-Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
+your Cloud Servers. See [Create DNS records for Cloud Servers with the Control Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
 for more information.
 
 #### What are the DNS servers for my Cloud Server?
@@ -57,7 +54,7 @@ for more information.
 This is a question familiar to those who use shared hosting. There is no
 limit, since you are in control of everything on your Cloud Server.
 
-#### I&rsquo;m kind of new to this, will it be difficult?
+#### I'm kind of new to this, will it be difficult?
 
 Maybe. That mostly depends on your experience as a Systems Administrator
 for Linux and/or Windows Server. Our Linux Cloud Servers are full Linux
@@ -69,8 +66,7 @@ want to start from scratch and tune a system for their own purposes.
 If, after wearing the Systems Administrator hat for a while, you feel
 that you are out of your league - don't despair! We also offer Cloud
 Servers with a Managed Operations. Read here for more information on
-[Cloud Servers with Managed
-Operations](http://www.rackspace.com/cloud/managed_cloud/).
+[Cloud Servers with Managed Operations](http://www.rackspace.com/cloud/managed_cloud/).
 
 #### What level of support comes with Cloud Servers?
 
@@ -86,8 +82,7 @@ installed. We have some articles in the Knowledge Center covering basic
 installation of common applications. We also have community forums where
 you can share tips and tricks with other customers.
 
-If you would like to have a [Managed
-Operations](/how-to/cloud-servers-with-managed-operations-support-for-linux)
+If you would like to have a [Managed Operations](/how-to/cloud-servers-with-managed-operations-support-for-linux)
 on your Cloud Servers, we offer that service. This operations level
 provides additional support on Cloud Servers, which includes monitoring,
 operating system and application infrastructure layer support, and
@@ -95,8 +90,7 @@ technical guidance.
 
 #### What can I do with a Cloud Server?
 
-Anything you want to (within the law and our [Acceptable Use
-Policy](http://www.rackspace.com/cloud/legal/aup/), of course)! The
+Anything you want to (within the law and our [Acceptable Use Policy](http://www.rackspace.com/cloud/legal/aup/), of course)! The
 Rackspace Cloud Server solution is a fully unrestricted,
 root/Administrator level access, Linux or Windows environment. Any
 application or service that you can run from a traditional, physical,
@@ -112,18 +106,12 @@ address.
 
 #### What if I mess up my Cloud Server?
 
-You can [reboot your
-server](/how-to/reboot-your-server).
-You can [restore from a
-backup](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
-You can [delete your
-server](/how-to/deleting-your-server)
-and start over. You can [boot into an emergency rescue
-mode](/how-to/rescue-mode)
+You can [reboot your server](/how-to/reboot-your-server).
+You can [restore from a backup](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+You can [delete your server](/how-to/deleting-your-server)
+and start over. You can [boot into an emergency rescue mode](/how-to/rescue-mode)
 and attempt fix the problem. There are many options for recovering from
-mistakes, but the easiest is to keep regular backups and to [make a
-fresh
-backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
+mistakes, but the easiest is to keep regular backups and to [make a fresh backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
 before attempting any major configuration changes or before installing
 new software.
 
@@ -135,16 +123,14 @@ new software.
 
 Rackspace cannot determine if a given customer is meeting their
 obligations under the laws applicable to them, and it remains our
-customers&rsquo; obligation to understand the laws applicable to their use of
+customers' obligation to understand the laws applicable to their use of
 the services and select appropriate services to meet those obligations.
 We do understand the needs of many of our customers in the healthcare
 space to implement appropriate security measures to protect the
 sensitive information they work with.
 
 To help customers in the healthcare industry meet their compliance
-requirements with regards to HIPAA, Rackspace offers a [Business
-Associate
-Agreement](http://www.rackspace.com/information/legal/hipaabaa) in all
+requirements with regards to HIPAA, Rackspace offers a [Business Associate Agreement](http://www.rackspace.com/information/legal/hipaabaa) in all
 of our dedicated hosting services segments, and it is included by
 default in our agreements with customers for those services.
 
@@ -171,24 +157,22 @@ PVHVM images. If you try to create a work-optimized server by using a
 non-PVHVM image, the following error message is displayed:
 `Image cannot be built with provided flavor`.
 
-For more information about PVHVM, see [Choosing a Virtualization Mode
-(PV versus
-PVHVM)](/how-to/choosing-a-virtualization-mode-pv-versus-pvhvm).
+For more information about PVHVM, see [Choosing a Virtualization Mode (PV versus PVHVM)](/how-to/choosing-a-virtualization-mode-pv-versus-pvhvm).
 
 #### What do I enter in the Server Name field?
 
 The information that you enter in the **Server Name** field helps you
 identify this server in the API and Cloud Control Panel. The name that
-you enter when you create a server is used as the server&rsquo;s host name. If
+you enter when you create a server is used as the server's host name. If
 you rename the server later, the name that is displayed in the API and
 Cloud Control Panel is updated. However, the host name on the computer
 is not updated.
 
 #### Can I connect to a server by using the server name?
 
-To connect to the server from outside of the server&rsquo;s local network, you
+To connect to the server from outside of the server's local network, you
 need to configure an A record in Cloud DNS. To access Cloud DNS, in the
-top navigation bar of the Cloud Control Panel, select **Networking &gt;
+top navigation bar of the Cloud Control Panel, select **Networking >
 Cloud DNS**.
 
 For example, if you name your server
@@ -202,8 +186,7 @@ the API and [Cloud Control Panel](https://mycloud.rackspace.com/).
 
 #### Can I read your SLA?
 
-Sure, it's [right
-here](https://www.rackspace.com/information/legal/cloud/sla "Rackspace Cloud SLA").
+Sure, it's [right here](https://www.rackspace.com/information/legal/cloud/sla).
 
 #### How do I contact Support?
 
@@ -211,24 +194,17 @@ At Rackspace, our goal is to make the Cloud easy for you to use. To meet
 that goal, we have created many different ways for you to get the
 support that you need to get the most out of the Cloud.
 
--   Your first stop should be our [Knowledge
-    Center](/how-to/), which is the best
+-   Your first stop should be [Rackspace How-To](/how-to/), which is the best
     source for articles and tutorials to help you get the precise
     answers that you need.
-    The Knowledge Center contains the [Getting Started with Cloud
-    Servers Guide](/how-to/), which
-    provides you with the most important information that you need to
-    set up a server.
--   Our [Open Cloud
-    Forum](https://community.rackspace.com/products/f/25) in the
+-   Our [Open Cloud Forum](https://community.rackspace.com/products/f/25) in the
     Rackspace Community is always open. Use the forum to get your
     questions answered by a Racker.
 -   Do you have a quick question that you can't find an answer for in
     the Knowledge Center? Open Chat and talk with our Fanatical Support&reg;
     staff anytime, 24x7x365.
 -   Do you have a specialized Service Request or are you experiencing a
-    problem with our service? Open a ticket. From the Rackspace [Cloud
-    Control Panel](http://mycloud.rackspace.com/), select **Support
+    problem with our service? Open a ticket. From the Rackspace [Cloud Control Panel](http://mycloud.rackspace.com/), select **Support
     Tickets** from the Account menu. Click **Create Ticket** to open a
     ticket directly with our support teams to report a problem or make a
     service request.
@@ -249,15 +225,12 @@ evaluation purposes.
 #### Do you host DNS?
 
 Yes. Our Control Panel has a DNS menu for maintaining domain records for
-your Cloud Servers. Read this article for [detailed information on using
-the Rackspace Cloud DNS Control
-Panel](/how-to/getting-started-with-cloud-sites-managing-dns-records).
+your Cloud Servers. Read this article for [detailed information on using the Rackspace Cloud DNS Control Panel](/how-to/getting-started-with-cloud-sites-managing-dns-records).
 
 #### How do I get reverse DNS setup for my Cloud Server?
 
 You can setup reverse DNS from your control panel. This article will
-show you how: [Create a reverse DNS
-record.](/how-to/create-a-reverse-dns-record-0)
+show you how: [Create a reverse DNS record.](/how-to/create-a-reverse-dns-record-0)
 
 #### Is there a throughput limit on my server's network interface card?
 
@@ -277,9 +250,7 @@ per datacenter.
 
 #### Can I buy extra public IPs?
 
-Yes. For more information on the IP request process, see [Requesting
-Additional IPv4 Addresses for First and Next Generation Cloud
-Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
+Yes. For more information on the IP request process, see [Requesting Additional IPv4 Addresses for First and Next Generation Cloud Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
 
 #### I would like to set up multiple servers from the same image. Can I do this?
 
@@ -290,9 +261,7 @@ keep these images even after the Cloud Server they were created on is
 deleted. It also allows the flexibility to create an unlimited number of
 on-demand images of your Cloud Server. All Cloud Server images can be
 used to create new Cloud Servers or restore an existing Cloud Server.
-For details, see [Creating an Image of Your Performance Flavor Server
-with the Control
-Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+For details, see [Creating an Image of Your Performance Flavor Server with the Control Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 
 #### Do you offer on-demand images (snapshots) and scheduled images and what are the prices?
 
@@ -302,22 +271,17 @@ unlimited number of images on-demand, or you can schedule an automatic
 daily or weekly image.
 
 Images will be compressed and stored on Rackspace Cloud Files at the
-[current storage
-rates](http://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
-Please also read this list of [Snapshot
-Limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
+[current storage rates](http://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
+Please also read this list of [Snapshot Limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
 
-If using a virtual cloud server, see [Creating an image of your General
-Purpose Cloud Server with the control
-panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+If using a virtual cloud server, see [Creating an image of your General Purpose Cloud Server with the control panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 for more information on the image options associated with virtual cloud
 servers.
 
 #### I would like to use the GUI interface for my Linux Cloud Server. Is this possible?
 
 Yes it is! An article on how to install VNC and X-Windows is located
-here: [VNC
-Install](/how-to/vnc-install "VNC Install").
+here: [VNC Install](/how-to/vnc-install "VNC Install").
 Keep in mind that this will use up a large amount of bandwidth on your
 server.
 
@@ -326,12 +290,11 @@ server.
 Yes, the Rackspace [Cloud Control Panel](https://mycloud.rackspace.com/)
 is a web-based management interface for restarting your cloud server,
 starting support discussions, viewing stats, and scheduling snapshots.
-However, we do not offer a control panel like Plesk or cPanel. You&rsquo;re
+However, we do not offer a control panel like Plesk or cPanel. You're
 free to install such packages for your own cloud server.
 
 You may be interested in installing the free monitoring agent on your
-server and using the [Cloud Intelligence
-dashboard](https://intelligence.rackspace.com/), which offers many of
+server and using the [Cloud Intelligence dashboard](https://intelligence.rackspace.com/), which offers many of
 the same functions as a control panel.
 
 #### Do you provide Console access?
@@ -363,8 +326,7 @@ charges for a given server, you must delete that server in the Control
 Panel.
 
 If you want to stop paying for a server, but still need to retain the
-configurations from it, your best option is to [create an
-image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+configurations from it, your best option is to [create an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 of the Cloud Server. Your system configurations on your system disk will
 be preserved in the image. The image will be saved in Cloud Files and
 accessible through the Saved Images tab in the Control Panel. There is a
@@ -381,13 +343,11 @@ any associated DNS records to reflect the new IP address.
 
 #### How do I power my server back on after shutting it down?
 
-Please see the following article: [Shutting Down and Restarting a Cloud
-Server](/how-to/reboot-your-server "Shutting Down and Restarting a Cloud Server")
+Please see the following article: [Shutting Down and Restarting a Cloud Server](/how-to/reboot-your-server "Shutting Down and Restarting a Cloud Server")
 
 #### Which distributions do you offer?
 
-The Features section of our [product
-page](http://www.rackspace.com/cloud/servers/) has information regarding
+The Features section of our [product page](http://www.rackspace.com/cloud/servers/) has information regarding
 the Linux distributions and Windows operating systems that we have
 available.
 
@@ -408,14 +368,12 @@ data storage space in one of two ways:
 #### How many users go onto each machine?
 
 The number of customers on a Cloud Server host machine depends on the
-size of the customers&rsquo; Cloud Servers, and the type of operating system.
+size of the customers' Cloud Servers, and the type of operating system.
 
 #### How does the CPU scheduling work on Standard Next Generation servers?
 
-**Note**: [General Purpose Cloud
-Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers)
-have specific virtual CPU allocations, as detailed on the [Cloud Servers
-pricing page](http://www.rackspace.com/cloud/servers/pricing/). The
+**Note**: [General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers)
+have specific virtual CPU allocations, as detailed on the [Cloud Servers pricing page](http://www.rackspace.com/cloud/servers/pricing/). The
 following information on CPU scheduling applies only to next-generation
 standard (for example, not General Purpose) Cloud Servers.
 
@@ -465,16 +423,13 @@ There are different processes of resizes, as follows:
     This includes: Standard resize down.
 
 **NOTE**: Resizing is not available for workload-optimized Cloud
-Servers. For information on your available options, see [Changing the
-size of your workload-optimized Cloud
-Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
+Servers. For information on your available options, see [Changing the size of your workload-optimized Cloud Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
 #### Can I buy extra storage?
 
 While the native storage allocation for a Cloud Server is based on the
 Cloud Server flavor that you select, you can also add extra storage at
-any time with our [Cloud Block
-Storage](http://www.rackspace.com/cloud/blockstorage/) service.
+any time with our [Cloud Block Storage](http://www.rackspace.com/cloud/blockstorage/) service.
 
 ------------------------------------------------------------------------
 
@@ -497,9 +452,7 @@ Purpose Cloud Servers:
     bandwidth on General Purpose Cloud Servers is 10,000 Mbps to divide
     between public and private networks as you choose.
 
-For more information about General Purpose Cloud Servers, see [What is
-new with General Purpose Cloud
-Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
+For more information about General Purpose Cloud Servers, see [What is new with General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
 
 ------------------------------------------------------------------------
 
@@ -508,8 +461,7 @@ Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-server
 #### Do you offer discounts for Cloud Servers?
 
 Yes. We offer different types of discounts based on usage. Please see
-the [Cloud Servers discounts
-page](http://www.rackspace.com/cloud/servers/discounts/) for details.
+the [Cloud Servers discounts page](http://www.rackspace.com/cloud/servers/discounts/) for details.
 
 ------------------------------------------------------------------------
 
@@ -566,7 +518,7 @@ non-RackConnect customers at launch.
 
 #### Is Security Groups available to all Rackspace Public Cloud users?
 
-Security Grouos is in Limited Availability in all Data Centers. Please
+Security Groups is in Limited Availability in all Data Centers. Please
 contact Rackspace support to enable this feature.
 
 #### What are the benefits of using Security Groups?
@@ -596,11 +548,9 @@ instances.
 
 The Rackspace Cloud environment has not been formally assessed for for
 compliance with the Payment Card Industry (PCI) Data Security Standard
-(DSS). For information about PCI-DSS, see [Cloud Security
-Solutions](http://www.rackspace.com/security/solutions/#pci). For
+(DSS). For information about PCI-DSS, see [Cloud Security Solutions](http://www.rackspace.com/security/solutions/#pci). For
 information about PCI-DSS when using Rackspace Dedicated Hosting
-services, see [PCI-Compliant Hosting for E-commerce
-Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
+services, see [PCI-Compliant Hosting for E-commerce Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
 
 #### Can I run a firewall on my server?
 
@@ -679,11 +629,8 @@ The maximum limits are as follows:
 #### Where are your APIs?
 
 You can find the documentation for the API for Cloud Servers and our
-other products on the [Rackspace Developer
-Docs](https://developer.rackspace.com/docs/).
+other products on the [Rackspace Developer Docs](https://developer.rackspace.com/docs/).
 
 Before you can start using our APIs, you will need your API Key. You can
 obtain your API key by following the instructions in our article,
-[Viewing and Regenerating Your API
-Key](/how-to/view-and-reset-your-api-key).
-
+[Viewing and Regenerating Your API Key](/how-to/view-and-reset-your-api-key).

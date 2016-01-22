@@ -6,13 +6,13 @@ created_date: '2011-05-26'
 created_by: David Hendler
 last_modified_date: '2016-01-21'
 last_modified_by: Zach Corleissen
-product: Cloud Servers
-product_url: cloud-servers
+product: Managed Operations
+product_url: managed-operations
 ---
 
 Managed Operations provides support beyond Managed Infrastructure, including direct assistance with resizes, snapshots, host machine issues, adding and removing servers, and managing IP addresses. To ensure Fanatical Support, Rackspace provides support for specific software and server configurations on Cloud Servers with Managed Operations support.
-<p></p>
-## Operating Systems
+
+### Operating Systems
 
 The Managed Operations spheres of support include the following operating systems for Linux cloud servers:
 
@@ -28,8 +28,7 @@ The Managed Operations spheres of support include the following operating system
 
 **Note:**  Information on Windows support can be found in  [Cloud Servers with Managed Operations support for Windows](/how-to/cloud-servers-with-managed-operations-support-for-windows).
 
-<p></p>
-## Web Servers
+### Web Servers
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
@@ -37,9 +36,7 @@ The Managed Operations spheres of support include the following operating system
 | [**lighttpd**](http://www.lighttpd.net) | **Yes** | No | No | **Yes** | **Yes** |
 | [**Nginx**](http://nginx.net) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-
-<p></p>
-## Database Servers
+### Database Servers
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Replication** | **Monitoring** | **Patching** | **Backup** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -51,8 +48,7 @@ The Managed Operations spheres of support include the following operating system
 \*MariaDB is supported for RHEL 7 and CentOS 7
 \*\*Only Master/Slave replication is supported
 
-<p></p>
-## Programming Languages
+### Programming Languages
 
 |   | **Installation** | **Configuration** | **Modules** | **Patching** |
 | --- | --- | --- | --- | --- |
@@ -63,8 +59,8 @@ The Managed Operations spheres of support include the following operating system
 
 \*Support for programming languages is limited to installation and does not include assistance with code or add-on frameworks like Ruby on Rails.
 
-<p></p>
-## Caching
+
+### Caching
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
 | --- | --- | --- | --- | --- |
@@ -72,42 +68,41 @@ The Managed Operations spheres of support include the following operating system
 | [**Squid**](http://squid-cache.org) | **Yes** | No | No | **Yes** |
 | [**Varnish**](http://varnish-cache.org) | **Yes** | **Yes** | Yes | **Yes** |
 
-<p></p>
-## Software Firewall
+
+### Software Firewall
 
 |    | **Installation** | **Configuration** | **Troubleshooting** |
 | --- | --- | --- | --- |
 | [**IPTABLES**](http://www.netfilter.org/projects/iptables/) | **Yes** | **Yes** | **Yes** |
 | [**UBUNTU UFW**](https://wiki.ubuntu.com/UncomplicatedFirewall) | **Yes** | **Yes** | **Yes** |
 
-<p></p>
-## FTP
+
+### FTP
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
 | [**VSFTPD**](https://security.appspot.com/vsftpd.html) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-<p></p>
-## SMTP
+
+### SMTP
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
 | [**POSTFIX Outgoing ONLY**](http://www.postfix.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-<p></p>
-## Other Packages
+
+### Other Packages
 
 While we do not support all technologies, we do offer reasonable endeavor support which extends our support into offering alternative solutions.  The reasonable endeavor support can include help from Rackspace partners and other third party services.
 
 -  **API Support**  - Managed Operations offers all the support functions listed in the [developer guides](http://docs.rackspace.com/).
--  **Cloud Files - **  Integration with Cloud Files is supported via the API, however no development assistance will be offered in utilization via the API.
--  **Load Balancing - **  Cloud Load Balancers are supported by Managed Operations.
+-  **Cloud Files** -  Integration with Cloud Files is supported via the API, however no development assistance will be offered in utilization via the API.
+-  **Load Balancing** - Cloud Load Balancers are supported by Managed Operations.
 -  **Email**  - The default SMTP configuration for outbound email on Linux is through Postfix.  Cloud Servers with a Managed Operations service level are pre-configured to use our mail relay service Mailgun to ensure reliable mail delivery.  The first 50,000 emails sent each month are free, and your mail package can be upgraded if higher volume is expected. For more details see our [Mailgun Rackspace pricing page](http://www.mailgun.com/rackspace).
 -  **Firewalls**  - Support is provided for  [IPTables](http://www.netfilter.org/),  [ufw](https://help.ubuntu.com/community/UFW), and  [fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page).
--  **Control Panels -**  Control Panel applications such as Plesk, Webmin, or cPanel are  **not supported at this time**.
+-  **Control Panels** - Control Panel applications such as Plesk, Webmin, or cPanel are  **not supported at this time**.
 -  **DNS** - Managed Operations supports the use of the Rackspace Cloud nameservers for DNS.  Bind is **not supported at this time**.
 
-<p></p>
-## End of Life Support Dates
+### End of Life Support Dates
 
 Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. Should the manufacturer decide to shorten the support life of an operating system, Rackspace may be forced to end support sooner than originally anticipated.
