@@ -1,6 +1,6 @@
 ---
 node_id: 4682
-title: Rackspace Intelligence - FAQ
+title: Rackspace Intelligence FAQ
 type: article
 created_date: '2015-05-15'
 created_by: Constanze Kratel

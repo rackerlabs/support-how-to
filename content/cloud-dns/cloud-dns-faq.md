@@ -1,6 +1,6 @@
 ---
 node_id: 1239
-title: Cloud DNS - FAQ
+title: Cloud DNS FAQ
 type: article
 created_date: '2011-10-25'
 created_by: Rackspace Support

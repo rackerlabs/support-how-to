@@ -1,6 +1,6 @@
 ---
 node_id: 5043
-title: Cloud Backup - FAQ
+title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

@@ -6,17 +6,16 @@ created_date: '2013-04-18'
 created_by: Sameer Satyam
 last_modified_date: '2016-01-14'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
-Introduction
-------------
+### Introduction
 
 Follow this quick-start guide to spin up a Brocade Vyatta vRouter
 (formerly known as Vyatta network appliance). Keep in mind that the
 username for logging into the appliance once the appliance is up and
-running is &ldquo;vyatta&rdquo; and NOT &ldquo;root.&rdquo; The minimum server size that you
+running is "vyatta" and NOT "root." The minimum server size that you
 will be able to choose is one with a 1GB RAM.
 
 The configuration basics for this appliance can be found in Chapter 4 of
@@ -24,12 +23,11 @@ the quick start guide at
 
 [http://3e851594df14a9eacdef-5cc7866f7aae0a382278b5bce7412a4a.r58.cf1.rackcdn.com/Vyatta-QuickStart\_6.5R1\_v01.pdf](http://bit.ly/ZrdYHq)
 
-Launching the appliance
------------------------
+### Launching the appliance
 
-<span>1. Click on the &ldquo;Create Server&rdquo; button. The Vyatta image should be
-listed in the list of images. Look for an image called &ldquo;Vyatta Network
-OS 6.5R2&rdquo; and select it.</span>
+<span>1. Click on the **Create Server** button. The Vyatta image should be
+listed in the list of images. Look for an image called "Vyatta Network
+OS 6.5R2" and select it.</span>
 
 <span>2. Choose the server size (The minimum size for the server is
 1GB).</span>
@@ -39,14 +37,16 @@ network or choose from an existing network to attach to a server (This
 is in addition to PublicNet and ServiceNet).  Do not disable PublicNet
 or ServiceNet.</span>
 
-<span>4. Click on &ldquo;Create Server.&rdquo; At this point you should see the
+<span>4. Click on **Create Server.** At this point you should see the
 root-password for the appliance. Make note of this password.
-</span>**Keep in mind that you will be able to &lsquo;ssh&rsquo; into the appliance
-using a username &ldquo;vyatta&rdquo; and NOT &ldquo;root.&rdquo;**
+</span>
+
+**Note**: Keep in mind that you will be able to 'ssh' into the appliance
+using a username "vyatta" and NOT "root."
 
 <span>5. Configure the appliance. The appliance can only be configured
-via the command-line-interface. You must &lsquo;ssh&rsquo; into the device on the
-Public interface with username &ldquo;vyatta&rdquo; and the password from the
+via the command-line-interface. You must 'ssh' into the device on the
+Public interface with username "vyatta" and the password from the
 previous step (or anything you changed it to).</span>
 
     $ ssh vyatta@X.X.X.X
@@ -113,7 +113,7 @@ following:
     }
 
 
-You can go into configuration mode by typing the command &lsquo;configure&rsquo;
+You can go into configuration mode by typing the command 'configure'
 
     $ configure
     [edit]
@@ -124,30 +124,24 @@ details at
 
 <http://3e851594df14a9eacdef-5cc7866f7aae0a382278b5bce7412a4a.r58.cf1.rackcdn.com/Vyatta-QuickStart_6.5R1_v01.pdf>
 
-References
-----------
-
-
+### References
 
 For Help with Vyatta configuration for specific use cases please refer
 to the following links:
 
-Firewall: </how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance>
+Firewall: [Configuring interface-based firewall on the Vyatta network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 
 Outbound
-NAT: </how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance>
+NAT:[Enable internet access on Cloud Servers using SNAT on a Vyatta network appliance](/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance)
 
 Site-to-Site
-VPN: </how-to/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance>
+VPN: [Configure a site to site VPN using the Vyatta network appliance](/how-to/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance)
 
 L2TP/IPSec
-VPN: </how-to/configure-remote-access-vpn-service-on-a-vyatta-appliance>
+VPN:[Configure remote access on a Vyatta appliance](/how-to/configure-remote-access-vpn-service-on-a-vyatta-appliance)
 
 Accessing Rackspace Services via Isolated networks using
-SNAT: </how-to/accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance>
+SNAT: [Accessing Rackspace services via isolaged networks through the Vyatta network appliance](/how-to/accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance)
 
 Control Panel "Actions" and limitations for
-Vyatta: </how-to/brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel>
-
-
-
+Vyatta: [Brocade Vyatta vRouter supported actions through the Cloud Control Panel](/how-to/brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel)

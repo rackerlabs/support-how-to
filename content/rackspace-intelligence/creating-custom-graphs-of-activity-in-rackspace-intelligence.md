@@ -16,8 +16,7 @@ focus:
 -   Focus on a single metric, comparing it across multiple entities.
 -   Focus on a single entity, examining it with multiple metrics.
 
-Explore a metric
---------------------
+### Explore a metric
 
 When you focus on a single metric, you can simultaneously view that
 metric on any of the entities you have defined. For example, you can
@@ -25,8 +24,7 @@ choose to see the percentage of idle time for all your entities.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4743.1a.png" width="678" height="364" />
 
-Explore an entity
----------------------
+### Explore an entity
 
 When you focus on a single entity, you can simultaneously view any of
 the metrics available for that entity. For example, you can choose to
@@ -34,8 +32,7 @@ see the entity's percentage of idle time and its maximum usage.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4743.2a.png" width="670" height="353" />
 
-Generate graphs
--------------------
+### Generate graphs
 
 After you have selected the combination of entities and metrics that you
 want to view, click **Generate Graphs**.
@@ -52,6 +49,3 @@ time frame for which you want the metrics to be generated.
 
 Rackspace applies the selected time range to display the graphs for your
 selected checks.
-
-
-

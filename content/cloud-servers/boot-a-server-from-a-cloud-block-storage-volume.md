@@ -14,17 +14,9 @@ product_url: cloud-servers
 
 You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as “shelving,” and improvements in managing and recovering from server outages.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-1.png" width="254" height="269" alt=""  />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-1.png)
 
 **Note:** You cannot boot first-generation or standard servers from a Cloud Block Storage volume. Standard servers support local boot systems only.
-
-*   Benefits
-*   Setup Options
-*   Booting from an existing volume
-*   Volume preparation
-*   Control Panel volume boot
-*   API volume boot options
-
 
 ### Benefits
 
@@ -40,11 +32,11 @@ You can get started through the [Control Panel](https://mycloud.rackspace.com) o
 
 Servers have a local system and can have one or more data disks depending on the flavor.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-2.png" width="650" alt=""  />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-2.png)
 
 Additional remote data volumes can be attached to a server; however, the local system and data are always present.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-3.png" width="650" alt=""  />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-3.png)
 
 Booting from a remote volume moves the system disk off the local server. The local data disk will still be present if the flavor has one.
 
@@ -54,7 +46,7 @@ Booting from a volume requires a Cloud Block Storage volume built from a valid i
 
 ### Volume preparation
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-4.png" width="650" alt=""  />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-4.png)
 
 Server images are in a VHD file format, but Cloud Block Storage requires them to be in RAW format. When a user specifies the volume type, size, and image ID for a volume, the request is sent to Cloud Block Storage. Cloud Block Storage then sends the request to an available storage node that has capacity, and the node pulls down the image and begins the conversion process. Only one conversion process can be performed at a time on a storage node; this has been identified as a potential bottleneck in the process.
 
@@ -68,11 +60,11 @@ Use the following steps to boot a server from a Cloud Block Storage volume throu
 
 1. Create your server by choosing your image and flavor. In the Flavor Description area, click Edit next to Boot Source.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-5.png" width="535" height="407" alt=""  />
+     ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-5.png)
 
 2. In the pop-up window, select **Bootable Volume (Cloud Block Storage)** as the boot source and select the size of your volume. The volume name is based on your server's name, and the volume type is set to SSD.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-6.png" width="478" height="376" alt=""  />
+     ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-6.png)
 
 3.	Click **Select Boot Source**.
 
@@ -80,7 +72,7 @@ After you create the server, your volume is prepared from the selected image.
 
 If you delete your server, the volume persists and is available when you create a new server (only through the API or the nova client at this time).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-7.png" width="508" height="385" alt=""  />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-7.png)
 
 You can also see the volume listed on the **Block Storage** tab.
 
@@ -122,34 +114,34 @@ The preceding example boots a General Purpose 1 GB server from the prepared volu
      {
           "volume":
               {
-                  "display\\_name":"BFB-test-SSD",
+                  "display_name":"BFB-test-SSD",
                   "imageRef":"255df5fb-e3d4-45a3-9a07-c976debf7c14",
-                  "availability\\_zone":null,
-                  "volume\\_type":"SSD",
-                  "display\\_description":null,
-                  "snapshot\\_id":null,
+                  "availability_zone":null,
+                  "volume_type":"SSD",
+                  "display_description":null,
+                  "snapshot_id":null,
                   "size":100
               }
      }
      REQUEST:
-     curl -i 'https://preprod.ord.servers.api.rackspacecloud.com/v2/5892688/os-volumes\_boot' -X POST
+     curl -i 'https://preprod.ord.servers.api.rackspacecloud.com/v2/5892688/os-volumes_boot' -X POST
      RESPONSE:
      {
          "server":
              {
                  "name":"BFTest3",
                  "imageRef":"",
-                 "block\\_device\\_mapping":
+                 "block_device_mapping":
                      [
                          {
-                             "volume\\_id":"8dcf68f9-0321-42f3-a3dc-b861b9335a9b",
-                             "delete\\_on\\_termination":"0",
-                             "device\\_name":"vda"
+                             "volume_id":"8dcf68f9-0321-42f3-a3dc-b861b9335a9b",
+                             "delete_on_termination":"0",
+                             "device_name":"vda"
                          }
                      ],
                  "flavorRef":"general1-1",
-                 "max\\_count":1,
-                 "min\\_count":1,
+                 "max_count":1,
+                 "min_count":1,
                  "networks":
                      [
                          {

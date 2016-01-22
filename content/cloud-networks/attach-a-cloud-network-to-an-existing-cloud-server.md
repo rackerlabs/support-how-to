@@ -6,16 +6,15 @@ created_date: '2012-09-21'
 created_by: Susan Million
 last_modified_date: '2016-01-05'
 last_modified_by: Rose Contreras
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 When you create a new cloud server, you can attach an isolated network
 to it. You can also attach an isolated network to an existing server by
 using one of the following methods:
 
--   By using the [Cloud Networks
-    API](http://docs.rackspace.com/networks/api/v2/cn-devguide/content/ch_preface.html)
+-   By using the [Cloud Networks API](http://docs.rackspace.com/networks/api/v2/cn-devguide/content/ch_preface.html)
 -   By creating an image of the server and building a new server based
     on that image in the Cloud Control Panel
 
@@ -27,14 +26,13 @@ server while networking is being reset on the server.
 To attach an isolated network to an existing cloud server by cloning it
 in the Cloud Control Panel, perform the following steps:
 
-
-
 1.  Log in to the Cloud Control Panel.
 2.  In the Cloud Servers list, click the server to which you want to
     attach the isolated network.
 3.  On the **Server Details** page, scroll to the **Images** section.
-4.  If you already have an image for this server, skip to [step
-    5](#step4). To create an image for the server, in the details page
+4.  If you already have an image for this server, skip to **step 5**.
+
+  To create an image for the server, in the details page
     of the server in the Images section, click **Create Image**, enter a
     name for the image, and then click **Create Image**.
 
@@ -60,29 +58,21 @@ in the Cloud Control Panel, perform the following steps:
     PublicNet (the Internet) and ServiceNet (the Rackspace data
     center network) networks. If you are considering removing these
     networks from the server, we strongly recommend that you read
-    [Removing Networks from a Cloud
-    Server](/how-to/removing-networks-from-a-cloud-server "Remove Networks from a Cloud Server")
+    [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
     to fully understand the limitations that will be placed on this
     server if you remove these networks.
 
 11. Click **Create Server**.
-
-
 
 A new server is created with new public and private IP addresses and
 attached to the networks that you selected.
 
 ### More information about Cloud Networks
 
-[Create an Isolated Cloud
-Network](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Attach an Isolated Network to a New Cloud Server")
+[Create an Isolated Cloud Network](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server)
 
-[Removing Networks from a Cloud
-Server](/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
+[Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
 
-[Using CIDR notation in Cloud
-Networks](/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
+[Using CIDR notation in Cloud Networks](/how-to/using-cidr-notation-in-cloud-networks)
 
-[Cloud Networks Developer
-Guide](http://docs.rackspace.com/networks/api/v2/cn-devguide/ "Cloud Networks Developer Guide")
-
+[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)

@@ -10,54 +10,21 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<span
-style="color: #333333; font-family: arial; line-height: 18.19444465637207px;">After
-successfully resizing a Windows Cloud Server, you will need to perform
+After successfully resizing a Windows Cloud Server, you will need to perform
 some additional steps in order to utilize the new disk space that is
 available for your server. In Windows Server 2012 you can merge the
 newly available disk space into one drive by expanding your original
-drive. </span>** **
+drive.
 
-
-
-Contents
---------
-
--   [Open Computer Management](#opencomputermanagement)
-
-<!-- -->
-
--   [Open Disk Management](#opendiskmanagement)
-
-<!-- -->
-
--   <span style="line-height: 1.538em;">[Extend the
-    Volume](#extendthevolume)</span>
-
-<!-- -->
-
--   [Extend Volume Wizard](#volumewizard)
-
-<!-- -->
-
--   [Select the Volume to Extend](#volumeyouwishtoextend)
-
-<!-- -->
-
--   <span style="line-height: 1.538em;">[Verify Disk
-    Space](#verifydiskspace)</span>
-
-### ** **
-
-### **Open Computer Management**
+### Open Computer Management
 
 From the Desktop of your Windows Server 2012 Cloud Server, open
-the **Server Manager** and select **Tools** &gt; **Computer
+the **Server Manager** and select **Tools > Computer
 Management**.** **
 
-### **<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/tools_computer_manager.png" width="846" height="634" /> **
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/tools_computer_manager.png)
 
-### **Open Disk Management**
+### Open Disk Management
 
 Under the **Storage** folder in the left pane, select **Disk
 Management**. In the left pane of Disk Management you will see the
@@ -66,43 +33,40 @@ should also see an amount of unallocated space in the right pane. In
 this example we have a server with 40 GB of hard disk space that we have
 resized to 80 GB. That expanded storage space is the unallocated 40 GB.
 
-<span
-style="font-size: 1.231em; font-weight: bold; line-height: normal;"><img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/disk_managment.png" width="848" height="635" /></span>
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/disk_managment.png)
 
 ### Extend the Volume
 
-Select the C:\\ drive and right-click on it.  Choose **Extend
+Select the **C:&#92;&#92;** drive and right-click on it.  Choose **Extend
 Volume** from the drop down menu.
 
-**<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_volume.png" width="849" height="636" />**
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_volume.png)
 
-### **Extend Volume Wizard**
+### Extend Volume Wizard
 
 This will open the Extend Volume Wizard. Click **Next** to begin the
 process.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_1.png" width="641" height="519" />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_1.png)
 
 ### Select the Volume you wish to Extend
 
-To add all available space to your C:\\ drive (**Disk 0**) you can keep
+To add all available space to your **C:&#92;&#92;** drive (Disk 0) you can keep
 the default selections and press **Next**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_2.png" width="641" height="520" />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_2.png)
 
-You will now see the C:\\ drive expand to the maximum available space.
+You will now see the **C:&#92;&#92;** drive expand to the maximum available space.
 To finalize the modifications click **Finish**.
 
-** <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_3.png" width="640" height="519" />**
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_3.png)
 
-### **Verify Disk Space**
+### Verify Disk Space
 
-You will now see the additional disk drive volume that you created.
- Close Computer Management and begin using the additional space that you
-have just created.  You can verify that the Extend process worked
-correctly by loading the **Computer** **Manager **fromthe Server
-Manager and checking the disk size for the C:\\ drive in **Disk
+You will now see the additional disk drive volume that you created. Close Computer Management and begin using the additional space that you
+have just created. You can verify that the Extend process worked
+correctly by loading the **Computer Manager** from the Server
+Manager and checking the disk size for the **C:&#92;&#92;** drive in **Disk
 Management**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify.png" width="850" height="637" />
-
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify.png)

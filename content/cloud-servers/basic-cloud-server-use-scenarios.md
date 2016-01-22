@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### <span class="mw-headline">Setting Up Websites</span>
+### Setting Up Websites
 
 Users can get root access to a Cloud server and install the Apache
 webserver on it and then install PHP if needed. Users can optionally add
@@ -18,18 +18,18 @@ Load Balancing and Failover capabilities to the website. Users can
 reduce cost of marketing and customer facing infrastructure by using
 Cloud Servers.
 
-### <span class="mw-headline">Maintaining Databases</span>
+### Maintaining Databases
 
 A Cloud Server could be used as a database server. A user could install
 MySQL,PostgreSQL, MSSQL or for that matter any database which runs on
 the supported operating systems. The Cloud server can now serve as the
 primary or secondary database.
 
-### <span class="mw-headline">Sending And Receiving Mail</span>
+### Sending And Receiving Mail
 
 A Cloud Server can be used as an email server or email client.
 
-### <span class="mw-headline">Developing and testing Applications</span>
+### Developing and testing Applications
 
 A Cloud server can cut down cost of development and test of new
 applications. Development servers can be provisioned in minutes and used
@@ -37,4 +37,3 @@ only for the duration that they are needed. This cuts down hardware
 procurement time as well as capital expenses. Users can also reduce the
 time for setup and tear down of testing environments using the Cloud
 Servers API.
-

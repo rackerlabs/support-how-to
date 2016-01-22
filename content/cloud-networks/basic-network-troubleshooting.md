@@ -6,8 +6,8 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2016-01-13'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 Networking issues can be problematic when working on a remote server. If
@@ -17,12 +17,7 @@ networking problems can be solved by logging into the web console
 (through your The Rackspace Cloud Control Panel) and running a few
 simple commands.
 
--   [<span class="toctext">ifconfig</span>](#ifconfig)
--   [<span class="toctext">iptables</span>](#iptables)
--   [<span class="toctext">route</span>](#route)
-
-ip addr show<span class="mw-headline"> </span>
---------------------------------------------------
+### ip addr show
 
 ip addr show is a basic network information and configuration tool. On a
 working Cloud Server, its output may look something like this:
@@ -55,7 +50,7 @@ working Cloud Server, its output may look something like this:
               collisions:0 txqueuelen:0
               RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
 
-### <span class="mw-headline">Common Problems </span>
+#### Common Problems
 
 If, upon running ifconfig, you do not see an IP address under eth0, try
 
@@ -71,8 +66,7 @@ This will bring up the interface under its default configuration.
 Similar steps may be followed to fix the internal connection by using
 'eth1' and your assigned private (10.xx.xx.xx) IP.
 
-<span class="mw-headline">iptables </span>
-----------------------------------------------
+### iptables
 
 iptables is a commonly-used firewall in Linux. By default, your Cloud
 Server should have iptables already installed, but it will not be
@@ -80,7 +74,7 @@ configured. To list the firewall rules, run
 
     iptables -L
 
-. A newly-built server will show the following:
+A newly-built server will show the following:
 
     # iptables -L
     Chain INPUT (policy ACCEPT)
@@ -92,19 +86,19 @@ configured. To list the firewall rules, run
     Chain OUTPUT (policy ACCEPT)
     target     prot opt source               destination
 
-### <span class="mw-headline">Common Problems </span>
+#### Common Problems
 
 If your iptables output differs from the above, the firewall may be
 causing your issue.
 
-<span class="mw-headline">route </span>
--------------------------------------------
+### route
 
 route is used to view and edit the routing table. The output of route
 may display several lines, but the most important (or the most commonly
-broken) is one called the default gateway. (**Note:** Various Linux
-distros may configure their routes slightly differently. The output
-shown below is from a Debian server.)
+broken) is one called the default gateway.
+
+**Note:** Various Linux distros may configure their routes slightly differently. The output
+shown below is from a Debian server.
 
     # route
     Kernel IP routing table
@@ -120,11 +114,10 @@ network, while the next three lines are specific to the internal
 network. The last line is the default gateway, and should point to
 xx.xx.xx.1 (where the first three octets match those of the top line).
 
-### <span class="mw-headline">Common Problems </span>
+#### Common Problems
 
 To change the default route, run
 
     route add default gw xx.xx.xx.1
 
 replacing "xx.xx.xx" as described above.
-

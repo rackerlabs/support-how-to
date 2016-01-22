@@ -13,8 +13,7 @@ product_url: cloud-servers
 When you're creating new Rackspace cloud resources it's important to
 understand what a region is and how to use regions effectively.
 
-What is a Region?
------------------
+### What is a Region?
 
 A region is a collection of one or more data centers interconnected by a
 low-latency, high-bandwidth network. A region can be viewed as a
@@ -53,8 +52,7 @@ region is not available to new customers. If you are a new customer, you
 can open a ticket in the Cloud Control Panel to add ORD to your account,
 pending approval.
 
-Benefits of using regions
--------------------------
+### Benefits of using regions
 
 Whenever possible, consider locating all of your Rackspace
 infrastructure in the same region to receive the following benefits:
@@ -65,18 +63,17 @@ infrastructure in the same region to receive the following benefits:
     public cloud scenarios.
 
 -   **Network performance:**  All resources provisioned within a region
-    have internal connectivity over a private, low latentcy, high
+    have internal connectivity over a private, low latency, high
     bandwidth network. The physical distance between resources is small
     and improves the speed of network traffic and throughput.
 
 -   **Free bandwidth.**  All communication over the Rackspace Network
     (aka ServiceNet) within the same region is free.
 
-About free bandwidth
---------------------
+### About free bandwidth
 
 The example explains how to avoid bandwidth charges for communication
-between resoruces in the same region.
+between resources in the same region.
 
 Let's say you're going to set up a new Cloud Load Balancer that will
 service two Cloud Servers currently running in the Dallas region. When
@@ -84,7 +81,7 @@ you create the new load balancer, choose the same region as your
 servers, in this Dallas (DFW) region. There will be no bandwidth charges
 for the communications between the servers and load balancers in this
 region. Note that if later added a Cloud Server running in the Chicago
-region to the load balancer in Dallas, normal bandwith charges would be
+region to the load balancer in Dallas, normal bandwidth charges would be
 incurred for traffic between the server in Chicago and the load balancer
 in Dallas.
 
@@ -99,12 +96,10 @@ should create your resources in the same region to keep the resource
 close to end-users and other infrastructure, for increased network
 performance, and to avoid internal bandwidth charges.
 
-Related information
--------------------
+### Related information
 
 [Load Balancing Internal IPs in the Same
 Region](/how-to/load-balancing-internal-ips-in-the-same-region)
 
 [Learn More About Cloud
 Servers](/how-to/learn-more-about-cloud-servers)
-

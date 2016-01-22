@@ -10,9 +10,8 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-This Guide shows you how to get the most out of Rackspace Cloud Backup well and addresses frequently encountered scenarios. Working through this guide, you will better understand the key backup concepts, how to make smart choices about what to backup (and how often), how to make the most of data restoration, and how to resolve the most commonly encountered Cloud Backup issues.
+This guide shows you how to get the most out of Rackspace Cloud Backup well and addresses frequently encountered scenarios. Working through this guide, you will better understand the key backup concepts, how to make smart choices about what to backup (and how often), how to make the most of data restoration, and how to resolve the most commonly encountered Cloud Backup issues.
 
-<a name="conventions"> </a>
 
 | Conventions |
 --- |
@@ -20,24 +19,21 @@ This Guide shows you how to get the most out of Rackspace Cloud Backup well and 
 &#9995; | **Caution**. Consider the potential outcomes before you do these actions.
 &#10060; | **Do Not Attempt**. These are warnings against possible future trouble.
 
-<a name="concepts"> </a>
 ### Key concepts
 
 Knowing the language of backup goes a long way towards helping you make informed decisions about your backup operations.
 
-- **Backup**—a spare copy of data to be used in the event of a failure or loss of the original.
-- **Backup Configuration**—instructions to the backup agent that indicate 1) what you want to backup and 2) how often you'd like to save that information.
-- **Block**—a chunk of data from a file.
-- **Bundle**—several blocks packaged together.
-- **Cloud Backup Agent**—a program installed on your server that knows how to perform backups and restores.
-- **Data Churn**—how often a file changes.
-- **Encryption**—a method of scrambling the contents of data using a key or a password so that only those that have the password or key can read the data.
-- **Restore**—to bring your system back to a previously saved state, usually using a backup as the checkpoint.
-- **Snapshot**—a checkpoint of system data/state, usually a backup.
-- **The Vault**—disk space that contains information about every block of data that you've ever stored. It is shared between all of your backup configurations.
+- **Backup**: a spare copy of data to be used in the event of a failure or loss of the original.
+- **Backup Configuration**: instructions to the backup agent that indicate 1) what you want to backup and 2) how often you'd like to save that information.
+- **Block**: a chunk of data from a file.
+- **Bundle**: several blocks packaged together.
+- **Cloud Backup Agent**: a program installed on your server that knows how to perform backups and restores.
+- **Data Churn**: how often a file changes.
+- **Encryption**: a method of scrambling the contents of data using a key or a password so that only those that have the password or key can read the data.
+- **Restore**: to bring your system back to a previously saved state, usually using a backup as the checkpoint.
+- **Snapshot**: a checkpoint of system data/state, usually a backup.
+- **The Vault**: disk space that contains information about every block of data that you've ever stored. It is shared between all of your backup configurations.
 
-
-<a name="choosing"></a>
 ### Choosing what to backup
 
 Our best guidance is not what to backup, but what not to backup:
@@ -68,7 +64,6 @@ These file types either change too rapidly (databases, logs, caches) or don't ex
 --- | ---
 &#10060; | Do not back up session files or caches at all. Don't back up databases or log files directly; use a snapshot instead.
 
-<a name="best_practices"> </a>
 ### Backup and Restore Best Practices
 
 There are many ways to configure backups and restores. To make Cloud Backup work best for you, it helps to understand some of the tradeoffs you make when you configure the many options available to you.
@@ -79,7 +74,6 @@ There are many ways to configure backups and restores. To make Cloud Backup work
 --- | ---
 &#9989; | First off, choose your contact email carefully when you configure your backup. If anything goes wrong, you will be alerted there first.
 
-<a name="frequency"></a>
 #### Backup Frequency
 
 When trying to determine how often to back up a file, there are three variables to consider:
@@ -101,13 +95,11 @@ Lower Criticality | Higher Criticality
 High Data Churn | Low Data Churn
 Larger Size | Smaller Size
 
-&nbsp;
 
 &nbsp; | &nbsp;
 --- | ---
 &#9989; | Do not make decisions about backup frequency lightly. If you try to backup or restore files more frequently than the backup engine can keep up with, anomalous behavior may result.
 
-<a name="restores"></a>
 #### Effective Restores
 
 It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren’t available because you haven't been configured as you expected.
@@ -118,7 +110,6 @@ It is a good idea to periodically test your restores to make sure that they are 
 
 Another point to consider is the restore destination. Restoring to the original location and overwriting saves on storage space, but you risk accidentally overwriting important existing files. Proceed with caution when restoring.
 
-<a name="encryption"></a>
 #### Encryption: Costs and Benefits
 
 Encryption is important for keeping your data confidential. However, encryption has its costs. It takes significantly longer to backup and restore encrypted data. Consider if the data you are storing must be encrypted. If not, then it is best to proceed without encryption. Encryption applies across the board, and once you encrypt a backup server, you may not remove it.
@@ -127,9 +118,7 @@ Encryption is important for keeping your data confidential. However, encryption 
 --- | ---
 &#9989; | Once you've set a server to encrypt data, all backups performed on that server will be encrypted.
 
-
-<a name="issues"></a>
-## Frequently Encountered Issues
+### Frequently Encountered Issues
 
 This section is similar to an FAQ. If you encounter a problem and need immediate help, look it up here first. There's a good chance a solution already exists.
 
@@ -137,30 +126,28 @@ This section is similar to an FAQ. If you encounter a problem and need immediate
 --- | ---
 &#9989; | To minimize your chances of issues, keep your Backup Agent updated. Many errors and issues are fixed between releases.
 
-**Issue**—My backups are getting randomly corrupted. Why?
+**Issue**: My backups are getting randomly corrupted. Why?
 
 - Does your server have a backup agent and did you clone it to create a new backup system? This means that two backup agents exist with the same credentials writing to the same Vault.
 
 
-**Solution**—Ensure the agent on the cloned backup server is re-registered before any backups are run.
+**Solution**: Ensure the agent on the cloned backup server is re-registered before any backups are run.
 &nbsp;
 
-**Issue**—My backup is experiencing network errors.
-**Solution**—Make sure that your backup server has a connection to both Service Net and public net. If it is on an isolated network, the backup agent will not be able to function properly.
+**Issue**: My backup is experiencing network errors.
+**Solution**: Make sure that your backup server has a connection to both Service Net and public net. If it is on an isolated network, the backup agent will not be able to function properly.
 &nbsp;
 
-**Issue**—Sometimes, my backups fail.
+**Issue**: Sometimes, my backups fail.
 
 - This is most commonly caused by either a failure to communicate with Cloud Files, running out of disk space, or a failure to communicate with Cloud Backup.
 - Sometimes, the agent may fail to backup a particular file because of a permissions error. Either the file is in use when the agent attempts to save it or the file in question cannot be read by the agent. Consider permissions when hunting for the root cause of a backup failure.
 
 
-**Solution**—Ensure you're running the latest agent release. Then, attempt to determine the cause of the error. Try the backup/restore again if it is an intermittent error. We're always working on making Cloud Backup more robust.
+**Solution**: Ensure you're running the latest agent release. Then, attempt to determine the cause of the error. Try the backup/restore again if it is an intermittent error. We're always working on making Cloud Backup more robust.
 &nbsp;
 
-**Issue**—My backup/restore is slow. What can I do?
+**Issue**: My backup/restore is slow. What can I do?
 
 - If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, “What Should I Not Save?”. The less there is to save/restore, the faster it will be.
 - We're always working on optimizing the agent to make backup and restore faster.
-
-&nbsp;

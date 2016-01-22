@@ -1,6 +1,6 @@
 ---
 node_id: 4228
-title: Rackspace Private Cloud - FAQ
+title: Rackspace Private Cloud FAQ
 type: article
 created_date: '2014-09-09'
 created_by: Karin Levenstein
