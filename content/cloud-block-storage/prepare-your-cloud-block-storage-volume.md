@@ -4,14 +4,14 @@ title: Prepare your Cloud Block Storage volume
 type: article
 created_date: '2012-10-21'
 created_by: David Hendler
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
-**Previous section:** [Create and Attach a Cloud Block Storage
-Volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
+**Previous section:** [Create and attach a Cloud Block Storage
+volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
 
 After you have [created and
 attached](/how-to/create-and-attach-a-cloud-block-storage-volume "created and attached")
@@ -22,7 +22,7 @@ usable like a drive on your server.
 
 
 
-### Prepare Your Volume for Use with a Linux Server
+### Prepare your volume for use with a Linux server
 
 #### Step 1. Use SSH to connect to your server.
 
@@ -31,9 +31,9 @@ that password for this step. If you do not have the password, go to the
 Cloud Servers page of the Cloud Control Panel, click the gear icon next
 to the server name, and select **Change Password**.
 
-1.  On the Server Details page of the Control Panel, find the IP address
+1\.  On the Server Details page of the Control Panel, find the IP address
     for your server.
-2.  Using SSH, log in to the server as root by using its IP address and
+2\.  Using SSH, log in to the server as root by using its IP address and
     root password.
 
 Example Input:
@@ -50,7 +50,7 @@ Example Output:
      * Documentation:  http://www.ubuntu.com/server/doc
     Last login: Thu Oct 18 02:26:38 2012 from 70.114.215.201
 
-1.  After you are logged in, list the disks on your server.
+3\. After you are logged in, list the disks on your server.
     Your volume is typically listed as the last drive in this list. In
     the following example, the 100 GB volume that was created in the
     [Create and Attach a Cloud Block Storage
@@ -89,7 +89,7 @@ Partitioning the disk tells the server how much space on the drive you
 want to use. To use all of it, we tell the server to start at the first
 cylinder of the disk and go to the last.
 
-1.  Run the fdisk utility and specify the disk.
+1\.  Run the fdisk utility and specify the disk.
 
 Example Input:
 
@@ -129,7 +129,7 @@ Example Output:
 
     Command (m for help):
 
-1.  Enter **n** to create a new partition.
+2\.  Enter **n** to create a new partition.
 
 Example Input:
 
@@ -141,7 +141,7 @@ Example Output:
        e   extended
        p   primary partition (1-4)
 
-1.  Enter **p** to indicate a primary partition.
+3\.  Enter **p** to indicate a primary partition.
 
 Example Input:
 
@@ -151,7 +151,7 @@ Example Output:
 
     Partition number (1-4):
 
-1.  To create only one partition on this disk, enter **1**.
+4\.  To create only one partition on this disk, enter **1**.
 
 Example Input:
 
@@ -161,14 +161,14 @@ Example Output:
 
     First cylinder (1-13054, default 1):
 
-1.  To accept the default start cylinder, which is 1, press **Enter**.
+5\.  To accept the default start cylinder, which is 1, press **Enter**.
 
 Example Output:
 
     Using default value 1
     Last cylinder, +cylinders or +size{K,M,G} (1-13054, default 13054):
 
-1.  Press **Enter** to use the default, which is 1. Because you are
+6\.  Press **Enter** to use the default, which is 1. Because you are
     using the entire volume for your partition, start the partition at
     the beginning.
 
@@ -178,7 +178,7 @@ Example Ouput:
 
     Command (m for help):
 
-1.  Enter **w** to write the partition.
+7\.  Enter **w** to write the partition.
 
 Example Input:
 
@@ -191,7 +191,7 @@ Example Output:
     Calling ioctl() to re-read partition table.
     Syncing disks.
 
-1.  List the disks on your server again.
+8\.  List the disks on your server again.
     Your Cloud Block Storage volume is ready as a disk. It was attached
     at /dev/xvdb and you created one partition on it, so now your
     available disk appears at /dev/xvdb1.
@@ -301,7 +301,7 @@ remains persistent after a server reboot.
 This step is optional, but it keeps your volume attached to your server
 after restarts.
 
-1.  Add your volume to the static file system information in the
+1\.  Add your volume to the static file system information in the
     fstab file.
 
 **Note**: In your fstab options, add the \_netdev option. This option
@@ -331,7 +331,7 @@ Now the volume persists on the server after server restarts.
 
 
 
-### Prepare Your Volume for Use with a Windows Server
+### Prepare your volume for use with a Windows server
 
 **Note**: In the examples in the procedure, a 100 GB volume is added to
 a Windows Server 2012 server. The steps are similar for all
@@ -344,9 +344,10 @@ password for this step. If you do not have the password, go to the Cloud
 Servers page of the Cloud Control Panel, click the gear icon next to the
 server name, and select **Change Password**.
 
-1.  On the Server Details page of the Cloud Control Panel, find the IP
+1\.  On the Server Details page of the Cloud Control Panel, find the IP
     address for your server.
-2.  Using the server&rsquo;s IP address and password, use Remote Desktop to
+
+2\.  Using the server&rsquo;s IP address and password, use Remote Desktop to
     connect to the server as an administrator.
 
 When you first log in and view the Computer window, you will not see the
@@ -355,7 +356,7 @@ following example, only the server's C drive is displayed.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win%20-%20no%20volume.png" width="550" height="412" />
 
-1.  Open the Server Manager window by right-clicking on the Computer
+3\.  Open the Server Manager window by right-clicking on the Computer
     icon and selecting Manage.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20manage%20-%20ord.png" width="441" height="340" />
@@ -364,12 +365,12 @@ The Server Manager window is displayed:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20server%20mgr.png" width="547" height="270" />
 
-1.  In the left pane of the Server Manager window, click **File and
+4\.  In the left pane of the Server Manager window, click **File and
     Storage Services**.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20windows%20-%20file%20and%20storage.png" width="293" height="300" />
 
-1.  In the left pane, click **Disks**.  In the following example, a 100
+5\.  In the left pane, click **Disks**.  In the following example, a 100
     GB volume is attached to the server. It is listed as Offline, it has
     100 GB of unallocated space, and its partition size is Unknown.
 
@@ -381,9 +382,10 @@ For Windows servers, you partition and format the volume by using the
 New Volume Wizard. The mounting process, called "bringing it online" in
 Windows terminology, is required before running this wizard.
 
-1.  To bring the volume online, in the Disks pane, right-click the
+1\.  To bring the volume online, in the Disks pane, right-click the
     offline drive and select **Bring Online** from the pop-up menu.
-2.  In the Disks pane, right-click the drive and select **New Volume**
+
+2\.  In the Disks pane, right-click the drive and select **New Volume**
     from the pop-up menu. In Windows Server 2008, you right-click the
     unallocated drive and select **New Simple Volume**.
 
@@ -391,17 +393,17 @@ The New Volume Wizard opens.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20new%20volume%20wizard%200.png" width="565" height="419" />
 
-1.  Click **Next**. In the Server and Disk page, the unformatted Cloud
+3\.  Click **Next**. In the Server and Disk page, the unformatted Cloud
     Block Storage volume is displayed.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20wizard%201.png" width="561" height="409" />
 
-1.  Select the disk and click **Next**.  If the Offline or Uninitialized
+4\.  Select the disk and click **Next**.  If the Offline or Uninitialized
     Disk message appears, click **OK**.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win%20-%20init%20-%20disk.png" width="405" height="156" />
 
-1.  In the next three wizard pages, specify the drive size, the drive
+5\.  In the next three wizard pages, specify the drive size, the drive
     letter, and the format and name for the volume. Confirm your
     settings in the Confirmation page. In this example, the disk's full
     100 GB is used, it is assigned the drive letter D, it is formatted
@@ -409,7 +411,7 @@ The New Volume Wizard opens.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20volume%20details.png" width="601" height="438" />
 
-1.  To complete the process, click **Create**.
+6\.  To complete the process, click **Create**.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win%20-%20completion.png" width="616" height="243" />
 
@@ -424,6 +426,5 @@ Your volume is now ready for use.
 
 ### Next steps
 
-[Create and Use Cloud Block Storage
-Snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
-
+[Create and use Cloud Block Storage
+snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
