@@ -49,55 +49,51 @@ Perform the following steps:
     the Hostname. You'll use it in a later step. The Hostname looks
     something like this:
 
-<img src="http://c691244.r44.cf2.rackcdn.com/Hostname%20of%20Database.png" alt="Database Hostname" width="600" />
+  <img src="http://c691244.r44.cf2.rackcdn.com/Hostname%20of%20Database.png" alt="Database Hostname" width="600" />
 
 ### On your current database
-
 4.  On the machine where your existing database is currently located,
     run the following MySQL command to export your database:
 
-         mysqldump -u username -p database_name > database_name.sql
-        
+        mysqldump -u username -p database_name > database_name.sql
 
-- `database_name` is the name of your existing database.
+  - `database_name` is the name of your existing database.
 
-- `database_name.sql` is the name of the exported database file.
+  - `database_name.sql` is the name of the exported database file.
 
-- Replace `username` with the username you use to access the
+  - Replace `username` with the username you use to access the
 original database.
 
   **Note**: If you are creating a dump from a Cloud Databases
 Instance, see [exporting
 data](/how-to/exporting-data-from-mysql)
 for information on how to perform this dump.
-
 5.  Use SFTP to copy the exported .sql file to the Cloud Server that
     will access your Cloud Database.
 6.  With the .sql file copied to your Cloud Server, use ssh to log into
     the Cloud Server.
 7.  If you don't have a MySQL client installed on your server, install
-    it now. 
-- On Ubuntu and Debian, install the client with the following
+    it now.
+
+   - On Ubuntu and Debian, install the client with the following
     command:
 
-      sudo apt-get install mysql-client
+            sudo apt-get install mysql-client
 
-- On Fedora and CentOS, install the client with this command:
+   - On Fedora and CentOS, install the client with this command:
 
-      sudo yum install mysql
-
-
+            sudo yum install mysql
 8.  Run the following MySQL import command, substituting that long
     public hostname you copied from the Control Panel for the `hostname`
     in the command:
 
-         mysql -h 31blah2d.rackspaceclouddb.com -u username -p database_name < database_name.sql
-         
+        mysql -h 31blah2d.rackspaceclouddb.com -u username -p database_name < database_name.sql
 
-- Replace `username` with the username you use to access the
+
+  - Replace `username` with the username you use to access the
 database.
 
-- `database_name` is the name of the database.
+  - `database_name` is the name of the database.
 
   The database is imported and ready to accept new data.
 
@@ -134,28 +130,28 @@ Perform the following steps:
 
          mysqldump -u username -p database_name > database_name.sql
 
-- `database_name` is the name of your existing database.
+  - `database_name` is the name of your existing database.
 
-- `database_name.sql` is the name of the exported database file.
+  - `database_name.sql` is the name of the exported database file.
 
-
-- Replace `username` with the username you use to access the
+  - Replace `username` with the username you use to access the
 original database.
 
   **Note**: If you are creating a dump from a Cloud Databases
 Instance, see [exporting
 data](/how-to/exporting-data-from-mysql)
 for information on how to perform this dump.
+
 5.  Run the following MySQL import command, substituting that long
     public hostname you copied from the Control Panel for the `hostname`
     in the command:
 
          mysql -h hostname -u username -p database_name < database_name.sql
 
-- Replace `username` with the username you use to access the
+  - Replace `username` with the username you use to access the
 database.
 
-- `database_name` is the name of the database.
+  - `database_name` is the name of the database.
 
   The database is imported and ready to accept new data.
 
@@ -199,4 +195,3 @@ External Links
 <https://mariadb.com/kb/en/mariadb/documentation/>
 
 <https://www.percona.com/software/mysql-database/percona-server>
-
