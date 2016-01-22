@@ -26,24 +26,6 @@ To update the agent, see the instructions in [Update the Rackspace Cloud
 Backup
 Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>CONTENTS</strong>
-<ul>
-<li><a href="#prerequisites">Requirements</a></li>
-<li><a href="#install">Installation</a></li>
-<li><a href="#update">Update</a></li>
-<li><a href="#troubleshooting">Troubleshooting</a></li>
-<li><a href="#uninstallwindows">Uninstall</a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
 ### Requirements
 
 Before installing the agent on a server, a new agent installation
