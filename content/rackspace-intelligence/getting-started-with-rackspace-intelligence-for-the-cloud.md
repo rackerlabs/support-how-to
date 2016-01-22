@@ -40,10 +40,10 @@ Rackspace as an entity, then you might be able to usefully place a check
 on its ping time, but you probably won&rsquo;t to be able to check the space
 available in its file system.
 
-**Note:**Early publications about Rackspace Intelligence referred to it
-as*Cloud*Intelligence. Because the service is meant to be useful for
+**Note: **Early publications about Rackspace Intelligence referred to it
+as *Cloud* Intelligence. Because the service is meant to be useful for
 both cloud and dedicated devices, it is now
-named*Rackspace*Intelligence. The Rackspace Intelligence team is working
+named *Rackspace* Intelligence. The Rackspace Intelligence team is working
 to add support for dedicated accounts.
 
 ------------------------------------------------------------------------
@@ -242,5 +242,3 @@ or custom graphs:
 -   With [custom
     graphs](/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence),
     you can compare multiple entities and multiple metrics.
-
-
