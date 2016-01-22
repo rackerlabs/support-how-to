@@ -1,6 +1,6 @@
 ---
 node_id: 5022
-title: Cloud Block Storage - FAQ
+title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

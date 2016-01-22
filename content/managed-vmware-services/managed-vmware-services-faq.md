@@ -1,6 +1,6 @@
 ---
 node_id: 5046
-title: Managed VMware Services - FAQ
+title: Managed VMware Services FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

@@ -1,6 +1,6 @@
 ---
 node_id: 5061
-title: Email Archiving - FAQ
+title: Email Archiving FAQ
 type: article
 created_date: '2015-12-14'
 created_by: Benjamin Jeffery

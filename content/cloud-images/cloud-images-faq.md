@@ -1,6 +1,6 @@
 ---
 node_id: 3851
-title: Cloud Images - FAQ
+title: Cloud Images FAQ
 type: article
 created_date: '2014-01-14'
 created_by: Cloud Images

@@ -1,6 +1,6 @@
 ---
 node_id: 5026
-title: Cloud Databases - FAQ
+title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
