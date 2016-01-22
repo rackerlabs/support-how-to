@@ -6,8 +6,8 @@ created_date: '2015-12-10'
 created_by: Rackspace Support
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
 
 ### DNS
@@ -50,7 +50,7 @@ The SOA record includes the following details:
 
 ------------------------------------------------------------------------
 
-### FAQ
+### General
 
 #### Does Rackspace donate used equipment?
 
