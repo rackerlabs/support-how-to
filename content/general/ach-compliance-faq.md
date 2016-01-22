@@ -6,8 +6,8 @@ created_date: '2015-04-09'
 created_by: Andrea Gillespie
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
 
 Automated Clearing House (ACH) is an electronic network used in the
@@ -16,18 +16,6 @@ National Automated Clearing House Association (NACHA) and handles
 electronic check payments. This FAQ answers questions about changes that
 Rackspace is making to our ACH process and how those changes affect
 customers.
-
--   [Why are you changing your policy?](#whychangingpolicy)
--   [Where do I go to access or view my payment
-    information?](#wherepaymentinfo)
-
--   [Where do I go to re-enter my ACH payment
-    information?](#wherere-enter)
-
--   [What ACH information will I need to re-enter?](#whatachinfoneeded)
-
--   [Can I view a history of my online e-Check
-    payments?](#e-checkHistory)
 
 #### Why are you changing your policy?
 
@@ -80,4 +68,3 @@ portal. In the top menu, click  **E-Check Payment History**.
 
 **Note**: This feature maintains a history of only e-Check payments.
 Payments made with other payment methods do not appear in this list.
-
