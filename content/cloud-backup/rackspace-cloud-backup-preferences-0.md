@@ -1,6 +1,6 @@
 ---
 node_id: 2041
-title: Rackspace Cloud Backup - Preferences
+title: Cloud Backup Preferences
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
@@ -12,11 +12,10 @@ product_url: cloud-backup
 
 ### Previous section
 
-[Rackspace Cloud Backup - System
+[Cloud Backup System
 Actions](/how-to/rackspace-cloud-backup-system-actions)
 
-Preferences
------------
+### Preferences
 
 On the Preferences screen, you can determine how Cloud Backup notifies
 you about Backup activity on your Account.
@@ -43,6 +42,5 @@ boxes and click **Save Preferences** button.
 
 ### Next steps
 
-[Rackspace Cloud Backup -
+[Cloud Backup
 Troubleshooting](/how-to/cloud-backup-troubleshooting)
-
