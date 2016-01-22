@@ -11,7 +11,7 @@ product_url: rackspace-intelligence
 ---
 
 **Note:** This guide is for Rackspace Intelligence on a dedicated
-account. If you have a standar cloud account, click
+account. If you have a standard cloud account, click
 [here](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud)
 for the applicable getting started guide.
 
@@ -68,5 +68,3 @@ notificaton plans**
 -   [Working with alarms, checks, notifications, and notification plans
     for dedicated
     accounts](/how-to/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace)
-
-
