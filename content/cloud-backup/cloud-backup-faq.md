@@ -58,6 +58,29 @@ this container, contact Rackspace Support.
 
 ### Backups
 
+#### What is Rackspace Cloud Backup?
+
+Rackspace Cloud Backup is a service that allows you to select and backup
+specific files and folders from your Cloud Server. You can schedule any
+number of Backup jobs, and restore to the same system or a different
+one, giving you the flexibility and power to work with your schedule and
+your data.
+
+Some key features are
+
+-   Select the files and folders from your Cloud Server you want to back
+    up
+-   Run your backups manually or on a schedule that works for you
+-   See the activity from all your backups, both current and previous
+-   Use AES-256 encryption with a private encryption key known only to
+    you
+-   Restore individual files and folders from a particular date
+-   Save space with incremental backups that only save the changed
+    portions of files
+-   Create unlimited Backups
+
+For information on getting started with Cloud Backup, see our [introduction for Cloud Backup](/how-to/cloud-backup).
+
 #### Can Cloud Backup change my system config file, even after I have modified it?
 
 Yes - Some Ubuntu users have older agents installed on their machines.
@@ -82,7 +105,7 @@ passphrase, you will not be able to restore data from your backups.
 For more information, see the section on [Setting up Encryption on your
 Cloud Backup
 System](/how-to/rackspace-cloud-backup-system-actions)
-in the Getting Started Guide.
+in the list of Cloud Backup actions.
 
 #### How do I generate a Rackspace Cloud Backup Encryption key?
 
@@ -106,14 +129,13 @@ account until you begin storing things in it.
 You can create any number of backup jobs for each of your servers, and
 you can include a nearly unlimited number of files in each job.
 
-For more inoformation, see [Creating a
+For more information, see [Creating a
 Backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
-in the [Rackspace Cloud Backup Getting Started
-Guide](/how-to/rackspace-cloud-backup-overview).
+in the [introduction page for Cloud Backup](/how-to/rackspace-cloud-backup-overview).
 
-#### What is De-duplication?
+#### What is Deduplication?
 
-Our block-level de-duplication backs up only those portions of files
+Our block-level deduplication backs up only those portions of files
 that have changed since the previous backup. This means you don&rsquo;t
 needlessly backup the same unchanged data again and again. This
 increases efficiency by reducing the amount of data that is transferred
@@ -122,9 +144,9 @@ data. An added benefit is that this capability enables you to retrieve
 previous versions of your files (up to the limits specified in your data
 retention settings).
 
-See our section on [Scheduling and
+See the section on [Scheduling and
 De-duplication](/how-to/rackspace-cloud-backup-backup-actions-0#configurebackup)
-in the RCBU Getting Started Guide.
+in the list of Cloud Backup actions.
 
 #### Can I use Rackspace Cloud Backup on my server?
 
@@ -132,7 +154,7 @@ You can use Rackspace Cloud Backup on virtually any server in the
 Rackspace Cloud. The exceptions are FreeBSD 9, Debian 5 and Windows
 2003.
 
-**Note:** ** If you have servers that are not in the Rackspace Cloud,
+**Note:** If you have servers that are not in the Rackspace Cloud,
 you can use the [equivalent service offered by
 JungleDisk](https://jungledisk.com/) for those servers.
 
@@ -140,33 +162,7 @@ If you have a server with a Managed Operations Service Level, you may
 already have the Cloud Backup agent installed on your system. If not,
 contact your account representative to get started.
 
-For more informations, see the Rackspace Cloud Backup [Getting Started
-Guide](/how-to/rackspace-cloud-backup-overview).
-
-#### What is Rackspace Cloud Backup?
-
-Rackspace Cloud Backup is a service that allows you to select and backup
-specific files and folders from your Cloud Server. You can schedule any
-number of Backup jobs, and restore to the same system or a different
-one, giving you the flexibility and power to work with your schedule and
-your data.
-
-Some key features are
-
--   Select the files and folders from your Cloud Server you want to back
-    up
--   Run your backups manually or on a schedule that works for you
--   See the activity from all your backups, both current and previous
--   Use AES-256 encryption with a private encryption key known only to
-    you
--   Restore individual files and folders from a particular date
--   Save space with incremental backups that only save the changed
-    portions of files
--   Create unlimited Backups
-
-For information on getting started with Cloud Backup, see our [Getting
-Started
-Guide](/how-to/cloud-backup).
+For more information, see the Rackspace Cloud Backup [introduction page](/how-to/rackspace-cloud-backup-overview).
 
 #### How long are my Cloud Backups kept?
 
@@ -195,7 +191,7 @@ Backups can be set to run hourly, daily, weekly, or on demand
 
 Read more about [Scheduling your
 Backup](/how-to/rackspace-cloud-backup-backup-actions-0)
-in the Cloud Backup Getting Started Guide.
+in the list of Cloud Backup actions.
 
 #### Are 32-bit servers and agents on Linux supported?
 
@@ -271,4 +267,3 @@ If you do need to back up these files, our suggested workarounds are:
 
 No. The agent only makes outgoing SSL connections to our API server on
 port 443.
-
