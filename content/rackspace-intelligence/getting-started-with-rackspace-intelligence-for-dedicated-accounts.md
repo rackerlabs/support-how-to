@@ -16,7 +16,7 @@ account. If you have a standard cloud account, click
 for the applicable getting started guide.
 
 Rackspace Intelligence now supports dedicated customer accounts.
-Dedicated customer can use the Rackspace Intelligence dashboard to view
+Dedicated customers can use the Rackspace Intelligence dashboard to view
 their availability monitors.
 
 Rackspace Intelligence provides a data panel, called a *dashboard*, that
