@@ -52,7 +52,7 @@ search with the following terms:
 
 - Restore
 
-- Cleanup - Fail | Complete | Skipped
+- Cleanup (Fail, Complete, Skipped)
 
 View the details of a backup's activity by clicking **View Details** in its entry.
 
@@ -87,7 +87,7 @@ search by the following terms:
 
 - [System Name]
 
-- Fail | Complete | Skipped
+- Fail, Complete, Skipped
 
 You can view the details of a backup's activity by clicking **View Details** in its entry.
 

@@ -15,14 +15,13 @@ Follow the instructions below to backup your MSSQL database.
 **Note:** The Rackspace Cloud recommends using Internet Explorer when
 managing your MSSQL databases via myLittleAdmin.
 
-****Note:**** Our system will only allow one backup file to be stored at
+**Note:** Our system will only allow one backup file to be stored at
 one time. It may be necessary to go to "Manage Backup Files" and delete
 any existing backup file before you can create a new one.
 
 
 
-<span class="mw-headline">Backing Up Your MSSQL Database</span>
----------------------------------------------------------------
+### Backing Up Your MSSQL Database
 
 1.  To manage your MSSQL database, you'll first need to [login to the
     online
@@ -70,11 +69,9 @@ any existing backup file before you can create a new one.
 
 
 
-<span class="mw-headline">Finish Line</span>
---------------------------------------------
+### Finish Line
 
-Congratulations! You have just created a backup of your MSSQL database!
-You should now see a link to download your database backup in Step 5.
+You have just created a backup of your MSSQL database. You should now see a link to download your database backup in Step 5.
 
 If you experience a problem or you have further questions or concerns,
 please do not hesitate to contact our technical support 24x7 via phone,

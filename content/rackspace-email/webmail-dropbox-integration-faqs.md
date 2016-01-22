@@ -1,6 +1,6 @@
 ---
 node_id: 4122
-title: Webmail Dropbox Integration FAQs
+title: Webmail Dropbox Integration FAQ
 type: article
 created_date: '2014-07-02'
 created_by: Aaron Medrano

@@ -14,7 +14,7 @@ Open alerts report statuses that you have asked Rackspace Intelligence
 to monitor but not
 [suppress](/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
 
-You can view a list of all open alerts by clicking** Monitor** at the
+You can view a list of all open alerts by clicking **Monitor** at the
 top of the Rackspace Intelligence interface and then clicking **Open
 Alerts**.
 
@@ -38,4 +38,3 @@ You can also export the list of open alerts in CSV format suitable for
 further analysis. To export the list of open alerts as in CSV format,
 click the **Export as CSV** link and then follow the required steps to
 save the file.
-
