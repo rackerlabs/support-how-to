@@ -12,12 +12,12 @@ product_url: cloud-backup
 
 ### Previous section
 
-[Rackspace Cloud Backup - Create a backup](/how-to/rackspace-cloud-backup-create-a-backup-0).
+[Create a backup](/how-to/rackspace-cloud-backup-create-a-backup-0).
 
 This article describes how to confirm your backup settings, ensure that a cleanup or restore action finished successfully, manually start a job before it's
 scheduled, and quickly view all of your backup activity at once.
 
-## View information for a single backup
+### View information for a single backup
 
 In the [Cloud Control Panel](https://mycloud.rackspace.com), click **Backups &gt; Backups** in the top navigation bar.
 
@@ -96,4 +96,4 @@ clicking the backup's name in the activity entry.
 
 ### Next steps
 
-[Rackspace Cloud Backup - Backup actions](/how-to/rackspace-cloud-backup-backup-actions-0)
+[Cloud Backup actions](/how-to/rackspace-cloud-backup-backup-actions-0)

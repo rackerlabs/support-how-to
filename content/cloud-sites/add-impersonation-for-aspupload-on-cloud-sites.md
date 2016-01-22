@@ -63,7 +63,7 @@ below in it.
     </BODY>
     </HTML>
 
-Now, just browse to your url www.mydomain.com/uploads.asp and you are
+Now, just browse to your url <code>www.mydomain.com/uploads.asp</code> and you are
 ready to upload files.
 
 Here's a working example of the above scripts, hosted on Cloud Sites.

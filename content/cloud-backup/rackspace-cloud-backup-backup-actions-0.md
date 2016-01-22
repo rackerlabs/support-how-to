@@ -1,6 +1,6 @@
 ---
 node_id: 2040
-title: Rackspace Cloud Backup - Backup actions
+title: Cloud Backup actions
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
@@ -12,11 +12,10 @@ product_url: cloud-backup
 
 ### Previous section
 
-[Rackspace Cloud Backup - View backup
-information](/how-to/rackspace-cloud-backup-view-backup-information)
+[View backup
+information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
 
-How to Use Backup Actions
--------------------------
+### How to Use Backup Actions
 
 You can perform several actions with a single backup. This page
 describes those actions.
@@ -35,17 +34,14 @@ You can access the **Backup Actions** menu in two ways:
 
 From the **Backup Actions** menu, you can perform the following actions:
 
--   [Perform Backup](#performbackup)
--   [Restore Backup](#restorebackup)
+-   Perform Backup
+-   Restore Backup
 -   [Configure Backup](#configurebackup)
 -   [Configure Files](#configurefiles)
 -   [Disable Backup](#disablebackup)
 -   [Delete Backup](#deletebackup)
 
-
-
-[Perform Backup]()
-------------------
+### Perform Backup
 
 When you select **Perform Backup**, you trigger a manual backup on your
 system, based on the configurations that are currently set for that
@@ -55,13 +51,7 @@ progress bar is displayed until the backup is completed.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.29.20%20PM.png" width="666" height="101" />
 
-
-
-
-[Restore Backup]()
-------------------
-
-<div>
+### Restore Backup
 
 Use the **Restore Backup** action to restore a backup.
 
@@ -112,10 +102,7 @@ The **Activity** page is displayed when the restore is complete.
 
            <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.22.45%20PM.png" width="608" height="140" />
 
-
-
-[Configure Backup]()
---------------------
+### Configure Backup
 
 You can change the name, recurrence, and notifications for your backup
 job. Select **Configure Backup** from the
@@ -125,7 +112,6 @@ job. Select **Configure Backup** from the
 
 1.  Enter a new name for your backup job, and under **Schedule**, select
     how often you want to run the backup. All times are Central Time.
-
 
 **Note**: You can schedule your backups for as often as you expect your
 files to change. Cloud Backup uses block-level de-duplication, which
@@ -171,10 +157,7 @@ Backup to deduplication those files as well.
 
            <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.46.18%20PM.png" width="533" height="315" />
 
-
-
-[Configure Files]()
--------------------
+### Configure Files
 
 You can change the files and folders that are saved in your backup.
 Click **Configure Files** from the **Backup Actions** menu to view these
@@ -193,13 +176,10 @@ settings.
 
            <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="537" height="370" />
 
-     4. Confirm the settings on the next page and click **Save** to save
-your file configuration.
+4. Confirm the settings on the next page and click **Save** to save
+   your file configuration.
 
-
-
-[Disable Backup]()
-------------------
+### Disable Backup
 
 You can prevent a backup from running by selecting **Disable Backup**
 from the **Backup Actions** menu.
@@ -215,10 +195,7 @@ To re-enable your backup, from the **Backup Actions** menu, select
 **Enable Backup**. Your backup returns to **Active** status with all its
 previous settings.
 
-
-
-[Delete Backup]()
------------------
+### Delete Backup
 
 You can delete your backup by selecting **Delete Backup** from the
 **Backup Actions** menu.
@@ -229,8 +206,5 @@ After a backup is deleted, it cannot be recovered.
 
 ### Next steps
 
-[Rackspace Cloud Backup - System
+[Cloud Backup System
 actions](/how-to/rackspace-cloud-backup-system-actions)
-
-</div>
-

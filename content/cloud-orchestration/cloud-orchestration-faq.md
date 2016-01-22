@@ -1,6 +1,6 @@
 ---
 node_id: 5008
-title: Cloud Orchestration - FAQ
+title: Cloud Orchestration FAQ
 type: article
 created_date: '2015-12-09'
 created_by: Stephanie Fillmon

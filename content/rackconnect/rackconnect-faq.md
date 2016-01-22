@@ -1,6 +1,6 @@
 ---
 node_id: 4271
-title: RackConnect - FAQ
+title: RackConnect FAQ
 type: article
 created_date: '2014-09-26'
 created_by: Juan Perez

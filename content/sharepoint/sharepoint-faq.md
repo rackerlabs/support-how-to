@@ -1,6 +1,6 @@
 ---
 node_id: 4998
-title: Microsoft Sharepoint - FAQ
+title: Microsoft Sharepoint FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support

@@ -17,7 +17,7 @@ muted but ordinarily would have prompted notifications.
 ----------------------------------------------------------------------------------------------------
 
 It is good practice to check the list of suppressed alerts after a
-suppression period ends to confirm that everything that was supressed
+suppression period ends to confirm that everything that was suppressed
 relates to the purpose of the suppression. For example, if all alerts
 were suppressed during a scheduled maintenance period, alerts related to
 servers that were not expected to be disrupted should be investigated.
@@ -29,4 +29,3 @@ log, click its name. If it has not been deleted, you can then see its
 detailed description.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-suppression-inactive.png" width="545" height="489" />
-

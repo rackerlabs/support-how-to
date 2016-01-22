@@ -1,6 +1,6 @@
 ---
 node_id: 5005
-title: Rackspace Auto Scale - FAQ
+title: Rackspace Auto Scale FAQ
 type: article
 created_date: '2015-12-09'
 created_by: Stephanie Fillmon

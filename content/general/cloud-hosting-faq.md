@@ -1,6 +1,6 @@
 ---
 node_id: 5054
-title: Cloud Hosting - FAQ
+title: Cloud Hosting FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

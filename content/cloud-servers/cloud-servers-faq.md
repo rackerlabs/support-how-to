@@ -1,6 +1,6 @@
 ---
 node_id: 4970
-title: Cloud Servers - FAQ
+title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
