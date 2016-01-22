@@ -1,6 +1,6 @@
 ---
 node_id: 5029
-title: Cloud Big Data - FAQ
+title: Cloud Big Data FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

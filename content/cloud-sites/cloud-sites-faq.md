@@ -1,6 +1,6 @@
 ---
 node_id: 5012
-title: Cloud Sites - FAQ
+title: Cloud Sites FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Stephanie Fillmon

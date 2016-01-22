@@ -1,6 +1,6 @@
 ---
 node_id: 5032
-title: Managed Operations - FAQ
+title: Managed Operations FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

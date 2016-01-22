@@ -1,6 +1,6 @@
 ---
 node_id: 5018
-title: Rackconnect v2.0 - FAQ
+title: Rackconnect v2.0 FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support

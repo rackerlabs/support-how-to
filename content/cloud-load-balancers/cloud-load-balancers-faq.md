@@ -1,6 +1,6 @@
 ---
 node_id: 5004
-title: Cloud Load Balancers - FAQ
+title: Cloud Load Balancers FAQ
 type: article
 created_date: '2015-12-08'
 created_by: Rackspace Support

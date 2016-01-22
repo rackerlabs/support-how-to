@@ -1,6 +1,6 @@
 ---
 node_id: 4994
-title: Microsoft Exchange - FAQ
+title: Microsoft Exchange FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support

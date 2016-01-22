@@ -1,6 +1,6 @@
 ---
 node_id: 4997
-title: Microsoft Skype for Business - FAQ
+title: Microsoft Skype for Business FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
