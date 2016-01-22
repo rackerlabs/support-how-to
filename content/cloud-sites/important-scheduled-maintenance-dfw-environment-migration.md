@@ -36,10 +36,10 @@ Center, which includes FAQ&rsquo;s for individual technologies. Updated
 testlink information will be provided as a courtesy to review your site
 functionality prior to the migration.
 
-Please review the links below which include FAQ & helpful information
+Please review the following links, which provide helpful information
 on common break changes for your specific technology during to prepare
 for the upcoming DFW
-migrations. [](/how-to/information-for-aspnet-changes-0)
+migrations.
 
 1.  [Information for Customer IPs &
     DNS](/how-to/information-for-customer-ip-addresses-and-dns)
