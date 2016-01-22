@@ -12,11 +12,11 @@ product_url: cloud-block-storage
 
 The following permissions matrix displays specific permissions for the roles in Cloud Block Storage. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[**API documentation**](http://docs.rackspace.com/)
+- [**API documentation**](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)
 
-[**Related Knowledge Center articles**](/how-to/)
+- [**Related Knowledge Center articles**](/how-to/)
 
-[**Cloud Block Storage terminology**](#blockstorage)
+- [**Cloud Block Storage terminology**](#blockstorage)
 
 ### As of February 7, 2013
 
@@ -40,18 +40,19 @@ Show Snapshot | <code>GET /snapshots/{snapshot_id}</code> | View all information
 Delete Snapshot | <code>DELETE /snapshots/{snapshot_id}</code> | **Admin only** | Deletes a single snapshot.
 
 <a id="blockstorage" name="blockstorage"></a>
-## Cloud Block Storage Terminology
 
-### Snapshot
+### Cloud Block Storage terminology
+
+#### Snapshot
 
 A point-in-time copy of the data contained in a volume.
 
-### Volume
+#### Volume
 
 A detachable block storage device. You can think of it as a USB hard drive. It can onlt be attached to one instance at a time.
 
-### Volume Type
+#### Volume type
 
 The type of a block storage volume. There are two types: SATA for standard performance and SSD for high performance.
 
-**&lt;** [**Permissions Matrices for RBAC**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+**&lt;** [**Permissions matrix for Role-Based Access Control**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
