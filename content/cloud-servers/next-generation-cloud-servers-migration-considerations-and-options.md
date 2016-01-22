@@ -57,7 +57,7 @@ Disk management is more flexible and with it you can repartition your cloud serv
 
 ### Open architecture ###
 
-[novaclient]:http://www.rackspace.com/knowledge_center/article/using-python-novaclient-with-the-rackspace-cloud "Using python-novaclient with the Rackspace Cloud"
+[novaclient]:/how-to/using-python-novaclient-with-the-rackspace-cloud "Using python-novaclient with the Rackspace Cloud"
 
 The Next Generation Cloud's OpenStack base provides the potential for interoperability with OpenStack-based tools like [python-novaclient][novaclient], as well as compatibility with private and third-party clouds running OpenStack.
 

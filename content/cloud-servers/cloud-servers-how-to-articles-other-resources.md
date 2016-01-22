@@ -48,34 +48,34 @@ FAQs</span></span></span>](/how-to/product-faq/cloud-servers)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Getting Started with Cloud
-Servers</span></span></span>](/how-to/article/getting-started-with-cloud-servers)
+Servers</span></span></span>](/how-to/getting-started-with-cloud-servers)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Basic Cloud Server
-Security</span></span></span>](/how-to/article/basic-cloud-server-security)
+Security</span></span></span>](/how-to/basic-cloud-server-security)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Create an image of a server and
 restore a server from a saved
-image</span></span></span>](/how-to/article/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+image</span></span></span>](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Create DNS Records for cloud
 servers with the Control
-Panel</span></span></span>](/how-to/article/create-dns-records-for-cloud-servers-with-the-control-panel)
+Panel</span></span></span>](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>CentOS 6 - Apache and PHP
-Install</span></span></span>](/how-to/article/centos-6-apache-and-php-install)
+Install</span></span></span>](/how-to/centos-6-apache-and-php-install)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>MySQL - Connect to your database
-remotely</span></span></span>](/how-to/article/mysql-connect-to-your-database-remotely)
+remotely</span></span></span>](/how-to/mysql-connect-to-your-database-remotely)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Install EPEL and additional
 repositories on CentOS and Red
-Hat</span></span></span>](/how-to/article/install-epel-and-additional-repositories-on-centos-and-red-hat)
+Hat</span></span></span>](/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat)
 
 <span><span> </span></span>
 

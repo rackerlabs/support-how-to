@@ -24,7 +24,7 @@ logins and actions.
 The following articles provide instructions for managing your
 administrators:.
 
-[List and manage administrators](node/2165)
-[Administrator activity](node/3991)
-[API key management](node/3992)
+[List and manage administrators](/how-to/manage-email-administrators-with-the-cloud-office-control-panel)
+[Administrator activity](/how-to/view-administrator-activity-in-the-cloud-office-control-panel)
+[API key management](/how-to/set-up-an-api-key-cloud-office-control-panel)
 

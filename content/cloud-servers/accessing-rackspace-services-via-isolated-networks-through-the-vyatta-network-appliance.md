@@ -150,6 +150,6 @@ in the table. You may also want to configure firewall policies on the
 Vyatta appliance. For configuration assistance of firewall policies on
 Vyatta please visit the URL below:
 
-[http://www.rackspace.com/knowledge\_center/article/configuring-interface-based-firewall-on-the-vyatta-network-appliance
+[/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance
 ](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 

@@ -67,7 +67,7 @@ service.</span>
 -   [Permissions Matrix for Cloud Cloud Big Data
     v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2)
 -   [Permissions Matrix for Cloud Load
-    Balancers](https://www.rackspace.com/knowledge_center/article/permissions-matrix-for-cloud-load-balancers)
+    Balancers](/how-to/permissions-matrix-for-cloud-load-balancers)
 -   [Permissions Matrix for Cloud
     Monitoring](/how-to/detailed-permissions-matrix-for-rackspace-monitoring)
 -   [Permissions Matrix for Cloud Block

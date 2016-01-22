@@ -107,7 +107,7 @@ You can create any number of backup jobs for each of your servers, and
 you can include a nearly unlimited number of files in each job.
 
 For more inoformation, see [Creating a
-Backup](https://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-create-a-backup-0)
+Backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
 in the [Rackspace Cloud Backup Getting Started
 Guide](/how-to/rackspace-cloud-backup-overview).
 

@@ -26,7 +26,7 @@ monitoring check.
 
 For the latest information about Rackspace Monitoring pricing and other
 general questions, see the [Rackspace Monitoring
-FAQ](/how-to/rackspace-monitoring-faq)
+FAQ](/how-to/cloud-monitoring-faq)
 and the [Rackspace Monitoring main product
 page](http://www.rackspace.com/cloud/monitoring/).
 

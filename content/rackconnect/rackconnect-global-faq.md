@@ -138,7 +138,7 @@ location.").
 ### What is the high level procedure by which an RCGlobal connection can be ordered and provisioned for the customer ?
 
 The complete procedure can be found
-at  https://www.rackspace.com/knowledge\_center/article/rackconnect-global-user-workflow
+at  /how-to/rackconnect-global-user-workflow
 
 
 

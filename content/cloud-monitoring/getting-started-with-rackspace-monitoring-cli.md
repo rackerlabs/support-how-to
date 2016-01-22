@@ -210,5 +210,5 @@ your infrastructure.  For more information, be sure to consult the
 [Development Guide for Cloud
 Monitoring](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/overview.html)
 as well as the [Cloud Monitoring
-FAQ](/how-to/rackspace-monitoring-faq).
+FAQ](/how-to/cloud-monitoring-faq).
 

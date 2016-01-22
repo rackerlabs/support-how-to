@@ -69,7 +69,7 @@ support channels.</span>
     information on using the Rackspace Cloud.  How do we know it's
     valuable?  Because ***you are using it right now!***  You can get to
     the Knowledge Center directly by going to:
-     </span>[<span>http://www.rackspace.com/knowledge\_center</span>](/how-to/)
+     </span>[<span>http://www.rackspace.com/knowledge_center</span>](/how-to/)
     <span>If you already know what you are looking for, the easiest way
     to find it is to enter keywords in the </span>***<span>How can we
     help?</span>***<span> bar at the top.</span>
@@ -99,5 +99,5 @@ support channels.</span>
 With all the support resources and support staff made available to you,
 it's no wonder why Rackspace is known as the home of Fanatical Support!
  This completes our tour of the Control
-Panel.[](/how-to//article/building-your-first-website)
+Panel.[](/how-to//building-your-first-website)
 

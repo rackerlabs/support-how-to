@@ -46,13 +46,13 @@ and hundreds of tips for getting the most out of your Cloud Files.
 Check out these popular articles:
 
 -   [Rackspace Cloud Files
-    FAQs](/how-to/product-faq/cloud-files)
+    FAQs](/how-to/cloud-files-faq)
 -   [Best Practices Using Cloud
     Files](/how-to/best-practices-for-using-cloud-files)
 -   [Mounting Rackspace Cloud Files to Linux Using
-    CloudFuse](/how-to/article/mounting-rackspace-cloud-files-to-linux-using-cloudfuse)
+    CloudFuse](/how-to/mounting-rackspace-cloud-files-to-linux-using-cloudfuse)
 -   [Viewing Your API
-    Key](/how-to/article/view-and-reset-your-api-key)
+    Key](/how-to/view-and-reset-your-api-key)
 
 Popular Technical Articles from the Rackspace Blog
 --------------------------------------------------

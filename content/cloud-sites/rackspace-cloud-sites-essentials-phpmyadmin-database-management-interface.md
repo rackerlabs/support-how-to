@@ -173,5 +173,5 @@ new ticket.
 ### Next section
 
 [MSSQL
-databases](//www.rackspace.com/knowledge_center/article/rackspace-cloud-sites-essentials-mssql-databases)
+databases](//www.rackspace.com/knowledge_center/rackspace-cloud-sites-essentials-mssql-databases)
 

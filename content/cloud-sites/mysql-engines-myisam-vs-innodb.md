@@ -64,7 +64,7 @@ You do so by simply issuing the `ALTER TABLE` DDL statement:
 
 Following is a step-by-step process for altering a table in PHPMyAdmin.
 
-1. Log in to the PHPMyAdmin utility through your control panel. If you are unsure how, see [Working with a MySQL database](http://www.rackspace.com/knowledge_center/article/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface "/knowledge_center/index.php/Working_with_a_MySQL_database").
+1. Log in to the PHPMyAdmin utility through your control panel. If you are unsure how, see [Working with a MySQL database](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
 2. Select the database that contains the table.
 3. Click the **SQL** tab.
 4. Paste in the preceding query. Be sure to replace `tableName` with the correct name of your table.

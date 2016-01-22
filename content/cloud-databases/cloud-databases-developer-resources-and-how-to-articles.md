@@ -30,17 +30,17 @@ Databases.
 ### Popular how-to articles
 
 -   [Rackspace Cloud Databases
-    FAQs](/how-to/product-faq/cloud-databases)
+    FAQs](/how-to/cloud-databases-faq)
 -   [Rackspace Cloud Databases: Public Vs. Private
-    Access](/how-to/article/public-and-private-access-for-cloud-databases)
+    Access](/how-to/public-and-private-access-for-cloud-databases)
 -   [Rackspace Cloud Databases: Connecting to Your
-    Database](/how-to/article/connect-to-a-cloud-databases-instance)
+    Database](/how-to/connect-to-a-cloud-databases-instance)
 -   [Rackspace Cloud Databases: Importing
-    Data](/how-to/article/importing-data-into-cloud-databases)
+    Data](/how-to/importing-data-into-cloud-databases)
 -   [Rackspace Cloud Databases: Managing
-    Users](/how-to/article/managing-users-for-cloud-databases)
+    Users](/how-to/managing-users-for-cloud-databases)
 -   [Rackspace Cloud Databases: Creating an
-    Instance](/how-to/article/cloud-database-instance-parameters)
+    Instance](/how-to/cloud-database-instance-parameters)
 
 ### Popular technical articles and other resources
 

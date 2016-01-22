@@ -97,7 +97,7 @@ Be very careful with this, if your Cloud Server and Cloud Files are not
 on the same region, you could get charged for the bandwidth between
 regions. If needed you can check your default region using nova:
 Install on
-Windows: [http://www.rackspace.com/knowledge\_center/article/installing-python-novaclient-on-windows
+Windows: [/how-to/installing-python-novaclient-on-windows
 I](/how-to/installing-python-novaclient-on-windows)nstall
 on Linux and Mac
 OS: </how-to/installing-python-novaclient-on-linux-and-mac-os>

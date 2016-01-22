@@ -123,7 +123,7 @@ function.
 After your stack has completed, you are provided with the credentials to
 your servers. If you are not sure how to log in with those credentials,
 see the
-https://www.rackspace.com/knowledge\_center/article/connect-to-a-cloud-server
+/how-to/connect-to-a-cloud-server
 article.
 
 #### How do I access my application?
