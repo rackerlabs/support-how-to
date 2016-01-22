@@ -380,4 +380,4 @@ The following changes should occur:
 ### Next steps
 
 [Create a
-backup with Cloud Backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
+backup](/how-to/rackspace-cloud-backup-create-a-backup-0)

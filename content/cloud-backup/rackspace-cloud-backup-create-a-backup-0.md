@@ -1,6 +1,6 @@
 ---
 node_id: 2038
-title: Create a backup with Cloud backup
+title: Create a backup 
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler

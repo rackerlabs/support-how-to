@@ -1,6 +1,6 @@
 ---
 node_id: 2037
-title: Rackspace Cloud Backup - Overview
+title: Rackspace Cloud Backup overview
 type: article
 created_date: '2012-08-22'
 created_by: Rackspace Support
