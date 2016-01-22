@@ -1,6 +1,6 @@
 ---
 node_id: 2042
-title: Rackspace Cloud Backup - Backing up Databases
+title: Back up databases with Cloud Backup
 type: article
 created_date: '2012-08-23'
 created_by: David Hendler
@@ -13,8 +13,7 @@ product_url: cloud-backup
 You can use Rackspace Cloud Backup to backup your database by following
 a few steps.
 
-Background
-----------
+### Background
 
 Rackspace Cloud Backup backs up files if it can get access to them. It
 doesn't matter if the files contain database data or pictures of your
@@ -29,8 +28,7 @@ the database might have been in the middle of an operation during access
 to the two files, and the two files represent two different points in
 the middle of that operation.
 
-Backing up your database
-------------------------
+### Backing up your database
 
 Most databases have a utility that dumps a consistent state of the
 database to another file; mysqldump is one such utility for MySQL. You
@@ -47,6 +45,7 @@ between the various dumps that were put into the sqlbackups folder.
 Cloud Backup only saves the changed portions of the file.
 
 1.  Remove the live database folder and files from your backup job.
+
     1.  Log in to the [Cloud Control
         Panel](https://mycloud.rackspace.com).
     2.  In the top navigation bar, click **Backups &gt; Systems**.
@@ -62,6 +61,7 @@ Cloud Backup only saves the changed portions of the file.
         mysqldump -u root -p mytestdb > /my_directory/mytestdb.sql
 
 3.  Add your SQL dump file to your backup.
+
     1.  In the top navigation bar of the Cloud Control Panel, click
         **Backups &gt; Systems**.
     2.  Select your system from the list.
@@ -72,4 +72,3 @@ Cloud Backup only saves the changed portions of the file.
 
 Remember to add your database dump file or folder saved as part of your
 backup job.
-

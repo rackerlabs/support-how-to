@@ -124,13 +124,12 @@ Support, we recommend that you upload them to your Cloud Files account
 in a public container. From there, you copy the download or streaming
 links for the log files and paste the links into your support ticket.
 
-Locations of Cloud Backup agent files
--------------------------------------
+### Locations of Cloud Backup agent files
 
 The following section lists the locations of the Cloud Backup agent on
 both Linux and Windows servers.
 
-### Agent file location (Linux)
+#### Agent file location (Linux)
 
 Assuming a default installation, following are the agent file locations
 on Linux systems:
@@ -142,7 +141,7 @@ on Linux systems:
 -   PID file for running the agent: /var/run/driveclient.pid
 -   Database: search for a \*.db file under /var/cache/driveclient
 
-**Note: **If driveclient is installed as an individual user, most of
+**Note:** If driveclient is installed as an individual user, most of
 these files are under \~/.driveclient.
 
 #### Agent file locations (Windows)
@@ -170,6 +169,3 @@ In a typical installation, the files will be located in these folders:
 
 To disable logging, remove the tag named `appender-ref` from
 `log4cxx.xml`.
-
-
-
