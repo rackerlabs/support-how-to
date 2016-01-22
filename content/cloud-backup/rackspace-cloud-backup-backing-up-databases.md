@@ -1,6 +1,6 @@
 ---
 node_id: 2042
-title: Rackspace Cloud Backup - Backing up Databases
+title: Back up databases with Cloud Backup
 type: article
 created_date: '2012-08-23'
 created_by: David Hendler
@@ -45,6 +45,7 @@ between the various dumps that were put into the sqlbackups folder.
 Cloud Backup only saves the changed portions of the file.
 
 1.  Remove the live database folder and files from your backup job.
+
     1.  Log in to the [Cloud Control
         Panel](https://mycloud.rackspace.com).
     2.  In the top navigation bar, click **Backups &gt; Systems**.
@@ -60,6 +61,7 @@ Cloud Backup only saves the changed portions of the file.
         mysqldump -u root -p mytestdb > /my_directory/mytestdb.sql
 
 3.  Add your SQL dump file to your backup.
+
     1.  In the top navigation bar of the Cloud Control Panel, click
         **Backups &gt; Systems**.
     2.  Select your system from the list.
