@@ -1,6 +1,6 @@
 ---
 node_id: 5036
-title: Rackspace Monitoring - FAQ
+title: Cloud Monitoring - FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Stephanie Fillmon
