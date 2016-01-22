@@ -10,9 +10,11 @@ product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
 
-Everyone who has a Rackspace cloud account can use the Rackspace Cloud
-Control Panel to create and manage devices and the Rackspace
-Intelligence dashboard to observe infrastructure status.
+Everyone who has a Rackspace cloud account can use the
+[Cloud Control Panel](https://mycloud.rackspace.com/)
+to create and manage devices and the
+[https://intelligence.rackspace.com](https://intelligence.rackspace.com/)
+to observe infrastructure status.
 
 As you create new servers and databases with your cloud account,
 Rackspace Intelligence automatically recognizes them as entities. By
@@ -23,8 +25,7 @@ If you explicitly define something other than a cloud server or cloud
 database as an entity, Rackspace Intelligence can also monitor its
 status.
 
-Begin monitoring a cloud server
--------------------------------
+### Begin monitoring a cloud server
 
 To be able to view all relevant data, you should [install the Cloud
 Monitoring
@@ -36,14 +37,9 @@ shows the process of installing the agent on a cloud server and shows
 how that server appears to Rackspace Intelligence before and after the
 agent is installed.
 
-Begin monitoring a cloud database
----------------------------------
+### Begin monitoring a cloud database
 
 [Setting up a database to work with Rackspace
 Intelligence](/how-to/setting-up-a-database-to-work-with-rackspace-intelligence)
 shows how to define the characteristics of a database for Rackspace
 Intelligence's monitoring.
-
-
--
-
