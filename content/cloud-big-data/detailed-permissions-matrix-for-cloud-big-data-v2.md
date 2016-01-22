@@ -12,9 +12,8 @@ product_url: cloud-big-data
 
 The following permissions matrix displays specific permissions for the roles in Cloud Big Data v2. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-**<a href="http://developer.rackspace.com/docs">API Documentation</a>**
+**Note:**  For additional information about RBAC, see the [API Documentation](http://developer.rackspace.com/docs).
 
-**<a href="#bigdata">Cloud Big Data Terminology</a>**
 
 ### As of June 30, 2015
 
@@ -52,7 +51,7 @@ List available flavors | <code>GET /flavors</code> | **Observer & Creator & Admi
 **RESOURCE LIMITS** | | |
 List resource limits	| <code>GET /limits</code> | **Observer & Creator & Admin** | Lists the resource limits for the user, including the remaining node count, available RAM, and remaining disk space.
 
-<a id="bigdata" name="bigdata"></a>
+
 ### Cloud Big Data terminology
 
 #### Credentials
