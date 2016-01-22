@@ -10,74 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<div id="toctitle"
-style="border-style: initial; border-color: initial; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; line-height: normal;">
-
-### Note:  Rackspace no longer offers Cloud Servers with Windows 2003, but these instructions are here for legacy support purposes.
-
-
--
-
-Contents
---------
-
-</div>
-
--   [<span class="tocnumber"
-    style="border-style: initial; border-color: initial;">1</span> <span
-    class="toctext"
-    style="border-style: initial; border-color: initial;">Windows Server
-    2003</span>](#Windows%20Server%202003)
-    -   [<span class="tocnumber"
-        style="border-style: initial; border-color: initial;">1.1</span> <span
-        class="toctext"
-        style="border-style: initial; border-color: initial;">Formatting
-        the Disk and Adding an Additional Drive</span>](#Format1)
-    -   [<span class="tocnumber"
-        style="border-style: initial; border-color: initial;">1.2</span> <span
-        class="toctext"
-        style="border-style: initial; border-color: initial;">Select
-        Partition Type</span>](#Select2)
-    -   [<span class="tocnumber"
-        style="border-style: initial; border-color: initial;">1.3</span> <span
-        class="toctext"
-        style="border-style: initial; border-color: initial;">Specify
-        Partition Size</span>](#Specify3)
-    -   [<span class="tocnumber"
-        style="border-style: initial; border-color: initial;">1.4</span> <span
-        class="toctext"
-        style="border-style: initial; border-color: initial;">Assign
-        Drive Letter</span>](#Assign4)
-    -   [<span class="tocnumber"
-        style="border-style: initial; border-color: initial;">1.5</span> <span
-        class="toctext"
-        style="border-style: initial; border-color: initial;">Format
-        Partition</span>](#Format5)
-    -   [<span class="tocnumber"
-        style="border-style: initial; border-color: initial;">1.6</span><span
-        style="border-style: initial; border-color: initial;"> </span><span
-        class="toctext"
-        style="border-style: initial; border-color: initial;">Complete
-        the New Partition Wizard</span>](#Complete6)
-
-<div>
-
-
-
-</div>
-
-<div>
-
-
-****
---------
-
-**Windows Server 2003**
----------------------------
-
-
-
-###
+**Note**:  Rackspace no longer offers Cloud Servers with Windows 2003, but these instructions are here for legacy support purposes.
 
 ### Formatting the Disk and Adding an Additional Drive
 
@@ -85,15 +18,13 @@ Contents
     and logging in as the user Administrator, or with an account that is
     part of the Administrator group.
 
-![](http://c575672.r72.cf2.rackcdn.com/RDPConnectExample.png)
+  ![](http://c575672.r72.cf2.rackcdn.com/RDPConnectExample.png)
 
 -   From the Desktop of your Windows Server 2003 Cloud Server, open
     the **Start Menu** and select **Administrative
-    Tools** &gt; **Computer Management**.
+    Tools > Computer Management**.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003AdminTools.png)
-
-
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003AdminTools.png)
 
 -   Under the **Storage** folder in the left pane, select **Disk
     Management**.  In the left pane of Disk Management you will see the
@@ -101,24 +32,17 @@ Contents
     see an amount of unallocated space in the right pane.  Right-click
     on the Unallocated space and choose **New Partition** from the menu.
 
-
-![](http://c575672.r72.cf2.rackcdn.com/Win2003NewPartition.png)
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003NewPartition.png)
 
 -   This will open the **New Partition Wizard** screen.
      Press **Next** to begin.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003NewPartitionWizard.png)
-
-****
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003NewPartitionWizard.png)
 
 -   **Select Partition Type** - Check the radio button next
     to **Primary partition **and click **Next. **
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003PrimaryPartition.png)
-
-
-
-****
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003PrimaryPartition.png)
 
 -   **Specify Partition Size** - Next you will be asked to specify the
     partition size.  If you want to add all of your available disk space
@@ -127,29 +51,19 @@ Contents
     disk space for the new partition, you can specify the amount of
     space to use in the **Partition size in MB** field.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003SpecifyPartitionSize.png)
-
-
-
-****
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003SpecifyPartitionSize.png)
 
 -   **Assign Drive Letter** - Choose the drive letter for your new
     volume and click **Next**.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003AssignDriveLetter.png)
-
-
-
-****
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003AssignDriveLetter.png)
 
 -   **Format Partition** - Format the partition as an NTFS partition.
      Here you can also name the partition, such as "New Volume" in
     this example.  Keep the default settings on this screen, and
     press **Next**.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003FormatPartition.png)
-
-****
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003FormatPartition.png)
 
 -   **Complete the New Partition Wizard** - You have now successfully
     created and formatted a new partition as the destination for the
@@ -157,18 +71,10 @@ Contents
     Server 2003 Cloud Server.  Press the **Finish** button to complete
     the process.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003CompleteNewPartWiz3.png)
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003CompleteNewPartWiz3.png)
 
 -   You will now see the additional disk drive volume that you created.
      Close Computer Management and begin using the additional space that
     you have just created.
 
-![](http://c575672.r72.cf2.rackcdn.com/Win2003driveCandD.png)
-
-
-
-
-----
-
-</div>
-
+  ![](http://c575672.r72.cf2.rackcdn.com/Win2003driveCandD.png)
