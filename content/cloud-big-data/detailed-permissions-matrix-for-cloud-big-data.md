@@ -12,9 +12,7 @@ product_url: cloud-big-data
 
 The following permissions matrix displays specific permissions for the roles in Cloud Big Data v1. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[**API Documentation**](http://docs.rackspace.com/)
-
-[**Cloud Big Data Terminology**](#bigdata)
+**Note:** For additional information about RBAC, see the [API Documentation](http://developer.rackspace.com/docs).
 
 ### As of February 4, 2014
 
@@ -54,4 +52,4 @@ A group of servers (nodes). In Cloud Big Data, the servers are virtual.
 
 In a network, a node is a connection point, either a redistribution point or an end point for data transmissions. In general, a node has programmed or engineered capability to recognize and process or forward transmissions to other nodes.
 
-&lt;[### Permissions Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[**&lt; Permissions Matrices for RBAC**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
