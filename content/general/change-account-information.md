@@ -6,8 +6,8 @@ created_date: '2015-06-18'
 created_by: David Hendler
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
 
 Change is a regular part of business. This guide describes the various
@@ -15,16 +15,7 @@ administrative account changes that we can assist you with. Review the
 different types of change requests and the appropriate steps needed to
 complete them.
 
--   [Company under new ownership or tax ID changed](#new_owner)
--   [Company changed name](#changed_name)
--   [Primary contact listed on the account is no longer with the company
-    or no longer managing the account](#changed_contact)
--   [Best practices for legal change forms](#best_practices)
-
-
-
-**Company under new ownership or tax ID changed**
------------------------------------------------------
+### Company under new ownership or tax ID changed
 
 If the ownership of your company has changed or the company's tax ID has
 changed, you must inform us of these changes by completing the
@@ -44,14 +35,13 @@ the Cloud Control Panel by using the following steps:
 If you are a Dedicated Hosting customer, you can request this form
 directly from your Account Manager.
 
-**Company name changed**
-----------------------------
+### Company name changed
 
 If your company has filed for a name change with the Secretary of State
 where the company is registered and there was a change in tax ID,
 complete the **Assignment and Assumption** form.
 
-See the preceeding section for information about obtaining and
+See the preceding section for information about obtaining and
 submitting this form.
 
 If the company name has changed but there was no change in tax ID or
@@ -64,12 +54,10 @@ evidence of the name change:
 Attach these forms to a support ticket with **Company Name Change
 Request** in the subject line.
 
-**Primary contact listed on the account is no longer with the company or no longer managing the account**
--------------------------------------------------------------------------------------------------------------
+### Primary contact listed on the account is no longer with the company or no longer managing the account
 
 If you have access to the account, you can update the primary contact
-details in the **Account Settings** section in the [Cloud Control
-Panel](http://mycloud.rackspace.com).
+details in the **Account Settings** section in the [Cloud Control Panel](http://mycloud.rackspace.com).
 
 If you are not the primary contact, you must fill out the **Primary
 Contact Change** form and submit it via a support ticket.
@@ -83,16 +71,15 @@ using the following steps:
 3.  Complete the **Primary Contact Change** form.
 4.  Attach the completed form to a support ticket and submit.
 
-**Note:**<span> The primary contact email address is used for all
+**Note:** The primary contact email address is used for all
 account notifications and for regaining the credentials for access to an
-account when the </span>**I forgot my password**<span> link is
-used.</span>
+account when the **I forgot my password** link is
+used.
 
 To update the billing information, including the billing address and the
 credit card on file, go to the **Billing & Payments** section.
 
-**Best practices for legal change forms**
----------------------------------------------
+### Best practices for legal change forms
 
 The forms described in this guide have many required fields that must be
 completed before the Billing team can process the forms. After you have
@@ -118,7 +105,7 @@ The Billing team has strict requirements when processing the
 following information to have the submission processed quickly and
 efficiently.
 
-**Page 1 &ndash; Account details**
+**Page 1 - Account details**
 
 -   **Transferring Customer / Assignor** - In this section, provide the
     current account information.
@@ -142,7 +129,7 @@ efficiently.
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
 representative will complete this section.
 
-**Last Page &ndash; Cloud Instances (Exhibit A)**
+**Last Page - Cloud Instances (Exhibit A)**
 
 -   In the List of Instances transferring section, provide the following
     information:
@@ -152,16 +139,13 @@ representative will complete this section.
         this blank if there is no change.
     -   **Monthly Recurring Fee** - Enter the amount of the account's
         most recent invoice.
-    -   **Total Monthly Recurring Fee for Instances** - Enter \$0.00.
+    -   **Total Monthly Recurring Fee for Instances** - Enter $0.00.
     -   **Utility Fee for Instances** - Enter the amount of the
         account's last invoice.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-3.jpg" alt="Cloud Instances Exhibit A" width="593" height="141" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-4.jpg" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />
-
-
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-4.jpg" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />Â
 
 The remainder of the document pertains to Cloud Office customers. If you
 are not a Cloud Office customers, you do not need to complete it.
-
