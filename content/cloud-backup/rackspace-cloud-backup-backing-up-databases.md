@@ -13,8 +13,7 @@ product_url: cloud-backup
 You can use Rackspace Cloud Backup to backup your database by following
 a few steps.
 
-Background
-----------
+### Background
 
 Rackspace Cloud Backup backs up files if it can get access to them. It
 doesn't matter if the files contain database data or pictures of your
@@ -29,8 +28,7 @@ the database might have been in the middle of an operation during access
 to the two files, and the two files represent two different points in
 the middle of that operation.
 
-Backing up your database
-------------------------
+### Backing up your database
 
 Most databases have a utility that dumps a consistent state of the
 database to another file; mysqldump is one such utility for MySQL. You
@@ -72,4 +70,3 @@ Cloud Backup only saves the changed portions of the file.
 
 Remember to add your database dump file or folder saved as part of your
 backup job.
-
