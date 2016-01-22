@@ -84,7 +84,7 @@ If you have any trouble finding the System control panel you can also type "envi
 
 #### Setting the environment variables
 
-[apikey]:/knowledge_center/article/rackspace-cloud-essentials-1-generating-your-api-key
+[apikey]:/knowledge_center/rackspace-cloud-essentials-1-generating-your-api-key
 
 Now you'll need to set five environment variables.  For each, click the "New" button in the section for your user environment variables (the top pane, usually).
 

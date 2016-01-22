@@ -13,7 +13,7 @@ product_url: rpc-openstack
 ### Previous section
 
 [Getting Started with Rackspace Private Cloud -
-OpenStack](/how-to/rackspace-private-cloud-openstack)
+OpenStack](/how-to/rpc-openstack)
 
 Private Cloud Tech Center<span> </span>
 ---------------------------------------

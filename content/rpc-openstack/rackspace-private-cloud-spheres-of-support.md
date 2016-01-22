@@ -11,7 +11,7 @@ product_url: rpc-openstack
 ---
 
 ### Previous section
-[Getting Started with Rackspace Private Cloud - OpenStack](/how-to/rackspace-private-cloud-openstack)
+[Getting Started with Rackspace Private Cloud - OpenStack](/how-to/rpc-openstack)
 
 Rackspace Private Cloud is the Rackspace architecture for and support of a production-ready, scalable, OpenStack based private cloud. To ensure ***Fanatical Support***<sup>&reg;</sup>, Rackspace provides support for specific server configurations and OpenStack projects in Rackspace Private Cloud v9 and v10.
 

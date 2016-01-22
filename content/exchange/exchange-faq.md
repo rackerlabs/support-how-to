@@ -40,7 +40,7 @@ administrators can set privileges for users to access a folder, or the
 folder can be made available to everyone within your organization.
 Public folders contain contacts, calendar items, messages, journal
 entries, or notes. For more information, see [Microsoft Exchange public
-folders](http://www.rackspace.com/knowledge_center/article/microsoft-exchange-public-folders).
+folders](/how-to/microsoft-exchange-public-folders).
 
 #### Where do I add an Activesync/Blackberry BES liscense?
 

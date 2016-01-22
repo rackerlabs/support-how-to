@@ -102,8 +102,8 @@ as well as a data ingest method supported by Rackspace:
 
 
 [**Rackspace
-Swifts**:]()[http://www.rackspace.com/knowledge\_center/article/swift-filesystem-for-hadoop](/how-to/swift-filesystem-for-hadoop)
+Swifts**:]()[/how-to/swift-filesystem-for-hadoop](/how-to/swift-filesystem-for-hadoop)
 
 **Getting Data Into Your Cluster**:
-[http://www.rackspace.com/knowledge\_center/article/getting-data-into-your-big-data-cluster](/how-to/getting-data-into-your-big-data-cluster)
+[/how-to/getting-data-into-your-big-data-cluster](/how-to/getting-data-into-your-big-data-cluster)
 

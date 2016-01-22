@@ -6,7 +6,7 @@ created_by: Rackspace Support
 last_modified_date: '2016-01-17'
 last_modified_by: Rackspace Support
 product: Rackspace Private Cloud Powered by Microsoft Cloud Platform
-product_url: rpc-microsoft-faq
+product_url: rpc-microsoft
 ---
 
 Needs content!!!

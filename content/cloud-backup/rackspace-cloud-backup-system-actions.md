@@ -55,7 +55,7 @@ The System Actions menu offers the following actions:
 Clicking **Create Backup** from the System Actions menu is the same as
 clicking Create Backup on the system screen. For complete instructions,
 see [Create a
-Backup](http://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-create-a-backup-0)
+Backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
 in this guide.
 
 -   Note: You cannot back up restore a system that is offline. If the

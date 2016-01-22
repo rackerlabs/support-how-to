@@ -137,7 +137,7 @@ Installation
 Installation of RPCS is well documented in the following article:
 
 [Getting Started with Rackspace Private Cloud -
-OpenStack](/how-to/rackspace-private-cloud-openstack "/how-to/rackspace-private-cloud-openstack")
+OpenStack](/how-to/rpc-openstack "/how-to/rpc-openstack")
 
 Conclusion
 ----------

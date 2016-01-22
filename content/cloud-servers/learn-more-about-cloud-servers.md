@@ -26,7 +26,7 @@ The basics
 Best practices
 --------------
 
-[Choosing the Right Size Server](http://www.rackspace.com/knowledge_center/article/rackspace-cloud-essentials-choosing-the-right-size-cloud-server): Explains how to determine the right size and operating system image for a new server.
+[Choosing the Right Size Server](/how-to/rackspace-cloud-essentials-choosing-the-right-size-cloud-server): Explains how to determine the right size and operating system image for a new server.
 
 [Using Cloud Servers Tags](/how-to/using-cloud-servers-tags): Explains how to use tags to organize your cloud infrastructure.
 

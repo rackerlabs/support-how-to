@@ -14,7 +14,7 @@ product_url: cloud-servers
 -------------------------------------------------
 
 -   [Getting started with Cloud
-    Servers](/how-to/cloud-servers-0 "Getting Started with Cloud Servers")
+    Servers](/how-to/cloud-servers "Getting Started with Cloud Servers")
 -   [Getting started on a Windows Cloud
     Server](/how-to/getting-started-on-a-windows-cloud-server "Getting Started on a Windows Cloud Server")
 -   [Frequently Asked

@@ -12,7 +12,7 @@ product_url: cloud-backup
 
 ### Previous section
 
-[Rackspace Cloud Backup - Create a backup](https://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-create-a-backup-0).
+[Rackspace Cloud Backup - Create a backup](/how-to/rackspace-cloud-backup-create-a-backup-0).
 
 This article describes how to confirm your backup settings, ensure that a cleanup or restore action finished successfully, manually start a job before it's
 scheduled, and quickly view all of your backup activity at once.

@@ -65,11 +65,11 @@ and encryption.
 ### Installation files
 
 You can find the installation files can be found while logged into
-either [cp.rackspace.com](cp.rackspace.com) or into the
-[my.rackspace.com](my.rackspace.com), depending on how you normally log
+either [https://cp.rackspace.com](https://cp.rackspace.com) or into the
+[https://my.rackspace.com](https://my.rackspace.com), depending on how you normally log
 in.
 
-Administrators who log in to [my.rackspace.com](my.rackspace.com), as
+Administrators who log in to [https://my.rackspace.com](https://my.rackspace.com), as
 the primary contact can follow these steps:
 
 1.  Click the **Products** tab and select **Email and Apps** from
@@ -80,7 +80,7 @@ the primary contact can follow these steps:
 column.
 
 Administrators who log in to
-[cp.rackspace.com](cp.rackspace.com) with Super Admin permission can
+[https://cp.rackspace.com](https://cp.rackspace.com) with Super Admin permission can
 follow these steps:
 
 1.  While on the home page, click Domains.
@@ -156,10 +156,10 @@ Directory Sync service must be configured. Perform the following steps:
 2.  On the **Sync Registration Page**, enter the admin ID and password
     associated with your Rackspace Cloud Office account, and then click
     **Register**.
-    -   Customers who logged in to [my.rackspace.com](my.rackspace.com)
+    -   Customers who logged in to [https://my.rackspace.com](https://my.rackspace.com)
         will automatically create an admin ID through the MyRackspace
         Customer Portal before download
-    -   Customers who logged in to [cp.rackspace.com](cp.rackspace.com)
+    -   Customers who logged in to [https://cp.rackspace.com](https://cp.rackspace.com)
         are advised to create a new admin ID dedicated to the
         sync service.
 

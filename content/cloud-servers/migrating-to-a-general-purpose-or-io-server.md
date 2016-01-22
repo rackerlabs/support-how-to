@@ -14,7 +14,7 @@ Migrating your data to a General Purpose or I/O-optimized cloud server ([product
 
 ## Preparation
 
-[prep]:/knowledge_center/article/preparing-for-a-cloud-server-migration "Preparing for a Cloud Server Migration"
+[prep]:/knowledge_center/preparing-for-a-cloud-server-migration "Preparing for a Cloud Server Migration"
 
 For detailed advice on preparing a server for a smooth migration, see the recommendations in [Prepare to migrate a Linux server][prep]. In particular, you can reduce the amount of data to be migrated by deleting old installers, rotating logs, and removing old cache and session files.
 
@@ -24,7 +24,7 @@ If you plan to remove files from your server to speed up your migration, we reco
 
 ## Image-based migration
 
-[makeimage]:/knowledge_center/article/cloud-essentials-4-creating-an-image-backup-cloning-and-restoring-a-server-from-a-saved "Creating and Restoring Images"
+[makeimage]:/knowledge_center/cloud-essentials-4-creating-an-image-backup-cloning-and-restoring-a-server-from-a-saved "Creating and Restoring Images"
 
 The easiest way to migrate an existing server to a General Purpose server is to migrate an image of the existing server. A server image can be restored only to the system disk of a General Purpose server. (Similarly, images can be taken only from the system disk of a General Purpose server; images cannot be saved for any data disks attached).
 
@@ -72,7 +72,7 @@ After you know which data will be copied to your system disk and which will be c
 
 ### Create the destination server
 
-[arch]:/knowledge_center/article/rackspace-open-cloud-reference-architecture
+[arch]:/knowledge_center/rackspace-open-cloud-reference-architecture
 
 When you create the destination server, consider your storage requirements as well as your memory, CPU, and network requirements.
 

@@ -53,5 +53,5 @@ Balancer](/how-to/configure-a-load-balancer)
 Page](/how-to/managing-your-server)
 
 [Back to the First 48
-Guide](/how-to/cloud-servers-0)
+Guide](/how-to/cloud-servers)
 

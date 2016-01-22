@@ -407,5 +407,5 @@ The following changes should occur:
 ### Next steps
 
 [Rackspace Cloud Backup - Create a
-backup](http://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-create-a-backup-0)
+backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
 

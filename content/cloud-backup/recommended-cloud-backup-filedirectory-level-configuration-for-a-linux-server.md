@@ -34,4 +34,4 @@ Alternatively you can set the Cloud Backup to backup the entire ` /` file system
 
 
 Return to [Rackspace Cloud Backup - Create a Backup][id2]  article.
-[id2]:http://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-create-a-backup-0
+[id2]:/how-to/rackspace-cloud-backup-create-a-backup-0
