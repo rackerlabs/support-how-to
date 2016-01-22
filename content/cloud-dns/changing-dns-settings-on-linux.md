@@ -6,16 +6,15 @@ created_date: '2011-07-20'
 created_by: Jered Heeschen
 last_modified_date: '2013-10-23'
 last_modified_by: Ross Diaz
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 ### Manual DNS
 
 There may be times you need to change your server's DNS settings, either
 because you find they're misconfigured or because you want to use your
-own. Fortunately there isn't a lot of work involved in changing the [DNS
-servers](http://www.rackspace.com/cloud/dns/), just a quick edit in the
+own. Fortunately there isn't a lot of work involved in changing the [DNS servers](http://www.rackspace.com/cloud/dns/), just a quick edit in the
 right place.
 
 ### resolv.conf
@@ -27,7 +26,7 @@ in the file:
 
 It's spelled just like that, with no "e" at the end of "resolv".
 
-In that file we'll want to have at least one "nameserver" line (two is
+In that file we'll want to have at least one `nameserver` line (two is
 better, so we have a fallback). Each line defines a DNS server.
 
 The name servers will be prioritized in the order the system finds them
@@ -45,15 +44,13 @@ Open **resolv.conf** with an editor like nano to make the necessary changes
 If your Cloud Server is in the Hong Kong (HKG) datacenter you should
 use:
 
-``` {style="font-weight: normal;"}
-nameserver 120.136.32.63
-nameserver 120.136.32.62
-```
+    nameserver 120.136.32.63
+    nameserver 120.136.32.62
 
 #### Rackspace Cloud UK
 
 If you're on Rackspace Cloud UK you can use our closest DNS servers by
-making the contents of the /etc/resolv.conf file read:
+making the contents of the **/etc/resolv.conf** file read:
 
     nameserver 83.138.151.80
     nameserver 83.138.151.81
@@ -88,7 +85,7 @@ Once you have your DNS servers set, save the file. And you're done. No
 reboot required.
 
 The easiest way to make sure your new settings are good ones is to try
-to ping a domain name:
+to `ping` a domain name:
 
     ping -c 3 rackspace.com
 
@@ -103,33 +100,33 @@ You should see a result like:
     3 packets transmitted, 3 received, 0% packet loss, time 2002ms
     rtt min/avg/max/mdev = 25.236/25.292/25.392/0.147 ms
 
-If you get an "unknown host" message back you should double-check the IP
+If you get an `unknown host` message back you should double-check the IP
 addresses you set as your DNS servers.
 
 ### IPv6
 
 If you're using IPv6 on your server you may need to add the IPv6
-addresses of your name servers to resolv.conf.  You can see if a DNS
+addresses of your name servers to **resolv.conf**. You can see if a DNS
 server has an IPv6 address with two steps.
 
-First, use "host" to get the name of the server:
+First, use `host` to get the name of the server:
 
     $ host 72.3.128.240
     240.128.3.72.in-addr.arpa domain name pointer cachens1.dfw1.rackspace.com.
 
-Then use the domain name you got back in another "host" lookup:
+Then use the domain name you got back in another `host` lookup:
 
     $ host cachens1.dfw1.rackspace.com
     cachens1.dfw1.rackspace.com has address 72.3.128.240
     cachens1.dfw1.rackspace.com has IPv6 address 2001:4800:d::1
 
-If an IPv6 address is returned you can add that as another "nameserver"
-line in resolv.conf, as in:
+If an IPv6 address is returned you can add that as another `nameserver`
+line in **resolv.conf**, as in:
 
     nameserver 2001:4800:d::1
 
-Then test as above, using the "ping6" command instead of the regular
-"ping" command to force the system to use IPv6.
+Then test as above, using the `ping6` command instead of the regular
+`ping` command to force the system to use IPv6.
 
 ### Summary
 
