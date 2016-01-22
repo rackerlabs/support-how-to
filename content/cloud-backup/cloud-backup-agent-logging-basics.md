@@ -124,13 +124,12 @@ Support, we recommend that you upload them to your Cloud Files account
 in a public container. From there, you copy the download or streaming
 links for the log files and paste the links into your support ticket.
 
-Locations of Cloud Backup agent files
--------------------------------------
+### Locations of Cloud Backup agent files
 
 The following section lists the locations of the Cloud Backup agent on
 both Linux and Windows servers.
 
-### Agent file location (Linux)
+#### Agent file location (Linux)
 
 Assuming a default installation, following are the agent file locations
 on Linux systems:
