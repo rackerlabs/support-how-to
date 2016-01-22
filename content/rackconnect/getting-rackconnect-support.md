@@ -10,15 +10,14 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section:** [RackConnect v2.0
-Requirements](/how-to/rackconnect-v20-requirements)
+**Previous section:** [RackConnect v2.0 requirements](/how-to/rackconnect-v20-requirements)
 
 **Applies to:** RackConnect v3.0 and RackConnect v2.0
 
-RackConnect<span>&reg;</span> is compatible with our dedicated Managed,
+RackConnect<sup>&reg;</sup> is compatible with our dedicated Managed,
 dedicated Intensive, cloud Managed Operations, and cloud Managed
 Infrastructure service level offerings&mdash;giving you the ability to select
-the level of *Fanatical Support*&reg; you need to properly manage your
+the level of ***Fanatical Support***<sup>&reg;</sup> that you need to properly manage your
 hybrid environment. Your dedicated and cloud support teams are your
 first points of contact for any RackConnect issues that you encounter.
 
@@ -42,9 +41,8 @@ RackConnect hybrid solution. These service levels provide you with
 higher levels of support for your hybrid environment.
 
 For more information about our support service levels, see [Dedicated
-Support Service
-Levels](http://www.rackspace.com/managed-hosting/service-levels/) and
-[Managed Cloud Service Levels](http://www.rackspace.com/managed-cloud/).
+Support service levels](http://www.rackspace.com/managed-hosting/service-levels/) and
+[Managed Cloud service levels](http://www.rackspace.com/managed-cloud/).
 
 If you have any questions, please reach out to us. Our contact
 information is available on the [Contact
@@ -54,4 +52,3 @@ Us](/how-to/support) page.
 
 [Getting started with RackConnect
 v2.0](/how-to/rackconnect-v20)
-
