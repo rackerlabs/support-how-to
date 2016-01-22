@@ -52,7 +52,7 @@ RackConnect v3.0 API operations. Your authentication token ID is how the
 RackConnect v3.0 API validates that you have access to make API calls
 against your RackConnect v3.0 environment.
 
-Your authentication token ID is sent within an X-Auth-Token header in
+Your authentication token ID is sent within an `X-Auth-Token` header in
 your API calls. Details about obtaining your authentication token ID are
 located in the "Quick Start" section of the [Cloud Identity Client
 Developer
@@ -68,26 +68,26 @@ obtain your authentication token ID:
 
 Insert your cloud account's values in the following requests where
 placeholders are shown. For example, if your cloud account's user name
-is ExampleCloudAccountUserName, replace the &lt;yourUserName&gt;
-placeholder in the requests with "ExampleCloudAccountUserName" (be sure
+is ExampleCloudAccountUserName, replace the ``<yourUserName>``
+placeholder in the requests with ``"ExampleCloudAccountUserName"`` (be sure
 to retain the quotation marks).
 
 #### Cloud Identity Service request for an auth token ID using your cloud account's API key
 
-    $ curl <br>
-    --request POST <br>
-    --header "Content-Type: application/json" <br>
-    --data '{ "auth": { "RAX-KSKEY:apiKeyCredentials": { "username":"<yourUserName>", "apiKey":"<yourAPIKey>" } } }' <br>
-    https://identity.api.rackspacecloud.com/v2.0/tokens <br>
+    $ curl \
+    --request POST \
+    --header "Content-Type: application/json" \
+    --data '{ "auth": { "RAX-KSKEY:apiKeyCredentials": { "username":"<yourUserName>", "apiKey":"<yourAPIKey>" } } }' \
+    https://identity.api.rackspacecloud.com/v2.0/tokens \
     | python -m json.tool
 
 #### Cloud Identity Service request for an authentication token ID using your cloud account's password
 
-    $ curl <br>
-    --request POST <br>
-    --header "Content-Type: application/json" <br>
-    --data '{ "auth": { "passwordCredentials": { "username":"<yourUserName>", "password":"<yourPassword>" } } }' <br>
-    https://identity.api.rackspacecloud.com/v2.0/tokens <br>
+    $ curl \
+    --request POST \
+    --header "Content-Type: application/json" \
+    --data '{ "auth": { "passwordCredentials": { "username":"<yourUserName>", "password":"<yourPassword>" } } }' \
+    https://identity.api.rackspacecloud.com/v2.0/tokens \
     | python -m json.tool
 
 Note the following important points about the preceding API requests:
@@ -96,21 +96,21 @@ Note the following important points about the preceding API requests:
     primarily there to improve readability (they basically mean that you
     are going to continue with this single command on the next line).
     You can place all the lines from a cURL command on a single line.
--   The final line of | python -m json.tool is also optional, but it
+-   The final line of ``| python -m json.tool`` is also optional, but it
     does help to improve the readability of the JSON responses. It also
     requires that Python be installed on the system from which you are
     making the API calls. If you do not have Python installed, you can
     safely remove the final line.
 -   The examples use the Cloud Identity Service API US endpoint of
-    https://identity.api.rackspacecloud.com/v2.0/, but if your
+    ``https://identity.api.rackspacecloud.com/v2.0/``, but if your
     RackConnect v3.0 environment and cloud account are located in the
     LON region, you should use the UK endpoint
-    of https://lon.identity.api.rackspacecloud.com/v2.0/.
+    of ``https://lon.identity.api.rackspacecloud.com/v2.0/``.
 
 The API calls return JSON responses similar to the following example,
 and you should copy the authentication token ID value returned in the
-**access:token:id** section and the tenant ID value listed in the
-**access:token:tenant:id** section. The authentication token ID consists
+``access:token:id`` section and the tenant ID value listed in the
+`access:token:tenant:id` section. The authentication token ID consists
 of 32 alphanumeric characters, while the tenant ID consists of a series
 of numeric values. You need these values when you make RackConnect v3.0
 API calls.
@@ -140,12 +140,11 @@ API calls.
 Now that you have the RackConnect v3.0 cloud account's authentication
 token ID and tenant ID, you can make your first RackConnect v3.0 API
 call. The API endpoint takes the following form, and you must replace
-the *region* and *tenantID* placeholders with the region where your
-cloud servers are located and your cloud account's tenant ID number.
+the ``<region>`` and ``<tenantID>`` placeholders with the region where your cloud servers are located and your cloud account's tenant ID number.
 
 #### RackConnect v3.0 endpoint
 
-    https://<region>.rackconnect.api.rackspacecloud.com/v3/tenantId/
+    https://<region>.rackconnect.api.rackspacecloud.com/v3/<tenantId>/
 
 Using the authentication token ID that you previously gathered, you can
 now list the public IP address currently assigned to your RackConnect
@@ -154,9 +153,9 @@ v3.0 cloud server with the following request:
 #### List public IP address for a cloud server API request
 
     curl --include \
-    --request GET <br>
-    --header "X-Auth-Token: authTokenId" <br>
-    --header "Content-Type: application/json" <br>
+    --request GET \
+    --header "X-Auth-Token: authTokenId" \
+    --header "Content-Type: application/json" \
     https://region.rackconnect.api.rackspacecloud.com/v3/tenantId/public_ips?cloud_server_id=serverUuid
 
 Note the following important points:
@@ -164,21 +163,20 @@ Note the following important points:
 -   You can obtain the UUID (universally unique identifier) of your
     cloud server from within its server details page in the [Cloud
     Control Panel](https://mycloud.rackspace.com) or via the [Cloud
-    Servers API&mdash;Get Server
-    Details](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/Get_Server_Details-d1e2623.html)
+    Servers API&mdash;Get Server   Details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#show-server-details)
     operation. The UUID is a 32-character entry with four hyphens in the
     **ID** or **id** section of the server details page.
--   The *--include* option is used so that the HTTP response status code
+-   The ``--include`` option is used so that the HTTP response status code
     will be displayed in the response. Status code 200 should be
     returned upon a successful request of this operation. If a cloud
     server does not have a public IP address, the operation does not
-    return any JSON data. When no JSON data is returned, the | python -m
-    json.tool option used in previous operations does not work because
+    return any JSON data. When no JSON data is returned, the ``| python -m
+    json.tool`` option used in previous operations does not work because
     there is no data for it to process. In such cases, you can use the
-    *-*-include option to verify that a proper response code was
+    ``--include`` option to verify that a proper response code was
     received for the call.
--   In an operation, use only the --include option or the | python -m
-    json.tool option. Use only one of these options in a single
+-   In an operation, use only the ``--include`` option or the ``| python -m
+    json.tool`` option. Use only one of these options in a single
     operation to avoid errors.
 
 The following example response is the type of response you would see if
@@ -218,12 +216,12 @@ RackConnect v3.0 cloud server.
 
 #### Add or provision a public IP address to a cloud server API request
 
-    curl <br>
-    --request POST <br>
-    --header "X-Auth-Token: authTokenId" <br>
-    --header "Content-Type: application/json" <br>
-    --data '{ "cloud_server": { "id": "serverUuid" } }' <br>
-    https://region.rackconnect.api.rackspacecloud.com/v3/tenantId/public_ips <br>
+    curl \
+    --request POST \
+    --header "X-Auth-Token: authTokenId" \
+    --header "Content-Type: application/json" \
+    --data '{ "cloud_server": { "id": "serverUuid" } }' \
+    https://region.rackconnect.api.rackspacecloud.com/v3/tenantId/public_ips \
     | python -m json.tool
 
 Following is an example of the type of response expected after sending
@@ -252,8 +250,8 @@ the preceding request.
         "updated": null
     }
 
-When you run this operation, the public\_ip\_v4 address initially
-returns a value of **null.** This value is returned because the
+When you run this operation, the `public_ip_v4` address initially
+returns a value of `null`. This value is returned because the
 RackConnect v3.0 API does not have enough time to allocate a public IP
 address to the cloud server before returning the response. To see the
 public IP address that is ultimately assigned to the cloud server, you
@@ -267,20 +265,19 @@ server.
 
 #### Remove a public IP address from a cloud server API request
 
-    curl --include <br>
-    --request DELETE <br>
-    --header "X-Auth-Token: authTokenId" <br>
-    --header "Content-Type: application/json" <br>
+    curl --include \
+    --request DELETE \
+    --header "X-Auth-Token: authTokenId" \
+    --header "Content-Type: application/json" \
     https://region.rackconnect.api.rackspacecloud.com/v3/tenantId/public_ips/serverPublicIPv4Uuid
 
 When removing a public IP address, you have to provide the cloud
-server's public IP v4 UUID. This value was listed as the id entry just
-above the public\_ip\_v4 entry in the operations to *list* and *add*
-public IP addresses. This UUID is a 32 character entry with four
+server's public IP v4 UUID. This value was listed as the `id` entry just
+above the `public_ip_v4` entry in the operations to list and add
+public IP addresses. This UUID is a 32-character entry with four
 hyphens, and in the preceding example operations it was listed as
-NaNaNNNaa-NaNa-aNaN-aNaN-NaNaNNaaaaNa. This call does not return any
-JSON data&mdash;only an HTTP response code&mdash;so you use the *--include* option
-with the request. A 204 response code signifies that the public IP
+`NaNaNNNaa-NaNa-aNaN-aNaN-NaNaNNaaaaNa`. This call does not return any
+JSON data&mdash;only an HTTP response code&mdash;so you use the ``--include`` option with the request. A 204 response code signifies that the public IP
 address was successfully removed from the cloud server.
 
 #### Example 204 response to the remove a public IP address from a cloud server API request
@@ -298,15 +295,15 @@ address was successfully removed from the cloud server.
 The preceding sections explained how to use the RackConnect v3.0 API to
 list, add, and remove cloud server public IP addresses. To help clarify
 the information that has been covered, this section provides a final
-example that uses sample data instead of placeholders in the *list
-public IP address* operation.
+example that uses sample data instead of placeholders in the operation to list
+public IP addresses.
 
 #### List public IP address for a cloud server API request with sample data
 
     curl --include \
-    --request GET <br>
-    --header "X-Auth-Token: NNNaaNNaNNaaaaNNaNaNNNNaaNaNaaaa" <br>
-    --header "Content-Type: application/json" <br>
+    --request GET \
+    --header "X-Auth-Token: NNNaaNNaNNaaaaNNaNaNNNNaaNaNaaaa" \
+    --header "Content-Type: application/json" \
     https://iad.rackconnect.api.rackspacecloud.com/v3/NNNNNNN/public_ips?cloud_server_id=aaaNNNNNa-aaaa-NNNN-aNaN-aNNaaNaNaNaa
 
 Sample data entries for this example are as follows:
@@ -320,6 +317,4 @@ For information about the many other API calls available with the
 RackConnect v3.0 API, visit <http://docs.rcv3.apiary.io/>.
 
 If you have any questions, reach out to us. Contact information is
-available on the [Contact
-Us](/how-to/support) page.
-
+available on the [Contact Us](/how-to/support) page.
