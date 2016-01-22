@@ -46,8 +46,7 @@ Servers. Below is a summary of both:
 -   **Rackspace Cloud Backup** - Rackspace Cloud Backup is a fully
     integrated, file-based backup solution that helps protect your data
     on cloud servers. For additional information, check out our
-    Rackspace Cloud Backup Overview - [Rackspace Cloud Backup
-    Overview](/how-to/rackspace-cloud-backup-overview)
+    Cloud Backup Overview](/how-to/rackspace-cloud-backup-overview).
 
 <!-- -->
 
@@ -55,7 +54,7 @@ Servers. Below is a summary of both:
     of the entire state of a Cloud Server stored either on Cloud Files
     or on the Cloud Server's host, depending on the environment. Images
     can be scheduled or created on-demand. For additional information,
-    check out Cloud Server Image Backup - [Creating A New Cloud Server
+    check out [Creating A New Cloud Server
     From A Saved
     Image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 
