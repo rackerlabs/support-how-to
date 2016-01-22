@@ -4,8 +4,8 @@ title: Back up databases with Cloud Backup
 type: article
 created_date: '2012-08-23'
 created_by: David Hendler
-last_modified_date: '2016-01-21'
-last_modified_by: Margaret Eker
+last_modified_date: '2016-01-22'
+last_modified_by: Nathaniel Archer
 product: Cloud Backup
 product_url: cloud-backup
 ---
