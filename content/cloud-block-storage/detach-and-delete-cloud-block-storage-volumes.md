@@ -1,17 +1,17 @@
 ---
 node_id: 3139
-title: Detach and Delete Cloud Block Storage Volumes
+title: Detach and delete Cloud Block Storage volumes
 type: article
 created_date: '2012-10-22'
 created_by: David Hendler
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
-**Previous section:**[Create and Use Cloud Block Storage
-Snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
+**Previous section:** [Create and use Cloud Block Storage
+snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
 
 Detaching a Cloud Block Storage volume will prevent you from writing to
 it when you want to take a snapshot. It is also useful when you want to
@@ -24,7 +24,7 @@ below.
 
 
 
-### Unmount a Volume
+### Unmount a volume
 
 There are a few reasons to detach a volume:
 
@@ -33,17 +33,17 @@ There are a few reasons to detach a volume:
 -   To move it to another Server
 -   To delete it
 
-Before you detach a Volume from a Server, you should unmount it to
+Before you detach a volume from a server, you should unmount it to
 prevent errors.
 
-#### **Unmount Volume from a Linux Server**
+#### Unmount volume from a Linux server
 
 Confirm in the Control Panel how the volume is presented to the cloud
 server.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_location3_0.png" width="764" height="490" />
 
-At your server, use the df -h command to see how it is mounted.
+At your server, use the **df -h** command to see how it is mounted.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mount_point.png" width="571" height="122" />
 
@@ -51,7 +51,7 @@ Use the value under **Mounted On** in the unmount command.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fstab2_0.png" width="883" height="328" />
 
-Also, comment out second line (highlighted above) in /etc/fstab to
+Also, comment out second line (highlighted above) in **/etc/fstab** to
 prevent the volume from trying to mount on the next boot.
 
 Input:
@@ -64,49 +64,49 @@ The output is the prompt ready for the next command.
 
     #
 
-#### **Unmount a Volume from a Windows Server**
+#### Unmount a volume from a Windows server
 
-1.  In the Server Manager, Select File and Storage Services &gt; Disks.
+1.  In the Server Manager, select **File and Storage Services &gt; Disks**.
 2.  Under the **Disks** window, right-click the Cloud Block
-    Storage Volume. Select **Take Offline** from the pop-up menu. If the
-    **Take Disk Offline** warning window displays, click Yes.
+    Storage volume. Select **Take Offline** from the pop-up menu. If the
+    **Take Disk Offline** warning window displays, click **Yes**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win_bringoffline_0.jpeg" width="644" height="318" />
 
-The Cloud Block Storage Volume no longer displays as a drive under
+The Cloud Block Storage volume no longer displays as a drive under
 **Computer**.
 
 
 
-### Detach a Volume
+### Detach a volume
 
 In the Rackspace Cloud Control Panel, click **Block Storage** in the
 Servers sub-navigation to display the **Block Storage Volumes** screen.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_detachvolume_0.jpeg" width="681" height="185" />
 
-Click the Actions button (the cog) next to the Volume name. Click the
+Click the Actions button (the cog) next to the volume name. Click the
 **Detach Volume** link.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_detachvolume2_0.jpeg" width="407" height="248" />
 
 Click the **Detach Volume** button.
 
-The Volume detaches.
-Note: It may take several minutes for your Volume to detach.
+The volume detaches.
+
+**Note**: It may take several minutes for your Volume to detach.
 
 
 
-### Delete a Volume
+### Delete a volume
 
- In the Rackspace Cloud Control Panel, click **Block Storage** in the
+In the Rackspace Cloud Control Panel, click **Block Storage** in the
 Servers sub-navigation to display the **Block Storage Volumes** screen.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_detachvolume3.jpeg" width="681" height="185" />
 
-Click the Actions button (the cog) next to the Volume name. Click the
+Click the Actions button (the cog) next to the volume name. Click the
 **Delete Volume** link.
 
 **Note:** If a snapshot of the volume exists, you cannot delete the
 volume until you delete the snapshot.
-
