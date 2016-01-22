@@ -82,6 +82,5 @@ control options with different storage types.
 
 #### **Getting Started with Cloud Backup**
 
-See [Getting Started with Cloud
-Backup](/how-to/cloud-backup)
+See the [Cloud Backup overview page](/how-to/cloud-backup)
 to get started with Cloud Backup.
