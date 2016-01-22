@@ -50,7 +50,7 @@ Volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
 
 After the initial setup, including installation of the Cloud Backup
 Agent and capture of all the initial files, Cloud Backup uses
-duplication to capture only data that has changed. With
+deduplication to capture only data that has changed. With
 the exception of your first complete backup, every subsequent backup is
 just a &ldquo;delta&rdquo; of the previous backup, which enables faster backup and
 restore operations and reduces the storage amount required. If ever
