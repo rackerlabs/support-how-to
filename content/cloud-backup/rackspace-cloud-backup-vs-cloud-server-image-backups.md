@@ -10,8 +10,8 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-Some users are used to taking snapshots of their Cloud Server ([product
-page](http://www.rackspace.com/cloud/servers)) as a backup. If you have
+Some users are used to taking snapshots of their Cloud Server [product
+page](http://www.rackspace.com/cloud/servers) as a backup. If you have
 a solution where you want to save the server&rsquo;s state or configuration,
 or want to keep gold copies of your system, then you can create an image
 backup of the server. Because it is an image of the whole server, there
@@ -67,9 +67,7 @@ retain. To determine which product best suits your backup needs, visit
 the links below:
 
 -   **[Cloud Block Storage
-    Overview](/how-to/cloud-block-storage-overview)**
--   **[Best Practices for Backing Up Your Data: Cloud Block Storage
+    overview](/how-to/cloud-block-storage-overview)**
+-   **[Best practices for backing up your data: Cloud Block Storage
     versus Cloud
     Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)**
-
-
