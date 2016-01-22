@@ -12,24 +12,13 @@ product_url: cloud-servers
 
 When you modify a firewall configuration, it is important to consider potential security risks to avoid future issues. Security is a complex topic and can vary from case to case, but this article describes best practices for configuring perimeter firewall rules.
 
-
-- [Block by default](#blockbydefault)
-- [Allow specific traffic](#allowspec)
-- [Specify source IP addresses](#specsourceip)
-- [Specify the destination IP address](#specdestip)
-- [Specify the destination port](#specdest)
-- [Examples of bad configurations](#badexample)
-
-<a name="blockbydefault"> </a>
-## Block by default
+### Block by default
 
 Block all traffic by default and explicitly allow only specific traffic to known services. This strategy provides good control over the traffic and reduces the possibility of a breach because of service misconfiguration.
 
 You achieve this behavior by configuring the last rule in an access control list to deny all traffic. You can do this explicitly or implicitly, depending on the platform.
 
-
-<a name="allowspec"> </a>
-## Allow specific traffic
+### Allow specific traffic
 
 The rules that you use to define network access should be as specific as possible. This strategy is referred to as the *principle of least privilege*, and it forces control over network traffic. Specify as many parameters as possible in the rules.
 
@@ -41,29 +30,23 @@ A layer 4 firewall uses the following parameters for an access rule:
 
 As many parameters as possible should be specified in the rule used to define network access. There are limited scenarios where <code>any</code> is used in any of these fields.
 
-<a name="specsourceip"> </a>
-## Specify source IP addresses
+### Specify source IP addresses
 
 If the service should be accessible to everyone on the Internet, then <code>any</code> source IP address is the correct option. In all other cases, you should specify the source address.
 
 It's acceptable to allow all source addresses to access your HTTP server. It's generally not acceptable to allow all source addresses to access your server management ports (22 for Linux SSH and 3389 for Windows RDP) or database (1433 for SQL Server, 1521 for Oracle, and 2206 for MySQL). Be as specific as practical about who can reach these ports. When it is impractical to define source IP addresses for network management, you might consider another solution like a remote access VPN as a compensating control to allow the access required and protect your network.
 
-
-<a name="specdestip"> </a>
-## Specify the destination IP address
+### Specify the destination IP address
 
 The destination IP address is the IP address of the server that runs the service to which you want to allow access. Always specify which server (or group of servers) can be accessed. Configuring a destination value of <code>any</code> is discouraged, because doing so could create future issues, such as a security breach or server compromise for a protocol that you might not intend to use on a server that might be accessible by default.
 
-<a name="specdest"> </a>
-## Specify the destination port
+### Specify the destination port
 
 The destination port corresponds to the service that needs to be accessed. This value of this field should never be <code>any</code>. The service that runs on the server and needs to be accessed is defined, and only this port needs to be allowed. For example, allowing all ports will greatly impact the security of the server by allowing a malicious entity to perform a dictionary attack to guess the password, as well as execute exploits for any port and protocol that is configured on the server.
 
 Avoid using too wide a range of ports. If dynamic ports are used, firewalls sometimes provide inspection policies to securely allow them through.
 
-
-<a name="badexample"> </a>
-## Examples of bad configurations
+### Examples of bad configurations
 
 This section describes bad examples of firewall rules, but also shows some alternative good rules to follow when configuring firewall rules.
 
@@ -76,5 +59,3 @@ This section describes bad examples of firewall rules, but also shows some alter
 <code>permit tcp any DB-SERVER1 3306</code> - Allows MySQL access from any source to the database. Database servers should never be exposed to the whole Internet. If you need database queries to run across the public Internet, specify the exact source IP address. A good rule would be <code>permit tcp 23.45.67.89 DB-SERVER1 3306</code> (where <code>23.45.67.89</code> is the IP address of the host on the Internet that needs access to the database). A best practice would be to allow database traffic over a VPN and not in clear text across the public Internet.
 
 If you need help implementing these best practices, contact your Rackspace support team.
-
-<p>&nbsp;</p>
