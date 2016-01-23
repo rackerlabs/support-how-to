@@ -19,7 +19,7 @@ As a Rackspace Cloud customer, we can help you become PCI compliant,
 however it will take some work on your end. To read more about the
 requirements for PCI compliance and how Rackspce can help, see [PCI
 Compliance in Rackspace Hybrid
-Cloud](/how-to/pci-compliance-in-rackspace-hybrid-cloud).
+Cloud](/white-paper/pci-compliance-in-rackspace-hybrid-cloud).
 For information about PCI-DSS, see [Cloud Security
 Solutions](http://www.rackspace.com/security/solutions/#pci). For
 information about PCI-DSS when using Rackspace Dedicated Hosting

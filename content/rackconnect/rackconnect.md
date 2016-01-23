@@ -34,7 +34,7 @@ product_url: rackconnect
 - [Getting started with the RackConnect v3.0 API](/how-to/getting-started-with-the-rackconnect-v30-api)
 - [RackConnect v3.0 compatibility](/how-to/rackconnect-v30-compatibility)
 - [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
-- [Associate a Cloud account with RackConnect v3.0](/how-to/associate-a-cloud-account-with-rackconnect-v30)
+- [Associate a Cloud account with RackConnect v3.0](/how-to/associating-a-cloud-account-with-rackconnect-v30)
 - [Accessing RackConnect cloud servers](/how-to/accessing-rackconnect-cloud-servers)
 - [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)
 - [Using dedicated load balancers with RackConnect v3.0](/how-to/using-dedicated-load-balancers-with-rackconnect-v30)

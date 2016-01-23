@@ -28,7 +28,7 @@ from which you made the snapshot. The new volume must be in the same
 region. It can, however, be a different type.
 
 Read [Allowing snapshots without detaching the
-volumes](/how-to/allowing-snapshots-without-detaching-the-volumes) for
+volumes](/white-paper/allowing-snapshots-without-detaching-the-volumes) for
 additional information on allowing snapshots without detaching the
 volumes.
 

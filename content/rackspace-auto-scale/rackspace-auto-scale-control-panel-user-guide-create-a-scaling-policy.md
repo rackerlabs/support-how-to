@@ -79,8 +79,8 @@ group and watching the new server or servers being added.
 After you have created a scaling group and policy, following are some
 next steps that you might take:
 
--   To learn more about Autoscale, read the [Rackspace Autoscale
-    FAQ](/how-to/rackspace-auto-scale-faq-0), [Rackspace Auto
+-   To learn more about Auto Scale, read the [Rackspace Auto Scale
+    FAQ](/how-to/rackspace-auto-scale-faq), [Rackspace Auto
     Scale
     Glossary](/how-to/rackspace-auto-scale-glossary),
     and [Rackspace Autoscale
