@@ -95,8 +95,8 @@ To create a new alarm, complete the following steps:
     create an alarm for the CPU check type, Rackspace Intelligence
     automatically guides you through the steps for creating a CPU
     alarm.
-    **Note:** If you want to create an alarm for an [agent check
-    type](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-agent.html),
+    **Note:** If you want to create an alarm for an
+    [agent check type](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-check-types),
     you must install the Rackspace monitoring agent on the server.
     Rackspace Intelligence creates an alarm without the agent installed,
     but you cannot view any metrics for this alarm. See [Creating an
