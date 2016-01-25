@@ -14,15 +14,15 @@ product_url: cloud-queues
 
 The steps in this process will return queue statistics, including the number of messages that exist in the queue. These are broken out by status.
 
-## Monitoring through the API
+### Monitoring through the API
 
 Send the following request.
 
-### Queue status template
+#### Queue status template
 
        GET /v1/queues/{queue_name}/stats
 
-### Request
+#### Request
 
 Substitute your cloud queue information for the sample information:
 
@@ -31,7 +31,7 @@ Substitute your cloud queue information for the sample information:
 
 Your cloud queue statistics are returned:
 
-### Response
+#### Response
 
        HTTP:/1.1 200 OK
        {
@@ -51,7 +51,7 @@ Your cloud queue statistics are returned:
            }
        }
 
-## Monitoring through the Cloud Control Panel
+### Monitoring through the Cloud Control Panel
 
 You can view your cloud queue statistics in the Cloud Control Panel.
 
