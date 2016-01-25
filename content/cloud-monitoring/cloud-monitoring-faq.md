@@ -43,14 +43,14 @@ following methods:
 
 -   [Cloud Control
     Panel](/how-to/available-checks-for-rackspace-monitoring)
--   [raxmon command line
-    inteface (CLI)](/how-to/getting-started-with-rackspace-monitoring-cli)
+-   [raxmon command-line
+    interface (CLI)](/how-to/getting-started-with-rackspace-monitoring-cli)
 -   [Rackspace Monitoring
     API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)
 
 To set a monitoring check using the Cloud Control Panel, log into the
-Control Panel and go the Server Details page of a Cloud Server. Then
-scroll down to the Monitoring Checks section and click Create Check.
+Control Panel and go the **Server Details** page of a Cloud Server. Then
+scroll down to the **Monitoring Checks** section and click **Create Check**.
 
 If you would like to practice setting up a monitoring check using the
 CLI, consult the [Rackspace Monitoring Getting Started
@@ -94,8 +94,6 @@ do that, we have two simple objectives; to alert the resource owner
 before their customer knows, and to take measure against allowing the
 system to go down in the first place.
 
-------------------------------------------------------------------------
-
 ### Account Services
 
 ### Can I use a UK account as well as a US account?
@@ -136,8 +134,6 @@ running in that hour, and from how many monitoring zones were involved.
 Adjusting your usage is quick and easy, and this flexibility can help
 reduce unnecessary costs. Never again will you have to pay for more
 than what you use.
-
-------------------------------------------------------------------------
 
 ### Notification Plans
 
@@ -184,8 +180,6 @@ website](https://pypi.python.org/pypi/rackspace-monitoring-cli/0.4.5).
 You can find information about Rackspace Monitoring [notification
 plans](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
 in the Rackspace Monitoring Developer Guide.
-
-------------------------------------------------------------------------
 
 ### Monitoring and Troubleshooting
 
@@ -234,7 +228,7 @@ As with any commands you will submit to your Cloud resources through the
 API, you must first authenticate through the API in order for the
 commands to be correctly processed.
 
-In our [Rackspace Monitoring Developer
+In the [Rackspace Monitoring Developer
 Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/),
 we show the detailed configuration options available with this service
 offering, and the necessary components to build functioning monitoring
@@ -258,8 +252,6 @@ checks. This will require you to work with the following components:
 -   Notification Plans - A notification plan is a set of notification
     rules to execute when an alarm is triggered.
 
-------------------------------------------------------------------------
-
 ### General
 
 ### Is there a discount for companies that need to monitor in bulk?
@@ -279,7 +271,7 @@ notifications.
 This is a global product which is supported in both the US and UK. We
 have a primary datacenter in the UK that can process alerts on its own
 if the link between the US and UK goes down, as well as other
-datacenters that act as safety nets in case of localized datacenter
+data centers that act as safety nets in case of localized data center
 failure; no matter what, your monitoring service will remain functional.
 
 ### What is a Monitoring Zone?
@@ -460,8 +452,6 @@ failure from multiple sources before alerting you. Or, you can have it
 send you a message if even just one check returns a failure status - the
 level of customization possible through our alarm language is
 incredible.
-
-------------------------------------------------------------------------
 
 ### API
 

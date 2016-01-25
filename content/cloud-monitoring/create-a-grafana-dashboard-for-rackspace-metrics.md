@@ -64,7 +64,7 @@ To create a Grafana dashboard complete the following steps:
     While the stack is being built, you can see a "Building" message in
     the **Status** field.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-create-stack-building.png" width="449" height="380" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-create-stack-building.png" width="449" height="400" />
 
 
 When the stack has finished building, the **Status** field changes to
@@ -72,9 +72,9 @@ When the stack has finished building, the **Status** field changes to
 and a Grafana auth username that you can use to access your Grafana
 dashboard. Be sure to record this information.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-metrics-up1.png" width="408" height="616" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-metrics-up1.png" width="408" height="600" />
 
-###Use the Grafana dashboard
+### Use the Grafana dashboard
 
 
 Now that you have created your stack, you can access the Grafana
@@ -92,16 +92,16 @@ To access the Grafana dashboard, perform the following steps:
     creating the stack and click **OK**.
     You should now be able to see your grafana dashboard.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-home-page_0.png" width="432" height="244" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-home-page_0.png" width="432" height="284" />
 
-Note that all of the metrics submitted by Rackspace Cloud Monitoring are
+Note that all of the metrics submitted by Rackspace Monitoring are
 displayed in the following format:
 
-`&ldquo;rackspace.monitoring.entities.<entityid>.checks.<checktype>.<checkid>.<metricname>&rdquo;.`
+`rackspace.monitoring.entities.<entityid>.checks.<checktype>.<checkid>.<metricname>`
 
 ### Locate your entity and check Ids
 
-Cloud Monitoring generates entity IDs and check IDs to guarantee the
+Rackspace Monitoring generates entity IDs and check IDs to guarantee the
 uniqueness of the metrics.
 
 You can locate the entity ID and check ID on the [Rackspace
@@ -131,8 +131,7 @@ The entity ID directly follows the entities parameter. Entity IDs always
 start with the letters *en*. The check ID directly follows
 the checks parameter. Check IDs always start with the letters *ch*.
 
-###Upload a Grafana dashboard for database instances
-
+### Upload a Grafana dashboard for database instances
 
 Rackspace has created a Grafana dashboard to help you get set up with
 your Cloud Databases MySQL instances.
@@ -157,7 +156,7 @@ complete the following steps:
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-mysql-data.png" width="428" height="337" />
 
-###Grafana FAQ
+### Grafana FAQ
 
 
 Q: How much does Grafana cost?
@@ -194,4 +193,3 @@ the Rackspace Metrics service. This means that you can try both and
 choose the one that works well for you. For more information,
 see [Getting started with Rackspace Intelligence for the
 cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud).
-

@@ -13,13 +13,13 @@ When something in your system unexpectedly breaks, it can impact performance, or
 
 Rackspace Monitoring can help by providing you with timely and accurate information about how your resources are performing. It supplies you the following key pieces of information that can help you manage your business:
 
-*Current system health*
+- Current system health
 
-*Alerts on failure conditions*
+- Alerts on failure conditions
 
-*Collection of historical data*
+- Collection of historical data
 
-*Trending and capacity planning*
+- Trending and capacity planning
 
 With Rackspace Monitoring you can quickly create multiple monitors that use predefined checks such as PING, HTTPS, SMTP, and more to keep track of your cloud resources and receive instant notification when a resource needs your attention.
 
@@ -28,9 +28,9 @@ Following are some resources to get you started with Rackspace Monitoring.
 ###  Rackspace Monitoring Resources
 
 - [How-Tos and Other Resources](/how-to/rackspace-monitoring-how-tos-and-other-resources)
-- [Control Panel Monitoring: What Do the Options Do?](/how-to/available-checks-for-rackspace-monitoring)
+- [Control Panel Monitoring: What do the Options do?](/how-to/available-checks-for-rackspace-monitoring)
 - [Rackspace Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms)
-- [Monitoring On The Go With Mobile App](/how-to/introducing-rackspace-monitoring-on-mobile-devices)
+- [Monitoring on the Go with Mobile App](/how-to/introducing-rackspace-monitoring-on-mobile-devices)
 
 ###  Rackspace Monitoring API
 

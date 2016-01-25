@@ -11,7 +11,7 @@ product_url: cloud-monitoring
 ---
 
 The Rackspace Monitoring Agent allows you to monitor the internals
-of your Cloud Server by running checks that are installed on your server
+of your Cloud Server and other entities by running checks that are installed on your server
 locally rather than launching checks from one or more of the Rackspace
 data centers. Because the agent is installed locally, it is immediately
 aware of any system resource changes to your Cloud Server. The agent
@@ -41,8 +41,8 @@ Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent "Install the
 Once the agent is installed on your Cloud Server, it immediately
 provides CPU, Filesystem, and Memory metrics. You can manage the agent
 using either the Cloud Control panel or the Monitoring API, which you
-can learn about by reading the [***Rackspace Monitoring API Developer
-Guide***](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/ "Rackspace Monitoring API Developer Guide").
+can learn about by reading the [Rackspace Monitoring API Developer
+Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/ "Rackspace Monitoring API Developer Guide").
 
 
 -
