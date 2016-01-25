@@ -12,7 +12,7 @@ product_url: cloud-databases
 
 You can save and manage the settings for Cloud Databases instances in
 configuration groups by using the [Cloud Databases
-API](http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/overview.html)
+API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-developer-guide)
 or the
 [python-troveclient](https://pypi.python.org/pypi/python-troveclient)
 command-line interface for the API.
@@ -21,8 +21,6 @@ This article describes the commands that you run with python-troveclient
 to manage configuration groups.
 
 ### Configuration groups and configuration parameters
-
-
 
 A *configuration group* is a collection of settings that can be saved
 and applied to one or more instances in Cloud Databases.
@@ -37,14 +35,12 @@ with the `default_time_zone` parameter.
 
 ### Installing python-troveclient
 
-
-
 The `python-troveclient` package installs the `trove` command by using
 the Python package manager tool [pip](https://pypi.python.org/pypi/pip).
 
 Full installation instructions for the trove tool are in the [*Cloud
 Databases Getting Started
-Guide*](http://docs.rackspace.com/cdb/api/v1.0/cdb-getting-started/content/Install_Trove_Client.html).
+Guide*](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#id5).
 
 Further documentation for the trove tool is located on the
 [`python-troveclient` project
@@ -57,21 +53,10 @@ run the following command:
 
 ### Command options
 
-
-
 Some options used by the commands in this article require further
 explanation or have specific requirements.
 
--   [Value pairs](#valuepairs)
--   [Data store type](#datastoretype)
--   [Data store version](#datastoreversion)
--   [Config ID](#configid)
--   [Instance ID](#instanceid)
--   [Flavor](#flavor)
-
 #### value pairs option
-
-
 
 The value pairs option represents one or more parameter name and value
 pairs. The entry should be in JSON object format, enclosed in single
@@ -98,8 +83,6 @@ that many bytes (104857600).
 
 #### datastore type option
 
-
-
 The datastore type option refers to a valid datastore (database engine)
 type that can be run on an instance. We recommend using the ID of the
 datastore type as listed in the output of the `datastore-list` command,
@@ -108,8 +91,6 @@ although you can use the name of the datastore type.
     trove datastore-list
 
 #### `datastore_version` option
-
-
 
 The `datastore_version` option refers to a valid version of a datastore
 that can be run on an instance. We recommend using the ID of the
@@ -124,8 +105,6 @@ version they can be applied to.
 
 #### Configuration group ID option
 
-
-
 The configuration group ID option refers to the ID of an existing
 configuration group. You can see a list of configuration groups and
 their IDs by using `configuration-list` command.
@@ -134,16 +113,12 @@ their IDs by using `configuration-list` command.
 
 #### Instance ID option
 
-
-
 The `instance ID` option refers to the ID of an existing instance. You
 can see a list of instances and their IDs by using the `list` command.
 
     trove list
 
 #### flavor
-
-
 
 The flavor option refers to the ID of an instance flavor, which
 typically refers to the size of the instance determined by its
@@ -155,14 +130,7 @@ using the `flavor-list` command.
 
 ### Creating and deleting configuration groups
 
-
-
--   [Create a new configuration group](#creategroup)
--   [Delete a configuration group](#deletegroup)
-
 #### Create a new configuration group
-
-
 
 Use the `configuration-create` command with the following options to
 create a new configuration group.
@@ -200,20 +168,11 @@ instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
 
 #### Delete a configuration group
 
-
-
 Use the `configuration-delete` command to delete a configuration group.
 
     trove configuration-delete <config_id>
 
 ### Applying configuration groups to instances
-
-
-
--   [Apply a configuration group to an existing
-    instance](#applyexisting)
--   [Create an instance with a configuration group](#createinstance)
--   [Remove the configuration group from an instance](#removegroup)
 
 A configuration group can be assigned when an instance is created or it
 can be assigned to an existing instance. If a configuration group is
@@ -222,8 +181,6 @@ the datastore's behavior immediately, although some configuration
 changes require that the datastore be restarted.
 
 #### Apply a configuration group to an existing instance
-
-
 
 Use the `configuration-attach` command to assign a configuration group
 to an existing instance.
@@ -255,7 +212,6 @@ applied configuration group's ID (shown as the configuration property).
         +-------------------+------------------------------------------------------------------+
 
 #### Create a new instance with a configuration group
-
 
 
 Use the `create` command to create a new instance that uses a custom
@@ -290,8 +246,6 @@ The output displays the properties of the new instance.
 
 #### Remove the configuration group from an instance
 
-
-
 The `configuration-detach` command clears the configuration assigned to
 an instance and restores the instance to its datastore's default
 configuration.
@@ -299,12 +253,6 @@ configuration.
     trove configuration-detach <instance_id>
 
 ### Modifying configuration groups
-
-
-
--   [Change a subset of the parameters of a configuration
-    group](#changesubset)
--   [Replace all parameters of a configuration group](#replaceall)
 
 When changing a configuration group's parameters, you can either change
 only specific parameters without affecting others in the set or replace
@@ -317,8 +265,6 @@ MySQL Configurations** and then modifying an existing configuration or
 creating a new one.
 
 #### Change a subset of the parameters of a configuration group
-
-
 
 Use the `configuration-patch` command to change only the specified
 parameters for a configuration group.
@@ -352,8 +298,6 @@ Note that the other parameter set on the group, `collation_server`, is
 unaffected by the change.
 
 #### Replace all parameters of a configuration group
-
-
 
 Use the `configuration-update` command to replace all existing
 parameters of a configuration group with the supplied values. Any
@@ -391,11 +335,7 @@ is for `character_set_server`.
 
 ### Listing configuration groups
 
-
-
 #### View all defined and available configuration groups
-
-
 
 Use the `configuration-list` command to list all configuration groups
 currently defined and available.
@@ -415,8 +355,6 @@ The output would look follows:
 
 #### View all instances associated with a configuration group
 
-
-
 Use the `configuration-instances` command to list all of the instances
 to which a configuration group is assigned.
 
@@ -433,19 +371,7 @@ The output would look as follows:
 
 ### Viewing configuration details
 
-
-
--   [View details of a configuration group](#viewgroupdetails)
--   [View properties for a single configuration parameter that can be
-    configured for a datastore version](#viewparameter)
--   [View all configuration parameters that can be configured for a
-    datastore version](#viewallparameters)
--   [View the default configuration settings for a specific
-    instance](#viewdefault)
-
 #### View details of a configuration group
-
-
 
 Use the `configuration-show` command to view the details of a
 configuration group, including its name, ID, the datastore version ID
@@ -466,8 +392,6 @@ The output would look as follows:
         +----------------------+-----------------------------------------------------------------------+
 
 #### View properties for a single configuration parameter that can be configured for a datastore version
-
-
 
 Use the `configuration-parameter-show` command to view the properties of
 a configuration parameter for a datastore version.
@@ -492,8 +416,6 @@ MySQL 5.1 would look as follows:
         +------------------+-------------------------+
 
 #### View all configuration parameters that can be configured for a datastore version
-
-
 
 Use the `configuration-parameter-list` command to view a list of all the
 parameters that can be configured for a datastore version.
@@ -542,8 +464,6 @@ The output would look as follows:
         +--------------------------------+---------+---------+----------------------+------------------+
 
 #### View the default configuration settings for a specific instance
-
-
 
 Use the `configuration-default` command to view the default
 configuration settings for an instance.
@@ -597,6 +517,3 @@ The output would look as follows:
         |            user           |            mysql            |
         |        wait_timeout       |             120             |
         +---------------------------+-----------------------------+
-
-
-
