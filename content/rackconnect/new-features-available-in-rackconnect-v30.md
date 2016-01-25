@@ -43,10 +43,8 @@ RackConnect is also compatible with our dedicated [Managed and
 Intensive](http://www.rackspace.com/managed-hosting/service-levels/) service
 levels and cloud [Managed Operations and Managed
 Infrastructure](http://www.rackspace.com/managed-cloud/) service levels,
-giving you the ability to select the level of *Fanatical Support&reg;* that
+giving you the ability to select the level of ***Fanatical Support***<sup>&reg;</sup> that
 you need to properly manage your hybrid environment.
 
 If you have questions, please reach out to us. Our contact information
-is available on the [Contact
-Us](/how-to/support) page.
-
+is available on the [Contact Us](/how-to/support) page.

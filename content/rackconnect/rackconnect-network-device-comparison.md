@@ -32,7 +32,7 @@ High availability option | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 
 ### RackConnect specific overview
 
-Device | Maximum RC cloud servers<sup>1</sup> | RC network device config options | RackConnect v2.0 compatible | RackConnect v3.0 compatible | Maximum throughput<sup>2</sup> </br> (Cloud<->Dedicated) </br> (Cloud<->Internet)
+Device | Maximum RC cloud servers<sup>1</sup> | RC network device config options | RackConnect v2.0 compatible | RackConnect v3.0 compatible | Maximum throughput<sup>2</sup> <br /> (Cloud<->Dedicated) <br /> (Cloud<->Internet)
 --- | --- | --- | --- | --- | ---
 ASA 5505 Sec+ | 5 | Edge or Edge+Connected | Yes | Yes | 150 Mbps
 ASA 5510 Sec+ | 25 | Edge or Edge+Connected | Yes | Yes | 300 Mbps
@@ -44,8 +44,8 @@ ASA 5525-X | 100+ | Edge or Edge+Connected | Yes | Yes | 2 Gbps
 ASA 5545-X | 100+ | Edge or Edge+Connected | Yes | Yes | 3 Gbps
 ASA 5555-X | 100+ | Edge or Edge+Connected | Yes | Yes | 4 Gbps
 Brocade ADX 1000 |  100+ | Connected only | No (not in RackConnect edge or connected device roles)	| Yes	|  2&ndash;9 Gbps
-F5 1600 | 100+ | Connected or Edge+Connected | Yes | Yes | In: 500 Mbps </br> Out: 500 Mbps
-F5 3600 | 100+ | Connected or Edge+Connected | Yes | Yes | In: 1 Gbps </br> Out: 1 Gbps
+F5 1600 | 100+ | Connected or Edge+Connected | Yes | Yes | In: 500 Mbps <br /> Out: 500 Mbps
+F5 3600 | 100+ | Connected or Edge+Connected | Yes | Yes | In: 1 Gbps <br /> Out: 1 Gbps
 
 <sup>1</sup> Maximum cloud server guidelines are based on internal testing. Actual results might vary by production load and edge device type.
 
