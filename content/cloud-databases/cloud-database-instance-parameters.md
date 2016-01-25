@@ -10,8 +10,7 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-Quick Facts
------------
+### Quick Facts
 
 Here are some important facts to consider when creating a new instance:
 
@@ -34,4 +33,3 @@ Vs. Private
 Access](/how-to/public-and-private-access-for-cloud-databases)
 and [Connecting to Your
 Database](/how-to/connect-to-a-cloud-databases-instance).
-

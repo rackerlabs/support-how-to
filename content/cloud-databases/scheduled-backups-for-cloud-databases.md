@@ -24,8 +24,7 @@ incremental backups, except for the specified day of the week when the
 full backup task is performed. All backups will be stored in Cloud Files
 and will be charged the standard Cloud Files storage fees.
 
-Features
---------
+### Features
 
 -   Daily incremental backups except for the full backup day.
 -   Automated backups for HA instance groups will use the HA instance id
@@ -35,8 +34,7 @@ Features
 -   Allows users to run the backup process immediately through the
     client or API by setting the `run_now` option.
 
-How to schedule backups
------------------------
+### How to schedule backups
 
 Scheduled backups can be enabled through the API using the following API
 operation:
@@ -72,8 +70,7 @@ already has a schedule enabled, a subsequent API call to create a
 schedule for that instance will cause an error with the message
 &ldquo;your\_instance\_id already has an active schedule."
 
-Backup retention policy
------------------------
+### Backup retention policy
 
 By default, the automated backup retention policy is set to two full
 backups. This means that when the third full automated backup is
@@ -83,10 +80,9 @@ the time they create a schedule, or by updating an existing schedule
 according to their needs, with the allowed minimum retention value set
 to 2. There is no maximum value for the amount of full backups to keep.
 
-HA automated backups
---------------------
+### HA automated backups
 
-For HA groups, the backup will be performed with the current active node
+For High Availability (HA) groups, the backup will be performed with the current active node
 as the source, and it will be a full or incremental backup based on the
 schedule settings. If a master/slave setup is converted to an HA group,
 and either the master or slave nodes have scheduled backups enabled, the
@@ -94,8 +90,7 @@ resulting HA group will also have a schedule enabled with the same time
 settings as the primary or first replica node's schedule. The individual
 schedules for the master/slave nodes will be deleted.
 
-Managing and restoring scheduled backups
-----------------------------------------
+### Managing and restoring scheduled backups
 
 Scheduled backups can be managed and restored in the same manner as on
 demand backups. Details on how to manage backups can be found in the
@@ -103,8 +98,7 @@ following Knowledge Center article:
 
 </how-to/managing-backups-for-cloud-databases>
 
-Cloud Databases automated backups API
--------------------------------------
+### Cloud Databases automated backups API
 
 For more details about the following API calls see the full API
 documentation at:
@@ -122,12 +116,10 @@ calls.
 | Update schedule       | PUT    | /{version}/{accountId}/schedules/{scheduleId} | Updates the specified schedule.                                                        |
 | Delete schedule       | DELETE | /{version}/{accountId}/schedules/{scheduleId} | Deletes the specified schedule.                                                        |
 
-Notes:
-
--   The `instance_id` field is deprecated. It can still be used when
-    providing a single instance id when creating a schedule. HA instance
-    schedules should provide `source_id` with the `source_type` set
-    to &ldquo;ha&rdquo;.
+**Note:** The `instance_id` field is deprecated. It can still be used when
+providing a single instance id when creating a schedule. HA instance
+schedules should provide `source_id` with the `source_type` set
+to &ldquo;ha&rdquo;.
 
 ### Limitations
 
@@ -144,4 +136,3 @@ For more information on backups with Cloud Databases, please see the
 general backup Knowledge Center Article:
 
 </how-to/managing-backups-for-cloud-databases>
-

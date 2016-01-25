@@ -14,7 +14,7 @@ Monitoring is included with Cloud Databases to help you manage the
 health of your instances. Monitoring checks and alarms can be configured
 using the [Cloud Control Panel](https://mycloud.rackspace.com/) or the
 [Cloud Monitoring
-API](http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/Monitoring_Cloud_Databases-d1e4673.html).
+API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
 
 *Monitoring checks* describe the metrics being monitored, and monitoring
 alarms are actions that can be triggered when a check meets specified
@@ -25,7 +25,6 @@ specified level.
 
 The checks and alarms that are set up by default on a Cloud Databases
 instance are described in the following sections.
-
 
 
 ### Checks
@@ -42,7 +41,6 @@ The following monitoring checks are preconfigured for Cloud Databases
 instances.
 
 
-
 #### CPU check
 
 The graph for the CPU check displays how much of its available
@@ -50,8 +48,6 @@ processing power the instance uses. It also displays minimum, maximum,
 and average CPU usage for that period.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbcpugraph.png" width="571" height="231" />
-
-
 
 #### File system check
 
@@ -71,8 +67,6 @@ reflects overall CPU usage.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbloadgraph.png" width="567" height="221" />
 
-
-
 #### Memory check
 
 The graph for the memory check displays your instance&rsquo;s memory use
@@ -82,16 +76,12 @@ in use.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbmemorygraph.png" width="561" height="226" />
 
-
-
 #### Network check
 
 The graph for the Network check displays inbound and outbound network
 traffic in kilobytes per second.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbnetworkgraph.png" width="473" height="185" />
-
-
 
 #### MySQL check
 
@@ -100,8 +90,6 @@ instance will be added to the Cloud Control Panel in the future. In the
 meantime, graphs for MySQL metrics are available on our [Cloud
 Intelligence Site](https://intelligence.rackspace.com/), currently in
 beta.
-
-
 
 ### Alarms
 
@@ -152,8 +140,6 @@ You can view and create alarms from a check's details page.
 To change the alarm name, alert recipient, or alarm criteria, click the
 gear icon next to an existing alarm and select **Edit Criteria**.
 
-
-
 ### Alarm criteria examples
 
 The following sections provide example criteria for each of the Cloud
@@ -164,12 +150,11 @@ statuses. By default, Warning and Critical statuses cause the text of
 the returned status to be emailed to the technical contact for your
 account. You can define more complex notification plans by using the
 [Cloud Monitoring
-API](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-notification-plans.html).
+API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
 
 For all of the alarms, the available metrics are displayed in the alarm
 creation dialog box and are explained in the [Cloud Monitoring API
-documentation](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-agent.html#section-ct-agent.cpu).
-
+documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-check-types).
 
 
 ### CPU alarms
@@ -187,8 +172,6 @@ The following criteria returns a Warning status when CPU usage is above
 
         return new AlarmStatus(OK, 'CPU usage is #usage_average%, below your warning
            threshold of 90%');
-
-
 
 ### File system alarms
 
@@ -209,8 +192,6 @@ disk usage exceeds 95% of total space available.
 
         return new AlarmStatus(OK, "Disk usage is below your warning threshold of 80%");
 
-
-
 ### Load average alarms
 
 The time period used to calculate load average for the load average
@@ -229,8 +210,6 @@ alarm can be set to 1 minute, 5 minutes, or 15 minutes.
         return new AlarmStatus(OK, '5 minute load average is #5m, below your warning
         threshold of 1');
 
-
-
 ### Memory alarms
 
     if (percentage(metric['actual_used'], metric['total']) > 90) {
@@ -244,8 +223,6 @@ alarm can be set to 1 minute, 5 minutes, or 15 minutes.
         }
 
         return new AlarmStatus(OK, "Memory usage is below your warning threshold of 80%");
-
-
 
 ### Network alarms
 
@@ -261,8 +238,6 @@ alarm can be set to 1 minute, 5 minutes, or 15 minutes.
 
         return new AlarmStatus(OK, "Network receive rate on eth0 is below your warning
            threshold of 18350080B/s");
-
-
 
 ### MySQL alarms
 
@@ -285,8 +260,3 @@ of open connections is above 500.
 
 Explanations of the available metrics are located in the MySQL
 documentation for the relevant server status variables.
-
-
-
-
-
