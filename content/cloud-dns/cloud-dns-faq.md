@@ -1,6 +1,6 @@
 ---
 node_id: 1239
-title: Cloud DNS - FAQ
+title: Cloud DNS FAQ
 type: article
 created_date: '2011-10-25'
 created_by: Rackspace Support
@@ -61,7 +61,7 @@ product_url: cloud-dns
 
 <ul>
 	<li>Use your Rackspace Cloud username as the username for the API. Place it in the XAuth-User x-header.</li>
-	<li><a href="/how-to/view-and-reset-your-api-key">Obtain your API access key</a> from the Rackspace Cloud Control Panel in the Your Account API Access section. Place it in the X-Auth-Key x-header.</li>
+	<li><a href="/how-to/view-and-reset-your-api-key/">Obtain your API access key</a> from the Rackspace Cloud Control Panel in the Your Account API Access section. Place it in the X-Auth-Key x-header.</li>
 </ul>
 
 <p>For full authentication details, see the <a href="https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/">Cloud DNS Developers Guide</a>.</p>
@@ -152,7 +152,7 @@ product_url: cloud-dns
 
 <h4>Are there API rate limits?</h4>
 
-<p>All accounts, by default, have a preconfigured set of thresholds (or limits) to manage capacity and prevent abuse of the system. The system recognizes two kinds of limits: rate limits and absolute limits. Rate limits are thresholds that are reset after a certain amount of time passes. Absolute limits are fixed. See the <a href="https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/#document-general-api-info/limits">developers guide</a> for more information on rate limits.</p>
+<p>All accounts, by default, have a preconfigured set of thresholds (or limits) to manage capacity and prevent abuse of the system. The system recognizes two kinds of limits: rate limits and absolute limits. Rate limits are thresholds that are reset after a certain amount of time passes. Absolute limits are fixed. See the <a href="https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/#document-general-api-info/limits">Cloud DNS Developer Guide</a> for more information on rate limits.</p>
 
 <hr />
 <h3>Support</h3>

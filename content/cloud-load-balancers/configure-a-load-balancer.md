@@ -70,7 +70,7 @@ On the details page for the load balancer, you can set the following options:
 
 - **Health Monitoring:** In addition to the default passive health monitor check, active health monitoring uses synthetic transaction monitoring to inspect an HTTP response code and body content to determine if the application or site is healthy.
 
-- **Access Control:** Easily manage who can and can’t access the services that are exposed via the load balancer.
+- **Access Control:** Easily manage who can and can&rsquo;t access the services that are exposed via the load balancer.
 
 - **Session Persistence:** If you are load balancing HTTP traffic, the session persistence feature uses an HTTP cookie to ensure that subsequent requests are directed to the same node in your load balancer pool.
 

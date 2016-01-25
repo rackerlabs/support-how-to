@@ -1,6 +1,6 @@
 ---
 node_id: 1109
-title: Rackspace Cloud Essentials - Checking a server’s SSH host fingerprint with the web console
+title: Rackspace Cloud Essentials - Checking a server&rsquo;s SSH host fingerprint with the web console
 type: article
 created_date: '2011-05-31'
 created_by: Jered Heeschen

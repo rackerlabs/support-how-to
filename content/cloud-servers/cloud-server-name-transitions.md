@@ -19,7 +19,7 @@ flavor names visible in the Cloud Control Panel.
 
 The current flavor names relate to deprecated flavor names as follows:
 
--   S**tandard** flavor class for *virtual* cloud servers was previously
+-   **Standard** flavor class for *virtual* cloud servers was previously
     known as Standard (no change).
 -   **General Purpose** flavor class for *virtual* cloud servers was
     previously known as Performance 1.
@@ -45,6 +45,4 @@ The different types of servers are part of the expected growth life
 cycle of using cloud servers. That life cycle goes from general purpose
 virtual servers to workload-optimized virtual servers to
 workload-optimized OnMetal servers. For more information about this
-cloud server life cycle, see the graphic on the [Cloud
-Servers](http://www.rackspace.com/cloud/servers/) product page.
-
+cloud server life cycle, see the graphic on the [Cloud Servers](http://www.rackspace.com/cloud/servers/) product page.

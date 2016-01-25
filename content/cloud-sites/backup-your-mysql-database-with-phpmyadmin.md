@@ -12,8 +12,7 @@ product_url: cloud-sites
 
 
 
-<span class="mw-headline">Backing Up Your MySQL Database</span>
----------------------------------------------------------------
+### Backing Up Your MySQL Database
 
 1.  To manage your MySQL database, you'll first need to [login to the
     online
@@ -51,12 +50,9 @@ product_url: cloud-sites
 
 
 
-<span class="mw-headline">Finish Line</span>
---------------------------------------------
+### Finish Line
 
-Congratulations! You have just created a backup of your MySQL database!
-
-If you experience a problem or you have further questions or concerns,
+You have just created a backup of your MySQL database. If you experience a problem or you have further questions or concerns,
 please do not hesitate to contact our technical support 24x7 via phone,
 chat or by submitting a ticket through your control panel.
 

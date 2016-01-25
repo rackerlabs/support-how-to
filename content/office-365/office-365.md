@@ -10,9 +10,11 @@ product: Office 365
 product_url: office-365
 ---
 
-This article helps you set up Office 365 for Rackspace Cloud Office.
+<p class="lead" markdown="1">This article helps you set up Office 365 for Rackspace Cloud Office.</p>
 
-To get started, make sure you're logged in to [Cloud Office](https://cp.rackspace.com). Then, on the Cloud Portal home page, click **Manage Office 365**.
+<p class="lead" markdown="1">To get started, make sure you're logged in to [Cloud Office](https://cp.rackspace.com). Then, on the Cloud Portal home page, click **Manage Office 365**.</p>
+
+<hr />
 
 ## Create your tenant ID
 

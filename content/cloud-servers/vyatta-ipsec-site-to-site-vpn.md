@@ -22,7 +22,7 @@ Network Address Translation (NAT) and the IPsec engine work the same on the Vyat
 
 ### Outbound PAT
 
-Assume that there is an outbound PAT policy whereby all server traffic coming from the inside segment goes through PAT to the vRouter’s public IP address for Internet-bound traffic. [Be sure to refer to the example.]
+Assume that there is an outbound PAT policy whereby all server traffic coming from the inside segment goes through PAT to the vRouter&rsquo;s public IP address for Internet-bound traffic. [Be sure to refer to the example.]
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-2_0.png" width="595" height="171" alt="" border="1" />
 

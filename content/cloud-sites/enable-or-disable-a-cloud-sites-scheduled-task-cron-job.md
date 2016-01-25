@@ -16,7 +16,7 @@ interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking the **Cloud Control Panel** menu at the top of the window
 and selecting **Cloud Sites**.
 
-A task's status can be <span>either </span>enabled or disabled. Use the
+A task's status can be <span>either enabled or disabled. Use the
 following steps to change the status of a task.
 
 1.  Log in to the [Cloud Sites Control
@@ -28,7 +28,7 @@ following steps to change the status of a task.
     (Cron Jobs)** section.
 5.  Click the task for which you want to change the status, and click
     the **Edit Task** button.
-6.  Select the appropriate **Status** option, **ON **or **OFF**.
+6.  Select the appropriate status option, **ON** or **OFF**.
 7.  Click **Save Task**.
 
 

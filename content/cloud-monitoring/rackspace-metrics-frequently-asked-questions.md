@@ -4,26 +4,14 @@ title: Rackspace Metrics Frequently Asked Questions
 type: article
 created_date: '2015-05-06'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
-Get quick answers to common questions about the Rackspace Rackspace
+Get quick answers to common questions about the Rackspace
 Metrics service.
-
--   [What can I use Rackspace Metrics for?](#usage)
--   [Who can use Rackspace Metrics?](#who)
--   [How much does Rackspace Metrics cost?](#cost)
--   [How do I access Rackspace Metrics?](#access)
--   [What features will be available in the future?](#future)
--   [Where is Rackspace Metrics available?](#where)
--   [What is the Early Access Program?](#eap)
--   [What are the Terms of Service?](#terms)
--   [How can I get support?](#support)
-
-------------------------------------------------------------------------
 
 ### What can I use Rackspace Metrics for?
 
@@ -35,25 +23,22 @@ also supports metrics visualization in the Rackspace Cloud Control Panel
 and Rackspace Intelligence for data collected through Cloud Monitoring.
 The Ingestion API enables users to ingest metrics via a public API. The
 Metrics Ingestion API is currently in the [Early Access
-Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html)
+Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program)
 (EAP).
-
-^[back\\ to\\ top](#top)^
 
 ### Who can use Rackspace Metrics?
 
 All Rackspace customers with a Cloud services account can use the
 Rackspace Metrics Query API. To use the Rackspace Metrics Ingestion API,
 you need to sign up for the service through the [Early Access
-Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html).
+Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program).
 
-^[back\\ to\\ top](#top)^
 
 ### How much does Rackspace Metrics cost?
 
 Rackspace Metrics is available at no charge.
 
-^[back\\ to\\ top](#top)^
+
 
 ### How do I grant access to Rackspace Metrics?
 
@@ -61,7 +46,7 @@ For information about how to add Rackspace Metrics to individual users
 on your Cloud account, see [Rackspace Metrics
 Overview](/how-to/rackspace-metrics-overview).
 
-^[back\\ to\\ top](#top)^
+
 
 ### What features will be available in the future?
 
@@ -71,17 +56,15 @@ We plan to provide the following features in future releases:
 -   Tighter integration with open-source tools like Graphite, Grafana,
     CollectD, and StatsD.
 
-^[back\\ to\\ top](#top)^
 
 ### Where is Rackspace Metrics available?
 
 Rackspace Metrics is available through global end points that can be
 accessed from anywhere. For more information, see the [Service access
-endpoints](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/serviceEndpoints.html)
+endpoints](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#service-access-endpoints)
 section in the [Rackspace Metrics Developer
-Guide](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/Overview.html).
+Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#developer-guide).
 
-^[back\\ to\\ top](#top)^
 
 ### What is the Early Access Program?
 
@@ -91,7 +74,6 @@ our features align with customer business needs. Additional features
 will be added as development continues, and some existing functionality
 available during Early Access might change.
 
-^[back\\ to\\ top](#top)^
 
 ### What are the Terms of Service?
 
@@ -99,8 +81,6 @@ During the Early Access period, the Rackspace Metrics Terms of Service
 are available at <http://www.rackspace.com/information/legal/testterms>.
 When the Early Access Program is over, the Terms of Service will revert
 to the standard Cloud Terms of Service.
-
-^[back\\ to\\ top](#top)^
 
 
 
@@ -110,12 +90,8 @@ During the Early Access program, support for Rackspace Metrics is
 available via email only during regular business hours. Please contact
 us at <cloudmetrics-earlyaccess@rackspace.com>.
 
-To obtain more information about Rackspace Metrics,see the [*Rackspace
-Metrics* *Getting
-Started Guide*](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Overview.html)
-and the *[Rackspace Metrics Developer
-Guide](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/Overview.html)*
-at [docs.rackspace.com](http://docs.rackspace.com/).
-
-^[back\\ to\\ top](#top)^
-
+To obtain more information about Rackspace Metrics,see the [Rackspace
+Metrics Getting
+Started Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started)
+and the [Rackspace Metrics Developer
+Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#developer-guide).

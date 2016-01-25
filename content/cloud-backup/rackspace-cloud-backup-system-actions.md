@@ -1,6 +1,6 @@
 ---
 node_id: 2036
-title: Rackspace Cloud Backup - System Actions
+title: Cloud Backup system actions
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
@@ -12,11 +12,10 @@ product_url: cloud-backup
 
 ### Previous section
 
-[Rackspace Cloud Backup - Backup
+[Cloud Backup
 actions](/how-to/rackspace-cloud-backup-backup-actions-0)
 
-How to Use System Actions
--------------------------
+### How to use system actions
 
 **Important**: The system actions are for users who are familiar with
 Rackspace Cloud Backup. Users with Managed Cloud Service Level accounts
@@ -33,24 +32,15 @@ the Single Backup screens.
 
 The System Actions menu offers the following actions:
 
--   [Create Backup](#createbackup)
--   [Restore Backup](#restorebackup)
--   [Encrypt System](#encryptsystem)
--   [Cleanup System](#cleanupsystem)
--   [Disable System](#disablesystem)
--   [Delete System](#deletesystem)
+-   Create Backup
+-   Restore Backup
+-   Encrypt System
+-   Cleanup System
+-   Disable System
+-   Delete System
 
-<div>
-
-
-
-</div>
-
-<div>
 
 #### Create Backup
-
-</div>
 
 Clicking **Create Backup** from the System Actions menu is the same as
 clicking Create Backup on the system screen. For complete instructions,
@@ -62,17 +52,9 @@ in this guide.
     system status displays &ldquo;offline&rdquo; and your server is active,
     contact support.
 
-<div>
-
-
-
-</div>
-
-<div>
 
 #### Restore Backup
 
-</div>
 
 Clicking **Restore Backup** from the System Actions menu is the same as
 clicking Restore Backup from the Single Backup Action menu. For complete
@@ -84,17 +66,7 @@ in this guide.
     offline status. If the system status displays &ldquo;offline&rdquo; and your
     server is active, please contact support.
 
-<div>
-
-
-
-</div>
-
-<div>
-
 #### Encrypt System
-
-</div>
 
 You may encrypt your backups with AES-256 encryption. The key or
 passphrase you that create is known only to you. If you lose or forget
@@ -139,17 +111,7 @@ You can change your passphrase for encryption as follows:
 4.  Enter your new passphrase again.
 5.  Click **Save Passphrase**.
 
-<div>
-
-
-
-</div>
-
-<div>
-
 #### Cleanup System
-
-</div>
 
 The Cleanup Vault allows you to manually start a cleanup at any time,
 even if you have an automatic backup scheduled. A cleanup frees unused
@@ -159,33 +121,13 @@ space in your Cloud Files account, where you backups are stored.
     prompted**.**
 2.  After you enter your passphrase, click the **Check** button.
 
-<div>
-
-
-
-</div>
-
-<div>
-
 #### Disable System
-
-</div>
 
 When you disable a system, you prevent all future backups from running.
 You can re-enable the system at any time and no data will be deleted. To
 re-enable the system, select Enable System from the System Actions menu.
 
-<div>
-
-
-
-</div>
-
-<div>
-
 #### Delete System
-
-</div>
 
 The Delete System command permanently deletes all backups and any data
 associated with this system. A confirmation prompt requires you to
@@ -193,6 +135,4 @@ verify that this is your intention.
 
 ### Next steps
 
-[Rackspace Cloud Backup -
-Preferences](/how-to/rackspace-cloud-backup-preferences-0)
-
+[Cloud Backup preferences](/how-to/rackspace-cloud-backup-preferences-0)

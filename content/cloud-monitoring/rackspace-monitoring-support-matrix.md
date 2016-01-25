@@ -4,14 +4,14 @@ title: Rackspace Monitoring support matrix
 type: article
 created_date: '2015-12-10'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-07'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
-Rackspace Monitoring Agent Support Matrix
------------------------------------------
+### Rackspace Monitoring Agent support matrix
+
 
 Rackspace Monitoring provides support for the following compute
 offerings:
@@ -20,9 +20,8 @@ offerings:
 -   Dedicated Hosting
 
 Rackspace Monitoring supports the same set of operating system types
-that are supported by Managed Operations and Dedicated Hosting and any
-<span class="message_body">OS that is within the supported
-matrix</span>.
+that are supported by Managed Operations and Dedicated Hosting and any OS that is within the supported
+matrix.
 
 ### Rackspace Monitoring support for Cloud Servers
 
@@ -34,8 +33,7 @@ and [Cloud Servers with Managed Operations support for
 Windows](/how-to/cloud-servers-with-managed-operations-support-for-windows)
 articles.
 
-<span class="autogrow-textarea"><span
-class="autogrow-textarea">**Note:** </span></span>Managed Operations
+**Note:** Managed Operations
 Support are obligated to provide a customer with 30 days notice of a
 technology/operating system becoming unsupported.
 
@@ -44,4 +42,3 @@ technology/operating system becoming unsupported.
 Rackspace Monitoring supports the same set of operating system types
 that are supported by Dedicated Hosting. For additional information,
 contact Support for Dedicated Hosting.
-

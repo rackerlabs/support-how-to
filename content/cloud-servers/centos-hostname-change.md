@@ -16,8 +16,7 @@ Qualified Domain Name (FQDN) for the hostname to be used during their
 licensing verification system. This article describes how to change a
 server hostname in CentOS.
 
-Change a server hostname
-------------------------
+### Change a server hostname
 
 1.  Using a text editor, open the **/etc/sysconfig/network** file.
 2.  Modify the `HOSTNAME=` value to match your FQDN hostname.
@@ -41,6 +40,3 @@ Change a server hostname
     persist on restart.
 
         # /etc/init.d/network restart
-
-
-

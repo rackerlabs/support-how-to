@@ -14,16 +14,9 @@ Rackspace  provides a tool for generating a certificate signing request, or CSR.
 
 When you are done with the generator, you can return to the Cloud Control Panel by clicking any of the terms in the top navigation or by going to [mycloud.rackspace.com](https://mycloud.rackspace.com).
 
-**Tip**: You can also generate a CSR and private key on your Linux Cloud Server using OpenSSL.  For more information, see [Generate a CSR with OpenSSL](/how-to/generate-a-csr-with-openssl).
-<a name="top"></a>
+**Note**: You can also generate a CSR and private key on your Linux Cloud Server using OpenSSL.  For more information, see [Generate a CSR with OpenSSL](/how-to/generate-a-csr-with-openssl).
 
-*   [Access the CSR Generator](#access)
-*   [Generate the CSR](#create)
-*   [View CSR details](#view)
-*   [Submit your CSR to the Certificate Authority](#submit)
-*   [Install the private key](#install)
-
-## <a name="access"></a>Access the CSR Generator
+### Access the CSR Generator
 
 Click the following link to access the [CSR Generator](https://csrgenerator.rackspace.com).
 
@@ -31,14 +24,11 @@ After you log in, the generator lists your existing CSRs (if any), organized by 
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CSR_gen_1.png" width="650" alt="Main page of CSR Generator, showing list of certificate requests for domains."  />
 
-[< top >](#top)
-
-## <a name="create"></a>Generate a CSR
+### Generate a CSR
 
 Step 1. Click the **Create CSR** button.
 
 Step 2. Enter the following information, which will be associated with the CSR:
-
 
 | Field | Explanation | Example |
 | --- | --- | --- |
@@ -53,20 +43,17 @@ Step 2. Enter the following information, which will be associated with the CSR:
 | Private Key Bit Length | Key sizes smaller than 2048 are considered insecure and may not be accepted by a Certificate Authority. | 1024,2048,4096 |
 | Hashing Algorithm | Both algorithms are currently trusted in mainstream browsers and offer industry recommended security.  SHA-512 requires additional CPU processing. | SHA-256, SHA-512 |
 
-**NOTE:** You cannot use the following characters in the **Organization Name** or **Organizational Unit** fields:
+**Note:** You cannot use the following characters in the **Organization Name** or **Organizational Unit** fields:
 
     < > ~ ! @ # $ % ^ * / \ ( ) ? . , &
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/csr_gen_form.png" width="650" alt="Create CSR form"  />
 
-
 Step 3. After you have entered all the required information, click **Create CSR**.
 
 It can take between 5 and 60 seconds for the CSR to be generated.  You might need to refresh the page that displays your CSRs before the new CSR is listed.
 
-[< top >](#top)
-
-## <a name="view"></a>View CSR details
+### View CSR details
 
 When CSR has been generated, you can click its UUID (unique identifier) in the CSR list to view its details screen.
 
@@ -74,18 +61,12 @@ When CSR has been generated, you can click its UUID (unique identifier) in the C
 
 This screen displays the information that you provided, the text of the CSR, and its associated private key.
 
-[< top >](#top)
-
-## <a name="submit"></a>Submit the CSR to the CA
+### Submit the CSR to the CA
 
 The text in the **Certificate Request** field is the CSR. It contains encoded details of the CSR and your public key.
 
 To request your SSL certificate copy the** Certificate Request** text and submit it to your CA. Include all the text, including the **BEGIN** and **END**  lines at the beginning and end of the text block.
 
-[< top >](#top)
-
-## <a name="install"></a>Install the private key
+### Install the private key
 
 Copy the private key to the server that will host the certificate.  See your application documentation to determine where to install the private key and certificate on your server.
-
-[< top >](#top)

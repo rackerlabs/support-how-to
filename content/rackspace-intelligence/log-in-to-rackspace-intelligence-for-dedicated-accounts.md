@@ -21,17 +21,17 @@ class="field field-name-body field-type-text-with-summary field-label-hidden">
 
 To use Rackspace Intelligence, you must have a dedicated Rackspace
 customer account and you must be logged in to the
-<https://my.rackspace.com/> portal for that account. Rackspace
-Intelligence has no separate login process.
+[MyRackspace Customer Portal](https://my.rackspace.com) portal for that account.
+Rackspace Intelligence has no separate login process.
 
 To access Rackspace Intelligence
 --------------------------------
 
-1.  Go to <https://my.rackspace.com> and log in to the portal by
+1.  Go to [MyRackspace Customer Portal](https://my.rackspace.com) and log in to the portal by
     providing your **Rackspace Account Number**, **Username** and
     **Password**.
 
-2.  On the MyRackspace Customer Portal, click **Services** and then
+2.  On the [MyRackspace Customer Portal](https://my.rackspace.com), click **Services** and then
     select **Availability Monitoring** from the list.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Myrack1.png" width="600" />
@@ -66,4 +66,3 @@ accounts](/how-to/understanding-the-rackspace-intelligence-user-interface-for-de
 </div>
 
 </div>
-

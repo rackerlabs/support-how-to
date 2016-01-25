@@ -20,20 +20,11 @@ Rackspace Cloud accepts cancellations via the cancellation form located
 in the control panel. Cancellations that are submitted via email, phone,
 or chat are not accepted.
 
-<span style="line-height: 20.7999992370605px;">Before you submit
-a cancellation request, create a </span><span
-style="line-height: 20.7999992370605px;">back</span><span
-style="line-height: 20.7999992370605px;">up of your website, database,
-and e</span><span
-style="line-height: 20.7999992370605px;">mail</span><span
-style="line-height: 20.7999992370605px;">. If you are running a cloud
-server, you must delete the server to stop billing. All data is removed
-from our systems when we process the account closure. If you want your
-data removed immediately, complete the deletion process before
-submitting a cancellation request.</span>
+Before you submita cancellation request, create a backup of your website, database,
+and email. If you are running a cloud server, you must delete the server to stop billing. All data is removed
+from our systems when we process the account closure. If you want your data removed immediately, complete the deletion process before submitting a cancellation request.</span>
 
-To cancel your account
-----------------------
+### To cancel your account
 
 1.  Log in to the [Cloud Sites Control
     Panel](https://manage.rackspacecloud.com/).

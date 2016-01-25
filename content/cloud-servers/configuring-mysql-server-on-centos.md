@@ -10,8 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the [previous
-article](/how-to/installing-mysql-server-on-centos)
+In the [previous article](/how-to/installing-mysql-server-on-centos)
 we covered a basic MySQL server setup on CentOS Linux. We set the root
 password, created a database, and created a user for the database. Now
 let's look at MySQL in a little more detail so we can tweak its
@@ -47,7 +46,7 @@ With the location in hand, open the my.cnf file and have a look inside.
 
     /etc/my.cnf
 
-Any lines starting with "\#" are comments, and they mostly document what
+Any lines starting with "#" are comments, and they mostly document what
 the different settings are for. They're good to read through. You'll
 find details like the location of log files and where the database files
 are kept.
@@ -55,7 +54,7 @@ are kept.
 #### Config groups
 
 There are lines in the config file that just contain a word in square
-brackets, like "\[client\]" or "\[mysqld\]". Those are "config groups"
+brackets, like "[client]" or "[mysqld]". Those are "config groups"
 and they tell the programs that read the configuration file which parts
 they should pay attention to.
 
@@ -81,7 +80,7 @@ directory.
 
 If you don't find the MySQL logs in the default directory you'll need to
 check MySQL's config. Look in the my.cnf file and look for a
-"log\_error" line, as in:
+"log_error" line, as in:
 
     log_error = /var/log/mysql/error.log
 
@@ -135,19 +134,19 @@ Remember to account for the client's hostname when you set up your
 database users and to poke a hole in your firewall if you're running
 iptables.
 
-### mysqld and mysqld\_safe
+### mysqld and mysqld_safe
 
 Behind the scenes there are actually two versions of the MySQL server,
-"mysqld" and "mysqld\_safe". Both read the same config sections. The
-main difference is that mysqld\_safe launches with a few more safety
+"mysqld" and "mysqld_safe". Both read the same config sections. The
+main difference is that mysqld_safe launches with a few more safety
 features enabled to make it easier to recover from a crash or other
 problem.
 
-Both mysqld and mysqld\_safe will read config entries in the "mysqld"
-section. If you include a "mysqld\_safe" section, then only mysqld\_safe
+Both mysqld and mysqld_safe will read config entries in the "mysqld"
+section. If you include a "mysqld_safe" section, then only mysqld_safe
 will read those values in.
 
-By default the mysql service launches "mysqld\_safe". That's a good
+By default the mysql service launches "mysqld_safe". That's a good
 thing, and you should only look to change that if you really know what
 you're doing.
 
@@ -316,7 +315,7 @@ megs of RAM are:
     innodb_thread_concurrency = 8
     innodb_file_per_table
 
-Add those to the \[mysqld\] section of the config file. Again, those are
+Add those to the [mysqld] section of the config file. Again, those are
 only rough guides - enough to get you running, but definitely not
 optimized. For that you'll probably want a DBA, or at least to
 experiment with incremental changes over time.
@@ -325,4 +324,3 @@ experiment with incremental changes over time.
 
 Now you should have MySQL configured for your environment, and might
 even have accounted for the database engine being used by your tables.
-

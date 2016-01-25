@@ -1,6 +1,6 @@
 ---
 node_id: 5188
-title: Microsoft Private Cloud - FAQ
+title: Microsoft Private Cloud FAQ
 type: article
 created_date: '2016-01-21'
 created_by: Stephanie Fillmon

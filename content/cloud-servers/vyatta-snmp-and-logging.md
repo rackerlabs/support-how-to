@@ -150,7 +150,7 @@ destinations, logging levels, and facility numbers.
 | file    | Logging to a file (stored in `/var/log/user/`) |
 | global  | Logging to system standard location            |
 | host    | Logging to a remote host                       |
-| user    | Logging to specific user’s terminal            |
+| user    | Logging to specific user&rsquo;s terminal            |
 
 **Logging levels**
 
@@ -173,7 +173,7 @@ The `facility` variable refers to the type of program logging the message.
 
 | Facility  | Purpose                          |
 |-----------|----------------------------------|
-| all       | All facilities excluding “mark”  |
+| all       | All facilities excluding &ldquo;mark&rdquo;  |
 | auth      | Authentication and authorization |
 | authpriv  | Non-system authorization         |
 | cron      | Cron daemon                      |

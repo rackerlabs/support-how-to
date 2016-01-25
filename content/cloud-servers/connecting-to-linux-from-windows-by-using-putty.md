@@ -12,42 +12,32 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
+[Create a Cloud Server](/how-to/create-a-cloud-server)
 
-After you have [created a new cloud
-server](/how-to/create-a-cloud-server)
+After you have created a new cloud server
 with the control panel, your next step is to make a secure remote
-connection from your local computer to your cloud server.  This article
+connection from your local computer to your cloud server. This article
 describes how to use a client called PuTTY to form an Secure Shell (SSH)
 connection from a computer running a Microsoft Windows OS to a Linux
 server.
 
 **Notes**:
 
--   For an OnMetal Server, see the [Create OnMetal Cloud
-    Servers](/how-to/create-onmetal-cloud-servers)
+-   For an OnMetal Server, see the [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
     article for applicable OnMetal steps.
 -   This procedure requires you to install PuTTY or another SSH client
     which you do at your own risk.  PuTTY is not affiliated with
     Rackspace in any way, but their software is simple to use, is freely
     available, and reputable.
--   If you are a Mac OS X user, you can [connect to a Linux server by
-    using
-    Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal), a
+-   If you are a Mac OS X user, you can [connect to a Linux server by using Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal), a
     console program included with the operating system.
 
+#### Windows versions
 
-
-Windows versions
-----------------
-
-The procedure and examples in this article use  Windows XP, Service Pack
-2.  Different versions of Windows may have slightly different
+The procedure and examples in this article use  Windows XP, Service Pack 2. Different versions of Windows may have slightly different
 interfaces.
 
-Download PuTTY
---------------
+### Download PuTTY
 
 Download PuTTY from the
 [website](http://www.chiark.greenend.org.uk/~sgtatham/putty/ "http://www.chiark.greenend.org.uk/~sgtatham/putty/").
@@ -55,8 +45,7 @@ Be sure to comply with the license requirements.
 
 After you download PuTTY, launch the application.
 
-Configure you connection
-------------------------
+### Configure your connection
 
 In the PuTTY Configuration window, enter the following values and then
 click **Open**:
@@ -70,11 +59,7 @@ click **Open**:
 
 ![](http://c768825.r25.cf2.rackcdn.com/1_Connect.png)
 
-
-
-Accept the key
---------------
-
+### Accept the key
 
 If this is the first time that you have used PuTTY to log in to your
 server with SSH, a warning similar to the following one is displayed:
@@ -88,12 +73,7 @@ is now cached in the registry of your local computer.  You can expect to
 see that warning, however, if you connect to your server from a
 different computer.
 
-
-
-
-
-Enter your username and password
---------------------------------
+### Enter your username and password
 
 After you accept the warning, the terminal prompts you for your username
 and password.
@@ -114,10 +94,10 @@ a shell prompt:
 
 Now you can work on your server with all permissions.
 
-Change your root passwords
+### Change your root passwords
 
 FWe recommend that you change the root password to something personal.
- You can easily do this by using the passwd command.
+ You can easily do this by using the `passwd` command.
 
 1.  From the shell prompt, enter the passwd command.
 2.  Enter the new password that you want to set for your server.  The
@@ -133,6 +113,4 @@ to your server.
 
 ### Next section
 
-[Remote Connection from Mac to a Linux
-Server](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
-
+[Remote Connection from Mac to a Linux Server](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)

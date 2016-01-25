@@ -151,7 +151,7 @@ Directory Sync service must be configured. Perform the following steps:
 1.  Open the Directory Sync service administrative web application, if
     it is not already open:
 
-    <img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/Installer6.png" class="image-full_width" width="700" height="322" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Installer6.png" class="image-full_width" width="700" height="322" />
 
 2.  On the **Sync Registration Page**, enter the admin ID and password
     associated with your Rackspace Cloud Office account, and then click
@@ -178,7 +178,7 @@ Directory Sync service must be configured. Perform the following steps:
         be sent to the Administrator email address.  By default, this
         value is set to 08:00.
 
-    <img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/Installer7.png" class="image-full_width" width="700" height="537" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Installer7.png" class="image-full_width" width="700" height="537" />
 
 4.  Click **Save & Start Sync** to begin a full synchronization.
 

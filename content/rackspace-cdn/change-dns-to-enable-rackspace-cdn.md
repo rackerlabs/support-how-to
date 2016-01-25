@@ -4,7 +4,7 @@ title: Change DNS to enable Rackspace CDN
 type: article
 created_date: '2015-02-12'
 created_by: Megan Meza
-last_modified_date: '2015-12-17'
+last_modified_date: '2016-01-25'
 last_modified_by: Catherine Richardson
 product: Rackspace CDN
 product_url: rackspace-cdn
@@ -12,15 +12,15 @@ product_url: rackspace-cdn
 
 After you create your CDN service, you must activate it by pointing the DNS records for your domain to the CDN network. This article describes the steps to do this.
 
-## Get your CDN URL
+### Get your CDN URL
 
-1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
+1\. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 
-2. In the top navigation bar, click **Storage** and then select **CDN**.
+2\. In the top navigation bar, click **Storage** and then select **CDN**.
 
-3. In the list of services, click the service for which you want to activate the CDN.
+3\. In the list of services, click the service for which you want to activate the CDN.
 
-4. On the **CDN Service** page, look at the **Domains** section. Click on **Domain Not Configured** under **Status**.
+4\. On the **CDN Service** page, look at the **Domains** section. Click on **Domain Not Configured** under **Status**.
 
 <img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%209.22.50%20AM.png" width="643" height="441" alt="" border="1"  />
 
@@ -29,7 +29,7 @@ Use the URL and the instructions in the box that opens, which is similar to the 
 <img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-16%20at%204.56.08%20PM.png" width="531" height="272" alt="" border="1"  />
 
 
-## Create a CNAME record with your DNS provider
+### Create a CNAME record with your DNS provider
 
 After you obtain your CDN domain URL, go to your DNS provider to change your records.
 

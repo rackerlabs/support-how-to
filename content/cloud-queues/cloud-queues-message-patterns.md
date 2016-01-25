@@ -14,13 +14,6 @@ Cloud Queues was built to be flexible for a wide variety of messaging
 needs.  This article explains some common patterns and their possible
 variations.
 
-### Contents
-
--   [Task distribution](#Taskdistribution)
--   [Pub-sub](#Pubsub)
--   [Point-to-point](#Pointtopoint)
--   [Auditing](#Auditing)
-
 ### Task distribution
 
 In the task distribution pattern, customers use Cloud Queues much like
@@ -33,37 +26,31 @@ Amazon Simple Queue Service (SQS) to feed worker pools, as follows:
 
 ***Each step in the process can have the following variations***:
 
-1a. One or more producers push several messages into a queue. The worker
-can claim batches of messages or a single message at a time.
+- **Step 1 - variation 1:** 1a. One or more producers push several messages into a queue. The worker
+  can claim batches of messages or a single message at a time.
 
 
-2a. The worker does not claim the message before it expires. The
-producer should be adjusted to use a higher TTL value for messages, or
-the worker should poll more frequently.
+- **Step 2 - variation 1:** The worker does not claim the message before it expires. The
+  producer should be adjusted to use a higher TTL value for messages, or
+  the worker should poll more frequently.
 
 
-2b. There are no messages to claim, because all messages have been
-consumed by this or other workers. The worker continues to periodically
-send requests to claim messages until new messages are available.
-Alternatively, a governor process might choose to autoscale the worker
-pool based on load (which can be checked by using a GET request to
-retrieve statistics for the queue, or by monitoring whether individual
-workers are idle).
+- **Step 2 - variation 2:** There are no messages to claim, because all messages have been
+  consumed by this or other workers. The worker continues to periodically send requests to claim messages until new messages are
+  available. Alternatively, a governor process might choose to autoscale the worker pool based on load (which can be checked by using
+  GET request to retrieve statistics for the queue, or by monitoring whether individual workers are idle).
 
 
-3a. The worker crashes after claiming the message, but before processing
-it. The claim on the message will eventually expire, after which the
-message will be made available again to be claimed by another worker.
+- **Step 3 - variation:** The worker crashes after claiming the message, but before processing
+  it. The claim on the message will eventually expire, after which the
+  message will be made available again to be claimed by another worker.
 
 
-4a. The worker crashes after processing the message but before deleting
-it. The next worker to claim the message checks whether the message has
-already been processed before proceeding. In some cases,
-double-processing of a message might be acceptable, in which case no
-check is necessary.
-
-
-
+- **Step 4 - variation:** The worker crashes after processing the message but before deleting
+  it. The next worker to claim the message checks whether the message has
+  already been processed before proceeding. In some cases, 
+  double-processing of a message might be acceptable, in which case no
+  check is necessary.
 
 ### Pub-sub
 
@@ -77,26 +64,22 @@ more consumers or subscribers of an event, as follows:
 
 ***Step 2 in the process can have the following variations::***
 
-2a. The subscriber has already listed messages in a previous round. The
-subscriber submits a &ldquo;next&rdquo; marker to tell the server what messages it
-has already seen, so that the server returns only new
-messages to the subscriber.
+- **Step 2 - variation 1:** The subscriber has already listed messages in a previous round. The
+  subscriber submits a &ldquo;next&rdquo; marker to tell the server what messages it
+  has already seen, so that the server returns only new
+  messages to the subscriber.
 
+- **Step 2 - variation 2:** The subscriber does not list messages before message X expires. The
+  producer should be adjusted to use a higher TTL value when posting
+  messages, the subscriber should poll more often, or both.
 
-2b. The subscriber does not list messages before message X expires. The
-producer should be adjusted to use a higher TTL value when posting
-messages, the subscriber should poll more often, or both.
+- **Step 2 - variation 3:** All messages have been listed. The subscriber gets an empty
+  response, and continues to periodically list messages using the queue&rsquo;s
+  last known marker, until it gets a non-empty response.
 
-
-2c. All messages have been listed. The subscriber gets an empty
-response, and continues to periodically list messages using the queue&rsquo;s
-last known marker, until it gets a non-empty response.
-
-
-2d. The subscriber crashes before it can get message X. A process
-monitor would simply restart the subscriber, and the subscriber would be
-able to get message X as long as it is able to poll within the TTL
-period set by the publisher.
+- **Step 2 - variation 4:** The subscriber crashes before it can get message X. A process
+  monitor would simply restart the subscriber, and the subscriber would be able to get 
+  message X as long as it is able to poll within the TTL period set by the publisher.
 
 
 ### Point-to-point
@@ -116,25 +99,24 @@ message.
 
 ***A couple steps in the process can have the following variations***:
 
-2a. The agent could claim messages, but it is slower than simply listing
-messages, and claiming isn&rsquo;t necessary when only one client will ever
-read from the queue.
+- **Step 2 - variation 1:** The agent could claim messages, but it is slower than simply listing
+  messages, and claiming isn&rsquo;t necessary when only one client will ever
+  read from the queue.
 
 
-2b. The agent crashes before getting the message. As soon as the agent
-restarts, it can still get the message if it restarts within the TTL
-period set by the controller.
+- **Step 2 - variation 2:** The agent crashes before getting the message. As soon as the agent
+   restarts, it can still get the message if it restarts within the TTL 
+   period set by the controller.
 
 
-4a. The agent crashes before posting the result message. The controller
-should have a timeout period after which it no longer expects a response
-from its request.
+- **Step 4 - variation 1:** The agent crashes before posting the result message. The controller
+  should have a timeout period after which it no longer expects a response
+  from its request.
 
 
-4b. If no result is expected, this step and the next step are skipped.
+- **Step 4 - variation 2** If no result is expected, this step and the next step are skipped.
 
-###
-Auditing
+### Auditing
 
 In auditing, users add an additional observer that is constantly listing
 and recording messages in a queue. This observer could be a CLI

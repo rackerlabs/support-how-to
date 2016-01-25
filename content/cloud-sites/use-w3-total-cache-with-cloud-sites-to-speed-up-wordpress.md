@@ -12,7 +12,7 @@ product_url: cloud-sites
 
 W3 Total Cache is a plugin that enables you to store cached versions of your dynamic PHP pages during the  [Wordpress installation](http://www.rackspace.com/cloud/sites/web-hosting/wordpress/) process. Because W3 Total Cache reduces the load on the cluster, it also reduces the number of compute cycles used by a site.
 
-## Install W3 Total Cache
+### Install W3 Total Cache
 
 Download the W3 Total Cache plugin at [https://wordpress.org/plugins/w3-total-cache/](https://wordpress.org/plugins/w3-total-cache/).
 
@@ -20,7 +20,7 @@ Before you begin the W3 Total Cache installation, ensure that you have your Rack
 
 Follow the installation instructions provided at the [W3 Total Cache plugin installation page](https://wordpress.org/plugins/w3-total-cache/installation/).
 
-## Configure recommended W3 Total Cache settings
+### Configure recommended W3 Total Cache settings
 
 The settings for W3 Total Cache can usually be used across different hosts. However, Cloud Sites has a unique infrastructure setup that requires specific settings for the page cache to provide the best experience for a given site.
 
@@ -156,7 +156,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 	-	**Upload theme files**
 
-## Final steps
+### Final steps
 
 After you've successfully set up W3 Total Cache, in the WordPress menu, click **Performance > Dashboard** and choose to empty all caches.
 

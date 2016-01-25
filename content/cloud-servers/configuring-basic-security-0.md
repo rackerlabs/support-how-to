@@ -19,28 +19,16 @@ few minutes to set up a firewall - so we highly recommend that you do so
 to protect your server.
 
 After you create a new cloud server, we recommend that you perform the
-following tasks to enhance security of the server:
-
-1.  [Log in to the server](#LogIntoYourServer)
-2.  [Change the root password](#ChangeTheRootPassword)
-3.  [Add an Admin User](#AddAnAdminUser)
-4.  [Set up public and private keys](#SetUpPublicAndPrivateKeys)
-5.  [Modify the SSH configuration](#ModifyTheSSHConfiguration)
-6.  <span class="mw-headline">[Set up a private firewall by using
-    iptables in Ubuntu](#SetUpAPrivateFirewall) or </span>[Set up a
-    private firewall using iptables in
-    RedHat](#SetUpAPrivateFirewallUsingIPtables)
-7.  [Restart SSH](#restartSSH)
+following tasks to enhance security of the server.
 
 **Note:** Small modifications to the following commands might be
 necesssary if you're using a different distribution. If necessary, refer
 to your operating system documentation.
 
-<span class="mw-headline">Log in to the server</span>
------------------------------------------------------
+### Log in to the server
 
-<span class="mw-headline">As soon as you have your server's IP address
-and password, log in using the following SSH command:</span>
+As soon as you have your server's IP address
+and password, log in using the following SSH command:
 
     ssh root@123.45.67.890
 
@@ -59,20 +47,17 @@ If your local computer is running an operating system other than Linux
 or Mac OS X, the location of the `known_hosts` file will differ. Refer
 to your OS documention to learn the location of this file.
 
-<span class="mw-headline">Change the root password</span>
----------------------------------------------------------
+### Change the root password
 
 After logging in to your server, change the root password by issuing the
 following command:
 
     passwd
 
-Add an Admin User
------------------
+### Add an Admin User
 
 **Note**: If you are setting up additional SSH users for an OnMetal
-server, see [Create OnMetal Cloud
-Servers](/how-to/create-onmetal-cloud-servers)
+server, see [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
 for applicable OnMetal steps.
 
 1.  To add an admin user, issue the following command and replace
@@ -112,8 +97,7 @@ for applicable OnMetal steps.
 The new behavior takes effect after you save the file and open nano
 again.
 
-<span class="mw-headline">Set up public and private keys (SSH keygen)</span>
-----------------------------------------------------------------------------
+### Set up public and private keys (SSH keygen)
 
 One effective way of securing SSH access to your cloud server is to use
 a **public/private** key, which means that a public key is placed on the
@@ -124,10 +108,9 @@ steps: create the key on your local computer, copy the public key to the
 server, and set the correct permissions for the key.
 
 The following instructions assume that you use Linux or Mac OS X. For
-Windows instructions, see [Key generation using Putty for
-Windows](/how-to/generating-rsa-keys-with-ssh-puttygen).
+Windows instructions, see [Key generation using Putty forWindows](/how-to/generating-rsa-keys-with-ssh-puttygen).
 
-### Step 1. Create the public and private keys
+#### Step 1. Create the public and private keys
 
 1.  On your local computer, create a folder to hold your keys:
 
@@ -138,16 +121,14 @@ Windows](/how-to/generating-rsa-keys-with-ssh-puttygen).
 
         ssh-keygen -t rsa
 
-    -   The id\_rsa and id\_rsa.pub are created in the .ssh directory.
+    -   The id_rsa and id_rsa.pub are created in the .ssh directory.
         The rsa.pub file holds the public key. You'll place this file on
-        you server.
+        your server.
 
-    <!-- -->
-
-    -   The id\_rsa file is your private key. Never show, give away, or
+    -   The id_rsa file is your private key. Never show, give away, or
         keep this file on a public computer.
 
-### <span class="mw-headline">Step 2. Copy the public key</span>
+#### Step 2. Copy the public key
 
 You can use the `scp` command to place the public key on your server.
 
@@ -166,7 +147,7 @@ You can use the `scp` command to place the public key on your server.
 
         mv /home/demo/id_rsa.pub /home/demo/.ssh/authorized_keys
 
-### Step 3. Modify SSH permissions
+#### Step 3. Modify SSH permissions
 
 Set the correct permissions on the key using the following commands,
 changing the "demo" user and group to your admin user and group:
@@ -179,8 +160,7 @@ You have now successfully created the key on your local computer, copied
 the public key to your server, and set the correct permissions for the
 key.
 
-<span class="mw-headline">Modify the SSH configuration</span>
--------------------------------------------------------------
+### Modify the SSH configuration
 
 Keeping the SSH service on the default port of 22 makes it an easy
 target. We recommend changing the default SSH configuration to make it
@@ -211,14 +191,13 @@ your server from different computers, you may want to leave
 PasswordAuthentication set to yes. Only use the private key if the local
 computer is secure (i.e. don't put the private key on a work computer).
 
-Note that these settings are not enabled yet. Before restarting SSH by
+These settings are not enabled yet. Before restarting SSH by
 using the new port, you need to create a simple firewall by using
 iptables.
 
-**NOTE: Do not restart SSH yet.**
+**Note**: Do not restart SSH yet.
 
-<span class="mw-headline">Set up a private firewall by using iptables</span>
-----------------------------------------------------------------------------
+### Set up a private firewall by using iptables
 
 The utility called iptables is the default firewall for Linux systems.
 It works by refusing connections to ports or services that you specify.
@@ -227,7 +206,7 @@ It works by refusing connections to ports or services that you specify.
 use `systemd`. Servers that use `systemd` now use another firewall front
 end to iptables called FirewallD. The syntax and implementation for
 FirewallD vary greatly. For proper firewall configuration on FirewallD
-and `systemd` servers, see Introduction to firewalld" at the Red Hat
+and `systemd` servers, see "Introduction to firewalld" at the Red Hat
 customer portal.
 
 As part of this procedure, you'll open three ports: **ssh**, **http**,
@@ -242,7 +221,7 @@ You'll then create two files:
 The first is a set of temporary test rules and the second is the
 permanent set of rules iptables will use.
 
-Note that you need to root user permissions to complete procedure. If
+**Note**: You need to root user permissions to complete procedure. If
 you're not currently logged in as root, use the sudo command in front of
 the following commands.
 
@@ -381,7 +360,7 @@ For older OS versions, use the following command:
 
 #### Save your rules
 
-Use the following command to save all the rules that you&rsquo;ve created.  If
+Use the following command to save all the rules that you've created.  If
 not saved before your server is rebooted, the iptables ruleset will
 revert to the default ruleset, blocking all traffic except on port 22.
 If you are using RHEL 7 or CentOS 7, this step is not necessary.
@@ -416,11 +395,10 @@ rules to).
 
 This lists the enabled services in a specified zone.
 
-Restart ssh
----------------
+### Restart ssh
 
-Now you can restart the SSH service.  **Stay logged in while you restart
-ssh and test it with a new connection.**  That way if an error occurs,
+Now you can restart the SSH service. **Stay logged in while you restart
+ssh and test it with a new connection.** That way if an error occurs,
 you can troubleshoot it more easily.
 
 On most distributions, the service is sshd, and you restart it with the
@@ -441,13 +419,10 @@ the symptoms to determine what might be wrong.
 -   If you get a warning about a private key, your key might not be
     installed on the server properly (check for extra line breaks or
     characters that were missed in a copy-and-paste operation).
--   If you've been rebuilding the server, you might need to [remove the
-    host key from your known\_hosts
-    file](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console) before
+-   If you've been rebuilding the server, you might need to [remove the host key from your known_hosts file](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console) before
     you can make a connection.
 
-If you're locked out
---------------------
+### If you're locked out
 
 The incorrect configuration of SSH, sudo, or iptables could cause you to
 be locked out of your system.  If this occurs, log in to the The
@@ -455,7 +430,5 @@ Rackspace Cloud Control Panel and use the Web Console or Rescue Mode to
 repair the configurations.
 
 These are the basics of connecting to a Linux Cloud Server and setting
-up security.  See [Windows Cloud
-Server](/how-to/log-in-to-your-server-via-rdp-windows) to
+up security.  See [Windows Cloud Server](/how-to/log-in-to-your-server-via-rdp-windows) to
 be perform these steps on a Windows server.
-

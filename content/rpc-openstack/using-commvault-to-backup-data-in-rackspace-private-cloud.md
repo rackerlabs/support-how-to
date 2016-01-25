@@ -96,7 +96,7 @@ storage requirements, policies, and existing infrastructure, if any. For
 specific architectural recommendations and all configuration
 considerations, you can to talk to a CommVault Systems Engineer.
 
-<img src="/knowledge_center/sites/default/files/styles/half_width/public/field/image/commvault_rackspace_openstack_layout.png" class="image-half_width" width="375" height="271" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/commvault_rackspace_openstack_layout.png" class="image-half_width" width="375" height="271" />
 
 Agent Installation
 ------------------

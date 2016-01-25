@@ -15,18 +15,21 @@ account](https://cart.rackspace.com/cloud) and you must be logged in to
 the [Cloud Control Panel](https://mycloud.rackspace.com/) for that
 account. Rackspace Intelligence has no separate login process.
 
-To access Rackspace Intelligence
---------------------------------
+### Use Cloud Control Panel to access Rackspace Intelligence
 
 1.  Go to the Rackspace Intelligence user interface
     at [https://intelligence.rackspace.com](https://intelligence.rackspace.com/).
-    If you're not already logged in, you are redirected to the Cloud
-    Control Panel login page at https://mycloud.rackspace.com.
+
+    If you're not already logged in,
+    Rackspace Intelligence redirects you to the
+    [Cloud Control Panel](https://mycloud.rackspace.com) for login.
 
 2.  At the Cloud Control Panel login page, log in as usual. If your
     account is configured to require it, you might need to perform
-    additional steps to [log in with multi-factor
-    authentication](/how-to/multi-factor-authentication-from-the-cloud-control-panel).
+    additional steps to
+    [log in with multi-factor authentication](/how-to/multi-factor-authentication-from-the-cloud-control-panel).
+
+### See different aspects of the same entities in Cloud Control Panel and Rackspace Intelligence
 
 While you are logged in, the Rackspace Intelligence user interface can
 display information about some of the same entities that you can see in
@@ -42,4 +45,3 @@ The Rackspace Intelligence dashboard lists information about your
 monitored entities.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-dashboard-overview_1.png" width="960" height="474" />
-

@@ -69,5 +69,5 @@ the username field which indicates your profile has been configured.
 Select </span>**Next**<span>, F</span>**inish,** <span>and open up
 Outlook.</span>
 
-<img src="/knowledge_center/sites/default/files/field/image/image8.png" width="672" height="462" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image8.png" width="672" height="462" />
 

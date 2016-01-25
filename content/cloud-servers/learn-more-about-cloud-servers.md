@@ -15,7 +15,7 @@ Looking for information about Cloud Servers? The following sections contain link
 The basics
 ----------
 
-[About regions](/how-to/about-regions): Explains the concept of regions as they relate to Cloud Servers.
+[About regions](/how-to/about-regions):&nbsp;Explains the concept of regions as they relate to Cloud Servers.
 
 [Private and Public Access](/how-to/private-and-public-access-to-your-cloud-server): Provides details about public and private IP addresses assigned to cloud servers.
 

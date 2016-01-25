@@ -46,11 +46,11 @@ On the stack details page, click **View Credentials** to get any sensitive infor
 
 The bottom of the stack details page displays additional information about the application or framework that has been installed. You can use this information to build in additional capabilities into your installed application.
 
-<img alt="" border="1" height="439" src="/knowledge_center/sites/default/files/field/image/3549createstack5.png" width="567" />
+<img alt="" border="1" height="439" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3549createstack5.png" width="567" />
 
 After the stack build is complete, you can use your installed application or framework. You can also manage your stack and the individual infrastructure in their respective locations in the control panel.
 
-<a name="Settinguprackspaceautomateddeploymentsde"> </a>
+
 ## Delete a stack
 
 1. In the **Servers** tab, click **Orchestration** to see a list of your existing stacks.
@@ -59,7 +59,6 @@ After the stack build is complete, you can use your installed application or fra
 
 	**Note**: You can view all servers, load balancers, and databases that are part of your stack in their respective sections of the control panel. If you choose to delete an infrastructure component (such as a server, load balancer, or database) that is part of a stack, that stack is likely to become unstable. Exercise caution when deleting infrastructure components. To delete an entire stack, perform the stack deletion from the Orchestration section of the control panel instead of deleting each infrastructure component individually.
 
-<a name="Settinguprackspaceautomateddeploymentssc"> </a>
 ## Scale a stack up or down
 
 If you are an advanced users, you can use the custom template section to modify an existing template. You can also submit a custom template to create your own custom stack. For either method, click **Next Step** and then **Create Stack** to create the stack.

@@ -21,7 +21,7 @@ This article provides an overview of some of these methods.
 ### Direct access to RackConnect cloud servers via their public IP address
 
 With RackConnect v2.0, if the automation feature to provision public IP
-addresses ** is enabled on your RackConnect cloud account, then the
+addresses is enabled on your RackConnect Cloud account, then the
 RackConnect automation systems automatically assigns new public IP
 addresses to your newly built cloud servers. With RackConnect v3.0,
 automation features are no longer available, but you can still provision
@@ -30,7 +30,7 @@ API. In either case, the public IP addresses assigned to your cloud
 servers are allocated out of one of your dedicated public IP address
 blocks. A NAT (network address translation) entry is then configured on
 your RackConnect edge network device, which is a one-to-one association
-from the allocated dedicated public IP address to the cloud server&rsquo;s
+from the allocated dedicated public IP address to the cloud server's
 ServiceNet IP address&mdash;in the case of RackConnect v2.0&mdash;or to its cloud
 network IP address&mdash;in the case of RackConnect v3.0.
 
@@ -64,7 +64,7 @@ alternative methods for connecting to these cloud servers:
 -   You can connect to one of your dedicated servers, and then from that
     dedicated server, you can connect to one of your RackConnect cloud
     servers by using its ServiceNet IP address&mdash;with RackConnect v2.0
-    cloud servers&mdash;or by using its cloud network&rsquo;s IP address&mdash;with
+    cloud servers&mdash;or by using its cloud network's IP address&mdash;with
     RackConnect v3.0 cloud servers. With RackConnect v2.0, this method
     requires that you have an appropriate Dedicated to Cloud Servers
     network policy deployed. With RackConnect v3.0, this method requires
@@ -93,4 +93,3 @@ your dedicated and cloud servers to avoid bandwidth charges.
 If you have any questions, please reach out to us. Our contact
 information is available on the [Contact
 Us](/how-to/support) page.
-

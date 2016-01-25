@@ -22,7 +22,7 @@ product_url: cloud-dns
 - [Rackspace Cloud DNS - Additional Resources](/how-to/rackspace-cloud-dns-additional-resources)
 - [Rackspace Cloud DNS - Frequently Asked Questions](/how-to/cloud-dns-faq)
 
- 
+
 
 ### Next steps
 

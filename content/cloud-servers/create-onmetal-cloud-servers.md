@@ -14,17 +14,9 @@ OnMetal Cloud Servers enables you to boot bare metal servers via the
 Rackspace Cloud Control Panel interface. Use the following steps to set
 up an OnMetal server through the Control Panel.
 
--   [Create an OnMetal cloud server in the Cloud Control Panel](#create)
--   [Boot the server](#boot)
--   [Log in to or delete the server](#login)
--   [Using OnMetal](#usintOnmetal)
+**Note:** For the parallel steps in the API, see [Using OnMetal Cloud Servers through the API](/how-to/using-onmetal-cloud-servers-through-api).
 
-**Note:** For the parallel steps in the API, see [Using OnMetal Cloud
-Servers through the
-API](/how-to/using-onmetal-cloud-servers-through-api).
-
-Create an OnMetal server in the Cloud Control Panel
--------------------------------------------------------
+### Create an OnMetal server in the Cloud Control Panel
 
 1.  Log in to the [Cloud Control Panel.](http://mycloud.rackspace.com)
 
@@ -77,15 +69,13 @@ Create an OnMetal server in the Cloud Control Panel
 13. As needed, create a new network and select the PublicNet and
     ServiceNet options.
 14. Click **Create Server**.
-    <span>Your server is built.</span>
+    Your server is built.
 
-Boot the server
--------------------
+### Boot the server
 
 1.  On the details page for your server, click the link under **Log Into
     Your Server Now** in the right-hand column. For more information,
-    see [Connecting to a server using SSH on Linux or Mac OS for further
-    information](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os).
+    see [Connecting to a server using SSH on Linux or Mac OS for further information](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os).
 2.  Use the following command to boot your OnMetal server.
 
         supernova iad boot --flavor flavorId --image imageId --key-name keyName serverName
@@ -96,31 +86,31 @@ Boot the server
 
     You should see output similar to the following example:
 
-            +------------------------+--------------------------------------+
-            | Property | Value |
-            +------------------------+--------------------------------------+
-            | status | BUILD |
-            | updated | 2014-05-31T00:23:29Z |
-            | OS-EXT-STS:task_state | scheduling |
-            | key_name | johndoe |
-            | image | OnMetal - Debian 7 (Wheezy) |
-            | hostId | |
-            | OS-EXT-STS:vm_state | building |
-            | flavor | OnMetal I/O v1 |
-            | id | a8ea2366-9e50-4604-b6ce-e3edb8750451 |
-            | user_id | 83362 |
-            | name | teeth5 |
-            | adminPass | 6FgtaEqkapRo |
-            | tenant_id | 545251 |
-            | created | 2014-05-31T00:23:29Z |
-            | OS-DCF:diskConfig | MANUAL |
-            | accessIPv4 | |
-            | accessIPv6 | |
-            | progress | 0 |
-            | OS-EXT-STS:power_state | 0 |
-            | config_drive | |
-            | metadata | {} |
-            +------------------------+--------------------------------------+
+        +------------------------+--------------------------------------+
+        | Property               | Value                                |
+        +------------------------+--------------------------------------+
+        | status                 | BUILD                                |
+        | updated                | 2014-05-31T00:23:29Z                 |
+        | OS-EXT-STS:task_state  | scheduling                           |
+        | key_name               | johndoe                              |
+        | image                  | OnMetal - Debian 7 (Wheezy)          |
+        | hostId                 |                                      |
+        | OS-EXT-STS:vm_state    | building                             |
+        | flavor                 | OnMetal I/O v1                       |
+        | id                     | a8ea2366-9e50-4604-b6ce-e3edb8750451 |
+        | user_id                | 83362                                |
+        | name                   | teeth5                               |
+        | adminPass              | 6FgtaEqkapRo                         |
+        | tenant_id              | 545251                               |
+        | created                | 2014-05-31T00:23:29Z                 |
+        | OS-DCF:diskConfig      | MANUAL                               |
+        | accessIPv4             |                                      |
+        | accessIPv6             |                                      |
+        | progress               | 0                                    |
+        | OS-EXT-STS:power_state | 0                                    |
+        | config_drive           |                                      |
+        | metadata               | {}                                   |
+        +------------------------+--------------------------------------+
 
     **Note:** Although this output displays an admin password, this
     password is not actually used. You can safely ignore it.
@@ -132,33 +122,32 @@ Boot the server
 
     The output should look like the following example:
 
-            +------------------------+--------------------------------------------------------------------+
-
-            | Property | Value |
-            +------------------------+--------------------------------------------------------------------+
-            | status | ACTIVE |
-            | updated | 2014-05-31T00:27:34Z |
-            | OS-EXT-STS:task_state | None |
-            | private network | 10.184.0.48 |
-            | key_name | johndoe |
-            | image | OnMetal - Debian 7 (Wheezy) (1387253c-7735-4542-9612-26bc9ff77a9d) |
-            | hostId | 8a12611e45a1e15a1aec221ab05c8494524d6bf00e7fb17c5c82722a |
-            | OS-EXT-STS:vm_state | active |
-            | public network | 23.253.157.48 |
-            | flavor | OnMetal I/O v1 (onmetal-io1) |
-            | id | a8ea2366-9e50-4604-b6ce-e3edb8750451 |
-            | user_id | 83362 |
-            | name | teeth5 |
-            | created | 2014-05-31T00:23:29Z |
-            | tenant_id | 545251 |
-            | OS-DCF:diskConfig | MANUAL |
-            | accessIPv4 | 23.253.157.48 |
-            | accessIPv6 | |
-            | progress | 0 |
-            | OS-EXT-STS:power_state | 1 |
-            | config_drive | |
-            | metadata | {} |
-            +------------------------+--------------------------------------------------------------------+
+        +------------------------+--------------------------------------------------------------------+
+        | Property               | Value                                                              |
+        +------------------------+--------------------------------------------------------------------+
+        | status                 | ACTIVE                                                             |
+        | updated                | 2014-05-31T00:27:34Z                                               |
+        | OS-EXT-STS:task_state  | None                                                               |
+        | private network        | 10.184.0.48                                                        |
+        | key_name               | johndoe                                                            |
+        | image                  | OnMetal - Debian 7 (Wheezy) (1387253c-7735-4542-9612-26bc9ff77a9d) |
+        | hostId                 | 8a12611e45a1e15a1aec221ab05c8494524d6bf00e7fb17c5c82722a           |
+        | OS-EXT-STS:vm_state    | active                                                             |
+        | public network         | 23.253.157.48                                                      |
+        | flavor                 | OnMetal I/O v1 (onmetal-io1)                                       |
+        | id                     | a8ea2366-9e50-4604-b6ce-e3edb8750451                               |
+        | user_id                | 83362                                                              |
+        | name                   | teeth5                                                             |
+        | created                | 2014-05-31T00:23:29Z                                               |
+        | tenant_id              | 545251                                                             |
+        | OS-DCF:diskConfig      | MANUAL                                                             |
+        | accessIPv4             | 23.253.157.48                                                      |
+        | accessIPv6             |                                                                    |
+        | progress               | 0                                                                  |
+        | OS-EXT-STS:power_state | 1                                                                  |
+        | config_drive           |                                                                    |
+        | metadata               | {}                                                                 |
+        +------------------------+--------------------------------------------------------------------+
 
     Within a few minutes, the server is assigned public and private IP
     addresses, which you can see in the output of the `show` command.
@@ -166,8 +155,7 @@ Boot the server
     first time. The server is not reachable, however, until the network
     configuration is complete, which might take another few minutes.
 
-Log in to the server
-------------------------
+### Log in to the server
 
 After the server has booted, use the SSH key pair that you specified to
 log in to the server.
@@ -176,13 +164,12 @@ log in to the server.
 
     ssh root@publicIpAddress
 
-Delete the server
----------------------
+### Delete the server
 
 If needed, you can also delete or cancel the server.
 
 1.  Run the following command, replacing the example ID with your
-    server&rsquo;s ID:
+    server's ID:
 
         supernova iad delete a8ea2366-9e50-4604-b6ce-e3edb8750451
 
@@ -192,21 +179,18 @@ If needed, you can also delete or cancel the server.
 
     The output should look similar to the following example:
 
-            +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
-            | ID | Name | Status | Task State | Power State | Networks |
-            +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
-            | d1d58868-2b14-4fa5-b01f-e51d658556a8 | highcpu | ACTIVE | deleting | Running | public=23.253.157.105; private=10.184.0.105 |
-            +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
+        +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
+        | ID | Name | Status | Task State | Power State | Networks |
+        +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
+        | d1d58868-2b14-4fa5-b01f-e51d658556a8 | highcpu | ACTIVE | deleting | Running | public=23.253.157.105; private=10.184.0.105 |
+        +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
 
     **Note:** Your server goes into the task state deleting. OnMetal
     server deletions take longer than virtual server deletions, usually
     a few minutes.
 
-Using OnMetal
------------------
+### Using OnMetal
 
 The flash cards included with the OnMetal I/O flavor are unformatted.
 You can RAID and format them however you like. For more information, see
-[Configure flash drives in High I/O instances as Data
-drives](/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).
-
+[Configure flash drives in High I/O instances as Data drives](/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).

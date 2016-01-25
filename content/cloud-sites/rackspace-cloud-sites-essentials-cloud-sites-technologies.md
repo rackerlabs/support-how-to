@@ -70,18 +70,18 @@ to change this technology.
 
 Once you've logged into the Cloud Sites Control Panel, navigate to
 **Hosting-&gt;Cloud Sites**
-<img src="https://admin.rackspace.com/knowledge_center/sites/default/files/field/image/hosting.png" width="187" height="246" />
+<img src="https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting.png" width="187" height="246" />
 
 Click on the domain name you would like to make technology changes to
 Click on the Features Tab
-<img src="https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/featurestab.png" width="497" height="107" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/featurestab.png" width="497" height="107" />
 
 Click on the **Change Technology** button in the **Technologies**
 section
-<img src="https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/technologies_1.png" width="600" height="179" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/technologies_1.png" width="600" height="179" />
 
 Choose the **Site Technology** you would like your website to use.
-<img src="https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-technology_1.png" width="600" height="158" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-technology_1.png" width="600" height="158" />
 
 Click **Change Technology** to complete your change.
 **NOTE: ***Please note that when changing your site's default
@@ -96,13 +96,13 @@ have logged in to the Cloud Sites Cloud Control Panel fairly quickly for
 each of your domains.
 
 Navigate to **Hosting-&gt;Cloud Sites**
-<img src="https://admin.rackspace.com/knowledge_center/sites/default/files/field/image/hosting.png" width="187" height="246" />
+<img src="https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting.png" width="187" height="246" />
 
 Click on the **domain name** for which you would like to review its
 website features.
 Once it opens, you will be on  the **General Settings tab** by default.
 Scroll down to **Website Features**.
-<img src="https://admin.rackspace.com/knowledge_center/sites/default/files/field/image/web_features.png" width="600" height="181" />
+<img src="https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/web_features.png" width="600" height="181" />
 
 What you have here is a breakdown of your website's current features
 including its currently enabled technologies, its number of

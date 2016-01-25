@@ -10,13 +10,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
-
-
-
 If you are ever having a problem accessing the Control Panel, or any
 other Rackspace Cloud services, the first place you should check is the
 [Cloud Status page](https://status.rackspace.com/).  This is where we
@@ -39,13 +32,3 @@ The final section of the page lists any recent alerts or scheduled
 maintenance announcements.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Google%20ChromeScreenSnapz044.png" alt="Alerts and Maintenance" width="600" />
-
-
-
-### Next section
-
-[Billing services
-overview](/how-to/billing-services-overview)
-
-
-

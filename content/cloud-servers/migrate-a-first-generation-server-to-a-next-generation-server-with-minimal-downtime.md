@@ -35,7 +35,7 @@ The load balancer makes a seamless migration from First Gen server to Next Gen s
 
 3. Click **Create Load Balancer**.
 
-   <img src="/knowledge_center/sites/default/files/field/image/1941-2_0.png" width="520" height="104" border="1" alt=""  />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1941-2_0.png" width="520" height="104" border="1" alt=""  />
 
 4. In the Identification section, enter a name and select the same region your server is in for your load balancer.
 

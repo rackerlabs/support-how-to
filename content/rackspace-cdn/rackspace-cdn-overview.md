@@ -47,10 +47,6 @@ The Rackspace CDN architecture includes the following components:
 -   A RESTful API
 -   A single global endpoint to access the API
 
-For information about the features of Rackspace CDN, and for pricing
-information, go to
-<http://www.rackspace.com/cloud/cdn-content-delivery-network>.
-
 The following articles provide more general information about Rackspace
 CDN:
 
@@ -70,10 +66,3 @@ CDN:
 
 
 #### [&lt; Rackspace CDN User Guide](/how-to/rackspace-cdn)    -    [Features of Rackspace CDN &gt;](/how-to/features-of-rackspace-cdn)
-
-
-
-
-
-
-

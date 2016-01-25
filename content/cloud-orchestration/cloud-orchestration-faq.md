@@ -1,6 +1,6 @@
 ---
 node_id: 5008
-title: Cloud Orchestration - FAQ
+title: Cloud Orchestration FAQ
 type: article
 created_date: '2015-12-09'
 created_by: Stephanie Fillmon
@@ -288,8 +288,8 @@ request new features. This helps us prioritize our roadmap.
 Yes, since Rackspace Cloud Orchestration is based off OpenStack Heat, in
 general, you will be able to easily deploy your existing Heat template
 on Rackspace Cloud. The only exception is that the template must use
-resources that are in the [supported resource
-list](http://orchestration.rackspace.com/raxdox/).
+resources that are in the [Orchestration Resource
+Reference](https://developer.rackspace.com/docs/cloud-orchestration/v1/resources-reference/).
 
 The latest list of resources can be obtained by listing them out via
 CLI.
@@ -452,5 +452,3 @@ to select the right type of stack:
     consistent level of performance. However, Cloud Databases does not
     currently offer replication or automated backups, although both
     features are currently in development.
-
-

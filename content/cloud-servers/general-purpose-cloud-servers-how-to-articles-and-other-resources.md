@@ -45,8 +45,8 @@ Cloud Servers.<span>  </span>Check out these popular
 articles:</span></span></span>
 
 <span><span><span>&middot;</span><span>
-</span></span></span>[<span><span><span>Cloud Servers:
-FAQs</span></span></span>](/how-to/product-faq/cloud-servers)
+</span></span></span>[<span><span><span>Cloud Servers
+FAQ</span></span></span>](/how-to/product-faq/cloud-servers)
 
 <span><span><span>&middot;</span><span>
 </span></span></span>[<span><span><span>Getting Started with Cloud

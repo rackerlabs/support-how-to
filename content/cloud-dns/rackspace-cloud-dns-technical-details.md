@@ -55,7 +55,9 @@ chart:
 <ul>
 <li>List details of the specified domain. Display all details, including records. This operation provides the detailed output for a specific domain configured and associated with an account. This operation is not capable of returning details for a domain that has been deleted.</li>
 </ul></td>
-<td align="left"><strong>- List Record Details</strong></td>
+<td align="left"><strong>- List Record Details</strong><ul>
+<li>List details of the specified record. </li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td align="left">- <strong>Create Domain(s)</strong>
@@ -135,4 +137,3 @@ For a full list of record types and their definitions, please click
 
 **[Rackspace Cloud DNS - API
 Example](/how-to/rackspace-cloud-dns-api-example)**
-

@@ -91,7 +91,7 @@ service.</span>
 -   [Permissions Matrix for Billing and Payment
     Services](/how-to/detailed-permissions-matrix-for-billing-services)
 
-### <span>4. FAQs</span>
+### <span>4. FAQ</span>
 
 -   [Frequently Asked Questions About
     RBAC](/how-to/faq-role-based-access-control-rbac)

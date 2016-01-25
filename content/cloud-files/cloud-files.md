@@ -15,7 +15,7 @@ product_url: cloud-files
 
 ###  Cloud Files Basics
 
-- [Getting Started With Cloud Files](/how-to/getting-started-with-cloud-files-and-cdn-0)
+- [Cloud Files and CDN]( http://support-dev.ipa.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn-0/)
 - [Key Concepts of Cloud Files](/how-to/cloud-files-key-concepts)
 - [Why Should I Use Cloud Files?](/how-to/why-choose-cloud-files)
 

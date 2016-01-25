@@ -27,7 +27,7 @@ Customers who want to perform application tests, load tests, and performance-ben
 ### Load-testing guidelines
 
 Good testing practice requires that you continually monitor the effect of your test as you apply load. Before running such tests, ensure that you know how to view actual RAM, disk IO, and network usage in real-time. These metrics provide the early-warning signs that a test risks interfering with other customers' servers on the same host. See the following sections for specific thresholds.
- 
+&emsp;
 ### Linux virtual servers
 
 Install and use the `screen` package for your Linux distribution in to run and view the following commands at the same time. To compile screen from source, go to the [GNU homepage]( http://www.gnu.org/software/screen/).
@@ -36,7 +36,7 @@ Install and use the `screen` package for your Linux distribution in to run and v
 
      watch free -m
 
-Don’t let the value in the Free column in the +/- buffers/cache line go lower than 1,000.
+Don&rsquo;t let the value in the Free column in the +/- buffers/cache line go lower than 1,000.
 
 **Disk IO:** Use the following command to view disk IO use as you perform tests:
 
@@ -48,8 +48,8 @@ Watch the `%wa` number in the second line. It might occasionally rise above 1.0 
 
      sudo watch -n 10 -d /sbin/ip addr show eth0
 
-Watch the `RX bytes` number. Every 10 seconds, the <code>-d</code> argument highlights any changes in RX bytes numbers. The 10-second pause gives you time to note the RX bytes number before it changes. You can reduce the amount of math required to calculate exact changes if you remember that at least eight digits must change – per <code>watch -d</code> highlighting – between each 10-second update before you need to apply any arithmetic. For virtual machines with 2 GB RAM or more, at least nine digits must change before you need to calculate the exact change. The following table shows the maximum change in RX bytes per second by server size.
- 
+Watch the `RX bytes` number. Every 10 seconds, the <code>-d</code> argument highlights any changes in RX bytes numbers. The 10-second pause gives you time to note the RX bytes number before it changes. You can reduce the amount of math required to calculate exact changes if you remember that at least eight digits must change &ndash; per <code>watch -d</code> highlighting &ndash; between each 10-second update before you need to apply any arithmetic. For virtual machines with 2 GB RAM or more, at least nine digits must change before you need to calculate the exact change. The following table shows the maximum change in RX bytes per second by server size.
+&emsp;
 <table>
 	<tr>
 		<th>Cloud server size</th>

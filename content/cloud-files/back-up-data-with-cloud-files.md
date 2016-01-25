@@ -38,7 +38,8 @@ Back up your data
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
 2.  At the top of the window, click **Storage &gt; Files**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/236.1.png" width="300" height="140" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/236.1.png" width="300" height="140" /style="border: solid black 1px;"
+>
 
 3.  On the Cloud Files page, click **Create Container**.
 4.  In the popup dialog box, name the new container, select the region
@@ -70,5 +71,3 @@ Next steps
     last backup.
 2.  Perform the next backup (that is, upload files to Cloud Files)
     according to the backup plan that you created.
-
-

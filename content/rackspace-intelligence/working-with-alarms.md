@@ -69,8 +69,7 @@ alarm names listed with it.
 Before you can create an alarm, you must have [created a
 check](/how-to/working-with-checks).
 
-Create an alarm
--------------------
+### Create an alarm
 
 To create a new alarm, complete the following steps:
 
@@ -96,8 +95,8 @@ To create a new alarm, complete the following steps:
     create an alarm for the CPU check type, Rackspace Intelligence
     automatically guides you through the steps for creating a CPU
     alarm.
-    **Note:** If you want to create an alarm for an [agent check
-    type](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-agent.html),
+    **Note:** If you want to create an alarm for an
+    [agent check type](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-check-types),
     you must install the Rackspace monitoring agent on the server.
     Rackspace Intelligence creates an alarm without the agent installed,
     but you cannot view any metrics for this alarm. See [Creating an
@@ -136,26 +135,20 @@ To create a new alarm, complete the following steps:
 After the alarm is successfully created, a new alarm details page
 displays the alarm and shows that the alarm has been created.
 
-Edit an alarm
------------------
+### Edit an alarm
 
 To edit an alarm, click the **Actions** menu on the alarm details page.
 
 You can perform the following editing actions for alarms:
 
--   [Rename an alarm](#renamealarm)
--   [Edit a notification plan](#editnotificationplan)
--   [Edit the alarm criteria](#editalarmcriteria)
--   [Delete an alarm](#deletealarm)
-
-### Rename an alarm
+#### Rename an alarm
 
 1.  From the **Actions** menu on the alarm details page, select **Rename
     Alarm**.
 2.  In the Rename Alarm dialog box, type a new name in the **Alarm
     Name** box, and click **Save**.
 
-### Edit a notification plan
+#### Edit a notification plan
 
 1.  From the **Actions** menu on the alarm details page, select **Edit
     Notification Plan**.
@@ -163,7 +156,7 @@ You can perform the following editing actions for alarms:
     notification plan from the **Notification Plan** list, and click
     **Save**.
 
-### Edit the alarm criteria
+#### Edit the alarm criteria
 
 1.  From the **Actions** menu on the alarm details page, select **Edit
     Criteria**.
@@ -185,7 +178,7 @@ criteria, click the arrow next to **Help Guide and Example Criteria**.
 **Important:** If you update an alarm in advanced mode, you can no
 longer view the alarm criteria in basic mode.
 
-### Delete an alarm
+#### Delete an alarm
 
 1.  From the **Actions** menu on the alarm details page,
     select **Delete**.
@@ -193,20 +186,12 @@ longer view the alarm criteria in basic mode.
 
 The alarm is deleted.
 
-Create alarms for different check types
----------------------------------------
+### Create alarms for different check types
 
 This section provides examples of how to use Rackspace Intelligence to
 create alarms for different check types.
 
--   [Create an alarm for a remote check
-    type](#createalarmforremotecheck)
--   [Create an alarm for an agent check type with an agent
-    installed](#createagenttypealarmwithagent)
--   [Create an alarm for an agent check type without an agent
-    installed](#createagenttypealarmwithoutagent)
-
-### Create an alarm for a remote check type
+#### Create an alarm for a remote check type
 
 This example provides steps for creating an alarm for an HTTP check.
 This alarm is remote and does not require a monitoring agent to be
@@ -242,7 +227,7 @@ installed. These steps assume that you already created an HTTP check.
 
 The new alarm is displayed on the alarm details page.
 
-### Create an alarm for an agent check type with an agent installed
+#### Create an alarm for an agent check type with an agent installed
 
 This example provides steps for creating an alarm for a file system
 check. This alarm is an agent-type alarm and requires a monitoring agent
@@ -268,7 +253,7 @@ system check.
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-alarms-filesystem-alarm-settings.png" width="850" height="581" />
     The new alarm is displayed on the alarm details page.
 
-### Create an alarm for an agent check type without an agent installed
+#### Create an alarm for an agent check type without an agent installed
 
 This example provides steps for creating an alarm for a CPU check. This
 alarm is an agent-type alarm and requires a monitoring agent to be
@@ -303,4 +288,3 @@ check.
 
 The newly created alarm is displayed in the alarm details page. Because
 no monitoring agent is installed, no monitoring metrics are displayed.
-

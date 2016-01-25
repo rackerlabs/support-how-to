@@ -10,8 +10,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-Update the agent
-----------------
+### Update the agent
 
 We release regular updates to the Rackspace Cloud Backup agent about
 every two weeks. Managed Cloud Service Level account customers have
@@ -24,25 +23,11 @@ advantage of the latest features and fixes.
 installed. Updates are typically completed automatically. Only in rare
 circumstance should updates be completed manually.
 
-Visit the following links to learn how to:
-
--   [Update the agent for apt-based systems](#installubuntu) - like
-    Ubuntu, Debian, and Vyatta
--   [Update the agent for yum-based systems](#installrpm) - like CentOS,
-    Fedora, and Red Hat
--   [Update the agent for Arch, Gentoo, and Suse systems](#installarch)
--   [Update the agent for Windows systems](#installwindows)
-
-
-<div>
-
 ### Update the agent for apt-based Sytems, like Ubuntu, Debian, and Vyatta
-
-</div>
 
 First, you must SSH into your server and run the below commands
 consecutively on a user with sudo or superuser privileges. You might
-wish to review [Rackspace Cloud Backup - Install the agent on
+wish to review [Install the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing the steps shown below.
 
@@ -60,16 +45,11 @@ Backup Updater that keeps the agent up to date on the system. ****
     apt-get install --reinstall --assume-yes driveclient
 
 
-
-<div>
-
 ### Update the agent for yum-based Systems, like CentOS, Fedora, and Red Hat
-
-</div>
 
 First, you must SSH into your server and run the below commands
 consecutively on a user with sudo or superuser privileges. You might
-wish to review [Rackspace Cloud Backup - Install the agent on
+wish to review [Install the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing the steps shown below.
 
@@ -84,7 +64,6 @@ up to date on the system.
 
 **Note:** Fedora 22 and later uses a new package manager called DNF
 (Dandified Yum).
-
 
 ### Update the agent for Arch, Gentoo, and Suse systems
 
@@ -134,25 +113,20 @@ command includes an example of the directory created from Step 4.**
 Example init/startup scripts are included in the tarball.
 
 
-<div>
-
 ### Update the agent on a Windows systems
 
 The steps shown in this section should be run as Administrator or as a
-user with Administrator privileges. You might wish to review [Rackspace
-Cloud Backup - Install the agent on
+user with Administrator privileges. You might wish to review [Install the Cloud Backup agent on
 Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 before performing the steps shown below.
 
-Because the Windows agent inlcudes an automated updater, there should
+Because the Windows agent includes an automated updater, there should
 rarely be an occasion to update the Windows agent manually. However,
 there may be some rare need to do so. Here are a couple of different
 options that might be useful.
 
 The preferred way to do a manual update is to download the latest agent
 from the deployment server and simply run it.
-
-</div>
 
 **Step 1 - Download the updated agent:**
 
@@ -188,6 +162,3 @@ Otherwise, updating the agent using the MSI is the same as a fresh
 install. You have all the same MSI options available. For the
 verification steps to test the update, see [Test Windows installation or
 update](/how-to/rackspace-cloud-backup-install-the-agent-on-windows#testsetup).
-
-
-

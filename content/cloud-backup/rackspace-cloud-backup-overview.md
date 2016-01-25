@@ -1,6 +1,6 @@
 ---
 node_id: 2037
-title: Rackspace Cloud Backup - Overview
+title: Rackspace Cloud Backup overview
 type: article
 created_date: '2012-08-22'
 created_by: Rackspace Support
@@ -12,8 +12,8 @@ product_url: cloud-backup
 
 **Note:** Cloud Backup works only on Rackspace Cloud Servers.
 
-Rackspace Cloud Backup \[[product
-page](http://www.rackspace.com/cloud/backup/)\] is a file-based backup
+Rackspace Cloud Backup [product
+page](http://www.rackspace.com/cloud/backup/) is a file-based backup
 application that lets you choose which files and folders to back up from
 your cloud server. You can choose to restore your whole system with all
 of its folders and files, restore individual files or folders from a
@@ -52,11 +52,12 @@ using Cloud Backup on the following directories:
 For more information, see [Best Practices for Cloud
 Backup](/how-to/best-practices-for-cloud-backup)
 and the [Cloud Backup
-FAQs](/how-to/cloud-backup-faq)
+FAQ](/how-to/cloud-backup-faq)
 or visit Cloud Backup's [main product
 page](http://www.rackspace.com/cloud/backup/).
 
-This *Getting Started Guide* includes the following topics:
+Following are a list of articles to help you get started with
+Cloud Backup:
 
 -   [How to install the Cloud Backup Agent on Linux
     servers](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
@@ -87,9 +88,7 @@ Backup](/how-to/rackspace-cloud-backup-create-a-backup-0).
 
 Other users should begin with installing the backup tool:
 
--   [Install the agent on
+-   [Install the Cloud Backup agent on
     Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
--   [Install the agent on
+-   [Install the Cloud Backup agent on
     Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
-
-

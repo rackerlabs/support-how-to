@@ -1,6 +1,6 @@
 ---
 node_id: 4057
-title: Rackspace Cloud Backup - Install the agent on Linux
+title: Install the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
@@ -10,17 +10,15 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-
-
-**Previous section:** [Rackspace Cloud Backup -
-Overview](/how-to/rackspace-cloud-backup-overview)
+**Previous section:** [Cloud Backup
+overview](/how-to/rackspace-cloud-backup-overview)
 
 The following instructions are for the installation of the Rackspace
 Cloud Backup agent on your Linux server. If you are using a Windows
-server, see [Rackspace Cloud Backup - Install the Agent
+server, see [Install the Cloud Backup agent
 (Windows)](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 for parallel instructions.  To schedule and configure backups after the
-agent is installed, see [Rackspace Cloud Backup - Create a
+agent is installed, see [Create a
 Backup](/how-to/rackspace-cloud-backup-create-a-backup-0).
 
 **Note:** You can use Cloud Backup on almost any Linux server in the
@@ -29,20 +27,8 @@ Rackspace Cloud. Exceptions are FreeBSD 9 (not supported) and Debian 5
 use an alternate method to backup your data. Also note that 32-bit
 servers and agents on Linux are not supported.
 
--   [Install the agent](#installagent)
-    -   [Install the agent on APT-based systems, such as Ubuntu and
-        Debian](#apt)
-    -   [Install the agent on RPM-based systems, such as CentOS, Fedora,
-        and Red Hat](#rpm)
-    -   [Install the agent on Arch, Gentoo, and SUSE systems](#arch)
--   [Troubleshooting](#troubleshoot)
-    -   [Connection error](#connection)
-    -   [Status codes](#status)
-    -   [Agent logs](#agent)
--   [Uninstall the agent from Linux](#uninstalllinux)
+### Install the agent
 
-Install the agent
------------------
 
 To see if your server already has the Cloud Backup agent installed, run:
 
@@ -56,17 +42,15 @@ needs to be installed.
 If the Cloud Backup agent is not installed, proceed with the
 instructions for your Linux distribution:
 
--   [Install the agent on APT-based systems, including Ubuntu and
-    Debian](#apt)
--   [Install the agent on RPM-based systems, including CentOS, Fedora,
-    and Red Hat](#rpm)
--   [Install the agent on Arch, Gentoo, SUSE, and other
-    Linux systems](#arch)
+-   Install the agent on APT-based systems, including Ubuntu and
+    Debian
+-   Install the agent on RPM-based systems, including CentOS, Fedora,
+    and Red Hat
+-   Install the agent on Arch, Gentoo, SUSE, and other
+    Linux systems
 
 **Note**: None of the Linux backup agents can be installed without a
 reboot. However, an agent update does not require a reboot.
-
-
 
 ### Install the agent on APT-based systems, such as Ubuntu and Debian
 
@@ -149,10 +133,6 @@ consecutively as a user with sudo or superuser privileges.
 
         sudo service driveclient start
 
-^[Back\\ to\\ top](#backtotop)^
-
-###
-
 ### Install the agent on RPM-based systems, such as CentOS, Fedora, and Red Hat
 
 Use SSH to log in to your server and run the following commands
@@ -205,10 +185,6 @@ consecutively as a user with sudo or superuser privileges.
 4.  Start the agent.
 
         sudo service driveclient start
-
-^[Back\\ to\\ top](#backtotop)^
-
-###
 
 ### Install the agent on Arch, Gentoo, and SUSE systems
 
@@ -280,13 +256,8 @@ tarball instructions.
 
     Example init/startup scripts are included in the tarball.
 
-^[Back\\ to\\ top](#backtotop)^
 
-
--
-
-Troubleshooting
----------------
+### Troubleshooting
 
 If you encounter issues during installation, use the tips in this
 section to troubleshoot.
@@ -301,31 +272,31 @@ ensure that your firewall isn't blocking outgoing connections on port
 
 #### What do the backup statuses Skipped, Missed, Errored, and Failed mean?
 
--   Skipped: The backup job was skipped because a backup job was
+-   **Skipped:** The backup job was skipped because a  backup job was
     already queued. A single backup job can be queued only once.
--   Missed: The backup job was missed because the agent did not respond.
+-   **Missed:** The backup job was missed because the agent did not respond.
     The agent was likely offline.
--   Errored: An error occurred during the backup. The backup job did
+-   **Errored:** An error occurred during the backup. The backup job did
     run, but it needs to be investigated.
--   Failed: A serious problem occurred, and the backup job did not run.
+-   **Failed:** A serious problem occurred, and the backup job did not run.
 
 #### How do I troubleshoot the Skipped, Missed, Errored, and Failed statuses?
 
--   Skipped: This error likely occurs because the frequency of the
+-   **Skipped:** This error likely occurs because the frequency of the
     backup job is set too high. Consider reducing the frequency of the
     job, or reducing the amount of data. If this is the initial job,
     then the subsequent jobs might finish faster.
--   Missed: Verify that the agent is running on the server. If the agent
+-   **Missed:** Verify that the agent is running on the server. If the agent
     is not already running, then start it. Next, check the logs to
     determine why the backup job failed. An agent should never go
     offline by itself. Either a software exception occurred or the agent
     was manually terminated.
--   Errored: Look in the logs on the server. The agent stores all the
+-   **Errored:** Look in the logs on the server. The agent stores all the
     logs in one location (see the following section). Review the logs
     line by line. If you cannot determine the cause of the error, raise
     a ticket with the SME group, and they can help you identify
     the problem.
--   Failed: As with the Errored status, check the logs on the server. A
+-   **Failed:** As with the *Errored* status, check the logs on the server. A
     failed status is severe.
 
 ### Agent logs
@@ -333,25 +304,22 @@ ensure that your firewall isn't blocking outgoing connections on port
 If you need to read the logs of the agent, you can find them in
 `/var/log`.
 
-^[Back\\ to\\ top](#backtotop)^
 
+### Uninstall the agent from Linux
 
-
-Uninstall the agent from Linux
-------------------------------
 
 To uninstall the agent, you can stop and remove both the auto-updater
 and the backup agent by using the system package manager.
 
-### CentOS or Red Hat
+#### CentOS or Red Hat
 
     sudo yum remove cloudbackup-updater driveclient
 
-### Ubuntu
+#### Ubuntu
 
     sudo apt-get remove cloudbackup-updater driveclient
 
-### Other Linux Distributions
+#### Other Linux Distributions
 
 For all other Linux operating systems, follow OS-standard uninstallation
 operations. Based on the previous installation instructions, use the
@@ -368,10 +336,6 @@ Remove the `/etc/driveclient` directory.
 If the `init` script for the `driveclient` was added for this
 installation, remove that as well.
 
-^[Back\\ to\\ top](#backtotop)^
-
 ### Next steps
 
-[Rackspace Cloud Backup - Create a
-backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
-
+[Create a backup](/how-to/rackspace-cloud-backup-create-a-backup-0)

@@ -59,7 +59,7 @@ Below is an example of how the Network Policy should be configured to
 allow connectivity across your Cloud Network IP addresses.  In this
 example, the Cloud Network is equal to 192.168.x.x/24.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/half_width/public/field/image/CloudNetworks.NetworkPolicy.png" class="image-half_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CloudNetworks.NetworkPolicy.png" class="image-half_width" />
 
 *Note: This Network Policy will need to be created, even if you already
 have a "Cloud Server(s) to Cloud Server(s)" Network Policy allowing all
@@ -104,7 +104,7 @@ them.  The diagram below should help you to visualize how RackConnect
 and Cloud Networks work on the same cloud server.  In the diagram Cloud
 Private Network is equivalent to the Cloud ServiceNet Network.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/full_width/public/field/image/RCandCloudNetworks.TrafficFlow.png" class="image-full_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RCandCloudNetworks.TrafficFlow.png" class="image-full_width" />
 
 
 

@@ -4,9 +4,9 @@ title: "Rackspace Monitoring How To's and Other Resources"
 type: article
 created_date: '2012-08-14'
 created_by: Rae D. Cabello
-last_modified_date: '2016-01-06'
-last_modified_by: Catherine Richardson
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -14,8 +14,8 @@ product_url: cloud-monitoring
 
 -   Rackspace Monitoring Getting Started Guide:
     [https://developer.rackspace.com/docs/cloud-monitoring/getting-started](https://developer.rackspace.com/docs/cloud-monitoring/getting-started/)
--   Getting started with the Cloud Monitoring CLI
-    (Raxmon): </how-to/getting-started-with-rackspace-monitoring-cli>
+-   [Getting started with the Cloud Monitoring CLI
+    (Raxmon)](/how-to/getting-started-with-rackspace-monitoring-cli)
 
 
 
@@ -24,17 +24,13 @@ product_url: cloud-monitoring
 -   Python binding, based on libcloud as a
     dependency: <https://github.com/racker/rackspace-monitoring>
 
-<!-- -->
 
 -   Raxmon CLI, based on
     rackspace-monitoring: <https://github.com/racker/rackspace-monitoring-cli>
 
-<!-- -->
-
 -   Ruby bindings, based on
     Fog: <https://github.com/racker/rackspace-monitoring-rb>
 
-<!-- -->
 
 -   Chef cookbook, using the Fog
     bindings: <https://github.com/racker/cookbook-cloudmonitoring>
@@ -59,18 +55,11 @@ product_url: cloud-monitoring
     tool: <http://www.rackspace.com/blog/rackspace-open-sources-dreadnot/>
 -   Dreadnot code: <https://github.com/racker/dreadnot>
 
-<!-- -->
-
 -   Node.js Library Serialization and Validation for building
     APIs: <http://www.rackspace.com/blog/node-swiz-node-js-library-for-serializing-deserializing-and-validating-objects-in-rest-apis/>
 -   Node.js Library To Build And Parse XML
     Documents: <http://www.rackspace.com/blog/node-elementtree-node-js-library-to-build-and-parse-xml-documents/>
 
-<!-- -->
-
 -   Node.js Cassandra CQL
     driver: <http://www.rackspace.com/blog/rackspace-contributes-cassandra-cql-driver-for-node-js/>
 -   Virgo monitoring agent: <https://github.com/racker/virgo>
-
-
-

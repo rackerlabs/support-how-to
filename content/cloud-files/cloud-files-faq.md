@@ -1,6 +1,6 @@
 ---
 node_id: 4980
-title: Cloud Files - FAQs
+title: Cloud Files FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
@@ -99,7 +99,7 @@ you can use either the Cloud Files user interface in the Rackspace Cloud
 Control Panel or one of our programming interfaces.
 
 Please see the [How do I use Cloud Files and
-CDN?](/how-to/getting-started-with-cloud-files-and-cdn-0)
+CDN?](/how-to/getting-started-with-cloud-files-and-cdn-0/)
 Knowledge Center article for more details.
 
 #### Where can I find Cloud Files documentation?

@@ -13,8 +13,7 @@ product_url: cloud-servers
 Use the following steps to set up a Cloud Server through the Cloud
 Control Panel interface.
 
-1.  Log in to the [Cloud Control
-    Panel](https://mycloud.rackspace.com). The Cloud Servers list opens
+1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com). The Cloud Servers list opens
     by default.
 2.  Click the **Create Server** button.
 3.  In the** Identity **section enter a name for your server in
@@ -54,19 +53,15 @@ Control Panel interface.
     -   In the Region field, confirm or select the region in which your
         key will be used
     -   Paste your public key into the Public Key field.
-        **Note:** If you do not have a public key yet, click [How to get
-        a public
-        key](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
+
+        **Note:** If you do not have a public key yet, click [How to get a public key](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
         and follow the instructions in that article.
-                  For more information on how to generate a public and
-        private key pairs, see
-                  [Manage SSH Keypairs for Cloud Servers
-        with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+        For more information on how to generate a public and
+        private key pairs, see [Manage SSH Keypairs for Cloud Servers with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
     -   Once you have your entered your Key Name, Region, and the Public
         Key, click **Add Public Key**.
 
-
-    ******<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.30.59%20AM.png" width="655" height="299" />
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.30.59%20AM.png" width="655" height="299" />
 
 9.  Confirm that your key is listed in the SSH Key list for your new
     server.
@@ -76,16 +71,11 @@ Control Panel interface.
 
 11. Click **Create Server**.
 
-
 Your server is built. After it is done being provisioned, your server
 displays the status **Running** and is now available for remote
 connection. Specific remote connection instructions for your server are
 displayed in the side bar on the right of the Cloud Control Panel.
 
+### Next section
 
-
-**Next section**
-
-[Create an image from a server and restore a server from a saved
-image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
-
+[Create an image from a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)

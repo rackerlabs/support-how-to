@@ -1,10 +1,10 @@
 ---
 node_id: 3135
-title: Cloud Block Storage - Overview
+title: Overview of Cloud Block Storage
 type: article
 created_date: '2012-10-22'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
@@ -40,8 +40,7 @@ predict or control.
 
 
 
-###
-Some Uses of Cloud Block Storage
+### Uses of Cloud Block Storage
 
 -   Mount a drive to a server to scale storage without paying for more
     compute capability
@@ -60,12 +59,10 @@ Some Uses of Cloud Block Storage
 
 Access Cloud Block Storage the way you like: you can use it through the
 GUI interface of the [Cloud Control
-Panel](https://mycloud.rackspace.com/) or through the API. This Getting
-Started Guide walks you through Control Panel access. If you prefer to
-interact with Cloud Block Storage programmatically, you may view the
+Panel](https://mycloud.rackspace.com/) or through the API. This product introduction walks you through Control Panel access. If you prefer to
+interact with Cloud Block Storage programmatically, view the
 [Developer
-Guide](http://docs.rackspace.com/cbs/api/v1.0/cbs-devguide/content/overview.html),
-located in [docs.rackspace.com](http://docs.rackspace.com/api/).
+Guide](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
 
 
 ### Limits of Cloud Block Storage
@@ -81,7 +78,7 @@ located in [docs.rackspace.com](http://docs.rackspace.com/api/).
 
 
 
-### Cloud Block Storage Terminology
+### Cloud Block Storage terminology
 
 You may run across some unfamiliar terms in this Getting Started Guide.
 Here are some common terms and definitions we use in Cloud Block
@@ -89,9 +86,6 @@ Storage.
 
 -   Instance -- An instance is a virtual machine that runs inside
     the cloud.
-
-<!-- -->
-
 -   Instance type -- An instance type describes the compute, memory and
     storage capacity of Nova computing instances. In layman's terms,
     this is the size (in terms of vCPUs, RAM, and so forth) of the
@@ -110,22 +104,21 @@ Storage.
 
 
 
-### Cloud Block Storage Getting Started Table of Contents
+### Cloud Block Storage product overview contents
 
-In this Getting Started Guide, you will learn how to:
+In this product overview, you will learn how to do the following tasks:
 
--   [Create and Attach a
-    Volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
--   [Prepare Your Volume for Use with a Server (Linux
-    or Windows)](/how-to/create-and-attach-a-cloud-block-storage-volume)
--   [Take Snapshots of Your
-    Volume](/how-to/create-and-use-cloud-block-storage-snapshots)
--   [Detach and Delete a
-    Volume](/how-to/detach-and-delete-cloud-block-storage-volumes)
--   [Attach a Cloud Block Storage Volume to an OnMetal
-    Server](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server)
+-   [Create and attach a
+    volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
+-   [Prepare your volume for use with a server (Linux
+    or Windows)](/how-to/create-and-attach-a-cloud-block-storage-volume).
+-   [Take snapshots of your
+    volume](/how-to/create-and-use-cloud-block-storage-snapshots).
+-   [Detach and delete a
+    volume](/how-to/detach-and-delete-cloud-block-storage-volumes).
+-   [Attach a Cloud Block Storage volume to an OnMetal
+    server](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server).
 
 
-Let's get started and [Create your first
+Let's get started and [create your first
 volume](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server).
-

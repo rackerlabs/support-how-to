@@ -1,6 +1,6 @@
 ---
 node_id: 3283
-title: How to prevent RackConnect from overwriting custom iptables rules on Linux cloud servers
+title: Prevent RackConnect from overwriting custom iptables rules on Linux cloud servers
 type: article
 created_date: '2013-01-26'
 created_by: Russell Lambert
@@ -110,8 +110,8 @@ note, however.
 #### RackConnect rules always run before custom rules
 
 All RackConnect related ACCEPT/DENY rules are kept in filter chains
-named `RS-RackConnect-*` (such as RS-RackConnect-INBOUND). The first
-rule of a primary iptables filter chain (such as INPUT) will always be
+named `RS-RackConnect-*` (such as `RS-RackConnect-INBOUND`). The first
+rule of a primary iptables filter chain (such as `INPUT`) will always be
 an unconditional jump to the relevant `RS-RackConnect-*` chain. **This
 jump rule needs to remain the first rule in the basic chains, otherwise
 your custom rules may prevent RackConnect Automation from being able to
@@ -185,7 +185,7 @@ latest version.
         will simply add the RETURN rule necessary for iptables to
         process them.
 
-    -   A RackConnect rule is already handling the packet
+    -   A RackConnect rule is already handling the packet.
 
         Iptables rules are handled on a "first match" basis. If a rule
         in the relevant `RS-RackConnect-*` chain matches a packet,
@@ -196,13 +196,8 @@ latest version.
         in order to allow iptables to continue down the rule list to
         your custom rule.
 
-<!-- -->
-
 -   **Who can I contact if I have any questions?**
 
-    Should you have any questions about RackConnect or this change,
+    If you have any questions about RackConnect or this change,
     [contact your Rackspace Support
     team](http://www.rackspace.com/support/).
-
-
-

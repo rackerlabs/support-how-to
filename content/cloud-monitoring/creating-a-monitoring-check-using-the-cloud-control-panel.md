@@ -4,9 +4,9 @@ title: Creating a monitoring check using the Cloud Control Panel
 type: article
 created_date: '2012-08-15'
 created_by: Susan Million
-last_modified_date: '2016-01-06'
-last_modified_by: Catherine Richardson
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -33,16 +33,14 @@ page](http://www.rackspace.com/cloud/monitoring/).
 **Note:** With General Purpose servers, Rackspace Monitoring monitors
 only the system disk. The data disk is not monitored.
 
-------------------------------------------------------------------------
-
 ### Contents
 
 -   [Creating a Monitoring Check](#Create)
 -   [The Check Region](#ChkRegion)
 -   [The Check Status](#ChkStatus)
 
-Create a Monitoring Check
------------------------------
+### Create a Monitoring Check
+
 
 1.  Log in to the [Cloud Control
     Panel](https://mycloud.rackspace.com/) at
@@ -56,14 +54,11 @@ Create a Monitoring Check
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreateCheck.png" width="465" height="283" />
 
-
 5.  Enter a descriptive name for the check in the Check Name box.
 6.  If you selected the **HTTP Check (website)** check, enter the URL of
     the website that you want to monitor.
 
-
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckDetails3.png" width="542" height="538" />
+     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckDetails3.png" width="542" height="538" />
 
 -   *(Optional: HTTP Check Only)* Click **Advanced Options** and enter a
     word or phrase in the **Body Match** box that will appear on the
@@ -72,8 +67,7 @@ Create a Monitoring Check
 
 
 
-The Check Region
---------------------
+### The Check Region
 
 Each check is configured by default to originate from the 3 regions:
 DFW, ORD, and LON. Once your monitoring check has been created, you can
@@ -85,8 +79,8 @@ regions, including: IAD (Northern Virginia), HKG (Hong Kong), and SYD
 
 
 
-The Check Status
---------------------
+### The Check Status
+
 
 The check status is calculated by determining if there is an agreement
 from a majority of the monitoring zones (two out of three monitoring
@@ -109,9 +103,3 @@ The following example shows a check in the OK state and one in the
 CRITICAL state:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Check%20Status_0.png" width="534" height="106" />
-
-
--
-
-
-

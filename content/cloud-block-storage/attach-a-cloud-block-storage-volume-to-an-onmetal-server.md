@@ -4,7 +4,7 @@ title: Attach a Cloud Block Storage volume to an OnMetal server
 type: article
 created_date: '2015-07-22'
 created_by: Catherine Richardson
-last_modified_date: '2016-01-11'
+last_modified_date: '2016-01-25'
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
@@ -112,8 +112,8 @@ later. The output might vary depending on the server flavor.
     $ lsblk
     NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
     sda      8:0    0  28.9G  0 disk
-    &boxvr;&boxh;sda1   8:1    0  28.8G  0 part /
-    &boxur;&boxh;sda2   8:2    0    64M  0 part
+    sda1     8:1    0  28.8G  0 part /
+    sda2     8:2    0    64M  0 part
     sdb      8:16   0   1.5T  0 disk
     sdc      8:32   0   1.5T  0 disk
 
@@ -135,15 +135,15 @@ later. The output might vary depending on the server flavor.
     $ lsblk
     NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
     sda      8:0    0  28.9G  0 disk
-    &boxvr;&boxh;sda1   8:1    0  28.8G  0 part /
-    &boxur;&boxh;sda2   8:2    0    64M  0 part
+    sda1     8:1    0  28.8G  0 part /
+    sda2     8:2    0    64M  0 part
     sdb      8:16   0   1.5T  0 disk
     sdc      8:32   0   1.5T  0 disk
     sdd      8:48   0     2G  0 disk
 
 Now you can use the device, just like on other cloud servers. For more
-information, see [Prepare Your Cloud Block Storage
-Volume](/how-to/prepare-your-cloud-block-storage-volume).
+information, see [Prepare your Cloud Block Storage
+volume](/how-to/prepare-your-cloud-block-storage-volume).
 
 
 
@@ -155,9 +155,9 @@ detach a volume from your OnMetal server.
 
 1\. From inside the instance, perform all commands as root.
 
-2\. Unmount filesystems. (For instructions, see [Detach and Delete Cloud
+2\. Unmount filesystems. (For instructions, see [Detach and delete Cloud
 Block Storage
-Volumes](/how-to/detach-and-delete-cloud-block-storage-volumes).)
+volumes](/how-to/detach-and-delete-cloud-block-storage-volumes).)
 
 3\. Disconnect the volume.
 
@@ -173,4 +173,3 @@ the preceding command is run and the following command is run again.
 
 **Note**: If any volumes are attached to an instance, deleting the
 instance fails. Detaching the instances and re-deleting will succeed.
-

@@ -192,9 +192,9 @@ Your `/etc/fstab` should look as follows on both servers:
 If you run `findmnt | grep srv` the response should look something like this:
 
     root@web01:~# findmnt | tail -n3
-    ├─/srv/.bricks               /dev/xvde1     ext4            rw,relatime,attr2,inode64,noquota
-    ├─/srv/www                   localhost:/www fuse.glusterfs rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,max_read=131072
-    └─/var/www                   localhost:/www fuse.glusterfs rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,max_read=131072
+    |-/srv/.bricks         /dev/xvde1     ext4            rw,relatime,attr2,inode64,noquota
+    |-/srv/www             localhost:/www fuse.glusterfs rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,max_read=131072
+    `-/var/www             localhost:/www fuse.glusterfs rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,max_read=131072
 
 This response shows that` /srv/.bricks` is mounted on `/dev/xvde1` and that `localhost:/www` (the GlusterFS volume) is mounted in two places, `/srv/www` and `/var/www` (thanks to bind mounting).
 

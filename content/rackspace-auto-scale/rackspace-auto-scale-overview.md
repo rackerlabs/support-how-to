@@ -1,29 +1,29 @@
 ---
 node_id: 3780
-title: Rackspace Auto Scale overview
+title: Rackspace Autoscale overview
 type: article
 created_date: '2013-11-15'
 created_by: Maria Abrahms
-last_modified_date: '2016-01-11'
-last_modified_by: Rose Coste
-product: Rackspace Auto Scale
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-Rackspace Auto Scale automatically scales resources that are allocated
+Rackspace Autoscale automatically scales resources that are allocated
 to your application up or down based on user-defined need. Scaling
 events can be based on scaling rules that you define through your
 monitoring system, or on a simple schedule that you configure.
 
-### How Is Auto Scale Used?
+### How Is Autoscale Used?
 
 Scaling is triggered either by webhooks that are placed in monitoring
-services or by a schedule. An Auto Scale group, or *scaling group*,
+services or by a schedule. An Autoscale group, or *scaling group*,
 consists of the following items:
 
 -   Scaling group configuration: The group name, cooldown time limit,
     and minimum and maximum number of needed servers
--   Launch configuration: When an Auto Scale event is triggered, the
+-   Launch configuration: When an Autoscale event is triggered, the
     actions taken to create a server by specifying which image to start
     and which load balancer to attach to the server
 -   Scaling policy: Defines the action of the policy (for example, scale
@@ -54,9 +54,6 @@ consists of the following items:
     the load balancer. The customer can create a second schedule-based
     policy to decrease the number of servers by 20 percent at 7:00 p.m.
     EST on Friday evening.
-
-<!-- -->
-
 -   **Known traffic fluctuations**
     Customer Y notices that, traffic to their website decreases by 15
     percent every weekend. That is, traffic decreases every Friday night
@@ -76,11 +73,11 @@ consists of the following items:
 
 ### Additional resources
 
--   To learn about using Auto Scale in the Cloud Control Panel, see the
-    [Rackspace Auto Scale Getting Started
+-   To learn about using Autoscale in the Cloud Control Panel, see the
+    [Rackspace Autoscale Getting Started
     page](/how-to/rackspace-auto-scale).
--   To learn more about the Rackspace Auto Scale API, see the [Rackspace
-    Auto Scale API Getting Started
+-   To learn more about the Rackspace Autoscale API, see the [Rackspace
+    Autoscale API Getting Started
     Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-getting-started).
 
 

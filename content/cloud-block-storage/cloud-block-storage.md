@@ -3,7 +3,7 @@ title: Cloud Block Storage
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-01-17'
+last_modified_date: '2016-01-22'
 last_modified_by: Rackspace Support
 product: Cloud Block Storage
 product_url: cloud-block-storage
@@ -18,28 +18,28 @@ product_url: cloud-block-storage
 - [Uses of Cloud Block Storage](/how-to/cloud-block-storage-overview#uses-of-cbs)
 - [Access to Cloud Block Storage](/how-to/cloud-block-storage-overview#access-cbs)
 - [Limits of Cloud Block Storage](/how-to/cloud-block-storage-overview#limits-of-cbs)
-- [Cloud Block Storage Terminology](/how-to/cloud-block-storage-overview#cbs-terminology)
-- [Getting Started Table of Contents](/how-to/cloud-block-storage-overview#cbs-gs-toc)
+- [Cloud Block Storage terminology](/how-to/cloud-block-storage-overview#cbs-terminology)
+- [Product overview contents](/how-to/cloud-block-storage-overview#cbs-gs-toc)
 
-###  Create / Attach a Volume
+###  Create and attach a volume
 
-- [Create and Attach a Cloud Block Storage Volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
-- [Attach a Cloud Block Storage Volume to an OnMetal Server](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server#attach-volume-to-an-onmetal-server)
+- [Create and attach a Cloud Block Storage volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
+- [Attach a Cloud Block Storage volume to an OnMetal server](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server#attach-volume-to-an-onmetal-server)
 
-###  Prepare Your Volume
+###  Prepare your volume
 
-- [Prepare your Volume for use with a Linux Server](/how-to/prepare-your-cloud-block-storage-volume#prepare_linux)
-- [Prepare your Volume for use with a Windows Server](/how-to/prepare-your-cloud-block-storage-volume#prepare_windows)
+- [Prepare your volume for use with a Linux server](/how-to/prepare-your-cloud-block-storage-volume#prepare_linux)
+- [Prepare your volume for use with a Windows server](/how-to/prepare-your-cloud-block-storage-volume#prepare_windows)
 
-###  Create and Use Snapshots
+###  Create and use snapshots
 
-- [Create a Snapshot](/how-to/create-and-use-cloud-block-storage-snapshots)
+- [Create a snapshot](/how-to/create-and-use-cloud-block-storage-snapshots)
 
-###  Detach / Delete a Volume
+###  Detach and delete a volume
 
-- [Detach and Delete a Volume](/how-to/detach-and-delete-cloud-block-storage-volumes)
+- [Detach and delete a volume](/how-to/detach-and-delete-cloud-block-storage-volumes)
 
-###  API Developer Guide & FAQ's
+###  API Developer Guide and FAQ
 
-- [Cloud Block Storage API Developer Guide](http://docs.rackspace.com/cbs/api/v1.0/cbs-devguide/content/overview.html)
-- [Cloud Block Storage FAQs](/how-to/cloud-block-storage)
+- [Cloud Block Storage API Developer Guide](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)
+- [Cloud Block Storage FAQ](/how-to/cloud-block-storage)

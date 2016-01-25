@@ -30,7 +30,7 @@ Databases.
 ### Popular how-to articles
 
 -   [Rackspace Cloud Databases
-    FAQs](/how-to/cloud-databases-faq)
+    FAQ](/how-to/cloud-databases-faq)
 -   [Rackspace Cloud Databases: Public Vs. Private
     Access](/how-to/public-and-private-access-for-cloud-databases)
 -   [Rackspace Cloud Databases: Connecting to Your

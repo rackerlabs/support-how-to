@@ -4,9 +4,9 @@ title: Rackspace Metrics overview
 type: article
 created_date: '2015-03-03'
 created_by: Shane Duan
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -20,19 +20,8 @@ Cassandra](http://cassandra.apache.org/). Rackspace Metrics is designed
 to meet the functional and performance requirements of enterprise-scale
 metrics.
 
-**Contents**
 
--   [The growth of metrics](#theGrowthofMetrics)
--   [Rackspace Metrics components](#cloudmetricsComponents)
--   [How to grant users access to Rackspace
-    Metrics](#howtoGrantUsersaccss)
--   [How to access Rackspace Metrics](#howtoAccessCloudMetrics)
--   [Finding more information](#Findingmoreinfo)
--   [Getting help and providing
-    feedback](#gettingHelpandprovidingFeedback)
-
-The growth of metrics
--------------------------
+### The growth of metrics
 
 The number of applications that are built for the cloud and deployed in
 the cloud is growing. Instead of having a monolithic design, these
@@ -42,9 +31,9 @@ with each other to form the business functions of the application. In
 this distributed architecture, each platform component instance is an
 independent process and can be monitored individually. As a result, the
 size of the data collected by infrastructure-monitoring tools, such as
-Cloud Monitoring and Nagios, has grown exponentially.
+Rackspace Monitoring and Nagios, has grown exponentially.
 
-That&rsquo;s where Rackspace Metrics comes in.
+That's where Rackspace Metrics comes in.
 
 Rackspace Metrics focuses on changing the cost-structure of metrics
 collection by replacing the storage component. Metrics storage is
@@ -54,8 +43,8 @@ aligning itself with popular open-source tools for data collection and
 visualization. Users get the same experience with a familiar toolset
 without the hassle of managing the metrics storage.
 
-Rackspace Metrics components
---------------------------------
+### Rackspace Metrics components
+
 
 Rackspace Metrics consists of two components: **metrics ingestion** and
 **metrics query**.
@@ -70,22 +59,22 @@ Rackspace Metrics consists of two components: **metrics ingestion** and
     running for a while to compare against Rackspace Metrics.
 
     The Metrics Ingestion API is currently in the [Early Access
-    Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html)
+    Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#early-access-program)
     (EAP).
 
 -   **Metrics query**: Rackspace Metrics enables users to retrieve
     metrics data via a public API. Through its Query API, Rackspace
     Metrics supports metrics visualization in the Rackspace Cloud
-    Control Panel and Cloud Intelligence for data collected through
+    Control Panel and Rackspace Intelligence for data collected through
     Cloud Monitoring. In addition, Rackspace Metrics can also integrate
     with Graphite and Grafana. See the following blog post for details:
-    <http://www.rackspace.com/blog/use-grafana-for-all-of-your-monitoring-data-rackspace-or-otherwise/>
+    <http://www.rackspace.com/blog/use-grafana-for-all-of-your-monitoring-data-rackspace-or-otherwise/>.
 
     The Rackspace Metrics Query API is currently in
     Limited Availability.
 
-How to grant users access to Rackspace Metrics
---------------------------------------------------
+### How to grant users access to Rackspace Metrics
+
 
 No registration is required to access data in Rackspace Metrics that has
 been collected through Cloud Monitoring. The data is already available
@@ -94,9 +83,9 @@ API, a user must have the appropriate role.
 
 To obtain access to the Rackspace Metrics Ingestion API, sign up through
 [Early Access
-Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html).
+Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#early-access-program).
 
-### **To add the role:**
+### **How to add the appropriate roles**
 
 Currently Rackspace Metrics product is not available in [Rackspace Cloud
 Control Panel](https://mycloud.rackspace.com/).  When you sign up for
@@ -108,13 +97,13 @@ let us know.
 
 -   The roles needed for accessing the Rackspace Metrics API are
     described at:
-    <http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/rolesAvailable.html>
+    <https://developer.rackspace.com/docs/metrics/v2/developer-guide/#roles-available-for-rackspace-metrics>
 -   For more information about role-based access control, see [Overview:
     Role Based Access
     Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
-How to access Rackspace Metrics
------------------------------------
+### How to access Rackspace Metrics
+
 
 Users can access Rackspace Metrics via simple REST API end points. A
 number of tools are available that can send HTTP requests and capture
@@ -124,27 +113,25 @@ the output, including the following ones:
 -   Chrome Advanced Rest Client, available at
     <http://chromerestclient.appspot.com/>
 
-Finding more information
-----------------------------
+### Find more information
+
 
 If you want more information about Rackspace Metrics, such as access
 endpoints, how to determine your tenant ID and retrieve authentication
 tokens, and supported request options, see the [*Rackspace Metrics*
-*Getting
-Started Guide*](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Overview.html)
-and the *[Rackspace Metrics Developer
-Guide](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/Overview.html)*
-at [docs.rackspace.com](http://docs.rackspace.com/).
+Getting
+Started Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-getting-started)
+and the [Rackspace Metrics Developer
+Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-developer-guide).
 
-Getting help and providing feedback
----------------------------------------
+### Get help and provide feedback
+
 
 During the Early Access program, support for Rackspace Metrics will be
 available via email only during regular business hours. If you have
 further questions or a suggestion, contact us at
 <cloudmetrics-earlyaccess@rackspace.com>.
 
-Your feedback is a key ingredient of Rackspace&rsquo;s success. If you have
+Your feedback is a key ingredient of Rackspace's success. If you have
 suggestions for enhancements to Rackspace Metrics, contact us at
 <cloudmetrics-earlyaccess@rackspace.com>.
-

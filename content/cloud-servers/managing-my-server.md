@@ -82,11 +82,11 @@ You can perform the following essential management tasks without logging directl
 
 On the Server Details page for a particular server, items that are instantly configurable have links to the right of them.
 
-<img src="/knowledge_center/sites/default/files/field/image/1512NewImage-1.png" width="369" height="275" alt="" border="1"  />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1512NewImage-1.png" width="369" height="275" alt="" border="1"  />
 
 For example, next to the **System Image** field, you can click **Rebuild** to rebuild your server from a default Rackspace image or a previously saved image.  You specify the required information in the popup dialog box and then click **Rebuild Server**.
 
-<img src="/knowledge_center/sites/default/files/field/image/1512NewImage-2.png" width="465" height="268" alt="" border="1"  />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1512NewImage-2.png" width="465" height="268" alt="" border="1"  />
 
 ### Related Information
 

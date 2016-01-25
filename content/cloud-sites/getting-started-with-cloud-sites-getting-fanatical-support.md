@@ -32,7 +32,7 @@ support channels.</span>
     support telephone number is provided along with links to helpful
     documentaion and the community forum.
 
-<img src="/knowledge_center/sites/default/files/field/image/CP-Home.PNG" width="642" height="282" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-Home.PNG" width="642" height="282" />
 
 -   <span>You will also notice that the </span>**<span>Cloud
     Status</span>**<span>, </span>**<span>Knowledge Base</span>**<span>,
@@ -47,7 +47,7 @@ support channels.</span>
     -   **<span>United Kingdom 24-hour Support:  0800-083-3012</span>**
     -   **<span>International: 1-210-312-4000</span>**
 
-<img src="/knowledge_center/sites/default/files/field/image/CP-Supportlinks.PNG" width="634" height="35" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-Supportlinks.PNG" width="634" height="35" />
 
 
 
@@ -74,7 +74,7 @@ support channels.</span>
     to find it is to enter keywords in the </span>***<span>How can we
     help?</span>***<span> bar at the top.</span>
 
-<img src="/knowledge_center/sites/default/files/field/image/CP-KC.png" width="637" height="397" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-KC.png" width="637" height="397" />
 
 -   **<span>Tickets</span>**<span> - the best way to communicate with
     our Support Technicians and provide specific details about a problem
@@ -85,7 +85,7 @@ support channels.</span>
     communicate this information over the phone is problematic at best.
     </span>
 
-<img src="/knowledge_center/sites/default/files/field/image/CP-ticket.PNG" width="644" height="429" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-ticket.PNG" width="644" height="429" />
 
 -   **<span>Live Chat </span>**<span>- We have Support Technicians
     standing by 24 hours a day to answer any questions you have.  Under
@@ -94,7 +94,7 @@ support channels.</span>
     the appropriate Live Chat link for the product you need
     assistance with.</span>
 
-<img src="/knowledge_center/sites/default/files/field/image/CP-chat.PNG" width="636" height="371" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-chat.PNG" width="636" height="371" />
 
 With all the support resources and support staff made available to you,
 it's no wonder why Rackspace is known as the home of Fanatical Support!

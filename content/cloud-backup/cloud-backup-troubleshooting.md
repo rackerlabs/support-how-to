@@ -38,8 +38,7 @@ Backup statuses
 Descriptions for each of the backup statues follow along with tips for
 why you might receive each status and what action you might take.
 
-###
-Backup status &ldquo;Skipped&rdquo;
+### Backup status &ldquo;Skipped&rdquo;
 
 The backup job was skipped because a backup job was already queued. A
 single backup job can be queued only once.
@@ -184,8 +183,7 @@ backup job did not run. As with the Error status, check the logs on the
 server.
 
 
-Connection errors: DriveClient fails to start, or DriveClient does not stay running
----------------------------------------------------------------------------------------
+### Connection errors: DriveClient fails to start, or DriveClient does not stay running
 
 When DriveClient is started, it attempts to connect to the RSE API
 endpoint (**rse.drivesrvr.com** or **rse.drivesrvr.co.uk**), to let the
@@ -243,8 +241,7 @@ required API endpoints:
 | HKG    | storage101.hkg1.clouddrive.com | snet-storage101.hkg1.clouddrive.com |
 
 
-Backup agent logs: Where they are located, and how to read them
--------------------------------------------------------------------
+### Backup agent logs: Where they are located, and how to read them
 
 The agent logs are stored, by default, in the following directories:
 
@@ -263,33 +260,33 @@ basics](/how-to/cloud-backup-agent-logging-basics).
 
 The following common items are included in the **DriveClient.log** file:
 
--   `rax::LoggingPolicy::PerformSetup(134)`
+-   `rax::LoggingPolicy::PerformSetup(134)` -
     Indicates the start of the DriveClient service.
 
--   `rax::AgentPolicy::TearDown(38)] Tearing down logging...`
+-   `rax::AgentPolicy::TearDown(38)] Tearing down logging...` -
     Indicates that the DriveClient service was properly shut down.
 
--   Format of log lines
-    `[DATE TIME | THREADID | LOGLEVEL | USER | CONTEXT] LOG INFORMATION`
-    `DATE TIME`: Timestamp indicating when the log line was written
-    `THREADID`: Because DriveClient is a threaded service, this ID is an
-    indicator to separate the thread from all of the other threads
-    writing to the same log file.
-    `LOGLEVEL`: The depth of the logging. The default is INFO, but
-    Support might increase this level to TRACE or DEBUG. The log levels
-    are common log levels, such as INFO, WARN, and ERROR.
-    `USER`: The user that is running the service. On Linux,  this value
-    is root, and on Windows, it is Administrator.
-    `CONTEXT`: This is internal information about where the log was
-    generated.
-    `LOG INFORMATION`: The context of the log.
+-   `[DATE TIME | THREADID | LOGLEVEL | USER | CONTEXT] LOG INFORMATION`-
+    Format of log lines.
+    - `DATE TIME`: Timestamp indicating when the log line was written
+    - `THREADID`: Because DriveClient is a threaded service, this ID is an
+      indicator to separate the thread from all of the other threads
+      writing to the same log file.
+    - `LOGLEVEL`: The depth of the logging. The default is INFO, but
+      Support might increase this level to TRACE or DEBUG. The log levels
+      are common log levels, such as INFO, WARN, and ERROR.
+    - `USER`: The user that is running the service. On Linux,  this value
+      is root, and on Windows, it is Administrator.
+    - `CONTEXT`: This is internal information about where the log was
+       generated.
+    - `LOG INFORMATION`: The context of the log.
 
 Common errors received in the log include 401 and 403 errors when
 accessing **rse.drivesrvr.com**, **api.drivesrvr.com**,
 **rse.drivesrvr.co.uk**, or **api.drivesrvr.co.uk**.
 
 When you first start the DriveClient service, there is a possibility
-that the RSA key pair for authentication does not properly synchonize
+that the RSA key pair for authentication does not properly synchornize
 immediately, causing a brief time of 401 and 403 errors in the
 **DriveClient.log** file. This is normal for the Cloud Backup internal
 APIs. The DriveClient service handles these errors and will retry the
@@ -299,18 +296,14 @@ service.
 If the errors continue for more than 5 - 10 seconds, contact Rackspace
 Support.
 
-
-Recovery of your encrypted vault password
----------------------------------------------
+### Recovery of your encrypted vault password
 
 You cannot recover your encrypted vault password. The vault password is
 stored only on the cloud server that is linked to that encrypted vault.
 If that password is forgotten, and the **bootstrap.json** file was
 overwritten or lost, there is no way to recover the password.
 
-
-Unable to backup or restore files (Windows only)
-----------------------------------------------------
+### Unable to backup or restore files (Windows only)
 
 Windows has the ability to *exclusively lock* a file, so that no other
 process can read or write to it. This locking is common in database
@@ -326,9 +319,7 @@ snapshots enables you to get a proper backup of the file.
 The latest version of Cloud Backup for Windows automatically takes a VSS
 snapshot of the drive and attempts to back up files from it.
 
-
-System resource utilization
--------------------------------
+### System resource utilization
 
 The amount of resources (memory, CPU, and load) used by the DriveClient
 is directly related to how many files are being backed up in each backup
@@ -337,15 +328,11 @@ cause the agent to consume more resources. For suggestions for best
 practices, see [Best practices for Cloud
 Backup](/how-to/best-practices-for-cloud-backup).
 
-
-
-Other errors and problems
------------------------------
+### Other errors and problems
 
 Following are other errors and problems that you might encounter:
 
-####
-**Backup failed with a 403 error from Cloud Files when account has sub-users**
+#### **Backup failed with a 403 error from Cloud Files when account has sub-users**
 
 A registered sub-user is authorized for Cloud Backup but not for Cloud
 Files access. When this user attempts a backup, all requests to Cloud
@@ -358,8 +345,7 @@ account administrator for Full access to your account or Administrative
 access to Cloud Files for your sub-user account. Cloud Backup does not
 support Dedicated Users with Cloud access Federated users.
 
-####
-**Unable to browse a previous backup or browse a backup to select files to restore**
+#### **Unable to browse a previous backup or browse a backup to select files to restore**
 
 The list of files in a backup in the Cloud Control Panel is generated by
 the running DriveClient service. When you are browsing existing backup
@@ -370,8 +356,7 @@ When you attempt to restore, the file list is generated on the target
 cloud server &ndash; the server to which you have selected to restore the
 files.
 
-####
-**Cleanup stuck in &ldquo;preparing&rdquo; mode**
+#### **Cleanup stuck in &ldquo;preparing&rdquo; mode**
 
 The cleanup process requires a large number of calculations before it
 can start cleaning up for the file rotation. As a result, the cleanup
@@ -379,8 +364,7 @@ process could be shown as *preparing* for some time before the files
 start being rotated. There is no way to track the percentage complete at
 this time.
 
-####
-**Unexpected "Skipped" notifications for a backup**
+#### **Unexpected "Skipped" notifications for a backup**
 
 You might get this notification if you have reregistered servers (the
 old server appears offline with a duplicate online server). By design,
@@ -395,13 +379,12 @@ configurations and backed up data.
 
 If you have reregistered a DriveClient agent and are unintentionally
 disassociated from your backups, you can use the [Migrate Vault API
-call](http://docs.rackspace.com/rcbu/api/v1.0/rcbu-devguide/content/PUT_migrateVault_v1.0__tenant_id__agent_migratevault_Agent.html)
+call](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault)
 to migrate the previous backup vault from a previous agent to a new
 fresh agent (with no backup configurations or previous backups run
 against it).
 
-####
-**Files modified during backup are missing or corrupted**
+#### **Files modified during backup are missing or corrupted**
 
 **Note**: This issue relates to the data that is backed up, and not to
 the actual file on the file system.
@@ -434,6 +417,3 @@ workarounds:
     for full instructions.
 -   For log files, take snapshots of your log files and back them up. To
     avoid running out of disk space, rotate your log files periodically.
-
-
-

@@ -33,7 +33,6 @@ username and API access key.
 
     - curl -D - -H "X-Auth-Key: a86850deb2742ec3cb41518e26aa2d89" -H "X-Auth-User: jdoe" https://auth.api.rackspacecloud.com/v1.0
 
-####
 
 #### Authentication Response
 
@@ -67,7 +66,6 @@ the domains for account number 1234, and the domain ID 2725511.
 
     - curl -X GET -H "X-Auth-Token:eaaafd18-0fed-4b3a-81b4-663c99ec1cbb" -H "Accept:application/xml" https://dns.api.rackspacecloud.com/v1.0/1234/domains/2725511
 
-####
 
 #### Real Response
 
@@ -102,4 +100,3 @@ precedence.
 
 [**Rackspace Cloud DNS - Additional
 Resources**](/how-to/rackspace-cloud-dns-additional-resources)
-

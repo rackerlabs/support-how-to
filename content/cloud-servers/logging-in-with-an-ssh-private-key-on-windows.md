@@ -79,7 +79,7 @@ Setup your session in PuTTy. You can name the session anything you would
 like. In this case, we are naming the session based on the IP of the
 server we are connecting to, and click **Save**:
 
-<img src="/knowledge_center/sites/default/files/field/image/Windows9.png" width="635" height="604" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Windows9.png" width="635" height="604" />
 
 Now click on **Connection &gt;Data** and set the Auto-login username to
 root:

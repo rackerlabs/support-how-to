@@ -1,6 +1,6 @@
 ---
 node_id: 5029
-title: Cloud Big Data - FAQ
+title: Cloud Big Data FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
@@ -62,7 +62,7 @@ You can use Big Data to perform the following tasks:
 
 Cloud Big Data is part of the Rackspace Cloud, and your use of it
 through the API is billed according to the pricing schedule listed on
-the[Cloud Big Data product
+the [Cloud Big Data product
 page](http://www.rackspace.com/cloud/big-data). Cloud Servers is also
 part of the Rackspace Cloud, and your use of it through the Cloud
 Control Panel is billed according to [Cloud Servers

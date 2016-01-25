@@ -19,8 +19,7 @@ and selecting **Cloud Sites**.
 You can use various methods to change your FTP password. This article
 provides instructions for two recommended methods.
 
-Change a forgotten password
----------------------------
+### Change a forgotten password
 
 Use this recommended method if you are locked out of your account or to
 reset your password if you have forgotten it.
@@ -37,8 +36,7 @@ email address associated with your user name. Your new password will be
 required to log in to the Cloud Sites Control Panel and to upload
 content to your site via FTP.
 
-Change your password regularly
-------------------------------
+### Change your password regularly
 
 Use this recommended method if you are updating your password as a
 regular security practice and have no trouble logging in to the Classic

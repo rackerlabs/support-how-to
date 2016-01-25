@@ -13,7 +13,7 @@ product_url: cloud-files
 There are a number of reasons to choose the Cloud Files service over similar services available in the market:
 
 - Simplicity of content delivery network (CDN) functionality
-- Utility pricing—paying only for what you use, after you use it
+- Utility pricing&mdash;paying only for what you use, after you use it
 - Multiple APIs for developers to choose from
 - Fast and reliable performance
 - World-class support

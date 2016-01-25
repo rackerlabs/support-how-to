@@ -78,20 +78,20 @@ When you are done, the new server should have the IP address 192.168.0.3 on inte
 
 The parts of the command are as follows:
 
- * `gluster` – The command is for GlusterFS.
- * `volume` – The command is related to a volume.
- * `add-brick` – You are adding a brick to the volume.
- * `www` – This is the name of the volume.
- * `replica 3` – After you add this brick, the volume will keep at least three copies of each file, one copy per brick, and in this case, one copy per server (because there is only one brick on each server).
- * `192.168.0.3:/srv/.bricks/www` – This is the IP address of the Gluster server, followed by the absolute path to where the brick data should be stored.
+ * `gluster` &ndash; The command is for GlusterFS.
+ * `volume` &ndash; The command is related to a volume.
+ * `add-brick` &ndash; You are adding a brick to the volume.
+ * `www` &ndash; This is the name of the volume.
+ * `replica 3` &ndash; After you add this brick, the volume will keep at least three copies of each file, one copy per brick, and in this case, one copy per server (because there is only one brick on each server).
+ * `192.168.0.3:/srv/.bricks/www` &ndash; This is the IP address of the Gluster server, followed by the absolute path to where the brick data should be stored.
 
 ### Volume storage strategies
 
 GlusterFS offers different types of volume storage strategies:
 
- * Distributed – One file on one brick, the next file on the next. This strategy gives you more space because your volume is the sum of all the bricks.
- * Replicated – Every file is copied to every server. This is the strategy that we recommend.
- * Striped – Files are cut into chunks, and one chunk is written to the first brick, one chunk is written to the second brick, and so on.
+ * Distributed &ndash; One file on one brick, the next file on the next. This strategy gives you more space because your volume is the sum of all the bricks.
+ * Replicated &ndash; Every file is copied to every server. This is the strategy that we recommend.
+ * Striped &ndash; Files are cut into chunks, and one chunk is written to the first brick, one chunk is written to the second brick, and so on.
 
 You can also combine strategies, for example replicated-distributed, as illustrated in the following example:
 

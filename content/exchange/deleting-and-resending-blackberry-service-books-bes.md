@@ -1,6 +1,6 @@
 ---
 node_id: 1078
-title: Deleting and Resending BlackBerry® Service Books - (BES)
+title: Deleting and Resending BlackBerry&reg; Service Books - (BES)
 type: article
 created_date: '2011-04-21'
 created_by: Rackspace Support

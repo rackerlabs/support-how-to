@@ -25,7 +25,7 @@ Product | (CRUD) Across all RBAC enabled products | Across all RBAC enabled prod
 [Cloud Files](/how-to/permissions-matrix-for-cloud-files) | **YES** | **READ ONLY** | **YES** | **NO** | **YES**
 [Rackspace CDN](/how-to/permission-matrix-for-rackspace-cdn)| **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Databases](/how-to/permissions-matrix-for-cloud-databases) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Load Balancers](https://admin.rackspace.com/knowledge_center/permissions-matrix-for-cloud-load-balancers) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
+[Cloud Load Balancers](/how-to/permissions-matrix-for-cloud-load-balancers) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Queues](/how-to/permissions-matrix-for-cloud-queues) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Networks](/how-to/permissions-matrix-for-cloud-networks) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Monitoring](/how-to/detailed-permissions-matrix-for-rackspace-monitoring) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**

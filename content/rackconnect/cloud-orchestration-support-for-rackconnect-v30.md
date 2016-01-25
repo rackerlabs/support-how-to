@@ -10,9 +10,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-[Rackspace Cloud
-Orchestration](http://www.rackspace.com/blog/cloud-orchestration-automating-deployments-of-full-stack-configurations/)
-support for RackConnect v3.0 is now available. This support enables you
+Rackspace Cloud Orchestration support for RackConnect v3.0 is now available. This support enables you
 to build a stack of RackConnect v3.0 cloud servers and have them
 automatically provisioned on your RackConnect v3.0 cloud network,
 assigned public IP addresses, and have them automatically added to your
@@ -21,21 +19,19 @@ RackConnect v3.0 API calls need to assign a public IP address to a cloud
 server and add it to a load balancer pool are all handled by Cloud
 Orchestration.
 
-**Note:** <span><span dir="ltr"><span>Managed operations customers must
+**Note:** Managed operations customers must
 provide ServiceNet along with the RackConnect
-network.</span></span></span>
+network.
 
--   More details about Cloud Orchestration are available in the
-    following documents:
--   *[Rackspace Cloud Orchestration Quick Start Guide  - API
-    v1.0](https://developer.rackspace.com/docs/orchestration/getting-started/)*
--   *[<span class="breadcrumbstitle">Rackspace Cloud Orchestration
-    Developer Guide  - API
-    v1</span>](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)*
--   *[Rackspace Cloud Orchestration Templates User Guide  - API
-    v1.0](https://developer.rackspace.com/docs/user-guides/orchestration/)*
--   [Cloud Orchestration:
-    FAQs](/how-to/cloud-orchestration-faq)
+More details about Cloud Orchestration are available in the following documents:
+
+-   [Quickstart for Cloud Orchestration - API
+    v1.0](https://developer.rackspace.com/docs/orchestration/getting-started/)
+-   [Rackspace Cloud Orchestration Developer Guide - API
+    v1](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)
+-   [Rackspace Cloud Orchestration Templates User Guide  - API
+    v1.0](https://developer.rackspace.com/docs/user-guides/orchestration/)
+-   [Cloud Orchestration FAQ](/how-to/cloud-orchestration-faq)
 
 Although an official RackConnect v3.0 heat template has not been
 released yet, an in-development template is available on GitHub at
@@ -107,9 +103,5 @@ address to the cloud server.
             rax-heat: { get_param: "OS::stack_id" }
             stack-name: { get_param: "OS::stack_name" }
 
-
-
-If you have any questions, contact us.  Contact details are available on
-the [Contact Us](/how-to/support)
+If you have any questions, please reach out to us. Our contact information is available on the [Contact Us](/how-to/support)
 page.
-

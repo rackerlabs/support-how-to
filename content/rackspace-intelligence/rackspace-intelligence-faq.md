@@ -1,6 +1,6 @@
 ---
 node_id: 4682
-title: Rackspace Intelligence - FAQ
+title: Rackspace Intelligence FAQ
 type: article
 created_date: '2015-05-15'
 created_by: Constanze Kratel
@@ -71,8 +71,8 @@ with a Cloud services account.
 
 Rackspace Intelligence currently does not expose an API. However, many
 monitoring-related features, such as the creation and editing of checks
-and alarms, are built using the [Cloud Monitoring
-API](/how-to/cloud-monitoring).
+and alarms, are built using the
+[Rackspace Monitoring API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-developer-guide).
 
 ------------------------------------------------------------------------
 
@@ -88,7 +88,7 @@ customers.
 
 If you want to suggest features to add to Rackspace Intelligence, or if
 you discover any issues, click the **Feedback** link at the top of the
-portal.
+[Rackspace Intelligence Portal](https://intelligence.rackspace.com/).
 
 ------------------------------------------------------------------------
 
@@ -142,5 +142,3 @@ We plan to provide the following features in future releases:
 -   Access to Rackspace Intelligence for Rackspace Dedicated customers:
     Provides the ability for Dedicated customers to also access
     Rackspace Intelligence for their devices.
-
-

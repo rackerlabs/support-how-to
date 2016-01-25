@@ -28,7 +28,7 @@ The output will list the interface names on the left and the associated IP addre
 
 For IPv6 you can run a similar command, but with "-6" in place of "-4":
 
-    /sbin/ip −6 -o a | cut -d ' ' -f 2,7 | cut -d '/' -f 1
+    /sbin/ip -6 -o a | cut -d ' ' -f 2,7 | cut -d '/' -f 1
 
 Here too the interface names will be on the left and the IP addresses on the right.
 
