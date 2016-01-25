@@ -36,11 +36,10 @@ major bindings listed below:
 -   [node.js SDK](https://developer.rackspace.com/sdks/node-js/)
 -   [Go SDK](https://developer.rackspace.com/sdks/golang/)
 
-Popular How To Articles from the Rackspace Knowledge Center
+Popular How To Articles from Rackspace
 -----------------------------------------------------------
 
-The Rackspace [Knowledge
-Center](/how-to/) houses "how-to"
+The Rackspace [How-TO articles](http://support-dev.ipa.rackspace.com/how-to/#cloud-hosting) houses "how-to"
 articles, getting started guides, code samples, security best practices
 and hundreds of tips for getting the most out of your Cloud Files.
 Check out these popular articles:
@@ -63,8 +62,6 @@ Popular Technical Articles from the Rackspace Blog
     Website](http://www.rackspace.com/blog/rackspace-cloud-files-how-to-create-a-static-website/)
 -   [Storing Data In Cloud Files With
     Rails](http://www.rackspace.com/blog/storing-data-in-cloud-files-with-rails/)
--   [Cloud Files CDN SSL
-    Delivery](http://www.rackspace.com/blog/rackspace-cloud-files-cdn-launches-ssl-delivery/)
 -   [Cloud Files Supports CNAMEs for CDN Enabled
     Content](http://www.rackspace.com/blog/its-here-cloud-files-now-supports-cnames-for-cdn-enabled-content/)
 -   [Rackspace Cloud Files: How To Use Object
