@@ -21,8 +21,7 @@ sent to and from your web application.
 **Note:** Using SSL encryption is resource-intensive and might impact
 the latency of your database connection.
 
-Download the CA certificate
----------------------------
+### Download the CA certificate
 
 Cloud Databases configures your database instance to support the use of
 SSL when the instance is provisioned. To encrypt data in transit using
@@ -41,7 +40,7 @@ following URL:
 Your applications should use the downloaded certificate as the CA
 certificate for SSL connections to your database.
 
-### Use the certificate with the mysql client
+#### Use the certificate with the mysql client
 
 To make SSL connections using the `mysql` command line client, specify
 the location of the certificate when you start the client:
@@ -52,8 +51,7 @@ More information about using SSL with MySQL can be found in the [MySQL
 5.6
 documentation](http://dev.mysql.com/doc/refman/5.6/en/using-ssl-connections.html).
 
-Require SSL connections
------------------------
+#### Require SSL connections
 
 You can also set up restrictions on a user to require SSL when
 communicating with the database. MySQL supports the `GRANT` statement
@@ -70,4 +68,3 @@ give the appropriate privileges to the user.
 
 Remember to run a `FLUSH PRIVILEGES` for the database to make the
 privilege change take effect.
-
