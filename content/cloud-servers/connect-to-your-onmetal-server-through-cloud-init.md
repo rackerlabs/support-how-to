@@ -19,7 +19,7 @@ create a **cloud-config.yml** file as follows:
     permissions: 755
     content: |
     #!/bin/bash -e
-    echo "hello world&rdquo;
+    echo "hello world"
 
 Next, run the following command with your SSH key name:
 
@@ -30,6 +30,5 @@ When the server starts, a */hello-world* bash script is present in your
 OnMetal instance.
 
 **Note**: Many more examples of what cloud-init can do are available in
-the cloud-init&rsquo;s documentation at:
+the cloud-init's documentation at:
 <http://cloudinit.readthedocs.org/en/latest/>.
-
