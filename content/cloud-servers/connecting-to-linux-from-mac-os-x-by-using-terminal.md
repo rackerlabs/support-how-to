@@ -10,23 +10,21 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-If you use Mac OS X, you don&rsquo;t need to install a third-party client like
+If you use Mac OS X, you don't need to install a third-party client like
 PuTTY to connect to your cloud server via Secure Shell (SSH). Terminal
 is a terminal emulation program included with Mac OS X that you can use
 to run SSH.
 
-**Note**: For an OnMetal Server, see [Create OnMetal Cloud
-Servers](/how-to/create-onmetal-cloud-servers) for
+**Note**: For an OnMetal Server, see [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers) for
 applicable OnMetal steps.
 
-Connect to the server
----------------------
+### Connect to the server
 
 These instructions are for users who are connecting to a new cloud
-server for the first time.  If you&rsquo;re connecting as a non-root user,
+server for the first time. If you're connecting as a non-root user,
 replace *root* in the instructions with your username.
 
-1.  Go to **Applications** &gt; **Utilities**, and open **Terminal**.
+1.  Go to **Applications > Utilities**, and open **Terminal**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1-FindTerm_1_0.png" width="550" />
 
@@ -66,8 +64,7 @@ replace *root* in the instructions with your username.
 
         [root@yourservername ~]#
 
-Change the root password
-------------------------
+### Change the root password
 
 After your first login, change the root password.
 
@@ -88,11 +85,8 @@ After your first login, change the root password.
 
 Use the new password with the root user when you connect to your server.
 
-Where to go from here
----------------------
+### Where to go from here
 
-The next article shows you how to use [Rescue
-Mode](/how-to/rescue-mode)
+The next article shows you how to use [Rescue Mode](/how-to/rescue-mode)
 to connect to your cloud server, which is useful when you are performing
 troubleshooting and when your server becomes unresponsive.
-
