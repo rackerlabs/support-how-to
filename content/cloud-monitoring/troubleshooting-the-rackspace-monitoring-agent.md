@@ -210,7 +210,7 @@ For information about the agent configuration file, see [Agent
 configuration
 file](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-configuration-file).
 
-### elated information
+### Related information
 
 [About the Rackspace Monitoring
 Agent](/how-to/about-the-rackspace-monitoring-agent).
