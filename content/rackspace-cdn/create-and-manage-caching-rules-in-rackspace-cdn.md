@@ -4,7 +4,7 @@ title: Create and manage caching rules in Rackspace CDN
 type: article
 created_date: '2015-05-11'
 created_by: Rackspace Support
-last_modified_date: '2016-01-08'
+last_modified_date: '2016-01-25'
 last_modified_by: Catherine Richardson
 product: Rackspace CDN
 product_url: rackspace-cdn
@@ -89,10 +89,3 @@ list.
 
 
 #### [&lt; Work with origins and origin rules in Rackspace CDN](/how-to/work-with-origins-and-origin-rules-in-rackspace-cdn)    -    [Create and manage restrictions in Rackspace CDN &gt;](/how-to/create-and-manage-restrictions-in-rackspace-cdn)
-
-
-
-
-
-
-
