@@ -14,7 +14,7 @@ One of the greatest conveniences of Rackspace Cloud Sites is automatic DNS provi
 
 The following sections show you how to locate your Rackspace Cloud Sites DNS entries so that you can add them to your external DNS provider. This will ensure your DNS is pointing accurately to your Cloud Site.
 
-## Using the Cloud Sites Control Panel
+### Using the Cloud Sites Control Panel
 
 1.  Log in to the [**Cloud Sites Control Panel**](https://manage.rackspacecloud.com/pages/Login.jsp). You use the control panel to find your DNS entries.
 
@@ -34,7 +34,7 @@ The following sections show you how to locate your Rackspace Cloud Sites DNS ent
 
 6. Replicate these DNS entries to your external DNS provider. The process will differ depending on the service. In the preceding screen shot, you can see **A** and **CNAME**" entries in the **Type** column. Ensure that you at least replicate the **A** entries for the root domain and **www**, although you might also want to set the **ftp** record (the address used to transfer files to the domain). If you are using email through Cloud Sites, you should also set up the **CNAME** entries for **mail** and **webmail**.
 
-## Using the Cloud Control Panel
+### Using the Cloud Control Panel
 
 You can also edit and update your DNS records through the DNS page of the Cloud Control Panel.
 
