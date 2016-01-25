@@ -19,7 +19,7 @@ product_url: cloud-sites
 <ul>
 	<li><em>User</em>, abbreviated as <em>U</em> is generally the person who created the file. Another common term for user is <em>owner</em>.</li>
 	<li><em>Group</em>, abbreviated as <em>G</em> is anyone who belongs to the same group to which the file is assigned. By default, when a file is created it inherits the same group membership as the default group of the creator.</li>
-	<li>Other, abbreviated as <em>O</em>, is everyone else and is often referred to as ‘world’, because it’s the rest of the world. User, group, and other are collectively referred to as ‘UGO’.</li>
+	<li>Other, abbreviated as <em>O</em>, is everyone else and is often referred to as &lsquo;world&rsquo;, because it&rsquo;s the rest of the world. User, group, and other are collectively referred to as &lsquo;UGO&rsquo;.</li>
 </ul>
 
 <p><a id="The_What" name="The_What"></a></p>
@@ -42,7 +42,7 @@ product_url: cloud-sites
 
 <p><img alt="" border="2" height="" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fileperms2.png" width="600" /></p>
 
-<p>The three access levels are assigned to a single to bit in the following order, from high to low: read write execute. Three bits (binary digits) can represent any eight values from 0-7. A range from 0-7 is called octal, as opposed to dealing with 0-9, which is called decimal. Read is in the 4’s column. Write is in the 2’s column. Execute is in the 1’s column. The following table provides a reference:</p>
+<p>The three access levels are assigned to a single to bit in the following order, from high to low: read write execute. Three bits (binary digits) can represent any eight values from 0-7. A range from 0-7 is called octal, as opposed to dealing with 0-9, which is called decimal. Read is in the 4&rsquo;s column. Write is in the 2&rsquo;s column. Execute is in the 1&rsquo;s column. The following table provides a reference:</p>
 
 | Ocal | Read | Write | Execute |
 | ---- | ---- | ----- | ------- |
@@ -59,7 +59,7 @@ product_url: cloud-sites
 
 <p><img alt="" height="" norder="2" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fileperms3.png" width="600" /></p>
 
-<p>A single octal digit represents the RWX ON and OFF values. Three of these octal values represent all three of the ‘who’. So, the number 777, is not literally seven hundred-seventy-seven, it is actually 7, 7, and 7, where each octal digit indicates that all three bits have been set ON (4+2+1 = 7), thus giving full permissions to User, Group and Other.</p>
+<p>A single octal digit represents the RWX ON and OFF values. Three of these octal values represent all three of the &lsquo;who&rsquo;. So, the number 777, is not literally seven hundred-seventy-seven, it is actually 7, 7, and 7, where each octal digit indicates that all three bits have been set ON (4+2+1 = 7), thus giving full permissions to User, Group and Other.</p>
 
 <p><a id="File_Creation" name="File_Creation"></a></p>
 

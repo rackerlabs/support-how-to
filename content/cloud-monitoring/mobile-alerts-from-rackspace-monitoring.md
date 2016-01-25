@@ -42,7 +42,7 @@ If you receive too many texts, or you don't want to get alerts during a maintena
 - Set up [Suppressions](http://www.rackspace.com/blog/mute-cloud-monitoring-notifications-with-suppressions/) to mute alerts during planned events.
 - Reconfigure your alerting preferences in the Cloud Control Panel or use the raxmon CLI.
 - Tune your notification plans to ensure that only the most important notifications are sent by SMS.
-- Reply STOP to any text. This action stops all SMS alerts for that phone number—for all alarms.
+- Reply STOP to any text. This action stops all SMS alerts for that phone number&mdash;for all alarms.
 
 The SMS alerting functionality is available to US and UK Rackspace Monitoring customers.
 

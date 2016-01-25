@@ -112,7 +112,7 @@ The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the lo
 
 Coreinfo is a Windows Sysinternals tool that you can use to view the NUMA topology on Windows.
 
-Run coreinfo –n.
+Run coreinfo &ndash;n.
 
 In the following example, the VM has a single NUMA node.
 
@@ -132,7 +132,7 @@ numactl -- show
 
 As you think about NUMA alignment, consider the following points:
 
-- Enabling CPU hot plug will disable vNUMA (where the underlying NUMA architecture is exposed directly to the guest OS) — [VMware KB 2040375](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2040375)
+- Enabling CPU hot plug will disable vNUMA (where the underlying NUMA architecture is exposed directly to the guest OS) &mdash; [VMware KB 2040375](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2040375)
 - Just because your NUMA node size is 16 CPUs and 128 GB of RAM, that doesn't mean you should create a large VM. Right-size your VMs to avoid unnecessary kernel NUMA scheduling.
 
 # Rackspace recommendations for NUMA
@@ -178,7 +178,7 @@ _For non-wide VMs, the number of cores per virtual socket is not as critical as 
 
 # CPU scheduling
 
-The aim of this section is to give you a better holistic understanding of NUMA and CPU scheduling. Most of the information is directly sources and referred to from, The CPU Scheduler in VMware vSphere® 5.1 Performance Study Technical Whitepaper.
+The aim of this section is to give you a better holistic understanding of NUMA and CPU scheduling. Most of the information is directly sources and referred to from, The CPU Scheduler in VMware vSphere&reg; 5.1 Performance Study Technical Whitepaper.
 
 ## Proportional share-based algorithm
 

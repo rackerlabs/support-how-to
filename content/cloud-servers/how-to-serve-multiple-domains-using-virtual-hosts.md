@@ -162,7 +162,7 @@ Now that that you've seen how a basic virtual host configuration looks and how i
 
 ### Common Virtual Host Configuration Mistakes
 
-1. Running "httpd –S", reports an error stating "[warn] \_default\_ VirtualHost overlap on port 80, the first has precedence"
+1. Running "httpd &ndash;S", reports an error stating "[warn] \_default\_ VirtualHost overlap on port 80, the first has precedence"
 
         [Wed May 18 15:24:51 2011] [warn] \_default\_ VirtualHost overlap on port 80, the first has precedence
 		VirtualHost configuration:
@@ -189,7 +189,7 @@ In the example below, we show the commented "NameVirtualHost \*:80" directive th
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-2. Running "httpd –S", we see an error stating "<VirtualHost> directive requires additional arguments"
+2. Running "httpd &ndash;S", we see an error stating "<VirtualHost> directive requires additional arguments"
 
         Syntax error on line 8 of /etc/httpd/conf/custom/virtualhost.conf:
 		<VirtualHost> directive requires additional arguments
@@ -226,7 +226,7 @@ Below is a corrected version of the above example. Notice the addition of "\*:80
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-3. Running "httpd –S", we see evidence that a virtual host is listed above the "is a NameVirtualHost" line:
+3. Running "httpd &ndash;S", we see evidence that a virtual host is listed above the "is a NameVirtualHost" line:
 
         VirtualHost configuration:
 		wildcard NameVirtualHosts and \_default\_ servers:
@@ -238,7 +238,7 @@ Below is a corrected version of the above example. Notice the addition of "\*:80
 
 Note in the example above how the configuration test reports about vh2.example.com's configuration before it reports the NameVirtualHost configuration. You may see this error if the VirtualHost IP address or port does not match that of a webserver's NameVirtualHost directive. In this example, the test reports that vh2.example.com uses port 800 rather than the NameVirtualHost's port 80. We mis-typed "80" when we configured the vh2.example.com virtual host's listening port. As a result, Apache is seeing vh2.example.com as a separate port-based virtual host.
 
-The test command "httpd –S" will not warn you about this because it is permissible to configure virtual hosts to use any port, such as 800, without their being part of the name-based virtual host configuration on the same server.
+The test command "httpd &ndash;S" will not warn you about this because it is permissible to configure virtual hosts to use any port, such as 800, without their being part of the name-based virtual host configuration on the same server.
 
 If you do make this mistake, you will probably see content from the default virtual host (vh1.example.com in this example) when you try to view the site in your web browser.
 
@@ -256,11 +256,11 @@ To help you map the above output to how its configuration file might look, here'
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-4. Running "httpd –S" reports an error stating "Warning: DocumentRoot [/etc/httpd/var/www/vhosts/vh2] does not exist"
+4. Running "httpd &ndash;S" reports an error stating "Warning: DocumentRoot [/etc/httpd/var/www/vhosts/vh2] does not exist"
 
 This specific error indicates that the directory specified as containing the website files for the vh2.example.com virtual host does not exist, or that Apache cannot access it. Similar errors can appear for any of the file paths specified in a virtual host configuration, such as the paths to the virtual host's log files.
 
-To fix, make sure you created the directory. If you definitely created it, check there are no mistakes in the DocumentRoot directive. A common mistake is to miss out the path's initial "/". Leaving out the "/" instructs Apache to read the path – the DocumentRoot path in this case - as a relative path. That is, as a path relative to the main Apache configuration's ServerRoot path.
+To fix, make sure you created the directory. If you definitely created it, check there are no mistakes in the DocumentRoot directive. A common mistake is to miss out the path's initial "/". Leaving out the "/" instructs Apache to read the path &ndash; the DocumentRoot path in this case - as a relative path. That is, as a path relative to the main Apache configuration's ServerRoot path.
 
 As there are several ways in which this error is often created, we've created an example of just one of them. In the example below, you'll see that the path for the DocumentRoot in the first virtual host starts with a "/" but the second one does not. This makes Apache read the DocumentRoot path for vh2.example.com as an extension of the default webserver's ServerRoot path /etc/httpd/ to create a DocumentRoot path of /etc/httpd/var/vhosts/vh2.
 
@@ -280,7 +280,7 @@ As there are several ways in which this error is often created, we've created an
 
 ### Using Curl to Test Your Site
 
-Once you've checked the virtual host configuration files and "httpd –S" reports no issues try to access your site using curl:
+Once you've checked the virtual host configuration files and "httpd &ndash;S" reports no issues try to access your site using curl:
 
         curl -I www.example.com
 
@@ -334,7 +334,7 @@ Do not be put off by the volume of data in a busy server's log files. Instead, u
 
         tail /var/log/apache2/error\_log
 
-Better yet, you can see new entries as they are added to the error\_log – or any log – while you test the server if you instruct the "tail" command to "follow" the log. For example:
+Better yet, you can see new entries as they are added to the error\_log &ndash; or any log &ndash; while you test the server if you instruct the "tail" command to "follow" the log. For example:
 
         tail -f /var/log/httpd/error\_log
 

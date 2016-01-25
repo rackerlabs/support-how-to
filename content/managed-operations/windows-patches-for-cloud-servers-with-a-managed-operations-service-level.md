@@ -10,7 +10,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-All Windows patches for cloud servers within the Rackspace Managed Operations service level are released by Microsoft to the public on the second Tuesday of every month (known as Patch Tuesday). Rackspace tests these patches against our server builds before including them for updates to our customers' production servers. The patches are deployed to customers’ servers three weeks after Microsoft releases them. Our Windows server images are configured to check our Windows Server Update Services (WSUS) server daily for updates by default, but we release approved patches via our WSUS servers only once a month.
+All Windows patches for cloud servers within the Rackspace Managed Operations service level are released by Microsoft to the public on the second Tuesday of every month (known as Patch Tuesday). Rackspace tests these patches against our server builds before including them for updates to our customers' production servers. The patches are deployed to customers&rsquo; servers three weeks after Microsoft releases them. Our Windows server images are configured to check our Windows Server Update Services (WSUS) server daily for updates by default, but we release approved patches via our WSUS servers only once a month.
 
 If you opted in to the Rackspace Managed Windows Patching service, you can manually install any software or updates released by Microsoft but not yet available on our WSUS servers. Use the **Windows Update** command located in the **Start** menu on your server to check for these patches directly from Microsoft. You can download most of these patches manually by visiting the page for the specific KB article related to the patch. You can also contact Rackspace support to assist you with the manual installation of any non-Rackspace approved patches onto your server. However, we cannot be held responsible for any issues that might arise from the manual installation of these patches before they are approved and released for update from our WSUS servers.
 
@@ -32,9 +32,9 @@ The WSUS endpoints are as follows:
 
 | Distibution | Patching | Mechanism | Patching servers | Frequency |
 | ----------- | -------- | --------- | ---------------- | --------- |
-| Windows Server 2008 R2 | WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD – EST * DFW – CST * SYD – AET * HKG – HKT * ORD – CST | Windows Patching Portal |
-| Windows Server 2012 WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD – EST * DFW – CST * SYD – AET * HKG – HKT * ORD – CST | Windows Patching Portal |  |
-| Windows Server 2012 R2 | WSUS | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: • IAD – EST • DFW – CST • SYD – AET • HKG – HKT • ORD – CST | Windows Patching Portal |
+| Windows Server 2008 R2 | WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD &ndash; EST * DFW &ndash; CST * SYD &ndash; AET * HKG &ndash; HKT * ORD &ndash; CST | Windows Patching Portal |
+| Windows Server 2012 WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD &ndash; EST * DFW &ndash; CST * SYD &ndash; AET * HKG &ndash; HKT * ORD &ndash; CST | Windows Patching Portal |  |
+| Windows Server 2012 R2 | WSUS | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: &bull; IAD &ndash; EST &bull; DFW &ndash; CST &bull; SYD &ndash; AET &bull; HKG &ndash; HKT &bull; ORD &ndash; CST | Windows Patching Portal |
 
 ## WSUS settings
 

@@ -47,12 +47,12 @@ First you will need to download a small piece of C# software and compile it on W
 _Note: You need to replace the values in [] brackets with actual values for your system._
 
         @echo off
-        echo “Running dump... “
+        echo "Running dump... "
         c:\<path-to-mysql>\bin\mysqldump -u[user] -p[password] --result-file="c:\<path>\backup.%DATE:~0,3%.sql" [database name]
-        echo “MySQL dump done!”
-        echo “Uploading to cloud files”
-        upload-to-cf.exe [cloud username] [cloud api_key] [container name] “c:\<path>\backup.%DATE:~0,3%.sql”
-        echo “backup file uploaded to cloud files!”
+        echo "MySQL dump done!"
+        echo "Uploading to cloud files"
+        upload-to-cf.exe [cloud username] [cloud api_key] [container name] "c:\<path>\backup.%DATE:~0,3%.sql"
+        echo "backup file uploaded to cloud files!"
 
 
 *   Now you should be able to run **mysql-backup.bat** from a command prompt. If it works, you should see a success message, and a file should be generated in the directory you specified. If not, make sure you have the correct username, password, and database values specified and then try it again.
@@ -75,4 +75,4 @@ _Note: You need to replace the values in [] brackets with actual values for your
 
 *   This example schedules the MySQL_Backup program to run once a day, every day, at 8:00 A.M. until December 31, 2014\. Because it omits the **/mo** parameter, the default interval of 1 is used to run the command every day.
 
-*   During the task creation you will be asked your currently logged in user’s password. Once you enter the password, a new task will be created for you. You can view the newly created task with the **schtasks** command.
+*   During the task creation you will be asked your currently logged in user&rsquo;s password. Once you enter the password, a new task will be created for you. You can view the newly created task with the **schtasks** command.

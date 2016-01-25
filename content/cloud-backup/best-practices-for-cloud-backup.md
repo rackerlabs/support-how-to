@@ -56,8 +56,8 @@ The Cloud Backup Agent tries to be helpful, and skips the below types of files a
 
 These file types either change too rapidly (databases, logs, caches) or don't exist long enough to be backed up (session files). Session files should be avoided entirely. And if the information is valuable to your business, log files should track it. Caches should also be avoided, as their data is meant to be discarded. If you do need to back up these files, our suggested workarounds are:
 
-- Databases—Take a snapshot of the database (e.g., a database dump) and back up the dump.
-- Log files—Take snapshots of your log files and back them up.
+- Databases&mdash;Take a snapshot of the database (e.g., a database dump) and back up the dump.
+- Log files&mdash;Take snapshots of your log files and back them up.
 - To avoid running out of disk space, rotate your log files periodically.
 
 &nbsp; ||
@@ -78,9 +78,9 @@ There are many ways to configure backups and restores. To make Cloud Backup work
 
 When trying to determine how often to back up a file, there are three variables to consider:
 
-1. Criticality—How important is tracking changes in the file to your business processes?
-2. Size—How large is the file?
-3. Data Churn—How often does the file change?
+1. Criticality&mdash;How important is tracking changes in the file to your business processes?
+2. Size&mdash;How large is the file?
+3. Data Churn&mdash;How often does the file change?
 
 
 Criticality is the most important factor to consider when making backup decisions. The more critical the file is to your business operations, the more often you'll want to back this file up.
@@ -102,7 +102,7 @@ Larger Size | Smaller Size
 
 #### Effective Restores
 
-It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren’t available because you haven't been configured as you expected.
+It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren&rsquo;t available because you haven't been configured as you expected.
 
 &nbsp; | &nbsp;
 --- | ---
@@ -149,5 +149,5 @@ This section is similar to an FAQ. If you encounter a problem and need immediate
 
 **Issue**: My backup/restore is slow. What can I do?
 
-- If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, “What Should I Not Save?”. The less there is to save/restore, the faster it will be.
+- If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, &ldquo;What Should I Not Save?&rdquo;. The less there is to save/restore, the faster it will be.
 - We're always working on optimizing the agent to make backup and restore faster.

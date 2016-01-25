@@ -91,7 +91,7 @@ On Linux and Mac, you can add your private key to your user account's .ssh direc
 
 Or, you can use the `-i` option for `ssh` to identify the private key for a connection.  For example:
 
-    ssh -i ~/.ssh/webserver_rsa root@server.example.com
+    ssh -i ~/.ssh/webserver_rsa root@server.example.com
 
 ### Key Pairs and Role-Based Access Control
 
