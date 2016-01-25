@@ -14,8 +14,8 @@ product_url: cloud-monitoring
 
 -   Rackspace Monitoring Getting Started Guide:
     [https://developer.rackspace.com/docs/cloud-monitoring/getting-started](https://developer.rackspace.com/docs/cloud-monitoring/getting-started/)
--   Getting started with the Cloud Monitoring CLI
-    (Raxmon): </how-to/getting-started-with-rackspace-monitoring-cli>
+-   [Getting started with the Cloud Monitoring CLI
+    (Raxmon)](/how-to/getting-started-with-rackspace-monitoring-cli)
 
 
 
@@ -63,6 +63,3 @@ product_url: cloud-monitoring
 -   Node.js Cassandra CQL
     driver: <http://www.rackspace.com/blog/rackspace-contributes-cassandra-cql-driver-for-node-js/>
 -   Virgo monitoring agent: <https://github.com/racker/virgo>
-
-
-

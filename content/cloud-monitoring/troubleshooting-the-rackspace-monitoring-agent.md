@@ -18,7 +18,7 @@ that is automatically detected by the agent. This identifier is unique
 for each account and is typically the ID of the cloud instance, but can
 be a unique string.
 
-###Issue: The Rackspace Monitoring Agent is not connected to my server
+### Issue: The Rackspace Monitoring Agent is not connected to my server
 
 
 This issue might have one of the following causes:
@@ -36,7 +36,7 @@ This issue might have one of the following causes:
 -   The monitoring agent is unable to determine the appropriate entity
     because there are duplicate entities associated with your account.
 
-###Resolution steps
+### Resolution steps
 
 
 Verify that the agent is installed and associated with your server by
@@ -44,7 +44,7 @@ performing the following steps:
 
 ### Linux
 
-1.  Verify that the[Rackspace monitoring agent]()is installed under
+1.  Verify that the Rackspace monitoring agent is installed under
     **/usr/bin/rackspace-monitoring-agent**.
 2.  Verify that the **/etc/rackspace-monitoring-agent.cfg** file exists
     and contains a valid agent token.
@@ -57,7 +57,7 @@ performing the following steps:
 
 ### Windows
 
-1.  Verify that the [Rackspace monitoring agent]() is installed under
+1.  Verify that the Rackspace monitoring agent is installed under
     **C:\\Program Files\\Rackspace
     Monitoring\\rackspace-monitoring-agent.exe**.
     If you use a 32-bit version on a 64-bit Windows computer, the
@@ -136,7 +136,7 @@ To check for duplicate entities by using cURL, do the following:
 1.  Authenticate against the Rackspace Cloud API by issuing the
     following command at a command-line interface:
 
-        curl -s https://identity.api.rackspacecloud.com/v2.0/tokens -X 'POST' 
+        curl -s https://identity.api.rackspacecloud.com/v2.0/tokens -X 'POST'
             -d '{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"yourUserName", "apiKey":"yourApiKey"}}}'
             -H "Content-Type: application/json" | python -m json.tool
 
@@ -210,8 +210,7 @@ For information about the agent configuration file, see [Agent
 configuration
 file](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-configuration-file).
 
-###Related information
+### elated information
 
 [About the Rackspace Monitoring
 Agent](/how-to/about-the-rackspace-monitoring-agent).
-

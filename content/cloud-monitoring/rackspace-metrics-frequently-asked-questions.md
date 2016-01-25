@@ -23,7 +23,7 @@ also supports metrics visualization in the Rackspace Cloud Control Panel
 and Rackspace Intelligence for data collected through Cloud Monitoring.
 The Ingestion API enables users to ingest metrics via a public API. The
 Metrics Ingestion API is currently in the [Early Access
-Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html)
+Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program)
 (EAP).
 
 ### Who can use Rackspace Metrics?
@@ -31,7 +31,7 @@ Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Ear
 All Rackspace customers with a Cloud services account can use the
 Rackspace Metrics Query API. To use the Rackspace Metrics Ingestion API,
 you need to sign up for the service through the [Early Access
-Program](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html).
+Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program).
 
 
 ### How much does Rackspace Metrics cost?
@@ -61,9 +61,9 @@ We plan to provide the following features in future releases:
 
 Rackspace Metrics is available through global end points that can be
 accessed from anywhere. For more information, see the [Service access
-endpoints](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/serviceEndpoints.html)
+endpoints](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#service-access-endpoints)
 section in the [Rackspace Metrics Developer
-Guide](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/Overview.html).
+Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#developer-guide).
 
 
 ### What is the Early Access Program?
@@ -90,10 +90,8 @@ During the Early Access program, support for Rackspace Metrics is
 available via email only during regular business hours. Please contact
 us at <cloudmetrics-earlyaccess@rackspace.com>.
 
-To obtain more information about Rackspace Metrics,see the [*Rackspace
-Metrics* *Getting
-Started Guide*](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Overview.html)
-and the *[Rackspace Metrics Developer
-Guide](http://docs.rackspace.com/cmet/api/v1.0/cmet-devguide/content/Overview.html)*
-at [docs.rackspace.com](http://docs.rackspace.com/).
-
+To obtain more information about Rackspace Metrics,see the [Rackspace
+Metrics Getting
+Started Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started)
+and the [Rackspace Metrics Developer
+Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#developer-guide).
