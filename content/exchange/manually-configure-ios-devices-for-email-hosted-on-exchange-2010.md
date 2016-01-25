@@ -23,21 +23,21 @@ Use the procedure in this article to configure a Microsoft Exchange 2010 account
 3.	On the home screen of your phone, tap **Settings**.
 
 
-    <img alt="" border="1" height="332" src="/knowledge_center/sites/default/files/field/image/IMG_0016.PNG" width="221" />
+    <img alt="" border="1" height="332" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0016.PNG" width="221" />
 
 4. Tap **Mail, Contacts, Calendars**.
 
-    <img alt="" border="1" height="331" src="/knowledge_center/sites/default/files/field/image/IMG_0017.PNG" width="220" />
+    <img alt="" border="1" height="331" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0017.PNG" width="220" />
 
 5. **Add Account**.
 
-	<img alt="" border="1" height="331" src="/knowledge_center/sites/default/files/field/image/IMG_0018.PNG" width="220" />
+	<img alt="" border="1" height="331" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0018.PNG" width="220" />
 
 6. Tap **Exchange**.
 
 7. Enter your email address and password, and add a description of the account you are setting up. Then, tap **Next**.
 
-    <img alt="" border="1" height="330" src="/knowledge_center/sites/default/files/field/image/IMG_0038.PNG" width="220" />&nbsp; <img alt="" height="330" src="/knowledge_center/sites/default/files/field/image/IMG_0027_1.PNG" width="219" />
+    <img alt="" border="1" height="330" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0038.PNG" width="220" />&nbsp; <img alt="" height="330" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0027_1.PNG" width="219" />
 
     **Note:** The device verifies the account. If you receive a message stating `Unable to verify account information`, disregard the message and tap **OK**.
 
@@ -65,7 +65,7 @@ Use the procedure in this article to configure a Microsoft Exchange 2010 account
 
 11.	Select the services that you want to sync with the Exchange Server by swiping the **ON/OFF** buttons next to each service. Tap **Save** when you are done.
 
-    <img alt="" border="1" height="330" src="/knowledge_center/sites/default/files/field/image/IMG_0034_1.PNG" width="220" />
+    <img alt="" border="1" height="330" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0034_1.PNG" width="220" />
 
     You have successfully added your Exchange email account on your iOS device.
 
