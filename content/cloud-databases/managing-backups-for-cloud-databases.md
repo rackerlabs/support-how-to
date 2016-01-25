@@ -13,8 +13,6 @@ product_url: cloud-databases
 You can perform the following operations on your Rackspace Cloud
 Databases instances.
 
-###
-
 ### Create a Backup
 
 To create backup of a database instance, click the Actions cog next to
@@ -24,8 +22,7 @@ name and description.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreateBackup.png" width="975" height="345" />
 You can also create a backup by clicking on the instance name and
-selecting the **Create Backup... **link on under the **Instance
-Details** section.
+selecting the **Create Backup** option.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/InstanceDetails.png" width="708" height="489" />
 
@@ -58,7 +55,6 @@ during the backup process.
     move, rename, or delete any of the files from this container.
 
 
-
 ### List Details of all backups for the account
 
 To view list of all the backups, you can click on the **Backups** link
@@ -77,7 +73,6 @@ following details for your backups:
 You can also filter the backups for different regions by clicking on the
 **Regions** filter from the drop-down.
 
-
 ### List Details of All Backups for an Instance
 
 To view all the backups for an instance, click on the instance name to
@@ -85,8 +80,6 @@ view the Instance Details page.  there is a link for all the backups
 associated for that instance.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ListDetailsInstance.png" width="664" height="512" />
-
-
 
 ### Delete a Backup
 
@@ -97,8 +90,6 @@ name.
 
 You can also delete any backups for an instance from the **Instance
 Details** page.
-
-
 
 ### Restore a Backup
 
@@ -121,5 +112,3 @@ on the instance at the time of the backup will be restored along with
 the databases. Once restored, you can create new users or databases, but
 they cannot be the same as the ones from the instance that was backed
 up.
-
-
