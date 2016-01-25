@@ -43,7 +43,7 @@ application.
     Firefox plugin).
 
 **IMPORTANT:** For this specific example to work, the permissions on the
-**/www.domain.com** and **/web** folders must be set to **751**.
+**_/www.domain.com** and **/web** folders must be set to **751**.
 
 ### Create the stored procedure
 
