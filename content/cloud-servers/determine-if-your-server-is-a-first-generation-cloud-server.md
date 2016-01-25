@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-You can determine whether your server is a First Generation cloud server
+You can determine whether your server is a First Generation Cloud Server
 in the following ways:
 
 -   On the Cloud Servers page of the Cloud Control Panel, you can filter
@@ -23,5 +23,3 @@ in the following ways:
     Generation servers are marked with a blue asterisk.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1stvs2ndgenserversa.png" width="776" height="206" />
-
-
