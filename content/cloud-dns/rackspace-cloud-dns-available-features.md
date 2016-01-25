@@ -71,4 +71,3 @@ zone delegation, and create SPF records.
 
 **[Rackspace Cloud DNS - Technical
 Details](/how-to/rackspace-cloud-dns-technical-details)**
-

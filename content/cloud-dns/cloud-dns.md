@@ -15,15 +15,15 @@ product_url: cloud-dns
 
 <hr />
 
-- [Rackspace Cloud DNS - Overview](/how-to/rackspace-cloud-dns-overview)
-- [Rackspace Cloud DNS - Available Features](/how-to/rackspace-cloud-dns-available-features)
-- [Rackspace Cloud DNS - Technical Details](/how-to/rackspace-cloud-dns-technical-details)
-- [Rackspace Cloud DNS - API Example](/how-to/rackspace-cloud-dns-api-example)
-- [Rackspace Cloud DNS - Additional Resources](/how-to/rackspace-cloud-dns-additional-resources)
-- [Rackspace Cloud DNS - Frequently Asked Questions](/how-to/cloud-dns-faq)
+- [Rackspace Cloud DNS - Overview](http://support-dev.ipa.rackspace.com/how-to/rackspace-cloud-dns-overview)
+- [Rackspace Cloud DNS - Available Features](http://support-dev.ipa.rackspace.com/how-to/rackspace-cloud-dns-available-features)
+- [Rackspace Cloud DNS - Technical Details](http://support-dev.ipa.rackspace.com/how-to/rackspace-cloud-dns-technical-details)
+- [Rackspace Cloud DNS - API Example](http://support-dev.ipa.rackspace.com/how-to/rackspace-cloud-dns-api-example)
+- [Rackspace Cloud DNS - Additional Resources](http://support-dev.ipa.rackspace.com/how-to/rackspace-cloud-dns-additional-resources)
+- [Rackspace Cloud DNS - Frequently Asked Questions](http://support-dev.ipa.rackspace.com/how-to/cloud-dns-faq)
 
- 
+
 
 ### Next steps
 
-- [Rackspace Cloud DNS - Overview](/how-to/rackspace-cloud-dns-overview)
+- [Rackspace Cloud DNS - Overview](http://support-dev.ipa.rackspace.com/how-to/rackspace-cloud-dns-overview)

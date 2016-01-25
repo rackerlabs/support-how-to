@@ -21,19 +21,9 @@ To learn more about A, MX, and CNAME records for Cloud Sites, see
 [Getting started with Cloud Sites &ndash; Managing DNS
 records](/how-to/getting-started-with-cloud-sites-managing-dns-records).
 
--   [DNS servers for cloud servers](#H)
--   [Create a DNS zone for your domain](#A)
--   [Add a domain](#B)
--   [Add an A record](#C)
--   [Add a CNAME record](#D)
--   [Add an MX record](#E)
--   [Delete a record](#F)
--   [Delete a domain](#G)
 
 
-
-DNS servers for cloud servers
------------------------------
+### DNS servers for cloud servers
 
 Following are the DNS servers for your cloud servers:
 
@@ -42,8 +32,7 @@ Following are the DNS servers for your cloud servers:
 
 
 
-Create a DNS zone for your domain
----------------------------------
+### Create a DNS zone for your domain
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 2.  Select **Networking &gt; Cloud DNS**.
@@ -55,7 +44,7 @@ Create a DNS zone for your domain
 
 
 
-### Add a domain
+#### Add a domain
 
 1.  Click **Create Domain**.
 2.  In the popup dialog box, enter the following information:
@@ -68,7 +57,7 @@ Create a DNS zone for your domain
 
 
 
-### Add an A record
+#### Add an A record
 
 An A record is an IPv4 address record that you use to point your domain
 to an IP address. It is also known as an A name.
@@ -88,7 +77,7 @@ to an IP address. It is also known as an A name.
 
 
 
-### Add a CNAME record
+#### Add a CNAME record
 
 A CNAME record, also known as a canonical name record, is a record type
 in the DNS that you use to indicate that your domain name is an alias
@@ -111,7 +100,7 @@ Use the Common Name (CNAME) record to point to another record.
 
 
 
-### Add an MX record
+#### Add an MX record
 
 Use the Mail Exchange (MX) is a DNS record that points to the server
 that handles your domain-related email delivery. You create an MX record
@@ -139,7 +128,7 @@ record for your domain name, but you cannot receive emails without it.
 
 
 
-### Delete a record from your domain
+#### Delete a record from your domain
 
 1.  On the Cloud DNS page, click the name of the domain.
 2.  On the domain page, scroll down to the **Records** section, and
@@ -157,7 +146,7 @@ record for your domain name, but you cannot receive emails without it.
 
 
 
-### Delete a domain
+#### Delete a domain
 
 Use one of the following methods to delete a domain on the Cloud DNS
 page.
@@ -171,6 +160,3 @@ page.
     top of the domain list.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%205.12.52%20PM.png" width="189" height="95" />
-
-
-

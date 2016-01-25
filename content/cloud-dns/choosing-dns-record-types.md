@@ -62,7 +62,7 @@ records.
 
 ### Related Information
 
-[Learn More About DNS](/how-to/learn-more-about-dns)
+[Learn More About DNS](http://support-dev.ipa.rackspace.com/how-to/learn-more-about-dns/)
 
 ### External Links
 
