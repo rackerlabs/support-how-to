@@ -36,18 +36,18 @@ Monitoring lets you:
 
 -   See the solution patterns in our best practices documentation and
     then easily create your own complex alarms. Our API makes it simple
-    to keep up to date on these examples, [get more information
-    here](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarm-examples.html).
+    to keep up to date on these examples, get more information
+    [here](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarm-examples.html).
 -   Put developers in control by letting them build thresholds similar
     to how you create your application code.
 -   Test thresholds before you configure them. Use data from our [Test
     Check
-    API](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-checks.html#service-checks-test)
+    API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#testing-the-check)
     and feed that into our [Test Alarm
-    API](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarms.html#service-alarms-test)
+    API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#test-an-alarm)
     to simulate an alerting scenario.
 -   Use multiple data center alert policies to seamlessly evaluate alarm
-    criteria from multiple datacenters:
+    criteria from multiple data centers:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Alarm%20Visualization_0.png" width="717" height="262" />
 
@@ -73,6 +73,3 @@ respectively.*
 -   Reduce false alerts on network hiccups.
 -   Start monitoring faster and spend less sysadmin time on making sure
     that server stays up.
-
-
-
