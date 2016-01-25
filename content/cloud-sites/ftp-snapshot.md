@@ -17,8 +17,8 @@ taken during specific time intervals.
 
 Snapshots are taken every 4 hours and go back 32 hours.
 
-**IMPORTANT NOTE: *Snapshots ONLY include your FTP / Website content;
-they do NOT include your databases!***
+**Note:** Snapshots ONLY include your FTP / Website content;
+they do not include your databases.
 
 Retrieving data from FTP Snapshots is an emergency-recovery method, and
 is not intended to be used for general backup purposes. We strongly
@@ -37,12 +37,12 @@ FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "Uploading 
 Once you are logged in to your FTP site, please go to the path of the
 file(s) / folder(s) you want to attempt to recover.
 
-Add "/.snapshot" (no quotes) to the end of the FTP path within your FTP
+Add <code>/.snapshot</code> to the end of the FTP path within your FTP
 application. This will allow you the opportunity to view the snapshots
 for the site.
 
-**NOTE:** *You may need to execute a manual change directory command to
-.snapshot if you are not able to view and modify the current FTP path.*
+**Note:** You may need to execute a manual change directory command to
+.snapshot if you are not able to view and modify the current FTP path.
 
 <img src="http://c15056451.r51.cf2.rackcdn.com/FTPSnapshot.png" width="550" />
 
@@ -59,7 +59,7 @@ You should see the following sub-directories if successful:
     hourly.7
     hourly.8 -> (contains the oldest snapshot data available)
 
-(Please note, the "hourly" reference here refers to the 4th hour of the
+**Note:** The "hourly" reference here refers to the 4th hour of the
 individual 4 hour block captured.)
 
 Navigate to the appropriate folder(s) that contain the data from the
