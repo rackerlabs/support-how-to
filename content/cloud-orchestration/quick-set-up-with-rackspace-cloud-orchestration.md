@@ -46,7 +46,7 @@ On the stack details page, click **View Credentials** to get any sensitive infor
 
 The bottom of the stack details page displays additional information about the application or framework that has been installed. You can use this information to build in additional capabilities into your installed application.
 
-<img alt="" border="1" height="439" src="/knowledge_center/sites/default/files/field/image/3549createstack5.png" width="567" />
+<img alt="" border="1" height="439" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3549createstack5.png" width="567" />
 
 After the stack build is complete, you can use your installed application or framework. You can also manage your stack and the individual infrastructure in their respective locations in the control panel.
 

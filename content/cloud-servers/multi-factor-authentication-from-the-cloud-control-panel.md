@@ -156,7 +156,7 @@ device. The device must be enabled to receive SMS text messages.
     text message with a four-digit PIN to the specified phone.
 
 
-    <img src="/knowledge_center/sites/default/files/field/image/verify_code.png" width="290" height="200" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify_code.png" width="290" height="200" />
 
 5.  On the Verify Code form in the control panel, type the PIN code sent
     to your mobile device in the verification code field. Then, click

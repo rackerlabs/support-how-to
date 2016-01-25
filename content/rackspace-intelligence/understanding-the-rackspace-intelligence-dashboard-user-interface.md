@@ -57,4 +57,4 @@ By understanding the structure of these sections in the Rackspace
 Intelligence interface, you can predict where to find the information
 and tools that you need.
 
-<img src="/knowledge_center/sites/default/files/field/image/intelligence-ui-461x597.png" alt="With the Rackspace Intelligence UI, you can visualize activity and you can perform functions similar to those available with Cloud Monitoring." width="461" height="597" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-ui-461x597.png" alt="With the Rackspace Intelligence UI, you can visualize activity and you can perform functions similar to those available with Cloud Monitoring." width="461" height="597" />

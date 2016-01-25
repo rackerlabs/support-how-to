@@ -50,12 +50,12 @@ In your Cloud Sites Control Panel, navigate to **Hosting** &gt; **Cloud
 Sites** and click on your site.  Next select the **Features** tab and
 click on the **Change Technology** button.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/Selection_001_0.png" width="702" height="287" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Selection_001_0.png" width="702" height="287" />
 
 Next select the appropriate .NET 4.5 option and click **Change
 Technology**.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/Selection_003_0.png" width="694" height="137" />
+<img src="/knowledge_center/sites/default/files/field/image/Selection_003_0.png" width="694" height="137" />
 
 Your Site may take up to 2 minutes to migrate to the new .NET 4.5
 cluster.  Repeat this process for each site that you host that is

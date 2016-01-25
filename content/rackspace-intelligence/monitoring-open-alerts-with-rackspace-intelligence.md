@@ -18,7 +18,7 @@ You can view a list of all open alerts by clicking **Monitor** at the
 top of the Rackspace Intelligence interface and then clicking **Open
 Alerts**.
 
-![](/knowledge_center/sites/default/files/field/image/intelligence-monitor-openalerts.png)
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitor-openalerts.png)
 
 You can sort the list of open alerts based on the names of entities or
 alarms, the status of alarms, and the time each alarm was triggered.
@@ -26,13 +26,13 @@ alarms, the status of alarms, and the time each alarm was triggered.
 Sorting by status groups the most serious alarms together, which can
 help you to prioritize responses.
 
-![](/knowledge_center/sites/default/files/field/image/intelligence-monitor-openalerts-sortbystatus.png)
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitor-openalerts-sortbystatus.png)
 
 Sorting by time reports the history of alarms in chronological or
 reverse-chronological order, which can help you to investigate causes
 and effects.
 
-![](/knowledge_center/sites/default/files/field/image/intelligence-monitor-openalerts-sortbytime.png)
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitor-openalerts-sortbytime.png)
 
 You can also export the list of open alerts in CSV format suitable for
 further analysis. To export the list of open alerts as in CSV format,
