@@ -6,11 +6,11 @@ created_date: '2013-01-18'
 created_by: Sameer Satyam
 last_modified_date: '2015-09-29'
 last_modified_by: Kyle Laffoon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
-## Introduction
+### Introduction
 
 Using a Vyatta Appliance, you can establish a secure site-to-site VPN connection connection between your cloud infrastructure at any Rackspace site and your data center or existing IT infrastructure location.
 
@@ -22,9 +22,9 @@ For a comprehensive guide to VPN configuration on the Vyatta, click <a href="htt
 
 For guidance on configuring the relevant firewall rules to allow VPN traffic on the Vyatta please refer to the following article:
 
-<a href="/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance">/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance</a>
+[Configuring interface-based firewall on the Vyatta Network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 
-## IPsec on Vyatta
+### IPsec on Vyatta
 
 There are three main components of the Internet Protocol security (IPsec) architecture:
 
@@ -38,7 +38,7 @@ The following diagram shows a site-to-site VPN connection between two sites. For
 
 <img alt="" border="2" height="299" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Site%20to%20Site%20VPN_0.png" width="629" />
 
-## Site-to-Site VPN Configuration Checklist
+### Site-to-Site VPN Configuration Checklist
 
 To successfully implement an IPsec VPN site-to-site connection, you must complete the following configurations on both IPsec endpoints:
 
@@ -51,24 +51,24 @@ To successfully implement an IPsec VPN site-to-site connection, you must complet
 - Configure the local IP address specified for the peer on the VPN-enabled interface.
 - If NAT is configured for outbound internet Access, make sure to exclude the site-to-site VPN connection from NAT.
 
-## Configure a Site-to-Site VPN
+### Configure a Site-to-Site VPN
 
 This article describes how to configure a site-to-site VPN using two Vyatta Appliances.
 
-You can configure a site-to-site VPN for any of the following Cloud datacenters: (DFW - Dallas), (ORD - Chicago), (IAD - Virginia), (HKG - Hong Kong), and (SYD - Sydney).  In this example, we assume that one appliance is located in the DFW datacenter and the other is the ORD datacenter.
+You can configure a site-to-site VPN for any of the following Cloud datacenters: (DFW - Dallas), (ORD - Chicago), (IAD - Virginia), (HKG - Hong Kong), and (SYD - Sydney). In this example, we assume that one appliance is located in the DFW datacenter and the other is the ORD datacenter.
 
 To complete this configuration, you'll perform the following steps:
 
-1. Enable the VPN on the Vyatta Appliance in the DFW datacenter.
-2. Configure an IKE Group on the Vyatta Appliance in DFW datacenter.
-3. Configure an ESP Group on the Vyatta Appliance in DFW datacenter.
-4. Create the connection to the Vyatta Appliance in the ORD datacenter.
+1. Enable the VPN on the Vyatta Appliance in the DFW datacenter
+2. Configure an IKE Group on the Vyatta Appliance in DFW datacenter
+3. Configure an ESP Group on the Vyatta Appliance in DFW datacenter
+4. Create the connection to the Vyatta Appliance in the ORD datacenter
 5. Configure Vyatta-ORD
 6. Verify tunnel status
-7. Exclude site-to-site VPN from NAT (Only needed if Source NAT is/will be configured for outbound internet access)
+7. Exclude site-to-site VPN from NAT (only needed if Source NAT is/will be configured for outbound internet access)
 
 
-### Step 1. Enable the VPN on the Vyatta-DFW
+#### Step 1. Enable the VPN on the Vyatta-DFW
 
 **Note:** <code>eth0</code> is the public interface enabled for IPsec
 
@@ -99,22 +99,18 @@ To complete this configuration, you'll perform the following steps:
 
 **Note**: Do not issue the commit command yet.
 
-### Step 2. Configure the IKE Group on Vyatta-DFW
+#### Step 2. Configure the IKE Group on Vyatta-DFW
 
 The IKE group allows you to pre-define a set of one or more proposals to be used in IKE Phase 1 negotiation, after which the ISAKMP security association (SA) can be set up. For each proposal in the group, the following information is defined:
-
 
 - The cipher that encrypts packets during IKE Phase
 - The hash function that authenticates packets during IKE Phase 1
 - Lifetime of the association
 
-
 In this example we create IKE group IKE-1W on Vyatta-DFW. This IKE group contains two proposals:
-
 
 - Proposal 1 uses AES-256 as the encryption cipher and SHA-1 as the hash Algorithm
 - Proposal 2 uses AES-128 as the encryption cipher and SHA-1 as the hash algorithm (optional)
-
 
 The lifetime of a proposal from this IKE group is set to 3600 seconds.
 
@@ -154,7 +150,7 @@ The lifetime of a proposal from this IKE group is set to 3600 seconds.
 
 **Note**: Do not issue the commit command yet.
 
-### Step 3. Configure the ESP GROUP on Vyatta-DFW
+#### Step 3. Configure the ESP GROUP on Vyatta-DFW
 
 In this example we create an ESP group ESP-1W on Vyatta-DFW. This ESP group contains two proposals:
 
@@ -199,10 +195,9 @@ The lifetime of a proposal from this ESP group is set to 1800 seconds.
 
 **Note**: Do not issue the commit command yet.
 
-### Step 4. Create the Connection to the Remote Site, Vyatta-ORD
+#### Step 4. Create the Connection to the Remote Site, Vyatta-ORD
 
-#### Site to Site Connection Checklist
-
+##### Site to Site Connection Checklist
 
 - The IP address of the remote peer.
 - The authentication mode that the peers will use to authenticate one another (PSK will be used)
@@ -211,9 +206,7 @@ The lifetime of a proposal from this ESP group is set to 1800 seconds.
 - The IP address on this Vyatta system to use for the tunnel.
 - The communicating CIDR or host for each end of the tunnel (Isolated network on the cloud servers) .
 
-
 Complete the following steps:
-
 
 1. Configure the peer. The address 198.x.x.101 is the remote peer's IP address
 
@@ -255,7 +248,7 @@ Complete the following steps:
 
 		commit
 
-### Step 5. Configure Vyatta-ORD
+#### Step 5. Configure Vyatta-ORD
 
 To complete this configuration, repeat the same steps on the Vyatta Appliance in the ORD datacenter, using the correct IP addressing, ESP, and IKE. This configuration includes the following steps:
 
@@ -266,7 +259,7 @@ To complete this configuration, repeat the same steps on the Vyatta Appliance in
 
 Use the previous sections to complete the configuration on Vyatta-ORD, then return to Step 6 below.
 
-### Step 6. Verify the Tunnel Status
+#### Step 6. Verify the Tunnel Status
 
 With both Vyatta Appliances configured, you can verify the tunnel status.
 
@@ -295,14 +288,13 @@ Verify the tunnel status:
     IPsec Interfaces :
             eth0    (64.x.x.101)
 
-### Step 7. Exclude site-to-site VPN traffic from NAT
+#### Step 7. Exclude site-to-site VPN traffic from NAT
 
 This configuration will be needed if you are using Vyatta to perform outbound NAT for internet access as shown <a href="/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance" target="_blank">here</a>
 
 In case Source NAT has been configured already or needs to be configured, the following configuration needs to be applied so that the VPN traffic doesn't get translated on the Vyatta.
 
 The below configuration assumes Source NAT rule 10 was configured already. Rule 10 translates all traffic going out eth0 to use the IP address of the Public interface on the Vyatta as the Source IP for traffic sourced from 192.168.1.0/24. Since this NAT rule would break traffic that needs to go across the VPN , we need to add Rule 5 (since NAT rules are read sequentially) so that this traffic is excluded from NAT. (See "exclude" keyword" below). Here 192.168.3.0/24 is the remote prefix and 192.168.1.0/24 is the local prefix.
-
 
     set nat source rule 5 destination address '192.168.3.0/24'
     set nat source rule 5 'exclude'
