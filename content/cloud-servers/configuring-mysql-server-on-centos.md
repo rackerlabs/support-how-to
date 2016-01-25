@@ -10,8 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the [previous
-article](/how-to/installing-mysql-server-on-centos)
+In the [previous article](/how-to/installing-mysql-server-on-centos)
 we covered a basic MySQL server setup on CentOS Linux. We set the root
 password, created a database, and created a user for the database. Now
 let's look at MySQL in a little more detail so we can tweak its
@@ -325,4 +324,3 @@ experiment with incremental changes over time.
 
 Now you should have MySQL configured for your environment, and might
 even have accounted for the database engine being used by your tables.
-
