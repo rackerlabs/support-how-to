@@ -20,11 +20,11 @@ PHP 5.6 offering, as the PHP 5.3/5.4 offering still uses the legacy
 rules, archived at the bottom of this article, and will be phased out
 entirely as PHP 5.3/5.4 is removed from use.
 
-***\*The mod\_access\_compat Apache module is loaded in the Cloud Sites
+**Note:** The mod\_access\_compat Apache module is loaded in the Cloud Sites
 environment to allow the previously standard Allow/Deny directives
 without requiring SetEnvIf. This method, however, is deprecated and is
 discouraged as any future Apache updates could make the rules
-unusable.***
+unusable.
 
 To block a specific IP on a given site, the .htaccess file needs to use
 Require not IP &lt;IP or range&gt;, within a RequireAll directive, so
@@ -54,11 +54,9 @@ For further reading on more specific rules for blocking or allowing
 access by IP or host, please view the Apache 2.4 documentation for
 Access Control rules:
 
-<https://httpd.apache.org/docs/2.4/howto/access.html>
+[https://httpd.apache.org/docs/2.4/howto/access.html](https://httpd.apache.org/docs/2.4/howto/access.html)
 
-
-
-### ***The information below is deprecated as of Apache 2.4 and kept for archival purposes while the ORD datacenter is still able to use PHP 5.3/5.4. Users are encouraged to use PHP 5.6 and update their rules according to the above information.***
+**Note:** The information below is deprecated as of Apache 2.4 and kept for archival purposes while the ORD datacenter is still able to use PHP 5.3/5.4. Users are encouraged to use PHP 5.6 and update their rules according to the above information.
 
 On Cloud Sites, due to our unique hosting environment, we require an
 addition to the **Allow/Deny** instruction in the .htaccess file when
@@ -115,7 +113,7 @@ This will deny the IP address specified/multiple IP addresses (If you
 use multiple lines, as specified below).
 **You can repeat line 1 to deny multiple IP addresses.**
 
-**Important note:** Implementing this code may prevent images from
+**Note:** Implementing this code may prevent images from
 loading on your cloud site. To address this you can add the following
 code do your .htaccess file:
 
