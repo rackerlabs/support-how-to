@@ -23,7 +23,7 @@ following steps:
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202014-05-20%20at%2010.19.12%20AM.png" width="230" height="211" />
 2.  In the **Spam Filtering** section, click the **Blacklists** link.
 
-    <img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202014-05-28%20at%2010.15.19%20AM.png" width="256" height="128" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202014-05-28%20at%2010.15.19%20AM.png" width="256" height="128" />
 3.  If you have multiple domains, you may be prompted to select a
     domain name. Or, to change domains at any time, click the **change
     domain** link.

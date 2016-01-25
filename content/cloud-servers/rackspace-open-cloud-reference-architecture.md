@@ -34,7 +34,7 @@ the cloud, yet already uses platform services like Cloud Databases and
 Cloud Files to replace dedicated hardware like beefy dedicated database
 servers and expensive storage arrays.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/full_width/public/field/image/basic%20cloud%20configuration.png" class="image-full_width" />
+<img src="http://www.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/basic%20cloud%20configuration.png" class="image-full_width" />
 
 1. **Public Network **- Each **Rackspace Cloud Server** has two networks
 . Here, the Cloud Server is accessible from the Internet over the Public

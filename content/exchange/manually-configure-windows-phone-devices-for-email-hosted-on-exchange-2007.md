@@ -64,7 +64,7 @@ information:
 -   Account Name- Enter a descriptive name for your account (e.g., My
     Work Account). This description will be visible only to you.
 
-<img src="/knowledge_center/sites/default/files/field/image/windows%20setup%20new%20step.jpg" width="200" height="333" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/windows%20setup%20new%20step.jpg" width="200" height="333" />
 
 10\. Select the **sign in** button. Once connected, you will see a new
 icon within your settings menu with the name of your new email account.
