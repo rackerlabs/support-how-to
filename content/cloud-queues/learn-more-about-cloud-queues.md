@@ -10,8 +10,7 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-The Basics
-----------
+### The basics
 
 [Creating a producer-consumer queuing
 model](/how-to/setting-up-a-producer-consumer-model-with-cloud-queues)
@@ -22,8 +21,7 @@ model](/how-to/setting-up-a-pub-sub-model-in-cloud-queues)
 [Cloud Queues Curl
 Cookbook](/how-to/cloud-queues-curl-cookbook)
 
-Best Practices
---------------
+### Best practices
 
 [Determining storage for different
 payloads](/how-to/cloud-queues-curl-cookbook)
@@ -31,14 +29,11 @@ payloads](/how-to/cloud-queues-curl-cookbook)
 [Deciding how many workers are
 needed](/how-to/cloud-queues-curl-cookbook)
 
-Additonal Resources
--------------------
+### Additonal resources
 
-[Cloud Queues Developer
-Guide](http://docs-internal.rackspace.com/queues/api/v1.0/cq-devguide/content/overview.html)
+[Cloud Queues Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/)
 
-[Cloud Queues Getting Started
-Guide](http://docs.rackspace.com/queues/api/v1.0/cq-gettingstarted/content/doc-change-history.html)
+[Cloud Queues Getting Started Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started)
 
 [FAQ](/how-to/cloud-queues-faq)
 
