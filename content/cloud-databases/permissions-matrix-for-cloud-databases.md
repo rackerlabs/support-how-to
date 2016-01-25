@@ -36,11 +36,11 @@ Articles](/how-to/)**
 | Create a database instance | `POST /instances`	| **Creator & Admin** | Creates a new database instance. |
 | List all database instances |	`GET /instances`	| **Observer & Creator & Admin**	| Lists the status and information for all database instances. |
 | Update a database instance | `PUT /instances/{instanceId}` | **Creator & Admin** | Associates a specified database instance with the configuration group. |
-| List database instance status and details |	`GET /instances/{instanceId}`	| **Observer & Creator & Admin**	| `Lists status and details for the specified database instance. |
+| List database instance status and details |	`GET /instances/{instanceId}`	| **Observer & Creator & Admin**	| Lists status and details for the specified database instance. |
 | Delete a database instance	| `DELETE /instances/{instanceId}`	| **Admin only**  | Deletes the specified database instance. |
 | Get the default configuration | `GET /instances/{instanceId}/configuration`	| **Observer & Creator & Admin**	| Lists the default MySQL configuration settings from the template that were applied to the specified instance. |
 | Enable the root user | `POST /instances/{instanceId}/root` | **Admin only**	| Enables the root user for the specified database instance and returns the root password. |
-| List root-enabled status | `GET /instances/{instanceId}/root` | **Observer & Creator & Admin**	| Returns true if the root user is enabled for the specified database instance or false otherwise. |
+| List root-enabled status | `GET /instances/{instanceId}/root` | **Observer & Creator & Admin** | Returns true if the root user is enabled for the specified database instance or false otherwise. |
 
 ### Database Instance actions
 
