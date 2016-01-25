@@ -45,17 +45,17 @@ Articles](/how-to/)**
 ### Database Instance actions
 
 | Method | API action | Role | Description |
-|-------|---------|---|--------|
+|------|---------|---|--------|
 | Restart an instance | `POST /instances/{instanceId}/action` | **Admin only** | Restarts the database service on the specified instance. |
 | Resize an instance | `POST /instances/{instanceId}/action`	| **Admin only** | Resizes the memory of the specified instance. |
-| Resize the instance volume |	 `POST /instances/{instanceId}/action` | **Admin only**	| Resizes the volume attached to the instance. |
+| Resize the instance volume | `POST /instances/{instanceId}/action` | **Admin only**	| Resizes the volume attached to the instance. |
 
 ### Databases
 
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
 | Create a database |	`POST /instances/{instanceId}/databases` | **Creator & Admin** | Creates a new database within the specified instance. |
-| List databases for an instance	| `GET /instances/{instanceId}/databases`	|	**Observer & Creator & Admin** | Lists databases for the specified instance. |
+| List databases for an instance | `GET /instances/{instanceId}/databases`	|	**Observer & Creator & Admin** | Lists databases for the specified instance. |
 | Delete a database |	`DELETE /instances/{instanceId}/databases/{databaseName}`	| **Admin only** | Deletes the specified database. |
 
 ### Users
@@ -160,32 +160,29 @@ Articles](/how-to/)**
 | List a version for a datastore. |	`GET /datastores/{datastoreId}/versions/{versionId}` | **Observer & Creator & Admin**	|	Lists the specified datastore version for the specified datastore. |
 
 
-Cloud Databases terminology
--------------------------------
+#### Cloud Databases terminology
 
 The following terms are used to describe Cloud Databases.
 
-### Database
+#### Database
 
 A MySQL database within a database instance.
 
-### Database instance
+#### Database instance
 
 An isolated MySQL instance in a single-tenant environment on a shared
 host server.
 
-### Flavor
+#### Flavor
 
 An available hardware configuration for a database instance. Each flavor
 has a unique combination of memory capacity and priority for CPU time.
 
-### Volume
+#### Volume
 
 User-specified storage that contains the MySQL data directory. Volumes
 are automatically provisioned on shared Internet Small Computers System
 Interface (iSCSI) storage area networks (SAN) that provide increased
 performance, scalability, availability, and manageability.
-
-
 
 ### [Permission Matrixes for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)

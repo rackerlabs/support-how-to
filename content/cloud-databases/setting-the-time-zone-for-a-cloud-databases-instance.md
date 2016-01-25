@@ -13,22 +13,20 @@ product_url: cloud-databases
 You can set the server time zone for a Cloud Databases instance so that
 it is persistent by using the configuration groups feature of Cloud
 Databases. You can use either the [Cloud Databases
-API](http://docs.rackspace.com/cdb/api/v1.0/cdb-getting-started/content/Managing_TZ_for_Database_Instances.html)
+API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-getting-started/manage-tz-ovw)
 or the [trove command line
-tool](/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool)to
+tool](/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool) to
 make the configuration changes. The examples in this article use the
 trove command line tool.
 
-Prerequisites
--------------
+### Prerequisites
 
 If you want to use the trove command line tool and you do not already
 have it installed and set up, you need to do so. For instructions, see
 [managing configuration groups using
-trove](http://www.rackspace.com/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
+trove](/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
 
-Setting the server time zone
-----------------------------
+### Setting the server time zone
 
 The server time zone is set in MySQL in the `default_time_zone`
 parameter and the default value is `SYSTEM`. To set `default_time_zone`
@@ -70,7 +68,7 @@ which is `+5:30`, use the offset value for `default_time_zone`:
 
     trove configuration-create TimeConfig '{"default_time_zone":"+5:30"}' --datastore MySQL
 
-### Apply the configuration group
+#### Apply the configuration group
 
 To apply the configuration group to an existing Cloud Databases
 instance, run the
@@ -90,7 +88,7 @@ command with `trove`.
 **Note:** For the time zone setting to take effect, the Cloud Databases
 instance must be restarted.
 
-### Add to an existing configuration group
+#### Add to an existing configuration group
 
 You can set the `default_time_zone` parameter can be set on an existing
 configuration group by running the
@@ -105,8 +103,7 @@ configuration group:
 **Note:** For the time zone setting to take effect, the Cloud Databases
 instance must be restarted.
 
-Checking the server time zone
------------------------------
+### Checking the server time zone
 
 You can check the current time zone setting for an instance by [logging
 in to the mysql
@@ -122,4 +119,3 @@ The returned value shows the instance's current time zone setting.
 If the time zone does not reflect what you set in the configuration
 group attached to the instance, the instance might need to be restarted
 for the change to take effect.
-
