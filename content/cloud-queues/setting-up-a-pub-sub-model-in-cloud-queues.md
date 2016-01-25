@@ -23,11 +23,11 @@ Characteristics of the Publish-Subscribe model in Cloud Queues are:
 Queues support posting 10 messages at the same time, so lets try to post
 two within the same request.
 
-***Request***
+#### Request
 
         $ curl -i -X POST https://$ENDPOINT:443/v1/queues/samplequeue/messages -d '     [            {"ttl": 300, "body": {"event": "two"}},         {"ttl": 60, "body": {"event": "three"}}     ]     ' -H "Content-type: application/json" -H "Client-ID: e58668fc-26eb-11e3-8270-5b3128d43830" -H "X-Auth-Token: $TOKEN"
 
-***Response***
+#### Response
 
         HTTP/1.1 201 Created     Content-Length: 153     Content-Type: application/json; charset=utf-8     Location: /v1/queues/samplequeue/messages?ids=51e840e71d10b2055fd565fb,51e840e71d10b2055fd565fc      {partial": false, "resources": ["/v1/queues/samplequeue/messages/51e840e71d10b2055fd565fb", "/v1/queues/samplequeue/messages/51e840e71d10b2055fd565fc"]}
 
