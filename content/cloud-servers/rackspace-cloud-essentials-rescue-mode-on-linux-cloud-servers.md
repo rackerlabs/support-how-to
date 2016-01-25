@@ -40,7 +40,7 @@ To avoid having to use single user mode, start your server up in rescue mode in 
 
 ## Rescue mode
 
-Rescue mode grants the root user full access to your non-bootable server’s filesystem. You can use it to modify problems in configuration files or to copy data from your Cloud Server to a remote location. Rescue Mode through the Cloud Control Panel is similar to booting into single-user mode with networking enabled.
+Rescue mode grants the root user full access to your non-bootable server&rsquo;s filesystem. You can use it to modify problems in configuration files or to copy data from your Cloud Server to a remote location. Rescue Mode through the Cloud Control Panel is similar to booting into single-user mode with networking enabled.
 
 ## Put your server into rescue mode
 

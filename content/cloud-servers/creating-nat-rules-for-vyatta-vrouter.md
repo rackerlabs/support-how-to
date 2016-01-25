@@ -66,7 +66,7 @@ The following diagram illustrates how DNAT and SNAT are processed at different s
 
 - Rule number indicates the location of a NAT configuration in the list, starting with the lowest rule number being processed first.
 
-- "Static” or “bidirectional" configurations don't specifically exist. For bidirectional traffic, you need a SNAT rule and a DNAT rule that mirror each other.
+- "Static&rdquo; or &ldquo;bidirectional" configurations don't specifically exist. For bidirectional traffic, you need a SNAT rule and a DNAT rule that mirror each other.
 
 - SNAT and DNAT rule lists are not tied to each other.
 
@@ -81,13 +81,13 @@ The following diagram illustrates how DNAT and SNAT are processed at different s
 
 The rule number increments in sets of 10 to allow for additions without having to renumber rules. The specific NAT types are organized in number ranges that you can use as a guideline and for best practices. However, these number ranges can be changed.
 
-- **10–190** policy NAT/PAT
+- **10&ndash;190** policy NAT/PAT
 
-- **200–290** NAT exclusion
+- **200&ndash;290** NAT exclusion
 
-- **300–390** bidirectional/unidirectional PAT
+- **300&ndash;390** bidirectional/unidirectional PAT
 
-- **400–490** bidirectional NAT
+- **400&ndash;490** bidirectional NAT
 
 - **500** default PAT to Internet
 

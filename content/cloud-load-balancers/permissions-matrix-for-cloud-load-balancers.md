@@ -79,7 +79,7 @@ Enable or Disable Content Caching | ```PUT /loadbalancers/{loadBalancerId}/conte
 List Load Balancer Protocols | ```GET /loadbalancers/protocol``` | **Observer & Creator & Admin** | List supported load balancing protocols.
 **ALGORITHMS** | | |
 List Load Balancer Algorithms | ```GET /loadbalancers/algorithms``` | **Observer & Creator & Admin** | List all supported load balancing algorithms.
-**SSL TERMINATION&nbsp;/ CERTIFICATE MAPPINGS** | | |
+**SSL TERMINATION / CERTIFICATE MAPPINGS** | | |
 Show SSL Termination Configuration | ```GET /loadbalancers/{loadBalancerId}/ssltermination``` | **Observer & Creator & Admin** | Show the load balancer's SSL termination configuration.
 Update SSL Termination | ```PUT /loadbalancers/{loadBalancerId}/ssltermination``` | **Creator & Admin** | Update the SSL termination. *****
 Delete SSL Termination | ```DELETE /loadbalancers/{loadBalancerId}/ssltermination``` | **Admin only** | Delete SSL termination.
@@ -97,7 +97,7 @@ Update Load Balancer Metadata Item | ```PUT /loadbalancers/{loadBalancerId}/meta
 Delete Load Balancer Metadata Item | ```DELETE /loadbalancers/{loadBalancerId}/metadata/{metaId}``` | **Creator & Admin** | Delete a metadata item from the load balancer.
 Show Load Balancer Node Metadata | ```GET loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata``` | **Creator & Admin** | Show all metadata associated with a specified node and load balancer.
 Add Load Balancer Node Metadata | ```POST loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata``` | **Creator & Admin** | Adds a metadata item to a specified node and load balancer.
-Bulk-delete Load Balancer Node Metadata Items | ```DELETE loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata​{?metaId}``` | **Admin only** | Bulk-deletes the metadata items given specified id list.
+Bulk-delete Load Balancer Node Metadata Items | ```DELETE loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata{?metaId}``` | **Admin only** | Bulk-deletes the metadata items given specified id list.
 Show Load Balancer Node Metadata Item | ```GET loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata/{metaId}``` | **Observer & Creator & Admin** | Show details for a specified metadata item for a specified node and load balancer.
 Update Load Balancer Node Metadata Item | ```PUT loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata/{metaId}``` | **Creator & Admin** | Update the configuration of a metadata item on the node.
 Delete Load Balancer Node Metadata Item | ```loadbalancers/{loadBalancerId}/nodes/{nodeId}/metadata/{metaId}``` | **Admin only** | Delete a metadata item from the node.

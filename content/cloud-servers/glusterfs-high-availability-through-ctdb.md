@@ -19,7 +19,7 @@ GlusterFS installs and uses a modified version of the NFS service (NFS v3 that u
 
 ## Introduction
 
-Previous articles in this series describe the theory behind GlusterFS, the different types of volumes it supports, and the different ways of connecting clients to GlusterFS nodes—by using the native Gluster client (FUSE) or the NFS exports managed by GlusterFS nodes.
+Previous articles in this series describe the theory behind GlusterFS, the different types of volumes it supports, and the different ways of connecting clients to GlusterFS nodes&mdash;by using the native Gluster client (FUSE) or the NFS exports managed by GlusterFS nodes.
 
 Some clients that need to access GlusterFS volumes might not be compatible with the native FUSE driver for various reasons, and these clients need to connect to the volumes by using NFS or Samba exports provided by your GlusterFS nodes.
 
@@ -195,9 +195,9 @@ On your clients that are not supporting the native FUSE client, you could use th
 
 ## References
 
-•	[http://ctdb.samba.org/](http://ctdb.samba.org/)
-•	[http://ctdb.samba.org/testing.html](http://ctdb.samba.org/testing.html)
-•	[http://www.zytrax.com/books/dns/ch9/rr.html](http://www.zytrax.com/books/dns/ch9/rr.html)
+&bull;	[http://ctdb.samba.org/](http://ctdb.samba.org/)
+&bull;	[http://ctdb.samba.org/testing.html](http://ctdb.samba.org/testing.html)
+&bull;	[http://www.zytrax.com/books/dns/ch9/rr.html](http://www.zytrax.com/books/dns/ch9/rr.html)
 
 [Previous article: GlusterFS troubleshooting](/how-to/glusterfs-troubleshooting)
 

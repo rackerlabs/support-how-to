@@ -74,7 +74,7 @@ We need to create the database that will be replicated as well as the replicatio
 
 - First on debian501, login to the _mysql console_ (using mysql root password setup during MySQL installation).
 
-        #mysql -u root –p
+        #mysql -u root -p
 
         mysql>
 

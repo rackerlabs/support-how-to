@@ -40,7 +40,7 @@ Verify that the group is applied to the vRouter's local firewall of the public i
 
 [Connecting to a server using SSH on Linux or Mac OS](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
 
-[Rackspace Cloud Essentials - Checking a server’s SSH host fingerprint with the web console](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
+[Rackspace Cloud Essentials - Checking a server&rsquo;s SSH host fingerprint with the web console](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
 
 [Generating RSA Keys With SSH - PuTTYgen](/how-to/generating-rsa-keys-with-ssh-puttygen)
 

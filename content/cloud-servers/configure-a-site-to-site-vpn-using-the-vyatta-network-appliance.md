@@ -14,7 +14,7 @@ product_url: cloud-servers
 
 Using a Vyatta Appliance, you can establish a secure site-to-site VPN connection connection between your cloud infrastructure at any Rackspace site and your data center or existing IT infrastructure location.
 
-This site-to-site VPN connection enables you to extend your IT infrastructure to the Rackspace Cloud and “burst” extra compute requirements into the Rackspace Cloud.
+This site-to-site VPN connection enables you to extend your IT infrastructure to the Rackspace Cloud and "burst" extra compute requirements into the Rackspace Cloud.
 
 Vyatta supports both policy-based and route-based VPNs. In this article we show you how to configure a policy-based VPN on the Vyatta.
 
@@ -75,7 +75,7 @@ To complete this configuration, you'll perform the following steps:
 
 1. Log onto the Vyatta Appliance using ssh:
 
-        <code>ssh vyatta@64.X.X.101</code></pre>
+        ssh vyatta@64.X.X.101
 
 	Where  64.x.x.101 is the IP address of the Vyatta appliance. You'll see a Welcome to Vyatta message and a prompt to enter your Vyatta password.
 
@@ -122,25 +122,25 @@ The lifetime of a proposal from this IKE group is set to 3600 seconds.
 
         show vpn ipsec ike-group
 
-2. Create the configuration node for proposal 1 of IKE group IKE‐ 1W:
+2. Create the configuration node for proposal 1 of IKE group IKE- 1W:
 
-        set vpn ipsec ike‐group IKE‐1W proposal 1
+        set vpn ipsec ike-group IKE-1W proposal 1
 
 3. Set the encryption cipher for proposal 1:
 
-        set vpn ipsec ike‐group IKE‐1W proposal 1 encryption aes256 </pre>
+        set vpn ipsec ike-group IKE-1W proposal 1 encryption aes256
 
 4. Set the hash algorithm for proposal 1:
 
-        set vpn ipsec ike‐group IKE‐1W proposal 1 hash sha1
+        set vpn ipsec ike-group IKE-1W proposal 1 hash sha1
 
 5. Set the lifetime for the whole IKE group:
 
-        set vpn ipsec ike‐group IKE‐1W lifetime 3600
+        set vpn ipsec ike-group IKE-1W lifetime 3600
 
 6. View the IKE group:
 
-        show vpn ipsec ike‐group IKE‐1W
+        show vpn ipsec ike-group IKE-1W
 
 	    lifetime 3600
 	     proposal 1
@@ -163,9 +163,9 @@ In this example we create an ESP group ESP-1W on Vyatta-DFW. This ESP group cont
 
 The lifetime of a proposal from this ESP group is set to 1800 seconds.
 
-1. Create the configuration node for proposal 1 of ESP group IKE‐ 1W:
+1. Create the configuration node for proposal 1 of ESP group IKE- 1W:
 
-		set vpn ipsec esp‐group ESP‐1W proposal 1
+		set vpn ipsec esp-group ESP-1W proposal 1
 
 2. Run the following command to check existing ESP parameters before proceeding further:
 
@@ -173,19 +173,19 @@ The lifetime of a proposal from this ESP group is set to 1800 seconds.
 
 3. Set the encryption cipher for proposal 1:
 
-		set vpn ipsec esp‐group ESP‐1W proposal 1 encryption aes256
+		set vpn ipsec esp-group ESP-1W proposal 1 encryption aes256
 
 4. Set the hash algorithm for proposal 1:
 
-		set vpn ipsec esp‐group ESP‐1W proposal 1 hash sha1
+		set vpn ipsec esp-group ESP-1W proposal 1 hash sha1
 
 5. Set the lifetime for the whole ESP group:
 
-		set vpn ipsec esp‐group ESP‐1W lifetime 1800
+		set vpn ipsec esp-group ESP-1W lifetime 1800
 
 6. View the ESP group:
 
-		show vpn ipsec esp‐group ESP‐1W
+		show vpn ipsec esp-group ESP-1W
 
 		lifetime 1800{
 			proposal 1
@@ -217,23 +217,23 @@ Complete the following steps:
 
 1. Configure the peer. The address 198.x.x.101 is the remote peer's IP address
 
-        edit vpn ipsec site‐to‐site peer 198.x.x.101
+        edit vpn ipsec site-to-site peer 198.x.x.101
 
 2. Set authentication mode:
 
-		set authentication mode pre‐shared‐secret
+		set authentication mode pre-shared-secret
 
 3. Provide the string that will be used to generate encryption keys:
 
-		set authentication pre‐shared‐secret SECRET
+		set authentication pre-shared-secret SECRET
 
 4. Specify the default ESP group for all tunnels:
 
-		set default‐esp‐group ESP‐1W
+		set default-esp-group ESP-1W
 
 5. Specify the IKE group:
 
-		set ike‐group IKE‐1W
+		set ike-group IKE-1W
 
 6. Identify the IP address on this Vyatta system (local) to be used for this connection:
 
@@ -315,4 +315,3 @@ Original NAT rule 10 for Outbound/Internet traffic:
     set nat source rule 10 source address '192.168.1.0/24'
     set nat source rule 10 translation address 'masquerade'
     commit
-<p>&nbsp;</p>

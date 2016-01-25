@@ -79,12 +79,12 @@ Instead of using DNS, prepare **`/etc/hosts`** on every server and ensure that t
 
 The preceding generic iptables rule opens all ports to the subnet. If a more granular setup is required, use the following values:
 
-- **111** – portmap/rpcbind
-- **24007** – GlusterFS Daemon
-- **24008** – GlusterFS Management
-- **38465** to **38467** – Required for GlusterFS NFS service
-- **24009** to **+X** – GlusterFS versions earlier than 3.4
-- **49152** to **+X** – GlusterFS versions 3.4 and later
+- **111** &ndash; portmap/rpcbind
+- **24007** &ndash; GlusterFS Daemon
+- **24008** &ndash; GlusterFS Management
+- **38465** to **38467** &ndash; Required for GlusterFS NFS service
+- **24009** to **+X** &ndash; GlusterFS versions earlier than 3.4
+- **49152** to **+X** &ndash; GlusterFS versions 3.4 and later
 
 Each brick for every volume on the host requires its own port. For every new brick, one new port will be used starting at **24009** for GlusterFS versions earlier than 3.4 and **49152** for version 3.4 and later.
 

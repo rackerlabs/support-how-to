@@ -10,7 +10,7 @@ product: Managed VMware Services
 product_url: managed-vmware-services
 ---
 
-Dedicated VMware vCloud® is a private cloud offering based on VMware services hosted on a dedicated management cluster. This list of frequently asked questions provides details about Dedicated vCloud features and management options for vApps and virtual machines (VMs).
+Dedicated VMware vCloud&reg; is a private cloud offering based on VMware services hosted on a dedicated management cluster. This list of frequently asked questions provides details about Dedicated vCloud features and management options for vApps and virtual machines (VMs).
 
 For more information, see the [Dedicated vCloud product page](http://www.rackspace.com/managed-virtualization/vmware-vcloud).
 
@@ -56,7 +56,7 @@ A vCloud environment is limited on a per-cell basis to 5,000 logged-in users and
 
 #### Is the same infrastructure used for login information if I have multiple vCloud environments in a single data center? {#access-infra}
 
-Each vCloud environment is self-contained, with its own set of user accounts. Rackspace can provide a single authentication source for all environments—for example, for all environments in the Intensive domain. Rackspace can create the same local users across all environments.
+Each vCloud environment is self-contained, with its own set of user accounts. Rackspace can provide a single authentication source for all environments&mdash;for example, for all environments in the Intensive domain. Rackspace can create the same local users across all environments.
 
 #### What single sign-on (SSO) capabilities are provided? {#access-sso}
 
@@ -140,7 +140,7 @@ The management infrastructure is monitored by using the following combination of
 
 -   **HP SiteScope for vCenter services** alert Rackspace virtualization engineers when any web services associated with Dedicated vCloud and vCloud Director are unavailable.
 -   **Rackwatch for hypervisor connectivity** alerts Rackspace virtualization engineers when devices don't respond to ping requests.
--   **CA® Nimsoft Monitor for vCenter alarms** alert Rackspace virtualization engineers to alarms raised in vCenter.
+-   **CA&reg; Nimsoft Monitor for vCenter alarms** alert Rackspace virtualization engineers to alarms raised in vCenter.
 
 Any supported vApps deployed from the Rackspace-provided catalog are monitored by these systems.
 

@@ -145,7 +145,7 @@ representative will complete this section.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-3.jpg" alt="Cloud Instances Exhibit A" width="593" height="141" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-4.jpg" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />Â
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-4.jpg" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />&Acirc;
 
 The remainder of the document pertains to Cloud Office customers. If you
 are not a Cloud Office customers, you do not need to complete it.

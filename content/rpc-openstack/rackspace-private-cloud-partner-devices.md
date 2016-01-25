@@ -23,9 +23,9 @@ product_url: rpc-openstack
 
 &nbsp; | **HW Support in RAX DC** | **Distribution Certified For** | **Software Support in RAX DC** | **HW Support Off-Prem.** | **SW Support Off-Prem.** | **Certified for RPC/Reference Architecture** | **Supported Use Cases For Current Version of RPC** | **HW Support in Customer DC Only**
 --- | --- | --- | --- | --- | --- | --- | --- | ---
-**AMD SeaMicro®** | SM15000 | Havana | N/A (hardware only) | Provided by Vendor | N/A (hardware only) |	Yes | Compute &amp; Swift in a Box | Yes
-**Dell®** | PowerEdge Server(s):<br />R515<br />R720<br />R820 | Grizzly | N/A | Provided by Vendor | N/A | Yes | Compute | PowerEdge Server(s):<br />C6220<br />C6105
-**EMC®** | VNX, VMAX (all models) | Havana | EMC Cinder drivers are bundled in the product | Provided by Vendor | EMC Cinder drivers are bundled in the product | Yes | Resilient Instance Storage | N/A
-**HP®** | ProLiant Server(s):<br />DL320e<br />DL360e<br />DL360p<br />DL380e<br />DL380p<br />DL385p<br />DL360G7<br />DL380G7<br />	DL385G7<br />DL980G7 | Grizzly | N/A | Provided by Vendor | N/A | Yes | Compute | ProLiant Server(s):<br />DL 385
-**NetApp®** | FAS Enclosure | Havana | NetApp Cinder drivers are bundled in the product | Provided by Vendor | NetApp Cinder drivers are bundled in the product | Yes | Resilient Instance Storage | E-series (Swift)
-**SolidFire®** | All models | Havana | SolidFire Cinder drivers are bundled in the product | Provided by Vendor | SolidFire Cinder drivers are bundled in the product | Yes | Multi-tenant clouds, Consistent storage performance | Yes
+**AMD SeaMicro&reg;** | SM15000 | Havana | N/A (hardware only) | Provided by Vendor | N/A (hardware only) |	Yes | Compute &amp; Swift in a Box | Yes
+**Dell&reg;** | PowerEdge Server(s):<br />R515<br />R720<br />R820 | Grizzly | N/A | Provided by Vendor | N/A | Yes | Compute | PowerEdge Server(s):<br />C6220<br />C6105
+**EMC&reg;** | VNX, VMAX (all models) | Havana | EMC Cinder drivers are bundled in the product | Provided by Vendor | EMC Cinder drivers are bundled in the product | Yes | Resilient Instance Storage | N/A
+**HP&reg;** | ProLiant Server(s):<br />DL320e<br />DL360e<br />DL360p<br />DL380e<br />DL380p<br />DL385p<br />DL360G7<br />DL380G7<br />	DL385G7<br />DL980G7 | Grizzly | N/A | Provided by Vendor | N/A | Yes | Compute | ProLiant Server(s):<br />DL 385
+**NetApp&reg;** | FAS Enclosure | Havana | NetApp Cinder drivers are bundled in the product | Provided by Vendor | NetApp Cinder drivers are bundled in the product | Yes | Resilient Instance Storage | E-series (Swift)
+**SolidFire&reg;** | All models | Havana | SolidFire Cinder drivers are bundled in the product | Provided by Vendor | SolidFire Cinder drivers are bundled in the product | Yes | Multi-tenant clouds, Consistent storage performance | Yes

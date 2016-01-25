@@ -72,7 +72,7 @@ A cluster is a group of servers (nodes). In Cloud Big Data, the servers are virt
 
 #### Node
 
-In a network, a node (or server) is a connection point—either a redistribution point or an end point for data transmissions. In general, a node has programmed or engineered capability to recognize and process or forward transmissions to other nodes. A node is a member of a cluster.
+In a network, a node (or server) is a connection point&mdash;either a redistribution point or an end point for data transmissions. In general, a node has programmed or engineered capability to recognize and process or forward transmissions to other nodes. A node is a member of a cluster.
 
 #### Scripts
 
