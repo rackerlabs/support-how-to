@@ -14,18 +14,7 @@ This article provides the steps for connecting to your cloud server from
 a computer running Linux or Mac OS X by using SSH. It also discusses
 generating an SSH key and adding a public key to your server.
 
-Contents
---------
-
-1.  [Introduction](#intro)
-2.  [Log in](#Log_in)
-3.  [Generate a new SSH key pair](#SSH_keygen)
-4.  [Add the public key to your cloud account](#pubkey)
-5.  [Shortcut Configuration](#shortcut)
-6.  [Troubleshooting](#trouble)
-
-Introduction
-------------
+### Introduction
 
 Secure Shell (SSH) is a protocol through which you can access your cloud
 server and run shell commands. You can use SSH keys to identify trusted
@@ -43,8 +32,7 @@ free program called
 To generate keys, you can use a related program,
 [PuTTYGen](/how-to/generating-rsa-keys-with-ssh-puttygen).
 
-Log in
-------
+### Log in
 
 Using the IP address and password for your cloud server, log in by
 running the `ssh` command with `username@ipaddress` as the argument.
@@ -67,9 +55,7 @@ that it has saved from previous connections to that IP address. When you
 rebuild a cloud server that remote host key changes, so your computer
 warns you of possibly suspicious activity.
 
-To ensure the security of your server, you can [use the web console in
-the Cloud Control Panel to verify your server's new
-key](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console "Checking a server's ssh host key").
+To ensure the security of your server, you can [use the web console in the Cloud Control Panel to verify your server's new key](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
 If you're confident that you aren't being spoofed, you can skip that
 step and delete the record of the old SSH host key as follows:
 
@@ -83,15 +69,12 @@ location of the `known_hosts` file might differ. Refer to your OS for
 information about the file location. PuTTY on Windows gives you the
 option of replacing the saved host key.
 
-Generate a new SSH key pair
----------------------------
+### Generate a new SSH key pair
 
 You can secure SSH access to your cloud server against brute force
 password attacks by using a public/private key pair. This means that a
 public key is placed on the server and a matching private key is placed
-on your local computer. If you [configure SSH on your server to accept
-only connections using
-keys](/how-to/basic-cloud-server-security),
+on your local computer. If you [configure SSH on your server to accept only connections using keys](/how-to/basic-cloud-server-security),
 then no one else can log in using just a password.  Connecting clients
 are required to use a private key that has a public key registered on
 the server.
@@ -128,8 +111,7 @@ the server.
     by following the instructions in the Shortcut configuration section
     later in this article.
 
-Add the public key to your cloud account
-----------------------------------------
+### Add the public key to your cloud account
 
 To make it easy to add your key to the new cloud servers you create,
 upload the public key to your cloud account by following these steps:
@@ -161,8 +143,7 @@ drop-down menu and select your key from the list. If you don't see a
 stored key in the list, you must switch the region for the new server to
 the region where you've stored the SSH key.
 
-Add the key to an existing server
----------------------------------
+### Add the key to an existing server
 
 You cannot use the Cloud Control Panel to add a public key to an
 existing server. Follow these steps to add the key manually:
@@ -189,8 +170,7 @@ existing server. Follow these steps to add the key manually:
 With the public key added to the `authorized_keys`, you can make an SSH
 connection using your key pair instead of the account password.
 
-Shortcut configuration
-----------------------
+### Shortcut configuration
 
 You can set up a connection shortcut by creating a `~/.ssh/config` file
 on your local computer and adding your server and key details by using a
@@ -218,8 +198,7 @@ text editor.
 
         ssh shortcutName
 
-Troubleshooting
----------------
+### Troubleshooting
 
 If you have trouble making a new connection after you restart the
 server, use the following steps to help you resolve the issue:
@@ -244,6 +223,3 @@ server, use the following steps to help you resolve the issue:
 
     If you get a message that the service SSH is unknown, run the
     command with `sshd` as the service name instead.
-
-
-
