@@ -61,7 +61,7 @@ product_url: cloud-dns
 
 <ul>
 	<li>Use your Rackspace Cloud username as the username for the API. Place it in the XAuth-User x-header.</li>
-	<li><a href="http://support-dev.ipa.rackspace.com/how-to/view-and-reset-your-api-key/">Obtain your API access key</a> from the Rackspace Cloud Control Panel in the Your Account API Access section. Place it in the X-Auth-Key x-header.</li>
+	<li><a href="/how-to/view-and-reset-your-api-key/">Obtain your API access key</a> from the Rackspace Cloud Control Panel in the Your Account API Access section. Place it in the X-Auth-Key x-header.</li>
 </ul>
 
 <p>For full authentication details, see the <a href="https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/">Cloud DNS Developers Guide</a>.</p>
