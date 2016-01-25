@@ -26,12 +26,11 @@ either an HA Cloud Databases instance group or with a [Rackspace Cloud
 Load
 Balancer](/how-to/connect-to-a-cloud-databases-instance#lb).
 
-Importing using a Rackspace Cloud Server
-----------------------------------------
+### Importing using a Rackspace Cloud Server
 
 Perform the following steps:
 
-### Creating a Cloud Database Instance
+#### Creating a Cloud Database Instance
 
 1.  Use the [Cloud Control Panel](http://mycloud.rackspace.com),
     [API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-api-reference),
@@ -51,7 +50,7 @@ Perform the following steps:
 
 <img src="http://c691244.r44.cf2.rackcdn.com/Hostname%20of%20Database.png" alt="Database Hostname" width="600" />
 
-### On your current database
+#### On your current database
 
 4.  On the machine where your existing database is currently located,
     run the following MySQL command to export your database:
@@ -104,12 +103,11 @@ database.
 
            The database is imported and ready to accept new data.
 
-Importing to a Cloud Database with public access (HA group or Cloud Load Balancer)
-----------------------------------------------------------------------------------
+### Importing to a Cloud Database with public access (HA group or Cloud Load Balancer)
 
 Perform the following steps:
 
-### Creating a Cloud Database Instance
+#### Creating a Cloud Database Instance
 
 1.  Use the [Cloud Control Panel](http://mycloud.rackspace.com),
     [API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-api-reference),
@@ -130,7 +128,7 @@ Perform the following steps:
 
 <img src="/knowledge_center/sites/default/files/field/image/HA_Group_Details_KC.png" width="600" />
 
-### On your current database
+#### On your current database
 
 4.  On the machine where your existing database is currently located,
     run the following MySQL command to export your database:
@@ -167,8 +165,7 @@ database.
 
            The database is imported and ready to accept new data.
 
-Best Practices
---------------
+### Best Practices
 
 Large imports to new HA or replicated Cloud Databases instances should
 utilize a single instance for the import then convert to HA/add replicas
@@ -185,8 +182,7 @@ of your application. [Upgrading a database
 instance](/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56)
 for an example on how to upgrade from MySQL 5.1 to 5.6.
 
-Limitations
------------
+### Limitations
 
 -   A full instance export (with users and settings) requires root
     access on both the original and new database instances.
@@ -199,12 +195,10 @@ Limitations
     definer other than the database user importing data will fail due to
     a requirement for SUPER privilege.
 
-External Links
---------------
+### External Links
 
 [MYSQL Documentation](http://dev.mysql.com/doc/)
 
 <https://mariadb.com/kb/en/mariadb/documentation/>
 
 <https://www.percona.com/software/mysql-database/percona-server>
-
