@@ -50,7 +50,7 @@ Open your terminal, then submit the following cURL command to create the queue u
 
     HTTP/1.1 200 OK Content-Length: 140 Content-Type: application/json; charset=utf-8 Content-Location: /v1/queues {"queues": [{"href": "/v1/queues/samplequeue", "name": "samplequeue"}], "links": [{"href": "/v1/queues?marker=samplequeue", "rel": "next"}]}
 
-### Testing Your Queue
+### Testing your Queue
 
 -   You can test your queue by posting a message to it:
 
