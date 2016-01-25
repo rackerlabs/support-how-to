@@ -10,12 +10,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-## Previous section
+### Previous section
 [Create a Cloud Server](/how-to/create-a-cloud-server)
 
 This article guides you through the process of creating an image of a cloud server (also known as cloning a server) and restoring a server from a saved image in the Cloud Control Panel. For information about using the Cloud Servers API to create an image from a server, see the [Create Image section in the Cloud Servers Developer Guide](http://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
 
-### Notes
+#### Notes
 
 - An image can be restored only to a server that has enough system disk capacity to accommodate the data in the image.
 
@@ -23,7 +23,7 @@ This article guides you through the process of creating an image of a cloud serv
 
 - Images do not include attached data disks or Cloud Block Storage volumes, only a local system disk. Data disks must be backed up using a Cloud Block Storage volume, Cloud Backup, or another backup solution. For more information about Cloud Backup, see [Getting Started with Rackspace Cloud Backup](/how-to/cloud-backup).
 
-## Create an image backup
+### Create an image backup
 
 **Note:** The process of building a server from a previous backup image can be a time-consuming process depending on the size of the server.
 
@@ -41,7 +41,7 @@ This article guides you through the process of creating an image of a cloud serv
 
 After the image is saved, it appears in the Images section of the Server Information page.
 
-## Restore a server from a saved image
+### Restore a server from a saved image
 
 1. In the top navigation bar of the Cloud Control Panel, click **Servers > Saved Images**.
 
@@ -71,5 +71,5 @@ While your server goes through the build process, a Building notification is dis
 
 After the server is created, its status is displayed as Active. You can then log in to it by using Remote Desktop Protocol (RDP) for Windows or SSH for Linux, depending on your server's operating system.
 
-## Next section
+### Next section
 [Snapshot Limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations)
