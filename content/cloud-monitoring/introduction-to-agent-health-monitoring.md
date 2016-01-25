@@ -28,7 +28,7 @@ and [Working with Rackspace Intelligence notification
 plans](/how-to/working-with-rackspace-intelligence-notification-plans)
 articles.
 
-###How does agent health monitoring work?
+### How does agent health monitoring work?
 
 
 When an agent first connects to the Rackspace monitoring server, the
@@ -54,7 +54,7 @@ checks on that entity are deleted. The deletion of entities is handled
 automatically for cases where Rackspace monitoring is integrated with
 other products, such as Cloud Servers.
 
-###Responding to an alert
+### Respond to an alert
 
 
 Alerts are emitted when the monitoring server stops receiving the
@@ -81,9 +81,9 @@ For a summary of the concepts mentioned in this article, read the
 Ops](http://bit.ly/maas-intelligence) blog post or the [Getting Started
 with Rackspace
 Intelligence](/how-to/rackspace-intelligence)
-article. 
+article.
 
-###Start using agent health monitoring
+### Start using agent health monitoring
 
 
 The Agent Health Monitoring feature is initially offered at Limited
@@ -102,4 +102,3 @@ For more information about agent health monitoring, read the [Watching
 the Watchmen with Agent Health
 Monitoring](http://bit.ly/agent-health-monitoring) blog post by Shane
 Duan.
-

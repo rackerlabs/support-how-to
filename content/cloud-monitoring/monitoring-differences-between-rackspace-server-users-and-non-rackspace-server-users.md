@@ -12,9 +12,9 @@ product_url: cloud-monitoring
 
 Rackspace Monitoring can be used with Rackspace servers and non-Rackspace servers. When you are using a Rackspace server, you can be at a Managed Operations service level or a Managed Infrastructure service level. There are some differences between what you can do in any one of these circumstances. This page describes each circumstance.
 
-- [Rackspace servers with a Managed Operations service level](#managed-operations)
-- [Rackspace servers with a Managed Infrastructure service level](#managed-infra)
-- [Unmanaged non-Rackspace servers](#unmanaged)
+- Rackspace servers with a Managed Operations service level
+- Rackspace servers with a Managed Infrastructure service level
+- Unmanaged non-Rackspace servers
 
 **Note:** No non-Rackspace servers are managed.
 
@@ -36,7 +36,7 @@ Rackspace Monitoring can be used with Rackspace servers and non-Rackspace server
 
 - For Cloud Databases customers, the monitoring agent is installed with monitoring configured automatically, by default. For details, see the [Cloud Databases documentation](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
 
-- You can access some monitoring features through the Cloud Control Panel and all the features through API. You can see more monitoring features, as well as metrics, through the [Cloud Intelligence interface](https://intelligence.rackspace.com/).
+- You can access some monitoring features through the Cloud Control Panel and all the features through API. You can see more monitoring features, as well as metrics, through the [Rackspace Intelligence interface](https://intelligence.rackspace.com/).
 
 
 ### Rackspace servers with a Managed Infrastructure service level
@@ -44,7 +44,7 @@ Rackspace Monitoring can be used with Rackspace servers and non-Rackspace server
 - Entities for Rackspace servers and databases are managed automatically, which means:
   - Monitoring entities are created automatically for new cloud servers or new cloud databases.
   - When a cloud server or cloud database is deleted, the associated entity is deleted in the monitoring system.
-  - When the cloud server name is changed, the name is changed in monitoring automatically. (You cannot change the instance name for cloud database)
+  - When the cloud server name is changed, the name is changed in monitoring automatically. (You cannot change the instance name for a cloud database)
 
 
 - The label for Rackspace Cloud Servers can be changed only on the server directly. The change propagates to the monitoring system quickly. The instance name for a cloud database cannot be changed.
@@ -53,11 +53,11 @@ Rackspace Monitoring can be used with Rackspace servers and non-Rackspace server
 
 - The agent needs the agent token to authenticate with the monitoring server. This value is stored as **monitoring_token** in the agent configuration file. The agent is able to identify the server it is installed on to the server.
 
-- By default, the monitoring agent must be manually installed. For details, see the [Cloud Monitoring documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
+- By default, the monitoring agent must be manually installed. For details, see the [Rackspace Monitoring documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
 
 - For Cloud Databases customers, the monitoring agent is installed with monitoring configured automatically, by default. For details, see the [Cloud Databases documentation](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/)
 
-- You can access some monitoring features through the Cloud Control Panel and all the features through API. You can see more monitoring features, as well as metrics, through the [Cloud Intelligence interface](https://intelligence.rackspace.com/).
+- You can access some monitoring features through the Cloud Control Panel and all the features through API. You can see more monitoring features, as well as metrics, through the [Rackspace Intelligence interface](https://intelligence.rackspace.com/).
 
 ### Unmanaged non-Rackspace servers
 
@@ -85,4 +85,4 @@ Rackspace Monitoring can be used with Rackspace servers and non-Rackspace server
 
 - By default, the monitoring agent must be manually installed. For details, see the [Cloud Monitoring documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
 
-- You can see monitoring features, as well as metrics, through the [Cloud Intelligence interface](https://intelligence.rackspace.com/).
+- You can see monitoring features, as well as metrics, through the [Rackspace Intelligence interface](https://intelligence.rackspace.com/).
