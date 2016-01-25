@@ -87,7 +87,7 @@ Rescue**.
 When the Rescue Mode build is complete, the status will turn red and
 display **Rescue**.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/server_in_rescue.png" width="600" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/server_in_rescue.png" width="600" />
 
 Notice that the rescue environment is limited to 24 hours. This means
 that you will have one day to correct the problems on your server before

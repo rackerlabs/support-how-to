@@ -33,7 +33,7 @@ billing related activities. The Rackspace Open Cloud Control Panel will
 open up in a new window or tab without closing your current
 window.</span><span style="line-height: 1.538em;"> </span>
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/billingflow.png" class="image-full_width" width="700" height="389" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/billingflow.png" class="image-full_width" width="700" height="389" />
 
 3\. **How do I get back to the original Cloud Control Panel after I am
 done with viewing the Billing pages?**

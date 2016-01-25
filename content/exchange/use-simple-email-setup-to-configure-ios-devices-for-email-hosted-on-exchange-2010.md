@@ -25,7 +25,7 @@ Simple Email Setup: iPhone
 [connect.emailsrvr.com](http://connect.emailsrvr.com) with your email
 address and password.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/half_width/public/field/image/1_0.png" class="image-half_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_0.png" class="image-half_width" />
 
 2\. Next, in the top right hand corner select **Options** and then select
 See **All Options**. In the next screen, select **Setup your iPhone**
@@ -37,16 +37,16 @@ under "Shortcuts to things you can do."
 3\. In the next screen, fill in the appropriate fields that apply to you
 and select **Send**.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/full_width/public/field/image/4_1.png" class="image-full_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_1.png" class="image-full_width" />
 
 4\. Next, You'll receive a text message with a link that you'll select.
 After you've selected the link from the generated text message, select
 **Install** and then select **Install now**. On the next screen, enter
 in the password for your email address.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/quarter_width/public/field/image/iPhone1.png" class="image-quarter_width" />
- <img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/quarter_width/public/field/image/iPhone2.png" class="image-quarter_width" />
- <img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/quarter_width/public/field/image/iPhone4.png" class="image-quarter_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/iPhone1.png" class="image-quarter_width" />
+ <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/iPhone2.png" class="image-quarter_width" />
+ <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/iPhone4.png" class="image-quarter_width" />
 
 *Note: if you have the passcode protection on your phone, you may
 receive a passcode notification to confirm the installation.*
@@ -57,7 +57,7 @@ finished. At this point your email account begin syncing your mailbox
 from the server on your phone. The time length of this process can vary
 depepnding on how many days mail is syncing and your connection.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/quarter_width/public/field/image/iPhone5.png" class="image-quarter_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/iPhone5.png" class="image-quarter_width" />
 
 
 
@@ -73,8 +73,8 @@ Settings screen, select **Profile**.
 2\. On the next screen you'll select Remove and then Remove again on the
 confirmation screen.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/quarter_width/public/field/image/iPhone6.png" class="image-quarter_width" />
- <img src="http://www.rackspace.com/knowledge_center/sites/default/files/styles/quarter_width/public/field/image/iPhone7.png" class="image-quarter_width" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/iPhone6.png" class="image-quarter_width" />
+ <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/iPhone7.png" class="image-quarter_width" />
 
 *Note: if you have *the passcode protection* on your phone, you may
 receive a passcode notification to confirm the removal of your account.*

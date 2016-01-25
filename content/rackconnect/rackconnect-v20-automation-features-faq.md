@@ -137,13 +137,13 @@ Features settings set at the cloud account level.
 2.  Select **Network &gt; RackConnect** to enter the RackConnect
     Management Interface.
 
-    <img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/New.RC_.Management.Interface.Navigation.png" class="image-full_width" width="700" height="239" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/New.RC_.Management.Interface.Navigation.png" class="image-full_width" width="700" height="239" />
 
 3.  Select your RackConnect Configuration from the left-hand pane, then
     select your cloud account.  The cloud account's overview page will
     list your current Automation Features settings.
 
-    <img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/New.MyRack.Automation.Features.status.png" class="image-full_width" width="700" height="487" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/New.MyRack.Automation.Features.status.png" class="image-full_width" width="700" height="487" />
 
 #### Where can I check what the current Automation Features settings are for my cloud servers?
 
@@ -152,14 +152,14 @@ Features settings set at the cloud account level.
 2.  Select **Network &gt; RackConnect** to enter the RackConnect
     Management Interface.
 
-    <img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/New.RC_.Management.Interface.Navigation.png" class="image-full_width" width="700" height="239" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/New.RC_.Management.Interface.Navigation.png" class="image-full_width" width="700" height="239" />
 
 3.  Select your RackConnect Configuration from the left-hand pane,
     then select your cloud account, and then select one of your
     cloud servers. The cloud server's overview page will list your
     current Automation Features settings.
 
-    <img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/New.MyRack.CS_.Automation.Features.status.png" class="image-full_width" width="700" height="566" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/New.MyRack.CS_.Automation.Features.status.png" class="image-full_width" width="700" height="566" />
 
 #### How will enabling the Automation Features affect my pre-existing cloud servers?
 
