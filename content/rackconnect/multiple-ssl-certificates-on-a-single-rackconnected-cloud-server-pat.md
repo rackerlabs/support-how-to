@@ -1,6 +1,6 @@
 ---
 node_id: 2056
-title: Multiple SSL Certificates on a Single RackConnected Cloud Server (PAT)
+title: Multiple SSL certificates on a single RackConnect cloud server (PAT)
 type: article
 created_date: '2012-08-23'
 created_by: Juan Perez
@@ -10,41 +10,34 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-Each Cloud Server comes with a single private IP address.  When
-leveraging RackConnect, if you need direct access to the Cloud Server
-from the Internet, you can utilize the public IP assigned to your
-RackConnected Cloud Server (the "Provision public IP address" Automation
-Feature must be enabled).  This public IP will leverage a NAT (Network
-Address Translation) on your network device to translate the public IP
-to the private IP of your Cloud Server.
+Each cloud server comes with a single private IP address. When
+leveraging RackConnect, if you need direct access to the cloud server
+from the Internet, you can use the public IP address assigned to your
+RackConnect cloud server (the **Provision public IP address** Automation
+Feature must be enabled). This public IP address leverages a Network
+Address Translation (NAT) on your network device to translate the public IP
+address to the private IP address of your cloud server.
 
-Sometimes, a use case will arise where you need to have more than one
-public IP assigned to a single Cloud Server.  The most common case for
-this is when you are hosting multiple SSL sites on a single Cloud Server
-and are not able to use a wildcard certificate.  Since only one private
-(10.x) address is allowed on each Cloud Server, this setup can be
-accomplished leveraging PAT (Port Address Translation) on your network
+Sometimes, you need to have more than one public IP address assigned to a single cloud server. The most common case is when you are hosting multiple SSL sites on a single cloud server and are not able to use a wildcard certificate. Because only one private (10.x) address is allowed on each cloud server, this setup can be
+accomplished by leveraging Port Address Translation (PAT) on your network
 device versus NAT.
 
-For example, if you have a single Cloud Server that you want to use to
-host https:// www.&lt;example-domain&gt;.com and https://
-www.&lt;example-domain-2&gt;.com, we could setup your network device as
+For example, if you have a single cloud server that you want to use to
+host `https:// www.example-domain.com` and `https://
+www.example-domain-2.com`, you could set up your network device as
 follows:
 
 -   Cloud Server private IP address is 10.1.1.1
--   DNS points www.&lt;example-domain&gt;.com to public IP 1.1.1.1
--   DNS points www.&lt;example-domain-2&gt;.com to public IP 1.1.1.2
+-   DNS points `www.example-domain.com` to public IP 1.1.1.1
+-   DNS points `www.example-domain-2.com` to public IP 1.1.1.2
 -   PAT entry on network device points 1.1.1.1 port 443 to 10.1.1.1 port
     8443
 -   PAT entry on network device points 1.1.1.2 port 443 to 10.1.1.1 port
     8444
 
-On your Cloud Server, you would configure your web server software (e.g.
+On your cloud server, you would configure your web server software (for example,
 Apache or IIS) to listen on ports 8443 and 8444 (they would be able to
 distinguish which site the encrypted traffic was destined for based on
 the unique port number).
 
-
-Please contact your Dedicated Support team for assistance with setting
-up PAT on your network device.
-
+If you need help setting up PAT on your network device, contact your Dedicated Support team.

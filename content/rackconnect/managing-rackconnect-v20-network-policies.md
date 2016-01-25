@@ -10,10 +10,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-### Previous section
-
-[Access the RackConnect v2.0 Management
-Interface](/how-to/access-the-rackconnect-management-interface)
+**Previous section:** [Access the RackConnect v2.0 Management Interface](/how-to/access-the-rackconnect-management-interface)
 
 **Applies to:** RackConnect v2.0
 
@@ -25,31 +22,30 @@ policies*.
 
 Network policies are configurable under each individual Cloud Account in
 the RackConnect Management Interface (available in the [MyRackspace
-Portal](https://my.rackspace.com/)), and can be added to control access
+portal](https://my.rackspace.com/)), and can be added to control access
 between your cloud servers, your dedicated environment, and the
 Internet.
 
-Available network policies
---------------------------
+### Available network policies
 
 A network policy defines that access that you want to apply in one of
 five RackConnect traffic scenarios. Following are the available network
 policies, with their effect on network device access lists and software
 firewalls (iptables or Windows Firewall):
 
--   Cloud Server(s) to Dedicated &ndash; Updates connected network device
+-   Cloud Servers to Dedicated&mdash;Updates connected network device
     access lists
 
--   Cloud Server(s) to Internet &ndash; Updates connected network device
+-   Cloud Servers to Internet&mdash;Updates connected network device
     access lists
 
--   Cloud Server(s) to Cloud Server(s) &ndash; Updates inbound software
+-   Cloud Servers to Cloud Servers&mdash;Updates inbound software
     firewalls on cloud servers
 
--   Dedicated to Cloud Server(s) &ndash; Updates inbound software firewalls on
+-   Dedicated to Cloud Servers&mdash;Updates inbound software firewalls on
     cloud servers
 
--   Internet to Cloud Server(s) &ndash; Updates edge network device access
+-   Internet to Cloud Servers&mdash;Updates edge network device access
     lists and inbound software firewalls on cloud servers
 
 **Note:** Software firewalls are configured to allow unrestricted
@@ -60,8 +56,7 @@ criteria (such as hosts, networks, cloud server names, and cloud server
 IDs) and can limit access to specific protocols (such as TCP, UDP, and
 ICMP) and ports or port ranges (port ranges limited to 100 ports).
 
-Manage network policies
------------------------
+### Manage network policies
 
 To manage your network policies, you select the Cloud account to
 customize in the RackConnect Management Interface. On the **Network
@@ -103,16 +98,15 @@ the form xxxxxx-xxxxxx.
 Any time you change a network policy, the automation status indicators
 show you when the policy is being deployed (or removed) and when the
 changes are complete. You can also track details of the status on the
-**Tasks** tab. You must refresh the page in the [MyRackspace
-Portal](https://my.rackspace.com/) to view the updated status
-indicators, which can have the following meanings:
+**Tasks** tab. You must refresh the page in the MyRackspace
+portal to view the updated status indicators, which can have the following meanings:
 
 -   Green=Deployed
 -   Blue=Deploying
 -   Red=Failed
 -   Yellow=Removing
 
-In the following screenshot, the indicators are all green, which means
+In the following image, the indicators are all green, which means
 the network policies were successfully deployed.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Status.Indicator.png" width="700" />
@@ -122,10 +116,9 @@ policy *template*. Network policy templates provide a quick way to get
 started using RackConnect. Review the description of each template for
 details about the type of access that it will grant in your environment.
 
-Frequently asked questions
---------------------------
+### Frequently asked questions
 
-### I've written my own software firewall rules. What will happen to them?
+#### I've written my own software firewall rules. What will happen to them?
 
 All software firewall rules should be managed using network policies.
 RackConnect automation rebuilds the entire firewall ruleset when it
@@ -139,7 +132,7 @@ but because of the technical limitations in Windows Firewall, all
 firewall rules on Windows cloud servers must be managed through network
 policies only.
 
-### Why am I limited to port ranges of 100 or fewer ports?
+#### Why am I limited to port ranges of 100 or fewer ports?
 
 Because of a technical limitation in Windows Firewall that prevents
 port-range rules from being executed in the correct order, a separate
@@ -152,7 +145,7 @@ becoming so overloaded with firewall rules that they become
 unresponsive, we limit network policies to port ranges of 100 or fewer
 ports.
 
-### How should I set up network policies for use with Cloud Monitoring?
+#### How should I set up network policies for use with Cloud Monitoring?
 
 By default, the Cloud Monitoring systems have access to your RackConnect
 cloud servers. You should not need to create any custom network policies
@@ -162,8 +155,6 @@ If you have any questions, reach out to us. Our contact information is
 available on the [Contact
 Us](/how-to/support) page.
 
-Next steps
+### Next step
 
-[Accessing RackConnect Cloud
-Servers](/how-to/accessing-rackconnect-cloud-servers)
-
+[Accessing RackConnect cloud servers](/how-to/accessing-rackconnect-cloud-servers)

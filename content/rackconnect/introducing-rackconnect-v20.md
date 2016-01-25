@@ -12,10 +12,12 @@ product_url: rackconnect
 
 **Applies to:** RackConnect v2.0
 
+**Important**: The beginning of each RackConnect article now includes an
+**Applies to** label to indicate whether the contents apply to
+RackConnect v3.0, RackConnect v2.0, or both.
+
 **Note:** This article is a high-level overview of RackConnect v2.0. For
-more technical information about RackConnect, see [Requirements for
-implementing RackConnect
-v2.0](/how-to/rackconnect-v20-requirements).
+more technical information about RackConnect, see [RackConnect v2.0 requirements](/how-to/rackconnect-v20-requirements).
 
 RackConnect gives you the freedom to choose the best platform for your
 applications by unifying the breadth of the Rackspace portfolio into a
@@ -23,11 +25,11 @@ single solution.
 
 RackConnect is a unique solution designed for customers who require the
 flexibility and elasticity of the cloud, and the enhanced security and
-performance characteristics of traditional hosting &ndash; the best of both
+performance characteristics of traditional hosting&mdash;the best of both
 worlds. In essence, RackConnect enables customers to realize the power
 of hybrid hosting.
 
--   Choose an F5&reg; BIG-IP&reg; Local Traffic Manager or a Cisco&reg; ASA firewall
+-   Choose an F5<sup>&reg;</sup> BIG-IP<sup>&reg;</sup> Local Traffic Manager or a Cisco<sup>&reg;</sup> ASA firewall
     to connect your traditional hosted infrastructure to the
     Rackspace Cloud.
 
@@ -49,8 +51,6 @@ If you have any questions, please reach out to us. Our contact
 information is available on the [Contact
 Us](/how-to/support) page.
 
-### Next steps
+### Next step
 
-[What features were introduced in RackConnect
-v2.0?](/how-to/features-introduced-in-rackconnect-v20)
-
+[Features introduced in RackConnect v2.0](/how-to/features-introduced-in-rackconnect-v20)
