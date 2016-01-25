@@ -14,13 +14,6 @@ Cloud Queues was built to be flexible for a wide variety of messaging
 needs.  This article explains some common patterns and their possible
 variations.
 
-### Contents
-
--   [Task distribution](#Taskdistribution)
--   [Pub-sub](#Pubsub)
--   [Point-to-point](#Pointtopoint)
--   [Auditing](#Auditing)
-
 ### Task distribution
 
 In the task distribution pattern, customers use Cloud Queues much like
@@ -61,9 +54,6 @@ it. The next worker to claim the message checks whether the message has
 already been processed before proceeding. In some cases,
 double-processing of a message might be acceptable, in which case no
 check is necessary.
-
-
-
 
 ### Pub-sub
 
