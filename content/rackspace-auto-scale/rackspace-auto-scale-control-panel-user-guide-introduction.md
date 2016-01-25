@@ -1,33 +1,33 @@
 ---
 node_id: 3782
-title: Rackspace Auto Scale Control Panel User Guide - Introduction
+title: Rackspace Autoscale Control Panel User Guide - Introduction
 type: article
 created_date: '2013-11-18'
 created_by: Maria Abrahms
-last_modified_date: '2016-01-21'
-last_modified_by: Renee Rendon
-product: Rackspace Auto Scale
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-Welcome to Rackspace Auto Scale, the easy way to scale your cloud
+Welcome to Rackspace Autoscale, the easy way to scale your cloud
 resources up or down in response to an increase or decrease in overall
 workload and based on your defined thresholds.
 
-#### <span>What you will learn in this guide</span>
+### What you will learn in this guide
 
 After reading this guide you will understand the following information:
 
--   What Auto Scale does and the core concepts that drive it
--   The Auto Scale current policy options and how group configurations
+-   What Autoscale does and the core concepts that drive it
+-   The Autoscale current policy options and how group configurations
     affect policy execution
--   How to use the Auto Scale control panel to create a scaling group
+-   How to use the Autoscale control panel to create a scaling group
     and policies
--   Where to go next to get the most out of Auto Scale
+-   Where to go next to get the most out of Autoscale
 
-#### What you can do with Rackspace Auto Scale
+### What you can do with Rackspace Autoscale
 
-You can use Rackspace Auto Scale to perform the following tasks:
+You can use Rackspace Autoscale to perform the following tasks:
 
 -   Create a policy to add more servers at a specific time of day on a
     recurring basis or just one time; use cron to set the schedule, or
@@ -38,9 +38,9 @@ You can use Rackspace Auto Scale to perform the following tasks:
 -   Support your dedicated servers by adding&mdash;and removing&mdash;cloud servers
     based on a schedule
 
-#### Prerequisites
+### Prerequisites
 
-Before you can use Rackspace Auto Scale, you need to have the following
+Before you can use Rackspace Autoscale, you need to have the following
 prerequisites:
 
 -   A Rackspace Cloud account. To sign up for a Rackspace Cloud account,
@@ -63,19 +63,15 @@ After you are set up, there are some concepts that you should
 understand. Those are addressed in the next section,
 [Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts).
 
+### User Guide sections
 
-
-------------------------------------------------------------------------
-
-#### User Guide sections
-
--   [Rackspace Auto Scale Control Panel User Guide -
+-   [Rackspace Autoscale Control Panel User Guide -
     Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
--   [Rackspace Auto Scale Control Panel User Guide -
+-   [Rackspace Autoscale Control Panel User Guide -
     Concepts](http://rackspace.com/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
+-   [Rackspace Autoscale Control Panel User Guide - Create a scaling
     group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
+-   [Rackspace Autoscale Control Panel User Guide - Create a scaling
     policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Crating Scaling Policies")
 
 

@@ -4,9 +4,9 @@ title: Monitoring Network Traffic
 type: article
 created_date: '2012-04-04'
 created_by: Rackspace Support
-last_modified_date: '2016-01-11'
-last_modified_by: Rose Contreras
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -64,31 +64,28 @@ repositories, have minimal dependencies, and work on ALL Linux systems.
 
 ### About The Tools
 
-> **VNstat** : *[Learn More about VNstat](http://humdi.net/vnstat/)*
->
-> VNstat is a console-based network traffic monitor for Linux and BSD
-> that keeps a log of network traffic for the selected interface(s). It
-> uses the network interface statistics provided by the kernel as
-> information source. This means that VNstat won't actually be sniffing
-> any traffic and also ensures light use of system resources. With
-> VNstat you are able to keep a log of all incoming and outgoing traffic
-> which will be logged by Minute,Hour,Day,Month,Year.
+**VNstat** : *[Learn More about VNstat](http://humdi.net/vnstat/)*
 
-> **IPtraf** : *[Learn More about
-> IPtraf](http://iptraf.seul.org/about.html)*
->
-> IPTraf is a console-based network statistics utility for Linux. It
-> gathers a variety of figures such as TCP connection packet and byte
-> counts, interface statistics and activity indicators, TCP/UDP traffic
-> breakdowns, and LAN station packet and byte counts.
+VNstat is a console-based network traffic monitor for Linux and BSD
+that keeps a log of network traffic for the selected interface(s). It
+uses the network interface statistics provided by the kernel as
+information source. This means that VNstat won't actually be sniffing
+any traffic and also ensures light use of system resources. With
+VNstat you are able to keep a log of all incoming and outgoing traffic
+which will be logged by Minute,Hour,Day,Month,Year.
+
+**IPtraf** : *[Learn More about
+IPtraf](http://iptraf.seul.org/about.html)*
+
+IPTraf is a console-based network statistics utility for Linux. It
+gathers a variety of figures such as TCP connection packet and byte
+counts, interface statistics and activity indicators, TCP/UDP traffic
+breakdowns, and LAN station packet and byte counts.
 
 ### How to install these tools
 
-------------------------------------------------------------------------
 
-
-
-#### Ubuntu / Debian
+### Ubuntu / Debian
 
 *Here is how to install VNstat as well as IPtraf on a Ubuntu / Debian
 Slice.*
@@ -118,11 +115,8 @@ Lastly we setup VNstat to begin monitoring the interfaces.
     # Private Interface
     vnstat -u -i eth1
 
-------------------------------------------------------------------------
 
-
-
-#### CentOS / RHEL
+### CentOS / RHEL
 
 *Here is how to install VNstat as well as IPtraf on a CentOS / RHEL
 Slice.*
@@ -182,11 +176,8 @@ To install here is the command :
 
     yum install iptraf.x86_64
 
-------------------------------------------------------------------------
 
-
-
-#### Fedora (16+)
+### Fedora (16+)
 
 *Here is how to install VNstat as well as IPtraf on a Fedora Slice.*
 
@@ -217,11 +208,8 @@ Lastly we create a symlink for legacy purposes
 
     ln -s /usr/sbin/iptraf-ng /usr/sbin/iptraf
 
-------------------------------------------------------------------------
 
-
-
-#### openSUSE
+### openSUSE
 
 *Here is how to install VNstat as well as IPtraf on a openSUSE Slice.*
 
@@ -281,11 +269,8 @@ To install iptraf here is the command :
 
 ### How to use these tools
 
-------------------------------------------------------------------------
 
-
-
-#### Using VNstat : [*Manual Page for VNstat*](http://linux.die.net/man/1/vnstat)
+### Using VNstat : [*Manual Page for VNstat*](http://linux.die.net/man/1/vnstat)
 
 Once you have Installed and setup VNstat on your system you will have to
 allow for at least ONE hour. After that time frame, your database will
@@ -293,9 +278,8 @@ contain data and begin showing you metrics.
 
 **Common VNstat Uses**
 
--   -   Snapshot : **vnstat**
+Snapshot : **vnstat**
 
-<!-- -->
 
                           rx      /      tx      /     total    /   estimated
      eth0:
@@ -303,9 +287,9 @@ contain data and begin showing you metrics.
          yesterday      6.35 MiB  /   37.71 MiB  /   44.06 MiB
              today      4.73 MiB  /   34.66 MiB  /   39.39 MiB  /      52 MiB
 
--   -   Hourly Report : **vnstat -h**
+ Hourly Report : **vnstat -h**
 
-<!-- -->
+
 
      eth0                                                                     17:02
       |            t  t                    t  t  t  t              t  t  t
@@ -318,9 +302,9 @@ contain data and begin showing you metrics.
     19        266       1389    03        169        548    11        212       1229
     20        259        918    04         72        449    12        191       1904
 
--   -   Daily Report : **vnstat -d**
+ Daily Report : **vnstat -d**
 
-<!-- -->
+
 
      eth0  /  daily
      eth0  /  daily
@@ -334,9 +318,8 @@ contain data and begin showing you metrics.
          ------------------------+-------------+-------------+---------------
          estimated         5 MiB |      47 MiB |      52 MiB |
 
--   -   Weekly Report : **vnstat -w**
+ Weekly Report : **vnstat -w**
 
-<!-- -->
 
      eth0  /  weekly
                           rx      |     tx      |    total    |   avg. rate
@@ -347,9 +330,8 @@ contain data and begin showing you metrics.
        ---------------------------+-------------+-------------+---------------
           estimated        39 MiB |     286 MiB |     325 MiB |
 
--   -   Monthly Report : **vnstat -m**
+ Monthly Report : **vnstat -m**
 
-<!-- -->
 
      eth0  /  monthly
           month        rx      |     tx      |    total    |   avg. rate
@@ -360,15 +342,13 @@ contain data and begin showing you metrics.
 
 
 
-------------------------------------------------------------------------
+
+
+### Using IPtraf :
 
 
 
-#### Using IPtraf :
-
-
-
-#### [*Manual Page for IPtraf*](http://linux.die.net/man/8/iptraf)
+###[*Manual Page for IPtraf*](http://linux.die.net/man/8/iptraf)
 
 IPtraf is an application that can be used just as soon as it is
 installed. IPtraf watches traffic in real time.
@@ -390,10 +370,7 @@ installed. IPtraf watches traffic in real time.
 
 
 
-
 ### Conclusion
-
-------------------------------------------------------------------------
 
 Now that you have installed these packages you should have full network
 monitoring in place. VNstat will monitor the servers internal and
