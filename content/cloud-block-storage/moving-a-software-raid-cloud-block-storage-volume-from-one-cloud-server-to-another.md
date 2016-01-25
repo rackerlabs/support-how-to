@@ -113,7 +113,7 @@ For Ubuntu or Debian:
         mdadm --assemble --scan
         mdadm: /dev/md/0 has been started with 2 drives.
 
-13\. Remount the RAID.
+3\. Remount the RAID.
 
         mkdir /newraid
         mount /dev/md0p1 /newraid

@@ -39,7 +39,7 @@ product_url: cloud-block-storage
 
 - [Detach and delete a volume](/how-to/detach-and-delete-cloud-block-storage-volumes)
 
-###  API Developer Guide and FAQs
+###  API Developer Guide and FAQ
 
 - [Cloud Block Storage API Developer Guide](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)
-- [Cloud Block Storage FAQs](/how-to/cloud-block-storage)
+- [Cloud Block Storage FAQ](/how-to/cloud-block-storage)
