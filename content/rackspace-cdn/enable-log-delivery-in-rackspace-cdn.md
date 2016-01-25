@@ -1,6 +1,6 @@
 ---
 node_id: 4904
-title: Enable log delivery in Rackspace CDN
+title: Logs in Rackspace CDN
 type: article
 created_date: '2015-10-29'
 created_by: Catherine Richardson
@@ -76,4 +76,3 @@ The following example shows log entries.
               com/ jquery.min.js?ver=3.8.3 HTTP/1.1" 200 8022 "http://www.rackspace.
               com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
               like Gecko) Chrome/35.0.1916.153 Safari/537.36"
-

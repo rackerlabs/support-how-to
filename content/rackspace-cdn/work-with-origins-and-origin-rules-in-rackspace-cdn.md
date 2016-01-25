@@ -81,7 +81,7 @@ are available:
 Following are several use cases for the Host Header capability,
 particularly related to using Virtual Hosts (VHOST):
 
-1.  You have one or more domains that point to a single origin using
+1\.  You have one or more domains that point to a single origin using
 Virtual Hosts. You can set up each domain in the service, and then edit
 the origin by specifying the Host Header type.
 
@@ -97,7 +97,7 @@ the origin by specifying the Host Header type.
     the VHOST is set up to respond to host headers different from the
     origin name or domain name.
 
-2.  You have more than one domain that point to a single origin, but
+2\.  You have more than one domain that point to a single origin, but
 want to use different VHOSTs for each domain (overriding the Host Header
 for each domain).
 
@@ -168,6 +168,3 @@ the rule is deleted, it is removed from the **Origin Rules** list.
 
 
 #### [&lt; Add and manage domains with Rackspace CDN](/how-to/add-and-manage-domains-in-rackspace-cdn)    -    [Create and manage caching rules in Rackspace CDN &gt;](/how-to/create-and-manage-caching-rules-in-rackspace-cdn)
-
-
-
