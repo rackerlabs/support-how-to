@@ -10,8 +10,7 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-What is CIDR?
--------------
+### What is CIDR?
 
 Classless Inter-Domain Routing (CIDR), is a range of IP addresses used
 by a network. A CIDR address looks like a normal IP address except that
@@ -48,14 +47,9 @@ Panel. Note the CIDR field is pre-populated with an IP address range:
 
 For complete instructions on how to create a Cloud Network using the
 Cloud Control Panel see [Create an Isolated Cloud Network and attach it
-to a
-server](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an Isolated Cloud Network and attach it to a server").
+to a server](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an Isolated Cloud Network and attach it to a server").
 
-
--
-
-CIDR Notation in the Cloud Neworks API
---------------------------------------
+### CIDR Notation in the Cloud Networks API
 
 If you're using the Cloud Networks API to create a network you must
 specify the CIDR and a name for the new network.
@@ -104,7 +98,7 @@ Server](/how-to/attach-a-cloud-network-to-an-existing-cloud-server "Attach an Is
 [Removing Networks from a Cloud
 Server](/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
 
-[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/)
+[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
 
 
 
