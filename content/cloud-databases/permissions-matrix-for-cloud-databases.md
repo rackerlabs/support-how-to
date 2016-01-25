@@ -40,7 +40,7 @@ Articles](/how-to/)**
 | Delete a database instance	| `DELETE /instances/{instanceId}`	| **Admin only**  | Deletes the specified database instance. |
 | Get the default configuration | `GET /instances/{instanceId}/configuration`	| **Observer & Creator & Admin**	| Lists the default MySQL configuration settings from the template that were applied to the specified instance. |
 | Enable the root user | `POST /instances/{instanceId}/root` | **Admin only**	| Enables the root user for the specified database instance and returns the root password. |
-| List root-enabled status | `GET /instances/{instanceId}/root` | **Observer & Creator & Admin**	| Returns true if the root user is enabled for the specified database instance or false otherwise. |
+| List root-enabled status | `GET /instances/{instanceId}/root` | **Observer & Creator & Admin** | Returns true if the root user is enabled for the specified database instance or false otherwise. |
 
 ### Database Instance actions
 
