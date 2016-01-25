@@ -63,7 +63,7 @@ Articles](/how-to/)**
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
 | Create  a user |	`POST /instances/{instanceId}/users` | **Creator & Admin** |	Creates a user for the specified database instance. |
-|List users a in database instance |	`GET /instances/{instanceId}/users` |	**Observer & Creator & Admin**	|	Lists the users in the specified database instance. |
+| List users a in database instance |	`GET /instances/{instanceId}/users` |	**Observer & Creator & Admin**	|	Lists the users in the specified database instance. |
 | List a user |	`GET /instances/{instanceId}/users/{name}` | **Observer & Creator & Admin**	|	Lists the specified user's name and a list of databases that the user can access. |
 | List user access |	`GET /instances/{instanceId}/users/{name}/databases` | **Observer & Creator & Admin**	|	Lists user access for the specified database instance. |
 | Grant user access |	`PUT /instances/{instanceId}/users/{name}/databases` | **Creator & Admin** | Grants access for the specified user to one or more databases for the specified instance. |
