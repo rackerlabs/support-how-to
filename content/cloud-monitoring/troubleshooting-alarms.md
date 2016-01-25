@@ -15,7 +15,7 @@ an alarm is triggered and you'll receive a Warning or Critical email
 notification for the monitored resource. This article describes some
 simple troubleshooting steps that can help you diagnose the problem.
 
-###Ping Checks
+### Ping checks
 
 
 Ping checks typically monitor a server. If your ping check alarm is
@@ -31,7 +31,7 @@ The following ehow article provides some helpful information about how
 to read the results of a ping test: [How to Read Ping Test
 Results](http://www.ehow.com/how_8241153_read-ping-test-results.html).
 
-###HTTP Checks
+###HTTP checks
 
 
 The HTTP check is used to check websites. If you receive a notification
@@ -51,7 +51,7 @@ from an HTTP check, try the following preliminary troubleshooting steps:
     -   503, which means that the web server is denying access to the
         content that you are trying to view.
 
-### Advanced Troubleshooting for HTTP Checks
+### Advanced troubleshooting for HTTP checks
 
 Run cURL, a common command-line web page utility, against the website
 that you are checking. This returns the contents of the web page to your
@@ -72,7 +72,7 @@ The output should look something like this:
     Server: Apache Date: Tue, 04 Sep 2012 20:33:51 GMT
     Connection: keep-alive Set-Cookie: target=us; path=/; domain=.your_domain.com Expires: Tue, 04 Sep 2012 21:00:00 GMT
 
-###TCP Checks
+### TCP checks
 
 
 TCP checks monitor ports. If an alarm is triggered for a TCP check, try
@@ -92,9 +92,9 @@ example of how to use Telenet to communicate with the default port
 
     telnet mysql.myhost.com 3306
 
-To exit telnet, type Ctrl  \], press Enter, and then type **quit**.
+To exit telnet, type `Ctrl  \]`, press the **Enter** key, and then type `quit`.
 
-###Contacting Rackspace Technical Support
+### Contact Rackspace Technical Support
 
 
 If you're unable to solve the problem using the steps outlined in this
@@ -104,5 +104,3 @@ Panel. Your options for contacting Rackspace are as follows:
 -   Open a Support Ticket
 -   Use Live Chat
 -   Call the toll free number for your area
-
-

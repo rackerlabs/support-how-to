@@ -10,7 +10,7 @@ product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
-###Rackspace Monitoring Agent Support Matrix
+### Rackspace Monitoring Agent support matrix
 
 
 Rackspace Monitoring provides support for the following compute
@@ -20,9 +20,8 @@ offerings:
 -   Dedicated Hosting
 
 Rackspace Monitoring supports the same set of operating system types
-that are supported by Managed Operations and Dedicated Hosting and any
-<span class="message_body">OS that is within the supported
-matrix</span>.
+that are supported by Managed Operations and Dedicated Hosting and any OS that is within the supported
+matrix.
 
 ### Rackspace Monitoring support for Cloud Servers
 
@@ -43,4 +42,3 @@ technology/operating system becoming unsupported.
 Rackspace Monitoring supports the same set of operating system types
 that are supported by Dedicated Hosting. For additional information,
 contact Support for Dedicated Hosting.
-

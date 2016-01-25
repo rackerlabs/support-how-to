@@ -34,7 +34,7 @@ The checks are listed in two separate groups:
     of the server. To learn more, read [Install the Rackspace Monitoring
     Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent "Install the Rackspace Monitoring Agent").
 
-###Check and alarm settings
+### Check and alarm settings
 
 
 Each check and alarm has selectable options.
@@ -128,4 +128,3 @@ server.
 Agent checks available only in the API or CLI:
 [agent.disk](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-disk),
 [agent.plugin](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-plugin).
-
