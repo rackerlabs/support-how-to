@@ -12,25 +12,20 @@ product_url: cloud-servers
 
 This article explains how to set up a General Purpose cloud server
 through the Cloud Control Panel interface. For more information about
-General Purpose servers, see [New Features in General Purpose and
-Work-Optimized Cloud
-Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
+General Purpose servers, see [New Features in General Purpose and Work-Optimized Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
 
-1.  Log in to the [Cloud
-    Control Panel.](https://mycloud.rackspace.com)
+1.  Log in to the [Cloud Control Panel.](https://mycloud.rackspace.com)
 
-2.  [Create a server from a saved image](#fromsavedimage), or [create a
-    new server](#createnew).
+2.  Create a server from a saved image, or create a new server.
     -   To create a server from a previously saved image,
-        select **Servers &gt; Saved Images**. Click the gear icon next
+        select **Servers > Saved Images**. Click the gear icon next
         to the image that you want to use to create the server, and
         select **Create Server with Image**. Skip to step 3.
 
         ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SavedImages.png)
 
-    -   To create a new server, select **Cloud Servers &gt; Create
+    -   To create a new server, select **Cloud Servers > Create
         Servers**, and then click **Create Server**.
-
 
 3.  In the **Server Details** section of the Create Servers page, enter
     a name for your server in the **Server Name** field.
@@ -42,7 +37,7 @@ Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-server
     center in Chicago, Illinois, USA, or select **Sydney (SYD)** for a
     data center in Sydney, Australia.
 
-5.  Under **Image** select which OS you want to uset. If you are
+5.  Under **Image** select which OS you want to use. If you are
     creating the server from a saved image, the image is already
     selected.
 
@@ -63,5 +58,3 @@ Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-server
 10. After your server is created, its status is displayed as Active. You
     can then log in to it by using Remote Desktop Protocol (RDP) or SSH,
     depending on your server's OS.
-
-
