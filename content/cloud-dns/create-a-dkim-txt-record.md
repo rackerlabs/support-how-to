@@ -6,8 +6,8 @@ created_date: '2012-07-24'
 created_by: Rackspace Support
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 DomainKeys Identified Mail (DKIM) helps you protect your company from
@@ -16,7 +16,7 @@ validating a domain name identity that is associated with a message
 through cryptographic authentication.
 
 For a complete description of DKIM, see a recommended list of DKIM sites
-under [External Links](#ExternalLinks).
+in the "External resources" section below.
 
 The process of setting up DKIM involves several tasks:
 
@@ -30,8 +30,7 @@ The process of setting up DKIM involves several tasks:
 This article describes how to create the selector and publish the DKIM
 TXT record.
 
-Create a DKIM TXT record
-------------------------
+### Create a DKIM TXT record
 
 **Note:** Before you perform this procedure, choose a text string to use
 as your selector and generate a public/private key pair. To publish the
@@ -39,8 +38,7 @@ DKIM selector and private key
 
 **To publish the DKIM selector and private key**:
 
-![Add DNS
-Record](http://c691244.r44.cf2.rackcdn.com/Add%20DNS%20Record.png)
+![Add DNS Record](http://c691244.r44.cf2.rackcdn.com/Add%20DNS%20Record.png)
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
 2.  In the top navigation bar, select **Networking &gt; Cloud DNS**.
@@ -54,7 +52,9 @@ Record](http://c691244.r44.cf2.rackcdn.com/Add%20DNS%20Record.png)
     example, if you use default as the text string and myexampledomain
     is your domain name, the selector would look as follows:
 
+   ```
         default._domainkey.myexampledomain.com
+   ```
 
     You need to enter only the text string and **`._domainkey`** in the
     **Hostname** text box.
@@ -67,8 +67,7 @@ Record](http://c691244.r44.cf2.rackcdn.com/Add%20DNS%20Record.png)
     When you are finished, the TXT record will look similar to the
     following example:
 
-    ![DKIM DNS TXT
-    Record](http://c691244.r44.cf2.rackcdn.com/Add%20DKIM%20DNS%20TXT%20Record.png)
+    ![DKIM DNS TXT Record](http://c691244.r44.cf2.rackcdn.com/Add%20DKIM%20DNS%20TXT%20Record.png)
 
 7.  Click **Add Record**.
 
@@ -77,19 +76,14 @@ The DNS TXT record is added to your domain.
 For instructions on attaching the token to your outgoing email, go to
 [DKIMcore.org](http://dkimcore.org/)
 
-### Related
+### Related articles
 
-[Setting up SPF DNS TXT
-Records](/how-to/create-an-spf-txt-record)
+[Setting up SPF DNS TXT Records](/how-to/create-an-spf-txt-record)
 
-[Learn More about
-DNS](/how-to/learn-more-about-dns)
+[Learn More about DNS](/how-to/learn-more-about-dns)
 
-### External Links
+### External resources
 
 [Dkim.org](http://www.dkim.org)
 
 [DKIMcore.org](http://dkimcore.org/specification.html)
-
-
-
