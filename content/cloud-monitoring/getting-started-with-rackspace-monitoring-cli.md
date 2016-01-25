@@ -103,10 +103,10 @@ input lists and dictionaries in the terminal:
       raxmon-entities-create --metadata="location=server room,tag=foobar"
 
 
-### Step Three: Monitor an HTTP Page
+### Step Three: Monitor an HTTP page
 
 
-### Create an Entity
+### Create an entity
 
 [Entities](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
 are Rackspace Monitoring's name for server-like objects. Anything that has
@@ -161,7 +161,7 @@ If the operation was successful, you'll receive the following message:
 
     Resource created. ID: chNbqDaZrJ
 
-### Notification Addresses and Alarms
+### Notification addresses and alarms
 
 Checks are great, but you also need to be able to receive
 [notifications](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations).

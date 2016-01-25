@@ -14,7 +14,7 @@ The new Rackspace Cloud mobile application for iOS and Android
 devices enables you to instantly monitor the health of your cloud
 infrastructure.  The Rackspace Cloud mobile app, when used with
 Rackspace Monitoring, provides you with timely and accurate information
-about how your resources are performing. 
+about how your resources are performing.
 
 This article describes how to get started with the app and perform the
 following Rackspace Monitoring actions on your mobile device:
@@ -24,7 +24,7 @@ following Rackspace Monitoring actions on your mobile device:
 -   View monitoring check and alarm details
 -   Understand error conditions
 
-###Get Started
+### Get started
 
 
 First, you need to install Rackspace Monitoring on your cloud resources,
@@ -33,7 +33,7 @@ Control Panel or the Rackspace Monitoring API to set up monitoring,
 see [Getting Started With Rackspace
 Monitoring](/how-to/cloud-monitoring).
 
-###Download the Application
+### Download the application
 
 
 To download the Rackspace cloud app for mobile devices, click the
@@ -47,7 +47,7 @@ For instructions on how to log in and add accounts to your device, see
 [Getting Started with the Rackspace Mobile Application and Managing
 Accounts](/how-to/getting-started-with-the-rackspace-mobile-application-and-managing-accounts).
 
-###Open the Monitoring Screen
+### Open the monitoring screen
 
 
 On the main menu of the app on your device, tap **Monitoring**.  A
@@ -59,14 +59,14 @@ warning state.
 
 On the Monitoring home screen, you can view a list of monitored
 resources and their current status.  By tapping the different status
-icons, you can view resources with at least one alarm in Critical,
-Warning, or OK state.
+icons, you can view resources with at least one alarm in **Critical**,
+**Warning**, or **OK** state.
 
--   Alarms in a Critical state are shown in red.
--   Alarms in a Warning state are shown in yellow.
--   Alarms in OK state are shown as green.
+-   Alarms in a **Critical** state are shown in red.
+-   Alarms in a **Warning** state are shown in yellow.
+-   Alarms in **OK** state are shown as green.
 -   Alarms with an error or unknown state are shown in
-    grey. 
+    grey.
 
 In the following example, the account has one resource with an alarm in
 a critical state, which is shown, and 10 resources with alarms in an OK
@@ -81,8 +81,7 @@ If a resource has multiple alarms with different states (for example,
 one critical alarm and one warning alarm), the resource appears by
 default on the status tab of the *most critical state*.
 
-###View Monitoring Details
-
+### View monitoring details
 
 If you tap a resource, you can see the monitoring checks, the alarm
 status of each check, and a graph showing data over time.
@@ -93,7 +92,7 @@ swipe to view multiple graphs.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/newMonitoringDetails.png" width="498" height="678" />
 
-###View Errors
+### View errors
 
 
 Monitored resources that are highlighted in grey might have an error.
@@ -103,7 +102,7 @@ other resources).
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/newDetailsGray.png" width="524" height="389" />
 
-###View Resources with No Status Available
+### View resources with No Status Available
 
 
 If your monitored resource is grey, it might have no status.  A resource
@@ -123,7 +122,7 @@ Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/newDetailsNoAlarm.png" width="555" height="226" />
 
-###Monitor Cloud Databases
+### Monitor Cloud Databases
 
 
 Cloud Databases are provisioned with six default checks and one alarm.
@@ -141,4 +140,3 @@ Databases](https://developer.rackspace.com/docs/cloud-databases/v1/developer-gui
 section in the *Cloud Databases Developer Guide*.  At
 this time, Cloud Database users cannot configure additional
 checks.
-
