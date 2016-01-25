@@ -94,9 +94,8 @@ schedules for the master/slave nodes will be deleted.
 
 Scheduled backups can be managed and restored in the same manner as on
 demand backups. Details on how to manage backups can be found in the
-following Knowledge Center article:
-
-</how-to/managing-backups-for-cloud-databases>
+article
+[Managing backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
 
 ### Cloud Databases automated backups API
 
@@ -133,6 +132,4 @@ to &ldquo;ha&rdquo;.
     HA group.
 
 For more information on backups with Cloud Databases, please see the
-general backup Knowledge Center Article:
-
-</how-to/managing-backups-for-cloud-databases>
+[Managing backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
