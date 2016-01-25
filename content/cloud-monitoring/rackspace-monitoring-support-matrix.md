@@ -4,14 +4,14 @@ title: Rackspace Monitoring support matrix
 type: article
 created_date: '2015-12-10'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-07'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
-Rackspace Monitoring Agent Support Matrix
------------------------------------------
+###Rackspace Monitoring Agent Support Matrix
+
 
 Rackspace Monitoring provides support for the following compute
 offerings:
@@ -34,8 +34,7 @@ and [Cloud Servers with Managed Operations support for
 Windows](/how-to/cloud-servers-with-managed-operations-support-for-windows)
 articles.
 
-<span class="autogrow-textarea"><span
-class="autogrow-textarea">**Note:** </span></span>Managed Operations
+**Note:** Managed Operations
 Support are obligated to provide a customer with 30 days notice of a
 technology/operating system becoming unsupported.
 

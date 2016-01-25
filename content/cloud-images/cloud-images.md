@@ -22,5 +22,5 @@ product_url: cloud-images
 ###  Uploading and downloading images
 
 - [Installing the Swiftly Cloud Files Client](/how-to/install-the-swiftly-client-for-cloud-files)
-- [Using Swiftly to Download an Exported Image](/how-to/using-swiftly-to-download-an-exported-image)
+- [Using Swiftly to Download an Exported Image](/how-to/use-swiftly-to-download-an-exported-image)
 - [Using Swiftly to upload an image to be imported](/how-to/use-swiftly-to-upload-an-image)

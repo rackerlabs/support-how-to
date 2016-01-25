@@ -4,13 +4,13 @@ title: 'Monitoring: Differences Between Rackspace Server Users and Non-Rackspace
 type: article
 created_date: '2014-06-16'
 created_by: Maria Abrahms
-last_modified_date: '2016-01-19'
-last_modified_by: Kelly Holcomb
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
-Rackspace Cloud Monitoring can be used with Rackspace servers and non-Rackspace servers. When you are using a Rackspace server, you can be at a Managed Operations service level or a Managed Infrastructure service level. There are some differences between what you can do in any one of these circumstances. This page describes each circumstance.
+Rackspace Monitoring can be used with Rackspace servers and non-Rackspace servers. When you are using a Rackspace server, you can be at a Managed Operations service level or a Managed Infrastructure service level. There are some differences between what you can do in any one of these circumstances. This page describes each circumstance.
 
 - [Rackspace servers with a Managed Operations service level](#managed-operations)
 - [Rackspace servers with a Managed Infrastructure service level](#managed-infra)
@@ -18,8 +18,7 @@ Rackspace Cloud Monitoring can be used with Rackspace servers and non-Rackspace 
 
 **Note:** No non-Rackspace servers are managed.
 
-<a name="managed-operations"></a>
-## Rackspace servers with a Managed Operations service level
+### Rackspace servers with a Managed Operations service level
 
 - Entities for Rackspace servers and databases are managed automatically, which means:
   - Monitoring entities are created automatically for new cloud servers or new cloud databases.
@@ -39,8 +38,8 @@ Rackspace Cloud Monitoring can be used with Rackspace servers and non-Rackspace 
 
 - You can access some monitoring features through the Cloud Control Panel and all the features through API. You can see more monitoring features, as well as metrics, through the [Cloud Intelligence interface](https://intelligence.rackspace.com/).
 
-<a name="managed-infra"></a>
-## Rackspace servers with a Managed Infrastructure service level
+
+### Rackspace servers with a Managed Infrastructure service level
 
 - Entities for Rackspace servers and databases are managed automatically, which means:
   - Monitoring entities are created automatically for new cloud servers or new cloud databases.
@@ -60,8 +59,7 @@ Rackspace Cloud Monitoring can be used with Rackspace servers and non-Rackspace 
 
 - You can access some monitoring features through the Cloud Control Panel and all the features through API. You can see more monitoring features, as well as metrics, through the [Cloud Intelligence interface](https://intelligence.rackspace.com/).
 
-<a name="unmanaged"></a>
-## Unmanaged non-Rackspace servers
+### Unmanaged non-Rackspace servers
 
 - Entities for non-Rackspace servers and databases must be managed manually, this means:
   - Monitoring entities need to be created manually for new servers . When configuring the default monitoring agent, you either select an entity you already created for it,or let the setup process create one for you.

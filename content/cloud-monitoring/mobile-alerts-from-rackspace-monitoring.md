@@ -4,9 +4,9 @@ title: Mobile alerts from Rackspace Monitoring
 type: article
 created_date: '2014-08-13'
 created_by: Bekki Bolthouse
-last_modified_date: '2015-12-18'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: RackspaceMonitoring
 product_url: cloud-monitoring
 ---
 
@@ -14,7 +14,7 @@ Sometimes, an email alert isn't enough. If you are on call, on the go, or far fr
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CMSMS1.png" alt="" width="320" height="254" border="2" />
 
-## Get notified with SMS
+### Get notified with SMS
 
 As a Rackspace Monitoring customer, you can now leverage unlimited SMS worldwide, at no additional cost. SMS alerting has the following advantages:
 
@@ -35,7 +35,7 @@ You configure SMS alerts for your account by adding one or more new notification
 
 **Note:** You can create alarms and notifications in any order, but to create a new notification plan, you need to create a notification first.
 
-## Tune out unwanted alerts
+### Tune out unwanted alerts
 
 If you receive too many texts, or you don't want to get alerts during a maintenance period, you can perform the following actions:
 
@@ -46,7 +46,7 @@ If you receive too many texts, or you don't want to get alerts during a maintena
 
 The SMS alerting functionality is available to US and UK Rackspace Monitoring customers.
 
-## Contact and help
+### Contact and help
 
 freenode IRC #cloudmonitoring
 

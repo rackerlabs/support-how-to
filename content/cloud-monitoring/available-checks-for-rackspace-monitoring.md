@@ -4,9 +4,9 @@ title: Available checks for Rackspace Monitoring
 type: article
 created_date: '2013-08-19'
 created_by: Jim Culbreath
-last_modified_date: '2016-01-19'
-last_modified_by: Kelly Holcomb
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -19,7 +19,7 @@ Monitoring checks and alarms are located in the Cloud Servers section of the Clo
 - You can create a check by clicking the gear icon next to your individual server name and selecting **Create Check**.
 - To edit a check, click on the server name and scroll to the **Monitoring Checks** section of the server details page. From there, you can click a check name and make changes to it.
 
-## Available monitoring checks
+### Available monitoring checks
 This section lists each check that you can create for your server, the options that you can set when you create the check, and the options that you can edit for an existing check.
 
 ### HTTP

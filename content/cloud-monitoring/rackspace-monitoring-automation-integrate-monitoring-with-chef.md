@@ -4,9 +4,9 @@ title: Rackspace Monitoring Automation - Integrate Monitoring with Chef
 type: article
 created_date: '2012-08-14'
 created_by: Rae D. Cabello
-last_modified_date: '2016-01-08'
-last_modified_by: Kyle Laffoon
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -20,13 +20,13 @@ monitoring system with Rackspace Monitoring!
 
 -   Leverage all the primitives built as a lightweight resource in Chef.
      This means you have complete control
--   You&rsquo;re in total control - We run the monitoring system; however,
-    it&rsquo;s a platform and this code bootstraps the integration. It&rsquo;s up to
+-   You're in total control - We run the monitoring system; however,
+    it's a platform and this code bootstraps the integration. It&rsquo;s up to
     you to define what you want to monitor and how you want to
     be alerted.
--   We dog food this internally - we&rsquo;ll continue to improve this as we
+-   We dog food this internally - we'll continue to improve this as we
     continue to find new and interesting ways to use it.
--   This is only the beginning - We&rsquo;ll continue to improve this cookbook
+-   This is only the beginning - We'll continue to improve this cookbook
     as Rackspace Monitoring grows in functionality.
 
 ** **
@@ -39,7 +39,7 @@ monitoring system with Rackspace Monitoring!
 
 
 
-### Pre-requisites
+### Prerequisites
 
 Getting started requires downloading the cookbook. Right now the
 Rackspace Monitoring git repo is hosted on github, but it will be an
@@ -56,7 +56,7 @@ knife and how it works.*
 
 
 
-**Step 1: Create the initial encrypted data bag**
+###**Step 1: Create the initial encrypted data bag**
 
 In order to manage the Rackspace Monitoring API, authentication
 credentials need to be added to the node. There are various ways to
@@ -72,7 +72,7 @@ call. For information about how to find your API key, see [View and
 reset your API
 key](/how-to/view-and-reset-your-api-key).
 
-**Step 2: Add default recipe to the runlist**
+###**Step 2: Add default recipe to the runlist**
 
 Next step is to add the cloud\_monitoring::default recipe to the run
 list for the servers that will need monitoring. This identifies the
@@ -90,7 +90,7 @@ recipe.
 
 
 
-**Step 3: Configure the initial node setup**
+###**Step 3: Configure the initial node setup**
 
 The approach on this cookbook focuses on flexibility for the user to use
 it as they please. These particular instructions will use the recipe in
@@ -119,7 +119,7 @@ hostname (in this case).
 
 
 
-**Step 4: Create the first check**
+###**Step 4: Create the first check**
 
 After creating an entity, this describes one or more checks for that
 target entity. It prescribes how often to poll a website, or which piece
@@ -143,9 +143,9 @@ important feature of the Rackspace Monitoring API:
       action :create
     end
 
-** **
 
-**Step 5: Create an alarm**
+
+###**Step 5: Create an alarm**
 
 An alarm describes how a user gets an alert based on a check.  It
 matches the criteria to alert with a destination to send the
@@ -178,7 +178,7 @@ primary contact on the account. If there is no one on the account, it
 sends the Rackspace Monitoring team an email, which will in turn file a
 ticket.
 
-3\. This uses the alarm example API detailed here. This particular
+3. This uses the alarm example API detailed here. This particular
 example uses the snippet below:
 
     ...
@@ -192,11 +192,10 @@ example uses the snippet below:
         }
     ...
 
-###
 
 ### Done!
 
-That&rsquo;s it. We now have monitoring for each server in your infrastructure
+That's it. We now have monitoring for each server in your infrastructure
 with at least ping checking. As you add servers Rackspace Monitoring
 will automatically scale with you. As homework, work on adding more
 complex checks like SSH and HTTP. We also support CPU, Disk and other

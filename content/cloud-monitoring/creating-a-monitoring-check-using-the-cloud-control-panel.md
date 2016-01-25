@@ -4,9 +4,9 @@ title: Creating a monitoring check using the Cloud Control Panel
 type: article
 created_date: '2012-08-15'
 created_by: Susan Million
-last_modified_date: '2016-01-06'
-last_modified_by: Catherine Richardson
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -41,8 +41,8 @@ only the system disk. The data disk is not monitored.
 -   [The Check Region](#ChkRegion)
 -   [The Check Status](#ChkStatus)
 
-Create a Monitoring Check
------------------------------
+###Create a Monitoring Check
+
 
 1.  Log in to the [Cloud Control
     Panel](https://mycloud.rackspace.com/) at
@@ -72,8 +72,7 @@ Create a Monitoring Check
 
 
 
-The Check Region
---------------------
+###The Check Region
 
 Each check is configured by default to originate from the 3 regions:
 DFW, ORD, and LON. Once your monitoring check has been created, you can
@@ -85,8 +84,8 @@ regions, including: IAD (Northern Virginia), HKG (Hong Kong), and SYD
 
 
 
-The Check Status
---------------------
+###The Check Status
+
 
 The check status is calculated by determining if there is an agreement
 from a majority of the monitoring zones (two out of three monitoring

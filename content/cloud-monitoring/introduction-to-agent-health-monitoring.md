@@ -4,9 +4,9 @@ title: Introduction to Agent Health Monitoring
 type: article
 created_date: '2015-08-30'
 created_by: Constanze Kratel
-last_modified_date: '2015-12-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -28,8 +28,8 @@ and [Working with Rackspace Intelligence notification
 plans](/how-to/working-with-rackspace-intelligence-notification-plans)
 articles.
 
-How does agent health monitoring work?
---------------------------------------
+###How does agent health monitoring work?
+
 
 When an agent first connects to the Rackspace monitoring server, the
 server creates an agent.health check and alarm. The check and alarm are
@@ -54,8 +54,8 @@ checks on that entity are deleted. The deletion of entities is handled
 automatically for cases where Rackspace monitoring is integrated with
 other products, such as Cloud Servers.
 
-Responding to an alert
-----------------------
+###Responding to an alert
+
 
 Alerts are emitted when the monitoring server stops receiving the
 heartbeat metrics that are periodically submitted by the agent. To
@@ -77,14 +77,14 @@ procedures:
     Agent](/how-to/troubleshooting-the-rackspace-monitoring-agent).
 
 For a summary of the concepts mentioned in this article, read the
-<span>[Single Pane of Glass for Your IT
+[Single Pane of Glass for Your IT
 Ops](http://bit.ly/maas-intelligence) blog post or the [Getting Started
 with Rackspace
 Intelligence](/how-to/rackspace-intelligence)
-article.</span><span> </span>
+article. 
 
-Start using agent health monitoring
------------------------------------
+###Start using agent health monitoring
+
 
 The Agent Health Monitoring feature is initially offered at Limited
 Availability (LA). If you are interested in using this feature, submit a

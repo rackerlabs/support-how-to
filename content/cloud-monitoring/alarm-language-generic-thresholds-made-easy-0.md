@@ -4,9 +4,9 @@ title: Alarm Language - Generic Thresholds Made Easy
 type: article
 created_date: '2012-08-10'
 created_by: Daniel Dispaltro
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -61,15 +61,15 @@ respectively.*
 
 -   Don't run a DIY nagios server.
 -   Our [flexible alerting
-    language](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/alerts-language.html)
-    puts you in control, don&rsquo;t bother with an awkward JSON API for
+    language](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-language)
+    puts you in control, don't bother with an awkward JSON API for
     defining thresholds.
 -   Supports dual stacks, both IPv4 and IPv6.
 -   Send an alert to different [notification addresses depending on
-    severity](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-notification-plans.html).
+    severity](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
 -   Monitor your website from up to [5
-    different locations.](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-monitoring-zones.html)
-    Set the policy you&rsquo;d like to execute on mixed results.
+    different locations.](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#listing-monitoring-zones)
+    Set the policy you want to execute on mixed results.
 -   Reduce false alerts on network hiccups.
 -   Start monitoring faster and spend less sysadmin time on making sure
     that server stays up.

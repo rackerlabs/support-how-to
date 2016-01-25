@@ -1,35 +1,35 @@
 ---
 node_id: 4703
-title: Configure Rackspace Auto Scale web hooks with Rackspace Monitoring
+title: Configure Rackspace Autoscale web hooks with Rackspace Monitoring
 type: article
 created_date: '2015-06-04'
 created_by: Jake Coe
-last_modified_date: '2016-01-21'
-last_modified_by: Renee Rendon
-product: Rackspace Auto Scale
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-Auto Scale uses webhooks to initiate scaling events. A webhook is an
+Autoscale uses webhooks to initiate scaling events. A webhook is an
 industry-standard protocol for sending events between systems; for Auto
 Scale, they are used to execute policies. A webhook consists of an HTTP
 callback that is triggered by some user-defined event, such as an alarm
 that is set through Rackspace Monitoring or another monitoring service.
 When that event occurs, the source site makes an HTTP request to the URI
 configured for the webhook. Therefore, correct configuration of the
-webhooks is needed for the Auto Scale service to perform correctly.
+webhooks is needed for the Autoscale service to perform correctly.
 
-Before you begin
---------------------
+###Before you begin
 
-Before you can configure the webhooks, you must  [create an Auto Scale
+
+Before you can configure the webhooks, you must  [create an Autoscale
 group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group).
 
-****Create Auto Scale policies
-----------------------------------
+###Create Autoscale policies
 
-1.  In the Cloud Control Panel, select **Servers** &gt; **Auto Scale**.
-2.  Select your Auto Scale group from the list.
+
+1.  In the Cloud Control Panel, select **Servers** > **Autoscale**.
+2.  Select your Autoscale group from the list.
 3.  Scroll down to **Policies** and click **Create Policy**.
 4.  Create two policies, one for scaling up and one for scaling down.
     Specify the following values, and then click **Create Policy**:
@@ -42,10 +42,10 @@ group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-gr
         cooldown period to elapse, or the group's minimum cooldown to
         elapse, whichever is longer.
 
-**Create a webhook**
-------------------------
+###Create a webhook
 
-Create a corresponding webhook to activate each of the Auto Scale
+
+Create a corresponding webhook to activate each of the Autoscale
 policies you created.
 
 1.  On the Scaling Group details page, click the gear icon next to the
@@ -63,8 +63,8 @@ policies you created.
 
 
 
-**Set up Rackspace Monitoring**
------------------------------------
+###Set up Rackspace Monitoring
+
 
 1.  On the Scaling group details pages, click the cloud server at the
     bottom of the page.
@@ -74,12 +74,12 @@ policies you created.
 3.  Open Rackspace  Intelligence and click **Notify**.
 4.  Create a new **Notification Plan** called **AutoScale**.
 5.  Select the notification plan from the list and Select **Add
-    Notifications &gt; Create a new notification.**
+    Notifications > Create a new notification.**
 6.  In the popup dialog box, specify the following values:****
     -   **Name**: This name should match the webhook name that you chose
         earlier, for example, **ScaleUp**.
     -   **Type:** Select **Webhook**.
-    -   **URL:** Enter the webhook URL for your Auto Scale Policies. If
+    -   **URL:** Enter the webhook URL for your Autoscale Policies. If
         you did not copy this URL in an earlier step, you can view it by
         selecting the gear icon next to the policy name and selecting
         **View Webhooks**.

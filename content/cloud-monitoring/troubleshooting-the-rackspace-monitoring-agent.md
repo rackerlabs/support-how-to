@@ -4,9 +4,9 @@ title: Troubleshooting the Rackspace Monitoring Agent
 type: article
 created_date: '2012-11-13'
 created_by: Susan Million
-last_modified_date: '2016-01-06'
-last_modified_by: Rose Contreras
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -18,8 +18,8 @@ that is automatically detected by the agent. This identifier is unique
 for each account and is typically the ID of the cloud instance, but can
 be a unique string.
 
-Issue: The Rackspace Monitoring Agent is not connected to my server
--------------------------------------------------------------------
+###Issue: The Rackspace Monitoring Agent is not connected to my server
+
 
 This issue might have one of the following causes:
 
@@ -36,8 +36,8 @@ This issue might have one of the following causes:
 -   The monitoring agent is unable to determine the appropriate entity
     because there are duplicate entities associated with your account.
 
-Resolution steps
-----------------
+###Resolution steps
+
 
 Verify that the agent is installed and associated with your server by
 performing the following steps:
@@ -77,7 +77,7 @@ performing the following steps:
 
 ### Check for duplicate entities
 
-#### Use Raxmon to check for duplicate entities
+### Use Raxmon to check for duplicate entities
 
 You can use the Rackspace Monitoring Command Line Interface (Raxmon) to
 troubleshoot your monitoring agent. To install the Raxmon tool, read
@@ -87,11 +87,8 @@ CLI](/how-to/getting-started-with-rackspace-monitoring-cli).
 To troubleshoot a monitoring agent by using Raxmon, complete the
 following steps:
 
-1.  <div>
+1.  Create a config file in the following location: `~/.raxrc`
 
-    </div>
-
-    Create a config file in the following location: `~/.raxrc`
 2.  Populate the config file with the following content:
 
         [credentials]
@@ -130,7 +127,7 @@ following steps:
 6.  After Support has fixed the problem with duplicate entities, restart
     the monitoring agent, so that the changes can take full effect.
 
-#### Use cURL to check for duplicate entities
+### Use cURL to check for duplicate entities
 
 You can use cURL to check for duplicate entities.
 
@@ -139,8 +136,8 @@ To check for duplicate entities by using cURL, do the following:
 1.  Authenticate against the Rackspace Cloud API by issuing the
     following command at a command-line interface:
 
-        curl -s https://identity.api.rackspacecloud.com/v2.0/tokens -X 'POST' <br>
-            -d '{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"yourUserName", "apiKey":"yourApiKey"}}}' <br>
+        curl -s https://identity.api.rackspacecloud.com/v2.0/tokens -X 'POST' 
+            -d '{"auth":{"RAX-KSKEY:apiKeyCredentials":{"username":"yourUserName", "apiKey":"yourApiKey"}}}'
             -H "Content-Type: application/json" | python -m json.tool
 
     After a successful authentication, make sure to write down the
@@ -199,7 +196,7 @@ To check for duplicate entities by using cURL, do the following:
     with varying label cases. If duplicate entities exist, open a ticket
     with Support.
 
-### M<span>anually configure the Rackspace Monitoring agent to function behind an HTTPS proxy</span>
+### Manually configure the Rackspace Monitoring agent to function behind an HTTPS proxy
 
 If you need to connect the agent through an HTTP proxy, you can manually
 configure the Rackspace Monitoring agent to function behind an HTTPs
@@ -213,7 +210,7 @@ For information about the agent configuration file, see [Agent
 configuration
 file](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-configuration-file).
 
-Related information
+###Related information
 
 [About the Rackspace Monitoring
 Agent](/how-to/about-the-rackspace-monitoring-agent).

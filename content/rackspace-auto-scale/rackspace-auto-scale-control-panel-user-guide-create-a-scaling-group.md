@@ -1,30 +1,30 @@
 ---
 node_id: 3784
-title: Rackspace Auto Scale Control Panel User Guide - Create a scaling group
+title: Rackspace Autoscale Control Panel User Guide - Create a scaling group
 type: article
 created_date: '2013-11-18'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Renee Rendon
-product: Rackspace Auto Scale
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
 The preceding section,
 [Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts"),
-reviewed what Auto Scale does and the core concepts that drive it. This
+reviewed what Autoscale does and the core concepts that drive it. This
 section provides instructions for how to set the parameters for scaling
 policies through scaling group configuration. The scaling group
 configuration sets a number of parameters that affect how scaling
 policies operate.
 
-### <span>Create a scaling group</span>
+### Create a scaling group</span>
 
 1.  Log in to the Cloud Control Panel.
 
-2.  At the top of the panel, clock **Servers** &gt; **Auto Scale**.
+2.  At the top of the panel, clock **Servers** > **Autoscale**.
 
-3.  On the main **Auto Scale** page, click **Create Group**.
+3.  On the main **Autoscale** page, click **Create Group**.
 
     A page opens with areas for **Group Details**, **Configuration**,
     and **Scaling Policies**.
@@ -56,15 +56,14 @@ policies operate.
 8.  In the dialog box that opens, select the **Flavor Class** for the
     servers in the scaling group that corresponds to the server image
     that you selected. Use the widget to adjust the size for the servers
-    that will be created from that image and deployed in Auto Scale.
+    that will be created from that image and deployed in Autoscale.
     When you are done, click **Select Flavor**.
 9.  Click **Select Networks**.
-10. Int he dialog box that opens, select the networks for the servers in
+10. In the dialog box that opens, select the networks for the servers in
     the scaling group. The defaults are **PublicNet** and
     **ServiceNet**. Other network selections are displayed if you have
-    created them previously when creating a cloud server. <span>You must
-    include the </span><span
-    class="guimenuitem">**ServiceNet**</span><span> network in your
+    created them previously when creating a cloud server. You must
+    include the **ServiceNet** network in your
     configuration if you are going to use a load balancer so that the
     load balancer can retrieve the IP address of new servers.</span>
 11. When you are done, click **Select Networks**.
@@ -73,11 +72,10 @@ policies operate.
     A dialog box opens with the available load balancers for your
     scaling group. If no load balancers appear, click **Servers** &gt;
     **Load Balancers** tab in the control panel and create and save a
-    load balancer. The load balancer will then appear in Auto Scale and
-    you can select it. <span>You must include the </span><span
-    class="guimenuitem">**ServiceNet**</span><span> network in your
+    load balancer. The load balancer will then appear in Autoscale and
+    you can select it. You must include the **ServiceNet** network in your
     configuration if you use a load balancer so the load balancer can
-    retrieve the IP address of new servers.</span>
+    retrieve the IP address of new servers.
 
 13. *(Optional) *Select the load balancer to use in the scaling group
     and enter a value for **Server Port**, which is the port on which
@@ -102,7 +100,7 @@ policies operate.
     turning green by each server as it completes. When the scaling group
     has been created, the status is **Active**.
 
-### About the Auto Scale control panel
+### About the Autoscale control panel
 
 Following are a few things you should know about the pages in the Auto
 Scale control panel:
@@ -138,24 +136,21 @@ Scale control panel:
     Hover your mouse pointer over it to get pricing information.
 -   Links generally take you to a status or configuration page for the
     linked item. However, the configuration page that opens might be
-    outside of the **Servers &gt; Auto Scale** page and in a different
+    outside of the **Servers > Autoscale** page and in a different
     area of the Cloud Control Panel. For example, clicking a load
     balancer link takes you to the status page for that load balancer
     under the top-level **Load Balancer** page.
 
-------------------------------------------------------------------------
 
-####
+### User Guide sections
 
-#### User Guide sections
-
--   [Rackspace Auto Scale Control Panel User Guide -
+-   [Rackspace Autoscale Control Panel User Guide -
     Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
--   [Rackspace Auto Scale Control Panel User Guide -
+-   [Rackspace Autoscale Control Panel User Guide -
     Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
+-   [Rackspace Autoscale Control Panel User Guide - Create a scaling
     group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
+-   [Rackspace Autoscale Control Panel User Guide - Create a scaling
     policy](http://rackspace.com/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Creating Scaling Policies")
 
 
