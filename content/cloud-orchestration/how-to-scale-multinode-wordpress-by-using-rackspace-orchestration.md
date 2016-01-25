@@ -67,14 +67,14 @@ After the server is created and active, you need to make a few adjustments befor
 
 4. After you have logged in to the master server, change the directory to `/etc/lsyncd` and open the `lsyncd.conf.lua` file with `nano`.
 
-    ~~~
+
     cd /etc/lsyncd
     sudo nano lsyncd.conf.lua
-    ~~~
+
 
     The file's contents should look something like the following (you might have more sections depending on how many servers you have):
 
-    ~~~
+
     settings = {
        logfile    = "/var/log/lsyncd/lsyncd.log",
        statusFile = "/var/log/lsyncd/lsyncd-status.log",
@@ -88,7 +88,7 @@ After the server is created and active, you need to make a few adjustments befor
             excludeFrom="/etc/lsyncd/lsyncd.exclude",
             rsyncOps={"-rlpgoDvz", "-e", "/usr/bin/ssh -i /var/www/vhosts/iloveblog.rackspace.com/.ssh/id_rsa.lsyncd -o StrictHostKeyChecking=no"}
     }
-    ~~~
+
 
 5. Copy the last `sync{ ... }` section and paste a new copy at the end of the file.
 
@@ -97,7 +97,7 @@ After the server is created and active, you need to make a few adjustments befor
 
     The line to edit looks similar to `target="wp_user@10.176.129.22:/var/www/vhosts/iloveblog.rackspace.com/http_docs"`, as in the following example:
 
-    ~~~
+
     settings = {
        logfile    = "/var/log/lsyncd/lsyncd.log",
        statusFile = "/var/log/lsyncd/lsyncd-status.log",
@@ -118,19 +118,19 @@ After the server is created and active, you need to make a few adjustments befor
             excludeFrom="/etc/lsyncd/lsyncd.exclude",
             rsyncOps={"-rlpgoDvz", "-e", "/usr/bin/ssh -i /var/www/vhosts/iloveblog.rackspace.com/.ssh/id_rsa.lsyncd -o StrictHostKeyChecking=no"}
     }
-    ~~~
+
 
 7. When you are finished, press `Ctrl-o` and `Enter` to write the changes, and then press `Ctrl+x` to exit `nano`.
 
 8. Now that the configuration is updated, restart `lsyncd`.
 
-    ~~~
+
     sudo service lsyncd restart
-    ~~~
+
 
 9. Check the `lsyncd` log to verify that content is being pushed to the new server.
 
-    ~~~
+
     # cat /var/log/lsyncd/lsyncd.log
     ....
     Fri Nov  8 23:20:44 2013 Normal: recursive startup rsync: /var/www/vhosts/iloveblog.rackspace.com/http_docs/ -> wp_user@10.176.130.89:/var/www/vhosts/iloveblog.rackspace.com/http_docs/
@@ -158,7 +158,7 @@ After the server is created and active, you need to make a few adjustments befor
     sent 105017 bytes  received 261 bytes  70185.33 bytes/sec
     total size is 12563838  speedup is 119.34
     Fri Nov  8 23:20:45 2013 Normal: Startup of '/var/www/vhosts/iloveblog.rackspace.com/http_docs/' finished.
-    ~~~
+    
 
     You should see something like the preceding example log, with the new server's IP address in the log and a list of files that have been synchronized since `lsyncd` restarted.
 
