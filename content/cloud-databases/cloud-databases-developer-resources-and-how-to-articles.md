@@ -10,9 +10,9 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-The Rackspace [Knowledge
-Center](/how-to/) provides how-to
-articles, getting started guides, code samples, security best practices
+The Rackspace [Support
+network](/how-to/) provides how-to
+articles, code samples, security best practices
 and hundreds of tips for getting the most out of your Rackspace Cloud
 Databases.
 
@@ -73,6 +73,3 @@ deployment, configuration, patching, backups, restores, and monitoring.
 -   Test and Deployment Images:
     -   <http://c629296.r96.cf2.rackcdn.com/ubuntu-10.04-x86_64-openvz.tar.gz>
     -   <http://c629296.r96.cf2.rackcdn.com/lucid_ext3_openvz.box>
-
-
-
