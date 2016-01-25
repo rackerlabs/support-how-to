@@ -12,10 +12,6 @@ product_url: cloud-servers
 
 The following permissions matrix displays specific permissions for the roles in Cloud Feeds. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[**API Documentation**](https://developer.rackspace.com/docs/)
-
-[**Related Knowledge Center Articles**](/how-to/cloud-feeds-faq)
-
 ### As of January 20, 2015
 
 Role | Private Feeds: Get or Post | Other: Get or Post
@@ -29,6 +25,7 @@ Any other users with just valid token, irrespective of the role | &nbsp; | &nbsp
 
 **Note:** Beginning January 20, users must have one of the cloudfeeds roles to access feeds (read or write).
 
-**<** [**Permission Matrices for RBAC**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
-
-&nbsp;
+### Related articles
+-  [API Documentation](https://developer.rackspace.com/docs/)
+-  [Cloud Feeds FAQ](/how-to/cloud-feeds-faq)
+-  [Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
