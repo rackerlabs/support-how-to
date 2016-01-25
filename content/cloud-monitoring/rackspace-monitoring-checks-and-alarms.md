@@ -4,9 +4,9 @@ title: Rackspace Monitoring Checks and Alarms
 type: article
 created_date: '2013-08-16'
 created_by: Jim Culbreath
-last_modified_date: '2016-01-04'
-last_modified_by: Mike Asthalter
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -34,8 +34,8 @@ The checks are listed in two separate groups:
     of the server. To learn more, read [Install the Rackspace Monitoring
     Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent "Install the Rackspace Monitoring Agent").
 
-Check and alarm settings
-------------------------
+###Check and alarm settings
+
 
 Each check and alarm has selectable options.
 

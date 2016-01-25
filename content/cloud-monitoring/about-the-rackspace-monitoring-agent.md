@@ -4,7 +4,7 @@ title: About the Rackspace Monitoring Agent
 type: article
 created_date: '2012-11-13'
 created_by: Susan Million
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
 product_url: cloud-monitoring
@@ -54,7 +54,7 @@ on the Server Details page of the Cloud Control Panel:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ServerDetails_1.png" width="569" height="416" />
 
-#### Related Information
+### Related Information
 
 [Install the Monitoring
 Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent "Install the Monitoring Agent Manually")

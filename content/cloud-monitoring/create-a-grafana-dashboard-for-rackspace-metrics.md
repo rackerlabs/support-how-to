@@ -4,9 +4,9 @@ title: Create a Grafana dashboard for Rackspace Metrics
 type: article
 created_date: '2015-10-19'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-15'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -21,8 +21,8 @@ Metrics by using a custom Cloud Orchestration template. It also provides
 instructions on how to upload a Grafana dashboard for a database
 instance.
 
-Deploy the Grafana instance for Rackspace Metrics
--------------------------------------------------
+###Deploy the Grafana instance for Rackspace Metrics
+
 
 To create a Grafana dashboard complete the following steps:
 
@@ -74,8 +74,8 @@ dashboard. Be sure to record this information.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-metrics-up1.png" width="408" height="616" />
 
-Use the Grafana dashboard
--------------------------
+###Use the Grafana dashboard
+
 
 Now that you have created your stack, you can access the Grafana
 dashboard that contains all the relevant information for your stack.
@@ -131,8 +131,8 @@ The entity ID directly follows the entities parameter. Entity IDs always
 start with the letters *en*. The check ID directly follows
 the checks parameter. Check IDs always start with the letters *ch*.
 
-Upload a Grafana dashboard for database instances
--------------------------------------------------
+###Upload a Grafana dashboard for database instances
+
 
 Rackspace has created a Grafana dashboard to help you get set up with
 your Cloud Databases MySQL instances.
@@ -157,8 +157,8 @@ complete the following steps:
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-mysql-data.png" width="428" height="337" />
 
-Grafana FAQ
------------
+###Grafana FAQ
+
 
 Q: How much does Grafana cost?
 

@@ -4,9 +4,9 @@ title: Deploying Rackspace Metrics
 type: article
 created_date: '2015-02-05'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 

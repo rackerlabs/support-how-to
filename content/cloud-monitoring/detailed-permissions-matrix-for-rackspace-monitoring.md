@@ -4,9 +4,9 @@ title: Detailed Permissions Matrix for Rackspace Monitoring
 type: article
 created_date: '2013-04-10'
 created_by: Megan Meza
-last_modified_date: '2016-01-04'
+last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Cloud Monitoring
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -45,33 +45,9 @@ Admin
 
 ### ACCOUNT
 
-<span>Get Account</span>
+###Get Account
 
-<span>GET/v1.0/account</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Returns account information.</span>
-
-<span>Update Account</span>
-
-<span>PUT/v1.0/account</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Updates properties on an account.</span>
-
-<span>List Audits</span>
-
-<span>GET/v1.0/audits</span>
+GET/v1.0/account
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -79,11 +55,19 @@ Admin
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists audits for this account.</span>
+Returns account information.
 
-<span>Get Limits</span>
+###Update Account
 
-<span>GET/v1.0/limits</span>
+PUT/v1.0/account
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Updates properties on an account.
+
+###List Audits
+
+GET/v1.0/audits
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -91,11 +75,23 @@ Admin
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Returns account resource limits.</span>
+Lists audits for this account.
 
-<span>Get Usage</span>
+###Get Limits
 
-<span>GET/v1.0/usage</span>
+GET/v1.0/limits
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Returns account resource limits.
+
+###Get Usage
+
+GET/v1.0/usage
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -103,26 +99,14 @@ Admin
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Retrieves usage</span><span> information for a given period of
-time. Defaults to last seven days.</span>
+Retrieves usage information for a given period of
+time. Defaults to last seven days.
 
 ### AGENTS
 
-<span>List Agents</span>
+###List Agents
 
-<span>GET/v1.0/agents</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists all agents that have connected in the last 30 days.</span>
-
-<span>Fetch Agent</span>
-
-<span>GET/v1.0/agents/:agentId</span>
+GET/v1.0/agents
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -130,23 +114,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists a single agent.</span>
+Lists all agents that have connected in the last 30 days.
 
-<span>List Agent Connections</span>
+###Fetch Agent
 
-<span>GET/v1.0/agents/:agentId/connections</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists the connections for a single agent.</span>
-
-<span>Fetch Agent Connection</span>
-
-<span>GET/v1.0/agents/:agentId/connections/:connId</span>
+GET/v1.0/agents/:agentId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -154,25 +126,37 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists a single connection.</span>
+Lists a single agent.
+
+###List Agent Connections
+
+GET/v1.0/agents/:agentId/connections
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Lists the connections for a single agent.
+
+###Fetch Agent Connection
+
+GET/v1.0/agents/:agentId/connections/:connId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Lists a single connection.
 
 ### AGENT HOST INFORMATION
 
-<span>Get Agent CPU Information</span>
+###Get Agent CPU Information
 
-<span>GET/v1.0/agents/:agentId/host\_info/cpus</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets information on the host's CPUs.</span>
-
-<span>Get Agent Memory Information</span>
-
-<span>GET/v1.0/agents/:agentId/host\_info/memory</span>
+GET/v1.0/agents/:agentId/host\_info/cpus
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -180,23 +164,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information on the host's memory.</span>
+Gets information on the host's CPUs.
 
-<span>Get Agent Disk Information</span>
+###Get Agent Memory Information
 
-<span>GET/v1.0/agents/:agentId/host\_info/disks</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets information on the host's disks.</span>
-
-<span>Get Agent Network Information</span>
-
-<span>GET/v1.0/agents/:agentId/host\_info/network\_interfaces</span>
+GET/v1.0/agents/:agentId/host\_info/memory<
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -204,23 +176,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information on the host's network interfaces.</span>
+Gets information on the host's memory.
 
-<span>Get Agent Filesystem Information</span>
+Get Agent Disk Information
 
-<span>GET/v1.0/agents/:agentId/host\_info/filesystems</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets information on the host's filesystems.</span>
-
-<span>Get Agent Process Information</span>
-
-<span>GET/v1.0/agents/:agentId/host\_info/processes</span>
+GET/v1.0/agents/:agentId/host\_info/disks
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -228,23 +188,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information on the host's processes.</span>
+Gets information on the host's disks.
 
-<span>Get Agent System Information</span>
+###Get Agent Network Information
 
-<span>GET/v1.0/agents/:agentId/host\_info/system</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets system information for the host.</span>
-
-<span>Get Logged-in User Information</span>
-
-<span>GET/agents/agentId/host\_info/who</span>
+GET/v1.0/agents/:agentId/host\_info/network\_interfaces
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -252,23 +200,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information on users who are logged into the host.</span>
+Gets information on the host's network interfaces.
 
-<span>Get Agent CPU Information by Entity</span>
+###Get Agent Filesystem Information
 
-<span>GET/v1.0/entities/:entityId/agent/host\_info/cpus</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span><span>Gets agent CPU information by entity.</span> </span>
-
-<span>Get Agent Memory Information by Entity</span>
-
-<span>GET/v1.0/entities/:entityId/agent/host\_info/memory</span>
+GET/v1.0/agents/:agentId/host\_info/filesystems
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -276,23 +212,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span><span>Gets agent memory information by entity.</span> </span>
+Gets information on the host's filesystems.
 
-<span>Get Agent Disk Information by Entity</span>
+Get Agent Process Information
 
-<span>GET/v1.0/entities/:entityId/agent/host\_info/disks</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets agent disk information by entity.</span>
-
-<span>Get Agent Filesystem Information by Entity</span>
-
-<span>GET/v1.0/entities/:entityId/agent/host\_info/filesystems</span>
+GET/v1.0/agents/:agentId/host\_info/processes
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -300,23 +224,11 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span><span>Gets agent filesystem information by entity.</span> </span>
+Gets information on the host's processes.
 
-<span>Get Agent Network Information by Entity</span>
+###Get Agent System Information
 
-<span>GET/v1.0/entities/:entityId/agent/host\_info/network\_interfaces</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span><span>Gets agent network information by entity.</span></span>
-
-<span>Get Agent Process Information by Entity</span>
-
-<span>GET/v1.0/entities/:entityId/agent/host\_info/processes</span>
+GET/v1.0/agents/:agentId/host\_info/system
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -324,11 +236,23 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets agent process information by entity.</span>
+Gets system information for the host.
 
-<span>Get Agent System Information by Entity</span>
+###Get Logged-in User Information
 
-<span>GET/v1.0/entities/:entityId/agent/host\_info/system</span>
+GET/agents/agentId/host\_info/who
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets information on users who are logged into the host.
+
+Get Agent CPU Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/cpus
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -336,40 +260,108 @@ time. Defaults to last seven days.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets agent system information by entity.</span>
+Gets agent CPU information by entity.
+
+###Get Agent Memory Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/memory
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets agent memory information by entity.
+
+###Get Agent Disk Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/disks
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets agent disk information by entity.
+
+###Get Agent Filesystem Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/filesystems
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets agent filesystem information by entity.
+
+###Get Agent Network Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/network\_interfaces
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets agent network information by entity.
+
+Get Agent Process Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/processes
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets agent process information by entity.
+
+###Get Agent System Information by Entity
+
+GET/v1.0/entities/:entityId/agent/host\_info/system
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets agent system information by entity.
 
 ### AGENT TARGETS
 
-<span>List Agent Check Targets</span>
+###List Agent Check Targets
 
-<span>GET/entities/entityId/agent/check\_types/*agentCheckType*/targets</span>
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+GET/entities/entityId/agent/check\_types/*agentCheckType*/targets
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Enumerates the devices allowed for the specified agent check type
-on the server where the agent is installed.</span>
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Enumerates the devices allowed for the specified agent check type
+on the server where the agent is installed.
 
 ### AGENT TOKENS
 
-<span>List Agent Tokens</span>
+###List Agent Tokens
 
-<span>GET/v1.0/agent\_tokens</span>
-
-
-
-
+GET/v1.0/agent\_tokens
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists the agent tokens.</span>
+Lists the agent tokens.
 
-<span>Get Agent Token</span>
+###Get Agent Token
 
-<span>GET/v1.0/agent\_tokens/:tokenId</span>
+GET/v1.0/agent\_tokens/:tokenId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -377,35 +369,27 @@ on the server where the agent is installed.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information for a single agent token.</span>
+Gets information for a single agent token.
 
-<span>Update Agent Token</span>
+###Update Agent Token
 
-<span>PUT/v1.0/agent\_tokens/:tokenId</span>
-
-
-
-
+PUT/v1.0/agent\_tokens/:tokenId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Updates a token with the specified tokenId (label).</span>
+Updates a token with the specified tokenId (label).
 
-<span>Delete Agent Token</span>
+###Delete Agent Token
 
-<span>DELETE/v1.0/agent\_tokens/:tokenId</span>
-
-
-
-
+DELETE/v1.0/agent\_tokens/:tokenId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Deletes the specified agent token from your account.</span>
+Deletes the specified agent token from your account.
 
-<span>Create Agent Token</span>
+###Create Agent Token
 
-<span>POST/v1.0/agent\_tokens</span>
+POST/v1.0/agent\_tokens
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -413,25 +397,13 @@ on the server where the agent is installed.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Creates a new agent token.</span>
+Creates a new agent token.
 
 ### MONITORING ZONES
 
-<span>List Monitoring Zones</span>
+###List Monitoring Zones
 
-<span>GET/v1.0/monitoring\_zones</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists the monitoring zones.</span>
-
-<span>Get Monitoring Zone</span>
-
-<span>GET/v1.0/monitoring\_zones/:monitoringZoneId</span>
+GET/v1.0/monitoring\_zones
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -439,11 +411,23 @@ on the server where the agent is installed.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information for a single monitoring zone.</span>
+Lists the monitoring zones.
 
-<span>Execute Traceroute</span>
+###Get Monitoring Zone
 
-<span>POST/v1.0/monitoring\_zones/:monitoringZoneId/traceroute</span>
+GET/v1.0/monitoring\_zones/:monitoringZoneId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets information for a single monitoring zone.
+
+###Execute Traceroute
+
+POST/v1.0/monitoring\_zones/:monitoringZoneId/traceroute
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -451,40 +435,28 @@ on the server where the agent is installed.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Performs a traceroute from a collector in the specified monitoring
-zones.</span>
+Performs a traceroute from a collector in the specified monitoring
+zones.
 
 ### CHANGELOGS
 
-<span>List Alarm Changelogs</span>
+###List Alarm Changelogs
 
-<span>GET/v1.0/changelogs/alarms</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+GET/v1.0/changelogs/alarms
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists alarm changelogs for this account.</span>
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Lists alarm changelogs for this account.
 
 ### ENTITIES
 
-<span>List Entities</span>
+###List Entities
 
-<span>GET/v1.0/entities</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists the entities for this particular account.</span>
-
-<span>Get Entity</span>
-
-<span>GET/v1.0/entities/:entityId</span>
+GET/v1.0/entities
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -492,124 +464,100 @@ zones.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Retrieves the current state of an entity.</span>
+Lists the entities for this particular account.
 
-<span>Update Entity</span>
+###Get Entity
 
-<span>PUT/v1.0/entities/:entityId</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Updates an entity specified by the entityId.</span>
-
-<span>Delete Entity</span>
-
-<span>DELETE/v1.0/entities/:entityId</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Deletes an entity from your account. Also deletes any checks and
-alarms defined for that entity.</span>
-
-<span>Create Entity</span>
-
-<span>POST/v1.0/entities</span>
-
-
+GET/v1.0/entities/:entityId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Creates a new entity.</span>
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Retrieves the current state of an entity.
+
+###Update Entity
+
+PUT/v1.0/entities/:entityId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Updates an entity specified by the entityId.
+
+###Delete Entity
+
+DELETE/v1.0/entities/:entityId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Deletes an entity from your account. Also deletes any checks and
+alarms defined for that entity.
+
+###Create Entity
+
+POST/v1.0/entities
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Creates a new entity.
 
 ### CHECKS
 
-<span>List Checks</span>
+###List Checks
 
-<span>GET/v1.0/entities/:entityId/checks</span>
-
-
+GET/v1.0/entities/:entityId/checks
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists the checks associated with a given entityId.</span>
+Lists the checks associated with a given entityId.
 
-<span>Get Check</span>
+###Get Check
 
-<span>GET/v1.0/entities/:entityId/checks/:checkId</span>
-
-
+GET/v1.0/entities/:entityId/checks/:checkId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Returns the specified check.</span>
+Returns the specified check.
 
-<span>Update Check</span>
+###Update Check
 
-<span>PUT/v1.0/entities/:entityId/checks/:checkId</span>
-
-
-
-
+PUT/v1.0/entities/:entityId/checks/:checkId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Updates a check with the specified checkId.</span>
+Updates a check with the specified checkId.
 
-<span>Delete Check</span>
+###Delete Check
 
-<span>DELETE/v1.0/entities/:entityId/checks/:checkId</span>
-
-
-
-
+DELETE/v1.0/entities/:entityId/checks/:checkId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Deletes a check from your account.</span>
+Deletes a check from your account.
 
-<span>Create Check</span>
+###Create Check
 
-<span>POST/v1.0/entities/:entityId/checks</span>
-
-
+POST/v1.0/entities/:entityId/checks
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Creates a new check and associates it with an entity using the
+Creates a new check and associates it with an entity using the
 parameters listed
-in [Attributes.](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#attributes "Table 4.3. Attributes")</span>
+in [Attributes.](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#attributes "Table 4.3. Attributes")
 
-<span>Test Existing Check</span>
+###Test Existing Check
 
-<span>POST/v1.0/entities/:entityId/checks/:checkId/test</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Tests a check inline.</span>
-
-<span>Test New Check</span>
-
-<span>POST/v1.0/entities/:entityId/test-check</span>
+POST/v1.0/entities/:entityId/checks/:checkId/test
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -617,25 +565,25 @@ in [Attributes.](https://developer.rackspace.com/docs/cloud-monitoring/v1/develo
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Tests a check before creating it.</span>
+Tests a check inline.
+
+###Test New Check
+
+POST/v1.0/entities/:entityId/test-check
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Tests a check before creating it.
 
 ### ALARMS
 
-<span>List Alarms</span>
+###List Alarms
 
-<span>GET/v1.0/entities/:entityId/alarms</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists the alarms on the specified entity.</span>
-
-<span>Get Alarm</span>
-
-<span>GET/v1.0/entities/:entityId/alarms/:alarmId</span>
+GET/v1.0/entities/:entityId/alarms
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -643,78 +591,67 @@ in [Attributes.](https://developer.rackspace.com/docs/cloud-monitoring/v1/develo
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information for a single alarm.</span>
+Lists the alarms on the specified entity.
 
-<span>Update Alarm</span>
+###Get Alarm
 
-<span>PUT/v1.0/entities/:entityId/alarms/:alarmId</span>
-
-
-
-
+GET/v1.0/entities/:entityId/alarms/:alarmId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Updates an alarm with the specified alarmId. Partial updates to an
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets information for a single alarm.
+
+###Update Alarm
+
+PUT/v1.0/entities/:entityId/alarms/:alarmId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Updates an alarm with the specified alarmId. Partial updates to an
 alarm are acceptable. You may specify only the parameters you would like
-to update.</span>
+to update.
 
-<span>Delete Alarm</span>
+###Delete Alarm
 
-<span>DELETE/v1.0/entities/:entityId/alarms/:alarmId</span>
-
-
-
-
+DELETE/v1.0/entities/:entityId/alarms/:alarmId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Deletes an alarm from your account.</span>
+Deletes an alarm from your account.
 
-<span>Create Alarm</span>
+###Create Alarm
 
-<span>POST/v1.0/entities/:entityId/alarms</span>
-
-
+POST/v1.0/entities/:entityId/alarms
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Creates a new alarm for the specified entity. Specify the alarm's
+Creates a new alarm for the specified entity. Specify the alarm's
 characteristics using a valid set of parameters from the table shown in
-the [Attributes](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarms "Table 4.10. Attributes").</span>
+the [Attributes](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarms "Table 4.10. Attributes").
 
-<span>Test New Alarm</span>
+###Test New Alarm
 
-<span>POST/v1.0/entities/:entityId/test-alarm</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+POST/v1.0/entities/:entityId/test-alarm
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Tests runs an alarm. </span>
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Tests runs an alarm. 
 
 ### ALARM NOTIFICATION HISTORY
 
-<span>List Check IDs for Alarm</span>
+###List Check IDs for Alarm
 
-<span>GET/v1.0/entities/:entityId/alarms/:alarmId/notification\_history</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>List checks for which alarm notification history is
-available. </span>
-
-<span>List Alarm Notification History</span>
-
-<span>GET/v1.0/entities/:entityId/alarms/:alarmId/notification\_history/:checkId</span>
+GET/v1.0/entities/:entityId/alarms/:alarmId/notification\_history
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -722,12 +659,25 @@ available. </span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists alarm notification history for a given entity, alarm and
-check.</span>
+List checks for which alarm notification history is
+available. 
 
-<span>Get Alarm Notification History</span>
+###List Alarm Notification History
 
-<span>GET/v1.0/entities/:entityId/alarms/:alarmId/notification\_history/:checkId/:uuid</span>
+GET/v1.0/entities/:entityId/alarms/:alarmId/notification\_history/:checkId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Lists alarm notification history for a given entity, alarm and
+check.
+
+###Get Alarm Notification History
+
+GET/v1.0/entities/:entityId/alarms/:alarmId/notification\_history/:checkId/:uuid
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -735,25 +685,13 @@ check.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Retrieves a single alarm notification history item. </span>
+Retrieves a single alarm notification history item. 
 
 ### CHECK TYPES
 
-<span>List Check Types</span>
+###List Check Types
 
-<span>GET/v1.0/check\_types</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists all the available check types.</span>
-
-<span>Get Check Type</span>
-
-<span>GET/v1.0/check\_types/:checkTypeId</span>
+GET/v1.0/check\_types
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -761,39 +699,39 @@ check.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Retrieves information for a single check type. </span>
+Lists all the available check types.
+
+###Get Check Type
+
+GET/v1.0/check\_types/:checkTypeId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Retrieves information for a single check type. 
 
 ### NOTIFICATION TYPES
 
-<span>List Notification Types</span>
+###List Notification Types
 
-<span>GET/v1.0/notification\_types</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+GET/v1.0/notification\_types
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists available notification types.</span>
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Lists available notification types.
 
 ### NOTIFICATION
 
-<span>Get Notification Type</span>
+###Get Notification Type
 
-<span>GET/v1.0/notification\_types/:notificationTypeId</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets information for a single notification type.</span>
-
-<span>List Notifications</span>
-
-<span>GET/v1.0/notifications</span>
+GET/v1.0/notification\_types/:notificationTypeId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -801,59 +739,11 @@ check.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Lists the notifications for this particular account.</span>
+Gets information for a single notification type.
 
-<span>Get Notification</span>
+###List Notifications
 
-<span>GET/v1.0/notifications/:notificationId</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets information for a single notification.</span>
-
-<span>Update Notification</span>
-
-<span>PUT/v1.0/notifications/:notificationId</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Updates a notification with the specified notificationId.</span>
-
-<span>Delete Notification</span>
-
-<span>DELETE/v1.0/notifications/:notificationId</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Deletes a notification from your account.</span>
-
-<span>Create Notification</span>
-
-<span>POST/v1.0/notifications</span>
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Creates a notification. </span>
-
-<span>Test Existing Notification</span>
-
-<span>POST/v1.0/notifications/:notificationId/test</span>
+GET/v1.0/notifications
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -861,11 +751,49 @@ check.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Tests an existing notification. </span>
+Lists the notifications for this particular account.
 
-<span>Test New Notification</span>
+###Get Notification
 
-<span>POST/v1.0/test-notification</span>
+GET/v1.0/notifications/:notificationId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets information for a single notification.
+
+###Update Notification
+
+PUT/v1.0/notifications/:notificationId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Updates a notification with the specified notificationId.
+
+###Delete Notification
+
+DELETE/v1.0/notifications/:notificationId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Deletes a notification from your account.
+
+###Create Notification
+
+POST/v1.0/notifications
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Creates a notification. 
+
+###Test Existing Notification
+
+POST/v1.0/notifications/:notificationId/test
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -873,25 +801,25 @@ check.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Tests a notification. </span>
+Tests an existing notification. 
+
+###Test New Notification
+
+POST/v1.0/test-notification
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Tests a notification. 
 
 ### NOTIFICATION PLANS
 
-<span>List Notification Plan</span>
+###List Notification Plan
 
-<span>GET/v1.0/notification\_plans</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists the notification plans for this particular account. </span>
-
-<span>Get Notification Plan</span>
-
-<span>GET/v1.0/notification\_plans/:notificationPlanId</span>
+GET/v1.0/notification\_plans
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -899,63 +827,53 @@ check.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets information for a single notification plan.</span>
+Lists the notification plans for this particular account. 
 
-<span>Update Notification Plans</span>
+###Get Notification Plan
 
-<span>PUT/v1.0/notification\_plans/:notificationPlanId</span>
-
-
-
-
+GET/v1.0/notification\_plans/:notificationPlanId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Updates a notification plan with the specified notificationPlanId.
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets information for a single notification plan.
+
+###Update Notification Plans
+
+PUT/v1.0/notification\_plans/:notificationPlanId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Updates a notification plan with the specified notificationPlanId.
 Partial updates to a notification plan are acceptable. You may specify
-only the parameters you would like to update. </span>
+only the parameters you would like to update. 
 
-<span>Delete Notification Plan</span>
+###Delete Notification Plan
 
-<span>DELETE/v1.0/notification\_plans/:notificationPlanId</span>
-
-
-
-
+DELETE/v1.0/notification\_plans/:notificationPlanId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Deletes a notification plan. </span>
+Deletes a notification plan. 
 
-<span>Create Notification Plan</span>
+###Create Notification Plan
 
-<span>POST/v1.0/notification\_plans</span>
-
-
+POST/v1.0/notification\_plans
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Creates a notification plan. </span>
+Creates a notification plan. 
 
 ### METRICS
 
-<span>List Metrics</span>
+###List Metrics
 
-<span>GET/entities/entityId/checks/checkId/metrics</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Lists the metrics associated with the specified check.</span>
-
-<span>Get Data Points for Plot</span>
-
-<span>GET/v1.0/entities/:entityId/checks/:checkId/metrics/:metricName/plot</span>
+GET/entities/entityId/checks/checkId/metrics
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -963,26 +881,26 @@ only the parameters you would like to update. </span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Queries for all data points of </span>*`metricName`*<span> between
-two points in time.</span>
+Lists the metrics associated with the specified check.
+
+###Get Data Points for Plot
+
+GET/v1.0/entities/:entityId/checks/:checkId/metrics/:metricName/plot
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Queries for all data points of *`metricName`* between
+two points in time.
 
 ### ALARM EXAMPLES
 
-<span>List Alarm Examples</span>
+###List Alarm Examples
 
-<span>GET/v1.0/alarm\_examples</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Returns a list of alarm examples. </span>
-
-<span>Get Alarm Example</span>
-
-<span>GET/v1.0/alarm\_examples/:alarmExampleId</span>
+GET/v1.0/alarm\_examples
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -990,11 +908,23 @@ two points in time.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Gets a specific alarm example. </span>
+Returns a list of alarm examples. 
 
-<span>Bind Alarm Example</span>
+###Get Alarm Example
 
-<span>POST/v1.0/alarm\_examples/:alarmExampleId</span>
+GET/v1.0/alarm\_examples/:alarmExampleId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Gets a specific alarm example. 
+
+###Bind Alarm Example
+
+POST/v1.0/alarm\_examples/:alarmExampleId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -1002,39 +932,27 @@ two points in time.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Evaluates a specific alarm example. </span>
+Evaluates a specific alarm example. 
 
 ### VIEWS
 
-<span>List Overview</span>
+###List Overview
 
-<span>GET/v1.0/views/overview</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+GET/v1.0/views/overview
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Returns the overview</span><span> view for this account.</span>
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Returns the overview view for this account.
 
 ### SUPPRESSIONS
 
-<span>Get Suppression</span>
+###Get Suppression
 
-<span>GET/v1.0/suppressions/:suppressionId</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
-
-<span>Gets details for a specific suppression.</span>
-
-<span>List Suppressions</span>
-
-<span>GET/v1.0/suppressions</span>
+GET/v1.0/suppressions/:suppressionId
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
@@ -1042,90 +960,86 @@ two points in time.</span>
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Returns a list of suppressions.</span>
+Gets details for a specific suppression.
 
-<span>Create Suppression</span>
+###List Suppressions
 
-<span>POST/v1.0/suppressions</span>
-
-
-
-
+GET/v1.0/suppressions
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Creates a suppression.</span>
-
-<span>Update Suppression</span>
-
-<span>PUT/v1.0/suppressions/:suppressionId</span>
-
-
-
-
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Updates a specific suppression.</span>
+Returns a list of suppressions.
 
-<span>Delete Suppression</span>
+###Create Suppression
 
-<span>DELETE/v1.0/suppressions/:suppressionId</span>
-
-
-
-
+POST/v1.0/suppressions
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
 
-<span>Deletes a specific suppression.</span>
+Creates a suppression.
+
+###Update Suppression
+
+PUT/v1.0/suppressions/:suppressionId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Updates a specific suppression.
+
+###Delete Suppression
+
+DELETE/v1.0/suppressions/:suppressionId
+
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_6.png" width="43" height="41" />
+
+Deletes a specific suppression.
 
 
 
-Cloud Monitoring Terminology
---------------------------------
+###Cloud Monitoring Terminology
+
 
 ### Agent
 
-<span>A monitoring daemon that resides on the server being monitored.
+A monitoring daemon that resides on the server being monitored.
 The agent gathers metrics based on agent checks and pushes them to Cloud
-Monitoring.</span>
+Monitoring.
 
-### <span>Agent Token</span>
+### Agent Token
 
-<span>An authentication token used to identify the agent when it
-communicates with Cloud Monitoring.</span>
+An authentication token used to identify the agent when it
+communicates with Cloud Monitoring.
 
-### <span>Alarm</span>
+### Alarm
 
-<span>An alarm contains a set of rules that determine when a
-notification is triggered.</span>
+An alarm contains a set of rules that determine when a
+notification is triggered.
 
-### <span>Check</span>
+### Check
 
-<span>Checks explicitly specify how you want to monitor an
-entity.</span>
+Checks explicitly specify how you want to monitor an
+entity.
 
-### <span>Entity</span>
+### Entity
 
-<span>An entity is a resource that you want to monitor. Some examples
-are a server, a website, or a service.</span>
+An entity is a resource that you want to monitor. Some examples
+are a server, a website, or a service.
 
-### <span>Notification</span>
+### Notification
 
-<span>A notification is an informational message sent to one or more
-addresses when an alarm is triggered.</span>
+A notification is an informational message sent to one or more
+addresses when an alarm is triggered.
 
-### <span>RESTful</span>
+### RESTful
 
-<span>A type of web service API that uses Representational State
+A type of web service API that uses Representational State
 Transfer. REST is the architectural style for hypermedia systems used
-for the World Wide Web.</span>
+for the World Wide Web.
 
 
 
-[&lt; Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
---------------------------------------------------------------------------------------------------------------------------------------------
-
-<span> </span>
-
+[Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)

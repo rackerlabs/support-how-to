@@ -4,9 +4,9 @@ title: Troubleshooting Alarms
 type: article
 created_date: '2012-09-04'
 created_by: Susan Million
-last_modified_date: '2013-12-11'
-last_modified_by: Kyle Laffoon
-product: Cloud Monitoring
+last_modified_date: '2016-01-22'
+last_modified_by: Constanze Kratel
+product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
 
@@ -15,8 +15,8 @@ an alarm is triggered and you'll receive a Warning or Critical email
 notification for the monitored resource. This article describes some
 simple troubleshooting steps that can help you diagnose the problem.
 
-Ping Checks
------------
+###Ping Checks
+
 
 Ping checks typically monitor a server. If your ping check alarm is
 triggered, you should immediately try to contact your server using the
@@ -31,8 +31,8 @@ The following ehow article provides some helpful information about how
 to read the results of a ping test: [How to Read Ping Test
 Results](http://www.ehow.com/how_8241153_read-ping-test-results.html).
 
-HTTP Checks
------------
+###HTTP Checks
+
 
 The HTTP check is used to check websites. If you receive a notification
 from an HTTP check, try the following preliminary troubleshooting steps:
@@ -72,8 +72,8 @@ The output should look something like this:
     Server: Apache Date: Tue, 04 Sep 2012 20:33:51 GMT
     Connection: keep-alive Set-Cookie: target=us; path=/; domain=.your_domain.com Expires: Tue, 04 Sep 2012 21:00:00 GMT
 
-TCP Checks
-----------
+###TCP Checks
+
 
 TCP checks monitor ports. If an alarm is triggered for a TCP check, try
 to use Telnetto communicate with the target or scan your target for the
@@ -94,8 +94,8 @@ example of how to use Telenet to communicate with the default port
 
 To exit telnet, type Ctrl  \], press Enter, and then type **quit**.
 
-Contacting Rackspace Technical Support
---------------------------------------
+###Contacting Rackspace Technical Support
+
 
 If you're unable to solve the problem using the steps outlined in this
 article, contact Rackspace Technical Support by using the Cloud Control
