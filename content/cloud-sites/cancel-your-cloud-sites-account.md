@@ -32,8 +32,7 @@ from our systems when we process the account closure. If you want your
 data removed immediately, complete the deletion process before
 submitting a cancellation request.</span>
 
-To cancel your account
-----------------------
+### To cancel your account
 
 1.  Log in to the [Cloud Sites Control
     Panel](https://manage.rackspacecloud.com/).
