@@ -34,7 +34,7 @@ The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unform
         mdadm --create --verbose /dev/md0 --level=stripe --raid-devices=2 /dev/sdb /dev/sdc
         mkfs.ext4 /dev/md0
 
-4. Add /data mount point entry to fstab:
+4. Add /data mount point entry to `fstab`:
 
         mkdir /data
         echo "UUID=`blkid -s UUID -o value /dev/md0`  /data ext4  noatime 0  0" >> /etc/fstab
