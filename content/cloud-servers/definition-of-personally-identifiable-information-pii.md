@@ -42,8 +42,8 @@ Insurance Portability and Accountability Act found at 45 CFR &sect;160.103.
 -   [SSL Termination on Cloud Load
     Balancers](/how-to/cloud-load-balancers-faq)
 -   [Picking the Right Option for Hosted
-    Storage](/how-to/picking-the-right-option-for-hosted-storage)
+    Storage](/white-paper/picking-the-right-option-for-hosted-storage)
 -   [Cloud: Vision to
-    Reality](/how-to/cloud-vision-to-reality-0)
+    Reality](/white-paper/cloud-vision-to-reality-0)
 
 
