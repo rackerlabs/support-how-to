@@ -4,7 +4,7 @@ title: Attach a Cloud Block Storage volume to an OnMetal server through the Clou
 type: article
 created_date: '2015-07-09'
 created_by: Renee Rendon
-last_modified_date: '2016-01-25’
+last_modified_date: '2016-01-25'
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
