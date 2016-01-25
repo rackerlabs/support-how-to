@@ -1,10 +1,10 @@
 ---
 node_id: 5159
-title: Rackspace CDN - Object is not being cached
+title: Object is not being cached
 type: article
 created_date: '2016-01-19'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
+last_modified_date: '2016-01-25'
 last_modified_by: Catherine Richardson
 product: Rackspace CDN
 product_url: rackspace-cdn
@@ -18,14 +18,7 @@ However, the following information, which is extracted from several
 articles from Akamai, provides some insight into why this situation
 might occur.
 
-
-
-<div id="expander-1443396478" class="expand-container">
-
-Most common reason why cacheable objects are not cached on Akamai
------------------------------------------------------------------
-
-<div class="expand-control">
+### Most common reason why cacheable objects are not cached on Akamai
 
 The most common reason that cacheable objects are not cached is the
 presence of a **Vary** header in the origin server response.
@@ -40,12 +33,6 @@ Accept-Encoding**, and the response is accompanied by
 **Content-Encoding: gzip**, then Akamai caches the content. If the
 **Vary** header contains any values other than **Accept-Encoding**,
 Akamai does not cache the object.
-
-</div>
-
-</div>
-
-<div id="expander-822237047" class="expand-container">
 
 This restriction is necessary to prevent different versions of content
 from being cached and then later served to end users for whom the
@@ -62,10 +49,7 @@ safely cached.
 
 
 
-Other common reasons why objects are not cached
------------------------------------------------
-
-<div class="expand-control">
+### Other common reasons why objects are not cached
 
 In addition to the presence of a **Vary** header in the response,
 following are the most prevalent reasons why objects that are specified
@@ -94,18 +78,3 @@ to be cached are not cached on an edge server:
     IP (VIP) address, it resolves to a different physical IP address
     behind the VIP. As a result, it appears that the VIP doesn't have it
     in cache.
-
-</div>
-
-</div>
-
-<div id="expander-1442541803" class="expand-container">
-
-<div id="expander-control-1442541803" class="expand-control">
-
-<span class="expand-control-icon icon"> </span>
-
-</div>
-
-</div>
-
