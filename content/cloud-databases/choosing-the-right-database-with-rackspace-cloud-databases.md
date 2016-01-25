@@ -69,8 +69,7 @@ documentation](http://www.percona.com/software/percona-server).
 After using features specific to Percona, you might not be able to
 directly roll back the database
 
-MariaDB
--------
+### MariaDB
 
 MariaDB was developed by many of the original developers of MySQL, and
 has a long-term goal of maintaining compatibility with MySQL. It is a
