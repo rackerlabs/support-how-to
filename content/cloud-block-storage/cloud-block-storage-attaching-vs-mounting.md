@@ -28,5 +28,5 @@ process in which a user instructs the operating system how to logically
 map the directory structure to a physical storage device. You can only
 mount a volume through the computer's operating system.
 
-For more information on how to mount your volume, see [Prepare Your
-Volume](/how-to/prepare-your-cloud-block-storage-volume).
+For more information on how to mount your volume, see [Prepare your
+volume](/how-to/prepare-your-cloud-block-storage-volume).

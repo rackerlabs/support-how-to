@@ -12,7 +12,7 @@ product_url: cloud-block-storage
 
 ### Backups
 
-#### What are the minimum / maximum limits for single Cloud Block Storage volumes?
+#### What are the minimum and maximum limits for single Cloud Block Storage volumes?
 
 The minimum size for a Cloud Block Storage volume is 50 GB for an SSD
 volume or 75 GB for an SATA volume. The maximum volume size is 1 TB.
@@ -24,7 +24,7 @@ maximum of 14 Cloud Block Storage volumes attached to a single server.
 
 #### What is the default maximum capacity of Cloud Block Storage that can be consumed by a single customer account?
 
-The limit for Volumes and storage is 10 TB total stored or 50 volumes
+The limit for volumes and storage is 10 TB total stored or 50 volumes
 per region (whichever is reached first).
 
 #### What if I need more storage than the default maximum capacity?
@@ -124,7 +124,7 @@ system commands available via their Cloud Server operating system:
 
 #### Is there a limit to the number, frequency or size of snapshots that can be taken on a volume?
 
-There is no limit. You may create an unlimited number of Snapshots.
+There is no limit. You may create an unlimited number of snapshots.
 
 #### Can I utilize a software RAID to improve the I/O performance of my SATA Cloud Block Storage volumes?
 
@@ -151,7 +151,7 @@ Prices vary by region and are detailed on the following pages:
 -   [Hong Kong Pricing for Cloud Block Storage
     (HKG region)](http://www.rackspace.com.hk/cloud/block-storage/pricing)
 
-#### How Is Volume Cloning Different from Volume Snapshotting?
+#### How is volume cloning different from volume snapshots?
 
 A volume *clone* is a usable copy of the source volume; it can be
 attached to a server and used immediately. A volume *snapshot* cannot be
@@ -161,9 +161,9 @@ redundantly in Cloud Files. However, creating a volume from a snapshot
 is a slower process than creating a volume from a clone. If your
 application is time sensitive, consider using volume cloning.
 
-For instructions on volume cloning, see [How to Create a Clone of a
+For instructions on volume cloning, see [How to create a clone of a
 Cloud Block Storage
-Volume](/how-to/create-a-clone-of-a-cloud-block-storage-volume).
+volume](/how-to/create-a-clone-of-a-cloud-block-storage-volume).
 
 #### What can I do if I need to change volume types (SATA vs. SSD)?
 
@@ -172,16 +172,16 @@ after it has been provisioned, you can create a copy of that volume and
 switch volume types by using the cloning or snapshot method outlined in
 the following articles:
 
--   [How to Create a Clone of a Cloud Block Storage
-    Volume](/how-to/create-a-clone-of-a-cloud-block-storage-volume) .
--   [Create and Use Cloud Block Storage
-    Snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
+-   [How to create a clone of a Cloud Block Storage
+    volume](/how-to/create-a-clone-of-a-cloud-block-storage-volume) .
+-   [Create and use Cloud Block Storage
+    snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
 
 #### How can I make a copy of a Cloud Block Storage volume?
 
 You can create a copy of a Cloud Block Storage volume using two methods:
 
--   **Cloning Method** (Volume-to-volume)
+-   **Cloning method** (volume-to-volume)
 
 This is direct copy from your existing volume to a new blank volume on
 another storage node. Volume data is copied directly between CBS storage
@@ -189,7 +189,7 @@ nodes over our high-speed local storage network. This method is
 recommended if you want to make quick copies of your volume data and use
 them immediately after creation.
 
--   **Snapshot Method** (Volume-to-Snapshot-to-Volume)
+-   **Snapshot method** (volume-to-snapshot-to-volume)
 
 This method requires the intermediate step of creating a volume
 snapshot. You first create snapshot from your existing volume, which
@@ -212,11 +212,11 @@ using the snapshot-show command.
 The percentage complete value will show up under the
 os-extended-snapshot-attributes:progress property.
 
-#### Can I use Cloud Backup to backup my Cloud Block Storage Volumes?
+#### Can I use Cloud Backup to backup my Cloud Block Storage volumes?
 
 Yes, you can. After you have attached and mounted your Cloud Block
-Storage Volume, you can add it to your current Cloud Backup Schedule.
-Edit the Backup Schedule and browse to the drive letter of your Volume
+Storage volume, you can add it to your current Cloud Backup Schedule.
+Edit the Backup Schedule and browse to the drive letter of your volume
 or to individual files on the drive. Save your Schedule as normal.
 
 #### What is Rackspace Cloud Block Storage?

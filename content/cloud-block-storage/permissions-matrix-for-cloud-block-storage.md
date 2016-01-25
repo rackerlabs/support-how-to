@@ -14,11 +14,11 @@ The following permissions matrix displays specific permissions for the roles in 
 
 - [**API documentation**](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)
 
-- [**Related Knowledge Center articles**](/how-to/)
+- [**Related How To articles**](/how-to/)
 
 - [**Cloud Block Storage terminology**](#blockstorage)
 
-### As of February 7, 2013
+#### As of February 7, 2013
 
 Method | API Action | Role | Description
 :---: | :---: | :---: | :---:

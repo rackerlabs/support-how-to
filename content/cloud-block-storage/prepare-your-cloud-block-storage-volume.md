@@ -4,7 +4,7 @@ title: Prepare your Cloud Block Storage volume
 type: article
 created_date: '2012-10-21'
 created_by: David Hendler
-last_modified_date: '2016-01-22'
+last_modified_date: '2016-01-25’
 last_modified_by: Catherine Richardson
 product: Cloud Block Storage
 product_url: cloud-block-storage
@@ -33,6 +33,7 @@ to the server name, and select **Change Password**.
 
 1\.  On the Server Details page of the Control Panel, find the IP address
     for your server.
+
 2\.  Using SSH, log in to the server as root by using its IP address and
     root password.
 
@@ -301,8 +302,7 @@ remains persistent after a server reboot.
 This step is optional, but it keeps your volume attached to your server
 after restarts.
 
-1\.  Add your volume to the static file system information in the
-    fstab file.
+Add your volume to the static file system information in the fstab file.
 
 **Note**: In your fstab options, add the \_netdev option. This option
 prevents attempts to mount the volume until all networking is running.
