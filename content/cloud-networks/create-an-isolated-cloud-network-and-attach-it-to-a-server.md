@@ -6,16 +6,15 @@ created_date: '2012-09-17'
 created_by: Susan Million
 last_modified_date: '2016-01-10'
 last_modified_by: Renee Rendon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 With Cloud Networks you can create a virtual layer 2 network that you
 can attach to a new cloud server. This feature lets you keep your Cloud
 Server separate from the Rackspace network, the Internet, or both.
 
-Cloud Network limitations
--------------------------
+### Cloud Network limitations
 
 -   The Cloud Network must exist in the same region as the server.
 
@@ -24,8 +23,7 @@ Cloud Network limitations
 
 -   A network cannot be renamed after it is created.
 
-Attach an isolated network to a cloud server
---------------------------------------------
+### Attach an isolated network to a cloud server
 
 1.  In the [Cloud Control Panel](https://mycloud.rackspace.com).
     The Cloud Servers page is displayed by default.
@@ -67,19 +65,12 @@ Network named My Private Network:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Cloud%20Networks%20List.png" alt="Cloud Networks List" width="743" height="224" />
 
-More information about Cloud Networks
--------------------------------------
+### More information about Cloud Networks
 
-[Attach an Isolated Network to an Existing Cloud
-Server](/how-to/attach-a-cloud-network-to-an-existing-cloud-server "Attach an Isolated Network to an Existing Cloud Server")
+[Attach an Isolated Network to an Existing Cloud Server](/how-to/attach-a-cloud-network-to-an-existing-cloud-server)
 
-[Removing Networks from a Cloud
-Server](/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
+[Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
 
-[<span class="s1">CIDR
-Notation</span>](/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
+[CIDR Notation](/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
 
 [Cloud Networks Developer Guide](https://developer.rackspace.com/docs/)
-
-
-

@@ -9,59 +9,35 @@ last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
+This article guides you through the process of
+creating an image backup (cloning).
 
-<span><span><span>This article guides you through the process of
-creating an image backup (cloning).</span></span></span>
-
-<span><span><span>**Note:** ** While you can create a different size
+**Note:** While you can create a different size
 server from that of the saved image, you must still use the same base OS
-version. </span></span></span>
+version.
 
-<span><span><span>**Note:** ** The first part of the procedure takes you
+**Note:** The first part of the procedure takes you
 through creating a snapshot image; if your snapshot image has already
-been created, you can skip to
-</span></span></span><span><span><span>[Restoring A Server From A Saved
-Image](#A).</span></span></span>
+been created, you can skip to Restoring a Ssrver from a saved
+image.
 
-<span><span><span>1. Log into the Cloud Control
-Panel.</span></span></span>
+1. Log into the [Cloud Control Panel](http://mycloud.rackspace.com).
 
-![](http://c15149618.r18.cf2.rackcdn.com/1.png)
+  ![](http://c15149618.r18.cf2.rackcdn.com/1.png)
 
-<div>
-
-
-
-</div>
-
-<div>
-
-2\. Select the server that you want to clone by clicking the actions cog
+2. Select the server that you want to clone by clicking the actions cog
 to the left of the server name.
 
 3. From the drop-down menu, click **Create Image**.
 
-</div>
+  ![](http://c15149618.r18.cf2.rackcdn.com/3B.png)
 
+  A pop-up window will appear that allows you to name the image.
 
+4. After naming the image, click the **Create Image** button.
 
-![](http://c15149618.r18.cf2.rackcdn.com/3B.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2012%20-%20Create%20image_2.png" width="266" height="220" />
 
--   A pop-up window will appear that allows you to name the image.
-
-
-
-4\. After naming the image, click the **Create Image** button.
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2012%20-%20Create%20image_2.png" width="266" height="220" />
-
-
-
--   Server images will appear in the **Images** list after they have
-    been created. They can be accessed by clicking on the **View
-    Images** in the **Images** section.
+Server images will appear in the **Images** list after they have been created. They can be accessed by clicking on the **View Images** in the **Images** section.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2012%20-%20View%20Images.png" width="513" height="106" />
-
-
-
