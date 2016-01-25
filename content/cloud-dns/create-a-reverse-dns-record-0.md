@@ -6,18 +6,14 @@ created_date: '2011-04-04'
 created_by: Rackspace Support
 last_modified_date: '2015-12-29'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 In this article we discuss how to add a reverse DNS record (also known
 as an RDNS record and a PTR record) to map your server's IP address to a
 domain name (for example, 1.2.3.4. to example.com). We use the Cloud
 Control Panel.
-
--   [Why reverse DNS lookups?](#dns)
--   [How does it work?](#work)
--   [How do I set it up?](#setup)
 
 ### Why reverse DNS lookups?
 
@@ -27,9 +23,9 @@ originates from an "unauthenticated" server.
 
 This means that after the sending IP address is checked, if the reverse
 DNS does not match the sending domain, then it is classed as
-&ldquo;unauthenticated&rdquo;.
+"unauthenticated".
 
-We put &rdquo;unauthenticated&rdquo; in quotes because having a Reverse DNS record
+We put "unauthenticated" in quotes because having a Reverse DNS record
 attached to your domain does not automatically guarantee acceptance of
 email originating from your domain by the recipient's email server. It's
 just that non-matching or generic reverse DNS lookup settings are often
@@ -56,18 +52,16 @@ server on their Cloud Server.
 You can easily set up reverse DNS through the control panel. Just
 perform these steps:
 
-1.  Log in to your Rackspace account with the [Cloud Control
-    Panel](http://mycloud.rackspace.com).
+1.  Log in to your Rackspace account with the [Cloud Control Panel](http://mycloud.rackspace.com).
 2.  On the Servers tab, click the link for your Cloud Server from your
     Servers List.
 3.  On the **Server Details** screen, click **Add Record** next to the
     Reverse DNS.
 
-    ![Add record link for Reverse DNS under Server
-    Details](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/reverse%20DNS_add.png)
+    ![Add record link for Reverse DNS under Server Details](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/reverse%20DNS_add.png)
 
 4.  In the Add Record pop-up window:
-    -   Enter you domain name (for example &ldquo;mail.example.com&rdquo;) in the
+    -   Enter your domain name (for example **mail.example.com**) in the
         **Hostname** field.
     -   Set the Time to Live (TTL) for the record.
     -   Click **Save Record**.
@@ -77,6 +71,3 @@ perform these steps:
     reverse DNS you just added.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Article64-3.jpeg" width="713" height="173" />
-
-
-
