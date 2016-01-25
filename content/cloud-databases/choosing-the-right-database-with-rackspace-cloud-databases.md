@@ -15,8 +15,7 @@ Innovation is happening in each of these communities, and this article
 highlights some of the key aspects to consider when choosing a MySQL
 based datastore that best fits your application.
 
-MySQL
------
+### MySQL
 
 MySQL, an open-source database developed by Oracle, is the recommended
 choice of the MySQL database administrator community, and is a good fit
@@ -36,8 +35,7 @@ Upstream controlled by Oracle
 Bug fixes are delayed behind forks that might have already been resolved
 by community patches
 
-Percona server
---------------
+### Percona server
 
 Percona Server is a good solution for customers who want improved
 performance right out of the box and want to maintain close (but not
@@ -117,6 +115,3 @@ selection of storage engines by default. For more information, see the
 
 -   Inmany cases, upstream bugs are already resolved, but not in all
     cases and you might need to await re-implementation of the patch
-
-
-
