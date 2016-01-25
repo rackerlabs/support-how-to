@@ -18,7 +18,7 @@ Characteristics of the Publish-Subscribe model in Cloud Queues are:
 -   TTL deletes messages eventually.
 -   Ideal for notification of events to multiple listeners at once.
 
-**Posting Messages to Queue**
+### Posting Messages to Queue
 
 Queues support posting 10 messages at the same time, so lets try to post
 two within the same request.
@@ -36,7 +36,7 @@ two ids. It is always a good practice to post messages in batches as
 network latency will be a smaller factor in overall performance compared
 to sending one message at a time.
 
-**Listing Messages from Your Queue**
+### Listing Messages from Your Queue
 
 You can generate the list of messages from your queue through your
 terminal.
