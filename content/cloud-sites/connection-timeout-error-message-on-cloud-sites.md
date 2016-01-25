@@ -21,7 +21,7 @@ steps we have taken to mitigate the problem.
 
 
 
-### What doe the error message mean?
+### What the error message means
 
 The `Connection timed out &ndash; please try again` error message is displayed
 when a script exceeds the maximum timeout value of 30 seconds. If the
@@ -112,8 +112,6 @@ Rackspace is committed to constantly improving our infrastructure and
 products to bring you the best possible customer experience. To learn
 how to get more out of Cloud Sites, see [Getting Started Guide for Cloud
 Sites](/how-to/cloud-sites).
-
-<div>
 
 
 
