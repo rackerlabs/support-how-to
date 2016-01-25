@@ -33,7 +33,7 @@ in the "logs" folder.  You can determine the path to the domain using
 [this article on finding your web
 root](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
 
-### Pre-requisites
+### Prerequisites
 
 -   Administrative access to the Rackspace Cloud
 
@@ -48,7 +48,5 @@ root](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
 -   Scroll down to **Website Features** section and click on the
     **Enable** hyperlink for Raw logs.
 
-NOTE: The log collection occurs at 12 AM Central Time every day.
-
-**Note: log files are purged after 6 days**
+**Note:** The log collection occurs at 12 AM Central Time every day. Log files are purged after 6 days.
 
