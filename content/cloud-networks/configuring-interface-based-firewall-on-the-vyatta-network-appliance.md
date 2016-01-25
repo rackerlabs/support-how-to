@@ -20,9 +20,7 @@ configured on the Vyatta and applied on the Public interface for local
 traffic (terminating on the Vyatta) as well as for ingress traffic
 (traversing the appliance and destined to Cloud Servers).
 
-For a comprehensive guide to configuring the Vyatta appliance as a
-firewall click
-[here](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-Firewall_6.5R1_v01.pdf).
+Click the link for a comprehensive guide to [configuring the Vyatta appliance as a firewall](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-Firewall_6.5R1_v01.pdf).
 
 The Vyatta firewall features both IPv4 and IPv6 stateful packet
 inspection to intercept and inspect network activity and allow or deny

@@ -70,8 +70,7 @@ following link:
 
 **Note**: The cloud servers are on the isolated interface 192.168.1.0/24 and they are using the Vyatta network appliance as their default gateway
 
-Login to the Vyatta appliance and enter configuration mode:<span
-style="line-height: 1.538em;"> </span>
+Login to the Vyatta appliance and enter configuration mode:
 
     $ ssh vyatta@x.x.x.x
     Welcome to Vyatta
@@ -86,33 +85,26 @@ style="line-height: 1.538em;"> </span>
     [edit]
     vyatta@vyatta-thefinal#
 
-<span
-style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 1.538em;">
 Configure Source NAT for ServiceNet traffic. eth1 is the SNET interface
 on the Vyatta. Any traffic going out via SNET will now use a source IP
-of the SNET interface on the Vyatta.</span>
+of the SNET interface on the Vyatta.
 
-``` {.p1}
+```
 set nat source rule 10 outbound-interface 'eth1'
 set nat source rule 10 protocol 'all'
 set nat source rule 10 source address '192.168.1.0/24'
 set nat source rule 10 translation address 'masquerade'
 ```
 
-<span
-style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13px; line-height: 1.538em;">
 Configure Source NAT for PublicNet traffic. eth0 is the Public interface
-on the Vyatta. </span><span style="line-height: 1.538em;">Any traffic
-going out via PublicNet will now use a source IP of the Public interface
-on the Vyatta.</span>
+on the Vyatta. Any traffic going out via PublicNet will now use a source IP of the Public interface on the Vyatta.
 
-``` {.p1}
+``` 
 set nat source rule 20 outbound-interface 'eth0'
 set nat source rule 20 protocol 'all'
 set nat source rule 20 source address '192.168.1.0/24'
 set nat source rule 20 translation address 'masquerade'
 ```
-
 
 This simple configuration should allow you to access the services listed
 in the table. You may also want to configure firewall policies on the

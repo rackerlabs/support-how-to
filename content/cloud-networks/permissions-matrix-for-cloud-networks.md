@@ -12,7 +12,7 @@ product_url: cloud-networks
 
 The following permissions matrix displays specific permissions for the roles in Cloud Networks. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[API Documentation](http://developer.rackspace.com/docs/)
+[API Documentation](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-reference)
 
 [Related Knowledge Center Articles](/how-to/)
 
@@ -72,7 +72,3 @@ A virtual machine (VM) instance in the Cloud Servers environment. To create a se
 ### Virtual Interface
 
 An extension to the networking API that is specifically used for attaching and detaching networks.
-
-
-
-## [&lt; Permissions Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
