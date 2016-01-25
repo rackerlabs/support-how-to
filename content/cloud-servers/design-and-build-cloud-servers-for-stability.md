@@ -11,7 +11,7 @@ product_url: cloud-servers
 ---
 
 Developing a powerful application or a beautifully designed web
-interface is only part of the job when mission critical availabiilty is
+interface is only part of the job when mission critical availability is
 necessary for your business. Following are some best practices that the
 support team at Rackspace has developed to keep your site highly
 available.
@@ -23,36 +23,26 @@ remember the basics. Learn how to learn how to these two key features of
 the Rackspace Cloud can help you monitor, report, and restore your data
 in the cloud.
 
--   Learn more about [Cloud
-    Monitoring](/how-to/available-checks-for-rackspace-monitoring)
-    and read an [Introduction to Cloud
-    Monitoring](https://community.rackspace.com/products/f/25/t/1892.aspx).
--   Learn more about [Cloud
-    Backup](/how-to/rackspace-cloud-backup-overview)
-    and read an [Introduction to Cloud
-    Backup](https://community.rackspace.com/products/f/25/t/1887.aspx).
-
+-   Learn more about [Cloud Monitoring](/how-to/available-checks-for-rackspace-monitoring)
+    and read an [Introduction to Cloud Monitoring](https://community.rackspace.com/products/f/25/t/1892.aspx).
+-   Learn more about [Cloud Backup](/how-to/rackspace-cloud-backup-overview)
+    and read an [Introduction to Cloud Backup](https://community.rackspace.com/products/f/25/t/1887.aspx).
 
 In addition to the Rackspace Monitoring, it is also useful to look at
 some of our partners that specialize in monitoring and reporting in the
-cloud. [New
-Relic](https://cloudtools.rackspace.com/apps/347#!overview)offers a
+cloud. [New Relic](https://cloudtools.rackspace.com/apps/347#!overview) offers a
 performance management solution that enables developers to diagnose and
 fix application performance problems in real time. You'll also find a
-number of other monitoring solutions within the [Cloud Tools
-Marketplace](https://cloudtools.rackspace.com/home#!category/65).
+number of other monitoring solutions within the [Cloud Tools Marketplace](https://cloudtools.rackspace.com/home#!category/65).
 
 ### RAID Configuration of Your Cloud Block Storage Volumes
 
 Cloud Block Storage allows you a maximum of 14 volumes per Cloud Server
-and a maximum of 50 volumes per region. Althoug these volumes already
+and a maximum of 50 volumes per region. Although these volumes already
 offer a tremendous amount of stability, they can be configured in a RAID
 for extra redundancy.
 
-Learn more about Cloud Block Storage best practices from this [blog
-post](http://www.rackspace.com/blog/best-practices-for-cloud-block-storage/).
-
-
+Learn more about Cloud Block Storage best practices from this [blog post](http://www.rackspace.com/blog/best-practices-for-cloud-block-storage/).
 
 ### Dynamic DNS and Multiple Configurations
 
@@ -70,15 +60,13 @@ by load balancing between multiple cloud regions.
 Through an application-aware global CDN platform,
 [Incapsula](https://cloudtools.rackspace.com/apps/201?restoreSearch=true#!overview)
 provides any website and web application with best-of-breed security,
-DDoS protection, and load balancing and failover solutions.  Incapsula
+DDoS protection, and load balancing and failover solutions. Incapsula
 is available as a stand-alone service or as an integrated solution.
-
-
 
 ### Load Testing
 
 Enough cannot be said about the value of testing (and then re-testing)
-your application&rsquo;s infrastructure before putting it into production.
+your application's infrastructure before putting it into production.
 Load testing reveals potential failure points in the design of your
 infrastructure and opportunities to optimize your code, which can also
 help overall stability.
@@ -89,10 +77,7 @@ right recommendations.
 
 -   [Soasta](https://cloudtools.rackspace.com/apps/381?restoreSearch=true#!overview)
 -   [Apica](https://cloudtools.rackspace.com/apps/207?restoreSearch=true#!overview)
--   [Load
-    Impact](https://cloudtools.rackspace.com/apps/897?restoreSearch=true#!overview)
-
-
+-   [Load Impact](https://cloudtools.rackspace.com/apps/897?restoreSearch=true#!overview)
 
 ### RackConnect
 
@@ -101,10 +86,5 @@ is solid stability under the heaviest of traffic. Learn more about how
 RackConnect can help you build for and maintain the highest availability
 possible.
 
-For more information, read [How do I get started with RackConnect
-v2.0](/how-to/rackconnect-v20) and
-[RackConnect v2.0 Best
-Practices](/how-to/rackconnect-v20-best-practices).
-
-
-
+For more information, read [How do I get started with RackConnect v2.0](/how-to/rackconnect-v20) and
+[RackConnect v2.0 Best Practices](/how-to/rackconnect-v20-best-practices).
