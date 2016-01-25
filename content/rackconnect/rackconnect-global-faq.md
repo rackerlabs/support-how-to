@@ -10,7 +10,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-### What is RackConnect Global ?
+#### What is RackConnect Global ?
 
 RackConnect Global (RCGlobal) is a connectivity service that makes it
 possible for you to deploy a hybrid cloud infrastructure at Rackspace
@@ -18,7 +18,7 @@ with the best network performance possible. Please see
 <http://www.rackspace.com/cloud/hybrid/rackconnect/global> for more
 details.
 
-### Who is RCGlobal targeted for and what pain points does it solve?
+#### Who is RCGlobal targeted for and what pain points does it solve?
 
 RCGlobal is targeted towards enterprise users that want to connect their
 infrastructure at Rackspace with their infrastructure outside of
@@ -31,7 +31,7 @@ RCGlobal allows you to deploy your hybrid cloud in a network with low
 latency, predictable throughput, and predictable redundancy at a
 reasonable cost to you, all managed by Rackspace Fanatical Support.
 
-### What are the primary use cases ?
+#### What are the primary use cases ?
 
 If you want to use Rackspace infrastructure for Backup/Disaster recovery
 scenarios (for example, database replication), if you are seeking to
@@ -48,7 +48,7 @@ faster and more reliable than connectivity over the internet.
 services (like VoIP/Video) on Rackspace and may want dedicated access to
 Rackspace for good performence.
 
-### Is this product being launched for Dedicated hosting or cloud customers ? What networks can be connected ?
+#### Is this product being launched for Dedicated hosting or cloud customers ? What networks can be connected ?
 
 <div>
 
@@ -65,13 +65,13 @@ cloud (for example, Cloud networks).
 
 </div>
 
-### In what regions is the service being launched ?
+#### In what regions is the service being launched ?
 
 RCGlobal will be available in all three US Datacenters at this time
 (ORD, IAD and DFW). The service will be avaliable in LON at a later
 date.
 
-### What are the connectivity options for users to establish a connection via RCGlobal ?
+#### What are the connectivity options for users to establish a connection via RCGlobal ?
 
 Users can connect via three means:
 
@@ -83,12 +83,12 @@ facilities in the US , i,e, DFW, ORD, IAD
 \(c) They can be a Microsoft Azure customer using ExpressRoute (this is a
 Microsoft Equivalent of RCGlobal)
 
-### Can we connect to Public cloud isolated networks (Cloud networks) over RackConnect v3 ?
+#### Can we connect to Public cloud isolated networks (Cloud networks) over RackConnect v3 ?
 
 No, we do not support any sort of connectivity to any Public Cloud
 resources via RackConnect v2 or v3 at this time.
 
-### What speeds are supported ?
+#### What speeds are supported ?
 
 We support connectivity speeds of 100Mbps, 200Mbps, 500 Mbps and 1Gbps
 at launch. Higher speeds will be handled on a case-by-case basis. Note
@@ -96,18 +96,18 @@ that these are the speeds supported by Rackspace and can only be
 supported if the other end of the virtual circuit is capable of
 supporting these speeds.
 
-### Is a Dedicated Aggregation device needed to use this service ?
+#### Is a Dedicated Aggregation device needed to use this service ?
 
 Yes, a Dedicated Aggregation device (CE) is needed at this time.
 
-### What kind of Dedicated Aggregation (CE) devices are supported ?
+#### What kind of Dedicated Aggregation (CE) devices are supported ?
 
 At this time we recommend one of these devices:
 
 -   Arista 7050-SX
 -   CIsco 9372-PX
 
-### Are Dedicated TORs needed to use this service ?
+#### Are Dedicated TORs needed to use this service ?
 
 <div>
 
@@ -118,7 +118,7 @@ billing, automation, monitoring and complicates troubleshooting.  Cisco
 
 </div>
 
-### Is the traffic secure ?
+#### Is the traffic secure ?
 
 The service does not provide encryption of any sort. It is purely an
 MPLS VPN connection. The traffic rides all the way through the Rackspace
@@ -126,7 +126,7 @@ Backbone (the network that interconnects Rackspace regions and provides
 connectivity outside of Rackspace) without hitting the internet path and
 is inherently secure.
 
-### Does the service have an SLA ?
+#### Does the service have an SLA ?
 
 Rackspace provides a 99.9% uptime SLA (this is defined as follows :
 "Rackspace guarantees that the termination end point for the RackConnect
@@ -135,10 +135,7 @@ of the time in any calendar month, provided that there are two or more
 virtual circuit termination end points at the Rackspace data center
 location.").
 
-### What is the high level procedure by which an RCGlobal connection can be ordered and provisioned for the customer ?
+#### What is the high level procedure by which an RCGlobal connection can be ordered and provisioned for the customer ?
 
 The complete procedure can be found
 at  /how-to/rackconnect-global-user-workflow
-
-
-
