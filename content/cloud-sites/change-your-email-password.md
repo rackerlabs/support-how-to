@@ -16,8 +16,7 @@ for Cloud Sites. It is provided for legacy support only.
 You can change the password for your email account either in the Cloud
 Sites Control Panel or within the webmail client.
 
-Change your email password in the control panel
------------------------------------------------
+### Change your email password in the control panel
 
 1.  Log in to the [Cloud Sites Control
     Panel](http://manage.rackspacecloud.com "http://manage.rackspacecloud.com").
@@ -29,13 +28,12 @@ Change your email password in the control panel
     **Confirm Password** text box.
 7.  Click **Save** to confirm your password change.
 
-Change your email password within webmail
------------------------------------------
+### Change your email password within webmail
 
 1.  Access your email account by using **webmail.** and your domain name
     (for example, **webmail.yourdomain.com**).
 2.  Log in by using your user name (for example,
-    **jsmith@yourdomain.com**) and password.
+    <code>jsmith@yourdomain.com</code> and password.
 3.  Click the **Settings** link in the upper-right corner.
 4.  Click the **Change Password** menu in the left-hand side and
     complete the instructions.
