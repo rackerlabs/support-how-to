@@ -134,7 +134,7 @@ on the DNS, create a CNAME record:
 Now when you create a new post and upload some image, it will be sent to
 the Cloud Files automatically and you can confirm checking the page
 source of your page, here is an example:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/14%20-%20Copy.png" class="image-full_width" width="700" height="394" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/14%20-%20Copy.png" class="image-full_width" width="700" height="394" />
 
 Also if you have re-sized any images using wordpress's built in image
 editor, the w3 total cache plugin may fail to upload any image that was

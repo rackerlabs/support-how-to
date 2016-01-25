@@ -34,7 +34,7 @@ Articles](/how-to/)**
 | Method | API action | Role | Description |
 |------|---------|---|--------|
 | Create a database instance | `POST /instances`	| **Creator & Admin** | Creates a new database instance. |
-| List all database instances |	`GET /instances`	| **Observer & Creator & Admin**	| Lists the status and information for all database instances.|
+| List all database instances |	`GET /instances`	| **Observer & Creator & Admin**	| Lists the status and information for all database instances. |
 | Update a database instance | `PUT /instances/{instanceId}` | **Creator & Admin** | Associates a specified database instance with the configuration group. |
 | List database instance status and details |	`GET /instances/{instanceId}`	| **Observer & Creator & Admin**	| `Lists status and details for the specified database instance. |
 | Delete a database instance	| `DELETE /instances/{instanceId}`	| **Admin only**  | Deletes the specified database instance. |
@@ -63,7 +63,7 @@ Articles](/how-to/)**
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
 | Create  a user |	`POST /instances/{instanceId}/users` | **Creator & Admin** |	Creates a user for the specified database instance. |
-|List users a in database instance |	`GET /instances/{instanceId}/users` |	**Observer & Creator & Admin**	|	Lists the users in the specified database instance. |
+| List users a in database instance |	`GET /instances/{instanceId}/users` |	**Observer & Creator & Admin**	|	Lists the users in the specified database instance. |
 | List a user |	`GET /instances/{instanceId}/users/{name}` | **Observer & Creator & Admin**	|	Lists the specified user's name and a list of databases that the user can access. |
 | List user access |	`GET /instances/{instanceId}/users/{name}/databases` | **Observer & Creator & Admin**	|	Lists user access for the specified database instance. |
 | Grant user access |	`PUT /instances/{instanceId}/users/{name}/databases` | **Creator & Admin** | Grants access for the specified user to one or more databases for the specified instance. |

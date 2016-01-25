@@ -131,5 +131,5 @@ to &ldquo;ha&rdquo;.
 -   Only one schedule is allowed per source, either a single instance or
     HA group.
 
-For more information on backups with Cloud Databases, please see the
+For more information on backups with Cloud Databases, please see 
 [Managing backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
