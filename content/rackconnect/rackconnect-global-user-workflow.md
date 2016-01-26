@@ -51,7 +51,7 @@ with Rackspace, see the sections following this one.
     The virtual circuit is established.
 
 
-### Establishing a RackConnect Global connection via Equinix Cloud Exchange
+### Establish a RackConnect Global connection via Equinix Cloud Exchange
 
 Use this procedure if you are an Equinix Cloud Exchange customer.
 
@@ -70,7 +70,7 @@ Rackspace, see the other sections in this article.
 
 5.  Rackspace accepts the virtual circuit request from the customer within the Cloud Exchange.
 
-### Establishing a RackConnect Global connection if you use Microsoft Azure (via Microsoft ExpressRoute)
+### Establish a RackConnect Global connection if you use Microsoft Azure (via Microsoft ExpressRoute)
 
 This procedure applies if you are Microsoft Azure customer requiring a
 private connection to your infrastructure at Rackspace.
