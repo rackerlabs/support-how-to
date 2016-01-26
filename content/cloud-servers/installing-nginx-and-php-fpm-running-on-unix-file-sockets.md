@@ -30,7 +30,8 @@ article.
 
 While this snippet below does not say a lot, it is what we are going
 for. In this snippet you will see a much simplified process list for my
-NGINX and PHP-FPM processes.
+NGINX and PHP-FP
+M processes.
 
 ```
 root     17084  php-fpm: master process (/etc/php5/fpm/php-fpm.conf)
