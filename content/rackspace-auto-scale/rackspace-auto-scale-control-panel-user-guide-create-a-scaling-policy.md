@@ -10,9 +10,9 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-The previous section, [Create a scaling
-group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Creatng Scaling Groups"),
-described how to set the parameters for scaling policies through scaling
+The [Create a scaling
+group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Creatng Scaling Groups") article
+describes how to set the parameters for scaling policies through the scaling
 group configuration. This section discusses the Autoscale current
 policy options and how group configurations affect policy execution. A
 scaling policy determines what actions are taken on your scaling group
@@ -100,8 +100,3 @@ next steps that you might take:
     group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
 -   [Rackspace Autoscale Control Panel User Guide - Create a scaling
     policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Crating Scaling Policies")
-
-
-
-
-

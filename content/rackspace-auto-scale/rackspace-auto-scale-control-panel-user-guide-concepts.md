@@ -10,13 +10,12 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-The [Introduction to Rackspace Auto
-Scale](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
-outlined what you can do with Autoscale and what is required for its
+The [Introduction to Rackspace Autoscale](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
+article outlines what you can do with Autoscale and what is required for its
 setup. This section discusses what Autoscale does and the core concepts
 that drive it.
 
-###Servers
+### Servers
 
 A *server* is defined as a virtual machine (VM) instance in the
 Rackspace Cloud Servers environment. To create a server, you must
@@ -29,7 +28,7 @@ have saved server images. If you create a server by using the **Cloud
 Servers** tab in the Cloud Control Panel and save the image, the image
 automatically appears in the **Autoscale** tab.
 
-###Server image
+### Server image
 
 A *server image* is a copy of a server's disk. It contains the operating
 system and all of the installed data and software on the server at the
@@ -127,7 +126,7 @@ Developers Guide* section on
 The following diagrams illustrate some of the principles governing
 scaling policies.
 
-###Scale up by percentage policy
+### Scale up by percentage policy
 
 The following diagram illustrates how a percentage scale-up policy
 translates into a different amount of scaling each time that it is
@@ -178,8 +177,3 @@ node port that you configure.
     group](http://rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
 -   [Rackspace Autoscale Control Panel User Guide - Create a scaling
     policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Crating Scaling Policies")
-
-
-
-
-

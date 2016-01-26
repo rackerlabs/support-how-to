@@ -19,13 +19,13 @@ When that event occurs, the source site makes an HTTP request to the URI
 configured for the webhook. Therefore, correct configuration of the
 webhooks is needed for the Autoscale service to perform correctly.
 
-###Before you begin
+### Before you begin
 
 
 Before you can configure the webhooks, you must  [create an Autoscale
 group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group).
 
-###Create Autoscale policies
+### Create Autoscale policies
 
 
 1.  In the Cloud Control Panel, select **Servers** > **Autoscale**.
@@ -42,7 +42,7 @@ group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-gr
         cooldown period to elapse, or the group's minimum cooldown to
         elapse, whichever is longer.
 
-###Create a webhook
+### Create a webhook
 
 
 Create a corresponding webhook to activate each of the Autoscale
@@ -63,7 +63,7 @@ policies you created.
 
 
 
-###Set up Rackspace Monitoring
+### Set up Rackspace Monitoring
 
 
 1.  On the Scaling group details pages, click the cloud server at the
@@ -107,5 +107,3 @@ policies you created.
 
 14. To set up the alarm criteria that will trigger the monitoring check
     that you just created, click **Create Alarm**.
-
-

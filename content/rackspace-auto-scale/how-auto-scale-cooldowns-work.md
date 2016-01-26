@@ -22,7 +22,7 @@ required minimum cooldown period ends. However, a schedule-based policy
 will not override a cooldown and will not run during a cooldown
 period.
 
-### Using a group cooldown
+### Use a group cooldown
 
 When you set a group **Minimum Cooldown**, you are restricting the
 ability of the group to change in response to a policy. If you have
@@ -53,11 +53,11 @@ server to fully deploy.
 
 
 
-### Using a policy cooldown
+### Use a policy cooldown
 
 When you set a policy **Cooldown**, you are restricting the
 executability of the policy by requiring a period of time to pass before
-the policy can be executed again&ndash;even if it is triggered by an event. A
+the policy can be executed again - even if it is triggered by an event. A
 policy cooldown controls how often a single, specific, policy can be
 executed. For example, a scale-up policy cooldown restricts how often
 the scale-up is executed despite being triggered by an event, which
@@ -67,7 +67,7 @@ removal of servers by restricting the removal of too many servers at
 once even if multiple scale-downs are rapidly triggered. Policy
 cooldowns allow you to scale up fast and scale down slowly.
 
-### Cooldowns Graph
+### Cooldowns graph
 
 The following graphs illustrates how cooldowns affect policy execution.
 
@@ -76,4 +76,3 @@ The following graphs illustrates how cooldowns affect policy execution.
 
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Slide7.png" width="720" height="540" />
-

@@ -10,7 +10,7 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-You can use Autoscale and RackConnect for "cloud bursting"" adding
+You can use Autoscale and RackConnect for "cloud bursting" by adding
 cloud servers dynamically in response to demand, and removing them after
 they are no longer needed. This article provides information about
 configuring Autoscale to use RackConnect to perform cloud bursting with
@@ -80,4 +80,3 @@ following requirements:
 
 To get the name of one or more load balancer pools, contact your Support
 team.
-
