@@ -4,8 +4,8 @@ title: Cancel Cloud Office services
 type: article
 created_date: '2015-07-16'
 created_by: Beau Bailey
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
@@ -38,9 +38,5 @@ Cloud Office Control Panel and perform the following steps:
     to end.
     **Note**: Date selected must be the following day's date or later.
 
-6.  Click **Submit Request**.
-    A **Pending Cancellation** status is displayed next to the services
+6.  Click **Submit Request**. A **Pending Cancellation** status is displayed next to the services
     to be canceled.
-
-
-
