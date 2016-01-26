@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Importance of using Indexes in your MySQL database:**
+### Importance of using Indexes in your MySQL database:
 
 Indexes help the system to access data fast and provide an ordering on
 the rows of a table as well as help enforce uniqueness of the values in
@@ -22,8 +22,7 @@ tables. To look into how to create an index in MySQL, please refer to:
 
 
 
-<span class="mw-headline">The Explain Statement</span>
-------------------------------------------------------
+### The Explain Statement
 
 The best way to analyze your query and to see if indexes are being used
 is by running an explain plan on it. This will show you the path chosen
@@ -35,8 +34,7 @@ explain plan here:
 
 
 
-<span class="mw-headline">Prefixing index lengths with an example</span>
-------------------------------------------------------------------------
+### Prefixing index lengths with an example
 
 Say you run this SQL frequently:
 
@@ -63,8 +61,7 @@ disk IO which buys your faster performance also.
 
 
 
-<span class="mw-headline">Covering Index</span>
------------------------------------------------
+### Covering Index
 
 **The following is an example of a slow MySQL query which also does not
 have an Index(s) in place:**
@@ -72,10 +69,4 @@ have an Index(s) in place:**
     # Query_time: 82.420792  Lock_time: 0.015179  Rows_sent: 1  Rows_examined: 15828351  Rows_affected: 0  Rows_read: 15828351
     use 393870_p2LIVE; SELECT `Impression`.`id`, `Impression`.`account_id`, `Impression`.`content_id`, `Impression`.`networks_id`,
     `Impression`.`ip`, `Impression`.`recorded` FROM `impressions` AS `Impression`   WHERE `account_id` = 222 AND `content_id` = 19 AND `networks_id` = 8
-
-<div class="printfooter">
-
-
-
-</div>
 
