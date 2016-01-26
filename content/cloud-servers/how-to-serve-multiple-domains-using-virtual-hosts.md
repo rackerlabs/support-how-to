@@ -10,27 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# How to Serve Multiple Domains Using Virtual Hosts
-
 Most people serve more than one domain on their [Cloud Server](http://www.rackspace.com/cloud/servers/). Whether for different domain names or different subdomains of the same domain, the procedure is the same.
-
-## Contents
-
--  [1 Overview](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
--  [2 Procedure](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
--  [3 Virtual Hosts](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
--  [4 Multiple domains](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
--  [5 Troubleshooting](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
-  -  [5.1 Restart Apache](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
-  -  [5.2 Understanding the Configuration Report](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
-  -  [5.3 Common Virtual Host Configuration Mistakes](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
-  -  [5.4 Using Curl to Test Your Site](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
-  -  [5.5 Check Error Log](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
-  -  [5.6 Common Permissions-Related Errors](/how-to/how-to-serve-multiple-domains-using-virtual-hosts)
- |
-| --- |
-
-## Overview
 
 Our Linux Cloud Servers are built from a minimal installation image, meaning there are no additional applications installed beyond the base Operating System.
 
@@ -42,7 +22,7 @@ In order to serve a website you must set up the rest of the framework to serve y
 
 Finally, you come to the part that allows your Cloud Server to deliver your websites, and for this you will need to create your sites as virtual hosts within your webserver configuration.
 
-## Procedure
+### Procedure
 
 Greatly simplified, the procedure for serving a website is as follows:
 
@@ -52,7 +32,7 @@ Your web server jumps into action and says "Yes! I have something for you matchi
 
 Simple, right? But how does your web server know what http to serve? If all you are serving is one website from the server, then it will serve the html in your /var/www/html directory, starting with index.html. We've all made a "Hello World" page before, right? But having a unique server for every website you want to serve is costly, and an inefficient use of your resources.
 
-## Virtual Hosts
+### Virtual Hosts
 
 Here come name based virtual hosts, allowing you to serve content for multiple websites from one server.
 
@@ -72,29 +52,29 @@ and this is a sample vhost configuration for Nginx:
 
         server {
 
-          server\_name  www.domain1.com;
+          server_name  www.domain1.com;
 
           rewrite ^/(.\*) http://domain1.com/$1 permanent;
 
 Each configuration starts slightly differently, but the same principle applies - that particular virtual host will respond to queries for 'domain1.com' and 'www.domain1.com'.
 
-## Multiple domains
+### Multiple domains
 
 So, serving different content for different domains is as simple as adding another virtual host.
 
 Let's say you have a subdomain called 'blog.domain1.com' serving a blog.
 
-The basic creation process would be to create a folder in your public\_html folder with the relevant files (let's say a Wordpress install).
+The basic creation process would be to create a folder in your public_html folder with the relevant files (let's say a Wordpress install).
 
-A virtual host would be created with the server\_name or ServerName as 'blog.domain1.com' which would be configured to point to the blog files and folders in your public\_html folder.
+A virtual host would be created with the server_name or ServerName as 'blog.domain1.com' which would be configured to point to the blog files and folders in your public_html folder.
 
-## Troubleshooting
+### Troubleshooting
 
 This section shows you how to troubleshoot problems with Apache name-based virtual host configurations.
 
 It will show you useful commands for testing your virtual host configuration, how to interpret their output, and how they help fix common virtual host configuration problems.
 
-### Restart Apache
+#### Restart Apache
 
 Before we make a start on learning to diagnose your issue, make sure that you have restarted Apache since the last changes you made to your Apache configuration files:
 
@@ -120,7 +100,7 @@ We're now ready to make a start, run the following command on the webserver:
 
         sudo /usr/sbin/apache2 -S
 
-### Understanding the Configuration Report
+#### Understanding the Configuration Report
 
 The following example shows the configuration report for a server configured with two name-based virtual hosts.
 
@@ -162,7 +142,7 @@ Now that that you've seen how a basic virtual host configuration looks and how i
 
 ### Common Virtual Host Configuration Mistakes
 
-1. Running "httpd &ndash;S", reports an error stating "[warn] \_default\_ VirtualHost overlap on port 80, the first has precedence"
+1. Running "httpd -S", reports an error stating "[warn] \_default\_ VirtualHost overlap on port 80, the first has precedence"
 
         [Wed May 18 15:24:51 2011] [warn] \_default\_ VirtualHost overlap on port 80, the first has precedence
 		VirtualHost configuration:
@@ -171,11 +151,11 @@ Now that that you've seen how a basic virtual host configuration looks and how i
 		\*:80                   vh2.example.com (/etc/httpd/conf/custom/virtualhost.conf:8)
 		Syntax OK
 
-This indicates that multiple virtual hosts are trying to use the same "socket" without being set up as name-based virtual hosts. This error often shows up on a first pass at creating Apache virtual hosts because the default NameVirtualHost directive is commented out with a hash. That hash instructs Apache to ignore the directive.
+  This indicates that multiple virtual hosts are trying to use the same "socket" without being set up as name-based virtual hosts. This error often shows up on a first pass at creating Apache virtual hosts because the default NameVirtualHost directive is commented out with a hash. That hash instructs Apache to ignore the directive.
 
-To fix this in a default Apache configuration file, you would check that the "NameVirtualHost \*:80" directive is not commented out. If working with a minimal Apache configuration file, you would add a "NameVirtualHost \*:80" directive prior to the individual virtual host configurations.
+  To fix this in a default Apache configuration file, you would check that the "NameVirtualHost \*:80" directive is not commented out. If working with a minimal Apache configuration file, you would add a "NameVirtualHost \*:80" directive prior to the individual virtual host configurations.
 
-In the example below, we show the commented "NameVirtualHost \*:80" directive that caused the above error:
+  In the example below, we show the commented "NameVirtualHost \*:80" directive that caused the above error:
 
         #NameVirtualHost \*:80
 
@@ -189,14 +169,14 @@ In the example below, we show the commented "NameVirtualHost \*:80" directive th
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-2. Running "httpd &ndash;S", we see an error stating "<VirtualHost> directive requires additional arguments"
+2. Running "httpd -S", we see an error stating "<VirtualHost> directive requires additional arguments"
 
         Syntax error on line 8 of /etc/httpd/conf/custom/virtualhost.conf:
 		<VirtualHost> directive requires additional arguments
 
-This means that the virtual host's VirtualHost directive is missing a vital element. The VirtualHost is the first line of any individual virtual host configuration. In this case, it is on the 8th line of the configuration file /etc/httpd/conf/custom/virtualhost.conf.
+  This means that the virtual host's VirtualHost directive is missing a vital element. The VirtualHost is the first line of any individual virtual host configuration. In this case, it is on the 8th line of the configuration file /etc/httpd/conf/custom/virtualhost.conf.
 
-Let's review the Apache configuration that produced this above error:
+  Let's review the Apache configuration that produced this above error:
 
         NameVirtualHost \*:80
 
@@ -210,9 +190,9 @@ Let's review the Apache configuration that produced this above error:
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-Note how the <VirtualHost> directive has no IP address or port specified. That's the cause of our error.
+  Note how the <VirtualHost> directive has no IP address or port specified. That's the cause of our error.
 
-Below is a corrected version of the above example. Notice the addition of "\*:80" to the virtual host's <VirtualHost> directive. As always, the \* is a wildcard specifying all IP addresses.
+  Below is a corrected version of the above example. Notice the addition of "\*:80" to the virtual host's <VirtualHost> directive. As always, the \* is a wildcard specifying all IP addresses.
 
         NameVirtualHost \*:80
 
@@ -226,7 +206,7 @@ Below is a corrected version of the above example. Notice the addition of "\*:80
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-3. Running "httpd &ndash;S", we see evidence that a virtual host is listed above the "is a NameVirtualHost" line:
+3. Running "httpd -S", we see evidence that a virtual host is listed above the "is a NameVirtualHost" line:
 
         VirtualHost configuration:
 		wildcard NameVirtualHosts and \_default\_ servers:
@@ -236,13 +216,13 @@ Below is a corrected version of the above example. Notice the addition of "\*:80
 		port 80 namevhost vh1.example.com (/etc/httpd/conf/custom/virtualhost.conf:3)
 		Syntax OK
 
-Note in the example above how the configuration test reports about vh2.example.com's configuration before it reports the NameVirtualHost configuration. You may see this error if the VirtualHost IP address or port does not match that of a webserver's NameVirtualHost directive. In this example, the test reports that vh2.example.com uses port 800 rather than the NameVirtualHost's port 80. We mis-typed "80" when we configured the vh2.example.com virtual host's listening port. As a result, Apache is seeing vh2.example.com as a separate port-based virtual host.
+  Note in the example above how the configuration test reports about vh2.example.com's configuration before it reports the NameVirtualHost configuration. You may see this error if the VirtualHost IP address or port does not match that of a webserver's NameVirtualHost directive. In this example, the test reports that vh2.example.com uses port 800 rather than the NameVirtualHost's port 80. We mis-typed "80" when we configured the vh2.example.com virtual host's listening port. As a result, Apache is seeing vh2.example.com as a separate port-based virtual host.
 
-The test command "httpd &ndash;S" will not warn you about this because it is permissible to configure virtual hosts to use any port, such as 800, without their being part of the name-based virtual host configuration on the same server.
+  The test command "httpd -S" will not warn you about this because it is permissible to configure virtual hosts to use any port, such as 800, without their being part of the name-based virtual host configuration on the same server.
 
-If you do make this mistake, you will probably see content from the default virtual host (vh1.example.com in this example) when you try to view the site in your web browser.
+  If you do make this mistake, you will probably see content from the default virtual host (vh1.example.com in this example) when you try to view the site in your web browser.
 
-To help you map the above output to how its configuration file might look, here's the virtual host configuration that created this error:
+  To help you map the above output to how its configuration file might look, here's the virtual host configuration that created this error:
 
         NameVirtualHost \*:80
 
@@ -256,13 +236,13 @@ To help you map the above output to how its configuration file might look, here'
 		  DocumentRoot /var/www/vhosts/vh2
 		</VirtualHost>
 
-4. Running "httpd &ndash;S" reports an error stating "Warning: DocumentRoot [/etc/httpd/var/www/vhosts/vh2] does not exist"
+4. Running "httpd -S" reports an error stating "Warning: DocumentRoot [/etc/httpd/var/www/vhosts/vh2] does not exist"
 
-This specific error indicates that the directory specified as containing the website files for the vh2.example.com virtual host does not exist, or that Apache cannot access it. Similar errors can appear for any of the file paths specified in a virtual host configuration, such as the paths to the virtual host's log files.
+  This specific error indicates that the directory specified as containing the website files for the vh2.example.com virtual host does not exist, or that Apache cannot access it. Similar errors can appear for any of the file paths specified in a virtual host configuration, such as the paths to the virtual host's log files.
 
-To fix, make sure you created the directory. If you definitely created it, check there are no mistakes in the DocumentRoot directive. A common mistake is to miss out the path's initial "/". Leaving out the "/" instructs Apache to read the path &ndash; the DocumentRoot path in this case - as a relative path. That is, as a path relative to the main Apache configuration's ServerRoot path.
+  To fix, make sure you created the directory. If you definitely created it, check there are no mistakes in the DocumentRoot directive. A common mistake is to miss out the path's initial "/". Leaving out the "/" instructs Apache to read the path - the DocumentRoot path in this case - as a relative path. That is, as a path relative to the main Apache configuration's ServerRoot path.
 
-As there are several ways in which this error is often created, we've created an example of just one of them. In the example below, you'll see that the path for the DocumentRoot in the first virtual host starts with a "/" but the second one does not. This makes Apache read the DocumentRoot path for vh2.example.com as an extension of the default webserver's ServerRoot path /etc/httpd/ to create a DocumentRoot path of /etc/httpd/var/vhosts/vh2.
+  As there are several ways in which this error is often created, we've created an example of just one of them. In the example below, you'll see that the path for the DocumentRoot in the first virtual host starts with a "/" but the second one does not. This makes Apache read the DocumentRoot path for vh2.example.com as an extension of the default webserver's ServerRoot path /etc/httpd/ to create a DocumentRoot path of /etc/httpd/var/vhosts/vh2.
 
         ServerRoot /etc/httpd
 
@@ -280,7 +260,7 @@ As there are several ways in which this error is often created, we've created an
 
 ### Using Curl to Test Your Site
 
-Once you've checked the virtual host configuration files and "httpd &ndash;S" reports no issues try to access your site using curl:
+Once you've checked the virtual host configuration files and "httpd -S" reports no issues try to access your site using curl:
 
         curl -I www.example.com
 
@@ -315,7 +295,7 @@ Another way to look for this is check the error log. The default error log is at
 		no listening sockets available, shutting down
 		Unable to open logs
 
-3. HTTP/1.1 403 Forbidden.
+-  HTTP/1.1 403 Forbidden.
 
         HTTP/1.1 403 Forbidden
 		Date: Tue, 10 May 2011 21:14:29 GMT
@@ -334,7 +314,7 @@ Do not be put off by the volume of data in a busy server's log files. Instead, u
 
         tail /var/log/apache2/error\_log
 
-Better yet, you can see new entries as they are added to the error\_log &ndash; or any log &ndash; while you test the server if you instruct the "tail" command to "follow" the log. For example:
+Better yet, you can see new entries as they are added to the error\_log - or any log - while you test the server if you instruct the "tail" command to "follow" the log. For example:
 
         tail -f /var/log/httpd/error\_log
 
@@ -342,14 +322,14 @@ Better yet, you can see new entries as they are added to the error\_log &ndash; 
 
 To round off our exploration of common Apache configuration errors, here are some examples of how some common permissions-related configuration errors appear in Apache's logs
 
-        1. [Sun May 15 20:06:17 2011] [error] [client 203.0.113.96] (13)Permission denied: file permissions deny server access: /var/www/vhosts/vh2/index.html
+        [Sun May 15 20:06:17 2011] [error] [client 203.0.113.96] (13)Permission denied: file permissions deny server access: /var/www/vhosts/vh2/index.html
 
 This log entry shows that permissions on the index.html file for vh2.example.com are denying access to Apache.
 
-        2. [Sun May 15 20:07:37 2011] [error] [client 203.0.113.96] (13)Permission denied: access to /index.html denied
+        [Sun May 15 20:07:37 2011] [error] [client 203.0.113.96] (13)Permission denied: access to /index.html denied
 
 This log entry shows that permissions on the /var/www/vhosts/vh2 directory are blocking Apache's read request.
 
-        3. [Sun May 15 20:11:32 2011] [error] [client 203.0.113.96] (13)Permission denied: access to / denied
+        [Sun May 15 20:11:32 2011] [error] [client 203.0.113.96] (13)Permission denied: access to / denied
 
 This log entry shows that Apache does not have execute or read permissions on one of the directories above DocumentRoot.
