@@ -10,8 +10,8 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**What is changing?**
----------------------
+### What is changing?
+
 
 -   Outbound IP addresses for access to external services, such as
     Twitter or Facebook, will change. If you have an external service
@@ -47,8 +47,7 @@ product_url: cloud-sites
         testlink URL follows this pattern:
         www.yoursite.com.*cluster.***dfw3-2**.websitetestlink.com
 
-**What is not changing?**
--------------------------
+### What is not changing?
 
 -   Customers will not need to update their DNS entries for
     their websites. We will be migrating SSL and cluster IPs over\*.
@@ -61,8 +60,7 @@ product_url: cloud-sites
     **Note:** Old DNS entries (i.e., test links) will be retired by end
     of Q2 2016.
 
-**How does this affect me?**
-----------------------------
+### How does this affect me?
 
 Most customers will not have to make any changes in order to continue
 functioning correctly.
@@ -77,8 +75,7 @@ practices. Here are examples of websites likely affected:
     access
 -   Websites that have hard-coded IP addresses instead of a hostname
 
-**FAQ**
--------
+### FAQ
 
 **My site feed (example: Twitter, Facebook, Instagram) stopped working
 after the maintenance. What could have occurred?**
@@ -101,10 +98,10 @@ occurred?**
 **MySQL Workbench/SQL Server Management Studio stopped connecting after
 the maintenance. What could have occurred?**
 
--   External database management IPs will be changing.<span>Based on
+-   External database management IPs will be changing. Based on
     your technology, please
-    reference </span>[MSSQL](/how-to/information-for-ms-sql-changes)<span> or </span>[MySQL](/how-to/information-for-mysql-users-mariadb-100-0)<span> for
-    more information</span>
+    reference [MSSQL](/how-to/information-for-ms-sql-changes)<span> or [MySQL](/how-to/information-for-mysql-users-mariadb-100-0) for
+    more information
 
 **My test links stopped working after the maintenance. What occurred?**
 
