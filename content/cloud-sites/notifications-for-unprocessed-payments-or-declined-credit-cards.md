@@ -24,8 +24,6 @@ international 1-210-312-4000. Do not contact the Cloud Billing team.
 To see any outstanding balances for your account, perform the follow
 steps:
 
-<div class="printfooter">
-
 1.  Sign in to the [Cloud Control
     Panel](https://mycloud.rackspace.com/).
 2.  In the upper-right corner of the window, click **Account:
@@ -38,6 +36,4 @@ steps:
 4.  Contact the Cloud AR team (not the Cloud Billing team) at US toll
     free 800-480-2716 and international 1-210-312-4000 to discuss any
     balances that are due.
-
-</div>
 
