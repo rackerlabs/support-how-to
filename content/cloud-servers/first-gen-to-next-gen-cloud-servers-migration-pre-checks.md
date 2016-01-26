@@ -21,40 +21,23 @@ you understand and fix the results of these checks.
 If your server has not migrated correctly by the end of your window,
 data loss will occur when your source server is decommissioned.
 
-### Contents
-
-1.  [SELinux check](#sellinux)
-2.  [Disk used check](#diskused)
-3.  [Kernel overhead check](#kernel)
-4.  [Inode count check](#inode)
-5.  [PV drivers check](#pv)
-6.  [Nova agent check](#nova)
-
-
-
-SELinux check
------------------
+### SELinux check
 
 The SELinux check indicates whether SELinux is currently enabled on your
 server. SELinux interferes with several OS-level changes that are made
 by the Next Gen migration process. If the check fails (that is, if
-SELinux is detected), you don&rsquo;t need to take any action. However, note
+SELinux is detected), you don't need to take any action. However, note
 that SELinux will not be automatically re-enabled after the migration.
 You must enable it manually.
 
-[^back\\ to\\ top^](#top)
-
-
-
-Disk used check
--------------------
+### Disk used check
 
 The disk used check compares the amount of space used by your server
 with the total disk size available to determine percentage usage. The
 check thresholds are as follows:
 
--   Warning &gt; 80% usage
--   Critical &gt; 89% usage
+-   Warning > 80% usage
+-   Critical > 89% usage
 
 Failing this check does not necessarily indicate that your migration
 will fail. However, large amounts of data will cause your migration to
@@ -66,12 +49,7 @@ You can verify the results of this check by running **`df -h`** on a
 Linux cloud server, or by checking the properties of your disk from the
 **My Computer** screen in Windows.
 
-[^back\\ to\\ top^](#top)
-
-
-
-Kernel overhead check
--------------------------
+### Kernel overhead check
 
 In a subset of the First Gen Linux infrastructure, the kernel and
 initial RAM disk are handled by the hypervisor instead of within your
@@ -85,18 +63,13 @@ The results for this check are pass/fail.
 If this test fails, your migration will fail. To rectify this issue,
 ensure that you have at least 5 to 10 GB free on your root partition.
 
-[^back\\ to\\ top^](#top)
-
-
-
-Inode count check
----------------------
+### Inode count check
 
 This check counts the actual number of files on your root file system.
 The check thresholds are as follows:
 
--   Warning &gt; 2 million
--   Critical &gt; 3 million
+-   Warning > 2 million
+-   Critical > 3 million
 
 Like the disk usage check, failing this check does not necessarily
 indicate that your cloud server migration will fail, but an extremely
@@ -110,12 +83,7 @@ this check is not necessary for Windows cloud servers.
 To reduce this issue, back up any unnecessary data (Rackspace Cloud
 Backup is good for this purpose), and remove it from the server.
 
-[^back\\ to\\ top^](#top)
-
-
-
-PV drivers check
---------------------
+### PV drivers check
 
 The majority of the First Gen infrastructure and the entire Next Gen
 infrastructure use XenServer to power the host machines for your cloud
@@ -142,12 +110,7 @@ install or update these drivers:
 For Gentoo, Arch, and FreeBSD, or if this installer fails, you must
 install these drivers manually.
 
-[^back\\ to\\ top^](#top)
-
-
-
-Nova agent check
---------------------
+### Nova agent check
 
 In the XenServer infrastructure, the OpenStack&reg; guest agent is the same
 as that used in the Next Gen Cloud Servers infrastructure. This nova
@@ -173,7 +136,3 @@ If your Windows server fails this check, follow these instructions:
 
 3.  In the folder that is created, run the **`installagentservice.bat`**
     script from an administrator command prompt.
-
-
-
-
