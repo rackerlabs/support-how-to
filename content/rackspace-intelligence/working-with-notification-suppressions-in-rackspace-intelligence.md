@@ -17,21 +17,21 @@ during scheduled outages or maintenance periods.
 You access the **Suppressions** page by clicking the **Suppress** link
 at the top of the Rackspace Intelligence Control Panel.
 
-To [create a new suppression](#createsuppression), [edit an existing
-suppression](#editsuppression), or view a list of active, scheduled, or
+To create a new suppression, edit an existing
+suppression, or view a list of active, scheduled, or
 ended suppressions, click the **Suppressions** link.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.1a_0.png" width="723" height="329" />
 
-On the Suppressions page, you can view two types of suppressions:
+On the **Suppressions** page, you can view two types of suppressions:
 
--   **Active & Scheduled** suppressions are relevant now, which might
-    mean that they are actively waiting for a specified time to begin.
-    When a suppression is active, you can see when it started and when
-    it is scheduled to end.
--   **Ended** suppressions were in use previously. Examining the list of
-    ended suppressions can help you understand problems such as lack of
-    awareness of a previous outage.
+- **Active & Scheduled** suppressions are relevant now, which might
+  mean that they are actively waiting for a specified time to begin.
+  When a suppression is active, you can see when it started and when
+  it is scheduled to end.
+- **Ended** suppressions were in use previously. Examining the list of
+  ended suppressions can help you understand problems such as lack of
+  awareness of a previous outage.
 
 You can sort the lists of suppressions by their names, status, start
 time, end time, or duration. Sorting by **Start Time** or **End
@@ -54,9 +54,9 @@ You can create a suppression in one of the following ways:
 
 #### Create a suppression from the Suppressions overview page
 
-1.  On the Suppressions overview page, click **Create Suppression**.
+1.  On the **Suppressions** overview page, click **Create Suppression**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.4a_0.png" width="581" height="201" />
+       <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.4a_0.png" width="581" height="201" />
 
 2.  On the **Create a Suppression** page, type a name for the
     suppression, and select the appropriate start and end dates.
