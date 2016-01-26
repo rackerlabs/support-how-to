@@ -10,23 +10,16 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-The Basics
-----------
+### Basics
 
 [Products I Can Load
 Balance](/how-to/products-i-can-load-balance "Products I Can Load Balance")
-
-<div>
 
 [Configuring a Load
 Balancer](/how-to/configure-a-load-balancer "Configuring a Load Balancer")
 
 
-
-</div>
-
-Best Practices
---------------
+### Best Practices
 
 [Load Balancing Private IPs in the Same
 Region](/how-to/load-balancing-internal-ips-in-the-same-region)
@@ -40,10 +33,7 @@ Monitor](/how-to/configure-a-health-monitor-in-cloud-load-balancers "Configuring
 [Using SSL
 Termination](/how-to/cloud-load-balancers-faq)
 
-
-
-Additional Resources
---------------------
+### Additional resources
 
 [Calculating
 Price](http://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/pricing/ "Cloud Load Balancers Pricing")
