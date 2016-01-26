@@ -12,10 +12,7 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Installing NGINX and PHP-FPM running on UNIX File
-Sockets](/how-to/installing-nginx-and-php-fpm-running-on-unix-file-sockets)
-
-**Preface**
+[Installing NGINX and PHP-FPM running on UNIX File Sockets](/how-to/installing-nginx-and-php-fpm-running-on-unix-file-sockets)
 
 To preface this article, let me say that this is the exact stack that I
 have set up and am running on a Rackspace Cloud Server, so I know that
@@ -25,8 +22,6 @@ configuration files that I will be showing so that you can make changes
 to fit your environment. To that end, I will be showing the entire
 configuration for the server and some of the other things that I have
 been able to create.
-
-
 
 To begin with, here are the specs for my server:
 
@@ -51,26 +46,21 @@ guide I will be using Repositories for easy install, but if you are a
 Gentoo, Arch Linux, or simply enjoy pain; you could compile your
 services from source.
 
-
-
 Once the server is provisioned and you have been able to login to the
 server, I recommend that you do any and all necessary patching, which is
-just a good practice with a new server. My thought is: It&rsquo;s better to
+just a good practice with a new server. My thought is: It's better to
 break things now rather than break things later. To do this in Debian /
 Ubuntu enter this simple command set below:
 
-``` {.p5}
+```
 apt-get update
 apt-get dist-upgrade
 reboot
 ```
-
 Once you have finished updating, this set will allow you to restart the
 server. This ensures that the updates have been installed and
 initialized completely.
 
-### Next steps
+### Next section
 
-[Installing NGINX and PHP-FPM - The Fun
-Begins](/how-to/installing-nginx-and-php-fpm-the-fun-begins)
-
+[Installing NGINX and PHP-FPM - The Fun Begins](/how-to/installing-nginx-and-php-fpm-the-fun-begins)
