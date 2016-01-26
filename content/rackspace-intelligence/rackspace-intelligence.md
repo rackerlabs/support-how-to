@@ -4,8 +4,8 @@ title: Rackspace Intelligence
 type: article
 created_date: '2015-06-09'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-21'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-01-26'
+last_modified_by: Rose Coste
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
