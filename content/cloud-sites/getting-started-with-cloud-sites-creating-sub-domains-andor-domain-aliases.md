@@ -48,23 +48,17 @@ example: www.photos.example.com.
 
 **How Do I Create a Subdomain?**
 
-<div>
-
 -   Log into the [Rackspace Cloud Control
     Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting-&gt;Cloud Sites**
 
     ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
 
-<!-- -->
-
 -   Enter the subdomain and domain name into the **Domain Name** text
     box (i.e. subdomain.yourdomain.com)
 -   Click **Add New Site**
 
     ![](http://c806394.r94.cf2.rackcdn.com/addsubdomain.png)
-
-<!-- -->
 
 -   Choose the length of time for which you want to purchase the domain
     name (only if you haven't already registered the domain). Click
@@ -85,8 +79,6 @@ can create a domain alias.
 
 **How to Create a Domain Alias**
 
-<div>
-
 Pointing a domain or a subdomain to an existing website is made very
 easy on Cloud Sites when you follow these simple directions:
 
@@ -96,8 +88,6 @@ easy on Cloud Sites when you follow these simple directions:
 
     ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
 
-<!-- -->
-
 -   Under **Add a New Website** select the Site Owner from the
     pull-down menu. The Site Owner needs to be the same client account
     as the domain you are going to alias to
@@ -106,7 +96,6 @@ easy on Cloud Sites when you follow these simple directions:
 
     ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
 
-<!-- -->
 
 -   On the next page choose to either register the domain, or if you
     already own it, simply indicate that you would like to "Set up the
@@ -116,7 +105,6 @@ easy on Cloud Sites when you follow these simple directions:
 
     ![](http://c806394.r94.cf2.rackcdn.com/choosealias.png)
 
-<!-- -->
 
 -   Select the website you want to point to from the list, and click
     **Next Step**
@@ -125,10 +113,6 @@ easy on Cloud Sites when you follow these simple directions:
 
 That's all there is to it! You've now added a domain alias. The domain
 alias will now direct traffic to the domain you selected.
-
-</div>
-
-</div>
 
 For additional information on Rackspace Cloud DNS, see [Using Cloud
 DNS](/how-to/rackspace-cloud-dns).
