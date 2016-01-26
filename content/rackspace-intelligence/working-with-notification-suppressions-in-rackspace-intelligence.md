@@ -80,7 +80,7 @@ suppression details page.
 2.  Scroll to the **Suppressions** section of the entity details page,
     and then click **Create Suppression.**
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.5a_0.png" width="686" height="231" />
-    Rackspace Intelligence has automatically selected all thw alarms
+    Rackspace Intelligence has automatically selected all the alarms
     that are associated with this entity.
 3.  Set the start and end dates and, optionally, add
     additional entities.
