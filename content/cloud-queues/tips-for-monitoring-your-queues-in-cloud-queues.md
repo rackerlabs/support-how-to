@@ -1,6 +1,6 @@
 ---
 node_id: 3658
-title: Tips for Monitoring Your Queues in Cloud Queues
+title: Tips for monitoring your queues
 type: article
 created_date: '2013-08-21'
 created_by: Megan Meza
