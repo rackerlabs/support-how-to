@@ -10,16 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-<div class="content">
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
-
-**Note**: This article is written for our [Cloud Sites Control
+This article is written for our [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can get to it from the
 Cloud Control Panel by clicking your name in the upper-right corner and
 selecting [Cloud Sites Control
@@ -42,7 +33,7 @@ You can reach this interface at:
 -   DFW 1-2: <https://mssql.dfw1-2.websitesettings.com/mla/>
 -   ORD: <https://mssql.ord1-1.websitesettings.com/mla/>
 
-**NOTE:** *To find out if your account is located in our ORD or DFW
+**Note:** *To find out if your account is located in our ORD or DFW
 datacenter, check the test link for your site. If your testlink includes
 dfw in the URL, such as
 www.domain.com.php54-2.dfw1-1.websitetestlink.com then your account is
@@ -52,13 +43,11 @@ When logging into myLittleAdmin, you will need to make sure to select
 the correct server choice from the drop down menu. You can find the
 correct value within the control panel on the **View Database** page.
 
-**NOTE:** *Alternatively, you can use other programs such as Management
+**Note:** *Alternatively, you can use other programs such as Management
 Studio Express or Enterprise Manager to manage your MSSQL databases as
 well.*
 
-
-
-**Logging Into MyLittleAdmin**
+### Logging Into MyLittleAdmin**
 
 1.  Log in to the [Rackspace Cloud Control
     Panel](http://manage.rackspacecloud.com).
@@ -88,7 +77,7 @@ similar to this:
     the Database Information section.
 -   The Login is the **username**.
 
-**NOTE:** *The usernames are listed under the Database Users section; by
+**Note:** *The usernames are listed under the Database Users section; by
 default there is only one user and this would be the username you would
 use to login to myLittleAdmin. If there are multiple users listed, you
 may login with any of them. The number that prefixes the username is the
@@ -99,7 +88,7 @@ exactly as it is listed on this page.*
 The **password** is the password associated with the database user,
 which would have been chosen when you created the database and database
 user.
-**NOTE:** *Because this user is separate from your control panel account
+**Note:** *Because this user is separate from your control panel account
 and FTP users, the password may or may not be the same as those users.
 If you cannot remember your database password you can reset the password
 by clicking on the user in the list and filling out the password form;
@@ -109,10 +98,8 @@ database connection errors on your website! If you are working with a
 live website and cannot risk this password reset, please contact a web
 developer for assistance.*
 
-
-
-**With the above information, you're ready to start working with the
-database.**
+With the above information, you're ready to start working with the
+database.
 
 1.  To do so, click on the **Online Manager link**
 2.  A myLittleAdmin interface will display in the browser. Select the
@@ -131,10 +118,7 @@ database.**
 6.  Now that you're logged into myLittleAdmin, you can manage your MSSQL
     database as necessary.
 
-
-
-Backing Up Your MSSQL Database
-------------------------------
+### Backing Up Your MSSQL Database
 
 1.  After you are logged into the online manager, click on **Tools** in
     the bottom of the left frame.
@@ -176,11 +160,7 @@ Backing Up Your MSSQL Database
     ready to backup your database. The process can take several minutes.
     Be patient and do not click the stop button until done.**
 
-
-
-
-Finish Line
------------
+### Finish Line
 
 Congratulations! You have just created a backup of your MSSQL database!
 You should now see a link to download your database backup in Step 5.
@@ -196,24 +176,9 @@ database and connect to the online interface offered by the Rackspace
 Cloud, and hos to perform database backups. In the next series, we will
 dive into the different web services offered in Cloud Sites.
 
-
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div>
-
 ### Next section
 
 [Cloud Sites
 Technologies](/how-to/rackspace-cloud-sites-essentials-cloud-sites-technologies)
 
-
-
-</div>
 
