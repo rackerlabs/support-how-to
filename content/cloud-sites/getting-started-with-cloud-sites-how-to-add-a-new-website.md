@@ -23,11 +23,10 @@ Sites](/how-to/cloud-sites)
 
 
 
-This article will show you how to create your domain through the Classic
-Cloud Control Panel.
+This article will show you how to create your domain through the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
 
--   Let's get started by first logging into the Classic Cloud
-    Control Panel.
+-   Let's get started by first logging into the [Cloud Sites
+    Control Panel](https://manage.rackspacecloud.com).
 -   Once we're logged in, navigate to **Hosting-&gt;Cloud Sites**
 
 <img src="http://c806394.r94.cf2.rackcdn.com/cloudsites.png" width="178" />
@@ -53,7 +52,7 @@ Cloud Control Panel.
     registered or transferred. Let's take a look at each of these
     below:
 
-**Register New Domain Name**
+### Register new domain name
 
 [<img src="http://c806394.r94.cf2.rackcdn.com/registerdomain.png" title="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/registerdomain.png)
 
@@ -65,7 +64,7 @@ Cloud Control Panel.
 -   Once you have made your selection, click **Next Step** to proceed
 
 
-**Domain Name Already Exists**
+### Domain name already exists
 
 If you get the message that the domain is already taken, this means that
 someone has already setup this domain name on the Rackspace Cloud and it
@@ -76,7 +75,7 @@ in the box below *Domain Name* and click **Continue** to proceed.
 
 
 
-**Domain Cannot Be Automatically Registered Or Transferred**
+### Domain cannot be automatically registered Or transferred
 
 If you get the message that *the domain cannot be automatically
 registered or transferred*, this means that the domain has **already
@@ -122,7 +121,7 @@ database.
     have verified everything is correct. If you would like to make any
     changes to your new domain order, click on **Back**
 
-**NOTE:** *You may incur charges depending on whether you are
+**Note:** *You may incur charges depending on whether you are
 registering or transferring a domain to the Rackspace Cloud. You may
 also incur additional charges if you have chosen to add Microsoft SQL
 Storage Space to your new website. Please use this review screen to
