@@ -1,16 +1,16 @@
 ---
 node_id: 3611
-title: 'Cloud Storage App for Microsoft SharePoint: Browser Compatibility Matrix'
+title: 'Cloud Storage App for Microsoft SharePoint: Browser compatibility matrix'
 type: article
 created_date: '2013-07-09'
 created_by: Rose Contreras
-last_modified_date: '2016-01-13'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
 
-### Previous section: [Cloud Storage App for Microsoft SharePoint: Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
+**Previous section:** [Cloud Storage App for Microsoft SharePoint: Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
 
 **Browser Compatibility Matrix** | &nbsp; | &nbsp; | &nbsp; | &nbsp;
 --- | --- | --- | --- | ---

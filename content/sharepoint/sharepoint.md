@@ -3,8 +3,8 @@ title: Microsoft SharePoint
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-01-17'
-last_modified_by: Rackspace Support
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
@@ -15,7 +15,7 @@ product_url: sharepoint
 
 ###  SharePoint information
 
-- [Rackspace SharePoint Hosting, Services, and Training](http://sharepoint.rackspace.com/)
+- [Rackspace SharePoint hosting, services, and training](http://sharepoint.rackspace.com/)
 
 ###  SharePoint first steps
 

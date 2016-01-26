@@ -1,6 +1,6 @@
 ---
 node_id: 3509
-title: 'Cloud Storage App for Microsoft SharePoint: How to Remove Your Credentials from the App'
+title: 'Cloud Storage App for Microsoft SharePoint: How to remove your credentials from the app'
 type: article
 created_date: '2013-06-04'
 created_by: Rose Contreras
@@ -10,9 +10,7 @@ product: Microsoft SharePoint
 product_url: sharepoint
 ---
 
-### Previous section
-
-[Cloud Storage App for Microsoft SharePoint:
+**Previous section:** [Cloud Storage App for Microsoft SharePoint:
 Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
 
 When you are working in Rackspace Cloud Storage App *for Microsoft
@@ -30,7 +28,8 @@ recorded are deleted. Until credentials are once again supplied, you
 will be returned to the configuration screen each time you access the
 app.
 
-The last topic in the **Cloud Storage App for Microsoft SharePoint**
-series describes the [Browser Compatibility
-Matrix](/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix).
+**Where to go from here**
 
+The last topic in the **Cloud Storage App for Microsoft SharePoint**
+series describes the [Browser compatibility
+matrix](/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix).

@@ -1,24 +1,22 @@
 ---
 node_id: 3506
-title: 'Cloud Storage App for Microsoft SharePoint: Accessing Cloud Files Containers'
+title: 'Cloud Storage App for Microsoft SharePoint: Accessing Cloud Files containers'
 type: article
 created_date: '2013-06-04'
 created_by: Rose Contreras
-last_modified_date: '2016-01-06'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
 
-### Previous section
-
-[Cloud Storage App for Microsoft SharePoint:
+**Previous section:** [Cloud Storage App for Microsoft SharePoint:
 Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
 
 Rackspace Cloud Files enables you to log in to your Cloud Control Panel
 and create containers inside your Cloud Files account. When you create a
 container, you must choose a Rackspace data center to host your
-container &mdash; currently available datacenters are: Dallas-Fort Worth
+container. Currently available data centers are Dallas-Fort Worth
 (DFW), <span>Chicago (ORD), Sydney (SYD), Northern Virginia (IAD), or
 Hing Kong (HKG). </span>
 
@@ -43,10 +41,8 @@ other pages within the app.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Select%20Files.jpg.jpeg" width="496" height="223" />
 
-Where to go from here
----------------------
+**Where to go from here**
 
 Now that you understand how to access a container inside the app, learn
-[How to Add and Delete Files in a
-Container](/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container).
-
+[how to add and delete files in a
+container](/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container).
