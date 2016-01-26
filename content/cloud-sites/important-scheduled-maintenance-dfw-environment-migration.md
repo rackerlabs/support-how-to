@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-Overview
---------
+### Overview
 
 We are pleased to inform you that in order to better serve your Cloud
 Sites offering, Rackspace made a significant investment in new
@@ -21,14 +20,12 @@ continued ServiceNet connectivity, this migration allows for upgraded
 hardware and software versions, deployment of new features, as well as
 lays the groundwork for future enhancements.
 
-Timeframe
----------
+### Timeframe
 
 The scheduled maintenance will commence in mid-Q3 with an anticipated
 completion of Q4 of 2015.
 
-Preparation reference material
-------------------------------
+### Preparation reference material
 
 In order to prepare for upcoming system and feature enhancements, we ask
 that you review our migration guide hosted in our Rackspace Knowledge
