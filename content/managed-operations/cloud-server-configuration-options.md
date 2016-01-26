@@ -1,6 +1,6 @@
 ---
 node_id: 4449
-title: Cloud Server Configuration options
+title: Cloud Server configuration options
 type: article
 created_date: '2014-12-01'
 created_by: Rose Contreras
