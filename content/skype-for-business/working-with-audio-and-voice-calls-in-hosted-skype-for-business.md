@@ -4,18 +4,18 @@ title: Working with audio and voice calls in Hosted Skype for Business
 type: article
 created_date: '2014-10-20'
 created_by: Aaron Medrano
-last_modified_date: '2016-01-21'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
 
 When you use Hosted Skype for Business at Rackspace, you can make and
-answer audio calls through the application.
+answer audio calls through the application, as described in the following sections.
 
--   [Set up your audio device](#1)
--   [Make an audio call](#2)
--   [Answer an audio call](#3)
+-   Set up your audio device
+-   Make an audio call
+-   Answer an audio call
 
 ### Set up your audio device
 
