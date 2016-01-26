@@ -6,22 +6,23 @@ created_date: '2013-06-28'
 created_by: Renee Rendon
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
+
+### Previous section
+
+[Overview of RBAC](/how-to/overview-role-based-access-control-rbac)
 
 ### Implementing RBAC through the Cloud Control Panel
 
 The account owner implements RBAC by adding users to the account and
 assigning roles. This article will guide the account owner through this
-process using the [Cloud Control
-Panel](https://mycloud.rackspace.com/).
+process using the [Cloud Control Panel](https://mycloud.rackspace.com/).
 
-For information about setting up RBAC through the API, see the [Cloud
-Identity Admin Developer
-Guide](http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/Overview-d1e65.html).
+For information about setting up RBAC through the API, see the [Cloud Identity Developer Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).
 
-     **Note:** It is possible to assign a mix multiple-product roles and
+**Note:** It is possible to assign a mix multiple-product roles and
 per-product roles to one user through the API. The most permissive role
 will determine the user's level of access.
 
@@ -30,8 +31,8 @@ will determine the user's level of access.
 Rackspace recommends that the account owner change the account password
 and secret question before adding new users to the account.
 
-<span>When new users are created, a temporary password is assigned to
-them, which they should change at their first login.</span>
+When new users are created, a temporary password is assigned to
+them, which they should change at their first login.
 
 Also, new users must be informed that they have been added to the
 account. Rackspace does not notify them automatically. Account owners
@@ -39,56 +40,53 @@ may use the following text to notify their users:
 
 **Your access to this account has changed. You have been added as a new
 user, and you must update your credentials (password and secret
-question) as soon as possible. See &lt;Insert Name&gt; for your
+question) as soon as possible. See <Insert Name> for your
 temporary access information.**
 
 ### Creating New Users
 
-<span>1.</span> <span> In the upper-right corner o</span><span>f
-the</span> [Cloud Control Panel](https://mycloud.rackspace.com/)<span>,
-click</span> <span> userName (accountNumber)</span><span>.</span>
+1.In the upper-right corner of the [Cloud Control Panel](https://mycloud.rackspace.com/),
+click userName (accountNumber).
 
-2\. From the menu, select **User Management.**
+2. From the menu, select **User Management.**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/UserManagement_1.png" width="289" height="221" />
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/UserManagement_1.png" width="289" height="221" />
 
-<span>3. In the</span> **User Management**<span> box, click</span>
-**Create User**<span>.</span>
+3. In the **User Management** box, click **Create User**.
 
-4\. Complete the **Username**, **Password**, **Security Question**, and
+4. Complete the **Username**, **Password**, **Security Question**, and
 **Security Answer** fields.
 
-     **Note:**<span> Username must be unique. You cannot recover the
-username of a deleted user.</span>
+  **Note:** Username must be unique. You cannot recover the
+username of a deleted user.
 
-5\. Select a role to assign to the user.
+5. Select a role to assign to the user.
 
--   <span>If the</span> **Custom** <span>role is chosen, go to
-    step 6.</span>
--   <span>If the **Full Access** or **Read-only Access** role is chosen,
-    skip to step 7.</span>
+-   If the **Custom** role is chosen, go to
+    step 6.
+-   If the **Full Access** or **Read-only Access** role is chosen,
+    skip to step 7.
 
-6\. In the **Product Access** section, select a role for each user. For
-optimal product interaction see [Suggested Role
-Configurations.](#configuration)
+6. In the **Product Access** section, select a role for each user. For
+optimal product interaction see Suggested Role
+Configurations.
 
-**     Note: **<span>Once a user has been assigned the custom role, this
+  **Note:** Once a user has been assigned the custom role, this
 role cannot be changed to a multi-product role through the Cloud Control
 Panel. For more information about changing a custom role to a full
-access or read-only access role see[ custom
-role](/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac).</span>
+access or read-only access role see [Known issues and suggested workarounds - RBAC](/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac).
 
-7\. In the **Contact Information** section, select the contact type.
+7. In the **Contact Information** section, select the contact type.
 
-8\. Specify the contact&rsquo;s name and email address.
+8. Specify the contact's name and email address.
 
-9\. If the primary contact&rsquo;s details will be used for the user, slect
+9. If the primary contact's details will be used for the user, select
 the **Use Primary Contact Details check box**. Otherwise, specify the
 user's contact details.
 
-10\. Click **Create User**.
+10. Click **Create User**.
 
-**     Note:** The Control Panel view is different for each user
+  **Note:** The Control Panel view is different for each user
 depending on the roles assigned.
 
 ### Suggested Role Configurations
@@ -145,23 +143,23 @@ optimal product interaction.
 </tbody>
 </table>
 
-### **Adding a User Login and Custom Role to an Existing Contact**
+### Adding a User Login and Custom Role to an Existing Contact
 
-1\. In the **User Management** box, click the actions cog next to the
+1. In the **User Management** box, click the actions cog next to the
 contact's name.
 
-2\. Click **Add Login...**
+2. Click **Add Login**.
 
-3\. Complete the **Username**, **Password**, **Security Question**, and
+3. Complete the **Username**, **Password**, **Security Question**, and
 **Security Answer** fields.
 
-<span>4. Click **Save User Information** after choosing the custom
-role.</span>
+4. Click **Save User Information** after choosing the custom
+role.
 
-<span>5. Click the actions cog next to that user's name and configure
-the custom role.</span>
+5. Click the actions cog next to that user's name and configure
+the custom role.
 
-### <span>Rackspace Customers with Multiple Accounts</span>
+### Rackspace Customers with Multiple Accounts
 
 Rackspace customers with more than one account may want to allow the
 same user to access to each account. In this situation, the account
@@ -170,10 +168,6 @@ each account. The following graphic illustrates this scenario.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MutiAccountsRBAC.png" width="534" height="250" />
 
+### Next section
 
-
-[&lt; Overview of RBAC ](/how-to/overview-role-based-access-control-rbac)  -   [Using RBAC with MyRack &gt;](/how-to/using-rbac-with-myrackspace)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
+[Using RBAC with MyRack](/how-to/using-rbac-with-myrackspace)
