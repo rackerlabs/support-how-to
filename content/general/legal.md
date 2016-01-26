@@ -40,8 +40,7 @@ the license terms included with the code in the file named &ldquo;README&rdquo;,
 
 
 
-**RACKSPACE HOW-TO DISCLAIMER**
------------------------------------------
+### RACKSPACE HOW-TO DISCLAIMER
 
 The Rackspace How-To articles are for informational purposes
 only and are provided &ldquo;AS IS.&rdquo;  The information set forth in these
@@ -97,8 +96,7 @@ other companies.
 
 
 
-**The Use of the word PARTNER**
--------------------------------
+### The Use of the word PARTNER
 
 The use of the word &lsquo;partner&rsquo; or &lsquo;channel partner&rsquo; does not imply a
 partnership relationship between Rackspace and any other company.
