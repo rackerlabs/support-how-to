@@ -14,41 +14,33 @@ In this article we'll discuss remotely managing a Rackspace Cloud Server using t
 
 ### Remote management
 
-[ccp]:https://mycloud.rackspace.com
-[csapi]:http://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/
-[pynova]:http://pypi.python.org/pypi/python-novaclient/
+The [Cloud Control Panel](https://mycloud.rackspace.com) isn't the only way to manage Cloud Servers. If you're running a script or program you can use the [Cloud Servers API](http://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/), but that involves a modicum of coding effort.
 
-The [Cloud Control Panel][ccp] isn't the only way to manage Cloud Servers.  If you're running a script or program you can use the [Cloud Servers API][csapi], but that involves a modicum of coding effort.
+If you want to manage your servers from the command line without dealing directly with the API you can use an open-source client application called [python-novaclient](http://pypi.python.org/pypi/python-novaclient/).
 
-If you want to manage your servers from the command line without dealing directly with the API you can use an open-source client application called [python-novaclient][pynova].
-
-Note that the nova client is not maintained by Rackspace and should be considered software in development.
+**Note**: The nova client is not maintained by Rackspace and should be considered software in development.
 
 ### Prerequisites
 
 To run python-novaclient you'll need python 2.6 or later installed on your system (the nova client doesn't support python 3 at the time of this writing).  You can run the client from either a desktop machine or from a remote system, like a Cloud Server.
 
-The python installation will need to have the "setuptools" package installed as well.  This is installed with a python distribution like [ActiveState ActivePython][aspython], which we will discuss in the next section.
+The python installation will need to have the "setuptools" package installed as well. This is installed with a python distribution like [ActiveState ActivePython](http://www.activestate.com/activepython/downloads), which we will discuss in the next section.
 
 To run the nova client you'll need to have access to your Rackspace Cloud account username and password.
 
 ### Installing ActiveState ActivePython on Windows
 
-[aspython]:http://www.activestate.com/activepython/downloads
-
 If you don't already have a python installation on your Windows system, an easy way to get python on there is by downloading and installing the community (free) version of ActiveState ActivePython.
 
-You can download the installer from [their website][aspython]:
-
-    http://www.activestate.com/activepython/downloads
+You can download the installer from [their website](http://www.activestate.com/activepython/downloads).
 
 After downloading, run the installer.
 
 #### Installing the python-novaclient package
 
-Once ActiveState Python is installed you can use the python package installer "pip" to automatically download and install the nova client.
+After ActiveState Python is installed you can use the python package installer "pip" to automatically download and install the nova client.
 
-Open a command window by going to the Start Menu and typing "cmd" into the Search box.  In the command window enter the following command to install the pbr package to work around a bug (as of the time of this writing):
+Open a command window by going to the Start Menu and typing "cmd" into the Search box. In the command window enter the following command to install the pbr package to work around a bug (as of the time of this writing):
 
     pip install pbr==0.5.21
 
@@ -76,19 +68,17 @@ Now that the nova client is installed we just need to set up the environment var
 
 For most Windows versions you can set your environment variables through the "System" control panel.
 
-Go to the Start Menu and choose "Control Panel".  In the control panel go to the "System and Security" section, then choose "System".  In the System control panel select the "Advanced" tab at the top.  Then click the "Environment Variables..." button at the bottom.
+Go to the Start Menu and choose "Control Panel". In the control panel go to the "System and Security" section, then choose "System". In the System control panel select the "Advanced" tab at the top. Then click the "Environment Variables..." button at the bottom.
 
-<img border="2" src="http://c8605408.r8.cf2.rackcdn.com/systempanel.png" />
+<img src="http://c8605408.r8.cf2.rackcdn.com/systempanel.png" />
 
 If you have any trouble finding the System control panel you can also type "environment" into the Start Menu's search field.  You'll get a link that lets you edit your environment variables.  If given a choice between editing values for your user account or the system, choose the selection for your user account unless you know other users on your machine will need to be able to use the nova client.
 
 #### Setting the environment variables
 
-[apikey]:/knowledge_center/rackspace-cloud-essentials-1-generating-your-api-key
+Now you'll need to set five environment variables. For each, click the "New" button in the section for your user environment variables (the top pane, usually).
 
-Now you'll need to set five environment variables.  For each, click the "New" button in the section for your user environment variables (the top pane, usually).
-
-<img border="2" src="http://c8605408.r8.cf2.rackcdn.com/envvars.png" />
+<img src="http://c8605408.r8.cf2.rackcdn.com/envvars.png" />
 
 Each variable set will require a name and a value.  These will be:
 
@@ -115,7 +105,7 @@ Each variable set will require a name and a value.  These will be:
 <td valign="top" headers="d26e245" class="stentry proptype">OS_PASSWORD</td>
 <td valign="top" headers="d26e248" class="stentry propvalue">password or API key</td>
 <td valign="top" headers="d26e251" class="stentry propdesc">Set this value to your Rackspace Cloud API key. You can retrieve your API key in
-          the Cloud Control Panel. For information about how to find your API key, see <a href="/how-to/view-and-reset-your-api-key">View and reset your API keyCloud Control Panel</a>. With a non-Rackspace Openstack cloud, you will usually put the account password in this variable.</td>
+          the Cloud Control Panel. For information about how to find your API key, see <a href="/how-to/view-and-reset-your-api-key">View and reset your API key</a>. With a non-Rackspace Openstack cloud, you will usually put the account password in this variable.</td>
 </tr>
 <tr class="strow property">
 <td valign="top" headers="d26e245" class="stentry proptype">OS_AUTH_URL</td>
@@ -176,4 +166,4 @@ You can also use the options that are listed at the end of the "nova help" outpu
 
 ### Where to go next
 
-You should have the nova client set up where you can access it, and it should be able to talk to your Rackspace Cloud account. To look at some common operations you can perform with the client, like creating servers and taking snapshots, see <a href="/how-to/useful-python-novaclient-commands">Useful python-novaclient commands</a>.
+You should have the nova client set up where you can access it, and it should be able to talk to your Rackspace Cloud account. To look at some common operations you can perform with the client, like creating servers and taking snapshots, see [Useful python-novaclient commands](/how-to/useful-python-novaclient-commands).
