@@ -16,13 +16,11 @@ throttling limits the number of simultaneous connections that are
 allowed from each IP address. This feature helps prevent malicious or
 abusive traffic to your server and its installed applications.
 
-Before you begin
-----------------
+### Prerequisites
 
 This procedure for configuring connection throttling assumes that you're
 working with an existing load balancer. If you don't have a load
-balancer yet, create one now by using the following instructions:
-Configuring a Load Balancer.
+balancer yet, [create one](https://support.rackspace.com/how-to/configure-a-load-balancer/). 
 
 ### To configure connection throttling
 
@@ -38,7 +36,6 @@ Configuring a Load Balancer.
     and 100000.
 5.  Enter a value for **Max. Connections. You can specify a value
     between 1 and 100000.**
-6.  **Click **Save Connection Throttling**.**
+6.  Click **Save Connection Throttling**.
 
-** **
 
