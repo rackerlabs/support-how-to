@@ -10,8 +10,6 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-Get quick answers to common questions about RackConnect RegionLink.
-
 #### What is RackConnect RegionLink?
 
 RackConnect RegionLink is a Limited Availability service that enables
@@ -51,13 +49,12 @@ Hosting customers at this time.
 
 #### In which data centers is this service available?
 
-#### The service is curently available in all three US data centers (IAD, DFW, and ORD).
+The service is currently available in IAD, DFW, and ORD data centers.
 
 #### Is a dedicated aggregation (customer edge) device needed to use this service?
 
 Yes, a dedicated aggregation, or customer edge (CE) device is needed at
-this time.
-We recommend one of the following devices:
+this time. We recommend one of the following devices:
 
 -   Cisco 4948E
 -   Arista 7050
@@ -83,13 +80,8 @@ two uplinks to the data center provider edge (PE) device.
 
 #### What is the SLA for this service?
 
-The SLA varies based on which of the above redundancy option the
-customer chooses. If the customer wants only one Dedicated Aggr. device,
-the SLA will be limited to a 1 hour hardware replacement time for the
-Aggr. device. If the customer uses two CE devices we have an SLA of 99.9
-% connection availability between data center edge devices. See
-[Rackspace RackConnect RegionLink Service Level
-Guaranty](http://www.rackspace.com/information/legal/rackconnect_regionlink)
+The SLA varies based on which redundancy option the customer chooses. If the customer wants only one dedicated aggregation device, the SLA is limited to a 1-hour hardware replacement time for the aggregated device. If the customer uses two dedicated aggregation devices, we have an SLA of 99.9% connection availability between data center edge devices. See the
+[Rackspace RackConnect RegionLink Terms](http://www.rackspace.com/information/legal/rackconnect_regionlink)
 for the SLA.
 
 #### For an MPLS L3 VPN connection, how many VPN prefixes can be exchanged between the sites?
@@ -104,4 +96,3 @@ No. Only IPv4 is supported at this time.
 
 Contact your Rackspace account representative for ordering and pricing
 information.
-
