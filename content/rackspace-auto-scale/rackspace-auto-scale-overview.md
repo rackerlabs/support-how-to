@@ -15,7 +15,7 @@ to your application up or down based on user-defined need. Scaling
 events can be based on scaling rules that you define through your
 monitoring system, or on a simple schedule that you configure.
 
-### How Is Autoscale Used?
+### How Is Autoscale used?
 
 Scaling is triggered either by webhooks that are placed in monitoring
 services or by a schedule. An Autoscale group, or *scaling group*,
@@ -29,9 +29,9 @@ consists of the following items:
 -   Scaling policy: Defines the action of the policy (for example, scale
     up by 5 servers)
 -   Webhook (capability-based URL): Triggers a scaling policy (for
-    example, &ldquo;When this URL is hit, execute this scaling policy.&rdquo;)
+    example, "When this URL is hit, execute this scaling policy.")
 
-### Use Cases
+### Use cases
 
 -   **eCommerce sale**
     Customer W has a one-day sale on its site on Monday, that is,
@@ -79,5 +79,3 @@ consists of the following items:
 -   To learn more about the Rackspace Autoscale API, see the [Rackspace
     Autoscale API Getting Started
     Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-getting-started).
-
-
