@@ -21,9 +21,7 @@ Panel](https://manage.rackspacecloud.com/).
 [Getting Started with Cloud
 Sites](/how-to/cloud-sites)
 
-
-
-**Now that you have successfully created your domain in Cloud Sites,**
+Now that you have successfully created your domain in Cloud Sites,
 you will most likely want to begin uploading content to your website.
 This article will show you how to locate your FTP (File Transfer
 Protocol) credentials and connect to the Rackspace Cloud FTP servers.
@@ -48,7 +46,7 @@ To find your domain's FTP settings follow these easy steps:
 
     ![](http://c806394.r94.cf2.rackcdn.com/ftpserver.png)
 
-    **NOTE:** *There are two FTP servers you can use to add content to
+    **Note:** *There are two FTP servers you can use to add content to
     your site:*
 
     -   The FTP server specific to your domain. This server will be ftp.
@@ -92,7 +90,7 @@ To find your domain's FTP settings follow these easy steps:
            /stats <----- Do not delete or edit
            /logs <----- Do not delete or edit
 
-    **NOTE:** *By default, your site will have an index.html. In order
+    **Note:** *By default, your site will have an index.html. In order
     to display your new content, please delete the default index.html or
     rename this to something like index.html.bak*
 
