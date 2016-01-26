@@ -6,8 +6,8 @@ created_date: '2014-02-19'
 created_by: Rose Contreras
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
 
 Rackspace introduced the concept of charging customers only for the
@@ -39,9 +39,4 @@ Finally, Rackspace charges only for outbound bandwidth, meaning that
 routine site maintenance, such as content publishing and uploads, are
 not counted against your bandwidth allocation.
 
-
-
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3911-1_0.png" width="512" height="212" />
-
-
-
