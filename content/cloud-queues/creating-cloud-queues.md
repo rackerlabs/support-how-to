@@ -20,7 +20,7 @@ terminal.
 token](/how-to/cloud-queues-curl-cookbook)
 before completing the terminal steps for creating your cloud queue.
 
-**Create the queue in the Control Panel**
+### Creating the queue from the Control Panel
 
 -   In the Queues tab of the Control Panel, click **Create Queue**.
 -   In the pop out box, enter a name for your queue, select your
@@ -33,7 +33,7 @@ steps under [Testing Your
 Queue](/how-to/cloud-queues-curl-cookbook)
 in your terminal to begin posting messages to your Queue.
 
-**Create the queue from your terminal** 
+### Creating the queue from your terminal** 
 
 You can create a queue from your terminal by submitting a request to the Rackspace Cloud Queues API. You need to provide the following values in your request:
 [``$TOKEN`` - valid Rackspace Cloud authentication token](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-getting-started/authenticate) and ``$ENDPOINT`` -  the Cloud Queues API endpoint returned in the service catalog.
@@ -50,7 +50,7 @@ Open your terminal, then submit the following cURL command to create the queue u
 
     HTTP/1.1 200 OK Content-Length: 140 Content-Type: application/json; charset=utf-8 Content-Location: /v1/queues {"queues": [{"href": "/v1/queues/samplequeue", "name": "samplequeue"}], "links": [{"href": "/v1/queues?marker=samplequeue", "rel": "next"}]}
 
-### Testing your Queue
+### Testing your queue
 
 -   You can test your queue by posting a message to it:
 
