@@ -1,6 +1,6 @@
 ---
 node_id: 4120
-title: Managed Cloud Service Level Pricing
+title: Managed Cloud Service level pricing
 type: article
 created_date: '2014-07-01'
 created_by: Nicole Schwartz
@@ -18,8 +18,8 @@ It could. The following table illustrates, for example, a savings of $87.60 per 
 
 | | Infrastructure | Infrastructure Rate (month) | Service Level Rate (month) | Total |
 | --- | --- | --- | --- | --- |
-| Infrastructure Service Level | 10 x 4 GB Servers </br></br> (4 GB Server is $0.16/hr) | $1168.00  </br></br> (10 x $0.16/hr x 730 hrs) |  $0.00  </br></br> (Bundled in Infrastructure) | $1,168.00
-| Managed Infrastructure | 10 x 4 GB Servers  </br></br> (4 GB Server is $0.128/hr) | $934.40  </br></br> (10 x $0.128/hr x 730 hrs) | $146.00 </br></br> (40 GB x 730 hrs x $0.005) |  $1,080.40
+| Infrastructure Service Level | 10 x 4 GB Servers <br> (4 GB Server is $0.16/hr) | $1168.00  <br> (10 x $0.16/hr x 730 hrs) |  $0.00  <br> (Bundled in Infrastructure) | $1,168.00
+| Managed Infrastructure | 10 x 4 GB Servers  <br> (4 GB Server is $0.128/hr) | $934.40  <br> (10 x $0.128/hr x 730 hrs) | $146.00 <br> (40 GB x 730 hrs x $0.005) |  $1,080.40
 
 ## What is the Service Level Rate?
 
