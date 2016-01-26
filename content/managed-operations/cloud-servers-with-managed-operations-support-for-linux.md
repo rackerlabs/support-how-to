@@ -12,7 +12,7 @@ product_url: managed-operations
 
 Managed Operations provides support beyond Managed Infrastructure, including direct assistance with resizes, snapshots, host machine issues, adding and removing servers, and managing IP addresses. To ensure Fanatical Support, Rackspace provides support for specific software and server configurations on Cloud Servers with Managed Operations support.
 
-### Operating Systems
+### Operating systems
 
 The Managed Operations spheres of support include the following operating systems for Linux cloud servers:
 
@@ -48,7 +48,7 @@ The Managed Operations spheres of support include the following operating system
 \*MariaDB is supported for RHEL 7 and CentOS 7
 \*\*Only Master/Slave replication is supported
 
-### Programming Languages
+### Programming languages
 
 |   | **Installation** | **Configuration** | **Modules** | **Patching** |
 | --- | --- | --- | --- | --- |
@@ -69,7 +69,7 @@ The Managed Operations spheres of support include the following operating system
 | [**Varnish**](http://varnish-cache.org) | **Yes** | **Yes** | Yes | **Yes** |
 
 
-### Software Firewall
+### Software firewall
 
 |    | **Installation** | **Configuration** | **Troubleshooting** |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ The Managed Operations spheres of support include the following operating system
 | [**POSTFIX Outgoing ONLY**](http://www.postfix.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
 
-### Other Packages
+### Other packages
 
 While we do not support all technologies, we do offer reasonable endeavor support which extends our support into offering alternative solutions.  The reasonable endeavor support can include help from Rackspace partners and other third party services.
 
@@ -103,6 +103,6 @@ While we do not support all technologies, we do offer reasonable endeavor suppor
 -  **Control Panels** - Control Panel applications such as Plesk, Webmin, or cPanel are  **not supported at this time**.
 -  **DNS** - Managed Operations supports the use of the Rackspace Cloud nameservers for DNS.  Bind is **not supported at this time**.
 
-### End of Life Support Dates
+### End of life support dates
 
 Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. Should the manufacturer decide to shorten the support life of an operating system, Rackspace may be forced to end support sooner than originally anticipated.
