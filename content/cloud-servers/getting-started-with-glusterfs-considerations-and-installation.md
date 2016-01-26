@@ -33,12 +33,12 @@ Before you start to use GlusterFS, you have to make a fundamental decision: what
 
 All the fundamental work in this document is the same except for the one step where the volume is created with the **replica** keyword. Using striped-based volumes is not covered.
 
-## Prerequisites
+### Prerequisites
 
 - Two or more servers with separate storage
 - A private network between servers
 
-## Build setup
+### Build setup
 
 The build described in this document uses the following setup. Using Cloud Block Storage devices is no different than using VMware vDisks, SAN/DAS LUNs, iSCSI, and so on.
 
@@ -55,8 +55,7 @@ Perform the following configuration and installations to prepare the servers.
 3. Install GlusterFS software
 4. Connect GlusterFS nodes
 
-
-#### Configure `/etc/hosts and iptables/`
+#### Configure /etc/hosts and iptables/
 
 Instead of using DNS, prepare **`/etc/hosts`** on every server and ensure that the servers can communicate with each other. All servers have the name <strong>gluster<em>N</em></strong> as a host name, so use <strong>glus<em>N</em></strong> for the private communication layer between servers.
 
@@ -68,27 +67,27 @@ Instead of using DNS, prepare **`/etc/hosts`** on every server and ensure that t
 
 	# ping -c2 glus1; ping -c2 glus2;  ping -c2 glus3;  ping -c2 glus4
 
-##### Red Hat:
+**Red Hat**
 
     # vi /etc/sysconfig/iptables
     -A INPUT -s 192.168.3.0/24 -j ACCEPT
 
     # service iptables restart
 
-##### Granular setup for iptables
+**Granular setup for iptables**
 
 The preceding generic iptables rule opens all ports to the subnet. If a more granular setup is required, use the following values:
 
-- **111** &ndash; portmap/rpcbind
-- **24007** &ndash; GlusterFS Daemon
-- **24008** &ndash; GlusterFS Management
-- **38465** to **38467** &ndash; Required for GlusterFS NFS service
-- **24009** to **+X** &ndash; GlusterFS versions earlier than 3.4
-- **49152** to **+X** &ndash; GlusterFS versions 3.4 and later
+- **111** - portmap/rpcbind
+- **24007** - GlusterFS Daemon
+- **24008** - GlusterFS Management
+- **38465** to **38467** - Required for GlusterFS NFS service
+- **24009** to **+X** - GlusterFS versions earlier than 3.4
+- **49152** to **+X** - GlusterFS versions 3.4 and later
 
 Each brick for every volume on the host requires its own port. For every new brick, one new port will be used starting at **24009** for GlusterFS versions earlier than 3.4 and **49152** for version 3.4 and later.
 
-**Example:** If you have one volume with two bricks, you must open 24009-24010 or 49152-49153.
+For example, if you have one volume with two bricks, you must open 24009-24010 or 49152-49153.
 
 #### Install packages
 
@@ -100,30 +99,30 @@ Run the commands in this section to perform the following steps:
 
 Some of the required packages might already be installed on the cluster nodes.
 
-##### YUM/RPM:
+**YUM/RPM**
 
-    # yum -y install parted lvm2 xfsprogs
-    # wget -P /etc/yum.repos.d
-	http://download.gluster.org/pub/gluster/glusterfs/LATEST/CentOS/glusterfs-epel.repo
-	# yum -y install glusterfs glusterfs-fuse glusterfs-server
+    yum -y install parted lvm2 xfsprogs
+    wget -P /etc/yum.repos.d
+    http://download.gluster.org/pub/gluster/glusterfs/LATEST/CentOS/glusterfs-epel.repo
+    yum -y install glusterfs glusterfs-fuse glusterfs-server
 
-##### Ubuntu:
+**Ubuntu**
 
 The default Ubuntu repository has glusterfs 3.4.2 installed. Use the following code to install 3.5.1:
 
-    # apt-get install lvm2 xfsprogs python-software-properties
-    # add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.5
-    # apt-get update
-    # apt-get install glusterfs-server
+    apt-get install lvm2 xfsprogs python-software-properties
+    add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.5
+    apt-get update
+    apt-get install glusterfs-server
 
 Use the following commands to ensure that the gluster* packages are filtered out of automatic updates. Upgrades while it's running can crash the bricks (on at least the upgrade from 3.5.0 to 3.5.1).
 
-    # grep ^exclude /etc/yum.conf
-	exclude=kernel* gluster*
+    grep ^exclude /etc/yum.conf
+    exclude=kernel* gluster*
 
-##### Ubuntu:
+**Ubuntu**
 
-    # apt-mark hold glusterfs*
+    apt-mark hold glusterfs*
 
 #### Prepare the bricks
 
@@ -139,85 +138,81 @@ The underlying bricks are a standard file system and mount point. However, be su
 
 The bricks must be unique per node, and there should be a directory within the mount point to use in volume creation. Attempting to create a replicated volume by using the top-level of the mount points results in an error with instructions to use a subdirectory.
 
-##### All nodes:
+**All nodes**
 
-    # parted -s -- /dev/xvde mktable gpt
-	# parted -s -- /dev/xvde mkpart primary 2048s 100%
-	# parted -s -- /dev/xvde set 1 lvm on
-	# partx -a /dev/xvde
-	# pvcreate /dev/xvde1
-	# vgcreate vgglus1 /dev/xvde1
-	# lvcreate -l 100%VG -n gbrick1 vgglus1
-	# mkfs.xfs -i size=512 /dev/vgglus1/gbrick1
-	# echo '/dev/vgglus1/gbrick1 /var/lib/gvol0 xfs inode64,nobarrier 0 0' >> /etc/fstab
-	# mkdir /var/lib/gvol0
-	# mount /var/lib/gvol0
+    parted -s -- /dev/xvde mktable gpt
+    parted -s -- /dev/xvde mkpart primary 2048s 100%
+    parted -s -- /dev/xvde set 1 lvm on
+    partx -a /dev/xvde
+    pvcreate /dev/xvde1
+    vgcreate vgglus1 /dev/xvde1
+    lvcreate -l 100%VG -n gbrick1 vgglus1
+    mkfs.xfs -i size=512 /dev/vgglus1/gbrick1
+    echo '/dev/vgglus1/gbrick1 /var/lib/gvol0 xfs inode64,nobarrier 0 0' >> /etc/fstab
+    mkdir /var/lib/gvol0
+    mount /var/lib/gvol0
 
+-  glus1
 
-##### On glus1:
+        mkdir /var/lib/gvol0/brick1
 
-    # mkdir /var/lib/gvol0/brick1
+-  glus2
 
+        mkdir /var/lib/gvol0/brick2
 
-##### On glus2:
+-  glus3
 
-    # mkdir /var/lib/gvol0/brick2
+        mkdir /var/lib/gvol0/brick3
 
+-  glus4
 
-##### On glus3:
+        mkdir /var/lib/gvol0/brick4
 
-    # mkdir /var/lib/gvol0/brick3
-
-##### On glus4:
-
-    # mkdir /var/lib/gvol0/brick4
-
-<br />
-## Set up GlusterFS
+### Set up GlusterFS
 
 Use the steps below to run the GlusterFS setup.
 
-### Start the glusterfsd daemon
+#### Start the glusterfsd daemon
 
 The daemon can also be restarted at run time:
 
-#### Red Hat:
+**Red Hat**
 
-    # service glusterd start
-	# chkconfig glusterd on
+    service glusterd start
+    chkconfig glusterd on
 
 ### Build a peer group
 
-A peer group is known as a *trusted storage pool* in GlusterFS. [Insert a sentence that introduces the code blocks.]
+A peer group is known as a *trusted storage pool* in GlusterFS.
 
-#### glus1:
+-  glus1
 
-    # gluster peer probe glus2
-    # gluster peer probe glus3
-    # gluster peer probe glus4
-    # gluster peer status
+       gluster peer probe glus2
+       gluster peer probe glus3
+       gluster peer probe glus4
+       gluster peer status
 
-#### glus2:
+-  glus2
 
-    # gluster peer probe glus1
-    # gluster peer probe glus3
-    # gluster peer probe glus4
-    # gluster peer status1
+       gluster peer probe glus1
+       gluster peer probe glus3
+       gluster peer probe glus4
+       gluster peer status1
 
-#### glus3:
+-  glus3
 
-    # gluster peer probe glus1
-    # gluster peer probe glus2
-    # gluster peer probe glus4
-    # gluster peer status
+       gluster peer probe glus1
+       gluster peer probe glus2
+       gluster peer probe glus4
+       gluster peer status
 
-#### glus4:
-    # gluster peer probe glus1
-    # gluster peer probe glus2
-    # gluster peer probe glus3
-    # gluster peer status
+-  glus4
+       gluster peer probe glus1
+       gluster peer probe glus2
+       gluster peer probe glus3
+       gluster peer status
 
-#### Now you can verify the status of your node and the gluster server pool:
+Now you can verify the status of your node and the gluster server pool:
 
     [root@gluster1 ~]# gluster pool list
     UUID	                				Hostname	State
@@ -225,8 +220,6 @@ A peer group is known as a *trusted storage pool* in GlusterFS. [Insert a senten
     d5c9e064-c06f-44d9-bf60-bae5fc881e16	glus3   	Connected
     57027f23-bdf2-4a95-8eb6-ff9f936dc31e	glus2   	Connected
     e64c5148-8942-4065-9654-169e20ed6f20	localhost	Connected
-
-<br />
 
 ### Create the volume
 
@@ -236,19 +229,19 @@ By default, glusterd NFS allows global read/write during volume creation, so you
 
 This example creates replication to all four nodes; each node contains a copy of all data and the size of the volume is the size of a single brick. Note that the output shows `1 x 4 = 4`.
 
-##### One node only:
+**One node only**:
 
-    # gluster volume create gvol0 replica 4 transport tcp \
+     gluster volume create gvol0 replica 4 transport tcp \
      glus1:/var/lib/gvol0/brick1 \
      glus2:/var/lib/gvol0/brick2 \
      glus3:/var/lib/gvol0/brick3 \
      glus4:/var/lib/gvol0/brick4
-    # gluster volume set gvol0 auth.allow 192.168.3.*
-    # gluster volume set gvol0 nfs.disable off
-    # gluster volume set gvol0 nfs.addr-namelookup off
-    # gluster volume set gvol0 nfs.export-volumes on
-    # gluster volume set gvol0 nfs.rpc-auth-allow 192.168.3.*
-    # gluster volume start gvol0
+     gluster volume set gvol0 auth.allow 192.168.3.*
+     gluster volume set gvol0 nfs.disable off
+     gluster volume set gvol0 nfs.addr-namelookup off
+     gluster volume set gvol0 nfs.export-volumes on
+     gluster volume set gvol0 nfs.rpc-auth-allow 192.168.3.*
+     gluster volume start gvol0
 
     [root@gluster1 ~]# gluster volume info gvol0
     Volume Name: gvol0
@@ -273,19 +266,19 @@ This example creates replication to all four nodes; each node contains a copy of
 
 This example creates distributed replication to 2x2 nodes; each pair of nodes contains the data and the size of the volume is the size of two bricks. Note that the output shows `2 x 2 = 4`.
 
-##### One node only:
+**One node only**:
 
-    # gluster volume create gvol0 replica 2 transport tcp \
+    gluster volume create gvol0 replica 2 transport tcp \
     glus1:/var/lib/gvol0/brick1 \
     glus2:/var/lib/gvol0/brick2 \
     glus3:/var/lib/gvol0/brick3 \
     glus4:/var/lib/gvol0/brick4
-    # gluster volume set gvol0 auth.allow 192.168.3.*
-    # gluster volume set gvol0 nfs.disable off
-    # gluster volume set gvol0 nfs.addr-namelookup off
-    # gluster volume set gvol0 nfs.export-volumes on
-    # gluster volume set gvol0 nfs.rpc-auth-allow 192.168.3.*
-    # gluster volume start gvol0
+    gluster volume set gvol0 auth.allow 192.168.3.*
+    gluster volume set gvol0 nfs.disable off
+    gluster volume set gvol0 nfs.addr-namelookup off
+    gluster volume set gvol0 nfs.export-volumes on
+    gluster volume set gvol0 nfs.rpc-auth-allow 192.168.3.*
+    gluster volume start gvol0
 
     [root@gluster1 ~]# gluster volume info gvol0
     Volume Name: gvol0
@@ -306,91 +299,87 @@ This example creates distributed replication to 2x2 nodes; each pair of nodes co
     nfs.disable: off
     auth.allow: 192.168.3.*
 
-## Delete the volume
+### Delete the volume
 
 After you ensure that no clients (either local or remote) are mounting the volume, you can stop the volume and delete it as follows:
 
-    # gluster volume stop gvol0
-    # gluster volume delete gvol0
+    gluster volume stop gvol0
+    gluster volume delete gvol0
 
-### Clearing bricks
+#### Clearing bricks
 
 If bricks are used in a volume and they need to be removed, you can use the following methods.
 
 GlusterFS set an attribute on the brick subdirectories. Clear this attribute, and then the bricks can be reused.
 
-#### glus1:
+-  glus1:
 
-    # setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick1/
-    # setfattr -x trusted.gfid /var/lib/gvol0/brick1
-    # rm -rf /var/lib/gvol0/brick1/.glusterfs
+      setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick1/
+      setfattr -x trusted.gfid /var/lib/gvol0/brick1
+      rm -rf /var/lib/gvol0/brick1/.glusterfs
 
-#### glus2:
+-  glus2:
 
-    # setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick2/
-    # setfattr -x trusted.gfid /var/lib/gvol0/brick2
-    # rm -rf /var/lib/gvol0/brick2/.glusterfs
+      setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick2/
+      setfattr -x trusted.gfid /var/lib/gvol0/brick2
+      rm -rf /var/lib/gvol0/brick2/.glusterfs
 
-#### glus3:
+-  glus3:
 
-    # setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick3/
-    # setfattr -x trusted.gfid /var/lib/gvol0/brick2
-    # rm -rf /var/lib/gvol0/brick3/.glusterfs
+      setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick3/
+      setfattr -x trusted.gfid /var/lib/gvol0/brick2
+      rm -rf /var/lib/gvol0/brick3/.glusterfs
 
-#### glus4:
+-  glus4:
 
-    # setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick4/
-    # setfattr -x trusted.gfid /var/lib/gvol0/brick2
-    # rm -rf /var/lib/gvol0/brick4/.glusterfs
+      setfattr -x trusted.glusterfs.volume-id /var/lib/gvol0/brick4/
+      setfattr -x trusted.gfid /var/lib/gvol0/brick2
+      rm -rf /var/lib/gvol0/brick4/.glusterfs
 
 Alternatively, you can delete the subdirectories and then re-create them.
 
-#### glus1
+-  glus1
 
-    # rm -rf /var/lib/gvol0/brick1
-    # mkdir /var/lib/gvol0/brick1
+      rm -rf /var/lib/gvol0/brick1
+      mkdir /var/lib/gvol0/brick1
 
-#### glus2:
+-  glus2:
 
-    # rm -rf /var/lib/gvol0/brick2
-    # mkdir /var/lib/gvol0/brick2
+      rm -rf /var/lib/gvol0/brick2
+      mkdir /var/lib/gvol0/brick2
 
-#### glus3:
+-  glus3:
 
-    # rm -rf /var/lib/gvol0/brick3
-    # mkdir /var/lib/gvol0/brick3
+      rm -rf /var/lib/gvol0/brick3
+      mkdir /var/lib/gvol0/brick3
 
-#### glus4:
+-  glus4:
 
-    # rm -rf /var/lib/gvol0/brick4
-    # mkdir /var/lib/gvol0/brick4
-
-<br />
+      rm -rf /var/lib/gvol0/brick4
+      mkdir /var/lib/gvol0/brick4
 
 ### Add bricks
 
 You can add more bricks to a running volume, as follows:
 
-    # gluster add-brick gvol0 gluster5:/var/lib/gvol0/brick5
+    gluster add-brick gvol0 gluster5:/var/lib/gvol0/brick5
 
 The `add-brick` command can also be used to change the layout of your volume; for example, to change a two-node Distributed volume into a four-node Distributed-Replicated volume. After such an operation, you *must rebalance* your volume. New files will be automatically created on the new nodes, but the old ones will not get moved.
 
-    # gluster volume add-brick gvol0 replica 2 \
+    gluster volume add-brick gvol0 replica 2 \
     gluster5:/var/lib/gvol0/brick5 ;
     gluster6:/var/lib/gvol0/brick6
-    # gluster rebalance gvol0 start
-    # gluster rebalance gvol0 status
+    gluster rebalance gvol0 start
+    gluster rebalance gvol0 status
 
     ## If needed (something didn't work right)
-    # gluster rebalance gvol0 stop
-
-<br />
+    gluster rebalance gvol0 stop
 
 ### Volume options
 
 To view configured volume options, run the following command:
 
-    # gluster volume info gvol0
+    gluster volume info gvol0
 
 Following is example output:
 
@@ -415,92 +404,82 @@ Following is example output:
     nfs.disable: off
     auth.allow: 192.168.3.*
 
-<br />
-
 To set an option for a volume, use the **set** keyword, as follows:
 
-    # gluster volume set gvol0 performance.write-behind off
+    gluster volume set gvol0 performance.write-behind off
     volume set: success
 
 To clear an option to a volume back to the default, use the **reset** keyword as follows:
 
-    # gluster volume reset gvol0 performance.read-ahead
+    gluster volume reset gvol0 performance.read-ahead
     volume reset: success: reset volume successful
 
-<br />
 
-## Client mounts
+### Client mounts
 
 From a client perspective, the GlusterFS volume can be mounted in the following ways:
 
 - FUSE client
 - NFS client
 
-### FUSE client
+#### FUSE client
 
-The FUSE client allows the mount to happen with a GlusterFS "round robin" style connection. In **`/etc/fstab`**, the name of one node is used; however, internal mechanisms allow that node to fail, and the clients will roll over to other connected nodes in the trusted storage pool. The performance is slightly slower than the NFS method based on tests, but not drastically so. The gain is automatic HA client failover, which is typically worth the effect on performance.
+The FUSE client allows the mount to happen with a GlusterFS "round robin" style connection. In **/etc/fstab**, the name of one node is used; however, internal mechanisms allow that node to fail, and the clients will roll over to other connected nodes in the trusted storage pool. The performance is slightly slower than the NFS method based on tests, but not drastically so. The gain is automatic HA client failover, which is typically worth the effect on performance.
 
-#### RPM:
+**RPM**:
 
-    # wget -P /etc/yum.repos.d
+    wget -P /etc/yum.repos.d
     http://download.gluster.org/pub/gluster/glusterfs/LATEST/CentOS/glusterfs-epel.repo
-    # yum -y install glusterfs glusterfs-fuse
+    yum -y install glusterfs glusterfs-fuse
 
-
-#### Ubuntu:
+**Ubuntu**:
 
 glusterfs-client 3.4.2 works with glusterfs-server 3.5.1, but for the most recent version, use the following code:
 
-    # add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.5
-    # apt-get update
-    # apt-get install glusterfs-client
-    ##
+    add-apt-repository ppa:semiosis/ubuntu-glusterfs-3.5
+    apt-get update
+    apt-get install glusterfs-client
 
-#### Common:
+**Common**:
 
-    # vi /etc/hosts
+    vi /etc/hosts
     192.168.3.2  glus1
     192.168.3.4  glus2
     192.168.3.1  glus3
     192.168.3.3  glus4
 
-    # modprobe fuse
-    # echo 'glus1:/gvol0 /mnt/gluster/gvol0 glusterfs defaults,_netdev 0 0' >> /etc/fstab
-    # mkdir -p /mnt/gluster/gvol0
-    # mount /mnt/gluster/gvol0
+    modprobe fuse
+    echo 'glus1:/gvol0 /mnt/gluster/gvol0 glusterfs defaults_netdev 0 0' >> /etc/fstab
+    mkdir -p /mnt/gluster/gvol0
+    mount /mnt/gluster/gvol0
 
-<br />
-
-### NFS client
+#### NFS client
 
 The standard Linux NFSv3 client tools are used to mount one of the GlusterFS nodes. The performance is typically a little better than when using the FUSE client. However, the disadvantage of using this client is that the connection is 1-to-1. If the GlusterFS node fails, the client will not round-robin out to another node. A different solution must be added, such as HAProxy/keepalived or a load balancer,  to provide a floating IP proxy.
 
-#### RPM based:
+**RPM based**:
 
-    # yum -y install rpcbind nfs-utils
-    # service rpcbind restart; chkconfig rpcbind on
-    # service nfslock restart; chkconfig on
+    yum -y install rpcbind nfs-utils
+    service rpcbind restart; chkconfig rpcbind on
+    service nfslock restart; chkconfig on
 
-#### Ubuntu:
+**Ubuntu**:
 
-    # apt-get install nfs-common
-    ##
+    apt-get install nfs-common
 
-#### Common:
+**Common:**
 
-    # echo 'glus1:/repvol1 /mnt/gluster/gvol0 nfs rsize=4096,wsize=4096,hard,intr 0 0' >> /etc/fstab
-    # mkdir -p /mnt/gluster/gvol0
-    # mount /mnt/gluster/gvol0
+    echo 'glus1:/repvol1 /mnt/gluster/gvol0 nfs rsize=4096,wsize=4096,hard,intr 0 0' >> /etc/fstab
+    mkdir -p /mnt/gluster/gvol0
+    mount /mnt/gluster/gvol0
 
-<br />
-
-## References
+### References
 
 - http://www.sohailriaz.com/glusterfs-howto-on-centos-6-x/
 - http://kaivanov.blogspot.com/2012/07/deploying-glusterfs.html
 - http://joejulian.name/blog/glusterfs-path-or-a-prefix-of-it-is-already-part-of-a-volume/
 - http://www.jamescoyle.net/how-to/457-glusterfs-firewall-rules
 
-Next Article: [GlusterFS Troubleshooting](/how-to/glusterfs-troubleshooting)
+###Next Article
 
-<p>&nbsp;</p>
+[GlusterFS Troubleshooting](/how-to/glusterfs-troubleshooting)
