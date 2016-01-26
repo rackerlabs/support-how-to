@@ -172,14 +172,14 @@ but the Windows Firewall configuration utility available via the Control
 Panel can disable only two of these (Public and Private). You can
 disable the third by performing the following steps:
 
-1. Open the Windows Firewall with Advanced Security utility under **Start &gt; Administrative Tools &gt; Windows Firewall with Advanced Security**.
+1.  Open the Windows Firewall with Advanced Security utility under **Start &gt; Administrative Tools &gt; Windows Firewall with Advanced Security**.
 
-  The overview page that is displayed shows the profiles for which Windows Firewall is still enabled.
+    The overview page that is displayed shows the profiles for which Windows Firewall is still enabled.
 
-2. Click the **Windows Firewall Properties** link.
+2.  Click the **Windows Firewall Properties** link.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winfirewall-overview.png" alt="Windows Firewall overview page; Clicking Windows Firewall Properties" width="550" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winfirewall-overview.png" alt="Windows Firewall overview page; Clicking Windows Firewall Properties" width="550" />
 
-3. From the Windows Firewall Properties page, you can disable Windows Firewall for all three profiles. On the **Domain Profile** tab, choose **Off** for the **Firewall state** setting. Do the same for the Public and Private profiles if Windows Firewall is still enabled for either profile.
+3.  From the Windows Firewall Properties page, you can disable Windows Firewall for all three profiles. On the **Domain Profile** tab, choose **Off** for the **Firewall state** setting. Do the same for the Public and Private profiles if Windows Firewall is still enabled for either profile.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winfirewall-domainoff.png" alt="Windows Firewall properties; Domain Profile tab; Clicking Firewall state Off" width="408" height="452" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winfirewall-domainoff.png" alt="Windows Firewall properties; Domain Profile tab; Clicking Firewall state Off" width="408" height="452" />
