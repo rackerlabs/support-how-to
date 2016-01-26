@@ -29,9 +29,9 @@ and [Transferring Your Existing Domain](#transfer_domain).
 
 
 
-**Registering a New Domain Name**
+### Registering a new domain name
 
-**NOTE:** *If you are registering a new domain name through the Control
+**Note:** *If you are registering a new domain name through the Control
 Panel, the DNS will automatically be setup for you to point to the
 Rackspace Cloud.*<span> *Please see the "[What Top Level Domain
 extensions can I purchase through the control
@@ -53,7 +53,6 @@ article for a list of domain extensions available for purchase.*</span>
 
     ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
 
-<!-- -->
 
 -   Choose the length of time for which you want to purchase the domain
     name
@@ -65,7 +64,7 @@ article for a list of domain extensions available for purchase.*</span>
 
 
 
-**Transferring Your Existing Domain**
+### Transferring your existing domain
 
 With Cloud Sites, you can transfer an existing .com, .net, .org, .us,
 and .co.uk domain and receive an additional year of ownership for only
@@ -73,14 +72,14 @@ and .co.uk domain and receive an additional year of ownership for only
 information accessible in one place which makes it possible for us to
 help you with the renewal of the domain name and other Support issues.
 
-**NOTE:** *Transferring your existing domain does not automatically
+**Note:** Transferring your existing domain does not automatically
 update the DNS at the domain registrar level. You will need to manually
 update your DNS if you would like to make your domain live on The
-Rackspace Cloud.*
+Rackspace Cloud.
 
 Follow these steps to transfer your existing domain name to Cloud Sites:
 
-###### For a New Site:
+#### For a new site:
 
 -   Log in to the [Rackspace Cloud Control
     Panel](http://manage.rackspacecloud.com)
@@ -88,30 +87,26 @@ Follow these steps to transfer your existing domain name to Cloud Sites:
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_1_0.png" width="179" height="287" />
 
-<!-- -->
 
 -   Click Add A Site and then enter the domain name in the **Domain
     Name** text box
 
     ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
 
-<!-- -->
 
 -   Check the **I already own/manage this domain name** check box
 -   Select **Transfer the domain name** from the pull-down menu
 
     ![](http://c806394.r94.cf2.rackcdn.com/transferdomain.png)
 
-<!-- -->
 
 -   Click **Next Step**
 
-<!-- -->
 
 -   Last, you will review your order and click **Finish** once you are
     ready to process the order
 
-**NOTE:** *Your current registrar may offer "transfer lock" or a similar
+**Note:** Your current registrar may offer "transfer lock" or a similar
 service as a security measure to prevent unauthorized transfer of your
 domain name. If this feature is activated, you will need to log on to
 your account with your current registrar in order to unlock the domain.
@@ -124,14 +119,14 @@ require a reply from you, confirming that the transfer is authorized. If
 you do not have access to this email address, contact [customer
 support](http://www.rackspace.com/support/ "http://manage.rackspacecloud.com/SupportMain.do") for
 help. You can do a WHOIS search to find the administrative email and the
-current registrar for the domain.*
+current registrar for the domain.
 
-**NOTE:** *All DNS changes take up to 48 hours to take effect. During
+**Note:** *All DNS changes take up to 48 hours to take effect. During
 this time you can check your website by [using the test
 URL](/how-to/test-your-website-before-transferring-the-domain-name-to-cloud-sites)
 (i.e. www.yourdomain.com.websitetestlink.com).*
 
-###### For a Site Already in Your Control Panel
+#### For a site already in your control panel
 
 -   Log in to the [Rackspace Cloud Control
     Panel](http://manage.rackspacecloud.com)
