@@ -36,7 +36,7 @@ Panel](https://mycloud.rackspace.com).
 
 3\. Click **Create Service**.
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%209.42.19%20AM.png" width="619" height="493" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%209.42.19%20AM.png" width="619" height="493" />
 
 4\. In the **Domain Name** field, enter the **www** address for your
 site. You can find this address in the Cloud Sites Control Panel, as

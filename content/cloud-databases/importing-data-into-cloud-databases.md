@@ -120,7 +120,7 @@ Perform the following steps:
     instance looks something like this:
 
 
-<img src="/knowledge_center/sites/default/files/field/image/HA_Group_Details_KC.png" width="600" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/HA_Group_Details_KC.png" width="600" />
 
 #### On your current database
 
