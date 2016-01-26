@@ -23,8 +23,7 @@ You can change how spam messages are handled within the [webmail
 interface](http://mail.emailsrvr.com) and from the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com).
 
-Edit spam filtering for a domain
---------------------------------
+### Edit spam filtering for a domain
 
 1.  Log in to the [Cloud Sites Control
     Panel](https://manage.rackspacecloud.com).
@@ -35,8 +34,7 @@ Edit spam filtering for a domain
     Settings** section.
 5.  Click **Save**.
 
-Edit spam filtering for an email account
-----------------------------------------
+### Edit spam filtering for an email account
 
 1.  Log in to [webmail](http://mail.emailsrvr.com) for the
     email account.
