@@ -17,20 +17,21 @@ checks.
 Each check has a designated *type*. The check type instructs the
 monitoring system how to check the monitored resource. For more
 information, see [Check
-types](http://ttp://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-check-types.html).
+types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#check-types).
 
 Check types are divided into two categories: agent checks and remote checks.
 
 ### Agent checks
 
-*Agent* checks monitor an entity's resource utilization. Agent
+Checks are of the *agent* type if they monitor an entity's resource utilization.
+Agent-type
 checks are performed by the monitoring agent running on a server.
 For example, a **Memory** check can trigger an alarm if it detects
 memory usage above a specified percentage. Agent checks require the
 monitoring agent to be installed on the server. For a list of
 available agent check types, see
-[Agent check types](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-agent.html).
-For information on how to install the monitoring agent, see [Install and configure](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/install-configure.html).
+[Agent check types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-check-types).
+For information on how to install the monitoring agent, see [Install and configure](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-install-configure).
 
 Rackspace Intelligence supports the following types of agent checks:
 
@@ -53,13 +54,14 @@ Rackspace Intelligence supports the following types of agent checks:
 
 ### Remote checks
 
-*Remote* checks monitor an entity's internet connectivity. Remote
+Checks are of the **remote** type if they monitor an entity's internet connectivity. Remote-type
 checks are performed by attempting to contact the entity from
 outside the entity.
 For example, a **Ping** check can trigger an alarm if it detects packet
 loss above a specified percentage. For a list of available remote
-check types, see
-[Remote check types](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-remote.html).
+checks, see
+[Remote check types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-check-type-ref).
+For information on how to install the monitoring agent, see [Install and configure](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-install-configure).
 
 Rackspace Intelligence supports the following types of remote checks:
 
@@ -79,8 +81,8 @@ Rackspace Intelligence supports the following types of remote checks:
 
 Some checks that cannot be created with the Rackspace Intelligence
 interface can be created by using the Cloud Monitoring CLI or API. These
-checks are listed at [Rackspace Cloud Monitoring Checks and
-Alarms](/how-to/rackspace-monitoring-checks-and-alarms).
+checks are listed at
+[Rackspace Cloud Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms).
 
 ### Checks and alerts
 
