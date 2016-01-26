@@ -156,7 +156,7 @@ it in multiple lines in the mysql shell, as in:
         -> FROM mysql.user;
 
 When you hit "enter" after the "Password" part you'll get a new line so
-you can keep typing. The "-&gt;" indicates that the shell thinks you're
+you can keep typing. The "->" indicates that the shell thinks you're
 still in the middle of a statement. You can type a semicolon by itself
 to end the command if you simply forgot it on the first line.
 
@@ -166,15 +166,15 @@ Okay, with that important aside about the semicolon done, let's look at
 the output of that query:
 
     SELECT User, Host, Password FROM mysql.user;
-    +------------------+-----------+-------------------------------------------+
-    | User             | Host      | Password                                  |
-    +------------------+-----------+-------------------------------------------+
-    | root             | localhost | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | root             | demohost  | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | root             | 127.0.0.1 | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | debian-sys-maint | localhost | *03C2F472E5290DDE27E889681C90EA91FD6800F3 |
-    |                  | %         |                                           |
-    +------------------+-----------+-------------------------------------------+
+    +------------------+-----------+------------------------------------------+
+    | User             | Host      | Password                                 |
+    +------------------+-----------+------------------------------------------+
+    | root             | localhost | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root             | demohost  | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root             | 127.0.0.1 | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | debian-sys-maint | localhost | 03C2F472E5290DDE27E889681C90EA91FD6800F3 |
+    |                  | %         |                                          |
+    +------------------+-----------+------------------------------------------+
 
 As you can see, users are associated with a host - specifically, the
 host they connect to. The "root" user in this case is defined for
@@ -262,15 +262,15 @@ You can make sure the user is there by running that "select" query
 again:
 
     SELECT User, Host, Password FROM mysql.user;
-    +------------------+-----------+-------------------------------------------+
-    | User             | Host      | Password                                  |
-    +------------------+-----------+-------------------------------------------+
-    | root             | localhost | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | root             | demohost  | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | root             | 127.0.0.1 | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | debian-sys-maint | localhost | *03C2F472E5290DDE27E889681C90EA91FD6800F3 |
-    | demouser         | localhost | *0756A562377EDF6ED3AC45A00B356AAE6D3C6BB6 |
-    +------------------+-----------+-------------------------------------------+
+    +------------------+-----------+------------------------------------------+
+    | User             | Host      | Password                                 |
+    +------------------+-----------+------------------------------------------+
+    | root             | localhost | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root             | demohost  | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root             | 127.0.0.1 | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | debian-sys-maint | localhost | 03C2F472E5290DDE27E889681C90EA91FD6800F3 |
+    | demouser         | localhost | 0756A562377EDF6ED3AC45A00B356AAE6D3C6BB6 |
+    +------------------+-----------+------------------------------------------+
 
 ### Grant database user permissions
 
@@ -307,10 +307,6 @@ And that's all you need if you're just creating a database and a user.
 We were a bit long on concepts there but that should give you a solid
 grounding from which to learn more. Good work.
 
-### Next steps
+### Next section
 
-[Configuring MySQL server on
-Ubuntu](/how-to/configuring-mysql-server-on-ubuntu)
-
-
-
+[Configuring MySQL server on Ubuntu](/how-to/configuring-mysql-server-on-ubuntu)

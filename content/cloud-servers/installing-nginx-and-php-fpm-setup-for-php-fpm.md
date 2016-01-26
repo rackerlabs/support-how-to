@@ -12,12 +12,10 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Installing NGINX and PHP-FPM - Setup for
-NGINX](/how-to/installing-nginx-and-php-fpm-setup-for-nginx)
+[Installing NGINX and PHP-FPM - Setup for NGINX](/how-to/installing-nginx-and-php-fpm-setup-for-nginx)
 
 The steps in this article guide you through adding pool information to
-the PHP-FPM setup that you [previously
-completed](/how-to/installing-nginx-and-php-fpm-setup-for-nginx).
+the PHP-FPM setup that you [previously completed](/how-to/installing-nginx-and-php-fpm-setup-for-nginx).
 
 When you entered the command to install PHP-FPM, the system created a
 default configuration for PHP-FPM. This default configuration might have
@@ -36,7 +34,7 @@ To complete the setup, move to the `/etc/php5/fpm/pool.d/` directory
 where you will set up the different UNIX sockets on which PHP-FPM will
 function.
 
-**NOTE:** For your system to function properly, you must create a new
+**Note:** For your system to function properly, you must create a new
 pool for every virtual host that you set up.
 
 The pool files should follow this naming convention: `YOURDOMAIN.conf`
@@ -73,4 +71,3 @@ DOMAINNAME with your domain name.
 
     ; host-specific php ini settings here
     ; php_admin_value[open_basedir] = /var/www/DOMAINNAME/htdocs:/tmp
-

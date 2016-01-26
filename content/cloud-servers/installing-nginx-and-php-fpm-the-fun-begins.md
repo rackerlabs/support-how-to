@@ -10,13 +10,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Prerequisites
+### Previous section
 
-[Installing NGINX and PHP-FPM -
-Preface](/how-to/installing-nginx-and-php-fpm-preface)
+[Installing NGINX and PHP-FPM - Preface](/how-to/installing-nginx-and-php-fpm-preface)
 
-Now that you've [read the
-preface](/how-to/installing-nginx-and-php-fpm-preface)
+Now that you've [read the preface](/how-to/installing-nginx-and-php-fpm-preface)
 and know what you're getting yourself into, It is time to get your
 system ready to install NGINX and PHP-FPM.
 
@@ -24,19 +22,17 @@ You can get the source from NGINX and/or add the NGINX repositories to
 your system. There is a Debian specific Repository that you could use,
 there are also other distro-specific repositories that you could use, if
 your system happens to not be a Debian Server. You can find more
-information on these repositories here: <span class="s1">[NGINX
-Repositories](http://wiki.nginx.org/Install)</span>
+information on these repositories here: [NGINX Repositories](http://wiki.nginx.org/Install).
 
 While the fore-mentioned REPO is perfectly valid, I choose to use
-the [<span class="s1">Debian
-Backports</span>](http://backports-master.debian.org/Instructions/) as
+the [Debian Backports](http://backports-master.debian.org/Instructions/) as
 my repository for NGINX. I chose this because this allowed for an easy
 configuration, and allowed me to install a more up-to-date version of
 NGINX on my system while giving me a more supported application for my
 environment. To add the Debian Backports to your repositories simply
 execute this echo command:
 
-``` {.p4}
+```
 echo 'deb http://backports.debian.org/debian-backports squeeze-backports main' >> /etc/apt/sources.list.d/backports.list
 ```
 
@@ -47,7 +43,7 @@ PHP-FPM.
 To install the DotDeb Repositories into your system here is a crazy
 little command set:
 
-``` {.p4}
+```
 echo 'deb http://packages.dotdeb.org stable all' >> /etc/apt/sources.list.d/DotDeb.list
 echo 'deb-src http://packages.dotdeb.org stable all' >> /etc/apt/sources.list.d/DotDeb.list
 wget http://www.dotdeb.org/dotdeb.gpg
@@ -62,12 +58,10 @@ your system; so there are no leftovers from the installation.
 After you have added the repositories to your system, update your
 sources with this simple command:
 
-``` {.p4}
+```
 apt-get update
 ```
 
-### Next steps
+### Next section
 
-[Installing NGINX and
-PHP-FPM](/how-to/installing-nginx-and-php-fpm)
-
+[Installing NGINX and PHP-FPM](/how-to/installing-nginx-and-php-fpm)

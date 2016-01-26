@@ -10,10 +10,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**In The Beginning**
-
-**This is a guide on Installing NGINX and PHP-FPM, while running on UNIX
-File Sockets for your Debian based system.**
+This is a guide on Installing NGINX and PHP-FPM, while running on UNIX
+File Sockets for your Debian based system.
 
 If this statement is making you wonder why you are here, you are either:
 
@@ -21,26 +19,25 @@ If this statement is making you wonder why you are here, you are either:
 
 **B**- Google brought you to the wrong website.
 
-If you happen to be in category B, I apologize.  Please press back, and
+If you happen to be in category B, I apologize. Please press back, and
 try again. If you are in Category A then keep reading! I have some fun
 things to share with you, and some suggestions for improving your NGINX
 web server.
 
-What is a snippet?  A snippet is programming-speak for a small region of
+What is a snippet? A snippet is programming-speak for a small region of
 code, and I will be referring to a few different snippets in this
 article.
 
 While this snippet below does not say a lot, it is what we are going
 for. In this snippet you will see a much simplified process list for my
-NGINX and PHP-FPM processes.
+NGINX and PHP-FP
+M processes.
 
-``` {.p5}
+```
 root     17084  php-fpm: master process (/etc/php5/fpm/php-fpm.conf)
 kevin    17100  \_ php-fpm: pool rackerua
 ```
 
 ### Next steps
 
-[Installing NGINX and PHP-FPM -
-Preface](https://www.rackspace.com/knowledge_center/article/installing-nginx-and-php-fpm-preface)
-
+[Installing NGINX and PHP-FPM - Preface](https://www.rackspace.com/knowledge_center/article/installing-nginx-and-php-fpm-preface)

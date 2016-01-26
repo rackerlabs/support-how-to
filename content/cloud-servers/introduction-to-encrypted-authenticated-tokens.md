@@ -26,9 +26,7 @@ difference that you will notice is that the authentication token value
 returned by the Identity service has a different pattern and length than
 the UUID token values issued previously.
 
-**Note:**  Make sure that you follow [Best practices for handling
-authentication
-tokens](#Best%20practices%20for%20handling%20authentication%20tokens),
+**Note:**  Make sure that you follow Best practices for handling authentication tokens (located further down in this article),
 especially if you use SDK or CLI tools to interact with the Rackspace
 Cloud.
 
@@ -133,8 +131,7 @@ Following are some best practices for handling authentication tokens.
     remains valid.
 
     **Note:** For an example of how to cache credentials with an SDK,
-    see [Caching
-    credentials](http://php-opencloud.readthedocs.org/en/latest/caching-creds.html) in
+    see [Caching credentials](http://php-opencloud.readthedocs.org/en/latest/caching-creds.html) in
     the php-opencloud documentation.
 
 -   Design applications to reauthenticate after receiving
@@ -143,14 +140,8 @@ Following are some best practices for handling authentication tokens.
     expires.
 
 -   To simplify authentication, credential, and token management, use
-    an [OpenStack command-line client
-    application](https://wiki.openstack.org/wiki/OpenStackClients) or
+    an [OpenStack command-line client application](https://wiki.openstack.org/wiki/OpenStackClients) or
     one of the [Rackspace SDKs](https://developer.rackspace.com/sdks/).
 
-For more information, read the [Manage authentication
-tokens](http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/QuickStart-000.html#manage_auth_tokens) section
-in the [Rackspace Cloud Identity Client Developer
-Guide](http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/QuickStart-000.html).
-
-
-
+For more information, read the [Manage authentication tokens](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#manage-authentication-tokens) section
+in the [Rackspace Cloud Identity Client Developer Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).
