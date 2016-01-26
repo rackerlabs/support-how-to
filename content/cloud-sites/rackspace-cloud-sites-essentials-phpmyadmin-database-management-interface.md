@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note**: This article is written for our [Cloud Sites Control
+This article is written for our [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can get to it from the
 Cloud Control Panel by clicking your name in the upper-right corner and
 selecting [Cloud Sites Control
@@ -21,13 +21,11 @@ Panel](https://manage.rackspacecloud.com/).
 [Getting Started with Cloud
 Sites](/how-to/cloud-sites)
 
-<div>
 
 **Now that you've successfully created your first MySQL database,** lets
 take a look at the database management tool The Rackspace Cloud offers
 for Cloud Sites MySQL databases.
 
-<div>
 
 Its very easy to manage your MySQL databases with a server wide install
 of PHPmyAdmin. You can reach this interface at one of the following
@@ -47,17 +45,13 @@ check the test link for your site. If your testlink includes **dfw** in
 the URL, such as www.domain.com.php5-2.dfw1-1.websitetestlink.com then
 your account is in DFW.
 
-**NOTE:** *Alternatively, you can download use other programs such
+**Note:** Alternatively, you can download use other programs such
 as [MySQL Gui Tools (Free: Windows, Mac,
 Linux)](http://dev.mysql.com/downloads/gui-tools/5.0.html "http://dev.mysql.com/downloads/gui-tools/5.0.html"), [SQLyog](http://www.webyog.com/ "http://www.webyog.com/") or [Navicat](http://www.navicat.com/ "http://www.navicat.com"),
 from their respective providers, to manage your MySQL databases as
-well.*
+well.
 
 **How do I login to PHPmyAdmin?**
-
-</div>
-
-</div>
 
 -   First, log into the [Rackspace Cloud Control
     Panel](http://manage.rackspacecloud.com)
@@ -86,22 +80,22 @@ well.*
 
 <img src="http://c806394.r94.cf2.rackcdn.com/databaseinformation.png" width="600" />
 
--   The *server name* is listed as **Hostname** under the **Database
+-   The server name is listed as **Hostname** under the **Database
     Information** section
 
 <img src="http://c806394.r94.cf2.rackcdn.com/hostname.png" width="600" />
 
--   The *user names* are listed under the **Database
+-   The user names are listed under the **Database
     Users** section. By default, there is only one user and this would
     be the user name you would use to log in to phpMyAdmin.
 
 <img src="http://c806394.r94.cf2.rackcdn.com/databaseusers.png" width="331" />
 
-**NOTE:** *If there are multiple users listed, you may log in with any
+**Note:** If there are multiple users listed, you may log in with any
 of them. The number that prefixes the user name is the account number
 for the website owner (yourself or your client) and is important when
 logging in, so be sure to enter the user name exactly as it is listed on
-this page.*
+this page.
 
 -   The password is the password associated with the database user,
     which would have been chosen when you created the database and
@@ -119,7 +113,7 @@ this page.*
 
 
 
-**With the information described above,** you're ready to start working
+With the information described above, you're ready to start working
 with the database. To do so, click the **Online Manager** link.
 
 <img src="http://c806394.r94.cf2.rackcdn.com/onlinemanagerlink.png" width="600" />
@@ -128,43 +122,39 @@ with the database. To do so, click the **Online Manager** link.
 
 <img src="http://c806394.r94.cf2.rackcdn.com/phpmyadminlogin.png" width="440" />
 
--   Enter the [**user name**](#username) (including the numbered prefix
+-   Enter the [user name](#username) (including the numbered prefix
     as shown below) and password.
--   Select the [**Hostname**](#hostname) (on the details page) from the
+-   Select the [Hostname](#hostname) (on the details page) from the
     drop-down list. If you do not know what Hostname to select, please
     click [here](#hostname) to locate your database Hostname
 
 <img src="http://c806394.r94.cf2.rackcdn.com/phpmyadminserverchoices.png" width="440" />
 
-**NOTE:** *The first part of the host name identifies the server
-choice.*
+**Note:** The first part of the host name identifies the server
+choice.
 
-**NOTE:** *The server choices shown in the drop-down list may be
-different than what is shown in the screen shot above.*
+**Note:** The server choices shown in the drop-down list may be
+different than what is shown in the screen shot above.
 
 -   Now that you're logged into phpMyAdmin, you can manage your MySQL
     database as necessary.
 
 <img src="http://c806394.r94.cf2.rackcdn.com/loggedintophpmyadmin.png" width="600" />
 
-<div>
-
 **What do I do if my log in fails?**
-
-</div>
 
 Make sure to double-check the credentials you have entered for accuracy.
 
-### OR
+**OR**
 
 Hard refresh your browser's cache by hitting Ctrl+F5 (PC) or CMD+Shift+R
 (Mac) and re-enter your credentials.
 
-### OR
+**OR**
 
 Reset your password in the Control Panel for your database user name.
 
-### AND THEN
+**AND THEN**
 
 If you have completed all of the above and you still cannot log in,
 contact support through our 24-hour Live Chat support, or by opening a
