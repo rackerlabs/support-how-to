@@ -17,10 +17,9 @@ Follow the instructions below to restore your MSSQL database.
 
 
 
-<span class="mw-headline">Restoring Your MSSQL Database</span>
---------------------------------------------------------------
+### Restoring Your MSSQL Database
 
-1.  To manage your MSSQL database, you'll first need to [login to the
+1.  To manage your MSSQL database, you'll first need to [log in to the
     online
     manager (myLittleAdmin).](/how-to/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface)
 
@@ -83,8 +82,7 @@ Follow the instructions below to restore your MSSQL database.
 
 
 
-<span class="mw-headline">Finish Line</span>
---------------------------------------------
+### Finish Line
 
 Congratulations! You have just restored a backup of your MSSQL database!
 
