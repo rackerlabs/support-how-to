@@ -176,7 +176,7 @@ or manually at your preferred times within the customer portal.
 
 #### How do I monitor my available sever virtualization resources?
 
-Use the [portal](https://my.rackspace.com/)to see which resources
+Use the [portal](https://my.rackspace.com/) to see which resources
 (storage - local or otherwise) are reserved or available to provision
 VMs in your environment**.**
 
@@ -219,4 +219,3 @@ overhead.
 It depends, but probably greater than a week. Deployment times can vary
 based on the request (rely on other teams); availability of resources/IP
 addresses/avail. storage/compute resources (CPU and RAM)/hypervisor.
-

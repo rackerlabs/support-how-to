@@ -10,7 +10,7 @@ product: Managed VMware Services
 product_url: managed-vmware-services
 ---
 
-# What is NUMA?
+### What is NUMA?
 
 NUMA stands for Non-Uniform Memory Access, but what exactly is NUMA? In a NUMA architecture, each CPU is assigned its own local memory, and the CPU and memory combined form a NUMA node.
 
@@ -36,7 +36,7 @@ The following diagram illustrates the difference between systems that are NUMA a
 
 NUMA is important because it enables a processor to access its own local memory faster than non-local memory, such as memory local to another processor or memory shared between processors. However, if the locality of memory access is not taken into consideration, NUMA can cause latency problems for applications.
 
-# What is vNUMA?
+### What is vNUMA?
 
 vNUMA removes the transparency between the VM and the OS and presents the NUMA architecture directly to the VM's operating system. It worth mentioning that vNUMA also known as wide NUMA in the industry. For a wide VM, the underlying architecture where the VM runs, the NUMA topology of the VM spans across multiple NUMA nodes. After the initial power-up of a vNUMA-enabled VM, the architecture presented to the OS is permanently defined and cannot be altered. This restriction is generally positive because changing the vNUMA architecture could cause instabilities in the OS, but it could cause performance problems if the VM is migrated via vMotion to a hypervisor with a different NUMA architecture. It is worth mentioning that although most applications can take advantage of vNUMA, the majority of VMs are small enough to fit into a NUMA node; recent optimization on wide-VM support or vNUMA does not affect them.
 
@@ -44,13 +44,13 @@ vNUMA removes the transparency between the VM and the OS and presents the NUMA a
 
 Therefore, how the guest OS or its applications place processes and memory can significantly affect performance. The benefit of exposing NUMA topology to the VM can be significant by allowing the guest to make the optimal decision considering underlying NUMA architecture. By assuming that the guest OS will make the optimal decision given the exposed vNUMA topology, instead of interleaving memory among NUMA clients.
 
-**Quote** :"When a vNUMA virtual machine with the hot-add memory option is enabled and memory is hot-added to it, that memory is now allocated equally across all NUMA regions. In previous releases, all new memory was allocated only to region 0. This enhancement ensures that all regions benefit from the increase in RAM, enabling the virtual machine to scale without requiring any downtime." **[2]**
+**Quote** : "When a vNUMA virtual machine with the hot-add memory option is enabled and memory is hot-added to it, that memory is now allocated equally across all NUMA regions. In previous releases, all new memory was allocated only to region 0. This enhancement ensures that all regions benefit from the increase in RAM, enabling the virtual machine to scale without requiring any downtime." **[2]**
 
 **Note:** vNUMA is a vSphere 5._x_ improvement and was not a feature of vSphere 4._x_. Hot-add RAM is now vNuma aware in vSphere 6.
 
 <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA2.png" width="400" height="" alt=""  />
 
-# Why does NUMA matter?
+### Why does NUMA matter?
 
 Any abstraction has a performance cost. For a NUMA system, the performance cost is that the latency of a remote memory operation (accessing memory from a different NUMA node) is more expensive than the latency of a local memory operation.
 
@@ -58,7 +58,7 @@ Any abstraction has a performance cost. For a NUMA system, the performance cost 
 
 When you consider a multi-threaded application, it is worth considering NUMA and locality because latencies could affect the performance of an application.
 
-# Assigning of sockets and cores
+### Assigning of sockets and cores
 
 The effect of assigning virtual cores per socket and the impact it has on performance is controversial. Following are two contradictory statements from two recognised industry experts.
 
@@ -68,11 +68,11 @@ The effect of assigning virtual cores per socket and the impact it has on perfor
 
 So, does it or does it not affect performance? The reason VMware introduced the advanced settings for cores-per-socket was to address licensing issues with some operating systems. Based on this information alone, you might assume that changing the cores or sockets should not make any performance impact to a VM. This is not true if you follow the results of Mark Achtemichuk, who found during testing that the number of NUMA nodes changes depending on the number of cores or sockets used, which directly impacts performance.
 
-## Performance considerations
+### Performance considerations
 
 When you are assigning virtual sockets, cores per socket, and vNUMA, you might create vNUMA nodes that violate the underlying physical NUMA, which can directly impact performance. You can use the ESXTOP tool to see the number of NUMA nodes a physical host has,which can help determine how many virtual sockets and cores per socket you might want to select for wide VMs. Typically, for best performance, set the sockets to the number of vCPUs needed, and set the cores per socket to 1.  That will let the underlying hardware determine the vNUMA nodes properly.
 
-## NUMA alignment best practices
+### NUMA alignment best practices
 
 So where do you go from here? These are a few tips.
 
@@ -82,9 +82,9 @@ So where do you go from here? These are a few tips.
 - Size your VMs, wherever possible, around even multiples of the NUMA node. For example, on a hex-core (6C) system, use to 2, 3, or 6 cores.
 - If you enable Hyper-Threading, enable ESXi or the VM, or both, to be able to use it towards the NUMA core count. Also tell the VM to keep multiple virtual cores together (see below).
 
-## Check NUMA topology
+### Check NUMA topology
 
-### ESX host, using ESXTOP
+#### ESX host, using ESXTOP
 
 1. Run ESXTOP.
 
@@ -108,7 +108,7 @@ The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the lo
 
 <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA5.png" width="650" height="" alt=""  />
 
-### Windows
+#### Windows
 
 Coreinfo is a Windows Sysinternals tool that you can use to view the NUMA topology on Windows.
 
@@ -120,7 +120,7 @@ In the following example, the VM has a single NUMA node.
 
 <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA6.png" width="600" height="" alt=""  />
 
-### Linux
+#### Linux
 
 numactl -- hardware
 
@@ -135,7 +135,7 @@ As you think about NUMA alignment, consider the following points:
 - Enabling CPU hot plug will disable vNUMA (where the underlying NUMA architecture is exposed directly to the guest OS) &mdash; [VMware KB 2040375](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2040375)
 - Just because your NUMA node size is 16 CPUs and 128 GB of RAM, that doesn't mean you should create a large VM. Right-size your VMs to avoid unnecessary kernel NUMA scheduling.
 
-# Rackspace recommendations for NUMA
+### Rackspace recommendations for NUMA
 
 The Hot add option must be disabled on the VM's with more than 8 vCPU's to take advantage of Vnuma.
 
@@ -176,11 +176,11 @@ _For non-wide VMs, the number of cores per virtual socket is not as critical as 
 
 - _For non-wide VMs, the number of cores per virtual socket is not as critical as for wide VMs. On rare occasions, however, configuring cores per virtual socket to a value other than 1 could influence guest CPU scheduling in either helpful or harmful ways. Therefore, we recommend careful testing before changing this configuration. _
 
-# CPU scheduling
+### CPU scheduling
 
 The aim of this section is to give you a better holistic understanding of NUMA and CPU scheduling. Most of the information is directly sources and referred to from, The CPU Scheduler in VMware vSphere&reg; 5.1 Performance Study Technical Whitepaper.
 
-## Proportional share-based algorithm
+#### Proportional share-based algorithm
 
 ESXi uses the proportional share-based algorithm for CPU scheduling. The algorithm allocates CPU resources to worlds based on their resource specifications (shares, reservations, and limits).
 
@@ -192,11 +192,11 @@ In ESXi, a priority is dynamically re-evaluated based on the consumption and the
 
 **Quote:**"The capability of allocating compute resources proportionally and hierarchically in an encapsulated way is quite useful. For example, consider a case where an administrator in a company datacenter wants to divide compute resources among various departments and to let each department distribute the resources according to its own preferences. This is not easily achievable with a fixed priority-based scheme."**[1]**
 
-## Strict co-scheduling
+#### Strict co-scheduling
 
 Strict co-scheduling was deprecated in ESX 3._x_. It has been superseded by relaxed co-scheduling.
 
-## Relaxed co-scheduling
+#### Relaxed co-scheduling
 
 **Quote:**"Co-scheduling executes a set of threads or processes at the same time to achieve high performance. Because multiple cooperating threads or processes frequently synchronize with each other, not executing them concurrently would only increase the latency of synchronization.
 
@@ -206,7 +206,7 @@ Note that tracking the slowest sibling vCPU still needs coordination among sibli
 
 With relaxed co-scheduling, ESXi achieves high CPU utilization by flexibly scheduling the vCPUs of multiprocessor virtual machines in a consolidated environment. To achieve the best performance for a given situation, ESXi tries to schedule as many sibling vCPUs together as possible. If there are enough available pCPUs, relaxed co-scheduling performs as well as strict co-scheduling." **[1]**
 
-## Hyper-Threading
+#### Hyper-Threading
 
 **Quote:** On an HT system, a physical processor typically has two logical processors (pCPUs) that share many parts of the processor pipeline. When both pCPUs on the same physical processor are busy, each gets only a fraction of the full capacity of the underlying physical processor. The CPU scheduler tends to choose a pCPU with low CPU utilization not just on the pCPU itself but also on neighbouring pCPUs that share the compute and memory resources. If the neighbouring pCPUs share more resources with the destination pCPU, the CPU load on them is factored more. This policy maximizes resource utilization on the system. **[1]**
 
@@ -230,7 +230,7 @@ VMware have some recommendations, which they have summarized in two sections. Li
 
 
 
-# Additional Reading
+### Additional Reading
 
 1.  [https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.resmgmt.doc%2FGUID-BD4A462D-5CDC-4483-968B-1DCF103C4208.html](https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.resmgmt.doc%2FGUID-BD4A462D-5CDC-4483-968B-1DCF103C4208.html)
 2.  [http://blogs.vmware.com/vsphere/2013/10/does-corespersocket-affect-performance.html](http://blogs.vmware.com/vsphere/2013/10/does-corespersocket-affect-performance.html)
@@ -249,7 +249,7 @@ VMware have some recommendations, which they have summarized in two sections. Li
 
 
 
-# Numbered citations
+### Numbered citations
 
 1. [https://www.vmware.com/files/pdf/techpaper/VMware-vSphere-CPU-Sched-Perf.pdf](https://www.vmware.com/files/pdf/techpaper/VMware-vSphere-CPU-Sched-Perf.pdf)
 2. [https://www.vmware.com/files/pdf/vsphere/VMW-WP-vSPHR-Whats-New-6-0-PLTFRM.pdf](https://www.vmware.com/files/pdf/vsphere/VMW-WP-vSPHR-Whats-New-6-0-PLTFRM.pdf)
