@@ -25,7 +25,6 @@ following ways:
 -   Enhancements to mitigate resource oversubscription
 -   Architectural improvements that allow for better fault tolerance
 
-[back to top](#top)
 
 ### How will the migration work?
 
@@ -39,8 +38,6 @@ perform the following tasks:
 After those steps are we will set your load balancer status back to
 `ACTIVE`.
 
-[back to top](#top)
-
 ### What is the expected impact to my load balancer?
 
 You can expect up to 15 seconds of downtime per migrated load balancer,
@@ -50,7 +47,6 @@ session persistence, if enabled, is reset until the migration is
 completed. You might also see up to 1 minute of degradation (for
 example, sporadic timeouts or some dropped connections).
 
-[back to top](#top)
 
 ### What options are available to avoid disruption due to the migration?
 
@@ -62,7 +58,6 @@ The following options are available:
 -   Move the load balancer and applicable nodes to a different region.
 -   Temporarily leverage DNS load balancing to your cloud servers.
 
-[back to top](#top)
 
 ### Do I need to make any update to my configurations?
 
@@ -74,7 +69,6 @@ RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect),
 to set up the appropriate policies so that you are not affected by the
 ServiceNet IP changes.
 
-[back to top](#top)
 
 ### Can I self-migrate my load balancer?
 
@@ -83,7 +77,6 @@ lose the static IP address that is currently assigned to your instance.
 We have planned the migration to ensure a smooth transition of your
 existing IP addresses.
 
-[back to top](#top)
 
 
 
