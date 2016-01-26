@@ -52,12 +52,12 @@ where your DNS is currently hosted. The following sections provide steps
 to set up custom nameservers based on some of the most commonly used DNS
 providers.
 
--   [GoDaddy](#GoDaddy)
--   [OpenSRS/Tucows/RackSpace Cloud](#OpenSRS_Tucows_RackSpace_Cloud)
--   [Dotster](#Dotster)
--   [eNom](#eNom)
--   [Directi](#Directi)
--   [Name.com](#Name.com)
+-   GoDaddy
+-   OpenSRS/Tucows/RackSpace Cloud
+-   Dotster
+-   eNom
+-   Directi
+-   Name.com
 
 If you are hosting DNS at a provider that is not listed here, contact
 your DNS provider for steps showing you how to configure custom
