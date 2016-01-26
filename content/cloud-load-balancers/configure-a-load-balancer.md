@@ -10,24 +10,12 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-This article shows you how to set up a load balancer.
-
-- [What is a load balancer?](#wialb)
-- [Set up a load balancer](#sualb)
-- [Additional configuration options](#aco)
-- [Pricing](#pricing)
-- [Where to go from here](#wtgfh)
-
-<a name="wialb"></a>
-
-## What is a load balancer?
-
 Mission-critical web-based applications and workloads require a high availability (HA) solution. Load balancing distributes workloads across two or more servers, network links, and other resources to maximize throughput, minimize response time, and avoid overload. Rackspace Cloud Load Balancers enable you to quickly load balance multiple cloud servers or external servers for optimal resource utilization.
 
+This article provides instructions for setting up and configuring a load balancer in the Rackspace Cloud.
 
-<a name="sualb"></a>
 
-## Set up a load balancer
+### Set up a load balancer
 
 1. Log in to the [Cloud Control Panel](http://mycloud.rackspace.com).
 
@@ -61,10 +49,7 @@ Mission-critical web-based applications and workloads require a high availabilit
 
     After your load balancer is built, you can view a summary of it.
 
-
-<a name="aco"></a>
-
-## Additional configuration options
+### Additional configuration options
 
 On the details page for the load balancer, you can set the following options:
 
@@ -77,9 +62,7 @@ On the details page for the load balancer, you can set the following options:
 - **Logging:** To simplify log management, the logging feature allows for Apache-style access logs (for HTTP-based protocol traffic) or connection and transfer logging (for all other traffic) to your Cloud Files account. If you need raw data in one place for performance tuning or web analytics, logs are sorted, aggregated, and delivered to Cloud Files.
 
 
-<a name="pricing"></a>
-
-## Pricing
+### Pricing
 
 The cost for each load balancer (instance) is based on an hourly rate plus the number of concurrent connections plus bandwidth.  You can view pricing details on the product pages for Cloud Load Balancers:
 
@@ -87,10 +70,8 @@ The cost for each load balancer (instance) is based on an hourly rate plus the n
 - [UK product page for Cloud Load Balancers](http://www.rackspace.co.uk/cloud-load-balancers/)
 
 
-<a name="wtgfh"></a>
 
-## Where to go from here
+### Next steps
 
-Learn how to use Cloud Files and the Content Delivery Network for website acceleration and mass object-storage at [Getting started with Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn-0).
+Learn how to use [Cloud Files and the Content Delivery Network](http://support-dev.ipa.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn-0/) for website acceleration and mass object-storage.
 
-<p>&nbsp;</p>
