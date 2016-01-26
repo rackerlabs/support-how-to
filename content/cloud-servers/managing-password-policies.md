@@ -16,8 +16,7 @@ long you need to wait until you can change it again. This article
 provides guidelines for changing these relaxed rules to strengthen
 password security.
 
-Setting policies for future new user accounts
----------------------------------------------
+### Setting policies for future new user accounts
 
 Password policies for user accounts that will be created are being
 stored in the **/etc/login.defs** configuration file. This file contains
@@ -49,10 +48,9 @@ and users would not be able to change them for 5 days, counted from the
 day the password was set. Users would also receive a warning 7 days
 before the password expired.
 
-Setting policies for existing user accounts
--------------------------------------------
+### Setting policies for existing user accounts
 
-Changes in the** /etc/login.defs** file apply only to accounts that are
+Changes in the **/etc/login.defs** file apply only to accounts that are
 created after the changes are implemented; they don't apply to accounts
 that already exist.
 
@@ -86,6 +84,4 @@ The possible options are as follows:
     the account is inaccessible.
 -   `-E` - Account expiration date. You can specify the date in many
     formats, including epoch. However, user-friendly formats like
-    &ldquo;December 31, 2014&rdquo; work
-
-
+    "December 31, 2014" work
