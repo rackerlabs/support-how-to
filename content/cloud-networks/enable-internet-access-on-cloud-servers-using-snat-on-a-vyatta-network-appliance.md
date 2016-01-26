@@ -6,8 +6,8 @@ created_date: '2013-01-08'
 created_by: Sameer Satyam
 last_modified_date: '2015-09-29'
 last_modified_by: Kyle Laffoon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 Using a Vyatta Appliance you can allow servers on your Private
@@ -17,8 +17,7 @@ article explains how to configure a Source Network Address Translation
 initially do not have internet access (no Public interface) to stay
 updated with the latest updates and patches.
 
-Use Case: Allow Outbound Traffic for Servers on a Private Cloud Network
------------------------------------------------------------------------
+### Use Case: Allow Outbound Traffic for Servers on a Private Cloud Network
 
 Administrators may choose to completely isolate some of their servers
 (for example database servers) from the internet for security reasons.
@@ -40,13 +39,11 @@ public interface of the Vyatta appliance. This is also known as a Source
 NAT.
 
 For a comprehensive guide to configuring NAT on the Vyatta appliance,
-click
-[here](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-NAT_6.5R1_v01.pdf).<span> </span>
+click [here](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-NAT_6.5R1_v01.pdf).
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/FirewallFrontendingWebApp.png" width="563" height="283" />
 
-Configure an Outbound NAT Rule
-------------------------------
+### Configure an Outbound NAT Rule
 
 The examples in this section contain two IP addresses that represent
 private and public interfaces as follows:
@@ -125,7 +122,7 @@ Outbound Source rule.
 In configuration mode, use the following the command:
 
     vyatta@vyatta# show nat source rule 10
-     outbound&dash;interface eth0
+     outbound-interface eth0
      source {
     address 192.x.x.0/24
      }
@@ -141,8 +138,6 @@ In operational mode, use the following command:
     rule    intf              translation
     M10     eth0             saddr 192.168.2.128/25 to X.X.X.X
             proto-all         sport ANY
-
-###
 
 ### Adding a Static Route on the Sever
 
@@ -162,5 +157,4 @@ On the server, ping an external address to test the configuration:
 
     64 bytes from www.rackspace.com (207.97.209.147): icmp_req=1 ttl=242 time=28.2 ms
 
-### This completes the configuration of the Outbound NAT (Source) rule.
-
+This completes the configuration of the Outbound NAT (Source) rule.
