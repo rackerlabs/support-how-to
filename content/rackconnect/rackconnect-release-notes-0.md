@@ -1,6 +1,6 @@
 ---
 node_id: 2160
-title: RackConnect Release Notes
+title: RackConnect release notes
 type: article
 created_date: '2012-09-14'
 created_by: Jonathan Hogue

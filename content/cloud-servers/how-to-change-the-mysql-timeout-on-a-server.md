@@ -24,7 +24,7 @@ in a transaction and will not be reused.
 
 Follow these steps to resolve the issue:
 
-1.  Login to your server using SSH.
+1.  Log in to your server using SSH.
 
 2.  Edit `my.cnf` (the MySQL configuration file).
 
@@ -69,4 +69,3 @@ Follow these steps to resolve the issue:
         sudo /etc/init.d/mysql restart
 
 Once the restart completes, the new changes are applied.
-

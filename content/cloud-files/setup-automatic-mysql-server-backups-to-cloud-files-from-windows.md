@@ -61,7 +61,7 @@ _Note: You need to replace the values in [] brackets with actual values for your
 
 *   So now we should have our mysql-backup.bat file that creates the backup of our MySQL database and uploads the file to Rackspace Cloud Files using the upload-to-cf.exe program. The next step is to create a Windows Scheduled Task so that all the above steps run automatically at a scheduled date and time. Follow the steps below to setup a scheduled task in Windows.
 
-*   Click Start, click Run, type cmd, and then click OK.
+*   Click **Start**, click **Run**, type cmd, and then click **OK**.
 
 *   At the command prompt, type **net start**, and then press ENTER to display a list of currently running services. If Task Scheduler is not displayed in the list, type net start "task scheduler", and then press ENTER.
 <img width=600 border="2" src="http://c602889.r89.cf2.rackcdn.com/mysqlbackuptoCF2.png" alt="img text" />

@@ -10,8 +10,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### What Happens to Old Images?
-
 In order to provide the best experience possible for our customers we
 carefully maintain the list of images displayed when building a new
 cloud server. This means that from time to time older versions of an
@@ -22,7 +20,7 @@ support.
 
 Images that have been publicly released are never actually deleted, so
 you can still access these older images by referencing the image ID
-directly through the Cloud Servers API.  If you&rsquo;re looking for an older
+directly through the Cloud Servers API.  If you're looking for an older
 version of your favorite Linux distro you can probably locate it in the
 list below. Please be aware that these older images are no longer
 maintained and may not contain the most up-to-date patches and package
@@ -286,6 +284,3 @@ updates.
 </tr>
 </tbody>
 </table>
-
-
-

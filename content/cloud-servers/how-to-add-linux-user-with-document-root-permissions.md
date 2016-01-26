@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article will walk you through setting up a Linux user with read and write permissions for your web document root, usually the /var/www/ directory. Connecting with this user via SFTP will let you upload your website content directly to the /var/www/your/site/folder.
+This article will walk you through setting up a Linux user with read and write permissions for your web document root, usually the **/var/www/** directory. Connecting with this user via SFTP will let you upload your website content directly to the **/var/www/your/site/folder**.
 
 For the purposes of this example we'll use an account named "demo". Be sure to replace "demo" in the examples with your preferred name.
 
@@ -22,11 +22,11 @@ We'll need to know the group the web server process is running under as well as 
 
 We've listed the default values for the apache web server running on some Linux distributions below.
 
-#### CentOS, Fedora, and RHEL
+**CentOS, Fedora, and RHEL**
 
 On Red Hat-based systems apache runs under the group "apache" with a document root of "/var/www/html".
 
-#### Ubuntu and Debian
+**Ubuntu and Debian**
 
 On Debian-based systems apache runs under the group "www-data" with a document root of "/var/www".
 

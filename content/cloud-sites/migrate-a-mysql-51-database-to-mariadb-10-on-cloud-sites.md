@@ -27,15 +27,13 @@ MariaDB database. This article provides the steps for such a migration.
     because the version on the servers is incompatible with MariaDB 10.
     However, Support can perform these backups.
 
-**<span>Availability of MariaDB</span>**
-----------------------------------------
+### Availability of MariaDB
 
 MariaDB is now available in the ORD data center and will be available in
 the DFW data center in the future. We do not currently have a timeline
 for deployment in DFW.
 
-**MariaDB instead of MySQL 5.6**
---------------------------------
+### MariaDB instead of MySQL 5.6
 
 MariaDB has several features available on top of what is available for
 MySQL 5.6. See the following links for more information:
@@ -46,10 +44,9 @@ MySQL 5.6. See the following links for more information:
 
 -   [<span><span><span><span>https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-compatibility/</span></span></span></span>](https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-compatibility/)
 
-**Migrate your database from MySQL to MariaDB**
------------------------------------------------
+### Migrate your database from MySQL to MariaDB
 
-### **Step 1: Create your MariaDB database in the Cloud Sites control panel**
+#### Step 1: Create your MariaDB database in the Cloud Sites control panel
 
 1.  Log in to the Cloud SItes Control Panel.
 
@@ -72,7 +69,7 @@ MySQL 5.6. See the following links for more information:
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/db_info.png" alt="Database connection information" width="600" height="312" />
 
-### **Step 2: Put your site into maintenance mode and export your current database**
+#### Step 2: Put your site into maintenance mode and export your current database
 
 There are multiple ways to put a site into maintenance mode, or
 otherwise take it offline temporarily, but those instructions are beyond
@@ -88,13 +85,13 @@ task](/how-to/how-do-i-schedule-a-cron-job-for-cloud-sites).
 After it is exported, you will import the database backup to MariaDB by
 using the same method that you used to export the file.
 
-### **Step 3: Update your connection strings to the new MariaDB settings**
+#### Step 3: Update your connection strings to the new MariaDB settings
 
 Open any files that contain the connection settings for your database,
 and update them to the MariaDB settings from the database
 information window that was displayed at the end of Step 1.
 
-### **Step 4: Put your site back online**
+#### Step 4: Put your site back online
 
 Take the site out of maintenance mode and refresh any caches on your
 site to ensure that all references are updated for the new connections.

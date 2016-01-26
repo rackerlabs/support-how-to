@@ -15,7 +15,7 @@ administrative account changes that we can assist you with. Review the
 different types of change requests and the appropriate steps needed to
 complete them.
 
-### Company under new ownership or tax ID changed
+### Company under new ownership or tax ID change
 
 If the ownership of your company has changed or the company's tax ID has
 changed, you must inform us of these changes by completing the
@@ -35,7 +35,7 @@ the Cloud Control Panel by using the following steps:
 If you are a Dedicated Hosting customer, you can request this form
 directly from your Account Manager.
 
-### Company name changed
+### Company name change
 
 If your company has filed for a name change with the Secretary of State
 where the company is registered and there was a change in tax ID,
@@ -54,7 +54,7 @@ evidence of the name change:
 Attach these forms to a support ticket with **Company Name Change
 Request** in the subject line.
 
-### Primary contact listed on the account is no longer with the company or no longer managing the account
+### Primary contact on account change
 
 If you have access to the account, you can update the primary contact
 details in the **Account Settings** section in the [Cloud Control Panel](http://mycloud.rackspace.com).
@@ -105,7 +105,7 @@ The Billing team has strict requirements when processing the
 following information to have the submission processed quickly and
 efficiently.
 
-**Page 1 - Account details**
+#### Page 1 - Account details
 
 -   **Transferring Customer / Assignor** - In this section, provide the
     current account information.
@@ -114,7 +114,7 @@ efficiently.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-1.jpg" alt="Account details, including Transferring customer (Assignor) and Accepting customer (assignee) information" width="597" height="228" />
 
-**Page 2 - Signatures sections**
+#### Page 2 - Signatures sections
 
 -   Signatures *must* be from the owner or an officer of the company. No
     exceptions are allowed.
@@ -129,7 +129,7 @@ efficiently.
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
 representative will complete this section.
 
-**Last Page - Cloud Instances (Exhibit A)**
+#### Last Page - Cloud Instances (Exhibit A)
 
 -   In the List of Instances transferring section, provide the following
     information:

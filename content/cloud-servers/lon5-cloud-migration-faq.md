@@ -31,46 +31,14 @@ have invested a significant amount of time in planning this migration
 and have allocated dedicated resources to ensure the project is
 completed successfully.
 
-### Content
-
--   [Why is Rackspace closing these data centres?](#why)
--   [How will cloud devices be migrated to LON5?](#process)
--   [Will there be any interruption to service?](#interruption)
--   [Will there be any IP or DNS changes?](#ip)
--   [When are my servers scheduled to be migrated?](#schedule)
--   [How will I need to prepare for the migration?](#preparation)
--   [Is the move date flexible? Can I choose the date of the
-    migration?](#date)
--   [I have more than one solution with Rackspace. Will they all be
-    migrated at the same time?](#multiplesolutions)
--   [Will my current services change because of the
-    migration?](#services)
--   [Are there any guarantees that my server will not have to be
-    migrated again afterwards?](#guarantee)
--   [Where is LON5 located?](#location)
--   [Does the LON5 Data Centre have the same level of redundancy and
-    security as other Rackspace data centres?](#redundancy)
--   [What assurance can Rackspace provide customers regarding security
-    controls in the new LON5 Data Centre?](#security)
--   [Has an SSAE16 / ISAE 3402 SOC report been completed for the LON5
-    data center?](#report)
--   [Will the LON5 data centre be PCI-DSS compliant?](#compliant)
--   [What are the green credentials of the new LON5 data
-    centre?](#green)
--   [Who should I contact if I have more questions about the
-    migration?](#questions)
--   [What about customers who use RackConnect?](#rackconnect)
-
-**Why is Rackspace closing these data centres?**
+#### Why is Rackspace closing these data centres?
 
 DH4 was brought online in March 2013 to ease capacity issues in our LON3
 Data Centre caused by extensive growth. At that stage LON5 was still in
 the initial design phase. It is a colocation facility in very close
 proximity to LON3.
 
-[&lt;top&gt;](#top)
-
-**How will cloud devices be migrated to LON5?**
+#### How will cloud devices be migrated to LON5?
 
 Your migration date will be determined by the location of your solution.
 Rackspace is working hard to ensure the maintenance has minimal impact
@@ -83,76 +51,57 @@ additional details 21 days before your scheduled maintenance.
 3.  Your configuration will be tested and verified at an
     infrastructure level.
 
-[&lt;top&gt;](#top)
+#### Will there be any interruption to service?
 
-**Will there be any interruption to service?**
-
-<span class="s1">Yes. The total scheduled migration window will be four
+Yes. The total scheduled migration window will be four
 hours but our goal is to return to service as quickly as possible.
 Rackspace has designed the migration plan to occur in small contiguous
 blocks in order to minimize the amount of downtime for customers. Our
 project plan also seeks to reduce the amount of unplanned downtime by
-including additional resources and multiple contingency plans.</span>
+including additional resources and multiple contingency plans.
 
-<span class="s1">If your instance is not able to go through the live
+If your instance is not able to go through the live
 migration process, you will be notified via a ticket within your Cloud
-Control Panel and a standard migration will be scheduled.</span>
+Control Panel and a standard migration will be scheduled.
 
-[&lt;top&gt;](#top)
+#### Will there be any IP or DNS changes?
 
-**Will there be any IP or DNS changes?**
-
-<span class="s1">No. You should be able to retain your IPs and DNS with
+No. You should be able to retain your IPs and DNS with
 this migration. If your server is not able to retain its original IPs,
 you will be notified via ticket and Support will work with you to
-resolve.</span>
+resolve.
 
-[&lt;top&gt;](#top)
-
-**When are my servers scheduled to be migrated?**
+#### When are my servers scheduled to be migrated?
 
 The migrations will begin in September and continue through October
-2015.  You will receive a notification via ticket on the Rackspace
+2015. You will receive a notification via ticket on the Rackspace
 customer portal 21 days in advance of your migration date. Subsequent
 tickets will include the date range in which you will be migrated.
 
-[&lt;top&gt;](#top)
-
-**How will I need to prepare for the migration?**
+#### How will I need to prepare for the migration?
 
 We encourage you to make your own offsite backups and use the Managed
 Backup solution that Rackspace offers. If your solution is not currently
 being backed up, we strongly recommend that you talk to your Rackspace
 Account Team to put backup methods in place before the migration date.
 
-[&lt;top&gt;](#top)
-
-**Is the move date flexible? Can I choose the date of the
-migration?**
+#### Is the move date flexible? Can I choose the date of the migration?
 
 Because we must move hardware according to its network topography, we
 cannot offer flexible move dates to customers.
 
-[&lt;top&gt;](#top)
-
-**I have more than one solution with Rackspace. Will they all be
-migrated at the same time?**
+#### I have more than one solution with Rackspace. Will they all be migrated at the same time?
 
 The answer depends on where those solutions are physically located
 within the data centre. Dedicated hardware will be moved before Cloud
 hardware, so they will be handled in two different maintenance windows.
 
-[&lt;top&gt;](#top)
-
-**Will my current services change because of the migration?**
+#### Will my current services change because of the migration?
 
 There will be no change to any of the services that you currently
 consume.
 
-[&lt;top&gt;](#top)
-
-**Are there any guarantees that my server will not have to be migrated
-again afterwards?**
+#### Are there any guarantees that my server will not have to be migrated again afterwards?
 
 Rackspace is investing heavily in the design and construction of the
 LON5 Data Centre and in our partnership with Digital Realty Trust, a
@@ -161,9 +110,7 @@ associated with the LON5 Data Centre is in excess of 20 years. We hope
 that this provides you with some reassurance that we are making every
 effort not to migrate you again in the near future.
 
-[&lt;top&gt;](#top)
-
-**Where is LON5 located?**
+#### Where is LON5 located?
 
 This facility is located near Crawley, Sussex. For security reasons, we
 have not published the address in this FAQ. You can obtain the address
@@ -171,10 +118,7 @@ from your Account Team on a confidential basis and with valid
 justification, such as the need to coordinate the installation of
 private circuits.
 
-[&lt;top&gt;](#top)
-
-**Does the LON5 Data Centre have the same level of redundancy and
-security as other Rackspace data centres?**
+#### Does the LON5 Data Centre have the same level of redundancy and security as other Rackspace data centres?
 
 Yes. The LON5 Data Centre provides the same or improved levels of
 redundancy, and more resilience in its electrical and mechanical
@@ -182,10 +126,7 @@ infrastructure, than LON1 and LON3. Security protocols and operations
 for LON5 are in line with all data centres in the Rackspace global
 portfolio.
 
-[&lt;top&gt;](#top)
-
-**What assurance can Rackspace provide customers regarding security
-controls in the new LON5 Data Centre?**
+#### What assurance can Rackspace provide customers regarding security controls in the new LON5 Data Centre?
 
 All Rackspace entities implement uniform global data centre security and
 environmental controls in their data centres.
@@ -204,10 +145,7 @@ as well as an attestation from our Compliance Director that states that
 the appropriate security and environment controls have been implemented
 to meet the PCI-DSS SP L1 and ISAE / SSAE standards to which we adhere.
 
-[&lt;top&gt;](#top)
-
-**Has an SSAE16 / ISAE 3402 SOC report been completed for the LON5 Data
-Centre?**
+#### Has an SSAE16 / ISAE 3402 SOC report been completed for the LON5 Data Centre?
 
 LON5 came online in the middle of the Rackspace ISAE / SSAE annual audit
 cycle and will therefore not be assessed upon opening.
@@ -217,9 +155,7 @@ The reporting period for the Rackspace Service Organization Controls
 will be conducted by our auditors between September and November 2015,
 with the final report being made available in early December 2015.
 
-[&lt;top&gt;](#top)
-
-**Will the LON5 Data Centre be PCI-DSS compliant?**
+#### Will the LON5 Data Centre be PCI-DSS compliant?
 
 LON5 came online prior to the Rackspace Annual PCI-DSS Service Provider
 audit.
@@ -228,9 +164,7 @@ The PCI-DSS SP L1 external audit took place between May and July 2015.
 The Attestation of Compliance will be available for customers by the end
 of July or early August 2015.
 
-[&lt;top&gt;](#top)
-
-**What are the green credentials of the LON5 Data Centre?**
+#### What are the green credentials of the LON5 Data Centre?
 
 In support of our commitment to our customers, Rackspace employees, and
 the environment, the LON3 Data Centre and UK head office (LON4) are
@@ -260,19 +194,11 @@ reduce our carbon footprint:
 -   Power will be pulled into the site from higher up the grid to attain
     a more efficient delivery of power to the site.
 
-[&lt;top&gt;](#top)
-
-**Who should I contact if I have more questions about the
-migration?**
+#### Who should I contact if I have more questions about the migration?
 
 You can submit a ticket to your Account Team in the Cloud Control Panel.
 
-[&lt;top&gt;](#top)
-
-**What about customers who use RackConnect?**
+#### What about customers who use RackConnect?
 
 Customers who connect their Dedicated and Cloud hardware via RackConnect
 will only be impacted by the migration of Dedicated hardware.
-
-[&lt;top&gt;](#top)
-

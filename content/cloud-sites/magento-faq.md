@@ -31,9 +31,9 @@ from Varien (the makers of Magento)--for a fee.
 
 Get quick answers to common questions about Magento.
 
-### **General questions**
+### General questions
 
-### What is Magento?
+#### What is Magento?
 
 Magento is a deployed ecommerce shopping platform. Store administrators
 download a set of files (just like with WordPress), extract them, set up
@@ -43,7 +43,7 @@ used carts available.
 Magento Go is a hosted solution and is typically used in combination
 with hosted shopping sites so that all you get is a web back-end login.
 
-### Does Magento have an enterprise edition?
+#### Does Magento have an enterprise edition?
 
 Yes. Magento Enterprise Edition starts with the open-source Magento
 Community Edition, adds built-in full-page cache and other features, and
@@ -51,7 +51,7 @@ creates a package that is priced yearly. It comes with support directly
 from the developers of Magento and is compatible with our Rackspace
 Hybrid Cloud offering.
 
-### How does Magento Enterprise Edition differ from Magento Community Edition?
+#### How does Magento Enterprise Edition differ from Magento Community Edition?
 
 Magento Community Edition and Magento Enterprise Edition are similar at
 the file and database level, but Enterprise has more features and better
@@ -81,13 +81,13 @@ options are also available.
 
 ### Typical questions after installation
 
-### Where can I find the database/memcache configuration file for Magento?
+#### Where can I find the database/memcache configuration file for Magento?
 
 This file, which is commonly used to control the database connection
 strings, session storage mechanism, and caching backends, is located at
 **`/var/www/vhosts/domain.tld/app/etc/local.xml`**.
 
-### What, and where, is the Magento Connect Manager?
+#### What, and where, is the Magento Connect Manager?
 
 The Magento Connect Manager is like the Install Plugins area of
 WordPress. You get an *extension key* for the plug-in that you want,
@@ -103,7 +103,7 @@ possibly pre-alpha. We recommend that you use the Magento Connect
 Manager instead of the command-line **mage** utility because **mage**
 sometimes does not perform post-uninstallation cleanup.
 
-### How do I clear the cache on a Magento store?
+#### How do I clear the cache on a Magento store?
 
 How you clear the cache depends on what cache back end you use. Out of
 the box, Magento stores cache entries in the file system.
@@ -117,7 +117,7 @@ minifying).
 To purge the cache forcefully, go to the document root and *rename* the
 **var/cache** folder (**cache.old** should suffice).
 
-### Why rename the cache folder? Shouldn&rsquo;t I just delete it because it's an old cache?
+#### Why rename the cache folder? Shouldn&rsquo;t I just delete it because it's an old cache?
 
 Clearing the cache refreshes the site and shows what it looks like
 underneath as caches build up. Cache buildup causes a site to stop
@@ -125,7 +125,7 @@ working, and this is also why it's a good idea to only rename the cache
 folder. If the site breaks, you can put the cache folder back in place
 and debug at a better time for you and your visitors.
 
-### What is re-indexing, and how can I do it via the command line?
+#### What is re-indexing, and how can I do it via the command line?
 
 Re-indexing is a process that helps build a search index for the
 catalog, helps build the product catalog onto the front end, sets up URL
@@ -197,7 +197,7 @@ compile process:
     /usr/bin/php /var/www/vhosts/domain.tld/shell/compiler.php compile
     /usr/bin/php /var/www/vhosts/domain.tld/shell/compiler.php enable
 
-### "An Error Log Record Number" doesn't tell me anything meaningful. Where can I find the actual error instead of just a number?
+#### "An Error Log Record Number" doesn't tell me anything meaningful. Where can I find the actual error instead of just a number?
 
 The number you get references a plain text file of the same name in your
 Magento directory under **var/report/1234567890**. Look at the contents

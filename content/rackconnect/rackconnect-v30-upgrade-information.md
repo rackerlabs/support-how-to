@@ -10,9 +10,9 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-<span>Customers can now upgrade from RackConnect v2.0 to RackConnect
+Customers can now upgrade from RackConnect v2.0 to RackConnect
 v3.0. This article provides information about RackConnect v3.0 and about
-upgrading.</span>
+upgrading.
 
 ### Benefits of RackConnect 3.0
 
@@ -22,8 +22,6 @@ RackConnect v3.0 provides the following benefits:
     cloud servers with an isolated, single-tenant network that exists
     virtually between your cloud servers.
 
-<!-- -->
-
 -   **Ability to choose an IP scheme on cloud networks**: The ability to
     choose your own IP scheme means that you can avoid IP overlap issues
     such as site-to-site VPNs between network environments residing in
@@ -31,23 +29,17 @@ RackConnect v3.0 provides the following benefits:
     (and network name) is provided when our Network Security team
     provisions the RackConnect cloud network.
 
-<!-- -->
-
 -   **A fully functional public API for RackConnect v3.0**: You can use
     the RackConnect v3.0 API to perform automated tasks (or
     provide information) such as adding or removing load balancer
     members, and assigning or unassigning a public IP address to
     cloud servers.
 
-<!-- -->
-
 -   **No more in-instance, per-cloud server automation**: In RackConnect
     v2.0, automation made changes on a per-cloud-server basis by using a
     system user (which caused issues for some customers). With
     RackConnect v3.0, automation is seamless and happens at the
     hypervisor layer.
-
-<!-- -->
 
 -   **No Public IP address is necessary**: RackConnect v3.0 uses a
     public IP address that is assigned to and resides with your
@@ -62,8 +54,6 @@ RackConnect v3.0 provides the following benefits:
     that receive load-balanced traffic from a dedicated load balancer
     usually do not require a public IP address*.*
 
-<!-- -->
-
 -   **Your cloud servers can be protected by robust dedicated
     security**: Because each RackConnect cloud network is a dedicated,
     private network segment that resides on your dedicated network
@@ -71,8 +61,6 @@ RackConnect v3.0 provides the following benefits:
     network segments. This means many of the same security devices (for
     example, IDS and WAF) and methods used for dedicated network
     segments can also be used for your RackConnect cloud networks.
-
-<!-- -->
 
 -   **More scalable**: Each RackConnect cloud network have up to 250
     cloud servers, and you can create multiple networks based on the
@@ -91,19 +79,13 @@ RackConnect v3.0 has the following limitations:
     for RackConnect v3.0 until the Cloud Load Balancers 2.0 option is
     available for Cloud Networks (anticipated in 2016).
 
-<!-- -->
-
 -   **Not compatible with OnMetal v1.0**: RackConnect v3.0 will support
     the upcoming OnMetal 2.0 offering, anticipated to be available
     in 2016.
 
-<!-- -->
-
 -   **Limit of 250 cloud servers per RackConnect cloud network**: This
     is a limitation of the Rackspace Cloud Networks product that
     RackConnect v3.0 uses.
-
-<!-- -->
 
 -   **Traffic between two RackConnect cloud networks must traverse the
     connected device**: For traffic to go between two RackConnect cloud
@@ -117,7 +99,7 @@ RackConnect v3.0 has the following limitations:
 ### Upgrade eligibility
 
 Some customers might require firewall software version updates to be
-eligible for RackConnect v3.0.  Contact your Rackspace Account Manager
+eligible for RackConnect v3.0. Contact your Rackspace Account Manager
 or Service Delivery Manager for additional details and to ensure that
 you have no other potential issues that would prevent you from upgrading
 to RackConnect v3.0.
@@ -201,7 +183,7 @@ and caveats for this upgrade path:
     RackConnect v2.0 Network Policy rules during the migration, though
     you can create new RackConnect v3.0 cloud servers.
 
--   **Downtime will be on a per Cloud-server basis** &mdash; it is anticipated
+-   **Downtime will be on a per-server basis**: It is anticipated
     to be a few seconds as we add and move to the RackConnect Cloud
     Network.
 
@@ -209,7 +191,7 @@ and caveats for this upgrade path:
     completed in one batch**: The upgrade *can* occur in multiple
     batches upon request, but the configuration freeze for RackConnect
     v2.0 must be in place for the entire process (until the upgrade is
-    complete)*. *
+    complete).
 
 ### Next step
 
@@ -218,4 +200,3 @@ your Account Manager or Server Delivery Manager to being the migration
 process. Also, your Account Manager can schedule a call with one of our
 RackConnect specialists to answer any outstanding questions that you
 might have.
-

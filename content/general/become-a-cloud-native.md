@@ -14,7 +14,7 @@ product_url: undefined
 to join Jaret Chiles, Architect with the [Rackspace Enterprise Cloud Solutions](http://www.rackspace.com/enterprise_hosting/advisory_services/) team,
 as he discusses how to move your conversation from "why should we use
 cloud" to "how do we implement cloud". Jaret covers all of the things
-you will need to consider as you take the next steps in your cloud
+to consider as you take the next steps in your cloud
 journey.
 
 **About Jaret**

@@ -4,8 +4,8 @@ title: Microsoft Sharepoint FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
@@ -31,8 +31,8 @@ site&rsquo;s URL has been added to your "trusted sites" in Internet Explorer.
 Unfortunately, Business Intelligence features (such as PerformancePoint)
 are not currently available in a shared environment. However, these
 features are included in the SharePoint Server 2013 Enterprise edition
-and are supported in a [Dedicated SharePoint
-environment](http://sharepoint.rackspace.com/dedicated).
+and are supported in a [dedicated SharePoint
+environment](http://sharepoint.rackspace.com/dedicated-sharepoint).
 
 #### Can I use Office Web Apps?
 
@@ -45,4 +45,3 @@ noted that OWA is still available for other hosted SharePoint solutions
 at Rackspace. If you agree with us in thinking this is an
 anti-competitive move on Microsoft&rsquo;s part, we encourage you to speak to
 your Microsoft account representatives and let them know.
-

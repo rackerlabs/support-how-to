@@ -10,14 +10,14 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-***NOTE:** This article is written for our [Cloud Sites Control
+This article is written for our [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com). You can access this interface
 from the [Cloud Control Panel](https://mycloud.rackspace.com) by
 clicking your username in the upper-right of the control panel and
 selecting "Cloud Sites Control Panel".*
 
-*Email is no longer offered as a feature for Cloud Sites.  This article
-is here to support legacy customers with email accounts.*
+**Note:** Email is no longer offered as a feature for Cloud Sites.  This article
+is here to support legacy customers with email accounts.
 
 Cloud Sites webmail accounts provide 1GB of storage space.  If you reach
 the quota and wish to delete or purge messages in order to free up

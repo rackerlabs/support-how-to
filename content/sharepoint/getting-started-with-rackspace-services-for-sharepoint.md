@@ -1,17 +1,16 @@
 ---
 node_id: 2220
-title: Getting Started with Rackspace Services For SharePoint
+title: Getting started with Rackspace services for SharePoint
 type: article
 created_date: '2012-09-24'
 created_by: Rae D. Cabello
-last_modified_date: '2016-01-12'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
 
-Overview
---------
+### Overview ###
 
 Rackspace offers Cloud Servers images that include SharePoint and SQL
 Server pre-installed. These images have been specifically designed to
@@ -20,10 +19,9 @@ deploying a SharePoint instance for testing.
 
 
 
-Sharepoint Images
------------------
+### Sharepoint images ###
 
-**SharePoint Foundation 2010 with:**
+SharePoint Foundation 2010 with:
 
 -   MS SQL Express 2008 R2
 
@@ -31,23 +29,21 @@ Sharepoint Images
 
 -   MS SQL Standard 2008 R2
 
-**SharePoint Foundation 2013 with:**
+SharePoint Foundation 2013 with:
 
 -   MS SQL 2012 Standard
 
 
--
 
-Setup Instructions
-------------------
+### Setup instructions ###
 
 During the instance build, SharePoint Foundation 2010, MS SQL Express
 2008 R2, or MS SQL Standard 2008 R2 are installed in a standalone or
 farm configuration based on which image is selected. A default web
 application and site collection have been created on a TCP port 80 and
 is accessible by the local Administrator account. The Windows Firewall
-has been configured to prevent external access to both TCP ports 80 and
-443. If you would like to allow external access to those ports, please
+has been configured to prevent external access to both TCP ports 80 and 443.
+ If you would like to allow external access to those ports, please
 follow these steps:
 
 1\. First thing you'll do is login as
@@ -76,4 +72,3 @@ desktop session with your cloud server, login as the **Administrator**,
 select **Start (**or enter the Start Screen on Windows 2012**)**, then
 select **SharePoint Central Administration** from the menu. A browser
 window will open to the correct URL and port.
-

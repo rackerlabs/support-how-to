@@ -10,13 +10,13 @@ product: Managed VMware Services
 product_url: managed-vmware-services
 ---
 
-To get the new functionality from VMware^&reg;^ vRealize^&trade;^Operations^&trade;^
+To get the new functionality from VMware&reg; vRealize&trade;  Operations&trade;
 (vROps) 6.1 with End Point Operations (EP Ops) Management, you will need
 to install EP Ops agents on the virtual machines (VMs) that you want to
 monitor. All VMs in your cluster are currently monitored by vROps;
 however, by installing the EP Ops agents you get customer-managed guest
-OS and application (Microsoft^&reg;^ SQL Server&trade;, Microsoft Active
-Directory^&reg;^, Apache Tomcat, and PostgreSQL) monitoring.
+OS and application (Microsoft&reg; SQL Server&trade;, Microsoft Active
+Directory &reg;, Apache Tomcat, and PostgreSQL) monitoring.
 
 This document includes the steps to install agents and verify data
 collection, or remove agents if they are no longer needed. Also there
@@ -36,7 +36,7 @@ ESXi host in the inventory, browse its local datastore, and download the
 files to your desktop or a central location. You can then copy these to
 your VM and extract them as needed.
 
-**Note: **The EP Ops agents installation files that include Java will
+**Note:** The EP Ops agents installation files that include Java will
 overwrite your current Java version. If you need to configure the EP Ops
 agent to use a different version of Java than what you have installed on
 the VM, please refer to the vRealize Operation Manager Installation and
@@ -116,7 +116,7 @@ Configuration Guide for instructions.
         Enter your server password: vCenter Password
 
 
-### ****Remove EP Ops agent on Linux
+### Remove EP Ops agent on Linux
 
 If you no longer want to monitor a guest OS on a particular VM, you must
 remove the EP Ops agent from the VM.  Alternatively, if you want to
@@ -140,7 +140,7 @@ the EP Ops agent to successfully re-register.
 
         # rm /etc/vmware/epops-token
 
-### ****Remove EP Ops agent on Windows
+### Remove EP Ops agent on Windows
 
 1.  Open the command prompt and change directory to the EP Ops agent bin
     directory:
@@ -249,5 +249,3 @@ complete the following steps:
     active alerts related to EP Ops.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/adaptertypes.png" width="600" height="256" />
-
-

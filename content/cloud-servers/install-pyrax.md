@@ -13,8 +13,7 @@ product_url: cloud-servers
 Complete the following steps on a new Ubuntu or CentOS server to install
 and configure pyrax.
 
-Install pyrax on an Ubuntu server
----------------------------------
+### Install pyrax on an Ubuntu server
 
 1.  Update the server:
 
@@ -40,8 +39,7 @@ Install pyrax on an Ubuntu server
 
 6.  Create the credential file. Use your Rackspace Cloud account
     username and API key. For information about how to find your API
-    key, see [View and reset your API
-    key](/how-to/view-and-reset-your-api-key).
+    key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
     **Note:** This file can be located anywhere on the server, but it is
     usually safest in the home directory of the user who is using
@@ -54,8 +52,7 @@ Install pyrax on an Ubuntu server
 
 7.  Complete the test script to configure pyrax.
 
-Install pyrax on a CentOS server
---------------------------------
+### Install pyrax on a CentOS server
 
 1.  Update the server:
 
@@ -81,27 +78,23 @@ Install pyrax on a CentOS server
 
 6.  Create the credential file. Use your Rackspace Cloud account
     username and API key. For information about how to find your API
-    key, see [View and reset your API
-    key](/how-to/view-and-reset-your-api-key).
+    key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
     **Note:** This file can be located anywhere on the server, but it is
     usually safest in the home directory of the user who is using
     the API.
-
-    ****
 
         /root/.rackspace_cloud_credentials
                     [rackspace_cloud]
                     username = my_username
                     api_key = 01234567890abcdef
 
-7.  **Complete the test script to configure pyrax.**
+7.  Complete the test script to configure pyrax.
 
-**Run the test script**
------------------------
+### Run the test script
 
-**Run this test script to configure pyrax. This script works on both
-Ubuntu and CentOS servers.**
+Run this test script to configure pyrax. This script works on both
+Ubuntu and CentOS servers.
 
     #!/usr/bin/env python2
     #import the pyrax module
@@ -126,6 +119,3 @@ Ubuntu and CentOS servers.**
     print iad_servers
     print "All Servers"
     print all_servers
-
-** **
-

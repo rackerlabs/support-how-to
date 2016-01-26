@@ -31,30 +31,11 @@ extensions for PHP. Check your application documentation for details.
 **Note:** CentOS 7 has replaced MySQL with MariaDB. To reflect this,
 instructions for MariaDB procedures are included in this article.
 
-### Contents
-
--   [Install MySQL](install)
--   [Allow remote access](allow)
--   [Launch MySQL](launch)
--   [Launching at reboot](boot)
--   [The MySQL shell](shell)
--   [Set the root password](root)
--   [Find database users](users)
--   [Create a database](db)
--   [Add users and permissions](users)
--   [Summary](sum)
-
-
-
-
-
-Installing the database application
------------------------------------
+### Installing the database application
 
 Follow the steps below to install the database core server.
 
-MySQL installation
-------------------
+### MySQL installation
 
 Install the MySQL server through the CentOS package manager by running
 the following commands at a command prompt:
@@ -77,10 +58,7 @@ then reload the privileges so that your changes will take effect.
 
     sudo yum install mariadb-server mariadb
 
-
-
-Allow remote access
--------------------
+### Allow remote access
 
 If you have iptables enabled and want to connect to the MySQL database
 from another machine, you need to open a port in your server's firewall
@@ -93,20 +71,17 @@ iptables to open port 3306:
     -I INPUT -p tcp --dport 3306 -m state --state NEW,ESTABLISHED -j ACCEPT
     -I OUTPUT -p tcp --sport 3306 -m state --state ESTABLISHED -j ACCEPT
 
-**Note:** The \`iptables\` command was deliberately left out of the
+**Note:** The `iptables` command was deliberately left out of the
 iptables rules in the instructions above. Some people using
 distributions that do not have their own iptables service might instead
-have a rules file they can import using \`iptables-restore\`. The format
+have a rules file they can import using `iptables-restore`. The format
 of the lines in that file would be similar to the format used above:
-iptables options without the \`iptables\` command in front of them. For
+iptables options without the `iptables` command in front of them. For
 this reason, the instructions in this article represent a compromise. It
 is easy to paste the lines into a rules file, and they can be used with
-the \`iptables\` command instead.
+the `iptables` command instead.
 
-
-
-Starting and stopping the database service
-------------------------------------------
+### Starting and stopping the database service
 
 When you've completed the installation, you can start the service by
 using the commands shown below. If the system is already started, you
@@ -118,7 +93,9 @@ Use the following command to start MySQL:
 
     sudo /sbin/service mysqld start
 
-use the following command to stop MySQL:
+Use the following command to stop MySQL:
+
+    sudo /sbin/service mysqld stop
 
 ### Starting and stopping MariaDB
 
@@ -130,9 +107,7 @@ Use the following command to stop MariaDB:
 
     sudo systemctl stop mariadb.service
 
-
-
-Launching at reboot
+### Launching at reboot
 
 To ensure that the database server launches after a reboot, you must
 enable the chkconfig utility. Use the following commands to do this.
@@ -145,30 +120,22 @@ enable the chkconfig utility. Use the following commands to do this.
 
     sudo systemctl enable mariadb.service
 
-
-
-
-
-The MySQL shell
----------------
+### The MySQL shell
 
 There is more than one way to work with a MySQL server, but this article
-focuses on the most basic and compatible approach: The \`mysql\` shell.
-At the command prompt, run the following command to launch the \`mysql\`
+focuses on the most basic and compatible approach: The `mysql` shell.
+At the command prompt, run the following command to launch the `mysql`
 shell and enter it as the root user:
 
     /usr/bin/mysql -u root -p
 
 When you're prompted for a password, enter the one that you set at
 installation or, if you haven't set one, just press enter to submit no
-password. The following \`mysql\` shell prompt should appear:
+password. The following `mysql` shell prompt should appear:
 
     mysql>
 
-
-
-Set the root password
----------------------
+### Set the root password
 
 Since you have just installed your MySQL database server, the root
 account within MySQL has no password set yet. You should change that by
@@ -182,10 +149,7 @@ also type them in lowercase. The commands are shown capitalized by
 convention, to make them stand out from field names and other data
 that's being manipulated.
 
-
-
-Viewing users
--------------
+### Viewing users
 
 As mentioned in the preceding section, MySQL stores the user information
 in its own database. The name of the database is "mysql". Inside that
@@ -214,13 +178,13 @@ you type a semicolon.
 
 This means that you can break up queries onto multiple lines to make
 them easier to read. For example, the preceding command also works if
-you enter it on multiple lines in the \`mysql\` shell, as follows:
+you enter it on multiple lines in the `mysql` shell, as follows:
 
     mysql> SELECT User, Host, Password
         -> FROM mysql.user;
 
 When you press enter after the Password part, you get a new line, so you
-can keep typing. The \`&gt;\` symbol indicates that you are still in the
+can keep typing. The `>` symbol indicates that you are still in the
 middle of a statement. You can type a semicolon by itself to end a
 command if you forget to type it on the same line as the command.
 
@@ -229,14 +193,14 @@ command if you forget to type it on the same line as the command.
 Following is example output for the preceding query:
 
     SELECT User, Host, Password FROM mysql.user;
-    +------------------+-----------+-------------------------------------------+
-    | User             | Host      | Password                                  |
-    +------------------+-----------+-------------------------------------------+
-    | root             | localhost | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | root             | demohost  | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    | root             | 127.0.0.1 | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
-    |                  | %         |                                           |
-    +------------------+-----------+-------------------------------------------+
+    +------------------+-----------+------------------------------------------+
+    | User             | Host      | Password                                 |
+    +------------------+-----------+------------------------------------------+
+    | root             | localhost | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root             | demohost  | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root             | 127.0.0.1 | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    |                  | %         |                                          |
+    +------------------+-----------+------------------------------------------+
 
 Users are associated with a host, specifically the host to which they
 connect. The "root" user in this example is defined for localhost, for
@@ -252,9 +216,9 @@ If your application connects remotely, the "host" entry that MySQL looks
 for is the IP address or DNS hostname of the remote machine (the one
 from which the client is coming).
 
-A special value for the host is \`%\`, as you can see in the preceding
+A special value for the host is `%`, as you can see in the preceding
 output for the blank, or anonymous, user (see the following section).
-The \`%\` symbol is a wildcard that applies to any host value. You
+The `%` symbol is a wildcard that applies to any host value. You
 usually don't want to use that because it's more secure to limit access
 specifically to trusted hosts.
 
@@ -262,7 +226,7 @@ specifically to trusted hosts.
 
 In the example output, one entry has a host value but no username or
 password. That's an "anonymous user". When a client connects with no
-username specified, it's trying to connect as an \*anonymous\* user.
+username specified, it's trying to connect as an "anonymous" user.
 
 You usually don't want any anonymous users, but some MySQL installations
 include one by default. If you see one, you should either delete the
@@ -270,10 +234,7 @@ user (refer to the username with empty quotes, like '') or set a
 password for it. Both tasks are covered later in this series of
 articles.
 
-
-
-Create a database
------------------
+### Create a database
 
 There is a difference between database server and an actual database,
 even though those terms are often used interchangeably. MySQL is a
@@ -286,7 +247,7 @@ Some applications create a database as part of their setup process, but
 others require you to create a database and tell the application about
 it. Fortunately, creating a database is simple.
 
-To create a database, log in to the \`mysql\` shell and run the
+To create a database, log in to the `mysql` shell and run the
 following command, replacing demodb with the name of the database that
 you want to create:
 
@@ -306,17 +267,14 @@ output:
     +--------------------+
     3 rows in set (0.00 sec)
 
-
-
-Adding users and permissions
-----------------------------
+### Adding users and permissions
 
 When applications connect to the database using the root user, they
 usually have more privileges than they need. You can create a new user
 that applications can use to connect to the new database. In the
 following example, a user named demouser is created.
 
-To create a new user, run the following command in the \`mysql\` shell:
+To create a new user, run the following command in the `mysql` shell:
 
     CREATE USER 'demouser'@'localhost' IDENTIFIED BY 'demopassword';
 
@@ -324,21 +282,21 @@ You can verify that the user was created by running that "SELECT" query
 again:
 
     SELECT User, Host, Password FROM mysql.user;
-    +------------------+-----------+-------------------------------------------+
-    | User | Host | Password                                                   |
-    +------------------+-----------+-------------------------------------------+
-    | root     | localhost | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19         |
-    | root     | demohost  | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19         |
-    | root     | 127.0.0.1 | *2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19         |
-    | demouser | localhost | *0756A562377EDF6ED3AC45A00B356AAE6D3C6BB6         |
-    +------------------+-----------+-------------------------------------------+
+    +----------+-----------+------------------------------------------+
+    | User     | Host      | Password                                 |
+    +----------+-----------+------------------------------------------+
+    | root     | localhost | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root     | demohost  | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | root     | 127.0.0.1 | 2470C0C06DEE42FD1618BB99005ADCA2EC9D1E19 |
+    | demouser | localhost | 0756A562377EDF6ED3AC45A00B356AAE6D3C6BB6 |
+    +----------+-----------+------------------------------------------+
 
 ### Grant database user permissions
 
 Right after you create a new user, it has no privileges. The user can be
 used to log in to MySQL, but it can't be used to make any database
 changes. Give the user full permissions for your new database by running
-the following commmand:
+the following command:
 
     GRANT ALL PRIVILEGES ON demodb.* to demouser@localhost;
 
@@ -367,7 +325,7 @@ for the new database.
 ### Revoking privileges
 
 Sometimes you might need to revoke (remove) privileges form a user, for
-different reason. For example: you were granting \`ALL\` privileges to
+different reason. For example: you were granting `ALL` privileges to
 'demouser'@'localhost', but by accident (can happen to the best of us
 any time!) instead of granting them only on the demodb database, you
 granted them to all other databases too:
@@ -402,19 +360,12 @@ as a very bad practice). You should also read official MySQL
 documentation regarding possible privilege choices, to grant only those
 privileges truly needed, rather than using `ALL`.
 
-
-
-Summary
--------
+### Summary
 
 If you're just creating a database and a user, you are done. The
 concepts covered here should give you a solid grounding from which to
 learn more.
 
-### Next steps
+### Next section
 
-[Configuring MySQL server on
-CentOS](/how-to/configuring-mysql-server-on-centos)
-
-
-
+[Configuring MySQL server on CentOS](/how-to/configuring-mysql-server-on-centos)

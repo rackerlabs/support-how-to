@@ -13,8 +13,7 @@ product_url: cloud-sites
 This article describes some best practices and suggestions for
 optimizing your website on Cloud Sites.
 
-Using SSL
----------
+### Using SSL
 
 SSL might be right for your website, but it should be used only when
 necessary. SSL traffic is encrypted and causes additional server
@@ -35,8 +34,7 @@ aliases](/how-to/getting-started-with-cloud-sites-creating-sub-domains-andor-dom
 For details on adding SSL to a site, see [Configuring SSL on your
 websites](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
-Serving static content
-----------------------
+### Serving static content
 
 For the best performance, we recommend migrating all static media files
 (images, video, audio, flash, and so on) to the content delivery network
@@ -49,8 +47,7 @@ physical location. For more information about using Cloud Files, see the
 [Cloud Files Knowledge
 Base](/how-to/cloud-files).
 
-Optimizing the database
------------------------
+### Optimizing the database
 
 A well-optimized database and database queries can increase the
 performance of your website. An inefficiently designed database can slow
@@ -60,8 +57,7 @@ performance of your website, when done correctly.
 
 Consult a professional database administrator (DBA), if necessary.
 
-Coding efficiently
-------------------
+### Coding efficiently
 
 Efficient code always yields a better-performing website. This is
 especially true for a busy website. Issues that are not evident during
@@ -72,7 +68,7 @@ Reducing the number of file system operations, external calls, and
 includes, and reducing or optimizing database queries will allow your
 website to perform and scale more efficiently.
 
-### Planning for high traffic
+#### Planning for high traffic
 
 **If you are expecting an increase in traffic to your website, create a
 Support ticket for your site with the following subject line: Expected
@@ -100,8 +96,7 @@ Submit your ticket at least seven days before the expected high traffic
 date. If applicable, disable comments and chat and traceback
 functionality during your event.
 
-Additional resources for website optimization
----------------------------------------------
+### Additional resources for website optimization
 
 See the following optimization articles that apply to your websites:
 

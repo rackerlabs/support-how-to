@@ -12,22 +12,22 @@ product_url: rackconnect
 
 **Applies to:** RackConnect v3.0 and RackConnect v2.0
 
-**Important:** Because only a highly restricted ServiceNet option is
-available for RackConnect v3.0, RackConnect v3.0 does not support the
+Because only a highly restricted ServiceNet option is
+available for RackConnect v3.0, RackConnect v3.0 does *not* support the
 Cloud Load Balancers offering. For more details about the offerings that
 are support by RackConnect v3.0 and the differences between RackConnect
 v3.0 and v2.0, see the following articles:
 
--   [RackConnect v3.0
-    compatibility](/how-to/rackconnect-v30-compatibility)
+-   [RackConnect v3.0 compatibility](/how-to/rackconnect-v30-compatibility)
 
--   [Comparing RackConnect v3.0 to RackConnect
-    v2.0](/how-to/comparing-rackconnect-v30-and-rackconnect-v20)
+-   [Comparing RackConnect v3.0 and RackConnect v2.0](/how-to/comparing-rackconnect-v30-and-rackconnect-v20)
 
 **Note:** The rest of this article applies only to RackConnect v2.0.
 
+### Configure RackConnect v2.0 to allow cloud load balancer traffic
+
 To configure RackConnect to allow cloud load balancer traffic to your
-cloud servers, a you must create a Dedicated to Cloud network policy in
+cloud servers, you must create a Dedicated to Cloud network policy in
 RackConnect. You can use cloud load balancers with RackConnect by
 following these steps:
 
@@ -35,7 +35,7 @@ following these steps:
 
 2.  Set the **Source Type** to **Network**.
 
-3.  Use the appropriate 10.*nnn*.*nnn*.*nnn*/*nn n*etwork as the
+3.  Use the appropriate 10.*nnn*.*nnn*.*nnn*/*nn* network as the
     **Source Server Network**:
 
     -   DFW region:
@@ -79,8 +79,7 @@ following these steps:
     **Destination Port or Port Range** to specify the resources that the
     load balancer will access.
 
-More details about using cloud load balancers with RackConnect
---------------------------------------------------------------
+### More details about using cloud load balancers with RackConnect
 
 Cloud load balancers work best when all servers to be load-balanced
 reside in the cloud. If dedicated servers need to be load balanced, or
@@ -99,6 +98,7 @@ RackConnect:
     database servers from your cloud servers
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RC.CLB_.png" width="700" />
+
 In this example, a cloud load balancer balances traffic between cloud
 web servers, and RackConnect provides connectivity from the web servers
 to the dedicated database servers. When you use cloud load balancers
@@ -131,4 +131,3 @@ limitations of using cloud load balancers:
 If you have any questions, please reach out to us. Our contact
 information is available on the [Contact
 Us](/how-to/support) page.
-
