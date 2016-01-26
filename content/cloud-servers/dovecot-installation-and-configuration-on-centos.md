@@ -12,12 +12,12 @@ product_url: cloud-servers
 
 ### Introduction
 
-If you've installed postfix to operate as the SMTP service on a would-be
+If you've installed Postfix to operate as the SMTP service on a would-be
 email server you might still need a way to retrieve the incoming mail
 from your server.
 
 To that end, in this article we'll talk about installing and configuring
-*Dovecot*.
+Dovecot.
 
 Dovecot is an open-source IMAP and POP3 server application which was
 designed specifically for Linux/Unix Operating Systems. Dovecot
@@ -46,7 +46,7 @@ command will install it:
 ### Configuring Dovecot
 
 The next step is to configure the Dovecot services in the config file at
-*/etc/dovecot/dovecot.conf* - use whatever editor you like for the task.
+**/etc/dovecot/dovecot.conf** - use whatever editor you like for the task.
 
     sudo nano /etc/dovecot/dovecot.conf
 
@@ -58,13 +58,13 @@ to reflect your plans for the environment:
 
 -   protocols - This specifies the protocols that are available for
     users to access their email.
--   mail\_location - This specifies the format and the location of each
+-   mail_location - This specifies the format and the location of each
     user's mailbox.
 
-#### Authentication process file
+### Authentication process file
 
 Next we will configure the authentication process file. This config file
-can be located at */etc/dovecot/conf.d/10-auth.conf -* use the text
+can be located at **/etc/dovecot/conf.d/10-auth.conf** - use the text
 editor of your choice for this task.
 
     sudo nano /etc/dovecot/conf.d/10-auth.conf
@@ -74,13 +74,12 @@ to reflect your plans for your environment:
 
     auth_mechanisms = plain login
 
--   auth\_mechanisms - This specifies the way in which the email client
-    authenticates with Dovecot.
+auth_mechanisms specifies the way in which the email client authenticates with Dovecot.
 
-#### Mail location
+### Mail location
 
 To set the location for your mail use the configuration file at
-*/etc/dovecot/conf.d/10-mail.conf*.
+**/etc/dovecot/conf.d/10-mail.conf**.
 
     sudo nano /etc/dovecot/conf.d/10-mail.conf
 
@@ -88,15 +87,15 @@ Either add or uncomment the line below in the configuration file.
 
     mail_location = maildir:~/Maildir
 
-#### Postfix smtp-auth
+### Postfix smtp-auth
 
 Next change the configuration file to configure the unix socket for
-postfix smtp-auth.  This can be found at
-*/etc/dovecot/conf.d/10-master.conf*
+postfix smtp-auth. This can be found at
+**/etc/dovecot/conf.d/10-master.conf**
 
     sudo nano /etc/dovecot/conf.d/10-master.conf
 
-Comment out the below lines first.
+Comment out the following lines first.
 
     #unix_listener auth-userdb {
         #mode = 0600
@@ -113,11 +112,10 @@ Now edit these lines in the same file.
         group = postfix
       }
 
-#### POP3 configuration
+### POP3 configuration
 
-Finally we need to configure the pop3.conf file.  This will allow some
-older or lesser-used email clients to connect and transmit correctly.
- This file can be found at */etc/dovecot/conf.d/20-pop3.conf*.
+Finally we need to configure the **pop3.conf** file. This will allow some
+older or lesser-used email clients to connect and transmit correctly. This file can be found at **/etc/dovecot/conf.d/20-pop3.conf**.
 
     sudo nano /etc/dovecot/conf.d/20-pop3.conf
 
@@ -163,11 +161,11 @@ Dovecot should now be up and running.
 ### Postfix Configuration
 
 We now need to go over to the Postfix directories and make the following
-changes in our *main.cf* file. The reason for this final piece is so
+changes in our **main.cf** file. The reason for this final piece is so
 that we can allow our email client to connect to our newly built SMTP
-server. Exciting stuff!
+server.
 
-Please take a moment to navigate over to */etc/postfix/main.cf* and open
+Please take a moment to navigate over to **/etc/postfix/main.cf** and open
 it with your chosen text editor.
 
     sudo nano /etc/postfix/main.cf
@@ -182,7 +180,7 @@ Now we should add the following lines.
     smtpd_sasl_type = dovecot
     smtpd_sasl_path = private/auth
 
-Once you have added the above lines you can exit the *main.cf* file and
+Once you have added the above lines you can exit the **main.cf** file and
 restart the Postfix service.
 
     sudo service postfix restart
@@ -215,12 +213,3 @@ In this guide you've learned to configure and install a basic Dovecot
 setup. The steps you have covered today should have given you a solid
 foundation of a basic Dovecot install and configuration. From here you
 can explore the Dovecot package in more depth.
-
-### Congratulations
-
-All that is left to do now is to congratulate you on finishing this
-configuration. With this brief guide you should be on track to a
-fully-functional mail server.
-
-Thanks for reading!
-

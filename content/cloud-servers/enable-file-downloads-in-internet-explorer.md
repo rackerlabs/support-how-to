@@ -26,7 +26,6 @@ downloads in Internet Explorer, follow these steps.
     **Downloads** section.
 6.  Under **File download**, select **Enable**, and then click **OK**.
 7.  In the confirmation dialog box, click **Yes**.
-8.  Click **OK &gt; Apply &gt; OK**.
+8.  Click **OK > Apply > OK**.
 
 Now you will be prompted for file downloads.
-
