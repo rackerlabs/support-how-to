@@ -37,8 +37,8 @@ your BIG-IP LTM:
 
 When creating a cloud server, use the metadata option to specify the pool or pools.
 
-- **Metadata Key**: RackConnectLBPool
-- **Metadata Value**: The exact name of the pool as defined on the load
+- **Metadata Key:** RackConnectLBPool
+- **Metadata Value:** The exact name of the pool as defined on the load
 balancer. Use a semicolon separated list for more than one pool.
 
 You can specify the metadata values when you use the Cloud Servers API to create new cloud servers. View the [API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#set-server-metadata) for details
@@ -52,7 +52,6 @@ page about cloud bursting.
 update a cloud server's metadata at any time to add/remove cloud servers
 from load balancer pools. These metadata updates can be made via the
 Cloud Server's API.
-
 
 #### Option 2&mdash;Name Match
 
@@ -121,7 +120,7 @@ follows:
     members of a load balancer pool.
 
 -   The ability to maintain Client Identity (source IP persistence) to
-    RackConnect Cloud Servers through the use of X-Forwarded headers.
+    RackConnect Cloud Servers through the use of `X-Forwarded` headers.
     Your Support team can provide more details about the caveats of
     client identity maintenance.
 
