@@ -54,19 +54,17 @@ cloud server from a list of automation-compatible load balancer pools.
 
 #### To add a server to a load balancer pool
 
-1.  In the RackConnect Details section of the cloud server&rsquo;s management
-    page, click **Select Pools**.
+1.  In the RackConnect Details section of the cloud server's management page, click **Select Pools**.
+
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig3_REACH_LB_Pool_Modal_PNG_smaller-border.png" width="500" height="241" />
-2.  In the popup dialog box, select the check box for each load balancer
-    pool to which you want to add the cloud server.
+
+2.  In the popup dialog box, select the check box for each load balancer pool to which you want to add the cloud server.
 3.  Click **Save Selected Load Balancer Pool(s)** to save your changes.
 
 #### To remove a server from a  load balancer pool
 
-1.  In the RackConnect Details section of the cloud server&rsquo;s management
-    page, click **Select Pools**.
-2.  Clear the check box for each load balancer pool from which you want
-    to remove the cloud server.
+1.  In the RackConnect Details section of the cloud server's management page, click **Select Pools**.
+2.  Clear the check box for each load balancer pool from which you want to remove the cloud server.
 3.  Click **Save Selected Load Balancer Pool(s)** to save your changes.
 
 #### Automation-compatible load balancer pools
@@ -108,10 +106,8 @@ The RackConnect v3.0 API is region-specific and returns results only for
 the region specified in the URL of the API call itself.
 
 For more information about using the RackConnect v3.0 API to manage load
-balancer pool memberships, see [RackConnect v3.0
+balancer pool memberships, see the [RackConnect v3.0
 API](http://docs.rcv3.apiary.io/#loadbalancerpools).
 
 If you have any questions, we are here to help. Our contact information
-is available on the [Contact
-Us](/how-to/support) page.
-
+is available on the [Contact Us](/how-to/support) page.

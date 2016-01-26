@@ -28,7 +28,7 @@ A single cloud account cannot be associated with both a RackConnect v3.0 configu
 
 - You cannot have a single network subnet that spans both your cloud and dedicated environments. To clarify, your dedicated-side's network subnets on your dedicated side must be on a different subnet than your cloud network's subnet.
 
-- RackConnect v3.0 cloud servers are automatically assigned their cloud network subnet's first IP address as the default gateway. The gateway IP address lives on the RackConnect v3.0 connected network device, and is manually configured by Rackspace during the RackConnect v3.0 implementation process.</li>
+- RackConnect v3.0 cloud servers are automatically assigned their cloud network subnet's first IP address as the default gateway. The gateway IP address lives on the RackConnect v3.0 connected network device, and is manually configured by Rackspace during the RackConnect v3.0 implementation process.
 
 ### RackConnect v3.0
 
