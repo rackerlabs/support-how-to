@@ -24,7 +24,7 @@ Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
 
 ------------------------------------------------------------------------
 
-### FAQ
+### General
 
 #### Do you have Servers with a Managed Operations Service Level in the UK?
 
