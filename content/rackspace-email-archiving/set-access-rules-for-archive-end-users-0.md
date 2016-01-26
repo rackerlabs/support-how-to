@@ -20,8 +20,9 @@ verifying registered addresses.
 
 2.  In the upper-right corner of the window, click **Admin User** to
     access the Admin User dashboard.
-    **Note**: There are three dashboards for top-level
-    administrators:  **Search, Admin,** and **Admin User**.
+
+    **Note:** There are three dashboards for top-level
+    administrators:  **Search**, **Admin**, and **Admin User**.
 
 3.  Select the tab, **End User Access Rules.**
 
@@ -40,18 +41,14 @@ verifying registered addresses.
         continue to follow this process until you have added all the
         appropriate domains to the allow list.
 
-        **Note**:  If you are updating only the allow list, skip to step
-        4.  Otherwise, proceed to the following **Deny List** option to
+        **Note:**  If you are updating only the allow list, skip to the 4th step. Otherwise, proceed to the following **Deny List** option to
         deny specific email domains.
 
     -   **Deny List**&mdash;You might prefer that your users not register into
         their login with certain domain names. For example, consumer
         domains such as **@hotmail.com** and **@yahoo.com** tend to be
         unpopular with IT administrators. To create a deny list for
-        these domains, for example, type **\*@hotmail.com**, and **add
-        \*@yahoo.com** to the next row.
+        these domains, for example, type **\*@hotmail.com**, and add
+        **\*@yahoo.com** to the next row.
 
-
-5.  Click **Update**.
-
-
+5\.  Click **Update**.

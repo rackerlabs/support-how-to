@@ -4,8 +4,8 @@ title: Email Archiving FAQ
 type: article
 created_date: '2015-12-14'
 created_by: Benjamin Jeffery
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
@@ -19,13 +19,13 @@ avoid reaching either limit, you can narrow the search parameters to
 split up the items being exported into smaller chunks. You can also
 request an archive export from the Cloud Office team through the
 ticketing process at a cost of \$6 per GB for EML format and \$9 per GB
-for PST format./p&gt;
+for PST format.
 
 #### What filetypes can I export as an output?
 
-PST/NSF, File(EML), Text, PDF, or HTML.
+PST/NSF, File (EML), Text, PDF, or HTML.
 
-#### Are existing messages in my users\` mailboxes added to the archive automatically?
+#### Are existing messages in my users' mailboxes added to the archive automatically?
 
 No. The fee for archiving imports is \$6 per GB, regardless of the
 method used:
@@ -64,4 +64,3 @@ Yes. However, Outlook integration with Email Archiving is not enabled by
 default. To enable integration, follow the directions in [Integrate
 Rackspace Email Archiving with
 Outlook](/how-to/integrate-rackspace-email-archiving-with-outlook).
-

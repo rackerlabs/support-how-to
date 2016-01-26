@@ -4,8 +4,8 @@ title: Export archive search results in Cloud Office
 type: article
 created_date: '2015-05-18'
 created_by: Beau Bailey
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
@@ -13,7 +13,7 @@ product_url: rackspace-email-archiving
 Archive search results can be exported to share with outside parties.
 This can be helpful for auditing or legal requests, as well as historic
 activity review by a team. For additional information on available data
-import and export serviecs, see our Rackspace Archiving service page
+import and export services, see our Rackspace Archiving service page
 [Data Imports and
 Exports](http://www.rackspace.com/apps/support/portal/6204).
 
@@ -27,8 +27,8 @@ the Archive Manager.
 
 2.  In the upper-right corner of the window, click **Search** to access
     the Search dashboard.
-    **Note**: There are three dashboards for top level administrators:
-    **Search,** **Admin,** and **Admin User**.
+
+    **Note:** There are three dashboards for top level administrators: **Search**,  **Admin**, and **Admin User**.
 
 3.  Click the **Search** tab.
 
@@ -50,8 +50,7 @@ the Archive Manager.
 
 10. Locate the search that you exported, and click the number in the
     **Exp** column.
+
     All export files for this search are displayed.
 
 11. Click the file name to save the file.
-
-
