@@ -1,6 +1,6 @@
 ---
 node_id: 3421
-title: A quick start guide to launching the Brocade Vyatta vRouter
+title: Quick start guide to launching the Brocade Vyatta vRouter
 type: article
 created_date: '2013-04-18'
 created_by: Sameer Satyam
@@ -19,35 +19,32 @@ running is "vyatta" and NOT "root." The minimum server size that you
 will be able to choose is one with a 1GB RAM.
 
 The configuration basics for this appliance can be found in Chapter 4 of
-the quick start guide at
-
-[http://3e851594df14a9eacdef-5cc7866f7aae0a382278b5bce7412a4a.r58.cf1.rackcdn.com/Vyatta-QuickStart\_6.5R1\_v01.pdf](http://bit.ly/ZrdYHq)
+the [quick start guide](http://bit.ly/ZrdYHq).
 
 ### Launching the appliance
 
-<span>1. Click on the **Create Server** button. The Vyatta image should be
+1. Click on the **Create Server** button. The Vyatta image should be
 listed in the list of images. Look for an image called "Vyatta Network
-OS 6.5R2" and select it.</span>
+OS 6.5R2" and select it.
 
-<span>2. Choose the server size (The minimum size for the server is
-1GB).</span>
+2. Choose the server size (The minimum size for the server is
+1GB).
 
-<span>3. If you have cloud networks enabled, you can create a new
+3. If you have cloud networks enabled, you can create a new
 network or choose from an existing network to attach to a server (This
 is in addition to PublicNet and ServiceNet).  Do not disable PublicNet
-or ServiceNet.</span>
+or ServiceNet.
 
-<span>4. Click on **Create Server.** At this point you should see the
+4. Click on **Create Server.** At this point you should see the
 root-password for the appliance. Make note of this password.
-</span>
 
 **Note**: Keep in mind that you will be able to 'ssh' into the appliance
 using a username "vyatta" and NOT "root."
 
-<span>5. Configure the appliance. The appliance can only be configured
+5. Configure the appliance. The appliance can only be configured
 via the command-line-interface. You must 'ssh' into the device on the
 Public interface with username "vyatta" and the password from the
-previous step (or anything you changed it to).</span>
+previous step (or anything you changed it to).
 
     $ ssh vyatta@X.X.X.X
     Welcome to Vyatta
@@ -119,10 +116,7 @@ You can go into configuration mode by typing the command 'configure'
     [edit]
     vyatta@vyatta-thefinal#
 
-Refer to Chapter 4 of the quick start configuration guide for more
-details at
-
-<http://3e851594df14a9eacdef-5cc7866f7aae0a382278b5bce7412a4a.r58.cf1.rackcdn.com/Vyatta-QuickStart_6.5R1_v01.pdf>
+Refer to Chapter 4 of the [quick start configuration guide](http://bit.ly/ZrdYHq) for more details.
 
 ### References
 

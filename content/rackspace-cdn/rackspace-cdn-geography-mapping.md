@@ -14,8 +14,6 @@ Rackspace CDN allows users to restrict content based on geographical
 regions. This article lists the Rackspace CDN geographical regions and
 the countries and territories within them.
 
-###
-
 ### North America delivery geography
 
 -   Antigua and Barbuda
@@ -74,8 +72,6 @@ the countries and territories within them.
 -   Suriname
 -   Uruguay
 -   Venezuela
-
-###
 
 ### Europe, Middle East, and Africa (EMEA) delivery geography
 
@@ -279,6 +275,3 @@ the countries and territories within them.
 -   Vanuatu
 -   Vietnam
 -   Wallis and Futuna
-
-
-

@@ -78,7 +78,6 @@ template output.
 Here `SwiftSignal` resource would wait for `600` seconds to receive 1
 signal on the `handle`.
 
-####
 
 #### Add a server resource
 
@@ -193,5 +192,3 @@ Add Swift signal URL to the `outputs` section.
       server_public_ip:
         value: { get_attr: [ linux_server, accessIPv4 ] }
         description: Linux server public IP
-
-

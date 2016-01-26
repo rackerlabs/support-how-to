@@ -14,31 +14,17 @@ A configuration group is a collection of settings that you can save and apply to
 
 For example, you can set the <code>max\_connections</code> parameter in a configuration group to 80, which means that the instance to which the configuration group is applied can have a maximum of 80 clients connected simultaneously. You can also set the default time zone for an instance by defining the <code>default\_time_zone</code> parameter in a configuration group.
 
-This article describes how to manage configurations using the Cloud Control Panel. Below are some of the commonly used workflows.
+This article describes how to manage configurations using the Cloud Control Panel.
 
 For details about configuration parameters, see the MySQL documentation [5.1.4 Server System Variables](http://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html).
 
-- [Create a new configuration group and apply it to an instance](#createapply)
-- [Modify the configuration parameters in a configuration group](#modify)
-- [Remove configuration parameters from the configuration group](#remove)
-- [Delete a configuration group](#deletegroup)
-- [Special cases](#specialcases)
-
-<p>&nbsp;</p>
-
-<a name="createapply"> </a>
-## Create a new configuration group and apply it to an instance
+### Create a new configuration group and apply it to an instance
 
 Use the following steps to create a configuration group and apply it to a database instance.
 
 **Note:** You can only apply a configuration group to instances in the same region as the configuration group. This means you cannot apply a configuration group created for LON region and apply it to instance in DFW.
 
-- [Create a new configuration group](#createnew)
-- [Apply a configuration to an existing instance/multiple instances](#creategroup)
-- [Create a new instance with a configuration group](#deletegroup)
-
-<a name="createnew"> </a>
-### Create a new configuration group
+#### Create a new configuration group
 
 1.	Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 
@@ -67,8 +53,7 @@ Use the following steps to create a configuration group and apply it to a databa
 
     **Note:** The most frequently used parameters are displayed at the top of the list and the remaining parameters will be listed underneath.
 
-<a name="#applying"> </a>
-### Apply a configuration to an existing instance or create a new instance
+#### Apply a configuration to an existing instance or create a new instance
 
 You can apply a configuration to one or more existing instances from the Configurations page, or you can apply a configuration to a single new database instance that was created with the default configuration.
 
@@ -94,8 +79,7 @@ You can apply a configuration to one or more existing instances from the Configu
 
 	   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RestartInstance_0.png" width="138" height="98" border="1" alt=""  />
 
-
-### Apply a configuration to an instance with the default configuration from the Instance Details page
+#### Apply a configuration to an instance with the default configuration from the Instance Details page
 
 1.	On the Database Instances page, click the newly created instance to which you want to apply a configuration.
 
@@ -107,10 +91,7 @@ You can apply a configuration to one or more existing instances from the Configu
 
 4.	Restart the database instance so that the changes will take effect.
 
-
-<a name="creategroup"> </a>
 ### Create a new instance with a configuration group
-</a>
 
 1.	Log in to the Cloud Control Panel and select **Databases > Configurations**.
 
@@ -124,19 +105,11 @@ You can apply a configuration to one or more existing instances from the Configu
 
 4.	Click **Create Instance**.
 
-
-<a id="modify">
-## Modify configuration parameters for a configuration group
-</a>
+### Modify configuration parameters for a configuration group
 
 You can modify configuration groups by updating the values of existing parameters, adding new parameters, and removing parameters. When you update a configuration group, you must restart all the instances that use the configuration for the changes to take effect on those instances.
 
-- [Change the values of configuration parameters in a configuration group](#update)
-- [Add new configuration parameters to a configuration group](#addnew)
-- [Remove configuration parameters from the configuration group](#remove)
-
-<a name="update"> </a>
-### Change the values of configuration parameters in a configuration group
+#### Change the values of configuration parameters in a configuration group
 
 1.	On the Configurations page in the control panel, click the configuration group for which you want to modify the parameters.
 
@@ -154,9 +127,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 4.	Click **Apply Changes**.
 
-
-<a name="addnew"> </a>
-### Add new configuration parameters to a configuration group
+#### Add new configuration parameters to a configuration group
 
 1.	On the Configurations page in the control panel, click the configuration group for which you want to add parameters.
 
@@ -168,9 +139,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 4.	Click **Add Parameters**.
 
-
-<a name="remove"> </a>
-### Remove configuration parameters from a configuration group
+#### Remove configuration parameters from a configuration group
 
 1.	On the Configurations page in the control panel, click the configuration group for which you want to modify parameters.
 
@@ -182,9 +151,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 4.	Click **Apply Changes**.
 
-
-<a name="removeconfig"> </a>
-## Remove a configuration from an instance
+### Remove a configuration from an instance
 
 1.	In the control panel, select **Databases > Database Instances**.
 
@@ -194,10 +161,9 @@ You can modify configuration groups by updating the values of existing parameter
 
 	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/REVISED-SCREENSHOT2.png" width="561" height="158" border="1" alt=""  />
 
-<a name="deletegroup"> </a>
-## Delete a configuration group
+### Delete a configuration group
 
-### Delete a configuration group using the Configurations page.
+#### Delete a configuration group using the Configurations page.
 
 1.	In the control panel, select **Databases > Configurations**.
 
@@ -207,7 +173,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1426-CreateInstance1.png" width="155" height="190" border="1" alt=""  />
 
-### Delete a configuration group using the Instance Details page
+#### Delete a configuration group using the Instance Details page
 
 1. In the control panel, select **Databases > Database Instances**.
 
@@ -221,8 +187,7 @@ You can modify configuration groups by updating the values of existing parameter
 
      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4427-deleteconfig-2a.png" width="132" height="193" border="1" alt=""  />
 
-<a name="specialcases"> </a>
-## Special cases - Rebuilding FULLTEXT indexes
+### Special cases - Rebuilding FULLTEXT indexes
 
 If you modify the value of any of the configuration parameters listed below, you would be required to rebuild indexes on all tables with FULLTEXT indexes. After you have rebuild the index, only then will the modified value be reflected in your database. Use <code>REPAIR TABLE tbl_name QUICK;</code>:
 
@@ -263,5 +228,3 @@ If you modify the value of any of the configuration parameters listed below, you
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>

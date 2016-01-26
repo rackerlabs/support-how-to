@@ -14,7 +14,7 @@ When you create a new cloud server, you can attach an isolated network
 to it. You can also attach an isolated network to an existing server by
 using one of the following methods:
 
--   By using the [Cloud Networks API](http://docs.rackspace.com/networks/api/v2/cn-devguide/content/ch_preface.html)
+-   By using the [Cloud Networks API](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
 -   By creating an image of the server and building a new server based
     on that image in the Cloud Control Panel
 
@@ -32,9 +32,7 @@ in the Cloud Control Panel, perform the following steps:
 3.  On the **Server Details** page, scroll to the **Images** section.
 4.  If you already have an image for this server, skip to **step 5**.
 
-  To create an image for the server, in the details page
-    of the server in the Images section, click **Create Image**, enter a
-    name for the image, and then click **Create Image**.
+    To create an image for the server, in the details page of the server in the Images section, click **Create Image**, enter a name for the image, and then click **Create Image**.
 
     ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2197-1.png)
 
@@ -44,7 +42,7 @@ in the Cloud Control Panel, perform the following steps:
 6.  Next to the image you want to use, click the gear icon and then
     select **Create Server with Image**.
 
-    ![](/knowledge_center/sites/default/files/field/image/Create%20Server%20from%20Image%20for%20Cloud%20Networks_1.png)
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Create%20Server%20from%20Image%20for%20Cloud%20Networks_1.png)
 
 7.  On the **Create Server** page, enter a name for the new server. The
     image is preselected for you.
@@ -54,13 +52,7 @@ in the Cloud Control Panel, perform the following steps:
     click **Create Network** to create a new one. If you are creating a
     network, enter a network name, and then click **Create Network**.
 
-    **Note**: All new servers are automatically attached to the
-    PublicNet (the Internet) and ServiceNet (the Rackspace data
-    center network) networks. If you are considering removing these
-    networks from the server, we strongly recommend that you read
-    [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
-    to fully understand the limitations that will be placed on this
-    server if you remove these networks.
+    **Note**: All new servers are automatically attached to the PublicNet (the Internet) and ServiceNet (the Rackspace data center network) networks. If you are considering removing these networks from the server, we strongly recommend that you read [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server) to fully understand the limitations that will be placed on this server if you remove these networks.
 
 11. Click **Create Server**.
 

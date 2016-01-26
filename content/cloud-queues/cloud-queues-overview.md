@@ -10,7 +10,7 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-### Product Overview
+### Product overview
 
 Cloud Queues is an open-source messaging system, designed to help
 customers build and scale distributed applications in the cloud.  The
@@ -33,12 +33,14 @@ product page](http://www.rackspace.com/cloud/queues/) on our website.
 
 
 
-### Example Use Cases
+### Example use cases
 
 Most distributed applications will have the need for a queuing system,
 but here are some specific examples for some common messaging patterns:
 
-***Producer-Consumer***-  A producer-consumer model is the most popular
+#### Producer-Consumer
+
+A producer-consumer model is the most popular
 way to use a queuing system.  A good example of this is a website that
 allows users to signup for the company's newsletter.  As customers fill
 out the online form, they need to be sent a confirmation email to ensure
@@ -55,7 +57,9 @@ may be triggered by this same event.
 
 
 
-***Publisher-Subscriber***-  The publisher-subscriber pattern is often
+#### Publisher-Subscriber
+
+The publisher-subscriber pattern is often
 used as the underlying component of a notifications service.  One of the
 most common examples is an RSS feed.  Customers signup online to receive
 alerts when an event happens, for example, when their company name is

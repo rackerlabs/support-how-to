@@ -4,7 +4,7 @@ title: Create and manage restrictions in Rackspace CDN
 type: article
 created_date: '2015-05-11'
 created_by: Rackspace Support
-last_modified_date: '2016-01-08'
+last_modified_date: '2016-01-25'
 last_modified_by: Catherine Richardson
 product: Rackspace CDN
 product_url: rackspace-cdn
@@ -51,7 +51,7 @@ restriction:
     node content. You can enter a URL with or without **http://**.
 -   **Path**: Path for the rule. Path defines which content enforces
     your restriction. To apply the restriction to your entire site, use
-    the path "/\*"
+    the path "/\*".
 
 **Note**: You can add multiple **Referrer** domains that use the same
 **Path** by separating the list of domains with a space, as shown in the
@@ -103,10 +103,3 @@ After the restriction is deleted, it is removed from the
 
 
 #### [&lt; Create and manage caching rules in Rackspace CDN](/how-to/create-and-manage-caching-rules-in-rackspace-cdn)    -     [Enable or disable logging in Rackspace CDN &gt;](/how-to/enable-or-disable-logging-in-rackspace-cdn)
-
-
-
-
-
-
-

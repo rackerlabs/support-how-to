@@ -6,17 +6,11 @@ created_date: '2013-04-10'
 created_by: Renee Rendon
 last_modified_date: '2016-01-18'
 last_modified_by: Rose Contreras
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 The following permissions matrix displays specific permissions for the roles in Cloud DNS. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
-
-[API Documentation](http://docs.rackspace.com/)
-
-[Related Knowledge Center Articles](/how-to/)
-
-[Cloud DNS Terminology](/how-to/detailed-permissions-matrix-for-dns)
 
 ## As of July 16, 2014
 
@@ -60,26 +54,29 @@ Add PTR Records | ```POST /rdns``` | **Creator & Admin** | Adds new PTR record(s
 Modify PTR Records | ```PUT /rdns``` | **Creator & Admin** | Modifies one or more PTR records associated with a Rackspace Cloud device.
 Remove PTR Records | ```DELETE /rdns/service-name?href=device-resource-uri&ip=optional-ip-address``` | **Admin only** | Removes one or all PTR records associated with a Rackspace Cloud device.
 **JOB STATUS** | | |
-View Jobs Status | ```GET /status/jobId?showDetails=[true|false]``` <br /> ```GET /status?/``` <br />```showDetails=true|false&showErrors=true|false&showRunning= true|false&showCompleted=true|false&limit=int1&offset=int2``` | **Observer & Creator & Admin** | Lists status of all asynchronous job requests for an account and filters the information requested by using the optional boolean request parameters.
+View Jobs Status | <code>GET /status/jobId?showDetails=[true&#124;false]<br />GET /status?/<br />showDetails=true&#124;false&showErrors=true&#124;false&showRunning= true&#124;false&showCompleted=true&#124;false&limit=int1&offset=int2</code> | **Observer & Creator & Admin** | Lists status of all asynchronous job requests for an account and filters the information requested by using the optional boolean request parameters.
 
-## Cloud DNS Terminology
+### Cloud DNS Terminology
 
-### DNS
+#### DNS
 
 The Domain Name System (DNS) is a system by which internet domain name-to-address and address-to-name resolutions are determined. All domains and their components, such as mail servers, utilize DNS to resolve to the appropriate locations. DNS servers are usually set up in a master-slave relationship such that failure of the master invokes the slave. DNS servers may also be clustered or replicated such that changes made to one DNS server are automatically propagated to other active servers.
 
-### Domain
+#### Domain
 
 A domain is an entity/container of all DNS-related information containing one or more records.
 
-### Record
+#### Record
 
 A DNS record belongs to a particular domain and is used to specify information about the domain. There are several types of DNS records. Each record type contains particular information used to describe that record's purpose. Examples include mail exchange (MX) records, which specify the mail server for a particular domain, and name server (NS) records, which specify the authoritative name servers for a domain.
 
-### Subdomain
+#### Subdomain
 
 Subdomains are domains within a parent domain, and subdomains cannot be registered. Subdomains allow you to delegate domains. Subdomains can themselves have subdomains, so third-level, fourth-level, fifth-level, and deeper levels of nesting are possible.
 
+### Related articles
 
-
-[**&lt; Permission Matrices for RBAC**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+-  [API Documentation](http://docs.rackspace.com/)
+-  [Related Knowledge Center Articles](/how-to/)
+-  [Cloud DNS Terminology](/how-to/detailed-permissions-matrix-for-dns)
+-  [Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)

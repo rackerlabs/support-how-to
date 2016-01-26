@@ -10,16 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-<div class="content">
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
-
-**Note**: This article is written for our [Cloud Sites Control
+**Note:** This article is written for our [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can get to it from the
 Cloud Control Panel by clicking the Rackspace Cloud menu at the top of
 the screen and selecting **Cloud Sites**.
@@ -28,8 +19,6 @@ the screen and selecting **Cloud Sites**.
 
 [Getting Started with Cloud
 Sites](/how-to/cloud-sites)
-
-
 
 Secure Sockets Layer (SSL) is an encryption technology that protects
 your visitors' private information while it's in transit via the

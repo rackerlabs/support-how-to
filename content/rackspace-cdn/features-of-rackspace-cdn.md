@@ -77,7 +77,7 @@ origins not hosted at Rackspace.
 Rackspace CDN delivers both static and dynamic content. Dynamic content
 that changes for every user or a set of users requires additional
 handling at the edge nodes. Rackspace CDN enables you to set a TTL of
-zero for noncacheable content, and supports dynamic content handling
+zero for non-cacheable content, and supports dynamic content handling
 features like cookies, header forwarding, and cross-origin resource
 sharing (CORS).
 
@@ -96,10 +96,3 @@ granularity, from the entire site to a specific file.
 
 
 #### [&lt; Rackspace CDN overview](/how-to/rackspace-cdn-overview)    -    [Uses of Rackspace CDN &gt;](/how-to/uses-of-rackspace-cdn)
-
-
-
-
-
-
-

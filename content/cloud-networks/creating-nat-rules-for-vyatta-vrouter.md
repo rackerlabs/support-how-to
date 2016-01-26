@@ -6,31 +6,13 @@ created_date: '2015-01-26'
 created_by: Rose Contreras
 last_modified_date: '2015-02-18'
 last_modified_by: Rose Contreras
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 This article provides information about Rackspace specific operations, standards, and configuration examples for the network address translation (NAT) features of the Brocade Vyatta vRouter.
 
-<table border="1">
-	<tr>
-		<td><strong>Contents</strong>
-		<ol>
-			<li><a href="#terminology">Terminology</a></li>
-			<li><a href="#OOO">Order of operations</a></li>
-			<li><a href="#impnat">Important NAT notes</a></li>
-			<li><a href="#rnc">Rule numbering convention</a></li>
-			<li><a href="#configsam">Configuration examples</a></li>
-			<li><a href="#trouble">Troubleshooting</a></li>
-		</ol>
-		</td>
-	</tr>
-</table>
-
-<p><br></p>
-
-<a id="terminology"></a>
-## Terminology
+### Terminology
 
 The following terms are used in this article:
 
@@ -48,25 +30,19 @@ The following terms are used in this article:
 
 **NAT exclusion:** The equivalent to a NAT exemption or no NAT.
 
-<p>&nbsp;</p>
-
-<a id="OOO"></a>
-## Order of operations
+### Order of operations
 
 The following diagram illustrates how DNAT and SNAT are processed at different stages of packet processing. It is important to know this because firewall rules must be created using the correct, either pre-NAT or post-NAT, addresses and ports. Because DNAT is processed first and SNAT is processed last, traffic that is subject to NAT most likely needs to be identified by using the real IP address of the host.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/883-1_0.png" width="780" height="368" border="1" alt=""  />
 
-<p>&nbsp;</p>
-
-<a id="impnat"></a>
-## Important NAT notes
+### Important NAT notes
 
 - The vRouter does not prefer one NAT function over another. It processes the first match and then stops.
 
 - Rule number indicates the location of a NAT configuration in the list, starting with the lowest rule number being processed first.
 
-- "Static&rdquo; or &ldquo;bidirectional" configurations don't specifically exist. For bidirectional traffic, you need a SNAT rule and a DNAT rule that mirror each other.
+- "Static" or "bidirectional" configurations don't specifically exist. For bidirectional traffic, you need a SNAT rule and a DNAT rule that mirror each other.
 
 - SNAT and DNAT rule lists are not tied to each other.
 
@@ -74,41 +50,35 @@ The following diagram illustrates how DNAT and SNAT are processed at different s
 
 - Avoid using the masquerade source NAT feature.
 
-<p>&nbsp;</p>
-
-<a id="rnc"></a>
-## Rule numbering convention
+### Rule numbering convention
 
 The rule number increments in sets of 10 to allow for additions without having to renumber rules. The specific NAT types are organized in number ranges that you can use as a guideline and for best practices. However, these number ranges can be changed.
 
-- **10&ndash;190** policy NAT/PAT
+- **10-190** policy NAT/PAT
 
-- **200&ndash;290** NAT exclusion
+- **200-290** NAT exclusion
 
-- **300&ndash;390** bidirectional/unidirectional PAT
+- **300-390** bidirectional/unidirectional PAT
 
-- **400&ndash;490** bidirectional NAT
+- **400-490** bidirectional NAT
 
 - **500** default PAT to Internet
 
-<p>&nbsp;</p>
-
-<a id="configsam"></a>
-## Configuration examples
+### Configuration examples
 
 **Policy NAT**
 
-     set nat destination rule 100 description "Policy NAT for VPN"
-     set nat destination rule 100 destination address '192.168.144.0/24'
-     set nat destination rule 100 inbound-interface 'eth0'
-	 set nat destination rule 100 source address '192.168.10.0/24'
-	 set nat destination rule 100 translation address '192.168.244.0/24'
+    set nat destination rule 100 description "Policy NAT for VPN"
+    set nat destination rule 100 destination address '192.168.144.0/24'
+    set nat destination rule 100 inbound-interface 'eth0'
+    set nat destination rule 100 source address '192.168.10.0/24'
+    set nat destination rule 100 translation address '192.168.244.0/24'
 
-	 set nat source rule 100 description "Policy NAT for VPN"
-	 set nat source rule 100 destination address '192.168.10.0/24'
-	 set nat source rule 100 outbound-interface 'eth0'
-	 set nat source rule 100 source address '192.168.244.0/24'
-	 set nat source rule 100 translation address '192.168.144.0/24'
+    set nat source rule 100 description "Policy NAT for VPN"
+    set nat source rule 100 destination address '192.168.10.0/24'
+    set nat source rule 100 outbound-interface 'eth0'
+    set nat source rule 100 source address '192.168.244.0/24'
+    set nat source rule 100 translation address '192.168.144.0/24'
 
 
 **Policy PAT**
@@ -129,7 +99,7 @@ The rule number increments in sets of 10 to allow for additions without having t
 	set nat destination rule 200 description "NAT Exclude for VPN PEER 1.1.1.1"
 	set nat destination rule 200 destination address '10.10.10.0/24'
 	set nat destination rule 200 exclude
-	set nat destinatino rule 200 outbound-interface 'eth0'
+	set nat destination rule 200 outbound-interface 'eth0'
 
 
 **Destination PAT**
@@ -176,10 +146,7 @@ The rule number increments in sets of 10 to allow for additions without having t
 	set nat source rule 500 source address '0.0.0.0/0'
 	set nat source rule 500 translation address '<IP_address_of_interface>'
 
-<p>&nbsp;</p>
-
-<a id="trouble"></a>
-## Troubleshooting
+### Troubleshooting
 
 Following are some NAT troubleshooting commands with ASA equivalent (when available).
 
@@ -213,5 +180,3 @@ Following are some NAT troubleshooting commands with ASA equivalent (when availa
 		<td><code>clear connection address</code></td>
 	</tr>
 </table>
-
-<p>&nbsp;</p>

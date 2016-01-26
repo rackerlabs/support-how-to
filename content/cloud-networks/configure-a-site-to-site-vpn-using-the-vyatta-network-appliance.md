@@ -18,7 +18,7 @@ This site-to-site VPN connection enables you to extend your IT infrastructure to
 
 Vyatta supports both policy-based and route-based VPNs. In this article we show you how to configure a policy-based VPN on the Vyatta.
 
-For a comprehensive guide to VPN configuration on the Vyatta, click <a href="https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-VPN_6.5R1_v01.pdf">here</a>
+Click the link for a [comprehensive guide to VPN configuration on the Vyatta](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-VPN_6.5R1_v01.pdf).
 
 For guidance on configuring the relevant firewall rules to allow VPN traffic on the Vyatta please refer to the following article:
 
@@ -71,7 +71,6 @@ To complete this configuration, you'll perform the following steps:
 #### Step 1. Enable the VPN on the Vyatta-DFW
 
 **Note:** <code>eth0</code> is the public interface enabled for IPsec
-
 
 1. Log onto the Vyatta Appliance using ssh:
 

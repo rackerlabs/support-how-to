@@ -1,6 +1,6 @@
 ---
 node_id: 1892
-title: Connect to a cloud database with a FQDN Address via MySQL Workbench
+title: Connect to a Cloud Database with a FQDN Address via MySQL Workbench
 type: article
 created_date: '2012-08-02'
 created_by: Rae D. Cabello
@@ -10,8 +10,8 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-*Note: To complete this process, you will need both a cloud server and a
-cloud database.*
+**Note:** To complete this process, you will need both a cloud server and a
+cloud database.
 
 Use the following steps to connect to Cloud Databases by using MySQL
 Workbench.
@@ -34,15 +34,19 @@ Workbench.
 
 4.  On the next screen, from the **Connection Method** menu, select
     **Standard TCP/IP over SSH**.
+
 5.  Change the value for **SSH HostName** to the name or ip address of a
     Cloud Server that you have created and that is in the same data
     center as the database instance. For example, if the database
     instance that you created is in the DFW data center, select a cloud
     server in the DFW data center.
+
 6.  For S**SH Username**, enter the user name that you use to log in to
     the cloud server that you just specified.
+
 7.  For **MySQL Hostname**, enter the host name that was returned when
     you created the database instance via the API.
+
 8.  For **Username**, enter the username that was created when you
     created  the database instance.
 
@@ -61,7 +65,6 @@ displayed. You can now work with your database instance.
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.png" width="586" height="446" />
 
 
-*Note: If you did not save your password, when you perform any actions,
+**Note:** If you did not save your password, when you perform any actions,
 you will be prompted for the password to either the instance or the
-server.*
-
+server.

@@ -27,8 +27,7 @@ is completed within a short downtime (approximately 10-30 seconds).
 
 Currently, HA is supported for MySQL 5.6, Percona 5.6, and MariaDB 10.
 
-Use cases
----------
+### Use cases
 
 -   For critical application workloads, a couple of minutes of
     application downtime can result in huge revenue losses. Users can
@@ -43,8 +42,7 @@ Use cases
 **Note:** The user&rsquo;s application must be able to direct the reads and
 writes to a specific endpoint.
 
-Technical/architecture details
-------------------------------
+### Technical/architecture details
 
 HA for Cloud Databases relies on the [MHA for
 MySQL](https://code.google.com/p/mysql-master-ha/) functionality for
@@ -78,16 +76,14 @@ and updates the write pool. Total downtime is around 10-30 seconds.
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/HighAvailabilityforCloudDatabases1b.png" width="818" height="605" />
 
 
-
-Getting started with HA for Cloud Databases
--------------------------------------------
+### Getting started with HA for Cloud Databases
 
 Creation of new HA instance groups is currently available in the Cloud
 Control Panel and API, but conversion of running instances to HA is
 still API only. The ability to convert instances to HA will be added to
 the Cloud Control Panel in an upcoming release. For more details about
-the HA-related API calls, see the API documentation at
-<http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/ha.html>.
+the HA-related API calls, see the [Cloud Databases developer
+guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#high-availability-instance-group).
 
 **Notes:**
 
@@ -114,7 +110,7 @@ the HA-related API calls, see the API documentation at
     and would switch to `ACTIVE` once the node has been
     successfully added.
 
-           **Warning!** Automatically adding a new replica node would
+**Warning!** Automatically adding a new replica node would
 restart the MHA manager service (which monitors the source/replica
 instances to trigger failover) and the haproxy service on the load
 balancer nodes.
@@ -126,10 +122,9 @@ balancer nodes.
 -   Monitor and set up alarms for the replicas to ensure that they are
     in a healthy state. For more information about monitoring replicas,
     see the [API
-    documentation](http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/Monitoring_Read_Replication-d1e3694.html).
+    developer guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-developer-guide).
 
-Limitations
------------
+### Limitations
 
 -   Currently, the maximum number of replicas allowed per source
     database instance is two.
@@ -147,5 +142,3 @@ Limitations
     the number of replicas. Because it requires creation of multiple
     nodes, allow some time for the HA instance&rsquo;s `status` property to
     display as ACTIVE when performing a GET in the API.
-
-

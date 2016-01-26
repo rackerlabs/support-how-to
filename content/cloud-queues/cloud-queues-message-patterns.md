@@ -114,7 +114,7 @@ message.
   from its request.
 
 
-- **Step 4 - variation 2** If no result is expected, this step and the next step are skipped.
+- **Step 4 - variation 2:** If no result is expected, this step and the next step are skipped.
 
 ### Auditing
 

@@ -15,4 +15,4 @@ The Managed Operations Service Level includes access to a dedicated, 24x7x365 su
 
 We will provide free licensing for the Rackspace Cloud Backup file-based backup option [standard Cloud Files storage fees apply](http://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/). Your servers will also be configured to use our Mailgun SMTP relay service to ensure smooth email delivery, with the first 50,000 emails sent for free every month. For details and options, see the [Mailgun Rackspace pricing page](http://www.mailgun.com/rackspace).
 
-For more information, see the [Managed Operations Frequently Asked Questions](http://support-dev.ipa.rackspace.com/how-to/managed-operations-faq/)
+For more information, see the [Managed Operations Frequently Asked Questions](/how-to/managed-operations-faq/)

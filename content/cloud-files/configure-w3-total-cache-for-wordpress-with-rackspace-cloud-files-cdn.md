@@ -27,37 +27,37 @@ closest edge server to the end-user.
 
 First you must login as admin on your Wordpress blog and add new
 plugin:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/01.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/01.png" class="image-full_width" width="700" height="368" />
 
 
 
 Search for "w3 total cache":
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/02.png" class="image-full_width" width="700" height="366" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/02.png" class="image-full_width" width="700" height="366" />
 
 
 
 It should be the 1st to show, so click install now:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/03.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/03.png" class="image-full_width" width="700" height="368" />
 
 
 
 Now we must activate:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/04.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/04.png" class="image-full_width" width="700" height="368" />
 
 
 
 Next step we will enable the CDN function and pick Rackspace Cloud
 Files, to do so go to General Setting as you see on the image:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/05.png" class="image-full_width" width="700" height="366" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/05.png" class="image-full_width" width="700" height="366" />
 
 Scroll down until you find CDN and mark enable. Also select Rackspace
 Cloud Files:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/06.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/06.png" class="image-full_width" width="700" height="368" />
 
 
 
 An error message will appear, as we have not set up the plugin yet:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/07.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/07.png" class="image-full_width" width="700" height="368" />
 
 
 
@@ -67,12 +67,12 @@ Account Settings. Now you will find the API as demonstrated below. (For
 more information about viewing your API key, see [View and reset your
 API
 key](/how-to/view-and-reset-your-api-key).)
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/08.5.png" class="image-full_width" width="700" height="366" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/08.5.png" class="image-full_width" width="700" height="366" />
 
 
 
 Now back to the admin page on your Wordpress blog, click on CDN:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/08.png" class="image-full_width" width="700" height="568" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/08.png" class="image-full_width" width="700" height="568" />
 
 
 
@@ -103,38 +103,38 @@ on Linux and Mac
 OS: </how-to/installing-python-novaclient-on-linux-and-mac-os>
 
 After all this was said, here is how it will look like:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/09.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/09.png" class="image-full_width" width="700" height="368" />
 
 
 
 Here is a basic configuration, just click on Upload Included Files (or
 other) to upload all the files:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/10_3.png" class="image-full_width" width="700" height="368" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/10_3.png" class="image-full_width" width="700" height="368" />
 
 
 
 This page will pop up, just click Start:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/11_0.png" class="image-full_width" width="700" height="567" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/11_0.png" class="image-full_width" width="700" height="567" />
 
 
 
 The plugin will start loading all images to the Cloud Files, it will
 take some time, but you can see the progress:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/12_0.png" class="image-full_width" width="700" height="566" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/12_0.png" class="image-full_width" width="700" height="566" />
 
 
 
 To make all links look nice, let's use a CNAME so all the links will not
 look huge (this is optional). Go to the Cloud Panel and open your domain
 on the DNS, create a CNAME record:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/13_1.png" class="image-full_width" width="700" height="329" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/13_1.png" class="image-full_width" width="700" height="329" />
 
 
 
 Now when you create a new post and upload some image, it will be sent to
 the Cloud Files automatically and you can confirm checking the page
 source of your page, here is an example:
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/14%20-%20Copy.png" class="image-full_width" width="700" height="394" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/14%20-%20Copy.png" class="image-full_width" width="700" height="394" />
 
 Also if you have re-sized any images using wordpress's built in image
 editor, the w3 total cache plugin may fail to upload any image that was

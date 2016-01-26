@@ -39,13 +39,13 @@ major bindings listed below:
 Popular How To Articles from Rackspace
 -----------------------------------------------------------
 
-The Rackspace [How-TO articles](http://support-dev.ipa.rackspace.com/how-to/#cloud-hosting) houses "how-to"
+The Rackspace [How-TO articles](/how-to/#cloud-hosting) houses "how-to"
 articles, getting started guides, code samples, security best practices
 and hundreds of tips for getting the most out of your Cloud Files.
 Check out these popular articles:
 
 -   [Rackspace Cloud Files
-    FAQ](http://support-dev.ipa.rackspace.com/how-to/cloud-files-faq/)
+    FAQ](/how-to/cloud-files-faq/)
 -   [Best Practices Using Cloud
     Files](/how-to/best-practices-for-using-cloud-files)
 -   [Mounting Rackspace Cloud Files to Linux Using
