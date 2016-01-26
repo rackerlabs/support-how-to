@@ -4,7 +4,7 @@ title: Log in to Rackspace Intelligence for dedicated accounts
 type: article
 created_date: '2015-10-07'
 created_by: Constanze Kratel
-last_modified_date: '2015-01-26'
+last_modified_date: '2016-01-26'
 last_modified_by: Rose Coste
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
