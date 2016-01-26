@@ -12,16 +12,12 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/cloud-servers)
+[Cloud Servers](/how-to/cloud-servers)
 
 This article addresses how to connect and log in to your Windows Server
 using Microsoft Remote Desktop Protocol.
 
-
-
-<span class="mw-headline">Windows and Mac Versions </span>
-----------------------------------------------------------
+### Windows and Mac Versions
 
 The screenshots below show how to use RDP via Windows XP. Different
 versions of Windows such Windows 7 and Windows 8 will vary slightly,
@@ -31,61 +27,43 @@ versions of Windows.
 On a Mac, download and install the Remote Desktop Connection Client for
 Mac. The steps to connect to your server are very similar. You can
 download the software
-[here](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12 "http://www.microsoft.com/mac/downloads.mspx?pid=Mactopia_RDC&fid=CD9EC77E-5B07-4332-849F-046611458871#viewer")
+[here](https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12).
 
 For more information on configuring and running Remote Desktop
 Connection for Mac please see this
-[link](https://technet.microsoft.com/en-us/library/dn473012.aspx "http://www.microsoft.com/mac/products/remote-desktop/default.mspx")
+[link](https://technet.microsoft.com/en-us/library/dn473012.aspx).
 
+Running the Remote Desktop Connection Client
 
-
-<span class="mw-headline">Running the Remote Desktop Connection Client </span>
-------------------------------------------------------------------------------
-
-To find Remote Desktop, click Start - **All Programs** - **Accessories**
-- Communications - **Remote Desktop Connection**.
-
+To find Remote Desktop, click **Start > All Programs > Accessories > Communications > Remote Desktop Connection**.
 
 ![rdp01.PNG](http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp01.PNG)
 
-
 Enter the IP address of the server and click **Connect**.
-
 
 ![rdp02.PNG](http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp02.PNG)
 
-
 If you would like to set up file transfer or enable your clipboard for
-copy/paste, click **Options...**.
-
+copy/paste, click **Options**.
 
 ![rdp03.PNG](http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp03.PNG)
-
 
 Click the **Local Resources** tab, select the Clipboard option, click
 **More**, and then click **Drives**.
 
-
 ![rdp05.PNG](http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp05.PNG)
 
-
 Save your session by clicking the General tab, then clicking **Save
-As...**.
+As**.
 
-
-
-<span class="mw-headline">Log in to Your Server </span>
--------------------------------------------------------
+### Log in to Your Server
 
 Once you have connected, you will see the Windows log in screen. To log
 in for the first time, enter the Computer Name\\Administrator and the
 corresponding password (this is the password that was emailed to you
 when your server build was completed).
 
-
 ![rdp04.PNG](http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp04.PNG)
 
-
 Congratulations you have successfully connected and logged in to your
-new server!.
-
+new server!
