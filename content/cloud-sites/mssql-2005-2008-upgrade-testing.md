@@ -10,14 +10,13 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
+**Note:** This article refers to the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
-<span class="mw-headline">Pre-Migration Tasks:</span>
------------------------------------------------------
+### Pre-Migration Tasks:
 
 If followed correctly, site impact during the migration process should
 be minimal. With that said, it is highly suggested to perform this
@@ -54,15 +53,14 @@ tips for database migration:
 
 
 
-<span class="mw-headline">Recommended Steps:</span>
----------------------------------------------------
+### Recommended Steps:
 
-1\) Create a new MSSQL 2008 database in the Cloud Sites Control Panel
+1. Create a new MSSQL 2008 database in the Cloud Sites Control Panel
 under the "Features" tab of the domain your MSSQL2005 database is on.
 ![createdb1.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/createdb1.JPG)
 
 
-2) After the database has been created, please view its properties (as
+2. After the database has been created, please view its properties (as
 shown below) and note the change in the hostname. The information for
 you database will vary from the image depending on what data center your
 account is hosted in. Please use this new MSSQL 2008 hostname to update
@@ -70,7 +68,7 @@ your connection strings.
 ![dbinfo.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/dbinfo.JPG)
 
 
-3) Next use the web based admin tool, MyLittleAdmin, to back up your
+3. Next use the web based admin tool, MyLittleAdmin, to back up your
 MSSQL 2005 database. The link for the online tool can be found in your
 Cloud Sites Control Panel by clicking on the database under the
 **Features** tab. For this backup please add "mlb" to the end of the
@@ -82,22 +80,22 @@ between the two MyLittleAdmin versions. For example:
 ![mlb1.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb1.JPG)
 
 
-4) Login to your original MSSQL 2005 source database.
+4. Login to your original MSSQL 2005 source database.
 ![mlb2.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb2.JPG)
 
-5\) Now back up your MSSQL 2005 database use the MyLittleAdmin tool. When
+5. Now back up your MSSQL 2005 database use the MyLittleAdmin tool. When
 the backup has completed click on the file link to save the backup file
 to your local machine.
 
 
-6) Log in to the MyLittleAdmin link again using your MSSQL 2008 database
+6. Log in to the MyLittleAdmin link again using your MSSQL 2008 database
 and login. Remember the login you use to restore will become the new
 owner of the database. Choose restore and upload the backup file you
 just downloaded in Step 5. Proceed with the restore.
 
 ![mlb3.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb3.JPG)
 
-7\) The restore tool may notify you that the old users have no login
+7. The restore tool may notify you that the old users have no login
 mapping on the new SQL 2008 cluster. At this point your new database
 will be ready. The only access, at this point, is allowed to the owner
 login that you used to restore the database. If you need to change the
