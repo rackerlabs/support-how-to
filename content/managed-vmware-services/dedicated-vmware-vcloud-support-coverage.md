@@ -15,11 +15,13 @@ Support coverage for Rackspace Dedicated VMware vCloud is similar to that of our
 With Dedicated vCloud, you can designate the service level for virtual machines (VMs) as managed or unmanaged. Both service levels include Rackspace support for the host infrastructure and virtualization software. Managed VMs include additional support for the guest operating system running on the VM.
 
 <a name="managed"> </a>
+
 ### Supported operations for managed VMs
 
 For managed VMs, the following tables show which operations are supported by Rackspace and which operations the customer is responsible for.
 
 <a name="virtualization-managed"> </a>
+
 #### Virtualization support - managed
 
 Operation | Rackspace | Customer
@@ -31,6 +33,7 @@ VM troubleshooting | X | &nbsp;
 Remote administration for VMs | X | &nbsp;
 
 <a name="hardware-managed"> </a>
+
 #### Hardware support - managed
 Operation | Rackspace | Customer
 --- | --- | ---
@@ -40,6 +43,7 @@ Rackspace fully-managed dedicated NAS | X | &nbsp;
 Rackspace fully-managed dedicated SAN | X | &nbsp;
 
 <a name="os-managed"> </a>
+
 #### Operating system support - managed
 
 Operation | Rackspace | Customer
@@ -63,6 +67,7 @@ Configure and respond to vCenter Operations Manager alerts (such as ping and por
 Configure and respond to Infrastructure Navigator alerts (such as(ping and port alerts) | X | &nbsp;
 
 <a name="network-managed"> </a>
+
 #### Network support - managed
 
 Operation | Rackspace | Customer
@@ -88,11 +93,13 @@ Operation | Rackspace | Customer
 Maintain security specifications for VMs | &nbsp; | X
 
 <a name="unmanaged"> </a>
+
 ### Supported operations for unmanaged VMs
 
 For unmanaged VMs, including customer-provided images, the following tables show which operations are supported by Rackspace and which operations the customer is responsible for.
 
 <a name="virtualization support - unmanaged"> </a>
+
 #### Virtualization support - unmanaged
 
 Operation | Rackspace | Customer
@@ -104,6 +111,7 @@ VMware vCenter Operations Manager - Analytics | X | &nbsp;
 Remote administration for VMs | &nbsp; | X
 
 <a name="hardware-unmanaged"> </a>
+
 #### Hardware support - unmanaged
 
 Operation | Rackspace | Customer
