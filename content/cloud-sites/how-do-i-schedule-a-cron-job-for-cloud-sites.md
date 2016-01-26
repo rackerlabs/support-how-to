@@ -10,15 +10,14 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
+**Note:** This article refers to the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
-and selecting Cloud Sites Control Panel.*
-*
+and selecting Cloud Sites Control Panel.
 
-**Before scheduling a task, take a minute to review the five necessary
-components in creating a scheduled task on Cloud Sites:**
+Before scheduling a task, take a minute to review the five necessary
+components in creating a scheduled task on Cloud Sites:
 
 1\. Task Name &ndash; You will need to name each cron job you schedule. The
 name you choose is completely up to you and does not have any specific
@@ -105,7 +104,7 @@ to &ldquo;Day.&rdquo; In the &ldquo;Time&rdquo; field, we would enter &ldquo;7:0
 enabled.
 
 
-**NOTE**: When you add a website through the Cloud Sites Control Panel,
+**Note**: When you add a website through the Cloud Sites Control Panel,
 a log directory is also created as a part of the website directory
 structure. In order for the cron tool to run properly, this directory
 structure must be preserved.
