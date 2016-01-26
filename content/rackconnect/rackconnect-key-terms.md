@@ -10,9 +10,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-### Previous section
-
-[Features introduced in RackConnect
+**Previous section:** [Features introduced in RackConnect
 v2.0](/how-to/features-introduced-in-rackconnect-v20)
 
 **Applies to**: RackConnect v3.0 and RackConnect v2.0
@@ -21,14 +19,12 @@ This article defines many of the *key terms* that you will encounter
 with RackConnect. A label next to each term designates whether the term
 applies to RackConnect v2.0, RackConnect v3.0, or both.
 
-Access lists (v2.0 and v3.0)
-----------------------------
+#### Access lists (v2.0 and v3.0)
 
 Used on network devices to control what network traffic is allowed
 between network segments. Access lists are also called ACLs.
 
-Automation features (v2.0)
---------------------------
+#### Automation features (v2.0)
 
 Features that control which actions the RackConnect automation systems
 will and will not perform in your environment. In certain cases, the
@@ -45,8 +41,7 @@ configuration:
 are displayed for informational purposes only. If you need to modify
 these settings, contact your support team.
 
-Cloud networks (v2.0 and v3.0)
-------------------------------
+#### Cloud networks (v2.0 and v3.0)
 
 Isolated networks that you can create and attach to your cloud servers,
 as network interfaces, that allow traffic only between cloud servers
@@ -55,8 +50,7 @@ networks whose traffic is restricted to only the cloud servers that you
 allow. In the case of RackConnect v3.0, they are also used to
 communicate with your dedicated networks.
 
-Connected network device role (v2.0 and v3.0)
----------------------------------------------
+#### Connected network device role (v2.0 and v3.0)
 
 The dedicated network device that provides a physical connection and
 path to the cloud side of your RackConnect environment. This device can
@@ -64,8 +58,7 @@ be a firewall or a load balancer. RackConnect gateway IP addresses live
 on this device. Additionally, a single network device can function in
 both the edge and connected network device roles.
 
-Edge network device role (v2.0 and v3.0)
-----------------------------------------
+#### Edge network device role (v2.0 and v3.0)
 
 The outermost dedicated network device in your RackConnect
 configuration&mdash;the device that connects directly to the Internet. This
@@ -73,8 +66,7 @@ device is typically a firewall, but it can also be a load balancer in
 certain deployment scenarios. Additionally, a single network device can
 function in both the edge and connected network device roles.
 
-Network policies (v2.0)
------------------------
+#### Network policies (v2.0)
 
 Define the network access this is allowed in the following RackConnect
 traffic scenarios:
@@ -92,8 +84,7 @@ based on certain criteria&mdash;hosts, networks, and cloud server name
 matches&mdash;to limit access to only allowed protocols and ports (or port
 ranges).
 
-Network policy templates (v2.0)
--------------------------------
+#### Network policy templates (v2.0)
 
 Provide an easy way of getting started with RackConnect network
 policies. The templates enable you to select from some of the most
@@ -101,22 +92,19 @@ common RackConnect network policy options. For example, the Basic Access
 Configuration template, if applied, allows you to have unrestricted
 network access between your dedicated and cloud servers.
 
-PublicNet (v2.0 and v3.0)
--------------------------
+#### PublicNet (v2.0 and v3.0)
 
 A network that can be added to your cloud servers, as a network
 interface, to allow traffic directly with the public Internet. If
 enabled, it is very important to secure this network, as this network is
 vulnerable to attacks from the Internet.
 
-QoS (v3.0)
-----------
+#### QoS (v3.0)
 
 Quality of service. Used to limit the amount of bandwidth allowed
 between your cloud and dedicated networks via RackConnect.
 
-RackConnect configuration (v2.0 and v3.0)
------------------------------------------
+#### RackConnect configuration (v2.0 and v3.0)
 
 Represents a single deployment of a RackConnect solution. A
 configuration is composed of dedicated network devices that function in
@@ -125,8 +113,7 @@ stored settings needed to make these devices function with RackConnect.
 You can have multiple RackConnect configurations. A configuration is
 normally associated with one or more cloud accounts.
 
-ServiceNet (v2.0 and v3.0)
---------------------------
+#### ServiceNet (v2.0 and v3.0)
 
 A shared network within each region that can be added to your cloud
 servers, as a network interface. It is normally used to allow cloud
@@ -140,8 +127,6 @@ If you have any questions, please reach out to us. Our contact
 information is available on the [Contact
 Us](/how-to/support) page.
 
-### Next steps
+### Next step
 
-[RackConnect v2.0
-Requirements](/how-to/rackconnect-v20-requirements)
-
+[RackConnect v2.0 requirements](/how-to/rackconnect-v20-requirements)
