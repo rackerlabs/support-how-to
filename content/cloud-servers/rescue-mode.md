@@ -63,18 +63,18 @@ booting into single-user mode with networking enabled.
     that you want to bring up in Rescue Mode and select **Enter Rescue
     Mode **from the drop-down menu.
 
-    <img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/Enter%20Rescue%20Mode%20in%20Action%20Cog.png" width="203" height="280" />
+    <img src="http://www.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Enter%20Rescue%20Mode%20in%20Action%20Cog.png" width="203" height="280" />
 
 3.  Read the text in the Rescue Mode pop-over and then click **Enter
     Rescue Mode**.
 
-    <img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/Enter%20Rescue%20Mode.png" width="410" height="237" />
+    <img src="http://www.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Enter%20Rescue%20Mode.png" width="410" height="237" />
 
 4.  The temporary password is displayed. Copy the password to a safe
     location since you won't be able to see it again after closing
     this message.
 
-    <img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/Rescue%20Mode%20Temporary%20Password_2.png" width="382" height="207" />
+    <img src="http://www.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Rescue%20Mode%20Temporary%20Password_2.png" width="382" height="207" />
 
 5.  After copying the temporary password click **Dismiss Password**.
 
@@ -82,12 +82,12 @@ The server will start to enter Rescue Mode and display an orange status
 field next to the server name. The initial status should be **Preparing
 Rescue**.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/Preparing%20Rescue%20Mode.png" width="388" height="251" />
+<img src="http://www.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Preparing%20Rescue%20Mode.png" width="388" height="251" />
 
 When the Rescue Mode build is complete, the status will turn red and
 display **Rescue**.
 
-<img src="http://www.rackspace.com/knowledge_center/sites/default/files/field/image/server_in_rescue.png" width="600" />
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/server_in_rescue.png" width="600" />
 
 Notice that the rescue environment is limited to 24 hours. This means
 that you will have one day to correct the problems on your server before

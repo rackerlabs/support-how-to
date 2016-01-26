@@ -37,7 +37,7 @@ Following are the DNS servers for your cloud servers:
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 2.  Select **Networking &gt; Cloud DNS**.
 
-    <img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-01-16%20at%201.12.55%20PM.png" width="470" height="174" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%201.12.55%20PM.png" width="470" height="174" />
 
 3.  Continue with the following procedures to create the records for
     your domain's DNS zone.

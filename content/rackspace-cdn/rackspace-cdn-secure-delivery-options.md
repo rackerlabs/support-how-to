@@ -122,7 +122,7 @@ and select **Shared Rackspace Domain Certificate** in **Choose
 Certificate Type**. For more information, see [Create a Rackspace CDN
 service](/how-to/create-a-rackspace-cdn-service).
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%209.49.51%20AM.png" width="665" height="548" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%209.49.51%20AM.png" width="665" height="548" />
 
 In the Domain Name field, enter the domain that you want to use in the
 shared domain URL. This name must be unique across all Rackspace CDN
@@ -155,14 +155,14 @@ Name** with a subdomain and also enter an **Origin**. Then click Create
 Service. For more information, see [Create a Rackspace CDN
 service](/how-to/create-a-rackspace-cdn-service).
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%2010.28.59%20AM.png" width="672" height="555" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%2010.28.59%20AM.png" width="672" height="555" />
 
 When you click **Create Service**, the process is started to create the
 SAN certificate. You can follow the process on the CDN Service
 page in the **Domains** section. Below you see the **Status** is
 **Certificate Pending**.
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%2010.13.35%20AM.png" width="622" height="449" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%2010.13.35%20AM.png" width="622" height="449" />
 
 The certificate authority (CA) will contact the administrator of the
 domain to confirm that Rackspace has the right to add the domain to a
@@ -212,7 +212,7 @@ deployed, you can request a certificate by clicking the **Request a
 Secure Certificate** link in **CUSTOM SECURE CERTIFICATES** in the
 sidebar, which is shown in the figure below.
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%2010.35.08%20AM.png" width="771" height="531" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%2010.35.08%20AM.png" width="771" height="531" />
 
 This link routes you to a page to create a ticket. When you request a
 Custom certificate, you need to supply multiple types of information.

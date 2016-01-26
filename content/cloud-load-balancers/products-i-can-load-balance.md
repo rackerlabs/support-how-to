@@ -10,12 +10,9 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-<span>What Can You Load Balance?</span>
----------------------------------------
-
-The answer is simple. Anything with an IP address that is accessible on
-the Internet. This means you're not only limited to load balancing your
-Rackspace Cloud Servers, you can also load balance any external server
+You can apply load balancing to anything with an IP address that is accessible on
+the Internet. This means that you can load balance your
+Rackspace Cloud Servers as well as any external server
 or IP address. For example, you can load balance an external mail
 server, a database server, a website, or your personal web server at
 home. In load balancing terminology, the resources that you can load
@@ -27,8 +24,7 @@ Cloud Servers and an external node:
 ![Products I Can Load
 Balance](http://c691244.r44.cf2.rackcdn.com/What%20Can%20I%20Load%20Balance.png)
 
-<span>Adding Nodes</span>
--------------------------
+### Adding Nodes
 
 When you create a load balancer using the Control Panel you'll see that
 Add Nodes is part of the configuration process:

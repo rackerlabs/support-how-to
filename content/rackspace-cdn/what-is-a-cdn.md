@@ -70,8 +70,6 @@ in the following figures.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CDN-AFTER_0.png" width="723" height="363" />
 
-###
-
 CDNs focus on improving performance of web page delivery. CDNs like the
 Akamai CDN support progressive downloads, which optimizes delivery of
 digital assets such as web page images. CDN nodes and servers are
@@ -104,7 +102,7 @@ optimization goals.
     scalability, and providing increased reliability by redistributing
     the load of a failed web server and providing server health checks.
 
-##### Global Server Load Balancing
+**Global Server Load Balancing**
 
 
 
@@ -118,6 +116,3 @@ optimization goals.
     the request. Choosing the closest service node is done using a
     variety of techniques including proactive probing and
     connection monitoring.
-
-
-

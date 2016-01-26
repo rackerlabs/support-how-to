@@ -43,7 +43,7 @@ If you choose a custom time range and click **Apply**, Rackspace
 Intelligence shows data collected for the entity between the first and
 last time stamp.
 
-<img src="/knowledge_center/sites/default/files/field/image/preset1.1_0.png" width="640" height="50" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/preset1.1_0.png" width="640" height="50" />
 
 ### Work with custom graphs
 

@@ -10,35 +10,33 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-What is a health monitor?
--------------------------
-
 The Cloud Load Balancers service includes a health monitoring operation
-that periodically checks the health of the nodes associated with your
-load balancer to ensure that they are responding correctly. You
-can enable one health monitor per load balancer.
+that helps keep your load balancer operating smoothly by routing traffic 
+only to nodes that are functioning properly.
 
-Why is a health monitor important?
-----------------------------------
+You can use this service by updating the load balancer configuration settings 
+to add a health monitor. You can configure one health monitor per load balancer.
 
-If the health monitor determines that a node is not responding, the node
-is removed from the load balancer's rotation until the health monitor
-determines that the node is functional. The health monitor periodically
-performs health checks of each node, including new nodes that are added
-to the load balancer. By performing these health checks, the health
-monitor helps keep your load balancer operating smoothly by routing
-traffic only to nodes that are functioning properly.
+After you configure monitoring, the health monitor periodically checks 
+the health of each node associated with load balancer, including new nodes that are added.
+If the health monitor detects a node that is not responding, the node is removed from the
+load balancer rotation until the health monitor determines that the node is functional. 
 
-### To configure a health monitor
+
+### Configure a health monitor
 
 1.  Log in to the Cloud Control Panel.
 2.  In the top navigation bar, click **Networking &gt; Load
-    Balancers.** All existing load balancers for your account
+    Balancers.** 
+
+    All existing load balancers for your account
     are displayed.
-3.  Click the gear icon next to the name of the load balancer for which
-    you want to create a health monitor, and select **Edit Health
+    
+3.  Click the gear icon next load balancer name that you want to monitor, then select **Edit Health
     Monitoring**.
+
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1492-confighealthmon-2_0.png" width="212" height="380" />
+    
 4.  In the popup dialog box, select a **Monitor Type:**
 
     -   **CONNECT**: The Connect health monitor connects to each node on
@@ -59,6 +57,7 @@ traffic only to nodes that are functioning properly.
         -   **Attempts**: Number of permissible monitor failures before
             removing a node from rotation; must be a number between 1
             and 10.
+            
     -   **HTTP**: The HTTP health monitor is more intelligent than the
         Connect monitor. It can process an HTTP response to determine
         the actual condition of a node. Provide the required information
@@ -92,26 +91,26 @@ traffic only to nodes that are functioning properly.
             Error).\*\$** to look for any of those potentially
             problematic strings in the body of the response, or you
             could use the regular expression **\^success\$** to look for
-            the string **success**.
+            the string **success**. 
+            
+            **Note**: The system evaluates only the first 2048 bytes of the
+          response against the body regex that you specify, so you should test
+          accordingly. See [Tip](#tip1).
 
-    **Note**: The system evaluates only the first 2048 bytes of the
-    response against the body regex that you specify, so you should test
-    accordingly.
+5.  Click **Save Monitoring Settings** to apply your changes.
 
-    **Tip**: To debug the HTTP health monitoring, you should test the
-    body regex against the IP address of the nodes that are being
-    disabled.  You can use the following cURL command to see what the
-    health monitoring analyzes:
+<a name="tip1"></a>
 
-        curl -s -r 0-2048 https://YOUR_IP_ADDRESS | head -c 2048 | egrep "YOUR_REGULAR_EXPRESSION"
+**Tip:**  To debug the HTTP health monitoring, test the body regex against the IP address of the nodes that are being disabled.  You can use the following cURL command to see what the health monitoring analyzes:
 
-5.  Click **Save Monitoring Settings**
+          $ curl -s -r 0-2048 https://YOUR_IP_ADDRESS | head -c 2048 | egrep "YOUR_REGULAR_EXPRESSION"
+          
+### Disable a health monitor
 
-
-You have now configured a health monitor for your load balancer. To
-disable the health monitor, follow steps 1 through 3, and then
-click **Disable **in the pop up dialog box. In the confirmation dialog
-box, click **Disable Health Monitor**.
+1.  Click the gear icon next to the load balancer that you want to update, then select **Edit Health
+    Monitoring**.
+2.  In the health monitor form, click **Disable**. 
+3.  Click **Disable Health Monitor** to apply the change.
 
 
 

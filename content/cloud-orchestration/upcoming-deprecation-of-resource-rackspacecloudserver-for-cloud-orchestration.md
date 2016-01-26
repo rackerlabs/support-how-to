@@ -32,7 +32,7 @@ you have modified any of our pre-built Rackspace templates to suit your
 needs. Please continue to read this article.
 
 
--
+
 
 Why is Rackspace doing this?
 ----------------------------
@@ -183,6 +183,3 @@ Further questions?
 Contact Rackspace via normal support channels and ask for help with the
 Orchestration service, with using Heat templates, or to voice any
 concerns you might have specific to this deprecation notice.
-
-
-

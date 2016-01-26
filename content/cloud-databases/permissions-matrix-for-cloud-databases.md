@@ -34,28 +34,28 @@ Articles](/how-to/)**
 | Method | API action | Role | Description |
 |------|---------|---|--------|
 | Create a database instance | `POST /instances`	| **Creator & Admin** | Creates a new database instance. |
-| List all database instances |	`GET /instances`	| **Observer & Creator & Admin**	| Lists the status and information for all database instances.|
+| List all database instances |	`GET /instances`	| **Observer & Creator & Admin**	| Lists the status and information for all database instances. |
 | Update a database instance | `PUT /instances/{instanceId}` | **Creator & Admin** | Associates a specified database instance with the configuration group. |
-| List database instance status and details |	`GET /instances/{instanceId}`	| **Observer & Creator & Admin**	| `Lists status and details for the specified database instance. |
+| List database instance status and details |	`GET /instances/{instanceId}`	| **Observer & Creator & Admin**	| Lists status and details for the specified database instance. |
 | Delete a database instance	| `DELETE /instances/{instanceId}`	| **Admin only**  | Deletes the specified database instance. |
 | Get the default configuration | `GET /instances/{instanceId}/configuration`	| **Observer & Creator & Admin**	| Lists the default MySQL configuration settings from the template that were applied to the specified instance. |
 | Enable the root user | `POST /instances/{instanceId}/root` | **Admin only**	| Enables the root user for the specified database instance and returns the root password. |
-| List root-enabled status | `GET /instances/{instanceId}/root` | **Observer & Creator & Admin**	| Returns true if the root user is enabled for the specified database instance or false otherwise. |
+| List root-enabled status | `GET /instances/{instanceId}/root` | **Observer & Creator & Admin** | Returns true if the root user is enabled for the specified database instance or false otherwise. |
 
 ### Database Instance actions
 
 | Method | API action | Role | Description |
-|-------|---------|---|--------|
+|------|---------|---|--------|
 | Restart an instance | `POST /instances/{instanceId}/action` | **Admin only** | Restarts the database service on the specified instance. |
 | Resize an instance | `POST /instances/{instanceId}/action`	| **Admin only** | Resizes the memory of the specified instance. |
-| Resize the instance volume |	 `POST /instances/{instanceId}/action` | **Admin only**	| Resizes the volume attached to the instance. |
+| Resize the instance volume | `POST /instances/{instanceId}/action` | **Admin only**	| Resizes the volume attached to the instance. |
 
 ### Databases
 
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
 | Create a database |	`POST /instances/{instanceId}/databases` | **Creator & Admin** | Creates a new database within the specified instance. |
-| List databases for an instance	| `GET /instances/{instanceId}/databases`	|	**Observer & Creator & Admin** | Lists databases for the specified instance. |
+| List databases for an instance | `GET /instances/{instanceId}/databases`	|	**Observer & Creator & Admin** | Lists databases for the specified instance. |
 | Delete a database |	`DELETE /instances/{instanceId}/databases/{databaseName}`	| **Admin only** | Deletes the specified database. |
 
 ### Users
@@ -63,7 +63,7 @@ Articles](/how-to/)**
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
 | Create  a user |	`POST /instances/{instanceId}/users` | **Creator & Admin** |	Creates a user for the specified database instance. |
-|List users a in database instance |	`GET /instances/{instanceId}/users` |	**Observer & Creator & Admin**	|	Lists the users in the specified database instance. |
+| List users a in database instance |	`GET /instances/{instanceId}/users` |	**Observer & Creator & Admin**	|	Lists the users in the specified database instance. |
 | List a user |	`GET /instances/{instanceId}/users/{name}` | **Observer & Creator & Admin**	|	Lists the specified user's name and a list of databases that the user can access. |
 | List user access |	`GET /instances/{instanceId}/users/{name}/databases` | **Observer & Creator & Admin**	|	Lists user access for the specified database instance. |
 | Grant user access |	`PUT /instances/{instanceId}/users/{name}/databases` | **Creator & Admin** | Grants access for the specified user to one or more databases for the specified instance. |
@@ -160,32 +160,29 @@ Articles](/how-to/)**
 | List a version for a datastore. |	`GET /datastores/{datastoreId}/versions/{versionId}` | **Observer & Creator & Admin**	|	Lists the specified datastore version for the specified datastore. |
 
 
-Cloud Databases terminology
--------------------------------
+#### Cloud Databases terminology
 
 The following terms are used to describe Cloud Databases.
 
-### Database
+#### Database
 
 A MySQL database within a database instance.
 
-### Database instance
+#### Database instance
 
 An isolated MySQL instance in a single-tenant environment on a shared
 host server.
 
-### Flavor
+#### Flavor
 
 An available hardware configuration for a database instance. Each flavor
 has a unique combination of memory capacity and priority for CPU time.
 
-### Volume
+#### Volume
 
 User-specified storage that contains the MySQL data directory. Volumes
 are automatically provisioned on shared Internet Small Computers System
 Interface (iSCSI) storage area networks (SAN) that provide increased
 performance, scalability, availability, and manageability.
-
-
 
 ### [Permission Matrixes for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)

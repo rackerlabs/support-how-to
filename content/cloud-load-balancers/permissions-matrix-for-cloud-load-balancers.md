@@ -16,8 +16,8 @@ The following permissions matrix displays specific permissions for the roles in 
 
 **As of May 24, 2015**
 
-Method Name | API Action | Role | DESCRIPTION
---- | --- | :---: | :---:
+Method Name | API Action | Role | Description
+--- | --- | --- | ---
 **LOAD BALANCER** | | |
 List Load Balancers | ```GET /loadbalancers``` | **Observer & Creator & Admin** | Provide a list of all load balancers configured and associated with your account.
 List Load Balancer Details | ```GET /loadbalancers/{loadBalancerId}``` | **Observer & Creator & Admin** | Provide a list of all load balancers configured and associated with your account.
@@ -117,7 +117,7 @@ List Limits | ```GET /loadbalancers/limits``` | **Observer & Creator & Admin** |
 
 ### Cloud Load Balancer Terminology <Cloud_Load_Balancer_Terminology>
 
-### Algorithm
+#### Algorithm
 
 A Process that defines how traffic should be directed between back-end nodes.
 

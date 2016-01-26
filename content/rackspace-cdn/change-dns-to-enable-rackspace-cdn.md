@@ -22,11 +22,11 @@ After you create your CDN service, you must activate it by pointing the DNS reco
 
 4\. On the **CDN Service** page, look at the **Domains** section. Click on **Domain Not Configured** under **Status**.
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-17%20at%209.22.50%20AM.png" width="643" height="441" alt="" border="1"  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%209.22.50%20AM.png" width="643" height="441" alt="" border="1"  />
 
 Use the URL and the instructions in the box that opens, which is similar to the following figure, to configure your service.
 
-<img src="/knowledge_center/sites/default/files/field/image/Screen%20Shot%202015-12-16%20at%204.56.08%20PM.png" width="531" height="272" alt="" border="1"  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-16%20at%204.56.08%20PM.png" width="531" height="272" alt="" border="1"  />
 
 
 ### Create a CNAME record with your DNS provider

@@ -30,9 +30,8 @@ remote host's address so you don't have to enter it on the command line.
 
 If you want to import this data to another database, see our article on
 [Importing
-Data.](/how-to/importing-data-into-cloud-databases "Importing Data")
+Data.](/how-to/importing-data-into-cloud-databases)
 
 ### External Links
 
 [MYSQL Documentation](http://dev.mysql.com/doc/)
-

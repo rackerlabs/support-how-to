@@ -10,16 +10,12 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-What is the Rackspace Network?
-------------------------------
-
 The Rackspace Network is the internal network in each Rackspace region
 (data center). In the Cloud Sites Cloud Control Panel, the Rackspace
 Network was called ServiceNet. In the Cloud Control Panel, it's referred
 to as the Rackspace Network.
 
-Using the Rackspace Network Internal IP Address
------------------------------------------------
+### Using the Rackspace Network internal IP address
 
 When you create a new Cloud Server, Cloud Load Balancer, or Cloud
 Database, the newly created infrastructure is automatically assigned a
@@ -45,8 +41,7 @@ however you should follow the instructions located in [Configuring Basic
 Security](/how-to/configuring-basic-security-0)to
 further protect your data.
 
-Finding the Rackspace IP Address
---------------------------------
+### Finding the Rackspace IP address
 
 You can find all of the IP addresses for a new server, load balancer or
 database by clicking on it and viewing its Details.
@@ -54,10 +49,8 @@ database by clicking on it and viewing its Details.
 Here's an example of a Server Details page:
 
 ![Cloud Server Details](http://c691244.r44.cf2.rackcdn.com/Server%20Details.png)
---------------------------------------------------------------------------------
 
-### Related Information
+#### Related Information
 
 [Learn More About Cloud Servers](/how-to/learn-more-about-cloud-servers)
-------------------------------------------------------------------------------------------------------------------
 

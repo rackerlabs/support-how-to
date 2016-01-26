@@ -29,7 +29,7 @@ Graphs**.
 To view any of the default graphs for your entities**,** click
 **Rackspace Default** under **Graph Collections**.
 
-<img src="/knowledge_center/sites/default/files/field/image/BG_Default.1.png" width="656" height="410" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/BG_Default.1.png" width="656" height="410" />
 
 To view a graph for a specific check, in the **Graphs by Check**
 section, click the name of the check for which you want to see the
@@ -37,7 +37,7 @@ graphs, such as **CPU**.
 
 A list of graphs are displayed that are available for your check.
 
-<img src="/knowledge_center/sites/default/files/field/image/BG_Check.2.png" width="650" height="405" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/BG_Check.2.png" width="650" height="405" />
 
 ### Work with favorites
 
@@ -50,7 +50,7 @@ title of the graph.
 To filter for your favorite graphs, click **Favorites** under **Graph
 Collections.**
 
-<img src="/knowledge_center/sites/default/files/field/image/BG_Fav.1.png" width="650" height="405" />I
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/BG_Fav.1.png" width="650" height="405" />I
 
 ### Specify a time range
 
@@ -70,7 +70,7 @@ If you choose a custom time range and click **Apply**, Rackspace
 Intelligence shows data collected for the entity between the first and
 last time stamp.
 
-<img src="/knowledge_center/sites/default/files/field/image/preset1.1.png" width="584" height="41" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/preset1.1.png" width="584" height="41" />
 
 ### Adjust the layout of your graph page
 
@@ -85,7 +85,7 @@ You can choose from one of the two display options:
 
 The following example shows a grid layout:
 
-<img src="/knowledge_center/sites/default/files/field/image/gridlayout.png" width="765" height="594" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/gridlayout.png" width="765" height="594" />
 
 
 

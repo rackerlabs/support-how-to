@@ -10,9 +10,9 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-**Note:** Be sure to set up your [authentication token](/how-to/cloud-queues-curl-cookbook) before completing the terminal steps for creating your cloud queue.</p>
+**Note:** Be sure to set up your [authentication token](/how-to/cloud-queues-curl-cookbook) before following the steps to create a queue by submitting an API request from the terminal. 
 
-The steps in this process will return queue statistics, including the number of messages that exist in the queue. These are broken out by status.
+Use the following procedures to get queue statistics, including the number of messages that exist in the queue, and the number of messages for each message status. 
 
 ### Monitoring through the API
 
@@ -29,7 +29,7 @@ Substitute your cloud queue information for the sample information:
        GET /v1/queues/fizbit/stats HTTP/1.1
        Host: marconi.example.com
 
-Your cloud queue statistics are returned:
+The API response returns the queue statistics:
 
 #### Response
 
@@ -53,7 +53,7 @@ Your cloud queue statistics are returned:
 
 ### Monitoring through the Cloud Control Panel
 
-You can view your cloud queue statistics in the Cloud Control Panel.
+You can view statistics for a queue in the Cloud Control Panel.
 
 1. Log in to the Cloud Control Panel.
 
@@ -65,6 +65,6 @@ You can view your cloud queue statistics in the Cloud Control Panel.
 
       <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3658-tipsformonitoring-2_0.png" width="793" height="590" border="1" alt=""  />
 
-**Note:** If total is 0, then the "oldest" and "newest" message statistics are not included.
+**Note:** If total is 0, the display does not include statistics for *oldest* and *newest* messages.
 
 You can find more developer information in the [Getting Started Guide](http://docs.rackspace.com/queues/api/v1.0/cq-gettingstarted/content/DB_Overview.html) and [API Developer Guide for Cloud Queues](http://docs.rackspace.com/queues/api/v1.0/cq-devguide/content/overview.html).

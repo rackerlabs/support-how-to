@@ -14,11 +14,7 @@ The Cloud Load Balancers product has a Content Caching feature that
 stores recently-accessed files on the load balancer for easy retrieval
 by web clients.
 
-### Getting started
-
-
-
-#### How do I enable content caching?
+### How do I enable content caching?
 
 Content caching can be enabled through our [Cloud Load Balancers
 API](http://docs.rackspace.com/loadbalancers/api/v1.0/clb-devguide/content/index.html) or
@@ -33,7 +29,7 @@ Content Caching.
 
 
 
-#### What are the benefits of content caching?
+### What are the benefits of content caching?
 
 Content caching improves the performance of a web site by temporarily
 storing data that was recently accessed. While it&rsquo;s cached, requests for
@@ -45,7 +41,7 @@ on the web server.
 
 
 
-#### What kind of files work well with content caching?
+### What kind of files work well with content caching?
 
 Content caching works well for files that don&rsquo;t change or that rarely
 change. Most images and static content are good candidates for content
@@ -96,8 +92,6 @@ a file from the failover host.
 
 ### File types
 
-
-
 #### What file types are supported for content caching?
 
 At this time the following file extensions are cached:
@@ -133,4 +127,6 @@ the following to your apache config:
 Replace the extensions in the &ldquo;ico|flv|jpg|jpeg&rdquo; section with the
 extensions for which you want to bypass caching, making sure to put a
 &ldquo;|&rdquo; character between each extension.
+
+
 

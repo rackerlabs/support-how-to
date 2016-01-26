@@ -22,7 +22,7 @@ When you add a domain to DNS, the email address that you indicate is
 added to the SOA record for the domain. This publicly associates the
 email with the domain.
 
-<img src="/knowledge_center/sites/default/files/field/image/emailtoDomainassociation.png" width="445" height="247" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/emailtoDomainassociation.png" width="445" height="247" />
 
 For example, the email address associated with the **rackspace.com**
 domain is **hostmaster@rackspace.com**. You can see the SOA record for

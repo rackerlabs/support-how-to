@@ -10,7 +10,7 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-### Getting Started
+### Getting started
 
 ### Is there an easy path to migrate from other autoscaling products such as Rightscale?
 
@@ -32,9 +32,6 @@ configured to be ready when the server is started. You can ensure your
 servers deploy fully ready for service by using various programs such as
 Chef, Puppet, and Salt.
 
-
-### Account Services
-
 ### Does Autoscale record the history of a scale action?
 
 Not currently. The **history** resource on the Autoscale API endpoint
@@ -54,9 +51,6 @@ the **history** resource on the Autoscale API endpoint.
 Autoscale is available at no cost to Rackspace Cloud customers,
 although you do pay for the servers created by a scale-up until they are
 removed.
-
-
-### Server Management
 
 ### Can I add an existing server to an Autoscale group?
 
@@ -87,11 +81,8 @@ You can remove a server from an Autoscale group and keep it on your
 Cloud account for observation. Autoscale will automatically replace it
 with a new server.
 
-Newly created servers have different IP addresses unless they are
-created in a scaling group with a load balancer.
+Newly created servers have different IP addresses unless they arecreated in a scaling group with a load balancer.
 
-
-### Scaling and High Availability
 
 ### Why might I see a server get created and then immediately destroyed?
 
@@ -228,4 +219,3 @@ No, you must create separate scaling groups for different data centers.
 
 Autoscale is service agnostic and API based, so it works well with
 these services but does not explicitly integrate with them.
-

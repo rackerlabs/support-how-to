@@ -64,7 +64,7 @@ You can create a cluster through the Cloud Control Panel as follows:
     Gateway node&rsquo;s PublicNet IP address, using the username and ssh key
     that you provided at cluster creation.
 
-    <img src="/knowledge_center/sites/default/files/field/image/logintoYourCluster_0.png" width="369" height="385" />
+    <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/logintoYourCluster_0.png" width="369" height="385" />
 
 ###  Choosing a Stack
 
@@ -79,7 +79,7 @@ Cloud Big Data offers four flavors: Small (1.25 TB), Medium (2.5T),
 Large (5T), and XLarge (10 TB). In the IAD region we additionally offer
 the OnMetal IO flavor. For complete specifications and pricing, see
 <http://www.rackspace.com/cloud/big-data/pricing/>.
-<img src="/knowledge_center/sites/default/files/field/image/CBDexampleBuilds.1.png" width="641" height="291" />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/CBDexampleBuilds.1.png" width="641" height="291" />
 
 For maximum performance, choose extra-large data nodes, which take up an
 entire physical server to provide consistent cluster performance, or for

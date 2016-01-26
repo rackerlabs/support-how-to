@@ -10,20 +10,20 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-<span>Server &ldquo;draining&rdquo; is the redirection of incoming calls and new
+Server *draining* is the redirection of incoming calls and new
 connections from the specified server to other servers connected to the
-same load balancer.<span>  </span>This is used to minimize service
-interruption when taking a server offline for needed maintenance.
-Sessions started before the server is put into draining status will
-continue until they naturally end.  When all sessions have ended, the
-server is considered drained and can then be taken offline. </span>The
-following steps help to ensure minimal service <span>interruption</span>
+same load balancer. Draining is used to minimize service
+interruption when taking a server offline for maintenance.
+Sessions started before the server is put into draining status 
+continue until completion.  When all sessions have ended, the
+server is considered drained and can then be taken offline. The
+following steps help to ensure minimal service interruption
 when removing a cloud server from an active load balancer.
 
 1.  Select the **Load Balancers** tab.
 2.  Click the name of the applicable load balancer to view the
     connected servers.
-3.  Click Action Cog next to server to be drained.
+3.  Click the gear icon next to server to be drained.
 4.  Select **Edit Node Condition** from the options presented.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/EditNodeConditionwitharrow.jpeg" alt="Edit Node Connection" width="340" height="226" />
@@ -40,7 +40,7 @@ when removing a cloud server from an active load balancer.
 7.  When activity has ceased, repeat the first 5 steps above (as needed)
     and select **Disabled** in the repeated 5th step.
 
-Once disabled, the server can be removed from the load balancer and the
+After a server is disable, it can be removed from the load balancer and the
 application can be stopped or the instance deleted, depending on your
 needs.
 

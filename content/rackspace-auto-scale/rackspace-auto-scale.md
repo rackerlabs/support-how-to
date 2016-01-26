@@ -31,5 +31,5 @@ Rackspace Autoscale automatically scales resources that are allocated to your ap
 
 ###  Information for developers
 
-- [Rackspace Autoscale API Getting Started Guide](http://docs.rackspace.com/cas/api/v1.0/autoscale-gettingstarted/content/Overview.html)
-- [Rackspace Autoscale API Developer's Guide](http://docs.rackspace.com/cas/api/v1.0/autoscale-devguide/content/Overview.htmlR)
+- [Rackspace Autoscale API Getting Started Guide](https://developer.rackspace.com/docs/auto-scale/getting-started/)
+- [Rackspace Autoscale API Developer Guide](https://developer.rackspace.com/docs/cloud-autoscale/v1/developer-guide/)

@@ -13,13 +13,13 @@ product_url: rackspace-auto-scale
 ### Agent
 
 A monitoring daemon that resides on the server being monitored. The
-agent gathers metrics based on agent checks and pushes them to Cloud
+agent gathers metrics based on agent checks and pushes them to Rackspace
 Monitoring.
 
 ### Agent token
 
 An authentication token used to identify the agent when it communicates
-with Cloud Monitoring.
+with Rackspace Monitoring.
 
 ### Alarm
 
@@ -61,8 +61,8 @@ system adds 2 servers. If it is -10, the system removes 10 servers.
 
 ### Cooldown
 
-See **[Group cooldown](#GroupCooldown)** and [**Policy
-cooldown**](#PolicyCooldown).
+See **Group cooldown** and **Policy
+cooldown**.
 
 ### Entity
 
@@ -122,7 +122,7 @@ alarm is triggered.
 ### Policy cooldown
 
 The length of time that must pass before a policy can be executed again.
-The purpose is to allow for a fast scale up and a slow scale downof
+The purpose is to allow for a fast scale up and a slow scale down of
 servers.
 
 ### Scaling
@@ -158,7 +158,7 @@ name, flavor reference, and image reference.
 
 ### Server image
 
-See [**Image**](#Image).
+See **Image**.
 
 ### Virtual IP
 
@@ -171,4 +171,3 @@ based on the configuration of the load balancer.
 
 A URL that can activate a specific (scale-up or scale-down) policy for a
 scaling group without requiring does this without authentication.
-

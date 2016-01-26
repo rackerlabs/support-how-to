@@ -18,7 +18,7 @@ NUMA stands for Non-Uniform Memory Access, but what exactly is NUMA? In a NUMA a
 
 The following diagram illustrates the difference between systems that are NUMA aware and systems that are not NUMA aware.
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA1.png" width="600" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA1.png" width="600" height="" alt=""  />
 
 
 
@@ -48,7 +48,7 @@ Therefore, how the guest OS or its applications place processes and memory can s
 
 **Note:** vNUMA is a vSphere 5._x_ improvement and was not a feature of vSphere 4._x_. Hot-add RAM is now vNuma aware in vSphere 6.
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA2.png" width="400" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA2.png" width="400" height="" alt=""  />
 
 # Why does NUMA matter?
 
@@ -94,11 +94,11 @@ So where do you go from here? These are a few tips.
 
 4. To show NUMA-related fields, enter g again.
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA3.png" width="500" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA3.png" width="500" height="" alt=""  />
 
 If NUMA is enabled, you will see values (like 0, 1, or 2 for each node) on the NHN column:
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA4.png" width="600" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA4.png" width="600" height="" alt=""  />
 
 The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the locality information:
 
@@ -106,7 +106,7 @@ The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the lo
 - NLMEM: Amount of memory running in the local memory node.
 - N%L: Percentage of memory running locally. The lower this number, the larger the risk that NUMA locality is causing a performance problem.
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA5.png" width="650" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA5.png" width="650" height="" alt=""  />
 
 ### Windows
 
@@ -118,7 +118,7 @@ In the following example, the VM has a single NUMA node.
 
 
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA6.png" width="600" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA6.png" width="600" height="" alt=""  />
 
 ### Linux
 
@@ -126,7 +126,7 @@ numactl -- hardware
 
 numactl -- show
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA7.png" width="450" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA7.png" width="450" height="" alt=""  />
 
 ### NUMA considerations
 
@@ -212,7 +212,7 @@ With relaxed co-scheduling, ESXi achieves high CPU utilization by flexibly sched
 
 To better visualize how CPU scheduling works with virtual CPU's and physical CPU's, I have the diagram below to illustrate the abstraction lays with hyper-threading.
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA8.png" width="450" height="" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA8.png" width="450" height="" alt=""  />
 
 # Overcommitting CPU resources
 
@@ -220,9 +220,9 @@ Rackspace recommends overcommitting CPU resources by no more than 3:1. This reco
 
 VMware have some recommendations, which they have summarized in two sections. Listed below are the recommendations from VMware.**[5]**
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA9.png" width="550" height="" border="2" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA9.png" width="550" height="" border="2" alt=""  />
 
-<img src="/knowledge_center/sites/default/files/field/image/NUMA10.png" width="550" height="" border="2" alt=""  />
+<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/NUMA10.png" width="550" height="" border="2" alt=""  />
 
             **[5]**
 
