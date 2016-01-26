@@ -10,8 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Creating a support ticket in your [Cloud Control
-Panel](https://mycloud.rackspace.com/) is the best way to communicate
+Creating a support ticket in your [Cloud Control Panel](https://mycloud.rackspace.com/) is the best way to communicate
 with Rackspace Support Technicians. Following are the two ways through
 which you can create a ticket:
 
@@ -19,21 +18,21 @@ which you can create a ticket:
     navigation bar and select **Create or View a Ticket** in the
     pop-up window.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-button.png)
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-button.png)
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-options.png)
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-options.png)
 
 -   Click on your **Account** in the top navigation bar, and in the
     drop-down menu, select **Support Tickets**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-drop-down-support.png" width="250" height="279" />
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-drop-down-support.png" width="250" height="279" />
 
-<span>When you click on the **Support Tickets** or **Create or View a
+When you click on the **Support Tickets** or **Create or View a
 Ticket** link, you will see a list displaying your currently open
 tickets, and a tab with the option to view your closed tickets. Each
 ticket entry displays the name, the date it was last updated, the ticket
 status, and ticket ID number. To create a new ticket, click on
-the **Create Ticket** button.</span>
+the **Create Ticket** button.
 
 ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-tickets.png)
 
@@ -52,6 +51,3 @@ specific details about a problem that you are experiencing is by opening
 a ticket.  The advantage of using a ticket is that it allows you to copy
 & paste or attach cumbersome information such as traceroutes and error
 log entries directly into the ticket.
-
-
-
