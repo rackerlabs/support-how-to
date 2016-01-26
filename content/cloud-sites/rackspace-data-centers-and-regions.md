@@ -25,8 +25,7 @@ To find the region in which a Cloud Site is deployed, log in to the
 [Cloud Sites Control Panel](https://manage.rackspacecloud.com/) and view
 the test link for the site. The region is displayed in the portion of
 the testing URL's domain that comes before **websitetestlink**. For
-example, if the testing URL is
-**http://www.domain.com.php5-1.*dfw1-1*.websitetestlink.com**, the site
+example, if the testing URL is http://www.domain.com.php5-1.<em>dfw1-1</em>.websitetestlink.com, the site
 is in the DFW region. Cloud Sites is available only in the DFW and ORD
 regions, and an account cannot have Cloud Sites deployed to more than
 one region.
