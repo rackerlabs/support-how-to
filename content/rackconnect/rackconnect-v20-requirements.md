@@ -10,17 +10,13 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-### Previous section
+**Previous section:** [RackConnect key terms](/how-to/rackconnect-key-terms)
 
-[RackConnect Key
-Terms](/how-to/rackconnect-key-terms)
+**Applies to:** RackConnect v2.0
 
-**Applies to**: RackConnect v2.0
+The following items are required to implement RackConnect v2.0.
 
-The following items are required to implement RackConnect.
-
-Supported network device
-------------------------
+### Supported network device
 
 The RackConnect automation is compatible with any Cisco ASA firewall
 (5505 Security+ or better) or F5 BIG-IP load balancer. To implement
@@ -28,16 +24,14 @@ RackConnect, you need at least one of these devices in your managed
 hosting configuration. If you already have one, there is no additional
 charge for RackConnect.
 
-Supported region
-----------------
+### Supported region
 
 RackConnect is currently available in our Chicago (ORD), Dallas (DFW),
 Virginia (IAD), Sydney (SYD), Hong Kong (HKG), and London (LON3)
 regions. To implement RackConnect, your dedicated managed hosting
 environment and cloud environment must be located in the same region.
 
-Automation process
-------------------
+### Automation process
 
 RackConnect connects an available physical interface on your network
 device to the cloud internal network. Creating a new cloud server
@@ -72,11 +66,8 @@ configuration and cloud servers secure.
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/With.RC_.png" width="320" height="218" />
 
 If you have any questions, please reach out to us. Our contact
-information is available on the [Contact
-Us](/how-to/support) page.
+information is available on the [Contact Us](/how-to/support) page.
 
-### Next steps
+### Next step
 
-[Getting RackConnect
-Support](/how-to/getting-rackconnect-support)
-
+[Getting RackConnect support](/how-to/getting-rackconnect-support)
