@@ -28,18 +28,13 @@ handler does not work, the original behavior can be restored in
 
     php_value session.save_handler files
 
-
-
 If you are experiencing a problem with the standard way sessions are
 stored, you can change how your PHP sessions are handled by using a
 .htaccess file. If your application currently explicitly sets the use of
 the 'files' handler, we suggest disabling it  or explicitly setting it
 to 'redisr' to benefit from the performance of the state servers.
 
-
-
-<span class="mw-headline">How do I make the changes?</span>
------------------------------------------------------------
+### How do I make the changes?
 
 You can change how your PHP sessions are handled by using a .htaccess
 file containing the following directives:
@@ -60,8 +55,7 @@ Your website's absolute path should resemble this:
 
 
 
-<span class="mw-headline">Where should I store my sessions?</span>
-------------------------------------------------------------------
+### Where should I store my sessions?
 
 We recommend storing your sessions in a directory above the
 public-facing **content** directory, such as the **web** directory. The
