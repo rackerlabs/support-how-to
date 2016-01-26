@@ -10,28 +10,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### First Generation Cloud Servers:  Sample Code
-
-**[List of API Operations](#a1)**
-
-**Code Samples - XML**
-
--   [Create Server Request](#a2)
--   [Create Server Response](#a3)
--   [Get Server Details Response](#a4)
--   [Reboot Server Request](#a5)
-
-**Code Samples - JSON**
-
--   [Create Server Request](#a6)
--   [Create Server Response](#a7)
--   [Get Server Details Response](#a8)
--   [Reboot Server Request](#a9)
-
-**[Legal Disclaimer](#a10)**
-
-------------------------------------------------------------------------
-
 ### API Operations
 
 -   Servers
@@ -70,9 +48,7 @@ product_url: cloud-servers
             -   Get Shared IP Group Details
             -   Delete Shared IP Group
 
-------------------------------------------------------------------------
-
-### XML
+### XML code samples
 
 #### Code Sample: Create Server Request (XML)
 
@@ -137,9 +113,7 @@ product_url: cloud-servers
     <?xml version="1.0" encoding="UTF-8"?>
     <reboot xmlns="http://docs.rackspacecloud.com/servers/api/v1.0" type="HARD"/>
 
-------------------------------------------------------------------------
-
-### JSON
+### JSON code samples
 
 #### Code Sample:  Create Server Request (JSON)
 
@@ -210,14 +184,12 @@ product_url: cloud-servers
         }
     }
 
-------------------------------------------------------------------------
-
-**Legal Disclaimer**
+### Legal Disclaimer
 
 This information is intended for software developers who want to develop
 applications by using the first generation Rackspace Cloud Servers
 application programming interface (API). The information is for
-informational purposes only and is provided &ldquo;as is.&rdquo;
+informational purposes only and is provided "as is".
 
 Rackspace makes no representations or warranties of any kind, express or
 implied, as to the accuracy or completeness of the contents of this
@@ -229,5 +201,4 @@ Except as set forth in Rackspace general terms and conditions and/or
 cloud terms of service, Rackspace assumes no liability whatsoever, and
 disclaims any express or implied warranty, relating to its services
 including, but not limited to, the implied warranty of merchantability,
-fitness for a particular purpose, and noninfringement.
-
+fitness for a particular purpose, and non-infringement.

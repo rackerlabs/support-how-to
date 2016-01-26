@@ -10,37 +10,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"><div id="toctitle">
-<h2 id="contents">Contents</h2>
-</div>
-<ul>
-<li><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
-<li><a href="#Package_Managers_and_Repositories"><span class="tocnumber">2</span> <span class="toctext">Package Managers and Repositories</span></a>
-<ul>
-<li><a href="#APT.2FDpkg_.28Debian.2C_Ubuntu.29"><span class="tocnumber">2.1</span> <span class="toctext">APT/Dpkg (Debian, Ubuntu)</span></a></li>
-<li><a href="#Yum.2FRPM_.28CentOS.2C_Fedora.2C_Red_Hat.29"><span class="tocnumber">2.2</span> <span class="toctext">Yum/RPM (CentOS, Fedora, Red Hat)</span></a></li>
-<li><a href="#Pacman_.28Arch.29"><span class="tocnumber">2.3</span> <span class="toctext">Pacman (Arch)</span></a></li>
-<li><a href="#Emerge.2FPortage_.28Gentoo.29"><span class="tocnumber">2.4</span> <span class="toctext">Emerge/Portage (Gentoo)</span></a></li>
-<li><a href="#But_what_if_the_software_I.27m_looking_for_isn.27t_in_the_repositories.3F"><span class="tocnumber">2.5</span> <span class="toctext">But what if the software I'm looking for isn't in the repositories?</span></a></li>
-</ul></li>
-<li><a href="#Installing_from_Source"><span class="tocnumber">3</span> <span class="toctext">Installing from Source</span></a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
-
-
-<span class="mw-headline">Introduction </span>
-----------------------------------------------
-
-Throughout this knowledge base, we present many articles detailing how
+Throughout Rackspace How-To, we present many articles detailing how
 to install and configure various Linux software packages and utilities.
 By taking a closer look at the articles across multiple Linux
 distributions, you might notice something interesting -- the procedure
@@ -50,10 +21,7 @@ each distribution. The purpose of this article is to aid you in making
 the adaptations needed to apply a given set of instructions to your
 Cloud Server.
 
-
-
-<span class="mw-headline">Package Managers and Repositories </span>
--------------------------------------------------------------------
+### Package Managers and Repositories
 
 Package management is an important concept for a novice Linux user to
 understand. Unlike Windows-based operating systems, in which software
@@ -73,9 +41,7 @@ manager. We've included basic summaries of each of these; however, Linux
 novices would do well to become familiar with the details by reading the
 relevant documentation.
 
-
-
-### <span class="mw-headline">APT/Dpkg (Debian, Ubuntu) </span>
+### APT/Dpkg (Debian, Ubuntu)
 
 -   Install package:
 
@@ -114,14 +80,10 @@ relevant documentation.
         aptitude search SEARCHSTRING
 
 For more information on APT-based package management, please see the
-[Debian GNU/Linux
-FAQ](http://www.debian.org/doc/FAQ/ch-pkgtools.en.html "http://www.debian.org/doc/FAQ/ch-pkgtools.en.html")
-and the [APT
-HOWTO](http://www.debian.org/doc/manuals/apt-howto/ "http://www.debian.org/doc/manuals/apt-howto/").
+[Debian GNU/Linux FAQ](http://www.debian.org/doc/FAQ/ch-pkgtools.en.html "http://www.debian.org/doc/FAQ/ch-pkgtools.en.html")
+and the [APT HOWTO](http://www.debian.org/doc/manuals/apt-howto/ "http://www.debian.org/doc/manuals/apt-howto/").
 
-
-
-### <span class="mw-headline">Yum/RPM (CentOS, Fedora, Red Hat) </span>
+### Yum/RPM (CentOS, Fedora, Red Hat)
 
 -   Install package:
 
@@ -172,14 +134,10 @@ HOWTO](http://www.debian.org/doc/manuals/apt-howto/ "http://www.debian.org/doc/m
         yum groupremove 'GROUP NAME'
 
 For more information on RPM-based package management, please see the
-[Linux Home Server
-HOWTO](http://www.brennan.id.au/07-Package_Management.html "http://www.brennan.id.au/07-Package_Management.html")
-and [Maximum
-RPM](http://www.rpm.org/max-rpm/ "http://www.rpm.org/max-rpm/").
+[Linux Home Server HOWTO](http://www.brennan.id.au/07-Package_Management.html "http://www.brennan.id.au/07-Package_Management.html")
+and [Maximum RPM](http://www.rpm.org/max-rpm/ "http://www.rpm.org/max-rpm/").
 
-
-
-### <span class="mw-headline">Pacman (Arch) </span>
+### Pacman (Arch)
 
 -   Install package:
 
@@ -216,9 +174,7 @@ RPM](http://www.rpm.org/max-rpm/ "http://www.rpm.org/max-rpm/").
 For more information on Pacman, please see the
 [ArchWiki](http://wiki.archlinux.org/index.php/Pacman "http://wiki.archlinux.org/index.php/Pacman").
 
-
-
-### <span class="mw-headline">Emerge/Portage (Gentoo) </span>
+### Emerge/Portage (Gentoo)
 
 -   Install package:
 
@@ -248,13 +204,9 @@ For more information on Pacman, please see the
 
         emerge --searchdesc SEARCHSTRING
 
-For more information on Portage and ebuilds, please see the [Gentoo
-Linux
-Documentation](http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=2&chap=1 "http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=2&chap=1").
+For more information on Portage and ebuilds, please see the [Gentoo Linux Documentation](http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=2&chap=1).
 
-
-
-### <span class="mw-headline">But what if the software I'm looking for isn't in the repositories? </span>
+### But what if the software I'm looking for isn't in the repositories?
 
 There may come occasions when the software you're looking for simply
 isn't in your package manager's main repositories. There may be many
@@ -265,10 +217,7 @@ start. [Rpmfind](http://rpmfind.net "http://rpmfind.net") is another
 good source for RPM packages. Once you've located and downloaded the
 package, you can still use your distro's package manager to install it.
 
-
-
-<span class="mw-headline">Installing from Source </span>
---------------------------------------------------------
+### Installing from Source
 
 In some situations, you may have no choice but to compile and install a
 package manually. Maybe you need special customizations that weren't
@@ -277,12 +226,13 @@ doesn't have a pre-compiled version. Either way, it is impossible to
 provide step-by-step instructions for all of these scenarios -- your
 best bet in this case is to go directly to the software documentation.
 However, you will almost certainly need a C/C++ compiler and make
-utility. These can be installed by running the following commands... on
-Debian:
+utility. These can be installed by running the following commands:
+
+-  On Debian:
 
     apt-get install build-essential
 
-... and on CentOS:
+-  On CentOS:
 
     yum groupinstall "Development Tools"
 
@@ -290,4 +240,3 @@ This will install the utilities you would need to install most common
 packages directly from source. Once this is done, you will be able to
 follow the package's instructions and tailor the compilation to your
 needs. Good luck!
-
