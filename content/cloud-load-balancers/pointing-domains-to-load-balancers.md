@@ -26,14 +26,14 @@ Balancer. For instructions on creating a new Load Balancer,
 see [Configuring a Load
 Balancer](/how-to/configure-a-load-balancer).
 
-### Pointing an Existing Domain to a Load Balancer
+### Pointing an existing domain to a Load Balancer
 
 1.  Click **Load Balancers **at the top of the Control Panel.
 2.  Click on an existing load balancer to see the **Load Balancer
     Details**. Jot down the load balancer's IP address.
 
-![Load Balancer
-Details](http://c691244.r44.cf2.rackcdn.com/LoadBalancer%20IP%20Address.png)
+    ![Load Balancer
+     Details](http://c691244.r44.cf2.rackcdn.com/LoadBalancer%20IP%20Address.png)
 
 3.  Click **DNS** at the top of the Control Panel.
 4.  Click the **Actions** cog to the left of an existing domain and
@@ -41,8 +41,8 @@ Details](http://c691244.r44.cf2.rackcdn.com/LoadBalancer%20IP%20Address.png)
 5.  In the Add Record pop-over, select **A/AAAA Record** as the **Record
     Type**, and enter the load balancer's IP address as the **Target**.
 
-![Add DNS
-Record](http://c691244.r44.cf2.rackcdn.com/DNS%20A%20Record.png)
+     ![Add DNS
+     Record](http://c691244.r44.cf2.rackcdn.com/DNS%20A%20Record.png)
 
 6.  Click **Add Record**.
 
