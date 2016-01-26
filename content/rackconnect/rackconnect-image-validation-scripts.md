@@ -184,6 +184,6 @@ disable the third by performing the following steps:
 
 3. From the Windows Firewall Properties page, you can disable Windows
     Firewall for all three profiles. On the **Domain
-    Profile** tab, choose **Off **for the **Firewall state** setting. Do the same for the Public and Private profiles if Windows Firewall is still enabled for either profile.
+    Profile** tab, choose **Off** for the **Firewall state** setting. Do the same for the Public and Private profiles if Windows Firewall is still enabled for either profile.
 
   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winfirewall-domainoff.png" alt="Windows Firewall properties; Domain Profile tab; Clicking Firewall state Off" width="408" height="452" />
