@@ -1,6 +1,6 @@
 ---
 node_id: 829
-title: Add Rackspace Email Mailboxes
+title: Add Rackspace Email mailboxes
 type: article
 created_date: '2011-12-18'
 created_by: Rackspace Support
@@ -12,13 +12,13 @@ product_url: rackspace-email
 
 You can add a single mailbox to your Rackspace Email account or add multiple mailboxes by using a CSV or Microsoft Excel file.
 
-## Add a single mailbox
+### Add a single mailbox
 
-1.	Log in to the Cloud Office Control Panel at [cp.rackspace.com](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace username and   password.
+1.	Log in to the Cloud Office Control Panel at [cp.rackspace.com](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace username and password.
 
-2.	In the **Go** to section, choose Rackspace Email.
+2.	In the **Go to section** list, choose **Rackspace Email**.
 
-3.	Click **Email Accounts** section, click the **Add / Edit** Mailbox link for Microsoft Exchange.
+3.	Click the **Email Accounts** tab.
 
 4.	If you have multiple domains, select the appropriate domain name.
 
@@ -28,7 +28,7 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
 6.	Enter the following information in the fields provided:
 
-     * **User Name:** Enter the first part of the email address. For example, myname@mydomain.com.
+     * **User Name:** Enter the first part of the email address. For example, **myname@mydomain.com**.
 
      * **Password:** Enter the password for the email account using the following requirements:
 
@@ -47,15 +47,15 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
 The mailbox appears in the list. To manage additional features for the mailbox, such as forwarding, auto-reply, aliases, or settings, click the mailbox name and then click the corresponding tab on the Mailbox Details page.
 
-## Add multiple mailboxes
+### Add multiple mailboxes
 
 To add multiple mailboxes at one time, you create a CSV or Excel file with the mailbox information and then upload it.
 
 1.	Log in to the Cloud Office Control Panel at [cp.rackspace.com](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel").
 
-2.	In the **Go to** section, choose Rackspace Email.
+2.	In the **Go to section** list, choose **Rackspace Email**.
 
-3.	Click **Email Accounts** section, click the Add / Edit Mailbox link for Microsoft Exchange.
+3.	Click the **Email Accounts** tab.
 
 4.	If you have multiple domains, select the appropriate domain name.
 
@@ -65,13 +65,13 @@ To add multiple mailboxes at one time, you create a CSV or Excel file with the m
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/829-img1.png" width="581" height="277" alt=""  />
 
-	**Note:** The password must contain at least eight characters, including at least three of the following types of characters:
+	The password must contain at least eight characters, including at least three of the following types of characters:
 
-	* English uppercase letters
+	- English uppercase letters
 
-	* English lowercase letters numerals (0-9)
+	- English lowercase letters numerals (0-9)
 
-	* Nonalphabetic characters (such as !, #, $, %)
+	- Nonalphabetic characters (such as !, #, $, %)
 
 7.	In the **Import File** section, click the **Choose File** button and locate and select the CSV or Excel file that you created.
 
