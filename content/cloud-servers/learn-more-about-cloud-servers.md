@@ -12,10 +12,9 @@ product_url: cloud-servers
 
 Looking for information about Cloud Servers? The following sections contain links to resources on a range of topics, from pricing and region options to logging in to a new server.
 
-The basics
-----------
+### The basics
 
-[About regions](/how-to/about-regions):&nbsp;Explains the concept of regions as they relate to Cloud Servers.
+[About regions](/how-to/about-regions): Explains the concept of regions as they relate to Cloud Servers.
 
 [Private and Public Access](/how-to/private-and-public-access-to-your-cloud-server): Provides details about public and private IP addresses assigned to cloud servers.
 
@@ -23,8 +22,7 @@ The basics
 
 [Managing My Server](/how-to/managing-my-server): Describes tasks that you can perform on servers by using the Cloud Control Panel.
 
-Best practices
---------------
+### Best practices
 
 [Choosing the Right Size Server](/how-to/rackspace-cloud-essentials-choosing-the-right-size-cloud-server): Explains how to determine the right size and operating system image for a new server.
 
@@ -34,14 +32,10 @@ Best practices
 
 [Rebuild a Cloud Server](/how-to/rebuild-a-cloud-server): Describes how to rebuild a server by using the Cloud Control Panel.
 
-Additional resources
---------------------
+### Additional resources
 
-[Calculating Price](http://www.rackspace.com/calculator): Helps you determine the cost of creating a new cloud server.
+[Cloud Servers FAQ](/how-to/cloud-servers-faq): Answers frequently asked questions about Cloud Servers.
 
-[FAQ](/how-to/cloud-servers-faq): Answers frequently asked questions about Cloud Servers.
-
-[Product
-Page](http://www.rackspace.com/cloud/servers): Provides product information about Cloud Servers.
+[Cloud Servers Product Page](http://www.rackspace.com/cloud/servers): Provides product information about Cloud Servers.
 
 [API Documentation](https://developer.rackspace.com/docs/): Provides documentation for using the Cloud Servers API.
