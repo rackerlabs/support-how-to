@@ -12,7 +12,7 @@ product_url: cloud-servers
 
 You can use the Cloud Control Panel to perform administrative tasks in as few clicks as possible. This article describes the different methods for performing server management tasks in the control panel.
 
-## Identifying server types
+### Identifying server types
 
 Two types of servers can be listed on the Cloud Servers page in the control panel:
 
@@ -29,7 +29,7 @@ You can also filter your servers by type.
 
 <img alt="" height="408" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Server%20Type%20Filter.png" title="" width="177" border="1" />
 
-## Accessing server management tasks
+### Accessing server management tasks
 
 You can use the gear menu or the Actions menu to perform management operations on your server.
 
