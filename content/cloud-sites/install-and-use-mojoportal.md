@@ -10,20 +10,20 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
+**Note:** This article refers to the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
-### **Prerequisites**
+### Prerequisites
 
 -   Administrative access to the Rackspace Cloud to create domains and
     add databases
 -   Latest mojoPortal release version uncompressed in a local repository
 -   Ftp access to website, and a ftp client like ExpanDrive
 
-### **Procedure**
+### Procedure
 
 -   Review the mojoPortal Installation reference
     <http://www.mojoportal.com/installation-quick-start.aspx>
@@ -34,7 +34,7 @@ and selecting Cloud Sites Control Panel.
 -   Navigate the Hosting-&gt;Cloud Sites menu to the website hyperlink
     on which mojoPortal is to be installed.
 
-**NOTE:** The domain must have .Net and Asp technology Feature enabled,
+**Note:** The domain must have .Net and Asp technology Feature enabled,
 and database Feature selected. The database feature can be added by
 using the CHANGE PLAN hyperlink on the domain **General Settings** tab.
 
@@ -56,7 +56,7 @@ using the CHANGE PLAN hyperlink on the domain **General Settings** tab.
 -   With this, Cloud Sites specific steps are complete. We can get
     started with the installation of mojoPortal.
 
-**NOTE**: Only applications that run under **Medium Trust** can function
+**Note**: Only applications that run under **Medium Trust** can function
 on the Rackspace Cloud. This is for security reasons in a hosting
 environment.
 
