@@ -17,8 +17,7 @@ site](/how-to/enable-and-disable-collection-of-mobile-phone-numbers-in-rackspace
 article to link to the self-service password recovery from your
 Rackspace Email Webmail site login page.
 
-For direct customers
---------------------
+### For direct customers
 
 To link to the self-service password recovery, add a line of HTML code
 to your private label login page, as follows:
@@ -27,15 +26,13 @@ to your private label login page, as follows:
 2.  Click **Rackspace Email**.
 3.  Click **Webmail Sites**.
 4.  Click **Login/Logout Pages**.
-5.  Add the following html code between the &lt;body&gt; and
-    &lt;/body&gt; tags.
+5.  Add the following HMTL code between the `<body>` and `</body>` tags.
 
         <a href="/forgot-password" id="forgot_password">Forgot Password?</a>
 
 6.  Click **Save**.
 
-For resellers
--------------
+### For resellers
 
 To link to the self-service password recovery, add a line of HTML code
 to your private label login page, as follows:
@@ -45,11 +42,8 @@ to your private label login page, as follows:
 3.  Click **Webmail Sites**.
 4.  Choose a Webmail site and click **Customize**.
 5.  Click **Login/Logout Pages**.
-6.  Add the following html code above between the &lt;body&gt; and
-    &lt;/body&gt; tags.
+6.  Add the following HTML code between the `<body>` and `</body>` tags.
 
         <a href="/forgot-password" id="forgot_password">Forgot Password?</a>
 
 7.  Click **Save**.
-
-
