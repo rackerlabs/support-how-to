@@ -10,7 +10,6 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-<div class="table-wrap">
 
 **What is changing?**
 ---------------------
