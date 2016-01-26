@@ -10,13 +10,12 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-Public and Internal IPs
------------------------
+### Public and Internal IPs
 
 All Next Generation Cloud Servers automatically receive three IP
 addresses upon creation:
 
--   <span>A version 4 **IP Address**</span> that provides public access
+-   A version 4 **IP Address** that provides public access
     to your server from anywhere on the Internet.
 -   A version 6 **IP Address** that also provides public access to your
     from anywhere on the Internet.
@@ -34,8 +33,7 @@ Zippy:
 public v4 IP address and the internal Rackspace Network IP address. In
 the Cloud Control Panel, the Rackspace Network is called ServiceNet.
 
-Why is this Important to Load Balancing?
-----------------------------------------
+### Use regions and the Racskapce Network to manage bandwidth charges
 
 If your Cloud Server (also known as a **node** within the Cloud Load
 Balancers product) and Cloud Load Balancer are set up in the *same
@@ -55,8 +53,7 @@ balancer in Dallas will incur normal bandwidth charges:
 ![Load Balancing Nodes in the Same
 Region](http://c691244.r44.cf2.rackcdn.com/cloud-load-balancers-illustration.png)
 
-**Selecting a Load Balancer's Region**
---------------------------------------
+#### Selecting a Load Balancer's Region
 
 To take advantage of this cost savings and performance feature, you'll
 need to match the location of your Cloud Load Balancer with the node.
