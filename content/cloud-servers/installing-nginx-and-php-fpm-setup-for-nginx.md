@@ -10,10 +10,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Prerequisites
+### Previous section
 
-[Installing NGINX and
-PHP-FPM](/how-to/installing-nginx-and-php-fpm)
+[Installing NGINX and PHP-FPM](/how-to/installing-nginx-and-php-fpm)
 
 After NGINX installed, you can set up NGINX and PHP-FPM to work on your
 system.
@@ -24,8 +23,7 @@ confusing to you. However, you will see some familiar directives and
 directives that you might recognize. For more information on NGINX, see
 the [NGINX Wiki](http://wiki.nginx.org/Main).
 
-Set up NGINX configuration files
---------------------------------
+### Set up NGINX configuration files
 
 To set up NGINX, you must change the following configuration files,
 which are contained in the directory **/etc/nginx/**.
@@ -46,16 +44,14 @@ up the original configuration files by using the following command:
 
 ### nginx.conf
 
-Below is an example of how you can change your **nginx.conf** flie. The
+Below is an example of how you can change your **nginx.conf** file. The
 file contains two include parameters in the **\# Virtual Host
 Configs** area, which allow you to have a separate configuration file
 directory and a separate virtual host file directory. Although these
 parameters are not necessary, they simplify the deployment of virtual
 hosts.
 
-
-
-``` {.p6}
+```
 user nginx www-data;
 worker_processes 4;
 pid /var/run/nginx.pid;
@@ -116,7 +112,7 @@ for most production systems.
 
 Use the following parameters in your **fastcgi params** file:
 
-``` {.p6}
+```
 fastcgi_param   QUERY_STRING        $query_string;
 fastcgi_param   REQUEST_METHOD      $request_method;
 fastcgi_param   CONTENT_TYPE        $content_type;
@@ -143,7 +139,7 @@ fastcgi_param   SERVER_NAME     $server_name;
 fastcgi_param   REDIRECT_STATUS     200;
 ```
 
-### security
+### Security
 
 Although it is not required, adding a security file to
 your **/etc/nginx** directory will simplify the deployment of a virtual
@@ -151,9 +147,7 @@ host with NGINX.
 
 Use the following parameters in your security file:
 
-
-
-``` {.p6}
+```
 ## Only requests to our Host are allowed
 #      if ($host !~ ^($server_name)$ ) {
 #         return 444;
@@ -165,7 +159,7 @@ Use the following parameters in your security file:
          return 444;
      }
 
-## Deny certain Referers ###
+## Deny certain Referrers ###
      if ( $http_referer ~* (babes|forsale|girl|jewelry|love|nudit|organic|poker|porn|sex|teen) )
      {
          return 404;
@@ -184,7 +178,7 @@ the file in the **/etc/nginx/conf.d/** directory.
 
 Use the following parameters in your **mail.conf** file:
 
-``` {.p6}
+```
 #mail {
 #       # See sample authentication script at:
 #       # http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
@@ -211,11 +205,10 @@ Note how each directive is commented out. If you want to change your
 NGINX configuration for a high-performance mail proxy server, uncomment
 the preceding directives above by deleting every \#.
 
-Set up virtual hosts
---------------------
+### Set up virtual hosts
 
 After you have completed your NGINX configuration, you can set up your
-virtual hosts. In Debain, the following subdirectories under the
+virtual hosts. In Debian, the following subdirectories under the
 **/etc/nginx/ **directory pertain to virtual hosts:
 
 -   **sites-available**, where you house your virtual hosts
@@ -228,9 +221,9 @@ config file. You can either copy or symlink the file from one place to
 the other.
 
 To symlink a virtual host config file from one directory to another,
-enter the follwoing command:
+enter the following command:
 
-``` {.p6}
+```
 ln -s /etc/nginx/sites-available/THE.VIRTUAL.HOST.FILENAME /etc/nginx/sites-enabled/THE.VIRTUAL.HOST.FILENAME
 ```
 
@@ -242,7 +235,7 @@ Following is an example of a virtual host file set up for instances
 using PHP. Replace DOMAINNAME with the name of the domain for which you
 want to create a virtual host.
 
-``` {.p6}
+```
 server {
     server_name  www.DOMAINNAME;
     rewrite ^(.*) http://DOMAINNAME$1 permanent;
@@ -274,16 +267,14 @@ error_log  /var/log/nginx/DOMAINNAME.error.log notice;
 }
 ```
 
-**Note: **Please review the PHP section of this virtual host template.
+**Note**: Please review the PHP section of this virtual host template.
 This is the first reference to using UNIX file sockets for processing
 PHP.
-
-
 
 If you want to create a virtual host without PHP, remove the PHP portion
 of the previous configuration file:
 
-``` {.p6}
+```
 server {
     server_name  www.DOMAINNAME;
     rewrite ^(.*) http://DOMAINNAME$1 permanent;
@@ -316,8 +307,6 @@ serve.
 Now that you have configured NGINX and created your virtual hosts, you
 are now ready to configure PHP-FPM.
 
-### Next steps
+### Next section
 
-[Installing NGINX and PHP-FPM - Setup for
-PHP-FPM](/how-to/installing-nginx-and-php-fpm-setup-for-php-fpm)
-
+[Installing NGINX and PHP-FPM - Setup for PHP-FPM](/how-to/installing-nginx-and-php-fpm-setup-for-php-fpm)
