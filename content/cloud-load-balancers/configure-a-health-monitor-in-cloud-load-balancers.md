@@ -100,10 +100,8 @@ load balancer rotation until the health monitor determines that the node is func
 5.  Click **Save Monitoring Settings** to apply your changes.
 
 <a name="tip1"></a>
-**Tip**:  To debug the HTTP health monitoring, test the
-          body regex against the IP address of the nodes that are being
-          disabled.  You can use the following cURL command to see what the
-          health monitoring analyzes:
+
+**Tip:**  To debug the HTTP health monitoring, test the body regex against the IP address of the nodes that are being disabled.  You can use the following cURL command to see what the health monitoring analyzes:
 
           $ curl -s -r 0-2048 https://YOUR_IP_ADDRESS | head -c 2048 | egrep "YOUR_REGULAR_EXPRESSION"
           
