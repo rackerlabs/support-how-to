@@ -17,8 +17,7 @@ script that performs similar logic.
 This article describes how to perform this task by using a PHP script
 and a HTML form, as an alternative to using a cron job.
 
-Prerequisites
--------------
+### Prerequisites
 
 Before implementing your script for deletion of older files, understand
 that this is not designed to be used as a cron job. If you want to use a
@@ -40,8 +39,7 @@ content. Secure it with a
 [.htaccess](/how-to/rackspace-cloud-essentials-tips-and-tricks-for-htaccess-and-webconfig)
 file. You can also delete the form when you're done with it.
 
-The HTML form
--------------
+### The HTML form
 
 The HTML form that sends the directory and age to the PHP script is as
 follows:
@@ -59,8 +57,7 @@ follows:
          </body>
     </html>
 
-The PHP script
---------------
+### The PHP script
 
 The PHP script that takes arguments from the `HTML GET` query string can
 be constructed as follows:
