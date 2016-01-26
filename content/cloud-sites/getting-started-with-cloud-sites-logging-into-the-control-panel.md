@@ -46,22 +46,17 @@ The Control Panel has 3 main sections
 
 [<img src="http://c739518.r18.cf2.rackcdn.com/CP3Colors2.png" title="Click here to view full size image" alt="Click here to view full size image" width="1463" height="780" />](http://c739518.r18.cf2.rackcdn.com/CP3Colors2.png)
 
-
-
-<span class="mw-headline">Left Navigation Menu</span>
------------------------------------------------------
+### Left navigation menu
 
 Your "Go To" menu, where you access all your assets, support, and manage
 account information.
 
-<span class="mw-headline">Details Section</span>
-------------------------------------------------
+#### Details section
 
 This dynamic section displays the specific data associated with your
 selections from the left navigation menu.
 
-Cloud News
-----------
+#### Cloud news
 
 This dynamic section viewable from the Home Screen will show the latest
 news including new features releases, pricing updates, industry news,
@@ -70,8 +65,7 @@ announcements.  Any news of service impacting events will still be
 reported from the [Cloud
 Status](http://status.rackspacecloud.com/) page.
 
-<span class="mw-headline">Left Navigation Menu</span>
------------------------------------------------------
+#### Left navigation menu
 
 -   **Home** - Takes you to the Welcome page with Account Activity
     Summary displayed.
@@ -79,7 +73,8 @@ Status](http://status.rackspacecloud.com/) page.
 <img src="http://c739518.r18.cf2.rackcdn.com/gettingstartedhighlight.png" width="450" height="398" />
 
 Click on the tab labeled 'Getting Started' from the Welcome screen.
- This will show you a brief overview of some key concepts for our
+
+This will show you a brief overview of some key concepts for our
 products, and is a handy 'quick-reference' guide.
 
 [<img src="http://c806394.r94.cf2.rackcdn.com/gettingstarted.png" title="Click here to view full size image" alt="Click here to view full size image" width="1248" height="533" />](http://c806394.r94.cf2.rackcdn.com/gettingstarted.png)
@@ -110,7 +105,7 @@ That just about covers the basic navigation of the Control Panel.  In
 the next article, Accessing Billing Information, you will learn the
 details of the Billing portion of your Control Panel.
 
-### Next section
+#### Next section
 
 [Accessing billing
 information](/how-to/getting-started-with-cloud-sites-accessing-billing-information)
