@@ -1,6 +1,6 @@
 ---
 node_id: 4210
-title: Exchange Email Mailbox Features
+title: Exchange email mailbox features
 type: article
 created_date: '2014-08-25'
 created_by: Marco Salazar

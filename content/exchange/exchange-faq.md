@@ -4,8 +4,8 @@ title: Microsoft Exchange FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -14,15 +14,15 @@ product_url: exchange
 
 #### What is the maximum mailbox storage?
 
-For customers on an Exchange 2007 environment, the maximum mailbox
-storage is 10GB's.
-
 For customers on an Exchange 2010 environment, the maximum mailbox
-storage is 50GB's.
+storage is 50GB.
+
+For customers on an Exchange 2007 environment, the maximum mailbox
+storage is 10GB.
 
 #### What is the maximum size for an attachment?
 
-The maximum size for an attachment in the Exchange environment is 50mb.
+The maximum size for an attachment in the Exchange environment is 50MB.
 
 #### What is Outlook Web Access (OWA)?
 
@@ -96,4 +96,3 @@ to **Support** at the bottom and select **View/Create Ticket**. To
 create a new ticket select **Create New Ticket** and fill out the
 information describing your request or issue and submit. You can also
 view a history of your most recent tickets.
-
