@@ -49,7 +49,7 @@ by using the control panel to import that information from a .CSV file.
        characters, lowercase characters, numerals 0-9, or
        non-alphabetic characters (such as !, $, #, or %).
 
-       For example, **Ex@mple1** is a valid password.
+     For example, **Ex@mple1** is a valid password.
 
      Confirm the password by retyping the password you entered in the
      **Password** box.
