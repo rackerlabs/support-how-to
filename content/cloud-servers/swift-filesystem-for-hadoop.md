@@ -10,8 +10,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<div>
-
 The Swift filesystem for Hadoop (swiftfs, for short) is a Hadoop file
 system implementation that allows applications such as MapReduce, Pig,
 and Hive to read and write directly to containers in an OpenStack Swift
@@ -75,10 +73,6 @@ Using Pig to read data from Swift:
 
 **Example 2**
 
-</div>
-
-<div>
-
 Copying from HDFS to a Swift container named `myfiles` in the Chicago
 (ORD) region:
 
@@ -106,7 +100,7 @@ Each of these services is seeded with the cloud credentials (Rackspace
 user name and API key) from your Cloud Big Data profile, if you supplied
 them. (For information about viewing your Rackspace API key, see [View
 and reset your API
-key](/how-to/view-and-reset-your-api-key).)
+key](/how-to/view-and-reset-your-api-key).
 Also, each service is configured appropriately to use the public or
 private network, depending on the Swift region and the location of your
 cluster.
@@ -199,8 +193,3 @@ For additional information about Hortonworks Data Platform (HDP) in the
 Rackspace Cloud environment, see the Hortonworks blog post, [OpenStack:
 why it&rsquo;s so great to see HDP in Rackspace
 cloud.](http://hortonworks.com/blog/openstack-why-its-so-great-to-see-hdp-in-rackspace-cloud/)
-
-</div>
-
-
-

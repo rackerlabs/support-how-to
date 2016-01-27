@@ -22,21 +22,7 @@ replication between two cloud servers. The operating system used for the
 examples in the article is CentOS 6, built from a Rackspace Cloud
 Servers base image.
 
-<div id="toctitle">
-
-**Contents**
-
-</div>
-
--   [<span class="toctext">Before you begin</span>](#1)
--   [<span class="toctext">Create the Cloud Servers</span>](#2)
--   [<span class="toctext">Install MySQL</span>](#3)
--   [<span class="toctext">Configure replication</span>](#4)
--   [<span class="toctext">Test replication</span>](#5)
-
-
-
-### <span class="mw-headline">Before you begin</span>
+### Before you begin
 
 The steps in this article use two cloud servers named db01 and db02.
 Cloud servers have two IP addresses (one public, one private). The
@@ -51,12 +37,10 @@ and restore into the slave node is required before configuring
 replication between them. You use the **mysqldump** command to dump a
 database into a file, then transfer it and restore it to the slave.
 After the necessary configuration has been performed, replication is in
-effect. For more information, see the [Configure replication](#4)
+effect. For more information, see the **Configure replication**
 section.
 
-
-
-### <span class="mw-headline">Create the Cloud Servers</span>
+### Create the Cloud Servers
 
 Create two Linux cloud servers, using the Centos 6 base image. Use the
 following steps to create each server separately.
@@ -75,13 +59,10 @@ The commands outlined in the following sections need to be executed by a
 privileged (root, sudo group) user. Any strings or values specified in
 brackets should be replaced with data specific to your setup.
 
-
-
-### <span class="mw-headline">Install MySQL</span>
+### Install MySQL
 
 You must install the *mysql-server* package on both CentOS Cloud
 Servers.
-
 
 
 1.  Before installing MySQL, confirm that the package database is
@@ -139,9 +120,7 @@ Servers.
 Complete the following section to make relevant configuration changes to
 enable replication.
 
-
-
-### <span class="mw-headline">Configure replication</span>
+### Configure replication
 
 A MySQL user is required on the master server (db01) to be used for
 replication.
@@ -249,9 +228,7 @@ replication.
     always (CODE)/etc/my.cnf(/CODE) will define the location of your
     log file.
 
-
-
-### <span class="mw-headline">Test replication</span>
+### Test replication
 
 To test the replication setup, create a new database and associated
 table on db01, and insert data to confirm that the changes are mirrored
@@ -268,4 +245,3 @@ on db02. In the following example, the new database is called
     mysql> exit
 
 The changes should be visible on db02 immediately.
-

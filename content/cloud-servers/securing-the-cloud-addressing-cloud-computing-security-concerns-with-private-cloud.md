@@ -29,7 +29,7 @@ to address these issues.
 
 
 
-**Security against Hackers**
+### Security against Hackers
 
 The first security concern in any computing environment is the threat
 from hackers. Cloud computing in a shared environment creates new
@@ -54,7 +54,7 @@ allows businesses to tightly control access to the entire environment.
 
 
 
-**Security against Resource Contention**
+### Security against Resource Contention
 
 
 
@@ -122,4 +122,3 @@ cloud](http://www.rackspace.com/managed_hosting/private_cloud/index.php)
 to optimize their environments now will be well-positioned for a future
 transition to [public cloud](http://www.rackspacecloud.com/) as their
 needs evolve and new technologies are developed.
-

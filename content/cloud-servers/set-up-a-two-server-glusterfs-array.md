@@ -14,29 +14,29 @@ This article presents a step-by-step description for how to set up a two-server 
 
 Having two web servers behind a load balancer means that they have to synchronize the files that they serve and write to. On modern Linux distributions, GlusterFS is the easiest way to accomplish this task. The examples in this article use Ubuntu Trusty as the Linux distribution. This article is the first in a series of three articles about using GlusterFS within the Rackspace cloud environment.
 
-## Disclaimers
+### Disclaimers
 
 This example in this article uses new servers. You need to alter some of the commands if you already have servers set up, or to suit your usage.
 
 Parts of this article involve formatting disks and removing files, which could erase data. It is your responsibility to ensure that the disks that you format and files that you erase don't contain important data *before* you run the commands.
 
-## Prerequisites
+### Prerequisites
 
 You need two Rackspace Cloud servers running Ubuntu Trusty. This article uses the new Performance flavor servers. The data disk's main partition `/dev/xvde1` is  set apart for GlusterFS.
 
-If you are using [Nova](http://docs.rackspace.com/servers/api/v2/cs-gettingstarted/content/section_gs_install_nova.html), you can build two 4-GB Performance severs with Ubuntu Trusty and PVHVM as follows:
+If you are using [Nova](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#using-the-nova-client), you can build two 4-GB Performance severs with Ubuntu Trusty and PVHVM as follows:
 
     nova boot --image bb02b1a3-bc77-4d17-ab5b-421d89850fca --flavor performance1-4 web1
     nova boot --image bb02b1a3-bc77-4d17-ab5b-421d89850fca --flavor performance1-4 web2
 
-## Install GlusterFS
+### Install GlusterFS
 
 To install GlusterFS, run the following commands on both servers:
 
     apt-get update
     apt-get install -y glusterfs-server glusterfs-client
 
-## Prepare the bricks
+### Prepare the bricks
 
 GlusterFS needs a file system that supports extended attributes to store its data. It creates directories in the file system and calls those directories *bricks.*
 
@@ -57,7 +57,7 @@ On a 4-GB Performance server, you have a whole extra drive that's already partit
 
 In the example, the term `bricks` is used because each directory in the setup is a GlusterFS brick. A GlusterFS volume is built of bricks (usually bricks on different hosts).
 
-## Set up a Rackspace network
+### Set up a Rackspace network
 
 Run GlusterFS on its own [Rackspace cloud network](/how-to/cloud-networks), which allows you to manage the network and firewall settings more easily.
 
@@ -73,7 +73,7 @@ The first command returns the UUID of the network, which you can copy and paste 
 
 You could also perform these steps by using [the web UI](/how-to/cloud-networks) instead of using the Nova command line.
 
-### Open the firewall
+#### Open the firewall
 
 Open the firewall to allow all traffic on this network. Run the following command on both servers:
 
@@ -83,14 +83,14 @@ In this example, the network is on the device `eth2`. You can use the command `i
 
 If you added web01 to the network first, it has the IP address 192.168.0.1 and web02 has the IP address 192.168.0.2.
 
-## Link the servers
+### Link the servers
 
 1.  Introduce the two Gluster servers to each other. The following example runs the command on `web01`, and tells it to link with `web02`:
 
     `root@web01:~# gluster peer probe web02
     peer probe: success`
 
-1.  Run the `gluster peer status` command on web02 to confirm that the servers are linked:
+2.  Run the `gluster peer status` command on web02 to confirm that the servers are linked:
 
     `root@web02:~# gluster peer status
     Number of Peers: 1`
@@ -100,7 +100,7 @@ If you added web01 to the network first, it has the IP address 192.168.0.1 and w
     Uuid: d080d5cc-4181-4d3f-91bc-ef42bb4e8ec9
     State: Peer in Cluster (Connected)`
 
-## Create the GlusterFS volumes
+### Create the GlusterFS volumes
 
 Now you can create the volumes. Run the following command on only *one* of the servers:
 
@@ -119,7 +119,7 @@ The parts of the command are as follows:
 
 For more information about these options, you can run the `man gluster` command.
 
-## Start and mount the volume
+### Start and mount the volume
 
 The volume exists, but it is not being actively synchronized nor served.
 
@@ -128,17 +128,17 @@ The volume exists, but it is not being actively synchronized nor served.
      `root@web01:~# gluster volume start www
      volume start: www: success`
 
-1.  Mount the volume in `/srv/www` initially. Run the following commands on both servers:
+2.  Mount the volume in `/srv/www` initially. Run the following commands on both servers:
 
     `mkdir /srv/www
     echo localhost:/www /srv/www glusterfs defaults,_netdev 0 0 >> /etc/fstab
     mount /srv/www`
 
-1.  Create the mount point, configure it in `/etc/fstab`, and then actually mount the GlusterFS volume.
+3.  Create the mount point, configure it in `/etc/fstab`, and then actually mount the GlusterFS volume.
 
-1.  In `/etc/fstab`, add one special option: `_netdev`. This option tells Ubuntu that the filesystem resides on a device that requires network access, and to not mount it until the network has been enabled.
+4.  In `/etc/fstab`, add one special option: `_netdev`. This option tells Ubuntu that the filesystem resides on a device that requires network access, and to not mount it until the network has been enabled.
 
-## Test it
+### Test it
 
 At this point, a file written to or read from `/srv/www/*` should be the same on both systems.
 
@@ -157,7 +157,7 @@ web01:
 
     ls /srv/www/ # Should return nothing
 
-## Move your web content to GlusterFS
+### Move your web content to GlusterFS
 
 In this example, `/var/www` must be on GlusterFS.  Ensure that web01 has the correct `/var/www`.
 
@@ -224,10 +224,10 @@ GlusterFS should show everything as healthy:
     Brick1: 192.168.0.1:/srv/.bricks/www
     Brick2: 192.168.0.2:/srv/.bricks/www
 
-## Conclusion
+### Conclusion
 
 You have installed GlusterFS and configured your servers to share your web content. Both servers hold a copy of the files and share changes almost instantaneously.
 
-## Where to go from here
+### Where to go from here
 
 The next article in this GlusterFS series describes how to [Add and remove GlusterFS servers](/how-to/add-and-remove-glusterfs-servers) in a GlusterFS array.

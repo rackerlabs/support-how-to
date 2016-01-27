@@ -29,25 +29,12 @@ The main point of this articles is that you can use cloud servers to
 scale horizontally. This is when you need horizontal expansion, adding
 drone servers behind a smart host each working a piece of workload.
 
--   [Prerequisites](#Prerequisites)
-    -   [Hardware](#Hardware)
-    -   [Software](#Software)
--   [Server configuration](#Server_Configuration)
-    -   [Web servers](#Web_Servers)
-    -   [Load balancer](#Load_Balancer)
--   [Summary](#Summary)
-
-
-
-Prerequisites
--------------
+### Prerequisites
 
 You need to have the following hardware and software in place before you
 begin.
 
-
-
-### Hardware
+#### Hardware
 
 You are going to use a total of three servers to start, but you can use
 this as a model to scale horizontally.
@@ -57,7 +44,7 @@ this as a model to scale horizontally.
 
 
 
-### Software
+#### Software
 
 The software for all three servers will be the same; they will be
 running the same packages. You need to add only two software groups.
@@ -77,16 +64,13 @@ Perform the following steps.
 
         # yum groupinstall "Text-based Internet"
 
-
-
-Server configuration
---------------------
+### Server configuration
 
 Configure the servers as two webheads and one load balancer.
 
 
 
-### Web servers
+#### Web servers
 
 Because the webheads are really just drones, they don't need any special
 configurations. Just create a file called **index.html** in
@@ -95,16 +79,12 @@ distinguishing characteristics you want. For example, you could put "It
 works you looking at WebHead \#" where \# is the numerical identifier of
 that particular webhead.
 
-
-
-### Load balancer
+#### Load balancer
 
 This sections walks through each step and then brings it together at the
 end, so you know what the end product should be. Place all of the
 configurations that you define at the bottom of the
 **/etc/httpd/conf/httpd.conf** file in a standard virtual host.
-
-
 
 #### Unwanted requests
 
@@ -112,9 +92,7 @@ Turn off ProxyRequests to avoid any unwanted traffic.
 
     ProxyRequests off
 
-
-
-#### The balance
+#### Balance webheads
 
 In this part of the virtual host, name the webheads and declare how you
 will be balancing. The `BalanceMember` directive is how you declare the
@@ -145,8 +123,6 @@ network, where bandwidth is free.
 
     </Proxy>
 
-
-
 #### Balance-manager (optional)
 
 The `balance-manager` is a tool packaged with the `mod_proxy_balancer`
@@ -161,9 +137,6 @@ this tool end after you restart Apache.
     </Location>
 
 
-
-
-
 #### ProxyPass
 
 This is the last part of the configuration, and adds the situations that
@@ -173,10 +146,7 @@ but you do want to proxy everything else.
        ProxyPass /balancer-manager !
        ProxyPass / balancer://mycluster/
 
-
-
-Summary
--------
+### Summary
 
 If you have all this configured in your **httpd.conf** file on your load
 balancer cloud server, and you start Apache, you should be able to view
@@ -247,5 +217,3 @@ using 2.2, replace `Require all granted` with
             ProxyPass / balancer://mycluster/
 
     </VirtualHost>
-
-
