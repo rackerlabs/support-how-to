@@ -109,7 +109,7 @@ Use the following steps to add individual users to the Archive Manager.
 
 Use the following steps to add multiple users to the Archive Manager.
 
-1\.  Under the **Users **tab in the admin dashboard, click **Bulk Create
+1\.  Under the **Users** tab in the admin dashboard, click **Bulk Create
     End Users**.
 
 2\.  Click **Download CSV file template** and save the compressed

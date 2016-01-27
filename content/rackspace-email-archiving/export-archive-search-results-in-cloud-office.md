@@ -12,10 +12,7 @@ product_url: rackspace-email-archiving
 
 Archive search results can be exported to share with outside parties.
 This can be helpful for auditing or legal requests, as well as historic
-activity review by a team. For additional information on available data
-import and export services, see our Rackspace Archiving service page
-[Data Imports and
-Exports](http://www.rackspace.com/apps/support/portal/6204).
+activity review by a team.
 
 Complete the following steps to export the results of a search in
 the Archive Manager.
