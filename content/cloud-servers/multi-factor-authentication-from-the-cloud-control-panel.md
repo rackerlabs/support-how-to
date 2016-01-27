@@ -26,8 +26,7 @@ account:
     your phone, notebook, or other digital device.
 
 You can add multi-factor authentication by updating your account
-settings in the [Rackspace Cloud Control
-Panel](https://mycloud.rackspace.com).  After you pair a device with
+settings in the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com). After you pair a device with
 your account, authentication becomes a two-step process:
 
 1.  Each time you log in, the Rackspace authentication service generates
@@ -42,48 +41,25 @@ your account, authentication becomes a two-step process:
 
 Additionally, Rackspace Cloud account administrators can configure
 account-wide settings to specify a multi-factor authentication policy
-for all account users.  By default, account users have the option to set
-up and use multi-factor authentication.  Administrators can update the
-account-wide settings  to require multi-factor authentication for all
+for all account users. By default, account users have the option to set
+up and use multi-factor authentication. Administrators can update the
+account-wide settings to require multi-factor authentication for all
 users. When this setting is enabled, users cannot access their account
-until they configure multi-factor authentication.  Current users are
-logged out as soon as the account-wide requirement is applied.  At the
+until they configure multi-factor authentication. Current users are
+logged out as soon as the account-wide requirement is applied. At the
 next login, users are notified of the increased security and prompted to
 complete the setup process.
 
-For more information, see the following sections:
-
--   [Configure multi-factor authentication by SMS
-    device](#configure-mfa-sms)
--   [Configure multi-factor authentication by OTP
-    device](#configure-mfa-otp)
--   [Set default multi-factor authentication
-    method](#configure-mfa-default)
--   [Configure account-wide multi-factor authentication settings from an
-    Administrator account.](#mfa-accountWide-settings)
--   [Configure multi-factor authentication during account log
-    in](#mfa-config-login)
--   [Log in to the Rackspace Cloud by using multi-factor
-    authentication](#login2Factor)
--   [Manage multi-factor authentication](#manage2Factor)
--   [Troubleshooting](#troubleshoot)
-
-
-
-------------------------------------------------------------------------
-
-### **Notes**
+**Notes**
 
 -   MyRackspace also implements multi-factor authentication, but it is
     not implemented through the Rackspace Cloud Identity 2.0 API. For
     information about using multi-factor authentication with
-    MyRackspace, see  *[MyRackspace Two-Factor
-    Authentication](/how-to/myrackspace-two-factor-authentication "MyRackspace Two-Factor Authentication")*.
+    MyRackspace, see [MyRackspace Two-Factor Authentication](/how-to/myrackspace-two-factor-authentication).
 
 -   You cannot configure multi-factor authentication from the Cloud
     Sites Control Panel. However, if you set up multi-factor
-    authentication for your Rackspace Cloud account using the [Cloud
-    Control Panel](https://mycloud.rackspace.com/), the configuration
+    authentication for your Rackspace Cloud account using the [Cloud Control Panel](https://mycloud.rackspace.com/), the configuration
     also applies to your Cloud Sites account. Multi-factor
     authentication can only be enabled for the main account user login;
     sub-account user logins are not able to use this feature. In
@@ -93,15 +69,14 @@ For more information, see the following sections:
 -   When multi-factor authentication is enabled for an account, it is
     enabled only for authentication via username and password
     credentials.
+
     If a client a user supplies a valid username and API key
     credentials, the client receives the authentication
     token immediately. This behavior allows automated processes or
     agents to run operations by using the username and API key
     credentials.
 
--   <div>
-
-    If you use an OpenStack or Rackspace CLI tool to authenticate with
+-   If you use an OpenStack or Rackspace CLI tool to authenticate with
     username and password, you cannot authenticate if you add
     multi-factor authentication to your account because the CLI tools do
     not support multi-factor authentication.  To work around this
@@ -114,22 +89,12 @@ For more information, see the following sections:
     -   If you are using a client that supports token authentication,
         use cURL to get the authentication token. Export the token value
         to the token environment variable for the client--for example,
-        OS\_TOKEN or OS\_AUTH\_TOKEN. Then, use the CLI to submit API
+        OS_TOKEN or OS_AUTH_TOKEN. Then, use the CLI to submit API
         requests to the Rackspace Cloud.
 
+-   You can also manage multi-factor authentication from the [Rackspace Identity service API.](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops)
 
-    </div>
-
--   You can also manage multi-factor authentication from the [Rackspace
-    Identity
-    service API.](http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/MFA_Ops.html)
-
-
-
-------------------------------------------------------------------------
-
-Configure your account to authenticate by using an SMS device
------------------------------------------------------------------
+### Configure your account to authenticate by using an SMS device
 
 To configure you account to use an SMS device for multi-factor
 authentication, you need the phone number associated with your digital
@@ -137,8 +102,7 @@ device. The device must be enabled to receive SMS text messages.
 
 **To register and verify an SMS device**
 
-1.  Log in to the [Rackspace Cloud Control
-    Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
+1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/).
 
 2.  Click **Account: *yourUsername*** in the top-right corner, and then,
     select **Account Settings** from the menu**.**
@@ -149,12 +113,10 @@ device. The device must be enabled to receive SMS text messages.
     device, and then type the device phone number. Click **Add
     SMS Device.**
 
-    ![Add an SMS device to your account so you can set up multi-factor
-    authentication](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/add-sms-device.png)
+    ![Add an SMS device to your account so you can set up multi-factor authentication](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/add-sms-device.png)
 
     When you click **Add SMS Device**, the Identity service sends an SMS
     text message with a four-digit PIN to the specified phone.
-
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify_code.png" width="290" height="200" />
 
@@ -162,31 +124,24 @@ device. The device must be enabled to receive SMS text messages.
     to your mobile device in the verification code field. Then, click
     **Verify Device**.
 
-    ![Enter the verification code to pair the SMS device with your
-    Rackspace Cloud
-    account](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-sms-device.png)
+    ![Enter the verification code to pair the SMS device with your Rackspace Cloud account](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-sms-device.png)
 
     After you submit the verification code, the Cloud Control Panel
     login page is displayed so that you can re-authenticate by using the
     multi-factor authentication process.
 
-Configure your account to authenticate by using an OTP device
------------------------------------------------------------------
+### Configure your account to authenticate by using an OTP device
 
 To configure your account to use an OTP device for multi-factor
 authentication, you must have one of the following OTP client
-applications installed on your device:  [Authy](https://www.authy.com/),
+applications installed on your device: [Authy](https://www.authy.com/),
 [Duo](https://www.duosecurity.com/),
-[Google
-Authenticator](https://support.google.com/accounts/answer/1066447?hl=en),
-or [SecureAuth
-OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx)
-.
+[Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en),
+or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx).
 
 **To register and verify an OTP device**
 
-1.  Log in to the [Rackspace Cloud Control
-    Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
+1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
 
 2.  Click **Account: *yourUsername*** in the top-right corner, and then,
     select **Account Settings** from the menu**.**
@@ -197,8 +152,7 @@ OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx)
 4.  On the Name of your Device form, type a **Device nickname** for
     the OTP device. Then, click **Add Device.**
 
-    ![Add an OTP device to your Rackspace Cloud
-    account](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/name-your-otp-device.png)
+    ![Add an OTP device to your Rackspace Cloud account](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/name-your-otp-device.png)
 
     After you click **Add Device**, the Identity service generates a
     barcode that you can use to link your Rackspace Cloud account with
@@ -208,9 +162,7 @@ OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx)
     client application on your device to scan the barcode on the Verify
     Code form.
 
-    ![Scan barcode by using the OTP application on your device to pair
-    your Rackspace Cloud account with
-    your device.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/scan-barcode.png)
+    ![Scan barcode by using the OTP application on your device to pair your Rackspace Cloud account with your device.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/scan-barcode.png)
 
     After you scan the code, the OTP application on your device creates
     the OTP device using the device name you specified. It also
@@ -223,17 +175,17 @@ OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx)
 6.  To verify the new device, enter the passcode on the Verify
     Code form. Then, click **Verify Mobile Passcode**.
 
-    **Note: ** As soon as you submit the verification code, you will be
+    **Note:** As soon as you submit the verification code, you will be
     logged out.
 
-    ![Verify new OTP device for multi-factor
-    authentication](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/otp-verify-device-code.png)
+    ![Verify new OTP device for multi-factor authentication](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/otp-verify-device-code.png)
 
-    **Note: ** By default, the new OTP device will be the default method
+    **Note:** By default, the new OTP device will be the default method
     for authentication. If you do not want it
     to be the default or if you do not want to be logged out of your
     account, remove the selection from **Make this my default
     authentication method**.
+
     You can update the default authentication method on the Account
     settings page.
 
@@ -241,55 +193,36 @@ OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx)
     enter the verification code from the OTP device that you paired with
     your account
 
-------------------------------------------------------------------------
-
-**Change default multi-factor authentication method**
----------------------------------------------------------
+### Change default multi-factor authentication method
 
 If your account has been configured with both SMS and OTP devices, you
 can select the default multi-factor authentication method from the
 Account Settings page.
 
-1.  Log in to the [Rackspace Cloud Control
-    Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
+1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/).
 
-2.  Click **Account:** ***yourUsername** *in the top-right corner, and
-    then select **Account Settings** from the menu**.**
+2.  Click **Account:** **yourUsername** in the top-right corner, and
+    then select **Account Settings** from the menu.
 
 3.  In the Multi-Factor Authentication section, review the default
     authentication method setting.  Click **Edit** to change it.
 
-    ![Change default
-    authentication method.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/default-authentication-method.png)
+    ![Change default authentication method.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/default-authentication-method.png)
 
-------------------------------------------------------------------------
-
-**Configure account-wide multi-factor authentication settings from an Administrator account**
--------------------------------------------------------------------------------------------------
+### Configure account-wide multi-factor authentication settings from an Administrator account
 
 Account administrators can update Rackspace Cloud account-wide settings
 to require all users to authenticate by using multi-factor
 authentication. When this setting is enabled, users cannot access their
 accounts until they add and verify a device on their account.
 
-### **Prerequisites**
+**To configure account-wide settings for multi-factor
+authentication**
 
--   Administrator account [configured for multi-factor
-    authentication](#configure2Factor).
--   To prevent service interruptions, ask account users to configure
-    multi-factor authentication before you add the account-wide
-    requirement.
-    If multi-factor authentication is already enabled, users do not lose
-    account access when the required setting is applied.
+1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
 
-****To configure account-wide settings for multi-factor
-authentication****
-
-1.  Log in to the [Rackspace Cloud Control
-    Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
-
-2.  Click **Account:** ***yourUsername** *in the top-right corner, and
-    then select **Account Settings** from the menu**.**
+2.  Click **Account: yourUsername** in the top-right corner, and
+    then select **Account Settings** from the menu.
 
 3.  In the **Account-Wide Settings** section, click the pencil to edit
     the **Require multi-factor authentication** setting.
@@ -311,31 +244,24 @@ authentication****
     When these users log back in, they are guided through the
     multi-factor authentication set up.
 
-------------------------------------------------------------------------
+### Configure multi-factor authentication during account log in
 
-**Configure multi-factor authentication during account login**
-------------------------------------------------------------------
-
-**If your account is not configured for multi-factor authentication when
+If your account is not configured for multi-factor authentication when
 it is required, you are notified about the increase in security
-requirements and prompted to set up authentication.**
+requirements and prompted to set up authentication.
 
-
-**<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa-setup-required.png" alt="Updated account with two-factor authentication requirement" height="212" />**
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa-setup-required.png" height="212" />
 
 To access your account, click **Set Up Multi-Factor Authentication.**
-Then, follow the [steps](#device-config-steps) to register and verify a
+Then, follow the steps to register and verify a
 device, and authenticate by using the passcode sent to the device.
 
-------------------------------------------------------------------------
-
-**********Log in to the Rackspace Cloud by using multi-factor authentication**
-----------------------------------------------------------------------------------
+### Log in to the Rackspace Cloud by using multi-factor authentication
 
 If you add multi-factor authentication capabilities to your account,
 authentication is a two-step process.
 
-### **Prerequisites**
+**Prerequisites**
 
 -   Rackspace Cloud accounts with valid username and password
     credentials
@@ -344,8 +270,7 @@ authentication is a two-step process.
 
 To log in to the Rackspace Cloud with multi-factor authentication
 
-1.  Log in to the [Rackspace Cloud Control
-    Panel](https://mycloud.rackspace.com/ "Cloud Control Panel") with
+1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/) with
     your user name and password.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control_panel_login.png" width="362" height="206" />
@@ -355,61 +280,53 @@ To log in to the Rackspace Cloud with multi-factor authentication
     text message with a 7-digit passcode to the device registered to
     your account.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa_passcode.png" alt="SMS text message with Rackspace passcode for two-factor authentication" width="366" height="207" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa_passcode.png" width="366" height="207" />
 
     If your device is configured to use multi-factor authentication by
     OTP device, open the OTP client application and get the passcode
     from the OTP device associated with your Rackpspace Cloud account.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/OTP-device.png" alt="OTP device with generated passcode for use with one-time password authentication." width="360" height="189" />
-
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/OTP-device.png" width="360" height="189" />
 
 2.  When prompted, type the passcode in the **Passcode** field on the
     control panel. Then, click **Verify Code** to log in to your
     account:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/enter_mfa_passcode.png" alt="Form to supply the two-factor authentication passcode sent to mobile device registered to Rackspace Cloud account." width="439" height="250" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/enter_mfa_passcode.png" width="439" height="250" />
 
     If the passcode is expired or invalid, refresh the page to return to
     the Rackspace Cloud Control Panel login page. Then, log in again and
     click the Resend code option on the Account Settings page to get a
     new passcode.
 
-** **
+### Manage multi-factor authentication
 
-------------------------------------------------------------------------
-
-**Manage multi-factor authentication**
-------------------------------------------
-
-<span>Rackspace Cloud users can view and manage the multi-factor
+<Rackspace Cloud users can view and manage the multi-factor
 authentication configuration from the Account Settings menu in the cloud
-control panel.</span>
+control panel.
 
-![Rackspace Cloud Account multi-factor authentication
-settings](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/account-settings-mfa.png)
+![Rackspace Cloud Account multi-factor authentication settings](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/account-settings-mfa.png)
 
-****To view multi-factor authentication settings****
+**To view multi-factor authentication settings**
 
 1.  After logging in to the control panel, click **Account:
-    *yourUsername* &gt; Account Settings** to open the Account Settings
+    *yourUsername > Account Settings** to open the Account Settings
     page for your Rackspace Cloud account.
 2.  In the Login Details section, review the information in the
     **Multi-Factor Authentication** field.
 
-#### ******To verify your device******
+**To verify your device**
 
 You can verify your SMS or OTP device from the Account Settings page.
 
--   #### If you have an SMS device on your account that has not been verified, use the Verify option to complete the verification process.
+-   If you have an SMS device on your account that has not been verified, use the Verify option to complete the verification process.
 
 -   If you have an OTP device that has not been verified, use the Manage
     option to complete the verification process.
 
-    ![Verify multi-factor authentication device
-    options](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-device-options.png)
+    ![Verify multi-factor authentication device options](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-device-options.png)
 
-******To recover an account******
+**To recover an account**
 
 You can generate up to 10 bypass codes that you can use to authenticate
 if the device associated with your account is not available. You save
@@ -419,13 +336,12 @@ the generated codes to a file on your computer for future use.
 the bypass codes as soon as you enable multi-factor authentication.
 
 1.  After logging in to the control panel, click **Account:
-    *yourUsername* &gt; Account Settings** to open the Account
+    *yourUsername > Account Settings** to open the Account
     Settings page.
 
 2.  In the Login Details section, click **Generate Recovery Codes**.
 
-    ![Generate
-    recovery codes.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/generate-recovery-codes.png)
+    ![Generate recovery codes.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/generate-recovery-codes.png)
 
 3.  In the Quantity field, select the number of codes to generate or
     accept the default value.
@@ -434,19 +350,19 @@ the bypass codes as soon as you enable multi-factor authentication.
 
 5.  Copy the recovery codes to a text file, or click save your codes.
 
-#### ******To remove multi-factor authentication******
+**To remove multi-factor authentication**
 
 You can turn off multi-factor authentication and remove all devices
 associated with your account.
 
 1.  After logging in to the control panel, click **Account:
-    yourUserName &gt; Account Settings** to open the Account
+    yourUserName > Account Settings** to open the Account
     Settings page.
 
 2.  In the Login Details section, click **Remove all devices** in the
     Multi-Factor Authentication field.
 
-#### ******To change the mobile phone number******
+**To change the mobile phone number**
 
 To change the mobile phone number paired with your account, use the
 Remove option to remove the existing phone number (for instructions, see
@@ -459,10 +375,7 @@ To remove an SMS device, use the **Remove all devices**.
 To remove an OTP device, use the Manage option to delete the device from
 your account.
 
-------------------------------------------------------------------------
-
-******Troubleshooting******
--------------------------------
+### Troubleshooting
 
 **Use the following information to resolve common issues that can occur
 when configuring and using multi-factor authentication.**
@@ -499,6 +412,3 @@ when configuring and using multi-factor authentication.**
 </tr>
 </tbody>
 </table>
-
-
-

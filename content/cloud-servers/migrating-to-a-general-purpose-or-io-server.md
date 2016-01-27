@@ -10,21 +10,17 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Migrating your data to a General Purpose or I/O-optimized cloud server ([product page](http://www.rackspace.com/cloud/servers "Rackspace Cloud Servers page")) from a Standard cloud server can be a straightforward process with some planning and preparation.
+Migrating your data to a General Purpose or I/O-optimized cloud server ([product page](http://www.rackspace.com/cloud/servers)) from a Standard cloud server can be a straightforward process with some planning and preparation.
 
-## Preparation
+### Preparation
 
-[prep]:/knowledge_center/preparing-for-a-cloud-server-migration "Preparing for a Cloud Server Migration"
-
-For detailed advice on preparing a server for a smooth migration, see the recommendations in [Prepare to migrate a Linux server][prep]. In particular, you can reduce the amount of data to be migrated by deleting old installers, rotating logs, and removing old cache and session files.
+For detailed advice on preparing a server for a smooth migration, see the recommendations in [Prepare to migrate a Linux server](/how-to/prepare-to-migrate-a-linux-server). In particular, you can reduce the amount of data to be migrated by deleting old installers, rotating logs, and removing old cache and session files.
 
 You can also find a good list of items to consider before migrating in the [Before you move to General Purpose or I/O server checklist](/how-to/before-you-move-to-general-purpose-or-io-cloud-server-checklist).
 
 If you plan to remove files from your server to speed up your migration, we recommend that you create a backup first to ensure that no essential data is lost.
 
-## Image-based migration
-
-[makeimage]:/knowledge_center/cloud-essentials-4-creating-an-image-backup-cloning-and-restoring-a-server-from-a-saved "Creating and Restoring Images"
+### Image-based migration
 
 The easiest way to migrate an existing server to a General Purpose server is to migrate an image of the existing server. A server image can be restored only to the system disk of a General Purpose server. (Similarly, images can be taken only from the system disk of a General Purpose server; images cannot be saved for any data disks attached).
 
@@ -32,13 +28,13 @@ Image-based migration to a General Purpose server is not possible for Standard s
 
 Images are restricted to the region in which they were created. General Purpose servers can currently be created in the IAD, ORD, DFW, SYD, and LON regions.
 
-The simplest way to find out if you can use an image-based migration is to try it. Create an image of your server (you can use the steps in [this article][makeimage] for guidance), and then try to restore the image to a new server. If the image size is too large for a General Purpose server system disk, you won't have the option to create a General Purpose server.
+The simplest way to find out if you can use an image-based migration is to try it. Create an image of your server (you can use the steps in [this article](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image) for guidance), and then try to restore the image to a new server. If the image size is too large for a General Purpose server system disk, you won't have the option to create a General Purpose server.
 
 If an image-based migration works, we recommend using that approach. For a reliable migration, we recommend stopping any running applications before you create the image that you will restore to the new server.
 
 If you're unable to use image-based migration, read the following sections to prepare for a manual migration of your data.
 
-## Manual migration
+### Manual migration
 
 If you can't use image-based migration, use the information in this section to plan for a manual migration.
 
@@ -72,8 +68,6 @@ After you know which data will be copied to your system disk and which will be c
 
 ### Create the destination server
 
-[arch]:/knowledge_center/rackspace-open-cloud-reference-architecture
-
 When you create the destination server, consider your storage requirements as well as your memory, CPU, and network requirements.
 
 If you have more data than will fit on the new server's system disk, you need to decide where you want to store the additional data. The flavor of server you've selected might include one or more data disks. You can also attach Cloud Block Storage volumes to the server.
@@ -84,15 +78,11 @@ General Purpose and I/O-optimized servers can't be resized, so adding and removi
 
 Alternatively, you might plan your environment to use horizontal scaling, where more than one server runs your application, with a load balancer managing traffic to the different servers. Horizontal scaling might not work with all applications, but after it is set up, you can easily add or remove servers to account for fluctuating load requirements.
 
-Some example environments can be found in [our article on open cloud reference architectures][arch].
+Some example environments can be found in [our article on open cloud reference architectures](/how-to/rackspace-open-cloud-reference-architecture).
 
 **Note:** You can't take a snapshot of a General Purpose server data disk, so to back up data disks you must rely on Rackspace Cloud Backup or a similar file-based backup approach. If you want your additional storage to be more portable or need to be able to take data snapshots, consider [adding one or more Cloud Block Storage volumes](/how-to/create-and-attach-a-cloud-block-storage-volume) to the new server.
 
 ### Format and configure any data disks
-
-[windata]:/how-to/preparing-data-disks-on-windows-cloud-servers
-[linuxdata]:/how-to/preparing-data-disks-on-linux-cloud-servers
-[softraid]:http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html "Linux Software RAID HOWTO"
 
 After you create your server, prepare any attached data disks or Cloud Block Storage volumes by formatting them and configuring the system to use them.
 
@@ -100,10 +90,10 @@ If you've attached Cloud Block Storage volumes, see the [Prepare Your Cloud Bloc
 
 For instructions on formatting and mounting data disks on General Purpose or I/O-optimized servers, see the following article that is appropriate for your server's operating system:
 
-- [Preparing a data disk on a Windows General Purpose Server][windata]
-- [Preparing a data disk on a General Purpose Server][linuxdata]
+- [Preparing a data disk on a Windows General Purpose Server](/how-to/preparing-data-disks-on-windows-cloud-servers)
+- [Preparing a data disk on a General Purpose Server](/how-to/preparing-data-disks-on-linux-cloud-servers)
 
-If you are setting up attached volumes in a software RAID on Linux, see the [Linux Software RAID HOWTO][softraid] for instructions.
+If you are setting up attached volumes in a software RAID on Linux, see the [Linux Software RAID HOWTO](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html) for instructions.
 
 When your attached disks ready, you can migrate your data.
 
@@ -129,7 +119,7 @@ For more information about rsync, see [Backing up your files with rsync](/how-to
 
 #### Full Linux migration with rsync
 
-If you want to migrate the entirety of a Linux server to a new General Purpose server, you use rsync to migrate your server from the command line.
+If you want to migrate the entirety of a Linux server to a new General Purpose server, you use rsync to migrate your server from the command line. See [Migrate a Linux server from the command line](/how-to/migrating-a-linux-server-from-the-command-line-1).
 
 #### Web Farm Framework on Windows 2008
 
