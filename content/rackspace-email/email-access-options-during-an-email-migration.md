@@ -1,6 +1,6 @@
 ---
 node_id: 3803
-title: Email Access Options during an Email Migration
+title: Email access options during an email migration
 type: article
 created_date: '2013-12-04'
 created_by: Milton Prado
@@ -12,24 +12,24 @@ product_url: rackspace-email
 
 Although it is common to set up email clients such as Outlook after a
 migration, Rackspace mailboxes can be accessed at any time after they
-are created.  Accessing the mailbox does not interrupt a migration in
+are created. Accessing the mailbox does not interrupt a migration in
 process.
 
-Users who prefer webmail can log in via the [Rackspace Webmail
+Users who prefer Webmail can log in via the [Rackspace Webmail
 URL](https://apps.rackspace.com).
 
-Users who prefer to use an email program such as Outlook will need to
-change their client settings in order to receive mail from the Rackspace
-servers.  Depending on your migration strategy, changes to the email
+Users who prefer to use an email program such as Outlook need to
+change their client settings to receive mail from the Rackspace
+servers. Depending on your migration strategy, changes to the email
 program settings may occur during or after the migration.
 
 To help you and your end users have the best experience when switching
 over, Rackspace provides the following options for setting up user
 access before a migration is complete.
 
-### Webmail Access
+### Webmail access
 
-**Note**: Webmail is immediately available to all users once the mailbox
+**Note**: Webmail is immediately available to all users after the mailbox
 is created. It provides them with the ability to send and receive email
 even though their email clients have not yet been configured.
 
@@ -51,15 +51,15 @@ Auto-Config Tool, <https://emailhelp.rackspace.com>.
 -   Allows for immediate access to send and receive email
 -   Ideal for remote users
 
-### Pre-Stage Email Client Setup
+### Pre-stage email client setup
 
-This method is for users who are familiar with email client
+This option is for users who are familiar with email client
 configurations and want to prepare for the migration ahead of time,
-specifically before your domain's MX record changes.  This option lets
+specifically before your domain's MX record changes. This option lets
 users configure the new email account on their own and download data
-from the server while the migration is happening.  The account remains
+from the server while the migration is happening. The account remains
 dormant as the user continues to send and receive from their previous
-account.  After the MX record changes, the new account downloads the
+account. After the MX record changes, the new account downloads the
 differential mail data and that account becomes the primary account.
 
 #### Benefits
@@ -76,34 +76,29 @@ differential mail data and that account becomes the primary account.
 -   Allows administrators to find internal DNS issues that might affect
     mail client configuration (for Internal DNS customers only)
 
-#### Tips for Certain Versions of Outlook
+#### Tips for certain versions of Outlook
 
-**Outlook 2007** - Outlook 2007 does not support multiple Exchange
-accounts in the same profile.  Therefore, a new profile must be created
-through the Windows Control Panel.  IMAP and POP for Rackspace Email can
+**Outlook 2007**&mdash;Outlook 2007 does not support multiple Exchange
+accounts in the same profile. Therefore, a new profile must be created
+through the Windows Control Panel. IMAP and POP for Rackspace Email can
 simply be added into the same profile. For instructions on creating a
-new profile for Exchange, see the following article: [Manually Setting
-up a new profile with
-Outlook](/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2010).
+new profile for Exchange, see [Manually configure Outlook 2007 for email hosted on Exchange 2010](/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2010).
 
-**Outlook 2010+** - Both Exchange and Rackspace Email accounts can be
+**Outlook 2010+**&mdash;Both Exchange and Rackspace Email accounts can be
 added to the same profile.  Creating a new profile is not necessary with
 newer versions of Outlook.
 
 To add an account in Outlook 2010+ click the **File** tab, and then
 click **Add Account** in the Account Information section.
 
-### Configuration Resources
+### Configuration resources
 
-[Webmail link for Rackspace Email and
+- [Webmail link for Rackspace Email and
 Exchange](https://apps.rackspace.com)
 
-[Auto-Config Tool](https://emailhelp.rackspace.com)(recommended for new
+- [Auto-Config Tool](https://emailhelp.rackspace.com) (recommended for new
 client setups)
 
-[Setup Exchange Email Clients and Mobile
-Devices](/how-to/configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange)
+- [Configure email clients and mobile devices for email hosted on Exchange](/how-to/configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange)
 
-[Setup Rackspace Email Clients and Mobile
-Devices ](/how-to/rackspace-email-and-hosted-exchange-settings)
-
+- [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings)

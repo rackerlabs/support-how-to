@@ -1,6 +1,6 @@
 ---
 node_id: 933
-title: Adding An Alias With Rackspace Email
+title: Add an alias With Rackspace Email
 type: article
 created_date: '2012-01-18'
 created_by: Rae D. Cabello
@@ -10,57 +10,24 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-The following article will cover how to create an alias that can be used
-like a mailbox that will forward to another mailbox or to multiple
-mailboxes on a domain. Let's take a look at how to set this up:
+This article shows how to create an alias that can be used like a mailbox that will forward to another mailbox or to multiple mailboxes on a domain.
 
-1\. Log in to your Cloud Office control panel. Once you're logged in
-mouse over the **Go to** section drop-down menu and select **Rackspace
-Email**.
+### Add a single alias
 
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
+2. In the Rackspace Email section, click **Aliases**.
+3. On the Aliases page, click **Add Alias**.
+    **Note**: If you have multiple domains, select the appropriate domain name. To change domains select the change domain link.
+4. In the **Create New Alias** box, enter a name for this alias.
+5. From the **Members inside this Domain** box, select one or more mailboxes and click **Add**. They will be added to the **Members of this Alias** box.
+6. *(Optional)* Add up to four external addresses for domains like Gmail, Yahoo, or Hotmail.
+7. Click **Save**.
 
- ![](http://c4162713.r13.cf2.rackcdn.com/(E%26A)RackspaceEmailAlias.png)
+### Add multiple aliases
 
-2\. In the Email Accounts section select the **Aliases** link and select
-the **Add Alias** button.
-
-![](http://c4162713.r13.cf2.rackcdn.com/(E%26A)RackspaceEmailAlias2.png)
-*Note*: *If you have multiple domains, select the appropriate domain
-name. To change domains select the change domain link.*
-
-3\. In the **Create New Alias** box enter a name for this alias. From the
-**Members Inside This Domain** box select one or more mailboxes and
-select **Add**. They will be added to the **Members Of This Alias** box.
-
-![](http://c4162713.r13.cf2.rackcdn.com/(E%26A)RackspaceEmailAlias3.png)
-
-*Note*: *To add more than one mailbox hold the **Control Key** (Windows
-users) or the **Command Key** (MAC users) and then select **Add**.*
-
-4\. You may then add up to 4 external addresses for domaiins like Gmail,
-Yahoo, Hotmail etc. Otherwise select the **Save** button and you're
-finished.
-
-![](http://c4162713.r13.cf2.rackcdn.com/(E%26A)RackspaceEmailAlias4.png)
-
-
-
-Adding Multiple Aliases
------------------------
-
-1\. Once you're in the **Email Accounts** section select the **Aliases**
-link and then select the **Add Multiple Aliases** button.
-
-2\. Next create a CSV or Excel file containing the information detailed
-in the Data Format Section. You can also download a template by
-selecting the **CSV template** or **Excel template** link.
-
-3\. In the **Import File** section click the **Browse** button then
-locate and select the CSV or Excel file you created.
-
-4\. Select the **Open** button and then select the **Import** button. Any
-errors that occur will be detailed in the import summary, which will
-appear after the import is complete.
-
-
-
+1. In the Rackspace Email section of the Cloud Office Control Panel, click **Aliases**.
+2. On the Aliases page, click **Add Multiple Aliases**.
+3. Create a CSV or Excel file that contains the information detailed in the Data Format section of the Import Aliases page. You can download a template by clicking the **CSV template** or **Excel template** link.
+4. In the Import File section, click **Choose file**, locate and select the CSV or Excel file that you created, and click **Open**.
+5. On the Import Aliases page, click **Import**.
+    Any errors that occur are detailed in the import summary, which is displayed after the import is complete.

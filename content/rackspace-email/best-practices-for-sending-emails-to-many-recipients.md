@@ -17,13 +17,12 @@ from typical mass marketing, newsletter, and other unsolicited mass
 email content. To ensure your emails reach their destination, Rackspace
 and the mail industry recommend some simple guidelines.
 
-The follolwing sections provide our recommended best practices for
+The following sections provide our recommended best practices for
 sending legitimate mail to many recipients through the Rackspace mail
 system. Most reputable mail providers give their own recommendations,
 and we encourage you to read those as well.
 
-Bulk email
-----------
+### Bulk email
 
 -   Rackspace Email does not provide bulk email services. To ensure that
     your emails are sent safely and are not blocked, we recommend that
@@ -39,8 +38,7 @@ Bulk email
     recipients, respect the Mail Requirements in our [Acceptable Use
     Policy](http://www.rackspace.com/information/legal/aup).
 
-Recipients
-----------
+### Recipients
 
 -   Ensure that your recipient lists are current and accurate. Sending
     emails to a large number of invalid recipients is a clear indicator
@@ -57,8 +55,7 @@ Recipients
     Typically you can do this by providing an unsubscribe link in the
     message or with reply-to instructions. This is required by law.
 
-Reputation
-----------
+### Reputation
 
 -   Maintain a safe and reputable business website. It should include
     easy access to any privacy policies and contact information for
@@ -70,8 +67,7 @@ Reputation
     information is referenced in those emails, your domain could be
     flagged as being related to spam.
 
-Message content
----------------
+### Message content
 
 We recommend that you follow our [person-to-person best
 practices](/how-to/best-practices-for-sending-person-to-person-email)
@@ -82,10 +78,3 @@ mail providers and the email industry. Our Anti-Abuse and Acceptable Use
 teams work diligently to protect our users from abusive email. An
 important part of helping us maintain our reputation is helping you send
 good email.
-
-<div>
-
-------------------------------------------------------------------------
-
-</div>
-
