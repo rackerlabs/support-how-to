@@ -1,11 +1,11 @@
 ---
 node_id: 4210
-title: Exchange Email Mailbox Features
+title: Exchange email mailbox features
 type: article
 created_date: '2014-08-25'
 created_by: Marco Salazar
-last_modified_date: '2014-08-29'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -13,63 +13,44 @@ product_url: exchange
 Rackspace offers a Hosted Exchange solution for users who require a
 collaborative solution for their business/organization.
 
-<div>
+You can use Hosted Exchange to work with distribution lists
+and with the Outlook Web App (OWA).
 
-[Lists](lists)
+### Exchange Distribution Lists
 
-</div>
+You can use lists, also called Exchange Distribution Lists, to manage users
+in a team or group. Only email addresses in your domain can be
+part of a distribution list.
 
-<div>
+For example, you can create a distribution list to group together everyone on
+the billing team: bob@example.com, amy@example.com, and
+scott@example.com. Adding all members of the billing team to one distribution
+list makes it possible to communicate new upcoming billing updates
+within the team by writing to one address, such as billingupdates@example.com.
 
-[Outlook Web App (OWA)](#owa)
+To set up a list, log into the Admin Control Panel
+[here](https://cp.rackspace.com/Exchange/Mail/Lists/).
 
-</div>
+### Outlook Web App (OWA)
 
-<div>
-
-
-
-</div>
-
-### Lists
-
-Lists, or Exchange Distribution Lists, are a great way to manage users
-in a select team or group. Only e-mail address in your domain can be
-part of a distribution List. For example, we have a billing team we
-would like to group together, (bob@domain.com, amy@domain.com,
-scott@domain.com). We will create a distribution list for the team so
-they can communicate new upcoming billing updates within the team,
-billingupdates@domain.com.
-
-**Setting up a List**
-
-To setup a List, log into the Admin Control Panel
-[here](https://cp.rackspace.com/Exchange/Mail/Lists/ "here").[
-](https://cp.rackspace.com/EmailHosting/Mail/GroupLists "here")
-
-
-
-### **Outlook Web App (OWA)**
-
-The Outlook Web App is a direct connection to your E-mail without the
-need of additional software. Accessing your E-mail account from OWA is
-very beneficial, messages that are sent and received using OWA will be
+The Outlook Web App is a direct connection to your email without the
+need for additional software; your web browser is enough.
+Messages that are sent and received using OWA will be
 waiting for you the next time you log into the portal. The OWA portal
-provides most of the same funtionality a mail client would offer, from
-sending/receiving email to setting up email signatures to even setting
+provides most of the functionality that a mail client would offer, including
+sending and receiving email, setting up email signatures, and setting
 rules to filter messages to sub-folders.
 
-**OWA Vs. Mail Client**
+#### Advantages of OWA versus email clients
 
--   There is no need to configure additional server settings for OWA.
--   Email is ready to access 24/7 through the most popular web browsers
-    (Microsoft Internet Explorer, Mozilla Firefox, Google
-    Chrome, Safari)
--   Messages are stored in the cloud so no local storage is consumed.
--   Changes made to Contacts, Calendar and Mail items are synced down to
-    all other devices configured with your account.
+- There is no need to configure additional server settings for OWA.
+- Email is ready to access 24/7 through the most popular web browsers
+  (Microsoft Internet Explorer, Mozilla Firefox, Google
+  Chrome, Safari)
+- Messages are stored in the cloud so no local storage is consumed.
+- Changes made to Contacts, Calendar and Mail items are synced down to
+  all other devices configured with your account.
 
-**Accessing OWA**
+#### Accessing OWA
 
-To access the OWA click [here](https://apps.rackspace.com "here").
-
+To access the Outlook Web App, login [here](https://apps.rackspace.com).
