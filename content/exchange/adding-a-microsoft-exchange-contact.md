@@ -1,6 +1,6 @@
 ---
 node_id: 1371
-title: Adding A Microsoft Exchange Contact
+title: Adding a Microsoft Exchange contact
 type: article
 created_date: '2012-04-04'
 created_by: Rae D. Cabello

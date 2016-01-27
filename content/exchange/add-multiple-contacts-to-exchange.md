@@ -1,6 +1,6 @@
 ---
 node_id: 932
-title: Add Multiple Contacts to Exchange
+title: Add multiple contacts to Exchange
 type: article
 created_date: '2011-03-18'
 created_by: Rackspace Support
