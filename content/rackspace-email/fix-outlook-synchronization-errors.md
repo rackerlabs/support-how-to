@@ -15,19 +15,19 @@ If you recently migrated to Exchange 2010 or have been using Outlook
 and continue to increase. Microsoft is currently working to resolve this
 issue, but in the interim you can use the following workaround.
 
-Customize the search folders
-----------------------------
+### Customize the search folders
 
 1.  In the navigation pane of your Outlook email view, expand
     the **Search Folders** folder.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_55.png" width="326" height="378" />
 2.  Right-click the **Unread Mail** folder and select **Customize This
     Search Folder**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_52.png" width="301" height="170" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_55.png" width="326" height="378" />
 
 3.  Click **Browse**.
+
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_52.png" width="301" height="170" />
 
 4.  Clear the **Search subfolders** check box at the bottom of the
     dialog box.
@@ -39,5 +39,3 @@ Customize the search folders
     other folder, you will want to include those also.
 
 6.  Click **OK** and then click **OK** again to confirm.
-
-
