@@ -15,703 +15,147 @@ roles in Next Gen Cloud Servers. The matrix displays the method names,
 their corresponding RESTful API commands, and the roles that are
 supported.
 
-**[API Documentation](http://docs.rackspace.com/)**
+[API Documentation](http://developer.rackspace.com/)
 
-**[Related Knowledge Center
-Articles](/how-to/)**
+[Related Rackspace How-To Articles](/how-to/)
 
-**[Next Generation Cloud Servers
-Terminology](#Next%20Generation%20Cloud%20Servers%20Terminology)**
+### Next Generation Cloud Servers Terminology
 
-### <span>**As of April 21, 2014**</span>
+#### Flavor
 
-CAPABILITY
+A resource configuration for a server. Each flavor is a unique
+combination of disk, memory, vCPUs, and network bandwidth.
 
-ROLE
-
-DESCRIPTION
-
-Method Name
-
-API Action
-
-Observer
-
-Creator
-
-Admin
-
-
-
-### Servers
-
-<div>
-
-<span>List Servers</span>
-
-</div>
-
-<div>
-
-<span>GET /servers</span>
-
-</div>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists IDs, names, and links for all servers.</span>
-
-<span>List All Details for All Servers</span>
-
-<span>GET /servers/detail</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists all details for all servers.</span>
-
-Create Server
-
-<span>POST /servers</span>
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Creates a server</span>.
-
-Get Server Details
-
-<span>GET /servers/{id}</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists details for a specified server.</span>
-
-Update Server
-
-<span>PUT /servers/{id}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Updates one or more editable attributes for a specified
-server.</span>
-
-Delete Server
-
-<span>\*Note: The user must also have a Cloud Block Storage Admin
-role.</span><span> </span>
-
-<span>DELETE /servers/{id}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a specified server.</span>
-
-### Server Key Pairs
-
-<span>Create or Upload a New Keypair</span>
-
-<span>POST /os-keypairs</span>
-
-
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Generates or uploads a keypair consisting of private key/public
-key.</span>
-
-<span>List Keypairs</span>
-
-<span>GET /os-keypairs</span>
-
-
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists </span><span>a keypair consisting of private key/public
-key.</span>
-
-<span>Delete Server Keypair</span>
-
-<span>DELETE /os-keypairs/{keypair name}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a keypair of a specified name.</span>
-
-### Server Addresses
-
-List Addresses
-
-<span>GET /servers/{id}/ips</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists all networks and server addresses associated with a
-specified server.</span>
-
-<span>List Addresses by Network</span>
-
-<span>GET /servers/{id}/ips/{networkLabel}</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists addresses associated with a specified server and
-network.</span>
-
-### Server Actions
-
-<span>Change Administrator password, Reboot Server, Rebuild Server,
-Resize Server, Confirm Resized Server, Revert Resized Server, Enter
-Resuce Mode, Exit Rescue Mode, or Create Image</span>
-
-<span>POST /servers/{id}/action</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Performs the requested action.</span>
-
-### Volume Attachment Actions
-
-<span>Attach Volume to Server</span>
-
-<span><span>\*Note: The user must also have a Cloud Block Storage Admin
-or Creator role.</span><span> </span></span>
-
-<span>POST /servers/{id}/os-volume\_attachments</span>
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Attaches a volume to the specified server.</span>
-
-<span>List Volume Attachments</span>
-
-<span>GET /servers/{id}/os-volume\_attachments</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists the volume attachments for the specified server.</span>
-
-<span>Get Volume Attachment Details</span>
-
-<span>GET /servers/{id}/os-volume\_attachments/{attachment\_id}</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists volume details for the specified volume attachment
-ID.</span>
-
-<span>Delete Volume Attachment</span>
-
-<span>DELETE
-/servers/{id}/os-volume\_attachments/{attachment\_id}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a specified volume attachment from a specified server
-instance.</span>
-
-### Flavors
-
-<span>List Flavors</span>
-
-<span>GET /flavors</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists IDs, names, and links for all available flavors.</span>
-
-<span>Get All Flavors Details</span>
-
-<span>GET /flavors/detail</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists all details for all available flavors.</span>
-
-<span>Get Flavor Details</span>
-
-<span>GET /flavors/{id}</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists details of the specified flavor.</span>
-
-### Images
-
-Create Images
-
-POST /servers/{id}/action
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Creates an image.</span>
-
-List Images
-
-<span>GET /images</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists IDs, names, and links for all available images.</span>
-
-<span>Get All Image Details</span>
-
-<span>GET /images/detail</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>List all details for all available images.</span>
-
-<span>Get Image Details</span>
-
-<span>GET /images/{id}</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists details of the specified image</span>
-
-<span>Delete Image</span>
-
-<span>DELETE /images/{id}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes the specified image.</span>
-
-### Metadata
-
-<span>List Metadata </span><span>Associated with a Server</span>
-
-<span>GET /servers/{id}/metadata</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists all metadata associated with a server.</span>
-
-<span>List Metadata Associated with an Image</span>
-
-<span>GET /images/{id}/metadata</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists all metadata associated with an image.</span>
-
-<span>Set Metadata for a Specified Server</span>
-
-<span>PUT /servers/{id}/metadata</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Sets metadata for the specified server.</span>
-
-<span>Set Metadata for a Specified Image</span>
-
-<span>PUT /images/{id}/metadata</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Sets metadata for the specified image.</span>
-
-<span>Update Metadata Items for a Specified Server</span>
-
-<span>POST /servers/{id}/metadata</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Updates metadata items for the specified server.</span>
-
-<span>Update Metadata Items for a Specified Image</span>
-
-<span>POST /images/{id}/metadata</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Updates metadata items for the specified image.</span>
-
-<span>Get a Metadata Item Associated with a Server</span>
-
-<span>GET /servers/{id}/metadata/key</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Retrieves a single metadata item associated with a server.</span>
-
-<span>Get a Metadata Item Associated with an Image</span>
-
-<span>GET /images/{id}/metadata/key</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Retrieves a single metadata item associated with an image.</span>
-
-<span>Set a Metadata Item for a Specified Server</span>
-
-<span>PUT /servers/{id}/metadata/{key}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Sets a metadata item for a specified server.</span>
-
-<span>Set a Metadata Item for a Specified Image</span>
-
-<span>PUT /images/{id}/metadata/{key}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Sets a metadata item for a specified image.</span>
-
-<span>Delete a Metadata Item for a Specified Server</span>
-
-<span>DELETE /servers/{id}/metadata/{key}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a metadata item for the specified server.</span>
-
-<span>Delete a Metadata Item for a Specified Image</span>
-
-<span>DELETE /images/{id}/metadata/{key}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a metadata item for the specified image.</span>
-
-### RACKSPACE EXTENSIONS
-
-**<span>Used Limits Extension</span>**
-
-<span>Used Limits Extension</span>
-
-<span>GET v2/{tenant\_id}/limits</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Extends limits to include information about the absolute limits
-that are currently used.</span>
-
-**<span>Scheduled Images Extension</span>**
-
-<span>Enable Scheduled Images</span>
-
-<span>POST /servers/{serverId}/rax-si-image-schedule</span>
-
-
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Enables scheduled images on a server, by creating an
-image\_schedule resource.</span>
-
-<span>Show Scheduled Images</span>
-
-<span>GET /servers/{serverId}/rax-si-image-schedule</span>
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Shows scheduled images setting.</span>
-
-<span>Disable Scheduled Images</span>
-
-<span>DELETE /servers/{serverId}/rax-si-image-schedule</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Disables scheduled images by deleting the image\_schedule resource
-that indicates the scheduled image service should create snapshots of
-this server.</span>
-
-### CLOUD NETWORKS
-
-**<span>Networks</span>**
-
-<span>List Networks</span>
-
-<span>GET /os-networksv2</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists the networks configured for a specified tenant ID.</span>
-
-<span>Create Network</span>
-
-<span>POST /os-networksv2</span>
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Creates a network for a specified tenant ID.</span>
-
-<span>Provision Server and Attach Networks</span>
-
-<span>POST /</span><span>os-networksv2</span>
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Provisions a new server with specified networks.</span>
-
-<span>Shows Network</span>
-
-<span>GET /os-networksv2/{id}</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Shows information for a specified network ID.</span>
-
-<span>Delete Network</span>
-
-<span>DELETE /os-networksv2/{id}</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a specified network.</span>
-
-**<span>Virtual Interfaces</span>**
-
-<span>List Virtual Interfaces </span>
-
-<span>GET /servers/{instance\_id}/os-virtual-interfacesv2</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Lists all virtual interfaces configured for a server
-instance</span>.
-
-<span>Create Virtual Interface </span>
-
-<span>POST /servers/{instance\_id}/os-virtual-interfacesv2</span>
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Creates a virtual interface for a network and attaches the network
-to a server instance</span>.
-
-<span>Delete Virtual Interface</span>
-
-<span>DELETE
-/servers/{instance\_id}/os-virtual-interfacesv2/interface\_id</span>
-
-
-
-
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/green%20checkmark_1.png" alt="check" width="41" height="39" />
-
-<span>Deletes a virtual interface from a server instance</span>.
-
-
--
-
-Next Generation Cloud Servers Terminology
----------------------------------------------
-
-### <span>Flavor</span>
-
-<span>A resource configuration for a server. Each flavor is a unique
-combination of disk, memory, vCPUs, and network bandwidth.</span>
-
-### <span>Image</span>
+#### Image
 
 <span>A collection of files for a specific operating system (OS) that
 you use to create or rebuild a server. Rackspace provides pre-built
 images. You can also create custom images from servers that you have
 launched. Custom images can be used for data backups or as "gold" images
-for additional servers.</span>
+for additional servers.
 
-### <span>Key Pair</span>
+#### Key Pair
 
-<span>A cryptographic combination of public and private keys used for
-asymmetric encryption.</span>
+A cryptographic combination of public and private keys used for
+asymmetric encryption.
 
-### Server
+#### Server
 
-<span>A virtual machine (VM) instance in the Cloud Servers environment.
+A virtual machine (VM) instance in the Cloud Servers environment.
 To create a server, you must specify a name, flavor reference, and image
-reference.</span>
+reference.
 
-<span> </span>
+**As of April 21, 2014**
 
-[&lt; Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
---------------------------------------------------------------------------------------------------------------------------------------------
+### Servers
 
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+List Servers | ```GET /servers``` | **Observer & Creator & Admin** | Lists IDs, names, and links for all servers.
+List All Details for All Servers | ```GET /servers/detail``` | **Observer & Creator & Admin** |	Lists all details for all servers.
+Create Server | ```POST /servers``` | **Creator & Admin** | Creates a server.
+Get Server Details | ```GET /servers/{id}``` | **Observer & Creator & Admin**	| Lists details for a specified server.
+Update Server	| ```PUT /servers/{id}``` |	**Admin only** | Updates one or more editable attributes for a specified server.
+Delete Server<br /><br /> **Note:** The user must also have a Cloud Block Storage Admin role. | ```DELETE /servers/{id}``` | **Admin only**	| Deletes a specified server.
 
+### Server key pairs
 
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+Create or Upload a New Keypair | ```POST /os-keypairs``` } |  **Creator & Admin** | Generates or uploads a keypair consisting of private key/public key.
+List Keypairs	| ```GET /os-keypairs``` |  **Creator & Admin**	| Lists a keypair consisting of private key/public key.
+Delete Server Keypair | ```DELETE /os-keypairs/{keypair name}``` | **Admin only**	| Deletes a keypair of a specified name.
+**Server Addresses** | | |
+List Addresses | ```GET /servers/{id}/ips``` | **Observer & Creator & Admin** |	Lists all networks and server addresses associated with a specified server.
+List Addresses by Network	| ```GET /servers/{id}/ips/{networkLabel}``` | **Observer & Creator & Admin** | Lists addresses associated with a specified server and network.
+
+### Server actions
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+Change Administrator password, Reboot Server, Rebuild Server, Resize Server, Confirm Resized Server, Revert Resized Server, Enter Resuce Mode, Exit Rescue Mode, or Create Image | ```POST /servers/{id}/action``` | **Admin only** |	Performs the requested action.
+
+### Volume attachment actions
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+Attach Volume to Server | | |
+**Note:** The user must also have a Cloud Block Storage Admin or Creator role. | ```POST /servers/{id}/os-volume_attachments``` | **Creator & Admin**	| Attaches a volume to the specified server.
+List Volume Attachments	| ```GET /servers/{id}/os-volume_attachments``` | **Observer & Creator & Admin** | Lists the volume attachments for the specified server.
+Get Volume Attachment Details |	```GET /servers/{id}/os-volume_attachments/{attachment_id}``` | **Observer & Creator & Admin** | Lists volume details for the specified volume attachment ID.
+Delete Volume Attachment | ```DELETE /servers/{id}/os-volume_attachments/{attachment_id}```  | **Admin only**	| Deletes a specified volume attachment from a specified server instance.
+
+### Flavors
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+List Flavors | ```GET /flavors``` | **Observer & Creator & Admin** | Lists IDs, names, and links for all available flavors.
+Get All Flavors Details | ```GET /flavors/detail``` | **Observer & Creator & Admin** | Lists all details for all available flavors.
+Get Flavor Details | ```GET /flavors/{id}``` | **Observer & Creator & Admin** | Lists details of the specified flavor.
+
+### Images
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+Create Images	| ```POST /servers/{id}/action``` | **Admin only** | Creates an image.
+List Images |	```GET /images``` | **Observer & Creator & Admin** | Lists IDs, names, and links for all available images.
+Get All Image Details	| ```GET /images/detail``` | **Observer & Creator & Admin**	| List all details for all available images.
+Get Image Details	| ```GET /images/{id}``` | **Observer & Creator & Admin** |	Lists details of the specified image
+Delete Image | ```DELETE /images/{id}``` | **Admin only** | Deletes the specified image.
+
+### Metadata
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+List Metadata Associated with a Server | ```GET /servers/{id}/metadata``` | **Observer & Creator & Admin** | Lists all metadata associated with a server.
+List Metadata Associated with an Image | ```GET /images/{id}/metadata``` | **Observer & Creator & Admin**	| Lists all metadata associated with an image.
+Set Metadata for a Specified Server | ```PUT /servers/{id}/metadata``` | **Admin only**	| Sets metadata for the specified server.
+Set Metadata for a Specified Image | ```PUT /images/{id}/metadata``` | **Admin only** | Sets metadata for the specified image.
+Update Metadata Items for a Specified Server | ```POST /servers/{id}/metadata``` | **Admin only**	| Updates metadata items for the specified server.
+Update Metadata Items for a Specified Image | ```POST /images/{id}/metadata``` | **Admin only**	| Updates metadata items for the specified image.
+Get a Metadata Item Associated with a Server | ```GET /servers/{id}/metadata/key``` | **Observer & Creator & Admin** | Retrieves a single metadata item associated with a server.
+Get a Metadata Item Associated with an Image | ```GET /images/{id}/metadata/key``` | **Observer & Creator & Admin**	| Retrieves a single metadata item associated with an image.
+Set a Metadata Item for a Specified Server | ```PUT /servers/{id}/metadata/{key}``` | **Admin only** | Sets a metadata item for a specified server.
+Set a Metadata Item for a Specified Image	| ```PUT /images/{id}/metadata/{key}``` | **Admin only** | Sets a metadata item for a specified image.
+Delete a Metadata Item for a Specified Server | ```DELETE /servers/{id}/metadata/{key}``` | **Admin only** | Deletes a metadata item for the specified server.
+Delete a Metadata Item for a Specified Image | ```DELETE /images/{id}/metadata/{key}``` | **Admin only** | Deletes a metadata item for the specified image.
+
+### Rackspace extensions
+
+#### Used limits extension
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+Used Limits Extension | ```GET v2/{tenant_id}/limits``` | **Observer & Creator & Admin** | Extends limits to include information about the absolute limits that are currently used.
+
+#### Scheduled images extension
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+Enable Scheduled Images | ```POST /servers/{serverId}/rax-si-image-schedule``` | **Observer & Creator & Admin**	| Enables scheduled images on a server, by creating an image_schedule resource.
+Show Scheduled Images	| ```GET /servers/{serverId}/rax-si-image-schedule``` | **Observer & Creator & Admin** |	Shows scheduled images setting.
+Disable Scheduled Images | ```DELETE /servers/{serverId}/rax-si-image-schedule``` |	**Admin only** | Disables scheduled images by deleting the image_schedule resource that indicates the scheduled image service should create snapshots of this server.
+
+### Cloud Networks
+
+#### Networks
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+List Networks |	```GET /os-networksv2``` | **Observer & Creator & Admin**	| Lists the networks configured for a specified tenant ID.
+Create Network | ```POST /os-networksv2``` | **Creator & Admin** | Creates a network for a specified tenant ID.
+Provision Server and Attach Networks | ```POST /os-networksv2``` | **Creator & Admin** | Provisions a new server with specified networks.
+Shows Network	| ```GET /os-networksv2/{id}``` | **Observer & Creator & Admin** | Shows information for a specified network ID.
+Delete Network | ```DELETE /os-networksv2/{id}``` |	**Admin only** | Deletes a specified network.
+
+#### Virtual interfaces
+
+Method Name | API Action | Role | Description
+--- | --- | :---: | ---
+List Virtual Interfaces | ```GET /servers/{instance_id}/os-virtual-interfacesv2``` | **Observer & Creator & Admin** |	Lists all virtual interfaces configured for a server instance.
+Create Virtual Interface | ```POST /servers/{instance_id}/os-virtual-interfacesv2``` | **Creator & Admin** | Creates a virtual interface for a network and attaches the network to a server instance.
+Delete Virtual Interface | ```DELETE /servers/{instance_id}/os-virtual-interfacesv2/interface_id``` |	**Admin only** | Deletes a virtual interface from a server instance.
+
+### Related articles
+
+[Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
