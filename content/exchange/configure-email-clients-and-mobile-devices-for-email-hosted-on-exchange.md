@@ -4,8 +4,8 @@ title: Configure email clients and mobile devices for email hosted on Exchange
 type: article
 created_date: '2012-05-27'
 created_by: Rae D. Cabello
-last_modified_date: '2015-12-31'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -14,15 +14,11 @@ This article provides links to instructions for setting up email clients
 and mobile devices for your [Microsoft Exchange email
 account](http://www.rackspace.com/email-hosting/hosted-exchange/).
 
-Help Tool
----------
+### Help Tool
 
-Our Help Tool can guide you through the setup process, providing
+Our [Help Tool](/how-to/help-tool-for-hosted-email-and-skype-for-business) can guide you through the setup process, providing
 instructions for manual or automatic setups tailored to your email
 account and your specific email client or mobile device.
-
--   [Help
-    Tool](/how-to/help-tool-for-hosted-email-and-skype-for-business)
 
 Microsoft Exchange 2013
 -----------------------
@@ -124,5 +120,3 @@ devices with Microsoft Exchange 2007.
 -   [BlackBerry](/how-to/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange)
 -   [BlackBerry
     10](/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2007)
-
-
