@@ -14,25 +14,7 @@ MySQL replication enables one database server (referred to as the Master server 
 
 This tutorial will explain a simple setup (a single master server replicating to a single slave server) that replicates all databases from the master to the slave.
 
-## Contents
-
-- [Prerequisites](#prerequisites)
-- [Collect IP information](#collectipinfo)
-- [Configure your servers](#configureyourservers)
-       - [Master](#master)
-       - [Slave](#slave)
-- [Attach slave to master](#attachslavetomaster)
-- [MySQL root credentials](#mysqlrootcred)
-- [Holland](#holland)
-- [Testing](#testing)
-- [Filtering](#filtering)
-- [Events](#events)
-- [Monitoring](#monitoring)
-
-<p>&nbsp;</p>
-<a name="prerequisites">
-## Prerequisites
-</a>
+### Prerequisites
 
 Before beginning this tutorial, complete the following steps.
 
@@ -41,20 +23,17 @@ Before beginning this tutorial, complete the following steps.
 - Install mysql-devel
 - Install mysql-server
 
-
 **Note:** The procedure in this article:
 
 - describes replication configuration on a new set of servers with no data or database. This is important because existing data on servers will throw off the replication
 
 - can be used for other flavors of Linux
 
-<a name="collectipinfo">
-##Collect IP Information
-</a>
+### Collect IP Information
 
 The MySQL configuration in this article replicates over the private IPs of your cloud server. Make note of the private IP of each server.
 
-     [user@mysql-master ~]$ /sbin/ifconfig
+    [user@mysql-master ~]$ /sbin/ifconfig
 
 You will see the following output:
 
@@ -86,7 +65,7 @@ You will see the following output:
                collisions:0 txqueuelen:0
                RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
 
-You want to note the IP that is shown for <code>eth1</code>. The IP address is listed right after <code>inet addr:</code>. In this example, our master server's private IP is 10.176.41.72. Repeat this on the slave server and note the private IP.
+You want to note the IP that is shown for `eth1`. The IP address is listed right after `inet addr:`. In this example, our master server's private IP is 10.176.41.72. Repeat this on the slave server and note the private IP.
 
 **Slave:**
 
@@ -120,44 +99,35 @@ You want to note the IP that is shown for <code>eth1</code>. The IP address is l
 
 The IP address for our slave server in this example is 10.176.41.207. When you have both private IPs noted somewhere, you're good to start configuring.
 
-<a name="configureyourservers">
-##Configure the server
-</a>
+### Configure the server
 
+#### Master
 
-<a name="master">
-### Master
-</a>
+- Edit the **/etc/my.cnf** file on the Master server to enable binary logging and set the server's name.
 
-- Edit the <code>/etc/my.cnf</code> file on the Master server to enable binary logging and set the server's name.
-
-          [user@mysql-master ~]$ sudo vi /etc/my.cnf
+        [user@mysql-master ~]$ sudo vi /etc/my.cnf
 
 - Add these lines under the <code>mysqld</code> section.
 
-            log-bin=/var/lib/mysqllogs/RackspaceServerID-theServerShortName-binary-log
-            expire_logs_days=7
-            server-name=&lt;server_number&gt;
+        log-bin=/var/lib/mysqllogs/RackspaceServerID-theServerShortName-binary-log
+        expire_logs_days=7
+        server-name=<server_number>
 
 - Set the replication user.
 
-            mysql&gt; GRANT REPLICATION SLAVE ON *.* to 'replicant'@'slaveIP' IDENTIFIED BY 'somepassword';
-
+        mysql> GRANT REPLICATION SLAVE ON *.* to 'replicant'@'slaveIP' IDENTIFIED BY 'somepassword';
 
 The master my.cnf configuration is complete.
 
+#### Slave preparation
 
-<a name="slave">
-### Slave preparation
-</a>
-
-- Verify that the time zones match between master and slave.</li>
+- Verify that the time zones match between master and slave.
 - Set the following items:
 
-          relay-log=/var/lib/mysqllogs/RackspaceServerID-theServerShortName-relay-log
-          relay-log-space-limit = 16G
-          read-only=1
-          server-name=&lt;server_number&gt;
+        relay-log=/var/lib/mysqllogs/RackspaceServerID-theServerShortName-relay-log
+        relay-log-space-limit = 16G
+        read-only=1
+        server-name=<server_number>
 
 
 #### Initial copy of data to slave
@@ -171,38 +141,32 @@ Choose one of the following options to copy data over to the slave.
 
 Consnameer this option if the data directory is a reasonable size, and if the you have your tables locked for the duration of the procedure.
 
-
-     mysqldump -A --flush-privileges --master-data=1 | gzip -1 &gt; ~rack/master.sql.gz
-
+     mysqldump -A --flush-privileges --master-data=1 | gzip -1 > ~rack/master.sql.gz
 
 Transfer the dump file to the slave and import it.
-
 
 #### Copy the flat files
 
 For this method, stop MySQL on both servers and move the data directory out of the way on the slave. If MySQL is not stopped on both servers, it will be necessary to make a backup:
 
      # mv /var/lib/mysql{,.prereplication}
-</pre>
 
-<p>Use one of the methods listed above to make the data directory on the slave into a copy from the master. For example:</p>
+Use one of the methods listed above to make the data directory on the slave into a copy from the master. For example:
 
      # rsync -azv --progress --delete /var/lib/mysql/ slave:/var/lib/mysql/
 
-When the data copy is finished, restart MySQL on both servers. Verify that <code>innodb-log-file-size</code> in <code>/etc/my.cnf</code> is set the same for slave and master, or MySQL will not start on the slave.
+When the data copy is finished, restart MySQL on both servers. Verify that `innodb-log-file-size` in **/etc/my.cnf** is set the same for slave and master, or MySQL will not start on the slave.
 
-<p>If slave is a newer version of MySQL, run <code>mysql_upgrade</code> on slave before issuing the <code>start slave</code> command.</p>
+If slave is a newer version of MySQL, run <code>mysql_upgrade</code> on slave before issuing the `start slave` command.
 
-<p><a name="attachslave"> </a></p>
+### Attach slave to master
 
-## Attach slave to master
-
-You will need the binary log filename and position from the master that corresponds with the backup. If you are using <code>mysqldump</code>, this will be included in the <code>master_data.sql</code> file itself.
+You will need the binary log filename and position from the master that corresponds with the backup. If you are using `mysqldump`, this will be included in the **master_data.sql** file itself.
 
      # zgrep -m 1 -P 'CHANGE MASTER' master_data.sql.gz
-     CHANGE MASTER TO MASTER_LOG_FILE = '&lt;binary log filename&gt;', MASTER_LOG_POS = &lt;binary log position&gt;;
+     CHANGE MASTER TO MASTER_LOG_FILE = '<binary log filename>', MASTER_LOG_POS = <binary log position>;
 
-For a file level copy such as a cold copy obtained by shutting down MySQL and using <code>rsync</code>, the binary log filename and position will be the first log file created after restarting MySQL.
+For a file level copy such as a cold copy obtained by shutting down MySQL and using `rsync`, the binary log filename and position will be the first log file created after restarting MySQL.
 
 You can obtain this by following these steps:
 
@@ -212,50 +176,42 @@ You can obtain this by following these steps:
      # rsync ...
      # service mysqld start
 
-In this case, start at filename <code>db1-bin-log.000001 + 1 = db1-1234-bin-log.000002</code> at the beginning of this file. You will get this result:
+In this case, start at filename `db1-bin-log.000001 + 1 = db1-1234-bin-log.000002` at the beginning of this file. You will get this result:
 
      MASTER_LOG_FILE = 'db1-1234-bin-log.000002', MASTER_LOG_POS = 4
 
->Now execute <code>CHANGE MASTER</code> on the slave to set the credentials for connecting to the master, as well as the binary log file and position to start replication from.
+Now execute <code>CHANGE MASTER</code> on the slave to set the credentials for connecting to the master, as well as the binary log file and position to start replication from.
 
-     mysql&gt; change master to master_host='master-ip',master_user='userSetAbove', master_password='passwordSetAbove',master_log_file='logfile-from-above-command', master_log_pos=4;
-     mysql&gt; start slave;
+     mysql> change master to master_host='master-ip',master_user='userSetAbove', master_password='passwordSetAbove',master_log_file='logfile-from-above-command', master_log_pos=4;
+     mysql> start slave;
 
-<p><a name="rootcred"> </a></p>
+### MySQL root credentials
 
-## MySQL root credentials
+Make sure that the new slave has the same credentials in the **/root/.my.cnf** file as the master server. The MySQL database and user grants table will also sync over to the slave.
 
-Make sure that the new slave has the same credentials in the <code>/root/.my.cnf</code> file as the master server. The MySQL database and user grants table will also sync over to the slave.
+### Holland
 
-<p><a name="holland"> </a></p>
+Because you imported the MySQL database from the master, all passwords are now the same. Just as you updated the **/root/.my.cnf** on dbSlave to match dbMaster, you might need to update the **/etc/holland/backupsets/default.conf** file to use the same credentials as the master for `rackspace_backup`.
 
-## Holland
-
-Because you imported the MySQL database from the master, all passwords are now the same. Just as you updated the <code>/root/.my.cnf</code> on dbSlave to match dbMaster, you might need to update the <code>/etc/holland/backupsets/default.conf</code> file to use the same credentials as the master for <code>rackspace_backup</code>.
-
-<p><a name="testing"> </a></p>
-
-## Testing
+### Testing
 
 Test your settings by creating a dummy database on the master and verifying that it shows up on the slave. Once verified, you can drop the dummy database and confirm the slave automatically drops it.
 
-If you see an error like <code>Last_IO_Error: error connecting to master</code>, manually test the replication user. From the slave, try two things:
+If you see an error like `Last_IO_Error: error connecting to master`, manually test the replication user. From the slave, try two things:
 
-<code>nc masterIP 3306</code>
+    nc masterIP 3306
 
-If you see an error here, your grant is wrong, probably because you are in a different network segment than you thought. The error will look like <code>Host dbSlave is not allowed to connect to this MySQL server</code>.
+If you see an error here, your grant is wrong, probably because you are in a different network segment than you thought. The error will look like `Host dbSlave is not allowed to connect to this MySQL server`.
 
-     mysql -ureplicant -hmasterDb -p
+    mysql -ureplicant -hmasterDb -p
 
 If you get an error, your grant is wrong.
 
 If either of those fail to connect, you might need to adjust the firewall or verify that you are making correct assumptions about how the network is laname out for this customer.
 
-<p><a name="filter"> </a></p>
+### Filtering
 
-## Filtering
-
-It is recommended that you not use replication filtering. If you want to exclude some tables from the slave, the only recommended method is with one of the following <code>my.cnf</code> options configured on the slave:
+It is recommended that you not use replication filtering. If you want to exclude some tables from the slave, the only recommended method is with one of the following **my.cnf** options configured on the slave:
 
      replicate-wild-do-table=dbase1.%
      replicate-wild-do-table=dbase3.%
@@ -263,23 +219,19 @@ It is recommended that you not use replication filtering. If you want to exclude
      replicate-wild-ignore-table=dbase2.%
      replicate-wild-ignore-table=dbase4.someTable
 
-Patterns can contain the wildcard characters <code>%</code> and <code>\_</code>, which have the same meaning as the <code>LIKE</code> pattern-matching operator. If you need to use a literal <code>_</code> character, escape it as follows:
+Patterns can contain the wildcard characters `%` and `\_`, which have the same meaning as the `LIKE` pattern-matching operator. If you need to use a literal \_ character, escape it as follows:
 
      replicate-wild-ignore-table=%.%\_tmp
 
 In MySQL 5.5, database-level filtering options are case sensitive on platforms supporting case sensitivity in filenames. Table-level filtering options are not case sensitive on any platform, regardless of the value of the <code>lower_case_table_names</code> system variable.
 
-<p><a name="events"> </a></p>
+### Events
 
-## Events
+If **my.cnf** has been enabled on the master, you can disable it on the slave. If the event scheduler does need to be enabled on the slave, verify that the existing events were created with `CREATE EVENT ... DISABLE ON SLAVE` with something like: <code>select db, name from mysql.event where status not in ('disabled','slavesnamee_disabled');</code>
 
-If <code>my.cnf</code> has been enabled on the master, you can disable it on the slave. If the event scheduler does need to be enabled on the slave, verify that the existing events were created with <code>CREATE EVENT ... DISABLE ON SLAVE</code> with something like: <code>select db, name from mysql.event where status not in ('disabled','slavesnamee_disabled');</code>
+### Monitoring
 
-<p><a name="monitoring"> </a></p>
-
-## Monitoring
-
-Always monitor replication. In Emerging, we generally use SiteScope Content Match with check_replication.php, which typically lives insnamee httpd running on the slave.
+Always monitor replication. In Emerging, we generally use SiteScope Content Match with check_replication.php, which typically lives in snamee httpd running on the slave.
 
 You will need to issue the GRANT for this on the master, which replicates to the slave:
 
@@ -287,12 +239,10 @@ You will need to issue the GRANT for this on the master, which replicates to the
 
 Assuming you are behind a firewall, the 'slavePrimaryIP' should be the internal IP of the slave server [192.168.100.x]. In the check_replication.php script, set <code>host='192.168.100.x</code>, the internal IP of the server the script is running on. This is usually the same as <code>slavePrimaryIP</code>.
 
-Contact your account manager and request setup of the SiteScope monitor. The URL should be the public IP of the monitoring server, for example <code>http://68.23.45.32/check_replication.php</code><
+Contact your account manager and request setup of the SiteScope monitor. The URL should be the public IP of the monitoring server, for example <code>http://68.23.45.32/check_replication.php</code>
 
 [https://wiki.rackspace.corp/Databases/MySQL/ReplicationMonitoringScript](https://wiki.rackspace.corp/Databases/MySQL/ReplicationMonitoringScript)
 
-**Note:** The script can have additional elements in the <code>dsn list</code> array and check multiple slaves with a single SiteScope probe. The PHP documentation states that the comma after the last array element is optional and can be omitted. However, with the SiteScope probe checking multiple slaves, it may be less clear which slave had a problem when the alert clears quickly. In this regard, it can make sense to have a check_replication.php and corresponding SiteScope probe running on each slave.</p>
+**Note:** The script can have additional elements in the <code>dsn list</code> array and check multiple slaves with a single SiteScope probe. The PHP documentation states that the comma after the last array element is optional and can be omitted. However, with the SiteScope probe checking multiple slaves, it may be less clear which slave had a problem when the alert clears quickly. In this regard, it can make sense to have a check_replication.php and corresponding SiteScope probe running on each slave.
 
-<p>Wasn't too bad, was it? Now sit back and let your Slave server replicate from the Master. Be sure not to perform any writes to the Slave server as this will break replication! All writes performed on the Master will automatically be sent to the slave via the binary log and replication. For more information on MySQL replication, go here: <a class="external free" href="https://dev.mysql.com/doc/refman/5.0/en/replication.html" rel="nofollow" title="https://dev.mysql.com/doc/refman/5.0/en/replication.html">https://dev.mysql.com/doc/refman/5.0/en/replication.html</a></p>
-
-<p>&nbsp;</p>
+Wasn't too bad, was it? Now sit back and let your Slave server replicate from the Master. Be sure not to perform any writes to the Slave server as this will break replication! All writes performed on the Master will automatically be sent to the slave via the binary log and replication. For more information on MySQL replication, go here: <a class="external free" href="https://dev.mysql.com/doc/refman/5.0/en/replication.html" rel="nofollow" title="https://dev.mysql.com/doc/refman/5.0/en/replication.html">https://dev.mysql.com/doc/refman/5.0/en/replication.html</a>.
