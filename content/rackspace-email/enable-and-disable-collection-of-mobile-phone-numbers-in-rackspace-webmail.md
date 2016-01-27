@@ -18,29 +18,23 @@ security features such as forgotten password recovery and two-factor
 authentication. These numbers cannot be disclosed to third parties,
 including reseller administrators.
 
-For direct customers
---------------------
+### For direct customers
 
 1.  Log in to <https://cp.rackspace.com>.
 2.  Click **Rackspace Email**.
 3.  Click **Webmail Sites**.
 4.  Click **Show/Hide Links**.
-5.  Select **<span class="show">Show</span> Prompt for Mobile Phone
-    Number** (to enable collection) or **<span class="hide">Hide</span>
-    Do not prompt for Mobile Phone Number** (to disable collection).
+5.  Select **Show Prompt for Mobile Phone
+    Number** (to enable collection) or **Hide Do not prompt for Mobile Phone Number** (to disable collection).
 6.  Click **Save**.
 
- For resellers
---------------
+### For resellers
 
 1.  Log in to <https://cp.rackspace.com>.
 2.  Click **Reseller Tools**.
 3.  Click **Webmail Sites**.
 4.  Choose a Webmail site and click **Customize**.
 5.  Click **Show/Hide Links**.
-6.  Select **<span class="show">Show</span> Prompt for Mobile Phone
-    Number** (to enable collection) or **<span class="hide">Hide</span>
-    Do not prompt for Mobile Phone Number** (to disable collection).
+6.  Select **Show Prompt for Mobile Phone
+    Number** (to enable collection) or **Hide Do not prompt for Mobile Phone Number** (to disable collection).
 7.  Click **Save**.
-
-
