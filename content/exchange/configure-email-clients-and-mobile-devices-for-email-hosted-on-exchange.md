@@ -20,11 +20,11 @@ Our [Help Tool](/how-to/help-tool-for-hosted-email-and-skype-for-business) can g
 instructions for manual or automatic setups tailored to your email
 account and your specific email client or mobile device.
 
-Microsoft Exchange 2013
------------------------
+### Microsoft Exchange 2013 setup for email clients
 
-Manual setup instructions are available for the following email clients
-with Microsoft Exchange 2013.
+Follow the manual setup instructions
+to configure Microsoft Exchange 2013
+for your email client:
 
 -   [Outlook
     2013](/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013)
@@ -37,12 +37,11 @@ with Microsoft Exchange 2013.
 -   [Mac
     Mail](/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-2013)
 
-Microsoft Exchange 2013 for Mobile Devices
-------------------------------------------
+### Microsoft Exchange 2013 setup for mobile devices
 
-<span>Setup instructions are available for the
-following</span><span> mobile devices</span> with Microsoft Exchange
-2013.
+Follow the manual setup instructions
+to configure Microsoft Exchange 2013
+for your mobile device:
 
 -   [iPhone, iPad,
     iPod](/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-2013)
@@ -53,11 +52,11 @@ following</span><span> mobile devices</span> with Microsoft Exchange
 -   [BlackBerry
     10](/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2013)
 
-Microsoft Exchange 2010
------------------------
+### Microsoft Exchange 2010 setup for email clients
 
-<span>Manual setup instructions are available for the
-following</span> email clients with Microsoft Exchange 2010.
+Follow the manual setup instructions
+to configure Microsoft Exchange 2010
+for your email client:
 
 -   [Outlook
     2013](/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2013)
@@ -71,11 +70,11 @@ following</span> email clients with Microsoft Exchange 2010.
     Mail](/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-2010)
 -   [Entourage](/how-to/manually-configure-entourage-for-email-hosted-on-exchange-2010)
 
-**Microsoft Exchange Mobile Devices 2010**
+### Microsoft Exchange 2010 setup for mobile devices
 
-<span>Setup instructions are available for the
-following</span><span> mobile devices</span> with Microsoft Exchange
-2010.
+Follow the manual setup instructions
+to configure Microsoft Exchange 2010
+for your mobile device:
 
 -   [Simple Email Setup:
     iPhone](/how-to/use-simple-email-setup-to-configure-ios-devices-for-email-hosted-on-exchange-2010)
@@ -88,11 +87,11 @@ following</span><span> mobile devices</span> with Microsoft Exchange
 -   [BlackBerry
     10](/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2010)
 
-Microsoft Exchange 2007
------------------------
+### Microsoft Exchange 2007 setup for email clients
 
-<span>Manual setup instructions are available for the
-following </span>email clients with Microsoft Exchange 2007.
+Follow the manual setup instructions
+to configure Microsoft Exchange 2007
+for your email client:
 
 -   [Outlook
     2013](/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007)
@@ -106,11 +105,11 @@ following </span>email clients with Microsoft Exchange 2007.
     Mail](/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-2007)
 -   [Entourage](/how-to/manually-configure-entourage-ews-for-email-hosted-on-exchange-2007)
 
-Microsoft Exchange Mobile Devices 2007
---------------------------------------
+### Microsoft Exchange 2007 setup for mobile devices
 
-<span>Setup instructions are available for the following</span> mobile
-devices with Microsoft Exchange 2007.
+Follow the manual setup instructions
+to configure Microsoft Exchange 2007
+for your mobile device:
 
 -   [iPhone, iPad,
     iPod](/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-2007)
