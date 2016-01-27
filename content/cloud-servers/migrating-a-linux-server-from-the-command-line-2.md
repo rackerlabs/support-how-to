@@ -1,6 +1,6 @@
 ---
 node_id: 389
-title: Migrating a Linux server per-package from the command line
+title: Migrate a Linux server per-package from the command line
 type: article
 created_date: '2011-03-16'
 created_by: Jered Heeschen
