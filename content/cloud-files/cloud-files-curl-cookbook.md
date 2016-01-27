@@ -26,26 +26,20 @@ cURL, its basic functions, and how to use it with Cloud Files.
 All the major distributions have packages for installing cURL. Following
 is an example of how to install cURL on Debian and Ubuntu:
 
-``` {#pre-0}
-$ sudo apt-get install curl
-```
+    $ sudo apt-get install curl
 
 Similarly, the following command installs cURL on Fedora, CentOS, and
 Red Hat Enterprise Linux:
 
-``` {#pre-1}
-$ yum install curl
-```
+    $ yum install curl
 
 After cURL is installed, use the following command to verify that it is
 ready to use:
 
-``` {#pre-2}
-$ curl --version
-curl 7.21.3 (i686-pc-linux-gnu) libcurl/7.21.3 OpenSSL/0.9.8o zlib/1.2.3.4 libidn/1.18
-Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
-Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz
-```
+    $ curl --version
+    curl 7.21.3 (i686-pc-linux-gnu) libcurl/7.21.3 OpenSSL/0.9.8o zlib/1.2.3.4 libidn/1.18
+    Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
+    Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz
 
 You can also install cURL on Microsoft Windows. To do so, visit
 the [cURL homepage](http://www.curl.com/) and download the executable
@@ -74,9 +68,7 @@ page data.
 Runing the following command with your favorite website URL returns the
 HTML markup.
 
-``` {#pre-3}
-$ curl http://www.example.com
-```
+    $ curl http://www.example.com
 
 By default, cURL sends the response body returned by the server directly
 to the terminal. You can also capture the output and send it directly to
@@ -85,10 +77,8 @@ this either by using the -o flag to specify an output file or by using
 the Linux redirection operator to capture the output, as shown in the
 following example:
 
-``` {#pre-4}
-$ curl -o index.html http://www.example.com
-$ curl http://www.example.com > index.html
-```
+    $ curl -o index.html http://www.example.com
+    $ curl http://www.example.com > index.html
 
 ****
 
@@ -103,10 +93,8 @@ XML documents. To post an XML or JSON file, you need to specify the
 Content-Type appropriately so that the receiving server knows what to
 expect, as shown in the following examples:
 
-``` {#pre-5}
-$ curl -X POST -d @mydocument.xml -H "Content-Type: application/xml" http://www.example.com/form
-$ curl -X POST -d @mydocument.json -H "Content-Type: application/json" http://www.example.com/form
-```
+    $ curl -X POST -d @mydocument.xml -H "Content-Type: application/xml" http://www.example.com/form
+    $ curl -X POST -d @mydocument.json -H "Content-Type: application/json" http://www.example.com/form
 
 You can also specify the data as a quoted string, but this can be
 unwieldy when done from the command line.
@@ -124,9 +112,7 @@ receiving server knows what kind of file it is. cURL automatically
 passes through the required Content-Length headers to ensure that the
 file is uploaded in a standard fashion. The syntax is as follows:
 
-``` {#pre-6}
-$ curl -X PUT -T myobject.jpg -H "Content-Type: image/jpeg" http://www.example.com/upload
-```
+    $ curl -X PUT -T myobject.jpg -H "Content-Type: image/jpeg" http://www.example.com/upload
 
 ****
 
@@ -156,16 +142,12 @@ transaction. You can do this by using the verbose flag, which prints out
 practically all the HTTP data that is sent back and forth, including the
 request headers. This flag is quite useful for debugging purposes.
 
-``` {#pre-8}
-$ curl -v http://www.example.com
-* About to connect() to www.example.com port 80 (#0)
-* Trying 192.0.43.10... connected
-* Connected to www.example.com (192.0.43.10) port 80 (#0)
-> GET / HTTP/1.1
-...
-```
-
-****
+    $ curl -v http://www.example.com
+    * About to connect() to www.example.com port 80 (#0)
+    * Trying 192.0.43.10... connected
+    * Connected to www.example.com (192.0.43.10) port 80 (#0)
+    > GET / HTTP/1.1
+    ...
 
 #### **Sending HTTP Headers**
 
@@ -174,18 +156,16 @@ additional headers to give the server more information about the request
 you are making. A useful header to specify is the Accept header to
 indicate the type of response that you want back, either JSON or XML.
 
-``` {#pre-9}
-$ curl -v -H "Accept: application/xml" www.example.com
-* About to connect() to www.example.com port 80 (#0)
-* Trying 192.0.43.10... connected
-* Connected to www.example.com (192.0.43.10) port 80 (#0)
-> GET / HTTP/1.1
-> User-Agent: curl/7.21.3 (i686-pc-linux-gnu) libcurl/7.21.3 OpenSSL/0.9.8o zlib/1.2.3.4 libidn/1.18
-> Host: www.example.com
-> Accept: application/xml
->
-...
-```
+    $ curl -v -H "Accept: application/xml" www.example.com
+    * About to connect() to www.example.com port 80 (#0)
+    * Trying 192.0.43.10... connected
+    * Connected to www.example.com (192.0.43.10) port 80 (#0)
+    > GET / HTTP/1.1
+    > User-Agent: curl/7.21.3 (i686-pc-linux-gnu) libcurl/7.21.3 OpenSSL/0.9.8o zlib/1.2.3.4 libidn/1.18
+    > Host: www.example.com
+    > Accept: application/xml
+    >
+    ...
 
 
 
@@ -214,12 +194,10 @@ or JSON documents to the Rackspace Cloud APIs, but the remainder of the
 examples in this article will use XML documents because they are more
 descriptive. Following is an example XML document saved as auth.xml:
 
-``` {#pre-10}
-<?xml version="1.0" encoding="UTF-8"?>
-<credentials xmlns="http://docs.rackspacecloud.com/auth/api/v1.1"
-username="johndoe"
-key="4e229b2e0789d9070e8411c9beee1c13"/>
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <credentials xmlns="http://docs.rackspacecloud.com/auth/api/v1.1"
+    username="johndoe"
+    key="4e229b2e0789d9070e8411c9beee1c13"/>
 
 After the XML document is ready, you can use cURL to send a POST request
 with the document to the API endpoint. The service endpoint that you use
@@ -239,29 +217,25 @@ UK customers: https://lon.auth.api.rackspacecloud.com/v1.1/auth
 The curl based call will look like the following for johndoe who is a US
 based customer:
 
-``` {#pre-11}
-$ curl -X POST -d @auth.xml -H "Content-Type: application/xml" -H "Accept: application/xml" https://auth.api.rackspacecloud.com/v1.1/auth
-```
+    $ curl -X POST -d @auth.xml -H "Content-Type: application/xml" -H "Accept: application/xml"     https://auth.api.rackspacecloud.com/v1.1/auth
 
 The following examples shows the response to the authentication request:
 
-``` {#pre-12}
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<auth xmlns="http://docs.rackspacecloud.com/auth/api/v1.1">
-<token expires="2012-01-17T03:52:09.000-06:00" id="3c5c8187-2569-47e0-8a11-edadd384e12b"/>
-<serviceCatalog>
-<service name="cloudFilesCDN">
-<endpoint publicURL="https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b" v1Default="true" region="ORD"/>
-</service>
-<service name="cloudServers">
-<endpoint publicURL="https://servers.api.rackspacecloud.com/v1.0/123456" v1Default="true"/>
-</service>
-<service name="cloudFiles">
-<endpoint internalURL="https://snet-storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b" publicURL="https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b" v1Default="true" region="ORD"/>
-</service>
-</serviceCatalog>
-</auth>
-```
+    <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <auth xmlns="http://docs.rackspacecloud.com/auth/api/v1.1">
+    <token expires="2012-01-17T03:52:09.000-06:00" id="3c5c8187-2569-47e0-8a11-edadd384e12b"/>
+    <serviceCatalog>
+    <service name="cloudFilesCDN">
+    <endpoint publicURL="https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b" v1Default="true" region="ORD"/>
+    </service>
+     <service name="cloudServers">
+    <endpoint publicURL="https://servers.api.rackspacecloud.com/v1.0/123456" v1Default="true"/>
+    </service>
+    <service name="cloudFiles">
+    <endpoint internalURL="https://snet-storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b" publicURL="https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b" v1Default="true" region="ORD"/>
+    </service>
+    </serviceCatalog>
+    </auth>
 
 In the preceding response, note the following information that you will
 need when using the Cloud Files API:
@@ -306,31 +280,27 @@ When you use the recipes, be sure to substitute your own endpoint URL.
 Querying the Cloud Files storage endpoint returns a simple list of
 available containers, each on a new line.
 
-``` {#pre-13}
-$ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/
-backup
-cloudservers
-images
-static
-```
+    $ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/
+    backup
+    cloudservers
+    images
+    static
 
 You can also list the containers with more details, including
 information such as the container, size and the number of objects within
 the container by passing the format parameter:
 
-``` {#pre-14}
-$ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/?format=xml
-<?xml version="1.0" encoding="UTF-8"?>
-<account name="MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b">
-<container>
-<name>backup</name>
-<count>1</count>
-<bytes>54770176</bytes>
-</container>
-<container>
-<name>cloudservers</name>
-...
-```
+    $ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/?format=xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <account name="MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b">
+    <container>
+    <name>backup</name>
+    <count>1</count>
+    <bytes>54770176</bytes>
+    </container>
+    <container>
+    <name>cloudservers</name>
+    ...
 
 ****
 
@@ -340,10 +310,8 @@ Creating a container requires sending a PUT request to the storage URL
 and including a name for the container as part of the URL. The following
 example shows the request to create a new container called newcontainer:
 
-``` {#pre-15}
-$ curl -X PUT -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/newcontainer
-202 Accepted
-```
+    $ curl -X PUT -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/newcontainer
+    202 Accepted
 
 The request is accepted for processing.
 
@@ -358,15 +326,13 @@ body is returned as part of this request, so it is useful to also
 include the verbose flag to determine if the deletion was successful by
 verifying that an HTTP 204 response is returned.
 
-``` {#pre-16}
-$ curl -v -X DELETE -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/newcontainer
-...
-< HTTP/1.1 204 No Content
-< Content-Length: 0
-< Content-Type: text/html; charset=UTF-8
-< X-Trans-Id: tx6eeb58f3dfa44f2e892505b711e8aefa
-< Date: Wed, 01 Feb 2012 13:05:00 GMT
-```
+    $ curl -v -X DELETE -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/newcontainer
+    ...
+    < HTTP/1.1 204 No Content
+    < Content-Length: 0
+    < Content-Type: text/html; charset=UTF-8
+    < X-Trans-Id: tx6eeb58f3dfa44f2e892505b711e8aefa
+    < Date: Wed, 01 Feb 2012 13:05:00 GMT
 
 **Listing Objects**
 
@@ -374,26 +340,22 @@ Querying a container returns a simple list of objects within that
 container. By default only the first 10,000 objects are returned. The
 following example lists the objects of a container called images:
 
-``` {#pre-17}
-$ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images
-banner.jpg
-cloud.png
-rackspace.jpg
-```
+    $ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images
+    banner.jpg
+    cloud.png
+    rackspace.jpg
 
 You can also use the format parameter to get more detailed information
 about objects, such as size and content type.
 
-``` {#pre-18}
-$ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images?format=xml
-<?xml version="1.0" encoding="UTF-8"?>
-<container name="images">
-<object>
-<name>banner.jpg</name>
-<hash>9ed61f72b1f3777ff01b7ce128a67244</hash>
-<bytes>26326</bytes>
-...
-```
+    $ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images?format=xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <container name="images">
+    <object>
+    <name>banner.jpg</name>
+    <hash>9ed61f72b1f3777ff01b7ce128a67244</hash>
+    <bytes>26326</bytes>
+    ...
 
 You can list more than 10,000 objects or to filter by specific objects
 by passing some additional URL parameter options. For more detailed
@@ -412,9 +374,8 @@ save the contents. The following example downloads the cloud.png object
 from the images container to a local file of the same name by using the
 curl -o option to save the HTTP response body to a file:
 
-``` {#pre-19}
-$ curl -o cloud.png -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/cloud.png
-```
+    $ curl -o cloud.png -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/cloud.png
+
 
 ****
 
@@ -431,18 +392,16 @@ the object will be used. In the case of CSS files, for example, having
 an improper content type could cause web browsers to not parse the CSS
 when it served from the CDN, resulting in an unstyled web page.*
 
-``` {#pre-20}
-$ curl -X PUT -T style.css -H "Content-Type: text/css" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/static/style.css
-<html>
-<head>
-<title>201 Created</title>
-</head>
-<body>
-<h1>201 Created</h1>
-<br /><br />
-</body>
-</html>
-```
+    $ curl -X PUT -T style.css -H "Content-Type: text/css" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/static/style.css
+    <html>
+    <head>
+    <title>201 Created</title>
+    </head>
+    <body>
+    <h1>201 Created</h1>
+    <br /><br />
+    </body>
+    </html>
 
 You can also to upload an object to make it appear as if the object is
 part of a directory structure. You do this by naming the object with the
@@ -452,18 +411,16 @@ if it was part of a directory structure and is generally more organized.
 The following example repeats the preceding example but names the
 style.css object so that it becomes css/style.css:
 
-``` {#pre-21}
-$ curl -X PUT -T style.css -H "Content-Type: text/css" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/static/css/style.css
-<html>
-<head>
-<title>201 Created</title>
-</head>
-<body>
-<h1>201 Created</h1>
-<br /><br />
-</body>
-</html>
-```
+    $ curl -X PUT -T style.css -H "Content-Type: text/css" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/static/css/style.css
+    <html>
+    <head>
+    <title>201 Created</title>
+    </head>
+    <body>
+    <h1>201 Created</h1>
+    <br /><br />
+    </body>
+    </html>
 
 ****
 
@@ -474,17 +431,15 @@ be deleted. It is useful to provide the verbose flag because the call
 does not return anything by default. An HTTP 204 No Content response
 code indicates a successful deletion.
 
-``` {#pre-22}
-$ curl -v -X DELETE -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/static/style.css ...
-< HTTP/1.1 204 No Content
-< Content-Length: 0
-< Content-Type: text/html; charset=UTF-8
-< X-Trans-Id: tx08e07264230f46cea4bdbaf998e301c0
-< Date: Wed, 08 Feb 2012 19:24:17 GMT
-<
-* Connection #0 to host storage101.ord1.clouddrive.com left intact
-* Closing connection #0 * SSLv3, TLS alert, Client hello (1):
-```
+    $ curl -v -X DELETE -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/static/style.css ...
+    < HTTP/1.1 204 No Content
+    < Content-Length: 0
+    < Content-Type: text/html; charset=UTF-8
+    < X-Trans-Id: tx08e07264230f46cea4bdbaf998e301c0
+    < Date: Wed, 08 Feb 2012 19:24:17 GMT
+    <
+    * Connection #0 to host storage101.ord1.clouddrive.com left intact
+    * Closing connection #0 * SSLv3, TLS alert, Client hello (1):
 
 ****
 
@@ -499,18 +454,16 @@ a deletion of the original. Copying is not restricted to a single
 container. The following example copies the rackspace.jpg file to a new
 name of rackspace.jpeg as named in the Destination header:
 
-``` {#pre-23}
-$ curl -X COPY -H "Destination: images/rackspace.jpeg" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.jpg
-<html>
-<head>
-<title>201 Created</title>
-</head>
-<body>
-<h1>201 Created</h1>
-<br /><br />
-</body>
-</html>
-```
+    $ curl -X COPY -H "Destination: images/rackspace.jpeg" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.jpg
+    <html>
+    <head>
+    <title>201 Created</title>
+    </head>
+    <body>
+    <h1>201 Created</h1>
+    <br /><br />
+    </body>
+    </html>
 
 ****
 
@@ -529,17 +482,15 @@ destination of the copy to be the same as the source.*
 Following is an example of how to update the Content-Type of an image to
 image/jpeg by using the POST operation:
 
-``` {#pre-24}
-$ curl -X POST -H "Content-Type: image/jpeg" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.jpg
-<html>
-<head>
-<title>202 Accepted</title>
-</head>
-<body>
-<h1>202 Accepted</h1> The request is accepted for processing.<br /><br />
-</body>
-</html>
-```
+    $ curl -X POST -H "Content-Type: image/jpeg" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.jpg
+    <html>
+    <head>
+    <title>202 Accepted</title>
+    </head>
+    <body>
+    <h1>202 Accepted</h1> The request is accepted for processing.<br /><br />
+    </body>
+    </html>
 
 ****
 
@@ -549,7 +500,8 @@ Cloud Files maintains a separate CDN API web service endpoint
 specifically for CDN-related operations. This URL is returned as part of
 the authentication process. The following recipes will use the following
 URL:
-https://cdn2.clouddrive.com/v1/MossoCloudFS\_c4f83243-7537-4600-a94d-ab7065f0a27b.
+    https://cdn2.clouddrive.com/v1/MossoCloudFS\_c4f83243-7537-4600-a94d-ab7065f0a27b.
+
 When you use the recipes, be sure to substitute your own endpoint URL.
 
 ****
@@ -561,11 +513,9 @@ that have been CDN-enabled at some point. Containers that have never
 been CDN-enabled do not appear on this list. The following request lists
 all CDN-enabled containers:
 
-``` {#pre-25}
-$ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b
-files
-static
-```
+    $ curl -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b
+    files
+    static
 
 ****
 
@@ -586,19 +536,17 @@ publishes it.*
 
 The following request enables and publishes the images container:
 
-``` {#pre-26}
-$ curl -X PUT -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images
-...
-HTTP/1.1 204 No Content Date: Wed, 15 Feb 2012 20:28:29 GMT
-Server: Apache
-X-CDN-URI: http://c12345.r49.cf2.rackcdn.com
-X-CDN-SSL-URI: https://c12345.ssl.cf2.rackcdn.com X-CDN-STREAMING-URI: http://c12345.r49.stream.cf2.rackcdn.com
-X-CDN-Enabled: True
-X-TTL: 259200
-X-Log-Retention: False
-Connection: close
-Content-Type: text/plain; charset=UTF-8
-```
+    $ curl -X PUT -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images
+    ...
+    HTTP/1.1 204 No Content Date: Wed, 15 Feb 2012 20:28:29 GMT
+    Server: Apache
+    X-CDN-URI: http://c12345.r49.cf2.rackcdn.com
+    X-CDN-SSL-URI: https://c12345.ssl.cf2.rackcdn.com X-CDN-STREAMING-URI: http://c12345.r49.stream.cf2.rackcdn.com
+    X-CDN-Enabled: True
+    X-TTL: 259200
+    X-Log-Retention: False
+    Connection: close
+    Content-Type: text/plain; charset=UTF-8
 
 ****
 
@@ -612,20 +560,18 @@ reference content within the container.
 
 The following request lists the CDN details of the images container:
 
-``` {#pre-27}
-$ curl -I -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images
-HTTP/1.1 204 No
-Content Date: Mon, 20 Feb 2012 19:39:41 GMT
-Server: Apache
-X-CDN-URI: http://c4965949.r49.cf2.rackcdn.com
-X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
-X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
-X-CDN-Enabled: True
-X-TTL: 259200
-X-Log-Retention: False
-Connection: close
-Content-Type: text/plain; charset=UTF-8
-```
+    $ curl -I -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images
+    HTTP/1.1 204 No
+    Content Date: Mon, 20 Feb 2012 19:39:41 GMT
+    Server: Apache
+    X-CDN-URI: http://c4965949.r49.cf2.rackcdn.com
+    X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
+    X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
+    X-CDN-Enabled: True
+    X-TTL: 259200
+    X-Log-Retention: False
+    Connection: close
+    Content-Type: text/plain; charset=UTF-8
 
 ****
 
@@ -657,19 +603,17 @@ Following is a list of CDN attributes that may be updated:
 
 The following example request unpublishes a container called images:
 
-``` {#pre-29}
-$ curl -v -X POST -H "X-CDN-Enabled: False" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images ...
-< HTTP/1.1 202 Accepted
-< Date: Mon, 20 Feb 2012 19:33:33 GMT
-< Server: Apache
-< X-CDN-URI: http://c4965949.r49.cf2.rackcdn.com
-< X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
-< X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
-< Content-Length: 0
-< Connection: close
-< Content-Type: text/plain; charset=UTF-8
-<
-```
+    $ curl -v -X POST -H "X-CDN-Enabled: False" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images ...
+    < HTTP/1.1 202 Accepted
+    < Date: Mon, 20 Feb 2012 19:33:33 GMT
+    < Server: Apache
+    < X-CDN-URI: http://c4965949.r49.cf2.rackcdn.com
+    < X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
+    < X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
+    < Content-Length: 0
+    < Connection: close
+    < Content-Type: text/plain; charset=UTF-8 
+    <
 
 ****
 
@@ -698,20 +642,18 @@ from the images container with a notification email set to
 user@example.com. (Use the verbose option because no response body is
 returned.)
 
-``` {#pre-30}
-$ curl -v -X DELETE -H "X-Purge-Email: user@example.com" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.png
-...
->
-< HTTP/1.1 204 No Content
-< Date: Mon, 20 Feb 2012 20:10:18 GMT
-< Server: Apache
-< Content-Length: 0
-< Connection: close
-< Content-Type: text/plain; charset=UTF-8
-<
-* Closing connection #0
-* SSLv3, TLS alert, Client hello (1):
-```
+    $ curl -v -X DELETE -H "X-Purge-Email: user@example.com" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.png
+    ...
+    >
+    < HTTP/1.1 204 No Content
+    < Date: Mon, 20 Feb 2012 20:10:18 GMT
+    < Server: Apache
+    < Content-Length: 0
+    < Connection: close
+    < Content-Type: text/plain; charset=UTF-8
+    <
+    * Closing connection #0
+    * SSLv3, TLS alert, Client hello (1):
 
 ### **Summary**
 

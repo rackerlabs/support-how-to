@@ -92,13 +92,7 @@ to indicate when usage reaches a certain level, or if it has increased
 by a certain amount.  This is a great way to get monitoring without
 having to code a solution yourself.
 
- Rackspace has two [Cloud Tools
-Partners](https://cloudtools.rackspace.com/home) that provide these
-features, [Cloud
-Ability](https://cloudtools.rackspace.com/apps/445?1601080659) and [QloudStat](https://cloudtools.rackspace.com/apps/399?1814232928).
-
-
-
+Review the Rackspace Cloud Tools Partners](https://cloudtools.rackspace.com/home) list for third-party monitorig options.
 
 ### Hide source code
 

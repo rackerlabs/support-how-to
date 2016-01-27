@@ -28,8 +28,6 @@ can contact Support and ask them to change your account's default
 region.  That may get the tool to use your preferred region for file
 transfers.
 
-###
-
 ### How do I set up Multi Region?
 
 You don&rsquo;t need to do anything to set up multi region capabilities for

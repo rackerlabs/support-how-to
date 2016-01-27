@@ -14,7 +14,7 @@ The following matrix displays specific permissions for the roles in Cloud Files.
 
 [API Documentation](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#developer-guide)
 
-[Related Knowledge Center Articles](/how-to/)
+[Related How To Articles](/how-to/)
 
 [Cloud Files Terminology](/how-to/cloud-files-faq)
 
