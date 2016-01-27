@@ -4,17 +4,11 @@ title: Add Multiple Contacts to Exchange
 type: article
 created_date: '2011-03-18'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-26'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
-
-<div id="node-1004" class="node node-type-article">
-
-<div class="node-inner">
-
-<div class="content">
 
 Exchange only allows internal addresses for email forwarding and
 distribution lists. To use an external address for either of these
@@ -57,10 +51,3 @@ steps:
 9.  Click the **Import** button. Any errors that occur will be detailed
     in the import summary, which will appear after the import
     is complete.
-
-</div>
-
-</div>
-
-</div>
-
