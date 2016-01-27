@@ -15,8 +15,7 @@ document is meant to serve as a general guideline. It applies only to
 customers who have either *registered* or *transferred* their domains
 through the Cloud Sites Control Panel.
 
-Terms and definitions
----------------------
+### Terms and definitions
 
 -   **Losing registrar**: The registrar from which the domain is
     being transferred. In this case, Click and Name (Cloud
@@ -24,15 +23,13 @@ Terms and definitions
 -   **Winning registrar**: The registrar that is requesting the domain
     transfer (for example, Name.com, Network Solutions, or GoDaddy).
 
-Initiate a transfer request
----------------------------
+### Initiate a transfer request
 
 Sign up with the domain registrar of your choice (for example, Name.com,
 Network Solutions, or GoDaddy) and initiate a *domain transfer request*,
 following the registrar's instructions.
 
-Obtain an authorization code from Click and Name
-------------------------------------------------
+### Obtain an authorization code from Click and Name
 
 To transfer the domain, the winning registrar will likely require you to
 provide them with the domain authorization code (also called the EPP
@@ -53,8 +50,7 @@ control panel, contact Rackspace Support. Support can send an automated
 email with the authorization code, if the email address in the WHOIS
 record is valid.
 
-Provide the authorization code to the winning registrar
--------------------------------------------------------
+### Provide the authorization code to the winning registrar
 
 After you obtain the authorization code, you provide it to the winning
 registrar. Depending on the registrar, you might receive an email with
