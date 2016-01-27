@@ -32,8 +32,7 @@ like catchall@yourdomain.com, the email is delivered to the catchall
 mailbox. This is true for email sent to any other addresses that have
 not been set up as mailboxes on the system.
 
-To set up a catchall email account for a particular domain
-----------------------------------------------------------
+### To set up a catchall email account for a particular domain
 
 1.  Log in to the [Cloud Sites
     Control Panel.](https://manage.rackspacecloud.com "https://manage.rackspacecloud.com")
