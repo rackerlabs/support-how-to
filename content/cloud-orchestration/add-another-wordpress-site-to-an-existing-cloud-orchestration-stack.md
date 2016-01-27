@@ -4,8 +4,8 @@ title: Add another WordPress site to an existing Cloud Orchestration stack
 type: article
 created_date: '2013-12-13'
 created_by: Jered Heeschen
-last_modified_date: '2016-01-12'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -18,75 +18,75 @@ Adding a site to an existing stack requires changes to the configurations for mu
 
 ### Connect to the backend (database) server
 
-1. Log in to the [Cloud Control Panel](http://mycloud.rackspace.com).
+1\. Log in to the [Cloud Control Panel](http://mycloud.rackspace.com).
 
-2. In the top navigation bar, click **Orchestration > Stacks** to view the list of existing stacks.
+2\. In the top navigation bar, click **Orchestration > Stacks** to view the list of existing stacks.
 
      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/orchestration-nav.png" width="479" height="131" border="2" alt=""  />
 
-3. From the Stacks list, click on the name of the stack to which you want to add a WordPress site.
+3\. From the Stacks list, click on the name of the stack to which you want to add a WordPress site.
 
-4. From the list of servers, click the name of the "backend" server to view its details page.
+4\. From the list of servers, click the name of the "backend" server to view its details page.
 
     On the backend server's detail page, you will find the PublicNet IP address in the Networks section.
 
 **Note:** If "backend" does not appear on your server list, find details for "database". "Database" acts as your backend server.
 
-5. Use the public IP address from the server details page and the private key provided when the stack was created to connect to the backend server with SSH.
+5\. Use the public IP address from the server details page and the private key provided when the stack was created to connect to the backend server with SSH.
 
         ssh user@<ip_address_of_backend_server> -i /path/to/key
 
-If you do not have the private key, you can reset the backend server's root password. For help connecting to your server via SSH, see the articles on using SSH with a private key in our Knowledge Center for [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
+If you do not have the private key, you can reset the backend server's root password. For help connecting to your server via SSH, see the articles on using SSH with a private key in our How To center for [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
-### Database Setup
+### Database setup
 
-1. After logging in, run the ```mysql``` command to connect to MySQL.
+1\. After logging in, run the ```mysql``` command to connect to MySQL.
 
         mysql
 
-2. Create a database for the new WordPress site with the ```create database``` command in the MySQL shell.  For this example we'll call the site "blogsrock.rackspace.com".
+2\. Create a database for the new WordPress site with the ```create database``` command in the MySQL shell.  For this example we'll call the site "blogsrock.rackspace.com".
 
         create database blogsrock_rackspace_com;
 
-3. Create a user and password for this site. Please use a strong password (not like the one in this tutorial).
+3\. Create a user and password for this site. Please use a strong password (not like the one in this tutorial).
 
         grant all on `blogsrock_rackspace_com`.* to 'blogsrock'@'localhost' identified by 'mystrongpassword';
 
-4. Grant access for this user when connecting from our web servers. For this tutorial we are going to grant access to all `10.x.x.x` IP addresses; however, for additional security, you can replace this with the specific ServiceNet IP addresses of your web servers.
+4\. Grant access for this user when connecting from our web servers. For this tutorial we are going to grant access to all `10.x.x.x` IP addresses; however, for additional security, you can replace this with the specific ServiceNet IP addresses of your web servers.
 
         grant all on `blogsrock_rackspace_com`.* to 'blogsrock'@'10.%' identified by 'mystrongpassword';
 
-5. When you are finished, type `exit` to leave MySQL and type `exit` again to disconnect from the backend server.
+5\. When you are finished, type `exit` to leave MySQL and type `exit` again to disconnect from the backend server.
 
-### WordPress Setup
+### WordPress setup
 
 Now that the database is ready, we can begin installing WordPress on the master node.
 
-1. From the stack's detail page, click the link for the "master" server.
+1\. From the stack's detail page, click the link for the "master" server.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cpdeploymentsmasterlist.png" width="600" border="2" alt="List of stacks with the backend node highlighted"  />
 
     On the master server's detail page, you will find the PublicNet IP address in the Networks section.
 
-2. Use the IP address and private key to connect to the server via `ssh`.
+2\. Use the IP address and private key to connect to the server via `ssh`.
 
         ssh user@<ip_address_of_master_server> -i /path/to/key
 
-5. Use `wget` to download the latest WordPress tarball.
+3\. Use `wget` to download the latest WordPress tarball.
 
         wget http://wordpress.org/latest.tar.gz
 
-12. Download a script called [wordpress-cli-installer](https://github.com/nexcess/wordpress-cli-installer) that we will use later to simplify the final steps of the WordPress setup.
+4\. Download a script called [wordpress-cli-installer](https://github.com/nexcess/wordpress-cli-installer) that we will use later to simplify the final steps of the WordPress setup.
 
         wget https://raw.github.com/nexcess/wordpress-cli-installer/master/wordpress-cli-installer.sh
 
-3. Navigate to the web server's data directory.
+5\. Navigate to the web server's data directory.
 
         cd /var/www/vhosts
 
     The directory should contain subdirectories for any WordPress sites that are already configured on the server.
 
-4. Make a new directory for the new site, with WordPress subdirectories.
+6\. Make a new directory for the new site, with WordPress subdirectories.
 
         sudo mkdir -p blogsrock.rackspace.com/{conf,http_docs,.ssh}
 
@@ -100,21 +100,21 @@ Now that the database is ready, we can begin installing WordPress on the master 
         drwxr-xr-x 2 root root 4096 Dec  3 16:23 http_docs/
         drwxr-xr-x 2 root root 4096 Dec  3 16:23 .ssh/
 
-5. Extract the WordPress tarball you downloaded earlier to the `http_docs` directory.
+7\. Extract the WordPress tarball you downloaded earlier to the `http_docs` directory.
 
         sudo tar --strip-components 1 -xvzf ~/latest.tar.gz -C http_docs/
 
-6. Change to the http_docs directory.
+8\. Change to the http_docs directory.
 
         cd http_docs/
 
     The extracted WordPress files should be present, including the wp-config-sample.php file.
 
-7. Copy the wp-config-sample.php file to make a new WordPress config file.
+9\. Copy the wp-config-sample.php file to make a new WordPress config file.
 
         sudo cp wp-config-sample.php wp-config.php
 
-8. Edit the new configuration file and add some extras to help with file permissions and load balancing.
+10\. Edit the new configuration file and add some extras to help with file permissions and load balancing.
 
     For HTTP-only sites, you can easily make the necessary changes by running, all on one line:
 
@@ -124,7 +124,7 @@ Now that the database is ready, we can begin installing WordPress on the master 
 
         sudo bash -c "echo -e "define('FS_METHOD', \"direct\");\ndefine('FS_CHMOD_DIR', (02775 & ~umask()));\ndefine('FS_CHMOD_FILE', (0664 & ~ umask()));\ndefine('FORCE_SSL_ADMIN', true);\nif ( isset($_SERVER['HTTP_X_PROXY_PROTO']) && \$_SERVER['HTTP_X_PROXY_PROTO'] == 'HTTPS' ) { \$_SERVER['HTTPS'] = 1; }" >> wp-config.php"
 
-9. Generate new secure keys using the WordPress API.
+11\. Generate new secure keys using the WordPress API.
 
         curl -q https://api.wordpress.org/secret-key/1.1/salt/
 
@@ -139,13 +139,13 @@ Now that the database is ready, we can begin installing WordPress on the master 
         define('LOGGED_IN_SALT',   'VE]+84A?6Qen-p`iuthBw;Cqh:z2-9)Rdcw2AY_7?W;D`W5T7ATmJHrK~}-1`e2E');
         define('NONCE_SALT',       'XV}nFzYqXJ}jr)tD2vZ`-|!w]f>3;*`?#U8*l(C:/*)w.cf}6i{Adw@,Yj7p(F?d');
 
-10. Edit the wp-config.php file to replace the default keys with the keys generated in the previous step.
+12\. Edit the wp-config.php file to replace the default keys with the keys generated in the previous step.
 
         sudo nano wp-config.php
 
     Replace `nano` in that command with your text editor of choice.
 
-11. Edit the wp-config.php file to replace the default database values with the database name, username, and password created in the previous section.
+13\. Edit the wp-config.php file to replace the default database values with the database name, username, and password created in the previous section.
 
     The relevant section of the configuration file looks like this:
 
@@ -164,11 +164,11 @@ Now that the database is ready, we can begin installing WordPress on the master 
 
     For the `DB_HOST` value, replace `localhost` with the ServiceNet IP address of the backend server.
 
-13. Run `wordpress-cli-installer`, passing it arguments for the site's base URL, title, admin email address, and WordPress location.
+14\. Run `wordpress-cli-installer`, passing it arguments for the site's base URL, title, admin email address, and WordPress location.
 
         sudo sh ~/wordpress-cli-installer.sh -b 'http://blogsrock.rackspace.com' -T 'BLOGS ROCK' -e 'admin@example.com' /var/www/vhosts/blogsrock.rackspace.com/http_docs/
 
-### System Setup
+### System setup
 
 Now we'll make some changes to the system to accommodate the new WordPress site.
 
@@ -218,7 +218,7 @@ Now we'll make some changes to the system to accommodate the new WordPress site.
         sudo find http_docs/ -type d -exec chmod u+s {} \;
         sudo chmod -R u=rwX,go= .ssh
 
-### Apache Setup
+### Apache setup
 
 Next we need to create an Apache virtual host configuration file for the new site.
 
@@ -234,7 +234,7 @@ Next we need to create an Apache virtual host configuration file for the new sit
 
         sudo sed -i 's/iloveblog.rackspace.com/blogsrock.rackspace.com/g' blogsrock.rackspace.com.conf
 
-### Varnish Setup
+### Varnish setup
 
 Just like Apache, we need to copy the existing site's varnish configuration to a new file and change the domain name it looks for as well.
 
@@ -291,38 +291,38 @@ Now we need to add the new site to our lsyncd configuration so that the master s
                 rsyncOps={"-rlpgoDvz", "-e", "/usr/bin/ssh -i /var/www/vhosts/blogsrock.rackspace.com/.ssh/id_rsa.lsyncd -o StrictHostKeyChecking=no"}
           }
 
-### Slave Setup
+### Slave setup
 
 Next, we need to create the new user on each slave node in order to prepare for the new site. To do this, we are going to setup the stack's SSH key (the one we used to log in to each node) on the master server and use `pssh` to make the process faster.
 
-1. If you aren't already on the root account, switch to a root shell to execute privileged commands and use root's SSH keys.
+1\. If you aren't already on the root account, switch to a root shell to execute privileged commands and use root's SSH keys.
 
         sudo su - root
 
-1. Edit root's private key file to add the stack's SSH private key.
+2\. Edit root's private key file to add the stack's SSH private key.
 
         nano ~/.ssh/id_rsa
 
     Replace `nano` in that command with your text editor of choice.
 
-2. Add the stack's SSH private key to the file and save the change.  If the file isn't empty, add the key on a new line at the end of the file.
+3\. Add the stack's SSH private key to the file and save the change.  If the file isn't empty, add the key on a new line at the end of the file.
 
-3. Change permissions on the key file so only root can access it.
+4\. Change permissions on the key file so only root can access it.
 
         chmod 600 ~/.ssh/id_rsa
 
-4.  Install `pssh` on the master server.
+5\.  Install `pssh` on the master server.
 
         apt-get update
         apt-get install pssh
 
-4. Run pssh to add the new user to each slave server. Note that the `-H` flag here is only used once, but you should repeat it for each additional slave node you have.
+6\. Run pssh to add the new user to each slave server. Note that the `-H` flag here is only used once, but you should repeat it for each additional slave node you have.
 
         parallel-ssh -P -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" useradd -M -d /var/www/vhosts/blogsrock.rackspace.com -p 'mystrongpassword' -s '/bin/bash' -U -G www-data wp_user2
 
     You should see `pssh` report `SUCCESS` for each slave node.
 
-5. Run an `id` command through `pssh` to verify the user creation on each slave node, again adding `-H` flags for each additional slave node.
+7\. Run an `id` command through `pssh` to verify the user creation on each slave node, again adding `-H` flags for each additional slave node.
 
         parallel-ssh -P -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" id wp_user2
 
@@ -330,19 +330,19 @@ Next, we need to create the new user on each slave node in order to prepare for 
 
         uid=1001(wp_user2) gid=1001(wp_user2) groups=1001(wp_user2),33(www-data)
 
-6. Copy the new site's content from the master server to each slave server using `rsync`.
+8\. Copy the new site's content from the master server to each slave server using `rsync`.
 
         rsync -avz -e ssh /var/www/vhosts/blogsrock.rackspace.com root@<slave_node_ip>:/var/www/vhosts
 
     Repeat the `rsync` for each slave node in your stack.
 
-7.  Copy the Apache and Varnish configuration files to the slave nodes.
+9\.  Copy the Apache and Varnish configuration files to the slave nodes.
 
     To make things easier we'll use a loop with the `parallel-scp` command (part of the `pssh` package). Add extra `-H` flags for each additional slave node.
 
         for file in /etc/apache2/sites-available/blogsrock.rackspace.com.conf /etc/varnish/include/blogsrock.rackspace.com_.vcl; do parallel-scp -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" $file $file; done
 
-### This is the Final Countdown
+### This is the final countdown
 
 Now we can finally start putting everything together and run the new site.
 
@@ -358,7 +358,7 @@ Now we can finally start putting everything together and run the new site.
 
         parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service apache2 reload; service apache2 reload
 
-3. Reload Varnish's configuration on the master server and slave nodes.
+4. Reload Varnish's configuration on the master server and slave nodes.
 
         parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service varnish reload; service varnish reload
 

@@ -1,20 +1,20 @@
 ---
 node_id: 3774
-title: How to scale multinode WordPress by using Rackspace Orchestration
+title: How to scale multi-node WordPress by using Rackspace Orchestration
 type: article
 created_date: '2013-11-12'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
 
-This guide provides the instructions for adding a new node to scale a multinode WordPress environment that was created by using Rackspace Orchestration.
+This guide provides the instructions for adding a new node to scale a multi-node WordPress environment that was created by using Rackspace Orchestration.
 
-**Note:** If you need to scale a single WordPress instance, we recommend that you create a new multinode WordPress stack and migrate your data. Many WordPress plug-ins, such as [duplicator](http://wordpress.org/plugins/duplicator/) or [WP Migrate DB](http://wordpress.org/plugins/wp-migrate-db/), can help with this process.
+**Note:** If you need to scale a single WordPress instance, we recommend that you create a new multi-node WordPress stack and migrate your data. Many WordPress plug-ins, such as [duplicator](http://wordpress.org/plugins/duplicator/) or [WP Migrate DB](http://wordpress.org/plugins/wp-migrate-db/), can help with this process.
 
-### Creating the Node
+### Creating the node
 
 1. Log in to [the Cloud Control Panel](https://mycloud.rackspace.com).
 
@@ -47,7 +47,7 @@ This guide provides the instructions for adding a new node to scale a multinode 
 
 12. Select a size for the new node, then click **Create Server** at the bottom of the page.
 
-### Preparing the New Node
+### Preparing the new node
 
 After the server is created and active, you need to make a few adjustments before it is ready to be used by WordPress.
 
@@ -63,9 +63,9 @@ After the server is created and active, you need to make a few adjustments befor
 
     If you do not have the stack's private key, you can reset the master server's root password.
 
-    For help using the SSH key with your server, see the Knowledge Center article on the subject for [Mac/Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
+    For help using the SSH key with your server, see the How To article on the subject for [Mac/Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
-4. After you have logged in to the master server, change the directory to `/etc/lsyncd` and open the `lsyncd.conf.lua` file with `nano`.
+5. After you have logged in to the master server, change the directory to `/etc/lsyncd` and open the `lsyncd.conf.lua` file with `nano`.
 
 
     cd /etc/lsyncd
@@ -90,9 +90,9 @@ After the server is created and active, you need to make a few adjustments befor
     }
 
 
-5. Copy the last `sync{ ... }` section and paste a new copy at the end of the file.
+6. Copy the last `sync{ ... }` section and paste a new copy at the end of the file.
 
-6. Replace the IP address in the value for `target` in the new `sync` block with the ServiceNet IP of the new server that you created earlier.
+7. Replace the IP address in the value for `target` in the new `sync` block with the ServiceNet IP of the new server that you created earlier.
 
 
     The line to edit looks similar to `target="wp_user@10.176.129.22:/var/www/vhosts/iloveblog.rackspace.com/http_docs"`, as in the following example:
@@ -120,15 +120,15 @@ After the server is created and active, you need to make a few adjustments befor
     }
 
 
-7. When you are finished, press `Ctrl-o` and `Enter` to write the changes, and then press `Ctrl+x` to exit `nano`.
+8. When you are finished, press `Ctrl-o` and `Enter` to write the changes, and then press `Ctrl+x` to exit `nano`.
 
-8. Now that the configuration is updated, restart `lsyncd`.
+9. Now that the configuration is updated, restart `lsyncd`.
 
 
     sudo service lsyncd restart
 
 
-9. Check the `lsyncd` log to verify that content is being pushed to the new server.
+10. Check the `lsyncd` log to verify that content is being pushed to the new server.
 
 
     # cat /var/log/lsyncd/lsyncd.log
@@ -158,17 +158,17 @@ After the server is created and active, you need to make a few adjustments befor
     sent 105017 bytes  received 261 bytes  70185.33 bytes/sec
     total size is 12563838  speedup is 119.34
     Fri Nov  8 23:20:45 2013 Normal: Startup of '/var/www/vhosts/iloveblog.rackspace.com/http_docs/' finished.
-    
+
 
     You should see something like the preceding example log, with the new server's IP address in the log and a list of files that have been synchronized since `lsyncd` restarted.
 
     If you see an error, go back and check the `/etc/lsyncd/lsyncd.conf.lua` file to ensure that there are no mistakes.
 
-### Adding the New Node to the Load Balancer
+### Adding the new node to the load balancer
 
 After you have confirmed that the new server is receiving content, you can add it to the stack load balancer.
 
-1. Go back to the Orchestrations page in [the Cloud Control Panel](https://mycloud.rackspace.com) and select your stack again.
+1. Go back to the Orchestrations page in the [Cloud Control Panel](https://mycloud.rackspace.com) and select your stack again.
 
 2. In the Infrastructure list, click the link for your stack's load balancer.
 

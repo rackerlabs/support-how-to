@@ -1,11 +1,11 @@
 ---
 node_id: 4758
-title: 'Upcoming Deprecation of Resource Rackspace::Cloud::Server for Cloud Orchestration'
+title: 'Upcoming deprecation of resource Rackspace::Cloud::Server for Cloud Orchestration'
 type: article
 created_date: '2015-07-24'
 created_by: Mike Asthalter
-last_modified_date: '2016-01-08'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -34,8 +34,7 @@ needs. Please continue to read this article.
 
 
 
-Why is Rackspace doing this?
-----------------------------
+### Why is Rackspace doing this? ###
 
 Rackspace Cloud Server was intended as a stopgap to accommodate the
 initial lack of support for Cloud Init on Rackspace Public Cloud as well
@@ -50,8 +49,7 @@ goal.
 
 
 
-What are the key behavioral changes?
-------------------------------------
+### What are the key behavioral changes? ###
 
 OS::Nova::Server will not provide the following capabilities
 that Rackspace Cloud Server provides by default:
@@ -63,10 +61,7 @@ that Rackspace Cloud Server provides by default:
     any additional instrumentation.
 
 
--
-
-What do I need to do to accommodate this change? Are there workarounds to mimic past behavior?
-----------------------------------------------------------------------------------------------
+### What do I need to do to accommodate this change? Are there workarounds to mimic past behavior? ###
 
 If you are already using OS Nova Server successfully in your templates,
 and the above three behavioral changes don't impact your use case, you
@@ -149,7 +144,7 @@ functionalities, the workarounds are described below.
 The mechanism shown above can be used to set and retrieve the admin
 password instead of the way it was used earlier with
 Rackspace Cloud Server. As mentioned earlier, the *technique shown below
-will* *not* work after deprecation is complete.
+will not* work after deprecation is complete.
 
 
 
@@ -177,8 +172,7 @@ will* *not* work after deprecation is complete.
 
 
 
-Further questions?
-------------------
+### Further questions? ###
 
 Contact Rackspace via normal support channels and ask for help with the
 Orchestration service, with using Heat templates, or to voice any

@@ -4,8 +4,8 @@ title: Cloud Orchestration FAQ
 type: article
 created_date: '2015-12-09'
 created_by: Stephanie Fillmon
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -57,7 +57,7 @@ commands that make API calls. You can specify a --debug parameter on any
 command to show the underlying API request for the command. This is a
 good way to become familiar with the API requests.
 
-#### Can I access Cloud Orchestratino through the Cloud Control Panel?
+#### Can I access Cloud Orchestration through the Cloud Control Panel?
 
 Yes. Log in to the [Cloud Control Panel](http://mycloud.rackspace.com)
 and click on the **Orchestration** tab.
@@ -365,7 +365,7 @@ The stack is supported at the system level with the Managed Operations
 Service Level of support. Only the software in our [Spheres of
 Support](/how-to/cloud-servers-with-managed-operations-support-for-linux)
 is supported. Software installed on top of a web server or database
-server (like WordPress or Drupal) is not directly supported, bu the
+server (like WordPress or Drupal) is not directly supported, but the
 underlying system, web server, and database server are supported.
 
 The underlying structure of the stack is supported at all service
