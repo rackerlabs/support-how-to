@@ -12,7 +12,6 @@ product_url: cloud-sites
 
 The following SSL certificates are supported on Cloud Sites:
 
-<div>
 
 -   Apache + OpenSSL (PEM format).
 -   Single Root Level certificates.Chained Root SSL certificates.
@@ -26,13 +25,12 @@ The following SSL certificates are supported on Cloud Sites:
     to be provided by the issuer. See the following section for
     installation information.
 
-**Note:**<span> Cloud Sites does not support self-signed SSL
+**Note:** Cloud Sites does not support self-signed SSL
 certificates.</span>
 
 
 
-Installing EV, multi-domain or wildcard certificates
-----------------------------------------------------
+### Installing EV, multi-domain or wildcard certificates
 
 When you install EV, multi-domain or wildcard certificates, the
 certificate must be installed to the name contained in the certificate's
@@ -55,5 +53,4 @@ Cloud Sites, see [Getting started with Cloud Sites: Configuring SSL on
 your
 websites](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
-</div>
 
