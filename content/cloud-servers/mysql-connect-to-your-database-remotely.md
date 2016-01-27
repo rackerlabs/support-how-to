@@ -13,20 +13,11 @@ product_url: cloud-servers
 This tutorial will walk you through setting up a user on your MySQL
 server to connect remotely.
 
--   [<span class="toctext">Getting your IP
-    address</span>](#Getting_your_IP_address)
--   [<span class="toctext">Granting Access</span>](#Granting_Access)
--   [<span class="toctext">Testing Remotely</span>](#Testing_Remotely)
--   [<span class="toctext">Notes</span>](#Notes)
-
 The following items are assumed:
 
 -   You have access to login as the 'root' MySQL user
 
-
-
-<span class="mw-headline">Getting your IP address </span>
----------------------------------------------------------
+### Getting your IP address
 
 You will need to know what the IP address you are connecting from. To
 find this you can go to one of the following sites:
@@ -34,10 +25,7 @@ find this you can go to one of the following sites:
 -   <http://www.ipchicken.com>
 -   <http://www.whatismyip.com>
 
-
-
-<span class="mw-headline">Granting Access </span>
--------------------------------------------------
+### Granting access
 
 Granting access to a user from a remote host is fairly simple and can be
 accomplished from just a few steps. First you will need to login to your
@@ -55,19 +43,16 @@ creating a brand new user (fooUser) that will have full access to the
 
 Keep in mind that this statement is not complete and will need some
 items changed. Please change **1.2.3.4** to the IP address that we
-obtained above. You will also need to change **my\_password** with the
+obtained above. You will also need to change **my_password** with the
 password that you would like to use for **fooUser**.
 
     mysql> GRANT ALL ON fooDatabase.* TO fooUser@'1.2.3.4' IDENTIFIED BY 'my_password';
 
 This statement will grant ALL permissions to the newly created user
-*fooUser* with a password of 'my\_password' when they connect from the
+*fooUser* with a password of 'my_password' when they connect from the
 IP address *1.2.3.4*.
 
-
-
-<span class="mw-headline">Testing Remotely </span>
---------------------------------------------------
+### Testing remotely
 
 Now you can test your connection remotely. You can access your MySQL
 server from another Linux server:
@@ -84,10 +69,7 @@ server from another Linux server:
 
 Note that the IP of our MySQL server is 44.55.66.77 in this example.
 
-
-
-<span class="mw-headline">Notes </span>
----------------------------------------
+### Notes
 
 There are a few things to note when setting up these remote users:
 
@@ -106,6 +88,3 @@ There are a few things to note when setting up these remote users:
     simply use the name 'mysql' for the port number. Search our wiki for
     *iptables* and you will find a list of common rule sets which
     include an entry for MySQL.
-
-
-
