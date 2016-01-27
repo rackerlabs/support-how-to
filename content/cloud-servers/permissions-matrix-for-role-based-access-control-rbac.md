@@ -10,6 +10,10 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+### Previous section
+
+[Managing RBAC](/how-to/managing-role-based-access-control-rbac)
+
 The RBAC permissions matrix displays the type of roles that are available within each product. Select a product within the table to view the detailed permissions matrix.
 
 Create, Read, Update, and Delete describes the permissions that are available in RBAC roles.
@@ -52,4 +56,6 @@ The following products will not be RBAC enabled:
 - RackConnect
 - Mailgun
 
-### [&lt; Managing RBAC](/how-to/managing-role-based-access-control-rbac)    -    [FAQ for RBAC &gt;](/how-to/faq-role-based-access-control-rbac)
+### Next section
+
+[FAQ for RBAC &gt;](/how-to/faq-role-based-access-control-rbac)
