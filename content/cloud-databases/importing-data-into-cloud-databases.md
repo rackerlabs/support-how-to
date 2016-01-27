@@ -83,6 +83,7 @@ for information on how to perform this dump.
    - On Fedora and CentOS, install the client with this command:
 
             sudo yum install mysql
+
 8.  Run the following MySQL import command, substituting that long
     public hostname you copied from the Control Panel for the `hostname`
     in the command:
@@ -134,12 +135,11 @@ Perform the following steps:
   - `database_name.sql` is the name of the exported database file.
 
   - Replace `username` with the username you use to access the
-original database.
+    original database.
 
   **Note**: If you are creating a dump from a Cloud Databases
-Instance, see [exporting
-data](/how-to/exporting-data-from-mysql)
-for information on how to perform this dump.
+  Instance, see [exporting data](/how-to/exporting-data-from-mysql)
+  for information on how to perform this dump.
 
 5.  Run the following MySQL import command, substituting that long
     public hostname you copied from the Control Panel for the `hostname`
