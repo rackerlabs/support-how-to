@@ -26,7 +26,7 @@ When you finish editing an article, you must commit the edit so Github can produ
 
 Create a pull request for your branch. 
 
-After a pull request is made, you are responsible for merging the pull request.
+During the audit phase of the migration, after a pull request is made, you are responsible for merging the pull request.
 
 Commit any new changes to the branch and merge your pull request once you have completed your edits.
 
