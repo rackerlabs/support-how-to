@@ -27,37 +27,7 @@ Cloud Databases instance to better manage the connections. Database
 instances range in price, but the recommended starting memory size is 1
 GB.
 
-The process is divided into the following steps:
-
-1.  [Set up a Cloud Databases instance and install
-    WordPress](#I_setup)
-
-    -   [Set up a Cloud Database](#I_clouddb)
-    -   [Install WordPress](#I_installwp)
-
-
-2.  [Configure WordPress](#II_WPconfig)
-
-    -   [Adjust the WordPress address URL](#II_adjURL)
-
-    <!-- -->
-
-    -   [Allow WordPress Multisite in wp-config.php](#II_MultisiteAllow)
-
-    -   [Set up the Multisite network](#II_setupWPMUnetwork)
-
-    -   [Establish the network](#II_establishnetwork)
-
-    -   [Install the WordPress MU Domain Mapping
-        plug-in](#II_installplugin)
-
-    -   [Configure the Domain Mapping plug-in](#II_configureplugin)
-
-3.  [Add sites to the WordPress network](#III_addsites)
-
-
-
-### 1. Set up a Cloud Databases instance and install WordPress
+### Set up a Cloud Databases instance and install WordPress
 
 #### <span data-mce-mark="1">Set up a Cloud Databases instance</span>
 
@@ -70,14 +40,11 @@ The disk space depends on the size of the database, taking into account
 that it might grow over time. For more information about setting up a
 Cloud Databases instance, review the following articles:
 
-<div class="highlight">
-
 -   [Getting started with Cloud
     Databases](/how-to/cloud-databases)
 -   [Using Cloud Databases with your Cloud
     Site](/how-to/using-cloud-databases-with-your-cloud-site)
 
-</div>
 
 #### Install WordPress
 
@@ -97,11 +64,7 @@ the one-click installer.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_DB_configuration.PNG" alt="wp-db-configuration-screen" width="447" height="335" />
 
-<div class="highlight">
-
-### 2. Configure WordPress
-
-</div>
+### Configure WordPress
 
 #### Adjust the WordPress address URL
 
@@ -180,8 +143,7 @@ already set this way. For example: **http://example.com**e.
         RewriteRule ^(.*\.php)$ wp/$1 [L]
         RewriteRule . index.php [L]
 
-    <span data-mce-mark="1">**Note**:</span>: If you do not have an
-    **.htaccess** file, you can create a file called **.htaccess** by
+    **Note**: If you do not have an **.htaccess** file, you can create a file called **.htaccess** by
     using an FTP client such as Filezilla. For more information about
     **.htaccess** files, see [Rackspace Cloud Essentials 5 - Tips and
     Tricks for .htaccess and
@@ -198,7 +160,7 @@ already set this way. For example: **http://example.com**e.
 6.  Log out of the WordPress Administration console, and then log
     back in.
 
-**Note: **Because of the way Cloud Sites works, each site that you need
+**Note:** Because of the way Cloud Sites works, each site that you need
 to have managed by the main Multisite installation must be created as an
 *alias*. The aliased domain, added through the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/), must have the primary
@@ -207,9 +169,9 @@ an alias, see [Getting Started With Cloud Sites - Creating Sub-domains
 and/or Domain
 Aliases](/how-to/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases).
 
-**If you want to map full domains to your multisite entries rather than
+If you want to map full domains to your multisite entries rather than
 using subdomains or subfolders in the URL, continue to the next
-section.**
+section.
 
 #### Install the WordPress MU Domain Mapping plug-in
 
@@ -255,7 +217,7 @@ the WordPress MU Domain Mapping plug-in, as follows:
 
 
 
-### 3. Add sites to the WordPress network
+### Add sites to the WordPress network
 
 The final step in this process is to add sites to your WordPress
 network. To do so, perform the following steps:
