@@ -20,11 +20,9 @@ all service books starting with the &ldquo;Desktop&rdquo; from their Blackberry
 device. Once completed, resend the service books from your Cloud Office
 control panel.
 
-To delete the service books from the Blackberry
-take the following steps:
+To delete the service books, follow the steps for your model of Blackberry:
 
-**Blackberry Curve:**
-http://docs.blackberry.com/en/smartphone\_users/deliverables/1487/Delete\_a\_service\_book\_26389\_11.jsp
+### Blackberry Curve
 
 1.  In the device Settings &gt; Options &gt;
     Advanced Options.
@@ -35,8 +33,7 @@ http://docs.blackberry.com/en/smartphone\_users/deliverables/1487/Delete\_a\_ser
 
 
 
-**On a Blackberry Torch:**
-http://docs.blackberry.com/en/smartphone\_users/deliverables/18577/Accept\_or\_delete\_a\_service\_book\_60\_1002781\_11.jsp
+### Blackberry Torch 
 
 1.  On the **Home** screen or in a folder, click the
     **Options** icon.
