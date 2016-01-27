@@ -1,6 +1,6 @@
 ---
 node_id: 387
-title: Migrating a Linux Server From the Command Line
+title: Migrate a Linux server from the command line
 type: article
 created_date: '2011-03-16'
 created_by: Jered Heeschen
@@ -32,7 +32,7 @@ In this article we look at the process for a full migration. If you know
 you want to copy more than just a few data files this is the most
 straightforward approach.
 
-If you prefer a per-package approach you may want to look at [Migrating a Linux server from the command line](/how-to/migrating-a-linux-server-from-the-command-line-2).
+If you prefer a per-package approach you may want to look at [Migrate a Linux server per-package from the command line](/how-to/migrating-a-linux-server-from-the-command-line-2).
 
 ### Prepping the new server
 
