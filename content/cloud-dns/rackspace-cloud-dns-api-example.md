@@ -1,21 +1,19 @@
 ---
 node_id: 1234
-title: Rackspace Cloud DNS - API Example
+title: Rackspace Cloud DNS - API example
 type: article
 created_date: '2011-10-19'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud DNS
 product_url: cloud-dns
 ---
 
-### Prior section
+**Previous section:** [Rackspace Cloud DNS - Technical
+details](/how-to/rackspace-cloud-dns-technical-details)
 
-**[Rackspace Cloud DNS - Technical
-Details](/how-to/rackspace-cloud-dns-technical-details)**
-
-### API Example
+### API example
 
 Let's take a look at a simple example using the API.
 
@@ -27,20 +25,22 @@ username and API access key.
 
 
 
-#### Authentication Request
+#### Authentication request
 
 
 
-    - curl -D - -H "X-Auth-Key: a86850deb2742ec3cb41518e26aa2d89" -H "X-Auth-User: jdoe" https://auth.api.rackspacecloud.com/v1.0
 
-
-#### Authentication Response
+    curl -D - -H "X-Auth-Key: a86850deb2742ec3cb41518e26aa2d89" -H "X-Auth-User: jdoe" https://auth.api.rackspacecloud.com/v1.0
 
 
 
-    - HTTP/1.1 204 No Content
-    - (... more ...)
-    - X-Auth-Token: eaaafd18-0fed-4b3a-81b4-663c99ec1cbb
+#### Authentication response
+
+
+
+    HTTP/1.1 204 No Content
+    (... more ...)
+    X-Auth-Token: eaaafd18-0fed-4b3a-81b4-663c99ec1cbb
 
 
 
@@ -50,24 +50,24 @@ responsible for appropriate replication., caching, and overall
 maintenance of DNS data across regional boundaries to other DNS servers.
 We have endpoints available in the US and the UK.
 
--   **US https://dns.api.rackspacecloud.com/v1.0/1234**
--   **UK https://ion.dns.api.rackspacecloud.com/v1.0/1234**
+-   US `https://dns.api.rackspacecloud.com/v1.0/1234`
+-   UK `https://ion.dns.api.rackspacecloud.com/v1.0/1234`
 
-** **
 
-#### List Domain Details Request
+
+#### List Domain Details request
 
 Next, let's take a look at a simple call to the API. For this example,
 we'll show a List Domain details request. In this request, we are
-calling the US endpoint at dns.api.rackspacecloud.com, and requesting
+calling the US endpoint at `dns.api.rackspacecloud.com`, and requesting
 the domains for account number 1234, and the domain ID 2725511.
 
 
 
-    - curl -X GET -H "X-Auth-Token:eaaafd18-0fed-4b3a-81b4-663c99ec1cbb" -H "Accept:application/xml" https://dns.api.rackspacecloud.com/v1.0/1234/domains/2725511
+    curl -X GET -H "X-Auth-Token:eaaafd18-0fed-4b3a-81b4-663c99ec1cbb" -H "Accept:application/xml" https://dns.api.rackspacecloud.com/v1.0/1234/domains/2725511
 
 
-#### Real Response
+#### Real response
 
 This is an example response from the List Domains API call. Here we are
 showing the XML response, but the DNS API supports both the JSON and XML
@@ -96,7 +96,7 @@ precedence.
         </recordsList>
     </domain>
 
-### Next steps
+**Next steps**
 
 [**Rackspace Cloud DNS - Additional
-Resources**](/how-to/rackspace-cloud-dns-additional-resources)
+resources**](/how-to/rackspace-cloud-dns-additional-resources)

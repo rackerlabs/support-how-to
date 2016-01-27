@@ -1,10 +1,10 @@
 ---
 node_id: 1157
-title: Changing DNS Settings on Linux
+title: Changing DNS settings on Linux
 type: article
 created_date: '2011-07-20'
 created_by: Jered Heeschen
-last_modified_date: '2013-10-23'
+last_modified_date: '2016-01-27'
 last_modified_by: Ross Diaz
 product: Cloud DNS
 product_url: cloud-dns

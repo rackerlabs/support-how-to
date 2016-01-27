@@ -1,11 +1,11 @@
 ---
 node_id: 2176
-title: Creating MX Records for Google Apps through the Cloud Control Panel
+title: Creating MX records for Google Apps through the Cloud Control Panel
 type: article
 created_date: '2012-09-19'
 created_by: Lee Jelley
-last_modified_date: '2016-01-05'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -53,7 +53,7 @@ required.
 After you're done entering the first MX record, repeat the process for the
 other four MX records.
 
-### Check and Test
+### Check and test
 
 Now that the MX records have been stored within the DNS settings for
 your domain, the changes should propagate after the time specified in

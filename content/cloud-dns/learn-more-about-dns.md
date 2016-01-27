@@ -1,33 +1,33 @@
 ---
 node_id: 1497
-title: Learn More About DNS
+title: Learn more about DNS
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-11'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud DNS
 product_url: cloud-dns
 ---
 
-### The Basics
+### The basics
 
-[Rackspace Name Servers](/how-to/rackspace-name-servers)
+-  [Rackspace name servers](/how-to/rackspace-name-servers)
 
-[Choosing Record Types](/how-to/choosing-dns-record-types)
+-  [Choosing record types](/how-to/choosing-dns-record-types)
 
-[Creating a Reverse DNS Record](/how-to/create-a-reverse-dns-record-0)
+-  [Creating a reverse DNS record](/how-to/create-a-reverse-dns-record-0)
 
-### Best Practices
+### Best practices
 
-[Setting Up SPF and DKIM Records](/how-to/set-up-spf-and-dkim-records)
+-  [Setting up SPF and DKIM records](/how-to/set-up-spf-and-dkim-records)
 
-[Transferring Your Domain to Rackspace](/how-to/serving-your-domain-from-a-rackspace-cloud-server)
+-  [Transferring your domain to Rackspace](/how-to/serving-your-domain-from-a-rackspace-cloud-server)
 
-### Additional Resources
+### Additional resources
 
-[Cloud DNS FAQ](/how-to/cloud-dns-faq)
+-  [Cloud DNS FAQ](/how-to/cloud-dns-faq)
 
-[Cloud DNS Product Page](https://www.rackspace.com/cloud/dns)
+-  [Cloud DNS product page](https://www.rackspace.com/cloud/dns)
 
-[Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
+-  [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
