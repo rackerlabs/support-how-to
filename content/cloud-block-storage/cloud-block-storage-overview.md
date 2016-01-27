@@ -121,4 +121,4 @@ In this product overview, you will learn how to do the following tasks:
 
 
 Let's get started and [create your first
-volume](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server).
+volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
