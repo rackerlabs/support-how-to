@@ -35,12 +35,12 @@ steps:
 5. Create a CSV or Excel file, containing the information detailed in
    the **Data Format** section:
 
-   Use the following column headers (\*required):
+   Use the following column headers:
 
-   - \*Username (will be used for the email address, such as username@example.com.)
-   - \*DisplayName
-   - \*ExternalEmail
-   - \*VisibleToGAL (1=Visible, 0=Hidden)
+   - Username (**This is required.** It will be used for the email address, such as username@example.com.)
+   - DisplayName (**This is required.**)
+   - ExternalEmail (**This is required.**)
+   - VisibleToGAL (**This is required.**. 1=Visible, 0=Hidden)
    - Last Name
    - First Name
    - Title
