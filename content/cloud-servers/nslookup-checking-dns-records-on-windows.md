@@ -15,20 +15,14 @@ built-in tool for just that task. There are a number of reasons you may
 want to do this, for example to check that any updates are correct or to
 troubleshoot issues accessing a particular service.
 
--   [Checking For a Record](#1_checking)
--   [Getting an Authoritative Answer](#2_GettingAuth)
--   [Checking When a Cached Record Will Expire](#3_CheckingCache)
--   [Summary](#5_Summary)
-
 To access the tool you need to open up a command prompt, you should be
-able to find this under Start &gt; All Programs &gt; Accessories &gt;
-Command Prompt
+able to find this under **Start > All Programs > Accessories > Command Prompt**.
 
 ### Checking For a Record
 
-To check for a specific record you need to specifiy the record type,
+To check for a specific record you need to specify the record type,
 e.g. A, MX, TXT, and the host name you want to check. The following
-example shows how to check for any A records for rackspace.co.uk.
+example shows how to check for any A records for **rackspace.co.uk**.
 
     C:\Users\Administrator>nslookup -type=A rackspace.co.uk
     Server:  cachens1.lon.rackspace.com>
@@ -44,7 +38,7 @@ was directed; this will be the default server your system uses for DNS
 name resolution. The second section, which specifies a non-authoritative
 answer, gives the name of the record and the corresponding IP address.
 The answer is non-authoritative because the answer comes from a server,
-cachens1.lon.rackspace.com in this case, that is not the root source for
+**cachens1.lon.rackspace.com** in this case, that is not the root source for
 those records.
 
 ### Getting an Authoritative Answer
@@ -53,7 +47,7 @@ To get an authoritative answer we need to go to the source. This can be
 done by specifying the authoritative name server at the end of the
 request.
 
-We can use the **-type=soa** option to tell nslookup to display the
+We can use the **-type=soa** option to tell `nslookup` to display the
 authoritative (primary) name server.
 
     C:\Users\Administrator>nslookup -type=soa rackspace.co.uk
@@ -85,8 +79,6 @@ against that name server.
 
     Name:    rackspace.co.uk
     Address:  212.64.133.165
-
-
 
 ### Checking When a Cached Record Will Expire
 
@@ -186,14 +178,13 @@ will be cached for requires the debug switch.
     the authority records section
 
 So from this you can see that the name server being used by the client
-computer will keep reusing the same A record for rackspace.co.uk for the
+computer will keep reusing the same A record for **rackspace.co.uk** for the
 next 4 minutes and 39 seconds. If you were to run the same command on
 the authoritative name server you would see what the current maximum TTL
 for the record is.
 
 ### Summary
 
-After reading this you should be able to use nslookup to check that a
+After reading this you should be able to use `nslookup` to check that a
 record exists, compare it with the authoritative record and confirm when
 the cached record will expire.
-
