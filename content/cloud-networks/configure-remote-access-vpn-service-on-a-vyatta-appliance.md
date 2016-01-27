@@ -24,9 +24,7 @@ For a comprehensive guide to VPN configuration on the Vyatta,
 click
 [here](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-VPN_6.5R1_v01.pdf).
 
-For guidance on configuring the relevant firewall rules to allow
-remote-access VPN on the Vyatta please refer
-to the following article:
+For guidance on configuring the relevant firewall rules to allow remote-access VPN on the Vyatta please refer to the following article:
 
 [Configuring interface based firewall on the Vyatta network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 

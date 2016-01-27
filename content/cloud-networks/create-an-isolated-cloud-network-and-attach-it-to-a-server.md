@@ -53,6 +53,7 @@ Server separate from the Rackspace network, the Internet, or both.
     your new server.
 
 9.  Click **Select Networks**.
+
 10. Click **Create Server**.
 
 Your new cloud server is created and attached to the new isolated
