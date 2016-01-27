@@ -13,8 +13,7 @@ product_url: cloud-sites
 Use the following steps to set up a website from a basic HTML page
 stored in Cloud Files.
 
-Pre-requisites
---------------
+### Prerequisites
 
 To complete this process, you need the following items:
 
@@ -24,8 +23,7 @@ To complete this process, you need the following items:
 -   Images to display on the website
 -   A Cloud Files account
 
-Upload and connect to your content
-----------------------------------
+### Upload and connect to your content
 
 1.  Log in to the Cloud Control Panel.
 2.  In the Cloud Files section, create a new container and select
