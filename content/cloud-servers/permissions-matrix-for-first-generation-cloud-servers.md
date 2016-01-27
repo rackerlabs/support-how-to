@@ -12,13 +12,25 @@ product_url: cloud-servers
 
 The following permissions matrix displays specific permissions for the roles in First Generation Cloud Servers. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[API Documentation](http://docs.rackspace.com/)
+[API Documentation](http://developer.rackspace.com/)
 
-[Related Knowledge Center Articles](/how-to/)
+[Related Rackspace How-To Articles](/how-to/)
 
-[First Generation Servers terminology](/how-to/permissions-matrix-for-first-generation-cloud-servers#terminology)
+### First Generation Cloud Servers terminology
 
-## As of September 26, 2013
+#### Flavor
+
+A resource configuration for a server. Each flavor is a unique combination of disk, memory, vCPUs, and network bandwidth.
+
+#### Image
+
+A collection of files for a specific operating system (OS) that you use to create or rebuild a server. Rackspace provides pre-built images. You can also create custom images from servers that you have launched. Custom images can be used for data backups or as "gold" images for additional servers.
+
+#### Server
+
+A virtual machine (VM) instance in the Cloud Servers environment. To create a server, you must specify a name, flavor reference, and image reference.
+
+### As of September 26, 2013
 
 Method Name | API Action | Role | Description
 --- | --- | :---: | :---: | ---
@@ -54,18 +66,6 @@ Get a URL for a Web Browser-mediated Console Session for a Specified Server	| ``
 Rescue/Unrescue a Server | ```POST /servers/{id}/rescue``` | **Admin only** | Rescue or unrescue a server.
 Create a Next Generation Cloud Servers Image from a First Generation Cloud Server that is Specified in the Request Body	| ```POST /next_gen_image_requests``` | **Admin only** | Creates a Next Generation Cloud Servers image from a First Generation Cloud Server that is specified in the request body.
 
-## First Generation Cloud Servers terminology
+### Next section
 
-### Flavor
-
-A resource configuration for a server. Each flavor is a unique combination of disk, memory, vCPUs, and network bandwidth.
-
-### Image
-
-A collection of files for a specific operating system (OS) that you use to create or rebuild a server. Rackspace provides pre-built images. You can also create custom images from servers that you have launched. Custom images can be used for data backups or as "gold" images for additional servers.
-
-### Server
-
-A virtual machine (VM) instance in the Cloud Servers environment. To create a server, you must specify a name, flavor reference, and image reference.
-
-[## &lt; Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Permission Matrix for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
