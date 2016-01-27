@@ -19,8 +19,7 @@ Because of stringent anti-spam filters, sending mail through
 unauthenticated SMTP servers (including the localhost relay on Cloud
 Sites) can result in delays or undelivered email.
 
-Example code using CDOSYS
--------------------------
+### Example code using CDOSYS
 
 For the following variables, replace the example values with the
 appropriate values for your system:
