@@ -1,6 +1,6 @@
 ---
 node_id: 1233
-title: Rackspace Cloud DNS - Technical Details
+title: Rackspace Cloud DNS - Technical details
 type: article
 created_date: '2011-10-19'
 created_by: Rackspace Support
@@ -10,12 +10,10 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-### Previous section
+**Previous section:** [Rackspace Cloud DNS - Available
+features](/how-to/rackspace-cloud-dns-available-features)**
 
-**[Rackspace Cloud DNS - Available
-Features](/how-to/rackspace-cloud-dns-available-features)**
-
-### Technical Details
+### Technical details
 
 Implementation of Rackspace Cloud DNS is available through our API. To
 use our API, you should have a general understanding of DNS management
@@ -133,7 +131,7 @@ the details of these new record types:
 For a full list of record types and their definitions, please click
 [here](/how-to/rackspace-cloud-dns-additional-resources).
 
-### Next steps
+**Next steps**
 
 **[Rackspace Cloud DNS - API
-Example](/how-to/rackspace-cloud-dns-api-example)**
+example](/how-to/rackspace-cloud-dns-api-example)**

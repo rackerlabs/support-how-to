@@ -1,16 +1,16 @@
 ---
 node_id: 1502
-title: Create a DKIM TXT Record
+title: Create a DKIM TXT record
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud DNS
 product_url: cloud-dns
 ---
 
-DomainKeys Identified Mail (DKIM) helps you protect your company from
+Domain Keys Identified Mail (DKIM) helps you protect your company from
 email spamming and phishing attempts. It provides a method for
 validating a domain name identity that is associated with a message
 through cryptographic authentication.
@@ -78,9 +78,9 @@ For instructions on attaching the token to your outgoing email, go to
 
 ### Related articles
 
-[Setting up SPF DNS TXT Records](/how-to/create-an-spf-txt-record)
+[Setting up SPF DNS TXT records](/how-to/create-an-spf-txt-record)
 
-[Learn More about DNS](/how-to/learn-more-about-dns)
+[Learn more about DNS](/how-to/learn-more-about-dns)
 
 ### External resources
 

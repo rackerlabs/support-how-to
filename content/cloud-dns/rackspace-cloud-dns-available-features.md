@@ -1,21 +1,19 @@
 ---
 node_id: 1232
-title: Rackspace Cloud DNS - Available Features
+title: Rackspace Cloud DNS - Available features
 type: article
 created_date: '2011-10-19'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud DNS
 product_url: cloud-dns
 ---
 
-### Previous section
+**Previous section:** [Rackspace Cloud DNS -
+Overview](/how-to/rackspace-cloud-dns-overview)
 
-**[Rackspace Cloud DNS -
-Overview](/how-to/rackspace-cloud-dns-overview)**
-
-**Available Features**
+**Available features**
 
 Rackspace Cloud DNS automates and simplifies your Domain Name System
 management and has many of the features you have been asking for,
@@ -26,33 +24,32 @@ including:
 
 
 
--   **Multiple Record Types:** Full list of supported record types
-    shown [here](#Supported%20Record%20Types).
+-   **Multiple record types:** Full list of supported record types.
 
 
 
--   **Comprehensive Management Capability:** List, add, modify and
+-   **Comprehensive management capability:** List, add, modify and
     remove domains. List, add, modify and remove DNS records. Import and
     export domains.
 
 
 
--   **Domain Delegation:** Delegate a domain or sub-domain to a
+-   **Domain delegation:** Delegate a domain or sub-domain to a
     non-Rackspace name server via modifications to a DNS record.
 
 
 
--   **Full TTL Control:** Easily update the default time to live (TTL)
+-   **Full TTL control:** Easily update the default time to live (TTL)
     and resource record TTL values.
 
 
 
--   **Globally Distributed Anycast DNS Network:** Our internal network
+-   **Globally distributed Anycast DNS network:** Our internal network
     leverages Anycast to make DNS more reliable and resilient.
 
 
 
--   **Simplified Migration:** Import and export features allow you to
+-   **Simplified migration:** Import and export features allow you to
     import or export a text list or BIND 9 formatted file of managed
     domains and their configuration details into and out of your
     account.
@@ -67,7 +64,7 @@ sub-domains, and records via the REST-based API. Additionally, advances
 operations are available that allow you to easily manage mail servers,
 zone delegation, and create SPF records.
 
-### Next steps
+**Next steps**
 
 **[Rackspace Cloud DNS - Technical
-Details](/how-to/rackspace-cloud-dns-technical-details)**
+details](/how-to/rackspace-cloud-dns-technical-details)**

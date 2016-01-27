@@ -4,8 +4,8 @@ title: Choosing DNS record types
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -23,12 +23,12 @@ have only a single A or AAAA record as your base record pointing to a
 single IP address. However in most cases. you'll have several A or AAAA
 records that point to different IP addresses.
 
-**Note**: If you do have a base record (which is not actually required)
+**Note:** If you do have a base record (which is not actually required)
 it must be an A or AAAA record. For example, you could have
-**www.mydomain.com** as an A record that points to 1.2.3.4, and
-**www.domain.com** might be a CNAME record that points
-to **www.myotherimportantdomain.com**.  Likewise, you might have
-a **mail.domain.com** record pointing to 5.6.7.8.
+`www.mydomain.com` as an A record that points to 1.2.3.4, and
+`www.domain.com` might be a CNAME record that points
+to `www.myotherimportantdomain.com`.  Likewise, you might have
+a `mail.domain.com` record pointing to 5.6.7.8.
 
 A is an IPv4 Address record.
 
@@ -43,7 +43,7 @@ Use the Common Name (CNAME) record to point to another record.
 
 Use the Mail Exchange (MX) record for mail delivery. For
 example, creating an MX record for domain.com would allow you to set up
-an email address like **mailto:mike@domain.com**.
+an email address like `mailto:mike@domain.com`.
 
 #### NS
 
@@ -60,11 +60,11 @@ services, such as LDAP,  for a domain.
 Use the Text (TXT) record to store data types such as SPF or DKIM
 records.
 
-### Related Information
+### Related information
 
-[Learn More About DNS](/how-to/learn-more-about-dns/)
+[Learn more about DNS](/how-to/learn-more-about-dns/)
 
-### External Links
+### External links
 
 <http://en.wikipedia.org/wiki/List_of_DNS_record_types>
 

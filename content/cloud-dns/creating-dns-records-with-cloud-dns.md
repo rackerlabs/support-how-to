@@ -1,6 +1,6 @@
 ---
 node_id: 1462
-title: Creating DNS Records with Cloud DNS
+title: Creating DNS records with Cloud DNS
 type: article
 created_date: '2012-07-15'
 created_by: Rackspace Support
