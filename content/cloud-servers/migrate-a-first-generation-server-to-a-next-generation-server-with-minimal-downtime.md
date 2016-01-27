@@ -12,20 +12,9 @@ product_url: cloud-servers
 
 This article describes the process of migrating an existing First Generation (First Gen) cloud server to a Next Generation (Next Gen) cloud server with little to no downtime by using Cloud Load Balancers and server imaging. To learn more about the Next Generation Cloud Servers platform and the migration process, see [Next-Generation Cloud Servers migration considerations and options](/how-to/next-generation-cloud-servers-migration-considerations-and-options).
 
-**Note:** This article assumes that you host your Cloud Servers and DNS with Rackspace.  However, if you host DNS elsewhere, you will need to perform the steps in the  <a href="#rept">Repoint your DNS to the load balancer</a> section of this article via your DNS portal of where it is hosted.
+**Note:** This article assumes that you host your Cloud Servers and DNS with Rackspace. However, if you host DNS elsewhere, you will need to perform the steps in the "Repoint your DNS to the load balancer" section of this article via your DNS portal of where it is hosted.
 
-### Contents
-
-1. [Create a load balancer](#create)
-2. [Configure the load balancer](#config)
-3. [Repoint your DNS to the load balancer](#rept)
-4. [Create a Next Gen image](#image)
-5. [Create a Next Gen server](#nexgen)
-6. [Switch the servers](#switch)
-
-<a name="create"> </a>
-
-## Create a load balancer
+### Create a load balancer
 
 The load balancer makes a seamless migration from First Gen server to Next Gen server possible. You use it to update your DNS entries by having your stale DNS entry traffic continue to reach your cloud server while allowing the updated traffic to continue being passed on through the load balancer.
 
@@ -43,9 +32,7 @@ The load balancer makes a seamless migration from First Gen server to Next Gen s
 
 6. Click **Create Load Balancer**.
 
-<a name="config"> </a>
-
-## Configure the load balancer
+### Configure the load balancer
 
 After you create the load balancer, click on it to view the advanced configuration options. To configure the load balancer, go to the Nodes section and add the First Gen server to the load balancer.
 
@@ -53,11 +40,9 @@ After you create the load balancer, click on it to view the advanced configurati
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-3_8.png" width="555" height="230" border="1" alt=""  />
 
-<a name="rept"> </a>
+### Repoint your DNS to the load balancer
 
-## Repoint your DNS to the load balancer
-
-1. Go to the Cloud DNS section of the <a href="https://mycloud.rackspace.com/">Cloud Control Panel</a>.
+1. Go to the Cloud DNS section of the [Cloud Control Panel](https://mycloud.rackspace.com/).
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-DNS-1_1.png" width="506" height="157" border="1" alt=""  />
 
@@ -69,13 +54,11 @@ After you create the load balancer, click on it to view the advanced configurati
 
 4. Type your load balancer IP address directly in to your browser's address bar to verify that your website is loading correctly.
 
-<a name="image"> </a>
-
-## Create a Next Gen server image
+### Create a Next Gen server image
 
 Follow the steps in this section to create an image of the First Gen server that you will then use to create a Next Gen server.
 
-**Note:** If you are on a Linux server with under 40 GB of disk in use, you can resize down to a 1 GB flavor before taking the image. This will allow you to boot to any Next Generation flavors that can take advantage of our <a href="/how-to/boot-a-server-from-a-cloud-block-storage-volume">Boot From Volume Offering</a>.
+**Note:** If you are on a Linux server with under 40 GB of disk in use, you can resize down to a 1 GB flavor before taking the image. This will allow you to boot to any Next Generation flavors that can take advantage of our [Boot a server from a Cloud Block Storage volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
 
 1. On the Cloud Servers page, click the gear icon next to the First Gen server that you are imaging and select **Create Image**.
 
@@ -89,9 +72,7 @@ Follow the steps in this section to create an image of the First Gen server that
 
 4. Click **Create Image**.
 
-<a name="nexgen"> </a>
-
-## Create a Next Gen server
+### Create a Next Gen server
 
 Follow the steps below to create a Next Gen server.
 
@@ -109,9 +90,7 @@ Follow the steps below to create a Next Gen server.
 
 4. Click **Create Server** at the bottom of the page.
 
-<a name="switch"> </a>
-
-## Switch the servers
+### Switch the servers
 
 After the server has been created, you attach it to your load balancer by performing the following steps.
 
@@ -138,10 +117,6 @@ After the server has been created, you attach it to your load balancer by perfor
 
 Your server traffic will now use your Next Gen server.
 
-
-## Optional synchronization tools
+### Optional synchronization tools
 
 FTP is the recommended tool for synchronizing data on a Windows server.
-
-&nbsp;
-&nbsp;
