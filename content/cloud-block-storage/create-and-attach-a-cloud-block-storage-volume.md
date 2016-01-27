@@ -78,7 +78,7 @@ volumes](/how-to/detach-and-delete-cloud-block-storage-volumes).
 
 
 
-###  View volume etails
+###  View volume details
 
 The **Volume Details** screen displays basic information about the volume.
 Here you can see the Volume's Status, what server it may be attached to,
@@ -158,7 +158,7 @@ mounting](/how-to/cloud-block-storage-attaching-vs-mounting).
 You may only attach a volume to a server in the same region.
 
 1.  Display the **Select a Server** window by one of two methods:
-    -   From the Volume Details screen, click **Attach Volume** link
+    -   From the Volume Details screen, click **Attach Volume** link.
     -   From the Block Storage Volumes screen, click a volume's
         **Manage** button (the cog at the left) and select **Attach
         Volume**. The **Select a Server** menu only displays servers in
