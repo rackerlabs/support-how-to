@@ -73,13 +73,13 @@ jwplayer.js file.
 For this step, you need the link to the jwplayer.js file you uploaded in
 the above instructions. To get the link from *New Cloud Control Panel*:
 
-1.  Open the container where you uploaded the plugin (Step 4 above).
-2.  Locate the jwplayer.js file in the Object List.
-3.  Click the gear icon next to the plugin file.
-4.  Click "View All Links".
-5.  Copy the link makred "HTTP".
-6.  Replace "/path/to/jwplayer.js" in the text below with the link
-    you copied.
+-   Open the container where you uploaded the plugin (Step 4 above).
+-   Locate the jwplayer.js file in the Object List.
+-   Click the gear icon next to the plugin file.
+-   Click "View All Links".
+-   Copy the link makred "HTTP".
+-   Replace "/path/to/jwplayer.js" in the text below with the link
+     you copied.
 
  Enter this SCRIPT to the HEAD of your HTML page, substituting in the
 link to your jwplayerjs file:
