@@ -3,8 +3,8 @@ title: Microsoft Exchange
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-01-17'
-last_modified_by: Rackspace Support
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -23,10 +23,10 @@ product_url: exchange
 - [Create a Rackspace Email mailbox](https://cp.rackspace.com/EmailHosting/Mail/Mailboxes/List.aspx)
 - [Rackspace Email mailbox features](/how-to/exchange-email-mailbox-features)
 - [Exchange Mailbox Features](/how-to/exchange-email-mailbox-features)
-  
+
 ###  Start receiving mail
 
-- [Help Tool for hosted Email and Lync](/how-to/help-tool-for-hosted-email-and-skype-for-business)
+- [Help Tool for hosted Email and Skype for Business](/how-to/help-tool-for-hosted-email-and-skype-for-business)
 - [Rackspace Email and Exchange Settings](/how-to/rackspace-email-and-hosted-exchange-settings)
 - [DNS records for email with Rackspace](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
