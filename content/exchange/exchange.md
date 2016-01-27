@@ -27,12 +27,12 @@ product_url: exchange
 ###  Start receiving mail
 
 - [Help Tool for hosted Email and Skype for Business](/how-to/help-tool-for-hosted-email-and-skype-for-business)
-- [Rackspace Email and Exchange Settings](/how-to/rackspace-email-and-hosted-exchange-settings)
-- [DNS records for email with Rackspace](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
+- [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings)
+- [Set up DNS records for Cloud Office email and Skype for Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 ###  Access your mail
 
 - [Rackspace Email Webmail](https://apps.rackspace.com/index.php)
 - [Exchange Online Web Access](https://apps.rackspace.com/index.php)
-- [Log in to our setup tool for instructions on how to access your mail from additional devices and programs.](https://emailhelp.rackspace.com/)
-- [Connection settings only](/how-to/rackspace-email-and-hosted-exchange-settings)
+- [Email Help Portal](https://emailhelp.rackspace.com/)
+- [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings)
