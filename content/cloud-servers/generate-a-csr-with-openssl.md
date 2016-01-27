@@ -91,4 +91,4 @@ certificate authorities out there, shop around.
 
 ### Next section
 
-[Installing an SSL certificate](/knowledge_center/index.php/Installing_an_SSL_certificate)
+[Installing an SSL certificate](/how-to/installing-an-ssl-certificate-on-apache)

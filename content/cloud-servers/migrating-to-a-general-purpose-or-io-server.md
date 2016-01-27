@@ -90,8 +90,8 @@ Some example environments can be found in [our article on open cloud reference a
 
 ### Format and configure any data disks
 
-[windata]:/knowledge_center/node/3750
-[linuxdata]:/knowledge_center/node/3749
+[windata]:/how-to/preparing-data-disks-on-windows-cloud-servers
+[linuxdata]:/how-to/preparing-data-disks-on-linux-cloud-servers
 [softraid]:http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html "Linux Software RAID HOWTO"
 
 After you create your server, prepare any attached data disks or Cloud Block Storage volumes by formatting them and configuring the system to use them.

@@ -45,7 +45,7 @@ This article shows how to manually install WordPress on Cloud Sites.
 3.  <span class="external text">Upload WordPress software files to the
     desired location on the website using FTP - Refer to [Upload content
     to a website using
-    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/knowledge_center/index.php/Uploading_content_to_a_website_using_FTP")</span>
+    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/how-to/getting-started-with-cloud-sites-uploading-your-content")</span>
 
 4.  To integrate WordPress to the root of domain (e.g.
     http://example.com/), place all contents of the uncompressed

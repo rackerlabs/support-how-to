@@ -35,11 +35,11 @@ and selecting Cloud Sites Control Panel.
 
 -   Verify that logging is turned on if needed. Refer to [Enable logging
     for a
-    website](/how-to/enabling-raw-logging-for-a-cloud-sites-website "/knowledge_center/index.php/Enabling_logging_for_a_website")
+    website](/how-to/enabling-raw-logging-for-a-cloud-sites-website "/how-to/enabling-raw-logging-for-a-cloud-sites-website")
 -   Upload a sample index.php file (like the one shown below) to the
     main directory for the website using FTP - Refer to [Upload content
     to a website using
-    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/knowledge_center/index.php/Uploading_content_to_a_website_using_FTP")
+    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/how-to/getting-started-with-cloud-sites-uploading-your-content")
 
 <!-- -->
 
@@ -57,7 +57,7 @@ and selecting Cloud Sites Control Panel.
 
 -   Navigate to index.php using the Test URL if necessary. Refer to
     [Using a Staging
-    URL](/how-to/using-a-staging-url "/knowledge_center/index.php/Using_a_staging_URL").
+    URL](/how-to/using-a-staging-url "/how-to/using-a-staging-url").
     Ensure that is served by Cloud Sites.
 
 

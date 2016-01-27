@@ -33,7 +33,7 @@ you want to copy more than just a few data files this is the most
 straightforward approach.
 
 If you prefer a per-package approach you may want to look at the [third
-article](/knowledge_center/content/migrating-linux-server-command-line-stage-3 "Linux migration tips")
+article](/how-to/migrating-a-linux-server-from-the-command-line-2 "Linux migration tips")
 in this series for advice.
 
 ### Prepping the new server
@@ -136,7 +136,7 @@ prepared your file systems for the copy. Now it&rsquo;s time to make a choice:
 
 If you&rsquo;d like to migrate using a script to handle much of the heavy
 lifting, proceed to our [article on a script-assisted
-migration](/knowledge_center/article/migrating-a-linux-server-from-the-command-line-scripted "Migrating a Linux server from the command line - Scripted").
+migration](/how-to/migrating-a-linux-server-from-the-command-line-scripted "Migrating a Linux server from the command line - Scripted").
 
 If you would like to hande the syncing yourself, running rsync manually,
 head to our [article on migrating with
