@@ -25,7 +25,7 @@ check where your records are currently hosted, you can check your domain
 against the **whois** database system. With whois, you can find out
 information about the ownership of a domain.
 
-#### Checking domain registration details
+### Checking domain registration details
 
 To check a domain with whois, you can use the whois command on both
 Linux and Windows. The output is essentially identical on both systems.
@@ -140,7 +140,7 @@ Rackspace Cloud, you can find instructions in [Create DNS Records for
 cloud servers with the Control
 Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
 
-#### DNS lookups
+### DNS lookups
 
 To confirm that a domain name resolves to the correct IP address, Linux
 and Windows provide commandline tools. For Linux, dig is commonly used
@@ -162,7 +162,7 @@ completely propagated across the globe. This propagation is controlled
 by the TTL of the old record, which specifies the maximum amount of time
 the records are cached before checking for a new version.
 
-#### Hosts file
+### Hosts file
 
 If the DNS issue is specific to a single computer, one other thing to
 bear in mind is the **hosts** file stored on that machine. This file
@@ -185,11 +185,10 @@ and the line isn't commented out, that will typically explain that the
 issues you are having. Comment out the line and see if that fixes the
 issue.
 
-#### Summary
+### Summary
 
 After reading this article, and those linked within the text, you should
 be able to confirm that a domain is correctly registered and discover
 the location of the authoritative name servers. You should also be able
 to check records and isolate any cached records that might be causing
 issues accessing services on the Internet, such as a website.
-

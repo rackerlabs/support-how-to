@@ -18,10 +18,10 @@ Rackspace enables you to manage your DNS through our control panel while allowin
 when the nameservers transfer to point to Rackspace.
 
 2. Contact your domain registrar and ask them to change your nameservers to point to the following. If you're unsure of who your domain registrar is, you can check your domain's registration info at the website who.is.
-  - **Primary**: DNS1.NAME-SERVICES.COM
-  - **Secondary**: DNS2.NAME-SERVICES.COM
-  - **Secondary**: DNS3.NAME-SERVICES.COM
-  - **Secondary**: DNS4.NAME-SERVICES.COM
-  - **Secondary**: DNS5.NAME-SERVICES.COM
+    - **Primary**: DNS1.NAME-SERVICES.COM
+    - **Secondary**: DNS2.NAME-SERVICES.COM
+    - **Secondary**: DNS3.NAME-SERVICES.COM
+    - **Secondary**: DNS4.NAME-SERVICES.COM
+    - **Secondary**: DNS5.NAME-SERVICES.COM
 
 **Note:** DNS changes can take up to 48 hours to resolve. We recommend that you make this switch during non-business hours or when email activity is light. No email will be lost during this transition, but do not cancel your current DNS hosting service until the transfer is complete.

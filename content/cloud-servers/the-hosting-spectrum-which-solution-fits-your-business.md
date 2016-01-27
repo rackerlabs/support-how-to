@@ -24,17 +24,13 @@ look at this diagram as an introductory piece to help you understand how
 much of your company's time and efforts will be focused on managing
 servers or on driving innovators for your business.
 
-
-
-**In-House (Do-it-yourself)**
+### In-House (Do-it-yourself)
 
 The customer has complete ownership of the IT management stack. Along
 with this high degree of management, the customer undertakes a high
 degree of responsibility for maintaining the config 24x7x365.
 
-
-
-**Traditional Colocation**
+### Traditional Colocation
 
 The provider offers physical space for a server on a rack. The customer
 is responsible for purchasing, configuring and maintaining the physical
@@ -49,9 +45,7 @@ located within a reasonable distance from the IT staff, as any issues
 with devices, operating systems, application infrastructure, and
 applications must be handled by the staff.
 
-
-
-**Managed Colocation**
+### Managed Colocation
 
 In Managed Colocation, the provider offers the datacenter space,
 network, servers and other devices. The customer retains full control
@@ -65,9 +59,7 @@ provides the desired level of control that businesses get with
 traditional colocation, but removes the day-to-day management of servers
 and network devices.
 
-
-
-**Managed Hosting**
+### Managed Hosting
 
 In a [Managed
 Hosting](http://www.rackspace.com/managed_hosting/index.php)
@@ -82,11 +74,7 @@ The customer retains control of their software and applications. Managed
 Hosting provides more support compared to the previous hosting options
 and allows businesses to focus fully on their core mission.
 
-
-
-**Outsource**
-
-
+### Outsource
 
 The provider has complete ownership of the IT management stack,
 including the data center, network, devices,
@@ -99,4 +87,3 @@ administrative access to their environment, including their application.
 This means that any changes to the application infrastructure or the
 application itself must be approved by the vendor and implemented
 according to their timetable.
-
