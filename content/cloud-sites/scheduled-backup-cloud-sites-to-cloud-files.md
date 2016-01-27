@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-***NOTE:** This article is written for our [Cloud Sites Cloud Control
+**Note:** This article is written for our [Cloud Sites Cloud Control
 Panel](https://manage.rackspacecloud.com). You can access this interface
 from the [Cloud Control Panel](https://mycloud.rackspace.com) by
 clicking your username in the upper-right of the control panel and
@@ -46,13 +46,13 @@ offer that additional functionality.
     http://*yourdomain.com*/cron-backup-setup.php to access
     the installer.
 
-*Note: Replace "*<span>http://</span>*yourdomain.com" with your actual
-domain name.*
+**Note:** Replace "*<span>http://</span>*yourdomain.com" with your actual
+domain name.
 
 -   Enter your database credentials. (Leave this section blank if your
     site does not have a database)
 
-*Note: Be sure to use the hostname and not the IP address for your
+**Note:** Be sure to use the hostname and not the IP address for your
 database.*
 
 -   Enter your Cloud Files username and API Key.
