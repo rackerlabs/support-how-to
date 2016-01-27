@@ -125,7 +125,7 @@ A Process that defines how traffic should be directed between back-end nodes.
 
 A feature that allows logs to be delivered to a Cloud Files account every hour. For HTTP-based protocol traffic, these are Apache-style access logs. For all other traffic, this is connection and transfer logging.
 
-#### [Content Caching](http://www.rackspace.com/knowledge_center/article/content-caching-for-cloud-load-balancers)
+#### [Content Caching](/knowledge_center/article/content-caching-for-cloud-load-balancers)
 
 An operation that stores recently-accessed files on the load balancer for easy retrieval by web clients.
 
@@ -137,7 +137,7 @@ The HTML file that is shown to an end user who is attempting to access a load ba
 
 A configurable feature of each load balancer. It is used to determine whether or not a back-end node is usable for processing a request. The load balancing service currently supports active health monitoring.
 
-#### [Load Balancers](http://www.rackspace.com/knowledge_center/article/configuring-a-cloud-load-balancer-0#Virtual_IP_Type)
+#### [Load Balancers](/knowledge_center/article/configuring-a-cloud-load-balancer-0#Virtual_IP_Type)
 
 A logical device which belongs to a cloud account. It is used to distribute workloads between multiple back-end systems or services, based on the criteria defined as part of its configuration.
 
@@ -161,4 +161,4 @@ A report that provides a view of all transfer activity, average number of connec
 
 An Internet Protocol (IP) configured on the load balancer for use by clients connecting to a service that is load balanced. Incoming connections are distributed to back-end nodes based on the configuration of the load balancer.
 
-[**&lt; Permission matrices for RBAC**](http://www.rackspace.com/knowledge_center/article/permissions-matrix-for-role-based-access-control-rbac)
+[**&lt; Permission matrices for RBAC**](/knowledge_center/article/permissions-matrix-for-role-based-access-control-rbac)

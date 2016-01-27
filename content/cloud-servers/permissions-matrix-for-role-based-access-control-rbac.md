@@ -34,7 +34,7 @@ Product | (CRUD) Across all RBAC enabled products | Across all RBAC enabled prod
 [Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Big Data v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Backup](https://admin.rackspace.com/knowledge_center/detailed-permissions-matrix-for-cloud-backup) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
+[Cloud Backup](/knowledge_center/detailed-permissions-matrix-for-cloud-backup) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Orchestration](/how-to/permissions-matrix-for-cloud-orchestration) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud DNS](/how-to/detailed-permissions-matrix-for-dns) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
 [Cloud Feeds](/how-to/detailed-permissions-matrix-for-cloud-feeds)| **NO** | **READ ONLY** | **NO** | **NO** | **YES**
