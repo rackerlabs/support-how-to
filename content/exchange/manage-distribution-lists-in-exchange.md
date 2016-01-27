@@ -51,7 +51,7 @@ You can now add, edit, or delete a distribution list. See the following instruct
 
 3. To add a mailbox as a member of the list, select the check box next to the mailbox userid in the **Members** section. Use the search tool to locate specific email addresses.
 
-	<img alt="" height="318" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL8.png" width="433"  />&ZeroWidthSpace;
+	<img alt="" height="318" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL8.png" width="433"  />
 
 4. To configure the following optional sections, click **Advanced**:
 
@@ -61,7 +61,7 @@ You can now add, edit, or delete a distribution list. See the following instruct
 
     - **Email Addresses:** Create alias (or alternative) email addresses for the list.
 
-		&ZeroWidthSpace;<img alt="" height="447" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL9_0.png" width="455"  />
+		<img alt="" height="447" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL9_0.png" width="455"  />
 
 5. Click **Create Distribution List** or **Save Distribution List**.
 
@@ -71,7 +71,7 @@ You can now add, edit, or delete a distribution list. See the following instruct
 
 2. Click **Delete**.
 
-    <img alt="" height="321" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL10.png" width="415"  />&ZeroWidthSpace;
+    <img alt="" height="321" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL10.png" width="415"  />
 
     A pop-up box appears to confirm that you want to delete the list.
 
