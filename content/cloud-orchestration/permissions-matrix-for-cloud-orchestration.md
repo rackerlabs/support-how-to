@@ -1,11 +1,11 @@
 ---
 node_id: 3888
-title: Permissions Matrix for Cloud Orchestration
+title: Permissions matrix for Cloud Orchestration
 type: article
 created_date: '2014-02-05'
 created_by: Renee Rendon
-last_modified_date: '2016-01-18'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -16,13 +16,10 @@ The following permissions matrix displays specific permissions for the roles in 
 
 [Cloud Orchestration FAQ](/how-to/cloud-orchestration-faq)
 
-[Cloud Orchestration Terminology](/how-to/permissions-matrix-for-cloud-orchestration)
 
-[Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+#### As of May, 2015
 
-## As of May, 2015
-
-Method Name	| API Action | Role | Description
+Method name	| API action | Role | Description
 --- | --- | --- | ---
 **STACK OPERATIONS - Note:** Orchestration users will need access to any products used in their templates. | | |
 Create Stack | ```POST /stacks``` | **Creator  & Admin** | Creates a stack.
@@ -53,16 +50,16 @@ Get Build Info | ```GET /build_info``` | **Observer & Creator & Admin** | Gets i
 
 
 
-## Cloud Orchestration Terminology
+### Cloud Orchestration terminology
 
-### Template
+#### Template
 
 A Cloud Orchestration template is a portable file, written in a user-readable language, that describes how a set of resources should be assembled and what software should be installed in order to produce a working deployment. The template specifies what resources should be used, what attributes can be set, and other parameters that are critical to the successful, repeatable automation of a specific application deployment.
 
-### Resource
+#### Resource
 
 A resource is a template artifact that represents some component of your desired architecture (a Nova server, a group of scaled servers, a Cinder volume, some configuration management system, and so forth).
 
-### Stack
+#### Stack
 
 A stack is a group of resources (servers, load balancers, databases, and so forth) combined to fulfill a useful purpose. Based on a template, Heat orchestration engine creates an instantiated set of resources (a stack) to run the application framework or component specified (in the template). A stack is a running instance of a template. The result of creating a stack is a deployment of the application framework or component.

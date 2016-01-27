@@ -1,17 +1,16 @@
 ---
 node_id: 4759
-title: Using Swift Signal Resources to Determine Status for Cloud Orchestration User Data Scripts
+title: Using Swift Signal resources to determine status for Cloud Orchestration user data scripts
 type: article
 created_date: '2015-07-24'
 created_by: Mike Asthalter
-last_modified_date: '2015-07-31'
-last_modified_by: Mike Asthalter
+last_modified_date: '2016-01-27'
+last_modified_by: Catherine Richardson
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
 
-Summary
--------
+### Summary ###
 
 `OS::Heat::SwiftSignal` can be used to coordinate resource creation with
 notifications/signals that could be coming from sources external or
@@ -24,7 +23,7 @@ waits on this URL for a specified number of signals in a given time.
 
 
 
-### Example template
+### Example template ###
 
 In the following example template, you will set up a single node Linux
 server that signals success or failure of `user_data` script execution
@@ -45,9 +44,9 @@ Start by adding the top-level template sections:
 
 
 
-### Resources section
+### Resources section ###
 
-#### Add a `SwiftSignalHandle` resource
+#### Add a `SwiftSignalHandle` resource ####
 
 `SwiftSignalHandle` is a resource to create a temporary URL to receive
 notification/signals. Note that the temporary URL is created using
@@ -57,7 +56,7 @@ Rackspace Cloud Files.
     signal_handle:
       type: "OS::Heat::SwiftSignalHandle"
 
-#### Add `SwiftSignal` resource
+#### Add `SwiftSignal` resource ####
 
 The `SwiftSignal` resource waits for a specified number of "SUCCESS"
 signals (the number is provided as `count` property) on the given URL
@@ -79,7 +78,7 @@ Here `SwiftSignal` resource would wait for `600` seconds to receive 1
 signal on the `handle`.
 
 
-#### Add a server resource
+#### Add a server resource ####
 
 Add a Linux server with a bash script in the `user_data` property. At
 the end of the script execution, send a success/failure message to the
@@ -112,7 +111,7 @@ temporary URL created by the above `SwiftSignalHandle` resource.
               # of the SwiftSignalHandle resource
               wc_notify: { get_attr: ['signal_handle', 'curl_cli']
 
-### Outputs section
+### Outputs section ###
 
 Add Swift signal URL to the `outputs` section.
 
@@ -133,7 +132,7 @@ Add Swift signal URL to the `outputs` section.
 
 
 
-### Full Example Template
+### Full example template ###
 
 
 
