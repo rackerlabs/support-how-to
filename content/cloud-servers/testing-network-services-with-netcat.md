@@ -10,13 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<div id="task_jfg_d2y_jf" class="nested0">
-
 ### Using netcat
-
-<div class="body taskbody">
-
-<div class="section steps-informal">
 
 If you have a network service that's not behaving like it should but you
 know it's [listening to a network
@@ -28,78 +22,39 @@ We will now use nc, a.k.a. netcat, to test access to the service. If nc
 is not installed by default - run "sudo yum install nc" on Red Hat-based
 distros or "sudo apt-get install netcat" on Debian-based distros.
 
-</div>
-
-</div>
-
-</div>
-
-<div id="concept_sxn_xmy_pg" class="topic concept nested0">
 
 ### Basic test
-
-<div class="body conbody">
-
-<div class="section">
 
 First we'll run a simple test to see if the port accepts connections.
 We'll do that with the nc command and the"-vz" option:
 
-``` {.pre .codeblock}
-nc -vz IP_Address Port
-```
+    {.pre .codeblock}
+    nc -vz IP_Address Port
 
 The IP address should be the one on which the service receives
 connections.
 
 The following three examples show the possible output:
 
-</div>
-
-<div class="section">
-
 #### The connection is successfully made
 
-``` {.pre .codeblock}
-nc -vz 203.0.113.96 21
-Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
-```
-
-</div>
-
-<div class="section">
+    {.pre .codeblock}
+    nc -vz 203.0.113.96 21
+    Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
 
 #### The connection is refused
 
-``` {.pre .codeblock}
-nc -vz 203.0.113.96 80
-nc: connect to 203.0.113.96 port 80 (tcp) failed: Connection refused
-```
-
-</div>
-
-<div class="section">
+    {.pre .codeblock}
+    nc -vz 203.0.113.96 80
+    nc: connect to 203.0.113.96 port 80 (tcp) failed: Connection refused
 
 #### There is no response to the connection request
 
-``` {.pre .codeblock}
-nc -vz 203.0.113.96 80
-nc: connect to 203.0.113.96 port 80 (tcp) failed: Connection timed out
-```
-
-</div>
-
-</div>
-
-</div>
-
-<div id="task_r1x_nfy_jf" class="topic task nested0">
+    {.pre .codeblock}
+    nc -vz 203.0.113.96 80
+    nc: connect to 203.0.113.96 port 80 (tcp) failed: Connection timed out
 
 ### Connection refused
-
-<div class="body taskbody">
-
-<div class="section steps-informal">
 
 You'll usually see this response when the service isn&rsquo;t running or a
 firewall is rejecting the connection.
@@ -114,19 +69,8 @@ because your firewall is rejecting the connection. Take a look at the
 &ldquo;connection timed out&rdquo; section for instructions on troubleshooting your
 firewall.
 
-</div>
-
-</div>
-
-</div>
-
-<div id="task_2qm_xfy_jf" class="topic task nested0">
 
 ### Connection timed out
-
-<div class="body taskbody">
-
-<div class="section steps-informal">
 
 A connection timed out response indicates that your connection is not
 getting to the service. Often this happens when when your firewall is
@@ -137,9 +81,8 @@ The following example inserts a rule on line 1 of the input chain that
 will accept all tcp connections on port 80 (http). This rule would be
 used when testing a web server such as Apache.
 
-``` {.pre .codeblock}
-sudo /sbin/iptables -I INPUT 1 -p tcp --dport http -j ACCEPT
-```
+    {.pre .codeblock}
+    sudo /sbin/iptables -I INPUT 1 -p tcp --dport http -j ACCEPT
 
 iptables will instantly update with any changes made. Repeat the test
 with nc to see if there is any change in the response.
@@ -149,30 +92,17 @@ as well as the position of the rule in the chain. In the previous
 example we added a rule at line 1, the top of the chain. The following
 example shows how to remove it.
 
-``` {.pre .codeblock}
-sudo /sbin/iptables -D INPUT 1
-```
+    {.pre .codeblock}
+    sudo /sbin/iptables -D INPUT 1
+
 
 You can check your current firewall configuration at any time by running
 the following:
 
-``` {.pre .codeblock}
-sudo /sbin/iptables -L -v
-```
-
-</div>
-
-</div>
-
-</div>
-
-<div id="task_c2f_p2y_jf" class="topic task nested0">
+    {.pre .codeblock}
+    sudo /sbin/iptables -L -v
 
 ### Connection succeeded
-
-<div class="body taskbody">
-
-<div class="section steps-informal">
 
 If the initial connection succeeds it indicates that nc can connect to
 the service. Now we should look at the connection in a bit more detail.
@@ -180,9 +110,8 @@ the service. Now we should look at the connection in a bit more detail.
 First use the "-vt" option to see if the service can respond to basic
 network queries:
 
-``` {.pre .codeblock}
-nc -vt IP Address Port
-```
+    {.pre .codeblock}
+    nc -vt IP Address Port
 
 Are you able to connect, send commands to the service-daemon and receive
 responses? If so, that indicates that the program is accessible and your
@@ -194,15 +123,7 @@ service to get a response. You might send a GET request to a web server,
 for example, or some other appropriate data before you'll receive a
 response from the service.
 
-</div>
-
-</div>
-
-<div id="concept_kl2_zpy_pg" class="topic concept nested1">
-
-#### Closing the connection
-
-<div class="body conbody">
+### Closing the connection
 
 To close the connection you can either press Ctrl + C or type the
 service specific quit command.
@@ -210,23 +131,14 @@ service specific quit command.
 As an example, you can close a connection to an FTP server with the
 "QUIT" command:
 
-``` {.pre .codeblock}
-nc -vt 203.0.113.96 21
-Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
-220 (vsFTPd 2.0.5)
-QUIT
-221 Goodbye.
-```
-
-</div>
-
-</div>
-
-<div id="concept_sbn_yqy_pg" class="topic concept nested1">
+    {.pre .codeblock}
+    nc -vt 203.0.113.96 21
+    Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
+    220 (vsFTPd 2.0.5)
+    QUIT
+    221 Goodbye.
 
 #### Commands rejected
-
-<div class="body conbody">
 
 If nc reports success but does not allow you to send any commands or you
 get a response from the service-daemon reporting the service is not
@@ -234,40 +146,29 @@ available, you may have tcp wrappers providing access control.
 
 An FTP service being blocked by tcp wrappers could look like this:
 
-``` {.pre .codeblock}
-nc -vt 203.0.113.96 21
-Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
-421 Service not available.
-```
+    {.pre .codeblock}
+    nc -vt 203.0.113.96 21
+    Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
+    421 Service not available.
 
 If the program is compatible with tcp wrappers it will have been
 compiled with libwrap. To check if a program can make use of tcp
 wrappers use the following command:
 
-``` {.pre .codeblock}
-ldd /path/to/binary | grep libwrap
-```
+    {.pre .codeblock}
+    ldd /path/to/binary | grep libwrap
 
 In the following example the vsftpd program is checked for the libwrap
 shared library file.
 
-``` {.pre .codeblock}
-ldd /usr/sbin/vsftpd | grep libwrap
-libwrap.so.0 => /lib64/libwrap.so.0 (0x00007f62c734a000)
-```
+    {.pre .codeblock}
+    ldd /usr/sbin/vsftpd | grep libwrap
+    libwrap.so.0 => /lib64/libwrap.so.0 (0x00007f62c734a000)
 
 If the program is not compatible with tcp wrappers grep will not return
 anything.
 
-</div>
-
-</div>
-
-<div id="concept_nkp_1ry_pg" class="topic concept nested1">
-
 #### Checking logs
-
-<div class="body conbody">
 
 Whenever a connection is blocked it should be logged. Try checking the
 program's logs for relevant messages.
@@ -275,19 +176,10 @@ program's logs for relevant messages.
 In the logs for vsftpd, found at /var/log/vsftpd.log, a blocked
 connection due to tcp wrappers looks like this:
 
-``` {.pre .codeblock}
-Tue Jun  7 16:14:21 2011 [pid 28599] CONNECT: Client "203.0.113.43", "Connection refused: tcp_wrappers denial."
-```
-
-</div>
-
-</div>
-
-<div id="concept_51j_cry_pg" class="topic concept nested1">
+    {.pre .codeblock}
+    Tue Jun  7 16:14:21 2011 [pid 28599] CONNECT: Client "203.0.113.43", "Connection refused: tcp_wrappers denial."
 
 #### hosts.deny
-
-<div class="body conbody">
 
 The /etc/hosts.deny file is where rules that block connections are
 defined. If you have troubke seeing an entry for your service in the
@@ -295,10 +187,9 @@ file try using grep to search for it.
 
 Search the file for the program name
 
-``` {.pre .codeblock}
-sudo grep "vsftpd" /etc/hosts.deny
-vsftpd : ALL
-```
+    {.pre .codeblock}
+    sudo grep "vsftpd" /etc/hosts.deny
+    vsftpd : ALL
 
 Try commenting out any offending lines using a hash (\#). Changes to
 this file take effect automatically &ndash; no services need to be restarted.
@@ -310,24 +201,9 @@ all your deny rules e.g. &ldquo;sudo mv /etc/hosts.deny /etc/hosts.deny.old&rdqu
 Please be aware that this will affect all applications that use tcp
 wrappers.
 
-</div>
-
-</div>
-
-</div>
-
-<div id="concept_1zs_5lj_qg" class="topic concept nested0">
-
 ### Further investigation
-
-<div class="body conbody">
 
 If you have completed all the tests described above without identifying
 any issues that is a good indication that the service is running
 normally on the server. The next step is to test the connectivity to the
 server by using ping and traceroute utilities.
-
-</div>
-
-</div>
-
