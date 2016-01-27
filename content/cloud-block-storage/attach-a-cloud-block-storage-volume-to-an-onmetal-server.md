@@ -4,8 +4,8 @@ title: Attach a Cloud Block Storage volume to an OnMetal server
 type: article
 created_date: '2015-07-22'
 created_by: Catherine Richardson
-last_modified_date: '2016-01-25'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-01-27'
+last_modified_by: Mike Asthalter
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -20,8 +20,8 @@ Compute and Memory v1 flavors.
 
 
 
-Attach a volume
----------------
+### Attach a volume
+
 
 To use the CLI in your terminal window, use the following procedure to
 attach a volume to your OnMetal server. (For information about
@@ -147,8 +147,7 @@ volume](/how-to/prepare-your-cloud-block-storage-volume).
 
 
 
-Detach a volume
----------------
+### Detach a volume
 
 To use the CLI in your terminal window, use the following procedure to
 detach a volume from your OnMetal server.

@@ -4,8 +4,8 @@ title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-22'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-01-27'
+last_modified_by: Mike Asthalter
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -17,7 +17,7 @@ product_url: cloud-block-storage
 The minimum size for a Cloud Block Storage volume is 50 GB for an SSD
 volume or 75 GB for an SATA volume. The maximum volume size is 1 TB.
 
-#### What's the maximum number of Cloud Block Storage volumes I can attach to a single server instance?
+#### What is the maximum number of Cloud Block Storage volumes I can attach to a single server instance?
 
 Depending on your Cloud Server&rsquo;s operating system, you can have up to a
 maximum of 14 Cloud Block Storage volumes attached to a single server.
