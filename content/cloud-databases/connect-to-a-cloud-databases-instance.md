@@ -23,7 +23,6 @@ product_url: cloud-databases
 
         ssh user@IPaddress
 
-
 6.  On your server, use the MySQL client (or a similar tool) to access
     the database. For MySQL, use the following command and paste the
     hostname string following the `-h` option:
@@ -203,9 +202,6 @@ Databases instance. Do not add other nodes to the load balancer.
 1.  In the top navigation bar of the Cloud Control Panel, click
     **Networking**.
 2.  In the menu, under **Create Resources**, click **Load Balancer**.
-
-    The Create Load Balancer page appears.
-
 3.  Enter a name for the load balancer.
 4.  Specify the same region in which your database instance is located.
 5.  In the Configuration section, select **Accessible on the Public
@@ -225,4 +221,3 @@ the load balancer.
 normal load balancing and bandwidth charges. For more information, see
 [Cloud Load Balancers Pricing and
 Calculator](http://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/pricing/).
-
