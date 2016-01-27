@@ -1,3 +1,5 @@
+
+
 ---
 node_id: 3271
 title: Deploy Rackspace Private Cloud to bare metal using Razor and Chef
@@ -35,7 +37,7 @@ space.
 
 
 
-### Getting Started
+### Getting started
 
 To install Razor, follow the installation guide on the 
 [Razor project wiki](https://github.com/puppetlabs/Razor/wiki/Installation). Note that your
@@ -93,40 +95,52 @@ created.
 
 ### Setting up Razor Chef Broker
 
+
+#### Overview
+
 The Razor broker manages handoffs between Razor and a DevOps system,
-like Chef or Puppet. Since we are using Chef, we need a Chef broker. In
-Razor, the broker takes over at the end of the OS installation, and
-executes predefined additional steps. The Chef broker will do the
-following:
+like Chef or Puppet. Since we are using Chef, we need a Chef broker. 
+
+In Razor, the Chef broker takes over at the end of the OS installation and runs
+the additional, predefined steps to complete the following tasks:
 
 1\. Install chef-client on the node.
 
-2\. Create /etc/chef/validation.pem file.
+2\. Create the ``/etc/chef/validation.pem`` file.
 
-3\. Create basic /etc/chef/client.rb file with client settings.
+3\. Create basic ``/etc/chef/client.rb`` file with client settings.
 
 4\. Inject custom Razor metadata into the new node.
 
 5\. Execute initial run list.
 
-The following command displays available brokers in Razor:
+
+You can view the brokers available in Razor by running the following command:
 
     $ razor broker get plugins
 
-Create a new broker to use for private cloud deployments:
 
-    $ razor broker add -p chef -n Chef -d PrivateCloud
+#### Create a new broker to use for private cloud deployments
 
-Here, you will be prompted to answer
-a few questions about your Chef setup. When in doubt about the different
-options that need to be set, refer to this step-by-step guide on how to
-set up Chef broker:
-<http://anystacker.com/2012/12/razor-chef-broker-updated/>
+1\. Create a broker for Private Cloud deployments by running the following command:
 
-After setting up a new broker, add it to the policy:
+       $ razor broker add -p chef -n Chef -d PrivateCloud
 
-    $ razor policy update  -b
+    
+2\. When prompted, answer the questions about your Chef set up. 
 
+  If you're unsure about 
+  how to respond, see the
+  [Chef broker set up guide](http://anystacker.com/2012/12/razor-chef-broker-updated/).
+  
+   
+
+3\. Add the broker to the policy by running the following command:
+
+      $ razor policy update  -b
+
+
+     
 This is what newly created broker will look like:
 
     [Policy] [update_policy]
@@ -225,7 +239,7 @@ be.
 
 
 
-### Fully Automating the deployment
+### Fully automating the deployment
 
 While running knife commands on each individual server is easy enough,
 it would be even easier if this task was automated. Razor is capable of
