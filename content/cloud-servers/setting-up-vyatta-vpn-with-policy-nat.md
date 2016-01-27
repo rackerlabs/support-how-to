@@ -23,9 +23,9 @@ solution, we will map only the specific /32 addresses in our policy NAT.
 In the second solution, we will policy NAT the entire /24 subnet to the
 other /24 subnet.
 
-#### Scenario Notes
+### Scenario Notes
 
-Note: This assumes that the cloud servers have their default gateways
+**Note:** This assumes that the cloud servers have their default gateways
 pointed at the Vyatta (much in the same way a cloud server gets "rack
 connected" to an ASA or an F5). If you wish to continue to your cloud
 servers&rsquo; public interface for Internet access and the cloud networks
@@ -36,7 +36,7 @@ that points at the Vyatta's cloud network IP address.
 Vyatta calls their static NAT a "bi-directional NAT". So when searching
 Vyatta's documentation, please keep this in mind.
 
-#### Topology
+### Topology
 
 ##### Local Vyatta Firewall
 
@@ -65,7 +65,7 @@ Vyatta's documentation, please keep this in mind.
 </tbody>
 </table>
 
-##### Remote Cisco ASA Firewall
+#### Remote Cisco ASA Firewall
 
 <table>
 <colgroup>
@@ -97,9 +97,9 @@ Vyatta's documentation, please keep this in mind.
 </tbody>
 </table>
 
-#### VPN Details
+### VPN Details
 
-##### Encryption Domains
+#### Encryption Domains
 
 <table>
 <colgroup>
@@ -118,7 +118,7 @@ Vyatta's documentation, please keep this in mind.
 </tbody>
 </table>
 
-##### ISAKMP and IPSEC Settings
+#### ISAKMP and IPSEC Settings
 
 <table>
 <colgroup>
@@ -149,9 +149,9 @@ Vyatta's documentation, please keep this in mind.
 </tbody>
 </table>
 
-#### VPN Configuration
+### VPN Configuration
 
-##### Enable the VPN daemon on the outside interface
+#### Enable the VPN daemon on the outside interface
 
 <table>
 <colgroup>
@@ -165,7 +165,7 @@ set vpn ipsec ipsec-interfaces interface eth0</p></td>
 </tbody>
 </table>
 
-##### Phase 1 Define the Policies
+#### Phase 1 Define the Policies
 
 <table>
 <colgroup>
@@ -182,7 +182,7 @@ set vpn ipsec ike-group <strong>IKE-POLICY-10</strong> proposal 1 hash sha1</p><
 </tbody>
 </table>
 
-##### Phase 2 Define the ESP-GROUP (Like an ASA Transform Set)
+#### Phase 2 Define the ESP-GROUP (Like an ASA Transform Set)
 
 <table>
 <colgroup>
@@ -200,7 +200,7 @@ set vpn ipsec esp-group <strong>AES-256-SHA-PFS-GROUP-5-3600</strong> proposal 1
 </tbody>
 </table>
 
-##### Phase 2 Define the Individual Peer Attributes
+#### Phase 2 Define the Individual Peer Attributes
 
 <table>
 <colgroup>
@@ -218,7 +218,7 @@ set vpn ipsec site-to-site peer 192.0.2.10 local-address 166.78.184.111</p></td>
 </tbody>
 </table>
 
-##### Phase 2 Define the Tunnel Attributes (Encryption Domains)
+#### Phase 2 Define the Tunnel Attributes (Encryption Domains)
 
 <table>
 <colgroup>
@@ -242,9 +242,9 @@ set vpn ipsec site-to-site peer 192.0.2.10 tunnel 2 remote prefix 192.168.10.0/2
 </tbody>
 </table>
 
-#### Solution 1: Policy NAT Configuration With Individual Addresses
+### Solution 1: Policy NAT Configuration With Individual Addresses
 
-##### VPN NAT
+#### VPN NAT
 
 <table>
 <colgroup>
@@ -287,9 +287,9 @@ set nat source rule 50 translation address masquerade</p></td>
 </tbody>
 </table>
 
-#### Solution 2: Policy NAT Subnet to Subnet
+### Solution 2: Policy NAT Subnet to Subnet
 
-##### VPN NAT
+#### VPN NAT
 
 <table>
 <colgroup>
@@ -321,6 +321,3 @@ set nat source rule 50 translation address masquerade</p></td>
 </tr>
 </tbody>
 </table>
-
-
-
