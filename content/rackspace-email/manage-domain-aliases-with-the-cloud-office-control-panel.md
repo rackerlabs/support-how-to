@@ -1,6 +1,6 @@
 ---
 node_id: 4008
-title: Manage domain aliases with the Cloud Office control panel
+title: Manage domain aliases with the Cloud Office Control Panel
 type: article
 created_date: '2014-04-10'
 created_by: Mawutor Amesawu
@@ -16,8 +16,7 @@ contact the Rackspace support team. Direct customers can still view the
 aliases that have been set by going to step 2 in the following
 procedure.
 
-Domain aliases and accepted domains
------------------------------------
+### Domain aliases and accepted domains
 
 You might want to create a domain alias if, for example, your company
 owns several domains (for example, **mycompany.com**, **mycompany.biz**,
@@ -40,20 +39,16 @@ terminology ("domain alias" versus "accepted domain") and functionality
     **bob@mycompany.com**.
 -   Accepted domain&mdash;If you are a Microsoft Exchange customer, you create
     an accepted domain. Email sent to the accepted domain can be
-    automatically directed to any mailbox that you specify. To specify
-    which mailbox or mailboexes should receive email from an accepted
-    domain&rsquo;s email address, see the instructions in [Add an
-    Address](http://www.rackspace.com/apps/support/portal/1560/1631/1873/1875/3945).
+    automatically directed to any mailbox that you specify.
 
-Add a domain alias or accepted domain
--------------------------------------
+### Add a domain alias or accepted domain
 
-1.  Log in to the [Cloud Office control
-    panel](https://cp.rackspace.com/).
+1.  Log in to the [Cloud Office Control
+    Panel](https://cp.rackspace.com/).
 2.  From the **Go to section** menu, select **Domains**.
 3.  In the **Manage** section, click **Domain Aliases**.
 4.  If you have multiple domains, select the appropriate domain name.
-    Or, to change domains, click **Change Domain**.
+    Or, to change domains, click **change domain**.
 5.  Click **Add Alias**.
 6.  In the **Alternate Domain** box, enter the full domain name that you
     want to assign as a domain alias or accepted domain.
@@ -65,6 +60,3 @@ Add a domain alias or accepted domain
     automatically generate the new domain addresses for your current
     Exchange mailboxes.
 9.  Click **Save**.
-
-
-
