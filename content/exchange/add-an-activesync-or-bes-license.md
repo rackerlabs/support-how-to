@@ -15,53 +15,50 @@ you need to add an ActiveSync or BlackBerry Enterprise Service (BES)
 license through the Cloud Office Control Panel. Perform the steps in
 this article to add a ActiveSync or BES license.
 
-**Note**: The Cloud Office Control Panel that you access depends on the
-region in which the service was started.
+1. Log in to your control panel and select **Microsoft Exchange** from
+   the **Go to section** menu.
 
--   US Cloud Office Customers, use <https://cp.rackspace.com/>.
+   ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBES.png)
 
-<!-- -->
+   **Note**: The Cloud Office Control Panel that you access depends on the
+   region in which the service was started.
 
--   International and MyRackspace Cloud Office customers, use
-    <https://my.rackspace.com/> and navigate to **Products** &gt;
-    **Cloud Office** &gt; **Open Mail Control Panel**.
+   - US Cloud Office Customers, use <https://cp.rackspace.com/>.
 
-<!-- -->
+   - International and MyRackspace Cloud Office customers, use
+     <https://my.rackspace.com/> and navigate to **Products** &gt;
+     **Cloud Office** &gt; **Open Mail Control Panel**.
 
--   Or, all customers can
-    access <http://cp.rackspace.com/usercp> directly.
+   - Or, all customers can
+     access <http://cp.rackspace.com/usercp> directly.
 
-1.  Log in to your control panel and select **Microsoft Exchange** from
-    the **Go to section** menu.
+2. In the **Exchange Email Accounts** section, select **Mobile
+   Messaging** under **Other Servcices**.
 
-    ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBES.png)
+   ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes2.png)
 
-2.  In the **Exchange Email Accounts** section, select **Mobile
-    Messaging** under **Other Servcices**.
+3. Select **View Users** for either **Blackberry** or **Activesync
+   (iPhone, Android, Windows Mobile)**, depending on your device, and
+   then click **Add**.
 
-    ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes2.png)
+   ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes3.png)
 
-3.  Select **View Users** for either **Blackberry** or **Activesync
-    (iPhone, Android, Windows Mobile)**, depending on your device, and
-    then click **Add**.
+4. Select the user to whom you are assigning the license.
+   This works differently for different kinds of licenses:
 
-    ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes3.png)
+   - If you're adding a BES license, select the user to whom you are
+     assigning the license from the **Select User** window, provide a
+     4 digit activation pin under **Activation Password** and click
+     **Save**.
 
-4.  Select the user to whom you are assigning the license.
-    -   If you're adding a BES license, select the user to whom you are
-        assigning the license from the **Select User** window, provide a
-        4 digit activation pin under **Activation Password** and click
-        **Save**.
+     ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes5.png)
 
-        ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes5.png)
+    - If you're adding an Activesync license, select the user to whom
+      you are assigning the license from the **Eligible Users From
+      This Domain** window, click **Add** in the middle and then click
+      **Save**.
 
-    -   If you're adding an Activesync license, select the user to whom
-        you are assigning the license from the **Eligible Users From
-        This Domain** window, click **Add** in the middle and then click
-        **Save**.
+      ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes6.png)
 
-        ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes6.png)
-
-*Note: Once you've assigned your licenses, please allow 10 minutes for
-them to fully propagate.*
-
+      **Note**: Once you've assigned your licenses, allow 10 minutes for
+      them to fully propagate.
