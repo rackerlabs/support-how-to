@@ -10,36 +10,18 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-
-
 The instructions in this article are for customers who signed up for
-their Rackspace email account at <http://www.rackspace.co.uk>. The steps
+their Rackspace Email account at <http://www.rackspace.co.uk>. The steps
 in this article guide you through setting up your Rackspace mail
 services. This information is also available at [Rackspace Demo
 Videos](http://www.rackspace.co.uk/cloud-office/email-demo-videos).
 
-**Contents**
-
-1.  [Set up your mailboxes](#setup)
-2.  [View your mail](#view)
-3.  [Add a new domain](#add)
-4.  [Add an alias](#alias)
-5.  [Set up autodiscover records](#auto)
-6.  [Migrating your existing mail account](#migrate)
-7.  [Set up payments](&ldquo;#pay&rdquo;)
-8.  [View and download invoices](#invo)
-9.  [Downgrade or cancel services](#down)
-10. [Mail terms, conditions, and acceptable use policy](#tocaus)
-
-
-
-Set up your mailboxes
----------------------
+### Set up your mailboxes
 
 After you have registered your account, you can add mailboxes and change
 your MX records.
 
-### Add mailboxes
+#### Add mailboxes
 
 1.  Log in to the [MyRackspace Customer
     Portal](https://my.rackspace.com/).
@@ -74,12 +56,12 @@ support at 0800 954 1007 or 020 8734 4029. You can also create a Cloud
 Office support ticket by selecting **Support &gt; Tickets &gt; Create
 New Ticket**.
 
-### Change your MX records
+#### Change your MX records
 
 MX records tell the Internet where to deliver your mail. You must have
 access to your DNS records in order to point your MX records to the
 Rackspace email servers. For instructions on setting up your DNS
-records, see [How to set up DNS records for email and Skype for
+records, see [Set up DNS records for Cloud Office email and Skype for
 Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
 
 If you do not have access to your DNS records, contact your domain
@@ -93,16 +75,11 @@ The MX record changes take about 24 hours to update. You will know when
 the update has occurred because mail will start being delivered to your
 *new mailboxes* instead of your old ones.
 
-[back to top](#top)
-
-
-
-View your mail
---------------
+### View your mail
 
 Choose one of the following options to view your new mailboxes:
 
--   Go to the Rackspace webmail site at
+-   Go to the Rackspace Webmail site at
     [https://apps.rackspace.com](https://apps.rackspace.com/).
 
 -   Use Outlook, Exchange, Thunderbird, or another email client of
@@ -112,26 +89,21 @@ Choose one of the following options to view your new mailboxes:
 
 If you have questions or need assistance to view your email, contact
 Rackspace Cloud Office support by [live
-chat](https://cp.rackspace.com/Default.aspx), by phone at 0800 954 1007
+chat](https://cp.rackspace.com/Default.aspx), or by phone at 0800 954 1007
 or 020 8734 4029. You can also create a support ticket in the [Cloud
 Office Control
 Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=Default.aspx).
 
-[back to top](#top)
+### Add a new domain
 
-
-
-Add a new domain
-----------------
-
-1.  Log in to [MyRackspace Customer
+1.  Log in to the [MyRackspace Customer
     Portal](https://my.rackspace.com/).
 
 2.  From the **Products** menu, click **Email & Apps**.
 
 3.  In the Email & Apps window, click **Open Mail Control Panel**.
 
-4.  From the **Go to** section menu or the Domains section, click
+4.  From the **Go to section** menu or the Domains section, click
     **Domains**.
 
 5.  Click **Add Domain**.
@@ -143,15 +115,9 @@ Add a new domain
     -   Microsoft Exchange with ActiveSync and BlackBerry options.
     -   Rackspace Archiving
 
-
 8.  Click **Save**.
 
-[back to top](#top)
-
-
-
-Add an alias
-------------
+### Add an alias
 
 Follow these steps to set up a mailbox alias.
 
@@ -160,48 +126,30 @@ Follow these steps to set up a mailbox alias.
 
 2.  In the Rackspace Email section, click **Aliases**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2233-4723-1_0.png" width="405" height="108" />
-
 3.  Select the domain for which you want to add an alias.
 
 4.  Click **Add Alias**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2233-4723-2_0.png" width="387" height="139" />
-
 5.  Enter the new alias in the **Create New Alias** field.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2233-4723-3_0.png" width="392" height="307" />
-
-6.  Optionally, select members of your domain and move them to the
+6.  *(Optional)* Select members of your domain and move them to the
     **Members of this Alias** field, and click **Add**.
 
-7.  Optionally, add email addresses for members outside of your domain
-    into the **Email Address** field and **click Add**.
+7.  *(Optional)* Add email addresses for members outside of your domain
+    into the **Email Address** field and click **Add**.
 
 8.  Click **Save**.
 
 **Note:** To add a *domain alias*, create a support ticket in the
-[MyRackspace Customer Portal](). This option is not available in the
-[Cloud Office Control
-Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
+MyRackspace Customer Portal. This option is not available in the
+Cloud Office Control Panel.
 
-[back to top](#top)
+### Set up autodiscover records
 
-
-
-Set up autodiscover records
----------------------------
-
-For information about setting up your autodiscover records, see [How to
-set up DNS records for email and Skype for
+For information about setting up your autodiscover records, see [Set up DNS records for Cloud Office email and Skype for
 Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
 
-[back to top](#top)
-
-
-
-Migrating your existing mail account
-------------------------------------
+### Migrate your existing mail account
 
 You can migrate your email data to your Rackspace mail account in the
 following ways:
@@ -217,18 +165,13 @@ following ways:
     information, see Migrate your email by using the Self-Service
     tool.
 
--   **Assisted migrations&mdash;**This option is for companies that need help
+-   **Assisted migrations**&mdash;This option is for companies that need help
     with consulting, planning, and scheduling a migration project.
     Contact our Assisted Migrations team by creating a support ticket in
     the MyRackspace portal. They will provide you with all the
     necessary information.
 
-[back to top](#top)
-
-
-
-Set up payments
----------------
+### Set up payments
 
 The initial credit card payment that you made online was a one-time
 payment. Follow these steps to set up your preferred payment method:
@@ -238,13 +181,7 @@ payment. Follow these steps to set up your preferred payment method:
 
 2.  Select **Account &gt; Payments** from the drop-down menu.
 
-
-[back to top](#top)
-
-
-
-View and download invoices
---------------------------
+### View and download invoices
 
 To view and download your invoices follow these steps:
 
@@ -257,12 +194,7 @@ To view and download your invoices follow these steps:
 3.  To download your invoices, click the **Actions** button and select
     **Export All Transactions**.
 
-[back to top](#top)
-
-
-
-Downgrade or cancel your services
----------------------------------
+### Downgrade or cancel your services
 
 If you want to downgrade your services, you must submit a support
 ticket.
@@ -273,18 +205,10 @@ intentions by either calling us or submitting a support ticket.
 **Note:** Email hosting services are a month-to-month service billed in
 arrears and will not be billed pro-rata.
 
-[back to top](#top)
-
-
-
-Mail terms, conditions, and acceptable usage policy
----------------------------------------------------
+### Mail terms, conditions, and acceptable usage policy
 
 [Rackspace Mail terms and
 conditions](http://www.rackspace.com/information/legal/mailterms)
 
 [Read the Rackspace mail acceptable use
 policy](http://www.rackspace.com/information/legal/aup)
-
-[back to top](#top)
-
