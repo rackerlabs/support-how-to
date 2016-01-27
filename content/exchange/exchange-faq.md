@@ -29,7 +29,7 @@ The maximum size for an attachment in the Exchange environment is 50MB.
 Outlook Web Access or OWA is a way to access your email online from any
 computer. This can be useful if you're not at home or in the office
 where email is usually checked through an email client. To access your
-email online head to
+email online, log in at 
 [https://apps.rackspace.com](https://apps.rackspace.com/index.php).
 
 #### What are public folders?
