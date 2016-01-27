@@ -10,33 +10,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Next Generation Cloud Servers:  Sample Code**
-**
-
-**[List of API Operations](#aa1)**
-
-**Code Sample - cURL**
-
--   [Add a user to your account through the API](#aa2)
-
-**Code Samples - XML**
-
--   [Create Server Request](#aa3)
--   [Create Server Response](#aa4)
--   [Get Server Details Response](#aa5)
--   [Reboot Server Request](#aa6)
-
-**Code Samples - JSON**
-
--   [Create Server Request](#aa7)
--   [Create Server Response](#aa8)
--   [Get Server Details Response](#aa9)
--   [Reboot Server Request](#aa10)
-
-**[Legal Disclaimer](#aa11)**
-
-------------------------------------------------------------------------
-
 ### API Operations
 
 -   Servers
@@ -76,15 +49,14 @@ product_url: cloud-servers
                 -   Set Metadata Item
                 -   Delete Metadata Item
 
-------------------------------------------------------------------------
-
 ### cURL
 
-#### Code Sample &ndash; Add User To Your Account Through API (cURL)
+#### Code Sample: Add User To Your Account Through API (cURL)
 
 To add a user to your account through the API, you can do the following:
 
 1.  Get a token.
+
     -   Through password-authentication:
 
             curl -X POST https://identity.api.rackspacecloud.com/v2.0/tokens -d '{"auth":{"passwordCredentials":{"username":"theUserName","password":"thePassword"}}}' -H "Content-type: application/json"
@@ -94,7 +66,9 @@ To add a user to your account through the API, you can do the following:
             curl -X POST https:// identity.api.rackspacecloud.com/v2.0/tokens -d '{ "auth":{ "RAX-KSKEY:apiKeyCredentials":{ "username":"theUserName", "apiKey":"00a00000a000a0000000a000a00aaa0a" } } }' -H "Content-type: application/json"
 
     The access.token.id in the response is the token.
+
 2.  Create a new user.
+
     -   Specifying a password:
 
             curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken&rdquo;
@@ -117,8 +91,6 @@ You can also update or delete a user.
 -   Delete:
 
         curl -X DELETE https://identity.api.rackspacecloud.com/v2.0/users/{userID} -H "X-Auth-Token: "XXXXXXX"
-
-------------------------------------------------------------------------
 
 ### XML
 
@@ -192,8 +164,6 @@ You can also update or delete a user.
 
     <?xml version="1.0" encoding="UTF-8"?>
     <reboot xmlns="http://docs.openstack.org/compute/api/v1.1" type="HARD"/>
-
-------------------------------------------------------------------------
 
 ### JSON
 
@@ -317,8 +287,6 @@ You can also update or delete a user.
         }
     }
 
-------------------------------------------------------------------------
-
 **Legal Disclaimer**
 
 This information is intended for software developers who want to develop
@@ -337,4 +305,3 @@ cloud terms of service, Rackspace assumes no liability whatsoever, and
 disclaims any express or implied warranty, relating to its services
 including, but not limited to, the implied warranty of merchantability,
 fitness for a particular purpose, and noninfringement.
-

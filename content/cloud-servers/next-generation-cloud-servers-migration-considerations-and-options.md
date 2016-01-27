@@ -10,92 +10,45 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-[opencloud]:http://www.rackspace.com/cloud/servers "Rackspace Cloud Servers Powered by OpenStack"
-[openstack]:http://www.openstack.org/ "OpenStack"
-[cp]:https://mycloud.rackspace.com "Cloud Control Panel"
-[migration]:http://www.rackspace.com/migration "cloud migration"
-[community]:https://community.rackspace.com/products/f/25/t/4787 "community post"
+If you're moving your application from our First Generation Cloud Servers platform to Next Generation Cloud Servers, keep the features of the new platform and your migration options in mind when you migrate.
 
-If you're moving your application from our First Generation Cloud Servers platform to Next Generation Cloud Servers, keep the features of the new platform and your migration options in mind when [you migrate][migration].
+Note that our First Generation Cloud Servers platform will be retired, and all First Generation servers are being migrated to Next Generation Cloud Servers.  We will send communications with migration information for eligible servers.  Migration effects and options are detailed in the "Migrating to Next Generation" section.
 
-- [Feature changes](#features)
-- [Migrating to Next Generation](#migration)
-    - [Self-service migration](#selfservice)
-    - [Assisted migration](#assisted)
-- [Migrating outside the migration window](#manual)
-    - [Image-based migration](#imageb)
-    - [Manually migrating Linux servers](#linux)
-    - [Manually migrating Windows 2008 servers](#win2008)
-    - [Manually migrating Windows 2012 servers](#win2012)
-- [Post-migration considerations](#after)
-
-Note that our First Generation Cloud Servers platform will be retired, and all First Generation servers are being migrated to Next Generation Cloud Servers.  We will send communications with migration information for eligible servers.  Migration effects and options are detailed in the [Migrating to Next Generation](#migration) section.
-
-## Feature changes ## {#features}
+### Feature changes
 
 Our Next Generation Cloud Servers platform includes several changes compared to the first generation.
 
-### API ###
+-  **API**: The [OpenStack API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/) used by Next Generation Cloud Servers is responsive and flexible, with room to grow.  New features include management of server metadata and API control of rescue mode.
 
-[csapi]:http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ch_preface.html "Cloud Servers API 2.0"
+-  **IPv6**: Next Generation Cloud Servers assign IPv6 addresses, although each server can have only one assigned IPv6 address.
 
-The [OpenStack API][csapi] used by Next Generation Cloud Servers is responsive and flexible, with room to grow.  New features include management of server metadata and API control of rescue mode.
+-  **Region choice**: In our Next Generation Cloud environment, you can choose the region where your created cloud servers will reside.
 
-### IPv6 ###
+  Regional control helps you manage back-end availability between your servers and connectivity to services such as Cloud Databases and Cloud Load Balancers.  You can also ensure that you have copies of your application in multiple regions to aid with disaster recovery.
 
-Next Generation Cloud Servers assign IPv6 addresses, although each server can have only one assigned IPv6 address.
+-  **Disk management**: Disk management is more flexible and with it you can repartition your cloud server's virtual disk and switch file systems if necessary.
 
-### Region choice ###
+-  **Open architecture**: The Next Generation Cloud's OpenStack base provides the potential for interoperability with OpenStack-based tools like [python-novaclient](/how-to/using-python-novaclient-with-the-rackspace-cloud), as well as compatibility with private and third-party clouds running OpenStack.
 
-In our Next Generation Cloud environment, you can choose the region where your created cloud servers will reside.
+-  **General Purpose and optimized servers**: Our Next Generation platform includes multipurpose (General Purpose) server flavors and server flavors optimized for computing power, memory, and network and disk throughput.  These server flavors offer dramatic improvements over First Generation and Standard servers in disk and network speed.  For more information, see [New features in General Purpose and optimized Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
 
-Regional control helps you manage back-end availability between your servers and connectivity to services such as Cloud Databases and Cloud Load Balancers.  You can also ensure that you have copies of your application in multiple regions to aid with disaster recovery.
+-  **Resizing**: While Standard server flavors can be resized, General Purpose and work-optimized servers cannot.  General Purpose and work-optimized server types must be migrated to a new server to change CPU and memory allocation.  They can add a Cloud Block Storage volume to increase available disk space.
 
-### Disk management ###
+-  **Images**: Images can be made from Standard servers, similar to First Generation servers.
 
-Disk management is more flexible and with it you can repartition your cloud server's virtual disk and switch file systems if necessary.
+  General Purpose and work-optimized server images include only the local system disk, not attached data disks.
 
-### Open architecture ###
+  Compute, Memory, and General Purpose servers that use Cloud Block Storage volumes as system disks cannot be imaged because they do not have local system disks.  Servers with Cloud Block Storage volumes as system disks can have a snapshot taken of the system volume using the Block Storage Volumes interface in the Cloud Control Panel or the Cloud Block Storage API..
 
-[novaclient]:/how-to/using-python-novaclient-with-the-rackspace-cloud "Using python-novaclient with the Rackspace Cloud"
+-  **No shared IP address groups**: Unlike First Generation Cloud Servers, our Next Generation environment does not offer the ability to create shared IP address groups via the API.
 
-The Next Generation Cloud's OpenStack base provides the potential for interoperability with OpenStack-based tools like [python-novaclient][novaclient], as well as compatibility with private and third-party clouds running OpenStack.
+-  **No 256 MB instances**: Instances with 256 MB of memory are not available for Next Generation Cloud Servers.  Server sizes start at 512 MB RAM.
 
-### General Purpose and optimized servers ###
+-  **Virtual CPU allocation**: Our Next Generation servers are more strict about allocating CPU time on the host to instances than our First Generation servers.  If your application relies on frequent CPU bursts, you might see a reduction in performance on a Next Generation server.  Conversely, if you rely on consistent CPU power (without being affected by bursts from other instances on the host), Next Generation servers are more reliable.
 
-[newpcs]:/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers "New features in General Purpose and optimized Cloud Servers"
+  In some cases, our cloud server packages can offer more virtual CPUs than our First Generation platform.  Further, our Compute server flavors offer the ability to emphasize CPU power in your server configuration.  For more information about cloud server vCPU allocation,see the [Cloud Servers pricing page][http://www.rackspace.com/cloud/servers].
 
-Our Next Generation platform includes multipurpose (General Purpose) server flavors and server flavors optimized for computing power, memory, and network and disk throughput.  These server flavors offer dramatic improvements over First Generation and Standard servers in disk and network speed.  For more information, see [New features in General Purpose and optimized Cloud Servers][newpcs].
-
-### Resizing ###
-
-While Standard server flavors can be resized, General Purpose and work-optimized servers cannot.  General Purpose and work-optimized server types must be migrated to a new server to change CPU and memory allocation.  They can add a Cloud Block Storage volume to increase available disk space.
-
-### Images ###
-
-Images can be made from Standard servers, similar to First Generation servers.
-
-General Purpose and work-optimized server images include only the local system disk, not attached data disks.
-
-Compute, Memory, and General Purpose servers that use Cloud Block Storage volumes as system disks cannot be imaged because they do not have local system disks.  Servers with Cloud Block Storage volumes as system disks can have a snapshot taken of the system volume using the Block Storage Volumes interface in the Clolud Control Panel or the Cloud Block Storage API..
-
-### No shared IP address groups ###
-
-Unlike First Generation Cloud Servers, our Next Generation environment does not offer the ability to create shared IP address groups via the API.
-
-### No 256 MB instances ###
-
-Instances with 256 MB of memory are not available for Next Generation Cloud Servers.  Server sizes start at 512 MB RAM.
-
-### Virtual CPU allocation ###
-
-[pcspricing]:http://www.rackspace.com/cloud/servers#pricinganchor "Cloud Servers Pricing"
-
-Our Next Generation servers are more strict about allocating CPU time on the host to instances than our First Generation servers.  If your application relies on frequent CPU bursts, you might see a reduction in performance on a Next Generation server.  Conversely, if you rely on consistent CPU power (without being affected by bursts from other instances on the host), Next Generation servers are more reliable.
-
-In some cases, our cloud server packages can offer more virtual CPUs than our First Generation platform.  Further, our Compute server flavors offer the ability to emphasize CPU power in your server configuration.  For more information about cloud server vCPU allocation,see the [Cloud Servers pricing page][pcspricing].
-
-## Migrating to Next Generation ## {#migration}
+### Migrating to Next Generation
 
 First Generation Cloud Servers will be retired, so it is necessary to migrate data from First Generation Cloud Servers to another Cloud Servers option.  We will send migration window information as each server becomes eligible for self-service and assisted migration.
 
@@ -107,23 +60,23 @@ A Linux server migrated to Next Generation Cloud Servers will use the same serve
 
 In many cases a migration can be performed while preserving application and server states.  Availability of this feature depends on the server's operating system.  Some operating systems and distributions will need to be halted for the migration.
 
-See the [First Generation to Next Generation cloud server migration FAQ](/how-to/first-generation-to-next-generation-cloud-server-migration-faq) and the [migration thread in our community forums][community] for more answers about self-service and assisted migrations.
+See the [First Generation to Next Generation cloud server migration FAQ](/how-to/first-generation-to-next-generation-cloud-server-migration-faq) and the [migration thread in our community forums](https://community.rackspace.com/products/f/25/t/4787) for more answers about self-service and assisted migrations.
 
-### Self-service migration {#selfservice}
+#### Self-service migration
 
 To perform a self-service migration, you can perform a soft reboot of your server through the Cloud Control Panel during your migration window.  Rebooting your server from the command line or using the hard reboot option in the control panel will not initiate a migration.
 
-### Assisted migration {#assisted}
+#### Assisted migration
 
 You will be notified by email and in the Cloud Control Panel of a date when your server will be eligible for assisted migration.  If you opt for an assisted migration, we'll perform the server migration for you during the specified time window.  Every effort will be made to minimize downtime and preserve application states for the transition.
 
-## Migrating outside the migration window {#manual}
+### Migrating outside the migration window
 
 If you don't want to wait for your migration window to move your data from First Generation Cloud Servers to Next Generation Cloud Servers, you can choose image-based migration or manual migration.  When planning this kind of migration consider the size of the original server, as well as the region of connected Cloud Database instances, Cloud Load Balancers, and Cloud Block Storage volumes.
 
-**Note:**  Unlike self-service and assisted migrations, the image-based and manual migration options described in this section result in a new server with a different IP address than the original instance.  A server's IP address can only be preserved if it is migrated using a self-service or assisted migration as described in [the previous section](#migration).
+**Note:**  Unlike self-service and assisted migrations, the image-based and manual migration options described in this section result in a new server with a different IP address than the original instance.  A server's IP address can only be preserved if it is migrated using a self-service or assisted migration as described in the previous section.
 
-### Image-based migration {#imageb}
+### Image-based migration
 
 The Cloud Control Panel provides the ability to create a special image of a First Generation Cloud Server that is automatically converted to a Next Generation image. You can use the new image to create a Next Generation server.
 
@@ -151,20 +104,18 @@ If you have trouble creating the image, [contact Support](http://www.rackspace.c
 
 **Note:** The IP address of an instance created from an image will be different from the IP address of the server used to create that image. Depending on your application, issues might occur if both the original server and the new server are active simultaneously.
 
-### Manually migrating Linux servers {#linux}
+### Manually migrating Linux servers
 
-[migratepcs]:/how-to/migrating-to-a-general-purpose-or-io-server "Migrating to a General Purpose or I/O Server"
+For advice on taking the system disks and data disks on General Purpose and I/O optimized servers into account when migrating, see [Migrating to a General Purpose or I/O Server](/how-to/migrating-to-a-general-purpose-or-io-server).
 
-For advice on taking the system disks and data disks on General Purpose and I/O optimized servers into account when migrating, see [Migrating to a General Purpose or I/O Server][migratepcs].
-
-### Manually migrating Windows 2012 servers {#win2012}
+### Manually migrating Windows 2012 servers
 
 To migrate IIS and Microsoft SQL Server data on Windows 2012, you can use the Microsoft Web Deploy tool per the [instructions in the Rackspace Community](https://community.rackspace.com/products/f/25/t/641).
 
-## Post-migration considerations ## {#after}
+### Post-migration considerations
 
 After migrating to a new cloud server, make any necessary changes to DNS information or load balancers for your application.
 
 Older First Generation images can't be used to create Next Generation servers, so be sure to make back-up arrangements for the new server after the migration is complete.
 
-If you have questions about your migration and post-migration options, see the [migration thread in our community forums][community] for more information.
+If you have questions about your migration and post-migration options, see the [migration thread in our community forums](https://community.rackspace.com/products/f/25/t/4787) for more information.

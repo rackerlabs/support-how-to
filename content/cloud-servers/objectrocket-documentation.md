@@ -10,21 +10,17 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-What is ObjectRocket?
----------------------
+### What is ObjectRocket?
 
 ObjectRocket is a Database as a Service based on the popular MongoDB
 database. The ObjectRocket infrastructure has been designed for MongoDB.
 
-Learn more by reading the [ObjectRocket API Overview and
-Concepts](https://docs.objectrocket.com/overview_and_concepts.html) documentation.
+Learn more by reading the [ObjectRocket API Overview and Concepts](https://docs.objectrocket.com/overview_and_concepts.html) documentation.
 
-Get to know ObjectRocket. [Watch an
-inteview](http://www.youtube.com/watch?v=q_necZ_HG5g) with founder and
+Get to know ObjectRocket. [Watch an interview](http://www.youtube.com/watch?v=q_necZ_HG5g) with founder and
 Chief Architect, Kenny Gorman.
 
-Get Started
------------
+### Get Started
 
 The Getting Started Guide will help you understand how to get up and
 running on the ObjectRocket system quickly and easily. It assumes using
@@ -37,20 +33,16 @@ steps:
 4.  Create a database
 5.  Add a Access Conrol List (ACL)
 
-Read the [Getting Started
-Guide](https://docs.objectrocket.com/getting_started.html)
+Read the [Getting Started Guide](https://docs.objectrocket.com/getting_started.html)
 
-Backup and Recovery Guide
--------------------------
+### Backup and Recovery Guide
 
 Data backups are provided so customers can have access to point in time
 copy of their data. Backups are taken at regular intervals.
 
-Learn more about Backups in the [Backup and Recovery
-Guide](https://docs.objectrocket.com/backup_and_recovery.html)
+Learn more about Backups in the [Backup and Recovery Guide](https://docs.objectrocket.com/backup_and_recovery.html)
 
-The ObjectRocket API
---------------------
+### The ObjectRocket API
 
 The ObjectRocket API is a REST-based HTTP API over SSL. The API can be
 used in addition to and alongside with the MongoDB driver access into
@@ -58,34 +50,23 @@ ObjectRocket.
 
 [Overview](https://docs.objectrocket.com/api/overview.html)
 
--   [Authentication](https://docs.objectrocket.com/api/overview.html#authentication)
--   [Data
-    Operations](https://docs.objectrocket.com/api/overview.html#operations)
--   [Metadata
-    Operations](https://docs.objectrocket.com/api/overview.html#metadata-operations)
+-  [Authentication](https://docs.objectrocket.com/api/overview.html#authentication)
+-  [Data Operations](https://docs.objectrocket.com/api/overview.html#operations)
+-  [Metadata Operations](https://docs.objectrocket.com/api/overview.html#metadata-operations)
+-  [cURL examples](https://docs.objectrocket.com/api/curl.html)
+-  [Python examples](https://docs.objectrocket.com/api/python.html)
+-  [Node.js examples](https://docs.objectrocket.com/api/nodejs.html)
+-  [Java examples](https://docs.objectrocket.com/api/java.html)
+-  [PHP examples](https://docs.objectrocket.com/api/php.html)
 
-[cURL examples](https://docs.objectrocket.com/api/curl.html)
-
-[Python examples](https://docs.objectrocket.com/api/python.html)
-
-[Node.js examples](https://docs.objectrocket.com/api/nodejs.html)
-
-[Java examples](https://docs.objectrocket.com/api/java.html)
-
-[PHP examples](https://docs.objectrocket.com/api/php.html)
-
-Connect via Native MongoDB Drivers
-----------------------------------
+### Connect via Native MongoDB Drivers
 
 -   [Overview](https://docs.objectrocket.com/native_drivers.html#overview)
--   [Python
-    example](https://docs.objectrocket.com/native_drivers.html#python)
--   [Node.js
-    example](https://docs.objectrocket.com/native_drivers.html#node-js)
+-   [Python example](https://docs.objectrocket.com/native_drivers.html#python)
+-   [Node.js example](https://docs.objectrocket.com/native_drivers.html#node-js)
 -   [C\#](https://docs.objectrocket.com/native_drivers.html#c)
 
-Tools
------
+### Tools
 
 ObjectRocket has created a couple of example tools to use in conjunction
 with the ObjectRocket service. The ObjectRocket API makes it very easy
@@ -98,24 +79,18 @@ monitoring or performance tools.
 -   **Rockettop** - RocketTop is a real-time statistics viewer
     for ObjectRocket.
 
-Learn more about the tools and get access to their Github repos on [the
-Tools page](http://docs.objectrocket.com/tools.html).
+Learn more about the tools and get access to their Github repos on [the Tools page](http://docs.objectrocket.com/tools.html).
 
-Have a question?
-----------------
+### Have a question?
 
 Read the [FAQ](http://docs.objectrocket.com/faq.html).
 
-Support
--------
+### Support
 
-If you have an issue, you can [submit a
-ticket](https://objectrocket.zendesk.com/home) or send ObjectRocket an
+If you have an issue, you can [submit a ticket](https://objectrocket.zendesk.com/home) or send ObjectRocket an
 email at <support@objectrocket.com>.
 
-Get Started - Get an Account!
------------------------------
+### Get Started - Get an Account!
 
 [Sign up for ObjectRocket](https://app.objectrocket.com/sign_up1). Get
 started with a free 30-day trial.
-
