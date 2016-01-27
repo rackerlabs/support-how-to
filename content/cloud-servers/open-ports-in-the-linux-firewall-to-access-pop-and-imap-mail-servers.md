@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-To access services such as POP and IMAP mail servers, you'll need to open certain ports to allow the services through the firewall.&nbsp;There are a few standard ports that are used to access most services.&nbsp;For example, accessing a website generally uses port 80 for normal (HTTP) web pages and port 443 for secure (HTTPS) pages.
+To access services such as POP and IMAP mail servers, you'll need to open certain ports to allow the services through the firewall. There are a few standard ports that are used to access most services. For example, accessing a website generally uses port 80 for normal (HTTP) web pages and port 443 for secure (HTTPS) pages.
 
 | Server  | Port  |
 |----------|-------|
@@ -20,58 +20,54 @@ To access services such as POP and IMAP mail servers, you'll need to open certai
 | IMAP    | 143   |
 | IMAP3  | 993   |
 
-*Though SMTP generally uses port 25 for connections, port 587 is actually the preferred port for outbound SMTP traffic due to the widespread abuse of port 25.</p>
+\* Though SMTP generally uses port 25 for connections, port 587 is actually the preferred port for outbound SMTP traffic due to the widespread abuse of port 25.
 
-##Edit iptables rules
+### Edit iptables rules
 
-Following from the Cloud Server setup, we need to edit the iptables.test.rules files to allow access to those ports. We will use port 25 for SMTP at the moment. You can change it as you see fit.
+Following from the Cloud Server setup, we need to edit the **iptables.test.rules** files to allow access to those ports. We will use port 25 for SMTP at the moment. You can change it as you see fit.
 
 1. Open the test rules file using the following command:
 
-    `sudo nano /etc/iptables.test.rules`
+       sudo nano /etc/iptables.test.rules
 
 2. Just before the HTTP and HTTPS entries, add the following details:
 
-    <pre>
-    # Allows SMTP access
-    -A INPUT -p tcp --dport 25 -j ACCEPT
+       # Allows SMTP access
+       -A INPUT -p tcp --dport 25 -j ACCEPT
 
-    # Allows pop and pops connections
-    -A INPUT -p tcp --dport 110 -j ACCEPT
-    -A INPUT -p tcp --dport 995 -j ACCEPT
+       # Allows pop and pops connections
+       -A INPUT -p tcp --dport 110 -j ACCEPT
+       -A INPUT -p tcp --dport 995 -j ACCEPT
 
-    # Allows imap and imaps connections
-    -A INPUT -p tcp --dport 143 -j ACCEPT
-    -A INPUT -p tcp --dport 993 -j ACCEPT
-    </pre>
+       # Allows imap and imaps connections
+       -A INPUT -p tcp --dport 143 -j ACCEPT
+       -A INPUT -p tcp --dport 993 -j ACCEPT
 
 3. Apply the new rules using the following command:
 
-    `sudo iptables-restore &lt; /etc/iptables.test.rules`
+       sudo iptables-restore < /etc/iptables.test.rules
 
 4. Now check that the rules have been applied using the following command:
 
-    `sudo iptables -L`
+       sudo iptables -L
 
-    This information should be in the output from the command:
+  This information should be in the output from the command:
 
-    <pre>
-    ACCEPT     all  --  anywhere             anywhere            state RELATED,ESTABLISHED
-    ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:smtp
-    ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:pop3
-    ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:pop3s
-    ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imap2
-    ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imaps
-    </pre>
+       ACCEPT     all  --  anywhere             anywhere            state RELATED,ESTABLISHED
+       ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:smtp
+       ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:pop3
+       ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:pop3s
+       ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imap2
+       ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imaps
 
 5. Now we have tested the rules, we need to have them applied on a permanent basis. You will need to have full root access for the next command so use this command in order to enter the root shell:
 
-    `sudo -i`
+       sudo -i
 
 6. Now use the following command:
 
-    `iptables-save > /etc/iptables.up.rules`
+       iptables-save > /etc/iptables.up.rules
 
 7. Now that you have saved the new iptables rules, you can exit the root shell by typing the following command:
 
-    `exit`
+       exit
