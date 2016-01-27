@@ -1,6 +1,6 @@
 ---
 node_id: 3800
-title: Locking Down IP Addresses in MigrationWiz
+title: Lock down IP addresses in MigrationWiz
 type: article
 created_date: '2013-12-04'
 created_by: Milton Prado
@@ -12,14 +12,14 @@ product_url: rackspace-email
 
 When performing an email migration, some customers might need to
 restrict access to a defined set of IP addresses, typically for security
-reasons.  This article provides the range of IP addresses from which our
+reasons. This article provides the range of IP addresses from which our
 MigrationWiz tool can connect, and instructions on locking down your
 migration to only these specific IP addresses.
 
-Note: Due to the restricted IP range, migration speeds are not optimal.
+**Note:** Because of the restricted IP range, migration speeds are not optimal.
 Consider this when planning your migration timeline.
 
-### IP Address Ranges
+### IP address ranges
 
 -   192.34.111.0 to 192.34.111.63 (aka 192.34.111.0/26) new
 -   208.115.102.1 to 208.115.102.63 (aka 208.115.102.1/26)
@@ -29,57 +29,35 @@ Consider this when planning your migration timeline.
 -   198.104.202.70
 -   4.53.158.186
 
-### To Lock Down Your Migration Profile
+### To lock down your migration profile
 
 Now that you have the range of IP addresses, you need to lock down your
-migration profile.  If your migration is assisted, your migration
-specialist performs these actions.  If you are performing the migration
+migration profile. If your migration is assisted, your migration
+specialist performs these actions. If you are performing the migration
 yourself, complete the following steps.
 
-1\. Log in to the [Full Version of
-MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
+1. Log in to the [full version of MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
 
-2\. If you have already created a migration, click **Manage Connectors**.
-If you are creating a new migration, click **Create a  Connector**.
+2. If you have already created a migration, click **Manage Connectors**. If you are creating a new migration, click **Create a  Connector**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_1.png" width="410" height="378" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_1.png" width="410" height="378" />
 
+3. In the top-right corner of the window that opens, click **Advanced Options**.
 
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/advanced.png" width="872" height="95" />
 
-3\. In the top-right corner of the window that opens, click **Advanced
-Options**.
+4. Click the **Performance** tab.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/advanced.png" width="872" height="95" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_3.png" width="207" height="360" />
 
+5. Set the **Preferred Data Center** value to **North America**.
 
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_4.png" width="435" height="235" />
 
-4\. Click the **Performance** tab.
+6. Click the **Support** tab and type the following text in the blank field: **ProcessingRequirement=Local**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_3.png" width="207" height="360" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_5.png" width="786" height="281" />
 
+7. Save all changes.
 
-
-5\. Set the **Preferred Data Center** value to **North America**.
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_4.png" width="435" height="235" />
-
-
-
-6\. Click on the **Support** tab and type the following in the blank
-field:  **ProcessingRequirement=Local**
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_5.png" width="786" height="281" />
-
-
-
-7\. **Save** all changes
-
-All connections through your migration will now only come from the IP
-ranges listed in this article.
-
-
-
-
-
-
-
+All connections through your migration will now come only from the IP address ranges listed in this article.
