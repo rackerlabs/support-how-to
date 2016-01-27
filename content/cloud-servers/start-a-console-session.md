@@ -10,12 +10,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-## Previous section
+### Previous section
 [Getting Started with Cloud Servers](/how-to/create-a-cloud-server)
 
 As the administrator for your cloud servers, you might need to occasionally log in to one of your servers by using the Console feature in the Cloud Control Panel.
 
-## To access the Console
+### To access the Console
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 2.  Click on the name of your server to open the details page.
@@ -29,7 +29,7 @@ If you get a security error message from Java, you might need to add the console
 
 **Note:** First-generation servers load a different version of the console with a reduced feature set.
 
-## Working in the console
+### Working in the console
 
 The top row of the console displays functions that you can use during a Console session.
 
@@ -47,11 +47,11 @@ The top row of the console displays functions that you can use during a Console 
 
 - The Shutdown and Reboot buttons are inactive by default. When you are logged in to your server as root/administrator or as a user with those privileges, those buttons become active.
 
-## Closing the console
+### Closing the console
 
 Before closing the console, log out of your account to ensure that the account is not active the next time a user connects to your server's Console.
 
 You can disconnect the Console from your server by clicking the Disconnect button to end the session.
 
-# Next section
+### Next section
 [Reboot your server](/how-to/reboot-your-server)
