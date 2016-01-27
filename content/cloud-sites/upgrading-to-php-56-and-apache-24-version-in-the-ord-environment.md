@@ -60,14 +60,12 @@ For more information, see:
 -   <http://httpd.apache.org/docs/2.4/mod/mod_include.html#ssilegacyexprparser>
 -   <http://httpd.apache.org/docs/2.4/expr.html>
 
-**What is not changing?**
--------------------------
+### What is not changing?
 
 -   No website DNS changes will be required.
 -   FTP services will not change.
 
-**How does this affect me?**
-----------------------------
+### How does this affect me?
 
 Given the changes from PHP 5.3 and 5.4 to 5.6 (to include the upgrade
 from Apache 2.2 to 2.4), we ask that customers view the provided links
@@ -111,8 +109,7 @@ made fully available, at which point they will be updated.
 
 Note: SSL is unavailable because the test links do not support HTTPS.
 
-**FAQ**
--------
+### FAQ
 
 **Is this Apache version fixing CVE \#\#\#?**
 
