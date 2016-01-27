@@ -1,6 +1,6 @@
 ---
 node_id: 3797
-title: Factors that Affect the Duration of Email Migrations
+title: Factors that affect the duration of email migrations
 type: article
 created_date: '2013-12-03'
 created_by: Milton Prado
@@ -20,7 +20,7 @@ migrated overnight.
 The following sections provide more detail about the factors that can
 affect how long a migration can take to complete.
 
-### Simultaneous Mailbox Migrations
+### Simultaneous mailbox migrations
 
 The migration tool that Rackspace uses, MigrationWiz, has reached speeds
 of over 1.5 GB per hour per mailbox when connecting to high availability
@@ -32,7 +32,7 @@ simultaneously at no additional cost to you. If you migrate all of your
 mailboxes at the same time, the migration duration is the time it takes
 to migrate the largest mailbox.
 
-### Network Speed
+### Network speed
 
 How fast are the source and destination servers connected to the
 Internet? MigrationWiz is only as fast as the slowest link.
@@ -40,12 +40,12 @@ Internet? MigrationWiz is only as fast as the slowest link.
 connecting to networks that range from T1 speed to networks that host
 multiple gigabit connections.
 
-### Network Latency
+### Network latency
 
 The network latency depends on the quality of the connection between
  the source and destination servers.
 
-### Number of Mailbox Items
+### Number of mailbox items
 
 Mailboxes with more email messages take longer to migrate.  For example,
 if two mailboxes are the same size but have a different number of items,
@@ -57,13 +57,13 @@ large message.
 MigrationWiz is optimized to reduce network chatter. It has moved over a
 thousand items in less than a minute in some cases.
 
-### Mailbox Size
+### Mailbox size
 
 Although the volume of data in a mailbox can affect a migration, the
 number of items in a mailbox has a much greater impact on the duration
 of a migration.
 
-### Mailbox Errors
+### Mailbox errors
 
 Errors can occur for a number of reasons, including corrupt items and
 network outages. MigrationWiz contains automated self-healing technology
@@ -74,4 +74,3 @@ that can automatically manage errors for you in most cases.
 If the source or destination system throttles the amount of data that
 can be read or written, the migration might not be able to use all the
 available network bandwidth.
-

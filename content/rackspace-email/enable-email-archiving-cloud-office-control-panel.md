@@ -15,16 +15,14 @@ outgoing email, including attachments. This data can be accessed for
 search and review by the administrator of the account and by
 administrator-designated users.
 
-To enable archiving, [log in to the control
-panel](https://apps.rackspace.com/?cp), and perform the following steps:
+To enable archiving, [log in to the Cloud Office Control
+Panel](https://cp.rackspace.com), and perform the following steps:
 
-1.  Click **My account**.
-2.  In the **Upgrade** section, click **Upgrade an existing domain**.
-3.  If you have multiple domains, select the appropriate domain name. To
-    change domains at any time, click **Change domain**.
-4.  Under **Add-ons**, click the **Email Archiving** menu and select
-    **Rackspace**.
-5.  Click **Next Step**.
+1.  Click your account name in the upper-right corner, and select **Upgrades & Services**.
+2.  On the **Upgrades & Services** tab, click the name of your domain.
+4.  In the **Add-ons** section, click the **Email Archiving** menu and select
+    **On**.
+5.  Click **Continue**.
 6.  Click **Complete Order**.
 
 You will receive a welcome email from **mail@archivesrvr.com**. After
@@ -34,4 +32,3 @@ into the archive.
 Messages will be indexed nightly for search purposes. To manually index
 for immediate search access, click **Collect Now** in the **Collectors**
 section of the Archive Manager.
-
