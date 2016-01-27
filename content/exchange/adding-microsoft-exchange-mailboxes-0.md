@@ -18,7 +18,7 @@ by using the control panel to import that information from a .CSV file.
 
 1. Log in to the control panel at
    [cp.rackspace.com](https://cp.rackspace.com). In the **Microsoft
-   Exchange** sectionm select the **Add / Edit Mailbox** link.
+   Exchange** section, select the **Add / Edit Mailbox** link.
 
    ![](http://c15042926.r26.cf2.rackcdn.com/exchange_mailboxes_list.png)
 
@@ -49,7 +49,7 @@ by using the control panel to import that information from a .CSV file.
        characters, lowercase characters, numerals 0-9, or
        non-alphabetic characters (such as !, $, #, or %).
 
-       For example, **Ex@mple1** is a valid password.
+     For example, **Ex@mple1** is a valid password.
 
      Confirm the password by retyping the password you entered in the
      **Password** box.

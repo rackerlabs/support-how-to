@@ -14,22 +14,22 @@ The following article explains how to create a contact with
 Microsoft Exchange. You can use a contact to create an alias that
 forwards to a mailbox hosted outside of your domain, such as at Gmail or Yahoo.
 
-1. Select **Manage Contacts** in theMicrosoft Exchange box.
+1. Select **Manage Contacts** in the Microsoft Exchange box.
 
-![](http://c13067040.r40.cf2.rackcdn.com/(E%26A)AddingAnExchangeContact.png)
+   ![](http://c13067040.r40.cf2.rackcdn.com/(E%26A)AddingAnExchangeContact.png)
 
-2. In the contacts window select **Add Contact**.
+2. In the contacts window, select **Add Contact**.
 
-![](http://c13067040.r40.cf2.rackcdn.com/(E%26A)AddingAnExchangeContact2.png)
+   ![](http://c13067040.r40.cf2.rackcdn.com/(E%26A)AddingAnExchangeContact2.png)
 
-**Note:** If you have multiple domains you may be prompted to select a
-domain name.
+   **Note:** If you have multiple domains you may be prompted to select a
+   domain name.
 
-3. Next enter the name of the contact, the display name that will be
-displayed in the Global Address Book, an email address, and the external
-email address that the email will route to. Then select **Save**.
+3. Enter the name of the contact, the display name that will be
+   displayed in the Global Address Book, an email address, and the external
+   email address that the email will route to. Then select **Save**.
 
-![](http://c13067040.r40.cf2.rackcdn.com/(E%26A)AddingAnExchangeContact3.png)
+   ![](http://c13067040.r40.cf2.rackcdn.com/(E%26A)AddingAnExchangeContact3.png)
 
-**Note:** Check the **Hide from Global Address List** check box if you do
-not want your contact visible in the Global Address Book.
+If you do not want this contact to be visible in the Global Address Book,
+Check the **Hide from Global Address List** check box.
