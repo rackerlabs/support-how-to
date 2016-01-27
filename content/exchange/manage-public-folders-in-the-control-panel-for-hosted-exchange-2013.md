@@ -55,24 +55,35 @@ folder.
 As an admin, you can create a new folder by performing the following
 steps:
 
-1.  Click **Create Folder**.
-    A popup dialog box is displayed.
-2.  Name the folder.
-    This is the name that will appear in the list of folders.
-3.  Select the type of folder.
-4.  To mail-enable the folder, select the **Enabled** check box.
-5.  Specify or edit the display name.
-6.  Specify or edit the email address for the folder.
-7.  Select or edit the reply-to address.
-8.  Click **Save** to create the folder
+1. Click **Create Folder**.
+
+   A popup dialog box is displayed.
+
+2. Name the folder.
+
+   This is the name that will appear in the list of folders.
+
+3. Select the type of folder.
+
+4. To mail-enable the folder, select the **Enabled** check box.
+
+5. Specify or edit the display name.
+
+6. Specify or edit the email address for the folder.
+
+7. Select or edit the reply-to address.
+
+8. Click **Save** to create the folder
 
 #### Delete a folder
 
-1.  In the list on the Folders page, click the gear icon next to the
-    folder that you want to delete.
-2.  From the menu, select **Delete**.
-3.  In the confirmation popup box, click **Delete Folder** to
-    permanently delete the folder.
+1. In the list on the **Folders** page, click the gear icon next to the
+   folder that you want to delete.
+
+2. From the menu, select **Delete**.
+
+3. In the confirmation popup box, click **Delete Folder** to
+   permanently delete the folder.
 
 #### Bulk-delete folders
 
@@ -115,48 +126,50 @@ the subfolder list. See the following example:
 You can create a subfolder in the following ways:
 
 - From the main (or parent) **Folders** page.
+
 - By clicking the parent&rsquo;s folder and creating the subfolder from the
   subfolder list page.
 
 #### Create a subfolder from the parent Folders page
 
-1.  Click the gear icon next to the folder for which you want to
-    create subfolders.
-2.  Select **Create Subfolder**.
-3.  In the **Folder Name** field, specify a name for the subfolder.
-4.  Select the type of folder.
-5.  To mail-enable the folder, select the **Enabled** check box.
-6.  Specify or edit the display name.
-7.  Specify or edit the email address for the folder.
-8.  Select or edit the reply-to address.
-9.  Click **Save** to create the subfolder.
+1. Click the gear icon next to the folder for which you want to
+   create subfolders.
+2. Select **Create Subfolder**.
+3. In the **Folder Name** field, specify a name for the subfolder.
+4. Select the type of folder.
+5. To mail-enable the folder, select the **Enabled** check box.
+6. Specify or edit the display name.
+7. Specify or edit the email address for the folder.
+8. Select or edit the reply-to address.
+9. Click **Save** to create the subfolder.
 
 #### Create a subfolder from the subfolder list page
 
-1.  In the folder list, click the name of the folder for which you want
-    to create a subfolder.
-    The subfolder view is displayed.
-2.  Click **Create Folder**.
-3.  In the **Folder Name** field specify a name for the subfolder.
-4.  Select the type of folder.
-5.  To mail-enable the folder, select the **Enabled** check box.
-6.  Specify or edit the display name.
-7.  Specify or edit the email address for the folder.
-8.  Select or edit the reply-to address.
-9.  Click **Save** to create the folder.
+1. In the folder list, click the name of the folder for which you want
+   to create a subfolder.
+   The subfolder view is displayed.
+2. Click **Create Folder**.
+3. In the **Folder Name** field specify a name for the subfolder.
+4. Select the type of folder.
+5. To mail-enable the folder, select the **Enabled** check box.
+6. Specify or edit the display name.
+7. Specify or edit the email address for the folder.
+8. Select or edit the reply-to address.
+9. Click **Save** to create the folder.
 
 ### Search for a specific folder or subfolder
 
 You can find a specific folder in the following ways:
 
--   Follow the folder path to the folder.
--   If you know all or part of the folder&rsquo;s name but do not know its
-    path (for example, its parent folder&rsquo;s name), you can search for it
-    by using the Search Folders box. For example, if you have a
-    subfolder caller **Sales Force** but you can recall only that it has
-    the word *sales* in it, you can search the term *sales*. The
-    application returns all folders with the word *sales* in their
-    name.
+- Follow the folder path to the folder.
+
+- If you know all or part of the folder&rsquo;s name but do not know its
+  path (for example, its parent folder&rsquo;s name), you can search for it
+  by using the Search Folders box. For example, if you have a
+  subfolder caller **Sales Force** but you can recall only that it has
+  the word *sales* in it, you can search the term *sales*. The
+  application returns all folders with the word *sales* in their
+  name.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/search_0.png" width="643" height="169" />
 
@@ -165,14 +178,14 @@ You can find a specific folder in the following ways:
 You can edit the mail settings for a folder by performing the following
 steps:
 
-1.  Click on the gear icon next to the folder name.
-2.  From the menu, select **Edit Email Settings**.
-3.  If you want to mail-enable the folder, select the **Enabled**
-    check box.
-4.  Specify or edit the display name.
-5.  Specify or edit the email address for the folder.
-6.  Select or edit the reply-to address.
-7.  Click **Save**.
+1. Click on the gear icon next to the folder name.
+2. From the menu, select **Edit Email Settings**.
+3. If you want to mail-enable the folder, select the **Enabled**
+   check box.
+4. Specify or edit the display name.
+5. Specify or edit the email address for the folder.
+6. Select or edit the reply-to address.
+7. Click **Save**.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cupcakesandkittens_a.png" width="583" height="315" />
 
@@ -192,5 +205,5 @@ permission levels:
 
 - Any user on the domain can create and delete their own items only,
   but they cannot modify any items.
-- Public folder admins can add, delete, and modify any content by any
+- Public folder administrators can add, delete, and modify any content by any
   user.
