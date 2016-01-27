@@ -1,6 +1,6 @@
 ---
 node_id: 4980
-title: Cloud Files FAQ
+title: Cloud Files - FAQs
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
@@ -98,9 +98,7 @@ First you must make sure you have generated a valid API Access Key. Then
 you can use either the Cloud Files user interface in the Rackspace Cloud
 Control Panel or one of our programming interfaces.
 
-Please see the [How do I use Cloud Files and
-CDN?](/how-to/getting-started-with-cloud-files-and-cdn-0/)
-Knowledge Center article for more details.
+See [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn-0/) for more details.
 
 #### Where can I find Cloud Files documentation?
 
@@ -394,7 +392,7 @@ platform.
 
 No, all customers facing API calls will remain the same.
 
-#### What Are The Benefits Of Using a CDN?
+#### What are the benefits Of using a CDN?
 
 -   Higher capacity and scale- Strategically placed servers increase the
     network backbone capacity and number of concurrent users handled.
@@ -420,7 +418,7 @@ No, all customers facing API calls will remain the same.
     delivery and network load. They can optimize capacity per customer,
     provide views of real-time load and statistics, reveal which assets
     are popular, show active regions and report exact viewing details to
-    customers
+    customers.
 
 #### What is a CDN?
 
@@ -534,27 +532,27 @@ directly with the Cloud Files API. Use the following steps:
 
 1.  Upload the segments:
 
-    curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
-    http://&lt;storage\_url&gt;/container/myobject/1 --data-binary '1'
-
-    curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
-    http://&lt;storage\_url&gt;/container/myobject/2 --data-binary '2'
-
-    curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
-    http://&lt;storage\_url&gt;/container/myobject/3 --data-binary '3'
+        curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
+        http://&lt;storage\_url&gt;/container/myobject/1 --data-binary '1'
+        
+        curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
+        http://&lt;storage\_url&gt;/container/myobject/2 --data-binary '2'
+        
+        curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
+        http://&lt;storage\_url&gt;/container/myobject/3 --data-binary '3'
 
 2.  Create the manifest file:
 
-    curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
-
-    -H 'X-Object-Manifest: container/myobject/' \\
-    http://&lt;storage\_url&gt;/container/myobject --data-binary ''
+        curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
+        
+        -H 'X-Object-Manifest: container/myobject/' \\
+        http://&lt;storage\_url&gt;/container/myobject --data-binary ''
 
 3.  Download the segments as a single object:
 
-    curl -H 'X-Auth-Token: &lt;token&gt;' \\
-
-    http://&lt;storage\_url&gt;/container/myobject
+        curl -H 'X-Auth-Token: &lt;token&gt;' \\
+        
+        http://&lt;storage\_url&gt;/container/myobject
 
 #### When should I use the Swift tool instead of the API, and what is the process?
 

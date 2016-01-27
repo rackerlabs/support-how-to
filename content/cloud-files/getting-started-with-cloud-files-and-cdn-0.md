@@ -1,6 +1,6 @@
 ---
 node_id: 5122
-title: Cloud Files and CDN
+title: Getting started with Cloud Files and CDN
 type: article
 created_date: '2016-01-14'
 created_by: Stephanie Fillmon
@@ -35,7 +35,7 @@ The basics of Cloud Files include:
     Control Panel or language-specific programming interfaces
 
 For more details, see the [Cloud Files Key
-Concepts](/how-to/frequently-asked-question/cloud-files-key-concepts).
+Concepts]( https://support.rackspace.com/how-to/cloud-files-key-concepts/).
 
 What is the CDN?
 ----------------

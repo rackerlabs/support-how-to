@@ -27,10 +27,7 @@ There is a difference in the pseudo streaming and what Akamai offers with their 
 
 > The encoder (or a separate segmented process) will produce H.264/AAC content in a sequent of small content segments, in MPEG-2 TS format (.ts). There is also a m3u8 index file that references these segments; in the case of live content the M3U8 is continuously updated to reflect the latest content.
 
-More information is available at the following links:
-
--   [http://developer.apple.com/library/ios/\#technotes/tn2224/\_index.html](http://developer.apple.com/library/ios/#technotes/tn2224/_index.html)
--   [http://www.akamai.com/dl/akamai/iphone\_wp.pdf](http://www.akamai.com/dl/akamai/iphone_wp.pdf)
+More information is available at [http://developer.apple.com/library/ios/\#technotes/tn2224/\_index.html](http://developer.apple.com/library/ios/#technotes/tn2224/_index.html).
 
 #### Supported formats/codecs
 

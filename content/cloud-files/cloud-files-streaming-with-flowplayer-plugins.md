@@ -36,9 +36,9 @@ Just follow these steps:**
 
 1.  Upload all the FlowPlayer components to a container.
 2.  Call the flowplayer.js file using a &lt;script&gt; tag to include it
-    in the HTML
-3.  Link the flowplayer.css stylesheet for the Player frame
-4.  Make any config changes to the flowplayer object
+    in the HTML.
+3.  Link the flowplayer.css stylesheet for the Player frame.
+4.  Make any config changes to the flowplayer object.
 5.  Add in the swf player object and the player controls swf object and
     set the src for the video.
 
