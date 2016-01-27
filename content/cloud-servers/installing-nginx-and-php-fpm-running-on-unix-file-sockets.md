@@ -40,4 +40,4 @@ kevin    17100  \_ php-fpm: pool rackerua
 
 ### Next steps
 
-[Installing NGINX and PHP-FPM - Preface](/knowledge_center/article/installing-nginx-and-php-fpm-preface)
+[Installing NGINX and PHP-FPM - Preface](/how-to/installing-nginx-and-php-fpm-preface)

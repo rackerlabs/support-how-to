@@ -73,12 +73,12 @@ and selecting **Cloud Sites**.
 
 5.  Verify that logging is turned on. For instructions, see [Enable raw
     logging for a Cloud Sites
-    website](/how-to/enabling-raw-logging-for-a-cloud-sites-website "/knowledge_center/index.php/Enabling_logging_for_a_website").
+    website](/how-to/enabling-raw-logging-for-a-cloud-sites-website "/how-to/enabling-raw-logging-for-a-cloud-sites-website").
 6.  Upload the two files created to the main directory of the website
     using FTP: For instructions, see [Uploading your
-    content](/how-to/getting-started-with-cloud-sites-uploading-your-content "/knowledge_center/index.php/Uploading_content_to_a_website_using_FTP").
+    content](/how-to/getting-started-with-cloud-sites-uploading-your-content "/how-to/getting-started-with-cloud-sites-uploading-your-content").
 7.  Navigate to the **First\_asp\_page.asp** file by using the Testing
     URL if necessary. For instrutions, see [Use a staging
-    URL](/how-to/using-a-staging-url "/knowledge_center/index.php/Using_a_staging_URL").
+    URL](/how-to/using-a-staging-url "/how-to/using-a-staging-url").
 
 

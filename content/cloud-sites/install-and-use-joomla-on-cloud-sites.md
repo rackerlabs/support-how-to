@@ -40,7 +40,7 @@ the domain **General Settings** tab.
 
 -   Upload the Joomla files to the desired location on the website using
     FTP - Refer to [Upload content to a website using
-    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/knowledge_center/index.php/Uploading_content_to_a_website_using_FTP")
+    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/how-to/getting-started-with-cloud-sites-uploading-your-content")
     -   To integrate Joomla to the root of domain (e.g.
         http://example.com/), place all contents of the unzipped Joomla
         directory (but excluding the directory itself) into the root
