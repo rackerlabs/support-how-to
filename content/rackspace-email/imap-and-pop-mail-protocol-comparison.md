@@ -28,8 +28,7 @@ settings](/how-to/rackspace-email-and-hosted-exchange-settings).
 -   Microsoft Exchange users normally access their mailbox data via the
     Exchange server rather than using a POP or IMAP connection.
 
-IMAP
-----
+### IMAP
 
 When you check your email with an IMAP connection, you are accessing and
 managing your email directly from the email server. Following are
@@ -39,7 +38,7 @@ some features of IMAP:
     access and manage your email and email folders from multiple
     computers or mobile devices.
 
--   **New Items:** IMAP utilizes "fetch" technology. When a new email
+-   **New Items:** IMAP uses "fetch" technology. When a new email
     arrives, your email client will fetch new messages at defined
     time intervals.
 
@@ -59,8 +58,7 @@ email on your computer, rather than storing it on the email server (as
 it should with an IMAP connection). You might need to map your email
 folders within your email client.
 
-POP
----
+### POP
 
 When you check your email with a POP connection, new email messages are
 downloaded to your computer and are then deleted from the email
@@ -69,7 +67,7 @@ server. Following are some features of POP:
 -   **Access:** Because your email is stored on your computer, you must
     be at your computer to access your email.
 
--   **New Items:** POP utilizes "fetch" technology. When a new email
+-   **New Items:** POP uses "fetch" technology. When a new email
     arrives, your email client will fetch new messages at defined
     time intervals.
 
@@ -84,18 +82,20 @@ server. Following are some features of POP:
     download your email, but you can view your downloaded email offline
     (that is, without an Internet connection).
 
-Mobile Sync
------------
+### Mobile Sync
 
 When you check your email using Mobile Sync, you are accessing and
 managing your email directly from the email server using Microsoft
-ActiveSync technology. Following are some features of Mobile Sync:
+ActiveSync technology. Following are some features of Mobile Sync.
+
+**Note**: This service is an additional fee and enabled by your email
+administrator. For more information, see <http://www.rackspace.com/blog/mobile-sync-for-rackspace-webmail-take-your-webmail-with-you-anywhere>.
 
 -   **Access**: Because emails are stored on the email server, you can
     access and manage your email and email folders from multiple
     computers or mobile devices.
 
--   **New Items:** Mobile Sync utilizes "push" technology. When a new
+-   **New Items:** Mobile Sync uses "push" technology. When a new
     email arrives, the email is pushed to your device instantly.
 
 -   **Storage**: If you have limited online storage space, you might
@@ -106,10 +106,5 @@ ActiveSync technology. Following are some features of Mobile Sync:
     accidentally delete an email, your email administrator can retrieve
     it, even up to 14 days later.
 
--   **Internet** **Connection**: You must have an internet connection to
+-   **Internet** **Connection**: You must have an Internet connection to
     access your email.
-
-**Note**: This service is an additional fee and enabled by your email
-administrator. For more information,
-see <http://www.rackspace.com/blog/mobile-sync-for-rackspace-webmail-take-your-webmail-with-you-anywhere>/.
-
