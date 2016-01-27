@@ -1,327 +1,126 @@
 ---
 node_id: 1408
-title: IMAP/POP To Exchange
+title: 'Transfer data from IMAP or POP to Exchange'
 type: article
 created_date: '2012-05-24'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-<div>
+Your previous email system may have used Internet Message Access Protocol (IMAP)
+or Post Office Protocol (POP).
+You can transfer
+your IMAP or POP data into your new Rackspace Microsoft Exchange
+account. To do that, choose the protocol you are transferring from and follow
+those instructions below.
 
-<div>
+### Transfer from IMAP to Exchange
 
-<span><span><span>The following article will demonstrate how to transfer
-your current IMAP or POP Data into your new Rackspace Microsoft Exchange
-account. Let's take at look at the procedure below:</span></span></span>
+This is how to transfer
+your IMAP data into your new Rackspace Microsoft Exchange
+account:
 
-</div>
+1. First, download all
+   your email data from your IMAP account. To do this, select
+   **Tools**, scroll down to **Send/Receive**, **Send/Receive
+   Settings** and then select **Define Send/Receive
+   Groups**.
 
--   <span>[<span><span>IMAP To Exchange</span></span>](#IMAP)</span>
--   <span>[<span><span>Pop To Exchange</span></span>](#POP)</span>
+2. Next, select the group that contains your IMAP
+   account, and then select **Edit**. Under **Accounts**, select your
+   IMAP account.
 
-<div>
+3. In the list, select the check box for each folder
+   you want to include when checking e-mail, and then select **Download
+   complete item including attachments**.
 
-<span><span><span><span></span></span></span></span>
+4. Next, from your **Folder List**, right-click
+   on **Personal Folders**, select **Properties **and then
+   the **Advanced** button.
 
-</div>
+   ![](http://c15047832.r32.cf2.rackcdn.com/1.png)
 
-<div>
+5. Highlight all the text in the **Filename** box to
+   copy the text and then select **Cancel**.
 
+   ![](http://c15047832.r32.cf2.rackcdn.com/three.png)
 
+   **Note:** Paste your copied text into a Notepad or Word
+   document since you will need this text in a later step.
 
-</div>
+6. Select **Import from another program or file**,
+   and then select the **Next** button. Next, select **Personal Folder
+   File** (.pst), and then select
+   the **Next** button.
 
-### <span><span><span><span>IMAP To Exchange</span></span></span></span>
+   ![](http://c15047832.r32.cf2.rackcdn.com/5.png)
+   ![](http://c15047832.r32.cf2.rackcdn.com/6.png)
 
-<div>
+7. In the **File to Import** box, paste the path to
+   your .pst file an select the **Next** button.
 
+   ![](http://c15047832.r32.cf2.rackcdn.com/7.png)
 
+8. Select the top folder you want to import, and be
+   sure to select the **Include
+   subfolders** box. Next,
+   select the **Import items into the same folder** button and in
+   the drop-down box, select the Exchange mailbox into which you want
+   to import your data to and then
+   select **Finish**.
 
-</div>
+   ![](http://c15047832.r32.cf2.rackcdn.com/10.png)
 
-1.  <div>
+**Note:** Your
+import may take some time to finish depending on the size of the .PST file.
 
-    <span><span><span><span>First we need to make sure we download all
-    your Email data from your IMAP account. To perform this select
-    </span>**Tools** , scroll down to **Send/Receive**, **Send/Receive
-    Settings** and then select **Define Send/Receive
-    Groups**.</span></span></span>
+### Transfer from POP to Exchange
 
-    </div>
+This is how to transfer
+your POP data into your new Rackspace Microsoft Exchange
+account:
 
-<!-- -->
+1. From the **Folder List**, right-click
+   on **Personal Folders**, select **Properties** and then
+   the **Advanced** button.
 
-2.  <div>
+   ![](http://c15047832.r32.cf2.rackcdn.com/1.png)
 
-    <span><span><span>Next, select the group that contains your IMAP
-    account, and then select **Edit**. Under **Accounts**, select your
-    IMAP account.</span></span></span>
+2. Highlight all the text in the **Filename** box to
+   copy the text and then select **Cancel**.
 
-    </div>
+   ![](http://c15047832.r32.cf2.rackcdn.com/three.png)
 
-3.  <div>
+   **Note:** Paste your copied text into a Notepad or Word
+   doc since you will need this text in a future step.
 
-    <span><span><span>In the list, select the check box for each folder
-    you want to include when checking e-mail, and then select **Download
-    complete item including attachments**.</span></span></span>
+3. Select **Import from another program or file**,
+   and then select the **Next** button. Next, select **Personal Folder
+   File** (.pst), and then select
+   the **Next** button.
 
-    </div>
+   ![](http://c15047832.r32.cf2.rackcdn.com/5.png)
+   ![](http://c15047832.r32.cf2.rackcdn.com/6.png)
 
-4.  <span><span><span>Next, from your **Folder List**, right-click
-    on **Personal Folders**, select **Properties **and then
-    the **Advanced** button.</span></span></span>
+4. In the **File to Import** box, paste the path to
+   your .pst file an select the **Next** button.
 
-<div>
+   ![](http://c15047832.r32.cf2.rackcdn.com/7.png)
 
-![](http://c15047832.r32.cf2.rackcdn.com/1.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-5.  <span><span><span>Highlight all the text in the **Filename** box to
-    copy the text and then select **Cancel**.</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/three.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-*<span><span><span>Note: Paste your copied text into a Notepad or Word
-doc since you will need this text in Step 8.</span></span></span>*
-
-</div>
-
-6.  <span><span><span>Select **Import from another program or file**,
-    and then select the **Next** button. Next, select **Personal Folder
-    File** (.pst), and then select
-    the **Next** button.</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/5.png)
- ![](http://c15047832.r32.cf2.rackcdn.com/6.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-7.  <div>
-
-    <span><span><span>In the **File to Import** box, paste the path to
-    your .pst file an select the **Next **button.</span></span></span>
-
-    </div>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/7.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-8.  <span><span><span>Select the top folder you want to import, and be
-    sure to select the **Include
-    subfolders** box. </span></span></span><span><span><span>Next,
-    select the **Import items into the same folder** button and
-    </span></span></span><span><span><span><span>i</span></span></span><span><span>n
-    the drop-down box, select the Exchange mailbox into which you want
-    to import your data to and then
-    select **Finish.**</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/10.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-*<span><span><span>Note: </span></span></span><span><span><span>Your
+5. Select the top folder you want to import, and be
+   sure to select the **Include
+   subfolders** box. Next,
+   select the **Import items into the same folder** button
+   and in
+   the drop-down box, select the Exchange mailbox into which you want
+   to import your data. Then
+   select **Finish**.
+
+   ![](http://c15047832.r32.cf2.rackcdn.com/10.png)
+
+**Note:** Your
 import may take some time to finish depending on the size of the .PST
-File.</span></span></span>*
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-<span><span><span><span></span></span></span></span>
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-<span><span><span><span>Pop To Exchange</span></span></span></span>
-
-</div>
-
-<div>
-
-<div>
-
-<span><span><span>In this Section, we'll show you how to migrate your
-POP Email data to your Exchange Account. Let's take a
-look:</span></span></span>
-
-</div>
-
-
-
-1.  <span><span><span>Firom the **Folder List**, right-click
-    on **Personal Folders**, select **Properties **and then
-    the **Advanced** button.</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/1.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-5.  <span><span><span>Highlight all the text in the **Filename** box to
-    copy the text and then select **Cancel**.</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/three.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-*<span><span><span>Note: Paste your copied text into a Notepad or Word
-doc since you will need this text in Step 8.</span></span></span>*
-
-</div>
-
-6.  <span><span><span>Select **Import from another program or file**,
-    and then select the **Next** button. Next, select **Personal Folder
-    File** (.pst), and then select
-    the **Next** button.</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/5.png)
- ![](http://c15047832.r32.cf2.rackcdn.com/6.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-7.  <div>
-
-    <span><span><span>In the **File to Import** box, paste the path to
-    your .pst file an select the **Next **button.</span></span></span>
-
-    </div>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/7.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-8.  <span><span><span>Select the top folder you want to import, and be
-    sure to select the **Include
-    subfolders** box. </span></span></span><span><span><span>Next,
-    select the **Import items into the same folder** button
-    and </span></span></span><span><span><span><span>i</span></span></span><span><span>n
-    the drop-down box, select the Exchange mailbox into which you want
-    to import your data to and then
-    select **Finish.**</span></span></span>
-
-<div>
-
-![](http://c15047832.r32.cf2.rackcdn.com/10.png)
-
-</div>
-
-<div>
-
-
-
-</div>
-
-<div>
-
-*<span><span><span>Note: </span></span></span><span><span><span>Your
-import may take some time to finish depending on the size of the .PST
-File.</span></span></span>*
-
-</div>
-
-</div>
-
-</div>
-
+File.
