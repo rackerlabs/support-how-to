@@ -4,13 +4,13 @@ title: Manage public folders in the control panel for Hosted Exchange 2007 and 2
 type: article
 created_date: '2014-12-12'
 created_by: Theresa Kinney
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-You can now add public folders to your Hosted Microsoft Exchange 2007 or
+You can add public folders to your Hosted Microsoft Exchange 2007 or
 2010 domain. Each Exchange domain is allotted 25 folders, with up to 250
 MB of storage per folder. You can manage your public folders within the
 [Cloud Office Control
@@ -26,23 +26,7 @@ public folders.
 This article provides information and instructions for working with
 public folders in the Cloud Office Control Panel:
 
--   [Public folder list](#Publicfolderlistings)
--   [Manage your public folders](#Managepublicfolders)
-    -   [Create a new folder](#createnewfolder)
-    -   [Delete a folder](#deleteafolder)
-    -   [Bulk-delete](#bulkfolderdelete)[folders](#bulkfolderdelete)
-    -   [Rename a folder](#folderrename)
--   [View and creat subfolders](#publicfolderchildsubfolderview)
-    -   [Create a subfolder from public Folders
-        page](#ceatesubfolderfrompubliclisting)
-    -   [Create a subfolder from the subfolder list page
-         ](#createsubfolderfromchildsublisting)
-    -   [Search for a specific folder or
-        subfolder](#searchforfolderorsub)
--   [Edit mail settings](#editmailsettings)
-
-**Public folder list**
---------------------------
+###List public folders
 
 When you click on **Folders**, a page that lists all of your public
 folders is displayed.
@@ -57,7 +41,7 @@ folders that you have created:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Basic_a.png" height="250" />
 
-### **Manage your public folders**
+### Manage public folders
 
 You click the gear icons on the Public Folders page to manage your
 folders. Clicking the gear icon displays a menu from which you can
@@ -66,7 +50,7 @@ delete a specific folder. Additionally, on this page you can bulk delete
 folders, create new folders, and manage different components of the
 folder.
 
-### **Create a new folder**
+### Create public folder
 
 As an admin, you can create a new folder by performing the following
 steps:
@@ -83,16 +67,16 @@ steps:
 8.  Click **Save** to create the folder.
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Create_a.png" height="250" />
 
-### **Delete a Folder**
+### Delete public folder
 
-1.  In the list on the Folders page, click the gear icon next to the
+1.  In the list on the **Folders** page, click the gear icon next to the
     folder that you want to delete.
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/delete_a.png" height="250" />
 2.  From the menu, select **Delete**.
 3.  In the confirmation pop up box, click **Delete Folder**, to
     permanently delete the folder.
 
-### **Bulk-delete folders**
+### Bulk-delete public folders
 
 From the list of public folders, you can delete multiple folders at once
 (bulk delete).
@@ -109,7 +93,7 @@ From the list of public folders, you can delete multiple folders at once
 3.  In the confirmation popup box, click **Delete Folders** to
     permanently delete the selected folders.
 
-### **Rename a folder**
+### Rename public folder
 
 1.  In the list of folders on the Folders page, click the gear icon next
     to the folder that you want to rename.
@@ -117,7 +101,7 @@ From the list of public folders, you can delete multiple folders at once
 3.  Click **Rename**.
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rename_a.png" height="250" />
 
-### **View and create subfolders (child folders)**
+### View and create subfolders (child folders)
 
 The option to expand folders to see their child folders, or
 **subfolders**, has changed. To view the subfolders that have been
@@ -126,30 +110,26 @@ All of the subfolders nested under the parent folder are displayed. The
 folder path is shown as a breadcrumb trail along the top of Folders
 page. The path is listed as ***domain* &gt; root &gt; *parentFolder***,
 and the page you are on is the subfolder list. See the following
-example.
+example:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/child%20subfolder.png" width="500" />
 
-You can crat a subfolder in the following ways:
+You can create a subfolder in several ways:
 
--   From the main (or parent) Folders page
--   By clicking the parent's folder and creating a subfolder from the
-    subfolder list page
-
-### **Create a subfolder from the parent folder's page**
+#### Create a subfolder from the parent folder's page
 
 1.  Click the gear icon next to the folder for which you want to
     create subfolders.
 2.  Click **Create Subfolder**.
 3.  In the **Folder Name** field, specify a name for the subfolder.
 4.  Select the type of folder.
-5.  To mail-enable the folder, select the **Enabled **check box.
+5.  To mail-enable the folder, select the **Enabled** check box.
 6.  Specify or edit the display name.
 7.  Specify or edit the email address for the folder.
 8.  Select or edit the reply-to address.
 9.  Click **Save** to create the folder.
 
-#### **Create a subfolder from public folder listing page**
+#### Create a subfolder from the public folder listing page
 
 1.  Click the gear icon.
 2.  Click **Create Subfolder**.
@@ -158,7 +138,7 @@ You can crat a subfolder in the following ways:
 5.  Select whether or not this will be a mail enabled folder.
 6.  Click **Save** to create the folder.
 
-#### **Create a subfolder from the subfolder list page**
+#### Create a subfolder from the subfolder listing page
 
 1.  In the folder list, click the name of the folder for which you want
     to create a subfolder.
@@ -166,26 +146,26 @@ You can crat a subfolder in the following ways:
 2.  Click **Create Subfolder**.
 3.  In the **Folder Name** field, specify a name for the subfolder.
 4.  Select the type of folder.
-5.  To mail-enable the folder, select the **Enabled **check box.
+5.  To mail-enable the folder, select the **Enabled** check box.
 6.  Click **Save** to create the folder.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/subfolders2_a.png" height="250" />
 
-#### **Search for a specific folder or subfolder**
+#### Search for a specific folder or subfolder
 
 You can find a specific folder in the following ways:
 
--   Follow the folder path to the folder.
--   If you know all or part of the folder&rsquo;s name but do not know its
-    path (for example, its parent folder&rsquo;s name), you can search for it
-    by using the Search Folders box. For example, if you have a
-    subfolder caller **Sales Force** but you can recall only that it has
-    the word *sales* in it, you can search the term *sales*. The
-    application returns all folders with the word *sales* in their name.
+- Follow the folder path to the folder.
+- If you know all or part of the folder&rsquo;s name but do not know its
+  path (for example, its parent folder&rsquo;s name), you can search for it
+  by using the **Search Folders** box. For example, if you have a
+  subfolder called **Sales Force** but you can recall only that it has
+  the word *sales* in it, you can search for the term *sales*. The
+  application returns all folders with the word *sales* in their name.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/search.png" width="500" />
 
-### **Edit Mail Settings**
+### Edit mail settings
 
 You can edit the mail settings for a folder by performing the following
 steps.
@@ -193,7 +173,7 @@ steps.
 1.  Click the gear icon next to the folder name.
 2.  From the menu, select **Edit Email Settings**.
 3.  If you want to mail-enable the folder, select
-    the **Enabled **check box.
+    the **Enabled** check box.
 4.  Specify or edit the display name.
 5.  Specify or edit the email address for the folder
 6.  Select or edit the reply-to address.
@@ -201,6 +181,5 @@ steps.
 
 ### Where to go from here
 
-[Working with public folders through Outlook for Exchange 2007 and
-2010](/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010)
-
+See [Working with public folders through Outlook for Exchange 2007 and
+2010](/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010).
