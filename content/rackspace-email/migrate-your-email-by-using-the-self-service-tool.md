@@ -13,7 +13,7 @@ product_url: rackspace-email
 This article demonstrates how to use the Self-Service Migration Tool
 provided in the Cloud Office Control Panel to copy email data from your
 previous provider to Rackspace Email or Microsoft Exchange. The
-Self-Service MIgration Tool uses our private-label version of
+Self-Service Migration Tool uses our private-label version of
 MigrationWiz, which you can run at any time at no additional cost.
 
 **Note**: Some of the features that are present in the full version of
@@ -22,8 +22,7 @@ Self-Service Migration Tool. If you want to use the full version, see
 [Accessing the Full Version of
 MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
 
-Premigration steps
-------------------
+### Premigration steps
 
 Before you begin your migration, you need to create your mailboxes on
 the Rackspace environment. The migration tool does not create your
@@ -41,19 +40,14 @@ the Rackspace environment. The migration tool requires that you enter
 this information.
 
 To ensure that mail is routed properly to your new mailboxes, you must
-update the MX records for your domain.  The following article provides
-you with the appropriate DNS records:
-
-[Set up DNS records for Cloud Office email and Skype for
+update the MX records for your domain. The following article provides
+you with the appropriate DNS records: [Set up DNS records for Cloud Office email and Skype for
 Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 To configure your email clients and mobile devices, you can use our
-Email Setup Assistant:
+Email Setup Assistant: <http://emailhelp.rackspace.com>
 
-<http://emailhelp.rackspace.com>
-
-To migrate your email
----------------------
+### To migrate your email
 
 1.  Log in to your control panel.
 2.  To create your self-service migration portal, click **Get Started
@@ -90,10 +84,10 @@ To migrate your email
 5.  Click **Next**.
 6.  Enter your source and destination server configuration settings.
 
-    A.  Select the source server system type and enter the
+    -  Select the source server system type and enter the
         server address. For IMAP, you must also enter a port number.
         IMAP ports are 993 (secure) and 143 (non-secure).
-    B.  For the destination server, select the service that you are
+    -  For the destination server, select the service that you are
         migrating to, Rackspace Email or Microsoft Exchange 2013, and
         then click **Next**.
 
@@ -141,6 +135,3 @@ To migrate your email
     new project, click **Start a new migration**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/15-2_0.png" width="450" height="243" />
-
-
-
