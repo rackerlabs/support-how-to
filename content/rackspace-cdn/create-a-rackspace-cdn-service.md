@@ -23,7 +23,7 @@ URL you need to use to create your CNAME record.
 
 1\. Click **Create Service**. A popup dialog box is displayed. (Pricing
 information is displayed under the drop down menu in the following
-figure. To get pricing information, click the dollar sign (\\\$) icon.)
+figure. To get pricing information, click the dollar sign ($) icon.)
 
 <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-15%20at%201.29.00%20PM.png" width="391" height="192" />
 
