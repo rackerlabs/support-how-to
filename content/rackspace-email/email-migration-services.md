@@ -10,31 +10,20 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-We offer a number of Email Migration services to our customers at no
+We offer a number of email migration services to our customers at no
 charge. Our team of email migration experts are here to help you in case
 you have any questions or concerns.
 
-### **Contents**
+### External migration services
 
--   [External migration services](#Externalmigrations)
--   [Rackspace archive services](#Rackspacearchives)
--   [Internal migration services](#Internalmirgrations)
-
-### **External migration services**
-
-Are you a new customer and require email data to be migrated from
-another provider? Well you&rsquo;re in luck! We've partnered with a 3^rd^
-party company called MigrationWiz in order to provide 2 migration
+If you are a new customer and require email data to be migrated from another provider, we can help. We've partnered with a third-party company called MigrationWiz to provide two migration
 support options to make your transition as easy as possible.
 
-#### **Option 1: Self-service migration**
+#### Option 1: Self-service migration
 
-Run your migration at any time of the day or night with our easy to use
-version of MigrationWiz! Available directly from your Cloud Office
-Control Panel. [Click Here to
-Begin!](https://cp.rackspace.com/Domains/Tools/Migrations)
+Run your migration at any time of the day or night with MigrationWiz, which is available from the Cloud Office Control Panel. [Click here to begin](https://cp.rackspace.com/Domains/Tools/Migrations).
 
-**Benefits of using the self-service tool:**
+The benefits of using the self-service tool are as follows:
 
 -   Migrate from any provider to Hosted Exchange or Rackspace Email
 -   Includes a no-cost trial migration
@@ -44,19 +33,18 @@ Begin!](https://cp.rackspace.com/Domains/Tools/Migrations)
 -   Direct access to view your migration status with the click of a
     button
 -   Can be accessed from any Internet browser
--   24/7 Fanatical Support provided by a team of email experts
+-   24x7 ***Fanatical Support***<sup>&reg;</sup> provided by a team of email experts
 
-####
-**Option 2: Assisted migration**
+#### Option 2: Assisted migration
 
-Assisted Migrations are ideal for companies in need of consulting,
-planning and scheduling a migration project. Our Assisted Migration
+Assisted migrations are ideal for companies that need help consulting,
+planning, and scheduling a migration project. Our assisted migration
 service will provide you with peace of mind knowing that your migration
 is being coordinated by the best team of email migration experts. [Click
-Here to Request an Assisted
-Migration!](https://cp.rackspace.com/Domains/Tools/Migrations/Assisted)
+here to request an assisted
+migration](https://cp.rackspace.com/Domains/Tools/Migrations/Assisted).
 
-**Benefits of choosing an assisted migration:**
+The benefits of choosing an assisted migration are as follows:
 
 -   A migration specialist dedicated to your project
 -   A custom migration plan based on consultation with your specialist
@@ -65,12 +53,12 @@ Migration!](https://cp.rackspace.com/Domains/Tools/Migrations/Assisted)
 -   Documentation and recommendations on managing the migration for your
     end-users
 
-\*\* Assisted Migrations are a partnership between your company and our
+Assisted Migrations are a partnership between your company and our
 team of experts. Throughout the process we will require some action and
-information from you\*\*
+information from you.
 
 Migrations vary based on the type of mailboxes we are migrating to and
-from. Please see the chart below for a list of what will migrate using
+from. See the following chart for a list of what will migrate using
 our services.
 
 | Current Service    | Rackspace service | Mail inbox | Mail subfolders | Contacts | Calendar | Tasks | Notes |
@@ -79,22 +67,16 @@ our services.
 | IMAP               | X                 | X          | X               |          |          |       |       |
 | Microsoft Exchange | X                 | X          | X               | X        | X        | X     | X     |
 
+### Rackspace archive services
 
+-   Rackspace archive imports
+    -   $6 per GB via FTP
 
+-   Rackspace archive exports
+    -   $6 per GB EML format
+    -   $9 per GB PST format
 
-
-### **Rackspace archive services**
-
--   **Rackspace archive imports**
-    -   \$6 per GB via FTP
-
-<!-- -->
-
--   **Rackspace archive exports**
-    -   \$6 per GB EML format
-    -   \$9 per GB PST format
-
-### **Internal migration services**
+### Internal migration services
 
 Do you have an employee who is going through a name change and needs an
 email account renamed? Does your company need a domain rename? Do you
@@ -149,4 +131,3 @@ submit a request via a ticket and we'll take care of the rest.
 
 **Note**: Charges for internal migration services are applied to the
 next month's statement.
-

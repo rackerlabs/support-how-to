@@ -3,8 +3,8 @@ title: Microsoft Skype for Business
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-01-17'
-last_modified_by: Rackspace Support
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
@@ -15,7 +15,6 @@ product_url: skype-for-business
 
 ###  Skype for Business setup articles
 
-- [Microsoft Skype for Business at Rackspace: Compare the Standard and Enterprise licenses](/how-to/microsoft-lync-at-rackspace-compare-the-standard-and-enterprise-licenses)
 - [Hosted Microsoft Skype for Business deployment guide](/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide)
 - [Set up DNS records for email and Hosted Microsoft Skype for Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
@@ -25,7 +24,7 @@ product_url: skype-for-business
 
 ###  Set up a client
 
-- [Help Tool for hosted Email and Microsoft Skype for Business](/how-to/help-tool-for-hosted-email-and-skype-for-business)
+- [Help tool for hosted Email and Microsoft Skype for Business](/how-to/help-tool-for-hosted-email-and-skype-for-business)
 
 ###  Frequently asked questions
 

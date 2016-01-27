@@ -36,8 +36,7 @@ owner account, you can use the following command:
 
     ALTER USER [123456_olduser] WITH LOGIN = [123456_newlogin]
 
-Remap database users to logins
-------------------------------
+### Remap database users to logins
 
 1.  To manage your SQL Server database, [log in to the online
     manager (myLittleAdmin)](/how-to/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface "Working with a MSSQL database").

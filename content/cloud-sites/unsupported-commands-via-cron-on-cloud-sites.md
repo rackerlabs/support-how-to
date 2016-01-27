@@ -10,14 +10,12 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-Unsupported commands via CRON
------------------------------
+### Unsupported commands via CRON
 
 To protect the integrity of the Rackspace Cloud Sites platform, we have
 limited the ability to run some commands via CRON.
 
-Commands:
----------
+### Commands:
 
 -   crontab
 -   df

@@ -1,18 +1,16 @@
 ---
 node_id: 3508
-title: 'Cloud Storage App for Microsoft SharePoint: How to Share a File with Another Person'
+title: 'Cloud Storage App for Microsoft SharePoint: How to share a file with another person'
 type: article
 created_date: '2013-06-04'
 created_by: Rose Contreras
-last_modified_date: '2016-01-07'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
 
-### Previous section
-
-[Cloud Storage App for Microsoft SharePoint:
+**Previous section:** [Cloud Storage App for Microsoft SharePoint:
 Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
 
 The Rackspace Cloud Files platform enables you to generate temporary
@@ -21,8 +19,7 @@ Cloud Files account for the amount of time that you specify. The
 Rackspace Cloud Storage App for Microsoft SharePoint implements this
 functionality.
 
-Generating a temporary URL
---------------------------
+### Generating a temporary URL ###
 
 1.  Within the app, navigate to a container.
 
@@ -41,10 +38,7 @@ You can then copy the link from the text box and send it to anyone with
 whom you want to share the file. When a browser navigates to the
 provided URL, the user is prompted to download the associated file.
 
-Where to go from here
----------------------
+**Where to go from here**
 
-The last topic in the **Cloud Storage App for Microsoft SharePoint**
-series describes [How to Remove Your Credentials from the
-App](/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app).
-
+The last topic describes [How to remove your credentials from the
+app](/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app).

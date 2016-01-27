@@ -73,28 +73,28 @@ jwplayer.js file.
 For this step, you need the link to the jwplayer.js file you uploaded in
 the above instructions. To get the link from *New Cloud Control Panel*:
 
-1.  Open the container where you uploaded the plugin (Step 4 above).
-2.  Locate the jwplayer.js file in the Object List.
-3.  Click the gear icon next to the plugin file.
-4.  Click "View All Links".
-5.  Copy the link makred "HTTP".
-6.  Replace "/path/to/jwplayer.js" in the text below with the link
+-   Open the container where you uploaded the plugin (Step 4 above).
+-   Locate the jwplayer.js file in the Object List.
+-   Click the gear icon next to the plugin file.
+-   Click "View All Links".
+-   Copy the link makred "HTTP".
+-   Replace "/path/to/jwplayer.js" in the text below with the link
     you copied.
 
- Enter this SCRIPT to the HEAD of your HTML page, substituting in the
+2\. Enter this SCRIPT to the HEAD of your HTML page, substituting in the
 link to your jwplayerjs file:
 
 ``` {.MsoNormal}
 <script type="text/javascript" src="/path/to/jwplayer.js"></script>
 ```
 
-2\. Add a DIV element to your HTML page with a unique ID attribute value,
+3\. Add a DIV element to your HTML page with a unique ID attribute value,
 such as &ldquo;player&rdquo;. The "Loading the player..." text is whatever text you
 would like to display while the player loads.
 
     <div id="player">Loading the player...</div>
 
-3\. Add a SCRIPT element right below the DIV you created in Step 2. This
+4\. Add a SCRIPT element right below the DIV you created in Step 2. This
 adds the JW Player and your media to your page.
 This SCRIPT uses the following options:
 

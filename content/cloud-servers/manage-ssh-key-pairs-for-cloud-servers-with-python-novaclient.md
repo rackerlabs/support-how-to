@@ -10,9 +10,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The SSH protocol for remotely connecting to servers supports the use of key pairs in place of password-based logins.  The private key is stored on the machine initiating the connection (usually a workstation), and the public key is stored in a user account on the remote server.  When a connection is attempted, the public and private keys are used together to authenticate the user.
+The SSH protocol for remotely connecting to servers supports the use of key pairs in place of password-based logins. The private key is stored on the machine initiating the connection (usually a workstation), and the public key is stored in a user account on the remote server. When a connection is attempted, the public and private keys are used together to authenticate the user.
 
-Key-pair authentication is more secure than password-based authentication.  If you regularly connect from the same machines, disabling password-based authentication via SSH and allowing only key pair authentication protects your server from brute-force login attempts.
+Key-pair authentication is more secure than password-based authentication. If you regularly connect from the same machines, disabling password-based authentication via SSH and allowing only key pair authentication protects your server from brute-force login attempts.
 
 For more information about using SSH to connect to servers, see the following articles:
 
@@ -26,21 +26,21 @@ You can also manage key pairs directly by using the [Cloud Servers API](http://d
 
 ### Prepare python-novaclient
 
-The instructions in this article assume that the python-nova client is installed and configured for use with Cloud Servers.  You can find detailed instructions for setting up the client in [Using python-novaclient with the Rackspace Cloud](/how-to/using-python-novaclient-with-the-rackspace-cloud).
+The instructions in this article assume that the python-nova client is installed and configured for use with Cloud Servers. You can find detailed instructions for setting up the client in [Using python-novaclient with the Rackspace Cloud](/how-to/using-python-novaclient-with-the-rackspace-cloud).
 
 ### Create a Key Pair
 
 The python-nova client's key pair support allows you to create or upload an existing key pair and associate it with a name you can then reference in build operations.
 
-You can create a new key pair by using the `keypair-add` command for `nova`.  You pass a name for the key pair as an argument.  The public key is then stored in your user profile via the API.  The output of the command is the private key.
+You can create a new key pair by using the `keypair-add` command for `nova`.  You pass a name for the key pair as an argument. The public key is then stored in your user profile via the API. The output of the command is the private key.
 
-For example, to create a key pair named "mykey" and output it to a file in the current user's .ssh directory, you can run:
+For example, to create a key pair named "mykey" and output it to a file in the current user's **.ssh** directory, you can run:
 
     nova keypair-add mykey > ~/.ssh/webserver_rsa
 
-Note that you can give the key file any name that you like and put it wherever you like, so long as you can find it later.  If you generate multiple keys for different servers, it can be convenient to name the key files after the servers.
+**Note**: You can give the key file any name that you like and put it wherever you like, so long as you can find it later. If you generate multiple keys for different servers, it can be convenient to name the key files after the servers.
 
-Only the public key is stored in your profile.  If you lose the private key you must generate a new key pair.
+Only the public key is stored in your profile. If you lose the private key you must generate a new key pair.
 
 ### Upload an Existing Key
 

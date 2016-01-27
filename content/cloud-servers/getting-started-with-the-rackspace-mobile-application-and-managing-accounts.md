@@ -24,14 +24,11 @@ across all regions.
 Download the Rackspace mobile application appropriate for your mobile
 device:
 
--   [Android
-    application](https://play.google.com/store/apps/details?id=com.rackspace.cloudmobile)
+-   [Android application](https://play.google.com/store/apps/details?id=com.rackspace.cloudmobile)
     from the Google Play Store
--   [iOS
-    application](https://itunes.apple.com/us/app/rackspace-cloud-control/id672443103?ls=1&mt=8)
+-   [iOS application](https://itunes.apple.com/us/app/rackspace-cloud-control/id672443103?ls=1&mt=8)
     from the Apple App Store
--   [Windows
-    8](http://apps.microsoft.com/windows/en-us/app/rackspace-cloud/fba5a14e-2ca2-4137-864f-31e40ba84e10)
+-   [Windows 8](http://apps.microsoft.com/windows/en-us/app/rackspace-cloud/fba5a14e-2ca2-4137-864f-31e40ba84e10)
     application from the Microsoft Apps store
 
 ### Getting Started
@@ -63,10 +60,7 @@ default configuration details.
 
 -   Tap on the Name field and enter your server name
 -   Tap on Region to select your Region
-
-<!-- -->
-
--   Once you return to the Select Options page, you will be able to
+-   After you return to the Select Options page, you will be able to
     select your Operating System type and version
 -   Select the flavor class you want for your server
 
@@ -88,28 +82,27 @@ green.
 On your server list, select the cloud server you want to manage. Once on
 your Server Details page you will be able to Rebuild, Reboot, and Rename
 your server.
-**Note**: If you need to changed the size of your server, see [Changing
-the size of your General Purpose Cloud
-Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
--   #### Rebuild
+**Note**: If you need to changed the size of your server, see [Changing the size of your General Purpose Cloud Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
-    -   Tap the Image button
-    -   You will be prompted to confirm the Rebuild
-        **NOTE**: Rebuilding your server will require a restart of your
-        system
--   #### Reboot
+#### Rebuild
 
-    -   Tap the Reboot button
-    -   You will be prompted to select Hard Reboot or Soft Reboot
+-  Tap the Image button
+-  You will be prompted to confirm the Rebuild
 
-        **NOTE**: Rebooting your server will require a restart of your
-        system
+**Note**: Rebuilding your server will require a restart of your system.
 
--   #### Rename
+#### Reboot
 
-    -   Tap the Rename button
-    -   You will be able to add in the new server name
+-  Tap the Reboot button
+-  You will be prompted to select Hard Reboot or Soft Reboot
+
+**Note**: Rebooting your server will require a restart of your system.
+
+#### Rename
+
+-  Tap the Rename button
+-  You will be able to add in the new server name
 
 ### IP Features on your Cloud Server
 
@@ -137,9 +130,8 @@ to update the password you use to access your server
     the account you want to remove. Once in the Sync Settings for the
     Rackspace application you can select "Remove Account".
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_2013-06-27-14-14-01_1.png)
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_2013-06-27-13-50-20_1.png)
-
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_2013-06-27-14-14-01_1.png)
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_2013-06-27-13-50-20_1.png)
 
 -   To delete an account from your **iOS** Rackspace mobile application,
     you will go to the Accounts page and swipe left-to-right on the
@@ -147,5 +139,4 @@ to update the password you use to access your server
     "Remove" button. Tap the "Remove" button and that account will not
     longer be synced to that mobile device.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0037_1.png)
-
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0037_1.png)

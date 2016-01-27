@@ -10,22 +10,19 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<span class="message_content">This article provides instructions for
-installing a LAMP (Linux, Apache, MySQL, PHP) stack on your server.
+This article provides instructions for installing a LAMP (Linux, Apache, MySQL, PHP) stack on your server.
 Linux (CentOS, Fedora, or Red Hat Enterprise Linux) is your operating
 system, and Apache is your web daemon, which serves information that is
 stored in your MySQL database through PHP scripting for your users. By
 the end of this article, you will have a fully operational LAMP server,
-ready to serve out multiple virtual hosts</span>.
+ready to serve out multiple virtual hosts.
 
-Prerequisites
--------------
+### Prerequisites
 
 -   Basic understanding of SSH.
--   Ability to copy and paste.
+-   A Cloud Server with CentOS 6, Fedora 21, or Red Hat Enterprise Linux 6.
 
-Install the LAMP stack
-----------------------
+### Install the LAMP stack
 
 Log on to your server via SSH and then complete the following steps for
 your preferred set up method.
@@ -73,8 +70,3 @@ steps.
 
 The installation is complete. To test it, browse to
 ***http://serverIpAddress/***.
-
-
-
-
-

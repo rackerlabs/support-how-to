@@ -10,21 +10,12 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-From the Administrators section of the control panel, you can manage
-your administrators' access and activity.
+From the Administrators section of the control panel, you can manage your administrators' access and activity.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SnapCrab_NoName_2014-3-26_13-13-24_No-00.png" width="250" height="122" />
+You can add multiple administrators with varying degrees of account access. There are Super, Standard, and Limited administrators. Limited administrators have access only to specifically assigned sections of the control panel. You can also monitor and export logs of all administrator logins and actions.
 
-You can add multiple administrators with varying degrees of account
-access. There are Super, Standard, and Limited administrators. Limited
-administrators only have access to specifically assigned sections of the
-control panel. You can also monitor and export logs of all administrator
-logins and actions.
+The following articles provide instructions for managing your administrators:
 
-The following articles provide instructions for managing your
-administrators:.
-
-[List and manage administrators](/how-to/manage-email-administrators-with-the-cloud-office-control-panel)
-[Administrator activity](/how-to/view-administrator-activity-in-the-cloud-office-control-panel)
-[API key management](/how-to/set-up-an-api-key-cloud-office-control-panel)
-
+- [Manage administrators](/how-to/manage-email-administrators-with-the-cloud-office-control-panel)
+- [View administrator activity](/how-to/view-administrator-activity-in-the-cloud-office-control-panel)
+- [Set up an API key](/how-to/set-up-an-api-key-cloud-office-control-panel)

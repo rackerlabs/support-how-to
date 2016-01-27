@@ -1,11 +1,11 @@
 ---
 node_id: 4897
-title: Getting Started with Rackspace Intelligence for dedicated accounts
+title: Getting started with Rackspace Intelligence for dedicated accounts
 type: article
 created_date: '2015-10-20'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---

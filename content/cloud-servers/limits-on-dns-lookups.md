@@ -23,7 +23,7 @@ By default, Rackspace does not limit traffic to our DNS servers, which
 can allow short-term "bursts" to occur.  However, if a consistent rate
 of more than 10 queries per second per host IP address (or 100 queries
 per second per lookup target per account) is sustained, Rackspace will
-limit this traffic to 10 queries per second.  In some circumstances,
+limit this traffic to 10 queries per second. In some circumstances,
 such as when a single large environment places excessive load on the DNS
 system, it might be necessary to impose a lower limit to protect
 Rackspace's shared infrastructure. Rackspace will determine such
@@ -31,8 +31,7 @@ circumstances at its sole discretion.
 
 If Rackspace determines that the traffic generated is malicious,
 Rackspace will block all DNS traffic to our DNS servers in order to
-protect our shared DNS infrastructure in accordance with [our
-AUP](http://www.rackspace.com/information/legal/aup) until the situation
+protect our shared DNS infrastructure in accordance with [our AUP](http://www.rackspace.com/information/legal/aup) until the situation
 is resolved.
 
 If your situation requires you to sustain recursive DNS lookup rates in
@@ -48,8 +47,5 @@ excess of the stated limits, consider the following options:
     be installed on an existing server or a dedicated system.
 -   Use a third-party resolver.
 -   If the lookups are for a small number of static names, you could use
-    a **hosts** file to create static local entries.  This option works
+    a **hosts** file to create static local entries. This option works
     well if a local service uses DNS to resolve another local service.
-
-
-

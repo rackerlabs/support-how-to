@@ -88,7 +88,7 @@ maintenance?
 
 
 
-#### Related Topics
+#### Related topics
 
 -   [Important scheduled maintenance: DFW environment
     migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)

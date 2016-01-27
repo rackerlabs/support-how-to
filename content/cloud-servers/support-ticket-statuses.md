@@ -23,7 +23,7 @@ statuses, depending on the work done on it:
 -   **Pending Customer**
 -   **Pending Vendor**
 -   **Pending Maintenance**
--   **Transferred **
+-   **Transferred**
 -   **Solved**
 -   **Closed**
 
@@ -51,10 +51,3 @@ statuses:
 9.  If a customer does not explicitly close or reopen a ticket with a
     **Solved** status, the ticket automatically goes to the **Closed**
     status in seven days.
-
-<div class="printfooter">
-
-
-
-</div>
-

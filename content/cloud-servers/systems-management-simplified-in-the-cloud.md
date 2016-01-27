@@ -1,6 +1,6 @@
 ---
 node_id: 1729
-title: 'Systems Management, Simplified in the Cloud'
+title: Systems Management, Simplified in the Cloud
 type: article
 created_date: '2012-07-27'
 created_by: Rackspace Support
@@ -22,7 +22,7 @@ through a single unified interface.
 enterprise customers and those new to the cloud; they also sought a
 stable and scalable platform for their own testing and development.
 
-**RACKSPACE SOLUTION:** [Rackspace^&reg;^ Cloud
+**RACKSPACE SOLUTION:** [Rackspace&reg; Cloud
 Servers](http://www.rackspace.com/cloud/cloud_hosting_products/servers/)
 powered by [OpenStack&reg;](http://www.openstack.org/)
 
@@ -61,13 +61,11 @@ monitor their servers, automate jobs across multiple systems, patch and
 update Windows and Linux systems, and control spending on servers.
 
 A Rackspace Cloud Tools partner, the company was an early adopter of
-Rackspace next generation Cloud Servers powered by OpenStack^&reg;^. In
+Rackspace next generation Cloud Servers powered by OpenStack&reg;. In
 upholding its motto, &ldquo;Simplicity, scalability, and sociability,&rdquo;
 ScaleXtreme has found the next-generation servers to be a perfect
 complement to their own offerings, requiring no coding to adopt and
 offering a range of improvements.
-
-###
 
 ### EARLY ADOPTION
 
@@ -94,8 +92,6 @@ from the very beginning, making the two systems talk to each other was a
 matter of simply pointing at the new APIs and the new standard system
 and just testing it. Everything just worked, right out of the box. It
 was so easy to do that it was basically a non-event for us.&rdquo;
-
-
 
 ### SIMPLICITY AND SPEED
 
@@ -128,12 +124,10 @@ comfortable with its stability thanks to its OpenStack heritage.&rdquo;
 
 The constant availability of support also puts the ScaleXtreme team at
 ease, though they&rsquo;ve rarely had to take advantage of it. &ldquo;[Fanatical
-Support^&reg;^](http://www.rackspace.com/whyrackspace/support/) is
+Support&reg;](http://www.rackspace.com/whyrackspace/support/) is
 definitely there,&rdquo; Mulchandani says. &ldquo;We actually haven&rsquo;t had to call
 Rackspace support very often, as it&rsquo;s been an extremely stable platform,
 very open.&rdquo;
-
-
 
 ### AN OPEN CLOUD
 
@@ -163,4 +157,3 @@ application that supports both generations of Rackspace servers.
 According to Mulchandani, &ldquo;Within minutes, you can be managing your
 systems and discovering new things about what you can do with the new
 Cloud Servers you&rsquo;ll be launching at Rackspace.&rdquo;
-

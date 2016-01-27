@@ -14,8 +14,7 @@ This article provides instructions for developers who are migrating from
 another hosting provider, such as Azure or Linode, to the Rackspace
 Cloud. These instructions are meant as a high-level overview and are not
 specific to any particular hosting provider. If you need further
-assistance for complex infrastructures, you can use [Rackspace Migration
-Services](https://www.rackspace.com/migration/cloud).
+assistance for complex infrastructures, you can use [Rackspace Migration Services](https://www.rackspace.com/migration/cloud).
 
 ### Prerequisites
 
@@ -25,21 +24,18 @@ Services](https://www.rackspace.com/migration/cloud).
 ### Preparation
 
 Select an equivalent size and scope for the Rackspace Cloud Servers
-instance to provision b<span>ased on your existing cloud instance size
-and configuration</span>. Remember to list any resources you want to
+instance to provision based on your existing cloud instance size
+and configuration. Remember to list any resources you want to
 migrate from your current hosting provider, including application and
 database resources.
 
-For a tour of Rackspace Cloud products, you can read the [Rackspace Core
-Infrastructure
-Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-intro/cloud-tour/).
+For a tour of Rackspace Cloud products, you can read the [Rackspace Core Infrastructure Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-intro/cloud-tour/).
 
 ### Provision and configure the Cloud Servers instance
 
 Depending on the size of your current server and operating system,
 select an equivalent instance type and provision a new instance on
-[Rackspace Cloud
-Servers](/how-to/create-a-cloud-server).
+[Rackspace Cloud Servers](/how-to/create-a-cloud-server).
 
 ### Migrate data
 
@@ -54,34 +50,34 @@ your data.
 #### rsync
 
 You can use rsync to tunnel between your two servers and transfer your
-data.  The steps below show you how to allow both your old server
+data. The steps below show you how to allow both your old server
 instance and Rackspace server instance to communicate.
 
 1.  Log in as root to your old server.
 2.  Be sure that you have rsync installed on your old server. You can do
     this by running this command:
 
-    `rsync &ndash;version`
+        rsync -version
 
     If necessary, install rsync:
 
-    `apt-get install rsync`
+        apt-get install rsync
 
 3.  Use SSH to log into your Rackspace server from your old server.
     Generate an SSH key from your old server if you have no done so
     already:
 
-    `ssh-keygen &ndash;t rsa &ndash;b 4096 &ndash;v`
+        ssh-keygen -t rsa -b 4096 -v
 
 4.  Transfer your SSH key to your Rackspace server. Substitute your new
-    Rackspace server&rsquo;s IP Address in the command below.
+    Rackspace server's IP Address in the command below.
 
-    `ssh-copy-id 111.344.65.781`
+        ssh-copy-id 111.344.65.781
 
 5.  Copy your old server files using rsync. Replace the IP address after
-    \`root@\` with the IP address of your Rackspace cloud server.
+    `root@` with the IP address of your Rackspace cloud server.
 
-    `rsync --exclude="/sys/*" --exclude="/proc/*" -aHSKDvz -e ssh / root@111.344.65.781:/media/xvda/`
+        rsync --exclude="/sys/*" --exclude="/proc/*" -aHSKDvz -e ssh / root@111.344.65.781:/media/xvda/
 
 #### Other methods
 
@@ -128,12 +124,8 @@ and services. This is why it is important to test your new Rackspace
 configuration. You can get the most out of testing your configuration
 through these techniques:
 
--   Implement monitoring and backup solutions. Focus on [enhancing
-    security](/how-to/configuring-basic-security-0).
--   Thoroughly [test the
-    applications](/how-to/application-and-load-testing-guidelines)
+-   Implement monitoring and backup solutions. Focus on [enhancing security](/how-to/configuring-basic-security-0).
+-   Thoroughly [test the applications](/how-to/application-and-load-testing-guidelines)
     deployed on your Rackspace Cloud Server.
 -   Make any changes to your configuration files as necessary. This
     could include any reference hostnames, IP addresses, and file paths.
-
-

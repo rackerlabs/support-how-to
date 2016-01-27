@@ -23,9 +23,9 @@ page for future updates.
 
 #### Managed: Windows Server 2012 R2
 
-|                                                               |                     |                       |
-|---------------------------------------------------------------|---------------------|-----------------------|
-| **Feature**                                                   | **Windows Support** | **Rackspace Support** |
+
+| Feature | Windows Support | Rackspace Support
+|-------- | --------------- |------------------
 | Scale & Performace                                            | Supported           | Available             |
 | Shared-Nothing Live Migration                                 | Supported           | Unsupported           |
 | Hyper-V Network Virtualization                                | Supported           | Unsupported           |
@@ -39,9 +39,8 @@ page for future updates.
 
 #### Managed: Windows Server 2008 R2
 
-|                                                               |                     |                       |
-|---------------------------------------------------------------|---------------------|-----------------------|
-| **Feature**                                                   | **Windows Support** | **Rackspace Support** |
+| Feature | Windows Support | Rackspace Support
+|-------- | --------------- |------------------
 | Scale & Performace                                            | Partially Supported | Supported             |
 | Shared-Nothing Live Migration                                 | Unsupported         | Unsupported           |
 | Hyper-V Network Virtualization                                | Unsupported         | Unsupported           |
@@ -55,9 +54,8 @@ page for future updates.
 
 #### Managed: Windows Server 2003 R2
 
-|                                                               |                     |                       |
-|---------------------------------------------------------------|---------------------|-----------------------|
-| **Feature**                                                   | **Windows Support** | **Rackspace Support** |
+| Feature | Windows Support | Rackspace Support
+|-------- | --------------- |------------------
 | Scale & Performace                                            | Partially Supported | Unsupported           |
 | Shared-Nothing Live Migration                                 | Unsupported         | Unsupported           |
 | Hyper-V Network Virtualization                                | Unsupported         | Unsupported           |
@@ -71,9 +69,8 @@ page for future updates.
 
 #### Dedicated: Windows Server 2012 R2
 
-|                                                               |                     |                       |
-|---------------------------------------------------------------|---------------------|-----------------------|
-| **Feature**                                                   | **Windows Support** | **Rackspace Support** |
+| Feature | Windows Support | Rackspace Support
+|-------- | --------------- |------------------
 | Scale & Performace                                            | Supported           | Supported             |
 | Shared-Nothing Live Migration                                 | Supported           | Unsupported           |
 | Hyper-V Network Virtualization                                | Supported           | Unsupported           |
@@ -87,9 +84,8 @@ page for future updates.
 
 #### Dedicated: Windows Server 2008 R2
 
-|                                                               |                     |                       |
-|---------------------------------------------------------------|---------------------|-----------------------|
-| **Feature**                                                   | **Windows Support** | **Rackspace Support** |
+| Feature | Windows Support | Rackspace Support
+|-------- | --------------- |------------------
 | Scale & Performace                                            | Partially Supported | Supported             |
 | Shared-Nothing Live Migration                                 | Unsupported         | Unsupported           |
 | Hyper-V Network Virtualization                                | Unsupported         | Unsupported           |
@@ -103,9 +99,8 @@ page for future updates.
 
 #### Dedicated: Windows Server 2003 R2
 
-|                                                               |                     |                       |
-|---------------------------------------------------------------|---------------------|-----------------------|
-| **Feature**                                                   | **Windows Support** | **Rackspace Support** |
+| Feature | Windows Support | Rackspace Support
+|-------- | --------------- |------------------
 | Scale & Performace                                            | Partially Supported | Supported             |
 | Shared-Nothing Live Migration                                 | Unsupported         | Unsupported           |
 | Hyper-V Network Virtualization                                | Unsupported         | Unsupported           |
@@ -117,7 +112,7 @@ page for future updates.
 | Simplified, Feature-Rich Virtual Desktop Infrastructure (VDI) | Unsupported         | Unsupported           |
 | Dynamic Acces Control                                         | Unsupported         | Unsupported           |
 
-### Microsoft Windows Server 2012 R2 Licensing
+### Microsoft Windows Server 2012 R2 licensing
 
 Windows Server 2012 R2 has a simplified licensing model and single
 codebase. All options are available regardless of which license model

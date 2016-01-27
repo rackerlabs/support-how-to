@@ -1,6 +1,6 @@
 ---
 node_id: 3801
-title: Email Migration from Google
+title: Email migration from Google
 type: article
 created_date: '2013-12-04'
 created_by: Milton Prado
@@ -11,15 +11,15 @@ product_url: rackspace-email
 ---
 
 When you migrate your email from Google, it is important to note that
-Google email does not use sub-folders.  Instead, Google categorizes
-email by using "labels."  As a result, some migration services must
-convert the Google labels into sub-folders.  When you use MigrationWiz
+Google email does not use subfolders. Instead, Google categorizes
+email by using *labels*. As a result, some migration services must
+convert the Google labels into subfolders. When you use MigrationWiz
 to migrate your email, the conversion happens seamlessly in the
 background.
 
 In addition to labels, Google has a folder called **All Mail**, which
 contains a copy of every message in your mailbox. By default,
-MigrationWiz only migrates archived email within the **All Mail**
+MigrationWiz migrates only archived email within the **All Mail**
 folder.
 
 **More items to note:**
@@ -29,6 +29,3 @@ folder.
     in Google.
 -   The size of the email account might be larger because of the **All
     Mail** folder.
-
-
-

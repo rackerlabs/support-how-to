@@ -10,8 +10,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-
-
 Two-factor authentication uses an extra device, like a mobile phone, to
 provide an additional layer of security when you access your account.
 Two-factor authentication is a significant security improvement over
@@ -22,17 +20,7 @@ authentication for your MyRackspace account from the
 **Note:** You must be an administrative user to manage two-factor
 authentication for your MyRackspace account.
 
--   [Set up two-factor authentication for users](#setup)
--   Register a device after two-factor authentication is enabled for
-    your account
--   [Log in with two-factor authentication](#login)
--   [Manage your two-factor devices.](#manage)
--   [Troubleshoot two-factor authentication problems](#trouble)
-
-
-
-Set up two-factor authentication for users
-------------------------------------------
+### Set up two-factor authentication for users
 
 An administrative user of the account can decide whether to make
 two-factor authentication a requirement for all users of the account or
@@ -53,23 +41,19 @@ authentication.
     Administration**.
 
 4.  On the Two-Factor Login page, select one of the following options:
-5.  **Required for all users on this account**&mdash;Makes two-factor
+
+    -  **Required for all users on this account**& - Makes two-factor
     authentication a requirement for all users on your account. Setup
     must take place on each user's next login.
 
-6.  **Optional per user**&mdash;Makes two-factor authentication optional for
+    -  **Optional per user** - Makes two-factor authentication optional for
     all users on your account. Users who want to use two-factor
     authentication are prompted to register a paired SMS-capable device
     on their next login.
 
 7.  Click **Save Two-Factor Login**.
 
-[top](#top)
-
-
-
-Register a device after two-factor authentication is enabled for your account
------------------------------------------------------------------------------
+### Register a device after two-factor authentication is enabled for your account
 
 If two-factor authentication is enabled for your user account, you must
 register a new SMS-capable device to pair with your account by using
@@ -82,19 +66,12 @@ these steps:
 
     You will receive an SMS or text message with a 4-digit PIN code.
 
-
-
 3.  To complete verification of your device, enter the 4-digit PIN code.
 
     After your PIN is successfully entered and accepted, you are granted
     access to MyRackspace.
 
-[top](#top)
-
-
-
-Log in with two-factor authentication
--------------------------------------
+### Log in with two-factor authentication
 
 If you have a registered device paired with your account, a 7-digit
 verification code is sent via SMS text message to your device after you
@@ -105,12 +82,7 @@ the portal.
 Enter the correct verification code to complete two-factor
 authentication to the [MyRackspace portal](https://myrackspace.com).
 
-[top](#top)
-
-
-
-Manage your two-factor devices
-------------------------------
+### Manage your two-factor devices
 
 You can manage the devices that you use for two-factor authentication.
 Users are allowed multiple devices for two-factor authentication.
@@ -124,36 +96,32 @@ Users are allowed multiple devices for two-factor authentication.
 
 4.  On the **My Two-Factor Devices** page, click the **Actions** menu
     and choose one of the following options:
+
     -   Select **Add New Device** to add a new device to your two-factor
         authentication settings.
     -   Click **Generate Bypass Codes** to generate from one to ten
         bypass codes to use in place of your device.
         You can also remove devices from the list.
 
-[top](#top)
-
-
-
-Troubleshoot two-factor authentication problems
------------------------------------------------
+### Troubleshoot two-factor authentication problems
 
 Following are a few common problems that you might encounter when
 setting up two-factor authentication and some basic troubleshooting
 steps that can help you overcome them.
 
-### Invalid phone number
+#### Invalid phone number
 
 When trying to register a mobile device, you might receive an error
 indicating an invalid phone number. Confirm that a valid 10-digit phone
 number has been entered correctly with no extra characters or spaces.
 
-### Verify device - Invalid PIN
+#### Verify device - Invalid PIN
 
 When attempting to verify your mobile device, you might receive an error
 that the PIN entered is incorrect. Confirm that the correct 4-digit PIN
 received via SMS text message has been entered correctly.
 
-### MyRackspace account locked
+#### MyRackspace account locked
 
 After you log in to the [MyRackspace portal](https://myrackspace.com) by
 using your Rackspace account number, username, and password, you receive
@@ -163,23 +131,23 @@ authentication to fail. After six failed attempts, the account is
 locked. A user with administrator privileges is required to unlock the
 account. See the following section for instructions.
 
-### Unlock a user account
+#### Unlock a user account
 
 Follow these steps to unlock a user account:
 
 1.  Log in to the [MyRackspace portal](https://myrackspace.com) as an
     administrator.
 
-2.  Select **Account &gt; User List**.
+2.  Select **Account > User List**.
 
-3.  Locate the locked user and open the user&rsquo;s account record.
+3.  Locate the locked user and open the user's account record.
 
 4.  From the **Actions** menu, select **Unlock User**.
 
     A green banner is displayed, stating that the user account was
     successfully unlocked.
 
-### Generate a temporary passcode
+#### Generate a temporary passcode
 
 Follow these steps to generate a temporary passcode for a user.
 
@@ -188,9 +156,9 @@ the **Actions** menu.
 
 1.  Log in to the MyRackspace portal as an administrator.
 
-2.  Select **Account &gt; User List**.
+2.  Select **Account > User List**.
 
-3.  Locate the user and open the user&rsquo;s account record.
+3.  Locate the user and open the user's account record.
 
 4.  From the **Actions** menu, select **Send Temporary Code**.
 
@@ -198,10 +166,9 @@ the **Actions** menu.
     been sent to the indicated device. The code is valid for
     five minutes.
 
-### Two-factor authentication links do not appear in the MyRackspace portal
+#### Two-factor authentication links do not appear in the MyRackspace portal
 
 If you do not see the two-factor authentication links in the menu bar of
 the MyRackspace portal, the account might not be enabled for two-factor
 authentication, or the two-factor system might be unavailable because of
 maintenance or service interruption.
-

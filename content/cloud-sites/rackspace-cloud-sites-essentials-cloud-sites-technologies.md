@@ -10,23 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
-
-<div class="content">
-
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
-
-<div class="field-items">
-
-<div class="field-item even">
-
-**Note**: This article is written for our [Cloud Sites Control
+This article is written for our [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can get to it from the
 Cloud Control Panel by clicking your name in the upper-right corner and
 selecting **Cloud Sites Control Panel** or by navigating to
@@ -37,17 +21,13 @@ selecting **Cloud Sites Control Panel** or by navigating to
 [Getting Started with Cloud
 Sites](/how-to/cloud-sites)
 
-
-
 By now, we've learned that Cloud Sites is and easy to use, load-and-go
 web hosting platform that uses the computing power of the cloud to keep
 your websites online. In this article, we're going to take a look at the
 different technologies behind this computing power running your
 website(s).
 
-
-
-**Run Linux or Windows**
+### Run Linux or Windows
 
 Behind Cloud Sites, cabinets full of both Linux servers and Windows
 servers power the over 100,000 sites and applications we host for our
@@ -90,7 +70,7 @@ DNS, the changes will update automatically, but can take up to two hours
 to take effect. If you are managing your own DNS, please update the IP
 for you site. You can get the new IP on the Domain Tab*
 
-**There is a great method in the Control Panel** to take a look at the
+There is a great method in the Control Panel to take a look at the
 current Website features for your website. You can get to this once you
 have logged in to the Cloud Sites Cloud Control Panel fairly quickly for
 each of your domains.
@@ -109,8 +89,6 @@ including its currently enabled technologies, its number of
 databases and whether the Raw Logs are enabled or disabled. (Raw Logs
 are disabled by default).
 
-
-
 This concludes this article regarding Cloud Sites Web Technologies.
 We've learned how to change your websites default technology and how to
 view a summary of your websites features quickly. The next article will
@@ -122,18 +100,3 @@ web.config (IIS, ASP/.NET).
 
 [Tips and Tricks for .htaccess and
 web.config](/how-to/rackspace-cloud-essentials-tips-and-tricks-for-htaccess-and-webconfig)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-

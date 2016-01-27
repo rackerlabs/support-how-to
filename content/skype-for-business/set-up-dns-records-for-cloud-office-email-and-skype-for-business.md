@@ -4,8 +4,8 @@ title: Set up DNS records for Cloud Office email and Skype for Business
 type: article
 created_date: '2014-08-15'
 created_by: Cody Jobson
-last_modified_date: '2016-01-15'
-last_modified_by: Rose Coste
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
@@ -16,19 +16,18 @@ Microsoft Skype for Business, you must set up DNS records. If incorrect
 DNS settings are associated with your domain, you will experience
 problems using these applications.
 
-Set up DNS records for email
-----------------------------
+### Set up DNS records for email
 
 This section provides information about the DNS records that you need to
 set up for email transfer in Rackspace Email or Hosted Exchange.
 
-Create the following entries on your DNS server:
+Create the following entries, which are described below, on your DNS server:
 
--   [MX records](#MX)
--   [Autodiscover record](#Autodiscover)
--   [SPF record](#SPF)
+-   MX records
+-   Autodiscover record
+-   SPF record
 
-### **MX records**
+#### **MX records**
 
 A mail exchange (MX) record directs incoming email sent to your domain
 to the specific server set up to accept email traffic for your domain.
@@ -62,7 +61,7 @@ for changes to DNS records to fully propagate. We recommend updating
 your DNS records during off-peak traffic hours to allow for DNS
 propagation. No mail is lost during this time.
 
-### **Autodiscover records**
+#### **Autodiscover records**
 
 Autodiscover is a service that enables you and your team to easily
 configure your email clients by knowing only your Rackspace Email or
@@ -78,12 +77,12 @@ To enable Autodiscover, set up a Canonical Name (CNAME) record with the
 following information.
 Replace *example.com* with your own domain name.
 
--   **Hostname:** `autodiscover.`*example.com*
+-   **Hostname:** `autodiscover.*example.com*`
 -   **Time to live (TTL):** lowest possible
 -   **Record type:** CNAME
 -   **Destination:** `autodiscover.emailsrvr.com`
 
-### **SPF records**
+#### **SPF records**
 
 The Sender Policy Framework (SPF) record is a DNS record designed to
 combat and reduce spam for your domain. SPF records help mail servers
@@ -100,8 +99,7 @@ have them add the following TXT record to your DNS:
 -   **Record type:** TXT
 -   **Destination:** `v=spf1 include:emailsrvr.com ~all`
 
-**Set up DNS records for Hosted Skype for Business**
---------------------------------------------------------
+### **Set up DNS records for Hosted Skype for Business** ###
 
 To complete the configuration of your hosted implementation of Microsoft
 Skype for Business formerly Microsoft Lync, you must set up DNS records.

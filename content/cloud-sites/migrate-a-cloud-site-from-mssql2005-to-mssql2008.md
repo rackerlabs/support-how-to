@@ -16,8 +16,7 @@ interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
-Pre-Migration Tasks
--------------------
+### Pre-Migration Tasks
 
 1.  If the procedure is followed correctly, site impact during the
     migration process should be minimal. We suggest that you perform
@@ -51,8 +50,7 @@ Pre-Migration Tasks
 
                ALTER DATABASE [NumXYZ_NewDbName] SET READ_WRITE
 
-Cloud Site migration steps
---------------------------
+### Cloud Site migration steps
 
 1.  Create a new MSSQL 2008 database in the Cloud Sites Control Panel
     under the "Features" tab of the domain your MSSQL2005 database is

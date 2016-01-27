@@ -17,11 +17,11 @@ instructions step by step.
 
 ### Previous section
 
-[Provisioning cloud resources when migrating from Amazon Web
-Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+[Provisioning cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 The topology of the application in this scenario is presented in the
 following figure:
+
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.4-diagram.png" width="650" />
 
 ### Prerequisites
@@ -39,198 +39,186 @@ following figure:
     and MongoDB.
 -   Create a list of all additional Amazon services that are being used
     in your application-for example, SES for email or RDS for database.
--   If you have not already, [create a Cloud Server
-    instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+-   If you have not already, [create a Cloud Server instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
     and any supporting Rackspace Cloud services.
 
 ### Install software packages
 
-1.  Install Git and curl, which are needed to get dependent components
-    such as Node.js.
+1.  Install Git and curl, which are needed to get dependent components such as Node.js.
 
         sudo apt-get -y install git curl
 
 2.  *(Optional)* Install Python.
+
     Ubuntu 12.0.4 LTS includes Python 2.7.2. If you need a different
     version or an alternative version, you can install it. Instructions
     for installing a different version are located at
     <http://www.python.org/download/>.
+
 3.  Install OpenJDK as follows:
-    A.  Using SSH, connect to the Cloud Servers instance by using the
-        PublicNet URL and the root password.
+
+    A.  Using SSH, connect to the Cloud Servers instance by using the PublicNet URL and the root password.
+
     B.  Install OpenJDK 7.
 
             sudo apt-get -y install openjdk-7-jre
 
-    C.  Determine JAVA\_HOME.
+    C.  Determine JAVA_HOME.
 
             ll /etc/alternatives/java
 
-        Following is example output in which JAVA\_HOME
-        is /usr/lib/jvm/jre-1.7.0-openjdk-amd64.
+    Following is example output in which JAVA_HOME is /usr/lib/jvm/jre-1.7.0-openjdk-amd64.
 
             /etc/alternatives/java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java*
 
 4.  Install Tomcat 7 on the cloud server.
+
     A.  To install Tomcat 7, use apt-get.
 
             sudo apt-get -y install tomcat7
 
-        Alternatively, to install a different version of Tomcat, or
-        install it manually, select the version from
-        <http://tomcat.apache.org/download-70.cgi>.
+    Alternatively, to install a different version of Tomcat, or install it manually, select the version from <http://tomcat.apache.org/download-70.cgi>.
 
-    B.  Copy the URL of the **tar.gz** file (for example,
-        **http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.39/bin/apache-tomcat-7.0.39.tar.gz**).
-    C.  Change directory to **/usr/share**(or your directory of choice)
-        and download the binary.
+    B.  Copy the URL of the **tar.gz** file (for example, **http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.39/bin/apache-tomcat-7.0.39.tar.gz**).
 
-            cd /usr/share
-            sudo wget http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.39/bin/apache-tomcat-7.0.39.tar.gz
+    C.  Change directory to **/usr/share**(or your directory of choice) and download the binary.
+
+        cd /usr/share
+        sudo wget http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.39/bin/apache-tomcat-7.0.39.tar.gz
 
     D.  Change permissions.
 
-            sudo chmod 775 apache-tomcat-7.0.39.tar.gz
+        sudo chmod 775 apache-tomcat-7.0.39.tar.gz
 
     E.  Extract file contents.
 
-            sudo tar zxvf apache-tomcat-7.0.39.tar.gz
+        sudo tar zxvf apache-tomcat-7.0.39.tar.gz
 
-    F.  After Tomcat is extracted, remove the **tar.gz**files to
-        save space.
+    F.  After Tomcat is extracted, remove the **tar.gz** files to save space.
 
-            sudo rm apache-tomcat-7.0.39.tar.gz
+        sudo rm apache-tomcat-7.0.39.tar.gz
 
     G.  Set environment variables in **catalina.sh.**
 
-            cd /usr/share/apache-tomcat-7.0.39/bin
-            sudo vi catalina.sh
+        cd /usr/share/apache-tomcat-7.0.39/bin
+        sudo vi catalina.sh
 
     H.  Add the following line immediately after **\#!/bin/sh:**
 
-            JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
+        JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
 
     I.  Save and exit.
+
     J.  Automate the startup of Tomcat.
 
-            cd /etc/init.d
-            sudo vi tomcat
+        cd /etc/init.d
+        sudo vi tomcat
 
-    K.  Add the following information to the file.
-        Ensure that JAVA\_HOME, TOMCAT\_HOME, START\_TOMCAT, and
-        STOP\_TOMCAT refer to the correct directories.
+    K.  Add the following information to the file. Ensure that JAVA_HOME, TOMCAT_HOME, START_TOMCAT, and STOP_TOMCAT refer to the correct directories.
 
-            #!/bin/bash
-            # chkconfig: 234 20 80
-            # description: Tomcat Server basic start/shutdown script
-            # processname: tomcat
-            JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
-            export JAVA_HOME
-            TOMCAT_HOME=/usr/share/apache-tomcat-7.0.39/bin
-            START_TOMCAT=/usr/share/apache-tomcat-7.0.39/bin/startup.sh
-            STOP_TOMCAT=/usr/share/apache-tomcat-7.0.39/bin/shutdown.sh
-            start() {
-            echo -n "Starting tomcat: "
-            cd $TOMCAT_HOME
-            ${START_TOMCAT}
-            echo "done."
-            }
-            stop() {
-            echo -n "Shutting down tomcat: "
+        #!/bin/bash
+        # chkconfig: 234 20 80
+        # description: Tomcat Server basic start/shutdown script
+        # processname: tomcat
+        JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
+        export JAVA_HOME
+        TOMCAT_HOME=/usr/share/apache-tomcat-7.0.39/bin
+        START_TOMCAT=/usr/share/apache-tomcat-7.0.39/bin/startup.sh
+        STOP_TOMCAT=/usr/share/apache-tomcat-7.0.39/bin/shutdown.sh
+        start() {
+        echo -n "Starting tomcat: "
+        cd $TOMCAT_HOME
+        ${START_TOMCAT}
+        echo "done."
+        }
+        stop() {
+        echo -n "Shutting down tomcat: "
 
-            cd $TOMCAT_HOME
-            ${STOP_TOMCAT}
-            echo "done."
-            }
-            case "$1" in
-            start)
-            start
-            ;;
-            stop)
-            stop
-            ;;
-            restart)
-            stop
-            sleep 10
-            start
-            ;;
-            *)
-            echo "Usage: $0 {start|stop|restart}"
-            esac
-            exit 0
+        cd $TOMCAT_HOME
+        ${STOP_TOMCAT}
+        echo "done."
+        }
+        case "$1" in
+        start)
+        start
+        ;;
+        stop)
+        stop
+        ;;
+        restart)
+        stop
+        sleep 10
+        start
+        ;;
+        *)
+        echo "Usage: $0 {start|stop|restart}"
+        esac
+        exit 0
 
     L.  Save and exit.
-    M.  Set file permissions, set up Tomcat as a system service, and
-        test the setup.
 
-            sudo chmod 755 tomcat
-            sudo /sbin/chkconfig --add tomcat
-            sudo /sbin/chkconfig --level 234 tomcat on
-            sudo /sbin/chkconfig --list tomcat
+    M.  Set file permissions, set up Tomcat as a system service, and test the setup.
 
-        The expected output looks as follows:
+        sudo chmod 755 tomcat
+        sudo /sbin/chkconfig --add tomcat
+        sudo /sbin/chkconfig --level 234 tomcat on
+        sudo /sbin/chkconfig --list tomcat
 
-            tomcat 0:off 1:off 2:on 3:on 4:on 5:off 6:off
+    The expected output looks as follows:
 
-    N.  Because Tomcat is running on port 8080, ensure iptables will not
-        interfere with connectivity.
-        To learn about iptables, see [Introduction to
-        iptables](/how-to/introduction-to-iptables).
-    O.  Test Tomcat by looking up the cloud server IP from the Rackspace
-        Cloud Control Panel and opening the URL in a browser (for
-        example, **http://&lt;*ip\_address*&gt;:8080/**).
-        The Apache Tomcat landing page should appear.
+        tomcat 0:off 1:off 2:on 3:on 4:on 5:off 6:off
 
-        **Note:** You can start and stop Tomcat with the following
-        commands:
+    N.  Because Tomcat is running on port 8080, ensure iptables will not interfere with connectivity.
 
-            sudo /sbin/service tomcat stop
-            sudo /sbin/service tomcat start
+    To learn about iptables, see [Introduction to iptables](/how-to/introduction-to-iptables).
 
-5.  Install MongoDB on your cloud server.
-    Instructions for installing MongoDB on the Rackspace Cloud are
-    located at
-    <http://docs.mongodb.org/ecosystem/platforms/rackspace-cloud/>. Note
-    that for a production deployment, you should use at least a 3-node
-    replica set.
+    O.  Test Tomcat by looking up the cloud server IP from the Rackspace Cloud Control Panel and opening the URL in a browser (for example, **http://<ip\_address>:8080/**).
+
+    The Apache Tomcat landing page should appear.
+
+    **Note:** You can start and stop Tomcat with the following commands:
+
+        sudo /sbin/service tomcat stop
+        sudo /sbin/service tomcat start
+
+5.  Install MongoDB on your cloud server. Instructions for installing MongoDB on the Rackspace Cloud are located at <http://docs.mongodb.org/ecosystem/platforms/rackspace-cloud/>.
+
+  Note that for a production deployment, you should use at least a 3-node replica set.
 
     For a simple single-node installation, perform the following steps:
 
     A.  Add the GPG key to apt-get to create a "trusted" source.
 
-            sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+        sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 
-    B.  Create a custom 10gen repository file containing the location of
-        the MongoDB binaries.
+    B.  Create a custom 10gen repository file containing the location of the MongoDB binaries.
 
-            sudo sh -c 'echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | tee -a /etc/apt/sources.list.d/10gen.list'
+        sudo sh -c 'echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | tee -a /etc/apt/sources.list.d/10gen.list'
 
     C.  Update apt-get to pick up new packages.
 
-            sudo apt-get -y update
+        sudo apt-get -y update
 
     D.  Install MongoDB.
 
-            sudo apt-get -y install mongodb-10gen
+        sudo apt-get -y install mongodb-10gen
 
     E.  Verify that MongoDB is running.
 
-            ps aux | grep mongo
+        ps aux | grep mongo
 
-        **Tip:** MongoDB uses **/var/lib/mongodb** as the default
-        data path. If you want to change this path, you can shut down
-        the MongoDB instance and update **/etc/mongodb.conf**.
+    **Note:** MongoDB uses **/var/lib/mongodb** as the default data path. If you want to change this path, you can shut down the MongoDB instance and update **/etc/mongodb.conf**.
 
 6.  If your services are backed by Node.js instead of Python, use the
     following steps to set up a Node.js server on your cloud instance:
+
     A.  Install Node.js.
 
-            sudo apt-get -y install nodejs npm
+        sudo apt-get -y install nodejs npm
 
-    B.  Test the installation by getting the version of Node.js that you
-        are running.
+    B.  Test the installation by getting the version of Node.js that you are running.
 
-            node --version
+        node --version
 
 7.  (Optional) Install OpenStack Swift. If you will use Cloud Files to
     transfer your data, install the swift client to enable access from
@@ -238,21 +226,20 @@ following figure:
 
         sudo apt-get install python-novaclient glance-client swift
 
-    A.  Set the necessary environment variables by running the following
-        commands, substituting your username and API key:
+    A.  Set the necessary environment variables by running the following commands, substituting your username and API key:
 
-            export ST_USER=<your-login-username>
-            export ST_KEY=<your-API-key>
-            export ST_AUTH=https://identity.api.rackspacecloud.com/v1.0/
+        export ST_USER=<your-login-username>
+        export ST_KEY=<your-API-key>
+        export ST_AUTH=https://identity.api.rackspacecloud.com/v1.0/
 
-        You might want to define these variables in **.bashrc** or
-        **.bash\_profile**, then reload the file with the
-        "source" command.
+    You might want to define these variables in **.bashrc** or
+    **.bash\_profile**, then reload the file with the
+    "source" command.
 
-            source .bashrc
+        source .bashrc
 
     B.  Type **swift list** and ensure that you can see the container
-        you've created to hold your data.
+    you've created to hold your data.
 
 ### Back up data from AWS to Rackspace Cloud Files
 
@@ -269,6 +256,7 @@ we'll use an existing container named "AppData"):
         ssh -i your_private_key.pem user@ec2-xxx-xxx-xxx-xxx.compute-1.amazonaws.com
 
 2.  Perform a dump of MongoDB.
+
     Use the -host and -port options if MongoDB is running on a
     different instance.
 
@@ -287,6 +275,7 @@ we'll use an existing container named "AppData"):
     following methods to perform the transfer. If you will transfer
     directly via rsync or sftp, skip to the final section of this
     article after the transfer.
+
     -   Upload your archives to the Cloud Files container via the
         swift client.
 
@@ -294,18 +283,18 @@ we'll use an existing container named "AppData"):
             swift upload AppData backhone.tar.gz
             swift upload AppData nodejs.tar.gz
 
-    -   Upload your data into Cloud Files through the Cloud
-        Control Panel.
-        A.  Open your container (**Cloud Control Panel &gt; Files &gt;
-            *containerName***).
+    -   Upload your data into Cloud Files through the Cloud Control Panel.
+
+        A.  Open your container (**Cloud Control Panel > Files > *containerName***).
+
         B.  Click **Upload Files**.
+
         C.  Click **Browse**and select the files to upload.
 
-            **Note:** When you click the **Browse** button, you can
-            select multiple files.
+        **Note:** When you click the **Browse** button, you can select multiple files.
 
-        D.  After you have selected the file or files, click **Open** or
-            **Select** (depending on the browser and system).
+        D.  After you have selected the file or files, click **Open** or **Select** (depending on the browser and system).
+
         E.  Click **Upload File**.
 
 ### Restore data from Cloud Files to Cloud Servers
@@ -348,21 +337,15 @@ Server with the following steps.
 ### Test your application
 
 Browse to
-**http://&lt;*cloud\_server\_ip\_address*&gt;/&lt;*your\_app&gt;*** to
+**http://<cloud\_server\_ip\_address>/<your\_app>** to
 access and test your application.
 
 ### Next steps
 
-[Post-migration considerations when migrating from Amazon Web
-Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
+[Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
--   [Migrating an application built on a LAMP stack from Amazon Web
-    Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
--   [Migrating a .NET application from Amazon Web
-    Services](/how-to/migrating-a-net-application-from-amazon-web-services)
--   [Migrating a Java web application from Amazon Web
-    Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
-
-
+-   [Migrating an application built on a LAMP stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
+-   [Migrating a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
+-   [Migrating a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)

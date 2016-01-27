@@ -13,7 +13,7 @@ product_url: cloud-servers
 ### Applying knowledge
 
 In the [previous
-article](/how-to/understanding-logrotate-utility "Understanding logrotate - part 1")
+article](/how-to/understanding-logrotate-utility)
 we talked about what logrotate does and how you can configure it. In
 this article we&rsquo;ll apply this new knowledge to putting together a log
 rotation solution for a custom virtual host or two (or three, or four,
@@ -251,4 +251,3 @@ be able to set up new logrotate config files for your own purposes,
 either creating them from scratch or copying existing configs and
 modifying them appropriately. And most importantly, you can keep your
 logs from getting out of control.
-

@@ -42,7 +42,7 @@ Custom Name Servers**." Make your changes as needed and then select
 
 ![](http://c806643.r43.cf2.rackcdn.com/(E&A)ManagingDNSRecords4.png)
 
-*Note: Use Rackspace Name Servers** **must be selected for the Hosting
+**Note: Use Rackspace Name Servers** must be selected for the Hosting
 and Mail Records sections to be visible. To add additional DNS records
-click the **Add Additional Record** button.*
+click the **Add Additional Record** button.
 

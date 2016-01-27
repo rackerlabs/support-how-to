@@ -4,7 +4,7 @@ title: Create an archive audit report
 type: article
 created_date: '2015-05-18'
 created_by: Beau Bailey
-last_modified_date: '2015-11-19'
+last_modified_date: '2015-01-26'
 last_modified_by: Kyle Laffoon
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
@@ -31,21 +31,21 @@ archiving account admin user name.
 
 To create an archive audit report, perform the following steps:
 
-1.  Log in to the [Archive
+1\.  Log in to the [Archive
     Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
     For more information, see [Log in to the Archive
     Manager](/how-to/log-in-to-the-archive-manager).
 
-2.  In the upper-right corner of the window, click **Admin** to access
+2\.  In the upper-right corner of the window, click **Admin** to access
     the Admin dashboard.
     **Note**<span>: There are three dashboards for top-level
     administrators:  **Search**, **Admin**, and **Admin User**. If you
     do not see the </span>**Admin**<span> link in the upper-right, you
     are already on the Admin dashboard.</span>
 
-3.  Click the **Reports** tab.
+3\.  Click the **Reports** tab.
 
-4.  From the **Choose report** dropdown menu, select one of the
+4\.  From the **Choose report** dropdown menu, select one of the
     following report types:
     -   **Activity by User**&mdash;This report lists all users, their actions,
         the date of the actions, and the number of times that the
@@ -69,24 +69,21 @@ To create an archive audit report, perform the following steps:
         point.
 
 
-5.  For **Format option**, select whether you want the report in **PDF**
+5\.  For **Format option**, select whether you want the report in **PDF**
     or **CSV** format. The PDF format is ideal for read-only reports.
     The CSV format is ideal if you want to sort or repurpose the report
     data.
 
-6.  For **Date Range**, specify a date range for the report. To select a
+6\.  For **Date Range**, specify a date range for the report. To select a
     specific date range, click the calendar icons.
 
-7.  In the **Sort options** section, indicate how you want the data to
-    be sorted in the **Order by **dropdown menu. You can sort data by
+7\.  In the **Sort options** section, indicate how you want the data to
+    be sorted in the **Order by** dropdown menu. You can sort data by
     user name (*User*), date created (*Date*), or by user actions
     (*Activity*).
 
-8.  For **Sort order,** choose you want your report in ascending or
+8\. For **Sort order**, choose you want your report in ascending or
     descending order.
 
-9.  Click **Create Report**. The report is sent to the email address
+9\.  Click **Create Report**. The report is sent to the email address
     associated with your account admin user name.
-
-
-

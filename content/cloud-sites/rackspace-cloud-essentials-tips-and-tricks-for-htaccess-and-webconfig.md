@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note**: This article is written for our [Cloud Sites Control
+This article is written for our [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can get to it from the
 Cloud Control Panel by clicking your name in the upper-right corner and
 selecting [Cloud Sites Control
@@ -34,8 +34,6 @@ reading below.
 
 -   [.htaccess](#htaccess)
 -   [web.config](#web_config)
-
-
 
 **What is .htaccess and what is it used for?**
 
@@ -71,8 +69,6 @@ file is used for security.
 
 -   [Deny certain IP addresses access to web
     site](/how-to/controlling-access-to-linux-cloud-sites-based-on-the-client-ip-address "How do I deny certain IP addresses from accessing my site?")
-
-
 
 **What is web.config and what is it used for?**
 

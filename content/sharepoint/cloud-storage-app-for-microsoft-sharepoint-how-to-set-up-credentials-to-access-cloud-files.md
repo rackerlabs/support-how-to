@@ -1,18 +1,16 @@
 ---
 node_id: 3505
-title: 'Cloud Storage App for Microsoft SharePoint: How to Set Up Credentials to Access Cloud Files'
+title: 'Cloud Storage App for Microsoft SharePoint: How to set up credentials to access Cloud Files'
 type: article
 created_date: '2013-06-04'
 created_by: Rose Contreras
-last_modified_date: '2016-01-06'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft SharePoint
 product_url: sharepoint
 ---
 
-### Previous section
-
-[Cloud Storage App for Microsoft SharePoint:
+**Previous section:** [Cloud Storage App for Microsoft SharePoint:
 Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
 
 The first time that you access Rackspace Cloud Storage App for
@@ -25,12 +23,11 @@ the generation of temporary URLs. You can provide the credentials and
 metadata key in one of the following ways:
 
 -   If you have not previously used other applications to access Cloud
-    Files, [create a new account](#createnew).
+    Files, create a new account.
 -   If you already use other applications to access Cloud Files,
-    [specify an existing user](#specify).
+    specify an existing user.
 
-Create a new account
---------------------
+### Create a new account ###
 
 In the Create New Account form (shown in the following figure), provide
 credentials for a new user, and provide a metadata key. The app creates
@@ -48,8 +45,7 @@ Control Panel](https://mycloud.rackspace.com).
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Create%20New%20Account_0.jpg" width="452" height="437" />
 
-Specify an existing user
-------------------------
+### Specify an existing user ###
 
 If you already use other applications to connect to your Cloud Files
 account via the REST APIs, then you do not want to change your metadata
@@ -65,11 +61,9 @@ access the Cloud Files APIs.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Use%20Existing%20Account_0.jpg" width="452" height="290" />
 
-Where to go from here
----------------------
+**Where to go from here**
 
 After you set up the credentials, you can start using the app. The
-information in the next article, [How to Access Cloud Files
-Containers](/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers),
+information in the article, [How to access Cloud Files
+containers](/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers),
 provides details on accessing files in the Cloud Storage app.
-

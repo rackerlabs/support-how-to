@@ -13,16 +13,14 @@ product_url: cloud-servers
 ### Remote management
 
 The Cloud Control Panel isn't the only way to manage Cloud Servers. If
-you're running a script or program you can use the [Cloud Servers
-API](http://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/),
+you're running a script or program you can use the [Cloud Servers API](http://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/),
 but that involves a modicum of coding effort.
 
 If you want to manage your servers from the command line without dealing
 directly with the API you can use an open-source client application
-called
-[python-novaclient](http://pypi.python.org/pypi/python-novaclient/).
+called [python-novaclient](http://pypi.python.org/pypi/python-novaclient/).
 
-Note that the nova client is not maintained by Rackspace and should be
+**Note**: The nova client is not maintained by Rackspace and should be
 considered software in development. While we don't directly support the
 nova client you can post in the comments below if you run into any
 difficulties.
@@ -51,59 +49,44 @@ already be installed (if not, see "Other Distributions" below for
 install instructions).
 
 Depending on your Linux distribution you can install setuptools through
-your package manager. Some install commands for various distributions
-are...
+your package manager. Following are some install commands for various distributions:
 
-#### Debian and Ubuntu
+-  Debian and Ubuntu
 
-``` {.pre .codeblock}
-sudo apt-get update
-sudo apt-get install python-setuptools
-```
+       sudo apt-get update
+       sudo apt-get install python-setuptools
 
-#### Fedora, CentOS, and RHEL
+-  Fedora, CentOS, and RHEL
 
-``` {.pre .codeblock}
-sudo yum install python-setuptools
-```
+       sudo yum install python-setuptools
 
-#### Arch
+-  Arch
 
-``` {.pre .codeblock}
-sudo pacman -S python2-setuptools
-```
+       sudo pacman -S python2-setuptools
 
-**Note:** Newer releases of Arch use python 3 by default, which isn't
+  **Note:** Newer releases of Arch use python 3 by default, which isn't
 compatible with the python-novaclient package at this time. Installing
 the "python2-setuptools" package will ensure that you have a copy of
 python 2.x installed without affecting your existing python 3
 installation.
 
-#### Gentoo
+-  Gentoo
 
-``` {.pre .codeblock}
-sudo emerge setuptools
-```
+       sudo emerge setuptools
 
-#### Other distributions
+-  Other distributions
 
-If you're not using one of the above, try searching your distribution's
+  If you're not using one of the above, try searching your distribution's
 package manager for "setuptools" to find an installation package. If
 there isn't one available you can [download the setuptools
-package](http://pypi.python.org/pypi/setuptools) directly:
-
-``` {.pre .codeblock}
-http://pypi.python.org/pypi/setuptools
-```
+package](http://pypi.python.org/pypi/setuptools) directly.
 
 ### pip
 
 Now that setuptools is installed we can use one of its programs to
 install the python package manager "pip".
 
-``` {.pre .codeblock}
-sudo easy_install pip
-```
+    sudo easy_install pip
 
 ### Installing the package
 
@@ -111,13 +94,10 @@ And now we finally get to install the client. We'll use pip to download
 and install a metapackage that includes the latest version of
 python-novaclient and the Rackspace extensions all in one go:
 
-``` {.pre .codeblock}
-sudo pip install rackspace-novaclient
-```
+    sudo pip install rackspace-novaclient
 
 If you have trouble with pip you can also download an installation
-package from the [python package
-repository](http://pypi.python.org/pypi/rackspace-novaclient/).
+package from the [python package repository](http://pypi.python.org/pypi/rackspace-novaclient/).
 
 The "rackspace-novaclient" is a metapackage that causes pip to install
 the client and all Rackspace extensions for the client.  If you have any
@@ -134,33 +114,28 @@ Cloud account.
 #### Setting the environment variables
 
 Now you'll need to set some environment variables. Open your
-.bash\_profile file for editing:
+.bash_profile file for editing:
 
-``` {.pre .codeblock}
-nano ~/.bash_profile
-```
+    nano ~/.bash_profile
 
 Then add the following lines, changing values to match your
 requirements.  Pay particular attention to the username, password/API
 key, and tenant name/account number.  You can find your account number
-displayed in the upper right of the [Cloud Control
-Panel](https://mycloud.rackspace.com) when you are logged in.
+displayed in the upper right of the [Cloud Control Panel](https://mycloud.rackspace.com) when you are logged in.
 
 #### USA, HKG, and AUS Datacenters Example
 
-For these regions (<span>DFW, IAD, ORD, HKG, and SYD)</span><span>, use
-the following format: </span>
+For these regions (DFW, IAD, ORD, HKG, and SYD), use
+the following format:
 
-``` {.pre .codeblock}
-OS_USERNAME=username
-OS_TENANT_NAME=accountnumber
-OS_AUTH_SYSTEM=rackspace
-OS_PASSWORD=apikey
-OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/
-OS_REGION_NAME=DFW
-OS_NO_CACHE=1
-export OS_USERNAME OS_TENANT_NAME OS_AUTH_SYSTEM OS_PASSWORD OS_AUTH_URL OS_REGION_NAME OS_NO_CACHE
-```
+    OS_USERNAME=username
+    OS_TENANT_NAME=accountnumber
+    OS_AUTH_SYSTEM=rackspace
+    OS_PASSWORD=apikey
+    OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/
+    OS_REGION_NAME=DFW
+    OS_NO_CACHE=1
+    export OS_USERNAME OS_TENANT_NAME OS_AUTH_SYSTEM OS_PASSWORD OS_AUTH_URL OS_REGION_NAME OS_NO_CACHE
 
 #### UK Datacenters Example
 
@@ -181,11 +156,9 @@ Once you've set all of the environment variables save the file. Since
 there's a password in there we'll set permissions on the file so other
 people can't read it:
 
-``` {.pre .codeblock}
-chmod 600 ~/.bash_profile
-```
+    chmod 600 ~/.bash_profile
 
-#### Environment variable explanations
+### Environment variable explanations
 
 The following table lists explanations for each environment variable and
 offers suggested values.
@@ -204,18 +177,14 @@ offers suggested values.
 
 To apply these environment variables to your current shell, run:
 
-``` {.pre .codeblock}
-source ~/.bash_profile
-```
+    source ~/.bash_profile
 
 ### Testing the client
 
 Now we'll run a quick query to make sure the nova client is ready to go.
 To see if you can talk to the API server, run:
 
-``` {.pre .codeblock}
-nova image-list
-```
+    nova image-list
 
 If all is well you'll get back a list of the images available to you
 when creating a server.
@@ -225,31 +194,25 @@ when creating a server.
 If you're running the client on an Ubuntu system and it asks for a
 "keychain password" run the client with the  `--no-cache` option, as in:
 
-``` {.pre .codeblock}
-nova --no-cache image-list
-```
+    nova --no-cache image-list
 
 To save some typing you can set the environment variable
-"OS\_NO\_CACHE=1" as in our sample config above.
+"OS_NO_CACHE=1" as in our sample config above.
 
 ### Viewing the command list
 
 You can get a full list of commands by typing:
 
-``` {.pre .codeblock}
-nova help
-```
+    nova help
 
-Note, however, that you won't be able to use every command listed. The
+**Note**: You won't be able to use every command listed. The
 nova client was written for use with recent development versions of
 OpenStack, so it includes support for some features that have not yet
 been implemented in the Rackspace Cloud.
 
 You can get more help for a command this way too:
 
-``` {.pre .codeblock}
-nova help network
-```
+    nova help network
 
 We'll talk about some of the more commonly-used commands in a later
 article.
@@ -264,26 +227,20 @@ incorrectly, so be sure and double-check those settings.
 
 Remember that if you change any environment variables you'll need to
 either log out and log back in, or tell your shell to read the
-.bash\_profile again:
+.bash_profile again:
 
-``` {.pre .codeblock}
-source ~/.bash_profile
-```
+    source ~/.bash_profile
 
 You can also use the options that are listed in the "nova help" output
 to override some environment variable settings. If you're unsure about
 the region, for example, you can substitute it with the
 `--os-region-name` option like so:
 
-``` {.pre .codeblock}
-nova --os-region-name ORD image-list
-```
+    nova --os-region-name ORD image-list
 
 ### Where to go next
 
 You should have the nova client set up where you can access it, and it
-should be able to talk to your Rackspace Cloud account. <span>To look at
+should be able to talk to your Rackspace Cloud account. To look at
 some common operations you can perform with the client, like creating
-servers and taking snapshots, see </span>[Useful python-novaclient
-commands](/how-to/useful-python-novaclient-commands)<span>.</span>
-
+servers and taking snapshots, see [Useful python-novaclient commands](/how-to/useful-python-novaclient-commands).

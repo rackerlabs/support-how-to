@@ -10,44 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
--   [Scheduled Images](#overview)
-    -   [What are Scheduled Images?](#what-are)
-    -   [Why would I use Scheduled Images?](#why-would-i-use)
-    -   [How do I use Scheduled Images?](#how-do-i-use)
--   [Scheduling](#scheduling)
-    -   [How can I tell scheduled images from snapshots I took myself
-        when I look at my image list?](#list-scheduled-images)
-    -   [Is there a minimum or maximum time between scheduled
-        images?](#time-between-images)
-    -   [Will they occur on the same time each day?](#same-time)
-    -   [Will the image created\_at reflect the completion or start
-        time?](#created_at)
-    -   [Can I miss a day?](#miss-a-day)
--   [Retention](#retention)
-    -   [What is the "retention" value?](#what-is-retention)
-    -   [What is the maximum retention value?](#maximum-retention)
-    -   [When does automatic deletion occur?](#automatic-deletion)
-    -   [What if I don't want certain images automatically
-        deleted?](#keeping-images)
-    -   [How can I change the retention value on my
-        server?](#change-retention)
-    -   [What happens to the scheduled images in my account when I
-        change the retention
-        value?](#what-happens-when-i-change-retention)
-    -   [What if I want to delete a scheduled image right
-        away?](#immediate-deletion)
--   [Miscellaneous](#miscellaneous)
-    -   [You say this is a "best effort" service. What does that
-        mean?](#best-effort)
-    -   [A service similar to scheduled images exists in the
-        Classic Rackspace Cloud environment. Will the Classic service
-        stay the same, or will it change to work like scheduled images
-        in the Rackspace Open Cloud?](#first-gen-service)
-    -   [Where can I get more information about Scheduled
-        Images?](#more-info)
-
-Scheduled Images
-----------------
+### - Scheduled Images -
 
 #### What are Scheduled Images?
 
@@ -94,15 +57,14 @@ and API users:
     want to retain and then click **Create Schedule**.
 -   API users: See the Cloud Servers [API documentation for the
     Scheduled Images
-    extension](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ch_extensions.html#scheduled_images).
+    extension](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
 
 Images are stored in Cloud Images.  You're charged for them, however, as
 if they were stored in your Cloud Files account.  Thus, you'll be
 charged your normal Cloud Files rate (including any applicable tiering
 or volume discounts).
 
-Scheduling
-----------
+### - Scheduling -
 
 #### How can I tell scheduled images from snapshots I took myself when I look at my image list?
 
@@ -179,8 +141,7 @@ upon how the service is performing.)
 If you notice two or more consecutively skipped days, contact Rackspace
 support.
 
-Retention
----------
+### Retention
 
 #### What is the "retention" value?
 
@@ -253,8 +214,7 @@ with it just as you can with your other snapshots. You can delete a
 scheduled image at any time using your normal workflow (control panel,
 novaclient, direct API calls).
 
-Miscellaneous
--------------
+### Miscellaneous
 
 #### You say this is a "best effort" service. What does that mean?
 
@@ -283,8 +243,6 @@ options will remain the same as they are now.
 #### Where can I get more information about Scheduled Images?
 
 -   [Scheduled Images API Extension
-    Documentation](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ch_extensions.html#scheduled_images)
+    Documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
 -   [Using python-novaclient to manage scheduled
     images](/how-to/using-python-novaclient-to-manage-scheduled-images)
-
-

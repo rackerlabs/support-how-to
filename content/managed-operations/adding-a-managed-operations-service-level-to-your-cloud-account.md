@@ -1,6 +1,6 @@
 ---
 node_id: 1716
-title: Adding a Managed Operations Service Level to Your Cloud Account
+title: Adding a managed operations service level to your cloud account
 type: article
 created_date: '2011-10-11'
 created_by: Rackspace Support

@@ -12,27 +12,17 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
+[Create a Cloud Server](/how-to/create-a-cloud-server)
 
-
-
-Once you have learned how to [Create a new Cloud
-Server](/how-to/create-a-cloud-server),
+Once you have learned how to [Create a new Cloud Server](/how-to/create-a-cloud-server),
 you may use several of our tools that allow control over your server.
 
--   [Reboot
-    Server](/how-to/reboot-your-server)
--   [Rebuild
-    Server](/how-to/rebuild-a-cloud-server)
--   [Resize
-    Server](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
-    (resize Standard Cloud Servers up or down and General Purpose
-    Servers only up)
--   [Reset
-    Password](/how-to/reset-your-server-password)
--   [Delete
-    Server](/how-to/deleting-your-server)
+-   [Reboot Server](/how-to/reboot-your-server)
+-   [Rebuild Server](/how-to/rebuild-a-cloud-server)
+-   [Resize Server](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
+    (resize Standard Cloud Servers up or down and General Purpose Servers only up)
+-   [Reset Password](/how-to/reset-your-server-password)
+-   [Delete Server](/how-to/deleting-your-server)
 
 To access these tools, begin by clicking on the hyperlinked name of your
 server under the **Cloud Servers** section to take you to the **Cloud
@@ -43,9 +33,6 @@ screen.
 ![](http://c765420.r20.cf2.rackcdn.com/22_CloudServersnew.png)
 
 
-
 ### Next section
 
-[Start a Console
-session](/how-to/start-a-console-session)
-
+[Start a Console session](/how-to/start-a-console-session)

@@ -1,6 +1,6 @@
 ---
 node_id: 2053
-title: RackConnect v2.0 Best Practices
+title: RackConnect v2.0 best practices
 type: article
 created_date: '2012-08-23'
 created_by: Juan Perez

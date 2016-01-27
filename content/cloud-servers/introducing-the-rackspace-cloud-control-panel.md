@@ -12,24 +12,18 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/cloud-servers)
+[Cloud Servers](/how-to/cloud-servers)
 
-
-
-The[Cloud Control Panel](https://mycloud.rackspace.com) lets you manage
+The [Cloud Control Panel](https://mycloud.rackspace.com) enables you to manage
 your Rackspace Cloud infrastructure through a simple and intuitive
 interface. This article introduces you to some of the features of the
 control panel that will make your daily administration tasks seem
 effortless.
 
-Control panel navigation
-----------------------------
+### Control panel navigation
 
 With a few clicks, you'll be in the product workspace where you can
 begin managing your cloud resources.
-
-**Navigation**
 
 Product area headings (Servers, Networking, Storage, Databases,
 Orchestration, and Backups) run across the top of the screen. To access
@@ -68,9 +62,7 @@ Rackspace Cloud products are categorized under the following headings:
 -   Database Backups
 -   Configurations
 -   Object Rocket
--   Big Data <span class="pilot-caption">Powered by Apache<span
-    class="super-script">&trade;</span> Hadoop<span
-    class="super-script">&reg;</span></span>
+-   Big Data - Powered by Apache&trade; Hadoop&reg;
 
 **Orchestration**
 
@@ -78,28 +70,15 @@ Rackspace Cloud products are categorized under the following headings:
 
 **Backups**
 
-<div class="rs-popover-content">
-
-<div class="pilot-nav-popover">
-
-<div class="pilot-nav-menu">
-
 -   Cloud Server Backups
 -   Database Backups
 
-</div>
-
-</div>
-
-</div>
-
-Organization
-------------
+### Organization
 
 Several features help you organize, find, and efficiently manage your
 resources no matter the size or shape of your cloud inventory.
 
-### Tags
+**Tags**
 
 Tags let you add customized labels to any of the resources that make up
 your cloud infrastructure. You are in charge of your tags--create as
@@ -109,7 +88,7 @@ association, a specific technology, or even by geographical location.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/NewCPTagging_1.png" width="494" height="162" />
 
-### Filters
+**Filters**
 
 Filters help you find all resources that share the following common
 properties: Tag, Status, Image, RAM, Region, or Type. The list of your
@@ -129,7 +108,7 @@ GB servers that you've tagged as **Production**. Using the Status
 filter, you can drill down even further and find the servers that are
 currently running, offline, or have a different status.
 
-### Search
+**Search**
 
 A convenient and fast search field in the upper-right corner of each
 asset listing gives you another method for locating any asset. Simply
@@ -141,11 +120,7 @@ When you use tags, filters, and search, your cloud inventory can grow to
 any size and you'll still be able to promptly locate and manage any
 asset.
 
-
--
-
-Administrative actions
-----------------------
+### Administrative actions
 
 The control panel provides a variety of ways to perform administrative
 tasks. Whether you're looking at a list of assets or a detailed view of
@@ -153,7 +128,7 @@ a single asset, you don't need to leave your current location to perform
 a task--every task you might want to perform is accessible right where
 you are.
 
-### Actions gear
+**Actions gear**
 
 When viewing resources in a list, click the gear icon to the left of the
 resource name to access a drop-down menu with all available actions for
@@ -164,14 +139,14 @@ shows the actions gear drop-down menu for a cloud server named
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1355.3.png" width="227" height="411" />
 
-### Actions menu
+**Actions menu**
 
 If you're looking at the details of a specific resource, you'll find the
-**Actions **drop-down menu in the upper-right corner of the screen.
+**Actions** drop-down menu in the upper-right corner of the screen.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1355.4.png" width="157" height="366" />
 
-### Edit pencils and options
+**Edit pencils and options**
 
 You can also edit an existing setting for a resource by clicking the
 edit pencil or option that appears next to the resource description. For
@@ -180,9 +155,7 @@ option that appears after the description for each setting.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1355.5.png" width="603" height="414" />
 
-###
-
-### Popup boxes
+**Popup boxes**
 
 When you perform an administrative action on a resource, a popup dialog
 box lets you modify the settings or perform an action without taking you
@@ -191,11 +164,7 @@ have to wait for the page to reload.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1355.6.png" width="391" height="233" />
 
-
--
-
-Accessing the Cloud Sites Control Panel
----------------------------------------
+### Accessing the Cloud Sites Control Panel
 
 You can reach the Cloud Sites Control Panel by selecting the option from
 the **Cloud Control Panel** drop-down menu at the top left of the Cloud
@@ -203,10 +172,6 @@ Control Panel.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1355.7.png" width="159" height="274" />
 
-
-
 ### Next section
 
-[Generating Your API
-key](/how-to/view-and-reset-your-api-key)
-
+[Generating Your API key](/how-to/view-and-reset-your-api-key)

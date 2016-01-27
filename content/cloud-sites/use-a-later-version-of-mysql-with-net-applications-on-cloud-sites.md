@@ -19,11 +19,10 @@ your .NET application.
 This article describes the two approaches to bin deploying a later
 version of MySQL.
 
-<span style="line-height: 1.6;">MySQL versions 6.4.6 (MySQL) and 6.4.4
-(MySQL NuGet) are known to work in Cloud Sites and are medium trust
-compliant.</span>
+MySQL versions 6.4.6 (MySQL) and 6.4.4 (MySQL NuGet) are known to work in Cloud Sites and are medium trust
+compliant.
 
-### [Perform a bin deploy with NuGet and Visual Studio 2013]()
+### Perform a bin deploy with NuGet and Visual Studio 2013
 
 1.  Open Visual Studio and your .NET application.
 
@@ -48,7 +47,7 @@ compliant.</span>
 
 5.  Publish your application and upload it to Cloud Sites.
 
-### [Perform a bin deploy with an MSI package from MySQL]()
+### Perform a bin deploy with an MSI package from MySQL
 
 We recommend running an MSI installation on a development machine to
 avoid installing extra software on a production machine.

@@ -33,8 +33,7 @@ technology, add a MSSQL database, and connect to FTP:
 
 
 
-<span class="mw-headline">Before You Begin </span>
---------------------------------------------------
+### Before You Begin
 
 In your web.config file:
 
@@ -44,8 +43,7 @@ In your web.config file:
 
 
 
-<span class="mw-headline">Installing DNN 5.0 </span>
-----------------------------------------------------
+### Installing DNN 5.0 
 
 1.  Open your browser and visit your URL.
 2.  The DNN installation wizard will now load. Select your installation
@@ -77,7 +75,7 @@ You have now completed the DNN installation. You may continue, using the
 "Finished (Go to Site)" button, or go back to a previous step using
 "Previous."
 
-Note: In the event that you get an "undefined success" error message as
+**Note:** In the event that you get an "undefined success" error message as
 part of the database installation procedure, you can use the following
 suggestions:
 

@@ -10,10 +10,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-### Previous section
-
-[Getting RackConnect
-Support](/how-to/getting-rackconnect-support)
+**Previous section:** [Getting RackConnect support](/how-to/getting-rackconnect-support)
 
 **Applies to:** RackConnect v2.0
 
@@ -21,20 +18,19 @@ To build a hybrid hosting solution that leverages the security of
 dedicated servers with the flexibility and service offerings of the
 Rackspace Cloud, you need to use RackConnect to allow the two types of
 resources to communicate and work together. Contact your Dedicated
-Account Team to get your RackConnect^&reg;^ deployment set up. If you are
-new to Rackspace,call us at 800 961 2888 to open a new dedicated hosting
+Account Team to get your RackConnect deployment set up. If you are
+new to Rackspace,call us at 1 800 961 2888 to open a new dedicated hosting
 account and learn more about the capabilities of a hybrid
 implementation.
 
-Setting up a RackConnect configuration
---------------------------------------
+### Setting up a RackConnect configuration
 
 1.  Contact your Dedicated Account Manager or Account Management Team
     and tell them that you want RackConnect set up in your environment.
     They will start the process by having network engineers assess your
     configuration for RackConnect compatibility and readiness.
 
-    -   If you don&rsquo;t have a device that is compatible with RackConnect,
+    -   If you don't have a device that is compatible with RackConnect,
         our sales and account teams will work with you to upgrade
         your environment.
 
@@ -86,11 +82,9 @@ You can also find more documentation about RackConnect in the
 MyRackspace portal](http://my.rackspace.com/csx/community/rackconnect).
 
 For a collection of recommendations for using RackConnect, see
-[RackConnect Best
-Practices](/how-to/rackconnect-v20-best-practices).
+[RackConnect best practices](/how-to/rackconnect-v20-best-practices).
 
-Associating your Cloud account with your RackConnect configuration
-------------------------------------------------------------------
+### Associating your Cloud account with your RackConnect configuration
 
 1.  Ensure that your cloud account is linked to your dedicated account.
     Verify this from the
@@ -140,8 +134,7 @@ If you have any questions, please reach out to us. Our contact
 information is available on the [Contact
 Us](/how-to/support) page.
 
-### Next steps
+### Next step
 
 [Access the RackConnect Management
 Interface](/how-to/access-the-rackconnect-management-interface)
-

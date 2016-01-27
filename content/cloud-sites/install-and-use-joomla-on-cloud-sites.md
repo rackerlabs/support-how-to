@@ -10,13 +10,13 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
+**Note:** This article refers to the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
-**Prerequisites**
+### Prerequisites
 
 -   Administrative access to the Rackspace Cloud to create domains and
     add databases
@@ -25,7 +25,7 @@ and selecting Cloud Sites Control Panel.
 -   Ftp access to website, and a ftp client like ExpanDrive in order to
     use the ftp method of uploading files (optional)
 
-**Procedure**
+### Procedure
 
 -   Login to the [Cloud Sites Control
     Panel](http://manage.rackspacecloud.com/pages/Login.jsp%7C "http://manage.rackspacecloud.com/pages/Login.jsp|")
@@ -34,13 +34,13 @@ and selecting Cloud Sites Control Panel.
 -   Navigate the Hosting-&gt;Cloud Sites menu to the website hyperlink
     on which Joomla needs to be installed
 
-NOTE: The domain must have php enabled, and database feature selected.
+**Note:** The domain must have php enabled, and database feature selected.
 The database feature can be added by using the CHANGE PLAN hyperlink on
 the domain **General Settings** tab.
 
 -   Upload the Joomla files to the desired location on the website using
     FTP - Refer to [Upload content to a website using
-    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/knowledge_center/index.php/Uploading_content_to_a_website_using_FTP")
+    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/how-to/getting-started-with-cloud-sites-uploading-your-content")
     -   To integrate Joomla to the root of domain (e.g.
         http://example.com/), place all contents of the unzipped Joomla
         directory (but excluding the directory itself) into the root
@@ -110,7 +110,7 @@ the domain **General Settings** tab.
 -   Sign in as "admin" and customize site as needed
 
 
-**Additional Resources**
+#### Additional Resources
 
 -   <span>A video tutorial is available at
     </span><http://www.rackspace.com/cloud/cloud_hosting_demos/>

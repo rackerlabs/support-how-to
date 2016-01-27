@@ -63,7 +63,7 @@ The Next Generation Cloud's OpenStack base provides the potential for interopera
 
 ### General Purpose and optimized servers ###
 
-[newpcs]:/knowledge_center/node/3712 "New features in General Purpose and optimized Cloud Servers"
+[newpcs]:/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers "New features in General Purpose and optimized Cloud Servers"
 
 Our Next Generation platform includes multipurpose (General Purpose) server flavors and server flavors optimized for computing power, memory, and network and disk throughput.  These server flavors offer dramatic improvements over First Generation and Standard servers in disk and network speed.  For more information, see [New features in General Purpose and optimized Cloud Servers][newpcs].
 
@@ -153,7 +153,7 @@ If you have trouble creating the image, [contact Support](http://www.rackspace.c
 
 ### Manually migrating Linux servers {#linux}
 
-[migratepcs]:/knowledge_center/node/3720 "Migrating to a General Purpose or I/O Server"
+[migratepcs]:/how-to/migrating-to-a-general-purpose-or-io-server "Migrating to a General Purpose or I/O Server"
 
 For advice on taking the system disks and data disks on General Purpose and I/O optimized servers into account when migrating, see [Migrating to a General Purpose or I/O Server][migratepcs].
 

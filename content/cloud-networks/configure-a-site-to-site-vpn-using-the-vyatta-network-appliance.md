@@ -70,7 +70,7 @@ To complete this configuration, you'll perform the following steps:
 
 #### Step 1. Enable the VPN on the Vyatta-DFW
 
-**Note:** <code>eth0</code> is the public interface enabled for IPsec
+**Note:** `eth0` is the public interface enabled for IPsec.
 
 1. Log onto the Vyatta Appliance using ssh:
 
@@ -289,7 +289,7 @@ Verify the tunnel status:
 
 #### Step 7. Exclude site-to-site VPN traffic from NAT
 
-This configuration will be needed if you are using Vyatta to perform outbound NAT for internet access as shown <a href="/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance" target="_blank">here</a>
+This configuration will be needed if you are using Vyatta to [perform outbound NAT for internet access](/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance).
 
 In case Source NAT has been configured already or needs to be configured, the following configuration needs to be applied so that the VPN traffic doesn't get translated on the Vyatta.
 

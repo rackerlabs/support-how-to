@@ -28,7 +28,7 @@ for a description.
 
 **Background**
 
-The Cloud Files container named *z\_DO\_NOT\_DELETE\_CloudBackup* is
+The Cloud Files container named `z\_DO\_NOT\_DELETE\_CloudBackup` is
 required for Rackspace Cloud Backup to work properly. If this container
 is deleted, you will receive the error, "Container does not exist.
 Invalid snapshot id and engine, and check config\_backup.json id" when
@@ -50,7 +50,7 @@ There are two causes for this error:
 
 **Solution**
 
-Do not delete the *z\_DO\_NOT\_DELETE\_CloudBackup* container in their
+Do not delete the `z\_DO\_NOT\_DELETE\_CloudBackup` container in their
 cloud files; it is used for backup. If you have accidentally deleted
 this container, contact Rackspace Support.
 
@@ -199,14 +199,14 @@ No, 32-bit servers and agents on Linus are not supported.
 
 #### Why does by Backup fail with a 403 error from Cloud Files when account has sub-users?
 
-Problem:
+**Issue**
 
 I am registered as a sub-user and am authorized for Cloud Backup and not
 for Cloud Files access. When I attempt to do a backup, all requests to
 Cloud Files return a 403 error. In this case, I attempt to authenticate
 again, but the new auth token is the same as the old one.
 
-Solution:
+**Solution**
 
 Account administrators can manage permission levels in the User
 Management section of the Cloud Control Panel. Submit a request to your

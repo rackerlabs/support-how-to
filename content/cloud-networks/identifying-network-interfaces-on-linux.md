@@ -6,8 +6,8 @@ created_date: '2013-03-15'
 created_by: Jered Heeschen
 last_modified_date: '2013-03-15'
 last_modified_by: Jered Heeschen
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 This article briefly describes a method of identifying which network interfaces on a Linux server are associated with which IP addresses.
@@ -36,7 +36,6 @@ Here too the interface names will be on the left and the IP addresses on the rig
     eth0 2001:4801:7817:72:bc18:4779:ff10:1653
     eth0 fe80::be76:4eff:fe10:1633
     eth1 fe80::be76:4eff:fe10:12ab
-
 
 ### Full output
 

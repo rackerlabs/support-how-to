@@ -10,13 +10,13 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
+**Note:** This article refers to the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
-**NOTE:** The library used by this script is **no longer supported**.
+**Note:** The library used by this script is **no longer supported**.
  We suggest Cloud Sites customers [use the Zipit
 tool](/how-to/scheduled-backup-cloud-sites-to-cloud-files)
 to run scheduled backups through cron instead.
@@ -208,9 +208,9 @@ Sites?](/how-to/how-do-i-schedule-a-cron-job-for-cloud-sites)
 [Cloud Files
 support](/how-to/cloud-files)
 
-**The Rackspace Cloud is not able to provide code support for your Cloud
+The Rackspace Cloud is not able to provide code support for your Cloud
 Sites and web applications. This article is designed to offer a very
 simple script that will backup your Cloud Site to your Cloud Files
 account. You are welcome to modify any part of these scripts to meet
-your own needs.**
+your own needs.
 

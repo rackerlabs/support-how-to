@@ -87,7 +87,7 @@ Complete the following steps to generate a certificate signing request
 
 Your CSR is generated. With the CSR ready for use, you can proceed to
 [purchasing a
-certificate](https://admin.rackspace.com/knowledge_center/node/127/revisions/27345/view#ssl_purchase).
+certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
 
 
@@ -105,12 +105,12 @@ vendor might require the following details:
 -   Server type: Apache
 -   SSL type: OpenSSL or modSSL
 -   CSR: [You generated
-    this](https://admin.rackspace.com/knowledge_center/node/127/revisions/27345/view#install_ssl)
+    this](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites)
     in the preceding section
 
 After you have completed your certificate purchase, you're ready to
 [install the
-certificate](https://admin.rackspace.com/knowledge_center/node/127/revisions/27345/view#ssl_install).
+certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
 
 

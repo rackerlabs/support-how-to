@@ -1,6 +1,6 @@
 ---
 node_id: 2028
-title: Using Dedicated Load Balancers with RackConnect v2.0
+title: Using dedicated load balancers with RackConnect v2.0
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
@@ -12,14 +12,13 @@ product_url: rackconnect
 
 **Applies to**: RackConnect v2.0
 
-Load balancers distribute workloads across 2 or more servers, network
-links or other resources. This distribution maximizes throughput,
-minimizes response time and helps avoid overload. The following
+Load balancers distribute workloads across two or more servers, network
+links, or other resources. This distribution maximizes throughput,
+minimizes response time, and helps avoid overload. The following
 information discusses several available options with dedicated load
 balancers.
 
-F5 Load Balancers
------------------
+### F5 Load Balancers
 
 When you use your cloud servers to host an application that scales up
 and down (for example, the web tier of an application), it is important
@@ -34,34 +33,34 @@ With RackConnect, there are two ways that you can automatically
 associate your cloud servers with one or more load balancer pools on
 your BIG-IP LTM:
 
-**Option 1 &mdash; Metadata:** When creating a cloud server, use the metadata
-option to specify the pool or pools.
+#### Option 1&mdash;Metadata
 
-**Metadata Key**: RackConnectLBPool
-**Metadata Value**: The exact name of the pool as defined on the load
+When creating a cloud server, use the metadata option to specify the pool or pools.
+
+- **Metadata Key:** RackConnectLBPool
+- **Metadata Value:** The exact name of the pool as defined on the load
 balancer. Use a semicolon separated list for more than one pool.
 
-You can specify the metadata values when you use the Cloud Servers API
-to create new cloud servers. View the API documentation for more details
-about how to use the API to enter metadata information for a cloud
-server: [API Developer Guide: Set
-Metadata.](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/Create_or_Replace_Metadata-d1e5358.html)
+You can specify the metadata values when you use the Cloud Servers API to create new cloud servers. View the [API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#set-server-metadata) for details
+about how to use the API to enter metadata information for a cloud server.
 
 This is the method to use if you want Auto Scale to use RackConnect with
-F5 load balancers. Read more about this on the [Auto Scale Tips and How
-To's](/how-to/rackspace-auto-scale-tips-and-how-tos)
+F5 load balancers. Read more about this on the [Auto Scale tips and how-to's](/how-to/rackspace-auto-scale-tips-and-how-tos)
 page about cloud bursting.
 
-**NOTE:**  If you are using next generation Cloud Servers, you can now
+**Note:**  If you are using next generation Cloud Servers, you can now
 update a cloud server's metadata at any time to add/remove cloud servers
 from load balancer pools. These metadata updates can be made via the
 Cloud Server's API.
 
+#### Option 2&mdash;Name Match
 
-**Option 2 &mdash; Name Match:** Before you create your cloud servers, provide
-Rackspace with the preferred names and the pool(s) to associate with
+Before you create your cloud servers, provide
+Rackspace with the preferred names and the pools to associate with
 your cloud servers. Currently, you must configure this through a ticket
 request to your Support team.
+
+#### Requirements
 
 Regardless of which option you select, consider the following
 requirements:
@@ -76,8 +75,6 @@ requirements:
     instead of a TCP port check to confirm that a web application is
     ready to accept end-user requests.
 
-<!-- -->
-
 -   The service port for each member of the load balancer pool must
     match or the automation will not be able to determine which service
     port to use. (For this same reason, there should always be at least
@@ -88,20 +85,20 @@ requirements:
 To get the name of one or more load balancer pools, contact your Support
 team.
 
-**NOTE:**  Any cloud servers that were originally added to a load
+**Note:** Any cloud servers that were originally added to a load
 balancer pool as a result of a name match rule will be automatically
 removed if the respective name match rule is deleted.
 
-#### Inbound RackConnect Traffic Flow with a F5 Load Balancer
+#### Inbound RackConnect traffic flow with an F5 Load Balancer
 
 The following diagram shows the path that inbound (and return) load
 balancer pool traffic follows to your cloud servers when you use an F5
 BIG-IP load balancer with RackConnect:
+
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RackConnect.F5.TrafficFlow.png" class="image-full_width" />
 
 
-Brocade Load Balancers
-----------------------
+### Brocade Load Balancers
 
 The Brocade ADX can also be used as a load balancer that balances
 traffic between dedicated and cloud servers. In this case, the
@@ -109,51 +106,47 @@ RackConnect Connected Device will be a Cisco ASA firewall and any
 traffic that needs to be load balanced to cloud servers will flow from
 the ADX to the firewall to the cloud servers.
 
-**The benefits of using  a Brocade load balancer with RackConnect are as
-follows:**
+#### Benefits
+
+The benefits of using  a Brocade load balancer with RackConnect are as
+follows:
 
 -   The ability to load balance traffic between dedicated servers and
-    cloud servers
-
-<!-- -->
+    cloud servers.
 
 -   The ability to use cloud servers as sorry servers for a load
     balancer pool. A sorry server normally contains a static maintenance
     page that users are directed to when health checks fail for all the
     members of a load balancer pool.
 
-<!-- -->
-
 -   The ability to maintain Client Identity (source IP persistence) to
-    RackConnect Cloud Servers through the use of X-Forwarded headers.
+    RackConnect Cloud Servers through the use of `X-Forwarded` headers.
     Your Support team can provide more details about the caveats of
     client identity maintenance.
 
-**The limitations of using  a Brocade load balancer with RackConnect are
-as follows:**
+#### Limitations
+
+The limitations of using  a Brocade load balancer with RackConnect are
+as follows:
 
 -   Because the Brocade load balancer cannot function as a RackConnect
     Connected Device, the RackConnect Automation feature that
     automatically adds and removes cloud servers from your load balancer
     pools is not available
 
-<!-- -->
-
 -   The Brocade load balancer must function as a full proxy for all
     external requests to your cloud servers.
 
-#### Inbound RackConnect Traffic Flow with a Brocade Load Balancer
+#### Inbound RackConnect traffic flow with a Brocade Load Balancer
 
 The following diagram shows the path that inbound and return load
 balancer pool traffic follows to your cloud servers when you use a
 Brocade ADX load balancer with RackConnect:
+
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RackConnect.Brocade.TrafficFlow.png" class="image-full_width" />
 
 If you have any questions about using Dedicated load balancers with
 RackConnect, contact your Support team.
 
-[Accessing RackConnected Cloud
-Servers](/how-to/accessing-rackconnect-cloud-servers)
-&lt;---Previous | Next ---&gt; [Using Cloud Load Balancers with
-RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)
-
+[Accessing RackConnected cloud servers](/how-to/accessing-rackconnect-cloud-servers)
+&lt;&mdash;Previous | Next&mdash;&gt; [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)

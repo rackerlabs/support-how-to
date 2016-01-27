@@ -4,8 +4,8 @@ title: Microsoft Skype for Business FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-26'
+last_modified_by: Catherine Richardson
 product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
@@ -219,10 +219,10 @@ To view and adjust these settings:
 
 To turn the audible alerts off altogether:
 
-Click the **Options** button in the Skype for Business main window,
-click **Ringtones and Sounds** , and then clear the **Play sounds in
-Skype for Business (including ringtones for incoming alerts and IM
-alerts)** check box.
+-   Click the **Options** button in the Skype for Business main window,
+    click **Ringtones and Sounds** , and then clear the **Play sounds in
+    Skype for Business (including ringtones for incoming alerts and IM
+    alerts)** check box.
 
 #### How do I set an alert to notify me as soon as a particular contact becomes available?
 
@@ -249,10 +249,10 @@ To change the default font details for all the IMs you send:
 To change the default font details for incoming IMs as well (to improve
 their legibility, for example):
 
-From the Skype for Business main window, click the **Options** button,
-click **General** , click **Change Font** , and then select a default
-font, font style, font size, and font color. Then select the **Apply
-settings to incoming messages** checkbox, and then click **OK**.
+-   From the Skype for Business main window, click the **Options** button,
+    click **General** , click **Change Font** , and then select a default
+    font, font style, font size, and font color. Then select the **Apply
+    settings to incoming messages** checkbox, and then click **OK**.
 
 #### Can I add customized emoticons to my Skype for Business IMs?
 
@@ -506,18 +506,14 @@ The following guidelines will improve device audio quality.
 
 #### Can I use Skype for Business to make a call?
 
-Yes, there are two ways to call others with Skype for Business:
-
--   Skype for Business call
-
 A **Skype for Business call** is made from your computer to someone
 else&rsquo;s computer who is also using Skype for Business (computer audio).
+
+Yes, there are two ways to call others with Skype for Business:
 
 -   A Skype for Business call placed to a contact rings all their
     devices that are enabled for Skype for Business, such as desktop and
     laptop computer.
-
-<!-- -->
 
 -   You can also make Skype for Business calls to federated contacts. A
     federated relationship with other companies is just a virtual

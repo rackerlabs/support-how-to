@@ -10,12 +10,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<span>**DISCLAIMER**: This document details a process intended for
+**Disclaimer**: This document details a process intended for
 educational purposes only. This will not deploy a production
-environment.</span>
+environment.
 
-Hadoop
-------
+### What is Apache Hadoop?
 
 Hadoop is an open source project that provides a platform to store and
 process massive amounts of data. Hadoop uses the Map Reduce paradigm to
@@ -23,7 +22,7 @@ split large tasks into many smaller chunks and executes them in
 parallel. Each of these tasks are executed close to the data in the
 Hadoop Distributed File System.
 
-### Hadoop Use Cases
+#### Hadoop Use Cases
 
 In a very short time, Hadoop has revolutionized almost every business
 sector. Actual use cases involving Hadoop include:
@@ -36,8 +35,7 @@ sector. Actual use cases involving Hadoop include:
 -   Processing machine-generated data to identify malware and cyber
     attack patterns.
 
-Objective
----------
+### Objective
 
 This document is for educational purposes only and will provide you with
 an example of how to get started with Apache Hadoop in the Cloud. You
@@ -49,8 +47,7 @@ growing it up to 64 nodes. During this process you will learn how to:
 3.  Install and configure Hadoop.
 4.  Run Map Reduce applications.
 
-Prerequisites
--------------
+### Prerequisites
 
 The following prerequisites are expected for successful completion:
 
@@ -60,8 +57,7 @@ The following prerequisites are expected for successful completion:
 -   Basic knowledge of Linux.
 -   Basic knowledge of Hadoop.
 
-Hadoop Installation Process
----------------------------
+### Hadoop Installation Process
 
 Manually installing and configuring Hadoop can be somewhat complicated
 so we will use a few tools to make the installation easier. In
@@ -90,8 +86,8 @@ ground to build the remainder of our Hadoop environment.
 
 #### Create a Cloud Server
 
-Login to [https://mycloud.rackspace.com](https://mycloud.rackspace.com/)
-and create a cloud server using a Linux image.  Record the IP address
+Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/)
+and create a cloud server using a Linux image. Record the IP address
 and password for the server.
 
 Wait for your server to be in an Available state. We will be using this
@@ -104,9 +100,7 @@ run the following commands:
     export RACKSPACE_ENDPOINT=https://dfw.servers.api.rackspacecloud.com/v2
     curl -L https://raw.github.com/sacharya/random-scripts/master/knife-rackspace-hadoop/chef-knife-install.sh | bash
 
-Note: for information about how to find your API key, see [View and
-reset your API
-key](/how-to/view-and-reset-your-api-key).
+Note: for information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
 This will install the Chef server, knife-rackspace plugin and upload the
 chef hdp-cookbooks, and configure it to talk to Rackspace Cloud using
@@ -131,11 +125,11 @@ We will use a flavor with 4096 MB of RAM for the server.
 #### Creating your Environment
 
 In order not to conflict with other Hadoop clusters within the same
-account, we will create a Chef environment called yourname to create our
+account, we will create a Chef environment called `YourName` to create our
 Hadoop cluster on. We will save this name in an environment variable so
 we can reference it later.
 
-    ENV_NAME=<Your Name>
+    ENV_NAME=<YourName>
     echo $ENV_NAME
 
 Now run the following commands to setup the environment within Chef.
@@ -147,7 +141,7 @@ Now run the following commands to setup the environment within Chef.
 #### Creating a Hadoop Master
 
 This command will create a cloud server with the name,
-yourname-hadoopmaster with CentOS 6.2 and 4 GB RAM.
+YourName-hadoopmaster with CentOS 6.2 and 4 GB RAM.
 
 It will create it in the example environment and give it a role of
 hadoop-master. Chef will then install and configure all the components
@@ -155,7 +149,7 @@ required to make it a Hadoop Master node.
 
     knife rackspace server create --server-name $ENV_NAME-hadoopmaster --image $IMAGE_ID --flavor $FLAVOR_ID --environment $ENV_NAME --run-list 'role[hadoop-master]'
 
-Now, copy the hadoopmaster&rsquo;s public IP and password from the output. We
+Now, copy the hadoopmaster's public IP and password from the output. We
 will save the IP address in an environment variable to use later.
 
     HADOOP_M_IP=<Hadoop Master IP>
@@ -163,7 +157,7 @@ will save the IP address in an environment variable to use later.
 
 Run the following commands:
 
-**Note:** Ideally, you shouldn&rsquo;t have to run the code below, but there
+**Note:** Ideally, you shouldn't have to run the code below, but there
 is currently a bug in the hdp-cookbooks where the hostname is not
 propagated properly. So you have to run this extra step.
 
@@ -180,7 +174,7 @@ Hadoop worker node:
 
     knife rackspace server create --server-name $ENV_NAME-hadoopworker1 --image $IMAGE_ID --flavor $FLAVOR_ID --environment $ENV_NAME --run-list 'role[hadoop-worker]'
 
-Similarly, copy the hadoopworker1&rsquo;s public IP and password at the end.
+Similarly, copy the hadoopworker1's public IP and password at the end.
 We will save the hadoop worker IP address in an environment variable to
 use later.
 
@@ -208,7 +202,7 @@ sampling.
 
     curl -L "https://raw.github.com/sacharya/random-scripts/master/knife-rackspace-hadoop/wordcount.sh" | bash
 
-This script will download all of Shakespeare&rsquo;s books from project,
+This script will download all of Shakespeare's books from project,
 Gutenberg, upload them to HDFS and run a Map Reduce operation run a word
 count against the text.
 
@@ -233,12 +227,10 @@ the server you want to delete.
     knife rackspace server delete `knife rackspace server list | grep $HADOOP_W1_IP | awk '{print $1}'`
 
 Repeat the process for all the servers in the cluster by replacing
-\$HADOOP\_W1\_IP with the IP for the appropriate worker number.
+`$HADOOP_W1_IP` with the IP for the appropriate worker number.
 
-Summary
--------
+### Summary
 
 In this document, we showed you how to interact with the cloud using
 tools and scripts. We also demonstrated how to get started with Apache
 Hadoop on a couple of cloud servers and scale it up with your needs.
-

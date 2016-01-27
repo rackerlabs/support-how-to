@@ -27,8 +27,7 @@ addresses, a maximum of 4 of them can be on an external domain (a domain
 other than that on which the email is configured). These entries must be
 separated by commas.
 
-To set up an email forward for one of your email accounts
----------------------------------------------------------
+### To set up an email forward for one of your email accounts
 
 1.  Log in to the [Cloud Sites Control
     Panel](https://manage.rackspacecloud.com/).
@@ -48,8 +47,7 @@ To set up an email forward for one of your email accounts
 arrive at this mailbox. It will be immediately sent to the forward
 addresses.
 
-To have the mail server retain a copy of the message
-----------------------------------------------------
+### To have the mail server retain a copy of the message
 
 1.  Log in to webmail
     ([http://webmail.emailsrvr.com](http://webmail.emailsrvr.com/ "http://webmail.emailsrvr.com"))

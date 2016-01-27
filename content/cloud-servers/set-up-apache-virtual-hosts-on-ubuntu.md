@@ -13,30 +13,7 @@ product_url: cloud-servers
 Now that Apache is installed and running, you can configure it to serve
 multiple domains by using *virtual hosts*.
 
--   [Create the layout](#Create_the_layout)
--   [Create index.html](#index.html)
--   [Define virtual Hosts](#Virtual_Hosts)
--   [Enable the site](#a2ensite)
--   [Navigate to the site](#Navigate)
--   [Use the ServerAlias](#ServerAlias)
--   [Repeat the process for the other domain](#Repeat_as_necessary)
--   [View log files](#Log_Files)
--   [Default vhost file](#Default)
--   [Set the admin email address](#Email)
--   [Set the domain name](#Domain_Name)
--   [Define the index file](#Index_Files)
--   [Define the documents path](#Documents)
--   [Set the log files](#Log_Files_2)
--   [Define error documents](#Error_Documents)
--   [Define Apache footers](#Apache_Footers)
--   [Enable cgi-bin](#cgi-bin)
--   [Set directory options](#Directory)
--   [Summary](#Summary)
-
-
-
-Create the layout
------------------
+### Create the layout
 
 This example uses two domains: domain1.com and domain2.com.
 
@@ -53,10 +30,7 @@ This example uses two domains: domain1.com and domain2.com.
         mkdir -p public_html/domain1.com/{public,private,log,cgi-bin,backup}
         mkdir -p public_html/domain2.com/{public,private,log,cgi-bin,backup}
 
-
-
-Create index.html
------------------
+### Create index.html
 
 The content of the public folder is up to you, but this example uses a
 very simple HTML file so that you can check the virtual host's work.
@@ -82,13 +56,10 @@ very simple HTML file so that you can check the virtual host's work.
 
 
 
-Define virtual hosts
---------------------
+### Define virtual hosts
 
 Now you have a basic structure for your two domains, you can define two
 virtual hosts.
-
-
 
 ### Review NameVirtualHost
 
@@ -130,7 +101,6 @@ for HTTP requests made on any available interface (\*) at port 80.
 placed a similar setting in the default vhost.
 
 
-
 ### Define custom virtual hosts
 
 Now you are ready to add your own virtual hosts so that you can start to
@@ -168,8 +138,8 @@ The contents looks as follows:
 
 
 
-Enable the site
----------------
+### Enable the site
+
 
 Enable the site as follows:
 
@@ -183,10 +153,7 @@ Run the recommended command:
 
     sudo /etc/init.d/apache2 reload
 
-
-
-Navigate to the site
---------------------
+### Navigate to the site
 
 To test the domain without creating a DNS zone and records on some
 Internet name servers, you can modify the '/etc/hosts' file on your
@@ -219,9 +186,7 @@ site in a web browser on your local computer:
 The contents of public/index.html file is shown.
 
 
-
-Use the ServerAlias
--------------------
+### Use the ServerAlias
 
 Note that in the vhost file, you set a ServerAlias. If you have the DNS
 set up correctly, you can also use that address:
@@ -232,9 +197,7 @@ We'll talk about forcing one address or the other in a later article
 about rewrite rules.
 
 
-
-Repeat the process for the other domain
----------------------------------------
+### Repeat the process for the other domain
 
 To create and enable domain2.com, repeat the process as follows:
 
@@ -259,9 +222,7 @@ To create and enable domain2.com, repeat the process as follows:
 You should see the 'domain2.com' index file.
 
 
-
-View log files
---------------
+### View log files
 
 As defined in the vhosts file, each domain has its own log files.
 
@@ -274,9 +235,8 @@ The output is exactly as expected:
     access.log  error.log
 
 
+### Default vhost file
 
-Default vhost file
-------------------
 
 Although you changed the default virtual host, you did leave it in
 place.
@@ -300,21 +260,17 @@ particular domain to be the default? Do you want the IP address to have
 completely different content?
 
 
+### Set the admin email address
 
-Set the admin email address
----------------------------
 
 Set the email address for the server administrator. This address is used
 if you set up the server to contact you when errors occur. It is also
 shown in the ServerSignature if its value is set to Email. (See the
-section, [Define Apache footers](#Apache_Footers).)
+section **Define Apache footers**.
 
     ServerAdmin webmaster@domain.com
 
-
-
-Set the domain name
--------------------
+### Set the domain name
 
 Set the domain name (ServerName) for the virtual host. You can have as
 many aliases (ServerAlias) as required. For example, you can have
@@ -328,9 +284,7 @@ will serve the same content (assuming you have set the DNS to point to
 your Cloud Server IP).
 
 
-
-Define the index file
----------------------
+### Define the index file
 
 Define the index file (the home page that is shown when the domain
 address is entered). This is useful if you have want the user to be
@@ -343,19 +297,14 @@ might go directly to a nonspecified page, such as domain.com/index.php,
 while the DirectoryIndex value works only for those entering domain.com.
 
 
-
-Define the documents path
--------------------------
+### Define the documents path
 
 Define the location of the domain's public files. Use an absolute path
 name.
 
     DocumentRoot /home/demo/public_html/domain.com/public
 
-
-
-Set the log files
------------------
+### Set the log files
 
 Set the log levels and the location for the virtual hosts' log files.
 
@@ -364,9 +313,7 @@ Set the log levels and the location for the virtual hosts' log files.
     CustomLog /var/log/apache2/access-mydomainname.com.log combined
 
 
-
-Define error documents
-----------------------
+### Define error documents
 
 Set the ErrorDocument, which is used for all the standard error
 messages.
@@ -382,10 +329,7 @@ If error messages are not defined, Apache generates its own error pages.
 Custom error pages are more user friendly and can be customized as much,
 or as little, as you want.
 
-
-
-Define Apache footers
----------------------
+### Define Apache footers
 
 Define ServerSignature to specify whether the server details are
 displayed in any server-generated error pages or index lists. Options
@@ -401,10 +345,7 @@ Apache configuration \#2 NEED LINK article for more details.
 If ServerSignature is set to **Email**, the ServerAdmin email will be
 displayed.
 
-
-
-Enable cgi-bin
---------------
+### Enable cgi-bin
 
 Enable the cgi-bin location as defined by the custom virtual hosts
 layout. You can leave cgi-bin in the DocumentRoot location if you so
@@ -416,9 +357,7 @@ want.
     </Location>
 
 
-
-Set directory options
----------------------
+### Set directory options
 
 Set the options for the specified directory. The following example
 enables the FollowSymLinks option for the public directory of
@@ -429,8 +368,7 @@ domain.com.
 Following are other options that you can set:
 
 
-
-### Directory browsing option
+#### Directory browsing option
 
 To turn off directory browsing, use -Indexes. To turn on directory
 browsing, use +Indexes.
@@ -438,17 +376,14 @@ browsing, use +Indexes.
     Options -Indexes
 
 
-
-### SSI option
+#### SSI option
 
 Enable or disable Server Side Includes. The following example disables
 it.
 
     Options -Includes
 
-
-
-### Symlinks option
+#### Symlinks option
 
 Enable or disable the option to follow symlinks. Be careful with this
 option because it can lead to security risks (inadvertently linking to
@@ -463,9 +398,7 @@ of the target file or directory (in terms of Linux filesystem
 ownership/permissions). This prevents many of the security risks that a
 simple FollowSymlinks directive can create.
 
-
-
-### .htaccess option
+#### .htaccess option
 
 Set AllowOverride to None to disable .htaccess support. Set it to All to
 allow support.
@@ -499,16 +432,13 @@ from external sources:
 all**.
 
 
-
-### No Options
+#### No Options
 
 Specify None to turn off all the available options.
 
     Options None
 
-
-
-### Options hierarchy
+#### Options hierarchy
 
 The options directives can be set per directory, as shown in the
 following example:
@@ -525,9 +455,7 @@ However, the second directory setting would override the first and allow
 .htaccess support for the domain.com/public directory.
 
 
-
-Summary
--------
+### Summary
 
 The virtual hosts file is an easy tool to use but a very powerful one.
 We recommend that you enter one setting and then test it. Then enter the
@@ -535,4 +463,3 @@ next setting and test, and so on.
 
 After you become familiar with it, you will see you have fine control
 over all of your web folders and files.
-

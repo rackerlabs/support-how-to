@@ -10,18 +10,18 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
+**Note:** This article refers to the [Cloud Sites Control
 Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
-**NOTE:**  It's possible to use an easy one-click install process with
+**Note:**  It's possible to use an easy one-click install process with
 Drupal on Cloud Sites instead of the instructions below.  For more
 details, please [see this blog
 post](http://www.rackspace.com/blog/install-drupal-and-joomla-on-rackspace-cloud-sites-with-one-click/).
 
-**Prerequisites**
+### Prerequisites
 
 -   Administrative access to the Rackspace Cloud to create domains and
     add databases
@@ -29,7 +29,7 @@ post](http://www.rackspace.com/blog/install-drupal-and-joomla-on-rackspace-cloud
     local repository.
 -   ftp access to website, and a ftp client like ExpanDrive
 
-**Procedure**
+### Procedure
 
 -   Login to the [Cloud Sites Control
     Panel](http://manage.rackspacecloud.com/pages/Login.jsp%7C "http://manage.rackspacecloud.com/pages/Login.jsp|")
@@ -38,14 +38,14 @@ post](http://www.rackspace.com/blog/install-drupal-and-joomla-on-rackspace-cloud
 -   Navigate the Hosting -&gt;Cloud Sites menu to the website hyperlink
     on which Drupal is to be installed.
 
-NOTE: The domain must have php enabled, and database feature selected.
+**Note:** The domain must have php enabled, and database feature selected.
 The database feature can be added by using the CHANGE PLAN hyperlink on
 the domain **General Settings** tab.
 
 -   Upload Drupal files from the local repository to the desired
     location on the website using FTP - Refer to [Upload content to a
     website using
-    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/knowledge_center/index.php/Uploading_content_to_a_website_using_FTP")
+    FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content "/how-to/getting-started-with-cloud-sites-uploading-your-content")
     -   To integrate Drupal to the root of domain (e.g.
         http://example.com/), place all contents of the unzipped Drupal
         directory (but excluding the directory itself) into the root
@@ -57,7 +57,6 @@ the domain **General Settings** tab.
         directory called "drupal-xx" to "info" and upload it
         to /web/content/.
 
-<!-- -->
 
 -   Next create a new Mysql database (e.g. *prefix*\_drupal62) with
     user (e.g. *prefix*\_drupal62) (Refer to \* [Add a MySQL database to
@@ -67,14 +66,12 @@ the domain **General Settings** tab.
     password d) hostname (not localhost) for use during the
     Drupal installation.
 
-<!-- -->
 
 -   With this, Cloud Sites specific steps are complete. We can get
     started with the installation of Drupal.
 -   Duplicate/copy *default.settings.php* to *settings.php* in the
     /sites/default and ensure write permissions on *settings.php*
 
-<!-- -->
 
 -   Visit the index page of the website, e.g. visit:
     http://www.example.com/info
@@ -113,7 +110,7 @@ the domain **General Settings** tab.
 -   For better performance and to reduce use of compute Cloud Sites
     compute cycles, turn on normal caching.
 
-**Additional Resources**
+### Additional Resources
 
 -   Add new content using the Drupal help and documentation at
     <http://drupal.org/handbooks>

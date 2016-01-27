@@ -1,6 +1,6 @@
 ---
 node_id: 131
-title: Should I upload files as ASCII or binary?
+title: Upload files as ASCII or binary
 type: article
 created_date: '2011-03-15'
 created_by: Rackspace Support
@@ -25,6 +25,3 @@ of file you are uploading. If you plan on using the AUTO feature, make
 sure you check the program&rsquo;s list of ASCII file extensions; any file not
 included in the program&rsquo;s list of ASCII extensions will be uploaded in
 BINARY.
-
-
-
