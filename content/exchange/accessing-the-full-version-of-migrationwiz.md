@@ -40,9 +40,9 @@ consider how that choice can affect migration costs and support procedure.
 
 When migrating to Rackspace Email and Apps, users will receive
 the discounted rate of $4.99 per mailbox only when purchased via
-the Private Label Portal at http://rackspace.selfmigration.com.  
+the Private Label Portal at <http://rackspace.selfmigration.com>.  
 
-If purchasing licenses through http://migrationwiz.com, those licenses
+If purchasing licenses through <http://migrationwiz.com>, those licenses
 will be listed at the retail price of $11.99 per mailbox.  In order
 to take advantage of the discounted rate in the full version of
 MigrationWiz, licenses must first be purchased in the Private Label
