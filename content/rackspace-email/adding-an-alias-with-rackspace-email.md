@@ -1,6 +1,6 @@
 ---
 node_id: 933
-title: Add an alias With Rackspace Email
+title: Add an alias with Rackspace Email
 type: article
 created_date: '2012-01-18'
 created_by: Rae D. Cabello
