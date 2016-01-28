@@ -10,9 +10,6 @@ product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
 
-Overview
---------
-
 Cloud computing is creating significant shifts in the way information
 technology is provisioned and consumed. This also kicks off a challenge
 to cloud service providers find innovative ways to adhere to the high
@@ -25,8 +22,7 @@ required to operate a cloud. This paper describes the SeaMicro fabric,
 architecture, and tips to realize a compute cloud using Rackspace
 Private Cloud Software (RPCS).
 
-The SeaMicro SM15000&trade;
----------------------
+### The SeaMicro SM15000&trade;
 
 The AMD SeaMicro SM15000&trade; brings compute, networking, and a
 super-compute fabric together in a single 10 Rack Unit (RU) chassis. It
@@ -67,8 +63,7 @@ In cases of high congestion, the traffic is prioritized using virtual
 channels. Storage traffic is always given the highest priority to avoid
 interruption.
 
-OpenStack Compute
------------------
+### OpenStack Compute
 
 OpenStack Compute, code named Nova, is the cloud operating system to
 launch and organize a compute cloud, which includes creating and running
@@ -97,8 +92,7 @@ the cloud.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/masscompute_1-web.jpg" width="600" height="398" />
 
-Recommended architecture
-------------------------
+### Recommended architecture
 
 AMD SM15000&trade; brings a good balance between storage, compute, and
 networking.  The SM15000&trade; comes with 64 compute cards, 64 internal
@@ -131,24 +125,21 @@ Each SeaMicro fabric comes with 6 slots for AC/DC power supplies and 4
 optional slots. Failure of a single power supply doesn&rsquo;t have any impact
 on the system availability and operation.
 
-Installation
-------------
+### Installation
 
 Installation of RPCS is well documented in the following article:
 
 [Getting Started with Rackspace Private Cloud -
 OpenStack](/how-to/rpc-openstack "/how-to/rpc-openstack")
 
-Conclusion
-----------
+### Conclusion
 
 AMD SM15000&trade; provides an efficient combination of compute, storage, and
 networking in a compact box and is a strong choice for creating compute
 cloud in a box. It consumes less space and power compared to other
 solutions, and is just one system to manage.
 
-References
-----------
+### References
 
 <http://www.seamicro.com/products/SM15000>
 
