@@ -12,29 +12,27 @@ product_url: cloud-images
 
 <p>The <a href="http://www.rackspace.com/information/legal/cloud/tos" target="_blank">Rackspace Cloud Terms of Service</a> refer to standard and non-standard images. &nbsp;This article provides more detail about those terms.</p>
 
-<h2>Standard Images</h2>
+###Standard Images
 
 <p>Standard images are all the base images supplied by Rackspace for your service level and RackConnect status that have not yet reached end of life status.</p>
 
-<h2>Non-Standard Images</h2>
+###Non-Standard Images
 
 <p>Any images that are not standard for your account's service level and RackConnect status are non-standard. The following images are considered non-standard images. Note that this list is not exhaustive.</p>
 
-<ul>
-	<li>All imported and exported images</li>
-	<li>All end of life Images</li>
-	<li>Any shared images that you receive</li>
-	<li>The boot.rackspace.com image and any customer-created images derived from it</li>
-</ul>
+-    All imported and exported images
+-    All end of life Images
+-    Any shared images that you receive
+-    The boot.rackspace.com image and any customer-created images derived from it
 
-<h2>Support for Non-Standard Images</h2>
+###Support for Non-Standard Images
 
 <p>Any non-standard images are subject to Rackspace's Managed Infrastructure policies. Please see <a href="http://www.rackspace.com/cloud/service-levels/" title="Explanation of Rackspace service levels">http://www.rackspace.com/cloud/service-levels/</a>&nbsp;for an explanation of Rackspace service levels.</p>
 
-<h2>Pricing</h2>
+###Pricing
 
 <p>Although there is no separate fee for using Cloud Images, you will incur indirect costs for underlying services that you use.</p>
 
-<h2>How Can I Determine if an Image is Standard or Non-Standard?</h2>
+###How Can I Determine if an Image is Standard or Non-Standard?
 
-<p>Please see <a href="/how-to/identifying-rackspace-standard-images">Identifying Rackspace Standard Images</a>.</p>
+Please see <a href="/how-to/identifying-rackspace-standard-images">Identifying Rackspace Standard Images</a>.
