@@ -1,6 +1,6 @@
 ---
 node_id: 4556
-title: Rackspace hosted email system - daily sending limit
+title: Daily sending limit for Rackspace hosted email systems
 type: article
 created_date: '2015-02-10'
 created_by: Sterling Mcneill
@@ -25,4 +25,3 @@ Automated email and spam are restricted at much lower limits to protect
 the integrity of the system. Rackspace reserves the right to change any
 limits without warning or notice to ensure the integrity of the email
 service.
-
