@@ -59,19 +59,18 @@ Services, not all information in this article will apply to all such
 services. For more detail about which Support Services can meet your
 needs, please contact a sales associate.
 
-Rackspace Private Cloud powered by OpenStack Security Configuration Options
----------------------------------------------------------------------------
+### Rackspace Private Cloud powered by OpenStack Security Configuration Options
 
 OpenStack offers a variety of options on how to secure a private cloud.
 
-### Authentication/Identity Management
+#### Authentication and identity management
 
 Within our OpenStack private cloud, identities can be authenticated
 using either internal or external authentication protocols like: LDAP
 and Active Directory. This allows enterprises to reuse their existing
 identity management infrastructure.
 
-### Authorization/Role Management
+#### Authorization and role management
 
 Rackspace Private Cloud powered by OpenStack provides preconfigured
 roles and role assignment. Roles provide fine-grained authorization over
@@ -86,7 +85,7 @@ For example, a 'Cloud Operator' role might be configured to:
 -   Add additional storage to a zone
 -   View an availability zone but not create one
 
-### Host Operating Systems
+#### Host operating systems
 
 Rackspace Private Cloud powered by OpenStack recommends hardening the
 host Operating Systems. Many current Private Cloud customers currently
@@ -94,7 +93,7 @@ do this and our Openstack private cloud team will collaborate with
 customers to recommend a strategy based upon current corporate
 standards.
 
-### Guest/VM Operating Systems
+#### Guest/VM operating systems
 
 The OpenStack Image Service (based on the Glance project), as
 implemented in our OpenStack private cloud, can be integrated into an
@@ -103,7 +102,7 @@ allows the use of an organizations existing, hardened images. Please
 consult with the OpenStack private cloud team for a list of the latest
 supported base Operating Systems.
 
-### Multi-Tenancy
+#### Multi-tenancy
 
 Rackspace Private Cloud powered by OpenStack, is just that, a private
 cloud OpenStack platform in a dedicated physical environment. A core
@@ -121,7 +120,7 @@ and recommend an appropriate solution.
 Similarly, this practice also extends down into the storage platform by
 leveraging the OpenStack Identity security service.
 
-### Communication
+#### Communication
 
 Rackspace Private Cloud powered by OpenStack separates management and
 internal service traffic onto separate networks. Management networks are
@@ -133,8 +132,7 @@ Looking forward, OpenStack's security groups are actively advancing
 Firewall-as-a-Service and other OpenStack networking features enabling
 multiple levels of software defined network isolation.
 
-Operational Security
---------------------
+### Operational security
 
 Rackspace's hosting policies and procedures set a high standard that
 each employee, consultant, and third-party service provider is required
@@ -181,40 +179,40 @@ including identifying any logistical steps needed.
 Division of key functions and responsibilities is based upon where the
 OpenStack private cloud is deployed.
 
-**If Rackspace Private Cloud powered by OpenStack with Core Support is
-hosted at Rackspace**, this is how security responsibilities are divided
+If Rackspace Private Cloud powered by OpenStack with Core Support is
+hosted at Rackspace, this is how security responsibilities are divided
 between Rackspace and the customer:
 
--   *Rackspace* has primary responsibility for:
-    -     Hardware & Data Center
+-   Rackspace has primary responsibility for:
+    -     Hardware & data center
     -     Networking
-    -     RPC Host OS
-    -     Backup (Host OS)
+    -     RPC host OS
+    -     Backup (host OS)
     -     RPC Components
     -     Patching RPC
     -     RPC Upgrades
     -     Cloud Capacity Planning
--   *Either the customer or Rackspace* has primary responsibility for:
+-   Either the customer or Rackspace has primary responsibility for:
     -     Monitoring RPC
--   *The customer* has primary responsibilty for:
+-   The customer has primary responsibilty for:
     -     Guest OS Imaging Creation and Patching
     -     Instance Deployment
     -     Application Management
 
-**If Rackspace Private Cloud powered by OpenStack with Core Support is
-hosted at a customer or third-party data center**, this is how security
+If Rackspace Private Cloud powered by OpenStack with Core Support is
+hosted at a customer or third-party data center, this is how security
 responsibilities are divided between Rackspace and the customer:
 
--   *Rackspace* has primary responsibility for
+-   Rackspace has primary responsibility for
     -     RPC Components
--   *Either the customer or Rackspace* has primary responsibility for
+-   Either the customer or Rackspace has primary responsibility for
     -     RPC Host OS
     -     Backup (Host OS)
     -     Patching RPC
     -     Monitoring RPC
     -     RPC Upgrades
     -     Cloud Capacity Planning
--   *The customer* has primary responsibilty for
+-   The customer has primary responsibilty for
     -   Hardware & Data Center
     -   Networking
     -   Guest OS Imaging Creation and Patching
@@ -226,7 +224,7 @@ and supported by Rackspace, the Rackspace Support team is willing to
 work with customers to understand their specific security standards and
 derive a solution that meets or exceeds those standards.
 
-### Data Security/Backup
+#### Data Security and backup
 
 Our OpenStack private cloud allows 3rd party encryption tools to be used
 throughout the infrastructure, including SSL/TLS certifications and
@@ -244,13 +242,12 @@ monitor the cloud environment and proactively reach out to customers
 when actions are required. Rackspace recommends and most customers wish
 to provide an approval prior to any changes being made.
 
-Physical Security
------------------
+### Physical Security
 
 For OpenStack private clouds hosted at a Rackspace Data Center, physical
 security concerns are addressed across the data center and network.
 
-### Data Center
+#### Data Center
 
 Rackspace Private Cloud powered by OpenStack is available in Rackspace
 datacenters globally. Rackspace data centers physical security
@@ -306,8 +303,7 @@ rules:
 -   Data center management performs a monthly audit of security and
     visitor access logs
 
-Network Security
-----------------
+### Network Security
 
 Whether deployed at Rackspace or within a customer's data center,
 network security is as equally important as physical security and
@@ -318,7 +314,7 @@ variety of ways. Rackspace Private Cloud Architects and Support team
 will work with customers to help identify and develop an appropriate
 solution to meet their current and future needs.
 
-### Network Security within a Rackspace Datacenter
+#### Network Security within a Rackspace Datacenter
 
 All Rackspace network infrastructure devices are located in a physically
 secure data center with controlled access. All visitors or authorized
@@ -353,8 +349,7 @@ include anti-spoofing controls and IP prefix-lists, as well as Unicast
 Reverse Path Forwarding (URPF) protocols in place at edge routers in
 data centers hosting cloud environments.
 
-Recommended Customer Controls
------------------------------
+### Recommended Customer Controls
 
 When hosted at Rackspace, Rackspace infrastructure controls are designed
 to protect cloud resources from attack within the environment,
