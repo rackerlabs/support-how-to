@@ -10,8 +10,7 @@ product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
 
-Overview
---------
+### Overview
 
 Rackspace Private Cloud powered by OpenStack lets you create virtual
 instances that you can use to run any kind of applications. However,
@@ -23,28 +22,17 @@ style="line-height: 1.538em;">This document gives a brief overview of
 architecture and the components involved and the process to configure
 your instances for backup.</span>
 
-
-=
-
-Prerequisites
-=============
+### Prerequisites
 
 This document assumes the following:
 
--   <span style="line-height: 1.538em;">A Rackspace Private Cloud
-    Software cluster (at least one controller, and one compute node, or
-    an all-in-one and additional compute node)</span>
+-   A Rackspace Private Cloud Software cluster (at least one controller, and one compute node, or
+    an all-in-one and additional compute node)
 
-<!-- -->
+-   CommVault Simpana&reg; Software version 9 or later
 
--   <span style="line-height: 1.538em;">CommVault Simpana&reg; Software
-    version 9 or later</span>
 
-** **
------
-
-**Backup Infrastructure**
--------------------------
+### Backup Infrastructure
 
 CommVault Simpana&reg; software is built from the ground up on a single
 platform for integrated data protection and management. IT organizations
@@ -77,19 +65,15 @@ Rackspace Private Cloud and performs the backup and restore operations.
 Any instance that needs to be backed up should have this agent installed
 and registered to the backup infrastructure.
 
-** **
-
-**Architecture Recommendations:**
+### Architecture Recommendations
 
 The following diagram illustrates the different components of CommVault
 software and how they work with Rackspace Private Cloud. Typically, you
 run the CommServe and Media Agents outside the private cloud, so your
 back infrastructure can stay up independent of the cloud.
 
-<span style="line-height: 1.538em;">Using the CommCell GUI, source-side
-de-duplicated backups can be configured and automated to identify what
-data needs to be protected, how long to retain the protected data, and
-where to store a copy of the data.</span>
+Using the CommCell GUI, source-side de-duplicated backups can be configured and automated to identify what
+data needs to be protected, how long to retain the protected data, and where to store a copy of the data.
 
 The specifics of your layout will depend on several factors, like your
 storage requirements, policies, and existing infrastructure, if any. For
@@ -98,24 +82,18 @@ considerations, you can to talk to a CommVault Systems Engineer.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/commvault_rackspace_openstack_layout.png" class="image-half_width" width="375" height="271" />
 
-Agent Installation
-------------------
+### Agent Installation
 
 Multiple options are available for installing the Simpana iDataAgent in
 an OpenStack VM. The configuration of the iDataAgent can be automated by
 booting new VMs off of VM images with the iDataAgent preinstalled and
 preconfigured for your environment.
 
-
-
-Conclusion
-----------
+### Conclusion
 
 CommVault Simpana software has been tested and validated to work with
 Rackspace Private Cloud to perform file-level backup and recovery of
 data inside individual instances. OpenStack virtual machines can easily
 be protected in an existing CommVault infrastructure or a new
 deployment.
-
-
 
