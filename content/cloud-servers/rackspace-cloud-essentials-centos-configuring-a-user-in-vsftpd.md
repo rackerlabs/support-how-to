@@ -49,4 +49,4 @@ basic tweaks to their access level.
 
 ### Next steps
 
-Return to the [Cloud Servers introduction page](/how-to/cloud-servers) and chose the applicable option for DNS & Domain Management.
+Return to the [Cloud Servers introduction page](/how-to/cloud-servers) and choose the applicable option for DNS & Domain Management.

@@ -37,7 +37,7 @@ need:
 
        sudo yum install vsftpd
 
-2. Using the service command, this is how you start up vsftpd:
+2. To start up vsftpd, run the following service command:
 
        sudo service vsftpd start
 
@@ -114,7 +114,7 @@ Create the chroot_list file so you do not get an error when restarting:
 
     sudo touch /etc/vsftpd/chroot_list
 
-### Configure Firewall
+### Configure firewall
 
 -  Open ports in your firewall by running the following:
 
