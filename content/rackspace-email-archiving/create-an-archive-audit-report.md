@@ -48,30 +48,30 @@ To create an archive audit report, perform the following steps:
 4\. From the **Choose report** dropdown menu, select one of the
     following report types:
 
-    -   **Activity by User**&mdash;This report lists all users, their actions,
-        the date of the actions, and the number of times that the
-        actions were performed.
+-   **Activity by User**&mdash;This report lists all users, their actions,
+    the date of the actions, and the number of times that the
+    actions were performed.
 
-    -   **Activity by UI Action**&mdash;This report lists all actions in
-        alphabetical order, the users that performed the actions, the
-        date, and the number of times that the actions were performed.
+-   **Activity by UI Action**&mdash;This report lists all actions in
+    alphabetical order, the users that performed the actions, the
+    date, and the number of times that the actions were performed.
 
-    -   **Activity by Date**&mdash;This report lists by date the users who
-        performed actions, the action performed, and the number of times
-        that the actions were performed.
+-   **Activity by Date**&mdash;This report lists by date the users who
+    performed actions, the action performed, and the number of times
+    that the actions were performed.
 
-    -   **Collection by Mailbox**&mdash;A collection indexes gathered email
-        data and makes it searchable. This occurs automatically nightly.
-        This report lists mailboxes, the number of email messages
-        collected, the data size, and the date collected. These
-        mailboxes are not your user mailboxes; they are collection
-        points, and there is usually just one per account.
+-   **Collection by Mailbox**&mdash;A collection indexes gathered email
+    data and makes it searchable. This occurs automatically nightly.
+    This report lists mailboxes, the number of email messages
+    collected, the data size, and the date collected. These
+    mailboxes are not your user mailboxes; they are collection
+    points, and there is usually just one per account.
 
-    -   **Collection by Date**&mdash;A collection indexes gathered email data
-        and makes it searchable. This occurs automatically nightly. This
-        report lists the dates of collections, the number of email
-        messages collected, the data size, and the mailbox collection
-        point.
+-   **Collection by Date**&mdash;A collection indexes gathered email data
+    and makes it searchable. This occurs automatically nightly. This
+    report lists the dates of collections, the number of email
+    messages collected, the data size, and the mailbox collection
+    point.
 
 
 5\. For **Format option**, select whether you want the report in **PDF**
