@@ -15,8 +15,7 @@ use `sosreport` tool to help troubleshoot their Rackspace Private Cloud
 environment. It is assumed that you have successfully installed a cloud
 with Rackspace Private Cloud Software and are familiar with OpenStack.
 
-The SOS Tool
-----------------
+### The SOS Tool
 
 Rackspace Private Cloud Software installs the [`sosreport` tool for
 Ubuntu](https://github.com/sosreport/sosreport), which can be used to
@@ -25,8 +24,7 @@ Support troubleshoot issues in your Rackspace Private Cloud environment.
 The `sosreport` package is installed from the [OS Ops team
 PPA](https://launchpad.net/~osops-packaging/+archive/ppa).
 
-sosreport Command List
---------------------------
+### sosreport Command List
 
 The complete list of `sosreport` options is displayed with
 `sosreport --help`.
@@ -69,19 +67,14 @@ Options:
                         xz] (default=auto)
 ```
 
-<div class="section" title="Using sosreport">
-
-Using sosreport
--------------------
+### Using sosreport
 
 Before you begin to use `sosreport`, log into the node with the OS
 username and password that you created during the installation process.
 Once you are successfully logged in, use <span class="command">**sudo
 -i**</span> to switch to root access.
 
-<div class="section" title="Generating a report">
-
-### Generating a report
+#### Generating a report
 
 To generate a basic report with default settings, run the command on the
 command line:
@@ -91,7 +84,7 @@ $ sosreport
 ```
 
 You will be prompted to confirm that you want to generate the report.
-Press <span class="bold">**Enter**</span> to continue.
+Press **Enter** to continue.
 
 At the prompt, enter your first initial and last name. If you have been
 assigned a case number by your Rackspace support representative, enter
@@ -116,20 +109,16 @@ The checksum is: acfcceaa72242483edece9e3b97687f1
 You can now send the `.tar.xz`{.filename} file to Rackspace Support.
 
 If required, you can run `sosreport` with additional reporting options.
-For example, the <span class="command">**--diagnose**</span> option
-includes diagnostic options, and the <span
-class="command">**--report**</span> option generates an html-formatted
+For example, the **--diagnose** option
+includes diagnostic options, and the **--report** option generates an html-formatted
 list of the files copied in the report. Include additional options if
 requested by Rackspace Support.
 
-<div class="section" title="sosreport plugins">
-
-### sosreport plugins
+#### sosreport plugins
 
 Depending on your issue and the instructions of Rackspace Support, you
 may need to disable or enable certain plugins when the report is
-generated. To view a full list of the plugins, use <span
-class="command">**sosreport -l**</span>. The output will be similar to
+generated. To view a full list of the plugins, use **sosreport -l**. The output will be similar to
 the following example.
 
 ``` {.screen}
@@ -213,10 +202,3 @@ report.
     ``` {.screen}
     $ sosreport -k general.all_logs=on
     ```
-
-</div>
-
-</div>
-
-</div>
-
