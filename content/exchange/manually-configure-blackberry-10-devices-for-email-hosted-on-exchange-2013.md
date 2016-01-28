@@ -13,65 +13,48 @@ product_url: exchange
 The following steps are required to configure Microsoft Exchange 2013 on
 a Blackberry 10 Phone:
 
-<div class="content">
+1. Locate the **Settings** options from within your home menu.
 
-<div
-class="field field-name-body field-type-text-with-summary field-label-hidden">
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_25_0.png" width="234" height="388" />
 
-<div class="field-items">
+2. Select **Accounts**.
 
-<div class="field-item even">
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_22_0.png" width="234" height="388" />
 
-1.  Locate the **Settings** options from within your home menu.
+3. Select **Advanced** from the bottom of the screen, or you may need to
+   select the **Add Account** first if you already have an account set up.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_25_0.png" width="234" height="388" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3_20_0.png" width="234" height="388" />
 
-2\. Select **Accounts**.
+4. Select **Microsoft&reg; Exchange ActiveSync**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_22_0.png" width="234" height="388" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_13_0.png" width="234" height="388" />
 
-3\. Select **Advanced** from the bottom of the screen, or you may need to
-select the **Add Account** first if you already have an account setup.
+5. Enter your full Email Address, Server Address and Password for your
+   account. Leave the Domain field blank and enter the following address
+   for Server: **mex06.emailsrvr.com**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3_20_0.png" width="234" height="388" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5_13_0.png" width="234" height="388" />
 
-4\. Select **Microsoft&reg; Exchange ActiveSync**.
+   Leave all other settings at their defaults, then select **Next**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_13_0.png" width="234" height="388" />
+   **Note:** Your username is the same as your email address.
 
-5\. Enter your full Email Address, Server Address and Password for your
-account. Leave the Domain field blank and enter the following address
-for Server: **mex06.emailsrvr.com**
+6. Confirm which personal information you would like to sync from your
+   Exchange mailbox to your Blackberry, then select **Done**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5_13_0.png" width="234" height="388" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6_14_0.png" width="236" height="389" />
 
-Leave all other settings at their defaults, then select **Next**.
+7. Wait for your Blackberry to complete verifying your settings.
 
-**Note:** Your username is the same as your email address.
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7_7_0.png" width="234" height="388" />
 
-6\. Confirm which personal information you would like to sync from your
-Exchange mailbox to your Blackberry, then select **Done**.
+8. When this is complete, you will see your list of accounts as well as
+   the new account that was setup.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6_14_0.png" width="236" height="389" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8_5_0.png" width="236" height="389" />
 
-7\. Wait for your Blackberry to complete verifying your settings.
+9. To check for new messages, swipe up from the bottom of the screen then
+   to the right, and then select your Mail account to view your inbox.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7_7_0.png" width="234" height="388" />
-
-8\. When this is complete, you will see your list of accounts as well as
-the new account that was setup.
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8_5_0.png" width="236" height="389" />
-
-9\. To check for new messages swipe up from the bottom of the screen then
-to the right, and then select your Mail account to view your inbox.
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/9_4_0.png" width="476" height="388" />
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/9_4_0.png" width="476" height="388" />
