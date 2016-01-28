@@ -4,18 +4,18 @@ title: Manually configure Android devices for email hosted on Exchange 2007
 type: article
 created_date: '2012-05-25'
 created_by: Rae D. Cabello
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-The following article below will get your Microsoft Exchange 2007 email
-account setup on your Android Device using the Activesync technology.
-Let's take a look at the following steps below to get you going:
+The following steps are required to configure Microsoft Exchange 2007 on
+most Android devices:
 
-*Note: The following article is a general guide for setting up all
-Android devices. The steps may vary depending on the OS you're running.*
+**Note:** Before you can begin, your administrator must 
+[Add an ActiveSync license](/how-to/add-an-activesync-or-bes-license)
+and assign it to your email address.
 
 1\. After your administrator has purchased an **Activesync** license and
 assigned it to your email address, you'll want to log into your **User
@@ -63,4 +63,3 @@ done correctly.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6_4.png" width="287" height="509" />
  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7_1.png" width="286" height="508" />
-

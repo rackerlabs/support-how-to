@@ -4,17 +4,18 @@ title: Manually configure Android devices for email hosted on Exchange 2010
 type: article
 created_date: '2013-09-20'
 created_by: Marco Salazar
-last_modified_date: '2015-05-01'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article describes how to set up your new Android phone with your
-Exchange 2010 email account.
+The following steps are required to configure Microsoft Exchange 2010 on
+most Android devices:
 
-**Note:** The administrator of your account must add ActiveSync to your
-email through their Administrative Control Panel.
+**Note:** Before you can begin, your administrator must
+[Add an ActiveSync license](/how-to/add-an-activesync-or-bes-license)
+and assign it to your email address.
 
 1.  Tap the **Settings** icon, and then tap **Accounts and Sync**.
 
@@ -63,4 +64,3 @@ email through their Administrative Control Panel.
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.%20Finalize.png" width="217" height="386" />
 
 Your Android phone and Microsoft Exchange account are now synchronized.
-

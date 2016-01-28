@@ -4,17 +4,18 @@ title: Manually configure Android devices for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-31'
 created_by: Mawutor Amesawu
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-27'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 The following steps are required to configure Microsoft Exchange 2013 on
-most Android phones/tablets:
+most Android devices:
 
-*Note: The administrator of your account will need to add ActiveSync to
-your email throught their Administrative Control Panel*
+**Note:** Before you can begin, your administrator must
+[Add an ActiveSync license](/how-to/add-an-activesync-or-bes-license)
+and assign it to your email address.
 
 1.  Tap on the system **Settings**.
 
@@ -70,6 +71,3 @@ your email throught their Administrative Control Panel*
 8.  Give your account a descriptive name and tap **Finish Setup**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.%20Finalize_1.png" width="217" height="386" />
-
-
-
