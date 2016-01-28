@@ -20,7 +20,7 @@ drive.
 
 From the Desktop of your Windows Server 2012 Cloud Server, open
 the **Server Manager** and select **Tools > Computer
-Management**.** **
+Management**.
 
 ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/tools_computer_manager.png)
 

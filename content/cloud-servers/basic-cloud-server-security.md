@@ -15,15 +15,15 @@ setting up security.
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
+[Create a Cloud Server](/how-to/create-a-cloud-server)
 
 Although Rackspace Cloud has taken steps to make your default Cloud
 Server image as secure as possible, the first line of defense lies in
 the hands of you, our customer.  Follow these steps immediately after
 creating your Cloud Server to help protect the integrity of your data.
-(**Note:** The commands in this article are meant for Ubuntu.  Small
-modifications may be required for other distributions.)
+
+**Note:** The commands in this article are meant for Ubuntu.  Small
+modifications may be required for other distributions.
 
 ### Log in
 
@@ -93,10 +93,10 @@ and nano has been opened again.
 ### SSH keygen
 
 One effective way of securing SSH access to your cloud server is to use
-a **public/private** key.  This means that a 'public' key is placed on
-the server and the 'private' key is on your local workstation. This
+a **public/private** key.  This means that a *public* key is placed on
+the server and the *private* key is on your local workstation. This
 makes it impossible for someone to log in using just a password - they
-must have the private key.  This consists of 3 basic steps: create the
+must have the private key. This consists of 3 basic steps: create the
 key on your local workstation, copy the public key to the Cloud Server,
 and set the correct permissions for the key.
 

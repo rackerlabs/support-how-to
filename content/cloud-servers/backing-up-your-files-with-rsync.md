@@ -46,7 +46,7 @@ What does this mean? Well, if you want to automate your backups, you
 will need to ensure the destination server (where the backup directory
 is) has access to the originating server.
 
-In my case, I have setup ssh keys so I don't need to enter a password
+In my case, I have set up ssh keys so I don't need to enter a password
 each time I attempt to rsync my home folder. It's perfectly fine not to
 do it that way, but you will need to enter the password each time you
 rsync.
@@ -59,40 +59,40 @@ So on the destination server, the command I would give is as follows:
 
 Let's go through the command in order:
 
-**-e 'ssh -p 30000'**: this ensures rsync uses the SSH protocol and sets the
+-  **-e 'ssh -p 30000'**: this ensures rsync uses the SSH protocol and sets the
 port.
 
-**-avl**: This contains three options:
+-  **-avl**: This contains three options:
 
--  (a) is archive mode which basically keep the permission settings for the
+    -  (a) is archive mode which basically keep the permission settings for the
 files.
--  (v) is verbose mode. You can leave it out or increase it by
+    -  (v) is verbose mode. You can leave it out or increase it by
 appending two v's (-vv).
--  (l) preserves any links you may have created.
+    -  (l) preserves any links you may have created.
 
-**--delete**: deletes files from the destination folder that are no longer
+-  **--delete**: deletes files from the destination folder that are no longer
 required (i.e. they have been deleted from the folder being backed up).
 
-**--stats**: Adds a little more output regarding the file transfer status.
+-  **--stats**: Adds a little more output regarding the file transfer status.
 
-**--progress**: shows the progress of each file transfer. Can be useful to
+-  **--progress**: shows the progress of each file transfer. Can be useful to
 know if you have large files being backup up.
 
-**demo@123.45.67.890:/home/demo**: The originating folders to backup.
+-  **demo@123.45.67.890:/home/demo**: The originating folders to backup.
 
-The syntax here is very important - naturally you need the username and
+  The syntax here is very important - naturally you need the username and
 IP address of the originating server - but note in this example there is
 no trailing slash (/).
 
-If you leave the trailing slash off, the named folder and contents will
+  If you leave the trailing slash off, the named folder and contents will
 be downloaded. So in this case I would have a folder called **demo** in my
 backup directory.
 
-If I added the trailing slash (demo@123.45.67.890:/home/demo/) then I
+  If I added the trailing slash (**demo@123.45.67.890:/home/demo/**) then I
 would have the contents of demo in my backup. So I may have folders
 called **public_html** or **configs** or **bin** and so on.
 
-**/backup/**: Identifies the folder on the backup server to place the files.
+-  **/backup/**: Identifies the folder on the backup server to place the files.
 
 ### Output
 
