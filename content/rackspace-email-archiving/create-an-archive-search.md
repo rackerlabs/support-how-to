@@ -33,16 +33,16 @@ in Cloud Office.
 5\. Click the tab for the type of search and choose from four different
     search types:
     
-    -   **Simple**&mdash;Search for text in messages or attachments.
+-   **Simple**&mdash;Search for text in messages or attachments.
 
-    -   **Wizard**&mdash;Add conditions to the search query and inspect all
-        parts of the message, including sender, recipient, subject,
-        body, and attachment.
+-   **Wizard**&mdash;Add conditions to the search query and inspect all
+    parts of the message, including sender, recipient, subject,
+    body, and attachment.
 
-    -   **Advanced**&mdash;Search by sender, recipient, subject, body, and
-        attachment with greater fine-tuning control. For more
-        information, see "Advanced Search" after these
-        steps.
+-   **Advanced**&mdash;Search by sender, recipient, subject, body, and
+    attachment with greater fine-tuning control. For more
+    information, see "Advanced Search" after these
+    steps.
 
 6\. Enter a name for the search.
 
@@ -57,16 +57,16 @@ in Cloud Office.
 
 9\. You now can chose any optional parameters for the search.
 
-    -   **Dates** allows you to select when dates you want the search to
+-   **Dates** allows you to select when dates you want the search to
         include.
 
-    -   **Tags** assist in categorizing searches.Tags can be predefined
-        under the **Settings** tab. To access predefined tags, click
-        **Tags** on the **New Search** page.
+-   **Tags** assist in categorizing searches.Tags can be predefined
+    under the **Settings** tab. To access predefined tags, click
+    **Tags** on the **New Search** page.
 
-    -   **Legal hold** allows you to sort out results on legal hold.
+-   **Legal hold** allows you to sort out results on legal hold.
 
-    -   **Note** allows you to describe the search.
+-   **Note** allows you to describe the search.
 
 10\. Click **Permissions** and designate which users can access, change
     the scope of, or export the search.
