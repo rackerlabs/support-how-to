@@ -25,10 +25,10 @@ Services Edition add-on, consider using
 Alternatively, you can set up your account using IMAP as described at
 [Help tool for hosted email and Skype for Business](/how-to/help-tool-for-hosted-email-and-skype-for-business).
 
-1. Open up Entourage and select **Tools**, **Accounts**, **New** and
+1. Open Entourage and select **Tools**, **Accounts**, **New** and
    then **Exchange**.
 
-   **Note:** If the setup assistant window appears select **Configure Account
+   **Note:** If the setup assistant window appears, select **Configure Account
    Manually**, select **New**, and then **Exchange**.
 
    ![](http://c939102.r2.cf2.rackcdn.com/(E%26A)Entourage2008EWSExchange.png)
