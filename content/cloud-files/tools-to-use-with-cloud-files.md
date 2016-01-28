@@ -20,12 +20,12 @@ The following tools are some of the methods you can use to upload and manage con
     1. Django-Cloudfiles only uploads files that have been modified (but can force upload-all)
     2. It can create a new container for you
     3. It preserves your file hierarchy by naming your remote files such that they emulate nested directories: no need to flatten your existing structure!
-    4. You can store credentials in your site’s configuration file (for easy use) or specify them on the command line (for greater security)
-    5. It ignores files you probably don’t want to upload, like .DS_Store, .git, and Thumbs.db.
+    4. You can store credentials in your site's configuration file (for easy use) or specify them on the command line (for greater security)
+    5. It ignores files you probably don't want to upload, like .DS_Store, .git, and Thumbs.db.
     6. Plug-ins for the Django management system do exist (e.g. django-extensions), but none integrate with Cloudfiles yet (or any CDN to my knowledge)
     7. A simple drop-in (no coding necessary)
     8. No external dependancies required
     9. Django is all about reusability; Django developers always look for an existing solution first (like this one)!
-    10. Django is gaining steam: it’s supported by Google App Engine, and it is gaining traction.
+    10. Django is gaining steam: it's supported by Google App Engine, and it is gaining traction.
 
-**Media manager** plug-in will mirror your media library to your Cloud Files CDN. All URL’s to this content will use the Cloud Files path when you insert them via the media manager. You can import all of your media to the CDN.
+**Media manager** plug-in will mirror your media library to your Cloud Files CDN. All URL's to this content will use the Cloud Files path when you insert them via the media manager. You can import all of your media to the CDN.
