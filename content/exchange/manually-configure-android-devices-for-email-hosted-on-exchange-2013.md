@@ -45,13 +45,13 @@ and assign it to your email address.
 
 6.  On the next page, add in the rest of the necessary information:
 
-    -   Email address: your email address ("**test@emailcompany.org**")
+    -   Email address: your email address (for example, **test@example.org**)
     -   Server Address: **mex06.emailsrvr.com**
     -   Domain: (**Leave this blank**)
     -   Username: your email address again.
     -   Some devices may have the settings as domain\\username. On those
         Devices the field should have a "**\\**" before your
-        email address. (e.g "**\\test@emailcompany.org**")
+        email address. (for example, **test@example.org**)
     -   Select **This server requires an encrypted SSL connection**.
 
     With the information filled in, click **Next**. You may be prompted
