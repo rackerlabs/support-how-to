@@ -11,7 +11,7 @@ product_url: exchange
 ---
 
 This article describes how to set up your
-Microsoft Exchange 2010 mailbox 
+Microsoft Exchange 2010 mailbox
 to work with your
 Microsoft Outlook 2007 email client.
 
@@ -20,7 +20,7 @@ Mail icon.
 
 ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
 
-Note: Depending on what version of Windows you're running, you may need
+**Note:** Depending on what version of Windows you're running, you may need
 to switch to Classic view to find the mail icon or it may state 32-Bit.
 
 2\. Select **Show Profiles**, click **Add,** enter a name for this
@@ -62,8 +62,8 @@ authentication settings, select **Basic Authentication**.
 </span>**Check Name**<span> box in the Connect window. Type the password
 and select </span>**OK**<span>.</span>
 
-*Note: You may receive a pop-up asking you to select your mailbox from a
-list. Select your mailbox and click OK.*
+**Note:** You may receive a pop-up asking you to select your mailbox from a
+list. Select your mailbox and click OK.
 
 <span>9. Your name will then be highlighted and a line will appear under
 the username field which indicates your profile has been configured.

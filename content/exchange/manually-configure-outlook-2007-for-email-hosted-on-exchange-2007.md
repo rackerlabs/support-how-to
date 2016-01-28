@@ -11,7 +11,7 @@ product_url: exchange
 ---
 
 This article describes how to set up your
-Microsoft Exchange 2007 mailbox 
+Microsoft Exchange 2007 mailbox
 to work with your
 Microsoft Outlook 2007 email client.
 
@@ -25,8 +25,8 @@ Microsoft Outlook 2007 email client.
 
     ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
 
-    ***Note**: In some cases, you may need to switch to Classic View to
-    find the Mail icon or it may state 32-Bit.*
+    **Note**: In some cases, you may need to switch to Classic View to
+    find the mail icon or it may state 32-Bit.
 
 3.  Select the **Show Profiles** button, click the **Add** button and
     enter in a name for this profile and select the **OK** button.
@@ -66,8 +66,8 @@ Microsoft Outlook 2007 email client.
     Name** box in the Connect window, enter in the Password and select
     the **OK** button.
 
-    ***Note**: You may receive a pop-up asking you to select your
-    mailbox from a list. Select your mailbox and click the OK button.*
+    **Note**: You may receive a pop-up asking you to select your
+    mailbox from a list. Select your mailbox and click the **OK** button.
 
 10. Your name will then be highlighted and a line will appear under the
     username field which indicates your profile has been configured.

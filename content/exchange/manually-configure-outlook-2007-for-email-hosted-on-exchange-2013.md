@@ -11,7 +11,7 @@ product_url: exchange
 ---
 
 This article describes how to set up your
-Microsoft Exchange 2013 mailbox 
+Microsoft Exchange 2013 mailbox
 to work with your
 Microsoft Outlook 2007 email client.
 
@@ -20,10 +20,9 @@ click **Mail** (32-bit).
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step1.png" width="620" height="276" />
 
-*Note: Depending on the version of Windows you're running, you might
+**Note:** Depending on the version of Windows you're running, you might
 need to switch to Classic view to find the **Mail** entry or it might be
 labeled 32-Bit.*
-
 
 2. Click **Show Profiles**, click **Add**, enter a name for this
 profile, and then click  **OK**.
@@ -72,15 +71,15 @@ Authentication**.
 9\. On the Server Settings page, click Check Name, type your password,
 and then click **OK**.
 
-*Note: If you receive a pop-up message asking you to select your mailbox
-from a list, select your mailbox and click OK.*
+**Note:** If you receive a pop-up message asking you to select your mailbox
+from a list, select your mailbox and click OK.
 
 Your name will then be highlighted and a line will appear under the
 **User Name**  field which indicates your profile has been configured.
 
-*Note: The server name resolves to a unique string that is different
+**Note:** The server name resolves to a unique string that is different
 with every mailbox. Do not attempt to replicate this information with
-other accounts.*
+other accounts.
 
 10\. Click **Next**, and on the next page, click **Finish**.
 
