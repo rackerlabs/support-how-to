@@ -20,24 +20,25 @@ at:
 [http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI.](http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI)
 
 To implement the API into your application, you must first generate an
-API key.  API keys are unique to each administrator. To differentiate
+API key. API keys are unique to each administrator. To differentiate
 human actions and application actions, consider creating a separate
 administrator login for your API. Only super administrators will have
 access to the API.
 
-To generate an API key, [log in to the control
-panel](https://apps.rackspace.com/?cp), and perform the following steps:
+### To generate an API key
 
-1.  At the top of the page, click **My Account**
-2.  In the **Administrators** section, click **API Keys**.
-3.  Click **Generate New Keys** to create new API keys.
-    **Warning:** Existing keys previously being used, generating new
+1. [Log in to the Cloud Office Control
+Panel](https://apps.rackspace.com/?cp).
+1.  At the top of the page, click your account name and select **Admins & Contacts** from the menu.
+1.  On the **Admins & Contacts** tab, click **API Keys**.
+1.  Click **Generate New Keys** to create new API keys.
+
+    **Warning:** If existing keys are being used, generating new
     keys will break applications that are using the existing keys.
 
-**Note**: Avoid recording the API key information outside of the control
-panel.**This information allows unrestricted access to make changes to
-your account. Use extreme discretion when using these keys.**
+**Warning**: Avoid recording the API key information outside of the control
+panel. This information allows unrestricted access to make changes to
+your account. Use extreme discretion when using these keys.
 
 No further action is needed in the control panel. You can now develop
-applications for your account!
-
+applications for your account.

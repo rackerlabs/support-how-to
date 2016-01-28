@@ -10,17 +10,11 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article explains how to recover a Rackspace Email mailbox that was
-deleted with the last 14 days.
+This article explains how to recover a Rackspace Email mailbox that was deleted with the last 14 days.
 
-To recover a Rackspace Email mailbox, create a new mailbox using the
-same username as the recently deleted mailbox. You'll be prompted with
-the option to restore the mailbox from the backup stored on our system.
+To recover a Rackspace Email mailbox, create a new mailbox using the same username as the recently deleted mailbox. You'll be prompted with the option to restore the mailbox from the backup stored on our system.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-21%20at%202.53.38%20PM.png" width="699" height="410" />
 
--   Click **Restore** to restore all messages to the new mailbox.
--   To create the mailbox without restoring any messages, select **No
-    thanks, just create new mailbox**.
-
-
+-   To restore all messages to the new mailbox, click **Restore**.
+-   To create the mailbox without restoring any messages, click **No thanks, just create new mailbox**.

@@ -1,6 +1,6 @@
 ---
 node_id: 3353
-title: Setting up an IMAP account on a Windows Phone
+title: Set up an IMAP account on a Windows phone
 type: article
 created_date: '2013-03-18'
 created_by: Mawutor Amesawu
@@ -13,69 +13,50 @@ product_url: rackspace-email
 The following steps are required to setup an IMAP account on a Windows
 Mobile phone.
 
-1\. Locate the **Settings** options from within your application menu
+1. Locate the **Settings** options from within your application menu.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.jpg" width="275" height="277" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.jpg" width="275" height="277" />
 
-2. Select **Email + Accounts**
+2. Tao **email + accounts**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.jpg" width="277" height="438" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.jpg" width="277" height="438" />
 
-3.  Select **Add an Account**
+3.  Tap **add an account**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.jpg" width="281" height="151" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.jpg" width="281" height="151" />
 
-4. Select **Other Account**
+4. Tap **other account**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.jpg" width="275" height="399" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.jpg" width="275" height="399" />
 
-5. Enter your full email address and password for your account, then
-press the **sign in** button
+5. Enter your full email address and password for your account, and then tap **sign in**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.jpg" width="277" height="443" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.jpg" width="277" height="443" />
 
-6. The device may or may not be able to auto-detect your settings.  If
-it does not, press the **Advanced** option on this screen
+6. If the device does not auto-detect your settings, tap the **advanced** option on this screen.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6.jpg" width="279" height="439" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6.jpg" width="279" height="439" />
 
-7. Add your desired Account name and fill in Your name.  Then, use the
-following server settings:
-(You will need to scroll down on this screen to see the additional
-fields)
+7. Add your account name, enter your name, and the enter the following server settings. (You need to scroll down on this screen to see the additional fields.)
 
--   Incoming email server: **secure.emailsrvr.com**
+    -   Incoming email server: **secure.emailsrvr.com**
 
-<!-- -->
+    -   Account type: **IMAP4**
 
--   Account type: **IMAP4**
+    -   Username: **Full Email address**
 
-<!-- -->
+    -   Password: **Email address password**
 
--   Username: **Full Email address**
+    -   Outgoing (SMTP) email server: **secure.emailsrvr.com**
 
-<!-- -->
+    -   Outgoing server requires authentication: **Enabled**
 
--   Password: **Email address password**
+    -   Use the same user name and password for sending email: **Enabled**
 
-<!-- -->
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.jpg" width="279" height="444" />
 
--   Outgoing (SMTP) email server: **secure.emailsrvr.com**
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/9.jpg" width="277" height="446" />
 
-<!-- -->
+8. Tap **sign in**.
 
--   Outgoing server requires authentication: **Enabled**
-
-<!-- -->
-
--   Use the same user name and password for sending email: **Enabled**
-
-Then, select **sign in**
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.jpg" width="279" height="444" />
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/9.jpg" width="277" height="446" />
-
-8. This will complete your setup.  You will see a new icon within your
-settings menu with the name of your new email account.
-
+Your setup is complete. You will see a new icon within your settings menu with the name of your new email account.
