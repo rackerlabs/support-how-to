@@ -1,5 +1,3 @@
-
-
 ---
 node_id: 3271
 title: Deploy Rackspace Private Cloud to bare metal using Razor and Chef
@@ -11,8 +9,6 @@ last_modified_by: Rose Contreras
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
-
-### Overview
 
 Combining Razor and Chef provides a powerful, fully automated solution
 for deploying Rackspace Private Cloud Software (RPCS) on bare metal.
@@ -35,8 +31,6 @@ configuration management tool, Razor fills in the gap that exists in
 bringing systems from first boot into the configuration management
 space.
 
-
-
 ### Getting started
 
 To install Razor, follow the installation guide on the 
@@ -45,14 +39,8 @@ Razor installation will require a DHCP server as part of the setup. Once
 Razor is installed and running, you can proceed with configuring Razor
 to deploy RPCS.
 
-After installing Razor, set it up to
-install your preferred OS on servers that come online. To help with the
-installation process itself, Razor uses a Microkernel, or the MK, that
-boots from the network and lives in memory until a real target operating
-system can be installed. The MK is a Tiny-Core Linux based, and is used
-on first boot and as the default boot image for any nodes. Doing this
-allows Razor to collect data on the node (similar to Chef&rsquo;s ohai) which
-is then used in tagging and policies.
+After installing Razor, set it up to install your preferred OS on servers that come online. To help with the
+installation process itself, Razor uses a Microkernel, or the MK, that boots from the network and lives in memory until a real target operating system can be installed. The MK is a Tiny-Core Linux based, and is used on first boot and as the default boot image for any nodes. Doing this allows Razor to collect data on the node (similar to Chef&rsquo;s ohai) which is then used in tagging and policies.
 
 To enable Razor to boot a server, add a Microkernal (MK) image to Razor. For more information, 
 about Microkernel, see [Razor-mkkernel wiki](https://github.com/puppetlabs/Razor-Microkernel/wiki)
@@ -94,9 +82,6 @@ created.
 
 
 ### Setting up Razor Chef Broker
-
-
-#### Overview
 
 The Razor broker manages handoffs between Razor and a DevOps system,
 like Chef or Puppet. Since we are using Chef, we need a Chef broker. 
@@ -237,8 +222,6 @@ Some of the important roles and recipes:
 Users can update the ``run_list`` and design the private cloud cluster in the order they want it to
 be. 
 
-
-
 ### Fully automating the deployment
 
 While running knife commands on each individual server is easy enough,
@@ -358,8 +341,6 @@ is ready to install Cinder on all servers that have 2 disks, sized 2 and
 4 TB, and 16 GB of memory. While this is just an example, you can see
 where and how to build upon it to deploy your own Private Cloud.
 
-
-
 ### Automating the automated deployment
 
 Razor makes full automation simple by providing full RESTful APIs. If
@@ -378,8 +359,6 @@ provisioning engine from Razor and Chef, you can repurpose gear from one
 deployment to another. In this way, IT departments can gain greater
 flexibility with changing requirements and agility to keep up with the
 speed of business demands.
-
-
 
 ### Conclusion
 
