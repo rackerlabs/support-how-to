@@ -12,19 +12,14 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
+[Create an image of a server and restore a server from a saved image](/how-to//how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 
-In the preceding article in this series you learned how to [restore
-servers from an
-image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+In the preceding article in this series you learned how to [restore servers from an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 These images are ideal for use as templates or "gold images", so that
 you can easily restore to a known configuration or rapidly deploy
 additional Cloud Servers. This system was designed primarily to speed
 deployment of new servers and not as a robust backup solution. As such,
 there are a number of practical limitations in place:
-
-### All
 
 -   Cloud Server images are good for storing configuration and static
     data but **are not a reliable way to back up a dynamic database!**
@@ -34,24 +29,18 @@ there are a number of practical limitations in place:
     do want to create an image of a server that contains a database, you
     must take the database down, initiate the image creation, and
     restart the database when the server reaches the appropriate
-    task state. For details on the task monitoring process, see [Using
-    Task States With Server
-    Imaging](/how-to/using-task-states-with-server-imaging).
+    task state. For details on the task monitoring process, see [Using Task States With Server Imaging](/how-to/using-task-states-with-server-imaging).
     For instructions on using Cloud Backup to back up a database,
-    see [Rackspace Cloud Backup - Backing up
-    Databases](/how-to/rackspace-cloud-backup-backing-up-databases).
+    see [Rackspace Cloud Backup - Backing up Databases](/how-to/rackspace-cloud-backup-backing-up-databases).
 
 -   Cloud Server images do not include Cloud Block Storage volumes in
     their data, even if the volume is used as the boot volume.  For
     information on making snapshots of Cloud Block Storage volumes,
-    see [Create and Use Cloud Block Storage
-    Snapshots](/how-to/create-and-use-cloud-block-storage-snapshots).
+    see [Create and Use Cloud Block Storage Snapshots](/how-to/create-and-use-cloud-block-storage-snapshots).
 
 -   I/O-optimized Cloud Servers images only capture the system
     disk, **not any attached data disks**. Our Cloud Backup service can
-    back up data disks to Cloud Files; see [Getting Started with
-    Rackspace Cloud
-    Backup](/how-to/cloud-backup)
+    back up data disks to Cloud Files; see [Getting Started with Rackspace Cloud Backup](/how-to/cloud-backup)
     for details and instructions.
 
 -   While you can import images into the Rackspace open cloud using
@@ -62,8 +51,7 @@ there are a number of practical limitations in place:
     **Note**: Image import is not available for the First-Generation
     Cloud servers. All servers based on the OpenStack architecture can
     have images exported and imported between accounts. For more
-    information, see the [Cloud Images
-    FAQ](/how-to/cloud-images-faq).
+    information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
 
 -   While you can download First-Generation cloud images and images
     exported from the Rackspace open cloud, whether those images will
@@ -72,8 +60,7 @@ there are a number of practical limitations in place:
     vendor for details.
 
     **Note**: Not all images may be exported from the Rackspace open
-    cloud.  For more information, see the [Cloud Images
-    FAQ](/how-to/cloud-images-faq).
+    cloud.  For more information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
 
 -   Images go through several stages, from preparing the server data for
     the imaging and the actual copy of the image to Cloud Files. The
@@ -82,8 +69,7 @@ there are a number of practical limitations in place:
     extremely large number of files.
 
     You can monitor the tasks involved in this process. For information
-    on the task monitoring process, see [Using Task States With Server
-    Imaging](/how-to/using-task-states-with-server-imaging).
+    on the task monitoring process, see [Using Task States With Server Imaging](/how-to/using-task-states-with-server-imaging).
 
 -   Imaging processes can have their start delayed if there are a large
     number of image requests at one time for a group of servers. The
@@ -96,7 +82,7 @@ there are a number of practical limitations in place:
     exceeding the image limits, contact Rackspace Cloud support. Our
     admins may be able to succeed where our automated processes do not.
 
-### Linux
+### Linux-specific limitations
 
 -   On a First-Generation Linux Cloud Server current volume size cannot
     be more than **250GB** and current inode usage should not be more
@@ -124,7 +110,7 @@ there are a number of practical limitations in place:
     trying an image again about a half hour after it fails could result
     in a successful image thanks to that cleanup operation.
 
-### Windows
+### Windows-specific limitations
 
 -   On a First-Generation **Windows** Cloud Server, current ***or
     previous*** disk usage cannot exceed **250GB**. Due to limitations
@@ -154,10 +140,6 @@ to create and connect to a server, configure security, and save your
 work - the next step is to upload your content to the server for use
 with your web applications.
 
-
-
 ### Next section
 
-[Remote Connection from Windows to a Linux
-Server](/how-to/connecting-to-linux-from-windows-by-using-putty)
-
+[Remote Connection from Windows to a Linux Server](/how-to/connecting-to-linux-from-windows-by-using-putty)

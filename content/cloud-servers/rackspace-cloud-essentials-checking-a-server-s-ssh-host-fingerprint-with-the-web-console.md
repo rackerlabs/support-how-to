@@ -12,46 +12,21 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
+[Create a Cloud Server](/how-to/create-a-cloud-server)
 
-
-
-**Contents:**
-
--   [Explaining the host key](#Explaining)
--   [Why the host key might change](#Why)
--   [A dire warning](#Dire)
--   [How to check](#HowCheck)
--   [The web console](#WebConsole)
--   [In the Control Panel](#ControlPanel)
--   [In the console](#InConsole)
--   [The best way](#Best)
--   [The not-best way](#notBest)
--   [Write it down](#Write)
--   [Completing the connection - maybe](#Completing)
--   [First-time connection](#FirstTime)
--   [Host key has changed](#HostKeyChange)
--   [Linux and Mac OS X](#LinuxMac)
--   [Windows and PuTTY](#WIndowsPutty)
--   [Summary](#Summary)
-
-###  Explaining the host key
-
-One of the fundamentals of
-[SSH](/how-to/connecting-to-linux-from-windows-by-using-putty)
+One of the fundamentals of [SSH](/how-to/connecting-to-linux-from-windows-by-using-putty)
 is that it uses a "fingerprint" generated using a server's unique "host
 key" to identify the server to a client. You may have seen a warning
 sometime related to the host fingerprint, either that it can't be
 verified or that it has changed.
 
 The host key is randomly generated when the SSH server is set up and is
-used to identify the server you're connecting to.  Warnings about it are
+used to identify the server you're connecting to. Warnings about it are
 more than just a devilish developer's effort to inconvenience us (though
 it's difficult to rule that motivation out entirely).
 
 No, the host key is actually central to the security provided by SSH
-when you make a connection to your server.  If someone malicious tries
+when you make a connection to your server. If someone malicious tries
 to set up a program to intercept your connection and steal your login
 credentials - a "man in the middle" attack - then the only warning
 you'll get is your SSH client complaining that the host key has changed.
@@ -65,10 +40,9 @@ host key it records it by address, so even if "localhost" and
 "127.0.0.1" point to the same server an SSH client will treat them as
 entirely different entries.
 
-Thus, sometimes that message is expected.  But even an expected warning
+Thus, sometimes that message is expected. But even an expected warning
 doesn't mean that there couldn't be a man-in-the-middle attack in
-progress.  It sounds a little paranoid, but that's good security for you
-- anything can happen, at any time, and the more you do to rule out any
+progress. It sounds a little paranoid, but that's good security for you - anything can happen, at any time, and the more you do to rule out any
 variables the better.
 
 So let's look at when and how to check the host fingerprint without
@@ -98,7 +72,7 @@ The warning can be summed up as: The fingerprint that identifies the SSH
 server is different from what it was the last time you connected to it.
 Expected or not, you'll want to check on that.
 
-###  How to check
+###  Check your server's SSH fingerprint
 
 If you have your server's SSH fingerprint written down somewhere you can
 compare it to what SSH shows you to make sure you're connecting to the
@@ -109,39 +83,31 @@ computers (like from a consulting client's desktop or server).
 If you don't have the host fingerprint handy you can use the control
 panel's web console to find it.
 
-###  The web console
-
 The web console lets you connect to your server as if you were, well,
 sitting at the console. If anything weird is going on with SSH it won't
 interfere with you connecting directly to the console through the Cloud
 Control Panel.
 
-####  In the Control Panel
-
 You can connect to the web console for your server through the Cloud
-Control Panel.  If you need assistance opening the web console, [see
-this
-article](/how-to/start-a-console-session).
+Control Panel.  If you need assistance opening the web console, [see this article](/how-to/start-a-console-session).
 
 If you don't have a username and password to use (if you've disabled
 passwords for all accounts, for example) you can use the Cloud Control
 Panel to reset your server's root password. Then you can use the new
 credentials to get in.
 
-###  In the console
-
 Now that you're on the server it's time to get that host key
 fingerprint.
 
-####  The best way
+####  Use ssh-keygen
 
-The official way to get that fingerprint is to run the "ssh-keygen"
+The official way to get that fingerprint is to run the `ssh-keygen`
 command against the server's public key, as in:
 
     ssh-keygen -l -f /etc/ssh/ssh_host_rsa_key.pub
 
-The "-l" option tells ssh-keygen you want to list the fingerprint, and
-the "-f /etc/ssh\_host\_rsa\_key.pub" part tells ssh-keygen where it can
+The `-l` option tells ssh-keygen you want to list the fingerprint, and
+the `-f /etc/ssh_host_rsa_key.pub` part tells ssh-keygen where it can
 find the host's public key file. That location is typical for Linux
 servers, but you may need to poke around a bit to find the file if it's
 not in that default location.
@@ -155,7 +121,7 @@ The first number indicates the strength of the key (in this case, 2048
 bits). The fingerprint follows, along with the location of the key it
 analyzed and the type of key it's using (usually RSA).
 
-####  The not-best way
+####  ssh to localhost
 
 This isn't a bad method to getting the fingerprint, it's just not as
 technical and fancy as the official way. It also only works when the SSH
@@ -178,26 +144,22 @@ And there's the fingerprint you wanted.
 
 If you didn't get that message then you've completed an ssh connection
 to localhost before. To clear the stored key go into your account's
-".ssh" directory:
+**.ssh** directory:
 
     cd ~/.ssh
 
-And then edit the "known\_hosts" file. Look for a line that starts with
+And then edit the "known_hosts" file. Look for a line that starts with
 "localhost", delete it, save the file, and try again. You should get the
 fingerprint this time.
 
-###  Write it down
-
-Write the fingerprint down or put it in a note on your cell phone or
+**Note**: Write the fingerprint down or put it in a note on your cell phone or
 something. You went to all this trouble to get the key, you might as
 make sure you have it handy in case you need to do this again.
 
-###  Completing the connection - maybe
+###  Completing the connection
 
 Now that we have the host key fingerprint in-hand we can see if the SSH
 connection is a good one.
-
-###  First-time connection
 
 If your client was connecting to the server for the first time and you
 were just confirming the host key before accepting it, you're set.
@@ -221,15 +183,15 @@ known hosts before you can connect.
 
 On Linux, Mac OS X, and other Unix-based operating systems you usually
 use the "ssh" command to connect to a server via SSH. That should mean
-there's a directory named ".ssh" in your home directory. Inside that
-will be the "known\_hosts" file that contains the known SSH host keys.
+there's a directory named **.ssh** in your home directory. Inside that
+will be the "known_hosts" file that contains the known SSH host keys.
 
 So basically, the file should be at:
 
     ~/.ssh/known_hosts
 
-Sometimes you may see a "known\_hosts2" file in place of or in addition
-to "known\_hosts". If both are there then "known\_hosts2" is usually the
+Sometimes you may see a "known_hosts2" file in place of or in addition
+to "known_hosts". If both are there then "known_hosts2" is usually the
 file being used when you make a connection.
 
 Once you have the file identified, open it for editing and look for a
@@ -279,11 +241,9 @@ address "1.2.3.4". With that format in mind, look for the one for the
 address you're connecting to.
 
 Once you find the entry for your server right-click it and select
-"Delete" from the contextual menu. You'll get a warning that editing the
-registry can cause problems, are you sure you want to do this? Go ahead
-and do it. Experience the thrill of registry editing!
-
-Well, maybe that's just me. Moving on.
+**Delete** from the contextual menu. You'll get a warning that editing the
+registry can cause problems and you will be asked to confirm the action. Go ahead
+and do it.
 
 Exit the registry editor and try your SSH connection again. You should
 get a warning that the server's host key is unknown and it will show the
@@ -304,14 +264,9 @@ handy if you need to check the fingerprint again. It's a little
 inconvenience at the outset in return for a pretty comforting security
 check you can run through easily when you connect from a new machine.
 
-Next we are going to look at the the [basics of security in a Linux
-system](/how-to/basic-cloud-server-security),
+Next we are going to look at the the [basics of security in a Linux system](/how-to/basic-cloud-server-security),
 adding to what we learned about SSH connections and host keys.
-
-
 
 ### Next section
 
-[Basics of security in a Linux
-system](/how-to/basic-cloud-server-security)
-
+[Basics of security in a Linux system](/how-to/basic-cloud-server-security)
