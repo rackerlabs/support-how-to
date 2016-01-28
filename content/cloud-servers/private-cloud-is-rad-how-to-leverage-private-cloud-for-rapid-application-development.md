@@ -15,15 +15,11 @@ development methodology that uses minimal planning in favor of rapid
 prototyping. One of the many challenges of RAD is the constant demand
 for rapid deployment of stable computing platforms for development and
 testing. A pronounced reliance on prototyping is characteristic of RAD
-methodologies. For this reason, the advanced features of [private
-cloud](http://www.rackspace.com/cloud/private/) computing can offer
+methodologies. For this reason, the advanced features of [private cloud](http://www.rackspace.com/cloud/private/) computing can offer
 significant advantages for developers employing RAD. This article will
-discuss how [private cloud](http://www.rackspace.com/cloud/private/)
-computing can increase developer efficiency in creating rapidly
+discuss how private cloud computing can increase developer efficiency in creating rapidly
 deployed, stable systems that include advanced features not available in
 traditional dedicated systems.
-
-
 
 In a traditional dedicated hardware model, new hardware must be
 provisioned whenever new prototypes are created or new projects are
@@ -32,14 +28,10 @@ additional pressure on stretched IT project budgets and potentially
 threaten delivery timelines. By implementing a private cloud, computing
 resources are ready for deployment before projects are started. When
 projects are completed, the resources can be re-used quickly and easily.
-The advanced features of [private
-cloud](http://www.rackspace.com/cloud/private/) computing also can
+The advanced features of private cloud computing also can
 provide additional productivity gains that are well suited for RAD.
 
-
-
-One of the core features of [private
-cloud](http://www.rackspace.com/cloud/private/) computing is the
+One of the core features of private cloud computing is the
 capacity to create stable and predictable virtual machines (VM). A RAD
 developer can configure a VM with all the necessary tools, applications,
 and OS tweaks necessary for a stable platform for development or
@@ -49,8 +41,6 @@ time required to provision new systems for development or testing.
 Pre-built images can allow development tasks that would require weeks of
 labor in a traditional dedicated hardware environment to be completed
 much more quickly.
-
-
 
 Stable systems with a predictable and consistent configuration are
 important to successful regression testing. As described above, VM
@@ -62,8 +52,6 @@ machine, and these changes can be undone as needed by initiating a
 rollback. Snapshots and rollbacks enable faster regression testing and
 allow virtual machines to be reset to a known state with fewer steps.
 
-
-
 An optimal environment would include the following components:
 
 -   Hypervisors - The physical servers that run the various virtual
@@ -71,15 +59,12 @@ An optimal environment would include the following components:
 -   Fiber SAN Network - The Fiber Channel Storage Array Network that is
     the shared storage component where the virtual machine image files
     are stored.
--   Firewall - Firewalls are an important security requirement, even in
-    [private clouds](http://www.rackspace.com/cloud/private/).
+-   Firewall - Firewalls are an important security requirement, even in private cloud.
 
 Using the configuration above, base VM images can be created in the
 hypervisors and stored on the Fiber SAN. When new projects are
 initiated, the base images can be quickly deployed to provide a rapid,
-stable environment. The productivity gains achieved by using [private
-cloud](http://www.rackspace.com/cloud/private/) computing can be
+stable environment. The productivity gains achieved by using private cloud computing can be
 expected to contribute to faster project startup, reduced development
 time, and optimized use of resources. The ultimate result is likely to
 be happier customers.
-

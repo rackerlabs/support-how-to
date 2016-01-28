@@ -6,16 +6,13 @@ created_date: '2011-10-19'
 created_by: Rackspace Support
 last_modified_date: '2016-01-20'
 last_modified_by: Kyle Laffoon
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
-### Prerequisites
+### Previous section
 
-[Rackspace Cloud
-DNS:](/how-to/rackspace-cloud-dns)
-
-**Cloud DNS Overview**
+[Cloud DNS introduction](/how-to/rackspace-cloud-dns)
 
 Our existing DNS infrastructure is a Globally Distributed Anycast
 Network. Rackspace currently has DNS servers located in Texas, Virginia,
@@ -36,6 +33,4 @@ us two advantages:
 
 ### Next steps
 
-**[Rackspace Cloud DNS - Available
-Features](/how-to/rackspace-cloud-dns-available-features)**
-
+[Rackspace Cloud DNS - Available Features](/how-to/rackspace-cloud-dns-available-features)

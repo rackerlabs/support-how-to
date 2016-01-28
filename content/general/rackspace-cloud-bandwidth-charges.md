@@ -6,8 +6,8 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
 
 We do not charge for incoming bandwidth or for intraserver communication
@@ -18,8 +18,4 @@ below for current product bandwidth pricing.
 -   [Cloud Servers](http://www.rackspace.com/cloud/servers/pricing/)
 -   [Cloud Files](http://www.rackspace.com/cloud/files/pricing/)
 -   [Cloud Sites](http://www.rackspace.com/cloud/sites/pricing/)
--   [Load
-    Balancers](http://www.rackspace.com/cloud/load-balancing/pricing/)
-
-
-
+-   [Load Balancers](http://www.rackspace.com/cloud/load-balancing/pricing/)

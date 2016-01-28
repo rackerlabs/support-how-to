@@ -6,22 +6,17 @@ created_date: '2011-10-19'
 created_by: Rackspace Support
 last_modified_date: '2016-01-11'
 last_modified_by: Rose Contreras
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
-### Prior section
+### Previous section
 
-**[Rackspace Cloud DNS - API
-Example](/how-to/rackspace-cloud-dns-api-example)**
+[Rackspace Cloud DNS - API Example](/how-to/rackspace-cloud-dns-api-example)
 
-**Resources**
+For more information regarding the API, we encourage you to review the Rackspace Cloud DNS API documentation which is located [here](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
 
-- For more information regarding the API, we encourage you to review the
-***Rackspace Cloud DNS API documentation*** which is
-located [here](http://docs.rackspace.com/api/%20).
-
-**Supported Record Types**
+### Supported Record Types
 
 -   **A** - IPv4 address used to map hostnames to an IP address of
     the host.
@@ -40,24 +35,16 @@ located [here](http://docs.rackspace.com/api/%20).
     use a set of name servers.
 -   **TXT** - This is a text record and is used primarily for SPF and
     DKIM records.
-
-- A SPF (Sender Policy Framework) record allows administrators to
+-   A SPF (Sender Policy Framework) record allows administrators to
 specify which hosts are allowed to send e-mail from a given domain by
 creating a specific SPF record in the public (DNS). Mail exchangers use
 the DNS to check that mail from a given domain is being sent by a host
 sanctioned by that domain's administrator.
-
-- DomainKeys (DKIM) is a method for associating a domain name to an
+-   DomainKeys (DKIM) is a method for associating a domain name to an
 e-mail, thereby allowing an organization to take responsibility for a
 message in a way that can be validated by a recipient.
-
--   **SRV** - Used to define the location (hostname and port) of servers
-    used for a specific service.
-
-
+-   **SRV** - Used to define the location (hostname and port) of servers used for a specific service.
 
 ### Next steps
 
-[**Rackspace Cloud DNS - Frequently Asked
-Questions**](/how-to/cloud-dns-faq)
-
+[Cloud DNS FAQ](/how-to/cloud-dns-faq)

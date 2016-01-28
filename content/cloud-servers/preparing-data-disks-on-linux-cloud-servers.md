@@ -10,17 +10,17 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The data disks attached to some flavors of Cloud Servers are unformatted when created.  Before you can use them to hold data on Linux, they have to be prepared by formatting them, determining their mount points, and adding them to the system's `fstab` file.
+The data disks attached to some flavors of Cloud Servers are unformatted when created. Before you can use them to hold data on Linux, they have to be prepared by formatting them, determining their mount points, and adding them to the system's `fstab` file.
 
 **Note:** If your server has a data disk attached to it, the data disk will be listed in your server's Details page.
 
-The following is a guide to preparing data disks efficiently for standalone use.  To configure two data disks in a software RAID, see [Configuring a software RAID on a Linux General Purpose Cloud Server](/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server).
+The following is a guide to preparing data disks efficiently for standalone use. To configure two data disks in a software RAID, see [Configuring a software RAID on a Linux General Purpose Cloud Server](/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server).
 
 1. List the volumes attached to your server by running the `fdisk` command.
 
         sudo fdisk -l
 
-    In the volume list, the device `/dev/xvda` is the system disk.  Other volumes listed will be your data or Cloud Block Storage disks.
+    In the volume list, the device `/dev/xvda` is the system disk. Other volumes listed will be your data or Cloud Block Storage disks.
 
 2. To partition the disk, run the `fdisk` utility and specify the disk.
 
@@ -160,7 +160,7 @@ The following is a guide to preparing data disks efficiently for standalone use.
 
 10. Create mount points for each data disk as needed.
 
-    Data disks must be assigned directories as mount points in order for the system to use them for storage.  If a data disk is meant to hold a database, for example, its mount point should be the database's storage location (like `/var/lib/mysql`).
+    Data disks must be assigned directories as mount points in order for the system to use them for storage. If a data disk is meant to hold a database, for example, its mount point should be the database's storage location (like `/var/lib/mysql`).
 
     If the directory does not yet have an assigned disk, create one with the `mkdir` command.
 

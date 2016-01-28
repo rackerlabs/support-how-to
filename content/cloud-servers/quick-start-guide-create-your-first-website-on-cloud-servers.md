@@ -14,9 +14,9 @@ The Rackspace Cloud can save you both time and money. This guide shows
 you how to do both by explaining the basic process of turning your idea
 into a working site in three basic steps:
 
-1.  [Build the infrastructure](#Step1)
-2.  [Upload your code](#Step2)
-3.  [Test](#Step3)
+1.  Build the infrastructure
+2.  Upload your code
+3.  Test
 
 The project that you're bringing to the cloud is probably much more
 complicated than what this guide covers. However, the process that this
@@ -27,8 +27,7 @@ This guide is not a comprehensive tour of Cloud Servers. However, by
 following these instructions, you are establishing the fundamentals that
 you can build on by reading future articles and guides.
 
-What you need
--------------
+### Prerequisites
 
 The information in this guide is practical. You should follow along step
 by step. To do so, you might need to install the following software:
@@ -57,21 +56,17 @@ time you can use an HTML file created for this exercise. Download it
 In this section, you create your server, connect to it, and install the
 Apache web server package to turn the server into a web server.
 
-**Create a cloud server**
+#### Create a cloud server
 
-1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
-    To log in, use the user name and password that you entered when you
+1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com), using the user name and password that you entered when you
     created your account.
-
-
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.1.png" width="668" height="384" />
 
     The control panel supports many Rackspace products and services.
     Each component of this interface, and all of our products and
     services, are explained in other articles and videos (for example,
-    [Introducing the Cloud Control
-    Panel](/how-to/introducing-the-rackspace-cloud-control-panel)).
+    [Introducing the Cloud Control Panel](/how-to/introducing-the-rackspace-cloud-control-panel)).
     This guide focuses on deploying your first cloud server.
 
 2.  On the Cloud Servers page, which is displayed whenever you log in,
@@ -82,9 +77,9 @@ Apache web server package to turn the server into a web server.
 
     You have a large amount of control when creating a new cloud server,
     but to keep things simple this guide focuses on the three required
-    parts: name, image, and size
+    parts: name, image, and size.
 
-3.  Name your Cloud Server
+3.  Name your Cloud Server.
 
     The name of your cloud server should communicate its role (for
     example, web server or database) and what it's hosting.
@@ -96,7 +91,7 @@ Apache web server package to turn the server into a web server.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.5.png" width="520" height="320" />
 
-5.  Select a flavor
+5.  Select a flavor.
 
     Flavor refers to the server's capacity for CPU, RAM, and hard drive.
     You can think of flavor as the "size" of the server. When you need
@@ -132,8 +127,7 @@ Apache web server package to turn the server into a web server.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.11.png" width="770" height="176" />
 
-Connect to your server
-----------------------
+#### Connect to your server
 
 You can connect to a server in several ways, but the standard and most
 secure method is called Secure Shell, or SSH. It allows you to send
@@ -158,9 +152,7 @@ information to and from your server in a secure fashion.
     -   **Connect from Windows**
 
         You can use the PuTTY SSH client to connect to your server from
-        a Windows computer. For instructions, see [Connecting to Linux
-        from Windows by using
-        PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty).
+        a Windows computer. For instructions, see [Connecting to Linux from Windows by using PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty).
 
         The first time that you connect to a cloud server, your computer
         verifies that this is something you want to do.
@@ -179,8 +171,7 @@ information to and from your server in a secure fashion.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.16.png" width="716" height="456" />
 
-Install Apache
---------------
+#### Install Apache
 
 To install Apache, enter the following command in the terminal window:
 
@@ -192,17 +183,16 @@ Some information scrolls by in your terminal window. This is your server
 downloading and installing Apache and any software Apache might need to
 operate correctly.
 
-### Test Apache with your web browser
+#### Test Apache with your web browser
 
 After the command is finished running, ensure that Apache is installed
 and turned on. Put the (PublicNet) IPv4 address of your cloud server
-into a web browser. If you see the message It works!, you now have a web
+into a web browser. If you see the message "It works!", you now have a web
 server installed on your cloud server.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.18.png" width="694" height="157" />
 
-Upload your code
---------------------
+### Upload your code
 
 The next step is to upload your site. You might be familiar with File
 Transfer Protocol (FTP) as a way to upload files to and download files
@@ -211,7 +201,7 @@ Protocol (SFTP) for added security, so you need an FTP client that will
 support an SFTP connection. Fortunately, many of the popular and free
 FTP clients do this.
 
-### Establish an SFTP connection with your server by using Cyberduck
+#### Establish an SFTP connection with your server by using Cyberduck
 
 1.  In the Cyberduck interface, click **Open Connection**.
 
@@ -228,14 +218,14 @@ FTP clients do this.
 ### Upload your site
 
 If you haven't already downloaded the sample HTML file, download it
-from[here](http://90df0b8db988dcfbf5da-c1875553a16f2a6d80002cac1a22fc37.r75.cf1.rackcdn.com/index.html).
+from [here](http://90df0b8db988dcfbf5da-c1875553a16f2a6d80002cac1a22fc37.r75.cf1.rackcdn.com/index.html).
 
 You cannot upload your HTML file just anywhere on the Cloud Server.
 Apache is configured to look in a specific directory for content to
 serve on the web. This special directory is referred to as the
-*DocumentRoot*.
+**DocumentRoot**.
 
-On an Ubuntu server, the DocumentRoot is located at /var/www, so that's
+On an Ubuntu server, the DocumentRoot is located at **/var/www**, so that's
 where you need to upload your file. Navigate to that directory in
 Cyberduck by using the following steps:
 
@@ -247,7 +237,7 @@ You should see an **index.html** file already in the directory. This is
 the "It works!" file that you saw when you tested Apache in your browser
 earlier.
 
-1.  Select the I directory by using the drop-down menu at the top of
+1.  Select the **I** directory by using the drop-down menu at the top of
     the window.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.21.png" width="611" height="160" />
@@ -258,8 +248,6 @@ earlier.
 
 3.  Double-click the **www** directory.
 
-
-
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.23.png" width="668" height="457" />
 
 4.  Replace the **index.html** file with your own file by dragging the
@@ -269,8 +257,7 @@ earlier.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.25.png" width="654" height="616" />
 
- Test your site
--------------------
+### Test your site
 
 Now that the correct HTML file is uploaded to the correct directory, you
 should see your site when you refresh your browser.
@@ -282,19 +269,13 @@ connected to it via SSH, installed the Apache web server, uploaded a new
 HTML file to the server's DocumentRoot directory, and tested the site in
 a web browser.
 
-What's next?
-------------
+### Next steps
 
 Several resources are available to help you progress:
 
--   [Rackspace Knowledge
-    Center](/how-to/) - Information
-    about all Rackspace products
+-   [Rackspace How-To](/how-to/) - Information about all Rackspace products
 -   [Cloud Launch Guides](https://launch.rackspace.com/) - Step-by-step
     guides on how to build and deploy cloud services
 -   [The Rackspace Community](https://community.rackspace.com/) -
     Discuss ideas with Rackers and other customers
 -   [Fanatical Support](http://www.rackspace.com/support)
-
-
-
