@@ -20,11 +20,11 @@ Files.  If you need help on any of these topics,see the following
 sources:
 
 -   Cloud Images API Documentation: [Task to Export an
-    Image](http://docs.rackspace.com/images/api/v2/ci-devguide/content/POST_exportImage_tasks_Image_Task_Calls.html)
+    Image](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/#document-api-reference)
 -   [How Exported Images are Stored as Dynamic Large
-    Objects](/how-to/cloud-images-faq)
+    Objects](http://support.rackspace.com/how-to/cloud-images-faq/)
 -   [Installing the Swiftly Cloud Files
-    Client](/how-to/install-the-swiftly-client-for-cloud-files)
+    Client](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/)
 
 Downloading your entire image at once
 -------------------------------------
@@ -44,7 +44,7 @@ In a bash shell, set the following environment variables:
 
 For information about viewing your Rackspace API key, see [View and
 reset your API
-key.](/how-to/view-and-reset-your-api-key)
+key.](https://support.rackspace.com/how-to/view-and-reset-your-api-key/)
 
 ### Invoke Swiftly
 
