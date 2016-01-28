@@ -4,14 +4,16 @@ title: Manually configure Outlook 2011 for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-16'
 created_by: Mawutor Amesawu
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-Use the following steps to set up your Microsoft Exchange 2013 Mailbox
-with your Outlook 2011 email client.
+This article describes how to set up your
+Microsoft Exchange 2013 mailbox
+to work with your
+Microsoft Outlook 2011 email client.
 
 1. Open Outlook.
 
@@ -57,4 +59,3 @@ ensure that you're using the correct EWS server address.*
 If you already have email on the server, your email will slowly begin
 to populate your inbox. This can take some time depending on how much
 data you have.
-

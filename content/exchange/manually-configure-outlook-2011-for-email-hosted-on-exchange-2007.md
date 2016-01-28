@@ -4,14 +4,17 @@ title: Manually configure Outlook 2011 for email hosted on Exchange 2007
 type: article
 created_date: '2011-11-23'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-The following article will demonstrate how to set up your Microsoft
-Exchange 2007 email account with Microsoft Outlook 2011.
+This article describes how to set up your
+Microsoft Exchange 2007 mailbox
+to work with your
+Microsoft Outlook 2011 email client.
+
 
 1\. First thing you'll want to do is login to your usercp
 ([cp.rackspace.com/usercp](http://cp.rackspace.com/usercp)) and under
@@ -67,4 +70,3 @@ green; If it doesn't, check the accounts settings and password and make
 sure you're using the correct EWS server address.* *Note: If you already
 have email on the server, your email will slowly begin to populate your
 inbox. This can take some time dependning on how much data you have.*
-
