@@ -4,13 +4,13 @@ title: Manually configure Mac Mail for email hosted on Exchange 2010
 type: article
 created_date: '2012-02-27'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-The following article shows you how to set up your Microsoft Exchange
+This article describes how to set up your Microsoft Exchange
 2010 email account with Mac Mail.
 
 **Note**: Exchange 2010 runs only on Mac OS X version 10.6 or later. If
@@ -18,10 +18,7 @@ you're unsure about which OS X version you're running, click the
 **Apple** icon located in the top-left corner and select **About This
 Mac**.
 
-To set up Exchange 2010
------------------------
-
-1.  Open Mac Mail and select **Mail &gt;** **Preferences**.
+1.  Open Mac Mail and select **Mail** &gt; **Preferences**.
 2.  In the new window that appears, click the **Accounts** tab in the
     top menu bar and then click the plus (+) symbol in the
     lower-left corner.
@@ -30,15 +27,15 @@ To set up Exchange 2010
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM101.png" width="470" height="480" />
 
 4.  On the next page, enter your full name and your entire Microsoft
-    Exchange email address and password,and then click **Continue**.
+    Exchange email address and password. Then click **Continue**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM102.png" width="403" height="347" />
 
     -   If your Autodiscover CNAME record is set correctly, Mail
         automatically pulls the correct server settings for you. Skip to
-        step 6.
+        Step 6.
     -   If the Autodiscover CNAME record is not set correctly, you can
-        set up the account manually. Continue to step 5.
+        set up the account manually. Continue to Step 5.
 
 5.  Enter the following information and then click **Continue**:
     -   **Description** &ndash; Enter a descriptive name for your mail account
@@ -60,4 +57,3 @@ To set up Exchange 2010
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM105_0.png" width="397" height="333" />
 
 Your Microsoft Exchange 2010 email account is now set up with Mac Mail.
-
