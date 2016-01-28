@@ -28,7 +28,7 @@ combination of disk, memory, vCPUs, and network bandwidth.
 
 #### Image
 
-<span>A collection of files for a specific operating system (OS) that
+A collection of files for a specific operating system (OS) that
 you use to create or rebuild a server. Rackspace provides pre-built
 images. You can also create custom images from servers that you have
 launched. Custom images can be used for data backups or as "gold" images
