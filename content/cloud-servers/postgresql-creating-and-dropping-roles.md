@@ -14,11 +14,6 @@ For testing and production use of our database server, we'll want to
 create additional roles, as it's not recommended to work regularly in
 our databases as the default superuser role.
 
-
-
-<span class="mw-headline">Login </span>
----------------------------------------
-
 However, to create additional roles we do need to run some commands as
 the postgres superuser role. This will require a login as the Linux user
 named "postgres".
@@ -28,15 +23,11 @@ First, we need to login to our slice as a normal Linux user, then:
 
     # sudo su - postgres
 
-
-
-<span class="mw-headline">Connect with psql </span>
----------------------------------------------------
+### Connect with psql
 
 Now connect to the database server using the
 [psql](http://www.postgresql.org/docs/8.3/static/app-psql.html "http://www.postgresql.org/docs/8.3/static/app-psql.html")
 client, as the postgres role:
-
 
     postgres@demo:~$ psql -U postgres
     ...
@@ -50,14 +41,10 @@ client, as the postgres role:
 
     postgres=#
 
-
-
-<span class="mw-headline">Creating a Role </span>
--------------------------------------------------
+### Create a role
 
 Connected with the psql client, we'll create a role that has the LOGIN
 attribute and a non-empty MD5-encrypted password:
-
 
     postgres=#CREATE ROLE demorole1 WITH LOGIN ENCRYPTED PASSWORD 'password1';
 
@@ -65,8 +52,7 @@ Note the required trailing semicolon ( ; ) at the end of the SQL
 statement. The single-quotes ( ' ' ) are not part of the password, but
 must enclose it.
 
-Did it work? We can check using '\\du' command:
-
+Did it work? We can check using `\du` command:
 
     postgres=# \du
                                    List of roles
@@ -76,23 +62,16 @@ Did it work? We can check using '\\du' command:
      postgres  | yes       | yes         | yes       | no limit    | {}
     (2 rows)
 
-
-
-<span class="mw-headline">Dropping a Role </span>
--------------------------------------------------
+### Drop a role
 
 What if we want to drop (delete, remove) a role? Easy:
 
+    postgres=# DROP ROLE demorole1;
 
-    postgres=#DROP ROLE demorole1;
-
-If we check with the '\\du' command we'll see that 'demorole1' is no
+If we check with the `\du` command we'll see that `demorole1` is no
 longer listed.
 
-
-
-<span class="mw-headline">Alternative: createuser and dropuser </span>
-----------------------------------------------------------------------
+### Alternative method: createuser and dropuser
 
 Alternatively, we can create and drop database roles using the
 [createuser](http://www.postgresql.org/docs/8.3/static/app-createuser.html "http://www.postgresql.org/docs/8.3/static/app-createuser.html")
@@ -103,8 +82,7 @@ SQL statements. They are included in a standard postgres installation.
 
 With our present setup, we can only run these commands (successfully) as
 the postgres Linux user. We're still connected with the psql client, so
-let's exit with Ctrl-D or the '\\q' command:
-
+let's exit with Ctrl-D or the `\q` command:
 
     postgres=# \q
     ...
@@ -112,22 +90,17 @@ let's exit with Ctrl-D or the '\\q' command:
 
 Good, we have a shell prompt as the postgres Linux user.
 
-
-
-<span class="mw-headline">createuser </span>
---------------------------------------------
+#### createuser
 
 With
 [createuser](http://www.postgresql.org/docs/8.3/static/app-createuser.html "http://www.postgresql.org/docs/8.3/static/app-createuser.html")
 we'll create a non-superuser role that has the LOGIN attribute.
 
-
     postgres@demo:~$ createuser -PE demorole2
 
-With the '-P' flag we're prompted to set a password for the new role,
-and the '-E' flag indicates the password should be stored as an
+With the `-P` flag we're prompted to set a password for the new role,
+and the `-E` flag indicates the password should be stored as an
 MD5-encrypted string.
-
 
     Enter password for new role:
     Enter it again:
@@ -135,9 +108,8 @@ MD5-encrypted string.
     postgres@demo:~$
 
 Having supplied and confirmed the password, we're returned to a shell
-prompt. If we reconnect with psql and run the '\\du' command, we'll get
+prompt. If we reconnect with psql and run the `\du` command, we'll get
 this:
-
 
     postgres=# \du
                                    List of roles
@@ -147,15 +119,11 @@ this:
      postgres  | yes       | yes         | yes       | no limit    | {}
     (2 rows)
 
-
-
-<span class="mw-headline">dropuser </span>
-------------------------------------------
+#### dropuser
 
 We can drop (delete, remove) a role with the
 [dropuser](http://www.postgresql.org/docs/8.3/static/app-dropuser.html "http://www.postgresql.org/docs/8.3/static/app-dropuser.html")
 shell command:
-
 
     postgres@demo:~$ dropuser -i demorole2
     ...
@@ -164,32 +132,26 @@ shell command:
     ...
     postgres@demo:~$
 
-The '-i' flag provides a confirmation prompt, which is a good safety
+The `-i` flag provides a confirmation prompt, which is a good safety
 measure when running a potentially destructive command.
 
-
-
-<span class="mw-headline">Creating a superuser </span>
-------------------------------------------------------
+### Creating a superuser
 
 On occasion, we'll want to create additional superuser roles, e.g. when
 we have a database programmer whom we trust to administer our postgres
 server.
 
-We can do this with the 'createuser' shell command and the '-s' flag:
-
+We can do this with the `createuser` shell command and the `-s` flag:
 
     postgres@demo:~$ createuser -sPE mysuperuser
 
 Alternatively, we can do the same thing from within a psql session, when
 we're connected as the postgres role (or another existing superuser):
 
-
     postgres=#CREATE ROLE mysuperuser2 WITH SUPERUSER CREATEDB CREATEROLE LOGIN ENCRYPTED PASSWORD 'mysuperpass2';
 
-We've set the LOGIN attribute and a non-empty password &mdash; important if
+We've set the LOGIN attribute and a non-empty password, an important step if
 this superuser role will be specified for local and remote connections
 to the database. We've also set the CREATEDB and CREATEROLE attributes.
 With those attributes specified, our SQL statement will match the action
-of the 'createuser -sPE' command.
-
+of the `createuser -sPE` command.
