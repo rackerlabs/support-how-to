@@ -77,7 +77,7 @@ that everything is functioning as expected.
 ### Halt a server
 
 You can also shut down a server to put it in a *halted* state, in
-which no operating systems or <applications are running.
+which no operating systems or applications are running.
 Restoring a halted server to operation requires you to perform a hard
 reboot using the Cloud Control Panel.
 
