@@ -102,8 +102,6 @@ logical groups of resources that can be different datacenters, racks,
 servers, or disk drives. The goal is for failures in one zone to have no
 effect on the others.
 
-
-
  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Distributed%20Object%20Storage%20Reference%20Architecture.jpg" width="721" height="520" />
 
 **Figure 3: Distributed Object Storage Reference Architecture**
@@ -143,7 +141,7 @@ architecture will have:
 
 **Figure 4: &ldquo;Swift in a Rack&rdquo; Reference Architecture**
 
-** <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Swift%20in%20a%20Rack%20Recommended%20Configuration.jpg" width="686" height="515" />**
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Swift%20in%20a%20Rack%20Recommended%20Configuration.jpg" width="686" height="515" />
 
 **Figure 5: &ldquo;Swift in a Rack&rdquo; Recommended Configuration**
 
@@ -227,8 +225,7 @@ ensure objects are available and uncorrupted.
 
 ### References:
 
--   <span style="line-height: 1.538em;">[SeaMicro SM15000 Fabric Compute
-    Systems](http://www.seamicro.com/products/SM15000)</span>
+-   [SeaMicro SM15000 Fabric Compute Systems](http://www.seamicro.com/products/SM15000)
 -   [AMD Expands SeaMicro: Big Data Gets a High Performance
     Home](http://www.brightsideofnews.com/print/2012/9/11/amd-expands-seamicro-big-data-gets-a-high-performance-home.aspx)
 -   [SeaMicro Technology
