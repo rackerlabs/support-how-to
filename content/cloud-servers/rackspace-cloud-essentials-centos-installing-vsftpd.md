@@ -126,8 +126,8 @@ Create the chroot_list file so you do not get an error when restarting:
 
 -  Open the **/etc/sysconfig/iptables-config** file in your favorite editor.
 
--  Verify that the "IPTABLES_MODULES" contains "ip_conntrack_ftp" or
-"nf_conntrack_ftp". Should look similar to the following:
+-  Verify that the "IPTABLES_MODULES" variable is specified as "ip_conntrack_ftp" (CentOS 5) or
+"nf_conntrack_ftp" (CentOS 6) as shown in the following examples:
 
    -  Centos 5 (ip_conntrack_ftp):
 
