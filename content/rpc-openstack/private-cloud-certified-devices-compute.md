@@ -13,82 +13,42 @@ product_url: rpc-openstack
 The following compute components are certified for use in Private
 Clouds.
 
-
--
-
-AMD/SeaMicro
-------------
+### AMD/SeaMicro
 
 -   SeaMicro SM15000
 
-
--
-
-Dell
-----
+### Dell
 
 -   PowerEdge R515
 
-<!-- -->
-
 -   PowerEdge R720
-
-<!-- -->
 
 -   PowerEdge R820
 
-<!-- -->
-
 -   PowerEdge C6220
-
-<!-- -->
 
 -   PowerEdge C6105
 
-
-
-HP
---
+### HP
 
 -   ProLiant DL320e
 
-<!-- -->
-
 -   ProLiant DL360e
-
-<!-- -->
 
 -   ProLiant DL360p
 
-<!-- -->
-
 -   ProLiant DL380e
-
-<!-- -->
 
 -   ProLiant DL380p
 
-<!-- -->
-
 -   ProLiant DL385p
-
-<!-- -->
 
 -   ProLiant DL360G7
 
-<!-- -->
-
 -   ProLiant DL380G7
-
-<!-- -->
 
 -   ProLiant DL385G7
 
-<!-- -->
-
 -   ProLiant DL980G7
 
-
-
-* *
 
