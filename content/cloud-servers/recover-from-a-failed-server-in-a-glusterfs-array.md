@@ -10,6 +10,10 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+### Previous section
+
+[Add and remove GlusterFS servers](/how-to/add-and-remove-glusterfs-servers)
+
 This article shows the following ways to recover when a single server fails:
 
 *  Add a new server, with a new IP address, to take its place (a less work-intensive fix).
@@ -18,94 +22,78 @@ This article shows the following ways to recover when a single server fails:
 
 After completing the [previous article](/how-to/add-and-remove-glusterfs-servers) you should have a GlusterFS array with at least two nodes and know how to add and delete nodes.
 
-## Prerequisites
+### Prerequisites
 
 For the purpose of this article, you must be running on a four-node, fully replicated Gluster volume.
 
 Fill your GlusterFS array with fake data for the testing.
 
-## Add a replacement server
+### Add a replacement server
 
 In this scenario, web03 fails, but you add a new node with the IP address 192.168.0.5 to replace it. This method is easier than adding a new server with the same IP address as the failed server.
 
 This article will show two forms of disaster recovery:
 
- 1. A single node went down, and you're adding a new node to take its place.
- 2. A single node went down, got rebuilt and kept the IP - this turns out to be more work to fix
+1. A single node went down, and you're adding a new node to take its place.
+2. A single node went down, got rebuilt and kept the IP - this turns out to be more work to fix
 
-## Node down, adding a replacement node
+### Add a replacement node
 
 In this scenario, web03 will go down again, but you'll add a new node at 192.168.0.5 to replace it. This method is much easier.
 
 1.  Using one of the running servers, add the new sever into the cluster:
 
-   `root@matt:~# gluster peer probe 192.168.0.5`
+        root@matt:~# gluster peer probe 192.168.0.5
+        peer probe: success
 
-    `peer probe: success`
+2.  Exchange the failed brick for the new one:
 
-1.  Exchange the failed brick for the new one:
+        root@matt:~# gluster volume replace-brick www 192.168.0.3:/srv/.bricks/www 192.168.0.5:/srv/.bricks/www  commit force
+        volume replace-brick: success: replace-brick commit successful
 
-    `root@matt:~# gluster volume replace-brick www 192.168.0.3:/srv/.bricks/www 192.168.0.5:/srv/.bricks/www  commit force`
+3.  Heal the system:
 
-    `volume replace-brick: success: replace-brick commit successful`
+        root@matt:~# gluster volume heal www full
+        Launching Heal operation on volume www has been successful
+        # Use heal info commands to check status
 
-1.  Heal the system:
+4.  Get information about the progress of the `heal` operation:
 
-    `root@matt:~# gluster volume heal www full`
+        root@matt:~# gluster volume heal www info
+        # Gathering Heal info on volume www has been successful  
+        ...
+        Brick 192.168.0.4:/srv/.bricks/www
+        Number of entries: 23
+        /wordpress/wp-admin/upload.php
 
-    `Launching Heal operation on volume www has been successful`
+5.  If you were running a distributed system, run the following commands:
 
-    `Use heal info commands to check status`
+        root@matt:~# gluster volume rebalance www fix-layout start
+        volume rebalance: www: success: Starting rebalance on volume www has been successful.
+        ID: 0a9719c1-cf04-4161-b3b0-cc6fd8dd9108
+        root@matt:~# gluster volume rebalance www status
 
-1.  Get information about the progress of the `heal` operation:
+        Node      Rebalanced-files          size       scanned      failures       skipped         status run time in secs
+        ---------      -----------   -----------   -----------   -----------   -----------   ------------   --------------
+        localhost                0        0Bytes             0             0             0      completed             1.00
 
-    `root@matt:~# gluster volume heal www info`
+        localhost                0        0Bytes             0             0             0      completed             1.00
 
-    `Gathering Heal info on volume www has been successful`
+        192.168.0.2              0        0Bytes             0             0             0      completed             1.00
 
-    `...`
+        192.168.0.4              0        0Bytes             0             0             0      completed             1.00
 
-    `Brick 192.168.0.4:/srv/.bricks/www`
+        192.168.0.4              0        0Bytes             0             0             0      completed             1.00
 
-    `Number of entries: 23`
+        192.168.0.5              0        0Bytes             0             0             0      completed             1.00
 
-    /`wordpress/wp-admin/upload.php`
+        volume rebalance: www: success:
 
-1.  If you were running a distributed system, run the following commands:
-
-    `root@matt:~# gluster volume rebalance www fix-layout start`
-
-    `volume rebalance: www: success: Starting rebalance on volume www has been successful.`
-
-    `ID: 0a9719c1-cf04-4161-b3b0-cc6fd8dd9108`
-
-    `root@matt:~# gluster volume rebalance www status`
-
-                                        Node Rebalanced-files          size       scanned      failures       skipped         status run time in secs
-
-                                   ---------      -----------   -----------   -----------   -----------   -----------   ------------   --------------
-
-                                   localhost                0        0Bytes             0             0             0      completed             1.00
-
-                                   localhost                0        0Bytes             0             0             0      completed             1.00
-
-                                 192.168.0.2                0        0Bytes             0             0             0      completed             1.00
-
-                                 192.168.0.4                0        0Bytes             0             0             0      completed             1.00
-
-                                 192.168.0.4                0        0Bytes             0             0             0      completed             1.00
-
-                                 192.168.0.5                0        0Bytes             0             0             0      completed             1.00
-
-    volume rebalance: www: success:
-
-## Keep the IP address
+### Keep the IP address
 
 In this scenario, server web03, with the IP address 192.168.0.3, has crashed and is completely unrecoverable.
 
-To recover, you build a new server, with the *same IP address,* present it to GlusterFS as the failed server, and let it self-heal.
-
-You then re-balance the volume into the GlusterFS.
+To recover, you build a new server, with the *same IP address*, present it to GlusterFS as the failed server, and let it self-heal. You then re-balance the volume into the GlusterFS.
 
 Refer to the previous articles for information about building and configuring the replacement server.
 

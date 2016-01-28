@@ -64,8 +64,8 @@ previously instructed to use the following name servers:
 
 **ns.rackspace.com** & **ns2.rackspace.com**
 
-Please continue to use these name name servers for your dedicated services,
-but you will use the 'stabletransit' name nervers above for any domain
+Please continue to use these name servers for your dedicated services,
+but you will use the 'stabletransit' name servers above for any domain
 hosted from a Rackspace Cloud Server.
 
 #### How do I transfer the domain?
