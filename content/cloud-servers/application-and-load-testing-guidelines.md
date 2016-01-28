@@ -27,7 +27,7 @@ Customers who want to perform application tests, load tests, and performance-ben
 ### Load-testing guidelines
 
 Good testing practice requires that you continually monitor the effect of your test as you apply load. Before running such tests, ensure that you know how to view actual RAM, disk IO, and network usage in real-time. These metrics provide the early-warning signs that a test risks interfering with other customers' servers on the same host. See the following sections for specific thresholds.
-&emsp;
+
 ### Linux virtual servers
 
 Install and use the `screen` package for your Linux distribution in to run and view the following commands at the same time. To compile screen from source, go to the [GNU homepage]( http://www.gnu.org/software/screen/).
@@ -36,7 +36,7 @@ Install and use the `screen` package for your Linux distribution in to run and v
 
      watch free -m
 
-Don&rsquo;t let the value in the Free column in the +/- buffers/cache line go lower than 1,000.
+Don't let the value in the Free column in the +/- buffers/cache line go lower than 1,000.
 
 **Disk IO:** Use the following command to view disk IO use as you perform tests:
 
@@ -48,8 +48,8 @@ Watch the `%wa` number in the second line. It might occasionally rise above 1.0 
 
      sudo watch -n 10 -d /sbin/ip addr show eth0
 
-Watch the `RX bytes` number. Every 10 seconds, the <code>-d</code> argument highlights any changes in RX bytes numbers. The 10-second pause gives you time to note the RX bytes number before it changes. You can reduce the amount of math required to calculate exact changes if you remember that at least eight digits must change &ndash; per <code>watch -d</code> highlighting &ndash; between each 10-second update before you need to apply any arithmetic. For virtual machines with 2 GB RAM or more, at least nine digits must change before you need to calculate the exact change. The following table shows the maximum change in RX bytes per second by server size.
-&emsp;
+Watch the `RX bytes` number. Every 10 seconds, the <code>-d</code> argument highlights any changes in RX bytes numbers. The 10-second pause gives you time to note the RX bytes number before it changes. You can reduce the amount of math required to calculate exact changes if you remember that at least eight digits must change - per <code>watch -d</code> highlighting - between each 10-second update before you need to apply any arithmetic. For virtual machines with 2 GB RAM or more, at least nine digits must change before you need to calculate the exact change. The following table shows the maximum change in RX bytes per second by server size.
+
 <table>
 	<tr>
 		<th>Cloud server size</th>
@@ -130,8 +130,6 @@ There are several memory-related counters to watch during load testing.
 
 **Note:** If you are unsure of the amount of RAM installed, run the <code>msinfo32</code> command from the Run box.
 
-<p>     </p>
-
 #### Disk use
 
 Counter: **PhysicalDisk > Disk Time > _Total**
@@ -145,8 +143,6 @@ Counter: **PhysicalDisk > Avg. Disk Queue Length > _Total**
 Purpose: Validates the communication medium
 
 Threshold: Don't let this counter rise above 4.
-
-<p>     </p>
 
 #### Network use
 
@@ -196,15 +192,10 @@ To remove the network latency-induced components of any remote testing that you 
 Ping is publicly accessible for the following servers:
 
 - sandbox.dfw1.rackspace.net
-
 - sandbox.iad3.rackspace.net
-
 - sandbox.lon3.rackspace.net
-
 - sandbox.hkg1.rackspace.net
-
 - sandbox.ord1.rackspace.net
-
 - sandbox.syd2.rackspace.net
 
 **Note:** To remove DNS lookup effects, you might want to determine each test server's IP address and ping the IP address directly.
