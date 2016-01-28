@@ -61,14 +61,11 @@ your Thunderbird email client.
 
 9.  Click **Re-test**.
 
-    The **Authentication** fields should change to **Normal Password**
-    and you will see a message in the middle of the screen stating
+    The **Authentication** fields should change to **Normal Password**,
+    and the following message should appear in the middle of the screen:
     `The following setting were found by probing the given server`.
 
 10. Click **Done**.
 
     The setup process is done. You should now see your mailbox added in
     Thunderbird and mail will start populating the Inbox.
-
-
-

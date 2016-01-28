@@ -22,9 +22,6 @@ combination since they attack email problems from two different angles.
 For instructions on how to create DNS TXT Records for DKIM and SPF, see
 the following articles:
 
-[Creating a DKIM TXT
-Record](/how-to/create-a-dkim-txt-record "Creating a DKIM TXT Record")
+- [Create a DKIM TXT record](/how-to/create-a-dkim-txt-record "Creating a DKIM TXT Record")
 
-[Creating a SPF TXT
-Record](/how-to/create-an-spf-txt-record "Creating a SPF TXT Record")
-
+- [Create a SPF TXT record](/how-to/create-an-spf-txt-record "Creating a SPF TXT Record")

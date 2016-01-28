@@ -10,21 +10,15 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-A **catch-all address** receives all email sent to invalid mailboxes at
-a user's domain and is sometimes used to avoid missing any emails to a
-domain.
+A *catch-all address* receives all email sent to invalid mailboxes at a user's domain and is sometimes used to avoid missing any emails to a domain.
 
-**Note:** *Use this feature at your own risk.*
+**Warning:** Catch-all addresses are not filtered for spam. Use at your own risk. With this feature enabled, you will receive thousands of spam emails from spammers who guess random addresses within your domain.
 
-To add a catch-all address, [log in to the control
-panel](https://cp.rackspace.com/), and perform the following steps:
+To add a catch-all address, [log in to the Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following steps:
 
 1.  From the **Go to section** menu, select **Domains**.
-2.  In the **Tools** section, click the **Catch-All-Address**.
-3.  If you have multiple domains, select the appropriate domain name. To
-    change domains, click **change domain**.
+2.  In the **Tools** section, click the **Catch-All Address**.
+3.  If you have multiple domains, select the appropriate domain name. To change domains, click **change domain**.
 4.  Select the **Activate Catch-All Address** check box.
 5.  Enter the address in the **Email Address** box.
 6.  Click **Save**.
-
-
