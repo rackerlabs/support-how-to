@@ -15,64 +15,68 @@ Microsoft Exchange 2010 mailbox
 to work with your
 Outlook 2010 email client.
 
-1\. Click the Windows Start button, select Control Panel, then select the
-Mail icon.
+1. Click the Windows **Start** button, select **Control Panel**, then select the
+   **Mail** icon.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
 
-**Note:** Depending on which version of Windows you are running, you may need
-to switch to Classic view to find the **Mail** entry or it might be
-labeled **32-Bit**.
+   **Note:** Depending on which version of Windows you are running, you may need
+   to switch to Classic view to find the **Mail** entry or it might be
+   labeled **32-Bit**.
 
-2\. Select the **Show Profiles** button, select the **Add** button and
-enter in a name for this profile and select the **OK** button.
+2. Select the **Show Profiles** button, select the **Add** button,
+   enter a name for this profile, and select the **OK** button.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange4.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange4.png)
 
-3\. Select the **Manually configure server settings or additional server
-types** check box, and then select the **Next** button.
+3. Select the **Manually configure server settings or additional server
+   types** check box and then select the **Next** button.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange50.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange50.png)
 
-4\. Select the **Microsoft Exchange** option and click
-the **Next** button.
+4. Select the **Microsoft Exchange** option and click
+   the **Next** button.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange6.png) <span> </span>
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange6.png)
 
-5\. Enter in "**outlook**" in the Microsoft Exchange server address field
-and select the **Use Cached Exchange Mode** check box. In the User Name
-box, enter in your entire email address and then select "**More
-Settings**."
+5. Enter **outlook** in the Microsoft Exchange server address field
+   and select the **Use Cached Exchange Mode** check box.
 
-![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange2010.png)
+   In the **User Name** box, enter your entire email address.
+   Then select "**More Settings**."
 
-6\. Next, select the **Connection** tab, select the **Connect to
-Microsoft Exchange** **using HTTP** check box and then Select
-the **Exchange Proxy Settings** button.
+   ![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange2010.png)
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange8.png)
+6. Select the **Connection** tab, select the **Connect to
+   Microsoft Exchange** **using HTTP** check box, and select
+   the **Exchange Proxy Settings** button.
 
-7\. Enter in "**connect.emailsrvr.com**" in the Proxy Server address.
-Select both the **On fast networks** and **On slow networks** check
-boxes and under Proxy authentication settings, select **Basic
-Authentication**.  Click **OK** to close the proxy settings window. Then
-**Apply** and **OK** to close the More Settings window.<span> </span>
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange8.png)
 
-![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange20102.png)
+7. Enter **connect.emailsrvr.com** as the proxy server address.
 
-8\. S<span>elect the Check Name box in the Connect window, enter the
-password that </span><span
-style="color: rgb(63, 69, 73); font-family: 'Helvetica Neue', arial, sans-serif; font-size: 15px; line-height: 21px;">your
-administrator assigned to</span>
-<span
-style="color: rgb(63, 69, 73); font-family: 'Helvetica Neue', arial, sans-serif; font-size: 15px; line-height: 21px;">your
-email account </span><span>and select the OK button.</span>
+   Select both the **On fast networks** and **On slow networks** check boxes.
 
-**Note:** You may receive a pop-up asking you to select your mailbox from a
-list. Select your mailbox and click the OK button.
+   Under **Proxy authentication settings**, select **Basic
+   Authentication**.  
 
-9\. Your name will then be highlighted and a line will appear under the
-username field which indicates your profile has been configured. Select
-**Next**, **finish,** and open up Outlook.
+   Select **OK** to close the proxy settings window.
 
-![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange20103.png)
+   Then select **Apply** and **OK** to close the **More Settings** window.
+
+   ![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange20102.png)
+
+8. Select the **Check Name** box in the **Connect** window, enter the
+   password that your
+   administrator assigned to your
+   email account and select the **OK** button.
+
+   **Note:** You may receive a pop-up asking you to select your mailbox from a
+   list. Select your mailbox and click the **OK** button.
+
+9. Your name will then be highlighted and a line will appear under the
+   username field, indicating that your profile has been configured.
+
+   Select **Next**, select **finish**, and open Outlook.
+
+   ![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange20103.png)
