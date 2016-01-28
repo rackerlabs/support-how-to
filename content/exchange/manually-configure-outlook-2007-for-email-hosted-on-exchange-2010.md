@@ -15,59 +15,65 @@ Microsoft Exchange 2010 mailbox
 to work with your
 Microsoft Outlook 2007 email client.
 
-1\. Click the Windows Start button, select Control Panel, then select the
-Mail icon.
+1. Click the Windows **Start** button, select **Control Panel**, then select the
+   **Mail** icon.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
 
-**Note:** Depending on what version of Windows you're running, you may need
-to switch to Classic view to find the mail icon or it may state 32-Bit.
+   **Note:** Depending on what version of Windows you're running, you may need
+   to switch to Classic view to find the mail icon or it may state 32-Bit.
 
-2\. Select **Show Profiles**, click **Add,** enter a name for this
-profile and select **OK**.
+2. Select **Show Profiles**, click **Add**, enter a name for this
+   profile. and select **OK**.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange4.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange4.png)
 
-<span>3. Select </span>**Manually configure server settings or
-additional server types**<span> and click </span>**Next**<span>.</span>
+3. Select **Manually configure server settings or
+   additional server types** and click **Next**.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange50.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange50.png)
 
-<span>4. Select </span>**Microsoft Exchange**<span> and click
-</span>**Next**<span>.</span>
+4. Select **Microsoft Exchange** and click
+   **Next**.
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange6.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange6.png)
 
-5\. Type **outlook** in the Microsoft Exchange server address field and
-select **Use Cached Exchange Mode**. In the User Name field, enter enter
-your entire email address and then select "**More Settings**."
+5. Type **outlook** in the Microsoft Exchange server address field and
+   select **Use Cached Exchange Mode**.
 
-![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange2010.png)
+   In the **User Name** field, enter
+   your entire email address and then select **More Settings**.
 
-<span>6. Next, select the </span>**Connection**<span> tab and select
-</span>**Connect to Microsoft Exchangeusing HTTP**<span>. Select
-</span>**Exchange Proxy Settings**<span>, enter the </span>**Proxy
-Server address**<span> from the Outlook 2010 setup guide.</span>
+   ![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange2010.png)
 
-![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange8.png)
+6. Select the **Connection** tab and select
+   **Connect to Microsoft Exchange using HTTP**.
 
-7\. Next, enter "**connect.emailsrvr.com**" in the Proxy Server address.
-Select both **On fast networks** and **On slow networks.** Under Proxy
-authentication settings, select **Basic Authentication**.
+   Select
+   **Exchange Proxy Settings** and enter the **Proxy
+   Server address**
+   from the Outlook 2010 setup guide in the control panel.
 
-![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange20102.png)
+   ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange8.png)
 
-<span>8. Click </span>**Ok**<span>,
-</span>**Apply**<span>, </span>**Ok**<span> again, then select the
-</span>**Check Name**<span> box in the Connect window. Type the password
-and select </span>**OK**<span>.</span>
+7. Enter **connect.emailsrvr.com** as the **Proxy Server** address.
 
-**Note:** You may receive a pop-up asking you to select your mailbox from a
-list. Select your mailbox and click OK.
+   Select both **On fast networks** and **On slow networks**.
 
-<span>9. Your name will then be highlighted and a line will appear under
-the username field which indicates your profile has been configured.
-Select </span>**Next**<span>, F</span>**inish,** <span>and open up
-Outlook.</span>
+   Under **Proxy authentication settings**, select **Basic Authentication**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image8.png" width="672" height="462" />
+   ![](http://c4413634.r34.cf2.rackcdn.com/(E%26A)Outlook2010WithExchange20102.png)
+
+8. Click **Ok**, **Apply**, and **Ok** again, then select the
+   **Check Name** box in the **Connect** window. Type the password
+   and select **OK**.
+
+   **Note:** You may receive a pop-up asking you to select your mailbox from a
+   list. Select your mailbox and click **OK**.
+
+9. Your name will then be highlighted and a line will appear under
+   the username field, indicating that your profile has been configured.
+
+   Select **Next**, then **Finish,** and then open Outlook.
+
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image8.png" width="672" height="462" />
