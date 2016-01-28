@@ -1,6 +1,6 @@
 ---
 node_id: 5172
-title: Office 365 FAQ
+title: Microsoft Office 365 FAQ
 type: product
 created_date: '2016-01-20'
 created_by: Nate Archer
