@@ -1,5 +1,5 @@
 ---
-title: Rackspace Email
+title: Rackspace Email Archiving
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
