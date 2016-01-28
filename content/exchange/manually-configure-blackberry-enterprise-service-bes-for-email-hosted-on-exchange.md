@@ -32,53 +32,51 @@ meantime, please feel free to continue using ActiveSync.
 
 ### BlackBerry OS5
 
-<span>1. From the Home screen on your Blackberry select
-</span><span>**Messaging**, and then select **Options**.</span>
+1. From the home screen on your Blackberry select
+   **Messaging**, then select **Options**.
 
-![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES.png)
- ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES2.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES2.png)
 
-<span>2. Next, select **Advanced Options** and then select **Enterprise
-Activation**.</span>
+2. Select **Advanced Options** and then select **Enterprise
+   Activation**.
 
-![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES3.png)
- ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES4.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES3.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES4.png)
 
-<span>3. Enter in your full </span>**email address**<span> and the
-</span>**ActivationPassword**<span> provided by your administrator,
-press the </span>**Menu**<span> button, and select
-</span>**Activate**<span>. Your device will then state
-"</span>**Acquiring service connection**<span>" and your device will go
-through the motions of setting up your account. </span>
+3. Enter your full **email address** and the
+   **ActivationPassword** provided by your administrator,
+   press the **Menu** button, and select
+   **Activate**. Your device will then state
+   "**Acquiring service connection**" and your device will
+   begin the process of setting up your account.
 
-![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES5.png)
- ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES6.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES5.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES6.png)
 
-**Note:** This process can take anywhere from 2 - 20 mins depending on
-your connection and how much data you have.
-
-
+   **Note:** This process can take anywhere from 2 - 20 mins depending on
+   your connection and how much data you have.
 
 ### BlackBerry OS6
 
-<span>1. From the BlackBerry Home screen, select the
-</span>**Setup **<span>icon and then select the </span>**Email
-Accounts**<span> icon.</span>
+1. From the BlackBerry home screen, select the
+   **Setup** icon and then select the **Email
+   Accounts** icon.
 
-![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES7.png)
- ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES8.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES7.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES8.png)
 
-<span>2. Select </span>**Enterprise Activation**<span>, fill in your
-</span>**Email Address**<span> and </span>**Activation Password**<span>
-and then select </span>**Activate**<span>. Your device will then state
-"</span>**Acquiring service connection**<span>" and your device will go
-through the motions of setting up your account.</span>
+2. Select **Enterprise Activation**, fill in your
+   **Email Address** and **Activation Password**
+   and then select **Activate**. Your device will then state
+   "**Acquiring service connection**" and your device will
+   begin the process of setting up your account.
 
-![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES9.png)
- ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES10.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES9.png)
+   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES10.png)
 
- **Note:** This process can take anywhere from 2 - 20 mins depending on
- your connection and how much data you have.
+   **Note:** This process can take anywhere from 2 - 20 mins depending on
+   your connection and how much data you have.
 
 ### BlackBerry folder redirection
 
@@ -87,19 +85,19 @@ redirection. The settings will only apply to new messages received after
 the folder redirection changes have been saved. Your BlackBerry software
 must be version 4.0 or higher.
 
-<span>1. On the Home screen, go to </span>**Messages**<span>, select the
-**Menu** key (on older models), and select </span>**Options**<span>,
-then </span>**Email Settings**<span>.</span>
+1. On the home screen, go to **Messages**, select the
+   **Menu** key (on older models), and select **Options**,
+   then **Email Settings**.
 
-<span>2. Select the </span>**Menu** key<span> and select </span>**Folder
-Redirection** <span>and in the Folder Redirection menu, highlight your
-Mailbox, press the Menu key and select </span>**Expand**<span>.</span>
+2. Select the **Menu** key and select **Folder
+   Redirection**. In the **Folder Redirection** menu, highlight your
+   mailbox, press the menu key, and select **Expand**.
 
-<span>3. Highlight the folder you want to enable redirection on, press
-the **Menu** key and select </span>**Change Option**<span>. Press the
-**Menu** key and select **Save**.</span>
+3. Highlight the folder you want to enable redirection on, press
+   the **Menu** key and select **Change Option**. Press the
+   **Menu** key and select **Save**.
 
 **Note:** If you are unable to select Expand for any of the folders, or
-if Change Option is unavailable, try turning Wireless Reconcile off and
+if **Change Option** is unavailable, try turning Wireless Reconcile off and
 then on again. You can find Wireless Reconcile in Messages &gt; Options
 &gt; Email Reconciliation.
