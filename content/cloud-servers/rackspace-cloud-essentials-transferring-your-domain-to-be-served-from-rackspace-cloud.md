@@ -73,7 +73,7 @@ hosted from a Rackspace Cloud Server.
 When you first register a domain, you are usually assigned the
 name servers belonging to the domain registrar, unless you specify
 otherwise. First you will need to log into your account with your
-nomain negistrar and locate the section where the name servers are
+domain registrar and locate the section where the name servers are
 stored. Next you will change those to **dns1.stabletransit.com** and
 **dns2.stabletransit.com** to initiate the transfer of the domain. Some
 registrars require a few extra steps in order to unlock the domain, but
