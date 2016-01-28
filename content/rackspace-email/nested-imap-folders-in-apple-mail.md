@@ -38,10 +38,8 @@ mailbox, as follows:
 3. Click the **Advanced** tab.
 4. Try one or both of the following possible fixes:
 
-  - Change the case of the prefix. For example, change INBOX to Inbox.
-  - Add a slash (/) at the end of the prefix&mdash;for example, INBOX/
-    or Inbox/. A slash helps Apple Mail recognize that the path ends in
-    a folder.
+    - Change the case of the prefix. For example, change INBOX to Inbox.
+    - Add a slash (/) at the end of the prefix&mdash;for example, INBOX/ or Inbox/. A slash helps Apple Mail recognize that the path ends in a folder.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_1.jpg" width="542" height="560" />
 

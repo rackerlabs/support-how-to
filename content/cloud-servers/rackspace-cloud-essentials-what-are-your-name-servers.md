@@ -12,17 +12,16 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
+[Rackspace Cloud Essentials - Building your cloud inventory](/how-to/rackspace-cloud-essentials-building-your-cloud-inventory)
 
 By now, you have built your server, made it secure, and uploaded content
-to your server.  The last step in the First 48 Hour Essentials is to
+to your server. The last step in the First 48 Hour Essentials is to
 configure your DNS so the rest of the Internet knows where to find your
 site.
 
-The most commonly asked DNS question is about our name servers.  Name
+The most commonly asked DNS question is about our name servers. Name
 servers store the internet directory information that connects your
-domain name to your website and email hosting.  Essentially, name
+domain name to your website and email hosting. Essentially, name
 servers tell the internet where to find your website and where to
 deliver your email. Our name servers are:
 
@@ -44,10 +43,6 @@ now being served by a different IP address.
 In the next article we'll go into more detail on the process for
 Transferring Your Domain to be Served From the Rackspace Cloud.
 
-
-
 ### Next steps
 
-[Transferring Your Domain to the Rackspace
-Cloud](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
-
+[Transferring Your Domain to the Rackspace Cloud](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)

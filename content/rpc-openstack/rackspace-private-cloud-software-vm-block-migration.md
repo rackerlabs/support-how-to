@@ -54,11 +54,10 @@ November 15, 2012
 -   [Rackspace Private Cloud Knowledge
     Center](/how-to/rpc-openstack)
 -   [OpenStack Manuals](http://docs.openstack.org)
--   [OpenStack Documentation: Configuring Live
-    Migrations](http://docs.openstack.org/trunk/openstack-compute/admin/content/configuring-live-migrations.html)
+-   [OpenStack Documentation: Configuring migrations](http://docs.openstack.org/admin-guide-cloud/compute-configuring-migrations.html)
 
-OpenStack Compute Migration Concepts
-----------------------------------------
+### OpenStack Compute Migration Concepts
+
 
 In virtual machine migration, a VM (also known as a guest) that is
 running on one OpenStack Compute (Nova) compute node is moved to another
@@ -71,19 +70,15 @@ nodes.
 The guest components that are migrated include the current memory pages
 and disk state, and the host components include the network rules and IP
 addresses that allow access to and from the guest. There are two
-different modes of guest migration, [live
-migration](#migration-live "Live Migrations") and [block
-migration](#migration-block "Block Migrations").  Both types of
+different modes of guest migration, live
+migration and block
+migration.  Both types of
 migration must be performed by an admin user.
 
-<div class="section" title="Live Migrations">
-
-### Live Migrations
+#### Live Migrations
 
 For a live migration to be successful, your configuration must meet the
 following prerequisites:
-
-<div class="itemizedlist">
 
 -   The guest machine images are stored on shared storage that is
     accessible to all compute nodes in the compute cluster.
@@ -109,7 +104,7 @@ that were associated with the guest. Finally, the destination node adds
 the relevant network details, unpauses the guest, and updates the
 database to show that the migration is complete.
 
-### Block Migrations
+#### Block Migrations
 
 Block migrations are useful when you don't have, and don't want the
 management overhead of, shared storage to place your guest images on.
@@ -119,8 +114,7 @@ network from the source node to the destination node.  This does mean
 that the migration takes a little longer, but achieves a similar result
 in that the guest is fully migrated from one node to another.
 
-Rackspace Private Cloud Block Migration
--------------------------------------------
+### Rackspace Private Cloud Block Migration
 
 By default, shared storage is not configured in an Rackspace Private
 Cloud (Alamo) install, so your guest migration will use the block
@@ -129,7 +123,7 @@ migration. In this example, we have a 2-node nova compute cluster, with
 compute hosts called `compute1` and `compute2`. All actions are
 performed with `root` access.
 
-### Migration Example
+#### Migration Example
 
 First, get a list of the VM guests:
 
@@ -279,7 +273,7 @@ it at the other end of the migration process.
 
 <div class="section" title="Troubleshooting a Migration">
 
-### Troubleshooting a Migration
+#### Troubleshooting a Migration
 
 Sometimes when attempting a migration, you will encounter an error from
 the nova client, similar to the following :
@@ -328,17 +322,8 @@ the admin tenant:
 Generally, if you have any issues migrating your guests, the best places
 to check would be the following log files:
 
-<div class="itemizedlist">
-
 -   `/var/log/nova/nova-scheduler.log` on the Alamo controller node
 -   `/var/log/nova/nova-compute.log` on your source/destination compute
     hosts
 
-</div>
-
-</div>
-
-</div>
-
-</div>
 

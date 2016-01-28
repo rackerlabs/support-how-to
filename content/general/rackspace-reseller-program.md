@@ -6,13 +6,12 @@ created_date: '2013-09-23'
 created_by: Rackspace Support
 last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: undefined
+product_url: undefined
 ---
 
 The [Rackspace Reseller program](https://www.rackspace.com/partners/) is
-built to enable all types of businesses to incorporate [hybrid cloud
-solutions](http://www.rackspace.com/cloud/hybrid/) into their current
+built to enable all types of businesses to incorporate [hybrid cloud solutions](http://www.rackspace.com/cloud/hybrid/) into their current
 product and service offerings. The Reseller program helps you succeed
 by:
 
@@ -29,7 +28,7 @@ In addition to receiving compensation benefits, resellers can also take
 advantage of sales, marketing and training resources. Some of these
 benefits include:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Reseller_Prog_Collateral_Update-1a.png" width="600" height="296" />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Reseller_Prog_Collateral_Update-1a.png)
 
 \*These benefits are limited and require a business review and approval.
 
@@ -40,7 +39,7 @@ selling Rackspace solutions to your prospects and customers. Our program
 offers market competitive reseller discounts that lead to higher margins
 and greater competitive advantages.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Reseller_Prog_Collateral_Update-2a.png" width="476" height="136" />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Reseller_Prog_Collateral_Update-2a.png)
 
 ### Program Requirements
 
@@ -54,4 +53,3 @@ and greater competitive advantages.
 For more information about the Rackspace Reseller Program, or to apply,
 please visit <https://www.rackspace.com/partners/> or email
 <resellerpartner@rackspace.com> if you have any questions.
-

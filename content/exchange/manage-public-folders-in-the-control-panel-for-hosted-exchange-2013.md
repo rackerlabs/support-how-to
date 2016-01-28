@@ -98,7 +98,7 @@ From the list of public folders, you can delete multiple folders at once
 2. Click the gear icon next to the **Folder Name** label at the top of
    the list and select **Delete**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/bulk%2520delete2.png" width="849" height="317" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/bulk%2520delete2.png" width="849" height="317" />
 
 3. In the confirmation popup box, click **Delete Folders** to
    permanently delete the selected folders.

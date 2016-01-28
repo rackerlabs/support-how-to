@@ -13,14 +13,13 @@ product_url: rpc-openstack
 Rackspace has released a package update for Rackspace Private Cloud
 Software.
 
-Update Instructions
------------------------
+### Update Instructions
 
 If you have an existing environment created with Rackspace Private Cloud
 Software v. 3.0, you can update your environment by performing update
 commands on all nodes in your  environment.
 
-### Server Update
+#### Server Update
 
 Rackspace recommends that you update the OpenCenter server before
 updating the agents.
@@ -40,7 +39,7 @@ updating the agents.
         $ service opencenter-server restart
         $ service opencenter-agent restart
 
-### Agent Update
+#### Agent Update
 
 After the server has been successfully updated, update each agent.
 
@@ -58,8 +57,7 @@ After the server has been successfully updated, update each agent.
 
         $ service opencenter-agent restart
 
-Package Update Changes
---------------------------
+### Package Update Changes
 
 The following list summarizes key changes included in this package
 update. Where relevant, it includes the issue number from the related
