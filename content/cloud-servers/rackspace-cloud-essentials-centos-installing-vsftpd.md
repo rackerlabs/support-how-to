@@ -168,4 +168,4 @@ To close the FTP session, simply type **exit** in the session window.
 
 ### Next section
 
-[Rackspace Cloud Essentials - CentOS - Installing vsftpd](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
+[Rackspace Cloud Essentials - CentOS - Configuring a user in vsftpd](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
