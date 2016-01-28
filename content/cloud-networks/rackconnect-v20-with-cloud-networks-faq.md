@@ -10,12 +10,12 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-#### **Does RackConnect support cloud servers that are part of a Cloud Network?**
+####Does RackConnect support cloud servers that are part of a Cloud Network?
 
 RackConnect support for Cloud Networks is available as of January 16,
 2013.
 
-#### IMPORTANT: Can I attach/detach a Cloud Network on a running RackConnected Cloud Server?
+####IMPORTANT: Can I attach/detach a Cloud Network on a running RackConnected Cloud Server?
 
 Attaching/detaching a Cloud Network on a running RackConnected Cloud
 Server causes the network stack to be reset, which will break the cloud
@@ -24,7 +24,7 @@ attaching or detaching Cloud Networks to running RackConnect servers.
 If you do need to attach or detach a network, please contact your
 Support team prior to making the change.
 
-#### **What are the requirements for using Cloud Networks with RackConnect?**
+####What are the requirements for using Cloud Networks with RackConnect?
 
 1. You must be a RackConnect 2.0 with Automation Features enabled
  customer. For further details on RackConnect Automation Features,
@@ -58,11 +58,11 @@ example, the Cloud Network is equal to 192.168.x.x/24.
 
 <img src="/knowledge_center/sites/default/files/styles/half_width/public/field/image/CloudNetworks.NetworkPolicy.png" class="image-half_width" />
 
-*Note: This Network Policy will need to be created, even if you already
+**Note:** This Network Policy will need to be created, even if you already
 have a "Cloud Server(s) to Cloud Server(s)" Network Policy allowing all
-traffic.*
+traffic.
 
-#### What network ranges can I use with Cloud Networks for RackConnected cloud servers?
+####What network ranges can I use with Cloud Networks for RackConnected cloud servers?
 
 Cloud Networks itself normally supports any network range, but if you
 plan to use the Cloud Network with RackConnected cloud servers, we
@@ -73,7 +73,7 @@ Address Spaces:
 - 172.16.x.x/12 -&gt; 172.31.x.x/12**\***
 - 192.168.x.x/16 **\***
 
-**Note**: When creating Cloud Networks, please follow these guidelines to avoid connectivity issues:
+**Note:** When creating Cloud Networks, please follow these guidelines to avoid connectivity issues:
 
    - Avoid using a network range that overlaps with 10.176.0.0/12
  or 10.208.0.0/12.
@@ -81,7 +81,7 @@ Address Spaces:
  Dedicated environment.**
    - ****Avoid using Public IP address network ranges.****
 
-#### Can I use RackConnect and Cloud Networks to create one large Layer 2 Broadcast Domain that spans my Dedicated and Cloud environments?
+####Can I use RackConnect and Cloud Networks to create one large Layer 2 Broadcast Domain that spans my Dedicated and Cloud environments?
 
 In other words, can you have a single network, let's say 192.168.x.x/24,
 for your dedicated servers and also for your cloud servers, so that they
