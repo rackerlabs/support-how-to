@@ -4,14 +4,16 @@ title: Manually configure Outlook 2007 for email hosted on Exchange 2007
 type: article
 created_date: '2011-04-07'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-Ready to set up your Microsoft Exchange 2007 mailbox with Microsoft
-Outlook 2010? The following steps will get you going.
+This article describes how to set up your
+Microsoft Exchange 2007 mailbox 
+to work with your
+Microsoft Outlook 2007 email client.
 
 1.  First thing you'll want to do is log into your User Control Panel
     ([cp.rackspace.com/usercp](http://cp.rackspace.com/usercp)) and
@@ -72,6 +74,3 @@ Outlook 2010? The following steps will get you going.
     Select **Next**, **Finish**, and open up Outlook. You're finished!
 
     ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange10.png)
-
-
-

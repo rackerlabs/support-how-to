@@ -4,14 +4,16 @@ title: Manually configure Outlook 2007 for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-09'
 created_by: Mawutor Amesawu
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-Use the following steps to set up your Microsoft Exchange 2013 mailbox
-with your Outlook 2007 email client.
+This article describes how to set up your
+Microsoft Exchange 2013 mailbox 
+to work with your
+Microsoft Outlook 2007 email client.
 
 1.Click the Windows Start button, select **Control Panel**, and then
 click **Mail** (32-bit).
@@ -86,4 +88,3 @@ other accounts.*
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8.png" width="687" height="478" />
 
 11\. Open Outlook to select your new Exchange profile.
-
