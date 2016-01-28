@@ -17,30 +17,19 @@ common issues identified by our support technicians, but these are not
 mandatory. Some of these recommendations can cause significant downtime,
 so you should schedule them accordingly.
 
-For Windows migration preparation, see [Prepare to migrate a Windows
-server](/how-to/prepare-to-migrate-a-windows-server).
+For Windows migration preparation, see [Prepare to migrate a Windows server](/how-to/prepare-to-migrate-a-windows-server).
 
--   [Back up your data](#backUpYourData)
--   [Prepare for a system reboot](#prepareforSystemReboot)
--   [General preparation](#generalPrep)
--   [Right before the migration](#rightBefore)
--   [After a migration](#afterMigration)
-
-Back up your data
----------------------
+### Back up your data
 
 Before you perform any migration, create a file-level backup of
 important data. You can use Rackspace Cloud Backup to automate the
 storing and retrieving of backup data from Cloud Files, or you can use
 rsync to copy your data to another server.
 
--   [Rackspace Cloud Backup - Install the agent on
-    Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
--   [Backing up your files with
-    rsync](/how-to/backing-up-your-files-with-rsync)
+-   [Rackspace Cloud Backup - Install the agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+-   [Backing up your files with rsync](/how-to/backing-up-your-files-with-rsync)
 
-Prepare for a system reboot
--------------------------------
+### Prepare for a system reboot
 
 It's good practice to shut down your server during the final stages of a
 migration to safely copy dynamic content to the new host. During a
@@ -50,13 +39,12 @@ purpose.
 Ensure that your server will reboot quickly and safely when the
 migration completes.
 
-General preparation
------------------------
+### General preparation
 
 The following tasks help to avoid issues with server time and the size
 of the disk space on the server.
 
-### Set accurate time via NTP
+#### Set accurate time via NTP
 
 Some older cloud servers pull time from their host machine instead
 of keeping time independently from the host. Unfortunately, the time set
@@ -64,17 +52,15 @@ on these hosts can be inaccurate. To avoid migration issues related to
 the server date or file time stamps, set up and configure Network Time
 Protocol (NTP) on your server.
 
-For details on setting up NTP on your server, see [Using NTP to sync
-time](/how-to/using-ntp-to-sync-time).
+For details on setting up NTP on your server, see [Using NTP to sync time](/how-to/using-ntp-to-sync-time).
 
-Right before the migration
-------------------------------
+#### Reduce number and size of files
 
 You can reduce the time required for a migration and improve the
 reliability of a resulting image by reducing the number and size of
 files that might change during the migration operation.
 
-### Lock databases
+#### Lock databases
 
 If a database changes during a migration, data could be lost data or the
 database in the image could be corrupted.
@@ -87,8 +73,7 @@ To lock your tables in MySQL, run the following command:
 
     mysql -u root -p --execute="FLUSH TABLES WITH READ LOCK"
 
-After a migration
----------------------
+### Postmigration tasks
 
 After a migration is complete and your new server starts, you should
 test your web sites and applications. Ensure that applications are
@@ -97,4 +82,3 @@ responsive and that they can write information to their databases.
 If you have any services that need to communicate to other servers,
 explicitly test their connectivity to ensure that they still talk to
 each other.
-
