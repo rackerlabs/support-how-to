@@ -10,11 +10,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-What Is a Name Server?
-----------------------
-
 A name server is part of the Domain Name System (DNS) that translates a
-human readable domain name (such as rackspace.com) into its
+human readable domain name (such as **rackspace.com**) into its
 corresponding IP address. This information is reported up a hierarchical
 chain of name servers that store the domain-to-IP mappings in a
 directory. When you request a website by entering the domain name in
@@ -25,16 +22,14 @@ Server, you'll need to update your domain with the names of the
 Rackspace name servers so that the DNS system knows where to locate the
 new IP address for your domain.
 
-The Rackspace Name Servers
---------------------------
+### The Rackspace name servers
 
 The Rackspace name servers are:
 
 -   **dns1.stabletransit.com**
 -   **dns2.stabletransit.com**
 
-Using the Rackspace Name Servers
---------------------------------
+### Using the Rackspace Name Servers
 
 If you have an existing domain that is already registered with another
 service provider and you want to host it from your Rackspace Cloud
@@ -46,8 +41,7 @@ changes during this time, the changes must be made on both sets of DNS
 servers. Failure to update both servers will cause random
 inconsistencies.
 
-Finding Your Current Name Servers
----------------------------------
+### Finding your current name servers
 
 If you don't know your current name servers, a
 [WHOIS](http://whois.domaintools.com/ "http://whois.domaintools.com")
@@ -59,16 +53,10 @@ or [GoDaddy](http://www.godaddy.com/). The only time that Rackspace
 serves as a domain registrar is if you are using our [Cloud
 Sites](http://www.rackspace.com/cloud/cloud_hosting_products/sites/ "http://www.rackspace.com/cloud/cloud_hosting_products/sites/")
 service. To host a domain that you have registered on your Rackspace
-Cloud Server, go to your domain registrar and [set the nameservers to
-Rackspace's
-nameservers](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud).
+Cloud Server, go to your domain registrar and [set the nameservers to Rackspace's nameservers](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud).
 This will allow DNS to route to your domain hosted on your Cloud Server.
 
 ### Related Information
 
-[Serving Your Domain From a Rackspace Cloud
-Server](/how-to/serving-your-domain-from-a-rackspace-cloud-server "Serving Your Domain From a Rackspace Cloud Server")
-
-[Create DNS Records for Cloud Servers with the Control
-Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel "Create DNS Records for Cloud Servers with the Control Panel")
-
+-  [Serving Your Domain From a Rackspace Cloud Server](/how-to/serving-your-domain-from-a-rackspace-cloud-server "Serving Your Domain From a Rackspace Cloud Server")
+-  [Create DNS Records for Cloud Servers with the Control Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel "Create DNS Records for Cloud Servers with the Control Panel")
