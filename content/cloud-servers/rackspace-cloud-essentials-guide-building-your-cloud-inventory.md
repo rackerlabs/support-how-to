@@ -10,25 +10,14 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-####
-This Second Guide will show you how to add new Cloud Servers and Cloud Load Balancers to your account.
+The following articles will show you how to add new Cloud Servers and Cloud Load Balancers to your account:
 
 **Cloud Servers**
 
--   [Getting Started with Cloud
-    Servers](/how-to/create-a-cloud-server)
--   [Rackspace Cloud Essentials - Choosing the right size cloud
-    server](/how-to/rackspace-cloud-essentials-choosing-the-right-size-cloud-server)
--   [<span>Managing your
-    server</span>](/how-to/managing-your-server)
+-   [Create a Cloud Server](/how-to/create-a-cloud-server)
+-   [Rackspace Cloud Essentials - Choosing the right size cloud server](/how-to/rackspace-cloud-essentials-choosing-the-right-size-cloud-server)
+-   [Managing yourserver](/how-to/managing-your-server)
 
 **Cloud Load Balancers**
 
--   [<span>Configure a load
-    balancer</span>](/how-to/configure-a-load-balancer)
-
-
-
-[Back to Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
-
+-   [Configure a load balancer](/how-to/configure-a-load-balancer)
