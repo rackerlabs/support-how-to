@@ -19,25 +19,25 @@ This article describes how to manage individual user spam settings and how to sa
 5. In the **Status** section, turn spam filtering on or off. Or, select **Exclusive** to receive email only from senders on the safelist.
 6. If you turned spam filtering on, indicate how messages should be handled for Rackspace Email:
 
-    -   **Deliver to Spam folder**&mdash;Spam messages are sent to the user's Spam folder. If you want to automatically delete messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a specified number of days or total emails.
-    -   **Delete the email immediately**&mdash;Spam email will be deleted automatically and not delivered to the user's mailbox. Email will be permanently deleted and will not be retrievable.
+    - **Deliver to Spam folder**&mdash;Spam messages are sent to the user's Spam folder. If you want to automatically delete messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a specified number of days or total emails.
+    - **Delete the email immediately**&mdash;Spam email will be deleted automatically and not delivered to the user's mailbox. Email will be permanently deleted and will not be retrievable.
     -   **Include "\[SPAM\]" at the beginning of the subject line**&mdash;Spam email
     will be delivered to the user's Inbox, but will include the text "\[SPAM\]" in the Subject line.
-    -   **Deliver to the email address**&mdash;Spam messages are sent to an address in your domain that you specify.
+    - **Deliver to the email address**&mdash;Spam messages are sent to an address in your domain that you specify.
 7. If you turned spam filtering on, indicate how messages should be handled for Microsoft Exchange:
 
-    -   **Send spam to the quarantine for this recipient**&mdash;Each Exchange mailbox
+    - **Send spam to the quarantine for this recipient**&mdash;Each Exchange mailbox
     has its own Quarantine Manager, located in the User Control Panel.
     (Users can log into the User Control Panel at <https://cp.rackspace.com/usercp>, using their Exchange email address and password.) Email that is filtered as spam will be
     directed to the Quarantine Manager, where the user can then view and
     delete quarantined emails, or mark them as **Not Spam**.
-    -   **Send spam to domain quarantine**&mdash;Spam will be directed to the
+    - **Send spam to domain quarantine**&mdash;Spam will be directed to the
     domain-level quarantine, rather than to the individual Quarantine
     Manager for the mailbox.
 
-    **Note:** To log into the domain-level Quarantine Manager, click the **Log
+      **Note:** To log into the domain-level Quarantine Manager, click the **Log
 into the Quarantine Manager** link. Email that is filtered as spam will be directed to the domain-level Quarantine Manager, where the administrator can then view and delete quarantined emails, or mark them as **Not Spam**.
-    -   **Send quarantine notifications to**&mdash;If you choose to send spam to the
+    - **Send quarantine notifications to**&mdash;If you choose to send spam to the
     user's quarantine, they will receive quarantine updates by default.
     To receive email updates at an additional address, enter an email
     address in the **Send quarantine notifications to** box.
