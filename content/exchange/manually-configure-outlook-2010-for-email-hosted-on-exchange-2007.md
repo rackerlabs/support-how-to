@@ -4,8 +4,8 @@ title: Manually configure Outlook 2010 for email hosted on Exchange 2007
 type: article
 created_date: '2011-03-18'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -25,8 +25,9 @@ icon**<span>.</span>
 
 ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
 
-*Note: In some cases, you may need to switch to Classic View to find the
-Mail icon or it may state 32-Bit.*
+**Note:** Depending on which version of Windows you are running, you may need
+to switch to Classic view to find the **Mail** entry or it might be
+labeled **32-Bit**.
 
 <span>3. Select the </span>**Show Profiles**<span> button, click the
 </span>**Add**<span> button and enter in a name for this profile and
@@ -73,8 +74,8 @@ Authentication**<span>.</span>
 </span>**Check Name**<span> box in the Connect window, enter in the
 Password and select the </span>**OK**<span> button.</span>
 
-***Note**: You may receive a pop-up asking you to select your mailbox
-from a list. Select your mailbox and click the OK button.*
+**Note**: You may receive a pop-up asking you to select your mailbox
+from a list. Select your mailbox and click the **OK** button.
 
 <span>10. Your name will then be highlighted and a line will appear
 under the username field which indicates your profile has been
@@ -82,4 +83,3 @@ configured. Select </span>**Next**<span>, </span>**finish,**
 <span>and open up Outlook.</span>
 
 ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange10.png)
-

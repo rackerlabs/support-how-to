@@ -4,8 +4,8 @@ title: Manually configure Outlook 2010 for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-09'
 created_by: Mawutor Amesawu
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -18,9 +18,9 @@ then click **Mail** (32-bit).
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step1.png" width="620" height="276" />
 
-*Note: Depending on the version of Windows you're running, you may need
+**Note:** Depending on which version of Windows you are running, you may need
 to switch to Classic view to find the **Mail** entry or it might be
-labeled **32-Bit**.*
+labeled **32-Bit**.
 
 
 2. Click **Show Profiles**, click **Add**, enter a name for this
@@ -70,15 +70,15 @@ Authentication**.
 9\. On the Server Settings page, click **Check Name**, type your
 password, and then click **OK**.
 
-*Note: If you receive a pop-up message asking you to select your mailbox
-from a list, select your mailbox and click OK.*
+**Note:** If you receive a pop-up message asking you to select your mailbox
+from a list, select your mailbox and click OK.
 
 Your name will then be highlighted and a line will appear under the
 **User Name**  field which indicates your profile has been configured.
 
-*Note: The server name resolves to a unique string that is different
+**Warning:** The server name resolves to a unique string that is different
 with every mailbox. Do not attempt to replicate this information with
-other accounts.*
+other accounts.
 
 10\. Click **Next**, and on the next page, click **Finish**.
 
@@ -86,4 +86,3 @@ other accounts.*
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8.png" width="687" height="478" />
 
 11\. Open Outlook to select your new Exchange profile.
-
