@@ -4,33 +4,31 @@ title: Manually configure BlackBerry Enterprise Service (BES) for email hosted o
 type: article
 created_date: '2012-03-13'
 created_by: Rackspace Support
-last_modified_date: '2015-12-30'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 The following article will demonstrate how to setup the BlackBerry
 Enterprise Service (BES) with your Microsoft Exchange email account on
-your mobile device. Let's take a look at the guide below:
+your mobile device.
 
-*Note:* A BES data plan must be purchased through your provider and
+Some of the steps may vary depending on your OS (Operating
+System). We've showcased OS5 and OS6 since they're the most commonly used
+versions at the moment.
+
+**Note:** A BES data plan must be purchased through your provider and
 added to your account; your administrator will then purchase a [BES
 license](/how-to/add-an-activesync-or-bes-license) and
 assign to your email address and provide you with an activation pin.
 
-*Note:* *Some of the steps may vary depending on your OS (Operating
-System). We've showcased OS5 & OS6 since they're the most commonly used
-OS' at the moment.*
-
-*Important Note: We are currently investigating BES10 and awaiting
+**Note:** We are currently investigating BES10 and awaiting
 official hosting guidance from Blackberry. Once we have this information
 we will conduct testing to ensure our BES10 offering has the same
 Fanatical Support you expect from Rackspace. To date, Blackberry has not
 released an estimated date to distribute this information. In the
-meantime, please feel free to continue using ActiveSync.*
-
-* *
+meantime, please feel free to continue using ActiveSync.
 
 BlackBerry OS5:
 ----------------
@@ -57,8 +55,8 @@ through the motions of setting up your account. </span>
 ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES5.png)
  ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES6.png)
 
-*Note:* *This process can take anywhere from 2 - 20 mins depending on
-your connection and how much data you have*.
+**Note:** This process can take anywhere from 2 - 20 mins depending on
+your connection and how much data you have.
 
 
 
@@ -81,8 +79,8 @@ through the motions of setting up your account.</span>
 ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES9.png)
  ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES10.png)
 
-*Note:* *This process can take anywhere from 2 - 20 mins depending on
-your connection and how much data you have*.
+ **Note:** This process can take anywhere from 2 - 20 mins depending on
+ your connection and how much data you have.
 
 
 
@@ -106,8 +104,7 @@ Mailbox, press the Menu key and select </span>**Expand**<span>.</span>
 the **Menu** key and select </span>**Change Option**<span>. Press the
 **Menu** key and select **Save**.</span>
 
-*Note:* *If you are unable to select Expand for any of the folders, or
+**Note:** If you are unable to select Expand for any of the folders, or
 if Change Option is unavailable, try turning Wireless Reconcile off and
 then on again. You can find Wireless Reconcile in Messages &gt; Options
-&gt; Email Reconciliation.*
-
+&gt; Email Reconciliation.

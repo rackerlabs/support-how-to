@@ -4,8 +4,8 @@ title: Manually configure Blackberry 10 devices for email hosted on Exchange 201
 type: article
 created_date: '2014-01-31'
 created_by: Mawutor Amesawu
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -47,7 +47,7 @@ for Server: **mex06.emailsrvr.com**
 
 Leave all other settings at their defaults, then select **Next**.
 
-*Note: Your username is the same as your email address.*
+**Note:** Your username is the same as your email address.
 
 6\. Confirm which personal information you would like to sync from your
 Exchange mailbox to your Blackberry, then select **Done**.
@@ -75,4 +75,3 @@ to the right, and then select your Mail account to view your inbox.
 </div>
 
 </div>
-
