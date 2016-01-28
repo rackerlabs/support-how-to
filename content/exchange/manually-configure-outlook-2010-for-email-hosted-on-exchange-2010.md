@@ -10,17 +10,13 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-The following article will get your Microsoft Exchange 2010 Mailbox set
-up with your Microsoft Outlook 2010 email client. Let's take a look at
-the instructions below:
+This article describes how to set up your
+Microsoft Exchange 2010 mailbox
+to work with your
+Outlook 2010 email client.
 
 1\. Click the Windows Start button, select Control Panel, then select the
 Mail icon.
-
-Note: Depending on what version of Windows you're running, you may need
-to switch to Classic View to find the Mail icon or it may state 32-Bit.
-On Windows 7, in category view, you will find the Mail icon in the User
-Accounts category.
 
 ![](http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png)
 

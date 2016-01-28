@@ -10,8 +10,10 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-The following article will get your Microsoft Exchange 2007 Mailbox
-setup with your Outlook 2010 email client:
+This article describes how to set up your
+Microsoft Exchange 2007 mailbox
+to work with your
+Outlook 2010 email client.
 
 1. Log into your User Control Panel
    ([cp.rackspace.com/usercp](http://cp.rackspace.com/usercp))
