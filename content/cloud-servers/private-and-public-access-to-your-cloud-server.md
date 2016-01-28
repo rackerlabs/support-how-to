@@ -24,17 +24,14 @@ addresses upon creation:
 
 To locate the IP addresses for your Cloud Server:
 
-1.  On the Cloud Servers page, click the name of server.
-2.  Scroll down to the Networks table.
+1.  Log in to your [Cloud Control Panel](https://mycloud.rackspace.com).
+2.  On the Cloud Servers page, click the name of server.
+3.  Scroll down to the Networks table.
 
-Here's an example Networks table:
+Following is a sample Networks table:
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Networks%20Table.png" alt="Networks Table" width="662" height="164" />
 
+### Related Information
 
-
-##### Related Information
-
-[Learn More About Cloud
-Servers](/how-to/learn-more-about-cloud-servers)
-
+[Learn More About Cloud Servers](/how-to/learn-more-about-cloud-servers)
