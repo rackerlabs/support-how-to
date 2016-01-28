@@ -13,7 +13,7 @@ product_url: managed-operations
 
 Managed Operations provides support beyond Managed Infrastructure,
 including direct assistance with resizes, snapshots, host machine
-issues, adding and removing servers, and managing IP addresses. To
+issues, adding and removing servers, and managing IP addresses. To
 ensure Fanatical Support, Rackspace provides support for specific
 software and server configurations on Cloud Servers with Managed
 Operations.
@@ -56,7 +56,7 @@ Linux](/how-to/cloud-servers-with-managed-operations-support-for-linux).
 | [SQL Server 2014](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [MySQL](http://www.mysql.com/why-mysql/windows/) | **Yes** | No | No | **Yes** | No |
 
-**Note: **Rackspace does not support SQL express 2008, 2012, and 2014.
+**Note:** Rackspace does not support SQL express 2008, 2012, and 2014.
 
 #### Programming languages
 
@@ -112,7 +112,7 @@ Linux](/how-to/cloud-servers-with-managed-operations-support-for-linux).
 
 <span>While we do not support all technologies, we do offer reasonable
 endeavor support which extends our support into offering alternative
-solutions.  The reasonable endeavor support can include help from Rackspace partners and other
+solutions. The reasonable endeavor support can include help from Rackspace partners and other
 third party services.
 
 -   **Load Balancing** - Support is provided through the use of Cloud
@@ -121,7 +121,7 @@ third party services.
 -   **Email** - Support is provided through Rackspace Email and using
     IIS SMTP on the server. Cloud Servers with a Managed Service Level
     are pre-configured to use our mail relay service Mailgun to ensure
-    reliable mail delivery.  The first 50,000 emails sent each month are
+    reliable mail delivery. The first 50,000 emails sent each month are
     free, and your mail package can be upgraded if higher volume
     is expected. For more details see our [Mailgun Rackspace pricing
     page](http://www.mailgun.com/rackspace).
@@ -129,17 +129,15 @@ third party services.
 -   **DNS** - The use of the Rackspace Cloud nameservers for DNS
     is supported. Windows DNS is currently not supported.
 
--   **Exchange** - Exchange is not supported at this time.
+-   **Exchange** - Exchange is not supported at this time.
 
--   **SharePoint** - SharePoint is not supported at this time.
+-   **SharePoint** - SharePoint is not supported at this time.
 
 -   **Terminal Services** - We will install the role and license.
 
--   **Cloud Files -** Integration with Cloud Files is supported via the
+-   **Cloud Files** - Integration with Cloud Files is supported via the
     API, however no development assistance will be offered in
     utilization via the API.
-
- 
 
 ### End of life support dates
 
