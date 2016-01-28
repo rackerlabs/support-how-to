@@ -15,10 +15,7 @@ currently available for OnMetal servers.
 
 ### Previous section
 
-[Getting Started with Cloud
-Servers](/how-to/create-a-cloud-server)
-
-
+[Create a Cloud Server](/how-to/create-a-cloud-server)
 
 One advantage of rebuilding your server (versus creating a new server)
 is that you retain the same IP address, which saves you from having to
@@ -30,12 +27,12 @@ performing this task.
 
 1.  From the Cloud Servers page, click the **Actions** menu next to the
     server name.
-2.  Choose *Rebuild from Image*.
+2.  Choose **Rebuild from Image**.
 
     ![](http://c765420.r20.cf2.rackcdn.com/6_RebuildButtonnew.png)
 
 3.  Select a Rackspace image or one of your own previously saved images
-    from the Saved tab, then click Rebuild Server.
+    from the Saved tab, then click **Rebuild Server**.
 
     ![](http://c765420.r20.cf2.rackcdn.com/7_RebuildFromnew.png)
 
@@ -43,13 +40,9 @@ performing this task.
     password as you won't be able to see it again once you dismiss
     the message.
 
-The server's status changes to Rebuilding. When the build is complete,
-the status changes back to Active.
-
-
+The server's status changes to *Rebuilding*. When the build is complete,
+the status changes back to *Active*.
 
 ### Next section
 
-[Resize standard
-servers](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
-
+[Resize standard servers](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
