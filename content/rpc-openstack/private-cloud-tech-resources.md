@@ -10,51 +10,47 @@ product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
 
-### Previous section
+#### Previous section
 
 [Getting Started with Rackspace Private Cloud -
 OpenStack](/how-to/rpc-openstack)
 
-Private Cloud Tech Center<span> </span>
----------------------------------------
+### Private Cloud Tech Center
 
-### [**Apache Hadoop on Rackspace Private Cloud**](/how-to/apache-hadoop-on-rackspace-private-cloud)
+#### [**Apache Hadoop on Rackspace Private Cloud**](/how-to/apache-hadoop-on-rackspace-private-cloud)
 
 Implementing an enterprise-ready Hadoop platform using Hortonworks Data
 Platform (HDP) on top of Rackspace Private Cloud for processing
 big-data.
 
-### [**Compute Cloud (Nova) using SeaMicro SM15000**](/how-to/compute-cloud-nova-using-seamicro-sm15000)
+#### [**Compute Cloud (Nova) using SeaMicro SM15000**](/how-to/compute-cloud-nova-using-seamicro-sm15000)
 
 Deploying RackSpace Private Cloud Cluster on an AMD SM15000.
 
-### [**Bare Metal to Rackspace Private Cloud**](/how-to/bare-metal-to-rackspace-private-cloud)
+#### [**Bare Metal to Rackspace Private Cloud**](/how-to/bare-metal-to-rackspace-private-cloud)
 
 Deploy large Rackspace Private Clouds with Razor and Chef.
 
-### [**Building a Rackspace Private Cloud with Linux iSCSI Volumes**](/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes)
+#### [**Building a Rackspace Private Cloud with Linux iSCSI Volumes**](/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes)
 
 An implementation guide to building a Rackspace Private Cloud with
 external storage that targets Enterprise IT applications. Volumes are
 provided via the Cinder volume service running on Linux server head
 units.
 
-Tech Center Tools and Software
-------------------------------
+### Tech Center Tools and Software
 
-### [**Knife Plugin for Rackspace Cloud Software**](https://github.com/rackerlabs/knife-alamo)
+#### [**Knife Plugin for Rackspace Cloud Software**](https://github.com/rackerlabs/knife-alamo)
 
 This plugin allows you to manage Rackspace Private Clouds using Opscode
 Chef.
 
-### [**Hortonworks HDP Chef Cookbook**](https://github.com/rackerlabs/hdp-cookbooks)<span> </span>
+#### [**Hortonworks HDP Chef Cookbook**](https://github.com/rackerlabs/hdp-cookbooks)<span> </span>
 
 These cookbooks provide installation and management Chef recipes for
 Hortonworks Data Platform.
 
-
-
-### Next section
+#### Next section
 
 [Rackspace Private Cloud
 Support](http://www.rackspace.com/cloud/private/openstack/support/)
