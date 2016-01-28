@@ -1,6 +1,6 @@
 ---
 node_id: 3992
-title: 'Set up an API key: Cloud Office Control Panel'
+title: Set up an API key in the Cloud Office Control Panel
 type: article
 created_date: '2014-04-02'
 created_by: Mawutor Amesawu
@@ -17,7 +17,7 @@ other supported features, the API allows your application to administer
 the changes. These changes can be applied independent of your
 application's language or nature. Documentation for the API is located
 at:
-[http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI.](http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI)
+[http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI](http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI).
 
 To implement the API into your application, you must first generate an
 API key. API keys are unique to each administrator. To differentiate
@@ -27,8 +27,7 @@ access to the API.
 
 ### To generate an API key
 
-1. [Log in to the Cloud Office Control
-Panel](https://apps.rackspace.com/?cp).
+1. [Log in to the Cloud Office Control Panel](https://cp.rackspace.com).
 1.  At the top of the page, click your account name and select **Admins & Contacts** from the menu.
 1.  On the **Admins & Contacts** tab, click **API Keys**.
 1.  Click **Generate New Keys** to create new API keys.
@@ -36,7 +35,7 @@ Panel](https://apps.rackspace.com/?cp).
     **Warning:** If existing keys are being used, generating new
     keys will break applications that are using the existing keys.
 
-**Warning**: Avoid recording the API key information outside of the control
+**Note**: Avoid recording the API key information outside of the control
 panel. This information allows unrestricted access to make changes to
 your account. Use extreme discretion when using these keys.
 
