@@ -10,7 +10,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-The following article will demonstrate how to setup the BlackBerry
+This article shows how to setup the BlackBerry
 Enterprise Service (BES) with your Microsoft Exchange email account on
 your mobile device.
 
@@ -20,8 +20,8 @@ versions at the moment.
 
 **Note:** A BES data plan must be purchased through your provider and
 added to your account; your administrator will then purchase a [BES
-license](/how-to/add-an-activesync-or-bes-license) and
-assign to your email address and provide you with an activation pin.
+license](/how-to/add-an-activesync-or-bes-license),
+assign it to your email address, and provide you with an activation PIN.
 
 **Note:** We are currently investigating BES10 and awaiting
 official hosting guidance from Blackberry. Once we have this information
@@ -30,8 +30,7 @@ Fanatical Support you expect from Rackspace. To date, Blackberry has not
 released an estimated date to distribute this information. In the
 meantime, please feel free to continue using ActiveSync.
 
-BlackBerry OS5:
-----------------
+### BlackBerry OS5
 
 <span>1. From the Home screen on your Blackberry select
 </span><span>**Messaging**, and then select **Options**.</span>
@@ -60,8 +59,7 @@ your connection and how much data you have.
 
 
 
-**BlackBerry OS6**:
--------------------
+### BlackBerry OS6
 
 <span>1. From the BlackBerry Home screen, select the
 </span>**Setup **<span>icon and then select the </span>**Email
@@ -82,10 +80,7 @@ through the motions of setting up your account.</span>
  **Note:** This process can take anywhere from 2 - 20 mins depending on
  your connection and how much data you have.
 
-
-
-BlackBerry Folder Redirection:
--------------------------------
+### BlackBerry folder redirection
 
 To set up your sub-folders, you will first need to set up folder
 redirection. The settings will only apply to new messages received after
