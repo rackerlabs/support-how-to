@@ -16,75 +16,79 @@ to work with your
 Outlook 2010 email client.
 
 1. Click the Windows **Start** button, select **Control Panel**, and
-then click **Mail** (32-bit).
+   then click **Mail** (32-bit).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step1.png" width="620" height="276" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step1.png" width="620" height="276" />
 
-**Note:** Depending on which version of Windows you are running, you may need
-to switch to Classic view to find the **Mail** entry or it might be
-labeled **32-Bit**.
+   **Note:** Depending on which version of Windows you are running, you may need
+   to switch to Classic view to find the **Mail** entry or it might be
+   labeled **32-Bit**.
 
 
 2. Click **Show Profiles**, click **Add**, enter a name for this
-profile, and then select **OK**.
+   profile, and then select **OK**.
 
-3. On the Auto Account Setup page of the Add New Account wizard, select
-**Manually configure server settings or additional server types**, and
-then click **Next**.
+3. On the **Auto Account Setup** page of the **Add New Account wizard**, select
+   **Manually configure server settings or additional server types** and
+   click **Next**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step2.png" width="687" height="478" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step2.png" width="687" height="478" />
 
-4. On the Choose Service page, select **Microsoft Exchange or compatible
-service**, and then click **Next**.
+4. On the **Choose Service** page, select **Microsoft Exchange or compatible
+   service** and click **Next**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step3.png" width="687" height="478" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step3.png" width="687" height="478" />
 
 5. On the Server Settings page, perform the following actions:
-     A. In the **Server** text box, type **outlook**.
-     B. Select the  the **Use Cached Exchange Mode** check box.
-     C. In the **User Name** text box, enter your entire email
-address.
-     D. Click **More Settings**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step4.png" width="687" height="478" />
+   1. In the **Server** text box, type **outlook**.
+   2. Select the  the **Use Cached Exchange Mode** check box.
+   3. In the **User Name** text box, enter your entire email address.
+   4. Click **More Settings**.
+
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step4.png" width="687" height="478" />
 
 6. In the Microsoft Exchange dialog box, click the **Connection** tab
-and select the **Connect to Microsoft Exchange using HTTP** check box.
-Then, click **Exchange Proxy Settings**.
+   and select the **Connect to Microsoft Exchange using HTTP** check box.
+   Then click **Exchange Proxy Settings**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step5.png" width="354" height="439" />
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step5.png" width="354" height="439" />
 
 7. In the Microsoft Exchange Proxy Settings dialog box, perform the
-following actions**:
-    ** A. In the **Use this URL to connect to my proxy server for
-Exchange** text box, enter **mex06.emailsrvr.com**.
-     B. Select both the **On fast networks** and **On slow networks**
-check boxes.
-     C. Under **Proxy authentication settings**, select **Basic
-Authentication**.
-     D. Click **OK**.
+   following actions**:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step6.png" width="462" height="411" />
+   1. In the **Use this URL to connect to my proxy server for
+      Exchange** text box, enter **mex06.emailsrvr.com**.
+
+   2. Select both the **On fast networks** and **On slow networks**
+      check boxes.
+
+   3. Under **Proxy authentication settings**, select **Basic
+      Authentication**.
+
+   4. Click **OK**.
+
+   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step6.png" width="462" height="411" />
 
 8. In the Microsoft Exchange dialog box, click **Apply** and then click
-**OK**.
+   **OK**.
 
-9\. On the Server Settings page, click **Check Name**, type your
-password, and then click **OK**.
+9. On the **Server Settings** page, click **Check Name**, type your
+   password, and then click **OK**.
 
-**Note:** If you receive a pop-up message asking you to select your mailbox
-from a list, select your mailbox and click OK.
+   **Note:** If you receive a pop-up message asking you to select your mailbox
+   from a list, select your mailbox and click **OK**.
 
-Your name will then be highlighted and a line will appear under the
-**User Name**  field which indicates your profile has been configured.
+   Your name will then be highlighted and a line will appear under the
+   **User Name** field , indicating that your profile has been configured.
 
-**Warning:** The server name resolves to a unique string that is different
-with every mailbox. Do not attempt to replicate this information with
-other accounts.
+   **Warning:** The server name resolves to a unique string that is different
+   with every mailbox. Do not attempt to replicate this information with
+   other accounts.
 
-10\. Click **Next**, and on the next page, click **Finish**.
+10. Click **Next**, and on the next page, click **Finish**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step7.png" width="687" height="478" />
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8.png" width="687" height="478" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step7.png" width="687" height="478" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8.png" width="687" height="478" />
 
-11\. Open Outlook to select your new Exchange profile.
+11. Open Outlook to select your new Exchange profile.
