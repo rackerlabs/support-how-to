@@ -48,9 +48,9 @@ Perform the following steps:
     the Hostname. You'll use it in a later step. The Hostname looks
     something like this:
 
-  <img src="http://c691244.r44.cf2.rackcdn.com/Hostname%20of%20Database.png" alt="Database Hostname" width="600" />
+    <img src="http://c691244.r44.cf2.rackcdn.com/Hostname%20of%20Database.png" alt="Database Hostname" width="600" />
 
-#### On your current database
+    **On your current database**
 
 4.  On the machine where your existing database is currently located,
     run the following MySQL command to export your database:
@@ -120,10 +120,9 @@ Perform the following steps:
     You'll use it in a later step. The public Hostname for an HA
     instance looks something like this:
 
+    <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/HA_Group_Details_KC.png" width="600" />
 
-<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/HA_Group_Details_KC.png" width="600" />
-
-#### On your current database
+    **On your current database**
 
 4.  On the machine where your existing database is currently located,
     run the following MySQL command to export your database:
