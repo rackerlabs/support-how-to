@@ -1,6 +1,6 @@
 ---
 node_id: 1313
-title: Add an Activesync or BES license
+title: Add an ActiveSync or BES license
 type: article
 created_date: '2012-03-11'
 created_by: Rae D. Cabello
@@ -53,12 +53,12 @@ this article to add a ActiveSync or BES license.
 
      ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes5.png)
 
-    - If you're adding an Activesync license, select the user to whom
-      you are assigning the license from the **Eligible Users From
-      This Domain** window, click **Add** in the middle and then click
-      **Save**.
+   - If you're adding an Activesync license, select the user to whom
+     you are assigning the license from the **Eligible Users From
+     This Domain** window, click **Add** in the middle and then click
+     **Save**.
 
-      ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes6.png)
+     ![](http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes6.png)
 
-      **Note**: Once you've assigned your licenses, allow 10 minutes for
-      them to fully propagate.
+     **Note**: After you've assigned your licenses, allow 10 minutes for
+     them to fully propagate.
