@@ -10,8 +10,10 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Complete the following steps to set up your Microsoft Exchange 2007
-Mailbox with Microsoft Outlook 2013.
+This article describes how to set up your
+Microsoft Exchange 2007 mailbox
+to work with your
+Microsoft Outlook 2013 email client.
 
 1\. Obtain the server settings for your email account by logging in to
 the User Control Panel (<https://admin.emailsrvr.com/usercp/Login>) and
@@ -59,4 +61,3 @@ password used to log into your mailbox. When the **Server** and
 Click **Next** and **Finish**.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.%20Check%20name.png" width="694" height="491" />
-

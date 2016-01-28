@@ -10,8 +10,10 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Use the following steps to set up your Microsoft Exchange 2013 mailbox
-with your Outlook 2013 email client.
+This article describes how to set up your
+Microsoft Exchange 2013 mailbox
+to work with your
+Microsoft Outlook 2013 email client.
 
 1. Click the Windows **Start** button, select **Control Panel**, and
 then click **Mail** (32-bit).
@@ -101,4 +103,3 @@ other accounts.*
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8_0.png" width="694" height="490" />
 
 11\. Open Outlook to select your new Exchange profile.
-
