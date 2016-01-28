@@ -55,7 +55,7 @@ Outlook 2010 email client.
    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step5.png" width="354" height="439" />
 
 7. In the Microsoft Exchange Proxy Settings dialog box, perform the
-   following actions**:
+   following actions:
 
    1. In the **Use this URL to connect to my proxy server for
       Exchange** text box, enter **mex06.emailsrvr.com**.
