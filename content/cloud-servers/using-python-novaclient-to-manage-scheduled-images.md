@@ -10,8 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Introduction
-------------
+### Introduction
 
 While enabling or disabling scheduled images can be done through the
 Cloud Control Panel, the control panel does not yet give you the ability
@@ -24,8 +23,7 @@ scheduled images on a server (which you can do in the control panel) and
 managing the images (which you can't). Let's start by describing the
 scheduled images feature so we can work from a common vocabulary.
 
-Scheduled Images
-----------------
+### Scheduled images
 
 The scheduled images feature of the Rackspace Open Cloud allows you to
 have automatic weekly or daily snapshots taken of any of your servers.
@@ -52,8 +50,7 @@ interface for the API.
 
 Let's look at getting python-novaclient set up for that purpose.
 
-Setting up python-novaclient
-----------------------------
+### Setting up python-novaclient
 
 First, if you haven't used python-novaclient before, take a look at one
 of these Knowledge Center articles:
@@ -82,15 +79,14 @@ images extension:
 
     sudo pip install --upgrade rax_scheduled_images_python_novaclient_ext
 
-Using the Scheduled Images Feature
-----------------------------------
+### Using the scheduled images feature
 
 Once you have the Rackspace scheduled images extension installed for
 python-novaclient, it's a snap to manage scheduled images on your
 servers. Let's suppose your server ID is
 "24ade2fe-60d9-4d3e-a02c-c9a6a1b588a6" and its name is "myserver".
 
-### Enable scheduled images for a server
+#### Enable scheduled images for a server
 
 To enable weekly scheduled images for a server, use this command:
 
@@ -124,7 +120,7 @@ command:
 
     nova scheduled-images-enable  24ade2fe-60d9-4d3e-a02c-c9a6a1b588a6  7
 
-### Disable scheduled images for a server
+#### Disable scheduled images for a server
 
 To turn off scheduled images for a server, use this command:
 
@@ -147,14 +143,14 @@ example,
 will enable weekly scheduled images on "myserver" where the image will
 be created on Sunday and the retention value is 4.
 
-### Change the retention value on a server
+#### Change the retention value on a server
 
 To update the retention value for a server, just enable scheduled images
 on that server again, using whatever value you want to change the
 retention to.  Note that if you're using weekly scheduled images, you
 must specify the day of week when you issue the command.  (Otherwise,
 the novaclient will think that you want to switch to a daily schedule.)
-  For example,
+For example,
 
     nova scheduled-images-enable  --day-of-week saturday  myserver  8
 
@@ -169,7 +165,7 @@ retention value, you'd use this command:
 It will set a retention value of 31 on the example server with images
 being created daily (since no day of the week was specified).
 
-### Checking the image schedule on a server
+#### Checking the image schedule on a server
 
 If you are setting different retention values on several servers
 according to how important they are, it's easy to lose track of their
@@ -198,10 +194,7 @@ an error message:
 
     ERROR (NotFound): Scheduled images not enabled for server 24ade2fe-60d9-4d3e-a02c-c9a6a1b588a6 (HTTP 404)
 
-
-
-Managing Scheduled Images
--------------------------
+### Managing Scheduled Images
 
 You now know how to turn scheduled images on and off for each of your
 servers, and how to set or change the retention value for each. Now
@@ -232,7 +225,7 @@ scheduled image:
 For `{image}`, you can use either the UUID or the name of the image.
 There is no response if this call is successful.
 
-### To See if a Scheduled Image is Subject to Being Deleted Automatically
+#### To See if a Scheduled Image is Subject to Being Deleted Automatically
 
 Once you start managing your images, you need a way to see which are
 subject to automatic deletion and which aren't. You can determine this
@@ -265,8 +258,7 @@ scheduled images service will *not* delete the image. Note that you can
 tell which server this image is a snapshot of by looking at the value in
 the 'instance\_uuid' metadata field.
 
-Conclusion
-----------
+### Conclusion
 
 In this article, we explained how to use python-novaclient (with the
 Rackspace scheduled images extension) to manage scheduled images.  We
@@ -277,13 +269,9 @@ being automatically deleted when the number of scheduled images in your
 account exceeds the retention count for that server, which can only be
 done through the API or python-novaclient.
 
-More Information
-----------------
+### More Information
 
 -   [Scheduled Images
     FAQ](/how-to/scheduled-images-faq "Scheduled Images FAQ")
 -   [Scheduled Images API Extension
     Documentation](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ch_extensions.html#scheduled_images)
-
-
-

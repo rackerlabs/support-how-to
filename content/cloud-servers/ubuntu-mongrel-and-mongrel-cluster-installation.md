@@ -18,8 +18,6 @@ server](http://mongrel.rubyforge.org/ "http://mongrel.rubyforge.org/").
 Requests are proxied to the mongrel(s) from the main web server (Apache,
 Nginx, etc).
 
-------------------------------------------------------------------------
-
 The article may seem quite lengthy but two subjects are tackled here.
 One is the basic mongrel gem itself but then we move onto the
 mongrel\_cluster gem.
@@ -27,44 +25,12 @@ mongrel\_cluster gem.
 Take each section at a time as each one builds on the previous
 explanation.
 
-Contents
---------
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Prerequisites</span>](#Prerequisites)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Installation</span>](#Installation)
--   [<span class="tocnumber">3</span> <span class="toctext">Mongrel
-    basics</span>](#Mongrel_basics)
--   [<span class="tocnumber">4</span> <span class="toctext">Mongrel
-    Clusters</span>](#Mongrel_Clusters)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Installation</span>](#Installation_2)
-    -   [<span class="tocnumber">4.2</span> <span
-        class="toctext">Configuration</span>](#Configuration)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">YAML</span>](#YAML)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">Mongrel\_cluster
-    basics</span>](#Mongrel_cluster_basics)
--   [<span class="tocnumber">7</span> <span class="toctext">init
-    scripts</span>](#init_scripts)
--   [<span class="tocnumber">8</span> <span class="toctext">Cluster
-    control</span>](#Cluster_control)
--   [<span class="tocnumber">9</span> <span
-    class="toctext">Summary</span>](#Summary)
-
-
-
-<span class="mw-headline">Prerequisites </span>
------------------------------------------------
+### Prerequisites
 
 -   Install Ruby and Rubygems
 
+### Install mongrel
 
-
-<span class="mw-headline">Installation </span>
-----------------------------------------------
 
 Mongrel is a rubygem and installation is as simple as:
 
@@ -81,10 +47,7 @@ the process installed the following gems:
 
 That can vary depending on what you already have installed.
 
-
-
-<span class="mw-headline">Mongrel basics </span>
-------------------------------------------------
+### Mongrel basics
 
 The mongrel package has 3 main commands: start, stop and restart.
 
@@ -112,10 +75,7 @@ fashion):
 
 Again, the command should be given when in the rails directory.
 
-
-
-<span class="mw-headline">Mongrel Clusters </span>
---------------------------------------------------
+### Mongrel clusters
 
 You can run as many individual mongrels as you like for your application
 but it does get a little unwieldy if you have more than one application.
@@ -125,9 +85,7 @@ One solution is to create what are called mongrel clusters. These
 stop, etc as a cluster and be configured to start on a Cloud Server
 reboot (so your application will start itself on a reboot).
 
-
-
-### <span class="mw-headline">Installation </span>
+### Install mongrel clusters
 
 Just as with the original mongrel install, the mongrel\_cluster is a
 rubygem:
@@ -138,9 +96,7 @@ As I had already installed the mongrel gem with its dependencies, only
 the mongrel\_cluster gem itself was installed. This may vary on your
 Cloud Server, depending on what you already have installed.
 
-
-
-### <span class="mw-headline">Configuration </span>
+### Configure a mongrel cluster
 
 Configuring a mongrel cluster for your rails application runs along
 similar lines to the single mongrel options shown above.
@@ -159,9 +115,7 @@ and the easiest thing is to have a look at the help file:
     mongrel_rails cluster::configure -h
 
 
-
-<span class="mw-headline">YAML </span>
---------------------------------------
+### YAML format
 
 You will have noticed the output of the command is as follows:
 
@@ -183,10 +137,7 @@ options into a YAML format.
 You can edit the file by hand if you wish to change something and don't
 want to go through the configure command again.
 
-
-
-<span class="mw-headline">Mongrel\_cluster basics </span>
----------------------------------------------------------
+### Mongrel\_cluster basics
 
 Starting the cluster is a case of:
 
@@ -201,10 +152,7 @@ Stopping and restarting:
     ...
     mongrel_rails cluster::stop
 
-
-
-<span class="mw-headline">init scripts </span>
-----------------------------------------------
+### init scripts
 
 The final configuration you may want to consider (and I recommend it) is
 to create an init script so the mongrel cluster is started on a reboot.
@@ -240,10 +188,7 @@ and then add the script to the runlevels:
 Wow. Quite a long and complicated procedure when compared to using
 'thin' or mod\_rails.
 
-
-
-<span class="mw-headline">Cluster control </span>
--------------------------------------------------
+### Cluster control
 
 Let's take a quick look at controlling the clusters.
 
@@ -275,10 +220,7 @@ Remember you may need to put a sudo in front of the 'stop' command if
 you have just rebooted as the process started on reboot is owned by
 root.
 
-
-
-<span class="mw-headline">Summary </span>
------------------------------------------
+### Summary 
 
 There is a lot happening in this article but when followed all the way
 through, we have all the necessary gems and information to create
@@ -286,4 +228,3 @@ mongrel clusters for each of our rails applications.
 
 A simple symlink is then all it takes to ensure the cluster is restarted
 on a reboot.
-

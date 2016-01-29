@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-#### Big picture
+### Big picture
 
 By now, you have built your server, made it secure, and uploaded content
 to your server. The last step in the First 48 Hour Essentials is to
@@ -24,7 +24,7 @@ tell the internet where to find your website and where to deliver your
 email. Our name servers are:
 
     dns1.stabletransit.com
-        dns2.stabletransit.com
+    dns2.stabletransit.com
 
 If you have a domain that you have already registered and you want to
 host it from your Rackspace Cloud Server, you will need to go to the
@@ -41,7 +41,7 @@ now being served by a different IP address.
 Dig can also help us understand how our DNS records look from the
 perspective of other machines on the Internet.
 
-xThe dig tests we have performed so far contain the option
+The dig tests we have performed so far contain the option
 "@dns1.stabletransit.com". This option instructs dig to query your cloud
 server's primary DNS server. With that option we are testing the records
 on your cloud servers's DNS server rather than any DNS records for the
@@ -55,7 +55,7 @@ be safe to change the authoritative DNS servers for your domain to your
 server's DNS servers:
 
     dns1.stabletransit.com
-        dns2.stabletransit.com
+    dns2.stabletransit.com
 
 You can set the authoritative DNS servers through your domain's
 registrar via their preferred method (with their own web-based tool or
@@ -64,7 +64,7 @@ the registrar the new values propagate across the Internet. In a
 (hopefully) short time the DNS records on other DNS servers will match
 those you configured with your cloud server's DNS tool.
 
-#### Testing authoritative nameservers
+### Testing authoritative nameservers
 
 We can check the authoritative DNS servers for a domain by entering
 something like:
@@ -99,7 +99,7 @@ unfamiliar, you might be able to glean more information about the
 nameserver in question by issuing the dig command without the "+short"
 flag.
 
-##### Variants for testing authoritative nameservers
+#### Variants for testing authoritative nameservers
 
 There are some variants of this test. They can give you different
 answers, but only if you have an unusually intricate DNS set-up.
@@ -122,7 +122,7 @@ time-to-live (TTL) on other servers. Depending on a DNS server's
 configuration the SOA may contain additional information, like a domain
 administrator's email address.
 
-#### Causes of DNS problems
+### Causes of DNS problems
 
 It is possible to omit the destination DNS server (the "@8.8.8.8" part)
 when issuing a dig command. With no server specified, dig will query the
@@ -148,7 +148,7 @@ a week or so.
 Some advanced techniques can be employed to reduce propagation delay but
 they are beyond the scope of this article.
 
-#### Which DNS server is responding to my queries?
+### Which DNS server is responding to my queries?
 
 We can see which DNS server is resolving the client's requests by
 issuing the "dig" command with no arguments. The client's default DNS
@@ -161,14 +161,8 @@ server is listed on the "SERVER" line close to the end of the output.
     ;; Got answer:
     ;; ->>HEADER<
 
-#### Summary
+### Summary
 
 In this article we discussed how to check the authoritative nameservers
 for a domain. We've also seen how we can verify record propagation by
 querying external DNS servers.
-
-In the final\[placeholder for link to new article address\] article in
-this series we will take a closer look at the results when we omit the
-+short option (like we did in that last example), and answer some common
-questions about using dig.
-

@@ -19,99 +19,62 @@ Incredibly simple to install and use, you can have a rails application
 up and running in no time. You don't have to worry about ports or
 setting up a proxy to another server.
 
-------------------------------------------------------------------------
-
-
-
-<span class="mw-headline">Prerequisites </span>
------------------------------------------------
+### Prerequisites
 
 -   Install Apache
 -   Install Ruby and Rubygems
 
 
 
-<span class="mw-headline">mod\_rails installation </span>
----------------------------------------------------------
+### mod\_rails installation
 
 Passenger (mod\_rails) is a rubygem.
 
-We need to update the rubygems install:
+1. Update the rubygems install:
 
+        sudo gem update
 
-    sudo gem update
+2. Install passenger:
 
-and then install passenger:
+        sudo gem install passenger
 
+3. Once passenger is installed, we need to install the Apache2 module:
 
-    sudo gem install passenger
+        sudo passenger-install-apache2-module
 
-Once completed, we need to install the Apache2 module:
+4. A dialogue opens in the terminal. Follow the directions in the dialogue.
 
+  The passenger (mod\_rails) install has found a missing dependency.
 
-    sudo passenger-install-apache2-module
+5. Install the headers using Aptitude:
 
-A dialogue opens in the terminal and starts with:
+        sudo aptitude install apache2-prefork-dev
 
-As suggested, press 'Enter/Return':
+   Once done, we can try the install again:
 
-I deliberately left the Apache headers off the installation until this
-point as I want to demonstrate how easy the installation is.
+        sudo passenger-install-apache2-module
 
-The passenger (mod\_rails) install has found a missing dependency &mdash;
-let's press 'Enter/Return':
+6. The install will complete with instructions to add some lines to the main Apache2 config
+  file.
 
-How cool is that? It tells us what to do.
+        sudo nano /etc/apache2/apache2.conf
 
-Well, let's go ahead and install the headers (we'll use aptitude
-though):
-
-
-    sudo aptitude install apache2-prefork-dev
-
-Once done, we can try the install again:
-
-
-    sudo passenger-install-apache2-module
-
-All being well, the install will complete with instructions at the end
-letting us know we need to add some lines to the main Apache2 config
-file.
-
-No problem:
-
-
-    sudo nano /etc/apache2/apache2.conf
-
-Note: Passenger is an active gem and is being updated all the time.
+**Note:** Passenger is an active gem and is updated all the time.
 Rather than copy and paste the following output, please ensure you copy
 and paste the output from the install itself.
 
-At the time of writing the article (well, updating it actually) I
-installed passenger v2.0.6 &mdash; you may have installed a later version.
-
-So, for my v2.0.6 install, I added the following lines to my
+Because the install used in this article is v2.0.6 install, we added the following lines to my
 apache2.conf:
-
 
     LoadModule passenger_module /usr/lib/ruby/gems/1.8/gems/passenger-2.0.6/ext/apache2/mod_passenger.so
        PassengerRoot /usr/lib/ruby/gems/1.8/gems/passenger-2.0.6
        PassengerRuby /usr/bin/ruby1.8
 
+You may have a later version of passenger installed.
 
+### Apache restart 
 
-<span class="mw-headline">Apache restart </span>
-------------------------------------------------
-
-Now all we need to do is restart Apache:
+Use this command to restart Apache:
 
 
     sudo /etc/init.d/apache2 restart
-
-Done
-
-That's all we need to do to install mod\_rails onto our Cloud Server.
-
-The next article will show how to create a Ruby on Rails application and
-serve it using passenger &mdash; an incredibly easy process.
-

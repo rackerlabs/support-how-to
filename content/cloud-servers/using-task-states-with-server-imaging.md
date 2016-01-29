@@ -132,31 +132,29 @@ Here's an abbreviated response:
 In this example, you can see that there's no task state for the server,
 so it could accept an image-create request.
 
-<span> </span>
-
 ### Polling to Check Server Task State
 
-<span>The use case for server task states we're discussing here is the
-ability to:</span>
+The use case for server task states we're discussing here is the
+ability to:
 
-1.  <span><span>Stop activities on the server that would affect the
+1.  Stop activities on the server that would affect the
     quality of the disk image (e.g., stop a database
-    management system).</span></span>
-2.  <span><span>Issue an image-create command (via API, novaclient, or
-    control panel) for the server.</span></span>
-3.  <span><span>Monitor the server to see when it exits the
-    'image\_snapshot' task state.</span></span>
-4.  <span><span>Restart the activities stopped before you took the
+    management system).
+2.  Issue an image-create command (via API, novaclient, or
+    control panel) for the server.
+3.  Monitor the server to see when it exits the
+    'image\_snapshot' task state.
+4.  Restart the activities stopped before you took the
     snapshot (e.g., bring your database management system
-    back up).</span></span>
+    back up).
 
-<span><span>You can write a simple bash script to monitor your server.
+You can write a simple bash script to monitor your server.
  How elaborate you want the script to be is up to you, here's a sample
 of the most relevant part.  (Please read through and make sure you know
 what it's doing before using it.)  It uses four programs (curl, egrep,
 sed, and date) that are installed by default on most linux systems.
 This fragment is pretty primitive, you have to control-C to stop the
-script.</span></span>
+script.
 
     # set these vars
     #
@@ -225,4 +223,3 @@ server snapshot, you'll see something like this:
     17:16:23   status: ACTIVE   vm_state: active   task_state: image_uploading   power_state: 1
     17:16:26   status: ACTIVE   vm_state: active   task_state: null   power_state: 1
     17:16:30   status: ACTIVE   vm_state: active   task_state: null   power_state: 1
-
