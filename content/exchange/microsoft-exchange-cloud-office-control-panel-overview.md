@@ -4,39 +4,32 @@ title: 'Microsoft Exchange: Cloud Office Control Panel overview'
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2014-12-29'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-28'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 Welcome to Rackspace Cloud Office Control Panel! After you sign up for
-Microsoft Exchanges services through Rackspace, the first thing you'll
-want to do is log in to your Cloud Office Control Panel. This article
+Microsoft Exchanges services through Rackspace, the first thing
+to do is log in to your Cloud Office Control Panel. This article
 provides a brief overview of the control panel, which you can access at
 <https://cp.rackspace.com/> for new Cloud Office customers or
-[https://my.rackspace.com/]() for UK and MyRackspace customers.
-
--   [Control Panel Main](#controlpanelmain)
--   [Microsoft Exchange](#RackspaceEmail)
--   [My Account](#MyAccount)
--   [Domains](#Domains)
--   [Support](#Support)
+<https://my.rackspace.com/> for UK and MyRackspace customers.
 
 ### Control Panel Main
 
 Once you're logged into the Control Panel, you will see a variety of
 sections that showcase the products that you have signed up for (in this
-case Microsoft Exchange). Each product/service box has a variety of
+case, Microsoft Exchange). Each product/service box has a variety of
 options and tools to choose from. Control Main includes **Microsoft
-Exchange** Product box, **My
-Account**, **Domains**, **Support **and **News & Alerts **window. As you
-sign up for additional products (Microsoft Sharepoint, Cloud Drive) each
-product will show up underneath to allow you to manage it directly from
+Exchange** product box, **My
+Account**, **Domains**, **Support** and **News & Alerts**. As you
+sign up for additional products such as Microsoft SharePoint, each
+product showcase up underneath to allow you to manage it directly from
 the landing page.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/exchange_cp_main.png" alt="Image" width="600" height="563" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/exchange_cp_main.png" alt="Control Panel Main" width="600" height="563" />
 
 ### Microsoft Exchange
 
@@ -45,16 +38,14 @@ tools like spam filtering, creating distribution lists, and accessing
 contacts. For more options, you can click the **More** link in the
 lower-right corner.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP11.png" alt="Image" width="538" height="138" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/CP11.png" alt="Microsoft Exchange" width="538" height="138" />
 
 After you click **More**, new options appear, such as mobile messaging,
 public folders, and the ability to upgrade your services by adding more
 storage space to your mailboxes. We recommend getting familiar with all
 the features so you can use the product to its full potential.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP12.png" alt="Image" width="600" height="326" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/CP12.png" alt="Microsoft Exchange more" width="600" height="326" />
 
 The following sections describe the options available for Microsoft
 Exchange on the control panel. Links to more information or instructions
@@ -70,7 +61,7 @@ about options are provided.
 -   **Resources** - Set up or reserve an Exchange room for
     company collaboration.
 -   **Public Folders** - Enable and manage your domain's public folders
--   **Mobile Messaging** - Add Active Sync and BlackBerry Enterprise
+-   **Mobile Messaging** - Add ActiveSync and BlackBerry Enterprise
     Service licenses for users on your domain to enable them to
     synchronize email, contacts, and calendars to their mobile devices.
 
@@ -99,12 +90,12 @@ about options are provided.
 -   **Email Hosting** - upgrade your services with Rackspace email
 -   **Cloud Drive & Server Backup** - add the Cloud Drive and Server
     Backup services to your domain
--   **Sharepoint** - enable your free 250mb of the Sharepoint service
+-   **SharePoint** - enable your free 250mb of the SharePoint service
     for your domain
 
 #### Support
 
--   **Rackspace Email Support** - a self serving knowledge base to seek
+-   **Rackspace Email Support** - a self-service knowledge base to seek
     help on Cloud Office products
 -   **Support Tickets** - manage and view your support tickets
 -   **Troubleshooting Tools** - helpful tools such as a DNS checker and
@@ -112,20 +103,18 @@ about options are provided.
 
 ### My Account
 
-The **My Account** section allows users to Manage their Invoice History,
-Manage Administrators and find General Information.Below is a News and
-Alerts banner that will display any scheduled maintenances occurring and
-a System Status Update.
+The **My Account** section allows users to manage their invoice history,
+manage administrators, and find general information. Below is a **News and
+Alerts** banner that will display any scheduled maintenances occurring and
+a system status update.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP6.png" alt="Image" width="274" height="263" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/CP6.png" alt="News and Alerts" width="274" height="263" />
 
-By selecting the **More** option, you'll be presented with more options
-to view **Company Contacts**, **API Access Keys**,**Administrative
-Activity**, **Service Summary**, etc.
+When you select the **More** option, you'll be presented with more options
+to view such as **Company Contacts**, **API Access Keys**, **Administrative
+Activity**, and **Service Summary**.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/Cp10.png" alt="Image" width="600" height="268" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/Cp10.png" alt="Image" width="600" height="268" />
 
 #### Company Information
 
@@ -142,12 +131,12 @@ class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/Cp10.png" alt="Image" 
 
 -   **View Current Admins** - view your current domains administrators
 -   **Add Administrator** - add a new domain administrator
--   **Administrator Activity** - view your administrators past activity
+-   **Administrator Activity** - view your administrators' past activity
 -   **Generate API Keys** - generate your API access key for your domain
 
 #### Support
 
--   **Documentation** - self service support documentation on our
+-   **Documentation** - self-service support documentation on our
     products
 -   **Support Tickets** - manage and view your current and past support
     tickets
@@ -155,28 +144,26 @@ class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/Cp10.png" alt="Image" 
 
 ### Domains
 
-The **Domains** service section allows users to access your domains DNS
-Settings, Add Disclaimers, View Domain Details and set Spam Filtering.
+The **Domains** service section allows you to access your domain's DNS
+settings, add disclaimers, view domain details, and set spam filtering.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP4.png" alt="Image" width="538" height="136" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/CP4.png" alt="Domains" width="538" height="136" />
 
-By selecting the **More** option, you'll brought to another landing page
-that includes more options like Split Domain Routing, Migrations,
-Catch-All Adress and the Email Everyone feature.
+Selecting the **More** option brings you to another landing page
+that includes more features such as split domain routing, migrations,
+catch-all address, and email-everyone.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP5.png" alt="Image" width="600" height="223" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/CP5.png" alt="Domains" width="600" height="223" /></span>
 
 #### Manage
 
--   **Domain Details** -Domain Details - a summary of your domain
+-   **Domain Details** - a summary of your domain
     services and products
 -   **DNS Settings** - manage and view your domain's DNS settings
--   **Email Archiving** -a service that will archive all incoming and
+-   **Email Archiving** - a service that will archive all incoming and
     outgoing email for your domain
 -   **Global Access Rights** - the ability to grant or disable access
-    for POP or IMAP connection<span class="s5">s</span>
+    for POP or IMAP connections
 
 #### Spam Filtering
 
@@ -184,14 +171,14 @@ class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP5.png" alt="Image" w
     settings or individual mailbox settings such as spam handling
 -   **Edit Blacklists** - control domain or individual mailbox
     blacklists settings
--   **Edit Safelists** -control domain or individual mailbox blacklists
+-   **Edit Safelists** - control domain or individual mailbox blacklists
     settings
 -   **Blacklists / Safelists** - search for users on Blacklists or
     Safelists
 
 #### Support
 
--   **Documentation** - self service support documentation on our
+-   **Documentation** - self-service support documentation on our
     products
 -   **Support Tickets** - manage and view your current and past support
     tickets
@@ -211,17 +198,14 @@ class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP5.png" alt="Image" w
 
 ### Support
 
-The **Support** section allows users to utilize the support documents
+The **Support** section allows you to utilize support documents
 for the most common questions as well the ability to **View / Create
 Tickets** if you ever need assistance.
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CPEight.png" alt="Image" width="538" height="139" /></span>
+<img src="http://c15042926.r26.cf2.rackcdn.com/CPEight.png" alt="Support" width="538" height="139" /></span>
 
-After selecting the **View / Create Ticket **option, you'll brought to
-another landing page that includes the ability to create a new ticket,
-view past tickets, and sort through any past tickets:
+Selecting the **View / Create Ticket** option brings you to
+another landing page that includes the ability to create a new ticket and
+examine any past tickets:
 
-<span
-class="s4"><img src="http://c15042926.r26.cf2.rackcdn.com/CP9.png" alt="Image" width="600" height="179" /></span>
-
+<img src="http://c15042926.r26.cf2.rackcdn.com/CP9.png" alt="Support Tickets" width="600" height="179" /></span>
