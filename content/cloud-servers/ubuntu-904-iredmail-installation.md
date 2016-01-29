@@ -34,84 +34,41 @@ Framework, and how mail servers/mail flow works. If you are not sure
 about any of these topics please read up before continuing otherwise you
 may run into problems and become frustrated very quickly.
 
--   [<span class="toctext">Reverse DNS</span>](#Reverse_DNS)
--   [<span class="toctext">Perl Locale Fix</span>](#Perl_Locale_Fix)
--   [<span class="toctext">Aptitude Update</span>](#Aptitude_Update)
--   [<span class="toctext">Setting the Host
-    Name</span>](#Setting_the_Host_Name)
--   [<span class="toctext">Modify your Host
-    File</span>](#Modify_your_Host_File)
--   [<span class="toctext">Reboot</span>](#Reboot)
--   [<span class="toctext">Enable Aptitude
-    Sources</span>](#Enable_Aptitude_Sources)
--   [<span class="toctext">Install Pre-requisite
-    Packages</span>](#Install_Pre-requisite_Packages)
--   [<span class="toctext">Enable ACL</span>](#Enable_ACL)
--   [<span class="toctext">Remount the File
-    System</span>](#Remount_the_File_System)
--   [<span class="toctext">Switch to Root
-    User</span>](#Switch_to_Root_User)
--   [<span class="toctext">Download iRedMail</span>](#Download_iRedMail)
--   [<span class="toctext">Uncompress
-    iRedMail</span>](#Uncompress_iRedMail)
--   [<span class="toctext">Download Installation-Related
-    Packages</span>](#Download_Installation-Related_Packages)
--   [<span class="toctext">Start the iRedMail
-    Installer</span>](#Start_the_iRedMail_Installer)
--   [<span class="toctext">Delete Setup
-    Files</span>](#Delete_Setup_Files)
--   [<span class="toctext">Reboot</span>](#Reboot_2)
--   [<span class="toctext">Setup SPF Record</span>](#Setup_SPF_Record)
--   [<span class="toctext">OPTIONAL: Create
-    DKIM (DomainKey)</span>](#OPTIONAL:_Create_DKIM_.28DomainKey.29)
--   [<span class="toctext">OPTIONAL: Test
-    DKIM</span>](#OPTIONAL:_Test_DKIM)
--   [<span class="toctext">Reboot</span>](#Reboot_3)
--   [<span class="toctext">Access WebMail</span>](#Access_WebMail)
--   [<span class="toctext">Information About Your
-    Install</span>](#Information_About_Your_Install)
--   [<span class="toctext">Common Links</span>](#Common_Links)
--   [<span class="toctext">Troubleshooting: View Mail
-    Logs</span>](#Troubleshooting:_View_Mail_Logs)
 
-<span>Reverse DNS</span>
-----------------------------
+### Reverse DNS
 
 Before we can begin installing the mail server we need to setup our
-reverse DNS. Without this you will find it hard to send or receive alot
-of e-mail across the Internet because servers will think you are
+reverse DNS. Without this you will find it hard to send or receive a lot
+of e-mails across the Internet because servers will think you are
 spamming them or sending falsified e-mail.
 
 Setting up reverse DNS through our Control Panel is very easy. Please
 refer to our instruction on [how to setup a reverse DNS
-record](/how-to/create-a-reverse-dns-record-0 "DNS - Creating a Reverse DNS Record").
+record](/how-to/create-a-reverse-dns-record-0).
 Keep in mind that DNS changes may take up to 24 hours to propagate
 across the Internet.
 
-<span class="mw-headline">Perl Locale Fix </span>
------------------------------------------------------
+### Perl locale fix
 
 Our servers ship with no locale information so they are world-friendly.
 To install the locale information type the following:
 
-    # sudo aptitude install language-pack-en-base
+     sudo aptitude install language-pack-en-base
 
-<span class="mw-headline">Aptitude Update </span>
------------------------------------------------------
+### Aptitude update
 
 Next we will make sure that our server is update to date software-wise.
 To do this we will run an Aptitude update:
 
-    # sudo aptitude update
-    # sudo aptitude upgrade
+     sudo aptitude update
+    sudo aptitude upgrade
 
-<span class="mw-headline">Setting the Host Name </span>
------------------------------------------------------------
+### Set the host name
 
 One final step that needs to take place is setting up the host name of
 your mail server. You can view your current host name by typing:
 
-    # hostname --fqdn
+    hostname --fqdn
     kelly.myServer
 
 Now this might work for most applications but for a mail server this
@@ -120,12 +77,10 @@ just won't do! We need to set your mail server's host name to match the
 Name, or FQDN, might look like *www.google.com*. For most mail servers
 it will be something like *mail.yourdomain.com*.
 
-Have no fear! Changing your host name is a very simple task!
-
 To change your host name we will need to modify the */etc/hostname* file
 on your server. This is the file that stores the host name information.
 
-    # sudo nano /etc/hostname
+     sudo nano /etc/hostname
 
 When the *nano* editor opens you will see the default host name listed.
 Delete the line and type in your host name. Like I said earlier, most
@@ -135,8 +90,7 @@ set your host name to as we will need it later on.
 Once you have modified the host name simply press **CTRL-X** followed by
 **Y** and **Enter** to save.
 
-<span class="mw-headline">Modify your Host File </span>
------------------------------------------------------------
+### Modify your host file
 
 We have one more change to make before we can begin the installation.
 When addressing your FQDN we need to tell the server that it will be
@@ -147,7 +101,7 @@ task!
 
 To modify the hosts file type the following:
 
-    # sudo nano /etc/hosts
+     sudo nano /etc/hosts
 
 The nano editor will open with your hosts file.
 
@@ -163,23 +117,21 @@ below:
 To save the file simply press **CTRL-X** followed by **Y** and **Enter**
 as we did before.
 
-<span class="mw-headline">Reboot </span>
---------------------------------------------
+#### Reboot the server
 
 To apply our host name changes we will need to reboot the server.
 
-    # sudo reboot
+     sudo reboot
 
 Once your server has rebooted please log back in.
 
-<span class="mw-headline">Enable Aptitude Sources </span>
--------------------------------------------------------------
+### Enable Aptitude Sources
 
 To enable the additional Aptitude sources so iRedMail can find the
 software it needs to function. To do this we need to modify the
 */etc/apt/sources.list* file. To modify the file type the following:
 
-    # sudo nano /etc/apt/sources.list
+     sudo nano /etc/apt/sources.list
 
 Go to the bottom of the file and add the following lines:
 
@@ -191,10 +143,9 @@ To save the file simply press **CTRL-X** followed by **Y** and **Enter**
 Now we need to test our source list changes. To do this type the
 following:
 
-    # sudo aptitude update
+     sudo aptitude update
 
-<span class="mw-headline">Install Pre-requisite Packages </span>
---------------------------------------------------------------------
+### Install prerequisite packages
 
 You're probably thinking "when are we going to install the software?"
 Have no fear, we are almost there! First we need to install a software
@@ -205,22 +156,20 @@ package needs to be installed:
 
 <!-- -->
 
-    # sudo aptitude install acl
+     sudo aptitude install acl
 
-<span class="mw-headline">Enable ACL </span>
-------------------------------------------------
+### Enable ACL
 
 We need to enable ACL access control on the file system. Please read
-this portion **very carefully**! Making improper changes to this file
-could destroy your file system!
+this portion **very carefully**.
 
-**Read this again! Making improper changes to this file could destroy
+**Making improper changes to this file could destroy
 your file system**
 
 Open up the */etc/fstab* file and modify the *mount options* that are
 used to mount the main file system partition.
 
-    # sudo nano /etc/fstab
+     sudo nano /etc/fstab
 
 Look for a line that begins with either */dev/sda1* or */dex/xvda1* and
 put a **\#** comment mark in front of it.
@@ -237,30 +186,25 @@ type or copy in the following line instead:
 
 Save the file with CTRL-X, then Y and Enter.
 
-Take a breath!
-
-<span class="mw-headline">Remount the File System </span>
--------------------------------------------------------------
+### Remount the file system
 
 Once you have the changes made to the /etc/fstab file you now need to
 reload them. This is fairly easy to do.
 
-    # sudo mount -o remount,rw,acl /
+     sudo mount -o remount,rw,acl /
 
 Now we are ready to install iRedMail!
 
-<span class="mw-headline">Switch to Root User </span>
----------------------------------------------------------
+### Switch to Root User
 
 iRedMail will not install with *sudo* privileges so we must switch to
 the *root* user. To do this type the following:
 
-    # sudo su -
+     sudo su -
 
 You should be presented with a *root@* prompt now.
 
-<span class="mw-headline">Download iRedMail </span>
--------------------------------------------------------
+### Download iRedMail
 
 To install iRedMail you will need to download the installation package
 from their website. Please point your web browser to
@@ -270,42 +214,38 @@ For the purposes of our installation we will be using *wget* to download
 the installation package. Note that we are downloading this to the home
 directory of the current user.
 
-    # cd ~
-    # wget http://iredmail.googlecode.com/files/iRedMail-0.6.0.tar.bz2
+     cd ~
+     wget http://iredmail.googlecode.com/files/iRedMail-0.6.0.tar.bz2
 
-
-<span class="mw-headline">Uncompress iRedMail </span>
----------------------------------------------------------
+### Uncompress iRedMail
 
 You'll notice that iRedMail comes packaged as a TAR file with further
 BZ2 (BZip2) compression. To unpack this type the following:
 
-    # tar xjf iRedMail-0.6.0.tar.bz2
+     tar xjf iRedMail-0.6.0.tar.bz2
 
 This will create a directory called *iRedMail-0.6.0*.
 
-<span class="mw-headline">Download Installation-Related Packages </span>
-----------------------------------------------------------------------------
+### Download installation-related packages
 
 A few packages need to be downloaded by the installer before
 installation can commence. Run the following lines of code to make this
 happen:
 
-    # cd iRedMail-0.6.0/pkgs/   (Note that the directory name may differ between versions)
-    # bash get_all.sh
+     cd iRedMail-0.6.0/pkgs/   (Note that the directory name may differ between versions)
+     bash get_all.sh
 
 This will download all of the packages necessary to install. Now we need
 to refresh the repository list:
 
-<span class="mw-headline">Start the iRedMail Installer </span>
-------------------------------------------------------------------
+### Start the iRedMail installer
 
 The moment has come! To start the installation type the following:
 
     # cd ~/iRedMail-0.6.0     (Note that the directory name may differ between versions)
     # bash iRedMail.sh
 
-1.  On the welcome screen, click **Yes **to continue.
+1.  On the welcome screen, click **Yes** to continue.
 2.  You will be prompted for the home directory location for the
     *vmail* user.
 
@@ -319,8 +259,10 @@ The moment has come! To start the installation type the following:
     and press the space-bar to select, then click **Next** to continue.
 
 4.  Enter your MySQL password and click **Next**.
+
 5.  Enter your *vmail* user password This will be a system user that
     holds all of your mail. Type it and click **Next**.
+
 6.  You will be asked to enter your first virtual domain.
 
     This is the domain that you will be hosting mail for. Type in your
@@ -334,6 +276,7 @@ The moment has come! To start the installation type the following:
 
 8.  Set a password for the above *postmaster* e-mail address.
     Click **Next** after you have entered it.
+
 9.  Add the first user for your domain.
 
     This will be your first e-mail account such as *john.doe*. The full
@@ -364,6 +307,7 @@ The moment has come! To start the installation type the following:
     phpMyAdmin, PostfixAdmin and Awstats) so just click **Next**.
 
 13. Select a default language for WebMail and click **Next**.
+
 14. Set and e-mail address as the PostfixAdmin administrative e-mail.
 
     You can use the default *postmaster@mydomain.com* e-mail or use a
@@ -378,6 +322,7 @@ The moment has come! To start the installation type the following:
 
 16. When you are prompted to continue with the installation, enter **Y**
     and press **Enter**.
+
 17. You will be prompted at the end of the installation if you would
     like to use the default iptables firewall configuration.
 
@@ -396,27 +341,24 @@ The moment has come! To start the installation type the following:
 Your installation should now be finished and you will be returned to a
 shell prompt.
 
-<span class="mw-headline">Delete Setup Files </span>
---------------------------------------------------------
+### Delete setup files
 
 Before this server is ready to be used in a production environment it
 must be safely locked down and the setup files should be removed. This
 is easily accomplished with one *rm* statement.
 
-    # rm -f ~/iRedMail-0.6.0/config
+     rm -f ~/iRedMail-0.6.0/config
 
-<span class="mw-headline">Reboot </span>
---------------------------------------------
+#### Reboot the server
 
 Go ahead and reboot the server to reload everything and cleanly start
 Postfix.
 
-    # reboot
+     reboot
 
 Once the server comes back up go ahead and log back in as a normal user.
 
-<span class="mw-headline">Setup SPF Record </span>
-------------------------------------------------------
+### Setup SPF Record
 
 Now we will need to go setup an SPF record. Go to
 <http://old.openspf.org/wizard.html> to determine what your SPF record
@@ -424,14 +366,13 @@ should be. Once you have done this please submit a ticket and we will
 process your SPF record. Note that your mail may still function without
 this but you may receive frequent mail rejections.
 
-<span class="mw-headline">OPTIONAL: Create DKIM (DomainKey) </span>
------------------------------------------------------------------------
+### OPTIONAL: Create DKIM (DomainKey)
 
 To create a the Domain Key entry type the following:
 
-    # sudo apt-get install amavisd-new
+     sudo apt-get install amavisd-new
 
-    # sudo /usr/sbin/amavisd-new showkeys
+     sudo /usr/sbin/amavisd-new showkeys
 
 You will see an output like the following:
 
@@ -452,13 +393,12 @@ elsewhere you will need to create a TXT record for
 *dkim.\_domainkey.mydomain.com* and use the enclosed text (without the
 quotes) as the content.
 
-<span class="mw-headline">OPTIONAL: Test DKIM </span>
----------------------------------------------------------
+### OPTIONAL: Test DKIM
 
 Once you have the TXT record created you can test it on your server by
 typing the following:
 
-    # sudo /usr/sbin/amavisd-new testkeys
+     sudo /usr/sbin/amavisd-new testkeys
 
 If it passes you should see something like the following:
 
@@ -468,17 +408,15 @@ If you receive 'fail' then you may have a problem with your key. Please
 check it again. This will also result from DNS entries that have not
 propagated yet.
 
-<span class="mw-headline">Reboot </span>
---------------------------------------------
+#### Reboot the server
 
 Reboot your server one more time.
 
-    # sudo reboot
+     sudo reboot
 
 Once the server has come back online proceed below.
 
-<span class="mw-headline">Access WebMail </span>
-----------------------------------------------------
+### Access WebMail
 
 Point your web-browser to <http://mail.mydomain.com/mail/> and this
 should bring up the RoundCubeMail WebMail application. Type in your
@@ -486,14 +424,12 @@ login name and password and click Login. Send yourself an e-mail from
 another e-mail account to see if it is working. You can also send an
 e-mail to someone on the Internet to test outbound e-mail.
 
-<span class="mw-headline">Information About Your Install </span>
---------------------------------------------------------------------
+### Information about your install
 
 You can find information about your installation file located here:
 **\~/iRedMail-0.6.0/iRedMail.tips**
 
-<span class="mw-headline">Common Links </span>
---------------------------------------------------
+### Common links
 
 The following links are valid for your iRedMail installation. Please
 replace *mail.mydomain.com* with your FQDN.
@@ -503,14 +439,13 @@ replace *mail.mydomain.com* with your FQDN.
 -   phpMyAdmin - <https://mail.mydomain.com/phpmyadmin/>
 -   AWstats - <http://mail.mydomain.com/awstats/awstats.pl>
 
-<span class="mw-headline">Troubleshooting: View Mail Logs </span>
----------------------------------------------------------------------
+### Troubleshooting: View mail logs
 
 If you are having troubles with your mail server you might want to take
 a peek at the logs. To view the logs for iRedMail simply type the
 following:
 
-    # sudo tail -F /var/log/mail.log
+     sudo tail -F /var/log/mail.log
 
 This will display the last output of the log and show the entries as
 they are added in real-time. Your output may look like the output below:
@@ -522,8 +457,3 @@ they are added in real-time. Your output may look like the output below:
     Jul  8 23:25:53 mail postfix/pipe[4536]: 87F93D49DA: to=<john@doe.com>, relay=dovecot, delay=0.06,
         delays=0.04/0.01/0/0.02, dsn=2.0.0, status=sent (delivered via dovecot service)
     Jul  8 23:25:53 mail postfix/qmgr[4298]: 87F93D49DA: removed
-
---[Kelly
-Koehn](/knowledge_center/index.php?title=User:Kkoehn&action=edit&redlink=1 "Kkoehn (page does not exist)")
-14:26, 9 July 2009 (CDT)
-
