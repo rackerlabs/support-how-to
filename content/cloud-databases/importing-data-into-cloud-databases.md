@@ -127,16 +127,15 @@ Perform the following steps:
 
          mysqldump -u username -p database_name > database_name.sql
 
-  - `database_name` is the name of your existing database.
-
-  - `database_name.sql` is the name of the exported database file.
-
-  - Replace `username` with the username you use to access the
-    original database.
+      - `database_name` is the name of your existing database.
+      
+      - `database_name.sql` is the name of the exported database file.
+      
+      - Replace `username` with the username you use to access the original database.
 
       **Note**: If you are creating a dump from a Cloud Databases
       Instance, see [exporting data](/how-to/exporting-data-from-mysql)
-      for information on how to perform this dump.
+      for information on how to perform this dump. 
 
 5.  Run the following MySQL import command, substituting that long
     public hostname you copied from the Control Panel for the `hostname`
@@ -144,10 +143,9 @@ Perform the following steps:
 
          mysql -h hostname -u username -p database_name < database_name.sql
 
-  - Replace `username` with the username you use to access the
-  database.
-
-  - `database_name` is the name of the database.
+      - Replace `username` with the username you use to access the database.
+      
+      - `database_name` is the name of the database.
 
   The database is imported and ready to accept new data.
 
