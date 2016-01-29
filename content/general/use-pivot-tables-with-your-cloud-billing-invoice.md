@@ -14,8 +14,7 @@ You can use the Rackspace CSV-formatted invoice to filter and manipulate
 your billing data. We provide three pivot tables (linked below) to help
 our customers find the information you need.
 
-View billing data in pivot tables
----------------------------------
+### View billing data in pivot tables
 
 You will download the spreadsheet that best matches your application.
 You will then download your billing invoice in a CSV format and import
@@ -69,8 +68,7 @@ different ways.
     pivot table and select **Refresh Data**
 12. Save the spreadsheet with a new name to your local computer
 
-Video demos
------------
+### Video demos
 
 The following videos show how to view your data in a pivot table.
 
@@ -79,8 +77,7 @@ The following videos show how to view your data in a pivot table.
 -   Import invoice into the Open Office spreadsheet demo
     ([download](http://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_open_office_pivot_tables_demo.mov))
 
-About the CSV file
-------------------
+### About the CSV file
 
 **Billing Time Charges** under Cloud Servers is the charge for Saved
 Images. **Billing Time Charges** under Cloud Files is the charge for
@@ -150,6 +147,3 @@ RES\_ID - ID of the resource
 RES\_NAME - Name of the resource
 
 ATTRIBUTE\_1,  ATTRIBUTE\_2, ATTRIBUTE\_3
-
-
-
