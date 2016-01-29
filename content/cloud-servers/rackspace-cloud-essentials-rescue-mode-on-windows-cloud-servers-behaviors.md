@@ -18,7 +18,7 @@ After the rescue image has completed building, a temporary password is presented
 
 **Note:** Some versions of the Windows OS will modify the original disk signature when mounted a secondary drive. If you reboot, you'll probably get a `winload.exe` error or a `0xc000000e` error. This occurs with the BCD boot loader and not with the NTLDR loader. If that happens, you can re-rescue the system, and fix up the bootloader so it has the proper signature. Please see the instructions below for your OS type.
 
-<!--Windows Boot Manager image-->
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/winresfail.jpg)
 
 ### Windows 2008 SP2 rescue behavior
 
