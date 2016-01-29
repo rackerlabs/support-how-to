@@ -19,13 +19,10 @@ managing your MSSQL databases via myLittleAdmin.
 one time. It may be necessary to go to "Manage Backup Files" and delete
 any existing backup file before you can create a new one.
 
-
-
 ### Backing Up Your MSSQL Database
 
-1.  To manage your MSSQL database, you'll first need to [login to the
-    online
-    manager (myLittleAdmin)](/how-to/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface "Working with a MSSQL database").
+1.  To manage your MSSQL database, you'll first need to [login to the online manager (myLittleAdmin)](/how-to/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface "Working with a MSSQL database").
+
 2.  After you are logged into the online manager, click on **Tools** in
     the bottom of the left frame.
 
@@ -67,8 +64,6 @@ any existing backup file before you can create a new one.
     Be patient and do not click the stop button until done.**
 
 
-
-
 ### Finish Line
 
 You have just created a backup of your MSSQL database. You should now see a link to download your database backup in Step 5.
@@ -76,4 +71,3 @@ You have just created a backup of your MSSQL database. You should now see a link
 If you experience a problem or you have further questions or concerns,
 please do not hesitate to contact our technical support 24x7 via phone,
 chat or by submitting a ticket through your control panel.
-
