@@ -43,7 +43,7 @@ all**.
 2.2, replace **Require all denied** with **order deny,allow | deny from
 all**.
 
-You can also use the enviromental variable **HTTP:X-Forwarded-For **for
+You can also use the environmental variable **HTTP:X-Forwarded-For **for
 the **Allow Only **feature via SSL.
 
 ### Allow only a certain IP address with **HTTP:X-Forwarded-For**
@@ -92,4 +92,3 @@ do your **.htaccess** file:
 **Note**: The preceding example is formatted for Apache 2.4. If using
 2.2, replace **Require all denied** with **order deny,allow | deny from
 all**.
-
