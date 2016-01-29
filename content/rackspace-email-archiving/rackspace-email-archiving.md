@@ -1,11 +1,11 @@
 ---
-title: Rackspace Email
+title: Rackspace Email Archiving
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2016-01-26'
 last_modified_by: Catherine Richardson
-product: Rackspace Email
+product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
