@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com). You can access this interface
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com). You can access this interface
 from the [Cloud Control Panel](https://mycloud.rackspace.com) by
 clicking the **Cloud Control Panel** menu at the top of the window and
 selecting **Cloud Sites**.
@@ -19,15 +18,12 @@ selecting **Cloud Sites**.
 Follow these directions to point a domain or subdomain to a website that
 is *not* hosted on Cloud Sites.
 
-1.  Log in to the [Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com "https://manage.rackspacecloud.com").
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com "https://manage.rackspacecloud.com").
 2.  Create the new domain or subdomain under the correct account. If you
-    have any questions about how to do this, see [Getting Started With
-    Cloud Sites: How To Add A New Website](/how-to/getting-started-with-cloud-sites-how-to-add-a-new-website).
+    have any questions about how to do this, see [Getting Started With Cloud Sites: How To Add A New Website](/how-to/getting-started-with-cloud-sites-how-to-add-a-new-website).
 3.  After the domain or subdomain is set up in your account, add a PHP
     redirect to the **web/content** folder by using FTP. For information
-    about how to do this, including using FTP, see [Getting Started With
-    Cloud Sites, FTP/SSHFS/FTP Clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients).
+    about how to do this, including using FTP, see [Getting Started With Cloud Sites, FTP/SSHFS/FTP Clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients).
 4.  Using a text editing program (like Notepad or Wordpad), create a
     file with the following PHP redirect on your computer. After
     `Location:`, enter the URL that you want to redirect the website to
@@ -49,5 +45,3 @@ is *not* hosted on Cloud Sites.
 7.  Navigate to the **/www.yourdomain.com/web/content** directory.
 8.  Upload the **index.php** into this folder.
     The redirect should be fully functional.
-
-
