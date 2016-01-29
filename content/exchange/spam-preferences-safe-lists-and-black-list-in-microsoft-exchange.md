@@ -4,8 +4,8 @@ title: 'Spam Preferences, Safe Lists, and Black List In Microsoft Exchange'
 type: article
 created_date: '2012-05-22'
 created_by: Rackspace Support
-last_modified_date: '2015-01-09'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-01-29'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -145,4 +145,3 @@ After you're finished select the **Save** button.
 *Note: If you have multiple domain names and/or email addresses to add,
 use the bulk import option to upload a .csv or .txt file containing the
 information*
-

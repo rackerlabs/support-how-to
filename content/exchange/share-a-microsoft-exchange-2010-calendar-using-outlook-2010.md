@@ -5,7 +5,7 @@ type: article
 created_date: '2014-06-04'
 created_by: Eric Zuniga
 last_modified_date: '2016-01-29'
-last_modified_by: Kyle Laffoon
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
