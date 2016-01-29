@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-DISCLAIMER FOR MANAGED OPERATIONS CUSTOMERS
+**DISCLAIMER FOR MANAGED OPERATIONS CUSTOMERS**
 
 To ensure that we have access to your server when needed, we request
 that you do not change these configurations. When connecting to your
@@ -22,7 +22,7 @@ blocked in the Windows firewall. If you insist on changing these values,
 please speak with an administrator at Rackspace to do so in a way that
 does not impact our ability to provide you with Fanatical Support.
 
-------------------------------------------------------------------------
+------
 
 This article provides some very general security tips to remember when
 you are setting up a Microsoft Windows server that will be interacting
@@ -30,20 +30,7 @@ with the public Internet. These tips can be applied to any server in
 general, but this article specifically addresses Rackspace Public Cloud
 Servers running Windows.
 
-### Contents
-
--   [Use local firewall rules](#uselocalfirewalls)
--   [Be careful what you share](#becarefulwhatyoushare)
--   [Password policy](#passwordpolicy)
--   [Active Directory](#activedirectory)
--   [SQL server instances](#sqlserviceinstances)
--   [Windows updates](#windowsupdates)
--   [Server backups](#serverbackups)
--   [Code](#code)
--   [Conclusion](#conclusion)
-
-Use local firewall rules
-----------------------------
+### Use local firewall rules
 
 For those servers that will be interacting with the public Internet with
 no firewall device (by default, the Rackspace Public Cloud Servers do
@@ -68,94 +55,33 @@ need access to the server have it, and those who don't will be blocked
 from those open ports. The most typical ports that need to be open in
 the Windows firewall for web hosting on a cloud server are as follows:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"><p><strong>Port</strong></p></td>
-<td align="left"><p><strong>Service</strong></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>80</p></td>
-<td align="left"><p>HTTP - IIS sites or web applications</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>443 HTTPS</p></td>
-<td align="left"><p>Secure IIS sites or web applications with SSL</p></td>
-</tr>
-</tbody>
-</table>
+Port   |  Service  
+-------|-----------
+80     | HTTP - IIS sites or web application
+443 HTTPS | Secure IIS sites or web applications with SSL
 
 We recommend locking down the following ports via IP address
 whitelisting on the public interface to limit brute-force attacks or
-exploitation attempts against commonly named accounts or services on the
-server:
+exploitation attempts against commonly named accounts or services on the server:
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"><p><strong>Port</strong></p></td>
-<td align="left"><p><strong>Description</strong></p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>3389</p></td>
-<td align="left"><p>Remote Desktop connectivity, for logging in remotely to the server.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>21 FTP</p></td>
-<td align="left"><p>For the secure transfer of data between local geographic locations and the cloud server</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>990 FTPS (on Windows)</p></td>
-<td align="left"><p>For the secure transfer of data transfer between local geographic locations and the cloud server incorporating an SSL certificate.</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>5000-5050 FTP</p></td>
-<td align="left"><p>Passive ports for FTP communication</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p>1433 SQL</p></td>
-<td align="left"><p>Default port used for SQL communication</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p>53 DNS</p></td>
-<td align="left"><p>Default port used for DNS requests</p></td>
-</tr>
-</tbody>
-</table>
+Port  | Description
+------|------------
+3389  | Remote Desktop connectivity, for logging in remotely to the server.
+21 FTP | For the secure transfer of data between local geographic locations and the cloud server
+990 FTPS (Windows) | For the secure transfer of data between local geographic locations and the cloud server incorporating an SSL certificate
+5000-5050 FTP | Passive ports for FTP communication
+1433 SQL | Default port used for SQL communication
+53 DNS | Default port used for DNS requests
 
+### Be careful what you share
 
-
-Be careful what you share
--------------------------
-
-In addition to being aware of how much these servers are exposed to the
-Internet through open firewall ports, you should consider what data is
-available to others via file sharing. We do not recommend enabling
-Windows file sharing because the ports that are opened on the firewall
-expose the server to unwanted attempts to connect to the server over
-ports 445 and 139. We have customers who are using their servers to host
-back-office software such as QuickBooks, PeachTree, Microsoft Office
-(Outlook for Remote Desktop sessions), or any number of other
-third-party software solutions. We are often asked to help these
-customers configure mapped network drives to allow for them to easily
-move data from their local PCs to their cloud server by way of a drive
-letter on the local computer. However, we do not recommend this
-practice. Remember, you are only as secure as your weakest password.
+In addition to being aware of how much these servers are exposed to the Internet through open firewall ports, you should consider what data is available to others via file sharing. We do not recommend enabling Windows file sharing because the ports that are opened on the firewall expose the server to unwanted attempts to connect to the server over ports 445 and 139. We have customers who are using their servers to host back-office software such as QuickBooks, PeachTree, Microsoft Office (Outlook for Remote Desktop sessions), or any number of other third-party software solutions. We are often asked to help these customers configure mapped network drives to allow for them to easily move data from their local PCs to their cloud server by way of a drive letter on the local computer. However, we do not recommend this practice. Remember, you are only as secure as your weakest password.
 
 Additionally, be careful of the software that you allow your users to
 download and install on your server. Every software package installed
 increases the exposure of your server to attack.
 
-Password policy
--------------------
+### Password policy
 
 Whether you have provisioned a cloud server with or without a hardware
 firewall, as previously stated, you are only as secure as your weakest
@@ -164,29 +90,18 @@ default user account of **Administrator**, we don't recommend changing
 this username on your cloud servers running Windows. However, we do
 recommend strong passwords of at least 8 to 10 characters that include
 uppercase and lowercase letters, numbers, and special characters (such
-as !, \#, \$, and %). Assigning simple passwords can be extremely
+as !, #, $, and %). Assigning simple passwords can be extremely
 dangerous, especially for a cloud server that is available over the
 public Internet.
 
 Consider setting an expiration date for each user's password. Although
-it is inconvenient to have to remember a new password periodically, this
-bit of forethought can help to make your data more secure.
+it is inconvenient to have to remember a new password periodically, this bit of forethought can help to make your data more secure.
 
 Likewise, be careful who has access to the server through the
 Administrator account. If multiple users need admin access to the
-server, create multiple accounts with admin access. It's easier to track
-users in the log files by looking for a specific user account than it is
-to try to decipher multiple log file entries under the Administrator
-account. Multiple instances of Event Id 4625 in the Security Log or
-Event Id 1012 in the System Log can mean that someone is trying to hack
-into your server, because these events are related to failed login
-attempts. For users logging in over Remote Desktop Connection, ensure
-that they are logging off the server to free up any used resources
-instead of simply closing their RDC windows, which leaves the session
-open on the server.
+server, create multiple accounts with admin access. It's easier to track users in the log files by looking for a specific user account than it is to try to decipher multiple log file entries under the Administrator account. Multiple instances of Event Id 4625 in the Security Log or Event Id 1012 in the System Log can mean that someone is trying to hack into your server, because these events are related to failed login attempts. For users logging in over Remote Desktop Connection, ensure that they are logging off the server to free up any used resources instead of simply closing their RDC windows, which leaves the session open on the server.
 
-Active Directory
---------------------
+### Active Directory
 
 We typically discourage running Active Directory on a cloud server
 because the only protection from intrusion is the Windows firewall and
@@ -209,8 +124,7 @@ you run two Domain Controllers in case one fails (imaging is currently
 unavailable for Domain Controllers). We also recommend locking down DNS
 to prevent DNS amplification attacks.
 
-SQL Server instances
-------------------------
+### SQL Server instances
 
 For those servers running Microsoft SQL Server, it is important to
 remember to lock down the SQL port 1433 to listen over the internal
@@ -231,8 +145,7 @@ the data from the live database files into flat files that can be backed
 up off the server as well as a cleanup task so the backups do not fill
 your hard drive.
 
-Windows updates
--------------------
+### Windows updates
 
 Don't disable Windows updates, and be mindful of the state of your
 server -- ensure that your Windows OS is patched. Patch Tuesday, which
@@ -242,8 +155,7 @@ must decide how best to implement a patching strategy that will keep
 their server up to date. By default, Rackspace Cloud Servers are set up
 to check for updates between 2 a.m. and 4 a.m. every day.
 
-Server backups
-------------------
+### Server backups
 
 You should have some type of disaster recovery plan in place. We offer
 the option for cloud server images to be created nightly and written
@@ -270,8 +182,7 @@ instance from a Cloud Image is always a good idea to ensure that the
 image is good, and restoring a file from Cloud Backups helps to verify
 that the data being backed up can be restored.
 
-Code
---------
+### Code
 
 The last attack surface exposed to the Internet is the code. You and
 your developer must ensure that the code is enforcing proper
@@ -282,16 +193,14 @@ have the best validation possible to prevent hackers from exploiting the
 web application and gaining control of the server. A good starting point
 for improving the ASP .Net security can be found at the following sites:
 
--   <http://www.asp.net/web-forms/pluralsight>
--   <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
+-  <http://www.asp.net/web-forms/pluralsight>
+-  <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
 -   <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
 
-Conclusion
---------------
+### Conclusion
 
 Depending on the use case, each customer might have other more specific
 needs to address when leveraging our Cloud Servers product to meet their
 hosting needs. However, these general recommendations are a good place
 to start when considering security while building out Windows servers,
 cloud or otherwise.
-
