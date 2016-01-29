@@ -91,7 +91,7 @@ flavor (server size).
 
 **Note**: Other images will be available soon.
 
-### Supported Flavors
+#### Supported Flavors
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SupportedFlavors_0.png" width="704" height="168" />
 
