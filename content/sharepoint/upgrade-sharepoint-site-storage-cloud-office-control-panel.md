@@ -1,6 +1,6 @@
 ---
 node_id: 4003
-title: 'Upgrade SharePoint site storage: Cloud Office Control Panel'
+title: Upgrade SharePoint site storagein the Cloud Office Control Panel
 type: article
 created_date: '2014-04-10'
 created_by: Mawutor Amesawu
@@ -19,23 +19,19 @@ panel](https://cp.rackspace.com), and perform the following steps:
 
 
 
-1\.  At the top of the page click the **Add Storage** link Beneath the
-    **Microsoft SharePoint**.
+1. At the top of the page, click the **Add Storage** link under **Microsoft SharePoint**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SharePoint1.3.png" width="488" height="113" />
 
-2\.  In the **Quantity** field, enter the amount of additional storage
-    that you want in whole numbers. Your current monthly rate, along
-    with your new monthly rate, and prorated charges are displayed in
-    the **Summary** section.
+2. In the **Quantity** field, enter the amount of additional storage that you want in whole numbers. Your current monthly rate, along
+    with your new monthly rate, and prorated charges are displayed in the **Summary** section.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SharePoint2.3.png" width="692" height="317" />
 
-3\.  Click **Review Order**.
+3. Click **Review Order**.
 
-4\.  Review the upgrade details and billing information. To update
-    billing information click **Edit**.
+4. Review the upgrade details and billing information. To update billing information click **Edit**.
 
-5\.  Click **Complete Order**.
+5. Click **Complete Order**.
 
-    **Note**: Prorated charges will appear on your next bill.
+    **Note:** Prorated charges will appear on your next bill.
