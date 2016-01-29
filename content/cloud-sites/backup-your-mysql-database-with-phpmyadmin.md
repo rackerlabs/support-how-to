@@ -14,40 +14,32 @@ product_url: cloud-sites
 
 ### Backing Up Your MySQL Database
 
-1.  To manage your MySQL database, you'll first need to [log in to the online manager (phpMyAdmin)](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
+1. Log in to the [online manager (phpMyAdmin)](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
 
-2.  After you are logged into the online manager, click on a database or
-    table in the left frame as shown in this example:
+2. To view information, click on a database or table in the left frame
+   as shown in the following figure:
 
-    ![](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-dbs.png)
+   ![](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-dbs.png)
 
-    The properties for this database or table will be displayed.
+3. To export the database to a backup file, click **Export**:
 
-3.  Then on the menu, click **Export**:
+   ![phpMyAdmin Export tab](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-export.png)
 
-    ![phpMyAdmin Export tab](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-export.png)
+4. To save the backup file to your system, click **Save as
+   file**.
 
-    This interface will generate a backup file that can be used to
-    recreate your database or table (it's actually just a file
-    containing standard SQL statements).
+   When you save the file, you can change the name of the backup file and the
+   compression method, or use the defaults. Compression reduces the size of the backup file.
+   The recommended compression method is *gzipped*:
 
-4.  To save the backup, you will need to check the box marked **Save as
-    file**, so that phpMyAdmin will prompt you to download the resulting
-    backup file. You can also change the name of the backup file and the
-    compression--though the defaults are both fine if you would rather
-    not change anything. If you do choose to use compression this will
-    allow you to have a smaller backup file on your desktop if you are
-    planning to keep it as a personal archive. The recommended setting
-    is **gzipped**:
+   ![](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-saveasfile.png)
 
-    ![](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-saveasfile.png)
+5. To start the backup process, click **Go**.
 
-5.  Finish by pressing the **Go** button; this may take a few moments
-    to complete. You will then be prompted to save the file to
-    your desktop.
+6. When the backup process completes, follow the prompt to save the file to your desktop.
+
 
 ### Finish Line
 
-You have just created a backup of your MySQL database. If you experience a problem or you have further questions or concerns,
-please do not hesitate to contact our technical support 24x7 via phone,
-chat or by submitting a ticket through your control panel.
+You have just created a backup of your MySQL database. If you have any issues, questions or concerns,
+contact our technical support 24x7 via phone, chat, or by submitting a ticket through your control panel.

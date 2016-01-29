@@ -1,6 +1,6 @@
 ---
 node_id: 1268
-title: Split Domain Routing
+title: Set up split domain routing
 type: article
 created_date: '2011-12-30'
 created_by: Rackspace Support
@@ -10,12 +10,10 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-### **What is Split Domain Routing?**
-
-Split Domain Routing (SDR) allows you to have a single domain's
+Split domain routing (SDR) allows you to have a single domain's
 mailboxes distributed between our system and an external system, working
 together as if they were in one environment. This is primarily used when
-migrating a large number of mailboxes over to our system from another
+a large number of mailboxes are being migrated over to our system from another
 server over an extended period of time.
 
 Mailboxes can be moved in batches to make the move more manageable for
@@ -30,7 +28,7 @@ records to Rackspace because then all your messages get the benefit of
 our spam/anti-virus filtering instead of just the Rackspace-hosted
 mailboxes.
 
-### **Setting up Split Domain Routing:**
+### Setting up SDR
 
 There are two parts to setting up SDR and they relate to enabling our
 system and the external system to have two-way communication. If you are
@@ -39,16 +37,16 @@ for the domain pointing to your existing server (described as your
 external mail server in this documentation). Once the migration is
 complete you can switch them to the Rackspace MX records listed here:
 [Set up DNS records for Cloud Office email and Skype for
-Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
+Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
 
 <img src="http://c973967.r67.cf2.rackcdn.com/(E%26A)SplitDomainRouting.png" width="617" height="333" />
 
-### **Enabling Split Domain Routing through the Cloud Office control panel:**
+### Enabling SDR through the Cloud Office Control Panel
 
 When SDR is enabled, our environment will forward to your external
 server any messages addressed to recipients on your domain that do not
 exist in our system. To enable it requires the hostname of your external
-mail server (usually one of the MX Records that point to your external
+mail server (usually one of the MX records that point to your external
 system) and a valid email address within the designated domain hosted on
 that external mail server. We will use this address only to validate the
 server. You must also open port 25 on the external mail server so that
@@ -56,34 +54,21 @@ our system can connect to it.
 
 <img src="http://c973967.r67.cf2.rackcdn.com/(E%26A)SplitDomainRouting2.png" width="652" height="281" />
 
-###
+#### To enable SDR
 
-### **To enable Split Domain Routing perform the following steps:**
+1. Log in to the [Cloud Office Control Panel](http://cp.rackspace.com).
+2. From the **Go to section** menu, select **Domains**.
 
-<span>1. First log in to the control panel
-(</span>[cp.rackspace.com](http://cp.rackspace.com)<span>) & mouse over
-the </span>**Go To Section**<span> drop-down menu and select
-</span>**Domains**<span>.</span>
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/a.png" width="152" height="96" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/a.png" width="152" height="96" />
+3. In the **Tools** section, click the **Split Domain** link.
+4. If prompted, select the domain for which you want to set up SDR.
+5. Select the **Enable Split Domain Routing** check box.
+6. In the **External Mail Server** box, enter the name of your external mail server.
+7. In the **Verification Address** box, enter in a valid email address that is hosted on your external mail server.
+8. Click **Save**.
 
-<span>2. In the </span>**Tools**<span> section, select the
-</span>**Split Domain**<span> link & select the domain you want to set
-up Split Domain Routing for.</span>
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/b.png" width="235" height="171" />
-
-<span>3. Check the </span>**Enable Split Domain Routing**<span> box & in
-the </span>**External Mail Server**<span> box, enter the name of your
-external mail server. In the </span>**Verification Address box**<span>,
-enter in a valid email address that is hosted on your external mail
-server and then select the </span>**Save**<span> button.</span>
-
-### <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/c.png" width="742" height="178" />
-
-
-
-### **Configuring Split Domain Routing from your own external server to Rackspace: **
+### Configuring SDR from your own external server to Rackspace
 
 This type of functionality is known by several names including
 non-authoritative mail delivery or message routing for a shared address
@@ -94,52 +79,36 @@ configuring this.
 
 The following Microsoft articles show how to accomplish this:
 
-**Exchange Server 2007**:  <http://bit.ly/rE6YBR>
+- [Exchange Server 2007](http://bit.ly/rE6YBR)
+- [Exchange Server 2010](http://bit.ly/CQy7)
 
-**Exchange Server 2010**:  <http://bit.ly/CQy7>
+### Subdomain message routing
 
-###
-
-### **Sub-Domain Message Routing: **
-
-<span>This is a suggested way to route messages from your external
-server back to Rackspace.  Sub-domain routing uses contacts (or
+This is a suggested way to route messages from your external
+server back to Rackspace. Subdomain routing uses contacts (or
 forwards) set up on your external system to route the messages to a
-sub-domain e-mail address.  This same sub-domain should be added as a
-domain alias on our system in order for this to work.</span>
+subdomain email address. This same subdomain should be added as a
+domain alias on our system in order for this to work.
 
-<span>The following should be in place:</span>
+The following should be in place:
 
--   a sub-domain created with your DNS host pointing to Rackspace MX
-    records, e.g. rackspace.example.com with its own set of MX records
-    pointing to **mx1.emailsrvr.com**
-
-<!-- -->
-
--   contacts (aliases) must be created on the external system for each
-    mailbox hosted by Rackspace - the contact must forward the
-    yourdomain.com address to the rackspace.example.com address.  For
-    example, user@example.com (on your external server) will have a
-    forward set to user@rackspace.example.com.  Your server will see the
-    @rackspace.example.com address and query DNS - which will then
+-   A subdomain created with your DNS host pointing to Rackspace MX
+    records&mdash;for example, **rackspace.example.com** with its own set of MX records
+    pointing to **mx1.emailsrvr.com**.
+-   Contacts (aliases) must be created on the external system for each
+    mailbox hosted by Rackspace. The contact must forward the
+    **yourdomain.com** address to the **rackspace.example.com** address. For
+    example, **user@example.com** (on your external server) will have a
+    forward set to **user@rackspace.example.com**. Your server will see the
+    **@rackspace.example.com** address and query DNS, which will then
     resolve back to **mx1.emailsrvr.com** and deliver to the user in
     Rackspace's environment.
 
-<!-- -->
-
--   Please ensure you have requested your rackspace.example.com
-    subdomain as a **domain alias**. In order to do this, please contact
-    Support (chat, phone call, or open a ticket).
+-   Ensure that you have requested your **rackspace.example.com**
+    subdomain as a *domain alias*. In order to do this, contact Support (chat, phone call, or open a ticket).
 
 <img src="http://c973967.r67.cf2.rackcdn.com/(E%26A)SplitDomainRouting6.png" width="633" height="261" />
 
-<span>If Rackspace is your DNS host, enter this sub-domain name in the
-Mail Records (MX) section of the DNS Settings page in the Control Panel.
-To learn more, please see the help topic, </span>[Manage DNS
-Records](/how-to/managing-cloud-sites-email-dns-records)<span>.</span>
+If Rackspace is your DNS host, enter this subdomain name in the Mail Records (MX) section of the DNS Settings page in the control panel.
 
-*Note:* *For a migration, when changing the MX Records, ensure that you
-are changing them for the new sub-domain, e.g. rackspace.example.com,
-and not the primary domain. After all mailboxes are on our system, you
-will change the MX Records for the primary domain.*
-
+**Note:** For a migration, when changing the MX records, ensure that you are changing them for the new subdomain (for example, **rackspace.example.com**) and not the primary domain. After all mailboxes are on our system, you will change the MX records for the primary domain.

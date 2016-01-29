@@ -30,7 +30,7 @@ hot-fixes and hardware BIOS, firmware and drivers is:
 
 
 
-**Application and Server updates**
+### Application and Server updates
 
 Any update that affects the web application framework (ASP.NET, ASP and
 SQL) will be communicated to customers before they are deployed to our
@@ -39,8 +39,7 @@ functional with existing code and make any adjustments necessary to
 function under the new updates.
 
 
-**Critical Updates**
-
+### Critical Updates
 
 From time to time Microsoft determines that an update is too critical to
 wait for the regular update release (for example zero days exploit
