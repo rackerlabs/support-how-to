@@ -6,41 +6,34 @@ created_date: '2015-08-26'
 created_by: Rose Contreras
 last_modified_date: '2016-01-13'
 last_modified_by: Rose Coste
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
-<a name="top"></a>
 This article details the process for setting up Simple Network
 Management Protocol (SNMP) and `syslog` for monitoring of the Brocade
 Vyatta vRouter.
 
--   [Configuring SNMP on vRouter](#snmp)
--   [Configuring logging on vRouter](#logging)
--   [The difference between show log and monitor commands](#diff)
-
-<a name="snmp"></a>
-Configuring SNMP on vRouter
------------------------------------
+### Configuring SNMP on vRouter
 
 The following object ID and description for support with a standard SNMP
 management and logging system are built in to the vRouter:
 
     sysObjectID  =  1.3.6.1.4.1.30803
-    sysDescr       = Vyatta_version_info
+    sysDescr     =  Vyatta_version_info
 
 You can configure your SNMP management software to communicate with the
 vRouter by using the following SNMP messages:
 
--   **GET**&mdash; Pulls system information and device operational statistics
--   **SET**&mdash; Sets event conditions or thresholds on the vRouter
--   **TRAP**&mdash; When thresholds or conditions are met, sends information
+-   **GET** - Pulls system information and device operational statistics
+-   **SET** - Sets event conditions or thresholds on the vRouter
+-   **TRAP** - When thresholds or conditions are met, sends information
      to the management system
 
-These scenario variables are used in the SNMP configuration below:
+The following scenario variables are used in the SNMP configuration below:
 
--  **Community string**&mdash;  BROCADE
--  **IP Address of the SNMP management system**&mdash; 10.0.0.12
+-  **Community string** - BROCADE
+-  **IP Address of the SNMP management system** - 10.0.0.12
 
 Other variables provide vRouter specific device information.
 
@@ -53,8 +46,6 @@ Other variables provide vRouter specific device information.
     set service snmp contact "Rackspace Network Security"
     set service snmp description "Test Brocade vRouter"
     set service snmp location "San Antonio, TX"`
-
-[back to top](#top)
 
 ### SNMP access via VPN tunnel
 
@@ -83,29 +74,24 @@ view of how to execute this configuration.
 
 Following is a sample subset of available Management Information Bases
 (MIBs) on a vRouter. A full list of supported MIBs is available at the
-[Vyatta documentation
-page](http://www.brocade.com/downloads/documents/html_product_manuals/vyatta/vyatta_5400_manual/wwhelp/wwhimpl/js/html/wwhelp.htm#href=Remote%20Management/SNMP.5.11.html#1952242).
+[Vyatta documentation page](http://www.brocade.com/downloads/documents/html_product_manuals/vyatta/vyatta_5400_manual/wwhelp/wwhimpl/js/html/wwhelp.htm#href=Remote%20Management/SNMP.5.11.html#1952242).
 
--   HOST-RESOURCES-MIB
--   SNMPv2-MIB
--   IF-MIB
--   IP-MIB
--   RFC1213-MIB
--   TCP-MIB
--   UDP-MIB
+-  HOST-RESOURCES-MIB
+-  SNMPv2-MIB
+-  IF-MIB
+-  IP-MIB
+-  RFC1213-MIB
+-  TCP-MIB
+-  UDP-MIB
 
-[back to top](#top)
-
-<a name="logging"></a>
-Configuring logging on vRouter
-------------------------------------
+### Configuring logging on vRouter
 
 Using the standard Linux `syslogd` process, the vRouter allows the
 logging capabilities of most vRouter processes.
 
 **Note:** Log messages are stored in `/var/log/messages`. When the file
 reaches 500 KB in size, the `messages` file is renamed to `messages.#`,
-with \# being an incremental number).
+with # being an incremental number).
 
 Use the `show log` command to view logs. Following are some
 examples of the show log command variables.
@@ -144,19 +130,19 @@ destinations, logging levels, and facility numbers.
 
 **Logging destinations**
 
-| Destination | Purpose                                             |
+| Destination | Purpose                                    |
 |--------------|-------------------------------------------|
 | console   | Logging to system console |
 | file    | Logging to a file (stored in `/var/log/user/`) |
 | global  | Logging to system standard location            |
 | host    | Logging to a remote host                       |
-| user    | Logging to specific user&rsquo;s terminal            |
+| user    | Logging to specific user&rsquo;s terminal      |
 
 **Logging levels**
 
 The `level` variable refers to severity level, which can be application-specific.
 
-| Level   | Purpose                                       |
+| Level   | Purpose                              |
 |---------|--------------------------------------|
 | emerg   | Emergency messages                   |
 | alert   | Urgent messages                      |
@@ -173,7 +159,7 @@ The `facility` variable refers to the type of program logging the message.
 
 | Facility  | Purpose                          |
 |-----------|----------------------------------|
-| all       | All facilities excluding &ldquo;mark&rdquo;  |
+| all       | All facilities excluding "mark"  |
 | auth      | Authentication and authorization |
 | authpriv  | Non-system authorization         |
 | cron      | Cron daemon                      |
@@ -196,11 +182,7 @@ The `facility` variable refers to the type of program logging the message.
 | local5    | Local facility 5                 |
 | local6    | Local facility 6                 |
 
-[back to top](#top)
-
-<a name="diff"></a>
-Difference between show log and monitor commands
---------------------------------------------------------------
+### Difference between show log and monitor commands
 
 The `show log` command is a static representation of the log files that
 were written to the `/var/log/messages` files at the time you executed
@@ -212,5 +194,3 @@ The `monitor`command shows log messages as they are being written to the
 log buffer. Similar to the `debug` command in Cisco ASA, you see log
 messages on the console as they are generated. Messages are logged to
 the console until you exit the `monitor command (Ctrl-C). `
-
-[back to top](#top)
