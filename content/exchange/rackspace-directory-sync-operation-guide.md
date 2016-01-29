@@ -1,11 +1,11 @@
 ---
 node_id: 4050
-title: Rackspace Directory Sync Operation Guide
+title: 'Rackspace Directory Sync Operation Guide'
 type: article
 created_date: '2014-04-29'
 created_by: Aaron Medrano
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-01-29'
+last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -15,8 +15,7 @@ Directory to synchronize by using Rackspace Directory Sync and Rackspace
 Hosted Email. It provides instructions for creating new email addresses,
 distribution lists, and contacts for Hosted Exchange.
 
-Add a new mailbox
------------------
+### Add a new mailbox
 
 If the email address does not exist in the control panel, a new mailbox
 will be created during the next synchronization.
@@ -34,8 +33,7 @@ Directory Sync creates a mailbox for the user and synchronize the user's
 password. If this is a first-time setup, the password must be changed to
 ensure that the password is synchronized.
 
-Create a mailbox for an existing user
--------------------------------------
+### Create a mailbox for an existing user
 
 If the email address exists in the control panel, the Active Directory
 user synchronizes to the existing mailbox.
@@ -49,12 +47,11 @@ group.
     (`mail`<span> </span>attribute) matches the email address.
 2.  Add the User object to the email security group.
 
-**D**irectory Sync creates a mailbox for the user and synchronize the
+Directory Sync creates a mailbox for the user and synchronizes the
 user's password. If this is a first-time setup, the password must be
 changed to ensure that the password is synchronized.
 
-Remove a user mailbox
----------------------
+### Remove a user mailbox
 
 1.  Remove the user from the email security group.
     **Note**: Directory Sync disables the user&rsquo;s mailbox.
@@ -62,15 +59,15 @@ Remove a user mailbox
 3.  Confirm that the mailbox is disabled.
 4.  Delete the mailbox.
 
-**Note**: <span>To prevent accidental deletions, </span>Directory Sync
+**Note:** To prevent accidental deletions, Directory Sync
 does not automatically delete mailboxes.
 
-Create a distribution list
---------------------------
+### Create a distribution list
 
 1.  Create a group within the Active Directory (or use an already
     existing group). This Active Directory group can be either a
     security group or a distribution list.
+
 2.  Set the group email address property
     (`mail`<span> </span>attribute).
     -   For new distribution lists, provide an email address before
@@ -86,34 +83,35 @@ Create a distribution list
     email address in step 2 before you subscribe the distribution group
     to the Hosted Exchange security group.
 
-**Note**: For memberships of the distribution list created in step 1 to
+**Note:** For memberships of the distribution list created in step 1 to
 synchronize as members of the distribution list in the control panel,
 the members must also be subscribed to either the Hosted Exchange group
 or the Hosted Email group specified in the Directory Sync settings.
 
-Delete a distribution list
---------------------------
+### Delete a distribution list
 
 To delete a distribution list, remove the Distribution List group from
 the Hosted Exchange security group specified in the Directory Sync
 settings.
 
-**Note**: After the next synchronization, the distribution list is
+**Note:** After the next synchronization, the distribution list is
 deleted from the Cloud Office Control Panel.
 
-Create a contact (Exchange)
----------------------------
+### Create a contact (Exchange)
 
 1.  Create a Contact object within the Active Directory.
-    **Note**: When you are creating the contact, the Display Name within
+
+    **Note:** When you are creating the contact, the Display Name within
     the object will create the Display Name within the Cloud Office
     Control Panel for the contact.
+
 2.  After the Contact object is created, set the email address. The
     email address points to the external email address of the contact.
+
 3.  Subscribe the new contact to the Hosted Exchange group specified in
     the Directory Sync settings.
 
-**Note**: The `objectGUID` attribute of the contact is used as the
+**Note:** The `objectGUID` attribute of the contact is used as the
 username for the contact within the Cloud Office Control Panel. Active
 Directory automatically creates this and is how Directory Sync
 references the contact through our API.
@@ -122,28 +120,25 @@ Customers with multiple email domains must edit the `otherMailBox`
 attribute (of the Contact object) to contain the domain to synchronize.
 You only need to have the domain set within this attribute.
 
-Delete a contact (Exchange)
----------------------------
+### Delete a contact (Exchange)
 
 To delete a contact from Exchange, remove the contact from the Hosted
 Exchange security group specified in the Directory Sync settings.
 
-**Note**: After the next synchronization, the contact will be deleted
+**Note:** After the next synchronization, the contact will be deleted
 from the Cloud Office Control Panel.
 
-Change the external email address of a contact (Exchange)
----------------------------------------------------------
+### Change the external email address of a contact (Exchange)
 
 1.  Remove the contact from the Hosted Exchange security group set in
     the Directory Sync settings.
 2.  Allow the Directory Sync tool to synchronize the new changes. Either
-    a manual or an automatic operaton will synchronize the new changes.
+    a manual or an automatic operation can synchronize the new changes.
 3.  Change the email address of the contact.
 4.  Add the contact address to the Hosted Exchange security group
     and synchronize.
 
-Rename a Hosted Service security group
---------------------------------------
+### Rename a Hosted Service security group
 
 1.  On the Settings page, select **Do Not Sync** from the email service
     list and then click **Save & Start Sync**.
@@ -153,30 +148,29 @@ Rename a Hosted Service security group
 3.  Back on the Settings page, select the new group name from the list
     and then click **Save & Start Sync**.
 
-Add an alternate email address (optional synchronization)
----------------------------------------------------------
+### Add an alternate email address (optional synchronization)
 
-1.  Enable synchronization. (This is value is turned off by default).
-    a.  In the **\\Directory Sync Service\\web** directory, open the
+1.  Enable synchronization. This is value is turned off by default.
+
+    1.  In the **\\Directory Sync Service\\web** directory, open the
         **appSettings.config** file.
-    b.  Find the following config value:
+    2.  Find the following config value:
 
             <add key="SyncProxyAddresses" value="False" />
 
-    c.  Change the `value` attribute to `True` to enable synchronization
+    3.  Change the `value` attribute to `True` to enable synchronization
         of the proxy addresses. This setting will be persistent.
 
 2.  Open Active Directory Users and Computers.
-3.  Open the Attribute Editor of the User Object. (The **Advanced
+3.  Open the Attribute Editor of the User Object. The **Advanced
     Features** tab must be enabled in the **View** settings to display
-    this tab).
+    this tab.
 4.  Go to the **proxyAddresses** attribute and click **Edit**.
 5.  Add the alternate email address.
 
-**Note**: The alternate email addresses are formatted as
+**Note:** The alternate email addresses are formatted as
 **SMTP:userA@example.com**. For all alternate email addresses beginning
 with **SMTP:**, the full email address must be listed. Domain Aliases
-*cannot *be placed in this attribute. Only the Primary Domain and
+cannot be placed in this attribute. Only the Primary Domain and
 Accepted Domains can be listed in this attribute, because domain aliases
 are automatically created from the primary domain.
-
