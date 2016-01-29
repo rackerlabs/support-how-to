@@ -32,7 +32,4 @@ following media filename extensions:
 Files will stay in cache for a maximum of 15 minutes, depending on the
 device's resource availability.
 
-For information about bypassing the cache, see: [Disable caching on
-Cloud
-Sites?](/how-to/disable-caching-on-cloud-sites)
-
+For information about bypassing the cache, see: [Disable caching on Cloud Sites](/how-to/disable-caching-on-cloud-sites)
