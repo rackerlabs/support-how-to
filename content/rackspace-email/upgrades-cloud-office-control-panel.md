@@ -1,6 +1,6 @@
 ---
 node_id: 3994
-title: Upgrades - Cloud Office Control Panel
+title: Upgrades in the Cloud Office Control Panel
 type: article
 created_date: '2014-04-02'
 created_by: Mawutor Amesawu
@@ -10,17 +10,9 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-You can use the Cloud Office Control Panel to upgrade any Cloud Office
-service such as mailboxes, storage, and domains.
+You can use the Cloud Office Control Panel to upgrade any Cloud Office service such as mailboxes, storage, and domains.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SnapCrab_NoName_2014-3-26_13-14-52_No-00.png" width="250" height="104" />
+The following articles provide instructions for upgrading your Email Hosting and SharePoint applications:
 
-The following articles provide instructions for upgrading your Email
-Hosting and SharePoint applications:
-
--   [Upgrade Email
-    Hosting](/how-to/upgrade-email-hosting-cloud-office-control-panel)
--   [Upgrade
-    SharePoint](/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel)
-
-
+-   [Upgrade email hosting in the Cloud Office Control Panel](/how-to/upgrade-email-hosting-cloud-office-control-panel)
+-   [Upgrade SharePoint site storage in the Cloud Office Control Panel](/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel)
