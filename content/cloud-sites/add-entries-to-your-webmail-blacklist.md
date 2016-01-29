@@ -18,7 +18,7 @@ your blacklist are blocked and are not delivered to your mailbox. To
 manage your blacklist, perform the following steps:
 
 1. In the upper-right corner of the webmail window, click the
-    **Settings** link.
+   **Settings** link.
     
 2. In the left pane, click **Spam Settings**.  
 
@@ -27,10 +27,10 @@ manage your blacklist, perform the following steps:
    ![Blacklist section](http://www.rackspace.com/apps/support/media/wm_addblacklist_001.gif)
     
 4. To add a domain or email address to the list of domains and email
-    addresses that are blacklisted, perform the following steps.  
+   addresses that are blacklisted, perform the following steps.  
 
   1. Under the **Blacklisted Domains & Email Addresses** box, click
-      **Add**.  
+     **Add**.  
        
   2. Enter a domain or email address in the space provided.  
      You can use a percent sign (%) as a wildcard in the domain or
