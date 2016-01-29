@@ -55,14 +55,14 @@ same. You will need this information to set up the account.
 
 4. Click the **Set Up Account** button.
 
-5. Enter your email address (e.g., myname@mydomain.com).
+5. Enter your email address (for example, myname@example.com).
 
 6. Enter and confirm password.
 
 7. Click the **Next** button.
 
 8. Click the **I will provide the settings to add this email account**
-option button.
+   option button.
 
 9. Click the **Next** button.
 
@@ -71,35 +71,27 @@ option button.
 11. Click the **Next** button.
 
 12. Click the **I can access my email account using a Web Browser
-(Outlook&reg; Web Access)** option button.
+    (Outlook&reg; Web Access)** option button.
 
 13. Enter the following information in the fields provided:
 
-
 -   Outlook Web Access URL&mdash;From the **Setting Up Entourage 2008**
-    window, enter the **EWS Server** without "/ews/exchange.asmx."
-
+    window, enter the **EWS Server** without **/ews/exchange.asmx**.
 
 -   User name&mdash;Enter the **Domain Name** followed by a backslash and the
-    **Account ID** (e.g., mex03b.mlsrvr.com\\myname\_mydomain.com).
+    **Account ID** (for example, mex03b.mlsrvr.com\\myname\_example.com).
 
-
--   *Note: The **Account ID** is not your email address.*
-
+    **Note:** The **Account ID** is not your email address.
 
 -   Password&mdash;Enter the password associated with your email account.
 
-
 -   Email Address&mdash;Enter your entire email address, using all lowercase
-    letters (e.g., myname@mydomain.com).
-
+    letters (for example, myname@example.com).
 
 -   Mailbox name&mdash;Enter your entire email address, using all lowercase
-    letters (e.g., myname@mydomain.com).
-
-
+    letters (for example, myname@example.com).
 
 14. Click the **Next** button.
 
-Once complete, you will see your email address on the main screen. You
-should begin receiving new messages in approx 20 min.
+After setup is complete, you will see your email address on the main screen.
+You should begin receiving new messages in approximately 20 minutes.
