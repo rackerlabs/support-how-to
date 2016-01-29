@@ -1,6 +1,6 @@
 ---
 node_id: 4156
-title: Using OnMetal Cloud Servers through API
+title: OnMetal Cloud Servers through API
 type: article
 created_date: '2014-07-24'
 created_by: Russell Haering
@@ -14,26 +14,16 @@ OnMetal Cloud Servers enables you to boot bare metal servers via the
 Rackspace Cloud Servers API. Use the following steps to set up an
 OnMetal server through the API:
 
--   [API Client Setup](#apiClientSetup)
--   [Uploading an SSH key](#uploadKey)
--   [Boot your server](#bootServer)
--   [Logging in or deleting a server](#loginDelete)
--   [Using OnMetal](#usingOnMetal)
-
-
-    ----
-
 **Note:** For the parallel steps in the Cloud Control Panel, see [Create
 OnMetal Cloud
 Servers](/how-to/create-onmetal-cloud-servers).
 
-Set up the API client
----------------------
+### Set up the API client
 
 If you will be creating your OnMetal server through the API and do not
 yet have an OpenStack Nova API client set up, you must do so.
 
-1.  Install [supernova](http://supernova.readthedocs.org/en/latest/)and
+1.  Install [supernova](http://supernova.readthedocs.org/en/latest/) and
     rackspace-novaclient via [pip](https://pip.pypa.io/en/latest/):
 
             pip install supernova rackspace-novaclient
@@ -71,8 +61,7 @@ For information about generating SSH Keys, see [Manage SSH Key Pairs for
 Cloud Servers with
 python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
-Upload an SSH key pair
-----------------------
+### Upload an SSH key pair
 
 OnMetal servers do not support password-based login, so you must upload
 an SSH key pair.
@@ -87,13 +76,12 @@ For information on generating SSH Keys, see [Manage SSH Key Pairs for
 Cloud Servers with
 python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
-Boot your server
---------------------
+### Boot your server
 
 To boot your OnMetal server, choose an image (operating system) and a
 flavor (server size).
 
-### Supported Images
+#### Supported Images
 
 -   OnMetal - CentOS 7
 -   OnMetal - CentOS 6.5
@@ -195,8 +183,7 @@ becomes `ACTIVE`, the server boots for the first time. The server will
 not be reachable, however, until the network configuration is complete,
 which may take another few minutes.
 
-Log in to the server
-------------------------
+### Log in to the server
 
 After the server has booted, use the SSH key pair that you specified to
 log in to the server:
@@ -205,8 +192,7 @@ log in to the server:
 
     ssh root@<publicIPaddress>
 
-Delete the server
------------------
+### Delete the server
 
 If needed, you can also deleteor cancel the server.
 
@@ -231,11 +217,9 @@ If needed, you can also deleteor cancel the server.
 server deletions take longer than virtual server deletions, usually a
 few minutes.
 
-Using OnMetal
------------------
+### Using OnMetal
 
 The flash cards included with the OnMetal I/O flavor are unformatted.
 You can format them however you like. For more information, see
 [Configure flash drives in High I/O instances as Data
 drives](/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).
-
