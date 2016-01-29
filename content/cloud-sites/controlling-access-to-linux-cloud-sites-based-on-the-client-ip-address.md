@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-With updates being made to the Cloud Sites infrastucture, some users
+With updates being made to the Cloud Sites infrastructure, some users
 will need to update their rules to comply with Apache 2.4 .htaccess
 rules for blocking and/or allowing IP addresses to specific sites. The
 changes made from Apache 2.2 to Apache 2.4 allow a much simpler method
@@ -20,15 +20,15 @@ PHP 5.6 offering, as the PHP 5.3/5.4 offering still uses the legacy
 rules, archived at the bottom of this article, and will be phased out
 entirely as PHP 5.3/5.4 is removed from use.
 
-**Note:** The mod\_access\_compat Apache module is loaded in the Cloud Sites
+**Note:** The mod_access_compat Apache module is loaded in the Cloud Sites
 environment to allow the previously standard Allow/Deny directives
 without requiring SetEnvIf. This method, however, is deprecated and is
 discouraged as any future Apache updates could make the rules
 unusable.
 
 To block a specific IP on a given site, the .htaccess file needs to use
-Require not IP &lt;IP or range&gt;, within a RequireAll directive, so
-that the rules can verify. Failure to use a Require directive will
+Require not IP `<IP or range>`, within a `RequireAll` directive, so
+that the rules can verify. Failure to use a `Require` directive will
 results in an Internal Server Error.
 
     <RequireAll>
@@ -40,15 +40,13 @@ results in an Internal Server Error.
     </RequireAll>
 
 To allow only a specific IP on a given site, the .htaccess file needs to
-use Require IP &lt;IP or range&gt;, but does not require a directive.
+use Require IP `<IP or range>`, but does not require a directive.
 You can also place a simple 403 error message for visitors not meeting
 the requirements.
 
     Require ip 127.0.0.1
     Require ip 10.5.55.123
     ErrorDocument 403 "This site can only be accessed within the company network"
-
-
 
 For further reading on more specific rules for blocking or allowing
 access by IP or host, please view the Apache 2.4 documentation for
@@ -67,58 +65,51 @@ limiting access on an IP address level through .htaccess becomes
 problematic. To work around that, we provide an environment variable
 called **X-Cluster-Client-Ip** that contains the visitor's IP address.
 
-In the .htaccess file containing your rules, make the appropriate change
+In the `.htaccess` file containing your rules, make the appropriate change
 from the list below based on your requirements.
 
-#### <span class="mw-headline">Allowing only a certain IP/IP Addresses:</span>
+-  Allowing only a certain IP/IP Addresses:
 
-    order deny,allow
-    deny from all
-    allow from env=allowclient
-    SetEnvIf X-Cluster-Client-Ip 000.000.000.000 allowclient
+       order deny,allow
+       deny from all
+       allow from env=allowclient
+       SetEnvIf X-Cluster-Client-Ip 000.000.000.000 allowclient
 
-####  <span class="mw-headline">Allowing only a certain IP/IP Addresses when your site is using SSL:</span>
+-  Allowing only a certain IP/IP Addresses when your site is using SSL:
 
-order deny,allow
-deny from all
-allow from 000.000.000.000
+       order deny,allow
+       deny from all
+       allow from 000.000.000.000
 
-
-
-Replace **000.000.000.000** with your IP address. This will only allow
+  Replace **000.000.000.000** with your IP address. This will only allow
 your IP address to access your site, and is a great way to develop your
 site without the risk of someone reaching it before it's ready.
-**You can repeat line 1 to allow multiple IPs.**
 
+  **You can repeat line 1 to allow multiple IPs.**
 
+-  Denying an IP/Multiple IP addresses:
 
-#### <span class="mw-headline">Denying an IP/Multiple IP addresses:</span>
+       Order Allow,Deny
+       Deny from env=DenyAccess
+       Allow from all
+       SetEnvIf X-Cluster-Client-Ip "^000.000.000.000" DenyAccess
 
-    Order Allow,Deny
-    Deny from env=DenyAccess
-    Allow from all
-    SetEnvIf X-Cluster-Client-Ip "^000\.000\.000\.000" DenyAccess
+-  Denying an IP/Multiple IP addresses when your site is using SSL:
 
+       Order Allow,Deny
+       Deny from env=DenyAccess
+       Allow from all
+       SetEnvIf X-FORWARDED-FOR "^000.000.000.000" DenyAccess
 
+  Replace **000\\.000\\.000\\.000** with the IP address you want to deny. This will deny the IP address specified/multiple IP addresses (If you use multiple lines, as specified below).
 
-#### <span class="mw-headline">Denying an IP/Multiple IP addresses when your site is using SSL:</span>
-
-    Order Allow,Deny
-    Deny from env=DenyAccess
-    Allow from all
-    SetEnvIf X-FORWARDED-FOR "^000\.000\.000\.000" DenyAccess
-
-Replace **000\\.000\\.000\\.000** with the IP address you want to deny.
-This will deny the IP address specified/multiple IP addresses (If you
-use multiple lines, as specified below).
-**You can repeat line 1 to deny multiple IP addresses.**
+  **You can repeat line 1 to deny multiple IP addresses.**
 
 **Note:** Implementing this code may prevent images from
 loading on your cloud site. To address this you can add the following
-code do your .htaccess file:
+code do your **.htaccess** file:
 
-    <FilesMatch "\.(gif|jpe?p|png)$">
+    <FilesMatch ".(gif|jpe?p|png)$">
     order deny,allow
     allow from env=allowclient
     </FilesMatch>
-
