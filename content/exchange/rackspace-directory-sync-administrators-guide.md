@@ -63,8 +63,9 @@ Directory Sync supports the following Active Directory platforms:
 
 -   Does not synchronize with Hosted Exchange 2007
 -   Existing mail data does not migrate with Directory Sync to our
-    hosted environment. If you wish to migrate your data, we offer
-    several migrations for you. Check out our[Email migration
+    hosted environment. 
+    We offer several methods you can use to migrate your own data,
+    as described at [Email migration
     services](/how-to/email-migration-services) article.
 -   Synchronizes user passwords at the moment a password is changed.
     Passwords cannot be synchronized retroactively because they are
