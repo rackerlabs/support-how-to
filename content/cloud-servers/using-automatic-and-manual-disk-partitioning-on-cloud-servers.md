@@ -1,6 +1,6 @@
 ---
 node_id: 3610
-title: Using Automatic and Manual Disk Partitioning on Cloud Servers
+title: Automatic and manual disk partitioning on Cloud Servers
 type: article
 created_date: '2013-07-09'
 created_by: Trey Hoehne
@@ -335,4 +335,3 @@ argument is the partition number, and the last two arguments are the
 beginning and end of the new partition, in megabytes.
 
     resize 3 20480 30720
-
