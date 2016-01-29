@@ -94,20 +94,20 @@ how much access others have to that folder.
    then click **Add**  again.
 
 4. Select the permission type that will work best for the user.
-                                                                                                                                                            |
-    |-------------------|-----------------------------------------------------|
-    | **Permission**    | **Description**                                     |
-    |-------------------|-----------------------------------------------------|                                                                                                                      | Owner             | Create, read, modify, and delete all items and files, and create subfolders. Folder owners can change the permission levels that other people have for the folder. |
-    | Publishing Editor | Create, read, modify, and delete all items and files, and create subfolders.                                                                                       |
-    | Editor            | Create, read, modify, and delete all items and files.                                                                                                              |
-    | Publishing Author | Create and read items and files, create subfolders, and modify and delete items and files that you create.                                                         |
-    | Author            | Create and read items and files, and modify and delete items and files that you create.                                                                            |
-    | Nonediting Author | Create and read items and files, and delete items and files that you create.                                                                                       |
-    | Contributor       | Create items and files only.                                                                                                                                       |
-    | Reviewer          | Read items and files only.                                                                                                                                         |
-    | Custom            | Perform activities defined by the folder owner.                                                                                                                    |
-    | None              | You have no permission. You cannot open the folder.                                                                                                           |
 
+| Role              | Permission                                                                                                                                   |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Owner             | Create, read, modify, and delete all items and files. Create subfolders. Change the permission levels that other people have for the folder. |
+| Publishing Editor | Create, read, modify, and delete all items and files. Create subfolders.                                                                     |
+| Editor            | Create, read, modify, and delete all items and files.                                                                                        |
+| Publishing Author | Create and read items and files. Create subfolders. Modify and delete items and files that you create.                                       |
+| Author            | Create and read items and files. Modify and delete items and files that you create.                                                          |
+| Nonediting Author | Create and read items and files. Delete items and files that you create.                                                                     |
+| Contributor       | Create items and files only.                                                                                                                 |
+| Reviewer          | Read items and files only.                                                                                                                   |
+| Custom            | Perform activities defined by the folder owner.                                                                                              |
+| None              | You have no permission. You cannot open the folder.                                                                                          |
+                                                                                                                                                       
 
 **Note:** You might see a several groups on the **Permissions** tab.
 That is normal. It is important to leave these groups intact so that we
