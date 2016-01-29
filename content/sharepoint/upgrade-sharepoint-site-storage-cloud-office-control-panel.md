@@ -1,6 +1,6 @@
 ---
 node_id: 4003
-title: Upgrade SharePoint site storagein the Cloud Office Control Panel
+title: Upgrade SharePoint site storage in the Cloud Office Control Panel
 type: article
 created_date: '2014-04-10'
 created_by: Mawutor Amesawu
