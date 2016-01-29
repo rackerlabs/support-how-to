@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-The Rackspace Cloud provisions IIS sites in &ldquo;Integrated Mode.&rdquo; Running
+The Rackspace Cloud provisions IIS sites in "Integrated Mode". Running
 sites in Integrated Mode enhances application performance. However, if
 you encounter an issue with your ASP.NET site, please review the
 following potential errors.
@@ -20,35 +20,35 @@ a member of our support team and they can assist in moving your site to
 a Classic App Pool.
 
 ASP.NET applications require migration when specifying configuration in
-&lt;httpModules&gt; or &lt;httpHandlers&gt;.
+<httpModules> or <httpHandlers>.
 
 You will receive a 500 - Internal Server Error. This can include HTTP
 Error 500.22, and HTTP Error 500.23: An ASP.NET setting has been
 detected that does not apply in Integrated managed pipeline mode.
 
 It occurs because ASP.NET modules and handlers should be specified in
-the IIS &lt;handlers&gt; and &lt;modules&gt; configuration sections in
+the IIS <handlers> and <modules> configuration sections in
 Integrated Mode.
 
 You can migrate by moving the custom entries in the
-&lt;system.web&gt;/&lt;httpModules&gt; and
-&lt;system.web&gt;/&lt;httpHandlers&gt; configuration manually to the
-&lt;system.webServer&gt;/&lt;handlers&gt; and
-&lt;system.webServer&gt;/&lt;modules&gt; configuration sections, and
-either removing the &lt;httpHandlers&gt; and &lt;httpModules&gt;
-configuration OR adding the following to your application&rsquo;s web.config:
+<system.web>/<httpModules> and
+<system.web>/<httpHandlers> configuration manually to the
+<system.webServer>/<handlers> and
+<system.webServer>/<modules> configuration sections, and
+either removing the <httpHandlers> and <httpModules>
+configuration OR adding the following to your application's web.config:
 
-&lt;system.webServer&gt;
+<system.webServer>
 
       <validation validateIntegratedModeConfiguration="false" />
 
-&lt;/system.webServer&gt;
+</system.webServer>
 
 
-Request URLs containing unencoded &ldquo;+&rdquo; characters in the path (not
+Request URLs containing unencoded "+" characters in the path (not
 querystring) is rejected by default.
 
-You will receive HTTP Error 404.11 &ndash; Not Found: The request filtering
+You will receive HTTP Error 404.11 - Not Found: The request filtering
 module is configured to deny a request that contains a double escape
 sequence.
 
@@ -56,25 +56,25 @@ This error occurs because IIS is by default configured to reject
 attempts to doubly-encode a URL, which commonly represent an attempt to
 execute a canonicalization attack.
 
-Applications that require the use of the &ldquo;+&rdquo; character in the URL path
+Applications that require the use of the "+" character in the URL path
 can disable this validation by setting the allowDoubleEscaping attribute
 in the system.webServer/security/requestFiltering configuration section
-in the application&rsquo;s web.config. However, this may make your application
+in the application's web.config. However, this may make your application
 more vulnerable to malicious URLs:
 
-&lt;system.webServer&gt;
+<system.webServer>
 
       <security>
               <requestFiltering allowDoubleEscaping="true" />
       </security>
 
-&lt;/system.webServer&gt;
+</system.webServer>
 
 
 Requests with querystrings larger then 2048 bytes will be rejected by
 default.
 
-You will receive an HTTP Error 404.15 &ndash; Not Found: The request filtering
+You will receive an HTTP Error 404.15 - Not Found: The request filtering
 module is configured to deny a request where the query string is too
 long.
 
@@ -88,9 +88,9 @@ NOTE: This breaking change applies to both Classic and Integrated modes.
 Increase the maximum querystring size by setting the maxQueryString
 attribute on the requestLimits element in the
 system.webServer/security/requestFiltering configuration section in your
-application&rsquo;s web.config:
+application's web.config:
 
-&lt;system.webServer&gt;
+<system.webServer>
 
       <security>
           <requestFiltering>
@@ -98,7 +98,7 @@ application&rsquo;s web.config:
           </requestFiltering>
       </security>
 
-&lt;/system.webServer&gt;
+</system.webServer>
 
 
 DefaultHttpHandler is not supported. Applications relying on sub-classes
@@ -116,6 +116,6 @@ all requests, instead of using wildcard mapping to map ASP.NET to all
 requests and then using DefaultHttpHandler derived handlers to pass the
 request back to IIS.
 
-Source:
-<http://mvolo.com/blogs/serverside/archive/2007/12/08/IIS-7.0-Breaking-Changes-ASP.NET-2.0-applications-Integrated-mode.aspx>
+### Additional resources
 
+<http://mvolo.com/blogs/serverside/archive/2007/12/08/IIS-7.0-Breaking-Changes-ASP.NET-2.0-applications-Integrated-mode.aspx>
