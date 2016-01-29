@@ -20,12 +20,12 @@ this article to successfully migrate to Exchange 2013.
 We do not anticipate any issues with the migration; however, if you have
 any mission critical data, we highly recommend that you back up that
 data prior to the migration. You can back up your data by performing a
-PST export using Outlook.  It is important to note that any corrupt data
+PST export using Outlook. It is important to note that any corrupt data
 will not move.
 
 #### Autodiscover
 
-It is important to setup your Autodiscover DNS record for Exchange 2013.
+It is important to set up your Autodiscover DNS record for Exchange 2013.
 Features such as Automatic Outlook Configuration, Free/Busy Time, Out of
 Office, and Public Folders will function only if this record is in
 place.
@@ -109,7 +109,7 @@ Your users can download the Rackspace Auto Configuration Tool to make
 setup very easy. The tool only requires the user's email address and
 password to automatically configure Outlook for Rackspace Exchange.
 
-Download the download the Rackspace Auto Configuration Tool from     <ftp://connect.emailsrvr.com/OutlookProfileConfigTool.exe>.
+Download the Rackspace Auto Configuration Tool from     <ftp://connect.emailsrvr.com/OutlookProfileConfigTool.exe>.
 
 ### Frequently asked questions
 
