@@ -15,7 +15,7 @@ without starting a ticket or coordinating with Rackspace Support and
 Account Management. Use the following steps to accomplish this task
 through your control panel.
 
-**Note:**: This transfer is purely administrative; performing the
+**Note:** This transfer is purely administrative; performing the
 transfer does not affect existing mail data or mail delivery.
 
 ### Initiate a domain transfer
