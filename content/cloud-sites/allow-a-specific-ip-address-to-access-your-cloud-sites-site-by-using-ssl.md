@@ -20,10 +20,10 @@ address. This means that limiting access by IP address through
 provide an environment variable called **HTTP:X-Forwarded-For** that
 includes the visitor's IP address.
 
-In the .htaccess file that contains your rules, insert the following
+In the **.htaccess** file that contains your rules, insert the following
 code.
 
-#### Allow only a certain IP address
+### Allow only a certain IP address
 
     RewriteEngine On
     RewriteCond %{HTTP:X-Forwarded-For} 000\.000\.000\.000
@@ -41,4 +41,3 @@ your **.htaccess** file:
     order deny,allow
     allow from env=allowclient
     </FilesMatch>
-

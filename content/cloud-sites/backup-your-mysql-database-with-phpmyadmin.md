@@ -14,35 +14,32 @@ product_url: cloud-sites
 
 ### Backing Up Your MySQL Database
 
-1. Login to the online
-   manager (phpMyAdmin)](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
+1. Log in to the [online manager (phpMyAdmin)](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
 
-2. To view information, click on a database or table in the left frame 
+2. To view information, click on a database or table in the left frame
    as shown in the following figure:
 
-   <img src="http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-dbs.png" alt="phpMyAdmin Databases" width="312" height="147" />
+   ![](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-dbs.png)
 
 3. To export the database to a backup file, click **Export**:
 
-   ![phpMyAdmin Export
-   tab](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-export.png)
-    
+   ![phpMyAdmin Export tab](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-export.png)
+
 4. To save the backup file to your system, click **Save as
-   file**. 
-    
-   When you save the file, you can change the name of the backup file and the 
+   file**.
+
+   When you save the file, you can change the name of the backup file and the
    compression method, or use the defaults. Compression reduces the size of the backup file.
    The recommended compression method is *gzipped*:
 
-   <img src="http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-saveasfile.png" alt="phpMyAdmin Save As File" width="572" height="231" />
+   ![](http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-saveasfile.png)
 
-5. To start the backup process, click **Go**. 
+5. To start the backup process, click **Go**.
 
-6. When the backup process completes, follow the prompt to save the file to your desktop. 
+6. When the backup process completes, follow the prompt to save the file to your desktop.
 
 
 ### Finish Line
 
 You have just created a backup of your MySQL database. If you have any issues, questions or concerns,
 contact our technical support 24x7 via phone, chat, or by submitting a ticket through your control panel.
-

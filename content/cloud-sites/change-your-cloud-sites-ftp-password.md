@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking the **Cloud Control Panel** menu at the top of the window
 and selecting **Cloud Sites**.
@@ -44,9 +43,7 @@ Cloud Control Panel.
 
 1.  Log in to the Cloud Sites Control Panel at
     <https://manage.rackspacecloud.com>.
-2.  In the left navigation pane, click **Your Account &gt; Username &
+2.  In the left navigation pane, click **Your Account > Username &
     Contacts**.
 3.  In the **Your Username & Password** section, click **Change
     Password**.
-
-

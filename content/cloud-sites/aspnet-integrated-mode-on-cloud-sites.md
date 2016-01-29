@@ -8,7 +8,7 @@ last_modified_date: '2011-09-07'
 last_modified_by: Matt Wheeler
 product: Cloud Sites
 product_url: cloud-sites
---- 
+---
 
 The Rackspace Cloud provisions IIS sites in integrated mode. Running
 sites using this mode enhances application performance. However, if
@@ -42,11 +42,10 @@ configuration OR adding the following to the web.config for your application:
         <validation validateIntegratedModeConfiguration="false"/>
     </system.webServer>
 
-
-Request URLs containing unencoded &ldquo;+&rdquo; characters in the path (not
+Request URLs containing unencoded "+" characters in the path (not
 querystring) is rejected by default.
 
-You will receive HTTP Error 404.11 &ndash; Not Found: The request filtering
+You will receive HTTP Error 404.11 - Not Found: The request filtering
 module is configured to deny a request that contains a double escape
 sequence.
 
@@ -66,11 +65,10 @@ more vulnerable to malicious URLs:
        </security>
     </system.webServer>
 
-
 Requests with querystrings larger then 2048 bytes will be rejected by
 default.
 
-You will receive an HTTP Error 404.15 &ndash; Not Found: The request filtering
+You will receive an HTTP Error 404.15 - Not Found: The request filtering
 module is configured to deny a request where the query string is too
 long.
 
@@ -83,8 +81,8 @@ NOTE: This breaking change applies to both Classic and Integrated modes.
 
 Increase the maximum querystring size by setting the ``maxQueryString``
 attribute on the ``requestLimits`` element in the
-``system.webServer/security/requestFiltering`` configuration section of the 
-web.config file for your application: 
+``system.webServer/security/requestFiltering`` configuration section of the
+web.config file for your application:
 
     <system.webServer>
         <security>
@@ -93,7 +91,6 @@ web.config file for your application:
           </requestFiltering>
       </security>
     </system.webServer>
-
 
 ``DefaultHttpHandler`` is not supported. Applications relying on sub-classes
 of DefaultHttpHandler will not be able to serve requests.
@@ -110,6 +107,6 @@ all requests, instead of using wildcard mapping to map ASP.NET to all
 requests and then using DefaultHttpHandler derived handlers to pass the
 request back to IIS.
 
-Source:
-<http://mvolo.com/blogs/serverside/archive/2007/12/08/IIS-7.0-Breaking-Changes-ASP.NET-2.0-applications-Integrated-mode.aspx>
+### Additional resources
 
+<http://mvolo.com/blogs/serverside/archive/2007/12/08/IIS-7.0-Breaking-Changes-ASP.NET-2.0-applications-Integrated-mode.aspx>

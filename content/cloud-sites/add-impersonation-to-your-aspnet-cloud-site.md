@@ -21,7 +21,7 @@ If you are not sure what data center your site is deployed in, see
 [Rackspace data centers and
 regions](/how-to/rackspace-data-centers-and-regions).
 Use your Rackspace Cloud account username and password, where indicated
-by &lt;username&gt; and &lt;password&gt; in the following command.
+by <username> and <password> in the following command.
 
 For customers whose sites are deployed in our DFW data center, add the
 following lines to your **web.config** file:
@@ -41,7 +41,7 @@ following lines to your **web.config** file:
        </system.web>
     </configuration>
 
-**Note: **You *must* use the user name that is configured to be the
+**Note:** You *must* use the user name that is configured to be the
 primary FTP account for the cloud site that you are working with. If the
 site was created under your main account, the credentials are your main
 control panel login credentials. If the site was created under a client,
@@ -50,6 +50,4 @@ the **Security** tab for a cloud site to confirm the primary FTP
 account.
 
 After you make this change, you need to rebuild the application. For
-instructions, see [Rebuild an ASP.NET application in Cloud
-Sites](/how-to/rebuild-an-aspnet-application-in-cloud-sites).
-
+instructions, see [Rebuild an ASP.NET application in Cloud Sites](/how-to/rebuild-an-aspnet-application-in-cloud-sites).
