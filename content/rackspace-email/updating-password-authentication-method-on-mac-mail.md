@@ -1,6 +1,6 @@
 ---
 node_id: 3490
-title: Updating Password Authentication Method on Mac Mail
+title: Update the password authentication method for Mac Mail
 type: article
 created_date: '2013-05-29'
 created_by: Mawutor Amesawu
@@ -10,29 +10,23 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**Updating Password Authentication Method on Mac Mail**
+To ensure that the settings for Mac Mail are correctly configured, perform the following steps:
 
-To ensure Mac Mails's settings are properly configured:
+1. In Mac Mail, go to **Mail &gt; Preferences**.
 
-1\. In Mac Mail, go to "**Mail**" &gt; "**Preferences**..."
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_49.png" width="268" height="236" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_49.png" width="268" height="236" />
+2. Click the **Accounts** tab.  
+3. Under **Account Information**, click the drop-down button next to **Outgoing Mail Server** and select **Edit SMTP Server List**.
 
-2. Select the **Accounts** tab.  Under Account Information, click the
-drop-down next to Outgoing Mail Server and select "**Edit SMTP Server
-List...**"
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_46.png" width="549" height="572" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_46.png" width="549" height="572" />
+4. Click the **Advanced** tab.
 
-3. Select the **Advanced** tab.
+5. For **Authentication**, ensure **Password** is selected rather than **MD5 Challenge-Response**.
 
-4. Under the Authentication drop-down, ensure **Password** is selected
-rather than *MD5 Challenge-Respons*e.
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3_44.png" width="551" height="570" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3_44.png" width="551" height="570" />
+6. Click **OK** to close the SMTP window, and then click **OK** again to close Preferences.
 
-5. Click **OK** to close the SMTP window, then **OK** again to close
-Preferences.
-
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_37.png" width="552" height="568" />
-
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_37.png" width="552" height="568" />
