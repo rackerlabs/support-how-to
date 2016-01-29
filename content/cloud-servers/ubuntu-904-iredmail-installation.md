@@ -242,8 +242,8 @@ to refresh the repository list:
 
 The moment has come! To start the installation type the following:
 
-    # cd ~/iRedMail-0.6.0     (Note that the directory name may differ between versions)
-    # bash iRedMail.sh
+     cd ~/iRedMail-0.6.0     (Note that the directory name may differ between versions)
+     bash iRedMail.sh
 
 1.  On the welcome screen, click **Yes** to continue.
 2.  You will be prompted for the home directory location for the
