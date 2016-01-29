@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-****NOTE:**** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
+**NOTE:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your Rackspace Cloud account username in the upper-left
 corner of the control panel and selecting **Cloud Sites**.
@@ -19,16 +18,13 @@ corner of the control panel and selecting **Cloud Sites**.
 This article will walk you through accessing your bandwidth and other
 Cloud Sites usage reports via the control panel.
 
-1.  Log in to [the Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com/Home.do).
-2.  Click on Your Account.
-3.  Click on Reports.
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/Home.do).
+2.  Click on **Your Account**.
+3.  Click on **Reports**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/classiccpreports.png" width="178" height="361" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/classiccpreports.png)
 
-4.  <span>Under Usage Data you will see information about bandwidth used
+4.  Under Usage Data you will see information about bandwidth used
     as well as the total amount of disk space you are using. Also
     available on that screen is a chart showing resource use
-    over time.</span>
-
-
+    over time.
