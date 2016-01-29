@@ -18,11 +18,12 @@ steps:
 If you are emailed an invoice, please follow the instructions in the
 email.
 
-1.  At the top of the page, click your account name and select **Billing & Payments**.
-2.  On the **Billing & Payments** tab, click **Unpaid Invoices**.
+1. At the top of the page, click your account name and select **Billing & Payments**.
+2. On the **Billing & Payments** tab, click **Unpaid Invoices**.
 
-  A list of invoices appears, showing the amount of each invoice and a brief description.
-3.  To view a detailed invoice, click the invoice number.
-4.  To pay the invoice, click **Pay** in the Action column.
-5.  If necessary, update the credit card information to process payment.
-6.  Make any necessary changes, and click **Pay Invoice** to pay your invoice.
+    A list of invoices appears, showing the amount of each invoice and a brief description.
+
+3. To view a detailed invoice, click the invoice number.
+4. To pay the invoice, click **Pay** in the Action column.
+5. If necessary, update the credit card information to process payment.
+6. Make any necessary changes, and click **Pay Invoice** to pay your invoice.
