@@ -17,10 +17,10 @@ emails sent from your machine are correct. An accurate clock is
 especially helpful when you need to look at the logs from a particular
 time of day.
 
-<span style="line-height: 1.538em;">If you don't occasionally set the
+If you don't occasionally set the
 system clock yourself, the time will slowly drift away from a perfectly
 accurate setting. That's when the network time protocol (NTP) is
-useful.</span>
+useful.
 
 ### What is NTP?
 
@@ -83,8 +83,6 @@ running:
 
     sudo ln &ndash;s /etc/init.d/ntpd /etc/runlevels/default
 
-<div>
-
 ### Start the service
 
 To make sure the NTP service starts after installing it, run:
@@ -111,8 +109,6 @@ or
     restart
 
 sent as the argument instead of start.
-
-</div>
 
 ### Quickstart
 
@@ -158,8 +154,7 @@ configuration requires changes to the server settings in the ntp.conf
 files on each machine.
 
 Set up any external servers you want to use on the master machine. For
-example, if you want to use the NTP pool servers ([more on that
-later](#poolservers)) you can set the server values in the master
+example, if you want to use the NTP pool servers you can set the server values in the master
 ntp.conf file to:
 
     server 0.pool.ntp.org iburst
@@ -351,5 +346,4 @@ For more details on setting up an NTP server and what options are
 available, visit the [NTP documentation
 site](http://support.ntp.org/bin/view/Support/WebHome). If you want to
 know more about how NTP works, go to the main [NTP web
-site](%22http://www.ntp.org/) and all will be revealed.
-
+site](http://www.ntp.org/) and all will be revealed.
