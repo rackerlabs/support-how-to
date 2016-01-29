@@ -1,6 +1,6 @@
 ---
 node_id: 1484
-title: Using python-novaclient with the Rackspace Cloud
+title: Python-novaclient and the Rackspace Cloud
 type: article
 created_date: '2012-07-23'
 created_by: Jered Heeschen
@@ -28,5 +28,3 @@ client here:
 
 -   [Useful python-novaclient
     commands](/how-to/useful-python-novaclient-commands)
-
-
