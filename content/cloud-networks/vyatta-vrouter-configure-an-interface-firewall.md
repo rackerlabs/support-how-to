@@ -7,7 +7,7 @@ created_by: Sameer Satyam
 last_modified_date: '2016-01-14'
 last_modified_by: Rose Coste
 product: Cloud Networks
-product_url: cloud-servers
+product_url: cloud-networks
 ---
 
 Brocade Vyatta vRouter can be configured for two methods of firewall
