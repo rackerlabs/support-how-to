@@ -60,7 +60,7 @@ To install the locale information type the following:
 Next we will make sure that our server is update to date software-wise.
 To do this we will run an Aptitude update:
 
-     sudo aptitude update
+    sudo aptitude update
     sudo aptitude upgrade
 
 ### Set the host name
