@@ -14,7 +14,7 @@ product_url: cloud-sites
 for Cloud Sites. It is provided for legacy support only.
 
 You can access a mobile version of the webmail client by going to
-[mail.emailsrvr.com/mobile](http://mail.emailsrvr.com/mobile "http://mail.emailsrvr.com/mobile").
+[mail.emailsrvr.com/mobile](http://mail.emailsrvr.com/mobile).
 
 You can also substitute your domain for **emailsrvr.com** when pointing
 to our name servers or if you have the appropriate CNAME records set up
