@@ -14,10 +14,3 @@ If you do not have a VAT ID number, or choose not to supply one,
 Rackspace will apply the appropriate tax handling to your invoice. It is
 in your best interest to supply your VAT ID number because the tax
 handling for a registered entity is beneficial in most circumstances.
-
-<div class="printfooter">
-
-
-
-</div>
-
