@@ -10,21 +10,10 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Rackspace gives our users the flexibility to set their own Spam
-preferences to their liking. This includes editing and managing
-domain-wide spam settings, Safe list, Black List and the ability to
-override the spam filtering for the entire domain. Let's take a look at
-how to manage this:
-
--   [Managing Domain Spam Settings](#ManageDomain)
-
-<!-- -->
-
--   [Managing Safe List](#SafeList)
-
-<!-- -->
-
--   [Managing Black List](#Blacklist)
+Rackspace gives users the flexibility to set their own spam
+preferences. This includes editing and managing
+domain-wide spam settings, Safe list, Black List, and the ability to
+override the spam filtering for the entire domain. 
 
 ### Manage Domain Spam Settings
 
