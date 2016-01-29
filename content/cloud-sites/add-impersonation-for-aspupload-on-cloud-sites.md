@@ -37,13 +37,13 @@ it.
 
 
 
-Create another file called UploadScript1.asp and save the following text
-below in it.
+Create another file called UploadScript1.asp. Then, copy the the following text
+into the file.
 
 
 
--   Please note that **domain** is the data center your website is
-    located at. It will either be **DFW**, or **ORD**.
+**Note:** The **domain** is the data center your website is
+located at. It will either be **DFW**, or **ORD**.
 
 <!-- -->
 
@@ -63,11 +63,10 @@ below in it.
     </BODY>
     </HTML>
 
-Now, just browse to your url <code>www.mydomain.com/uploads.asp</code> and you are
-ready to upload files.
+You can browse to your url <code>www.mydomain.com/uploads.asp</code> to upload the files. 
+
 
 Here's a working example of the above scripts, hosted on Cloud Sites.
 
-For more information, please visit <http://www.aspupload.com/> for more
-examples and the manual.
+For more examples and documentation, see the [AspUpload website](http://www.aspupload.com/).
 
