@@ -1,3 +1,15 @@
+---
+node_id: 4528
+title: Sharing images in the Cloud Control Panel
+type: article
+created_date: '2015-01-29'
+created_by: Cloud Images
+last_modified_date: '2015-03-17'
+last_modified_by: Kyle Laffoon
+product: Cloud Images
+product_url: cloud-images
+---
+
 This article provides some general information about sharing server
 images and provides details about how image sharing works in the Cloud
 Control Panel.
