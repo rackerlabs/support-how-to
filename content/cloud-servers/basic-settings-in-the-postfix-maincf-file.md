@@ -217,4 +217,4 @@ domain. Check the headers to verify that they are correct.
 Configuring Postfix can be a daunting task. This introduction helps with
 the basics and shows how using variables instead of hard coding domain
 names can save time and effort in any future
-administration. For more information on using Postfix, see [Creating DNS records and receiving emails via PostFix](/how-to/creating-dns-records-and-receiving-emails-via-postfix).
+administration. 
