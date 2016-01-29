@@ -55,7 +55,7 @@ be safe to change the authoritative DNS servers for your domain to your
 server's DNS servers:
 
     dns1.stabletransit.com
-        dns2.stabletransit.com
+    dns2.stabletransit.com
 
 You can set the authoritative DNS servers through your domain's
 registrar via their preferred method (with their own web-based tool or
