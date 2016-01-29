@@ -1,6 +1,6 @@
 ---
 node_id: 518
-title: ASP/.NET Integrated Mode on Cloud Sites
+title: ASP/.NET integrated mode on Cloud Sites
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
@@ -8,41 +8,39 @@ last_modified_date: '2011-09-07'
 last_modified_by: Matt Wheeler
 product: Cloud Sites
 product_url: cloud-sites
----
+--- 
 
-The Rackspace Cloud provisions IIS sites in &ldquo;Integrated Mode.&rdquo; Running
-sites in Integrated Mode enhances application performance. However, if
+The Rackspace Cloud provisions IIS sites in integrated mode. Running
+sites using this mode enhances application performance. However, if
 you encounter an issue with your ASP.NET site, please review the
 following potential errors.
 
-If these potential solutions fail to correct the problem, please contact
+If these potential solutions fail to correct the problem, contact
 a member of our support team and they can assist in moving your site to
 a Classic App Pool.
 
 ASP.NET applications require migration when specifying configuration in
-&lt;httpModules&gt; or &lt;httpHandlers&gt;.
+the ``<httpModules>`` or ``<httpHandler>``.
 
-You will receive a 500 - Internal Server Error. This can include HTTP
+You will receive a ``500 - Internal Server Error. This can include HTTP
 Error 500.22, and HTTP Error 500.23: An ASP.NET setting has been
-detected that does not apply in Integrated managed pipeline mode.
+detected that does not apply in Integrated managed pipeline mode.``
 
-It occurs because ASP.NET modules and handlers should be specified in
-the IIS &lt;handlers&gt; and &lt;modules&gt; configuration sections in
+This occurs because ASP.NET modules and handlers should be specified in
+the IIS <handlers> and <modules> configuration sections in
 Integrated Mode.
 
 You can migrate by moving the custom entries in the
-&lt;system.web&gt;/&lt;httpModules&gt; and
-&lt;system.web&gt;/&lt;httpHandlers&gt; configuration manually to the
-&lt;system.webServer&gt;/&lt;handlers&gt; and
-&lt;system.webServer&gt;/&lt;modules&gt; configuration sections, and
-either removing the &lt;httpHandlers&gt; and &lt;httpModules&gt;
-configuration OR adding the following to your application&rsquo;s web.config:
+``<system.web>`` ``<httpModules>`` and
+``<system.web>`` ``<httpHandlers>`` configuration manually to the
+``<system.webServer>`` ``<handlers>`` and
+``<system.webServer>`` ``<modules>`` configuration sections, and
+either removing the ``<httpHandlers>`` and ``<httpModules>``
+configuration OR adding the following to the web.config for your application:
 
-&lt;system.webServer&gt;
-
-      <validation validateIntegratedModeConfiguration="false" />
-
-&lt;/system.webServer&gt;
+    <system.webServer>
+        <validation validateIntegratedModeConfiguration="false"/>
+    </system.webServer>
 
 
 Request URLs containing unencoded &ldquo;+&rdquo; characters in the path (not
@@ -56,19 +54,17 @@ This error occurs because IIS is by default configured to reject
 attempts to doubly-encode a URL, which commonly represent an attempt to
 execute a canonicalization attack.
 
-Applications that require the use of the &ldquo;+&rdquo; character in the URL path
-can disable this validation by setting the allowDoubleEscaping attribute
-in the system.webServer/security/requestFiltering configuration section
+Applications that require the use of the ``+`` character in the URL path
+can disable this validation by setting the ``allowDoubleEscaping``  attribute
+in the ``system.webServer/security/requestFiltering`` configuration section
 in the application&rsquo;s web.config. However, this may make your application
 more vulnerable to malicious URLs:
 
-&lt;system.webServer&gt;
-
-      <security>
-              <requestFiltering allowDoubleEscaping="true" />
-      </security>
-
-&lt;/system.webServer&gt;
+    <system.webServer>
+       <security>
+         <requestFiltering allowDoubleEscaping="true" />
+       </security>
+    </system.webServer>
 
 
 Requests with querystrings larger then 2048 bytes will be rejected by
@@ -85,23 +81,21 @@ that cumulatively exceed the configured limit on the querystring size.
 
 NOTE: This breaking change applies to both Classic and Integrated modes.
 
-Increase the maximum querystring size by setting the maxQueryString
-attribute on the requestLimits element in the
-system.webServer/security/requestFiltering configuration section in your
-application&rsquo;s web.config:
+Increase the maximum querystring size by setting the ``maxQueryString``
+attribute on the ``requestLimits`` element in the
+``system.webServer/security/requestFiltering`` configuration section of the 
+web.config file for your application: 
 
-&lt;system.webServer&gt;
-
-      <security>
+    <system.webServer>
+        <security>
           <requestFiltering>
               <requestLimits maxQueryString="NEW_VALUE_IN_BYTES" />
           </requestFiltering>
       </security>
+    </system.webServer>
 
-&lt;/system.webServer&gt;
 
-
-DefaultHttpHandler is not supported. Applications relying on sub-classes
+``DefaultHttpHandler`` is not supported. Applications relying on sub-classes
 of DefaultHttpHandler will not be able to serve requests.
 
 If your application uses DefaultHttpHandler or handlers that derive from
