@@ -24,8 +24,7 @@ servers with local system disks only. Resource allocation for servers
 that boot from Cloud Block Storage volumes can be changed by using the
 boot volume to create a new server.
 
-Increasing Available Storage
---------------------------------
+### Increasing Available Storage
 
 You can add to the available data storage space of your server by adding
 Cloud Block Storage volumes. Cloud Block Storage volumes come in two
@@ -34,8 +33,7 @@ more information about Cloud Block Storage, see [Create and Attach a
 Cloud Block Storage
 Volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
 
-Creating a new server with more resources
----------------------------------------------
+### Creating a new server with more resources
 
 You can migrate your data to a new server with a larger allocation
 of RAM, vCPUs, data disks, and network throughput if you require more
@@ -71,12 +69,10 @@ steps:
 4.  Copy the data from your data disk backup to your new data disk.
 5.  When you are satisfied with your new server, delete the old one.
 
- Additional Resources
----------------------
+### Additional Resources
 
 You can use Auto Scale to accomplish server resizing keeping your IP
 address, and have it happen dynamically in response to load. For
 details, see the Rackspace Auto Scale tip [How to use Auto Scale to
 change the size of your General Purpose or
 optimized servers](/how-to/rackspace-auto-scale-tips-and-how-tos).
-
