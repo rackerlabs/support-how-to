@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this
 interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking the **Cloud Control Panel** menu at the top of the window
 and selecting **Cloud Sites** from the menu.
@@ -26,9 +25,8 @@ Rackspace Cloud.
 
 ### To change the password for a database user
 
-1.  Log in to the [Cloud Sites Control
-    Panel](http://manage.rackspacecloud.com/pages/Login.jsp "http://manage.rackspacecloud.com/pages/Login.jsp").
-2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](http://manage.rackspacecloud.com/pages/Login.jsp "http://manage.rackspacecloud.com/pages/Login.jsp").
+2.  In the left navigation pane, click **Hosting > Cloud Sites**.
 3.  Click the name of the website that owns the database that you want
     to modify.
 4.  Click the **Features** tab.
@@ -57,5 +55,3 @@ Rackspace Cloud.
 
 11. Repeat these steps for each database user whose password you want
     to change.
-
-
