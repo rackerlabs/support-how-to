@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article is written for the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com). You can access this interface
+**Note:** This article is written for the [Cloud Sites Control Panel](https://manage.rackspacecloud.com). You can access this interface
 from the [Cloud Control Panel](https://mycloud.rackspace.com) by
 clicking the **Cloud Control Panel** menu at the top of the window and
 selecting **Cloud Sites**.
@@ -160,5 +159,3 @@ Schedule a cron job to call the web page.
 8.  Schedule the job to run daily at an off hour. Usually this is a
     late-night period, such as 1:00 a.m., when most sites experience
     less traffic.
-
-

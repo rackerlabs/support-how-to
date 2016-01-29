@@ -17,64 +17,56 @@ database.
 - First you will want to connect to your MS SQL Server database using the *myLittleAdmin* link in your Control Panel.
 - Once connected, click on the *Tools* NavBar in the lower-left frame.
 
-
-![](http://c15030753.r53.cf2.rackcdn.com/1_Tools.png)
+  ![](http://c15030753.r53.cf2.rackcdn.com/1_Tools.png)
 
 - To submit a new query, click *New Query* from the Tools Menu and enter your query in the space provided in the center frame, then click *Submit*.
 
+  ![](http://c15030753.r53.cf2.rackcdn.com/2_NewQuery.png)
 
-![](http://c15030753.r53.cf2.rackcdn.com/2_NewQuery.png)
-
-Below are the query commands for some common administrative tasks:
+Following are the query commands for some common administrative tasks:
 
 **Note:** When entering your query, replace the text in the
-example, <code>myDbHere</code>, with the
+example, `myDbHere`, with the
 correct name of the database that you are working on, making sure to
 keep the value within brackets. The examples in this article have other
-variables that you will need to replace with actual values.  These
-values have been highlighted below for your convenience.  Only the
+variables that you will need to replace with actual values. These
+values have been highlighted below for your convenience. Only the
 highlighted values in the examples need to be modified.
 
+-  Enable containment on a database
 
+       USE [master]
+       GO
+       ALTER DATABASE [myDbHere] SET CONTAINMENT = PARTIAL WITH NO_WAIT
+       GO
 
-### HOW TO ENABLE CONTAINMENT ON A DATABASE
+-  Disable containment on a database
 
-USE \[master\]
-GO
-ALTER DATABASE \[myDbHere\] SET CONTAINMENT = PARTIAL WITH NO\_WAIT
-GO
+       USE [master]
+       GO
+       ALTER DATABASE [myDbHere] SET CONTAINMENT = NONE WITH NO_WAIT
+       GO
 
+-  Create a SQL user with password when using partial containment and add to DB owner role
 
-### HOW TO DISABLE CONTAINMENT ON A DATABASE
+       USE [myDbHere]
+       GO
+       CREATE USER [sqlUserName] WITH PASSWORD=N'ComplexPassHere'
+       GO
+       USE [myDbHere]
 
-USE \[master\]
-GO
-ALTER DATABASE \[myDbHere\] SET CONTAINMENT =
-NONE WITH NO\_WAIT
-GO
+       GO
+       ALTER ROLE [db_owner] ADD MEMBER [sqlUserName]
+       GO
 
+-  Drop SQL user inside database
 
-### HOW TO CREATE A SQL USER WITH PASSWORD WHEN USING PARTIAL CONTAINMENT AND ADD TO DB OWNER ROLE
-
-USE \[myDbHere\]
-GO
-CREATE USER \[sqlUserName\] WITH PASSWORD=N'ComplexPassHere'
-GO
-USE \[myDbHere\]
-
-GO
-ALTER ROLE \[db\_owner\] ADD MEMBER \[sqlUserName\]
-GO
-
-### HOW TO DROP SQL USER INSIDE DATABASE
-
-**Note:** Run this for deleting a SQL user used within containment. If
+  **Note:** Run this for deleting a SQL user used within containment. If
 you created additional logins from the control panel, please use the
 control panel to delete them.
 
-USE \[myDbHere\]
+       USE [myDbHere]
 
-GO
-DROP USER \sqlUserName\]
-GO
-
+       GO
+       DROP USER sqlUserName]
+       GO
