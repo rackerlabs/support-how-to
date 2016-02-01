@@ -12,7 +12,7 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Rackspace Cloud Essentials - Building your cloud inventory](/how-to/rackspace-cloud-essentials-building-your-cloud-inventory)
+[Rackspace Cloud Essentials - Building your cloud inventory](/how-to/rackspace-cloud-essentials-guide-building-your-cloud-inventory/)
 
 By now, you have built your server, made it secure, and uploaded content
 to your server. The last step in the First 48 Hour Essentials is to

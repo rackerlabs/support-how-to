@@ -137,7 +137,7 @@ The HTML file that is shown to an end user who is attempting to access a load ba
 
 A configurable feature of each load balancer. It is used to determine whether or not a back-end node is usable for processing a request. The load balancing service currently supports active health monitoring.
 
-#### [Load Balancers](/how-to/configure-a-load-balancer-0#Virtual_IP_Type)
+#### [Load Balancers](/how-to/configure-a-load-balancer)
 
 A logical device which belongs to a cloud account. It is used to distribute workloads between multiple back-end systems or services, based on the criteria defined as part of its configuration.
 

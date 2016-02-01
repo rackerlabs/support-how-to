@@ -50,11 +50,11 @@ support channels.
     maintenance or outage may only be impacting one product, while
     others remain unaffected.   
 
--   **Rackspace How-To** - This
+-   **Rackspace How-to** - This
     valuable resource contains numerous articles, tutorials,
     and white papers to help you find all available
     information on using the Rackspace Cloud.  How do we know it's
-    valuable? Because ***you are using it right now!***  You can get to Rackspace How-To directly by going to: [https://support.rackspace.com/how-to](/how-to/)
+    valuable? Because ***you are using it right now!***  You can get to Rackspace How-to directly by going to: [https://support.rackspace.com/how-to](/how-to/)
     If you already know what you are looking for, the easiest way
     to find it is to enter keywords in the "Search our Support Network" bar at the top.
 
@@ -84,4 +84,4 @@ it's no wonder why Rackspace is known as the home of Fanatical Support! This com
 
 ### Next section
 
-[Building your first website](/how-to/building-your-first-website)
+[Getting started with Cloud Sites: How to add a new website](how-to/getting-started-with-cloud-sites-how-to-add-a-new-website/)
