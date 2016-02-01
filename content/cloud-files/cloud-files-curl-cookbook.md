@@ -21,7 +21,7 @@ cURL, its basic functions, and how to use it with Cloud Files.
 
 
 
-### **cURL installation**
+### cURL installation
 
 All the major distributions have packages for installing cURL. Following
 is an example of how to install cURL on Debian and Ubuntu:
@@ -47,7 +47,7 @@ from the[Downloads page](http://www.curl.com/download/). The Windows
 binary will require installation of some Microsoft Visual C++ libraries
 to work correctly.
 
-### **cURL basics**
+### cURL basics
 
 cURL is a command line tool that offers a means of communicating with
 various services at a protocol level. In particular, cURL supports
@@ -58,14 +58,14 @@ level of detail.
 This section provides some basic information about how to use cURL with
 HTTP.
 
-#### **Performing an HTTP GET**
+#### Performing an HTTP GET
 
 A HTTP GET operation is what browsers typically perform to download web
 pages and images whenever you go to a website. In the same manner, you
 can use cURL to issue an HTTP GET operation on a URL to get back the web
 page data.
 
-Runing the following command with your favorite website URL returns the
+Running the following command with your favorite website URL returns the
 HTML markup.
 
     $ curl http://www.example.com
@@ -82,7 +82,7 @@ following example:
 
 ****
 
-#### **Performing an HTTP POST**
+#### Performing an HTTP POST
 
 You can also use cURL to perform an HTTP POST operation, which is what
 most HTML-based forms use to send data to a remote server. There are a
@@ -114,8 +114,6 @@ file is uploaded in a standard fashion. The syntax is as follows:
 
     $ curl -X PUT -T myobject.jpg -H "Content-Type: image/jpeg" http://www.example.com/upload
 
-****
-
 #### Viewing the HTTP headers
 
 Many operations do not return a response body, just response headers.
@@ -133,9 +131,7 @@ Connection: Keep-Alive
 Content-Length: 0
 ```
 
-****
-
-#### **Viewing More HTTP Debug Information**
+#### Viewing More HTTP Debug Information
 
 At times, it is useful to view the full HTTP request/response
 transaction. You can do this by using the verbose flag, which prints out
@@ -149,7 +145,7 @@ request headers. This flag is quite useful for debugging purposes.
     > GET / HTTP/1.1
     ...
 
-#### **Sending HTTP Headers**
+#### Sending HTTP Headers
 
 When sending an HTTP request, it is sometimes useful to specify
 additional headers to give the server more information about the request
@@ -168,7 +164,6 @@ indicate the type of response that you want back, either JSON or XML.
     ...
 
 
-
 ### Authenticating with the API
 
 Before you can use any of the Rackspace Cloud APIs, you must first
@@ -177,7 +172,7 @@ an ID string that is required when you make calls to the various
 Rackspace Cloud APIs. The typical lifetime of a token is 24 hours, and
 you will always get the same token while it is still valid.
 
-*Note: Your token is crucial to your cloud service security, so keep it
+**Note:** Your token is crucial to your cloud service security, so keep it
 secret. If another user gets your token, that user might get full access
 to your cloud-based services.*
 
@@ -263,9 +258,7 @@ request. The following authentication token will be used in the below
 recipes: 3c5c8187-2569-47e0-8a11-edadd384e12b. We will also assume that
 we will be submitting and receiving only XML documents.
 
-****
-
-### **Storage Recipes**
+### Storage Recipes
 
 The storage recipes require the use of the Cloud Files service endpoint
 URL that was returned as part of the authentication process. The
@@ -273,7 +266,6 @@ following recipes use the following example URL:
 https://storage101.ord1.clouddrive.com/v1/MossoCloudFS\_c4f83243-7537-4600-a94d-ab7065f0a27b.
 When you use the recipes, be sure to substitute your own endpoint URL.
 
-****
 
 **Listing Containers**
 
@@ -302,9 +294,7 @@ the container by passing the format parameter:
     <name>cloudservers</name>
     ...
 
-****
-
-#### **Creating a Container**
+#### Creating a Container
 
 Creating a container requires sending a PUT request to the storage URL
 and including a name for the container as part of the URL. The following
@@ -315,9 +305,7 @@ example shows the request to create a new container called newcontainer:
 
 The request is accepted for processing.
 
-****
-
-#### **Deleting a Container**
+#### Deleting a Container
 
 You can delete a container by issuing a DELETE request, but remember
 that only empty containers can be deleted. If a container currently has
@@ -362,9 +350,7 @@ by passing some additional URL parameter options. For more detailed
 information about the available parameters and how they work, see the
 Cloud Files Developer Guide.
 
-****
-
-#### **Downloading an Object**
+#### Downloading an Object
 
 Send a GET request on the full path to an object causes curl to
 effectively download the content. By default, the content goes straight
@@ -376,10 +362,7 @@ curl -o option to save the HTTP response body to a file:
 
     $ curl -o cloud.png -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12b" https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/cloud.png
 
-
-****
-
-#### **Uploading an Object**
+#### Uploading an Object
 
 To upload a new object to a container, simply perform a PUT request of
 the file to be uploaded along with any additional options that you want
@@ -422,9 +405,7 @@ style.css object so that it becomes css/style.css:
     </body>
     </html>
 
-****
-
-#### **Deleting an Object**
+#### Deleting an Object
 
 To delete an object requires sending a DELETE request to the object to
 be deleted. It is useful to provide the verbose flag because the call
@@ -441,9 +422,7 @@ code indicates a successful deletion.
     * Connection #0 to host storage101.ord1.clouddrive.com left intact
     * Closing connection #0 * SSLv3, TLS alert, Client hello (1):
 
-****
-
-#### **Performing a Server Side Copy**
+#### Performing a Server Side Copy
 
 To copy an existing object to a new storage location without incurring
 the expense of performing the data upload from the client side;
@@ -465,9 +444,7 @@ name of rackspace.jpeg as named in the Destination header:
     </body>
     </html>
 
-****
-
-#### **Updating Object Headers**
+#### Updating Object Headers
 
 You can update certain HTTP headers that correspond to an object by
 performing an HTTP POST operation to the object path with the updated
@@ -475,7 +452,7 @@ header. This function is most useful for correcting an incorrectly set
 Content-Type header. Other headers that you can set include the CORS and
 Content-Disposition headers.
 
-*Note: You can also update the headers by performing a server-side copy
+**Note:** You can also update the headers by performing a server-side copy
 and passing in the new header. To do this requires setting the
 destination of the copy to be the same as the source.*
 
@@ -492,9 +469,7 @@ image/jpeg by using the POST operation:
     </body>
     </html>
 
-****
-
-### **CDN Recipes**
+### CDN Recipes
 
 Cloud Files maintains a separate CDN API web service endpoint
 specifically for CDN-related operations. This URL is returned as part of
@@ -504,9 +479,7 @@ URL:
 
 When you use the recipes, be sure to substitute your own endpoint URL.
 
-****
-
-#### **Listing CDN Enabled Containers**
+#### Listing CDN Enabled Containers
 
 Performing a GET request on the CDN API URL returns a list of containers
 that have been CDN-enabled at some point. Containers that have never
@@ -517,9 +490,7 @@ all CDN-enabled containers:
     files
     static
 
-****
-
-#### **CDN Enabling a Container**
+#### CDN Enabling a Container
 
 Before a container can have CDN operations performed on it, the
 container needs to be CDN enabled. You do this operation by performing a
@@ -529,7 +500,7 @@ certain CDN attributes such as container TTL and whether CDN logging
 should be enabled. If no additional CDN headers are passed along, the
 container is enabled with the default values.
 
-*Note: Making a container CDN enabled is not the same as publishing a
+**Note:** Making a container CDN enabled is not the same as publishing a
 container. CDN enabling container simply makes it CDN aware so that it
 can be used with the CDN. By default making a container CDN enabled also
 publishes it.*
@@ -548,9 +519,7 @@ The following request enables and publishes the images container:
     Connection: close
     Content-Type: text/plain; charset=UTF-8
 
-****
-
-#### **Viewing a Container's CDN Details**
+#### Viewing a Container's CDN Details
 
 To view a container's CDN properties requires sending an HTTP HEAD
 request to the API CDN URL. Viewable information includes whether the
@@ -573,9 +542,7 @@ The following request lists the CDN details of the images container:
     Connection: close
     Content-Type: text/plain; charset=UTF-8
 
-****
-
-#### **Updating a Container's CDN Attributes**
+#### Updating a Container's CDN Attributes
 
 You can update the CDN attributes of a CDN-enabled container by sending
 an HTTP POST request to the API CDN URL naming the container to be
@@ -612,12 +579,10 @@ The following example request unpublishes a container called images:
     < X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
     < Content-Length: 0
     < Connection: close
-    < Content-Type: text/plain; charset=UTF-8 
+    < Content-Type: text/plain; charset=UTF-8
     <
 
-****
-
-#### **Purging an Object**
+#### Purging an Object
 
 You can force the removal of content from the CDN by issuing a CDN purge
 request through an HTTP DELETE opreation to the content to be purged.
@@ -634,7 +599,7 @@ ticket and name the container to be purged. Support can perform this
 purge for you. If a notification email is required,  also tell support
 the email addresses to use.
 
-*Note: Attempting to perform multiple purges on the same content while a
+**Note:** Attempting to perform multiple purges on the same content while a
 previous purge is still running results in an HTTP 400 error.*
 
 The following operation performs a CDN purge of the rackspace.png file
@@ -655,7 +620,7 @@ returned.)
     * Closing connection #0
     * SSLv3, TLS alert, Client hello (1):
 
-### **Summary**
+### Summary
 
 This article is meant to serve as a quick reference to the more common
 Cloud Files API requests and how to use them with cURL. For more
@@ -664,4 +629,3 @@ the Cloud Files API documentation. The cURL techniques discussed in this
 article can also be used with other Rackspace Cloud based APIs and more
 generally for debugging HTTP and HTTPS based applications and web
 servers.
-
