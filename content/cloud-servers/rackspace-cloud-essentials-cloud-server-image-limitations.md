@@ -12,7 +12,7 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Create an image of a server and restore a server from a saved image](/how-to//how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+[Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 
 In the preceding article in this series you learned how to [restore servers from an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 These images are ideal for use as templates or "gold images", so that
