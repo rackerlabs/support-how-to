@@ -13,18 +13,16 @@ product_url: cloud-sites
 Our environment is designed to scale from small to large volumes of
 traffic, but since you know your business best we ask that you update us
 on extra-large volume, high traffic events (HTE). For an idea of what to
-expect you can compare your anticipated activity with these [high
-traffic event
-incidents](http://www.rackspace.com/blog/tag/high-traffic-events-hte/ "high traffic events").
+expect you can compare your anticipated activity with these [high traffic event incidents](http://www.rackspace.com/blog/tag/high-traffic-events-hte/).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/traffic-spike.png" width="627" height="222" />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/traffic-spike.png)
 
 If you are expecting an abnormally high increase in traffic to your
 website (ie. hundreds of thousands of visitors in a few hours) we
 recommend reaching out to Support so we can monitor the event. Please
 call or chat with us and we can create a ticket for you.
 
-You may also submit a ticket with the subject line: &ldquo;Expected High
+You may also submit a ticket with the subject line: "Expected High
 Traffic Event for 'website name' on 'date'". We ask that you submit your
 ticket at least 7 days before the expected high traffic date.
 
@@ -48,8 +46,6 @@ along with some other applicable information:
 If applicable, please plan to disable comments/chat and traceback
 functionality during your event to reduce load.
 
-*Lastly, we recommend reviewing best practices for optimizing your web
-site on Rackspace Cloud Sites. Read* *[Optimize your website on Cloud
-Sites](/how-to/optimize-your-website-on-cloud-sites "Check out this Knowledge Center article") for
-more information and details.*
-
+Lastly, we recommend reviewing best practices for optimizing your web
+site on Rackspace Cloud Sites. Read [Optimize your website on Cloud Sites](/how-to/optimize-your-website-on-cloud-sites) for
+more information and details.
