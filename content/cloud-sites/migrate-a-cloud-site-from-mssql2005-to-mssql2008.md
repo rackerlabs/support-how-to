@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
@@ -33,46 +31,56 @@ and selecting Cloud Sites Control Panel.
     restored to the new MSSQL2008 location please add your full
     text catalogs. The information at the following links will assist
     you in completing this task:
-    -   [How to drop a full text
-        catalog](http://msdn.microsoft.com/en-us/library/ms188403.aspx "http://msdn.microsoft.com/en-us/library/ms188403.aspx")
-    -   [How to create a fulltext
-        catalog](http://msdn.microsoft.com/en-us/library/ms189520.aspx "http://msdn.microsoft.com/en-us/library/ms189520.aspx")
-
+    -   [How to drop a full text catalog](http://msdn.microsoft.com/en-us/library/ms188403.aspx)
+    -   [How to create a fulltext catalog](http://msdn.microsoft.com/en-us/library/ms189520.aspx)
 5.  You can set the database to `READ-ONLY` mode to ensure there are no
     updates done to the database while the migration is performed with
-    the below query **(Only set the database to READ\_ONLY after making
-    the backup, otherwise you won't be able to log into the
-    new database)**:
+    the following query:
 
-               ALTER DATABASE [NumXYZ_OldDbName] SET READ_ONLY
+        ALTER DATABASE [NumXYZ_OldDbName] SET READ_ONLY
+
+    **Note:** Only set the database to READ_ONLY after making
+    the backup, otherwise you won't be able to log into the
+    new database.
 
 6.  When the new database is restored set it to Read-Write:
 
-               ALTER DATABASE [NumXYZ_NewDbName] SET READ_WRITE
+        ALTER DATABASE [NumXYZ_NewDbName] SET READ_WRITE
 
 ### Cloud Site migration steps
 
 1.  Create a new MSSQL 2008 database in the Cloud Sites Control Panel
     under the "Features" tab of the domain your MSSQL2005 database is
-    on.![createdb1.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/createdb1.JPG)
+    on.
+
+    ![createdb1.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/createdb1.JPG)
+
 2.  After the database has been created, please view its properties (as
-    shown below) and **note the change in the hostname**. **You will
+    shown below) and note the change in the hostname. **You will
     need to change any connection strings you have to the database and
     this information will be required.** The information for you
     database will vary from the image depending on what data center your
     account is hosted in.
+
     ![dbinfo.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/dbinfo.JPG)
+
 3.  Next use the web based admin tool, MyLittleAdmin, to back up your
     MSSQL 2005 database. The link for the online tool can be found in
     your Cloud Sites Control Panel by clicking on the database under the
-    &ldquo;Features&rdquo; tab. For this backup please add "mlb" to the end of
+    **Features** tab. For this backup please add "mlb" to the end of
     the URL. It is important to add this to the URL and not to go
     through the standard MyLittleAdmin link found in your Cloud Sites
-    Control Panel. Using the links instead of adding the &ldquo;mlb&rdquo; may cause
+    Control Panel. Using the links instead of adding the "mlb" may cause
     session issues between the two MyLittleAdmin versions. For example:
-    `https://mssqladmin.websitesettings.com/mlb`![mlb1.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb1.JPG)
+    `https://mssqladmin.websitesettings.com/mlb`
+
+    ![mlb1.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb1.JPG)
+
 4.  Login to your original MSSQL 2005 source
-    database.![mlb2.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb2.JPG)
+    database.
+
+    ![mlb2.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb2.JPG)
+
 5.  Now back up your MSSQL 2005 database use the MyLittleAdmin tool.
     When the backup has completed click on the file link to save the
     backup file to your local machine.
@@ -80,24 +88,20 @@ and selecting Cloud Sites Control Panel.
     database and login. Remember the login you use to restore will
     become the new owner of the database. Choose restore and upload the
     backup file you just downloaded in Step 5. Proceed with the
-    restore.![mlb3.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb3.JPG)
+    restore.
+
+    ![mlb3.JPG](http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb3.JPG)
+
 7.  The restore tool may notify you that the old users have no login
     mapping on the new SQL 2008 cluster. At this point your new database
     will be ready. The only access, at this point, is allowed to the
     owner login that you used to restore the database. If you need to
     change the owner to another login you created in the control panel
     or remap users in your database to new logins please refer to the KB
-    article [How to Change ownership and remap database users using the
-    web based admin tool
-    for MSSQL.](/how-to/remap-database-users-in-mylittleadmin "How to Change ownership and remap database users using the web based admin tool for MSSQL.")
+    article [How to Change ownership and remap database users using the web based admin tool for MSSQL.](/how-to/remap-database-users-in-mylittleadmin)
 8.  Once the migration is complete, update all connection strings to
     point to the new database. After you verify that everything is
     working from the MSSQL2008 database, delete your MSSQL2005 database
     and confirm with Cloud Sites Support that the migration is complete.
     This will ensure that you are not billed for the additional database
     in the future.
-
--- C. Tannery
-
-
-
