@@ -23,8 +23,7 @@ For more information about Swiftly, see the following sites:
 -   Swiftly documentation: <http://gholt.github.io/swiftly/>
 -   Swiftly source code: <https://github.com/gholt/swiftly>
 
-Install Swiftly on Ubuntu
--------------------------
+### Install Swiftly on Ubuntu
 
 These instructions were verified on a server built from a Rackspace
 Ubuntu 13.10 public image.
@@ -43,8 +42,7 @@ Invoke the following instructions from a bash shell on your server.
 
         sudo pip install swiftly
 
-Install Swiftly on CentOS
--------------------------
+### Install Swiftly on CentOS
 
 These instructions were verified on a server built from a Rackspace
 CentOS 6.5 public image.
@@ -65,8 +63,7 @@ Invoke the following instructions from a bash shell on your server.
 
         sudo pip install swiftly
 
-Install GNU Screen (optional)
------------------------------
+### Install GNU Screen (optional)
 
 GNU Screen is a program that you can use to start a screen session. A
 screen session looks just like an ordinary shell except that you can
@@ -150,4 +147,3 @@ you note the session number (in this example, 3004) and then use the
 following command:
 
     screen -r 3004
-
