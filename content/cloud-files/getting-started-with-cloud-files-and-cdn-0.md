@@ -35,10 +35,9 @@ The basics of Cloud Files include:
     Control Panel or language-specific programming interfaces
 
 For more details, see the [Cloud Files Key
-Concepts]( https://support.rackspace.com/how-to/cloud-files-key-concepts/).
+Concepts](https://support.rackspace.com/how-to/cloud-files-key-concepts/).
 
-What is the CDN?
-----------------
+### What is the CDN?
 
 Using the Akamai content delivery network (CDN) service, Cloud Files
 brings you a powerful and easy way to publish content over a world-class
@@ -91,4 +90,3 @@ read the article [Connecting to Cloud
 Files](/how-to/connecting-to-cloudfiles)
 and read the [Cloud Files API Developer
 Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
-
