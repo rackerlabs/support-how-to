@@ -16,7 +16,7 @@ product_url: office-365
 
 <hr />
 
-## Create your tenant ID
+### Create your tenant ID
 
 1. Enter a tenant name.
 
@@ -49,7 +49,7 @@ Enter the following when you log in to the Office 365 Portal:
 
 5. Click **Create Tenant**.
 
-## Add a subscription
+### Add a subscription
 
 From the [Cloud Portal Office 365 manager](https://cp.rackspace.com/Office365#/Manage), click **Add Subscription**.
 
@@ -63,7 +63,7 @@ From the [Cloud Portal Office 365 manager](https://cp.rackspace.com/Office365#/M
 
 Pending subscriptions display yellow in the subscription list. Active subscriptions display green.
 
-### Add-on plans
+#### Add-on plans
 
 Add-ons become available after you add a subscription. Add-ons appear below your subscription list.
 
@@ -71,7 +71,7 @@ Click an add-on to see a description and confirm its addition to your service. N
 
 *Email Archiving* is currently available as an add-on for all subscriptions. *Extra SharePoint Storage* will be available in December 2015 for plans with SharePoint.
 
-### Manage your subscription
+#### Manage your subscription
 
 Click the gear icon for your subscription to manage its features.
 
@@ -81,7 +81,7 @@ To delete your subscription, click **Suspend/Delete** and click **Suspend Subscr
 
 **Note**: Suspended subscriptions retain your data for 60 days before being permanently deleted. You will not be billed while a subscription is suspended.
 
-## Log in to the Office 365 portal
+### Log in to the Office 365 portal
 
 From the [Cloud Portal Office 365 manager](https://cp.rackspace.com/Office365#/Manage), click **Log in to Office 365 Control Panel**.
 
@@ -94,11 +94,11 @@ From the [Cloud Portal Office 365 manager](https://cp.rackspace.com/Office365#/M
 
 When you first log in, the Office 365 Portal requires you to enter and confirm a new password.
 
-## Success!
+#### Success!
 
 You're ready to put Office 365 to work with Rackspace Cloud Office.
 
-## Support Resources
+### Support Resources
 
 [Microsoft Office 365 frequently asked questions](https://products.office.com/en-us/business/microsoft-office-365-frequently-asked-questions)
 
