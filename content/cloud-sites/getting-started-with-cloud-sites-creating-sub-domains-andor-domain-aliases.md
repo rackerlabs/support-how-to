@@ -10,47 +10,40 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note**: This article is written for our [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can get to it from the
-Cloud Control Panel by clicking your name in the upper-right corner and
-selecting [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/).
+**Note**: This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the Cloud Control Panel by clicking your name in the upper-right corner and
+selecting [Cloud Sites Control Panel](https://manage.rackspacecloud.com/).
 
 ### Previous section
 
-[Getting Started with Cloud
-Sites](/how-to/cloud-sites)
-
-
+[Cloud Sites introduction](/how-to/cloud-sites)
 
 We've already discuss how to create a new domain, but what about
 creating a subdomain? Better yet, how do I create an alias? Let's
 discuss how this can be done through your Cloud Control Panel.
 
-**What is a Subdomain?**
+### What is a Subdomain?
 
 In the DNS hierarchy a subdomain is any part of the URL that precedes
-the second-level domain name and the top-level domain name.  When
-looking at the domain "example.com", ".com" is the top-level domain and
+the second-level domain name and the top-level domain name. When
+looking at the domain **example.com**, ".com" is the top-level domain and
 "example" is the second-level domain.
 
-A subdomain is anything beyond that second-level domain.  That means
-"www.example.com" describes the "www" subdomain of "example.com" (making
+A subdomain is anything beyond that second-level domain. That means
+**www.example.com** describes the "www" subdomain of **example.com** (making
 "www" the third-level domain in the example).
 
 Subdomains aren't limited to just one level.  You can have a "photos"
-subdomain, making "photos.example.com".
+subdomain, making **photos.example.com**.
 
 Note that Cloud Sites only automatically adds "www" when a site is
-created with a second-level domain name ("example.com"). Unfortunately,
+created with a second-level domain name (**example.com**). Unfortunately,
 Cloud Sites does not support "www" as a fourth-level domain; for
 example: www.photos.example.com.
 
-**How Do I Create a Subdomain?**
+### How Do I Create a Subdomain?
 
--   Log into the [Rackspace Cloud Control
-    Panel](http://manage.rackspacecloud.com)
--   Navigate to **Hosting-&gt;Cloud Sites**
+-   Log into the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
+-   Navigate to **Hosting > Cloud Sites**
 
     ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
 
@@ -75,16 +68,13 @@ with the only difference being that you entered a subdomain in the
 Domain Name text box to be created. Next, let's take a look at how you
 can create a domain alias.
 
-
-
-**How to Create a Domain Alias**
+### How to Create a Domain Alias
 
 Pointing a domain or a subdomain to an existing website is made very
 easy on Cloud Sites when you follow these simple directions:
 
--   Log into the [Rackspace Cloud Control
-    Panel](http://manage.rackspacecloud.com)
--   Navigate to **Hosting-&gt;Cloud Sites**
+-   Log into the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
+-   Navigate to **Hosting > Cloud Sites**
 
     ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
 
@@ -96,7 +86,6 @@ easy on Cloud Sites when you follow these simple directions:
 
     ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
 
-
 -   On the next page choose to either register the domain, or if you
     already own it, simply indicate that you would like to "Set up the
     website without registering the domain." Click **Next Step**
@@ -104,7 +93,6 @@ easy on Cloud Sites when you follow these simple directions:
     select **Point to another website (alias)** and click **Next Step**
 
     ![](http://c806394.r94.cf2.rackcdn.com/choosealias.png)
-
 
 -   Select the website you want to point to from the list, and click
     **Next Step**
@@ -114,11 +102,8 @@ easy on Cloud Sites when you follow these simple directions:
 That's all there is to it! You've now added a domain alias. The domain
 alias will now direct traffic to the domain you selected.
 
-For additional information on Rackspace Cloud DNS, see [Using Cloud
-DNS](/how-to/rackspace-cloud-dns).
+For additional information on Rackspace Cloud DNS, see [Using Cloud DNS](/how-to/rackspace-cloud-dns).
 
 ### Next section
 
-[Managing Cloud Sites Databases - MySQL
-Databases](/how-to/rackspace-cloud-sites-essentials-mysql-databases)
-
+[Managing Cloud Sites Databases - MySQL Databases](/how-to/rackspace-cloud-sites-essentials-mysql-databases)
