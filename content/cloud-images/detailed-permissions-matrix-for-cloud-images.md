@@ -16,7 +16,7 @@ The following permissions matrix displays specific permissions for the roles in 
 
 [Cloud Images Terminology](/how-to/detailed-permissions-matrix-for-cloud-images)
 
-## As of January 20, 2014
+### As of January 20, 2014
 
 Method Name	| API Call | Role | Description
 --- | --- | --- | ---
@@ -45,25 +45,25 @@ List Tasks | ```GET /v2/tasks``` | **Observer & Creator & Admin** | Returns a co
 Create a Task | ```POST /v2/tasks``` | **Admin only** | Creates a task.
 Get a Task | ```GET /v2/tasks/{task_id}``` | **Observer & Creator & Admin** | Gets the details for a specified task.
 
-## Cloud Images Terminology
+### Cloud Images Terminology
 
-### Image
+#### Image
 
 An image is represented by a JSON-encoded data structure (the image scheme) and its raw binary data (the image file).
 
-### Image Member
+#### Image Member
 
 A user who has been granted access to an image.
 
-### Image Schema
+#### Image Schema
 
 A json document representing metadata about an image.
 
-### Image Tag
+#### Image Tag
 
 An image tag is a string of characters used to identify a specific image.
 
-### JSON (Javascript Object Notation)
+#### JSON (Javascript Object Notation)
 
 An open standard format that uses human-readable text to transmit data objects consisting of key:value pairs.
 
