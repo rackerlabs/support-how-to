@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking the **Cloud Control Panel** menu at the top of the window
 and selecting **Cloud Sites** from the menu.
 
@@ -24,16 +22,12 @@ directory. If you don't know whether you need the Linux or Windows path,
 consult a web developer or the web application vendor, or contact
 support for a recommendation.
 
-**Note:** If you need to find your website's Windows path, see [Locate
-the Windows path for your Cloud Sites
-website](/how-to/locate-the-windows-path-for-your-cloud-sites-website).
+**Note:** If you need to find your website's Windows path, see [Locate the Windows path for your Cloud Sites website](/how-to/locate-the-windows-path-for-your-cloud-sites-website).
 
-To find the website&rsquo;s Linux path
---------------------------------
+### Find the website's Linux path
 
-1.  Log in to the [Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com).
-2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
+2.  In the left navigation pane, click **Hosting > Cloud Sites**.
 3.  Click on the name of the website for which you need to obtain the
     Linux path.
 4.  Click the **Features** tab.
@@ -42,6 +36,5 @@ To find the website&rsquo;s Linux path
     Under **Linux Info**, the absolute path to your Linux PHP site is
     the one labeled **Web directory**. The path should resemble the
     following format:
+
     **/mnt/stor1-wc1-dfw1/123456/www.domain.com/web/content/**
-
-
