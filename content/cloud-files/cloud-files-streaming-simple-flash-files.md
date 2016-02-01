@@ -15,7 +15,7 @@ This tutorial describes how to stream media files from Cloud Files to a website.
 **Note:** We've had some reports of problems getting the current version of FlowPlayer (3.2.14) working with Cloud Files and are investigating. We'll update this article when we have more information.
 
 
-### <a name="streaming"></a>Streaming
+### Streaming
 
 Cloud Files containers that are published and marked <strong>public</strong> are delivered over the [Akamai Technologies, Inc](http://www.akamai.com/) global content delivery network (CDN). For streaming flash files from your Cloud Files, Akamai provides pseudo streaming. You can find additionl information online, but a good explanation (in Flash) is provided at [http://www.longtailvideo.com/support/jw-player/28855/pseudo-streaming-in-flash/](http://www.longtailvideo.com/support/jw-player/28855/pseudo-streaming-in-flash/).
 
@@ -40,13 +40,13 @@ F4V  | H.264  | AAC |  None
 MP4 | H.264  | AAC </br> MP3 | Can be audio-only (AAC) or video-only.
 F4F/F4M  | H.264 </br> VP6  | AAC </br> MP3 |  None
 
-### <a name="prereqs"></a>Prerequisites
+### Prerequisites
 
 -   FlowPlayer found at [http://mediapm.edgesuite.net/flow/](http://mediapm.edgesuite.net/flow/)
 -   A **.flv** video
 -   A text editor
 
-### <a name="flowplayer"></a>FlowPlayer
+### FlowPlayer
 
 1. Go to the [Akamai FlowPlayer](http://mediapm.edgesuite.net/flow/ "http://flowplayer.org") website.
 2. Download the free version of FlowPlayer.
@@ -57,7 +57,7 @@ F4F/F4M  | H.264 </br> VP6  | AAC </br> MP3 |  None
   -   **flowplayer-*version*.min.js**
   -   **flowplayer.controls-*version*.swf**
 
-### <a name="cross-domain-xml"></a>The cross-domain XML file
+### The cross-domain XML file
 
 The cross-domain XML file enables you to specify what domains are allowed to get data from the CDN, so that people cannot hotlink your content unless you let them. Following is an example of a simple cross-domain XML file that allows all domains to call these Flash files:
 
@@ -73,7 +73,7 @@ For more information about cross-domain XML files, see [Adobe's website](http://
 
 Save this file in your text editor as **crossdomain.xml** and upload it to the same Cloud Files container as the previous files.
 
-### <a name="xhtml"></a>The XHTML
+### The XHTML
 
 Now you can create a simple XHTML file that calls this Flash player and embeds it onto the page here. Following is the code:
 
@@ -97,6 +97,6 @@ Now you can create a simple XHTML file that calls this Flash player and embeds i
 - On line 7, replace `http://c022320192.cdn.cloudfiles.rackspacecloud.com/video.flv` with the location of your video file.
 - On line 12, replace `http://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.swf` with your version of this file.
 
-### <a name="test-it"></a>Test it
+### Test it
 
 Save this XHTML file and run it from your local machine. If it is working correctly, you should see the Flash video load quickly and stream. If not, check your code. If you are still having problems after that, call our Support team or submit a ticket via the Cloud Control Panel.

@@ -16,7 +16,7 @@ Many file synchronization applications exist, but few are as versatile as the op
 
 Using File Conveyor to synchronize files to the content delivery network (CDN) enables you to use ecommerce solutions like Magento or CMS applications like Drupal or WordPress with Cloud Files without relying on a plug-in to handle the file transfers.
 
-### Prerequisites ###
+### Prerequisites
 
 [githome]:http://git-scm.com/ "Git Project Page"
 [sthome]:http://pypi.python.org/pypi/setuptools "Setuptools Project Page"
@@ -80,6 +80,7 @@ Before running File Conveyor, you need to configure it by creating a file named 
 	          </rule>
 	        </rules>
 	      </config>
+        
 **Note**: "USERNAME" in the example above is your Rackspace Cloud account username.
 
 3. Modify the configuration to fit your environment and account details:

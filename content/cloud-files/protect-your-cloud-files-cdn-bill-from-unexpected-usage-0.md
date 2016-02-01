@@ -10,20 +10,20 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-<span>When choosing to use the content delivery network (CDN) to
+When choosing to use the content delivery network (CDN) to
 accelerate your website and the images and videos on that website, you
 are responsible for all bandwidth costs associated with delivery of your
 content over the public Internet, including bandwidth incurred because
-of piracy. </span><span>This article is designed to help you monitor and
-protect your CDN usage.<span>  </span></span>
+of piracy. This article is designed to help you monitor and
+protect your CDN usage.
 
-When you use the CDN, all your assets are assigned a CDN URL.<span> Your
-website then has that </span>CDN URL in its source code and displays it
-when a user requests to see it.<span> Some</span> companies and
+When you use the CDN, all your assets are assigned a CDN URL. Your
+website then has that CDN URL in its source code and displays it
+when a user requests to see it. Some companies and
 individuals target websites&rsquo; asset URLs and serve them without the site
-owner&rsquo;s permission.<span> T</span>his is known as &ldquo;hot linking&rdquo; and can
+owner&rsquo;s permission. This is known as &ldquo;hot linking&rdquo; and can
 result in a massive increase to your CDN bill if the problem goes
-unnoticed.<span>  </span>
+unnoticed.
 
 You can protect yourself, your content, and your invoice from hot
 linking in the following ways:
@@ -51,8 +51,6 @@ Panel.
 
  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1560-2162-newimg.png)
 
-###
-
 ### Examine CDN logs
 
 Another method for monitoring your CDN usage is by examining the CDN
@@ -63,7 +61,7 @@ immediately. You can also enable these logs via the Cloud Files API or
 from your [Cloud Control Panel](http://mycloud.rackspace.com/) by
 performing the following steps:
 
-1\. In the top navigation bar, click **Storage &gt; Files**.
+1. In the top navigation bar, click **Storage &gt; Files**.
 2. Click the gear icon next to the container for which you want to
 enable CDN logs, and select **Enable Logs**.
 
@@ -79,7 +77,7 @@ prefixed with the name of the container they are logging, followed by
 the date and time stamp. This makes it easy to find logs for a specific
 time period.
 
-***Third-party log analysis***
+**Third-party log analysis**
 
 Several companies in the market will take the hassle out of parsing the
 logs in your CDN log container.  These companies take the raw logs that
@@ -92,7 +90,7 @@ to indicate when usage reaches a certain level, or if it has increased
 by a certain amount.  This is a great way to get monitoring without
 having to code a solution yourself.
 
-Review the Rackspace Cloud Tools Partners](https://cloudtools.rackspace.com/home) list for third-party monitorig options.
+Review the Rackspace Cloud Tools Partners](https://cloudtools.rackspace.com/home) list for third-party monitoring options.
 
 ### Hide source code
 
@@ -102,7 +100,7 @@ those trying to steal content.  Although someone with more technical
 knowledge will find ways around these defenses, it might take long
 enough for them to give up.
 
-**<span>No right-click scripts</span>**
+**No right-click scripts**
 
 There are scripts that will prevent visitors from using the right-click
 menu to copy your content&rsquo;s link or view your site&rsquo;s source code.
@@ -112,7 +110,7 @@ If you attempt this method, be sure to check its functionality in a
 variety of browsers, because the code can be difficult to implement
 across all of them.
 
- **<span>JavaScript encryption</span>**
+ **JavaScript encryption**
 
 The method involves taking your code, using a custom-made function to
 "encrypt" it, and then putting it in an HTML file along with a function
@@ -120,7 +118,7 @@ that will decrypt it for the browser. While website visitors will still
 be able to view your source code, they will not be able to use it
 without decrypting.  There are several tools online that will help
 encrypt your source code.  Here are some links and examples that might
-be helpful: <span> </span>
+be helpful:
 
 -   [Encrypting source
     code](http://www.blackbeltcoder.com/Articles/mfc/encrypting-source-code)
@@ -131,7 +129,4 @@ be helpful: <span> </span>
 
 This method requires the use of JavaScript, meaning that you need to
 expect your legitimate website traffic to be using browsers and settings
-that support it. <span> </span>
-
-
-
+that support it.

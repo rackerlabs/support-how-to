@@ -534,24 +534,24 @@ directly with the Cloud Files API. Use the following steps:
 
         curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
         http://&lt;storage\_url&gt;/container/myobject/1 --data-binary '1'
-        
+
         curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
         http://&lt;storage\_url&gt;/container/myobject/2 --data-binary '2'
-        
+
         curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
         http://&lt;storage\_url&gt;/container/myobject/3 --data-binary '3'
 
 2.  Create the manifest file:
 
         curl -X PUT -H 'X-Auth-Token: &lt;token&gt;' \\
-        
+
         -H 'X-Object-Manifest: container/myobject/' \\
         http://&lt;storage\_url&gt;/container/myobject --data-binary ''
 
 3.  Download the segments as a single object:
 
         curl -H 'X-Auth-Token: &lt;token&gt;' \\
-        
+
         http://&lt;storage\_url&gt;/container/myobject
 
 #### When should I use the Swift tool instead of the API, and what is the process?
@@ -641,6 +641,12 @@ SDKs.
 -   [Cloud Files Language-specific Software Development
     Kits](https://developer.rackspace.com/docs/cloud-files/getting-started/#get-object-via-sdk)
 
+#### Why does one of my Cloud Files scheduled tasks get terminated abruptly?
+
+The Rackspace Cloud system restricts the maximum execution time of any
+one cron job to 15 minutes. Please make sure that your script is well
+tested and can complete its intended job within this time frame.
+
 ------------------------------------------------------------------------
 
 ### API
@@ -649,4 +655,3 @@ SDKs.
 
 The API documentation is available from the [Rackspace API documentation
 site](http://docs.rackspace.com/).
-

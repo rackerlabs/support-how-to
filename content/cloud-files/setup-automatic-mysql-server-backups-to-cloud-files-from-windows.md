@@ -16,7 +16,7 @@ This article is about setting up automatic MySQL server backups from your Window
 2.  Create a .bat file to take the backup of your MySQL server database and upload it to Cloud Files using the software created in the previous step.
 3.  Create a scheduled task in Windows to run the above .bat file from step 2 at a scheduled date and time.
 
-### <span class="mw-headline">1\. Download and build the upload software</span>
+### Download and build the upload software
 
 First you will need to download a small piece of C# software and compile it on Windows Cloud Server. Use the following easy steps to build the Cloud Files upload software.
 
@@ -33,7 +33,7 @@ First you will need to download a small piece of C# software and compile it on W
 
         upload-to-cf.exe [cloud username] [cloud api_key] [container name] [file path]
 
-### <span class="mw-headline">2\. Create a .bat file for taking backups</span>
+### Create a .bat file for taking backups
 
 *   Next, we need to create a .bat file to automate the MySQL database backup procedure. We want to backup the MySQL database backup file to a date-stamped file. There are several ways to do this, but the easiest way is through a batch file. The command we'll be using is as follows:
 
@@ -44,7 +44,7 @@ First you will need to download a small piece of C# software and compile it on W
 
 *   Once you are satisfied that the above command works without any problem, you can go ahead and create a .bat backup file (e.g., mysql-backup.bat). It can look like this...
 
-_Note: You need to replace the values in [] brackets with actual values for your system._
+**Note:** You need to replace the values in [] brackets with actual values for your system._
 
         @echo off
         echo "Running dump... "
@@ -57,7 +57,7 @@ _Note: You need to replace the values in [] brackets with actual values for your
 
 *   Now you should be able to run **mysql-backup.bat** from a command prompt. If it works, you should see a success message, and a file should be generated in the directory you specified. If not, make sure you have the correct username, password, and database values specified and then try it again.
 
-### <span class="mw-headline">3\. Fully automate, scheduled task</span>
+### Fully automate scheduled task
 
 *   So now we should have our mysql-backup.bat file that creates the backup of our MySQL database and uploads the file to Rackspace Cloud Files using the upload-to-cf.exe program. The next step is to create a Windows Scheduled Task so that all the above steps run automatically at a scheduled date and time. Follow the steps below to setup a scheduled task in Windows.
 

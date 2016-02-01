@@ -43,8 +43,7 @@ cloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud)
 &middot; [Install the Swiftly client for Cloud
 Files](/how-to/install-the-swiftly-client-for-cloud-files)
 
-Set environment variables
--------------------------
+### Set environment variables
 
 In a bash shell, set the following environment variables:
 
@@ -83,8 +82,7 @@ listed in the preceding example are used to control this.
     your parallel uploads might saturate your network card and actually
     slow down the overall file transfer.
 
-Invoke Swiftly
---------------
+### Invoke Swiftly
 
 After you set the environment variables, invoke Swiftly from the command
 line to perform the upload, as follows.
@@ -133,8 +131,7 @@ The `s` after the equals sign tells Swiftly to create a Static Large
 Object. As mentioned earlier, we highly recommend that you upload your
 image as a Static Large Object.
 
-Checking your upload
---------------------
+### Checking your upload
 
 Suppose that you used the following the environment variable settings
 you used for your upload:
@@ -235,8 +232,7 @@ you downloaded the file. The actual storage used in that container is
 the few kilobytes used by the manifest file, because the actual image
 data is being stored in the `uploaded-images_segments` container.
 
-Summary
--------
+### Summary
 
 Hopefully you haven't skipped directly to this section!  We really
 encourage you to read through the entire article.
@@ -256,5 +252,3 @@ encourage you to read through the entire article.
     requested automatically.  But it's important to know what it's doing
     and how your data is stored so that you don't corrupt your image
     by mistake.
-
-

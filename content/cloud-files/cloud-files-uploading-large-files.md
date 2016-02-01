@@ -24,14 +24,10 @@ There are two options for uploading large files.
 
 ### Automatically Segment & Upload
 
-<div>
-
 The Swift Tool will segment your large file for you, create a manifest
 file, and upload them accordingly,  After the file has been uploaded
 this tool manages your file segments for you, deleting and updating
 segments as needed.  It will look like this:
-
-</div>
 
     $ st -A https://auth.api.rackspacecloud.com/v1.0 -U glh -K 3a25c2dc74f24c3122407a26566093c8 upload -S 1048576 test_container largefile.iso
     largefile.iso segment 1
@@ -69,4 +65,3 @@ can use the API:
 
 See [Large Object Creation API
 Documentation.](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#creating-large-objects)
-
