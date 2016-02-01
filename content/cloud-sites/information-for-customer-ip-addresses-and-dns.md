@@ -12,7 +12,6 @@ product_url: cloud-sites
 
 ### What is changing?
 
-
 -   Outbound IP addresses for access to external services, such as
     Twitter or Facebook, will change. If you have an external service
     restricting access by IP address, aff the following IP addresses to
@@ -21,8 +20,6 @@ product_url: cloud-sites
     -   *72.32.47.176/28 (WC2.DFW3 outbound pool)*
     -   *72.32.10.144 - 72.32.10.159 (WC1.DFW3)*
     -   *72.32.47.176 - 72.32.47.191 (WC2.DFW3)*
-
-
 
 -   Outbound IP addresses for access to ServiceNet resources
     will change. If you have any ServiceNet resources such as Cloud
@@ -50,12 +47,12 @@ product_url: cloud-sites
 ### What is not changing?
 
 -   Customers will not need to update their DNS entries for
-    their websites. We will be migrating SSL and cluster IPs over\*.
+    their websites. We will be migrating SSL and cluster IPs over.
 
 -   Customers using 3rd party DDoS mitigation services (such
     as CloudFlare) will not need to update anything on their end.
 
--   FTP records and IPs will also remain the same\*.
+-   FTP records and IPs will also remain the same.
 
     **Note:** Old DNS entries (i.e., test links) will be retired by end
     of Q2 2016.
@@ -100,7 +97,7 @@ the maintenance. What could have occurred?**
 
 -   External database management IPs will be changing. Based on
     your technology, please
-    reference [MSSQL](/how-to/information-for-ms-sql-changes)<span> or [MySQL](/how-to/information-for-mysql-users-mariadb-100-0) for
+    reference [MSSQL](/how-to/information-for-ms-sql-changes) or [MySQL](/how-to/information-for-mysql-users-mariadb-100-0) for
     more information
 
 **My test links stopped working after the maintenance. What occurred?**
@@ -108,19 +105,10 @@ the maintenance. What could have occurred?**
 -   After the maintenance, test links will be changing to a new format
     to reflect the new datacenter. Please see test link table above.
 
-
-
 **Related Topics**
 
--   [Important scheduled maintenance: DFW environment
-    migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
--   [Information for Customer IPs &
-    DNS](/how-to/information-for-customer-ip-addresses-and-dns)
--   [Information for MS SQL
-    changes](/how-to/information-for-ms-sql-changes)
--   [Information for MySQL Users
-    (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
--   [Information for new PHP 5.6 & Apache
-    version](/how-to/information-for-new-php-56-apache-version-0)
-
-
+-   [Important scheduled maintenance: DFW environment migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
+-   [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
+-   [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
+-   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
+-   [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version-0)
