@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides instructions for developers who are migrating from
+This article provides instructions for developers who are migrating their infrastructure from
 another hosting provider, such as Azure or Linode, to the Rackspace
 Cloud. These instructions are meant as a high-level overview and are not
 specific to any particular hosting provider. If you need further
@@ -83,7 +83,7 @@ instance and Rackspace server instance to communicate.
 
 Besides rsync, you can transfer data from an old server to Rackspace in
 a number of different ways. The methods below use Rackspace Cloud Files
-to copy data from your old servers, than using that data to provision
+to copy data from your old servers, then use that data to provision
 new servers with Rackspace.
 
 -   **Use OpenStack Swift, a command-line interface, to transfer data
@@ -113,14 +113,14 @@ data on your server.
 
 ### Configure
 
-Once your data from your old server is stored on your Rackspace server,
+Once the data from your old server is stored on your Rackspace server,
 make any necessary configuration changes for your application and
 database.
 
 ### Test after migration
 
 Remember that hosting providers have their own configurations, syntax,
-and services. This is why it is important to test your new Rackspace
+and services, so it is important to test your new Rackspace
 configuration. You can get the most out of testing your configuration
 through these techniques:
 
@@ -128,4 +128,4 @@ through these techniques:
 -   Thoroughly [test the applications](/how-to/application-and-load-testing-guidelines)
     deployed on your Rackspace Cloud Server.
 -   Make any changes to your configuration files as necessary. This
-    could include any reference hostnames, IP addresses, and file paths.
+    could include any reference to hostnames, IP addresses, and file paths.
