@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking the **Cloud Control Panel** menu at the top of the window
 and selecting **Cloud Sites** from the menu.
 
@@ -24,16 +22,12 @@ directory. If don't know whether you need the Windows or Linux path,
 consult a web developer or the web application vendor, or contact
 support for a recommendation.
 
-**Note:** If you need to find your website's Linux path, see [Locate the
-Linux path for your Cloud Sites
-website](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
+**Note:** If you need to find your website's Linux path, see [Locate the Linux path for your Cloud Sites website](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
 
-To find the website&rsquo;s Windows path
-----------------------------------
+### Find the website's Windows path
 
-1.  Log in to the [Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com).
-2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
+2.  In the left navigation pane, click **Hosting > Cloud Sites**.
 3.  Click on the name of the website for which you need to obtain the
     Windows path.
 4.  Click the **Features** tab.
@@ -42,6 +36,5 @@ To find the website&rsquo;s Windows path
     Under **Windows Info**, the absolute path to your ASP Windows site
     is the one labeled **Web directory**. The path should resemble the
     following format:
+    
     **\\\\fs1-n01\\stor1wc1dfw1\\123456\\www.domain.com\\web\\content\\**
-
-
