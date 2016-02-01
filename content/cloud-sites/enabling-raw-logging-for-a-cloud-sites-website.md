@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
+**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
 by clicking your username in the upper-right corner of the control panel
 and selecting Cloud Sites Control Panel.
 
@@ -30,8 +28,7 @@ Raw logs files can take up a lot of space. If you are not using them
 
 Once enabled the raw logs can be found in your domain's FTP directory,
 in the "logs" folder.  You can determine the path to the domain using
-[this article on finding your web
-root](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
+[this article on finding your web root](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
 
 ### Prerequisites
 
@@ -49,4 +46,3 @@ root](/how-to/locate-the-linux-path-for-your-cloud-sites-website).
     **Enable** hyperlink for Raw logs.
 
 **Note:** The log collection occurs at 12 AM Central Time every day. Log files are purged after 6 days.
-
