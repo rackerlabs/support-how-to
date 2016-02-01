@@ -10,15 +10,12 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article is written for our [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can get to it from the
-Cloud Control Panel by clicking the Rackspace Cloud menu at the top of
+**Note:** This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the Cloud Control Panel by clicking the Rackspace Cloud menu at the top of
 the screen and selecting **Cloud Sites**.
 
 ### Previous section
 
-[Getting Started with Cloud
-Sites](/how-to/cloud-sites)
+[Cloud Sites introduction](/how-to/cloud-sites)
 
 Secure Sockets Layer (SSL) is an encryption technology that protects
 your visitors' private information while it's in transit via the
@@ -40,7 +37,7 @@ connections.
 Adding SSL to a website on Cloud Sites is a straightforward process.This
 article provides the information for this process.
 
-### **Supported types of SSL Certificates**
+### Supported types of SSL Certificates
 
 The primary certificates supported on Cloud Sites are as follows:
 
@@ -52,7 +49,6 @@ Extended Validation (EV), multi-domain, and wild card
 certificates. These will require installation to a primary Common Name
 domain to work properly.
 
-
 **Note**: Cloud Sites no longer supports *any* self-signed
 certificates.
 
@@ -61,9 +57,8 @@ certificates.
 Complete the following steps to generate a certificate signing request
 (CSR), which you will need to have when you purchase an SSL certificate.
 
-1.  Log in to the [Cloud Sites Control
-    Panel](http://manage.rackspacecloud.com).
-2.  Click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](http://manage.rackspacecloud.com).
+2.  Click **Hosting > Cloud Sites**.
 3.  Click the domain you want to add SSL to, and then click the
     **Security** tab.
 
@@ -75,7 +70,7 @@ Complete the following steps to generate a certificate signing request
     ![](http://c806394.r94.cf2.rackcdn.com/installsslcertificatetab.png)
 
 5.  Review the order summary and payment details, select the **Terms
-    Agreement** check box, and teh click Finish. If you have questions
+    Agreement** check box, and the click Finish. If you have questions
     about the charges, contact Support.
 
     ![](http://c806394.r94.cf2.rackcdn.com/ssltos.png)
@@ -86,12 +81,9 @@ Complete the following steps to generate a certificate signing request
 7.  Complete the form and click the **Next Step** button when finished.
 
 Your CSR is generated. With the CSR ready for use, you can proceed to
-[purchasing a
-certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
+[purchasing a certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
-
-
-### **Purchase a certificate**
+### Purchase a certificate
 
 SSL certificates are available from a number of third party sources.
 Some recommended sellers are
@@ -104,21 +96,16 @@ vendor might require the following details:
 
 -   Server type: Apache
 -   SSL type: OpenSSL or modSSL
--   CSR: [You generated
-    this](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites)
+-   CSR: [You generated this](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites)
     in the preceding section
 
 After you have completed your certificate purchase, you're ready to
-[install the
-certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
+[install the certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
+### Install the certificate
 
-
-### **Install the certificate**
-
-1.  Log in to the [Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com).
-2.  Click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
+2.  Click **Hosting > Cloud Sites**.
 3.  Click the **domain** for which you generated the CSR for, and then
     click the **Security** tab.
 4.  In the **Permissions for Viewing Your Website** section, click
@@ -140,14 +127,14 @@ certificate](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-we
 **Note**: If you have any problems during the installation, contact
 Support for assistance.
 
-### **DNS update**
+### DNS update
 
 If Rackspace is managing your DNS, DNS for your site will be
 automatically updated. It can take up to two hours for the new IP
 addresses for your site to complete propagation. If you are managing
 your own DNS, click the **Domain** tab to get your new IP addresses.
 
-### **What to watch for**
+### What to watch for
 
 Currently the Rackspace Cloud does not support wildcard
 certificates--such as **\*.domain.com** or **\*.example.com**. These
@@ -158,25 +145,11 @@ Removing an SSL certificate from a site will change the site's IP
 address in the same way that adding a new certificate changes the IP
 address.  DNS must be updated in that case as well.
 
+### SSL tips
 
-
-### **SSL tips**
-
--   [Force SSL on your PHP
-    site](/how-to/force-ssl-on-your-php-site)
--   [Force SSL on your ASP/.NET
-    site](/how-to/force-ssl-on-your-asp-or-aspnet-site-on-cloud-sites)
+-   [Force SSL on your PHP site](/how-to/force-ssl-on-your-php-site)
+-   [Force SSL on your ASP/.NET site](/how-to/force-ssl-on-your-asp-or-aspnet-site-on-cloud-sites)
 
 ### Next section
 
-[FTP/SSHFS/FTP
-clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
+[FTP/SSHFS/FTP clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients)
