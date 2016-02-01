@@ -10,7 +10,7 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-### **What is edge purge?**
+### What is edge purge?
 
 When using the Content Delivery Network (CDN) with Cloud Files, your
 files are distributed across a global network of *edge
@@ -39,7 +39,7 @@ your content.
 
 
 
-### **Work Flow**
+### Work Flow
 
 In general, if you have purge as a part of your basic workflow, you
 probably have better options (see below).  Purge should be used as a
@@ -48,7 +48,7 @@ uploading new content.
 
 
 
-### **Updating user content**
+### Updating user content
 
 If you are sending purges every time your site visitors update their
 profile, pictures, or other information, then you will likely be happier
@@ -60,7 +60,7 @@ your site visitors will see better performance from their updates.
 
 
 
-### **Removing Content**
+### Removing Content
 
 Possibly you have files hosted on the CDN that were set with a long TTL
 because you did not expect the content to be updated frequently.  In a
@@ -72,7 +72,7 @@ purge is the right tool for you.
 
 
 
-### **Releasing a new version of your product**
+### Releasing a new version of your product
 
 Sometimes developers want to wipe out their edge content so they can
 start fresh with updated content once a new release comes out.
@@ -89,19 +89,10 @@ to propagate the updated content.
 
 
 
-### **Not sure if purge is the right way for you to control your CDN content?  **
+### Not sure if purge is the right way for you to control your CDN content?  
 
 As a rule of thumb, try other plans first.  If you can solve your needs
 by using a low TTL or versioning your objects, these are great first
 options.  Of course, edge purge is always available as a last resort.
  Still not sure?  Feel free to comment on this article, or contact one
 of our Fanatical Support&reg; reps.  We&rsquo;re here to help!
-
-
-
-<div>
-
-
-
-</div>
-
