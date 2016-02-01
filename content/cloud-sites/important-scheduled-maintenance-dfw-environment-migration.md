@@ -29,7 +29,7 @@ completion of Q4 of 2015.
 
 In order to prepare for upcoming system and feature enhancements, we ask
 that you review our migration guide hosted in our Rackspace Knowledge
-Center, which includes FAQ&rsquo;s for individual technologies. Updated
+Center, which includes FAQs for individual technologies. Updated
 testlink information will be provided as a courtesy to review your site
 functionality prior to the migration.
 
@@ -38,18 +38,12 @@ on common break changes for your specific technology during to prepare
 for the upcoming DFW
 migrations.
 
-1.  [Information for Customer IPs &
-    DNS](/how-to/information-for-customer-ip-addresses-and-dns)
-2.  [Information for MS SQL
-    changes](/how-to/information-for-ms-sql-changes)
-3.  [Information for MySQL Users
-    (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
-4.  [Information for new PHP 5.6 & Apache
-    version](/how-to/information-for-new-php-56-apache-version-0)
+1.  [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
+2.  [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
+3.  [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
+4.  [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version-0)
 
-Our normal Cloud Sites SLA
-(<http://www.rackspace.com/information/legal/cloud/sla>) applies for
+Our normal [Cloud Sites SLA](http://www.rackspace.com/information/legal/cloud/sla) applies for
 potential downtime. If you have any questions, please reach out to our
 Support Team via chat, ticket or phone at US 1-855-348-9060 or INTL
 +1-210-581-0401.
-

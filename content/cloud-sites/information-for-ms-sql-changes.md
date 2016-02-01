@@ -20,7 +20,7 @@ product_url: cloud-sites
     the table below for more information
 -   The URLs for management will be available after September 1^st^
 -   Former hostnames will automatically be aliased to the new database
-    hosts\*
+    hosts
 
 **Note:** Old entries (ie., admin links) will be retired by end of Q2
 2016
@@ -47,8 +47,11 @@ product_url: cloud-sites
     database for management
 -   If a customer is using the management IP for production access to
     their database, we recommend that they make use of our Cloud
-    Database offering. **\*Cloud Sites databases are meant to be used
-    with a Cloud Sites websites only\***
+    Database offering.
+
+    **Note:** Cloud Sites databases are meant to be used
+    with a Cloud Sites websites only.
+
 -   If you have pages bookmarked for web management of your database,
     please be sure to update these accordingly.
 
@@ -56,8 +59,7 @@ product_url: cloud-sites
 
 ### FAQ
 
-#### SQL Server Management Studio stopped connecting after the maintenance.
-What could have occurred?
+#### SQL Server Management Studio stopped connecting after the maintenance. What could have occurred?
 
 -   External database Management IPs will be changing. These IPs will be
     visible in your control panel's page within the database section.
@@ -66,12 +68,12 @@ What could have occurred?
 
 -   Log into your Cloud Sites control panel at
     [manage.rackspacecloud.com](http://manage.rackspacecloud.com)
--   Click on 'Hosting' &gt;&gt; 'Cloud Sites' and select the domain
+-   Click on **Hosting > Cloud Sites** and select the domain
     under which the database was created
--   From the domain details page click on the 'Features' tab and select
+-   From the domain details page click on the **Features*** tab and select
     the active database you wish to reference:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MSSQL.png" width="760" height="675" />
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MSSQL.png)
 
 #### Will my database content be affected after the maintenance?
 
@@ -86,19 +88,10 @@ maintenance?
 -   Former hostnames will automatically be aliased to the new database
     hosts
 
+### Related topics
 
-
-#### Related topics
-
--   [Important scheduled maintenance: DFW environment
-    migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
--   [Information for Customer IPs &
-    DNS](/how-to/information-for-customer-ip-addresses-and-dns)
--   [Information for MS SQL
-    changes](/how-to/information-for-ms-sql-changes)
--   [Information for MySQL Users
-    (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
--   [Information for new PHP 5.6 & Apache
-    version](/how-to/information-for-new-php-56-apache-version-0)
-
-
+-   [Important scheduled maintenance: DFW environment migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
+-   [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
+-   [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
+-   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
+-   [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version-0)

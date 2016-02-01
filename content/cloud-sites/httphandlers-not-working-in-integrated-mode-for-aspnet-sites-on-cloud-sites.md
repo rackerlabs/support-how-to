@@ -10,10 +10,9 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-If your website is running in [integrated
-mode](http://www.code-magazine.com/Article.aspx?quickid=060103 "http://www.code-magazine.com/Article.aspx?quickid=060103"),
+If your website is running in [integrated mode](http://www.code-magazine.com/Article.aspx?quickid=060103),
 you might have noticed that your
-[HttpHandlers](http://msdn.microsoft.com/en-us/library/aa903367(VS.71).aspx "http://msdn.microsoft.com/en-us/library/aa903367(VS.71).aspx")
+[HttpHandlers](http://msdn.microsoft.com/en-us/library/aa903367(VS.71).aspx)
 no longer function even though they are set in your **web.config** file.
 
 ### Explanation
@@ -28,14 +27,8 @@ updated.
 
 ### Solutions
 
--   Peter Kellner's article, [How to use HttpHandlers such as .ashx
-    files with IIS7 Integrated
-    Mode](http://peterkellner.net/2008/09/06/iis7-httphandlers-handlers-integrated-mode-webfarm/ "http://peterkellner.net/2008/09/06/iis7-httphandlers-handlers-integrated-mode-webfarm/"),
+-   Peter Kellner's article, [How to use HttpHandlers such as .ashx files with IIS7 Integrated Mode](http://peterkellner.net/2008/09/06/iis7-httphandlers-handlers-integrated-mode-webfarm/),
     briefly covers the differences between the *old way* to set up
     handlers and the *new way*.
--   The Microsoft Developer Network also explains [how to set up
-    HttpHandlers for each of the above
-    situations](http://msdn.microsoft.com/en-us/library/46c5ddfy.aspx "http://msdn.microsoft.com/en-us/library/46c5ddfy.aspx").
+-   The Microsoft Developer Network also explains [how to set up HttpHandlers for each of the above situations](http://msdn.microsoft.com/en-us/library/46c5ddfy.aspx).
     This article covers the differences in detail.
-
-

@@ -19,15 +19,14 @@ utilize. We are proactively providing test links to help identify
 potential site break changes that may occur on your sites.
 
 **Note:**
-
 -   PHP 5.6 will be released on Apache 2.4 (Updating from Apache 2.2)
 -   PHP5.6 test links will be available after Aug 1st
--   **Early Q3 2015** &ndash; PHP 5.6 test links will be available for all
+-   **Early Q3 2015** - PHP 5.6 test links will be available for all
     customers to begin testing. See below.
--   **Late Q3 2015** &ndash; PHP 5.6 will be available for provisioning.
+-   **Late Q3 2015** - PHP 5.6 will be available for provisioning.
 -   **Late Q3 2015** - PHP 5.3/5.4 clusters will be updated to PHP 5.6
 
-#### **Access Control (.htaccess) Updates**
+#### Access Control (.htaccess) Updates
 
 In version 2.2, access control is based on client hostname, IP address,
 and other characteristics of client requests. The operations were
@@ -117,8 +116,7 @@ Example NEW Testlink URL
 </table>
 
 **Note:** The above test links will be used until the environment has been
-made fully available, at which point they will be updated. SSL will be unavailable as the test links do not
-support HTTPS.
+made fully available, at which point they will be updated. SSL will be unavailable as the test links do not support HTTPS.
 
 ## FAQ
 
@@ -127,31 +125,21 @@ support HTTPS.
 -   The version of Apache has been updated to 2.4 along with all of its
     relevant CVE updates.
 
-#### After the maintenance, my website&rsquo;s php\_errors.log is showing &ldquo;PHP
-Warning Deprecated&rdquo; alerts. What may have occurred?
+#### After the maintenance, my website's php_errors.log is showing "PHP Warning Deprecated" alerts. What may have occurred?
 
 -   The PHP application should continue to run as normal, but may not be
     supported by newer versions of PHP.
 -   It's highly recommended to update the application to use the newer
     functions for PHP 5.6.
 
-#### My site keeps saying &ldquo;connection refused&rdquo; when trying to test HTTPS
-when utilizing the updated test links. What may have occurred?
+#### My site keeps saying "connection refused" when trying to test HTTPS when utilizing the updated test links. What may have occurred?
 
 -   Cloud Sites test links do not support SSL, so any requests made to
     them with HTTPS will fail.
 
-#### Related Topics
+### Related Topics
 
--   [Important scheduled maintenance: DFW environment
-    migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
--   [Information for Customer IPs &
-    DNS](/how-to/information-for-customer-ip-addresses-and-dns)
--   [Information for MS SQL
-    changes](/how-to/information-for-ms-sql-changes)
--   [Information for MySQL Users
-    (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
--   [Information for new PHP 5.6 & Apache version
-    ****](/how-to/information-for-new-php-56-apache-version-0)
-
-
+-   [Important scheduled maintenance: DFW environment migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
+-   [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
+-   [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
+-   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
