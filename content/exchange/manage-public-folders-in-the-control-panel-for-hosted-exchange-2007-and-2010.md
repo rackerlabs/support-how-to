@@ -4,7 +4,7 @@ title: Manage public folders in the control panel for Hosted Exchange 2007 and 2
 type: article
 created_date: '2014-12-12'
 created_by: Theresa Kinney
-last_modified_date: '2016-01-27'
+last_modified_date: '2016-02-01'
 last_modified_by: Rose Coste
 product: Microsoft Exchange
 product_url: exchange
@@ -65,6 +65,7 @@ steps:
 6.  Specifiy or edit the email address for the folder.
 7.  Specify or edit the reply-to address.
 8.  Click **Save** to create the folder.
+ 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Create_a.png" height="250" />
 
 ### Delete public folder
