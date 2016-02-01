@@ -21,20 +21,19 @@ accounts.  The standard images for an account differ based on the
 account's support level (Managed Infrastructure or Managed Cloud Service
 Level) and whether or not the account uses RackConnect.
 
-How can I see my standard images?
----------------------------------
+### How can I see my standard images?
 
 The following filters in the Cloud Control Panel, Cloud Servers API, and
 Cloud Images API enable you to see which images are standard images for
 your account.
 
-### Cloud Control Panel
+#### Cloud Control Panel
 
 When you are building a server in the [Cloud Control
 Panel](https://mycloud.rackspace.com), select the Rackspace tab when
 choosing the base image to list only standard images.
 
-### Cloud Servers API
+#### Cloud Servers API
 
 You can identify standard images when using the [Cloud Servers API
 v2](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/index.html "Rackspace Cloud Servers API documentation")
@@ -42,17 +41,15 @@ by making a [List Images
 request](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/List_Images-d1e4435.html) and
 filtering it to list images that have their `type` value set to `BASE`.
 
-### Cloud Images API
+#### Cloud Images API
 
 You can identify standard images when using the [Cloud Images API
 v2](http://docs.rackspace.com/images/api/v2/ci-devguide/content/index.html "Rackspace Cloud Images API documentation")
 by making a List Images request and filtering it to list images that
 have their `visibility` value set to `public`.
 
-Support Implications
---------------------
+#### Support Implications
 
 Please see this Knowledge Center article: [Rackspace Standard and
 Non-Standard
 Images](/how-to/rackspace-standard-and-non-standard-images "Rackspace Standard and Non-Standard Images").
-
