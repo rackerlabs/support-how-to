@@ -79,10 +79,12 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 4.  In the second column of the browser view, select the node named machines.
 
   You will see entries for `-DHCP-`, `broadcasthost`, and `localhost` in the third column.
+
 5.  In the third column, select `localhost`.
 6.  From the **Edit** menu, select **Duplicate**. (The quickest way to create a new entry is to duplicate an existing one.)
 
   A confirmation alert appears.
+
 7.  Click **Duplicate**.
 
   A new entry called localhost copy appears, and its properties are shown below the browser view.
@@ -92,6 +94,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 11.  From the **File** menu, select S**ave**.
 
   A confirmation alert appears.
+
 12.  Click **Update this copy**.
 13.  Repeat steps 6 through 12 for each additional host entry that you want to add.
 14.  From the NetInfo Manager menu, select **Quit**.
