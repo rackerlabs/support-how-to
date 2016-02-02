@@ -15,7 +15,7 @@ provide an additional layer of security when you access your account.
 Two-factor authentication is a significant security improvement over
 using a password alone. This article explains how to manage two-factor
 authentication for your MyRackspace account from the
-[MyRackspace](myrackspace.com) portal.
+[MyRackspace](https://my.rackspace.com/portal/auth/login?targetUri=%2Fhome) portal.
 
 **Note:** You must be an administrative user to manage two-factor
 authentication for your MyRackspace account.

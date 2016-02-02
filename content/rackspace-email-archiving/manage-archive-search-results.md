@@ -17,8 +17,7 @@ reviewed, filtered, tagged, and exported.
 ### Access a saved search ###
 
 To access and manage search results, perform the following steps after
-[Logging into the Archive
-Manager](Logging%20into%20the%20Archive%20Manager.docx):
+[Logging into the Archive Manager](/how-to/log-in-to-the-archive-manager):
 
 1.  There are two dashboards for top level administrators: **Search**
     and **Admin**. Click **Admin**, located in the upper right corner of

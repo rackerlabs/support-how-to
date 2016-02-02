@@ -10,8 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-WP Super Cache is an available plugin for [Wordpress
-installations](%20http://www.rackspace.com/cloud/sites/web-hosting/wordpress/)
+WP Super Cache is an available plugin for [Wordpress installations](http://www.rackspace.com/cloud/sites/web-hosting/wordpress/)
 to store cached versions of your dynamic PHP pages. Installing WP Super
 Cache can also reduce the number of compute cycles used by a site since
 it reduces the load on the cluster as well.
@@ -118,5 +117,3 @@ Wordpress Dashboard.
 5.  <span style="line-height: 1.538em;">Click **Apply**.</span>
 6.  <span style="line-height: 1.538em;">The page will change once all of
     the plugins are updated.</span>
-
-
