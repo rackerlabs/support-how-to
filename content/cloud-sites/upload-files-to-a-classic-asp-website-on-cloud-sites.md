@@ -25,8 +25,7 @@ following information:
 After you have this information, use the following two ASP files as
 references to upload files. The `USERNAME` and `PASSWORD` in
 **UploadScript1.asp** are the same as those used for impersonation (see
-[Add impersonation to your ASP.NET
-site](/how-to/add-impersonation-to-your-aspnet-cloud-site)).
+[Add impersonation to your ASP.NET site](/how-to/add-impersonation-to-your-aspnet-cloud-site)).
 
 ### test1.asp
 
@@ -68,4 +67,3 @@ line needs to change as follows:
 
 **Note:** The credentials that you use must be those of the primary FTP
 account. Credentials for secondary FTP accounts do not work.
-
