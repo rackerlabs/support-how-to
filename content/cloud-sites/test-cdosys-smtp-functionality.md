@@ -30,7 +30,6 @@ appropriate values for your system:
 -   .To
 -   .From
 
-<!-- -->
 
     <%
     Const cdoSendUsingMethod       = "http://schemas.microsoft.com/cdo/configuration/sendusing"
@@ -83,9 +82,6 @@ appropriate values for your system:
     Set objConfig = Nothing
     %>
 
-Related article
----------------
+### Related article
 
-[Test PHP SMTP
-functionality](/how-to/test-php-smtp-functionality)
-
+[Test PHP SMTP functionality](/how-to/test-php-smtp-functionality)
