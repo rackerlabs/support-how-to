@@ -183,7 +183,7 @@ preferences, before the email reaches your inbox.
 
 1.  Click the **Settings** link, located in the upper right
     corner of the webmail window.
- 2. Click **Spam Settings**, located in the
+2. Click **Spam Settings**, located in the
     left pane.
 
   ![wm\_managepreferences\_001.gif](http://www.rackspace.com/apps/support/media/wm_managepreferences_001.gif)
