@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article is written for the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the
-Cloud Control Panel by clicking the **Rackspace Cloud** menu at the top
-of the panel and selecting **Cloud Sites**.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 ### Previous section
 

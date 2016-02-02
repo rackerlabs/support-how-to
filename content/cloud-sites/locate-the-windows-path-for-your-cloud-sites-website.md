@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking the **Cloud Control Panel** menu at the top of the window
-and selecting **Cloud Sites** from the menu.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 When you configure some ASP or ASP.NET web applications, you might need
 to provide the absolute path, full path, or web root for your website.
@@ -36,5 +34,5 @@ support for a recommendation.
     Under **Windows Info**, the absolute path to your ASP Windows site
     is the one labeled **Web directory**. The path should resemble the
     following format:
-    
+
     **\\\\fs1-n01\\stor1wc1dfw1\\123456\\www.domain.com\\web\\content\\**

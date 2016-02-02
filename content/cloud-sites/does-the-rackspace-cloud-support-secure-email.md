@@ -10,7 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This documentation refers to a feature that is no longer available for Cloud Sites.  This article is here for the purpose of legacy support only.
+**Note:** This documentation refers to a feature that is no longer available for Cloud Sites.  This article is here for the purpose of legacy support only.
 
 Secure email is supported and below are the server names and ports that
 you can use to configure your email client(s) with:

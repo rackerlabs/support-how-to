@@ -10,10 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com). You can access this interface
-from the [Cloud Control Panel](https://mycloud.rackspace.com) by
-clicking the **Cloud Control Panel** menu at the top of the window and
-selecting **Cloud Sites**.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 Follow these directions to point a domain or subdomain to a website that
 is *not* hosted on Cloud Sites.

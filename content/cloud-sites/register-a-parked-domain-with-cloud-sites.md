@@ -10,11 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking the **Cloud Control Panel** menu at the top of the window
-and selecting **Cloud Sites**.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 If you want to purchase a domain but are not ready to use it for a
 website, you can "park" the domain. A parked domain is a domain that is
@@ -36,4 +32,3 @@ To register a parked domain with Cloud Sites
 
 You should receive confirmation that Cloud Sites has added your website
 to your account.
-

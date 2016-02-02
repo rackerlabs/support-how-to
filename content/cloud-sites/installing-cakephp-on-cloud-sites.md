@@ -10,11 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking your username in the upper-right corner of the control panel
-and selecting Cloud Sites Control Panel.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 This article will show you how to install CakePHP 1.2.x onto your site
 with Cloud Sites.
@@ -67,6 +63,3 @@ For information on how to do this, see the following articles:
 If you have problems getting CakePHP to work in a subdirectory, read the
 information in the following article:
 <http://cookingwithcakephp.blogspot.com/2008/04/installing-cakephp-into-subdirectory.html>
-
-
-

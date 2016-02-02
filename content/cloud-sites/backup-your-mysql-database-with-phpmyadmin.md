@@ -10,8 +10,6 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-
-
 ### Backing Up Your MySQL Database
 
 1. Log in to the [online manager (phpMyAdmin)](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).

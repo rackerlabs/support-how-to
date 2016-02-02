@@ -10,11 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**NOTE:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking your username in the upper-right corner of the control panel
-and selecting Cloud Sites Control Panel.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 **Prerequisite**
 
@@ -38,5 +34,3 @@ and selecting Cloud Sites Control Panel.
     the DNS name servers for the domain **dns1.stabletransit.com** and
     **dns2.stabletransit.com**. Additionally you can use external name
     servers and modify DNS records as needed.
-
-

@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking your username in the upper-right corner of the control panel
-and selecting Cloud Sites Control Panel.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 Before scheduling a task, take a minute to review the five necessary
 components in creating a scheduled task on Cloud Sites:

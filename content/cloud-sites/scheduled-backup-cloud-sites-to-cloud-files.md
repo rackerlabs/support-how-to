@@ -10,11 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article is written for our [Cloud Sites Cloud Control
-Panel](https://manage.rackspacecloud.com). You can access this interface
-from the [Cloud Control Panel](https://mycloud.rackspace.com) by
-clicking your username in the upper-right of the control panel and
-selecting "Cloud Sites Control Panel".*
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 This article provides a simple installer for setting up scheduled
 backups via a cron task. The installer will setup all the necessary
@@ -128,6 +124,3 @@ Guaranties will not apply to the Unsupported Service, or any other
 aspect of your services that are adversely affected by the Unsupported
 Service.  You acknowledge that Unsupported Services may not interoperate
 with Rackspace&rsquo;s other services or other third party services you use.
-
-
-

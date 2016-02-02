@@ -10,11 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com). You can access this interface
-from the [Cloud Control Panel](https://mycloud.rackspace.com) by
-clicking the **Cloud Control Panel** menu at the top of the window and
-selecting **Cloud Sites** from the menu.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 **Note:** Email is no longer offered as a feature for Cloud Sites. This
 article exists to support customers with legacy email accounts.
@@ -59,5 +55,3 @@ addresses.
     email** check box.
 5.  Click **Save**.
     Again, allow up to 15 minutes for these changes to take effect.
-
-

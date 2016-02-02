@@ -10,11 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking the **Cloud Control Panel** menu at the top of the window
-and selecting **Cloud Sites**.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 The Cloud Sites Control Panel provides a URL that you can use to test
 your website before you change the DNS of your domain. Access the URL as
@@ -41,4 +37,3 @@ be different from the examples.
 For information about how to add content to your test website by using
 the test FTP, see [Getting Started With Cloud Sites, FTP/SSHFS/FTP
 Clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients).
-

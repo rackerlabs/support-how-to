@@ -10,9 +10,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article refers to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/)
-by clicking your username in the upper-right corner of the control panel
-and selecting Cloud Sites Control Panel.
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 This article will lead you through prepping your Cloud Sites domain to
 host a php based photo gallery using "Gallery", an open source and
@@ -74,7 +72,7 @@ Following is the link that was current at the time of this article:
     it.
 4.  Click **Start Using Gallery**.
 
-### Success 
+### Success
 
 You have now successfully installed Gallery. Please keep in mind that
 this is a very much used and known PHP application, just like any well
