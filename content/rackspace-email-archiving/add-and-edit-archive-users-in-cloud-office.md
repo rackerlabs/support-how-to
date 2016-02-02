@@ -86,6 +86,7 @@ Use the following steps to add individual users to the Archive Manager.
 7\.  Enter additional contact information.
 
 8\.  Under **Account Options**, specify the following user settings:
+
     -   **Expire Date**: Accounts for users can be set up with permanent
         or temporary access. You can specify an expiration date for
         those users whose access should be limited.
