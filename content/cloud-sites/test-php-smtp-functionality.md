@@ -18,24 +18,23 @@ Because of stringent anti-spam filters, sending mail through
 unauthenticated SMTP servers (including the localhost relay on Cloud
 Sites) can result in delays or undelivered email.
 
-Sending mail with PHP SMTP
---------------------------
+### Sending mail with PHP SMTP
 
 For the following variables, replace the example values with the
 appropriate values for your system:
 
--   \$from
--   \$to
--   \$subject
--   \$body
--   \$host
--   \$username
--   \$password
+-   $from
+-   $to
+-   $subject
+-   $body
+-   $host
+-   $username
+-   $password
 
 The host, username, and password values depend on the provider that
 you're using to send your email. If you have a legacy Cloud Sites email
 account or are using Rackspace Email, the host is
-`"mail.emailsrvr.com"`, and the username is your email address. If
+**mail.emailsrvr.com**, and the username is your email address. If
 you're using another service such as Mailgun or Gmail to send email, you
 must provide the SMTP server for that service. You can access Mailgun
 server information in the Mailgun control panel.
@@ -70,21 +69,18 @@ server information in the Mailgun control panel.
     }
     ?>
 
-Sending mail with PHP SMTP with SSL
------------------------------------
+### Sending mail with PHP SMTP with SSL
 
 For the following variables, replace the example values with the
 appropriate values for your system:
 
--   \$from
--   \$to
--   \$subject
--   \$body
--   \$host
--   \$username
--   \$password
-
-<!-- -->
+-   $from
+-   $to
+-   $subject
+-   $body
+-   $host
+-   $username
+-   $password
 
 
     <?php
@@ -119,18 +115,8 @@ appropriate values for your system:
     }
     ?>
 
-**Note**:
-[Mail.php](http://pear.php.net/package/Mail "http://pear.php.net/package/Mail")
-is a [PEAR](http://pear.php.net/ "http://pear.php.net/") module and is
-installed on the server. It is included in the default
-[include\_path](http://www.php.net/manual/en/ini.core.php "http://www.php.net/manual/en/ini.core.php#ini.include-path")
-for PHP, so
-[requiring](http://php.net/manual/en/function.require.php "http://php.net/manual/en/function.require.php")
-it here works by default.
+**Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it here works by default.
 
-Related article
----------------
+### Related article
 
-[Test CDOSYS SMTP
-functionality](/how-to/test-cdosys-smtp-functionality)
-
+[Test CDOSYS SMTP functionality](/how-to/test-cdosys-smtp-functionality)
