@@ -1,6 +1,6 @@
 ---
 node_id: 1468
-title: Create a Cloud Server
+title: Create a cloud server
 type: article
 created_date: '2012-07-17'
 created_by: Rackspace Support
@@ -16,7 +16,7 @@ Control Panel interface.
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com). The Cloud Servers list opens
     by default.
 2.  Click the **Create Server** button.
-3.  In the** Identity **section enter a name for your server in
+3.  In the **Identity** section, enter a name for your server in
     the **Server Name** field.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.12.15%20AM.png" width="259" height="163" />
@@ -38,30 +38,30 @@ Control Panel interface.
 7.  *(Optional)* Assign a public key to the server by selecting an
     existing key.
 
-    -   To assign an existing public key, under Advanced Options, select
+    1.   To assign an existing public key, under Advanced Options, select
         a public key from the drop down list.
 
         <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.18.41%20AM.png" width="379" height="87" />
 
-    -   Select the public key from the list and continue with the
+    2.   Select the public key from the list and continue with the
         next step.
 
-8.  To add a new public key, click **Manage SSH Keys** and:
+8.  To add a new public key, click **Manage SSH Keys** and perform the following steps:
 
-    -   On the SSH Keys page, click **Add Public Key**
-    -   If you are adding a public key, give your new public key a name
-    -   In the Region field, confirm or select the region in which your
-        key will be used
-    -   Paste your public key into the Public Key field.
+    1.   On the SSH Keys page, click **Add Public Key**
+    2.   If you are adding a public key, give your new public key a name.
+    3.   In the **Region** field, confirm or select the region in which your
+        key will be used.
+    4.   Paste your public key into the **Public Key** field.
 
         **Note:** If you do not have a public key yet, click [How to get a public key](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
         and follow the instructions in that article.
         For more information on how to generate a public and
         private key pairs, see [Manage SSH Keypairs for Cloud Servers with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
-    -   Once you have your entered your Key Name, Region, and the Public
+    5.   Once you have your entered your Key Name, Region, and the Public
         Key, click **Add Public Key**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.30.59%20AM.png" width="655" height="299" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.30.59%20AM.png" width="655" height="299" />
 
 9.  Confirm that your key is listed in the SSH Key list for your new
     server.
