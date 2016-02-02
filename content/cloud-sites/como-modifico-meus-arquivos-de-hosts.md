@@ -1,5 +1,5 @@
 ---
-node_id: 1395
+node_id: 629-pt
 title: Como modifico meus arquivos de hosts?
 type: article
 created_date: '2011-03-16'
@@ -19,11 +19,11 @@ Seu arquivo hosts precisa de duas entradas secund&aacute;rias que cont&ecirc;m o
 
 Abaixo detalhes de como localizar e editar o arquivo hosts em diferentes sistemas operacionais. Uma vez que as informa&ccedil;&otilde;es de um dom&iacute;nio s&atilde;o adicionadas, salve o arquivo e o sistema come&ccedil;ar&aacute; a enviar ao IP especificado. Ap&oacute;s os testes, estas entradas devem ser removidas.
 
--   [Windows 8, Windows 7, and Windows Vista](#Windows_Vista)
--   [Windows NT, Windows 2000, and Windows XP](#Windows_NT2000XP)
--   [Linux](#Linux)
--   [Mac OS X 10.0 through 10.1.5](#Mac_OS_X_100_through_1015)
--   [Mac OS X 10.6 through 10.8](#macosx10.6)
+-   Windows 8, Windows 7, and Windows Vista
+-   Windows NT, Windows 2000, and Windows XP
+-   Linux
+-   Mac OS X 10.0 through 10.1.5
+-   Mac OS X 10.6 through 10.8
 
 ### Windows 8, Windows 7, e Windows Vista
 
@@ -68,6 +68,8 @@ Windows 8, Windows 7 e Windows Vista usam o Controle de Conta de Usu&aacute;rio 
 3.  Digite sua senha
 4.  Fa&ccedil;a as altera&ccedil;&otilde;es necess&aacute;rias no arquivo hosts.
 5.  Pressione **control X** (Clique **CTRL** e pressione **X**) e, em seguida, clique quando perguntado se voc&ecirc; deseja salvar as altera&ccedil;&otilde;es.
+
+### Mac OS X 10.0 - 10.8
 
 **Mac OS X 10.0 through 10.1.5**
 
