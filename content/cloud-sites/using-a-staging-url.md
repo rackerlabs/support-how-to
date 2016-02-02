@@ -12,24 +12,24 @@ product_url: cloud-sites
 
 This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
-**Prerequisite**
+### Prerequisites
 
 -   Administrative access to the Rackspace Cloud
 
-**Procedure**
+### Procedure
 
--   Navigate to Hosting-&gt;Cloud Sites, from the list of domains click
+-   Navigate to **Hosting > Cloud Sites**, from the list of domains click
     on the hyperlink of the domain and select **General Settings** tab
--   Scroll down to the Viewing and Editing section and check the testing
+-   Scroll down to the **Viewing and Editing** section and check the testing
     URL link, this identifies the technology, cluster and data center
     used for this website.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/staging_url.png" width="401" height="45" />
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/staging_url.png)
 
 -   All content and code uploaded to the site can now be accessed with
     the test or staging url
 -   The website can be made public when needed. Site owner must log into
-    the website for the domain reistrar where they bought the
+    the website for the domain registrar where they bought the
     domain--for example, **Godaddy.com** or **Register,com**, and set
     the DNS name servers for the domain **dns1.stabletransit.com** and
     **dns2.stabletransit.com**. Additionally you can use external name

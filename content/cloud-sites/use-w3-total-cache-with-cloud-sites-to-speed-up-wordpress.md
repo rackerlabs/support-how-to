@@ -28,11 +28,11 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
     The W3 Total Cache settings commands are expanded.
 
-    <img alt="" height="204" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_menu.png" width="159" border="1" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_menu.png)
 
 2. Click **General Settings**.
 
-    <img alt="" height="204" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_general.png" width="166" border="1" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_general.png)
 
 3. Set the following options and then click **Save all settings**:
 
@@ -49,7 +49,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 4. In the menu, click **Page Cache**.
 
-    <img alt="" height="204" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_pagecache.png" width="160" border="1" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_pagecache.png)
 
 5. Set the following options and then click **Save all settings**:
 
@@ -65,7 +65,6 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 6. In the menu, click **Minify**.
 
-
 7. Set the following options and then click **Save all settings**:
 
 	- Select **Rewrite URL structure**.
@@ -80,7 +79,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 8. In the menu, click **Browser Cache**.
 
-    <img alt="" height="216" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_browsercache.png" width="158" border="1" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_browsercache.png)
 
 9. Set the following options and then click **Save all settings**:
 
@@ -107,7 +106,6 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
     Exporting the settings enables you to import them to a different site for more rapid deployment of the plugin.
 
-
 ### To Optionally Enable Cloud Files CDN
 
 1. In the WordPress menu, click **Performance > General Settings**.
@@ -120,7 +118,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 5. In the menu, click **CDN**.
 
-    <img alt="" height="128" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_cdn.png" width="162" border="1" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_cdn.png)
 
 6. In the **General** section, clear the following check boxes:
 
@@ -163,6 +161,3 @@ After you've successfully set up W3 Total Cache, in the WordPress menu, click **
 Visit the page once or twice to trigger the building of the cache by the WordPress cron.
 
 After the cache is built, you should see a significant change in the speed of your site on both the front end and the back end.
-
-
-<p>&nbsp;</p>

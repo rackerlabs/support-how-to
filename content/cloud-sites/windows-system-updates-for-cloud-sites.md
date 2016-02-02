@@ -28,8 +28,6 @@ hot-fixes and hardware BIOS, firmware and drivers is:
     was not found during testing, all systems will have the updates
     applied before the next monthly release.
 
-
-
 ### Application and Server updates
 
 Any update that affects the web application framework (ASP.NET, ASP and
@@ -37,7 +35,6 @@ SQL) will be communicated to customers before they are deployed to our
 environment. This is intended to allow customers proper time to test
 functional with existing code and make any adjustments necessary to
 function under the new updates.
-
 
 ### Critical Updates
 
@@ -49,4 +46,3 @@ possible from when they are released once they are verified with
 Microsoft as an immediate security risk. Customers will be notified of
 the scheduled critical update run at which time these updates become
 known.
-
