@@ -98,7 +98,7 @@ Windows 8, Windows 7 e Windows Vista usam o Controle de Conta de Usu&aacute;rio 
 3.  Digite sua senha quando solicitado.
 4.  Edite o arquivo **hosts**.
 
-  O arquivo hosts cont&eacute;m coment&aacute;rios (linhas que come&ccedil;am com \#), e alguns nomes de host de mapeamento padr&atilde;o (por exemplo, 127.0.0.1 host local). Fixe seus novos mapeamentos abaixo os mapeamentos padr&atilde;o.
+   O arquivo hosts cont&eacute;m coment&aacute;rios (linhas que come&ccedil;am com \#), e alguns nomes de host de mapeamento padr&atilde;o (por exemplo, 127.0.0.1 host local). Fixe seus novos mapeamentos abaixo os mapeamentos padr&atilde;o.
 
 5.  Salve o arquivo hosts pressionando **Control + x** y e resposta.
 6.  Para que as altera&ccedil;&otilde;es tenham efeito, esvaziar o cache DNS com o seguinte comando:
