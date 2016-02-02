@@ -16,13 +16,10 @@ change to a new SSL Certificate, you can follow these instructions to
 get your SSL updated and installed quickly.
 
 **Attention MyRack users:** To update the SSL certificates for your
-environment, follow the instructions in the [Reissuing your Rackspace
-SSL Certificates](https://community.rackspace.com/products/f/43/t/4478)
+environment, follow the instructions in the [Reissuing your Rackspace SSL Certificates](https://community.rackspace.com/products/f/43/t/4478)
 article posted in the Rackspace Support forum.
 
-
-
-### <span class="mw-headline">Getting Started</span>
+### Getting Started
 
 In order to update or renew your SSL Certificate, you will need your
 CSR. If you don't have your CSR saved, please contact support to have a
@@ -34,12 +31,13 @@ information.
 
 Next, you will need to update/renew your SSL Certificate. SSL
 Certificates are available from a number of third party sources. Some
-recommended sellers are
-[RapidSSL](http://www.rapidssl.com "http://www.rapidssl.com"),
-[Geotrust](http://www.geotrust.com "http://www.geotrust.com"), and
-[Verisign](http://www.verisign.com "http://www.verisign.com"). [Click
-here for a more complete list of supported
-certificates.](/how-to/supported-ssl-certificates-on-cloud-sites "What kinds of SSL certificates can be installed?")
+recommended sellers are:
+
+-  [RapidSSL](http://www.rapidssl.com)
+-  [Geotrust](http://www.geotrust.com)
+-  [Verisign](http://www.verisign.com)
+
+[Click here for a more complete list of supported certificates.](/how-to/supported-ssl-certificates-on-cloud-sites)
 
 Follow your vendor's SSL Certificate renewal process; in particular you
 may require the following details:
@@ -48,15 +46,11 @@ may require the following details:
 -   **SSL type**: OpenSSL
 -   **CSR**
 
-Once you have completed your certificate renewal, you're ready to
-[install the new certificate](#Installing_the_Certificate)!
+Once you have completed your certificate renewal, you're ready to install the new certificate.
 
+### Installing the Certificate
 
-
-### <span class="mw-headline">Installing the Certificate</span>
-
-<span class="mw-headline">In order to install your new SSL certificate,
-you will need the following information:</span>
+In order to install your new SSL certificate, you will need the following information:
 
 1.  Certificate
 2.  Private Key
@@ -64,26 +58,22 @@ you will need the following information:</span>
     the vendor)
 
 Once you have the above information, you can install your new
-certificate by clicking on the Security tab of your site, then click on
-the Edit Certificate link:
+certificate by clicking on the **Security** tab of your site, then click on
+the **Edit Certificate link**:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Edit%20Certificate.png" width="650" />
+![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Edit%20Certificate.png)
 
 On the next screen, you will see three fields for Certificate, Private
 Key, and Intermediate Certificate; simply replace the current
 information with your updated info and hit save.
 
-
-
-### <span class="mw-headline">DNS Update</span>
+### DNS Update
 
 Because you are updating an existing SSL certificate, you will not need
 to wait for propagation as you would when installing a new SSL
 Certificate.
 
-
-
-### <span class="mw-headline">What To Watch For</span>
+### What To Watch For
 
 -   Rackspace Cloud Sites does not support wildcard certificates - such
     as **\*.domain.com** or **\*.example.com**. - or
@@ -92,5 +82,3 @@ Certificate.
     certificates (EV).
 -   Removing the SSL certificate from your site will change its IP
     address, which can require a DNS change.
-
-

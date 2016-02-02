@@ -35,15 +35,14 @@ To transfer the domain, the winning registrar will likely require you to
 provide them with the domain authorization code (also called the EPP
 code). To obtain the code, follow these steps:
 
-1.  Log in to the [Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com).
-2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
+2.  In the left navigation pane, click **Hosting > Cloud Sites**.
 3.  Click the domain for which you want to obtain the
     authorization code.
 4.  Click the **DNS** tab.
 5.  Under **Domain Registration**, click **Retrieve Domain Authcode**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DNS_Tabblur.png" width="854" height="356" />
+  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DNS_Tabblur.png)
 
 **Note:** If the domain is either an alias or has been removed from the
 control panel, contact Rackspace Support. Support can send an automated
@@ -60,4 +59,3 @@ After you complete these steps, the process should be automated; no
 further action should be required of you. Although Support cannot
 process the domain transfer for you, contact us for any questions you
 have about the process.
-

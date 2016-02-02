@@ -15,8 +15,6 @@ product_url: cloud-sites
 To protect the integrity of the Rackspace Cloud Sites platform, we have
 limited the ability to run some commands via CRON.
 
-### Commands:
-
 -   crontab
 -   df
 -   dmesg
@@ -36,5 +34,3 @@ limited the ability to run some commands via CRON.
 -   yppasswd
 -   yum
 -   strace
-
-
