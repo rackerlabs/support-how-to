@@ -13,8 +13,7 @@ product_url: undefined
 Rackspace support is available 24 hours a day, 7 days a week, and 365
 days a year for all products. You can reach the support team by phone
 and live chat. You can also create a support ticket and administer your
-Rackspace product through the [Cloud Control
-Panel](mycloud.rackspace.com).
+Rackspace product through the [Cloud Control Panel](https://mycloud.rackspace.com/).
 
 ### Contact support by phone
 
@@ -24,7 +23,7 @@ Call Rackspace support at 1-800-961-4454 in the US, and at
 ### Cloud Control Panel support features
 
 The following support features are available through the Cloud Control
-Panel at <https://mycloud.rackspace.com>:
+Panel at <https://mycloud.rackspace.com/>:
 
 -   Account Administration
 -   Live Chat Support
@@ -39,6 +38,3 @@ RackConnect and Rackspace CDN, at the following links:
 -   Cloud Office - <https://cp.rackspace.com>
 -   Mailgun - <http://status.mailgun.com/>
 -   Dedicated Hosting - <https://my.rackspace.com>
-
-
-

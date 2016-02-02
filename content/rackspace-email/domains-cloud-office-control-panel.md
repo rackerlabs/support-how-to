@@ -31,6 +31,6 @@ From the Spam Filtering section of the control panel, you can manage the spam se
 You can use the **Tools** section of the control panel to configure various domain-wide settings and tools:
 
 - [Set up split-domain routing](/how-to/split-domain-routing)
-- [Email everyone on your domain](/how-to/emailing-everyone-on-your-domain-cloud-office-control-panel)
+- [Email everyone on your domain](/how-to/email-everyone-cloud-office-control-panel)
 - [Activate a catch-all address](/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel)
 - [Migrating email](/how-to/email-migration-services)
