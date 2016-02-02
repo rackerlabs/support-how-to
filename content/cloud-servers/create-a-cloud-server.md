@@ -1,6 +1,6 @@
 ---
 node_id: 1468
-title: Create a Cloud Server
+title: Create a cloud server
 type: article
 created_date: '2012-07-17'
 created_by: Rackspace Support
