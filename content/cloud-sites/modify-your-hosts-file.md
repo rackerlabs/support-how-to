@@ -70,6 +70,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 5.  Press **Control-x**.
 6.  When asked if you want to save your changes, answer **y**.
 
+### Mac OS X 10.0 - 10.8
 
 **Mac OS X 10.0 through 10.1.5**
 
@@ -91,7 +92,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 8.  Double-click the value of the `ip_address` property and enter the IP address of the other computer.
 9.  Double-click the value of the `name` property and enter the hostname you want for the other computer.
 10.  Click the `serves` property and select **Delete** from the **Edit** menu.
-11.  From the **File** menu, select S**ave**.
+11.  From the **File** menu, select **Save**.
 
   A confirmation alert appears.
 
