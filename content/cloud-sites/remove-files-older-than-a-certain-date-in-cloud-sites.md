@@ -26,11 +26,11 @@ cron job, perform one of the following tasks:
 -   Hard code the arguments passed over `HTML GET`.
 -   Pass the arguments on the CLI and use `argv[0]` and `argv[1]`.
 
-#### Example 1
+**Example 1**
 
     ex1 $dir = opendir("/mnt/stor1-wc1-dfw1/111111/www.testform.com/web/content/logs") or die("Could not open directory");
 
-#### <span class="mw-headline">Example 2 </span>
+**Example 2**
 
     ex2 $dir  = opendir($argv[0)) or die("Could not open directory");
 
@@ -96,6 +96,3 @@ be constructed as follows:
     closedir($dir);
 
     ?>
-
-
-
