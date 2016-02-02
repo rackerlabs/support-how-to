@@ -6,8 +6,8 @@ created_date: '2011-10-31'
 created_by: Rackspace Support
 last_modified_date: '2016-01-11'
 last_modified_by: Rose Contreras
-product: Cloud Sites
-product_url: cloud-sites
+product: Rackspace Email
+product_url: rackspace-email
 ---
 
 A domain's WHOIS record can include various types of information for the
