@@ -15,9 +15,8 @@ This article is written for our [Cloud Sites Control Panel](https://manage.racks
 To renew the domain name for your Cloud Sites domain that you purchased
 from Rackspace, use the following steps:
 
-1.  Log in to the [Cloud Sites Control
-    Panel](http://manage.rackspacecloud.com "http://manage.rackspacecloud.com").
-2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](http://manage.rackspacecloud.com "http://manage.rackspacecloud.com").
+2.  In the left navigation pane, click **Hosting > Cloud Sites**.
 3.  Click on the domain name that you want to renew.
 4.  On the **DNS** tab, click on the **Renew** button.
     If the **Renew** button is not visible, see the note that follows
