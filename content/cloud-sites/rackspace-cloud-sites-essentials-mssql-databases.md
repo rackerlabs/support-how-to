@@ -25,8 +25,7 @@ jump in and add our first database.
 
   ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_1.png)
 
-3.  From the list of domains click on the website for which a new
-    MSSQL database needs to be added.
+3.  From the list of domains click on the website for which a new MSSQL database needs to be added.
 
   ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_2.png)
 
