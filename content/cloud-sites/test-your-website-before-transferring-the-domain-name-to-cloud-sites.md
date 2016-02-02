@@ -17,7 +17,7 @@ your website before you change the DNS of your domain. Access the URL as
 follows:
 
 1.  In the left navigation pane of the Cloud Sites Control Panel, click
-    **Hosting &gt; Cloud Sites**.
+    **Hosting > Cloud Sites**.
 2.  Click the name of the site that you want to test.
 
 The test URL is located on the **General Settings** tab, under **Viewing
@@ -35,5 +35,4 @@ technology on which your domain resides, so your specific test URL might
 be different from the examples.
 
 For information about how to add content to your test website by using
-the test FTP, see [Getting Started With Cloud Sites, FTP/SSHFS/FTP
-Clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients).
+the test FTP, see [Getting Started With Cloud Sites, FTP/SSHFS/FTP Clients](/how-to/getting-started-with-cloud-sites-ftpsshfsftp-clients).
