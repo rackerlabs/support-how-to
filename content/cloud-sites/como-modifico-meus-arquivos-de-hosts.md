@@ -19,11 +19,11 @@ Seu arquivo hosts precisa de duas entradas secund&aacute;rias que cont&ecirc;m o
 
 Abaixo detalhes de como localizar e editar o arquivo hosts em diferentes sistemas operacionais. Uma vez que as informa&ccedil;&otilde;es de um dom&iacute;nio s&atilde;o adicionadas, salve o arquivo e o sistema come&ccedil;ar&aacute; a enviar ao IP especificado. Ap&oacute;s os testes, estas entradas devem ser removidas.
 
--   Windows 8, Windows 7, and Windows Vista
--   Windows NT, Windows 2000, and Windows XP
+-   Windows 8, Windows 7, e Windows Vista
+-   Windows NT, Windows 2000, e Windows XP
 -   Linux
--   Mac OS X 10.0 through 10.1.5
--   Mac OS X 10.6 through 10.8
+-   Mac OS X 10.0 - 10.1.5
+-   Mac OS X 10.6 - 10.8
 
 ### Windows 8, Windows 7, e Windows Vista
 
@@ -71,7 +71,7 @@ Windows 8, Windows 7 e Windows Vista usam o Controle de Conta de Usu&aacute;rio 
 
 ### Mac OS X 10.0 - 10.8
 
-**Mac OS X 10.0 through 10.1.5**
+**Mac OS X 10.0 - 10.1.5**
 
 1.  Abra **Applications/Utilities/NetInfo Manager**.
 2.  Para permitir a edi&ccedil;&atilde;o do banco de dados do NetInfo, clique no cadeado no canto inferior esquerdo da janela.

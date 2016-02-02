@@ -49,7 +49,7 @@ Windows 8, Windows 7 y Windows Vista usan el Control de cuentas de usuario (UAC,
 7.  Realice los cambios necesarios para el archivo de hosts.
 8.  Presione **Archivo > Guardar** para guardar los cambios.
 
-**Windows NT, Windows 2000, and Windows XP**
+**Windows NT, Windows 2000, y Windows XP**
 
 1.  Presione **Iniciar > Todos los programas > Accesorios > Bloc de notas**.
 2.  Presione **Archivo > Abrir**.
@@ -74,7 +74,7 @@ Windows 8, Windows 7 y Windows Vista usan el Control de cuentas de usuario (UAC,
 
 ### Mac OS X 10.0 - 10.8
 
-**Mac OS X 10.0 through 10.1.5**
+**Mac OS X 10.0 - 10.1.5**
 
 1. Abra **Aplicaciones > Utilidades > Gestor NetInfo**.
 
@@ -121,5 +121,5 @@ Windows 8, Windows 7 y Windows Vista usan el Control de cuentas de usuario (UAC,
 5. Para que se apliquen sus cambios, vacíe la caché del DNS con el siguiente comando:
 
        dscacheutil -flushcache
-       
+
 6. Ahora se aplicarán los nuevos mapeos.
