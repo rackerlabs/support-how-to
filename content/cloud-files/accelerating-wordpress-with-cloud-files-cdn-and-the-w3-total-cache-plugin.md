@@ -114,4 +114,3 @@ On the **General** tab, click **Upload Includes**, then click **Start when the n
 After you upload the content to the CDN, ensure that you select the **Empty all cache** option under the **General Settings** section. You can then preview the CDN functionality under the **General** tab by selecting **Preview** or you can deploy the site.
 
 If you need more assistance, click on the down arrow next to the **Viewing** section on the **General Settings** page.
-<p>&nbsp;</p>

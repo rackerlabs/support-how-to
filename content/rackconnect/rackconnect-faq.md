@@ -41,8 +41,7 @@ available.
 No. Because of access list limitations, we currently support the Brocade
 ADX 1000 devices only in the connected device role. For a full list of
 network devices that are compatible with RackConnect v3.0, see
-[RackConnect network device
-comparison](/how-to/rackconnect-network-device-comparison).
+[RackConnect network device comparison](/how-to/rackconnect-network-device-comparison).
 
 #### Does RackConnect v3.0 support IPv6?
 
@@ -63,12 +62,10 @@ customer:
 
 -   If you are new to Rackspace, contact a member of our Sales team
     for help. For details about how to contact our Sales teams, go to
-    [Contact
-    Rackspace](http://www.rackspace.com/information/contactus/).
+    [Contact Rackspace](http://www.rackspace.com/information/contactus/).
 -   If you are an existing Rackspace cloud-only customer, contact a
     member of our Sales team for help. For details about how to contact
-    our Sales team, go to [Contact
-    Rackspace](http://www.rackspace.com/information/contactus/).
+    our Sales team, go to [Contact Rackspace](http://www.rackspace.com/information/contactus/).
 -   If you are an existing Rackspace dedicated-only customer, contact
     your account manager for help in getting RackConnect v3.0 set up in
     your environment.
@@ -130,13 +127,10 @@ resolving this error:
     `--no-service-net` option with the nova client `boot` command to
     keep the ServiceNet network from being attached to a cloud server.
     However, consider that ServiceNet is required for cloud servers
-    created in cloud accounts with a [Managed
-    Operations](http://www.rackspace.com/managed-cloud/) service level.
+    created in cloud accounts with a [Managed Operations](http://www.rackspace.com/managed-cloud/) service level.
 -   With the Cloud Servers API, specify the cloud network that you want
     to attach to the cloud server. If you specify one or more networks,
-    your server is attached to only those networks. See the [Create your
-    first
-    Server](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server-intro)
+    your server is attached to only those networks. See the [Create your first Server](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server-intro)
     section of the Cloud Servers v2 Developer Guide for
     more information.
 
@@ -176,7 +170,7 @@ If you believe your issue is Cloud Server specific, please raise the
 appropriate query with the Cloud team via the Cloud Control Panel,
 otherwise please raise other requests via the my.rackspace.com portal.
 
-#### I already have a cloud account, can I connect to my exisiting servers?
+#### I already have a cloud account, can I connect to my existing servers?
 
 You may RackConnect an existing Cloud account, but any existing servers
 will not be RackConnected. If existing servers need to be RackConnected,
@@ -197,7 +191,7 @@ geographic region as your dedicated servers. Your saved server images
 will only be available for creating servers in the same region as the
 original server.
 
-#### Which cloud account do I need for Rackconnect?
+#### Which cloud account do I need for RackConnect?
 
 RackConnect may be used with both Managed Operations Service Level and
 Managed Infrastructure accounts.
@@ -208,7 +202,7 @@ type for the implementation based on your support requirements. It is
 possible to use RackConnect with more than one cloud account, so you can
 have a mix of both if you prefer.
 
-#### I have Rackconnect v2.0, how can I build unconnected Cloud Servers?
+#### I have RackConnect v2.0, how can I build unconnected Cloud Servers?
 
 During normal circumstances, if your Cloud account has been enabled with
 RackConnect v2.0, your Cloud account is linked to your dedicated hosting
@@ -339,9 +333,7 @@ the private interface. The best work-around for hosting multiple SSL
 sites would be to host each site on a separate Cloud Server, or utilize
 PAT (Port Address Translation).
 
-Please view the following article for further details on PAT: [Multiple
-SSL certificates on a single RackConnect cloud server
-(PAT)](/how-to/multiple-ssl-certificates-on-a-single-rackconnected-cloud-server-pat).
+Please view the following article for further details on PAT: [Multiple SSL certificates on a single RackConnect cloud server (PAT)](/how-to/multiple-ssl-certificates-on-a-single-rackconnected-cloud-server-pat).
 
 #### Can Cloud Load Balancers (CLB) be used with RackConnect?
 
@@ -359,8 +351,7 @@ outbound bandwidth at the standard CLB rate. This bandwidth is not
 included in the "included" bandwidth that comes with each dedicated
 server.
 
-For further details, see [Using Cloud Load
-Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect).
+For further details, see [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect).
 
 #### Do pre-existing snapshots cause issues after an account is set up with RackConnect?
 
@@ -379,7 +370,7 @@ On Friday Nov 2, 2012, Rackspace enabled our final set of images allowing
 88% to 90% of our First Generation Servers to be eligible for a snapshot
 migration to a Next Generation Server. Approximately 130,000 to 135,000
 First Generation Cloud Servers can now easily make the transition over
-to our Next Generation platform powered by OpenStack<sup>&reg;</sup>.
+to our Next Generation platform powered by OpenStack&reg;.
 
 The snapshot migration feature allows a Rackspace customer to take a
 snapshot of their eligible First Generation Cloud Server, and create a
@@ -394,7 +385,7 @@ IP address, but will experience no downtime.
 There will not be an automated migration process available upon launch,
 but we anticipate that one will be made available in the coming months.
 
-#### How do I retrieve the public IP adress for a Next Generation Cloud Server that has been recently provisioned?
+#### How do I retrieve the public IP address for a Next Generation Cloud Server that has been recently provisioned?
 
 You can view the public IP address of your RackConnect Cloud Server in
 the following places:
@@ -406,8 +397,7 @@ the following places:
 -   You can retrieve the public IP address through the Cloud Servers API
     by querying for Server Details. The field containing the RackConnect
     Public IP address is called *accessIPv4*. For details about using
-    the API to retrieve server information, see the [Get Server
-    Details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server/get-server-details)
+    the API to retrieve server information, see the [Get Server Details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server/get-server-details)
     section in the *Cloud Servers v2 Developer Guide*.
 
 #### Can I use next generation Cloud Server Images to Create Cloud Servers in different regions?
@@ -432,7 +422,7 @@ in a different region than where your RackConnect configuration is
 located, then it will not be possible to use them with RackConnect until
 the first half of 2014 (expected timeframe).
 
-#### Can I use Rackconnect as a firewall for my Cloud Servers?
+#### Can I use RackConnect as a firewall for my Cloud Servers?
 
 Yes. By default the Cloud Servers are directly exposed to the Internet and
 only the internal OS firewall is available for protection. RackConnect

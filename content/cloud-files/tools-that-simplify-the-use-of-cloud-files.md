@@ -19,10 +19,3 @@ There are several tools available for use with Cloud Files:
 -   Third-party commercial tools, such as CloudPlug from CTERA Networks.
     <span>For more information, go </span><span>to</span> [Cloud
     Tools](https://cloudtools.rackspace.com/home "https://cloudtools.rackspace.com/home").
-
-<div class="printfooter">
-
-
-
-</div>
-

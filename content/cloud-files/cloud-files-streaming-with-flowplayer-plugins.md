@@ -10,8 +10,6 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-<div>
-
 This article will help customers understand how to upload and stream
 videos from Cloud Files using the Akamai CDN.  Using FlowPlayer as your
 streaming video player lets customers get the streaming technology and
@@ -41,6 +39,3 @@ Just follow these steps:**
 4.  Make any config changes to the flowplayer object.
 5.  Add in the swf player object and the player controls swf object and
     set the src for the video.
-
-</div>
-

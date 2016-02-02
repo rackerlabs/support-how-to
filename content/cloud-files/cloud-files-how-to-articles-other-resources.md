@@ -10,8 +10,7 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-Documentation
--------------
+### Documentation
 
 -   [API Developer
     Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
@@ -22,8 +21,7 @@ Documentation
 -   [General Getting Started
     Guide](/how-to/cloud-files)
 
-SDKs
-----
+### SDKs
 
 The Rackspace Cloud Files API is a RESTful API, with support for all
 major bindings listed below:
@@ -36,8 +34,7 @@ major bindings listed below:
 -   [node.js SDK](https://developer.rackspace.com/sdks/node-js/)
 -   [Go SDK](https://developer.rackspace.com/sdks/golang/)
 
-Popular How To Articles from the Rackspace How-tos:
------------------------------------------------------------
+### Popular How To Articles from the Rackspace How-tos:
 
 The Rackspace [How-tos](https://support.rackspace.com/how-to/) houses "how-to"
 articles, getting started guides, code samples, security best practices
@@ -53,8 +50,7 @@ Check out these popular articles:
 -   [Viewing Your API
     Key](/how-to/view-and-reset-your-api-key)
 
-Popular Technical Articles from the Rackspace Blog
---------------------------------------------------
+### Popular Technical Articles from the Rackspace Blog
 
 -   [Cloud Files: CDN Video
     Streaming](http://www.rackspace.com/blog/cloud-files-adds-cdn-video-streaming/)
@@ -74,8 +70,7 @@ Popular Technical Articles from the Rackspace Blog
 -   [Cloud Files/Swift Developer
     Profiles](http://c1776742.cdn.cloudfiles.rackspacecloud.com/downloads/pdfs/CloudFilesSwiftDevelopers.pdf)
 
-Learn About the OpenStack Object Storage Swift Project
-------------------------------------------------------
+### Learn About the OpenStack Object Storage Swift Project
 
 Rackspace Cloud Files is powered by OpenStack's Object Storage "Swift"
 project.  If you want to build your own OpenStack Object Storage
@@ -91,5 +86,3 @@ Cloud Files, check out:
 -   [Configuring Object
     Storage (Swift)](http://wiki.openstack.org/ConfigureSwift)
 -   [How to Contribute Code](http://wiki.openstack.org/HowToContribute)
-
-

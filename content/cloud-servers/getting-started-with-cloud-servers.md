@@ -53,7 +53,7 @@ The following concepts will help you in getting started quickly:
 -   [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 -   [Getting Started on a Windows Cloud Server](/how-to/getting-started-on-a-windows-cloud-server)
 -   [Create DNS records](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
--   [Managing your server](/how-to/managing your server-resizing-standard-and-general-purpose-servers)
+-   [Managing your server](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
 -   [Reboot your server](/how-to/reboot-your-server)
 
 ### Advanced Cloud Server Operations

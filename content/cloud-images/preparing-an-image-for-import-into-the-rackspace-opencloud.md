@@ -15,8 +15,7 @@ disk images into the Rackspace open cloud. For such images to boot
 correctly, they must be prepared according to the following requirements
 and instructions.
 
-###General Requirements
---------------------
+### General Requirements
 
 -   **The image must be a single file in the VHD file format**.
     **Note**: A Cloud Files object, whether a Dynamic Large Object or a
@@ -28,15 +27,13 @@ and instructions.
     **Note**: Images with system disks larger than 40 GB can be
     exported, but cannot be imported into the Rackspace open cloud.
 
-###Microsoft Windows
------------------
+### Microsoft Windows
 
 Microsoft product use rights do not allow the use of License Mobility
 for Windows licenses. *Given the limitations related to this software
 platform, image import is not available for Windows images.*
 
-###Preparing an image offline using XenServer
-------------------------------------------
+### Preparing an image offline using XenServer
 
 If you are preparing an image specifically for use in the Rackspace open
 cloud, we recommend that you prepare it offline using a local
@@ -50,8 +47,7 @@ articles:
 -   [Creating an Ubuntu 13.10 Image for the Rackspace open
     cloud](/how-to/creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud-0 "Creating an Ubuntu 13.10 Image for the Rackspace open cloud")
 
-###Preparing an image online in another cloud
-------------------------------------------
+### Preparing an image online in another cloud
 
 If you already have a server in another cloud, and you'd like to boot an
 instance of it in the Rackspace open cloud, we recommend that you make a
@@ -84,8 +80,7 @@ import it. Please see [Bootstrap Your QCOW Images for the Rackspace
 Public
 Cloud](https://developer.rackspace.com/blog/bootstrap-your-qcow-images-for-the-rackspace-public-cloud/).
 
-###Alternative method
-------------------
+### Alternative method
 
 Preparing an image for import into the Rackspace OpenCloud is somewhat
 complicated. As an alternative, consider using boot.rackspace.com, which
@@ -96,5 +91,3 @@ For details, see the following posts in the Rackspace DevOps Blog:
     boot.rackspace.com](http://developer.rackspace.com/blog/introducing-boot-dot-rackspace-dot-com.html)
 -   [Custom Images via boot.rackspace.com &mdash; Training Wheels
     Included](http://developer.rackspace.com/blog/custom-images-via-boot-dot-rackspace-dot-com-training-wheels-included.html)
-
-

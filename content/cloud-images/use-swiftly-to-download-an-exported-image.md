@@ -26,12 +26,11 @@ sources:
 -   [Installing the Swiftly Cloud Files
     Client](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/)
 
-Downloading your entire image at once
--------------------------------------
+### Downloading your entire image at once
 
 Perform the following tasks to download your entire image at once.
 
-### Set environment variables
+#### Set environment variables
 
 In a bash shell, set the following environment variables:
 
@@ -46,7 +45,7 @@ For information about viewing your Rackspace API key, see [View and
 reset your API
 key.](https://support.rackspace.com/how-to/view-and-reset-your-api-key/)
 
-### Invoke Swiftly
+#### Invoke Swiftly
 
 After you set the environment variables, invoke Swiftly from the command
 line to perform the download, as follows.
@@ -95,7 +94,7 @@ image is a little over 2 GB.)
     VERBOSE 0.57 1 > GET /v1/MossoCloudFS_d4fef4ad-71f1-4ec4-b5fa-f15bf3317d0d/exports/9af8acc8-8189-48b9-b3d6-8152c60074d8.vhd User-Agent: Swiftly v2.02  X-Auth-Token: 5c2ddf4d5031452fb2bae430560aa592
     VERBOSE 0.93 1 < 200 OK
 
-### Check the download
+#### Check the download
 
 The time that it takes for Swiftly to complete your download depends on
 the speed of your network connection and general network congestion. In
@@ -144,8 +143,7 @@ download an image from one side of the world to the other (for example,
 from the London data center to the Sydney data center), you might want
 to try an alternative method, as explained in the next section.
 
-Alternative download method for very large images or if you have network interruptions
---------------------------------------------------------------------------------------
+### Alternative download method for very large images or if you have network interruptions
 
 If your image is very large or you experience network interruptions, the
 download method outlined in the preceding section might repeatedly fail.
@@ -164,7 +162,7 @@ single VHD file.
 This section assumes that you have set all the environment variables
 described in the preceding section.
 
-### Get the Dynamic Large Object manifest
+#### Get the Dynamic Large Object manifest
 
 Use the following command to get the Dynamic Large Object manifest:
 
@@ -196,7 +194,7 @@ your account named **exports**, finds all the objects in it whose names
 match the pattern **9af8acc8-8189-48b9-b3d6-8152c60074d8.vhd-**, and
 streams them out to you in alphabetical order.
 
-### Get the detailed list of segments
+#### Get the detailed list of segments
 
 **Note**: Before reading this section, you might want to review [How
 Exported Images are Stored as Dynamic Large
@@ -233,7 +231,7 @@ The output provides the following information:
 In this example, the Dynamic Large Object has three segments. The first
 two are the same size and the final segment is smaller.
 
-### Download the segments
+#### Download the segments
 
 You can use Swiftly to download the individual segments to a local
 directory, as follows. Ensure that this directory already exists in your
@@ -297,7 +295,7 @@ output](#container-detail-listing "Swiftly container detail (full) listing examp
 you can see that the final segment should be 487424512 bytes, and
 segment-00003 matches that value.
 
-### Download a segment (if necessary)
+#### Download a segment (if necessary)
 
 Use the following commands to get a fresh copy of the bad segment:
 
@@ -333,7 +331,7 @@ Now, view the segments that have been downloaded:
 
 The second segment has the correct size.
 
-### Verify the MD5 checksums
+#### Verify the MD5 checksums
 
 All of the segments have the correct size, but is the content of each
 segment correct? To verify that it is, you can get the MD5 checksum of
@@ -390,7 +388,7 @@ has the correct content, and they&rsquo;ve been put together in the correct
 order. So the VHD file must be identical to the file that was exported
 from Cloud Images into Cloud Files.
 
-### Clean up
+#### Clean up
 
 Look at your local file system again:
 
@@ -432,8 +430,7 @@ different relationship with their segments . If you delete segments in
 Cloud Files, you'll corrupt your Dynamic Large Object (and hence, your
 VHD file).
 
-Conclusion
-----------
+### Conclusion
 
 This article discussed two ways for you to use Swiftly to download from
 Cloud Files an image that you've exported from Cloud Images. If you'd
@@ -441,4 +438,3 @@ like to use Swiftly to upload a VHD to Cloud Files so that you can
 import it into the Rackspace open cloud, see [Using Swiftly to upload an
 image to be
 imported](/how-to/use-swiftly-to-upload-an-image).
-

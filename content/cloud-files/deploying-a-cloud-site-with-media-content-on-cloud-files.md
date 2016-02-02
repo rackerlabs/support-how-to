@@ -17,7 +17,7 @@ Panel](https://mycloud.rackspace.com) by clicking your username in the
 upper-right corner of the Cloud Sites Control Panel and selecting
 "Classic Cloud Control Panel".
 
-### <span>Overview</span>
+### Overview
 
 In this tutorial, you deploy a simple web page that retrieves an image
 from the Cloud Files platform. The tutorial uses some rewrite rules to
@@ -26,12 +26,12 @@ obfuscate the origin URL to optimized searching.
 ### Prerequisites
 
 -   *(If using the browser to upload)* FTP application.
-    <span>FileZilla</span> is a good choice.
--   *(If using program code to upload)* <span>Python</span> installed on
+    FileZilla is a good choice.
+-   *(If using program code to upload)* Python installed on
     the local machine.
 -   A plain text editor (*not* a word processing program like Microsoft
-    Word or OpenOffice). For Mac OS X or Linux, <span>vim</span> is a
-    good choice. For Windows, consider using <span>NotePad++</span>.
+    Word or OpenOffice). For Mac OS X or Linux, vim is a
+    good choice. For Windows, consider using NotePad++.
 -   A picture file. You can use any format, such as JPEG, GIF, or PNG.
 -   Mozilla Firefox or Python, depending on what method you use to
     upload to Cloud Files.
@@ -46,8 +46,8 @@ CyberDuck to upload content.
 #### Example: Using Python SDK
 
 This example assumes that you have pyrax, the Python SDK installed. For
-more information about setting up the SDK for Python, see <span>pyrax
-installation for configuration steps</span>.
+more information about setting up the SDK for Python, see pyrax
+installation for configuration steps.
 
 #### The code
 
@@ -175,6 +175,3 @@ source code.
 If you have any questions or comments or if this tutorial is not working
 for you, send an email to <cloudfiles@rackspacecloud.com> and we will
 answer any questions that you have.
-
-
-

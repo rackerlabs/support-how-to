@@ -87,5 +87,3 @@ Before uploading any files or folders, ensure that your account contains at leas
 After you are logged in, you can view, share, and add Cloud Files content through the Cyberduck interface.
 
 Before uploading any files or folders, ensure that your account contains at least one folder (container) in the region where your files should be stored. You can create a folder by using the **New Folder** command from the File menu. Without an existing folder as a guide, Cyberduck chooses a default region on its own when performing bulk uploads.
-
-<p>&nbsp;</p>

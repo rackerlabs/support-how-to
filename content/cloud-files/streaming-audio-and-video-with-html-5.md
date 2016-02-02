@@ -32,13 +32,7 @@ your Cloud Files account.
 
 Now you are ready to learn about streaming audio and video with HTML5.
 
--   [Streaming Audio with HTML 5](#audio)
--   [Streaming Video with HTML 5](#video)
-
-
-
-Streaming Audio
----------------
+### Streaming Audio
 
 We created sample audio and web page files for you to download and play
 with. They are wrapped up in [a zip
@@ -82,8 +76,7 @@ Here is what you should see when it's working:
 
 
 
-Streaming Video
----------------
+### Streaming Video
 
 We created sample video and web page files for you to download and play
 with. They are wrapped up in [a zip
@@ -140,4 +133,3 @@ store](https://itunes.apple.com/us/app/miro-video-converter-mvc/id412699210?mt=1
 Here is what you should see when it's working:
 
 *Sorry, your browser doesn't support HTML5 video.*
-

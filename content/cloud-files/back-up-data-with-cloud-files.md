@@ -17,8 +17,7 @@ Files service.
 **Note:** If you would like for us to provide Cloud Backup as a service,
 see <http://www.rackspace.com/cloud/backup> for information.
 
-Prepare to back up
-------------------
+### Prepare to back up
 
 Before you use Cloud files to back up your data, perform the following
 steps to prepare your data:
@@ -32,8 +31,7 @@ steps to prepare your data:
     This optional step saves storage and bandwidth costs and
     increases security.
 
-Back up your data
------------------
+### Back up your data
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
 2.  At the top of the window, click **Storage &gt; Files**.
@@ -63,12 +61,9 @@ Back up your data
     b.  Select the files and then click **Open**.
         Your files are uploaded to the container.
 
-Next steps
-----------
+### Next steps
 
 1.  Update your backup records with the current date as the date of the
     last backup.
 2.  Perform the next backup (that is, upload files to Cloud Files)
     according to the backup plan that you created.
-
-

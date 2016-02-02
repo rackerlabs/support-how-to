@@ -14,8 +14,7 @@ This article provides some general information about sharing server
 images and provides details about how image sharing works in the Cloud
 Control Panel.
 
-###How are shared images useful?
------------------------------
+### How are shared images useful?
 
 Image sharing enables you to use custom images created by other
 Rackspace cloud users and to create custom images to share with others.
@@ -43,8 +42,7 @@ Following are example scenarios in which image sharing would be helpful:
 **Note**: Image sharing is only available in Next Generation Cloud
 Servers.  It is not available in First Generation Cloud Servers.
 
-###Image sharing overview
-----------------------
+### Image sharing overview
 
 Here's a quick overview of some aspects of image sharing.  To keep
 things clear, we'll refer to the person who's created an image to share
@@ -95,7 +93,7 @@ and the "consumer" is the share-ee.)
 For more information, see the image sharing section of the [Cloud Images
 FAQ](/how-to/cloud-images-faq).
 
-####Permissions
+#### Permissions
 
 The abilities to share and accept images are controlled by Role Based
 Access Control for Cloud Images. Briefly:
@@ -111,12 +109,11 @@ For more information about Cloud Images RBAC, please see the Knowledge
 Center article [Detailed Permission Matrix for Cloud
 Images](/how-to/detailed-permissions-matrix-for-cloud-images).
 
-###Sharing an image in the Cloud Control Panel
--------------------------------------------
+### Sharing an image in the Cloud Control Panel
 
 Use the following considerations and steps to share server images.
 
-####Before you share an image
+#### Before you share an image
 
 Before you share an image, consider the following questions:
 
@@ -134,7 +131,7 @@ Before you share an image, consider the following questions:
     regard to the type of software included on images.  Ensure that
     you're familiar with the AUP before you share an image.
 
-####Share an image
+#### Share an image
 
 1.  When your image is ready to share, use one of the following methods
     in the Control Panel to share it:
@@ -173,7 +170,7 @@ populated with a row containing information about this sharing event.
 You can see which users have accepted or rejected your sharing request,
 and for which users the request is pending acceptance.
 
-#####What about Chicago (ORD)?
+#### What about Chicago (ORD)?
 
 If you are an image producer who wants to share an image in the ORD
 region of the Rackspace cloud, please be aware that the provisioning of
@@ -194,7 +191,7 @@ To learn more about regions in the Rackspace cloud, please see the
 Knowledge Center article [Where are the Rackspace data centers
 located?](/how-to/rackspace-data-centers-and-regions).
 
-####Image sharing courtesy
+#### Image sharing courtesy
 
 To keep the Rackspace cloud a friendly place, observe the following
 suggestions:
@@ -210,8 +207,7 @@ suggestions:
     re-share the image with the consumer.  As an image producer, you
     cannot directly change their status.
 
-###Accept or reject a shared image
--------------------------------
+### Accept or reject a shared image
 
 As explained earlier, to prevent spam in your image list, you must
 accept an image before it appears in your image list.  There are two
@@ -241,7 +237,7 @@ If you don't want to boot from the image now and want to postpone the
 decision to accept or reject the image, simply close the dialog box and
 the notification will remain.
 
-####Reject an image after accepting it
+#### Reject an image after accepting it
 
 If you accept an image and then decide later that you don't want it, you
 can reject it.
@@ -256,8 +252,7 @@ If you reject an image and decide later that you want it after all, you
 must notify the image producer and ask that the image be re-shared with
 you.
 
-###Use a shared image
-------------------
+### Use a shared image
 
 After you accept a shared image, you can use it to boot a server using
 your normal workflow.  However, we encourage you to consider the
@@ -284,5 +279,3 @@ following information before booting a server from a shared image:
     shared with you contains malware or is behaving strangely, you can
     report such suspicious activities to Rackspace Support and
     to <cloudimageshelp@rackspace.com>.
-
-
