@@ -27,12 +27,9 @@ only secure transactions will be processed. This action allows SSL
 traffic to pass through a separate location and provides customers with
 a visual cue that they are on a secure site.
 
-For information about setting up a subdomain, see [Creating subdomains
-or domain
-aliases](/how-to/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases).
+For information about setting up a subdomain, see [Creating subdomains or domain aliases](/how-to/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases).
 
-For details on adding SSL to a site, see [Configuring SSL on your
-websites](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
+For details on adding SSL to a site, see [Configuring SSL on your websites](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites).
 
 ### Serving static content
 
@@ -44,8 +41,7 @@ Files offering, but any CDN will work.
 This process gives your customers decreased latency when accessing media
 because the content is cached and served by servers closest to their
 physical location. For more information about using Cloud Files, see the
-[Cloud Files Knowledge
-Base](/how-to/cloud-files).
+[Cloud Files introduction page](/how-to/cloud-files).
 
 ### Optimizing the database
 
@@ -70,9 +66,9 @@ website to perform and scale more efficiently.
 
 #### Planning for high traffic
 
-**If you are expecting an increase in traffic to your website, create a
+**Note:** If you are expecting an increase in traffic to your website, create a
 Support ticket for your site with the following subject line: Expected
-High Traffic *websiteName***.
+High Traffic *websiteName*.
 
 In the ticket, provide information about the amount of expected traffic
 and the date that you expect the traffic to begin to increase by
@@ -100,13 +96,7 @@ functionality during your event.
 
 See the following optimization articles that apply to your websites:
 
--   [Optimize
-    SugarCRM](/how-to/optimize-sugarcrm-on-cloud-sites)
--   [Optimizing your Drupal
-    site](http://www.rackspace.com/blog/optimizing-your-drupal-site/)
--   [Accelerating WordPress with Cloud Files and the W3 Total Cache
-    Plugin](/how-to/accelerating-wordpress-with-cloud-files-cdn-and-the-w3-total-cache-plugin)
--   [Using WP-SuperCache to optimize Wordpress on Cloud
-    Sites](/how-to/using-wp-supercache-to-optimize-wordpress-on-cloud-sites)
-
-
+-   [Optimize SugarCRM](/how-to/optimize-sugarcrm-on-cloud-sites)
+-   [Optimizing your Drupal site](http://www.rackspace.com/blog/optimizing-your-drupal-site/)
+-   [Accelerating WordPress with Cloud Files and the W3 Total Cache Plugin](/how-to/accelerating-wordpress-with-cloud-files-cdn-and-the-w3-total-cache-plugin)
+-   [Using WP-SuperCache to optimize Wordpress on Cloud Sites](/how-to/using-wp-supercache-to-optimize-wordpress-on-cloud-sites)
