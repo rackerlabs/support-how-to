@@ -21,7 +21,7 @@ credentials or Cloud Files API key.
 
 If you are looking for the Linux/PHP version of Zipit click here: [Zipit Backup Utility for Cloud Sites - Linux](http://zipitbackup.com)
 
-**How it works:**
+### How it works
 
 -   Runs on a per-site basis. The ASPX Zipit Backup Utility must be
     installed for each site you want to back up.
