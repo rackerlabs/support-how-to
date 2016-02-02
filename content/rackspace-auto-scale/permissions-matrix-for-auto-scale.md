@@ -1,6 +1,6 @@
 ---
 node_id: 3675
-title: Permissions Matrix for Autoscale
+title: Permissions Matrix for Auto Scale
 type: article
 created_date: '2013-09-04'
 created_by: Renee Rendon

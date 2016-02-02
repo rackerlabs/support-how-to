@@ -1,6 +1,6 @@
 ---
 node_id: 3783
-title: Rackspace Autoscale Control Panel User Guide - Concepts
+title: Rackspace Auto Scale Control Panel User Guide - Concepts
 type: article
 created_date: '2013-11-18'
 created_by: Maria Abrahms
@@ -10,9 +10,9 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-The [Introduction to Rackspace Autoscale](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
-article outlines what you can do with Autoscale and what is required for its
-setup. This section discusses what Autoscale does and the core concepts
+The [Introduction to Rackspace Auto Scale](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
+article outlines what you can do with Auto Scale and what is required for its
+setup. This section discusses what Auto Scale does and the core concepts
 that drive it.
 
 ### Servers
@@ -22,18 +22,18 @@ Rackspace Cloud Servers environment. To create a server, you must
 specify a name, image reference, and flavor reference. Server images and
 flavors are explained in this section.
 
-Autoscale works by creating servers that are based on server images
-that you have predefined. So, before you can use Autoscale, you must
+Auto Scale works by creating servers that are based on server images
+that you have predefined. So, before you can use Auto Scale, you must
 have saved server images. If you create a server by using the **Cloud
 Servers** tab in the Cloud Control Panel and save the image, the image
-automatically appears in the **Autoscale** tab.
+automatically appears in the **Auto Scale** tab.
 
 ### Server image
 
 A *server image* is a copy of a server's disk. It contains the operating
 system and all of the installed data and software on the server at the
 time the image was taken. Multiple, identical servers can be created
-from the same server image through the use of tools such as Autoscale.
+from the same server image through the use of tools such as Auto Scale.
 
 A server image can contain only a base operating system installation,
 which you would use to create a new cloud server before installing
@@ -46,7 +46,7 @@ different configurations than the master server from which the image was
 generated, as long as the instance type has as much or more disk storage
 as the original instance.
 
-When you are configuring an image with software to use with Autoscale,
+When you are configuring an image with software to use with Auto Scale,
 be sure to use dynamic elements instead of static elements. All of the
 files on cloned server images are identical, so if you are using
 hard-coded machine IDs in configuration files on the master server
@@ -110,7 +110,7 @@ The following graph illustrates how cooldowns affect policy execution.
 The *scaling policy*<span style="line-height: 1.6;"> determines what kind of scaling occurs&mdash;up or down&mdash;and when scaling occurs. You must define separate polices for scaling up and scaling down. You can have multiple scaling policies per scaling group.
 
 For schedule-based policies, you can use a cron job to configure the
-schedule. At the specified time, Autoscale adds servers or removes them
+schedule. At the specified time, Auto Scale adds servers or removes them
 as dictated by the policy.
 
 You can also configure the scale-up and scale-down to be a set number,
@@ -118,8 +118,8 @@ or a percentage of your total scaling group.
 
 And, you can use a webhook to respond to an event and trigger a policy.
 You can create the policy with the webhook by using the control panel,
-but you have to use the Autoscale API to create and configure the
-webhook. You can learn more about webhooks in the *Autoscale API
+but you have to use the Auto Scale API to create and configure the
+webhook. You can learn more about webhooks in the *Auto Scale API
 Developers Guide* section on
 [Webhooks](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
 
@@ -169,11 +169,11 @@ node port that you configure.
 
 ### User Guide sections
 
--   [Rackspace Autoscale Control Panel User Guide -
+-   [Rackspace Auto Scale Control Panel User Guide -
     Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
--   [Rackspace Autoscale Control Panel User Guide -
+-   [Rackspace Auto Scale Control Panel User Guide -
     Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
--   [Rackspace Autoscale Control Panel User Guide - Create a scaling
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
     group](http://rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
--   [Rackspace Autoscale Control Panel User Guide - Create a scaling
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
     policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Crating Scaling Policies")

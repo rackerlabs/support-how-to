@@ -1,6 +1,6 @@
 ---
 node_id: 5005
-title: Rackspace Autoscale FAQ
+title: Rackspace Auto Scale FAQ
 type: article
 created_date: '2015-12-09'
 created_by: Stephanie Fillmon
@@ -16,15 +16,15 @@ product_url: rackspace-auto-scale
 
 No. Your configurations cannot be migrated from other providers.
 
-### Is authentication required for Autoscale?
+### Is authentication required for Auto Scale?
 
 Authentication is required to create a scaling group; you must send
 an **X-Auth-Token** header with most API requests. Authentication is not
 required to execute policies via anonymous webhooks.
 
-### What do I need to do to get started using Autoscale?
+### What do I need to do to get started using Auto Scale?
 
-Autoscale works by horizontally scaling a particular tier of an
+Auto Scale works by horizontally scaling a particular tier of an
 application; for example, the web tier. You need to know which servers
 you want to scale. To get started, you need a server image that you have
 configured with all needed applications and settings, and that is
@@ -32,43 +32,43 @@ configured to be ready when the server is started. You can ensure your
 servers deploy fully ready for service by using various programs such as
 Chef, Puppet, and Salt.
 
-### Does Autoscale record the history of a scale action?
+### Does Auto Scale record the history of a scale action?
 
-Not currently. The **history** resource on the Autoscale API endpoint
+Not currently. The **history** resource on the Auto Scale API endpoint
 will show scaling history, triggers, and user changes. It will be
 available in a future release.
 
-### How do I know what actions are taken by Autoscale on my behalf?
+### How do I know what actions are taken by Auto Scale on my behalf?
 
-Some of the actions Autoscale takes on your behalf are deferred; for
+Some of the actions Auto Scale takes on your behalf are deferred; for
 example, when you set a schedule to create additional servers. Auto
 Scale will soon have an advanced audit log to track when Rackspace takes
 actions on your behalf. You will be able to access this through
-the **history** resource on the Autoscale API endpoint.
+the **history** resource on the Auto Scale API endpoint.
 
-### How much does the Rackspace Autoscale service cost?
+### How much does the Rackspace Auto Scale service cost?
 
-Autoscale is available at no cost to Rackspace Cloud customers,
+Auto Scale is available at no cost to Rackspace Cloud customers,
 although you do pay for the servers created by a scale-up until they are
 removed.
 
-### Can I add an existing server to an Autoscale group?
+### Can I add an existing server to an Auto Scale group?
 
 No. Even if you add the **autoscale-group-id** metadata to the server,
-the Autoscale back end service will not know the server belongs in the
-group. Autoscale manages only servers created by Autoscale.
+the Auto Scale back end service will not know the server belongs in the
+group. Auto Scale manages only servers created by Auto Scale.
 
-### What happens if I delete an Autoscale server through the API or the Cloud Control Panel?
+### What happens if I delete an Auto Scale server through the API or the Cloud Control Panel?
 
-Autoscale currently does not track what happens to servers outside of
-the Autoscale system. If a server is deleted outside of the system,
-Autoscale will continue to treat the server as if it still exists. If
-you then try to delete the server through Autoscale (for example, by
+Auto Scale currently does not track what happens to servers outside of
+the Auto Scale system. If a server is deleted outside of the system,
+Auto Scale will continue to treat the server as if it still exists. If
+you then try to delete the server through Auto Scale (for example, by
 scaling down), no problems should occur.
 
-A new API endpoint has been added to Autoscale, **DELETE server**, that
+A new API endpoint has been added to Auto Scale, **DELETE server**, that
 allows you to remove a specific server from a scaling group. You can use
-this endpoint to bring Autoscale back in sync with the correct number
+this endpoint to bring Auto Scale back in sync with the correct number
 of servers in a group when a server has been deleted through the API or
 the Cloud Control Panel. For more information, see the Rackspace Auto
 Scale Developer's Guide [Delete server from scaling
@@ -77,8 +77,8 @@ section.
 
 ### Can I suspend servers and restore them quickly to the same IP address?
 
-You can remove a server from an Autoscale group and keep it on your
-Cloud account for observation. Autoscale will automatically replace it
+You can remove a server from an Auto Scale group and keep it on your
+Cloud account for observation. Auto Scale will automatically replace it
 with a new server.
 
 Newly created servers have different IP addresses unless they arecreated in a scaling group with a load balancer.
@@ -94,7 +94,7 @@ scaling group. The load balancer problems that can cause this are:
 -   The load balancer is at its limit
 -   The load balancer has been deleted
 
-If any of these problems are present, Autoscale immediate deletes the
+If any of these problems are present, Auto Scale immediate deletes the
 newly-created server so the customer doesn't get billed for servers not
 in the load balancers.
 
@@ -103,10 +103,10 @@ in the load balancers.
 One possibility is that you tried to scale up or down beyond the
 configured minimum or maximum value. As a result, no servers could be
 created or destroyed. The error message could also mean that you are
-trying to set the needed capacity equal to what Autoscale thinks is
+trying to set the needed capacity equal to what Auto Scale thinks is
 already there.
 
-### Does Autoscale drain connections on a node behind a load balancer as a server (LBaaS) before removing it from a pool?
+### Does Auto Scale drain connections on a node behind a load balancer as a server (LBaaS) before removing it from a pool?
 
 No. The server is removed from the load balancer before the delete
 command is sent. At present, connections are not drained.
@@ -120,7 +120,7 @@ The maximum is 86400 seconds, equal to 24 hours.
 Zero seconds. We recommend having the group cooldown being around 5
 minutes (300 seconds) by default.
 
-### How does Autoscale moderate conflicting events?
+### How does Auto Scale moderate conflicting events?
 
 Cooldown timers are built in to the scaling group and the individual
 scaling policies, so that you can prevent too many servers from being
@@ -135,21 +135,21 @@ endpoing you call to invoke the policy execution.
 
 ### What are the different configuration parameters for scaling groups?
 
-For information on the parameters used with the Autoscale API, see the
+For information on the parameters used with the Auto Scale API, see the
 [Scaling group
 configurations](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/autoscale-groups)
 and [Launch
 configuration](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/configurations)
-sections in the Autoscale API Developer's Guide.
+sections in the Auto Scale API Developer's Guide.
 
-For information on the parameters used with the Autoscale Control
+For information on the parameters used with the Auto Scale Control
 Panel, see the [Create a scaling
 group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
-section in the Rackspace Autoscale Control Panel User Guide.
+section in the Rackspace Auto Scale Control Panel User Guide.
 
 ### Are monitoring rules for the entire scaling group or can I monitor specific servers in the scaling group?
 
-No. There are no specific rules within Autoscale for monitoring
+No. There are no specific rules within Auto Scale for monitoring
 specific servers. However, you can do this through Monitoring
 configurations, which are documented in the [Cloud Monitoring API
 Developer's
@@ -158,7 +158,7 @@ Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/
 ### Can I have multiple load balancers in a scaling group?
 
 Yes. However, if you need to scale beyond 25 servers with a Cloud Load
-Balancer, we recommend creating multiple Autoscale groups and creating
+Balancer, we recommend creating multiple Auto Scale groups and creating
 a tree of load balancers.
 
 ### Is there a limit to the number of servers I can have in a scaling group?
@@ -195,27 +195,27 @@ actions to take when the policy is activated.
 
 ### Can I scale up servers in a particular order? For example, can I create a database server before creating a web server?
 
-No. Autoscale does not scale up servers or load balancers in a
+No. Auto Scale does not scale up servers or load balancers in a
 particular order.
 
-### Is it possible for Autoscale to create servers that are not attached to a load balancer?
+### Is it possible for Auto Scale to create servers that are not attached to a load balancer?
 
 Yes. A load balancer is not required as part of the launch
 configuration. however, you do need to configure how your servers get
 requests.
 
-### Can Autoscale add a server in ORD to a load balancer in the DFW data center, or use an image in DFW?
+### Can Auto Scale add a server in ORD to a load balancer in the DFW data center, or use an image in DFW?
 
 No, all resources must be in the same data center. There is a different
-Autoscale endpoint for each data center, and each endpoint orchestrates
-only within that data center. In the Autoscale control panel, data
+Auto Scale endpoint for each data center, and each endpoint orchestrates
+only within that data center. In the Auto Scale control panel, data
 centers are called **Regions**.
 
-### Can I use Autoscale across data centers?
+### Can I use Auto Scale across data centers?
 
 No, you must create separate scaling groups for different data centers.
 
-### How does Autoscale integrate with image services or other automation services, such as Chef or Puppet?
+### How does Auto Scale integrate with image services or other automation services, such as Chef or Puppet?
 
-Autoscale is service agnostic and API based, so it works well with
+Auto Scale is service agnostic and API based, so it works well with
 these services but does not explicitly integrate with them.

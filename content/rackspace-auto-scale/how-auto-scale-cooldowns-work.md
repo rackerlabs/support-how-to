@@ -1,6 +1,6 @@
 ---
 node_id: 3840
-title: How Autoscale Cooldowns Work
+title: How Auto Scale Cooldowns Work
 type: article
 created_date: '2013-12-21'
 created_by: Maria Abrahms
@@ -10,7 +10,7 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-Cooldowns enforce a period of time between possible actions. Autoscale
+Cooldowns enforce a period of time between possible actions. Auto Scale
 has the following types of cooldowns:
 
 -   **Group Cooldowns**
@@ -34,7 +34,7 @@ ensures that at least a minimum amount of time passes before a scale-up
 or scale-down triggered by an event-based policy, can occur.
 
 For example, if you have three separate monitoring alerts for a server
-and each alert is configured with a webhook to your Autoscale group to
+and each alert is configured with a webhook to your Auto Scale group to
 trigger a scale-up event if the alarm state goes critical, in the event
 of all three monitoring alerts going critical at the same time, there
 could be three separate but near-simultaneous requests to scale up.
