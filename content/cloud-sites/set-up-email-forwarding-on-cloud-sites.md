@@ -10,10 +10,10 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
-
 **Note:** Email is no longer offered as a feature for Cloud Sites. This
 article exists to support customers with legacy email accounts.
+
+This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
 Email forwarding enables you to automatically send all of the emails
 received at a configured email account to one or more email addresses.
@@ -25,9 +25,8 @@ separated by commas.
 
 ### To set up an email forward for one of your email accounts
 
-1.  Log in to the [Cloud Sites Control
-    Panel](https://manage.rackspacecloud.com/).
-2.  In the left navigation pane, click **Hosting &gt; Cloud Sites**.
+1.  Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/).
+2.  In the left navigation pane, click **Hosting > Cloud Sites**.
 3.  Select the Cloud Site domain name that contains the email account to
     which you want to add the email forwards.
 4.  Click the **Email accounts** tab.
@@ -36,6 +35,7 @@ separated by commas.
     forward to in the **Forwarding Address** field (multiple entries
     *must* be separated by commas).
 7.  Click **Save**.
+
     It might take up to 15 minutes for the changes to the mail account
     to become effective.
 
@@ -54,4 +54,5 @@ addresses.
 4.  Under the **Forwarding** tab, check the **Save a copy of forwarded
     email** check box.
 5.  Click **Save**.
+
     Again, allow up to 15 minutes for these changes to take effect.
