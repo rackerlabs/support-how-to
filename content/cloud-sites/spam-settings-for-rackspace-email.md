@@ -11,7 +11,7 @@ product_url: cloud-sites
 ---
 
 **Note:** This documentation refers to a feature that is no longer
-available for Cloud Sites.  This article is here for the purpose of
+available for Cloud Sites. This article is here for the purpose of
 legacy support only.
 
 If our spam filtering software suspects that an incoming
@@ -21,17 +21,15 @@ want to receive may be delivered to the Spam folder. You can customize
 your spam filtering settings and level of filtering within
 webmail.
 
-To verify if spam filtering is enabled, please see [Is spam
-filtering enabled on my email
-accounts?](/how-to/manage-spam-filtering-for-your-cloud-sites-email-accounts "Is spam filtering enabled on my email accounts?")
+To verify if spam filtering is enabled, please see [Is spam filtering enabled on my email accounts?](/how-to/manage-spam-filtering-for-your-cloud-sites-email-accounts)
 
-### The Catch All Account:
+### The Catch All Account
 
-<span><span>If you're account is configured to be the "catch all", then
+If you're account is configured to be the "catch all", then
 spam will not be filtered and you will still see messages coming in as
-\[SPAM\] even though you may have it set to do otherwise.</span></span>
+[SPAM] even though you may have it set to do otherwise.
 
-### Blacklisting Users/Domains:
+### Blacklisting Users/Domains
 
 Email sent to you from domains, email addresses, and IPs on
 your blacklist will be blocked and will not be delivered to your
@@ -42,24 +40,22 @@ mailbox. To manage your blacklist, do the following:
 2.  In the left pane, click **Spam Settings**.
 3.  Click the **Blacklist** tab.
 
-![wm\_addblacklist\_001.gif](http://www.rackspace.com/apps/support/media/wm_addblacklist_001.gif)
+  ![wm\_addblacklist\_001.gif](http://www.rackspace.com/apps/support/media/wm_addblacklist_001.gif)
 
 To add a domain or email address to the list:
 
-1.  <span><span>Click the **Add** button.</span></span>
-2.  <span><span>Enter a domain or email address in the space provided.
+1.  Click the **Add** button.
+2.  Enter a domain or email address in the space provided.
     Note: We recommend that you not blacklist domains from large email
     systems, such as hotmail.com or yahoo.com, as this could prevent you
     from receiving legitimate email. Also, you can use a "%" as a
     wildcard in the domain or email address (For
-    example: @%.ru).</span></span>
-3.  <span><span>Click the **Add** button.</span></span>
+    example: @%.ru).
+3.  Click the **Add** button.
 
 **Note:** Domains and email addresses that are blacklisted
 will appear in the **Blacklisted Domains & Email
 Addresses** box.
-
-
 
 To add an IP to the list:
 
@@ -74,7 +70,7 @@ To add an IP to the list:
 **Note:** IP addresses that are blacklisted will appear in
 the **Blacklisted IP Addresses** box.
 
-### Removing Users/Domains From the Blacklist:**
+### Removing Users/Domains From the Blacklist
 
 Email sent to you from domains, email addresses, and IPs on
 your blacklist will be blocked and will not be delivered to your
@@ -90,9 +86,9 @@ corner of the webmail window.
     the **Yes** button.
 4.  Click the **Save** button.
 
-![wm\_deleteblacklist\_001.gif](http://www.rackspace.com/apps/support/media/wm_deleteblacklist_001.gif)
+  ![wm\_deleteblacklist\_001.gif](http://www.rackspace.com/apps/support/media/wm_deleteblacklist_001.gif)
 
-### Adding users/domains to your Safelist:**
+### Adding users/domains to your Safelist
 
 Email that you receive from domains, email addresses, and
 IPs on your safelist will bypass the spam filters, ensuring you receive
@@ -104,7 +100,7 @@ safelist, do the following:
 2.  In the left pane, click **Spam Settings**.
 3.  Click the **Safelist** tab.
 
-![wm\_addsafelist\_001.gif](http://www.rackspace.com/apps/support/media/wm_addsafelist_001.gif)
+  ![wm\_addsafelist\_001.gif](http://www.rackspace.com/apps/support/media/wm_addsafelist_001.gif)
 
 To add a domain or email address to the list:
 
@@ -121,7 +117,6 @@ To add a domain or email address to the list:
 will appear in the **Safelisted Domains & Email
 Addresses** box.
 
-
 To add an IP to the list:
 
 1.  Click the **Add** button.
@@ -135,9 +130,7 @@ To add an IP to the list:
 **Note:** IP addresses that are safelisted will appear in
 the **Safelisted IP Addresses** box.
 
-
-
-**Report Spam:**
+### Report Spam
 
 To report unfiltered spam, in any folder other than the
 Spam folder, do one of the following:
@@ -146,10 +139,10 @@ Spam folder, do one of the following:
     Spam** link. Or, right-click the email and select **Report
     Spam**.
 
-![wm\_reportspam\_001.gif](http://www.rackspace.com/apps/support/media/wm_reportspam_001.gif)
+  ![wm\_reportspam\_001.gif](http://www.rackspace.com/apps/support/media/wm_reportspam_001.gif)
 
-**To report several emails, select the check box next to
-each email you want to report, then:**
+To report several emails, select the check box next to
+each email you want to report, then:
 
 1.  Click the **Select Action** drop-down menu
 2.  Select **Report Spam**
@@ -157,8 +150,6 @@ each email you want to report, then:**
 **Note**: When you report spam, a copy of the email will be
 sent to Cloudmark, our spam filtering provider, and the email will be
 moved to your "Spam" folder.
-
-
 
 **Report a message as not spam:**
 
@@ -170,10 +161,10 @@ following:
 2.  Click the **Not Spam** link, or right-click the email
     and select **Not Spam**.
 
-![wm\_reportnotspam\_001.gif](http://www.rackspace.com/apps/support/media/wm_reportnotspam_001.gif)
+  ![wm\_reportnotspam\_001.gif](http://www.rackspace.com/apps/support/media/wm_reportnotspam_001.gif)
 
-**To report several emails, select the check box next to each
-email you want to report, then:**
+To report several emails, select the check box next to each
+email you want to report, then:
 
 1.  Click the **Select Action** drop-down menu
 2.  Select **Not Spam**.
@@ -181,8 +172,6 @@ email you want to report, then:**
 **Note**: When you mark an email as "Not Spam," the email
 will be moved into your "Inbox" folder, and the sender will be added to
 your Safelist.
-
-
 
 **Edit Spam Settings per Email user:**
 
@@ -197,7 +186,7 @@ preferences, before the email reaches your inbox.
  2. Click **Spam Settings**, located in the
     left pane.
 
-![wm\_managepreferences\_001.gif](http://www.rackspace.com/apps/support/media/wm_managepreferences_001.gif)
+  ![wm\_managepreferences\_001.gif](http://www.rackspace.com/apps/support/media/wm_managepreferences_001.gif)
 
 In the **Spam Filtering** section, you can turn spam
 filtering on or off. Or, you can turn on the **Exclusive** setting,
@@ -209,24 +198,23 @@ If you turned spam filtering on, you will need to specify
 how you want spam to be handled. In the **Spam Handling** section,
 select from the following:
 
-1.  Deliver to the Spam folder&mdash;Spam email will be delivered
+1.  Deliver to the Spam folder - Spam email will be delivered
     to your Spam folder. To specify Spam folder cleanup options, click
     the **Cleanup Options** link:
 
--   **Delete after \[    \] days or \[    \] total
-    emails**&mdash;Indicate whether email messages in the Spam folder should
+  -   **Delete after \[    \] days or \[    \] total
+    emails** - Indicate whether email messages in the Spam folder should
     be deleted after a certain number of days or a certain number of
     email messages, whichever occurs first.
--   **Never automatically delete spam**&mdash;Select this if you
+  -   **Never automatically delete spam** - Select this if you
     want your spam messages delivered to the Spam folder, but you do not
     want spam messages automatically deleted.
-2.  Delete the email immediately&mdash;Spam email will be
+
+2.  Delete the email immediately - Spam email will be
     deleted automatically.
-3.  Deliver to the email address&mdash;Spam email will be
+3.  Deliver to the email address - Spam email will be
     forwarded to the email address you indicate.
-4.  Include \[SPAM\] at the beginning of the subject
-    line&mdash;Spam email will be delivered to your Inbox, but will include
-    the text "\[SPAM\]" in the Subject line.
+4.  Include [SPAM] at the beginning of the subject
+    line - Spam email will be delivered to your Inbox, but will include
+    the text "[SPAM]" in the Subject line.
 5.  Click the **Save** button
-
-
