@@ -20,8 +20,6 @@ tables. To look into how to create an index in MySQL, please refer to:
 
 <http://dev.mysql.com/doc/refman/5.0/en/create-index.html>
 
-
-
 ### The Explain Statement
 
 The best way to analyze your query and to see if indexes are being used
@@ -31,8 +29,6 @@ whether or not you will benefit from creating an index. More on the
 explain plan here:
 
 <http://dev.mysql.com/doc/refman/5.0/en/explain.html>
-
-
 
 ### Prefixing index lengths with an example
 
@@ -48,18 +44,14 @@ Say you have this table:
     (`umeta_id`), KEY `user_id` (`user_id`), KEY `meta_key` (`meta_key`) ENGINE=InnoDB AUTO_INCREMENT=25199
     DEFAULT CHARSET=utf8
 
-For table usermeta table above, the original meta\_key index that is
+For table usermeta table above, the original meta_key index that is
 varchar(255).
 
--   **Note the meta\_key index - When you index a full and large column
-    like this, then you will hurt your performance.**
+**Note:** When you index a full and large column like the meta_key index, then you will hurt your performance.**
 
 What would benefit this query is prefixing the length - dropping the
-meta\_key index and then re-creating an index but at prefix length of
-20. Doing this helps gain performance and saves space. This also reduces
+meta_key index and then re-creating an index but at prefix length of 20. Doing this helps gain performance and saves space. This also reduces
 disk IO which buys your faster performance also.
-
-
 
 ### Covering Index
 
@@ -69,4 +61,3 @@ have an Index(s) in place:**
     # Query_time: 82.420792  Lock_time: 0.015179  Rows_sent: 1  Rows_examined: 15828351  Rows_affected: 0  Rows_read: 15828351
     use 393870_p2LIVE; SELECT `Impression`.`id`, `Impression`.`account_id`, `Impression`.`content_id`, `Impression`.`networks_id`,
     `Impression`.`ip`, `Impression`.`recorded` FROM `impressions` AS `Impression`   WHERE `account_id` = 222 AND `content_id` = 19 AND `networks_id` = 8
-

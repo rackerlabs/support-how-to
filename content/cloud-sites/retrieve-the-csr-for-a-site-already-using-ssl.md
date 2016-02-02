@@ -18,7 +18,6 @@ Follow the steps in this article to retrieve a previously generated certificate 
 
 - [Getting started with Cloud Sites: Configuring SSL on your website](/how-to/getting-started-with-cloud-sites-configuring-ssl-on-your-websites)
 
-
 ### Requirements
 
 Before you can retrieve your previously generated CSR, verify that you have accomplished the following tasks:
@@ -26,8 +25,6 @@ Before you can retrieve your previously generated CSR, verify that you have acco
 - You have installed SSL on your site.
 
 - You have generated your CSR through the [Cloud Control Panel](https://csrgenerator.rackspace.com/). Doing so ensures that your CSR is stored. If you did not generate your current CSR through the Cloud Control Panel and instead had one made directly through support, then you must create a new one by contacting Cloud Sites support at 1 855 348 9060 in the US and 1 210 581 0401 internationally.
-
-
 
 ### Instructions
 
@@ -43,11 +40,10 @@ When you have completed the required tasks, follow these steps to retrieve your 
 
 5.	You will see the **View CSR** link in the control panel.
 
-    <img alt="" height="167" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/view_csr.png" width="600" border="1" />
+    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/view_csr.png)
 
 ### Tips
 
 - The CSR link will not be visible if a previous CSR does not exist in our system.
 
 - If the CSR was generated a long time ago and the certificate provider prohibits using a CSR older than a certain date, contact the Cloud Sites support team (U.S. 855-348-9060, International 210-581-0401) to get a new CSR and key.
-

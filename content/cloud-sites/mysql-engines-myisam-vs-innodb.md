@@ -16,13 +16,13 @@ The two most commonly used table engines on [Cloud Sites MySQL servers](http://w
 
 The purpose of this article is to briefly describe these two types and identify which ones are recommended under certain circumstances in the Cloud Sites environment. This article does *not* compare the performance of the two engine types via running specific SQL test benchmarks. If you are interested such comparisons, see the following links:
 
-- [http://www.mysqlperformanceblog.com/2007/01/08/innodb-vs-myisam-vs-falcon-benchmarks-part-1/](http://www.mysqlperformanceblog.com/2007/01/08/innodb-vs-myisam-vs-falcon-benchmarks-part-1/ "http://www.mysqlperformanceblog.com/2007/01/08/innodb-vs-myisam-vs-falcon-benchmarks-part-1/")
+- [http://www.mysqlperformanceblog.com/2007/01/08/innodb-vs-myisam-vs-falcon-benchmarks-part-1/](http://www.mysqlperformanceblog.com/2007/01/08/innodb-vs-myisam-vs-falcon-benchmarks-part-1/)
 
-- [http://tag1consulting.com/MySQL\_Engines\_MyISAM\_vs\_InnoDB\#comment-115](http://tag1consulting.com/MySQL_Engines_MyISAM_vs_InnoDB#comment-115 "http://tag1consulting.com/MySQL_Engines_MyISAM_vs_InnoDB#comment-115")
+- [http://tag1consulting.com/MySQL\_Engines\_MyISAM\_vs\_InnoDB\#comment-115](http://tag1consulting.com/MySQL_Engines_MyISAM_vs_InnoDB#comment-115)
 
 MyISAM is the default table engine type for MySQL 5.0, but the Cloud Sites environment defaults the storage engine to Innodb. In other words, Cloud Sites is partial to Innodb if you do not explicitly specify your engine type in your table DDL. The database servers have also been tuned to generally perform better when using the Innodb engine type.
 
-##@ MyISAM versus Innodb
+### MyISAM versus Innodb
 
 The following table provides a brief comparison of the engine types. The abbreviation ACID stands for Atomicity, Consistency, Isolation, Durability.
 
@@ -39,9 +39,9 @@ Table-level locking | Row-level locking
 If you want more details about each of these engine types, see the following MySQL documentation:
 
 -   Innodb Storage Engine:
-    [http://dev.mysql.com/doc/refman/5.0/en/innodb-storage-engine.html](http://dev.mysql.com/doc/refman/5.0/en/innodb-storage-engine.html "http://dev.mysql.com/doc/refman/5.0/en/innodb-storage-engine.html")
+    [http://dev.mysql.com/doc/refman/5.0/en/innodb-storage-engine.html](http://dev.mysql.com/doc/refman/5.0/en/innodb-storage-engine.html)
 -   MyISAM Storage Engine:
-    [http://dev.mysql.com/doc/refman/5.0/en/myisam-storage-engine.html](http://dev.mysql.com/doc/refman/5.0/en/myisam-storage-engine.html "http://dev.mysql.com/doc/refman/5.0/en/myisam-storage-engine.html")
+    [http://dev.mysql.com/doc/refman/5.0/en/myisam-storage-engine.html](http://dev.mysql.com/doc/refman/5.0/en/myisam-storage-engine.html)
 
 ### When MyISAM tables are mostly useful
 
@@ -56,7 +56,7 @@ There can be several other reasons that fit your requirement for choosing the My
 
 To summarize, the queries that are victims of lock escalations under heavy but slow reads would do much better as a table converted to Innodb.
 
-### How to change your table engine type from MyISAM to Innodb
+### Change your table engine type from MyISAM to Innodb
 
 You do so by simply issuing the `ALTER TABLE` DDL statement:
 
@@ -64,7 +64,7 @@ You do so by simply issuing the `ALTER TABLE` DDL statement:
 
 Following is a step-by-step process for altering a table in PHPMyAdmin.
 
-1. Log in to the PHPMyAdmin utility through your control panel. If you are unsure how, see [Working with a MySQL database](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
+1. Log in to the PHPMyAdmin utility through your Control Panel. If you are unsure how, see [Working with a MySQL database](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
 2. Select the database that contains the table.
 3. Click the **SQL** tab.
 4. Paste in the preceding query. Be sure to replace `tableName` with the correct name of your table.
