@@ -10,13 +10,9 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article is written for our [Cloud Sites Control
-Panel](https://manage.rackspacecloud.com/). You can access this
-interface from the [Cloud Control
-Panel](https://mycloud.rackspace.com/) by clicking **Rackspace Cloud**
-upper-leftt of the control panel and selecting **Cloud Sites**.
+**Note:** This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can access this interface from the [Cloud Control Panel](https://mycloud.rackspace.com/) by clicking **Rackspace Cloud** upper-leftt of the control panel and selecting **Cloud Sites**.
 
-### Cloud Sites:  .NET 4.5 Now Available
+### Cloud Sites: .NET 4.5 Now Available
 
 Rackspace Cloud Sites now offers .NET version 4.5. Please take some time
 to familiarize yourself with the changes, benefits, and features of .NET
