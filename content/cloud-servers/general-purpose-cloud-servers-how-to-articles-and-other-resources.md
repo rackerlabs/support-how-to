@@ -25,7 +25,7 @@ best practices and hundreds of tips for getting the most out of your
 Cloud Servers. Check out these popular
 articles:
 
--  [Cloud Servers FAQ](/how-to/product-faq/cloud-servers)
+-  [Cloud Servers FAQ](/how-to/cloud-servers-faq/)
 -  [Getting Started with Cloud Servers](/how-to/getting-started-with-cloud-servers)
 -  [Basic Cloud Server Security](/how-to/basic-cloud-server-security)
 -  [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)

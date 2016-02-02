@@ -26,9 +26,9 @@ product_url: cloud-servers
 [Rackspace How-To](/how-to/) houses "how-to" articles, getting started guides, code samples, security best practices and hundreds of tips for getting the most out of your Cloud Servers. Check out these popular
 articles:
 
--  [Cloud Servers FAQ](/how-to/product-faq/cloud-servers)
+- [Cloud Servers FAQ](/how-to/cloud-servers-faq)
 
--  [Cloud Servers Overview](/how-to/getting-started-with-cloud-servers)
+- [Cloud Servers Overview](/how-to/getting-started-with-cloud-servers)
 
 - [Basic Cloud Server Security](/how-to/basic-cloud-server-security)
 

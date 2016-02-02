@@ -118,7 +118,7 @@ destination server.
 
 Much of what goes on behind the scenes when you resize a virtual server
 is similar to what we'll do when we use rsync to copy from one server to
-the other. That means a lot of the tips in [our article about speeding up rsync](/knowledge_center/index.php/Migrating_a_Linux_Server_From_Command_Line_-Tips_For_Speeding_Up_Rsync "Speeding up rsync")
+the other. That means a lot of the tips in [our article about speeding up rsync](/how-to/speed-up-rsync-when-migrating-a-linux-server-from-the-command-line)
 will apply here.
 
 In a nutshell, remove any temporary or cache files you don't need or add
