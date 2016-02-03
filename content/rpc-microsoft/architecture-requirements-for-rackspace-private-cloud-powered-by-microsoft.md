@@ -114,7 +114,8 @@ topic-based publish and subscribe capabilities.
 
 | Application or role | VM name | Quantity | Software suite     | vCPU | vRAM | vDisk |
 |---------------------|---------|----------|--------------------|------|------|-------|
-| Service Bus         | SB      |     1     | Windows Azure Pack | 2    | 4 GB | 60 GB |
+| Service Bus         | SB      |     1    | Windows Azure Pack | 2    | 4 GB | 60 GB |
+
 The minimum system requirements to run the Service Bus component are 2
 vCPU, 4 GB of RAM, and 60 GB of storage.  This workload is in addition
 to the Base Cloud system, which is split across two physical host
