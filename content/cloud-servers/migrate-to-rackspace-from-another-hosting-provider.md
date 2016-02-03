@@ -18,44 +18,42 @@ assistance for complex infrastructures, you can use [Rackspace Migration Service
 
 ### Prerequisites
 
--   A Rackspace cloud services account
+-   A Rackspace Cloud services account
 -   Access to your account with your current hosting provider
 
 ### Preparation
 
-Select an equivalent size and scope for the Rackspace Cloud Servers
-instance to provision based on your existing cloud instance size
-and configuration. Remember to list any resources you want to
+Based on the size and configuration of your existing cloud instance, select an
+equivalent size and configuration for the Rackspace Cloud Servers
+instance that you will provision. Remember to consider any resources you want to
 migrate from your current hosting provider, including application and
 database resources.
 
-For a tour of Rackspace Cloud products, you can read the [Rackspace Core Infrastructure Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-intro/cloud-tour/).
+For a tour of Rackspace Cloud products, see the [Rackspace Core Infrastructure Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-intro/cloud-tour/).
 
 ### Provision and configure the Cloud Servers instance
 
 Depending on the size of your current server and operating system,
-select an equivalent instance type and provision a new instance on
-[Rackspace Cloud Servers](/how-to/create-a-cloud-server).
+select an equivalent instance type and [provision a new instance](/how-to/create-a-cloud-server)
+on Rackspace Cloud Servers.
+
+Also remember to back up the data on your existing server before migrating.
 
 ### Migrate data
 
-After you back up the data on your old server, use one of the following
-methods to transfer your data from your old hosting provider to your
-Rackspace Cloud Server.
-
-**Note:** There is no complete method of migrating data from another
-hosting provider. The migration method you use depends on the nature of
+Use one of the following
+methods to transfer your data from your existing hosting provider to your
+Rackspace Cloud Server. The migration method you use depends on the nature of
 your data.
 
 #### rsync
 
 You can use rsync to tunnel between your two servers and transfer your
-data. The steps below show you how to allow both your old server
-instance and Rackspace server instance to communicate.
+data. The following steps show you how to establish communication between your
+existing server instance and Rackspace server instance.
 
-1.  Log in as root to your old server.
-2.  Be sure that you have rsync installed on your old server. You can do
-    this by running this command:
+1.  Log in as root to your existing server.
+2.  Verify whether rsync is installed on your existing server.
 
         rsync -version
 
@@ -63,41 +61,41 @@ instance and Rackspace server instance to communicate.
 
         apt-get install rsync
 
-3.  Use SSH to log into your Rackspace server from your old server.
-    Generate an SSH key from your old server if you have no done so
+3.  Use SSH to log in to your Rackspace server from your existing server.
+    Generate an SSH key from your existing server if you have not done so
     already:
 
         ssh-keygen -t rsa -b 4096 -v
 
 4.  Transfer your SSH key to your Rackspace server. Substitute your new
-    Rackspace server's IP Address in the command below.
+    Rackspace server's IP address in the following command.
 
         ssh-copy-id 111.344.65.781
 
-5.  Copy your old server files using rsync. Replace the IP address after
+5.  Copy your existing server files by using rsync. Replace the IP address after
     `root@` with the IP address of your Rackspace cloud server.
 
         rsync --exclude="/sys/*" --exclude="/proc/*" -aHSKDvz -e ssh / root@111.344.65.781:/media/xvda/
 
 #### Other methods
 
-Besides rsync, you can transfer data from an old server to Rackspace in
-a number of different ways. The methods below use Rackspace Cloud Files
-to copy data from your old servers, then use that data to provision
+Besides rsync, you can transfer data from an existing server to Rackspace in
+a number of different ways. The following methods use Rackspace Cloud Files
+to copy data from your existing servers then use that data to provision
 new servers with Rackspace.
 
 -   **Use OpenStack Swift, a command-line interface, to transfer data
-    from your old sever to Rackspace Cloud Files.**
+    from your existing sever to Rackspace Cloud Files.**
 
-    Using this method, you install Swift on your old server and directly
-    copy your data from your old server to Cloud Files, without
+    Using this method, you install Swift on your existing server and directly
+    copy your data from your existing server to Cloud Files, without
     downloading the files locally.
 
 -   **Install a GUI tool on your local computer**
 
-    In certain cases, like if your old server is Windows based, you need
+    In certain cases, such as if your existing server is Windows based, you need
     to install a GUI tool (such as
-    [Cyberduck](https://cyberduck.io/?l=en)) to upload data onto Cloud
+    [Cyberduck](https://cyberduck.io/?l=en)) to upload data to Cloud
     Files.
 
 -   **Use the Cloud Control Panel to upload files**
@@ -106,20 +104,20 @@ new servers with Rackspace.
     computer to your new server. This method is useful when you do not
     want to install additional software to transfer your data. However,
     we do not recommend downloading your data locally because it is not
-    as secure as using the other methods above.
+    as secure as using the other methods.
 
 After your data is uploaded to Cloud Files, download and restore the
 data on your server.
 
 ### Configure
 
-Once the data from your old server is stored on your Rackspace server,
+After the data from your existing server is stored on your new Rackspace server,
 make any necessary configuration changes for your application and
 database.
 
 ### Test after migration
 
-Remember that hosting providers have their own configurations, syntax,
+Hosting providers have their own configurations, syntax,
 and services, so it is important to test your new Rackspace
 configuration. You can get the most out of testing your configuration
 through these techniques:
@@ -127,5 +125,5 @@ through these techniques:
 -   Implement monitoring and backup solutions. Focus on [enhancing security](/how-to/configuring-basic-security-0).
 -   Thoroughly [test the applications](/how-to/application-and-load-testing-guidelines)
     deployed on your Rackspace Cloud Server.
--   Make any changes to your configuration files as necessary. This
+-   Make any changes to your configuration files as necessary. These changes
     could include any reference to hostnames, IP addresses, and file paths.
