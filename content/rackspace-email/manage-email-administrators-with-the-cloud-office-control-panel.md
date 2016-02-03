@@ -29,13 +29,13 @@ permissions via the MyRackspace Portal.
     -   **Email**&mdash;Enter the administrator's email address.
     -   **Admin ID**&mdash;Enter a unique name for the account. If the ID that you enter is used elsewhere on the email hosting system, you are prompted to enter a new ID.
     -   **Type**&mdash;Select the level of security for the administrator:
-      -   **Super**&mdash;Allows full access to the control panel, and
-        includes the ability to create and manage
-        administrator accounts.
-      -   **Standard**&mdash;Allows full access to the control panel, but restricts the administrator from certain areas of the account section of the control panel.
-      - **Limited**&mdash;Allows access to only the control panel areas
-        that you specify. (You can select the specific areas at the bottom of
-        the screen after selecting **Limited**. See step 6.)
+        - **Super**&mdash;Allows full access to the control panel, and
+          includes the ability to create and manage
+          administrator accounts.
+        - **Standard**&mdash;Allows full access to the control panel, but restricts the administrator from certain areas of the account section of the control panel.
+        - **Limited**&mdash;Allows access to only the control panel areas
+          that you specify. (You can select the specific areas at the bottom of
+          the screen after selecting **Limited**. See step 6.)
     -   **Password**&mdash;Enter a password for this administrator account.
     -   **Confirm**&mdash;Retype the password.
     -   **Security Question**&mdash;Select a security question from the list provided.
