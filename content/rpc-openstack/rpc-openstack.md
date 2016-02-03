@@ -27,11 +27,13 @@ product_url: rpc-openstack
 - [Rackspace Private Cloud Resources](http://www.rackspace.com/cloud/private/openstack/resources/)
 - [Rackspace Training](http://training.rackspace.com/)
 
-###  Rackspace Private Cloud v9 (Icehouse)
+###  Rackspace Private Cloud v11 (Kilo)
 
-- [Release Notes](http://docs.rackspace.com/rpc/api/v9/bk-rpc-releasenotes/content/rpc-common-front.html)
-- [Installation Guide](http://docs.rackspace.com/rpc/api/v9/bk-rpc-installation/content/rpc-common-front.html)
-- [Technical FAQ](http://docs.rackspace.com/rpc/api/v9/rpc-faq-v9/content/rpc-common-front.html)
+- [Release Notes](http://docs.rackspace.com/rpc/api/v11/bk-rpc-releasenotes/content/rpc-common-front.html)
+- [Installation Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-installation/content/rpc-common-front.html)
+- [Object Storage Deployment Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-swift/content/ch-object-storage-overview.html)
+- [Admin Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-admin/content/rpc-common-front.html)
+- [Technical FAQ](http://docs.rackspace.com/rpc/api/v11/bk-rpc-faq/content/rpc-common-front.html)
 
 ###  Rackspace Private Cloud v10 (Juno)
 
@@ -40,10 +42,8 @@ product_url: rpc-openstack
 - [Object Storage Deployment Guide](http://docs.rackspace.com/rpc/api/v10/bk-rpc-swift/content/ch-object-storage-overview.html)
 - [Technical FAQ](http://docs.rackspace.com/rpc/api/v9/rpc-faq-v9/content/rpc-common-front.html)
 
-###  Rackspace Private Cloud v11 (Kilo)
+###  Rackspace Private Cloud v9 (Icehouse)
 
-- [Release Notes](http://docs.rackspace.com/rpc/api/v11/bk-rpc-releasenotes/content/rpc-common-front.html)
-- [Installation Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-installation/content/rpc-common-front.html)
-- [Object Storage Deployment Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-swift/content/ch-object-storage-overview.html)
-- [Admin Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-admin/content/rpc-common-front.html)
-- [Technical FAQ](http://docs.rackspace.com/rpc/api/v11/bk-rpc-faq/content/rpc-common-front.html)
+- [Release Notes](http://docs.rackspace.com/rpc/api/v9/bk-rpc-releasenotes/content/rpc-common-front.html)
+- [Installation Guide](http://docs.rackspace.com/rpc/api/v9/bk-rpc-installation/content/rpc-common-front.html)
+- [Technical FAQ](http://docs.rackspace.com/rpc/api/v9/rpc-faq-v9/content/rpc-common-front.html)
