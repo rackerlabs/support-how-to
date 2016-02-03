@@ -21,4 +21,4 @@ install:
     - echo $TRAVIS_COMMIT
 
 script:
-    - kc-preparer
+    - scripts/cibuild
