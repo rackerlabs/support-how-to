@@ -18,28 +18,29 @@ the account and by administrator-designated users.
 To enable archiving, [log in to the Cloud Office control
 panel](https://cp.rackspace.com/), and perform the following steps:
 
-1\. In the **Go to section** menu at the top of the window, click
+1. In the **Go to section** menu at the top of the window, click
     **Domains**.
 
     ![EnableArchiving.png](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Enable%20Archivinga_0.png)
 
-2\. In the **Manage** section, click **Email Archiving**.
+2. In the **Manage** section, click **Email Archiving**.
 
     ![EnableArchiving2.png](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Enable%20Archiving%202a_0.png)
 
-3\. If you have more more than one domain, select the domain for which
+3. If you have more more than one domain, select the domain for which
     you want to add archiving by clicking the domain's name in the list.
     The domain's name should appear at the top of the next page.
 
     ![domainarchiving.png](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/domainarchiving.png)
 
-4\. On the Email Archiving page, click **Add Archiving to this
+4. On the Email Archiving page, click **Add Archiving to this
     domain**.
 
     ![EnableArchiving3.png](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Enable%20Archiving%203a_0.png)
 
-5\. Under **Domain settings,** select **On** for **Email Archiving**.
-6\. Click **Save**.
+5. Under **Domain settings,** select **On** for **Email Archiving**.
+
+6. Click **Save**.
 
 You will receive a welcome email with login information from
 `mail@archivesrvr.com`. After you receive the welcome email, all new
