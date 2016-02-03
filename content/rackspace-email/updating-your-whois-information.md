@@ -1,6 +1,6 @@
 ---
 node_id: 1147
-title: Updating Your WHOIS Information
+title: Update your WHOIS information
 type: article
 created_date: '2011-10-31'
 created_by: Rackspace Support
@@ -10,31 +10,13 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-A domain's WHOIS record can include various types of information for the
-domains you own. When a WHOIS search is performed, you can discover when
-and by whom a specific domain was registered, the domain contact
-information, and whole lot more. If Rackspace is your domain's
-registrar, you can manage your domain's WHOIS information through the
-control panel; let's take a look at some steps to see how this is
-done:
+A domain's WHOIS record can include various types of information about each domain that you own. When a WHOIS search is performed, you can discover when and by whom a specific domain was registered, the domain contact information, and more. If Rackspace is your domain's registrar, you can manage your domain's WHOIS information through the
+control panel, as described in this article.
 
-**Note:** The information you provide will be visible to anyone
-who searches the Internet for your domain's WHOIS record.
+**Note:** The information that you provide is visible to anyone who searches the Internet for your domain's WHOIS record.
 
-1. First thing you'll want to do is [log into your control panel](https://cp.rackspace.com/), mouse over the **Go to section** drop-down menu and select **Domains**.
-
-  ![](http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation.png)
-
-2. In the **Manage** section, click the **DNS Settings** link.
-
-  ![](http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation2.png)
-
-3. Search the domain name for which you want to manage WHOIS information
-and click the **Edit WHOIS** link.
-
-  ![](http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation3.png)
-
-4. Make changes as needed** **and click the **Save** button in the lower
-left hand corner once you're finished**.**
-
-  ![](http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation4.png)
+1. [Log in to the Cloud Office Control Panel](https://cp.rackspace.com/).
+2. From the **Go to section** menu, select **Domains**.
+3. In the **Manage** section, click **DNS Settings**.
+4. Find the domain for which you want to manage WHOIS information, and click the **Edit WHOIS** link.
+5. Make changes as needed and then click **Save**.
