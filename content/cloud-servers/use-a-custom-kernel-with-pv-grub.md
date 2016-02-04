@@ -10,20 +10,20 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note:** During 2015, all First Generation servers will be migrated to Next-Gen servers on a rolling basis. Therefore, the instructions listed in this article may or may not work depending on whether your servers have been migrated. If you have more questions about the server migration, see the article [First Generation to Next Generation Cloud Server migration FAQ](/how-to/first-generation-to-next-generation-cloud-server-migration-faq). If you need assistance with using a custom kernel, contact Rackspace Support at 1-800-961-4454.
+**Note:** During 2015, all First Generation cloud servers will be migrated to Next Generation cloud servers on a rolling basis. Therefore, the instructions listed in this article might or might not work depending on whether your servers have been migrated. If you have questions about the server migration, see [First Generation to Next Generation Cloud Servers migration FAQ](/how-to/first-generation-to-next-generation-cloud-server-migration-faq). If you need assistance with using a custom kernel, contact Rackspace Support at 1 800 961 4454.
 
-This article describes the steps required to modify an older First-Generation Cloud Server to boot from a kernel installed in the instance using `pv-grub`. First-Generation Cloud Servers load their kernel from the host machine by default unless modified to use `pv-grub`.
+This article describes the steps required to modify an older First Generation server to boot from a kernel installed in the instance using `pv-grub`. First Generation servers load their kernel from the host machine by default unless modified to use `pv-grub`.
 
-Next-generation servers and First-Generation based on images created in 2011 or later should not need to perform these steps. They should already be loading the kernel from **/boot** within the instance.
+Next Generation servers and First Generation servers based on images created in 2011 or later should not need to perform these steps. They should already be loading the kernel from **/boot** within the instance.
 
 ### Disclaimers
 
 -  `pv-grub` is an advanced feature. It should only be used by experienced Linux administrators with a demonstrated need to run their own kernels.
--  This is only necessary for older First-Generation servers that do not already include the kernel inside the instance. If you already have a kernel in **/boot**, it is likely your instance does not need to be modified to use `pv-grub`.
--  Not all kernels are supported. Your kernel must have pv-ops support for running in a Xen domU. Also, kernels compressed with bzip or LZMA will not work, and for some distributions like Arch compressed kernels may not work at all.
--  Follow the instructions as listed, in the order listed. Do not blindly copy/paste these commands, as some of them will require editing.
--  Do not attempt these instructions on a production system. If they are applied incorrectly, your Cloud Server may become unbootable. Practice on a clone of your server first.
--  This process is only compatible with the original version of GRUB, also referred to as GRUB Legacy. Our base images should only include GRUB Legacy, but a system update might install a newer version of GRUB (GRUB2) and need to be reverted to GRUB Legacy before this process will work.
+-  This process is necessary only for older First Generation servers that do not already include the kernel inside the instance. If you already have a kernel in **/boot**, it is likely your instance does not need to be modified to use `pv-grub`.
+-  Not all kernels are supported. Your kernel must have pv-ops support for running in a Xen domU. Also, kernels compressed with bzip or LZMA will not work, and for some distributions like Arch compressed kernels might not work at all.
+-  Follow the instructions as listed, in the order listed. Do not blindly copy and paste these commands, as some of them require editing.
+-  Do not attempt these instructions on a production system. If they are applied incorrectly, your server might become unbootable. Practice on a clone of your server first.
+-  This process is compatible only with the original version of GRUB, also referred to as GRUB Legacy. Our base images should include only GRUB Legacy, but a system update might install a newer version of GRUB (GRUB2) and need to be reverted to GRUB Legacy before this process will work.
 
 ### Grub configuration
 
@@ -49,7 +49,7 @@ Every instance booted with `pv-grub` requires a working grub configuration file 
     mkdir -p /boot/grub
     cp /usr/src/KERNEL-VERSION/vmlinux /boot/vmlinux26
 
-**Note:** THe stock arch kernel is bzipped and won't work with pv-grub. Use the uncompressed vmlinux instead.
+**Note:** The stock arch kernel is bzipped and won't work with pv-grub. Use the uncompressed vmlinux instead.
 
 Now add (or uncomment) the following line in **/etc/inittab** for console:
 
@@ -142,4 +142,4 @@ Now add (or uncomment) the following line in **/etc/inittab** for console:
 
 ### Kernel upgrade
 
-Contact Rackspace Cloud support and request the pv-grub feature, informing them that you have completed these steps and would like to use your own kernel. Your Cloud Server will be rebooted, and -- if all goes well -- will come back up with your new kernel. You may verify this with 'uname -a'.
+Contact Rackspace Cloud support and request the pv-grub feature, informing them that you have completed these steps and want to use your own kernel. Your cloud server will be rebooted, and if successful, will start with your new kernel. You can verify this with `uname -a`.
