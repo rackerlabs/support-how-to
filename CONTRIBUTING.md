@@ -12,19 +12,19 @@ Each directory contains one file per article.
 
 Find the directory for the product you are working on.
 
-Make any edits you may need directly through the Github website, through the Github desktop client, or on the command line.
+Make any edits you may need directly through the GitHub website, through the GitHub desktop client, or on the command line.
 
-When you finish editing an article, you must commit the edit so Github can produce a pull request. In the Github website or Github desktop client, create a commit message following the guidelines below:
+When you finish editing an article, you must commit the edit so GitHub can produce a pull request. In the GitHub website or GitHub desktop client, create a commit message following the guidelines below:
 
 - Provide a brief description of the change.
 - Use imperative mood. For example, "Add a paragraph about ..." vs "Added a paragraph about ...".
-- If you make a complex edit, explain why you are making the edit. For example, if you changing the formatting of an article because a   list should be ordered instead of unordered, say, "Switch list in middle of article to ordered so that there is clear progression of   steps".
+- If you make a complex edit, explain why you are making the edit. For example, if you update an article to change list formatting, provide a commit message that explains the change: *Change bulleted list to numeric to show clear progression of steps*
 
-  Note: Be sure that you are making commits to a branch. In the Github desktop client and the Github website, this can be achieved by   selecting the **Create a new branch for this commit and start a pull request** option below your commit message.
+  Note: Be sure that you are making commits to a branch. In the GitHub desktop client or website interface, you commit to a branch by selecting the **Create a new branch for this commit and start a pull request** option below your commit message.
 
 Create a pull request for your branch.
 
-During the audit phase of the migration, after a pull request is made, you are responsible for merging the pull request.
+After you commit your change, create a pull request so that your change can be reviewed. Depending on the review feedback, you might be asked to make additional changes, or given the OK to merge your updates.
 
-Commit any new changes to the branch and merge your pull request once you have completed your edits.
+After you complete any requested changes, commit them to the branch and merge your pull request.
 
