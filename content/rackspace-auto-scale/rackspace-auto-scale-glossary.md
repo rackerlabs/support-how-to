@@ -1,6 +1,6 @@
 ---
 node_id: 3757
-title: Rackspace Autoscale Glossary
+title: Rackspace Auto Scale Glossary
 type: article
 created_date: '2013-11-05'
 created_by: Maria Abrahms
@@ -50,7 +50,7 @@ mapped directly to an individual computer or a virtual machine.
 
 ### Convergence
 
-The act of Autoscale adding or removing enough servers to satisfy the
+The act of Auto Scale adding or removing enough servers to satisfy the
 needed capacity.
 
 ### Convergence Delta
@@ -98,7 +98,7 @@ additional servers.
 ### Launch configuration
 
 A configuration that contains the necessary details for adding and
-removing servers from a scaling group in the Rackspace Autoscale API.
+removing servers from a scaling group in the Rackspace Auto Scale API.
 The **launchConfiguration** object specifies whether you are creating a
 server or a load balancer and the necessary details about the
 configuration.

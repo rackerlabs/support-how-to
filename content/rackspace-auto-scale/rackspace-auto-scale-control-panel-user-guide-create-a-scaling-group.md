@@ -1,6 +1,6 @@
 ---
 node_id: 3784
-title: Create a scaling group using the Autoscale Control Panel
+title: Create a scaling group using the Auto Scale Control Panel
 type: article
 created_date: '2013-11-18'
 created_by: Rackspace Support
@@ -12,7 +12,7 @@ product_url: rackspace-auto-scale
 
 The
 [Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts") article
-reviews what Autoscale does and the core concepts that drive it. This
+reviews what Auto Scale does and the core concepts that drive it. This
 article provides instructions on how to set the parameters for scaling
 policies through scaling group configuration. The scaling group
 configuration sets a number of parameters that affect how scaling
@@ -22,9 +22,9 @@ policies operate.
 
 1.  Log in to the Cloud Control Panel.
 
-2.  At the top of the panel, click **Servers** > **Autoscale**.
+2.  At the top of the panel, click **Servers** > **Auto Scale**.
 
-3.  On the main **Autoscale** page, click **Create Group**.
+3.  On the main **Auto Scale** page, click **Create Group**.
 
     A page opens with areas for **Group Details**, **Configuration**,
     and **Scaling Policies**.
@@ -56,7 +56,7 @@ policies operate.
 8.  In the dialog box that opens, select the **Flavor Class** for the
     servers in the scaling group that corresponds to the server image
     that you selected. Use the widget to adjust the size for the servers
-    that will be created from that image and deployed in Autoscale.
+    that will be created from that image and deployed in Auto Scale.
     When you are done, click **Select Flavor**.
 9.  Click **Select Networks**.
 10. In the dialog box that opens, select the networks for the servers in
@@ -72,7 +72,7 @@ policies operate.
     A dialog box opens with the available load balancers for your
     scaling group. If no load balancers appear, click the **Servers** >
     **Load Balancers** tab in the control panel and create and save a
-    load balancer. The load balancer will then appear in Autoscale and
+    load balancer. The load balancer will then appear in Auto Scale and
     you can select it. You must include the **ServiceNet** network in your
     configuration if you use a load balancer so the load balancer can
     retrieve the IP address of new servers.
@@ -100,9 +100,9 @@ policies operate.
     turning green by each server as it completes. When the scaling group
     has been created, the status is **Active**.
 
-### About the Autoscale control panel
+### About the Auto Scale control panel
 
-Following are a few things you should know about the pages in the Autoscale control panel:
+Following are a few things you should know about the pages in the Auto Scale control panel:
 
 -   In the upper right-hand corner of the page that lists the existing
     scaling groups, you can pick from a list of regions to display only
@@ -135,7 +135,7 @@ Following are a few things you should know about the pages in the Autoscale cont
     Hover your mouse pointer over it to get pricing information.
 -   Links generally take you to a status or configuration page for the
     linked item. However, the configuration page that opens might be
-    outside of the **Servers > Autoscale** page and in a different
+    outside of the **Servers > Auto Scale** page and in a different
     area of the Cloud Control Panel. For example, clicking a load
     balancer link takes you to the status page for that load balancer
     under the top-level **Load Balancer** page.
@@ -143,11 +143,11 @@ Following are a few things you should know about the pages in the Autoscale cont
 
 ### User Guide sections
 
--   [Rackspace Autoscale Control Panel User Guide -
+-   [Rackspace Auto Scale Control Panel User Guide -
     Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
--   [Rackspace Autoscale Control Panel User Guide -
+-   [Rackspace Auto Scale Control Panel User Guide -
     Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
--   [Rackspace Autoscale Control Panel User Guide - Create a scaling
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
     group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
--   [Rackspace Autoscale Control Panel User Guide - Create a scaling
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
     policy](http://rackspace.com/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Creating Scaling Policies")
