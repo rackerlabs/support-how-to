@@ -56,7 +56,7 @@ Configuration.](http://docs.rackspace.com/cas/api/v1.0/autoscale-devguide/conten
 
 ### Important notes
 
-When setting metadata for Auto Scale-created servers, consider the
+When setting metadata for Auto Scale created servers, consider the
 following requirements:
 
 -   Verify that an appropriate health check has been configured for
