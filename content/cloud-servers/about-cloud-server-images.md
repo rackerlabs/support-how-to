@@ -10,12 +10,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-<span>Creating an image lets you have saved images for later use as a
+Creating an image lets you have saved images for later use as a
 template or master image. You can then use the saved images to easily
 restore a server to a known configuration or rapidly deploy additional
 servers with an identical configuration. Using the [Cloud Control
 Panel](http://mycloud.rackspace.com), you can create images
-on-demand.</span>
+on-demand.
 
 **Note**: Because images are not automatically verified they should not
 be used as a back-up solution.
