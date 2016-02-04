@@ -35,13 +35,14 @@ Control Panel interface.
     the server.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.16.55%20AM.png" width="473" height="372" />
+
 7.  *(Optional)* Assign a public key to the server by selecting an
     existing key.
 
     1.   To assign an existing public key, under Advanced Options, select
         a public key from the drop down list.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.18.41%20AM.png" width="379" height="87" />
+      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.18.41%20AM.png" width="379" height="87" />
 
     2.   Select the public key from the list and continue with the
         next step.
@@ -54,10 +55,7 @@ Control Panel interface.
         key will be used.
     4.   Paste your public key into the **Public Key** field.
 
-        **Note:** If you do not have a public key yet, click [How to get a public key](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
-        and follow the instructions in that article.
-        For more information on how to generate a public and
-        private key pairs, see [Manage SSH Keypairs for Cloud Servers with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+      **Note:** If you do not have a public key yet, click [How to get a public key](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os) and follow the instructions in that article. For more information on how to generate a public and private key pairs, see [Manage SSH Keypairs for Cloud Servers with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
     5.   Once you have your entered your Key Name, Region, and the Public
         Key, click **Add Public Key**.
 
