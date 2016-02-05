@@ -21,21 +21,21 @@ Follow these steps to create a new article within a product folder of the **rack
 4.	Enter header information using the format shown in the following example:
 
            ---
-           title: Supported Browsers
+           title: Checking cloud status
 
            type: article
 
-           created_date: 2016-01-29
+           created_date: '2016-01-29'
 
            created_by: Rosie Contreras
 
-           last_modified_date: 2016-01-29
+           last_modified_date: '2016-01-29'
 
            last_modified_by: Rosie Contreras
 
-           product: undefined
+           product: Cloud Servers
 
-           product_url: undefined
+           product_url: cloud-servers
            ---
 5.	Write your article in Markdown.
 
@@ -52,18 +52,18 @@ Follow these steps to edit an existing article within a product folder of the **
 
 1. Go to the [Rackspace How-to content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to edit the article.
 
-1. Make any edits directly through the GitHub website, through a GitHub desktop client, or on the command line.
+2. Make any edits directly through the GitHub website, through a GitHub desktop client, or on the command line.
 
     **Note:** If you are using a desktop client or the command line, and you are forking or cloning the repo, be sure to make your changes in a new branch. Doing so ensures that you are producing a pull request (PR) rather than committing changes directly to the master.
 
-1. When you have finished editing the article, commit the edits so that GitHub can produce a PR. If you are working in the GitHub website, be sure to select **Create a new branch for this commit and start a pull request**.
+3. When you have finished editing the article, commit the edits so that GitHub can produce a PR. If you are working in the GitHub website, be sure to select **Create a new branch for this commit and start a pull request**.
 
   Use the following guidelines to create a commit message:
 
     - Provide a brief description of the change, starting with an imperative verb. For example, "Add a paragraph about... ."
     - If you make a complex edit, explain why you are making the edit. For example, if you are changing the formatting of an article because a list should be ordered instead of unordered, say, "Switch list in middle of article to ordered to show clear progression of steps".
 
-1. Create a PR for your branch.
+4. Create a PR for your branch.
 
 Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes or to merge your PR.
 
