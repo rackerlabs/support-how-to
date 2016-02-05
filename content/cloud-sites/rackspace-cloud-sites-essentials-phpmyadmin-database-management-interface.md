@@ -75,7 +75,7 @@ well.
     Users** section. By default, there is only one user and this would
     be the user name you would use to log in to phpMyAdmin.
 
-  ![]http://c806394.r94.cf2.rackcdn.com/databaseusers.png)
+  ![](http://c806394.r94.cf2.rackcdn.com/databaseusers.png)
 
   **Note:** If there are multiple users listed, you may log in with any
 of them. The number that prefixes the user name is the account number
@@ -103,7 +103,7 @@ this page.
 With the information described above, you're ready to start working
 with the database. To do so, click the **Online Manager** link.
 
-![]http://c806394.r94.cf2.rackcdn.com/onlinemanagerlink.png)
+![](http://c806394.r94.cf2.rackcdn.com/onlinemanagerlink.png)
 
 -   A phpMyAdmin interface will display in the browser.
 
