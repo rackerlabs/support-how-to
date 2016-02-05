@@ -63,9 +63,9 @@ Using second person also avoids the use of gender-specific, third-person pronoun
 
 Use first person plural pronouns (*we*, *our*) judiciously. These pronouns emphasize the writer or Rackspace rather than the user, so before you use them, consider whether second person or imperative mood is more "user friendly." However, use *we recommend* rather than *it is recommended* or *Rackspace recommends*. Also, you can use *we* in the place of *Rackspace* if necessary.
 
-The first-person singular pronoun *I* is acceptable in the question part of FAQs and when authors of blogs or signed articles are describing their own actions or opinions.
+The first-person singular pronoun *I* is acceptable in the question part of FAQs.
 
-Avoid switching person (point of view) in the same document. Switching person is acceptable, however, in blog posts that use first-person singular but then switch to second person for instructional steps.
+Avoid switching person (point of view) in the same document.
 
 **Note:** This guidelines document is written in second person, and the headings and task examples use imperative mood.
 
@@ -111,7 +111,7 @@ When you are providing instructions to users, you should generally number the st
 
 Certain text should be formatted differently from the surrounding text to designate a special meaning or to make the text stand out to the user. Usually this formatting is accomplished by applying a different font treatment (such as bold, italics, or monospace).
 
-- For text you want to emphasize, use italics. Example: The offset _must_ be a multiple of the limit (or zero).
+- For text you want to emphasize, use italics. Example: The offset *must* be a multiple of the limit (or zero).
 
 - For error messages, use monospace. Example: `The user does not have permission to perform this action.`
 
@@ -208,7 +208,7 @@ Use words as they are defined in a general dictionary, in an accepted industry d
 
 - If a word has both a technical meaning and a general meaning, don't use it to express both meanings. Instead, use a synonym for the general meaning. For example, use *interface* as a noun that means user interface. Instead of also using *interface* as a verb, use *interact*.
 
-- Don't use different words to mean the same thing. Standardize on the use of one word for a particular object. Technical writing is not creative writing, and you should not be concerned that you will bore customers with colorless prose. Clarity is the goal, so using a precise set  of terms consistently is required. Following is a common example of multiple terms that refer to the same thing:
+- Don't use different words to mean the same thing. Standardize on the use of one word for a particular object. Technical writing is not creative writing, and you should not be concerned that you will bore customers with colorless prose. Clarity is the goal, so using a precise set of terms consistently is required. Following is a common example of multiple terms that refer to the same thing:
   - menu command *(the preferred term)*
   - menu item
   - menu option
@@ -219,7 +219,7 @@ Use words as they are defined in a general dictionary, in an accepted industry d
 
 - Standardize words and spelling across a documentation set.
 
-- Don't  use terms with different meanings interchangeably. Some terms have similar but distinct meanings and should not be used interchangeably. For example:
+- Don't use terms with different meanings interchangeably. Some terms have similar but distinct meanings and should not be used interchangeably. For example:
   - environment, platform
   - version, release
   - panel, screen
