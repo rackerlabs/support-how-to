@@ -9,7 +9,7 @@ product: Rackspace Private Cloud Powered by Microsoft Cloud Platform
 product_url: rpc-microsoft
 ---
 
-### What are the key features of Microsoft Private Cloud?
+#### What are the key features of Microsoft Private Cloud?
 
 -   **Built on Microsoft Hyper-V** - Flexible guest VM support on
     private and secure hardware makes Hyper-V the hypervisor of choice
@@ -36,7 +36,7 @@ product_url: rpc-microsoft
     store for Microsoft Cloud Platform.
 -
 
-### Why should I use Microsoft Private Cloud?
+#### Why should I use Microsoft Private Cloud?
 
 -   **Backed by Fanatical Support&reg;** - Microsoft Private Cloud includes
     full support of the Microsoft Cloud Platform components; the
@@ -57,7 +57,7 @@ product_url: rpc-microsoft
     connect across multiple data centers, connect and manage servers in
     your own data center, and burst out to the public Azure.
 
-### What are some use cases for Microsoft Private Cloud?
+#### What are some use cases for Microsoft Private Cloud?
 
 -   **Core infrastructure** - Microsoft Systems Center is an ideal
     choice whenever seasonal spikes require additional power from your
