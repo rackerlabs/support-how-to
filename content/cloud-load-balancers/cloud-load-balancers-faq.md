@@ -21,7 +21,7 @@ Balancer](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer
 
 #### Do Cloud Load Balancers support SSL Termination?
 
-SSL Termination on Cloud Load Balancers is supported[via the
+SSL Termination on Cloud Load Balancers is supported [via the
 API](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#document-api-operations/ssl-termination)
 and [through the Cloud Control
 Panel](/how-to/cloud-load-balancers-faq).
