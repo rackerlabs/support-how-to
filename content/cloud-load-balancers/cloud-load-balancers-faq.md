@@ -19,6 +19,24 @@ originating IP address by default. For more information, see [the API
 documentation for creating a Cloud Load
 Balancer](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#creating-a-load-balancer).
 
+#### Do Cloud Load Balancers support SSL Termination?
+
+SSL Termination on Cloud Load Balancers is supported [via the
+API](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#document-api-operations/ssl-termination)
+and [through the Cloud Control
+Panel](/how-to/cloud-load-balancers-faq).
+SSL Termination allows users to have their secure traffic terminate at
+the load balancer with centralized certificate management. Features of
+this service are as follows:
+
+-   SSL acceleration for improved throughput
+-   Reduced CPU load at the application level for better performance
+-   HTTP/HTTPS session persistence
+
+**Note** : SSL Termination should not be used when transferring certain
+types of [Personally Identifiable Information
+(PII)](/how-to/definition-of-personally-identifiable-information-pii).
+
 #### How do I configure SSL Termination using the Cloud Control Panel?
 
 You can quickly configure SSL termination for an existing Cloud Load
@@ -189,25 +207,6 @@ unencrypted traffic to within the data center&rsquo;s network, as illustrated
 in the following diagram.
 
 (sslterminationsFAQpic.png)
-
-#### Do Cloud Load Balancers support SSL Termination?
-
-SSL Termination on Cloud Load Balancers is supported[via the
-API](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#document-api-operations/ssl-termination)
-and [through the Cloud Control
-Panel](/how-to/cloud-load-balancers-faq).
-SSL Termination allows users to have their secure traffic terminate at
-the load balancer with centralized certificate management. Features of
-this service are as follows:
-
--   SSL acceleration for improved throughput
--   Reduced CPU load at the application level for better performance
--   HTTP/HTTPS session persistence
-
-**Note** : SSL Termination should not be used when transferring certain
-types of [Personally Identifiable Information
-(PII)](/how-to/definition-of-personally-identifiable-information-pii)
-.
 
 #### What are the benefits of using SSL Termination on the Cloud Load Balancer?
 
