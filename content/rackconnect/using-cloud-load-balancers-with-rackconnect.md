@@ -4,8 +4,8 @@ title: Using Cloud Load Balancers with RackConnect
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2016-01-12'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-02-08'
+last_modified_by: Catherine Richardson
 product: RackConnect
 product_url: rackconnect
 ---
@@ -40,13 +40,18 @@ following these steps:
 
     -   DFW region:
 
+            10.183.250.0/24
             10.189.254.0/24
+            10.183.251.0/24
+            10.189.255.0/24
+            10.187.186.0/24
             10.189.252.0/24
             10.183.248.0/24
-            10.183.250.0/24
 
     -   IAD region:
 
+            10.189.252.0/24
+            10.187.190.0/24
             10.187.191.0/24
             10.189.255.0/24
             10.189.254.0/24
@@ -54,25 +59,34 @@ following these steps:
     -   ORD region:
 
             10.183.253.0/24
-            10.183.250.0/24
-            10.189.246.0/24
-            10.183.252.0/24
+            10.187.191.0/24
+            10.187.187.0/24
+            10.187.190.0/24
             10.189.245.0/24
+            10.189.247.0/24
             10.183.251.0/24
+            10.187.186.0/24
+            10.183.252.0/24
+            10.189.246.0/24
+            10.189.244.0/24
+            10.183.250.0/24
 
     -   LON region:
 
             10.189.247.0/24
             10.190.255.0/24
             10.189.246.0/24
+            10.187.254.0/24
             10.190.254.0/24
 
     -   SYD region:
 
+            10.189.255.0/24
             10.189.254.0/24
 
     -   HKG region:
 
+            10.189.255.0/24
             10.189.254.0/24
 
 4.  Set the **Destination Type**, **Destination Protocol**, and
