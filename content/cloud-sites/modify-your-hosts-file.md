@@ -4,8 +4,8 @@ title: Modify your hosts file
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-02-08'
+last_modified_by: Catherine Richardson
 product: Cloud Sites
 product_url: cloud-sites
 ---
@@ -23,7 +23,7 @@ The following sections provide instructions for locating and editing the hosts f
 -   Windows NT, Windows 2000, and Windows XP
 -   Linux
 -   Mac OS X 10.0 through 10.1.5
--   Mac OS X 10.6 through 10.8
+-   Mac OS X 10.6 through 10.10
 
 ### Windows 8, Windows 7, and Windows Vista
 
@@ -70,7 +70,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 5.  Press **Control-x**.
 6.  When asked if you want to save your changes, answer **y**.
 
-### Mac OS X 10.0 - 10.8
+### Mac OS X 10.0 - 10.10
 
 **Mac OS X 10.0 through 10.1.5**
 
@@ -102,7 +102,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 
   You do not need to restart the computer.
 
-**Mac OS X 10.6 - 10.8**
+**Mac OS X 10.6 - 10.10**
 
 1.  Open **Applications > Utilities > Terminal**.
 2.  Open the **hosts** file by typing the following line in the terminal window:
