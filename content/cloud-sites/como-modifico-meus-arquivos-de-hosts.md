@@ -4,8 +4,8 @@ title: Como modifico meus arquivos de hosts?
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Rosie Contreras
+last_modified_date: '2016-02-09'
+last_modified_by: Joe Ashcraft
 product: Cloud Sites
 product_url: cloud-sites
 ---
@@ -23,7 +23,7 @@ Abaixo detalhes de como localizar e editar o arquivo hosts em diferentes sistema
 -   Windows NT, Windows 2000, e Windows XP
 -   Linux
 -   Mac OS X 10.0 - 10.1.5
--   Mac OS X 10.6 - 10.8
+-   Mac OS X 10.6 - 10.10
 
 ### Windows 8, Windows 7, e Windows Vista
 
@@ -63,13 +63,13 @@ Windows 8, Windows 7 e Windows Vista usam o Controle de Conta de Usu&aacute;rio 
 1.  Abra uma janela de terminal.
 2.  Abra o arquivo hosts em um editor de texto (voc&ecirc; pode usar qualquer editor de texto):
 
-        sudo nano / etc / hosts
+        sudo nano /etc/hosts
 
 3.  Digite sua senha
 4.  Fa&ccedil;a as altera&ccedil;&otilde;es necess&aacute;rias no arquivo hosts.
 5.  Pressione **control X** (Clique **CTRL** e pressione **X**) e, em seguida, clique quando perguntado se voc&ecirc; deseja salvar as altera&ccedil;&otilde;es.
 
-### Mac OS X 10.0 - 10.8
+### Mac OS X 10.0 - 10.10
 
 **Mac OS X 10.0 - 10.1.5**
 
@@ -88,12 +88,12 @@ Windows 8, Windows 7 e Windows Vista usam o Controle de Conta de Usu&aacute;rio 
 13. Repita os passos de 6 a 12 para cada entrada de host adicional que voc&ecirc; deseja adicionar.
 14. Selecione **Sair** do menu de NetInfo Manager. N&atilde;o h&aacute; necessidade de reiniciar o computador.
 
-**Mac OS X 10.6 - 10.8**
+**Mac OS X 10.6 - 10.10**
 
 1.  Abra **Aplicativos > Utilit&aacute;rios > Terminal**.
 2.  Abra o arquivo **hosts**, digitando o seguinte na janela Terminal:
 
-        sudo nano / privado / etc / hosts
+        sudo nano /privado/etc/hosts
 
 3.  Digite sua senha quando solicitado.
 4.  Edite o arquivo **hosts**.
