@@ -1,19 +1,23 @@
 ---
 node_id: 3255
-title: Update the Rackspace Cloud Backup Agent
+title: Manually update the Rackspace Cloud Backup Agent
 type: article
 created_date: '2013-01-08'
 created_by: Rackspace Support
-last_modified_date: '2015-08-12'
+last_modified_date: '2016-02-09'
 last_modified_by: Catherine Richardson
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
+If the Cloud Backup updater, which is described in [Rackspace Cloud Backup - Install or update the agent on
+Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) failed, use the steps in this article to 
+manually update the Rackspace Cloud Backup agent.
+
+
 ### Update the agent
 
-We release regular updates to the Rackspace Cloud Backup agent about
-every two weeks. Managed Cloud Service Level account customers have
+We release regular updates to the Rackspace Cloud Backup agent. Managed Cloud Service Level account customers have
 their agent updated automatically when the new version is released.
 However, if you are a Managed Infrastructure customer, you should update
 your agent from time to time. Follow the instructions below to take
