@@ -17,13 +17,15 @@ You need to add two entries to your **hosts** file that contain the IP address t
     64.49.219.194 www.domain.com
     64.49.219.194 domain.com
 
-The following sections provide instructions for locating and editing the hosts file on several operating systems. After you add the domain information and save the file, your system begins resolving to the specified IP address. After testing is finished, remove these entries.
+The sections in this article provide instructions for locating and editing the hosts file on the operating systems that are listed below:
 
 -   Windows 8, Windows 7, and Windows Vista
 -   Windows NT, Windows 2000, and Windows XP
 -   Linux
 -   Mac OS X 10.0 through 10.1.5
 -   Mac OS X 10.6 through 10.10
+  
+After you add the domain information and save the file, your system begins resolving to the specified IP address. After testing is finished, remove these entries.
 
 ### Windows 8, Windows 7, and Windows Vista
 
@@ -63,7 +65,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 1.  Open a terminal window.
 2.  Open the hosts file in a text editor (you can use any text editor) by typing the following line:
 
-        sudo nano / etc / hosts
+        sudo nano /etc/hosts
 
 3.  Enter your domain user password.
 4.  Make the necessary changes to the file.
@@ -79,40 +81,42 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 3.  Enter your domain user password and click **OK**.
 4.  In the second column of the browser view, select the node named machines.
 
-  You will see entries for `-DHCP-`, `broadcasthost`, and `localhost` in the third column.
+    You will see entries for `-DHCP-`, `broadcasthost`, and `localhost` in the third column.
 
 5.  In the third column, select `localhost`.
 6.  From the **Edit** menu, select **Duplicate**. (The quickest way to create a new entry is to duplicate an existing one.)
 
-  A confirmation alert appears.
+    A confirmation alert appears.
 
 7.  Click **Duplicate**.
 
-  A new entry called localhost copy appears, and its properties are shown below the browser view.
+    A new entry called localhost copy appears, and its properties are shown below the browser view. 
+    
 8.  Double-click the value of the `ip_address` property and enter the IP address of the other computer.
 9.  Double-click the value of the `name` property and enter the hostname you want for the other computer.
 10.  Click the `serves` property and select **Delete** from the **Edit** menu.
 11.  From the **File** menu, select **Save**.
 
-  A confirmation alert appears.
+     A confirmation alert appears.
 
 12.  Click **Update this copy**.
 13.  Repeat steps 6 through 12 for each additional host entry that you want to add.
 14.  From the NetInfo Manager menu, select **Quit**.
 
-  You do not need to restart the computer.
+     You do not need to restart the computer.
 
 **Mac OS X 10.6 - 10.10**
 
 1.  Open **Applications > Utilities > Terminal**.
 2.  Open the **hosts** file by typing the following line in the terminal window:
 
-        sudo nano / privado / etc / hosts
+        sudo nano /private/etc/hosts
 
 3.  Type your domain user password when prompted.
 4.  Edit the **hosts** file.
 
-  The file contains some comments (lines starting with the # symbol), and some default hostname mappings (for example, 127.0.0.1 – local host). Add your new mappings after the default mappings.
+    The file contains some comments (lines starting with the # symbol), and some default hostname mappings (for example, 127.0.0.1 – local host). Add your new mappings after the default mappings.
+  
 5.  Save the hosts file by pressing **Control+x** and answering **y**.
 6.  Make your changes take effect by flushing the DNS cache with the following command:
 
