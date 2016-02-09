@@ -4,8 +4,8 @@ title: Como modificar mi archivo de hosts?
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Rosie Contreras
+last_modified_date: '2016-02-09'
+last_modified_by: Joe Ashcraft
 product: Cloud Sites
 product_url: cloud-sites
 ---
@@ -23,7 +23,7 @@ A continuación se detalla cómo ubicar y editar el archivo de hosts en platafor
 -  Windows NT, Windows 2000, y Windows XP
 -  Linux
 -  Mac OS X 10.0 - 10.1.5
--  Mac OS X 10.6 - 10.8  
+-  Mac OS X 10.6 - 10.10  
 
 ### Windows 8, Windows 7 y Windows Vista
 
@@ -104,7 +104,7 @@ Windows 8, Windows 7 y Windows Vista usan el Control de cuentas de usuario (UAC,
 
 14. Seleccione **Salir** del menú de Gestor NetInfo. No es necesario que reinicie la computadora.
 
-**Mac OS X 10.6 - 10.8**
+**Mac OS X 10.6 - 10.10**
 
 1. Abra **Aplicaciones > Utilidades > Terminal**.
 
