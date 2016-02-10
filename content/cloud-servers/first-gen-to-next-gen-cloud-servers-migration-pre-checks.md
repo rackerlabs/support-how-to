@@ -10,15 +10,14 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Before you open the migration window for each of your cloud servers,
-you must perform a series of checks to rule out common issues that you
+Before the migration window is opened for each of your cloud servers,
+a series of checks are performed to rule out common issues that you
 might encounter with migrations. If your cloud server fails any of these
 checks, a ticket will be created in your account so that you can fix the
 issue before your self-migration window opens. This article will help
 you understand and fix the results of these checks.
 
-**Note:** The checks will prevent your server from migrating correctly.
-If your server has not migrated correctly by the end of your window,
+**Note:** The checks will not prevent your server from migrating, but may indicate issues that could contribute to the success or failure of a migration. If your server has not migrated correctly by the end of your window,
 data loss will occur when your source server is decommissioned.
 
 ### SELinux check
@@ -88,7 +87,7 @@ Backup is good for this purpose), and remove it from the server.
 The majority of the First Gen infrastructure and the entire Next Gen
 infrastructure use XenServer to power the host machines for your cloud
 servers. XenServer allows for a technology called *paravirtualization*,
-which increases the performance of virtualized networks and blocks
+which increases the performance of virtualized networks and block
 devices in your cloud servers. For these paravirtualized devices to
 function, your cloud server must have the correct kernel modules (Linux)
 or device drivers (Windows) installed.
@@ -115,7 +114,7 @@ install these drivers manually.
 In the XenServer infrastructure, the OpenStack&reg; guest agent is the same
 as that used in the Next Gen Cloud Servers infrastructure. This nova
 agent allows us to perform actions such as password resets and
-networking configuration changes without requiring a reboot of your
+networking configuration changes without having to log back in to your
 cloud server. As with the PV drivers check, this check is run only
 against cloud servers that should already have the agent installed.
 
