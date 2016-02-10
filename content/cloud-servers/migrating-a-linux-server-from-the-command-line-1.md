@@ -134,5 +134,5 @@ If you'd like to migrate using a script to handle much of the heavy
 lifting, proceed to our [article on a script-assisted migration](/how-to/migrating-a-linux-server-from-the-command-line-scripted "Migrating a Linux server from the command line - Scripted").
 
 If you would like to handle the syncing yourself, running rsync manually,
-head to our [article on migrating with rsync](/knowledge_center/index.php/Migrating_a_Linux_Server_From_Command_Line_Stage_2 "Migrating a Linux server from the command line - running the sync")
+head to our [article on migrating with rsync](/how-to/migrating-a-linux-server-from-the-command-line-2/")
 to start the servers syncing.
