@@ -4,13 +4,13 @@ title: Manually update the Rackspace Cloud Backup agent
 type: article
 created_date: '2013-01-08'
 created_by: Rackspace Support
-last_modified_date: '2016-02-09'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-02-10'
+last_modified_by: Kelly Holcolm
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-If the Cloud Backup updater, which is described in [Install the Cloud Backup agent on
+If the Cloud Backup updater, which is described in [Install or update the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) failed, use the steps in this article to
 manually update the Rackspace Cloud Backup agent.
 
@@ -28,7 +28,7 @@ circumstance should updates be completed manually.
 
 ### Update the agent for apt-based systems, like Ubuntu, Debian, and Vyatta
 
-You might want to review [Install the Cloud Backup agent on
+You might want to review [Install or update the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
@@ -49,7 +49,7 @@ Backup updater service, which keeps the agent up-to-date on the system.
 
 ### Update the agent for yum-based systems, like CentOS, Fedora, and Red Hat
 
-You might want to review [Install the Cloud Backup agent on
+You might want to review [Install or update the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
@@ -69,7 +69,7 @@ up-to-date on the system.
 
 ### Update the agent for Arch, Gentoo, and SUSE systems
 
-You might want to review [Install the Cloud Backup agent on
+You might want to review [Install or update the Cloud Backup agent on
 Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
@@ -123,7 +123,7 @@ Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 before performing these steps.
 
 Because the Windows agent includes an automated updater, you should
-rarely need to update the Windows agent manually. This section provides different options to use if you perform need to manually update.
+rarely need to update the Windows agent manually. This section provides different options to use if you need to manually update.
 
 #### Recommended method
 
