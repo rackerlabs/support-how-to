@@ -32,10 +32,9 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
      * **Password:** Enter the password for the email account using the following requirements:
 
-	   - Must be at least six characters long
-	   - Must not contain a numeric sequence longer than three characters
-	   - Must not contain the domain name
-	   - Must not contain the user name.
+	   - Must be at least eight characters
+	   - Cannot include your username, display name, or full name.
+	   - Must use at least 3 of these character groups: uppercase characters, lowercase characters, numerals 0-9, and alpha-numeric symbols (such as !, #, $, %)
 
 	 * **Confirm:** Retype the password that you entered in the Password box.
 
@@ -71,7 +70,7 @@ To add multiple mailboxes at one time, you create a CSV or Excel file with the m
 
 	- English lowercase letters numerals (0-9)
 
-	- Nonalphabetic characters (such as !, #, $, %)
+	- Alphanumeric symbols (such as !, #, $, %)
 
 7.	In the **Import File** section, click the **Choose File** button and locate and select the CSV or Excel file that you created.
 
