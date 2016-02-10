@@ -32,7 +32,7 @@ your account, but they only exist at the "top level" of your account and
 containers cannot reside within other Containers.
 
 Containers scale to about one million objects before
-peformance degrades. Containers can only be removed from Cloud Files if
+performance degrades. Containers can only be removed from Cloud Files if
 they do NOT contain any storage Objects. In other words, make sure the
 Container is empty before attempting to delete it.
 
@@ -68,7 +68,7 @@ See [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-w
 #### Can Cloud Files be used for my Cross-domain policy file?
 
 No. The Cloud Files CDN does not support exposing a custom
-crossdomain.xml file, as this is a required file by the Openstack Swift
+crossdomain.xml file, as this is a required file by the OpenStack Swift
 project. OpenStack Swift uses this as a global configuration file for
 the installation, and can not be modified for multiple tenants, such as
 our Public Cloud.
@@ -151,19 +151,17 @@ Yes, this is available to both US and UK Cloud customers.
 #### Does CDN management in Cloud Files support exposing a custom crossdomain.xml file?
 
 Cloud Files CDN does not support exposing a custom crossdomain.xml file
-because this file is required by the Openstack Swift project, on which
+because this file is required by the OpenStack Swift project, on which
 Cloud Files is based.
 
 OpenStack Swift uses the crossdomain.xml file as a global configuration
 file for installation. The file cannot be modified for multiple tenants,
 such as our Rackspace Public Cloud.
 
-For more information, see [Cross-domain Policy
-File](http://docs.openstack.org/developer/swift/crossdomain.html).
+For more information, see [Cross-domain Policy File](http://docs.openstack.org/developer/swift/crossdomain.html).
 
 If your site requires a custom crossdomain.xml file, we suggest you take
-a look at [Rackspace
-CDN](http://www.rackspace.com/cloud/cdn-content-delivery-network).
+a look at [Rackspace CDN](http://www.rackspace.com/cloud/cdn-content-delivery-network).
 Rackspace CDN allows you to customize your configuration and define your
 own origin web server.
 
