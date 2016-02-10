@@ -4,8 +4,8 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2016-02-09'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-02-10'
+last_modified_by: Kelly Holcomb
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -14,11 +14,11 @@ product_url: cloud-backup
 
 Use the following instructions to install or update the Rackspace Cloud Backup agent on your Linux server by using the Cloud Backup updater.
 
-If you are using a Windows server, see [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
-for parallel instructions.  
-
 **Note:** If the Cloud Backup updater fails, use the instructions in
 [Manually update the Rackspace Cloud Backup agent](/how-to/update-the-rackspace-cloud-backup-agent).
+
+If you are using a Windows server, see [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+for parallel instructions.  
 
 **Note:** You can use Cloud Backup on almost any Linux server in the Rackspace Cloud. Exceptions are FreeBSD 9 (not supported) and Debian 5 (End of Life February 2012). If you use FreeBSD 9 or Debian 5, use an alternative method to back up your data. Also note that 32-bit servers and agents on Linux are not supported.
 
