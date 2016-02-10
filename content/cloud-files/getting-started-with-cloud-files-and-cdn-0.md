@@ -14,11 +14,11 @@ This guide provides an overview of Rackspace Cloud Files and its
 features to help you get started quickly and serve content over Akamai's
 CDN service.
 
+### Overview
+
 Cloud Files allows you to store data on the Rackspace infrastructure.
 The [Cloud Control Panel](https://mycloud.rackspace.com/) allows
-customers to accomplish most tasks for managing data, but the [Cloud
-Files API Developer
-Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
+customers to accomplish most tasks for managing data, but the [Cloud Files API Developer Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
 and some third-party tools are also available.
 
 The basics of Cloud Files include:
@@ -34,8 +34,7 @@ The basics of Cloud Files include:
 -   You can interact with Cloud Files through the Rackspace Cloud
     Control Panel or language-specific programming interfaces
 
-For more details, see the [Cloud Files Key
-Concepts](https://support.rackspace.com/how-to/cloud-files-key-concepts/).
+For more details, see the [Cloud Files Key Concepts](https://support.rackspace.com/how-to/cloud-files-key-concepts/).
 
 ### What is the CDN?
 
@@ -58,6 +57,50 @@ container for your content. The container name should have no breaks,
 spaces, or special characters. Unlike a folder or directory, a container
 cannot have subdirectories. All your content will be at one level below
 the container name.
+
+### Use Akamai's CDN with Cloud Files
+
+Rackspace Cloud Files uses [Akamai Technologies, Inc](http://www.akamai.com/ "http://www.akamai.com/"). a leading, tier
+one, global Content Delivery Network (CDN) provider to offer the
+benefits to all Cloud Files users. Today Akamai handles tens of billions
+of daily Web interactions for their customers such as Audi, NBC,
+Fujitsu, U.S. Department of Defense, and NASDAQ.
+
+The Rackspace Cloud Files/Akamai relationship brings full-fledged, robust
+CDN capabilities and unlimited file storage to developers and corporate
+IT departments alike. The CDN capability will greatly enhance the
+quality of the end user experience by speeding the delivery of
+bandwidth-heavy rich content, including audio and video. For literally
+pennies per gigabyte of bandwidth and storage and no upfront
+commitments, the CDN advantage is now available to all not just to the
+giants of the internet. This partnership brings unlimited online
+storage, scalable content delivery, and application acceleration
+services, thereby allowing businesses to more easily and affordably
+distribute content to millions of end users around the world. Together
+with Akamai, Rackspace has democratized content delivery.
+
+With Akamai's service, Cloud Files brings a powerful and easy way to
+publish content over a world-class, industry leading CDN. A Cloud Files
+user automatically gets access to this network. Users have to mark
+containers for publishing to CDN, and then they are instantly accessible
+through Akamai CDN. The propagation of content to the edge locations is
+done automatically behind the scenes. The Rackspace Cloud Files/Akamai
+offering is not a one-off solution; content published through it is
+distributed across their entire infrastructure just as it is for other
+customers.
+
+In the Rackspace Cloud control panel, it is a matter of creating a
+Container (the storage compartment for data), uploading Objects (the
+files to serve over CDN), and marking the Container as "public". The
+Container is then assigned a unique URL which can be combined with
+Object names to embed in web pages, email messages, blog posts, etc. For
+example, a user could upload a photo to a Container called "images".
+When this Container is published, it will be assigned a unique URL like
+http://c0000532.cdn.cloudfiles.rackspace.com. The user could then share
+a link to the photo with link like
+http://c0000532.cdn.cloudfiles.rackspace.com/IMG_3432.jpg. When that
+link is accessed, the photo is served from the CDN.
+
 
 ### Create a container
 
