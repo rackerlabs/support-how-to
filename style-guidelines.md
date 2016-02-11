@@ -168,7 +168,7 @@ Observe the following guidelines when creating blocks of code as input or output
 
 - If the input includes a list of arguments or parameters, show the important or relevant ones first, and group related ones. If no other order makes sense, use alphabetical order. If you explain the arguments or parameters in text, show them in the same order that they appear in the code block.
 
-The following examples illustrates many many of these guidelines. For more examples, see the [Code examples](https://github.com/rackerlabs/docs-rackspace/blob/master/style-guide/a-l-style-guidelines.md#code-examples) section of the complete style guide.
+The following example illustrates many of these guidelines. For more examples, see the [Code examples](https://github.com/rackerlabs/docs-rackspace/blob/master/style-guide/a-l-style-guidelines.md#code-examples) section of the complete style guide.
 
 #### Example: Create a VM running a Docker host
 1. Show all the available virtual machines (VMs) that are running Docker.
