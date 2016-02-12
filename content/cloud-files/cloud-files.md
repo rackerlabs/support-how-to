@@ -15,7 +15,7 @@ Store it on Cloud Files, serve it fast on Akamai's CDN. Cloud Files, powered by 
 
 ###  Cloud Files Basics
 
-- [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn-0/)
+- [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn/)
 - [Key Concepts of Cloud Files](/how-to/cloud-files-key-concepts)
 - [Why Should I Use Cloud Files?](/how-to/why-choose-cloud-files)
 

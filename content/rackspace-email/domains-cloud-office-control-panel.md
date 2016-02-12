@@ -24,7 +24,7 @@ From the **Manage Domains** section of the control panel, you can perform the fo
 
 ### Spam filtering
 
-From the Spam Filtering section of the control panel, you can manage the spam settings for domains and users. For instructions, see [Spam Preferences, Safe Lists, and Black List In Rackspace Email](/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email-0).
+From the Spam Filtering section of the control panel, you can manage the spam settings for domains and users. For instructions, see [Spam Preferences, Safe Lists, and Black List In Rackspace Email](/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email).
 
 ### Tools
 

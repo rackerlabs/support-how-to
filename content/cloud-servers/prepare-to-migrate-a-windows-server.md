@@ -31,7 +31,7 @@ for backing up a Microsoft SQL Server database is through Microsoft SQL
 Server Management Studio.
 
 To set up your backup directory and a schedule for exporting your backup
-to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/knowledge_center/rackspace-cloud-backup-create-a-backup-0).
+to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/knowledge_center/rackspace-cloud-backup-create-a-backup).
 
 You can find more information about Cloud Backup
 at <http://www.rackspace.com/cloud/backup>.

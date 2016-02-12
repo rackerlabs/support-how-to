@@ -230,7 +230,7 @@ your Cloud Servers. Read this article for [detailed information on using the Rac
 #### How do I get reverse DNS setup for my Cloud Server?
 
 You can setup reverse DNS from your control panel. This article will
-show you how: [Create a reverse DNS record.](/how-to/create-a-reverse-dns-record-0)
+show you how: [Create a reverse DNS record.](/how-to/create-a-reverse-dns-record)
 
 #### Is there a throughput limit on my server's network interface card?
 
