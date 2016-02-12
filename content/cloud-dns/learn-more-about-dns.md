@@ -16,7 +16,7 @@ product_url: cloud-dns
 
 -  [Choosing record types](/how-to/choosing-dns-record-types)
 
--  [Creating a reverse DNS record](/how-to/create-a-reverse-dns-record-0)
+-  [Creating a reverse DNS record](/how-to/create-a-reverse-dns-record)
 
 ### Best practices
 

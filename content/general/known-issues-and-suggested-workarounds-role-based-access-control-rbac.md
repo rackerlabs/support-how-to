@@ -60,4 +60,4 @@ must re-enable users through the API or by contacting support at
 1-800-961-4454.
 
 ### Next section
-[Getting Started with RBAC](/how-to/getting-started-with-role-based-access-control-rbac-0)
+[Getting Started with RBAC](/how-to/getting-started-with-role-based-access-control-rbac)
