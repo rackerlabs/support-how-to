@@ -1,4 +1,5 @@
 ---
+permalink: set-an-email-catch-all-address-in-the-cloud-office-control-panel/
 node_id: 4014
 title: Set an email catch-all address in the Cloud Office Control Panel
 type: article

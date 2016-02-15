@@ -1,4 +1,5 @@
 ---
+permalink: introduction-to-encrypted-authenticated-tokens/
 node_id: 4766
 title: Introduction to encrypted authenticated tokens
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: before-you-move-to-general-purpose-or-io-cloud-server-checklist/
 node_id: 3754
 title: Before you move to General Purpose or I/O Cloud Server (checklist)
 type: article

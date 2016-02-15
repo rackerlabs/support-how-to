@@ -1,4 +1,5 @@
 ---
+permalink: using-onmetal-cloud-servers-through-api/
 node_id: 4156
 title: OnMetal Cloud Servers through API
 type: article

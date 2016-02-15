@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-backup-install-the-agent-on-linux/
 node_id: 4057
 title: Install or update the Cloud Backup agent on Linux
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: billing-info-displayed-in-unified-control-panel/
 node_id: 3263
 title: Billing info displayed in unified control panel
 type: article

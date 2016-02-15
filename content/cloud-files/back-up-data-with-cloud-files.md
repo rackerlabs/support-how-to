@@ -1,4 +1,5 @@
 ---
+permalink: back-up-data-with-cloud-files/
 node_id: 236
 title: Back up data with Cloud Files
 type: article

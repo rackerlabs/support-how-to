@@ -1,4 +1,5 @@
 ---
+permalink: transferring-your-dns-hosting-to-rackspace/
 node_id: 770
 title: Transferring your DNS hosting to Rackspace
 type: article

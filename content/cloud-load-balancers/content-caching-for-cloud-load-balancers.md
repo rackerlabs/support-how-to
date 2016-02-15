@@ -1,4 +1,5 @@
 ---
+permalink: content-caching-for-cloud-load-balancers/
 node_id: 1397
 title: Content Caching for Cloud Load Balancers
 type: article

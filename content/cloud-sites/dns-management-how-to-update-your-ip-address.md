@@ -1,4 +1,5 @@
 ---
+permalink: dns-management-how-to-update-your-ip-address/
 node_id: 1216
 title: 'DNS management: How to update your IP address'
 type: article

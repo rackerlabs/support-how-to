@@ -1,4 +1,5 @@
 ---
+permalink: cloud-backup-faq/
 node_id: 5043
 title: Cloud Backup FAQ
 type: article

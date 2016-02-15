@@ -1,4 +1,5 @@
 ---
+permalink: high-performance-computing-cluster-in-a-cloud-environment/
 node_id: 3352
 title: High Performance Computing Cluster in a Cloud Environment
 type: article

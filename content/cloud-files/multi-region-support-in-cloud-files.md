@@ -1,4 +1,5 @@
 ---
+permalink: multi-region-support-in-cloud-files/
 node_id: 2157
 title: Multi-region support in Cloud Files
 type: article

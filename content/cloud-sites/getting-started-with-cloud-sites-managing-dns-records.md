@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-cloud-sites-managing-dns-records/
 node_id: 1247
 title: Getting Started With Cloud Sites - Managing DNS Records
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: using-dedicated-load-balancers-with-rackconnect-v20/
 node_id: 2028
 title: Using dedicated load balancers with RackConnect v2.0
 type: article

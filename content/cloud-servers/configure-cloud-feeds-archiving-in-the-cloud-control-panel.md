@@ -1,4 +1,5 @@
 ---
+permalink: configure-cloud-feeds-archiving-in-the-cloud-control-panel/
 node_id: 4633
 title: Configure Cloud Feeds archiving in the Cloud Control Panel
 type: article

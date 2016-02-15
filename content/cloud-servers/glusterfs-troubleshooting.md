@@ -1,4 +1,5 @@
 ---
+permalink: glusterfs-troubleshooting/
 node_id: 4179
 title: GlusterFS - troubleshooting
 type: article

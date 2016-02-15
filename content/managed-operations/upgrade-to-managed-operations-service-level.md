@@ -1,4 +1,5 @@
 ---
+permalink: upgrade-to-managed-operations-service-level/
 node_id: 4127
 title: Upgrade to Managed Operations service level
 type: article

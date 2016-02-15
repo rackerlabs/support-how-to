@@ -1,4 +1,5 @@
 ---
+permalink: working-with-checks/
 node_id: 4778
 title: Working with checks
 type: article

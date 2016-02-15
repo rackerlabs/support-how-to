@@ -1,4 +1,5 @@
 ---
+permalink: deleting-your-server/
 node_id: 1478
 title: Deleting your server
 type: article

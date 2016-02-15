@@ -1,4 +1,5 @@
 ---
+permalink: cms-comparison-drupal-joomla-and-wordpress/
 node_id: 1052
 title: 'CMS Comparison: Drupal, Joomla, and WordPress'
 type: article

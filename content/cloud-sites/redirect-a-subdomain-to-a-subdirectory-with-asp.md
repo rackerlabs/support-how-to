@@ -1,4 +1,5 @@
 ---
+permalink: redirect-a-subdomain-to-a-subdirectory-with-asp/
 node_id: 665
 title: Redirect a subdomain to a subdirectory with ASP
 type: article

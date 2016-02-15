@@ -1,4 +1,5 @@
 ---
+permalink: integrate-rackspace-email-archiving-with-outlook/
 node_id: 4692
 title: Integrate Rackspace Email Archiving with Outlook
 type: article

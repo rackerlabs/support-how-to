@@ -1,4 +1,5 @@
 ---
+permalink: cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/
 node_id: 3506
 title: 'Cloud Storage App for Microsoft SharePoint: Accessing Cloud Files containers'
 type: article

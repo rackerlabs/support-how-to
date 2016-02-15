@@ -1,4 +1,5 @@
 ---
+permalink: cloud-files-key-concepts/
 node_id: 5166
 title: Cloud Files Key Concepts
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: optimize-your-website-on-cloud-sites/
 node_id: 633
 title: Optimize your website on Cloud Sites
 type: article

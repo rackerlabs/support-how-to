@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-data-centers-and-regions/
 node_id: 715
 title: Rackspace data centers and regions
 type: article

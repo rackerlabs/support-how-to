@@ -1,4 +1,5 @@
 ---
+permalink: how-to-choose-your-cloud-server-flavor/
 node_id: 4383
 title: How to choose your cloud server flavor
 type: article

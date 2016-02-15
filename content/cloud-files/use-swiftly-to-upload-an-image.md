@@ -1,4 +1,5 @@
 ---
+permalink: use-swiftly-to-upload-an-image/
 node_id: 4031
 title: Use Swiftly to upload an image
 type: article

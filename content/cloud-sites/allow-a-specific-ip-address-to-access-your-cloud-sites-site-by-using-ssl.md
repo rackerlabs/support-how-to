@@ -1,4 +1,5 @@
 ---
+permalink: allow-a-specific-ip-address-to-access-your-cloud-sites-site-by-using-ssl/
 node_id: 585
 title: Allow a specific IP address to access your Cloud Sites site by using SSL
 type: article

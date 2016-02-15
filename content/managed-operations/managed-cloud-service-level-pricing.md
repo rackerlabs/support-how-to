@@ -1,4 +1,5 @@
 ---
+permalink: managed-cloud-service-level-pricing/
 node_id: 4120
 title: Managed Cloud Service level pricing
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-rackspace-services-for-sharepoint/
 node_id: 2220
 title: Getting started with Rackspace services for SharePoint
 type: article

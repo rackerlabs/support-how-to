@@ -1,4 +1,5 @@
 ---
+permalink: migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services/
 node_id: 3586
 title: Migrating an Application Built on a LAMP Stack from Amazon Web Services
 type: article

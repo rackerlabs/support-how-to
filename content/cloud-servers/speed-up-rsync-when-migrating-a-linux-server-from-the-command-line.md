@@ -1,4 +1,5 @@
 ---
+permalink: speed-up-rsync-when-migrating-a-linux-server-from-the-command-line/
 node_id: 386
 title: Speed up rsync when migrating a Linux server from the command line
 type: article

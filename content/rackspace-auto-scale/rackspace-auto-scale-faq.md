@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-auto-scale-faq/
 node_id: 5005
 title: Rackspace Auto Scale FAQ
 type: article

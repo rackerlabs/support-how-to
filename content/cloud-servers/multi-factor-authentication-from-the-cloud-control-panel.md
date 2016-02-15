@@ -1,4 +1,5 @@
 ---
+permalink: multi-factor-authentication-from-the-cloud-control-panel/
 node_id: 4140
 title: Multi-factor authentication from the Cloud Control Panel
 type: article

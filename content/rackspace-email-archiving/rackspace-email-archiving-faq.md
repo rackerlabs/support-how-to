@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-email-archiving-faq/
 title: Rackspace Email Archiving FAQ
 type: product
 created_date: '2016-01-17'

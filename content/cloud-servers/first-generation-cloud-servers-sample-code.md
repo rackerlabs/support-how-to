@@ -1,4 +1,5 @@
 ---
+permalink: first-generation-cloud-servers-sample-code/
 node_id: 1720
 title: 'First Generation Cloud Servers: Sample Code'
 type: article

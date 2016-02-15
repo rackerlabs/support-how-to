@@ -1,4 +1,5 @@
 ---
+permalink: adding-a-signature-to-rackspace-email/
 node_id: 799
 title: Add a signature to Rackspace Email
 type: article

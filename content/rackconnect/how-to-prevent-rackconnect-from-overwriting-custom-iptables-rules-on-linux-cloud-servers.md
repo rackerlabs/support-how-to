@@ -1,4 +1,5 @@
 ---
+permalink: how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers/
 node_id: 3283
 title: Prevent RackConnect from overwriting custom iptables rules on Linux cloud servers
 type: article

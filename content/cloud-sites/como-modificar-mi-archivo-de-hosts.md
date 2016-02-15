@@ -1,4 +1,5 @@
 ---
+permalink: como-modificar-mi-archivo-de-hosts/
 node_id: 629-es
 title: Como modificar mi archivo de hosts?
 type: article

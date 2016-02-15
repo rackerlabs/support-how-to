@@ -1,4 +1,5 @@
 ---
+permalink: install-and-configure-the-rackspace-monitoring-agent/
 node_id: 3194
 title: Install and configure the Rackspace Monitoring Agent
 type: article

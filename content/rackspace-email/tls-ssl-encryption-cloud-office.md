@@ -1,4 +1,5 @@
 ---
+permalink: tls-ssl-encryption-cloud-office/
 node_id: 3694
 title: TLS and SSL encryption in Cloud Office
 type: article

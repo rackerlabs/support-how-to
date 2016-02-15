@@ -1,4 +1,5 @@
 ---
+permalink: set-up-a-two-server-glusterfs-array/
 node_id: 4090
 title: Set up a two-server GlusterFS array
 type: article

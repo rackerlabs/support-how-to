@@ -1,4 +1,5 @@
 ---
+permalink: first-gen-to-next-gen-cloud-servers-migration-pre-checks/
 node_id: 4681
 title: First Gen to Next Gen Cloud Servers migration pre-checks
 type: article

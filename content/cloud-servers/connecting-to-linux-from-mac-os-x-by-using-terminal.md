@@ -1,4 +1,5 @@
 ---
+permalink: connecting-to-linux-from-mac-os-x-by-using-terminal/
 node_id: 1225
 title: Connecting to Linux from Mac OS X by using Terminal
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: sharing-images-in-the-cloud-control-panel/
 node_id: 4528
 title: Sharing images in the Cloud Control Panel
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: managing-users-for-cloud-databases/
 node_id: 1524
 title: Managing Users for Cloud Databases
 type: article

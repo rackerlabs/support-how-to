@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v20-best-practices/
 node_id: 2053
 title: RackConnect v2.0 best practices
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-block-storage-faq/
 node_id: 5022
 title: Cloud Block Storage FAQ
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: locate-the-windows-path-for-your-cloud-sites-website/
 node_id: 619
 title: Locate the Windows path for your Cloud Sites website
 type: article

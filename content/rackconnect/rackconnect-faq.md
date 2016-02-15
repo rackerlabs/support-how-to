@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-faq/
 node_id: 4271
 title: RackConnect FAQ
 type: article

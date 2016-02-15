@@ -1,4 +1,5 @@
 ---
+permalink: migrating-exchange-to-exchange-via-outlook/
 node_id: 1417
 title: 'Migrating Exchange to Exchange via Outlook'
 type: article

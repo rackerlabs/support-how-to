@@ -1,4 +1,5 @@
 ---
+permalink: overview-role-based-access-control-rbac/
 node_id: 3403
 title: 'Overview: Role Based Access Control (RBAC)'
 type: article

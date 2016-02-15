@@ -1,4 +1,5 @@
 ---
+permalink: create-a-database-user-with-read-only-access-for-sql-server-databases/
 node_id: 604
 title: Create a database user with read-only access for SQL Server databases
 type: article

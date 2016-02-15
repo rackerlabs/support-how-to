@@ -1,4 +1,5 @@
 ---
+permalink: terms-of-service/
 node_id: 238
 title: Terms of Service
 type: article

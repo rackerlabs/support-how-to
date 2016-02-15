@@ -1,4 +1,5 @@
 ---
+permalink: simple-load-balancing-with-apache/
 node_id: 105
 title: Simple load balancing with Apache
 type: article

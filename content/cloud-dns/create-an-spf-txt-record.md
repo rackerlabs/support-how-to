@@ -1,4 +1,5 @@
 ---
+permalink: create-an-spf-txt-record/
 node_id: 1500
 title: Create an SPF TXT record
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v30-upgrade-information/
 node_id: 5071
 title: RackConnect v3.0 upgrade information
 type: article

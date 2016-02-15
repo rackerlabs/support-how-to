@@ -1,4 +1,5 @@
 ---
+permalink: migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services/
 node_id: 3596
 title: 'Migrating an Application Based on Backbone.js, Node.js, and MongoDB from Amazon Web Services'
 type: article

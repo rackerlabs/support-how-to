@@ -1,4 +1,5 @@
 ---
+permalink: cloud-files-faq/
 node_id: 4980
 title: Cloud Files - FAQs
 type: article

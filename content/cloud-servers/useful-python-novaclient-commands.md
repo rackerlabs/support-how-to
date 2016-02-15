@@ -1,4 +1,5 @@
 ---
+permalink: useful-python-novaclient-commands/
 node_id: 1481
 title: Useful python-novaclient commands
 type: article

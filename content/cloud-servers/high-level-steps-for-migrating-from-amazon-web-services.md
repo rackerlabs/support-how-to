@@ -1,4 +1,5 @@
 ---
+permalink: high-level-steps-for-migrating-from-amazon-web-services/
 node_id: 3570
 title: High-level steps for migrating from Amazon Web Services
 type: article

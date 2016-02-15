@@ -1,4 +1,5 @@
 ---
+permalink: upload-files-to-a-classic-asp-website-on-cloud-sites/
 node_id: 654
 title: Upload files to a classic ASP website on Cloud Sites
 type: article

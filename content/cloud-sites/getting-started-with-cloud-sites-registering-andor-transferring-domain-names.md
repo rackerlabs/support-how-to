@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-cloud-sites-registering-andor-transferring-domain-names/
 node_id: 638
 title: Getting Started With Cloud Sites - Registering and/or Transferring Domain Names
 type: article

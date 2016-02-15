@@ -1,4 +1,5 @@
 ---
+permalink: windows-system-updates-for-cloud-sites/
 node_id: 754
 title: Windows System Updates for Cloud Sites
 type: article

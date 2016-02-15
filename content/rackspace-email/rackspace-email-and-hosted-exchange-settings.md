@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-email-and-hosted-exchange-settings/
 node_id: 4214
 title: Rackspace Email and Hosted Exchange settings
 type: article

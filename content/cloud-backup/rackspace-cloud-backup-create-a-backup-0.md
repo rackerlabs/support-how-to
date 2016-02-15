@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-backup-create-a-backup-0/
 node_id: 2038
 title: Create a backup 
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: deploying-rackspace-metrics/
 node_id: 4553
 title: Deploying Rackspace Metrics
 type: article

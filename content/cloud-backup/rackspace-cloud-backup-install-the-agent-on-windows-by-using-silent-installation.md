@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/
 node_id: 4483
 title: Install the Cloud Backup agent on Windows by using silent installation
 type: article

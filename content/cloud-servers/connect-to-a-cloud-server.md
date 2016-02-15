@@ -1,4 +1,5 @@
 ---
+permalink: connect-to-a-cloud-server/
 node_id: 1513
 title: Connect to a cloud server
 type: article

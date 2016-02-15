@@ -1,4 +1,5 @@
 ---
+permalink: information-for-new-php-56-apache-version-0/
 node_id: 4730
 title: 'Information for new PHP 5.6 & Apache version'
 type: article

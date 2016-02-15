@@ -1,4 +1,5 @@
 ---
+permalink: microsoft-private-cloud-faq/
 node_id: 5188
 title: Microsoft Private Cloud FAQ
 type: article

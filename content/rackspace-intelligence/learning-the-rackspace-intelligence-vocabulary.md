@@ -1,4 +1,5 @@
 ---
+permalink: learning-the-rackspace-intelligence-vocabulary/
 node_id: 4764
 title: Learning the Rackspace Intelligence vocabulary
 type: article

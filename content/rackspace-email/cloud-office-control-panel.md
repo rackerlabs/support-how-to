@@ -1,4 +1,5 @@
 ---
+permalink: cloud-office-control-panel/
 node_id: 3971
 title: Cloud Office Control Panel
 type: article

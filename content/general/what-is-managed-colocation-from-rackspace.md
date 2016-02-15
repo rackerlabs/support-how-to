@@ -1,4 +1,5 @@
 ---
+permalink: what-is-managed-colocation-from-rackspace/
 node_id: 1042
 title: What is Managed Colocation from Rackspace?
 type: article

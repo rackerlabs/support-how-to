@@ -1,4 +1,5 @@
 ---
+permalink: adding-a-managed-operations-service-level-to-your-cloud-account/
 node_id: 1716
 title: Adding a managed operations service level to your cloud account
 type: article

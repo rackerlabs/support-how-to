@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-product-release-phases/
 node_id: 3191
 title: Rackspace Product Release Phases
 type: article

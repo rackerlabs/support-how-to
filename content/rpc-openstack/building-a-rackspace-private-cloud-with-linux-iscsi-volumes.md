@@ -1,4 +1,5 @@
 ---
+permalink: building-a-rackspace-private-cloud-with-linux-iscsi-volumes/
 node_id: 3272
 title: Building a Rackspace Private Cloud with Linux iSCSI Volumes
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/
 node_id: 3724
 title: Configure W3 Total Cache for Wordpress with Rackspace Cloud Files / CDN
 type: article

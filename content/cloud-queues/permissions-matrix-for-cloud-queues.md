@@ -1,4 +1,5 @@
 ---
+permalink: permissions-matrix-for-cloud-queues/
 node_id: 3650
 title: Permissions Matrix for Cloud Queues
 type: article

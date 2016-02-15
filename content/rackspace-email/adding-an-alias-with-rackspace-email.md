@@ -1,4 +1,5 @@
 ---
+permalink: adding-an-alias-with-rackspace-email/
 node_id: 933
 title: Add an alias with Rackspace Email
 type: article

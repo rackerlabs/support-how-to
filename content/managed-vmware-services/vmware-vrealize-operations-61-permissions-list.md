@@ -1,4 +1,5 @@
 ---
+permalink: vmware-vrealize-operations-61-permissions-list/
 node_id: 4942
 title: VMware vRealize Operations 6.1 Permissions List
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/
 node_id: 994
 title: Manually configure Outlook 2010 for email hosted on Exchange 2007
 type: article

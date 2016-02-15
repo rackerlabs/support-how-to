@@ -1,4 +1,5 @@
 ---
+permalink: access-slow-query-and-general-logs-for-cloud-databases/
 node_id: 4141
 title: Access slow query and general logs for Cloud Databases
 type: article

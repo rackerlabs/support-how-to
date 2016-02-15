@@ -1,4 +1,5 @@
 ---
+permalink: identifying-network-interfaces-on-linux/
 node_id: 3348
 title: Identifying Network Interfaces on Linux
 type: article

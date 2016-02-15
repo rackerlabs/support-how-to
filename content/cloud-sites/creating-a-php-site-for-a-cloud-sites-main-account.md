@@ -1,4 +1,5 @@
 ---
+permalink: creating-a-php-site-for-a-cloud-sites-main-account/
 node_id: 532
 title: Creating a PHP Site for a Cloud Sites main account
 type: article

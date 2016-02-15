@@ -1,4 +1,5 @@
 ---
+permalink: recover-from-a-failed-server-in-a-glusterfs-array/
 node_id: 4092
 title: Recover from a failed server in a GlusterFS array
 type: article

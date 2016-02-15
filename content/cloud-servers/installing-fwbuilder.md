@@ -1,4 +1,5 @@
 ---
+permalink: installing-fwbuilder/
 node_id: 361
 title: Installing fwbuilder
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-sites-essentials-mysql-databases/
 node_id: 58
 title: Rackspace Cloud Sites Essentials - MySQL Databases
 type: article

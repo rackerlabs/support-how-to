@@ -1,4 +1,5 @@
 ---
+permalink: migrating-to-a-general-purpose-or-io-server/
 node_id: 3720
 title: Migrating to a General Purpose or I/O server
 type: article

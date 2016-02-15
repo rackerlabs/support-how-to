@@ -1,4 +1,5 @@
 ---
+permalink: learn-more-about-cloud-queues/
 node_id: 3689
 title: Learn More About Cloud Queues
 type: article

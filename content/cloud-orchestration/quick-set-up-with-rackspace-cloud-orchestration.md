@@ -1,4 +1,5 @@
 ---
+permalink: quick-set-up-with-rackspace-cloud-orchestration/
 node_id: 4254
 title: Quick set up with Rackspace Cloud Orchestration
 type: article

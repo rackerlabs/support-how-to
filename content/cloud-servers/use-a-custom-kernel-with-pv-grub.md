@@ -1,4 +1,5 @@
 ---
+permalink: use-a-custom-kernel-with-pv-grub/
 node_id: 499
 title: Use a custom kernel with pv-grub
 type: article

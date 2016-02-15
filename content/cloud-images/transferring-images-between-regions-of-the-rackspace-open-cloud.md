@@ -1,4 +1,5 @@
 ---
+permalink: transferring-images-between-regions-of-the-rackspace-open-cloud/
 node_id: 3915
 title: Transferring images between regions of the Rackspace open cloud
 type: article

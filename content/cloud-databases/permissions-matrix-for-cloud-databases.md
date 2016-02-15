@@ -1,4 +1,5 @@
 ---
+permalink: permissions-matrix-for-cloud-databases/
 node_id: 3391
 title: Permissions matrix for Cloud Databases
 type: article

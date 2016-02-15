@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-dns-api-example/
 node_id: 1234
 title: Rackspace Cloud DNS - API example
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: generating-your-encrypted-key-in-cloud-backup/
 node_id: 1291
 title: Generating Your Encrypted Key in Cloud Backup
 type: article

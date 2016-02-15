@@ -1,4 +1,5 @@
 ---
+permalink: setting-up-a-pub-sub-model-in-cloud-queues/
 node_id: 3656
 title: Setting Up a Pub-Sub Model in Cloud Queues
 type: article

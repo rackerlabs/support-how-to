@@ -1,4 +1,5 @@
 ---
+permalink: preparing-an-image-for-import-into-the-rackspace-opencloud/
 node_id: 3905
 title: Preparing an image for import into the Rackspace OpenCloud
 type: article

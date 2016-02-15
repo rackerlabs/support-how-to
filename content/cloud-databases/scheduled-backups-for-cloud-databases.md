@@ -1,4 +1,5 @@
 ---
+permalink: scheduled-backups-for-cloud-databases/
 node_id: 4912
 title: Scheduled Backups for Cloud Databases
 type: article

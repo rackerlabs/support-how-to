@@ -1,4 +1,5 @@
 ---
+permalink: working-with-audio-and-voice-calls-in-hosted-skype-for-business/
 node_id: 4372
 title: Working with audio and voice calls in Hosted Skype for Business
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: manage-domains-cloud-office-control-panel/
 node_id: 4010
 title: Manage domains in the Cloud Office Control Panel
 type: article

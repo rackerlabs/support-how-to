@@ -1,4 +1,5 @@
 ---
+permalink: next-generation-cloud-servers-sample-code/
 node_id: 1718
 title: 'Next Generation Cloud Servers: Sample Code'
 type: article

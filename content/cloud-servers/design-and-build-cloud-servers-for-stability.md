@@ -1,4 +1,5 @@
 ---
+permalink: design-and-build-cloud-servers-for-stability/
 node_id: 3818
 title: Design and Build Cloud Servers for Stability
 type: article

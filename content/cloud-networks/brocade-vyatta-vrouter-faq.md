@@ -1,4 +1,5 @@
 ---
+permalink: brocade-vyatta-vrouter-faq/
 node_id: 3781
 title: Brocade Vyatta vRouter FAQ
 type: article

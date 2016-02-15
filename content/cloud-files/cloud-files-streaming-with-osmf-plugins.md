@@ -1,4 +1,5 @@
 ---
+permalink: cloud-files-streaming-with-osmf-plugins/
 node_id: 1209
 title: Cloud Files Streaming with OSMF Plugins
 type: article

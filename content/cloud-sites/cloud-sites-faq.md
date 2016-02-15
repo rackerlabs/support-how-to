@@ -1,4 +1,5 @@
 ---
+permalink: cloud-sites-faq/
 node_id: 5012
 title: Cloud Sites FAQ
 type: article

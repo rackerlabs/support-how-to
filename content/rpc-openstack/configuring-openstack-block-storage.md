@@ -1,4 +1,5 @@
 ---
+permalink: configuring-openstack-block-storage/
 node_id: 3172
 title: Configuring OpenStack Block Storage
 type: article

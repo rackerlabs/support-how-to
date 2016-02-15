@@ -1,4 +1,5 @@
 ---
+permalink: how-to-serve-multiple-domains-using-virtual-hosts/
 node_id: 1139
 title: How to Serve Multiple Domains Using Virtual Hosts
 type: article

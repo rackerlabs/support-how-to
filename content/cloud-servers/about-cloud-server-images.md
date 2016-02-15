@@ -1,4 +1,5 @@
 ---
+permalink: about-cloud-server-images/
 node_id: 1523
 title: About Cloud Server images
 type: article

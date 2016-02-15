@@ -1,4 +1,5 @@
 ---
+permalink: install-pyrax/
 node_id: 4088
 title: Install pyrax
 type: article

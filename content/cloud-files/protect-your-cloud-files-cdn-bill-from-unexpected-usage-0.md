@@ -1,4 +1,5 @@
 ---
+permalink: protect-your-cloud-files-cdn-bill-from-unexpected-usage-0/
 node_id: 2162
 title: Protect Your Cloud Files CDN Bill from Unexpected Usage
 type: article
