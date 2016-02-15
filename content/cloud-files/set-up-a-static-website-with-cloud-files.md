@@ -54,7 +54,7 @@ URL.
 2.  Click the great icon next to the name of your container and select
     **View All Links**.
 
-    **Note**All of the CDN URLs for your container are displayed. For HTML pages
+    **Note:** All of the CDN URLs for your container are displayed. For HTML pages
     and pictures, use the HTTP link to access your static website. If
     you want to be securely connected to your site, use the HTTPS
     link.
