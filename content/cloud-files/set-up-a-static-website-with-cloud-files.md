@@ -58,7 +58,7 @@ URL.
     and pictures, use the HTTP link to access your static website. If
     you want to be securely connected to your site, use the HTTPS
     link.
-    <img src="/knowledge_center/sites/default/files/field/image/kcstatic6.png" width="600" height="304" />
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/set-up-static-view-all-links.png)
 
 ### Next Steps
 
