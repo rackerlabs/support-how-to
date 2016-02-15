@@ -17,7 +17,7 @@ product_url: cloud-images
 
 - [Preparing an image for import into the Rackspace open cloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud)
 - [Creating a CentOS 6.5 image for the Rackspace open cloud](/how-to/creating-a-centos-65-image-for-the-rackspace-open-cloud)
-- [Creating an Ubuntu 13.10 image for the Rackspace open cloud](/how-to/creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud-0)
+- [Creating an Ubuntu 13.10 image for the Rackspace open cloud](/how-to/creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud)
 
 ###  Uploading and downloading images
 

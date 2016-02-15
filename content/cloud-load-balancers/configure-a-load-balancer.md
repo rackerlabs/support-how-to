@@ -73,5 +73,4 @@ The cost for each load balancer (instance) is based on an hourly rate plus the n
 
 ### Next steps
 
-Learn how to use [Cloud Files and the Content Delivery Network](http://support-dev.ipa.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn-0/) for website acceleration and mass object-storage.
-
+Learn how to use [Cloud Files and the Content Delivery Network](/how-to/getting-started-with-cloud-files-and-cdn/) for website acceleration and mass object-storage.

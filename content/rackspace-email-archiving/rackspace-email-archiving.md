@@ -23,7 +23,7 @@ These articles will help you get started using Rackspace Email Archiving through
 ###  Set up Email Archiving
 
 - [Add and edit archive users in Cloud Office](/how-to/add-and-edit-archive-users-in-cloud-office)
-- [Set access rules for archive end users](/how-to/set-access-rules-for-archive-end-users-0)
+- [Set access rules for archive end users](/how-to/set-access-rules-for-archive-end-users)
 - [Create an archive login message](/how-to/create-an-archive-login-message)
 - [Integrate Rackspace Email Archiving with Outlook.](/how-to/integrate-rackspace-email-archiving-with-outlook)
 

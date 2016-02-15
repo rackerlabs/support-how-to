@@ -275,4 +275,4 @@ installation, remove that as well.
 
 ### Next step
 
-[Create a backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
+[Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)

@@ -47,6 +47,8 @@ Follow these steps to create a new article within a product folder of the **rack
 
 Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes or to merge your PR to create the article.
 
+**Note:** If your article includes images, send an email to <how-to@rackspace.com> with the image files. Note where the images belong in the article by using comments: `<!--this is a comment-->`. 
+
 #### Edit an article
 Follow these steps to edit an existing article within a product folder of the **rackerlabs/rackspace-how-to** repo.
 

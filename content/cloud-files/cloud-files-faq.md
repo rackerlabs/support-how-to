@@ -53,7 +53,7 @@ First you must make sure you have generated a valid API Access Key. Then
 you can use either the Cloud Files user interface in the Rackspace Cloud
 Control Panel or one of our programming interfaces.
 
-See [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn-0/) for more details.
+See [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn/) for more details.
 
 #### Where can I find Cloud Files documentation?
 
@@ -174,7 +174,7 @@ container. For more information on how to mange the TTL attribute, see [Manage T
 
 #### What is the CDN?
 
-Using the Akamai content delivery network (CDN) service, Cloud Files brings you a powerful and easy way to publish content over a world-class industry leading CDN. For more information on how to use CDN with Cloud Files, see [Getting Started with Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn-0).
+Using the Akamai content delivery network (CDN) service, Cloud Files brings you a powerful and easy way to publish content over a world-class industry leading CDN. For more information on how to use CDN with Cloud Files, see [Getting Started with Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn).
 
 #### Who is Akamai?
 
