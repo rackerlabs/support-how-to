@@ -23,106 +23,72 @@ can distribute common files or content such as css, javascript, images,
 videos and much more through a CDN, which serves the content from the
 closest edge server to the end-user.
 
-First you must login as admin on your Wordpress blog and add new
-plugin:
+1. Log in as admin on your Wordpress blog and click **Plugins > Add New** in the left hand menu:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/01.png" class="image-full_width" width="700" height="368" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-1.png)
 
-Search for "w3 total cache":
+2. Enter "w3 total cache" in the plugin search bar:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/02.png" class="image-full_width" width="700" height="366" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-2.png)
 
-It should be the 1st to show, so click install now:
+3. Under W3 Total Cache, click **Install Now**:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/03.png" class="image-full_width" width="700" height="368" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-3.png)
 
-Now we must activate:
+4. To activate, click **Activate Plugin**:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/04.png" class="image-full_width" width="700" height="368" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-4.png)
 
-Next step we will enable the CDN function and pick Rackspace Cloud
-Files, to do so go to General Setting as you see on the image:
+5. In the left hand menu, click **Performance > General Settings**.
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/05.png" class="image-full_width" width="700" height="366" />
+6. Scroll down until you find CDN and mark **Enable** and select **Rackspace Cloud Files** as the CDN Type.
 
-Scroll down until you find CDN and mark enable. Also select Rackspace
-Cloud Files:
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-6.png)
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/06.png" class="image-full_width" width="700" height="368" />
+  An error message will appear, as we have not set up the plugin yet:
 
-An error message will appear, as we have not set up the plugin yet:
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-7.png)
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/07.png" class="image-full_width" width="700" height="368" />
+  We are going to need your API key. You can easily find this in the Cloud Control Panel. After logging in, click on your username in the upper right corner and select **Account Settings**. For more information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
-We are going to need the Rackspace API key and you can easily find on
-our Cloud Panel. Go to the panel, click on your username and select
-Account Settings. Now you will find the API as demonstrated below. (For
-more information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).)
+7. With your API key, return to the the admin page on your Wordpress blog and click on **CDN**.
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/08.5.png" class="image-full_width" width="700" height="366" />
+  You will need to inform the account username, API Key, location and container. Location is only US or UK, so no worries here.
 
-Now back to the admin page on your Wordpress blog, click on CDN:
+  The container was somehow a problem some people were having and I was able to recreate. If you create the container first and add here, it might give you an error. This will happen if your Cloud Server and Cloud Files are not on the same region, for example ORD and DFW. Even if you have both on DFW for example and your account is set to use ORD as default, you will get an error. It seems like this is some configuration on the plugin.
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/08.png" class="image-full_width" width="700" height="568" />
+  On my personal account I was able to create the container on the Cloud Control Panel and everything worked fine, that's because I always use my default region. I tried to use a Cloud File on a different region and I got an error. Here I decided to type the name of the container and click on create container and let the plugin create the container, you will be able to see on the Cloud Panel the region it was created.
 
-You will need to inform the account username, API Key, location and
-container. Location is only US or UK, so no worries here.
-The container was somehow a problem some people were having and I was
-able to re create. If you create the container first and add here, it
-might give you an error. This will happen if your Cloud Server and Cloud
-Files are not on the same region, for example ORD and DFW. Even if you
-have both on DFW for example and your account is set to use ORD as
-default, you will get an error. It seems like this is some configuration
-on the plugin.
+  Be very careful with this, if your Cloud Server and Cloud Files are not on the same region, you could get charged for the bandwidth between regions. If needed you can check your default region using nova:
 
-On my personal account I was able to create the container on the Cloud
-Panel and everything worked fine, that's because I always use my default
-region. I tried to use a Cloud File on a different region and I got an
-error. Here I decided to type the name of the container and click on
-create container and let the plugin create the container, you will be
-able to see on the Cloud Panel the region it was created.
+  -  [Install python-novaclient on Windows](/how-to/installing-python-novaclient-on-windows)
+  -  [Install python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
 
-Be very careful with this, if your Cloud Server and Cloud Files are not
-on the same region, you could get charged for the bandwidth between
-regions. If needed you can check your default region using nova:
+  Your configuration should look similar to the following:
 
--  [Install python-novaclient on Windows](/how-to/installing-python-novaclient-on-windows)
--  [Install python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-9.png)
 
-After all this was said, here is how it will look like:
+8. After saving your configuration settings, click on **Upload includes files** in the **General** section:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/09.png" class="image-full_width" width="700" height="368" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-10.png)
 
-Here is a basic configuration, just click on Upload Included Files (or
-other) to upload all the files:
+9. In the **Media Library export** window, click **Start**:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/10_3.png" class="image-full_width" width="700" height="368" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-11.png)
 
-This page will pop up, just click Start:
+  The plugin will start loading all images to the Cloud Files. This can take several minutes to complete, but you can see the progress:
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/11_0.png" class="image-full_width" width="700" height="567" />
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-12.png)
 
-The plugin will start loading all images to the Cloud Files, it will
-take some time, but you can see the progress:
+10. (*Optional*) To give your links a human readable name, use a CNAME by logging in to the Cloud Control Panel and click on **Networking > Cloud DNS**.
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/12_0.png" class="image-full_width" width="700" height="566" />
+  - Select your domain, and click **Add Record**.
+  - Select **CNAME Record** as the **Record Type**.
 
-To make all links look nice, let's use a CNAME so all the links will not
-look huge (this is optional). Go to the Cloud Panel and open your domain
-on the DNS, create a CNAME record:
+     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-13.png)
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/13_1.png" class="image-full_width" width="700" height="329" />
+Now when you create a new post on your WordPress site and upload an image, it will automatically be uploaded to your Cloud Files container. You can confirm this by checking the source of your page. It should look similar to the following:
 
-Now when you create a new post and upload some image, it will be sent to
-the Cloud Files automatically and you can confirm checking the page
-source of your page, here is an example:
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-14.png)
 
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/14%20-%20Copy.png" class="image-full_width" width="700" height="394" />
-
-Also if you have re-sized any images using WordPress's built in image
-editor, the w3 total cache plugin may fail to upload any image that was
-modified using this process.
-
-In order to solve this problem, you can upload your 'uploads' file
-manually. Just upload it directly to your container so that it replaces
-your current uploads file.
+**Note:** If you re-size images using WordPress's built-in image editor, the W3 Total Cache plugin may fail to upload any image that was modified using this process. In order to solve this problem, you can upload your **uploads** file manually. Just upload it directly to your Cloud Files container so that it replaces your current **uploads** file.
