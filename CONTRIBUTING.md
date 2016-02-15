@@ -45,7 +45,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 8.	Create a pull request (PR).
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes or to merge your PR to create the article.
+Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes.
 
 **Note:** If your article includes images, send an email to <how-to@rackspace.com> with the image files. Note where the images belong in the article by using comments: `<!--this is a comment-->`. 
 
@@ -67,7 +67,7 @@ Follow these steps to edit an existing article within a product folder of the **
 
 4. Create a PR for your branch.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes or to merge your PR.
+Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes.
 
 #### Request an article change
 
