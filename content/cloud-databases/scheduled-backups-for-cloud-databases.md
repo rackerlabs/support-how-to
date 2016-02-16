@@ -57,7 +57,7 @@ You can enable, modify, and delete scheduled backups by using the Cloud Control 
 3. Click the name of the instance for which you want to view or modify a backup schedule. 
    
    On the instance details page, the schedule is displayed next to **Scheduled Backups**. 
-   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-createdialog.png)
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-scheduleindetails.png)
 
 4. To edit the schedule, click the **Edit...** link.
 
@@ -68,6 +68,7 @@ You can enable, modify, and delete scheduled backups by using the Cloud Control 
 3. Click the name of the instance for which you want to delete a backup schedule.
    
    On the instance details page, the schedule is displayed next to **Scheduled Backups**.
+
 4. To delete the schedule, click the **Delete...** link.
 
 ### Scheduling backups by using the API
@@ -79,15 +80,15 @@ The following table provides a brief overview of the automated backups API calls
 
 | API                   | Method | URI                                           | Description                                                                            |
 |-----------------------|--------|-----------------------------------------------|----------------------------------------------------------------------------------------|
-| Create schedule       | POST   | /{version}/{accountId}/schedules              | Creates a schedule for running a backup periodically for a single instance or HA group |
-| Show schedule details | GET    | /{version}/{accountId}/schedules/{scheduleId} | Shows details of the specified schedule.                                               |
-| List all schedules    | GET    | /{version}/{accountId}/schedules              | Lists all the schedules for the specified account.                                     |
-| Update schedule       | PUT    | /{version}/{accountId}/schedules/{scheduleId} | Updates the specified schedule.                                                        |
-| Delete schedule       | DELETE | /{version}/{accountId}/schedules/{scheduleId} | Deletes the specified schedule.                                                        |
+| Create schedule       | `POST` | `/{version}/{accountId}/schedules`            | Creates a schedule for running a backup periodically for a single instance or HA group |
+| Show schedule details | `GET`  |`/{version}/{accountId}/schedules/{scheduleId}`| Shows details of the specified schedule.                                               |
+| List all schedules    | `GET`  | `/{version}/{accountId}/schedules`            | Lists all the schedules for the specified account.                                     |
+| Update schedule       | `PUT`  |`/{version}/{accountId}/schedules/{scheduleId}`| Updates the specified schedule.                                                        |
+| Delete schedule       |`DELETE`|`/{version}/{accountId}/schedules/{scheduleId}`| Deletes the specified schedule.                                                        |
 
 The following table lists the required and optional attributes for these operations.
 
-| Atribute Name           | Description                                                                               | Required |
+| Atribute Name           | Description                                                                               | Required?|
 |-------------------------|-------------------------------------------------------------------------------------------|----------|
 | action                  | The scheduled action: backup.                                                             | Yes      |
 | day\_of\_week           | The day of the week. Sunday is 0.                                                         | Yes      |
