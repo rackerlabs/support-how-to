@@ -15,75 +15,75 @@ This tutorial shows the basic steps for setting up the W3 Total Cache plug-in to
 This article assumes that you have already installed your WordPress website and database. If you have not completed this task, see [Installing WordPress on Cloud Sites](/how-to/installing-wordpress-on-cloud-sites "/how-to/installing-wordpress-on-cloud-sites").
 
 
-1. Log in as admin to your Wordpress blog.
+1.  Log in as admin to your Wordpress blog.
 
-2. In the navigation pane, click **Plugins > Add New**.
+2.  In the navigation pane, click **Plugins > Add New**.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-1.png)
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-1.png)
 
-3. In the **Search** box, enter **w3 total cache**.
+3.  In the **Search** box, enter **w3 total cache**.
 
-4. In the search results, under W3 Total Cache, click **Install Now**.
+4.  In the search results, under W3 Total Cache, click **Install Now**.
 
-5. On the Installing Plugin page, after the plug-in is installed, click **Activate Plugin**.
+5.  On the Installing Plugin page, after the plug-in is installed, click **Activate Plugin**.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-4.png)
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-4.png)
 
-6. In the navigation menu, click **Performance > General Settings**.
+6.  In the navigation menu, click **Performance > General Settings**.
 
-7. Scroll down to the CDN section.
+7.  Scroll down to the CDN section.
 
-8. In the CDN section, select the **Enable** check box, and select **Rackspace Cloud Files** as the CDN type. Then, click **Save all settings**.
+8.  In the CDN section, select the **Enable** check box, and select **Rackspace Cloud Files** as the CDN type. Then, click **Save all settings**.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-6.png)
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-6.png)
 
-  The following error message appears because the plug-in has not been set up yet:
+    The following error message appears because the plug-in has not been set up yet:
 
-        A configuration issue prevents CDN from working. The "Username", "API key", "Container" and "Replace default hostname with" fields cannot be empty.
+          A configuration issue prevents CDN from working. The "Username", "API key", "Container" and "Replace default hostname with" fields cannot be empty.
 
-9. Get your API key:
+9.  Get your API key:
 
-  - Log into the [Cloud Control Panel](https://mycloud.rackspace.com).
-  - Click your username in the upper-right corner and select **Acount Settings**.
-  - Next to the **API Key** field, click **Show** and copy the key.
+    - Log into the [Cloud Control Panel](https://mycloud.rackspace.com).
+    - Click your username in the upper-right corner and select **Acount Settings**.
+    - Next to the **API Key** field, click **Show** and copy the key.
 
-     For more information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+      For more information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
-10. Return to the admin page of your WordPress blog and click **CDN**.
+10.  Return to the admin page of your WordPress blog and click **CDN**.
 
-11. In the Configuration section, enter your Rackspace Cloud user name and API key.
+11.  In the Configuration section, enter your Rackspace Cloud user name and API key.
 
-12. For **Location**, select the location where you created your account, either US or UK.
+12.  For **Location**, select the location where you created your account, either US or UK.
 
-13. Create a Cloud Files container by providing a name and clicking **Create container**.
+13.  Create a Cloud Files container by providing a name and clicking **Create container**.
 
-  **Note:** If you create the container first in the Cloud Control Panel and then add it here, you might get an error. This error occurs if your cloud server and container are not in the same region (for example, ORD and DFW). If you let the plug-in create the container, you can verify the region that it was created in by looking at the Cloud Control Panel. If your server and container are not on the same region, you could get charged for the bandwidth between regions. If needed, you can check your default region by using nova:
+     **Note:** If you create the container first in the Cloud Control Panel and then add it here, you might get an error. This error occurs if your cloud server and container are not in the same region (for example, ORD and DFW). If you let the plug-in create the container, you can verify the region that it was created in by looking at the Cloud Control Panel. If your server and container are not on the same region, you could get charged for the bandwidth between regions. If needed, you can check your default region by using nova:
 
-    - [Install python-novaclient on Windows](/how-to/installing-python-novaclient-on-windows)
-    - [Install python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
+       - [Install python-novaclient on Windows](/how-to/installing-python-novaclient-on-windows)
+       - [Install python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
 
-  Your configuration should look similar to the following one:
+     Your configuration should look similar to the following one:
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-9.png)
+     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-9.png)
 
-14. Save your settings.
+14.  Save your settings.
 
-15. In the General section on the CDN page, click **Upload includes files**.
+15.  In the General section on the CDN page, click **Upload includes files**.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-10.png)
+     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-10.png)
 
-16. In the Media Library export window, click **Start**.
+16.  In the Media Library export window, click **Start**.
 
-  The plug-in starts loading all images to the Cloud Files. This can take several minutes to complete, but you can see the progress in the window.
+     The plug-in starts loading all images to the Cloud Files. This can take several minutes to complete, but you can see the progress in the window.
 
-10. (*Optional*) To give your links a human-readable name, use a CNAME record.
+10.  (*Optional*) To give your links a human-readable name, use a CNAME record.
 
-  - Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
-  - Click **Networking > Cloud DNS**.
-  - Select your domain, and click **Add Record**.
-  - Select **CNAME Record** as the Record Type.
+      - Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
+      - Click **Networking > Cloud DNS**.
+      - Select your domain, and click **Add Record**.
+      - Select **CNAME Record** as the Record Type.
 
-     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-13.png)
+        ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-13.png)
 
 Now when you create a new post on your WordPress site and upload an image, the image is automatically uploaded to your Cloud Files container. You can confirm this by checking the source of your page. It should look similar to the following screenshot:
 
