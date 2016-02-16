@@ -1,6 +1,6 @@
 ---
 node_id: 4912
-title: Scheduled Backups for Cloud Databases
+title: Scheduled backups for Cloud Databases
 type: article
 created_date: '2015-11-02'
 created_by: Rackspace Support
@@ -10,95 +10,84 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-Scheduled backups for Cloud Databases allow users to schedule periodic
-backups of their single instances, replica sets and high availability instance groups.
-Users can define a day of the week when a full backup is performed on
-their selected instance type along with an optional hour and minute,
-which is random if not provided.
+Scheduled backups for Cloud Databases enable you to schedule periodic
+backups of their single instances, replica sets and high availability (HA) instance groups.
+You define a day of the week when a full backup is performed on
+your selected instance type, and optionally specify the hour 
+and minute when full and incremental backups are performed.
+
+The schedule runs every day at the assigned time creating daily
+incremental backups, except for the specified day of the week when the
+full backup task is performed. All backups are stored in Cloud Files
+and are charged the standard Cloud Files storage fees.
 
 This feature is supported for datastore versions MySQL 5.6, Percona 5.6,
 and MariaDB 10 or higher.
 
-The schedule will run every day at the assigned time creating daily
-incremental backups, except for the specified day of the week when the
-full backup task is performed. All backups will be stored in Cloud Files
-and will be charged the standard Cloud Files storage fees.
-
 ### Features
 
--   Daily incremental backups except for the full backup day.
--   Automated backups for HA instance groups will use the HA instance id
-    as a reference and the backup process will use the most up-to-date
-    slave node as a source.
--   User-defined number of full automated backups to retain.
--   Allows users to run the backup process immediately through the
-    client or API by setting the `run_now` option.
+Scheduled backups provide the following features:
 
-### How to schedule backups with the Cloud Control Panel
+- Incremental backups are performed daily, except for the day of the full backup.
+- Automated backups for HA instance groups use the HA instance ID as a reference, and the backup process uses the most up-to-date slave node as a source.
+- You define the number of full automated backups to retain.
+- You can run the backup process immediately through the client or API by setting the `run now` option.
 
-Scheduled backups can be enabled, modified, and deleted through the Control Panel as follows
+### Scheduling backups by using the Control Panel
 
-### Create a Schedule
+You can enable, modify, and delete scheduled backups by using the Cloud Control Panel. 
 
-Schedules can created in the control panel a number of ways:
-- From the instance list page, by clicking the gear next to an instance, replica set, or HA group
-- From the instance/HA group details page with the Actions gear in the upper right
-- From the instance/HA group details page by clicking the "Create Schedule..." link in the Instance Details next to Scheduled Backups
+#### Create a scheduled backup
 
-#### Create a schedule via the instance list page:
-1. Log into the [Cloud Control Panel](https://mycloud.rackspace.com/)
-2. At the top of the panel, select **Databases**
-3. In the **Databases** menu, select **MySQL**
-4. In the list of instances that is displayed, click the gear next to the instance you would like to create a schedule for
-5. Select **Schedule Backup...**  
-   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-schedulefromlist.png)
+1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/)
+2. At the top of the panel, select **Databases > MySQL**.
+3. In the list of instances displayed, click the gear icon next to the instance for which you want to create a schedule and select Schedule Backup. 
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-schedulefromlist.png)
     
-6. In the dialog that appears, select the day of the week for the full backup, time of day to run the daily backups, retention. If time is left blank, a random time is selected.
+4. In the pop-up dialog box that appears, select the day of the week for the full backup, specify a time of day to run the daily backups, and specify how many full backups to retain. If you do not specify a time, a random time is selected.
    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-createdialog.png)
     
-7. A message will appear at the bottom of the screen that says "Created schedule for * *instane name* *"
+5. Click **Create Schedule**.
+   A message appears at the bottom of the panel that says `Created schedule for instanceName`.
 
-### View and Modify a Schedule
+#### View and modify a scheduled backup
 
-Schedules can be viewed and modified in the control panel a number of ways:
-- From the instance list page, by clicking the gear next to an instance, replica set, or HA group
-- From the instance/HA group details page with the Actions gear in the upper right
-- From the instance/HA group details page in the Instance Details next to Scheduled Backups
+1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/)
+2. At the top of the panel, select ***Databases > MySQL**.
+3. Click the name of the instance for which you want to view or modify a backup schedule. 
+   
+   On the instance details page, the schedule is displayed next to **Scheduled Backups**. 
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-createdialog.png)
 
-#### View and modify the schedule from the instance details page
-1. Log into the [Cloud Control Panel](https://mycloud.rackspace.com/)
-2. At the top of the panel, select **Databases**
-3. In the **Databases** menu, select **MySQL**
-4. Click the name of the instance you'd like to view to bring up the details page
-5. In the list of **Instance Details**, you can view the current schedule next to **Scheduled Backups**
+4. To edit the schedule, click the **Edit...** link.
 
-    <!--Insert picture: ScheduleInDetails.png-->
-6. The schedule can be modified by clicking "Edit..." link
+#### Delete a scheduled backup
 
-### Delete a Schedule
+1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/)
+2. At the top of the panel, select **Databases > MySQL**.
+3. Click the name of the instance for which you want to delete a backup schedule.
+   
+   On the instance details page, the schedule is displayed next to **Scheduled Backups**.
+4. To delete the schedule, click the **Delete...** link.
 
-Schedules can be deleted only from the instance details page
+### Scheduling backups by using the API
 
-#### Delete a backup schedule
-1. Log into the [Cloud Control Panel](https://mycloud.rackspace.com/)
-2. At the top of the panel, select **Databases**
-3. In the **Databases** menu, select **MySQL**
-4. Click the name of the instance you'd like to view to bring up the details page
-5. In the list of **Instance Details**, you can view the current schedule next to **Scheduled Backups**
-   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-scheduleindetails.png)
-    
-6. The schedule can be deleted by clicking the "Delete..." link next to the schedule
+You can enable, modify, and delete scheduled backups through the API by using the API operations described in the 
+[Cloud Databases API Reference](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#api-reference).
 
-### How to schedule backups via the API
+The following table provides a brief overview of the automated backups API calls.
 
-Scheduled backups can be enabled, modified, and deleted through the API using the following API
-operation:
+| API                   | Method | URI                                           | Description                                                                            |
+|-----------------------|--------|-----------------------------------------------|----------------------------------------------------------------------------------------|
+| Create schedule       | POST   | /{version}/{accountId}/schedules              | Creates a schedule for running a backup periodically for a single instance or HA group |
+| Show schedule details | GET    | /{version}/{accountId}/schedules/{scheduleId} | Shows details of the specified schedule.                                               |
+| List all schedules    | GET    | /{version}/{accountId}/schedules              | Lists all the schedules for the specified account.                                     |
+| Update schedule       | PUT    | /{version}/{accountId}/schedules/{scheduleId} | Updates the specified schedule.                                                        |
+| Delete schedule       | DELETE | /{version}/{accountId}/schedules/{scheduleId} | Deletes the specified schedule.                                                        |
 
-<https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#create-scheduled-backup>
+The following table lists the required and optional attributes for these operations.
 
-The following information needs to be provided:
-
-| Name                    | Description                                                                               | Required |
+| Atribute Name           | Description                                                                               | Required |
 |-------------------------|-------------------------------------------------------------------------------------------|----------|
 | action                  | The scheduled action: backup.                                                             | Yes      |
 | day\_of\_week           | The day of the week. Sunday is 0.                                                         | Yes      |
@@ -109,82 +98,50 @@ The following information needs to be provided:
 | source\_type            | The type of backup for the given source\_id (&lsquo;instance&rsquo; or &lsquo;ha&rsquo;, defaults to &lsquo;instance&rsquo;). | No       |
 | full\_backup\_retention | The number of full automated backups to keep.                                             | No       |
 
+**Note:** The `instance_id` field is deprecated. You can still use it when you are providing a single instance ID to create a schedule. HA instance schedules should provide `source_id` with the `source_type` set to `ha`.
+
 The `day_of_week` attribute specifies the day on which a full backup
-will be made. After that day, the schedule will automatically run daily
+is made. After that day, the schedule will automatically run daily
 incremental backups until the next full backup. If the `day_of_week`
-attribute is not provided, then a random day of the week will be
+attribute is not provided, then a random day of the week is
 assigned to the schedule.
 
-The hour and minute specify the time at which the backup job will run.
-If either of those values are not specified, then a random time will be
-assigned to the schedule. The timezone used by the schedule backup
-service is UTC.
+The hour and minute attributes specify the time when the backup job runs. 
+If either of those values is not specified, a random time is assigned to the schedule. 
+The time zone used by the schedule backup service is UTC.
 
-Currently only one schedule can be active per instance. If an instance
-already has a schedule enabled, a subsequent API call to create a
-schedule for that instance will cause an error with the message
-&ldquo;your\_instance\_id already has an active schedule."
-
-### Backup retention policy
-
-By default, the automated backup retention policy is set to two full
-backups. This means that when the third full automated backup is
-performed, the oldest full automated backup and its child incremental
-backups will be deleted. Users can define their own retention policy at
-the time they create a schedule, or by updating an existing schedule
-according to their needs, with the allowed minimum retention value set
-to 2. There is no maximum value for the amount of full backups to keep.
-
-### HA automated backups
-
-For High Availability (HA) groups, the backup will be performed with the current active node
-as the source, and it will be a full or incremental backup based on the
-schedule settings. If a master/slave setup is converted to an HA group,
-and either the master or slave nodes have scheduled backups enabled, the
-resulting HA group will also have a schedule enabled with the same time
-settings as the primary or first replica node's schedule. The individual
-schedules for the master/slave nodes will be deleted.
+Currently only one schedule can be active per instance. If an instance already has a schedule enabled, 
+a subsequent API call to create a schedule for that 
+instance causes an error with the message `yourInstanceId already has an active schedule`.
 
 ### Managing and restoring scheduled backups
 
-Scheduled backups can be managed and restored in the same manner as on
-demand backups. Details on how to manage backups can be found in the
-article
-[Managing backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
+You can manage and restore scheduled backups in the same manner as on-demand backups. For details, see Managing backups for Cloud Databases.
 
-### Cloud Databases automated backups API
+#### Backup retention policy
 
-For more details about the following API calls see the full API
-documentation at:
+By default, the automated backup retention policy is set to two full
+backups. When the third full automated backup is performed, 
+the oldest full automated backup and its child incremental
+backups are deleted. You can define your own retention policy when you create a schedule, 
+or by updating an existing schedule according to your needs, 
+with the allowed minimum retention value set to 2. There is 
+no maximum value for the number of full backups to keep.
 
-[<span>https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/\#create-scheduled-backup</span>](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#create-scheduled-backup)
+#### HA automated backups
 
-The following table gives a brief overview of the automated backups API
-calls.
+For HA groups, the backup is performed with the current active node
+as the source, and the backup is a full or incremental backup based on the
+schedule settings. If a master/slave setup is converted to an HA group,
+and either the master or slave nodes has scheduled backups enabled, the
+resulting HA group will also have a schedule enabled with the same time
+settings as the master or first slave node's schedule. The individual
+schedules for the master and slave nodes are deleted.
 
-| API                   | Method | URI                                           | Description                                                                            |
-|-----------------------|--------|-----------------------------------------------|----------------------------------------------------------------------------------------|
-| Create schedule       | POST   | /{version}/{accountId}/schedules              | Creates a schedule for running a backup periodically for a single instance or HA group |
-| Show schedule details | GET    | /{version}/{accountId}/schedules/{scheduleId} | Shows details of the specified schedule.                                               |
-| List all schedules    | GET    | /{version}/{accountId}/schedules              | Lists all the schedules for the specified account.                                     |
-| Update schedule       | PUT    | /{version}/{accountId}/schedules/{scheduleId} | Updates the specified schedule.                                                        |
-| Delete schedule       | DELETE | /{version}/{accountId}/schedules/{scheduleId} | Deletes the specified schedule.                                                        |
+#### Limitations
 
-**Note:** The `instance_id` field is deprecated. It can still be used when
-providing a single instance id when creating a schedule. HA instance
-schedules should provide `source_id` with the `source_type` set
-to &ldquo;ha&rdquo;.
+- An automated backup schedule for HA instances can be created only after the HA group is completed. If an HA setup has just been created, all of the nodes must be active before you can create a schedule. 
+- Schedules cannot be directly assigned to instances that are part of an HA group.
+- Only one schedule is allowed per source, either a single instance or HA group.
 
-### Limitations
-
--   The automated backup schedule for HA instances can only be created
-    after the HA group is completed. This means that if an HA setup has
-    just been created, all nodes must be active before attempting to
-    create the schedule.
--   Schedules cannnot be directly assigned to instances that are part of
-    an HA group.
--   Only one schedule is allowed per source, either a single instance or
-    HA group.
-
-For more information on backups with Cloud Databases, please see 
-[Managing backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
+For more information about backups with Cloud Databases, see [Managing backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
