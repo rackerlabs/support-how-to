@@ -43,7 +43,8 @@ You can enable, modify, and delete scheduled backups by using the Cloud Control 
 
 2. At the top of the panel, select **Databases > MySQL**.
 
-3. In the list of instances displayed, click the gear icon next to the instance for which you want to create a schedule and select Schedule Backup. 
+3. In the list of instances displayed, click the gear icon next to the instance for which you want to create a schedule and select **Schedule Backup**. 
+
    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-schedulefromlist.png)
     
 4. In the pop-up dialog box that appears, select the day of the week for the full backup, specify a time of day to run the daily backups, and specify how many full backups to retain. If you do not specify a time, a random time is selected.
