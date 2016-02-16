@@ -171,7 +171,7 @@ We want you to have access to your metrics so you can make informed
 decisions about your infrastructure. Our monitoring service is no cost,
 and so are the metrics that we store.
 
-### Should I use Rackspace Intelligence or Grafana?
+#### Should I use Rackspace Intelligence or Grafana?
 
 [Rackspace Intelligence](http://intelligence.rackspace.com/) is
 another no-cost option that we provide to help you make your
