@@ -1,6 +1,6 @@
 ---
 node_id: 3724
-title: Configure W3 Total Cache for Wordpress with Rackspace Cloud Files / CDN
+title: Configure W3 Total Cache for WordPress with Rackspace Cloud Files and CDN
 type: article
 created_date: '2013-10-10'
 created_by: Eric Cavalcanti
@@ -10,85 +10,83 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-This tutorial has a lot of images and it will show basic steps on how
-set up the W3 Total Cache plugin to work with Rackspace Cloud Files/CDN.
+This tutorial shows the basic steps for setting up the W3 Total Cache plug-in to work with Rackspace Cloud Files and a content delivery network (CDN). You can speed up your WordPress blog by using Cloud Files with CDN to display content to users faster and more efficiently. You can distribute common files or content such as CSS, JavaScript, images, videos, and much more through a CDN, which serves the content from the closest edge server to the end user.
 
-This article assumes that you have already completed the installation of
-your WordPress website and database. If you have not completed this,
-please read the following article: [Install and Use WordPress](/how-to/installing-wordpress-on-cloud-sites "/how-to/installing-wordpress-on-cloud-sites")
+This article assumes that you have already installed your WordPress website and database. If you have not completed this task, see [Installing WordPress on Cloud Sites](/how-to/installing-wordpress-on-cloud-sites "/how-to/installing-wordpress-on-cloud-sites").
 
-You can speed up your WordPress blog by using Cloud Files with CDN
-Technology to display content to users faster and more efficiently. You
-can distribute common files or content such as css, javascript, images,
-videos and much more through a CDN, which serves the content from the
-closest edge server to the end-user.
 
-1. Log in as admin on your Wordpress blog and click **Plugins > Add New** in the left hand menu:
+1. Log in as admin to your Wordpress blog.
+
+2. In the navigation pane, click **Plugins > Add New**.
 
   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-1.png)
 
-2. Enter "w3 total cache" in the plugin search bar:
+3. In the **Search** box, enter **w3 total cache**.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-2.png)
+4. In the search results, under W3 Total Cache, click **Install Now**.
 
-3. Under W3 Total Cache, click **Install Now**:
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-3.png)
-
-4. To activate, click **Activate Plugin**:
+5. On the Installing Plugin page, after the plug-in is installed, click **Activate Plugin**.
 
   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-4.png)
 
-5. In the left hand menu, click **Performance > General Settings**.
+6. In the navigation menu, click **Performance > General Settings**.
 
-6. Scroll down until you find CDN and mark **Enable** and select **Rackspace Cloud Files** as the CDN Type.
+7. Scroll down to the CDN section.
+
+8. In the CDN section, select the **Enable** check box, and select **Rackspace Cloud Files** as the CDN type. Then, click **Save all settings**.
 
   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-6.png)
 
-  An error message will appear, as we have not set up the plugin yet:
+  The following error message appears because the plug-in has not been set up yet:
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-7.png)
+        A configuration issue prevents CDN from working. The "Username", "API key", "Container" and "Replace default hostname with" fields cannot be empty.
 
-  We are going to need your API key. You can easily find this in the Cloud Control Panel. After logging in, click on your username in the upper right corner and select **Account Settings**. For more information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+9. Get your API key:
 
-7. With your API key, return to the the admin page on your Wordpress blog and click on **CDN**.
+  - Log into the [Cloud Control Panel](https://mycloud.rackspace.com).
+  - Click your username in the upper-right corner and select **Acount Settings**.
+  - Next to the **API Key** field, click **Show** and copy the key.
 
-  You will need to inform the account username, API Key, location and container. Location is only US or UK, so no worries here.
+     For more information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
-  The container was somehow a problem some people were having and I was able to recreate. If you create the container first and add here, it might give you an error. This will happen if your Cloud Server and Cloud Files are not on the same region, for example ORD and DFW. Even if you have both on DFW for example and your account is set to use ORD as default, you will get an error. It seems like this is some configuration on the plugin.
+10. Return to the admin page of your WordPress blog and click **CDN**.
 
-  On my personal account I was able to create the container on the Cloud Control Panel and everything worked fine, that's because I always use my default region. I tried to use a Cloud File on a different region and I got an error. Here I decided to type the name of the container and click on create container and let the plugin create the container, you will be able to see on the Cloud Panel the region it was created.
+11. In the Configuration section, enter your Rackspace Cloud user name and API key.
 
-  Be very careful with this, if your Cloud Server and Cloud Files are not on the same region, you could get charged for the bandwidth between regions. If needed you can check your default region using nova:
+12. For **Location**, select the location where you created your account, either US or UK.
 
-  -  [Install python-novaclient on Windows](/how-to/installing-python-novaclient-on-windows)
-  -  [Install python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
+13. Create a Cloud Files container by providing a name and clicking **Create container**.
 
-  Your configuration should look similar to the following:
+  **Note:** If you create the container first in the Cloud Control Panel and then add it here, you might get an error. This error occurs if your cloud server and container are not in the same region (for example, ORD and DFW). If you let the plug-in create the container, you can verify the region that it was created in by looking at the Cloud Control Panel. If your server and container are not on the same region, you could get charged for the bandwidth between regions. If needed, you can check your default region by using nova:
+
+    - [Install python-novaclient on Windows](/how-to/installing-python-novaclient-on-windows)
+    - [Install python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
+
+  Your configuration should look similar to the following one:
 
   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-9.png)
 
-8. After saving your configuration settings, click on **Upload includes files** in the **General** section:
+14. Save your settings.
+
+15. In the General section on the CDN page, click **Upload includes files**.
 
   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-10.png)
 
-9. In the **Media Library export** window, click **Start**:
+16. In the Media Library export window, click **Start**.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-11.png)
+  The plug-in starts loading all images to the Cloud Files. This can take several minutes to complete, but you can see the progress in the window.
 
-  The plugin will start loading all images to the Cloud Files. This can take several minutes to complete, but you can see the progress:
+10. (*Optional*) To give your links a human-readable name, use a CNAME record.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-12.png)
-
-10. (*Optional*) To give your links a human readable name, use a CNAME by logging in to the Cloud Control Panel and click on **Networking > Cloud DNS**.
-
+  - Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
+  - Click **Networking > Cloud DNS**.
   - Select your domain, and click **Add Record**.
-  - Select **CNAME Record** as the **Record Type**.
+  - Select **CNAME Record** as the Record Type.
 
      ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-13.png)
 
-Now when you create a new post on your WordPress site and upload an image, it will automatically be uploaded to your Cloud Files container. You can confirm this by checking the source of your page. It should look similar to the following:
+Now when you create a new post on your WordPress site and upload an image, the image is automatically uploaded to your Cloud Files container. You can confirm this by checking the source of your page. It should look similar to the following screenshot:
 
 ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-14.png)
 
-**Note:** If you re-size images using WordPress's built-in image editor, the W3 Total Cache plugin may fail to upload any image that was modified using this process. In order to solve this problem, you can upload your **uploads** file manually. Just upload it directly to your Cloud Files container so that it replaces your current **uploads** file.
+**Note:** If you resize images by using the built-in image editor in WordPress, the W3 Total Cache plug-in might fail to upload any image that was modified using this process. To solve this problem, you can upload your **uploads** file manually. Just upload it directly to your Cloud Files container so that it replaces your current **uploads** file.
