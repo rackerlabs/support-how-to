@@ -34,38 +34,38 @@ and will be charged the standard Cloud Files storage fees.
 -   Allows users to run the backup process immediately through the
     client or API by setting the `run_now` option.
 
-### How to schedule backups via the Control Panel
+### How to schedule backups with the Cloud Control Panel
 
 Scheduled backups can be enabled, modified, and deleted through the Control Panel as follows
 
-#### Creating a Schedule
+### Create a Schedule
 
 Schedules can created in the control panel a number of ways:
 - From the instance list page, by clicking the gear next to an instance, replica set, or HA group
 - From the instance/HA group details page with the Actions gear in the upper right
 - From the instance/HA group details page by clicking the "Create Schedule..." link in the Instance Details next to Scheduled Backups
 
-##### Create a schedule via the instance list page:
+#### Create a schedule via the instance list page:
 1. Log into the [Cloud Control Panel](https://mycloud.rackspace.com/)
 2. At the top of the panel, select **Databases**
 3. In the **Databases** menu, select **MySQL**
 4. In the list of instances that is displayed, click the gear next to the instance you would like to create a schedule for
 5. Select **Schedule Backup...**  
-
-    <!--Insert picture: schedulefromlist.png-->
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-schedulefromlist.png)
+    
 6. In the dialog that appears, select the day of the week for the full backup, time of day to run the daily backups, retention. If time is left blank, a random time is selected.
-
-    <!--Insert picture: createdialog.png-->
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-createdialog.png)
+    
 7. A message will appear at the bottom of the screen that says "Created schedule for * *instane name* *"
 
-#### Viewing and Modifying a Schedule
+### View and Modify a Schedule
 
 Schedules can be viewed and modified in the control panel a number of ways:
 - From the instance list page, by clicking the gear next to an instance, replica set, or HA group
 - From the instance/HA group details page with the Actions gear in the upper right
 - From the instance/HA group details page in the Instance Details next to Scheduled Backups
 
-##### View and modify the schedule from the instance details page
+#### View and modify the schedule from the instance details page
 1. Log into the [Cloud Control Panel](https://mycloud.rackspace.com/)
 2. At the top of the panel, select **Databases**
 3. In the **Databases** menu, select **MySQL**
@@ -75,18 +75,18 @@ Schedules can be viewed and modified in the control panel a number of ways:
     <!--Insert picture: ScheduleInDetails.png-->
 6. The schedule can be modified by clicking "Edit..." link
 
-#### Deleting a Schedule
+### Delete a Schedule
 
 Schedules can be deleted only from the instance details page
 
-##### Delete a backup schedule
+#### Delete a backup schedule
 1. Log into the [Cloud Control Panel](https://mycloud.rackspace.com/)
 2. At the top of the panel, select **Databases**
 3. In the **Databases** menu, select **MySQL**
 4. Click the name of the instance you'd like to view to bring up the details page
 5. In the list of **Instance Details**, you can view the current schedule next to **Scheduled Backups**
-
-    <!--Insert picture: ScheduleInDetails.png-->
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-scheduleindetails.png)
+    
 6. The schedule can be deleted by clicking the "Delete..." link next to the schedule
 
 ### How to schedule backups via the API
