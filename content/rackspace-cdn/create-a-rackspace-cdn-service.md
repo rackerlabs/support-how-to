@@ -102,7 +102,7 @@ After you have configured the website and before you update your DNS
 records, test that the web server is responding by using a cURL
 statement similar to the following one:
 
-    curl -I -k &ndash;H "Host:cdn.customer.com.cdn306.raxcdn.com" https://SERVER_IP/
+    curl -I -k -H "Host:cdn.customer.com.cdn306.raxcdn.com" https://SERVER_IP/
 
 The response should be `HTTP/1.1 200 OK`.
 
