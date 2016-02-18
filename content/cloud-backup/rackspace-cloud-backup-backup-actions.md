@@ -25,21 +25,21 @@ You can access the **Backup Actions** menu in two ways:
 -   From the gear icon next to the backup name on the Configured
     Backups page.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.20.11%20PM.png" width="479" height="292" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.20.11%20PM.png" width="479" height="292" />
 
 -   From the **Actions** menu at the top of the details page for a
     configured backup.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.18.36%20PM.png" width="552" height="219" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.18.36%20PM.png" width="552" height="219" />
 
 From the **Backup Actions** menu, you can perform the following actions:
 
 -   Perform Backup
 -   Restore Backup
--   [Configure Backup](#configurebackup)
--   [Configure Files](#configurefiles)
--   [Disable Backup](#disablebackup)
--   [Delete Backup](#deletebackup)
+-   Configure Backup
+-   Configure Files
+-   Disable Backup
+-   Delete Backup
 
 ### Perform Backup
 
@@ -60,7 +60,7 @@ Use the **Restore Backup** action to restore a backup.
 2.  On the first page of the Restore a Backup wizard, select the
     **Backup Date** to restore from, and then click **Next Step**.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.34.50%20PM.png" width="491" height="264" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.34.50%20PM.png" width="491" height="264" />
 
 3.  On the next page, select the destination system, and then click
     **Next Step**.
@@ -69,7 +69,7 @@ Use the **Restore Backup** action to restore a backup.
 -   You can restore your backup to the system that was backed up, or to
     another system.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.42.12%20PM.png" width="498" height="282" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.42.12%20PM.png" width="498" height="282" />
 
 4.  On the next page, select the folders and files to restore.
 
@@ -83,24 +83,23 @@ Use the **Restore Backup** action to restore a backup.
     are listed.
 -   When you are satisfied with your selection, click **Next Step**.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.53.59%20PM.png" width="497" height="337" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.53.59%20PM.png" width="497" height="337" />
 
 5.  On the next page, select the destination folder.
 
-           You can choose to restore the files to their original folder
-or to restore to a selected restore destination.
-           You can also select whether to overwrite files with the same
-name. Then, click **Next** **Step**.
+    You can choose to restore the files to their original folder or to restore to a selected restore destination.
+    
+    You can also select whether to overwrite files with the same name. Then, click **Next Step**.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.13.30%20PM.png" width="500" height="274" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.13.30%20PM.png" width="500" height="274" />
 
 6.  Confirm your restore settings and then click **Start Restore**.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.20.03%20PM.png" width="503" height="287" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.20.03%20PM.png" width="503" height="287" />
 
 The **Activity** page is displayed when the restore is complete.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.22.45%20PM.png" width="608" height="140" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.22.45%20PM.png" width="608" height="140" />
 
 ### Configure Backup
 
@@ -128,7 +127,7 @@ equivalent to those of gzip. You should not try to manually compress or
 encrypt your data before running backups; if you do, deduplication will
 not work, and  you will create larger backups than you need. If you want
 to encrypt your backups, see the section on [Encrypting your
-System](/how-to/rackspace-cloud-backup-system-actions#encryptsystem) in
+System](/how-to/rackspace-cloud-backup-system-actions) in
 this guide.
 
 For advanced Linux users, if you create tarballs with gzip that will get
@@ -149,13 +148,13 @@ Backup to deduplication those files as well.
     with any files you want
     to exclude. Then click **Next Step**.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="527" height="363" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="527" height="363" />
 
 6.  On the next page, review your backup configuration settings. If the
     settings are correct, click **Save**. Otherwise, click **Back** to
     make changes.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.46.18%20PM.png" width="533" height="315" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.46.18%20PM.png" width="533" height="315" />
 
 ### Configure Files
 
@@ -174,7 +173,7 @@ settings.
 
 3.  Click **Next Step**.
 
-           <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="537" height="370" />
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="537" height="370" />
 
 4. Confirm the settings on the next page and click **Save** to save
    your file configuration.
