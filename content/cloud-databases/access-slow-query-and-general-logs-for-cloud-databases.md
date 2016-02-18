@@ -77,17 +77,12 @@ To enable the logging of slow queries:
 				<td>0 or 1</td>
 				<td>Whether or not to log slow queries that use indexes. &nbsp;Default is 0 (off)</td>
 			</tr>
-			<tr>
-				<td>expire_logs_days</td>
-				<td>0 to 99</td>
-				<td>The number of days to keep logs before deletion. The default is 0 (no automatic removal).</td>
-			</tr>
 		</tbody>
 	</table>
 
 	For example, to add parameters to the configuration group created in the previous step that set the slow query duration to 15 seconds and cause logs to be deleted after one day, run:
 
-		trove configuration-patch configID '{"long_query_time":15,"expire_logs_days":1}'
+		trove configuration-patch configID '{"long_query_time":15}'
 
 4.  If necessary, attach the configuration group with these parameters to the instance for which you want to enable slow query logging. To attach the configuration using trove, run:
 
@@ -128,32 +123,11 @@ For more information about the MySQL general query log, see the [MySQL documenta
 
 		trove configuration-create EnableGeneralLog '{"log_output":"'TABLE'","slow_query_log":1}' --datastore MySQL
 
-3.  Optionally, set the configuration parameter that tells MySQL how long to keep logs.
-
-	<table border="1">
-				<tbody>
-					<tr>
-						<th>Parameter name</th>
-						<th>Suggested value</th>
-						<th>Description</th>
-					</tr>
-					<tr>
-						<td>expire_logs_days</td>
-						<td>0 to 99</td>
-						<td>The number of days to keep logs before deletion. The default is 0 (no automatic removal).</td>
-					</tr>
-				</tbody>
-			</table>
-
-	For example, to add a parameter to the configuration group created in the previous step that will cause logs to be deleted after one day, run:
-
-    	trove configuration-patch configID '{"expire_logs_days":1}'
-
-4.  If necessary, attach the configuration group with these parameters to the instance for which you want to enable general query logging. To attach the configuration using trove, run:
+3.  If necessary, attach the configuration group with these parameters to the instance for which you want to enable general query logging. To attach the configuration using trove, run:
 
     	trove configuration-attach instanceID configID
 
-5. After the configuration group is attached, you can now enable general logging by running this command:
+4. After the configuration group is attached, you can now enable general logging by running this command:
 
     	mysql -e "set global general_log = 1"
 
@@ -165,6 +139,6 @@ For more information about the MySQL general query log, see the [MySQL documenta
 
 **Note:** General logging will be disable when you restart a MySQL instance.
 
-6.  After the configuration is applied to your server, you can retrieve the general query log from the database with a query. For example:
+5.  After the configuration is applied to your server, you can retrieve the general query log from the database with a query. For example:
 
         mysql -e "select * from mysql.general_log order by event_time desc limit 1\G"
