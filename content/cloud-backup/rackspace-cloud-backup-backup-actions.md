@@ -97,7 +97,7 @@ Use the **Restore Backup** action to restore a backup.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.20.03%20PM.png" width="503" height="287" />
 
-The **Activity** page is displayed when the restore is complete.
+    The **Activity** page is displayed when the restore is complete.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.22.45%20PM.png" width="608" height="140" />
 
