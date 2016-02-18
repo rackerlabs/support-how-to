@@ -26,7 +26,7 @@ You must have administration access to the website.
   ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_5_20_13_12_11_PM.png)
 
 5. Verify that logging is turned on if needed. See [Enable logging for a website](/how-to/enabling-raw-logging-for-a-cloud-sites-website). 
-6. Using FTP, upload a sample **index.php** file (like the following one) to the main directory for the website. See [Upload content to a website using FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content)
+6. Using FTP, upload a sample **index.php** file (like the following one) to the main directory for the website. See [Upload content to a website using FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content).
 
         <html>
          <head>
