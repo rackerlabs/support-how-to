@@ -1,45 +1,40 @@
 ---
 node_id: 532
-title: Creating a PHP Site for a Cloud Sites main account
+title: Create a PHP site for a Cloud Sites main account
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2015-12-29'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-02-18'
+last_modified_by: Kelly Holcomb
 product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Note:** This article is written for our [Cloud Sites Control Panel](https://manage.rackspacecloud.com/). You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking **Rackspace Cloud** in the upper-left corner and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
+**Note:** This article is written for the Cloud Sites Control Panel. You can get to it from the [Cloud Control Panel](https://mycloud.rackspace.com) by clicking the **Rackspace Cloud** menu at the top of the panel and selecting **Cloud Sites**. You can also navigate directly to <https://manage.rackspacecloud.com/>.
 
-**Prerequisites**
+### Prerequisite
 
--   User has administration access to the website
+You must have administration access to the website.
 
-### Procedure
+### Create a PHP site
 
--   Login to the [Cloud Sites Control Panel](http://manage.rackspacecloud.com/pages/Login.jsp%7C)
--   If you are new to The Rackspace Cloud, please refer to [Adding a new website](/how-to/getting-started-with-cloud-sites-how-to-add-a-new-website)
-    and add the website.
--   Navigate to **Hosting > Cloud Sites**. This will list all the
-    domains/websites owned by the account, now click on the php website
-    hyperlink
+1. Log in to the [Cloud Sites Control Panel](https://manage.rackspacecloud.com/)
+2. If you are new to the Rackspace Cloud, see [How To Add A New Website](/how-to/getting-started-with-cloud-sites-how-to-add-a-new-website) and add the website.
+3. Navigate to **Hosting > Cloud Sites**. All of the domains and websites owned by the account are listed.
+4. Click the link for the PHP website.
 
   ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_5_20_13_12_11_PM.png)
 
--   Verify that logging is turned on if needed. Refer to [Enable logging for a website](/how-to/enabling-raw-logging-for-a-cloud-sites-website)
--   Upload a sample index.php file (like the one shown below) to the
-    main directory for the website using FTP - Refer to [Upload content to a website using FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content)
+5. Verify that logging is turned on if needed. See [Enable logging for a website](/how-to/enabling-raw-logging-for-a-cloud-sites-website). 
+6. Using FTP, upload a sample **index.php** file (like the following one) to the main directory for the website. See [Upload content to a website using FTP](/how-to/getting-started-with-cloud-sites-uploading-your-content).
 
-       <html>
-        <head>
-         <title>Sample Page</title>
-        </head>
-        <body>
-         <?php echo '<p>Hello World</p>'; ?>
-        </body>
-       </html
+        <html>
+         <head>
+          <title>Sample Page</title>
+         </head>
+         <body>
+          <?php echo '<p>Hello World</p>'; ?>
+         </body>
+        </html>
 
--   Navigate to index.php using the Test URL if necessary. Refer to
-    [Using a Staging URL](/how-to/using-a-staging-url "/how-to/using-a-staging-url").
-    Ensure that is served by Cloud Sites.
+7. Navigate to **index.php** by using the Test URL if necessary. See [Using a Staging URL](/how-to/using-a-staging-url). Ensure that is served by Cloud Sites.
