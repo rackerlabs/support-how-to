@@ -10,13 +10,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+**Previous section:** [Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
+
 This article provides a high-level overview of the steps to perform to
 migrate your applications to Rackspace Cloud from Amazon Web Services
 (AWS).
-
-### Previous section
-
-[Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
 
 ### Preparation
 
@@ -92,4 +90,4 @@ database.
 
 ### Next step
 
-[Provisioning cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+[Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)

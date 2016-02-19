@@ -1,6 +1,6 @@
 ---
 node_id: 3586
-title: Migrating an Application Built on a LAMP Stack from Amazon Web Services
+title: Migrate an application built on a LAMP stack from Amazon Web Services
 type: article
 created_date: '2013-07-02'
 created_by: Rackspace Support
@@ -10,14 +10,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+
 This article describes the migration of WordPress or other LAMP stack
 (Linux, Apache, MySQL, PHP) applications from Amazon Web Services (AWS)
 to the Rackspace Cloud. It takes an estimated 15 minutes to complete, if
 you follow the instructions step by step.
-
-### Previous section
-
-[Provisioning cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 The topology of the application in this scenario is presented in
 the following figure:
@@ -64,23 +62,23 @@ the target application.
         sudo bash /usr/share/doc/wordpress/examples/setup-mysql -n wordpress localhost
         sudo chown -R www-data /usr/share/wordpress
 
-5.  (Optional) Install OpenStack Swift. If you will use Cloud Files to
+5.  *(Optional)* Install OpenStack Swift. If you will use Cloud Files to
     transfer your data, install the swift client to enable access from
     your server.
 
         sudo apt-get install python-novaclient glance-client swift
 
-    A.  Set the necessary environment variables by running the following commands, substituting your Rackspace Cloud account username and API key:
+    1. Set the necessary environment variables by running the following commands, substituting your Rackspace Cloud account username and API key:
 
-        export ST_USER=<your-login-username>
-        export ST_KEY=<your-API-key>
-        export ST_AUTH=https://identity.api.rackspacecloud.com/v1.0/
+            export ST_USER=<your-login-username>
+            export ST_KEY=<your-API-key>
+            export ST_AUTH=https://identity.api.rackspacecloud.com/v1.0/
 
-    You might want to define these variables in **.bashrc** or **.bash_profile**, then reload the file with the "source" command.
+      You might want to define these variables in **.bashrc** or **.bash_profile**, then reload the file with the "source" command.
 
-        source .bashrc
+            source .bashrc
 
-    B.  Type **swift list** and ensure that you can see the container you've created to hold your data.
+    2. Type **swift list** and ensure that you can see the container you've created to hold your data.
 
 ### Back up data from AWS to Rackspace Cloud Files
 
@@ -88,8 +86,8 @@ Retrieve your data from EC2. You can transfer the data directly via
 rsync or sftp, or you can use the OpenStack Swift client to transfer
 your data to Cloud Files, and from there transfer to the Cloud Server.
 
-To use Cloud Files, follow these preparatory steps (for this example
-we'll use an existing container named "WordPress"):
+To use Cloud Files, follow these preparatory steps (this example
+uses an existing container named "WordPress"):
 
 1.  Using SSH, connect to your EC2 instance.
 
@@ -116,17 +114,17 @@ we'll use an existing container named "WordPress"):
 
     -   Upload your data into Cloud Files through the Cloud Control Panel.
 
-        A.  Open your container (**Cloud Control Panel > Files > containerName**).
+        1.  Open your container (**Cloud Control Panel > Files > *containerName***).
 
-        B.  Click **Upload Files**.
+        2.  Click **Upload Files**.
 
-        C.  Click **Browse** and select the files to upload.
+        3.  Click **Browse** and select the files to upload.
 
           **Note:** When you click the **Browse** button, you can select multiple files.
 
-        D.  After you have selected the file or files, click **Open** or **Select** (depending on the browser and system).
+        4.  After you have selected the file or files, click **Open** or **Select** (depending on the browser and system).
 
-        E.  Click **Upload File**.
+        5.  Click **Upload File**.
 
 ### Restore data from Cloud Files to Cloud Servers
 
@@ -162,12 +160,12 @@ typing:
 
     http://cloudServerIPAddress/wp-admin
 
-### Next steps
+### Next step
 
 [Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
--   [Migrating a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
--   [Migrating a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
--   [Migrating an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+-   [Migrate a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
+-   [Migratie a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+-   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
