@@ -105,7 +105,7 @@ packages, or a modified bus.
 
 ### Find Command
 
-The 'find' command is usually used to find filenames with specific
+The `find` command is usually used to find filenames with specific
 patterns; however, we can also use it to find the files
 modified/accessed within a specific time period.
 
