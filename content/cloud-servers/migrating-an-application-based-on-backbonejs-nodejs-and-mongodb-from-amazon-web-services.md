@@ -36,7 +36,8 @@ following figure:
     installed on your EC2 instances other than Backbone.js, Node.js,
     and MongoDB.
 -   Create a list of all additional Amazon services that are being used
-    in your application-for example, SES for email or RDS for database.
+    in your application&mdash;for example, Simple Email Service (SES) for email
+    or Relational Database Service (RDS) for databases.
 -   If you have not already, [create a Cloud Server instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
     and any supporting Rackspace Cloud services.
 
@@ -50,7 +51,7 @@ Git and cURL are needed to get dependent components such as Node.js.
 
 Run the following command:
 
-        sudo apt-get -y install git curl
+    sudo apt-get -y install git curl
 
 #### Install Python (optional)
 
@@ -64,11 +65,11 @@ Ubuntu 12.0.4 LTS includes Python 2.7.2. If you need a different version or an a
 
         sudo apt-get -y install openjdk-7-jre
 
-3. Determine JAVA_HOME.
+3. Determine `JAVA_HOME`.
 
         ll /etc/alternatives/java
 
-    Following is example output in which JAVA_HOME is /usr/lib/jvm/jre-1.7.0-openjdk-amd64.
+    Following is example output in which `JAVA_HOME` is `/usr/lib/jvm/jre-1.7.0-openjdk-amd64`.
 
         /etc/alternatives/java -> /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java*
 
@@ -115,7 +116,7 @@ Ubuntu 12.0.4 LTS includes Python 2.7.2. If you need a different version or an a
         cd /etc/init.d
         sudo vi tomcat
 
-11. Add the following information to the file. Ensure that JAVA_HOME, TOMCAT_HOME, START_TOMCAT, and STOP_TOMCAT refer to the correct directories.
+11. Add the following information to the file. Ensure that `JAVA_HOME`, `TOMCAT_HOME`, `START_TOMCAT`, and `STOP_TOMCAT` refer to the correct directories.
 
         #!/bin/bash
         # chkconfig: 234 20 80
@@ -198,7 +199,7 @@ For a simple single-node installation, perform the following steps:
 
         sudo sh -c 'echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | tee -a /etc/apt/sources.list.d/10gen.list'
 
-3. Update apt-get to pick up new packages.
+3. Update `apt-get` to pick up new packages.
 
         sudo apt-get -y update
 
@@ -232,17 +233,17 @@ If your services are backed by Node.js instead of Python, use the following step
 
 2. Set the necessary environment variables by running the following commands, substituting your username and API key:
 
-        export ST_USER=<your-login-username>
-        export ST_KEY=<your-API-key>
+        export ST_USER=<yourLoginUsername>
+        export ST_KEY=<yourApiKey>
         export ST_AUTH=https://identity.api.rackspacecloud.com/v1.0/
 
     You might want to define these variables in **.bashrc** or
     **.bash\_profile**, then reload the file with the
-    "source" command.
+    `source` command.
 
         source .bashrc
 
-3. Type **swift list** and ensure that you can see the container you've created to hold your data.
+3. Type `swift list` and ensure that you can see the container you've created to hold your data.
 
 ### Back up data from AWS to Rackspace Cloud Files
 
@@ -252,7 +253,7 @@ or sftp, or you can use the OpenStack Swift client to transfer your data
 to Cloud Files, and from there transfer to the Cloud Server.
 
 To use Cloud Files, follow these preparatory steps (this example
-uses an existing container named "AppData"):
+uses an existing container named AppData):
 
 1.  Using SSH, connect to your EC2 instance.
 
@@ -260,7 +261,7 @@ uses an existing container named "AppData"):
 
 2.  Perform a dump of MongoDB.
 
-    Use the -host and -port options if MongoDB is running on a
+    Use the `-host` and `-port` options if MongoDB is running on a
     different instance.
 
         mongodump --host mongodb1.yourdomain.com --port 3017 --username $USERNAME --password $PASSWORD --out ~/backup/mongodump-2013-05-03
@@ -288,7 +289,7 @@ uses an existing container named "AppData"):
 
     -   Upload your data into Cloud Files through the Cloud Control Panel.
 
-        1.  Open your container (**Cloud Control Panel > Files > *containerName***).
+        1.  Open your container (**Cloud Control Panel > Storage > Files > *containerName***).
 
         2.  Click **Upload Files**.
 
@@ -307,10 +308,9 @@ Server with the following steps.
 
 1.  Using SSH, connect to the Cloud Servers instance by using the
     PublicNet URL and the root password.
-2.  Install and configure the Swift CLI as described in the "Install
+2.  Install and configure the swift CLI as described in the "Install
     software packages" section.
-3.  Ensure that you can execute swift list and see the new container
-    that you created in the results.
+3.  Ensure that you can execute the `swift list` command and see the new container that you created in the results.
 4.  Download the database dump from the backup that you took in the
     "Back up data from AWS to Rackspace Cloud Files" section and restore
     it locally.
