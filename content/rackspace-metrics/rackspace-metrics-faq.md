@@ -32,10 +32,6 @@ Rackspace Metrics Query API. To use the Rackspace Metrics Ingestion API,
 you need to sign up for the service through the [Early Access
 Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program).
 
-#### How much does Rackspace Metrics cost?
-
-Rackspace Metrics is available at no charge.
-
 #### How do I grant access to Rackspace Metrics?
 
 For information about how to add Rackspace Metrics to individual users
@@ -74,6 +70,10 @@ During the Early Access period, the Rackspace Metrics Terms of Service
 are available at <http://www.rackspace.com/information/legal/testterms>.
 When the Early Access Program is over, the Terms of Service will revert
 to the standard Cloud Terms of Service.
+
+#### How much does Rackspace Metrics cost?
+
+Rackspace Metrics is available at no charge.
 
 #### How can I get support?
 
