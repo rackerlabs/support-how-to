@@ -10,9 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Migrating to the Rackspace Cloud from Amazon Web Services](/how-to/migrating-to-the-rackspace-cloud-from-amazon-web-services)
+**Previous section:** [Migrating to the Rackspace Cloud from Amazon Web Services](/how-to/migrating-to-the-rackspace-cloud-from-amazon-web-services)
 
 This article is intended to help you map Amazon Web Services (AWS)
 infrastructure as a service (IaaS) products to Rackspace
@@ -32,7 +30,7 @@ products.
 | Amazon EBS             | [Cloud Block Storage product and pricing](http://www.rackspace.com/cloud/block-storage)<br />[Cloud Block Storage API](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)     |
 | AWS Import/Export      | Hard Drive Import/Export                                                                                 |
 | AWS Storage Gateway    | Multiple Partner solutions available                                                                     |
-| Amazon CloudFront      | [Rackspace CDN product and pricing]](http://www.rackspace.com/cloud/cdn-content-delivery-network)<br />Rackspace CDN API](https://developer.rackspace.com/docs/cdn/v1/developer-guide/) |
+| Amazon CloudFront      | [Rackspace CDN product and pricing](http://www.rackspace.com/cloud/cdn-content-delivery-network)<br />[Rackspace CDN API](https://developer.rackspace.com/docs/cdn/v1/developer-guide/) |
 | Amazon RDS             | [Cloud Databases product and pricing](https://www.rackspace.com/cloud/databases)<br />[Cloud Databases API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/)         |
 | Amazon DynamoDB        | Object Rocket (MongoDB - open)                                                                           |
 | Amazon SES, SNS        | Mailgun                                                                                                  |
