@@ -6,8 +6,8 @@ created_date: '2015-03-03'
 created_by: Shane Duan
 last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Rackspace Monitoring
-product_url: cloud-monitoring
+product: Rackspace Metrics
+product_url: rackspace-metrics
 ---
 
 Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product

@@ -19,6 +19,7 @@ Cloud Hosting,RackConnect,rackconnect
 Cloud Hosting,Rackspace Auto Scale,rackspace-auto-scale
 Cloud Hosting,Rackspace CDN,rackspace-cdn
 Cloud Hosting,Rackspace Intelligence,rackspace-intelligence
+Cloud Hosting,Rackspace Metrics,rackspace-metrics
 Cloud Office,Microsoft Exchange,exchange
 Cloud Office,Microsoft Office 365,office-365
 Cloud Office,Microsoft SharePoint,sharepoint
@@ -27,4 +28,3 @@ Cloud Office,Rackspace Email Archiving,rackspace-email-archiving
 Cloud Office,Rackspace Email,rackspace-email
 Rackspace Private Cloud,Rackspace Private Cloud Powered by Microsoft Cloud Platform,rpc-microsoft
 Rackspace Private Cloud,Rackspace Private Cloud Powered by OpenStack,rpc-openstack
-
