@@ -38,15 +38,15 @@ safely investigate the compromise. This can be done by using the Rescue
 Mode feature provided in the [Cloud Control
 Panel](https://mycloud.rackspace.com/). Refer to [Rackspace Cloud
 Essentials 3 - Rescue Mode on Linux Cloud
-Servers](/knowledge_center/article/rackspace-cloud-essentials-3-rescue-mode-on-linux-cloud-servers-1) for
+Servers](/how-to/rackspace-cloud-essentials-3-rescue-mode-on-linux-cloud-servers-1) for
 more information.
 
 ### Scanning rootkits: chkrootkit and rkhunter
 
-We recommend you install the following tools to scan your files. The
-articles linked below will guide your rootkit installation:
+We recommend you install the following tools to scan your files. Use the
+following instructions to guide your rootkit installation:
 
-#### [Scanning for Rootkits with chkrootkit](/knowledge_center/article/scanning-for-rootkits-with-chkrootkit)
+#### Scanning for Rootkits with chkrootkit
 
 We recommend installing chkrootkit using your package manager rather
 than compiling from source.
@@ -58,7 +58,17 @@ cloud server:
 
     chkrootkit -r /mnt/demo
 
-#### [Scanning for Rootkits with rkhunter](/knowledge_center/article/scanning-for-rootkits-with-rkhunter)
+#### Scanning for Rootkits with rkhunter
+
+Log into your terminal application and move to your sources directory:
+
+    cd ~/sources
+
+Once there, download the latest version of rkhunter from the
+[SourceForge download
+area](http://sourceforge.net/projects/rkhunter/files/):
+
+    http://sourceforge.net/projects/rkhunter/files/
 
 After you install rkhunter following this article, you can run it
 against /mnt/demo.
