@@ -111,5 +111,3 @@ we're less likely to get hacked again in the same way. In the next
 article, [Checking for a Security Compromise: Rescue Mode
 Investigation](http://www.rackspace.com/knowledge_center/article/checking-for-a-security-compromise-rescue-mode-investigation),
 we will learn how to investigate our cloud server in rescue mode.
-
-Ismail
