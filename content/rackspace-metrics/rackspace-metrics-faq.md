@@ -10,6 +10,8 @@ product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
 
+### Metrics
+
 #### What can I use Rackspace Metrics for?
 
 You can use Rackspace Metrics to ingest metrics and to retrieve and
@@ -63,6 +65,8 @@ products before a final version is released. This program ensures that
 our features align with customer business needs. Additional features
 will be added as development continues, and some existing functionality
 available during Early Access might change.
+
+### Account services
 
 #### What are the Terms of Service?
 
