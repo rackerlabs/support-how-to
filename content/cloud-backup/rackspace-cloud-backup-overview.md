@@ -64,15 +64,15 @@ Cloud Backup:
 -   [How to install the Cloud Backup Agent on Windows
     servers](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 -   [How to create a
-    backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
+    backup](/how-to/rackspace-cloud-backup-create-a-backup)
 -   [How to view backup
     information](/how-to/rackspace-cloud-backup-view-backup-information)
 -   [How to use the backup actions
-    menu](/how-to/rackspace-cloud-backup-backup-actions-0)
+    menu](/how-to/rackspace-cloud-backup-backup-actions)
 -   [How to use the system actions
     menu](/how-to/rackspace-cloud-backup-system-actions)
 -   [How to manage your notification
-    preferences](/how-to/rackspace-cloud-backup-preferences-0)
+    preferences](/how-to/rackspace-cloud-backup-preferences)
 -   [How to troubleshoot common
     issues](/how-to/cloud-backup-troubleshooting)
 
@@ -84,7 +84,7 @@ when you see your cloud servers listed under **Systems** in the
 Rackspace Cloud Control Panel. If the agent is not already installed, we
 can install it for you. Check with your account manager and jump ahead
 to [Create A
-Backup](/how-to/rackspace-cloud-backup-create-a-backup-0).
+Backup](/how-to/rackspace-cloud-backup-create-a-backup).
 
 Other users should begin with installing the backup tool:
 

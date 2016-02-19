@@ -28,8 +28,7 @@ difficulties.
 ### Prerequisites
 
 To run python-novaclient you'll need python 2.6 or later installed on
-your system (the nova client doesn't support python 3 at the time of
-this writing). You can run the client from either a desktop machine or
+your system. You can run the client from either a desktop machine or
 from a remote system, like a Cloud Server. For initial testing you might
 create a fresh CentOS 6.3 or Ubuntu 11.04 server, but this is not
 required.

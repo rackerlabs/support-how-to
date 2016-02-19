@@ -122,7 +122,7 @@ and services, so it is important to test your new Rackspace
 configuration. You can get the most out of testing your configuration
 through these techniques:
 
--   Implement monitoring and backup solutions. Focus on [enhancing security](/how-to/configuring-basic-security-0).
+-   Implement monitoring and backup solutions. Focus on [enhancing security](/how-to/configuring-basic-security).
 -   Thoroughly [test the applications](/how-to/application-and-load-testing-guidelines)
     deployed on your Rackspace Cloud Server.
 -   Make any changes to your configuration files as necessary. These changes

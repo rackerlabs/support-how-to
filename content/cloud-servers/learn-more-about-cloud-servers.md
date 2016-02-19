@@ -28,7 +28,7 @@ Looking for information about Cloud Servers? The following sections contain link
 
 [Using Cloud Servers Tags](/how-to/using-cloud-servers-tags): Explains how to use tags to organize your cloud infrastructure.
 
-[Configuring basic security](/how-to/configuring-basic-security-0): Provides information about how to secure your new server.
+[Configuring basic security](/how-to/configuring-basic-security): Provides information about how to secure your new server.
 
 [Rebuild a Cloud Server](/how-to/rebuild-a-cloud-server): Describes how to rebuild a server by using the Cloud Control Panel.
 
