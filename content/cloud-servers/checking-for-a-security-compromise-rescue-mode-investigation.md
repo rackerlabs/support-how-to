@@ -38,7 +38,7 @@ safely investigate the compromise. This can be done by using the Rescue
 Mode feature provided in the [Cloud Control
 Panel](https://mycloud.rackspace.com/). Refer to [Rackspace Cloud
 Essentials 3 - Rescue Mode on Linux Cloud
-Servers](/how-to/rackspace-cloud-essentials-3-rescue-mode-on-linux-cloud-servers-1) for
+Servers](/how-to/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers) for
 more information.
 
 ### Scanning rootkits: chkrootkit and rkhunter
