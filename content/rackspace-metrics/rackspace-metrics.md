@@ -26,3 +26,4 @@ Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product that of
 
 - [Rackspace Metrics API 2.0 Getting Started Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started)
 - [Rackspace Metrics API 2.0 Developer Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/)
+- [Early Access Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#early-access-program)
