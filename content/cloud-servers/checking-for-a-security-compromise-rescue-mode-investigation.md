@@ -12,7 +12,7 @@ product_url: cloud-servers
 
 In the previous article, [Checking for a Security Compromise: Back Doors
 and
-Intruders](/knowledge_center/article/checking-for-a-security-compromise-backdoors-and-intruders),
+Intruders](/how-to/checking-for-a-security-compromise-backdoors-and-intruders),
 we covered some basic techniques to collect the necessary information
 for tracking intruders. In this second part of **Security Checks During
 a Possible Compromise**, we will discuss using the [Cloud Control
@@ -159,7 +159,7 @@ We can find the culprit by checking the following:
 
 In the previous article, [Security Checks for a Possible Compromise:
 Backdoors and
-Intruders](/knowledge_center/article/checking-for-a-security-compromise-backdoors-and-intruders),
+Intruders](/how-to/checking-for-a-security-compromise-backdoors-and-intruders),
 we learned some techniques we can use to discover backdoors and track
 intruders on our cloud server. This will help us avoid the situation or
 mistake that led to the compromise, thus minimizing future chances of
@@ -178,6 +178,6 @@ options to help you secure your files:
     alternative to whole image server backup.
 -   For those who prefer to do it themselves - [Backing Up Your Flles
     with
-    rsync](/knowledge_center/article/backing-up-your-files-with-rsync).
+    rsync](/how-to/backing-up-your-files-with-rsync).
 
 
