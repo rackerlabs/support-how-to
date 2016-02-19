@@ -31,7 +31,7 @@ simple: Learn from your mistakes and don't make the same mistakes twice.
 In this article we will cover the tools we can use before going into
 rescue mode (to be covered in the next article [Checking for a Security
 Compromise: Rescue Mode
-Investigation](http://www.rackspace.com/knowledge_center/article/checking-for-a-security-compromise-rescue-mode-investigation)).
+Investigation](/how-to/checking-for-a-security-compromise-rescue-mode-investigation)).
 The cloud server used for this article series was running Ubuntu 8.10;
 however, the steps demonstrated will be similar for other Linux
 distributions.
@@ -69,8 +69,7 @@ your cloud server.
 In this case we see **port 6697** is open. This is a port commonly used
 by IRC servers. This is not a good sign, unless we're running our own
 chat server. We can sniff any connections to that port using
-**tcpdump**. For more info on tcpdump, [check
-here](capturing-packets-with-tcpdump).
+**tcpdump**. 
 
     tcpdump src port 6697
 
@@ -109,5 +108,5 @@ backdoors and track intruders on our slice. This will help us avoid a
 repeat of whatever situation or mistake led up to the compromise, so
 we're less likely to get hacked again in the same way. In the next
 article, [Checking for a Security Compromise: Rescue Mode
-Investigation](http://www.rackspace.com/knowledge_center/article/checking-for-a-security-compromise-rescue-mode-investigation),
+Investigation](/how-to/checking-for-a-security-compromise-rescue-mode-investigation),
 we will learn how to investigate our cloud server in rescue mode.
