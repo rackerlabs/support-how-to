@@ -1,19 +1,16 @@
 ---
 node_id: 4649
-title: Rackspace Metrics Frequently Asked Questions
+title: Rackspace Metrics FAQ
 type: article
 created_date: '2015-05-06'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze
-product: Rackspace Monitoring
-product_url: cloud-monitoring
+last_modified_date: '2016-02-15'
+last_modified_by: Nate Archer
+product: Rackspace Metrics
+product_url: rackspace-metrics
 ---
 
-Get quick answers to common questions about the Rackspace
-Metrics service.
-
-### What can I use Rackspace Metrics for?
+#### What can I use Rackspace Metrics for?
 
 You can use Rackspace Metrics to ingest metrics and to retrieve and
 visualize these metrics. Rackspace Metrics features two APIs: the Query
@@ -26,29 +23,24 @@ Metrics Ingestion API is currently in the [Early Access
 Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program)
 (EAP).
 
-### Who can use Rackspace Metrics?
+#### Who can use Rackspace Metrics?
 
 All Rackspace customers with a Cloud services account can use the
 Rackspace Metrics Query API. To use the Rackspace Metrics Ingestion API,
 you need to sign up for the service through the [Early Access
 Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program).
 
-
-### How much does Rackspace Metrics cost?
+#### How much does Rackspace Metrics cost?
 
 Rackspace Metrics is available at no charge.
 
-
-
-### How do I grant access to Rackspace Metrics?
+#### How do I grant access to Rackspace Metrics?
 
 For information about how to add Rackspace Metrics to individual users
 on your Cloud account, see [Rackspace Metrics
 Overview](/how-to/rackspace-metrics-overview).
 
-
-
-### What features will be available in the future?
+#### What features will be available in the future?
 
 We plan to provide the following features in future releases:
 
@@ -56,8 +48,7 @@ We plan to provide the following features in future releases:
 -   Tighter integration with open-source tools like Graphite, Grafana,
     CollectD, and StatsD.
 
-
-### Where is Rackspace Metrics available?
+#### Where is Rackspace Metrics available?
 
 Rackspace Metrics is available through global end points that can be
 accessed from anywhere. For more information, see the [Service access
@@ -65,8 +56,7 @@ endpoints](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#serv
 section in the [Rackspace Metrics Developer
 Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#developer-guide).
 
-
-### What is the Early Access Program?
+#### What is the Early Access Program?
 
 The Early Access Program lets customers use and give feedback on our
 products before a final version is released. This program ensures that
@@ -74,17 +64,14 @@ our features align with customer business needs. Additional features
 will be added as development continues, and some existing functionality
 available during Early Access might change.
 
-
-### What are the Terms of Service?
+#### What are the Terms of Service?
 
 During the Early Access period, the Rackspace Metrics Terms of Service
 are available at <http://www.rackspace.com/information/legal/testterms>.
 When the Early Access Program is over, the Terms of Service will revert
 to the standard Cloud Terms of Service.
 
-
-
-### How can I get support?
+#### How can I get support?
 
 During the Early Access program, support for Rackspace Metrics is
 available via email only during regular business hours. Please contact

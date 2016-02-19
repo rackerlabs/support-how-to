@@ -4,10 +4,10 @@ title: Create a Grafana dashboard for Rackspace Metrics
 type: article
 created_date: '2015-10-19'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze Kratel
-product: Rackspace Monitoring
-product_url: cloud-monitoring
+last_modified_date: '2016-02-15'
+last_modified_by: Nate Archer
+product: Rackspace Metrics
+product_url: rackspace-metrics
 ---
 
 Rackspace Metrics lets you build a Grafana dashboard to visualize your
@@ -21,8 +21,7 @@ Metrics by using a custom Cloud Orchestration template. It also provides
 instructions on how to upload a Grafana dashboard for a database
 instance.
 
-###Deploy the Grafana instance for Rackspace Metrics
-
+### Deploy the Grafana instance for Rackspace Metrics
 
 To create a Grafana dashboard complete the following steps:
 
@@ -158,10 +157,9 @@ complete the following steps:
 
 ### Grafana FAQ
 
+#### How much does Grafana cost?
 
-Q: How much does Grafana cost?
-
-A: You pay only for the cost of the server you create. Everything else
+You pay only for the cost of the server you create. Everything else
 is no cost.
 
 Grafana is an open-source metrics dashboard and graph editor. There is
@@ -173,9 +171,9 @@ We want you to have access to your metrics so you can make informed
 decisions about your infrastructure. Our monitoring service is no cost,
 and so are the metrics that we store.
 
-Q: Should I use Rackspace Intelligence or Grafana?
+#### Should I use Rackspace Intelligence or Grafana?
 
-A: [Rackspace Intelligence](http://intelligence.rackspace.com/) is
+[Rackspace Intelligence](http://intelligence.rackspace.com/) is
 another no-cost option that we provide to help you make your
 infrastructure choices. It is designed to answer the most obvious
 questions that anyone asks about their servers. Although it covers many
