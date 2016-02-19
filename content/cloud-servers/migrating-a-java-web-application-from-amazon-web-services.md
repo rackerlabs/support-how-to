@@ -39,8 +39,8 @@ following figure:
 -   Create a list of all the necessary software packages that are
     installed on your EC2 instance other than your Spring application
 -   Create a list of all additional Amazon servers that are being used
-    in the application-for example, Simple Email Server (SES) for email
-    or Relational Database Service (RDS) for database.
+    in the application&mdash;for example, Simple Email Server (SES) for email
+    or Relational Database Service (RDS) for databases.
 -   If you have not already, [create a Cloud Server instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
     and any supporting Rackspace Cloud services.
 
@@ -52,7 +52,7 @@ Install OpenJDK, Tomcat, and optionally OpenStack swift.
 
 1.  Using SSH, connect to the Cloud Servers instance by using the PublicNet URL and the root password.
 
-2.  Enter the root password to log on.
+2.  Enter the root password to log in.
 
 3.  Install OpenJDK 7.
 
@@ -68,7 +68,7 @@ Install OpenJDK, Tomcat, and optionally OpenStack swift.
 
 #### Install Tomcat on the cloud server
 
-1.  Download Tomcat, selecting the version from the following list: <http://tomcat.apache.org/download-70.cgi>
+1.  Download Tomcat, selecting the version from the list at <http://tomcat.apache.org/download-70.cgi>.
 
 2.  Copy the URL of the **tar.gz** file (for example, **http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.39/bin/apache-tomcat-7.0.39.tar.gz**).
 
@@ -176,15 +176,15 @@ Install OpenJDK, Tomcat, and optionally OpenStack swift.
 
 2. Set the necessary environment variables by running the following commands, substituting your Rackspace Cloud account username and API key:
 
-        export ST_USER=<your-login-username>
-        export ST_KEY=<your-API-key>
+        export ST_USER=<yourLoginUsername>
+        export ST_KEY=<yourApiKey>
         export ST_AUTH=https://identity.api.rackspacecloud.com/v1.0/
 
-    You might want to define these variables in **.bashrc** or **.bash\_profile**, then reload the file with the `source` command.
+    You might want to define these variables in **.bashrc** or **.bash\_profile**, and then reload the file with the `source` command.
 
             source .bashrc
 
-3. Type **swift list** and ensure that you can see the container you've created to hold your data.
+3. Type `swift list` and ensure that you can see the container you've created to hold your data.
 
 ### Back up data from AWS to Rackspace Cloud Files
 
@@ -193,15 +193,15 @@ rsync or sftp, or you can use the OpenStack Swift client to transfer
 your data to Cloud Files, and from there transfer to the Cloud Server.
 
 To use Cloud Files, follow these preparatory steps (this example
-uses an existing container named "Tomcat"):
+uses an existing container named Tomcat):
 
 1.  Using SSH, connect to your EC2 instance.
 
-        ssh -i your_private_key.pem user@ec2-xxx-xxx-xxx-xxx.compute-1.amazonaws.com
+        ssh -i yourPrivateKey.pem user@ec2-xxx-xxx-xxx-xxx.compute-1.amazonaws.com
 
 2.  Perform a database dump.
 
-        mysqldump -h <RDS-hostname> -u <RDS-username> -p --triggers --routines --databases petclinic | gzip > ~/petclinic.sql.gz
+        mysqldump -h <rdsHostname> -u <rdsUsername> -p --triggers --routines --databases petclinic | gzip > ~/petclinic.sql.gz
 
 3.  Back up your application and any other resources needed by the application, including logs and other directories of interest.
 
@@ -209,6 +209,7 @@ uses an existing container named "Tomcat"):
         sudo tar cvzf ~/tomcat.tar.gz /usr/share/tomcat7/webapps/*
 
 4.  If you are using Cloud Files to transfer your files, use one of the following methods to perform the transfer. If you will transfer directly via rsync or sftp, skip to the final section of this article after the transfer.
+
     -   Upload your archives to the Cloud Files container via the swift client.
 
             swift upload Tomcat petclinic.sql.gz
@@ -216,13 +217,13 @@ uses an existing container named "Tomcat"):
 
     -   Upload your data into Cloud Files through the Cloud Control Panel.
 
-        1.  Open your container (**Cloud Control Panel > Files > *containerName***).
+        1.  Open your container (**Cloud Control Panel > Storage > Files > *containerName***).
 
         2.  Click **Upload Files**.
 
         3.  Click **Browse** and select the files to upload.
 
-          **Note:** When you click the **Browse** button, you can select multiple files.
+            **Note:** When you click the **Browse** button, you can select multiple files.
 
         4.  After you have selected the file or files, click **Open** or **Select** (depending on the browser and system).
 
@@ -234,12 +235,12 @@ If you uploaded your data to Cloud Files, transfer it to your Cloud
 Server with the following steps.
 
 1.  Using SSH, connect to the Cloud Servers instance by using the PublicNet URL and the root password.
-2.  Install and configure the Swift CLI as described in the "Install software packages" section.
-3.  Ensure that you can execute swift list and see the new container that you created in the results.
+2.  Install and configure the swift CLI as described in the "Install software packages" section.
+3.  Ensure that you can execute the `swift list` command and see the new container that you created in the results.
 4.  Download the database dump from the backup that you took in the "Back up data from AWS to Rackspace Cloud Files" section and restore it locally.
 
         swift download Tomcat petclinic.sql.gz
-        gunzip < petclinic.sql.gz | mysql -u <Cloud-Database-uername> -p -h <Cloud-Database-hostname>
+        gunzip < petclinic.sql.gz | mysql -u <cloudDatabaseUsername> -p -h <cloudDatabaseHostname>
 
 5.  Stop Tomcat, download the application files, and extract them.
 
@@ -261,8 +262,7 @@ Server with the following steps.
 
 ### Test your application
 
-Access the web application at
-`http://<cloudServerIPAddress>:8080/petclinic`.
+Access the web application at `http://<cloudServerIPAddress>:8080/petclinic`.
 
 ### Next step
 

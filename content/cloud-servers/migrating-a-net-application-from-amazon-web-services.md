@@ -41,22 +41,22 @@ following figure:
 
     1.  Connect to the AWS instance by using Remote Desktop Connection.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-6.png" width="434" height="496" />
+        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-6.png" width="434" height="496" />
 
     2.  After you are connected, install a client that you will use to back up data to Rackspace Cloud Files (for example, [Cyberduck](/how-to/configuring-rackspace-cloud-files-with-cyberduck), available at <http://cyberduck.ch/>). You can use any browser to download the client.
 
     3.  Create a connection to Rackspace Cloud Files by using your Rackspace account user name and API key. You will use this connection to back up data during the migration steps.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-7.png" width="512" height="328" />
+        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-7.png" width="512" height="328" />
 
-2.  Install IIS 8 by using the instructions located <http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012> .
+2.  Install IIS 8 by using the instructions located at <http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012> .
 
 ### Back up data from AWS to Rackspace Cloud Files
 
 Using the client that you installed in the preceding section (for
 example, [Cyberduck](/how-to/configuring-rackspace-cloud-files-with-cyberduck)),
 upload the .NET project folder to the Rackspace Cloud Files container
-that you created in the article [Provisioning cloud resources when migrating from Amazon Web Services](http://www.rackspace.com/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).
+that you created in the article [Provision cloud resources when migrating from Amazon Web Services](http://www.rackspace.com/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).
 
 ### Restore data from Cloud Files to Cloud Servers
 
