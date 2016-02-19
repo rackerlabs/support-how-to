@@ -22,7 +22,7 @@ If you want to manage your servers from the command line without dealing directl
 
 ### Prerequisites
 
-To run python-novaclient you'll need python 2.6 or later installed on your system (the nova client doesn't support python 3 at the time of this writing).  You can run the client from either a desktop machine or from a remote system, like a Cloud Server.
+To run python-novaclient you'll need python 2.6 or later installed on your system.  You can run the client from either a desktop machine or from a remote system, like a Cloud Server.
 
 The python installation will need to have the "setuptools" package installed as well. This is installed with a python distribution like [ActiveState ActivePython](http://www.activestate.com/activepython/downloads), which we will discuss in the next section.
 
