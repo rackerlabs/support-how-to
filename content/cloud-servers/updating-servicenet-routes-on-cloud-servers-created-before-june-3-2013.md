@@ -106,7 +106,7 @@ This script has been tested on the following Base Images:
 
 1.  Download the Linux script onto the target server.
 
-  wget http://7c1f6a0506404b3af970-42fdda7fdbf4103081a78c20ac1c54cb.r51.cf1.rackcdn.com/add_2013_cloud_routes_v1.0.4.sh
+        wget http://7c1f6a0506404b3af970-42fdda7fdbf4103081a78c20ac1c54cb.r51.cf1.rackcdn.com/add_2013_cloud_routes_v1.0.4.sh
 
 2.  Run the script without any arguments to see usage:
 
