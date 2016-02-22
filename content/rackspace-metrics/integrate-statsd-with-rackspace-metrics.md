@@ -1,6 +1,6 @@
 ---
 node_id: 4553
-title: Deploying Rackspace Metrics
+title: Integrate StatsD with Rackspace Metrics
 type: article
 created_date: '2015-02-05'
 created_by: Constanze Kratel
