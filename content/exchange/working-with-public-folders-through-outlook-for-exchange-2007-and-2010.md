@@ -22,7 +22,7 @@ Outlook and Entourage.
 
 2. In the navigation pane, click **Folder List**.
 
-3. Expand **Public Folders** &gt; **All Public Folders**, the root
+3. Expand **Public Folders > All Public Folders**, the root
    folder, and your domain.
 
 #### Outlook 2011 for Mac
@@ -37,7 +37,7 @@ Outlook and Entourage.
 
 1. Open Entourage and log in to your email account.
 
-2. In the navigation pane, expand **Public Folders** &gt; **All Public
+2. In the navigation pane, expand **Public Folders > All Public
    Folders**, the root folder, and finally your domain.
 
 ### Add to your public folders and assign permissions
@@ -77,5 +77,4 @@ once.
 
 ### Where to go from here
 
-[Manage public folders in the control panel for Hosted Exchange 2007 and
-2010](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010)
+[Manage public folders in the control panel for Hosted Exchange 2007 and 2010](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010)
