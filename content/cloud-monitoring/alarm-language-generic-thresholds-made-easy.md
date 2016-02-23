@@ -37,7 +37,7 @@ Monitoring lets you:
 -   See the solution patterns in our best practices documentation and
     then easily create your own complex alarms. Our API makes it simple
     to keep up to date on these examples, get more information
-    [here](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarm-examples.html).
+    [here](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarm-example-operations).
 -   Put developers in control by letting them build thresholds similar
     to how you create your application code.
 -   Test thresholds before you configure them. Use data from our [Test
