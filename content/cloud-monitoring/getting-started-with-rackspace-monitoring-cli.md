@@ -85,8 +85,7 @@ Delete with five types:
 -   [Entities](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
 -   [Alarms](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarms-operations)
 -   [Notifications](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations)
--   
-[Notification Plans](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
+-   [Notification Plans](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
 
 Type \$ **raxmon --help** to see all of the commands available to
 raxmon.
