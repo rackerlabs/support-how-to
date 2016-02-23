@@ -36,15 +36,15 @@ choosing the base image to list only standard images.
 #### Cloud Servers API
 
 You can identify standard images when using the [Cloud Servers API
-v2](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/index.html "Rackspace Cloud Servers API documentation")
+v2](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/)
 by making a [List Images
-request](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/List_Images-d1e4435.html) and
+request](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server/list-images) and
 filtering it to list images that have their `type` value set to `BASE`.
 
 #### Cloud Images API
 
 You can identify standard images when using the [Cloud Images API
-v2](http://docs.rackspace.com/images/api/v2/ci-devguide/content/index.html "Rackspace Cloud Images API documentation")
+v2](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
 by making a List Images request and filtering it to list images that
 have their `visibility` value set to `public`.
 

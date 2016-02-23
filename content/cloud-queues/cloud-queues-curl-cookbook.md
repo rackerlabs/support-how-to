@@ -294,8 +294,7 @@ at the number of messages free vs. the total.
 **Please Note**: We have additional developer information available in
 our API documentation.  Listed under Other Products, we have a [Getting
 Started
-Guide](http://docs.rackspace.com/queues/api/v1.0/cq-gettingstarted/content/DB_Overview.html)
+Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started)
 and an [API Developer
-Guide](http://docs.rackspace.com/queues/api/v1.0/cq-devguide/content/overview.html)
+Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-developer-guide)
 for Cloud Queues.
-

@@ -81,13 +81,11 @@ triggers an alert if the response is something like a 404.
 Raxmon mostly follows CRUD methodology, Create, Read (list), Update,
 Delete with five types:
 
--   [Checks](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-checks.html)
--   [Entities](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-entities.html)
--   [Alarms](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-alarms.html)
--   [Notifications](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-notifications.html)
--   
-[Notification
-    Plans](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/service-notification-plans.html)
+-   [Checks](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/check-operations)
+-   [Entities](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
+-   [Alarms](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarms-operations)
+-   [Notifications](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations)
+-   [Notification Plans](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
 
 Type \$ **raxmon --help** to see all of the commands available to
 raxmon.

@@ -22,7 +22,7 @@ For more information about using SSH to connect to servers, see the following ar
 
 This article discusses using the python-novaclient command-line tool to generate a key pair and assign its public key to a Linux server when the server is created.
 
-You can also manage key pairs directly by using the [Cloud Servers API](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ServersKeyPairs-d1e2545.html).
+You can also manage key pairs directly by using the [Cloud Servers API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-a-server-key-pair).
 
 ### Prepare python-novaclient
 

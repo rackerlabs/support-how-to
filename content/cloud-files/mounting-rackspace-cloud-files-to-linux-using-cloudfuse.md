@@ -127,7 +127,7 @@ You'll have to create a configuration file for CloudFuse in your home directory 
 
 ### Auth URLs:
 
-Cloud Files account: [https://auth.api.rackspacecloud.com/v1.0](http://docs.rackspace.com/files/api/v1/cf-devguide/content/)
+Cloud Files account: [https://auth.api.rackspacecloud.com/v1.0](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-developer-guide)
 
 The following entries are optional. You can define these values in the .cloudfuse file.
 
