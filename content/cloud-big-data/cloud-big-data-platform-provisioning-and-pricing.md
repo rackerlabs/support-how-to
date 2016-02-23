@@ -17,7 +17,7 @@ new nodes on the configuration. The provisioning of resources in Cloud
 Big Data Platform can be done easily via the Rackspace Cloud Control
 Panel or API. For more information about how to get started using Cloud
 Big Data Platform, see the [Getting
-Started](http://docs.rackspace.com/cbd/api/v1.0/cbd-getting-started/content/CBD_Overview.html)
+Started](https://developer.rackspace.com/docs/cloud-big-data/v2/developer-guide/#getting-started)
 Guide.
 
 Although Cloud Big Data Platform uses a standard and common Apache
@@ -150,4 +150,3 @@ We hope that these additional points help you successfully understand
 and deploy your Cloud Big Data solution. If you need help, reach out to
 our data specialist support team by creating a ticket in the Rackspace
 Cloud Control Panel.
-

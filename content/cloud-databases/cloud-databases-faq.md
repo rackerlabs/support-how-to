@@ -324,7 +324,7 @@ based on instance size.
 
 Release notes, API documentation, and a getting started guide for Cloud
 Databases are all available on the Rackspace [API Documentation
-site](http://docs.rackspace.com/api/).
+site](https://developer.rackspace.com/docs/).
 
 #### Are there API or account limits for my Cloud Database instances?
 
@@ -541,4 +541,3 @@ Pricing information is available at [the Cloud Databases pricing
 page](http://www.rackspace.com/cloud/databases/pricing/). Standard
 charges apply for any Cloud Servers, Cloud Load Balancers, or Cloud
 Sites that are used to access your Cloud Database instances.
-
