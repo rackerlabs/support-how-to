@@ -13,7 +13,7 @@ product_url: cloud-images
 Standard images are images supplied by Rackspace and supported for your
 Rackspace Cloud account's type and service level.  The distinction
 between standard and non-standard images is described in detail in the
-Knowledge Center article [Rackspace Standard and Non-Standard
+How-To article [Rackspace Standard and Non-Standard
 Images](/how-to/rackspace-standard-and-non-standard-images "Rackspace Standard and Non-Standard Images").
 
 The set of standard images is not the same for all Rackspace Cloud
@@ -50,6 +50,6 @@ have their `visibility` value set to `public`.
 
 #### Support Implications
 
-Please see this Knowledge Center article: [Rackspace Standard and
+Please see this How-To article: [Rackspace Standard and
 Non-Standard
 Images](/how-to/rackspace-standard-and-non-standard-images "Rackspace Standard and Non-Standard Images").
