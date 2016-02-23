@@ -57,14 +57,14 @@ MySQL 4 database to a MySQL 5 database.
 
 4.  Back up your current MySQL 4 database.
 
-    You may wish to use the method outlined in the Knowledge Center
+    You may wish to use the method outlined in the How-To
     article [How to backup your MySQL Database with phpMyAdmin](/how-to/backup-your-mysql-database-with-phpmyadmin).
 
 5.  Provision a new MySQL 5 database to contain the
     migrated database.
 
     For a guide to provisioning a new MySQL 5 database, see the
-    Knowledge Center article [Adding a MySQL Database to a Website or Domain](/how-to/rackspace-cloud-sites-essentials-mysql-databases).
+    How-To article [Adding a MySQL Database to a Website or Domain](/how-to/rackspace-cloud-sites-essentials-mysql-databases).
 
 6.  Import your database into the newly-provisioned MySQL
     5 database.

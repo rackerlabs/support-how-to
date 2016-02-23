@@ -53,7 +53,7 @@ Let's look at getting python-novaclient set up for that purpose.
 ### Setting up python-novaclient
 
 First, if you haven't used python-novaclient before, take a look at one
-of these Knowledge Center articles:
+of these How-To articles:
 
 -   [Installing python-novaclient on Linux and Mac
     OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)

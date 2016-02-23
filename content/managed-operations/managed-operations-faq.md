@@ -83,7 +83,7 @@ It allows you to configure backups through the Control Panel and choose
 to back up a particular folder or file with the frequency that works
 best for you.
 
-For additional information, see the following Knowledge Center articles:
+For additional information, see the following How-To articles:
 
 -   Cloud Server images &mdash; Create and restore images via our[Cloud
     Control

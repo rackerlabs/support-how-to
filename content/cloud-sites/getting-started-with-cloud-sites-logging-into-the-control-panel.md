@@ -67,7 +67,7 @@ products, and is a handy 'quick-reference' guide.
   ![](http://c739518.r18.cf2.rackcdn.com/YourAccount.png)
 
 -   **Support** - Access all of our support resources - Developer
-    Guides, Cloud Status, Knowledge Center, Problem Ticketing System,
+    Guides, Cloud Status, Rackspace How-To, Problem Ticketing System,
     and Live Chat.  All these resources are also available from links at
     the top of the page.
 

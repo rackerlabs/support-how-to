@@ -378,7 +378,7 @@ instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
 #### Do you support importing and exporting data into the database?
 
 You can use standard MySQL client tools to import data into and export
-data from your instance. Knowledge Center articles that detail the
+data from your instance. How-To articles that detail the
 processes
 of [importing](/how-to/importing-data-into-cloud-databases)
 or
