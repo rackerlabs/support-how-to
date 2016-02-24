@@ -6,7 +6,7 @@ With the annotation pushed to Rackspace Metrics showing up in Grafana dashboard,
 
 The concept of "Annotation" can be traced back easily to a blog post by Etsy team, where they use it to make events like release to show up in the performance graph, often providing valuable insights into the changes on the graph.
 
-Through Grafana, Rackspace Metrics users can create dashboard that can help identify the performance changes in the system.  While detection is the first step towards managing the application, the next step is often to figure out what has changed.
+Through Grafana, Rackspace Metrics users can create dashboard that can help identify the performance changes in the system (see [Create a Grafana dashboard for Rackspace Metrics](https://support.rackspace.com/how-to/create-a-grafana-dashboard-for-rackspace-metrics/).  While detection is the first step towards managing the application, the next step is often to figure out what has changed.
 
 ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotationsupport-what-changed.png)
 
@@ -74,27 +74,4 @@ If you prefer to use the API command to retreive your annotation, use the follow
      
     [{"tags":"deployment","tenantId":"737305","what":"app03 deployment","when":1452105873000,"data":"deploying prod"}]
 
-### Pricing
-
-Rackspace Metrics comes bundled free with any cloud or dedicated customer.
-
-### FAQ
-
-#### How can I learn more about Rackspace Metrics product?
-
-Product Overview:  [http://bit.ly/rax-metrics-overview](http://bit.ly/rax-metrics-overview)
-
-Grafana support blog post:  [http://bit.ly/grafana-cloudmetrics](http://bit.ly/grafana-cloudmetrics)
-
-#### Why don't I see the events that I just pushed?
-
-Make sure all your API calls have 200 OK response code.
-
- - If it is 403 Forbidden and your API call into other end points (like Rackspace Monitoring) with the same tenant and auth token works, check with metrics team to make sure that the account is in EAP program.
-
-Make sure that the dates of the events are within the time window specified by query.
-
-#### How do I sign up an account for EAP?
-
-Sign up at [http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early\_Access\_Program.html](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html).
 
