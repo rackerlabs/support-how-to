@@ -17,7 +17,7 @@ Use the following domain management tools on the Cloud Office Control Panel.
 The following articles provide instructions for performing these tasks:
 
 - [Add domain](/how-to/add-domains-with-the-cloud-office-control-panel)
-- [Domain aliases](/how-to/manage-domain-aliases-with-the-cloud-office-control-panel)
+- [Domain aliases](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/)
 - [DNS settings](/how-to/help-tool-for-hosted-email-and-skype-for-business)
 - [Email archiving](/how-to/enable-email-archiving-cloud-office-control-panel)
 - [Global access rights](/how-to/set-global-access-rights-with-the-cloud-office-control-panel)
