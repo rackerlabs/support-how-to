@@ -155,18 +155,11 @@ complete the following steps:
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-mysql-data.png" width="428" height="337" />
 
 #### (Optional) Use Annotation
-With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Request an annotation](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-annotation) for additional information. 
+With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Use annotation support](https://support.rackspace.com/how-to/rackspace-metrics/use-annotation-support) for additional information. 
 
 #### (Optional) Use Enum metrics
 
-The enum metrics release will allow you to push state based metrics (enums) and get the report from API on the frequency of occurrence of the values. For example, a common report for the IT teams to provide the uptime report based on the occurrences of the response codes from the server, or the state of the alerts during a period of time. Enum support is a stepping stone by providing the data to be used in report or visualization.
-
- 1. Enter the metric name manually. https://www.evernote.com/l/ANcj3LUD9YNF-6rjC_1fvhA8rV9-58nPu7k
- 2. Click **Off** and the drop down option will appear. https://www.evernote.com/l/ANe89Krikl5G47V0ZjTM9Sv0SK641Zad_IE
- 3. Select a value. https://www.evernote.com/l/ANcgFuercXhCSIyURlQULPLU2leMas6zsnI
- 4. Click duplicate. https://www.evernote.com/l/ANeX6DdQXNpCL5fIzKpDlFc4xgVxOkR_stQ
- 5. Select all values. https://www.evernote.com/l/ANcXQie0bb9BG4JmzgVORQ3ibMzuhceghkI
- 6. Change graph style to **bar chart**, and stack to **100%**. https://www.evernote.com/l/ANeh2xhSXf5OibLZtpF0yX6jYJHF5HVX794
+The enum metrics release will allow you to push state based metrics (enums) and get the report from API on the frequency of occurrence of the values. For example, a common report for the IT teams to provide the uptime report based on the occurrences of the response codes from the server, or the state of the alerts during a period of time. Enum support is a stepping stone by providing the data to be used in report or visualization.  See [Use enum suport](https://support.rackspace.com/how-to/rackspace-metrics/use-enum-metrics-support) for additional information.
 
 For api commands and additonal information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
 
