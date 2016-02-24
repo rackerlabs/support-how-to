@@ -1,6 +1,6 @@
 ---
 node_id: 6001
-title: Use enum metrics
+title: Use enum metrics support
 type: article
 created_date: '2015-03-03'
 created_by: Kyle Laffoon
@@ -63,27 +63,27 @@ The following are the screen shots of steps to create dashboard based on enum va
 
  1. Enter the metric name manually:
 
-  []!(https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-manually.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-manually.png)
 
  2. Click **Off** and the drop down option will appear:         
 
-  []!(https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-click-off.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-click-off.png)
 
  3. Select a value:
 
-  []!(https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-select-value.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-select-value.png)
 
  4. Click **duplicate** :
 
-  []!(https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-clickduplicate.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-clickduplicate.png)
 
  5. Select all values
 
-  []!(https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-selectall.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-selectall.png)
 
  6. Change graph style to be bar chart, stack and 100%:
 
-  []!(https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png)
 
 
 ### FAQ
