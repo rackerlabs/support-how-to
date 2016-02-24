@@ -53,7 +53,7 @@ Let's look at getting python-novaclient set up for that purpose.
 ### Setting up python-novaclient
 
 First, if you haven't used python-novaclient before, take a look at one
-of these Knowledge Center articles:
+of these How-To articles:
 
 -   [Installing python-novaclient on Linux and Mac
     OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
@@ -274,4 +274,4 @@ done through the API or python-novaclient.
 -   [Scheduled Images
     FAQ](/how-to/scheduled-images-faq "Scheduled Images FAQ")
 -   [Scheduled Images API Extension
-    Documentation](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ch_extensions.html#scheduled_images)
+    Documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-extensions/ext-scheduled-images)

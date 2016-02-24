@@ -188,7 +188,7 @@ Region dropdown on either the Server List or Create Server pages. API
 users can look directly in their service catalog.
 
 To learn more about regions in the Rackspace cloud, please see the
-Knowledge Center article [Where are the Rackspace data centers
+How-To article [Where are the Rackspace data centers
 located?](/how-to/rackspace-data-centers-and-regions).
 
 #### Image sharing courtesy

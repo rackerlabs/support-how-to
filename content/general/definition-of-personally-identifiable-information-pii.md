@@ -37,7 +37,7 @@ in the Gramm-Leach-Bliley Act found at 15 USC Subchapter 1, &sect;6809(4),
 and **(iii)** "protected health information" as defined in the Health
 Insurance Portability and Accountability Act found at 45 CFR &sect;160.103.
 
-### Rackspace Knowledge Center Articles That Reference PII
+### Rackspace How-To Articles That Reference PII
 
 -   [SSL Termination on Cloud Load Balancers](/how-to/cloud-load-balancers-faq)
 -   [Picking the Right Option for Hosted Storage](/white-paper/picking-the-right-option-for-hosted-storage)

@@ -30,5 +30,5 @@ product_url: cloud-databases
 
 ###  Cloud Databases API
 
-- [Getting Started with the Cloud Databases API](http://docs.rackspace.com/cdb/api/v1.0/cdb-getting-started/content/DB_Overview.html)
-- [Cloud Databases API Developer's Guide](http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/overview.html)
+- [Getting Started with the Cloud Databases API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#getting-started)
+- [Cloud Databases API Developer's Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/)

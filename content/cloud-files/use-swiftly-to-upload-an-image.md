@@ -28,7 +28,7 @@ GB to Cloud Files as a Static Large Object.
 
 For more information about Cloud Files Large Objects, see the [Cloud
 Files
-documentation](http://docs.rackspace.com/files/api/v1/cf-devguide/content/Overview-d1e70.html).
+documentation](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
 
 Prerequisites
 -------------
