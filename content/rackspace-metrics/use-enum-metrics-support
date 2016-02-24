@@ -13,11 +13,11 @@ Instead of calculating the min/max/average values that only apply to numeric val
 Again, this is assuming that there is limited number of values. Violating that assumption can cause uncertain behavior from the system and would not be supported. Rackspace Metrics team will put monitoring in place to detect and catch cases where a metrics is containing too many values.
 
 #### Ingesting Enum Data through API
-FFor api commands and additonal information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
+For api commands and additional information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
 
 #### Retrieving Enum Data from API
 
-For api command and additional informationon on retrrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
+For api command and additional information on retrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
 
 
 ### Enum Support in Search API
@@ -29,7 +29,7 @@ Note: there is a five minutes delay before any newly ingested enum\_values show 
 Applying the above example:
 
     curl -X GET 'https://global.metrics.api.rackspacecloud.com/v2.0/737305/metrics/search?query=example.*.*&include_enum_values=true'
- 
+
 Which will then return:
     [
     {
