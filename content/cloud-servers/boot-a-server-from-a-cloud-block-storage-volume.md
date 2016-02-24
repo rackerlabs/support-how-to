@@ -26,7 +26,7 @@ Booting from a Cloud Block Storage volume provides the following benefits:
 - **Scale** &ndash; If you want to change the size of your server, you can easily delete your existing server and create a new one by using the same volume in Cloud Block Storage. If the IP address is important to your use case, we recommend placing a load balancer in front of the server.
 - **Flexibility** &ndash; You have control over the size and type (SSD or SATA) of volume that you use to boot your server. This control enables you to fine-tune the storage to the needs of your operating system or application.
 
-You can get started through the [Control Panel](https://mycloud.rackspace.com) or through the [API](http://docs.rackspace.com/cbs/api/v1.0/cbs-devguide/content/overview.html).
+You can get started through the [Control Panel](https://mycloud.rackspace.com) or through the [API](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
 
 ### Setup options
 
