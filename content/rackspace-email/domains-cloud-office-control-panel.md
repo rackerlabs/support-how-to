@@ -18,7 +18,7 @@ From the **Manage Domains** section of the control panel, you can perform the fo
 
 - [Add a domain](/how-to/add-domains-with-the-cloud-office-control-panel)
 - [Manage domain aliases](/how-to/manage-domain-aliases-with-the-cloud-office-control-panel)
-- [Manage DNS records](/how-to/help-tool-for-hosted-email-and-skype-for-business)
+- [Manage DNS records](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 - [Enable email archiving](/how-to/enable-email-archiving-cloud-office-control-panel)
 - [Set global access rights](/how-to/set-global-access-rights-with-the-cloud-office-control-panel)
 
