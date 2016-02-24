@@ -13,51 +13,11 @@ Instead of calculating the min/max/average values that only apply to numeric val
 Again, this is assuming that there is limited number of values. Violating that assumption can cause uncertain behavior from the system and would not be supported. Rackspace Metrics team will put monitoring in place to detect and catch cases where a metrics is containing too many values.
 
 #### Ingesting Enum Data through API
-
-    curl -i -XPOST 'https://global.metrics-ingest.api.rackspacecloud.com/v2.0/737305/ingest/aggregated' -d '
-    {
-        "tenantId": "737305",
-        "timestamp": 1453152446000,
-        "enums": [
-          {
-            "name": "example.enums.http",
-            "value": "200"
-          },
-          {
-            "name": "example.enums.alarm",
-            "value": "OK"
-          },
-          {
-            "name": "example.enums.value",
-            "value": "two"
-          }
-         
-        ]
-    }'
+FFor api commands and additonal information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
 
 #### Retrieving Enum Data from API
 
-    curl -XGET 'https://global.metrics.api.rackspacecloud.com/v2.0/737305/views/example.enums.http?from=1453152327000&to=1453153446000&points=500'
-    {
-      "unit": "unknown",
-      "values": [
-        {
-          "numPoints": 2,
-          "timestamp": 1453152300000,
-          "enum_values": {
-            "200": 1,
-            "500": 1
-          },
-          "type": "enum"
-        }
-      ],
-      "metadata": {
-        "limit": null,
-        "next_href": null,
-        "count": 1,
-        "marker": null
-      }
-    }
+For api command and additional informationon on retrrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
 
 
 ### Enum Support in Search API
@@ -89,15 +49,12 @@ The customer can use the existing Grafana support to visualize the enum data in 
 
 The following are the screen shots of steps to create dashboard based on enum values. Engineer is working on fixes to make it easier. We will update it once that is done.
 
- - Enter the metric name manually: [https://www.evernote.com/l/ANcj3LUD9YNF-6rjC\_1fvhA8rV9-58nPu7k](https://www.evernote.com/l/ANcj3LUD9YNF-6rjC_1fvhA8rV9-58nPu7k)
- - Click **Off** and the drop down option will appear: [https://www.evernote.com/l/ANe89Krikl5G47V0ZjTM9Sv0SK641Zad\_IE](https://www.evernote.com/l/ANe89Krikl5G47V0ZjTM9Sv0SK641Zad_IE)
- - Select a value: [https://www.evernote.com/l/ANcgFuercXhCSIyURlQULPLU2leMas6zsnI](https://www.evernote.com/l/ANcgFuercXhCSIyURlQULPLU2leMas6zsnI)
- - Click **duplicate** : [https://www.evernote.com/l/ANeX6DdQXNpCL5fIzKpDlFc4xgVxOkR\_stQ](https://www.evernote.com/l/ANeX6DdQXNpCL5fIzKpDlFc4xgVxOkR_stQ)
- - Select all values [https://www.evernote.com/l/ANcXQie0bb9BG4JmzgVORQ3ibMzuhceghkI](https://www.evernote.com/l/ANcXQie0bb9BG4JmzgVORQ3ibMzuhceghkI)
- - Change graph style to be bar chart, stack and 100%: [https://www.evernote.com/l/ANeh2xhSXf5OibLZtpF0yX6jYJHF5HVX794](https://www.evernote.com/l/ANeh2xhSXf5OibLZtpF0yX6jYJHF5HVX794)
-
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png)
-
+ 1. Enter the metric name manually: [](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-manually.png)
+ 2. Click **Off** and the drop down option will appear: [](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-click-off.png)
+ 3. Select a value: [](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-select-value.png)
+ 4. Click **duplicate** : [](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-clickduplicate.png)
+ 5. Select all values [](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-selectall.png)
+ 6. Change graph style to be bar chart, stack and 100%: [](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png)
 
 
 ### FAQ
