@@ -1,3 +1,14 @@
++---
++title: Use annotation metrics
++type: article
++created_date: '2016-02-23'
++created_by: Kyle Laffoon
++last_modified_date: '2016-02-25'
++last_modified_by: Kyle Laffoon
++product: Rackspace Metrics
++product_url: rackspace-metrics
++---
++
 Grafana is a popular and beautiful dashboard tool for IT Ops. Rackspace Metrics is designed to meet the functional and performance requirements of enterprise-scale metrics. By integrating with Grafana, Rackspace Metrics changes the cost-structure of metrics collection by replacing the storage component without changing the users' workflow.
 
 With the annotation pushed to Rackspace Metrics showing up in Grafana dashboard, customers can now gain insight into the events that might be the cause of the changes in the performance graph.
