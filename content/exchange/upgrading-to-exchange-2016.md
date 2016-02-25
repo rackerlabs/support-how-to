@@ -4,8 +4,8 @@ title: Upgrading to Exchange 2016
 type: article
 created_date: '2015-12-16'
 created_by: Ronnie Canizales
-last_modified_date: '2016-01-29'
-last_modified_by: Rose Coste
+last_modified_date: '2016-02-25'
+last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -36,7 +36,6 @@ The Outlook Web Access (OWA) tool will be available via the following links:
 
 - Rackspace unified login - [https://apps.rackspace.com](https://apps.rackspace.com/)
 - Direct login - [https://mex09.emailsrvr.com](https://mex08.emailsrvr.com/)
-
 
 #### Public folders
 
