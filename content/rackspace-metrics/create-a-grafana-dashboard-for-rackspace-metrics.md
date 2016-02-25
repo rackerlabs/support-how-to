@@ -11,7 +11,7 @@ product_url: rackspace-metrics
 ---
 
 Rackspace Metrics lets you build a Grafana dashboard to visualize your
-metrics. Instead of using a stand-alone graphite back end, you can point
+metrics. Instead of using a stand-alone Graphite back end, you can point
 your Grafana instance to the Rackspace Metrics service. You can complete
 all these steps directly from the Cloud Control Panel by importing a
 custom template and then creating a stack from this template.
@@ -23,7 +23,7 @@ instance.
 
 ### Deploy the Grafana instance for Rackspace Metrics
 
-To create a Grafana dashboard complete the following steps:
+To create a Grafana dashboard, complete the following steps:
 
 1.  Log in to the [Rackspace Cloud Control
     Panel](https://mycloud.rackspace.com/ "Cloud Control Panel") with
@@ -31,18 +31,17 @@ To create a Grafana dashboard complete the following steps:
 2.  In the **Servers** section, click **Create Stack**.
 3.  Click **Create Custom Template**.
 4.  Go to <https://bitly.com/heat-grafana>, and copy the content on
-    the page. This is the template that you will be using to create
+    the page. This is the template that you will use to create
     your stack.
 5.  Go back to the Cloud Control Panel.
 6.  On the **Create Custom Template** page, perform the following steps:
-    -   Enter a name for the template.
-    -   Paste the template content that you just copied
-    -   Click **Validate Syntax** at the bottom of the page.
-        After the template has been successfully validated, an It works!
+    a. Enter a name for the template.
+    b. Paste the template content that you just copied
+    c. Click **Validate Syntax** at the bottom of the page. After the template has been successfully validated, an `It works!`
         message is displayed beside the button.
 
 7.  Click **Create Template**.
-    Your template is now being created. This may take a few minutes.
+    Your template is created, which might take a few minutes.
     After the template is complete, you will see a page that displays
     information about your custom template, including a description.
 
@@ -56,12 +55,11 @@ To create a Grafana dashboard complete the following steps:
     values that are populated by default.
     -   **API key**
     -   **username**
-    -   **tenant ID** (which is also referred to as your account number)
+    -   **tenant ID** (your account number)
 
 10. Click **Create Stack**.
     The stack details page is displayed.
-    While the stack is being built, you can see a "Building" message in
-    the **Status** field.
+    While the stack is being built, the **Status** is **Building**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-create-stack-building.png" width="449" height="400" />
 
@@ -75,32 +73,25 @@ dashboard. Be sure to record this information.
 
 ### Use the Grafana dashboard
 
-Now that you have created your stack, you can access the Grafana
-dashboard that contains all the relevant information for your stack.
+Now that you have created your stack, you can access the Grafana dashboard that contains all the relevant information for your stack.
 
 To access the Grafana dashboard, perform the following steps:
 
 1.  Open a web browser.
-2.  Type the IP address in the address bar. You are prompted with an
-    authentication page.
+2.  Type the IP address in the address bar. 
+    You are prompted with an authentication page.
 3.  Type the username and password that were displayed after you created
-    the stack and click **OK**.
+    the stack and click **Log In**.
     Your Grafana dashboard is displayed.
-4.  Type the username and password you were presented with after
-    creating the stack and click **OK**.
-    You should now be able to see your grafana dashboard.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-home-page_0.png" width="432" height="284" />
 
-Note that all of the metrics submitted by Rackspace Monitoring are
-displayed in the following format:
+Note that all of the metrics submitted by Rackspace Monitoring are displayed in the following format:
 
 `rackspace.monitoring.entities.<entityid>.checks.<checktype>.<checkid>.<metricname>`
 
-#### Locate your entity and check Ids
-
-Rackspace Monitoring generates entity IDs and check IDs to guarantee the
-uniqueness of the metrics.
+As seen in the preceding example, Rackspace Monitoring generates `entity IDs` and `check IDs` to guarantee the
+uniqueness of the metrics. You can use the `entity IDs` and `check IDs` to identify the format of the metric you want to see.
 
 You can locate the entity ID and check ID on the [Rackspace
 Intelligence](http://intelligence.rackspace.com/) **Monitoring
@@ -108,7 +99,7 @@ Details** and **Check Details** pages.
 
 For more information, see [Getting Started with Rackspace Intelligence
 for the
-Cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud), [Monitoring
+cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud), [Monitoring
 entities with Rackspace
 Intelligence](/how-to/monitoring-entities-with-rackspace-intelligence),
 and [Working with
@@ -120,32 +111,30 @@ the **Monitoring Details** page.
 ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-monitoring-details_0.png)
 
 You can also locate the monitoring and check IDs by looking at the
-Rackspace Intelligence URL for a particular check. The following is an
+Rackspace Intelligence URL for a particular check. Following is an
 example of such a URL:
 
 `https://intelligence.rackspace.com/cloud/entities/enrmO7n1hX/checks/ch6fvLIaMC`
 
-The entity ID directly follows the entities parameter. Entity IDs always
+The entity ID directly follows the `entities` parameter. Entity IDs always
 start with the letters *en*. The check ID directly follows
-the checks parameter. Check IDs always start with the letters *ch*.
+the `checks` parameter. Check IDs always start with the letters *ch*.
 
 #### Upload a Grafana dashboard for database instances
 
-Rackspace has created a Grafana dashboard to help you get set up with
-your Cloud Databases MySQL instances.
+Rackspace has created a Grafana dashboard to help you set up your Cloud Databases MySQL instances.
 
-To upload a Grafana dashboard that shows your database MySQL instances,
+To upload a Grafana dashboard that shows your MySQL instances,
 complete the following steps:
 
 1.  Download the Grafana dashboard JSON file from
     <http://bit.ly/mysql-grafana>.
 2.  Modify the JSON to match your instance by replacing all the
-    instances of \_rax\_entity\_id\_ in the file with the entity ID of
+    instances of `\_rax\_entity\_id\_` in the file with the entity ID of
     your database instance.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-replace-entty-id1.png" width="639" height="76" />
-3.  On the Grafana dashboard, click **Import** on the top-right corner,
-    click **Browse**, and then upload the file to Grafana.
+3.  On the Grafana dashboard, click the folder icon in the top-right corner, click **Import**, click **Choose File**, and then upload     the file to Grafana.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-JSON-file-upload.png" width="432" height="184" />
 
@@ -161,15 +150,15 @@ With annotation support, users can submit change event to show along with the gr
 
 The enum metrics release will allow you to push state based metrics (enums) and get the report from API on the frequency of occurrence of the values. For example, a common report for the IT teams to provide the uptime report based on the occurrences of the response codes from the server, or the state of the alerts during a period of time. Enum support is a stepping stone by providing the data to be used in report or visualization.  See [Use enum suport](https://support.rackspace.com/how-to/rackspace-metrics/use-enum-metrics-support) for additional information.
 
-For api commands and additonal information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
+For API commands and additonal information about sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
 
-For api command and additional informationon on retrrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
+For API command and additional informationon about retrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
 
 ### Grafana FAQ
 
 #### How much does Grafana cost?
 
-You pay only for the cost of the server you create. Everything else
+You pay only for the cost of the server that you create. Everything else
 is no cost.
 
 Grafana is an open-source metrics dashboard and graph editor. There is
@@ -191,7 +180,7 @@ use cases and has a certain amount of customization, if you want total
 customizability, you can use Grafana as an alternative.
 
 As an additional comparison, Rackspace Intelligence does more than just
-graphs; it is a control panel that enables you to manage your Cloud
+graphs; it is a control panel that enables you to manage your Rackspace
 Monitoring configuration. Although Grafana might give you total control
 over your graphs, Rackspace Intelligence gives you total control to
 create, delete, and edit your monitoring configuration.
