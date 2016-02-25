@@ -21,8 +21,10 @@ Create, Read, Update, and Delete describes the permissions that are available in
 **C = CREATE     R = READ     U = UPDATE     D = DELETE**
 
 Additionally, there are Global Roles which apply access across all products. Those are:
-**Admin: Providing full capabilities across all products
-**Observer: Providing Read-only across all products
+
+- Admin: Providing full capabilities across all products
+
+- Observer: Providing Read-only across all products
 
 ### Product Roles
 
