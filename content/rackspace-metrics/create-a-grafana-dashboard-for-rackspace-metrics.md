@@ -75,7 +75,6 @@ dashboard. Be sure to record this information.
 
 ### Use the Grafana dashboard
 
-
 Now that you have created your stack, you can access the Grafana
 dashboard that contains all the relevant information for your stack.
 
@@ -98,7 +97,7 @@ displayed in the following format:
 
 `rackspace.monitoring.entities.<entityid>.checks.<checktype>.<checkid>.<metricname>`
 
-### Locate your entity and check Ids
+#### Locate your entity and check Ids
 
 Rackspace Monitoring generates entity IDs and check IDs to guarantee the
 uniqueness of the metrics.
@@ -130,7 +129,7 @@ The entity ID directly follows the entities parameter. Entity IDs always
 start with the letters *en*. The check ID directly follows
 the checks parameter. Check IDs always start with the letters *ch*.
 
-### Upload a Grafana dashboard for database instances
+#### Upload a Grafana dashboard for database instances
 
 Rackspace has created a Grafana dashboard to help you get set up with
 your Cloud Databases MySQL instances.
@@ -154,6 +153,17 @@ complete the following steps:
     instances.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-mysql-data.png" width="428" height="337" />
+
+#### (Optional) Use Annotation
+With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Use annotation support](https://support.rackspace.com/how-to/rackspace-metrics/use-annotation-support) for additional information. 
+
+#### (Optional) Use Enum metrics
+
+The enum metrics release will allow you to push state based metrics (enums) and get the report from API on the frequency of occurrence of the values. For example, a common report for the IT teams to provide the uptime report based on the occurrences of the response codes from the server, or the state of the alerts during a period of time. Enum support is a stepping stone by providing the data to be used in report or visualization.  See [Use enum suport](https://support.rackspace.com/how-to/rackspace-metrics/use-enum-metrics-support) for additional information.
+
+For api commands and additonal information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
+
+For api command and additional informationon on retrrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
 
 ### Grafana FAQ
 

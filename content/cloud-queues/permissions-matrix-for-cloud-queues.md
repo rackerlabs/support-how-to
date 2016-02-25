@@ -14,7 +14,7 @@ The following permissions matrix displays specific permissions for the roles in 
 
 [API Documentation](http://developer.rackspace.com/docs/)
 
-[Related Knowledge Center Articles](/how-to/)
+[Related How-To Articles](/how-to/)
 
 [Cloud Queues Terminology](/how-to/permissions-matrix-for-cloud-queues)
 

@@ -37,7 +37,7 @@ Before we get into the details, consider the following information:
     in the Cloud Images FAQ for details.
 -   Cloud Images is currently accessible only through the [Cloud Images
     v2
-    API](http://docs.rackspace.com/images/api/v2/ci-devguide/content/ch_image_preface.html);
+    API](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/);
     it's not available in the Cloud Control Panel yet.
 -   Cloud Images uses only JSON; it does not use XML.
 
@@ -275,6 +275,6 @@ can import it for use with Cloud Servers.
 ### Related information
 
 -   [Rackspace Cloud Images Developer
-    Guide](http://docs.rackspace.com/images/api/v2/ci-devguide/content/index.html)
+    Guide](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
 -   [Cloud Images
     FAQ](/how-to/cloud-images-faq)

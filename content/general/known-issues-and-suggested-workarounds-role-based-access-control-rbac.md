@@ -42,12 +42,12 @@ by contacting Support at 1-800-961-4454.
 ### Multiple Roles for One User
 
 **Known Issue:** Multiple roles for one user can only be assigned
-through the [API](http://docs.rackspace.com/). The Cloud Control Panel
+through the [API](https://developer.rackspace.com/docs/). The Cloud Control Panel
 displays only the first role assigned to users that have multiple
 roles.
 
 **Workaround:** A user's multiple roles can be viewed
-through the [API](http://docs.rackspace.com/).
+through the [API](https://developer.rackspace.com/docs/).
 
 ### Suspended Account
 

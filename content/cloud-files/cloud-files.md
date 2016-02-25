@@ -21,8 +21,8 @@ Store it on Cloud Files, serve it fast on Akamai's CDN. Cloud Files, powered by 
 
 ###  Cloud Files API and SDKs
 
-- [Cloud Files API Getting Started Guide](http://docs.rackspace.com/files/api/v1/cf-getting-started/content/Overview-d1e01.html)
-- [Cloud Files Developer Guide](http://docs.rackspace.com/files/api/v1/cf-devguide/content/index.html)
+- [Cloud Files API Getting Started Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#getting-started)
+- [Cloud Files Developer Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-developer-guide)
 - [Java SDK for Rackspace Cloud](https://developer.rackspace.com/sdks/java/)
 - [PHP SDK for Rackspace Cloud](https://developer.rackspace.com/sdks/php/)
 - [Python SDK for Rackspace Cloud](https://developer.rackspace.com/sdks/python/)
