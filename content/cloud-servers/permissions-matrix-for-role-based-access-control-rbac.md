@@ -14,34 +14,38 @@ product_url: cloud-servers
 
 [Managing RBAC](/how-to/managing-role-based-access-control-rbac)
 
-The RBAC permissions matrix displays the type of roles that are available within each product. Select a product within the table to view the detailed permissions matrix.
+The RBAC permissions matrix displays the type of product roles that are available within each product. 
 
 Create, Read, Update, and Delete describes the permissions that are available in RBAC roles.
 
 **C = CREATE     R = READ     U = UPDATE     D = DELETE**
 
-### Product Access
+Additionally, there are Global Roles which apply access across all products. Those are:
+**Admin: Providing full capabilities across all products
+**Observer: Providing Read-only across all products
 
-Product | (CRUD) Across all RBAC enabled products | Across all RBAC enabled products | ADMIN (CRUD): Within specified product | CREATOR (CRU): Within specified product | OBSERVER: Read-only within specified product
+### Product Roles
+
+Product | ADMIN (CRUD): Within specified product | CREATOR (CRU): Within specified product | OBSERVER: Read-only within specified product
 ------------------------- | :---: | :---: | :---: | :---: | :---:
-[Next Gen Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[First Generation Servers](/how-to/permissions-matrix-for-first-generation-cloud-servers) | **YES** | **READ ONLY** | **YES** | **NO** | **YES**
-[Cloud Files](/how-to/permissions-matrix-for-cloud-files) | **YES** | **READ ONLY** | **YES** | **NO** | **YES**
-[Rackspace CDN](/how-to/permission-matrix-for-rackspace-cdn)| **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Databases](/how-to/permissions-matrix-for-cloud-databases) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Load Balancers](/how-to/permissions-matrix-for-cloud-load-balancers) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Queues](/how-to/permissions-matrix-for-cloud-queues) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Networks](/how-to/permissions-matrix-for-cloud-networks) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Monitoring](/how-to/detailed-permissions-matrix-for-rackspace-monitoring) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Block Storage](/how-to/permissions-matrix-for-cloud-block-storage) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Auto Scale](/how-to/permissions-matrix-for-auto-scale) | **YES** | **READ ONLY** | **YES** | **NO** | **YES**
-[Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Big Data v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Backup](/knowledge_center/detailed-permissions-matrix-for-cloud-backup) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Orchestration](/how-to/permissions-matrix-for-cloud-orchestration) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud DNS](/how-to/detailed-permissions-matrix-for-dns) | **YES** | **READ ONLY** | **YES** | **YES** | **YES**
-[Cloud Feeds](/how-to/detailed-permissions-matrix-for-cloud-feeds)| **NO** | **READ ONLY** | **NO** | **NO** | **YES**
+[Next Gen Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers) | **YES** | **YES** | **YES**
+[First Generation Servers](/how-to/permissions-matrix-for-first-generation-cloud-servers) | **YES** | **NO** | **YES**
+[Cloud Files](/how-to/permissions-matrix-for-cloud-files) | **YES** | **NO** | **YES**
+[Rackspace CDN](/how-to/permission-matrix-for-rackspace-cdn) | **YES** | **YES** | **YES**
+[Cloud Databases](/how-to/permissions-matrix-for-cloud-databases) | **YES** | **YES** | **YES**
+[Cloud Load Balancers](/how-to/permissions-matrix-for-cloud-load-balancers) | **YES** | **YES** | **YES**
+[Cloud Queues](/how-to/permissions-matrix-for-cloud-queues) | **YES** | **YES** | **YES**
+[Cloud Networks](/how-to/permissions-matrix-for-cloud-networks) | **YES** | **YES** | **YES**
+[Cloud Monitoring](/how-to/detailed-permissions-matrix-for-rackspace-monitoring) | **YES** | **YES** | **YES**
+[Cloud Block Storage](/how-to/permissions-matrix-for-cloud-block-storage) | **YES** | **YES** | **YES**
+[Auto Scale](/how-to/permissions-matrix-for-auto-scale) | **YES** | **NO** | **YES**
+[Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images) | **YES** | **YES** | **YES**
+[Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data) | **YES** | **YES** | **YES**
+[Cloud Big Data v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | **YES** | **YES** | **YES**
+[Cloud Backup](/knowledge_center/detailed-permissions-matrix-for-cloud-backup) | **YES** | **YES** | **YES**
+[Cloud Orchestration](/how-to/permissions-matrix-for-cloud-orchestration) | **YES** | **YES** | **YES**
+[Cloud DNS](/how-to/detailed-permissions-matrix-for-dns) | **YES** | **YES** | **YES**
+[Cloud Feeds](/how-to/detailed-permissions-matrix-for-cloud-feeds) | **NO** | **NO** | **YES**
 
 ### Account Access
 
