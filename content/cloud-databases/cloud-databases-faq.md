@@ -4,8 +4,8 @@ title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-02-25'
+last_modified_by: Steve Croce
 product: Cloud Databases
 product_url: cloud-databases
 ---
@@ -14,9 +14,8 @@ product_url: cloud-databases
 
 #### Can I provision Cloud Databases if I don't have Cloud Servers, Cloud Load Balancers, or Cloud Sites on my account?
 
-Yes, but instances are provisioned only with network interfaces on their
-data center's internal service network (ServiceNet). Connecting to a
-Cloud Database instance remotely requires either a Cloud Server or Cloud
+Yes. [High Availability instance groups](/how-to/high-availability-for-cloud-databases) allow for both internal connections on their
+data center's internal service network (ServiceNet) as well as external networks via a public IP/hostname. Single instances and replica sets are provisioned only with network interfaces on ServiceNet. Connecting to one of these types of Cloud Databases instances remotely requires either a Cloud Server or Cloud
 Load Balancer to [proxy the
 connection](/how-to/connect-to-a-cloud-databases-instance).
 
