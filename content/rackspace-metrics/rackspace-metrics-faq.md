@@ -73,7 +73,7 @@ to the standard Cloud Terms of Service.
 
 #### How much does Rackspace Metrics cost?
 
-Rackspace Metrics is available at no charge.
+Rackspace Metrics is free for all Rackspace customers with Cloud or Dedicated accounts during the EAP. The UA launch date and pricing will be determined this year.
 
 #### How can I get support?
 
