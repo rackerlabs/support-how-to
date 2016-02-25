@@ -29,7 +29,7 @@ assigned to a cloud server at build time.
     team will provide you with a list of Auto NAT Public IP addresses
     that have been allocated to you.
 - When creating new cloud servers, you must use the [Cloud Servers
-    API](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/ch_preface.html)
+    API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/)
     to enter the Metadata information required to assign an Auto NAT IP
     to a cloud server at build time
 - When creating a new cloud server you would like configured with an

@@ -22,7 +22,7 @@ Outlook and Entourage.
 
 2. In the navigation pane, click **Folder List**.
 
-3. Expand **Public Folders** &gt; **All Public Folders**, the root
+3. Expand **Public Folders > All Public Folders**, the root
    folder, and your domain.
 
 #### Outlook 2011 for Mac
@@ -37,7 +37,7 @@ Outlook and Entourage.
 
 1. Open Entourage and log in to your email account.
 
-2. In the navigation pane, expand **Public Folders** &gt; **All Public
+2. In the navigation pane, expand **Public Folders > All Public
    Folders**, the root folder, and finally your domain.
 
 ### Add to your public folders and assign permissions
@@ -71,37 +71,10 @@ once.
 4. Click **Add**, select the member to whom you want to grant
    permission, and then click **Add** again.
 
-5. Select the permission type for the user:
+5. Select the permission type that will work best for the user.
 
-   - **Owner**: Create, read, modify, and delete all items and files,
-     and create subfolders. Folder owners can change the permission
-     levels that other people have for the folder.
-
-   - **Publishing Editor**: Create, read, modify, and delete all
-     items and files, and create subfolders.
-
-   - **Editor**: Create, read, modify, and delete all items
-     and files.
-
-   - **Publishing Author**: Create and read items and files, create
-     subfolders, and modify and delete items and files that
-     you create.
-
-   - **Author**: Create and read items and files, and modify and
-     delete items and files that you create.
-
-   - **Nonediting Author**: Create and read items and files, and
-     delete items and files that you create.
-
-   - **Contributor**: Create items and files only.
-
-   - **Reviewer**: Read items and files only.
-
-   - **Custom**: Perform activities defined by the folder owner.
-
-   - **None**: You have no permission. You cannot open the folder.
+  For a list of available roles and permissions, see [Public folder permissions for Exchange](/how-to/public-folder-permissions-for-exchange).
 
 ### Where to go from here
 
-[Manage public folders in the control panel for Hosted Exchange 2007 and
-2010](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010)
+[Manage public folders in the control panel for Hosted Exchange 2007 and 2010](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010)

@@ -17,7 +17,7 @@ cloud server images listed as available in your RackConnect v3.0-enabled
 cloud account are compatible with RackConnect v3.0. You can see the list
 of cloud server images available for your cloud account by using the
 [Cloud Servers
-API](http://docs.rackspace.com/servers/api/v2/cs-gettingstarted/content/list_images.html),
+API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server/list-images),
 or when you build a new cloud server in the [Cloud Control
 Panel](https://mycloud.rackspace.com/). RackConnect v3.0 is also
 compatible with all next generation Cloud Servers flavors, including

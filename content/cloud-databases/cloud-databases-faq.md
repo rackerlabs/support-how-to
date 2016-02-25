@@ -324,7 +324,7 @@ based on instance size.
 
 Release notes, API documentation, and a getting started guide for Cloud
 Databases are all available on the Rackspace [API Documentation
-site](http://docs.rackspace.com/api/).
+site](https://developer.rackspace.com/docs/).
 
 #### Are there API or account limits for my Cloud Database instances?
 
@@ -378,7 +378,7 @@ instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
 #### Do you support importing and exporting data into the database?
 
 You can use standard MySQL client tools to import data into and export
-data from your instance. Knowledge Center articles that detail the
+data from your instance. How-To articles that detail the
 processes
 of [importing](/how-to/importing-data-into-cloud-databases)
 or
@@ -541,4 +541,3 @@ Pricing information is available at [the Cloud Databases pricing
 page](http://www.rackspace.com/cloud/databases/pricing/). Standard
 charges apply for any Cloud Servers, Cloud Load Balancers, or Cloud
 Sites that are used to access your Cloud Database instances.
-

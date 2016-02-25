@@ -56,7 +56,7 @@ Your authentication token ID is sent within an `X-Auth-Token` header in
 your API calls. Details about obtaining your authentication token ID are
 located in the "Quick Start" section of the [Cloud Identity Client
 Developer
-Guide](http://docs.rackspace.com/auth/api/v2.0/auth-client-devguide/content/QuickStart-000.html).
+Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).
 
 You can use either one of the following combinations of credentials to
 obtain your authentication token ID:

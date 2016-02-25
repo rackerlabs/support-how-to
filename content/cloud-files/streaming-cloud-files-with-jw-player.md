@@ -58,7 +58,7 @@ From the *Cloud Control Panel*:
 3.  Click the "Publish to CDN" button to confirm.
 
 From *the API*, see [the API Dev Guide section, "CDN-Enable a
-Container"](http://docs.rackspace.com/files/api/v1/cf-devguide/content/PUT_enableDisableCDNcontainer_v1__account___container__CDN_Container_Services-d1e2632.html).
+Container"](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#cdn-enabling-the-container-and-setting-a-ttl).
 
 
 
@@ -124,6 +124,3 @@ This SCRIPT uses the following options:
             primary: 'flash'
         });
      </script>
-
-
-
