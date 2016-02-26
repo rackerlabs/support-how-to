@@ -15,7 +15,7 @@ Monitoring lets you:
 
 -   Set thresholds with an easy to use alarm language:
 
-        if (metrics['code'] != "200") {
+        if (metric['code'] != "200") {
           return CRITICAL, "Bad HTTP Status: #{code}"
         }
 
