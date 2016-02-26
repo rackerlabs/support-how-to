@@ -144,7 +144,7 @@ Scheduled Backup, on-demand backup and restore operations are currently supporte
 the Control Panel as well as the Cloud Databases API. For more information, please read the articles [Scheduled Backups for Cloud Databases](/how-to/scheduled-backups-for-cloud-databases) and 
 [Managing Backups for Cloud
 Databases](/how-to/managing-backups-for-cloud-databases).
-Alternately you can manage backup operations[via the Cloud Databases
+Alternately you can manage backup operations [via the Cloud Databases
 API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-api-operations/backups),
 or by using the [Trove command line tool
 (CLI)](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#install-the-trove-client).
