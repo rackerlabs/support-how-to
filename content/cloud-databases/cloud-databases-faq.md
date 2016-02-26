@@ -428,12 +428,12 @@ instance group.
 
 #### Can I create a backup of the High Availability instances?
 
-On-demand and Scheduled backups are both available for HA instance groups.
+On-demand and scheduled backups are both available for HA instance groups.
 
 #### Can I resize the RAM for my HA instances?
 
 Yes, HA instance groups can be resized. Resizes can only be applied to the entire group 
-and cannot be applied to individual instances.
+and cannot be applied to individual instances in the HA group.
 
 #### What is the underlying technology for creating HA Cloud Databases instances?
 
@@ -450,8 +450,8 @@ unavailable, an automatic failover is initiated to the replicas within
 
 #### What is the pricing for HA instances for Cloud Databases?
 
-HA instances carry a small premium per instance over regular Cloud Databases instances. 
-This additional cost covers the load balancer containers that are added for HA instance groups. 
+HA instances carry a small premium per instance over regular Cloud Databases instances and are charged per instance, similar to replica sets. 
+The additional cost per instance covers the load balancer containers that are added for HA instance groups. 
 You can find the latest pricing on the [Cloud Databases product page](https://www.rackspace.com/cloud/databases).
 
 #### Which databases are supported for HA instances for Cloud Databases?
@@ -483,7 +483,7 @@ We will be adding the ability to convert a single instance to an HA group at a l
 #### Can I monitor replication?
 
 Yes. You can monitor replication using the monitoring agent installed on
-the instance. For more information, see [Monitoring Read
+the instance. For more information, see [Database replication with Cloud Databases](how-to/database-replication-with-cloud-databases) and [Monitoring Read
 Replication](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-read-replication)
 in the API documentation.
 
