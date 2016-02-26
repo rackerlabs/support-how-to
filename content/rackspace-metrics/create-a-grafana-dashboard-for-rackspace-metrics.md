@@ -144,7 +144,7 @@ complete the following steps:
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-mysql-data.png" width="428" height="337" />
 
 #### (Optional) Use Annotation
-With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Use annotation support](https://support.rackspace.com/how-to/rackspace-metrics/use-annotation-support) for additional information. 
+With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Use annotation support](https://support.rackspace.com/how-to/rackspace-metrics/use-annotation-metrics) for additional information. 
 
 #### (Optional) Use Enum metrics
 
