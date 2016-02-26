@@ -273,7 +273,7 @@ database size are listed in the following table:
 
 Instances can be provisioned with up to 64GB of memory and up to 500GB
 of disk storage. You can increase storage up to the maximum using the
-[Cloud Control Panel](https://mycloud.rackspace.com/). Note that disk
+[Cloud Control Panel](https://mycloud.rackspace.com/). Storage beyond 500GB is supported and can be requested via a support ticket. Note that disk
 storage cannot be decreased on a running instance.
 
 #### Can I set up a read-only MySQL user in Cloud Databases?
@@ -450,7 +450,7 @@ unavailable, an automatic failover is initiated to the replicas within
 
 #### What is the pricing for HA instances for Cloud Databases?
 
-HA instances carry a small premium per instance over regular Cloud Databases instances and are charged per instance, similar to replica sets. 
+HA instances carry a small premium per instance over regular Cloud Databases instances and are charged per instance, similar to replica sets (i.e. An HA group with a master and one slave counts as two instances).
 The additional cost per instance covers the load balancer containers that are added for HA instance groups. 
 You can find the latest pricing on the [Cloud Databases product page](https://www.rackspace.com/cloud/databases).
 
