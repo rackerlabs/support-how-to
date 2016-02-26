@@ -181,7 +181,7 @@ instance is deleted, the mount point is destroyed.
 Backups are not deleted when an instance is deleted. You must manually
 remove any stored backups.
 
-#### Can I automate my regular backups?
+#### Can I automate my backups?
 
 Yes. With [scheduled backups](/how-to/scheduled-backups-for-cloud-databases) 
 you can set a time of day to take a daily backup and a day of week to take a full backup. 
