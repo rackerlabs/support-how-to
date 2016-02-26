@@ -208,9 +208,9 @@ Rackspace website.
 Monitoring is available for all Cloud Databases instances through
 pre-configured Cloud Monitoring checks, including load average, CPU,
 memory, disk storage, network, and a number of MySQL metrics. You can
-monitor your Cloud Databases instances using the[Cloud Control
+monitor your Cloud Databases instances using the [Cloud Control
 Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel),
-the[Cloud Monitoring
+the [Cloud Monitoring
 API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/),
 or the [Cloud Monitoring command-line
 tool](/how-to/getting-started-with-rackspace-monitoring-cli).
