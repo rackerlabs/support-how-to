@@ -61,30 +61,29 @@ The customer can use the existing Grafana support to visualize the enum data in 
 
 The following are the screen shots of steps to create dashboard based on enum values. Engineer is working on fixes to make it easier. We will update it once that is done.
 
- 1. Enter the metric name manually:
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-manually.png)
-
- 2. Click **Off** and the drop down option will appear:         
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-click-off.png)
-
- 3. Select a value:
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-select-value.png)
-
- 4. Click **duplicate** :
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-clickduplicate.png)
-
- 5. Select all values
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-selectall.png)
-
- 6. Change graph style to be bar chart, stack and 100%:
-
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png)
-
+    1. Enter the metric name manually:
+    
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-manually.png)
+    
+    2. Click **Off** and the drop down option will appear:         
+    
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-click-off.png)
+    
+    3. Select a value:
+    
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-select-value.png)
+    
+    4. Click **duplicate** :
+    
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-clickduplicate.png)
+    
+    5. Select all values
+    
+    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-selectall.png)
+    
+    6. Change graph style to be bar chart, stack and 100%:
+    
+     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png)
 
 ### FAQ
 
