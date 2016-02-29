@@ -5,8 +5,8 @@ title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-02-25'
+last_modified_by: Steve Croce
 product: Cloud Databases
 product_url: cloud-databases
 ---
@@ -15,9 +15,8 @@ product_url: cloud-databases
 
 #### Can I provision Cloud Databases if I don't have Cloud Servers, Cloud Load Balancers, or Cloud Sites on my account?
 
-Yes, but instances are provisioned only with network interfaces on their
-data center's internal service network (ServiceNet). Connecting to a
-Cloud Database instance remotely requires either a Cloud Server or Cloud
+Yes. [High availability instance groups](/how-to/high-availability-for-cloud-databases) allow for both internal connections on their
+data center's internal service network (ServiceNet) as well as external networks via a public IP/hostname. Single instances and replica sets are provisioned only with network interfaces on ServiceNet. Connecting to one of these types of Cloud Databases instances remotely requires either a Cloud Server or Cloud
 Load Balancer to [proxy the
 connection](/how-to/connect-to-a-cloud-databases-instance).
 
@@ -30,7 +29,7 @@ provides for increased performance, scalability, availability, and
 manageability. Applications with high I/O demands are
 performance-optimized and data is protected through both local and
 network RAID-10. Additionally, network RAID provides synchronous
-replication of volumes with automatic failover and load balancing across
+replication of volumes with automatic failover of SAN nodes and load balancing across
 available storage clusters.
 
 #### How is performance better than running a MySQL database on a Cloud Server?
@@ -48,7 +47,7 @@ Cloud Databases is a stand-alone, API-based, relational database service
 built on OpenStack&reg; cloud that allows Rackspace customers to easily
 provision and manage multiple MySQL database instances. Instances are
 provisioned in a single-tenant, container-based environment per account
-and are accessible via the Rackspace internal ServiceNet network. Each
+and are accessible via the Rackspace internal ServiceNet network or via a public IP (High Availability instances only). Each
 database instance is optimized for performance. You can run a database
 instance with MySQL, Percona, or MariaDB as the database technology.
 
@@ -59,8 +58,8 @@ high-performance, purpose-built infrastructure designed for relational
 databases backed and supported by engineers who specialize in MySQL
 workloads. Cloud Databases is a fully managed service for customers who
 want to focus on developing their applications and not worry about the
-underlying infrastructure. The service offers on demand backups and
-restores, integrated monitoring, redundant storage, scalability to grow
+underlying infrastructure. The service offers on high availability, scheduled backups, on-demand backups and
+restores, integrated monitoring, redundant storage, replication, scalability to grow
 based on your application needs, and full control of your database.
 
 #### What instance sizes do you currently support?
@@ -92,7 +91,7 @@ product resources.
 
 Yes. Click **Databases** in the [Cloud Control
 Panel](http://mycloud.rackspace.com/). Connecting to a Cloud Database
-instance remotely requires either a Cloud Server or Cloud Load Balancer
+instance remotely requires a [high availability instance group](/how-to/connect-to-a-cloud-databases-instance) with public IP, or a single/replica instance connected to either a Cloud Server or Cloud Load Balancer
 to [proxy the
 connection](/how-to/connect-to-a-cloud-databases-instance).
 
@@ -142,19 +141,14 @@ directly to your Cloud Files account for storage.
 
 #### Do you provide database backup and restore features?
 
-Manual backup and restore operations are currently supported from within
-the Control Panel. For more information, please read the article
+Scheduled Backup, on-demand backup and restore operations are currently supported from within
+the Control Panel as well as the Cloud Databases API. For more information, please read the articles [Scheduled Backups for Cloud Databases](/how-to/scheduled-backups-for-cloud-databases) and 
 [Managing Backups for Cloud
 Databases](/how-to/managing-backups-for-cloud-databases).
-Alternately you can manage backup operations[via the Cloud Databases
+Alternately you can manage backup operations [via the Cloud Databases
 API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-api-operations/backups),
 or by using the [Trove command line tool
 (CLI)](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#install-the-trove-client).
-
-Although Cloud Databases provides built-in data replication, as a best
-practice, we encourage our Cloud customers to back up their data using
-MySQL tools like mysqldump. Managed Operations Service Level customers
-can request assistance with backups from their support team.
 
 #### How long does a database backup take?
 
@@ -188,6 +182,12 @@ instance is deleted, the mount point is destroyed.
 Backups are not deleted when an instance is deleted. You must manually
 remove any stored backups.
 
+#### Can I automate my backups?
+
+Yes. With [scheduled backups](/how-to/scheduled-backups-for-cloud-databases) 
+you can set a time of day to take a daily backup and a day of week to take a full backup. 
+You can also specify the maximum number of full backups/weeks to retain.  
+
 ------------------------------------------------------------------------
 
 ### Monitoring and Troubleshooting
@@ -209,9 +209,9 @@ Rackspace website.
 Monitoring is available for all Cloud Databases instances through
 pre-configured Cloud Monitoring checks, including load average, CPU,
 memory, disk storage, network, and a number of MySQL metrics. You can
-monitor your Cloud Databases instances using the[Cloud Control
+monitor your Cloud Databases instances using the [Cloud Control
 Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel),
-the[Cloud Monitoring
+the [Cloud Monitoring
 API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/),
 or the [Cloud Monitoring command-line
 tool](/how-to/getting-started-with-rackspace-monitoring-cli).
@@ -274,7 +274,7 @@ database size are listed in the following table:
 
 Instances can be provisioned with up to 64GB of memory and up to 500GB
 of disk storage. You can increase storage up to the maximum using the
-[Cloud Control Panel](https://mycloud.rackspace.com/). Note that disk
+[Cloud Control Panel](https://mycloud.rackspace.com/). Storage beyond 500GB is supported and can be requested via a support ticket. Note that disk
 storage cannot be decreased on a running instance.
 
 #### Can I set up a read-only MySQL user in Cloud Databases?
@@ -325,7 +325,7 @@ based on instance size.
 
 Release notes, API documentation, and a getting started guide for Cloud
 Databases are all available on the Rackspace [API Documentation
-site](http://docs.rackspace.com/api/).
+site](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
 
 #### Are there API or account limits for my Cloud Database instances?
 
@@ -348,12 +348,13 @@ protected on a redundant SAN.
 
 Cloud Databases provides several options for connecting to your
 database, giving you complete flexibility in how you access your
-database. For increased security, your database is available only on the
-Rackspace private network by default. However, you can connect to your
-database by using several methods described at the following links:
+database. You can connect to your database by using several methods described at the 
+following links:
+
+[Public and private access with High Availability Groups](/how-to/high-availability-for-cloud-databases)
 
 [Public and private access for Cloud
-Databases](/how-to/public-and-private-access-for-cloud-databases)
+Databases Instances](/how-to/public-and-private-access-for-cloud-databases)
 
 [Connect to a Cloud Databases
 instance](/how-to/connect-to-a-cloud-databases-instance)
@@ -379,7 +380,7 @@ instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
 #### Do you support importing and exporting data into the database?
 
 You can use standard MySQL client tools to import data into and export
-data from your instance. Knowledge Center articles that detail the
+data from your instance. How-To articles that detail the
 processes
 of [importing](/how-to/importing-data-into-cloud-databases)
 or
@@ -428,16 +429,12 @@ instance group.
 
 #### Can I create a backup of the High Availability instances?
 
-Currently backups, resizes, and custom configurations cannot be
-performed for instances that are part of the HA setup. Backups and
-incremental backups can be created for the HA group rather than an
-individual instance.
+On-demand and scheduled backups are both available for HA instance groups.
 
 #### Can I resize the RAM for my HA instances?
 
-Resizing is not currently supported for HA instances for Cloud
-Databases. Rackspace will start supporting resizing for HA instances in
-a future release.
+Yes, HA instance groups can be resized. Resizes can only be applied to the entire group 
+and cannot be applied to individual instances in the HA group.
 
 #### What is the underlying technology for creating HA Cloud Databases instances?
 
@@ -454,9 +451,9 @@ unavailable, an automatic failover is initiated to the replicas within
 
 #### What is the pricing for HA instances for Cloud Databases?
 
-For the product introduction, Rackspace is charging the same price for
-HA instances as for single instances for a limited time. In the future,
-there will be an increase in the price of HA instances.
+HA instances carry a small premium per instance over regular Cloud Databases instances and are charged per instance, similar to replica sets (i.e. An HA group with a master and one slave counts as two instances).
+The additional cost per instance covers the load balancer containers that are added for HA instance groups. 
+You can find the latest pricing on the [Cloud Databases product page](https://www.rackspace.com/cloud/databases).
 
 #### Which databases are supported for HA instances for Cloud Databases?
 
@@ -475,6 +472,11 @@ of replicas that can be added to the HA group.
 See the article [High Availability for Cloud
 Databases](/how-to/high-availability-for-cloud-databases).
 
+#### Can I convert regular instances to High Availability Instances?
+
+Yes. Today, you can convert replica sets to HA groups via the API or control panel. 
+We will be adding the ability to convert a single instance to an HA group at a later date.
+
 ------------------------------------------------------------------------
 
 ### Replication
@@ -482,7 +484,7 @@ Databases](/how-to/high-availability-for-cloud-databases).
 #### Can I monitor replication?
 
 Yes. You can monitor replication using the monitoring agent installed on
-the instance. For more information, see [Monitoring Read
+the instance. For more information, see [Database replication with Cloud Databases](how-to/database-replication-with-cloud-databases) and [Monitoring Read
 Replication](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-read-replication)
 in the API documentation.
 
@@ -515,6 +517,8 @@ replica instances. For manual failover, you must detach the replica from
 the source instance and change the application endpoint to this new
 source database instance.
 
+If you're interested in auto failover, take a look at our High Availability instances
+
 #### Is replication supported for all database types?
 
 Replication is supported for MySQL 5.6, Percona 5.6, and MariaDB 10. We
@@ -542,4 +546,3 @@ Pricing information is available at [the Cloud Databases pricing
 page](http://www.rackspace.com/cloud/databases/pricing/). Standard
 charges apply for any Cloud Servers, Cloud Load Balancers, or Cloud
 Sites that are used to access your Cloud Database instances.
-

@@ -11,9 +11,9 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-**Note:** Be sure to set up your [authentication token](/how-to/cloud-queues-curl-cookbook) before following the steps to create a queue by submitting an API request from the terminal. 
+**Note:** Be sure to set up your [authentication token](/how-to/cloud-queues-curl-cookbook) before following the steps to create a queue by submitting an API request from the terminal.
 
-Use the following procedures to get queue statistics, including the number of messages that exist in the queue, and the number of messages for each message status. 
+Use the following procedures to get queue statistics, including the number of messages that exist in the queue, and the number of messages for each message status.
 
 ### Monitoring through the API
 
@@ -68,4 +68,4 @@ You can view statistics for a queue in the Cloud Control Panel.
 
 **Note:** If total is 0, the display does not include statistics for *oldest* and *newest* messages.
 
-You can find more developer information in the [Getting Started Guide](http://docs.rackspace.com/queues/api/v1.0/cq-gettingstarted/content/DB_Overview.html) and [API Developer Guide for Cloud Queues](http://docs.rackspace.com/queues/api/v1.0/cq-devguide/content/overview.html).
+You can find more developer information in the [Getting Started Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started) and [API Developer Guide for Cloud Queues](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-developer-guide).

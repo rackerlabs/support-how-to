@@ -136,7 +136,7 @@ functionality, there are 3 options:
     work with metadata, and more. See the [Python Nova Client command reference](/how-to/useful-python-novaclient-commands)
     for more information.
 2.  Use the Cloud Servers API to specify your server's metadata. The
-    [Cloud Servers Developer Guide](http://docs.rackspace.com/servers/api/v2/cs-devguide/content/Create_or_Replace_Metadata-d1e5358.html)
+    [Cloud Servers Developer Guide](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#set-server-metadata)
     provides instructions on how to do this.
 3.  Enlist your Rackspace Support team by phone or ticket to make these
     changes on your behalf.

@@ -41,8 +41,8 @@ migrations.
 
 1.  [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
 2.  [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
-3.  [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
-4.  [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version-0)
+3.  [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100)
+4.  [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version)
 
 Our normal [Cloud Sites SLA](http://www.rackspace.com/information/legal/cloud/sla) applies for
 potential downtime. If you have any questions, please reach out to our

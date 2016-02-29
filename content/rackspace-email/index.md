@@ -20,7 +20,7 @@ Welcome to Rackspace Email! Use this brief step-by-step guide to help you get st
 ###  Control Panel basics
 
 - [Create a Rackspace Email mailbox](/how-to/add-rackspace-email-mailboxes)
-- [Create an Exchange mailbox](/how-to/adding-microsoft-exchange-mailboxes-0)
+- [Create an Exchange mailbox](/how-to/adding-microsoft-exchange-mailboxes)
 - [Rackspace Email mailbox features](/how-to/rackspace-email-mailbox-features)
 - [Exchange Email mailbox features](/how-to/exchange-email-mailbox-features)
 

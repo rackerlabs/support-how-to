@@ -15,7 +15,7 @@ The following permissions matrix displays specific permissions for the roles in 
 
 [API Documentation](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-reference)
 
-[Related Knowledge Center Articles](/how-to/)
+[Related How-To Articles](/how-to/)
 
 [Cloud Networks Terminology](/how-to/permissions-matrix-for-cloud-networks)
 

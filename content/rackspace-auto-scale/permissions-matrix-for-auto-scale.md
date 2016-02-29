@@ -13,7 +13,7 @@ product_url: rackspace-auto-scale
 
 [API Documentation](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/)
 
-[Related Knowledge Center Articles](/how-to/rackspace-auto-scale-overview)
+[Related How-To Articles](/how-to/rackspace-auto-scale-overview)
 
 As of November 11, 2013
 

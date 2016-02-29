@@ -13,7 +13,7 @@ product_url: undefined
 
 ### Previous section
 
-[Getting Started with RBAC](/how-to/getting-started-with-role-based-access-control-rbac-0)  
+[Getting Started with RBAC](/how-to/getting-started-with-role-based-access-control-rbac)  
 
 This guide is designed to get administrators started with Role-Based
 Access Control (RBAC) and to answer questions about the service.

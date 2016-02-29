@@ -19,7 +19,7 @@ supported.
 **[Rackspace Monitoring Developer
 Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)**
 
-**[Related Knowledge Center
+**[Related How-To
 Articles](/how-to/)**
 
 **[Rackspace Monitoring Terminology](#monitoring)**

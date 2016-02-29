@@ -32,7 +32,7 @@ The following concepts will help you in getting started quickly:
     Windows and Linux servers will be accessible through a web console
     from our Control Panel as well.
 -   Customers can manage Cloud Servers through the [Control Panel](https://manage.rackspacecloud.com), or an
-    [API](http://docs.rackspace.com)(Application Programming Interface).
+    [API](https://developer.rackspace.com/docs/)(Application Programming Interface).
 -   The hardware that hosts your Cloud Server can be located
     in: Dallas/Ft. Worth, TX - Chicago, IL - or in London, England
     ([UK](http://www.rackspace.co.uk/cloud-hosting/cloud-products/cloud-servers/)).

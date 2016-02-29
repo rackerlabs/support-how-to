@@ -1,14 +1,14 @@
 ---
 permalink: deploying-rackspace-metrics/
 node_id: 4553
-title: Deploying Rackspace Metrics
+title: Integrate StatsD with Rackspace Metrics
 type: article
 created_date: '2015-02-05'
 created_by: Constanze Kratel
 last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
-product: Rackspace Monitoring
-product_url: cloud-monitoring
+product: Rackspace Metrics
+product_url: rackspace-metrics
 ---
 
 To deploy the Rackspace Metrics service, you first need to complete the

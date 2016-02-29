@@ -97,7 +97,7 @@ preparing the image for upload.
 ### Using the Python-Novaclient to Check Server Task State
 
 The python-novaclient is a handy program you can run from the command
-line.  If you haven't used it before, here are some Knowledge Center
+line.  If you haven't used it before, here are some How-To
 articles to check out:
 
 -   [Installing python-novaclient on Linux and Mac

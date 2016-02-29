@@ -1,7 +1,7 @@
 ---
 permalink: migrating-a-net-application-from-amazon-web-services/
 node_id: 3587
-title: Migrating a .NET application from Amazon Web Services
+title: Migrate a .NET application from Amazon Web Services
 type: article
 created_date: '2013-07-02'
 created_by: Rackspace Support
@@ -11,13 +11,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+
 This article describes the migration of a .NET web application from
 Amazon Web Services (AWS) to Rackspace Cloud. It takes an estimated 30
 minutes to complete, if you follow the instructions step by step.
-
-### Previous section
-
-[Provisioning cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 The topology of the application in this scenario is represented in the
 following figure:
@@ -42,25 +40,24 @@ following figure:
 
 1.  Install the Rackspace Cloud Files client as follows:
 
-    A.  Connect to the AWS instance by using Remote Desktop Connection.
+    1.  Connect to the AWS instance by using Remote Desktop Connection.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-6.png" width="434" height="496" />
+        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-6.png" width="434" height="496" />
 
-    B.  After you are connected, install a client that you will use to back up data to Rackspace Cloud Files (for example, [Cyberduck](/how-to/configuring-rackspace-cloud-files-with-cyberduck), available at <http://cyberduck.ch/>). You can use any browser to download the client.
+    2.  After you are connected, install a client that you will use to back up data to Rackspace Cloud Files (for example, [Cyberduck](/how-to/configuring-rackspace-cloud-files-with-cyberduck), available at <http://cyberduck.ch/>). You can use any browser to download the client.
 
-    C.  Create a connection to Rackspace Cloud Files by using your Rackspace account user name and API key. You will use this connection to back up data during the migration steps.
+    3.  Create a connection to Rackspace Cloud Files by using your Rackspace account user name and API key. You will use this connection to back up data during the migration steps.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-7.png" width="512" height="328" />
+        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2-7.png" width="512" height="328" />
 
-
-2.  Install IIS 8 by using the instructions located <http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012> .
+2.  Install IIS 8 by using the instructions located at <http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012> .
 
 ### Back up data from AWS to Rackspace Cloud Files
 
 Using the client that you installed in the preceding section (for
 example, [Cyberduck](/how-to/configuring-rackspace-cloud-files-with-cyberduck)),
 upload the .NET project folder to the Rackspace Cloud Files container
-that you created in the article [Provisioning cloud resources when migrating from Amazon Web Services](http://www.rackspace.com/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).
+that you created in the article [Provision cloud resources when migrating from Amazon Web Services](http://www.rackspace.com/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).
 
 ### Restore data from Cloud Files to Cloud Servers
 
@@ -79,12 +76,12 @@ that you created in the article [Provisioning cloud resources when migrating fro
 
 Click on **Browse \*:80 (http)** to see the application in the browser.
 
-### Next steps
+### Next step
 
 [Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
--   [Migrating an application built on a LAMP stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
--   [Migrating a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
--   [Migrating an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+-   [Migrate an application built on a LAMP stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
+-   [Migrate a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+-   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)

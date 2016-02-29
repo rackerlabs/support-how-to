@@ -17,7 +17,7 @@ corresponding RESTful API commands, and the roles that are supported.
 
 **[API Documentation](http://developer.rackspace.com)**
 
-**[Related Knowledge Center
+**[Related How-To
 Articles](/how-to/)**
 
 

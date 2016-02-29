@@ -129,7 +129,7 @@ You can view and create alarms from a check's details page.
 
     The language used to define criteria for alarms is documented in the
     [Alert Triggering and
-    Alarms](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types-agent.html)
+    Alarms](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-tech-ref-info/alert-triggers-and-alarms)
     section of the Cloud Monitoring API documentation. Clicking Example
     Alarm under the criteria field will let you view example criteria
     for the check.

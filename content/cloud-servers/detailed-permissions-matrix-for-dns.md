@@ -78,6 +78,6 @@ Subdomains are domains within a parent domain, and subdomains cannot be register
 ### Related articles
 
 -  [API Documentation](http://docs.rackspace.com/)
--  [Related Knowledge Center Articles](/how-to/)
+-  [Related How-To Articles](/how-to/)
 -  [Cloud DNS Terminology](/how-to/detailed-permissions-matrix-for-dns)
 -  [Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)

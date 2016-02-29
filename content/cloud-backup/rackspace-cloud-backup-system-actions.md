@@ -136,4 +136,4 @@ verify that this is your intention.
 
 ### Next steps
 
-[Cloud Backup preferences](/how-to/rackspace-cloud-backup-preferences-0)
+[Cloud Backup preferences](/how-to/rackspace-cloud-backup-preferences)

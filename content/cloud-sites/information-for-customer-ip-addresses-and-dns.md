@@ -31,7 +31,7 @@ product_url: cloud-sites
     technology, please reference
     [MSSQL](/how-to/information-for-ms-sql-changes)
     or
-    [MySQL](/how-to/information-for-mysql-users-mariadb-100-0)
+    [MySQL](/how-to/information-for-mysql-users-mariadb-100)
     for more information.
 
 -   Test links for websites will be changing to reflect their
@@ -98,7 +98,7 @@ the maintenance. What could have occurred?**
 
 -   External database management IPs will be changing. Based on
     your technology, please
-    reference [MSSQL](/how-to/information-for-ms-sql-changes) or [MySQL](/how-to/information-for-mysql-users-mariadb-100-0) for
+    reference [MSSQL](/how-to/information-for-ms-sql-changes) or [MySQL](/how-to/information-for-mysql-users-mariadb-100) for
     more information
 
 **My test links stopped working after the maintenance. What occurred?**
@@ -111,5 +111,5 @@ the maintenance. What could have occurred?**
 -   [Important scheduled maintenance: DFW environment migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
 -   [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
 -   [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
--   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
--   [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version-0)
+-   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100)
+-   [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version)

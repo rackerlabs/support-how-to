@@ -66,7 +66,7 @@ Github repository. All issues addressed in this package update can be
 found at [the RCBOPS Github repository](https://github.com/rcbops).
 
 The Rackspace Private Cloud Software *Getting Started Guide*, the *CLI
-and API Guide*, and the Knowledge Center content have been updated to
+and API Guide*, and the Rackspace How-To content have been updated to
 reflect these changes.
 
 -   The `--role` flag has been implemented in the installation
@@ -145,6 +145,3 @@ reflect these changes.
 
 -   Issues that could prevent a successful host evacuation have
     been resolved. (opencenter-agent issues \#203, \#204)
-
-
-

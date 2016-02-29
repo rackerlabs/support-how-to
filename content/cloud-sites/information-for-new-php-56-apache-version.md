@@ -143,4 +143,4 @@ made fully available, at which point they will be updated. SSL will be unavailab
 -   [Important scheduled maintenance: DFW environment migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
 -   [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
 -   [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
--   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
+-   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100)

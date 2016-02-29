@@ -57,7 +57,7 @@ support channels.
     If you already know what you are looking for, the easiest way
     to find it is to enter keywords in the "Search our Support Network" bar at the top.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-KC.png)
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-sites/cloud-sites-fanatical-support-how-to.png)
 
 -   **Tickets** - the best way to communicate with
     our Support Technicians and provide specific details about a problem

@@ -26,7 +26,7 @@ product_url: cloud-backup
 
 ###  Creating a Backup
 
-- [How to Create a Backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
+- [How to Create a Backup](/how-to/rackspace-cloud-backup-create-a-backup)
 
 ###  Backup Information
 
@@ -35,12 +35,12 @@ product_url: cloud-backup
 
 ###  Backup Actions Menu
 
-- [Perform Backup from the Backup Actions Menu](/how-to/rackspace-cloud-backup-backup-actions-0#performbackup)
-- [Restore from Backup from Backup Actions Menu](/how-to/rackspace-cloud-backup-backup-actions-0#restorebackup)
-- [Configure a Backup - Change the the settings of a Backup schedule](/how-to/rackspace-cloud-backup-backup-actions-0#configurebackup)
-- [Configure Files - Choose the files for a Backup](/how-to/rackspace-cloud-backup-backup-actions-0#configurefiles)
-- [Disable Backup - Prevent a single Backup from running](/how-to/rackspace-cloud-backup-backup-actions-0#disablebackup)
-- [Delete Backup - Remove a single Backup](/how-to/rackspace-cloud-backup-backup-actions-0#deletebackup)
+- [Perform Backup from the Backup Actions Menu](/how-to/rackspace-cloud-backup-backup-actions#performbackup)
+- [Restore from Backup from Backup Actions Menu](/how-to/rackspace-cloud-backup-backup-actions#restorebackup)
+- [Configure a Backup - Change the the settings of a Backup schedule](/how-to/rackspace-cloud-backup-backup-actions#configurebackup)
+- [Configure Files - Choose the files for a Backup](/how-to/rackspace-cloud-backup-backup-actions#configurefiles)
+- [Disable Backup - Prevent a single Backup from running](/how-to/rackspace-cloud-backup-backup-actions#disablebackup)
+- [Delete Backup - Remove a single Backup](/how-to/rackspace-cloud-backup-backup-actions#deletebackup)
 
 ###  System Actions Menu
 
@@ -53,4 +53,4 @@ product_url: cloud-backup
 
 ###  Preferences
 
-- [Preferences - Set Account Notification Preferences](/how-to/rackspace-cloud-backup-preferences-0)
+- [Preferences - Set Account Notification Preferences](/how-to/rackspace-cloud-backup-preferences)

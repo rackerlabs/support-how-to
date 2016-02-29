@@ -80,7 +80,7 @@ approximately only 2k IOPS.
 
 ### Work-optimized server types
 
-**I/O-optimized **servers are assigned networking resources and use
+**I/O-optimized** servers are assigned networking resources and use
 local high-speed SSD drives for storage. I/O-optimized servers work best
 for applications that require frequent or sustained disk access, like
 databases.

@@ -79,7 +79,7 @@ operating system and its configuration. When you provision a Cloud
 Server, you will be given a server with unrestricted access. The Managed
 Infrastructure support team will not assist in the installation of
 software or troubleshooting any kind of issue related to the software
-installed. We have some articles in the Knowledge Center covering basic
+installed. We have some articles in Rackspace How-To covering basic
 installation of common applications. We also have community forums where
 you can share tips and tricks with other customers.
 
@@ -202,7 +202,7 @@ support that you need to get the most out of the Cloud.
     Rackspace Community is always open. Use the forum to get your
     questions answered by a Racker.
 -   Do you have a quick question that you can't find an answer for in
-    the Knowledge Center? Open Chat and talk with our Fanatical Support&reg;
+    Rackspace How-To? Open Chat and talk with our Fanatical Support&reg;
     staff anytime, 24x7x365.
 -   Do you have a specialized Service Request or are you experiencing a
     problem with our service? Open a ticket. From the Rackspace [Cloud Control Panel](http://mycloud.rackspace.com/), select **Support
@@ -231,7 +231,7 @@ your Cloud Servers. Read this article for [detailed information on using the Rac
 #### How do I get reverse DNS setup for my Cloud Server?
 
 You can setup reverse DNS from your control panel. This article will
-show you how: [Create a reverse DNS record.](/how-to/create-a-reverse-dns-record-0)
+show you how: [Create a reverse DNS record.](/how-to/create-a-reverse-dns-record)
 
 #### Is there a throughput limit on my server's network interface card?
 

@@ -19,8 +19,7 @@ Public folders can contain contacts, calendar items, messages, journal
 entries, or notes.
 
 This article provides instructions for working with public folders in a
-[hosted Microsoft
-Exchange](http://www.rackspace.com/email-hosting/hosted-exchange/)
+[hosted Microsoft Exchange](http://www.rackspace.com/email-hosting/hosted-exchange/)
 environment:
 
 
@@ -52,7 +51,7 @@ Outlook and Entourage.
 
 2. In the navigation pane, click the **Folder List** icon.
 
-3. Expand **Public Folders** &gt; **All Public Folders**, the root
+3. Expand **Public Folders > All Public Folders**, the root
    folder, and your domain.
 
 #### Outlook 2011 for Mac
@@ -96,22 +95,11 @@ how much access others have to that folder.
 
 4. Select the permission type that will work best for the user.
 
-| Role              | Permission                                                                                                                                   |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Owner             | Create, read, modify, and delete all items and files. Create subfolders. Change the permission levels that other people have for the folder. |
-| Publishing Editor | Create, read, modify, and delete all items and files. Create subfolders.                                                                     |
-| Editor            | Create, read, modify, and delete all items and files.                                                                                        |
-| Publishing Author | Create and read items and files. Create subfolders. Modify and delete items and files that you create.                                       |
-| Author            | Create and read items and files. Modify and delete items and files that you create.                                                          |
-| Nonediting Author | Create and read items and files. Delete items and files that you create.                                                                     |
-| Contributor       | Create items and files only.                                                                                                                 |
-| Reviewer          | Read items and files only.                                                                                                                   |
-| Custom            | Perform activities defined by the folder owner.                                                                                              |
-| None              | You have no permission. You cannot open the folder.                                                                                          |
-                                                                                                                                                       
+  For a list of available roles and permissions, see [Public folder permissions for Exchange](/how-to/public-folder-permissions-for-exchange).
 
-**Note:** You might see a several groups on the **Permissions** tab.
-That is normal. It is important to leave these groups intact so that we
-can help you if you need help. There are also two special groups called
-**FolderAdmins** and **FolderUsers**. These groups allow you to set permissions
-for all of your public folder administrators or users at once.
+  **Note:** You might see a few groups on the **Permissions** tab, and
+  that is normal. It is important to leave these groups intact so that we
+  can help you if you need help. There are also two special groups
+  called **FolderAdmins** and **FolderUsers**. These groups allow you to
+  set permissions for all of your public folder administrators or users at
+  once.

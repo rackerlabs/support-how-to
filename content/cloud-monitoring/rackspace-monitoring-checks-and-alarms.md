@@ -45,7 +45,7 @@ Each check and alarm has selectable options.
 
 The checks are defined below. For the official definitions, see the
 Rackspace Monitoring Developer guide [Available Check Types and
-Fields.](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types.html "Check type documentation")
+Fields.](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-tech-ref-info/check-type-reference)
 Please note, only those checks listed below are available through the
 control panel. Checks not available in the control panel are noted.
 

@@ -21,7 +21,6 @@ Cloud Feeds: Observer | &nbsp; | GET
 Admin | &nbsp; | &nbsp;
 Observer | &nbsp; | &nbsp;
 Identity: User-Admin | &nbsp; |&nbsp;
-Identity: Admin | &nbsp; | &nbsp;
 Any other users with just valid token, irrespective of the role | &nbsp; | &nbsp;
 
 **Note:** Beginning January 20, users must have one of the cloudfeeds roles to access feeds (read or write).

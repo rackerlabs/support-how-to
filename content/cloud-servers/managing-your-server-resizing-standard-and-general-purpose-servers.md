@@ -24,7 +24,7 @@ resized up or down. General Purpose Servers can only be resized up.
 -   To allow you to easily scale your server by increasing the amount of
     Disk Space and RAM on your server, click the **Resize** button.
 
-  ![](http://c765420.r20.cf2.rackcdn.com/8_Resizenew.png)
+    ![](http://c765420.r20.cf2.rackcdn.com/8_Resizenew.png)
 
 -   You will see a pop-up window listing your server size options. Each
     server size has a different hourly cost for uptime, and the new cost
@@ -33,7 +33,7 @@ resized up or down. General Purpose Servers can only be resized up.
     within a given billing cycle. Press the **Resize Server** button
     to begin.
 
-  ![](http://c765420.r20.cf2.rackcdn.com/9_ResizeProcessnew.png)
+    ![](http://c765420.r20.cf2.rackcdn.com/9_ResizeProcessnew.png)
 
 -   Next you will choose your new **Server Size**. Each server size has
     a different hourly cost for uptime, and the new cost goes into
@@ -58,7 +58,7 @@ resized up or down. General Purpose Servers can only be resized up.
     was successful, as certain server processes may be suspended while
     the resize is waiting to be verified.
 
-  ![](http://c765420.r20.cf2.rackcdn.com/14_ConfirmRollbacknew.png)
+    ![](http://c765420.r20.cf2.rackcdn.com/14_ConfirmRollbacknew.png)
 
 -   For a Linux server, you can SSH to either the public or private IP
     address and run the commands 'df -h' (Hard Disk usage) and 'free -m'
@@ -66,11 +66,11 @@ resized up or down. General Purpose Servers can only be resized up.
     that my server, which previously had 10 GB of HD space and 256 MB of
     RAM, now has 20 GB of HD space and 500 MB of RAM.
 
-    **NOTE:** For a Windows server, there are additional steps required
+    **Note:** For a Windows server, there are additional steps required
     to use the additional space after a resize.  Please follow the
     instructions from this article: [Adding Disk Space After Resizing a Windows Server 2012 Cloud Server](/how-to/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server)
 
-  ![](http://c765420.r20.cf2.rackcdn.com/15_VerifyResizeSSH.png)
+    ![](http://c765420.r20.cf2.rackcdn.com/15_VerifyResizeSSH.png)
 
 -   Now that you've verified the system resources and checked your
     filesystems, you can choose to **Confirm** the resize

@@ -10,6 +10,7 @@ last_modified_by: Mike Asthalter
 product: Cloud Databases
 product_url: cloud-databases
 ---
+This article describes three methods for connecting to your Cloud Databases instance. 
 
 ### Connect through a cloud server by using SSH and the hostname
 

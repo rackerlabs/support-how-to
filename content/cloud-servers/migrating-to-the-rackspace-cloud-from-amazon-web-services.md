@@ -25,17 +25,15 @@ involved in changing hosting environments.
 
 The guide's organization is as follows:
 
--   1 - Overview (this document)
--   2 - [Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
--   3 - [High-level steps for migrating from Amazon Web Services](/how-to/high-level-steps-for-migrating-from-amazon-web-services)
--   4 - [Provisioning cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
-    -   4.1 - [Migrating an Application Built on a LAMP Stack](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
-    -   4.2 - [Migrating a .NET application](/how-to/migrating-a-net-application-from-amazon-web-services)
-    -   4.3 - [Migrating a Java Web Application](/how-to/migrating-a-java-web-application-from-amazon-web-services)
--   5 - [Post-Migration Considerations When Migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
-
-If you have any feedback be sure to post in a comment or [contact our Support team](/how-to/support) 24
-hours a day, 7 days a week.
+- Overview (this document)
+- [Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
+- [High-level steps for migrating from Amazon Web Services](/how-to/high-level-steps-for-migrating-from-amazon-web-services)
+- [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+  - [Migrate an application built on a LAMP stack](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
+  - [Migrate a .NET application](/how-to/migrating-a-net-application-from-amazon-web-services)
+  - [Migrate a Java web application](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+  - [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+- [Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 ### Next section
 

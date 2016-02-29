@@ -117,5 +117,5 @@ NEW phpMyAdmin URL
 -   [Important scheduled maintenance: DFW environment migration](/how-to/important-scheduled-maintenance-dfw-environment-migration)
 -   [Information for Customer IPs & DNS](/how-to/information-for-customer-ip-addresses-and-dns)
 -   [Information for MS SQL changes](/how-to/information-for-ms-sql-changes)
--   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100-0)
--   [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version-0)
+-   [Information for MySQL Users (MariaDB 10.0)](/how-to/information-for-mysql-users-mariadb-100)
+-   [Information for new PHP 5.6 & Apache version](/how-to/information-for-new-php-56-apache-version)

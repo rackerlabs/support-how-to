@@ -1,7 +1,7 @@
 ---
 permalink: provisioning-cloud-resources-when-migrating-from-amazon-web-services/
 node_id: 3572
-title: Provisioning cloud resources when migrating from Amazon Web Services
+title: Provision cloud resources when migrating from Amazon Web Services
 type: article
 created_date: '2013-07-02'
 created_by: Rackspace Support
@@ -11,12 +11,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+**Previous section:** [High-level steps for migrating from Amazon Web Services](/how-to/high-level-steps-for-migrating-from-amazon-web-services)
+
 This article describes how to provision your Rackspace Cloud services when migrating from Amazon Web Services (AWS).
-
-### Previous section
-[High-level steps for migrating from Amazon Web Services](/how-to/high-level-steps-for-migrating-from-amazon-web-services)
-
-Perform the following procedures to provision and configure your cloud instances:
 
 ### Provision a new cloud server
 
@@ -34,11 +31,11 @@ Perform the following procedures to provision and configure your cloud instances
 
    For information about instance size mapping, see [Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources).
 
-	**Note**: You can add more storage to your cloud server after it is created by adding a Cloud Block Storage volume. For instructions, see the Add Cloud Block Storage section later in this article.
+   **Note**: You can add more storage to your cloud server after it is created by adding a Cloud Block Storage volume. For instructions, see the "Add a Cloud Block Storage volume" section later in this article.
 
 6. When your root admin password is displayed, copy the password to a secure location, and then click **Dismiss Password**.
 
-  **Note**: It is important that you copy and save your root admin password for future reference. You need this password to log in to your server. After you click **Dismiss Password**, the password will not be displayed again.
+    **Note**: It is important that you copy and save your root admin password for future reference. You need this password to log in to your server. After you click **Dismiss Password**, the password will not be displayed again.
 
 ### Create a custom password (optional)
 
@@ -48,7 +45,7 @@ You can create a custom password for you server.
 
 2. Enter a new password and click **Change Password**.
 
-### Add a Cloud Block Storage (optional)
+### Add a Cloud Block Storage volume (optional)
 
 If you had additional Amazon Elastic Book Store (EBS) volumes attached to your server, or if you prefer to have more storage space for your server, add additional Cloud Block Storage volumes as follows:
 
@@ -92,7 +89,7 @@ If you will not be setting up your own database server, create a Cloud Databases
 
 6. *(Optional)* Add your first database by assigning it a name, user name, and password.
 
-   **Note:** You cannot name your user as root.
+    **Note:** You cannot name your user as root.
 
 7. Click **Create Instance**.
 
@@ -114,8 +111,7 @@ If you will not be setting up your own database server, create a Cloud Databases
 
 After your Rackspace Cloud services are provisioned, you can build your applications and transfer your data from AWS. The following articles provide detailed descriptions of migration scenarios:
 
-- Applications built on a LAMP stack - [Migrating an Application Built on a LAMP Stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
-
-- .NET applications - [Migrating a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
-
-- Java web applications [Migrating a Java Web Application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+- [Migrate an application built on a LAMP stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
+- [Migrate a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
+- [Migrate a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+- [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)

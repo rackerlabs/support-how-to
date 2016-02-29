@@ -18,7 +18,7 @@ by web clients.
 ### How do I enable content caching?
 
 Content caching can be enabled through our [Cloud Load Balancers
-API](http://docs.rackspace.com/loadbalancers/api/v1.0/clb-devguide/content/index.html) or
+API](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/) or
 the [Cloud Control Panel](https://mycloud.rackspace.com).
 
 Content caching can be enabled or disabled for a load balancer in the
@@ -128,6 +128,3 @@ the following to your apache config:
 Replace the extensions in the &ldquo;ico|flv|jpg|jpeg&rdquo; section with the
 extensions for which you want to bypass caching, making sure to put a
 &ldquo;|&rdquo; character between each extension.
-
-
-
