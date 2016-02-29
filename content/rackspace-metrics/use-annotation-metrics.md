@@ -1,14 +1,14 @@
-+---
-+title: Use annotation metrics
-+type: article
-+created_date: '2016-02-23'
-+created_by: Kyle Laffoon
-+last_modified_date: '2016-02-25'
-+last_modified_by: Kyle Laffoon
-+product: Rackspace Metrics
-+product_url: rackspace-metrics
-+---
-+
+---
+title: Use annotation metrics
+type: article
+created_date: '2016-02-23'
+created_by: Kyle Laffoon
+last_modified_date: '2016-02-25'
+last_modified_by: Kyle Laffoon
+product: Rackspace Metrics
+product_url: rackspace-metrics
+---
+
 Grafana is a popular and beautiful dashboard tool for IT Ops. Rackspace Metrics is designed to meet the functional and performance requirements of enterprise-scale metrics. By integrating with Grafana, Rackspace Metrics changes the cost-structure of metrics collection by replacing the storage component without changing the users' workflow.
 
 With the annotation pushed to Rackspace Metrics showing up in Grafana dashboard, customers can now gain insight into the events that might be the cause of the changes in the performance graph.
@@ -41,13 +41,13 @@ Annotation is submitted through /events API end point:
 
     > date +%s
     1452101351
-     
+
     > date -j +%s -f "%a %b %d %T %Z %Y" "Mon Jan  4 12:43:57 PST 2016"
     1451940237
-     
+
     > date -j -f "%m/%d/%Y %T %Z" "01/04/2016 12:43:57 PST" +%s
     1451940237
-     
+
     > date -r 1451940237
     Mon Jan  4 12:43:57 PST 2016
 
@@ -82,7 +82,7 @@ If you prefer to use the API command to retreive your annotation, use the follow
     Server: Jetty(9.2.z-SNAPSHOT)
     Content-Length: 114
     Age: 0
-     
+
     [{"tags":"deployment","tenantId":"737305","what":"app03 deployment","when":1452105873000,"data":"deploying prod"}]
 
 ### Pricing
@@ -108,4 +108,3 @@ Make sure that the dates of the events are within the time window specified by q
 #### How do I sign up an account for EAP?
 
 Sign up at [http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early\_Access\_Program.html](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html).
-
