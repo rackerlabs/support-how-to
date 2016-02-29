@@ -9,122 +9,42 @@ last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
 product_url: cloud-monitoring
 ---
+A Check specifies the parts or pieces of the server that you want to collect metrics on and how you want to do it. In other words, a check returns a group of related metrics. Metrics groups help you figure out how to collect any data you want. For example, you can use `agent.cpu` check to collect the CPU utilization related metrics from your server.
 
-Rackspace Monitoring has several different types of checks with
-corresponding alarms to choose from. A check determines which aspect of
-the server you want monitored. The alarm activates based on specific
-parameters you set on the server.
+Since a check does not trigger any alerts by itself, collecting more data is almost always a good option. Our recommendation is to set up as many checks as relevant to your server even before you know what you want to be alerted on.
 
-Checks determine the system to be monitored. You can get a list of
-available checks by looking at your options in the Check Type menu after
-clicking the Create Check button in a server's monitoring page.
+Rackspace Monitoring uses Alarms to analyze the data that is collected by a check. The alarm criteria contain the logic to process this data and convert the alarm into one of the three states: OK, WARNING, CRITICAL.
 
-**NOTE:** With General Purpose servers, Rackspace Monitoring will only
-monitor the system disk. The data disk is not monitored.
+There are two web portals where you can configure monitoring checks and alarms:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/checks.png" alt="available checks" width="511" height="388" />
+     - The common checks are surfaced along with the Cloud Servers in MyCloud Control panel.  You can find the documentation here:  [https://support.rackspace.com/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/](https://support.rackspace.com/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
+     - The complete list of checks can be configured at Rackspace Intelligence. You can find the documentation here:  [https://support.rackspace.com/how-to/working-with-checks/](https://support.rackspace.com/how-to/working-with-checks/)
 
-The checks are listed in two separate groups:
+There are three major groups of checks: Remote Check, Agent Check and Host Info check. The following section describes the useful details of the remote checks. For the official definitions, see the Rackspace Monitoring Developer guide [Available Check Types and Fields.](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types.html)
 
--   **Remote service checks:**  These check types test the Internet
-    connectivity of the servers from remote data centers in regions
-    specified in the check options.
--   **Agent checks:**  These checks are performed by the monitoring
-    agent running on your server. They monitor the resource utilization
-    of the server. To learn more, read [Install the Rackspace Monitoring
-    Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent "Install the Rackspace Monitoring Agent").
+#### Remote checks
 
-### Check and alarm settings
+[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-checks-and-alarms-remote-checks.png)
 
+Remote checks are performed from multiple zones. There are six monitoring zones, deployed in the six data centers around the globe, to choose from for each remote check. Each monitoring zone performs the configured remote check and the collected data from each monitoring zone is used to evaluate the alarm criteria. You receive notifications if and only if the observations from the monitoring zones reach quorum on the resulting alarm state. In this way, you can filter out cases where a single monitoring zone is having an isolated issue connecting to your server. As needed, default zones can be changed.
 
-Each check and alarm has selectable options.
+The system determines the alarm state through quorum-based voting from the monitoring zones. This is specified in the alarm criteria as **consistencyLevel** , an important setting that is typically left as **QUORUM** (the default) unless there is a specific reason to change it. The other two values for this setting are ONE and ALL. For more information about alerting policies and consistency levels, see [Alert Policies (Consistency Level)](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/alerts-language.html#concepts-alarms-alert-policies).
 
--   Check options define what a check will do each time it is executed.
--   Alarm options trigger a notification when a check fails.
+In addition to the consistency level, you can also tune the sensitivity level of the alarms by setting the **consecutiveCount**. For example, if you want to run the check every minute, but want to be notified only if the monitoring zones cannot ping the server three times in a row (which is three minutes if your check period is 60 seconds), you can add ":set consecutiveCount=3" to the beginning of the alarm criteria to achieve the desired result.
 
-The checks are defined below. For the official definitions, see the
-Rackspace Monitoring Developer guide [Available Check Types and
-Fields.](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-tech-ref-info/check-type-reference)
-Please note, only those checks listed below are available through the
-control panel. Checks not available in the control panel are noted.
+You should also think about choosing the right monitoring zones for your server. The monitoring zones initiate remote checks from the data center they are deployed in. They are not executed from your users' browser, so it is still different from Real User Monitoring (RUM). On the other hand, they are fairly accurate in detecting cross-region connectivity. Rackspace Monitoring allows you to think separately about what you want to measure and what you want to be alerted on. Again, it is up to you to tweak and determine the configuration that works best for you.
 
-### Remote checks
+Email notifications are designed to be actionable (something that you can do something about) and readily understandable. In the notification, older observations not included in the calculation are greyed out. In this way, you will always see the number of observations that is consistent with the configuration of the checks, and be able to identify the ones contributed to the notification.
 
-Remote checks are performed from multiple zones. Default zones can be
-changed.
+[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-list-of-observations.png)
 
-1.  **HTTP check:**  This check monitors the URL or IP you choose for
-    specific [HTTP status
-    codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html "Status Codes")
-    or for text in the body of the page (body match).
-    -   **HTTP alarm:**  The standard alarm for the HTTP check is
-        **Connection time and Status Code**. When the criteria of the
-        alarm is met a notification is issued.
+With that said, from the metrics that we collect in the system, we did notice that three data centers in the US (IAD, DFW and ORD) generally have better connections among themselves, and so is the case for the other three data centers (HKG, LON, and SYD). Recently, we talked to the team that manages the Cloud Monitoring configuration and responds to the alerts, a service to our Managed Operations customers, and it provided the following table they use to determine which monitoring zones to choose for servers deployed in each data center.
 
-2.  **TCP check:**  This check monitors a port number on a IP or
-    hostname you specify.
-    -   **TCP alarm:**  The standard alarm for the TCP check is
-        **Connection time**. When the criteria of the alarm is met, a
-        notification is issued.
+[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-data-center-list.png)
 
-3.  **Ping check:**  This check sends your server a number of ping
-    packets that you specify and waits for a response for a set amount
-    of time. We recommend that 10 packets be sent.
-    -   **Ping alarm:**  The standard alarm for the ping check is **Ping
-        packet loss**. You can specify what percentage of packet loss
-        must occur for you to be notified.
+Remote checks are generally noisier than agent checks because of external factors that are out of Cloud Monitoring's control. With the combination of these settings, we believe you can tune your monitoring configuration to the level that suits you.
 
-Remote checks available only in the API or CLI:
-[remote.dns](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-dns),
-[remote.ftp-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ftp-banner),
-[remote.imap-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-imap-banner),
-[remote.mssql-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-mssql-banner),
-[remote.mysql-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-mysql-banner),
-[remote.ping](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ping),
-[remote.pop3-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-pop3-banner),
-[remote.postgresql-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-postgresql-banner),
-[remote.smtp-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-smtp-banner),
-[remote.smtp](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-smtp),
-[remote.ssh](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ssh),
-[remote.telnet-banner](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-telnet-banner).
+**How is the timeout being determined?**
 
-### Agent checks
+The time window in which an observation will be included is determined based on the consecutive count defined in the alarm and the period configured on the check. In case you are curious, the formula is (period \* 1.5 \* `consecutiveCount`). Since the default period is 60 seconds and the default `conecutiveCount` is 1, only the observations from the configured monitoring zones within the past 90 seconds would contribute to the decision of the resulting alarm state.
 
-Agent checks are performed by the monitoring agent installed on your
-server.
-
-1.  **Memory check:**  This check monitors and displays your server's
-    memory use (RAM). It also displays your server's historical usage.
-    -   **Memory alarm:**  This alarm notifies you when your server
-        memory usage goes above the percentage you set in the criteria.
-
-2.  **CPU check:**  This check monitors and displays your server's
-    CPU usage. It also displays your server's historical usage.
-    -   **CPU alarm:**  This alarm sends a notification when your CPU
-        usage average exceeds the set criteria.
-
-3.  **Load average check:**  This check monitors and displays your
-    system's load average. This option is most often used with
-    Linux machines.
-    -   **Load average alarm:**  This alarm sends a notification when
-        your system's load exceeds a number you specify for greater than
-        **X** number of minutes. **X** is generally set for 5 minutes.
-
-4.  **File system check:**  This check monitors and displays disk usage
-    in a directory that you specify.
-    -   **File aystem alarm:**  This alarm sends a notification when the
-        disk space in your specified directory exceeds the parameter
-        you set.
-
-5.  **Network check:**  This check monitors your network receiving and
-    transmitting traffic. The unit of value for this alarm is megabits
-    per second (Mbit/s). This check also displays your traffic usage.
-    Unlike the other alarms in this list, you set the network check
-    alarm variable upon network check creation.
-    -   **Network alarm:**  This alarm sends a notification when either
-        of the **network receive** or the **network transmit rate**
-        alarms are triggered.
-
-Agent checks available only in the API or CLI:
-[agent.disk](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-disk),
-[agent.plugin](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-plugin).
