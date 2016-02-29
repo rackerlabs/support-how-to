@@ -72,7 +72,7 @@ If you want to establish private peering please provide the following informatio
 
 NOC [noc@](mailto:noc@rackspace.com) [rackspace.com](mailto:noc@rackspace.com)
 
-Peeringn [peering@rackspace.com](mailto:peering@rackspace.com)
+Peering [peering@rackspace.com](mailto:peering@rackspace.com)
 
 [[top](https://github.rackspace.com/Product-DevOps/rackspace-knowledge-center-everything/blob/2e8647a806d39c26a4460b348aa0ec9f2dd3600f/articles/undefined/rackspace-peering-policy.md#top)]
 
