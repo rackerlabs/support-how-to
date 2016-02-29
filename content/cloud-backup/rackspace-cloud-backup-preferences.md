@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-preferences-0/
+permalink: rackspace-cloud-backup-preferences/
 node_id: 2041
 title: Cloud Backup Preferences
 type: article
