@@ -5,8 +5,8 @@
 +created_by: Tom Kacprzynski
 +last_modified_date: '2016-02-26'
 +last_modified_by: Tom Kacprzynski
-+product: Rackconnect
-+product_url: rackconnect
++product: General
++product_url: general
 +---
 +
 
