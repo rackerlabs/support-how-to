@@ -1,4 +1,5 @@
 ---
+permalink: live-migration-overview/
 node_id: 4955
 title: Live migration overview
 type: article

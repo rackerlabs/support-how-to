@@ -1,4 +1,5 @@
 ---
+permalink: using-the-private-ip-address-on-your-cloud-server/
 node_id: 149
 title: Private IP Address on Cloud Servers
 type: article

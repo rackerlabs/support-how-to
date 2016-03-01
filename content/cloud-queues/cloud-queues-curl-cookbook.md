@@ -1,4 +1,5 @@
 ---
+permalink: cloud-queues-curl-cookbook/
 node_id: 3655
 title: Cloud Queues cURL Cookbook
 type: article

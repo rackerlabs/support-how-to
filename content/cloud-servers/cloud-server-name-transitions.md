@@ -1,4 +1,5 @@
 ---
+permalink: cloud-server-name-transitions/
 node_id: 4387
 title: Cloud server name transitions
 type: article

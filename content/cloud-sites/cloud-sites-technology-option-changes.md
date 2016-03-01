@@ -1,4 +1,5 @@
 ---
+permalink: cloud-sites-technology-option-changes/
 node_id: 1430
 title: Cloud Sites Technology Option Changes
 type: article

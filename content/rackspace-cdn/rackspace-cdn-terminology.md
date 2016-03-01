@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cdn-terminology/
 node_id: 4656
 title: Rackspace CDN terminology
 type: article

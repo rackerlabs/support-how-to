@@ -1,4 +1,5 @@
 ---
+permalink: creating-a-general-purpose-cloud-server/
 node_id: 3729
 title: Creating a General Purpose cloud server
 type: article

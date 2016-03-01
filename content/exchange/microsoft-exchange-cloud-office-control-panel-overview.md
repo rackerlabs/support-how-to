@@ -1,4 +1,5 @@
 ---
+permalink: microsoft-exchange-cloud-office-control-panel-overview/
 node_id: 1404
 title: 'Microsoft Exchange: Cloud Office Control Panel overview'
 type: article

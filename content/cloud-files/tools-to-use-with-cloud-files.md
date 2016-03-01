@@ -1,4 +1,5 @@
 ---
+permalink: tools-to-use-with-cloud-files/
 node_id: 5123
 title: Tools to use with Cloud Files
 type: article

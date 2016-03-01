@@ -1,4 +1,5 @@
 ---
+permalink: creating-a-monitoring-check-using-the-cloud-control-panel/
 node_id: 2010
 title: Creating a monitoring check using the Cloud Control Panel
 type: article

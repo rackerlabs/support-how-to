@@ -1,4 +1,5 @@
 ---
+permalink: creating-a-centos-65-image-for-the-rackspace-open-cloud/
 node_id: 3906
 title: Creating a CentOS 6.5 image for the Rackspace open cloud
 type: article

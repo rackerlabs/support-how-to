@@ -1,4 +1,5 @@
 ---
+permalink: imappop-to-exchange/
 node_id: 1408
 title: 'Transfer data from IMAP or POP to Exchange'
 type: article

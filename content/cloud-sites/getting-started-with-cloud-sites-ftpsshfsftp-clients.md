@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-cloud-sites-ftpsshfsftp-clients/
 node_id: 580
 title: 'Getting Started With Cloud Sites, FTP/SSHFS/FTP Clients'
 type: article

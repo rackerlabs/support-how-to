@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-email-faq/
 node_id: 4977
 title: Rackspace Email FAQ
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-office-migrations-faq/
 node_id: 3777
 title: Cloud Office migrations FAQ
 type: article

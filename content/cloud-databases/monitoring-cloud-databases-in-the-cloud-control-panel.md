@@ -1,4 +1,5 @@
 ---
+permalink: monitoring-cloud-databases-in-the-cloud-control-panel/
 node_id: 4019
 title: Monitoring Cloud Databases in the Cloud Control Panel
 type: article

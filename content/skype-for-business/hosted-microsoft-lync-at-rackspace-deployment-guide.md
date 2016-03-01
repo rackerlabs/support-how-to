@@ -1,4 +1,5 @@
 ---
+permalink: hosted-microsoft-lync-at-rackspace-deployment-guide/
 node_id: 4371
 title: Hosted Microsoft Lync at Rackspace Deployment Guide
 type: article

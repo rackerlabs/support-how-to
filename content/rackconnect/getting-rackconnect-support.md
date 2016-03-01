@@ -1,4 +1,5 @@
 ---
+permalink: getting-rackconnect-support/
 node_id: 2033
 title: Getting RackConnect support
 type: article

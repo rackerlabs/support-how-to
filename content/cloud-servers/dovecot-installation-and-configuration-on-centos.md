@@ -1,4 +1,5 @@
 ---
+permalink: dovecot-installation-and-configuration-on-centos/
 node_id: 2009
 title: Dovecot installation and configuration on CentOS
 type: article

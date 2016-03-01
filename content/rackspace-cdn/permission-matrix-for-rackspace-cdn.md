@@ -1,4 +1,5 @@
 ---
+permalink: permission-matrix-for-rackspace-cdn/
 node_id: 4635
 title: Permission Matrix for Rackspace CDN
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-files-streaming-simple-flash-files/
 node_id: 77
 title: Cloud Files - Streaming simple Flash files
 type: article

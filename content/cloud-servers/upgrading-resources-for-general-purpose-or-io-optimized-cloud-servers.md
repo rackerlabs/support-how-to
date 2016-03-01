@@ -1,4 +1,5 @@
 ---
+permalink: upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers/
 node_id: 3708
 title: Upgrading resources for General Purpose or I/O optimized Cloud Servers
 type: article

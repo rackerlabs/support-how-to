@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v30-requirements/
 node_id: 4215
 title: RackConnect v3.0 requirements
 type: article

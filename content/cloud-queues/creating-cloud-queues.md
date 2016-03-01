@@ -1,4 +1,5 @@
 ---
+permalink: creating-cloud-queues/
 node_id: 3683
 title: Creating Cloud Queues
 type: article

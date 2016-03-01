@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v30-limitations/
 node_id: 4216
 title: RackConnect v3.0 limitations
 type: article

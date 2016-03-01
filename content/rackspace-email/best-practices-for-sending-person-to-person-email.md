@@ -1,4 +1,5 @@
 ---
+permalink: best-practices-for-sending-person-to-person-email/
 node_id: 4557
 title: Best practices for sending person-to-person email
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-orchestration-faq/
 node_id: 5008
 title: Cloud Orchestration FAQ
 type: article

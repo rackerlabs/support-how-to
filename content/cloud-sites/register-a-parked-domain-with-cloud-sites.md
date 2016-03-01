@@ -1,4 +1,5 @@
 ---
+permalink: register-a-parked-domain-with-cloud-sites/
 node_id: 720
 title: Register a parked domain with Cloud Sites
 type: article

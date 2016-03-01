@@ -1,4 +1,5 @@
 ---
+permalink: reset-your-server-password/
 node_id: 1477
 title: Reset Your Server Password
 type: article

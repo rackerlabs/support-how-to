@@ -1,4 +1,5 @@
 ---
+permalink: database-replication-with-cloud-databases/
 node_id: 4636
 title: Database replication with Cloud Databases
 type: article

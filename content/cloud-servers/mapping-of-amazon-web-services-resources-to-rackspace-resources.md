@@ -1,4 +1,5 @@
 ---
+permalink: mapping-of-amazon-web-services-resources-to-rackspace-resources/
 node_id: 3571
 title: Mapping of Amazon Web Services resources to Rackspace resources
 type: article

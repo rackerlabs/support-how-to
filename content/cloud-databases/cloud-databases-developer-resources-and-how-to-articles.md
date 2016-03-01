@@ -1,4 +1,5 @@
 ---
+permalink: cloud-databases-developer-resources-and-how-to-articles/
 node_id: 1721
 title: 'Cloud Databases: Developer resources and how-to articles'
 type: article

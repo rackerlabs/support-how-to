@@ -1,4 +1,5 @@
 ---
+permalink: high-availability-for-cloud-databases/
 node_id: 4708
 title: High Availability for Cloud Databases
 type: article

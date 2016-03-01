@@ -1,4 +1,5 @@
 ---
+permalink: cloud-office-quick-start-for-uk-customers/
 node_id: 4723
 title: Cloud Office quick start for UK customers
 type: article

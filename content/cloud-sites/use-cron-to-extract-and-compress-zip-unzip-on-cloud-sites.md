@@ -1,4 +1,5 @@
 ---
+permalink: use-cron-to-extract-and-compress-zip-unzip-on-cloud-sites/
 node_id: 699
 title: 'Use cron to extract and compress (zip & unzip) on Cloud Sites'
 type: article

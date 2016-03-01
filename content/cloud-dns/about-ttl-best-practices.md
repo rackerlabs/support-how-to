@@ -1,4 +1,5 @@
 ---
+permalink: about-ttl-best-practices/
 node_id: 1518
 title: About TTL best practices
 type: article

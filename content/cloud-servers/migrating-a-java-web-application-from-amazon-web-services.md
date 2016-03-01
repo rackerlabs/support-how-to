@@ -1,4 +1,5 @@
 ---
+permalink: migrating-a-java-web-application-from-amazon-web-services/
 node_id: 3588
 title: Migrate a Java web application from Amazon Web Services
 type: article

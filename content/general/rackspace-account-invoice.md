@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-account-invoice/
 node_id: 4218
 title: Rackspace account invoice
 type: article

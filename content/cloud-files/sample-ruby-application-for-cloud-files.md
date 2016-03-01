@@ -1,4 +1,5 @@
 ---
+permalink: sample-ruby-application-for-cloud-files/
 node_id: 249
 title: Sample Ruby Application for Cloud Files
 type: article

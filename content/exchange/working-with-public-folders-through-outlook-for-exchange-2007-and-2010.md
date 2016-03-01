@@ -1,4 +1,5 @@
 ---
+permalink: working-with-public-folders-through-outlook-for-exchange-2007-and-2010/
 node_id: 4462
 title: Working with public folders through Outlook for Exchange 2007 and 2010
 type: article

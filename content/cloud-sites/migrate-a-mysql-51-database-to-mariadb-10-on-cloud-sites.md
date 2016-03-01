@@ -1,4 +1,5 @@
 ---
+permalink: migrate-a-mysql-51-database-to-mariadb-10-on-cloud-sites/
 node_id: 4554
 title: Migrate a MySQL 5.1 database to MariaDB 10 on Cloud Sites
 type: article

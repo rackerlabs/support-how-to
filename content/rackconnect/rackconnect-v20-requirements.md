@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v20-requirements/
 node_id: 2021
 title: RackConnect v2.0 requirements
 type: article

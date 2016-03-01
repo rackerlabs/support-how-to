@@ -1,4 +1,5 @@
 ---
+permalink: spam-settings-for-rackspace-email/
 node_id: 697
 title: Spam Settings for Rackspace Email
 type: article

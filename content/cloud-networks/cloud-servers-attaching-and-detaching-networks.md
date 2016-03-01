@@ -1,4 +1,5 @@
 ---
+permalink: cloud-servers-attaching-and-detaching-networks/
 node_id: 3814
 title: Attach and detach networks from a Cloud Server
 type: article

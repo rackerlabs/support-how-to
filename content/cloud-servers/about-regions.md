@@ -1,4 +1,5 @@
 ---
+permalink: about-regions/
 node_id: 1526
 title: About regions
 type: article

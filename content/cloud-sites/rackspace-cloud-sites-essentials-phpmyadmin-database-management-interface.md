@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/
 node_id: 134
 title: Rackspace Cloud Sites Essentials - PHPmyAdmin Database Management Interface
 type: article

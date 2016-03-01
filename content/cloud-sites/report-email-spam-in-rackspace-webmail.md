@@ -1,4 +1,5 @@
 ---
+permalink: report-email-spam-in-rackspace-webmail/
 node_id: 180
 title: Report email spam in Rackspace webmail
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: use-swiftly-to-download-an-exported-image/
 node_id: 4956
 title: Use Swiftly to download an exported image
 type: article

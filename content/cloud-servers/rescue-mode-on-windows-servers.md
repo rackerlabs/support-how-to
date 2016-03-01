@@ -1,4 +1,5 @@
 ---
+permalink: rescue-mode-on-windows-servers/
 node_id: 4812
 title: Rescue Mode on Windows Cloud Servers
 type: article

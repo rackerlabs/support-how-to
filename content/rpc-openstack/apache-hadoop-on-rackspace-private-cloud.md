@@ -1,4 +1,5 @@
 ---
+permalink: apache-hadoop-on-rackspace-private-cloud/
 node_id: 3277
 title: Using Apache Hadoop on Rackspace Private Cloud
 type: article

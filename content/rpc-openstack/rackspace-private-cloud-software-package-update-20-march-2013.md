@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-private-cloud-software-package-update-20-march-2013/
 node_id: 3354
 title: Rackspace Private Cloud Software Package Update - 20 March 2013
 type: article

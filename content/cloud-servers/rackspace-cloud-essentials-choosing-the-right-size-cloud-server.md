@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-essentials-choosing-the-right-size-cloud-server/
 node_id: 1388
 title: Rackspace Cloud Essentials - Choosing the right-size cloud server
 type: article

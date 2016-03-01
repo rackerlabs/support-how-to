@@ -1,4 +1,5 @@
 ---
+permalink: set-up-custom-error-messages-in-aspnet-on-cloud-sites/
 node_id: 614
 title: Set up custom error messages in ASP.NET on Cloud Sites
 type: article

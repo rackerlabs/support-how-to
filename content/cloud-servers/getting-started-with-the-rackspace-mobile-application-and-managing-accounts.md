@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-the-rackspace-mobile-application-and-managing-accounts/
 node_id: 3617
 title: Getting Started with the Rackspace Mobile Application and Managing Accounts
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-email-password-recovery-faq/
 node_id: 4384
 title: Rackspace Email password recovery FAQ
 type: article

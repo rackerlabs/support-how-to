@@ -1,4 +1,5 @@
 ---
+permalink: using-cloud-servers-tags/
 node_id: 1521
 title: Using Cloud Servers tags
 type: article

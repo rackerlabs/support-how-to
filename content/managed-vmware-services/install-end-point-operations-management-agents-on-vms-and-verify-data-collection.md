@@ -1,4 +1,5 @@
 ---
+permalink: install-end-point-operations-management-agents-on-vms-and-verify-data-collection/
 node_id: 4928
 title: Install End Point Operations Management Agents on VMs and Verify Data Collection
 type: article

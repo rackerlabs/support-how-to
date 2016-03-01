@@ -1,4 +1,5 @@
 ---
+permalink: upgrades-cloud-office-control-panel/
 node_id: 3994
 title: Upgrades in the Cloud Office Control Panel
 type: article

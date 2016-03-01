@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-reseller-program/
 node_id: 3704
 title: Rackspace Reseller Program
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts/
 node_id: 4843
 title: Viewing and creating graphs of activity in Rackspace Intelligence for dedicated accounts
 type: article

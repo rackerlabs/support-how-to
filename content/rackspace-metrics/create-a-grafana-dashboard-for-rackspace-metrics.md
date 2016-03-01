@@ -1,4 +1,5 @@
 ---
+permalink: create-a-grafana-dashboard-for-rackspace-metrics/
 node_id: 4866
 title: Create a Grafana dashboard for Rackspace Metrics
 type: article

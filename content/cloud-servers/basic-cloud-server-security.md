@@ -1,4 +1,5 @@
 ---
+permalink: basic-cloud-server-security/
 node_id: 268
 title: Basic Cloud Server Security
 type: article

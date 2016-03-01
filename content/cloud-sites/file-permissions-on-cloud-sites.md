@@ -1,4 +1,5 @@
 ---
+permalink: file-permissions-on-cloud-sites/
 node_id: 548
 title: File permissions on Cloud Sites
 type: article

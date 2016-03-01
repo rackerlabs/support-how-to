@@ -1,4 +1,5 @@
 ---
+permalink: using-rbac-with-myrackspace/
 node_id: 3633
 title: Using RBAC with MyRackspace
 type: article

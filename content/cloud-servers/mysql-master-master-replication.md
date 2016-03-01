@@ -1,4 +1,5 @@
 ---
+permalink: mysql-master-master-replication/
 node_id: 1119
 title: MySQL Master-Master Replication
 type: article

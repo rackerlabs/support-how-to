@@ -1,4 +1,5 @@
 ---
+permalink: introducing-the-rackspace-cloud-control-panel/
 node_id: 1355
 title: Introducing the Rackspace Cloud Control Panel
 type: article

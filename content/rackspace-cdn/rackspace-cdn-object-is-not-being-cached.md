@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cdn-object-is-not-being-cached/
 node_id: 5159
 title: Object is not being cached
 type: article

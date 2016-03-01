@@ -1,4 +1,5 @@
 ---
+permalink: about-the-rackspace-monitoring-agent/
 node_id: 3192
 title: About the Rackspace Monitoring Agent
 type: article

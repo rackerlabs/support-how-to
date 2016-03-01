@@ -1,4 +1,5 @@
 ---
+permalink: configuring-interface-based-firewall-on-the-vyatta-network-appliance/
 node_id: 3370
 title: Configuring Interface Based Firewall on the Vyatta Network Appliance
 type: article

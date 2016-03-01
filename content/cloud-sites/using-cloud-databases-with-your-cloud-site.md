@@ -1,4 +1,5 @@
 ---
+permalink: using-cloud-databases-with-your-cloud-site/
 node_id: 1869
 title: Using Cloud Databases with your Cloud Site
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: manage-distribution-lists-in-exchange/
 node_id: 4440
 title: Manage distribution lists in Exchange
 type: article

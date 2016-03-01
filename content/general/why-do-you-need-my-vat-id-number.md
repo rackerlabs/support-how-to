@@ -1,4 +1,5 @@
 ---
+permalink: why-do-you-need-my-vat-id-number/
 node_id: 223
 title: Why do you need my VAT ID number?
 type: article

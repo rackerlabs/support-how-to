@@ -1,4 +1,5 @@
 ---
+permalink: create-and-manage-restrictions-in-rackspace-cdn/
 node_id: 4662
 title: Create and manage restrictions in Rackspace CDN
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: change-your-cloud-sites-ftp-password/
 node_id: 588
 title: Change your Cloud Sites FTP password
 type: article

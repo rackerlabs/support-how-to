@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cdn-edge-rules/
 node_id: 4560
 title: Rackspace CDN edge rules
 type: article

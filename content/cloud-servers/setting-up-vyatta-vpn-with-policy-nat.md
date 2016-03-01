@@ -1,4 +1,5 @@
 ---
+permalink: setting-up-vyatta-vpn-with-policy-nat/
 node_id: 3671
 title: Setting Up Vyatta VPN with Policy NAT
 type: article

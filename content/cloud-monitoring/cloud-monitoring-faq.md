@@ -1,4 +1,5 @@
 ---
+permalink: cloud-monitoring-faq/
 node_id: 5036
 title: Cloud Monitoring FAQ
 type: article

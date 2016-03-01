@@ -1,4 +1,5 @@
 ---
+permalink: create-a-dkim-txt-record/
 node_id: 1502
 title: Create a DKIM TXT record
 type: article

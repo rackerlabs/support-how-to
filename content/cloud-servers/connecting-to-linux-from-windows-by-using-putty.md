@@ -1,4 +1,5 @@
 ---
+permalink: connecting-to-linux-from-windows-by-using-putty/
 node_id: 68
 title: Connecting to Linux from Windows by using PuTTY
 type: article

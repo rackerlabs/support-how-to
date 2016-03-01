@@ -1,4 +1,5 @@
 ---
+permalink: bare-metal-to-rackspace-private-cloud/
 node_id: 3271
 title: Deploy Rackspace Private Cloud to bare metal using Razor and Chef
 type: article

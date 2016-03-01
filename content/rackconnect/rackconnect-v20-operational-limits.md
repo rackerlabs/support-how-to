@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v20-operational-limits/
 node_id: 3151
 title: RackConnect v2.0 operational limits
 type: article

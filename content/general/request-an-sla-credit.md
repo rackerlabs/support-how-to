@@ -1,4 +1,5 @@
 ---
+permalink: request-an-sla-credit/
 node_id: 4754
 title: Request an SLA credit
 type: article

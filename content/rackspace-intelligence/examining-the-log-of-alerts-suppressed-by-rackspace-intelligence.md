@@ -1,4 +1,5 @@
 ---
+permalink: examining-the-log-of-alerts-suppressed-by-rackspace-intelligence/
 node_id: 4748
 title: Examining the log of alerts suppressed by Rackspace Intelligence
 type: article

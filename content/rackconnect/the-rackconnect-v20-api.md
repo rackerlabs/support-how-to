@@ -1,4 +1,5 @@
 ---
+permalink: the-rackconnect-v20-api/
 node_id: 2032
 title: The RackConnect v2.0 API
 type: article

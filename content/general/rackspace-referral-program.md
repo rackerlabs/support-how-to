@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-referral-program/
 node_id: 3702
 title: Rackspace Referral Program
 type: article

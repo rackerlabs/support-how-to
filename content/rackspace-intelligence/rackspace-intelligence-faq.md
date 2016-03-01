@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-intelligence-faq/
 node_id: 4682
 title: Rackspace Intelligence FAQ
 type: article

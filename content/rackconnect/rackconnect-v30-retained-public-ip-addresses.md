@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v30-retained-public-ip-addresses/
 node_id: 5001
 title: RackConnect v3.0 retained public IP addresses
 type: article

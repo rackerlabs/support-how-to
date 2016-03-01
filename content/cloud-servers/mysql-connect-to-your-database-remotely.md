@@ -1,4 +1,5 @@
 ---
+permalink: mysql-connect-to-your-database-remotely/
 node_id: 397
 title: MySQL - Connect to your database remotely
 type: article

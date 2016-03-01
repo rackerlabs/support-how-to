@@ -1,4 +1,5 @@
 ---
+permalink: rescue-mode/
 node_id: 1358
 title: Rescue Mode
 type: article

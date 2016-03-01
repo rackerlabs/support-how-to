@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-webmail/
 node_id: 1422
 title: Rackspace Webmail overview
 type: article

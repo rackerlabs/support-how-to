@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-global-user-workflow/
 node_id: 4859
 title: RackConnect Global user workflow
 type: article

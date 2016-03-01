@@ -1,4 +1,5 @@
 ---
+permalink: rebuild-a-cloud-server/
 node_id: 1475
 title: Rebuild a Cloud Server
 type: article

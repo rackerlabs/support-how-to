@@ -1,4 +1,5 @@
 ---
+permalink: enable-email-archiving-cloud-office-control-panel/
 node_id: 4006
 title: 'Enable email archiving: Cloud Office Control Panel'
 type: article

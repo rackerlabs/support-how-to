@@ -1,4 +1,5 @@
 ---
+permalink: webmail-dropbox-integration-faqs/
 node_id: 4122
 title: Webmail Dropbox integration FAQ
 type: article

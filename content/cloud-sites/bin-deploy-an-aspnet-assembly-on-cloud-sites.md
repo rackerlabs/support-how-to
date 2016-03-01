@@ -1,4 +1,5 @@
 ---
+permalink: bin-deploy-an-aspnet-assembly-on-cloud-sites/
 node_id: 586
 title: Bin-deploy an ASP.NET assembly on Cloud Sites
 type: article
