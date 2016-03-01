@@ -20,8 +20,8 @@ Rackspace Monitoring uses *alarms* to analyze the data that is collected by a ch
 
 You can configure monitoring checks and alarms in teh following web portals:
 
-     - The common checks are displayed along with the cloud servers in the Cloud Control panel.  For more information, see [Ceating a monitoring check using the cloud control panel](https://support.rackspace.com/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
-     - The complete list of checks can be configured in Rackspace Intelligence. For more information, see [Working with checks](https://support.rackspace.com/how-to/working-with-checks/)
+- The common checks are displayed along with the cloud servers in the Cloud Control panel.  For more information, see [Ceating a monitoring check using the cloud control panel](https://support.rackspace.com/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
+- The complete list of checks can be configured in Rackspace Intelligence. For more information, see [Working with checks](https://support.rackspace.com/how-to/working-with-checks/)
 
 The major groups of checks are remote check, agent checks, and hostinfo checks. The following section describes the useful details about the remote checks. For more information about all the check types, see the [Check types reference](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types.html) section of the Rackspace Monitoring API documentation.
 
