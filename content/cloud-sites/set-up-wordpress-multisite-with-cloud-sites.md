@@ -1,4 +1,5 @@
 ---
+permalink: set-up-wordpress-multisite-with-cloud-sites/
 node_id: 4049
 title: Set up WordPress Multisite with Cloud Sites
 type: article

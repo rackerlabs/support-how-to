@@ -1,4 +1,5 @@
 ---
+permalink: best-practices-for-using-cloud-files/
 node_id: 1269
 title: Best Practices for Using Cloud Files
 type: article

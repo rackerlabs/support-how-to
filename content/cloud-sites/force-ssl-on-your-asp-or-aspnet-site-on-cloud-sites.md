@@ -1,4 +1,5 @@
 ---
+permalink: force-ssl-on-your-asp-or-aspnet-site-on-cloud-sites/
 node_id: 621
 title: Force SSL on your ASP or ASP.NET site on Cloud Sites
 type: article

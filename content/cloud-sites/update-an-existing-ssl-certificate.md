@@ -1,4 +1,5 @@
 ---
+permalink: update-an-existing-ssl-certificate/
 node_id: 1183
 title: Update an existing SSL certificate
 type: article

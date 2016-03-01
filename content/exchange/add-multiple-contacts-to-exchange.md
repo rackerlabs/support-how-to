@@ -1,4 +1,5 @@
 ---
+permalink: add-multiple-contacts-to-exchange/
 node_id: 932
 title: Add multiple contacts to Exchange
 type: article

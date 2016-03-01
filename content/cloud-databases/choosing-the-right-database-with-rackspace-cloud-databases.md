@@ -1,4 +1,5 @@
 ---
+permalink: choosing-the-right-database-with-rackspace-cloud-databases/
 node_id: 4132
 title: Choosing the right database with Rackspace Cloud Databases
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: streaming-cloud-files-with-jw-player/
 node_id: 3230
 title: Streaming Cloud Files with JW Player
 type: article

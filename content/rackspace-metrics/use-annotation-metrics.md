@@ -23,7 +23,7 @@ Through Grafana, Rackspace Metrics users can create dashboard that can help iden
 
 With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Request an annotation](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-annotation) for additional information. (Mock-ups below)
 
-[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
 
 #### Ingesting Annotation through API
 
@@ -55,17 +55,17 @@ Annotation is submitted through /events API end point:
 
 1. Open **Settings** menu and select the **Features*8 tab.
 2. Select the **Annotations** checkbox to enable annotations.
-[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-enable-annotations.png)
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-enable-annotations.png)
 
 3. On the **Add** tab, enter a name for the annotation and select **RackspaceMetrics** as the datasource.
-[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-datasource.png)
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-datasource.png)
 
 4. Add Annotation by Searching for the tag in the **Blueflood event tags** field.
-[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
 
 The new annotation shows up in Grafana.
 
-[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-annotation-appears.png)
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-annotation-appears.png)
 
 ### (optional) Retrieve Annotation from API
 

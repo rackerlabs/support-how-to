@@ -1,4 +1,5 @@
 ---
+permalink: draining-a-load-balanced-server/
 node_id: 3552
 title: Draining a load balanced server
 type: article

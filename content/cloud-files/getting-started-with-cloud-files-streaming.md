@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-cloud-files-streaming/
 node_id: 6003
 title: Getting started with Cloud Files streaming
 type: article

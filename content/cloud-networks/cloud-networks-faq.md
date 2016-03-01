@@ -1,4 +1,5 @@
 ---
+permalink: cloud-networks-faq/
 node_id: 3717
 title: Cloud Networks - FAQ
 type: article

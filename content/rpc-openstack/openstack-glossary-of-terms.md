@@ -1,4 +1,5 @@
 ---
+permalink: openstack-glossary-of-terms/
 node_id: 1943
 title: OpenStack Glossary of Terms
 type: article

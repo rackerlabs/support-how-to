@@ -1,4 +1,5 @@
 ---
+permalink: create-an-inbound-port-allow-rule-for-windows-firewall-2008/
 node_id: 315
 title: Create an Inbound port allow rule for Windows Firewall 2008
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-auto-scale-tips-and-how-tos/
 node_id: 3849
 title: "Rackspace Auto Scale tips and how-to's"
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: setting-up-imap-or-pop-windows-mail/
 node_id: 84
 title: Set up IMAP or POP for Windows Mail
 type: article

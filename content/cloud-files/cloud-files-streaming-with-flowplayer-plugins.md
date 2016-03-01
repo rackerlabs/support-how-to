@@ -1,4 +1,5 @@
 ---
+permalink: cloud-files-streaming-with-flowplayer-plugins/
 node_id: 1207
 title: Cloud Files Streaming with FlowPlayer Plugins
 type: article

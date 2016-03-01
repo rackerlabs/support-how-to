@@ -1,4 +1,5 @@
 ---
+permalink: introducing-rackconnect-v30/
 node_id: 4201
 title: Introducing RackConnect v3.0
 type: article

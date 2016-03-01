@@ -1,4 +1,5 @@
 ---
+permalink: definition-of-personally-identifiable-information-pii/
 node_id: 1381
 title: Definition of Personally Identifiable Information (PII)
 type: article

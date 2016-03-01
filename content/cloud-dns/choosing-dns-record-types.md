@@ -1,4 +1,5 @@
 ---
+permalink: choosing-dns-record-types/
 node_id: 1503
 title: Choosing DNS record types
 type: article

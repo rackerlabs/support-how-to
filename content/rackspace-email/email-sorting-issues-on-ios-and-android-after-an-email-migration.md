@@ -1,4 +1,5 @@
 ---
+permalink: email-sorting-issues-on-ios-and-android-after-an-email-migration/
 node_id: 3787
 title: Email sorting issues on iOS and Android after an email migration
 type: article

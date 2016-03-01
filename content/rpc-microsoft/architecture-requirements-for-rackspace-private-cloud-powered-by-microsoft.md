@@ -1,4 +1,5 @@
 ---
+permalink: architecture-requirements-for-rackspace-private-cloud-powered-by-microsoft/
 node_id: 4574
 title: Architecture requirements for Rackspace Private Cloud powered by Microsoft
 type: article

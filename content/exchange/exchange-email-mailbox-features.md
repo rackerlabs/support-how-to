@@ -1,4 +1,5 @@
 ---
+permalink: exchange-email-mailbox-features/
 node_id: 4210
 title: Exchange email mailbox features
 type: article

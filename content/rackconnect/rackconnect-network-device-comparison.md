@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-network-device-comparison/
 node_id: 3183
 title: RackConnect network device comparison
 type: article

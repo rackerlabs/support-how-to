@@ -1,4 +1,5 @@
 ---
+permalink: checking-linux-file-permissions-with-ls/
 node_id: 1255
 title: Checking Linux file permissions with ls
 type: article

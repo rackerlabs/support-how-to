@@ -1,4 +1,5 @@
 ---
+permalink: change-your-email-password/
 node_id: 587
 title: Change your email password
 type: article

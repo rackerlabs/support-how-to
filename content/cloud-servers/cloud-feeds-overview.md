@@ -1,4 +1,5 @@
 ---
+permalink: cloud-feeds-overview/
 node_id: 4164
 title: Cloud Feeds overview
 type: article

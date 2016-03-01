@@ -1,4 +1,5 @@
 ---
+permalink: using-dig-to-query-nameservers/
 node_id: 3486
 title: Using dig to query nameservers
 type: article

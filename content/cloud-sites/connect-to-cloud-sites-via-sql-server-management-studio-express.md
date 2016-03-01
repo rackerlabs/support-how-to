@@ -1,4 +1,5 @@
 ---
+permalink: connect-to-cloud-sites-via-sql-server-management-studio-express/
 node_id: 602
 title: Connect to Cloud Sites via SQL Server Management Studio Express
 type: article

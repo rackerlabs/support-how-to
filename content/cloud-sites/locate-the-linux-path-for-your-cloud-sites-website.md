@@ -1,4 +1,5 @@
 ---
+permalink: locate-the-linux-path-for-your-cloud-sites-website/
 node_id: 78
 title: Locate the Linux path for your Cloud Sites website
 type: article

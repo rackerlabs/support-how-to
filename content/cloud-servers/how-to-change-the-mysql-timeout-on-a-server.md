@@ -1,4 +1,5 @@
 ---
+permalink: how-to-change-the-mysql-timeout-on-a-server/
 node_id: 3630
 title: How to Change the MySQL Timeout on a Server
 type: article

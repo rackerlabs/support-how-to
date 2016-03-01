@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-image-validation-scripts/
 node_id: 3286
 title: RackConnect image validation scripts
 type: article

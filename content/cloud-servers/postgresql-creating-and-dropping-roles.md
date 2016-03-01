@@ -1,4 +1,5 @@
 ---
+permalink: postgresql-creating-and-dropping-roles/
 node_id: 416
 title: PostgreSQL - Creating and Dropping Roles
 type: article

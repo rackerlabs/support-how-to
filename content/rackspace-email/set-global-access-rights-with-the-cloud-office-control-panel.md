@@ -1,4 +1,5 @@
 ---
+permalink: set-global-access-rights-with-the-cloud-office-control-panel/
 node_id: 4005
 title: Set global access rights in the Cloud Office Control Panel
 type: article

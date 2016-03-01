@@ -1,4 +1,5 @@
 ---
+permalink: what-is-new-with-onmetal-cloud-servers/
 node_id: 4106
 title: What is new with OnMetal Cloud Servers
 type: article

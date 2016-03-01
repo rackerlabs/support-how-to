@@ -1,4 +1,5 @@
 ---
+permalink: understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts/
 node_id: 4818
 title: Understanding the Rackspace Intelligence User Interface for dedicated accounts
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/
 node_id: 721
 title: Getting Started With Cloud Sites - Creating Sub-domains and/or Domain Aliases
 type: article

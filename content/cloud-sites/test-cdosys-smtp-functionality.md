@@ -1,4 +1,5 @@
 ---
+permalink: test-cdosys-smtp-functionality/
 node_id: 649
 title: Test CDOSYS SMTP functionality
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cdn-faq/
 node_id: 4705
 title: Rackspace CDN FAQ
 type: article

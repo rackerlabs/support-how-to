@@ -1,4 +1,5 @@
 ---
+permalink: recovering-from-and-dealing-with-a-site-compromise/
 node_id: 691
 title: Recovering from and dealing with a site compromise
 type: article

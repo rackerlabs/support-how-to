@@ -1,4 +1,5 @@
 ---
+permalink: use-the-api-to-manage-large-files/
 node_id: 6001
 title: Use the API to manage large files
 type: article

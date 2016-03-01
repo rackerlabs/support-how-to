@@ -1,4 +1,5 @@
 ---
+permalink: attach-a-cloud-block-storage-volume-to-an-onmetal-server-through-the-cloud-control-panel/
 node_id: 4733
 title: Attach a Cloud Block Storage volume to an OnMetal server through the Cloud Control Panel
 type: article

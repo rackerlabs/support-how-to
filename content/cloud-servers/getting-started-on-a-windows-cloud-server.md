@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-on-a-windows-cloud-server/
 node_id: 350
 title: Getting Started on a Windows Cloud Server
 type: article

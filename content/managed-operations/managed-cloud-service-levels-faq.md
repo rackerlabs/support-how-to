@@ -1,4 +1,5 @@
 ---
+permalink: managed-cloud-service-levels-faq/
 node_id: 4130
 title: Managed Cloud Service Levels FAQ
 type: article

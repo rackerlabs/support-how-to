@@ -1,4 +1,5 @@
 ---
+permalink: generate-a-csr-with-openssl/
 node_id: 345
 title: Generate a CSR with OpenSSL
 type: article

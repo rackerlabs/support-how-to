@@ -1,4 +1,5 @@
 ---
+permalink: cloud-sites-php-op-code-cache/
 node_id: 688
 title: Cloud Sites PHP Op-code Cache
 type: article

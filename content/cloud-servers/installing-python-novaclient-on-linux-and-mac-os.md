@@ -1,4 +1,5 @@
 ---
+permalink: installing-python-novaclient-on-linux-and-mac-os/
 node_id: 1483
 title: Installing python-novaclient on Linux and Mac OS
 type: article

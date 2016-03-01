@@ -1,4 +1,5 @@
 ---
+permalink: general-purpose-cloud-servers-how-to-articles-and-other-resources/
 node_id: 1719
 title: 'General Purpose Cloud Servers: How-to articles and other resources'
 type: article

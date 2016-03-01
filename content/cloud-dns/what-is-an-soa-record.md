@@ -1,4 +1,5 @@
 ---
+permalink: what-is-an-soa-record/
 node_id: 5138
 title: What is an SOA record?
 type: article

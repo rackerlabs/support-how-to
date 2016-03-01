@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-private-cloud-spheres-of-support/
 node_id: 4244
 title: Rackspace Private Cloud Spheres of Support
 type: article

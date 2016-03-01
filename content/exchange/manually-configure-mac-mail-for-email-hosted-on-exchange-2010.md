@@ -1,4 +1,5 @@
 ---
+permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2010/
 node_id: 1293
 title: Manually configure Mac Mail for email hosted on Exchange 2010
 type: article

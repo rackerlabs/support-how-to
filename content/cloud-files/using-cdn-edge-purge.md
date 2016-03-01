@@ -1,4 +1,5 @@
 ---
+permalink: using-cdn-edge-purge/
 node_id: 1249
 title: Using CDN Edge Purge
 type: article

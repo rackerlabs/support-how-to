@@ -1,4 +1,5 @@
 ---
+permalink: setting-up-a-producer-consumer-model-with-cloud-queues/
 node_id: 3657
 title: Setting Up a Producer-Consumer Model with Cloud Queues
 type: article

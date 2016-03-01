@@ -1,4 +1,5 @@
 ---
+permalink: using-cnames-with-cloud-files-containers/
 node_id: 1080
 title: Using CNAMEs with Cloud Files containers
 type: article

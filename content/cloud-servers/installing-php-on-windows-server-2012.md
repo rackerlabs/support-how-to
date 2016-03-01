@@ -1,4 +1,5 @@
 ---
+permalink: installing-php-on-windows-server-2012/
 node_id: 3424
 title: Installing PHP on Windows Server 2012
 type: article

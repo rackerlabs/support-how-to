@@ -1,4 +1,5 @@
 ---
+permalink: what-is-a-cdn/
 node_id: 120
 title: What is a CDN?
 type: article

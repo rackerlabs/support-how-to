@@ -1,4 +1,5 @@
 ---
+permalink: create-a-domain-or-subdomain-that-points-to-a-website-not-hosted-on-cloud-sites/
 node_id: 606
 title: Create a domain or subdomain that points to a website not hosted on Cloud Sites
 type: article

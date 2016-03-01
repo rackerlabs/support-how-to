@@ -1,4 +1,5 @@
 ---
+permalink: create-a-rackspace-cdn-service/
 node_id: 4651
 title: Create a Rackspace CDN service
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: set-up-a-server-to-work-with-rackspace-intelligence/
 node_id: 4735
 title: Set up a server to work with Rackspace Intelligence
 type: article

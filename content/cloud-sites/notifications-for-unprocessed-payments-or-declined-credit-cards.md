@@ -1,4 +1,5 @@
 ---
+permalink: notifications-for-unprocessed-payments-or-declined-credit-cards/
 node_id: 225
 title: Notifications for unprocessed payments or declined credit cards
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: set-up-apache-virtual-hosts-on-ubuntu/
 node_id: 108
 title: Set up Apache virtual hosts on Ubuntu
 type: article

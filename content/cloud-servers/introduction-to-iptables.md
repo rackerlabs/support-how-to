@@ -1,4 +1,5 @@
 ---
+permalink: introduction-to-iptables/
 node_id: 362
 title: Introduction to iptables
 type: article

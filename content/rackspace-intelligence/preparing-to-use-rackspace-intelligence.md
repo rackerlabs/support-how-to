@@ -1,4 +1,5 @@
 ---
+permalink: preparing-to-use-rackspace-intelligence/
 node_id: 4739
 title: Preparing to use Rackspace Intelligence
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-server-configuration-options/
 node_id: 4449
 title: Cloud Server configuration options
 type: article

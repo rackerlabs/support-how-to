@@ -1,4 +1,5 @@
 ---
+permalink: detailed-permissions-matrix-for-cloud-big-data/
 node_id: 3680
 title: Detailed Permissions Matrix for Cloud Big Data
 type: article

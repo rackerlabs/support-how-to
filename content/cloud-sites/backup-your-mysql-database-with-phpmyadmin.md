@@ -1,4 +1,5 @@
 ---
+permalink: backup-your-mysql-database-with-phpmyadmin/
 node_id: 661
 title: Backup your MySQL database with phpMyAdmin
 type: article

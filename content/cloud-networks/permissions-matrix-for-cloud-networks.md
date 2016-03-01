@@ -1,4 +1,5 @@
 ---
+permalink: permissions-matrix-for-cloud-networks/
 node_id: 3653
 title: Permissions Matrix for Cloud Networks
 type: article

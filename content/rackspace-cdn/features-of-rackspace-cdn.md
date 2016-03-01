@@ -1,4 +1,5 @@
 ---
+permalink: features-of-rackspace-cdn/
 node_id: 4668
 title: Features of Rackspace CDN
 type: article

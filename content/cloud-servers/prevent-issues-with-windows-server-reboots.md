@@ -1,4 +1,5 @@
 ---
+permalink: prevent-issues-with-windows-server-reboots/
 node_id: 4798
 title: Prevent issues with Windows Server reboots
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: managing-cloud-sites-email-dns-records/
 node_id: 1145
 title: Managing Cloud Sites Email DNS Records
 type: article

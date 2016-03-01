@@ -1,4 +1,5 @@
 ---
+permalink: add-impersonation-to-your-aspnet-cloud-site/
 node_id: 69
 title: Add impersonation to your ASP.NET cloud site
 type: article

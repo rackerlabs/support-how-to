@@ -1,4 +1,5 @@
 ---
+permalink: become-a-cloud-native/
 node_id: 5088
 title: Become a Cloud Native
 type: article

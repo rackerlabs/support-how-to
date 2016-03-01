@@ -1,4 +1,5 @@
 ---
+permalink: best-practices-for-sending-emails-to-many-recipients/
 node_id: 4558
 title: Best practices for sending emails to many recipients
 type: article

@@ -1,15 +1,13 @@
-+---
-+title: Rackspace peering policy
-+type: article
-+created_date: '2014-10-01'
-+created_by: Tom Kacprzynski
-+last_modified_date: '2016-02-26'
-+last_modified_by: Tom Kacprzynski
-+product: General
-+product_url: general
-+---
-+
-
+---
+title: Rackspace peering policy
+type: article
+created_date: '2014-10-01'
+created_by: Tom Kacprzynski
+last_modified_date: '2016-02-26'
+last_modified_by: Tom Kacprzynski
+product: General
+product_url: general
+---
 
 ###  Rackspace peering policy
 
@@ -92,4 +90,3 @@ The calculation has a number of variables that can significantly alter the thres
 - Mbps\_Transit\_Cost: The price that Rackspace IP Transit providers charge per Mbps of bursting traffic using the 95th percentile measurements.
 
 The calculation has a number of variables that can significantly alter the thresholds. For example, does Rackspace pay of the cross connect or does the peer? If the peer pays, the minimal threshold becomes significantly lower. The next variable is how many months should the hardware be amortized? Longer terms, like 36 months, result in a lower minimal threshold, while shorter terms result in a higher minimal threshold. The hardware used to model the hardware port also varies the calculation, but not as much as the cross connect or the months per term.
-

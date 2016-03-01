@@ -1,4 +1,5 @@
 ---
+permalink: rpc-openstack-faq/
 node_id: 4228
 title: Rackspace Private Cloud FAQ
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: getting-started-with-glusterfs-considerations-and-installation/
 node_id: 4177
 title: Getting started with GlusterFS - considerations and installation
 type: article

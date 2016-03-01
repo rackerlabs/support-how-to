@@ -1,4 +1,5 @@
 ---
+permalink: cloud-feeds-faq/
 node_id: 4166
 title: Cloud Feeds FAQ
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-block-storage-attaching-vs-mounting/
 node_id: 3133
 title: Attaching versus mounting in Cloud Block Storage
 type: article

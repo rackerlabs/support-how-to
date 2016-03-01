@@ -1,4 +1,5 @@
 ---
+permalink: manage-company-contacts-in-the-cloud-office-control-panel/
 node_id: 3986
 title: Manage company contacts in the Cloud Office Control Panel
 type: article

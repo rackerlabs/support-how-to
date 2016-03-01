@@ -1,4 +1,5 @@
 ---
+permalink: uses-of-rackspace-cdn/
 node_id: 4653
 title: Uses of Rackspace CDN
 type: article

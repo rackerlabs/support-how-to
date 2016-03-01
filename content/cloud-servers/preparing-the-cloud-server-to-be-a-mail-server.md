@@ -1,4 +1,5 @@
 ---
+permalink: preparing-the-cloud-server-to-be-a-mail-server/
 node_id: 418
 title: Preparing the Cloud Server to be a Mail Server
 type: article

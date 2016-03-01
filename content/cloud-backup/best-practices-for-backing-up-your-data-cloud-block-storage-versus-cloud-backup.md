@@ -1,4 +1,5 @@
 ---
+permalink: best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup/
 node_id: 3714
 title: 'Best practices for backing up your data: Cloud Block Storage versus Cloud Backup'
 type: article

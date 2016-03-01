@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-directory-sync-operation-guide/
 node_id: 4050
 title: 'Rackspace Directory Sync Operation Guide'
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: serving-your-domain-from-a-rackspace-cloud-server/
 node_id: 1517
 title: Serving Your Domain From a Rackspace Cloud Server
 type: article

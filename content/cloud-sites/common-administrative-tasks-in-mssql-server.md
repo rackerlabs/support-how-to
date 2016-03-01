@@ -1,4 +1,5 @@
 ---
+permalink: common-administrative-tasks-in-mssql-server/
 node_id: 1395
 title: Common Administrative Tasks in MSSQL Server
 type: article

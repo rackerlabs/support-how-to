@@ -1,4 +1,5 @@
 ---
+permalink: enable-log-delivery-in-rackspace-cdn/
 node_id: 4904
 title: Logs in Rackspace CDN
 type: article

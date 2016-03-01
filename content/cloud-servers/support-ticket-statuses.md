@@ -1,4 +1,5 @@
 ---
+permalink: support-ticket-statuses/
 node_id: 1136
 title: Support ticket statuses
 type: article
