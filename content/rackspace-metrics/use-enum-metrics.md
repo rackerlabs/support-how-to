@@ -1,6 +1,6 @@
 ---
 node_id: 6001
-title: Use enum metrics support
+title: Use Enum metrics
 type: article
 created_date: '2015-03-03'
 created_by: Kyle Laffoon
@@ -9,8 +9,6 @@ last_modified_by: Kyle Laffoon
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
-
-### Use Enum Metrics Support
 
 The enum metrics release will allow you to push state based metrics (enums) and get the report from API on the frequency of occurrence of the values. For example, a common report for the IT teams to provide the uptime report based on the occurrences of the response codes from the server, or the state of the alerts during a period of time. Enum support is a stepping stone by providing the data to be used in report or visualization.
 
