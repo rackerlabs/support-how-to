@@ -19,11 +19,11 @@ The concept of "Annotation" can be traced back easily to a blog post by Etsy tea
 
 Through Grafana, Rackspace Metrics users can create dashboard that can help identify the performance changes in the system.  While detection is the first step towards managing the application, the next step is often to figure out what has changed.
 
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotationsupport-what-changed.png =100)
+![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotationsupport-what-changed.png)
 
 With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Request an annotation](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-annotation) for additional information. (Mock-ups below)
 
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png =100)
+[](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
 
 #### Ingesting Annotation through API
 
