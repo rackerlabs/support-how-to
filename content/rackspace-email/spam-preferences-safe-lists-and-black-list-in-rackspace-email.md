@@ -44,13 +44,13 @@ To manage your domain-level spam settings, go to the **Domains** section of the 
 
 3. Select the preferred settings for Rackspace Email in your domain. Following is a description of each option:
 
-    -   **Deliver to Spam folder**&mdash;Spam messages are sent to the user's Spam folder. To automatically delete messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a specified number of days, total emails, or both.
+    -   **Deliver to Spam folder** - Spam messages are sent to the user's Spam folder. To automatically delete messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a specified number of days, total emails, or both.
 
-    -   **Delete the email immediately**&mdash;Spam email will be deleted automatically and not delivered to the user's mailbox.
+    -   **Delete the email immediately** - Spam email will be deleted automatically and not delivered to the user's mailbox.
 
-    -   **Include "\[SPAM\]" at the beginning of the subject line**&mdash;Spam email will be delivered to the user's Inbox, but will include the text **"\[SPAM\]"** in the subject line.
+    -   **Include "\[SPAM\]" at the beginning of the subject line** - Spam email will be delivered to the user's Inbox, but will include the text **"\[SPAM\]"** in the subject line.
 
-    -   **Deliver to the email address**&mdash;Spam messages are sent to an email address of your choice that resides on your domain.
+    -   **Deliver to the email address** - Spam messages are sent to an email address of your choice that resides on your domain.
 
 4. In the **Override Options** section, indicate whether to apply these settings to users who have not already set their spam preferences, or whether these settings should override spam preferences for all users.
 

@@ -29,23 +29,23 @@ To adjust access rights for an entire domain, perform the following steps:
     **Note:** **SSL** and **TLS** indicate that the services incorporate
     security technology to protect the user's data.
 
-    -   **POP3 and POP3 (SSL)**&mdash;Email is downloaded to the user's computer and is then deleted from the email server. This option is best for users who consistently use the same computer.
+    -   **POP3 and POP3 (SSL)** - Email is downloaded to the user's computer and is then deleted from the email server. This option is best for users who consistently use the same computer.
 
-    -   **IMAP and IMAP (SSL)**&mdash;Email is stored on the email server only. The user manages email directly from the server, rather than downloading the email to
+    -   **IMAP and IMAP (SSL)** - Email is stored on the email server only. The user manages email directly from the server, rather than downloading the email to
     a computer. This option is best for users who need to manage email
-    and email folders from multiple locations&mdash;such as at the office, on
+    and email folders from multiple locations - such as at the office, on
     the road, and from a mobile device. Users also benefit from having
     their email automatically backed up every evening; if a user
-    accidentally deletes email, it can be easily retrieved&mdash;even up to 14
+    accidentally deletes email, it can be easily retrieved - even up to 14
     days later.
 
-    -   **Webmail and Webmail (SSL)**&mdash;Webmail provides anytime, anywhere access to email stored on the email server. With Webmail, a user can read, send, and manage
-    email&mdash;just like using desktop email software. This option is best
+    -   **Webmail and Webmail (SSL)** - Webmail provides anytime, anywhere access to email stored on the email server. With Webmail, a user can read, send, and manage
+    email - just like using desktop email software. This option is best
     for users who need to access and manage email (and email folders)
-    from multiple locations&mdash;such as at the office, on the road, or from
+    from multiple locations - such as at the office, on the road, or from
     a mobile device.
 
-    -   **SMTP and SMTP (SSL)**&mdash;The SMTP service allows the user to send email. If you disable SMTP, the user cannot send email using the SMTP server. (SMTP is an
+    -   **SMTP and SMTP (SSL)** - The SMTP service allows the user to send email. If you disable SMTP, the user cannot send email using the SMTP server. (SMTP is an
     always-secure service.)
 
 7.  Select the option that you want to apply to your setup.

@@ -21,7 +21,7 @@ A group list is a great way to manage users in a select team or group on
 your domain. There is no limit to the number of internal address
 (addresses within your domain) and a limit of 250 additional members
 outside of the domain. For example, suppose that you have a billing team you want to
-group together&mdash;bob@domain.com, amy@domain.com, and scott@domain.com. You
+group together - bob@domain.com, amy@domain.com, and scott@domain.com. You
 can create a group list for the team so that they can communicate new
 upcoming billing updates within the team, at billingupdates@domain.com.
 

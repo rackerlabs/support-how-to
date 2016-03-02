@@ -94,7 +94,7 @@ domain alias on our system in order for this to work.
 The following should be in place:
 
 -   A subdomain created with your DNS host pointing to Rackspace MX
-    records&mdash;for example, **rackspace.example.com** with its own set of MX records
+    records - for example, **rackspace.example.com** with its own set of MX records
     pointing to **mx1.emailsrvr.com**.
 -   Contacts (aliases) must be created on the external system for each
     mailbox hosted by Rackspace. The contact must forward the
