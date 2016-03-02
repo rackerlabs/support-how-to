@@ -160,12 +160,12 @@ Verify that installation performed the following actions:
     which looks as follows.
 
         {
-            "AccountId" : &ldquo;991199&rdquo;,
+            "AccountId" : "991199",
             "AgentId" : 119991,
-            "AgentKey" : &ldquo;ZLgIosvV558PXVlx+EKiT+2+sRtaSo+cI9BE1aY1W/73WRv8O8len56rjmeDoT0cnthAysW=",
+            "AgentKey" : "ZLgIosvV558PXVlx+EKiT+2+sRtaSo+cI9BE1aY1W/73WRv8O8len56rjmeDoT0cnthAysW=",
             "ApiHostName" : "api.drivesrvr.com",
             "IsRegistered" : true,
-            "Username" : &ldquo;[yourusername]",
+            "Username" : "[yourusername]",
             "VolumePasswords" : [yourownveryverylongpasswordthatnoonecouldeverpossiblycrack]
         }
 

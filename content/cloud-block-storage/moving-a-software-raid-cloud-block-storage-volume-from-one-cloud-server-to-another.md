@@ -79,7 +79,7 @@ Actions gear next to each volume that you want to detach, and select
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RAIDImage4.png" width="627" height="214" />
 
-2\. Run fdisk &ndash;l to see the device IDs of the newly attached Cloud Block
+2\. Run fdisk -l to see the device IDs of the newly attached Cloud Block
 Storage volumes.
 
         Disk /dev/xvdb: 161.1 GB, 161061273600 bytes

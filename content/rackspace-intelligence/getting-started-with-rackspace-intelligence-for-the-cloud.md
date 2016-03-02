@@ -38,7 +38,7 @@ kinds of entities:
 Only data available to Rackspace Intelligence can be gathered and acted
 on. For example, if you define a website that is hosted outside
 Rackspace as an entity, then you might be able to usefully place a check
-on its ping time, but you probably won&rsquo;t to be able to check the space
+on its ping time, but you probably won't to be able to check the space
 available in its file system.
 
 **Note**: Early publications about Rackspace Intelligence referred to it

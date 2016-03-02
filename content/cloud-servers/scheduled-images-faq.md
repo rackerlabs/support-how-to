@@ -79,7 +79,7 @@ scheme:
 -   an image name is limited to 255 characters, so if you have a server
     name longer than 238 characters, it will be truncated to fit
 
-The best way to tell is to look at the image metadata&mdash;though
+The best way to tell is to look at the image metadata - though
 unfortunately, you can't see it in the Cloud Control Panel yet. Using
 the API or the novaclient command line tool, you will see that an image
 created by the scheduled images service has the following metadatum on

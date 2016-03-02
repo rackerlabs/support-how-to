@@ -16,12 +16,12 @@ can determine whether the RackConnect portion of the build process will
 succeed before you spend the time necessary to create the image by using
 the RackConnect image validation scripts.
 
-The RackConnect image validation scripts are a pair of scripts&mdash;one for
-Windows servers, one for Linux servers&mdash;that look for signs of the most
+The RackConnect image validation scripts are a pair of scripts - one for
+Windows servers, one for Linux servers - that look for signs of the most
 common issues that cause RackConnect automation to fail. They are
 designed to run on a cloud server that will be used as a template for
 creating other servers. They won't necessarily find all possible issues
-with an image&mdash;you might still need Rackspace Support to investigate&mdash;but they will find the issues we've identified as the most common causes
+with an image - you might still need Rackspace Support to investigate - but they will find the issues we've identified as the most common causes
 of RackConnect build failures.
 
 ### When to use the scripts

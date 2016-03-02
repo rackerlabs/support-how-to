@@ -22,8 +22,8 @@ innovative hybrid connectivity offering that enables you to select and
 combine the best features of our dedicated and cloud hosting offerings
 into one all-encompassing solution. With version 3.0, you can design
 your computing environment to take advantage of the latest benefits in
-cloud computing&mdash;flexibility, scalability, elasticity&mdash;along with the
-benefits of traditional dedicated hosting&mdash;enhanced security and
+cloud computing - flexibility, scalability, elasticity - along with the
+benefits of traditional dedicated hosting - enhanced security and
 performance characteristics. RackConnect is compatible with our
 dedicated [Managed and Intensive service
 levels](http://www.rackspace.com/managed-hosting/service-levels/) and

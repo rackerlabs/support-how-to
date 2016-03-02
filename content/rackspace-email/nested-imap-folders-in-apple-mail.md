@@ -34,13 +34,13 @@ issue.
 You can change the IMAP prefix in the advanced settings of the IMAP
 mailbox, as follows:
 
-1. Select **Mail &gt; Preferences &gt; Accounts**.
+1. Select **Mail > Preferences > Accounts**.
 2. Select the IMAP account.
 3. Click the **Advanced** tab.
 4. Try one or both of the following possible fixes:
 
     - Change the case of the prefix. For example, change INBOX to Inbox.
-    - Add a slash (/) at the end of the prefix&mdash;for example, INBOX/ or Inbox/. A slash helps Apple Mail recognize that the path ends in a folder.
+    - Add a slash (/) at the end of the prefix - for example, INBOX/ or Inbox/. A slash helps Apple Mail recognize that the path ends in a folder.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_1.jpg" width="542" height="560" />
 

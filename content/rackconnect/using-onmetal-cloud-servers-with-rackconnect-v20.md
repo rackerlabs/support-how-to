@@ -15,9 +15,9 @@ product_url: rackconnect
 
 Rackspace now supports OnMetal Cloud Servers with RackConnect. This
 means you can now enjoy the benefits of OnMetal Cloud
-Servers&mdash;single-tenant, bare-metal, API-driven&mdash;combined with the features
-of RackConnect&mdash;public IP address provisioning, network stack
-configuration, software firewall updates&mdash;to create your own custom
+Servers - single-tenant, bare-metal, API-driven - combined with the features
+of RackConnect - public IP address provisioning, network stack
+configuration, software firewall updates - to create your own custom
 hybrid solution that spans your dedicated, cloud, and OnMetal server
 environments.
 

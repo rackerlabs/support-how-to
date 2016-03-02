@@ -13,7 +13,7 @@ product_url: cloud-backup
 
 Some users are used to taking snapshots of their Cloud Server [product
 page](http://www.rackspace.com/cloud/servers) as a backup. If you have
-a solution where you want to save the server&rsquo;s state or configuration,
+a solution where you want to save the server's state or configuration,
 or want to keep gold copies of your system, then you can create an image
 backup of the server. Because it is an image of the whole server, there
 is really no control over the individual files. You cannot, say, recover
@@ -36,7 +36,7 @@ Moreover, Rackspace Cloud Backup is also an **INCREMENTAL backup** tool
 in that it only copies the portion of the files that changed for those
 files that actually changed. This gives you some flexibility because,
 with the exception of your first complete backup, every subsequent
-backup is just a &ldquo;delta&rdquo; of the previous backup, which makes for faster
+backup is just a "delta" of the previous backup, which makes for faster
 backup and restores operations and also reduces the storage required. As
 you probably know, image backups are not incremental: they copy the
 whole system every time.

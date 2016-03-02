@@ -40,7 +40,7 @@ email addresses of the recipients on the distribution list.
 Example: If you send an email from your Rackspace Email account to the
 ABC distribution list that exists in Microsoft Exchange, the archive
 will only reflect that an email was sent to the list without recording
-the individual recipients&rsquo; names in the **To** field.
+the individual recipients' names in the **To** field.
 
 #### Group lists ####
 

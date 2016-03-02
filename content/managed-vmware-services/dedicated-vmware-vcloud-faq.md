@@ -57,7 +57,7 @@ A vCloud environment is limited on a per-cell basis to 5,000 logged-in users and
 
 #### Is the same infrastructure used for login information if I have multiple vCloud environments in a single data center? {#access-infra}
 
-Each vCloud environment is self-contained, with its own set of user accounts. Rackspace can provide a single authentication source for all environments&mdash;for example, for all environments in the Intensive domain. Rackspace can create the same local users across all environments.
+Each vCloud environment is self-contained, with its own set of user accounts. Rackspace can provide a single authentication source for all environments; for example, for all environments in the Intensive domain. Rackspace can create the same local users across all environments.
 
 #### What single sign-on (SSO) capabilities are provided? {#access-sso}
 

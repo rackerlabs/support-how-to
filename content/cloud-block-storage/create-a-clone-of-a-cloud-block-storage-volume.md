@@ -76,7 +76,7 @@ Steps to create a volume clone:
 
 2\.  Click the **Clone Volume** link.
 
-3\.  Give the new volume a name. The default is the volume's name followed by the &ldquo;-clone&rdquo; suffix.
+3\.  Give the new volume a name. The default is the volume's name followed by the "-clone" suffix.
 
 4\.  Specify the volume type and size.
 
@@ -98,12 +98,12 @@ clone.
 
 2\. A CBS volume can be deleted by either
 
--   Selecting "Delete Volume&rdquo; from the Actions button on the Volume
+-   Selecting "Delete Volume" from the Actions button on the Volume
     Details screen.
 
     or
 
--   Selecting "Delete Volume&rdquo; from the Action cog next to the Volume
+-   Selecting "Delete Volume" from the Action cog next to the Volume
     name in the Block Storage Volumes screen.
 
 

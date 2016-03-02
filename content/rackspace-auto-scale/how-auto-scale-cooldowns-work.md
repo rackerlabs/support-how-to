@@ -45,7 +45,7 @@ not be acted upon and do not iterate.
 
 This feature is mostly used to ensure that servers being added in a
 scale-up have enough time to fully deploy. The required minimum cooldown
-is not about how many servers you may add at once&mdash;all servers are added
+is not about how many servers you may add at once - all servers are added
 at the same time. It is about the complexity of the servers that you are
 adding. If the servers that you add are very complex, they need a longer
 minimum cooldown period in order to fully deploy. You should set the

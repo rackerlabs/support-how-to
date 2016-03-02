@@ -75,7 +75,7 @@ cluster on port 9022. In Linux, the command line would be as follows:
 
 or you can use the lava CLI, as follows:
 
-    lava scp &mdash;hdfs &mdash;dest-path /user/<myusername>/some/file/path importantdata.txt clustername
+    lava scp -hdfs -dest-path /user/<myusername>/some/file/path importantdata.txt clustername
 
 ### Data resides in another cluster
 
@@ -91,4 +91,3 @@ to communicate.
 
 We are working to support additional data transfer tools, such as Flume
 and Sqoop. If you have questions or need additional help, contact us.
-

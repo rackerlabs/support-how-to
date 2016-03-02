@@ -33,8 +33,8 @@ customer needs to purge an entire container, they can simply contact our
 Fanatical Support team for assistance.
 
 Purging content from edge servers is a great feature to have for CDN,
-especially when you&rsquo;re really in a pickle. However, edge purge isn&rsquo;t
-your only option for controlling your content on the edge.  Let&rsquo;s review
+especially when you're really in a pickle. However, edge purge isn't
+your only option for controlling your content on the edge.  Let's review
 some best practices for when and when not to use edge purge to control
 your content.
 
@@ -96,4 +96,4 @@ As a rule of thumb, try other plans first.  If you can solve your needs
 by using a low TTL or versioning your objects, these are great first
 options.  Of course, edge purge is always available as a last resort.
  Still not sure?  Feel free to comment on this article, or contact one
-of our Fanatical Support&reg; reps.  We&rsquo;re here to help!
+of our Fanatical Support&reg; reps.  We're here to help!

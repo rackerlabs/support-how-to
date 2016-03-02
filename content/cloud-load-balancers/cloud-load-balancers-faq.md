@@ -203,8 +203,8 @@ SSL-enabled load balancer, that unencrypted data is sent over the public
 Internet to those nodes. Therefore we recommend that you use an
 SSL-enabled load balancer **only with nodes that reside in the same data
 center as the load balancer.** The proximity allows the load balancer to
-use the nodes&rsquo; private IP addresses (the ServiceNet) to limit
-unencrypted traffic to within the data center&rsquo;s network, as illustrated
+use the nodes' private IP addresses (the ServiceNet) to limit
+unencrypted traffic to within the data center's network, as illustrated
 in the following diagram.
 
 (sslterminationsFAQpic.png)

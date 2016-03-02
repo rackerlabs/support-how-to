@@ -79,7 +79,7 @@ certificate:
     site can be the IP address of the server or load balancer for
     your site. Additionally, it is a good practice to use a domain name
     for your origin. To do this, simply create a DNS A record for your
-    origin &mdash; for example, **origin.example.com = 12.345.6.789**. You can
+    origin - for example, **origin.example.com = 12.345.6.789**. You can
     add additional origins to the service after the service is created.
 
 

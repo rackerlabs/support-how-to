@@ -41,7 +41,7 @@ Razor is installed and running, you can proceed with configuring Razor
 to deploy RPCS.
 
 After installing Razor, set it up to install your preferred OS on servers that come online. To help with the
-installation process itself, Razor uses a Microkernel, or the MK, that boots from the network and lives in memory until a real target operating system can be installed. The MK is a Tiny-Core Linux based, and is used on first boot and as the default boot image for any nodes. Doing this allows Razor to collect data on the node (similar to Chef&rsquo;s ohai) which is then used in tagging and policies.
+installation process itself, Razor uses a Microkernel, or the MK, that boots from the network and lives in memory until a real target operating system can be installed. The MK is a Tiny-Core Linux based, and is used on first boot and as the default boot image for any nodes. Doing this allows Razor to collect data on the node (similar to Chef's ohai) which is then used in tagging and policies.
 
 To enable Razor to boot a server, add a Microkernal (MK) image to Razor. For more information, 
 about Microkernel, see [Razor-mkkernel wiki](https://github.com/puppetlabs/Razor-Microkernel/wiki)
@@ -63,17 +63,17 @@ distributions of Linux (and soon Windows) to Razor. These in turn can be
 applied to nodes using different policies.
 
 Each OS requires its own model setup in Razor. Models manage OS related
-data, we are going to create &ldquo;ubuntu\_precise&rdquo; model. While creating the
+data, we are going to create "ubuntu\_precise" model. While creating the
 model, use the UUID from previous command here:
 
     $ razor model add -t ubuntu_precise -l install_precise -i
 
 Create a policy for servers with two CPUs and 8 GB of memory:
 
-    $ razor policy add &ndash;t linux_deploy -l precise -m  -t cpus_2,memsize_8GiB -e true
+    $ razor policy add -t linux_deploy -l precise -m  -t cpus_2,memsize_8GiB -e true
 
 **Note:** You can find additional tags for your nodes that razor has
-discovered by using the &lsquo;razor node&rsquo; command.*
+discovered by using the 'razor node' command.*
 
 At this point, you are ready to do
 automated installs, but not yet ready for the automated hand off to
@@ -174,12 +174,12 @@ different roles. For example:
 Install a controller node by adding
 ``single-controller`` role to its `run\_list`:
 
-    $ knife node run_list add <controller_node_name> &lsquo;role[single-controller]&rsquo;
+    $ knife node run_list add <controller_node_name> 'role[single-controller]'
 
 Install a compute node by adding
 ``single-compute``role to its `run\_list`:
 
-    $ knife node run_list add <compute_node_name> &lsquo;role[single-compute]&rsquo;
+    $ knife node run_list add <compute_node_name> 'role[single-compute]'
     $ chef-client
 
 As soon as we run the chef-client on
@@ -284,7 +284,7 @@ matching the specifications will be installed as Cinder nodes anytime
 they come online.
 
 Create Cinder specific tags for this
-example. Add the tag, followed by tag &ldquo;matchers&rdquo;. Each matcher is based
+example. Add the tag, followed by tag "matchers". Each matcher is based
 on server specific metadata that Razor Microkernel collects. 
 
     $ razor tag add -n cinderTags -t cinder

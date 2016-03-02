@@ -40,7 +40,7 @@ Currently, HA is supported for MySQL 5.6, Percona 5.6, and MariaDB 10.
     users can redirect writes and reads to source and replica instances
     (within the HA setup) respectively.
 
-**Note:** The user&rsquo;s application must be able to direct the reads and
+**Note:** The user's application must be able to direct the reads and
 writes to a specific endpoint.
 
 ### Technical/architecture details
@@ -141,5 +141,5 @@ balancer nodes.
 -   There will be a small delay between the source and the replicas.
 -   The HA setup might take anywhere between 5-10 minutes, depending on
     the number of replicas. Because it requires creation of multiple
-    nodes, allow some time for the HA instance&rsquo;s `status` property to
+    nodes, allow some time for the HA instance's `status` property to
     display as ACTIVE when performing a GET in the API.

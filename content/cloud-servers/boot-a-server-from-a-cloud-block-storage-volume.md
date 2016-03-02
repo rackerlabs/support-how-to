@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 **Note**: Large Snapshots will not work with boot from volume. Currently snapshots have a min_disk based on the flavor size for example 160GB. Nova expands the file system to fill that entire vhd, qemu-img cannot handle files that are 127GB and larger. This means that if the flavor from which a snapshot was taken has a disk size or the min_disk is >= 127GB, that snapshot will not work.  This will result in a HTTP 412 invalid image when done via the API.
 
-You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as &ldquo;shelving,&rdquo; and improvements in managing and recovering from server outages.
+You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as "shelving," and improvements in managing and recovering from server outages.
 
 ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-1.png)
 
@@ -23,9 +23,9 @@ You can now boot most cloud servers from a network-attached [Cloud Block Storage
 
 Booting from a Cloud Block Storage volume provides the following benefits:
 
-- **Resiliency** &ndash; Cloud Block Storage is a persistent volume and you can retain it after the server is deleted. You can then use the image to create a new server.
-- **Scale** &ndash; If you want to change the size of your server, you can easily delete your existing server and create a new one by using the same volume in Cloud Block Storage. If the IP address is important to your use case, we recommend placing a load balancer in front of the server.
-- **Flexibility** &ndash; You have control over the size and type (SSD or SATA) of volume that you use to boot your server. This control enables you to fine-tune the storage to the needs of your operating system or application.
+- **Resiliency** - Cloud Block Storage is a persistent volume and you can retain it after the server is deleted. You can then use the image to create a new server.
+- **Scale** - If you want to change the size of your server, you can easily delete your existing server and create a new one by using the same volume in Cloud Block Storage. If the IP address is important to your use case, we recommend placing a load balancer in front of the server.
+- **Flexibility** - You have control over the size and type (SSD or SATA) of volume that you use to boot your server. This control enables you to fine-tune the storage to the needs of your operating system or application.
 
 You can get started through the [Control Panel](https://mycloud.rackspace.com) or through the [API](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
 

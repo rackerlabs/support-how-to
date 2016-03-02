@@ -24,7 +24,7 @@ storage device. Attaching a Cloud Block Storage Volume can be
 accomplished via the API or through Control Panel.
 
 **Mount:** Mounting is generally done once a volume has been attached
-and formatted for use by a computer&rsquo;s operating system. Mounting is the
+and formatted for use by a computer's operating system. Mounting is the
 process in which a user instructs the operating system how to logically
 map the directory structure to a physical storage device. You can only
 mount a volume through the computer's operating system.

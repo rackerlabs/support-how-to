@@ -142,7 +142,7 @@ transaction log backup according to the following instructions.
     databases**).
 2.  Do *not* select the **Backup set will expire** check box.
     Expiration of transaction log backups is configured in the next
-    section, &ldquo;Set up the transaction log cleanup task."
+    section, "Set up the transaction log cleanup task."
 3.  Select your backup media (typically **Disk**).
 4.  Specify a location (either Default or as assigned by you) for your
     backup files.

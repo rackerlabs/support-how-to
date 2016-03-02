@@ -29,7 +29,7 @@ other /24 subnet.
 **Note:** This assumes that the cloud servers have their default gateways
 pointed at the Vyatta (much in the same way a cloud server gets "rack
 connected" to an ASA or an F5). If you wish to continue to your cloud
-servers&rsquo; public interface for Internet access and the cloud networks
+servers' public interface for Internet access and the cloud networks
 interface for VPN only traffic, your server admin will need to create a
 static route on the cloud server for the remote VPN encryption domain
 that points at the Vyatta's cloud network IP address.

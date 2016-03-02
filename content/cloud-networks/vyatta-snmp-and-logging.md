@@ -137,7 +137,7 @@ destinations, logging levels, and facility numbers.
 | file    | Logging to a file (stored in `/var/log/user/`) |
 | global  | Logging to system standard location            |
 | host    | Logging to a remote host                       |
-| user    | Logging to specific user&rsquo;s terminal      |
+| user    | Logging to specific user's terminal      |
 
 **Logging levels**
 

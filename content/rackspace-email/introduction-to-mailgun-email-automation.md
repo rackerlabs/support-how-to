@@ -76,7 +76,7 @@ most email applications. However, SMTP may not be the first choice for
 coding due to MIME format underpenings. Sending via HTTP provides a
 simpler approach. With HTTP the application simply posts the content as
 parameters to Mailgun. The parameters match those required when sending
-a normal email: &ldquo;From&rdquo;, &ldquo;To&rdquo;, &ldquo;Cc&rdquo;, &ldquo;Bcc&rdquo;, &ldquo;Subject&rdquo; and so on.
+a normal email: "From", "To", "Cc", "Bcc", "Subject" and so on.
 
 Let's take a look at a trivial cURL example.
 

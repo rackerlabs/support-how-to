@@ -94,7 +94,7 @@ the file):
     </IfModule>
 
 The default NameVirtualHost setting satisfies the requirements at
-present &mdash; Apache will apply named based virtual host logic and settings
+present - Apache will apply named based virtual host logic and settings
 for HTTP requests made on any available interface (\*) at port 80.
 
 **Note**: The placement of the default NameVirtualHost directive in

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Keeping your system&rsquo;s date and time accurate is easy to do using NTP.
+Keeping your system's date and time accurate is easy to do using NTP.
 
 Having an accurate clock on your server ensures that time stamps in
 emails sent from your machine are correct. An accurate clock is
@@ -67,22 +67,22 @@ running:
 
 #### Arch:
 
-    sudo pacman &ndash;Sy ntp
+    sudo pacman -Sy ntp
 
 Once installed, you can ensure the service will run at boot time by
-adding &ldquo;ntpd&rdquo; to the &ldquo;DAEMONS&rdquo; value in the rc.conf file here:
+adding "ntpd" to the "DAEMONS" value in the rc.conf file here:
 
     /etc/rc.conf
 
 #### Gentoo:
 
-    sudo emerge &ndash;sync
+    sudo emerge -sync
     sudo emerge ntp
 
 Once installed, you can ensure the service will run at boot time by
 running:
 
-    sudo ln &ndash;s /etc/init.d/ntpd /etc/runlevels/default
+    sudo ln -s /etc/init.d/ntpd /etc/runlevels/default
 
 ### Start the service
 

@@ -22,7 +22,7 @@ procedure.
 You might want to create a domain alias if, for example, your company
 owns several domains (for example, **mycompany.com**, **mycompany.biz**,
 and **mycompany.us**), and you want to direct all incoming email to the
-company&rsquo;s primary domain. If you assign **mycompany.biz** and
+company's primary domain. If you assign **mycompany.biz** and
 **mycompany.us** as domain aliases, email that is sent to mailboxes at
 the aliases will be automatically redirected to a mailbox on the primary
 domain, **mycompany.com**.
@@ -31,14 +31,14 @@ The type of email hosting service that you use determines the relevant
 terminology ("domain alias" versus "accepted domain") and functionality
 (such as how email is redirected):
 
--   Domain alias&mdash;If you are a Rackspace Email customer, you will create
+-   Domain alias - If you are a Rackspace Email customer, you will create
     a domain alias. Email sent to the domain alias is automatically
     directed to the corresponding mailbox in the original domain. For
     example, if **mycompany.biz** is a domain alias **for
     mycompany.com**, when someone sends an email to
     **bob@mycompany.biz** it is  automatically redirected to
     **bob@mycompany.com**.
--   Accepted domain&mdash;If you are a Microsoft Exchange customer, you create
+-   Accepted domain - If you are a Microsoft Exchange customer, you create
     an accepted domain. Email sent to the accepted domain can be
     automatically directed to any mailbox that you specify.
 

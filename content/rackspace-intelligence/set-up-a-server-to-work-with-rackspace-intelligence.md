@@ -24,7 +24,7 @@ Panel](https://mycloud.rackspace.com/) by following these steps:
     For instructions on creating a server, see
     [Create a Cloud Server](/how-to/create-a-cloud-server).
 3.  List the server's details by selecting **Servers &gt; Cloud
-    Servers** and then clicking the server&rsquo;s name.
+    Servers** and then clicking the server's name.
 
     ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/servers-list-details-.png)
 

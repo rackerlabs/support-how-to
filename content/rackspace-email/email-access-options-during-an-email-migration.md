@@ -37,7 +37,7 @@ even though their email clients have not yet been configured.
 This option is primarily for users who access their email from a
 web-based interface.  If you use this option, you can communicate with
 your users ahead of time and inform them that they must access their
-email from a new URL, <https://apps.rackspace.com>, by your &ldquo;go live&rdquo;
+email from a new URL, <https://apps.rackspace.com>, by your "go live"
 date.
 
 End users requiring a desktop email client connection can get setup
@@ -79,13 +79,13 @@ differential mail data and that account becomes the primary account.
 
 #### Tips for certain versions of Outlook
 
-**Outlook 2007**&mdash;Outlook 2007 does not support multiple Exchange
+**Outlook 2007** - Outlook 2007 does not support multiple Exchange
 accounts in the same profile. Therefore, a new profile must be created
 through the Windows Control Panel. IMAP and POP for Rackspace Email can
 simply be added into the same profile. For instructions on creating a
 new profile for Exchange, see [Manually configure Outlook 2007 for email hosted on Exchange 2010](/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2010).
 
-**Outlook 2010+**&mdash;Both Exchange and Rackspace Email accounts can be
+**Outlook 2010+** - Both Exchange and Rackspace Email accounts can be
 added to the same profile.  Creating a new profile is not necessary with
 newer versions of Outlook.
 
