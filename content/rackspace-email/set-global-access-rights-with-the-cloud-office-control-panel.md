@@ -27,9 +27,9 @@ To adjust access rights for an entire domain, perform the following steps:
     accessing email that is stored on the email server.
 
     **Note:** **SSL** and **TLS** indicate that the services incorporate
-    security technology to protect the user&rsquo;s data.
+    security technology to protect the user's data.
 
-    -   **POP3 and POP3 (SSL)**&mdash;Email is downloaded to the user&rsquo;s computer and is then deleted from the email server. This option is best for users who consistently use the same computer.
+    -   **POP3 and POP3 (SSL)**&mdash;Email is downloaded to the user's computer and is then deleted from the email server. This option is best for users who consistently use the same computer.
 
     -   **IMAP and IMAP (SSL)**&mdash;Email is stored on the email server only. The user manages email directly from the server, rather than downloading the email to
     a computer. This option is best for users who need to manage email

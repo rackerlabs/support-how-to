@@ -45,7 +45,7 @@ it abides by all the rules during its boot process, but when confronted
 with reality, it will become so confused and embarrassed that it will
 isolate itself from all communication on the network and shut down all
 Directory Services attributes &ndash; which means you will never make it past
-a login prompt and you&rsquo;ll have to boot into Directory Services Restore
+a login prompt and you'll have to boot into Directory Services Restore
 Mode to clean up the metadata.</span>
 
 **Note**: You cannot clone a Rackspace Cloud

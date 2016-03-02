@@ -16,14 +16,14 @@ Cloud Servers using python-novaclient.
 
 ### Nova Client Operations
 
-Now that you&rsquo;ve installed the nova client on a
+Now that you've installed the nova client on a
 [Windows](/how-to/installing-python-novaclient-on-windows),
 [Linux](/how-to/installing-python-novaclient-on-linux-and-mac-os),
 or [Mac OS
 X](/how-to/installing-python-novaclient-on-linux-and-mac-os)
-machine, it&rsquo;s time to look at what you can do with it.
+machine, it's time to look at what you can do with it.
 
-We&rsquo;ll assume you&rsquo;ve run through the installation and the client is
+We'll assume you've run through the installation and the client is
 working with your Cloud Servers account. If not, see the previous
 articles in this series for installation instructions.
 
@@ -44,16 +44,16 @@ server, run:
 Note that not every command in the list will work with Cloud Servers.
 The nova client is written for use with OpenStack, not for the Rackspace
 Cloud specifically. Thus, some of the commands refer to operations that
-haven&rsquo;t been implemented on Cloud Servers yet, while others are there to
+haven't been implemented on Cloud Servers yet, while others are there to
 manage a full OpenStack installation.
 
-We&rsquo;ll walk through the more common operations that will work with
+We'll walk through the more common operations that will work with
 Rackspace Cloud Servers and how to use them.
 
 ### Note on spaces
 
 If you want to refer to a server or image by name and the name has a
-space in it, remember to put the name in quotes so the client knows it&rsquo;s
+space in it, remember to put the name in quotes so the client knows it's
 a single argument.
 
 ### More common commands
@@ -68,7 +68,7 @@ The "list" command returns a list of the servers on your account. Just
 to limit the list by a range of IP addresses or to show you servers with
 a particular status.
 
-The output shows the server&rsquo;s unique ID in the first column, then the
+The output shows the server's unique ID in the first column, then the
 server name, then the server status, and the final column shows the
 network addresses associated with the server.
 
@@ -89,8 +89,8 @@ Example:
 #### image-list
 
 The "image-list" command displays a list of images available for use
-when creating a server. You&rsquo;ll see both Rackspace-built images and
-images you&rsquo;ve created yourself with "image-create".
+when creating a server. You'll see both Rackspace-built images and
+images you've created yourself with "image-create".
 
 The format is similar to a server list command. The leftmost column
 shows the image ID, the next column shows the image name, then the image
@@ -123,7 +123,7 @@ Example:
 To create a new Cloud Server you use the "boot" command. At its
 simplest, you tell the boot command what flavor to use with the
 "&ndash;flavor" option, what image to use as the base with the "&ndash;image"
-option, and then include the name of the server you&rsquo;re creating as an
+option, and then include the name of the server you're creating as an
 argument for the command.
 
 You can see a list of flavors with the "flavor-list" command and a list
@@ -169,7 +169,7 @@ Example:
 
 ### Less common commands
 
-These are commands that are also useful, but aren&rsquo;t necessarily used as
+These are commands that are also useful, but aren't necessarily used as
 often as that first batch.
 
 #### show
@@ -249,7 +249,7 @@ Example:
 #### rename
 
 The "rename" command renames a server. The first argument is the
-server&rsquo;s current name or its ID. The second argument is the new name.
+server's current name or its ID. The second argument is the new name.
 
 Example:
 
@@ -258,7 +258,7 @@ Example:
 #### rescue
 
 The "rescue" command will put a server into rescue mode, allowing you to
-access and modify the instance&rsquo;s file system while the server is
+access and modify the instance's file system while the server is
 inactive. The output of the command is the root password used by the
 rescue instance.
 
@@ -278,7 +278,7 @@ Example:
 #### root-password
 
 Change the root password for an instance using the "root-password"
-command. Use the server name as the command&rsquo;s argument, then you&rsquo;ll be
+command. Use the server name as the command's argument, then you'll be
 asked to enter the new password.
 
 Example:
@@ -318,7 +318,7 @@ Example:
 The "absolute-limits" command will output limits set on your account.
 The limits can include the maximum number of metadata pairs you can
 associate with an image or server, the maximum number and size of
-"personalities" (files) you can install to a server when it&rsquo;s created,
+"personalities" (files) you can install to a server when it's created,
 the maximum number of servers allowed on your account, and the maximum
 amount of memory that can be allocated in total to all the servers on
 your account.

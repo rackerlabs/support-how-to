@@ -103,7 +103,7 @@ Larger Size | Smaller Size
 
 #### Effective Restores
 
-It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren&rsquo;t available because you haven't been configured as you expected.
+It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren't available because you haven't been configured as you expected.
 
 &nbsp; | &nbsp;
 --- | ---

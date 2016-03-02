@@ -192,5 +192,5 @@ configuration.
 
 For additional information about Hortonworks Data Platform (HDP) in the
 Rackspace Cloud environment, see the Hortonworks blog post, [OpenStack:
-why it&rsquo;s so great to see HDP in Rackspace
+why it's so great to see HDP in Rackspace
 cloud.](http://hortonworks.com/blog/openstack-why-its-so-great-to-see-hdp-in-rackspace-cloud/)

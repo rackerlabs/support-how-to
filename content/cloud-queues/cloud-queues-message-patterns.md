@@ -75,7 +75,7 @@ more consumers or subscribers of an event, as follows:
   messages, the subscriber should poll more often, or both.
 
 - **Step 2 - variation 3:** All messages have been listed. The subscriber gets an empty
-  response, and continues to periodically list messages using the queue&rsquo;s
+  response, and continues to periodically list messages using the queue's
   last known marker, until it gets a non-empty response.
 
 - **Step 2 - variation 4:** The subscriber crashes before it can get message X. A process
@@ -101,7 +101,7 @@ message.
 ***A couple steps in the process can have the following variations***:
 
 - **Step 2 - variation 1:** The agent could claim messages, but it is slower than simply listing
-  messages, and claiming isn&rsquo;t necessary when only one client will ever
+  messages, and claiming isn't necessary when only one client will ever
   read from the queue.
 
 

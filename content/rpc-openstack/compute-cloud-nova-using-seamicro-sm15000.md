@@ -17,7 +17,7 @@ to cloud service providers find innovative ways to adhere to the high
 demands of availability, performance, efficiency, and
 cost-effectiveness.
 
-AMD&rsquo;s SeaMicro SM15000&trade; brings together compute, storage, and networking
+AMD's SeaMicro SM15000&trade; brings together compute, storage, and networking
 very effectively to solve huge costs and space issues with hardware
 required to operate a cloud. This paper describes the SeaMicro fabric,
 architecture, and tips to realize a compute cloud using Rackspace
@@ -123,7 +123,7 @@ multiple paths between any two components in the system, which allows
 system for easy routing during node failures.
 
 Each SeaMicro fabric comes with 6 slots for AC/DC power supplies and 4
-optional slots. Failure of a single power supply doesn&rsquo;t have any impact
+optional slots. Failure of a single power supply doesn't have any impact
 on the system availability and operation.
 
 ### Installation

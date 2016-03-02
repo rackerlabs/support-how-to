@@ -33,7 +33,7 @@ following user types:
     create a new search and can change the scope of a search only if
     that right has been assigned to them by the Search Administrator.
 
--   **End User (EU)** &mdash; Permits access to an individual user&rsquo;s mailbox
+-   **End User (EU)** &mdash; Permits access to an individual user's mailbox
     archive. Users with this can review, search, or recover any of their
     own email by logging into the archive site (for example,
     `http://yourdomain.archivesrvr.com`).
@@ -90,7 +90,7 @@ Use the following steps to add individual users to the Archive Manager.
       those users whose access should be limited.
     - **Account Disabled**: Disable users from accessing
       their account.
-    - **Account Locked**: Lock or unlock a user&rsquo;s account.
+    - **Account Locked**: Lock or unlock a user's account.
     - **Disable password recovery**: Disable the feature that allows
       users to reset their password on the login screen.
     - **Disable Outlook Integration**: Selected by default, an

@@ -119,7 +119,7 @@ After setting up replication, you should periodically monitor your replicas to e
       return new AlarmStatus(WARNING, 'Replica I/O thread is not running');
     }
 
-**slave\_SQL\_running:** This variable is a part of the `Show Slave` status and its value can be `Yes` or `No`. It tells whether the replica&rsquo;s SQL thread has started and is working well. If the value is `No`, you can look at `Last_SQL_Errno` and `Last_SQL_Error` for more error information.
+**slave\_SQL\_running:** This variable is a part of the `Show Slave` status and its value can be `Yes` or `No`. It tells whether the replica's SQL thread has started and is working well. If the value is `No`, you can look at `Last_SQL_Errno` and `Last_SQL_Error` for more error information.
 
     if (metric['replication.slave_sql_running'] == "No") {
 

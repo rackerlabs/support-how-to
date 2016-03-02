@@ -62,7 +62,7 @@ You can create a cluster through the Cloud Control Panel as follows:
         credentials for Cloud Files.
 
 5.  After the status changes to Active, use SSH to log in to your
-    Gateway node&rsquo;s PublicNet IP address, using the username and ssh key
+    Gateway node's PublicNet IP address, using the username and ssh key
     that you provided at cluster creation.
 
     <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/logintoYourCluster_0.png" width="369" height="385" />

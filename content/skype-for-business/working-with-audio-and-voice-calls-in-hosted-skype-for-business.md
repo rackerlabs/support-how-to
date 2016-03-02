@@ -21,7 +21,7 @@ answer audio calls through the application, as described in the following sectio
 ### Set up your audio device
 
 Before you use Skype for Business to make or join an audio call, set up
-your audio device and check the quality. You can use your computer&rsquo;s
+your audio device and check the quality. You can use your computer's
 microphone and speakers, or you can use a headset or earphones.
 
 1.  In the lower-left corner of the Skype for Business main window,

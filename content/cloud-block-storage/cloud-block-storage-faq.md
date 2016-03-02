@@ -20,7 +20,7 @@ volume or 75 GB for an SATA volume. The maximum volume size is 1 TB.
 
 #### What is the maximum number of Cloud Block Storage volumes I can attach to a single server instance?
 
-Depending on your Cloud Server&rsquo;s operating system, you can have up to a
+Depending on your Cloud Server's operating system, you can have up to a
 maximum of 14 Cloud Block Storage volumes attached to a single server.
 
 #### What is the default maximum capacity of Cloud Block Storage that can be consumed by a single customer account?
@@ -115,7 +115,7 @@ platforms, but not first-generation Cloud Servers.
 
 #### When I am using a volume, how can I know how much space I have left?
 
-You can verify a volume&rsquo;s capacity and available space using basic
+You can verify a volume's capacity and available space using basic
 system commands available via their Cloud Server operating system:
 
 -   In Linux CLI: From a terminal window, run the "df -h" command and
@@ -197,7 +197,7 @@ snapshot. You first create snapshot from your existing volume, which
 gets stored in Cloud Files. Second, you create a new volume using your
 snapshot as the source. This process requires writing snapshot data in
 and out of Cloud Files so it can take longer than the Cloning Method.
-This method is recommended if you don&rsquo;t require quick access to your
+This method is recommended if you don't require quick access to your
 copied volumes and want the added durability, and lower price, of having
 your volume snapshot stored in Cloud Files.
 

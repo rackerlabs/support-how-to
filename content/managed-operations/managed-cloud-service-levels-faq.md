@@ -59,12 +59,12 @@ Infrastructure or Managed Operations service levels.
 Customers who have the Infrastructure Service Level will be
 grandfathered into their current pricing plan and will continue to
 receive the same support as always, along with the enhancements that
-we&rsquo;re announcing.
+we're announcing.
 
 #### Is Rackspace improving the support experience?
 
 Yes, we are always looking at ways to improve our support. We expect
-that our pricing changes will cause some new customers who don&rsquo;t value
+that our pricing changes will cause some new customers who don't value
 support to choose other providers. As a result, we will be able to shift
 more resources to serve customers who do value support and are willing
 to pay for it.
@@ -80,7 +80,7 @@ There are five foundational components to ***Fanatical Support**&reg;*:
     workload to help identify potential vulnerabilities and enable more
     secure deployments.
 -   **Code development assistance**: Standard developer guides alone
-    aren&rsquo;t enough. Use our experts for your code, leveraging our
+    aren't enough. Use our experts for your code, leveraging our
     interfaces (for example. APIs and SDKs) to the fullest.
 -   **Launch assistance**: Use our specialists to help understand your
     unique needs and get up and running fast.

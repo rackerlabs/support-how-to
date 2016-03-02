@@ -22,7 +22,7 @@ procedure.
 You might want to create a domain alias if, for example, your company
 owns several domains (for example, **mycompany.com**, **mycompany.biz**,
 and **mycompany.us**), and you want to direct all incoming email to the
-company&rsquo;s primary domain. If you assign **mycompany.biz** and
+company's primary domain. If you assign **mycompany.biz** and
 **mycompany.us** as domain aliases, email that is sent to mailboxes at
 the aliases will be automatically redirected to a mailbox on the primary
 domain, **mycompany.com**.

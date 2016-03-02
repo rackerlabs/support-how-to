@@ -124,7 +124,7 @@ Before you share an image, consider the following questions:
     distribution is allowed by each vendor's software license.
 -   Does the image contain any of your sensitive information? Before
     sharing an image, boot a new server from it in your own account.
-    Log in to the server and verify that the image doesn&rsquo;t contain any
+    Log in to the server and verify that the image doesn't contain any
     private encryption keys or other sensitive information.
 -   Is there any malicious software on the image? You are expected to
     follow the Rackspace [Acceptable Use

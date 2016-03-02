@@ -79,7 +79,7 @@ the cog icon next to the user name:
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbmodifyusers.png" width="397" height="245" />
 
 -   Edit the user name and host
--   Change the user&rsquo;s password
+-   Change the user's password
 -   Delete the user
 -   Manage database access (grant or revoke access to
     specific databases)
@@ -163,7 +163,7 @@ the preceding step:
 Step 4: In MySQL, set up read permissions for DevUser1 by using the
 GRANT statement:
 
-    $ GRANT SELECT on DBStaging1 to &lsquo;DevUser1&rsquo;@&rsquo;hostname&rsquo;;
+    $ GRANT SELECT on DBStaging1 to 'DevUser1'@'hostname';
 
 **Note:**  You can reset the root user password by making subsequent
 calls to enable the root user.

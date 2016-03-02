@@ -89,7 +89,7 @@ The Sender Policy Framework (SPF) record is a DNS record designed to
 combat and reduce spam for your domain. SPF records help mail servers
 identify unauthorized use of your domain in the form of forgeries
 (spoofing). SPF records also help improve your email deliverability rate
-by preventing the email that you send from landing in a recipient&rsquo;s spam
+by preventing the email that you send from landing in a recipient's spam
 or junk mail inbox.
 
 To have an SPF record implemented, contact your DNS hosting provider and

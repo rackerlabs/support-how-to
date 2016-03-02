@@ -44,7 +44,7 @@ feature available within the [MyRackspace
 portal](https://my.rackspace.com/).
 
 You can view the IP addresses assigned to your cloud servers by querying
-the Cloud Servers API or by looking up the cloud server&rsquo;s details in the
+the Cloud Servers API or by looking up the cloud server's details in the
 MyRackspace portal or the [Cloud Control
 Panel](https://mycloud.rackspace.com/). For example, the following image
 shows the dedicated IP address&mdash;named RackConnect&mdash;for a fully deployed

@@ -36,7 +36,7 @@ Hadoop and its role in Rackspace Private Cloud powered by OpenStack.
 OpenStack is an open cloud standard and implementation that can be used
 to build both public and private clouds. A private cloud is an on-demand
 and scalable server environment reserved for your data alone, whether
-you host it in your datacenter, Rackspace&rsquo;s or any third party&rsquo;s.
+you host it in your datacenter, Rackspace's or any third party's.
 Private cloud is intended for companies who want to host the servers
 themselves for security and compliancy requirements and any other
 reasons they may have.
@@ -52,7 +52,7 @@ power their public and private clouds with OpenStack.
 Software](http://www.rackspace.com/cloud/private/) (RPCS) is a free and
 open source software that can be utilized to launch a cloud powered by
 OpenStack. RPCS provides the same
-cloud platform that powers Rackspace&rsquo;s public cloud, the largest open
+cloud platform that powers Rackspace's public cloud, the largest open
 cloud deployment in the world.
 
 ### Apache Hadoop
@@ -71,7 +71,7 @@ hardware, while delivering high availability and reliability.
 
 ### Challenges of using Hadoop in a virtual machine environment
 
-Hadoop&rsquo;s architecture makes certain assumptions about the underlying
+Hadoop's architecture makes certain assumptions about the underlying
 infrastructure. Hadoop is resilient and is architected to accommodate
 and rebalance stored data and processing as nodes (servers) are added or
 removed to and from the environment. This might sound a perfect fit for
@@ -84,7 +84,7 @@ are three main challenges with Hadoop in a virtualized environment:
 
 -   Virtual disks will add IO overhead.
 -   Virtual machines can be allocated on the same server, breaking
-    Hadoop&rsquo;s redundancy expectations.
+    Hadoop's redundancy expectations.
 -   Hadoop assumes a static infrastructure &ndash; machines can reboot or go
     away but generally recover. The correct approach to deal with a bad
     virtual machine in cloud is to provision a new one.
@@ -93,7 +93,7 @@ are three main challenges with Hadoop in a virtualized environment:
 
 Although Hadoop was originally architected for the world of big-iron,
 the choice of virtual Hadoop is a very appealing one for several
-reasons. With the increasing adoption of cloud, it&rsquo;s very likely that
+reasons. With the increasing adoption of cloud, it's very likely that
 your data is already stored in the cloud, or will be soon. In that case,
 doing the analysis on the data close to where it sits is extremely
 cost-effective. With Hadoop as part of the Rackspace Private Cloud, 
@@ -221,7 +221,7 @@ Login to your master node and launch a job:
     $ cd /usr/lib/hadoop
     $ hadoop jar hadoop-*-examples.jar pi 10 1000000
 
-Job progress can be tracked by using the JobTracker&rsquo;s web UI at
+Job progress can be tracked by using the JobTracker's web UI at
 http://master\_node:50030/
 
 #### Delete a node

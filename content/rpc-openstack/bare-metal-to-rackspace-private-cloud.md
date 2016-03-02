@@ -41,7 +41,7 @@ Razor is installed and running, you can proceed with configuring Razor
 to deploy RPCS.
 
 After installing Razor, set it up to install your preferred OS on servers that come online. To help with the
-installation process itself, Razor uses a Microkernel, or the MK, that boots from the network and lives in memory until a real target operating system can be installed. The MK is a Tiny-Core Linux based, and is used on first boot and as the default boot image for any nodes. Doing this allows Razor to collect data on the node (similar to Chef&rsquo;s ohai) which is then used in tagging and policies.
+installation process itself, Razor uses a Microkernel, or the MK, that boots from the network and lives in memory until a real target operating system can be installed. The MK is a Tiny-Core Linux based, and is used on first boot and as the default boot image for any nodes. Doing this allows Razor to collect data on the node (similar to Chef's ohai) which is then used in tagging and policies.
 
 To enable Razor to boot a server, add a Microkernal (MK) image to Razor. For more information, 
 about Microkernel, see [Razor-mkkernel wiki](https://github.com/puppetlabs/Razor-Microkernel/wiki)
@@ -73,7 +73,7 @@ Create a policy for servers with two CPUs and 8 GB of memory:
     $ razor policy add &ndash;t linux_deploy -l precise -m  -t cpus_2,memsize_8GiB -e true
 
 **Note:** You can find additional tags for your nodes that razor has
-discovered by using the &lsquo;razor node&rsquo; command.*
+discovered by using the 'razor node' command.*
 
 At this point, you are ready to do
 automated installs, but not yet ready for the automated hand off to
@@ -174,12 +174,12 @@ different roles. For example:
 Install a controller node by adding
 ``single-controller`` role to its `run\_list`:
 
-    $ knife node run_list add <controller_node_name> &lsquo;role[single-controller]&rsquo;
+    $ knife node run_list add <controller_node_name> 'role[single-controller]'
 
 Install a compute node by adding
 ``single-compute``role to its `run\_list`:
 
-    $ knife node run_list add <compute_node_name> &lsquo;role[single-compute]&rsquo;
+    $ knife node run_list add <compute_node_name> 'role[single-compute]'
     $ chef-client
 
 As soon as we run the chef-client on

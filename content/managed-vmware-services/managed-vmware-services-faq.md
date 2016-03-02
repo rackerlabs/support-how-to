@@ -127,7 +127,7 @@ required boot time.
 -   Snapshots are stored with the VM and consume your allocated
     storage infrastructure. Snapshots must be carefully managed to
     ensure they don't consume all the disk space.
--   Clones are stored on the Rackspace infrastructure, so they don&rsquo;t use
+-   Clones are stored on the Rackspace infrastructure, so they don't use
     allocated disk resources. You can create one clone per VM.
 -   Templates are stored on the Rackspace infrastructure. You can create
     one template per VM.

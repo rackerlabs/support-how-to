@@ -60,7 +60,7 @@ resend them to the device by using the control panel:
 
 4. Under **BlackBerry**, click the **View Users** link.
 
-5. Click the user&rsquo;s **Display Name**.
+5. Click the user's **Display Name**.
 
 6. Under **Resend Service Books**, click the **Send to Device** button.
 

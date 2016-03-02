@@ -19,7 +19,7 @@ to host machines using iSCSI. Those host machines then present the iSCSI
 volume as a local disk to the instance.
 
 Following the hardware guidelines presented in this paper will accommodate a cluster with up to 1,200 physical CPU cores, 10 Terabytes of physical memory, and 3 Petabytes of storage. For a minimum specification, we recommend using at least four
-compute servers and two storage servers to maintain resiliency and availability. This design focuses on the business needs of enterprise applications, in which availability and performance are critical. Using this design will help IT organizations provide a flexible, self-service platform to numerous business applications and departments, improving IT&rsquo;s response and agility with supporting their business units. This design is also easy to scale, which allows organizations to start small and grow as cloud adoption increases within their company.
+compute servers and two storage servers to maintain resiliency and availability. This design focuses on the business needs of enterprise applications, in which availability and performance are critical. Using this design will help IT organizations provide a flexible, self-service platform to numerous business applications and departments, improving IT's response and agility with supporting their business units. This design is also easy to scale, which allows organizations to start small and grow as cloud adoption increases within their company.
 
 #### Cinder software architecture
 

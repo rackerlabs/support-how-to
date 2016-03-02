@@ -31,7 +31,7 @@ transfers.
 
 ### How do I set up Multi Region?
 
-You don&rsquo;t need to do anything to set up multi region capabilities for
+You don't need to do anything to set up multi region capabilities for
 your account. All U.S. accounts have access to multiple regions.  If you
 use the Auth 1.1 or 2.0 API, you may choose which endpoint to interact
 with; once you've authenticated against the regional endpoint, your
@@ -86,8 +86,8 @@ endpoints when authenticating against Cloud Files using our Auth 1.1 or
 2.0 APIs. Customers using Auth 1.0 will still only have a single
 endpoint returned.
 
-If you have customers around the world, don&rsquo;t forget that you can
-deliver your content rapidly with Akamai&rsquo;s Content Delivery Network
+If you have customers around the world, don't forget that you can
+deliver your content rapidly with Akamai's Content Delivery Network
 (CDN), which caches content at global edge locations and saves users
 time because the requested content is received from within the region
 instead of coming from the origin data center.

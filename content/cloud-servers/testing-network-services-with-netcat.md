@@ -57,7 +57,7 @@ The following three examples show the possible output:
 
 ### Connection refused
 
-You'll usually see this response when the service isn&rsquo;t running or a
+You'll usually see this response when the service isn't running or a
 firewall is rejecting the connection.
 
 If you haven't already confirmed that the service is running you can

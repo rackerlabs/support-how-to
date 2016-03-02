@@ -61,7 +61,7 @@ resized.
 
 #### Load average check
 
-The graph for the load average check displays your instance&rsquo;s load
+The graph for the load average check displays your instance's load
 average on a per-minute basis. Whereas the CPU usage graph displays
 moment-to-moment fluctuations in CPU use, the load average graph
 reflects overall CPU usage.
@@ -70,7 +70,7 @@ reflects overall CPU usage.
 
 #### Memory check
 
-The graph for the memory check displays your instance&rsquo;s memory use
+The graph for the memory check displays your instance's memory use
 (RAM). The **Total** value represents the total memory available to the
 instance, and the **Actual Used** value represents the amount of memory
 in use.

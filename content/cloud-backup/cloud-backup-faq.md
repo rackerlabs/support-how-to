@@ -137,7 +137,7 @@ in the [introduction page for Cloud Backup](/how-to/rackspace-cloud-backup-overv
 #### What is Deduplication?
 
 Our block-level deduplication backs up only those portions of files
-that have changed since the previous backup. This means you don&rsquo;t
+that have changed since the previous backup. This means you don't
 needlessly backup the same unchanged data again and again. This
 increases efficiency by reducing the amount of data that is transferred
 for each backup, and reduces your storage space by not storing duplicate

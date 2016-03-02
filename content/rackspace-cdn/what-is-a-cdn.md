@@ -48,7 +48,7 @@ to Yahoo.com.
      Trace complete.
 
 Additional hops mean more time to render data from a request on the
-user&rsquo;s browser. The speed of delivery is also constrained by the slowest
+user's browser. The speed of delivery is also constrained by the slowest
 network in the chain. The solution is a CDN that places servers around
 the world and, depending on where the end user is located, serves the
 user with data from the closest or most appropriate server. CDNs reduce

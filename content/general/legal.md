@@ -21,13 +21,13 @@ That means:
 
 -   **Attribution:**  Rackspace How-To documents are intended
     for use by Rackspace customers. Please credit Rackspace for the
-    documentation and don&rsquo;t pass around old versions that may not
+    documentation and don't pass around old versions that may not
     reflect the latest changes.
 -   **Non-Commercial Use:** Rackspace defines "commercial use" of the
     Rackspace How To documentation as republication
     for profit. Using the documentation within a commercial enterprise,
     or using the guide to develop for-profit applications using
-    Rackspace&rsquo;s Cloud Servers API is allowed and encouraged.
+    Rackspace's Cloud Servers API is allowed and encouraged.
 -   **No Derivative Works:** Please do not alter, edit, or modify
     this documentation. Rackspace tries to make sure that this document
     is kept up-to-date with the latest changes and best practices, so it
@@ -89,7 +89,7 @@ All other product names and trademarks used in the Rackspace How-To
 documentation are for identification purposes only to refer to
 either the entities claiming the marks and names or their products, and
 are property of their respective owners.  We do not intend our use or
-display of other companies&rsquo; tradenames, trademarks, or service marks to
+display of other companies' tradenames, trademarks, or service marks to
 imply a relationship with, or endorsement or sponsorship of us by, these
 other companies.
 
@@ -99,7 +99,7 @@ other companies.
 
 ### The Use of the word PARTNER
 
-The use of the word &lsquo;partner&rsquo; or &lsquo;channel partner&rsquo; does not imply a
+The use of the word 'partner' or 'channel partner' does not imply a
 partnership relationship between Rackspace and any other company.
 
 

@@ -19,8 +19,8 @@ storage systems allow users to upload or download data in the form of
 objects. These systems should be reliable, fast and capable of scaling
 with demand.
 
-AMD&rsquo;s SeaMicro Server supports more than 5 petabytes (PB) of physical
-disk capacity in just under two racks for the industry&rsquo;s highest density
+AMD's SeaMicro Server supports more than 5 petabytes (PB) of physical
+disk capacity in just under two racks for the industry's highest density
 and most power efficient solution. Swift, the object storage solution in
 OpenStack, allows multiple nodes to cooperate in order store objects in
 such a way that ensures data integrity and availability.

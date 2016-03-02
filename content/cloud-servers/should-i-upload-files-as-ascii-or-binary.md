@@ -23,6 +23,6 @@ executables should be transferred in BINARY mode.
 The majority of FTP programs have an AUTO mode which switches
 dynamically between ASCII or BINARY upload modes depending on the type
 of file you are uploading. If you plan on using the AUTO feature, make
-sure you check the program&rsquo;s list of ASCII file extensions; any file not
-included in the program&rsquo;s list of ASCII extensions will be uploaded in
+sure you check the program's list of ASCII file extensions; any file not
+included in the program's list of ASCII extensions will be uploaded in
 BINARY.

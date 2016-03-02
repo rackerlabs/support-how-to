@@ -127,7 +127,7 @@ requests.
 
 #### Referrer restrictions
 
-Referrer restrictions allow customers to limit access to their site&rsquo;s
+Referrer restrictions allow customers to limit access to their site's
 content by checking the *referrer header* of the incoming request. Users
 typically implement this type of access control to prevent their images,
 videos, and other content from being linked to from other sites. For

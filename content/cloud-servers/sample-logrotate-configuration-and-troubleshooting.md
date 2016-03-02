@@ -16,38 +16,38 @@ product_url: cloud-servers
 In the [previous
 article](/how-to/understanding-logrotate-utility)
 we talked about what logrotate does and how you can configure it. In
-this article we&rsquo;ll apply this new knowledge to putting together a log
+this article we'll apply this new knowledge to putting together a log
 rotation solution for a custom virtual host or two (or three, or four,
-etc.). We&rsquo;ll also look at some options for testing and troubleshooting
+etc.). We'll also look at some options for testing and troubleshooting
 logrotate.
 
 ### Tying it all together: virtual host logs
 
-To show how you can use logrotate for your own applications, let&rsquo;s look
+To show how you can use logrotate for your own applications, let's look
 at an example that will come in handy for a lot of people: rotating logs
-for your custom virtual hosts. We&rsquo;ll use apache for this example, but it
+for your custom virtual hosts. We'll use apache for this example, but it
 can be tweaked pretty easily for other web servers like nginx or
 lighttpd, usually just by changing the postrotate script.
 
-First we&rsquo;ll want to create a file to hold the configuration that will
-tell logrotate what to do with the virtual host&rsquo;s log files. We won&rsquo;t
-edit the main config file or the web server&rsquo;s config file, since there&rsquo;s
+First we'll want to create a file to hold the configuration that will
+tell logrotate what to do with the virtual host's log files. We won't
+edit the main config file or the web server's config file, since there's
 always a possibility that a future package upgrade might want to
-overwrite the config. Instead we&rsquo;ll make our own. Let&rsquo;s call it:
+overwrite the config. Instead we'll make our own. Let's call it:
 
     /etc/logrotate.d/virtualhosts
 
 This example tosses all the virtual hosts into one file, but if you have
-one that&rsquo;s busier than others you may want to create separate config
-files to handle the needs of your different domains. We&rsquo;ll also specify
+one that's busier than others you may want to create separate config
+files to handle the needs of your different domains. We'll also specify
 several items that are probably already set in your main config, just so
 we cover all the bases.
 
 #### The files
 
-We&rsquo;ll say that we have two virtual domains, domain1.com and domain2.com,
+We'll say that we have two virtual domains, domain1.com and domain2.com,
 and that the log files for each are in /home/demo/public\_html/(domain
-name)/log. The first thing we&rsquo;ll do in our config file is tell logrotate
+name)/log. The first thing we'll do in our config file is tell logrotate
 where to find the log files, then start the config block for them:
 
     /home/demo/public_html/domain1.com/log/*log /home/demo/public_html/domain2.com/log/*log {
@@ -57,18 +57,18 @@ that list.
 
 #### Rotate
 
-Next we&rsquo;ll want to make sure logrotate only keeps as many old logs as we
+Next we'll want to make sure logrotate only keeps as many old logs as we
 want:
 
     rotate 14
 
-We&rsquo;ll use 14 in this example to keep two weeks&rsquo; worth of logs, but you
+We'll use 14 in this example to keep two weeks' worth of logs, but you
 can of course adjust that number to something suitable to your
 requirements.
 
 #### Interval
 
-Now we&rsquo;ll tell the web server to rotate these logs daily (again, change
+Now we'll tell the web server to rotate these logs daily (again, change
 it if you prefer a longer interval):
 
     daily
@@ -86,8 +86,8 @@ and a max size, but if you do the time interval setting will be ignored.
 
 #### Compression
 
-We&rsquo;ll specify whether or not we want these logs to be compressed when
-they&rsquo;re archived. For this example we&rsquo;ll use delaycompress to account
+We'll specify whether or not we want these logs to be compressed when
+they're archived. For this example we'll use delaycompress to account
 for the graceful restart of apache, which means we also need to turn
 compression on:
 
@@ -104,7 +104,7 @@ rotations are done we add:
 
 #### Postrotate
 
-We&rsquo;ll specify a postrotate script that will restart the web server:
+We'll specify a postrotate script that will restart the web server:
 
     postrotate
             /usr/sbin/apachectl graceful > /dev/null
@@ -129,55 +129,55 @@ Once we bring it all together our config file will look like this:
             endscript
     }
 
-You&rsquo;ll want to test that, of course, either by making sure you&rsquo;re
+You'll want to test that, of course, either by making sure you're
 watching things when the nightly cron jobs are run, or by running
 logrotate right now:
 
     /usr/sbin/logrotate /etc/logrotate.conf
 
-If you don&rsquo;t get any errors back you should be okay. But if you want to
+If you don't get any errors back you should be okay. But if you want to
 be absolutely certain you can run through some of the tests we would use
-when we suspect something isn&rsquo;t working right.
+when we suspect something isn't working right.
 
 ### Testing logrotate
 
 If you suspect logrotate is having some trouble, or you just want to
-make sure a new config you&rsquo;ve put in place will work, there are some
+make sure a new config you've put in place will work, there are some
 useful flags you can pass to logrotate when you run it from the command
 line:
 
 #### Verbose
 
-The verbose flag, "-v", tells logrotate to say what it&rsquo;s doing while
-it&rsquo;s doing it. It&rsquo;s very useful when trying to find out why logrotate
-doesn&rsquo;t rotate a log when you want it to.
+The verbose flag, "-v", tells logrotate to say what it's doing while
+it's doing it. It's very useful when trying to find out why logrotate
+doesn't rotate a log when you want it to.
 
 #### Debug
 
 The debug flag, "-d", tells logrotate to go through the motions of
 rotating logs but not *actually* rotate them. It can be handy if you
-want to test a new config file but don&rsquo;t want any actual log rotation
-run when you do (if you&rsquo;re working on a production server, for example).
+want to test a new config file but don't want any actual log rotation
+run when you do (if you're working on a production server, for example).
 
 The debug flag is good for checking that the config file is formatted
 properly and that logrotate can find the log files it would rotate.
-However, since it doesn&rsquo;t actually run the rotations it doesn&rsquo;t test
+However, since it doesn't actually run the rotations it doesn't test
 some parts of the process like the postrotate scripts.
 
 #### Force
 
 The force flag, "-f", forces logrotate to rotate all logs when it runs,
 whether or not they would normally need to be rotated at that time. If
-you want to thoroughly test logrotate&rsquo;s configs this is the flag to use.
+you want to thoroughly test logrotate's configs this is the flag to use.
 Just remember that logrotate will be rotating logs and deleting old ones
-according to the configuration you&rsquo;ve set up, so don&rsquo;t accidentally
+according to the configuration you've set up, so don't accidentally
 rotate out a recent log you needed to keep.
 
-The force flag can be useful if you&rsquo;re convinced that logrotate should
-be rotating a log, but it isn&rsquo;t. Forcing the issue will help you tell if
-the problem is that logrotate doesn&rsquo;t think the log needed rotating (if
+The force flag can be useful if you're convinced that logrotate should
+be rotating a log, but it isn't. Forcing the issue will help you tell if
+the problem is that logrotate doesn't think the log needed rotating (if
 you run with the force flag and the log is rotated), or if the problem
-is that logrotate isn&rsquo;t able to affect the log file (if you run it and
+is that logrotate isn't able to affect the log file (if you run it and
 nothing happens to the log).
 
 Note that if logrotate is set to add a date to the name of an archived
@@ -195,7 +195,7 @@ but not *actually* rotate anything, you can combine all three:
 
     /usr/sbin/logrotate -vdf /etc/logrotate.conf
 
-You&rsquo;ll get treated to a long list of things logrotate would do,
+You'll get treated to a long list of things logrotate would do,
 including which log files it would rotate and what it would do during
 that process.
 
@@ -206,22 +206,22 @@ without the debug flag:
     /usr/sbin/logrotate -vf /etc/logrotate.conf
 
 All the logs will be rotated, and skimming the output should help you
-catch any obvious problems. You&rsquo;ll also want to make sure that all your
+catch any obvious problems. You'll also want to make sure that all your
 services are still running okay (that there was nothing wrong with the
 postrotate scripts), and that all the logs actually did get rotated.
 
 ### How logrotate remembers
 
-If you find that a log isn&rsquo;t rotating even though it&rsquo;s old enough that
+If you find that a log isn't rotating even though it's old enough that
 it should, a simple way to fix the problem is to manually run logrotate
-with the "-f" flag. But if you&rsquo;re the sort who wants to know *why*
-something&rsquo;s gone wrong, there&rsquo;s one more file you can check before
+with the "-f" flag. But if you're the sort who wants to know *why*
+something's gone wrong, there's one more file you can check before
 forcing a rotation:
 
     /var/lib/logrotate.status
 
 That file is where logrotate stores information about when it last
-rotated each log file. If you look inside you&rsquo;ll see something like:
+rotated each log file. If you look inside you'll see something like:
 
     logrotate state -- version 2
     "/var/log/acpid.log" 2010-6-18
@@ -229,19 +229,19 @@ rotated each log file. If you look inside you&rsquo;ll see something like:
     "/var/log/uucp.log" 2010-6-29
     ...
 
-It&rsquo;s a straightforward format - the log file location is on the left,
+It's a straightforward format - the log file location is on the left,
 and the date when it was last rotated is on the right. Sometimes it can
 happen that the dates on your server get a little wonky (if you were
 tinkering with an NTP service or the like), and the date when a log was
-last rotated winds up being a future date. If that&rsquo;s happened you&rsquo;ll see
+last rotated winds up being a future date. If that's happened you'll see
 it here.
 
-If you want to check logrotate out with a particular log file but don&rsquo;t
-want to force everything to rotate, you can delete the log&rsquo;s entry from
+If you want to check logrotate out with a particular log file but don't
+want to force everything to rotate, you can delete the log's entry from
 the logrotate status file. Then when you run logrotate normally it
-should create a new entry for the log with today&rsquo;s date (even though it
+should create a new entry for the log with today's date (even though it
 may not actually rotate the log - it uses that first run as a baseline
-if it&rsquo;s just interval-based).
+if it's just interval-based).
 
 ### Summary
 

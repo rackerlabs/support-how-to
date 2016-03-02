@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Keeping your system&rsquo;s date and time accurate is easy to do using NTP.
+Keeping your system's date and time accurate is easy to do using NTP.
 
 Having an accurate clock on your server ensures that time stamps in
 emails sent from your machine are correct. An accurate clock is

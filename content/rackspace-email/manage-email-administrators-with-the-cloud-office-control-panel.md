@@ -25,8 +25,8 @@ permissions via the MyRackspace Portal.
 2.  Under **Common Actions**, click **Manage Administrators**.
 3.  Click **Add Administrator**.
 4.  Enter the following information under **Add Administrator**:
-    -   **First Name**&mdash;Enter the administrator&rsquo;s first name.
-    -   **Last Name**&mdash;Enter the administrator&rsquo;s last name.
+    -   **First Name**&mdash;Enter the administrator's first name.
+    -   **Last Name**&mdash;Enter the administrator's last name.
     -   **Email**&mdash;Enter the administrator's email address.
     -   **Admin ID**&mdash;Enter a unique name for the account. If the ID that you enter is used elsewhere on the email hosting system, you are prompted to enter a new ID.
     -   **Type**&mdash;Select the level of security for the administrator:

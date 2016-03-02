@@ -47,7 +47,7 @@ of:
 Yes. Rackspace does not currently provide a Rackspace specific
 command-line client for Cloud Orchestration, however we recommend you
 use the open source Heat python client developed by the OpenStack
-community. The Python Heat Client is compatible with Rackspace&rsquo;s Cloud
+community. The Python Heat Client is compatible with Rackspace's Cloud
 Orchestration Service. Instructions on obtaining and installing the
 command line client can be found in the Orchestration [Getting Started
 Guide](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/#document-getting-started).
@@ -275,7 +275,7 @@ resources versus newer versions used in your template.
 Yes, but with the following caveats. Although OpenStack Heat
 documentation claims support for a subset of this format, there are a
 variety of nuances and underlying compatibility tools that must be run
-on the service provider&rsquo;s cloud to support that format. Rackspace
+on the service provider's cloud to support that format. Rackspace
 supports the CFN template format and is slowly adding support for
 individual resources. Currently, the server and loadbalancer resources
 are supported implying that customers can re-use CFN templates with
@@ -320,7 +320,7 @@ Yes. There are two main differences to note:
     Rackspace contributed resource that is incorrectly labeled as Heat.
     This will be corrected in subsequent updates.
 
-2.  Our Service&rsquo;s version of Heat is often ahead of the last official
+2.  Our Service's version of Heat is often ahead of the last official
     OpenStack version At Rackspace, we strive to provide our customers
     with reliable community developed features of Heat as often
     as possible. However, to ensure a positive customer experience, our
