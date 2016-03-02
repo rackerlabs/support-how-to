@@ -224,9 +224,9 @@ replication.
 
     The **Slave\_IO\_State** field should show "Waiting for master to
     send event". If it shows "Connecting to Master" please check your
-    MySQL log file. By default it is (CODE)/var/log/mysqld.log(/CODE)
+    MySQL log file. By default it is **/var/log/mysqld.log**
     but it may be configured differently on your system. As
-    always (CODE)/etc/my.cnf(/CODE) will define the location of your
+    always **/etc/my.cnf** will define the location of your
     log file.
 
 ### Test replication
