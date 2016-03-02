@@ -18,7 +18,7 @@ receive the imported data, you will need to do that first. There are a
 number of ways to import data to a MySQL database, but the recommended
 process for cloud databases is outlined below.
 
-You can import from databases on Rackspace&rsquo;s public cloud, on another
+You can import from databases on Rackspace's public cloud, on another
 cloud, or in your own datacenter. If the data is being imported from a
 location without Rackspace ServiceNet access (another cloud, your
 datacenter, etc.), you will either need to create a Cloud Server to copy

@@ -30,7 +30,7 @@ The benefits of using Directory Sync for your organization include:
     service can save considerable effort and time when onboarding new
     employees and managing password policies.
 -   **Business automation**: Rackspace Directory Sync is built to use
-    the Rackspace Email cloud&rsquo;s public REST APIs, which simplifies
+    the Rackspace Email cloud's public REST APIs, which simplifies
     automating and preserving business.
 -   **Secure**: All data exchanged is SSL encrypted and synchronization
     is one-way only.
@@ -64,7 +64,7 @@ Directory Sync supports the following Active Directory platforms:
 
 -   Does not synchronize with Hosted Exchange 2007
 -   Existing mail data does not migrate with Directory Sync to our
-    hosted environment. 
+    hosted environment.
     We offer several methods you can use to migrate your own data,
     as described at [Email migration
     services](/how-to/email-migration-services) article.
@@ -150,7 +150,7 @@ synchronize those changes to Rackspace Hosted Mail.
 
 Synchronize users within distribution lists or security groups from
 Active Directory to distribution list membership within the Email
-Control Panel. Directory Sync uses the group&rsquo;s email address property to
+Control Panel. Directory Sync uses the group's email address property to
 synchronize with the Hosted Exchange distribution list.
 
 #### Exchange contacts
@@ -158,7 +158,7 @@ synchronize with the Hosted Exchange distribution list.
 Synchronize contact objects within Active Directory to your Exchange
 contacts within the Hosted Exchange environment. Within Active
 Directory, you can set up the external email address to which the
-contact will forward. Directory Sync uses the contact object&rsquo;s mail
+contact will forward. Directory Sync uses the contact object's mail
 attribute to set this.
 
 #### Alternate email addresses (Optional Synchronization)
@@ -234,13 +234,13 @@ domain controllers.
 
 Enable the following ports on the Directory Sync server:
 
--   **443** &ndash;Outbound HTTPS connections from Directory Sync service to
+-   **443** - Outbound HTTPS connections from Directory Sync service to
     [Rackspace API](http://api.emailsrvr.com)
--   **8732** &ndash; Open for connections from other domain controllers to the
+-   **8732** - Open for connections from other domain controllers to the
     Directory Sync server. Not used for any connections outside
     your network. This port is used by domain controller password
     hooks.
--   **8080** &ndash; Only used locally on Directory Sync service machine for
+-   **8080** - Only used locally on Directory Sync service machine for
     web browser. You may block this port for any external connections.
 
 #### Network encryption

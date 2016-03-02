@@ -143,7 +143,7 @@ authoritative DNS server change or expects you to make the change using
 the registrar's tools.
 
 The second possibility is the infamous "DNS propagation delay", in which
-some stragglers &mdash; most often mail servers &mdash; catch up on the change over
+some stragglers - most often mail servers - catch up on the change over
 a week or so.
 
 Some advanced techniques can be employed to reduce propagation delay but

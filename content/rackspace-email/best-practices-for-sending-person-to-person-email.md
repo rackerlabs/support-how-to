@@ -70,7 +70,7 @@ and we encourage you to read those as well.
     Bob* instead of *Hey* or *To Whom It May Concern*. Generic
     salutations make your content more likely to appear as unsolicited
     mail to spam filters.
--   Don&rsquo;t include a disclaimer that your email isn&rsquo;t spam, and don&rsquo;t
+-   Don't include a disclaimer that your email isn't spam, and don't
     claim compliance with some legal criteria. Good mail does not need
     to advertise compliance because it *is* compliant.
 -   Use normal conversational language. Message content that is rigid or

@@ -23,8 +23,8 @@ To log in into Webmail, go to <https://apps.rackspace.com/>.
 
 When you log in, Rackspace allows several options:
 
-- **Remember this info**&mdash;Allow Rackspace to interact with your browser to remember your login information
-- **Use SSL**&mdash;SSL stands for Secure Socket Layer, which means when you log in, your data is encrypted
+- **Remember this info** - Allow Rackspace to interact with your browser to remember your login information
+- **Use SSL** - SSL stands for Secure Socket Layer, which means when you log in, your data is encrypted
 
 ### Contacts
 

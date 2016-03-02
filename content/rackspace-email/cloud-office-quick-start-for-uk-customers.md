@@ -155,18 +155,18 @@ Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-busine
 You can migrate your email data to your Rackspace mail account in the
 following ways:
 
--   **Do it yourself**&mdash;If you are currently using a POP mailbox, this is
+-   **Do it yourself** - If you are currently using a POP mailbox, this is
     your only option. If you are not certain or have any questions,
     contact our Support team at 0800 954 1007 or 020 8734 4029. You can
     also create a support ticket in the MyRackspace portal.
 
--   **Self&ndash;service tool**&mdash;Run your migration at any time of the day or
+-   **Self-service tool** - Run your migration at any time of the day or
     night with our easy-to-use version of MigrationWiz. To start this
     process, create a support ticket in the MyRackspace portal. For more
     information, see Migrate your email by using the Self-Service
     tool.
 
--   **Assisted migrations**&mdash;This option is for companies that need help
+-   **Assisted migrations** - This option is for companies that need help
     with consulting, planning, and scheduling a migration project.
     Contact our Assisted Migrations team by creating a support ticket in
     the MyRackspace portal. They will provide you with all the

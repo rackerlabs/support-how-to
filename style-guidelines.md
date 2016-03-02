@@ -13,7 +13,7 @@ Follow these guidelines when writing content:
 - [Write clear and consistent code examples](#write-clear-and-consistent-code-examples)
 - [Use consistent terminology](#use-consistent-terminology)
 
-For comprehensive writing and style guidelines, see the [complete style guide for technical content](https://github.com/rackerlabs/docs-rackspace/tree/master/style-guide). 
+For comprehensive writing and style guidelines, see the [complete style guide for technical content](https://github.com/rackerlabs/docs-rackspace/tree/master/style-guide).
 
 ### Use sentence-style capitalization for titles and headings
 
@@ -132,13 +132,13 @@ Placeholder text | Show in camelCase. <br /> <br /> If the authoring tool allows
 
 Pronouns are useful, but you must ensure that their antecedents (the words that they are used in place of) are clear, and that they (the pronouns) don’t contribute to vagueness and ambiguity.
 
-- **It**&mdash;Ensure that the antecedent of *it* is clear. If multiple singular nouns precede *it*, any of them could be the antecedent. Also, avoid using *it is* to begin a sentence. Such a construction hides the real subject of the sentence.
+- **It** - Ensure that the antecedent of *it* is clear. If multiple singular nouns precede *it*, any of them could be the antecedent. Also, avoid using *it is* to begin a sentence. Such a construction hides the real subject of the sentence.
 
-- **This**&mdash;Avoid beginning a sentence with the pronoun *this*, unless you follow this with a noun to clarify its meaning.
+- **This** - Avoid beginning a sentence with the pronoun *this*, unless you follow this with a noun to clarify its meaning.
 
-- **There**&mdash;Avoid using *there is* and *there are* as the subject of a sentence or clause. Using *there* shifts the focus away from the real subject and often uses unnecessary words.
+- **There** - Avoid using *there is* and *there are* as the subject of a sentence or clause. Using *there* shifts the focus away from the real subject and often uses unnecessary words.
 
-- **That**&mdash;Avoid using *that* as a demonstrative pronoun (which stands in for or points to a noun). Instead, use it as an adjective and follow it with a noun.
+- **That** - Avoid using *that* as a demonstrative pronoun (which stands in for or points to a noun). Instead, use it as an adjective and follow it with a noun.
 
 For more examples, see the [Clarify pronouns](https://github.com/rackerlabs/docs-rackspace/blob/master/style-guide/basic-writing-guidelines.md#clarify-pronouns) section of the complete style guide.
 

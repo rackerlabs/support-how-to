@@ -41,7 +41,7 @@ addresses from them at any time.
 
 **Note:** This walkthrough uses cURL commands to make the API calls.
 cURL is installed by default on many Linux distributions. If it is not
-already installed on your computer, you can download and install it &mdash;
+already installed on your computer, you can download and install it -
 versions are available for most operating systems.
 
 ### Use Cloud Identity to obtain an authentication token
@@ -164,7 +164,7 @@ Note the following important points:
 -   You can obtain the UUID (universally unique identifier) of your
     cloud server from within its server details page in the [Cloud
     Control Panel](https://mycloud.rackspace.com) or via the [Cloud
-    Servers API&mdash;Get Server   Details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#show-server-details)
+    Servers API - Get Server   Details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#show-server-details)
     operation. The UUID is a 32-character entry with four hyphens in the
     **ID** or **id** section of the server details page.
 -   The ``--include`` option is used so that the HTTP response status code
@@ -278,7 +278,7 @@ above the `public_ip_v4` entry in the operations to list and add
 public IP addresses. This UUID is a 32-character entry with four
 hyphens, and in the preceding example operations it was listed as
 `NaNaNNNaa-NaNa-aNaN-aNaN-NaNaNNaaaaNa`. This call does not return any
-JSON data&mdash;only an HTTP response code&mdash;so you use the ``--include`` option with the request. A 204 response code signifies that the public IP
+JSON data - only an HTTP response code - so you use the ``--include`` option with the request. A 204 response code signifies that the public IP
 address was successfully removed from the cloud server.
 
 #### Example 204 response to the remove a public IP address from a cloud server API request

@@ -49,7 +49,7 @@ Microsoft Outlook 2013 email client.
    **Note:** Outlook 2013 offers the option to limit the amount of data that
    is downloaded to your local machine.  This can be adjusted, using the
    **Mail to keep offline slider**. You can select caching for 1 month, 3
-   months, 6 months, 1 year, 2 years, or &ldquo;all.&rdquo;.
+   months, 6 months, 1 year, 2 years, or "all.".
    By default, Outlook 2013 only synchronizes twelve (12) months of email to
    your Offline Outlook Data (.ost) file from the Exchange server.  
    If you accept this default setting, if you have

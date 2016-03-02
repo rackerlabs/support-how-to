@@ -82,18 +82,18 @@ precedence.
 
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <domain xmlns="http://docs.rackspacecloud.com/dns/api/v1.0&rdquo;
-        id="2725511" accountId="1234" name="rtb0007.com" ttl="3600&rdquo; emailAddress="sample@rackspace.com" updated="2011-06-24T01:23:15Z&rdquo; created="2011-06-24T01:12:51Z" comment="Optional domain comment...&rdquo;>
+    <domain xmlns="http://docs.rackspacecloud.com/dns/api/v1.0"
+        id="2725511" accountId="1234" name="rtb0007.com" ttl="3600" emailAddress="sample@rackspace.com" updated="2011-06-24T01:23:15Z" created="2011-06-24T01:12:51Z" comment="Optional domain comment...">
         <nameservers>
             <nameservername="ns.rackspace.com" />
             <nameservername="ns1.rackspace.com" />
         </nameservers>
-        <recordsListtotalEntries="5&rdquo;>
-            <record id="A-6822994" type="A" name="rtb0007.com" data="110.11.12.16&rdquo;  ttl="86400" updated="2011-06-24T01:12:52Z" created="2011-06-24T01:12:52Z" />
-            <record id="NS-6251982" type="NS" name="rtb0007.com&rdquo; data="dns1.stabletransit.com" ttl="3600" updated="2011-06-24T01:12:51Z&rdquo;  created="2011-06-24T01:12:51Z" />
-            <record id="NS-6251983" type="NS" name="rtb0007.com&rdquo; data="dns2.stabletransit.com" ttl="3600" updated="2011-06-24T01:12:51Z&rdquo;  created="2011-06-24T01:12:51Z" />
-            <record id="MX-3151218" type="MX" name="rtb0007.com&rdquo;  data="mail2.rtb0007.com" ttl="3600" priority="5&rdquo; updated="2011-06-24T01:12:53Z" created="2011-06-24T01:12:53Z" />
-            <record id="CNAME-9778009" type="CNAME" name="www.rtb0007.com&rdquo;  data="rtb0007.com" ttl="5400" updated="2011-06-24T01:12:54Z&rdquo;       created="2011-06-24T01:12:54Z" />
+        <recordsListtotalEntries="5">
+            <record id="A-6822994" type="A" name="rtb0007.com" data="110.11.12.16"  ttl="86400" updated="2011-06-24T01:12:52Z" created="2011-06-24T01:12:52Z" />
+            <record id="NS-6251982" type="NS" name="rtb0007.com" data="dns1.stabletransit.com" ttl="3600" updated="2011-06-24T01:12:51Z"  created="2011-06-24T01:12:51Z" />
+            <record id="NS-6251983" type="NS" name="rtb0007.com" data="dns2.stabletransit.com" ttl="3600" updated="2011-06-24T01:12:51Z"  created="2011-06-24T01:12:51Z" />
+            <record id="MX-3151218" type="MX" name="rtb0007.com"  data="mail2.rtb0007.com" ttl="3600" priority="5" updated="2011-06-24T01:12:53Z" created="2011-06-24T01:12:53Z" />
+            <record id="CNAME-9778009" type="CNAME" name="www.rtb0007.com"  data="rtb0007.com" ttl="5400" updated="2011-06-24T01:12:54Z"       created="2011-06-24T01:12:54Z" />
         </recordsList>
     </domain>
 

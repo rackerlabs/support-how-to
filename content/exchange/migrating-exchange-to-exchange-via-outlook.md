@@ -38,7 +38,7 @@ turn off cached Exchange mode before your users begin migrating their
    **Next** button:
 
    - To export an entire mailbox, including calendar, contacts, tasks,
-     and notes, click once on the topmost folder (Mailbox &ndash; Your Name)
+     and notes, click once on the topmost folder (Mailbox - Your Name)
      then select the **Include subfolders** check box.
 
    - To export a public folder, click once on the topmost folder (or the
@@ -102,7 +102,7 @@ you have your account set up, perform the following steps:
 5. Select **Personal Folders** then select the **Include
    subfolders** check box. Next select the **Import items into the same
    folder** button. In the drop-down box, select the Exchange mailbox
-   (Mailbox &ndash; Your Name) into which you would like to import your data.
+   (Mailbox - Your Name) into which you would like to import your data.
    Then select **Finish** to begin your import.
 
    ![](http://c15047547.r47.cf2.rackcdn.com/10.png)

@@ -47,7 +47,7 @@ Keeping your origin safe during a malicious attack is vital to the
 health of your website or application. Rackspace CDN helps keep your
 website and applications safe by absorbing all edge requests, harmful or
 not. Because all requests are first served by the edge nodes, your
-origin won&rsquo;t get the brunt force traffic associated with a DDOS attack.
+origin won't get the brunt force traffic associated with a DDOS attack.
 This means that your website can still serve good traffic while an
 attack is occurring, keeping your visitors engaged at all times.
 

@@ -79,7 +79,7 @@ the cog icon next to the user name:
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbmodifyusers.png" width="397" height="245" />
 
 -   Edit the user name and host
--   Change the user&rsquo;s password
+-   Change the user's password
 -   Delete the user
 -   Manage database access (grant or revoke access to
     specific databases)
@@ -140,7 +140,7 @@ because  it is required to log in as a root user for the database
 instance. After the root user is enabled, you have full control for
 creating and managing user privileges.
 
-*Example* &ndash; Database instance MySQLDBInstance01 has a database
+*Example* - Database instance MySQLDBInstance01 has a database
 DBStaging1 and a user DevUser1. You would like to set up read-only
 permissions for DevUser1.
 
@@ -158,12 +158,12 @@ A password is generated and returned for the root user.
 Step 3: Log in to MySQL as a root user with the password generated in
 the preceding step:
 
-    $ mysql &ndash; u <root> &ndash;h <hostname> -p <password>
+    $ mysql -u <root> -h <hostname> -p <password>
 
 Step 4: In MySQL, set up read permissions for DevUser1 by using the
 GRANT statement:
 
-    $ GRANT SELECT on DBStaging1 to &lsquo;DevUser1&rsquo;@&rsquo;hostname&rsquo;;
+    $ GRANT SELECT on DBStaging1 to 'DevUser1'@'hostname';
 
 **Note:**  You can reset the root user password by making subsequent
 calls to enable the root user.

@@ -136,7 +136,7 @@ sharing with doesn't have cloud services in ORD, of course, they will
 not see the image and won't be able to boot from it. (If you don't have
 service in ORD, this question won't even come up, because you won't have
 any images in ORD to share!) A customer can tell if they don't have
-access to the ORD region by looking in the Control Panel &mdash; it won't show
+access to the ORD region by looking in the Control Panel - it won't show
 up as an option in the Region dropdown on either the Server List or
 Create Server pages. API users can look directly in their service
 catalog. To learn more about regions in the Rackspace cloud, please see

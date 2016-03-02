@@ -385,7 +385,7 @@ have nothing to compare it to. Because a Dynamic Large Object isn't a
 content is streamed out in a particular order), Cloud Files doesn't
 store an MD5 checksum for the object. Further, you don't need the
 checksum because the VHD file is made up of three segments, each one of
-has the correct content, and they&rsquo;ve been put together in the correct
+has the correct content, and they've been put together in the correct
 order. So the VHD file must be identical to the file that was exported
 from Cloud Images into Cloud Files.
 

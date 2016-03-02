@@ -349,7 +349,7 @@ another server, you will need to open port 3306 in iptables.
 
 #### Saving Your Rules
 
-Use the following command to save all the rules you&rsquo;ve created.  If not
+Use the following command to save all the rules you've created.  If not
 saved before your server is rebooted, the iptables ruleset will revert
 to the default ruleset blocking all traffic except on port 22!
 

@@ -246,10 +246,10 @@ can import it for use with Cloud Servers.
     the target region.
 
     What's the purpose of this coordinating metadatum? Images are stored
-    differently inside the cloud&mdash;they're not in the same VHD format used
+    differently inside the cloud - they're not in the same VHD format used
     for image interchange. Thus, you can't use the checksum on your
     image in the source region to determine which of your images in the
-    target region corresponds to it&mdash;there won't be an image with
+    target region corresponds to it - there won't be an image with
     that checksum. You can't use the source image's UUID either, because
     the image in the target region has a different UUID. But if you put
     the same coordinating metadatum on each image, you can use the

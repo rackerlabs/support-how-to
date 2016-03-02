@@ -26,7 +26,7 @@ single solution.
 
 RackConnect is a unique solution designed for customers who require the
 flexibility and elasticity of the cloud, and the enhanced security and
-performance characteristics of traditional hosting&mdash;the best of both
+performance characteristics of traditional hosting - the best of both
 worlds. In essence, RackConnect enables customers to realize the power
 of hybrid hosting.
 

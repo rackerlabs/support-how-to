@@ -95,7 +95,7 @@ shared domain, but a certificate authority will contact all customers
 that purchase a SAN or Custom certificate to validate their domain
 ownership.
 
-For this reason, it is critical that your domain&rsquo;s WHOIS information is
+For this reason, it is critical that your domain's WHOIS information is
 up-to-date. You can check your current WHOIS information at
 <http://whois.icann.org/>.
 
@@ -141,9 +141,9 @@ HTTPS request fee (\$0.010 per 10,000 requests).
 
 Customers who choose the Subject Alternative Name (SAN) certificate type
 can use their own domain name when serving traffic over HTTPS. In this
-method, a customer&rsquo;s domain name is added as an &ldquo;alternative name&rdquo; on a
+method, a customer's domain name is added as an "alternative name" on a
 SAN certificate that Rackspace owns and manages. By offering customers
-the ability to share a &ldquo;host certificate&rdquo; with other customers,
+the ability to share a "host certificate" with other customers,
 Rackspace can reduce the cost of using your own domain with HTTPS
 delivery. In this method, a customer's SSL domain is structured as
 **https://www.mysite.com**.
@@ -167,7 +167,7 @@ page in the **Domains** section. Below you see the **Status** is
 
 The certificate authority (CA) will contact the administrator of the
 domain to confirm that Rackspace has the right to add the domain to a
-shared SAN certificate. The CA uses the domain&rsquo;s WHOIS information to
+shared SAN certificate. The CA uses the domain's WHOIS information to
 determine who to contact.  For more information about WHOIS information,
 see the previous section on [Organizational
 validation](#Organizational%20validation).
@@ -228,7 +228,7 @@ authority (CA) to be processed.
 
 **Note:**  The CA will contact the admininstrator of the domain to
 confirm that Rackspace has the right to request a certificate on your
-behalf. The CA uses the domain&rsquo;s WHOIS information to determine who to
+behalf. The CA uses the domain's WHOIS information to determine who to
 contact. For more information about WHOIS information, see the previous
 section on [Organizational validation](#Organizational%20validation).
 

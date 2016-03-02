@@ -108,7 +108,7 @@ The following graph illustrates how cooldowns affect policy execution.
 
 ## Scaling policies
 
-The *scaling policy*<span style="line-height: 1.6;"> determines what kind of scaling occurs&mdash;up or down&mdash;and when scaling occurs. You must define separate polices for scaling up and scaling down. You can have multiple scaling policies per scaling group.
+The *scaling policy*<span style="line-height: 1.6;"> determines what kind of scaling occurs - up or down - and when scaling occurs. You must define separate polices for scaling up and scaling down. You can have multiple scaling policies per scaling group.
 
 For schedule-based policies, you can use a cron job to configure the
 schedule. At the specified time, Auto Scale adds servers or removes them

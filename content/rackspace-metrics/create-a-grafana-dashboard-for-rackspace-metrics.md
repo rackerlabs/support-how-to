@@ -52,7 +52,7 @@ To create a Grafana dashboard, complete the following steps:
 8.  From the **Actions** menu, choose **Create Stack from Template**.
 9.  On the **Create Stack** page, enter a name for the stack and then
     enter values for the following fields under **Server Settings**. Use
-    the values for your Rackspace account, and overwrite the &ldquo;not valid&rdquo;
+    the values for your Rackspace account, and overwrite the "not valid"
     values that are populated by default.
     -   **API key**
     -   **username**

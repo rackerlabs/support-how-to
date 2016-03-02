@@ -134,7 +134,7 @@ solutions.
 
 ### Will Rackspace troubleshoot programming code for customers?
 
-No&mdash;your Rackspace account team will not troubleshoot your program code.
+No. Your Rackspace account team will not troubleshoot your program code.
 
 ### What backups are performed?
 
@@ -188,4 +188,3 @@ all of these options are accessible in the Cloud Control Panel.
 We only allow upgrades to a Rackspace Managed Operations account at this
 time.  If you wish to remove the managed service, a new account will
 need to be created and new Cloud Servers and Cloud Databases built.
-

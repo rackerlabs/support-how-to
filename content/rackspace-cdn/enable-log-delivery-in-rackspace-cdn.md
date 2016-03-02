@@ -40,7 +40,7 @@ without cookies. The dashes (-) denote fields that the NCSA combined log
 format dictates are present but that Rackspace CDN does not capture. For
 example:
 
-    client_ip - - [day/month/year:hour:minute:second timezone] &ldquo;method request HTTP_version&rdquo; return_code bytes_sent &ldquo;referrer&rdquo; &ldquo;user_agent&rdquo;
+    client_ip - - [day/month/year:hour:minute:second timezone] "method request HTTP_version" return_code bytes_sent "referrer" "user_agent"
 
 The following example shows log entries.
 

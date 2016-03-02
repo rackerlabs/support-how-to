@@ -348,7 +348,7 @@ server name, and select **Change Password**.
 1\.  On the Server Details page of the Cloud Control Panel, find the IP
     address for your server.
 
-2\.  Using the server&rsquo;s IP address and password, use Remote Desktop to
+2\.  Using the server's IP address and password, use Remote Desktop to
     connect to the server as an administrator.
 
 When you first log in and view the Computer window, you will not see the

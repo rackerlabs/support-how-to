@@ -86,8 +86,8 @@ own custom image for the Rackspace cloud.
     **NOTE:** This one-liner assumes that the kickstart file handles the
     installation of the necessary XenServer, nova, or cloud-init agents
     in post-installation. Ensure that your kickstart file does the same.
-    Details about the agent installations are in the &ldquo;Tips and
-    Warnings&rdquo; section.
+    Details about the agent installations are in the "Tips and
+    Warnings" section.
 
         VMNAME=ubuntutestvm1; TEMPLATENAME=Ubuntu13.10; NETNAME=publicnet; MIRROR="http://mirror.rackspace.com/ubuntu/"; KICKFILE="http://host.com/kickstart.cfg"; VMUUID=`xe vm-list name-label=$VMNAME params=uuid --minimal`; NETUUID=`xe network-list name-label=$NETNAME params=uuid --minimal`; TEMPLATEUUID=`xe template-list name-label=$TEMPLATENAME params=uuid --minimal`; TEMPLATESOURCE=`xe template-list name-label=Ubuntu\ Lucid\ Lynx\ 10.04\ \(64-bit\) params=uuid --minimal`; SR=`mount |grep sr-mount |cut -d' ' -f3`; if [ "$VMUUID" != "" ]; then xe vm-uninstall uuid=$VMUUID --force; fi; if [ "$TEMPLATEUUID" != "" ]; then xe template-uninstall template-uuid=$TEMPLATEUUID --force; fi; TEMPLATEUUID=`xe vm-clone uuid="$TEMPLATESOURCE" new-name-label="$TEMPLATENAME"`; xe template-param-set uuid=$TEMPLATEUUID other-config:debian-release=saucy; VMUUID=`xe vm-install template=$TEMPLATENAME new-name-label=$VMNAME`; VMVHD=`xe vbd-list vm-name-label=$VMNAME params=vdi-uuid --minimal`.vhd; xe vif-create vm-uuid=$VMUUID network-uuid=$NETUUID mac=random device=0; xe vm-param-set uuid=$VMUUID other-config:install-repository=$MIRROR; xe vm-param-set uuid=$VMUUID PV-args="console=hvc0 ks=$KICKFILE netcfg/disable_autoconfig=true netcfg/get_nameservers=173.203.4.9 netcfg/get_ipaddress=10.23.207.242 netcfg/get_netmask=255.255.248.0 netcfg/get_gateway=10.23.200.1 netcfg/confirm_static=true netcfg/get_hostname=localhost netcfg/get_domain=domain"; xe vm-start uuid=$VMUUID
 
@@ -157,8 +157,8 @@ own custom image for the Rackspace cloud.
     This instruction assumes that the kickstart file handles the
     installation of the necessary XenServer, nova, or cloud-init agents
     in post-installation. Ensure that your kickstart file does the same.
-    Details about the agent installations are in the &ldquo;Tips and
-    Warnings&rdquo; section.
+    Details about the agent installations are in the "Tips and
+    Warnings" section.
 
         xe vm-param-set uuid=$VMUUID PV-args="console=hvc0 ks=$KICKFILE netcfg/disable_autoconfig=true netcfg/get_nameservers=173.203.4.9 netcfg/get_ipaddress=10.23.207.242 netcfg/get_netmask=255.255.248.0 netcfg/get_gateway=10.23.200.1 netcfg/confirm_static=true netcfg/get_hostname=localhost netcfg/get_domain=domain"
 

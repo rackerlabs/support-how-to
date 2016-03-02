@@ -24,6 +24,8 @@ This article guides you through the process of creating an image of a cloud serv
 
 - Images do not include attached data disks or Cloud Block Storage volumes, only a local system disk. Data disks must be backed up using a Cloud Block Storage volume, Cloud Backup, or another backup solution. For more information about Cloud Backup, see [Getting Started with Rackspace Cloud Backup](/how-to/cloud-backup).
 
+-  Image backups are designed primarily to speed deployment of new servers and not as a robust backup solution. As such, there are a number of practical limitations in place. You can find a list of these limitations in the next article in the series [Cloud Server image limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
+
 ### Create an image backup
 
 **Note:** The process of building a server from a previous backup image can be a time-consuming process depending on the size of the server.

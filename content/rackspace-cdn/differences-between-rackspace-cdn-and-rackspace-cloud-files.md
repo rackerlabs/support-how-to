@@ -21,7 +21,7 @@ Rackspace CDN and Cloud Files:
     dedicated servers, cloud servers, cloud load balancers, or even
     servers hosted outside of Rackspace. Users of Cloud Files can
     CDN-enable a container, thereby distributing the contents of that
-    container to the CDN&rsquo;s edge nodes. In Rackspace CDN, it is not yet
+    container to the CDN's edge nodes. In Rackspace CDN, it is not yet
     possible to specify a Cloud Files container as an origin.
 -   Rackspace CDN has no limit on purges. Cloud Files limits the number
     of purges per account, per day to 25.

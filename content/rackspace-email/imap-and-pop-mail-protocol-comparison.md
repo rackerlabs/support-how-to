@@ -72,7 +72,7 @@ server. Following are some features of POP:
     arrives, your email client will fetch new messages at defined
     time intervals.
 
--   **Storage:** You don&rsquo;t need to worry about running out of online
+-   **Storage:** You don't need to worry about running out of online
     storage space. Because emails are downloaded to your computer, you
     can keep as many emails as your computer can store.
 

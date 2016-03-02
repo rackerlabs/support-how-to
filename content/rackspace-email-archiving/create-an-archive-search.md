@@ -33,14 +33,14 @@ in Cloud Office.
 
 5\. Click the tab for the type of search and choose from four different
     search types:
-    
--   **Simple**&mdash;Search for text in messages or attachments.
 
--   **Wizard**&mdash;Add conditions to the search query and inspect all
+-   **Simple** - Search for text in messages or attachments.
+
+-   **Wizard** - Add conditions to the search query and inspect all
     parts of the message, including sender, recipient, subject,
     body, and attachment.
 
--   **Advanced**&mdash;Search by sender, recipient, subject, body, and
+-   **Advanced** - Search by sender, recipient, subject, body, and
     attachment with greater fine-tuning control. For more
     information, see "Advanced Search" after these
     steps.
