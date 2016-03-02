@@ -18,10 +18,10 @@ You can send an email to everyone on your domain. To email everyone, [log into t
 3.  If you have multiple domains, select the appropriate domain name. Or, to change domains at any time, click the **change domain** link.
 5.  Enter the following information in the spaces provided:
 
-    -   Sender's Name&mdash;Enter the first and last name of the sender.
-    -   Sender's Email Address&mdash;Enter the email address of the person
+    -   Sender's Name - Enter the first and last name of the sender.
+    -   Sender's Email Address - Enter the email address of the person
         sending the email.
-    -   Subject&mdash;Enter a subject for the email.
-    -   Message Body&mdash;Enter the message for your email.
+    -   Subject - Enter a subject for the email.
+    -   Message Body - Enter the message for your email.
 
 6.  Click **Send**.

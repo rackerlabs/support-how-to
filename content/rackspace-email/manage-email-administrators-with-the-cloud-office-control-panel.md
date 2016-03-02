@@ -25,22 +25,22 @@ permissions via the MyRackspace Portal.
 2.  Under **Common Actions**, click **Manage Administrators**.
 3.  Click **Add Administrator**.
 4.  Enter the following information under **Add Administrator**:
-    -   **First Name**&mdash;Enter the administrator's first name.
-    -   **Last Name**&mdash;Enter the administrator's last name.
-    -   **Email**&mdash;Enter the administrator's email address.
-    -   **Admin ID**&mdash;Enter a unique name for the account. If the ID that you enter is used elsewhere on the email hosting system, you are prompted to enter a new ID.
-    -   **Type**&mdash;Select the level of security for the administrator:
-        - **Super**&mdash;Allows full access to the control panel, and
+    -   **First Name** - Enter the administrator's first name.
+    -   **Last Name** - Enter the administrator's last name.
+    -   **Email** - Enter the administrator's email address.
+    -   **Admin ID** - Enter a unique name for the account. If the ID that you enter is used elsewhere on the email hosting system, you are prompted to enter a new ID.
+    -   **Type** - Select the level of security for the administrator:
+        - **Super** - Allows full access to the control panel, and
           includes the ability to create and manage
           administrator accounts.
-        - **Standard**&mdash;Allows full access to the control panel, but restricts the administrator from certain areas of the account section of the control panel.
-        - **Limited**&mdash;Allows access to only the control panel areas
+        - **Standard** - Allows full access to the control panel, but restricts the administrator from certain areas of the account section of the control panel.
+        - **Limited** - Allows access to only the control panel areas
           that you specify. (You can select the specific areas at the bottom of
           the screen after selecting **Limited**. See step 6.)
-    -   **Password**&mdash;Enter a password for this administrator account.
-    -   **Confirm**&mdash;Retype the password.
-    -   **Security Question**&mdash;Select a security question from the list provided.
-    -   **Security Answer**&mdash;Enter the answer to the security question.
+    -   **Password** - Enter a password for this administrator account.
+    -   **Confirm** - Retype the password.
+    -   **Security Question** - Select a security question from the list provided.
+    -   **Security Answer** - Enter the answer to the security question.
 5. Enter in the following information for **Security Settings**:
     -   Specify whether the password never expires or expires in a specified number of days.
     -   Select **Allow simultaneous logins using this Administrative ID** to allow multiple people on different machines to log in using the same account.

@@ -19,21 +19,21 @@ Manager](/how-to/log-in-to-the-archive-manager),
 you can add additional users to the Archive Manager and assign the
 following user types:
 
--   **Account Admin (AA)** &mdash; A role likely filled by an individual or
+-   **Account Admin (AA)** - A role likely filled by an individual or
     group of individuals within the IT organization. Users with this
     role can create and manage users and their permissions.
 
--   **Search Admin (SA)** &mdash; Responsible for creating and managing
+-   **Search Admin (SA)** - Responsible for creating and managing
     searches. Users with this role can create new searches, edit
     existing searches, export search details, and assign search access
     to Search Users.
 
--   **Search User (SU)** &mdash; Responsible for reviewing the search results
+-   **Search User (SU)** - Responsible for reviewing the search results
     created by the Search Administrator. Users with this role cannot
     create a new search and can change the scope of a search only if
     that right has been assigned to them by the Search Administrator.
 
--   **End User (EU)** &mdash; Permits access to an individual user's mailbox
+-   **End User (EU)** - Permits access to an individual user's mailbox
     archive. Users with this can review, search, or recover any of their
     own email by logging into the archive site (for example,
     `http://yourdomain.archivesrvr.com`).
