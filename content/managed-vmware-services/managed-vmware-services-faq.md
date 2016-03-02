@@ -127,14 +127,14 @@ required boot time.
 -   Snapshots are stored with the VM and consume your allocated
     storage infrastructure. Snapshots must be carefully managed to
     ensure they don't consume all the disk space.
--   Clones are stored on the Rackspace infrastructure, so they don&rsquo;t use
+-   Clones are stored on the Rackspace infrastructure, so they don't use
     allocated disk resources. You can create one clone per VM.
 -   Templates are stored on the Rackspace infrastructure. You can create
     one template per VM.
 
 #### What are the differences between snapshot, clones, and templates?
 
--   **Snapshot** : A snapshot is a point-in-time &ldquo;instance&rdquo; of a VM that
+-   **Snapshot** : A snapshot is a point-in-time "instance" of a VM that
     can be reverted or remerged (deleted). When a snapshot is taken, the
     hypervisor software begins recording changes in what is known as a
     *delta disk*. If the snapshot is reverted, the delta disk is removed

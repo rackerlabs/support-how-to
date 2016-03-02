@@ -57,7 +57,7 @@ The following three examples show the possible output:
 
 ### Connection refused
 
-You'll usually see this response when the service isn&rsquo;t running or a
+You'll usually see this response when the service isn't running or a
 firewall is rejecting the connection.
 
 If you haven't already confirmed that the service is running you can
@@ -67,7 +67,7 @@ services](/how-to/checking-running-services-on-linux).
 
 If your service is running it's likely the connection being refused
 because your firewall is rejecting the connection. Take a look at the
-&ldquo;connection timed out&rdquo; section for instructions on troubleshooting your
+"connection timed out" section for instructions on troubleshooting your
 firewall.
 
 
@@ -193,12 +193,12 @@ Search the file for the program name
     vsftpd : ALL
 
 Try commenting out any offending lines using a hash (\#). Changes to
-this file take effect automatically &ndash; no services need to be restarted.
+this file take effect automatically - no services need to be restarted.
 
 Note that tcp wrappers will allow a connection by default so if it is
 the cause of the issue there must be an entry in /etc/hosts.deny for the
 service. You could rename the file /etc/hosts.deny to temporarily remove
-all your deny rules e.g. &ldquo;sudo mv /etc/hosts.deny /etc/hosts.deny.old&rdquo;.
+all your deny rules e.g. "sudo mv /etc/hosts.deny /etc/hosts.deny.old".
 Please be aware that this will affect all applications that use tcp
 wrappers.
 

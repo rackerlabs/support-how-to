@@ -96,7 +96,7 @@ Caching rules determine how long your content lives on the edge servers
 (or nodes) before checking the origin server for an update. If your
 content changes frequently, then set up a time to live (TTL) rule that
 pulls content from the origin server every few minutes. If your content
-does not change frequently, then set a longer TTL of 12&ndash;24 hours. If you
+does not change frequently, then set a longer TTL of 12-24 hours. If you
 create multiple caching rules, order them from the least specific to the
 most specific.
 

@@ -66,7 +66,7 @@ more consumers or subscribers of an event, as follows:
 ***Step 2 in the process can have the following variations::***
 
 - **Step 2 - variation 1:** The subscriber has already listed messages in a previous round. The
-  subscriber submits a &ldquo;next&rdquo; marker to tell the server what messages it
+  subscriber submits a "next" marker to tell the server what messages it
   has already seen, so that the server returns only new
   messages to the subscriber.
 
@@ -75,7 +75,7 @@ more consumers or subscribers of an event, as follows:
   messages, the subscriber should poll more often, or both.
 
 - **Step 2 - variation 3:** All messages have been listed. The subscriber gets an empty
-  response, and continues to periodically list messages using the queue&rsquo;s
+  response, and continues to periodically list messages using the queue's
   last known marker, until it gets a non-empty response.
 
 - **Step 2 - variation 4:** The subscriber crashes before it can get message X. A process
@@ -85,7 +85,7 @@ more consumers or subscribers of an event, as follows:
 
 ### Point-to-point
 
-In this pattern, each agent gets its own queue. A &ldquo;queue&rdquo; resource is
+In this pattern, each agent gets its own queue. A "queue" resource is
 extremely lightweight in Cloud Queues, so users can create hundreds of
 thousands of them without problem.
 
@@ -101,7 +101,7 @@ message.
 ***A couple steps in the process can have the following variations***:
 
 - **Step 2 - variation 1:** The agent could claim messages, but it is slower than simply listing
-  messages, and claiming isn&rsquo;t necessary when only one client will ever
+  messages, and claiming isn't necessary when only one client will ever
   read from the queue.
 
 
@@ -121,7 +121,7 @@ message.
 
 In auditing, users add an additional observer that is constantly listing
 and recording messages in a queue. This observer could be a CLI
-&ldquo;tail&rdquo;-like script, or a passive server process logging everything as it
+"tail"-like script, or a passive server process logging everything as it
 comes through.
 
 Auditing helps in diagnosing problems or bugs in the message producers.

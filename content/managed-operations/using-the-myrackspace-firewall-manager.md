@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 The MyRackspace Firewall Manager application is an upgraded version of the firewall control panel, which enables you to view and edit your firewall configurations. The Firewall Manager is available for all Cisco PIX, Cisco ASA, and Juniper SRX 100/240 firewalls. It is not available for Cisco PIX 515/525/535 URFO and firewalls in a high-availability configuration.
 
-The Firewall Manager allows you to perform the following actions on the firewall&rsquo;s inbound access control list:
+The Firewall Manager allows you to perform the following actions on the firewall's inbound access control list:
 
 - Add permit policies
 - Add and delete IP addresses to be denied by means of a blacklist
@@ -22,7 +22,7 @@ The Firewall Manager allows you to perform the following actions on the firewall
 - Add comments (notes) to a permit policy, deny policy, IP addresses in the blacklist, and IP addresses in an address set
 prefixed with <code>fwcp-</code>
 - View and export (.csv) changes that occurred on the firewall
-- Export (.csv) the firewall&rsquo;s inbound access list
+- Export (.csv) the firewall's inbound access list
 
 ### Firewall user agreement
 
@@ -41,7 +41,7 @@ For Cisco PIX and ASA firewalls, access list hit counts are used to determine po
 
 #### Access control list
 
-An <em>access control list</em> is a list of policies that the firewall evaluates when governing traffic for a certain traffic path. With the Firewall Manager, you can manage only the firewall&rsquo;s inbound traffic.
+An <em>access control list</em> is a list of policies that the firewall evaluates when governing traffic for a certain traffic path. With the Firewall Manager, you can manage only the firewall's inbound traffic.
 
 #### Protocol
 
@@ -68,7 +68,7 @@ The source IP is often set to **Any IP** for web and similar services. For servi
 
   - **Enter IP:** Allows you to enter a specific IP address
   - **Any IP:** Allows traffic from any source IP address through the firewall
-  - **Get My Current IP:** Automatically retrieves your client&rsquo;s IP address
+  - **Get My Current IP:** Automatically retrieves your client's IP address
 
 
 #### Netmask source and destination

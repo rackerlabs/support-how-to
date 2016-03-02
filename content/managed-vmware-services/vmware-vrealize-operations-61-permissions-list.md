@@ -18,9 +18,9 @@ The following table identifies the privileges that are **NOT** assigned to the P
 **Privilege Category** | **Privileges** | **Impact**
 --- | --- | --- |
 **Administration - Access Control** | - Add, edit or delete a role<br />- Manage object permission for user <br />- Manage user related operations <br />- Update password policy | The user can view, but cannot configure access control for other users.<br />For example, the user cannot configure authentication sources.
-**Administration &ndash; Manage AuthSources** | - Configure AuthSources | The user can view, but cannot configure authentication sources.<br />For example, the user cannot add an Active Directory domain as authentication source in the vROps environment.
-**Administration &ndash; Manage Cluster** |- All administrative actions | The user can view, but cannot perform any administration actions on the cluster.<br />For example, the user cannot add new vROps nodes to the cluster.
-**Administration &ndash; REST APIs** | - Delete alert note | The user can use REST APIs to perform all provided activities, except delete alert notes.
+**Administration - Manage AuthSources** | - Configure AuthSources | The user can view, but cannot configure authentication sources.<br />For example, the user cannot add an Active Directory domain as authentication source in the vROps environment.
+**Administration - Manage Cluster** |- All administrative actions | The user can view, but cannot perform any administration actions on the cluster.<br />For example, the user cannot add new vROps nodes to the cluster.
+**Administration - REST APIs** | - Delete alert note | The user can use REST APIs to perform all provided activities, except delete alert notes.
 **Content** | - Manage<br />- Heat map configurations<br />- Manage<br />- Plug-Ins | The user can manage all content, except heat map configurations and plug-ins.
 **Environment** | - Action | The user cannot perform any of the out-of-the-box actions.
-**Environment &ndash;<br />Alert Notes Management** | - Delete | User can add, but cannot delete alert notes.
+**Environment -<br />Alert Notes Management** | - Delete | User can add, but cannot delete alert notes.

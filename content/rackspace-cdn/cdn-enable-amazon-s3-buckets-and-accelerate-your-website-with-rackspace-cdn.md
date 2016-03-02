@@ -28,7 +28,7 @@ Set up the origin server in AWS
 -------------------------------
 
 1\. Create an Amazon Web Servers (AWS) account if you
-don&rsquo;t already have one.
+don't already have one.
 
 2\. Log in to your AWS account.
 

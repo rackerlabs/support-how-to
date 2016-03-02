@@ -142,7 +142,7 @@ this upgrade path:
     cloud servers**: Because the server itself isn't being moved, the IP
     addresses assigned to the server on RackConnect v2.0 will *not* be
     migrated with the snapshot image. As a result, the new RackConnect
-    v3.0 server replacement can&rsquo;t receive the old IP addresses used by
+    v3.0 server replacement can't receive the old IP addresses used by
     the RackConnect v2.0 server. Any necessary changes to your
     applications or environment must take into account the IP address
     changes that will be occurring.
@@ -178,7 +178,7 @@ and caveats for this upgrade path:
 -   **A configuration freeze is necessary for RackConnect v2.0**: After
     migration has started, RackConnect v2.0 still exists (and allows
     v2.0 cloud servers to communicate as normal), but RackConnect
-    automation can&rsquo;t make any v2.0-related changes to your network
+    automation can't make any v2.0-related changes to your network
     devices or cloud servers. During this time you *cannot* create or
     delete RackConnect v2.0 cloud servers, cannot make changes to your
     RackConnect v2.0 Network Policy rules during the migration, though

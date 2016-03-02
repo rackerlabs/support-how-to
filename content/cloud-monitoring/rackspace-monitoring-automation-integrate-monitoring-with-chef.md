@@ -97,7 +97,7 @@ The approach on this cookbook focuses on flexibility for the user to use
 it as they please. These particular instructions will use the recipe in
 an opinionated way. As an example, the label of the entity will be the
 hostname. This is a recommendation on how to leverage this recipe, but
-not the only way. Creating an &ldquo;Entity&rdquo; is the first step of actually
+not the only way. Creating an "Entity" is the first step of actually
 using the API from Chef. The Entity maps to the target of what you're
 monitoring.
 

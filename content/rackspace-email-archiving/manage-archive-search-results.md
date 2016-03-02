@@ -40,12 +40,12 @@ window.
 
 #### Multiple views ####
 
--   Expand all&mdash;Shows the subject, sender, recipients, date, and full
+-   Expand all - Shows the subject, sender, recipients, date, and full
     message contents. In the **Expand All** view, you can also click the
     **Text view** or **Original view** in the message to see full text
     including headers or the original appearance of the email.
--   Collapse all&mdash;Shows the subject, sender, recipients, and date.
--   Mini view&mdash;Shows the subject, sender, and date.
+-   Collapse all - Shows the subject, sender, recipients, and date.
+-   Mini view - Shows the subject, sender, and date.
 
 #### Sorting ####
 
@@ -72,8 +72,8 @@ comment**.
 Messages can be exported from the search results. Options include the
 following:
 
--   PDF&mdash;Create and download a PDF of the message.
--   Download&mdash;Download the message in EML format. This file can be opened
+-   PDF - Create and download a PDF of the message.
+-   Download - Download the message in EML format. This file can be opened
     by Microsoft Outlook and other email clients.
--   Send&mdash;Forward the message as an attachment.
--   Recover&mdash;Send the message back to your mailbox.
+-   Send - Forward the message as an attachment.
+-   Recover - Send the message back to your mailbox.

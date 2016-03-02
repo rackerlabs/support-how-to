@@ -90,5 +90,5 @@ For details, see the following posts in the Rackspace DevOps Blog:
 
 -   [Introducing
     boot.rackspace.com](http://developer.rackspace.com/blog/introducing-boot-dot-rackspace-dot-com.html)
--   [Custom Images via boot.rackspace.com &mdash; Training Wheels
+-   [Custom Images via boot.rackspace.com - Training Wheels
     Included](http://developer.rackspace.com/blog/custom-images-via-boot-dot-rackspace-dot-com-training-wheels-included.html)

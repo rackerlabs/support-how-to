@@ -13,6 +13,10 @@ product_url: rackconnect
 
 **Applies to**: RackConnect v2.0
 
+### Previous section
+
+[Accessing RackConnected cloud servers](/how-to/accessing-rackconnect-cloud-servers)
+
 Load balancers distribute workloads across two or more servers, network
 links, or other resources. This distribution maximizes throughput,
 minimizes response time, and helps avoid overload. The following
@@ -34,7 +38,7 @@ With RackConnect, there are two ways that you can automatically
 associate your cloud servers with one or more load balancer pools on
 your BIG-IP LTM:
 
-#### Option 1&mdash;Metadata
+#### Option 1 - Metadata
 
 When creating a cloud server, use the metadata option to specify the pool or pools.
 
@@ -54,7 +58,7 @@ update a cloud server's metadata at any time to add/remove cloud servers
 from load balancer pools. These metadata updates can be made via the
 Cloud Server's API.
 
-#### Option 2&mdash;Name Match
+#### Option 2 - Name Match
 
 Before you create your cloud servers, provide
 Rackspace with the preferred names and the pools to associate with
@@ -149,5 +153,6 @@ Brocade ADX load balancer with RackConnect:
 If you have any questions about using Dedicated load balancers with
 RackConnect, contact your Support team.
 
-[Accessing RackConnected cloud servers](/how-to/accessing-rackconnect-cloud-servers)
-&lt;&mdash;Previous | Next&mdash;&gt; [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)
+### Next section
+
+[Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)

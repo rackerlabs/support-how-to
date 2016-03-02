@@ -55,52 +55,52 @@ about options are provided.
 
 #### Email Accounts
 
-- **Mailboxes**&mdash;Add new mailboxes for your domain.
-- **Aliases**&mdash;Add an alias for any active mailbox on your domain.
-- **Group Lists**&mdash;Create a group list for users in your domain.
-- **Mobile Sync**&mdash;Synchronize your mail, contacts, and calendar to
+- **Mailboxes** - Add new mailboxes for your domain.
+- **Aliases** - Add an alias for any active mailbox on your domain.
+- **Group Lists** - Create a group list for users in your domain.
+- **Mobile Sync** - Synchronize your mail, contacts, and calendar to
     their mobile devices.
-- **Archiving**&mdash;Archive all incoming and outgoing email for
+- **Archiving** - Archive all incoming and outgoing email for
     your domain.
-- **Restores**&mdash;Restore an active or deleted mailbox to a specific
+- **Restores** - Restore an active or deleted mailbox to a specific
     date (30 days).
-- **Settings**&mdash;Specify values for folder cleanup, storage, access
+- **Settings** - Specify values for folder cleanup, storage, access
     rights, and Webmail settings.
 
 #### Spam Filtering
 
-- **Filter Settings**&mdash;Control your domain spam settings or
+- **Filter Settings** - Control your domain spam settings or
     individual mailbox settings such as spam handling.
-- **Edit Blacklists**&mdash;Control domain or individual mailbox
+- **Edit Blacklists** - Control domain or individual mailbox
     blacklists settings.
-- **Edit Safelists**&mdash;Control domain or individual mailbox
+- **Edit Safelists** - Control domain or individual mailbox
     blacklists settings.
-- **Blacklists / Safelists**&mdash;Search for users on blacklists
+- **Blacklists / Safelists** - Search for users on blacklists
     or safelists.
 
 #### Reports
 
-- **Domain Details**&mdash;Get a summary of your domain services
+- **Domain Details** - Get a summary of your domain services
     and products.
-- **Mailbox Details**&mdash;Get a summary of your domains mailboxes.
-- **Mail Forwarding**&mdash;See which mailboxes on your domains have
+- **Mailbox Details** - Get a summary of your domains mailboxes.
+- **Mail Forwarding** - See which mailboxes on your domains have
     forwarding enabled.
-- **Email Statistics**&mdash;Get statistics regarding email traffic, spam,
+- **Email Statistics** - Get statistics regarding email traffic, spam,
     and IMAP connectivity.
 
 #### Collaboration
 
-- **Company Directory**&mdash;Manage your domain's company contacts.
-- **Shared Calendar**&mdash;Manage users to share their calendars.
-- **Sync**&mdash;Synchronize your contacts and calendar to your
+- **Company Directory** - Manage your domain's company contacts.
+- **Shared Calendar** - Manage users to share their calendars.
+- **Sync** - Synchronize your contacts and calendar to your
     mobile device.
 
 #### Upgrades
 
-- **Email Hosting**&mdash;Upgrade your services with Rackspace Email.
-- **Cloud Drive & Server Backup**&mdash;Add the Cloud Drive and Server
+- **Email Hosting** - Upgrade your services with Rackspace Email.
+- **Cloud Drive & Server Backup** - Add the Cloud Drive and Server
     Backup services to your domain.
-- **SharePoint**&mdash;Enable your free 250 MB of the SharePoint service
+- **SharePoint** - Enable your free 250 MB of the SharePoint service
     for your domain.
 
 ### News & Alerts section
@@ -122,39 +122,39 @@ are provided.
 
 #### Manage
 
-- **Domain Details**&mdash;View  a summary of your domain services
+- **Domain Details** - View  a summary of your domain services
     and products.
-- **DNS Settings**&mdash;Manage and view the DNS settings for
+- **DNS Settings** - Manage and view the DNS settings for
     your domains.
-- **Email Archiving**&mdash;Archive all incoming and outgoing email for
+- **Email Archiving** - Archive all incoming and outgoing email for
     your domain.
-- **Global Access Rights**&mdash;Grant or disable access for POP or
+- **Global Access Rights** - Grant or disable access for POP or
     IMAP connections.
 
 #### Spam Filtering
 
-- **Set Preferences**&mdash;Control your domain spam settings or
+- **Set Preferences** - Control your domain spam settings or
     individual mailbox settings such as spam handling.
-- **Edit Blacklists**&mdash;Control domain or individual mailbox
+- **Edit Blacklists** - Control domain or individual mailbox
     blacklists settings.
-- **Edit Safelists**&mdash;Control domain or individual mailbox
+- **Edit Safelists** - Control domain or individual mailbox
     blacklists settings.
-- **Blacklists / Safelists**&mdash;Search for users on blacklists
+- **Blacklists / Safelists** - Search for users on blacklists
     or safelist.
 
 #### Tools
 
-- **Split Domain Routing**&mdash;Set up and manage split domain routing.
-- **Email Everyone**&mdash;Email everyone on your domain at once.
-- **Disclaimers**&mdash;Add a company disclaimer to your outgoing email.
-- **Catch All Address**&mdash;Add a mailbox to capture any incoming mail
+- **Split Domain Routing** - Set up and manage split domain routing.
+- **Email Everyone** - Email everyone on your domain at once.
+- **Disclaimers** - Add a company disclaimer to your outgoing email.
+- **Catch All Address** - Add a mailbox to capture any incoming mail
     sent to an address that doesn't exist on your domain.
-- **Migrations**&mdash;Set up new migrations for migrating company data
+- **Migrations** - Set up new migrations for migrating company data
     from a previous hosting provider.
 
 #### Reports
 
-- **Domain Details**&mdash;Get a summary of your domain services and products.
-- **Mailbox Details**&mdash;Get a summary of your domains mailboxes.
-- **Mail Forwarding**&mdash;See which mailboxes on your domains have forwarding enabled.
-- **Email Statistics**&mdash;Get statistics regarding email traffic, spam, and IMAP connectivity.
+- **Domain Details** - Get a summary of your domain services and products.
+- **Mailbox Details** - Get a summary of your domains mailboxes.
+- **Mail Forwarding** - See which mailboxes on your domains have forwarding enabled.
+- **Email Statistics** - Get statistics regarding email traffic, spam, and IMAP connectivity.

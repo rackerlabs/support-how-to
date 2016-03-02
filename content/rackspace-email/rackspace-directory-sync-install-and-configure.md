@@ -46,13 +46,13 @@ domain controllers.
 
 Enable the following ports on the Directory Sync server:
 
-- **443**&mdash;Outbound HTTPS connections from the Directory Sync service
+- **443** - Outbound HTTPS connections from the Directory Sync service
     to the Rackspace API.
-- **8732**&mdash;Open for connections from other domain controllers to the
+- **8732** - Open for connections from other domain controllers to the
     Directory Sync server not used for any connections outside
     your network. This port is used by domain controller password
     hooks.
-- **8080**&mdash;Used only locally on the Directory Sync service server
+- **8080** - Used only locally on the Directory Sync service server
     for a web browser user interface. You can block this port for any
     external connections.
 

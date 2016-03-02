@@ -32,7 +32,7 @@ data.  The primary function of Cloud Files is to ensure that your data
 is available when you ask for it.  This works best with relatively
 static files, as opposed to files that are frequently updated.  As a
 result, it is impractical to run a database out of Cloud Files.  You
-can&rsquo;t expect to write to the same object 20 times per second, Cloud
+can't expect to write to the same object 20 times per second, Cloud
 Files is not designed for that.  It was designed so that when you write
 to an object in Cloud Files, that object will be there each and every
 time you call for it.
@@ -100,7 +100,7 @@ applications which will fake a folder structure by adding the path to
 the beginning of the object name, which works for pathing in the CDN
 URLs as well.  This allows for virtual pathing if needed.  For object
 storage, this allows for better subdivision of slow growth
-closely-grouped data, meaning that you&rsquo;re unlikely to need to divide it
+closely-grouped data, meaning that you're unlikely to need to divide it
 out again later.  For website acceleration, this allows pathing that
 displays in the browser, for example:
 
@@ -112,7 +112,7 @@ where the name of the object is ducks/funny/duckling.jpg.
 
 All objects in a container must be deleted before the container itself
 can be deleted.  Multiple containers allow for better threading of the
-deletion scripts.  Content grows regardless of the use case, so it&rsquo;s
+deletion scripts.  Content grows regardless of the use case, so it's
 best to plan ahead for this.
 
 ### TTL

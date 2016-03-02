@@ -59,7 +59,7 @@ to the edge nodes only when it is requested.
 
 Rackspace CDN seamlessly and automatically fetches content from an
 origin server and caches it at the edge location if the edge location
-doesn&rsquo;t already have it.
+doesn't already have it.
 
 #### Can content be pulled from anywhere, including sources external to Rackspace?
 

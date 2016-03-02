@@ -81,7 +81,7 @@ port you need to address its configuration before you go any further.
 
 ### Outcome
 
-If you make changes at this point make sure to test your setup &ndash; you may
+If you make changes at this point make sure to test your setup - you may
 have resolved your issue.
 
 If not, let's continue to test connections to the service by using [the netcat command.](/how-to/testing-network-services-with-netcat)

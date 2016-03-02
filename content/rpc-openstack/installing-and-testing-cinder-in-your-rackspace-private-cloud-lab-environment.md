@@ -19,7 +19,7 @@ It also provides some basic commands to verify that your newly installed
 Cinder service and components are configured and running correctly.
 
 This is specifically for sandbox and testing / development environments
-&ndash; configurations described here, such as: compute and cinder running on
+- configurations described here, such as: compute and cinder running on
 the controller, using a loopback device for cinder-volumes and so on are
 not supported and should not be used in production.
 
@@ -36,12 +36,12 @@ two Rackspace General Purpose Cloud Servers, a 1 GB and an 8 GB flavor
 respectively. The operating system is Ubuntu 12.04.4 LTS 64-bit server
 edition and the RPC version is 4.2.2rc.  This same process works on 4.x,
 4.1x and has a reasonable expectation of continuing to work on future
-releases with minor adjustments. I&rsquo;m using a single NIC / network
+releases with minor adjustments. I'm using a single NIC / network
 configuration for all services.
 
-You may also notice that instead of using the &ldquo;all-in-one&rdquo; role I
+You may also notice that instead of using the "all-in-one" role I
 specify roles individually. The reason I do this is because the
-&ldquo;all-in-one&rdquo; role defaults to nova-network, does not contain heat, and
+"all-in-one" role defaults to nova-network, does not contain heat, and
 only installs the cinder-scheduler and cinder-api components (not
 cinder-volume). In my case I want to also run cinder-volume on this node
 and I am specifying neutron, heat and other components as well just for
@@ -53,11 +53,11 @@ Running this command in your environment should look similar to this:
 
     knife bootstrap controller-1.<your domain> -E <your environment> -r 'role[single-controller],role[single-compute],role[heat-all],role[ceilometer-all],role[cinder-all],role[neutron-network-manager]'
 
-It&rsquo;s not quite time to run this command yet however; let&rsquo;s continue on
+It's not quite time to run this command yet however; let's continue on
 to complete all of the necessary tasks to prepare for the node
 deployment.
 
-### Environment Preparation &ndash; Operating System
+### Environment Preparation - Operating System
 
 The following configuration tasks in this section are to be completed on
 both chef-1 and controller-1 unless otherwise indicated.
@@ -82,9 +82,9 @@ are installed automatically by the deployment process.
 
 Chef is capable of handling the ssh key distribution for us; however, as
 a personal preference, I typically perform this step manually and ensure
-it&rsquo;s all working before I install chef.  The only requirement is for
+it's all working before I install chef.  The only requirement is for
 chef-1 to have ssh pass-thru authentication to controller-1 but there is
-no harm in having bi-directional pass-thru authentication if that&rsquo;s
+no harm in having bi-directional pass-thru authentication if that's
 preferable.
 
 1.  The commands (<span>from the chef server</span>) to accomplish this
@@ -98,14 +98,14 @@ preferable.
 or key strength, e.g. ssh-keygen -t rsa or dsa, -b 1024 or 4096, etc.).
 
 Some distributions or packaging of openssh do not include the
-ssh-copy-id command. In this case it&rsquo;s likely faster and easier to copy
+ssh-copy-id command. In this case it's likely faster and easier to copy
 the keys by hand vs. installing a modified or recompiled version of
 openssh.  To accomplish this manually you can use these example steps:
 
     ssh-keygen
     cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys
     chmod 400 ~/.ssh/authorized_keys
-    ssh root@controller-1 &ldquo;mkdir /root/.ssh; chmod &ndash;R 400 /root/.ssh&rdquo;
+    ssh root@controller-1 "mkdir /root/.ssh; chmod -R 400 /root/.ssh"
     scp ~/.ssh/authorized_keys root@controller-1:/root/.ssh/
 
 If everything worked correctly you should now be able to ssh, as root,
@@ -117,9 +117,9 @@ Also be sure to setup all of your other basic services and settings.
 Some of your considerations may include:
 
 1.  Configuring (or disabling) iptables
-    -If leaving iptables enabled you&rsquo;ll need to open several ports for
+    -If leaving iptables enabled you'll need to open several ports for
     RPC to function properly.  You can find most of these ports listed
-    in the &ldquo;api settings&rdquo; tab for the &ldquo;security and access&rdquo; menu on the
+    in the "api settings" tab for the "security and access" menu on the
     project tab.  They are also listed in the /root/openrc file
     automatically created during the installation process.
     **Note:** I recommend installing with iptables off to ensure you have a
@@ -136,28 +136,28 @@ Some of your considerations may include:
 4.  Ensure Internet connectivity and necessary repository access is
     present
 
-### Environment Preparation &ndash; cinder-volumes
+### Environment Preparation - cinder-volumes
 
 The following configuration tasks are to be completed on controller-1.
 
-1.  We&rsquo;ll be using the native Linux Volume Manager to provide block
+1.  We'll be using the native Linux Volume Manager to provide block
     storage backing for our environment.
 
 2.  Likewise the cinder LVM driver will be used to connect to this
     storage.
 
-3.  By design, and due to the custom storage configuration nature &ndash; the
-    &ldquo;cinder-volumes&rdquo; volume group is not setup by the chef cinder-volume
+3.  By design, and due to the custom storage configuration nature - the
+    "cinder-volumes" volume group is not setup by the chef cinder-volume
     role and must be completed beforehand.
 
-4.  Here are a couple of convenient tips I&rsquo;ve found for setting up this
+4.  Here are a couple of convenient tips I've found for setting up this
     volume group.
 
 -   You may have noticed that the default behavior of the Ubuntu server
     installation (as well as most templates) is to use LVM; however, it
     typically creates only a single physical volume, a single volume
     group and also consumes all space on the device.
--   You can still create the cinder-volumes volume group but you&rsquo;ll need
+-   You can still create the cinder-volumes volume group but you'll need
     to either:
 
 -   Add another disk (which may not be readily available) to be used by
@@ -221,7 +221,7 @@ to this:
 This concludes the operating system and storage configuration tasks,
 move on to the chef and environment installation processes.
 
-### Environment Creation &ndash; Installing Chef, Cookbooks, and Creating the Environment File
+### Environment Creation - Installing Chef, Cookbooks, and Creating the Environment File
 
 In this section we will cover installing chef and configuring your
 environment file.
@@ -250,7 +250,7 @@ The basic commands to install chef-server on chef-1 are as follows:
 
 #### Install Cookbooks
 
-In this section we&rsquo;ll download and install the RPC cookbooks.  To
+In this section we'll download and install the RPC cookbooks.  To
 download the installation script run the following command:
 
     curl -s -O https://raw.github.com/rcbops/support-tools/master/chef-install/install-cookbooks.sh
@@ -259,11 +259,11 @@ Before running the shell script to install the cookbooks, use an editor
 to check and or edit the install-cookbooks.sh script and set the branch
 parameter according to your needs.
 
-In this exercise we&rsquo;ll be using 4.2.2rc; the current default stable
+In this exercise we'll be using 4.2.2rc; the current default stable
 branch is 4.2.1.
 
     # Check the current RPC version declared in the script
-    grep &ndash;m1 BRANCH /root/install-cookbooks.sh
+    grep -m1 BRANCH /root/install-cookbooks.sh
     COOKBOOK_BRANCH=${COOKBOOK_BRANCH:-v4.2.1}
 
 
@@ -277,7 +277,7 @@ Or:
 
 
     # Verify that your edits were added properly
-    grep &ndash;m1 BRANCH /root/install-cookbooks.sh
+    grep -m1 BRANCH /root/install-cookbooks.sh
     COOKBOOK_BRANCH=${COOKBOOK_BRANCH:-v4.2.2rc}
 
 
@@ -328,7 +328,7 @@ pieces below for your reference; the relevant sections are highlighted.
             },
 
 
-Since I&rsquo;m installing OpenStack on top of a hypervisor that doesn&rsquo;t
+Since I'm installing OpenStack on top of a hypervisor that doesn't
 support VT acceleration I have to set my virtualization type to qemu;
 also not suitable for production but sufficient for functional testing.
 If you have a hypervisor that supports VT acceleration you can leave
@@ -365,7 +365,7 @@ modifications to the settings later on.
                   }
            },
 
-Lastly, if you&rsquo;re not accustom to running a single NIC / single subnet
+Lastly, if you're not accustom to running a single NIC / single subnet
 environment then you may want to review the network settings as well.
 Also shown here are basic neutron configuration directives.
 
@@ -407,9 +407,9 @@ characters or, better yet, just type it in manually to avoid parsing
 errors due to formatting.*
 
 Create this file with a text editor and when complete
-use the &ldquo;knife environment from file&rdquo; creation process vs. the &ldquo;knife
-environment edit&rdquo; command (as some documentation refers to). The &ldquo;knife
-environment edit&rdquo; approach will not retain your environment edits if
+use the "knife environment from file" creation process vs. the "knife
+environment edit" command (as some documentation refers to). The "knife
+environment edit" approach will not retain your environment edits if
 there are issues with syntax or definitions.  Instead your edits are
 lost each time it fails and there is no debug information displayed
 either.*
@@ -462,12 +462,12 @@ newly deployed node and check to make sure everything is running okay.
 
 #### Post installation setup
 
-Before we get to work on verifying cinder, let&rsquo;s setup a few other
+Before we get to work on verifying cinder, let's setup a few other
 components for our instances.
 
 1.  Create a keypair.
 
--   If you haven&rsquo;t already created ssh keys on this controller
+-   If you haven't already created ssh keys on this controller
     node, do so now
 
 
@@ -533,7 +533,7 @@ components for our instances.
 **Note:** Neutron uses net namespaces, if this is not preferred you can
 remove neutron and put in nova-network.  Everything in this article
 works the same except for the sections on setting up networking and
-SSH&rsquo;ing to your instances .*
+SSH'ing to your instances .*
 
     neutron router-create router-1
     Created a new router:
@@ -677,9 +677,9 @@ Assuming all of this looks good we can move on to testing cinder.
 
 #### Testing cinder
 
-Finally we&rsquo;re ready to test our cinder service and configuration.
+Finally we're ready to test our cinder service and configuration.
 
-1.  First let&rsquo;s test the creation of a basic volume and verify.
+1.  First let's test the creation of a basic volume and verify.
 
 
     cinder create --display-name 1gb-basicvol-1 1
@@ -736,9 +736,9 @@ Finally we&rsquo;re ready to test our cinder service and configuration.
       - currently set to     256
       Block device           252:2
 
-3.  Next let&rsquo;s test creating a volume from a bootable image.
+3.  Next let's test creating a volume from a bootable image.
 
--   First, let&rsquo;s make sure we have an image present
+-   First, let's make sure we have an image present
 
 
     glance image-list
@@ -774,8 +774,8 @@ Finally we&rsquo;re ready to test our cinder service and configuration.
     that it is set to bootable.
 
 
-**Note:** It will show bootable &ldquo;false&rdquo; at first, but after creation it will
-show as &ldquo;true&rdquo;.*
+**Note:** It will show bootable "false" at first, but after creation it will
+show as "true".*
 
 
 
@@ -1108,5 +1108,5 @@ separation and performance tiering for your instances.
 You may also find the following references helpful as you explore cinder
 functionality further.
 
-RPC block storage configuration &ndash; </how-to/configuring-openstack-block-storage>
+RPC block storage configuration - </how-to/configuring-openstack-block-storage>
 

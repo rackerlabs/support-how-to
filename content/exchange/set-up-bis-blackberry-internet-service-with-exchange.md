@@ -76,21 +76,17 @@ same. You will need this information to set up the account.
 
 13. Enter the following information in the fields provided:
 
--   Outlook Web Access URL&mdash;From the **Setting Up Entourage 2008**
-    window, enter the **EWS Server** without **/ews/exchange.asmx**.
+   -   Outlook Web Access URL - From the **Setting Up Entourage 2008** window, enter the **EWS Server** without **/ews/exchange.asmx**.
 
--   User name&mdash;Enter the **Domain Name** followed by a backslash and the
-    **Account ID** (for example, mex03b.mlsrvr.com\\myname\_example.com).
+   -   User name - Enter the **Domain Name** followed by a backslash and the **Account ID** (for example, mex03b.mlsrvr.com\\myname\_example.com).
 
-    **Note:** The **Account ID** is not your email address.
+      **Note:** The **Account ID** is not your email address.
 
--   Password&mdash;Enter the password associated with your email account.
+   -   Password - Enter the password associated with your email account.
 
--   Email Address&mdash;Enter your entire email address, using all lowercase
-    letters (for example, myname@example.com).
+   -   Email Address - Enter your entire email address, using all lowercase letters (for example, myname@example.com).
 
--   Mailbox name&mdash;Enter your entire email address, using all lowercase
-    letters (for example, myname@example.com).
+   -   Mailbox name - Enter your entire email address, using all lowercase letters (for example, myname@example.com).
 
 14. Click the **Next** button.
 

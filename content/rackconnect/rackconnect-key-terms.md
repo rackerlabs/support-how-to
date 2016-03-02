@@ -62,7 +62,7 @@ both the edge and connected network device roles.
 #### Edge network device role (v2.0 and v3.0)
 
 The outermost dedicated network device in your RackConnect
-configuration&mdash;the device that connects directly to the Internet. This
+configuration - the device that connects directly to the Internet. This
 device is typically a firewall, but it can also be a load balancer in
 certain deployment scenarios. Additionally, a single network device can
 function in both the edge and connected network device roles.
@@ -81,8 +81,8 @@ traffic scenarios:
 -   Traffic from the Internet to cloud servers
 
 Network policies provide you with the ability to match network traffic
-based on certain criteria&mdash;hosts, networks, and cloud server name
-matches&mdash;to limit access to only allowed protocols and ports (or port
+based on certain criteria - hosts, networks, and cloud server name
+matches - to limit access to only allowed protocols and ports (or port
 ranges).
 
 #### Network policy templates (v2.0)

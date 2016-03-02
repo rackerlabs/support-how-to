@@ -86,14 +86,14 @@ best for you.
 
 For additional information, see the following How-To articles:
 
--   Cloud Server images &mdash; Create and restore images via our[Cloud
+-   Cloud Server images - Create and restore images via our[Cloud
     Control
     Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
     or
     [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
--   Rackspace Cloud Backup &mdash; Create and schedule [file-based
+-   Rackspace Cloud Backup - Create and schedule [file-based
     backups](/how-to/rackspace-cloud-backup-overview).
--   [Holland Backup Manager](http://hollandbackup.org/)&mdash; An open-source
+-   [Holland Backup Manager](http://hollandbackup.org/) - An open-source
     backup framework originally developed at Rackspace and written
     in Python.
 
@@ -161,13 +161,13 @@ Servers.
     Guide](/how-to/cloud-backup)
 -   [Rackspace Cloud Backup (File-Level) vs. Cloud Server
     Images](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
-    -   Cloud Server images &mdash; Create and restore images via our[Cloud
+    -   Cloud Server images - Create and restore images via our[Cloud
         Control
         Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
         or
         [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
-    -   Rackspace Cloud Backup &mdash; Create and schedule [file-based
+    -   Rackspace Cloud Backup - Create and schedule [file-based
         backups](/how-to/rackspace-cloud-backup-overview).
-    -   [Holland Backup Manager](http://hollandbackup.org/)&mdash; An
+    -   [Holland Backup Manager](http://hollandbackup.org/) - An
         open-source backup framework originally developed at Rackspace
         and written in Python.

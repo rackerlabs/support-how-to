@@ -36,7 +36,7 @@ You can use Rackspace Auto Scale to perform the following tasks:
     policy to scale back down
 -   Add and remove a specific number of servers or a percentage of your
     total resources
--   Support your dedicated servers by adding&mdash;and removing&mdash;cloud servers
+-   Support your dedicated servers by adding - and removing - cloud servers
     based on a schedule
 
 ### Prerequisites

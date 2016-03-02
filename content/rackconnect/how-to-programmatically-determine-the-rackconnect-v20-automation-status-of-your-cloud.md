@@ -185,8 +185,8 @@ API, see the [First Generation Cloud Servers API documentation](http://docs.rack
 As part of an effort to improve your experience with RackConnect, we
 made an automation change that affects RackConnect customers with the
 Managed Operations service level. This change is transparent for the
-majority of customers&mdash;including those using the MyRackspace Portal or
-the Cloud Control Panel to provision servers&mdash;but might require changes
+majority of customers - including those using the MyRackspace Portal or
+the Cloud Control Panel to provision servers - but might require changes
 for any customers who performed automated processes or configuration on
 their servers immediately after the RackConnect Automation completed.
 

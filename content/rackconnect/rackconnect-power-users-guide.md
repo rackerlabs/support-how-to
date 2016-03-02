@@ -21,7 +21,7 @@ build success rates are key success measurements.
 
 ### How to increase build success rates
 
-1. "Burst" the server builds&mdash;A RackConnect configuration represents a
+1. "Burst" the server builds - A RackConnect configuration represents a
 deployment of the RackConnect solution. The configuration is comprised
 of your Edge and Connected physical network devices, along with one or
 more Cloud Accounts that you associate with the configuration. A single
@@ -37,7 +37,7 @@ the next batch. RackConnect has an API you can use to determine when the
 last server is fully deployed. More information about how to determine the RackConnect automation status for cloud servers is available at [Programmatically determine the RackConnect automation status of your cloud
 servers](/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
 
-1. Vet the image&mdash;After the basic cloud server build has completed,
+1. Vet the image - After the basic cloud server build has completed,
 RackConnect logs on to the newly created server and performs some
 configuration changes. For RackConnect v2.0 customers, the automation
 creates a RackConnect "user", disables the public interface,
@@ -52,7 +52,7 @@ login via SSH will all fail to build correctly. For more information about image
 configuration, see [RackConnect best
 practices](/how-to/rackconnect-v20-best-practices).
 
-1. Allow Rackspace automation to complete&mdash;If you are running your own
+1. Allow Rackspace automation to complete - If you are running your own
 automation scripts after the cloud server build is complete, be sure to
 allow all Rackspace automation to complete before running your scripts.
 If your automation and Rackspace automation runs at the same time it
@@ -65,7 +65,7 @@ own. To programmatically determine when Rackspace automation is complete, see [P
 RackConnect automation status of your cloud
 servers](/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud)
 
-1. Build cloud servers in the correct region&mdash;Ensure that you create
+1. Build cloud servers in the correct region - Ensure that you create
 your cloud servers in the same region as your RackConnect configuration.
 In other words, if your dedicated environment is in the Rackspace DFW
 region, be sure to build any cloud servers you want to be connect to RackConnect

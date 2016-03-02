@@ -57,7 +57,7 @@ execute a canonicalization attack.
 Applications that require the use of the ``+`` character in the URL path
 can disable this validation by setting the ``allowDoubleEscaping``  attribute
 in the ``system.webServer/security/requestFiltering`` configuration section
-in the application&rsquo;s web.config. However, this may make your application
+in the application's web.config. However, this may make your application
 more vulnerable to malicious URLs:
 
     <system.webServer>

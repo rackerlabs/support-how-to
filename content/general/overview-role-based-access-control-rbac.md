@@ -93,12 +93,12 @@ roles can be changed only per product.
 Assign Account roles to users who manage your Rackspace customer
 account.
 
--   **Billing:admin &ndash;** The *account* role of billing admin has
+-   **Billing:admin** - The *account* role of billing admin has
     permissions to create, read, update, and delete given billing and
     payment resources within the designated product where access
     is granted.
 
--   **Billing:observer &ndash;** The *account* role billing observer has
+-   **Billing:observer** - The *account* role billing observer has
     permission to read given billing and payment resources within the
     designated product where access is granted. This role is read-only.
 

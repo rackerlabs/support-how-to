@@ -128,7 +128,7 @@ You can create a subfolder in the following ways:
 
 - From the main (or parent) **Folders** page.
 
-- By clicking the parent&rsquo;s folder and creating the subfolder from the
+- By clicking the parent's folder and creating the subfolder from the
   subfolder list page.
 
 #### Create a subfolder from the parent Folders page
@@ -164,8 +164,8 @@ You can find a specific folder in the following ways:
 
 - Follow the folder path to the folder.
 
-- If you know all or part of the folder&rsquo;s name but do not know its
-  path (for example, its parent folder&rsquo;s name), you can search for it
+- If you know all or part of the folder's name but do not know its
+  path (for example, its parent folder's name), you can search for it
   by using the Search Folders box. For example, if you have a
   subfolder caller **Sales Force** but you can recall only that it has
   the word *sales* in it, you can search the term *sales*. The

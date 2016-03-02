@@ -32,11 +32,11 @@ mechanisms.
     your changes.
 
 To find tagged instances, select the check boxes next to the tags in the
-**Tag** on the left side of the server&rsquo;s list.
+**Tag** on the left side of the server's list.
 
 ### Tips for creating tags
 
-A few simple tags can help you identify a server&rsquo;s purpose at a glance.
+A few simple tags can help you identify a server's purpose at a glance.
 You can also easily filter a long list of servers with several tags to
 distinguish one server type from another. Following are some tips for
 creating tags that can help you organize your cloud infrastructure.
@@ -48,7 +48,7 @@ operate under similar conditions. An example of a server environment is
 a collection of *development*, *staging*, and *production* servers.
 Development servers are used when you are testing code that is still in
 flux. Staging servers provide a stable testing ground for code deemed to
-be complete. Production servers are where code goes when it&rsquo;s passed
+be complete. Production servers are where code goes when it's passed
 testing and is ready to be used with real data or viewed by customers.
 
 #### Function

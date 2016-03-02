@@ -40,7 +40,7 @@ following figure:
 -   Create a list of all the necessary software packages that are
     installed on your EC2 instance other than your Spring application
 -   Create a list of all additional Amazon servers that are being used
-    in the application&mdash;for example, Simple Email Server (SES) for email
+    in the application - for example, Simple Email Server (SES) for email
     or Relational Database Service (RDS) for databases.
 -   If you have not already, [create a Cloud Server instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
     and any supporting Rackspace Cloud services.

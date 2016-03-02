@@ -36,7 +36,7 @@ override the spam filtering for the entire domain.
 
 3. In the **Settings** section, select whether you'd like to turn the spam
    filtering on or off. You may also select the Exclusive button to receive
-   email only from senders on your domain&rsquo;s safelist if you desire.
+   email only from senders on your domain's safelist if you desire.
 
    ![](http://c15043053.r53.cf2.rackcdn.com/SpamHex6.png)
 

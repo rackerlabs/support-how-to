@@ -76,4 +76,4 @@ First you will need to download a small piece of C# software and compile it on W
 
 *   This example schedules the MySQL_Backup program to run once a day, every day, at 8:00 A.M. until December 31, 2014\. Because it omits the **/mo** parameter, the default interval of 1 is used to run the command every day.
 
-*   During the task creation you will be asked your currently logged in user&rsquo;s password. Once you enter the password, a new task will be created for you. You can view the newly created task with the **schtasks** command.
+*   During the task creation you will be asked your currently logged in user's password. Once you enter the password, a new task will be created for you. You can view the newly created task with the **schtasks** command.

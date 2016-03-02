@@ -33,9 +33,9 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 8. Enter the following information:
 
-    - **Incoming e-mail server type**&mdash;Select **IMAP** from the list.
-    - **Incoming mail (POP3 or IMAP) server**&mdash;Enter the secure server name: **secure.emailsrvr.com**
-    - **Outgoing e-mail server (SMTP) name**&mdash;Enter the secure server name: **secure.emailsrvr.com**
+    - **Incoming e-mail server type** - Select **IMAP** from the list.
+    - **Incoming mail (POP3 or IMAP) server** - Enter the secure server name: **secure.emailsrvr.com**
+    - **Outgoing e-mail server (SMTP) name** - Enter the secure server name: **secure.emailsrvr.com**
     - Select the **Outgoing server requires authentication** check box.
 
     ![ Server addresses form](http://c458714.r14.cf2.rackcdn.com/EA_ServerSettings_01.png)
@@ -72,7 +72,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 ### Set up Windows Mail for POP
 
-1. In Windows Mail, click **Tools** &gt; **Accounts**.
+1. In Windows Mail, click **Tools < Accounts**.
 
 2. Click **Add**.
 
@@ -88,9 +88,9 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 8. Enter the following information:
 
-    - **Incoming e-mail server type**&mdash;Ensure that **POP3** is selected.
-    - **Incoming mail (POP3 or IMAP) server**&mdash;Enter the secure server name:    **secure.emailsrvr.com**
-    - **Outgoing e-mail server (SMTP)**&mdash;Enter the secure server name:     **secure.emailsrvr.com**
+    - **Incoming e-mail server type** - Ensure that **POP3** is selected.
+    - **Incoming mail (POP3 or IMAP) server** - Enter the secure server name: **secure.emailsrvr.com**
+    - **Outgoing e-mail server (SMTP)** - Enter the secure server name: **secure.emailsrvr.com**
     - Select the **Outgoing server requires authentication** check box.
 
     ![ Server address form](http://c458716.r16.cf2.rackcdn.com/EA_SetupServers_01.png)

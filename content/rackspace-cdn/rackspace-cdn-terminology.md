@@ -59,7 +59,7 @@ dedicated server. A CDN service can have multiple origins.
 How the edge node gets the content from the origin(s). The content is
 pulled when it is requested by the end users--for example, when they
 visit your website or use an application that uses content on your CDN.
-Rackspace CDN does not support the &ldquo;push&rdquo; method, which prepopulates the
+Rackspace CDN does not support the "push" method, which prepopulates the
 cache with content before a request is made.
 
 **Purge**

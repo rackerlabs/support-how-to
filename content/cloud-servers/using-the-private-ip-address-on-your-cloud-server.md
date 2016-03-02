@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 Each Cloud Server comes with two addresses that are available for your
-use. One address is an external &rdquo;real-world&rdquo; IP address that is
+use. One address is an external "real-world" IP address that is
 accessible from the Internet and the other is an internal or "private"
 IP address.  This internal IP address is on a network commonly called
 ServiceNet and is used within the Cloud.

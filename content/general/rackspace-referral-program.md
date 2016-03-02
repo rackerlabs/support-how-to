@@ -31,14 +31,14 @@ businesses for a rewarding relationship.
 
 ### We're Here to Help You Grow with Us
 
-Your relationship with Rackspace isn't a one-way street &mdash; we'll succeed
+Your relationship with Rackspace isn't a one-way street - we'll succeed
 together. That's why we've made the referral program as easy and
 transparent as possible. In the referral portal, you can see the status
 of all of your leads and compensation and contact us for help. Unlike
 most programs that have lengthy and complicated contracts, there are no
 fees or commitments in this program. It's just companies working
 together to build a strong offering in the marketplace. At Rackspace,
-it's simple &mdash; you are rewarded for referring leads.
+it's simple - you are rewarded for referring leads.
 
 ### Rewarding Your Commitment
 

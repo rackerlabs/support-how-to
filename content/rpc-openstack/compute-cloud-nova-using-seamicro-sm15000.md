@@ -17,7 +17,7 @@ to cloud service providers find innovative ways to adhere to the high
 demands of availability, performance, efficiency, and
 cost-effectiveness.
 
-AMD&rsquo;s SeaMicro SM15000&trade; brings together compute, storage, and networking
+AMD's SeaMicro SM15000&trade; brings together compute, storage, and networking
 very effectively to solve huge costs and space issues with hardware
 required to operate a cloud. This paper describes the SeaMicro fabric,
 architecture, and tips to realize a compute cloud using Rackspace
@@ -33,13 +33,13 @@ may be configured with the following:
 
 <!-- -->
 
--   64 internal SSD or HDD drives at 2.5&rdquo;
+-   64 internal SSD or HDD drives at 2.5"
 
 <!-- -->
 
 -   8 storage cards (s-cards) with up to 1,344 external disks
     -   2 enclosures (Just a Bunch of Disks/JBODs) each
-    -   84 3.5&rdquo; disks per JBOD
+    -   84 3.5" disks per JBOD
 
 <!-- -->
 
@@ -58,7 +58,7 @@ An interesting and powerful aspect of the SM15000&trade; is the supercompute
 fabric, which is able to deliver 1.28 Terabits/second of bandwidth
 internally. It is configured as a three-dimensional torus, tunneling
 packets using flow control digits (FLITs) and routing them through a
-&ldquo;wormhole fabric&rdquo;. The &ldquo;wormhole fabric&rdquo; uses a simple protocol to route
+"wormhole fabric". The "wormhole fabric" uses a simple protocol to route
 packets based on whether virtual channels are active, waiting, or idle.
 In cases of high congestion, the traffic is prioritized using virtual
 channels. Storage traffic is always given the highest priority to avoid
@@ -73,12 +73,12 @@ instances as well as managing the networks between virtual machines.
 OpenStack compute consists of different services, but they are mainly
 categorized into two types of nodes:
 
--   Controller Node &ndash; Controller node hosts RabbitMQ server, MySQL
+-   Controller Node - Controller node hosts RabbitMQ server, MySQL
     database, Keystone, API server, Horizon, and Glance.
 
 <!-- -->
 
--   Compute Node &ndash; nova-compute and nova-network.
+-   Compute Node - nova-compute and nova-network.
 
 The API service is responsible for receiving and responding to the user
 request.  Once the request is received, the nova-scheduler service finds
@@ -123,7 +123,7 @@ multiple paths between any two components in the system, which allows
 system for easy routing during node failures.
 
 Each SeaMicro fabric comes with 6 slots for AC/DC power supplies and 4
-optional slots. Failure of a single power supply doesn&rsquo;t have any impact
+optional slots. Failure of a single power supply doesn't have any impact
 on the system availability and operation.
 
 ### Installation
