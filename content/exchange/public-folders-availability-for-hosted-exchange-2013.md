@@ -13,10 +13,6 @@ product_url: exchange
 
 Public folders for Hosted Exchange 2013 improve folder administration in the Cloud Office Control Panel. Limited Admin control panel users have access to the public folders page.
 
-### Background
-
-In March 2014, Microsoft announced new limits on Exchange 2013 public folders. The limits were caused by new folder storage architecture in the 2013 release. At that point, Rackspace removed public folders from the Hosted Exchange 2013 product to maintain server stability until Microsoft could provide an update. In August 2014, Microsoft released the software update to improve public folder limits, and Rackspace began applying the new guidance to our Hosted Exchange 2013 product. The Microsoft update still has limits on public folders. In order for Rackspace to offer public folders without exceeding those numbers, we will apply folder usage limits to all customer accounts.
-
 ### Summary of limits for Exchange 2013 public folders
 
 - All Hosted Exchange 2013 customers can add public folders to their email domains.
@@ -49,9 +45,9 @@ Because of the inherent limitations in Exchange Server 2013, Rackspace limits th
 
 - Customers who manage folders through Outlook need a Limited Admin account in the control panel. Public folder administration is no longer available in Outlook. The primary control panel admin user can create Limited Admin accounts.
 
-- For Exchange 2013 customers whose folders exceed the limits, Rackspace will not automatically decrease their number or storage size. For these users, an example folder structure might display &ldquo;33 of 25 folders.&rdquo; Customers with more than 25 folders cannot add new folders until they are below the limit. Folders that are over the 250 MB storage quota will not accept new items until content is removed to get below the quota.
+- For Exchange 2013 customers whose folders exceed the limits, Rackspace will not automatically decrease their number or storage size. For these users, an example folder structure might display "33 of 25 folders." Customers with more than 25 folders cannot add new folders until they are below the limit. Folders that are over the 250 MB storage quota will not accept new items until content is removed to get below the quota.
 
-The 25-folder and 250-MB-per-folder limits ensure that each Exchange environment does not exceed the inherent public folder limits that Microsoft placed on Exchange Server 2013. Without these limits, Rackspace would jeopardize the stability of our customers&rsquo; email and uptime. As Microsoft raises the limits (as they have stated they plan to do), we plan to raise ours as well.
+The 25-folder and 250-MB-per-folder limits ensure that each Exchange environment does not exceed the inherent public folder limits that Microsoft placed on Exchange Server 2013. Without these limits, Rackspace would jeopardize the stability of our customers' email and uptime. As Microsoft raises the limits (as they have stated they plan to do), we plan to raise ours as well.
 
 ### Limits for Hosted Exchange 2007 and 2010
 
