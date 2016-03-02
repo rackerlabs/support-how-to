@@ -8,7 +8,7 @@ created_by: Maria Abrahms
 last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
-product_url: cloud-monitoring
+product_url: rackspace-monitoring
 ---
 
 Rackspace Monitoring can be used with Rackspace servers and non-Rackspace servers. When you are using a Rackspace server, you can be at a Managed Operations service level or a Managed Infrastructure service level. There are some differences between what you can do in any one of these circumstances. This page describes each circumstance.

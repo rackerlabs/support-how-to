@@ -8,7 +8,7 @@ created_by: Rackspace Support
 last_modified_date: '2016-1-22'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
-product_url: cloud-monitoring
+product_url: rackspace-monitoring
 ---
 
 Rackspace Monitoring is an API driven cloud service built for infrastructure

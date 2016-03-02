@@ -8,7 +8,7 @@ created_by: Jim Culbreath
 last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
-product_url: cloud-monitoring
+product_url: rackspace-monitoring
 ---
 
 In the Cloud Control Panel, you can choose to set monitoring checks on your servers. This article explains each check and the options that you can set for them. For information about setting up one of these monitoring checks, see [Create a monitoring check using the Cloud Control Panel](/how-to/creating-a-monitoring-check-using-the-cloud-control-panel).

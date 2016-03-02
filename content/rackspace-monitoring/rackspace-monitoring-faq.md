@@ -1,5 +1,5 @@
 ---
-permalink: cloud-monitoring-faq/
+permalink: rackspace-monitoring-faq/
 node_id: 5036
 title: Cloud Monitoring FAQ
 type: article
@@ -8,7 +8,7 @@ created_by: Stephanie Fillmon
 last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
-product_url: cloud-monitoring
+product_url: rackspace-monitoring
 ---
 
 ### Getting Started
