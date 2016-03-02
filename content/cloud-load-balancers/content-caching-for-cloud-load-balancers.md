@@ -125,6 +125,6 @@ the following to your apache config:
         Header set Cache-Control "no-cache"
     </FilesMatch>
 
-Replace the extensions in the &ldquo;ico|flv|jpg|jpeg&rdquo; section with the
+Replace the extensions in the "ico|flv|jpg|jpeg" section with the
 extensions for which you want to bypass caching, making sure to put a
-&ldquo;|&rdquo; character between each extension.
+"|" character between each extension.

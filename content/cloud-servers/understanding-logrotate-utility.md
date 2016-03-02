@@ -18,9 +18,9 @@ logs. It&rsquo;s true! The system usually runs logrotate once a day, and when
 it runs it checks rules that can be customized on a per-directory or
 per-log basis.
 
-&ldquo;Log rotation&rdquo; refers to the practice of archiving an application&rsquo;s
+"Log rotation" refers to the practice of archiving an application&rsquo;s
 current log, starting a fresh log, and deleting older logs. And while
-we&rsquo;re explaining things, a &ldquo;log&rdquo; is a file where an application stores
+we&rsquo;re explaining things, a "log" is a file where an application stores
 information that might be useful to an administrator or developer - what
 it&rsquo;s been doing, what errors it&rsquo;s run into, that sort of thing. So logs
 are good, you just usually don&rsquo;t want to keep a ton of them around.
@@ -101,8 +101,8 @@ commands similar to what you saw in logrotate.conf.
 
 **NOTE:** You won&rsquo;t actually see an entry for a syslog service on
 versions of Ubuntu older than Karmic Koala (9.10). Prior to that release
-the system logs were rotated by a &ldquo;savelog&rdquo; command run from the
-&ldquo;/etc/cron.daily/sysklogd&rdquo; script.
+the system logs were rotated by a "savelog" command run from the
+"/etc/cron.daily/sysklogd" script.
 
 #### Inside an application file
 
@@ -121,10 +121,10 @@ system:
 
 We&rsquo;ll look at what most of the specific directives in this file mean in
 a bit, but the short version is that when logrotate runs it will check
-for any files in /var/log/httpd that end in &ldquo;log&rdquo; and rotate them, so
+for any files in /var/log/httpd that end in "log" and rotate them, so
 long as they aren&rsquo;t empty. If it checks the httpd directory and doesn&rsquo;t
 find any logfiles it won&rsquo;t throw an error. Then it will run the command
-in the &ldquo;postrotate/endscript&rdquo; block (in this case, a command that will
+in the "postrotate/endscript" block (in this case, a command that will
 tell apache to restart), but only after it&rsquo;s processed all the specified
 logs.
 
@@ -132,7 +132,7 @@ What you don&rsquo;t see in that file are some settings you saw back in
 logrotate.conf. This is because the commands in logrotate.conf act as
 defaults for log rotation. You can specify different settings for any
 application where you want to override the defaults. For example, if you
-run a busy web server, you may want to include a &ldquo;daily&rdquo; command in
+run a busy web server, you may want to include a "daily" command in
 apache&rsquo;s config block so apache&rsquo;s logs will rotate daily instead of the
 default weekly rotation.
 
@@ -163,7 +163,7 @@ logrotate.conf file.
 You can list more than one log file for a block either by using a
 wildcard in the name or by separating log files in the list with spaces.
 For example, to specify all files in the directory /var/foo that end in
-&ldquo;.log&rdquo;, as well as the file &ldquo;/var/bar/log.txt&rdquo;, you would set up the
+".log", as well as the file "/var/bar/log.txt", you would set up the
 block like so:
 
     /var/foo/*.log /var/bar/log.txt {
@@ -175,14 +175,14 @@ Just not with as many blahs.
 
 #### Rotate count
 
-The &ldquo;rotate&rdquo; command determines how many archived logs will be kept
+The "rotate" command determines how many archived logs will be kept
 around before logrotate starts deleting the older ones. For example:
 
     rotate 4
 
 That command tells logrotate to keep 4 archived logs at a time. If there
 are already four archived logs when the log is rotated again, the oldest
-one (the one with &ldquo;.4&rdquo; at the end, usually) will be deleted to make room
+one (the one with ".4" at the end, usually) will be deleted to make room
 for the new archive.
 
 #### Rotation interval
@@ -196,24 +196,24 @@ particular log. The possible commands include:
     yearly
 
 If a rotation interval is not specified the log will be rotated whenever
-logrotate runs (unless another condition like &ldquo;size&rdquo; has been set).
+logrotate runs (unless another condition like "size" has been set).
 
 If you want to use a time interval other than the keywords listed here
 you&rsquo;ll have to get clever with cron and a separate config file. For
 example, if you wanted to rotate a particular log file hourly, you could
-create a file in &ldquo;/etc/cron.hourly&rdquo; (you may need to create that
+create a file in "/etc/cron.hourly" (you may need to create that
 directory too) that would contain a line like:
 
     /usr/sbin/logrotate /etc/logrotate.hourly.conf
 
 Then put the configuration for that hourly run of logrotate (the log
 file location, whether or not to compress old files, and so on) into
-&ldquo;/etc/logrotate.hourly.conf&rdquo;.
+"/etc/logrotate.hourly.conf".
 
 #### Size
 
 You can specify a file size that logrotate will check when determining
-whether or not to perform a rotation by using the &ldquo;size&rdquo; command. The
+whether or not to perform a rotation by using the "size" command. The
 format of the command tells logrotate what units you&rsquo;re using to specify
 the size:
 
@@ -249,14 +249,14 @@ One more command of note in regard to compression is:
     delaycompress
 
 This command can be useful if you want the archived logs to be
-compressed, but not right away. With &ldquo;delaycompress&rdquo; active an archived
+compressed, but not right away. With "delaycompress" active an archived
 log won&rsquo;t be compressed until the next time the log is rotated. This can
 be important when you have a program that might still write to its old
 logfile for a time after a fresh one is rotated in. Note that
-&ldquo;delaycompress&rdquo; only works if you also have &ldquo;compress&rdquo; in your config.
+"delaycompress" only works if you also have "compress" in your config.
 
 An example of a good time to use delaycompress would be when logrotate
-is told to restart apache with the &ldquo;graceful&rdquo; or &ldquo;reload&rdquo; directive.
+is told to restart apache with the "graceful" or "reload" directive.
 Since old apache processes would not be killed until their connections
 are finished, they could potentially try to log more items to the old
 file for some time after the restart. Delaying the compression ensures
@@ -264,7 +264,7 @@ that you won&rsquo;t lose those extra log entries when the logs are rotated.
 
 #### Postrotate
 
-The &ldquo;postrotate&rdquo; script is run by logrotate each time it rotates a log
+The "postrotate" script is run by logrotate each time it rotates a log
 specified in a config block. You&rsquo;ll usually want to use this to restart
 an application after the log rotation so the app can switch to a new
 log.
@@ -273,23 +273,23 @@ log.
         /usr/sbin/apachectl restart > /dev/null
     endscript
 
-That &ldquo;&gt; /dev/null&rdquo; bit at the end tells logrotate to pipe the
+That "&gt; /dev/null" bit at the end tells logrotate to pipe the
 command&rsquo;s output to, well, nowhere. Otherwise the output of that command
 will be sent off to the console or the log or email or whatever, and in
 this case, you don&rsquo;t really care about the output if everything
 restarted okay.
 
-The &ldquo;postrotate&rdquo; command tells logrotate that the script to run will
-start on the next line, and the &ldquo;endscript&rdquo; command says that the script
+The "postrotate" command tells logrotate that the script to run will
+start on the next line, and the "endscript" command says that the script
 is done.
 
 #### Sharedscripts
 
-Normally logrotate will run the &ldquo;postrotate&rdquo; script every time it
+Normally logrotate will run the "postrotate" script every time it
 rotates a log. This is true for multiple logs using the same config
 block. So for example, a web server config block that refers to both the
 access log and the error log will, if it rotates both, run the
-&ldquo;postrotate&rdquo; script twice (once for each file rotated). So if both files
+"postrotate" script twice (once for each file rotated). So if both files
 are rotated, the web server will be restarted twice.
 
 To keep logrotate from running that script for every log, you can

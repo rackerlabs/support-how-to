@@ -25,7 +25,7 @@ modifications to ensure a positive customer experience on our cloud.
 Using the [Cloud Control Panel](http://mycloud.rackspace.com) UI, API or
 the CLI you can create, edit, update and delete full stack
 configurations. In addition to this service, Orchestration also provide
-&ldquo;Rackspace Templates&rdquo; section in the Control Panel. This include several
+"Rackspace Templates" section in the Control Panel. This include several
 pre-built templates that incorporate industry best practices and allow
 customers to quickly deploy specific application and platform stacks
 such as WordPress, LAMP, PHP, etc.
@@ -299,7 +299,7 @@ CLI.
 
 Yes. There are two main differences to note:
 
-1.  Additional support for custom defined &ldquo;Rackspace&rdquo; resources While
+1.  Additional support for custom defined "Rackspace" resources While
     Cloud Orchestration is based off the OpenStack Heat project, each
     service provider running Heat can choose which cloud resource
     plug-ins to support. In an effort to provide our customers breadth
@@ -311,12 +311,12 @@ Yes. There are two main differences to note:
     OpenStack installations.
 
     Rackspace specific resources are clearly marked in our documentation
-    and begin with Rackspace.&rdquo; For a full list of supported resource
+    and begin with Rackspace." For a full list of supported resource
     types, please refer to our Orchestration documentation to see
     instructions for how to [list resource
     types](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/#list-resource-types).
 
-    **Note**: The &ldquo;OS:Heat:ChefSolo&rdquo; resource in this list is a
+    **Note**: The "OS:Heat:ChefSolo" resource in this list is a
     Rackspace contributed resource that is incorrectly labeled as Heat.
     This will be corrected in subsequent updates.
 
@@ -386,7 +386,7 @@ installed. The location varies depending on the software.
 Cloud Orchestration is not a replacement for server configuration tools
 such as Puppet and Chef. Cloud Orchestration is very complementary with
 Chef or Puppet. You will continue to use Chef and Puppet to
-&ldquo;template-ize&rdquo; your server software configurations, while Cloud
+"template-ize" your server software configurations, while Cloud
 Orchestration templates will help you create a full stack that includes
 all the infrastructure resources required for your stack. Cloud
 Orchestration allows you to quickly bootstrap your preferred software
@@ -418,11 +418,11 @@ Cloud Orchestration allows customers to deploy their own custom
 templates (via UI, API, CLI) or leverage pre-built pre-tested templates.
 
 If a customer has built or wants to build their own template, the
-&ldquo;Custom Templates&rdquo; tab in Orchestration section in Control Panel can be
+"Custom Templates" tab in Orchestration section in Control Panel can be
 used to create stacks via UI.
 
 If a customer wants to save time and effort and take advantage of
-industry best practices, the &ldquo;Rackspace templates&rdquo; section provides
+industry best practices, the "Rackspace templates" section provides
 several pre-built pre-tested options that allow fully configured stacks
 to be spun up in quickly. This includes initial software configuration
 as well as orchestrating the requisite cloud resources.

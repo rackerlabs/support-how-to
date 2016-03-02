@@ -39,9 +39,9 @@ edition and the RPC version is 4.2.2rc.  This same process works on 4.x,
 releases with minor adjustments. I&rsquo;m using a single NIC / network
 configuration for all services.
 
-You may also notice that instead of using the &ldquo;all-in-one&rdquo; role I
+You may also notice that instead of using the "all-in-one" role I
 specify roles individually. The reason I do this is because the
-&ldquo;all-in-one&rdquo; role defaults to nova-network, does not contain heat, and
+"all-in-one" role defaults to nova-network, does not contain heat, and
 only installs the cinder-scheduler and cinder-api components (not
 cinder-volume). In my case I want to also run cinder-volume on this node
 and I am specifying neutron, heat and other components as well just for
@@ -105,7 +105,7 @@ openssh.  To accomplish this manually you can use these example steps:
     ssh-keygen
     cat ~/.ssh/id_rsa.pub > ~/.ssh/authorized_keys
     chmod 400 ~/.ssh/authorized_keys
-    ssh root@controller-1 &ldquo;mkdir /root/.ssh; chmod &ndash;R 400 /root/.ssh&rdquo;
+    ssh root@controller-1 "mkdir /root/.ssh; chmod &ndash;R 400 /root/.ssh"
     scp ~/.ssh/authorized_keys root@controller-1:/root/.ssh/
 
 If everything worked correctly you should now be able to ssh, as root,
@@ -119,7 +119,7 @@ Some of your considerations may include:
 1.  Configuring (or disabling) iptables
     -If leaving iptables enabled you&rsquo;ll need to open several ports for
     RPC to function properly.  You can find most of these ports listed
-    in the &ldquo;api settings&rdquo; tab for the &ldquo;security and access&rdquo; menu on the
+    in the "api settings" tab for the "security and access" menu on the
     project tab.  They are also listed in the /root/openrc file
     automatically created during the installation process.
     **Note:** I recommend installing with iptables off to ensure you have a
@@ -147,7 +147,7 @@ The following configuration tasks are to be completed on controller-1.
     storage.
 
 3.  By design, and due to the custom storage configuration nature &ndash; the
-    &ldquo;cinder-volumes&rdquo; volume group is not setup by the chef cinder-volume
+    "cinder-volumes" volume group is not setup by the chef cinder-volume
     role and must be completed beforehand.
 
 4.  Here are a couple of convenient tips I&rsquo;ve found for setting up this
@@ -407,9 +407,9 @@ characters or, better yet, just type it in manually to avoid parsing
 errors due to formatting.*
 
 Create this file with a text editor and when complete
-use the &ldquo;knife environment from file&rdquo; creation process vs. the &ldquo;knife
-environment edit&rdquo; command (as some documentation refers to). The &ldquo;knife
-environment edit&rdquo; approach will not retain your environment edits if
+use the "knife environment from file" creation process vs. the "knife
+environment edit" command (as some documentation refers to). The "knife
+environment edit" approach will not retain your environment edits if
 there are issues with syntax or definitions.  Instead your edits are
 lost each time it fails and there is no debug information displayed
 either.*
@@ -774,8 +774,8 @@ Finally we&rsquo;re ready to test our cinder service and configuration.
     that it is set to bootable.
 
 
-**Note:** It will show bootable &ldquo;false&rdquo; at first, but after creation it will
-show as &ldquo;true&rdquo;.*
+**Note:** It will show bootable "false" at first, but after creation it will
+show as "true".*
 
 
 

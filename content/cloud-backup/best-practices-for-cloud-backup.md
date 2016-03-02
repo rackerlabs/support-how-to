@@ -150,5 +150,5 @@ This section is similar to an FAQ. If you encounter a problem and need immediate
 
 **Issue**: My backup/restore is slow. What can I do?
 
-- If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, &ldquo;What Should I Not Save?&rdquo;. The less there is to save/restore, the faster it will be.
+- If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, "What Should I Not Save?". The less there is to save/restore, the faster it will be.
 - We're always working on optimizing the agent to make backup and restore faster.

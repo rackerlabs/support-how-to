@@ -134,7 +134,7 @@ required boot time.
 
 #### What are the differences between snapshot, clones, and templates?
 
--   **Snapshot** : A snapshot is a point-in-time &ldquo;instance&rdquo; of a VM that
+-   **Snapshot** : A snapshot is a point-in-time "instance" of a VM that
     can be reverted or remerged (deleted). When a snapshot is taken, the
     hypervisor software begins recording changes in what is known as a
     *delta disk*. If the snapshot is reverted, the delta disk is removed

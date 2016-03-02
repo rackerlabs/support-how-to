@@ -25,8 +25,8 @@ and most power efficient solution. Swift, the object storage solution in
 OpenStack, allows multiple nodes to cooperate in order store objects in
 such a way that ensures data integrity and availability.
 
-This document describes the environment and process for realizing &ldquo;Swift
-in a Rack&rdquo;: A robust object storage system with a capacity of 2.4 PB.
+This document describes the environment and process for realizing "Swift
+in a Rack": A robust object storage system with a capacity of 2.4 PB.
 
 ### The SeaMicro SM15000&trade; Server
 
@@ -37,7 +37,7 @@ is one of the first servers to be certified for Rackspace private Cloud.
 It may be configured with the following:
 
 -   512 compute cores and 4 terabytes of DRAM (8GB per core)
--   64 AMD Opteron, 64 Intel Xeon (&ldquo;Sandy Bridge&rdquo;, &ldquo;Ivy Bridge&rdquo;)
+-   64 AMD Opteron, 64 Intel Xeon ("Sandy Bridge", "Ivy Bridge")
 -   1.28 Tbps Freedom Supercompute Fabric bandwidth
 -   64 internal SSD or HDD drives
 -   Over 5.4 PB of direct attached storage (1,408 hard drives)
@@ -75,7 +75,7 @@ hundreds of computational server nodes, with significant reductions in
 power, latency, and failures. Figure 2 shows how the 64 servers within
 the SM15000&trade; are all interconnected with multiple, redundant paths over
 the Freedom&trade; Fabric. There is no single point of failure and the
-Freedom&trade; Fabric is &ldquo;self-healing&rdquo;, re-routing any traffic that would
+Freedom&trade; Fabric is "self-healing", re-routing any traffic that would
 otherwise be unable to reach its destination.
 
 ** <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SeaMicro%20Fabric.jpg" width="508" height="282" />**
@@ -107,19 +107,19 @@ effect on the others.
 
 **Figure 3: Distributed Object Storage Reference Architecture**
 
-### Recommended &ldquo;Swift in a Rack&rdquo; Architecture using the SeaMicro SM15000^TM^
+### Recommended "Swift in a Rack" Architecture using the SeaMicro SM15000^TM^
 
 The Rackspace Private Cloud Software distribution of OpenStack (RPCS)
 provides the opportunity to quickly and easily spin up private cloud
 powered by OpenStack including chef, keystone servers and other integral
-components. The &ldquo;Swift in a Rack&rdquo; solution requires RPCS and the
+components. The "Swift in a Rack" solution requires RPCS and the
 SM15000&trade; with at least 10 external storage enclosures.
 
 Figure 4 shows how the SeaMicro SM15000&trade; provides all the key
 infrastructure elements needed for OpenStack object storage. It
 dramatically simplifies the deployment by converging many of the
 functions into the SeaMicro system. The recommended architecture to
-produce &ldquo;Swift in a Rack&rdquo; leverages RPCS and assigns all compute cards
+produce "Swift in a Rack" leverages RPCS and assigns all compute cards
 (C-cards) one internal volume from which they may boot. Beyond this the
 architecture will have:
 
@@ -140,11 +140,11 @@ architecture will have:
 
  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Swift%20in%20a%20Rack%20Reference%20Architecture.jpg" width="669" height="415" />
 
-**Figure 4: &ldquo;Swift in a Rack&rdquo; Reference Architecture**
+**Figure 4: "Swift in a Rack" Reference Architecture**
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Swift%20in%20a%20Rack%20Recommended%20Configuration.jpg" width="686" height="515" />
 
-**Figure 5: &ldquo;Swift in a Rack&rdquo; Recommended Configuration**
+**Figure 5: "Swift in a Rack" Recommended Configuration**
 
 The SeaMicro SM15000&trade; provides the ability to either assign physical
 disks to nodes or pool disks together before splitting off logical
@@ -177,7 +177,7 @@ Remove all volume assignments from the nodes:
     seamicro# configure
     seamicro(config)# storage assign-clear
 
-Remove 96 volumes with names that start &ldquo;volume-&rdquo; from &ldquo;zone-0&rdquo; in slot
+Remove 96 volumes with names that start "volume-" from "zone-0" in slot
 0:
 
     seamicro# storage delete volume-prefix 0/zone-0/volume- count 64
@@ -186,17 +186,17 @@ Remove all pools from slot 0:
 
     seamicro# storage delete pool 0/all
 
-Create pool in slot 0 named &ldquo;zone-0&rdquo; which includes disks in slot 0 and
+Create pool in slot 0 named "zone-0" which includes disks in slot 0 and
 bays 0-3.
 
     seamicro# storage create pool 0/zone-0 disk 0/0,0/1,0/2,0/3
 
-Create 64 volumes at 495 GB with names that start &ldquo;volume-&rdquo; in pool
-named &ldquo;zone-0&rdquo; and slot 0.
+Create 64 volumes at 495 GB with names that start "volume-" in pool
+named "zone-0" and slot 0.
 
     seamicro# storage create volume-prefix 0/zone-0/volume- size 495 count 8
 
-Assign volume &ldquo;0/zone-0/volume-0&rdquo; to node 0/0 as disk 0.
+Assign volume "0/zone-0/volume-0" to node 0/0 as disk 0.
 
     seamicro# configure
     seamicro(config)# storage assign 0/0 0 volume 0/zone-0/volume-0
@@ -219,7 +219,7 @@ guide](http://addff702607deedcafc3-81cc2db876f4430c0f6e1367cfd71afd.r1.cf1.rackc
 
 ### Conclusion
 
-&ldquo;Swift in a Rack&rdquo; allows businesses to deploy a decent-sized object
+"Swift in a Rack" allows businesses to deploy a decent-sized object
 storage environment in a fashion that may be implemented in an
 afternoon. This environment can scale to multiple petabytes and also
 ensure objects are available and uncorrupted.

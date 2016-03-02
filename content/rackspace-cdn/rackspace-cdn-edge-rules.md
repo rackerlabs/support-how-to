@@ -218,7 +218,7 @@ including files in different subdirectories, such as
 Users commonly create multiple rules with the same rule type. For
 example, when setting up caching rules, you may want one TTL for static
 content, and another TTL for dynamic content. When creating multiple
-rules within the same rule &ldquo;type&rdquo;, the order of your rules matters.
+rules within the same rule "type", the order of your rules matters.
 
 To properly enforce your rules, they must be ordered from least specific
 to most specific. For example, your least specific caching rule is the

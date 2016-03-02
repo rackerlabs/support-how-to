@@ -130,8 +130,8 @@ You can perform the following editing actions for checks:
 
 #### Add an alarm
 
-For instructions on adding an alarm for a check, see the &ldquo;Create an
-alarm&rdquo; section of
+For instructions on adding an alarm for a check, see the "Create an
+alarm" section of
 [Working with alarms](/how-to/working-with-alarms).
 
 #### Modify the status of a check

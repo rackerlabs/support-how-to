@@ -69,7 +69,7 @@ Cloud Control Panel - List Containers
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ContainerList_0.png" width="1003" height="368" />
 
 Our API users will also see changes in their Service Catalog, which now
-shows multiple endpoints for &ldquo;object store&rdquo;:
+shows multiple endpoints for "object store":
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cf%20-%20api%20access%20points.png" width="599" height="406" />
 
@@ -81,7 +81,7 @@ PUTs are done to both endpoints and they will be charged for data stored
 in both locations along with related bandwidth charges.
 
 All customers existing previous to September 1, 2012 had their current
-region set as their &ldquo;default", which orders it first in the list of
+region set as their "default", which orders it first in the list of
 endpoints when authenticating against Cloud Files using our Auth 1.1 or
 2.0 APIs. Customers using Auth 1.0 will still only have a single
 endpoint returned.

@@ -63,7 +63,7 @@ You might not be a good fit for the Cloud Block Storage service if you:
 
 Cloud Block Storage (CBS) is not meant as a direct replacement of any
 existing Rackspace products (shared or dedicated). CBS allows Rackspace
-Cloud customers to add &ldquo;a la carte&rdquo; storage to their existing next
+Cloud customers to add "a la carte" storage to their existing next
 generation Cloud Servers and should be considered a complementary
 cloud-based storage offering that rounds out our entire storage
 portfolio.
@@ -118,7 +118,7 @@ platforms, but not first-generation Cloud Servers.
 You can verify a volume&rsquo;s capacity and available space using basic
 system commands available via their Cloud Server operating system:
 
--   In Linux CLI: From a terminal window, run the &ldquo;df -h&rdquo; command and
+-   In Linux CLI: From a terminal window, run the "df -h" command and
     note the Size, Used, Avail, and Capacity of the storage volume
 -   Windows Explorer: Right-click on drive icon and select "Properties,"
     and note Capacity, Free space, and Used space

@@ -148,13 +148,13 @@ line:
 
 #### Verbose
 
-The verbose flag, &ldquo;-v&rdquo;, tells logrotate to say what it&rsquo;s doing while
+The verbose flag, "-v", tells logrotate to say what it&rsquo;s doing while
 it&rsquo;s doing it. It&rsquo;s very useful when trying to find out why logrotate
 doesn&rsquo;t rotate a log when you want it to.
 
 #### Debug
 
-The debug flag, &ldquo;-d&rdquo;, tells logrotate to go through the motions of
+The debug flag, "-d", tells logrotate to go through the motions of
 rotating logs but not *actually* rotate them. It can be handy if you
 want to test a new config file but don&rsquo;t want any actual log rotation
 run when you do (if you&rsquo;re working on a production server, for example).
@@ -166,7 +166,7 @@ some parts of the process like the postrotate scripts.
 
 #### Force
 
-The force flag, &ldquo;-f&rdquo;, forces logrotate to rotate all logs when it runs,
+The force flag, "-f", forces logrotate to rotate all logs when it runs,
 whether or not they would normally need to be rotated at that time. If
 you want to thoroughly test logrotate&rsquo;s configs this is the flag to use.
 Just remember that logrotate will be rotating logs and deleting old ones
@@ -214,7 +214,7 @@ postrotate scripts), and that all the logs actually did get rotated.
 
 If you find that a log isn&rsquo;t rotating even though it&rsquo;s old enough that
 it should, a simple way to fix the problem is to manually run logrotate
-with the &ldquo;-f&rdquo; flag. But if you&rsquo;re the sort who wants to know *why*
+with the "-f" flag. But if you&rsquo;re the sort who wants to know *why*
 something&rsquo;s gone wrong, there&rsquo;s one more file you can check before
 forcing a rotation:
 

@@ -72,7 +72,7 @@ You can create a cluster through the Cloud Control Panel as follows:
 The various predefined stacks comprise of different services. It is best
 to choose a stack that meets the requirement for all the services that
 you need. If you are unsure and want to try out, we recommend using the
-&ldquo;HDP 2.3 with all services&rdquo; stack.
+"HDP 2.3 with all services" stack.
 
 ### Choosing a data node size
 

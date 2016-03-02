@@ -90,7 +90,7 @@ link to your jwplayerjs file:
 ```
 
 2\. Add a DIV element to your HTML page with a unique ID attribute value,
-such as &ldquo;player&rdquo;. The "Loading the player..." text is whatever text you
+such as "player". The "Loading the player..." text is whatever text you
 would like to display while the player loads.
 
     <div id="player">Loading the player...</div>

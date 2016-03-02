@@ -23,7 +23,7 @@ That means:
     for use by Rackspace customers. Please credit Rackspace for the
     documentation and don&rsquo;t pass around old versions that may not
     reflect the latest changes.
--   **Non-Commercial Use:** Rackspace defines &ldquo;commercial use&rdquo; of the
+-   **Non-Commercial Use:** Rackspace defines "commercial use" of the
     Rackspace How To documentation as republication
     for profit. Using the documentation within a commercial enterprise,
     or using the guide to develop for-profit applications using
@@ -36,15 +36,15 @@ That means:
 
 Your use of any API you download from the Rackspace website, as well as
 the code examples contained within the documentation, are governed by
-the license terms included with the code in the file named &ldquo;README&rdquo;,
-&ldquo;COPYING&rdquo; or &ldquo;LICENSE&rdquo; or like caption.
+the license terms included with the code in the file named "README",
+"COPYING" or "LICENSE" or like caption.
 
 
 
 ### RACKSPACE HOW-TO DISCLAIMER
 
 The Rackspace How-To articles are for informational purposes
-only and are provided &ldquo;AS IS.&rdquo;  The information set forth in these
+only and are provided "AS IS."  The information set forth in these
 articles is intended as a guide and not as a step-by-step process, and
 does not represent an assessment of any specific compliance with laws or
 regulations or constitute advice. We strongly recommend that you engage

@@ -36,7 +36,7 @@ The following enhancements were delivered with the February 26 launch of Rackspa
 
 *   Moved to the Juno release of OpenStack (over 3,200 bugs fixed with Juno)
 *   Provided an in-place upgrade path from the previous RPC release
-*   Added a &ldquo;Solutions&rdquo; tab to the RPC/Horizon dashboard that provides a graphical interface for our customers to easily discover and deploy RPC solution templates
+*   Added a "Solutions" tab to the RPC/Horizon dashboard that provides a graphical interface for our customers to easily discover and deploy RPC solution templates
 *   Integrated object storage (Swift) into a common control plane architecture leveraging a containerized deployment of the Swift services to enable independent scaling and seamless integration as part of a compute cloud or a stand-alone storage platform
 
 #### What support services are available for Rackspace Private Cloud?
@@ -128,7 +128,7 @@ Rackspace Monitoring bills you by how much you use. While other monitoring servi
 They are application-stack templates built by Rackspace experts that enable customers to easily deploy a production-ready application stack on top of their OpenStack cloud.  These templates are designed to be used with OpenStack Orchestration (Heat).
 
 #### Why should customers care about these templates?
-Customers need to deploy applications on top of their cloud as quickly as possible to start adding business value for their end users.  The challenge is that deploying an application in the cloud can be difficult and time consuming.  It can take the average customer about two months to deploy an application, and typically their deployment ends up being a &ldquo;snowflake&rdquo; which isn&rsquo;t automated and is difficult to reproduce.  These production-ready templates enable customers to deploy popular open-source applications on top of their private cloud in a matter of minutes.  They save customers a significant amount of time and help them quickly start adding business value.
+Customers need to deploy applications on top of their cloud as quickly as possible to start adding business value for their end users.  The challenge is that deploying an application in the cloud can be difficult and time consuming.  It can take the average customer about two months to deploy an application, and typically their deployment ends up being a "snowflake" which isn&rsquo;t automated and is difficult to reproduce.  These production-ready templates enable customers to deploy popular open-source applications on top of their private cloud in a matter of minutes.  They save customers a significant amount of time and help them quickly start adding business value.
 
 #### What makes these solution templates production-ready?
 The templates are built and tested by Rackspace&rsquo;s OpenStack experts.  They are built using industry standards and best practices and they include software plug-ins for enhanced functionality, network isolation and firewalls for robust security, are designed for high availability (e.g. database failure, redundant caching) and are optimized via extensive performance testing.
@@ -143,11 +143,11 @@ The RPC solution templates are available for free.
 The solution templates are not supported by RPC.
 
 #### Where are the solutions templates located?
-The general public can download our solution templates at the following GitHub site: [http://rcbops.github.io/templates/](http://rcbops.github.io/templates/). As part of our v10 release, Rackspace Private Cloud customers can now discover and deploy RPC solution templates using the RPC &ldquo;Solutions&rdquo; tab in the Horizon dashboard.  Following is a snapshot of the RPC &ldquo;Solutions&rdquo; tab in Horizon:
+The general public can download our solution templates at the following GitHub site: [http://rcbops.github.io/templates/](http://rcbops.github.io/templates/). As part of our v10 release, Rackspace Private Cloud customers can now discover and deploy RPC solution templates using the RPC "Solutions" tab in the Horizon dashboard.  Following is a snapshot of the RPC "Solutions" tab in Horizon:
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rpc-solutions-tab.png" width="700" alt="Rackspace Private Cloud Solutions tab screen shot"  />
 
 #### Does Rackspace plan to offer additional templates in the future?
-Yes, Rackspace plans to continue adding new solution templates to the RPC &ldquo;Solutions&rdquo; tab.
+Yes, Rackspace plans to continue adding new solution templates to the RPC "Solutions" tab.
 
 ---------
 

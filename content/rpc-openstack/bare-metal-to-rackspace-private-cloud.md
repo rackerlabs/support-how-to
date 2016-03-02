@@ -63,7 +63,7 @@ distributions of Linux (and soon Windows) to Razor. These in turn can be
 applied to nodes using different policies.
 
 Each OS requires its own model setup in Razor. Models manage OS related
-data, we are going to create &ldquo;ubuntu\_precise&rdquo; model. While creating the
+data, we are going to create "ubuntu\_precise" model. While creating the
 model, use the UUID from previous command here:
 
     $ razor model add -t ubuntu_precise -l install_precise -i
@@ -284,7 +284,7 @@ matching the specifications will be installed as Cinder nodes anytime
 they come online.
 
 Create Cinder specific tags for this
-example. Add the tag, followed by tag &ldquo;matchers&rdquo;. Each matcher is based
+example. Add the tag, followed by tag "matchers". Each matcher is based
 on server specific metadata that Razor Microkernel collects. 
 
     $ razor tag add -n cinderTags -t cinder

@@ -18,7 +18,7 @@ fail upon synchronizing updates of PIM data such as calendar or address
 book entries. These issues are frequently resolved by deleting and
 resending the service books to the device. If this happens to a user,
 have the user delete
-all their service books starting with the &ldquo;Desktop&rdquo; from their Blackberry
+all their service books starting with the "Desktop" from their Blackberry
 device. After all service books are deleted,
 resend the service books from your Cloud Office
 control panel.

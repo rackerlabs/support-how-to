@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 **Note**: Large Snapshots will not work with boot from volume. Currently snapshots have a min_disk based on the flavor size for example 160GB. Nova expands the file system to fill that entire vhd, qemu-img cannot handle files that are 127GB and larger. This means that if the flavor from which a snapshot was taken has a disk size or the min_disk is >= 127GB, that snapshot will not work.  This will result in a HTTP 412 invalid image when done via the API.
 
-You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as &ldquo;shelving,&rdquo; and improvements in managing and recovering from server outages.
+You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as "shelving," and improvements in managing and recovering from server outages.
 
 ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-1.png)
 

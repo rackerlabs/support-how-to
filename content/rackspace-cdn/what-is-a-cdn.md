@@ -13,14 +13,14 @@ product_url: rackspace-cdn
 
 The [Wikipedia
 entry](http://en.wikipedia.org/wiki/Content_delivery_network) for CDN
-states: &ldquo;A content delivery network or content distribution network
+states: "A content delivery network or content distribution network
 (CDN) is a large distributed system of servers deployed in multiple data
 centers across the Internet. The goal of a CDN is to serve content to
 end-users with high availability and high performance. CDNs serve a
 large fraction of the Internet content today, including web objects
 (text, graphics and scripts), downloadable objects (media files,
 software, documents), applications (e-commerce, portals), live streaming
-media, on-demand streaming media, and social networks.&rdquo;
+media, on-demand streaming media, and social networks."
 
 The Internet is a network of networks. To get content from a server on
 the other side of the planet, IP packets have to travel through a series

@@ -70,7 +70,7 @@ running:
     sudo pacman &ndash;Sy ntp
 
 Once installed, you can ensure the service will run at boot time by
-adding &ldquo;ntpd&rdquo; to the &ldquo;DAEMONS&rdquo; value in the rc.conf file here:
+adding "ntpd" to the "DAEMONS" value in the rc.conf file here:
 
     /etc/rc.conf
 

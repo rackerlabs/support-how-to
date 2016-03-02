@@ -33,13 +33,13 @@ may be configured with the following:
 
 <!-- -->
 
--   64 internal SSD or HDD drives at 2.5&rdquo;
+-   64 internal SSD or HDD drives at 2.5"
 
 <!-- -->
 
 -   8 storage cards (s-cards) with up to 1,344 external disks
     -   2 enclosures (Just a Bunch of Disks/JBODs) each
-    -   84 3.5&rdquo; disks per JBOD
+    -   84 3.5" disks per JBOD
 
 <!-- -->
 
@@ -58,7 +58,7 @@ An interesting and powerful aspect of the SM15000&trade; is the supercompute
 fabric, which is able to deliver 1.28 Terabits/second of bandwidth
 internally. It is configured as a three-dimensional torus, tunneling
 packets using flow control digits (FLITs) and routing them through a
-&ldquo;wormhole fabric&rdquo;. The &ldquo;wormhole fabric&rdquo; uses a simple protocol to route
+"wormhole fabric". The "wormhole fabric" uses a simple protocol to route
 packets based on whether virtual channels are active, waiting, or idle.
 In cases of high congestion, the traffic is prioritized using virtual
 channels. Storage traffic is always given the highest priority to avoid

@@ -72,12 +72,12 @@ To add a user to your account through the API, you can do the following:
 
     -   Specifying a password:
 
-            curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken&rdquo;
+            curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
 
     -   Not specifying a password (one will be generated and sent back
         in the response):
 
-            curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken&rdquo;
+            curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
 
 Any newly-created user for your account will have the same access that
 you have, except that they will not be able to create or update other
@@ -87,7 +87,7 @@ You can also update or delete a user.
 
 -   Update:
 
-        curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users/{userID} -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken&rdquo;
+        curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users/{userID} -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
 
 -   Delete:
 
@@ -293,7 +293,7 @@ You can also update or delete a user.
 This information is intended for software developers who want to develop
 applications by using the next generation Rackspace Cloud Servers
 powered by OpenStack application programming interface (API). The
-information is for informational purposes only and is provided &ldquo;as is.&rdquo;
+information is for informational purposes only and is provided "as is."
 
 Rackspace makes no representations or warranties of any kind, express or
 implied, as to the accuracy or completeness of the contents of this

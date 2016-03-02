@@ -141,9 +141,9 @@ HTTPS request fee (\$0.010 per 10,000 requests).
 
 Customers who choose the Subject Alternative Name (SAN) certificate type
 can use their own domain name when serving traffic over HTTPS. In this
-method, a customer&rsquo;s domain name is added as an &ldquo;alternative name&rdquo; on a
+method, a customer&rsquo;s domain name is added as an "alternative name" on a
 SAN certificate that Rackspace owns and manages. By offering customers
-the ability to share a &ldquo;host certificate&rdquo; with other customers,
+the ability to share a "host certificate" with other customers,
 Rackspace can reduce the cost of using your own domain with HTTPS
 delivery. In this method, a customer's SSL domain is structured as
 **https://www.mysite.com**.

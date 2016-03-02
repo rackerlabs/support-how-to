@@ -68,14 +68,14 @@ turned on the Out of Office reply in Outlook.
 
 Every contact you interact with via Microsoft Office, whether in your
 Skype for Business contacts list or not, has a "default" relationship
-with you. Your &ldquo;unlisted&rdquo; contacts (that is, those who are not included
+with you. Your "unlisted" contacts (that is, those who are not included
 in your Skype for Business contacts list) don&rsquo;t get displayed in either
 the Groups view or the Status view. But the Relationships view shows all
 the contacts on your Skype for Business contacts list *plus* any
 unlisted contacts whom you&rsquo;ve assigned a non-default privacy
 relationship.
 
-To remove any of these &ldquo;unlisted&rdquo; contacts from your Relationships view,
+To remove any of these "unlisted" contacts from your Relationships view,
 right-click on the contact, click **Change Privacy Relationship**, and
 select **Auto-assign Relationship**.
 
@@ -110,7 +110,7 @@ organization.
 #### How do I organize my contacts by location, department, or other criteria?
 
 Create a new group based on the category you need. For instance, you
-might create a group called &ldquo;Headquarters staff&rdquo; and add contacts to
+might create a group called "Headquarters staff" and add contacts to
 that group.
 
 #### How do I get added to or removed from a list of delegates?

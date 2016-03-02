@@ -67,7 +67,7 @@ services](/how-to/checking-running-services-on-linux).
 
 If your service is running it's likely the connection being refused
 because your firewall is rejecting the connection. Take a look at the
-&ldquo;connection timed out&rdquo; section for instructions on troubleshooting your
+"connection timed out" section for instructions on troubleshooting your
 firewall.
 
 
@@ -198,7 +198,7 @@ this file take effect automatically &ndash; no services need to be restarted.
 Note that tcp wrappers will allow a connection by default so if it is
 the cause of the issue there must be an entry in /etc/hosts.deny for the
 service. You could rename the file /etc/hosts.deny to temporarily remove
-all your deny rules e.g. &ldquo;sudo mv /etc/hosts.deny /etc/hosts.deny.old&rdquo;.
+all your deny rules e.g. "sudo mv /etc/hosts.deny /etc/hosts.deny.old".
 Please be aware that this will affect all applications that use tcp
 wrappers.
 
