@@ -1,4 +1,5 @@
 ---
+permalink: checking-running-services-on-linux/
 node_id: 1435
 title: Checking running services on Linux
 type: article

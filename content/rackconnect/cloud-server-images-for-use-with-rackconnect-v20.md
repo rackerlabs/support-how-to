@@ -1,4 +1,5 @@
 ---
+permalink: cloud-server-images-for-use-with-rackconnect-v20/
 node_id: 2030
 title: Cloud Servers images for use with RackConnect v2.0
 type: article

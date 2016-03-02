@@ -1,4 +1,5 @@
 ---
+permalink: mssql-2005-2008-upgrade-testing/
 node_id: 679
 title: MSSQL 2005 - 2008 Upgrade Testing
 type: article

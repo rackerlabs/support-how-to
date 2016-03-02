@@ -1,4 +1,5 @@
 ---
+permalink: migrating-mysql-50-to-51/
 node_id: 1393
 title: Migrating MySQL 5.0 to 5.1
 type: article

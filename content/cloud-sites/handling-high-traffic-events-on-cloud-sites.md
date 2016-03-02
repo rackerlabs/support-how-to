@@ -1,4 +1,5 @@
 ---
+permalink: handling-high-traffic-events-on-cloud-sites/
 node_id: 3108
 title: Handling High Traffic Events on Cloud Sites
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: using-python-novaclient-with-the-rackspace-cloud/
 node_id: 1484
 title: Python-novaclient and the Rackspace Cloud
 type: article

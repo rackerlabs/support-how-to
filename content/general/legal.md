@@ -1,4 +1,5 @@
 ---
+permalink: legal/
 node_id: 2062
 title: RACKSPACE HOW-TO LICENSE
 type: page

@@ -1,4 +1,5 @@
 ---
+permalink: dedicated-vmware-vcloud-support-coverage/
 node_id: 4511
 title: Dedicated VMware vCloud support coverage
 type: article

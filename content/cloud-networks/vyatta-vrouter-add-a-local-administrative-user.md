@@ -1,4 +1,5 @@
 ---
+permalink: vyatta-vrouter-add-a-local-administrative-user/
 node_id: 4230
 title: 'Vyatta vRouter: Add a local administrative user'
 type: article

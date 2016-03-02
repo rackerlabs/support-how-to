@@ -1,4 +1,5 @@
 ---
+permalink: cloud-storage-app-for-microsoft-sharepoint-how-to-set-up-credentials-to-access-cloud-files/
 node_id: 3505
 title: 'Cloud Storage App for Microsoft SharePoint: How to set up credentials to access Cloud Files'
 type: article

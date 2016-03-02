@@ -1,4 +1,5 @@
 ---
+permalink: connect-to-a-cloud-databases-instance/
 node_id: 1508
 title: Connect to a Cloud Databases instance
 type: article

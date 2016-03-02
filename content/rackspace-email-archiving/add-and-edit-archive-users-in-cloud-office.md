@@ -1,4 +1,5 @@
 ---
+permalink: add-and-edit-archive-users-in-cloud-office/
 node_id: 4683
 title: Add and edit archive users in Cloud Office
 type: article

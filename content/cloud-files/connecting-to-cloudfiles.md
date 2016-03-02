@@ -1,4 +1,5 @@
 ---
+permalink: connecting-to-cloudfiles/
 node_id: 307
 title: Connecting to CloudFiles
 type: article

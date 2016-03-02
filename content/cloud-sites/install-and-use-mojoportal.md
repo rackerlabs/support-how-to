@@ -1,4 +1,5 @@
 ---
+permalink: install-and-use-mojoportal/
 node_id: 673
 title: Install and use mojoPortal
 type: article

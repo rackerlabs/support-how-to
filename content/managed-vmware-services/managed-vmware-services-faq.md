@@ -1,4 +1,5 @@
 ---
+permalink: managed-vmware-services-faq/
 node_id: 5046
 title: Managed VMware Services FAQ
 type: article

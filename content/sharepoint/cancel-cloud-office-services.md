@@ -1,4 +1,5 @@
 ---
+permalink: cancel-cloud-office-services/
 node_id: 4749
 title: Cancel Cloud Office services
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: logging-in-to-the-rackspace-intelligence-dashboard/
 node_id: 4740
 title: Logging in to the Rackspace Intelligence dashboard
 type: article

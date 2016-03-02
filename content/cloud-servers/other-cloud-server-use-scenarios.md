@@ -1,4 +1,5 @@
 ---
+permalink: other-cloud-server-use-scenarios/
 node_id: 408
 title: Other Cloud Server use Scenarios
 type: article

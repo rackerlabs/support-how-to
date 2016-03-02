@@ -1,4 +1,5 @@
 ---
+permalink: cloud-images-faq/
 node_id: 3851
 title: Cloud Images FAQ
 type: article

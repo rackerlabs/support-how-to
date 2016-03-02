@@ -1,4 +1,5 @@
 ---
+permalink: allow-or-block-specific-ip-addresses-from-accessing-your-cloud-sites-website/
 node_id: 4153
 title: Allow or block specific IP addresses from accessing your Cloud Sites website
 type: article

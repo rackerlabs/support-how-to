@@ -1,4 +1,5 @@
 ---
+permalink: sending-html-mail-via-php-in-cloud-sites/
 node_id: 3838
 title: Sending HTML Mail via PHP in Cloud Sites
 type: article

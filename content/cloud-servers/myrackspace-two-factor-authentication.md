@@ -1,4 +1,5 @@
 ---
+permalink: myrackspace-two-factor-authentication/
 node_id: 4129
 title: MyRackspace two-factor authentication
 type: article

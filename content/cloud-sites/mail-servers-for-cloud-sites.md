@@ -1,4 +1,5 @@
 ---
+permalink: mail-servers-for-cloud-sites/
 node_id: 724
 title: Mail servers for Cloud Sites
 type: article

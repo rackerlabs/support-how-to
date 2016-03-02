@@ -1,4 +1,5 @@
 ---
+permalink: how-rackspace-bills-for-bandwidth/
 node_id: 3911
 title: How Rackspace Bills for Bandwidth
 type: article

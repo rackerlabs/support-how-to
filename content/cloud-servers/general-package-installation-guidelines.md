@@ -1,4 +1,5 @@
 ---
+permalink: general-package-installation-guidelines/
 node_id: 344
 title: General Package Installation Guidelines
 type: article

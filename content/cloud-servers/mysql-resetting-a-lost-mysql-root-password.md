@@ -1,4 +1,5 @@
 ---
+permalink: mysql-resetting-a-lost-mysql-root-password/
 node_id: 405
 title: MySQL - Resetting a lost MySQL root password
 type: article

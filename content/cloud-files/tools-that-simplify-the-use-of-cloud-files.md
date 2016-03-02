@@ -1,4 +1,5 @@
 ---
+permalink: tools-that-simplify-the-use-of-cloud-files/
 node_id: 227
 title: Tools that simplify the use of Cloud Files
 type: article

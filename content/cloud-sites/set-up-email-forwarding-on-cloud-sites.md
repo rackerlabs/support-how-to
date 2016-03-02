@@ -1,4 +1,5 @@
 ---
+permalink: set-up-email-forwarding-on-cloud-sites/
 node_id: 116
 title: Set up email forwarding on Cloud Sites
 type: article

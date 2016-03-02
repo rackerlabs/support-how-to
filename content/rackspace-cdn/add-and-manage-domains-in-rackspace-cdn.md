@@ -1,4 +1,5 @@
 ---
+permalink: add-and-manage-domains-in-rackspace-cdn/
 node_id: 4658
 title: Add and manage domains in Rackspace CDN
 type: article

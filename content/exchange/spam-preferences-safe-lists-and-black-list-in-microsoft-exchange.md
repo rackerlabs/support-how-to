@@ -1,4 +1,5 @@
 ---
+permalink: spam-preferences-safe-lists-and-black-list-in-microsoft-exchange/
 node_id: 1400
 title: 'Spam Preferences, Safe Lists, and Black List In Microsoft Exchange'
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: change-the-path-for-a-secondary-ftp-user-on-cloud-sites/
 node_id: 555
 title: Change the path for a secondary FTP user on Cloud Sites
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: detailed-permissions-matrix-for-billing-services/
 node_id: 3693
 title: Detailed Permissions Matrix for Billing Services
 type: article

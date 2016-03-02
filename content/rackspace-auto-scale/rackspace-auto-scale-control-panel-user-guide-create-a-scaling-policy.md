@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy/
 node_id: 3785
 title: Rackspace Auto Scale Control Panel User Guide - Create a scaling policy
 type: article

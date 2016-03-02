@@ -1,4 +1,5 @@
 ---
+permalink: available-checks-for-rackspace-monitoring/
 node_id: 3649
 title: Available checks for Rackspace Monitoring
 type: article

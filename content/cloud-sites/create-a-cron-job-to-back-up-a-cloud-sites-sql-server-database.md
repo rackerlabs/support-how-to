@@ -1,4 +1,5 @@
 ---
+permalink: create-a-cron-job-to-back-up-a-cloud-sites-sql-server-database/
 node_id: 557
 title: Create a cron job to back up a Cloud Sites SQL Server database
 type: article

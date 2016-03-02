@@ -1,4 +1,5 @@
 ---
+permalink: cloud-queues-overview/
 node_id: 3728
 title: Cloud Queues Overview
 type: article

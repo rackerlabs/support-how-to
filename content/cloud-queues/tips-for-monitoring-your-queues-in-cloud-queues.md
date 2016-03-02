@@ -1,4 +1,5 @@
 ---
+permalink: tips-for-monitoring-your-queues-in-cloud-queues/
 node_id: 3658
 title: Tips for monitoring your queues
 type: article

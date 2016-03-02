@@ -1,4 +1,5 @@
 ---
+permalink: available-protocols-when-configuring-a-cloud-load-balancer/
 node_id: 1773
 title: Available protocols when configuring a Cloud Load Balancer
 type: article

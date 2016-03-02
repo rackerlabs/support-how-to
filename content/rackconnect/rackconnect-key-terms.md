@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-key-terms/
 node_id: 2017
 title: RackConnect key terms
 type: article

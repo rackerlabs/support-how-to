@@ -1,4 +1,5 @@
 ---
+permalink: first-generation-end-of-life-migrations/
 node_id: 4566
 title: First Generation end-of-life migrations
 type: article

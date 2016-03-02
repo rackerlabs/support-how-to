@@ -1,4 +1,5 @@
 ---
+permalink: email-access-options-during-an-email-migration/
 node_id: 3803
 title: Email access options during an email migration
 type: article

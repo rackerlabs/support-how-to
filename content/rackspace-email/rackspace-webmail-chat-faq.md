@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-webmail-chat-faq/
 node_id: 4123
 title: Rackspace Webmail Chat FAQ
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: cloud-sites-website-security/
 node_id: 1060
 title: Cloud Sites Website Security
 type: article

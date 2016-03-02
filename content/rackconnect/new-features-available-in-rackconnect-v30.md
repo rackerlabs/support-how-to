@@ -1,4 +1,5 @@
 ---
+permalink: new-features-available-in-rackconnect-v30/
 node_id: 4209
 title: New features available in RackConnect v3.0
 type: article

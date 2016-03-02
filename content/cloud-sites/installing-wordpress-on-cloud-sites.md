@@ -1,4 +1,5 @@
 ---
+permalink: installing-wordpress-on-cloud-sites/
 node_id: 672
 title: Installing WordPress on Cloud Sites
 type: article

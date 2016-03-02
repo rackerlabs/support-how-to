@@ -1,4 +1,5 @@
 ---
+permalink: install-and-use-joomla-on-cloud-sites/
 node_id: 671
 title: Install and use Joomla on Cloud Sites
 type: article

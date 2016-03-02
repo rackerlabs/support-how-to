@@ -1,4 +1,5 @@
 ---
+permalink: access-the-rackconnect-management-interface/
 node_id: 2023
 title: Access the RackConnect Management Interface
 type: article

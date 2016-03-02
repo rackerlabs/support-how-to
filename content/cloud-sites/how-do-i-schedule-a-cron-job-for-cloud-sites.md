@@ -1,4 +1,5 @@
 ---
+permalink: how-do-i-schedule-a-cron-job-for-cloud-sites/
 node_id: 644
 title: Schedule a cron job for Cloud Sites
 type: article

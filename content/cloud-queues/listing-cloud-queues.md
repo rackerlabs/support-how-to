@@ -1,4 +1,5 @@
 ---
+permalink: listing-cloud-queues/
 node_id: 3684
 title: Listing Cloud Queues
 type: article

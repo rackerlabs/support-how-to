@@ -1,4 +1,5 @@
 ---
+permalink: managing-password-policies/
 node_id: 4193
 title: Managing password policies
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: configure-rackspace-auto-scale-web-hooks-with-rackspace-monitoring/
 node_id: 4703
 title: Configure Rackspace Auto Scale web hooks with Rackspace Monitoring
 type: article

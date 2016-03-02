@@ -1,4 +1,5 @@
 ---
+permalink: adding-a-microsoft-exchange-contact/
 node_id: 1371
 title: Adding a Microsoft Exchange contact
 type: article

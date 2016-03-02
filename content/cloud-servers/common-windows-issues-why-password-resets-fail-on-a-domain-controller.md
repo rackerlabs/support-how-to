@@ -1,4 +1,5 @@
 ---
+permalink: common-windows-issues-why-password-resets-fail-on-a-domain-controller/
 node_id: 1182
 title: 'Common Windows Issues:  Why Password Resets Fail on a Domain Controller'
 type: article

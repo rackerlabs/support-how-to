@@ -1,4 +1,5 @@
 ---
+permalink: new-features-in-general-purpose-and-work-optimized-cloud-servers/
 node_id: 3712
 title: New features in General Purpose and work-optimized Cloud Servers
 type: article

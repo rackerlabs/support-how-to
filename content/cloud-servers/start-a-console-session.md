@@ -1,4 +1,5 @@
 ---
+permalink: start-a-console-session/
 node_id: 1356
 title: Start a Console session
 type: article

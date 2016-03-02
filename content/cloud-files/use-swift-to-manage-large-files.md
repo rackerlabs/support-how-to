@@ -1,4 +1,5 @@
 ---
+permalink: use-swift-to-manage-large-files/
 node_id: 6002
 title: Use Swift to manage large files
 type: article

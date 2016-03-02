@@ -1,4 +1,5 @@
 ---
+permalink: managing-role-based-access-control-rbac/
 node_id: 3567
 title: 'Managing: Role-Based Access Control (RBAC)'
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: install-the-swiftly-client-for-cloud-files/
 node_id: 4030
 title: Install the Swiftly client for Cloud Files
 type: article

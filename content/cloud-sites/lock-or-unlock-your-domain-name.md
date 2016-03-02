@@ -1,4 +1,5 @@
 ---
+permalink: lock-or-unlock-your-domain-name/
 node_id: 627
 title: Lock or unlock your domain name
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: view-invoice-history-cloud-office-control-panel/
 node_id: 3987
 title: View invoice history in the Cloud Office Control Panel
 type: article

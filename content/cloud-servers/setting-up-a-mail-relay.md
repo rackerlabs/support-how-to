@@ -1,4 +1,5 @@
 ---
+permalink: setting-up-a-mail-relay/
 node_id: 439
 title: Setting up a Mail Relay
 type: article

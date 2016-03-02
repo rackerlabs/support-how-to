@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-auto-scale-overview/
 node_id: 3780
 title: Rackspace Auto Scale overview
 type: article

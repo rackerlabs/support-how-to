@@ -1,4 +1,5 @@
 ---
+permalink: lon5-cloud-migration-faq/
 node_id: 4783
 title: LON5 Cloud Migration FAQ
 type: article

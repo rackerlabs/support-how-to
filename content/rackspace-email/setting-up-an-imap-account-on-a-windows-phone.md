@@ -1,4 +1,5 @@
 ---
+permalink: setting-up-an-imap-account-on-a-windows-phone/
 node_id: 3353
 title: Set up an IMAP account on a Windows phone
 type: article

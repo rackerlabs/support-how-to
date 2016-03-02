@@ -1,4 +1,5 @@
 ---
+permalink: cloud-backup-troubleshooting/
 node_id: 4732
 title: Cloud Backup troubleshooting
 type: article

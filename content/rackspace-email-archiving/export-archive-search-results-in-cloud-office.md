@@ -1,4 +1,5 @@
 ---
+permalink: export-archive-search-results-in-cloud-office/
 node_id: 4689
 title: Export archive search results in Cloud Office
 type: article

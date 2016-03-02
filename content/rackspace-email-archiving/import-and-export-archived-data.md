@@ -1,4 +1,5 @@
 ---
+permalink: import-and-export-archived-data/
 node_id: 4687
 title: Import and export archived data
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-cloud-backup-backing-up-databases/
 node_id: 2042
 title: Back up databases with Cloud Backup
 type: article

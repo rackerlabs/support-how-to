@@ -1,4 +1,5 @@
 ---
+permalink: swift-filesystem-for-hadoop/
 node_id: 3809
 title: Swift Filesystem for Hadoop
 type: article

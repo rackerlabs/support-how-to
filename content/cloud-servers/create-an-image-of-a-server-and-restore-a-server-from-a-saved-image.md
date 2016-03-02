@@ -1,4 +1,5 @@
 ---
+permalink: create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/
 node_id: 1460
 title: Create an image of a server and restore a server from a saved image
 type: article

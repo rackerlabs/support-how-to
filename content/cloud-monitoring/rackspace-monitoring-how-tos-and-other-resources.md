@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-monitoring-how-tos-and-other-resources/
 node_id: 2006
 title: "Rackspace Monitoring How To's and Other Resources"
 type: article

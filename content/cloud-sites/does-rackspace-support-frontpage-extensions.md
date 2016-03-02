@@ -1,4 +1,5 @@
 ---
+permalink: does-rackspace-support-frontpage-extensions/
 node_id: 537
 title: Does Rackspace support FrontPage Extensions?
 type: article

@@ -1,4 +1,5 @@
 ---
+permalink: basic-network-troubleshooting/
 node_id: 270
 title: Basic Network Troubleshooting
 type: article

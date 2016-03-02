@@ -1,4 +1,5 @@
 ---
+permalink: about-volume-types/
 node_id: 2007
 title: About volume types
 type: article

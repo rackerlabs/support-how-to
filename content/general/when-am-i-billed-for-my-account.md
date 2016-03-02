@@ -1,4 +1,5 @@
 ---
+permalink: when-am-i-billed-for-my-account/
 node_id: 218
 title: When am I billed for my account?
 type: article

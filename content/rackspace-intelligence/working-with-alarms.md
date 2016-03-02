@@ -1,4 +1,5 @@
 ---
+permalink: working-with-alarms/
 node_id: 4769
 title: Working with alarms
 type: article

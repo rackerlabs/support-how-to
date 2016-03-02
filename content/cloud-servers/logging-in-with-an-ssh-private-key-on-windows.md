@@ -1,4 +1,5 @@
 ---
+permalink: logging-in-with-an-ssh-private-key-on-windows/
 node_id: 3707
 title: Logging in with an SSH Private Key on Windows
 type: article

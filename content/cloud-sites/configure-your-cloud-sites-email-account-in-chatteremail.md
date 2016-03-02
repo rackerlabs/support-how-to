@@ -1,4 +1,5 @@
 ---
+permalink: configure-your-cloud-sites-email-account-in-chatteremail/
 node_id: 112
 title: Configure your Cloud Sites email account in ChatterEmail
 type: article

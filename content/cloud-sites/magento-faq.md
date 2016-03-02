@@ -1,4 +1,5 @@
 ---
+permalink: magento-faq/
 node_id: 4065
 title: Magento FAQ
 type: article

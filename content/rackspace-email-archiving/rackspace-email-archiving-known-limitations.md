@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-email-archiving-known-limitations/
 node_id: 4695
 title: Rackspace Email Archiving known limitations
 type: article

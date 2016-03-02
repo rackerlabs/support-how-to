@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-regionlink-faq/
 node_id: 4452
 title: RackConnect RegionLink FAQ
 type: article

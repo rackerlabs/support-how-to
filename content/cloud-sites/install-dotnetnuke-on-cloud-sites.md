@@ -1,4 +1,5 @@
 ---
+permalink: install-dotnetnuke-on-cloud-sites/
 node_id: 544
 title: Install DotNetNuke on Cloud Sites
 type: article

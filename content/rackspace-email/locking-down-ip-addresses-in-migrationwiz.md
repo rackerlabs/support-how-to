@@ -1,4 +1,5 @@
 ---
+permalink: locking-down-ip-addresses-in-migrationwiz/
 node_id: 3800
 title: Lock down IP addresses in MigrationWiz
 type: article

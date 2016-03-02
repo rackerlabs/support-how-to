@@ -1,4 +1,5 @@
 ---
+permalink: installing-cakephp-on-cloud-sites/
 node_id: 125
 title: Installing CakePHP on Cloud Sites
 type: article

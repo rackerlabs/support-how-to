@@ -1,4 +1,5 @@
 ---
+permalink: installing-python-novaclient-on-windows/
 node_id: 1482
 title: Installing python-novaclient on Windows
 type: article

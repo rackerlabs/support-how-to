@@ -1,4 +1,5 @@
 ---
+permalink: manually-configure-android-devices-for-email-hosted-on-exchange-2013/
 node_id: 3883
 title: Manually configure Android devices for email hosted on Exchange 2013
 type: article

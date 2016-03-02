@@ -1,4 +1,5 @@
 ---
+permalink: cloud-orchestration-support-for-rackconnect-v30/
 node_id: 4559
 title: Cloud Orchestration support for RackConnect v3.0
 type: article

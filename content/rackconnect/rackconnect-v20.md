@@ -1,4 +1,5 @@
 ---
+permalink: rackconnect-v20/
 node_id: 2022
 title: RackConnect v2.0
 type: article

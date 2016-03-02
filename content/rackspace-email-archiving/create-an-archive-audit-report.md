@@ -1,4 +1,5 @@
 ---
+permalink: create-an-archive-audit-report/
 node_id: 4685
 title: Create an archive audit report
 type: article

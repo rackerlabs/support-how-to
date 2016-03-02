@@ -1,4 +1,5 @@
 ---
+permalink: cloud-database-instance-parameters/
 node_id: 1507
 title: Cloud Database Instance Parameters
 type: article

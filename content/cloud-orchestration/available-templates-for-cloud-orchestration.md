@@ -1,4 +1,5 @@
 ---
+permalink: available-templates-for-cloud-orchestration/
 node_id: 4221
 title: Available templates for Cloud Orchestration
 type: article

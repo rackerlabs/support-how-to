@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-auto-scale-control-panel-user-guide-concepts/
 node_id: 3783
 title: Rackspace Auto Scale Control Panel User Guide - Concepts
 type: article

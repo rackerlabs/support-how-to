@@ -1,4 +1,5 @@
 ---
+permalink: rackspace-private-cloud-documentation/
 node_id: 4103
 title: Rackspace Private Cloud Documentation
 type: article

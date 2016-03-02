@@ -1,4 +1,5 @@
 ---
+permalink: use-updraftplus-to-back-up-cloud-sites-to-cloud-files/
 node_id: 3530
 title: Use UpdraftPlus to back up Cloud Sites to Cloud Files
 type: article
