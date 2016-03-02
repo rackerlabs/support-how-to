@@ -255,12 +255,12 @@ their data is meant to be discarded.
 
 If you do need to back up these files, our suggested workarounds are:
 
--   For databases&mdash;Take a snapshot of the database (e.g., a
+-   For databases - Take a snapshot of the database (e.g., a
     database dump) and back up the dump. See [Rackspace Cloud Backup -
     Backing up
     Databases](/how-to/rackspace-cloud-backup-backing-up-databases)
     for full instructions.
--   For log files&mdash;Take snapshots of your log files and back them up.
+-   For log files - Take snapshots of your log files and back them up.
     -   To avoid running out of disk space, rotate your log
         files periodically.
 

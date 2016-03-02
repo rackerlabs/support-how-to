@@ -199,8 +199,8 @@ You'll get treated to a long list of things logrotate would do,
 including which log files it would rotate and what it would do during
 that process.
 
-If you then want to test all the rotate configs in their entirety &mdash;
-including the scripts run after rotations &mdash; you can run logrotate
+If you then want to test all the rotate configs in their entirety -
+including the scripts run after rotations - you can run logrotate
 without the debug flag:
 
     /usr/sbin/logrotate -vf /etc/logrotate.conf

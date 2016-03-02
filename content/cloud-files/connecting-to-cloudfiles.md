@@ -31,18 +31,18 @@ Code samples are available for PHP, Python, and Java.
 
 To connect, you must use the internal network host name. The host
 name is the Cloud Files storage URL with **snet-** prepended to it. Be
-aware that even though you are not chared for bandwidth when you use
+aware that even though you are not charged for bandwidth when you use
 ServiceNet to connect, you are still charged for requests and
 storage.
 
 You can locate your Cloud Server data center in the following
 ways:
 
--   [Cloud Control Panel](https://mycloud.rackspace.com/) <span>&mdash;On the
+-   [Cloud Control Panel](https://mycloud.rackspace.com/) - On the
     main Cloud Files page in the Control Panel, locate your Cloud Files
     data center in the **Region** column.
--   Through the API &mdash; Your Cloud Files data center is located in
+-   Through the API - Your Cloud Files data center is located in
     the storage URL that is returned when you authenticate to
-    Cloud Files. For more information, see [<span>Retrieving the
+    Cloud Files. For more information, see [Retrieving the
     Authentication
     Token](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started/authenticate).

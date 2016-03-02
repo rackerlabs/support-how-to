@@ -38,7 +38,7 @@ is responsible for purchasing, configuring and maintaining the physical
 hardware (servers, firewalls, etc.), software and the operating system.
 The responsibility is lessened due to the provider maintaining the
 physical space, power, and networking, but any issues that arise outside
-of the provider's responsibilities must be resolved by the customer&mdash;day
+of the provider's responsibilities must be resolved by the customer - day
 or night. A
 [colocation](http://www.rackspace.com/managed_hosting/managed_colocation/index.php)
 strategy requires that the customer select a vendor with a data center
