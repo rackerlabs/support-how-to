@@ -354,7 +354,7 @@ reports that have not been rotated because of retention policies, this
 information is generated on that cloud server.
 
 When you attempt to restore, the file list is generated on the target
-cloud server &ndash; the server to which you have selected to restore the
+cloud server - the server to which you have selected to restore the
 files.
 
 #### **Cleanup stuck in "preparing" mode**

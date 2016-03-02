@@ -33,9 +33,9 @@ The WSUS endpoints are as follows:
 
 | Distibution | Patching | Mechanism | Patching servers | Frequency |
 | ----------- | -------- | --------- | ---------------- | --------- |
-| Windows Server 2008 R2 | WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD &ndash; EST * DFW &ndash; CST * SYD &ndash; AET * HKG &ndash; HKT * ORD &ndash; CST | Windows Patching Portal |
-| Windows Server 2012 WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD &ndash; EST * DFW &ndash; CST * SYD &ndash; AET * HKG &ndash; HKT * ORD &ndash; CST | Windows Patching Portal |  |
-| Windows Server 2012 R2 | WSUS | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: &bull; IAD &ndash; EST &bull; DFW &ndash; CST &bull; SYD &ndash; AET &bull; HKG &ndash; HKT &bull; ORD &ndash; CST | Windows Patching Portal |
+| Windows Server 2008 R2 | WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD - EST * DFW - CST * SYD - AET * HKG - HKT * ORD - CST | Windows Patching Portal |
+| Windows Server 2012 WSUS	 | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: * IAD - EST * DFW - CST * SYD - AET * HKG - HKT * ORD - CST | Windows Patching Portal |  |
+| Windows Server 2012 R2 | WSUS | microsoftupdate.[dc].rackspace.com | Nightly between 1 a.m. and 5 a.m. in your server region's time zone: &bull; IAD - EST &bull; DFW - CST &bull; SYD - AET &bull; HKG - HKT &bull; ORD - CST | Windows Patching Portal |
 
 ## WSUS settings
 

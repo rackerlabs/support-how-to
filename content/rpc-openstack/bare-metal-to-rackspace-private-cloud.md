@@ -70,7 +70,7 @@ model, use the UUID from previous command here:
 
 Create a policy for servers with two CPUs and 8 GB of memory:
 
-    $ razor policy add &ndash;t linux_deploy -l precise -m  -t cpus_2,memsize_8GiB -e true
+    $ razor policy add -t linux_deploy -l precise -m  -t cpus_2,memsize_8GiB -e true
 
 **Note:** You can find additional tags for your nodes that razor has
 discovered by using the 'razor node' command.*

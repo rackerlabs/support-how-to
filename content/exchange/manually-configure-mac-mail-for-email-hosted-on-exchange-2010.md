@@ -39,13 +39,13 @@ Mac**.
         set up the account manually. Continue to Step 5.
 
 5.  Enter the following information and then click **Continue**:
-    -   **Description** &ndash; Enter a descriptive name for your mail account
+    -   **Description** - Enter a descriptive name for your mail account
         (for example, Work Mail).
-    -   **User Name** &ndash; Enter your entire email address (for example,
+    -   **User Name** - Enter your entire email address (for example,
         **user@example.com**).
-    -   **Password** &ndash; Enter the password associated with the email
+    -   **Password** - Enter the password associated with the email
         account you are setting up.
-    -   **Server Address** &ndash; Enter **connect.emailsrvr.com**.
+    -   **Server Address** - Enter **connect.emailsrvr.com**.
 
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM104_0.png" width="377" height="322" />

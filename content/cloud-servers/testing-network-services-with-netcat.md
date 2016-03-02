@@ -193,7 +193,7 @@ Search the file for the program name
     vsftpd : ALL
 
 Try commenting out any offending lines using a hash (\#). Changes to
-this file take effect automatically &ndash; no services need to be restarted.
+this file take effect automatically - no services need to be restarted.
 
 Note that tcp wrappers will allow a connection by default so if it is
 the cause of the issue there must be an entry in /etc/hosts.deny for the

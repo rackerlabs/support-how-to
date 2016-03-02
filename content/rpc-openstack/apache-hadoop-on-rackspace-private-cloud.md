@@ -85,7 +85,7 @@ are three main challenges with Hadoop in a virtualized environment:
 -   Virtual disks will add IO overhead.
 -   Virtual machines can be allocated on the same server, breaking
     Hadoop's redundancy expectations.
--   Hadoop assumes a static infrastructure &ndash; machines can reboot or go
+-   Hadoop assumes a static infrastructure - machines can reboot or go
     away but generally recover. The correct approach to deal with a bad
     virtual machine in cloud is to provision a new one.
 

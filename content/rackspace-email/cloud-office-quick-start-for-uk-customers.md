@@ -160,7 +160,7 @@ following ways:
     contact our Support team at 0800 954 1007 or 020 8734 4029. You can
     also create a support ticket in the MyRackspace portal.
 
--   **Self&ndash;service tool** - Run your migration at any time of the day or
+-   **Self-service tool** - Run your migration at any time of the day or
     night with our easy-to-use version of MigrationWiz. To start this
     process, create a support ticket in the MyRackspace portal. For more
     information, see Migrate your email by using the Self-Service

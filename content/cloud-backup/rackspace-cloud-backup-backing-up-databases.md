@@ -24,7 +24,7 @@ But some applications, like databases, are a little trickier to back up
 because the consistent and correct state of a database is represented by
 multiple files at once. If Rackspace Cloud Backup backs up one of the
 database's files and then, a few seconds (or milliseconds) later, it
-backs up another one, the state of the database could get corrupted &ndash;
+backs up another one, the state of the database could get corrupted -
 the database might have been in the middle of an operation during access
 to the two files, and the two files represent two different points in
 the middle of that operation.

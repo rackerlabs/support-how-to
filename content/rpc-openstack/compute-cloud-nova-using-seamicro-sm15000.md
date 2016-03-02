@@ -73,12 +73,12 @@ instances as well as managing the networks between virtual machines.
 OpenStack compute consists of different services, but they are mainly
 categorized into two types of nodes:
 
--   Controller Node &ndash; Controller node hosts RabbitMQ server, MySQL
+-   Controller Node - Controller node hosts RabbitMQ server, MySQL
     database, Keystone, API server, Horizon, and Glance.
 
 <!-- -->
 
--   Compute Node &ndash; nova-compute and nova-network.
+-   Compute Node - nova-compute and nova-network.
 
 The API service is responsible for receiving and responding to the user
 request.  Once the request is received, the nova-scheduler service finds

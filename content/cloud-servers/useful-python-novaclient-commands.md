@@ -118,11 +118,11 @@ Example:
 
     nova flavor-list
 
-#### boot &ndash;image 100 &ndash;flavor 1 name
+#### boot -image 100 -flavor 1 name
 
 To create a new Cloud Server you use the "boot" command. At its
 simplest, you tell the boot command what flavor to use with the
-"&ndash;flavor" option, what image to use as the base with the "&ndash;image"
+"-flavor" option, what image to use as the base with the "-image"
 option, and then include the name of the server you're creating as an
 argument for the command.
 
@@ -143,7 +143,7 @@ The "reboot" command will tell a server to reboot, taking the name or ID
 of the target server as its argument. By default the server will perform
 a "soft reboot", where the OS is told to gracefully reboot the server.
 You can cause a "hard reboot" (like switching the power off then on
-again) with the "&ndash;hard" option.
+again) with the "-hard" option.
 
 Example:
 
@@ -238,7 +238,7 @@ The "rebuild" command will take an existing server and rebuild it using
 an image. The first argument to the command is the server name or ID and
 the second argument is the name or ID of the image to be used.
 
-You can optionally include the "&ndash;rebuild\_password" option to set a root
+You can optionally include the "-rebuild_password" option to set a root
 password for the rebuilt server (instead of having one randomly
 generated).
 
@@ -332,4 +332,3 @@ Example:
 These commands should let you perform most of the basic operations,
 however. Remember that you can see a full list, or get more details on a
 command, by using "nova help".
-

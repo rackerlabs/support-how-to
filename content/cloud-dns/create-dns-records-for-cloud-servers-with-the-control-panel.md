@@ -19,7 +19,7 @@ domain and adding basic A, MX, and CNAME records by using the Cloud
 Control Panel.
 
 To learn more about A, MX, and CNAME records for Cloud Sites, see
-[Getting started with Cloud Sites &ndash; Managing DNS
+[Getting started with Cloud Sites - Managing DNS
 records](/how-to/getting-started-with-cloud-sites-managing-dns-records).
 
 

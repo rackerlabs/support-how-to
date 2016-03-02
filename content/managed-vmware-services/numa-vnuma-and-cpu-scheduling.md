@@ -113,7 +113,7 @@ The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the lo
 
 Coreinfo is a Windows Sysinternals tool that you can use to view the NUMA topology on Windows.
 
-Run coreinfo &ndash;n.
+Run coreinfo -n.
 
 In the following example, the VM has a single NUMA node.
 

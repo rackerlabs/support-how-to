@@ -44,7 +44,7 @@ ASA 5515-X | 50 | Edge or Edge+Connected | Yes | Yes | 1.2 Gbps
 ASA 5525-X | 100+ | Edge or Edge+Connected | Yes | Yes | 2 Gbps
 ASA 5545-X | 100+ | Edge or Edge+Connected | Yes | Yes | 3 Gbps
 ASA 5555-X | 100+ | Edge or Edge+Connected | Yes | Yes | 4 Gbps
-Brocade ADX 1000 |  100+ | Connected only | No (not in RackConnect edge or connected device roles)	| Yes	|  2&ndash;9 Gbps
+Brocade ADX 1000 |  100+ | Connected only | No (not in RackConnect edge or connected device roles)	| Yes	|  2-9 Gbps
 F5 1600 | 100+ | Connected or Edge+Connected | Yes | Yes | In: 500 Mbps <br /> Out: 500 Mbps
 F5 3600 | 100+ | Connected or Edge+Connected | Yes | Yes | In: 1 Gbps <br /> Out: 1 Gbps
 

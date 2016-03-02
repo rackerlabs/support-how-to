@@ -72,12 +72,12 @@ To add a user to your account through the API, you can do the following:
 
     -   Specifying a password:
 
-            curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
+            curl -X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
 
     -   Not specifying a password (one will be generated and sent back
         in the response):
 
-            curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
+            curl -X POST https://identity.api.rackspacecloud.com/v2.0/users -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
 
 Any newly-created user for your account will have the same access that
 you have, except that they will not be able to create or update other
@@ -87,7 +87,7 @@ You can also update or delete a user.
 
 -   Update:
 
-        curl &ndash;X POST https://identity.api.rackspacecloud.com/v2.0/users/{userID} -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
+        curl -X POST https://identity.api.rackspacecloud.com/v2.0/users/{userID} -d '{"user": {"username": "theUserName", "email": "john.smith@example.org", "enabled": true, "OS-KSADM:password":"thePassword"}}'  -H "Content-type: application/json" -H "X-Auth-Token: theToken"
 
 -   Delete:
 

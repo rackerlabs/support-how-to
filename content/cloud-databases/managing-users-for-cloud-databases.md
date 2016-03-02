@@ -140,7 +140,7 @@ because  it is required to log in as a root user for the database
 instance. After the root user is enabled, you have full control for
 creating and managing user privileges.
 
-*Example* &ndash; Database instance MySQLDBInstance01 has a database
+*Example* - Database instance MySQLDBInstance01 has a database
 DBStaging1 and a user DevUser1. You would like to set up read-only
 permissions for DevUser1.
 
@@ -158,7 +158,7 @@ A password is generated and returned for the root user.
 Step 3: Log in to MySQL as a root user with the password generated in
 the preceding step:
 
-    $ mysql &ndash; u <root> &ndash;h <hostname> -p <password>
+    $ mysql -u <root> -h <hostname> -p <password>
 
 Step 4: In MySQL, set up read permissions for DevUser1 by using the
 GRANT statement:

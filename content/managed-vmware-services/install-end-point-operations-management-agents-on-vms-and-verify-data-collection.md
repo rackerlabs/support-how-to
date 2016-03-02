@@ -187,7 +187,7 @@ data properly.
 4.  Under **Adapter Instances** click **EP Ops Adapter Instance.**
 
 5.  Under **EP Ops Adapter Instance**, click **EP Ops Adapter**.
-    You will see your reporting VMs in the format of **EP Ops Agent &ndash;
+    You will see your reporting VMs in the format of **EP Ops Agent -
     {*VM Name*}.**
 
 6.  Select an EPO Ops adapter to see the status of the agents.
@@ -196,7 +196,7 @@ data properly.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/twoVMs.png" width="600" height="291" />
 
-    In the following figure, **EP Ops Agent &ndash; Lab-Win12** is
+    In the following figure, **EP Ops Agent - Lab-Win12** is
     receiving (green) for both **Collection State** and **Collection
     Status**.
 
