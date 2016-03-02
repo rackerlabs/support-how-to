@@ -133,7 +133,7 @@ numactl -- show
 
 As you think about NUMA alignment, consider the following points:
 
-- Enabling CPU hot plug will disable vNUMA (where the underlying NUMA architecture is exposed directly to the guest OS) &mdash; [VMware KB 2040375](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2040375)
+- Enabling CPU hot plug will disable vNUMA (where the underlying NUMA architecture is exposed directly to the guest OS) - [VMware KB 2040375](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2040375)
 - Just because your NUMA node size is 16 CPUs and 128 GB of RAM, that doesn't mean you should create a large VM. Right-size your VMs to avoid unnecessary kernel NUMA scheduling.
 
 ### Rackspace recommendations for NUMA

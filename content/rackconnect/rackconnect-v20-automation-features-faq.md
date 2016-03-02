@@ -238,8 +238,8 @@ will be able to create all of the available network policies:
 account level, if Automation Features for pre-existing cloud servers are
 disabled at the cloud server level, you will still see all five network
 policy options as being available for those pre-existing cloud servers,
-but only two types of network policies&mdash;Cloud Server to Dedicated, and
-Cloud Server to Internet&mdash;will be valid for those pre-existing cloud
+but only two types of network policies - Cloud Server to Dedicated, and
+Cloud Server to Internet - will be valid for those pre-existing cloud
 servers. If you create invalid network policies for these pre-existing
 cloud servers, they will look like they deployed correctly, but they
 will not actually work as expected. We are working on adding some

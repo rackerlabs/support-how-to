@@ -405,7 +405,7 @@ and have it happen dynamically in response to load. You pay for the
 higher-flavor servers (for example, General Purpose and
 work-optimized) only when you need them, and when you don't need them,
 you can scale back down to lower-flavor servers (for example,
-first-generation and Standard)&mdash;or keep the higher-flavor servers and
+first-generation and Standard) - or keep the higher-flavor servers and
 just scale back how many servers are in your group.
 
 When you're ready to set up your scaling system to resize servers

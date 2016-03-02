@@ -32,8 +32,8 @@ servers are allocated out of one of your dedicated public IP address
 blocks. A NAT (network address translation) entry is then configured on
 your RackConnect edge network device, which is a one-to-one association
 from the allocated dedicated public IP address to the cloud server's
-ServiceNet IP address&mdash;in the case of RackConnect v2.0&mdash;or to its cloud
-network IP address&mdash;in the case of RackConnect v3.0.
+ServiceNet IP address, in the case of RackConnect v2.0, or to its cloud
+network IP address, in the case of RackConnect v3.0.
 
 You can use these dedicated public IP addresses to use SSH or RDP to
 directly access your cloud servers, as long as access is allowed. Access
@@ -47,7 +47,7 @@ You can view the IP addresses assigned to your cloud servers by querying
 the Cloud Servers API or by looking up the cloud server's details in the
 MyRackspace portal or the [Cloud Control
 Panel](https://mycloud.rackspace.com/). For example, the following image
-shows the dedicated IP address&mdash;named RackConnect&mdash;for a fully deployed
+shows the dedicated IP address, named RackConnect, for a fully deployed
 RackConnect cloud server in the MyRackspace portal.
 
 <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2025.1.png" width="326" height="400" />
@@ -64,8 +64,8 @@ alternative methods for connecting to these cloud servers:
 
 -   You can connect to one of your dedicated servers, and then from that
     dedicated server, you can connect to one of your RackConnect cloud
-    servers by using its ServiceNet IP address&mdash;with RackConnect v2.0
-    cloud servers&mdash;or by using its cloud network's IP address&mdash;with
+    servers by using its ServiceNet IP address with RackConnect v2.0
+    cloud servers, or by using its cloud network's IP address with
     RackConnect v3.0 cloud servers. With RackConnect v2.0, this method
     requires that you have an appropriate Dedicated to Cloud Servers
     network policy deployed. With RackConnect v3.0, this method requires
