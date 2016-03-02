@@ -8,7 +8,7 @@ created_by: Rae D. Cabello
 last_modified_date: '2016-01-22'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
-product_url: cloud-monitoring
+product_url: rackspace-monitoring
 ---
 
 Do you leverage data center automation to build products faster? Do you
