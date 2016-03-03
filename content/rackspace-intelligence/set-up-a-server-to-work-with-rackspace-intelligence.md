@@ -42,6 +42,7 @@ Panel](https://mycloud.rackspace.com/) by following these steps:
     to install, configure, and start the agent.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-install-agent-linux_0.png" width="649" height="527" />
+    
     The instructions require you to send commands to the server. The
     commands you must send to the server vary depending on what kind of
     server you want to monitor. Similarly, detailed procedures for
@@ -73,16 +74,19 @@ Panel](https://mycloud.rackspace.com/) by following these steps:
     is **Connected**.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-agent-connected.png" width="359" height="154" />
+    
 7.  Click **Setup Checks** to configure at least one check. In the
     following example, two CPU-related checks are configured, monitoring
     CPU usage and average CPU load.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-check-selection.png" width="637" height="555" />
+    
 8.  Click **Apply Checks** to activate the checks that you defined. When
     the checks are activated, their status is reported on the entities
     details page for the server, in the **Monitoring Checks** section.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitoring-checks-2set.png" width="779" height="202" />
+    
 9.  To make the checks useful, define alarms that identify boundaries
     between OK, Warning, and Critical statuses. For instructions,
     see [Working with alarms](/how-to/working-with-alarms).
