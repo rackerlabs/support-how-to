@@ -33,12 +33,18 @@ Panel](https://mycloud.rackspace.com/) by following these steps:
     Intelligence** link.
 5.  Install the monitoring agent on the server by clicking **Get
     Started**.
+
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitoring-notset.png" width="672" height="409" />
 
 6.  On the **Monitoring Agent Installation** page, choose the platform
     installed on your server and choose the type of installation
-    instructions that you prefer. The following example shows the **Step
-    By Step** instructions for a Linux platform. Follow the instructions
+    instructions that you prefer. 
+
+    **Note:** The Monitoring Agent can be automatically installed when
+    creating a new cloud server. After choosing your server image and flavor, 
+    select **Monitor recommended server metrics** under Recommended Installs.
+    
+    The following example shows the **Step By Step** instructions for a Linux platform. Follow the instructions
     to install, configure, and start the agent.
 
     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-install-agent-linux_0.png" width="649" height="527" />
