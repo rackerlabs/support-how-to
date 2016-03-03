@@ -37,7 +37,7 @@ Annotation is submitted through /events API end point:
         }
     ' -H 'X-Auth-Token: e0247392bdd04ef0afa4f0b868fe99a4' -H 'Content-Type: application/json' -H 'Accept: application/json'
 
-***Note**: The value for the "when" field is the epoch time in milliseconds.  To convert the date strings to and from epoch time, you can use the "date" method in Mac or [http://www.epochconverter.com/](http://www.epochconverter.com/)
+**Note**: The value for the "when" field is the epoch time in milliseconds.  To convert the date strings to and from epoch time, you can use the "date" method in Mac or [http://www.epochconverter.com/](http://www.epochconverter.com/)
 
     > date +%s
     1452101351
@@ -53,15 +53,18 @@ Annotation is submitted through /events API end point:
 
 ### Adding Annotation to Grafana dashboard
 
-1. Open **Settings** menu and select the **Features*8 tab.
+1. Open **Settings** menu and select the **Features** tab.
 2. Select the **Annotations** checkbox to enable annotations.
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-enable-annotations.png)
+
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-enable-annotations.png)
 
 3. On the **Add** tab, enter a name for the annotation and select **RackspaceMetrics** as the datasource.
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-datasource.png)
+
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Annotationsupport-datasource.png)
 
 4. Add Annotation by Searching for the tag in the **Blueflood event tags** field.
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
+
+  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Anotattionsupport-change-event.png)
 
 The new annotation shows up in Grafana.
 
@@ -69,7 +72,7 @@ The new annotation shows up in Grafana.
 
 ### (optional) Retrieve Annotation from API
 
-If you prefer to use the API command to retreive your annotation, use the following command.
+If you prefer to use the API command to retrieve your annotation, use the following command.
 
     curl -i -X GET 'http://global.metrics.api.rackspacecloud.com/v2.0/737305/events/getEvents?from=1452105863000&until=1452105883000' \
     > -H "Content-Type: application/json" \
@@ -101,10 +104,10 @@ Grafana support blog post:  [http://bit.ly/grafana-cloudmetrics](http://bit.ly/g
 
 Make sure all your API calls have 200 OK response code.
 
- - If it is 403 Forbidden and your API call into other end points (like Rackspace Monitoring) with the same tenant and auth token works, check with metrics team to make sure that the account is in EAP program.
+  - If it is 403 Forbidden and your API call into other end points (like Rackspace Monitoring) with the same tenant and auth token works, check with metrics team to make sure that the account is in EAP program.
 
 Make sure that the dates of the events are within the time window specified by query.
 
 #### How do I sign up an account for EAP?
 
-Sign up at [http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early\_Access\_Program.html](http://docs.rackspace.com/cmet/api/v1.0/cmet-gettingstarted/content/Early_Access_Program.html).
+Contact <cloudmetrics-earlyaccess@rackspace.com>. For more information on how to sign up for the Early Access Program, see the [Rackspace Metrics Developer Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program).

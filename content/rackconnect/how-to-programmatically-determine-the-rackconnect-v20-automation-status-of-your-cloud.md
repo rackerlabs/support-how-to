@@ -178,7 +178,7 @@ Account's values.
 This is just a brief introduction to get you started on using the First
 Generation Cloud Servers API to query the RackConnect statuses of your
 cloud servers. If you require further information on the Cloud Servers
-API, see the [First Generation Cloud Servers API documentation](http://docs.rackspace.com/servers/api/v1.0/cs-devguide/content/API_Operations-d1e1720.html).
+API, see the [First Generation Cloud Servers API documentation](https://6266fae112c61ca2a24b-0b7d389aeec8162360b1800f389138d1.ssl.cf1.rackcdn.com/cs-firstgen-devguide-20160112.pdf).
 
 ### Determining when the Managed Operations post-build automation process is complete
 
