@@ -23,7 +23,7 @@ You can configure monitoring checks and alarms in teh following web portals:
 - The common checks are displayed along with the cloud servers in the Cloud Control panel.  For more information, see [Ceating a monitoring check using the cloud control panel](https://support.rackspace.com/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
 - The complete list of checks can be configured in Rackspace Intelligence. For more information, see [Working with checks](https://support.rackspace.com/how-to/working-with-checks/)
 
-The major groups of checks are remote check, agent checks, and hostinfo checks. The following section describes the useful details about the remote checks. For more information about all the check types, see the [Check types reference](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/appendix-check-types.html) section of the Rackspace Monitoring API documentation.
+The major groups of checks are remote check, agent checks, and hostinfo checks. The following section describes the useful details about the remote checks. For more information about all the check types, see the [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#check-types-reference) section of the Rackspace Monitoring API documentation.
 
 ### Remote checks
 
@@ -33,7 +33,7 @@ Remote checks monitor an entity’s Internet connectivity, and can be performed 
 
 #### Consistency level
 
-The system determines the alarm state through quorum-based voting from the monitoring zones. This is specified in the alarm criteria as **consistencyLevel**, an important attribute that is typically left with a value of **QUORUM** (the default) unless there is a specific reason to change it. The other two values for this setting are **ONE** and **ALL**. For more information about alerting policies and consistency levels, see [Alert policies](http://docs.rackspace.com/cm/api/v1.0/cm-devguide/content/alerts-language.html#concepts-alarms-alert-policies).
+The system determines the alarm state through quorum-based voting from the monitoring zones. This is specified in the alarm criteria as **consistencyLevel**, an important attribute that is typically left with a value of **QUORUM** (the default) unless there is a specific reason to change it. The other two values for this setting are **ONE** and **ALL**. For more information about alerting policies and consistency levels, see [Alert policies](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#alert-policies).
 
 #### Consecutive count
 
