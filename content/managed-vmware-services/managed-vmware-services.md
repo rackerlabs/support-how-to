@@ -21,7 +21,7 @@ product_url: managed-vmware-services
 
 ###  Dedicated VMware vCloud
 
-- [Dedicated vCloud Handbook](http://docs.rackspace.com/vcloud/api/v1/bk-dedicated-vcloud-handbook/content/vcloud-common-front.html)
+- [Dedicated vCloud Handbook](https://developer.rackspace.com/docs/private-cloud/dedicated-vcloud/vcloud-handbook-v1.5/)
 - [Dedicated vCloud Product Page](http://www.rackspace.com/managed-virtualization/vmware-vcloud)
 - [FAQ](/how-to/dedicated-vmware-vcloud-faq)
 - [Spheres of Support](/how-to/dedicated-vmware-vcloud-support-coverage)
@@ -35,7 +35,7 @@ product_url: managed-vmware-services
 ###  Dedicated VMware&reg; vCenter Server&trade;
 
 - [Dedicated vCenter Server Product Page](http://www.rackspace.com/managed-virtualization/dedicated-vcenter/)
-- [Dedicated VMware vCenter Server Customer Handbook](http://docs.rackspace.com/vcenter/api/v1/bk-dedicated-vcenter-handbook/content/vcloud-common-front.html)
+- [Dedicated VMware vCenter Server Customer Handbook](https://developer.rackspace.com/docs/private-cloud/dedicated-vcloud/vcloud-handbook-v1.5/)
 - [Resources](https://www.rackspace.com/dedicated-servers/vmware/dedicated-vcenter/resources)
 
 ###  More information
