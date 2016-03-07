@@ -1,5 +1,5 @@
 ---
-title: Integrate Carbon Daemons with Rackspace Metrics
+title: Integrate carbon daemons with Rackspace Metrics
 type: article
 created_date: '2016-03-03'
 created_by: Shane Duan
@@ -11,9 +11,9 @@ product_url: rackspace-metrics
    
 #### Description
 
-Carbon Forwarder allows you to integrate with Carbon Demons that make up the storage backend of a Graphite installation.
+Carbon Forwarder enables you to integrate with the carbon daemons that make up the storage back end of a Graphite installation.
 
-The integration is through a Carbon Forwarder instance that accepts pickle protocols metrics, which is the only protocol used by graphite carbon relay.
+The integration is through a Carbon Forwarder instance that accepts pickle protocols metrics, which is the only protocol used by a graphite carbon relay.
 
 #### Dependencies
 
@@ -24,7 +24,7 @@ Carbon Forwarder has the following dependencies.
 - pytest
 - txKeystone
 
-#### Installation
+#### Install Carbon Forwarder
 
 Use the following command to install Carbon Forwarder.
 
@@ -34,46 +34,48 @@ Use the following command to install Carbon Forwarder.
 
     python setup.py install
 
-#### Running
+#### Run Carbon Forwarder
+
+Use the following command to run Carbon Forwarder.
 
     twistd blueflood-forward
 
 | **Switch** | **Description** | **default** |
 | ---------- | --------------- | ----------- |
 | -e | Endpoint to listen on for pickle protocol metrics | tcp:2004 |
-| -i | Metrics send interval, sec | 30.0 |
+| -i | Metrics send interval, in seconds | 30.0 |
 | -b | Blueflood address | http://localhost:19000 |
 | -t | Tenant ID | tenant |
-| -p | Prefix to be prepended to metrics name | metric\_prefix |
-| --ttl | TimeToLive value for metrics, sec | 86400 |
+| -p | Prefix to add to metrics name | metric\_prefix |
+| --ttl | Time-to-live value for metrics, in seconds | 86400 |
 | -u | Keystone user |   |
 | -k | Keystone key |   |
 | --auth-url | Keystone token URL |   |
 
-If you need no authentication, leave -u/--user command line argument empty (default value).
+If you don't need authentication, leave the -u/--user command line argument empty (whish is the default value).
 
-#### Sending metrics
+#### Send metrics
 
-To send a test metric to the twistd server you started above, run the following:
+To send a test metric to the twistd server that you just started, run the following command.
 
     python tests/scripts/sendPickle.py
 
 Modify the script accordingly for your local testing.
 
-#### Configuration
+#### Configure Carbon Forwarder
 
-Pass the following command line arguments to twistd daemon when running, to complete the configuration:
+To complete the configuration, pass the following command-line arguments to the twistd daemon.
 
     twistd -n -l - blueflood-forward --help
 
-#### Logging
+#### Logging (optional)
 
-_(optional)_ If not using your own LogObserver, use the following command to control logging using LogObserver.
+If not using your own LogObserver, use the following command to control logging by using LogObserver.
 
     twistd --logger carbonforwarderlogging.forwarder\_log\_observer.get\_log\_observer blueflood-forward
 
 #### References
 
-- For details about Carbon Daemons, see [http://graphite.readthedocs.org/en/1.0/carbon-daemons.html](http://graphite.readthedocs.org/en/1.0/carbon-daemons.html)
-- For details about Carbon Forwarder project, see https://github.com/rackerlabs/blueflood-carbon-forwarder
+- For details about carbon daemons, see [http://graphite.readthedocs.org/en/1.0/carbon-daemons.html](http://graphite.readthedocs.org/en/1.0/carbon-daemons.html)
+- For details about the Carbon Forwarder project, see https://github.com/rackerlabs/blueflood-carbon-forwarder
 
