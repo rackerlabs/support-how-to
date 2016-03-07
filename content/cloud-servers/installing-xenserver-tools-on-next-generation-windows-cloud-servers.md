@@ -29,7 +29,7 @@ This issue **only affects Next Generation Cloud Servers**.  First Generation Clo
 
 To determine whether you need a newer version of XenServer Tools installed, check your current version under Programs and Features in the Windows control panel.
 
-If the listed version is less than 6.2 you should upgrade.
+If the listed version is older than 6.2 you should upgrade.
 
 Note that the upgrade will require a reboot of your instance to complete the process.
 
@@ -58,4 +58,4 @@ After the installer is complete, reboot the server so the change will take effec
 
 ### Confirm the installation 
 
-After the instance has rebooted you can confirm the installation was successful by checking the version of XenServer Tools in Programs and Features, as described above.  The new version should be 6.2 or higher.
+After the instance has rebooted you can confirm the installation was successful by checking the version of XenServer Tools in Programs and Features, as described above.  The new version should be 6.2 or later.
