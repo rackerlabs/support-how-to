@@ -35,22 +35,22 @@ Linux](/how-to/cloud-servers-with-managed-operations-support-for-linux).
 
 #### IIS 7.5
 
-| Installation | Configuration | Troubleshooting | Monitoring | Patching | 
-| --- | ------------ | ------------- | --------------- |---------- |
-| [Web HTTP/HTTPS](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** | 
+|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| --- | --- | --- | --- | --- | --- |
+| [Web HTTP/HTTPS](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 |[FTP](http://www.iis.net/) | **Yes** | **Yes** | **Yes** |**Yes** | **Yes** |
 
 #### IIS 8
 
-| Installation | Configuration | Troubleshooting | Monitoring |Patching | 
-| --- | ------------ | ------------- | --------------- |---------- | 
-| [Web HTTP/HTTPS](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** | 
+|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| --- | --- | --- | --- | --- | --- |
+| [Web HTTP/HTTPS](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [FTP](http://www.iis.net/) | **Yes** | **Yes** | **Yes** |**Yes** | **Yes** |
 
 ### Database servers
 
-| Installation | Configuration | Troubleshooting | Monitoring |Patching | 
-| --- | ------------ | ------------- | --------------- |---------- 
+|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| --- | --- | --- | --- | --- | --- |
 | [SQL Server 2008 R2](http://www.microsoft.com/en-us/server-cloud/products/sql-server/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 |[SQL Server 2012 (Standard and Web Edition)](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** |**Yes** | **Yes** | **Yes** | **Yes** |
 | [SQL Server 2014](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
@@ -60,52 +60,55 @@ Linux](/how-to/cloud-servers-with-managed-operations-support-for-linux).
 
 #### Programming languages
 
-| Installation | Configuration | Troubleshooting | Monitoring |Patching | 
-| --- | ------------ | ------------- | --------------- |---------- | 
-| [ASP](https://msdn.microsoft.com/en-us/library/aa286483.aspx) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes**| 
-| [ASP.NET](http://www.asp.net/) | **Yes** | **Yes** |**Yes** | **Yes** | **Yes** | 
+|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| --- | --- | --- | --- | --- | --- |
+| [ASP](https://msdn.microsoft.com/en-us/library/aa286483.aspx) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes**|
+| [ASP.NET](http://www.asp.net/) | **Yes** | **Yes** |**Yes** | **Yes** | **Yes** |
 | [PHP (Fast CGI)](http://www.php.net/) | **Yes** | **Yes** | No | No | No |
 
 #### Software firewall
 
-| Installation | Configuration | Troubleshooting | 
-| --- |------------ | ------------- |
+|    | **Installation** | **Configuration** | **Troubleshooting** |
+| --- | --- | --- | --- |
 | [Windows Firewall](http://windows.microsoft.com/en-us/windows-8/windows-firewall-from-start-to-finish)| **Yes** | **Yes**| **Yes** |
 
 #### FTP
 
-| Installation | Configuration | Troubleshooting | Monitoring |Patching | 
-| --- | ------------ | ------------- | --------------- |---------- 
-|[Windows FTP 7.5](https://www.microsoft.com/en-us/download/details.aspx?id=14045) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** | 
+|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| --- | --- | --- | --- | --- | --- |
+|[Windows FTP 7.5](https://www.microsoft.com/en-us/download/details.aspx?id=14045) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [IIS 8 FTP](https://technet.microsoft.com/en-us/library/hh831655.aspx)| **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [FileZilla](https://filezilla-project.org/) | **Yes** |**Yes** | **Yes** | **Yes** | No |
 
 #### SMTP
 
-| Installation | Configuration | Troubleshooting | Monitoring |Patching | 
-| --- | ------------ | ------------- | --------------- |---------- | -------- | 
+|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| --- | --- | --- | --- | --- | --- |
 | IIS Outgoing Only](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | No |
 
 #### Active Directory (US Only)
 
-| Supported | Windows 2008 | Windows 2012 | 
-| --------- | -------------| ------------ | 
-| Set up AD Controller | **Yes** | **Yes** | 
-|Add Users to AD | **Yes** | **Yes** | 
-| [Establish AD Trust to customer's on-premises AD (their DC) using RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect) |**Yes** | **Yes** | 
-| Establish AD Trust between customer's dedicated and cloud environments, hosted at Rackspace | **Yes** |**Yes** | 
-| Establish AD Trust to Rackspace Intensive domain | No | No | | Replication | **Yes** | **Yes** | 
-| Authentication for Web | **Yes** | **Yes** | 
-| Internal DNS for Active Directory |**Yes** | **Yes** | | LDAP | **Yes** | **Yes** | 
-|Application partitions when using other Rackspace Application Services (for example, SharePoint and Exchange) | **Yes** | **Yes** | 
-|Development for Federated Services | No | No | 
-| Development for Application integration | No | No | 
-| Snapshots or Backups of Domain Controller | No | No | 
-| Group Policy Objects | No | No | 
-| Distributed File System (DFS) | No | No | 
-| RackConnect to Dedicated environment |**Yes** | **Yes** | 
-| Multiple Domain Controllers | **Yes** | **Yes** | 
-| Rights Management | No | No | | Federated Services | No | No | 
+| Supported | Windows 2008 | Windows 2012 |
+| --------- | -------------| ------------ |
+| Set up AD Controller | **Yes** | **Yes** |
+|Add Users to AD | **Yes** | **Yes** |
+| [Establish AD Trust to customer's on-premises AD (their DC) using RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect) |**Yes** | **Yes** |
+| Establish AD Trust between customer's dedicated and cloud environments, hosted at Rackspace | **Yes** |**Yes** |
+| Establish AD Trust to Rackspace Intensive domain | No | No |
+| Replication | **Yes** | **Yes** |
+| Authentication for Web | **Yes** | **Yes** |
+| Internal DNS for Active Directory |**Yes** | **Yes** |
+| LDAP | **Yes** | **Yes** |
+|Application partitions when using other Rackspace Application Services (for example, SharePoint and Exchange) | **Yes** | **Yes** |
+|Development for Federated Services | No | No |
+| Development for Application integration | No | No |
+| Snapshots or Backups of Domain Controller | No | No |
+| Group Policy Objects | No | No |
+| Distributed File System (DFS) | No | No |
+| RackConnect to Dedicated environment |**Yes** | **Yes** |
+| Multiple Domain Controllers | **Yes** | **Yes** |
+| Rights Management | No | No |
+| Federated Services | No | No |
 | CA Services | No | No |
 
 ### Other packages
@@ -149,6 +152,6 @@ operating system, Rackspace may be forced to end support sooner than the
 published date.
 
 | Operating System Name | End of Life Support Date |
---------------------- | ------------------------ | 
+|--------------------- | ------------------------ |
 | Windows Server 2008 R2 | January 14, 2020 |
 | Windows Server 2012 R2 | January 10, 2023 |
