@@ -5,8 +5,8 @@ title: Install XenServer Tools on Next Generation Windows Cloud Servers
 type: article
 created_date: '2012-12-07'
 created_by: Jered Heeschen
-last_modified_date: '2015-10-07'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-03-07'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
