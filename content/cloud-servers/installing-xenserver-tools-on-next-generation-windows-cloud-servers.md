@@ -29,8 +29,6 @@ This issue **only affects Next Generation Cloud Servers**.  First Generation Clo
 
 To determine whether you need a newer version of XenServer Tools installed, check your current version under Programs and Features in the Windows control panel.
 
-![xsversion](http://63773473543190a035ec-a897bd33ba42b6c03ac54566871e97ca.r54.cf2.rackcdn.com/xstoolsversion.png)
-
 If the listed version is less than 6.2 you should upgrade.
 
 Note that the upgrade will require a reboot of your instance to complete the process.
