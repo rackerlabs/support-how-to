@@ -65,7 +65,7 @@ By default, vCloud authenticates to the Rackspace Intensive domain. Rackspace ca
 
 #### What restrictions are there on vCloud features? {#access-restrictions}
 
-Customer role limitations are described in the features and permissions tables in our [Dedicated vCloud Handbook](http://docs.rackspace.com/vcloud/api/v1/bk-dedicated-vcloud-handbook/content/vcloud-common-front.html).
+Customer role limitations are described in the features and permissions tables in our [Dedicated vCloud Handbook](https://developer.rackspace.com/docs/private-cloud/dedicated-vcloud/vcloud-handbook-v1.5/).
 
 ----
 
