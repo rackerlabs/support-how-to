@@ -5,8 +5,8 @@ title: First Generation to Next Generation cloud server migration FAQ
 type: article
 created_date: '2015-01-08'
 created_by: Trey Hoehne
-last_modified_date: '2016-01-07'
-last_modified_by: Renee Rendon
+last_modified_date: '2016-03-07'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -139,6 +139,12 @@ ensure a healthy file system will make the move smoother. This includes
 performing routine maintenance and trimming log and temporary files from
 the server. The following article provides steps that you can take
 before your migration: [Preparing for a Cloud Server Migration](/how-to/prepare-to-migrate-a-linux-server).
+
+#### What should I do after I have migrated my Windows severs?
+
+We recommend installing XenServer Tools 6.2 onto your server. A mismatch between the Xenserver Tools on your server's operating system and the version of XenServer on the hypervisor host can result in server instability. 
+
+You can find instructions in the article, [Installing XenServer Tools on next generation windows cloud servers](/how-to/installing-xenserver-tools-on-next-generation-windows-cloud-servers).
 
 #### Will the flavor (size) of my server remain the same?
 
