@@ -14,6 +14,8 @@ product_url: cloud-backup
 The following steps show how to use the Cloud Backup service to create a
 backup of the data on your cloud server.
 
+**WARNING!** Cloud Backup does **not** follow symlinks.
+
 ### Previous sections
 
 -   [Cloud Backup
