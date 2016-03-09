@@ -37,7 +37,7 @@ Note that the upgrade requires a reboot of your instance to complete the process
 
 1. Download the version 6.2 of XenServer Tools by [clicking this link](http://8d268c176171c62fbd4b-7084e0c7b53cce27e6cc2142114e456e.r30.cf1.rackcdn.com/xstools-6.2.zip) or by pasting the following URL into a browser:
 
-    http://8d268c176171c62fbd4b-7084e0c7b53cce27e6cc2142114e456e.r30.cf1.rackcdn.com/xstools-6.2.zip
+        http://8d268c176171c62fbd4b-7084e0c7b53cce27e6cc2142114e456e.r30.cf1.rackcdn.com/xstools-6.2.zip
     
 2. Extract the XenServer Tools zip file to a directory of your choosing.
 
