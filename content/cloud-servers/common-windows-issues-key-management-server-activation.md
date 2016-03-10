@@ -53,8 +53,8 @@ server:
    | SYD (Sydney)    | `slmgr.vbs /skms winactivate.syd2.servers.rackspacecloud.com:1688` |
 
 4. Request activation from the KMS:
-
-    slmgr.vbs /ato
+    
+      slmgr.vbs /ato
 
 5. If step 4 returns an error reading EXACTLY "0xC004F074 The Key 
    Management Server (KMS) is unavailable", run the following:
@@ -62,16 +62,16 @@ server:
     w32tm /resync
    
 6. If the time on the Cloud Server is drastically different than
-   what is on the KMS the resync will fail.  At this point you will need to
-   either set the time manually or configure the server to use an NTP
-   instance over the internet.
-   
-   <table>
-   <tr>
+     what is on the KMS the resync will fail.  At this point you will need to
+     either set the time manually or configure the server to use an NTP
+     instance over the internet.
+     
+     <table>
+     <tr>
        <th>Data Center</th>
        <th>Command</th>
-   </tr>
-   <tr>
+     </tr>
+     <tr>
        <td>ORD (Chicago)</td>
        <td><code>net stop w32time<br>w32tm /config /manualpeerlist:time.ord1.rackspace.com /syncfromflags:MANUAL<br>net start          w32time</code></td>
      </tr>
@@ -95,10 +95,10 @@ server:
        <td>SYD (Sydney)</td>
        <td><code>net stop w32time<br>w32tm /config /manualpeerlist:time.syd2.rackspace.com /syncfromflags:MANUAL <br>net start    w32time</code></td>
      </tr>
-   </table>
-
+     </table>
+   
 7. Once the time is synced up, attempt the following:
-
+    
     w32tm /resync
     slmgr.vbs /ato
 
