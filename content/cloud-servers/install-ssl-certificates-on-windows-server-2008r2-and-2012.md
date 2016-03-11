@@ -37,10 +37,10 @@ This article shows how to install SSL certificates on Windows 2008 R2 and 2012 s
 1. In the IIS Manager, right-click your site and select **Edit Bindings**.
 2. In the **Site Bindings** window, click **Add**.
 3. In the **Add Site Binding** dialog box, perform the following steps:
-  1. Set the value of **Type** to **https**.
-  2. (*Windows Server 2012 only*) Specify the host name, if necessary.
-  3. From the **SSL certificate** list, select your certificate.
-  4. Click **OK**.
+    1. Set the value of **Type** to **https**.
+    2. (*Windows Server 2012 only*) Specify the host name, if necessary.
+    3. From the **SSL certificate** list, select your certificate.
+    4. Click **OK**.
 
 After the binding is set up, the **Site Bindings** window shows the binding for HTTPS.
 
