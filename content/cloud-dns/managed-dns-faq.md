@@ -25,17 +25,17 @@ Rackspace Managed DNS (Early Access) enables zone (domain) and record management
 
 #### How can I access Managed DNS (Early Access)?
 
-**NOTE:** If you’re a current Cloud DNS user with a workflow that depends on the Rackspace pyrax SDK  or Ansible’s Rackspace modules, you need to upgrade to the latest version of pyrax (1.9.7) *before you sign up for* Managed DNS (Early Access). Upgrading will prevent the pyrax dependency from blocking the use of Cloud DNS.
+**Warning:** If you’re a current Cloud DNS user with a workflow that depends on the Rackspace pyrax SDK  or Ansible’s Rackspace modules, you need to upgrade to the latest version of pyrax (1.9.7) *before you sign up for* Managed DNS (Early Access). Upgrading will prevent the pyrax dependency from blocking the use of Cloud DNS.
 
-Sign up at [Rackspace Managed DNS - Early Access Program](https://rackspacemtkg.wufoo.com/forms/z1iyxv0s0x6z481/)! Then, we’ll set up your account and notify you with access details.
+Sign up for [Rackspace Managed DNS - Early Access Program](https://rackspacemtkg.wufoo.com/forms/z1iyxv0s0x6z481/)! Then, we’ll set up your account and notify you with access details.
 
 #### Where can I find the Rackspace Managed DNS (Early Access) API documentation?
 
-The documentation is located at <https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#cdns-dg-propagation/>.
+The documentation is located at < https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/>.
 
 #### What are the Managed DNS (Early Access) name servers?
 
-For current name server details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#cdns-dg-propagation/).
+For current name server details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#document-getting-started/name-server-setup).
 
 ### BILLING / USAGE
 
@@ -51,7 +51,7 @@ Any customer with a Rackspace Cloud account is eligible for Managed DNS (Early A
 
 #### What if I am currently using Rackspace Cloud DNS?
 
-**NOTE:** If you’re a current Cloud DNS user with a workflow that depends on the Rackspace pyrax SDK or Ansible’s Rackspace modules, you need to upgrade to the latest version of pyrax (1.9.7) *before you sign up for* Managed DNS (Early Access). Upgrading will prevent the pyrax dependency from blocking the use of Cloud DNS.
+**Warning:** If you’re a current Cloud DNS user with a workflow that depends on the Rackspace pyrax SDK or Ansible’s Rackspace modules, you need to upgrade to the latest version of pyrax (1.9.7) *before you sign up for* Managed DNS (Early Access). Upgrading will prevent the pyrax dependency from blocking the use of Cloud DNS.
 
 Rackspace Cloud DNS API users are especially encouraged and able to participate in Managed DNS (Early Access) in order to become familiar with the improvements and associated API contract changes compared to the Cloud DNS API.
 
@@ -108,7 +108,7 @@ The Managed DNS (Early Access) service will be subject to unscheduled downtime f
 - Use the export and import features to more easily transfer DNS configurations to and from Rackspace via BIND9 zone files.
 - Search zones and record sets.
 
- For a full list of supported API operations, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#cdns-dg-propagation/).
+For a full list of supported API operations, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/).
 
 #### What record types does Managed DNS (Early Access) support?
 
@@ -129,7 +129,7 @@ No.
 
 #### What are the default TTL values for zones (domains) and records?
 
-For current TTL default details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#cdns-dg-propagation/).
+For current TTL default details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#create-a-zone).
 
 #### Does Managed DNS (Early Access) support domain registration?
 
@@ -155,7 +155,7 @@ For information about propagation times to Rackspace name servers, see the [Rack
 
 #### What are the Managed DNS (Early Access) API rate and account quota limits?
 
-All accounts, by default, have a preconfigured set of thresholds (or limits) to manage capacity and prevent abuse of the system. The system recognizes two kinds of limits: API rate limits and resource quotas. API rate limits are thresholds that are reset after a certain amount of time passes. Resource quotas are fixed. For current and specific limit details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#cdns-dg-propagation/).
+All accounts, by default, have a preconfigured set of thresholds (or limits) to manage capacity and prevent abuse of the system. The system recognizes two kinds of limits: API rate limits and resource quotas. API rate limits are thresholds that are reset after a certain amount of time passes. Resource quotas are fixed. For current and specific limit details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide] (https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#document-general-api-info/limits).
 
 #### Can I raise Managed DNS (Early Access) limits for my account?
 
@@ -165,6 +165,6 @@ No. API rate limits and resource quotas are fixed during Early Access and may no
 
 #### Can I create a Managed DNS (Early Access) support ticket?
 
-No. Managed DNS (Early Access) support cannot be obtained via chat, phone, or ticket. The Managed DNS Engineering team will provide direct (best effort) support for Early Access inquiries and participants Monday through Friday from 8 a.m. to 5 p.m. CST; there is no SLA during Early Access.  Issues, questions, and concerns related to Managed DNS should be emailed to <DNS_EA@rackspace.com> (only during the Early Access phase).
+No. Managed DNS (Early Access) support cannot be obtained via chat, phone, or ticket. The Managed DNS Engineering team will provide direct (best effort) support for Early Access inquiries and participants Monday through Friday from 8 a.m. to 5 p.m. CST excluding major holidays); there is no SLA during Early Access.  Issues, questions, and concerns related to Managed DNS should be emailed to <DNS_EA@rackspace.com> (only during the Early Access phase).
 
 **Still have questions? Send them to <DNS_EA@rackspace.com>.**
