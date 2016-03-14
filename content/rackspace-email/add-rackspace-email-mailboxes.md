@@ -15,7 +15,7 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
 ### Add a single mailbox
 
-1.	Log in to the Cloud Office Control Panel at [cp.rackspace.com](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace username and password.
+1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace username and password.
 
 2.	In the **Go to section** list, choose **Rackspace Email**.
 
@@ -51,7 +51,7 @@ The mailbox appears in the list. To manage additional features for the mailbox, 
 
 To add multiple mailboxes at one time, you create a CSV or Excel file with the mailbox information and then upload it.
 
-1.	Log in to the Cloud Office Control Panel at [cp.rackspace.com](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel").
+1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel").
 
 2.	In the **Go to section** list, choose **Rackspace Email**.
 
