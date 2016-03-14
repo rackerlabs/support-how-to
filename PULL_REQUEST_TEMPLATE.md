@@ -13,7 +13,7 @@ Ensure that your change conforms to Rackspace styles and standards by reviewing 
 - [ ] Write clear and consistent code examples
 - [ ] Use consistent terminology 
 
-Once you have used the checklist to review your change, please describe the changes you made in the bulleted list below. Use present tense. For example, if you added a question about image backups to the Cloud Images FAQ, you would say, "Add question about image backups to FAQ."
+After you have used the checklist to review your change, please describe the changes you made in the bulleted list below. Use present tense. For example, if you added a question about image backups to the Cloud Images FAQ, you would say, "Add question about image backups to FAQ."
 
 - 
 
