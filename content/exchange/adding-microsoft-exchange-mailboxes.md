@@ -5,8 +5,8 @@ title: Adding Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2016-01-26'
-last_modified_by: Rose Coste
+last_modified_date: '2016-03-14'
+last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -17,8 +17,7 @@ by using the control panel to import that information from a .CSV file.
 
 ### Add one Exchange mailbox
 
-1. Log in to the control panel at
-   [cp.rackspace.com](https://cp.rackspace.com). In the **Microsoft
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com). In the **Microsoft
    Exchange** section, select the **Add / Edit Mailbox** link.
 
    ![](http://c15042926.r26.cf2.rackcdn.com/exchange_mailboxes_list.png)
@@ -71,8 +70,7 @@ name and then click the corresponding tab.
 
 ### Add multiple Exchange mailboxes
 
-1. Log in to the control panel at
-   [cp.rackspace.com](https://cp.rackspace.com).
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
    In the **Email Accounts** section, select the **Add / Edit Mailbox** link for
    either Rackspace Email or Microsoft Exchange.
