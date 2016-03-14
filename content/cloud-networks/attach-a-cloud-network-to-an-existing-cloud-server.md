@@ -5,8 +5,8 @@ title: Attach a Cloud Network to an Existing Cloud Server
 type: article
 created_date: '2012-09-21'
 created_by: Susan Million
-last_modified_date: '2016-01-05'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-03-14'
+last_modified_by: Todd Trimmer
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -23,6 +23,8 @@ If you use the Cloud Networks API to attach network interfaces to or
 detach them from a cloud server, you might experience a brief
 interruption (lasting a few seconds) in traffic hitting your cloud
 server while networking is being reset on the server.
+
++**Warning for Rackconnect v2.0:** Do not attach or detach a cloud network onto a server that is using Rackconnect v2.0. Attaching or detaching a cloud network on a Cloud Server using Rackconnect v2.0 causes the network stack to be reset, which breaks the cloud server's connectivity to Rackconnect v2.0. If you need to attach a network to a cloud server that currently runs Rackconnect v2.0, please contact support before making the change.
 
 To attach an isolated network to an existing cloud server by cloning it
 in the Cloud Control Panel, perform the following steps:
