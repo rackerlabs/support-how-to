@@ -13,9 +13,9 @@ product_url: cloud-servers
 
 This article explains how to use IP tables for a simple firewall, and
 describes the process to open up holes in your firewall to necessary
-ports. An <span>IP table is a firewall and networking tool available to
+ports. An IP table is a firewall and networking tool available to
 all Linux distros and operates by analyzing packets at the kernel level
-as they are received.</span>
+as they are received.
 
 For a comprehensive list of IP tables commands, parameters, and other
 options, see the [MAN page](http://linux.die.net/man/8/iptables) and the
@@ -87,6 +87,10 @@ Simple Rules:
 -  Allow connections that are already connected to your server
 
          sudo iptables -A INPUT -i eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+- To allow connections on ServiceNet (required by other Rackspace Cloud products such as Cloud Backup and Cloud Monitoring)
+ 
+         sudo iptables -A INPUT -i eth1 -m state --state ESTABLISHED,RELATED -j ACCEPT
 
 -  Allow connections to SSH
 
