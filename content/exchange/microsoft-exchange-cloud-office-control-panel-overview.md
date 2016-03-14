@@ -13,9 +13,7 @@ product_url: exchange
 
 After you sign up for Cloud Office services through Rackspace, the first thing
 to do is log in to the Cloud Office Control Panel. This article
-provides a brief overview of the features that you have access to in the control panel, which you can access at
-<https://cp.rackspace.com/> for new Cloud Office customers or
-<https://my.rackspace.com/> for UK and MyRackspace customers.
+provides a brief overview of the features that you have access to in the control panel. New Cloud Office customers can access the control panel [here](https://cp.rackspace.com/) and UK and MyRackspace customers can log in [here](https://my.rackspace.com/).
 
 After you log in to the control panel, you will see a variety of
 sections that showcase the services for which you have signed up. Each section has a variety of
