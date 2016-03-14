@@ -5,8 +5,8 @@ title: Add Rackspace Email mailboxes
 type: article
 created_date: '2011-12-18'
 created_by: Rackspace Support
-last_modified_date: '2015-09-23'
-last_modified_by: Nate Archer
+last_modified_date: '2016-03-14'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
 ---
