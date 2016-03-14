@@ -35,19 +35,19 @@ The documentation is located at [developer.rackspace.com/docs/cloud-dns/v2/devel
 
 #### What are the Managed DNS (Early Access) name servers?
 
-For current name server details, see the [Rackspace Managed DNS API 2.0 (Early Access) Guide](https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#document-getting-started/name-server-setup).
+For current name server details, see the [Rackspace Managed DNS API 2.0 *Early Access* Guide](https://developer.rackspace.com/docs/cloud-dns/v2/developer-guide/#document-getting-started/name-server-setup).
 
 ### BILLING / USAGE
 
 #### How much does Managed DNS (Early Access) cost?
 
-You will not be subject to any usage fees for Managed DNS (Early Access). After the Early Access period is complete and we transition to Unlimited Availability, your account may be subject to usage fees and additional contract terms.  Any additional fees will be billed to your Rackspace Cloud account.  You will be notified via email at least 30 days prior to beginning to accrue usage fees.
+You will not be subject to any usage fees for Managed DNS *Early Access*. After the Early Access period is complete and we transition to Unlimited Availability, your account may be subject to usage fees and additional contract terms.  Any additional fees will be billed to your Rackspace Cloud account.  You will be notified via email at least 30 days prior to beginning to accrue usage fees.
 
 ### PRODUCT COMPATIBILITY
 
 #### What types of customers or accounts can access Managed DNS (Early Access)?
 
-Any customer with a Rackspace Cloud account is eligible for Managed DNS (Early Access) access.
+Any customer with a Rackspace Cloud account is eligible for Managed DNS *Early Access* access.
 
 #### What if I am currently using Rackspace Cloud DNS?
 
