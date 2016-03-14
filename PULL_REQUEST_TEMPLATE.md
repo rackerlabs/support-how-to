@@ -1,4 +1,4 @@
-**Warning:** Before creating a pull request, make sure that you are submitting your change on a **BRANCH** instead of a fork. You can review how to make a branch in the [contribution guidelines](https://github.com/rackerlabs/rackspace-how-to/blob/master/CONTRIBUTING.md) for this repository. 
+**!!!STOP!!!:** Before creating a pull request, make sure that you are submitting your change on a **BRANCH** instead of a fork. You can review how to make a branch in the [contribution guidelines](https://github.com/rackerlabs/rackspace-how-to/blob/master/CONTRIBUTING.md) for this repository. 
 
 Ensure that your change conforms to Rackspace styles and standards by reviewing the checklist below. Only review the items on the checklist that apply to your change. For detailed descriptions of each checklist item, see the [style guidelines](https://github.com/rackerlabs/rackspace-how-to/blob/master/style-guidelines.md) for this repository. 
 
