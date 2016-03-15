@@ -5,8 +5,8 @@ title: Cloud Files - FAQs
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-03-15'
+last_modified_by: Catherine Richardson
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -55,6 +55,12 @@ you can use either the Cloud Files user interface in the Rackspace Cloud
 Control Panel or one of our programming interfaces.
 
 See [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn/) for more details.
+
+#### What does *eventual consistency* mean in Cloud Files?
+
+One of the key characteristics of Cloud Files is that it is *eventually consistent*. In computing, the CAP (Consistency, Availiabity, and Partition Tolerance) theorem states that distributed systems must choose two items from consistency, availability, and network failure tolerance. For example, a system can be consistent (that is, all reads get the most current data) and handle network failures, but must sacrifice availability to do so. Or, a system can choose to handle network failures and have perfect availability, but must sacrifice consistency to do so. Distributed systems must always handle network failures, so they must choose to sacrifice either availability or consistency.
+
+Storage systems become distributed as they grow. OpenStack Swift (the basis for Rackspace’s Cloud Files product) chooses to sacrifice consistency for availability and network failure tolerance. This choice allows the system to scale to enormous levels and to provide massive uptime, but it also means that in certain scenarios some data might not be updated throughout the entire system. For example, a container listing might not be up to date immediately after writing an object. OpenStack Swift queues the container listing update and allows the object write to succeed. This sort of consistency model is called *eventual consistency*.
 
 #### Where can I find Cloud Files documentation?
 
