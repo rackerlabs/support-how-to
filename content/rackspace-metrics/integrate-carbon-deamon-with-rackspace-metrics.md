@@ -52,7 +52,7 @@ Use the following command to run Carbon Forwarder.
 | -k | Keystone key |   |
 | --auth-url | Keystone token URL |   |
 
-If you don't need authentication, leave the -u/--user command line argument empty (whish is the default value).
+If you don't need authentication, leave the -u/--user command line argument empty (which is the default value).
 
 #### Send metrics
 
