@@ -19,10 +19,10 @@ The integration is through a Carbon Forwarder instance that accepts pickle proto
 
 Carbon Forwarder has the following dependencies.
 
-- twistd
-- mock
-- pytest
-- txKeystone
+- [twistd](https://pypi.python.org/pypi/Twisted)
+- [mock](https://pypi.python.org/pypi/mock)
+- [pytest](https://pypi.python.org/pypi/pytest)
+- [txKeystone](https://pypi.python.org/pypi/txKeystone)
 
 #### Install Carbon Forwarder
 
