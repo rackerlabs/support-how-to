@@ -72,7 +72,7 @@ To complete the configuration, pass the following command-line arguments to the 
 
 If not using your own LogObserver, use the following command to control logging by using LogObserver.
 
-    twistd --logger carbonforwarderlogging.forwarder\_log\_observer.get\_log\_observer blueflood-forward
+    twistd --logger carbonforwarderlogging.forwarder_log_observer.get_log_observer blueflood-forward
 
 #### References
 
