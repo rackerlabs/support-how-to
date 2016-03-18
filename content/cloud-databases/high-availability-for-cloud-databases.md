@@ -26,7 +26,7 @@ instance becomes unavailable, an automatic failover is initiated to one
 of the replicas. The automatic failover and promotion of the new replica
 is completed within a short downtime (approximately 10-30 seconds).
 
-Currently, HA is supported for MySQL 5.6, Percona 5.6, and MariaDB 10.
+Currently, HA is supported for MySQL 5.6, Percona 5.6, MariaDB 10, and later versions.
 
 ### Use cases
 
@@ -50,8 +50,8 @@ MySQL](https://code.google.com/p/mysql-master-ha/) functionality for
 source monitoring, automatic failover, and replica promotion. The
 [replication setup is
 semi-synchronous](https://dev.mysql.com/doc/refman/5.6/en/replication-semisync.html)
-and is set up using GTIDs (for MySQL 5.6, Percona 5.6, and without GTID
-for MariaDB 10) between one source and one or two replicas. To improve
+and is set up using GTIDs (for MySQL, Percona, and without GTID
+for MariaDB) between one source and one or two replicas. To improve
 the robustness of the system, the source and replicas are provisioned on
 separate hosts.
 
@@ -79,24 +79,20 @@ and updates the write pool. Total downtime is around 10-30 seconds.
 
 ### Getting started with HA for Cloud Databases
 
-Creation of new HA instance groups is currently available in the Cloud
-Control Panel and API, but conversion of running instances to HA is
-still API only. The ability to convert instances to HA will be added to
-the Cloud Control Panel in an upcoming release. For more details about
-the HA-related API calls, see the [Cloud Databases developer
+Creation of new HA instance groups and conversion from a replica set to HA group are currently available in the Cloud
+Control Panel and API. More details about HA-related API calls are available in the [Cloud Databases developer
 guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#high-availability-instance-group).
 
 **Notes:**
 
--   By default, access is blocked for an HA instance. To access an HA
+-   By default, access to an HA instance via the VIP is blocked. To access an HA
     instance, you must explicitly add an ACL that specifies the IP
     address to grant access for.
 -   The `networks` property associated with an HA instance (obtained by
-    listing the details of an HA instance) provides details about
+    listing the details of an HA instance) provides the addresses and ports for
     accessing the HA instance. The single access point (VIP) of the HA
-    instance is specified as the `address`. All the reads and writes are
-    directed to this single access point and port 3306
-    (source database). You can also point reads to replicas using
+    instance is specified as the `address`. All the reads and writes
+    directed to the VIP and port 3306 will be sent to the source instance. You can also direct reads to replicas using
     port 3307.
 -   The only allowed operations on instances that are part of the HA
     group are Create users and Create databases (on source only). All
@@ -121,9 +117,8 @@ balancer nodes.
 -   Create an HA setup with two replicas, which guarantees a highly
     available setup even post failover.
 -   Monitor and set up alarms for the replicas to ensure that they are
-    in a healthy state. For more information about monitoring replicas,
-    see the [API
-    developer guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-developer-guide).
+    in a healthy state. More information about monitoring replicas can be found in the how-to document on 
+    [Database replication with Cloud Databases](/how-to/database-replication-with-cloud-databases).
 
 ### Limitations
 
@@ -134,12 +129,10 @@ balancer nodes.
 -   The source and replicas should have the same size and flavor.
 -   The source and replicas are created in the same region.
 -   Currently backups, resizes, and custom configurations cannot be
-    performed for instances that are part of the HA setup. Backups and
-    incremental backups can be created for the HA group. Resizes (both
-    volume and flavor) can be performed across the HA cluster. Custom
-    configurations for the HA cluster will be supported soon.
+    performed for the instances that are part of the HA setup. Instead, backups, 
+    resizes, and custom configurations must be applied to the HA group.
 -   There will be a small delay between the source and the replicas.
--   The HA setup might take anywhere between 5-10 minutes, depending on
+-   Initial setup of the HA group might take anywhere between 5-10 minutes, depending on
     the number of replicas. Because it requires creation of multiple
     nodes, allow some time for the HA instance's `status` property to
     display as ACTIVE when performing a GET in the API.
