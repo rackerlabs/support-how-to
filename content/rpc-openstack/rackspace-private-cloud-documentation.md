@@ -23,25 +23,16 @@ can be updated easily without downloading and installing a new ISO.
 
 The current versions are
 
--   Rackspace Private Cloud v11, based on OpenStack Kilo ([Release
-    Notes](http://docs.rackspace.com/rpc/api/v11/bk-rpc-releasenotes/content/rpc-common-front.html))
-    ([Installation
-    Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-installation/content/rpc-common-front.html))
--   Rackspace Private Cloud v10, based on OpenStack Juno ([Release
-    Notes](http://docs.rackspace.com/rpc/api/v10/bk-rpc-v10-releasenotes/content/rpc-common-front.html))
-    ([Installation
-    Guide](http://docs.rackspace.com/rpc/api/v10/bk-rpc-installation/content/rpc-common-front.html))
--   Rackspace Private Cloud v9, based on OpenStack Icehouse ([Release
-    Notes](http://docs.rackspace.com/rpc/api/v9/bk-rpc-releasenotes/content/rpc-common-front.html))
-    ([Installation
-    Guide](http://docs.rackspace.com/rpc/api/v9/bk-rpc-installation/content/rpc-common-front.html))
+-   Rackspace Private Cloud v11, based on OpenStack Kilo ([Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-releasenotes/))
+    ([Installation Guide](http://docs.openstack.org/developer/openstack-ansible/))
+-   Rackspace Private Cloud v10, based on OpenStack Juno ([Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v10/rpc-v10-releasenotes-external/))
+    ([Installation Guide](http://docs.openstack.org/developer/openstack-ansible/))
 
 Documentation for Rackspace Private Cloud is available
-[here](http://docs.rackspace.com) and
+[here](https://developer.rackspace.com/docs/) and
 [here](/how-to/rpc-openstack).
 
 Developer documentation for the community
 [openstack-ansible](https://launchpad.net/openstack-ansible) project is
 available
 [here](http://docs.openstack.org/developer/openstack-ansible/developer-docs/index.html).
-

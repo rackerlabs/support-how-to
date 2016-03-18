@@ -29,21 +29,15 @@ product_url: rpc-openstack
 
 ###  Rackspace Private Cloud v11 (Kilo)
 
-- [Release Notes](http://docs.rackspace.com/rpc/api/v11/bk-rpc-releasenotes/content/rpc-common-front.html)
-- [Installation Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-installation/content/rpc-common-front.html)
-- [Object Storage Deployment Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-swift/content/ch-object-storage-overview.html)
-- [Admin Guide](http://docs.rackspace.com/rpc/api/v11/bk-rpc-admin/content/rpc-common-front.html)
-- [Technical FAQ](http://docs.rackspace.com/rpc/api/v11/bk-rpc-faq/content/rpc-common-front.html)
+- [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-releasenotes)
+- [Installation Guide](http://docs.openstack.org/developer/openstack-ansible/)
+- [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-swift)
+- [Admin Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-admin/)
+- [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-faq-external/)
 
 ###  Rackspace Private Cloud v10 (Juno)
 
-- [Release Notes](http://docs.rackspace.com/rpc/api/v10/bk-rpc-v10-releasenotes/content/rpc-common-front.html)
-- [Installation Guide](http://docs.rackspace.com/rpc/api/v10/bk-rpc-installation/content/rpc-common-front.html)
-- [Object Storage Deployment Guide](http://docs.rackspace.com/rpc/api/v10/bk-rpc-swift/content/ch-object-storage-overview.html)
-- [Technical FAQ](http://docs.rackspace.com/rpc/api/v9/rpc-faq-v9/content/rpc-common-front.html)
-
-###  Rackspace Private Cloud v9 (Icehouse)
-
-- [Release Notes](http://docs.rackspace.com/rpc/api/v9/bk-rpc-releasenotes/content/rpc-common-front.html)
-- [Installation Guide](http://docs.rackspace.com/rpc/api/v9/bk-rpc-installation/content/rpc-common-front.html)
-- [Technical FAQ](http://docs.rackspace.com/rpc/api/v9/rpc-faq-v9/content/rpc-common-front.html)
+- [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v10/rpc-v10-releasenotes-external/)
+- [Installation Guide](http://docs.openstack.org/developer/openstack-ansible/)
+- [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v10/rpc-v10-swift/)
+- [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v10/rpc-v10-faq-external/)

@@ -54,11 +54,11 @@ steps are involved when you create a service using a shared SAN
 certificate:
 
 -   Rackspace CDN sends the domain details to Akamai.
--   Akamai send the request to GeoTrust for verification.
--   GeoTrust contacts the administrator for the domain based on
+-   Akamai send the request to the SSL Provider for verification.
+-   SSL Provider contacts the administrator for the domain based on
     WHOIS information.
 -   The administrator verifies the domain rights.
--   GeoTrust issues the certificate to Akamai.
+-   SSL Provider issues the certificate to Akamai.
 -   Akamai deploys the certificate and sends a response to
     Rackspace CDN.
 -   Rackspace CDN shows the completed status in the Control Panel.
