@@ -29,7 +29,7 @@ Articles](/how-to/)**
 Method Name	| API Call | Role | Description
 --- | --- | --- | ---
 **Account Operations** | | |
-Get Account | ```GET /v1.0/account``` | **Observer & Creator & Admin** | Returns account information.
+Get Account | ```GET /v1.0/account``` | **Observer <br /><br /> Creator  <br /><br /> Admin** | Returns account information.
 Update Account| ```PUT /v1.0/account``` | **Admin** | Updates properties on an account.
 List Audits	| ```GET /v1.0/audits``` | **Observer & Creator & Admin** | Lists audits for this account.
 Get Limits | ```GET /v1.0/limits``` | **Observer & Creator & Admin** | Returns account resource limits.
