@@ -74,21 +74,21 @@ List Entities | ```GET /v1.0/entities``` | **Observer  Creator  Admin** | Lists 
 Get Entity | ```GET /v1.0/entities/:entityId``` | **Observer  Creator  Admin** | Retrieves the current state of an entity.
 Update Entity | ```PUT /v1.0/entities/:entityId``` | **Admin only** | Updates an entity specified by the entityId.
 Delete Entity | ```DELETE /v1.0/entities/:entityId``` | **Admin only** | Deletes an entity from your account. Also deletes any checks and alarms defined for that entity.
-Create Entity | ```POST /v1.0/entities``` | **Creator <br /> <br /> Admin** | Creates a new entity.
+Create Entity | ```POST /v1.0/entities``` | **Creator  Admin** | Creates a new entity.
 **Checks Operations** | | |
-List Checks | ```GET /v1.0/entities/:entityId/checks``` | **Creator <br /> <br /> Admin** | Lists the checks associated with a given entityId.
-Get Check | ```GET /v1.0/entities/:entityId/checks/:checkId``` | **Creator <br /> <br /> Admin** | Returns the specified check.
+List Checks | ```GET /v1.0/entities/:entityId/checks``` | **Creator  Admin** | Lists the checks associated with a given entityId.
+Get Check | ```GET /v1.0/entities/:entityId/checks/:checkId``` | **Creator  Admin** | Returns the specified check.
 Update Check | ```PUT /v1.0/entities/:entityId/checks/:checkId``` | **Admin only** | Updates a check with the specified checkId.
 Delete Check | ```DELETE /v1.0/entities/:entityId/checks/:checkId``` | **Admin only** | Deletes a check from your account.
-Create Check | ```POST /v1.0/entities/:entityId/checks``` | **Creator <br /> <br /> Admin** | Creates a new check and associates it with an entity using the parameters listed in [Attributes](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#attributes).
-Test Existing Check | ```POST /v1.0/entities/:entityId/checks/:checkId/test``` | **Observer & Creator & Admin** | Tests a check inline.
+Create Check | ```POST /v1.0/entities/:entityId/checks``` | **Creator  Admin** | Creates a new check and associates it with an entity using the parameters listed in [Attributes](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#attributes).
+Test Existing Check | ```POST /v1.0/entities/:entityId/checks/:checkId/test``` | **Observer  Creator  Admin** | Tests a check inline.
 Test New Check | ```POST /v1.0/entities/:entityId/test-check``` | **Observer Creator  Admin** | Tests a check before creating it.
 **Alarms Operations** | | |
 List Alarms | ```GET /v1.0/entities/:entityId/alarms``` | **Observer  Creator  Admin** | Lists the alarms on the specified entity.
 Get Alarm | ```GET /v1.0/entities/:entityId/alarms/:alarmId``` | **Observer  Creator  Admin** | Gets information for a single alarm.
 Update Alarm | ```PUT /v1.0/entities/:entityId/alarms/:alarmId``` | **Admin only** | Updates an alarm with the specified alarmId. Partial updates to an alarm are acceptable. You may specify only the parameters you would like to update.
 Delete Alarm | ```DELETE /v1.0/entities/:entityId/alarms/:alarmId``` | **Admin only** | Deletes an alarm from your account.
-Create Alarm | ```POST /v1.0/entities/:entityId/alarms``` | **Creator <br /> <br /> Admin** | Creates a new alarm for the specified entity. Specify the alarm's characteristics using a valid set of parameters from the table shown in the [Attributes](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarms) section.
+Create Alarm | ```POST /v1.0/entities/:entityId/alarms``` | **Creator  Admin** | Creates a new alarm for the specified entity. Specify the alarm's characteristics using a valid set of parameters from the table shown in the [Attributes](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarms) section.
 Test New Alarm | ```POST /v1.0/entities/:entityId/test-alarm``` | **Observer  Creator  Admin** | Test runs an alarm.
 **Alarm Notification History Operations** | | |
 List Check IDs for Alarms | ```GET /v1.0/entities/:entityId/alarms/:alarmId/notification_history``` | **Observer  Creator  Admin** | List checks for which alarm notification history is available.
@@ -105,7 +105,7 @@ List Notifications | ```GET /v1.0/notifications``` | **Observer  Creator  Admin*
 Get Notification| ```GET /v1.0/notifications/:notificationId``` | **Observer  Creator  Admin** | Gets information for a single notification.
 Update Notification | ```PUT /v1.0/notifications/:notificationId``` | **Admin only** | Updates a notification with the specified notificationId.
 Delete Notification | ```DELETE /v1.0/notifications/:notificationId``` | **Admin only** | Deletes a notification from your account.
-Create Notification | ```POST /v1.0/notifications``` | **Creator <br /> <br /> Admin** | Creates a notification.
+Create Notification | ```POST /v1.0/notifications``` | **Creator  Admin** | Creates a notification.
 Test Existing Notification | ```POST /v1.0/notifications/:notificationId/test``` | **Observer  Creator  Admin** | Tests an existing notification.
 Test New Notification | ```POST /v1.0/test-notification``` | **Observer  Creator  Admin** | Test runs a notification.
 **Notification Plans Operations** | | |
@@ -113,7 +113,7 @@ List Notification Plans | ```GET /v1.0/notification_plans``` | **Observer  Creat
 Get Notification Plan | ```GET /v1.0/notification_plans/:notificationPlanId``` | **Observer  Creator  Admin** | Gets information for a single notification plan.
 Update Notification Plans | ```PUT /v1.0/notification_plans/:notificationPlanId``` | **Admin only** | Updates a notification plan with the specified notificationPlanId. Partial updates to a notification plan are acceptable. You may specify only the parameters you would like to update.
 Delete Notification Plan| ```DELETE /v1.0/notification_plans/:notificationPlanId``` | **Admin only** | Deletes a notification plan.
-Create Notification Plan | ```POST /v1.0/notification_plans``` | **Creator <br /> <br /> Admin** | Creates a notification plan.
+Create Notification Plan | ```POST /v1.0/notification_plans``` | **Creator  Admin** | Creates a notification plan.
 **Metrics Operations** | | |
 List Metrics | ```GET /v1.0/entities/entityId/checks/checkId/metrics``` | **Observer  Creator  Admin** | Lists the metrics associated with the specified check.
 Get Data Points for Plot | ```GET /v1.0/entities/:entityId/checks/:checkId/metrics/:metricName/plot``` | **Observer  Creator  Admin** | Queries for all data points of `metricName` between two points in time.
