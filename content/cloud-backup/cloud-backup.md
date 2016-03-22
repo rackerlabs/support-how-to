@@ -30,8 +30,8 @@ product_url: cloud-backup
 
 ###  Backup Information
 
-- [A Single Backup's Activities](/how-to/rackspace-cloud-backup-view-backup-information#single)
-- [All Activities For All Backups](/how-to/rackspace-cloud-backup-view-backup-information#all)
+- [A Single Backup's Activities](/how-to/view-backup-information-with-cloud-backup)
+- [All Activities For All Backups](/how-to/view-backup-information-with-cloud-backup)
 
 ###  Backup Actions Menu
 
