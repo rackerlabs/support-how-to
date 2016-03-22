@@ -75,4 +75,4 @@ image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-ima
 
 ### Next steps
 
-[View backup information with Cloud Backup](/how-to/view-backup-information-with-cloud-backup)
+[View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)

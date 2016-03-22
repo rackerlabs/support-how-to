@@ -12,7 +12,7 @@ product_url: cloud-backup
 
 ### Previous section
 
-[View backup information with Cloud Backup](/how-to/view-backup-information-with-cloud-backup)
+[View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
 
 ### How to use backup actions
 

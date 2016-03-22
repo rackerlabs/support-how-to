@@ -68,7 +68,7 @@ Cloud Backup:
     servers](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 -   [How to create a
     backup](/how-to/rackspace-cloud-backup-create-a-backup)
--   [View backup information](/how-to/view-backup-information-with-cloud-backup)
+-   [View backup information](/how-to/rackspace-cloud-backup-view-backup-information)
 -   [How to use the backup actions
     menu](/how-to/rackspace-cloud-backup-backup-actions)
 -   [How to use the system actions
