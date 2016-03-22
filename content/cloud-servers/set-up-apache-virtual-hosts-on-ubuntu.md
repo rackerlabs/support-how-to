@@ -136,7 +136,8 @@ The contents looks as follows:
       LogLevel warn
       ErrorLog /var/log/apache2/error-mydomainname.com.log
       CustomLog /var/log/apache2/access-mydomainname.com.log combined
-
+      
+    </VirtualHost>
 
 
 ### Enable the site
