@@ -1,11 +1,11 @@
 ---
-permalink: rackspace-cloud-backup-view-backup-information/
+permalink: view-backup-information-with-cloud-backup/
 node_id: 2039
-title: Rackspace Cloud Backup - View backup information
+title: View backup information with Cloud Backup
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
-last_modified_date: '2015-12-31'
+last_modified_date: '2016-03-22'
 last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
