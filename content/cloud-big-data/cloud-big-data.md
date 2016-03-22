@@ -15,8 +15,8 @@ product_url: cloud-big-data
 
 ###  Working with Hadoop
 
-- [Deploying Rackspace Cloud Big Data](/how-to/deploying-rackspace-cloud-big-data)
-- [Getting data into your Big Data cluster](/how-to/getting-data-into-your-big-data-cluster)
+- [Deploy Rackspace Cloud Big Data](/how-to/deploying-rackspace-cloud-big-data)
+- [Transfer data into your Big Data cluster](/how-to/getting-data-into-your-big-data-cluster)
 - [Manage cluster ACLs with iptables](/how-to/manage-cluster-acls-with-iptables)
 
 ###  Service information

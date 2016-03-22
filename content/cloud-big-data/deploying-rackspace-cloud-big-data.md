@@ -1,7 +1,7 @@
 ---
-permalink: deploying-rackspace-cloud-big-data/
+permalink: deploy-rackspace-cloud-big-data/
 node_id: 4064
-title: Deploying Rackspace Cloud Big Data
+title: Deploy Rackspace Cloud Big Data
 type: article
 created_date: '2014-05-07'
 created_by: Kyle Laffoon
@@ -102,6 +102,5 @@ as well as a data ingest method supported by Rackspace:
 
 **Rackspace Swifts**:[/how-to/swift-filesystem-for-hadoop](/how-to/swift-filesystem-for-hadoop)
 
-**Getting Data Into Your Cluster**:
+**Transfer Data Into Your Cluster**:
 [/how-to/getting-data-into-your-big-data-cluster](/how-to/getting-data-into-your-big-data-cluster)
-

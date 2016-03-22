@@ -137,8 +137,7 @@ data node instances from the cluster.
 
 One of the main features of Cloud Big Data Platform is its ability to
 process data that lives in Cloud Files. For detailed information about
-how to do this, see [Getting data into your Big Data Cluster
-guide](/how-to/getting-data-into-your-big-data-cluster).
+how to do this, see [Transfer data into your Big Data Cluster guide](/how-to/getting-data-into-your-big-data-cluster).
 It is important to note that any usage of Cloud Files is billed at the
 storage rate for Cloud Files as outlined on the [Cloud Files pricing
 page](http://www.rackspace.com/cloud/files/pricing/). Bandwidth and
