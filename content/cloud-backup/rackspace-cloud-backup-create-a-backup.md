@@ -1,7 +1,7 @@
 ---
 permalink: rackspace-cloud-backup-create-a-backup-0/
 node_id: 2038
-title: Create a backup 
+title: Create a backup
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
@@ -75,5 +75,4 @@ image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-ima
 
 ### Next steps
 
-[View backup information
-with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
+[View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)

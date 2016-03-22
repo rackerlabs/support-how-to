@@ -1,7 +1,7 @@
 ---
-permalink: generating-your-encrypted-key-in-cloud-backup/
+permalink: generate-your-encrypted-key-in-cloud-backup/
 node_id: 1291
-title: Generating Your Encrypted Key in Cloud Backup
+title: Generate your encrypted key in Cloud Backup
 type: article
 created_date: '2012-02-20'
 created_by: Rackspace Support
@@ -61,6 +61,3 @@ library), by using the following method:
       secret = sys.argv[1]
       pemfile = sys.argv[2]
       encrypt(secret, pemfile)
-
-
-

@@ -12,8 +12,7 @@ product_url: cloud-backup
 
 ### Previous section
 
-[View backup
-information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
+[View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
 
 ### How to use backup actions
 
@@ -97,7 +96,7 @@ progress bar is displayed until the backup is completed.
 
 ### Configure a backup
 
-You can change the name, recurrence, and notifications for your backup job. 
+You can change the name, recurrence, and notifications for your backup job.
 
 1. From the **Backup Actions** menu, select **Configure Backup**.
 
