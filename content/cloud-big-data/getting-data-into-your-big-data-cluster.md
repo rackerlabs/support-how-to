@@ -1,12 +1,12 @@
 ---
-permalink: getting-data-into-your-big-data-cluster/
+permalink: transfer-data-into-your-big-data-cluster/
 node_id: 3813
-title: Getting data into your Big Data cluster
+title: Transfer data into your Big Data cluster
 type: article
 created_date: '2013-12-14'
 created_by: David Dobbins
-last_modified_date: '2016-01-07'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-03-22'
+last_modified_by: Stephanie Fillmon
 product: Cloud Big Data
 product_url: cloud-big-data
 ---
