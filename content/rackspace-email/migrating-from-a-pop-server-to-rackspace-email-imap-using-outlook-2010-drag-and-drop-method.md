@@ -42,7 +42,11 @@ servers. If your internal system configurations
 require non-SSL ports, those settings are available in the article
 referenced previously, [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison).
 
-1.  In Outlook 2010, select **File** &gt; **Account Settings**.
+1. In Outlook, navigate to Account Settings:
+
+   **Outlook 2007: Tools > Account Settings**
+   
+   **Outlook 2010/2013/2016: File > Account Settings > Account Settings**
 
 2.  To add your IMAP account, click the **New** button.
 
