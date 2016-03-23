@@ -1,6 +1,8 @@
 source: .
 destination: ../how-to
 
+baseurl: "/how-to/"
+
 defaults:
   -
     scope:
