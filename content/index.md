@@ -1,5 +1,6 @@
 ---
 title: 'Rackspace How-To Articles'
+permalink: /
 ---
 <article>
 <div class="container">
