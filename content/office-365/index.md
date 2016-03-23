@@ -6,6 +6,7 @@ created_date: '2015-11-19'
 created_by: Zach Corleissen
 last_modified_date: '2016-01-21'
 last_modified_by: Kyle Laffoon
+permalink: /office-365/
 product: Office 365
 product_url: office-365
 ---
