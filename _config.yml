@@ -1,5 +1,5 @@
-source: .
-destination: ../how-to
+source: ./content
+destination: ./how-to
 
 baseurl: "/how-to/"
 
