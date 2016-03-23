@@ -1,7 +1,7 @@
 ---
-permalink: migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2010-drag-and-drop-method/
+permalink: migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/
 node_id: 3789
-title: Migrate from a POP server to Rackspace Email IMAP using Outlook 2010
+title: Migrate from a POP server to Rackspace Email IMAP using Outlook 
 type: article
 created_date: '2013-11-19'
 created_by: Milton Prado
@@ -42,7 +42,11 @@ servers. If your internal system configurations
 require non-SSL ports, those settings are available in the article
 referenced previously, [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison).
 
-1.  In Outlook 2010, select **File** &gt; **Account Settings**.
+1. In Outlook, navigate to Account Settings:
+
+   **Outlook 2007: Tools > Account Settings**
+   
+   **Outlook 2010/2013/2016: File > Account Settings > Account Settings**
 
 2.  To add your IMAP account, click the **New** button.
 
