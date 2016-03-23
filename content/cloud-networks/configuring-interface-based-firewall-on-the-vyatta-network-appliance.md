@@ -86,14 +86,14 @@ where the instance acts as a packet filter. The firewall instance
 filters packets in one of the following ways, depending on what you
 specify when you apply the firewall instance:
 
--   in. If you apply the instance as in, the firewall will filter
+-   **in.** If you apply the instance as in, the firewall will filter
     packets entering the interface and traversing the Vyatta system. You
     can apply one in packet filter.
--   out. If you apply the instance as out, the firewall will filter
+-   **out.** If you apply the instance as out, the firewall will filter
     packets leaving the interface. These can be packets traversing the
     Vyatta system or packets originated on the system. You can apply one
     out packet filter.
--   local. If you apply the instance as local, the firewall will filter
+-   **local.** If you apply the instance as local, the firewall will filter
     packets destined for the Vyatta system. One firewall instance can be
     applied as a local packet filter.
 
@@ -115,32 +115,29 @@ interface of the Vyatta. This rule set does the following:
 -   Allows SSH and ICMP traffic
 
 
-(1) Log onto the Vyatta Appliance using ssh:
+1. Log onto the Vyatta Appliance using ssh:
 
         ssh vyatta@X.X.X.X
 
-  Where X.X.X.X is the IP address of the Vyatta. You'll see a Welcome to
-Vyatta message and a prompt to enter your Vyatta password.
+   Where X.X.X.X is the IP address of the Vyatta. You'll see a Welcome to Vyatta message and a prompt to enter your Vyatta password.
 
-  Once you're logged onto the appliance, you can enter a ? or press the
+   Once you're logged onto the appliance, you can enter a ? or press the
 Tab key for help.
 
-(2) Enter configuration mode:
+2. Enter configuration mode:
 
        vyatta@vyatta: configure
        [edit]
        vyatta@vyatta#
 
-  The \# symbol indicates you're in configuration mode.
+   The \# symbol indicates you're in configuration mode.
 
-(3) Make the firewall stateful (global configuration)
+3. Make the firewall stateful (global configuration)
 
        set firewall state-policy established action 'accept'
        set firewall state-policy related action 'accept'
 
-(4) Set the recommended global rules which will apply to all firewall
-protected interfaces. Anything global can be changed within the
-interface specific firewall rule
+4. Set the recommended global rules which will apply to all firewall protected interfaces. Anything global can be changed within the interface specific firewall rule
 
        set firewall all-ping 'enable'
        set firewall broadcast-ping 'disable'
@@ -153,15 +150,15 @@ interface specific firewall rule
        set firewall source-validation 'disable'
        set firewall syn-cookies 'enable'
 
-(5) Start configuring firewall configuration for Public interface
+5. Start configuring firewall configuration for Public interface
 
         edit firewall name protect-vyatta
 
-  Drop everything by default
+   Drop everything by default
 
         set default-action 'drop'
 
-  Allow IKE and ESP traffic for IPsec
+   Allow IKE and ESP traffic for IPsec
 
        set rule 100 action 'accept'
        set rule 100 destination port '500'
@@ -169,20 +166,20 @@ interface specific firewall rule
        set rule 200 action 'accept'
        set rule 200 protocol 'esp'
 
-  Allow L2TP over IPsec
+   Allow L2TP over IPsec
 
        set rule 210 action 'accept'
        set rule 210 destination port '1701'
        set rule 210 ipsec 'match-ipsec'
        set rule 210 protocol 'udp'
 
-  Allow NAT traversal of IPsec
+   Allow NAT traversal of IPsec
 
        set rule 250 action 'accept'
        set rule 250 destination port '4500'
        set rule 250 protocol 'udp'
 
-  Deter ssh brute-force (only allow 3 new connections within 30 seconds)
+   Deter ssh brute-force (only allow 3 new connections within 30 seconds)
 
        set rule 300 action 'drop'
        set rule 300 destination port '22'
@@ -191,31 +188,30 @@ interface specific firewall rule
        set rule 300 recent time '30'
        set rule 300 state new 'enable'
 
-  Allow all other ssh
+   Allow all other ssh
 
        set rule 310 action 'accept'
        set rule 310 destination port '22'
        set rule 310 protocol 'tcp'
 
-  Allow icmp
+   Allow icmp
 
        set rule 900 action 'accept'
        set rule 900 description 'allow icmp'
        set rule 900 protocol 'icmp'
        exit
 
-(6) Apply locally on Public interface (eth0)
+6. Apply locally on Public interface (eth0)
 
        set interfaces ethernet eth0 firewall local name 'protect-vyatta'
 
-(7) Create and apply firewall ruleset 'in' (for traffic destined for
-cloud servers) on Public interface (eth0)
+7. Create and apply firewall ruleset 'in' (for traffic destined for cloud servers) on Public interface (eth0)
 
        set firewall name untrusted default-action 'drop'
        set firewall name untrusted description 'deny traffic from internet'
        set interfaces ethernet eth0 firewall in name 'untrusted'
 
-(8) Commit and save the changes.
+8. Commit and save the changes.
 
        commit
        save
