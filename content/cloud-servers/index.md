@@ -5,6 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2016-01-17'
 last_modified_by: Rackspace Support
+permalink: /cloud-servers/
 product: Cloud Servers
 product_url: cloud-servers
 ---
