@@ -19,7 +19,7 @@ this article to add a ActiveSync or BES license.
 1. Log in to your control panel and select **Microsoft Exchange** from
    the **Go to section** menu.
 
-   <img src="http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBES.png" alt="" />
+   <img src="{% asset_path exchange/add-an-activesync-or-bes-license/(E%26A)ActivesyncBES.png %}" alt="" />
 
    **Note**: The Cloud Office Control Panel that you access depends on the
    region in which the service was started.
@@ -36,13 +36,13 @@ this article to add a ActiveSync or BES license.
 2. In the **Exchange Email Accounts** section, select **Mobile
    Messaging** under **Other Servcices**.
 
-   <img src="http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes2.png" alt="" />
+   <img src="{% asset_path exchange/add-an-activesync-or-bes-license/(E%26A)ActivesyncBes2.png %}" alt="" />
 
 3. Select **View Users** for either **Blackberry** or **Activesync
    (iPhone, Android, Windows Mobile)**, depending on your device, and
    then click **Add**.
 
-   <img src="http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes3.png" alt="" />
+   <img src="{% asset_path exchange/add-an-activesync-or-bes-license/(E%26A)ActivesyncBes3.png %}" alt="" />
 
 4. Select the user to whom you are assigning the license.
    This works differently for different kinds of licenses:
@@ -52,14 +52,14 @@ this article to add a ActiveSync or BES license.
      4 digit activation pin under **Activation Password** and click
      **Save**.
 
-     <img src="http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes5.png" alt="" />
+     <img src="{% asset_path exchange/add-an-activesync-or-bes-license/(E%26A)ActivesyncBes5.png %}" alt="" />
 
    - If you're adding an Activesync license, select the user to whom
      you are assigning the license from the **Eligible Users From
      This Domain** window, click **Add** in the middle and then click
      **Save**.
 
-     <img src="http://c10322051.r51.cf2.rackcdn.com/(E%26A)ActivesyncBes6.png" alt="" />
+     <img src="{% asset_path exchange/add-an-activesync-or-bes-license/(E%26A)ActivesyncBes6.png %}" alt="" />
 
      **Note**: After you've assigned your licenses, allow 10 minutes for
      them to fully propagate.

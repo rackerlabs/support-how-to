@@ -22,7 +22,7 @@ To create a new suppression, edit an existing
 suppression, or view a list of active, scheduled, or
 ended suppressions, click the **Suppressions** link.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.1a_0.png" width="723" height="329" />
+<img src="{% asset_path rackspace-intelligence/working-with-notification-suppressions-in-rackspace-intelligence/4747.1a_0.png %}" width="723" height="329" />
 
 On the **Suppressions** page, you can view two types of suppressions:
 
@@ -47,7 +47,7 @@ the **Suppressed Alerts** link. The Suppressed Alerts log page lists all
 the alerts that have been suppressed during the past 30 days, with their
 corresponding metrics, such as status, entities, and suppression time.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-suppressions-suppressed%20entities.png" width="904" height="560" />
+<img src="{% asset_path rackspace-intelligence/working-with-notification-suppressions-in-rackspace-intelligence/intelligence-suppressions-suppressed%20entities.png %}" width="904" height="560" />
 
 ### Create a suppression
 
@@ -57,7 +57,7 @@ You can create a suppression in one of the following ways:
 
 1. On the **Suppressions** overview page, click **Create Suppression**.
 
-       <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.4a_0.png" width="581" height="201" />
+       <img src="{% asset_path rackspace-intelligence/working-with-notification-suppressions-in-rackspace-intelligence/4747.4a_0.png %}" width="581" height="201" />
 
 2. On the **Create a Suppression** page, type a name for the
    suppression, and select the appropriate start and end dates.
@@ -86,7 +86,7 @@ suppression details page.
 2. Scroll to the **Suppressions** section of the entity details page,
    and then click **Create Suppression.**
 
-       <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4747.5a_0.png" width="686" height="231" />
+       <img src="{% asset_path rackspace-intelligence/working-with-notification-suppressions-in-rackspace-intelligence/4747.5a_0.png %}" width="686" height="231" />
 
    Rackspace Intelligence has automatically selected all the alarms
    that are associated with this entity.

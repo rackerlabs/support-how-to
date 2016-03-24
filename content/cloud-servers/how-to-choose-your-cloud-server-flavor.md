@@ -15,5 +15,5 @@ Each flavor class is designed for a specific workload range. Review the
 following list of workloads to identify which flavor class fits your
 current needs.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/FlavorClassesTable.jpg" width="805" height="607" />
+<img src="{% asset_path cloud-servers/how-to-choose-your-cloud-server-flavor/FlavorClassesTable.jpg %}" width="805" height="607" />
 

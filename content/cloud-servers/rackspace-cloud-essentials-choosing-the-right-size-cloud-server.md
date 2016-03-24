@@ -50,19 +50,19 @@ If your application is running on a Linux system, there are many utilities that 
 
 -  **free**: This is a quick and easy monitoring utility that gives you a snapshot view of the amount of available memory on your server. Adding the -m switch to the command shows you available memory in megabytes (as opposed to the default kilobytes).
 
-  <img src="http://c14994050.r50.cf2.rackcdn.com/free-m.png" alt="" />
+  <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-choosing-the-right-size-cloud-server/free-m.png %}" alt="" />
 
 -  **Top**: This utility is useful for more than just checking available memory.  You can also view the load average on the server, and the processes that are using the most resources on your server.
 
-  <img src="http://c14994050.r50.cf2.rackcdn.com/top.png" alt="" />
+  <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-choosing-the-right-size-cloud-server/top.png %}" alt="" />
 
 -  **iotop**: You can use the `iotop` command to monitor disk I/O on a per-process basis.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2013-08-08_1232.png" alt="" />
+  <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-choosing-the-right-size-cloud-server/2013-08-08_1232.png %}" alt="" />
 
 -  **dstat**: The `dstat` command also shows you the I/O statistics and other information with more versatility than other commands, in terms of reporting.
 
-  <img src="http://c14994050.r50.cf2.rackcdn.com/dstat.png" alt="" />
+  <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-choosing-the-right-size-cloud-server/dstat.png %}" alt="" />
 
 Both `iotop` and `dstat` might require extra packages to be installed on your server.
 

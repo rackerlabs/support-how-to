@@ -20,7 +20,7 @@ Network. Rackspace currently has DNS servers located in Texas, Virginia,
 and London. Within each datacenter, we have our nameservers split up so
 that we have no single point of failure in front of our DNS servers.
 
-<img src="http://c777730.r30.cf2.rackcdn.com/dnsoverview.png" alt="" />
+<img src="{% asset_path cloud-dns/rackspace-cloud-dns-overview/dnsoverview.png %}" alt="" />
 
 Using anycast, we broadcast IP addresses from each location, which gives
 us two advantages:

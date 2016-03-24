@@ -10,3 +10,8 @@ defaults:
       type: "pages"
     values:
       permalink: "/:basename/"
+
+
+assets:
+  sources:
+    - _assets/img

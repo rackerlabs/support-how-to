@@ -28,7 +28,7 @@ First you will need to download a small piece of C# software and compile it on W
 *   Now download and install nant, a free .Net Build tool, from [http://nant.sourceforge.net/](http://nant.sourceforge.net/ "http://nant.sourceforge.net/").
 
 *   Once you have successfully installed nant, then open a command prompt and navigate to the directory **c:/upload-to-cf-cs-0.1** and run **nant.exe** command as shown in the following screenshot.
-<img width=600 border="2" src="http://c602889.r89.cf2.rackcdn.com/mysqlbackuptoCF1.png" alt="img text" />
+<img width=600 border="2" src="{% asset_path cloud-files/setup-automatic-mysql-server-backups-to-cloud-files-from-windows/mysqlbackuptoCF1.png %}" alt="img text" />
 
 *   The above command will compile the binary file upload-to-cf.exe. We will be using this binary file to upload our backup files to Cloud Files. You can test this command using the following syntax:
 
@@ -65,14 +65,14 @@ First you will need to download a small piece of C# software and compile it on W
 *   Click Start, click Run, type cmd, and then click OK.
 
 *   At the command prompt, type **net start**, and then press ENTER to display a list of currently running services. If Task Scheduler is not displayed in the list, type net start "task scheduler", and then press ENTER.
-<img width=600 border="2" src="http://c602889.r89.cf2.rackcdn.com/mysqlbackuptoCF2.png" alt="img text" />
+<img width=600 border="2" src="{% asset_path cloud-files/setup-automatic-mysql-server-backups-to-cloud-files-from-windows/mysqlbackuptoCF2.png %}" alt="img text" />
 
 *   At the command prompt, type the following command and then press ENTER:
 
         schtasks /create /tn "MySQL_Backup" /tr c:\apps\mysql-backup.bat /sc Value /st HH:MM:SS /ed MM/DD/YYYY
 
 *   Note that you may have to change the parameters for your situation. For example, you might type _**schtasks /create /tn "MySQL_backup" /tr c:\apps\mysql-backup.bat /sc daily /st 08:00:00 /ed 12/31/2014**_
-<img width=600 border="2" src="http://c602889.r89.cf2.rackcdn.com/MySQLbackuptoCF3.png" alt="img text" />
+<img width=600 border="2" src="{% asset_path cloud-files/setup-automatic-mysql-server-backups-to-cloud-files-from-windows/MySQLbackuptoCF3.png %}" alt="img text" />
 
 *   This example schedules the MySQL_Backup program to run once a day, every day, at 8:00 A.M. until December 31, 2014\. Because it omits the **/mo** parameter, the default interval of 1 is used to run the command every day.
 

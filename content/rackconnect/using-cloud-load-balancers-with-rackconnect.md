@@ -112,7 +112,7 @@ RackConnect:
 -   Use RackConnect to provide back-end connectivity to dedicated
     database servers from your cloud servers
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RC.CLB_.png" width="700" />
+<img src="{% asset_path rackconnect/using-cloud-load-balancers-with-rackconnect/RC.CLB_.png %}" width="700" />
 
 In this example, a cloud load balancer balances traffic between cloud
 web servers, and RackConnect provides connectivity from the web servers
@@ -135,12 +135,12 @@ To reiterate, RackConnect *cannot* be used to balance traffic between
 cloud and dedicated servers, or to protect your inbound cloud load
 balancer Internet connections.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/How.CLB_.RC_.Do_.Not_.Work_.png" width="700" />
+<img src="{% asset_path rackconnect/using-cloud-load-balancers-with-rackconnect/How.CLB_.RC_.Do_.Not_.Work_.png %}" width="700" />
 
 The following image shows some use cases that further illustrate the
 limitations of using cloud load balancers:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CLB.Use_.Cases__0.png" width="700" />
+<img src="{% asset_path rackconnect/using-cloud-load-balancers-with-rackconnect/CLB.Use_.Cases__0.png %}" width="700" />
 
 
 If you have any questions, please reach out to us. Our contact

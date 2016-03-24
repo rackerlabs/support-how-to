@@ -38,7 +38,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
     - **Outgoing e-mail server (SMTP) name** - Enter the secure server name: **secure.emailsrvr.com**
     - Select the **Outgoing server requires authentication** check box.
 
-    <img src="http://c458714.r14.cf2.rackcdn.com/EA_ServerSettings_01.png" alt=" Server addresses form" />
+    <img src="{% asset_path rackspace-email/setting-up-imap-or-pop-windows-mail/EA_ServerSettings_01.png %}" alt=" Server addresses form" />
 
 9. Click **Next**.
 
@@ -64,7 +64,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 19. In the **Outgoing mail (SMTP)** field, enter the secure outgoing port: **465**
 
-    <img src="http://c458714.r14.cf2.rackcdn.com/EA_AdvancedSettings_02.png" alt=" Port addresses form" />
+    <img src="{% asset_path rackspace-email/setting-up-imap-or-pop-windows-mail/EA_AdvancedSettings_02.png %}" alt=" Port addresses form" />
 
 20. Click **OK**.
 
@@ -93,7 +93,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
     - **Outgoing e-mail server (SMTP)** - Enter the secure server name: **secure.emailsrvr.com**
     - Select the **Outgoing server requires authentication** check box.
 
-    <img src="http://c458716.r16.cf2.rackcdn.com/EA_SetupServers_01.png" alt=" Server address form" />
+    <img src="{% asset_path rackspace-email/setting-up-imap-or-pop-windows-mail/EA_SetupServers_01.png %}" alt=" Server address form" />
 
 9. Click **Next**.
 
@@ -119,7 +119,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 19. In the **Outgoing mail (SMTP)** field, enter the secure outgoing port: **465**
 
-    <img src="http://c458716.r16.cf2.rackcdn.com/EA_AdvancedSettings_02.png" alt=" Port numbers form" />
+    <img src="{% asset_path rackspace-email/setting-up-imap-or-pop-windows-mail/EA_AdvancedSettings_02.png %}" alt=" Port numbers form" />
 
 20. A POP connection typically removes the email messages from the email server after you have downloaded new messages to your computer. If you want to leave copies on the server, select the **Leave a copy of messages on server** check box. To avoid exceeding your account's storage limits, indicate whether the server should delete messages after a certain number of days and/or delete messages when you manually delete them from the Deleted Items folder.
 

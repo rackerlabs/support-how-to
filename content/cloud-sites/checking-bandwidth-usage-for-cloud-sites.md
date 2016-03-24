@@ -20,7 +20,7 @@ Cloud Sites usage reports via the control panel.
 2.  Click on **Your Account**.
 3.  Click on **Reports**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/classiccpreports.png" alt="" />
+    <img src="{% asset_path cloud-sites/checking-bandwidth-usage-for-cloud-sites/classiccpreports.png %}" alt="" />
 
 4.  Under Usage Data you will see information about bandwidth used
     as well as the total amount of disk space you are using. Also

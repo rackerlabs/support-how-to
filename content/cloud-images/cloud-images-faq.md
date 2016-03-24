@@ -387,7 +387,7 @@ Files will stream all the segments in the correct order. Here's a
 screenshot so you can see what this looks like in the Cloud Control
 Panel:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/file-listing_0.png" alt="" />
+<img src="{% asset_path cloud-images/cloud-images-faq/file-listing_0.png %}" alt="" />
 
 In the screenshot, the "manifest objects" are contained in red boxes.
 Note that each one is zero bytes in size and has a filename of the form

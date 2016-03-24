@@ -51,7 +51,7 @@ account.
     The **Link Cloud Account** and **Create Cloud Account** options are
     near the top of the screen.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RCv3-link-create-cloud-account_2.png" width="500" height="144" />
+    <img src="{% asset_path rackconnect/associate-a-cloud-account-with-rackconnect-v30/RCv3-link-create-cloud-account_2.png %}" width="500" height="144" />
 
 2.  Click the appropriate option, and follow the guide to complete the
     process
@@ -70,7 +70,7 @@ account.
     with one of your RackConnect configurations. In most cases, you have
     only one RackConnect configuration.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RCv3-associate-to-RCv3-config_1.png" width="600" height="93" />
+    <img src="{% asset_path rackconnect/associate-a-cloud-account-with-rackconnect-v30/RCv3-associate-to-RCv3-config_1.png %}" width="600" height="93" />
 
 If you have any questions, please reach out to us. Our contact
 information is available on the [Contact

@@ -27,7 +27,7 @@ rules](/how-to/rackspace-cdn-edge-rules).
 After you create your service, you enter restriction rules in the
 **Restrictions** section of the CDN service page.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-02%20at%2011.52.24%20AM.png" width="501" height="206" />
+<img src="{% asset_path rackspace-cdn/create-and-manage-restrictions-in-rackspace-cdn/Screen%20Shot%202015-10-02%20at%2011.52.24%20AM.png %}" width="501" height="206" />
 
 
 
@@ -38,7 +38,7 @@ restriction:
 
 1\. Click **Add Rule**. A popup dialog box displays.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-02%20at%2011.54.43%20AM.png" width="399" height="244" />
+<img src="{% asset_path rackspace-cdn/create-and-manage-restrictions-in-rackspace-cdn/Screen%20Shot%202015-10-02%20at%2011.54.43%20AM.png %}" width="399" height="244" />
 
 2\. Enter the following information to define the rule:
 
@@ -58,13 +58,13 @@ restriction:
 **Path** by separating the list of domains with a space, as shown in the
 following example.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-02%20at%2012.07.19%20PM.png" width="401" height="242" />
+<img src="{% asset_path rackspace-cdn/create-and-manage-restrictions-in-rackspace-cdn/Screen%20Shot%202015-10-02%20at%2012.07.19%20PM.png %}" width="401" height="242" />
 
 3\. Click **Save Rule**. The **Service Status** is **Pending** until the
 new restriction is deployed. After the restriction is deployed, it
 displays in the **Restrictions** list.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-02%20at%2012.02.38%20PM.png" width="748" height="201" />
+<img src="{% asset_path rackspace-cdn/create-and-manage-restrictions-in-rackspace-cdn/Screen%20Shot%202015-10-02%20at%2012.02.38%20PM.png %}" width="748" height="201" />
 
 
 
@@ -78,7 +78,7 @@ To edit a restriction, follow these steps:
 2\. Edit the **Name**, **Type**, **Access**, **Referrer**, or the
 **Path** for the rule.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-02%20at%2012.09.39%20PM.png" width="376" height="227" />
+<img src="{% asset_path rackspace-cdn/create-and-manage-restrictions-in-rackspace-cdn/Screen%20Shot%202015-10-02%20at%2012.09.39%20PM.png %}" width="376" height="227" />
 
 3\. Click **Save Rule**. The **Service Status** is **Pending** until the
 edited restriction is deployed. After the edited restriction is
@@ -95,7 +95,7 @@ select **Delete Rule**.
 
 2\. In the popup dialog box, click **Delete Rule**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DeleteOriginRule_1.png" width="197" height="128" />
+<img src="{% asset_path rackspace-cdn/create-and-manage-restrictions-in-rackspace-cdn/DeleteOriginRule_1.png %}" width="197" height="128" />
 
 The **Service Status** is **Pending** until the restriction is deleted.
 After the restriction is deleted, it is removed from the

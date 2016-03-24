@@ -21,17 +21,17 @@ The following sections show you how to locate your Rackspace Cloud Sites DNS ent
 
 2.  Click on **Hosting > Cloud Sites**.
 
-     <img alt="" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sitessidebar.png" style="width: 138px; height: 172px;" />
+     <img alt="" src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/sitessidebar.png %}" style="width: 138px; height: 172px;" />
 
 3.  Select the domain name for which you want to obtain DNS information.
 
 4.  Click on the **DNS** tab toward the top of your screen.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sitesdnsbar.png" alt="" />
+     <img src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/sitesdnsbar.png %}" alt="" />
 
 5.  Scroll down to the **DNS Management** section within the DNS tab. This area shows all of the DNS entries for. The two entries that you need are the www.domain.com, and the root domain.com as indicated in the following screenshot.
 
-     <img src="http://c766433.r33.cf2.rackcdn.com/arecords.png" alt="" />
+     <img src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/arecords.png %}" alt="" />
 
 6. Replicate these DNS entries to your external DNS provider. The process will differ depending on the service. In the preceding screen shot, you can see **A** and **CNAME**" entries in the **Type** column. Ensure that you at least replicate the **A** entries for the root domain and **www**, although you might also want to set the **ftp** record (the address used to transfer files to the domain). If you are using email through Cloud Sites, you should also set up the **CNAME** entries for **mail** and **webmail**.
 
@@ -43,18 +43,18 @@ You can also edit and update your DNS records through the DNS page of the Cloud 
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1216-4.png" alt="" />
+     <img src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/1216-4.png %}" alt="" />
 
 2.  Select **DNS** from the menu at the top of the page.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1216-1.png" alt="" />
+     <img src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/1216-1.png %}" alt="" />
 
 3.  Click on the domain name for which you want to obtain the DNS information.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1216-2_0.png" alt="" />
+     <img src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/1216-2_0.png %}" alt="" />
 
 4.  On the **Domain Details** page, the DNS entries are located under the **Records** heading. The two entries that you need are the www.example-domain.com and the root example-domain.com, as indicated in the following screenshot.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1216-3.png" alt="" />
+     <img src="{% asset_path cloud-sites/dns-management-how-to-update-your-ip-address/1216-3.png %}" alt="" />
 
 5.  Replicate these DNS entries to your external DNS provider. The process will differ depending on the service. In the DNS records list, you can see **A** and **CNAME** entries in the **Type** column. Ensure that you at least replicate the **A** entries for the root domain and **www**, although you might also want to set the **ftp** record (the address used to transfer files to the domain).

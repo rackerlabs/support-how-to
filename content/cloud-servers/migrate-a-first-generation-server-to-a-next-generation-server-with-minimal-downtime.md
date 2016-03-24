@@ -25,7 +25,7 @@ The load balancer makes a seamless migration from First Gen server to Next Gen s
 
 3. Click **Create Load Balancer**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1941-2_0.png" width="520" height="104" border="1" alt=""  />
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/1941-2_0.png %}" width="520" height="104" border="1" alt=""  />
 
 4. In the Identification section, enter a name and select the same region your server is in for your load balancer.
 
@@ -39,17 +39,17 @@ After you create the load balancer, click on it to view the advanced configurati
 
 **Note:** If you have SSL termination on your server, you will need additional configuration. Enable SSL termination through the load balancer or have two load balancers sharing the same IP to direct HTTP and HTTPS traffic to your server.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-3_8.png" width="555" height="230" border="1" alt=""  />
+<img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-3_8.png %}" width="555" height="230" border="1" alt=""  />
 
 ### Repoint your DNS to the load balancer
 
 1. Go to the Cloud DNS section of the [Cloud Control Panel](https://mycloud.rackspace.com/).
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-DNS-1_1.png" width="506" height="157" border="1" alt=""  />
+    <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-DNS-1_1.png %}" width="506" height="157" border="1" alt=""  />
 
 2. Select the domain that is currently pointing to your First Gen server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-4-New_0.png" width="419" height="418" border="1" alt=""  />
+    <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-4-New_0.png %}" width="419" height="418" border="1" alt=""  />
 
 3. Click the gear next to your A record and select **Modify Record**.
 
@@ -63,13 +63,13 @@ Follow the steps in this section to create an image of the First Gen server that
 
 1. On the Cloud Servers page, click the gear icon next to the First Gen server that you are imaging and select **Create Image**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-5_0.png" width="230" height="329" border="1" alt=""  />
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-5_0.png %}" width="230" height="329" border="1" alt=""  />
 
 2. Enter a name for the image in the **Saved Image Name** field.
 
 3. Choose **Next Generation Cloud Server Image**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-6_0.png" width="246" height="244" border="1" alt=""  /></li>
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-6_0.png %}" width="246" height="244" border="1" alt=""  /></li>
 
 4. Click **Create Image**.
 
@@ -79,15 +79,15 @@ Follow the steps below to create a Next Gen server.
 
 1. On the Cloud Servers page of the Cloud Control Panel, click **Saved Images**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-7_0.png" border="1" alt=""  />
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-7_0.png %}" border="1" alt=""  />
 
 2. Look for the image you just created and select **Create Server with Image**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-8_0.png" border="1" alt=""  />
+    <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-8_0.png %}" border="1" alt=""  />
 
 3. Name your server and choose your preferred flavor.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-9_0.png" width="401" height="324" border="1" alt=""  /></li>
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-9_0.png %}" width="401" height="324" border="1" alt=""  /></li>
 
 4. Click **Create Server** at the bottom of the page.
 
@@ -99,11 +99,11 @@ After the server has been created, you attach it to your load balancer by perfor
 
 2. Select the server that you just created and click **Add Selected Servers**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-11_0.png" width="388" height="287" border="1" alt=""  />
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-11_0.png %}" width="388" height="287" border="1" alt=""  />
 
 3. Click the gear icon next to the First Gen server and select **Remove from Load Balancer**. Click **Remove Node**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-13_0.png" width="315" height="157" border="1" alt=""  />
+   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-13_0.png %}" width="315" height="157" border="1" alt=""  />
 
    **Note:** You can remove the First Gen server by using the Edit Node Condition feature instead. With this option, anyone currently on the server will be unaffected by the transition but will not be allowed to start new connections.
 
@@ -111,7 +111,7 @@ After the server has been created, you attach it to your load balancer by perfor
 
    b. Select **Draining Connections**.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4782-14_1.png" width="308" height="248" border="1" alt=""  /></li>
+      <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-14_1.png %}" width="308" height="248" border="1" alt=""  /></li>
 
    c. Click **Save Condition**.
 

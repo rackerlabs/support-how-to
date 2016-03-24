@@ -34,14 +34,14 @@ differ from the examples.
 
 1.  On the **Home** screen of your device, tap the **Settings** icon.
 
-    <img src="http://c807163.r63.cf2.rackcdn.com/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone1.png" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone1.png %}" width="213" />
 
 2.  In **Settings**, tap **Mail, Contacts, Calendars** &gt; **Add
     Account** &gt; **Microsoft Exchange**.
 
-    <img src="http://c807163.r63.cf2.rackcdn.com/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone2.png" width="213" />
-    <img src="http://c807163.r63.cf2.rackcdn.com/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone3.png" width="213" />
-    <img src="http://c807163.r63.cf2.rackcdn.com/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone4.png" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone2.png %}" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone3.png %}" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/(E&amp;A)SettingUpMicrosoftExchangeEmailIphone4.png %}" width="213" />
 
 3.  On the Exchange setup screen, enter the following information:
 
@@ -54,7 +54,7 @@ differ from the examples.
         example, My Work Account). This description will be visible only
         to you.
 
-    <img src="http://c14989053.r53.cf2.rackcdn.com/1.png" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/1.png %}" width="213" />
 
     **Note:** The device will attempt to verify the account. You
     might receive an `Unable to Verify Certificate` message. If you
@@ -67,13 +67,13 @@ differ from the examples.
     are displayed next to every field. If any field indicates a problem,
     double-check that setting's value.
 
-    <img src="http://c14989053.r53.cf2.rackcdn.com/2.png" width="213" />
-    <img src="http://c14989053.r53.cf2.rackcdn.com/3.png" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/2.png %}" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/3.png %}" width="213" />
 
 5.  Slide the **ON/OFF** buttons to select which information to
     synchronize, and then tap **Save**.
 
-    <img src="http://c14989053.r53.cf2.rackcdn.com/4.png" width="213" />
+    <img src="{% asset_path rackspace-email/set-up-mobile-sync-for-webmail-on-ios-devices/4.png %}" width="213" />
 
     Depending on how much data is on the server, your iPhone might take
     a few minutes to synchronize all of your information.

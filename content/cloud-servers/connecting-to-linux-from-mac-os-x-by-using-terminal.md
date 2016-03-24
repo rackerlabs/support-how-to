@@ -27,7 +27,7 @@ replace *root* in the instructions with your username.
 
 1.  Go to **Applications > Utilities**, and open **Terminal**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1-FindTerm_1_0.png" width="550" />
+    <img src="{% asset_path cloud-servers/connecting-to-linux-from-mac-os-x-by-using-terminal/1-FindTerm_1_0.png %}" width="550" />
 
     A terminal window interface is displayed:
 

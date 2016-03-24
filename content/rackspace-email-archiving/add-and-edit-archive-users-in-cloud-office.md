@@ -80,7 +80,7 @@ Use the following steps to add individual users to the Archive Manager.
 
 6. Under **Permissions,** select the user type for the new user.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4683.1.png" width="644" height="192" />
+   <img src="{% asset_path rackspace-email-archiving/add-and-edit-archive-users-in-cloud-office/4683.1.png %}" width="644" height="192" />
 
 7. Enter additional contact information.
 

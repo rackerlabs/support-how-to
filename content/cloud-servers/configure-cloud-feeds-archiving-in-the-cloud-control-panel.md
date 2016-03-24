@@ -68,7 +68,7 @@ Cloud Feeds provides the following options for storing the archive data:
 
 6.  Click **Save Configuration**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Cloud%20Feeds%20archiving.png" width="497" height="335" />
+    <img src="{% asset_path cloud-servers/configure-cloud-feeds-archiving-in-the-cloud-control-panel/Cloud%20Feeds%20archiving.png %}" width="497" height="335" />
 
 For more information about Cloud Feeds archiving, see [Archiving overview](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/Archiving_Overview.html) in
 the [Rackspace Cloud Feeds Developer Guide](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/overview.html).

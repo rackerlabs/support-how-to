@@ -114,18 +114,18 @@ device. The device must be enabled to receive SMS text messages.
     device, and then type the device phone number. Click **Add
     SMS Device.**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/add-sms-device.png" alt="Add an SMS device to your account so you can set up multi-factor authentication" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/add-sms-device.png %}" alt="Add an SMS device to your account so you can set up multi-factor authentication" />
 
     When you click **Add SMS Device**, the Identity service sends an SMS
     text message with a four-digit PIN to the specified phone.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify_code.png" width="290" height="200" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/verify_code.png %}" width="290" height="200" />
 
 5.  On the Verify Code form in the control panel, type the PIN code sent
     to your mobile device in the verification code field. Then, click
     **Verify Device**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-sms-device.png" alt="Enter the verification code to pair the SMS device with your Rackspace Cloud account" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/verify-sms-device.png %}" alt="Enter the verification code to pair the SMS device with your Rackspace Cloud account" />
 
     After you submit the verification code, the Cloud Control Panel
     login page is displayed so that you can re-authenticate by using the
@@ -153,7 +153,7 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
 4.  On the Name of your Device form, type a **Device nickname** for
     the OTP device. Then, click **Add Device.**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/name-your-otp-device.png" alt="Add an OTP device to your Rackspace Cloud account" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/name-your-otp-device.png %}" alt="Add an OTP device to your Rackspace Cloud account" />
 
     After you click **Add Device**, the Identity service generates a
     barcode that you can use to link your Rackspace Cloud account with
@@ -163,14 +163,14 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
     client application on your device to scan the barcode on the Verify
     Code form.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/scan-barcode.png" alt="Scan barcode by using the OTP application on your device to pair your Rackspace Cloud account with your device." />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/scan-barcode.png %}" alt="Scan barcode by using the OTP application on your device to pair your Rackspace Cloud account with your device." />
 
     After you scan the code, the OTP application on your device creates
     the OTP device using the device name you specified. It also
     generates a passcode.
 
     ![OTP device with generated passcode for use with one-time
-    password authentication.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/OTP-device.png)
+    password authentication.]({% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/OTP-device.png %})
 
 
 6.  To verify the new device, enter the passcode on the Verify
@@ -179,7 +179,7 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
     **Note:** As soon as you submit the verification code, you will be
     logged out.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/otp-verify-device-code.png" alt="Verify new OTP device for multi-factor authentication" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/otp-verify-device-code.png %}" alt="Verify new OTP device for multi-factor authentication" />
 
     **Note:** By default, the new OTP device will be the default method
     for authentication. If you do not want it
@@ -208,7 +208,7 @@ Account Settings page.
 3.  In the Multi-Factor Authentication section, review the default
     authentication method setting.  Click **Edit** to change it.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/default-authentication-method.png" alt="Change default authentication method." />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/default-authentication-method.png %}" alt="Change default authentication method." />
 
 ### Configure account-wide multi-factor authentication settings from an Administrator account
 
@@ -232,7 +232,7 @@ authentication**
     selection to set the policy for account users. Then, click **Save
     Setting** to apply the change.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa-required-setting_0.png" alt="Update the account-wide multi-factor authentication enforcement setting." width="550" height="118" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/mfa-required-setting_0.png %}" alt="Update the account-wide multi-factor authentication enforcement setting." width="550" height="118" />
 
     If you update the setting to required, users who do not have
     multi-factor authentication configured must add it the next time
@@ -240,7 +240,7 @@ authentication**
     authentication are logged out after seeing an error message like the
     following one:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa-force-logout.png" alt="Force user to log out when mulit-factor authentication requirement is not met." width="513" height="112" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/mfa-force-logout.png %}" alt="Force user to log out when mulit-factor authentication requirement is not met." width="513" height="112" />
 
     When these users log back in, they are guided through the
     multi-factor authentication set up.
@@ -251,7 +251,7 @@ If your account is not configured for multi-factor authentication when
 it is required, you are notified about the increase in security
 requirements and prompted to set up authentication.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa-setup-required.png" height="212" />
+<img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/mfa-setup-required.png %}" height="212" />
 
 To access your account, click **Set Up Multi-Factor Authentication.**
 Then, follow the steps to register and verify a
@@ -274,14 +274,14 @@ To log in to the Rackspace Cloud with multi-factor authentication
 1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/) with
     your user name and password.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control_panel_login.png" width="362" height="206" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/control_panel_login.png %}" width="362" height="206" />
 
     If you account is configured to use multi-factor authentication with
     an SMS device, the Rackspace Cloud Identity service sends an SMS
     text message with a 7-digit passcode to the device registered to
     your account.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mfa_passcode.png" width="366" height="207" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/mfa_passcode.png %}" width="366" height="207" />
 
     If your device is configured to use multi-factor authentication by
     OTP device, open the OTP client application and get the passcode
@@ -293,7 +293,7 @@ To log in to the Rackspace Cloud with multi-factor authentication
     control panel. Then, click **Verify Code** to log in to your
     account:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/enter_mfa_passcode.png" width="439" height="250" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/enter_mfa_passcode.png %}" width="439" height="250" />
 
     If the passcode is expired or invalid, refresh the page to return to
     the Rackspace Cloud Control Panel login page. Then, log in again and
@@ -306,7 +306,7 @@ To log in to the Rackspace Cloud with multi-factor authentication
 authentication configuration from the Account Settings menu in the cloud
 control panel.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/account-settings-mfa.png" alt="Rackspace Cloud Account multi-factor authentication settings" />
+<img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/account-settings-mfa.png %}" alt="Rackspace Cloud Account multi-factor authentication settings" />
 
 **To view multi-factor authentication settings**
 
@@ -325,7 +325,7 @@ You can verify your SMS or OTP device from the Account Settings page.
 -   If you have an OTP device that has not been verified, use the Manage
     option to complete the verification process.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-device-options.png" alt="Verify multi-factor authentication device options" />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/verify-device-options.png %}" alt="Verify multi-factor authentication device options" />
 
 **To recover an account**
 
@@ -342,7 +342,7 @@ the bypass codes as soon as you enable multi-factor authentication.
 
 2.  In the Login Details section, click **Generate Recovery Codes**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/generate-recovery-codes.png" alt="Generate recovery codes." />
+    <img src="{% asset_path cloud-servers/multi-factor-authentication-from-the-cloud-control-panel/generate-recovery-codes.png %}" alt="Generate recovery codes." />
 
 3.  In the Quantity field, select the number of codes to generate or
     accept the default value.

@@ -30,7 +30,7 @@ with most browsers.
 Log in to OWA for Exchange 2010 at
 [https://connect.emailsrvr.com](https://connect.emailsrvr.com).
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/2.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/2.png %}" alt="" />
 
 After login, OWA offers these options:
 
@@ -83,7 +83,7 @@ manage email accounts. While in the **Webmail** interface, select
 **Settings** in the top right hand corner to see a list of features and
 options:
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/OWA1.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/OWA1.png %}" alt="" />
 
 **Account: My Account**
 
@@ -97,7 +97,7 @@ options:
     configuration tool to set up your Outlook
     email client.
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/OWA2.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/OWA2.png %}" alt="" />
 
 **Organize Email: Inbox Rules**
 
@@ -119,7 +119,7 @@ options:
     or received. You can narrow the search to messages with certain
     keywords in the subject.
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/OWA3.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/OWA3.png %}" alt="" />
 
 **Settings: Mail**
 
@@ -169,7 +169,7 @@ options:
 -   Regional Settings - Set your
     preferred language, time, and current time zone.
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/OWA4.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/OWA4.png %}" alt="" />
 
 **Phone: Mobile Phones**
 
@@ -184,7 +184,7 @@ options:
     notifications to your mobile device for calendar events and
     inbox rules.
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/OWA5.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/OWA5.png %}" alt="" />
 
 **Block or Allow**
 
@@ -202,7 +202,7 @@ compatible with Internet Explorer 7 and later releases.
 A light version is available for
 alternative browsers.
 
-<img src="http://c15048056.r56.cf2.rackcdn.com/OWA.png" alt="" />
+<img src="{% asset_path exchange/outlook-web-access-owa-for-exchange/OWA.png %}" alt="" />
 
 After login, OWA offers these options:
 

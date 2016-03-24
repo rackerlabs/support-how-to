@@ -42,15 +42,15 @@ prevent errors.
 Confirm in the Control Panel how the volume is presented to the cloud
 server.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_location3_0.png" width="764" height="490" />
+<img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/cbs_location3_0.png %}" width="764" height="490" />
 
 At your server, use the **df -h** command to see how it is mounted.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/mount_point.png" width="571" height="122" />
+<img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/mount_point.png %}" width="571" height="122" />
 
 Use the value under **Mounted On** in the unmount command.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fstab2_0.png" width="883" height="328" />
+<img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/fstab2_0.png %}" width="883" height="328" />
 
 Also, comment out second line (highlighted above) in **/etc/fstab** to
 prevent the volume from trying to mount on the next boot.
@@ -72,7 +72,7 @@ The output is the prompt ready for the next command.
     Storage volume. Select **Take Offline** from the pop-up menu. If the
     **Take Disk Offline** warning window displays, click **Yes**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win_bringoffline_0.jpeg" width="644" height="318" />
+    <img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/win_bringoffline_0.jpeg %}" width="644" height="318" />
 
 The Cloud Block Storage volume no longer displays as a drive under
 **Computer**.
@@ -84,12 +84,12 @@ The Cloud Block Storage volume no longer displays as a drive under
 In the Rackspace Cloud Control Panel, click **Block Storage** in the
 Servers sub-navigation to display the **Block Storage Volumes** screen.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_detachvolume_0.jpeg" width="681" height="185" />
+<img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/cbs_detachvolume_0.jpeg %}" width="681" height="185" />
 
 Click the Actions button (the cog) next to the volume name. Click the
 **Detach Volume** link.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_detachvolume2_0.jpeg" width="407" height="248" />
+<img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/cbs_detachvolume2_0.jpeg %}" width="407" height="248" />
 
 Click the **Detach Volume** button.
 
@@ -104,7 +104,7 @@ The volume detaches.
 In the Rackspace Cloud Control Panel, click **Block Storage** in the
 Servers sub-navigation to display the **Block Storage Volumes** screen.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs_detachvolume3.jpeg" width="681" height="185" />
+<img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/cbs_detachvolume3.jpeg %}" width="681" height="185" />
 
 Click the Actions button (the cog) next to the volume name. Click the
 **Delete Volume** link.

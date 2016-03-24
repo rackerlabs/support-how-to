@@ -31,16 +31,16 @@ Folder that you will be migrating.
 
 2. Click **File &gt; Open &gt; Import**
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_export_pic1.png" width="625" height="451" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_export_pic1.png %}" width="625" height="451" />
 
 3. The first dialog of the Import and Export wizard will appear.  Select
    **Export to a file &gt; Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_export_pic2.png" width="436" height="329" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_export_pic2.png %}" width="436" height="329" />
 
 4. In the next wizard dialog, Select **Outlook Data File (pst) &gt; Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_export_pic3.png" width="439" height="327" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_export_pic3.png %}" width="439" height="327" />
 
 5. The **Export Outlook Data File** box will appear.  
 
@@ -48,16 +48,16 @@ Folder that you will be migrating.
    Public Folders, scroll down to select the public folders from the list
    (see the example below). Select **Include Subfolders &gt; Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_export_pic4png.jpg" width="438" height="315" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_export_pic4png.jpg %}" width="438" height="315" />
 
 6. Browse to the location where you would like to save the file.
    Click **Finish**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_export_pic5png.png" width="435" height="316" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_export_pic5png.png %}" width="435" height="316" />
 
 7. A password is not required and may be left blank. Click **OK.**
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_export_pic6png.png" width="301" height="156" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_export_pic6png.png %}" width="301" height="156" />
 
 
 ### Import .PST into Public Folder
@@ -66,38 +66,38 @@ Folder that you will be migrating.
 
 2. Click **File &gt; Open &gt; Open Outlook Data File**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic7png.png" width="569" height="404" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic7png.png %}" width="569" height="404" />
 
 3. You will not see the file listed in the Outlook folder tree.  
    Expand the Outlook folder tree
    and select the folder in question.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic8png.jpg" width="205" height="482" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic8png.jpg %}" width="205" height="482" />
 
    **Note:** If you don't see it, make sure that Folder View is enabled.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic9.png" width="231" height="170" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic9.png %}" width="231" height="170" />
 
 4. Expand the current public folders: **All Public Folders &gt;
    Root \#\#\# &gt; Domain.com.**
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic10_0.jpg" width="212" height="367" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic10_0.jpg %}" width="212" height="367" />
 
 5. Right-click on the domain.com public folder and select **New
    Folder.**
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic11.jpg" width="268" height="486" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic11.jpg %}" width="268" height="486" />
 
 6. Enter the name of the folder and select the **Folder Contains** drop
    down to select the folder type.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic13.jpg" width="316" height="354" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic13.jpg %}" width="316" height="354" />
 
 7. Select all items from the .pst file (simultaneously hold CTRL and
    A); drag and drop the items to the Public Folder. You may also copy and paste
    them if you prefer.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Outlook_2010_-_import_pic12.jpg" width="582" height="479" />
+   <img src="{% asset_path exchange/migrating-public-folder-data/Outlook_2010_-_import_pic12.jpg %}" width="582" height="479" />
 
 8. Allow some time for the newly imported emails to upload to the
    server. At this point, the migration process is complete.  

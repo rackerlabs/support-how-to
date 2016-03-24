@@ -95,13 +95,13 @@ connecting.
 3.  Open PuTTY and go to the **SSH > Auth** section.
 4.  Browse to the location of the key file and load the private key.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/PuTTY_Configuration3.png" width="463" height="439" />
+    <img src="{% asset_path cloud-servers/generating-rsa-keys-with-ssh-puttygen/PuTTY_Configuration3.png %}" width="463" height="439" />
 
 5.  To make PuTTY use the key every time that you connect to your Cloud
     Server, save the configuration by going to the Session page and
     saving the session.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/PuTTY_Configuration4.png" width="463" height="439" />
+    <img src="{% asset_path cloud-servers/generating-rsa-keys-with-ssh-puttygen/PuTTY_Configuration4.png %}" width="463" height="439" />
 
 After you save your session, your key is loaded automatically when you
 connect to your Cloud Server.

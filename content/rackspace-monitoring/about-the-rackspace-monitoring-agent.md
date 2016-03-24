@@ -53,7 +53,7 @@ Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/
 You can view the host statistics of a Cloud Server provided by the agent
 on the Server Details page of the Cloud Control Panel:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ServerDetails_1.png" width="569" height="416" />
+<img src="{% asset_path rackspace-monitoring/about-the-rackspace-monitoring-agent/ServerDetails_1.png %}" width="569" height="416" />
 
 ### Related Information
 

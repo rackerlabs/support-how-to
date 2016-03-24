@@ -40,9 +40,9 @@ interface to visualize the status of that server.
 
 The Cloud Control Panel lists your cloud servers.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-login-mycloud-login_0.png" width="964" height="559" />
+<img src="{% asset_path rackspace-intelligence/logging-in-to-the-rackspace-intelligence-dashboard/intelligence-login-mycloud-login_0.png %}" width="964" height="559" />
 
 The Rackspace Intelligence dashboard lists information about your
 monitored entities.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-dashboard-overview_1.png" width="960" height="474" />
+<img src="{% asset_path rackspace-intelligence/logging-in-to-the-rackspace-intelligence-dashboard/intelligence-dashboard-overview_1.png %}" width="960" height="474" />

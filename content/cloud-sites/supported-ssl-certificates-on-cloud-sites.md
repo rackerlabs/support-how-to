@@ -38,7 +38,7 @@ visit https://www.sslshopper.com/certificate-decoder.html and enter the
 certificate. The information is displayed as shown in the following
 example:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cert_info.png" alt="" />
+<img src="{% asset_path cloud-sites/supported-ssl-certificates-on-cloud-sites/cert_info.png %}" alt="" />
 
 After installation you must point the DNS records of any domains in the
 **Subject Alternative Names** field to the IP address provided for the

@@ -68,7 +68,7 @@ MySQL 5.6. See the following links for more information:
 7.  Click on the newly created database to display the hostname
     information, which you will need in Step 3.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/db_info.png" alt="" />
+    <img src="{% asset_path cloud-sites/migrate-a-mysql-51-database-to-mariadb-10-on-cloud-sites/db_info.png %}" alt="" />
 
 #### Step 2: Put your site into maintenance mode and export your current database
 

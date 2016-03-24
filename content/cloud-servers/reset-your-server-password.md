@@ -36,11 +36,11 @@ change the password.
 
 3. Under "Manage", click **Change Password**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CCP-change-password.png" alt="" />
+  <img src="{% asset_path cloud-servers/reset-your-server-password/CCP-change-password.png %}" alt="" />
 
 4. Enter the new password and click **Save Password**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CCP-input-new-password.png" alt="" />
+  <img src="{% asset_path cloud-servers/reset-your-server-password/CCP-input-new-password.png %}" alt="" />
 
 After you enter the new password, your server will reboot and the new
 password will be set.

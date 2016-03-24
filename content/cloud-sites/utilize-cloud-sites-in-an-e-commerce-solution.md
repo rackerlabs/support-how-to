@@ -21,7 +21,7 @@ designed for the storage or archival of any credit card related
 information, all credit card information must be handled on the payment
 gateway.
 
-<img src="http://c691243.r43.cf2.rackcdn.com/sitesecommerce.png" alt="" />
+<img src="{% asset_path cloud-sites/utilize-cloud-sites-in-an-e-commerce-solution/sitesecommerce.png %}" alt="" />
 
 In the Cloud Sites infrastructure you can have the entire e-commerce
 environment up until the point the customer provides credit card
@@ -51,7 +51,7 @@ transaction, return status of the payment request.
 Following is an example proves flow that shows where the hand-off occurs
 between the e-commerce site and the payment gateway provider:
 
-<img src="http://c691243.r43.cf2.rackcdn.com/sampleconfig.png" alt="" />
+<img src="{% asset_path cloud-sites/utilize-cloud-sites-in-an-e-commerce-solution/sampleconfig.png %}" alt="" />
 
 ### Cloud Sites vulnerability scan policy
 

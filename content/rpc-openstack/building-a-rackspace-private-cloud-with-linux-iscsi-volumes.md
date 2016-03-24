@@ -23,7 +23,7 @@ compute servers and two storage servers to maintain resiliency and availability.
 
 #### Cinder software architecture
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cinder-refarch-sims.png" class="image-full_width" width="700" height="624" />
+<img src="{% asset_path rpc-openstack/building-a-rackspace-private-cloud-with-linux-iscsi-volumes/cinder-refarch-sims.png %}" class="image-full_width" width="700" height="624" />
 
 **Figure 1: The Cinder Architecture provides horizontally scaling volume
 servers to serve block device volumes to guest instances**
@@ -33,7 +33,7 @@ instances and attaching volumes to them. KVM presents the iSCSI luns that are ex
 
 ### Reference architecture: Mass compute with external storage
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202013-03-27%20at%2012.08.10%20PM.png" width="741" height="839" />
+<img src="{% asset_path rpc-openstack/building-a-rackspace-private-cloud-with-linux-iscsi-volumes/Screen%20Shot%202013-03-27%20at%2012.08.10%20PM.png %}" width="741" height="839" />
 
 **Figure 2: The Mass Compute with
 External Storage reference architecture provides scaling compute and

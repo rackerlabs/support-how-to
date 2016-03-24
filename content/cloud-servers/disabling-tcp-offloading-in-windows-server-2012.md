@@ -31,14 +31,14 @@ cooperative efforts.
 1.  In the Windows server, open the Control Panel and select **Network
     Settings > Change Adapter Settings**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TCPOffloading8.png" width="413" height="458" />
+    <img src="{% asset_path cloud-servers/disabling-tcp-offloading-in-windows-server-2012/TCPOffloading8.png %}" width="413" height="458" />
 
 2.  Right-click on each of the adapters (**private** and **public**),
     select **Configure** from the **Networking** menu, and then click
     the **Advanced** tab. The TCP offload settings are listed for the
     Citrix adapter.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TCPOffloading9.png" width="410" height="459" />
+    <img src="{% asset_path cloud-servers/disabling-tcp-offloading-in-windows-server-2012/TCPOffloading9.png %}" width="410" height="459" />
 
 3.  Disable each of the following TCP offload options, and then click
     **OK**:

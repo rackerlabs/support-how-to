@@ -27,12 +27,12 @@ Mac**.
 
 3. Select **Exchange** and then click **Continue.**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM071.png" width="441" height="451" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/MM071.png %}" width="441" height="451" />
 
 4. On the next page, enter your full name and your entire Microsoft
    Exchange email address and password. Then click **Continue**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM072.png" width="434" height="374" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/MM072.png %}" width="434" height="374" />
 
     -   If your Autodiscover CNAME record is set correctly, Mail
         automatically pulls the correct server settings for you.
@@ -61,15 +61,15 @@ Mac**.
     -   **Server Address** - From the **Setting Up Mac Mail** window (from
         Step 6), remove **https://** and **/ews/exchange.asmx**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM073.png" width="412" height="352" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/MM073.png %}" width="412" height="352" />
 
 8.  Confirm the settings and then click **Continue**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM074.png" width="422" height="361" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/MM074.png %}" width="422" height="361" />
 
 9.  Choose any other options that you want to enable, and then click
     **Done**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM075.png" width="407" height="342" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/MM075.png %}" width="407" height="342" />
 
 Your Microsoft Exchange 2007 email account is now set up with Mac Mail.

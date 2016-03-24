@@ -24,20 +24,20 @@ screens on other iOS devices will differ, the process is the same.
 1. On the home screen of your device, tap **Settings &gt;** **Mail,
    Contacts, Calendars** &gt; **Add Account**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.PNG" width="256" height="454" />
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.PNG" width="256" height="454" />
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.PNG" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/1.PNG %}" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/2.PNG %}" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/3.PNG %}" width="256" height="454" />
 
 2. Tap **Exchange** and enter your email address , password, and an
    optional description. Tap **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.PNG" width="256" height="454" />
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.PNG" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/4.PNG %}" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/5.PNG %}" width="256" height="454" />
 
 3. Make your selections and tap **Save**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6.PNG" width="256" height="454" />
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7.PNG" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/6.PNG %}" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/7.PNG %}" width="256" height="454" />
 
    **Note:** If autodiscovery is not configured on your domain, the device
    displays the server settings page. Perform the following steps to
@@ -47,12 +47,12 @@ screens on other iOS devices will differ, the process is the same.
    **mex06.emailsrvr.com**. Leave the **Domain** field blank.
    Then click **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.PNG" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/8.PNG %}" width="256" height="454" />
 
 5. Select the services that you want to synchronize from the Exchange
    server. Then tap **Save**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7.PNG" width="256" height="454" />
+   <img src="{% asset_path exchange/manually-configure-ios-devices-for-email-hosted-on-exchange-2013/7.PNG %}" width="256" height="454" />
 
 You have successfully added your Exchange email account on your iOS
 device.

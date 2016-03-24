@@ -54,7 +54,7 @@ not through the MyRackspace Portal).
 
 The following graphic illustrates this scenario.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MyRack%20BEST%20Diagram.png" width="652" height="751" />
+<img src="{% asset_path managed-operations/using-rbac-with-myrackspace/MyRack%20BEST%20Diagram.png %}" width="652" height="751" />
 
 [&lt; Managing
 RBAC](/how-to/managing-role-based-access-control-rbac)

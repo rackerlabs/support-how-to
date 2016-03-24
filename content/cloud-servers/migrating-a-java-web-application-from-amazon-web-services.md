@@ -25,7 +25,7 @@ available at
 The topology of the application in this scenario is represented in the
 following figure:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3588-1.png" width="607" height="171" />
+<img src="{% asset_path cloud-servers/migrating-a-java-web-application-from-amazon-web-services/3588-1.png %}" width="607" height="171" />
 
 ### Prerequisites
 

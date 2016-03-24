@@ -18,11 +18,11 @@ product_url: cloud-sites
 2. To view information, click on a database or table in the left frame
    as shown in the following figure:
 
-   <img src="http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-dbs.png" alt="" />
+   <img src="{% asset_path cloud-sites/backup-your-mysql-database-with-phpmyadmin/phpmyadmin-dbs.png %}" alt="" />
 
 3. To export the database to a backup file, click **Export**:
 
-   <img src="http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-export.png" alt="phpMyAdmin Export tab" />
+   <img src="{% asset_path cloud-sites/backup-your-mysql-database-with-phpmyadmin/phpmyadmin-export.png %}" alt="phpMyAdmin Export tab" />
 
 4. To save the backup file to your system, click **Save as
    file**.
@@ -31,7 +31,7 @@ product_url: cloud-sites
    compression method, or use the defaults. Compression reduces the size of the backup file.
    The recommended compression method is *gzipped*:
 
-   <img src="http://c5018549.r49.cf2.rackcdn.com/phpmyadmin-saveasfile.png" alt="" />
+   <img src="{% asset_path cloud-sites/backup-your-mysql-database-with-phpmyadmin/phpmyadmin-saveasfile.png %}" alt="" />
 
 5. To start the backup process, click **Go**.
 

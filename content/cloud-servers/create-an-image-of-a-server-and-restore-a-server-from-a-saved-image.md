@@ -38,7 +38,7 @@ This article guides you through the process of creating an image of a cloud serv
 
 4. After the Server Information page loads, click **Actions** and select **Create Image**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-12%20at%205.25.09%20AM.png" width="160" height="364" border="2" alt=""  />
+    <img src="{% asset_path cloud-servers/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/Screen%20Shot%202015-01-12%20at%205.25.09%20AM.png %}" width="160" height="364" border="2" alt=""  />
 
 5. Enter a name for the image, and click **Create Image**.
 
@@ -68,7 +68,7 @@ After the image is saved, it appears in the Images section of the Server Informa
 
 8. When presented with your root admin password, copy the password to a secure location and then click **Dismiss Password**.
 
-	<img alt="" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1405-7.png" border="2" />
+	<img alt="" src="{% asset_path cloud-servers/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/1405-7.png %}" border="2" />
 
 While your server goes through the build process, a Building notification is displayed.
 

@@ -26,7 +26,7 @@ URL you need to use to create your CNAME record.
 information is displayed under the drop down menu in the following
 figure. To get pricing information, click the dollar sign ($) icon.)
 
-<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-15%20at%201.29.00%20PM.png" width="391" height="192" />
+<img src="{% asset_path rackspace-cdn/create-a-rackspace-cdn-service/Screen%20Shot%202015-12-15%20at%201.29.00%20PM.png %}" width="391" height="192" />
 
 
 2\. Enter the following information to create your service:
@@ -63,7 +63,7 @@ certificate:
     Rackspace CDN.
 -   Rackspace CDN shows the completed status in the Control Panel.
 
-<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-16%20at%201.34.40%20PM.png" width="553" height="210" />
+<img src="{% asset_path rackspace-cdn/create-a-rackspace-cdn-service/Screen%20Shot%202015-12-16%20at%201.34.40%20PM.png %}" width="553" height="210" />
 
 -   **Domain Name**: This is the domain name through which visitors
     receive content. The domain name must have a subdomain in it, for
@@ -107,12 +107,12 @@ statement similar to the following one:
 
 The response should be `HTTP/1.1 200 OK`.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-07-14%20at%203.54.30%20PM.png" width="552" height="528" />
+<img src="{% asset_path rackspace-cdn/create-a-rackspace-cdn-service/Screen%20Shot%202015-07-14%20at%203.54.30%20PM.png %}" width="552" height="528" />
 
 4\.  Click **Close** to close this box and open a page with all the
 details about the new service.
 
-<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-16%20at%201.43.03%20PM.png" width="667" height="845" />
+<img src="{% asset_path rackspace-cdn/create-a-rackspace-cdn-service/Screen%20Shot%202015-12-16%20at%201.43.03%20PM.png %}" width="667" height="845" />
 
 On this page, [add and manage your
 domains](/how-to/add-and-manage-domains-in-rackspace-cdn)

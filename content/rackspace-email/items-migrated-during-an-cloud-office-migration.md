@@ -19,7 +19,7 @@ to, the items that are migrated by MigrationWiz might differ.
 
 The following table shows which items are automatically migrated by the tool.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WhatWeMigrate%20copy.png" width="681" height="626" />
+<img src="{% asset_path rackspace-email/items-migrated-during-an-cloud-office-migration/WhatWeMigrate%20copy.png %}" width="681" height="626" />
 
 ### Items that are not migrated
 

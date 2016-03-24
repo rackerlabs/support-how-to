@@ -22,7 +22,7 @@ that you want to delete and select **Delete Service**.
 3\. In the popup dialog box, note the warning and then click **Delete
 Service**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DeleteService.png" width="500" height="109" />
+<img src="{% asset_path rackspace-cdn/delete-a-rackspace-cdn-service/DeleteService.png %}" width="500" height="109" />
 
 
 

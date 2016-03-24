@@ -73,11 +73,11 @@ You can also double-click on the MSI in order to start the interactive
 installation process. Follow the wizard instructions to complete the
 installation and configuration.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/install-1.png" width="338" height="266" />
+<img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-1.png %}" width="338" height="266" />
 
 1.  Read and accept the terms of the End-User License Agreement.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/install-2.png" width="340" height="267" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-2.png %}" width="340" height="267" />
 
 2.  Start the Client Registration process by selecting API Key or
     Password option of registration. (For information about viewing your
@@ -92,7 +92,7 @@ installation and configuration.
     Enter the User ID and the API Key or Password, depending on which
     option you choose. Click **Next**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/install-3.png" width="340" height="267" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-3.png %}" width="340" height="267" />
 
 3.  Select the Datacenter and Flavor for your server. If you are not
     sure which data center or flavor to select, accept the option that
@@ -101,13 +101,13 @@ installation and configuration.
     In this case, for instance, you would need to look up the datacenter
     for that server (typically IAD). Click **Next**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/install-5.png" width="340" height="267" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-5.png %}" width="340" height="267" />
 
     The installation process will continue.
 
 4.  Click **OK** when you see the **SUCCESS!** message.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/install-6.png" width="337" height="266" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-6.png %}" width="337" height="266" />
 
 5.  Click **Finish** to complete the interactive installation.
 

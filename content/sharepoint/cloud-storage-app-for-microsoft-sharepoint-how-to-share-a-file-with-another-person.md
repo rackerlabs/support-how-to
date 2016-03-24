@@ -24,12 +24,12 @@ functionality.
 
 1.  Within the app, navigate to a container.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Share%20Icon.jpg" width="447" height="190" />
+    <img src="{% asset_path sharepoint/cloud-storage-app-for-microsoft-sharepoint-how-to-share-a-file-with-another-person/Fig%20--%20Share%20Icon.jpg %}" width="447" height="190" />
 
 2.  Click the share icon on the far right of one of the files in
     the container.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Share%20Dialog.jpg" width="448" height="212" />
+    <img src="{% asset_path sharepoint/cloud-storage-app-for-microsoft-sharepoint-how-to-share-a-file-with-another-person/Fig%20--%20Share%20Dialog.jpg %}" width="448" height="212" />
 
 3.  Enter the number of days that you want the link to be active, and
     click **Get Link**. The link is active until the date shown in the

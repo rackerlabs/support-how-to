@@ -18,7 +18,7 @@ You can access Rackspace CDN in the following ways:
     **Storage** in the top navigation bar and select **CDN**, as shown
     in the following image.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/AccessCDN_New_0.png" width="353" height="342" />
+    <img src="{% asset_path rackspace-cdn/access-rackspace-cdn/AccessCDN_New_0.png %}" width="353" height="342" />
 
 -   You can also access Rackspace CDN under **Networking** in the top
     navigation bar.

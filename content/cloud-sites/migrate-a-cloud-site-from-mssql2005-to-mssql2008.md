@@ -52,7 +52,7 @@ product_url: cloud-sites
     under the "Features" tab of the domain your MSSQL2005 database is
     on.
 
-    <img src="http://c0476992.cdn.cloudfiles.rackspacecloud.com/createdb1.JPG" alt="createdb1.JPG" />
+    <img src="{% asset_path cloud-sites/migrate-a-cloud-site-from-mssql2005-to-mssql2008/createdb1.JPG %}" alt="createdb1.JPG" />
 
 2.  After the database has been created, please view its properties (as
     shown below) and note the change in the hostname. **You will
@@ -61,7 +61,7 @@ product_url: cloud-sites
     database will vary from the image depending on what data center your
     account is hosted in.
 
-    <img src="http://c0476992.cdn.cloudfiles.rackspacecloud.com/dbinfo.JPG" alt="dbinfo.JPG" />
+    <img src="{% asset_path cloud-sites/migrate-a-cloud-site-from-mssql2005-to-mssql2008/dbinfo.JPG %}" alt="dbinfo.JPG" />
 
 3.  Next use the web based admin tool, MyLittleAdmin, to back up your
     MSSQL 2005 database. The link for the online tool can be found in
@@ -73,12 +73,12 @@ product_url: cloud-sites
     session issues between the two MyLittleAdmin versions. For example:
     `https://mssqladmin.websitesettings.com/mlb`
 
-    <img src="http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb1.JPG" alt="mlb1.JPG" />
+    <img src="{% asset_path cloud-sites/migrate-a-cloud-site-from-mssql2005-to-mssql2008/mlb1.JPG %}" alt="mlb1.JPG" />
 
 4.  Login to your original MSSQL 2005 source
     database.
 
-    <img src="http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb2.JPG" alt="mlb2.JPG" />
+    <img src="{% asset_path cloud-sites/migrate-a-cloud-site-from-mssql2005-to-mssql2008/mlb2.JPG %}" alt="mlb2.JPG" />
 
 5.  Now back up your MSSQL 2005 database use the MyLittleAdmin tool.
     When the backup has completed click on the file link to save the
@@ -89,7 +89,7 @@ product_url: cloud-sites
     backup file you just downloaded in Step 5. Proceed with the
     restore.
 
-    <img src="http://c0476992.cdn.cloudfiles.rackspacecloud.com/mlb3.JPG" alt="mlb3.JPG" />
+    <img src="{% asset_path cloud-sites/migrate-a-cloud-site-from-mssql2005-to-mssql2008/mlb3.JPG %}" alt="mlb3.JPG" />
 
 7.  The restore tool may notify you that the old users have no login
     mapping on the new SQL 2008 cluster. At this point your new database

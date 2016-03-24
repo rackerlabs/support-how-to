@@ -30,12 +30,12 @@ scheduling the creation of server images.
 3.  Click the **Actions** cog to the left of the server name and
     select **Create Image**. A pop-up appears so you can name the image.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreateImage.png" width="175" height="386" />
+    <img src="{% asset_path cloud-servers/create-an-image-of-a-general-purpose-v1-cloud-server/CreateImage.png %}" width="175" height="386" />
 
 4.  (Optional) Enter a new image name in the pop-up for the image. If
     you don't enter a name, the server name is used as the image name.
 
-    <img src="http://c691244.r44.cf2.rackcdn.com/On-Demand%20Image.png" alt="Create Image" />
+    <img src="{% asset_path cloud-servers/create-an-image-of-a-general-purpose-v1-cloud-server/On-Demand%20Image.png %}" alt="Create Image" />
 
 5.  Click **Create Image**.
 
@@ -48,7 +48,7 @@ or to restore the server.
 Alternatively you can create an on-demand image using
 the **Actions** menu from the details page of a specific server:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ImageMenu2.png" width="546" height="309" />
+<img src="{% asset_path cloud-servers/create-an-image-of-a-general-purpose-v1-cloud-server/ImageMenu2.png %}" width="546" height="309" />
 
 ### Locate a Saved Image
 

@@ -59,7 +59,7 @@ following articles:
 **Note:** For this specific installation, we do not recommend the use of
 the one-click installer.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_DB_configuration.PNG" alt="" />
+<img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_DB_configuration.PNG %}" alt="" />
 
 ### Configure WordPress
 
@@ -70,7 +70,7 @@ the **WordPress Address** (**URL**) value to use
 **http://*yourDomain***. Remove the **www** from the URL if it's not
 already set this way. For example: **http://example.com**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_url_configuration.PNG" alt="" />
+<img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_url_configuration.PNG %}" alt="" />
 
 #### Allow WordPress Multisite in wp-config.php
 
@@ -86,7 +86,7 @@ already set this way. For example: **http://example.com**.
 1.  In WordPress, go to the admin area, click the **Tools** menu, and
     then click **Network Setup**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_networksetup_menu.PNG" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_networksetup_menu.PNG %}" alt="" />
 
     **Note:** If you are unable to see the Network Setup option, ensure
     that the **wp-config.php** file has been set to allow WordPress
@@ -102,7 +102,7 @@ already set this way. For example: **http://example.com**.
         Title** and **Network Admin Email** address.
     c.  Click **Install**.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_networksetup_0.PNG" alt="" />
+      <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_networksetup_0.PNG %}" alt="" />
 
 #### Establish the network
 
@@ -170,7 +170,7 @@ the WordPress MU Domain Mapping plug-in, as follows:
 
 1.  Go to **My Sites > Network Admin > Plugins**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/wpmu-menuhighlighted.png" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/wpmu-menuhighlighted.png %}" alt="" />
 
 2.  Click the **Add New** button.
 
@@ -178,7 +178,7 @@ the WordPress MU Domain Mapping plug-in, as follows:
 
 4.  Click **Install Now**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_MultidomainPluginInstall.PNG" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_MultidomainPluginInstall.PNG %}" alt="" />
 
 5.  Activate the plug-in by clicking **Network Activate**.
 
@@ -205,7 +205,7 @@ the WordPress MU Domain Mapping plug-in, as follows:
 5.  Under **Domain Options**, select check boxes 2 and 3 only (ensure
     that the other check boxes are clear), and then click **Save**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dmapping-settings_0.png" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/dmapping-settings_0.png %}" alt="" />
 
 ### Add sites to the WordPress network
 
@@ -219,12 +219,12 @@ similar to
 1.  In the WordPress Administration console, click **My Sites > Network Admin > Sites**.
 2.  Click **Add New**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_SiteConfiguration.PNG" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_SiteConfiguration.PNG %}" alt="" />
 
 3.  Enter the information for the site that you want to add to
     the network.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_addnewsite.PNG" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_addnewsite.PNG %}" alt="" />
 
 4.  Click **Add Site**.
 
@@ -235,7 +235,7 @@ similar to
 7.  Note the number that follows after **?id=**. This is the site's
     **ID** number, and you will need it in the next steps.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_siteidURL.PNG" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_siteidURL.PNG %}" alt="" />
 
 8.  In the navigation pane, click on **Settings > Domains**.
 
@@ -244,7 +244,7 @@ similar to
 
 10. Clear the **Primary** check box.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WP_NewDomainID.PNG" alt="" />
+    <img src="{% asset_path cloud-sites/set-up-wordpress-multisite-with-cloud-sites/WP_NewDomainID.PNG %}" alt="" />
 
 11. Click **Save**.
 

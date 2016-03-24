@@ -16,25 +16,25 @@ This article helps you set up your signature, which can include your title, phon
 1. Log in to your Webmail account by going to [apps.rackspace.com](http://apps.rackspace.com).
 2. In the upper-right side next to your username, click the drop-down to access the **Settings** menu.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/WebmailSettings.png" width="703" height="81" />
+    <img src="{% asset_path rackspace-email/adding-a-signature-to-rackspace-email/WebmailSettings.png %}" width="703" height="81" />
 
 3. In the left pane, click **Composing Email** and then click the **Signatures** tab.
 4. Click **Add New Signature**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/AddNewSig.png" width="613" height="509" />
+    <img src="{% asset_path rackspace-email/adding-a-signature-to-rackspace-email/AddNewSig.png %}" width="613" height="509" />
 
 5. In the **Add New Signature** dialog box, enter a descriptive name for your signature. In the **Edit Signature** area, enter the text for your
 signature. You can use plain text, HTML, or rich text with the formatting options available in the editor (for example, bold, italics, and colored
 text).
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TestSig.png" width="613" height="409" />
+    <img src="{% asset_path rackspace-email/adding-a-signature-to-rackspace-email/TestSig.png %}" width="613" height="409" />
 
     **Note:** If you switch to plain text, you lose any HTML formatting that you have applied.
 
 6. Select **OK** to return to the **Settings** window.
 7. Click the name of your signature file in the **Current Signatures** and then choose any of the additional options.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SigOptions.png" width="612" height="508" />
+    <img src="{% asset_path rackspace-email/adding-a-signature-to-rackspace-email/SigOptions.png %}" width="612" height="508" />
 
     - To automatically insert the signature when composing a new email, select the **Always show signature when composing an email** check box.
     - To automatically insert the signature when you are replying to an email, select the **When replying to an email, insert my signature** check box. Also, specify whether the signature should appear above or below the body of the message.
@@ -43,7 +43,7 @@ text).
 8. Click **Save**.
 9. Click the **Identities** tab, double-click your email address, and then enter the following information in the spaces provided.
 
-    <img src="http://c2920127.r27.cf2.rackcdn.com/(E%26A)RackspaceEmailSignature6.png" alt="" />
+    <img src="{% asset_path rackspace-email/adding-a-signature-to-rackspace-email/(E%26A)RackspaceEmailSignature6.png %}" alt="" />
 
     - **Full Name**: This name will appear in the **From** field of messages that you send.
     - **Email Address**: Enter the email address that should be displayed as the **From** email address.

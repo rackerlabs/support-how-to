@@ -25,21 +25,21 @@ You can use Cyberduck to manage your Rackspace Cloud Files storage account and t
 
     **Note:** If you are using an older version of Cyberduck or you are using the API through a command-line interface, you might be asked to enter a value known as the tenant ID. This value is simply your account number, which is listed first in the **Account:** ***yourAccountName*** menu.
 
-    <img alt="" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3203.png" width="469" height="137" border="1" />
+    <img alt="" src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/3203.png %}" width="469" height="137" border="1" />
 
 5.	On the Account Settings page, click Show next to the API Key field to view and copy your API key.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cpapientry.png" width="205" height="29" border="1" alt=""  />
+    <img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/cpapientry.png %}" width="205" height="29" border="1" alt=""  />
 
 6.	Open the Cyberduck FTP client.
 
-7.	If you do not have a preconfigured bookmark for Rackspace Cloud, start a new connection by clicking on the **Open Connection** icon <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CyberduckOpenConnection.png" width="67" height="34" alt=""  /> and selecting **Rackspace Cloud Files** from the drop-down list of protocols.
+7.	If you do not have a preconfigured bookmark for Rackspace Cloud, start a new connection by clicking on the **Open Connection** icon <img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/CyberduckOpenConnection.png %}" width="67" height="34" alt=""  /> and selecting **Rackspace Cloud Files** from the drop-down list of protocols.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CyberDuckCFMenuSelectProtocol.png" width="941" height="529" border="1" alt=""  />
+    <img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/CyberDuckCFMenuSelectProtocol.png %}" width="941" height="529" border="1" alt=""  />
 
 8.	Enter your Rackspace Cloud username and paste the API key into the **Password** field.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CyberDuckCloudFiles.png" width="627" height="352" border="1" alt=""  />
+    <img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/CyberDuckCloudFiles.png %}" width="627" height="352" border="1" alt=""  />
 
 9.	When the connection is complete, click **Login**.
 
@@ -59,7 +59,7 @@ Before uploading any files or folders, ensure that your account contains at leas
 
     **Note:** If you are using an older version of Cyberduck or you are using the API through a command-line interface, you might be asked to enter a value known as the tenant ID. This value is simply your account number, which is listed first in the **Account:** ***yourAccountName*** menu.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3203.png" width="703" height="206" border="1" alt=""  />
+    <img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/3203.png %}" width="703" height="206" border="1" alt=""  />
 
 5.	On the Account Settings page, click **Show** next to the **API Key** field to view and copy your API key.
 
@@ -67,7 +67,7 @@ Before uploading any files or folders, ensure that your account contains at leas
 
 7.	Click the plus symbol (+) in the lower-left corner to add a bookmark.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cyberduck_for_UK_1.png" width="393" height="319" border="1" alt=""  />
+    <img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/cyberduck_for_UK_1.png %}" width="393" height="319" border="1" alt=""  />
 
 8.	In the popup dialog box, perform the following steps:
 
@@ -77,7 +77,7 @@ Before uploading any files or folders, ensure that your account contains at leas
 
     C. In the Username field, enter your Rackspace Cloud username.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cyberduck6.png" width="299" height="373" border="1" alt=""  />
+	<img src="{% asset_path cloud-files/configuring-rackspace-cloud-files-with-cyberduck/cyberduck6.png %}" width="299" height="373" border="1" alt=""  />
 
 9.	Close the dialog box and then double-click on the bookmark.
 

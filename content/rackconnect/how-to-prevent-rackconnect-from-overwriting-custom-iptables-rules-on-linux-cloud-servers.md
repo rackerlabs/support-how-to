@@ -71,19 +71,19 @@ merge method on a particular server, simply perform the following steps:
     all cloud servers (the indicator to the left of the policy changes
     from yellow to green), you should delete it.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/framed-netpolicy_0.jpg" alt="Add Network Policy Screenshot; Name TempPolicy, Access Scenario Dedicated to Cloud Server, Source 1.1.1.1, Destination All, Destination Protocol All" width="506" height="509" />
+    <img src="{% asset_path rackconnect/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers/framed-netpolicy_0.jpg %}" alt="Add Network Policy Screenshot; Name TempPolicy, Access Scenario Dedicated to Cloud Server, Source 1.1.1.1, Destination All, Destination Protocol All" width="506" height="509" />
 
 
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/framed-netpolicy-syncing_0.jpg" alt="Network Policy Indicator Screenshot; Yellow, still syncing" width="749" height="63" />
+    <img src="{% asset_path rackconnect/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers/framed-netpolicy-syncing_0.jpg %}" alt="Network Policy Indicator Screenshot; Yellow, still syncing" width="749" height="63" />
 
 
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/framed-netpolicy-synced_0.jpg" alt="Network Policy Indicator Screenshot; Green, sync complete" width="750" height="58" />
+    <img src="{% asset_path rackconnect/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers/framed-netpolicy-synced_0.jpg %}" alt="Network Policy Indicator Screenshot; Green, sync complete" width="750" height="58" />
 
 
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/framed-netpolicy-delete_0.jpg" alt="Network Policy Delete Screenshot; Check TempPolicy, Click Delete Policy" width="749" height="238" />
+    <img src="{% asset_path rackconnect/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers/framed-netpolicy-delete_0.jpg %}" alt="Network Policy Delete Screenshot; Check TempPolicy, Click Delete Policy" width="749" height="238" />
 
 
 

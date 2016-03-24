@@ -60,7 +60,7 @@ database.
 
   Following is a screenshot of the Cron Backup Setup interface:
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cron-backup-setup.png" alt="" />
+  <img src="{% asset_path cloud-sites/scheduled-backup-cloud-sites-to-cloud-files/cron-backup-setup.png %}" alt="" />
 
 After the installation is complete, you will see one new directory that
 contains the Cloud Files API files and two files used to backup your
@@ -89,7 +89,7 @@ backups fail for any reason.
 
 Following is a screenshot of the the cron setup in the Cloud Control Panel:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cron-setup.png" alt="" />
+<img src="{% asset_path cloud-sites/scheduled-backup-cloud-sites-to-cloud-files/cron-setup.png %}" alt="" />
 
 That's it! You should now have scheduled backups setup for your Cloud
 Site. Your backups can be found within your Cloud Files section of the

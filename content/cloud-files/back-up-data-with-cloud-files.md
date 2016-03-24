@@ -41,7 +41,7 @@ steps to prepare your data:
 
 2.  At the top of the window, click **Storage &gt; Files**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/236.1.png" width="300" height="140" />
+    <img src="{% asset_path cloud-files/back-up-data-with-cloud-files/236.1.png %}" width="300" height="140" />
 
 3.  On the Cloud Files page, click **Create Container**.
 
@@ -68,7 +68,7 @@ steps to prepare your data:
 
     1.  On the Containers page, click **Upload Files**.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/263.4.png" width="221" height="44" />
+        <img src="{% asset_path cloud-files/back-up-data-with-cloud-files/263.4.png %}" width="221" height="44" />
 
     2.  Select the files and then click **Open**.
     

@@ -49,7 +49,7 @@ owner account, you can use the following command:
         ON Database::[123456_database]
         TO [123456_login]
 
-    <img src="http://c0476992.cdn.cloudfiles.rackspacecloud.com/mssql2.jpg" alt="mssql2.jpg" />
+    <img src="{% asset_path cloud-sites/remap-database-users-in-mylittleadmin/mssql2.jpg %}" alt="mssql2.jpg" />
 
 4.  Verify that the command worked by going to your database and viewing
     the properties.

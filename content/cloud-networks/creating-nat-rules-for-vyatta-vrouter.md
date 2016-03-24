@@ -35,7 +35,7 @@ The following terms are used in this article:
 
 The following diagram illustrates how DNAT and SNAT are processed at different stages of packet processing. It is important to know this because firewall rules must be created using the correct, either pre-NAT or post-NAT, addresses and ports. Because DNAT is processed first and SNAT is processed last, traffic that is subject to NAT most likely needs to be identified by using the real IP address of the host.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/883-1_0.png" width="780" height="368" border="1" alt=""  />
+<img src="{% asset_path cloud-networks/creating-nat-rules-for-vyatta-vrouter/883-1_0.png %}" width="780" height="368" border="1" alt=""  />
 
 ### Important NAT notes
 

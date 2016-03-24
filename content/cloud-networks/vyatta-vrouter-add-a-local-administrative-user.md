@@ -25,11 +25,11 @@ If you do not have remote access to the vRouter, connect to the vRouter via the 
 
 3.	From the **Actions** menu on the vRouter details page, select **Connect Via Console**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/880-1_0.png" alt="" />
+    <img src="{% asset_path cloud-networks/vyatta-vrouter-add-a-local-administrative-user/880-1_0.png %}" alt="" />
 
     A Java-based applet is launched, and you are presented with a CLI console interface.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/880-2.png" alt="" />
+    <img src="{% asset_path cloud-networks/vyatta-vrouter-add-a-local-administrative-user/880-2.png %}" alt="" />
 
 4.	Log in with the *Vyatta* account and the root password that was given when the vRouter was first created.
 

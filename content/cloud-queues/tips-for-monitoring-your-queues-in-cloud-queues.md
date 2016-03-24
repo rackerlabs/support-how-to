@@ -60,11 +60,11 @@ You can view statistics for a queue in the Cloud Control Panel.
 
 2. In the top navigation bar, click Servers > Message Queueing.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1560-3658-newimg.png" width="483" height="247" border="1" alt=""  />
+     <img src="{% asset_path cloud-queues/tips-for-monitoring-your-queues-in-cloud-queues/1560-3658-newimg.png %}" width="483" height="247" border="1" alt=""  />
 
 3. Click on your queue name to go to the Queue Details page.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3658-tipsformonitoring-2_0.png" width="793" height="590" border="1" alt=""  />
+      <img src="{% asset_path cloud-queues/tips-for-monitoring-your-queues-in-cloud-queues/3658-tipsformonitoring-2_0.png %}" width="793" height="590" border="1" alt=""  />
 
 **Note:** If total is 0, the display does not include statistics for *oldest* and *newest* messages.
 

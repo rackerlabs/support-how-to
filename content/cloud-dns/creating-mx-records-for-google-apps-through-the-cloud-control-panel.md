@@ -38,7 +38,7 @@ After we're on the **Add DNS Record** screen, we should be able to fill in
 the necessary information for each record. Let's have a look at the
 interface in the control panel:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/addrecord.png" width="570" height="382" />
+<img src="{% asset_path cloud-dns/creating-mx-records-for-google-apps-through-the-cloud-control-panel/addrecord.png %}" width="570" height="382" />
 
 As in the example above, you'll need to select **MX Record** as the record
 type to create a Mail Exchanger record for inbound email. Start with the

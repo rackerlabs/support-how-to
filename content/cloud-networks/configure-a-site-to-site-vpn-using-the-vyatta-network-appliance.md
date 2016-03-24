@@ -37,7 +37,7 @@ Of these protocols, the Vyatta Appliance currently supports ESP, which encrypts 
 
 The following diagram shows a site-to-site VPN connection between two sites. For simplicity ,we show the configuration of Site-to-site VPN between two Rackspace sites (both using Vyatta).
 
-<img alt="" border="2" height="299" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Site%20to%20Site%20VPN_0.png" width="629" />
+<img alt="" border="2" height="299" src="{% asset_path cloud-networks/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance/Site%20to%20Site%20VPN_0.png %}" width="629" />
 
 ### Site-to-Site VPN Configuration Checklist
 

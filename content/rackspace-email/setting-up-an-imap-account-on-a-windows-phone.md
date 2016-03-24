@@ -16,27 +16,27 @@ Mobile phone.
 
 1. Locate the **Settings** options from within your application menu.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.jpg" width="275" height="277" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/1.jpg %}" width="275" height="277" />
 
 2. Tao **email + accounts**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.jpg" width="277" height="438" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/2.jpg %}" width="277" height="438" />
 
 3.  Tap **add an account**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.jpg" width="281" height="151" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/3.jpg %}" width="281" height="151" />
 
 4. Tap **other account**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.jpg" width="275" height="399" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/4.jpg %}" width="275" height="399" />
 
 5. Enter your full email address and password for your account, and then tap **sign in**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.jpg" width="277" height="443" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/5.jpg %}" width="277" height="443" />
 
 6. If the device does not auto-detect your settings, tap the **advanced** option on this screen.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6.jpg" width="279" height="439" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/6.jpg %}" width="279" height="439" />
 
 7. Add your account name, enter your name, and the enter the following server settings. (You need to scroll down on this screen to see the additional fields.)
 
@@ -54,9 +54,9 @@ Mobile phone.
 
     -   Use the same user name and password for sending email: **Enabled**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.jpg" width="279" height="444" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/8.jpg %}" width="279" height="444" />
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/9.jpg" width="277" height="446" />
+    <img src="{% asset_path rackspace-email/setting-up-an-imap-account-on-a-windows-phone/9.jpg %}" width="277" height="446" />
 
 8. Tap **sign in**.
 

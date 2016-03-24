@@ -24,21 +24,21 @@ image.
 
 1. Log into the [Cloud Control Panel](http://mycloud.rackspace.com).
 
-  <img src="http://c15149618.r18.cf2.rackcdn.com/1.png" alt="" />
+  <img src="{% asset_path cloud-servers/creating-an-image-backup-cloning/1.png %}" alt="" />
 
 2. Select the server that you want to clone by clicking the actions cog
 to the left of the server name.
 
 3. From the drop-down menu, click **Create Image**.
 
-  <img src="http://c15149618.r18.cf2.rackcdn.com/3B.png" alt="" />
+  <img src="{% asset_path cloud-servers/creating-an-image-backup-cloning/3B.png %}" alt="" />
 
   A pop-up window will appear that allows you to name the image.
 
 4. After naming the image, click the **Create Image** button.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2012%20-%20Create%20image_2.png" width="266" height="220" />
+  <img src="{% asset_path cloud-servers/creating-an-image-backup-cloning/Feb%2012%20-%20Create%20image_2.png %}" width="266" height="220" />
 
 Server images will appear in the **Images** list after they have been created. They can be accessed by clicking on the **View Images** in the **Images** section.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2012%20-%20View%20Images.png" width="513" height="106" />
+<img src="{% asset_path cloud-servers/creating-an-image-backup-cloning/Feb%2012%20-%20View%20Images.png %}" width="513" height="106" />

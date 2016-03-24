@@ -62,7 +62,7 @@ Apache web server package to turn the server into a web server.
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com), using the user name and password that you entered when you
     created your account.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.1.png" width="668" height="384" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.1.png %}" width="668" height="384" />
 
     The control panel supports many Rackspace products and services.
     Each component of this interface, and all of our products and
@@ -90,7 +90,7 @@ Apache web server package to turn the server into a web server.
     The image that you select contains both the OS and
     preselected software.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.5.png" width="520" height="320" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.5.png %}" width="520" height="320" />
 
 5.  Select a flavor.
 
@@ -102,7 +102,7 @@ Apache web server package to turn the server into a web server.
 
     Use the slider to select the flavor.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.6.png" width="550" height="442" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.6.png %}" width="550" height="442" />
 
 6.  Click **Create Server**.
 
@@ -116,7 +116,7 @@ Apache web server package to turn the server into a web server.
     image and flavor that you selected. The server is finished building
     and is ready for a connection when the Server Status is **Active**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.10.png" width="204" height="39" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.10.png %}" width="204" height="39" />
 
 8.  Copy the public IP address.
 
@@ -126,7 +126,7 @@ Apache web server package to turn the server into a web server.
     (PublicNet), which you can find in the **Networks** section of the
     server's detail view. Copy the address for later use.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.11.png" width="770" height="176" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.11.png %}" width="770" height="176" />
 
 #### Connect to your server
 
@@ -143,12 +143,12 @@ information to and from your server in a secure fashion.
         command to use SSH in the right-side bar of the server detail
         page of the Cloud Control Panel.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.12.png" width="422" height="209" />
+        <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.12.png %}" width="422" height="209" />
 
         Copy this command and paste it into your terminal, or click it
         and Terminal.app opens for you.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.13.png" width="760" height="143" />
+        <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.13.png %}" width="760" height="143" />
 
     -   **Connect from Windows**
 
@@ -160,17 +160,17 @@ information to and from your server in a secure fashion.
 
 2.  Type **yes** and then press **Enter**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.14.png" width="732" height="172" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.14.png %}" width="732" height="172" />
 
 3.  Type or paste the password that you copied in step 6 when you
     created the server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.15.png" width="733" height="189" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.15.png %}" width="733" height="189" />
 
     If the password is correct, you connect to your server. You will see
     a screen similar to the following one:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.16.png" width="716" height="456" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.16.png %}" width="716" height="456" />
 
 #### Install Apache
 
@@ -178,7 +178,7 @@ To install Apache, enter the following command in the terminal window:
 
     apt-get install apache2 -y
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.17.png" width="671" height="126" />
+<img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.17.png %}" width="671" height="126" />
 
 Some information scrolls by in your terminal window. This is your server
 downloading and installing Apache and any software Apache might need to
@@ -191,7 +191,7 @@ and turned on. Put the (PublicNet) IPv4 address of your cloud server
 into a web browser. If you see the message "It works!", you now have a web
 server installed on your cloud server.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.18.png" width="694" height="157" />
+<img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.18.png %}" width="694" height="157" />
 
 ### Upload your code
 
@@ -206,7 +206,7 @@ FTP clients do this.
 
 1.  In the Cyberduck interface, click **Open Connection**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.19.png" width="653" height="233" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.19.png %}" width="653" height="233" />
 
 2.  Select **SFTP (SSH File Transfer Protocol)**.
 3.  For **Server**, type the IP address of the cloud server.
@@ -214,7 +214,7 @@ FTP clients do this.
 5.  For **Password**, enter the root user's password.
 6.  Click **Connect**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.20.png" width="653" height="371" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.20.png %}" width="653" height="371" />
 
 ### Upload your site
 
@@ -232,7 +232,7 @@ Cyberduck by using the following steps:
 
 You're now in the DocumentRoot directory.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.24.png" width="658" height="195" />
+<img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.24.png %}" width="658" height="195" />
 
 You should see an **index.html** file already in the directory. This is
 the "It works!" file that you saw when you tested Apache in your browser
@@ -241,29 +241,29 @@ earlier.
 1.  Select the **I** directory by using the drop-down menu at the top of
     the window.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.21.png" width="611" height="160" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.21.png %}" width="611" height="160" />
 
 2.  Double-click the **var** directory.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.22.png" width="590" height="526" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.22.png %}" width="590" height="526" />
 
 3.  Double-click the **www** directory.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.23.png" width="668" height="457" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.23.png %}" width="668" height="457" />
 
 4.  Replace the **index.html** file with your own file by dragging the
     new **index.html** file into Cyberduck.
 5.  When Cyberduck asks if you want to overwrite the existing file,
     click **Continue**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.25.png" width="654" height="616" />
+    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.25.png %}" width="654" height="616" />
 
 ### Test your site
 
 Now that the correct HTML file is uploaded to the correct directory, you
 should see your site when you refresh your browser.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3768.26.png" width="764" height="719" />
+<img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.26.png %}" width="764" height="719" />
 
 Congratulations! In a short period of time, you deployed a cloud server,
 connected to it via SSH, installed the Apache web server, uploaded a new

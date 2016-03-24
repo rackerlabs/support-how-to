@@ -46,7 +46,7 @@ Use the following steps to create a configuration group and apply it to a databa
     The configuration group is displayed on the Configurations page showing the database type it can be applied to and last updated timestamp.
 
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CofigParamEx-Step4_0.png" width="562" height="527" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/CofigParamEx-Step4_0.png %}" width="562" height="527" border="1" alt=""  />
 
 8.	Click **Create Configuration**.
 
@@ -68,7 +68,7 @@ You can apply a configuration to one or more existing instances from the Configu
 
 	The database instances in the same region that use the datastore specified in the configuration group are displayed in a popup dialog box.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Applying-3.png" width="424" height="263" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/Applying-3.png %}" width="424" height="263" border="1" alt=""  />
 
 4.	Select all the instances to which you want to apply the configuration, and then click **Apply Configuration**.
 
@@ -78,7 +78,7 @@ You can apply a configuration to one or more existing instances from the Configu
 
 	B. The instances that require restart are displayed in orange. Click the gear icon next to the instance to which you just applied the configuration group, and select **Restart Instance**.
 
-	   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RestartInstance_0.png" width="138" height="98" border="1" alt=""  />
+	   <img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/RestartInstance_0.png %}" width="138" height="98" border="1" alt=""  />
 
 #### Apply a configuration to an instance with the default configuration from the Instance Details page
 
@@ -86,7 +86,7 @@ You can apply a configuration to one or more existing instances from the Configu
 
 2.	Under Instance Details, click Choose Configuration.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Choose_Cfg_1.png" width="310" height="28" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/Choose_Cfg_1.png %}" width="310" height="28" border="1" alt=""  />
 
 3.	Select the configuration that you want to apply to the instance and click Use Selected.
 
@@ -102,7 +102,7 @@ You can apply a configuration to one or more existing instances from the Configu
 
     The region and datastore type are defined by the configuration group and cannot be changed.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/NewInstance-3.png" width="327" height="237" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/NewInstance-3.png %}" width="327" height="237" border="1" alt=""  />
 
 4.	Click **Create Instance**.
 
@@ -114,17 +114,17 @@ You can modify configuration groups by updating the values of existing parameter
 
 1.	On the Configurations page in the control panel, click the configuration group for which you want to modify the parameters.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DBConfig3.png" width="216" height="42" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/DBConfig3.png %}" width="216" height="42" border="1" alt=""  />
 
 2.	On the Configuration Details page, click the gear icon for the parameter that you want to delete and click **Edit Parameter**.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/EditParam_MaxConn.png" width="279" height="122" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/EditParam_MaxConn.png %}" width="279" height="122" border="1" alt=""  />
 
 3.	Modify the value.
 
     **NOTE:** Some configuration parameters cannot be deleted and require at least a minimum value. For example, max_connections must be set to a minimum value of 1.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CHG_MAXCONN.png" width="332" height="161" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/CHG_MAXCONN.png %}" width="332" height="161" border="1" alt=""  />
 
 4.	Click **Apply Changes**.
 
@@ -134,7 +134,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 2.	On the Configuration Details page, click **Add Parameters**. Only the parameters that are undefined appear in the list.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/addparam.png" width="405" height="412" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/addparam.png %}" width="405" height="412" border="1" alt=""  />
 
 3.	In the popup dialog box, provide values for the parameters that you want to add.
 
@@ -160,7 +160,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 3.	Under Instance Details, next to the **Configuration** field, click **Revert to Default**.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/REVISED-SCREENSHOT2.png" width="561" height="158" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/REVISED-SCREENSHOT2.png %}" width="561" height="158" border="1" alt=""  />
 
 ### Delete a configuration group
 
@@ -172,7 +172,7 @@ You can modify configuration groups by updating the values of existing parameter
 
 3.	From the menu, select **Delete Configuration**.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1426-CreateInstance1.png" width="155" height="190" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/1426-CreateInstance1.png %}" width="155" height="190" border="1" alt=""  />
 
 #### Delete a configuration group using the Instance Details page
 
@@ -182,11 +182,11 @@ You can modify configuration groups by updating the values of existing parameter
 
 3. On the Instance Details page, click the Action icon.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4427-deleteconfig-a.png" width="490" height="61" border="1" alt=""  />
+     <img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/4427-deleteconfig-a.png %}" width="490" height="61" border="1" alt=""  />
 
 4. Select **Delete Instance**.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4427-deleteconfig-2a.png" width="132" height="193" border="1" alt=""  />
+     <img src="{% asset_path cloud-databases/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/4427-deleteconfig-2a.png %}" width="132" height="193" border="1" alt=""  />
 
 ### Special cases - Rebuilding FULLTEXT indexes
 

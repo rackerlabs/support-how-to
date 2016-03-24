@@ -111,7 +111,7 @@ Following are a few things you should know about the pages in the Auto Scale con
     Regions (Global)** to see all scaling groups. The default region
     displayed is **United States**.
 -   To the left of each existing group is a gear icon
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image013.png" width="23" height="23" />
+    <img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group/image013.png %}" width="23" height="23" />
     that you can click to open a menu of editing options. Wherever you
     see this icon, sometimes used with an **Actions** menu on other
     pages, you can edit, delete, or make other changes to the
@@ -120,19 +120,19 @@ Following are a few things you should know about the pages in the Auto Scale con
     or policy to open a Status page with options to edit
     those configurations.
 -   Some text has a dashed underline, such as
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image015.png" width="122" height="22" />.
+    <img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group/image015.png %}" width="122" height="22" />.
     You can hover your mouse pointer over this text and see a tooltip or
     information about the setting. Also, you can hover your mouse
     pointer over a Help icon
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image017.png" width="15" height="14" />
+    <img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group/image017.png %}" width="15" height="14" />
     to get information.
 -   You can use the Edit icon
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image019.png" width="24" height="22" />
+    <img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group/image019.png %}" width="24" height="22" />
     to open a configuration area and make changes to an
     existing configuration.
 -   At the bottom of the **Create Group** page, and on the **Select
     Server Flavor** pane, is a Cost icon
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image021.png" width="19" height="16" />.
+    <img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group/image021.png %}" width="19" height="16" />.
     Hover your mouse pointer over it to get pricing information.
 -   Links generally take you to a status or configuration page for the
     linked item. However, the configuration page that opens might be

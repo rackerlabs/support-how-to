@@ -50,7 +50,7 @@ In the Cloud Sites Control Panel, you can access usage data by clicking
 The **Reports** section opens to the **Usage Data** tab, as shown in the
 following figure.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1243.1.png" alt="" />
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-accessing-billing-information/1243.1.png %}" alt="" />
 
 The **Usage Data** tab displays a usage summary for your account during
 the current billing period, up to 48 hours prior to the the current day.
@@ -65,7 +65,7 @@ the current billing period, up to 48 hours prior to the the current day.
     bandwidth, and compute cycles. Clicking on the column titles will
     sort the information below.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1243.1.1.png" alt="" />
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-accessing-billing-information/1243.1.1.png %}" alt="" />
 
 ### Billing
 
@@ -76,7 +76,7 @@ This section displays important information like your total outstanding
 balance, the date of your most recent invoice, and which credit card is
 being used for payments on the account.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1243.3.png" alt="" />
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-accessing-billing-information/1243.3.png %}" alt="" />
 
 -   The **Recent Activity** section lists a summary of your most
     recent invoice. This summary includes the date and amount of your

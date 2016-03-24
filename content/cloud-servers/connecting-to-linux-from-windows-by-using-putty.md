@@ -58,14 +58,14 @@ click **Open**:
     simply saves time next time you use Putty.  You can have a different
     name for each of your Cloud Servers.
 
-<img src="http://c768825.r25.cf2.rackcdn.com/1_Connect.png" alt="" />
+<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/1_Connect.png %}" alt="" />
 
 ### Accept the key
 
 If this is the first time that you have used PuTTY to log in to your
 server with SSH, a warning similar to the following one is displayed:
 
-<img src="http://c768825.r25.cf2.rackcdn.com/2_AcceptKey.png" alt="" />
+<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/2_AcceptKey.png %}" alt="" />
 
 If you are sure that you have entered the correct information, click
 **Yes**.
@@ -91,7 +91,7 @@ a shell prompt:
 
 `[root@yourservername ~]#`
 
-<img src="http://c768825.r25.cf2.rackcdn.com/3_login.png" alt="" />
+<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/3_login.png %}" alt="" />
 
 Now you can work on your server with all permissions.
 
@@ -107,7 +107,7 @@ FWe recommend that you change the root password to something personal.
 
 Reenter the new password and press **Enter**.
 
-<img src="http://c768825.r25.cf2.rackcdn.com/4_passwd.png" alt="" />
+<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/4_passwd.png %}" alt="" />
 
 You will now use this password with the root user whenever you connect
 to your server.

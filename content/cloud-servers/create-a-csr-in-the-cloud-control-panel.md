@@ -23,7 +23,7 @@ Click the following link to access the [CSR Generator](https://csrgenerator.rack
 
 After you log in, the generator lists your existing CSRs (if any), organized by domain name.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CSR_gen_1.png" width="650" alt="Main page of CSR Generator, showing list of certificate requests for domains."  />
+<img src="{% asset_path cloud-servers/create-a-csr-in-the-cloud-control-panel/CSR_gen_1.png %}" width="650" alt="Main page of CSR Generator, showing list of certificate requests for domains."  />
 
 ### Generate a CSR
 
@@ -48,7 +48,7 @@ Step 2. Enter the following information, which will be associated with the CSR:
 
     < > ~ ! @ # $ % ^ * / \ ( ) ? . , &
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/csr_gen_form.png" width="650" alt="Create CSR form"  />
+<img src="{% asset_path cloud-servers/create-a-csr-in-the-cloud-control-panel/csr_gen_form.png %}" width="650" alt="Create CSR form"  />
 
 Step 3. After you have entered all the required information, click **Create CSR**.
 
@@ -58,7 +58,7 @@ It can take between 5 and 60 seconds for the CSR to be generated.  You might nee
 
 When CSR has been generated, you can click its UUID (unique identifier) in the CSR list to view its details screen.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/csr_gen_complete.png" width="650" alt="CSR details"  />
+<img src="{% asset_path cloud-servers/create-a-csr-in-the-cloud-control-panel/csr_gen_complete.png %}" width="650" alt="CSR details"  />
 
 This screen displays the information that you provided, the text of the CSR, and its associated private key.
 

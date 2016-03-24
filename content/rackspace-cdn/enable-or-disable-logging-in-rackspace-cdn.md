@@ -24,7 +24,7 @@ you want to enable or disable logging.
 dialog box appears. Note the information about managing the data that is
 stored.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/EnableLogging.png" width="468" height="229" />
+<img src="{% asset_path rackspace-cdn/enable-or-disable-logging-in-rackspace-cdn/EnableLogging.png %}" width="468" height="229" />
 
 4\. To turn logging on, click the **Enable Logging** button. The
 **Service Status** is **Pending** until the value for **Logging**
@@ -39,7 +39,7 @@ the **Service Details** section of the CDN service page. Then, click
 **Disable Logging** again in the dialog box that opens. Note the
 information that is displayed in the dialog box about created logs.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DisableLogging.png" width="449" height="206" />
+<img src="{% asset_path rackspace-cdn/enable-or-disable-logging-in-rackspace-cdn/DisableLogging.png %}" width="449" height="206" />
 
 
 

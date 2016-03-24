@@ -61,27 +61,27 @@ The following are the screen shots of steps to create dashboard based on enum va
 
 1. Enter the metric name manually.
     
-    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-manually.png" alt="" />
+    <img src="{% asset_path rackspace-metrics/use-enum-metrics/Enumsupport-manually.png %}" alt="" />
     
 2. Click **Off**. The menu appears.         
     
-    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-click-off.png" alt="" />
+    <img src="{% asset_path rackspace-metrics/use-enum-metrics/Enumsupport-click-off.png %}" alt="" />
     
 3. Select a value.
     
-    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-select-value.png" alt="" />
+    <img src="{% asset_path rackspace-metrics/use-enum-metrics/Enumsupport-select-value.png %}" alt="" />
     
 4. Click **duplicate**.
     
-    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-clickduplicate.png" alt="" />
+    <img src="{% asset_path rackspace-metrics/use-enum-metrics/Enumsupport-clickduplicate.png %}" alt="" />
     
 5. Select all values.
     
-    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-selectall.png" alt="" />
+    <img src="{% asset_path rackspace-metrics/use-enum-metrics/Enumsupport-selectall.png %}" alt="" />
     
 6. Change graph style to **bar chart** and the stack to **100%**.
     
-     <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/rackspace-metrics/Enumsupport-graphstyle.png" alt="" />
+     <img src="{% asset_path rackspace-metrics/use-enum-metrics/Enumsupport-graphstyle.png %}" alt="" />
 
 
 

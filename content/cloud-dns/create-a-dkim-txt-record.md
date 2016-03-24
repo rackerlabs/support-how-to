@@ -39,7 +39,7 @@ DKIM selector and private key
 
 **To publish the DKIM selector and private key**:
 
-<img src="http://c691244.r44.cf2.rackcdn.com/Add%20DNS%20Record.png" alt="Add DNS Record" />
+<img src="{% asset_path cloud-dns/create-a-dkim-txt-record/Add%20DNS%20Record.png %}" alt="Add DNS Record" />
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
 2.  In the top navigation bar, select **Networking &gt; Cloud DNS**.
@@ -68,7 +68,7 @@ DKIM selector and private key
     When you are finished, the TXT record will look similar to the
     following example:
 
-    <img src="http://c691244.r44.cf2.rackcdn.com/Add%20DKIM%20DNS%20TXT%20Record.png" alt="DKIM DNS TXT Record" />
+    <img src="{% asset_path cloud-dns/create-a-dkim-txt-record/Add%20DKIM%20DNS%20TXT%20Record.png %}" alt="DKIM DNS TXT Record" />
 
 7.  Click **Add Record**.
 

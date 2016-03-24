@@ -27,7 +27,7 @@ make sure it is functioning correctly.
 allowing secure and insecure traffic and using the default HTTPS port 443. Then fill in the
 certificate information:
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/load-balanced-sites-IIS.png" width="444" height="438" />
+  <img src="{% asset_path cloud-servers/configuring-load-balanced-sites-with-ssl-offloading-using-iis/load-balanced-sites-IIS.png %}" width="444" height="438" />
 
 ### Create a Conditional Redirect
 
@@ -86,8 +86,8 @@ hosting multiple sites on the server, you will need to give the server
 its own DNS name (i.e. **web1.customerdomain.com**). Use this domain name
 instead of the IP address and make sure to designate port 8080.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/load-balanced-sites-iis-2.png" width="591" height="167" />
+  <img src="{% asset_path cloud-servers/configuring-load-balanced-sites-with-ssl-offloading-using-iis/load-balanced-sites-iis-2.png %}" width="591" height="167" />
 
 6. Click **Create Check** to confirm your entries
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/load-balanced-sites-iis-3.png" width="354" height="218" />
+  <img src="{% asset_path cloud-servers/configuring-load-balanced-sites-with-ssl-offloading-using-iis/load-balanced-sites-iis-3.png %}" width="354" height="218" />

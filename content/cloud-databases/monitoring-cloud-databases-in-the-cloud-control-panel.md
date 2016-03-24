@@ -33,7 +33,7 @@ instance are described in the following sections.
 Monitoring checks are listed on the details page of a Cloud Databases
 instance in the Cloud Control Panel.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbmonitoringchecks.png" width="370" height="274" />
+<img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbmonitoringchecks.png %}" width="370" height="274" />
 
 Click the name of a check to view a graph of the check's results over
 time and any alarms configured for that check.
@@ -48,7 +48,7 @@ The graph for the CPU check displays how much of its available
 processing power the instance uses. It also displays minimum, maximum,
 and average CPU usage for that period.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbcpugraph.png" width="571" height="231" />
+<img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbcpugraph.png %}" width="571" height="231" />
 
 #### File system check
 
@@ -57,7 +57,7 @@ Databases instance. The **Total** value represents the total disk space
 available to the instance, and this value can change if the instance is
 resized.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbfilesystemgraph.png" width="561" height="229" />
+<img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbfilesystemgraph.png %}" width="561" height="229" />
 
 #### Load average check
 
@@ -66,7 +66,7 @@ average on a per-minute basis. Whereas the CPU usage graph displays
 moment-to-moment fluctuations in CPU use, the load average graph
 reflects overall CPU usage.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbloadgraph.png" width="567" height="221" />
+<img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbloadgraph.png %}" width="567" height="221" />
 
 #### Memory check
 
@@ -75,14 +75,14 @@ The graph for the memory check displays your instance's memory use
 instance, and the **Actual Used** value represents the amount of memory
 in use.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbmemorygraph.png" width="561" height="226" />
+<img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbmemorygraph.png %}" width="561" height="226" />
 
 #### Network check
 
 The graph for the Network check displays inbound and outbound network
 traffic in kilobytes per second.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbnetworkgraph.png" width="473" height="185" />
+<img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbnetworkgraph.png %}" width="473" height="185" />
 
 #### MySQL check
 
@@ -111,7 +111,7 @@ You can view and create alarms from a check's details page.
 2.  In the **Alarms** section at the bottom of the page, click the
     **Create Alarm button**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbfilesystemalarm.png" width="470" height="136" />
+    <img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbfilesystemalarm.png %}" width="470" height="136" />
 
 3.  In the **Alarm Name** field, enter a name for the alarm.
 4.  Select the contact who will receive notifications from the alarm.
@@ -134,7 +134,7 @@ You can view and create alarms from a check's details page.
     Alarm under the criteria field will let you view example criteria
     for the check.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbcpualarm.png" width="407" height="546" />
+    <img src="{% asset_path cloud-databases/monitoring-cloud-databases-in-the-cloud-control-panel/dbcpualarm.png %}" width="407" height="546" />
 
 #### Editing alarms
 

@@ -50,7 +50,7 @@ Panel](https://mycloud.rackspace.com/). For example, the following image
 shows the dedicated IP address, named RackConnect, for a fully deployed
 RackConnect cloud server in the MyRackspace portal.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2025.1.png" width="326" height="400" />
+<img src="{% asset_path rackconnect/accessing-rackconnect-cloud-servers/2025.1.png %}" width="326" height="400" />
 
 **Note**: Disregard the initial public IP address assigned to your cloud
 servers when they are built. With RackConnect v2.0, the automation

@@ -28,11 +28,11 @@ On your Webmail login page, click the **Forgot Password** link to change
 your password. A one-time passcode will be sent in a text message to the
 mobile phone number on file for your account.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1481.2b.png" width="303" height="199" />
+<img src="{% asset_path rackspace-email/rackspace-email-password-recovery-faq/1481.2b.png %}" width="303" height="199" />
 
 You use this passcode to change your password.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1481.1b.png" width="414" height="273" />
+<img src="{% asset_path rackspace-email/rackspace-email-password-recovery-faq/1481.1b.png %}" width="414" height="273" />
 
 ### Why is Webmail asking for my mobile phone number?
 

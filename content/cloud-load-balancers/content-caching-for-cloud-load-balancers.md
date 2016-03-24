@@ -26,7 +26,7 @@ Cloud Control Panel by going to its details screen, scrolling down to
 the Optional Features section, and clicking the pencil icon next to
 Content Caching.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/lbcontentcache.png" width="360" />
+<img src="{% asset_path cloud-load-balancers/content-caching-for-cloud-load-balancers/lbcontentcache.png %}" width="360" />
 
 
 

@@ -65,11 +65,11 @@ and can result in data loss.
     want to reboot.
 3.  Select** Reboot**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rebootmenu_0.png" alt="" />
+    <img src="{% asset_path cloud-servers/reboot-your-server/rebootmenu_0.png %}" alt="" />
 
 4.  In the pop-up dialog box, click **Reboot Server**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Hard%20Reboot_0.png" alt="" />
+    <img src="{% asset_path cloud-servers/reboot-your-server/Hard%20Reboot_0.png %}" alt="" />
 
 The server status on the Servers page updates while the server is
 rebooting. When the reboot is complete, check your server to confirm

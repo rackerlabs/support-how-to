@@ -38,7 +38,7 @@ Following are the DNS servers for your cloud servers:
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 2.  Select **Networking &gt; Cloud DNS**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%201.12.55%20PM.png" width="470" height="174" />
+    <img src="{% asset_path cloud-dns/create-dns-records-for-cloud-servers-with-the-control-panel/Screen%20Shot%202015-01-16%20at%201.12.55%20PM.png %}" width="470" height="174" />
 
 3.  Continue with the following procedures to create the records for
     your domain's DNS zone.
@@ -138,12 +138,12 @@ record for your domain name, but you cannot receive emails without it.
         click **Actions**, and select **Delete records**. You can use
         this method to delete multiple records at once.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%205.29.36%20PM.png" width="207" height="141" />
+        <img src="{% asset_path cloud-dns/create-dns-records-for-cloud-servers-with-the-control-panel/Screen%20Shot%202015-01-16%20at%205.29.36%20PM.png %}" width="207" height="141" />
 
     -   Click the gear icon next to the record and select **Delete
         Record**.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%203.27.52%20PM_0.png" width="217" height="213" />
+        <img src="{% asset_path cloud-dns/create-dns-records-for-cloud-servers-with-the-control-panel/Screen%20Shot%202015-01-16%20at%203.27.52%20PM_0.png %}" width="217" height="213" />
 
 
 
@@ -155,9 +155,9 @@ page.
 -   Click the gear icon next to the domain, and select **Delete
     Domain**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%205.13.13%20PM.png" width="208" height="133" />
+    <img src="{% asset_path cloud-dns/create-dns-records-for-cloud-servers-with-the-control-panel/Screen%20Shot%202015-01-16%20at%205.13.13%20PM.png %}" width="208" height="133" />
 
 -   Select the check box next to the domain and click **Delete** at the
     top of the domain list.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-16%20at%205.12.52%20PM.png" width="189" height="95" />
+    <img src="{% asset_path cloud-dns/create-dns-records-for-cloud-servers-with-the-control-panel/Screen%20Shot%202015-01-16%20at%205.12.52%20PM.png %}" width="189" height="95" />

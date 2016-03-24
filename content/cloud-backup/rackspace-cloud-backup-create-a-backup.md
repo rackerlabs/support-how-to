@@ -41,7 +41,7 @@ image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-ima
 
 2.  In the top navigation bar, select **Backups &gt; Systems**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2038-1_0.png" width="138" height="132" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-create-a-backup/2038-1_0.png %}" width="138" height="132" />
 
 3.  On the Cloud Backup Systems page, click the name of the server for
     which you want to create a backup.

@@ -25,7 +25,7 @@ Outlook 2010 email client.
    **Control Panel**, and select the **Mail
    icon**.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010ExchangeTwo.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010ExchangeTwo.png %}" alt="" />
 
    **Note:** Depending on which version of Windows you are running, you may need
    to switch to Classic view to find the **Mail** entry or it might be
@@ -35,18 +35,18 @@ Outlook 2010 email client.
    **Add** button, enter a name for this profile, and
    select the **OK** button.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange4.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange4.png %}" alt="" />
 
 4. Select the **Manually configure server settings or
    additional server types** check box, click the
    **Next** button.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange50.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange50.png %}" alt="" />
 
 5. Select the **Microsoft Exchange** option and click
    the **Next** button.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange6.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange6.png %}" alt="" />
 
 6. Enter the Microsoft Exchange server address from the Outlook
    2010 Setup guide in the control panel.
@@ -55,7 +55,7 @@ Outlook 2010 email client.
 
    In the **User Name** box, enter your entire email address.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange7.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange7.png %}" alt="" />
 
 7. Select the **More Settings** button, select the
    **Connection** tab and select the **Connect to
@@ -65,7 +65,7 @@ Outlook 2010 email client.
    the **Proxy Server address** from the Outlook 2010 setup
    guide in the control panel.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange8.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange8.png %}" alt="" />
 
 8. Select both the **On fast networks** and
    **On slow networks** check boxes.
@@ -73,7 +73,7 @@ Outlook 2010 email client.
    Under **Proxy authentication** settings, select **Basic
    Authentication**.
 
-   <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange9.png" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange9.png %}" alt="" />
 
 9. Click **Ok**,
    **Apply**, and **Ok** again. Then select the
@@ -89,4 +89,4 @@ Outlook 2010 email client.
 
     Select **Next**, select **finish**, and open Outlook.
 
-    <img src="http://c965993.r93.cf2.rackcdn.com/(E%26A)Outlook2010Exchange10.png" alt="" />
+    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/(E%26A)Outlook2010Exchange10.png %}" alt="" />

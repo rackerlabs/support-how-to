@@ -39,12 +39,12 @@ click **Install**.
 
   **Note**: At the time of writing this is 5.3.19 and 5.4.9
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/php_webpi.png" width="854" height="584" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/php_webpi.png %}" width="854" height="584" />
 
 4. When prompted to Accept the License terms, review and click **I
 Accept**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/php_dependecies.png" width="854" height="585" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/php_dependecies.png %}" width="854" height="585" />
 
 5. Click **Finish** once the installation is finalized. The PHP runtime
 environment will be stored on your local file system at the following
@@ -78,7 +78,7 @@ PHP configuration.
   **Note**: This information can harmful in the wrong hands so please delete
 or move the info.php file once the installation is successfully tested.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/php_info.png" width="861" height="611" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/php_info.png %}" width="861" height="611" />
 
 ### Customizing PHP
 
@@ -106,7 +106,7 @@ To do so, open the **Server Manager** from the task bar.
 (IIS)** Manager. Select the server on the right hand screen and click
 **Restart** in the Manage Server section.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/restart_iis.png" width="866" height="616" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/restart_iis.png %}" width="866" height="616" />
 
 ### Setting the Default Document
 
@@ -121,21 +121,21 @@ bar.
 2. From the **Tools** menu click **Internet Information Services
 (IIS) Manager**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/tools_iis.png" width="872" height="619" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/tools_iis.png %}" width="872" height="619" />
 
 3. In the Internet Information Services (IIS) Manager select the
 server homepage.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/home_page.png" width="871" height="620" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/home_page.png %}" width="871" height="620" />
 
 4. Double-click the **Default Document** option.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/default_doc.png" width="872" height="621" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/default_doc.png %}" width="872" height="621" />
 
 5. Select the **index.php** option and move it to the top of the
 list.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/php_top.png" width="876" height="624" />
+  <img src="{% asset_path cloud-servers/installing-php-on-windows-server-2012/php_top.png %}" width="876" height="624" />
 
 6. IIS will now serve index.php files from the wwwroot folder
 before all other document types.

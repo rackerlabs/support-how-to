@@ -38,21 +38,21 @@ Running the Remote Desktop Connection Client
 
 To find Remote Desktop, click **Start > All Programs > Accessories > Communications > Remote Desktop Connection**.
 
-<img src="http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp01.PNG" alt="rdp01.PNG" />
+<img src="{% asset_path cloud-servers/log-in-to-your-server-via-rdp-windows/rdp01.PNG %}" alt="rdp01.PNG" />
 
 Enter the IP address of the server and click **Connect**.
 
-<img src="http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp02.PNG" alt="rdp02.PNG" />
+<img src="{% asset_path cloud-servers/log-in-to-your-server-via-rdp-windows/rdp02.PNG %}" alt="rdp02.PNG" />
 
 If you would like to set up file transfer or enable your clipboard for
 copy/paste, click **Options**.
 
-<img src="http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp03.PNG" alt="rdp03.PNG" />
+<img src="{% asset_path cloud-servers/log-in-to-your-server-via-rdp-windows/rdp03.PNG %}" alt="rdp03.PNG" />
 
 Click the **Local Resources** tab, select the Clipboard option, click
 **More**, and then click **Drives**.
 
-<img src="http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp05.PNG" alt="rdp05.PNG" />
+<img src="{% asset_path cloud-servers/log-in-to-your-server-via-rdp-windows/rdp05.PNG %}" alt="rdp05.PNG" />
 
 Save your session by clicking the General tab, then clicking **Save
 As**.
@@ -64,7 +64,7 @@ in for the first time, enter the Computer Name\\Administrator and the
 corresponding password (this is the password that was emailed to you
 when your server build was completed).
 
-<img src="http://c0042672.cdn.cloudfiles.rackspacecloud.com/rdp04.PNG" alt="rdp04.PNG" />
+<img src="{% asset_path cloud-servers/log-in-to-your-server-via-rdp-windows/rdp04.PNG %}" alt="rdp04.PNG" />
 
 Congratulations you have successfully connected and logged in to your
 new server!

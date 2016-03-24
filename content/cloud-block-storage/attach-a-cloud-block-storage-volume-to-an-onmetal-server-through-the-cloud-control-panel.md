@@ -34,7 +34,7 @@ If you have already created a volume, go to the "Attach a volume" section.
 
 2. Under the Storage tab, choose **Block Storage Volumes**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/storage.png" width="276" height="200" />
+   <img src="{% asset_path cloud-block-storage/attach-a-cloud-block-storage-volume-to-an-onmetal-server-through-the-cloud-control-panel/storage.png %}" width="276" height="200" />
 
 3. Click **Create Volume** and complete the fields.
 
@@ -51,7 +51,7 @@ If you have already created a volume, go to the "Attach a volume" section.
 
 3. Click the cog beside the volume that you want to attach and select **Attach Volume**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach%20volume.png" width="226" height="201" />
+  <img src="{% asset_path cloud-block-storage/attach-a-cloud-block-storage-volume-to-an-onmetal-server-through-the-cloud-control-panel/attach%20volume.png %}" width="226" height="201" />
 
 4. Select a server from the list and click **Attach Volume**.
 

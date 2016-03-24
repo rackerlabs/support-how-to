@@ -22,12 +22,12 @@ panel](https://cp.rackspace.com), and perform the following steps:
 
 1. At the top of the page, click the **Add Storage** link under **Microsoft SharePoint**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SharePoint1.3.png" width="488" height="113" />
+    <img src="{% asset_path sharepoint/upgrade-sharepoint-site-storage-cloud-office-control-panel/SharePoint1.3.png %}" width="488" height="113" />
 
 2. In the **Quantity** field, enter the amount of additional storage that you want in whole numbers. Your current monthly rate, along
     with your new monthly rate, and prorated charges are displayed in the **Summary** section.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SharePoint2.3.png" width="692" height="317" />
+    <img src="{% asset_path sharepoint/upgrade-sharepoint-site-storage-cloud-office-control-panel/SharePoint2.3.png %}" width="692" height="317" />
 
 3. Click **Review Order**.
 

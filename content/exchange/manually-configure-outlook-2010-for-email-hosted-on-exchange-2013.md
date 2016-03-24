@@ -19,7 +19,7 @@ Outlook 2010 email client.
 1. Click the Windows **Start** button, select **Control Panel**, and
    then click **Mail** (32-bit).
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step1.png" width="620" height="276" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step1.png %}" width="620" height="276" />
 
    **Note:** Depending on which version of Windows you are running, you may need
    to switch to Classic view to find the **Mail** entry or it might be
@@ -33,12 +33,12 @@ Outlook 2010 email client.
    **Manually configure server settings or additional server types** and
    click **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step2.png" width="687" height="478" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step2.png %}" width="687" height="478" />
 
 4. On the **Choose Service** page, select **Microsoft Exchange or compatible
    service** and click **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step3.png" width="687" height="478" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step3.png %}" width="687" height="478" />
 
 5. On the Server Settings page, perform the following actions:
 
@@ -47,13 +47,13 @@ Outlook 2010 email client.
    3. In the **User Name** text box, enter your entire email address.
    4. Click **More Settings**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step4.png" width="687" height="478" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step4.png %}" width="687" height="478" />
 
 6. In the Microsoft Exchange dialog box, click the **Connection** tab
    and select the **Connect to Microsoft Exchange using HTTP** check box.
    Then click **Exchange Proxy Settings**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step5.png" width="354" height="439" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step5.png %}" width="354" height="439" />
 
 7. In the Microsoft Exchange Proxy Settings dialog box, perform the
    following actions:
@@ -69,7 +69,7 @@ Outlook 2010 email client.
 
    4. Click **OK**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step6.png" width="462" height="411" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step6.png %}" width="462" height="411" />
 
 8. In the Microsoft Exchange dialog box, click **Apply** and then click
    **OK**.
@@ -89,7 +89,7 @@ Outlook 2010 email client.
 
 10. Click **Next**, and on the next page, click **Finish**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step7.png" width="687" height="478" />
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8.png" width="687" height="478" />
+    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step7.png %}" width="687" height="478" />
+    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/Step8.png %}" width="687" height="478" />
 
 11. Open Outlook to select your new Exchange profile.

@@ -25,12 +25,12 @@ Mac**.
     lower-left corner.
 3.  Select **Exchange** and then click **Continue.**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM101.png" width="470" height="480" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2010/MM101.png %}" width="470" height="480" />
 
 4.  On the next page, enter your full name and your entire Microsoft
     Exchange email address and password. Then click **Continue**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM102.png" width="403" height="347" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2010/MM102.png %}" width="403" height="347" />
 
     -   If your Autodiscover CNAME record is set correctly, Mail
         automatically pulls the correct server settings for you. Skip to
@@ -48,13 +48,13 @@ Mac**.
     -   **Server Address** - Enter **connect.emailsrvr.com**.
 
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM104_0.png" width="377" height="322" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2010/MM104_0.png %}" width="377" height="322" />
 6.  Confirm the settings and then click **Continue**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM103.png" width="396" height="339" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2010/MM103.png %}" width="396" height="339" />
 7.  Choose any other options that you want to enable, and then click
     **Done**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MM105_0.png" width="397" height="333" />
+    <img src="{% asset_path exchange/manually-configure-mac-mail-for-email-hosted-on-exchange-2010/MM105_0.png %}" width="397" height="333" />
 
 Your Microsoft Exchange 2010 email account is now set up with Mac Mail.

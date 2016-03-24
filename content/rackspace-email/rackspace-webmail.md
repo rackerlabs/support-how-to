@@ -69,7 +69,7 @@ options available for users.
 - **New Messages** provides the option to play an alert for new the arrival of new messages and the option to choose how often to check for new messages.
 - **Trash Options** provides the option to move deleted email to the trash or immediately purge upon deletion.
 
-<img src="http://c15043262.r62.cf2.rackcdn.com/Webmail.png" alt="" />
+<img src="{% asset_path rackspace-email/rackspace-webmail/Webmail.png %}" alt="" />
 
 #### General Settings: Calendar
 
@@ -85,7 +85,7 @@ options available for users.
 - **Composing** provides various options to choose from, such as auto-completing email addresses when composing a new email, default fonts for HTML formats, default size for HTML formats, and so on.
 - **Replying & Forwarding Citations** provides the ability to select whether you want the original composed message to be included in your reply and to set a user defined start text and end text of your choice.
 
-<img src="http://c15043262.r62.cf2.rackcdn.com/Webmail2.png" alt="" />
+<img src="{% asset_path rackspace-email/rackspace-webmail/Webmail2.png %}" alt="" />
 
 #### Composing Email: Identities
 
@@ -101,14 +101,14 @@ options available for users.
 - **Forwarding** enables you to forward any mail to any email address with the option to save a copy in your inbox.
 - **Filtering** provides the ability to create filters for specific incoming email and to route them to a specified folder.
 
-<img src="http://c15043262.r62.cf2.rackcdn.com/Webmail3.png" alt="" />
+<img src="{% asset_path rackspace-email/rackspace-webmail/Webmail3.png %}" alt="" />
 
 #### Spam Settings: Preferences
 
 - **Spam Filtering** provides the ability to turn your spam filtering on and off, or have it be exclusive.
 - **Spam Handling** enables you to specify how you would like your spam email to be handled.
 
-<img src="http://c15043262.r62.cf2.rackcdn.com/Webmail4.png" alt="" />
+<img src="{% asset_path rackspace-email/rackspace-webmail/Webmail4.png %}" alt="" />
 
 #### Spam Settings: Safelist and Blacklist
 

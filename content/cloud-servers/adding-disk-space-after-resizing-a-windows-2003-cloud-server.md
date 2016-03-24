@@ -19,13 +19,13 @@ product_url: cloud-servers
     and logging in as the user Administrator, or with an account that is
     part of the Administrator group.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/RDPConnectExample.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/RDPConnectExample.png %}" alt="" />
 
 -   From the Desktop of your Windows Server 2003 Cloud Server, open
     the **Start Menu** and select **Administrative
     Tools > Computer Management**.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003AdminTools.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003AdminTools.png %}" alt="" />
 
 -   Under the **Storage** folder in the left pane, select **Disk
     Management**.  In the left pane of Disk Management you will see the
@@ -33,17 +33,17 @@ product_url: cloud-servers
     see an amount of unallocated space in the right pane.  Right-click
     on the Unallocated space and choose **New Partition** from the menu.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003NewPartition.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003NewPartition.png %}" alt="" />
 
 -   This will open the **New Partition Wizard** screen.
      Press **Next** to begin.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003NewPartitionWizard.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003NewPartitionWizard.png %}" alt="" />
 
 -   **Select Partition Type** - Check the radio button next
     to **Primary partition **and click **Next. **
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003PrimaryPartition.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003PrimaryPartition.png %}" alt="" />
 
 -   **Specify Partition Size** - Next you will be asked to specify the
     partition size.  If you want to add all of your available disk space
@@ -52,19 +52,19 @@ product_url: cloud-servers
     disk space for the new partition, you can specify the amount of
     space to use in the **Partition size in MB** field.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003SpecifyPartitionSize.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003SpecifyPartitionSize.png %}" alt="" />
 
 -   **Assign Drive Letter** - Choose the drive letter for your new
     volume and click **Next**.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003AssignDriveLetter.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003AssignDriveLetter.png %}" alt="" />
 
 -   **Format Partition** - Format the partition as an NTFS partition.
      Here you can also name the partition, such as "New Volume" in
     this example.  Keep the default settings on this screen, and
     press **Next**.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003FormatPartition.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003FormatPartition.png %}" alt="" />
 
 -   **Complete the New Partition Wizard** - You have now successfully
     created and formatted a new partition as the destination for the
@@ -72,10 +72,10 @@ product_url: cloud-servers
     Server 2003 Cloud Server.  Press the **Finish** button to complete
     the process.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003CompleteNewPartWiz3.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003CompleteNewPartWiz3.png %}" alt="" />
 
 -   You will now see the additional disk drive volume that you created.
      Close Computer Management and begin using the additional space that
     you have just created.
 
-  <img src="http://c575672.r72.cf2.rackcdn.com/Win2003driveCandD.png" alt="" />
+  <img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-2003-cloud-server/Win2003driveCandD.png %}" alt="" />

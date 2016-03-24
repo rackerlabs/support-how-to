@@ -15,7 +15,7 @@ You can use two methods to configure an Internet Protocol Security (IPsec) site-
 
 This is an example of a site-to-site VPN configuration with a Vyatta firewall on the Rackspace side and a Cisco firewall on the customer side (data center or another remote location).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-1.png" alt="" />
+<img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-1.png %}" alt="" />
 
 ### NAT and IPsec
 
@@ -25,7 +25,7 @@ Network Address Translation (NAT) and the IPsec engine work the same on the Vyat
 
 Assume that there is an outbound PAT policy whereby all server traffic coming from the inside segment goes through PAT to the vRouter's public IP address for Internet-bound traffic. [Be sure to refer to the example.]
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-2_0.png" alt="" />
+<img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-2_0.png %}" alt="" />
 
 ### NAT bypass
 
@@ -33,7 +33,7 @@ You need to bypass the preceding PAT policy for VPN traffic only. The easiest wa
 
 **Example of NAT bypass**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-3_1.png" alt="" />
+<img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-3_1.png %}" alt="" />
 
 ### IPsec VPN configuration
 
@@ -41,7 +41,7 @@ You need to bypass the preceding PAT policy for VPN traffic only. The easiest wa
 
 **ISAKMP and IPsec requirements**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-4_0.png" alt="" />
+<img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-4_0.png %}" alt="" />
 
 #### Phase 1 configuration
 
@@ -49,36 +49,36 @@ If the kickstart configuration does not provide the combination of Phase 1 and P
 
 - If the required lifetime value is already part of an  IKE group, you can create a new proposal within that IKE group, as shown in the following example:
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-5_0.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-5_0.png %}" alt="" />
 
 - If you require a different lifetime value than any configured, then you would require a new IKE group, as shown in the following example:
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-6_0.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-6_0.png %}" alt="" />
 
 #### Phase 2 configuration
 
 -  ESP group
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-7_0.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-7_0.png %}" alt="" />
 
 -  IPsec peer (tunnel group)
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-8_0.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-8_0.png %}" alt="" />
 
 -  Interesting traffic for IPsec peer
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-10_0.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-10_0.png %}" alt="" />
 
 #### The complete configuration
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-11_1.png" alt="" />
+<img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-11_1.png %}" alt="" />
 
 ### Verify the tunnels
 
 -  Phase 1 SA
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-12_0.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-12_0.png %}" alt="" />
 
 -  Phase 2 SA
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/884-13.png" alt="" />
+  <img src="{% asset_path cloud-networks/vyatta-ipsec-site-to-site-vpn/884-13.png %}" alt="" />

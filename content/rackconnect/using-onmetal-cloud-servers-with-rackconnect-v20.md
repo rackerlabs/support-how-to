@@ -64,7 +64,7 @@ infrastructure with these offerings:
     a new server, select the **OnMetal Server** tab, and then click
     the **Image** field.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/OnMetal_Build_0.png" width="508" height="445" />
+    <img src="{% asset_path rackconnect/using-onmetal-cloud-servers-with-rackconnect-v20/OnMetal_Build_0.png %}" width="508" height="445" />
 
 -   OnMetal servers might not be available in all regions. To view the
     regions where OnMetal is currently available, you can follow the

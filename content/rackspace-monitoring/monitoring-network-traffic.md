@@ -351,15 +351,15 @@ To learn more about IPtreaf, check out the [Manual Page for IPtraf](http://linux
 
 -   General Output : **iptraf -g**
 
-    <img src="http://c13291525.r25.cf2.rackcdn.com/IMAGE1.png" alt="" />
+    <img src="{% asset_path rackspace-monitoring/monitoring-network-traffic/IMAGE1.png %}" alt="" />
 
 -   Detailed Information on a Select Interface : **iptraf -d iface**
 
-    <img src="http://c13291525.r25.cf2.rackcdn.com/IMAGE2.png" alt="" />
+    <img src="{% asset_path rackspace-monitoring/monitoring-network-traffic/IMAGE2.png %}" alt="" />
 
 -   Semi-Graphical Interface : **iptraf**
 
-    <img src="http://c691244.r44.cf2.rackcdn.com/IPtrafe-IMAGE3.jpg" alt="" />
+    <img src="{% asset_path rackspace-monitoring/monitoring-network-traffic/IPtrafe-IMAGE3.jpg %}" alt="" />
 
 
 

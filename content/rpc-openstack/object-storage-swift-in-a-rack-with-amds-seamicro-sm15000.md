@@ -62,7 +62,7 @@ rack, 2.4 PB solution. The solution is easy to deploy with no top of
 rack switches. Only a small number of cables are required due to the
 integration of compute, networking and storage in the SM15000.
 
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Front%20of%20Rack%20View%20and%20Wiring%20Diagram.jpg" width="664" height="716" />
+ <img src="{% asset_path rpc-openstack/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/Front%20of%20Rack%20View%20and%20Wiring%20Diagram.jpg %}" width="664" height="716" />
 
 **Figure 1: Front of Rack View and Wiring Diagram**
 
@@ -78,7 +78,7 @@ the Freedom&trade; Fabric. There is no single point of failure and the
 Freedom&trade; Fabric is "self-healing", re-routing any traffic that would
 otherwise be unable to reach its destination.
 
-** <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SeaMicro%20Fabric.jpg" width="508" height="282" />**
+** <img src="{% asset_path rpc-openstack/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/SeaMicro%20Fabric.jpg %}" width="508" height="282" />**
 
 **Figure 2: SeaMicro Fabric**
 
@@ -103,7 +103,7 @@ logical groups of resources that can be different datacenters, racks,
 servers, or disk drives. The goal is for failures in one zone to have no
 effect on the others.
 
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Distributed%20Object%20Storage%20Reference%20Architecture.jpg" width="721" height="520" />
+ <img src="{% asset_path rpc-openstack/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/Distributed%20Object%20Storage%20Reference%20Architecture.jpg %}" width="721" height="520" />
 
 **Figure 3: Distributed Object Storage Reference Architecture**
 
@@ -138,11 +138,11 @@ architecture will have:
 
 
 
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Swift%20in%20a%20Rack%20Reference%20Architecture.jpg" width="669" height="415" />
+ <img src="{% asset_path rpc-openstack/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/Swift%20in%20a%20Rack%20Reference%20Architecture.jpg %}" width="669" height="415" />
 
 **Figure 4: "Swift in a Rack" Reference Architecture**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Swift%20in%20a%20Rack%20Recommended%20Configuration.jpg" width="686" height="515" />
+<img src="{% asset_path rpc-openstack/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/Swift%20in%20a%20Rack%20Recommended%20Configuration.jpg %}" width="686" height="515" />
 
 **Figure 5: "Swift in a Rack" Recommended Configuration**
 

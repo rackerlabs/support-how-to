@@ -37,7 +37,7 @@ this time, you should use the universal ftp address,
 add content to your site before DNS has fully propagated to The
 Rackspace Cloud.
 
-<img src="http://c806394.r94.cf2.rackcdn.com/ftpserver2.png" alt="" />
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-ftpsshfsftp-clients/ftpserver2.png %}" alt="" />
 
 ### Tasks frequently needed with FTP
 
@@ -51,7 +51,7 @@ You can find your FTP password in the Rackspace Cloud Control Panel
 -   Your FTP information can be found in the **Viewing and Editing**
     section of the initial page
 
-<img src="http://c806394.r94.cf2.rackcdn.com/ftpsettings.png" alt="" />
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-ftpsshfsftp-clients/ftpsettings.png %}" alt="" />
 
 **How can I add additional FTP users?**
 
@@ -66,19 +66,19 @@ To create FTP users:
 -   Click on the **domain** you want to add another FTP user to
 -   Click on the **Security** tab
 
-<img src="http://c806394.r94.cf2.rackcdn.com/securitytab.png" alt="" />
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-ftpsshfsftp-clients/securitytab.png %}" alt="" />
 
 1. In the **Permissions For Editing Your Website** section, click on **Add A User**.
 
-   <img src="http://c806394.r94.cf2.rackcdn.com/addauser.png" alt="" />
+   <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-ftpsshfsftp-clients/addauser.png %}" alt="" />
 
 2. **Create** the new FTP user's username and password.
 
-   <img src="http://c806394.r94.cf2.rackcdn.com/ftpnewuserpass.png" alt="" />
+   <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-ftpsshfsftp-clients/ftpnewuserpass.png %}" alt="" />
 
 3. Choose the directory level to which the new FTP user will have access.
 
-   <img src="http://c806394.r94.cf2.rackcdn.com/ftppermissions.png" alt="" />
+   <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-ftpsshfsftp-clients/ftppermissions.png %}" alt="" />
 
 4. Click **Save** to finish adding the new FTP user.
 

@@ -49,29 +49,29 @@ The following screenshots illustrate this new capability:
 
 MyRackspace Portal - Create New Container:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreateContainer.png" width="745" height="401" />
+<img src="{% asset_path cloud-files/multi-region-support-in-cloud-files/CreateContainer.png %}" width="745" height="401" />
 
 Cloud Control Panel - Create New Container:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TestContainerVirginia_0.png" width="448" height="346" />
+<img src="{% asset_path cloud-files/multi-region-support-in-cloud-files/TestContainerVirginia_0.png %}" width="448" height="346" />
 
 
 
 Cloud Control Panel - Upload Files or click the Containers link in the
 breadcrumb trail to see your container list.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ContainerContent_0.png" width="727" height="361" />
+<img src="{% asset_path cloud-files/multi-region-support-in-cloud-files/ContainerContent_0.png %}" width="727" height="361" />
 
 
 
 Cloud Control Panel - List Containers
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ContainerList_0.png" width="1003" height="368" />
+<img src="{% asset_path cloud-files/multi-region-support-in-cloud-files/ContainerList_0.png %}" width="1003" height="368" />
 
 Our API users will also see changes in their Service Catalog, which now
 shows multiple endpoints for "object store":
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cf%20-%20api%20access%20points.png" width="599" height="406" />
+<img src="{% asset_path cloud-files/multi-region-support-in-cloud-files/cf%20-%20api%20access%20points.png %}" width="599" height="406" />
 
 
 

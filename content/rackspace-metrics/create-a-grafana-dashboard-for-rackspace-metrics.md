@@ -46,7 +46,7 @@ To create a Grafana dashboard, complete the following steps:
     After the template is complete, you will see a page that displays
     information about your custom template, including a description.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-customized-template1.png" width="513" height="297" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-customized-template1.png %}" width="513" height="297" />
 
 
 8.  From the **Actions** menu, choose **Create Stack from Template**.
@@ -62,7 +62,7 @@ To create a Grafana dashboard, complete the following steps:
     The stack details page is displayed.
     While the stack is being built, the **Status** is **Building**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-create-stack-building.png" width="449" height="400" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-create-stack-building.png %}" width="449" height="400" />
 
 
 When the stack has finished building, the **Status** field changes to
@@ -70,7 +70,7 @@ When the stack has finished building, the **Status** field changes to
 and a Grafana auth username that you can use to access your Grafana
 dashboard. Be sure to record this information.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-metrics-up1.png" width="408" height="600" />
+<img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-metrics-up1.png %}" width="408" height="600" />
 
 ### Use the Grafana dashboard
 
@@ -85,7 +85,7 @@ To access the Grafana dashboard, perform the following steps:
     the stack and click **Log In**.
     Your Grafana dashboard is displayed.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-home-page_0.png" width="432" height="284" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-home-page_0.png %}" width="432" height="284" />
 
 Note that all of the metrics submitted by Rackspace Monitoring are displayed in the following format:
 
@@ -109,7 +109,7 @@ checks](/how-to/working-with-checks).
 The following screenshot shows where you can locate the entity ID on
 the **Monitoring Details** page.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-monitoring-details_0.png" alt="" />
+<img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-monitoring-details_0.png %}" alt="" />
 
 You can also locate the monitoring and check IDs by looking at the
 Rackspace Intelligence URL for a particular check. Following is an
@@ -134,15 +134,15 @@ complete the following steps:
     instances of `\_rax\_entity\_id\_` in the file with the entity ID of
     your database instance.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-replace-entty-id1.png" width="639" height="76" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-replace-entty-id1.png %}" width="639" height="76" />
 3.  On the Grafana dashboard, click the folder icon in the top-right corner, click **Import**, click **Choose File**, and then upload     the file to Grafana.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-JSON-file-upload.png" width="432" height="184" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-JSON-file-upload.png %}" width="432" height="184" />
 
     The dashboard automatically appears and displays your MySQL database
     instances.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-mysql-data.png" width="428" height="337" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-mysql-data.png %}" width="428" height="337" />
 
 #### (Optional) Use Annotation
 With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Use annotation metrics](/how-to/use-annotation-metrics) for additional information. 
