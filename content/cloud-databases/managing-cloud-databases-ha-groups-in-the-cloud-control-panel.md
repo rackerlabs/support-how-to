@@ -27,11 +27,11 @@ Use the following steps to create a high availability (HA) instance group
 
 3.	In the **Databases** menu, select **MySQL Instance...** under **CREATE RESOURCES**.
 
-<! Insert Image: TopNavigationCreate.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-top-nav-create-1.png)
 
 4.	In the **Identity** section, provide a name for the instance and specify the region in which you want to launch the HA instances
 
-<! Insert Image: CreateInstanceName_Region.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-create-instance-region-2.png)
 
 	**Note:** The name provided in step 4 will be applied to all instances and then an index \(-01, -02, etc.\) will be applied to all instance names starting with the master. You can also see this in the **Build** section.
 
@@ -39,11 +39,11 @@ Use the following steps to create a high availability (HA) instance group
 
 6.	In the **Build** section, select the amount of RAM and Disk you would like **each instance** of your HA group to have. The master and all replicas will all be created with this same amount of RAM and Disk each.
 
-<! Insert Image: CreateInstanceBuildRAMDisk.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-create-instance-build-3.png)
 
 7.	Also, in the **Build** section, select the **High-Availability Group** radio button next to **Instance Type**, which will then display a couple of new selections.
 
-<! Insert Image: CreateInstanceBuildHAExpanded.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-create-instance-build-ha-4.png)
 
 	You are now presented with:
 	- An **HA Instances** section that lists the Master and Replica instances along with their names. You can remove replicas by clicking the little circle next to the last replica, or add a replica by selecting **+ Add another replica** beneath the list. Currently, HA groups only support 1 or 2 replicas.
@@ -55,7 +55,7 @@ Use the following steps to create a high availability (HA) instance group
 
 	A major difference between single instances and HA instance groups is that HA groups sit behind a load balancer with a firewall. That firewall is set to block all connections by default, so you must add allowed IP addresses/ranges by clicking the **Add IP Range** button. Both Single IP addresses and IP address ranges in CIDR format are allowed.
 
-<! Insert Image: CreateInstanceACLs.png>	
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-create-instance-acl-5.png)	
 
     **Note:** You will not be able to connect to your HA instance group without first setting up the allowed IPs/ranges here. You can add/remove addresses and ranges later as well
 
@@ -79,11 +79,11 @@ Backups | Number of backups for this group and the option to create an On-Demand
 
 1.	While the group is building, the **HA Group Status** is shown as `Building` and a `Loading...` animation is shown in the **HA Group Networks** table
 
-<! Insert Image: InstanceDetailsBuilding.png>	
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-instance-details-building-6.png)	
 
 2. When the group has completed building, the **HA Group Status** section will change to `Active` and the **HA Group Networks** section will show the hostnames that can be used to connnect to the instance group
 
-<! Insert Image: InstanceDetailsBuilt.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-instance-details-built-7.png)
 
 	The **HA Group Networks** section displays the hostnames and ports that are used to connect to the instance. These hostnames will stay the same regardless of failovers and which instance is the master.
 	
@@ -108,9 +108,9 @@ Backups | Number of backups for this group and the option to create an On-Demand
 
 	All actions taken on the HA group will apply to all instances in the group. Resizes will take place on all instances. Backups will be taken against a replica of the HA group.
 
-<! Insert Image: InstanceDetailsBuilt.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-instance-details-built-7.png)
 
 4.	An alternate way to make the modifications from the previous step, is to use the gear in the upper right corner. The gear adds an additional action to delete the HA group.
 
-<! Insert Image: InstanceDetailsGear.png>
+   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/managing-cloud-databases-instance-details-gear-8.png)
 
