@@ -11,18 +11,12 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-Depending on your Support Service Level for Rackspace Public Cloud, you
-have one of the following upgrade options:
-
--   Upgrade from the Managed Infrastructure service level to the Managed
-    Ops: SysOps service level or the Managed Ops: DevOps service level
--   Upgrade from the Managed Ops: SysOps service level to the Managed
-    Ops: DevOps service level
+Depending on your Support Service Level for Rackspace Public Cloud, you have the option to upgrade from the Managed Infrastructure service level to the Managed Ops: SysOps service level. 
 
 **Note:** To identify your current Support Service Level, log in to your
 account and check in the top-right corner of the Cloud Control Panel for
-one of the following labels: **Managed Infrastructure**, **Managed Ops:
-SysOps**, **Managed Ops: DevOps**.
+one of the following labels: **Managed Infrastructure** or **Managed Ops:
+SysOps**.
 
 **Upgrade from the Managed Infrastructure service level**
 ---------------------------------------------------------
