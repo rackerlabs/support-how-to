@@ -19,13 +19,13 @@ After you log in to the control panel, you will see a variety of
 sections that showcase the services for which you have signed up. Each section has a variety of
 options and tools to choose from. As you sign up for additional services, they will appear here to enable you to manage them directly from the landing page.
 
-![Cloud Office Control Panel landing page](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-main-1.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-main-1.jpg" alt="Cloud Office Control Panel landing page" />
 
 ### Rackspace Email
 
 The **Rackspace Email** section provides you with options and tools such as spam filtering, group lists, aliases, and mobile devices.
 
-![Cloud Office Control Panel Rackspace Email](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-email-2.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-email-2.jpg" alt="Cloud Office Control Panel Rackspace Email" />
 
 Following are some of the options available in the **Rackspace Email** section of the control panel:
 
@@ -46,7 +46,7 @@ Following are some of the options available in the **Rackspace Email** section o
 
 The **Microsoft Exchange** section provides you with options and tools such as spam filtering, distribution lists, contacts, resources, and mobile devices.
 
-![Cloud Office Control Panel Microsoft Exchange](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-exchange-3.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-exchange-3.jpg" alt="Cloud Office Control Panel Microsoft Exchange" />
 
 Following are some of the options available in the **Microsoft Exchange** section of the control panel:
 
@@ -69,7 +69,7 @@ Following are some of the options available in the **Microsoft Exchange** sectio
 
 The **My Account** section is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. This section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and find general information.
 
-![Cloud Office Control Panel My Account](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-account-4.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-account-4.jpg" alt="Cloud Office Control Panel My Account" />
 
 Following are the options available for the **My Account** section in the control panel:
 
@@ -98,9 +98,9 @@ Provide feedback on our products and services.
 
 The **Domains** section enables you to access your domain's DNS settings, add disclaimers, view domains, and manage spam filter settings.
 
-![Cloud Office Control Panel domains](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-domains-5.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-domains-5.jpg" alt="Cloud Office Control Panel domains" />
 
-![Cloud Office Control Panel domains home](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-domain-home-6.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-domain-home-6.jpg" alt="Cloud Office Control Panel domains home" />
 
 Following are some of the options available in the **Domains** section of the control panel:
 
@@ -137,7 +137,7 @@ Following are some of the options available in the **Domains** section of the co
 
 The **Support** section enables you to use support documents for the most common questions, access the [Help Tool](how-to/help-tool-for-hosted-email-and-skype-for-business), and view or create support tickets if you ever need assistance.
 
-![Cloud Office Control Panel support](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-support-7.jpg)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-support-7.jpg" alt="Cloud Office Control Panel support" />
 
 Following are the options available in the **Support** section of the control panel:
 
@@ -146,4 +146,4 @@ Following are the options available in the **Support** section of the control pa
 -  **Email Setup Wizard** - View useful mailbox information while using step-by-step instructions on how to set up your Cloud Office services.
 -  **View Tickets** - Create a new ticket and view any past tickets on the Support Tickets landing page.
 
-  ![Cloud Office Control panel support tickets](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-support-tickets-8.jpg)
+  <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/exchange/microsoft-exchange-cp-support-tickets-8.jpg" alt="Cloud Office Control panel support tickets" />

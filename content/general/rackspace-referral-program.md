@@ -19,7 +19,7 @@ to help you leverage the Rackspace brand in the global marketplace to
 uncover new opportunities and easily refer our solutions to your
 customers and prospects.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Referral_Prog_Collateral_Update-1a.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Referral_Prog_Collateral_Update-1a.png" alt="" />
 
 In the Rackspace Referral Program, you will be in safe hands. In
 addition to receiving Rackspace and cobranded collateral, we also have a
@@ -46,7 +46,7 @@ With the Rackspace referral program you will be paid in one simple
 single payment reflecting the average monthly recurring revenue of the
 lead you passed us. It's hassle free and totally transparent.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Referral_Prog_Collateral_Update-2.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Referral_Prog_Collateral_Update-2.png" alt="" />
 
 ### Fanatical Support&reg; for You and Your Customers
 

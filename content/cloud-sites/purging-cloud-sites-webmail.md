@@ -29,7 +29,7 @@ space, you'll need to make the following changes:
   -  Move deleted email to the Trash folder
   -  Move purged email to the Trash folder
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CourtneyPic1.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CourtneyPic1.png" alt="" />
 
 After you have saved the changes you can then delete or purge messages.
 If you would like to see which folders contain the most messages you can
@@ -37,4 +37,4 @@ go to the "Folder Manager", which is the gold button next to the Inbox.
 This will provide you with the option to "Update Sizes" as well as purge
 folders.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CourtneyPic2.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CourtneyPic2.png" alt="" />

@@ -43,7 +43,7 @@ code). To obtain the code, follow these steps:
 4.  Click the **DNS** tab.
 5.  Under **Domain Registration**, click **Retrieve Domain Authcode**.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DNS_Tabblur.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DNS_Tabblur.png" alt="" />
 
 **Note:** If the domain is either an alias or has been removed from the
 control panel, contact Rackspace Support. Support can send an automated

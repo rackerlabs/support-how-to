@@ -54,7 +54,7 @@ Where **file.zip** is the name that you assign to the zip file.
 
 The final script should look similar to this:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Zip_script_visual.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Zip_script_visual.png" alt="" />
 
 **Note:** If you're only compressing a single file the script would be
 similar, but would not require the "r" in the options.
@@ -76,7 +76,7 @@ Where **file.tar.gz** is the name that you assign to the compressed file.
 
 The final script should look similar to this:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Zip_script_visual.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Zip_script_visual.png" alt="" />
 
 ### Extracting
 
@@ -93,7 +93,7 @@ Where **file.zip** is the name of the zip file to be uncompressed.
 
 The final script should look similar to this:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Unzip_script_visual_0.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Unzip_script_visual_0.png" alt="" />
 
 **Note:** The -o option will force unzip to overwrite existing files.
 
@@ -108,7 +108,7 @@ Where **file.tar.gz** is the name of the compressed file.
 
 The final script should look similar to this:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Untar_script_visual.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Untar_script_visual.png" alt="" />
 
 ### Cron FAQs:
 

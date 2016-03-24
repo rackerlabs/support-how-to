@@ -59,7 +59,7 @@ perform these steps:
 3.  On the **Server Details** screen, click **Add Record** next to the
     Reverse DNS.
 
-    ![Add record link for Reverse DNS under Server Details](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/reverse%20DNS_add.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/reverse%20DNS_add.png" alt="Add record link for Reverse DNS under Server Details" />
 
 4.  In the Add Record pop-up window:
     -   Enter your domain name (for example **mail.example.com**) in the

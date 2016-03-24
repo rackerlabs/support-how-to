@@ -26,7 +26,7 @@ Panel](https://mycloud.rackspace.com/) by following these steps:
 3.  List the server's details by selecting **Servers &gt; Cloud
     Servers** and then clicking the server's name.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/servers-list-details-.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/servers-list-details-.png" alt="" />
 
 4.  On the server details page, scroll down to the **Monitoring
     Data** section and click the **View Server's Metrics in Rackspace

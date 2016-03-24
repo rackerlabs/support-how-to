@@ -91,7 +91,7 @@ RAM, CPU, and disk space.
 A description of the selected configuration can help you decide if the
 configuration is right for you.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-PF_IMG.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-PF_IMG.png" alt="" />
 
 When you are satisfied with your server information and configuration,
 click **Create Server.**

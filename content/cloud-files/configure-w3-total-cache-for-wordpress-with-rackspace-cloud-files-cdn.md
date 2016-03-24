@@ -20,7 +20,7 @@ This article assumes that you have already installed your WordPress website and 
 
 2.  In the navigation pane, click **Plugins > Add New**.
 
-    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-1.png)
+    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-1.png" alt="" />
 
 3.  In the **Search** box, enter **w3 total cache**.
 
@@ -28,7 +28,7 @@ This article assumes that you have already installed your WordPress website and 
 
 5.  On the Installing Plugin page, after the plug-in is installed, click **Activate Plugin**.
 
-    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-4.png)
+    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-4.png" alt="" />
 
 6.  In the navigation menu, click **Performance > General Settings**.
 
@@ -36,7 +36,7 @@ This article assumes that you have already installed your WordPress website and 
 
 8.  In the CDN section, select the **Enable** check box, and select **Rackspace Cloud Files** as the CDN type. Then, click **Save all settings**.
 
-    ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-6.png)
+    <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-6.png" alt="" />
 
     The following error message appears because the plug-in has not been set up yet:
 
@@ -65,13 +65,13 @@ This article assumes that you have already installed your WordPress website and 
 
      Your configuration should look similar to the following one:
 
-     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-9.png)
+     <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-9.png" alt="" />
 
 14.  Save your settings.
 
 15.  In the General section on the CDN page, click **Upload includes files**.
 
-     ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-10.png)
+     <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-10.png" alt="" />
 
 16.  In the Media Library export window, click **Start**.
 
@@ -84,10 +84,10 @@ This article assumes that you have already installed your WordPress website and 
       - Select your domain, and click **Add Record**.
       - Select **CNAME Record** as the Record Type.
 
-        ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-13.png)
+        <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-13.png" alt="" />
 
 Now when you create a new post on your WordPress site and upload an image, the image is automatically uploaded to your Cloud Files container. You can confirm this by checking the source of your page. It should look similar to the following screenshot:
 
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-14.png)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud%20files/files-configure-w3-total-14.png" alt="" />
 
 **Note:** If you resize images by using the built-in image editor in WordPress, the W3 Total Cache plug-in might fail to upload any image that was modified using this process. To solve this problem, you can upload your **uploads** file manually. Just upload it directly to your Cloud Files container so that it replaces your current **uploads** file.

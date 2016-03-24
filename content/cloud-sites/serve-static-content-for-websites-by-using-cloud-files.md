@@ -39,7 +39,7 @@ To complete this process, you need the following items:
 5.  In a text editor, create a sample HTML page that lays out the basic
     form of your website. Following is an example:
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sitelayoutpage_0.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sitelayoutpage_0.png" alt="" />
 
 6.  Incorporate the public URLs of your images and additional content
     into your site layout document where those are referenced. For

@@ -32,8 +32,8 @@ Alternatively, you can set up your account using IMAP as described at
    **Note:** If the setup assistant window appears, select **Configure Account
    Manually**, select **New**, and then **Exchange**.
 
-   ![](http://c939102.r2.cf2.rackcdn.com/(E%26A)Entourage2008EWSExchange.png)
-   ![](http://c939102.r2.cf2.rackcdn.com/(E%26A)Entourage2008EWSExchange2.png)
+   <img src="http://c939102.r2.cf2.rackcdn.com/(E%26A)Entourage2008EWSExchange.png" alt="" />
+   <img src="http://c939102.r2.cf2.rackcdn.com/(E%26A)Entourage2008EWSExchange2.png" alt="" />
 
 2. In the pop-up window, enter the following information into the
    fields:
@@ -55,11 +55,11 @@ Alternatively, you can set up your account using IMAP as described at
    - **Password** - Enter the password associated with
     the email address you're setting up.
 
-   ![](http://c8607259.r59.cf2.rackcdn.com/Exchange2010Entourage.png)
+   <img src="http://c8607259.r59.cf2.rackcdn.com/Exchange2010Entourage.png" alt="" />
 
 3. Click the **Advanced** tab and, in the **Exchange
    Server** box, enter **connect.emailsrvr.com** and then select **OK**.
    Your account will then connect and mail data will begin to populate into
    your inbox.
 
-   ![](http://c8607259.r59.cf2.rackcdn.com/Exchange2010Entourage2.png)
+   <img src="http://c8607259.r59.cf2.rackcdn.com/Exchange2010Entourage2.png" alt="" />

@@ -41,7 +41,7 @@ When you have completed the required tasks, follow these steps to retrieve your 
 
 5.	You will see the **View CSR** link in the control panel.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/view_csr.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/view_csr.png" alt="" />
 
 ### Tips
 

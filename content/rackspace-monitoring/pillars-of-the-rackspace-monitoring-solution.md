@@ -14,7 +14,7 @@ product_url: rackspace-monitoring
 
 Rackspace offers its monitoring solution through three pillars of products: Rackspace Monitoring, Rackspace Metrics and Rackspace Intelligence—the MMI products. Through the seamless integration, the MMI products enable customers to improve system performance and availability through through a single pane of glass and enterprise-grade platform.
 
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-mmi.png)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-mmi.png" alt="" />
 
 - Rackspace Monitoring offers reliable data gathering and accurate alert generation. For details, see the following concepts section.
 - Rackspace Metrics provides on economical and reliable data storage at scale. For details, see the [Rackspace Metrics overview](https://support.rackspace.com/how-to/rackspace-metrics-overview/).
@@ -25,7 +25,7 @@ Rackspace offers its monitoring solution through three pillars of products: Rack
 
 The following diagram illustrates the key concepts of the Rackspace Monitoring product.  The concepts are explained further after the following diagram.
 
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-concepts.png)
+<img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-concepts.png" alt="" />
 
 - **Entities** represent any object or resource that you want to monitor. You can create an entity through the UI, API, or CLI for any server or website that you want to monitor. Entities can be servers or non-server objects, but most often entities refer to individual servers. As you create new cloud servers, cloud databases, or dedicated devices, entities are created automatically. For more information, see the API operations reference for the [entities resource](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#entities-operations).
 - **Checks** specify the parts or pieces of the entity for which you want to collect metrics on and how you want to do it. In other words, a check returns a group of related metrics. Checks of different types return different sets of metrics, which help you figure out how to collect the data you want. For a complete list of check types, see the [Check typs documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-tech-ref-info/check-type-reference).

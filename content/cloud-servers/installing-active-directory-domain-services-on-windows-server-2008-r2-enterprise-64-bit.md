@@ -48,23 +48,23 @@ private network adapter, as follows:
 2.  In the **Server Summary** section of the Server Manager
     window, click **View Network Connections**.
 
-    ![2K8\_64R2\_ADDS.jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS.jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS.jpg" alt="2K8\_64R2\_ADDS.jpg" />
 
 3.  In the Network Connections window, right-click the private
     adapter and select **Properties**.
 
-    ![2K8\_64R2\_ADDS(1).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(1).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(1).jpg" alt="2K8\_64R2\_ADDS(1).jpg" />
 
 4.  Select **Internet Protocol Version 4**, and then
     click **Properties**.
 
-    ![2K8\_64R2\_ADDS(7).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(7).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(7).jpg" alt="2K8\_64R2\_ADDS(7).jpg" />
 
 5.  Copy the IP address that is displayed in the **IP address**
     box and paste it into the **Preferred DNS server** box. Then, click
     **OK**.
 
-    ![2K8\_64R2\_ADDS(2).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(2).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(2).jpg" alt="2K8\_64R2\_ADDS(2).jpg" />
 
 6.  Click **OK** in the Properties dialog box, and close the
     Network Connections window.
@@ -83,7 +83,7 @@ framework for Windows Server 2008 to become a DC and run AD DS. It does
 1.  In the Server Manager window, open the **Roles** directory and
     in the **Roles Summary** section, click **Add Roles**.
 
-    ![2K8\_64R2\_ADDS(3).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(3).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(3).jpg" alt="2K8\_64R2\_ADDS(3).jpg" />
 
 2.  On the Before You Begin page of the Add Roles Wizard, click
     **Next**.
@@ -155,14 +155,14 @@ command prompt. Then, skip to step 4.
     Forest Functional Level page, select **Windows Server 2008 R2** in
     the **Forest function level** list. Then, click **Next**.
 
-    ![2K8\_64R2\_ADDS(14).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(14).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(14).jpg" alt="2K8\_64R2\_ADDS(14).jpg" />
 
     The installation examines and verifies your DNS setting.
 
 9.  On the Additional Domain Controller Options page, ensure that
     the **DNS server** check box is selected, and then click **Next**.
 
-    ![2K8\_64R2\_ADDS(15).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(15).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(15).jpg" alt="2K8\_64R2\_ADDS(15).jpg" />
 
 
 10. In the message dialog box that appears, click
@@ -173,7 +173,7 @@ command prompt. Then, skip to step 4.
 11. On the Location for Database, Log Files, and SYSVOL page,
     accept the default values and then click **Next**.
 
-    ![2K8\_64R2\_ADDS(17).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(17).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(17).jpg" alt="2K8\_64R2\_ADDS(17).jpg" />
 
 12. On the Directory Services Restore Mode Administrator Password
     page, enter the domain administrator password that you chose during
@@ -181,20 +181,20 @@ command prompt. Then, skip to step 4.
     emailed to you during the creation of your server, although you can
     use that password if you want to. Then, click **Next**.
 
-    ![2K8\_64R2\_ADDS(18).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(18).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(18).jpg" alt="2K8\_64R2\_ADDS(18).jpg" />
 
 13. On the Summary page, review your selections and then click
     **Next**.
 
     The installation begins
 
-    ![2K8\_64R2\_ADDS(19).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(19).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(19).jpg" alt="2K8\_64R2\_ADDS(19).jpg" />
 
 14. If you want the server to restart automatically after the
     installation is completed, select the **Reboot on completion** check
     box
 
-    ![2K8\_64R2\_ADDS(20).jpg](http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(20).jpg)
+    <img src="http://c0625232.cdn.cloudfiles.rackspacecloud.com/2K8_64R2_ADDS(20).jpg" alt="2K8\_64R2\_ADDS(20).jpg" />
 
 15. If you did not select the **Reboot on completion** check box,
     click **Finish**<span> in the wizard</span>. Then, restart the

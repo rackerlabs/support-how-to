@@ -31,13 +31,13 @@ To find your domain's FTP settings follow these easy steps:
 1.  Log in to the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com).
 2.  Navigate to **Hosting > Cloud Sites**.
 
-    ![](http://c458676.r76.cf2.rackcdn.com/CSites_MainNav_09.png)
+    <img src="http://c458676.r76.cf2.rackcdn.com/CSites_MainNav_09.png" alt="" />
 
 3.  Click on the domain to which you will be adding content.
 4.  Look under the **General Settings** tab. Your FTP settings are
     listed right under the **Viewing and Editing** section.
 
-    ![](http://c806394.r94.cf2.rackcdn.com/ftpserver.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/ftpserver.png" alt="" />
 
     **Note:** There are two FTP servers you can use to add content to
     your site:

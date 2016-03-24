@@ -23,16 +23,16 @@ Let's take a look at the following steps below to see how this is done:
 you'll mouse over the **Go to section** drop-down menu and
 select **Domains**.
 
-  ![](http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation.png)
+  <img src="http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation.png" alt="" />
 
 2. In the **Manage** section, click the **DNS Settings** link.
 
-  ![](http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation2.png)
+  <img src="http://c800721.r21.cf2.rackcdn.com/UpdatingYourWhoisInformation2.png" alt="" />
 
 3. Search for the domain for which you want to manage DNS settings and
 click on the **DNS Records** link.
 
-  ![](http://c806643.r43.cf2.rackcdn.com/(E&A)ManagingDNSRecords.png)
+  <img src="http://c806643.r43.cf2.rackcdn.com/(E&A)ManagingDNSRecords.png" alt="" />
 
 4. Next, you will either choose between **Use Rackspace Name
 servers** or **Use Custom Name Servers**. By default "**Use
@@ -41,7 +41,7 @@ implemented for you. If you would like to use your own, choose **Use
 Custom Name Servers**. Make your changes as needed and then select
 **Save**.
 
-  ![](http://c806643.r43.cf2.rackcdn.com/(E&A)ManagingDNSRecords4.png)
+  <img src="http://c806643.r43.cf2.rackcdn.com/(E&A)ManagingDNSRecords4.png" alt="" />
 
 **Note:** **Use Rackspace Name Servers** must be selected for the Hosting
 and Mail Records sections to be visible. To add additional DNS records

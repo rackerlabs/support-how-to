@@ -51,7 +51,7 @@ In your contact list, hover your mouse pointer over the picture of the
 person you want to call, and then click the **Phone** icon.<span
 id="cke_bm_432E"> </span>
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/audio1a.jpg)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/audio1a.jpg" alt="" />
 
 ### Answer an audio call
 

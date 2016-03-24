@@ -33,12 +33,12 @@ and assign it to your email address.
 3. With your **Setting Up ActiveSync** window open, tap the
    **Settings** icon on the iPhone.
 
-   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone1.png)
+   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone1.png" alt="" />
 
 4. Tap **Mail, Contacts,
    Calendars, Add Account** then **Microsoft Exchange**.
 
-   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone2.png)   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone3.png)   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone4.png)
+   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone2.png" alt="" />   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone3.png" alt="" />   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone4.png" alt="" />
 
 5. The Exchange setup screen will open; you'll then enter the following
    information:
@@ -58,7 +58,7 @@ and assign it to your email address.
    - Description - Enter a descriptive name for your account (for example, My
      Work Account). This description will be visible only to you.
 
-   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone5.png)
+   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone5.png" alt="" />
 
 6. Tap the **Next** button and the device will attempt to verify the
    account.
@@ -72,7 +72,7 @@ and assign it to your email address.
    tap the **Server** field and enter the **Server address** exactly as it
    is from the **Setting Up ActiveSync** window.
 
-   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone6.png)
+   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone6.png" alt="" />
 
 8. Tap the **Next** button and the device will then try to create a
    secure (SSL) connection to your Exchange server.
@@ -84,7 +84,7 @@ and assign it to your email address.
 9. Tap the **ON/OFF** buttons to select which information to synchronize
    with the Exchange server and then tap the **Done** button when finished.
 
-   ![](http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone7.png)
+   <img src="http://c807163.r63.cf2.rackcdn.com/(E&A)SettingUpMicrosoftExchangeEmailIphone7.png" alt="" />
 
 **Note:** Your iPhone may take a moment to sync all your information
 depending on how much you have on the Exchange server. To learn more

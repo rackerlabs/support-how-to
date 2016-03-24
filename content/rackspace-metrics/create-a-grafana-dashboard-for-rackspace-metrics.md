@@ -109,7 +109,7 @@ checks](/how-to/working-with-checks).
 The following screenshot shows where you can locate the entity ID on
 the **Monitoring Details** page.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-monitoring-details_0.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/grafana-monitoring-details_0.png" alt="" />
 
 You can also locate the monitoring and check IDs by looking at the
 Rackspace Intelligence URL for a particular check. Following is an

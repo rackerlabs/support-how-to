@@ -35,7 +35,7 @@ scheduling the creation of server images.
 4.  (Optional) Enter a new image name in the pop-up for the image. If
     you don't enter a name, the server name is used as the image name.
 
-    ![Create Image](http://c691244.r44.cf2.rackcdn.com/On-Demand%20Image.png)
+    <img src="http://c691244.r44.cf2.rackcdn.com/On-Demand%20Image.png" alt="Create Image" />
 
 5.  Click **Create Image**.
 

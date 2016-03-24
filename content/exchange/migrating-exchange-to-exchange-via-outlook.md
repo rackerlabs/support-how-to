@@ -25,12 +25,12 @@ turn off cached Exchange mode before your users begin migrating their
    previous Microsoft Exchange mailbox. Select **File / Import and
    Export**.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/1.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/1.png" alt="" />
 
 2. Select the **Export to a file** option. Then select
    the **Next** button.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/2.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/2.png" alt="" />
 
 3. On the next screen, select **Personal Folder File (.pst)** then click
    the **Next** button.
@@ -54,7 +54,7 @@ turn off cached Exchange mode before your users begin migrating their
    Settings\\Application Data\\Microsoft\\Outlook\\backup.pst.**
    Select the **Browse** button to select a different location.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/3.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/3.png" alt="" />
 
    **Note:** It may be easier to locate the file later if you save it to your
    desktop. You will need to know the location of the file to import it
@@ -67,7 +67,7 @@ turn off cached Exchange mode before your users begin migrating their
 
    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ExportPersonalFolders.png" alt="Export personal folders" width="451" height="336" />
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/5.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/5.png" alt="" />
 
 **Note:** Since this file is only being used for temporary export/import, we
 recommend you use **No Encryption**
@@ -82,22 +82,22 @@ you have your account set up, perform the following steps:
 1. Open Outlook, log into your
    Microsoft Exchange mailbox, and select **File / Import and Export**.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/1.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/1.png" alt="" />
 
 2. Select the **Import from another program or file** option
    then select the **Next** button.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/6.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/6.png" alt="" />
 
 3. Select **Personal Folder File (.pst)**, select **Next**, then
    select the **Browse** button and locate the **.PST File** you exported.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/7.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/7.png" alt="" />
 
 4. Select the **Open** button and leave the option **Replace duplicates
    with items imported** selected, and select the **Next** button.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/8.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/8.png" alt="" />
 
 5. Select **Personal Folders** then select the **Include
    subfolders** check box. Next select the **Import items into the same
@@ -105,7 +105,7 @@ you have your account set up, perform the following steps:
    (Mailbox - Your Name) into which you would like to import your data.
    Then select **Finish** to begin your import.
 
-   ![](http://c15047547.r47.cf2.rackcdn.com/10.png)
+   <img src="http://c15047547.r47.cf2.rackcdn.com/10.png" alt="" />
 
 **Note:** Your import may take some time to finish depending on the size of
 the .PST file.

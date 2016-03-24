@@ -46,10 +46,10 @@ You can enable, modify, and delete scheduled backups by using the Cloud Control 
 
 3. In the list of instances, click the gear icon next to the instance for which you want to create a schedule and select **Schedule Backup**.
 
-   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-schedulefromlist.png)
+   <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-schedulefromlist.png" alt="" />
 
 4. In the pop-up dialog box that appears, select the day of the week for the full backup, specify a time of day to run the daily backups, and specify how many full backups to retain. If you do not specify a time, a random time is selected.
-   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-createdialog.png)
+   <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-createdialog.png" alt="" />
 
 5. Click **Create Schedule**.
    A message appears at the bottom of the panel that says `Created schedule for instanceName`.
@@ -63,7 +63,7 @@ You can enable, modify, and delete scheduled backups by using the Cloud Control 
 3. Click the name of the instance for which you want to view or modify a backup schedule.
 
    On the instance details page, the schedule is displayed next to **Scheduled Backups**.
-   ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-scheduleindetails.png)
+   <img src="https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-databases/scheduled-backups-for-scheduleindetails.png" alt="" />
 
 4. To edit the schedule, click the **Edit** link.
 

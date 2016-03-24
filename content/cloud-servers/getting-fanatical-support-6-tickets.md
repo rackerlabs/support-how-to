@@ -19,9 +19,9 @@ which you can create a ticket:
     navigation bar and select **Create or View a Ticket** in the
     pop-up window.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-button.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-button.png" alt="" />
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-options.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-options.png" alt="" />
 
 -   Click on your **Account** in the top navigation bar, and in the
     drop-down menu, select **Support Tickets**.
@@ -35,7 +35,7 @@ ticket entry displays the name, the date it was last updated, the ticket
 status, and ticket ID number. To create a new ticket, click on
 the **Create Ticket** button.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-tickets.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-support-tickets.png" alt="" />
 
 When you create a new ticket, you can select a broad product category,
 such as Cloud Servers, Cloud Sites, or Cloud Databases, and then a more
@@ -45,7 +45,7 @@ the **Details** section, enter a subject and message describing your
 issue. You can also attach a file up to 20 MB to the ticket. After you
 have entered information into all the fields, click **Submit Ticket**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-sample-ticket2.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/control-panel-sample-ticket2.png" alt="" />
 
 The best way to communicate with our Support Technicians and provide
 specific details about a problem that you are experiencing is by opening

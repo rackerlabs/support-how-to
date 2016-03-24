@@ -42,7 +42,7 @@ To set up your iPhone for IMAP, perform the following steps:
         example, myname@mydomain.com).
     -   **Password** - Enter the password for your email account.
 
-      ![](http://www.rackspace.com/apps/support/media/mc_re_iphoneimap_002.GIF)
+      <img src="http://www.rackspace.com/apps/support/media/mc_re_iphoneimap_002.GIF" alt="" />
 10. Tap the **Save** button.
     The iPhone verifies the settings and returns to the **Mail,
     Contacts, Calendars** page.
@@ -76,7 +76,7 @@ To set up your iPhone for POP access, perform the following steps:
         example, myname@mydomain.com).
     -   **Password** - Enter the password for your email account.
 
-      ![](http://www.rackspace.com/apps/support/media/mc_re_iphonepop_002.gif)
+      <img src="http://www.rackspace.com/apps/support/media/mc_re_iphonepop_002.gif" alt="" />
 
 10. Tap the **Save** button.
     The iPhone verifies the settings and returns to the **Mail,

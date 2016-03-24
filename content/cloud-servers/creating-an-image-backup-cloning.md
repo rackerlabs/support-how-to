@@ -24,14 +24,14 @@ image.
 
 1. Log into the [Cloud Control Panel](http://mycloud.rackspace.com).
 
-  ![](http://c15149618.r18.cf2.rackcdn.com/1.png)
+  <img src="http://c15149618.r18.cf2.rackcdn.com/1.png" alt="" />
 
 2. Select the server that you want to clone by clicking the actions cog
 to the left of the server name.
 
 3. From the drop-down menu, click **Create Image**.
 
-  ![](http://c15149618.r18.cf2.rackcdn.com/3B.png)
+  <img src="http://c15149618.r18.cf2.rackcdn.com/3B.png" alt="" />
 
   A pop-up window will appear that allows you to name the image.
 

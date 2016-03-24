@@ -114,7 +114,7 @@ device. The device must be enabled to receive SMS text messages.
     device, and then type the device phone number. Click **Add
     SMS Device.**
 
-    ![Add an SMS device to your account so you can set up multi-factor authentication](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/add-sms-device.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/add-sms-device.png" alt="Add an SMS device to your account so you can set up multi-factor authentication" />
 
     When you click **Add SMS Device**, the Identity service sends an SMS
     text message with a four-digit PIN to the specified phone.
@@ -125,7 +125,7 @@ device. The device must be enabled to receive SMS text messages.
     to your mobile device in the verification code field. Then, click
     **Verify Device**.
 
-    ![Enter the verification code to pair the SMS device with your Rackspace Cloud account](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-sms-device.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-sms-device.png" alt="Enter the verification code to pair the SMS device with your Rackspace Cloud account" />
 
     After you submit the verification code, the Cloud Control Panel
     login page is displayed so that you can re-authenticate by using the
@@ -153,7 +153,7 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
 4.  On the Name of your Device form, type a **Device nickname** for
     the OTP device. Then, click **Add Device.**
 
-    ![Add an OTP device to your Rackspace Cloud account](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/name-your-otp-device.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/name-your-otp-device.png" alt="Add an OTP device to your Rackspace Cloud account" />
 
     After you click **Add Device**, the Identity service generates a
     barcode that you can use to link your Rackspace Cloud account with
@@ -163,7 +163,7 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
     client application on your device to scan the barcode on the Verify
     Code form.
 
-    ![Scan barcode by using the OTP application on your device to pair your Rackspace Cloud account with your device.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/scan-barcode.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/scan-barcode.png" alt="Scan barcode by using the OTP application on your device to pair your Rackspace Cloud account with your device." />
 
     After you scan the code, the OTP application on your device creates
     the OTP device using the device name you specified. It also
@@ -179,7 +179,7 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
     **Note:** As soon as you submit the verification code, you will be
     logged out.
 
-    ![Verify new OTP device for multi-factor authentication](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/otp-verify-device-code.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/otp-verify-device-code.png" alt="Verify new OTP device for multi-factor authentication" />
 
     **Note:** By default, the new OTP device will be the default method
     for authentication. If you do not want it
@@ -208,7 +208,7 @@ Account Settings page.
 3.  In the Multi-Factor Authentication section, review the default
     authentication method setting.  Click **Edit** to change it.
 
-    ![Change default authentication method.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/default-authentication-method.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/default-authentication-method.png" alt="Change default authentication method." />
 
 ### Configure account-wide multi-factor authentication settings from an Administrator account
 
@@ -306,7 +306,7 @@ To log in to the Rackspace Cloud with multi-factor authentication
 authentication configuration from the Account Settings menu in the cloud
 control panel.
 
-![Rackspace Cloud Account multi-factor authentication settings](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/account-settings-mfa.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/account-settings-mfa.png" alt="Rackspace Cloud Account multi-factor authentication settings" />
 
 **To view multi-factor authentication settings**
 
@@ -325,7 +325,7 @@ You can verify your SMS or OTP device from the Account Settings page.
 -   If you have an OTP device that has not been verified, use the Manage
     option to complete the verification process.
 
-    ![Verify multi-factor authentication device options](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-device-options.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify-device-options.png" alt="Verify multi-factor authentication device options" />
 
 **To recover an account**
 
@@ -342,7 +342,7 @@ the bypass codes as soon as you enable multi-factor authentication.
 
 2.  In the Login Details section, click **Generate Recovery Codes**.
 
-    ![Generate recovery codes.](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/generate-recovery-codes.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/generate-recovery-codes.png" alt="Generate recovery codes." />
 
 3.  In the Quantity field, select the number of codes to generate or
     accept the default value.

@@ -11,7 +11,7 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-![](http://c783359.r59.cf2.rackcdn.com/DNS_logo.jpg)
+<img src="http://c783359.r59.cf2.rackcdn.com/DNS_logo.jpg" alt="" />
 
 The Domain Name System is essentially the phonebook for the Internet. It
 manages the relationships between IP addresses (the phone numbers), and

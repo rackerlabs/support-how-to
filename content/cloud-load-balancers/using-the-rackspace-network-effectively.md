@@ -49,7 +49,7 @@ database by clicking on it and viewing its Details.
 
 Here's an example of a Server Details page:
 
-![Cloud Server Details](http://c691244.r44.cf2.rackcdn.com/Server%20Details.png)
+<img src="http://c691244.r44.cf2.rackcdn.com/Server%20Details.png" alt="Cloud Server Details" />
 
 #### Related Information
 

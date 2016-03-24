@@ -29,11 +29,11 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
     The W3 Total Cache settings commands are expanded.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_menu.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_menu.png" alt="" />
 
 2. Click **General Settings**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_general.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_general.png" alt="" />
 
 3. Set the following options and then click **Save all settings**:
 
@@ -50,7 +50,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 4. In the menu, click **Page Cache**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_pagecache.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_pagecache.png" alt="" />
 
 5. Set the following options and then click **Save all settings**:
 
@@ -80,7 +80,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 8. In the menu, click **Browser Cache**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_browsercache.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_browsercache.png" alt="" />
 
 9. Set the following options and then click **Save all settings**:
 
@@ -119,7 +119,7 @@ The settings for W3 Total Cache can usually be used across different hosts. Howe
 
 5. In the menu, click **CDN**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_cdn.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/w3tc_cdn.png" alt="" />
 
 6. In the **General** section, clear the following check boxes:
 

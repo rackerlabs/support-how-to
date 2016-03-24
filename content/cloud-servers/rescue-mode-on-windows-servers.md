@@ -43,12 +43,12 @@ similar to booting into safe mode with networking enabled.
 2.  From your list of servers, click the Actions cog next to the server
     that you want to bring up in Rescue Mode and select **Enter Rescue Mode** from the drop-down menu.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Windowsenter.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Windowsenter.png" alt="" />
 
 3.  Read the text in the Rescue Mode pop-over and then click **Enter
     Rescue Mode**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rescuepopup.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rescuepopup.png" alt="" />
 
 4.  The temporary password is displayed. Copy the password to a safe
     location since you won't be able to see it again after closing
@@ -59,12 +59,12 @@ similar to booting into safe mode with networking enabled.
 The server will start to enter Rescue Mode and the initial status should
 be **Entering rescue mode**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winrescue.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winrescue.png" alt="" />
 
 When the Rescue Mode build is complete, the status will turn red and
 display **Rescue**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rescueactive.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rescueactive.png" alt="" />
 
 Notice that the rescue environment is limited to 24 hours. This means
 that you will have one day to correct the problems on your server before
@@ -76,7 +76,7 @@ You can now use a RDP client to connect to your server using the public
 IP address and the temporary Administrator password to login to Rescue
 Mode.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rdpclient.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rdpclient.png" alt="" />
 
 ### Troubleshooting your server in Rescue Mode
 
@@ -91,11 +91,11 @@ Once you've logged into your server in Rescue Mode, click on the
 **Start** button and enter the search box **diskmgmt.msc**. Click
 **diskmgmt** to start the program.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/diskmgmt.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/diskmgmt.png" alt="" />
 
 Once the program is running, the output should resemble the following:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/diskmgmtoutput.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/diskmgmtoutput.png" alt="" />
 
 This shows us the device and the size of the disk. Following is a description
 of the different disks in the screenshot:
@@ -106,12 +106,12 @@ of the different disks in the screenshot:
 
 Right click on the Disk 1 and select **online**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/disk1.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/disk1.png" alt="" />
 
 Your system disk will be set as drive **D:\\** and you will now be able to
 access your data.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ddrive.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ddrive.png" alt="" />
 
 ### Exiting Rescue Mode
 

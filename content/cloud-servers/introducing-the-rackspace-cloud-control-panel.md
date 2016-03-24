@@ -32,7 +32,7 @@ individual products, click the heading to view a drop-down menu of all
 the products in that area. For example, the following image shows the
 menu for Servers.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Node1355-SCEdit.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Node1355-SCEdit.png" alt="" />
 
 Rackspace Cloud products are categorized under the following headings:
 

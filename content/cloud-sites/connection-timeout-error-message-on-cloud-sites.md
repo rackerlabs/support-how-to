@@ -17,7 +17,7 @@ message. This article explains the causes of the error, provides steps
 that you can take to improve the experience, and tells you about the
 steps we have taken to mitigate the problem.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Capture1.JPG)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Capture1.JPG" alt="" />
 
 ### What the error message means
 

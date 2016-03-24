@@ -22,7 +22,7 @@ This article will show you how to create your domain through the [Cloud Sites Co
 -   Let's get started by first logging into the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
 -   After we're logged in, navigate to **Hosting > Cloud Sites**
 
-  ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
+  <img src="http://c806394.r94.cf2.rackcdn.com/cloudsites.png" alt="" />
 
 -   Now let's click on the **Add A Site** button shown in the image
     below
@@ -34,7 +34,7 @@ This article will show you how to create your domain through the [Cloud Sites Co
     1.  Who is this website for?
     2.  What is the domain name?
 
- ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
+ <img src="http://c806394.r94.cf2.rackcdn.com/namesite.png" alt="" />
 
 -   Once you've selected who the website will be for, and you've entered
     your new domain name, proceed by clicking **Add New Site**
@@ -64,7 +64,7 @@ someone has already setup this domain name on the Rackspace Cloud and it
 cannot be duplicated in our system. You can try a different domain name
 in the box below *Domain Name* and click **Continue** to proceed.
 
-![](http://c806394.r94.cf2.rackcdn.com/usedbyotherclient.png)
+<img src="http://c806394.r94.cf2.rackcdn.com/usedbyotherclient.png" alt="" />
 
 ### Domain cannot be automatically registered Or transferred
 
@@ -103,7 +103,7 @@ database.
 
 -   Click on **Next Step** to proceed once you have made your selections.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/review.png)
+  <img src="http://c806394.r94.cf2.rackcdn.com/review.png" alt="" />
 
 -   Last, you will review your order, and click on **Finish** once you
     have verified everything is correct. If you would like to make any

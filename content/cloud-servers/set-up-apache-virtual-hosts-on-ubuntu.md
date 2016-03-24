@@ -183,7 +183,7 @@ inaccurate tests of new or modified public DNS records.
 With such changes made for testing purposes, you can navigate to your
 site in a web browser on your local computer:
 
-![apache-vhostworking-domain1.jpg](http://articles.slicehost.com/assets/2008/12/5/apache-vhostworking-domain1.jpg)
+<img src="http://articles.slicehost.com/assets/2008/12/5/apache-vhostworking-domain1.jpg" alt="apache-vhostworking-domain1.jpg" />
 
 The contents of public/index.html file is shown.
 
@@ -193,7 +193,7 @@ The contents of public/index.html file is shown.
 Note that in the vhost file, you set a ServerAlias. If you have the DNS
 set up correctly, you can also use that address:
 
-![apache-vhostworking-wwwdomain1.jpg](http://articles.slicehost.com/assets/2008/12/5/apache-vhostworking-wwwdomain1.jpg)
+<img src="http://articles.slicehost.com/assets/2008/12/5/apache-vhostworking-wwwdomain1.jpg" alt="apache-vhostworking-wwwdomain1.jpg" />
 
 We'll talk about forcing one address or the other in a later article
 about rewrite rules.

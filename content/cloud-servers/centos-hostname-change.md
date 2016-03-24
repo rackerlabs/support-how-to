@@ -28,14 +28,14 @@ server hostname in CentOS.
 3.  For internal networking, change the host that is associated with the
     main IP address for your server, (found at **/etc/hosts**).
 
-    ![hosts.png](http://cdn.cloudfiles.rackspacecloud.com/c42672/CentOS%20-hostname%20change/hosts.png)
+    <img src="http://cdn.cloudfiles.rackspacecloud.com/c42672/CentOS%20-hostname%20change/hosts.png" alt="hosts.png" />
 
 4.  Run the `hostname` command. This command lets you change the
     hostname on the server that the command line remembers, but it does
     not actively update all programs that are running under the
     old hostname.
 
-    ![hostname.png](http://cdn.cloudfiles.rackspacecloud.com/c42672/CentOS%20-hostname%20change/hostname.png)
+    <img src="http://cdn.cloudfiles.rackspacecloud.com/c42672/CentOS%20-hostname%20change/hostname.png" alt="hostname.png" />
 
 5.  Restart networking on your server to ensure that changes will
     persist on restart.

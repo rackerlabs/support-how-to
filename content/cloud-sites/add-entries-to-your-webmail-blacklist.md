@@ -25,7 +25,7 @@ manage your blacklist, perform the following steps:
 
 3. Click the **Blacklist** tab.  
 
-   ![Blacklist section](http://www.rackspace.com/apps/support/media/wm_addblacklist_001.gif)
+   <img src="http://www.rackspace.com/apps/support/media/wm_addblacklist_001.gif" alt="Blacklist section" />
     
 4. To add a domain or email address to the list of domains and email
    addresses that are blacklisted, perform the following steps.  

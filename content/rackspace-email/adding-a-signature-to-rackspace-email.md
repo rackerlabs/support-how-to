@@ -43,7 +43,7 @@ text).
 8. Click **Save**.
 9. Click the **Identities** tab, double-click your email address, and then enter the following information in the spaces provided.
 
-    ![](http://c2920127.r27.cf2.rackcdn.com/(E%26A)RackspaceEmailSignature6.png)
+    <img src="http://c2920127.r27.cf2.rackcdn.com/(E%26A)RackspaceEmailSignature6.png" alt="" />
 
     - **Full Name**: This name will appear in the **From** field of messages that you send.
     - **Email Address**: Enter the email address that should be displayed as the **From** email address.

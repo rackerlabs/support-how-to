@@ -20,14 +20,14 @@ by using the control panel to import that information from a .CSV file.
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com). In the **Microsoft
    Exchange** section, select the **Add / Edit Mailbox** link.
 
-   ![](http://c15042926.r26.cf2.rackcdn.com/exchange_mailboxes_list.png)
+   <img src="http://c15042926.r26.cf2.rackcdn.com/exchange_mailboxes_list.png" alt="" />
 
 2. If you have multiple domains, select the appropriate domain name.
    Otherwise, select the **Add Mailbox** button.
 
 3. Enter the requested information in the fields provided:
 
-   ![](http://c15042926.r26.cf2.rackcdn.com/new_mailbox_hex.png)
+   <img src="http://c15042926.r26.cf2.rackcdn.com/new_mailbox_hex.png" alt="" />
 
    - **First and Last Name**: Enter first and last name information for
      the mailbox owner in the spaces provided. This is optional.
@@ -81,7 +81,7 @@ name and then click the corresponding tab.
 3. Create a CSV or Excel file containing the information detailed in
    the **Data Format** section of the control panel page.
 
-    ![](http://c1079945.r45.cf2.rackcdn.com/(E%26A)AddingAMailbox3.png)
+    <img src="http://c1079945.r45.cf2.rackcdn.com/(E%26A)AddingAMailbox3.png" alt="" />
 
     **Note**: Passwords must follow the rules described in the
     "Add one Exchange mailbox" section of this article.

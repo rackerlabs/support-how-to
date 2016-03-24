@@ -29,7 +29,7 @@ compliant.
 
 2.  In Visual Studio, select **Tools > NuGet Package Manager > Package Manager Console**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/packagemanger.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/packagemanger.png" alt="" />
 
     The console should appear near the bottom of the Visual Studio
     window, depending on how you've set up your views.
@@ -40,7 +40,7 @@ compliant.
 
         Install-Package MySql.Data -Version 6.4.4
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/console.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/console.png" alt="" />
 
 4.  Check your application's **bin** directory for the
     **MySql.Data.dll** to confirm the MySQL installation.

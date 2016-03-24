@@ -74,7 +74,7 @@ product_url: cloud-sites
 -   From the domain details page click on the **Features*** tab and select
     the active database you wish to reference:
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MSSQL.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MSSQL.png" alt="" />
 
 #### Will my database content be affected after the maintenance?
 

@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as "shelving," and improvements in managing and recovering from server outages.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-1.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-1.png" alt="" />
 
 **Note:** You cannot boot first-generation or standard servers from a Cloud Block Storage volume. Standard servers support local boot systems only.
 
@@ -33,11 +33,11 @@ You can get started through the [Control Panel](https://mycloud.rackspace.com) o
 
 Servers have a local system and can have one or more data disks depending on the flavor.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-2.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-2.png" alt="" />
 
 Additional remote data volumes can be attached to a server; however, the local system and data are always present.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-3.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-3.png" alt="" />
 
 Booting from a remote volume moves the system disk off the local server. The local data disk will still be present if the flavor has one.
 
@@ -47,7 +47,7 @@ Booting from a volume requires a Cloud Block Storage volume built from a valid i
 
 ### Volume preparation
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-4.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-4.png" alt="" />
 
 Server images are in a VHD file format, but Cloud Block Storage requires them to be in RAW format. When a user specifies the volume type, size, and image ID for a volume, the request is sent to Cloud Block Storage. Cloud Block Storage then sends the request to an available storage node that has capacity, and the node pulls down the image and begins the conversion process. Only one conversion process can be performed at a time on a storage node; this has been identified as a potential bottleneck in the process.
 
@@ -61,11 +61,11 @@ Use the following steps to boot a server from a Cloud Block Storage volume throu
 
 1. Create your server by choosing your image and flavor. In the Flavor Description area, click Edit next to Boot Source.
 
-     ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-5.png)
+     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-5.png" alt="" />
 
 2. In the pop-up window, select **Bootable Volume (Cloud Block Storage)** as the boot source and select the size of your volume. The volume name is based on your server's name, and the volume type is set to SSD.
 
-     ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-6.png)
+     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-6.png" alt="" />
 
 3.	Click **Select Boot Source**.
 
@@ -73,7 +73,7 @@ After you create the server, your volume is prepared from the selected image.
 
 If you delete your server, the volume persists and is available when you create a new server (only through the API or the nova client at this time).
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-7.png)
+<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1424-7.png" alt="" />
 
 You can also see the volume listed on the **Block Storage** tab.
 

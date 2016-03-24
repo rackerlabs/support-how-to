@@ -37,7 +37,7 @@ in the Cloud Control Panel, perform the following steps:
 
     To create an image for the server, in the details page of the server in the Images section, click **Create Image**, enter a name for the image, and then click **Create Image**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2197-1.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2197-1.png" alt="" />
 
     It may take a few minutes to create the image.
 
@@ -45,7 +45,7 @@ in the Cloud Control Panel, perform the following steps:
 6.  Next to the image you want to use, click the gear icon and then
     select **Create Server with Image**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Create%20Server%20from%20Image%20for%20Cloud%20Networks_1.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Create%20Server%20from%20Image%20for%20Cloud%20Networks_1.png" alt="" />
 
 7.  On the **Create Server** page, enter a name for the new server. The
     image is preselected for you.

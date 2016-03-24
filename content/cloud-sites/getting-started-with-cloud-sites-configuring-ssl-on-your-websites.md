@@ -62,18 +62,18 @@ Complete the following steps to generate a certificate signing request
 3.  Click the domain you want to add SSL to, and then click the
     **Security** tab.
 
-    ![](http://c806394.r94.cf2.rackcdn.com/securitytab.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/securitytab.png" alt="" />
 
 4.  In the **Permissions for Viewing Your Website** section, click
     **Install SSL Certificate**.
 
-    ![](http://c806394.r94.cf2.rackcdn.com/installsslcertificatetab.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/installsslcertificatetab.png" alt="" />
 
 5.  Review the order summary and payment details, select the **Terms
     Agreement** check box, and the click Finish. If you have questions
     about the charges, contact Support.
 
-    ![](http://c806394.r94.cf2.rackcdn.com/ssltos.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/ssltos.png" alt="" />
 
 6.  On the Install SSL Certificate page, click the **Start New
     Certificate** button.

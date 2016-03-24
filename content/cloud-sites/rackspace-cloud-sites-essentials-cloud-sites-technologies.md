@@ -47,20 +47,20 @@ to change this technology.
 1.  After you've logged into the Cloud Sites Control Panel, navigate to
 **Hosting > Cloud Sites**.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting.png" alt="" />
 
 2.  Click on the domain name to which you would like to make technology changes.
 3.  Click on the **Features** tab.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/featurestab.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/featurestab.png" alt="" />
 
 4.  Click on the **Change Technology** button in the **Technologies** section.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/technologies_1.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/technologies_1.png" alt="" />
 
 5.  Choose the **Site Technology** you would like your website to use.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-technology_1.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-technology_1.png" alt="" />
 
 6.  Click **Change Technology** to complete your change.
 
@@ -79,7 +79,7 @@ each of your domains.
 
 1.  Navigate to **Hosting > Cloud Sites**
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting.png" alt="" />
 
 2.  Click on the **domain name** for which you would like to review its website features.
 
@@ -87,7 +87,7 @@ each of your domains.
 
 3.  Scroll down to **Website Features**.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/web_features.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/web_features.png" alt="" />
 
 What you have here is a breakdown of your website's current features
 including its currently enabled technologies, its number of

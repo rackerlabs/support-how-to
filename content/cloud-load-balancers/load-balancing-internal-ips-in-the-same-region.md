@@ -28,7 +28,7 @@ The following screenshot shows the **Server Details** section in the
 [Cloud Control Panel](http://mycloud.rackspace.com) for a server name
 Zippy:
 
-![Server Details](http://c691244.r44.cf2.rackcdn.com/IPs.png)
+<img src="http://c691244.r44.cf2.rackcdn.com/IPs.png" alt="Server Details" />
 
 **Note**: First Generation Cloud Servers receive only 2 IP addresses: a
 public v4 IP address and the internal Rackspace Network IP address. In

@@ -23,7 +23,7 @@ want to do is to log in to the [Rackspace Cloud Control Panel](http://manage.rac
 -   Just open a browser to:
      [http://manage.rackspacecloud.com](http://manage.rackspacecloud.com/)
 
-  ![](http://c739518.r18.cf2.rackcdn.com/login2.png)
+  <img src="http://c739518.r18.cf2.rackcdn.com/login2.png" alt="" />
 
 -   Log in with the username & password that you selected when you
     created the account. Those credentials are only for accessing the
@@ -45,7 +45,7 @@ account information.
 -   **Home** - Takes you to the Welcome page with Account Activity
     Summary displayed.
 
-  ![](http://c739518.r18.cf2.rackcdn.com/gettingstartedhighlight.png)
+  <img src="http://c739518.r18.cf2.rackcdn.com/gettingstartedhighlight.png" alt="" />
 
   Click on the tab labeled **Getting Started** from the Welcome screen.
 
@@ -59,13 +59,13 @@ products, and is a handy 'quick-reference' guide.
     for setting up clients, client plans, and messages for Cloud Sites
     resellers
 
-  ![](http://c806394.r94.cf2.rackcdn.com/hosting.png)
+  <img src="http://c806394.r94.cf2.rackcdn.com/hosting.png" alt="" />
 
 -   **Your Account** - Manage
     your [billing](/how-to/billing-services-overview),
     account information, and API key.
 
-  ![](http://c739518.r18.cf2.rackcdn.com/YourAccount.png)
+  <img src="http://c739518.r18.cf2.rackcdn.com/YourAccount.png" alt="" />
 
 -   **Support** - Access all of our support resources - Developer
     Guides, Cloud Status, Rackspace How-To, Problem Ticketing System,

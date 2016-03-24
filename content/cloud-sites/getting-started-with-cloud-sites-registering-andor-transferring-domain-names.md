@@ -32,14 +32,14 @@ article for a list of domain extensions available for purchase.
 -   First, log in to the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting > Cloud Sites**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_1_0.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_1_0.png" alt="" />
 
 -   Click **Add a Site**.
 -   Select the correct **Site Owner** (usually "You").
 -   Next, enter the domain name you want to purchase in the "Domain
     Name" text box (i.e. www.yourdomain.com).
 
-    ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/namesite.png" alt="" />
 
 -   Choose the length of time for which you want to purchase the domain
     name.
@@ -69,17 +69,17 @@ Follow these steps to transfer your existing domain name to Cloud Sites:
 -   Log in to the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting > Cloud Sites**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_1_0.png)
+    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/capture_1_0.png" alt="" />
 
 -   Click Add A Site and then enter the domain name in the **Domain
     Name** text box.
 
-    ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/namesite.png" alt="" />
 
 -   Check the **I already own/manage this domain name** check box
 -   Select **Transfer the domain name** from the pull-down menu.
 
-    ![](http://c806394.r94.cf2.rackcdn.com/transferdomain.png)
+    <img src="http://c806394.r94.cf2.rackcdn.com/transferdomain.png" alt="" />
 
 -   Click **Next Step**.
 
@@ -111,7 +111,7 @@ this time you can check your website by [using the test URL](/how-to/test-your-w
 -   Click the domain you wish to transfer.
 -   Click the **DNS** tab.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/renewal.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/renewal.png" alt="" />
 
 -   Click **Transfer Domain**,
 -   Review the Order Screen and Click **Finish**.

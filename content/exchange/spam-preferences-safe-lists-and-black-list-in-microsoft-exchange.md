@@ -21,7 +21,7 @@ override the spam filtering for the entire domain.
 1. To manage your domain spam settings, select **Set Preferences** under
    **Spam Filtering** in the Rackspace Email Box.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHex.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHex.png" alt="" />
 
    **Note:** If you have multiple domains you may be prompted to select the
    domain you intend to make changes to first.
@@ -29,7 +29,7 @@ override the spam filtering for the entire domain.
 2. Select either **Entire domain** or **Individual Microsoft
    Exchange Mailbox**.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHexDos.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHexDos.png" alt="" />
 
   **Note:** If you selected **Individual Rackspace Email Mailbox**, select the
   mailbox you intend to make changes to.
@@ -38,12 +38,12 @@ override the spam filtering for the entire domain.
    filtering on or off. You may also select the Exclusive button to receive
    email only from senders on your domain's safelist if you desire.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHex6.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHex6.png" alt="" />
 
 4. Select the preferred settings for your domain. Below is an
    overview of each of the options:
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHex3.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHex3.png" alt="" />
 
    **Note:** Quarantine does not apply to Microsoft Exchange 2010 users. Only
    Microsoft Exchange 2007 users have access to the Quarantine option.
@@ -53,7 +53,7 @@ override the spam filtering for the entire domain.
    or to override spam preferences for all users. When you're finished,
    select the **Save** button.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/OverrideOptions.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/OverrideOptions.png" alt="" />
 
    **Note:** The override option is not presented if you selected
    Individual Rackspace Email Mailbox.
@@ -65,12 +65,12 @@ A safelist identifies sources of trusted email.
 1. To manage your Safe List, select **Edit Safelists** under **Spam
    Filtering** in the Rackspace Email Box.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHex5.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHex5.png" alt="" />
 
 2. Select either **Entire domain** or **Individual Microsoft
    Exchange Mailbox**.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHexDos.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHexDos.png" alt="" />
 
    **Note:** If you selected **Individual Microsoft Exchange Mailbox**, select the
    mailbox you intend to make changes to.
@@ -84,7 +84,7 @@ A safelist identifies sources of trusted email.
    Use the **Clear** button to remove all domain
    names or email addresses listed in the window.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/EditSafeList3.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/EditSafeList3.png" alt="" />
 
    **Note:** If you have multiple domain names and/or email addresses to add,
    use the bulk import option to upload a .CSV or .TXT file containing the
@@ -100,7 +100,7 @@ A safelist identifies sources of trusted email.
 
    After you're finished, select the **Save** button.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/EditSafeList4.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/EditSafeList4.png" alt="" />
 
    **Note:** If you have multiple domain names and/or email addresses to add,
    use the bulk import option to upload a .csv or .txt file containing the
@@ -113,12 +113,12 @@ A blacklist identifies sources of untrusted email.
 1. To manage your Black List, select **Edit Blacklists** under **Spam
    Filtering** in the Microsoft Exchange product box.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHex4.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHex4.png" alt="" />
 
 2. Select either **Entire domain** or **Individual Microsoft
    Exchange Mailbox**.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/SpamHexDos.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/SpamHexDos.png" alt="" />
 
    **Note:** If you selected **Individual Microsoft Exchange Mailbox**, select the
   mailbox you intend to make changes to.
@@ -132,7 +132,7 @@ A blacklist identifies sources of untrusted email.
    Use the **Clear** button to remove all domain names or
    email addresses listed in the window.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/EditBlackList3.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/EditBlackList3.png" alt="" />
 
    **Note:** If you have multiple domain names and/or email addresses to add,
    use the bulk import option to upload a .CSV or .TXT file containing the
@@ -148,7 +148,7 @@ A blacklist identifies sources of untrusted email.
 
    After you're finished, select the **Save** button.
 
-   ![](http://c15043053.r53.cf2.rackcdn.com/EditBlackList4.png)
+   <img src="http://c15043053.r53.cf2.rackcdn.com/EditBlackList4.png" alt="" />
 
    **Note:** If you have multiple domain names and/or email addresses to add,
    use the bulk import option to upload a .CSV or .TXT file containing the

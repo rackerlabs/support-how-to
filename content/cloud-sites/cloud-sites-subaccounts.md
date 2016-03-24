@@ -147,7 +147,7 @@ Panel as follows
 3.  Click a subaccount name to display the **General Settings** tab for
     the subaccount.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/edit_subaccount.png)
+  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/edit_subaccount.png" alt="" />
 
 On this tab you can complete the following actions:
 
