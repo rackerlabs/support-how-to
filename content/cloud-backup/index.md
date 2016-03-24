@@ -52,4 +52,4 @@ Welcome to Rackspace Cloud Backup! This guide is designed to you get you up and 
 
 ###  Preferences
 
-- [Set Account Notification Preferences](/how-to/rackspace-cloud-backup-preferences)
+- [Set account notification preferences](/how-to/rackspace-cloud-backup-preferences)
