@@ -56,7 +56,6 @@ up an OnMetal server through the Control Panel.
         key pair, see [Manage SSH Key Pairs for Cloud Servers with
         python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
-    [](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient)
 8.  To add a new public key, click **Add Public Key**.
     **Note:** If you have previously added your public key, this option
     is labeled **Manage SSH Keys**.
