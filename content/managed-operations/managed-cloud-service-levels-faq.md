@@ -25,27 +25,6 @@ Managed Infrastructure and Managed Operations.
     infrastructure, virtualization layers, operating system, database
     layer, and web server.
 
-#### What is the DevOps Automation service?
-
-The DevOps Automation service provides [managed support for DevOps
-tools](http://www.rackspace.com/devops/automation-service/) that help
-you automate the process of deploying and scaling applications. Although
-this service can be used by anyone, it is ideal when you need to scale
-up infrastructure quickly or will have the need to scale up
-infrastructure in the future. Here are some cases for this service:
-
--   **Enforce consistency**: Create identical development, staging, and
-    testing environments based on the same configurations.
--   **Configuration management**: Get the right balance of base images
-    and instance configuration at build time, which simplifies image
-    management and instance building across infrastructure types.
--   **Change management**: Adhere to strict source control practices for
-    your environment, so that any changes can always be audited,
-    tracked, and reversed if needed.
--   **Respond to alerts**: Our team configures the monitoring, manages
-    the environment, and responds to alerts as they occur so that your
-    team can focus on your application.
-
 #### Can new public-cloud customers choose other service levels?
 
 No, new customers can choose *only* between Managed Infrastructure or
