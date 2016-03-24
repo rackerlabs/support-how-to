@@ -10,48 +10,46 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-<p class="lead" markdown="1">Welcome to Rackspace Cloud Backup! This guide is designed to you get you up and running with Cloud Backup. Here you will find tips for trouble shooting, managing your configuration, systems actions, and email preferences. Let's get started!</p>
+Welcome to Rackspace Cloud Backup! This guide is designed to you get you up and running with Cloud Backup. Here you will find tips for trouble shooting, managing your configuration, systems actions, and email preferences. Let's get started!
 
 <hr />
 
-###  Overview & Installing the Agent
+###  Overview and installing the agent
 
 - [Overview](/how-to/rackspace-cloud-backup-overview)
-- [Install the Agent for Ubuntu and Debian Systems](/how-to/rackspace-cloud-backup-install-the-agent-on-linux#apt)
-- [Install the Agent for Red Hat Systems](/how-to/rackspace-cloud-backup-install-the-agent-on-linux#rpm)
-- [Install the Agent for Windows Systems](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
-- [Troubleshoot Agent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-linux#troubleshooting)
-- [Find your Agent Logs](/how-to/rackspace-cloud-backup-install-the-agent-on-linux#agents)
-- [Uninstall the Agent from Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux#uninstalllinux)
-- [Uninstall the Agent from Windows Systems](/how-to/rackspace-cloud-backup-install-the-agent-on-windows#uninstallwindows)
+- [Install the agent on Linux systems](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+- [Install the agent on Windows systems](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+- [Troubleshoot agent installation on Linux systems](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+- [Find your agent logs on Linux systems](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+- [Uninstall the agent from Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+- [Uninstall the agent from Windows Systems](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 
-###  Creating a Backup
+###  Creating a backup
 
-- [How to Create a Backup](/how-to/rackspace-cloud-backup-create-a-backup)
+- [Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)
 
-###  Backup Information
+###  Backup information
 
-- [A Single Backup's Activities](/how-to/rackspace-cloud-backup-view-backup-information)
-- [All Activities For All Backups](/how-to/rackspace-cloud-backup-view-backup-information)
+- [View backup information](/how-to/rackspace-cloud-backup-view-backup-information)
 
-###  Backup Actions Menu
+###  Backup Actions menu
 
-- [Perform Backup from the Backup Actions Menu](/how-to/rackspace-cloud-backup-backup-actions#performbackup)
-- [Restore from Backup from Backup Actions Menu](/how-to/rackspace-cloud-backup-backup-actions#restorebackup)
-- [Configure a Backup - Change the the settings of a Backup schedule](/how-to/rackspace-cloud-backup-backup-actions#configurebackup)
-- [Configure Files - Choose the files for a Backup](/how-to/rackspace-cloud-backup-backup-actions#configurefiles)
-- [Disable Backup - Prevent a single Backup from running](/how-to/rackspace-cloud-backup-backup-actions#disablebackup)
-- [Delete Backup - Remove a single Backup](/how-to/rackspace-cloud-backup-backup-actions#deletebackup)
+- [Perform a backup from the Backup Actions menu](/how-to/rackspace-cloud-backup-backup-actions)
+- [Restore from a backup from Backup Actions menu](/how-to/rackspace-cloud-backup-backup-actions)
+- [Configure a backup - Change the the settings of a backup schedule](/how-to/rackspace-cloud-backup-backup-actions)
+- [Configure files - Choose the files for a backup](/how-to/rackspace-cloud-backup-backup-actions)
+- [Disable backup - Prevent a single backup from running](/how-to/rackspace-cloud-backup-backup-actions)
+- [Delete backup - Remove a single backup](/how-to/rackspace-cloud-backup-backup-actions)
 
-###  System Actions Menu
+###  System Actions menu
 
-- [Create a Backup from the System Actions Menu](/how-to/rackspace-cloud-backup-system-actions#createbackup)
-- [Restore a Backup rom the System Actions Menu](/how-to/rackspace-cloud-backup-system-actions#restorebackup)
-- [Encrypt your entire System](/how-to/rackspace-cloud-backup-system-actions#encryptsystem)
-- [Cleanup System - Free up space](/how-to/rackspace-cloud-backup-system-actions#cleanupsystem)
-- [Disable System - Stop all Backups](/how-to/rackspace-cloud-backup-system-actions#disablesystem)
-- [Delete System - Remove all Backups](/how-to/rackspace-cloud-backup-system-actions#deletesystem)
+- [Create a backup from the System Actions menu](/how-to/rackspace-cloud-backup-system-actions)
+- [Restore a backup rom the System Actions menu](/how-to/rackspace-cloud-backup-system-actions)
+- [Encrypt your entire system](/how-to/rackspace-cloud-backup-system-actions)
+- [Cleanup system - Free up space](/how-to/rackspace-cloud-backup-system-actions)
+- [Disable system - Stop all backups](/how-to/rackspace-cloud-backup-system-actions)
+- [Delete system - Remove all backups](/how-to/rackspace-cloud-backup-system-actions)
 
 ###  Preferences
 
-- [Preferences - Set Account Notification Preferences](/how-to/rackspace-cloud-backup-preferences)
+- [Set account notification preferences](/how-to/rackspace-cloud-backup-preferences)
