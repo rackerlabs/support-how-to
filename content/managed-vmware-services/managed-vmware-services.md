@@ -13,13 +13,13 @@ product_url: managed-vmware-services
 
 <hr />
 
-**Dedicated VMware vCloud&reg;** provides a single-tenant hosted private cloud, designed with server, storage, and networking hardware from trusted vendors such as Dell&reg;, EMC&reg;, and Cisco&reg;, that's proactively managed 24x7x365 by our VMware Certified Professionals.
+**Rackspace Private Cloud Powered by VMware vCloud&reg;** (hereafter refered to as Dedicated vCloud) provides a single-tenant hosted private cloud, designed with server, storage, and networking hardware from trusted vendors such as Dell&reg;, EMC&reg;, and Cisco&reg;, that's proactively managed 24x7x365 by our VMware Certified Professionals.
 
-**Server Virtualization powered by VMware&reg;** is a simple, easy-to-consume, managed VMware environment that's perfect for small and medium-sized businesses that want to offload the maintenance and monitoring of the guest OS, VMware software stack and underlying hardware to Rackspace.
+**Server Virtualization powered by VMware&reg;** is a simple, easy-to-consume, managed VMware environment that's perfect for small and medium-sized businesses that want to offload the maintenance and monitoring of the guest OS, VMware software stack, and underlying hardware to Rackspace.
 
 **Dedicated VMware&reg; vCenter Server&trade;** offers companies that are already running large VMware estates in their data centers the ability to seamlessly extend their on-premise VMware environment into Rackspace's infrastructure.
 
-###  Dedicated VMware vCloud
+###  Dedicated vCloud
 
 - [Dedicated vCloud Handbook](https://developer.rackspace.com/docs/private-cloud/dedicated-vcloud/vcloud-handbook-v1.5/)
 - [Dedicated vCloud Product Page](http://www.rackspace.com/managed-virtualization/vmware-vcloud)
@@ -32,10 +32,10 @@ product_url: managed-vmware-services
 - [Server Virtualization Product Page](http://www.rackspace.com/managed-virtualization/server-virtualization/)
 - [Resources](http://www.rackspace.com/managed-virtualization/server-virtualization/resources/)
 
-###  Dedicated VMware&reg; vCenter Server&trade;
+###  Dedicated VMware vCenter Server
 
 - [Dedicated vCenter Server Product Page](http://www.rackspace.com/managed-virtualization/dedicated-vcenter/)
-- [Dedicated VMware vCenter Server Customer Handbook](https://developer.rackspace.com/docs/private-cloud/dedicated-vcloud/vcloud-handbook-v1.5/)
+- [Dedicated VMware vCenter Server Customer Handbook](https://developer.rackspace.com/docs/private-cloud/dedicated-vcloud/vcenter-handbook/)
 - [Resources](https://www.rackspace.com/dedicated-servers/vmware/dedicated-vcenter/resources)
 
 ###  More information
