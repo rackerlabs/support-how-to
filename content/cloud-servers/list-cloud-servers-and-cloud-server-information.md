@@ -50,11 +50,11 @@ whether the region you selected supports General Purpose Cloud Servers:
 
 **Server list for General Purpose and Compute, I/O, or Memory servers**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202013-10-11%20at%205.03.29%20PM_0_0.png" width="791" height="205" />
+<img src="{% asset_path cloud-servers/list-cloud-servers-and-cloud-server-information/Screen%20Shot%202013-10-11%20at%205.03.29%20PM_0_0.png %}" width="791" height="205" />
 
 **Server list for only General Purpose servers**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202013-10-11%20at%205.04.01%20PM_0_0.png" width="787" height="168" />
+<img src="{% asset_path cloud-servers/list-cloud-servers-and-cloud-server-information/Screen%20Shot%202013-10-11%20at%205.04.01%20PM_0_0.png %}" width="787" height="168" />
 
 Copy the ID of the configuration that you want to use from the ID field.
 You need it to create your server. To create a cloud server with nova
@@ -91,7 +91,7 @@ RAM, CPU, and disk space.
 A description of the selected configuration can help you decide if the
 configuration is right for you.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-PF_IMG.png)
+<img src="{% asset_path cloud-servers/list-cloud-servers-and-cloud-server-information/CP-PF_IMG.png %}" alt="" />
 
 When you are satisfied with your server information and configuration,
 click **Create Server.**

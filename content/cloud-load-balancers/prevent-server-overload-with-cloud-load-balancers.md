@@ -31,7 +31,7 @@ balancer yet, [create one](https://support.rackspace.com/how-to/configure-a-load
     select**Edit Connection Throttling** from the menu.
     The following pop-up window appears:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/827-1496.png" width="529" height="210" />
+    <img src="{% asset_path cloud-load-balancers/prevent-server-overload-with-cloud-load-balancers/827-1496.png %}" width="529" height="210" />
 4.  Enter a value for **Max. Connections**, and then click**Save
     Connection Throttling**. You can specify a value between 1
     and 100000.

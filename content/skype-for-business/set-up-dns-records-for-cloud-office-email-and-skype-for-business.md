@@ -126,7 +126,7 @@ After you log in with a mailbox that is enabled for Skype for Business,
 you can find the DNS settings through the [Help
 Tool](https://emailhelp.rackspace.com/) as shown in the following image.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SkypeforBusinessa.png" width="656" height="261" />
+<img src="{% asset_path skype-for-business/set-up-dns-records-for-cloud-office-email-and-skype-for-business/SkypeforBusinessa.png %}" width="656" height="261" />
 
 **Notes**:
 

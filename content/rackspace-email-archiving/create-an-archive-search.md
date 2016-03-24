@@ -87,4 +87,4 @@ give the search, the better and more accurate your results will be.
 Enter as much available search information as possible in the fields
 under **Search Options**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/searchoptionsadvanced.png" width="615" height="424" />
+<img src="{% asset_path rackspace-email-archiving/create-an-archive-search/searchoptionsadvanced.png %}" width="615" height="424" />

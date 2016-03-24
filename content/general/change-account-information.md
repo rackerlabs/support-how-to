@@ -113,7 +113,7 @@ efficiently.
 -   **Accepting Customer / Assignee** - **** In this section, provide
     the new account information.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-1.jpg" alt="Account details, including Transferring customer (Assignor) and Accepting customer (assignee) information" width="597" height="228" />
+<img src="{% asset_path general/change-account-information/change-account-1.jpg %}" alt="Account details, including Transferring customer (Assignor) and Accepting customer (assignee) information" width="597" height="228" />
 
 #### Page 2 - Signatures sections
 
@@ -125,7 +125,7 @@ efficiently.
     contact or the existing contact if that is not changing.
 
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-2.jpg" alt="Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information" width="567" height="448" />
+<img src="{% asset_path general/change-account-information/change-account-2.jpg %}" alt="Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information" width="567" height="448" />
 
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
 representative will complete this section.
@@ -144,9 +144,9 @@ representative will complete this section.
     -   **Utility Fee for Instances** - Enter the amount of the
         account's last invoice.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-3.jpg" alt="Cloud Instances Exhibit A" width="593" height="141" />
+<img src="{% asset_path general/change-account-information/change-account-3.jpg %}" alt="Cloud Instances Exhibit A" width="593" height="141" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/change-account-4.jpg" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />&Acirc;
+<img src="{% asset_path general/change-account-information/change-account-4.jpg %}" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />&Acirc;
 
 The remainder of the document pertains to Cloud Office customers. If you
 are not a Cloud Office customers, you do not need to complete it.

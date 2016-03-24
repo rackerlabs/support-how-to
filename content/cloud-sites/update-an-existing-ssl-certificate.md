@@ -62,7 +62,7 @@ Once you have the above information, you can install your new
 certificate by clicking on the **Security** tab of your site, then click on
 the **Edit Certificate link**:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Edit%20Certificate.png)
+<img src="{% asset_path cloud-sites/update-an-existing-ssl-certificate/Edit%20Certificate.png %}" alt="" />
 
 On the next screen, you will see three fields for Certificate, Private
 Key, and Intermediate Certificate; simply replace the current

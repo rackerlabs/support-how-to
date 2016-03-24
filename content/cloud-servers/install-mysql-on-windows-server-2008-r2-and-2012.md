@@ -22,7 +22,7 @@ server.
 Download the most recent version of Web PI on your Windows Server from
 [http://www.microsoft.com/web/downloads/platform.aspx](http://www.microsoft.com/web/downloads/platform.aspx.).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/pi_download.png" width="623" height="467" /></span>
+<img src="{% asset_path cloud-servers/install-mysql-on-windows-server-2008-r2-and-2012/pi_download.png %}" width="623" height="467" /></span>
 
 ### Install MySQL
 
@@ -33,15 +33,15 @@ Download the most recent version of Web PI on your Windows Server from
 3.  Select **MySQL Windows 5.1** (or currrent version), click **Add**, and then
     click **Install** to start the installation.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/install.png" width="629" height="471" />
+    <img src="{% asset_path cloud-servers/install-mysql-on-windows-server-2008-r2-and-2012/install.png %}" width="629" height="471" />
 
 4.  Provide a password for the **root** account of the MySQL server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/password.png" width="624" height="429" />
+    <img src="{% asset_path cloud-servers/install-mysql-on-windows-server-2008-r2-and-2012/password.png %}" width="624" height="429" />
 
 5.  Review the licensing agreement and click **I Accept**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/license.png" width="623" height="427" />
+    <img src="{% asset_path cloud-servers/install-mysql-on-windows-server-2008-r2-and-2012/license.png %}" width="623" height="427" />
 
     The MySQL Windows 5.1 application is downloaded and installed on
     your Windows Server 2008R2 and 2012 server.

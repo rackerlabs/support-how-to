@@ -146,7 +146,7 @@ Directory Sync service must be configured. Perform the following steps:
 1. Open the Directory Sync service administrative web application, if
     it is not already open:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Installer6.png" class="image-full_width" width="700" height="322" />
+    <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Installer6.png %}" class="image-full_width" width="700" height="322" />
 
 2. On the **Sync Registration Page**, enter the admin ID and password
     associated with your Rackspace Cloud Office account, and then click
@@ -173,7 +173,7 @@ Directory Sync service must be configured. Perform the following steps:
         be sent to the Administrator email address.  By default, this
         value is set to 08:00.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Installer7.png" class="image-full_width" width="700" height="537" />
+    <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Installer7.png %}" class="image-full_width" width="700" height="537" />
 
 4.  Click **Save & Start Sync** to begin a full synchronization.
 
@@ -225,7 +225,7 @@ synchronized to Rackspace.
 
 The following figure illustrates this communication process.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Multiple%20DC%20sync.PNG" width="1048" height="499" />
+<img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Multiple%20DC%20sync.PNG %}" width="1048" height="499" />
 
 ### Install the Password Handler service on secondary domain controllers
 
@@ -237,7 +237,7 @@ passwords across multiple domain controllers.
 **Note:** The **.msi** file within the folder should be installed on the
 secondary domain controllers only.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Installer8_0.png" width="563" height="393" />
+<img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Installer8_0.png %}" width="563" height="393" />
 
 This process applies to multiple domain controllers (two or more).
 Repeat the following steps for each additional domain controller in the

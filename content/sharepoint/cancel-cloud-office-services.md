@@ -18,7 +18,7 @@ Cloud Office Control Panel and perform the following steps:
     your account number.
 2.  From the menu, select **Upgrades & Services**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Cancel%20Services%201_1a.png" width="605" height="149" />
+    <img src="{% asset_path sharepoint/cancel-cloud-office-services/Cancel%20Services%201_1a.png %}" width="605" height="149" />
 
     If you do not see the **Upgrades &** **Services** option in the
     menu, confirm that you have the proper permissions to access
@@ -28,12 +28,12 @@ Cloud Office Control Panel and perform the following steps:
 3.  In the options listed at the top of the tab, click **Service
     Summary**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Cancel%20Services%202_0a.png" width="753" height="477" />
+    <img src="{% asset_path sharepoint/cancel-cloud-office-services/Cancel%20Services%202_0a.png %}" width="753" height="477" />
 
 4.  In the **Action** column of the service that you want to cancel,
     click **Cancel Service**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Cancel%20Services%203a.png" width="764" height="468" />
+    <img src="{% asset_path sharepoint/cancel-cloud-office-services/Cancel%20Services%203a.png %}" width="764" height="468" />
 
 5.  For **Cancellation Date**, enter the date that you want the services
     to end.

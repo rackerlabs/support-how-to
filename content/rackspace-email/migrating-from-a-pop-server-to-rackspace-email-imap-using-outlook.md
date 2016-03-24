@@ -54,7 +54,7 @@ referenced previously, [IMAP and POP mail protocol comparison](/how-to/imap-and-
     **secure.emailsrvr.com** for the incoming and outgoing mail servers,
     and your user name and password.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/settings_screenIMAP%20copy_0.jpg" width="339" height="312" />
+    <img src="{% asset_path rackspace-email/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/settings_screenIMAP%20copy_0.jpg %}" width="339" height="312" />
 
 4.  Select the **Remember Password** check box if you don't want to type your
     password each time you launch Outlook.
@@ -73,12 +73,12 @@ referenced previously, [IMAP and POP mail protocol comparison](/how-to/imap-and-
 10. Set the incoming port to **993** and the outgoing port to
     **465**, and enable SSL encryption.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/portsimap%20copy.jpg" width="369" height="258" />
+    <img src="{% asset_path rackspace-email/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/portsimap%20copy.jpg %}" width="369" height="258" />
 
 11. Navigate to your Inbox and note that your new IMAP account is listed in the left folder pane. Click on the account to expand the folders. You should see mail
     items for that account start to appear.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMAPaccount.png" width="173" height="277" />
+    <img src="{% asset_path rackspace-email/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/IMAPaccount.png %}" width="173" height="277" />
 
 12. Now that you have added your Rackspace account via IMAP, you can
     drag emails from your POP inbox to your IMAP inbox. As
@@ -95,4 +95,4 @@ referenced previously, [IMAP and POP mail protocol comparison](/how-to/imap-and-
 
 After the change, your email will look similar to the following screenshot.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2013-11-27_1204.png" width="437" height="600" />
+<img src="{% asset_path rackspace-email/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/2013-11-27_1204.png %}" width="437" height="600" />

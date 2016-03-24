@@ -23,7 +23,7 @@ and select **Refresh Content**.
 Files** or **Refresh Files By Path**. To **Refresh Files By Path**,
 enter the path to the file that you want to refresh.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-02%20at%2012.39.54%20PM.png" width="585" height="266" />
+<img src="{% asset_path rackspace-cdn/refresh-content-in-a-rackspace-cdn-service/Screen%20Shot%202015-10-02%20at%2012.39.54%20PM.png %}" width="585" height="266" />
 
 
 

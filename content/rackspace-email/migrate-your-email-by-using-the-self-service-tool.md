@@ -54,7 +54,7 @@ Email Setup Assistant: <http://emailhelp.rackspace.com>
 2.  To create your self-service migration portal, click **Get Started
     with MigrationWiz Now.**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/self-service1.png" width="450" height="362" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/self-service1.png %}" width="450" height="362" />
 
     You are redirected to the MigrationWiz portal.
 
@@ -62,7 +62,7 @@ Email Setup Assistant: <http://emailhelp.rackspace.com>
     the Terms of Service (BitTitan is MigrationWiz), and then click
     **Login**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4-2_0.png" width="250" height="318" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/4-2_0.png %}" width="250" height="318" />
 
     A notification informs you that an email with a secure link has been
     sent to your email address. Follow the instructions in the email to
@@ -92,14 +92,14 @@ Email Setup Assistant: <http://emailhelp.rackspace.com>
         migrating to, Rackspace Email or Microsoft Exchange 2013, and
         then click **Next**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8-2_0.png" width="450" height="328" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/8-2_0.png %}" width="450" height="328" />
 
 7.  Enter the email address, username and password for the source and
     destination mailboxes. You can migrate multiple mailboxes by
     clicking the + symbol or by inputting your mailbox information into
     the spreadsheet provided. Then, click **Next**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/9-2_0.png" width="450" height="311" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/9-2_0.png %}" width="450" height="311" />
 
     The next step is a trial migration to ensure that connectivity is
     successful to both the source and destination mailboxes based on the
@@ -107,16 +107,16 @@ Email Setup Assistant: <http://emailhelp.rackspace.com>
 
 8.  Click **Next** to begin the trial migration.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/10-2_0.png" width="450" height="237" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/10-2_0.png %}" width="450" height="237" />
 
 9.  When the status changes to **Ready for migration**, click **Next**
     to proceed to the next screen.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/11-2_0.png" width="257" height="197" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/11-2_0.png %}" width="257" height="197" />
 
 10. Click **Next** to begin the migration of your email data.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/13-2_0.png" width="450" height="302" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/13-2_0.png %}" width="450" height="302" />
 
     Several factors influence how long your email will take to migrate.
     For a list of possible factors, see [Factors that affect the
@@ -129,10 +129,10 @@ Email Setup Assistant: <http://emailhelp.rackspace.com>
     MigrationWiz](/how-to/running-additional-passes-with-migrationwiz).
     Otherwise, clidk **Finish**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/14-2_0.png" width="450" height="335" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/14-2_0.png %}" width="450" height="335" />
 
 12. You can find a list of all your projects under **My Migrations**,
     located in the top-right corner of your migration portal. To begin a
     new project, click **Start a new migration**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/15-2_0.png" width="450" height="243" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/15-2_0.png %}" width="450" height="243" />

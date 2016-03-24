@@ -92,7 +92,7 @@ To encrypt your backups, perform the following steps:
 
 1.  From the Systems Actions menu, select **Encrypt**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rcbu_begin_encryption.png" alt="RCBU Encryption - Enter passphrase" width="478" height="441" />
+<img src="{% asset_path cloud-backup/rackspace-cloud-backup-system-actions/rcbu_begin_encryption.png %}" alt="RCBU Encryption - Enter passphrase" width="478" height="441" />
 
 2.  Enter a passphrase that only you know.
 3.  Enter your passphrase again.

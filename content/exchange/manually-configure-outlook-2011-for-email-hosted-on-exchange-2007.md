@@ -26,12 +26,12 @@ Microsoft Outlook 2011 email client.
    select **Preferences**. In the **Outlook Preferences** menu,
    select **Accounts**.
 
-   ![](http://c816878.r78.cf2.rackcdn.com/(E&A)Outlook2011IMAP.png)
-   ![](http://c816878.r78.cf2.rackcdn.com/(E&A)Outlook2011IMAP2.png)
+   <img src="{% asset_path exchange/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/(E&A)Outlook2011IMAP.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/(E&A)Outlook2011IMAP2.png %}" alt="" />
 
 3. On the **Accounts** screen, select **Exchange Account**.
 
-   ![](http://c818071.r71.cf2.rackcdn.com/(E&A)Outlook2011Exchange.png)
+   <img src="{% asset_path exchange/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/(E&A)Outlook2011Exchange.png %}" alt="" />
 
 4. Enter the following information:
 
@@ -48,14 +48,14 @@ Microsoft Outlook 2011 email client.
    - Server - Enter the Exchange Web Server (EWS) address from your
      Outlook 2011 Setup Guide.
 
-   ![](http://c818071.r71.cf2.rackcdn.com/(E&A)Outlook2011Exchange2.png)
+   <img src="{% asset_path exchange/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/(E&A)Outlook2011Exchange2.png %}" alt="" />
 
 5. Select **Add Account** and confirm that the amber-colored dot next to the
    account name turns from an amber color to a solid green color. (this may take a
    moment). Close all windows and you're done!
 
-   ![](http://c818071.r71.cf2.rackcdn.com/(E&A)Outlook2011Exchange4.png)
-   ![](http://c818071.r71.cf2.rackcdn.com/(E&A)Outlook2011Exchange3.png)
+   <img src="{% asset_path exchange/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/(E&A)Outlook2011Exchange4.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/(E&A)Outlook2011Exchange3.png %}" alt="" />
 
 **Note:** The amber dot may take a minute or two to change from amber to
 green; if it doesn't change, check the accounts settings and password and make

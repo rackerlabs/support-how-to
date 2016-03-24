@@ -103,9 +103,9 @@ Cloud Managed Infrastructure service level | Yes | Yes
 The following diagrams show high-level views of network traffic flow for RackConnect v2.0 and RackConnect v3.0.
 
 #### RackConnect v2.0 network traffic flow over ServiceNet
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RCv2Example_2.png" alt="" width="692" height="444" border="2" id="rcv2" />
+<img src="{% asset_path rackconnect/comparing-rackconnect-v30-and-rackconnect-v20/RCv2Example_2.png %}" alt="" width="692" height="444" border="2" id="rcv2" />
 
 #### RackConnect v3.0 network traffic flow over Cloud Networks
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RCv3Example.png" alt="" width="692" height="456" border="2" id="rcv3" />
+<img src="{% asset_path rackconnect/comparing-rackconnect-v30-and-rackconnect-v20/RCv3Example.png %}" alt="" width="692" height="456" border="2" id="rcv3" />
 
 If you have any questions, please reach out to us. Our contact information is available on the [Contact Us page](/how-to/support).

@@ -20,13 +20,13 @@ CNAME records using the Cloud Control Panel.
 1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com)
     and select **DNS **at the top.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/1.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/1.png %}" alt="" />
 
 2.  Select **Create Domain** under **Cloud DNS** and enter in the domain
     name, email address, Time To Live (TTL), and then select **Create
     Domain **once more.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/2.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/2.png %}" alt="" />
 
     **Note**: Time To Live indicates how log a DNS record is cached before
     it's updated.
@@ -44,7 +44,7 @@ domain.
     under Records. Select **A/AAAA Record** for the type and fill out
     the following fields accordingly.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/3.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/3.png %}" alt="" />
 
 3.  After you have entered everything, select **Add Record** and you are
     finished!
@@ -59,7 +59,7 @@ your domain.
     Record** under Records. Select **CNAME Record** for the type and
     fill out the following fields accordingly.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/4.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/4.png %}" alt="" />
 
 3.  After you have entered everything, select **Add Record** and you are
     finished!
@@ -74,7 +74,7 @@ domain.
     Record** under Records. Select **MX Record** for the type and fill
     out the following fields accordingly.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/5.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/5.png %}" alt="" />
 
 ### Deleting a record
 
@@ -85,7 +85,7 @@ domain.
 2.  Click the gear icon next to the desired domain and then select
     **Delete Record**.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/6.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/6.png %}" alt="" />
 
 ### Deleting a domain
 
@@ -95,7 +95,7 @@ Next, we'll go through the process of deleting a domain.
 2.  Click the gear icon next to the desired domain and then
     select **Delete Domain**.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/7.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/7.png %}" alt="" />
 
 ### What are the canonical DNS servers for Cloud Servers?
 

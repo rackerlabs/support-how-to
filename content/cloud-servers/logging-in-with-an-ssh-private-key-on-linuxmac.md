@@ -43,7 +43,7 @@ the private key into the file.
   **Note**: You need to include the **BEGIN** and **END** lines to use the
 private key.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Linux2.png" width="764" height="660" />
+  <img src="{% asset_path cloud-servers/logging-in-with-an-ssh-private-key-on-linuxmac/Linux2.png %}" width="764" height="660" />
 
 3. To save your changes, press Escape. Then, type "":wq"to write the file
 and return to the command line.

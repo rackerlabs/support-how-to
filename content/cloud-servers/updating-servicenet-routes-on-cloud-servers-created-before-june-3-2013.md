@@ -349,9 +349,9 @@ This program has been tested on the following Base Images:
     "http://7c1f6a0506404b3af970-42fdda7fdbf4103081a78c20ac1c54cb.r51.cf1.rackcdn.com"
     to your Trusted Sites and retry step 1.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winnew12-1_0.jpg" alt="URL not in Trusted Sites dialog box; Clicking Add" width="550" />
+    <img src="{% asset_path cloud-servers/updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/winnew12-1_0.jpg %}" alt="URL not in Trusted Sites dialog box; Clicking Add" width="550" />
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/winnew12-2_0.jpg" alt="Add URL to Trusted Sites dialog box; Clicking Add" width="550" />
+    <img src="{% asset_path cloud-servers/updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/winnew12-2_0.jpg %}" alt="Add URL to Trusted Sites dialog box; Clicking Add" width="550" />
 
 3.  Since the program requires command-line switches, it cannot be run
     directly from Internet Explorer.  Save the executable to a location

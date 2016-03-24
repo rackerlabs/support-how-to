@@ -28,7 +28,7 @@ prefixed with <code>fwcp-</code>
 
 Every three months, users with administrative and editing privileges are prompted to accept the Firewall User Agreement terms for each firewall. After you accept the user agreement, you and the primary contact person on the account receive a confirmation email. If you choose not to accept the agreement, you can still view your firewall configuration, but you cannot modify it.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/926-1.1.png" width="482" height="38" alt="" border="1"  />
+<img src="{% asset_path managed-operations/using-the-myrackspace-firewall-manager/926-1.1.png %}" width="482" height="38" alt="" border="1"  />
 
 
 ### Firewall Manager overview
@@ -124,11 +124,11 @@ In the following image, a policy was added to allow an alternate SMTP (Port 587)
 
 **Note:**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/926-4763-1_0.png" width="550" height="236" border="2" alt=""  />
+<img src="{% asset_path managed-operations/using-the-myrackspace-firewall-manager/926-4763-1_0.png %}" width="550" height="236" border="2" alt=""  />
 
 The following image shows a protocol that was changed to IP (all ports). When you select this protocol, you cannot enter or select a port number.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/926-476-2.png" width="552" height="236" border="1" alt=""  />
+<img src="{% asset_path managed-operations/using-the-myrackspace-firewall-manager/926-476-2.png %}" width="552" height="236" border="1" alt=""  />
 
 ### Copy a policy
 
@@ -170,7 +170,7 @@ The blacklist is a central area for source IP addresses for which you want to de
 
 Access the blacklist from the **Manage Blacklist** option in the side navigation bar, as shown in the following image. Customers with view-only permissions have the **View Blacklist** option.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/926-476-3.png" width="219" height="206" border="1" alt=""  />
+<img src="{% asset_path managed-operations/using-the-myrackspace-firewall-manager/926-476-3.png %}" width="219" height="206" border="1" alt=""  />
 
 Use the **Manage Blacklist** dialog box to add IP addresses to and delete IP addresses from the blacklist, and to add comments.
 

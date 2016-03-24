@@ -27,7 +27,7 @@ invoice now also provides a **Service Summary**.
 The first page of your invoice contains a detailed overview of your
 account and billing information.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-2.png" width="416" height="128" />
+<img src="{% asset_path general/rackspace-account-invoice/832-2.png %}" width="416" height="128" />
 
 ### Account summary
 
@@ -51,7 +51,7 @@ following information:
 -   **Remit Section** (if applicable) - Please detach and send with your
     payment
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-2a.png" width="688" height="136" />
+<img src="{% asset_path general/rackspace-account-invoice/832-2a.png %}" width="688" height="136" />
 
 ### Service summary
 
@@ -73,7 +73,7 @@ and other charges, and is organized as follows:
 -   **Total Charges** - The sum of the net product charge and the taxes
     for a product
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-3.png" width="684" height="591" />
+<img src="{% asset_path general/rackspace-account-invoice/832-3.png %}" width="684" height="591" />
 
 Although most of the service summary items are self-explanatory, there
 are two services that warrant additional description:
@@ -102,7 +102,7 @@ occurred during the billing period.
 -   **Total Amount** - The sum of Net Amount and Taxes for an individual
     adjustment
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-3a.png" width="757" height="154" />
+<img src="{% asset_path general/rackspace-account-invoice/832-3a.png %}" width="757" height="154" />
 
 ### Promotion and discount summary
 
@@ -114,14 +114,14 @@ discounts for the billing period.
 -   **Net Discount** - The total of all the promotions and discounts
     applied to your bill
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-5.png" width="724" height="281" />
+<img src="{% asset_path general/rackspace-account-invoice/832-5.png %}" width="724" height="281" />
 
 ### Tax summary
 
 The **Tax Description** explains, in detail, the taxes being applied to
 your bill.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/taxsummary.png" width="731" height="198" />
+<img src="{% asset_path general/rackspace-account-invoice/taxsummary.png %}" width="731" height="198" />
 
 ### Goods and services tax
 
@@ -129,9 +129,9 @@ The following pages apply only if you are assessed a Goods and Services
 Tax (GST). They show the aggregate product charges broken down into
 taxable (T) and non-taxable charges for the given billing period.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-6a.png" width="731" height="288" />
+<img src="{% asset_path general/rackspace-account-invoice/832-6a.png %}" width="731" height="288" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/832-8.png" width="730" height="343" />
+<img src="{% asset_path general/rackspace-account-invoice/832-8.png %}" width="730" height="343" />
 
 ### Invoice Details Document (CSV)
 

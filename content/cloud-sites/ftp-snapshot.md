@@ -42,7 +42,7 @@ for the site.
 **Note:** You may need to execute a manual change directory command to
 .snapshot if you are not able to view and modify the current FTP path.
 
-![](http://c15056451.r51.cf2.rackcdn.com/FTPSnapshot.png)
+<img src="{% asset_path cloud-sites/ftp-snapshot/FTPSnapshot.png %}" alt="" />
 
 You should see the following sub-directories if successful:
 

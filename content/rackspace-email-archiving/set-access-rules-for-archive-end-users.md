@@ -27,7 +27,7 @@ verifying registered addresses.
 
 3.  Select the tab, **End User Access Rules.**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-08-27%20at%2011.34.43%20AM.png" width="551" height="207" />
+    <img src="{% asset_path rackspace-email-archiving/set-access-rules-for-archive-end-users/Screen%20Shot%202015-08-27%20at%2011.34.43%20AM.png %}" width="551" height="207" />
 
 4.  Specify which domains are allowed to access the archive and which
     domains are denied access:

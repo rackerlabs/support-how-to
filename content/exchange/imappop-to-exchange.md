@@ -42,12 +42,12 @@ account:
    on **Personal Folders**, select **Properties **and then
    the **Advanced** button.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/1.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/1.png %}" alt="" />
 
 5. Highlight all the text in the **Filename** box to
    copy the text and then select **Cancel**.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/three.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/three.png %}" alt="" />
 
    **Note:** Paste your copied text into a Notepad or Word
    document since you will need this text in a later step.
@@ -57,13 +57,13 @@ account:
    File** (.pst), and then select
    the **Next** button.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/5.png)
-   ![](http://c15047832.r32.cf2.rackcdn.com/6.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/5.png %}" alt="" />
+   <img src="{% asset_path exchange/imappop-to-exchange/6.png %}" alt="" />
 
 7. In the **File to Import** box, paste the path to
    your .pst file an select the **Next** button.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/7.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/7.png %}" alt="" />
 
 8. Select the top folder you want to import, and be
    sure to select the **Include
@@ -73,7 +73,7 @@ account:
    to import your data to and then
    select **Finish**.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/10.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/10.png %}" alt="" />
 
 **Note:** Your
 import may take some time to finish depending on the size of the .PST file.
@@ -88,12 +88,12 @@ account:
    on **Personal Folders**, select **Properties** and then
    the **Advanced** button.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/1.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/1.png %}" alt="" />
 
 2. Highlight all the text in the **Filename** box to
    copy the text and then select **Cancel**.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/three.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/three.png %}" alt="" />
 
    **Note:** Paste your copied text into a Notepad or Word
    doc since you will need this text in a future step.
@@ -103,13 +103,13 @@ account:
    File** (.pst), and then select
    the **Next** button.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/5.png)
-   ![](http://c15047832.r32.cf2.rackcdn.com/6.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/5.png %}" alt="" />
+   <img src="{% asset_path exchange/imappop-to-exchange/6.png %}" alt="" />
 
 4. In the **File to Import** box, paste the path to
    your .pst file an select the **Next** button.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/7.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/7.png %}" alt="" />
 
 5. Select the top folder you want to import, and be
    sure to select the **Include
@@ -120,7 +120,7 @@ account:
    to import your data. Then
    select **Finish**.
 
-   ![](http://c15047832.r32.cf2.rackcdn.com/10.png)
+   <img src="{% asset_path exchange/imappop-to-exchange/10.png %}" alt="" />
 
 **Note:** Your
 import may take some time to finish depending on the size of the .PST

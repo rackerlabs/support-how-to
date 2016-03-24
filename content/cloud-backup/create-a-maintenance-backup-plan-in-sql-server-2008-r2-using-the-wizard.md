@@ -36,16 +36,16 @@ automatic. The maintenance plan depends on this service to run.
 1.  On the server, open the **Run** dialog box, type in **services.msc**
     and press **Enter**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckSQLServerAgent1.png" width="429" height="225" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/CheckSQLServerAgent1.png %}" width="429" height="225" />
 2.  Find the SQL Server Agent service in the list and double-click it.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckSQLServerAgent2.png" width="727" height="321" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/CheckSQLServerAgent2.png %}" width="727" height="321" />
 3.  Cick the **Recovery** tab, and set the failure value to **Restart
     the Service**.
 4.  On the **General** tab, select **Automatic** as the startup type,
     and then start the service.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckSQLServerAgent3.png" width="439" height="188" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/CheckSQLServerAgent3.png %}" width="439" height="188" />
 
 ### Create the maintenance plan
 
@@ -54,7 +54,7 @@ automatic. The maintenance plan depends on this service to run.
     Plans**, right-click **Maintenance Plans**, and select **Maintenance
     Plan Wizard**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreatingtheMaintenancePlan1_0.png" width="408" height="587" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/CreatingtheMaintenancePlan1_0.png %}" width="408" height="587" />
 
 3.  On the welcome page of the wizard, click  **Next**.
 4.  On the Select Plan Properties page, specify a name for the plan,
@@ -65,7 +65,7 @@ automatic. The maintenance plan depends on this service to run.
     Up Database (Transaction Log)** check boxes, and then click
     **Next**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Creatingthemaintenanceplan4.png" width="576" height="512" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/Creatingthemaintenanceplan4.png %}" width="576" height="512" />
 
 6.  On the Select Maintenance Task Order page, leave the order as shown,
     and then click **Next**.
@@ -88,7 +88,7 @@ according to the following instructions.
 6.  To configure the scheduling options for this task, click **Change**
     near the bottom of the page.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fullbackupsetttings1.png" width="589" height="941" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/fullbackupsetttings1.png %}" width="589" height="941" />
 
 7.  In the Job Schedule Properties dialog box, select **Recurring** for
     the Schedule type.
@@ -100,7 +100,7 @@ according to the following instructions.
 10. Under **Duration**, adjust the **Start** and **End** dates. In the
     example **No end date** is selected.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fullbackupsetttings2.png" width="680" height="591" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/fullbackupsetttings2.png %}" width="680" height="591" />
 
 11. Click **OK**.
 12. On the Define Back Up Database (Full) Task page of the Maintenance
@@ -164,7 +164,7 @@ transaction log backup according to the following instructions.
 11. Under **Duration**, adjust the **Start date** and **End date**
     fields.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TransactionLogBackupSettings2.png" width="594" height="518" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/TransactionLogBackupSettings2.png %}" width="594" height="518" />
 12. Click **OK**.
 13. On the Define Back Up Database (Transaction Log) Task page of the
     Maintenance Plan Wizard, click **Next**.
@@ -196,7 +196,7 @@ transaction log backups between the full and differential backups.
 4.  Right-click on the **Maintenance Cleanup Task** and choose
     **Edit**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TransactionLogCleanupTask2.png" width="278" height="150" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/TransactionLogCleanupTask2.png %}" width="278" height="150" />
 
 5.  In the Maintenance Cleanup Task dialog box, select **Backup files**.
 6.  Select **Search folder and delete files based on an extension**.
@@ -208,14 +208,14 @@ transaction log backups between the full and differential backups.
 9.  Select the **Include the first-level sub-folders** check box.
 10. Select the **Delete files based on the age of the file at task run
     time** check box, and set the file age to **3 Days**.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TransactionLogCleanupTask3.png" width="484" height="566" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/TransactionLogCleanupTask3.png %}" width="484" height="566" />
 
 11. Click **OK** to return to the Management Studio main window.
 12. Drag the green arrow from the differential backup task to the
     maintenance cleanup task.
 13. Double-click the connected green line.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TransactionLogCleanupTask4.png" width="353" height="287" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/TransactionLogCleanupTask4.png %}" width="353" height="287" />
 
 14. In the Precedence Constraint Editor, set Value to Completion.
     This setting allows the task to become conditional, meaning that if
@@ -223,12 +223,12 @@ transaction log backups between the full and differential backups.
     task is not run, or if the backup did run, the cleanup task is
     run.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TransactionLogCleanupTask5.png" width="445" height="370" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/TransactionLogCleanupTask5.png %}" width="445" height="370" />
 
 15. Click **OK** to return to the Management Studio main window.
     The line should now appear blue.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/TransactionLogCleanupTask6.png" width="366" height="309" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/TransactionLogCleanupTask6.png %}" width="366" height="309" />
 16. Save your work by selecting Save All from the File menu.
     You have finished setting up your maintenance backup plan. You can
     adjust your backup plan to your needs, but you should first test it.
@@ -260,7 +260,7 @@ history to see what failed.
     The Log File Viewer window, which shows the job history, is
     displayed.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Errors2_0.png" width="604" height="320" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/Errors2_0.png %}" width="604" height="320" />
 
     If the job failed  a red X icon is displayed next to the time that
     you ran the job.
@@ -269,7 +269,7 @@ history to see what failed.
     Details about the error appear below the table. Scroll or expand the
     pane to see more information.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Errors3.png" width="991" height="425" />
+    <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/Errors3.png %}" width="991" height="425" />
 3.  Troubleshoot the error and repeat the test-job.
 
 When your maintenance plan is reliable, check it in a few days to see if

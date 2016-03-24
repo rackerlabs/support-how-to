@@ -36,7 +36,7 @@ account: Daily, Weekly, or Both.
 2.  Enter your email address.
 3.  Click the **Save Preferences** button.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rcbu_preferences.png" alt="RCBU Preferences" width="525" height="351" />
+<img src="{% asset_path cloud-backup/rackspace-cloud-backup-preferences/rcbu_preferences.png %}" alt="RCBU Preferences" width="525" height="351" />
 
 You may cancel your Daily or Weekly emails by unchecking the respective
 boxes and click **Save Preferences** button.

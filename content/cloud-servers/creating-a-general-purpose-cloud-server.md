@@ -23,7 +23,7 @@ General Purpose servers, see [New Features in General Purpose and Work-Optimized
         to the image that you want to use to create the server, and
         select **Create Server with Image**. Skip to step 3.
 
-        ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SavedImages.png)
+        <img src="{% asset_path cloud-servers/creating-a-general-purpose-cloud-server/SavedImages.png %}" alt="" />
 
     -   To create a new server, select **Cloud Servers > Create
         Servers**, and then click **Create Server**.
@@ -45,7 +45,7 @@ General Purpose servers, see [New Features in General Purpose and Work-Optimized
 6.  In the **Flavor** section, select the flavor class and specific
     flavor for your server.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/FlavorImg.png)
+    <img src="{% asset_path cloud-servers/creating-a-general-purpose-cloud-server/FlavorImg.png %}" alt="" />
 
 7.  In the **Advanced Options** section, click **Select Networks** and
     choose the networks to which your server will be connected.

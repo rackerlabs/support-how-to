@@ -109,7 +109,7 @@ calculator:
 To get pricing information for Cloud Servers with Managed Operations,
 make sure to check the box in the lower-right corner of the screen:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ManagedCalc.png" width="192" height="139" />
+<img src="{% asset_path managed-operations/adding-a-managed-operations-service-level-to-your-cloud-account/ManagedCalc.png %}" width="192" height="139" />
 
 ### Why is there an account fee as well as a per-instance service fee?
 

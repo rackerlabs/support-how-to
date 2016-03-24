@@ -31,7 +31,7 @@ To locate the IP addresses for your Cloud Server:
 
 Following is a sample Networks table:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Networks%20Table.png" alt="Networks Table" width="662" height="164" />
+<img src="{% asset_path cloud-servers/private-and-public-access-to-your-cloud-server/Networks%20Table.png %}" alt="Networks Table" width="662" height="164" />
 
 ### Related Information
 

@@ -49,34 +49,34 @@ well.
 -   First, log into the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting > Cloud Sites**.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/cloudsites.png %}" alt="" />
 
 -   Click the **domain name** that the database exists under.
 -   Click the **Features** tab.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/featurestab.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/featurestab.png %}" alt="" />
 
 -   Confirm that the database is active by scrolling to the
     **Databases** section. If the database is active. it will have a
     green check mark in the Status column:
 
-  ![](http://c806394.r94.cf2.rackcdn.com/databaseready.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/databaseready.png %}" alt="" />
 
 -   To view the details, click the hyperlink for the database, which
     should return a page like this:
 
-  ![](http://c806394.r94.cf2.rackcdn.com/databaseinformation.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/databaseinformation.png %}" alt="" />
 
 -   The server name is listed as **Hostname** under the **Database
     Information** section.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/hostname.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/hostname.png %}" alt="" />
 
 -   The user names are listed under the **Database
     Users** section. By default, there is only one user and this would
     be the user name you would use to log in to phpMyAdmin.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/databaseusers.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/databaseusers.png %}" alt="" />
 
   **Note:** If there are multiple users listed, you may log in with any
 of them. The number that prefixes the user name is the account number
@@ -104,17 +104,17 @@ this page.
 With the information described above, you're ready to start working
 with the database. To do so, click the **Online Manager** link.
 
-![](http://c806394.r94.cf2.rackcdn.com/onlinemanagerlink.png)
+<img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/onlinemanagerlink.png %}" alt="" />
 
 -   A phpMyAdmin interface will display in the browser.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/phpmyadminlogin.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/phpmyadminlogin.png %}" alt="" />
 
 -   Enter the **user name** (including the numbered prefix as shown below) and password.
 -   Select the **Hostname** (on the details page) from the
     drop-down list.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/phpmyadminserverchoices.png)
+  <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/phpmyadminserverchoices.png %}" alt="" />
 
   **Note:** The first part of the host name identifies the server
 choice.
@@ -124,7 +124,7 @@ different than what is shown in the screen shot above.
 
 Now that you're logged into phpMyAdmin, you can manage your MySQL database as necessary.
 
-![](http://c806394.r94.cf2.rackcdn.com/loggedintophpmyadmin.png)
+<img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface/loggedintophpmyadmin.png %}" alt="" />
 
 **What do I do if my log in fails?**
 

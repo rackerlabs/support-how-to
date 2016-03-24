@@ -45,13 +45,13 @@ example: www.photos.example.com.
 -   Log into the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting > Cloud Sites**
 
-    ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
+    <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/cloudsites.png %}" alt="" />
 
 -   Enter the subdomain and domain name into the **Domain Name** text
     box (i.e. subdomain.yourdomain.com)
 -   Click **Add New Site**
 
-    ![](http://c806394.r94.cf2.rackcdn.com/addsubdomain.png)
+    <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/addsubdomain.png %}" alt="" />
 
 -   Choose the length of time for which you want to purchase the domain
     name (only if you haven't already registered the domain). Click
@@ -76,7 +76,7 @@ easy on Cloud Sites when you follow these simple directions:
 -   Log into the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting > Cloud Sites**
 
-    ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
+    <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/cloudsites.png %}" alt="" />
 
 -   Under **Add a New Website** select the Site Owner from the
     pull-down menu. The Site Owner needs to be the same client account
@@ -84,7 +84,7 @@ easy on Cloud Sites when you follow these simple directions:
 -   Type the domain or subdomain in the **Domain Name** text box and
     click **Add New Site**
 
-    ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
+    <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/namesite.png %}" alt="" />
 
 -   On the next page choose to either register the domain, or if you
     already own it, simply indicate that you would like to "Set up the
@@ -92,12 +92,12 @@ easy on Cloud Sites when you follow these simple directions:
 -   Scroll down until you see the **Other Options** tab. Once there,
     select **Point to another website (alias)** and click **Next Step**
 
-    ![](http://c806394.r94.cf2.rackcdn.com/choosealias.png)
+    <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/choosealias.png %}" alt="" />
 
 -   Select the website you want to point to from the list, and click
     **Next Step**
 
-    ![](http://c806394.r94.cf2.rackcdn.com/selectalias.png)
+    <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases/selectalias.png %}" alt="" />
 
 That's all there is to it! You've now added a domain alias. The domain
 alias will now direct traffic to the domain you selected.

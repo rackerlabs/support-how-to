@@ -96,7 +96,7 @@ steps:
 6.  Specify the Time To Live (TTL).
 7.  Click **Add Record**.
 
-![DNS SPF Record](http://c691244.r44.cf2.rackcdn.com/SPF%20Record%20DNS.png)
+<img src="{% asset_path cloud-dns/create-an-spf-txt-record/SPF%20Record%20DNS.png %}" alt="DNS SPF Record" />
 
 ### Related articles
 

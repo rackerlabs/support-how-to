@@ -45,15 +45,15 @@ Additionally, confirm that the email settings on your Android phone match the fo
 
 1. On your phone, navigate to **Settings > More Networks**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1710-4631_1_2.png" width="270" height="283" border="1" alt=""  />
+    <img src="{% asset_path rackspace-email/outgoing-email-issue-on-android-phones/1710-4631_1_2.png %}" width="270" height="283" border="1" alt=""  />
 
 2. Go to **Mobile Networks > Access Point Names**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1710-4631_2_1.png" width="268" height="268" border="1" alt=""  />
+    <img src="{% asset_path rackspace-email/outgoing-email-issue-on-android-phones/1710-4631_2_1.png %}" width="268" height="268" border="1" alt=""  />
 
     Only one APN should be listed.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1710-4631_3_1.png" width="270" height="114" border="1" alt=""  />
+    <img src="{% asset_path rackspace-email/outgoing-email-issue-on-android-phones/1710-4631_3_1.png %}" width="270" height="114" border="1" alt=""  />
 
 3. To add another APN, tap the **&#43;** symbol and specify the following settings only:
 
@@ -65,7 +65,7 @@ Additionally, confirm that the email settings on your Android phone match the fo
 
 4. Select the new APN.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1710-4631_4_1.png" width="268" height="128" border="1" alt=""  />
+    <img src="{% asset_path rackspace-email/outgoing-email-issue-on-android-phones/1710-4631_4_1.png %}" width="268" height="128" border="1" alt=""  />
 
 5. Restart your phone.
 

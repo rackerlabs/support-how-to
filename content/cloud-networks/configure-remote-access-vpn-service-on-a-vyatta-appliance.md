@@ -45,7 +45,7 @@ enters on the Public interface on the Vyatta appliance.
 session is established. The outside-address X.X.X.X address is the
 Vyatta's Public IP address.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/VPN%20with%20Vyatta.png" width="600" height="334" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/VPN%20with%20Vyatta.png %}" width="600" height="334" />
 
 ### Configure the L2TP/IPsec VPN on the Vyatta Appliance
 
@@ -212,15 +212,15 @@ Select System Preferences from the Apple menu, then click Network.
 
 Select the Vyatta VPN (LT2P) network and update the following options:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MAC%20Network%20Prefs.png" width="623" height="414" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/MAC%20Network%20Prefs.png %}" width="623" height="414" />
 
 #### Mac Client Connection Details
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MAC%20Connection%20Details.png" width="627" height="419" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/MAC%20Connection%20Details.png %}" width="627" height="419" />
 
 #### Mac Client Authentication Settings
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MAC%20Authentication%20Settings.png" width="631" height="419" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/MAC%20Authentication%20Settings.png %}" width="631" height="419" />
 
 #### Configure Split Tunnel on the Mac Native IPsec Client
 
@@ -229,7 +229,7 @@ servers, and all other traffic (internet traffic) will not use the IPsec
 tunnel , ensure that **Send all traffic over VPN connection** is unchecked
 under Options.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MAC%20Split%20Tunnell.png" width="539" height="465" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/MAC%20Split%20Tunnell.png %}" width="539" height="465" />
 
 After enabling split tunnel on a MAC client, you may need to add a
 static route to force all traffic destined to the VPN network over the
@@ -241,7 +241,7 @@ Where 192.168.x.0/24 is the CIDR of your Cloud Network.
 
 The following screenshot shows a successful connection:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MAC%20Successful%20Connection.png" width="630" height="535" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/MAC%20Successful%20Connection.png %}" width="630" height="535" />
 
 ### Windows Client Configuration
 
@@ -249,35 +249,35 @@ To configure Windows clients, update the following network options.
 
 #### Set up a virtual private network (VPN) connection
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Windows%20Set%20Up%20VPN.png" width="523" height="527" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Windows%20Set%20Up%20VPN.png %}" width="523" height="527" />
 
 #### Type the Internet Address to Connect To
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Type%20the%20internet%20address%20to%20connect%20to.png" width="581" height="387" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Type%20the%20internet%20address%20to%20connect%20to.png %}" width="581" height="387" />
 
 #### Enter Login Credentials
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Username%20and%20Password.png" width="531" height="363" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Username%20and%20Password.png %}" width="531" height="363" />
 
 #### Connect to the VPN
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20The%20connection%20is%20ready.png" width="548" height="364" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20The%20connection%20is%20ready.png %}" width="548" height="364" />
 
 #### Configure Vyatta VPN Properities
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Connect%20to%20a%20Network_0.png" width="712" height="452" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Connect%20to%20a%20Network_0.png %}" width="712" height="452" />
 
 #### Configure VPN Properities General Configuration Tab
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Vyatta%20VPN%20Properties.png" width="461" height="554" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Vyatta%20VPN%20Properties.png %}" width="461" height="554" />
 
 #### Configure VPN Security Settings Tab
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Vyatta%20VPN%20Security%20Tab.png" width="467" height="562" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Vyatta%20VPN%20Security%20Tab.png %}" width="467" height="562" />
 
 #### Configure Advanced Properties
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Vyatta%20Advanced%20Properites.png" width="566" height="347" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Vyatta%20Advanced%20Properites.png %}" width="566" height="347" />
 
 #### Configure Split Tunnel on the Windows Native IPsec Client
 
@@ -294,7 +294,7 @@ client VPN configuration as follows:
     network" checkbox.
 4.  Click OK three times.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Win%20Split%20Tunneling.png" width="490" height="586" />
+<img src="{% asset_path cloud-networks/configure-remote-access-vpn-service-on-a-vyatta-appliance/Win%20Split%20Tunneling.png %}" width="490" height="586" />
 
 #### View Client Connection
 

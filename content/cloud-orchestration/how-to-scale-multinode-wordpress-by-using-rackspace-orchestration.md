@@ -20,7 +20,7 @@ This guide provides the instructions for adding a new node to scale a multi-node
 1. Log in to [the Cloud Control Panel](https://mycloud.rackspace.com).
 
 2. In the top navigation bar, click **Orchestration > Stacks**.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1563-3774IMG_0.png" width="619" height="87" border="1" alt=""  />
+    <img src="{% asset_path cloud-orchestration/how-to-scale-multinode-wordpress-by-using-rackspace-orchestration/1563-3774IMG_0.png %}" width="619" height="87" border="1" alt=""  />
 
 3. On the Stacks page, click the name of the stack that you want to scale.
 
@@ -28,7 +28,7 @@ This guide provides the instructions for adding a new node to scale a multi-node
 
 5. In the server details page, go to the **Actions** menu and select **Create Image**.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cpcreateimage.png" width="220" height="426" border="1" alt=""  />
+      <img src="{% asset_path cloud-orchestration/how-to-scale-multinode-wordpress-by-using-rackspace-orchestration/cpcreateimage.png %}" width="220" height="426" border="1" alt=""  />
 
 6. When prompted, enter a name for the image and click **Create Image**.
 
@@ -38,7 +38,7 @@ This guide provides the instructions for adding a new node to scale a multi-node
 
 9. In the popup dialog box, click the gear icon next to the name of the new image and select **Create Server with Image** from the menu.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cpviewimage.png" width="600" alt="" border="1"  />
+    <img src="{% asset_path cloud-orchestration/how-to-scale-multinode-wordpress-by-using-rackspace-orchestration/cpviewimage.png %}" width="600" alt="" border="1"  />
 
 10. On the server creation page, enter a name for the new server and select the region where it will be created.
 
@@ -54,7 +54,7 @@ After the server is created and active, you need to make a few adjustments befor
 
 1. From the server detail page, note the ServiceNet IP address of the new server. You will need this information in a later step.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cpservicenet.png" width="600" border="2" alt=""  />
+    <img src="{% asset_path cloud-orchestration/how-to-scale-multinode-wordpress-by-using-rackspace-orchestration/cpservicenet.png %}" width="600" border="2" alt=""  />
 
 2. Click the **Orchestration** link at the top of the page and return to the stack that you are scaling out.
 

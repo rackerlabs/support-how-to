@@ -30,19 +30,19 @@ and assign it to your email address.
 3. With your **Setting Up ActiveSync** window open, select
    the **Settings** icon from the **Home** screen on your device.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1_21.png" width="289" height="509" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/1_21.png %}" width="289" height="509" />
 
 4. Next, select **Accounts and Sync** and then select **Microsoft
    Exchange ActiveSync**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_19.png" width="289" height="512" />
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3_17.png" width="285" height="509" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/2_19.png %}" width="289" height="512" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/3_17.png %}" width="285" height="509" />
 
 5. Next, enter your email address and password under the **Configure
    exchange account in a few steps** field. Then select the **Manual
    setup** option.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_9.png" width="287" height="507" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/4_9.png %}" width="287" height="507" />
 
    **Note:** Depending on what OS version of Android you're running, if you have
    only "Domain" as an option, you may leave this field blank.
@@ -53,12 +53,12 @@ and assign it to your email address.
    ActiveSync** window. Then enter your password and the Exchange
    server exactly as it appears in the **Setting Up ActiveSync** window.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5_9.png" width="286" height="507" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/5_9.png %}" width="286" height="507" />
 
 7. On the following screen, select **OK**. Next, select all that apply
    to you and on the last screen, give your account a name.
 
 If everything was done correctly, mail will start populating in your inbox.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6_4.png" width="287" height="509" />
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7_1.png" width="286" height="508" />
+<img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/6_4.png %}" width="287" height="509" />
+<img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2007/7_1.png %}" width="286" height="508" />

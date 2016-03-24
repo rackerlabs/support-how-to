@@ -27,12 +27,12 @@ when removing a cloud server from an active load balancer.
 3.  Click the gear icon next to server to be drained.
 4.  Select **Edit Node Condition** from the options presented.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/EditNodeConditionwitharrow.jpeg" alt="Edit Node Connection" width="340" height="226" />
+    <img src="{% asset_path cloud-load-balancers/draining-a-load-balanced-server/EditNodeConditionwitharrow.jpeg %}" alt="Edit Node Connection" width="340" height="226" />
 
 5.  Select **Draining Connections** for the server condition and click
     **Save Condition**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Drainingconnections_0.jpg" width="371" height="416" />
+    <img src="{% asset_path cloud-load-balancers/draining-a-load-balanced-server/Drainingconnections_0.jpg %}" width="371" height="416" />
 
 6.  Monitor the applicable port of the currently draining node for
     continued activity (for a Linux server check
@@ -45,5 +45,5 @@ After a server is disable, it can be removed from the load balancer and the
 application can be stopped or the instance deleted, depending on your
 needs.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Removefromloadbalancer.jpeg" alt="Remove from Load Balancer" width="340" height="226" />
+<img src="{% asset_path cloud-load-balancers/draining-a-load-balanced-server/Removefromloadbalancer.jpeg %}" alt="Remove from Load Balancer" width="340" height="226" />
 

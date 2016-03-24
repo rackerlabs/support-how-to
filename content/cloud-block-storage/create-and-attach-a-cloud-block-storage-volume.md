@@ -36,11 +36,11 @@ Confirm the name and region of the server you will attach the volume to.
 1.  Click **Servers** in the main navigation.
 2.  Click **Block Storage** in the Servers sub-navigation.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20no%20volumes.png" width="667" height="304" />
+    <img src="{% asset_path cloud-block-storage/create-and-attach-a-cloud-block-storage-volume/cbs%20-%20no%20volumes.png %}" width="667" height="304" />
 
 3.  Click the **Create Volume** button.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/create%20volume.png" width="465" height="452" />
+    <img src="{% asset_path cloud-block-storage/create-and-attach-a-cloud-block-storage-volume/create%20volume.png %}" width="465" height="452" />
 
 4.  Give your volume a name.
 5.  Select the region. <span>Volumes can be attached only to servers in
@@ -86,7 +86,7 @@ Here you can see the Volume's Status, what server it may be attached to,
 its size, region, and type. Additionally, if your volume is attached to
 a Linux server, you can see its path.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbsvolume.png" width="426" height="303" />
+<img src="{% asset_path cloud-block-storage/create-and-attach-a-cloud-block-storage-volume/cbsvolume.png %}" width="426" height="303" />
 
 The **Volume Details** screen displays by default once you create the
 volume.

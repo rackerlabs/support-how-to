@@ -24,16 +24,16 @@ To view all distribution lists, log in to the [Cloud Office Control Panel](https
 
 1. Click the **Go to section** menu and select **Microsoft Exchange**.
 
-   <img alt="" height="225" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dl1.png" width="195"  />
+   <img alt="" height="225" src="{% asset_path exchange/manage-distribution-lists-in-exchange/dl1.png %}" width="195"  />
 
 2. Click the **Lists** tab.
 
-	 <img alt="" height="77" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL6.png" width="414"  />
+	 <img alt="" height="77" src="{% asset_path exchange/manage-distribution-lists-in-exchange/DL6.png %}" width="414"  />
 
 3. If you have multiple domains, select the appropriate domain name.
    To change domains at any time, click the arrow next to the currently selected domain.
 
-   <img alt="" height="164" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL7.png" width="409"  />
+   <img alt="" height="164" src="{% asset_path exchange/manage-distribution-lists-in-exchange/DL7.png %}" width="409"  />
 
 Starting from the list of distribution lists available in your domain,
 you can add, edit, or delete a distribution list.
@@ -45,7 +45,7 @@ Follow the instructions below for the action you want to perform.
    click on the display name of the list you want to edit.
 	 If you are creating a new list, click **Add Distribution List**.
 
-	 <img alt="" height="127" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL11.png" width="552"  />
+	 <img alt="" height="127" src="{% asset_path exchange/manage-distribution-lists-in-exchange/DL11.png %}" width="552"  />
 
 2. On the **General** page, enter or edit the following fields:
 
@@ -61,7 +61,7 @@ Follow the instructions below for the action you want to perform.
    the mailbox userid in the **Members** section.
 	 Use the search tool to locate specific email addresses.
 
-	 <img alt="" height="318" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL8.png" width="433"  />
+	 <img alt="" height="318" src="{% asset_path exchange/manage-distribution-lists-in-exchange/DL8.png %}" width="433"  />
 
 4. To configure the following optional sections, click **Advanced**:
 
@@ -73,7 +73,7 @@ Follow the instructions below for the action you want to perform.
 
    - **Email Addresses:** Create alias (or alternative) email addresses for the list.
 
-	 <img alt="" height="447" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL9_0.png" width="455"  />
+	 <img alt="" height="447" src="{% asset_path exchange/manage-distribution-lists-in-exchange/DL9_0.png %}" width="455"  />
 
 5. Click **Create Distribution List** or **Save Distribution List**.
 
@@ -86,7 +86,7 @@ Follow the instructions below for the action you want to perform.
 
 2. Click **Delete**.
 
-   <img alt="" height="321" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/DL10.png" width="415"  />
+   <img alt="" height="321" src="{% asset_path exchange/manage-distribution-lists-in-exchange/DL10.png %}" width="415"  />
 
    A pop-up box appears to confirm that you want to delete the list.
 

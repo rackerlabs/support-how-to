@@ -36,7 +36,7 @@ are used if you perform a rebuild or make other changes to your cloud
 server. The following figure shows an example of an automation features
 configuration:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Automation.Features.png" width="257" height="84" />
+<img src="{% asset_path rackconnect/rackconnect-key-terms/Automation.Features.png %}" width="257" height="84" />
 
 **Note:** Currently you cannot adjust automation features settings; they
 are displayed for informational purposes only. If you need to modify

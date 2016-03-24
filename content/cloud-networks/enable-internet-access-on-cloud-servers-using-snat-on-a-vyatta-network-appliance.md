@@ -42,7 +42,7 @@ NAT.
 For a comprehensive guide to configuring NAT on the Vyatta appliance,
 click [here](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-NAT_6.5R1_v01.pdf).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/FirewallFrontendingWebApp.png" width="563" height="283" />
+<img src="{% asset_path cloud-networks/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance/FirewallFrontendingWebApp.png %}" width="563" height="283" />
 
 ### Configure an Outbound NAT Rule
 

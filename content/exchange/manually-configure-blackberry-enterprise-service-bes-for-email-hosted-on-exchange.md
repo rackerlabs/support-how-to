@@ -36,14 +36,14 @@ meantime, please feel free to continue using ActiveSync.
 1. From the home screen on your Blackberry select
    **Messaging**, then select **Options**.
 
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES.png)
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES2.png)
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES2.png %}" alt="" />
 
 2. Select **Advanced Options** and then select **Enterprise
    Activation**.
 
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES3.png)
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES4.png)
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES3.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES4.png %}" alt="" />
 
 3. Enter your full **email address** and the
    **ActivationPassword** provided by your administrator,
@@ -52,8 +52,8 @@ meantime, please feel free to continue using ActiveSync.
    "**Acquiring service connection**" and your device will
    begin the process of setting up your account.
 
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES5.png)
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES6.png)
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES5.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES6.png %}" alt="" />
 
    **Note:** This process can take anywhere from 2 - 20 mins depending on
    your connection and how much data you have.
@@ -64,8 +64,8 @@ meantime, please feel free to continue using ActiveSync.
    **Setup** icon and then select the **Email
    Accounts** icon.
 
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES7.png)
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES8.png)
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES7.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES8.png %}" alt="" />
 
 2. Select **Enterprise Activation**, fill in your
    **Email Address** and **Activation Password**
@@ -73,8 +73,8 @@ meantime, please feel free to continue using ActiveSync.
    "**Acquiring service connection**" and your device will
    begin the process of setting up your account.
 
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES9.png)
-   ![](http://c4233688.r88.cf2.rackcdn.com/(E%26A)BlackBerryBES10.png)
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES9.png %}" alt="" />
+   <img src="{% asset_path exchange/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/(E%26A)BlackBerryBES10.png %}" alt="" />
 
    **Note:** This process can take anywhere from 2 - 20 mins depending on
    your connection and how much data you have.

@@ -23,7 +23,7 @@ Adding a site to an existing stack requires changes to the configurations for mu
 
 2\. In the top navigation bar, click **Orchestration > Stacks** to view the list of existing stacks.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/orchestration-nav.png" width="479" height="131" border="2" alt=""  />
+     <img src="{% asset_path cloud-orchestration/add-another-wordpress-site-to-an-existing-cloud-orchestration-stack/orchestration-nav.png %}" width="479" height="131" border="2" alt=""  />
 
 3\. From the Stacks list, click on the name of the stack to which you want to add a WordPress site.
 
@@ -65,7 +65,7 @@ Now that the database is ready, we can begin installing WordPress on the master 
 
 1\. From the stack's detail page, click the link for the "master" server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cpdeploymentsmasterlist.png" width="600" border="2" alt="List of stacks with the backend node highlighted"  />
+    <img src="{% asset_path cloud-orchestration/add-another-wordpress-site-to-an-existing-cloud-orchestration-stack/cpdeploymentsmasterlist.png %}" width="600" border="2" alt="List of stacks with the backend node highlighted"  />
 
     On the master server's detail page, you will find the PublicNet IP address in the Networks section.
 

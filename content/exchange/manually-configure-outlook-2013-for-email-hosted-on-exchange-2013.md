@@ -19,7 +19,7 @@ Microsoft Outlook 2013 email client.
 1. Click the Windows **Start** button, select **Control Panel**, and
    then click **Mail** (32-bit).
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step1_0.png" width="620" height="276" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step1_0.png %}" width="620" height="276" />
 
    **Note:** Depending on the version of Windows you're running, you might
    need to switch to **Classic view to find the **Mail** entry or it might
@@ -32,12 +32,12 @@ Microsoft Outlook 2013 email client.
    **Manually configure server settings or additional server types**, and
    then click **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step2_0.png" width="694" height="489" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step2_0.png %}" width="694" height="489" />
 
 4. On the **Choose Service** page, select **Microsoft Exchange or compatible
    service**, and then click **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step3_0.png" width="694" height="492" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step3_0.png %}" width="694" height="492" />
 
 5. On the Server Settings page, perform the following actions:
 
@@ -56,13 +56,13 @@ Microsoft Outlook 2013 email client.
    email items older than 12 months in your Exchange mailbox, they reside
    only in your mailbox on the server.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step4_0.png" width="694" height="492" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step4_0.png %}" width="694" height="492" />
 
 6. In the Microsoft Exchange dialog box, click the **Connection** tab
    and select the **Connect to Microsoft Exchange using HTTP** check box.
    Then click **Exchange Proxy Settings**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step5_0.png" width="354" height="438" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step5_0.png %}" width="354" height="438" />
 
 7. In the Microsoft Exchange Proxy Settings dialog box, perform the
    following actions:
@@ -78,7 +78,7 @@ Microsoft Outlook 2013 email client.
 
    4. Click **OK**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step6_0.png" width="483" height="411" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step6_0.png %}" width="483" height="411" />
 
 8. In the Microsoft Exchange dialog box, click **Apply** and then click
    **OK**.
@@ -98,7 +98,7 @@ Microsoft Outlook 2013 email client.
 
 10. Click **Next**. On the next page, click **Finish**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step7_0.png" width="694" height="491" />
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step8_0.png" width="694" height="490" />
+    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step7_0.png %}" width="694" height="491" />
+    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step8_0.png %}" width="694" height="490" />
 
 11. Open Outlook to select your new Exchange profile.

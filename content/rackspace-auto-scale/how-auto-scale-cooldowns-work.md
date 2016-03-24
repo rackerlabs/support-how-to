@@ -72,8 +72,8 @@ cooldowns allow you to scale up fast and scale down slowly.
 
 The following graphs illustrates how cooldowns affect policy execution.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Slide6.png" width="720" height="540" />
+<img src="{% asset_path rackspace-auto-scale/how-auto-scale-cooldowns-work/Slide6.png %}" width="720" height="540" />
 
 
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Slide7.png" width="720" height="540" />
+<img src="{% asset_path rackspace-auto-scale/how-auto-scale-cooldowns-work/Slide7.png %}" width="720" height="540" />

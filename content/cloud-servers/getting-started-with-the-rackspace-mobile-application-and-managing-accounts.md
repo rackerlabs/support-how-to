@@ -65,11 +65,11 @@ default configuration details.
     select your Operating System type and version
 -   Select the flavor class you want for your server
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3SelectFlavorClassScreen.png" width="300" />
+    <img src="{% asset_path cloud-servers/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/3SelectFlavorClassScreen.png %}" width="300" />
 -   Select the flavor (includes CPU, RAM and disk) on the resulting
     screen
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4SelectFlavorScreen.png" width="300" />
+    <img src="{% asset_path cloud-servers/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/4SelectFlavorScreen.png %}" width="300" />
 -   Once you return to the Select Options page, tap **Create Server**.
 
 You will be returned to the Server List where you will see your new
@@ -131,8 +131,8 @@ to update the password you use to access your server
     the account you want to remove. Once in the Sync Settings for the
     Rackspace application you can select "Remove Account".
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_2013-06-27-14-14-01_1.png)
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screenshot_2013-06-27-13-50-20_1.png)
+  <img src="{% asset_path cloud-servers/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/Screenshot_2013-06-27-14-14-01_1.png %}" alt="" />
+  <img src="{% asset_path cloud-servers/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/Screenshot_2013-06-27-13-50-20_1.png %}" alt="" />
 
 -   To delete an account from your **iOS** Rackspace mobile application,
     you will go to the Accounts page and swipe left-to-right on the
@@ -140,4 +140,4 @@ to update the password you use to access your server
     "Remove" button. Tap the "Remove" button and that account will not
     longer be synced to that mobile device.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/IMG_0037_1.png)
+  <img src="{% asset_path cloud-servers/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/IMG_0037_1.png %}" alt="" />

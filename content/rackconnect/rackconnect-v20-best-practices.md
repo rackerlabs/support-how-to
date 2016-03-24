@@ -62,11 +62,11 @@ server, read the following description of the process.
 
 **Traffic flow between dedicated and cloud servers: RackConnect Firewall**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RC.Traffic.Flow_.png" class="image-full_width" />
+<img src="{% asset_path rackconnect/rackconnect-v20-best-practices/RC.Traffic.Flow_.png %}" class="image-full_width" />
 
 **Traffic flow between dedicated and cloud servers: RackConnect Load Balancer**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RC.Traffic.Flow_.LB_.png" class="image-full_width" />
+<img src="{% asset_path rackconnect/rackconnect-v20-best-practices/RC.Traffic.Flow_.LB_.png %}" class="image-full_width" />
 
 ### Cautions
 

@@ -52,7 +52,7 @@ may be configured with the following:
 A total raw capacity of 6,848 TB or 6.69 PB may be attached to the
 system, including both internal and external drives.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/seamicro.png" width="538" height="257" />
+<img src="{% asset_path rpc-openstack/compute-cloud-nova-using-seamicro-sm15000/seamicro.png %}" width="538" height="257" />
 
 An interesting and powerful aspect of the SM15000&trade; is the supercompute
 fabric, which is able to deliver 1.28 Terabits/second of bandwidth
@@ -91,7 +91,7 @@ You can interact with the APIs using OpenStack python-bindings or you
 can use Horizon, which is a graphical user interface to interact with
 the cloud.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/masscompute_1-web.jpg" width="600" height="398" />
+<img src="{% asset_path rpc-openstack/compute-cloud-nova-using-seamicro-sm15000/masscompute_1-web.jpg %}" width="600" height="398" />
 
 ### Recommended architecture
 

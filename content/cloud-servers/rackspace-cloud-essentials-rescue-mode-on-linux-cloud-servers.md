@@ -31,12 +31,12 @@ Rescue mode grants the root user full access to your non-bootable server's files
 
 4. Copy the temporary password and click **Dismiss Password**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2011%20-%20Rescue%20Mode%20Activated.png)
+    <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/Feb%2011%20-%20Rescue%20Mode%20Activated.png %}" alt="" />
 
     **Note:** The green bar to the left of the server name will turn yellow during the process of building into Rescue Mode and then red when the process has completed. This may take several minutes.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2011%20-%20Yellow%20Bar.png)
-	![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Feb%2011%20-%20Red%20Box.png)
+    <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/Feb%2011%20-%20Yellow%20Bar.png %}" alt="" />
+	<img src="{% asset_path cloud-servers/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/Feb%2011%20-%20Red%20Box.png %}" alt="" />
 
 5. Once your server is in rescue mode, use an SSH client to connect to your server using the public IP address and the temporary root password to log in to rescue mode.
 
@@ -52,7 +52,7 @@ Before you can access the files on your server, you must mount the server's file
 
     You will get the following output:
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fdisknew.png)
+    <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/fdisknew.png %}" alt="" />
 
     Note the different disk names. The disk entry will display the device and size of the disk. For example: Disk /dev/xvdb1: 20 GiB
 

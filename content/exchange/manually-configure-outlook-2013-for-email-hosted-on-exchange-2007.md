@@ -29,7 +29,7 @@ Microsoft Outlook 2013 email client.
 3. With these settings recorded, navigate to the
    **Start Menu -&gt; Control Panel -&gt; Mail**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.%20Control%20Panel%20Mail_0.png" width="921" height="586" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/1.%20Control%20Panel%20Mail_0.png %}" width="921" height="586" />
 
 4. Select **Show Profiles...** then **Add**. Fill in the Profile's Name
    (this can be whatever you like), and select **OK**.
@@ -38,7 +38,7 @@ Microsoft Outlook 2013 email client.
    additional server types**, then select
    **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.%20Add%20Account%2007.png" width="700" height="497" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/2.%20Add%20Account%2007.png %}" width="700" height="497" />
 
 6. Select **Microsoft Exchange Server or compatible service**, then
    select **Next**.
@@ -47,14 +47,14 @@ Microsoft Outlook 2013 email client.
    your server name and user name. After you fill in those fields,
    select **More Settings...**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.%20Server%20Settings_0.png" width="694" height="491" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/3.%20Server%20Settings_0.png %}" width="694" height="491" />
 
 8. On the **Connection** tab check the **Connect to Microsoft Exchange using
    HTTP** box, select **Exchange Proxy Settings...**, and click **OK.**
 
    Click **Apply** and **OK** on the resulting screen.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.%20Proxy%20Settings_0.png" width="483" height="411" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/4.%20Proxy%20Settings_0.png %}" width="483" height="411" />
 
 9. On the **Add Account** screen, click **Check Name**.
 
@@ -68,4 +68,4 @@ Microsoft Outlook 2013 email client.
 
    Click **Next** and click **Finish**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.%20Check%20name.png" width="694" height="491" />
+   <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/5.%20Check%20name.png %}" width="694" height="491" />

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-[<img src="http://c179631.r31.cf0.rackcdn.com/scalextreme.png" alt="scalextreme" id="__mce_tmp" width="395" height="129" />](http://www.scalextreme.com/)
+[<img src="{% asset_path cloud-servers/systems-management-simplified-in-the-cloud/scalextreme.png %}" alt="scalextreme" id="__mce_tmp" width="395" height="129" />](http://www.scalextreme.com/)
 
 **ScaleXtreme seamlessly transitions to the open cloud with Rackspace.**
 

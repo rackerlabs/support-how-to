@@ -90,7 +90,7 @@ are context sensitive, based on the access scenario that you choose.
 -   Selecting **Host** enables you to enter the IP address of the host
     to define.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SampleNP.png" width="447" height="365" />
+    <img src="{% asset_path rackconnect/managing-rackconnect-v20-network-policies/SampleNP.png %}" width="447" height="365" />
 
 **Important:** Destination port range entries are limited to 100 ports,
 and they have valid integer values between 0 and 65535 with a range of
@@ -110,7 +110,7 @@ portal to view the updated status indicators, which can have the following meani
 In the following image, the indicators are all green, which means
 the network policies were successfully deployed.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Status.Indicator.png" width="700" />
+<img src="{% asset_path rackconnect/managing-rackconnect-v20-network-policies/Status.Indicator.png %}" width="700" />
 
 **Tip:** From the Network Policies tab, you can also apply a network
 policy *template*. Network policy templates provide a quick way to get

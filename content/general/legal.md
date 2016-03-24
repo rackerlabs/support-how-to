@@ -15,7 +15,7 @@ Except where otherwise noted, Rackspace How-To site and
 documentation is licensed under the Creative Commons
 Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 
-[![](http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/3.0/)
+<img src="http://creativecommons.org/licenses/by-nc-nd/3.0/" alt="" />
 
 That means:
 
@@ -85,7 +85,7 @@ are service marks or registered service marks of Rackspace US, Inc. in
 the United States and/or other countries. OpenStack&trade; and OpenStack logo
 are trademarks of OpenStack, LLC.
 
-All other product names and trademarks used in the Rackspace How-To 
+All other product names and trademarks used in the Rackspace How-To
 documentation are for identification purposes only to refer to
 either the entities claiming the marks and names or their products, and
 are property of their respective owners.  We do not intend our use or
@@ -101,6 +101,3 @@ other companies.
 
 The use of the word 'partner' or 'channel partner' does not imply a
 partnership relationship between Rackspace and any other company.
-
-
-

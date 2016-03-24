@@ -28,7 +28,7 @@ documentation](http://docs.rcv3.apiary.io/) site. This site displays
 code samples for the RackConnect v3.0 API calls in multiple languages.
 
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RCv3_apiary_show_code_sample.png" alt="RackConnect v3.0 apiary show code sample" width="700" />
+<img src="{% asset_path rackconnect/getting-started-with-the-rackconnect-v30-api/RCv3_apiary_show_code_sample.png %}" alt="RackConnect v3.0 apiary show code sample" width="700" />
 
 To help you take full advantage of the RackConnect v3.0 API, this
 article walks you through the process of using the API to add and remove

@@ -104,7 +104,7 @@ cooldown period are not executed.
 
 The following graph illustrates how cooldowns affect policy execution.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image001_4.png" width="599" height="449" />
+<img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-concepts/image001_4.png %}" width="599" height="449" />
 
 ## Scaling policies
 
@@ -133,14 +133,14 @@ The following diagram illustrates how a percentage scale-up policy
 translates into a different amount of scaling each time that it is
 invoked and changes the total number of servers.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image003_3.png" width="600" height="450" />
+<img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-concepts/image003_3.png %}" width="600" height="450" />
 
 ### Scale by schedule policy
 
 The following diagram illustrates how a scheduled scale-up policy can be
 configured to respond to anticipated increases in traffic.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image005_3.png" width="600" height="450" />
+<img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-concepts/image005_3.png %}" width="600" height="450" />
 
 ### Scaling policies restricted by minimum and maximum values
 
@@ -148,7 +148,7 @@ The following diagram illustrates how the configured minimum and maximum
 number of servers in the scaling group restricts scale-ups and
 scale-downs.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image007_3.png" width="600" height="450" />
+<img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-concepts/image007_3.png %}" width="600" height="450" />
 
 ###  Delete servers policy
 
@@ -156,7 +156,7 @@ The following diagram illustrates how a scale-down policy operates first
 on pending servers (servers in the process of being added) and then on
 the oldest servers in the scaling group.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/image009_1.png" width="598" height="449" />
+<img src="{% asset_path rackspace-auto-scale/rackspace-auto-scale-control-panel-user-guide-concepts/image009_1.png %}" width="598" height="449" />
 
 ### Load balancers
 

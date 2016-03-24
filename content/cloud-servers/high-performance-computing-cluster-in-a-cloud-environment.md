@@ -60,7 +60,7 @@ this tutorial:
 In this tutorial, we will be setting up a four-node cluster, running
 applications on it, and gauging the performance.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/HPC_Cluster.png" width="557" height="343" />
+<img src="{% asset_path cloud-servers/high-performance-computing-cluster-in-a-cloud-environment/HPC_Cluster.png %}" width="557" height="343" />
 
 *Figure 1 - HPC on the Cloud High Level Architecture*
 
@@ -205,11 +205,11 @@ and follow these steps to create an image:
 6.  Finally, click **Create Image** and wait a few minutes for the image
     to be created.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/create%20image%20AM.png" alt="Creating a Server Image" width="431" height="139" />
+<img src="{% asset_path cloud-servers/high-performance-computing-cluster-in-a-cloud-environment/create%20image%20AM.png %}" alt="Creating a Server Image" width="431" height="139" />
 
 *Figure 2 - Creating a Server Image*
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/create%20image.png" alt="Naming the Image" width="400" height="127" />
+<img src="{% asset_path cloud-servers/high-performance-computing-cluster-in-a-cloud-environment/create%20image.png %}" alt="Naming the Image" width="400" height="127" />
 
 *Figure 3 - Naming the Image*
 

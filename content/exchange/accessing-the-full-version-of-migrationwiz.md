@@ -71,7 +71,7 @@ Complete the following steps to access the full version of MigrationWiz:
    logs you into the correct area. However, for any future logins,
    you will only need to go to migrationwiz.com and log in.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/FullMigrationWiz1.png" width="552" height="237" />
+   <img src="{% asset_path exchange/accessing-the-full-version-of-migrationwiz/FullMigrationWiz1.png %}" width="552" height="237" />
 
 3. Enter the email address that you used to sign up for MigrationWiz.
 
@@ -84,4 +84,4 @@ Complete the following steps to access the full version of MigrationWiz:
 
 5. Click **Manage Connectors** to access your migration.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/FullMigrationWiz2.png" width="478" height="419" />
+   <img src="{% asset_path exchange/accessing-the-full-version-of-migrationwiz/FullMigrationWiz2.png %}" width="478" height="419" />

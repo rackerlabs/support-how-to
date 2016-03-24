@@ -40,4 +40,4 @@ Finally, Rackspace charges only for outbound bandwidth, meaning that
 routine site maintenance, such as content publishing and uploads, are
 not counted against your bandwidth allocation.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3911-1_0.png" width="512" height="212" />
+<img src="{% asset_path general/how-rackspace-bills-for-bandwidth/3911-1_0.png %}" width="512" height="212" />

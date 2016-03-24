@@ -67,17 +67,17 @@ Actions gear next to each volume that you want to detach, and select
 
 7\. In the warning pop-up box, click **Detach Volume**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RAIDImage1.png" width="586" height="251" />
+<img src="{% asset_path cloud-block-storage/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/RAIDImage1.png %}" width="586" height="251" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RAIDImage2.png" width="620" height="269" />
+<img src="{% asset_path cloud-block-storage/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/RAIDImage2.png %}" width="620" height="269" />
 
 ### Attach the RAID volume
 
 1\. Attach raid volume to **Destination** server.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RAIDImage3.png" width="626" height="234" />
+<img src="{% asset_path cloud-block-storage/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/RAIDImage3.png %}" width="626" height="234" />
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RAIDImage4.png" width="627" height="214" />
+<img src="{% asset_path cloud-block-storage/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/RAIDImage4.png %}" width="627" height="214" />
 
 2\. Run fdisk -l to see the device IDs of the newly attached Cloud Block
 Storage volumes.

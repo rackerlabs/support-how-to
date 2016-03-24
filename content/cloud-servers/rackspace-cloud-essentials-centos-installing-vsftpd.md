@@ -150,7 +150,7 @@ Create the chroot_list file so you do not get an error when restarting:
 Simply input the name of your FTP site into a browser address bar as
 shown here, and supply the login credentials when prompted:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ftp.png" width="538" height="73" />
+<img src="{% asset_path cloud-servers/rackspace-cloud-essentials-centos-installing-vsftpd/ftp.png %}" width="538" height="73" />
 
 #### Using an FTP client
 

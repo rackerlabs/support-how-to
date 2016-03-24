@@ -25,7 +25,7 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
 5.	Click the **Add Mailbox** button.
 
-    <img alt="" src="http://c1079945.r45.cf2.rackcdn.com/(E%26A)AddingAMailbox.png" />
+    <img alt="" src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/(E%26A)AddingAMailbox.png %}" />
 
 6.	Enter the following information in the fields provided:
 
@@ -63,7 +63,7 @@ To add multiple mailboxes at one time, you create a CSV or Excel file with the m
 
 6.	Create a CSV or Excel file that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template to help you create a file with the correct format.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/829-img1.png" width="581" height="277" alt=""  />
+    <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/829-img1.png %}" width="581" height="277" alt=""  />
 
 	The password must contain at least eight characters, including at least three of the following types of characters:
 

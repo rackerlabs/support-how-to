@@ -23,7 +23,7 @@ From the Desktop of your Windows Server 2012 Cloud Server, open
 the **Server Manager** and select **Tools > Computer
 Management**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/tools_computer_manager.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/tools_computer_manager.png %}" alt="" />
 
 ### Open Disk Management
 
@@ -34,33 +34,33 @@ should also see an amount of unallocated space in the right pane. In
 this example we have a server with 40 GB of hard disk space that we have
 resized to 80 GB. That expanded storage space is the unallocated 40 GB.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/disk_managment.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/disk_managment.png %}" alt="" />
 
 ### Extend the Volume
 
 Select the **C:&#92;&#92;** drive and right-click on it.  Choose **Extend
 Volume** from the drop down menu.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_volume.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/extend_volume.png %}" alt="" />
 
 ### Extend Volume Wizard
 
 This will open the Extend Volume Wizard. Click **Next** to begin the
 process.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_1.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/extend_1.png %}" alt="" />
 
 ### Select the Volume you wish to Extend
 
 To add all available space to your **C:&#92;&#92;** drive (Disk 0) you can keep
 the default selections and press **Next**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_2.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/extend_2.png %}" alt="" />
 
 You will now see the **C:&#92;&#92;** drive expand to the maximum available space.
 To finalize the modifications click **Finish**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/extend_3.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/extend_3.png %}" alt="" />
 
 ### Verify Disk Space
 
@@ -70,4 +70,4 @@ correctly by loading the **Computer Manager** from the Server
 Manager and checking the disk size for the **C:&#92;&#92;** drive in **Disk
 Management**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/verify.png)
+<img src="{% asset_path cloud-servers/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/verify.png %}" alt="" />

@@ -57,7 +57,7 @@ If you had additional Amazon Elastic Book Store (EBS) volumes attached to your s
 
 4. Click **Create Volume**.
 
-    <img alt="" height="349" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step%201-3.png" width="543" />
+    <img alt="" height="349" src="{% asset_path cloud-servers/provisioning-cloud-resources-when-migrating-from-amazon-web-services/Step%201-3.png %}" width="543" />
 
 ### Create a Cloud Files container (optional)
 

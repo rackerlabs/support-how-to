@@ -30,12 +30,12 @@ performing this task.
     server name.
 2.  Choose **Rebuild from Image**.
 
-    ![](http://c765420.r20.cf2.rackcdn.com/6_RebuildButtonnew.png)
+    <img src="{% asset_path cloud-servers/rebuild-a-cloud-server/6_RebuildButtonnew.png %}" alt="" />
 
 3.  Select a Rackspace image or one of your own previously saved images
     from the Saved tab, then click **Rebuild Server**.
 
-    ![](http://c765420.r20.cf2.rackcdn.com/7_RebuildFromnew.png)
+    <img src="{% asset_path cloud-servers/rebuild-a-cloud-server/7_RebuildFromnew.png %}" alt="" />
 
 4.  A pop-up screen appears with the new root password. Save this
     password as you won't be able to see it again once you dismiss

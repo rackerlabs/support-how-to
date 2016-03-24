@@ -38,7 +38,7 @@ folders that you have created:
 - Whether the folders are mail-enabled
 - The amount of storage that the folders are using
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Basic_0.png" width="757" height="264" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/Basic_0.png %}" width="757" height="264" />
 
 ### Manage your public folders
 
@@ -49,7 +49,7 @@ delete a specific folder. Additionally, on this page you can bulk delete
 folders, create new folders, and manage different components of the
 folder.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Manage_0.png" width="740" height="269" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/Manage_0.png %}" width="740" height="269" />
 
 #### Create a folder
 
@@ -99,7 +99,7 @@ From the list of public folders, you can delete multiple folders at once
 2. Click the gear icon next to the **Folder Name** label at the top of
    the list and select **Delete**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/bulk%2520delete2.png" width="849" height="317" />
+   <img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/bulk%2520delete2.png %}" width="849" height="317" />
 
 3. In the confirmation popup box, click **Delete Folders** to
    permanently delete the selected folders.
@@ -122,7 +122,7 @@ breadcrumb trail along the top of Folders page. The path is listed as
 ***domain* &gt; root &gt; *parentFolder***, and the page you are on is
 the subfolder list. See the following example:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/childsubfolder_a.png" width="753" height="208" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/childsubfolder_a.png %}" width="753" height="208" />
 
 You can create a subfolder in the following ways:
 
@@ -172,7 +172,7 @@ You can find a specific folder in the following ways:
   application returns all folders with the word *sales* in their
   name.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/search_0.png" width="643" height="169" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/search_0.png %}" width="643" height="169" />
 
 ### Edit mail settings
 
@@ -188,7 +188,7 @@ steps:
 6. Select or edit the reply-to address.
 7. Click **Save**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cupcakesandkittens_a.png" width="583" height="315" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/cupcakesandkittens_a.png %}" width="583" height="315" />
 
 ### Manage permissions
 

@@ -23,14 +23,14 @@ managing your DNS records via the Rackspace Cloud Control Panel.
 -   Log into the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com)
 -   Navigate to **Hosting > Cloud Sites**
 
-  ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/cloudsites.png %}" alt="" />
 
 -   Click on any **Domain Name** (The Domain tab is accessible from the
     Domain Details screen of any of your websites. All DNS entries are
     visible and editable from the Domain tab).
 -   Click on the **Domain** Tab
 
-  ![](http://c806394.r94.cf2.rackcdn.com/domaintab.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/domaintab.png %}" alt="" />
 
 The Domain Tab contains 4 sections:
 
@@ -48,20 +48,20 @@ This section will allow you to manage your domains **nameserver
 settings**, **register an unregistered domain (if applicable)** and
 **transfer your domain (if applicable)**.
 
-[![Click here to view full size image](http://c806394.r94.cf2.rackcdn.com/websitedomaininfo.png "Click here to view full size image")](http://c806394.r94.cf2.rackcdn.com/websitedomaininfo.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/websitedomaininfo.png  %}"Click here to view full size image")](http://c806394.r94.cf2.rackcdn.com/websitedomaininfo.png" alt="Click here to view full size image" />
 
 ### DNS management
 
 This section will show you all of your DNS records, **add new records**,
 **modify existing records** and **delete records**.
 
-[![Click here to view full size image](http://c806394.r94.cf2.rackcdn.com/dnsmanagement.png "Click here to view full size image")](http://c806394.r94.cf2.rackcdn.com/dnsmanagement.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/dnsmanagement.png  %}"Click here to view full size image")](http://c806394.r94.cf2.rackcdn.com/dnsmanagement.png" alt="Click here to view full size image" />
 
 #### Add new record
 
 -   To add a new record, choose **Add A Record**.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/addrecord.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/addrecord.png %}" alt="" />
 
 -   Fill in the **Domain Record** and **Content** with the desired
     values.
@@ -73,7 +73,7 @@ This section will show you all of your DNS records, **add new records**,
 -   This area will provide you with all of the DNS entries for your
     currently-viewed domain within Cloud Sites.
 
-    [![Click here to view full size image](http://c766433.r33.cf2.rackcdn.com/arecords.png "Click here to view full size image")](http://c766433.r33.cf2.rackcdn.com/arecords.png)
+    [<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/arecords.png  %}"Click here to view full size image")](http://c766433.r33.cf2.rackcdn.com/arecords.png" alt="Click here to view full size image" />
 
 -   Click on the domain name next to the record **Type** you would like
     to modify.
@@ -83,7 +83,7 @@ This section will show you all of your DNS records, **add new records**,
   **Note:** This value could be entered as an IP address for an A record change, or
 a FQDN for a CNAME record change.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/changednsrecord.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/changednsrecord.png %}" alt="" />
 
 -   Click **Save** to update the change in the DNS entry.
 
@@ -137,7 +137,7 @@ In this section, you will be presented with two options:
 1.  Use The Rackspace Cloud's default SPF records
 2.  Do not use The Rackspace Cloud's default SPF records
 
-![](http://c806394.r94.cf2.rackcdn.com/spfmanagement.png)
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-managing-dns-records/spfmanagement.png %}" alt="" />
 
 Our suggestion would be, if you are not familiar with SPF records and
 are not comfortable configuring your own, then opt to use The Rackspace

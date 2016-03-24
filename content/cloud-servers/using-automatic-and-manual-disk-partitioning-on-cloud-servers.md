@@ -44,7 +44,7 @@ booting from a Cloud Block Storage volume does not support partitioning.
 The disk partition option is located at the bottom of the Create Server
 page, under Advanced Options.
 
-**<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202013-07-30%20at%203.25.55%20PM.png" alt="Screen shot showing new disk options" width="603" height="414" />**
+**<img src="{% asset_path cloud-servers/using-automatic-and-manual-disk-partitioning-on-cloud-servers/Screen%20Shot%202013-07-30%20at%203.25.55%20PM.png %}" alt="Screen shot showing new disk options" width="603" height="414" />**
 
 
 

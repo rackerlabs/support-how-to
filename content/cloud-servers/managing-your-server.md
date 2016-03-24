@@ -31,7 +31,7 @@ Servers Overview** screen.  All of the administrative tools for Cloud
 Servers are located in the **Overview** tab of your Cloud Server Detail
 screen.
 
-![](http://c765420.r20.cf2.rackcdn.com/22_CloudServersnew.png)
+<img src="{% asset_path cloud-servers/managing-your-server/22_CloudServersnew.png %}" alt="" />
 
 
 ### Next section

@@ -25,7 +25,7 @@ product_url: cloud-sites
     URL link, this identifies the technology, cluster and data center
     used for this website.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/staging_url.png)
+  <img src="{% asset_path cloud-sites/using-a-staging-url/staging_url.png %}" alt="" />
 
 -   All content and code uploaded to the site can now be accessed with
     the test or staging url

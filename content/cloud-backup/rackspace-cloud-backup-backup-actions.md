@@ -24,12 +24,12 @@ You can access the **Backup Actions** menu in the following ways:
 -   From the gear icon next to the backup name on the Configured
     Backups page.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.20.11%20PM.png" width="479" height="292" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%204.20.11%20PM.png %}" width="479" height="292" />
 
 -   From the **Actions** menu at the top of the details page for a
     configured backup.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.18.36%20PM.png" width="552" height="219" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%204.18.36%20PM.png %}" width="552" height="219" />
 
 From the **Backup Actions** menu, you can perform the following actions:
 
@@ -48,7 +48,7 @@ configured backup.
 If you are looking at the **Configuration Details** page, the backup
 progress bar is displayed until the backup is completed.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.29.20%20PM.png" width="666" height="101" />
+<img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%204.29.20%20PM.png %}" width="666" height="101" />
 
 ### Restore a backup
 
@@ -57,7 +57,7 @@ progress bar is displayed until the backup is completed.
 2.  On the first page of the Restore a Backup wizard, select the
     backup date to restore from, and then click **Next Step**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.34.50%20PM.png" width="491" height="264" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%204.34.50%20PM.png %}" width="491" height="264" />
 
 3.  On the next page, select the destination system, and then click
     **Next Step**.
@@ -66,7 +66,7 @@ progress bar is displayed until the backup is completed.
     -   You can restore your backup to the system that was backed up, or to
     another system.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.42.12%20PM.png" width="498" height="282" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%204.42.12%20PM.png %}" width="498" height="282" />
 
 4.  On the next page, select the folders and files to restore.
 
@@ -78,21 +78,21 @@ progress bar is displayed until the backup is completed.
     are listed.
     3. When you are done, click **Next Step**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%204.53.59%20PM.png" width="497" height="337" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%204.53.59%20PM.png %}" width="497" height="337" />
 
 5.  On the next page, select the destination folder.
 
     You can choose to restore the files to their original folder or to restore to a selected restore destination. You can also select whether to overwrite files with the same name. Then, click **Next Step**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.13.30%20PM.png" width="500" height="274" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%205.13.30%20PM.png %}" width="500" height="274" />
 
 6.  Confirm your restore settings and then click **Start Restore**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.20.03%20PM.png" width="503" height="287" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%205.20.03%20PM.png %}" width="503" height="287" />
 
     The **Activity** page is displayed when the restore is complete.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%205.22.45%20PM.png" width="608" height="140" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-15%20at%205.22.45%20PM.png %}" width="608" height="140" />
 
 ### Configure a backup
 
@@ -100,7 +100,7 @@ You can change the name, recurrence, and notifications for your backup job.
 
 1. From the **Backup Actions** menu, select **Configure Backup**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.23.19%20PM.png" width="528" height="593" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-16%20at%201.23.19%20PM.png %}" width="528" height="593" />
 
 1.  Enter a new name for your backup job, and under **Schedule**, select
     how often you want to run the backup. All times are Central Time.
@@ -125,13 +125,13 @@ You can change the name, recurrence, and notifications for your backup job.
     with any files you want
     to exclude. Then click **Next Step**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="527" height="363" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png %}" width="527" height="363" />
 
 6.  On the next page, review your backup configuration settings. If the
     settings are correct, click **Save**. Otherwise, click **Back** to
     make changes.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.46.18%20PM.png" width="533" height="315" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-16%20at%201.46.18%20PM.png %}" width="533" height="315" />
 
 ### Configure files
 
@@ -150,7 +150,7 @@ You can change the files and folders that are saved in your backup.
 
 3.  Click **Next Step**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png" width="537" height="370" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-16%20at%201.37.49%20PM.png %}" width="537" height="370" />
 
 4. Confirm the settings on the next page and click **Save** to save
    your file configuration.
@@ -160,7 +160,7 @@ You can change the files and folders that are saved in your backup.
 You can prevent a backup from running by selecting **Disable Backup**
 from the **Backup Actions** menu.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-16%20at%202.36.44%20PM.png" width="564" height="348" />
+<img src="{% asset_path cloud-backup/rackspace-cloud-backup-backup-actions/Screen%20Shot%202015-10-16%20at%202.36.44%20PM.png %}" width="564" height="348" />
 
 When you disable a backup, the following actions occur:
 

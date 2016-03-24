@@ -34,7 +34,7 @@ following changes to our ACH process:
 Log in to the MyRack Portal. Click **Account**, and then select
 **Payments** from the menu.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ACHFAQ1.png" width="185" height="305" />
+<img src="{% asset_path general/ach-compliance-faq/ACHFAQ1.png %}" width="185" height="305" />
 
 
 #### Where do I go to re-enter my ACH payment information?
@@ -43,14 +43,14 @@ On the Payments page in the MyRackspace Portal, click **Recurring
 Payments** at the top of the screen. Update your payment information in
 the fields on the **Direct Debit / E-Check** tab.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ACHFAQ2a.png" width="595" height="326" />
+<img src="{% asset_path general/ach-compliance-faq/ACHFAQ2a.png %}" width="595" height="326" />
 
 #### What ACH information will I need to re-enter?
 
 You need to enter information in the fields on the **Direct Debit /
 E-Check** tab.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ACHFAQ3.png" width="453" height="102" />
+<img src="{% asset_path general/ach-compliance-faq/ACHFAQ3.png %}" width="453" height="102" />
 
 This information includes:
 
@@ -65,7 +65,7 @@ This information includes:
 Yes. You can find this new feature on the **Payments** page of the
 portal. In the top menu, click  **E-Check Payment History**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ACHFAQ4a.png" width="454" height="120" />
+<img src="{% asset_path general/ach-compliance-faq/ACHFAQ4a.png %}" width="454" height="120" />
 
 **Note**: This feature maintains a history of only e-Check payments.
 Payments made with other payment methods do not appear in this list.

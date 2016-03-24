@@ -23,7 +23,7 @@ want to do is to log in to the [Rackspace Cloud Control Panel](http://manage.rac
 -   Just open a browser to:
      [http://manage.rackspacecloud.com](http://manage.rackspacecloud.com/)
 
-  ![](http://c739518.r18.cf2.rackcdn.com/login2.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/login2.png %}" alt="" />
 
 -   Log in with the username & password that you selected when you
     created the account. Those credentials are only for accessing the
@@ -35,7 +35,7 @@ The Control Panel has 3 main sections
 2.  **Details Section** (blue box)
 3.  **Cloud News** (purple box)
 
-[<img src="http://c739518.r18.cf2.rackcdn.com/CP3Colors2.png" title="Click here to view full size image" alt="Click here to view full size image" width="1463" height="780" />](http://c739518.r18.cf2.rackcdn.com/CP3Colors2.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/CP3Colors2.png %}" title="Click here to view full size image" alt="Click here to view full size image" width="1463" height="780" />](http://c739518.r18.cf2.rackcdn.com/CP3Colors2.png)
 
 #### Left navigation menu
 
@@ -45,34 +45,34 @@ account information.
 -   **Home** - Takes you to the Welcome page with Account Activity
     Summary displayed.
 
-  ![](http://c739518.r18.cf2.rackcdn.com/gettingstartedhighlight.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/gettingstartedhighlight.png %}" alt="" />
 
   Click on the tab labeled **Getting Started** from the Welcome screen.
 
   This will show you a brief overview of some key concepts for our
 products, and is a handy 'quick-reference' guide.
 
-  [<img src="http://c806394.r94.cf2.rackcdn.com/gettingstarted.png" title="Click here to view full size image" alt="Click here to view full size image" width="1248" height="533" />](http://c806394.r94.cf2.rackcdn.com/gettingstarted.png)
+  [<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/gettingstarted.png %}" title="Click here to view full size image" alt="Click here to view full size image" width="1248" height="533" />](http://c806394.r94.cf2.rackcdn.com/gettingstarted.png)
 
 -   **Hosting** - Create and manage your devices and services like Cloud
     Files, Cloud Servers, and Cloud Load Balancers.  The Client tab is
     for setting up clients, client plans, and messages for Cloud Sites
     resellers
 
-  ![](http://c806394.r94.cf2.rackcdn.com/hosting.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/hosting.png %}" alt="" />
 
 -   **Your Account** - Manage
     your [billing](/how-to/billing-services-overview),
     account information, and API key.
 
-  ![](http://c739518.r18.cf2.rackcdn.com/YourAccount.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/YourAccount.png %}" alt="" />
 
 -   **Support** - Access all of our support resources - Developer
     Guides, Cloud Status, Rackspace How-To, Problem Ticketing System,
     and Live Chat.  All these resources are also available from links at
     the top of the page.
 
-  [<img src="http://c739518.r18.cf2.rackcdn.com/Support.png" title="Click here to view full size image" alt="Click here to view full size image" width="1340" height="610" />](http://c739518.r18.cf2.rackcdn.com/Support.png)
+  [<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-logging-into-the-control-panel/Support.png %}" title="Click here to view full size image" alt="Click here to view full size image" width="1340" height="610" />](http://c739518.r18.cf2.rackcdn.com/Support.png)
 
 -   **Logout** - Logout of the control panel.
 

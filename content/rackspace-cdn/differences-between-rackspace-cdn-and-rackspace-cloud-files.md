@@ -32,7 +32,7 @@ Rackspace CDN and Cloud Files:
 
 These, and other differences, are summarized in the following table:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-01%20at%2011.45.33%20AM.png" width="717" height="321" />
+<img src="{% asset_path rackspace-cdn/differences-between-rackspace-cdn-and-rackspace-cloud-files/Screen%20Shot%202015-10-01%20at%2011.45.33%20AM.png %}" width="717" height="321" />
 
 
 

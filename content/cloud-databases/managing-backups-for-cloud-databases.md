@@ -21,11 +21,11 @@ the name of the instance you want to backup, and select **Create
 Backup**.  Once selected, a dialogue box will open, asking for a backup
 name and description.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreateBackup.png" width="975" height="345" />
+<img src="{% asset_path cloud-databases/managing-backups-for-cloud-databases/CreateBackup.png %}" width="975" height="345" />
 You can also create a backup by clicking on the instance name and
 selecting the **Create Backup** option.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/InstanceDetails.png" width="708" height="489" />
+<img src="{% asset_path cloud-databases/managing-backups-for-cloud-databases/InstanceDetails.png %}" width="708" height="489" />
 
 -   The name of the backup is required, and the maximum length for the
     name is 64 characters.
@@ -69,7 +69,7 @@ following details for your backups:
 -   The most recent date the backup was updated.
 
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ListBackup.png" width="904" height="390" />
+<img src="{% asset_path cloud-databases/managing-backups-for-cloud-databases/ListBackup.png %}" width="904" height="390" />
 
 You can also filter the backups for different regions by clicking on the
 **Regions** filter from the drop-down.
@@ -80,14 +80,14 @@ To view all the backups for an instance, click on the instance name to
 view the Instance Details page.  there is a link for all the backups
 associated for that instance.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ListDetailsInstance.png" width="664" height="512" />
+<img src="{% asset_path cloud-databases/managing-backups-for-cloud-databases/ListDetailsInstance.png %}" width="664" height="512" />
 
 ### Delete a Backup
 
 To delete a backup you can click on the Actions cog next to the backup
 name.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/InstanceBackups.png" width="913" height="339" />
+<img src="{% asset_path cloud-databases/managing-backups-for-cloud-databases/InstanceBackups.png %}" width="913" height="339" />
 
 You can also delete any backups for an instance from the **Instance
 Details** page.
@@ -96,7 +96,7 @@ Details** page.
 
 To restore a backup, click on the Actions cog next to the backup name.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RestoreBackup.png" width="900" height="324" />
+<img src="{% asset_path cloud-databases/managing-backups-for-cloud-databases/RestoreBackup.png %}" width="900" height="324" />
 
 You can also restore any backup for an instance from within the Instance
 Details page.

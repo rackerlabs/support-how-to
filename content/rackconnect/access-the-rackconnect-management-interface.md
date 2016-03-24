@@ -25,7 +25,7 @@ progress of all automation.
 The interface displays the servers on your RackConnect account with
 colored status indicators.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RackconnectCloudServersImage1.png" width="395" height="118" />
+<img src="{% asset_path rackconnect/access-the-rackconnect-management-interface/RackconnectCloudServersImage1.png %}" width="395" height="118" />
 
 The status indicators can be green, blue, red, or yellow.
 

@@ -18,7 +18,7 @@ your Thunderbird email client.
 2.  In the navigation pane, click **Local Folders** and under **Create a
     new account**, click **Email**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/thunderbird_create_acccount.png" width="336" height="194" />
+    <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird_create_acccount.png %}" width="336" height="194" />
 
 3.  When prompted to create a new email address, click the **Skip this
     and use my existing email** button at the bottom of the dialog box.
@@ -32,18 +32,18 @@ your Thunderbird email client.
     -   **Password**: Enter the password for the email account that you
         are setting up.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202014-05-21%20at%208.20.05%20AM.png" width="468" height="424" />
+    <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/Screen%20Shot%202014-05-21%20at%208.20.05%20AM.png %}" width="468" height="424" />
 
 5.  Click **Continue**.
 6.  When Thunderbird attempts to automatically detect the server
     settings, click **Manual config**. You must enter the
     settings manually.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202014-05-21%20at%208.27.35%20AM.png" width="452" height="204" />
+    <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/Screen%20Shot%202014-05-21%20at%208.27.35%20AM.png %}" width="452" height="204" />
 
     The dialog box expands to show new fields.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202014-05-21%20at%208.35.41%20AM.png" width="702" height="426" />
+    <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/Screen%20Shot%202014-05-21%20at%208.35.41%20AM.png %}" width="702" height="426" />
 
 7.  Enter the following values in the **Incoming** row:
     -   IMAP

@@ -27,7 +27,7 @@ The major groups of checks are remote check, agent checks, and hostinfo checks. 
 
 ### Remote checks
 
-![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-monitoring/rackspace-monitoring-checks-and-alarms-remote-checks.png)
+<img src="{% asset_path rackspace-monitoring/rackspace-monitoring-checks-and-alarms/rackspace-monitoring-checks-and-alarms-remote-checks.png %}" alt="" />
 
 Remote checks monitor an entity’s Internet connectivity, and can be performed from multiple monitoring zones. These zones are deployed in the six data centers around the globe, and you can choose the zones from which to perform a remote check. Each selected monitoring zone performs the configured remote check, and the collected data from each monitoring zone is used to evaluate the alarm criteria. You receive notifications only if the observations from the monitoring zones reach quorum on the resulting alarm state. As a result, you can filter out cases where a single monitoring zone is having an isolated issue connecting to your server.
 

@@ -31,7 +31,7 @@ Support team prior to making the change.
  customer. For further details on RackConnect Automation Features,
  please view the [RackConnect v2.0 Automation Features
  FAQ](/how-to/rackconnect-v20-automation-features-faq).
- 
+
 2. You must make sure to create cloud servers with the PublicNet and
  ServiceNet networks enabled, in addition to your Cloud Network.
  These PublicNet and ServiceNet networks are selected by default, and
@@ -43,7 +43,7 @@ Support team prior to making the change.
  and/or ServiceNet networks, so to avoid RackConnect failures, please
  be sure you do \*not\* disable the PublicNet and/or ServiceNet
  networks when using the API to create new cloud servers.
- 
+
 3. Since RackConnect controls the software firewalls on your cloud
  servers via Network Policies, you will also need to create a
  RackConnect Network Policy to allow communication between the cloud
@@ -56,8 +56,6 @@ Support team prior to making the change.
 Below is an example of how the Network Policy should be configured to
 allow connectivity across your Cloud Network IP addresses. In this
 example, the Cloud Network is equal to 192.168.x.x/24.
-
-<img src="/knowledge_center/sites/default/files/styles/half_width/public/field/image/CloudNetworks.NetworkPolicy.png" class="image-half_width" />
 
 **Note:** This Network Policy will need to be created, even if you already
 have a "Cloud Server(s) to Cloud Server(s)" Network Policy allowing all
@@ -87,15 +85,10 @@ Address Spaces:
 In other words, can you have a single network, let's say 192.168.x.x/24,
 for your dedicated servers and also for your cloud servers, so that they
 can communicate like they are all on the same network? Currently, the
-answer is **no. ** Your cloud servers connect to RackConnect via a
+answer is **no.** Your cloud servers connect to RackConnect via a
 ServiceNet NIC, and a separate Cloud Networks NIC is used for Cloud
 Networks connectivity. The ServiceNet Network and the Cloud Network are
 two distinct networks that do not have direct connectivity between
 them. The diagram below should help you to visualize how RackConnect
 and Cloud Networks work on the same cloud server. In the diagram Cloud
 Private Network is equivalent to the Cloud ServiceNet Network.
-
-<img src="/knowledge_center/sites/default/files/styles/full_width/public/field/image/RCandCloudNetworks.TrafficFlow.png" class="image-full_width" />
-
-
-

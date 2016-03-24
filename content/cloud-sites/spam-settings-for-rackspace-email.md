@@ -41,7 +41,7 @@ mailbox. To manage your blacklist, do the following:
 2.  In the left pane, click **Spam Settings**.
 3.  Click the **Blacklist** tab.
 
-  ![wm\_addblacklist\_001.gif](http://www.rackspace.com/apps/support/media/wm_addblacklist_001.gif)
+  <img src="{% asset_path cloud-sites/spam-settings-for-rackspace-email/wm_addblacklist_001.gif %}" alt="wm\_addblacklist\_001.gif" />
 
 To add a domain or email address to the list:
 
@@ -87,7 +87,7 @@ corner of the webmail window.
     the **Yes** button.
 4.  Click the **Save** button.
 
-  ![wm\_deleteblacklist\_001.gif](http://www.rackspace.com/apps/support/media/wm_deleteblacklist_001.gif)
+  <img src="{% asset_path cloud-sites/spam-settings-for-rackspace-email/wm_deleteblacklist_001.gif %}" alt="wm\_deleteblacklist\_001.gif" />
 
 ### Adding users/domains to your Safelist
 
@@ -101,7 +101,7 @@ safelist, do the following:
 2.  In the left pane, click **Spam Settings**.
 3.  Click the **Safelist** tab.
 
-  ![wm\_addsafelist\_001.gif](http://www.rackspace.com/apps/support/media/wm_addsafelist_001.gif)
+  <img src="{% asset_path cloud-sites/spam-settings-for-rackspace-email/wm_addsafelist_001.gif %}" alt="wm\_addsafelist\_001.gif" />
 
 To add a domain or email address to the list:
 
@@ -140,7 +140,7 @@ Spam folder, do one of the following:
     Spam** link. Or, right-click the email and select **Report
     Spam**.
 
-  ![wm\_reportspam\_001.gif](http://www.rackspace.com/apps/support/media/wm_reportspam_001.gif)
+  <img src="{% asset_path cloud-sites/spam-settings-for-rackspace-email/wm_reportspam_001.gif %}" alt="wm\_reportspam\_001.gif" />
 
 To report several emails, select the check box next to
 each email you want to report, then:
@@ -162,7 +162,7 @@ following:
 2.  Click the **Not Spam** link, or right-click the email
     and select **Not Spam**.
 
-  ![wm\_reportnotspam\_001.gif](http://www.rackspace.com/apps/support/media/wm_reportnotspam_001.gif)
+  <img src="{% asset_path cloud-sites/spam-settings-for-rackspace-email/wm_reportnotspam_001.gif %}" alt="wm\_reportnotspam\_001.gif" />
 
 To report several emails, select the check box next to each
 email you want to report, then:
@@ -187,7 +187,7 @@ preferences, before the email reaches your inbox.
 2. Click **Spam Settings**, located in the
     left pane.
 
-  ![wm\_managepreferences\_001.gif](http://www.rackspace.com/apps/support/media/wm_managepreferences_001.gif)
+  <img src="{% asset_path cloud-sites/spam-settings-for-rackspace-email/wm_managepreferences_001.gif %}" alt="wm\_managepreferences\_001.gif" />
 
 In the **Spam Filtering** section, you can turn spam
 filtering on or off. Or, you can turn on the **Exclusive** setting,

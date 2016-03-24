@@ -21,7 +21,7 @@ When you [log in to Rackspace
 Intelligence](/how-to/logging-in-to-the-rackspace-intelligence-dashboard),
 you can view all your relevant information on the dashboard:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-dashboard-overview.png" width="895" height="453" />
+<img src="{% asset_path rackspace-intelligence/understanding-the-rackspace-intelligence-dashboard-user-interface/intelligence-dashboard-overview.png %}" width="895" height="453" />
 
 The dashboard provides a main overview of all of your monitoring
 activities.
@@ -41,7 +41,7 @@ choose to work
 with [entities](/how-to/monitoring-entities-with-rackspace-intelligence) or [open
 alerts](/how-to/monitoring-open-alerts-with-rackspace-intelligence).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-dashboard-top-bar.png" width="738" height="103" />
+<img src="{% asset_path rackspace-intelligence/understanding-the-rackspace-intelligence-dashboard-user-interface/intelligence-dashboard-top-bar.png %}" width="738" height="103" />
 
 In some areas of the interface, an **Actions** menu is available. For
 example, if you [create an
@@ -52,10 +52,10 @@ commands on the menu to rename the entity, define an IP address for the
 entity, delete the entity, and create checks or suppressions for the
 entity.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-create-entity-actions.png" width="460" height="218" />
+<img src="{% asset_path rackspace-intelligence/understanding-the-rackspace-intelligence-dashboard-user-interface/intelligence-create-entity-actions.png %}" width="460" height="218" />
 
 By understanding the structure of these sections in the Rackspace
 Intelligence interface, you can predict where to find the information
 and tools that you need.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-ui-461x597.png" alt="With the Rackspace Intelligence UI, you can visualize activity and you can perform functions similar to those available with Cloud Monitoring." width="461" height="597" />
+<img src="{% asset_path rackspace-intelligence/understanding-the-rackspace-intelligence-dashboard-user-interface/intelligence-ui-461x597.png %}" alt="With the Rackspace Intelligence UI, you can visualize activity and you can perform functions similar to those available with Cloud Monitoring." width="461" height="597" />

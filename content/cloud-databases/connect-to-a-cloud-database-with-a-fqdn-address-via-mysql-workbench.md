@@ -25,13 +25,13 @@ Workbench.
 2.  Launch MySQL Workbench, and select the **New Server Instance**
     option under **Server Administration**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.png" width="893" height="583" />
+    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/1.png %}" width="893" height="583" />
 
 3.  In the next screen, select the **Remote Host** option and enter the
     URL that was returned to you when you created the database instance
     and click **Continue**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.png" width="896" height="138" />
+    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/2.png %}" width="896" height="138" />
 
 4.  On the next screen, from the **Connection Method** menu, select
     **Standard TCP/IP over SSH**.
@@ -51,19 +51,19 @@ Workbench.
 8.  For **Username**, enter the username that was created when you
     created  the database instance.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.png" width="870" height="690" />
+    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/3.png %}" width="870" height="690" />
 
 9.  Click **Continue**.
     You are prompted for the database instance password. If everything
     is correct, the following information is displayed:
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.png" width="861" height="612" />
+    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/4.png %}" width="861" height="612" />
 
 
 After the database connection is tested, the following screen is
 displayed. You can now work with your database instance.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.png" width="586" height="446" />
+<img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/5.png %}" width="586" height="446" />
 
 
 **Note:** If you did not save your password, when you perform any actions,

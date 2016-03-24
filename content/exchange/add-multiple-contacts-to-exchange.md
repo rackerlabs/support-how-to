@@ -22,11 +22,11 @@ steps:
 1. Mouse over the **Go to section** drop-down menu and select
    **Microsoft Exchange**.
 
-   ![](http://www.rackspace.com/apps/support/media/cpnavme.gif)
+   <img src="{% asset_path exchange/add-multiple-contacts-to-exchange/cpnavme.gif %}" alt="" />
 
 2. In the **Email Accounts** section, click the **Contacts** link.
 
-   ![Contacts link highlighted.](http://www.rackspace.com/apps/support/media/cp_me_editcontact_002.GIF)
+   <img src="{% asset_path exchange/add-multiple-contacts-to-exchange/cp_me_editcontact_002.GIF %}" alt="Contacts link highlighted." />
 
 3. If you have multiple domains, select the appropriate domain name.
    Or, to change domains, click the **change domain** link.

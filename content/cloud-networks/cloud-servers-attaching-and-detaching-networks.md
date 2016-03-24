@@ -26,7 +26,7 @@ your cloud server while networking is reset on the server.
 1.  Log in to the Cloud Control Panel at
     [mycloud.rackspace.com](http://mycloud.rackspace.com).
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach-2.png" width="700" height="568" />
+    <img src="{% asset_path cloud-networks/cloud-servers-attaching-and-detaching-networks/attach-2.png %}" width="700" height="568" />
 
 2.  On the Cloud Servers page, click the server to which  you want to
     attach a network. The details page for that server is displayed.
@@ -41,14 +41,14 @@ your cloud server while networking is reset on the server.
     You can also create a new cloud network and attach it to the
     server..
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach-3.png" width="700" height="347" />
+    <img src="{% asset_path cloud-networks/cloud-servers-attaching-and-detaching-networks/attach-3.png %}" width="700" height="347" />
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach-4.png" width="450" height="119" />
+    <img src="{% asset_path cloud-networks/cloud-servers-attaching-and-detaching-networks/attach-4.png %}" width="450" height="119" />
 
     After the network is attached, it is displayed in the list of
     networks for that server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach-5.png" width="700" height="340" />
+    <img src="{% asset_path cloud-networks/cloud-servers-attaching-and-detaching-networks/attach-5.png %}" width="700" height="340" />
 
 ### To Detach (Disconnect) a Network:
 
@@ -58,9 +58,9 @@ Public or ServiceNet interfaces from cloud servers.
 
 1.  Log in to the Cloud Control Panel at
     [mycloud.rackspace.com](http://mycloud.rackspace.com).
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach-6.png" width="702" height="421" />
+    <img src="{% asset_path cloud-networks/cloud-servers-attaching-and-detaching-networks/attach-6.png %}" width="702" height="421" />
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/attach-7.png" width="453" height="115" />
+    <img src="{% asset_path cloud-networks/cloud-servers-attaching-and-detaching-networks/attach-7.png %}" width="453" height="115" />
 
 2.  On the Cloud Servers page, click the server from which you want to
     detach a network.

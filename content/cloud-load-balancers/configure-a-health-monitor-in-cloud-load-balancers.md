@@ -36,7 +36,7 @@ load balancer rotation until the health monitor determines that the node is func
 3.  Click the gear icon next load balancer name that you want to monitor, then select **Edit Health
     Monitoring**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1492-confighealthmon-2_0.png" width="212" height="380" />
+    <img src="{% asset_path cloud-load-balancers/configure-a-health-monitor-in-cloud-load-balancers/1492-confighealthmon-2_0.png %}" width="212" height="380" />
     
 4.  In the popup dialog box, select a **Monitor Type:**
 
@@ -47,7 +47,7 @@ load balancer rotation until the health monitor determines that the node is func
         health checks. Provide the required information for this
         monitor.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1492-confighealthmon-3.png" width="354" height="338" />
+        <img src="{% asset_path cloud-load-balancers/configure-a-health-monitor-in-cloud-load-balancers/1492-confighealthmon-3.png %}" width="354" height="338" />
 
         -   **Interval**: Minimum number of seconds to wait before
             executing the health monitor; must be a number between 1
@@ -64,7 +64,7 @@ load balancer rotation until the health monitor determines that the node is func
         the actual condition of a node. Provide the required information
         for this monitor.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1492-confighealthmon-4.png" width="323" height="378" />
+        <img src="{% asset_path cloud-load-balancers/configure-a-health-monitor-in-cloud-load-balancers/1492-confighealthmon-4.png %}" width="323" height="378" />
 
         -   **Interval**: Minimum number of seconds to wait before
             executing the health monitor; must be a number between 1

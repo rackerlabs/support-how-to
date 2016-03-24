@@ -94,7 +94,7 @@ flavor (server size).
 
 #### Supported Flavors
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SupportedFlavors_0.png" width="704" height="168" />
+<img src="{% asset_path cloud-servers/using-onmetal-cloud-servers-through-api/SupportedFlavors_0.png %}" width="704" height="168" />
 
 -   All flavors have a 32 GB system disk.
 -   All flavors include dual 10 GigE NICs in a high availability bonded

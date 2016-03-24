@@ -97,7 +97,7 @@ instructions in this article for your Linux distribution.
     shown in the following screenshot. However, items do appear as they should on the
     **Backup** tab in the Cloud Control Panel.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png" width="567" height="92" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-linux/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png %}" width="567" height="92" />
 
 8. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 
@@ -138,7 +138,7 @@ instructions in this article for your Linux distribution.
 
     **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel, as shown in the following screenshot. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png" width="567" height="92" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-linux/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png %}" width="567" height="92" />
 
 4.  Start the agent.
 
@@ -185,7 +185,7 @@ tarball instructions instead.
 
     **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel, as shown in the following screenshot. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png" width="567" height="92" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-linux/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png %}" width="567" height="92" />
 
 6. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 7.  Start the agent.

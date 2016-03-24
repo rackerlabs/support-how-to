@@ -18,9 +18,9 @@ in the following ways:
     your server list in the left pane to list only First Generation
     servers.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/ServersListTypes_0.png" width="196" height="456" />
+    <img src="{% asset_path cloud-servers/determine-if-your-server-is-a-first-generation-cloud-server/ServersListTypes_0.png %}" width="196" height="456" />
 
 -   In the list of servers on the Cloud Servers page, all First
     Generation servers are marked with a blue asterisk.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1stvs2ndgenserversa.png" width="776" height="206" />
+    <img src="{% asset_path cloud-servers/determine-if-your-server-is-a-first-generation-cloud-server/1stvs2ndgenserversa.png %}" width="776" height="206" />
