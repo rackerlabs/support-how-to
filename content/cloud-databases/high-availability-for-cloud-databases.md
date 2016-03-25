@@ -128,7 +128,7 @@ balancer nodes.
     and greater.
 -   The source and replicas must have the same size and flavor.
 -   The source and replicas are created in the same region.
--   Backup, resize, and custom configuration commands/changes must be applied to the overall HA group using the group UUID. This means that resizes and configurations will be the exact same across all instances in the group. Backup commands will pick the closest replica and create a backup from there. Backup, resize, and custom configuration changes/commands against the individual instances that are part of the HA setup are not allowed. 
+-   Backup, resize, and custom configuration commands and changes must be applied to the overall HA group using the group UUID. Applying updates across groups ensures that all instances in the group have the same configuration. Backup commands select the closest replica and create a backup from it. Backup, resize, and custom configuration commands and changes against the individual instances in the HA group are not allowed. 
 -   There will be a small delay between the source and the replicas.
 -   Initial setup of the HA group might take anywhere between 5-10 minutes, depending on
     the number of replicas. Because it requires creation of multiple
