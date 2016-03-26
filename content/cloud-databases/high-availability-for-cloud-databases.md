@@ -79,8 +79,8 @@ and updates the write pool. Total downtime is around 10-30 seconds.
 
 ### Getting started with HA for Cloud Databases
 
-Creation of new HA instance groups and conversion from a replica set to HA group are currently available in the Cloud
-Control Panel and API. More details about HA-related API calls are available in the [Cloud Databases developer
+Creation of new HA instance groups and conversion from a replica set to HA group are currently available in the [Cloud
+Control Panel](/how-to/managing-cloud-databases-ha-groups-in-the-cloud-control-panel) and API. More details about HA-related API calls are available in the [Cloud Databases developer
 guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#high-availability-instance-group).
 
 **Notes:**
@@ -126,11 +126,9 @@ balancer nodes.
     database instance is two.
 -   An HA instance is available only for instance flavors 1 GB
     and greater.
--   The source and replicas should have the same size and flavor.
+-   The source and replicas must have the same size and flavor.
 -   The source and replicas are created in the same region.
--   Currently backups, resizes, and custom configurations cannot be
-    performed for the instances that are part of the HA setup. Instead, backups, 
-    resizes, and custom configurations must be applied to the HA group.
+-   Backup, resize, and custom configuration commands and changes must be applied to the overall HA group using the group UUID. Applying updates across groups ensures that all instances in the group have the same configuration. Backup commands select the closest replica and create a backup from it. Backup, resize, and custom configuration commands and changes against the individual instances in the HA group are not allowed. 
 -   There will be a small delay between the source and the replicas.
 -   Initial setup of the HA group might take anywhere between 5-10 minutes, depending on
     the number of replicas. Because it requires creation of multiple
