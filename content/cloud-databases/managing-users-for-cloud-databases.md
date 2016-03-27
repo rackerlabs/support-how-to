@@ -163,7 +163,7 @@ the preceding step:
 Step 4: In MySQL, set up read permissions for DevUser1 by using the
 GRANT statement:
 
-    $ GRANT SELECT on DBStaging1 to 'DevUser1'@'hostname';
+    $ GRANT SELECT on DBStaging1.* to 'DevUser1'@'hostname';
 
 **Note:**  You can reset the root user password by making subsequent
 calls to enable the root user.
