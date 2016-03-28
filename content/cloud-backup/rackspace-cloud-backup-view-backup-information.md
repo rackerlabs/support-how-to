@@ -1,5 +1,5 @@
 ---
-permalink: view-backup-information-with-cloud-backup/
+permalink: rackspace-cloud-backup-view-backup-information/
 node_id: 2039
 title: View backup information with Cloud Backup
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: transfer-data-into-your-big-data-cluster/
+permalink: getting-data-into-your-big-data-cluster/
 node_id: 3813
 title: Transfer data into your Big Data cluster
 type: article
