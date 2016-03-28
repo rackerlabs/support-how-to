@@ -1,5 +1,5 @@
 ---
-permalink: configuring-basic-security-0/
+permalink: configuring-basic-security/
 node_id: 1501
 title: Configuring basic security
 type: article

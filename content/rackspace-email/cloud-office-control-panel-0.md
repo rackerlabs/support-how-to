@@ -1,5 +1,5 @@
 ---
-permalink: cloud-office-control-panel-0/
+permalink: cloud-office-control-panel/
 node_id: 3989
 title: Cancel a Cloud Office service
 type: article
