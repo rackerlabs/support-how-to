@@ -11,8 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-Some users are used to taking snapshots of their Cloud Server [product
-page](http://www.rackspace.com/cloud/servers) as a backup. If you have
+Some users are used to taking snapshots of their [Cloud Server](http://www.rackspace.com/cloud/servers) as a backup. If you have
 a solution where you want to save the server's state or configuration,
 or want to keep gold copies of your system, then you can create an image
 backup of the server. Because it is an image of the whole server, there
