@@ -1,5 +1,5 @@
 ---
-permalink: deploy-rackspace-cloud-big-data/
+permalink: deploying-rackspace-cloud-big-data/
 node_id: 4064
 title: Deploy Rackspace Cloud Big Data
 type: article
