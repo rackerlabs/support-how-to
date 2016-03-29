@@ -25,11 +25,11 @@ Once the stack has been successfully created you will need to configure your dat
 
 1. Log on to the server via SSH either as 'root' using the SSH key provided, or as 'parse' using the password provided.  Additional information on the server login process can be found [here](https://support.rackspace.com/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/) for Mac/Linux users or [here](https://support.rackspace.com/how-to/connecting-to-linux-from-windows-by-using-putty/) for Windows users.
 2. Once logged in to the primary server, modify '/home/parse/ecosystem.json' with your 
-   - MongoDB connection string
+   - MongoDB Connection String
    - Application ID
    - Master Key
 
-   These values can be found in your Parse.com account under "App Settings" > "Security and Keys"  Any other application-specific keys are optional.  They should be left blank if not used.  
+   The MongoDB Connection String can be found in the ObjectRocket Control Panel, listed as 'Connect' under the instance you plan to use.  The Application ID and Master Key values can be found in your Parse.com account under "App Settings" > "Security and Keys"  Any other application-specific keys are optional.  They should be left blank if not used.  
 
    Below is an example ecosystem.json config file   
 
