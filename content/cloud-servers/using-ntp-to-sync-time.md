@@ -147,8 +147,8 @@ Internet. It is not necessary on a machine with a dedicated connection.
 ### NTP security
 
 Protect yourself against NTP server attacks by adding `disable monitor` to
-your `/etc/ntp.conf` file. Disabling monitoring will prevent unwanted remote
-queries that use commands from older versions of NTP, such as "monlist".
+your **/etc/ntp.conf** file. Disabling monitoring will prevent unwanted remote
+queries that use commands from older versions of NTP, such as *monlist*.
 
 ### Syncing multiple servers
 
