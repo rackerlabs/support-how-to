@@ -32,7 +32,7 @@ Use the following steps to create a HA instance group.
 
 4.  In the **Identity** section, provide a name for the instance and specify the region in which you want to launch the HA instances that you create.
 
-   <img sr="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-cloud-control-panel/managing-cloud-databases-create-instance-region-2.png %}" />
+   <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-cloud-control-panel/managing-cloud-databases-create-instance-region-2.png %}" />
 
    **Note:** The name that you provide in this step will be applied to all instances and then an index (-01, -02, and so on) will be applied to all instance names starting with the master. You can also see this in the **Build** section.
 
