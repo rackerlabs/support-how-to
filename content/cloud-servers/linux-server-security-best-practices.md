@@ -12,18 +12,7 @@ product_url: cloud-servers
 
 The first step after creating a Linux cloud server should be to set the security on it. This crucial step must be performed on every server to prevent hackers from obtaining unwanted access. The result is a more secure environment that helps prevent you and your business from being hacked. Performing these basic steps and hardening the security on your server *should* make hackers give up and move on to a new target.
 
-- [Linux user management](#user)
-- [Generate an SSH key pair](#keypair)
-- [Linux SSH daemon configuration](#sshconfig)
-- [Firewalls](#firewalls)
-- [Account-level security](#account)
-- [Simple intrusion prevention](#fail2ban)
-- [Intrusion detection](#ids)
-- [Keep your OS up-to-date (patching)](#patching)
-- [OS end-of-life](#eol)
-- [Further reading](#further)
-
-## Linux user management {#user}
+### Linux user management
 
 This section outlines best practices for managing privileged users on a Linux system.
 
@@ -31,7 +20,7 @@ By default, every Linux system has the root user created as the first user. The 
 
 To avoid this situation, you must create a secondary user to use when you need to log in and administer the system. Each end user on the system should have their own login credentials for logging purposes. Depending on the actions that the end user will be performing, they might need to have sudo permission to perform administrative actions. This section provides examples on how to add a user with sudo permission on both Debian and Red Hat Enterprise Linux based systems.
 
-### Password strength guidelines
+#### Password strength guidelines
 
 Before we create any users, let's talk about passwords. Ensure that you use strong passwords that require a minimum length (and maybe even include expiration dates). Following are common guidelines advocated by proponents of software system security:
 
@@ -44,7 +33,7 @@ Before we create any users, let's talk about passwords. Ensure that you use stro
 - Avoid using information that the user's colleagues or acquaintances might know to be associated with the user.
 - Do not use passwords that consist wholly of any simple combination of the aforementioned weak components.
 
-### Add a user (Debian and Ubuntu)
+#### Add a user (Debian and Ubuntu)
 
 1.  Create a new user and set the user’s password. For our examples we'll use the username **bob**.
 
@@ -71,7 +60,7 @@ Before we create any users, let's talk about passwords. Ensure that you use stro
 
 If you got a bunch of lines about INPUT and OUTPUT, the new user now has sudo permissions and you can proceed to the next section. You should log in to this user instead of root whenever possible. Using `sudo` will help you avoid making inadvertent system changes, and your changes will be logged for future reference.
 
-### Add a user (Red Hat and CentOS)
+#### Add a user (Red Hat and CentOS)
 
 1.  Create a new user with `adduser` and set the user’s password with `passwd`. For our examples we'll use the username **bob**.
 
@@ -108,7 +97,7 @@ If you got a bunch of lines about INPUT and OUTPUT, the new user now has sudo pe
 
 If you got a bunch of lines about INPUT and OUTPUT, the new user now has sudo permissions and you can proceed to the next section. You should log in to this user instead of root whenever possible. Using `sudo` will help you avoid making inadvertent system changes, and your changes will be logged for future reference.
 
-## Generate an SSH key pair {#keypair}
+### Generate an SSH key pair
 
 To give us a login option more secure than password-based logins, we'll start by creating an SSH key pair to be used with the user you created earlier.  These instructions work with any Linux distribution.
 
@@ -132,7 +121,7 @@ To give us a login option more secure than password-based logins, we'll start by
 
     .ssh/authorized_keys
 
-## Linux SSH daemon configuration {#sshconfig}
+### Linux SSH daemon configuration
 
 Now that your additional user is created with sudo permissions and an SSH key pair, you can move on to the next part of securing your Linux system. You will work with the SSH daemon (server) configuration to improve security.
 
@@ -140,7 +129,7 @@ Now that your additional user is created with sudo permissions and an SSH key pa
 
 The example commands assume you're no longer logged in as root and are logged in as your new user, using sudo to perform privileged operations.
 
-### SSH configuration options
+#### SSH configuration options
 
 This section covers common options in the SSH configuration file to help improve security. You will use this information to configure your firewall later.
 
@@ -161,7 +150,7 @@ Another part of this configuration is the authentication method to use when logg
 
 SSH keys are generated in pairs, one *public* and the other *private*, and they can be used only in combination with each other. The private key is meant to be stored in a safe location on the computer you'll connect from, and should never be given out. The public key can be given out and is what you place on the server that you will log in to. The private key on your local computer is run through an algorithm when you make a connection, granting access if the key pair hash matches up with the public key.
 
-### Modify sshd_config
+#### Modify sshd_config
 
 By this point you have added a new user with sudo permissions, created an SSH keypair, and uploaded your public SSH key. Now you will change your SSH configuration file to improve your security. To do this, you can change SSH to listen on a custom port, restrict root login via SSH, enable public key authentication (already enabled for Ubuntu 14.04), and disable password authentication.
 
@@ -187,7 +176,7 @@ SSH is now configured to run on a custom port and accept only non-root users tha
 
 You still must configure the firewall before restarting the server.  The firewall is discussed in the next section.
 
-### Amend iptables and restart SSH
+#### Amend iptables and restart SSH
 
 **Note for RackConnect users:** You should use the RackConnect management interface to manage firewall rules instead of iptables on the server. You shouldn't be changing the ssh port either if you use RackConnect, but for more information about firewalls and RackConnect, see [Managing RackConnect Network Policies](/knowledge_center/article/managing-rackconnect-network-policies).
 
@@ -231,7 +220,7 @@ You still must configure the firewall before restarting the server.  The firewal
 
     If you're connecting from a Windows desktop, when you create the connection in [PuTTY](/knowledge_center/article/rackspace-cloud-essentials-going-from-windows-to-linux-using-putty) you can specify the port number and a private key.
 
-### Save the iptables rule
+#### Save the iptables rule
 
 If you were able to connect with the new configuration, save your iptables rules before continuing to make sure the SSH port will stay open.
 
@@ -243,7 +232,7 @@ On CentOS, Red Hat, and Fedora, run:
 
     sudo service iptables save
 
-## Firewalls {#firewalls}
+### Firewalls 
 
 `iptables` is a firewall and networking tool that is available to all Linux distributions and operates by analyzing packets at the kernel level as they are received.
 
@@ -251,7 +240,7 @@ For an introduction to iptables and how to use it, read the Knowledge Center art
 
 **Note for RackConnect users:** You should use the RackConnect management interface to manage firewall rules instead of iptables on the server. For more information, see [Managing RackConnect Network Policies](/knowledge_center/article/managing-rackconnect-network-policies).
 
-### Sample iptables ruleset
+#### Sample iptables ruleset
 
 **Disclaimer:** Following is only a template to help you build an iptables ruleset that will best fit your solution. It is not intended to be a security standard nor will it fit every environment. Use this sample only to help you with syntax and ideas on how to use iptables.
 
@@ -300,7 +289,7 @@ If your system tells you there isn't an iptables service, we'll use `iptables-re
 
     sudo -c "/sbin/iptables-restore < /etc/iptables.rules"
 
-## Account-level security {#account}
+### Account-level security 
 
 While securing your servers is an essential part of operations on the Internet, securing your account is also necessary. Your account name, password, and API keys are all essential parts of how you interact with the Rackspace Cloud offerings. Just like any other password or access credentials, you want to keep them secure, but you also need to allow your team to take action and perform necessary tasks.
 
@@ -319,7 +308,7 @@ See the following Knowledge Center articles for more information about RBAC:
 - [Overview: Role Based Access Control (RBAC)](/knowledge_center/article/overview-role-based-access-control-rbac)
 - [FAQ: Role-Based Access Control (RBAC)](http://www.rackspace.com/knowledge_center/article/faq-role-based-access-control-rbac)
 
-## Simple intrusion prevention {#fail2ban}
+### Simple intrusion prevention
 
 Most would-be intruders run multiple attacks against the same port to try and find something they can exploit in the software running on that port. Fortunately you can set up an intrusion prevention tool like [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page) on your server to block repeated attacks on a port.
 
@@ -327,7 +316,7 @@ Most would-be intruders run multiple attacks against the same port to try and fi
 
 Fail2ban monitors logs and automatically blocks connections if it sees too many from the same host in a short period of time.  To set up and configure Fail2ban on your server, reference [our instructions for installing Fail2ban](/knowledge_center/article/fail2ban).
 
-## Intrusion detection {#ids}
+### Intrusion detection
 
 An intrusion detection system (IDS) can help an admin monitor systems for suspicious activity and possible exploits.  An IDS is more robust than a prevention tool like Fail2ban but can be more complicated to set up and maintain.
 
@@ -335,7 +324,7 @@ A popular open source IDS is [OSSEC](http://www.ossec.net/).  OSSEC maintains ag
 
 If you suspect a system has already been compromised, you can investigate with procedures described in our articles on [checking for backdoors and intruders](/knowledge_center/article/checking-for-a-security-compromise-backdoors-and-intruders) and [rescue mode investigation](/knowledge_center/article/checking-for-a-security-compromise-rescue-mode-investigation).
 
-## Keep your OS up-to-date (patching) {#patching}
+### Keep your OS up-to-date (patching) 
 
 It is very important to keep your kernel, packages, and dependencies up-to-date. This is especially true for security-related modules and packages. Some updates (for example, kernel updates) require your server to be rebooted. Plan for a time that will cause the least amount of disruption during the (normally very short) downtime while your server is rebooting.
 
@@ -353,7 +342,7 @@ To check for and install updates on CentOS, Red Hat, and Fedora systems, run:
 
     sudo yum update
 
-## OS end-of-life {#eol}
+### OS end-of-life
 
 You should find out when the Linux distribution release that you are running on your servers will reach its end-of-life (EOL). When a release reaches its EOL, the distribution's maintainers will no longer support it or supply package updates via their official repositories. You will want to plan your migration to a newer release well before your current release reaches its EOL.
 
@@ -367,7 +356,7 @@ Use the following links to find out when your Linux distribution release will re
 - Fedora: [https://fedoraproject.org/wiki/End_of_life](https://fedoraproject.org/wiki/End_of_life)
 - Debian: [https://wiki.debian.org/DebianReleases](https://wiki.debian.org/DebianReleases)
 
-## Further reading {#further}
+### Further reading
 
 - [Rackspace Cloud Essentials Guide - Security & Remote Access](http://www.rackspace.com/knowledge_center/article/rackspace-cloud-essentials-guide-security-remote-access)
 
