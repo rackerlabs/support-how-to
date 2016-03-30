@@ -144,6 +144,12 @@ later if it's unavailable at some point. The dynamic option is useful
 when NTP is running on a machine that doesn't always have access to the
 Internet. It is not necessary on a machine with a dedicated connection.
 
+### NTP security
+
+Protect yourself against NTP server attacks by adding `disable monitor` to
+your **/etc/ntp.conf** file. Disabling monitoring will prevent unwanted remote
+queries that use commands from older versions of NTP, such as *monlist*.
+
 ### Syncing multiple servers
 
 If you have more than one machine to sync, it is best to designate one
