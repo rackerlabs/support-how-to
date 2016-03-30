@@ -1,6 +1,7 @@
 ---
+permalink: linux-server-security-best-practices/
 node_id: 4137
-title: Linux Cloud Server security best practices
+title: Linux server security best practices
 type: article
 created_date: '2014-07-16'
 created_by: Christoph Champ
