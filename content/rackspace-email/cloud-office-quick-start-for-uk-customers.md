@@ -27,9 +27,9 @@ your MX records.
 1.  Log in to the [MyRackspace Customer
     Portal](https://my.rackspace.com/).
 
-2.  From the **Products** menu, click **Email & Apps**.
+2.  From the **Products** menu, click **Cloud Office**.
 
-3.  In the Email & Apps window, click **Open Mail Control Panel**.
+3.  In the Cloud Office window, click **Open Cloud Office Control Panel**.
 
 4.  In the Email Hosting section of the Cloud Office Control Panel,
     click **Mailboxes**.
