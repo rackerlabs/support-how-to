@@ -1,4 +1,5 @@
 ---
+permalink: migrating-from-parse-to-rackspace/
 title: Migrating From Parse To Rackspace
 type: article
 created_date: '2016-03-25'
