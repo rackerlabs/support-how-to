@@ -32,7 +32,7 @@ Use the following instructions to create a new article, make edits to an existin
 
 Follow these steps to create a new article within a product folder of the **rackerlabs/rackspace-how-to** repo.
 
-1.	Go to the [Rackspace How-to content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to create an article.
+1.	Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to create an article.
 
 2. Click **New file**.
 
@@ -74,7 +74,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 10. Describe the reasons for your change in the comment box, than select **Create pull request**.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-to editorial team will merge your pull request once your contribution is reviewed.
+Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
 
 **Note:** If your article includes images, send an email to <how-to@rackspace.com> with the image files. Note where the images belong in the article by using comments: `<!--this is a comment-->`.
 
@@ -82,7 +82,7 @@ Your PR will be reviewed. Depending on the review feedback, you might be asked t
 
 Follow these steps to edit an existing article within a product folder of the **rackerlabs/rackspace-how-to** repo.
 
-1. Go to the [Rackspace How-to content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to edit the article.
+1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to edit the article.
 
 2. Find the article you wish the edit. Once inside the article, click the **pencil** icon at the top of the screen. Make any edits to the article directly through the GitHub website.
 
@@ -108,13 +108,13 @@ Follow these steps to edit an existing article within a product folder of the **
 
 7. Select **Create pull request**.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-to editorial team will merge your pull request once your contribution is reviewed.
+Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
 
 #### Make a change to a PR
 
 You might be asked by a member of the editorial team to update your PR. Follow the steps below to make an update to your PR.
 
-1. Go to the [Rackspace How-to content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and select the **Pull requests** tab.
+1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and select the **Pull requests** tab.
 
 2. Find and select your PR.
 
@@ -126,7 +126,7 @@ You might be asked by a member of the editorial team to update your PR. Follow t
 
 6. Be sure that the option **Commit directly to the `your-branch-name` branch** is selected, then commit your changes.
 
-The How-to team will comment on the PR if any more changes need to be made.
+The How-To team will comment on the PR if any more changes need to be made.
 
 #### Request an article change
 
