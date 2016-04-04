@@ -5,20 +5,13 @@ title: Best practices for Cloud Backup
 type: article
 created_date: '2013-04-22'
 created_by: David Hendler
-last_modified_date: '2016-01-21'
-last_modified_by: Margaret Eker
+last_modified_date: '2016-04-04'
+last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-This guide shows you how to get the most out of Rackspace Cloud Backup well and addresses frequently encountered scenarios. Working through this guide, you will better understand the key backup concepts, how to make smart choices about what to backup (and how often), how to make the most of data restoration, and how to resolve the most commonly encountered Cloud Backup issues.
-
-
-| Conventions |
---- |
-&#9989; | **Best Practice**. Look to these when you need to make good backup decisions.
-&#9995; | **Caution**. Consider the potential outcomes before you do these actions.
-&#10060; | **Do Not Attempt**. These are warnings against possible future trouble.
+This article shows you how to get the most out of Rackspace Cloud Backup and addresses frequently encountered scenarios. Working through this article, you will better understand the key backup concepts, how to make smart choices about what to back up (and how often), how to make the most of data restoration, and how to resolve the most commonly encountered Cloud Backup issues.
 
 ### Key concepts
 
@@ -35,27 +28,26 @@ Knowing the language of backup goes a long way towards helping you make informed
 - **Snapshot**: a checkpoint of system data/state, usually a backup.
 - **The Vault**: disk space that contains information about every block of data that you've ever stored. It is shared between all of your backup configurations.
 
-### Choosing what to backup
+### Choosing what to back up
 
 **Warning:** Cloud Backup does *not* follow symlinks. For example, if a symlink points to a file, the symlink itself is backed up, but the file it points to is not backed up. Likewise, if a symlink points to a folder, the symlink itself is backed up, but the folder and anything under the folder is not be backed up. If you want to back up files or folders to be backed up, do not use a symlink.
 
-Our best guidance is not what to backup, but what not to backup:
+Our best guidance is not what to back up, but what *not* to back up:
 
-- Do not back up running databases -- to backup a database, see the topic on [backing up databases](/how-to/rackspace-cloud-backup-backing-up-databases).
+- Do not back up running databases - to backup a database, see the topic on [backing up databases](/how-to/rackspace-cloud-backup-backing-up-databases).
 - Do not back up caches and session files
 - Do not back up frequently changing files, such as logs
-- Do not back up root -- to save all data and the server, [make an image of the server](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image) instead.
+- Do not back up root - to save all data and the server, [make an image of the server](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image) instead.
 
-**Note:** Do not compress your data before backup it is backed up. Doing so defeats the backup deduplication, which is typically far more efficient than simple file compression. Deduplication stores only the updated data, and saves you storage space and money during the backup process.
+**Note:** Do not compress your data before it is backed up. Doing so defeats the backup deduplication, which is typically far more efficient than simple file compression. Deduplication stores only the updated data, and saves you storage space and money during the backup process.
 
-The Cloud Backup Agent tries to be helpful, and skips the below types of files automatically.
+The Cloud Backup Agent skips the following types of files automatically:
 
 - Memory-only file systems (Linux: /proc, etc. )
 - Cloud Backup agent data directories
 - Recovery information (Windows)
 - Recycle Bin (Windows)
-- desktop.ini and thumbs.db (Windows)
-
+- **desktop.ini** and **thumbs.db** (Windows)
 
 These file types either change too rapidly (databases, logs, caches) or don't exist long enough to be backed up (session files). Session files should be avoided entirely. And if the information is valuable to your business, log files should track it. Caches should also be avoided, as their data is meant to be discarded. If you do need to back up these files, our suggested workarounds are:
 
@@ -63,28 +55,23 @@ These file types either change too rapidly (databases, logs, caches) or don't ex
 - Log files - Take snapshots of your log files and back them up.
 - To avoid running out of disk space, rotate your log files periodically.
 
-&nbsp; ||
---- | ---
-&#10060; | Do not back up session files or caches at all. Don't back up databases or log files directly; use a snapshot instead.
+In short, do not back up session files or caches at all, and use a snapshot instead of backing up databases or log files directly.
 
-### Backup and Restore Best Practices
+### Backup and restore best practices
 
 There are many ways to configure backups and restores. To make Cloud Backup work best for you, it helps to understand some of the tradeoffs you make when you configure the many options available to you.
 
-**NOTE:** With Performance Cloud Servers, Cloud Monitoring will only monitor the system disk. The data disk is not monitored. For data disk backup, [Cloud Block Storage](/how-to/cloud-block-storage-overview) should be used.
+**Note:** With Performance Cloud Servers, Cloud Monitoring will only monitor the system disk. The data disk is not monitored. For data disk backup, [Cloud Block Storage](/how-to/cloud-block-storage-overview) should be used.
 
-&nbsp; ||
---- | ---
-&#9989; | First off, choose your contact email carefully when you configure your backup. If anything goes wrong, you will be alerted there first.
+Be sure to choose your contact email carefully when you configure your backup. If anything goes wrong, you will be alerted there first.
 
-#### Backup Frequency
+#### Backup frequency
 
 When trying to determine how often to back up a file, there are three variables to consider:
 
 1. Criticality - How important is tracking changes in the file to your business processes?
 2. Size - How large is the file?
 3. Data Churn - How often does the file change?
-
 
 Criticality is the most important factor to consider when making backup decisions. The more critical the file is to your business operations, the more often you'll want to back this file up.
 
@@ -98,36 +85,27 @@ Lower Criticality | Higher Criticality
 High Data Churn | Low Data Churn
 Larger Size | Smaller Size
 
+**Note**: Do not make decisions about backup frequency lightly. If you try to backup or restore files more frequently than the backup engine can keep up with, anomalous behavior may result.
 
-&nbsp; | &nbsp;
---- | ---
-&#9989; | Do not make decisions about backup frequency lightly. If you try to backup or restore files more frequently than the backup engine can keep up with, anomalous behavior may result.
-
-#### Effective Restores
+#### Effective restores
 
 It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren't available because you haven't been configured as you expected.
 
-&nbsp; | &nbsp;
---- | ---
-&#9989; | Test your restores periodically to make sure that your data is saved as you expect it to be.
+Test your restores periodically to make sure that your data is saved as you expect it to be.
 
 Another point to consider is the restore destination. Restoring to the original location and overwriting saves on storage space, but you risk accidentally overwriting important existing files. Proceed with caution when restoring.
 
-#### Encryption: Costs and Benefits
+#### Encryption: costs and benefits
 
-Encryption is important for keeping your data confidential. However, encryption has its costs. It takes significantly longer to backup and restore encrypted data. Consider if the data you are storing must be encrypted. If not, then it is best to proceed without encryption. Encryption applies across the board, and once you encrypt a backup server, you may not remove it.
+Encryption is important for keeping your data confidential. However, encryption has its costs. It takes significantly longer to backup and restore encrypted data. Consider if the data you are storing must be encrypted. If not, then it is best to proceed without encryption.
 
-&nbsp; | &nbsp;
---- | ---
-&#9989; | Once you've set a server to encrypt data, all backups performed on that server will be encrypted.
+**Warning**: Encryption applies across the board, and once you encrypt a backup server, you may not remove it.
 
-### Frequently Encountered Issues
+### Frequently encountered issues
 
 This section is similar to an FAQ. If you encounter a problem and need immediate help, look it up here first. There's a good chance a solution already exists.
 
-&nbsp; | &nbsp;
---- | ---
-&#9989; | To minimize your chances of issues, keep your Backup Agent updated. Many errors and issues are fixed between releases.
+To minimize your chances of issues, keep your Backup Agent updated. Many errors and issues are fixed between releases.
 
 **Issue**: My backups are getting randomly corrupted. Why?
 
