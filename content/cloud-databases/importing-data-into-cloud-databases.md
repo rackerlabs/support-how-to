@@ -16,7 +16,7 @@ Percona, or MariaDB database into a Cloud Database. If you haven't
 already created a Cloud Database instance and an empty database to
 receive the imported data, you will need to do that first. There are a
 number of ways to import data to a MySQL database, but the recommended
-process for cloud databases is outlined below.
+process for cloud databases is outlined below. However, for imports of very large data sets or imports to mission critical database instances, we recommend utilizing the Cloud Databases support team, which is included in the cost of the Database, to plan and determine the best course of action for your particular database. 
 
 You can import from databases on Rackspace's public cloud, on another
 cloud, or in your own datacenter. If the data is being imported from a
