@@ -40,6 +40,7 @@ appropriate values for your system:
 -   $username
 -   $password
 
+
 ```
 <?php
 require_once "Mail.php";
@@ -85,6 +86,7 @@ appropriate values for your system:
 -   $password
 -   $port
 
+
 ```
 <?php
 require_once "Mail.php";
@@ -118,6 +120,7 @@ if (PEAR::isError($mail)) {
 }
 ?>
 ```
+
 **Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it here works by default.
 
 ### Related article
