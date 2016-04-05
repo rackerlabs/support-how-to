@@ -65,8 +65,6 @@ You can create a cluster through the Cloud Control Panel as follows:
     Gateway node's PublicNet IP address, using the username and ssh key
     that you provided at cluster creation.
 
-    <img src="{% asset_path cloud-big-data/deploying-rackspace-cloud-big-data/logintoYourCluster_0.png %}" width="369" height="385" />
-
 ###  Choosing a Stack
 
 The various predefined stacks comprise of different services. It is best
