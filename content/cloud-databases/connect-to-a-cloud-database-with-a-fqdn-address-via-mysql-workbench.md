@@ -22,16 +22,13 @@ Workbench.
     The following platforms are supported: Windows, Fedora, Ubuntu,
     Oracle and Redhat, and Mac OS X. Registration is required before
     you download.
+
 2.  Launch MySQL Workbench, and select the **New Server Instance**
     option under **Server Administration**.
-
-    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/1.png %}" width="893" height="583" />
 
 3.  In the next screen, select the **Remote Host** option and enter the
     URL that was returned to you when you created the database instance
     and click **Continue**.
-
-    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/2.png %}" width="896" height="138" />
 
 4.  On the next screen, from the **Connection Method** menu, select
     **Standard TCP/IP over SSH**.
@@ -51,8 +48,6 @@ Workbench.
 8.  For **Username**, enter the username that was created when you
     created  the database instance.
 
-    <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/3.png %}" width="870" height="690" />
-
 9.  Click **Continue**.
     You are prompted for the database instance password. If everything
     is correct, the following information is displayed:
@@ -60,11 +55,8 @@ Workbench.
     <img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/4.png %}" width="861" height="612" />
 
 
-After the database connection is tested, the following screen is
+After the database connection is tested, the Server Administration screen is
 displayed. You can now work with your database instance.
-
-<img src="{% asset_path cloud-databases/connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/5.png %}" width="586" height="446" />
-
 
 **Note:** If you did not save your password, when you perform any actions,
 you will be prompted for the password to either the instance or the
