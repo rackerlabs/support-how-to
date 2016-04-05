@@ -40,36 +40,35 @@ appropriate values for your system:
 -   $username
 -   $password
 
-```
-<?php
-require_once "Mail.php";
 
-$from = "Web Master <webmaster@example.com>";
-$to = "Nobody <nobody@example.com>";
-$subject = "Test email using PHP SMTP\r\n\r\n";
-$body = "This is a test email message";
+    <?php
+    require_once "Mail.php";
 
-$host = "SMTPhostname";
-$username = "webmaster@example.com";
-$password = "yourPassword";
-$headers = array ('From' => $from,
-  'To' => $to,
-  'Subject' => $subject);
-$smtp = Mail::factory('smtp',
-  array ('host' => $host,
-    'auth' => true,
-    'username' => $username,
-    'password' => $password));
+    $from = "Web Master <webmaster@example.com>";
+    $to = "Nobody <nobody@example.com>";
+    $subject = "Test email using PHP SMTP\r\n\r\n";
+    $body = "This is a test email message";
 
-$mail = $smtp->send($to, $headers, $body);
+    $host = "SMTPhostname";
+    $username = "webmaster@example.com";
+    $password = "yourPassword";
+    $headers = array ('From' => $from,
+      'To' => $to,
+      'Subject' => $subject);
+    $smtp = Mail::factory('smtp',
+      array ('host' => $host,
+        'auth' => true,
+        'username' => $username,
+        'password' => $password));
 
-if (PEAR::isError($mail)) {
-  echo("<p>" . $mail->getMessage() . "</p>");
-} else {
-  echo("<p>Message successfully sent!</p>");
-}
-?>
-```
+    $mail = $smtp->send($to, $headers, $body);
+
+    if (PEAR::isError($mail)) {
+      echo("<p>" . $mail->getMessage() . "</p>");
+    } else {
+      echo("<p>Message successfully sent!</p>");
+    }
+    ?>
 
 ### Sending mail with PHP SMTP with SSL
 
@@ -85,39 +84,39 @@ appropriate values for your system:
 -   $password
 -   $port
 
-```
-<?php
-require_once "Mail.php";
 
-$from = "Web Master <webmaster@example.com>";
-$to = "Nobody <nobody@example.com>";
-$subject = "Test email using PHP SMTP with SSL\r\n\r\n";
-$body = "This is a test email message";
+    <?php
+    require_once "Mail.php";
 
-$host = "ssl://SMTPhostname";
-$port = "465";
-$username = "webmaster@example.com";
-$password = "yourPassword";
+    $from = "Web Master <webmaster@example.com>";
+    $to = "Nobody <nobody@example.com>";
+    $subject = "Test email using PHP SMTP with SSL\r\n\r\n";
+    $body = "This is a test email message";
 
-$headers = array ('From' => $from,
-  'To' => $to,
-  'Subject' => $subject);
-$smtp = Mail::factory('smtp',
-  array ('host' => $host,
-    'port' => $port,
-    'auth' => true,
-    'username' => $username,
-    'password' => $password));
+    $host = "ssl://SMTPhostname";
+    $port = "465";
+    $username = "webmaster@example.com";
+    $password = "yourPassword";
 
-$mail = $smtp->send($to, $headers, $body);
+    $headers = array ('From' => $from,
+      'To' => $to,
+      'Subject' => $subject);
+    $smtp = Mail::factory('smtp',
+      array ('host' => $host,
+        'port' => $port,
+        'auth' => true,
+        'username' => $username,
+        'password' => $password));
 
-if (PEAR::isError($mail)) {
-  echo("<p>" . $mail->getMessage() . "</p>");
-} else {
-  echo("<p>Message successfully sent!</p>");
-}
-?>
-```
+    $mail = $smtp->send($to, $headers, $body);
+
+    if (PEAR::isError($mail)) {
+      echo("<p>" . $mail->getMessage() . "</p>");
+    } else {
+      echo("<p>Message successfully sent!</p>");
+    }
+    ?>
+
 **Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it here works by default.
 
 ### Related article
