@@ -105,7 +105,9 @@ After performing the aforementioned steps on the **NEW** server, decide if you'd
 
 Now that the new server contains the updated Citrix Tools for Virtual Machines, and Rackspace Cloud Servers Agent - it may be close to ready for production use.
 
-Option one involves deleting the original server, and contained use of the NEW server. This option will usually be the quickest, and easiest to abide by. One notable caveat is that the IP address will be different, and there is not a way for Rackspace support to transfer the original server's IP address to the new server. This can be mitigated if Cloud Load Balancers have been in use. If a load balancer(s) was already being used, simply remove the original server (node) from the load balancer, then add the new one.
+Option one involves deleting the original server and contained using of the NEW server as your production server. This option is usually the quickest and easiest option.
+
+One notable caveat to this option is that the IP address will be different from your old production server. There is not a way for Rackspace support to transfer the old server's IP address to the new server. This can be mitigated if Cloud Load Balancers has been in use with your old server. If you were using load balancer(s) simply remove the original server (node) from the load balancer, then add the new one.
 
 Before deleting the original server, be certain ALL IMPORTANT DATA has been properly restored to the new server. This includes any data that may reside on an ephemeral disk drive which is not included in the image of the original server. If you are not sure what an ephemeral drive is, see here. If you are still uncertain, please contact Rackspace support for further guidance.
 
