@@ -32,14 +32,15 @@ server information in the Mailgun control panel.
 For the following variables, replace the example values with the
 appropriate values for your system:
 
--   $from
--   $to
--   $subject
--   $body
--   $host
--   $username
--   $password
+-  $from
+-  $to
+-  $subject
+-  $body
+-  $host
+-  $username
+-  $password  
 
+Following is a sample PHP script to send email via standard SMTP:
 
     <?php
     require_once "Mail.php";
@@ -85,6 +86,7 @@ appropriate values for your system:
 -   $password
 -   $port
 
+Following is a sample PHP script to send email via SMTP with SSL:
 
     <?php
     require_once "Mail.php";
