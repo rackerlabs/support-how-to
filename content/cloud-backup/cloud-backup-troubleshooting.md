@@ -23,12 +23,12 @@ information in this article will help you troubleshoot.
 Descriptions for each of the backup statues follow along with tips for
 why you might receive each status and what action you might take.
 
-#### "Skipped"
+#### Skipped
 
 The backup job was skipped because a backup job was already queued. A
 single backup job can be queued only once.
 
-A backup status of Skipped likely occurs because the frequency of the
+A backup status of `Skipped` likely occurs because the frequency of the
 backup job is set too high (for example, hourly) and a single backup
 takes too long (longer than an hour). The backup scheduler will start to
 skip backups that it cannot meet.
