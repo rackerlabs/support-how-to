@@ -5,41 +5,25 @@ title: Cloud Backup troubleshooting
 type: article
 created_date: '2015-06-29'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Margaret Eker
+last_modified_date: '2016-04-05'
+last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
 ### Previous section
 
-[Rackspace Cloud Backup -
-Preferences](/how-to/rackspace-cloud-backup-preferences-0)
+[Rackspace Cloud Backup - Preferences](/how-to/rackspace-cloud-backup-preferences)
 
 If you encounter issues when working with Cloud Backup, use the
 information in this article will help you troubleshoot.
 
--   [Backup statuses](#Backup%20statuses)
--   [Connection errors - DriveClient fails to start, or DriveClient does
-    not stay
-    running](#Connection%20errors%20-%20DriveClient%20fails%20to%20start,%20or%20DriveClient%20does%20not%20stay%20running)
--   [Backup agent logs - Where they are located, and how to read
-    them](#Backup%20agent%20logs%20-%20Where%20they%20are%20located,%20and%20how%20to%20read%20them)
--   [Recovery of your encrypted vault
-    password](#Recovery%20of%20your%20encrypted%20vault%20password)
--   [Unable to backup or restore files
-    (Windows only)](#Unable%20to%20backup%20or%20restore%20files%20(Windows%20only))
--   [System resource utilization](#System%20resource%20utilization)
--   [Other errors and problems](#Other%20errors%20and%20problems)
-
-
-Backup statuses
--------------------
+### Backup statuses
 
 Descriptions for each of the backup statues follow along with tips for
 why you might receive each status and what action you might take.
 
-### Backup status "Skipped"
+#### "Skipped"
 
 The backup job was skipped because a backup job was already queued. A
 single backup job can be queued only once.
