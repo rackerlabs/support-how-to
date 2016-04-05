@@ -32,45 +32,45 @@ server information in the Mailgun control panel.
 For the following variables, replace the example values with the
 appropriate values for your system:
 
--   $from
--   $to
--   $subject
--   $body
--   $host
--   $username
--   $password
+-  $from
+-  $to
+-  $subject
+-  $body
+-  $host
+-  $username
+-  $password  
 
+Following is a sample PHP script to send email via standard SMTP:
 
-```
-<?php
-require_once "Mail.php";
+    <?php
+    require_once "Mail.php";
 
-$from = "Web Master <webmaster@example.com>";
-$to = "Nobody <nobody@example.com>";
-$subject = "Test email using PHP SMTP\r\n\r\n";
-$body = "This is a test email message";
+    $from = "Web Master <webmaster@example.com>";
+    $to = "Nobody <nobody@example.com>";
+    $subject = "Test email using PHP SMTP\r\n\r\n";
+    $body = "This is a test email message";
 
-$host = "SMTPhostname";
-$username = "webmaster@example.com";
-$password = "yourPassword";
-$headers = array ('From' => $from,
-  'To' => $to,
-  'Subject' => $subject);
-$smtp = Mail::factory('smtp',
-  array ('host' => $host,
-    'auth' => true,
-    'username' => $username,
-    'password' => $password));
+    $host = "SMTPhostname";
+    $username = "webmaster@example.com";
+    $password = "yourPassword";
+    $headers = array ('From' => $from,
+      'To' => $to,
+      'Subject' => $subject);
+    $smtp = Mail::factory('smtp',
+      array ('host' => $host,
+        'auth' => true,
+        'username' => $username,
+        'password' => $password));
 
-$mail = $smtp->send($to, $headers, $body);
+    $mail = $smtp->send($to, $headers, $body);
 
-if (PEAR::isError($mail)) {
-  echo("<p>" . $mail->getMessage() . "</p>");
-} else {
-  echo("<p>Message successfully sent!</p>");
-}
-?>
-```
+    if (PEAR::isError($mail)) {
+      echo("<p>" . $mail->getMessage() . "</p>");
+    } else {
+      echo("<p>Message successfully sent!</p>");
+    }
+    ?>
+
 
 ### Sending mail with PHP SMTP with SSL
 
@@ -86,40 +86,40 @@ appropriate values for your system:
 -   $password
 -   $port
 
+Following is a sample PHP script to send email via SMTP with SSL:
 
-```
-<?php
-require_once "Mail.php";
+    <?php
+    require_once "Mail.php";
 
-$from = "Web Master <webmaster@example.com>";
-$to = "Nobody <nobody@example.com>";
-$subject = "Test email using PHP SMTP with SSL\r\n\r\n";
-$body = "This is a test email message";
+    $from = "Web Master <webmaster@example.com>";
+    $to = "Nobody <nobody@example.com>";
+    $subject = "Test email using PHP SMTP with SSL\r\n\r\n";
+    $body = "This is a test email message";
 
-$host = "ssl://SMTPhostname";
-$port = "465";
-$username = "webmaster@example.com";
-$password = "yourPassword";
+    $host = "ssl://SMTPhostname";
+    $port = "465";
+    $username = "webmaster@example.com";
+    $password = "yourPassword";
 
-$headers = array ('From' => $from,
-  'To' => $to,
-  'Subject' => $subject);
-$smtp = Mail::factory('smtp',
-  array ('host' => $host,
-    'port' => $port,
-    'auth' => true,
-    'username' => $username,
-    'password' => $password));
+    $headers = array ('From' => $from,
+      'To' => $to,
+      'Subject' => $subject);
+    $smtp = Mail::factory('smtp',
+      array ('host' => $host,
+        'port' => $port,
+        'auth' => true,
+        'username' => $username,
+        'password' => $password));
 
-$mail = $smtp->send($to, $headers, $body);
+    $mail = $smtp->send($to, $headers, $body);
 
-if (PEAR::isError($mail)) {
-  echo("<p>" . $mail->getMessage() . "</p>");
-} else {
-  echo("<p>Message successfully sent!</p>");
-}
-?>
-```
+    if (PEAR::isError($mail)) {
+      echo("<p>" . $mail->getMessage() . "</p>");
+    } else {
+      echo("<p>Message successfully sent!</p>");
+    }
+    ?>
+
 
 **Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it here works by default.
 
