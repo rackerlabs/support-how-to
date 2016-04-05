@@ -15,7 +15,7 @@ Citrix tools are fundamental to the proper operation of virtualized cloud server
 
 This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **ONLY** during Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
 
-**Warning:** Performing the following steps will incur network downtown. There, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server.
+**Warning:** Performing the steps in this article will incur network downtown. There, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server.
 
 ### Prerequisites
 
