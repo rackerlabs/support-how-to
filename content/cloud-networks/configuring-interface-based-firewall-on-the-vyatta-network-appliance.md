@@ -100,7 +100,7 @@ interface of the Vyatta system. This rule set performs the following actions:
 
 1. Log in to the Vyatta Appliance by using ssh:
 
-       $ ssh vyatta@X.X.X.X
+     $ ssh vyatta@X.X.X.X
 
    X.X.X.X is the IP address of the Vyatta appliance.
 
@@ -110,29 +110,29 @@ interface of the Vyatta system. This rule set performs the following actions:
 
 2. Enter configuration mode:
 
-      $ vyatta@vyatta: configure
-      $ [edit]
-      $ vyatta@vyatta#
+    $ vyatta@vyatta: configure
+    $ [edit]
+    $ vyatta@vyatta#
 
    The \# symbol indicates indicated in configuration mode.
 
 3. Make the firewall stateful (global configuration):
 
-      # set firewall state-policy established action 'accept'
-      # set firewall state-policy related action 'accept'
+    # set firewall state-policy established action 'accept'
+    # set firewall state-policy related action 'accept'
 
 4. Set the recommended global rules that will apply to all firewall protected interfaces. Anything global can be changed within the interface-specific firewall rule.
 
-      # set firewall all-ping 'enable'
-      # set firewall broadcast-ping 'disable'
-      # set firewall ipv6-receive-redirects 'disable'
-      # set firewall ipv6-src-route 'disable'
-      # set firewall ip-src-route 'disable'
-      # set firewall log-martians 'enable'
-      # set firewall receive-redirects 'disable'
-      # set firewall send-redirects 'enable'
-      # set firewall source-validation 'disable'
-      # set firewall syn-cookies 'enable'
+    # set firewall all-ping 'enable'
+    # set firewall broadcast-ping 'disable'
+    # set firewall ipv6-receive-redirects 'disable'
+    # set firewall ipv6-src-route 'disable'
+    # set firewall ip-src-route 'disable'
+    # set firewall log-martians 'enable'
+    # set firewall receive-redirects 'disable'
+    # set firewall send-redirects 'enable'
+    # set firewall source-validation 'disable'
+    # set firewall syn-cookies 'enable'
 
 5. Start configuring firewall configuration for Public interface.
 
@@ -174,9 +174,9 @@ interface of the Vyatta system. This rule set performs the following actions:
 
 11. Allow all other SSH:
 
-      set rule 310 action 'accept'
-      set rule 310 destination port '22'
-      set rule 310 protocol 'tcp'
+      # set rule 310 action 'accept'
+      # set rule 310 destination port '22'
+      # set rule 310 protocol 'tcp'
 
 12. Allow icmp
 
