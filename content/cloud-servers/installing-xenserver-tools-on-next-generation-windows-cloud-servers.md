@@ -41,7 +41,7 @@ Note that the upgrade requires a reboot of your instance to complete the process
     
 2. Extract the XenServer Tools zip file to a directory of your choosing.
 
-3. Navigate to the software directory and run the **xensetup.exe** program to launch the installer.
+3. Navigate to the software directory and run the **installwizard.msi** program to launch the installer.
 
 4. Change the target installation directory from the default (**Program Files (x86)**) to **C:\Program Files\Citrix\XenTools.** 
 
