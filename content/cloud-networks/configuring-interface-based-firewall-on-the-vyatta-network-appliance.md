@@ -100,7 +100,7 @@ interface of the Vyatta system. This rule set performs the following actions:
 
 1. Log in to the Vyatta Appliance by using ssh:
 
-     $ ssh vyatta@X.X.X.X
+        $ ssh vyatta@X.X.X.X
 
    X.X.X.X is the IP address of the Vyatta appliance.
 
@@ -110,9 +110,9 @@ interface of the Vyatta system. This rule set performs the following actions:
 
 2. Enter configuration mode:
 
-    $ vyatta@vyatta: configure
-    $ [edit]
-    $ vyatta@vyatta#
+        $ vyatta@vyatta: configure
+        $ [edit]
+        $ vyatta@vyatta#
 
    The \# symbol indicates indicated in configuration mode.
 
