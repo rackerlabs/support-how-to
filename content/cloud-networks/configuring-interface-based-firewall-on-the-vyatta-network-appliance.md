@@ -1,17 +1,15 @@
 ---
 permalink: configuring-interface-based-firewall-on-the-vyatta-network-appliance/
 node_id: 3370
-title: Configuring Interface Based Firewall on the Vyatta Network Appliance
+title: Configuring and interface-based firewall on the Vyatta network appliance
 type: article
 created_date: '2013-03-26'
 created_by: Sameer Satyam
-last_modified_date: '2015-09-29'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2015-04-16'
+last_modified_by: Nate Archer
 product: Cloud Networks
 product_url: cloud-networks
 ---
-
-### Introduction
 
 The Vyatta network appliance can be used as a firewall to protect
 Rackspace Cloud Server instances.
