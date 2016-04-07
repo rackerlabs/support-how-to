@@ -34,13 +34,13 @@ be restarted before accepting SSL connections.
 
 Download the appropriate SSL certificate, based on when the Cloud Databases instance was created
 
--   For instances created before March 1, 2016 [Download the SSL
+-   For instances created before March 1, 2016, [download the SSL
 certificate](http://ssl.rackspaceclouddb.com/ca-cert.pem) from the
 following URL:
 
     `http://ssl.rackspaceclouddb.com/ca-cert.pem`
     
--   For instances created on or after March 1, 2016 [Download the SSL
+-   For instances created on or after March 1, 2016, [download the SSL
 certificate](http://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem) from the
 following URL:
 
