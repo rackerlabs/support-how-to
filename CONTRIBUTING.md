@@ -6,7 +6,7 @@ Content is grouped into one directory per product. Each directory contains one f
 
 ### Getting started with GitHub
 
-To contribute you to How-To repository, you need a GitHub account. If you do not have a GitHub account, you can sign up for one [https://github.com/join](https://github.com/join).
+To contribute to the How-To repository, you need a GitHub account. If you do not have a GitHub account, you can sign up for one [https://github.com/join](https://github.com/join).
 
 #### Create a fork of this repository
 
