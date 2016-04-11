@@ -199,7 +199,7 @@ The backup statuses are defined below:
     run, but it needs to be investigated.
 -   **Failed:** A serious problem occurred, and the backup job did not run.
 
-To troubleshoot these error status, see [Cloud Backup Troubleshoot](how-to/cloud-backup-troubleshooting/)
+To troubleshoot these error status, see [Cloud Backup Troubleshoot](/how-to/cloud-backup-troubleshooting/)
 
 ### Uninstall Cloud Backup agent on Windows
 
