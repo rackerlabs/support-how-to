@@ -104,7 +104,7 @@ You have several options for a manual migration, including Rackspace Cloud Backu
 
 #### Cloud Backup
 
-To use [Cloud Backup](/how-to/rackspace-cloud-backup-overview) to migrate particular directories, create a backup of your data from the origin server and then restore it to the destination server.
+To use [Cloud Backup](/how-to/cloud-backup) to migrate particular directories, create a backup of your data from the origin server and then restore it to the destination server.
 
 #### Cloud Block Storage
 

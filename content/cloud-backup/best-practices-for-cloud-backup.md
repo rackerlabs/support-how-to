@@ -5,13 +5,42 @@ title: Best practices for Cloud Backup
 type: article
 created_date: '2013-04-22'
 created_by: David Hendler
-last_modified_date: '2016-04-04'
+last_modified_date: '2016-04-11'
 last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
 This article shows you how to get the most out of Rackspace Cloud Backup and addresses frequently encountered scenarios. Working through this article, you will better understand the key backup concepts, how to make smart choices about what to back up (and how often), how to make the most of data restoration, and how to resolve the most commonly encountered Cloud Backup issues.
+
+**Note:** Cloud Backup works only on Rackspace Cloud Servers.
+
+**Warning:** Cloud Backup does *not* follow symlinks. If you want to back up files or folders, do not use a symlink.
+
+Following are the key features of Cloud Backup:
+
+-   Select the files and folders from your cloud server that you want to
+    back up
+-   Run your backups manually or on a schedule that works for you
+-   See the activity from all your backups, both current and previous
+-   Use AES-256 encryption with a private encryption key known only to
+    you
+-   Restore individual files and folders from a particular date
+-   Save space with incremental backups that save only the changed
+    portions of files
+-   Create unlimited backups
+
+Cloud Backup does not take snapshots of your server. To read more about
+how Cloud Backup differs from snapshots, see [Rackspace Cloud Backup vs. Cloud Server Image Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups "Rackspace Cloud Backup vs. Cloud Server Image Backups") or [Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
+for backup consideration on your General Purpose server.
+
+As a best practice for web servers and database servers, we recommend
+using Cloud Backup on the following directories:
+
+-   Web applications under `/var/www`
+-   Database dumps under `/var/lib/mysqlbackup`
+-   User data under `/home`
+-   Systems configuration files under `/etc`
 
 ### Key concepts
 
@@ -103,28 +132,28 @@ Encryption is important for keeping your data confidential. However, encryption 
 
 ### Frequently encountered issues
 
-This section is similar to an FAQ. If you encounter a problem and need immediate help, look it up here first. There's a good chance a solution already exists.
-
 To minimize your chances of issues, keep your Backup Agent updated. Many errors and issues are fixed between releases.
 
-**Issue**: My backups are getting randomly corrupted. Why?
+- **Issue**: My backups are getting randomly corrupted. Why?
 
-- Does your server have a backup agent and did you clone it to create a new backup system? This means that two backup agents exist with the same credentials writing to the same Vault.
+  Does your server have a backup agent and did you clone it to create a new backup system? This means that two backup agents exist with the same credentials writing to the same Vault.
 
-**Solution**: Ensure the agent on the cloned backup server is re-registered before any backups are run.
+  Ensure the agent on the cloned backup server is re-registered before any backups are run.
 
-**Issue**: My backup is experiencing network errors.
+- **Issue**: My backup is experiencing network errors.
 
-**Solution**: Make sure that your backup server has a connection to both Service Net and public net. If it is on an isolated network, the backup agent will not be able to function properly.
+  Make sure that your backup server has a connection to both Service Net and public net. If it is on an isolated network, the backup agent will not be able to function properly.
 
-**Issue**: Sometimes, my backups fail.
+- **Issue**: Sometimes, my backups fail.
 
-- This is most commonly caused by either a failure to communicate with Cloud Files, running out of disk space, or a failure to communicate with Cloud Backup.
-- Sometimes, the agent may fail to backup a particular file because of a permissions error. Either the file is in use when the agent attempts to save it or the file in question cannot be read by the agent. Consider permissions when hunting for the root cause of a backup failure.
+  This is most commonly caused by either a failure to communicate with Cloud Files, running out of disk space, or a failure to communicate with Cloud Backup.
 
-**Solution**: Ensure you're running the latest agent release. Then, attempt to determine the cause of the error. Try the backup/restore again if it is an intermittent error. We're always working on making Cloud Backup more robust.
+  Sometimes, the agent may fail to backup a particular file because of a permissions error. Either the file is in use when the agent attempts to save it or the file in question cannot be read by the agent. Consider permissions when hunting for the root cause of a backup failure.
 
-**Issue**: My backup/restore is slow. What can I do?
+  Ensure you're running the latest agent release. Then, attempt to determine the cause of the error. Try the backup/restore again if it is an intermittent error. We're always working on making Cloud Backup more robust.
 
-- If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, "What Should I Not Save?". The less there is to save/restore, the faster it will be.
-- We're always working on optimizing the agent to make backup and restore faster.
+- **Issue**: My backup/restore is slow. What can I do?
+
+  If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, "What Should I Not Save?". The less there is to save/restore, the faster it will be.
+
+  We're always working on optimizing the agent to make backup and restore faster.

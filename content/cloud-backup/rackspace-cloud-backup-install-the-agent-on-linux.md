@@ -11,8 +11,6 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-**Previous section:** [Cloud Backup overview](/how-to/rackspace-cloud-backup-overview)
-
 Use the following instructions to install or update the Rackspace Cloud Backup agent on your Linux server by using the Cloud Backup updater.
 
 **Note:** If the Cloud Backup updater fails, use the instructions in

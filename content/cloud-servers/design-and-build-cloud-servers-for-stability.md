@@ -26,7 +26,7 @@ in the cloud.
 
 -   Learn more about [Cloud Monitoring](/how-to/available-checks-for-rackspace-monitoring)
     and read an [Introduction to Cloud Monitoring](https://community.rackspace.com/products/f/25/t/1892.aspx).
--   Learn more about [Cloud Backup](/how-to/rackspace-cloud-backup-overview)
+-   Learn more about [Cloud Backup](/how-to/cloud-backup)
     and read an [Introduction to Cloud Backup](https://community.rackspace.com/products/f/25/t/1887.aspx).
 
 In addition to the Rackspace Monitoring, it is also useful to look at

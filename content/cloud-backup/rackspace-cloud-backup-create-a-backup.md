@@ -18,7 +18,6 @@ backup of the data on your cloud server.
 
 **Previous sections**:
 
--   [Cloud Backup overview](/how-to/rackspace-cloud-backup-overview)
 -   [Install the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 -   [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 
