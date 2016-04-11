@@ -1,7 +1,7 @@
 ---
 permalink: what-is-an-soa-record/
 node_id: 5138
-title: What is an SOA record?
+title: DNS SOA records
 type: article
 created_date: '2016-01-19'
 created_by: Rose Contreras
@@ -11,8 +11,8 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-A Start of Authority (SOA) resource record indicates which DNS name
-server is the best source of information for the specified domain. Every
+A Start of Authority (SOA) resource record indicates which domain name
+server (DNS) is the best source of information for the specified domain. Every
 domain must have an SOA record.
 
 When you add a domain to DNS, the email address that you indicate is
