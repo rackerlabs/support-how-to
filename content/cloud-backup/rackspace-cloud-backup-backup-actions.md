@@ -6,13 +6,12 @@ created_date: '2012-08-22'
 created_by: David Hendler
 last_modified_date: '2016-01-21'
 last_modified_by: Margaret Eker
+permalink: cloud-backup-actions/
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-### Previous section
-
-[View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
+**Previous section:** [View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
 
 ### How to use backup actions
 
@@ -180,7 +179,4 @@ Confirm that you want to delete the backup.
 
 After a backup is deleted, it cannot be recovered.
 
-### Next step
-
-[Cloud Backup System
-actions](/how-to/rackspace-cloud-backup-system-actions)
+**Next step:** [Cloud Backup System actions](/how-to/rackspace-cloud-backup-system-actions)
