@@ -4,17 +4,25 @@ node_id: 268
 title: Basic Cloud Server Security
 type: article
 created_date: '2011-03-16'
-created_by: Rackspace Support
-last_modified_date: '2016-01-14'
-last_modified_by: Stephanie Fillmon
+created_by: Everett Toews
+last_modified_date: '2016-04-11'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note**: These are the basics of connecting to a Linux Cloud Server and
-setting up security.
+Run the following script when setting security for your cloud server. This script 
+is only intended to be more secure than the default configuration. No promises are 
+made about this script preventing your server from being attacked.  
+Ensure that you are writing secure application code.
 
+**Note:** This script assumes you're running it initially as root and logged in using
+a key pair. If you didn't, you'll be locked out of your VM. 
+
+<pre><code>
 {% include cloud-servers/basic-cloud-server-security/secure.sh %}
+</code></pre>
+
 
 ### Troubleshooting
 
