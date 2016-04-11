@@ -5,8 +5,8 @@ title: Cloud DNS FAQ
 type: article
 created_date: '2011-10-25'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-04-11'
+last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns
 ---
