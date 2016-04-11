@@ -1,7 +1,7 @@
 ---
 permalink: transferring-images-between-regions-of-the-rackspace-open-cloud/
 node_id: 3915
-title: Transferring images between regions of the Rackspace open cloud
+title: Transfer images between regions of the Rackspace open cloud
 type: article
 created_date: '2014-02-27'
 created_by: Cloud Images
@@ -12,7 +12,7 @@ product_url: cloud-images
 ---
 
 A common request we receive is, "Dear Rackspace, I've got a server in
-your DFW region and I want one exactly like it in SYD.  How can I make
+your DFW region, and I want one exactly like it in SYD.  How can I make
 that happen?"
 
 You can make it happen by using Cloud Images.  This article explains how
@@ -26,21 +26,19 @@ Before we get into the details, consider the following information:
     server that you want to copy (by using either the Cloud Servers API
     or the Cloud Control Panel), export the image out of the source
     region (DFW in the example in this article), import it into the
-    target region (SYD in this article), and then boot a server from the
-    imported image.
+    target region (SYD in this article), and then boot a new server in the target region 
+    from the imported image.
     -   The *source region* is the region where the server you want to
         copy is located.
     -   The *target region* is the region where you want to build a new
         server just like the one you have in the source region.
 -   Because not all images are exportable, not all images can
     be transferred. See [How can I tell if an image can
-    exported?](/how-to/cloud-images-faq)
-    in the Cloud Images FAQ for details.
+    exported?](/how-to/cloud-images-faq) in the Cloud Images FAQ for details.
 -   Cloud Images is currently accessible only through the [Cloud Images
-    v2
-    API](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/);
+    v2 API](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/);
     it's not available in the Cloud Control Panel yet.
--   Cloud Images uses only JSON; it does not use XML.
+-   Cloud Images uses only JSON. It does not use XML.
 
 ### Working in the source region
 
@@ -173,10 +171,8 @@ How exactly you accomplish this is up to you. Here are some suggestions:
         imported](/how-to/use-swiftly-to-upload-an-image)
 
 We don't recommend using the Cloud Control Panel for this operation.
- Most images are large enough you would likely have a poor user
-experience.  Feel free to record your experience with any of these tools
-in the comments section of this article so other users can benefit from
-your experience.
+Most images are large enough you would likely have a poor user
+experience.  
 
 ### Working in the target region
 
@@ -187,8 +183,7 @@ named `imported-files` in your Cloud Files account in the target region.
 After you upload the image copy to Cloud Files in the target region, you
 can import it for use with Cloud Servers.
 
-1.  Create an `import` task in the target region by using the Cloud
-    Images API.
+1.  Create an `import` task in the target region by using the Cloud Images API.
 
         OS_AUTH_TOKEN="<your auth token>"
         OS_IMAGE_URL="<cloud images baseurl in target region>"
@@ -267,6 +262,7 @@ can import it for use with Cloud Servers.
 4.  You can now create a server in the target region with the
     imported image. You can use the Cloud Servers API or the Cloud
     Control Panel for this task.
+    
 5.  To find your imported image in the image selector on the Create
     Server page of the Control Panel, click **Saved** under **Image**,
     and among the saved images, look for the images of **Deleted
