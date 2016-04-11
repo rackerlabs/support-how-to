@@ -90,7 +90,7 @@ If your upgraded server has an active connection to the internet, you can instal
 
 #### Offline installation
 
-Use the following installation instructions if your server *does not* have an active connection to the internet.
+If your server *does not* have an active connection to the internet, use the following installation instructions.
 
 1. Extract the archive named, **Rackspace-Cloud-Servers-Agent-Latest.zip**.
 
@@ -100,50 +100,52 @@ Use the following installation instructions if your server *does not* have an ac
 
 ### Decide which server to keep
 
-After performing the aforementioned steps on the **NEW** server, decide if you'd like to keep it, or abandon it. See the folllowing options that are available moving forward.
+After performing the preceding steps on the new, non-production server, decide whether to use the new server as your production server, or continue using the orginal production server from which you made the new image. This section explains your options.
 
-#### Option 1
+#### Option 1: Use the new server as the production server
 
-Now that the new server contains the updated Citrix Tools for Virtual Machines, and Rackspace Cloud Servers Agent - it may be close to ready for production use.
+Now that the new server contains the updated Citrix Tools for Virtual Machines and Rackspace Cloud Servers agent, it might be close to ready for production use.
 
-Option one involves deleting the original server and contained using of the NEW server as your production server. This option is usually the quickest and easiest option.
+You can delete the original server and continue using the new server as your production server. This option is usually the quickest and easiest option.
 
-One notable caveat to this option is that the IP address will be different from your old production server. There is not a way for Rackspace support to transfer the old server's IP address to the new server. This can be mitigated if Cloud Load Balancers has been in use with your old server. If you were using load balancer(s) simply remove the original server (node) from the load balancer, then add the new one.
+One notable caveat to this option is that the IP address on the new sever is different from the IP address of your orginal production server. The orginal server's IP address cannot be transferred to the new server.  This issue can be mitigated if Cloud Load
+Balancers has been in use with your original server. If you were using load balancers, simply remove the original server (node) from the load balancer, and then add the new one.
 
-Before deleting the original server, be certain ALL IMPORTANT DATA has been properly restored to the new server. This includes any data that may reside on an ephemeral disk drive which is not included in the image of the original server. If you are not sure what an ephemeral drive is, see here. If you are still uncertain, please contact Rackspace support for further guidance.
+Before deleting the original server, ensure that *all important data* has been properly restored to the new server. This includes any data that may reside on an ephemeral disk drive that is not included in the image of the original server. If you are not sure what an ephemeral drive is, (the Rackspace Core Infrastructure User Guide)[https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/diskconfig/]. If you are still uncertain, please contact Rackspace support for further guidance.
 
-If the original server does have ephemeral storage, there are a number of ways to migrate the data to the new server. If both servers have a service network IP you can use file sharing built into Windows. Alternatively you could use FTP, FTPS, or use our cloud backup agent for cloud servers which can be installed on both Windows, and Linux instances.
+If the original server does have ephemeral storage, you can migrate the data to the new server in a number of ways. If both servers have a service network IP address, you can use the file sharing built into Windows. Alternatively, you could use FTP, FTPS, or our Cloud Backup agent for cloud servers, which can be installed on both Windows and Linux instances.
 
-You can also transfer data between servers  by adding Cloud Block Storage to the original server. Copy the data you need to the newly created and attached volume, detach it from the original server, and then reattach the volume to the new server where the ephemeral drive had been mounted before, e.g. D:\. The following article will help you get started.
+You can also transfer data between servers by adding Cloud Block Storage to the original server. You create a volume and attach it to the original server, copy the data that you need to the volume, detach the volume from the original server, and then attach the volume to the new server where the ephemeral drive had been mounted before, for example, **D:**. The following articles can help you get started:
 
 - [Overview of Cloud Block Storage](cloud-block-storage-overview)
 - [Prepare your Cloud Block Storage Volume](prepare-your-cloud-block-storage-volume)
 - [Cloud Block Storage FAQ](cloud-block-storage-faq)
 
-If you decide to use option one, we recommend taking a final image of the server which can be used as a base image to create new servers, or to rebuild your current server.
+If you decide to use this option one, we recommend taking a final image of the server which can be used as a base image to create new servers, or to rebuild your current server.
 
 #### Option 2
 
-Perform all of the installation steps on the production server during a planned maintenance window. The server will retain its original IP address.
+You can perform all of the installation steps on the production server during a planned
+maintenance window. The server will retain its original IP address.
 
-After installing the tools on the non-production server, you should have a better understanding of how your maintenance window should be.
+After installing the Citrix Tools on the non-production server, you should have a better understanding of how your maintenance window should be.
 
-Having proper backups are recommended before starting this process a second time on the production server, preferably both an image of the server and backups of all important content on the server. While the previously built "NEW" server should still be accessible and contain a nearly identical root file system of the original server, multiple backups will allow to use the Rackspace backup agent, which can be installed on both Windows and Linux cloud servers.
+Before you start this process a second time, on the production server, we recommend that you have proper backups, preferably both an image of the server and backups of all important content on the server. Although the previously built new server should still be accessible and contain a nearly identical root file system of the original server, multiple backups allow you to use the Cloud Backup agent, which can be installed on both Windows and Linux cloud servers.
+
+You can delete your new non-production server once the maintenance window has been complete.
 
 #### Option 3
 
-**Note:** We strongly recommend having the "proper backups" as outlined in **Option 2**.
+You can rebuild the orginal production server from an image of the new server. The server retains its original IP address.
 
-Rebuild the production server from an image of the NEW server. The server retains its original IP address.
+Of all three options, this option takes the longest amount of time. The length of time depends on how large your new non-production server's virtual hard drive is.
 
-Out all three options, this option will take the longest amount of time. The length of time depends on how large your new non-production server's virtual hard drive is.
+**Warning:** If you choose this option, we recommend that you create the "proper backups" as outlined in Option 2. Rebuilding a server destroys all of the data on the original server and installs the image that you select.
 
-1. In the Cloud Control Panel, take an image of your new non-production server and wait for the image to build.
+1. In the Cloud Control Panel, create an image of your new non-production server and wait for the image to build.
 
 2. In the Cloud Control Panel, navigate to the original server's detail page.  Underneath the server's **UUID**, click **Rebuild**.
 
-3. A new window will appear on the page. Select the **Saved** tab to view your saved saved image. Select the image you created in Step 1.
-
-**Warning:** Rebuilding a server will **destroy all data** on your original server and install the image you select.
-
+3. In the popup dialog box that appears, click the **Saved** tab to view your saved saved image and then select the image you created in step 1.
+ 
 4. Click **Rebuild Server**.
