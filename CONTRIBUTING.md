@@ -43,6 +43,8 @@ Follow these steps to create a new article within a product folder of the **rack
 4. Enter header information using the format shown in the following example:
 
            ---
+           permalink: Title-of-article
+           
            title: Checking cloud status
 
            type: article
