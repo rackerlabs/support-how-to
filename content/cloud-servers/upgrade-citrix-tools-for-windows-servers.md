@@ -1,7 +1,7 @@
 ---
-permalink: upgrade-citrix-tools-for-windows-cloud-servers/
-node_id: 3406
-title: Upgrade Citrix Tools for windows cloud servers
+permalink: upgrade-citrix-xen-server-tools-for-windows-cloud-servers/
+node_id: 
+title: Upgrade Citrix (Xen Server) Tools for windows cloud servers
 type: article
 created_date: '2016-04-05'
 created_by: Luke Repko
@@ -11,15 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Citrix tools are fundamental to the proper operation of virtualized cloud servers in our cloud infrastructure. They are the underlying drivers for the virtual machine, giving it access to virtual hardware specifically networking, and block devices.
+Citrix tools are fundamental to the proper operation of virtualized cloud servers in the Rackspace cloud infrastructure. They are the underlying drivers for the virtual machine, giving it access to virtual hardware, specifically networking and block devices.
 
-This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **ONLY** during Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
+This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **only** during Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
 
-**Warning:** Performing the steps in this article will incur network downtown. There, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server.
+**Warning:** Performing the steps in this article incurs network downtown. Therefore, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server. Instead, you will create an image of the production server on which to perform the upgrade.
 
 ### Prerequisites
 
-The following should be downloaded to the *production* server before beginning this tutorial.
+Before you begin, download the following tools the *production* server before beginning this tutorial.
 
 - [Citrix Tools for Virtual Machines 6.0](http://8d268c176171c62fbd4b-7084e0c7b53cce27e6cc2142114e456e.r30.cf1.rackcdn.com/xstools-6.0.zip)
 
@@ -27,43 +27,43 @@ The following should be downloaded to the *production* server before beginning t
 
 - [Cloud Servers Agent Service](http://5ef1b700b2e853350a6a-52080ce862bc0ea8ae107677959a39ad.r97.cf2.rackcdn.com/Rackspace-Cloud-Servers-Agent-Latest.zip)
 
-### Image creation of production server
+### Create an image of the production server
 
-1. Take an image of the production server that needs the upgrades. This can take less than an hour or multiple hours depending on the size of your server's virtual hard drive. You can find more information about image processing [here](https://community.rackspace.com/products/f/25/t/3778).
+1. Create an image of the production server that needs the upgrades. This can take less than an hour or multiple hours depending on the size of your server's virtual hard drive. You can find more information about images on the  [Cloud Images FAQ](how-to/cloud-images-faq).
 
-2. Create a new server using the image you created.
+2. Create a new server by using the image that you created.
 
 3. Verify that the new server boots properly and that all data and sevices are intact.
 
-The new server you created from the image will be considered your *non-production* server. All of the following sections should be performed on this server.
-
-**Note:** You can skip the next section if you already have Citrix Tools 6.0.5837 installed.
+The new server that you created from the image is considered your *non-production* server. The actions in all of the following sections should be performed on this server.
 
 ### Upgrade to Xen Server Tools 6.0 on new non-production server
 
-**Note:** Stop/disable all non-system applications/services to all for an unimpeded installation.
+**Note:** You can skip the next section if you already have Citrix Tools 6.0.5837 installed.
 
-1. Access your server's console through the Cloud Control Panel. Find the name of your new non-production server, click the cog, then click **Console**.
+**Tip:** Stop/disable all non-system applications/services for an unimpeded installation.
 
-2. Extract the archive named **xstools-6.0.zip** to a local directory, such as C:\.
+1. Access the non-production server's console through the [Cloud Control Panel](https://mycloud.rackspace.com/). On the Servers page, click the gear icon next to the server’s name and then select **Connect Via Console**.
+
+2. Extract the archive named **xstools-6.0.zip** to a local directory, such as **C:\**.
 
    ![](upgrade-citrix-tools-for-windows-cloud-servers/extract-xen-tools.png)
 
 3. In the extracted folder, run **xensetup.exe**.
 
-4. Click **Next**, then **Install**.
+4. Click **Next**, and then **Install**.
 
-5. At the end of the installation process, select **Reboot now** then **Finish**. Your server will be rebooted.
+5. At the end of the installation process, select **Reboot now** and then **Finish**. The server will be rebooted.
 
-6. After your server has been rebooted, open **Programs and Features** to ensure Citrix Tools version 6.0.58937 is installed.
+6. After your server has rebooted, open the **Programs and Features** window to ensure that Citrix Tools version 6.0.58937 is installed.
 
-### Upgrade to Xen Server Tools on new non-production server
+### Upgrade to Xen Server Tools 6.2 on the new non-production server
 
-1. Access your server's console through the Cloud Control Panel. Find the name of your new non-production server, click the cog, then click **Console**.
+1. Access the non-production server's console through the [Cloud Control Panel](https://mycloud.rackspace.com/). On the Servers page, click the gear icon next to the server’s name and then select **Connect Via Console**.
 
-2. Extract the archive named xstools-6.2.zip to a local directory, e.g. C:\.
+2. Extract the archive named **xstools-6.2.zip** to a local directory, such as **C:\**.
 
-3. In the extracted folder, click **installwizard**.
+3. In the extracted folder, run **installwizard**.
 
 4. Follow the instructions on the wizard. We recommend using the default folder for your destination folder.
 
@@ -73,19 +73,20 @@ The new server you created from the image will be considered your *non-productio
 
 7. When prompted, click **Restart Now**. The server will automatically restart several time before the installation is complete.
 
-8. Once the installation is complete, restart your computer.
+8. After the installation is complete, restart your local computer.
 
 ### Upgrade the Rackspace Cloud Servers agent
 
+
 #### Online installation
 
-If your upgraded server has an active connection to the internet, you easily install the Rackspace Cloud Servers agent.
+If your upgraded server has an active connection to the internet, you can install the Rackspace Cloud Servers agent by using the following steps.
 
 1. Start a command prompt as an administrator.
 
 2. In the command prompt, run the following code:
 
-    powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command (New-Object Net.WebClient).DownloadFile('http://5ef1b700b2e853350a6a-52080ce862bc0ea8ae107677959a39ad.r97.cf2.rackcdn.com/Rackspace-Cloud-Servers-Agent-Installer-Latest.bat', '%tmp%\Rackspace-Cloud-Servers-Agent-Installer-Latest.bat') & %tmp%\Rackspace-Cloud-Servers-Agent-Installer-Latest.bat
+         powershell.exe -NoProfile -ExecutionPolicy unrestricted -Command (New-Object Net.WebClient).DownloadFile('http://5ef1b700b2e853350a6a-52080ce862bc0ea8ae107677959a39ad.r97.cf2.rackcdn.com/Rackspace-Cloud-Servers-Agent-Installer-Latest.bat', '%tmp%\Rackspace-Cloud-Servers-Agent-Installer-Latest.bat') & %tmp%\Rackspace-Cloud-Servers-Agent-Installer-Latest.bat
 
 #### Offline installation
 
