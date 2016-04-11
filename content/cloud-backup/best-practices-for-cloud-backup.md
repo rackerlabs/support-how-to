@@ -134,17 +134,17 @@ Encryption is important for keeping your data confidential. However, encryption 
 
 To minimize your chances of issues, keep your Backup Agent updated. Many errors and issues are fixed between releases.
 
-- **Issue**: My backups are getting randomly corrupted. Why?
+- **My backups are getting randomly corrupted. Why?**
 
   Does your server have a backup agent and did you clone it to create a new backup system? This means that two backup agents exist with the same credentials writing to the same Vault.
 
   Ensure the agent on the cloned backup server is re-registered before any backups are run.
 
-- **Issue**: My backup is experiencing network errors.
+- **My backup is experiencing network errors.**
 
   Make sure that your backup server has a connection to both Service Net and public net. If it is on an isolated network, the backup agent will not be able to function properly.
 
-- **Issue**: Sometimes, my backups fail.
+- **My backups sometimes fail.**
 
   This is most commonly caused by either a failure to communicate with Cloud Files, running out of disk space, or a failure to communicate with Cloud Backup.
 
@@ -152,7 +152,7 @@ To minimize your chances of issues, keep your Backup Agent updated. Many errors 
 
   Ensure you're running the latest agent release. Then, attempt to determine the cause of the error. Try the backup/restore again if it is an intermittent error. We're always working on making Cloud Backup more robust.
 
-- **Issue**: My backup/restore is slow. What can I do?
+- **My backup/restore is slow. What can I do?**
 
   If your backup or restore is encrypted, it will be especially slow. Encryption comes at a cost. Otherwise, look to the section above, "What Should I Not Save?". The less there is to save/restore, the faster it will be.
 
