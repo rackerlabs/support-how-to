@@ -5,8 +5,8 @@ title: Choosing DNS record types
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-04-11'
+last_modified_by: Stephanie
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -14,8 +14,6 @@ product_url: cloud-dns
 DNS uses different record types for different purposes. This
 article helps you determine which record type you should use when
 creating a DNS record in the Cloud Control Panel.
-
-### Record types
 
 #### A/AAAA
 
