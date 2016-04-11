@@ -10,7 +10,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-Rackspace [Cloud Backup](http://www.rackspace.com/cloud/backup/) is a file-based backup application that enables you to choose which files and folders to back up from your cloud server. You can choose to restore your whole system with all of its folders and files, restore individual files or folders from a given date, or restore to an entirely different server.
+This introduction is designed to get you up and running with Cloud Backup, including tips for troubleshooting, managing your configuration, systems actions, and email preferences.
 
 <hr />
 

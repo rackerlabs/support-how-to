@@ -34,7 +34,7 @@ Use the following instructions to create a new article, make edits to an existin
 
 Follow these steps to create a new article within a product folder of the **rackerlabs/rackspace-how-to** repo.
 
-1.	Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to create an article.
+1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/rackspace-how-to/tree/master/content) and click the product for which you want to create an article.
 
 2. Click **New file**.
 
@@ -43,6 +43,8 @@ Follow these steps to create a new article within a product folder of the **rack
 4. Enter header information using the format shown in the following example:
 
            ---
+           permalink: title-of-article/
+           
            title: Checking cloud status
 
            type: article
