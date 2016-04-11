@@ -5,7 +5,7 @@ title: View backup information with Cloud Backup
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
-last_modified_date: '2016-03-22'
+last_modified_date: '2016-04-11'
 last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
