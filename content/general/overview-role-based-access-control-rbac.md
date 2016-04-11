@@ -195,7 +195,7 @@ API documentation at <https://developer.rackspace.com/docs/>.
 -   [Cloud Queues](/how-to/creating-cloud-queues)
 -   [Rackspace Monitoring](/how-to/cloud-monitoring)
 -   [Rackspace Metrics](/how-to/rackspace-metrics-overview)
--   [Cloud Backup](/how-to/rackspace-cloud-backup-overview)
+-   [Cloud Backup](/how-to/cloud-backup)
 -   [Cloud Networks](/how-to/cloud-networks)
 -   [Cloud Block Storage](/how-to/cloud-block-storage-overview)
 -   [Auto Scale](/how-to/rackspace-auto-scale)

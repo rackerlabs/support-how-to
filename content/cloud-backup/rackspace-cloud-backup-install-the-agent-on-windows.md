@@ -5,45 +5,25 @@ title: Install the Cloud Backup agent on Windows
 type: article
 created_date: '2014-05-01'
 created_by: Megan Meza
-last_modified_date: '2016-01-15'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-04-11'
+last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-### Previous section
+This article describes how to install the Rackspace Cloud Backup agent on your Windows server. If you are using a Linux server, see [Install the Cloud Backup Agent (Linux)](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
 
-[Cloud Backup
-Overview](/how-to/rackspace-cloud-backup-overview)
-
-The instructions in this article describe the procedure for the
-installation of the Rackspace Cloud Backup agent on your Windows server.
-If you are using a Linux server, see [Install
-the Cloud Backup Agent
-(Linux)](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
-for the parallel instructions.
-
-To update the agent, see the instructions in [Update the Rackspace Cloud
-Backup
-Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
+To update the agent, see the instructions in [Update the Rackspace Cloud Backup Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
 ### Requirements
 
-Before installing the agent on a server, a new agent installation
-disconnects any previous registrations from that server. You must do a
-backup migration in order to re-associate the backup data from a
-disconnected registration. However, the old registration with its backup
-data remains attached to the customer account until it is deleted.
+A new agent installation disconnects any previous registrations from that server. You must do a backup migration in order to re-associate the backup data from a disconnected registration. However, the old registration with its backup data remains attached to the customer account until it is deleted.
 
-**Note:** The Rackspace Cloud Backup agent requires .NET 4.0 or
-higher.
+**Note:** The Rackspace Cloud Backup agent requires .NET 4.0 or higher.
 
 ### Download the installer
 
-Determine whether your Windows server architecture is 64-bit or
-32-bit, and download the latest MSI installation file for that
-architecture
-from<http://agentrepo.drivesrvr.com/>.
+Determine whether your Windows server architecture is 64-bit or 32-bit, and download the latest MSI installation file for that architecture from<http://agentrepo.drivesrvr.com/>.
 
 -   [32-bit Windows
     .msi](http://97a6455ef60243cc8c74-57c93634a2c6eae60c16d098c741cf9b.r43.cf1.rackcdn.com/win32/driveclient-latest.msi)
@@ -55,10 +35,9 @@ from<http://agentrepo.drivesrvr.com/>.
 
 You can choose one of the following methods of installation:
 
--   [Interactive](#interactiveinstall)
--   [Silent](#silentinstall)
--   [Update](#update)
-
+-   Interactive
+-   Silent
+-   Update agent
 
 #### Interactive installation
 
@@ -73,16 +52,10 @@ You can also double-click on the MSI in order to start the interactive
 installation process. Follow the wizard instructions to complete the
 installation and configuration.
 
-<img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-1.png %}" width="338" height="266" />
-
 1.  Read and accept the terms of the End-User License Agreement.
 
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-2.png %}" width="340" height="267" />
-
-2.  Start the Client Registration process by selecting API Key or
-    Password option of registration. (For information about viewing your
-    Rackspace API key, see [View and reset your
-    API key.)](/how-to/view-and-reset-your-api-key)
+2.  Start the Client Registration process by selecting the API Key or
+    Password option. (For information about viewing your Rackspace API key, see [View and reset your API key.)](/how-to/view-and-reset-your-api-key)
 
     To use the API Key option, you must install the Cloud Backup agent
     as the administrator account of your cloud server. Attempting to use
@@ -92,50 +65,38 @@ installation and configuration.
     Enter the User ID and the API Key or Password, depending on which
     option you choose. Click **Next**.
 
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-3.png %}" width="340" height="267" />
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/api-key-or-password.png %}" width="340" height="267" />
 
-3.  Select the Datacenter and Flavor for your server. If you are not
-    sure which data center or flavor to select, accept the option that
+3.  Select the Datacenter and Flavor for your server.
+
+    If you are not sure which data center or flavor to select, accept the option that
     the installer chose for you. Doing so is almost always the correct
     action to take. An exception would be the case of an OnMetal server.
-    In this case, for instance, you would need to look up the datacenter
+    In this case, you would need to look up the datacenter
     for that server (typically IAD). Click **Next**.
 
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-5.png %}" width="340" height="267" />
-
-    The installation process will continue.
+    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/select-datacenter-flavor.png %}" width="340" height="267" />
 
 4.  Click **OK** when you see the **SUCCESS!** message.
 
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/install-6.png %}" width="337" height="266" />
-
 5.  Click **Finish** to complete the interactive installation.
 
-See [Test Windows installation or update](#testsetup) for the
-verification steps to test the installation.
-
+See [Test Windows installation or update](#testsetup) for the verification steps to test the installation.
 
 #### Silent installation
 
-See [Rackspace Cloud Backup - Install the agent on Windows by using
-silent
-installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation)
-to learn how to perform a silent installation.
+See [Rackspace Cloud Backup - Install the agent on Windows by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
 
 **Note:** The silent installation works only when you run it from the
 administrator account of the server.
 
-### Update Cloud Backup agent on Windows
+#### Update Cloud Backup agent on Windows
 
-For instructions to update the agent on Windows, see [Update the
-Rackspace Cloud Backup
-Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
+For instructions to update the agent on Windows, see [Update the Rackspace Cloud Backup Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
 ### Test the Windows installation or update
 
-If you performed the silent or interactive installation, test the
-installation. If you performed the updated installation, test the
-update.
+If you performed the silent or interactive installation, test the installation. If you performed the updated installation, test the update.
 
 Verify that installation performed the following actions:
 
@@ -173,7 +134,6 @@ Verify that installation performed the following actions:
     The parameter provided with `/type=install` should be visible in the
     `bootstrap.json` file.
 
-
 5.  Created a DriveClientSvc service:
 
         c:\>sc query DriveClient
@@ -190,9 +150,7 @@ Verify that installation performed the following actions:
 
 ### Test the Windows update
 
-Run `driveclient-setup-latest.exe` to show any updated files in
-`program files\driveclient`.
-This is the same as running the setup with no parameters.
+Run `driveclient-setup-latest.exe` to show any updated files in `program files\driveclient`. This is the same as running the setup with no parameters.
 
     c:\>dir "%programfiles%\driveclient\driveclient.exe"
     Volume in drive C is OS
@@ -218,18 +176,16 @@ installation, look at `C:\ProgramData\Driveclient\log\driveclient.log`.
 We recommend that you enable TRACE logging as part of the
 troubleshooting process. Should you need to call the Support team, TRACE
 logging will help them identify the problem. For more information about
-TRACE logging, see [Cloud Backup agent logging
-basics](/how-to/cloud-backup-agent-logging-basics).
+TRACE logging, see [Cloud Backup agent logging basics](/how-to/cloud-backup-agent-logging-basics).
 
-If the agent fails to start up, e.g., registration failure, etc., the
+If the agent fails to start up, due to registration failure, for example, the
 most effective log setting is to directly edit the `log4cxx.xml` file .
 
 A Cloud Backup connection error indicates that the agent is not running
 on your server. In this case, verify that your firewall isn't blocking
 outgoing connections on port 443.
 
-
-### Backup statuses - skipped, missed, errored, and failed
+### Backup statuses - Skipped, Missed, Errored, and Failed
 
 The backup statuses are defined below:
 
@@ -241,28 +197,7 @@ The backup statuses are defined below:
     run, but it needs to be investigated.
 -   **Failed:** A serious problem occurred, and the backup job did not run.
 
-Follow these procedures to troubleshoot the skipped, missed, errored,
-and failed statuses:
-
--   **Skipped:** This error likely occurs because the frequency of the
-    backup job is set too high. Consider reducing the frequency of the
-    job, or reducing the amount of data. If this is the initial job,
-    then the subsequent jobs might finish faster.
-
--   **Missed:** Verify that the agent is running on the server. If the agent
-    is not already running, then start it. Next, check the logs to
-    determine why the backup job failed. An agent should never go
-    offline by itself. Either a software exception occurred or the agent
-    was manually terminated.
-
--   **Errored:** Look in the logs on the server. The agent stores all the
-    logs in one location (see the following section). Review the logs
-    line by line. If you cannot determine the cause of the error, raise
-    a ticket with the SME group, and they can help you identify
-    the problem.
-
--   **Failed:** As with the Errored status, check the logs on the server. A
-    failed status is severe.
+To troubleshoot these error status, see [Cloud Backup Troubleshoot](/how-to/cloud-backup-troubleshooting/)
 
 ### Uninstall Cloud Backup agent on Windows
 
@@ -271,7 +206,6 @@ uninstall using the Windows Control Panel. However, you can also use
 msiexec from the command line.
 
     msiexec /x driveclient-1.18.007148-en-us.msi /qn /l*v %tmp%\uninstall-1.18.007148.log
-
 
 Run `%programfiles%\driveclient\uninst.exe`.
 
@@ -296,14 +230,13 @@ The following changes should occur:
         Directory of C:\ProgramData
         File Not Found
 
--   No driveclient.exe entry exists in Control Panel &gt; Programs
-    and Features.
+-   No driveclient.exe entry exists in **Control Panel > Programs
+    and Features**.
+
 -   No DriveClientSvc service is installed.
 
-    -   -   There should be no scheduled tasks to "check for driveclient
-            update."
-
-    <!-- -->
+    -   There should be no scheduled tasks to "check for driveclient
+        update."
 
         c:\>sc query driveclientsvc
         [SC] EnumQueryServicesStatus:OpenService FAILED 1060:
@@ -311,13 +244,12 @@ The following changes should occur:
 
 ### Uninstall the agent from older versions of Windows
 
-**Note**: Complete the following steps **ONLY** if unistalling the agent
+**Note**: Complete the following steps **ONLY** if uninstalling the agent
 from Window's agent version 1.18 or lower. You can check your agent
 version by logging into your Cloud Control Panel, clicking on the
 "Backup" tab, and selecting your backup system. The version number is
 listed under *System Details.* If your version is higher than 1.18, see
-the previous section, [Uninstall Cloud Backup Agent on
-Windows](#uninstallwindows) for your uninstall.
+the previous section for instructions on how to uninstall.
 
 To proceed for versions 1.18 or lower, run
 `%programfiles%\driveclient\uninst.exe`.
@@ -326,8 +258,6 @@ The following changes should occur:
 
 -   The path `%programfiles%\driveclient` contains a single file:
     install.log
-
-<!-- -->
 
     c:\>dir %programfiles%\driveclient /a-d
      Volume in drive C is OS
@@ -339,8 +269,6 @@ The following changes should occur:
 
 -   The %programdata%\\driveclient path does not exist.
 
-<!-- -->
-
     c:\>dir "%programdata%\driveclient"
      Volume in drive C is OS
      Volume Serial Number is EE4C-78FC
@@ -349,9 +277,11 @@ The following changes should occur:
 
     File Not Found
 
--   No driveclient.exe entry exists in Control Panel &gt; Programs
-    and Features.
+-   No driveclient.exe entry exists in **Control Panel > Programs
+    and Features**.
+
 -   No DriveClientSvc service is installed.
+
 -   There should be no scheduled tasks to "check for
     driveclient update".
 
@@ -360,7 +290,4 @@ The following changes should occur:
 
         The specified service does not exist as an installed service.
 
-### Next steps
-
-[Create a
-backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
+**Next steps:** [Create a backup](/how-to/rackspace-cloud-backup-create-a-backup-0)

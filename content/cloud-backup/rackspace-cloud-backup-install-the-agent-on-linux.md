@@ -5,13 +5,11 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2016-02-10'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-04-11'
+last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
-
-**Previous section:** [Cloud Backup overview](/how-to/rackspace-cloud-backup-overview)
 
 Use the following instructions to install or update the Rackspace Cloud Backup agent on your Linux server by using the Cloud Backup updater.
 
@@ -29,18 +27,15 @@ To see if your server already has the Cloud Backup agent installed, run the foll
 
     sudo cloudbackup-updater -v
 
-If the command runs without an error, the agent is already installed
-(this should be the case for servers with a Managed Operations service
-level). If you get a message that the command can't be found, you must install the agent.
+If the command runs without an error, the agent is already installed. This should be the case for servers with a Managed Operations service level. If you get a message that the command can't be found, you must install the agent.
 
-If the Cloud Backup agent is not installed, proceed with the
-instructions in this article for your Linux distribution.
+If the Cloud Backup agent is not installed, proceed with the instructions in this article for your Linux distribution.
 
 **Note**: Installation of all the Linux backup agents requires a reboot. However, updating the agent does not require a reboot.
 
 ### Install the agent on APT-based systems, such as Ubuntu and Debian
 
-1. Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
+1.  Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
 
 2.  Update the apt repository information.
 
@@ -93,11 +88,8 @@ instructions in this article for your Linux distribution.
 
     **Note**: If you use any flavor other than `raxcloudserver`, the agent
     is shown as not installed in the **Backups** section at the bottom
-    of the **Cloud Servers Details** page in the Cloud Control Panel, as
-    shown in the following screenshot. However, items do appear as they should on the
+    of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the
     **Backup** tab in the Cloud Control Panel.
-
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-linux/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png %}" width="567" height="92" />
 
 8. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 
@@ -107,7 +99,7 @@ instructions in this article for your Linux distribution.
 
 ### Install the agent on RPM-based systems, such as CentOS, Fedora, and Red Hat
 
-1. Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
+1.  Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
 
 2.  Download and install the auto-updater.
 
@@ -136,9 +128,7 @@ instructions in this article for your Linux distribution.
     - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`. Typically it is `raxcloudserver`.
     - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel, as shown in the following screenshot. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
-
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-linux/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png %}" width="567" height="92" />
+    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
 
 4.  Start the agent.
 
@@ -183,11 +173,10 @@ tarball instructions instead.
     - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`. Typically it is `raxcloudserver`.
     - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel, as shown in the following screenshot. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
-
-    <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-linux/Screen%20Shot%202015-10-15%20at%203.38.07%20PM.png %}" width="567" height="92" />
+    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
 
 6. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
+
 7.  Start the agent.
 
         sudo /usr/local/bin/driveclient --daemon
@@ -253,6 +242,7 @@ Run the following command:
     sudo yum remove cloudbackup-updater driveclient
 
 #### Ubuntu
+
 Run the following command:
 
     sudo apt-get remove cloudbackup-updater driveclient
@@ -274,6 +264,4 @@ following commands to uninstall the agent.
 3. If the `init` script for the `driveclient` was added for this
 installation, remove that as well.
 
-### Next step
-
-[Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)
+**Next step:** [Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)
