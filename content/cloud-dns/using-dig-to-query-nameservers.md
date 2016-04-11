@@ -1,7 +1,7 @@
 ---
 permalink: using-dig-to-query-nameservers/
 node_id: 3486
-title: Using dig to query nameservers
+title: Use dig to query nameservers
 type: article
 created_date: '2013-05-28'
 created_by: Jered Heeschen
@@ -35,7 +35,7 @@ from your domain registrar, but usually not more than 24 hours.
 
 If you're unsure of your current name servers, a WHOIS search can help
 you determine which name servers are currently assigned to your domain
-name. Whenever you change your hosting service provider, the name server
+name. If you change your hosting service provider, the name server
 information for your domain must be updated to reflect that your site is
 now being served by a different IP address.
 
@@ -51,7 +51,7 @@ what we've done so far demonstrates techniques for testing DNS set up
 for your cloud server's cloud files before you go live or before you
 transfer DNS from a previous hosting provider to the server.
 
-Once you are happy with the results from the previous tests, it should
+When you are happy with the results from the previous tests, it should
 be safe to change the authoritative DNS servers for your domain to your
 server's DNS servers:
 
@@ -61,8 +61,8 @@ server's DNS servers:
 You can set the authoritative DNS servers through your domain's
 registrar via their preferred method (with their own web-based tool or
 by contacting them directly). After the changes have been submitted to
-the registrar the new values propagate across the Internet. In a
-(hopefully) short time the DNS records on other DNS servers will match
+the registrar, the new values propagate across the Internet. In a
+(hopefully) short time, the DNS records on other DNS servers will match
 those you configured with your cloud server's DNS tool.
 
 ### Testing authoritative nameservers
@@ -74,7 +74,7 @@ something like:
 
 This is similar to the command we issued when we were testing for a
 correct NS configuration earlier. The critical difference is that
-instead of using Rackspace's primary nameserver for our test we are
+instead of using Rackspace's primary nameserver for our test, we are
 pointing dig to a public DNS server run by Google - "8.8.8.8". We want
 to make sure we get our test results from an external server, and
 8.8.8.8 is one of a few DNS servers that have been made available to the
@@ -114,7 +114,7 @@ This is very similar to:
     dig @8.8.8.8 +short SOA domain.com | cut -d' ' -f1
 
 These two commands give you more data about the domain's refresh
-settings (for DNS cache management) while revealing whose DNS servers
+settings (for DNS cache management), while revealing whose DNS servers
 are the authorities for the domain. They can be useful for
 troubleshooting. The second command queries the "SOA" for the domain's
 zone file. SOA stands for "Start of Authority", and this record stores
@@ -164,6 +164,6 @@ server is listed on the "SERVER" line close to the end of the output.
 
 ### Summary
 
-In this article we discussed how to check the authoritative nameservers
+In this article, we discussed how to check the authoritative nameservers
 for a domain. We've also seen how we can verify record propagation by
 querying external DNS servers.
