@@ -14,7 +14,7 @@ product_url: cloud-servers
 **Note**: These are the basics of connecting to a Linux Cloud Server and
 setting up security.
 
-[](rackspace-how-to/_includes/cloud-servers/basic-cloud-server-security/secure.sh) 
+[Link to secure.sh script.](rackspace-how-to/_includes/cloud-servers/basic-cloud-server-security/secure.sh) 
 
 ### Troubleshooting
 
