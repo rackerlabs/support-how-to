@@ -13,8 +13,8 @@ product_url: cloud-servers
 
 Run the following script when setting security for your cloud server. This script 
 is only intended to be more secure than the default configuration. No promises are 
-made about this script preventing your server from being attacked.  
-Ensure that you are writing secure application code.
+made about this script preventing your server from being attacked. Ensure that you 
+are writing secure application code.
 
 **Note:** This script assumes you're running it initially as root and logged in using
 a key pair. If you didn't, you'll be locked out of your VM. 
