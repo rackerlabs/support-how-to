@@ -1,7 +1,7 @@
 ---
 permalink: pointing-domains-to-load-balancers/
 node_id: 1490
-title: Pointing Domains to Load Balancers
+title: Point Domains to Load Balancers
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
@@ -19,7 +19,7 @@ traffic flow, you can create a clone of the server and then put both
 servers behind a new load balancer. Intead of pointing your domain
 directly to the old server, you can now point it to the new load
 balancer, which will distribute the traffic evenly and prevent server
-overload. Additionally, you could also create several new domains that
+overload. Additionally, you could create several new domains that
 point to the load balancer.
 
 This article describes how to point an existing domain to a Cloud Load
