@@ -40,7 +40,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 3. Enter a name for your article in the text box at the end of the **rackspace-how-to/content/*productName*/** string. The name should be in the format **your-article-name.md** and should reflect the title of the article.
 
-4. Enter header information using the format shown in the following example:
+4. <a name="metadata"></a>Enter header information using the format shown in the following example:
 
            ---
            permalink: title-of-article/
