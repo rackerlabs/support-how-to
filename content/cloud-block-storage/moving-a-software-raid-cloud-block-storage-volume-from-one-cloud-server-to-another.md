@@ -1,7 +1,7 @@
 ---
 permalink: moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/
 node_id: 3904
-title: Move a software RAID Cloud Block Storage volume from one Cloud server to another
+title: Move a Cloud Block Storage volume between servers
 type: article
 created_date: '2014-02-14'
 created_by: Trenton Guthrie
