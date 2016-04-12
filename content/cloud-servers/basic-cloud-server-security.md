@@ -11,13 +11,13 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Run the following script when setting security for your cloud server. This script 
+Run the following script when setting security for an Ubuntu cloud server. This script 
 is only intended to be more secure than the default configuration. No promises are 
 made about this script preventing your server from being attacked. Ensure that you 
 are writing secure application code.
 
 **Note:** This script assumes you're running it initially as root and logged in using
-a key pair. If you didn't, you'll be locked out of your VM. 
+a key pair. If you didn't, you'll be locked out of your VM. For information on how to generate a public and private key pairs, see [Manage SSH Keypairs for Cloud Servers with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
 <pre><code>
 {% include cloud-servers/basic-cloud-server-security/secure.sh %}
