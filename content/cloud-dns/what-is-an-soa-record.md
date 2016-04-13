@@ -5,8 +5,8 @@ title: DNS SOA records
 type: article
 created_date: '2016-01-19'
 created_by: Rose Contreras
-last_modified_date: '2016-01-27'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-04-13'
+last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -26,6 +26,8 @@ domain is `hostmaster@rackspace.com`. You can see the SOA record for
 `rackspace.com` by running the following command:
 
     dig rackspace.com +nssearch
+
+**Note**: `dig` is used for Linux systems. If you have a Windows server, use [nslookup](/how-to/nslookup-checking-dns-records-on-windows) instead.
 
 The following information is returned:
 

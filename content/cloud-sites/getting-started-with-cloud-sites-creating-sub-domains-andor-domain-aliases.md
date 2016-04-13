@@ -102,7 +102,7 @@ easy on Cloud Sites when you follow these simple directions:
 That's all there is to it! You've now added a domain alias. The domain
 alias will now direct traffic to the domain you selected.
 
-For additional information on Rackspace Cloud DNS, see [Using Cloud DNS](/how-to/rackspace-cloud-dns).
+For additional information on Rackspace Cloud DNS, see [Rackspace Cloud DNS overview](/how-to/rackspace-cloud-dns-overview).
 
 ### Next section
 
