@@ -1,7 +1,7 @@
 ---
 permalink: setting-up-a-pub-sub-model-in-cloud-queues/
 node_id: 3656
-title: Setting Up a Pub-Sub Model in Cloud Queues
+title: Set Up a Pub-Sub Model in Cloud Queues
 type: article
 created_date: '2013-08-21'
 created_by: Megan Meza
@@ -11,7 +11,8 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-Setting up a Publisher-Subscriber model in Cloud Queues consists of posting messages to your queue and listing messages from your. 
+Setting up a Publisher-Subscriber model in Cloud Queues consists of posting messages to 
+your queue and listing messages from your. 
 
 The publisher-subscriber model has the following characteristics:
 
@@ -49,11 +50,14 @@ two within the same request.
            ]
         }
 
-In the response, you can see that the API returned two ids. You can minimize the impact of network latency on overall performance of Cloud Queues by posting messages in batches instead of posting one at a time.
+In the response, you can see that the API returned two ids. You can minimize the impact of 
+network latency on overall performance of Cloud Queues by posting messages in batches instead 
+of posting one at a time.
 
 ### Listing messages from your queue
 
-You can generate the list of messages from your queue by submitting the following API request from your terminal.
+You can generate the list of messages from your queue by submitting the following API 
+request from your terminal.
 
         $ curl -i -X GET https://$ENDPOINT:443/v1/queues -H "X-Auth-Token: $TOKEN"
 
@@ -80,7 +84,9 @@ The API response returned lists the queues in the following format:
            ]
         }
 
-To avoid getting messages the subscriber has already read, use marker semantics in your API request, for example  ``/v1/queues/{queue_name}/messages?marker=63`. (You can retrieve messages with the marker by following the URLs in the links section of the JSON response).
+To avoid getting messages the subscriber has already read, use marker semantics in your 
+API request, for example  ``/v1/queues/{queue_name}/messages?marker=63`. (You can retrieve 
+messages with the marker by following the URLs in the links section of the JSON response).
 
 **Note**: 
 For additional API documentations, see the following resources: 
