@@ -1,7 +1,7 @@
 ---
 permalink: streaming-cloud-files-with-jw-player/
 node_id: 3230
-title: Streaming Cloud Files with JW Player
+title: Stream Cloud Files with JW Player
 type: article
 created_date: '2012-12-05'
 created_by: David Hendler
@@ -11,11 +11,9 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-Cloud Files supports the JW Player for streaming video files. We also
-support
+Cloud Files supports the JW Player for streaming video files. We also support
 [FlowPlayer](/how-to/cloud-files-streaming-with-flowplayer-plugins)
-and
-[OSMF](/how-to/cloud-files-streaming-with-osmf-plugins).
+and [OSMF](/how-to/cloud-files-streaming-with-osmf-plugins).
 
 The JW Player has a commercial license, which means you must purchase it
 from Longtail video: <http://www.longtailvideo.com/order>.
