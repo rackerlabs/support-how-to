@@ -24,7 +24,3 @@ When specifying Time To Live (TTL) you should be aware of the following importan
 Generally, we recommend a TTL of 24 hours (86,400 seconds). However, if you are planning to make DNS changes, you should lower the TTL to 5 minutes (300 seconds) at least 24 hours in advance of making the changes. After the changes are made, increase the TTL back to 24 hours.
 
 **Note**: If DNS is used for failover, then you should probably keep the TTL at approximately 5 minutes all the time.
-
-### Related Information
-
-[Learn more about DNS](/how-to/learn-more-about-dns)

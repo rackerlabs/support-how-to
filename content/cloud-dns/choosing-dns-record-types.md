@@ -59,10 +59,6 @@ services, such as LDAP,  for a domain.
 Use the Text (TXT) record to store data types such as SPF or DKIM
 records.
 
-### Related information
-
-[Learn more about DNS](/how-to/learn-more-about-dns/)
-
 ### External links
 
 <http://en.wikipedia.org/wiki/List_of_DNS_record_types>

@@ -78,8 +78,6 @@ For instructions on attaching the token to your outgoing email, go to
 
 [Setting up SPF DNS TXT records](/how-to/create-an-spf-txt-record)
 
-[Learn more about DNS](/how-to/learn-more-about-dns)
-
 ### External resources
 
 [Dkim.org](http://www.dkim.org)
