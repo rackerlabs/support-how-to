@@ -5,7 +5,7 @@ title: Best practices for using TTL
 type: article
 created_date: '2012-07-23'
 created_by: Rackspace Support
-last_modified_date: '2016-04-11'
+last_modified_date: '2016-04-12'
 last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns

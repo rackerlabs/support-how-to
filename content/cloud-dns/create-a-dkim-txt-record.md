@@ -5,8 +5,8 @@ title: Create a DKIM TXT record
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-04-13'
+last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -21,11 +21,15 @@ in the "External resources" section below.
 
 The process of setting up DKIM involves several tasks:
 
-1.  Create a selector. This is a simple, user-defined text string that
-    you will associate with a public key in a later step.
+1.  Create a selector.
+
+  This is a simple, user-defined text string that you will associate with a public key in a later step.
+
 2.  Generate a public/private key pair by using a tool such
     as **ssh-keygen** on Linux or **PuTTYgen** on Windows.
+
 3.  Publish the selector and public key by creating a DNS TXT record.
+
 4.  Attach the token to each outgoing email.
 
 This article describes how to create the selector and publish the DKIM
@@ -34,8 +38,7 @@ TXT record.
 ### Create a DKIM TXT record
 
 **Note:** Before you perform this procedure, choose a text string to use
-as your selector and generate a public/private key pair. To publish the
-DKIM selector and private key
+as your selector and generate a public/private key pair.
 
 **To publish the DKIM selector and private key**:
 
