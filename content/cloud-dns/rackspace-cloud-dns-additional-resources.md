@@ -5,8 +5,8 @@ title: Rackspace Cloud DNS - Additional Resources
 type: article
 created_date: '2011-10-19'
 created_by: Rackspace Support
-last_modified_date: '2016-01-11'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-04-13'
+last_modified_by: Stephanie Fillmon 
 product: Cloud DNS
 product_url: cloud-dns
 ---
