@@ -23,12 +23,12 @@ Your registrar controls where a lookup is directed when someone tries to
 check a record related to your domain. If you want to change where your
 records are hosted, you must update the location with your registrar. To
 check where your records are currently hosted, you can check your domain
-against the **whois** database system. With **whois**, you can find out
+against the WHOIS database system. With WHOIS, you can find out
 information about the ownership of a domain.
 
 ### Checking domain registration details
 
-To check a domain with **whois**, use the `whois` command on both
+To check a domain with WHOIS, use the `whois` command on both
 Linux and Windows. The output is essentially identical on both systems.
 
 -   **On Linux,** the `whois` command should be installed by default.
@@ -38,11 +38,11 @@ Linux and Windows. The output is essentially identical on both systems.
     open the command prompt and navigate to the folder where it is
     located before running it.
 
-The formatting of the output from **whois** databases is not standardized
+The formatting of the output from WHOIS databases is not standardized
 because the information is distributed across a number of sources.
 However, the responses should contain similar information, such as
 registrar, name servers, and date registered. The following example
-shows the **whois** information for **rackspace.co.uk**:
+shows the WHOIS information for **rackspace.co.uk**:
 
     $ whois rackspace.co.uk
 
