@@ -1,7 +1,7 @@
 ---
 permalink: deploying-a-cloud-site-with-media-content-on-cloud-files/
 node_id: 230
-title: Deploying a Cloud Site with media content on Cloud Files
+title: Deploy a Cloud Site with media content on Cloud Files
 type: article
 created_date: '2011-04-04'
 created_by: Rackspace Support
