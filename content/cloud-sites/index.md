@@ -31,7 +31,7 @@ The First 48 series of resource guides covers everything you'll need to know dur
 - [Managing DNS records](/how-to/getting-started-with-cloud-sites-managing-dns-records)
 - [Using the Rackspace nameservers](/how-to/getting-started-with-cloud-sites-rackspace-nameservers-and-creating-custom-nameservers)
 - [Creating Sub-domains and/or domain aliases](/how-to/getting-started-with-cloud-sites-creating-sub-domains-andor-domain-aliases)
-- [Using Cloud DNS](/how-to/rackspace-cloud-dns)
+- [Rackspace Cloud DNS overview](/how-to/rackspace-cloud-dns-overview)
 
 ###  Managing Cloud Sites Databases
 
