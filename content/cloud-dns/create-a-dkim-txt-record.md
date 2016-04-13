@@ -21,9 +21,7 @@ in the "External resources" section below.
 
 The process of setting up DKIM involves several tasks:
 
-1.  Create a selector.
-
-  This is a simple, user-defined text string that you will associate with a public key in a later step.
+1.  Create a selector. This is a simple, user-defined text string that you will associate with a public key in a later step.
 
 2.  Generate a public/private key pair by using a tool such
     as **ssh-keygen** on Linux or **PuTTYgen** on Windows.
@@ -42,10 +40,8 @@ as your selector and generate a public/private key pair.
 
 **To publish the DKIM selector and private key**:
 
-<img src="{% asset_path cloud-dns/create-a-dkim-txt-record/Add%20DNS%20Record.png %}" alt="Add DNS Record" />
-
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
-2.  In the top navigation bar, select **Networking &gt; Cloud DNS**.
+2.  In the top navigation bar, select **Networking > Cloud DNS**.
 3.  Click the gear icon next to the name of an existing domain and
     select **Add DNS Record**.
 4.  In the popup dialog box, select **TXT Record** as the record type.
@@ -56,11 +52,9 @@ as your selector and generate a public/private key pair.
     example, if you use default as the text string and myexampledomain
     is your domain name, the selector would look as follows:
 
-   ```
         default._domainkey.myexampledomain.com
-   ```
 
-    You need to enter only the text string and **`._domainkey`** in the
+    You need to enter only the text string and `._domainkey` in the
     **Hostname** text box.
 
 6.  Expand the **Text** box by dragging the corner, than enter the
