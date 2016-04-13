@@ -140,7 +140,7 @@ and Windows provide command line tools. For Linux, `dig` is commonly used
 and for Windows, `nslookup` is the built-in command.
 
 -  [Using dig to query name servers](/how-to/using-dig-to-query-nameservers)
--  [nslookup - Checking DNS records on Windows](/how-to/nslookup-checking-dns-records-on-windows)
+-  [Check DNS records on Windows with nslookup](/how-to/nslookup-checking-dns-records-on-windows)
 
 To get an indication of how a record is cached around the world, you can
 use the third-party website <http://www.whatsmydns.net/> . You specify

@@ -1,14 +1,14 @@
 ---
 permalink: nslookup-checking-dns-records-on-windows/
 node_id: 1446
-title: Nslookup - Checking DNS Records on Windows
+title: Check DNS Records on Windows with nslookup
 type: article
 created_date: '2012-06-27'
 created_by: Rackspace Support
-last_modified_date: '2015-01-27'
-last_modified_by: Jered Heeschen
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2016-04-13'
+last_modified_by: Stephanie Fillmon
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 If you ever need to check the status of your DNS records, Windows has a
@@ -19,11 +19,11 @@ troubleshoot issues accessing a particular service.
 To access the tool you need to open up a command prompt, you should be
 able to find this under **Start > All Programs > Accessories > Command Prompt**.
 
-### Checking For a Record
+### Check for a record
 
 To check for a specific record you need to specify the record type,
-e.g. A, MX, TXT, and the host name you want to check. The following
-example shows how to check for any A records for **rackspace.co.uk**.
+for example, A, MX, or TXT, and the host name you want to check. The following
+example shows how to check for any A records for **rackspace.co.uk**:
 
     C:\Users\Administrator>nslookup -type=A rackspace.co.uk
     Server:  cachens1.lon.rackspace.com>
@@ -42,13 +42,13 @@ The answer is non-authoritative because the answer comes from a server,
 **cachens1.lon.rackspace.com** in this case, that is not the root source for
 those records.
 
-### Getting an Authoritative Answer
+### Get an authoritative answer
 
-To get an authoritative answer we need to go to the source. This can be
+To get an authoritative answer you need to go to the source. This can be
 done by specifying the authoritative name server at the end of the
 request.
 
-We can use the **-type=soa** option to tell `nslookup` to display the
+You can use the **-type=soa** option to tell `nslookup` to display the
 authoritative (primary) name server.
 
     C:\Users\Administrator>nslookup -type=soa rackspace.co.uk
@@ -70,8 +70,8 @@ authoritative (primary) name server.
 The address labeled **primary name server** is the DNS authority for the
 domain.
 
-If we add the address of the authoritative name server
-(ns.rackspace.com) to the first command, the record is now checked
+If you add the address of the authoritative name server
+(**ns.rackspace.com**) to the first command, the record is now checked
 against that name server.
 
     C:\Users\Administrator>nslookup -type=A rackspace.co.uk ns.rackspace.com
@@ -81,9 +81,9 @@ against that name server.
     Name:    rackspace.co.uk
     Address:  212.64.133.165
 
-### Checking When a Cached Record Will Expire
+### Check when a cached record will expire
 
-DNS uses caching, this reduces the load on authoritative name servers
+DNS uses caching, which reduces the load on authoritative name servers
 but means that sometimes records can be out of date. If the
 authoritative and non-authoritative answers differ, this means you will
 have a cached response from the resolver name server you are using. The
@@ -183,9 +183,3 @@ computer will keep reusing the same A record for **rackspace.co.uk** for the
 next 4 minutes and 39 seconds. If you were to run the same command on
 the authoritative name server you would see what the current maximum TTL
 for the record is.
-
-### Summary
-
-After reading this you should be able to use `nslookup` to check that a
-record exists, compare it with the authoritative record and confirm when
-the cached record will expire.
