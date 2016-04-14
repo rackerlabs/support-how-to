@@ -5,8 +5,8 @@ title: Back up data with Cloud Files
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Renee Rendon
+last_modified_date: '2016-04-14'
+last_modified_by: Stephanie Fillmon
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -60,7 +60,7 @@ steps to prepare your data:
         folder before completing the following step.
 
 6.  Individually upload the backup data files that you created in step 2
-    of [Prepare to back up](#prepare) to the container, as follows:
+    of the Prepare to back up section to the container, as follows:
 
     1.  On the Containers page, click **Upload Files**.
 
