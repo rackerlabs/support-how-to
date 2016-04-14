@@ -43,6 +43,14 @@ some of the ideal uses for Cloud Files:
 -   Storing data when predicting storage capacity is difficult
 -   Storing data for applications affordably
 
+### Benefits for using Cloud Files for backups
+
+Using Cloud Files to back up your data provides the following benefits:
+
+-   Mission-critical data is backed up safely in a
+    secure, offsite location.
+-   Disaster recovery is possible with the backed up data.
+
 ### Key concepts
 
 Cloud Files is not a file system in the traditional sense. You can't map
@@ -80,4 +88,3 @@ Ruby, and C\# .NET).
 For details about using these interfaces, see the *Cloud Files Developer
 Guide* on our [API documentation
 site](http://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
-
