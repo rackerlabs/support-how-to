@@ -107,5 +107,3 @@ Blacklists allow you block a sender's email address, domain, or IP address from 
     <img src="{% asset_path rackspace-email/spam-preferences-safe-lists-and-black-list-in-rackspace-email/SpamFiltering%20BL%20IP.png %}" width="346" height="374" />
 
 6.  Click **Save**.
-
-7.  Test.
