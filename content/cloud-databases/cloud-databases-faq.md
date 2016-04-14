@@ -5,7 +5,7 @@ title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-02-25'
+last_modified_date: '2016-04-13'
 last_modified_by: Steve Croce
 product: Cloud Databases
 product_url: cloud-databases
@@ -272,9 +272,9 @@ database size are listed in the following table:
 
 #### What is the maximum scalable capacity of a Cloud Database instance?
 
-Instances can be provisioned with up to 64GB of memory and up to 500GB
+Instances can be provisioned with up to 64GB of memory and up to 1TB
 of disk storage. You can increase storage up to the maximum using the
-[Cloud Control Panel](https://mycloud.rackspace.com/). Storage beyond 500GB is supported and can be requested via a support ticket. Note that disk
+[Cloud Control Panel](https://mycloud.rackspace.com/). Storage beyond 1TB is supported and can be requested via a support ticket. Note that disk
 storage cannot be decreased on a running instance.
 
 #### Can I set up a read-only MySQL user in Cloud Databases?
@@ -296,8 +296,8 @@ Once root is enabled, it cannot be disabled.
 
 #### What versions of MySQL do you offer?
 
-Cloud Databases supports MySQL 5.6, Percona 5.6 and MariaDB 10. For all
-newly created Cloud Database instances, MySQL 5.6 is the default. We
+Cloud Databases supports MySQL 5.6 and 5.7, Percona 5.6 and 5.7, and MariaDB 10 and 10.1. For all
+newly created Cloud Database instances, MySQL 5.7 is the default. We
 will continue to support MySQL 5.1 for legacy instances, but we
 recommend our customers use the latest version of MySQL, Percona, or
 MariaDB because they offer significant performance improvements and
@@ -457,7 +457,7 @@ You can find the latest pricing on the [Cloud Databases product page](https://ww
 
 #### Which databases are supported for HA instances for Cloud Databases?
 
-Rackspace currently supports MySQL 5.6, Percona 5.6, and MariaDB 10 for
+Rackspace currently supports MySQL 5.6 and 5.7, Percona 5.6 and 5.7, and MariaDB 10 and 10.1 for
 HA database instances.
 
 #### How many replicas can I add to the HA group?
@@ -521,7 +521,7 @@ If you're interested in auto failover, take a look at our High Availability inst
 
 #### Is replication supported for all database types?
 
-Replication is supported for MySQL 5.6, Percona 5.6, and MariaDB 10. We
+Replication is supported for MySQL 5.6 and later, Percona 5.6 and later, and MariaDB 10 and later. We
 do not support replication for MySQL 5.1 as this is an older version of
 MySQL and there have been significant improvements for replication
 support in newer versions of MySQL. We highly recommend all users to
@@ -546,3 +546,5 @@ Pricing information is available at [the Cloud Databases pricing
 page](http://www.rackspace.com/cloud/databases/pricing/). Standard
 charges apply for any Cloud Servers, Cloud Load Balancers, or Cloud
 Sites that are used to access your Cloud Database instances.
+
+Please note that Cloud Databases HA pricing is per instance. Therefore an HA group with one master and one replica counts as two instances.
