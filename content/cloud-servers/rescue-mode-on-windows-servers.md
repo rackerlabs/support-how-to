@@ -113,7 +113,7 @@ access your data.
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/ddrive.png %}" alt="" />
 
-### [Revert Windows server from "Rescue Mode" in the cloud once drive has been accessed](https://one.rackspace.com/pages/viewpage.action?pageId=163909472)
+### Revert Windows server from "Rescue Mode" in the cloud once drive has been accessed
 
 Since the cloud server's rescue mode uses the image that was initially used to create the server, the disk ID of the server and the temporary image for the rescue OS are the same. This causes a name collision when the server disk is brought online. Due to this issue the OS rewrites the ID of the disk. Once this takes place the boot loader can not longer find the boot disk. This is what causes the server crash.
 
@@ -121,7 +121,7 @@ Since the cloud server's rescue mode uses the image that was initially used to c
 
 There is currently an issue when a Windows cloud server is put into rescue mode. Once the old system drive is brought online, you will no longer be able to boot into Windows when reverting back from the rescue environment.
 
-_assets/cloud-servers/rescue-mode-on-windows-servers/çboot-fail-image.png
+[](_assets/img/cloud-servers/rescue-mode-on-windows-servers/boot-fail-message.png)
 
 This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritten and no longer matches what the server expects for the boot volume.
 
@@ -138,7 +138,7 @@ This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritt
 Sample of good BCD output:
 
 
-_assets/cloud-servers/rescue-mode-on-windows-servers/goodBCD.png
+[](_assets/img/cloud-servers/rescue-mode-on-windows-servers/goodBCD.png)
 
 4. If the objects do not point to the C drive, run the following commands:
 
@@ -164,7 +164,7 @@ If the objects all point to the C drive, only an adjustment to the drive ID of t
 
         LIST DISK
 
-_assets/cloud-servers/rescue-mode-on-windows-servers/Disklist.png
+[](_assets/img/cloud-servers/rescue-mode-on-windows-servers/Disklist.png)
 
 8. On the Disk Manager, match the disk number to the drive.
 
@@ -172,7 +172,7 @@ _assets/cloud-servers/rescue-mode-on-windows-servers/Disklist.png
 
         SELECT DISK ( the disk number that was found in diskpart and Disk Manager)
 
-_assets/cloud-servers/rescue-mode-on-windows-servers/selectDisk.png
+[](_assets/img/cloud-servers/rescue-mode-on-windows-servers/selectDisk.png)
 
 10. To get the drive ID, enter the command:
 
@@ -200,7 +200,7 @@ _assets/cloud-servers/rescue-mode-on-windows-servers/uniqueIDdisk.png
 
         UNIQUEID DISK
 
-_assets/cloud-servers/rescue-mode-on-windows-servers/uniqueIDdiskverify.png
+[](_assets/img/cloud-servers/rescue-mode-on-windows-servers/uniqueIDdiskverify.png)
 
 3. Change the D drive:
 
@@ -209,7 +209,7 @@ _assets/cloud-servers/rescue-mode-on-windows-servers/uniqueIDdiskverify.png
         UNIQUEID DISK id=(disk ID from C drive that was recorded, in the example this was 42D9DECD)
 
 4. Run the command, `UNIQUEID DISK` to verify that the ID matches what you recorded.
-_assets/cloud-servers/_assets/cloud-servers/rescue-mode-on-windows-servers/matchRecordedname.png
+[](_assets/img/cloud-servers/rescue-mode-on-windows-servers/matchRecordedname.png)
 
 **Note**: Once this is done you can take server out of rescue mode. The server should now boot up normally.
 
