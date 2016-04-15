@@ -1,7 +1,7 @@
 ---
 permalink: upgrade-citrix-xen-server-tools-for-windows-cloud-servers/
 node_id: 
-title: Upgrade Citrix (Xen Server) Tools for windows cloud servers
+title: Upgrade Citrix (Xen Server) Tools for Windows cloud servers
 type: article
 created_date: '2016-04-05'
 created_by: Luke Repko
