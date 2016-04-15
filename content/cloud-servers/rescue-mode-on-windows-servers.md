@@ -5,8 +5,8 @@ title: Rescue Mode on Windows Cloud Servers
 type: article
 created_date: '2015-09-15'
 created_by: Richard Hinojosa
-last_modified_date: '2016-01-04'
-last_modified_by: Nate Archer
+last_modified_date: '2016-04-04'
+last_modified_by: Christophe Bonard
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -113,13 +113,117 @@ access your data.
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/ddrive.png %}" alt="" />
 
-### Exiting Rescue Mode
+### [Revert Windows server from "Rescue Mode" in the cloud once drive has been accessed](https://one.rackspace.com/pages/viewpage.action?pageId=163909472)
 
-After you are done troubleshooting your system, you can exit Rescue Mode
-by clicking the button labeled **Exit Rescue Mode** in the Rackspace
-Cloud Control Panel on your Server Details page.
+- Created and last modified by [Christophe Bonard](https://one.rackspace.com/display/%7Echristophe.bonard) on [Apr 04, 2016](https://one.rackspace.com/pages/diffpagesbyversion.action?pageId=163909472&selectedPageVersions=6&selectedPageVersions=7)
 
-**Note:** Some versions of the Windows OS will modify the original disk
-signature when mounted a secondary drive. If you reboot, you'll
-probably get a `winload.exe` error or a `0xc000000e` error. This occurs
-with the BCD boot loader and not with the NTLDR loader.
+Since the cloud server's rescue mode uses the image that was initially used to create the server, the disk ID of the server and the temporary image for the rescue OS are the same. This causes a name collision when the server disk is brought online. Due to this issue the OS rewrites the ID of the disk. Once this takes place the boot loader can not longer find the boot disk. This is what causes the server crash.
+
+#### Known issue
+
+There is currently an issue when a Windows cloud server is put into rescue mode. Once the old system drive is brought online, you will no longer be able to boot into Windows when reverting back from the rescue environment.
+
+ 
+çboot-fail-image
+
+This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritten and no longer matches what the server expects for the boot volume.
+
+#### Process to resolve this
+
+1. With the server in rescue mode and the original system drive has been set online open a command line.
+**Note**: Do not use Powershell for this process, the commands will not work.
+
+2. Run the following command:
+
+    bcdedit /store d:\boot\bcd
+
+3. Review the output and make sure that the C: drive is the target for objects in the output.
+Sample of good BCD output:
+
+
+_assets/cloud-servers/godBCD
+
+4. If the objects do not point to the C drive, run the following commands:
+
+    bcdedit /store d:\boot\bcd /set {default} osdevice partition=c:
+
+    bcdedit /store d:\boot\bcd /set {default} device partition=c:
+    
+    bcdedit /store d:\boot\bcd /set {bootmgr} device partition=c:
+    
+    bcdedit /store d:\boot\bcd /set {memdiag} device partition=c:
+    
+    bcdedit /store d:\boot\bcd /set {ntldr} device partition=c:
+
+5. When complete, re-run the command to verify the the output.
+
+    bcdedit /store d:\boot\bcd
+
+If the objects all point to the C drive, only an adjustment to the drive ID of the D drive is needed.
+
+6. To adjust the drive ID for the D drive, run the disk manger from **Computer manager** and then enter `DISKPART` from command line.
+
+7. In DISKPART run the following command:
+
+    LIST DISK
+
+_assets/cloud-servers/Disklist
+
+8. On the Disk Manager, match the disk number to the drive.
+
+9. To find the disk ID of the C drive run the following command:
+
+    SELECT DISK ( the disk number that was found in diskpart and Disk Manager)
+
+_assets/cloud-servers/selectDisk
+
+10. To get the drive ID, enter the command:
+
+    UNIQUEID DISK
+
+_assets/cloud-servers/uniqueIDdisk
+
+11. Record the output.
+**Note** : This output (in hex format) will be used to setup up the D drive.
+
+ - If you forget this hex value, you can recover it by taking the server out of rescue mode and placing it back into rescue mode. If you do this, you must start over at the beginning of  these instructions.
+
+ - If this does not work, recover the value by mounting the BCE file into the registry of the rescue server. This is detailed on the link provided.
+
+
+**Note**:Once you record this ID, you must change this ID to something else to resolve a name collision.
+
+#### Change the drive ID
+
+1. To change the ID, run the following command:
+
+    UNIQUEID DISK id=00220022
+    #Example Hex, this can be any HEX as long as the length is correct
+
+2. Run the following, to verify the value has changed:
+
+    UNIQUEID DISK
+
+uniqueIDdiskverify
+
+3. Change the D drive:
+
+    SELECT DISK ( the disk number that our found in DISKPART and disk manager
+    
+    UNIQUEID DISK id=(disk ID from C drive that was recorded, in the example this was 42D9DECD)
+
+4. Run the command, `UNIQUEID DISK` to verify that the ID matches what you recorded.
+_assets/cloud-servers/gmatchRecordedname
+
+**Note**: Once this is done you can take server out of rescue mode. The server should now boot up normally.
+
+#### Tips & Warnings
+
+This process has been tested on Next Gen servers only.
+
+#### Related Links
+
+[https://blogs.technet.microsoft.com/markrussinovich/2011/11/06/fixing-disk-signature-collisions/](https://blogs.technet.microsoft.com/markrussinovich/2011/11/06/fixing-disk-signature-collisions/)
+
+
+
