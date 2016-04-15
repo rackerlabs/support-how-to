@@ -115,16 +115,13 @@ access your data.
 
 ### [Revert Windows server from "Rescue Mode" in the cloud once drive has been accessed](https://one.rackspace.com/pages/viewpage.action?pageId=163909472)
 
-- Created and last modified by [Christophe Bonard](https://one.rackspace.com/display/%7Echristophe.bonard) on [Apr 04, 2016](https://one.rackspace.com/pages/diffpagesbyversion.action?pageId=163909472&selectedPageVersions=6&selectedPageVersions=7)
-
 Since the cloud server's rescue mode uses the image that was initially used to create the server, the disk ID of the server and the temporary image for the rescue OS are the same. This causes a name collision when the server disk is brought online. Due to this issue the OS rewrites the ID of the disk. Once this takes place the boot loader can not longer find the boot disk. This is what causes the server crash.
 
 #### Known issue
 
 There is currently an issue when a Windows cloud server is put into rescue mode. Once the old system drive is brought online, you will no longer be able to boot into Windows when reverting back from the rescue environment.
 
- 
-çboot-fail-image
+_assets/cloud-servers/rescue-mode-on-windows-servers/çboot-fail-image.png
 
 This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritten and no longer matches what the server expects for the boot volume.
 
@@ -135,29 +132,29 @@ This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritt
 
 2. Run the following command:
 
-    bcdedit /store d:\boot\bcd
+        bcdedit /store d:\boot\bcd
 
 3. Review the output and make sure that the C: drive is the target for objects in the output.
 Sample of good BCD output:
 
 
-_assets/cloud-servers/godBCD
+_assets/cloud-servers/rescue-mode-on-windows-servers/goodBCD.png
 
 4. If the objects do not point to the C drive, run the following commands:
 
-    bcdedit /store d:\boot\bcd /set {default} osdevice partition=c:
-
-    bcdedit /store d:\boot\bcd /set {default} device partition=c:
-    
-    bcdedit /store d:\boot\bcd /set {bootmgr} device partition=c:
-    
-    bcdedit /store d:\boot\bcd /set {memdiag} device partition=c:
-    
-    bcdedit /store d:\boot\bcd /set {ntldr} device partition=c:
+        bcedit /store d:\boot\bcd /set {default} osdevice partition=c:
+        
+        bcdedit /store d:\boot\bcd /set {default} device partition=c:
+        
+        bcdedit /store d:\boot\bcd /set {bootmgr} device partition=c:
+        
+        bcdedit /store d:\boot\bcd /set {memdiag} device partition=c:
+        
+        bcdedit /store d:\boot\bcd /set {ntldr} device partition=c:
 
 5. When complete, re-run the command to verify the the output.
 
-    bcdedit /store d:\boot\bcd
+        bcdedit /store d:\boot\bcd
 
 If the objects all point to the C drive, only an adjustment to the drive ID of the D drive is needed.
 
@@ -165,23 +162,23 @@ If the objects all point to the C drive, only an adjustment to the drive ID of t
 
 7. In DISKPART run the following command:
 
-    LIST DISK
+        LIST DISK
 
-_assets/cloud-servers/Disklist
+_assets/cloud-servers/rescue-mode-on-windows-servers/Disklist.png
 
 8. On the Disk Manager, match the disk number to the drive.
 
 9. To find the disk ID of the C drive run the following command:
 
-    SELECT DISK ( the disk number that was found in diskpart and Disk Manager)
+        SELECT DISK ( the disk number that was found in diskpart and Disk Manager)
 
-_assets/cloud-servers/selectDisk
+_assets/cloud-servers/rescue-mode-on-windows-servers/selectDisk.png
 
 10. To get the drive ID, enter the command:
 
-    UNIQUEID DISK
+        UNIQUEID DISK
 
-_assets/cloud-servers/uniqueIDdisk
+_assets/cloud-servers/rescue-mode-on-windows-servers/uniqueIDdisk.png
 
 11. Record the output.
 **Note** : This output (in hex format) will be used to setup up the D drive.
@@ -190,30 +187,29 @@ _assets/cloud-servers/uniqueIDdisk
 
  - If this does not work, recover the value by mounting the BCE file into the registry of the rescue server. This is detailed on the link provided.
 
-
 **Note**:Once you record this ID, you must change this ID to something else to resolve a name collision.
 
 #### Change the drive ID
 
 1. To change the ID, run the following command:
 
-    UNIQUEID DISK id=00220022
-    #Example Hex, this can be any HEX as long as the length is correct
+        UNIQUEID DISK id=00220022
+        #Example Hex, this can be any HEX as long as the length is correct
 
 2. Run the following, to verify the value has changed:
 
-    UNIQUEID DISK
+        UNIQUEID DISK
 
-uniqueIDdiskverify
+_assets/cloud-servers/rescue-mode-on-windows-servers/uniqueIDdiskverify.png
 
 3. Change the D drive:
 
-    SELECT DISK ( the disk number that our found in DISKPART and disk manager
-    
-    UNIQUEID DISK id=(disk ID from C drive that was recorded, in the example this was 42D9DECD)
+        SELECT DISK ( the disk number that our found in DISKPART and disk manager
+        
+        UNIQUEID DISK id=(disk ID from C drive that was recorded, in the example this was 42D9DECD)
 
 4. Run the command, `UNIQUEID DISK` to verify that the ID matches what you recorded.
-_assets/cloud-servers/gmatchRecordedname
+_assets/cloud-servers/_assets/cloud-servers/rescue-mode-on-windows-servers/matchRecordedname.png
 
 **Note**: Once this is done you can take server out of rescue mode. The server should now boot up normally.
 
