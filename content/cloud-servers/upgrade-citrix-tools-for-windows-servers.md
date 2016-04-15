@@ -1,6 +1,6 @@
 ---
 permalink: upgrade-citrix-xen-server-tools-for-windows-cloud-servers/
-node_id: 
+node_id:
 title: Upgrade Citrix (Xen Server) Tools for Windows cloud servers
 type: article
 created_date: '2016-04-05'
@@ -13,13 +13,13 @@ product_url: cloud-servers
 
 Citrix tools are fundamental to the proper operation of virtualized cloud servers in the Rackspace cloud infrastructure. They are the underlying drivers for the virtual machine, giving it access to virtual hardware, specifically networking and block devices.
 
-This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **only** during Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
+This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **only** be touched if the Windows server is having issue during Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
 
 **Warning:** Performing the steps in this article incurs network downtown. Therefore, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server. Instead, you will create an image of the production server on which to perform the upgrade.
 
 ### Prerequisites
 
-Before you begin, download the following tools the *production* server before beginning this tutorial.
+Before you begin, download the following tools to the *production* server before beginning this tutorial.
 
 - [Citrix Tools for Virtual Machines 6.0](http://8d268c176171c62fbd4b-7084e0c7b53cce27e6cc2142114e456e.r30.cf1.rackcdn.com/xstools-6.0.zip)
 
@@ -33,7 +33,7 @@ Before you begin, download the following tools the *production* server before be
 
 2. Create a new server by using the image that you created.
 
-3. Verify that the new server boots properly and that all data and sevices are intact.
+3. Verify that the new server boots properly and that all data and services are intact.
 
 The new server that you created from the image is considered your *non-production* server. The actions in all of the following sections should be performed on this server.
 
@@ -47,7 +47,7 @@ The new server that you created from the image is considered your *non-productio
 
 2. Extract the archive named **xstools-6.0.zip** to a local directory, such as **C:\**.
 
-   ![](upgrade-citrix-tools-for-windows-cloud-servers/extract-xen-tools.png)
+   ![]({% asset path cloud-servers/upgrade-citrix-tools-for-windows-cloud-servers/extract-xen-tools.png %})
 
 3. In the extracted folder, run **xensetup.exe**.
 
@@ -77,7 +77,6 @@ The new server that you created from the image is considered your *non-productio
 
 ### Upgrade the Rackspace Cloud Servers agent
 
-
 #### Online installation
 
 If your upgraded server has an active connection to the internet, you can install the Rackspace Cloud Servers agent by using the following steps.
@@ -94,7 +93,7 @@ If your server *does not* have an active connection to the internet, use the fol
 
 1. Extract the archive named, **Rackspace-Cloud-Servers-Agent-Latest.zip**.
 
-   ![](upgrade-citrix-tools-for-windows-cloud-servers/extract-agent.png)
+   ![]({% asset path cloud-servers/upgrade-citrix-tools-for-windows-cloud-servers/extract-agent.png %})
 
 2. Inside the extracted folder, right click the **Agent-Services-Install-OR-Upgrade** batch file and choose **Run as administrator**.
 
@@ -128,7 +127,7 @@ If you decide to use this option one, we recommend taking a final image of the s
 You can perform all of the installation steps on the production server during a planned
 maintenance window. The server will retain its original IP address.
 
-After installing the Citrix Tools on the non-production server, you should have a better understanding of how your maintenance window should be.
+After installing the Citrix Tools on the non-production server, you should have a better understanding of how long your maintenance window should be.
 
 Before you start this process a second time, on the production server, we recommend that you have proper backups, preferably both an image of the server and backups of all important content on the server. Although the previously built new server should still be accessible and contain a nearly identical root file system of the original server, multiple backups allow you to use the Cloud Backup agent, which can be installed on both Windows and Linux cloud servers.
 
@@ -136,7 +135,7 @@ You can delete your new non-production server once the maintenance window has be
 
 #### Option 3
 
-You can rebuild the orginal production server from an image of the new server. The server retains its original IP address.
+You can rebuild the original production server from an image of the new server. The server retains its original IP address.
 
 Of all three options, this option takes the longest amount of time. The length of time depends on how large your new non-production server's virtual hard drive is.
 
@@ -147,5 +146,5 @@ Of all three options, this option takes the longest amount of time. The length o
 2. In the Cloud Control Panel, navigate to the original server's detail page.  Underneath the server's **UUID**, click **Rebuild**.
 
 3. In the popup dialog box that appears, click the **Saved** tab to view your saved saved image and then select the image you created in step 1.
- 
+
 4. Click **Rebuild Server**.
