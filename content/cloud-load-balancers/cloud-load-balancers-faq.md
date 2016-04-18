@@ -204,10 +204,7 @@ Internet to those nodes. Therefore we recommend that you use an
 SSL-enabled load balancer **only with nodes that reside in the same data
 center as the load balancer.** The proximity allows the load balancer to
 use the nodes' private IP addresses (the ServiceNet) to limit
-unencrypted traffic to within the data center's network, as illustrated
-in the following diagram.
-
-(sslterminationsFAQpic.png)
+unencrypted traffic to within the data center's network.
 
 #### What are the benefits of using SSL Termination on the Cloud Load Balancer?
 
