@@ -84,8 +84,7 @@ Before you can access the files on your server you'll need to mount the
 server's file system. To do that you'll need to look at your partitions
 to determine your file system's device.
 
-**Note:** If you plan on using
-chkdsk on this filesystem, DO NOT MOUNT the filesystem.
+**Note:** If you plan on using chkdsk on this filesystem, DO NOT MOUNT the filesystem.
 
 Once you've logged into your server in Rescue Mode, click on the
 **Start** button and enter the search box **diskmgmt.msc**. Click
@@ -128,17 +127,18 @@ This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritt
 #### Process to resolve this
 
 1. With the server in rescue mode and the original system drive has been set online open a command line.
-**Note**: Do not use Powershell for this process, the commands will not work.
+
+   **Note**: Do not use Powershell for this process, the commands will not work.
 
 2. Run the following command:
 
         bcdedit /store d:\boot\bcd
 
 3. Review the output and make sure that the C: drive is the target for objects in the output.
-Sample of good BCD output:
+   Sample of good BCD output:
 
 
-<img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/goodBCD.png %}" alt="" />
+   <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/goodBCD.png %}" alt="" />
 
 4. If the objects do not point to the C drive, run the following commands:
 
@@ -156,7 +156,7 @@ Sample of good BCD output:
 
         bcdedit /store d:\boot\bcd
 
-If the objects all point to the C drive, only an adjustment to the drive ID of the D drive is needed.
+   If the objects all point to the C drive, only an adjustment to the drive ID of the D drive is needed.
 
 6. To adjust the drive ID for the D drive, run the disk manger from **Computer manager** and then enter `DISKPART` from command line.
 
@@ -164,7 +164,7 @@ If the objects all point to the C drive, only an adjustment to the drive ID of t
 
         LIST DISK
 
-<img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/Disklist.png %}" alt="" />
+   <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/Disklist.png %}" alt="" />
 
 8. On the Disk Manager, match the disk number to the drive.
 
@@ -178,9 +178,10 @@ If the objects all point to the C drive, only an adjustment to the drive ID of t
 
         UNIQUEID DISK
 
-<img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/uniqueIDdisk.png %}" alt="" />
+    <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/uniqueIDdisk.png %}" alt="" />
 
 11. Record the output.
+
 **Note** : This output (in hex format) will be used to setup up the D drive.
 
  - If you forget this hex value, you can recover it by taking the server out of rescue mode and placing it back into rescue mode. If you do this, you must start over at the beginning of  these instructions.
