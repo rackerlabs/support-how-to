@@ -4,17 +4,19 @@ title: Migrating From Parse To Rackspace
 type: article
 created_date: '2016-03-25'
 created_by: Amanda Clark
-last_modified_date: '2016-03-25'
-last_modified_by: Amanda Clark
+last_modified_date: '2016-04-18'
+last_modified_by: Stephanie Fillmon 
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article assumes you have already migrated your database from Parse to ObjectRocket.  If you have not, you can find more information [here.](https://objectrocket.com/parse) 
+This article assumes you have already migrated your database from Parse to ObjectRocket. If you have not, you can find more information [here.](https://objectrocket.com/parse)
 
 ### Deploy the Parse Stack
 
-From the [Cloud Control Panel](https://mycloud.rackspace.com), go to the **Orchestration** tab and click on **Stack Templates**.  Select **Parse** from the list, then click **Create Stack**.  Or, [click here](https://mycloud.rackspace.com/cloud/servers#templates/orchestrationTemplates,cloudOrchestrationTemplates/parse/rackspace) to go directly to the Parse template.
+From the [Cloud Control Panel](https://mycloud.rackspace.com), go to the **Orchestration** tab and click on **Stack Templates**. Select **Parse** from the list, then click **Create Stack**.
+
+Or, [click here](https://mycloud.rackspace.com/cloud/servers#templates/orchestrationTemplates,cloudOrchestrationTemplates/parse/rackspace) to go directly to the Parse template.
 
 On the Create Stack page, enter your Parse site domain and email address. Optionally, you can also add Git repository information and your custom code will be automatically pulled and installed on your server.  
 
@@ -22,14 +24,16 @@ On the Create Stack page, enter your Parse site domain and email address. Option
 
 After the stack has been successfully created you will need to configure your database authentication information.
 
-1. Log on to the server via SSH either as `root` using the SSH key provided, or as `parse using the password provided.  Additional information on the server login process can be found [here](https://support.rackspace.com/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/) for Mac/Linux users or [here](https://support.rackspace.com/how-to/connecting-to-linux-from-windows-by-using-putty/) for Windows users.
+1. Log on to the server via SSH either as `root` using the SSH key provided, or as `parse` using the password provided.
 
-2. After you have logged in to the primary server, modify **/home/parse/ecosystem.json** with your 
+  Additional information on the server login process can be found [here](how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) for Mac/Linux users or [here](how-to/connecting-to-linux-from-windows-by-using-putty) for Windows users.
+
+2. After you have logged in to the primary server, modify **/home/parse/ecosystem.json** with your
    - MongoDB Connection String
    - Application ID
    - Master Key
 
-   The MongoDB Connection String can be found in the ObjectRocket Control Panel, listed as **Connect** under the instance you plan to use.  The Application ID and Master Key values can be found in your **Parse.com** account under **App Settings < Security and Keys**  Any other application-specific keys are optional.  They should be left blank if not used.  
+   The MongoDB Connection String can be found in the ObjectRocket Control Panel, listed as **Connect** under the instance you plan to use. The Application ID and Master Key values can be found in your **Parse.com** account under **App Settings > Security and Keys**.  Any other application-specific keys are optional. They should be left blank if not used.  
 
    Following is an example **ecosystem.json** config file:  
 
@@ -62,8 +66,8 @@ After the stack has been successfully created you will need to configure your da
 	    pm2 stop parse-wrapper
 	    pm2 start ecosystem.json
 
-   Repeat this step on all Parse servers created by this stack. These servers will be linked from the Stack page, which should be displayed after you create your stack. You can also select the **Orchestration** tab in the Cloud Control Panel, click on **Stacks** from the dropdown menu, and the click on the name of your stack. The `parse` password should be the same across all servers. 
-   
+   Repeat this step on all Parse servers created by this stack. These servers will be linked from the Stack page, which should be displayed after you create your stack. You can also select the **Orchestration** tab in the Cloud Control Panel, click on **Stacks** from the dropdown menu, and the click on the name of your stack. The `parse` password should be the same across all servers.
+
 Custom code will likely need to be modified before it will run successfully. You can find more information about this process [here.](https://github.com/ParsePlatform/parse-server/wiki/Migrating-an-Existing-Parse-App#3-cloud-code). This stack already has all of the Cloud Code replacements installed.  
 
 For debugging purposes, you can view the Parse logs at **/home/parse/.pm2/logs/**.
