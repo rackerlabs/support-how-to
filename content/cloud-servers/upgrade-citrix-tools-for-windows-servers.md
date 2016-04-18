@@ -47,7 +47,7 @@ The new server that you created from the image is considered your *non-productio
 
 2. Extract the archive named **xstools-6.0.zip** to a local directory, such as **C:\**.
 
-   ![]({% asset path cloud-servers/upgrade-citrix-tools-for-windows-cloud-servers/extract-xen-tools.png %})
+   <img src="{% asset_path cloud-servers/upgrade-citrix-tools-for-windows-servers/extract-xen-tools.png %}" alt="" />
 
 3. In the extracted folder, run **xensetup.exe**.
 
@@ -93,7 +93,7 @@ If your server *does not* have an active connection to the internet, use the fol
 
 1. Extract the archive named, **Rackspace-Cloud-Servers-Agent-Latest.zip**.
 
-   ![]({% asset path cloud-servers/upgrade-citrix-tools-for-windows-cloud-servers/extract-agent.png %})
+   <img src="{% asset_path cloud-servers/upgrade-citrix-tools-for-windows-servers/extract-agent.png %}" alt="" />
 
 2. Inside the extracted folder, right click the **Agent-Services-Install-OR-Upgrade** batch file and choose **Run as administrator**.
 
