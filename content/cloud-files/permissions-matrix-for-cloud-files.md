@@ -5,8 +5,8 @@ title: Permissions Matrix for Cloud Files
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2016-01-21'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-04-18'
+last_modified_by: Stephanie Fillmon
 product: Cloud Files
 product_url: cloud-files
 ---
