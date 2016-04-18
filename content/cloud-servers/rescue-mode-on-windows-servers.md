@@ -172,7 +172,7 @@ This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritt
 
         SELECT DISK ( the disk number that was found in diskpart and Disk Manager)
 
-<img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/selectDisk.png %}" alt="" />
+    <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/selectDisk.png %}" alt="" />
 
 10. To get the drive ID, enter the command:
 
@@ -201,7 +201,7 @@ This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritt
 
         UNIQUEID DISK
 
-<img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/uniqueIDdiskverify.png %}" alt="" />
+    <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/uniqueIDdiskverify.png %}" alt="" />
 
 3. Change the D drive:
 
@@ -210,7 +210,8 @@ This issue is caused by a Disk ID conflict. The original Boot DISK ID is rewritt
         UNIQUEID DISK id=(disk ID from C drive that was recorded, in the example this was 42D9DECD)
 
 4. Run the command, `UNIQUEID DISK` to verify that the ID matches what you recorded.
-<img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/matchRecordedname.png %}" alt="" />
+
+   <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/matchRecordedname.png %}" alt="" />
 
 **Note**: Once this is done you can take server out of rescue mode. The server should now boot up normally.
 
