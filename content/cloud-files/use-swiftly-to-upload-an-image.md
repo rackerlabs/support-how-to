@@ -54,7 +54,7 @@ In a bash shell, set the following environment variables:
     SWFLY_SEG_BYTES=134217728
     SWFLY_CONCURRENCY=20
 
-To information about viewing your Rackspace API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+To view information about viewing your Rackspace API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
 Ensure that the container into which you want to uploads your object
 already exists in the appropriate region in Cloud Files. (You can create
