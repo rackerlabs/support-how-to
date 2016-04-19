@@ -29,6 +29,8 @@ GB to Cloud Files as a Static Large Object.
 
 For more information about Cloud Files Large Objects, see the [Cloud Files documentation](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
 
+**Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/how-to/use-the-api-to-manage-large-files), and if you prefer Swift, see [Use Swift to manage large files](/how-to/use-swift-to-manage-large-files).
+
 ### Prerequisites
 
 The steps in this article assume that you have already properly prepared
