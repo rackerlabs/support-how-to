@@ -11,7 +11,7 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-Cloud Databases supports MySQL 5.6, Percona 5.6, and MariaDB 10.
+Cloud Databases supports MySQL 5.6 and 5.7, Percona 5.6 and 5.7, and MariaDB 10 and 10.1.
 Innovation is happening in each of these communities, and this article
 highlights some of the key aspects to consider when choosing a MySQL
 based datastore that best fits your application.
@@ -21,10 +21,8 @@ based datastore that best fits your application.
 MySQL, an open-source database developed by Oracle, is the recommended
 choice of the MySQL database administrator community, and is a good fit
 for customers concerned about maintaining compatibility with upstream,
-and who prefer a quick release schedule for upstream updates. MySQL 5.6
-is the latest version that is in general availability (since February
-2013). MySQL 5.6 offers great improvements in performance, InnoDB
-scalability, transparency, and replication. For more information, see
+and who prefer a quick release schedule for upstream updates. MySQL 5.7
+is the latest version that is in general availability. MySQL 5.7 delivers greater performance, scalability and manageability, plus enhanced NoSQL capabilities with JSON support. For more information, see
 the [MySQL documentation](http://dev.mysql.com).
 
 ### Benefit
