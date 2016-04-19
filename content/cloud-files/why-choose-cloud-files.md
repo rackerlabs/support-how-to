@@ -51,7 +51,7 @@ With Cloud Files, world-class technical support is only a click away. Live suppo
 
 ### Data redundancy
 
-The Cloud Files storage system is designed to be highly available and fault tolerant. Cloud Files achieves client data redundancy by replicating three full copies on different storage nodes. Storage nodes are grouped in logical Zones within Rackspace datacenters. Zones are connected to redundant Internet backbone providers and reside on redundant power supplies and generators. The system has been engineered in such a way as to continue to by fully functional even in the event of a major service disruption within a Datacenter. Content on the CDN provides an additional layer of data redundancy.
+The Cloud Files storage system is designed to be highly available and fault tolerant. Cloud Files achieves client data redundancy by replicating three full copies on different storage nodes. Storage nodes are grouped in logical Zones within Rackspace datacenters. Zones are connected to redundant Internet backbone providers and reside on redundant power supplies and generators. The system has been engineered in such a way as to continue to be fully functional even in the event of a major service disruption within a Datacenter. Content on the CDN provides an additional layer of data redundancy.
 
 ### Security
 
