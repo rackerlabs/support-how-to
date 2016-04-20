@@ -18,10 +18,16 @@ What is Load Balancing? Mission critical web-based applications and workloads of
 
 - [Create and Configure a Load Balancer](/how-to/configure-a-load-balancer)
 
+### Best Practices
+
+- [Load Balancing Private IPs in the Same Region](/how-to/load-balancing-internal-ips-in-the-same-region)
+- [Preventing Server Overload](/how-to/prevent-server-overload-with-cloud-load-balancers)
+- [Configuring a Health Monitor](/how-to/configure-a-health-monitor-in-cloud-load-balancers)
+- [Using SSL Termination](/how-to/cloud-load-balancers-faq)
+
 ###  Load Balancer features
 
 - [Content caching for Cloud Load Balancers](/how-to/content-caching-for-cloud-load-balancers)
-- [SSL termination on Cloud Load Balancers](/how-to/cloud-load-balancers-faq)
 - [Using SSL offloading with IIS and Cloud Load Balancers](/how-to/configuring-load-balanced-sites-with-ssl-offloading-using-iis)
 - [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)
 
