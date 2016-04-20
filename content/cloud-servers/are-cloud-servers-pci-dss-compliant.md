@@ -1,7 +1,7 @@
 ---
 permalink: are-cloud-servers-pci-dss-compliant/
 node_id: 5145
-title: Are cloud servers PCI-DSS compliant?
+title: Cloud servers PCI-DSS compliance
 type: article
 created_date: '2016-01-19'
 created_by: Rose Contreras

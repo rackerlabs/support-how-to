@@ -1,7 +1,7 @@
 ---
 permalink: centos-hostname-change/
 node_id: 90
-title: CentOS - Hostname change
+title: Change a Server Hostname in CentOS
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
