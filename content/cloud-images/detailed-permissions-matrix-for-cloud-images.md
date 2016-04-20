@@ -5,17 +5,13 @@ title: Detailed Permissions Matrix for Cloud Images
 type: article
 created_date: '2013-10-28'
 created_by: Renee Rendon
-last_modified_date: '2016-01-19'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-04-20'
+last_modified_by: Stephanie Fillmon
 product: Cloud Images
 product_url: cloud-images
 ---
 
 The following permissions matrix displays specific permissions for the roles in Cloud Images. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
-
-[API Documentation](https://developer.rackspace.com/docs/)
-
-[Cloud Images Terminology](/how-to/detailed-permissions-matrix-for-cloud-images)
 
 ### As of January 20, 2014
 
@@ -48,24 +44,10 @@ Get a Task | ```GET /v2/tasks/{task_id}``` | **Observer & Creator & Admin** | Ge
 
 ### Cloud Images Terminology
 
-#### Image
+- **Image** - Represented by a JSON-encoded data structure (the image scheme) and its raw binary data (the image file).
+- **Image Member** - A user who has been granted access to an image.
+- **Image Schema** - A json document representing metadata about an image.
+- **Image Tag** - A string of characters used to identify a specific image.
+- **JSON (Javascript Object Notation)** -  An open standard format that uses human-readable text to transmit data objects consisting of key:value pairs.
 
-An image is represented by a JSON-encoded data structure (the image scheme) and its raw binary data (the image file).
-
-#### Image Member
-
-A user who has been granted access to an image.
-
-#### Image Schema
-
-A json document representing metadata about an image.
-
-#### Image Tag
-
-An image tag is a string of characters used to identify a specific image.
-
-#### JSON (Javascript Object Notation)
-
-An open standard format that uses human-readable text to transmit data objects consisting of key:value pairs.
-
-[**&lt; Permissions Matrices for RBAC**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Permissions Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
