@@ -87,15 +87,15 @@ line to perform the upload, as follows.
 you're not familiar with the GNU Screen program, you can find an
 introduction in [Install the Swiftly client for Cloud Files](/how-to/install-the-swiftly-client-for-cloud-files).
 
-    swiftly <br>
-      --auth-url=https://identity.api.rackspacecloud.com/v2.0 <br>
-      --auth-user=$CF_USERNAME <br>
-      --auth-key=$CF_API_KEY <br>
-      --region=$CF_REGION <br>
-      --concurrency=$SWFLY_CONCURRENCY <br>
-      put <br>
-        --segment-size=s${SWFLY_SEG_BYTES} <br>
-        --input=$SOURCEFILE <br>
+    swiftly
+      --auth-url=https://identity.api.rackspacecloud.com/v2.0
+      --auth-user=$CF_USERNAME
+      --auth-key=$CF_API_KEY
+      --region=$CF_REGION
+      --concurrency=$SWFLY_CONCURRENCY
+      put
+        --segment-size=s${SWFLY_SEG_BYTES}
+        --input=$SOURCEFILE
       ${CONTAINER}/${IMAGEFILENAME}
 
 If you are importing a file a cloud server that's already in the
@@ -105,17 +105,17 @@ if you want Swiftly to notify you about what it's doing as it uploads
 your image file, you can add the `--verbose` option. If you add these
 options, your invocation will look as follows:
 
-    swiftly <br>
-      --auth-url=https://identity.api.rackspacecloud.com/v2.0 <br>
-      --auth-user=$CF_USERNAME <br>
-      --auth-key=$CF_API_KEY <br>
-      --region=$CF_REGION <br>
-      --snet <br>
-      --verbose <br>
-      --concurrency=$SWFLY_CONCURRENCY <br>
-      put <br>
-        --segment-size=s${SWFLY_SEG_BYTES} <br>
-        --input=$SOURCEFILE <br>
+    swiftly
+      --auth-url=https://identity.api.rackspacecloud.com/v2.0
+      --auth-user=$CF_USERNAME
+      --auth-key=$CF_API_KEY
+      --region=$CF_REGION
+      --snet
+      --verbose
+      --concurrency=$SWFLY_CONCURRENCY
+      put
+        --segment-size=s${SWFLY_SEG_BYTES}
+        --input=$SOURCEFILE
       ${CONTAINER}/${IMAGEFILENAME}
 
 Note that the Swiftly invocation contains the following line:
@@ -146,14 +146,14 @@ To check your upload, view the manifest for the Static Large Object that
 was created in Cloud Files.
 
     # get the manifest
-    swiftly <br>
-     --auth-url=https://identity.api.rackspacecloud.com/v2.0 <br>
-     --auth-user=$CF_USERNAME <br>
-     --auth-key=$CF_API_KEY <br>
-     --region=$CF_REGION <br>
-     get <br>
-     --query=multipart-manifest=get <br>
-     --output=my-manifest.json <br>
+    swiftly
+     --auth-url=https://identity.api.rackspacecloud.com/v2.0
+     --auth-user=$CF_USERNAME
+     --auth-key=$CF_API_KEY
+     --region=$CF_REGION
+     get
+     --query=multipart-manifest=get
+     --output=my-manifest.json 
      ${CONTAINER}/${IMAGEFILENAME}
 
     # look at the manifest
