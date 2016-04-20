@@ -10,7 +10,7 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-<p class="lead" markdown="1">What is Load Balancing? Mission critical web-based applications and workloads often require an HA, or High Availability, solution. Load-balancing distributes workloads across two or more servers, network links, and other resources to maximize throughput, minimize response time, and avoid overload. Rackspace Cloud Load Balancers allow customers to quickly load-balance multiple Cloud Servers or external servers for optimal resource utilization. Read more to see how easy it is to do!</p>
+What is Load Balancing? Mission critical web-based applications and workloads often require an HA, or High Availability, solution. Load-balancing distributes workloads across two or more servers, network links, and other resources to maximize throughput, minimize response time, and avoid overload. Rackspace Cloud Load Balancers allow customers to quickly load-balance multiple Cloud Servers or external servers for optimal resource utilization. Read more to see how easy it is to do!
 
 <hr />
 
