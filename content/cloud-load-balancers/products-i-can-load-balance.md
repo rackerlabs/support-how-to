@@ -24,8 +24,7 @@ balance are called *nodes*.
 When you create a load balancer using the Control Panel you'll see that
 Add Nodes is part of the configuration process:
 
-![Add
-Nodes](http://c691244.r44.cf2.rackcdn.com/Load%20Balancer%20Nodes.png)
+<img src="{% asset_path cloud-load-balancers/products-i-can-load-balance/load-balancer-add-nodes.png %}" alt="add nodes to load balancer in control panel" />
 
 This is where you specify the things you want to load balance. You can
 add an existing Rackspace Cloud Server or an External IP.
