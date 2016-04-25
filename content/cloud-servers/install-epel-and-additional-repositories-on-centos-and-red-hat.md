@@ -60,7 +60,7 @@ installation instructions based on your distribution version.
 -  CentOS and Red Hat Enterprise Linux 7.x
 
        wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-       sudo rpm -Uvh epel-release-7*.rpm
+       sudo rpm -Uvh epel-release-latest-7*.rpm
 
 If you get a File Not Found error message when trying to download the
 package, the version number might have changed. You can access the
