@@ -1,98 +1,95 @@
 ---
 permalink: rescue-mode-on-windows-servers/
 node_id: 4812
-title: Rescue Mode on Windows Cloud Servers
+title: Use rescue mode on Windows cloud servers
 type: article
 created_date: '2015-09-15'
 created_by: Richard Hinojosa
-last_modified_date: '2016-04-04'
+last_modified_date: '2016-04-25'
 last_modified_by: Christophe Bonard
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 If your Windows system has become non-bootable or is suffering from
-critical system errors, you can use **Rescue Mode** to recover your
-system data. These problems may be caused by file system corruption,
-boot file corruption, or other configuration errors. Normally, if your
-system encounters any problem during the boot process, you would boot in
-to a maintenance mode environment known as Safe Mode that would allow
-you to login with your root password and check for any errors.
-Unfortunately, using Safe User Mode has its share of problems:
+critical system errors, you can use *rescue mode* to recover your
+system data. These problems might be caused by file system corruption,
+boot file corruption, or other configuration errors. 
 
--   Most services such as networking are disabled. This would prevent
+####Rescue mode vs. safe mode
+
+Normally, if your system encounters any problem during the boot process, you would boot into
+a maintenance mode environment known as *safe mode* that would allow
+you to log in with your root password and check for any errors.
+Unfortunately, using safe mode has its share of problems:
+
+-   Most services, such as networking, are disabled. This would prevent
     you from copying your data to another server.
--   You would have to access your server using the Console, which is
-    slower than using a traditional RDP login.
+-   You would have to access your server by using the Console, which is
+    slower than using a traditional Remote Descktop Protocol (RDP) login.
 
-To avoid having to use Safe Mode, you can bring your server up in
-**Rescue Mode** through the Rackspace Cloud Control Panel.
-
-### What is Rescue mode?
-
-Rescue mode grants the Administrator user full access to your
-non-bootable server's filesystem. You can use it to modify problems in
-configuration files or to copy data from your Cloud Server to a remote
-location. Rescue Mode through the Rackspace Cloud Control Panel is
+To avoid having to use safe mode, you can bring your server up in
+rescue mode through the Rackspace Control Panel. Rescue mode grants the 
+Administrator user full access to your non-bootable server's file system. 
+You can use it to modify problems in configuration files or to copy data from 
+your cloud server to a remote location. Rescue mode through the Rackspace Cloud Control Panel is
 similar to booting into safe mode with networking enabled.
 
-**Getting your server into Rescue mode**
+####Start the server in rescue mode
 
-1.  Log in to the Cloud Control Panel, and click **Servers**.
+1.  Log in to the Cloud Control Pane.
 
-2.  From your list of servers, click the Actions cog next to the server
-    that you want to bring up in Rescue Mode and select **Enter Rescue Mode** from the drop-down menu.
+2.  At the top of the page, click **Servers > Cloud Servers**.
+
+3.  In your list of servers, click the gear icon next to the server
+    that you want to start in rescue mode and select **Enter Rescue Mode**.
 
     <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/Windowsenter.png %}" alt="" />
 
-3.  Read the text in the Rescue Mode pop-over and then click **Enter
+4.  Read the text in the pop-up message, and then click **Enter
     Rescue Mode**.
 
     <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/rescuepopup.png %}" alt="" />
 
-4.  The temporary password is displayed. Copy the password to a safe
-    location since you won't be able to see it again after closing
-    this message.
+5.  When the temporary password is displayed, copy it to a safe locations. You will not be able to see the password again after you close this message.
 
-5.  After copying the temporary password click **Dismiss Password**.
+6.  After copying the temporary password click **Dismiss Password**.
 
-The server will start to enter Rescue Mode and the initial status should
+The server starts to enter rescue mode and the initial status should
 be **Entering rescue mode**.
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/winrescue.png %}" alt="" />
 
-When the Rescue Mode build is complete, the status will turn red and
-display **Rescue**.
+When the rescue mode build is complete, the status turns red and
+displays **Rescue**.
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/rescueactive.png %}" alt="" />
 
-Notice that the rescue environment is limited to 24 hours. This means
-that you will have one day to correct the problems on your server before
+Note that the rescue environment is limited to 24 hours, which means
+that you have 24 hours to correct the problems on your server before
 it automatically reverts to its original state.
 
-### Connecting to your server in Rescue Mode
+####Connect to the server in rescue mode
 
-You can now use a RDP client to connect to your server using the public
-IP address and the temporary Administrator password to login to Rescue
-Mode.
+To connect to the server in rescue mode, use a RDP client, as shown in the following screenshot. 
+Use the public IP address and the temporary Administrator password to connect.
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/rdpclient.png %}" alt="" />
 
-### Troubleshooting your server in Rescue Mode
+### Troubleshoot the server in rescue mode
 
-Before you can access the files on your server you'll need to mount the
-server's file system. To do that you'll need to look at your partitions
+Before you can access the files on your server, you need to mount the
+server's file system. To do that, you need to look at your partitions
 to determine your file system's device.
 
-**Note:** If you plan on using chkdsk on this filesystem, DO NOT MOUNT the filesystem.
+**Note:** If you plan to use **chkdsk** on this file system, *do not mount* the file system.
 
-Once you've logged into your server in Rescue Mode, click on the
-**Start** button and enter the search box **diskmgmt.msc**. Click
-**diskmgmt** to start the program.
+1.  After you log in to your server in rescue mode, click the
+**Start** button and enter **diskmgmt.msc** in the search box.
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/diskmgmt.png %}" alt="" />
 
-Once the program is running, the output should resemble the following:
+2.   Double-click **diskmgmt** to start the program. Once the program is running, the output should resemble the following:
 
 <img src="{% asset_path cloud-servers/rescue-mode-on-windows-servers/diskmgmtoutput.png %}" alt="" />
 
