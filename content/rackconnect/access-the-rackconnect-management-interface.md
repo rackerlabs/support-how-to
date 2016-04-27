@@ -14,7 +14,7 @@ product_url: rackconnect
 **Previous section**: [RackConnect v2.0](/how-to/rackconnect-v20)
 
 You can access the RackConnect Management Interface from the
-[MyRackspace Portal](https://my.rackspace.com/). To view your
+[MyRackspace portal](https://my.rackspace.com/). To view your
 RackConnect configuration, click **Network &gt; RackConnect**.
 
 On the RackConnect page, you can add a Cloud account to your RackConnect
@@ -25,16 +25,15 @@ progress of all automation.
 The interface displays the servers on your RackConnect account with
 colored status indicators.
 
+-   Green = Deployed
+-   Blue = Deploying
+-   Red = Failed
+-   Yellow = Removing
+
 <img src="{% asset_path rackconnect/access-the-rackconnect-management-interface/RackconnectCloudServersImage1.png %}" width="395" height="118" />
 
-The status indicators can be green, blue, red, or yellow.
-
--   Green circle:  Deployed
--   Blue circle:  Deploying
--   Red circle:  Failed
--   Yellow circle:  Removing
 
 ### Next step
 
-[Managing RackConnect v2.0 Network
-Policies](/how-to/managing-rackconnect-v20-network-policies)
+[Managing RackConnect v2.0 network
+policies](/how-to/managing-rackconnect-v20-network-policies)
