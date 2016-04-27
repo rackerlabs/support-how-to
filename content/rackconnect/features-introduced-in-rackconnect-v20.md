@@ -30,7 +30,7 @@ security features:
     events**, which means that RackConnect picks up changes in your
     Cloud environment much faster
 
--   **A RackConnect Management Interface in the MyRackspace<sup>&reg;</sup> Portal**,
+-   **A RackConnect Management Interface in the MyRackspace<sup>&reg;</sup> portal**,
     where you can perform the following tasks:
     -   Set RackConnect network policies.
     -   Manage cloud servers.
@@ -42,18 +42,18 @@ security features:
     -   Manage dedicated firewall, load balancer, and cloud server
         software firewalls.
 
--   **Managed software firewalls for Cloud Servers:**
+-   **Managed software firewalls for cloud servers:**
     -   Iptables for Linux
     -   Advanced firewall for Windows
 
--   **Automation features:**
-    -   *(Optional)* Provision public IP addresses: Cloud servers are
+-   **Optional automation features:**
+    -   Provision public IP addresses: Cloud servers are
         automatically provisioned with a public IP address from your
-        Dedicated network's public IP block.
-    -   *(Optional)* Configure network stack: Cloud servers are
+        dedicated network's public IP block.
+    -   Configure network stack: Cloud servers are
         automatically configured with network connectivity to your
-        Dedicated environment.
-    -   *(Optional)* Manage software firewall: Cloud servers can be
+        dedicated environment.
+    -   Manage software firewall: Cloud servers can be
         automatically load balanced based on server name matching or
         metadata.
 
@@ -62,7 +62,7 @@ security features:
 account enables RackConnect to automate network connectivity and
 software firewalls on cloud servers as part of the RackConnect solution.
 This account is for use only by the automated system, not by actual
-Rackers (support techs). It should not be deleted under any
+Rackers (support personnel). It should not be deleted under any
 circumstances.
 
 ### Next step

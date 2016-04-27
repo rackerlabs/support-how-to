@@ -66,7 +66,7 @@ configuration and cloud servers secure.
 
 <img src="{% asset_path rackconnect/rackconnect-v20-requirements/With.RC_.png %}" width="320" height="218" />
 
-If you have any questions, please reach out to us. Our contact
+If you have any questions, reach out to us. Our contact
 information is available on the [Contact Us](/how-to/support) page.
 
 ### Next step
