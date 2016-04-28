@@ -65,15 +65,15 @@ The new server that you created from the image is considered your *non-productio
 
 3. In the extracted folder, run **installwizard**.
 
-4. Follow the instructions on the wizard. We recommend using the default folder for your destination folder.
+4. Follow the instructions on the wizard. We recommend using the default folder for your destination directory.
 
 5. Click **Install** to prepare the Citrix Tools Installer.
 
 6. After the setup launches, click **Install Tools**.
 
-7. When prompted, click **Restart Now**. The server will automatically restart several time before the installation is complete.
+7. When prompted, click **Restart Now**. The server will automatically restart several times before the installation is complete.
 
-8. After the installation is complete, restart your local computer.
+8. After the installation is complete, a dialog box may appear asking for the server to be restarted. If requested, restart the server.
 
 ### Upgrade the Rackspace Cloud Servers agent
 
