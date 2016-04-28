@@ -13,9 +13,9 @@ product_url: cloud-servers
 
 Citrix tools are fundamental to the proper operation of virtualized cloud servers in the Rackspace cloud infrastructure. They are the underlying drivers for the virtual machine, giving it access to virtual hardware, specifically networking and block devices.
 
-This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **only** be touched if the Windows server is having issue during Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
+This article explains how to upgrade the Citrix Tools for Virtual Machines on Windows cloud servers. These tools should **only** be touched if the Windows server is having issues such as Blue Screens of Death (BSoD), or if support has recommended upgrading the tools.
 
-**Warning:** Performing the steps in this article incurs network downtown. Therefore, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server. Instead, you will create an image of the production server on which to perform the upgrade.
+**Warning:** Performing the steps in this article incurs network downtime. Therefore, *do not* perform these steps on a production server, as it will result in network disruption and multiple reboots of the server. Instead, you will create an image of the production server on which to perform the upgrade.
 
 ### Prerequisites
 
