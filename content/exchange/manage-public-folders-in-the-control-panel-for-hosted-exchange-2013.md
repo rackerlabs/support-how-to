@@ -1,18 +1,18 @@
 ---
 permalink: manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/
 node_id: 4463
-title: Manage public folders in the control panel for Hosted Exchange 2013
+title: Manage public folders in the control panel for Hosted Exchange 2013 and 2016
 type: article
 created_date: '2014-12-14'
 created_by: Theresa Kinney
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
+last_modified_date: '2016-04-29'
+last_modified_by: Renee Rendon
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-You can add public folders to your Hosted Microsoft Exchange 2013
-domain. Each Exchange 2013 domain is allotted 25 folders, with up to 250MB
+You can add public folders to your Hosted Microsoft Exchange 2013 and Hosted Microsoft Exchange 2016
+domain. Each Exchange 2013 and 2016 domain is allotted 25 folders, with up to 250MB
 of storage per folder. You can manage your public folders within the
 Cloud Office Control Panel. You can create, rename, delete, and
 mail-enable folders directly in the control panel.
@@ -192,14 +192,14 @@ steps:
 
 ### Manage permissions
 
-Public folders for Hosted Exchange 2013 are managed exclusively through
+Public folders for Hosted Exchange 2013 and 2016 are managed exclusively through
 the administrator control panel. Any users who need to manage public
 folders must have administrator access.
 
 ### Authorization to add, delete, or modify content
 
 Unlike Exchange 2007 and 2010, individual permissions are not
-managed through Outlook for Exchange 2013.  We are working on a release
+managed through Outlook for Exchange 2013 or 2016.  We are working on a release
 that will allow you to assign different levels of permissions for each
 user.  For the current release, your users have the following
 permission levels:
