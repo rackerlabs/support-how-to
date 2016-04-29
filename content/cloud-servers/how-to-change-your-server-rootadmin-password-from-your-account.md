@@ -22,9 +22,9 @@ of cloud servers:
 4.  From the drop-down menu, click **Change Password** to open space to
     enter the password.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/Screen%2520Shot%25202015-08-11%2520at%25201.14.10%2520PM.png)
+  <img src="{% asset_path cloud-servers/how-to-change-your-server-rootadmin-password-from-your-account/Screen%2520Shot%25202015-08-11%2520at%25201.14.10%2520PM.png %}" alt="" />
 
 5.  In the blank space under New Root Admin Password, type the new
     password and click **Change Password.** 
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/Screen%2520Shot%25202015-08-11%2520at%25201.16.28%2520PM.png)
+    <img src="{% asset_path cloud-servers/how-to-change-your-server-rootadmin-password-from-your-account/Screen%2520Shot%25202015-08-11%2520at%25201.16.28%2520PM.png %}" alt="" />

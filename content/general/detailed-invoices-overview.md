@@ -24,16 +24,16 @@ per-device overview of your billing charges.
     Username* > Billing and Payments.**
 3.  Under Billing History, click the ID number of the invoice that you
     want to view.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/billinghistory.png" width="600" />
+    <img src="{% asset_path general/detailed-invoices-overview/billinghistory.png %}" width="600" />
 
 4.  Under Invoice Summary, click **Detailed View of Charges**.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/invoicesummary.png" width="600" />
+    <img src="{% asset_path general/detailed-invoices-overview/invoicesummary.png %}" width="600" />
 
     A separate window opens and displays your detailed invoices. The
     invoice can take up to 1 minute to load.
 
     Once loaded, the invoice should look as follows:
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/detailedinvoice.png" width="600" />
+    <img src="{% asset_path general/detailed-invoices-overview/detailedinvoice.png %}" width="600" />
 
 ### Detailed invoice features
 
@@ -45,7 +45,7 @@ when it was created.
 
 To expand the list, click the arrow next to the service.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/detailedinvoiceexpand.png" width="600" />
+  <img src="{% asset_path general/detailed-invoices-overview/detailedinvoiceexpand.png %}" width="600" />
 
 When a service's list is expanded, each item contains at least two
 lines. The first line indicates the total charges for the device. Any
@@ -57,13 +57,13 @@ LinuxTEST is calculated from two items: Legacy Server Uptime and Legacy
 Server IP. The number in the first line is the sum of the two items
 under it.
 
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/linuxtest.png" width="600" />
+ <img src="{% asset_path general/detailed-invoices-overview/linuxtest.png %}" width="600" />
 
 If you want details about how a device's use charge was calculated,
 place your cursor over the charge. A pop-up box appears next to the
 cursor with the equation used to calculate the charge.
 
- <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/linuxequation.png" width="600" />
+ <img src="{% asset_path general/detailed-invoices-overview/linuxequation.png %}" width="600" />
 
 Lastly, at the top of the invoice is a collapsible list called
 **Account**. Account-level charges are the charges that are not specific

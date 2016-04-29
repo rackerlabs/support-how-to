@@ -20,22 +20,22 @@ Control Panel interface.
 3.  In the **Details** section, enter a name for your server in
     the **Server Name** field.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.12.15%20AM.png" width="259" height="163" />
+    <img src="{% asset_path cloud-servers/create-a-cloud-server/Screen%20Shot%202015-01-14%20at%209.12.15%20AM.png %}" width="259" height="163" />
 
 4.  From the Region list, select the region in which you want to create
     the server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.13.25%20AM.png" width="261" height="142" />
+    <img src="{% asset_path cloud-servers/create-a-cloud-server/Screen%20Shot%202015-01-14%20at%209.13.25%20AM.png %}" width="261" height="142" />
 
 5.  In the **Image** section, select which operating system you want to
     use.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.15.30%20AM.png" width="472" height="241" />
+    <img src="{% asset_path cloud-servers/create-a-cloud-server/Screen%20Shot%202015-01-14%20at%209.15.30%20AM.png %}" width="472" height="241" />
 
 6.  In the **Flavor** section, choose the appropriate configuration for
     the server.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.16.55%20AM.png" width="473" height="372" />
+    <img src="{% asset_path cloud-servers/create-a-cloud-server/Screen%20Shot%202015-01-14%20at%209.16.55%20AM.png %}" width="473" height="372" />
 
 7.  *(Optional)* Assign a public key to the server by selecting an
     existing key.
@@ -43,7 +43,7 @@ Control Panel interface.
     1.   To assign an existing public key, under Advanced Options, select
         a public key from the drop down list.
 
-      <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.18.41%20AM.png" width="379" height="87" />
+      <img src="{% asset_path cloud-servers/create-a-cloud-server/Screen%20Shot%202015-01-14%20at%209.18.41%20AM.png %}" width="379" height="87" />
 
     2.   Select the public key from the list and continue with the
         next step.
@@ -60,7 +60,7 @@ Control Panel interface.
     5.   Once you have your entered your Key Name, Region, and the Public
         Key, click **Add Public Key**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-14%20at%209.30.59%20AM.png" width="655" height="299" />
+    <img src="{% asset_path cloud-servers/create-a-cloud-server/Screen%20Shot%202015-01-14%20at%209.30.59%20AM.png %}" width="655" height="299" />
 
 9.  Confirm that your key is listed in the SSH Key list for your new
     server.

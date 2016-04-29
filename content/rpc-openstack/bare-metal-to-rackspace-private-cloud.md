@@ -17,7 +17,7 @@ Using this deployment system, the installation of a customized OpenStack
 environment across multiple servers can start as fast as they come
 online.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/deploymentsystem-razor.png" width="540" height="478" />
+<img src="{% asset_path rpc-openstack/bare-metal-to-rackspace-private-cloud/deploymentsystem-razor.png %}" width="540" height="478" />
 
 ### Razor and Chef
 

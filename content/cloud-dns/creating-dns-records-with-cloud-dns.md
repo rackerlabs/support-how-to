@@ -1,7 +1,7 @@
 ---
 permalink: creating-dns-records-with-cloud-dns/
 node_id: 1462
-title: Creating DNS records with Cloud DNS
+title: Create DNS records with Cloud DNS
 type: article
 created_date: '2012-07-15'
 created_by: Rackspace Support
@@ -11,91 +11,71 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-Creating DNS records for your domain is easy to do within the [Cloud Control Panel](https://mycloud.rackspace.com). In this article, we will
+It is easy to create DNS records for your domain by using the 
+[Cloud Control Panel](https://mycloud.rackspace.com). In this article, we 
 look at creating a DNS zone for your domain and adding basic A, MX, and
-CNAME records using the Cloud Control Panel.
+CNAME records by using the Cloud Control Panel. We also demonstrate deleting records
+and domains.
 
-### Adding a domain
+### Add a domain
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com)
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
     and select **DNS **at the top.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/1.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/1.png %}" alt="" />
 
-2.  Select **Create Domain** under **Cloud DNS** and enter in the domain
+2.  Select **Create Domain** under **Cloud DNS**, and enter in the domain
     name, email address, Time To Live (TTL), and then select **Create
     Domain **once more.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/2.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/2.png %}" alt="" />
 
-    **Note**: Time To Live indicates how log a DNS record is cached before
-    it's updated.
+    **Note**: Time To Live indicates how log a DNS record is cached before it's updated.
 
-3.  You will see your domain listed in the domain section as well
-    options to create other DNS records as well.
+3.  Now, your domain is listed in the domain section, along with options to create other DNS 
+    records.
 
-### Adding an A record
+### Add an A record for your domain.
 
-Next, let's go through the process of adding an A record for your
-domain.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+2.  Select your domain in the list, and then select **Add Record** under Records. Select 
+    **A/AAAA Record** for the type, and fill out the following fields accordingly.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com) and select **DNS** at the top.
-2.  Select your domain in the list and then select **Add Record**
-    under Records. Select **A/AAAA Record** for the type and fill out
-    the following fields accordingly.
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/3.png %}" alt="" />
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/3.png)
+3.  After you have entered everything, select **Add Record**, and you are finished!
 
-3.  After you have entered everything, select **Add Record** and you are
-    finished!
+### Add a CName record for your domain.
 
-### Adding a CName record
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+2.  Select your domain in the list, and then select **Add Record** under Records. Select 
+    **CNAME Record** for the type, and fill out the following fields accordingly.
 
-Next, we will go through the process of setting up CNAME records for
-your domain.
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/4.png %}" alt="" />
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com) and select **DNS** at the top.
-2.  Select your domain in the list and then select **Add
-    Record** under Records. Select **CNAME Record** for the type and
-    fill out the following fields accordingly.
+3.  After you have entered everything, select **Add Record**, and you are finished!
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/4.png)
+### Add an MX record for your domain.
 
-3.  After you have entered everything, select **Add Record** and you are
-    finished!
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+2.  Select your domain in the list, and then select **Add Record** under Records. Select 
+    **MX Record** for the type, and fill out the following fields accordingly.
 
-### Adding an MX record
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/5.png %}" alt="" />
 
-Next, we'll go through the process of setting up MX records for your
-domain.
+### Delete a record from your domain.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com) and select **DNS** at the top.
-2.  Select your domain in the list and then select **Add
-    Record** under Records. Select **MX Record** for the type and fill
-    out the following fields accordingly.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+2.  Click the gear icon next to the desired domain, and then select **Delete Record**.
 
-    ![](http://c15154024.r24.cf2.rackcdn.com/5.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/6.png %}" alt="" />
 
-### Deleting a record
+### Delete a domain
 
-Next, we'll go through the process of deleting a DNS record from your
-domain.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+2.  Click the gear icon next to the desired domain, and then select **Delete Domain**.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com) and select **DNS** at the top.
-2.  Click the gear icon next to the desired domain and then select
-    **Delete Record**.
-
-    ![](http://c15154024.r24.cf2.rackcdn.com/6.png)
-
-### Deleting a domain
-
-Next, we'll go through the process of deleting a domain.
-
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com) and select **DNS** at the top.
-2.  Click the gear icon next to the desired domain and then
-    select **Delete Domain**.
-
-    ![](http://c15154024.r24.cf2.rackcdn.com/7.png)
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/7.png %}" alt="" />
 
 ### What are the canonical DNS servers for Cloud Servers?
 

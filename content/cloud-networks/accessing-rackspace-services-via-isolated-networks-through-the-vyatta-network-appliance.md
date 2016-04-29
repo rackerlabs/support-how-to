@@ -42,7 +42,7 @@ and is used as the default gateway by the server in question. The Vyatta
 appliance is connected to all three networks (Public, SNET and
 Isolated).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Vyatta.jpg" class="image-half_width" width="350" height="224" />
+<img src="{% asset_path cloud-networks/accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance/Vyatta.jpg %}" class="image-half_width" width="350" height="224" />
 
 <span style="line-height: 1.538em;">The table below summarizes what
 services can be accessed if the Vyatta is configured as described in the

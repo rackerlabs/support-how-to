@@ -100,7 +100,7 @@ The following diagram shows the path that inbound (and return) load
 balancer pool traffic follows to your cloud servers when you use an F5
 BIG-IP load balancer with RackConnect:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RackConnect.F5.TrafficFlow.png" class="image-full_width" />
+<img src="{% asset_path rackconnect/using-dedicated-load-balancers-with-rackconnect-v20/RackConnect.F5.TrafficFlow.png %}" class="image-full_width" />
 
 
 ### Brocade Load Balancers
@@ -148,7 +148,7 @@ The following diagram shows the path that inbound and return load
 balancer pool traffic follows to your cloud servers when you use a
 Brocade ADX load balancer with RackConnect:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RackConnect.Brocade.TrafficFlow.png" class="image-full_width" />
+<img src="{% asset_path rackconnect/using-dedicated-load-balancers-with-rackconnect-v20/RackConnect.Brocade.TrafficFlow.png %}" class="image-full_width" />
 
 If you have any questions about using Dedicated load balancers with
 RackConnect, contact your Support team.

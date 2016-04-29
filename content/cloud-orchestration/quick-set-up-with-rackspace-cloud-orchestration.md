@@ -19,11 +19,11 @@ Rackspace Cloud Orchestration helps you set up projects and servers with just a 
 
     To create a stack in the Create Resources menu, select **Stack**.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1560-3549-newimage_0.png" width="481" height="134" border="1" alt=""  />
+	<img src="{% asset_path cloud-orchestration/quick-set-up-with-rackspace-cloud-orchestration/1560-3549-newimage_0.png %}" width="481" height="134" border="1" alt=""  />
 
 	To create a stack in the Servers menu, click **Create Stack** from the Cloud Servers page where you would create a new server.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1560-3549-newimage2_0.png" width="771" height="204" border="1" alt=""  />
+	<img src="{% asset_path cloud-orchestration/quick-set-up-with-rackspace-cloud-orchestration/1560-3549-newimage2_0.png %}" width="771" height="204" border="1" alt=""  />
 
 2. Enter a name and select the region for your stack.
 
@@ -45,7 +45,7 @@ On the stack details page, click **View Credentials** to get any sensitive infor
 
 The bottom of the stack details page displays additional information about the application or framework that has been installed. You can use this information to build in additional capabilities into your installed application.
 
-<img alt="" border="1" height="439" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3549createstack5.png" width="567" />
+<img alt="" border="1" height="439" src="{% asset_path cloud-orchestration/quick-set-up-with-rackspace-cloud-orchestration/3549createstack5.png %}" width="567" />
 
 After the stack build is complete, you can use your installed application or framework. You can also manage your stack and the individual infrastructure in their respective locations in the control panel.
 

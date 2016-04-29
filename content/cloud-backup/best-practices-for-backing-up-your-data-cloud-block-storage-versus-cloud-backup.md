@@ -5,8 +5,8 @@ title: 'Best practices for backing up your data: Cloud Block Storage versus Clou
 type: article
 created_date: '2013-10-01'
 created_by: Kyle Laffoon
-last_modified_date: '2016-01-21'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-04-04'
+last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -16,20 +16,17 @@ Servers you have two convenient choices: Cloud Block Storage or Cloud
 Backup. Identifying which one to use depends on what features are most
 important to you.
 
-
-
-### Cloud Block Storage for Portability
+### Cloud Block Storage for portability
 
 Cloud Block Storage works much like a portable drive. It can be attached
 to one server and later detached and attached to another server. This
 makes moving data between servers convenient, as all files and folders
 can be moved by detaching the drive from your old server and attaching
-it to the new server. Cloud Block Storage offers two drive types: a SATA
-option, which helps control costs, and an SSD option for higher
-performance. Unlike Cloud Backup, there is no agent to install. You
-simply copy your files to the attached volume.
+it to the new server.
 
-#### **Limitations**
+Cloud Block Storage offers two drive types: a SATA option, which helps control costs, and an SSD option for higher performance. Unlike Cloud Backup, there is no agent to install. You simply copy your files to the attached volume.
+
+#### Limitations
 
 Cloud Block Storage attaches a traditional data volume to your server,
 so there is no built-in mechanism to track or retrieve overwritten data.
@@ -39,15 +36,9 @@ options. Additionally, the Cloud Block Storage process cannot be
 automated. You must copy the data to the volume after configuring it on
 your server.
 
-#### **Getting Started with Cloud Block Storage**
+To get started with Cloud Block Storage, see [Create and Attach a Block Storage Volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
 
-To get started with Cloud Block Storage, see [Create and Attach a Block
-Storage
-Volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
-
-
-
-### Cloud Backup for Incremental Backups
+### Cloud Backup for incremental backups
 
 After the initial setup, including installation of the Cloud Backup
 Agent and capture of all the initial files, Cloud Backup uses
@@ -61,7 +52,7 @@ The Cloud Backup Agent can complete the backup automatically following a
 schedule that you identify, so that you can avoid waiting for the
 process to complete. Manual backup is also available on Cloud Backup.
 
-#### **Encryption**
+#### Encryption
 
 With Cloud Backup, enterprise-grade encryption (Advanced Encryption
 Standard, 256-bit key) is available. When encryption is enabled, your
@@ -72,7 +63,7 @@ leaves the server and remains safely encrypted while stored.
 **Note**: After AES-encryption is set, it cannot be removed from your
 files.
 
-#### **Limitations**
+#### Limitations
 
 To use Cloud Backup, you must set up the Cloud Backup Agent. Backups
 cannot occur until you have set up the agent and identified what files
@@ -81,7 +72,4 @@ server is required for the Cloud Backup Agent. All backups performed
 with Cloud Backup are placed in Cloud Files, so there are no cost
 control options with different storage types.
 
-#### **Getting Started with Cloud Backup**
-
-See the [Cloud Backup introduction page](/how-to/cloud-backup)
-to get started with Cloud Backup.
+See the [Cloud Backup introduction page](/how-to/cloud-backup) to get started with Cloud Backup.

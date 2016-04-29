@@ -40,27 +40,27 @@ Follow these steps for creating a read replica for your database instance using 
 
 2. In the top navigation bar, click the **Databases** menu and then select **MySQL**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/create_replica-1.png" width="332" height="185" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/create_replica-1.png %}" width="332" height="185" border="1" alt=""  />
 
 3. On the instance list page, click the plus sign (+) in the **Replicas** column for the database instance that you want to replicate.
 
-	<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/create_replica-4_0.png" width="400" height="148" border="1" alt=""  />
+	<img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/create_replica-4_0.png %}" width="400" height="148" border="1" alt=""  />
 
     **Tip:** You can also click the gear icon next to the instance and select **Create Replica**, or click the instance and then click **Add Replica** in the replication section of the instance page.
 
 4. Enter a name and set the configurations for the read replica, and then click **Create Replica**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/create_replica-3.png" width="350" height="290" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/create_replica-3.png %}" width="350" height="290" border="1" alt=""  />
 
 ### View the replicas attached to a database instance
 
 After you have created a replica, it is listed with the database instances.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/view_replica-1.png" width="450" height="194" border="1" alt=""  />
+<img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/view_replica-1.png %}" width="450" height="194" border="1" alt=""  />
 
 View the replica by clicking on it in the **Name** column or the **Replicas** column. The replication instance details page is displayed.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/vew_replica-2.png" width="450" height="430" border="1" alt=""  />
+<img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/vew_replica-2.png %}" width="450" height="430" border="1" alt=""  />
 
 You can also view the replica in the Replications section of the instance details page.
 
@@ -70,11 +70,11 @@ You can detach a replica from a database instance.
 
 1. On the details page for the replication instance, click the **Actions** menu and select **Detach from master**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2210-4640-detach.png" width="492" height="179" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/2210-4640-detach.png %}" width="492" height="179" border="1" alt=""  />
 
 2.	In the popup dialog box, click **Detach Instance**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2210-4640-detach-2.png" width="258" height="158" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/2210-4640-detach-2.png %}" width="258" height="158" border="1" alt=""  />
 
 There could be situations where you would like detach the replica. Here are some common scenario for detaching a replica:
 
@@ -86,13 +86,13 @@ There could be situations where you would like detach the replica. Here are some
 
 1. To delete a replica, click the gear icon next to it and select **Delete Instance**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/delete_replica-1.png" width="176" height="153" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/delete_replica-1.png %}" width="176" height="153" border="1" alt=""  />
 
     You can also click the replica in the instance list, and on the instance page, click the gear icon in the top right corner.
 
 2. In the popup dialog box, click **Delete Instance**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/delete_replica-2.png" width="245" height="139" border="1" alt=""  />
+    <img src="{% asset_path cloud-databases/database-replication-with-cloud-databases/delete_replica-2.png %}" width="245" height="139" border="1" alt=""  />
 
 Once you delete the replica instance, your data will no longer be replicated. You can delete the replica without detaching it from the primary database instance, but you cannot delete the primary database instance if it has replicas attached.
 

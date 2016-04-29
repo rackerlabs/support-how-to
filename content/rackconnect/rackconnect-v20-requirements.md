@@ -58,15 +58,15 @@ automation features are enabled, performs the following actions:
 **Without RackConnect**, traffic is routed out through the Internet when
 connecting from Dedicated to Cloud.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Without.RC_.png" width="320" height="218" />
+<img src="{% asset_path rackconnect/rackconnect-v20-requirements/Without.RC_.png %}" width="320" height="218" />
 
 **With RackConnect**, traffic is routed via your dedicated network
 device to the cloud. RackConnect automation keeps your dedicated
 configuration and cloud servers secure.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/With.RC_.png" width="320" height="218" />
+<img src="{% asset_path rackconnect/rackconnect-v20-requirements/With.RC_.png %}" width="320" height="218" />
 
-If you have any questions, please reach out to us. Our contact
+If you have any questions, reach out to us. Our contact
 information is available on the [Contact Us](/how-to/support) page.
 
 ### Next step

@@ -23,7 +23,7 @@ mechanisms.
 1.  In the Cloud Servers list, click the gear icon next to the server
     name and select **Add Tag**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-12%20at%207.19.50%20AM.png)
+    <img src="{% asset_path cloud-servers/using-cloud-servers-tags/Screen%20Shot%202015-01-12%20at%207.19.50%20AM.png %}" alt="" />
 
 2.  In the **Add or remove tags** popup box, type a tag label and then
     press **Enter**. You can enter as many tags as you want, pressing

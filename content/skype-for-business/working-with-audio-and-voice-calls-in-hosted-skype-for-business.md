@@ -28,7 +28,7 @@ microphone and speakers, or you can use a headset or earphones.
     click the **Select Your Primary Device** icon, and select **Audio
     Device Settings** from the menu.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4372.1.png" width="277" height="157" />
+    <img src="{% asset_path skype-for-business/working-with-audio-and-voice-calls-in-hosted-skype-for-business/4372.1.png %}" width="277" height="157" />
 
 2.  Click the **Select the device you want to use for audio** calls
     menu, and select the device that you want to use.
@@ -41,7 +41,7 @@ microphone and speakers, or you can use a headset or earphones.
         handset, speak into the receiver. If you are using a headset,
         speak into the microphone.
 
-        <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4372.2.png" width="426" height="286" />
+        <img src="{% asset_path skype-for-business/working-with-audio-and-voice-calls-in-hosted-skype-for-business/4372.2.png %}" width="426" height="286" />
 
 
 
@@ -51,13 +51,13 @@ In your contact list, hover your mouse pointer over the picture of the
 person you want to call, and then click the **Phone** icon.<span
 id="cke_bm_432E"> </span>
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/audio1a.jpg)
+<img src="{% asset_path skype-for-business/working-with-audio-and-voice-calls-in-hosted-skype-for-business/audio1a.jpg %}" alt="" />
 
 ### Answer an audio call
 
 When someone calls you, a notification appears on your screen.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Audio2.JPG" width="170" height="204" />
+<img src="{% asset_path skype-for-business/working-with-audio-and-voice-calls-in-hosted-skype-for-business/Audio2.JPG %}" width="170" height="204" />
 
 You can perform any of the following actions:
 

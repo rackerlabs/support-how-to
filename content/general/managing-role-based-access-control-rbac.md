@@ -51,7 +51,7 @@ click userName (accountNumber).
 
 2. From the menu, select **User Management.**
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/UserManagement_1.png" width="289" height="221" />
+  <img src="{% asset_path general/managing-role-based-access-control-rbac/UserManagement_1.png %}" width="289" height="221" />
 
 3. In the **User Management** box, click **Create User**.
 
@@ -167,7 +167,7 @@ same user to access to each account. In this situation, the account
 owner will need to configure that user with a different username for
 each account. The following graphic illustrates this scenario.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MutiAccountsRBAC.png" width="534" height="250" />
+<img src="{% asset_path general/managing-role-based-access-control-rbac/MutiAccountsRBAC.png %}" width="534" height="250" />
 
 ### Next section
 

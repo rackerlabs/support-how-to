@@ -29,7 +29,7 @@ To create new notifications or edit your
 existing notifications, click **Notify** at the top
 of the Rackspace interface, and then click **Notifications**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4746.1a.png" width="691" height="306" />
+<img src="{% asset_path rackspace-intelligence/working-with-notifications-in-rackspace-intelligence/4746.1a.png %}" width="691" height="306" />
 
 Sort the list of notifications by name or type. For example, sorting by
 type groups everyone who prefers to be notified by email.

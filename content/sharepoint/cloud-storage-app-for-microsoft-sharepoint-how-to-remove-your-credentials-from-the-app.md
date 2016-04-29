@@ -18,11 +18,11 @@ When you are working in Rackspace Cloud Storage App *for Microsoft
 SharePoint*, you can choose to remove the stored credentials by clicking
 the **Log Out** button.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Logout%20Button.jpg" width="449" height="143" />
+<img src="{% asset_path sharepoint/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app/Fig%20--%20Logout%20Button.jpg %}" width="449" height="143" />
 
 You are then prompted to confirm that you want to log out.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Logout%20Chicken%20Box.jpg" width="447" height="156" />
+<img src="{% asset_path sharepoint/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app/Fig%20--%20Logout%20Chicken%20Box.jpg %}" width="447" height="156" />
 
 If you choose to log out, the credentials that the app previously
 recorded are deleted. Until credentials are once again supplied, you

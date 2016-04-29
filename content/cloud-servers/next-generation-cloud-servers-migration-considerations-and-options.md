@@ -93,7 +93,7 @@ Manual migration is available as an alternative for unsupported instances and is
 
     If the server is compatible with the conversion process, you are given a choice between making a First Generation or Next Generation image.
 
-    ![Image migration](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/nextgen-snapshot.png)
+    <img src="{% asset_path cloud-servers/next-generation-cloud-servers-migration-considerations-and-options/nextgen-snapshot.png %}" alt="Image migration" />
 
     **Note:** If you don't see an option to create a Next Generation image, your instance is not supported by the conversion process. In that case, use one of the manual migration approaches described later in this section.
 

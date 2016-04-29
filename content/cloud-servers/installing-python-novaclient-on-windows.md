@@ -71,7 +71,7 @@ For most Windows versions you can set your environment variables through the "Sy
 
 Go to the Start Menu and choose "Control Panel". In the control panel go to the "System and Security" section, then choose "System". In the System control panel select the "Advanced" tab at the top. Then click the "Environment Variables..." button at the bottom.
 
-<img src="http://c8605408.r8.cf2.rackcdn.com/systempanel.png" />
+<img src="{% asset_path cloud-servers/installing-python-novaclient-on-windows/systempanel.png %}" />
 
 If you have any trouble finding the System control panel you can also type "environment" into the Start Menu's search field.  You'll get a link that lets you edit your environment variables.  If given a choice between editing values for your user account or the system, choose the selection for your user account unless you know other users on your machine will need to be able to use the nova client.
 
@@ -79,7 +79,7 @@ If you have any trouble finding the System control panel you can also type "envi
 
 Now you'll need to set five environment variables. For each, click the "New" button in the section for your user environment variables (the top pane, usually).
 
-<img src="http://c8605408.r8.cf2.rackcdn.com/envvars.png" />
+<img src="{% asset_path cloud-servers/installing-python-novaclient-on-windows/envvars.png %}" />
 
 Each variable set will require a name and a value.  These will be:
 

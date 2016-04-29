@@ -37,19 +37,19 @@ Panel](https://mycloud.rackspace.com).
 
 3\. Click **Create Service**.
 
-<img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/Screen%20Shot%202015-12-17%20at%209.42.19%20AM.png" width="619" height="493" />
+<img src="{% asset_path rackspace-cdn/rackspace-cdn-and-cloud-sites/Screen%20Shot%202015-12-17%20at%209.42.19%20AM.png %}" width="619" height="493" />
 
 4\. In the **Domain Name** field, enter the **www** address for your
 site. You can find this address in the Cloud Sites Control Panel, as
 shown in the following figure.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-09-16%20at%204.05.52%20PM.png" width="627" height="308" />
+<img src="{% asset_path rackspace-cdn/rackspace-cdn-and-cloud-sites/Screen%20Shot%202015-09-16%20at%204.05.52%20PM.png %}" width="627" height="308" />
 
 5\. In the **Origin** field, enter the IP address for your site. You can
 find the IP address on the **General Settings** tab in the Cloud Sites
 Control Panel, as shown in the following figure.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-09-16%20at%204.14.51%20PM.png" width="637" height="478" />
+<img src="{% asset_path rackspace-cdn/rackspace-cdn-and-cloud-sites/Screen%20Shot%202015-09-16%20at%204.14.51%20PM.png %}" width="637" height="478" />
 
 6\. Click **Create Service**.
 
@@ -59,7 +59,7 @@ After the service is created, the service details page is displayed.
 and copy the **CDN Domain** URL that is displayed in the pop-up menu.
 You need this URL in the next section, to update your DNS records.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-09-16%20at%204.21.48%20PM.png" width="647" height="377" />
+<img src="{% asset_path rackspace-cdn/rackspace-cdn-and-cloud-sites/Screen%20Shot%202015-09-16%20at%204.21.48%20PM.png %}" width="647" height="377" />
 
 ### Update DNS
 
@@ -73,7 +73,7 @@ site.
 2\. Delete the existing A record by selecting it, clicking on **Delete
 Selected**, and confirming the deletion.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-09-17%20at%202.31.45%20PM.png" width="655" height="252" />
+<img src="{% asset_path rackspace-cdn/rackspace-cdn-and-cloud-sites/Screen%20Shot%202015-09-17%20at%202.31.45%20PM.png %}" width="655" height="252" />
 
 3\. In the DNS Management section, click **Add Record**.
 
@@ -81,7 +81,7 @@ Selected**, and confirming the deletion.
 For Content, enter the CDN domain URL that you copied at the end of
 "Create a CDN service."
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-09-16%20at%204.37.58%20PM.png" width="666" height="391" />
+<img src="{% asset_path rackspace-cdn/rackspace-cdn-and-cloud-sites/Screen%20Shot%202015-09-16%20at%204.37.58%20PM.png %}" width="666" height="391" />
 
 
 **Note:** After you have updated the CNAME and verified that the change

@@ -1,7 +1,7 @@
 ---
 permalink: importing-data-into-cloud-databases/
 node_id: 1504
-title: Importing data into Cloud Databases
+title: Import data into Cloud Databases
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
@@ -16,7 +16,11 @@ Percona, or MariaDB database into a Cloud Database. If you haven't
 already created a Cloud Database instance and an empty database to
 receive the imported data, you will need to do that first. There are a
 number of ways to import data to a MySQL database, but the recommended
-process for cloud databases is outlined below.
+process for cloud databases is outlined below. However, for imports of 
+very large data sets or imports to mission critical database instances, 
+we recommend utilizing the Cloud Databases support team, which is included 
+in the cost of the Database, to plan and determine the best course of action 
+for your particular database. 
 
 You can import from databases on Rackspace's public cloud, on another
 cloud, or in your own datacenter. If the data is being imported from a
@@ -49,7 +53,7 @@ Perform the following steps:
     the Hostname. You'll use it in a later step. The Hostname looks
     something like this:
 
-    <img src="http://c691244.r44.cf2.rackcdn.com/Hostname%20of%20Database.png" alt="Database Hostname" width="600" />
+    <img src="{% asset_path cloud-databases/importing-data-into-cloud-databases/Hostname%20of%20Database.png %}" alt="Database Hostname" width="600" />
 
     **On your current database**
 
@@ -119,7 +123,7 @@ Perform the following steps:
     You'll use it in a later step. The public Hostname for an HA
     instance looks something like this:
 
-    <img src="http://16909682886ee5c2b59a-fffceaebb8c6ee053c935e8915a3fbe7.r35.cf2.rackcdn.com/HA_Group_Details_KC.png" width="600" />
+    <img src="{% asset_path cloud-databases/importing-data-into-cloud-databases/HA_Group_Details_KC.png %}" width="600" />
 
     **On your current database**
 

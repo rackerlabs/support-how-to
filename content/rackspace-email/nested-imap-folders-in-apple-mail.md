@@ -18,7 +18,7 @@ underneath the main Inbox folder (as shown in the following figure). This issue 
 functionality of Apple Mail and the IMAP protocol. Nested folders with
 Apple Mail are not specific to the Rackspace Email environment.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Nested%20copy.jpg" width="296" height="316" />
+<img src="{% asset_path rackspace-email/nested-imap-folders-in-apple-mail/Nested%20copy.jpg %}" width="296" height="316" />
 
 The information in this article might help you in resolving the issue
 with nested folders. If you are unable to correct the issue, we
@@ -42,7 +42,7 @@ mailbox, as follows:
     - Change the case of the prefix. For example, change INBOX to Inbox.
     - Add a slash (/) at the end of the prefix - for example, INBOX/ or Inbox/. A slash helps Apple Mail recognize that the path ends in a folder.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2_1.jpg" width="542" height="560" />
+<img src="{% asset_path rackspace-email/nested-imap-folders-in-apple-mail/2_1.jpg %}" width="542" height="560" />
 
 ###  Change mailbox behavior
 
@@ -51,7 +51,7 @@ example, the **Trash** folder is causing an issue. Try enabling and
 disabling the **Move deleted messages to the Trash mailbox** option and
 the **Store deleted messages on the server** option.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3_2.jpg" width="547" height="562" />
+<img src="{% asset_path rackspace-email/nested-imap-folders-in-apple-mail/3_2.jpg %}" width="547" height="562" />
 
 ### Reset Apple Mail preferences
 
@@ -65,7 +65,7 @@ configuration and all mail will stay in Apple Mail.
 You can find the file in the following
 directory: ***userName***/**Library**/**Containers**/**com.apple.mail**/**Data**/**Library**/**Preferences**
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_39.png" width="335" height="164" />
+<img src="{% asset_path rackspace-email/nested-imap-folders-in-apple-mail/4_39.png %}" width="335" height="164" />
 
 By default, the **Library** folder (under your username folder)
 is hidden. To access it, perform the following steps:
@@ -81,4 +81,4 @@ is hidden. To access it, perform the following steps:
 You can now navigate to the path where your **com.apple.mail.plist** file is
 located.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Library.jpg" width="511" height="321" />
+<img src="{% asset_path rackspace-email/nested-imap-folders-in-apple-mail/Library.jpg %}" width="511" height="321" />

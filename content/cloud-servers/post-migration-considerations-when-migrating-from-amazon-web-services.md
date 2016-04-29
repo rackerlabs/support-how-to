@@ -82,8 +82,7 @@ configure one or more of the following checks and alerts:
 Backups are an integral part of any production-level deployment and an
 essential component of a disaster recovery (DR) strategy. Rackspace
 provides a file-based backup system to help you meet your backup and
-restore needs. You can install the [Rackspace Cloud Backup agent](http://www.rackspace.com/cloud/backup/) by following the steps in
-the article [Rackspace Cloud Backup - Overview](/how-to/rackspace-cloud-backup-overview).
+restore needs. You can install the [Rackspace Cloud Backup agent](http://www.rackspace.com/cloud/backup/) by following the steps in the article [Install the agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) or [Install the agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
 
 Following are the key features of Cloud Backup:
 

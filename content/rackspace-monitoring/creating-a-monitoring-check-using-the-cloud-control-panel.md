@@ -53,13 +53,13 @@ only the system disk. The data disk is not monitored.
 4.  From the **Check Type** list, select the service that you want
     to monitor.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CreateCheck.png" width="465" height="283" />
+    <img src="{% asset_path rackspace-monitoring/creating-a-monitoring-check-using-the-cloud-control-panel/CreateCheck.png %}" width="465" height="283" />
 
 5.  Enter a descriptive name for the check in the Check Name box.
 6.  If you selected the **HTTP Check (website)** check, enter the URL of
     the website that you want to monitor.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CheckDetails3.png" width="542" height="538" />
+     <img src="{% asset_path rackspace-monitoring/creating-a-monitoring-check-using-the-cloud-control-panel/CheckDetails3.png %}" width="542" height="538" />
 
 -   *(Optional: HTTP Check Only)* Click **Advanced Options** and enter a
     word or phrase in the **Body Match** box that will appear on the
@@ -76,7 +76,7 @@ edit the Parameters under the Check Details to include additional
 regions, including: IAD (Northern Virginia), HKG (Hong Kong), and SYD
 (Sydney).
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/EditMonitoringParam.png" width="715" height="390" />
+<img src="{% asset_path rackspace-monitoring/creating-a-monitoring-check-using-the-cloud-control-panel/EditMonitoringParam.png %}" width="715" height="390" />
 
 
 
@@ -103,4 +103,4 @@ following:
 The following example shows a check in the OK state and one in the
 CRITICAL state:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Check%20Status_0.png" width="534" height="106" />
+<img src="{% asset_path rackspace-monitoring/creating-a-monitoring-check-using-the-cloud-control-panel/Check%20Status_0.png %}" width="534" height="106" />

@@ -1,7 +1,7 @@
 ---
 permalink: creating-cloud-queues/
 node_id: 3683
-title: Creating Cloud Queues
+title: Create a Cloud Queue
 type: article
 created_date: '2013-09-16'
 created_by: Megan Meza
@@ -14,11 +14,9 @@ product_url: cloud-queues
 Creating a Cloud Queue can be accomplished through the Control Panel or
 through your terminal.  After creating the Queue, you can use the
 Control Panel for viewing Queue details or deleting the Queue as
-needed.  All other Queue commands will be completed through the
-terminal.
+needed.  All other Queue commands will be completed through the terminal.
 
-**Note**: Be sure to [set up your authentication
-token](/how-to/cloud-queues-curl-cookbook)
+**Note**: Be sure to [set up your authentication token](/how-to/cloud-queues-curl-cookbook)
 before completing the terminal steps for creating your cloud queue.
 
 ### Creating the queue from the Control Panel
@@ -30,16 +28,18 @@ before completing the terminal steps for creating your cloud queue.
 
 When the queue is finished building, you will see the details for your
 queue listed in the Control Panel. You will then need to complete the
-steps under [Testing Your
-Queue](/how-to/cloud-queues-curl-cookbook)
+steps under [Testing Your Queue](/how-to/cloud-queues-curl-cookbook)
 in your terminal to begin posting messages to your Queue.
 
 ### Creating the queue from your terminal
 
-You can create a queue from your terminal by submitting a request to the Rackspace Cloud Queues API. You need to provide the following values in your request:
+You can create a queue from your terminal by submitting a request to the Rackspace Cloud 
+Queues API. You need to provide the following values in your request:
+
 [``$TOKEN`` - valid Rackspace Cloud authentication token](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-getting-started/authenticate) and ``$ENDPOINT`` -  the Cloud Queues API endpoint returned in the service catalog.
 
-Open your terminal, then submit the following cURL command to create the queue using the Cloud Queues API: Enter the followi
+Open your terminal, then submit the following cURL command to create the queue using the 
+Cloud Queues API: Enter the followi
 
 <!-- -->
 

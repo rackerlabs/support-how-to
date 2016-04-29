@@ -27,7 +27,7 @@ support channels.
     support telephone number is provided along with links to helpful
     documentation and the community forum.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-Home.PNG)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-getting-fanatical-support/CP-Home.PNG %}" alt="" />
 
 -   You will also notice that the **Cloud Status**, **Knowledge Base**,
     **Rackspace Community**, **Tickets**, and **Live Chat** links are available
@@ -39,7 +39,7 @@ support channels.
     -   **United Kingdom 24-hour Support:**  0800-083-3012
     -   **International:** 1-210-312-4000
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-Supportlinks.PNG)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-getting-fanatical-support/CP-Supportlinks.PNG %}" alt="" />
 
 -   **Cloud Status** - Having a problem getting to
     the Control Panel, or any other Rackspace Cloud services? The first
@@ -57,7 +57,7 @@ support channels.
     If you already know what you are looking for, the easiest way
     to find it is to enter keywords in the "Search our Support Network" bar at the top.
 
-  ![](https://b9002618969a676fa5e9-329656694c46da9401f89a96a819e8df.ssl.cf5.rackcdn.com/cloud-sites/cloud-sites-fanatical-support-how-to.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-getting-fanatical-support/cloud-sites-fanatical-support-how-to.png %}" alt="" />
 
 -   **Tickets** - the best way to communicate with
     our Support Technicians and provide specific details about a problem
@@ -67,7 +67,7 @@ support channels.
     entries directly into the ticket.  As you can imagine, trying to
     communicate this information over the phone is problematic at best.
 
-   ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-ticket.PNG)
+   <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-getting-fanatical-support/CP-ticket.PNG %}" alt="" />
 
 -   **Live Chat** - We have Support Technicians
     standing by 24 hours a day to answer any questions you have. Under
@@ -76,7 +76,7 @@ support channels.
     the appropriate Live Chat link for the product you need
     assistance with.
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CP-chat.PNG)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-getting-fanatical-support/CP-chat.PNG %}" alt="" />
 
 With all the support resources and support staff made available to you,
 it's no wonder why Rackspace is known as the home of Fanatical Support! This completes our tour of the Control Panel.

@@ -36,7 +36,7 @@ These options include:
 To narrow search results, click **Filter My Results** at the top of the
 window.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Manage%20Archive%20Search%20Results%201.png" width="858" height="220" />
+<img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/Manage%20Archive%20Search%20Results%201.png %}" width="858" height="220" />
 
 #### Multiple views ####
 
@@ -52,7 +52,7 @@ window.
 Click the appropriate option by which to sort: **Date**, **Relevance**,
 **Sender**, **Subject**, or **\# of Attachments**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Manage%20Archive%20Search%20Results%202.png" width="413" height="27" />
+<img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/Manage%20Archive%20Search%20Results%202.png %}" width="413" height="27" />
 
 #### Tags ####
 

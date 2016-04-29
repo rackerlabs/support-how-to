@@ -22,7 +22,7 @@ that you want to rename and select **Rename Service**.
 3\. In the popup dialog box, enter the new name for the service and then
 click **Rename Service**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RenameService.png" width="380" height="120" />
+<img src="{% asset_path rackspace-cdn/rename-a-rackspace-cdn-service/RenameService.png %}" width="380" height="120" />
 
 
 

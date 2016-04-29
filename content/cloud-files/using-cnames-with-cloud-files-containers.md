@@ -25,7 +25,7 @@ the container. You can find this in the Cloud Files section of the
 gear icon next to the container name and selecting **View All Links**. A
 popup dialog box with the CDN links to the container is displayed:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1080-2_2.png" width="492" height="246" />
+<img src="{% asset_path cloud-files/using-cnames-with-cloud-files-containers/1080-2_2.png %}" width="492" height="246" />
 
 Alternatively, you can request your container information via the Cloud
 Files API.
@@ -40,7 +40,7 @@ If you are using Rackspace Cloud DNS, creating a CNAME record that uses
 the example values introduced at the beginning of this article would
 look as follows:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cnameadd.png" width="516" height="282" />
+<img src="{% asset_path cloud-files/using-cnames-with-cloud-files-containers/cnameadd.png %}" width="516" height="282" />
 
 If you want to edit or delete your CNAME record, you can also do that by
 managing your DNS in your existing tool.

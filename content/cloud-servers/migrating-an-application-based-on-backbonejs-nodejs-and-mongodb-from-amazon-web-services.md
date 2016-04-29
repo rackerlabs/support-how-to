@@ -21,7 +21,7 @@ instructions step by step.
 The topology of the application in this scenario is presented in the
 following figure:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.4-diagram.png" width="650" />
+<img src="{% asset_path cloud-servers/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services/4.4-diagram.png %}" width="650" />
 
 ### Prerequisites
 

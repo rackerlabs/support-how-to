@@ -20,28 +20,28 @@ and assign it to your email address.
 
 1.  Tap on the system **Settings**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.%20Settings_2.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/1.%20Settings_2.png %}" width="217" height="386" />
 
 
 2.  Tap **Accounts and Sync** (**Accounts** on some devices).
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.%20Accounts%20and%20Sync_2.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/2.%20Accounts%20and%20Sync_2.png %}" width="217" height="386" />
 
 
 
 3.  Tap on **Add**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.%20Add_2.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/3.%20Add_2.png %}" width="217" height="386" />
 
 
 4.  Select **Exchange ActiveSync **(**Microsoft Exchange ActiveSync** on
     some devices).
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.%20Exchange%20ActiveSync_2.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/4.%20Exchange%20ActiveSync_2.png %}" width="217" height="386" />
 
 5.  Fill in your email address and password and tap **Manual Setup**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.%20Manual%20Setup_2.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/5.%20Manual%20Setup_2.png %}" width="217" height="386" />
 
 
 6.  On the next page, add in the rest of the necessary information:
@@ -62,13 +62,13 @@ and assign it to your email address.
     the phone is lost or stolen and there is sensitive company
     information within the device.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4_40.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/4_40.png %}" width="217" height="386" />
 
 7.  Next select the services you wish to sync with the Exchange server
     and when to sync. Tap **Next**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7.%20Sync%20Options_2.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/7.%20Sync%20Options_2.png %}" width="217" height="386" />
 
 8.  Give your account a descriptive name and tap **Finish Setup**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.%20Finalize_1.png" width="217" height="386" />
+    <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/8.%20Finalize_1.png %}" width="217" height="386" />

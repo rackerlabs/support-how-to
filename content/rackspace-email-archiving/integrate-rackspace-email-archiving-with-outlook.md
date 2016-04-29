@@ -39,7 +39,7 @@ archived mail.
 
     C.  Click **OK**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Integrate%20Archiving%20with%20Outlook%201A.png" width="401" height="533" />
+    <img src="{% asset_path rackspace-email-archiving/integrate-rackspace-email-archiving-with-outlook/Integrate%20Archiving%20with%20Outlook%201A.png %}" width="401" height="533" />
 
 7.  Open your newly integrated Microsoft Outlook folder.
     You should now be directly connected to your personal archive.

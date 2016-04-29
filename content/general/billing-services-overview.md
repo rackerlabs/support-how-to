@@ -29,7 +29,7 @@ Each product page on the main Rackspace website contains the most current pricin
 
     The menu gives you access to billing and payments, and a usage overview.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Untitled_0.png)
+    <img src="{% asset_path general/billing-services-overview/Untitled_0.png %}" alt="" />
 
 ### Current usage
 
@@ -37,11 +37,11 @@ From the **Account** menu, select **Usage Overview**.
 
 The balance-to-date is displayed for the Rackspace products that you are using. The message **No usage data** is displayed for the products that you are not using.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-12%20at%209.43.59%20PM_0.png)
+<img src="{% asset_path general/billing-services-overview/Screen%20Shot%202015-01-12%20at%209.43.59%20PM_0.png %}" alt="" />
 
 Click the arrow to the right of the dollar amount to see the details of your usage in type, unit price, quantity, and estimated total.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/currentusage.png)
+<img src="{% asset_path general/billing-services-overview/currentusage.png %}" alt="" />
 
 ### Billing overview
 
@@ -49,7 +49,7 @@ From the **Account** menu, select **Billing and Payments**.
 
 The Billing & Payments page shows your recent billing activity, current balance, billing history, and payment information. You can also change your billing and payment information from this page.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/billingpmts2.png)
+<img src="{% asset_path general/billing-services-overview/billingpmts2.png %}" alt="" />
 
 
 ### Detailed invoices

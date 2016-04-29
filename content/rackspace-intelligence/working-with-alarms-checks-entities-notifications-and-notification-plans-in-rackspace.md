@@ -25,13 +25,13 @@ perform the following steps:
 
 1.  Click **Monitor** and then click the **Entities** tab.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Entity%20List1_0.png" width="600" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Entity%20List1_0.png %}" width="600" />
 
 2.  To view details about a specific entity, click the link for the
     entity.
     The top of the details page shows information about the  entity.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Entity%20Details1.png" width="359" height="346" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Entity%20Details1.png %}" width="359" height="346" />
 
 ### Checks
 
@@ -58,7 +58,7 @@ steps:
     and click the link for the check that you want to view.
     A page that lists the check details is displayed.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Check%20Details1.png" width="600" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Check%20Details1.png %}" width="600" />
 
 ### Alarms
 
@@ -78,7 +78,7 @@ To view an alarm, perform the following steps:
     for which you want to view details.
     The alarm detail are displayed.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Alarm%20Details1.png" width="582" height="570" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Alarm%20Details1.png %}" width="582" height="570" />
 
 ### Open alerts
 
@@ -88,7 +88,7 @@ to monitor.
 You can view a list of all open alerts by clicking **Monitor** at the
 top of the Rackspace Intelligence interface and then clicking **Open Alerts**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Open%20Alerts.png" width="610" height="308" />
+<img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Open%20Alerts.png %}" width="610" height="308" />
 
 ### Notifications
 
@@ -104,7 +104,7 @@ click the **Notifications** tab. This action displays the
 **Notifications** page, which lists all the notifications that have been
 configured for you.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Notifications1.png" width="600" />
+<img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Notifications1.png %}" width="600" />
 
 ### Notification plans
 
@@ -118,4 +118,4 @@ To view the notification plans that have been configured for you, select
 click the **Notification Plans** tab. This action displays the
 **Notification Plans** page.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Notification%20Plans1.png" width="600" />
+<img src="{% asset_path rackspace-intelligence/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/Notification%20Plans1.png %}" width="600" />

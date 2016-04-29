@@ -79,13 +79,13 @@ To create a new alarm, complete the following steps:
 2.  In the **Monitoring** section, click the entity for which you want
     to define an alarm.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-alarms-entities-list.png" width="871" height="506" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms/intelligence-alarms-entities-list.png %}" width="871" height="506" />
 
     On the entity overview page, in the **Monitoring Checks** section,
     select the check for which you want to create the alarm and click
     on it.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-alarms-select-check.png" width="893" height="522" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms/intelligence-alarms-select-check.png %}" width="893" height="522" />
 
 3.  In the **Monitoring Checks** section of the entity details page,
     click the check for which you want to create the alarm.
@@ -136,7 +136,7 @@ To create a new alarm, complete the following steps:
     **Test Alarm** returns either a **Warning** or **Critical**
     result.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-alarms-test-critical.png" width="757" height="533" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms/intelligence-alarms-test-critical.png %}" width="757" height="533" />
 9.  After you have tested your alarm, click **Create Alarm**.
 
 After the alarm is successfully created, a new alarm details page
@@ -257,7 +257,7 @@ system check.
     left side of the section.
 7.  After you have successfully tested your alarm, click **Create
     Alarm**.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-alarms-filesystem-alarm-settings.png" width="850" height="581" />
+    <img src="{% asset_path rackspace-intelligence/working-with-alarms/intelligence-alarms-filesystem-alarm-settings.png %}" width="850" height="581" />
     The new alarm is displayed on the alarm details page.
 
 #### Create an alarm for an agent check type without an agent installed

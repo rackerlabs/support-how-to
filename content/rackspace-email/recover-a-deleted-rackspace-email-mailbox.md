@@ -15,7 +15,7 @@ This article explains how to recover a Rackspace Email mailbox that was deleted 
 
 To recover a Rackspace Email mailbox, create a new mailbox using the same username as the recently deleted mailbox. You'll be prompted with the option to restore the mailbox from the backup stored on our system.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Screen%20Shot%202015-01-21%20at%202.53.38%20PM.png" width="699" height="410" />
+<img src="{% asset_path rackspace-email/recover-a-deleted-rackspace-email-mailbox/Screen%20Shot%202015-01-21%20at%202.53.38%20PM.png %}" width="699" height="410" />
 
 -   To restore all messages to the new mailbox, click **Restore**.
 -   To create the mailbox without restoring any messages, click **No thanks, just create new mailbox**.

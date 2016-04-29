@@ -144,6 +144,12 @@ later if it's unavailable at some point. The dynamic option is useful
 when NTP is running on a machine that doesn't always have access to the
 Internet. It is not necessary on a machine with a dedicated connection.
 
+### NTP security
+
+Protect yourself against NTP server attacks by adding `disable monitor` to
+your **/etc/ntp.conf** file. Disabling monitoring will prevent unwanted remote
+queries that use commands from older versions of NTP, such as *monlist*.
+
 ### Syncing multiple servers
 
 If you have more than one machine to sync, it is best to designate one
@@ -202,7 +208,7 @@ NTP site. At the site is a description of the servers available, and in
 the sidebar are links to three levels of NTP servers: Primary,
 secondary, and pool.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/usingntp_0.png" width="183" height="249" />
+<img src="{% asset_path cloud-servers/using-ntp-to-sync-time/usingntp_0.png %}" width="183" height="249" />
 
 Deciding what type of server to sync from will depend on how accurate
 you need your servers to be.

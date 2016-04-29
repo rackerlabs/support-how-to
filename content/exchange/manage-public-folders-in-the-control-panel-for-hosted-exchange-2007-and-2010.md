@@ -40,7 +40,7 @@ folders that you have created:
 -   Whether the folders are mail-enabled
 -   The amount of storage that the folders are using
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Basic_a.png" height="250" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/Basic_a.png %}" height="250" />
 
 ### Manage public folders
 
@@ -67,13 +67,13 @@ steps:
 7.  Specify or edit the reply-to address.
 8.  Click **Save** to create the folder.
  
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Create_a.png" height="250" />
+    <img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/Create_a.png %}" height="250" />
 
 ### Delete public folder
 
 1.  In the list on the **Folders** page, click the gear icon next to the
     folder that you want to delete.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/delete_a.png" height="250" />
+    <img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/delete_a.png %}" height="250" />
 2.  From the menu, select **Delete**.
 3.  In the confirmation pop up box, click **Delete Folder**, to
     permanently delete the folder.
@@ -91,7 +91,7 @@ From the list of public folders, you can delete multiple folders at once
     the list and select **Delete**.
     The delete dialog pops up to confirm that you are about to delete
     the selected folders.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/bulk%20delete2.png" height="250" />
+    <img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/bulk%20delete2.png %}" height="250" />
 3.  In the confirmation popup box, click **Delete Folders** to
     permanently delete the selected folders.
 
@@ -101,7 +101,7 @@ From the list of public folders, you can delete multiple folders at once
     to the folder that you want to rename.
 2.  Select **Rename**, and then enter a new name for the folder.
 3.  Click **Rename**.
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rename_a.png" height="250" />
+    <img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/rename_a.png %}" height="250" />
 
 ### View and create subfolders (child folders)
 
@@ -114,7 +114,7 @@ page. The path is listed as ***domain* &gt; root &gt; *parentFolder***,
 and the page you are on is the subfolder list. See the following
 example:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/child%20subfolder.png" width="500" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/child%20subfolder.png %}" width="500" />
 
 You can create a subfolder in several ways:
 
@@ -151,7 +151,7 @@ You can create a subfolder in several ways:
 5.  To mail-enable the folder, select the **Enabled** check box.
 6.  Click **Save** to create the folder.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/subfolders2_a.png" height="250" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/subfolders2_a.png %}" height="250" />
 
 #### Search for a specific folder or subfolder
 
@@ -165,7 +165,7 @@ You can find a specific folder in the following ways:
   the word *sales* in it, you can search for the term *sales*. The
   application returns all folders with the word *sales* in their name.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/search.png" width="500" />
+<img src="{% asset_path exchange/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/search.png %}" width="500" />
 
 ### Edit mail settings
 

@@ -47,7 +47,7 @@ cinder-volume). In my case I want to also run cinder-volume on this node
 and I am specifying neutron, heat and other components as well just for
 demonstration purposes.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/blog%20visios.png" width="564" height="241" />
+<img src="{% asset_path rpc-openstack/installing-and-testing-cinder-in-your-rackspace-private-cloud-lab-environment/blog%20visios.png %}" width="564" height="241" />
 
 Running this command in your environment should look similar to this:
 

@@ -22,7 +22,7 @@ This article will show you how to create your domain through the [Cloud Sites Co
 -   Let's get started by first logging into the [Cloud Sites Control Panel](https://manage.rackspacecloud.com).
 -   After we're logged in, navigate to **Hosting > Cloud Sites**
 
-  ![](http://c806394.r94.cf2.rackcdn.com/cloudsites.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/cloudsites.png %}" alt="" />
 
 -   Now let's click on the **Add A Site** button shown in the image
     below
@@ -34,7 +34,7 @@ This article will show you how to create your domain through the [Cloud Sites Co
     1.  Who is this website for?
     2.  What is the domain name?
 
- ![](http://c806394.r94.cf2.rackcdn.com/namesite.png)
+ <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/namesite.png %}" alt="" />
 
 -   Once you've selected who the website will be for, and you've entered
     your new domain name, proceed by clicking **Add New Site**
@@ -47,7 +47,7 @@ This article will show you how to create your domain through the [Cloud Sites Co
 
 ### Register new domain name
 
-[<img src="http://c806394.r94.cf2.rackcdn.com/registerdomain.png" title="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/registerdomain.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/registerdomain.png %}" title="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/registerdomain.png)
 
 -   If the domain name is available, you will be asked to register the
     domain name. You also have the option to choose the domain name
@@ -64,7 +64,7 @@ someone has already setup this domain name on the Rackspace Cloud and it
 cannot be duplicated in our system. You can try a different domain name
 in the box below *Domain Name* and click **Continue** to proceed.
 
-![](http://c806394.r94.cf2.rackcdn.com/usedbyotherclient.png)
+<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/usedbyotherclient.png %}" alt="" />
 
 ### Domain cannot be automatically registered Or transferred
 
@@ -87,23 +87,23 @@ database.
 -   The next page will offer you 3 different options. The first option
     will allow you to add Microsoft SQL Server Storage space.
 
-[<img src="http://c806394.r94.cf2.rackcdn.com/mssqlserverstorage.png" title="Click here to view full size image" alt="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/mssqlserverstorage.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/mssqlserverstorage.png %}" title="Click here to view full size image" alt="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/mssqlserverstorage.png)
 
 -   Below that, you will be able to choose a number of Databases you
     would like.
 
-[<img src="http://c806394.r94.cf2.rackcdn.com/numberofdatabases.png" title="Click here to view full size image" alt="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/numberofdatabases.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/numberofdatabases.png %}" title="Click here to view full size image" alt="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/numberofdatabases.png)
 
 -   The last section will be where you will choose your websites
     default technology. For an extensive breakdown on the available
     technology in Cloud Sites, please click
     [here](http://www.rackspace.com/cloud/cloud_hosting_products/sites/technology/).
 
-[<img src="http://c806394.r94.cf2.rackcdn.com/defaulttechnology.png" title="Click here to view full size image" alt="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/defaulttechnology.png)
+[<img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/defaulttechnology.png %}" title="Click here to view full size image" alt="Click here to view full size image" width="600" />](http://c806394.r94.cf2.rackcdn.com/defaulttechnology.png)
 
 -   Click on **Next Step** to proceed once you have made your selections.
 
-  ![](http://c806394.r94.cf2.rackcdn.com/review.png)
+  <img src="{% asset_path cloud-sites/getting-started-with-cloud-sites-how-to-add-a-new-website/review.png %}" alt="" />
 
 -   Last, you will review your order, and click on **Finish** once you
     have verified everything is correct. If you would like to make any

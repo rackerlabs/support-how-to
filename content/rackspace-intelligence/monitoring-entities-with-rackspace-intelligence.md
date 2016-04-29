@@ -30,7 +30,7 @@ To see a list of the entities known to Rackspace Intelligence,
 select **Monitor** at the top of the Rackspace Intelligence interface,
 and then click **Entities**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitoring-create-entity-top-bar.png" width="729" height="283" />
+<img src="{% asset_path rackspace-intelligence/monitoring-entities-with-rackspace-intelligence/intelligence-monitoring-create-entity-top-bar.png %}" width="729" height="283" />
 
 From the **Monitor Entities** section, you can perform the following actions
 on the list of entities:
@@ -64,7 +64,7 @@ To create a new entity:
 
 1. On the **Monitoring** page, click **Create Entity**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-monitoring-create-entity-button.png" width="606" height="207" />
+   <img src="{% asset_path rackspace-intelligence/monitoring-entities-with-rackspace-intelligence/intelligence-monitoring-create-entity-button.png %}" width="606" height="207" />
 
 2. Type a name for your entity and click **Create Entity.**
 
@@ -143,7 +143,7 @@ To create a suppression:
 3. To add an additional entity to this supression, click **Add Entities** and select one or more entities.
 4. Click **Create Suppression**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-entities-create-suppression.png" width="899" height="607" />
+   <img src="{% asset_path rackspace-intelligence/monitoring-entities-with-rackspace-intelligence/intelligence-entities-create-suppression.png %}" width="899" height="607" />
 
 5. When asked to confirm that you want to create a suppression,
    click **Create Suppression Now**.
@@ -158,7 +158,7 @@ for an entity to launch a **Default Graphs** presentation for the
 entity. The page shows any graphs that are available for checks
 configured for the entity.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/intelligence-visualize-defaultgraphs-1on1off.png" width="743" height="280" />
+<img src="{% asset_path rackspace-intelligence/monitoring-entities-with-rackspace-intelligence/intelligence-visualize-defaultgraphs-1on1off.png %}" width="743" height="280" />
 
 For checks that are defined but not configured, a link to begin the
 process of configuring the check is provided.

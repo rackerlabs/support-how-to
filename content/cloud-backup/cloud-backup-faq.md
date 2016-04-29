@@ -5,15 +5,15 @@ title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Margaret Eker
+last_modified_date: '2016-04-05'
+last_modified_by: Stephanie Fillmon
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
 ### Account Services
 
-#### Why do I get 403 when trying to migrate a vault?
+#### Why do I get a 403 error when trying to migrate a vault?
 
 When you use the API endpoint to migrate an existing vault to a new
 agent, the new agent should not be configured with any new backup
@@ -24,21 +24,13 @@ You also cannot migrate an encrypted vault.
 See [Migrate Vault API call](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault)
 for a description.
 
-#### Why does my backup fail with the error: "container does not exist Invalid snapshot id and engine, and check config_backup.json id." ?
+#### Why does my backup fail with the error: `container does not exist Invalid snapshot id and engine, and check config_backup.json id.`?
 
-**Background**
-
-The Cloud Files container named `z_DO_NOT_DELETE_CloudBackup` is
+The Cloud Files container named **z_DO_NOT_DELETE_CloudBackup** is
 required for Rackspace Cloud Backup to work properly. If this container
-is deleted, you will receive the error, "Container does not exist.
-Invalid snapshot id and engine, and check config_backup.json id" when
+is deleted, you will receive the error, `Container does not exist.
+Invalid snapshot id and engine, and check config_backup.json id` when
 you attempt to do a backup.
-
-**Issue**
-
-Sometimes we see a customer backup fail with the error message:
-"Container does not exist Invalid snapshot id and engine, and check
-config_backup.json id."
 
 There are two causes for this error:
 
@@ -48,11 +40,7 @@ There are two causes for this error:
     JSON configuration. The common cause of this is that the customer
     has backup configurations that are in a corrupted state.
 
-**Solution**
-
-Do not delete the `z_DO_NOT_DELETE_CloudBackup` container in their
-cloud files; it is used for backup. If you have accidentally deleted
-this container, contact Rackspace Support.
+To resolve this error, *do not delete* the **z_DO_NOT_DELETE_CloudBackup** container in your Cloud Files account; it is used for backup. If you have accidentally deleted this container, contact Rackspace Support.
 
 ------------------------------------------------------------------------
 
@@ -60,7 +48,7 @@ this container, contact Rackspace Support.
 
 #### What is Rackspace Cloud Backup?
 
-Rackspace Cloud Backup is a service that allows you to select and backup
+Rackspace Cloud Backup is a service that allows you to select and back up
 specific files and folders from your Cloud Server. You can schedule any
 number of Backup jobs, and restore to the same system or a different
 one, giving you the flexibility and power to work with your schedule and
@@ -84,12 +72,12 @@ For information on getting started with Cloud Backup, see our [introduction for 
 #### Can Cloud Backup change my system config file, even after I have modified it?
 
 Yes - Some Ubuntu users have older agents installed on their machines.
-In order to communicate properly with your system, the config file may
+In order to communicate properly with your system, the **config** file may
 need to be overwritten with a current version.
 
 #### How does Rackspace Cloud Backup handle corrupt files?
 
-Rackspace double checks to make sure files get written properly when
+Cloud Backup double-checks to make sure files get written properly when
 backed up and restored. However, if an uploaded file is corrupt, it will
 get backed up and restored as corrupted. The backup and restore
 processes themselves should never corrupt files. File corruption
@@ -102,7 +90,7 @@ Rackspace does not store customer encryption keys. Only you will know
 and be able to access your encryption passphrase. If you forget your
 passphrase, you will not be able to restore data from your backups.
 
-For more information, see the section on [Setting up Encryption on your Cloud Backup System](/how-to/rackspace-cloud-backup-system-actions)
+For more information, see the section on [Setting up encryption on your Cloud Backup system](/how-to/rackspace-cloud-backup-system-actions)
 in the list of Cloud Backup actions.
 
 #### How do I generate a Rackspace Cloud Backup Encryption key?
@@ -116,7 +104,7 @@ All of your Cloud Backups are stored in your Cloud Files account.
 
 *But what if I never set up a Cloud Files account?*
 
-When you established your Cloud Account, a Cloud Files account was set
+When you established your Cloud account, a Cloud Files account was set
 up as well. You are not charged storage fees for your Cloud Files
 account until you begin storing things in it.
 
@@ -125,10 +113,9 @@ account until you begin storing things in it.
 You can create any number of backup jobs for each of your servers, and
 you can include a nearly unlimited number of files in each job.
 
-For more information, see [Creating a Backup](/how-to/rackspace-cloud-backup-create-a-backup-0)
-in the [introduction page for Cloud Backup](/how-to/rackspace-cloud-backup-overview).
+For more information, see [Creating a Backup](/how-to/rackspace-cloud-backup-create-a-backup).
 
-#### What is Deduplication?
+#### What is deduplication?
 
 Our block-level deduplication backs up only those portions of files
 that have changed since the previous backup. This means you don't
@@ -139,7 +126,7 @@ data. An added benefit is that this capability enables you to retrieve
 previous versions of your files (up to the limits specified in your data
 retention settings).
 
-See the section on [Scheduling and Deduplication](/how-to/rackspace-cloud-backup-backup-actions-0#configurebackup)
+See the section on [Scheduling and Deduplication](/how-to/rackspace-cloud-backup-backup-actions)
 in the list of Cloud Backup actions.
 
 #### Can I use Rackspace Cloud Backup on my server?
@@ -149,36 +136,35 @@ Rackspace Cloud. The exceptions are FreeBSD 9, Debian 5 and Windows
 2003.
 
 **Note:** If you have servers that are not in the Rackspace Cloud,
-you can use the [equivalent service offered by JungleDisk](https://jungledisk.com/) for those servers.
+you can use the equivalent service offered by [JungleDisk](https://jungledisk.com/) for those servers.
 
 If you have a server with a Managed Operations Service Level, you may
 already have the Cloud Backup agent installed on your system. If not,
 contact your account representative to get started.
 
-For more information, see the Rackspace Cloud Backup [introduction page](/how-to/rackspace-cloud-backup-overview).
+For more information, see the [Rackspace Cloud Backup introduction](/how-to/cloud-backup).
 
 #### How long are my Cloud Backups kept?
 
 You choose how long your backups are saved: 30 days, 60 days, or
 indefinitely.
 
-Read more about [Retaining your Backup](/how-to/rackspace-cloud-backup-backup-actions)
-in the [Rackspace Cloud Back Up Getting Started Guide](/how-to/cloud-backup).
+See the section on [Retaining your Backup](/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
 
 #### How do I configure my Rackspace Cloud Backups?
 
 You set up your backups in the Rackspace Cloud Backup Control Panel.
 
-If you need to create a new Backup, click the System you want to backup,
+If you need to create a new Backup, click the System you want to back up,
 and then the **Create Backup** button. If you already have a Backup and
 want to re-configure it, click the gear icon next to the Backup name and
-select **Configure Backup**. See our page on [Configuring a Backup through Backup Actions](/how-to/rackspace-cloud-backup-backup-actions-0)
+select **Configure Backup**. See our page on [Configuring a Backup through Backup Actions](/how-to/rackspace-cloud-backup-backup-actions)
 for more information.
 
 Backups can be set to run hourly, daily, weekly, or on demand
 (manually).
 
-Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-actions-0)
+Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-actions)
 in the list of Cloud Backup actions.
 
 #### Are 32-bit servers and agents on Linux supported?
@@ -210,8 +196,6 @@ fees, see the [Cloud Files storage fees](http://www.rackspace.com/cloud/cloud_ho
 
 #### Why are files that are being modified during backup missing or corrupted?
 
-**Background**
-
 There are 3 types of files that change as Cloud Backup backs them up:
 
 1.  Files that are being overwritten or get deleted as we back them up.
@@ -229,15 +213,11 @@ If files are modified during backup, they may be:
     will be restorable, and even if they are restored, we do not
     guarantee that what is restored is not corrupt.
 
-**Issue**
-
 These file types either change too rapidly (databases, logs, caches) or
 don't exist long enough to be backed up (session files). Session files
 should be avoided entirely. And if the information is valuable to your
 business, log files should track it. Caches should also be avoided, as
 their data is meant to be discarded.
-
-**Solution**
 
 If you do need to back up these files, our suggested workarounds are:
 

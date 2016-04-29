@@ -1,7 +1,7 @@
 ---
 permalink: dedicated-vmware-vcloud-faq/
 node_id: 4512
-title: Dedicated VMware vCloud FAQ
+title: Rackspace Private Cloud Powered by VMware vCloud FAQ
 type: article
 created_date: '2015-01-29'
 created_by: Karin Levenstein
@@ -11,7 +11,7 @@ product: Managed VMware Services
 product_url: managed-vmware-services
 ---
 
-Dedicated VMware vCloud&reg; is a private cloud offering based on VMware services hosted on a dedicated management cluster. This list of frequently asked questions provides details about Dedicated vCloud features and management options for vApps and virtual machines (VMs).
+Rackspace Private Cloud Powered by VMware vCloud&reg; (hereafter refered to as Dedicated vCloud) is a private cloud offering based on VMware services hosted on a dedicated management cluster. This list of frequently asked questions provides details about Dedicated vCloud features and management options for vApps and virtual machines (VMs).
 
 For more information, see the [Dedicated vCloud product page](http://www.rackspace.com/managed-virtualization/vmware-vcloud).
 
@@ -147,7 +147,7 @@ Any supported vApps deployed from the Rackspace-provided catalog are monitored b
 
 #### Is monitoring provided for my unmanaged VMs? {#monitoring-unmanaged}
 
-No.  Rackspace does not provide monitoring for VMs designated as unmanaged.  For more information, see [Dedicated VMware vCloud support coverage](/how-to/dedicated-vmware-vcloud-support-coverage).
+No.  Rackspace does not provide monitoring for VMs designated as unmanaged.  For more information, see [Dedicated vCloud support coverage](/how-to/dedicated-vmware-vcloud-support-coverage).
 
 #### How do I know if Dedicated vCloud resources are low? {#monitoring-resources}
 

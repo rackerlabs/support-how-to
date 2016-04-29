@@ -18,11 +18,11 @@ database.
 - First you will want to connect to your MS SQL Server database using the *myLittleAdmin* link in your Control Panel.
 - Once connected, click on the *Tools* NavBar in the lower-left frame.
 
-  ![](http://c15030753.r53.cf2.rackcdn.com/1_Tools.png)
+  <img src="{% asset_path cloud-sites/common-administrative-tasks-in-mssql-server/1_Tools.png %}" alt="" />
 
 - To submit a new query, click *New Query* from the Tools Menu and enter your query in the space provided in the center frame, then click *Submit*.
 
-  ![](http://c15030753.r53.cf2.rackcdn.com/2_NewQuery.png)
+  <img src="{% asset_path cloud-sites/common-administrative-tasks-in-mssql-server/2_NewQuery.png %}" alt="" />
 
 Following are the query commands for some common administrative tasks:
 

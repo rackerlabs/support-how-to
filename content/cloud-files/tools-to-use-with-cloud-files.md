@@ -5,7 +5,7 @@ title: Tools to use with Cloud Files
 type: article
 created_date: '2016-01-15'
 created_by: Stephanie Fillmon
-last_modified_date: '2016-01-15'
+last_modified_date: '2016-04-19'
 last_modified_by: Stephanie Fillmon
 product: Cloud Files
 product_url: cloud-files
@@ -30,3 +30,5 @@ The following tools are some of the methods you can use to upload and manage con
     10. Django is gaining steam: it's supported by Google App Engine, and it is gaining traction.
 
 **Media manager** plug-in will mirror your media library to your Cloud Files CDN. All URL's to this content will use the Cloud Files path when you insert them via the media manager. You can import all of your media to the CDN.
+
+For more information, go to [Cloud Tools](https://cloudtools.rackspace.com/home).

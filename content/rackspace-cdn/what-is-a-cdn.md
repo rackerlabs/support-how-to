@@ -60,7 +60,7 @@ in the following figures.
 -   End user requests www.rackspace.com (origin server) in browser.
 -   End user's browser receives content through multiple servers.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CDN-BEFORE_0.png" width="715" height="386" />
+<img src="{% asset_path rackspace-cdn/what-is-a-cdn/CDN-BEFORE_0.png %}" width="715" height="386" />
 
 
 
@@ -69,7 +69,7 @@ in the following figures.
 -   End user requests www.rackspace.com (origin server) in browser.
 -   End user's browser receives content from the optimum servers.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CDN-AFTER_0.png" width="723" height="363" />
+<img src="{% asset_path rackspace-cdn/what-is-a-cdn/CDN-AFTER_0.png %}" width="723" height="363" />
 
 CDNs focus on improving performance of web page delivery. CDNs like the
 Akamai CDN support progressive downloads, which optimizes delivery of
@@ -107,7 +107,7 @@ optimization goals.
 
 
 
-[<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/CDN-thirdIMAGE.png" width="783" height="419" />](#_msocom_4)
+[<img src="{% asset_path rackspace-cdn/what-is-a-cdn/CDN-thirdIMAGE.png %}" width="783" height="419" />](#_msocom_4)
 
 -   Request routing directs client requests to the content source best
     able to serve the request. This may involve directing a client

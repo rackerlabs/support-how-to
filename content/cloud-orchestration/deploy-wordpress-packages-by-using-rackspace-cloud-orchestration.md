@@ -19,7 +19,7 @@ Rackspace Cloud Orchestration for Cloud Servers simplifies the process of creati
 
 2. In the top navigation bar, click **Orchestration**, and under Create Resources, click **Stack**.
 
-     <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1560-3549-newimage_1.png" width="481" height="134" border="1" alt=""  />
+     <img src="{% asset_path cloud-orchestration/deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/1560-3549-newimage_1.png %}" width="481" height="134" border="1" alt=""  />
 
 3. Specify a name and region for your stack.
 
@@ -35,13 +35,13 @@ Rackspace Cloud Orchestration for Cloud Servers simplifies the process of creati
 
 On the stack details page you will see Up in the status field when the stack is complete.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3773Wordpressscreen.png" width="782" height="608" alt=""  border="1"/>
+<img src="{% asset_path cloud-orchestration/deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/3773Wordpressscreen.png %}" width="782" height="608" alt=""  border="1"/>
 
 ### Access the servers
 
 When your stack is up, go to the Stack Details page and click **View Credentials** to access the log in information for your new servers.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3773Wordpressscreen_0.png" width="220" height="26" border="1" alt=""  />
+<img src="{% asset_path cloud-orchestration/deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/3773Wordpressscreen_0.png %}" width="220" height="26" border="1" alt=""  />
 
 In the Stack Credentials window, you will see an SSH private key that you can use to access the servers in your stack as the root user, the root password for the database, and the WordPress password.
 

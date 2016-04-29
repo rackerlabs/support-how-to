@@ -39,7 +39,8 @@ yet have an OpenStack Nova API client set up, you must do so.
          OS_USERNAME=< Your Rackspace Username >
          OS_PASSWORD=< Your Rackspace API Key >
          OS_TENANT_NAME=< Your Rackspace Tenant ID>
-         OS_AUTH_SYSTEM=rackspace OS_REGION_NAME=IAD
+         OS_AUTH_SYSTEM=rackspace
+         OS_REGION_NAME=IAD
          NOVA_SERVICE_NAME=cloudServersOpenStack
 
 
@@ -94,7 +95,7 @@ flavor (server size).
 
 #### Supported Flavors
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/SupportedFlavors_0.png" width="704" height="168" />
+<img src="{% asset_path cloud-servers/using-onmetal-cloud-servers-through-api/SupportedFlavors_0.png %}" width="704" height="168" />
 
 -   All flavors have a 32 GB system disk.
 -   All flavors include dual 10 GigE NICs in a high availability bonded

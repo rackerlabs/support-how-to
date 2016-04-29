@@ -1,5 +1,5 @@
 ---
-permalink: information-for-mysql-users-mariadb-100-0/
+permalink: information-for-mysql-users-mariadb-100/
 node_id: 4729
 title: Information for MySQL Users (MariaDB 10.0)
 type: article
@@ -98,7 +98,7 @@ NEW phpMyAdmin URL
 -   From the domain details page click on the **Features** tab and select
     the active database you wish to reference:
 
-  ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/MySQL.png)
+  <img src="{% asset_path cloud-sites/information-for-mysql-users-mariadb-100/MySQL.png %}" alt="" />
 
 #### Will my database content be affected after the maintenance?
 

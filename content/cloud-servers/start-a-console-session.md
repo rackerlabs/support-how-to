@@ -24,7 +24,7 @@ As the administrator for your cloud servers, you might need to occasionally log 
 
 A terminal emulator window opens and displays your server's console. If you see a blank screen, hit Enter to bring up a login prompt or Windows desktop.
 
-<img alt="" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Console2.png" border="1" width="650" />
+<img alt="" src="{% asset_path cloud-servers/start-a-console-session/Console2.png %}" border="1" width="650" />
 
 If you get a security error message from Java, you might need to add the console URL to Java's security exceptions list.  For more information, see [How can I configure the Exception Site List?](http://java.com/en/download/faq/exception_sitelist.xml)
 
@@ -38,7 +38,7 @@ The top row of the console displays functions that you can use during a Console 
 
 - Click the Clipboard button to open the XVP Viewer Clipboard dialog box, which provides a convenient location to copy and paste lines of text.
 
-    <img alt="" src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/OptionsClipboard2.png" width="650" border="1" />
+    <img alt="" src="{% asset_path cloud-servers/start-a-console-session/OptionsClipboard2.png %}" width="650" border="1" />
 
 - Select the Ctrl or Alt check boxes while choosing an F key from the Fx list to emulate the corresponding keyboard functions in the Console.
 

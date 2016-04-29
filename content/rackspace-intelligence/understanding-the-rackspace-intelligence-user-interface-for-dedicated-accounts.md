@@ -19,7 +19,7 @@ When you [log in to Rackspace
 Intelligence](/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)[,](/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)
 you can view all your relevant information on the dashboard:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Dashboard.png" width="896" height="524" />
+<img src="{% asset_path rackspace-intelligence/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts/Dashboard.png %}" width="896" height="524" />
 
 The dashboard provides a main overview of all of your monitoring
 activities.

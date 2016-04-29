@@ -45,26 +45,26 @@ well.
 1.  Log in to the [Rackspace Cloud Control Panel](http://manage.rackspacecloud.com).
 2.  Navigate to **Hosting > Cloud Sites**.
 
-    ![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/hosting_0.png)
+    <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface/hosting_0.png %}" alt="" />
 
 3.  Click on the **domain name** that the database exists under.
 4.  Click on the **Features** tab.
 
-    ![](https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sites_tabs.png)
+    <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface/sites_tabs.png %}" alt="" />
 
 5.  Confirm that the database is active by scrolling to
     the Databases section. If the database is active it will display a
     green check mark icon in the status column as shown in the following
     figure:
 
-    ![](https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sites_dblist_0.png)
+    <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface/sites_dblist_0.png %}" alt="" />
 
 To start working with this database, you will need the **Hostname**,
 **username** and **password**. The details can be viewed by clicking on
 the hyperlink for the database, which results in a page that should be
 similar to this:
 
-![](https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dbinfo_0.png)
+<img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface/dbinfo_0.png %}" alt="" />
 
 -   The Server Name is listed as **Hostname** under
     the Database Information section.
@@ -107,7 +107,7 @@ database.
 5.  Finally, enter the **password** for this database user and
     click **Connect**.
 
-    ![](https://admin.rackspace.comhttps://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/dblogin_0.png)
+    <img src="{% asset_path cloud-sites/rackspace-cloud-sites-essentials-mylittleadmin-database-management-interface/dblogin_0.png %}" alt="" />
 
 6.  Now that you're logged into myLittleAdmin, you can manage your MSSQL
     database as necessary.

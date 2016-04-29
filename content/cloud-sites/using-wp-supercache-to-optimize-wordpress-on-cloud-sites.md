@@ -42,7 +42,7 @@ increase the efficiency of WP Supercache in Cloud Sites.
 
 Go to settings for SuperCache and click on the **Advanced** tab.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Tabs.png)
+<img src="{% asset_path cloud-sites/using-wp-supercache-to-optimize-wordpress-on-cloud-sites/Tabs.png %}" alt="" />
 
 Mark the following items:
 
@@ -65,13 +65,13 @@ After making those changes, click **Update Status**.
 After the screen refreshes scroll down to the Mod Rewrite Rules section
 and click **Update Mod_Rewrite Rules**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RewriteRules1.png)
+<img src="{% asset_path cloud-sites/using-wp-supercache-to-optimize-wordpress-on-cloud-sites/RewriteRules1.png %}" alt="" />
 
 #### Expiry time and garbage collection
 
 Scroll down to **Expiry Time & Garbage Collection**.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/gc_1.png)
+<img src="{% asset_path cloud-sites/using-wp-supercache-to-optimize-wordpress-on-cloud-sites/gc_1.png %}" alt="" />
 
 Change cache timeout to 0 seconds then click **Change Expiration**.
 
@@ -79,7 +79,7 @@ Change cache timeout to 0 seconds then click **Change Expiration**.
 
 Click on the **Preload** tab next.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Preload_0.png)
+<img src="{% asset_path cloud-sites/using-wp-supercache-to-optimize-wordpress-on-cloud-sites/Preload_0.png %}" alt="" />
 
 -   Select **Preload mode** (garbage collection only on legacy
     cache files. Recommended.).

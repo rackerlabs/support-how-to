@@ -29,7 +29,7 @@ navigate Cloud accounts in the MyRackspace portal, hyperlinks for
 products such as Cloud Servers, Cloud Networks, and Cloud DNS take you
 to the Cloud Control Panel where you are logged in automatically.
 
-![MyRackspace screenshot - Access SSO from the cog next to the user name](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sso_howto_use.png)
+<img src="{% asset_path cloud-servers/faq-for-seamless-sign-on-between-myrackspace-and-the-cloud-control-panel/sso_howto_use.png %}" alt="MyRackspace screenshot - Access SSO from the cog next to the user name" />
 
 #### How do I disable SSO?
 
@@ -43,7 +43,7 @@ Assign by Product**.
 Permissions are based on the access set for the individual Cloud account
 you are trying to access.
 
-![MyRackspace screenshot - layout of permissions screen](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sso_permissions_layout.png)
+<img src="{% asset_path cloud-servers/faq-for-seamless-sign-on-between-myrackspace-and-the-cloud-control-panel/sso_permissions_layout.png %}" alt="MyRackspace screenshot - layout of permissions screen" />
 
 #### How do MyRackspace permissions map to Cloud Control Panel permissions?
 
@@ -104,11 +104,11 @@ product.
 
 **View permissions by user:**
 
-![MyRackspace screenshot - Assign SSO permissions by user](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sso_permissions_by_user.png)
+<img src="{% asset_path cloud-servers/faq-for-seamless-sign-on-between-myrackspace-and-the-cloud-control-panel/sso_permissions_by_user.png %}" alt="MyRackspace screenshot - Assign SSO permissions by user" />
 
 **View permissions by product:**
 
-![MyRackspace screenshot - Assign SSO permissions by product](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/sso_permission_by_product.png)
+<img src="{% asset_path cloud-servers/faq-for-seamless-sign-on-between-myrackspace-and-the-cloud-control-panel/sso_permission_by_product.png %}" alt="MyRackspace screenshot - Assign SSO permissions by product" />
 
 #### Can I link back to MyRackspace from the Cloud Control Panel?
 

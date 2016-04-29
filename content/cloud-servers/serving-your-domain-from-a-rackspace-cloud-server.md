@@ -51,11 +51,3 @@ the original domain registrar.
 -   <span>The only product the Rackspace Cloud offers where
     we <span>*can* act as domain registrar is for [Cloud
     Sites](http://www.rackspace.com/cloud/sites/).</span></span>
-
-
-
-### Related Information
-
-[Learn More About
-DNS](/how-to/learn-more-about-dns "Learn More About DNS")
-

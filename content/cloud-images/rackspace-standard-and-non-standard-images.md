@@ -5,7 +5,7 @@ title: Rackspace Standard and Non-Standard Images
 type: article
 created_date: '2014-01-14'
 created_by: Cloud Images
-last_modified_date: '2016-01-12'
+last_modified_date: '2016-04-20'
 last_modified_by: Stephanie Fillmon
 product: Cloud Images
 product_url: cloud-images

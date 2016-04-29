@@ -20,18 +20,18 @@ and assign it to your email address.
 
 1. Tap the **Settings** icon, and then tap **Accounts and Sync**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/1.%20Settings.png" width="217" height="386" />
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/2.%20Accounts%20and%20Sync.png" width="217" height="386" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/1.%20Settings.png %}" width="217" height="386" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/2.%20Accounts%20and%20Sync.png %}" width="217" height="386" />
 
 2. Tap the **Add** icon, and then tap **Exchange ActiveSync**.
 
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/3.%20Add.png" width="217" height="386" />
-  <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4.%20Exchange%20ActiveSync.png" width="217" height="386" />
+  <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/3.%20Add.png %}" width="217" height="386" />
+  <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/4.%20Exchange%20ActiveSync.png %}" width="217" height="386" />
 
 3. Enter your email address and password, and then tap **Manual
    setup**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/5.%20Manual%20Setup.png" width="217" height="386" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/5.%20Manual%20Setup.png %}" width="217" height="386" />
 
 4. On the next page, enter the rest of the necessary information and
    then tap **Next**:
@@ -53,7 +53,7 @@ and assign it to your email address.
 
    - Select **This server requires an encrypted SSL connection**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/6.%20Server%20Settings%20Exchange.png" width="217" height="386" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/6.%20Server%20Settings%20Exchange.png %}" width="217" height="386" />
 
 5. If you are prompted to enable remote security administration, tap
    **Ok** or **Allow**.
@@ -64,11 +64,11 @@ and assign it to your email address.
 6. Select the services that you want to synchronize with the Exchange
    server and when to synchronize. Then, tap **Next**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/7.%20Sync%20Options.png" width="217" height="386" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/7.%20Sync%20Options.png %}" width="217" height="386" />
 
 7. Enter a descriptive name for your account and then tap **Finish
    setup**.
 
-   <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/8.%20Finalize.png" width="217" height="386" />
+   <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2010/8.%20Finalize.png %}" width="217" height="386" />
 
 Your Android phone and Microsoft Exchange account are now synchronized.

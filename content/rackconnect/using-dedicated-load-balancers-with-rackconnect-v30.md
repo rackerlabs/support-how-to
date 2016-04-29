@@ -19,7 +19,7 @@ minimizes response time and helps avoid overload. This article discusses
 the options that are available when you use dedicated load balancers
 with RackConnect v3.0.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig1-Ded.-LB-and-RCv3-Figure-Traffic-Flow-PNG-.5xhalf-border.png" width="599" height="484" />
+<img src="{% asset_path rackconnect/using-dedicated-load-balancers-with-rackconnect-v30/Fig1-Ded.-LB-and-RCv3-Figure-Traffic-Flow-PNG-.5xhalf-border.png %}" width="599" height="484" />
 
 ### Supported load balancers
 
@@ -51,13 +51,13 @@ In the **RackConnect Details** section (located directly below the **Server
 Details** section), you have the option to manage (add or remove) the
 cloud server from a list of automation-compatible load balancer pools.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig2_REACH_RC_Detail_PNG_B.png" width="483" height="507" />
+<img src="{% asset_path rackconnect/using-dedicated-load-balancers-with-rackconnect-v30/Fig2_REACH_RC_Detail_PNG_B.png %}" width="483" height="507" />
 
 #### To add a server to a load balancer pool
 
 1.  In the **RackConnect Details** section of the cloud server's management page, click **Select Pools**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig3_REACH_LB_Pool_Modal_PNG_smaller-border.png" width="500" height="241" />
+    <img src="{% asset_path rackconnect/using-dedicated-load-balancers-with-rackconnect-v30/Fig3_REACH_LB_Pool_Modal_PNG_smaller-border.png %}" width="500" height="241" />
 
 2.  In the popup dialog box, select the check box for each load balancer pool to which you want to add the cloud server.
 3.  To save your changes, click **Save Selected Load Balancer Pools**.

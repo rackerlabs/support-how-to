@@ -50,7 +50,7 @@ More information is available at the [Rackspace Private Cloud web page](http://w
 Yes, Rackspace offers several additional services for RPC customers.  Customers have the option to have a Dedicated OpenStack Engineer for their account, DevOps automation services to help you unlock the full power of your cloud through automation and professional services to help you get started with and optimize your private cloud.
 
 #### What are Rackspace Private Cloud's main differentiators?
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rpc-differentiators.png" width="700" alt="What differentiates Rackspace Private Cloud"  />
+<img src="{% asset_path rpc-openstack/rpc-openstack-faq/rpc-differentiators.png %}" width="700" alt="What differentiates Rackspace Private Cloud"  />
 
 >**Stable & Scalable**
 
@@ -144,7 +144,7 @@ The solution templates are not supported by RPC.
 
 #### Where are the solutions templates located?
 The general public can download our solution templates at the following GitHub site: [http://rcbops.github.io/templates/](http://rcbops.github.io/templates/). As part of our v10 release, Rackspace Private Cloud customers can now discover and deploy RPC solution templates using the RPC "Solutions" tab in the Horizon dashboard.  Following is a snapshot of the RPC "Solutions" tab in Horizon:
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/rpc-solutions-tab.png" width="700" alt="Rackspace Private Cloud Solutions tab screen shot"  />
+<img src="{% asset_path rpc-openstack/rpc-openstack-faq/rpc-solutions-tab.png %}" width="700" alt="Rackspace Private Cloud Solutions tab screen shot"  />
 
 #### Does Rackspace plan to offer additional templates in the future?
 Yes, Rackspace plans to continue adding new solution templates to the RPC "Solutions" tab.

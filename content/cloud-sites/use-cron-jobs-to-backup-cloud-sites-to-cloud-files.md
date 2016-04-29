@@ -106,7 +106,7 @@ the PHP API archive into the new "cloudfiles" directory. Once it's
 uploaded the contents of the /YOUR_WEB_ROOT/cloudfiles/ directory
 should look similar to this picture:
 
-![ftpstructure.png](http://c0935082.cdn.cloudfiles.rackspacecloud.com/ftpstructure.png)
+<img src="{% asset_path cloud-sites/use-cron-jobs-to-backup-cloud-sites-to-cloud-files/ftpstructure.png %}" alt="ftpstructure.png" />
 
 Next you will need to create a simple PHP script to connect to Cloud
 Files and upload the backup you are creating. We'll call it
@@ -172,7 +172,7 @@ step 1. The following screen shows a sample of the setup process in the
 Classic Cloud Control Panel for this task. Please note that the date,
 time and frequency can be modified to best suite your needs.
 
-![cronsetup.png](http://c0935082.cdn.cloudfiles.rackspacecloud.com/cronsetup.png)
+<img src="{% asset_path cloud-sites/use-cron-jobs-to-backup-cloud-sites-to-cloud-files/cronsetup.png %}" alt="cronsetup.png" />
 
 In the above example we chose "Perl" as the scripting language (the
 "Perl" option is used to run shell scripts as well) and scheduled the

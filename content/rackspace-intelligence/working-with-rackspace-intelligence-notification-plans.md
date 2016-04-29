@@ -21,12 +21,12 @@ existing notification plan, click **Notify** at
 the top of the Rackspace Intelligence interface and then click
 **Notification Plans**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4745.1a_0.png" width="704" height="276" />
+<img src="{% asset_path rackspace-intelligence/working-with-rackspace-intelligence-notification-plans/4745.1a_0.png %}" width="704" height="276" />
 
 You can sort the list of notification plans by name, number of
 notifications, or number of alarms.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/4745.2_0.png" width="93" height="197" />
+<img src="{% asset_path rackspace-intelligence/working-with-rackspace-intelligence-notification-plans/4745.2_0.png %}" width="93" height="197" />
 
 Sorting by the number of alarms can help you prioritize follow-up
 investigations.

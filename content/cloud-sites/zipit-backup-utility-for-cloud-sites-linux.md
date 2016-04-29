@@ -57,7 +57,7 @@ If you are looking for the IIS/ASP version of Zipit click here: [Zipit Backup Ut
 
 The following animation provides an overview of the Zipit Backup Utility features:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/zipit_1.gif)
+<img src="{% asset_path cloud-sites/zipit-backup-utility-for-cloud-sites-linux/zipit_1.gif %}" alt="" />
 
 **Note:** Zipit will only run on a site that is configured as
 Linux/PHP

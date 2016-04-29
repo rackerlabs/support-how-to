@@ -41,23 +41,23 @@ yourself, complete the following steps.
 
 2. If you have already created a migration, click **Manage Connectors**. If you are creating a new migration, click **Create a  Connector**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_1.png" width="410" height="378" />
+    <img src="{% asset_path rackspace-email/locking-down-ip-addresses-in-migrationwiz/Step_1.png %}" width="410" height="378" />
 
 3. In the top-right corner of the window that opens, click **Advanced Options**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/advanced.png" width="872" height="95" />
+    <img src="{% asset_path rackspace-email/locking-down-ip-addresses-in-migrationwiz/advanced.png %}" width="872" height="95" />
 
 4. Click the **Performance** tab.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_3.png" width="207" height="360" />
+    <img src="{% asset_path rackspace-email/locking-down-ip-addresses-in-migrationwiz/Step_3.png %}" width="207" height="360" />
 
 5. Set the **Preferred Data Center** value to **North America**.
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_4.png" width="435" height="235" />
+    <img src="{% asset_path rackspace-email/locking-down-ip-addresses-in-migrationwiz/Step_4.png %}" width="435" height="235" />
 
 6. Click the **Support** tab and type the following text in the blank field: **ProcessingRequirement=Local**
 
-    <img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Step_5.png" width="786" height="281" />
+    <img src="{% asset_path rackspace-email/locking-down-ip-addresses-in-migrationwiz/Step_5.png %}" width="786" height="281" />
 
 7. Save all changes.
 

@@ -29,13 +29,13 @@ For a file, read is the access to view the contents, write is access to modify t
 
 For a directory, read is access to list the contents of the directory, write is access to add or remove entries from the directory, and execute is access to traverse the directory. If you think of a directory as nothing more than a special file that contains directory entries, then read and write make more sense. Having write access to a directory allows you to add or remove entries, but does not mean that you can edit the contents of the file, which would require write access to the file. The execute access on a file controls two things. If a directory is not set to execute, then you can't change directory (cd) to it. Also, if a directory is not set to execute, you do not have access to change to any directory below it, regardless of those directories' permissions.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fileperms1a.png)
+<img src="{% asset_path cloud-sites/file-permissions-on-cloud-sites/fileperms1a.png %}" alt="" />
 
 ### Representing access with numbers
 
 Three digits represent all file access controls for UGO, one digit for each. The RWX are included in a single, three-bit wide digit by using a technique called **bit-mapping**. In bit-mapping, each bit has special meaning that represents a value of either ON or OFF. The following illustration provides a quick overview of binary notation.
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fileperms2.png)
+<img src="{% asset_path cloud-sites/file-permissions-on-cloud-sites/fileperms2.png %}" alt="" />
 
 The three access levels are assigned to a single to bit in the following order, from high to low: read write execute. Three bits (binary digits) can represent any eight values from 0-7. A range from 0-7 is called octal, as opposed to dealing with 0-9, which is called decimal. Read is in the 4s column. Write is in the 2s column. Execute is in the 1s column. The following table provides a reference:
 
@@ -52,7 +52,7 @@ The three access levels are assigned to a single to bit in the following order, 
 
 Each entity with access (who) is given one of these octal bit-maps in the following order from high to low: User Group Other. So each **who** has a way to represent, in octal, the read, write, and execute access for it. The following graphic provides an illustration:
 
-![](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/fileperms3.png)
+<img src="{% asset_path cloud-sites/file-permissions-on-cloud-sites/fileperms3.png %}" alt="" />
 
 A single octal digit represents the RWX ON and OFF values. Three of these octal values represent all three of the 'who'. So, the number 777, is not literally seven hundred-seventy-seven, it is actually 7, 7, and 7, where each octal digit indicates that all three bits have been set ON (4+2+1 = 7), thus giving full permissions to User, Group and Other.
 

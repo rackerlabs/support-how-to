@@ -22,7 +22,7 @@ displays a *drop zone* into which you can drag files (as shown in the
 following figure). Any files that you drop into the drop zone are
 streamed to your Cloud Files account.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Add%20File_0.jpg" width="501" height="225" />
+<img src="{% asset_path sharepoint/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/Fig%20--%20Add%20File_0.jpg %}" width="501" height="225" />
 
 ### How to delete a file from a container ###
 
@@ -36,7 +36,7 @@ file from a container in the following ways:
     that you select for deletion are highlighted with a dark
     gray background.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/Fig%20--%20Delete%20Files.jpg" width="502" height="211" />
+<img src="{% asset_path sharepoint/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/Fig%20--%20Delete%20Files.jpg %}" width="502" height="211" />
 
 When you delete a file, it is permanently removed from the Cloud Files
 container.

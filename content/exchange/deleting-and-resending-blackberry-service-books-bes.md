@@ -48,11 +48,11 @@ resend them to the device by using the control panel:
 1. Mouse over the **Go to section** drop-down menu and select
    **Microsoft Exchange**.
 
-   ![](http://c616663.r63.cf2.rackcdn.com/eaDeleting&ResendingBBServiceBooks1.png)
+   <img src="{% asset_path exchange/deleting-and-resending-blackberry-service-books-bes/eaDeleting&ResendingBBServiceBooks1.png %}" alt="" />
 
 2. In the **Email Accounts** section, click the **Mobile Messaging** link.
 
-   ![](http://c616663.r63.cf2.rackcdn.com/eaDeleting&ResendingBBServiceBooks2.png)
+   <img src="{% asset_path exchange/deleting-and-resending-blackberry-service-books-bes/eaDeleting&ResendingBBServiceBooks2.png %}" alt="" />
 
 3. If you have multiple domains, select the appropriate domain name.
 
@@ -64,7 +64,7 @@ resend them to the device by using the control panel:
 
 6. Under **Resend Service Books**, click the **Send to Device** button.
 
-   ![](http://c616663.r63.cf2.rackcdn.com/eaDeleting&ResendingBBServiceBooks3.png)
+   <img src="{% asset_path exchange/deleting-and-resending-blackberry-service-books-bes/eaDeleting&ResendingBBServiceBooks3.png %}" alt="" />
 
 After you resend the service books, you can
 confirm that they have been received by going back to the **Options** section of

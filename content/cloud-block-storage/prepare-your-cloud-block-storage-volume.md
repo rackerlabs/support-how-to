@@ -355,27 +355,27 @@ When you first log in and view the Computer window, you will not see the
 Cloud Block Storage Volume that is attached to the server. In the
 following example, only the server's C drive is displayed.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win%20-%20no%20volume.png" width="550" height="412" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/win%20-%20no%20volume.png %}" width="550" height="412" />
 
 3\.  Open the Server Manager window by right-clicking on the Computer
     icon and selecting Manage.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20manage%20-%20ord.png" width="441" height="340" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20manage%20-%20ord.png %}" width="441" height="340" />
 
 The Server Manager window is displayed:
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20server%20mgr.png" width="547" height="270" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20win%20-%20server%20mgr.png %}" width="547" height="270" />
 
 4\.  In the left pane of the Server Manager window, click **File and
     Storage Services**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20windows%20-%20file%20and%20storage.png" width="293" height="300" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20windows%20-%20file%20and%20storage.png %}" width="293" height="300" />
 
 5\.  In the left pane, click **Disks**.  In the following example, a 100
     GB volume is attached to the server. It is listed as Offline, it has
     100 GB of unallocated space, and its partition size is Unknown.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20disks.png" width="608" height="259" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20win%20-%20disks.png %}" width="608" height="259" />
 
 #### Step 2. Partition and format the drive.
 
@@ -392,17 +392,17 @@ Windows terminology, is required before running this wizard.
 
 The New Volume Wizard opens.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20new%20volume%20wizard%200.png" width="565" height="419" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20win%20-%20new%20volume%20wizard%200.png %}" width="565" height="419" />
 
 3\.  Click **Next**. In the Server and Disk page, the unformatted Cloud
     Block Storage volume is displayed.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20wizard%201.png" width="561" height="409" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20win%20-%20wizard%201.png %}" width="561" height="409" />
 
 4\.  Select the disk and click **Next**.  If the Offline or Uninitialized
     Disk message appears, click **OK**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win%20-%20init%20-%20disk.png" width="405" height="156" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/win%20-%20init%20-%20disk.png %}" width="405" height="156" />
 
 5\.  In the next three wizard pages, specify the drive size, the drive
     letter, and the format and name for the volume. Confirm your
@@ -410,16 +410,16 @@ The New Volume Wizard opens.
     100 GB is used, it is assigned the drive letter D, it is formatted
     as NTFS, and it is named My New CBS Volume.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20volume%20details.png" width="601" height="438" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20win%20-%20volume%20details.png %}" width="601" height="438" />
 
 6\.  To complete the process, click **Create**.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/win%20-%20completion.png" width="616" height="243" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/win%20-%20completion.png %}" width="616" height="243" />
 
 When you open the Computer window now, the new Cloud Block Storage
 volume is displayed like a regular hard drive.
 
-<img src="https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/cbs%20-%20win%20-%20confirmation.png" width="615" height="164" />
+<img src="{% asset_path cloud-block-storage/prepare-your-cloud-block-storage-volume/cbs%20-%20win%20-%20confirmation.png %}" width="615" height="164" />
 
 Your volume is now ready for use.
 

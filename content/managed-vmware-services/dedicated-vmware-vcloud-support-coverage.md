@@ -1,7 +1,7 @@
 ---
 permalink: dedicated-vmware-vcloud-support-coverage/
 node_id: 4511
-title: Dedicated VMware vCloud support coverage
+title: Rackspace Private Cloud Powered by VMware vCloud support coverage
 type: article
 created_date: '2015-01-29'
 created_by: Karin Levenstein
@@ -11,7 +11,7 @@ product: Managed VMware Services
 product_url: managed-vmware-services
 ---
 
-Support coverage for Rackspace Dedicated VMware vCloud is similar to that of our other server virtualization products. Our virtualization team maintains configurations and services in order to ensure server uptime.
+Support coverage for Rackspace Private Cloud Powered by VMware vCloud&reg; (hereafter refered to as Dedicated vCloud) is similar to that of our other server virtualization products. Our virtualization team maintains configurations and services in order to ensure server uptime.
 
 With Dedicated vCloud, you can designate the service level for virtual machines (VMs) as managed or unmanaged. Both service levels include Rackspace support for the host infrastructure and virtualization software. Managed VMs include additional support for the guest operating system running on the VM.
 
@@ -36,6 +36,7 @@ Remote administration for VMs | X | &nbsp;
 <a name="hardware-managed"> </a>
 
 #### Hardware support - managed
+
 Operation | Rackspace | Customer
 --- | --- | ---
 Manage delivery of equipment | X | &nbsp;
