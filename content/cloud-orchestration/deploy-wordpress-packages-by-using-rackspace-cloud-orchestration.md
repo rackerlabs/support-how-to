@@ -5,8 +5,8 @@ title: Deploy WordPress packages by using Rackspace Cloud Orchestration
 type: article
 created_date: '2013-11-12'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-05-02'
+last_modified_by: Stephanie Fillmon
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
