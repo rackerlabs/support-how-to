@@ -1,7 +1,7 @@
 ---
 permalink: using-cloud-load-balancers-with-rackconnect/
 node_id: 2029
-title: Using Cloud Load Balancers with RackConnect
+title: Use Cloud Load Balancers with RackConnect
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
