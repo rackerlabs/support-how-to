@@ -1,6 +1,6 @@
 ---
 node_id: 3437
-title: 'Checking for a security compromise: Rescue mode investigation'
+title: 'Check for a security compromise: Rescue mode investigation'
 type: article
 created_date: '2013-04-26'
 created_by: Rose Contreras
