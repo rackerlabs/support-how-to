@@ -5,8 +5,8 @@ title: Permissions matrix for Cloud Orchestration
 type: article
 created_date: '2014-02-05'
 created_by: Renee Rendon
-last_modified_date: '2016-01-27'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-05-02'
+last_modified_by: Stephanie Fillmon
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
