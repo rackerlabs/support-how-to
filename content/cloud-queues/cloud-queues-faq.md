@@ -5,7 +5,7 @@ title: Cloud Queues FAQ
 type: article
 created_date: '2013-09-18'
 created_by: Megan Meza
-last_modified_date: '2016-01-20'
+last_modified_date: '2016-05-02'
 last_modified_by: Stephanie Fillmon
 product: Cloud Queues
 product_url: cloud-queues
