@@ -11,15 +11,13 @@ product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
 
-Rackspace Cloud Orchestration for Cloud Servers simplifies the process of creating a WordPress environment, either as a stand-alone server or in a multiple-server cluster.
+Rackspace Cloud Orchestration for Cloud Servers simplifies the process of creating a WordPress environment, either as a stand-alone server or in a multiple-server cluster. This article shows how to deploy WordPress packages by using Cloud Orchestration.
 
 ### Deploy the servers
 
 1. Log in to the [Cloud Control Panel](http://mycloud.rackspace.com).
 
 2. In the top navigation bar, click **Orchestration**, and under Create Resources, click **Stack**.
-
-     <img src="{% asset_path cloud-orchestration/deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/1560-3549-newimage_1.png %}" width="481" height="134" border="1" alt=""  />
 
 3. Specify a name and region for your stack.
 
@@ -33,15 +31,11 @@ Rackspace Cloud Orchestration for Cloud Servers simplifies the process of creati
 
 8. Click **Create Stack**.
 
-On the stack details page you will see Up in the status field when the stack is complete.
-
-<img src="{% asset_path cloud-orchestration/deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/3773Wordpressscreen.png %}" width="782" height="608" alt=""  border="1"/>
+On the stack details page you will see a green **Up** status in the status field when the stack is complete.
 
 ### Access the servers
 
-When your stack is up, go to the Stack Details page and click **View Credentials** to access the log in information for your new servers.
-
-<img src="{% asset_path cloud-orchestration/deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/3773Wordpressscreen_0.png %}" width="220" height="26" border="1" alt=""  />
+After your stack is active, go to the Stack Details page and click **View Credentials** to access the login information for your new servers.
 
 In the Stack Credentials window, you will see an SSH private key that you can use to access the servers in your stack as the root user, the root password for the database, and the WordPress password.
 
