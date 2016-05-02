@@ -13,11 +13,6 @@ product_url: cloud-orchestration
 
 The following permissions matrix displays specific permissions for the roles in Cloud Orchestration. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[Cloud Orchestration API v1.0 Developer Guide](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)
-
-[Cloud Orchestration FAQ](/how-to/cloud-orchestration-faq)
-
-
 #### As of May, 2015
 
 Method name	| API action | Role | Description
@@ -35,7 +30,7 @@ Preview Stack | ```POST /stacks/preview``` | **Creator & Admin** | Previews a st
 **STACK RESOURCES** | | |
 Find Stack Resources | ```GET /stacks/{stack_name}/resources``` | **Observer & Creator & Admin** | Finds the canonical URL for the resource list of a specified stack.
 List Resources | ```GET /stacks/{stack_name}/{stack_id}/resources``` | **Observer & Creator & Admin** |	Lists resources in a stack.
-Get Resource Data | ```GET /stacks/{stack_name}/{stack_id}/resources/{resource_name}``` | Gets data for a specified resource.
+Get Resource Data | ```GET /stacks/{stack_name}/{stack_id}/resources/{resource_name}``` | **Observer & Creator & Admin** | Gets data for a specified resource.
 List Resource Types	| ```GET /resource_types``` | **Observer & Creator & Admin** | Lists the supported template resource types.
 Get Resource Schema | ```GET /resource_types/{type_name}``` | **Observer & Creator & Admin** | Gets the interface schema for a specified resource type.
 Get Resource Template | GET /resource_types/{type_name}/template | **Observer & Creator & Admin** | Gets a template representation for a specified resource type.
@@ -48,8 +43,6 @@ Show Event | ```GET /stacks/{stack_name}/{stack_id}/resources/events/{event_id}`
 Get Stack Template | ```GET /stacks/{stack_name}/{stack_id}/template``` | **Observer & Creator & Admin** | Gets a template for a specified stack.
 **BUILD INFORMATION** | | |
 Get Build Info | ```GET /build_info``` | **Observer & Creator & Admin** | Gets information about the current heat build.
-
-
 
 ### Cloud Orchestration terminology
 
