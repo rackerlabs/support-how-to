@@ -25,25 +25,25 @@ Use the following steps to copy individual backups from one datacenter to anothe
 
 3. In the **Backups** menu, select **MySQL Backups** under **MYSQL BACKUPS**.
   
-  [](https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/top_navigation_backups.png)
+  <img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/top_navigation_backups.png" alt="">
 
 4. In the list of backups, click the gear next to the backup you'd like to copy and select **Copy Backup**
-
-  [](https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backups_list_gear.png)
+  
+  <img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backups_list_gear.png" alt="">
 
   **Note:** Incremental backups can only be copied if the full backup they're related to has also been copied first. You can see if a backup is incremental by hovering over the backup name and looking at the **Type** line
 
-5. Select the region to copy the backup to in the dialog that appears and then click OK
-  
-  [](https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_copy_popover.png)
+5. Select the region to copy the backup to in the dialog that appears and then click OK.
+   
+  <img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_copy_popover.png" alt="">
 
 6. A message will appear at the lower right stating that the copy has been created and the backup being copied will enter the "copying" state
-  
-  [](https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_list_copying_state.png)
+    
+  <img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_list_copying_state.png" alt="">
 
 7. When the copy is complete, the original backup will return to the ready state. There will be a new backup with the same name and "-copy" appended to the name in the desired region. There will also be an icon next to the new backup indicating that it is a copy.
-  
-  [](https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png)
+    
+  <img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png" alt="">
 
 8. The new backup can now be used to create new instances or just as an additional backup
 
