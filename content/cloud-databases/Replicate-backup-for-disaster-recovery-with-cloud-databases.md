@@ -3,8 +3,8 @@ title: Replicate backups for disaster recovery with Cloud Databases
 type: article
 created_date: '2016-04-28'
 created_by: Steve Croce
-last_modified_date: '2016-04-28'
-last_modified_by: Steve Croce
+last_modified_date: '2016-05-03'
+last_modified_by: Kyle Laffoon
 product: Cloud Databases
 product_url: cloud-databases
 ---
