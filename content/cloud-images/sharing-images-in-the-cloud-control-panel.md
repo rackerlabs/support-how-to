@@ -190,8 +190,8 @@ cloud services in the ORD region may not be available to some
 customers. If you share an image with such a customer, the sharing will
 occur without error from your perspective. If the customer you are
 sharing an image with doesn't have cloud services in ORD, they will
-not see the image and won't be able to boot a server from the image. The customer can open a support ticket 
-to request ORD region access.
+not see the image and won't be able to boot a server from the image. The customer can 
+resolve this issue by opening a support ticket to request ORD region access.
 
 A customer can tell if they don't have access to the ORD region by
 looking in the Control Panel - it won't show up as an option in the
