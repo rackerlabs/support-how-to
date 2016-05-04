@@ -26,18 +26,18 @@ Use the following steps to copy individual backups from one region to another. T
   
 3. In the list of backups, click the gear icon next to the backup you want to copy and select **Copy Backup**.
   
-  **Note:** You can copy incremental backups only if the full backup to which it is related has been copied first. You can see whether a backup is incremental by hovering the mouse pointer over the backup name and looking at the **Backup Type** line.
+     **Note:** You can copy incremental backups only if the full backup to which it is related has been copied first. You can see whether a backup is incremental by hovering the mouse pointer over the backup name and looking at the **Backup Type** line.
 
 4. In the popup dialog box, select the region to copy the backup to, and then click **Copy Backup**.
   
-  **Note:** This feature is avialable only in US regions (IAD, ORD, and DFW).
+     **Note:** This feature is avialable only in US regions (IAD, ORD, and DFW).
 
 A message appears at the lower right stating that the copy has been created and the backup being copied is entering the **Copying** state.
-<img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_list_copying_state.png" alt=""  width="400">
+<img src="/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_list_copying_state.png" alt=""  width="400">
 
 When the copy is complete, the original backup returns to the ready state, and a new backup with the same name and **-copy** appended to the name is now located in the desingated region. An icon next to the new backup indicates that it is a copy.
 
-<img src="https://github.com/rackerlabs/rackspace-how-to/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png" alt=""  width="400">
+<img src="/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png" alt=""  width="400">
   
 You can now use the copied backup to create new instances or just as an additional backup.
 
