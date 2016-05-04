@@ -1,7 +1,7 @@
 ---
 permalink: using-cloud-databases-with-your-cloud-site/
 node_id: 1869
-title: Using Cloud Databases with your Cloud Site
+title: Use Cloud Databases with your Cloud Site
 type: article
 created_date: '2012-08-01'
 created_by: Chris Farmer
@@ -20,8 +20,8 @@ connect to your Cloud Database from Cloud Sites.
 
 ### Creating A Cloud Database
 
-1. First thing we'll do is login to the [Cloud Control Panel](https://mycloud.rackspace.com) and select
-**Databases** at the top.
+1. First thing we'll do is login to the [Cloud Control Panel](https://mycloud.rackspace.com) 
+and select **Databases** at the top.
 
   <img src="{% asset_path cloud-sites/using-cloud-databases-with-your-cloud-site/6.png %}" alt="" />
 
