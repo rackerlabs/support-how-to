@@ -35,7 +35,7 @@ Use the following steps to copy individual backups from one region to another. T
 A message appears at the lower right stating that the copy has been created and the backup being copied is entering the **Copying** state.
 
 When the copy is complete, the original backup returns to the ready state, and a new backup with the same name and **-copy** appended to the name is now located in the desingated region. An icon next to the new backup indicates that it is a copy.
-  
+
 You can now use the copied backup to create new instances or just as an additional backup.
 
 ### Limitations
