@@ -1,7 +1,7 @@
 ---
 permalink: deleting-and-resending-blackberry-service-books-bes/
 node_id: 1078
-title: Deleting and resending BlackBerry&reg; Service Books - (BES)
+title: Delete and resend BlackBerry&reg; Service Books - (BES)
 type: article
 created_date: '2011-04-21'
 created_by: Rackspace Support
@@ -11,17 +11,13 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Service books determine which services are
-available on your BlackBerry&reg; device.  At times, the service books
-become corrupt and can cause the Blackberry Enterprise Server (BES) to
-fail upon synchronizing updates of PIM data such as calendar or address
-book entries. These issues are frequently resolved by deleting and
-resending the service books to the device. If this happens to a user,
-have the user delete
-all their service books starting with the "Desktop" from their Blackberry
-device. After all service books are deleted,
-resend the service books from your Cloud Office
-control panel.
+Service books determine which services are available on your BlackBerry&reg; device.  At 
+times, the service books become corrupt and can cause the Blackberry Enterprise Server (BES) 
+to fail upon synchronizing updates of PIM data such as calendar or address book entries. 
+These issues are frequently resolved by deleting and resending the service books to the 
+device. If this happens to a user, have the user delete all their service books starting 
+with the "Desktop" from their Blackberry device. After all service books are deleted, resend 
+the service books from your Cloud Office control panel.
 
 ### Delete service books
 
@@ -66,6 +62,5 @@ resend them to the device by using the control panel:
 
    <img src="{% asset_path exchange/deleting-and-resending-blackberry-service-books-bes/eaDeleting&ResendingBBServiceBooks3.png %}" alt="" />
 
-After you resend the service books, you can
-confirm that they have been received by going back to the **Options** section of
-the user's BlackBerry as described above.
+After you resend the service books, you can confirm that they have been received by going 
+back to the **Options** section of the user's BlackBerry as described above.

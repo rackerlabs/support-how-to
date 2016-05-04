@@ -1,7 +1,7 @@
 ---
 permalink: migrating-public-folder-data/
 node_id: 3791
-title: 'Migrating Public Folder data'
+title: 'Migrate Public Folder data'
 type: article
 created_date: '2013-11-21'
 created_by: Milton Prado

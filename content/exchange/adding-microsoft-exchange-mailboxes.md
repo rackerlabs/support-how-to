@@ -1,7 +1,7 @@
 ---
 permalink: adding-microsoft-exchange-mailboxes/
 node_id: 1401
-title: Adding Microsoft Exchange mailboxes
+title: Add Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
