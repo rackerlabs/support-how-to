@@ -1,7 +1,7 @@
 ---
 permalink: logging-in-to-the-rackspace-intelligence-dashboard/
 node_id: 4740
-title: Logging in to the Rackspace Intelligence dashboard
+title: Log in to the Rackspace Intelligence dashboard
 type: article
 created_date: '2015-07-16'
 created_by: Rose Coste
