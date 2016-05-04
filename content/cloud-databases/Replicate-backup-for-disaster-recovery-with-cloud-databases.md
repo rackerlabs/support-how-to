@@ -33,11 +33,8 @@ Use the following steps to copy individual backups from one region to another. T
      **Note:** This feature is avialable only in US regions (IAD, ORD, and DFW).
 
 A message appears at the lower right stating that the copy has been created and the backup being copied is entering the **Copying** state.
-<img src="/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/backup_list_copying_state.png" alt=""  width="400">
 
 When the copy is complete, the original backup returns to the ready state, and a new backup with the same name and **-copy** appended to the name is now located in the desingated region. An icon next to the new backup indicates that it is a copy.
-
-<img src="/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png" alt=""  width="400">
   
 You can now use the copied backup to create new instances or just as an additional backup.
 
