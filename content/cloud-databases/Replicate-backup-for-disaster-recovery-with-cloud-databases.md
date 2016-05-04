@@ -37,7 +37,7 @@ A message appears at the lower right stating that the copy has been created and 
 
 When the copy is complete, the original backup returns to the ready state, and a new backup with the same name and **-copy** appended to the name is now located in the desingated region. An icon next to the new backup indicates that it is a copy.
 
-<img src="/blob/master/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png" alt=""  width="400">
+<img src="/_assets/img/cloud-databases/backup-replication-for-disaster-recovery/copy_complete.png" alt=""  width="400">
   
 You can now use the copied backup to create new instances or just as an additional backup.
 
