@@ -5,13 +5,13 @@ title: Upgrade email hosting in the Cloud Office Control Panel
 type: article
 created_date: '2014-04-02'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-05-03'
+last_modified_by: Beau Bailey
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-To add mailboxes, storage, or other add-ons to your email hosting, [log in to the Cloud Office Control Panel](https://cp.rackspace.com/), and complete the following steps:
+To add mailboxes, storage, or other add-ons to your email hosting, log in to the Cloud Office Control Panel (Customers who signed up online you can log in [here] (https://cp.rackspace.com), for others you will need to navigate to the Cloud Office Control Panel through your [MyRackspace] (https://my.rackspace.com) portal, and complete the following steps:
 
 1.  At the top of the page, click your account name and select **Upgrades & Services**.
 2.  On the **Upgrades & Services** tab, click **Email Hosting**.
