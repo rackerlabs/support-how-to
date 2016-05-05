@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-To add mailboxes, storage, or other add-ons to your email hosting, log in to the Cloud Office Control Panel. Customers who signed up online can log in [here](https://cp.rackspace.com). 
+To add mailboxes, storage, or other add-ons to your email hosting, log in to the Cloud Office Control Panel. Customers who signed up online through Rackspace.com can log in [here](https://cp.rackspace.com). 
 
 If you did not sign up online, you will need to navigate to the Cloud Office Control Panel through your [MyRackspace portal] (https://my.rackspace.com).
 
