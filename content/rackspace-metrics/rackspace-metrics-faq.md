@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-metrics-frequently-asked-questions/
+permalink: rackspace-metrics-faq/
 node_id: 4649
 title: Rackspace Metrics FAQ
 type: article
