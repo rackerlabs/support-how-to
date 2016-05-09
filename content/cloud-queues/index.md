@@ -28,3 +28,8 @@ Cloud Queues is an open-source messaging system, designed to help customers buil
 ###  API access
 
 - [Cloud Queues cURL Cookbook](/how-to/cloud-queues-curl-cookbook)
+
+### Additonal resources
+
+- [Cloud Queues Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/)
+- [Cloud Queues Getting Started Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started)
