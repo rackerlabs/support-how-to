@@ -20,8 +20,8 @@ per-device overview of your billing charges.
 ### Open a detailed invoice
 
 1.  Log in to the Cloud Control Panel.
-2.  In the upper-right corner of the page, click **Account: *your
-    Username* > Billing and Payments.**
+2.  In the upper-right corner of the page, click **Your
+    Username > Billing and Payments**.
 3.  Under Billing History, click the ID number of the invoice that you
     want to view.
     <img src="{% asset_path general/detailed-invoices-overview/billinghistory.png %}" width="600" />
@@ -29,8 +29,7 @@ per-device overview of your billing charges.
 4.  Under Invoice Summary, click **Detailed View of Charges**.
     <img src="{% asset_path general/detailed-invoices-overview/invoicesummary.png %}" width="600" />
 
-    A separate window opens and displays your detailed invoices. The
-    invoice can take up to 1 minute to load.
+    A separate window opens and displays your detailed invoices.
 
     Once loaded, the invoice should look as follows:
     <img src="{% asset_path general/detailed-invoices-overview/detailedinvoice.png %}" width="600" />
@@ -43,17 +42,17 @@ collapsible list of detailed line items. Detailed line items show the
 devices that use the service, indicated by the name given to the device
 when it was created.
 
-To expand the list, click the arrow next to the service.
+To expand the list, click the arrow next to the service. To see a list of devices that use the service, click the arrow next to **Devices**.
 
   <img src="{% asset_path general/detailed-invoices-overview/detailedinvoiceexpand.png %}" width="600" />
 
-When a service's list is expanded, each item contains at least two
+When the list of devices is expanded, each device contains at least two
 lines. The first line indicates the total charges for the device. Any
 line under the first indicates an itemized price based on how the device
 was used.
 
 For example, in the Cloud Servers list, the cost for the server named
-LinuxTEST is calculated from two items: Legacy Server Uptime and Legacy
+*LinuxTEST* is calculated from two items: Legacy Server Uptime and Legacy
 Server IP. The number in the first line is the sum of the two items
 under it.
 
@@ -67,8 +66,7 @@ cursor with the equation used to calculate the charge.
 
 Lastly, at the top of the invoice is a collapsible list called
 **Account**. Account-level charges are the charges that are not specific
-to an individual device. This includes service specific charges such as
-bandwidth charges.
+to an individual device.
 
 **Note:** Although their format is similar, detailed invoices are
 displayed differently than the CSV format of invoices. The CSV format
