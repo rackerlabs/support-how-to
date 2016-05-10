@@ -20,18 +20,17 @@ per-device overview of your billing charges.
 ### Open a detailed invoice
 
 1.  Log in to the Cloud Control Panel.
+
 2.  In the upper-right corner of the page, click **Your
     Username > Billing and Payments**.
+
 3.  Under Billing History, click the ID number of the invoice that you
     want to view.
-    <img src="{% asset_path general/detailed-invoices-overview/billinghistory.png %}" width="600" />
 
 4.  Under Invoice Summary, click **Detailed View of Charges**.
-    <img src="{% asset_path general/detailed-invoices-overview/invoicesummary.png %}" width="600" />
 
-    A separate window opens and displays your detailed invoices.
+    A separate window opens and displays your detailed invoice.
 
-    Once loaded, the invoice should look as follows:
     <img src="{% asset_path general/detailed-invoices-overview/detailedinvoice.png %}" width="600" />
 
 ### Detailed invoice features
@@ -61,8 +60,6 @@ under it.
 If you want details about how a device's use charge was calculated,
 place your cursor over the charge. A pop-up box appears next to the
 cursor with the equation used to calculate the charge.
-
- <img src="{% asset_path general/detailed-invoices-overview/linuxequation.png %}" width="600" />
 
 Lastly, at the top of the invoice is a collapsible list called
 **Account**. Account-level charges are the charges that are not specific
