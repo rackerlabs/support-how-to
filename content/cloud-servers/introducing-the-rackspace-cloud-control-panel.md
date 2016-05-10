@@ -31,12 +31,12 @@ Rackspace Cloud products are categorized under the following headings:
 
 | Category | Products |
 | --- | --- |
-| Servers | Cloud Servers <br />Saved Images <br />Auto Scale <br />SSH Keys <br />Message Queueing <br />Rackspace Intelligence |
-| Networking | Load Balancers <br />Networks <br />Cloud DNS <br /> CDN |
-| Storage | Block Storage Volumes <br />Snapshots <br />Files <br />CDN |
-| Databases | MySQL <br />MongoDB <br />Redis <br />Elasticsearch <br />Big Data |
-| Orchestration | Stack Templates <br />Stacks |
-| Backups | Systems <br />Backups <br />Activity <br />Preferences <br />MySQL Backups |
+| **Servers** | Cloud Servers <br />Saved Images <br />Auto Scale <br />SSH Keys <br />Message Queueing <br />Rackspace Intelligence |
+| **Networking** | Load Balancers <br />Networks <br />Cloud DNS <br /> CDN |
+| **Storage** | Block Storage Volumes <br />Snapshots <br />Files <br />CDN |
+| **Databases** | MySQL <br />MongoDB <br />Redis <br />Elasticsearch <br />Big Data |
+| **Orchestration** | Stack Templates <br />Stacks |
+| **Backups** | Systems <br />Backups <br />Activity <br />Preferences <br />MySQL Backups |
 
 ### Organization
 
@@ -47,7 +47,7 @@ resources no matter the size or shape of your cloud inventory.
 
 -  **Filters** - Enable you to find all resources that share the following common properties: Tag, Status, Image, RAM, Region, or Type.
 
-  The list of filters is located at the left side of the control panel. When you create and tag resources, the list is automatically populated. When you select a check box next to a filter, the list of resources shows only the matching ones.
+   The list of filters is located at the left side of the control panel. When you create and tag resources, the list is automatically populated. When you select a check box next to a filter, the list of resources shows only the matching ones.
 
 -  **Search** - A convenient and fast search field in the upper-right corner of each
 asset listing gives you another method for locating any asset. Simply
