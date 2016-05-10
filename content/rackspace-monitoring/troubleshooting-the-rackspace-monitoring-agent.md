@@ -5,8 +5,8 @@ title: Troubleshoot the Rackspace Monitoring Agent
 type: article
 created_date: '2012-11-13'
 created_by: Susan Million
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze Kratel
+last_modified_date: '2016-05-10'
+last_modified_by: Zoltan Ver
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
@@ -54,11 +54,11 @@ performing the following steps:
     and contains a valid agent token.
 3.  Check for errors and status information in the
     **/var/log/rackspace-monitoring-agent.log** file:
-    
+
         $ less /var/log/rackspace-monitoring-agent.log
 
-    This excert from a log file below is demonstrating a connection timeout failure:
-    
+    Look for errors like the following excerpt from a log file demonstrates a connection timeout failure:
+
     "Fri Feb 19 10:02:47 PM 2016 **ERR: Connection**: agent-endpoint-lon.monitoring.api.rackspacecloud.com:443 (agent-endpoint-lon.monitoring.api.rackspacecloud.com:443) -> **ETIMEDOUT**"
 
 4.  Run the following command to verify that the agent is running:
@@ -70,11 +70,11 @@ performing the following steps:
         $ service rackspace-monitoring-agent status
 
     Attempt to start it if it's not shown as running:
-    
+
         $ service rackspace-monitoring-agent start
 
-5.  Ensure that you have firewall rules that allow IPv6 communication or
-    if you have IPv6 disabled, make sure that the firewall is permitting
+5.  Make sure that you have firewall rules that allow IPv6 communication.
+    Ff you have IPv6 disabled, make sure that the firewall is permitting
     the agent to communicate.
 
 
@@ -94,8 +94,8 @@ performing the following steps:
 4.  Verify that the monitoring agent is running by opening the Task
     Manager, clicking the **Services** tab and locating the **Rackspace
     Monitoring** agent service.
-5.  Ensure that you have firewall rules that allow IPv6 communication or
-    if you have IPv6 disabled, make sure that the firewall is permitting
+5.  Make sure that you have firewall rules that allow IPv6 communication.
+    If you have IPv6 disabled, make sure that the firewall is permitting
     the agent to communicate.
 
 ### Check for duplicate entities

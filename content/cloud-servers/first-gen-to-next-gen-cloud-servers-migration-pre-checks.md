@@ -5,8 +5,8 @@ title: First Gen to Next Gen Cloud Servers migration pre-checks
 type: article
 created_date: '2015-05-15'
 created_by: David Hendler
-last_modified_date: '2016-01-14'
-last_modified_by: Rose Coste
+last_modified_date: '2016-05-10'
+last_modified_by: Zoltan Ver
 product: Cloud Servers
 product_url: cloud-servers
 ---
