@@ -31,7 +31,7 @@ per-device overview of your billing charges.
 
     A separate window opens and displays your detailed invoice.
 
-    <img src="{% asset_path general/detailed-invoices-overview/detailedinvoice.svg %}" width="600" />
+    <img src="{% asset_path general/detailed-invoices-overview/detailedinvoice.png %}" width="600" />
 
 ### Detailed invoice features
 
@@ -43,7 +43,7 @@ when it was created.
 
 To expand the list, click the arrow next to the service. To see a list of devices that use the service, click the arrow next to **Devices**.
 
-  <img src="{% asset_path general/detailed-invoices-overview/detailedinvoiceexpand.svg %}" width="600" />
+  <img src="{% asset_path general/detailed-invoices-overview/detailedinvoiceexpand.png %}" width="600" />
 
 When the list of devices is expanded, each device contains at least two
 lines. The first line indicates the total charges for the device. Any
@@ -55,7 +55,7 @@ For example, in the Cloud Servers list, the cost for the server named
 Server IP. The number in the first line is the sum of the two items
 under it.
 
- <img src="{% asset_path general/detailed-invoices-overview/linuxtest.svg %}" />
+ <img src="{% asset_path general/detailed-invoices-overview/linuxtest.png %}" />
 
 If you want details about how a device's use charge was calculated,
 place your cursor over the charge. A pop-up box appears next to the
