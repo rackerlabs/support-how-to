@@ -103,8 +103,7 @@ If this check fails, the drivers must be reinstalled before your
 migration window. For Linux distributions, run the following script to
 install or update these drivers:
 
-    wget http://437117ba0e2524fdae22-6a87f3acbfcde81a104bb18fbb8cb85f.r47.cf2.rackcdn.com/xen_tools_installer.sh; <br>
-    chmod u+x xen_tools_installer.sh; bash xen_tools_installer.sh; rm -rf xen_tools_installer.sh
+    curl http://437117ba0e2524fdae22-6a87f3acbfcde81a104bb18fbb8cb85f.r47.cf2.rackcdn.com/xen_tools_installer.sh | bash
 
 For Gentoo, Arch, and FreeBSD, or if this installer fails, you must
 install these drivers manually.
