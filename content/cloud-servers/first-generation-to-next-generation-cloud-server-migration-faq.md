@@ -144,7 +144,7 @@ before your migration: [Preparing for a Cloud Server Migration](/how-to/prepare-
 
 We recommend installing XenServer Tools 6.2 onto your server. A mismatch between the Xenserver Tools on your server's operating system and the version of XenServer on the hypervisor host can result in server instability. 
 
-You can find instructions in the article, [Installing XenServer Tools on next generation windows cloud servers](/how-to/installing-xenserver-tools-on-next-generation-windows-cloud-servers).
+You can find instructions in the article, [Upgrade Citrix (Xen server) Tools for windows cloud servers](/how-to//upgrade-citrix-xen-server-tools-for-windows-cloud-servers).
 
 #### Will the flavor (size) of my server remain the same?
 
