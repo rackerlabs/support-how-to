@@ -5,8 +5,8 @@ title: Add another WordPress site to an existing Cloud Orchestration stack
 type: article
 created_date: '2013-12-13'
 created_by: Jered Heeschen
-last_modified_date: '2016-04-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-05-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
