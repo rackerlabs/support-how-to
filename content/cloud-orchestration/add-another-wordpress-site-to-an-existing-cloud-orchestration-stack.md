@@ -5,8 +5,8 @@ title: Add another WordPress site to an existing Cloud Orchestration stack
 type: article
 created_date: '2013-12-13'
 created_by: Jered Heeschen
-last_modified_date: '2016-04-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-05-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -27,14 +27,14 @@ Adding a site to an existing stack requires changes to the configurations for mu
 
 4. From the list of servers, click the name of the "backend" server to view its details page.
 
-  On the backend server's detail page, you will find the PublicNet IP address in the Networks section.
-
+   On the backend server's detail page, you will find the PublicNet IP address in the Networks section.
+  
   **Note:** If "backend" does not appear on your server list, find details for "database", which acts as your backend server.
 
 5. Use the public IP address from the server details page and the private key provided when the stack was created to connect to the back end server with SSH.
-
+  
         ssh user@<ip_address_of_backend_server> -i /path/to/key
-
+  
   If you do not have the private key, you can reset the back end server's root password. For help connecting to your server via SSH, see the articles on using SSH with a private key in our How To center for [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
 ### Set up a database
@@ -42,21 +42,21 @@ Adding a site to an existing stack requires changes to the configurations for mu
 1. After logging in to your back end server, run the `mysql` command to connect to MySQL.
 
 2. Create a database for the new WordPress site with the `create database` command in the MySQL shell.  
-
+  
   For this example we'll call the site "blogsrock.rackspace.com".
-
+  
         create database blogsrock_rackspace_com;
 
 3. Create a user and password for this site.
-
+  
   Please use a strong password (not like the one in this tutorial).
-
+  
         grant all on `blogsrock_rackspace_com`.* to 'blogsrock'@'localhost' identified by 'mystrongpassword';
 
 4. Grant access for this user when connecting from our web servers.
-
+  
   For this tutorial we are going to grant access to all `10.x.x.x` IP addresses; however, for additional security, you can replace this with the specific ServiceNet IP addresses of your web servers.
-
+  
         grant all on `blogsrock_rackspace_com`.* to 'blogsrock'@'10.%' identified by 'mystrongpassword';
 
 5. When you are finished, type `exit` to leave MySQL and type `exit` again to disconnect from the backend server.
@@ -78,23 +78,23 @@ Now that the database is ready, you can install WordPress on the master node.
         wget http://wordpress.org/latest.tar.gz
 
 4. Download a script called [wordpress-cli-installer](https://github.com/nexcess/wordpress-cli-installer).
-
+  
   This script simplifies the final steps of the WordPress setup.
-
-        wget https://raw.github.com/nexcess/wordpress-cli-installer/master/wordpress-cli-installer.sh
+  
+    wget https://raw.github.com/nexcess/wordpress-cli-installer/master/wordpress-cli-installer.sh
 
 5. Navigate to the web server's data directory.
 
-        cd /var/www/vhosts
-
+    cd /var/www/vhosts
+  
   The directory should contain subdirectories for any WordPress sites that are already configured on the server.
 
 6. Make a new directory for the new site with WordPress subdirectories.
 
         sudo mkdir -p blogsrock.rackspace.com/{conf,http_docs,.ssh}
-
-  The new directory should contain subdirectories named `conf`, `http_docs`, and `.ssh`.
-
+    
+    The new directory should contain subdirectories named `conf`, `http_docs`, and `.ssh`.
+  
         $ ls -l blogsrock.rackspace.com
         total 20
         drwxr-xr-x 5 root root 4096 Dec  3 16:23 ./
@@ -110,7 +110,7 @@ Now that the database is ready, you can install WordPress on the master node.
 8. Change to the **http_docs** directory.
 
         cd http_docs/
-
+  
   The extracted WordPress files should be present, including the **wp-config-sample.php** file.
 
 9. Copy the **wp-config-sample.php** file to make a new WordPress config file.
@@ -118,21 +118,21 @@ Now that the database is ready, you can install WordPress on the master node.
         sudo cp wp-config-sample.php wp-config.php
 
 10. Edit the new configuration file and add some extras to help with file permissions and load balancing.
-
+  
   For HTTP-only sites, you can easily make the necessary changes by running, all on one line:
-
+  
         sudo bash -c "echo -e "define('FS_METHOD', \"direct\");\ndefine('FS_CHMOD_DIR', (02775 & ~umask()));\ndefine('FS_CHMOD_FILE', (0664 & ~ umask()));\ndefine('FORCE_SSL_ADMIN', false);\nif ( isset(\$_SERVER['HTTP_X_PROXY_PROTO']) && \$_SERVER['HTTP_X_PROXY_PROTO'] == 'HTTPS' ) { \$_SERVER['HTTPS'] = 1; }" >> wp-config.php"
-
+  
   If you are running an HTTPS site, run this command instead:
-
+  
         sudo bash -c "echo -e "define('FS_METHOD', \"direct\");\ndefine('FS_CHMOD_DIR', (02775 & ~umask()));\ndefine('FS_CHMOD_FILE', (0664 & ~ umask()));\ndefine('FORCE_SSL_ADMIN', true);\nif ( isset($_SERVER['HTTP_X_PROXY_PROTO']) && \$_SERVER['HTTP_X_PROXY_PROTO'] == 'HTTPS' ) { \$_SERVER['HTTPS'] = 1; }" >> wp-config.php"
 
 11. Generate new secure keys using the WordPress API.
 
         curl -q https://api.wordpress.org/secret-key/1.1/salt/
-
+  
   You should get output similar to the following:
-
+  
         define('AUTH_KEY',         'V}zrS|PsyH3]!p!AEufS{7:Jjy);(ooKx/aG-S6VWcpd3D47zc3Xr~2=.W3|Yfw:');
         define('SECURE_AUTH_KEY',  'w1|o-0:5i};kj&V1SY}2O[2MGTwo8NhoI2+Gmj!qDgG<~1A+*,DAQ?^0xO_&g%se');
         define('LOGGED_IN_KEY',    'Ce6g>+OA$u+-H5`/ZU|f#`=J,rb!.-^ayr20jG.BF$Q7q>]G&lPG nTS^Ox*mMET');
@@ -145,13 +145,13 @@ Now that the database is ready, you can install WordPress on the master node.
 12. Edit the **wp-config.php** file to replace the default keys with the keys generated in the previous step.
 
         sudo nano wp-config.php
-
+  
   **Note:** Replace `nano` in that command with your text editor of choice.
 
 13. Edit the **wp-config.php** file to replace the default database values with the database name, username, and password created in the previous section.
-
+  
   The relevant section of the configuration file looks similar to the following:
-
+  
         // ** MySQL settings - You can get this info from your web host ** //
         /** The name of the database for WordPress */
         define('DB_NAME', 'database_name_here');
@@ -164,7 +164,7 @@ Now that the database is ready, you can install WordPress on the master node.
 
         /** MySQL hostname */
         define('DB_HOST', 'localhost');
-
+  
   For the `DB_HOST` value, replace `localhost` with the ServiceNet IP address of the back end server.
 
 14. Run `wordpress-cli-installer`, passing it arguments for the site's base URL, title, admin email address, and WordPress location.
@@ -176,9 +176,9 @@ Now that the database is ready, you can install WordPress on the master node.
 Now you should make some changes to the system to accommodate the new WordPress site.
 
 1. Create a new user for the site, setting the user's home directory to the new site's directory.  
-
+  
   For example:
-
+  
         sudo useradd -M -d /var/www/vhosts/blogsrock.rackspace.com -p 'mystrongpassword' -s '/bin/bash' -U -G www-data wp_user2
 
 2. Set up a new SSH key-pair for `lsyncd` connections between the master and back end nodes in the new user's `.ssh` directory.
@@ -198,17 +198,17 @@ Now you should make some changes to the system to accommodate the new WordPress 
 5. Change the name of the new config file to match the new site.
 
         sudo mv iloveblog.rackspace.com__http.conf blogsrock.rackspace.com__http.conf
-
+  
   If your site supports HTTPS you'll also need to rename the copied HTTPS configuration file.
-
+  
         sudo mv iloveblog.rackspace.com__https.conf blogsrock.rackspace.com__https.conf
 
 6. Edit the configuration file to use the domain name of the new site in place of the existing site.
 
         sudo sed -i 's/iloveblog.rackspace.com/blogsrock.rackspace.com/g' blogsrock.rackspace.com__http.conf
-
+  
   If your site supports HTTPS you'll need to make the same change to the HTTPS file.
-
+  
         sudo sed -i 's/iloveblog.rackspace.com/blogsrock.rackspace.com/g' blogsrock.rackspace.com__https.conf
 
 7. If your site supports HTTPS, you will need to change the SSL certificate being used in the new "https" file to point to the SSL certificate for the new site. Specific instructions for this step are beyond the scope of this tutorial.
@@ -267,7 +267,7 @@ Now you need to add the new site to your lsyncd configuration so that the master
 
         sudo nano lsync.conf.lua
 
-  **Note:** Replace `nano` in that command with your text editor of choice.
+   **Note:** Replace `nano` in that command with your text editor of choice.
 
 3. For each slave server in the WordPress stack, make a new `sync` section, changing the `source` value to match the new site, the `target` value to match the new system user, and changing the directory reference in the `excludeFrom` value.
 
@@ -312,7 +312,7 @@ Next, you need to create the new user on each slave node in order to prepare for
 
 3. Add the stack's SSH private key to the file and save the change.  
 
-  If the file isn't empty, add the key on a new line at the end of the file.
+   If the file isn't empty, add the key on a new line at the end of the file.
 
 4. Change permissions on the key file so only root can access it.
 
@@ -325,11 +325,11 @@ Next, you need to create the new user on each slave node in order to prepare for
 
 6. Run `pssh` to add the new user to each slave server.
 
-  Note that the `-H` flag here is only used once, but you should repeat it for each additional slave node you have.
+   Note that the `-H` flag here is only used once, but you should repeat it for each additional slave node you have.
 
         parallel-ssh -P -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" useradd -M -d /var/www/vhosts/blogsrock.rackspace.com -p 'mystrongpassword' -s '/bin/bash' -U -G www-data wp_user2
 
-  You should see `pssh` report `SUCCESS` for each slave node.
+   You should see `pssh` report `SUCCESS` for each slave node.
 
 7. Run an `id` command through `pssh` to verify the user creation on each slave node, again adding `-H` flags for each additional slave node.
 
