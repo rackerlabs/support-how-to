@@ -5,8 +5,8 @@ title: Create DNS records with Cloud DNS
 type: article
 created_date: '2012-07-15'
 created_by: Rackspace Support
-last_modified_date: '2014-11-11'
-last_modified_by: David Hendler
+last_modified_date: '2016-05-13'
+last_modified_by: Kyle Laffoon
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -20,9 +20,9 @@ and domains.
 ### Add a domain
 
 1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
-    and select **DNS **at the top.
+    and from the **Networking** menu at the top, select **Cloud DNS**.
 
-    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/1.png %}" alt="" />
+    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/cloud-DNS.png.png %}" alt="" />
 
 2.  Select **Create Domain** under **Cloud DNS**, and enter in the domain
     name, email address, Time To Live (TTL), and then select **Create
@@ -37,7 +37,8 @@ and domains.
 
 ### Add an A record for your domain.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
+    and from the **Networking** menu at the top, select **Cloud DNS**.
 2.  Select your domain in the list, and then select **Add Record** under Records. Select 
     **A/AAAA Record** for the type, and fill out the following fields accordingly.
 
@@ -47,7 +48,8 @@ and domains.
 
 ### Add a CName record for your domain.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
+    and from the **Networking** menu at the top, select **Cloud DNS**.
 2.  Select your domain in the list, and then select **Add Record** under Records. Select 
     **CNAME Record** for the type, and fill out the following fields accordingly.
 
@@ -57,7 +59,8 @@ and domains.
 
 ### Add an MX record for your domain.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
+    and from the **Networking** menu at the top, select **Cloud DNS**.
 2.  Select your domain in the list, and then select **Add Record** under Records. Select 
     **MX Record** for the type, and fill out the following fields accordingly.
 
@@ -65,14 +68,16 @@ and domains.
 
 ### Delete a record from your domain.
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
+    and from the **Networking** menu at the top, select **Cloud DNS**.
 2.  Click the gear icon next to the desired domain, and then select **Delete Record**.
 
     <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/6.png %}" alt="" />
 
 ### Delete a domain
 
-1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com), and select **DNS** at the top.
+1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
+    and from the **Networking** menu at the top, select **Cloud DNS**.
 2.  Click the gear icon next to the desired domain, and then select **Delete Domain**.
 
     <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/7.png %}" alt="" />
