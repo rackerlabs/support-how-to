@@ -26,7 +26,7 @@ If the user mailbox is set up on a local email client profile such as Outlook or
 
 4. In the **User Name** field, delete the existing name and enter the new name.
 
-  <img src="{% asset_path rackspace-email/rename-a-rackspace-email-mailbox/edit-mailbox-options.png %}" alt="edit mailbox options" />
+   <img src="{% asset_path rackspace-email/rename-a-rackspace-email-mailbox/edit-mailbox-options.png %}" alt="edit mailbox options" />
 
 5. Click **Save**.
 
