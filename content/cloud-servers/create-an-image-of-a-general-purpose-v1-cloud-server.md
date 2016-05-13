@@ -27,7 +27,7 @@ scheduling the creation of server images.
 
 2.  Locate the server you want to create an image of.
 
-3.  Click the **Actions** cog to the left of the server name and
+3.  Click the **Actions** gear icon to the left of the server name and
     select **Create Image**. A pop-up appears so you can name the image.
 
     <img src="{% asset_path cloud-servers/create-an-image-of-a-general-purpose-v1-cloud-server/CreateImage.png %}" width="175" height="386" />
