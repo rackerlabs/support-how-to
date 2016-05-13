@@ -5,8 +5,8 @@ title: Quick set up with Rackspace Cloud Orchestration
 type: article
 created_date: '2014-09-23'
 created_by: Nicole Schwartz
-last_modified_date: '2016-05-02'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-05-13'
+last_modified_by: Kyle Laffoon
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -20,17 +20,17 @@ Rackspace Cloud Orchestration helps you set up projects and servers with just a 
 2. In the top navigation, select **Orchestration** and then **Stack** in the Create Resources section.
 
 3. Enter a name and select the region for your stack.
-
+  
   Select a template and version to launch. To see information about a template, click the application name and flavor, and read the description. The template versions enable you to choose from different types of templates, ranging from single to multiple server, and to choose different types of database options.
 
 4. Click **Next Step**.
 
 5. On the Create Stack page, specify the operating system and server size.
-
+  
   You will have other requirements to select, and these will vary depending on the template you selected and whether you chose single or multiple servers for your stack.
 
 6. To get a price quote, click **Calculate Price** in the right pane under Stack Summary.
-
+  
   There is no charge for using the Orchestration feature in the portal. You are only charged for the infrastructure that you use.
 
 7. Click **Create Stack**.
@@ -64,7 +64,7 @@ If you are an advanced user, you can use the custom template section to modify a
 3. Choose a name for the template.
 
 4. Paste your template in the box provided or drag and drop a file to upload.
-
+  
   You can check your template for accuracy by clicking the **Validate Syntax** button.
 
 5. Click **Create Template**.
