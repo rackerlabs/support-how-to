@@ -22,8 +22,6 @@ and domains.
 1.  Log into the [Cloud Control Panel](https://mycloud.rackspace.com),
     and from the **Networking** menu at the top, select **Cloud DNS**.
 
-    <img src="{% asset_path cloud-dns/creating-dns-records-with-cloud-dns/cloud-DNS.png.png %}" alt="" />
-
 2.  Select **Create Domain** under **Cloud DNS**, and enter in the domain
     name, email address, Time To Live (TTL), and then select **Create
     Domain **once more.
