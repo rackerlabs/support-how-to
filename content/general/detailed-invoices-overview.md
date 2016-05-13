@@ -31,8 +31,6 @@ per-device overview of your billing charges.
 
     A separate window opens and displays your detailed invoice.
 
-    <img src="{% asset_path general/detailed-invoices-overview/detailedinvoice.png %}" width="600" />
-
 ### Detailed invoice features
 
 *Detailed invoices* are formatted similarly to a regular invoice, with
