@@ -4,7 +4,7 @@ title: Rename a Rackspace Email mailbox
 type: article
 created_date: '2016-05-10'
 created_by: Amber Melita
-last_modified_date: '2016-05-10'
+last_modified_date: '2016-05-13'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
