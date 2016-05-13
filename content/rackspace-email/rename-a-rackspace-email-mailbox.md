@@ -30,6 +30,10 @@ If the user mailbox is set up on a local email client profile such as Outlook or
 
 5. Click **Save**.
 
-A confirmation message is displayed.
+  A confirmation message is displayed.
 
-<img src="{% asset_path rackspace-email/rename-a-rackspace-email-mailbox/success-message.png %}" alt="confirmation message" />
+  <img src="{% asset_path rackspace-email/rename-a-rackspace-email-mailbox/success-message.png %}" alt="confirmation message" />
+
+6. If the user mailbox is set up on a local client profile, recreate the local profile from the user profile that you exported prior to renaming the mailbox.
+
+7. Update Outlook or any mobile devices accessing this mailbox with the new name.
