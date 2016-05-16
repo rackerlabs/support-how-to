@@ -100,10 +100,6 @@ Apache web server package to turn the server into a web server.
     select a higher capacity flavor. Because this is a test server, save
     some money and select the 1 GB General Purpose flavor.
 
-    Use the slider to select the flavor.
-
-    <img src="{% asset_path cloud-servers/quick-start-guide-create-your-first-website-on-cloud-servers/3768.6.png %}" width="550" height="442" />
-
 6.  Click **Create Server**.
 
     A pop-up window is displayed with your server's Root Admin Password.
