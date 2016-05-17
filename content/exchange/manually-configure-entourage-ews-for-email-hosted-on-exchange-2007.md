@@ -19,11 +19,8 @@ of Entourage version you have, go to **Entourage** located at the top, select
 **About Entourage**, and look under **Web Services
 Edition**.
 
-
-1. Log into your
-   User Control Panel
-   at [cp.rackspace.com/usercp](http://cp.rackspace.com/usercp)
-   and select the Enourage 2008 icon/link. This link will provide a pop-up
+1. Log in to the [Cloud Office Control Panel](http://cp.rackspace.com/usercp)
+   and select the Entourage 2008 icon/link. This link will provide a pop-up
    window with information needed to set up
    your account.
 
