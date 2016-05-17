@@ -19,7 +19,7 @@ you're unsure about which OS X version you're running, click the
 **Apple** icon located in the top-left corner and select **About This
 Mac**.
 
-1. Open Mac Mail and select **Mail &gt;** **Preferences**.
+1. Open Mac Mail and select **Mail > Preferences**.
 
 2. In the new window that appears, click the **Accounts** tab in the
    top menu bar and then click the plus (+) symbol in the
