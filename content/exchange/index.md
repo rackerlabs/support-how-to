@@ -10,7 +10,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-<p class="lead" markdown="1">Welcome to Microsoft Exchange hosted by Rackspace! Use this brief step-by-step guide to help you get started.</p>
+Welcome to Microsoft Exchange hosted by Rackspace! Use this brief step-by-step guide to help you get started.
 
 <hr />
 
@@ -18,7 +18,7 @@ product_url: exchange
 
 - [Migration services](/how-to/email-migration-services)
 
-###  Control Panel basics
+###  Cloud Office Control Panel basics
 
 - [Create an Exchange mailbox](https://cp.rackspace.com/Exchange/Mail/Mailboxes/List.aspx)
 - [Create a Rackspace Email mailbox](https://cp.rackspace.com/EmailHosting/Mail/Mailboxes/List.aspx)
