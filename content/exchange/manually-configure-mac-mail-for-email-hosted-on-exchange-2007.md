@@ -5,8 +5,8 @@ title: Manually configure Mac Mail for email hosted on Exchange 2007
 type: article
 created_date: '2012-02-28'
 created_by: Aaron Medrano
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
+last_modified_date: '2016-05-17'
+last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
 ---
