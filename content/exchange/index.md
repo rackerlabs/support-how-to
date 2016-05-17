@@ -3,8 +3,8 @@ title: Microsoft Exchange
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
+last_modified_date: '2016-05-17'
+last_modified_by: Stephanie Fillmon
 permalink: /exchange/
 product: Microsoft Exchange
 product_url: exchange
