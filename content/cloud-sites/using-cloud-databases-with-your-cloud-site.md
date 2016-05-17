@@ -21,7 +21,7 @@ connect to your Cloud Database from Cloud Sites.
 ### Creating A Cloud Database
 
 1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com) 
-and select **Databases>MySQL** at the top.
+and select **Databases > MySQL** at the top.
    
    <img src="{% asset_path cloud-sites/using-cloud-databases-with-your-cloud-site/select-databases-mysql.png%}" alt="" />
 
