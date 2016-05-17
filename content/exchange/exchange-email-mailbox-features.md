@@ -5,8 +5,8 @@ title: Exchange email mailbox features
 type: article
 created_date: '2014-08-25'
 created_by: Marco Salazar
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
+last_modified_date: '2016-05-17'
+last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -29,7 +29,7 @@ scott@example.com. Adding all members of the billing team to one distribution
 list makes it possible to communicate new upcoming billing updates
 within the team by writing to one address, such as billingupdates@example.com.
 
-To set up a list, log into the Admin Control Panel
+To set up a list, log into the Cloud Office Control Panel
 [here](https://cp.rackspace.com/Exchange/Mail/Lists/).
 
 ### Outlook Web App (OWA)
