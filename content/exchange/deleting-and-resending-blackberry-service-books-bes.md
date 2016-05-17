@@ -5,8 +5,8 @@ title: Delete and resend BlackBerry&reg; Service Books - (BES)
 type: article
 created_date: '2011-04-21'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
+last_modified_date: '2016-05-17'
+last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
 ---

@@ -5,7 +5,7 @@ title: Add Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2016-03-14'
+last_modified_date: '2016-05-17'
 last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
