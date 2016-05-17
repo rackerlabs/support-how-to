@@ -11,6 +11,45 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
+Cloud Sites uses Apache 2.4 for its PHP environment. This simplifies the method of blocking or allowing access by IP address compared to previous releases.
+
+### To block all visitors except a specific IP address, with an optional message when blocked
+
+    Require ip <ip address>
+    ErrorDocument 403 "Some message you want to show blocked users"
+
+Example:
+
+    Require ip 50.157.7.24
+    Require ip 125.13.4.112
+    ErrorDocument 403 "This site can only be accessed within the network" 
+
+This would allow access to the site only for IP addresses 50.157.7.24 and 125.13.4.112, blocking access from any other IP.
+
+### To block only specific IP addresses but allow other traffic through
+
+    <RequireAll>
+        Require all granted
+        Require not ip <ip address>
+    </RequireAll>
+
+Example:
+
+    <RequireAll>
+        Require all granted
+        Require not ip 46.148.22.18
+        Require not ip 83.222.214.165
+    </RequireAll>
+
+This would allow access to the site for all trafic except IP address 46.148.22.18 and 83.222.214.165.
+
+Further reading can be read on the Apache website here:
+https://httpd.apache.org/docs/2.4/howto/access.html.
+
+### The following information is outdated and for archival purposes only
+
+The below example is formatted for Apache 2.2. The current Apache 2.4 version running in Cloud Sites uses the preceding allow/deny methods.
+
 Because of the unique hosting environment of Cloud Sites, a slight
 addition to the code used for the **Allow/Deny** feature is required.
 
@@ -30,19 +69,12 @@ code.
     allow from env=allowclient
     SetEnvIf X-Cluster-Client-Ip 000.000.000.000 allowclient
 
-**Note**: The preceding example is formatted for Apache 2.4. If using
-2.2, replace **Require all denied** with **order deny,allow | deny from
-all**.
 
 ### Allow only a certain IP address when your site is using SSL
 
     Require all denied
     allow from env=allowclient
     SetEnvIf X-FORWARDED-FOR ^000.000.000.000$ allowclient
-
-**Note**: The preceding example is formatted for Apache 2.4. If using
-2.2, replace **Require all denied** with **order deny,allow | deny from
-all**.
 
 You can also use the environmental variable **HTTP:X-Forwarded-For **for
 the **Allow Only **feature via SSL.
@@ -63,10 +95,6 @@ restrictions. **You can repeat line 1 to allow multiple IP addresses.**
     Deny from env=DenyAccess
     SetEnvIf X-Cluster-Client-Ip "^000\.000\.000\.000" DenyAccess
 
-**Note**: The preceding example is formatted for Apache 2.4. If using
-2.2, replace **Require all granted | Deny from env=DenyAccess** ****
-with **Order Allow,Deny | Deny from env=DenyAccess | Allow from all**.
-
 ### Deny one or more IP addresses when your site is using SSL
 
     Require all granted
@@ -77,10 +105,6 @@ Replace **000\\.000\\.000\\.000** with the IP address that you want to
 deny. This denies the IP address or addresses access to your site. **You
 can repeat line 1 to deny multiple IP addresses.**
 
-**Note**: The preceding example is formatted for Apache 2.4. If using
-2.2, replace **Require all granted | Deny from env=DenyAccess** with
-**Order Allow,Deny | Deny from env=DenyAccess | Allow from all**.
-
 **Important:** Implementing this code might prevent images from loading
 on your website. To address this issue, you can add the following code
 do your **.htaccess** file:
@@ -89,7 +113,3 @@ do your **.htaccess** file:
     Require all denied
     allow from env=allowclient
     </FilesMatch>
-
-**Note**: The preceding example is formatted for Apache 2.4. If using
-2.2, replace **Require all denied** with **order deny,allow | deny from
-all**.
