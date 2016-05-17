@@ -40,7 +40,7 @@ information relating to that particular Instance.
 
 ### Work with your MySQL instance
 
-There are a different ways to work with and manage your
+There are a few different ways to work with and manage your
 MySQL instance. If you happen to have a Cloud Server in the same region
 as your Cloud Database, you can connect to it using an SSH session on a
 Linux box, installing your favorite database management software, or by
