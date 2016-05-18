@@ -28,7 +28,4 @@ Standard (DSS) compliant and Safe Harbor compliant in addition to having
 SSAE16 Type II, SOC1, SOC2 (Security and Availability Only), and SOC3
 audits on file for all data center facilities.
 
-### Additional resources
-
--  For information about PCI-DSS, see [Cloud Security Solutions](http://www.rackspace.com/security/solutions/#pci).
--  For information about PCI-DSS when using Rackspace Dedicated Hosting services, see [PCI-Compliant Hosting for E-commerce Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
+For information about PCI-DSS, see [Cloud Security Solutions](https://www.rackspace.com/security/global-enterprise#pcidss).
