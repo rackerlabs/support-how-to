@@ -88,8 +88,6 @@ SLA](http://www.rackspace.com/information/legal/service-level-guarantee-rackspac
 See [Rackspace CDN
 pricing](http://www.rackspace.com/cloud/cdn-content-delivery-network).
 
-^[back\\ to\\ top](#top)^
-
 #### Is there a list of approved Certificate Authorities (CAs) for Rackspace CDN?
 
 Yes. See [Rackspace CDN secure delivery
