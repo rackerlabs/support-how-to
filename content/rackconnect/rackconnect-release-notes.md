@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-release-notes/
+permalink: /rackconnect/
 node_id: 2160
 title: RackConnect release notes
 type: article
