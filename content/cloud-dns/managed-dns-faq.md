@@ -5,8 +5,8 @@ title: Managed DNS FAQ
 type: article
 created_date: '2016-03-14'
 created_by: Nicole Hairston
-last_modified_date: '2016-04-13'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-05-19'
+last_modified_by: Kyle Laffoon
 product: Cloud DNS
 product_url: cloud-dns
 ---
