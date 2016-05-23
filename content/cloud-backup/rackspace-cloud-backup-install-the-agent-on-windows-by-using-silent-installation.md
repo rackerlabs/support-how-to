@@ -5,8 +5,8 @@ title: Install the Cloud Backup agent on Windows by using silent installation
 type: article
 created_date: '2015-01-20'
 created_by: Rose Contreras
-last_modified_date: '2016-04-11'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-05-23'
+last_modified_by: Nate Archer
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -72,6 +72,8 @@ Following are optional, less-frequently used (expert) installation options that 
 - `FLAVOR` (default `raxcloudserver`): [Add an explanation of what this option actually is.] Possible values are `privatecloud`, `raxcloudserver`, and `personalmachine`.
 
 - `INSTALLDIR` (default ``%ProgramFiles%\Driveclient``): The installation directory for agent executables.
+
+- `SERVICENETENABLED` (default `<null>`): The option decides whether or not the agent uses public ip addresses for backup operations. You can set this option to `SERVICENETENABLED=1` to force the agent to never use public ip addresses for backup operations.
 
 - `UPGRADEARCH` (default `win64` or `win32` depending on the MSI agent type): The folder on the download server where you find the MSI for the architecture that you want.
 
