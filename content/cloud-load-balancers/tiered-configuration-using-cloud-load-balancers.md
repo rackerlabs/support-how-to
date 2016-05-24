@@ -11,9 +11,9 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-There are many ways to configure your [deployment environment](how-to/rackspace-open-cloud-reference-architecture/) at Rackspace. However, many configurations use a single cloud server. In this case, if your server fails, your application also fails.
+You can configure your [deployment environment](how-to/rackspace-open-cloud-reference-architecture/) at Rackspace in many ways. However, if your configuration uses a single cloud server and your server fails, your application also fails.
 
-The easiest method to optimize your infrastructure is to split your single server into a tiered configuration. This can reduce potential downtime due to server failure while balancing traffic to your application.
+You can optimize your infrastructure by splitting your single server into a tiered configuration. A tiered configuration can reduce potential downtime caused by server failure while balancing traffic to your application.
 
 ### Tiered configuration diagram
 
@@ -21,10 +21,10 @@ Tiered configurations augment a single server with a cloud load balancer and at 
 
 <img src="{% asset_path cloud-load-balancers/tiered-configuration-using-cloud-load-balancers/tiered-config.svg %}" alt="Tiered configuration diagram" />
 
-The size *Web 1* and *Web 2* are half the size of the single server. For example, if your single server is 4GB, the size of your web servers will be 2GB.
+The size of the *Web 1* and *Web 2* servers are half the size of the single server. For example, if your single server is 4 GB, the size of your web servers is 2 GB.
 
-### Additional Information
+### Set up a tiered configuration
 
-This configuration can be set up with [Cloud Orchestration](how-to/cloud-orchestration/).
+You can set up a tiered configuration with [Cloud Orchestration](how-to/cloud-orchestration/).
 
-For an example of how to set up a tiered configuration, watch the tutorial [Rackspace Cloud Servers - Building a LAMP using Orchestration](https://www.youtube.com/watch?v=9tk7NrR7tYo&feature=youtu.be).
+For an example of how to set up a tiered configuration, watch the [Rackspace Cloud Servers - Building a LAMP using Orchestration](https://www.youtube.com/watch?v=9tk7NrR7tYo&feature=youtu.be) tutorial.
