@@ -19,11 +19,11 @@ The easiest method to optimize your infrastructure is to split your single serve
 
 Tiered configurations augment a single server with a cloud load balancer and at least one web server. The following diagram provides an example of a tiered configuration:
 
-<!---Insert diagram here--->
+<img src="{% asset_path cloud-load-balancers/tiered-configuration-using-cloud-load-balancers/tiered-config.svg %}" alt="Tiered configuration diagram" />
 
 The size *Web 1* and *Web 2* are half the size of the single server. For example, if your single server is 4GB, the size of your web servers will be 2GB.
 
-### Additional Information 
+### Additional Information
 
 This configuration can be set up with [Cloud Orchestration](how-to/cloud-orchestration/).
 
