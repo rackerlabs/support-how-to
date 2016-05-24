@@ -15,6 +15,8 @@ You can use the Rackspace CSV-formatted invoice to filter and manipulate
 your billing data. We provide three pivot tables (linked below) to help
 our customers find the information you need.
 
+**Note:** The format of the CSV export output for UK Cloud accounts is not suitable to be processed with pivot tables currently. We plan on making the output CSV export format for the UK accounts to work with these pivot tables in September 2016.
+
 ### View billing data in pivot tables
 
 You will download the spreadsheet that best matches your application.
