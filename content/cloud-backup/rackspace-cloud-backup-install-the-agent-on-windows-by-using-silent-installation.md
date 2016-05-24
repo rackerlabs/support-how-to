@@ -67,13 +67,13 @@ During a fresh installation, the following values are used:
 
 Following are optional, less-frequently used (expert) installation options that you can use:
 
-- `APIHOSTURL`: The URL that is used for registration. Host addresses for various data centers are listed in [Service Access Endpoints](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints) in the API documentation.
+- `APIHOSTURL`: The URL that is used for registration. Host addresses for various data centers are listed in [Service access endpoints](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints) in the API documentation.
 
-- `FLAVOR` (default `raxcloudserver`): [Add an explanation of what this option actually is.] Possible values are `privatecloud`, `raxcloudserver`, and `personalmachine`.
+- `FLAVOR` (default `raxcloudserver`): Possible values are `privatecloud`, `raxcloudserver`, and `personalmachine`.
 
 - `INSTALLDIR` (default ``%ProgramFiles%\Driveclient``): The installation directory for agent executables.
 
-- `SERVICENETENABLED` (default `<null>`): The option decides whether or not the agent uses public ip addresses for backup operations. You can set this option to `SERVICENETENABLED=1` to force the agent to never use public ip addresses for backup operations.
+- `SERVICENETENABLED` (default `<null>`): This option decides whether the agent uses public IP addresses for backup operations. You can set this option to `SERVICENETENABLED=1` to force the agent to never use public IP addresses for backup operations.
 
 - `UPGRADEARCH` (default `win64` or `win32` depending on the MSI agent type): The folder on the download server where you find the MSI for the architecture that you want.
 
