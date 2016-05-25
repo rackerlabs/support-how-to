@@ -13,7 +13,7 @@ This article was created for you to practice making a pull request, as well as t
 
 ### Feedback questions
 
-Answer each of the following questions by typing one of the answer options provided beneath the question. Please a skip a line between each student's response. DO NOT DELETE another student's responses.
+Answer each of the following questions by typing one of the answer options provided beneath the question. Please skip a line between each student's response. DO NOT DELETE another student's responses.
 
 
 #### Was the training easy to understand?
