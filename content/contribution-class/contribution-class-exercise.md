@@ -13,9 +13,7 @@ This article was created for you to practice making a pull request, as well as t
 
 ### Feedback questions
 
-Gave a response to the every question.
-
-**Note**: Please a skip a line between each student's response. DO NOT DELETE another student's responses.
+Answer each of the following questions.Please a skip a line between each student's response. DO NOT DELETE another student's responses.
 
 #### Was the training easy to understand?
 
