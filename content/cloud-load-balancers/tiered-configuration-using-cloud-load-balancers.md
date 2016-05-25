@@ -1,7 +1,7 @@
 ---
 permalink: tiered-configuration-using-cloud-load-balancers
 audit_date: '2016-05-24'
-title: Tiered configuration using Cloud load balancers
+title: Tiered configuration using Cloud Load Balancers
 type: article
 created_date: '2015-05-24'
 created_by: Nate Archer
