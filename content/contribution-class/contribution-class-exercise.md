@@ -17,7 +17,7 @@ Answer each of the following questions by typing one of the answer options provi
 
 
 #### Was the training easy to understand?
-
+Yes
 **Answer options**
 - Yes
 - Somewhat
@@ -26,26 +26,26 @@ Answer each of the following questions by typing one of the answer options provi
 
 
 #### How often do you think you will use the training?
-
+Never
 **Answer options**
 - Often
 - Somewhat often
 - Never
 
 #### Would you recommend this training to others?
-
+Yes
 **Answer options**
 - Yes
 - No
 
 #### Are you interested in taking an advanced level contribution class?
-
+Yes
 **Answer options**
 - Yes
 - No
 
 #### Is there anything else you'd like to share about the training?
-
+Cool exercise
 **Answer options**
 - Open ended
 
