@@ -43,7 +43,7 @@ everything is working efficiently and properly.
 
 5. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/) - Static
 content can be served through Rackspace Cloud Files and the Akamai
-CDN for global content delivery.</span>
+CDN for global content delivery.
 
 6. [Rackspace Cloud Databases](http://www.rackspace.com/cloud/public/databases/) - Rackspace Cloud Databases will host MySQL is a optimized, redundant platform.
 
