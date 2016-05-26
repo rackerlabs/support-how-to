@@ -23,13 +23,13 @@ the cloud, yet already uses platform services like Cloud Databases and
 Cloud Files to replace dedicated hardware like beefy dedicated database
 servers and expensive storage arrays.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/basic%20cloud%20configuration.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/basic.cloud.configuration.svg %}" alt="" />
 
 1. **Public Network** - Each **Rackspace Cloud Server** has two networks
 . Here, the Cloud Server is accessible from the Internet over the Public
 network.
 
-2. **Service Network** - The Rackspace Cloud Server uses the Service
+2. **Cloud load balancer** - The Rackspace Cloud Server uses the Service
 Network to communicate with other Cloud Servers and Rackspace Cloud
 Databases. Bandwidth on the Service Network is free.
 
