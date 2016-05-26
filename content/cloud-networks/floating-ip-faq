@@ -1,0 +1,91 @@
+---
+permalink: floating-ip-faq/
+audit_date:
+title: Floating IP EA FAQ
+type: article
+created_date: '2016-05-18'
+created_by: Jorge Miramontes
+last_modified_date: '2016-05-18'
+last_modified_by: Kyle Laffoon
+product: Cloud Networks
+product_url: cloud-networks
+---
+
+#### What are Floating IPs?
+
+A floating IP address is a static IP address that has the ability to move or “float” between cloud resources within a region, primarily Cloud Servers. It is reserved at a tenant level without needing to be associated with a specific port on a VM.
+
+#### Where are the docs?
+
+API guide: 
+*Coming soon...*
+
+Getting Started:
+*Coming soon...*
+
+#### What makes a Floating IP better than a Fixed IP?
+
+Floating IP provides the ability to reserve an IP address so that users do not lose an IP address if they happen to terminate their cloud server but want to keep their IP address. 
+That said, there a few reasons why customers would want this behavior:
+ - Constantly changing IP addresses – Creating and removing cloud resources is a common exercise. The only problem is that the default fixed IP address provided changes each time you create a new resource, which causes one to update configuration files, DNS entries, etc. Leveraging floating IPs allows one to essentially remove this problem by keeping the same IP addresses no matter how many times resources are created and removed.
+ - IP Reputation – Believe it or not, an IP address can have a reputation. Some IP addresses have good reputations and become whitelisted by trusting sources across the Internet. More importantly, however, some IP addresses have bad reputations and get blacklisted. If you happen to get a “bad IP,” your infrastructure can become unreachable by certain areas of the Internet. Leveraging a floating IP allows one to build up an IP’s reputation and keep it.
+
+
+#### Is the feature supported for all Cloud customers?
+
+This feature is supported for cloud only customers, but only if they are provided access via the EA signup page located here. That said, please refer to the limitations section to see if certain customers are affected.
+
+#### What features are supported at launch?
+
+When we launch Early Access we will support the ability to create, associate, disassociate and delete floating IPs.
+
+#### Will Floating IPs be supported via Neutron client?
+
+Yes.
+
+#### Will this be integrated and available to use via Control Panel / Reach?
+
+For Early Access, no. We plan on having Reach support for Limited Availability and forward.
+
+#### Are Floating IPs supported for OnMetal users?
+
+No, Floating IPs are currently only supported for virtual Cloud Servers.
+
+#### Are Floating IPs supported for RackConnectV3 users?
+
+Floating IPs will not work with an RCv3 Cloud Network.
+
+#### Is there a limit on number of Floating IPs a tenant can have?
+
+There is a default limit of 5 floating ips per tenant. A customer can create a ticket to raise the limit but may be temporarily denied depending on capacity.
+
+#### How is Floating IP different from a shared IP?
+
+Shared IP is used for active/passive high availability (HA) where one IP address is needed between 2 or more servers for the purpose of redundancy (active-standby). The IP is owned by one of the servers at any given time and clients or other servers use this Shared IP for communication with the HA pair. While a floating IP can be used to solve the active/passive HA problem, it would require monitoring and API calls to achieve the same result. Thus, shared IP is the preferred method to solve the active/passive HA problem.
+
+#### Can existing Cloud servers Public IPs be used as Floating IPs?
+
+No, these will be a new pool of IPs. Customers won't be able to migrate existing IPs on their Cloud Servers to become Floating IPs.
+
+#### Can we migrate FirstGen customer IPs to be Floating IPs?
+
+No.
+
+#### Can we migrate FirstGen customer IPs to be Floating IPs?
+
+No. Do not add/disconnect networks . This will cause serious issues with
+networking on the Vyatta and the only recourse will be to rebuild the
+Vyatta.
+
+#### What do I need to know when associating a Floating IP with my Cloud Server ?
+
+Because Cloud Servers come with a fixed public IPv4 address most customers will want to essentially remove the fixed IP and replace it with a floating IP. If a customer wants to keep their fixed IP in addition to a floating IP then they will have to configure their Cloud Server to handle traffic appropriately. Details on how to do this can be found in the API and How-to docs.
+
+
+#### Limitations
+
+ - At the moment Floating IP is intended to work only with Next Gen Cloud Servers. Floating IP does not work with other products such as OnMetal, Cloud Load Balancers, RackConnect V3, etc.
+ - Any current public IPv4 addresses cannot be converted to a Floating IP. Customers will have to provision a new Floating IP.
+ - The EA Floating IP quota is limited to 5 FLIPs per tenant. Quotas will be raised during LA and forward.
+ - There is no Reach support for EA.
+ - Currently, Floating IP only supports IPv4. IPv6 is not supported.
