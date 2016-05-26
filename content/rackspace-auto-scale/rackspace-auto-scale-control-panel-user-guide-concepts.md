@@ -175,6 +175,6 @@ node port that you configure.
 -   [Rackspace Auto Scale Control Panel User Guide -
     Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
 -   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
-    group](http://rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
+    group]/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
 -   [Rackspace Auto Scale Control Panel User Guide - Create a scaling
     policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Crating Scaling Policies")
