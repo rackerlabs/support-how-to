@@ -53,7 +53,7 @@ If you look inside this folder, you should see that there is one (default) site 
     default    default-ssl
 
 The Apache installation has a **default** and a **default-ssl** vhost available. When you
-navigated to the Cloud Servier IP address and got the "It works!" message, it was the
+navigated to the Cloud Server IP address and got the "It works!" message, it was the
 **default** file that told Apache what to do and where the files were located.
 
 We'll look at vhosts in more detail and create our own in a later article.
