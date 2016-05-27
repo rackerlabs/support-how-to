@@ -59,7 +59,7 @@ The load balancer makes a seamless migration from First Gen server to a Next Gen
 
 Follow the steps in this section to create an image of the First Gen server that you will then use to create a Next Gen server.
 
-    **Note:** If you are on a Linux server with under 40 GB of disk in use, you can resize down to a 1 GB flavor before taking the image. When you create the new Next Gen server from the image, you can choose any flavor that will allow you to boot the server from a volume, as described in the [Boot a server from a Cloud Block Storage volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
+   **Note:** If you are on a Linux server with under 40 GB of disk in use, you can resize down to a 1 GB flavor before taking the image. When you create the new Next Gen server from the image, you can choose any flavor that will allow you to boot the server from a volume, as described in the [Boot a server from a Cloud Block Storage volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
 
 1. On the Cloud Servers page of the Cloud Control Panel, click the gear icon next to the First Gen server that you are imaging and select **Create Image**.
 
