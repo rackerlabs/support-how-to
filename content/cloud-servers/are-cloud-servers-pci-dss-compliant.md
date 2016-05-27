@@ -1,6 +1,6 @@
 ---
 permalink: are-cloud-servers-pci-dss-compliant/
-audit_date:
+audit_date: '2016-05-18'
 title: Cloud Servers PCI-DSS compliance
 type: article
 created_date: '2016-01-19'
