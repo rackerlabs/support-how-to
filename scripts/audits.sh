@@ -45,7 +45,7 @@ do
       then
       
 # print out all files with audit dates between specified date range
-         echo "File created: " $aadate " " $f;
+         echo "Audit date: " $aadate " " $f;
          count=$((count+1));
       fi
    fi
