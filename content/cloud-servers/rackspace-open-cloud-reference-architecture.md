@@ -23,29 +23,23 @@ the cloud, yet already uses platform services like Cloud Databases and
 Cloud Files to replace dedicated hardware like beefy dedicated database
 servers and expensive storage arrays.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/basic.cloud.configuration.svg %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/basic-cloud-configuration.svg %}" alt="Diagram detailing basic cloud configuration" />
 
-1. **Public Network** - Each **Rackspace Cloud Server** has two networks
-. Here, the Cloud Server is accessible from the Internet over the Public
-network.
+1. **Public Network** - Each **Rackspace Cloud Server** has two networks, the public network and the service network. In a basic cloud configuration, the cloud server is accessible from the Internet over the public network.
 
-2. **Cloud load balancer** - The Rackspace Cloud Server uses the Service
-Network to communicate with other Cloud Servers and Rackspace Cloud
-Databases. Bandwidth on the Service Network is free.
+2. [Cloud load balancer](https://www.rackspace.com/cloud/load-balancing)- The Rackspace load balancer is used to distribute workloads between multiple back-end systems or services, based on the criteria that is defined as part of its configuration.
 
-3. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/) - The
-Rackspace Cloud Server used the Service Network to communicate to the
-other Cloud Servers and Rackspace Cloud Databases. Bandwidth on the
-Service Network is free.
+3. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/)- The Rackspace Cloud Server used the service network to communicate to the other cloud servers and cloud databases. Bandwidth on the service network is free.
 
-4. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/) - Rackspace Cloud Monitoring watches the application to ensure
-everything is working efficiently and properly.
+4. **Potential growth servers**- Additional cloud servers are used when additional resources are needed.
 
-5. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/) - Static
-content can be served through Rackspace Cloud Files and the Akamai
-CDN for global content delivery.
+5. **Service Network**- The service network is used to communicate the between the web instance cloud server and cloud databases, as well as other cloud servers used for potential growth.
 
-6. [Rackspace Cloud Databases](http://www.rackspace.com/cloud/public/databases/) - Rackspace Cloud Databases will host MySQL is a optimized, redundant platform.
+6. [Rackspace Cloud Databases](http://www.rackspace.com/cloud/public/databases/)- Rackspace Cloud Databases will host MySQL is a optimized, redundant platform.
+
+7. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/)- Static content can be served through Rackspace Cloud Files and the Akamai CDN for global content delivery.
+
+8. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/) - Rackspace Cloud Monitoring watches the application to ensure everything is working efficiently and properly.
 
 ### Tiered Cloud Configuration
 
