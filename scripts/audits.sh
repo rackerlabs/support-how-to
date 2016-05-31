@@ -48,6 +48,5 @@ do
          echo "Audit date: " $aadate " " $f;
          count=$((count+1));
       fi
-   fi
 done
 echo $count " new files added between " $begdate " and " $enddate
