@@ -1,6 +1,6 @@
 ---
 permalink: backing-up-your-files-with-rsync/
-audit_date: '2016-05-27'
+audit_date:
 title: Back up your files with rsync
 type: article
 created_date: '2011-03-16'
