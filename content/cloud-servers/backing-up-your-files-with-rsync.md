@@ -14,13 +14,11 @@ product_url: cloud-servers
 Backing up files on a regular basis is an integral part of administering
 your server.
 
-One way is to download every individual file when you want to save them.
-However, rsync makes the task a lot easier as it only downloads files
-that have changed - saving time and bandwidth.
+Although you could download every individual file when you want to save them, using rsync makes the task of backing up easier because it downloads only the files that have changed, saving time and bandwidth.
 
 ### Install rsync
 
-Rsync should be available on most Linux distributions by default, but if you need to install it manually, you can do so by using your distribution's package manager. For example, the following installation commands are for Ubuntu, Gentoo, and CentOS:
+Rsync is available on most Linux distributions by default. If you need to install it manually, however, you can do so by using your distribution's package manager. For example, the following installation commands are for Ubuntu, Gentoo, and CentOS:
 
     sudo aptitude install rsync
     sudo emerge rsync
@@ -32,41 +30,38 @@ Rsync should be available on most Linux distributions by default, but if you nee
 
 To keep your files and system secure, be sure to use encryption when uploading or downloading files. This example uses the SSH protocol with rsync to keep your data secure. If you prefer not to use SSH, you will be prompted for a password each time you run rsync.
 
-If you use rysnc to automate your backups, ensure that the destination server (where the backup directory
+If you use rsync to automate your backups, ensure that the destination server (where the backup directory
 is located) has access to the originating server.
 
-To backup your files from one server to another, run the following command on the destination server:
+To back up your files from one server to another, run the following command on the destination server:
 
     rsync -e 'ssh -p 30000' -avl --delete --stats --progress demo@123.45.67.890:/home/demo /backup
 
 Following is an explanation of each part of the command:
 
--  `-e 'ssh -p 30000'` - Ensures rsync uses the SSH protocol and sets the
+-  `-e 'ssh -p 30000'` - Ensures that rsync uses the SSH protocol and sets the
 port.
 
--  `-avl` - A shortcut containing three options:
+-  `-avl` - A shortcut that contains three options:
 
     -  `-a` - Archive. Saves the permission settings for the files.
-    -  `-v` - Verbose. Returns more information about what rsync is doing. You can change how much information rsync returns by eliminating `-v` or request more information with `-vv` or `-vvv`.
-
-       **Note:** Setting verbose mode with `-vvv` returns all information about the rsync process.
-
+    -  `-v` - Verbose. Returns more information about what rsync is doing. You can change how much information rsync returns by eliminating `-v`, or you can request more information with `-vv` or `-vvv`. Setting verbose mode with `-vvv` returns all information about the rsync process.
     -  `-l` - Links. Preserves any symlinks you created on the source server.
 
 -  `--delete` - Deletes files from the destination folder that are no longer
-required (i.e. they have been deleted from the folder being backed up).
+required (that is, they have been deleted from the originating folders).
 
 -  `--stats` - Adds more output regarding the file transfer status.
 
 -  `--progress` - Displays the progress of each file transfer.
 
--  `demo@123.45.67.890:/home/demo` - The originating folders to backup.
+-  `demo@123.45.67.890:/home/demo` - The originating folders to back up.
 
-   **Note:** Rsync differentiates between `/home/demo` and `/home/demo/`. With the trailing slash, rsync will copy the contents of the directory, but won't recreate the directory. In this example, we're backing up a folder from one system to another, so leaving off the trailing slash will replicate the entire directory structure.
+   **Note:** Rsync differentiates between `/home/demo` and `/home/demo/`. With the trailing slash, rsync copies the contents of the directory, but doesn't recreate the directory. This example backs up a folder from one system to another, so omitting the trailing slash replicates the entire directory structure.
 
--  `/backup/` - Identifies the folder on the backup server to place the files.
+-  `/backup/` - Identifies the folder on the backup server in which to place the files.
 
-Your output should look similar to the following:
+Your output should look similar to the following output:
 
     receiving file list ...
     31345 files to consider
@@ -85,6 +80,4 @@ Your output should look similar to the following:
     ...
     ...
 
-Rsync receives a list of files (in this example, 31,345 of them) and, because this is the first time rsync has been run, downloads them all.
-
-If you run rsync again, only files that have changed since the last backup will be synced to your backup folder.
+In this example, rsync receives a list of 31,345 files and, because this is the first time rsync has been run, downloads them all. When rsync runs again, only files that have changed since the last backup are synchronized to the backup folder.
