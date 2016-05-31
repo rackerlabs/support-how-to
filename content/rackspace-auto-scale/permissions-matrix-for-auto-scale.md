@@ -11,11 +11,9 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-[API Documentation](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/)
+The following permissions matrix displays specific permissions for roles in Rackspace Auto Scale. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-[Related How-To Articles](/how-to/rackspace-auto-scale-overview)
-
-As of November 11, 2013
+### As of November 11, 2013
 
 | Method | API Action | Role | Description |
 | ------ | ---------- | ---- | ----------- |
@@ -42,4 +40,4 @@ As of November 11, 2013
 | Delete a Webhook | `DELETE /groups/{groupId}/policies/{policyId}/webhook/{webhookId}` | **Admin Only** | Deletes a webhook. |
 | View Webhook Info | `GET /groups/{groupId}/policies/{policyId}/webhook/{webhookId}` | **Admin Only** | Describes one webhook. |
 
-**[Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)**
+**Related article** - [Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
