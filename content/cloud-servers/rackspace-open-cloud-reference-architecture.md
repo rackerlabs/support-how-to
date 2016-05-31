@@ -25,15 +25,15 @@ servers and expensive storage arrays.
 
 <img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/basic-cloud-configuration.svg %}" alt="Diagram detailing basic cloud configuration" />
 
-1. **Public Network** - Each **Rackspace Cloud Server** has two networks, the public network and the service network. In a basic cloud configuration, the cloud server is accessible from the Internet over the public network.
+1. **Public network** - Each **Rackspace Cloud Server** has two networks, the public network and the service network. In a basic cloud configuration, the cloud server is accessible from the Internet over the public network.
 
-2. [Cloud load balancer](https://www.rackspace.com/cloud/load-balancing)- The Rackspace load balancer is used to distribute workloads between multiple back-end systems or services, based on the criteria that is defined as part of its configuration.
+2. [Rackspace Cloud Load Balancer](https://www.rackspace.com/cloud/load-balancing)- The Rackspace load balancer is used to distribute workloads between multiple back-end systems or services, based on the criteria that is defined as part of its configuration.
 
 3. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/)- The Rackspace Cloud Server used the service network to communicate to the other cloud servers and cloud databases. Bandwidth on the service network is free.
 
 4. **Potential growth servers**- Additional cloud servers are used when additional resources are needed.
 
-5. **Service Network**- The service network is used to communicate the between the web instance cloud server and cloud databases, as well as other cloud servers used for potential growth.
+5. **Service network**- The service network is used to communicate the between the web instance cloud server and cloud databases, as well as other cloud servers used for potential growth.
 
 6. [Rackspace Cloud Databases](http://www.rackspace.com/cloud/public/databases/)- Rackspace Cloud Databases will host MySQL is a optimized, redundant platform.
 
