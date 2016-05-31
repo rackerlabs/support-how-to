@@ -5,8 +5,8 @@ title: Rackspace Open Cloud Reference Architecture
 type: article
 created_date: '2012-08-10'
 created_by: Rae D. Cabello
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-05-31'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
