@@ -1,5 +1,5 @@
 ---
-permalink: connect-to-a-cloud-server/
+permalink: connected-to-a-cloud-server/
 audit_date:
 title: Connect to a cloud server
 type: article
