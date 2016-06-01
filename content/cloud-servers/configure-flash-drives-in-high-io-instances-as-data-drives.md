@@ -5,8 +5,8 @@ title: Configure flash drives in High I/O instances as Data drives
 type: article
 created_date: '2014-07-02'
 created_by: Paul Querna
-last_modified_date: '2014-08-15'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-06-01'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -32,7 +32,7 @@ The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unform
 
 3. Use Linux Software RAID-0 across cards, as follows:
 
-        mdadm --create --verbose /dev/md0 --level=stripe --raid-devices=2 /dev/sdb /dev/sdc
+        mdadm --create --verbose /dev/md0 --level=stripe --raid-devices=2 /dev/sdd /dev/sdc
         mkfs.ext4 /dev/md0
 
 4. Add /data mount point entry to `fstab`:
