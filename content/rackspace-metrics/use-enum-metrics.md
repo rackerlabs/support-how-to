@@ -1,4 +1,5 @@
 ---
+permalink: use-enum-metrics/
 audit_date:
 title: Use Enum metrics
 type: article

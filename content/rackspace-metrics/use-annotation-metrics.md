@@ -1,4 +1,6 @@
 ---
+permalink: use-annotation-metrics/
+audit_date:
 title: Use annotation metrics
 type: article
 created_date: '2016-02-23'
