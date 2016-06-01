@@ -1,6 +1,6 @@
 ---
 permalink: floating-ip-faq/
-audit_date:
+audit_date: 
 title: Floating IP address FAQ
 type: article
 created_date: '2016-05-18'
@@ -11,6 +11,8 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 Get quick answers to questions about the Early Access (EA) release of the floating IP addresses feature for Rackspace Cloud services.
+
+###Early Access
 
 #### What are floating IP addresses?
 
