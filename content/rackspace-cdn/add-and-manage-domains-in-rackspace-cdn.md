@@ -41,8 +41,6 @@ has been provisioned and you have set the CNAME record for the domain.
 If the **Status** is **Domain Not Configured**, click on that text to
 get instructions and to see the Rackspace CDN URL that you need for the CNAME record creation.
 
-  <img src="{% asset_path rackspace-cdn/add-and-manage-domains-in-rackspace-cdn/Screen%20Shot%202015-12-16%20at%203.39.21%20PM.png %}" width="521" height="157" />
-
 The instructions that see see when you click on **Domain Not
 Configured** are similar to those in the following figure:
 
