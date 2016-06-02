@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 This article presents a variety of cloud architectural configurations that
-you could for your business or personal project.
+you could use for your business or personal project.
 
 ### Basic cloud architecture
 
@@ -35,9 +35,9 @@ future applications. Typically, this is the first step our customers take when m
 
 7. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/): Static content can be served through Cloud Files and the Akamai CDN for global content delivery.
 
-8. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the application to ensure everything is working efficiently and properly.
+8. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the application to ensure that everything is working efficiently and properly.
 
-### Tiered Cloud architecture
+### Tiered cloud architecture
 
 The tiered architecture is the next step in configuring an application for the Open Cloud. This configuration enables you to scale each tier (web, app, caching, and database) horizontally as you grow. This example uses replicated database servers instead of the Cloud Databases platform, which allows for more customization. This configuration also shows the power of the asynchronous processing of tasks, which makes each tier more modular.
 
@@ -47,7 +47,7 @@ The tiered architecture is the next step in configuring an application for the O
 Cloud load balancers have multiple balancing options, and support SSL
 termination for secure sites.
 
-2. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/): Cloud Servers can be modular for secure sites.
+2. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/): Cloud servers can be modular for secure sites.
 
 3. **MySQL**: MySQL replication is important for redundancy and failover.
 
@@ -61,13 +61,13 @@ This architecture shows a typical web application configuration in the Open Clou
 
 1.  [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
-2. [Rackspace Cloud Load Balancers](http://www.rackspace.com/cloud/public/loadbalancers/): Load balancers have multiple balancing options, and support SSL termination for secure sites.
+2. [Rackspace Cloud Load Balancers](http://www.rackspace.com/cloud/public/loadbalancers/): Load balancers have multiple balancing options and support SSL termination for secure sites.
 
 3. [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/): Cloud servers use Cloud Block Storage to serve web content for this application.
 
 4. **Rackspace Cloud Load Balancers**: Load balancers can also balance on service networks for back-end connections.
 
-5. [Rackspace Cloud Databases](http://www.rackspace.com/cloud/public/databases/): Cloud databases will host MySQL as an optimized, redundant platform.
+5. [Rackspace Cloud Databases](http://www.rackspace.com/cloud/public/databases/): Cloud databases host MySQL as an optimized, redundant platform.
 
 ### Content management system architecture
 
@@ -103,7 +103,7 @@ termination for secure sites.
 
 5. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/): Static content can be served through Rackspace Cloud Files and the Akamai CDN for global content delivery.
 
-6. **Memcached** - Memcached is used for MySQL queries, session data, or both.
+6. **Memcached**: Memcached is used for MySQL queries, session data, or both.
 
 ### Reverse proxy cloud architecture
 
@@ -150,9 +150,9 @@ This high-level overview shows the possibilities of mixing private and public cl
 1. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
 
-2. [RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect): RackConnect enables Rackspace to connect from a customer data center to a Rackspace data center through a Site-to-Site IPSec VPN.
+2. [RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect): RackConnect enables Rackspace to connect from a customer data center to a Rackspace data center through a site-to-site IPSec VPN.
 
-3. [Rackspace Cloud: Private Edition](http://www.rackspace.com/cloud/private/): The Rackspace Cloud Private Edition team can provide support in a customer or partner datacenter.
+3. [Rackspace Cloud, Private Edition](http://www.rackspace.com/cloud/private/): The Rackspace Cloud Private Edition team can provide support in a customer or partner data center.
 
 4. [OpenStack Private Cloud](http://www.rackspace.com/cloud/private/): Customers can also use RackConnect. This will connect a Rackspace Hosted OpenStack Private Cloud to the Rackspace Public Cloud.
 
@@ -169,7 +169,7 @@ standards and to takes full advantage of computing resources.
 
 1. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/): When a visitor loads a web page, cloud servers are used as web and application servers. A firewall and load balancer are also used.
 
-2. [Rackspace Cloud Networks](https://www.rackspace.com/cloud/networks): Cloud servers can be segmented from each other using Rackspace Cloud Networks.
+2. [Rackspace Cloud Networks](https://www.rackspace.com/cloud/networks): Cloud servers can be segmented from each other by using Rackspace Cloud Networks.
 
 3. [RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect): Using RackConnect, cloud resources can be connected seamlessly to dedicated hardware, in this case for use as a database server.
 
