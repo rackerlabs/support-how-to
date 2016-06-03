@@ -20,11 +20,11 @@ You need to add two entries to your **hosts** file that contain the IP address t
 
 The sections in this article provide instructions for locating and editing the hosts file on the operating systems that are listed below:
 
--   Windows 8, Windows 7, and Windows Vista
+-   Windows 10, Windows 8, Windows 7, and Windows Vista
 -   Windows NT, Windows 2000, and Windows XP
 -   Linux
 -   Mac OS X 10.0 through 10.1.5
--   Mac OS X 10.6 through 10.10
+-   Mac OS X 10.6 through 10.11
   
 After you add the domain information and save the file, your system begins resolving to the specified IP address. After testing is finished, remove these entries.
 
@@ -32,7 +32,7 @@ After you add the domain information and save the file, your system begins resol
 
 Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notepad must be run as Administrator.
 
-**For Windows 8**
+**For Windows 8 and 10**
 
 1.  Press the Windows key.
 2.  Type **Notepad** in the search field.
@@ -106,7 +106,7 @@ Windows 8, Windows 7, and Windows Vista use User Account Control (UAC), so Notep
 
      You do not need to restart the computer.
 
-**Mac OS X 10.6 - 10.10**
+**Mac OS X 10.6 - 10.11**
 
 1.  Open **Applications > Utilities > Terminal**.
 2.  Open the **hosts** file by typing the following line in the terminal window:
