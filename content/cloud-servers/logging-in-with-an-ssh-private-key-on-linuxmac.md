@@ -37,15 +37,15 @@ key. In this example, we use the **file deployment_key.txt**.
 
           vim deployment_key.txt
 
-  After the editor starts, press 'i' to turn on insert mode. Then, paste
+3. After the editor starts, press 'i' to turn on insert mode. Then, paste
 the private key into the file.
-
-  **Note**: You need to include the **BEGIN** and **END** lines to use the
+   
+   **Note**: You need to include the **BEGIN** and **END** lines to use the
 private key.
+        
+     <img src="{% asset_path cloud-servers/logging-in-with-an-ssh-private-key-on-linuxmac/Linux2.png %}" width="764" height="660" />
 
-  <img src="{% asset_path cloud-servers/logging-in-with-an-ssh-private-key-on-linuxmac/Linux2.png %}" width="764" height="660" />
-
-3. To save your changes, press Escape. Then, type "":wq"to write the file
+3. To save your changes, press Escape. Then, type ":wq" to write the file
 and return to the command line.
 
 4. After saving the file, run the following command to change the file
