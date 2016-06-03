@@ -53,4 +53,4 @@ The SMS alerting functionality is available to US and UK Rackspace Monitoring cu
 
 - Continue to send us feature requests on the [Rackspace Monitoring Customer Forum](https://feedback.rackspace.com/forums/250746-cloud-hosting/category/81812-cloud-monitoring).
 
-- Complete API documentation on [Rackspace Monitoring](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-developer-guide)
+- Complete API documentation for [Rackspace Monitoring](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-developer-guide)
