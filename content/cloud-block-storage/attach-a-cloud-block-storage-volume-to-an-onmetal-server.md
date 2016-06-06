@@ -5,8 +5,8 @@ title: Attach a Cloud Block Storage volume to an OnMetal server
 type: article
 created_date: '2015-07-22'
 created_by: Catherine Richardson
-last_modified_date: '2016-01-27'
-last_modified_by: Mike Asthalter
+last_modified_date: '2016-06-06'
+last_modified_by: Nate Archer
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -23,9 +23,7 @@ Compute and Memory v1 flavors.
 
 To use the CLI in your terminal window, use the following procedure to
 attach a volume to your OnMetal server. (For information about
-installing the nova client, see [Installing python-novaclient on Linux
-and Mac
-OS](/how-to/installing-python-novaclient-on-linux-and-mac-os).)
+installing the nova client, see [Installing python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os).)
 The procedure assumes that the server instance and volume already exist.
 
 1. Set up the instance and the volume with their IDs as environment variables so that they are in the environment for use by subsequently executed commands.
@@ -118,23 +116,23 @@ string.
 
 10. Attach the Cloud Block Storage volume.
 
-       $ iscsiadm -m discovery --type sendtargets --portal $TARGET_PORTAL
-       10.190.254.69:3260,1 iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f
-       10.13.236.75:3260,1 iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f
-       $ iscsiadm -m node --targetname=$TARGET_IQN --portal $TARGET_PORTAL --login
-       Logging in to [iface: default, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260] (multiple)
-       Login to [iface: default, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260] successful.
+        $ iscsiadm -m discovery --type sendtargets --portal $TARGET_PORTAL
+        10.190.254.69:3260,1 iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f
+        10.13.236.75:3260,1 iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f
+        $ iscsiadm -m node --targetname=$TARGET_IQN --portal $TARGET_PORTAL --login
+        Logging in to [iface: default, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260] (multiple)
+        Login to [iface: default, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260] successful.
 
 11. Find the block device that was just added.  In this case, it is sdd.
 
-       $ lsblk
-       NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-       sda      8:0    0  28.9G  0 disk
-       sda1     8:1    0  28.8G  0 part /
-       sda2     8:2    0    64M  0 part
-       sdb      8:16   0   1.5T  0 disk
-       sdc      8:32   0   1.5T  0 disk
-       sdd      8:48   0     2G  0 disk
+        $ lsblk
+        NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+        sda      8:0    0  28.9G  0 disk
+        sda1     8:1    0  28.8G  0 part /
+        sda2     8:2    0    64M  0 part
+        sdb      8:16   0   1.5T  0 disk
+        sdc      8:32   0   1.5T  0 disk
+        sdd      8:48   0     2G  0 disk
 
 Now you can use the device, just like on other cloud servers. For more
 information, see [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume).
@@ -150,14 +148,12 @@ detach a volume from your OnMetal server.
 
 3. Disconnect the volume.
 
-     $ iscsiadm -m node --targetname=$TARGET_IQN --portal $TARGET_PORTAL --logout
-     Logging out of session [sid: 1, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260]
-     Logout of [sid: 1, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260] successful.
+       $ iscsiadm -m node --targetname=$TARGET_IQN --portal $TARGET_PORTAL --logout
+       Logging out of session [sid: 1, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260]
+       Logout of [sid: 1, target: iqn.2010-11.com.rackspace:3e7af99d-655f-4af1-93bb-9160ee505d9f, portal: 10.190.254.69,3260] successful.
 
-4. From the local machine, detach the volume using nova. If you detach
-before disconnecting, the volume will remain in detaching status until
-the preceding command is run and the following command is run again.
+4. From the local machine, detach the volume using nova. If you detach before disconnecting, the volume will remain in detaching status until the preceding command is run and the following command is run again.
 
-     $ nova volume-detach $INSTANCE $VOLUME
+       $ nova volume-detach $INSTANCE $VOLUME
 
 **Note**: When volumes are attached to an instance, you can not delete a volume from that instance. The instance will succeed if you detach the volume, than delete the volume again.
