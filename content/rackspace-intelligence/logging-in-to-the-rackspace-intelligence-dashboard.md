@@ -5,8 +5,8 @@ title: Log in to the Rackspace Intelligence dashboard
 type: article
 created_date: '2015-07-16'
 created_by: Rose Coste
-last_modified_date: '2015-10-07'
-last_modified_by: Constanze Kratel
+last_modified_date: '2016-06-06'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
