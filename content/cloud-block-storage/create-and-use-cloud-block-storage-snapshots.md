@@ -5,8 +5,8 @@ title: Create and use Cloud Block Storage snapshots
 type: article
 created_date: '2012-10-22'
 created_by: Rackspace Support
-last_modified_date: '2016-01-22'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-06-06'
+last_modified_by: Nate Archer
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
