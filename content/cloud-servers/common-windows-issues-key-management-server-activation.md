@@ -97,12 +97,13 @@ server:
      </tr>
      </table>
    
-7. Once the time is synced up, attempt the following:
+7. Once the time is synced up, attempt each of the following commands:
     
         w32tm /resync
+
         slmgr.vbs /ato
 
-8. You will also need to open UDP port 123 to allow the sync.
+8. You must open UDP port 123 to allow the sync.
 
 9. Make sure your firewall allows outbound connections to TCP port
    1688.
