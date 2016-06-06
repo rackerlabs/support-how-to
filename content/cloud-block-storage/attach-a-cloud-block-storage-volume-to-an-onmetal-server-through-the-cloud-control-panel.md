@@ -125,4 +125,4 @@ from within the OnMetal server before following the steps below.
 
 3. Click **Detach Volume**.
 
-**Note**: When volumes are attached to an instance, you will be unable to delete a volume from that instance. The instance will succeed if you detach the volume, than delete the volume again.
+**Note**: When volumes are attached to an instance, you can not delete a volume from that instance. The instance will succeed if you detach the volume, than delete the volume again.
