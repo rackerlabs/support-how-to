@@ -37,12 +37,3 @@ display information about some of the same entities that you can see in
 the Cloud Control Panel. For example, if you use the Cloud Control Panel
 to create a cloud server, you can then use the Rackspace Intelligence
 interface to visualize the status of that server.
-
-The Cloud Control Panel lists your cloud servers.
-
-<img src="{% asset_path rackspace-intelligence/logging-in-to-the-rackspace-intelligence-dashboard/intelligence-login-mycloud-login_0.png %}" width="964" height="559" />
-
-The Rackspace Intelligence dashboard lists information about your
-monitored entities.
-
-<img src="{% asset_path rackspace-intelligence/logging-in-to-the-rackspace-intelligence-dashboard/intelligence-dashboard-overview_1.png %}" width="960" height="474" />
