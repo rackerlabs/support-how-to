@@ -54,7 +54,7 @@ prevent errors.
 
 #### Unmount a volume from a Windows server
 
-1.  In the Server Manager, select **File and Storage Services; Disks**.
+1.  In the Server Manager, select **File and Storage Services > Disks**.
 2.  Under the **Disks** window, right-click the Cloud Block
     Storage volume. Select **Take Offline** from the pop-up menu. If the
     **Take Disk Offline** warning window displays, click **Yes**.
