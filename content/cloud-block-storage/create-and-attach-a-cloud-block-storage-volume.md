@@ -156,6 +156,4 @@ yellow in the Block Storage Volumes list. When it is done attaching, its
 status bar will turn green and the name of the server it is attached to
 displays under the heading **Attached to**.
 
-**Next steps:**
-
-[Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume)
+**Next steps:** [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume)
