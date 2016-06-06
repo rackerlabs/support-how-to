@@ -38,8 +38,6 @@ prevent errors.
 
 1. Confirm in the Control Panel how the volume is presented to the cloud server.
 
-    <img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/cbs_location3_0.png %}" width="764" height="490" />
-
   At your server, use the **df -h** command to see how it is mounted.
 
     <img src="{% asset_path cloud-block-storage/detach-and-delete-cloud-block-storage-volumes/mount_point.png %}" width="571" height="122" />
