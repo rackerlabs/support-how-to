@@ -5,8 +5,8 @@ title: Move a Cloud Block Storage volume between servers
 type: article
 created_date: '2014-02-14'
 created_by: Trenton Guthrie
-last_modified_date: '2016-01-22'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-06-06'
+last_modified_by: Nate Archer
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
