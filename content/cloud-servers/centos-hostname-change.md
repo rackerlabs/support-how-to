@@ -20,12 +20,12 @@ server hostname in CentOS.
 ### Change a server's hostname
 
 1.  Using a text editor, open the server's **/etc/sysconfig/network** file.
- 
-    # sudo nano /etc/sysconfig/network
+
+     # sudo nano /etc/sysconfig/network
 
 2.  Modify the `HOSTNAME=` value to match your FQDN hostname.
 
-        HOSTNAME=myserver.domain.com
+     HOSTNAME=myserver.domain.com
 
 3.  For internal networking, change the host that is associated with the
     main IP address for your server (found at **/etc/hosts**).
