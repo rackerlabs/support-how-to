@@ -72,7 +72,7 @@ The upgrade requires an active connection to the internet. Follow these steps to
           Info  :: Cloning the AgentLog from Agent1.3.0.1 to Agent
           Info  :: Removing AgentService_1.3.1.1.zip and UpdateService_1.3.1.1.zip
           Info  :: Restarting the Agent and AgentUpdater services
-           Info  :: STEP 1 => DONE!!!
+          Info  :: STEP 1 => DONE!!!
              *********************************************************************************
           Info  :: STEP 2 => Download the latest XenServer Tools on the Server
           Info  :: Downloaded Successfully xs-tools-6.5.0-20200.zip in  C:\rs-pkgs
