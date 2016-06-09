@@ -24,7 +24,7 @@ the port number), the daemon's PID (process identifier), and the program
 name.
 
 You need to run `netstat` on the server running the service.
-`netstat` is not affected by your firewall configuration.
+`Netstat` is not affected by your firewall configuration.
 
 ### Checking ports
 
