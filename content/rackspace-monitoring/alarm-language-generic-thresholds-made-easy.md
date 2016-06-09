@@ -5,14 +5,14 @@ title: Alarm Language - Generic Thresholds Made Easy
 type: article
 created_date: '2012-08-10'
 created_by: Daniel Dispaltro
-last_modified_date: '2016-01-22'
+last_modified_date: '2016-06-09'
 last_modified_by: Constanze Kratel
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
 It is not necessary to edit config files on a Nagios server. Rackspace
-Monitoring lets you:
+Monitoring enables you to:
 
 -   Set thresholds with an easy to use alarm language:
 
@@ -49,14 +49,6 @@ Monitoring lets you:
     to simulate an alerting scenario.
 -   Use multiple data center alert policies to seamlessly evaluate alarm
     criteria from multiple data centers:
-
-<img src="{% asset_path rackspace-monitoring/alarm-language-generic-thresholds-made-easy/Alarm%20Visualization_0.png %}" width="717" height="262" />
-
-*The graph above shows a check running in 3 monitoring zones. The yellow
-and red areas represent when an alarm is in WARNING and CRITICAL
-respectively.*
-
-------------------------------------------------------------------------
 
 ### Key Takeaways
 
