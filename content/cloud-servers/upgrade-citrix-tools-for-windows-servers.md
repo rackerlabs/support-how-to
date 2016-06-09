@@ -73,21 +73,25 @@ The upgrade requires an active connection to the internet. Follow these steps to
           Info  :: Removing AgentService_1.3.1.1.zip and UpdateService_1.3.1.1.zip
           Info  :: Restarting the Agent and AgentUpdater services
           Info  :: STEP 1 => DONE!!!
-             *********************************************************************************
+                   ***************************************************************************************
           Info  :: STEP 2 => Download the latest XenServer Tools on the Server
           Info  :: Downloaded Successfully xs-tools-6.5.0-20200.zip in  C:\rs-pkgs
           Info  :: Creating the Directory C:\rs-pkgs\xs-tools-6.5.0-20200
           Info  :: STEP 2 => DONE!!!
-          Info  :: *********************************************************************************
+          Info  :: ***************************************************************************************
           Info  :: STEP 3 => Before executing the installation of the Xenserver Tools,
                              YOU MUST CREATE A SNAPSHOT OF YOUR SERVER using the Control Panel
                              The Snapshot will allow you to recover your server if the installation fails.
                              Once you are done with This Step 3, Start the installation at STEP 4
-                             *********************************************************************************
+                   ***************************************************************************************
           Warn  :: STEP 4 => Execute the Xenserver tools Installer.
-                             Before you execute the installer, connect to the Console of the server in the Control Panel, because the server will reboot few times on its own. You will loose network access and Remote Desktop will fail until the installation is completed.*********************************************************************************
+                             Before you execute the installer, connect to the Console of the server
+                             in the Control Panel, because the server will reboot few times on its own.
+                             You will loose network access and Remote Desktop will fail
+                             until the installation is completed.
+                             *****************************************************************************
                              Execute:  C:\rs-pkgs\xs-tools-6.5.0-20200\install.bat
-                             *********************************************************************************
+                             *****************************************************************************
 ```
 
 
