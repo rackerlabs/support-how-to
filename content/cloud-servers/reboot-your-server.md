@@ -112,4 +112,4 @@ entering the following command:
 
 ### Next section
 
-[Recue mode](/how-to/rescue-mode)
+[Rescue mode](/how-to/rescue-mode)
