@@ -41,7 +41,7 @@ You can also tune the sensitivity level of the alarms by setting the **consecuti
 
 You should also think about choosing the right monitoring zones for your server. The monitoring zones initiate remote checks from the data center in which they are deployed. Checks are not executed from your users' browsers, so it is still different from Real User Monitoring (RUM). However, the checks are fairly accurate in detecting cross-region connectivity.
 
-From the metrics that Rackspace has collected in the system, we did noticed, that the three data centers in the US (IAD, DFW and ORD) generally have better connections among themselves, and this is also the case for the other three non-US data centers (HKG, LON, and SYD). The following table shows our recommentation for how to determine which monitoring zones to choose for servers deployed in each data center.
+From the metrics that Rackspace has collected in the system, we did noticed, that the three data centers in the US (IAD, DFW and ORD) generally have better connections among themselves, and this is also the case for the other three non-US data centers (HKG, LON, and SYD). The following table shows our recommendation for how to determine which monitoring zones to choose for servers deployed in each data center.
 
 | Data center where server is deployed | Recommended monitoring zones |
 | --- | --- |
