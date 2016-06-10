@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the [previous article](/how-to/set-up-a-two-server-glusterfs-array), you created a two-server GlusterFS array.
+**Previous section:** [Set up a two-server GlusterFS array](/how-to/set-up-a-two-server-glusterfs-array)
 
 This article describes how to add a new node, balance it into the array, and then remove it.
 
