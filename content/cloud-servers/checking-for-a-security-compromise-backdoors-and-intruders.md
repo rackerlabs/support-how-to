@@ -1,7 +1,7 @@
 ---
-permalink: checking-for-a-security-compromise-back-doors-and-intruders/
+permalink: check-for-a-security-compromise-back-doors-and-intruders/
 audit_date:
-title: 'Checking for a security compromise: back doors and intruders'
+title: 'Check for a security compromise: back doors and intruders'
 type: article
 created_date: '2013-04-25'
 created_by: Rose Contreras
