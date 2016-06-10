@@ -5,7 +5,7 @@ title: Add and remove GlusterFS servers
 type: article
 created_date: '2014-06-03'
 created_by: Matt Sherborne
-last_modified_date: '2016-05-19'
+last_modified_date: '2016-06-10'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
