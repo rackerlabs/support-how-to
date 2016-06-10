@@ -5,8 +5,8 @@ title: About Cloud Server images
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-06-07'
-last_modified_by: Colin Barker
+last_modified_date: '2016-06-10'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -78,4 +78,4 @@ images:
 
 -   ISOs cannot be uploaded to Cloud Files and used to build a new Cloud Server.
 
--   Importing images to Rackspace must follow the steps (Preparing an image for import into the Rackspace OpenCloud)[https://support.rackspace.com/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud/], and must follow the General Requirements to be successful.
+-   Importing images to Rackspace must follow the steps [Preparing an image for import into the Rackspace OpenCloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud), and must follow the General Requirements to be successful.
