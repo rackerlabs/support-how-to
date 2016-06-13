@@ -5,7 +5,7 @@ type: article
 created_date: '2016-03-18'
 created_by: Steve Croce
 last_modified_date: '2016-06-10'
-last_modified_by: Kyle LAffoon
+last_modified_by: Kyle Laffoon
 product: Cloud Databases
 product_url: cloud-databases
 ---
