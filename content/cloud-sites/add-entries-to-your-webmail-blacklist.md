@@ -35,9 +35,9 @@ To add a domain or email address to the list of domains and email
 You can use a percent sign (%) as a wildcard in the domain or
 email address (for example, **@%.ru**).  
 
-**Note:** We recommend that you *do not* blacklist domains from
-large email systems, such as hotmail.com or yahoo.com, because
-doing so could prevent you from receiving legitimate email.  
+    **Note:** We recommend that you *do not* blacklist domains from
+    large email systems, such as hotmail.com or yahoo.com, because
+    doing so could prevent you from receiving legitimate email.  
 
 3. Click **Add**.  
 
