@@ -22,7 +22,7 @@ product_url: rpc-openstack
 
 - [FAQ](https://support.rackspace.com/how-to/rpc-openstack-faq/)
 - [Spheres of Support](https://support.rackspace.com/how-to/rackspace-private-cloud-spheres-of-support/)
-- [Private Cloud Tech Resources](https://support.rackspace.com/how-to/private-cloud-tech-resources)
+- [Private Cloud Tech Resources](https://support.rackspace.com/how-to/private-cloud-tech-resources/)
 - [Rackspace Private Cloud Software and Reference Architecture](http://www.rackspace.com/cloud/private/openstack/software/)
 - [Rackspace Private Cloud Support](http://www.rackspace.com/cloud/private/openstack/support/)
 - [Rackspace Private Cloud Resources](http://www.rackspace.com/cloud/private/openstack/resources/)
