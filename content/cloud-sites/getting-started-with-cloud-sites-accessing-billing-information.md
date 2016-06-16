@@ -47,8 +47,7 @@ estimating your monthly charges.
 
 In the Cloud Sites Control Panel, you can access usage data by clicking
 **Your Account > Reports** in the left navigation pane.
-The **Reports** section opens to the **Usage Data** tab, as shown in the
-following figure.
+The **Reports** section opens to the **Usage Data** tab.
 
 The **Usage Data** tab displays a usage summary for your account during
 the current billing period, up to 48 hours prior to the the current day.
