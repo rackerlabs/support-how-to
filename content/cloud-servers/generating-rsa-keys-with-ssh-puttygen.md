@@ -23,7 +23,7 @@ authentication.
 This article provides steps for generating RSA keys by using PuTTYgen on
 Windows for secure SSH authentication with OpenSSH.
 
-### Generate Keys
+### Generate keys
 
 In Windows, use PuTTYgen to generate your public and private keys.
 
