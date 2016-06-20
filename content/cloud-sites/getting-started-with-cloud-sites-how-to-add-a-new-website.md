@@ -62,7 +62,7 @@ the Rackspace Cloud. If you are the owner of the domain do not worry,
 **you can still proceed** with adding the domain to the Rackspace Cloud
 by clicking **Continue**.
 
-![]http://c806394.r94.cf2.rackcdn.com/noautotransfer.png)
+![](http://c806394.r94.cf2.rackcdn.com/noautotransfer.png)
 
 -   Proceed by selecting *"I already own this domain"*,
     and then click on **Next Step**
