@@ -139,7 +139,7 @@ You can also transfer data between servers by adding Cloud Block Storage to the 
 
 If you decide to use this option one, we recommend taking a final image of the server which can be used as a base image to create new servers, or to rebuild your current server.
 
-#### Option 2
+#### Option 2: Perform installation steps on orginal production server
 
 You can perform all of the installation steps on the production server during a planned
 maintenance window. The server will retain its original IP address.
@@ -150,7 +150,7 @@ Before you start this process a second time, on the production server, we recomm
 
 You can delete your new non-production server once the maintenance window has been complete.
 
-#### Option 3
+#### Option 3: Rebuild the original production from an image of the new server
 
 You can rebuild the original production server from an image of the new server. The server retains its original IP address.
 
