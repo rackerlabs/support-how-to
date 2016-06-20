@@ -63,8 +63,6 @@ Navigate to your Cloud Server IP address (for example, `http://123.45.67.89`).
 
 If the default CentOS Apache welcome screen is displayed, the installation was successful.
 
-<img alt=" centos_apache_welcome.jpg" height="342" src="{% asset_path cloud-servers/centos-6-apache-and-php-install/Cent0SWelcome01.png %}" width="490" />
-
 ### Run chkconfig
 
 Now that Apache is installed and working, ensure that it is set to start automatically when the server is rebooted.
