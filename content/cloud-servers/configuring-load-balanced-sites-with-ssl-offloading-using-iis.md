@@ -5,7 +5,7 @@ title: Configure Load Balanced Sites with SSL offloading using IIS
 type: article
 created_date: '2012-12-03'
 created_by: Rae D. Cabello
-last_modified_date: '2016-06-10'
+last_modified_date: '2016-06-20'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -26,8 +26,6 @@ make sure it is functioning correctly.
 2. Click the edit button next to Secure Traffic (SSL). Make sure you are
 allowing secure and insecure traffic and using the default HTTPS port 443. Then fill in the
 certificate information:
-
-  <img src="{% asset_path cloud-servers/configuring-load-balanced-sites-with-ssl-offloading-using-iis/load-balanced-sites-IIS.png %}" width="444" height="438" />
 
 ### Create a Conditional Redirect
 
