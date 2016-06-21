@@ -5,8 +5,8 @@ title: Best practices for Cloud Backup
 type: article
 created_date: '2013-04-22'
 created_by: David Hendler
-last_modified_date: '2016-04-11'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-06-22'
+last_modified_by: Catherine Richardson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -118,9 +118,11 @@ Larger Size | Smaller Size
 
 #### Effective restores
 
-It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren't available because you haven't been configured as you expected.
+It is a good idea to periodically test your restores to make sure that they are working as you expect. You do not want to get in the situation where needed backups aren't available because they haven't been configured as you expected.
 
-Test your restores periodically to make sure that your data is saved as you expect it to be.
+Test your restores periodically to make sure that your data is saved as you expect it to be. As with any disaster recovery plan, you should schedule 
+semi-regular restore operations of your backed-up data sets. Doing so will provide you with a reference for how long this process can take as well 
+as ensure that your backups are complete and viable.
 
 Another point to consider is the restore destination. Restoring to the original location and overwriting saves on storage space, but you risk accidentally overwriting important existing files. Proceed with caution when restoring.
 
