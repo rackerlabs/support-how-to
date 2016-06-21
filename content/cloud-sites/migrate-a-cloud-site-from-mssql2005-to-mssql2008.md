@@ -28,71 +28,71 @@ migration at a non-peak time to minimize business impact.
    before making a backup of your 2005 database. While SQL 2008 does
    support full text catalogs, our current tools do not allow for them
    to be restored if they are in the backup file. Once you have
-   restored to the new MSSQL2008 location please add your full
-   text catalogs. The information at the following links will assist
+   restored to the new MSSQL2008 location, add your full
+   text catalogs. The information at the following links assists
    you in completing this task:
     -   [How to drop a full text catalog](http://msdn.microsoft.com/en-us/library/ms188403.aspx)
     -   [How to create a fulltext catalog](http://msdn.microsoft.com/en-us/library/ms189520.aspx)
-4. Set the database to `READ-ONLY` mode to ensure there are no updates
+4. Set the database to `READ-ONLY` mode to ensure that there are no updates
    done to the database while the migration is performed with the following
    query:
 
         ALTER DATABASE [NumXYZ_OldDbName] SET READ_ONLY
 
     **Note:** Only set the database to READ_ONLY after making
-    the backup, otherwise you won't be able to log into the
+    the backup. Otherwise, you won't be able to log into the
     new database.
 
-5. When the new database is restored, set it to Read-Write:
+5. When the new database is restored, set it to Read-Write with the following command:
 
         ALTER DATABASE [NumXYZ_NewDbName] SET READ_WRITE
 
 ### Cloud Site migration steps
 
 1. Create a new MSSQL 2008 database in the Cloud Sites Control Panel
-    under the **Features** tab of the domain your MSSQL2005 database is
+    under the **Features** tab of the domain that your MSSQL2005 database is
     on.
 
 2. After the database has been created, view its properties (as follows)
    and note the change in the hostname. **You will
    need to change any connection strings you have to the database and
    this information will be required.** The information for you
-   database will vary from the image depending on what data center your
-   account is hosted in.
+   database will vary from the image depending on the data center in which your
+   account is hosted.
 
 3. Use the web-based admin tool, MyLittleAdmin, to back up your
    MSSQL 2005 database. The link for the online tool can be found in
    your Cloud Sites Control Panel by clicking on the database under the
-   **Features** tab. For this backup, add "mlb" to the end of
+   **Features** tab. For this backup, add `mlb` to the end of
    the URL. It is important to add this to the URL and not to go
    through the standard MyLittleAdmin link found in your Cloud Sites
-   Control Panel. Using the links instead of adding the "mlb" might cause
+   Control Panel. Using the links instead of adding the `mlb` might cause
    session issues between the two MyLittleAdmin versions. For example:
    `https://mssqladmin.websitesettings.com/mlb`
 
 4. Log in to your original MSSQL 2005 source database.
 
 5. Back up your MSSQL 2005 database with the MyLittleAdmin tool.
-   When the backup has completed click on the file link to save the
+   When the backup has completed, click on the file link to save the
    backup file to your local machine.
 
 6. Log in to the MyLittleAdmin link again using your MSSQL 2008
-   database and login. Remember the login you use to restore will
-   become the new owner of the database. Choose restore, upload the
+   database and login. Remember that the login you use to restore 
+   becomes the new owner of the database. Choose restore, upload the
    backup file you just downloaded in Step 5, and then proceed with the
    restore.
 
 7. The restore tool might notify you that the previous users have no login
    mapping on the new SQL 2008 cluster. At this point your new database
-   will be ready. The only access allowed at this point is the owner login
+   is ready. The only access allowed at this point is the owner login
    that you used to restore the database. If you need to change the
-   owner to another login you created in the control panel or remap
-   users in your database to new logins please refer to the
+   owner to another login that you created in the control panel or remap
+   users in your database to new logins, refer to the
    article, [How to Change ownership and remap database users using the web based admin tool for MSSQL.](/how-to/remap-database-users-in-mylittleadmin).
 
 8. Once the migration is complete, update all connection strings to
    point to the new database. After you verify that everything is
    working from the MSSQL2008 database, delete your MSSQL2005 database
    and confirm with Cloud Sites Support that the migration is complete.
-   This will ensure that you are not billed for the additional database
+   Doing so ensures that you are not billed for the additional database
    use in the future.
