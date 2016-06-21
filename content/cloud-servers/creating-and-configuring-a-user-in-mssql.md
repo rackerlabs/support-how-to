@@ -5,8 +5,8 @@ title: Create and Configure a User in MSSQL
 type: article
 created_date: '2011-04-04'
 created_by: Rackspace Support
-last_modified_date: '2015-12-29'
-last_modified_by: Nate Archer
+last_modified_date: '2016-06-21'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,13 +15,9 @@ This article will show you how to create and configure a user in MSSQL.
 
 1. Open SQL Server Management Studio (SSMS).
 
-2. Connect to SQL Server using the proper credentials.
+2. Connect to SQL Server using your log in information.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsconnect.PNG %}" alt="ssmsconnect.PNG" />
-
-3. Expand Security and Logins.
-
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmslogins.PNG %}" alt="ssmslogins.PNG" />
+3. In the left-hand panel, expand **Security < Logins**.
 
 4. Right click **Logins** and select **New Login**.
 
