@@ -17,7 +17,7 @@ This article will show you how to create and configure a user in MSSQL.
 
 2. Connect to SQL Server using your log in information.
 
-3. In the left-hand panel, expand **Security < Logins**.
+3. In the left-hand panel, expand **Security > Logins**.
 
 4. Right click **Logins** and select **New Login** from the drop-down menu.
 
@@ -29,27 +29,22 @@ This article will show you how to create and configure a user in MSSQL.
 
    <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin1.PNG %}" alt="ssmsnewlogin1.PNG" />
 
-6. Click on **Server Roles** and you can assign any sever roles you want
-this user to have.
+6. In the left-hand panel, click **Server Roles** to assign any server roles you want
+this user to have, including **bulkadmin**, **dbcreator**, **public**, and so on.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin2.PNG %}" alt="ssmsnewlogin2.PNG" />
+7. In the left-hand panel, click **Securables** and then click **Search**.
 
-7. Click on **Securables** and then click the **Search** button. This will bring
-up the Add Objects dialog box where you can choose specific objects,
-objects of a certain type or the server itself. Select one and click Ok.
+   The Add Objects dialog box displays, where you can choose specific objects, objects of a certain type or the server itself. Select one and click **OK**.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsaddobjects.PNG %}" alt="ssmsaddobjects.PNG" />
+8. On the **Securables** page, select **Grant**, **With Grant** or **Deny** as necessary for any/all of the
+objects in the explicit box.
 
-8. Select **Grant**, **With Grant** or **Deny** as necessary for any/all of the
-objects in the explicit box. (Grant will grant access to the securable,
-with grant will allow the user to grant access to the securable and deny
-will expressly deny permission to the securable no matter what roles or
-permissions the user may have).
+   Grant will grant access to the securable, with grant will allow the user to grant access to the securable and deny will expressly deny permission to the securable no matter what roles or permissions the user may have.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin3.PNG %}" alt="ssmsnewlogin3.PNG" />
+   <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin3.PNG %}" alt="ssmsnewlogin3.PNG" />
 
-9. Click on **status** to grant or deny permission to the Database Engine,
+9. In the left-hand panel, click **Status** to grant or deny permission to the Database Engine,
 enable or disable the login and to unlock the account should it get
-locked out. When all this is done click on **OK** to create the user.
+locked out.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin4.PNG %}" alt="ssmsnewlogin4.PNG" />
+When you have finished modifying the settings, click **OK** to create the user and exit the new login creation window.
