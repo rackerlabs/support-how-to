@@ -19,18 +19,15 @@ This article will show you how to create and configure a user in MSSQL.
 
 3. In the left-hand panel, expand **Security < Logins**.
 
-4. Right click **Logins** and select **New Login**.
+4. Right click **Logins** and select **New Login** from the drop-down menu.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin.PNG %}" alt="ssmsnewlogin.PNG" />
+5. Assign a Login name and select the authentication method and default database/language.
 
-5. On this page you assign a Login name and select the authentication
-method and default database/language. (Note only Domains can use Windows
-Authentication) If you are using SQL authentication you will need to
-enter an initial password and choose the enforcement options for
-password policy and expiration as well as whether or not the user will
-need to change their password when they log in.
+   **Note:** Only Domains can use Windows Authentication.
 
-  <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin1.PNG %}" alt="ssmsnewlogin1.PNG" />
+   If you are using SQL authentication you will need to enter an initial password and choose the enforcement options for password policy and expiration as well as whether or not the user will need to change their password when they log in.
+
+   <img src="{% asset_path cloud-servers/creating-and-configuring-a-user-in-mssql/ssmsnewlogin1.PNG %}" alt="ssmsnewlogin1.PNG" />
 
 6. Click on **Server Roles** and you can assign any sever roles you want
 this user to have.
