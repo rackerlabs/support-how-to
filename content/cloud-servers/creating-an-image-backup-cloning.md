@@ -26,6 +26,6 @@ to the left of the server name. From the drop-down menu, click **Create Image**.
 
    A pop-up window will appear that allows you to name the image.
 
-3. After naming the image, click the **Create Image** button.
+3. After naming the image, click **Create Image**.
 
 Server images will appear in the **Images** list after they have been created. They can be accessed by clicking on the **View Images** in the **Images** section.

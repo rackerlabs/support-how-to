@@ -25,7 +25,7 @@ After you log in, the generator lists your existing CSRs (if any), organized by 
 
 ### Generate a CSR
 
-1. Click the **Create CSR** button.
+1. Click **Create CSR**.
 
 2. Enter the following information, which will be associated with the CSR:
 
