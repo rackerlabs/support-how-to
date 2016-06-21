@@ -5,33 +5,28 @@ title: Connect to Linux from Windows by using PuTTY
 type: article
 created_date: '2011-03-08'
 created_by: Rackspace Support
-last_modified_date: '2016-01-14'
+last_modified_date: '2016-06-21'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Create a Cloud Server](/how-to/create-a-cloud-server)
-
-After you have created a new cloud server
+After you have [created a new cloud server](/how-to/create-a-cloud-server)
 with the control panel, your next step is to make a secure remote
 connection from your local computer to your cloud server. This article
 describes how to use a client called PuTTY to form an Secure Shell (SSH)
 connection from a computer running a Microsoft Windows OS to a Linux
 server.
 
-**Notes**:
+**Note:** This procedure requires you to install PuTTY or another SSH client
+which you do at your own risk. PuTTY is not affiliated with
+Rackspace in any way, but their software is simple to use, is freely
+available, and reputable.
 
--   For an OnMetal Server, see the [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
-    article for applicable OnMetal steps.
--   This procedure requires you to install PuTTY or another SSH client
-    which you do at your own risk.  PuTTY is not affiliated with
-    Rackspace in any way, but their software is simple to use, is freely
-    available, and reputable.
--   If you are a Mac OS X user, you can [connect to a Linux server by using Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal), a
-    console program included with the operating system.
+If you are a Mac OS X user, you can [connect to a Linux server by using Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal), a
+console program included with the operating system.
+
+For an OnMetal Server, see the [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers) article for applicable OnMetal steps.
 
 #### Windows versions
 
@@ -57,8 +52,6 @@ click **Open**:
     this connection.  Feel free to save it to whatever name you want: it
     simply saves time next time you use Putty.  You can have a different
     name for each of your Cloud Servers.
-
-<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/1_Connect.png %}" alt="" />
 
 ### Accept the key
 
@@ -89,15 +82,13 @@ the prompt, it is not echoed to the screen.  Then, press **Enter**.
 If you have entered the correct root password, the prompt responds with
 a shell prompt:
 
-`[root@yourservername ~]#`
-
-<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/3_login.png %}" alt="" />
+    [root@yourservername ~]#
 
 Now you can work on your server with all permissions.
 
 ### Change your root passwords
 
-FWe recommend that you change the root password to something personal.
+We recommend that you change the root password to something personal.
  You can easily do this by using the `passwd` command.
 
 1.  From the shell prompt, enter the passwd command.
@@ -105,13 +96,7 @@ FWe recommend that you change the root password to something personal.
     password does not echo to the screen.
 3.  Reenter the new password and press **Enter**.
 
-Reenter the new password and press **Enter**.
-
-<img src="{% asset_path cloud-servers/connecting-to-linux-from-windows-by-using-putty/4_passwd.png %}" alt="" />
-
 You will now use this password with the root user whenever you connect
 to your server.
 
-### Next section
-
-[Remote Connection from Mac to a Linux Server](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
+**Next section** - [Remote Connection from Mac to a Linux Server](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
