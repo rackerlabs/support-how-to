@@ -26,7 +26,7 @@ If your websites are currently .NET 4.5-compatible we recommend that you
 perform the .NET 4.5 upgrade. Customers can upgrade to .NET 4.5 by
 selecting the .NET 4.5 technology option from the Features page of the
 control panel. This migration is a very easy process. Follow
-these simple steps:
+these steps:
 
 Ensure that your applications or CMS solutions are running
 the latest .NET 4.5-compatible version prior to upgrading from .NET 4.0
