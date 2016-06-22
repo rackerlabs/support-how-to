@@ -14,19 +14,31 @@ product_url: cloud-servers
 Use the following steps to set up a Cloud Server through the Cloud
 Control Panel interface.
 
-1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com). The Cloud Servers list opens
-    by default.
+1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com) and click **Servers > Cloud Servers** in the top navigation bar.
+
 2.  Click **Create Server**.
+
 3.  In the **Details** section, enter a name for your server in
     the **Server Name** field.
+
 4.  From the Region list, select the region in which you want to create
     the server.
+
+    For more information about regions and how to use them effectively, see [About regions](/how-to/about-regions).
+
 5.  In the **Image** section, select which operating system you want to
     use.
+
+    For a complete list of available images, see the [Images section](https://www.rackspace.com/cloud/servers/features#images) of the Cloud Servers product page.
+
 6.  In the **Flavor** section, choose the appropriate configuration for
     the server.
+
+    For more information about flavors, see the [Cloud Core Infrastructure User Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/flavor-class/#cloud-servers-flavor-class).
+
 7.  *(Optional)* Assign a public key to the server by selecting an
     existing key under **Advanced Options**.
+
 8.  To add a new public key, click **Manage SSH Keys** and perform the following steps:
 
     1.   On the SSH Keys page, click **Add Public Key**

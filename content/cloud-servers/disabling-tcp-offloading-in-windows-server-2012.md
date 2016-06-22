@@ -5,7 +5,7 @@ title: Disable TCP Offloading in Windows Server 2012
 type: article
 created_date: '2014-01-16'
 created_by: Kyle Laffoon
-last_modified_date: '2014-07-18'
+last_modified_date: '2016-06-22'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -30,8 +30,6 @@ cooperative efforts.
 
 1.  In the Windows server, open the Control Panel and select **Network
     Settings > Change Adapter Settings**.
-
-    <img src="{% asset_path cloud-servers/disabling-tcp-offloading-in-windows-server-2012/TCPOffloading8.png %}" width="413" height="458" />
 
 2.  Right-click on each of the adapters (**private** and **public**),
     select **Configure** from the **Networking** menu, and then click
