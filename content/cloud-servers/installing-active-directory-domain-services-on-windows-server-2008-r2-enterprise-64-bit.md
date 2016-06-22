@@ -5,8 +5,8 @@ title: Install Active Directory Domain Services on Windows Server 2008 R2 Enterp
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2015-12-29'
-last_modified_by: Nate Archer
+last_modified_date: '2016-06-22'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -17,6 +17,9 @@ Enterprise 64-bit (W2K8).
 This article does *not* provide instructions for adding a Domain
 Controller (DC) to an already existing Active Directory Forest
 Infrastructure.
+
+**Note**: For information on setting up the Active Directory Role
+on a Windows Server 2012, see [Install Active Directory on Windows Server 2012](/how-to/installing-active-directory-on-windows-server-2012).
 
 ### Prepare for Active Directory
 

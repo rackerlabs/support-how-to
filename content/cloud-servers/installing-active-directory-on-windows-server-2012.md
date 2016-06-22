@@ -5,8 +5,8 @@ title: Install Active Directory on Windows Server 2012
 type: article
 created_date: '2013-04-03'
 created_by: Rackspace Support
-last_modified_date: '2016-01-14'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-06-22'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -16,6 +16,10 @@ on a Windows Server 2012. This article is intended to be used for those
 without an existing Active Directory Forest, it will not cover
 configuring a server to act as a Domain Controller for an existing
 Active Directory Forest.
+
+**Note**: For information on setting up the Active Directory Domain
+Services (AD DS) on Microsoft Windows Server 2008 R2 Enterprise 64-bit (W2K8),
+see [Install Active Directory Domain Services on Windows Server 2008 R2 Enterprise 64-bit](/how-to/installing-active-directory-domain-services-on-windows-server-2008-r2-enterprise-64-bit).
 
 ### Installing Active Directory
 
