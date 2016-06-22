@@ -49,7 +49,7 @@ to change this technology.
 
 2.  Click the domain name to which you would like to make technology changes.
 
-3.  Click he **Features** tab.
+3.  Click the **Features** tab.
 
 4.  Click **Change Technology** in the **Technologies** section.
 
@@ -80,7 +80,7 @@ each of your domains.
 
 Displayed under **Website Features** is a breakdown of your website's current
 features including its currently enabled technologies, its number of
-databases and whether the Raw Logs are enabled or disabled. (Raw Logs
+databases, and whether the Raw Logs are enabled or disabled. (Raw Logs
 are disabled by default).
 
 This concludes this article regarding Cloud Sites Web Technologies.
