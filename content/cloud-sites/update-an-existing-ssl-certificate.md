@@ -5,8 +5,8 @@ title: Update an existing SSL certificate
 type: article
 created_date: '2011-08-16'
 created_by: Chris Farmer
-last_modified_date: '2016-01-21'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-06-23'
+last_modified_by: Kyle Laffoon
 product: Cloud Sites
 product_url: cloud-sites
 ---
@@ -60,9 +60,7 @@ In order to install your new SSL certificate, you will need the following inform
 
 Once you have the above information, you can install your new
 certificate by clicking on the **Security** tab of your site, then click on
-the **Edit Certificate link**:
-
-<img src="{% asset_path cloud-sites/update-an-existing-ssl-certificate/Edit%20Certificate.png %}" alt="" />
+the **Edit Certificate link**.
 
 On the next screen, you will see three fields for Certificate, Private
 Key, and Intermediate Certificate; simply replace the current

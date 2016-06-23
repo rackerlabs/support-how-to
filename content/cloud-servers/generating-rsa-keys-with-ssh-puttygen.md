@@ -5,13 +5,11 @@ title: Generate RSA keys with SSH by using PuTTYgen
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-06-20'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2016-06-23'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
-
-### Introduction
 
 One effective way of securing SSH access to your cloud server is to use
 a public-private key pair. This means that a *public* key is placed on
@@ -71,8 +69,6 @@ If your key is not already in the list, you may add it, and then assign it.
 2.  When you are done specifying the all the other details for the server,
     click **Create Server**.
 
-
-
 #### Assign your SSH Key to an existing cloud server
 
 To make use of your newly generated RSA key pair, you must tell PuTTY to
@@ -80,7 +76,7 @@ use it when connecting to your cloud server.
 
 1. To edit the file (or create it), run the following command on the cloud server:
 
-    nano ~/.ssh/authorized_keys
+       nano ~/.ssh/authorized_keys
 
 2. Paste the text onto its own line in the file.
 
@@ -88,7 +84,6 @@ use it when connecting to your cloud server.
    associated text (the ssh-rsa identified at the start and the comment at the end)
    must be on one line in the file.  If the text is word-wrapped onto multiple lines
    an error might occur when connecting.
-
 
 3.  If you created the **authorized_keys** file, change its permissions
     after you're done editing it by running the following command:

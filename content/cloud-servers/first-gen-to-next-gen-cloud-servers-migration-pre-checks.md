@@ -5,8 +5,8 @@ title: First Gen to Next Gen Cloud Servers migration pre-checks
 type: article
 created_date: '2015-05-15'
 created_by: David Hendler
-last_modified_date: '2016-05-10'
-last_modified_by: Aaron Davis
+last_modified_date: '2016-06-23'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -45,7 +45,7 @@ take significantly longer to complete. We recommend that before you
 initiate your self-migration, you move any unnecessary data off the
 server. You can use Rackspace Cloud Backup to perform this task.
 
-You can verify the results of this check by running **`df -h`** on a
+You can verify the results of this check by running `df -h` on a
 Linux cloud server, or by checking the properties of your disk from the
 **My Computer** screen in Windows.
 
@@ -55,7 +55,7 @@ In a subset of the First Gen Linux infrastructure, the kernel and
 initial RAM disk are handled by the hypervisor instead of within your
 cloud server. Because the Next Gen environment uses only self-managed
 kernels, the migration process must inject your shared kernel and
-initramfs into your file system. This check ensures that there is
+`initramfs` into your file system. This check ensures that there is
 sufficient free space on your disk for the kernel to be injected.
 
 The results for this check are pass/fail.
@@ -76,7 +76,7 @@ indicate that your cloud server migration will fail, but an extremely
 high inode count will substantially increase migration time on early
 Linux cloud servers.
 
-To verify this check, run **`df -i`** from your Linux cloud server.
+To verify this check, run `df -i` from your Linux cloud server.
 Because there are no Windows cloud servers in our earliest environment,
 this check is not necessary for Windows cloud servers.
 
@@ -134,5 +134,5 @@ If your Windows server fails this check, follow these instructions:
 
 2.  Unzip the archive.
 
-3.  In the folder that is created, run the **`installagentservice.bat`**
+3.  In the folder that is created, run the `installagentservice.bat`
     script from an administrator command prompt.
