@@ -107,5 +107,4 @@ Submit the CSR that you created here to a certificate authority. We recommend
 Verisign, Thawte and RapidSSL, but there are other certificate authorities that
 you can choose to use.
 
-
 **Next section** - [Installing an SSL certificate](/how-to/installing-an-ssl-certificate-on-apache)
