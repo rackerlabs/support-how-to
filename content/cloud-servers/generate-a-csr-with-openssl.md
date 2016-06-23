@@ -5,8 +5,8 @@ title: Generate a CSR with OpenSSL
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-06-15'
-last_modified_by: Aaron Davis
+last_modified_date: '2016-06-23'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -104,6 +104,4 @@ submit it to a certificate authority. Ones that we recommend are going
 to be Verisign, Thawte and RapidSSL. There are also a number of other
 certificate authorities out there, shop around.
 
-### Next section
-
-[Installing an SSL certificate](/how-to/installing-an-ssl-certificate-on-apache)
+**Next section** - [Installing an SSL certificate](/how-to/installing-an-ssl-certificate-on-apache)
