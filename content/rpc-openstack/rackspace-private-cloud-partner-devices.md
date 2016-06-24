@@ -5,13 +5,13 @@ title: Rackspace Private Cloud - Partner Devices
 type: article
 created_date: '2013-06-07'
 created_by: Alyssa Hurtgen
-last_modified_date: '2016-01-13'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-06-24'
+last_modified_by: Kyle Laffoon
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
 
-## Rackspace Private Cloud Certified and Supported Devices</strong>
+### Rackspace Private Cloud Certified and Supported Devices
 
 **Private Cloud Deployed in Your Data Center** | **Private Cloud Deployed in Rackspace Data Center**
 --- | --- |
@@ -20,7 +20,7 @@ product_url: rpc-openstack
 **Note:** Rackspace Private Cloud provides secure and auditable access.
 
 
-## Rackspace Private Cloud Partner Devices
+### Rackspace Private Cloud Partner Devices
 
 &nbsp; | **HW Support in RAX DC** | **Distribution Certified For** | **Software Support in RAX DC** | **HW Support Off-Prem.** | **SW Support Off-Prem.** | **Certified for RPC/Reference Architecture** | **Supported Use Cases For Current Version of RPC** | **HW Support in Customer DC Only**
 --- | --- | --- | --- | --- | --- | --- | --- | ---

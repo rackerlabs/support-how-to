@@ -5,8 +5,8 @@ title: Rackspace Private Cloud Software - VM Block Migration
 type: article
 created_date: '2012-11-05'
 created_by: Karin Levenstein
-last_modified_date: '2012-11-15'
-last_modified_by: Jered Heeschen
+last_modified_date: '2016-06-24'
+last_modified_by: Kyle Laffoon
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
@@ -326,5 +326,3 @@ to check would be the following log files:
 -   `/var/log/nova/nova-scheduler.log` on the Alamo controller node
 -   `/var/log/nova/nova-compute.log` on your source/destination compute
     hosts
-
-
