@@ -142,8 +142,7 @@ The RPC solution templates are available for free.
 The solution templates are not supported by RPC.
 
 #### Where are the solutions templates located?
-The general public can download our solution templates at the following GitHub site: [http://rcbops.github.io/templates/](http://rcbops.github.io/templates/). As part of our v10 release, Rackspace Private Cloud customers can now discover and deploy RPC solution templates using the RPC "Solutions" tab in the Horizon dashboard.  Following is a snapshot of the RPC "Solutions" tab in Horizon:
-<img src="{% asset_path rpc-openstack/rpc-openstack-faq/rpc-solutions-tab.png %}" width="700" alt="Rackspace Private Cloud Solutions tab screen shot"  />
+The general public can download our solution templates at the following GitHub site: [http://rcbops.github.io/templates/](http://rcbops.github.io/templates/). As part of our v10 release, Rackspace Private Cloud customers can now discover and deploy RPC solution templates using the RPC "Solutions" tab in the Horizon dashboard.
 
 #### Does Rackspace plan to offer additional templates in the future?
 Yes, Rackspace plans to continue adding new solution templates to the RPC "Solutions" tab.
