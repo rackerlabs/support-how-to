@@ -32,6 +32,6 @@ product_url: cloud-sites
 -   The website can be made public when needed. Site owner must log into
     the website for the domain registrar where they bought the
     domain--for example, **Godaddy.com** or **Register,com**, and set
-    the DNS name servers for the domain **dns1.stabletransit.com** and
-    **dns2.stabletransit.com**. Additionally you can use external name
+    the DNS name servers for the domain **ns.stabletransit.com** and
+    **ns2.stabletransit.com**. Additionally you can use external name
     servers and modify DNS records as needed.
