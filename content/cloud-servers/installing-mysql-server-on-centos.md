@@ -25,14 +25,14 @@ details.
 **Note:** CentOS 7 has replaced MySQL with MariaDB. To reflect this,
 instructions for MariaDB procedures are included in this article.
 
-  - [Install the database application](# Install the database server)
-  - [Start and stop the database service](# Start and stop the database service)
-  - [Start the mysql shell](#Start the mysql shell)
-  - [Set the root password](#Set the root password)
-  - [View users](#View users)
-  - [Create a database](#Create a database)
-  - [Manage users and permissions](#Manage users and permissions)
-  - [Summary](#Summary)
+  - Install the database application
+  - Start and stop the database service
+  - Start the mysql shell
+  - Set the root password
+  - View users
+  - Create a database
+  - Manage users and permissions
+  - Summary
 
 ### Install the database server
 
