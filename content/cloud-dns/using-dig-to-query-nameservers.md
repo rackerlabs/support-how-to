@@ -5,8 +5,8 @@ title: Use dig to query nameservers
 type: article
 created_date: '2013-05-28'
 created_by: Jered Heeschen
-last_modified_date: '2016-04-13'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-06-27'
+last_modified_by: Nate Archer
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -20,8 +20,8 @@ domain name to your website and email hosting. Essentially, name servers
 tell the internet where to find your website and where to deliver your
 email. Our name servers are:
 
-    dns1.stabletransit.com
-    dns2.stabletransit.com
+    ns.stabletransit.com
+    ns2.stabletransit.com
 
 If you have a domain that you have already registered and you want to
 host it from your Rackspace Cloud Server, you will need to go to the
