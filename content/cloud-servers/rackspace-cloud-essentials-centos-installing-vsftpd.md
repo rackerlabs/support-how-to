@@ -23,13 +23,13 @@ secure file transfers.
 
 Instead, we recommend installing and using a secure file transfer
 mechanism. This article describes how to install vsftpd (very secure FTP
-daemon), and the FTP client, and also walks you through some useful
+daemon) and the FTP client, and also walks you through some useful
 administration and security steps.
 
 
 ### Install and run vsftpd
 
-Use the group installation that is available in the YUM package manager. 
+Use the group installation that is available in the YUM package manager.
 
 1. Run the following command to install everything you need:
 
@@ -40,14 +40,14 @@ Use the group installation that is available in the YUM package manager.
        sudo service vsftpd start
 
 Now that you have a working installation of vsftpd already on the
-server. Now you can make a few of configuration changes for security 
+server. Now you can make a few of configuration changes for security
 and convenience.
 
 ### Set the vsftp service to start on reboot
 
-You can use the chkconfig tool to view which services start automatically 
-when the server starts, and on which run level they start. To get vsftpd 
-to start on the most common run levels (3,4,5) run the following command:
+You can use the chkconfig tool to view which services start automatically
+when the server starts, and on which run level they start. To get vsftpd
+to start on the most common run levels (3,4,5), run the following command:
 
     sudo chkconfig vsftpd on
 
@@ -56,15 +56,17 @@ Verify the "on" status by checking the chkconfig output for vsftpd:
     chkconfig --list vsftpd
 
 The standard vsftpd configuration file and all subsequent files for
-CentOS reside in the **/etc/vsftpd/** directory. The most important file in 
-this directory is **vsftpd.conf**. You need to make two changes to this file for security
-and convenience. These are the changes described in the next two sections:
+CentOS reside in the **/etc/vsftpd/** directory. The most important file in
+this directory is **vsftpd.conf**. You need to make two changes to this file
+for security and convenience. These are the changes described in the next two
+sections.
 
-To get startd, open the **/etc/vsftpd/vsftpd.conf** file in your favorite text editor.
+To get startd, open the **/etc/vsftpd/vsftpd.conf** file in your favorite text
+editor.
 
 ### Disable anonymous users
 
-We recommend disabling anonymous FTP, unless you have a specific requirement to 
+We recommend disabling anonymous FTP, unless you have a specific requirement to
 use it.
 
 Change the value for `anonymous_eanble` to `No`, as follows:
@@ -75,7 +77,7 @@ Change the value for `anonymous_eanble` to `No`, as follows:
 ### Restrict user access
 
 Now configure vsftpd to be able to chroot(commonly referred to as
-jailing) users to their home directories for security and privacy. 
+jailing) users to their home directories for security and privacy.
 
 1. Change the value of `chroot_list_enable` to `No`, as follows:
 
@@ -86,11 +88,15 @@ jailing) users to their home directories for security and privacy.
     # (default follows)
     chroot_list_file=/etc/vsftpd/chroot_list
 
-2. Ensure that users are jailed in their home directory by adding the following entry to the bottom of the file:
+2. Ensure that users are jailed in their home directory by adding the following
+entry to the bottom of the file:
 
     chroot_local_user=YES
 
-3. So that you do not get an error when restarting, create the `chroot_list` file, as follows:
+3. Save the **/etc/vsftpd/vsftpd.conf** file.
+
+4. So that you do not get an error when restarting, create the `chroot_list`
+file, as follows:
 
     sudo touch /etc/vsftpd/chroot_list
 
@@ -106,8 +112,8 @@ jailing) users to their home directories for security and privacy.
 
 3. Open the **/etc/sysconfig/iptables-config** file in your favorite editor.
 
-4. Verify that the `IPTABLES_MODULES` variable is specified as `ip_conntrack_ftp` (CentOS 5) or
-`nf_conntrack_ftp` (CentOS 6), as shown in the following examples:
+4. Verify that the `IPTABLES_MODULES` variable is specified as `ip_conntrack_ftp`
+(CentOS 5) or `nf_conntrack_ftp` (CentOS 6), as shown in the following examples:
 
      -  Centos 5 (ip_conntrack_ftp):
 
@@ -123,16 +129,20 @@ jailing) users to their home directories for security and privacy.
 
 
 ### Access your server through FTP
+Use one of the following methods to access the server.
 
 #### Using a browser
 
-Enter the name of your FTP site into a browser address bar, as shown in the following screenshot and supply the login credentials when prompted.
+Enter the name of your FTP site into a browser address bar, as shown in the
+following screenshot and supply the login credentials when prompted.
 
 <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-centos-installing-vsftpd/ftp.png %}" width="538" height="73" />
 
 #### Using an FTP client
 
-Use one of the many low-cost or free FTP applications, such as [CyberDuck](https://cyberduck.io/?l=en) and [Fireuploader](http://www.fireuploader.com/), that are available for download.
+Use one of the many low-cost or free FTP applications, such as
+[CyberDuck](https://cyberduck.io/?l=en) and
+[Fireuploader](http://www.fireuploader.com/), that are available for download.
 
 #### Using the command line
 
