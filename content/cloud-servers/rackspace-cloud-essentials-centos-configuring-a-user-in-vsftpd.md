@@ -1,12 +1,12 @@
 ---
 permalink: rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd/
-audit_date:
+audit_date:'2016-06-27'
 title: Rackspace Cloud Essentials - Configure a user in vsftpd for CentOS
 type: article
 created_date: '2011-04-04'
 created_by: Rackspace Support
-last_modified_date: '2016-06-15'
-last_modified_by: Aaron Davis
+last_modified_date: '2016-06-27'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -18,7 +18,10 @@ product_url: cloud-servers
 This article describes how to create system users in vstfpd and
 chroot them (isolate or "jail" them to their home directory) if necessary.
 
-Create a new user for FTP access in vsftpd by creating a new valid Linux system user.
+### Add a system user
+
+Create a new user for FTP access in vsftpd by creating a new valid Linux system
+user.
 
     useradd test
     passwd test
@@ -37,13 +40,21 @@ Modify the user access as follows:
 
 ### Chroot a user
 
-With vsftpd, you can chroot a user by editing the following in the file `/etc/vsftpd/vsftpd.conf`:  
+Now you can configure vsftpd to be able to chroot (commonly referred to as
+jailing) users to their home directories for security and privacy. When you
+chroot users, they can’t move up a level in the directory structure after they
+log in.
+
+With vsftpd, you can chroot a user by editing the following in the
+file `/etc/vsftpd/vsftpd.conf`:  
 
     chroot_local_user=YES
     chroot_list_enable=YES
     chroot_list_file=/etc/vsftpd/vsftpd.chroot_list
 
-You will need to create a vsftp.chroot_list file and enter users who do *not* use chroot. Ever user chroots by default. Therefore, create a chroot_list file, even if the file is going to remain empty:
+You must create a vsftp.chroot_list file and enter users who do *not*
+use chroot. Every user chroots by default. Therefore, create a chroot_list file,
+even if the file is going to remain empty:
 
     touch /etc/vsftpd/vsftpd.chroot_list
 
@@ -53,4 +64,5 @@ Once the file is created and you have setup your chroot_list, restart vsftpd.
 
 ### Next steps
 
-Return to the [Cloud Servers introduction page](/how-to/cloud-servers) and choose the applicable option for DNS and domain management.
+Return to the [Cloud Servers introduction page](/how-to/cloud-servers) and
+choose the applicable option for DNS and domain management.
