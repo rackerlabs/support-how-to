@@ -23,7 +23,7 @@ Use the following procedure to attach a volume to your OnMetal
 server via the Cloud Control Panel. The procedure assumes
 that the server instance already exists.
 
-### Create a new volum
+### Create a new volume
 
 If you want to create a new volume, the following steps will guide you.
 If you have already created a volume, go to the "Attach a volume" section.
