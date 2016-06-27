@@ -5,8 +5,8 @@ title: Create DNS Records for cloud servers with the Control Panel
 type: article
 created_date: '2012-07-13'
 created_by: Rackspace Support
-last_modified_date: '2016-04-13'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-06-22'
+last_modified_by: Nate Archer
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -24,8 +24,8 @@ To learn more about A, MX, and CNAME records for Cloud Sites, see
 
 Following are the DNS servers for your cloud servers:
 
--   dns1.stabletransit.com
--   dns2.stabletransit.com
+-   ns.stabletransit.com
+-   ns2.stabletransit.com
 
 ### Create a DNS zone for your domain
 
