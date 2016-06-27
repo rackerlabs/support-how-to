@@ -5,8 +5,8 @@ title: Rackspace Name Servers
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-05'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-06-27'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
