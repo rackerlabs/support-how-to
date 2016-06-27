@@ -27,8 +27,8 @@ new IP address for your domain.
 
 The Rackspace name servers are:
 
--   **dns1.stabletransit.com**
--   **dns2.stabletransit.com**
+-   **ns.stabletransit.com**
+-   **ns2.stabletransit.com**
 
 ### Using the Rackspace Name Servers
 
