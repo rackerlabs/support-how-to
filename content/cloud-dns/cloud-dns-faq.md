@@ -111,8 +111,8 @@ Yes, via API. You can import a domain from external providers using a valid bind
 
 Our default DNS servers are:
 
--  dns1.stabletransit.com
--  dns2.stabletransit.com
+-  ns.stabletransit.com
+-  ns2.stabletransit.com
 
 #### What type of DNS network does Rackspace use?
 
