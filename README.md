@@ -12,15 +12,14 @@ https://support.rackspace.com/how-to/
 
 For more information see: https://one.rackspace.com/display/devdoc/How-To+support+ninja
 
-- May 16 - 20: Kyle
-- May 23 - 27: Nate
-- May 30 - June 3: Renée
-- June 6 - 10: Stephanie
-- June 13 - 17: Kyle
-- June 20 - 24: Nate
 - June 27 - July 1: Renée
 - July 4 - 8: Stephanie
-- July 11 -15:
+- July 11 -15: Nate
 - July 18 - 22:
 - July 25 - 29:
+- Aug 1 - 5:
+- Aug 8 - 12:
+- Aug 15 - 19:
+- Aug 22 - 26:
+- Aug 29 - Sep 2:
 
