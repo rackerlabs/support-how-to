@@ -5,13 +5,11 @@ title: Install MySQL Server on Ubuntu
 type: article
 created_date: '2011-07-29'
 created_by: Jered Heeschen
-last_modified_date: '2016-01-11'
+last_modified_date: '2016-06-29'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
-
-### Overview
 
 MySQL is an open-source relational database. In a nutshell, for those
 unfamiliar with it: A database is where an application keeps its stuff.
