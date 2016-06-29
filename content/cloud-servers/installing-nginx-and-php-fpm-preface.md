@@ -11,9 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Installing NGINX and PHP-FPM running on UNIX File Sockets](/how-to/installing-nginx-and-php-fpm-running-on-unix-file-sockets)
+**Previous section**: [Installing NGINX and PHP-FPM running on UNIX File Sockets](/how-to/installing-nginx-and-php-fpm-running-on-unix-file-sockets)
 
 To preface this article, let me say that this is the exact stack that I
 have set up and am running on a Rackspace Cloud Server, so I know that
@@ -53,15 +51,12 @@ just a good practice with a new server. My thought is: It's better to
 break things now rather than break things later. To do this in Debian /
 Ubuntu enter this simple command set below:
 
-```
-apt-get update
-apt-get dist-upgrade
-reboot
-```
+    apt-get update
+    apt-get dist-upgrade
+    reboot
+
 Once you have finished updating, this set will allow you to restart the
 server. This ensures that the updates have been installed and
 initialized completely.
 
-### Next section
-
-[Installing NGINX and PHP-FPM - The Fun Begins](/how-to/installing-nginx-and-php-fpm-the-fun-begins)
+**Next section**: [Installing NGINX and PHP-FPM - The Fun Begins](/how-to/installing-nginx-and-php-fpm-the-fun-begins)
