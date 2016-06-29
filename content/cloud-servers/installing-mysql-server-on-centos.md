@@ -5,13 +5,11 @@ title: Install MySQL Server on CentOS
 type: article
 created_date: '2011-07-29'
 created_by: Jered Heeschen
-last_modified_date: '2016-01-15'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-06-29'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
-
-### Overview
 
 MySQL is an open-source relational database. For those unfamiliar with
 these terms, a database is where an application keeps its data, and
