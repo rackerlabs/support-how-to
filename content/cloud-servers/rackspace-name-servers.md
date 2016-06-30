@@ -5,8 +5,8 @@ title: Rackspace Name Servers
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-06-27'
-last_modified_by: Nate Archer
+last_modified_date: '2016-01-05'
+last_modified_by: Catherine Richardson
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -27,8 +27,8 @@ new IP address for your domain.
 
 The Rackspace name servers are:
 
--   **ns.stabletransit.com**
--   **ns2.stabletransit.com**
+-   **dns1.stabletransit.com**
+-   **dns2.stabletransit.com**
 
 ### Using the Rackspace Name Servers
 

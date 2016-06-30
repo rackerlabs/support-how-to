@@ -5,7 +5,7 @@ title: Use a staging URL
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2014-06-27'
+last_modified_date: '2014-08-25'
 last_modified_by: Rose Contreras
 product: Cloud Sites
 product_url: cloud-sites
@@ -32,6 +32,6 @@ product_url: cloud-sites
 -   The website can be made public when needed. Site owner must log into
     the website for the domain registrar where they bought the
     domain--for example, **Godaddy.com** or **Register,com**, and set
-    the DNS name servers for the domain **ns.stabletransit.com** and
-    **ns2.stabletransit.com**. Additionally you can use external name
+    the DNS name servers for the domain **dns1.stabletransit.com** and
+    **dns2.stabletransit.com**. Additionally you can use external name
     servers and modify DNS records as needed.
