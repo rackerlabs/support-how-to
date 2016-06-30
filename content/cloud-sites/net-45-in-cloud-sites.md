@@ -5,8 +5,8 @@ title: .NET 4.5 in Cloud Sites
 type: article
 created_date: '2012-12-12'
 created_by: Jereme Hancock
-last_modified_date: '2016-06-27'
-last_modified_by: Nate Archer
+last_modified_date: '2016-06-22'
+last_modified_by: Kyle Laffoon
 product: Cloud Sites
 product_url: cloud-sites
 ---
@@ -17,7 +17,7 @@ product_url: cloud-sites
 
 Rackspace Cloud Sites now offers .NET version 4.5. Please take some time
 to familiarize yourself with the changes, benefits, and features of .NET
-4.5 [here](http://msdn.microsoft.com/en-us/library/ms171868.aspx).
+4.5 here - <http://msdn.microsoft.com/en-us/library/ms171868.aspx>
 
 .NET 4.0 is still available in the Cloud Sites Control Panel as a
 technology option.
@@ -48,7 +48,7 @@ running .NET 4.0.
 **Note**: Changing the default technology from .NET 4.0 to .NET
 4.5 will change the site's IP address. If you are managing your DNS with
 Rackspace Cloud (your site is pointing to our name servers:
-ns.stabletransit.com or ns2.stabletransit.com) your IP address will
+dns1.stabletransit.com or dns2.stabletransit.com) your IP address will
 be automatically updated. If you are managing your own DNS (your site is
 not pointing to our name servers) you will need to update your DNS to
 point the site to the new IP address.
