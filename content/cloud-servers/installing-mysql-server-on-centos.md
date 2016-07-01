@@ -5,13 +5,8 @@ title: Install a MySQL server on CentOS
 type: article
 created_date: '2011-07-29'
 created_by: Jered Heeschen
-<<<<<<< HEAD
 last_modified_date: '2016-06-29'
 last_modified_by: Stephanie Fillmon
-=======
-last_modified_date: '2016-06-27'
-last_modified_by: Kyle Laffoon
->>>>>>> master
 product: Cloud Servers
 product_url: cloud-servers
 ---
