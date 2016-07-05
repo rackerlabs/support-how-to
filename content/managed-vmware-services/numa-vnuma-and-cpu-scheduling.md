@@ -21,7 +21,6 @@ The following diagram illustrates the difference between systems that are NUMA a
 
 <img src="{% asset_path managed-vmware-services/numa-vnuma-and-cpu-scheduling/NUMA1.png %}" width="600" height="" alt=""  />
 
-
 NUMA is important because it enables a processor to access its own local memory faster than non-local memory, such as memory local to another processor or memory shared between processors. However, if the locality of memory access is not taken into consideration, NUMA can cause latency problems for applications.
 
 ### What is vNUMA?
@@ -94,7 +93,7 @@ The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the lo
 
 Coreinfo is a Windows Sysinternals tool that you can use to view the NUMA topology on Windows.
 
-   Run coreinfo -n.
+    Run coreinfo -n.
 
 In the following example, the VM has a single NUMA node.
 
@@ -102,10 +101,11 @@ In the following example, the VM has a single NUMA node.
 
 #### Linux
 
-   numactl -- hardware
+Numactl is a Linux tool that you can use to view NUMA topology on Linux.
 
+    numactl -- hardware
 
-   numactl -- show
+    numactl -- show
 
 
 ### NUMA considerations
