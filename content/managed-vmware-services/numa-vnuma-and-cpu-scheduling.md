@@ -5,8 +5,8 @@ title: 'NUMA, VNUMA and CPU Scheduling'
 type: article
 created_date: '2016-01-18'
 created_by: Rackspace Support
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-07-05'
+last_modified_by: Nate Archer
 product: Managed VMware Services
 product_url: managed-vmware-services
 ---
@@ -96,7 +96,7 @@ The useful aspect of the NUMA statistics in ESXTOP for troubleshooting is the lo
 
 Coreinfo is a Windows Sysinternals tool that you can use to view the NUMA topology on Windows.
 
-Run coreinfo -n.
+   Run coreinfo -n.
 
 In the following example, the VM has a single NUMA node.
 
@@ -104,11 +104,11 @@ In the following example, the VM has a single NUMA node.
 
 #### Linux
 
-numactl -- hardware
+   numactl -- hardware
 
-numactl -- show
 
-<img src="{% asset_path managed-vmware-services/numa-vnuma-and-cpu-scheduling/NUMA7.png %}" width="450" height="" alt=""  />
+   numactl -- show
+
 
 ### NUMA considerations
 
@@ -160,7 +160,7 @@ For non-wide VMs, the number of cores per virtual socket is not as critical as f
 
 ### CPU scheduling
 
-The aim of this section is to give you a better holistic understanding of NUMA and CPU scheduling. 
+The aim of this section is to give you a better holistic understanding of NUMA and CPU scheduling.
 
 #### Proportional share-based algorithm
 
@@ -168,8 +168,7 @@ ESXi uses the proportional share-based algorithm for CPU scheduling. The algorit
 
 One way to understand prioritizing by the CPU scheduler is to compare it to the CPU scheduling that occurs in UNIX. The key difference between CPU scheduling in UNIX and ESXi involves how a priority is determined. In UNIX, a priority is arbitrarily chosen by the user. If one process is considered more important than others, it is given higher priority. Between two priorities, it is the relative order that matters, not the degree of the difference.
 
-In ESXi, a priority is dynamically re-evaluated based on the consumption and the entitlement. The user controls the entitlement, but the consumption depends on many factors including scheduling, workload behavior, and system load. Also, the degree of the difference between two entitlements dictates how much CPU time should be allocated."**[1]**
-
+In ESXi, a priority is dynamically re-evaluated based on the consumption and the entitlement. The user controls the entitlement, but the consumption depends on many factors including scheduling, workload behavior, and system load. Also, the degree of the difference between two entitlements dictates how much CPU time should be allocated.
 
 #### Strict co-scheduling
 
@@ -181,7 +180,7 @@ Prior to vSphere 4, a guest used to be considered making progress if a vCPU was 
 
 Note that tracking the slowest sibling vCPU still needs coordination among sibling vCPUs. To support multiprocessor virtual machines as wide as 64-vCPUs, there have been a few improvements in vSphere 5.x including scalable locking and optimized progress monitoring.
 
-With relaxed co-scheduling, ESXi achieves high CPU utilization by flexibly scheduling the vCPUs of multiprocessor virtual machines in a consolidated environment. To achieve the best performance for a given situation, ESXi tries to schedule as many sibling vCPUs together as possible. If there are enough available pCPUs, relaxed co-scheduling performs as well as strict co-scheduling." **[1]**
+With relaxed co-scheduling, ESXi achieves high CPU utilization by flexibly scheduling the vCPUs of multiprocessor virtual machines in a consolidated environment. To achieve the best performance for a given situation, ESXi tries to schedule as many sibling vCPUs together as possible. If there are enough available pCPUs, relaxed co-scheduling performs as well as strict co-scheduling.
 
 #### Hyper-Threading
 
@@ -193,7 +192,7 @@ To better visualize how CPU scheduling works with virtual CPU's and physical CPU
 
 Rackspace recommends overcommitting CPU resources by no more than 3:1. This recommendation does not specify whether the overcommit is per VM or an aggregate level per host or cluster. Customer workload and utilization can influence how resources perform. When you are distributing resources in a solution, there is no absolute correct answer; we recommend that you give your VM only as many vCPUs as you have pCPU cores. You may have a number of VMs consuming CPU resources and the aggregate total gives you an overcommit ratio of 3:1.
 
-VMware have some recommendations, which they have summarized in two sections. Listed below are the recommendations from VMware.**[5]**
+VMware has some recommendations, which they have summarized in two sections. Listed below are the recommendations from VMware.**
 
 <img src="{% asset_path managed-vmware-services/numa-vnuma-and-cpu-scheduling/NUMA9.png %}" width="550" height="" border="2" alt=""  />
 
@@ -201,23 +200,7 @@ VMware have some recommendations, which they have summarized in two sections. Li
 
 **Example:** If you have dual hex core (2 X 6 core) CPUs on your hypervisor, then do not present more than 6 CPUs per VM. For the same configuration that has 24 GB of RAM total, do not allocate more than 12 GB of RAM maximum for any single VM.  It is a best practice to present the minimum amount of resources required to get your application running optimally; do not assign more resources than necessary because it can impact performance.
 
-
-### Additional Reading
-1.  [http://frankdenneman.nl/2010/02/03/sizing-vms-and-numa-nodes/](http://frankdenneman.nl/2010/02/03/sizing-vms-and-numa-nodes/)
-2.  [http://cs.nyu.edu/~lerner/spring10/projects/NUMA.pdf](http://cs.nyu.edu/~lerner/spring10/projects/NUMA.pdf)
-5.  [https://communities.vmware.com/blogs/VirtualPharaohs/2014/09/06/many-cores-per-socket-or-single-core-socket-mystery](https://communities.vmware.com/blogs/VirtualPharaohs/2014/09/06/many-cores-per-socket-or-single-core-socket-mystery)
-6.  [http://wahlnetwork.com/2013/09/30/hyper-threading-gotcha-virtual-machine-vcpu-sizing/](http://wahlnetwork.com/2013/09/30/hyper-threading-gotcha-virtual-machine-vcpu-sizing/)
-7.  [http://blogs.vmware.com/vsphere/2014/02/overcommit-vcpupcpu-monster-vms.html](http://blogs.vmware.com/vsphere/2014/02/overcommit-vcpupcpu-monster-vms.html)
-8.  [http://www.virtuallycloud9.com/index.php/2013/08/virtual-processor-scheduling-how-vmware-and-microsoft-hypervisors-work-at-the-cpu-level/](http://www.virtuallycloud9.com/index.php/2013/08/virtual-processor-scheduling-how-vmware-and-microsoft-hypervisors-work-at-the-cpu-level/)
-9.  [https://communities.vmware.com/people/marcelo.soares/blog/2012/09/21/how-to-check-if-numa-is-enabled-on-esx-hardware](https://communities.vmware.com/people/marcelo.soares/blog/2012/09/21/how-to-check-if-numa-is-enabled-on-esx-hardware)
-10.  [http://www.datacenterdan.com/blog/vsphere-55-bpperformance02-numa-alignment](http://www.datacenterdan.com/blog/vsphere-55-bpperformance02-numa-alignment)
-11.  [https://technet.microsoft.com/en-us/sysinternals/cc835722.aspx](https://technet.microsoft.com/en-us/sysinternals/cc835722.aspx)
-12.  [http://www.drdobbs.com/windows/the-coreinfo-20-utility/220900822](http://www.drdobbs.com/windows/the-coreinfo-20-utility/220900822)
-13.  [http://blogs.vmware.com/vsphere/2015/05/vsphere-6-webcast-series.html](http://blogs.vmware.com/vsphere/2015/05/vsphere-6-webcast-series.html) (July 21 - vSphere 6 Performance)
-14.  [http://blogs.vmware.com/performance/2015/07/performance-best-practices-vsphere-6-0-available.html](http://blogs.vmware.com/performance/2015/07/performance-best-practices-vsphere-6-0-available.html)
-
 ### Numbered citations
 
 1. [http://frankdenneman.nl/2013/09/18/vcpu-configuration-performance-impact-between-virtual-sockets-and-virtual-cores/](http://frankdenneman.nl/2013/09/18/vcpu-configuration-performance-impact-between-virtual-sockets-and-virtual-cores/)
 2. [https://blogs.vmware.com/vsphere/author/mark\_achtemichuk/page/2](https://blogs.vmware.com/vsphere/author/mark_achtemichuk/page/2)
-
