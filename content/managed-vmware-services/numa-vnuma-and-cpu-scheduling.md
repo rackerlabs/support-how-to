@@ -35,11 +35,7 @@ Therefore, how the guest OS or its applications place processes and memory can s
 
 ### Why does NUMA matter?
 
-Any abstraction has a performance cost. For a NUMA system, the performance cost is that the latency of a remote memory operation (accessing memory from a different NUMA node) is more expensive than the latency of a local memory operation.
-
-**Does the cost of this latency matter?**
-
-When you consider a multi-threaded application, it is worth considering NUMA and locality because latencies could affect the performance of an application.
+Any abstraction has a performance cost. For a NUMA system, the performance cost is that the latency of a remote memory operation (accessing memory from a different NUMA node) is more expensive than the latency of a local memory operation. When you consider a multi-threaded application, it is worth considering NUMA and locality because latencies could affect the performance of an application.
 
 ### Assigning of sockets and cores
 
@@ -49,7 +45,7 @@ The effect of assigning virtual cores per socket and the impact it has on perfor
 
 **Quote by Mark Achtemichuk** : "It's often been said that this change of processor presentation does not affect performance, but it may impact performance by influencing the sizing and presentation of virtual NUMA to the guest operating system."**[2]**
 
-So, does it or does it not affect performance? The reason VMware introduced the advanced settings for cores-per-socket was to address licensing issues with some operating systems. Based on this information alone, you might assume that changing the cores or sockets should not make any performance impact to a VM. This is not true if you follow the results of Mark Achtemichuk, who found during testing that the number of NUMA nodes changes depending on the number of cores or sockets used, which directly impacts performance.
+So, does assigning sockets and cores affect performance? The reason VMware introduced the advanced settings for cores-per-socket was to address licensing issues with some operating systems. Based on this information alone, you might assume that changing the cores or sockets should not make any performance impact to a VM. This is not true if you follow the results of Mark Achtemichuk, who found during testing that the number of NUMA nodes changes depending on the number of cores or sockets used, which directly impacts performance.
 
 ### Performance considerations
 
@@ -57,7 +53,7 @@ When you are assigning virtual sockets, cores per socket, and vNUMA, you might c
 
 ### NUMA alignment best practices
 
-So where do you go from here? These are a few tips.
+The following are recommendations for NUMA alignment:
 
 - Know your NUMA size. Especially consider it when buying new servers. You might need to increase your core count or RAM size to accommodate your workloads.
 - CPU. If you have newer hardware, you will have fewer issues with NUMA boundaries. If you have older hardware, especially dual-socket, dual-core HT systems, you will need to be more aware because many VMs have four or more vCPUs.
@@ -69,13 +65,13 @@ So where do you go from here? These are a few tips.
 
 #### ESX host, using ESXTOP
 
-1. Run ESXTOP.
+1. Run `ESXTOP`.
 
-2. To enter on memory statistics, enter m.
+2. To enter on memory statistics, enter `m`.
 
-3. To change the fields that are displayed, enter f.
+3. To change the fields that are displayed, enter `f`.
 
-4. To show NUMA-related fields, enter g again.
+4. To show NUMA-related fields, enter `g` again.
 
 If NUMA is enabled, you will see values (like 0, 1, or 2 for each node) on the NHN column:
 
@@ -117,7 +113,7 @@ As you think about NUMA alignment, consider the following points:
 
 ### Rackspace recommendations for NUMA
 
-The Hot add option must be disabled on the VM's with more than 8 vCPU's to take advantage of vNUMA.
+The `Hot add` option must be disabled on VMs with more than 8 vCPU's to take advantage of vNUMA.
 
 When you create a VM, you have the option to specify the number of virtual sockets and the number of cores per virtual socket. In general, we recommend leaving this at the default value of 1__core per socket (with the number of virtual sockets therefore equal to the number of vCPUs).
 
@@ -188,7 +184,7 @@ To better visualize how CPU scheduling works with virtual CPU's and physical CPU
 
 Rackspace recommends overcommitting CPU resources by no more than 3:1. This recommendation does not specify whether the overcommit is per VM or an aggregate level per host or cluster. Customer workload and utilization can influence how resources perform. When you are distributing resources in a solution, there is no absolute correct answer; we recommend that you give your VM only as many vCPUs as you have pCPU cores. You may have a number of VMs consuming CPU resources and the aggregate total gives you an overcommit ratio of 3:1.
 
-VMware has some recommendations, which they have summarized in two sections. Listed below are the recommendations from VMware.**
+VMware has some recommendations, which they have summarized in two sections. Listed below are the recommendations from VMware.
 
 <img src="{% asset_path managed-vmware-services/numa-vnuma-and-cpu-scheduling/NUMA9.png %}" width="550" height="" border="2" alt=""  />
 
