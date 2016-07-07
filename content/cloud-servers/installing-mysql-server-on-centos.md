@@ -11,8 +11,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Overview
-
 MySQL is an open-source relational database that is free and widely used. It
 is a good choice if you know that you need a database but don't know much
 about all of the available the options.
