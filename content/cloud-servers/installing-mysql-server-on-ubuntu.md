@@ -34,12 +34,18 @@ Check your application documentation for details.
 The easiest way to install the MySQL server is through the Ubuntu
 package manager:
 
-    sudo aptitude update
-    sudo aptitude install mysql-server
+    sudo apt-get update
+    sudo apt-get install mysql-server
 
-The installer should ask you to set a root password. It's strongly
-advised you do so, but if you miss your chance during the install we'll
-show you how to set the root password a little further on.
+The installer will install MySQL and all dependencies.  After the install 
+process completes you will want to setup MySQL with the following command.
+
+    /usr/bin/mysql_secure_installation
+
+The secure installer will take you through the process of setting up MySQL 
+including creating a root user password.  It will also prompt for some 
+security options including removing remote access to the root user 
+and setting the root password. 
 
 ### iptables
 
@@ -52,8 +58,8 @@ If you do need to open a port (again, only if you're accessing MySQL
 from a different machine from the one you're installing on), you can use
 the following rules in iptables to open port 3306:
 
-    -I INPUT -p tcp --dport 3306 -m state --state NEW,ESTABLISHED -j ACCEPT
-    -I OUTPUT -p tcp --sport 3306 -m state --state ESTABLISHED -j ACCEPT
+    sudo iptables -I INPUT -p tcp --dport 3306 -m state --state NEW,ESTABLISHED -j ACCEPT
+    sudo iptables -I OUTPUT -p tcp --sport 3306 -m state --state ESTABLISHED -j ACCEPT
 
 ### Launch MySQL
 
@@ -103,7 +109,7 @@ password:
     UPDATE mysql.user SET Password = PASSWORD('password') WHERE User = 'root';
 
 It's kind of a mouthful. The reason for this is that MySQL keeps user
-data in its own database, so to change the password we have to run an
+data in its own database, so to change the password we have to run a
 SQL command to update the database.
 
 Next we'll reload the stored user information to make our change go into
