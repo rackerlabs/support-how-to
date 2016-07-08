@@ -5,15 +5,13 @@ title: Rackspace Cloud Essentials - Cloud Server Image Limitations
 type: article
 created_date: '2011-08-05'
 created_by: Rackspace Support
-last_modified_date: '2016-01-14'
+last_modified_date: '2016-07-08'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+**Previous section:** [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 
 In the preceding article in this series you learned how to [restore servers from an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 These images are ideal for use as templates or "gold images", so that
@@ -141,6 +139,4 @@ to create and connect to a server, configure security, and save your
 work - the next step is to upload your content to the server for use
 with your web applications.
 
-### Next section
-
-[Remote Connection from Windows to a Linux Server](/how-to/connecting-to-linux-from-windows-by-using-putty)
+**Next section:** [Remote Connection from Windows to a Linux Server](/how-to/connecting-to-linux-from-windows-by-using-putty)
