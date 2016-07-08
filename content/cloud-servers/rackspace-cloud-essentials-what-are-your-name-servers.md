@@ -5,15 +5,13 @@ title: Rackspace Cloud Essentials - What Are Your Name Servers?
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-04'
-last_modified_by: Nate Archer
+last_modified_date: '2016-07-08'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Rackspace Cloud Essentials - Building your cloud inventory](/how-to/rackspace-cloud-essentials-guide-building-your-cloud-inventory/)
+**Previous section:** [Rackspace Cloud Essentials - Building your cloud inventory](/how-to/rackspace-cloud-essentials-guide-building-your-cloud-inventory/)
 
 By now, you have built your server, made it secure, and uploaded content
 to your server. The last step in the First 48 Hour Essentials is to
@@ -44,6 +42,4 @@ now being served by a different IP address.
 In the next article we'll go into more detail on the process for
 Transferring Your Domain to be Served From the Rackspace Cloud.
 
-### Next steps
-
-[Transferring Your Domain to the Rackspace Cloud](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
+**Next steps:** [Transferring Your Domain to the Rackspace Cloud](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
