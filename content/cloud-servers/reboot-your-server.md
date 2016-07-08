@@ -5,15 +5,13 @@ title: Reboot Your Server
 type: article
 created_date: '2012-07-19'
 created_by: Ari Liberman
-last_modified_date: '2016-01-04'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2016-07-08'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Create a Cloud Server](/how-to/create-a-cloud-server)
+**Previous section:** [Create a Cloud Server](/how-to/create-a-cloud-server)
 
 You can reboot a server in one of two ways. A *soft reboot* uses the
 operating system's reboot process so that applications are shut down
@@ -61,15 +59,9 @@ server.
 and can result in data loss.
 
 1.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
-2.  On the Servers page, click the gear icon next to the server that you
-    want to reboot.
-3.  Select** Reboot**.
-
-    <img src="{% asset_path cloud-servers/reboot-your-server/rebootmenu_0.png %}" alt="" />
-
+2.  In the top navigation bar, click **Servers > Cloud Servers**, and then click the gear icon next to the server that you want to reboot.
+3.  Select **Reboot**.
 4.  In the pop-up dialog box, click **Reboot Server**.
-
-    <img src="{% asset_path cloud-servers/reboot-your-server/Hard%20Reboot_0.png %}" alt="" />
 
 The server status on the Servers page updates while the server is
 rebooting. When the reboot is complete, check your server to confirm
@@ -110,6 +102,4 @@ entering the following command:
 
     shutdown /s
 
-### Next section
-
-[Rescue mode](/how-to/rescue-mode)
+**Next section:** [Rescue mode](/how-to/rescue-mode)
