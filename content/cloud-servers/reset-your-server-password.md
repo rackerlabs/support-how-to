@@ -5,15 +5,11 @@ title: Reset Your Server Password
 type: article
 created_date: '2012-07-19'
 created_by: Rackspace Support
-last_modified_date: '2015-12-31'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-07-08'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
-
-### Previous section
-
-[Create a Cloud Server](/how-to/create-a-cloud-server)
 
 An extremely important aspect of managing your server is controlling the
 (Linux) **root** or (Windows) **Administrator** account password. You
@@ -36,15 +32,7 @@ change the password.
 
 3. Under "Manage", click **Change Password**.
 
-  <img src="{% asset_path cloud-servers/reset-your-server-password/CCP-change-password.png %}" alt="" />
-
 4. Enter the new password and click **Save Password**.
-
-  <img src="{% asset_path cloud-servers/reset-your-server-password/CCP-input-new-password.png %}" alt="" />
 
 After you enter the new password, your server will reboot and the new
 password will be set.
-
-### Next section
-
-[Deleting your server](/how-to/deleting-your-server)
