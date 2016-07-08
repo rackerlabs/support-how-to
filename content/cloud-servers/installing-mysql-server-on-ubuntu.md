@@ -36,7 +36,7 @@ details.
 1. Install the MySQL server by using the Ubuntu package manager:
 
     sudo apt-get update
-    sudo apt-get install mysql-
+    sudo apt-get install mysql-server
 
    The installer installs MySQL and all dependencies.
 
@@ -219,7 +219,7 @@ list all databases. The following example shows the query and example output:
 
 When applications connect to the database using the root user, they usually have more privileges than they need. You can that applications can use to connect to the new database. In the following example, a user named **demouser** is created.
 
-1. To creat a new user, run the following command in the `mysql` shell:
+1. To create a new user, run the following command in the `mysql` shell:
 
     INSERT INTO mysql.user (User,Host,Password)
     VALUES('demouser','localhost',PASSWORD('demopassword'));
