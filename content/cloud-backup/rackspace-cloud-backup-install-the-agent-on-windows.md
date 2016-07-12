@@ -183,16 +183,6 @@ Verify that installation performed the following actions:
 
 ### Test the Windows update
 
-Run `driveclient-setup-latest.exe` to show any updated files in `program files\driveclient`. This is the same as running the setup with no parameters.
-
-    C:\>dir "%programfiles%\driveclient\driveclient.exe"
-    Volume in drive C is OS
-    Volume Serial Number is EE4C-78FC
-    Directory of C:\Program Files\driveclient
-    10/05/2011 12:24 PM 5,749,760 driveclient.exe
-    1 File(s) 5,749,760 bytes
-    0 Dir(s) 449,822,932,992 bytes free
-
 Run the following command from the command line:
 
     reg export "hkey_local_machine\software\rackspace\cloudbackup" deleteme.txt & type deleteme.txt | findstr /i version & del deleteme.txt
