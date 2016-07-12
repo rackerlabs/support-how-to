@@ -94,8 +94,6 @@ administrator account of the server.
 
 For instructions to update the agent on Windows, see [Update the Rackspace Cloud Backup Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
-testsetup
-
 ### <a name="testsetup"></a>Test the Windows installation or update
 
 If you performed the silent or interactive installation, test the installation. If you performed the updated installation, test the update.
