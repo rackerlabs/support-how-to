@@ -61,9 +61,9 @@ Follow these steps to create a new article within a product folder of the **rack
 
            product_url: cloud-servers
            ---
-5. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists.
+5. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
 
-6. When you have finished writing your article, review it in the *Preview* tab.
+6. When you have finished writing your article, review it in the **Preview** tab.
 
 7. Click **Propose new change**.
 
