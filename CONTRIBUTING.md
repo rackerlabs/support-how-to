@@ -20,7 +20,7 @@ A personal copy of the How-To repository is created in your GitHub account. You 
 
 #### Keeping your fork up to date
 
-Because your forked copy of the repository is not live, you need to periodically update it with changes from the live repository. A status message above the latest commit activity that informs you whether your forked repository is current with the master How-To repository. If the status says `This branch is X commits behind rackerlabs:master`, update your repo by clicking the **Pull request** button to the right of the message.
+Because your forked copy of the repository is not live, you need to periodically update it with changes from the live repository. A status message above the latest commit activity informs you whether your forked repository is current with the master How-To repository. If the status says `This branch is X commits behind rackerlabs:master`, update your repo by clicking the **Pull request** button to the right of the message.
 
 **Note:** If you get a message that the rackerlabs:master branch is up-to-date with commits from your master branch, click the "switching the base" link. 
 
@@ -61,13 +61,13 @@ Follow these steps to create a new article within a product folder of the **rack
 
            product_url: cloud-servers
            ---
-5. Write your article in Markdown.
+5. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists.
 
 6. When you have finished writing your article, review it in the *Preview* tab.
 
 7. Click **Propose new change**.
 
-8. Create a pull request(PR). On the "Comparing changes" page, check the following settings:
+8. Create a pull request (PR). On the "Comparing changes" page, check the following settings:
 
     - `base fork: rackerlabs/rackspace-how-to`
     - `base: master`
@@ -116,7 +116,7 @@ Follow these steps to edit an existing article within a product folder of the **
    Use the following guidelines to create the PR message:
 
     - Provide a brief description of the change, starting with an imperative verb. For example, "Add a paragraph about... ."
-    - If you make a complex edit, explain why you are making the edit. For example, if you are changing the formatting of an article because a list should be ordered instead of unordered, say, "Switch list in middle of article to ordered to show clear progression of steps".
+    - If you make a complex edit, explain why you are making the edit in the larger box under **Commit changes**. For example, if you are changing the formatting of an article because a list should be ordered instead of unordered, say, "Switch list in middle of article to ordered to show clear progression of steps".
 
 8. Click **Create pull request**.
 
