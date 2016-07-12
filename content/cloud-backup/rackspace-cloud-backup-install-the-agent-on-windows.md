@@ -81,7 +81,7 @@ installation and configuration.
 
 5.  Click **Finish** to complete the interactive installation.
 
-See [Test Windows installation or update](#testsetup) for the verification steps to test the installation.
+See the Test Windows installation or update section below for the verification steps to test the installation.
 
 #### Silent installation
 
@@ -95,7 +95,7 @@ administrator account of the server.
 For instructions to update the agent on Windows, see [Update the Rackspace Cloud Backup Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
 
-### <a name="testsetup"></a>Test the Windows installation or update
+### Test the Windows installation or update
 
 If you performed the silent or interactive installation, test the installation. If you performed the updated installation, test the update.
 
