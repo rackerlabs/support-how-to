@@ -5,7 +5,7 @@ title: Test and send mail using PHP
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2015-07-12'
+last_modified_date: '2016-07-13'
 last_modified_by: Nate Archer
 product: Cloud Sites
 product_url: cloud-sites
