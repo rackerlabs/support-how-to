@@ -140,7 +140,7 @@ A `MaxFileSize` of `1000MB` and a `MaxBackupIndex` of `12` could result in
 approximately 13 GB of logs written to the cache volume (one current log
 and 12 rolled logs, each approximately 1000 MB in size).
 
-**Warning!** The cache volume is typically the system drive. Setting `MaxFileSize`
+**Warning:** The cache volume is typically the system drive. Setting `MaxFileSize`
 to a value that causes the system volume to fill up can have serious consequences
 on the server. The consequences can include (but are not limited to) causing DB
 corruption of the Cloud Backup agent, which causes restores to fail, as well as
@@ -164,7 +164,7 @@ through the **Request Agent Log** button on the server Cloud Backup
 **System Details** page. However, there might be times when this is impossible or
 impractical. In those cases, you might have to save the log files manually. See the
 section, “Locations of Cloud Backup agent files,” to locate your **log4cxx.xml**
-configuration file on Windows or Linux. In that file, `param name="File"` 
+configuration file on Windows or Linux. In that file, `param name="File"`
 gives the current path to your log files.
 
 When you save log files manually, in order to keep the file sizes manageable, you should
