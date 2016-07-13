@@ -24,7 +24,7 @@ name.
 You need to run `netstat` on the server running the service.
 `Netstat` is not affected by your firewall configuration.
 
-**Note:** You can also use the `isof` and `ss` commands to check ports. Many of the command flags contained in this article will remain the same as `netstat`. However, the output returned when using the `isof` and `ss` commands may not resemble the output of the `netstat` tool. For more information on both commands, you can refer to the [`isof`](http://linux.die.net/man/8/lsof) and [`ss`](http://linux.die.net/man/8/ss) command manuals.
+**Note:** You can also use the `isof` and `ss` commands to check ports. Many of the command flags contained in this article will remain the same. However, the output returned when using the `isof` and `ss` commands may not resemble the output of the `netstat` tool. For more information on both commands, you can refer to the [`isof`](http://linux.die.net/man/8/lsof) and [`ss`](http://linux.die.net/man/8/ss) command manuals.
 
 ### Check ports
 
