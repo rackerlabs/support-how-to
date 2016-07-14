@@ -1,6 +1,6 @@
 ---
 permalink: checking-listening-ports-with-netstat/
-audit_date:
+audit_date: '2016-07-15'
 title: Check listening ports with netstat
 type: article
 created_date: '2012-06-21'
@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 If you're troubleshooting a service that you know [is running normally](/how-to/checking-system-load-on-linux)
-the next step is to ensure sure it's listening on the correct network port.
+the next step is to ensure it's listening on the correct network port.
 
 The `netstat` command shows the services listening to ports on a Linux
 server and the details of any connections currently made to them.
@@ -57,7 +57,7 @@ For example, to filter out everything except the default web server port, 80, ru
 Common outcomes are as follows:
 
 -   Nothing is listening on the port. Check the service configuration
-    files, and then try restart the service.
+    files, and then restart the service.
 -   The correct service is listening on the correct port. In this case
     you need to test the service more thoroughly. Skip to the article on
     [testing the listening service for response using
