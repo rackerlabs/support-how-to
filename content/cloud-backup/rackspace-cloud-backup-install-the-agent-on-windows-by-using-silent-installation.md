@@ -46,7 +46,7 @@ During a fresh installation, the following values are used:
 - `APIKEY` (required): Your Rackspace Cloud API key. For information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
 - `APIHOSTNAME` (required): The host address where the Cloud Backup API endpoints reside. Host addresses for various data centers are listed in the 
-[Service Access endpoints] (https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/general-api-info/service-access-endpoints/). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
+[Service Access endpoints](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
 
 	<table>
 		<tr>
