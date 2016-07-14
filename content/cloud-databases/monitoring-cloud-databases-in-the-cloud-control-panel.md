@@ -86,11 +86,10 @@ traffic in kilobytes per second.
 
 #### MySQL check
 
-Graphs that report metrics for the MySQL datastore running on your
-instance will be added to the Cloud Control Panel in the future. In the
-meantime, graphs for MySQL metrics are available on our [Cloud
-Intelligence Site](https://intelligence.rackspace.com/), currently in
-beta.
+Graphs that report metrics for the MySQL datastore running on your instance
+are available in the Cloud Control Panel under **Monitoring Alerts**. This area
+links to our [Rackspace Intelligence site](https://intelligence.rackspace.com/),
+currently in beta.
 
 ### Alarms
 
