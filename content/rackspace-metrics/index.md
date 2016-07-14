@@ -21,7 +21,7 @@ Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product that of
 ### General information
 
 - [Create a Grafana dashboard for Rackspace Metrics](/how-to/create-a-grafana-dashboard-for-rackspace-metrics)
-- [Deploy Rackspace Metrics](/how-to/deploying-rackspace-metrics)
+- [Integrate statsD with Rackspace Metrics](/how-to/deploying-rackspace-metrics)
 
 ### Information for developers
 
