@@ -5,7 +5,7 @@ title: Cloud Networks - FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Sameer Satyam
-last_modified_date: '2016-06-01'
+last_modified_date: '2016-07-14'
 last_modified_by: Kyle Laffoon
 product: Cloud Networks
 product_url: cloud-networks
@@ -22,13 +22,13 @@ The Rackspace Cloud contains the following networks:
     PublicNet connects a cloud server to the Internet. When you create cloud servers with PublicNet, your servers get an IPv4 address and an IPv6 address. Outbound public traffic is billed according to [published rates](http://www.rackspace.com/cloud/public-pricing/#bandwidth). You can create a server without a public network; however, access to operating system updates, Cloud Monitoring remote checks, and so on might not work. For more information about the limitations of not having a public network, see [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server).
 
     **Note**: PublicNet is required for RackConnect and Managed Operations service level customers.
-   
+
 - **ServiceNet** (Private)
-   
+
     ServiceNet is an internal, multi-tenant network within each Rackspace Cloud region. It provides cloud servers access to regional services, such as Cloud Files, Cloud Load Balancers, Cloud Databases, and Cloud Backup, at no cost. ServiceNet is currently IPv4 only. Historically, ServiceNet was used for server-to-server communication, but Cloud Networks is now recommended for this purpose. ServiceNet is also required for Windows cloud server activation. We recommend that cloud servers be connected to ServiceNet and that all new connections inbound to the server be denied by a software firewall such as iptables or Windows Firewall. For more information, see [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server).
 
     **Note**: ServiceNet is required for RackConnect and Managed Operations service level customers.
-    
+
 - **Cloud networks** (isolated)
 
     Cloud networks are isolated networks that can be used for secure communication between your cloud servers. Cloud networks are completely private and single tenant, and can be either IPv4 or IPv6. Cloud networks are recommended for all communication between cloud servers. Like ServiceNet, all bandwidth on cloud networks is provided at no charge.
@@ -37,7 +37,7 @@ The Rackspace Cloud contains the following networks:
 
 The Rackspace Cloud has two networking APIs - Neutron and Nova-Network.
 
-Rackspace first introduced networking services that were based on the OpenStack Nova-Network API. This version of the service is now superseded by the current networking API, based on OpenStack Neutron, which offers a richer suite of networking services. Both APIs continue to function, but the Neutron API will be the base for all the future networking services that Rackspace offers. For more information, see [Networking: Neutron versus Nova-Network](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#networking-neutron-versus-nova-network) in the Cloud Networks Developer Guide.
+Rackspace first introduced networking services that were based on the OpenStack Nova-Network API. This version of the service is now superseded by the current networking API, based on OpenStack Neutron, which offers a richer suite of networking services. Both APIs continue to function, but the Neutron API will be the base for all new networking services that Rackspace offers. For more information, see [Networking: Neutron versus Nova-Network](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#networking-neutron-versus-nova-network) in the Cloud Networks Developer Guide.
 
 #### How many cloud networks can I create?
 
