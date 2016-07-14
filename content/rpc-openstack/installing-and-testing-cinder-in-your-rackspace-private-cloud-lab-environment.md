@@ -5,8 +5,8 @@ title: Install and test Cinder in your Rackspace Private Cloud lab environment
 type: article
 created_date: '2014-04-24'
 created_by: Jason Grimm
-last_modified_date: '2016-01-11'
-last_modified_by: Nate Archer
+last_modified_date: '2016-07-14'
+last_modified_by: Kyle Laffoon
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
@@ -35,7 +35,7 @@ controller / compute host in my environment. The hardware is
 two Rackspace General Purpose Cloud Servers, a 1 GB and an 8 GB flavor
 respectively. The operating system is Ubuntu 12.04.4 LTS 64-bit server
 edition and the RPC version is 4.2.2rc.  This same process works on 4.x,
-4.1x and has a reasonable expectation of continuing to work on future
+4.1x and has a reasonable expectation of continuing to work on later
 releases with minor adjustments. I'm using a single NIC / network
 configuration for all services.
 
@@ -1098,7 +1098,7 @@ validation testing.
 Hopefully it has provided a good primer for quickly setting up or adding
 cinder to your lab environment.
 
-Look for future cinder related posts with more advanced topics such as
+Look for later cinder related posts with more advanced topics such as
 using NetApp, EMC or SolidFire cinder drivers, providing Cinder HA to
 your instances and using multiple cinder devices to provide workload
 separation and performance tiering for your instances.
@@ -1109,4 +1109,3 @@ You may also find the following references helpful as you explore cinder
 functionality further.
 
 RPC block storage configuration - </how-to/configuring-openstack-block-storage>
-
