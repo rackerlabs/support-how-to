@@ -1,12 +1,12 @@
 ---
-permalink: deploying-rackspace-metrics/
+permalink: integrate-statsd-with-rackspace-metrics/
 audit_date:
 title: Integrate statsD with Rackspace Metrics
 type: article
 created_date: '2015-02-05'
 created_by: Constanze Kratel
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-07-14'
+last_modified_by: Nate Archer
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
