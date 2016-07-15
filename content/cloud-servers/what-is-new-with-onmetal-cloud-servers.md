@@ -5,7 +5,7 @@ title: What is new with OnMetal Cloud Servers
 type: article
 created_date: '2014-06-19'
 created_by: Kyle Laffoon
-last_modified_date: '2016-01-05'
+last_modified_date: '2016-07-15'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -112,10 +112,11 @@ minutes (3 to 4) are needed for the network configuration to complete.
 After the new OnMetal server pings successfully, you can begin to use
 it.
 
-You cannot attach a private network to an OnMetal server. Future
-generations of OnMetal servers will have this capability. Until then,
-use ServiceNet for internal traffic, and remember to secure your OnMetal
-server because ServiceNet is open to other Rackspace customers.
+You can attach a private network to OnMetal V2 servers, but post/boot
+attachment and configuration of private networks to OnMetal V1 servers is not
+supported yet. Until this option is available,use ServiceNet for internal
+traffic, and remember to secure your OnMetal server because ServiceNet is open
+to other Rackspace customers.
 
 With no hypervisor, there is also not a web terminal or console as on
 other Rackspace cloud servers. This limits the options available if you
