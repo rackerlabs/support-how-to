@@ -112,11 +112,11 @@ minutes (3 to 4) are needed for the network configuration to complete.
 After the new OnMetal server pings successfully, you can begin to use
 it.
 
-You can attach a private network to OnMetal V2 servers, but post/boot
-attachment and configuration of private networks to OnMetal V1 servers is not
-supported yet. Until this option is available,use ServiceNet for internal
-traffic, and remember to secure your OnMetal server because ServiceNet is open
-to other Rackspace customers.
+You can attach a private network to OnMetal V2 servers at boot time, but
+post-boot attachment to OnMetal v2 servers is not supported yet. OnMetal V1
+servers do not support configuration of private networks. With OnMetal v1
+servers, use ServiceNet for internal traffic, and remember to secure your
+OnMetal server because ServiceNet is open to other Rackspace customerss.
 
 With no hypervisor, there is also not a web terminal or console as on
 other Rackspace cloud servers. This limits the options available if you
