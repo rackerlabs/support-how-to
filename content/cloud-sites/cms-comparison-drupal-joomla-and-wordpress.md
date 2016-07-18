@@ -13,15 +13,15 @@ product_url: cloud-sites
 
 If you need to create a website for your business, you might be wondering which content management system (CMS) is the best choice for you. This article compares three of the most widely-used ones: Drupal, Joomla, and WordPress. All three are open-source software, each developed and maintained by a community of thousands, and all are free to download and use. The open-source format means that their platforms are continuously being improved to support new Internet technologies, and basic functions can be continuously enhanced with an ever-expanding array of add-ons, contributed from their respective communities.
 
-Your choice depends on your goals, technical expertise, budget and what you the site to do.
+Your choice depends on your goals, technical expertise, budget and what you want the site to do.
 
-- For a simple blog or brochure-type site, [WordPress](http://www.rackspace.com/cloud/sites/web-hosting/wordpress/) could be the best choice (while very friendly for non-developers, it's a flexible platform also capable of very complex sites).
+- For a simple blog or brochure-type site, [WordPress](http://www.rackspace.com/cloud/sites/web-hosting/wordpress/) could be the best choice (while very friendly for non-developers, it's a flexible platform also capable of creating very complex sites).
 - For a complex, highly customized site requiring scalability and complex content organization, [Drupal](http://www.rackspace.com/cloud/sites/web-hosting/drupal/) might be the best choice.
 - For something in between that has an easier learning curve, [Joomla](http://www.rackspace.com/cloud/sites/web-hosting/joomla/) might be the answer.
 
 Each has passionate, dedicated developer and user communities, making it easy to find free support directly through their websites or through other online forums or even books. In addition, paid support is readily available from third-party sources, such as consultants, developers and designers. Each system shows long-term sustainability and longevity; support for them will continue to be readily available for the foreseeable future.
 
-The more time and effort that you are willing and able to invest in learning a system, the more it will be able to do for you. With both WordPress and Joomla, you can order a wide range of services and options from the menu to suit your needs; with Drupal, you can customize what you need.
+The more time and effort that you are willing and able to invest in learning a system, the more it will be able to do for you. With both WordPress and Joomla, you can order a wide range of services and options from the menu to suit your needs, and with Drupal, you can customize what you need.
 
 The following chart compares these CMSs in several categories. If you are still not sure which one to use, you can download each of the free platforms and do a trial run to help you decide.
 
