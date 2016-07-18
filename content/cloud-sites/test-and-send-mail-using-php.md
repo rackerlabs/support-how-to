@@ -11,13 +11,16 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-To test PHP mail functionality, you can use the following code saved
-into a file with a **.php** extension:
+PHP mail provides the most granular control of the data and content of your emails sent from your domain or site. However, PHP mail only works when relayed over an SMTP relay. The following article shows you how to test and send different types of email using PHP.
 
 **Important:** We recommend using an SMTP relay that requires
 authentication. Sending mail through unauthenticated SMTP servers
 (including the localhost relay on Cloud Sites) can result in delays or
 undelivered email because of stringent anti-spam filters.
+
+### Test PHP mail functionality
+
+Before you can send PHP mail, it important to test the PHP mail's functionality. You can use the following code saved into a file with a **.php** extension:
 
     <? $headers = 'From: webmaster@example.com'; mail('nobody@example.com', 'Test email using PHP', 'This is a test email message', $headers, '-fwebmaster@example.com'); ?>
 
@@ -27,19 +30,21 @@ Alternatively, you can use the following test code:
 
 ### Test PHP SMTP functionality
 
-You can test PHP SMTP functions with the following two examples. The
+You can test PHP SMTP functions with the following examples. The
 first one is standard SMTP, and the second one is SMTP with SSL.
 
 The host, username, and password values depend on the provider that
-you're using to send your email. If you have a legacy Cloud Sites email
-account or are using Rackspace Email, SSL/TLS is required. The host is
-**secure.emailsrvr.com**, the username is your email address and the port is 465. If you're using another service such as Mailgun or Gmail to send email, you
-must provide the SMTP server for that service. You can access Mailgun
-server information in the [Mailgun control panel](https://mailgun.com/sessions/new).
+you're using to send your email.
+
+- If you have a legacy Cloud Sites email account or are using Rackspace Email, SSL/TLS is required. The host is **secure.emailsrvr.com**, the username is your email address and the port is 465.
+
+- If you're using another service such as Mailgun or Gmail to send email, you must provide the SMTP server for that service. You can access Mailgun server information in the [Mailgun control panel](https://mailgun.com/sessions/new).
+
+**Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it in these scripts works by default.
 
 #### Sending mail with PHP SMTP
 
-or the following variables, replace the example values with the
+For the following variables, replace the example values with the
 appropriate values for your system:
 
 -  `$from`
@@ -50,7 +55,7 @@ appropriate values for your system:
 -  `$username`
 -  `$password`  
 
-Following is a sample PHP script to send email via standard SMTP:
+Following is a sample PHP script for sending email via standard SMTP:
 
     <?php
     require_once "Mail.php";
@@ -95,7 +100,7 @@ For the following variables, replace the example values with the appropriate val
 -   `$password`
 -   `$port`
 
-Following is a sample PHP script to send email via SMTP with SSL:
+Following is a sample PHP script for sending email via SMTP with SSL:
 
     <?php
     require_once "Mail.php";
@@ -129,15 +134,12 @@ Following is a sample PHP script to send email via SMTP with SSL:
     }
     ?>
 
-**Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it here works by default.
+### Send HTML email via PHP
 
-### Send HTML Mail via PHP
+Within the Cloud Sites environment, you can craft an HTML formatted email message when using SMTP authentication for delivery by making use of the built in `Mail_Mime` function provided by the PHP PEAR framework.
 
-Within the Cloud Sites environment, it is possible to craft an HTML formatted email message for delivery when using SMTP authentication for delivery by making use of the built in `Mail_Mime` function provided by the PHP Pear framework.
 
-#### Sending HTML Enabled Mail via SMTP
-
-The following variables will need to be adjusted as needed:
+For the following variables, replace the example values with the appropriate values for your system:
 
 -  `$from`
 -  `$to`
@@ -150,7 +152,7 @@ The following variables will need to be adjusted as needed:
 -  `$username`
 -  `$password`
 
-The code below requires that you supply a valid SMTP hostname along with user credentials for authenticating against. If using a third party mail service, you will need to replace `mail.emailsrvr.com` with the appropriate SMTP server hostname relative to the service you are employing. The code also allows for the attachment of files from your Cloud Sites filesystem to the message, as long as a valid MIME type definition is supplied.
+You must supply a valid SMTP hostname and user credentials for authentication. If you are using a third-party mail service, replace mail.emailsrvr.com with the appropriate SMTP server hostname relative to the service. You can also attach files from your Cloud Sites file system to the message if you provide a valid MIME type definition.
 
     <?php
     require_once "Mail.php";
