@@ -138,7 +138,6 @@ Following is a sample PHP script for sending email via SMTP with SSL:
 
 Within the Cloud Sites environment, you can craft an HTML formatted email message when using SMTP authentication for delivery by making use of the built in `Mail_Mime` function provided by the PHP PEAR framework.
 
-
 For the following variables, replace the example values with the appropriate values for your system:
 
 -  `$from`
@@ -152,7 +151,7 @@ For the following variables, replace the example values with the appropriate val
 -  `$username`
 -  `$password`
 
-You must supply a valid SMTP hostname and user credentials for authentication. If you are using a third-party mail service, replace mail.emailsrvr.com with the appropriate SMTP server hostname relative to the service. You can also attach files from your Cloud Sites file system to the message if you provide a valid MIME type definition.
+You must supply a valid SMTP hostname and user credentials for authentication. If you are using a third-party mail service, replace `mail.emailsrvr.com` with the appropriate SMTP server hostname relative to the service. You can also attach files from your Cloud Sites file system to the message if you provide a valid MIME type definition.
 
     <?php
     require_once "Mail.php";
