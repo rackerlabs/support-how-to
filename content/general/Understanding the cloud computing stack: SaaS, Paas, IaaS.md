@@ -1,7 +1,7 @@
 ---
 permalink: understanding-the-cloud-computing-stack-saas-paas-iaas/
 audit_date: '2016-07-14'
-title: Understanding the cloud computing stack: SaaS, PaaS, IaaS
+title: 'Understanding the cloud computing stack: SaaS, PaaS, IaaS'
 type: page
 created_date: '2012-07-23'
 created_by: Rackspace Support
