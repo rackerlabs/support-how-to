@@ -1,7 +1,7 @@
 ---
 permalink: understanding-the-cloud-computing-stack-saas-paas-iaas/
 audit_date: '2016-07-14'
-title: Understanding the cloud computing stack: SaaS, PaaS, IaaS
+title: 'Understanding the cloud computing stack: SaaS, PaaS, IaaS'
 type: page
 created_date: '2012-07-23'
 created_by: Rackspace Support
@@ -11,13 +11,11 @@ product: undefined
 product_url: undefined
 ---
 
-# Understanding the cloud computing stack: SaaS, PaaS, IaaS
-
 Cloud computing is a broad term that describes a broad range of services. As with other significant developments in technology, many vendors have seized the term _cloud_ and are using it for products that are outside of the common definition. To understand how the cloud can be of value to an organization, you should understand what the cloud really is and its different components. Because the cloud is a broad collection of services, organizations can choose where, when, and how they use cloud computing.
 
 This article explains the different types of cloud computing services commonly referred to as software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS). It also provides some guidance on situations where particular flavors of cloud computing are and are not the best option for an organization.
 
-# The cloud computing stack
+### The cloud computing stack
 
 Cloud computing is often described as a stack, referring to the broad range of services built on top of one another under the name _cloud_. The generally accepted definition of _cloud computing_ comes from the National Institute of Standards and Technology (NIST). The [NIST definition](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf) runs to several hundred words but begins as follows:
 
@@ -43,9 +41,7 @@ This article describes all three cloud computing services in detail, but followi
 
 Note: Although this article clearly distinguishes SaaS, PaaS, and IaaS, the differences among these categories of cloud computing, especially between PaaS and IaaS, have blurred and will continue to do so.
 
-#
-
-# Software as a service
+### Software as a service
 
 Software as a service (SaaS) is defined as software that is deployed over the Internet. A provider licenses a SaaS application to customers as an on-demand service, through a subscription, through a pay-as-you-go model, or at no charge, when there is opportunity to generate revenue from streams other than the user, such as from advertisement.
 
@@ -81,7 +77,7 @@ Although SaaS is a valuable tool, it is not the best option for software deliver
 - Applications for which legislation or other regulation does not permit data being hosted externally
 - Applications for which an existing on-premises solution fulfills all of the organization&#39;s needs
 
-# Platform as a service
+### Platform as a service
 
 Platform as a service (PaaS) brings the benefits that SaaS brought for applications to the software development world. PaaS can be defined as a computing platform that enables the quick and easy creation of web applications without the necessity of buying and maintaining the software and infrastructure underneath it.
 
@@ -123,9 +119,7 @@ The ability to automate processes, use predefined components and building blocks
 
 A PaaS development environment enables applications to be created more quickly. In some examples, in the absence of PaaS, the cost of developing the application would have been prohibitive.
 
-#
-
-# Infrastructure as a service
+### Infrastructure as a service
 
 Infrastructure as a service (IaaS) is a way of delivering cloud computing infrastructure—servers, storage, network, and operating systems—as an on-demand service. Rather than purchasing servers, software, data-center space, or network equipment, clients instead buy those resources as a fully outsourced on-demand service.
 
@@ -161,7 +155,7 @@ Although IaaS provides advantages in situations where scalability and quick prov
 - Regulatory compliance makes the offshoring or outsourcing of data storage and processing difficult.
 - The highest levels of performance are required, and on-premises or dedicated hosted infrastructure has the capacity to meet the organization&#39;s needs.
 
-# Conclusion
+### Conclusion
 
 _Cloud computing_ doesn&#39;t describe a single thing; rather it is a general term that describes a variety of services, from IaaS at the base, through PaaS as a development tool, to SaaS replacing on-premises applications.
 
