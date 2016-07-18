@@ -11,7 +11,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-PHP mail provides the most granular control of the data and content of your emails sent from your domain or site. However, PHP mail only works when relayed over an SMTP relay. The following article shows you how to test and send different types of email using PHP.
+PHP mail provides the most granular control of the data and content of the emails sent from your domain or site. However, PHP mail only works when relayed over SMTP. The following article shows you how to test and send different types of email using PHP.
 
 **Important:** We recommend using an SMTP relay that requires
 authentication. Sending mail through unauthenticated SMTP servers
