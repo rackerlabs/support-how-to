@@ -5,8 +5,8 @@ title: Back up databases with Cloud Backup
 type: article
 created_date: '2012-08-23'
 created_by: David Hendler
-last_modified_date: '2016-04-08'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-07-19'
+last_modified_by: Catherine Richardson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -15,9 +15,9 @@ Rackspace Cloud Backup backs up files if it can get access to them. It
 doesn't matter if the files contain database data or pictures of your
 cat. Files are files.
 
-But some applications, like databases, are more difficult to back up
-because the consistent and correct state of a database is represented by
-multiple files at once. If Rackspace Cloud Backup backs up one of the
+But some applications, like databases, are more difficult to back up 
+because of multiple, rapidly changing files, whose state must be 
+synchronized. For instance, if Rackspace Cloud Backup backs up one of the
 database's files and then, a few seconds (or milliseconds) later, it
 backs up another one, the state of the database could get corrupted -
 the database might have been in the middle of an operation during access
@@ -39,9 +39,10 @@ dumping, and then schedule Rackspace Cloud Backup to automatically back
 up the output of this utility a couple of hours later.
 
 Cloud Backup's de-duplication and compression capabilities save space and
-storage costs, because there is probably a lot of duplicated data
+storage costs because there is generally a lot of duplicated data
 between the various dumps that were put into the **sqlbackups** folder.
-Cloud Backup only saves the changed portions of the file.
+Cloud Backup only saves the changed portions of the file. Because of this, 
+you should *never* compress or encrypt the database files you are backing up.
 
 1.  Remove the live database folder and files from your backup job.
 
@@ -69,4 +70,6 @@ Cloud Backup only saves the changed portions of the file.
     5.  Click the **Save Changes** button.
 
 Remember to add your database dump file or folder saved as part of your
-backup job.
+backup job. You can automate this task by scheduling these dumps with applications like **crontab** on Linux or **Task Scheduler** on Windows.
+
+**Warning:** If you use automated dumps, schedule them far enough ahead of your backup to allow them plenty of time to finish before the backup starts. Otherwise, you might experience file corruption or missing files in your backups.
