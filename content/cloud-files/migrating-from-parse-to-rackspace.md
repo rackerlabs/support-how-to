@@ -6,7 +6,7 @@ type: article
 created_date: '2016-03-25'
 created_by: Amanda Clark
 last_modified_date: '2016-07-19'
-last_modified_by: Stephanie Fillmon 
+last_modified_by: Nate Archer 
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -81,7 +81,7 @@ If you do not have a valid certificate, you can purchase one through Rackspace i
 
 ### Configure Your Parse Dashboard
 
-This stack also comes with Parse Dashboard, which enables you to visualize all the Parse applications running on your server. The Dashboard is configured separately from `parse-server`, and the configuration file is located in **/home/parse/parse-dashboard-config.json**. You must configure your Application ID and Master Key in this file in order to use Parse Dashboard.  
+This stack also comes with Parse Dashboard, which enables you to visualize all the Parse applications running on your server. The Dashboard is configured separately from `parse-server`, and the configuration file is located in `/home/parse/parse-dashboard-config.json`. You must configure your Application ID and Master Key in this file in order to use Parse Dashboard.  
 
 Following is an example `parse-dashboard-config.json` file:
 
