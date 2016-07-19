@@ -5,8 +5,8 @@ title: "Rackspace Auto Scale tips and how-to's"
 type: article
 created_date: '2014-01-14'
 created_by: Maria Abrahms
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze Kratel
+last_modified_date: '2016-07-19'
+last_modified_by: Kyle Laffoon
 product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
@@ -66,7 +66,7 @@ recover from this failure, Auto Scale deletes the server that it built,
 which results in no active servers.
 
 You can avoid this problem by adding ServiceNet to the list of networks
-for the Auto Scale group. 
+for the Auto Scale group.
 
 ### Connect Auto Scale to a single Tsvld[svr] monitoring alarm
 
