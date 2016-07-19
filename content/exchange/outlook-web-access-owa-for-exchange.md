@@ -63,7 +63,7 @@ options.
 
 **Account**
 
--   Account Information: Update your personal information such as your display name, contact information, and and access settings for email clients to set up Exchange with IMAP and POP access.
+-   Account Information: Update your personal information such as your display name, contact information, and access settings for email clients to set up Exchange with IMAP and POP access.
 
 -   Shortcuts: Set up your out-of-office notification and access the auto configuration tool to set up your Outlook email client.
 
