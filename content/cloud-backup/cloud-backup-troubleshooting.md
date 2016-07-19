@@ -5,7 +5,7 @@ title: Cloud Backup troubleshooting
 type: article
 created_date: '2015-06-29'
 created_by: Rackspace Support
-last_modified_date: '2016-07-18'
+last_modified_date: '2016-07-19'
 last_modified_by: Catherine Richardson
 product: Cloud Backup
 product_url: cloud-backup
@@ -201,7 +201,7 @@ The following common items are included in the **driveclient.log** file:
 
 Common errors in the log include 401 and 403 errors that are received when the agent is accessing the **rse.drivesrvr.com**, **api.drivesrvr.com**, **rse.drivesrvr.co.uk**, or **api.drivesrvr.co.uk** endpoints.
 
-When you first start the DriveClient service, the RSA key pair for authentication might not properly synchronize immediately, which causes a brief time of 401 and 403 errors in the **DriveClient.log** file. This is normal for the Cloud Backup internal APIs. The DriveClient service handles these errors and retries the appropriate number of times before canceling the startup of that service.
+When you first start the DriveClient service, the RSA key pair for authentication might not properly synchronize immediately, which causes a brief time of 401 and 403 errors in the **driveclient.log** file. This is normal for the Cloud Backup internal APIs. The DriveClient service handles these errors and retries the appropriate number of times before canceling the startup of that service.
 
 If the errors continue for more than 5-10 seconds, contact Rackspace Support.
 
