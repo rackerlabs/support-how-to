@@ -1,11 +1,12 @@
 ---
 permalink: migrating-from-parse-to-rackspace/
+audit_date: 
 title: Migrating From Parse To Rackspace
 type: article
 created_date: '2016-03-25'
 created_by: Amanda Clark
-last_modified_date: '2016-04-18'
-last_modified_by: Stephanie Fillmon 
+last_modified_date: '2016-07-19'
+last_modified_by: Nate Archer 
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -28,7 +29,7 @@ After the stack has been successfully created you will need to configure your da
 
   Additional information on the server login process can be found [here](how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) for Mac/Linux users or [here](how-to/connecting-to-linux-from-windows-by-using-putty) for Windows users.
 
-2. After you have logged in to the primary server, modify **/home/parse/ecosystem.json** with your
+2. After you have logged in to the primary server, modify `/home/parse/ecosystem.json` with your
    - MongoDB Connection String
    - Application ID
    - Master Key
@@ -70,19 +71,19 @@ After the stack has been successfully created you will need to configure your da
 
 Custom code will likely need to be modified before it will run successfully. You can find more information about this process [here.](https://github.com/ParsePlatform/parse-server/wiki/Migrating-an-Existing-Parse-App#3-cloud-code). This stack already has all of the Cloud Code replacements installed.  
 
-For debugging purposes, you can view the Parse logs at **/home/parse/.pm2/logs/**.
+For debugging purposes, you can view the Parse logs at `/home/parse/.pm2/logs/`.
 
 ### Configure Your Certificate
 
-After Parse is running, you can configure a valid certificate within NGINX by modifying **/etc/nginx/conf.d/<your_url>.conf**, where **<your_url>** is replaced with the URL you provided when you deployed your Parse stack.
+After Parse is running, you can configure a valid certificate within NGINX by modifying `/etc/nginx/conf.d/<your_url>.conf`, where `<your_url>` is replaced with the URL you provided when you deployed your Parse stack.
 
 If you do not have a valid certificate, you can purchase one through Rackspace if you are hosting a physical server with us. Please contact your Account Manager or Rackspace Support with further questions.
 
 ### Configure Your Parse Dashboard
 
-This stack also comes with Parse Dashboard, which enables you to visualize all the Parse applications running on your server. The Dashboard is configured separately from `parse-server`, and the configuration file is located in **/home/parse/parse-dashboard-config.json**. You must configure your Application ID and Master Key in this file in order to use Parse Dashboard.  
+This stack also comes with Parse Dashboard, which enables you to visualize all the Parse applications running on your server. The Dashboard is configured separately from `parse-server`, and the configuration file is located in `/home/parse/parse-dashboard-config.json`. You must configure your Application ID and Master Key in this file in order to use Parse Dashboard.  
 
-Following is an example **parse-dashboard-config.json** file:
+Following is an example `parse-dashboard-config.json` file:
 
     {
       "apps": [
