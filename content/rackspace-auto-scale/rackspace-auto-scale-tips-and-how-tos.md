@@ -66,9 +66,7 @@ recover from this failure, Auto Scale deletes the server that it built,
 which results in no active servers.
 
 You can avoid this problem by adding ServiceNet to the list of networks
-for the Auto Scale group. In the future, Auto Scale will validate
-that the ServiceNet network is part of the launch configuration if a
-load balancer is configured.
+for the Auto Scale group. 
 
 ### Connect Auto Scale to a single Tsvld[svr] monitoring alarm
 
