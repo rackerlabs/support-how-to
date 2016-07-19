@@ -65,8 +65,8 @@ If ServiceNet is not part of the configuration, this action fails. To
 recover from this failure, Auto Scale deletes the server that it built,
 which results in no active servers.
 
-You can avoid this problem by adding ServiceNet to the list of networks
-for the Auto Scale group.
+Avoid this problem by adding ServiceNet to the list of networks for
+the Auto Scale group.
 
 ### Connect Auto Scale to a single Tsvld[svr] monitoring alarm
 
