@@ -23,11 +23,13 @@ You can configure monitoring checks and alarms in teh following web portals:
 - The common checks are displayed along with the cloud servers in the Cloud Control panel.  For more information, see [Creating a monitoring check using the cloud control panel](https://support.rackspace.com/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
 - The complete list of checks can be configured in Rackspace Intelligence. For more information, see [Working with checks](https://support.rackspace.com/how-to/working-with-checks/)
 
-The major groups of checks are remote check, agent checks, and hostinfo checks. The following section describes the useful details about the remote checks. For more information about all the check types, see the [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#check-types-reference) section of the Rackspace Monitoring API documentation.
+The major groups of checks are remote check, agent checks, and hostinfo checks. The following section describes the useful details about the remote checks. For more information about all the check types, see the [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-tech-ref-info/check-type-reference) section of the Rackspace Monitoring API documentation.
 
 ### Remote checks
 
 Remote checks monitor an entity’s Internet connectivity, and can be performed from multiple monitoring zones. These zones are deployed in the six data centers around the globe, and you can choose the zones from which to perform a remote check. Each selected monitoring zone performs the configured remote check, and the collected data from each monitoring zone is used to evaluate the alarm criteria. You receive notifications only if the observations from the monitoring zones reach quorum on the resulting alarm state. As a result, you can filter out cases where a single monitoring zone is having an isolated issue connecting to your server.
+
+For complete list of remote checks, see the [Remote check types references](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#remote-check-type-ref) section of the Rackspace Monitornig API documentation.
 
 #### Consistency level
 
