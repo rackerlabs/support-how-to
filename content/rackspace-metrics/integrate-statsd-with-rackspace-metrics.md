@@ -1,7 +1,7 @@
 ---
 permalink: integrate-statsd-with-rackspace-metrics/
 audit_date:
-title: Integrate statsD with Rackspace Metrics
+title: Integrate StatsD with Rackspace Metrics
 type: article
 created_date: '2015-02-05'
 created_by: Constanze Kratel
@@ -11,7 +11,7 @@ product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
 
-This article describes how to configure StastD to send metrics to Rackspace Metrics. If you don't have StatsD installed, follow the instructions on the[StatsD Website](https://github.com/etsy/statsd/blob/master/README.md).
+This article describes how to configure StastD to send metrics to Rackspace Metrics. If you don't have StatsD installed, follow the instructions on the [StatsD Website](https://github.com/etsy/statsd/blob/master/README.md).
 
 To configure StatsD for the Rackspace Metrics service, complete the
 following steps:
