@@ -1,35 +1,18 @@
-
+---
 permalink: understand-ip-options/
-
 audit_date: '2016-07-25'
-
 title: Understand IP options
-
 type: article
-
 created_date: '2016-07-25'
-
 created_by: Kyle Laffoon
-
 last_modified_date: '2016-07-25'
-
 last_modified_by: Kyle Laffoon
-
 product: Cloud Networks
-
 product_url: cloud-networks
 
 ---
 
-​
-
-​
-
-Internet protocol (IP) assigns standardized structure to data packets
-
-transmitted online between computers or servers. The IP addresses used with
-
-Rackspace services depend on the following:
+Internet protocol (IP) assigns standardized structure to data packets transmitted online between computers or servers. The IP addresses used with Rackspace services depend on the following:
 
 - Data Traffic (inbound vs outbound)
 
@@ -39,25 +22,14 @@ Rackspace services depend on the following:
 
 - Connected services
 
-
-
-The following presents the available IPs, the differences between them, when
-and why each is used, and documents explaining how to use them.
-
+The following presents the available IPs, the differences between them, when and why each is used, and documents explaining how to use them.
 
 
 IP type | Differences | Role | Related article
-
 --- | --- | :---: | ---
-
 Virtual IP | An Internet Protocol (IP) address that is configured on the load balancer. Incoming connections are distributed to back-end nodes based on the configuration of the load balancer | Use the virtual IP to connect to a service that is load balanced. | [Using Cloud Load Balancers with RackConnect](https://support.rackspace.com/how-to/using-cloud-load-balancers-with-rackconnect/)
-
 Floating IP | A floating IP address is an IP address (typically public) that can be dynamically assigned to an instance. | Use this address to enable network address translation (NAT) and allow an instance to be accessed from outside the nova fixed network. | During EA use Floading IP section of [Cloud Networks FAQ](https://support.rackspace.com/how-to/cloud-networks-faq/)
-
 PublicNet IP | Provides access to the Internet, Rackspace services such as Cloud Monitoring, Managed Cloud Support, RackConnect, Cloud Backup, and certain operating system updates. | Provide access to the Internet, Rackspace services such as Cloud Monitoring, Managed Cloud Support, RackConnect, Cloud Backup, and certain operating system updates. |[Attach a Cloud Network to an exisiting cloud server](https://support.rackspace.com/how-to/attach-a-cloud-network-to-an-existing-cloud-server/)
-
 ServiceNet IP | Internal Network address for Rackspace specific services | Provide access to Rackspace services such as Cloud Files, Cloud Databases, Cloud Backup, and certain packages and patches through an internal only, multi-tenant network connection within each Rackspace data center. | [Attach a Cloud Network to an exisiting cloud server](https://support.rackspace.com/how-to/attach-a-cloud-network-to-an-existing-cloud-server/)
-
 Private Network IP (from existing user network) | Internal IP address on a network commonly called ServiceNet and is used within the Cloud. | Use for: High-Availability heartbeat, load balancing, remote database connections, NFS/rsync, and remote backup | [Attach a Cloud Network to an exisiting cloud server]
-
 RackConnect public IP | references a public IP address that has been provided from an IP address block assigned exclusively to your dedicated environment. | Use to assign public IP addresses to dedicated servers. | [Rackconnect v3.0 retained public IP addreses](https://support.rackspace.com/how-to/rackconnect-v30-retained-public-ip-addresses/)
