@@ -9,7 +9,6 @@ last_modified_date: '2016-07-25'
 last_modified_by: Kyle Laffoon
 product: Cloud Networks
 product_url: cloud-networks
-
 ---
 
 Internet protocol (IP) assigns standardized structure to data packets transmitted online between computers or servers. The IP addresses used with Rackspace services depend on the following:
