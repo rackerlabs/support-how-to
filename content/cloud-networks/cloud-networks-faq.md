@@ -96,7 +96,7 @@ Security groups are named collections of network access rules that enable Racksp
 
 #### Where is the documentation?
 
-[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-concepts/concepts-security-groups)
+[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/floating-ip-address-operations)
 
 [Cloud Networks API Reference](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/sec-group-operations)
 
@@ -190,14 +190,26 @@ Documentation for the EA release will be available soon, and this FAQ will be up
 
 #### What makes a floating IP address better than a fixed IP address?
 
-Floating IP addresses enable you to reserve an IP address if you terminate your cloud server. This ish important for a few reasons:
- - Constantly changing cloud resources – Creating and removing cloud resources is a common exercise. However, each time you create a new cloud resource, the default fixed IP address provided changes, which requires updates to configuration files, DNS entries, and so on. Using floating IP addresses enables you to keep the same IP addresses no matter how many times resources are created and removed.
- - IP address reputation – An IP address can have a reputation. Some IP addresses have good reputations and become whitelisted by trusting sources across the Internet. More importantly, however, some IP addresses have bad reputations and get blacklisted. If you happen to get a “bad IP address,” your infrastructure can become unreachable by certain areas of the Internet. Using a floating IP address enables you to build a good reputation for an IP address and keep it.
+Floating IP addresses enable you to reserve an IP address if you terminate your cloud server. This is important for a few reasons:
+
+ - Constantly changing cloud resources – Creating and removing cloud resources
+   is a common exercise. However, each time you create a new cloud    resource,
+   the default fixed IP address provided changes, which requires updates to
+   configuration files, DNS entries, and so on. Using floating IP addresses
+   enables you to keep the same IP addresses no matter how many times resources
+   are created and removed.
+ - IP address reputation – An IP address can have a reputation. Some IP
+   addresses have good reputations and become whitelisted by trusting sources
+   across the Internet. More importantly, however, some IP addresses have bad
+   reputations and get blacklisted. If you happen to get a “bad IP address,”
+   your infrastructure can become unreachable by certain areas of the Internet.
+   Using a floating IP address enables you to build a good reputation for an IP
+   address and keep it.
 
 
 #### Is this feature supported for all Rackspace Cloud customers?
 
-This feature is supported for cloud-only customers, but only if they are provided access via the EA signup page located [here](https://one.rackspace.com/display/compute/Floating+IP+EA+Signup). For more information, see [What are the features only for EA?](####What are the features only for EA?)
+This feature is supported for cloud-only customers that have been approved for the Early Access (EA) program. Please contact Rackspace to considered for EA access.
 
 #### What features are supported for EA?
 
@@ -245,13 +257,13 @@ Vyatta appliance.
 
 #### What do I need to know when I associate a floating IP address with my cloud server ?
 
-Because cloud servers come with a fixed public IPv4 address you can remove the fixed IP address and replace it with a floating IP address. If a you want to keep your fixed IP address in addition to a floating IP address. If you want to keep the fixed IP address in addition to using the floating IP address, then you need to configure the  server to handle traffic appropriately. For details about how to do this, see the API and How-To documentation.
+Because cloud servers come with a fixed public IPv4 address you can remove the fixed IP address and replace it with a floating IP address. If you want to keep the fixed IP address in addition to using the floating IP address, then you must configure the  server to handle traffic appropriately. For details about how to do this, see the API and How-To documentation.
 
 
 #### What are the features limitations for EA?
 
  - Floating IP addresses are intended to work only with Next Gen Cloud Servers. Floating IP addresses do not work with other products such as OnMetal, Cloud Load Balancers, and RackConnect v3.0.
- - You can't convert current public IPv4 addresses cannot be converted to a floating IP addresses. You must provision a new floating IP address.
+ - You can't convert current public IPv4 addresses to floating IP addresses. You must provision a new floating IP address.
  - The quota is limited to 5 floating IP addresses per tenant. Quotas will be raised during Limited Availability and later.
  - There is no support for floating IP addresses in the Cloud Control Panel.
  - Currently, the feature supports only IPv4.
