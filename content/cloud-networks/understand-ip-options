@@ -15,6 +15,7 @@ product_url: cloud-networks
 Internet protocol (IP) assigns standardized structure to data packets
 transmitted online between computers or servers. The IP addresses used with
 Rackspace services depend on the following:
+
  - Data Traffic (inbound vs outbound)
  - Access levels (internal vs external)
  - Intended use (internet vs within same data center)
