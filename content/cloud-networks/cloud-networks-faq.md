@@ -1,7 +1,7 @@
 ---
 permalink: cloud-networks-faq/
 audit_date:
-title: Cloud Networks - FAQ
+title: Cloud Networks FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Sameer Satyam
@@ -172,9 +172,9 @@ No. Security groups are applied to a Neutron port on a network that is attached 
 
 Traffic that matches a rule is permitted. Any traffic that is not part of the ruleset for that Security Group is denied / blocked. There is no way to specify that traffic matching a rule should be denied. This is how the OpenStack Security Groups API was designed. Hence the Security Groups API is a white-list. Traffic that doesn't match any of the rules in the white-list is automatically black-listed.
 
-###Early Access (EA) release of the floating IP addresses
+---------
 
-Get quick answers to questions about the Early Access (EA) release of the floating IP addresses feature for Rackspace Cloud services.
+### Early Access (EA) release of floating IP addresses
 
 #### What are floating IP addresses?
 
