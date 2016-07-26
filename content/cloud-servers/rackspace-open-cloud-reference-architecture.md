@@ -41,7 +41,7 @@ future applications. Typically, this is the first step our customers take when m
 
 The tiered architecture is the next step in configuring an application for the Open Cloud. This configuration enables you to scale each tier (web, app, caching, and database) horizontally as you grow. This example uses replicated database servers instead of the Cloud Databases platform, which allows for more customization. This configuration also shows the power of the asynchronous processing of tasks, which makes each tier more modular.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/six.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/tiered-cloud-arch.svg %}" alt="" />
 
 1. [Rackspace Cloud Load Balancers](http://www.rackspace.com/cloud/public/loadbalancers/):
 Cloud load balancers have multiple balancing options, and support SSL
@@ -57,7 +57,7 @@ termination for secure sites.
 
 This architecture shows a typical web application configuration in the Open Cloud. In this architecture, the web servers use Cloud Block Storage for extra disk space. Load balancers are also used in multiple levels of the application, balancing not only web workloads but also application workloads.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/10_0.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/web-app-config.svg %}" alt="" />
 
 1.  [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -73,7 +73,7 @@ This architecture shows a typical web application configuration in the Open Clou
 
 Rackspace Support technicians might use this architecture for a content management system (CMS) such as Drupal. Typically, we configure the application to heavily use caching, with Varnish for some static content and Memcached for database query caching. This configuration also enables you to scale horizontally quickly for events or high traffic.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/two_0.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/content-management-arch.svg %}" alt="" />
 
 1. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -89,7 +89,7 @@ Rackspace Support technicians might use this architecture for a content manageme
 
 The Rackspace Managed Cloud Servers team might use the following architecture to configure the Open Cloud for WordPress.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/7.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/wordpress-cloud-arch.svg %}" alt="" />
 
 1. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -110,7 +110,7 @@ termination for secure sites.
 This architecture uses cloud servers acting as reverse proxies for specialized workloads. This architecture could be used for caching, SSL termination, or other use cases. It also displays a use case for Cloud networks, where you can create virtual private clouds for application servers, limiting their accessibility for better security.
 
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/eight.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/reverse-proxy-cloud-arch.svg %}" alt="" />
 
 1. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
