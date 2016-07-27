@@ -1,7 +1,7 @@
 ---
 permalink: overview-role-based-access-control-rbac/
 audit_date:
-title: Learning about Role-Based Access Control (RBAC)
+title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
