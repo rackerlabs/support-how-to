@@ -5,8 +5,8 @@ title: Learning about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2016-06-20'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-07-27'
+last_modified_by: Kyle Laffoon
 product: undefined
 product_url: undefined
 ---
@@ -53,13 +53,13 @@ RBAC provides the following roles.
     create, read, update, and delete resources within multiple
     designated products where access is granted. These permissions apply
     to products that are currently RBAC-enabled and
-    to products as they become RBAC-enabled in the future.
+    to products as they become RBAC-enabled.
 
 -   **Read-only access** - The read-only access role has permissions to
     view given resources within multiple designated products where
     access is granted. These permissions apply to products that are
     currently RBAC-enabled and to products as they
-    become RBAC-enabled in the future.
+    become RBAC-enabled.
 
 **Note**: Users with the full or read-only access roles will have
 automatic access to all new products that become RBAC-enabled, with the
