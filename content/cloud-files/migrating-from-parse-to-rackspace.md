@@ -1,12 +1,12 @@
 ---
 permalink: migrating-from-parse-to-rackspace/
-audit_date: 
+audit_date:
 title: Migrating From Parse To Rackspace
 type: article
 created_date: '2016-03-25'
 created_by: Amanda Clark
-last_modified_date: '2016-07-19'
-last_modified_by: Nate Archer 
+last_modified_date: '2016-07-26'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -76,6 +76,10 @@ For debugging purposes, you can view the Parse logs at `/home/parse/.pm2/logs/`.
 ### Configure Your Certificate
 
 After Parse is running, you can configure a valid certificate within NGINX by modifying `/etc/nginx/conf.d/<your_url>.conf`, where `<your_url>` is replaced with the URL you provided when you deployed your Parse stack.
+
+Validate your ssl certificate with the following command:
+
+    nginx -t -c /etc/nginx/nginx.conf
 
 If you do not have a valid certificate, you can purchase one through Rackspace if you are hosting a physical server with us. Please contact your Account Manager or Rackspace Support with further questions.
 
