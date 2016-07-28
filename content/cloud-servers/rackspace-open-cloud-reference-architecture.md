@@ -128,7 +128,7 @@ termination for secure sites.
 
 This architecture is similar to the CMS and web application architectures, but it uses dedicated hardware for part of the configuration where more customization or bare metal is required. Typically customers use bare metal servers for database workloads or parts of their application that have a high number of I/O operations. RackConnect configurations are also used for customers who require higher levels of PCI compliance.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/five.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/basic-rackconnect-config.svg %}" alt="" />
 
 1. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
