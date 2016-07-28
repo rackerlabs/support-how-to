@@ -5,8 +5,8 @@ title: Open ports in the Linux firewall to access POP and IMAP mail servers
 type: article
 created_date: '2011-03-08'
 created_by: Rackspace Support
-last_modified_date: '2016-01-11'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-07-27'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -52,7 +52,7 @@ Following from the Cloud Server setup, we need to edit the **iptables.test.rules
 
        sudo iptables -L
 
-  This information should be in the output from the command:
+   This information should be in the output from the command:
 
        ACCEPT     all  --  anywhere             anywhere            state RELATED,ESTABLISHED
        ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:smtp
@@ -61,7 +61,8 @@ Following from the Cloud Server setup, we need to edit the **iptables.test.rules
        ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imap2
        ACCEPT     tcp  --  anywhere             anywhere            tcp dpt:imaps
 
-5. Now we have tested the rules, we need to have them applied on a permanent basis. You will need to have full root access for the next command so use this command in order to enter the root shell:
+5. Now we have tested the rules, we need to have them applied on a permanent
+   basis. You will need to have full root access for the next command so use this command in order to enter the root shell:
 
        sudo -i
 
