@@ -130,7 +130,7 @@ If your Windows server fails this check, follow these instructions:
 
 1.  Download the following package to your computer:
 
-        http://c4f6d65e7c9c0356f5c6-f834e6ac12bf8372533a9a3497063644.r92.cf2.rackcdn.com/AgentService.zip
+        http://e584a326fabd876c3b87-5cc4f7b75bc093abc6d4ecc36a7bc696.r2.cf1.rackcdn.com/AgentService.zip
 
 2.  Unzip the archive.
 
