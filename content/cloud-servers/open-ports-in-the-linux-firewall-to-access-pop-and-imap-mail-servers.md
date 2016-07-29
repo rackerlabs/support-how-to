@@ -27,7 +27,7 @@ The following table lists the ports used be each of the TCP/IP protocols for mai
 
 ### Edit firewall rules
 
-For Centos 7 and later:
+**For Centos 7 and later:**
 
 1. Enter the following commands to open the preceding ports:
 
@@ -39,7 +39,7 @@ For Centos 7 and later:
 
       firewall-cmd --query-service=<service name>
 
-For Debian and CentOS 6 and earlier:
+**For Debian and CentOS 6 and earlier:**
 
 Edit the  `iptables.test.rules`  file to allow access to those ports. Although the example uses port 25, you can change it to the recommended value.
 
@@ -65,7 +65,7 @@ Edit the  `iptables.test.rules`  file to allow access to those ports. Although t
 
    For CentOS 6 and earlier:
 
-      Skip this step.
+      Skip this step and proceed to the following step.
 
 4. Check that the rules have been applied:
 
