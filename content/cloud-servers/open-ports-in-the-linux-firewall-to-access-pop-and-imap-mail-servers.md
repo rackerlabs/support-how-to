@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-o access services such as POP and IMAP mail servers, you must open certain ports to allow the services through the firewall. A few standard ports are used to access most services. For example, access for a website generally uses port 80 for normal (HTTP) web pages and port 443 for secure (HTTPS) pages.
+To access services such as POP and IMAP mail servers, you must open certain ports to allow the services through the firewall. A few standard ports are used to access most services. For example, access for a website generally uses port 80 for normal (HTTP) web pages and port 443 for secure (HTTPS) pages.
 
 The following table lists the ports used be each of the TCP/IP protocols for mail delivery.
 
@@ -27,7 +27,7 @@ The following table lists the ports used be each of the TCP/IP protocols for mai
 
 ### Edit firewall rules
 
-   For Centos 7 and later:
+For Centos 7 and later:
 
 1. Enter the following commands to open the preceding ports:
 
@@ -39,12 +39,12 @@ The following table lists the ports used be each of the TCP/IP protocols for mai
 
       firewall-cmd --query-service=<service name>
 
-   For Debian and CentOS 6 and earlier:
+For Debian and CentOS 6 and earlier:
 
-   Edit the  `iptables.test.rules`  file to allow access to those ports. Although the example uses port 25, you can change it to the recommended value.
+Edit the  `iptables.test.rules`  file to allow access to those ports. Although the example uses port 25, you can change it to the recommended value.
 
-   1. Open the rules file:sudo nano /etc/iptables.test.rules
-   2. Just before the HTTP and HTTPS entries, add the following lines:
+1. Open the rules file:sudo nano /etc/iptables.test.rules
+2. Just before the HTTP and HTTPS entries, add the following lines:
 
          # Allows SMTP access
          -A INPUT -p tcp --dport 25 -j ACCEPT
@@ -57,21 +57,21 @@ The following table lists the ports used be each of the TCP/IP protocols for mai
          -A INPUT -p tcp --dport 143 -j ACCEPT
          -A INPUT -p tcp --dport 993 -j ACCEPT
 
-   3. Apply the new rules:
+3. Apply the new rules:
 
-      For Debian:
+   For Debian:
 
          sudo iptables-restore &lt; /etc/iptables.test.rules
 
-      For CentOS 6 and earlier:
+   For CentOS 6 and earlier:
 
       Skip this step.
 
-   4. Check that the rules have been applied:
+4. Check that the rules have been applied:
 
          sudo iptables -L
 
-      The following information should be in the output from the command:
+   The following information should be in the output from the command:
 
          ACCEPT all -- anywhere anywhere state RELATED,ESTABLISHED
          ACCEPT tcp -- anywhere anywhere tcp dpt:smtp
@@ -80,19 +80,19 @@ The following table lists the ports used be each of the TCP/IP protocols for mai
          ACCEPT tcp -- anywhere anywhere tcp dpt:imap2
          ACCEPT tcp -- anywhere anywhere tcp dpt:imaps
 
-   5. Enter the root shell. You must have full root access to save the iptables rules.
+5. Enter the root shell. You must have full root access to save the iptables rules.
 
          sudo -i
 
-   6. Save the iptables rules:
-      For Debian:
+6. Save the iptables rules:
+   For Debian:
 
          iptables-save &gt; /etc/iptables.up.rules
 
-      For CentOS 6 and earlier:
+   For CentOS 6 and earlier:
 
          iptables-save &gt; sudo iptables-restore &lt;
 
-   7. Exit the root shell:
+7. Exit the root shell:
 
          exit
