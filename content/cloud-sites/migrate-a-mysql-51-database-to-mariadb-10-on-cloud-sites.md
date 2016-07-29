@@ -1,11 +1,11 @@
 ---
 permalink: migrate-a-mysql-51-database-to-mariadb-10-on-cloud-sites/
-audit_date:
+audit_date: '2016-07-29'
 title: Migrate a MySQL 5.1 database to MariaDB 10 on Cloud Sites
 type: article
 created_date: '2015-02-09'
 created_by: Thomas Hester
-last_modified_date: '2016-06-21'
+last_modified_date: '2016-07-29'
 last_modified_by: Kyle Laffoon
 product: Cloud Sites
 product_url: cloud-sites
@@ -30,9 +30,7 @@ MariaDB database. This article provides the steps for such a migration.
 
 ### Availability of MariaDB
 
-MariaDB 10.1 is now available in the ORD and DFW data center and will be available in
-the DFW data center in the future. Migrations in ORD from MySQL 5.1 to MariaDB 10.1
-will be happening in September.
+MariaDB 10.1 is now available in the ORD and DFW data centers. Migrations in ORD from MySQL 5.1 to MariaDB 10.1 will happen in September.
 
 ### MariaDB instead of MySQL 5.6
 
