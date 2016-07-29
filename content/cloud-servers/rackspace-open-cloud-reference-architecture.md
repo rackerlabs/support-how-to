@@ -145,10 +145,9 @@ high-performance custom MySQL.
 
 This high-level overview shows the possibilities of mixing private and public clouds. This configuration is for customers who want to take advantage of cloud technology but might still need to maintain an in-house solution. Customers also use private clouds to have dedicated host machines, which eliminates the so-called "noisy neighbor" problem present with every multitenant public cloud hosting provider. The power of OpenStack enables customers to move workloads between their in-house private cloud and the Rackspace Open Cloud without having to change their application to suit a new API. Customers can link their in-house private cloud to a Rackspace hosted private cloud for the same purpose.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/four.png %}" alt="" />
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/hybrid-cloud-configuration.svg %}" alt="" />
 
 1. [Rackspace Cloud Monitoring](http://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
-
 
 2. [RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect): RackConnect enables Rackspace to connect from a customer data center to a Rackspace data center through a site-to-site IPSec VPN.
 
