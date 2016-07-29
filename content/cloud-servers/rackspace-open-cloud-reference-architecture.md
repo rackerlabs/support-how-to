@@ -157,14 +157,14 @@ This high-level overview shows the possibilities of mixing private and public cl
 
 ### Ecommerce architecture
 
-This achitecture can be coupled with the web application or RackConnect
+This architecture can be coupled with the web application or RackConnect
 architectures for ecommerce. This architecture also shows the power of our Cloud
 Tools Marketplace--customers can sign up for partner services like
 SendGrid for end-user email deliverability. This architecture also
 takes advantage of a bare metal database server for PCI compliance
 standards and to takes full advantage of computing resources.
 
-<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/mailgun.png %}" alt="" />
+
 
 1. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/): When a visitor loads a web page, cloud servers are used as web and application servers. A firewall and load balancer are also used.
 
