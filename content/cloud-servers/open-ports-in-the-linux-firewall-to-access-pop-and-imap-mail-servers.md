@@ -43,7 +43,7 @@ The following table lists the ports used be each of the TCP/IP protocols for mai
 
 Edit the `iptables.test.rules` file to allow access to those ports. Although the example uses port 25, you can change it to the recommended value.
 
-1. Open the rules file:sudo nano /etc/iptables.test.rules
+1. Open the rules file with the following command: `sudo nano /etc/iptables.test.rules`
 2. Just before the HTTP and HTTPS entries, add the following lines:
 
          # Allows SMTP access
