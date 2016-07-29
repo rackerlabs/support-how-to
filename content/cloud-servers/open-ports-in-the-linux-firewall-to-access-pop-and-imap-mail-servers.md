@@ -61,7 +61,7 @@ Edit the `iptables.test.rules` file to allow access to those ports. Although the
 
    For Debian:
 
-         sudo iptables-restore &lt; /etc/iptables.test.rules
+         sudo iptables-restore < /etc/iptables.test.rules
 
    For CentOS 6 and earlier:
 
@@ -87,11 +87,11 @@ Edit the `iptables.test.rules` file to allow access to those ports. Although the
 6. Save the iptables rules:
    For Debian:
 
-         iptables-save &gt; /etc/iptables.up.rules
+         iptables-save > /etc/iptables.up.rules
 
    For CentOS 6 and earlier:
 
-         iptables-save &gt; sudo iptables-restore &lt;
+         iptables-save > sudo iptables-restore &lt;
 
 7. Exit the root shell:
 
