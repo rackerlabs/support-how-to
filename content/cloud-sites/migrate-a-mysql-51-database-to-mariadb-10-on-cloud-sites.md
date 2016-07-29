@@ -1,17 +1,17 @@
 ---
 permalink: migrate-a-mysql-51-database-to-mariadb-10-on-cloud-sites/
-audit_date:
+audit_date: '2016-07-29'
 title: Migrate a MySQL 5.1 database to MariaDB 10 on Cloud Sites
 type: article
 created_date: '2015-02-09'
 created_by: Thomas Hester
-last_modified_date: '2016-06-21'
+last_modified_date: '2016-07-29'
 last_modified_by: Kyle Laffoon
 product: Cloud Sites
 product_url: cloud-sites
 ---
 
-Cloud Sites has added MariaDB 10 as a database option. Although it is a
+Cloud Sites has added MariaDB 10.1 as a database option. Although it is a
 different engine, it is fully compatible with the MySQL connections and
 syntax. This upgrade is an effort to keep Cloud Sites up-to-date with
 current software, security, and usability. New databases can be
@@ -24,15 +24,13 @@ MariaDB database. This article provides the steps for such a migration.
 -   MySQL 5.1 can still be provisioned, and no databases will be forced
     to migrate.
 
--   Currently, customers cannot perform backups that call **mysqldump**
-    because the version on the servers is incompatible with MariaDB 10.
-    However, Support can perform these backups.
+-   Currently, customers cannot perform MariaDB backups that call _mysqldump_
+    because the version on the servers is incompatible with MariaDB 10.1.
+    However, Support can perform these backups if necessary.
 
 ### Availability of MariaDB
 
-MariaDB is now available in the ORD data center and will be available in
-the DFW data center in the future. We do not currently have a timeline
-for deployment in DFW.
+MariaDB 10.1 is now available in the ORD and DFW data centers. Migrations in ORD from MySQL 5.1 to MariaDB 10.1 will happen in September.
 
 ### MariaDB instead of MySQL 5.6
 
@@ -57,7 +55,7 @@ MySQL 5.6. See the following links for more information:
 
 4.  Under Databases, click **Add**.
 
-5.  Enter a unique name for the database, select **MariaDB** from the
+5.  Enter a unique name for the database, select **MariaDB 10.1** from the
     **Database Type** menu, and then click **Continue**.
 
 6.  Enter the username and password to use for the database, and then
