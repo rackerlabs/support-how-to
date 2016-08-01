@@ -5,7 +5,7 @@ title: Rackspace Open Cloud reference architecture
 type: article
 created_date: '2012-08-10'
 created_by: Rae D. Cabello
-last_modified_date: '2016-05-31'
+last_modified_date: '2016-08-01'
 last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
@@ -164,7 +164,7 @@ SendGrid for end-user email deliverability. This architecture also
 takes advantage of a bare metal database server for PCI compliance
 standards and to takes full advantage of computing resources.
 
-
+<img src="{% asset_path cloud-servers/rackspace-open-cloud-reference-architecture/ecommerce-open-cloud.svg %}" alt="" />
 
 1. [Rackspace Cloud Servers](http://www.rackspace.com/cloud/public/servers/): When a visitor loads a web page, cloud servers are used as web and application servers. A firewall and load balancer are also used.
 
