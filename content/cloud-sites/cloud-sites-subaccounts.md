@@ -1,7 +1,7 @@
 ---
 permalink: getting-started-with-cloud-sites-set-up-site-security-with-subaccounts/
 audit_date:
-title: Getting Started with Cloud Sites: Set up site security with subaccounts
+title: Set up site security with Cloud Sites subaccounts
 type: article
 created_date: '2011-06-15'
 created_by: Rackspace Support
