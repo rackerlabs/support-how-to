@@ -136,7 +136,7 @@ This architecture is similar to the CMS and web application architectures, but i
 
 3. [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/): Cloud servers use Cloud Block Storage to serve web content for this application.
 
-4. **Dedicated Servers**: This configuration uses dedicated servers for
+4. [Dedicated Servers](https://www.rackspace.com/dedicated-servers/): This configuration uses dedicated servers for
 high-performance custom MySQL.
 
 5. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/): Static content can be served through Rackspace Cloud Files and the Akamai CDN for global content delivery.
@@ -172,6 +172,6 @@ standards and to takes full advantage of computing resources.
 
 3. [RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect): Using RackConnect, cloud resources can be connected seamlessly to dedicated hardware, in this case for use as a database server.
 
-4. **Mailgun**: Customer email can be sent through **Mailgun**, a Rackspace subsidiary. Customers can also use a payment gateway to meet PCI requirements.
+4. [Mailgun](http://www.mailgun.com/): Customer email can be sent through **Mailgun**, a Rackspace subsidiary. Customers can also use a payment gateway to meet PCI requirements.
 
 5. [Rackspace Cloud Files](http://www.rackspace.com/cloud/public/files/): Static content can be served through Rackspace Cloud Files and the Akamai CDN for global content delivery.
