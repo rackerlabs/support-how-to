@@ -29,8 +29,8 @@ PublicNet, ServiceNet, or both.
 
 ### Limitations
 
-You cannot remove PublicNet or ServiceNet from Cloud Servers within an
-account which are of the Managed Operations service level. 
+You cannot remove PublicNet or ServiceNet from Cloud Servers with an
+account on the **Managed Operations** service level. 
 
 If you remove your Cloud Server from PublicNet, it no longer has access
 to the Internet and some Rackspace products and services. If you remove
