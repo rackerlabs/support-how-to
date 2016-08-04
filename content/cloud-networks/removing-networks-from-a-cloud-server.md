@@ -5,8 +5,8 @@ title: Removing Networks from a Cloud Server
 type: article
 created_date: '2012-09-25'
 created_by: David Hendler
-last_modified_date: '2016-07-22'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-08-03'
+last_modified_by: Colin Barker
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -28,6 +28,9 @@ data center.
 PublicNet, ServiceNet, or both.
 
 ### Limitations
+
+You cannot remove PublicNet or ServiceNet from Cloud Servers with an
+account on the **Managed Operations** service level. 
 
 If you remove your Cloud Server from PublicNet, it no longer has access
 to the Internet and some Rackspace products and services. If you remove
