@@ -119,7 +119,7 @@ You can open a single port to all server IP addresses for a specific IP address.
 
 In the following image, a policy was added to allow an alternate SMTP (Port 587) mail traffic through the firewall from the IP address 207.250.49.146.
 
-<img src="{% asset_path managed-operations/using-the-myrackspace-firewall-manager/926-4763-1_0.png %}" width="550" height="236" border="2" alt=""  />
+<img src="{% asset_path managed-operations/using-the-myrackspace-firewall-manager/Add-image-policy-image-1.png %}" width="550" height="236" border="2" alt=""  />
 
 The following image shows a protocol that was changed to IP (all ports). When you select this protocol, you cannot enter or select a port number.
 
