@@ -34,7 +34,7 @@ Complete the following steps to create and authorize new user.
    **Note:** Review the [Permission Guide](https://racker.my.rackspace.com/portal/downloads/csx-docs/PermissionsGuide.pdf), linked on the **Permissions / Assign By User** for information on assignment and permission management options.
 5. Under the **Account Permissions** tab, select the checkboxes for the
    authorizations to assign.
-   **Note:** Assigning Account Administrator authorization will grant the same permissions as you have. If you don't want to assign that much authority, but are setting up a technical contact, be sure to assign at least the following:
+   **Note:** Assigning Account Administrator authorization grants the same permissions as you have. If you don't want to assign that much authority, but are setting up a technical contact, be sure to assign at least the following:
     - Manage My Contact info
     - Manage SSL Certs
     - View Reports
