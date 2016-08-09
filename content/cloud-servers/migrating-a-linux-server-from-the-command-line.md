@@ -5,7 +5,7 @@ title: Migrating a Linux server from the command line
 type: article
 created_date: '2011-03-16'
 created_by: Jered Heeschen
-last_modified_date: '2016-08-03'
+last_modified_date: '2016-08-09'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -84,8 +84,6 @@ the other. As a result, most of the tips in the [article about speeding up rsync
 ### Next step
 
 You've compared the origin and destination servers to each other and
-prepared your file systems for the copy. Now it's time to make a choice:
+prepared your file systems for the copy.
 
-- If you want to migrate using a script that does most of the work, go to the [article on a script-assisted migration](/how-to/migrating-a-linux-server-from-the-command-line-scripted "Migrating a Linux server from the command line - Scripted").
-
-- If you want to handle the migrattion yourself, running rsync manually, go to the [article on migrating with rsync](/how-to/migrating-a-linux-server-from-the-command-line-2) to start the process.
+For information on running rsync manually, go to the [article on migrating with rsync](/how-to/migrating-a-linux-server-from-the-command-line-2) to start the process.
