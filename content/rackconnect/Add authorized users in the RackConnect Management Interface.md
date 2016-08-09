@@ -25,7 +25,7 @@ Complete the following steps to create and authorize new user.
 1. Click **Create New User**.
 2. In the **Users/New** screen, enter information for the new user in the
    **First Name**, **Last Name**, **Email Address** and **Phone Number** fields and click **Create New User** when finished.
-   **Note:** This will generate an email to the new user to register. ???
+   **Note:** This will generate an email to the new user to register. 
 3. After the new user is registered, open the  **Account > Permissions** page
    to assign authorization for the user.
    **Note:** If you already have a user whose authorization profile would be suitable for the user currently being assigned authorities, you can use the **Clone** option from the *User List** page.
