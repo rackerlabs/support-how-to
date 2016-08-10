@@ -124,7 +124,7 @@ The results for this check are pass/fail.
 If your Linux server fails this check, run the following script as root
 to reinstall the agent through SSH or your Java console:
 
-    curl https://756c096c4fdec88dc549-ad3ecb862ed1ff9a4f44bb8d95040816.ssl.cf5.rackcdn.com/rax_nova_agent_install.sh | bash
+    curl http://e584a326fabd876c3b87-5cc4f7b75bc093abc6d4ecc36a7bc696.r2.cf1.rackcdn.com/linux-nova-agent-installer.sh | bash
 
 If your Windows server fails this check, follow these instructions:
 
