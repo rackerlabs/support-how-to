@@ -4,6 +4,8 @@ This file describes the general process for maintaining source code for content 
 
 Content is grouped into one directory per product. Each directory contains one file per article.
 
+**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the Edit This Article button on the left-hand side of the page.
+
 ### Getting started with GitHub
 
 To contribute to the How-To repository, you need a GitHub account. If you do not have a GitHub account, you can sign up for one [https://github.com/join](https://github.com/join).
