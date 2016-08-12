@@ -14,7 +14,7 @@ product_url: rpc-openstack
 
 <p class="lead" markdown="1">Rackspace Private Cloud Software uses Ansible to create an OpenStack cluster on Ubuntu Linux. The installation process provides a familiar approach for Linux system administrators, and the environment can be updated easily without downloading and installing a new ISO.</p>
 
-<p class="lead" markdown="1">Learn more [on the main product page](http://www.rackspace.com/cloud/private/openstack/). You can also learn more about the documentation at the [Rackspace Private Cloud Documentation page.](/how-to/rackspace-private-cloud-documentation)</p>
+<p class="lead" markdown="1">Learn more [on the main product page](https://www.rackspace.com/cloud/private/openstacksolutions). You can also learn more about the documentation at the [Rackspace Private Cloud Documentation page.](/how-to/rackspace-private-cloud-documentation)</p>
 
 <hr />
 
