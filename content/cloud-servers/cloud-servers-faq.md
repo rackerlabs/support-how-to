@@ -292,7 +292,8 @@ Yes, the Rackspace [Cloud Control Panel](https://mycloud.rackspace.com/)
 is a web-based management interface for restarting your cloud server,
 starting support discussions, viewing stats, and scheduling snapshots.
 However, we do not offer a control panel like Plesk or cPanel. You're
-free to install such packages for your own cloud server.
+free to install such packages for your own cloud server. If you are installing cPanel, be sure to install on a clean (empty) server. See [CentOS/RHEL - Installing cPanel & WHM 11.24](https://community.rackspace.com/products/f/25/t/6798) for additional information.
+The usage of Plesk or cPanel is not supported and strongly discouraged for customers under the Managed Operations SLA as it interferes with our server administration. See [Using Plesk or cPanel with the Managed Operations Service Level Agreement](https://community.rackspace.com/products/f/25/t/4888) for additional information.
 
 You may be interested in installing the free monitoring agent on your
 server and using the [Cloud Intelligence dashboard](https://intelligence.rackspace.com/), which offers many of
