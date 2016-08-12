@@ -5,7 +5,7 @@ title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-08-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -498,13 +498,11 @@ Yes. Users can provision security groups via Neutron client.
 
 #### Are Security Groups on Cloud Networks supported?
 
-No. Rackspace will add Security Group support for Cloud Networks in the
-near future.
+No.
 
 #### Are Outbound Security Groups supported?
 
-No. Rackspace will add Outbound security Group support in the near
-future.
+No. 
 
 #### What features are supported at launch for Security Groups?
 
