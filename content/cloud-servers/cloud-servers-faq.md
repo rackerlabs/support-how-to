@@ -498,11 +498,11 @@ Yes. Users can provision security groups via Neutron client.
 
 #### Are Security Groups on Cloud Networks supported?
 
-No.
+Yes. For Additional information see [API Developer Guide, Concept section](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-concepts/index).
 
 #### Are Outbound Security Groups supported?
 
-No. 
+Yes. For Additional information see [API Developer Guide, Concept section](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-concepts/index).
 
 #### What features are supported at launch for Security Groups?
 
