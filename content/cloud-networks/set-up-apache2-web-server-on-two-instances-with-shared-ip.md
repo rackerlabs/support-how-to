@@ -516,17 +516,17 @@ indicates where to perform the step.
    
    *File contents:*
    
-        logfacility daemon
-        keepalive 2
-        deadtime 15
-        warntime 5
-        initdead 120
-        udpport 694
-        ucast eth0 10.23.233.89 # The ip address of the master instance on public net
-        auto_failback on
-        node master-instance-hostname# master-instance-hostname is the name displayed by uname -n in the master instance
-        node slave-instance-hostname # slave-instance-hostname is the name displayed by uname -n in the slave instance
-        respawn hacluster /usr/lib/heartbeat/ipfail use_logd yes
+          logfacility daemon
+          keepalive 2
+          deadtime 15
+          warntime 5
+          initdead 120
+          udpport 694
+          ucast eth0 10.23.233.89 # The ip address of the master instance on public net
+          auto_failback on
+          node master-instance-hostname# master-instance-hostname is the name displayed by uname -n in the master instance
+          node slave-instance-hostname # slave-instance-hostname is the name displayed by uname -n in the slave instance
+          respawn hacluster /usr/lib/heartbeat/ipfail use_logd yes
 
 11. (Slave) Restart the heartbeat on the slave server by running the following
    command:
