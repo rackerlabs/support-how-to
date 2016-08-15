@@ -511,46 +511,46 @@ indicates where to perform the step.
    
         master-instance-hostname 10.23.233.113/24
 
-10. (Slave) Create the ***/etc/heartbeat/ha.cf*** file on the slave server and
-   enter the following text. The lines with comments are the ones that have to be modified.
+10. (Slave) Create the ***/etc/heartbeat/ha.cf*** file on the slave server and 
+    enter the following text. The lines with comments are the ones that have to be modified.
+    
+    *File contents:*
    
-   *File contents:*
-   
-          logfacility daemon
-          keepalive 2
-          deadtime 15
-          warntime 5
-          initdead 120
-          udpport 694
-          ucast eth0 10.23.233.89 # The ip address of the master instance on public net
-          auto_failback on
-          node master-instance-hostname# master-instance-hostname is the name displayed by uname -n in the master instance
-          node slave-instance-hostname # slave-instance-hostname is the name displayed by uname -n in the slave instance
-          respawn hacluster /usr/lib/heartbeat/ipfail use_logd yes
+        logfacility daemon
+        keepalive 2
+        deadtime 15
+        warntime 5
+        initdead 120
+        udpport 694
+        ucast eth0 10.23.233.89 # The ip address of the master instance on public net
+        auto_failback on
+        node master-instance-hostname# master-instance-hostname is the name displayed by uname -n in the master instance
+        node slave-instance-hostname # slave-instance-hostname is the name displayed by uname -n in the slave instance
+        respawn hacluster /usr/lib/heartbeat/ipfail use_logd yes
 
 11. (Slave) Restart the heartbeat on the slave server by running the following
-   command:
-
+    command:
+    
         sudo service heartbeat restart
 
 12. (Master) Set up Apache to respond with the hostname on the master server
-   by running the following command:
-
+    by running the following command:
+    
         echo `hostname` > /var/www/html/index.html
 
 13. (Slave) Set up Apache to respond with the hostname on the slave server by
-   running the following command:
-
+    running the following command:
+    
         echo `hostname` > /var/www/html/index.html
 
 14. (Master) Restart Apache on the master server by running the following
-   command:
-
+    command:
+    
         sudo service apache2 restart
 
 15. (Slave) Restart Apache on the slave server by running the following
-   command:
-
+    command:
+    
         sudo service apache2 restart
 
 ### Test the configuration
