@@ -127,10 +127,26 @@ Perform the following steps from your local computer.
 
    *Request:*
    
-      curl -vv -s -k https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers
+        curl -vv -s -k https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers
            -X POST -H "Content-Type: application/json"
            -H "X-Auth-Token: $token"
-           -d "{"server":{"name": "isol2","imageRef": "adb78bf4-81ae-4dce-a417-8eb2b7f7f0c3","os:scheduler_hints": {"public_ip_zone:near": ["96bbd712-0f64-4146-bfb2-b2bd91f20319"]},"flavorRef": "2","max_count": 1,"min_count": 1,"networks": [{"uuid": "00000000-0000-0000-0000-000000000000"}, {"uuid": "11111111-1111-1111-1111-111111111111"}, {"uuid": "7af32f1c-85de-44c5-be68-4b1465566683"}]}}&rdquo;
+           -d "{"server":{"name": "isol2","imageRef": "adb78bf4-81ae-4dce-a417-8eb2b7f7f0c3","os:scheduler_hints": {"public_ip_zone:near": 
+             ["96bbd712-0f64-4146-bfb2-b2bd91f20319"]
+           },
+           "flavorRef": "2",
+           "max_count": 1,
+           "min_count": 1,
+           "networks": 
+             [
+               {"uuid": "00000000-0000-0000-0000-000000000000"
+               }, 
+               {"uuid": "11111111-1111-1111-1111-111111111111"
+               }, 
+               {"uuid": "7af32f1c-85de-44c5-be68-4b1465566683"
+               }
+              ]
+            }
+          }&rdquo;
 
    *Response:*
    
@@ -213,7 +229,7 @@ Perform the following steps from your local computer.
 
    *Request:*
    
-      curl -s https://dfw.networks.api.rackspacecloud.com/v2.0/ports?network_id=00000000-0000-0000-0000-000000000000
+        curl -s https://dfw.networks.api.rackspacecloud.com/v2.0/ports?network_id=00000000-0000-0000-0000-000000000000
            -X GET
            -H "X-Auth-Token: $token" | python -m json.tool
 
@@ -278,7 +294,7 @@ Perform the following steps from your local computer.
 
    *Request:*
    
-      curl -s https://dfw.networks.api.rackspacecloud.com/v2.0/ip_addresses
+        curl -s https://dfw.networks.api.rackspacecloud.com/v2.0/ip_addresses
            -X POST -H "Content-Type: application/json"
            -H "X-Auth-Token: $token"
            -d " {"ip_address":{"network_id": "00000000-0000-0000-0000-000000000000","port_ids": ["a1bb7074-9ccc-4bc0-991e-7847de374af3", "0b5a23ec-be78-4ea3-9251-b64444236c1d"],"tenant_id": "5831008","version": 4}}"
@@ -304,44 +320,50 @@ Perform the following steps from your local computer.
 
    *Request:*
    
-      curl -s https://dfw.networks.api.rackspacecloud.com/v2.0/ip_addresses
-           -X GET -H "Content-Type: application/json"
-           -H "X-Auth-Token: $token"
+      curl 
+        -s https://dfw.networks.api.rackspacecloud.com/v2.0/ip_addresses
+        -X GET -H "Content-Type: application/json"
+        -H "X-Auth-Token: $token"
 
    *Response:*
    
-      "ip_addresses": {[{
+        "ip_addresses": 
+          {
+            [
+              {
                "address": "2001:4801:787f:205:a8bb:ccff:fe00:108",
                "id": "068652fe-33e2-44b6-9ad3-c0362e5d7e18",
                "network_id": "00000000-0000-0000-0000-000000000000",
                "port_ids": [
                   "0b5a23ec-be78-4ea3-9251-b64444236c1d"
-               ],
-               "subnet_id": "e170e323-b232-4bd7-9d75-14d82546c5d6",
-               "tenant_id": "5831008",
-               "type": "fixed",
-               "version": 6
-            },
-            {
+            ],
+             "subnet_id": "e170e323-b232-4bd7-9d75-14d82546c5d6",
+             "tenant_id": "5831008",
+             "type": "fixed",
+             "version": 6
+              },
+              {
                "address": "10.183.232.82",
                "id": "59202862-7b4c-4bad-bcef-6c33dcfc29d7",
                "network_id": "11111111-1111-1111-1111-111111111111",
-               "port_ids": [
-                  "3d1269a5-090b-4fe7-b839-4dafc8b42425"
-               ],
+               "port_ids": 
+                 [
+                 "3d1269a5-090b-4fe7-b839-4dafc8b42425"
+                 ],
                "subnet_id": "d1c63a31-1501-46f2-aebf-992cdb5bf372",
                "tenant_id": "5831008",
                "type": "fixed",
                "version": 4
-            },
-            {
+                },
+              {
                "address": "10.23.233.31",
                "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
                "network_id": "00000000-0000-0000-0000-000000000000",
-               "port_ids": [
+               "port_ids": 
+                 [
                   "0b5a23ec-be78-4ea3-9251-b64444236c1d",
                   "a1bb7074-9ccc-4bc0-991e-7847de374af3"
-               ],
+                 ],
                "subnet_id": "535ca638-a358-4d02-8271-1e6f795f8a0c",
                "tenant_id": "5831008",
                "type": "shared",
@@ -372,7 +394,9 @@ Perform the following steps from your local computer.
 
    *Response:*
    
-      {"ip_association": {
+      {
+       "ip_association": 
+         {
             "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
             "address": "10.23.233.31"
          }
@@ -382,17 +406,18 @@ Perform the following steps from your local computer.
 
    *Request:*
 
-      curl -vv -s -k https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers/ffec9d55-2d54-4718-bc3a-0d47fb8c52c1/ip_associations/e201f500-6d57-4901-b7a0-3842a3a32207
-            -X PUT -H "Content-Type: application/json" <br>
-            -H "X-Auth-Token: $token"
+        curl -vv -s -k https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers/ffec9d55-2d54-4718-bc3a-0d47fb8c52c1/ip_associations/e201f500-6d57-4901-b7a0-3842a3a32207
+        -X PUT -H "Content-Type: application/json" <br>
+        -H "X-Auth-Token: $token"
 
    *Response:*
    
-      {"ip_association": {
+        {"ip_association": 
+          {
             "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
             "address": "10.23.233.31"
-         }
-      }
+          }
+        }
 
 ### Configure Apache2 and set up the heartbeat on the servers
 
@@ -402,9 +427,9 @@ indicates where to perform the step.
 1. (Master) Install Apache on the master server by running the following
    commands:
 
-    sudo apt-get update
-    sudo apt-get install heartbeat
-    sudo apt-get install apache2
+        sudo apt-get update 
+        sudo apt-get install heartbeat 
+        sudo apt-get install apache2
 
 2. (Master) Create the ***/etc/heartbeat/authkeys*** file on the master server
    and enter the following text. The contents are the same for the master server and the slave server. Substitute your own passphrase.
@@ -564,7 +589,7 @@ local computer. Each step indicates where to perform the step.
 3. (Local computer) Use SSH to connect to the master server by running the
    following command (substituting your username and your master server IP address):
 
-    ssh username@master_server_ip_address
+        ssh username@master_server_ip_address
 
 4. (Master) Find the gateway address by running the following command. Save
    the gateway address for future reference.
@@ -573,20 +598,20 @@ local computer. Each step indicates where to perform the step.
 
 5. (Master) Turn off the eth0 interface by running the following command:
 
-    sudo ifconfig eth0 down
+        sudo ifconfig eth0 down
 
 6. (Local computer) Use SSH to connect to the slave server by running the
    following command (substituting your username and your master server IP address):
-
-    ssh username@slave_server_ip_address
+   
+       ssh username@slave_server_ip_address
 
 7. (Local computer) After a few moments, browse to the shared IP address,
    which connects you to the slave server, by using a web browser with the shared IP address in the address bar. The browser displays the slave server's instance name.
 
 8. (Slave) Validate the eth0 interface configured with shared IP address on
    the slave server by running the following command:
-
-      sudo ifconfig
+   
+        sudo ifconfig
 
    *Response:*
 
