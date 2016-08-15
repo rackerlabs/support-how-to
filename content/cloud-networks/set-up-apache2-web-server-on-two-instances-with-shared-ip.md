@@ -301,26 +301,29 @@ Perform the following steps from your local computer.
 
    *Response:*
    
-      {"ip_address": {
-            "subnet_id": "535ca638-a358-4d02-8271-1e6f795f8a0c",
-            "version": 4,
-            "address": "10.23.233.31",
-            "network_id": "00000000-0000-0000-0000-000000000000",
-            "tenant_id": "5831008",
-            "port_ids": [
-               "a1bb7074-9ccc-4bc0-991e-7847de374af3",
-               "0b5a23ec-be78-4ea3-9251-b64444236c1d"
-            ],
-            "type": "shared",
-            "id": "e201f500-6d57-4901-b7a0-3842a3a32207"
-         }
-      }
+        {
+          "ip_address": 
+            {
+              "subnet_id": "535ca638-a358-4d02-8271-1e6f795f8a0c",
+              "version": 4,
+              "address": "10.23.233.31",
+              "network_id": "00000000-0000-0000-0000-000000000000",
+              "tenant_id": "5831008",
+              "port_ids": 
+                [
+                 "a1bb7074-9ccc-4bc0-991e-7847de374af3",
+                 "0b5a23ec-be78-4ea3-9251-b64444236c1d"
+                ],
+              "type": "shared",
+              "id": "e201f500-6d57-4901-b7a0-3842a3a32207"
+             }
+        }
 
 3. Confirm that both server ports share the IP address.
 
    *Request:*
    
-      curl 
+        curl 
         -s https://dfw.networks.api.rackspacecloud.com/v2.0/ip_addresses
         -X GET -H "Content-Type: application/json"
         -H "X-Auth-Token: $token"
@@ -331,16 +334,17 @@ Perform the following steps from your local computer.
           {
             [
               {
-               "address": "2001:4801:787f:205:a8bb:ccff:fe00:108",
-               "id": "068652fe-33e2-44b6-9ad3-c0362e5d7e18",
-               "network_id": "00000000-0000-0000-0000-000000000000",
-               "port_ids": [
-                  "0b5a23ec-be78-4ea3-9251-b64444236c1d"
-            ],
-             "subnet_id": "e170e323-b232-4bd7-9d75-14d82546c5d6",
-             "tenant_id": "5831008",
-             "type": "fixed",
-             "version": 6
+                "address": "2001:4801:787f:205:a8bb:ccff:fe00:108",
+                "id": "068652fe-33e2-44b6-9ad3-c0362e5d7e18",
+                "network_id": "00000000-0000-0000-0000-000000000000",
+                "port_ids": 
+                  [
+                    "0b5a23ec-be78-4ea3-9251-b64444236c1d"
+                  ],
+                "subnet_id": "e170e323-b232-4bd7-9d75-14d82546c5d6",
+                "tenant_id": "5831008",
+                "type": "fixed",
+                "version": 6
               },
               {
                "address": "10.183.232.82",
@@ -348,7 +352,7 @@ Perform the following steps from your local computer.
                "network_id": "11111111-1111-1111-1111-111111111111",
                "port_ids": 
                  [
-                 "3d1269a5-090b-4fe7-b839-4dafc8b42425"
+                   "3d1269a5-090b-4fe7-b839-4dafc8b42425"
                  ],
                "subnet_id": "d1c63a31-1501-46f2-aebf-992cdb5bf372",
                "tenant_id": "5831008",
@@ -368,55 +372,66 @@ Perform the following steps from your local computer.
                "tenant_id": "5831008",
                "type": "shared",
                "version": 4
-            },
-            {
+              },
+              {
                "address": "10.23.233.89",
                "id": "f2263b79-221d-46c0-9436-2b4bf98df227",
                "network_id": "00000000-0000-0000-0000-000000000000",
-               "port_ids": [
+               "port_ids": 
+                 [
                   "a1bb7074-9ccc-4bc0-991e-7847de374af3"
-               ],
+                 ],
                "subnet_id": "535ca638-a358-4d02-8271-1e6f795f8a0c",
                "tenant_id": "5831008",
                "type": "fixed",
                "version": 4
-            }
-         ]
-      }
+              }
+            ]
+          }
 
 4. Associate the shared IP address with the master server.
 
    *Request:*
    
-      curl -vv -s -k https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers/96bbd712-0f64-4146-bfb2-b2bd91f20319/ip_associations/e201f500-6d57-4901-b7a0-3842a3a32207
-           -X PUT -H "Content-Type: application/json"
-           -H "X-Auth-Token: $token"
+        curl 
+          -vv 
+          -s 
+          -k 
+          https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers/96bbd712-0f64-4146-bfb2-b2bd91f20319/ip_associations/e201f500-6d57-4901-b7a0-3842a3a32207
+          -X PUT -H "Content-Type: application/json"
+          -H "X-Auth-Token: $token"
 
    *Response:*
    
-      {
-       "ip_association": 
-         {
-            "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
-            "address": "10.23.233.31"
-         }
-      }
+        {
+         "ip_association": 
+           {
+             "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
+             "address": "10.23.233.31"
+           }
+        }
 
 5. Associate the shared IP address with the slave server.
 
    *Request:*
 
-        curl -vv -s -k https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers/ffec9d55-2d54-4718-bc3a-0d47fb8c52c1/ip_associations/e201f500-6d57-4901-b7a0-3842a3a32207
-        -X PUT -H "Content-Type: application/json" <br>
-        -H "X-Auth-Token: $token"
+        curl 
+          -vv 
+          -s 
+          -k 
+          https://dfw.servers.api.rackspacecloud.com/v2/5831008/servers/ffec9d55-2d54-4718-bc3a-0d47fb8c52c1/ip_associations/e201f500-6d57-4901-b7a0-3842a3a32207
+          -X PUT 
+          -H "Content-Type: application/json" <br>
+          -H "X-Auth-Token: $token"
 
    *Response:*
    
-        {"ip_association": 
-          {
-            "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
-            "address": "10.23.233.31"
-          }
+        {
+          "ip_association": 
+            {
+              "id": "e201f500-6d57-4901-b7a0-3842a3a32207",
+              "address": "10.23.233.31"
+            }
         }
 
 ### Configure Apache2 and set up the heartbeat on the servers
