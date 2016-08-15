@@ -5,8 +5,8 @@ title: Cloud Networks FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Sameer Satyam
-last_modified_date: '2016-07-25'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-08-15'
+last_modified_by: Stephanie Fillmon
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -259,7 +259,6 @@ Vyatta appliance.
 
 Because cloud servers come with a fixed public IPv4 address you can remove the fixed IP address and replace it with a floating IP address. If you want to keep the fixed IP address in addition to using the floating IP address, then you must configure the  server to handle traffic appropriately. For details about how to do this, see the API and How-To documentation.
 
-
 #### What are the features limitations for EA?
 
  - Floating IP addresses are intended to work only with Next Gen Cloud Servers. Floating IP addresses do not work with other products such as OnMetal, Cloud Load Balancers, and RackConnect v3.0.
@@ -267,3 +266,65 @@ Because cloud servers come with a fixed public IPv4 address you can remove the f
  - The quota is limited to 5 floating IP addresses per tenant. Quotas will be raised during Limited Availability and later.
  - There is no support for floating IP addresses in the Cloud Control Panel.
  - Currently, the feature supports only IPv4.
+
+### Shared IP
+
+#### What is a shared IP?
+
+A shared IP allows for active/passive high availability platforms to share a single IP Address between two instances in our cloud. The IP then moves between the two instances based on instance state (up/down) through the configuration of a high availability protocol such as heartbeat or corosync. Active-standby applications can then achieve full redundancy in our cloud.  
+
+#### Where is the documentation?
+
+[Cloud Networks API Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+
+The Shared IP sections are:
+
+- [Concepts](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#shared-ip-addresses)
+
+- [API operations](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/shared-ip-address-operations)
+
+- [Getting started](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#sharing-ip-address-between-servers)
+
+#### What features are supported for LA?
+
+The LA release supports the ability to create, associate, disassociate and delete shared IP addresses.  
+#### Is this feature supported for all Rackspace Cloud customers?  
+
+This feature is supported for cloud-only customers that have been approved for the Limited Availability (LA) program. Please contact your Account Manager or Rackspace Support to considered for LA access.
+
+#### Is this feature available from the Cloud Control Panel?
+
+We do not plan to provide Cloud Control Panel support for LA.
+
+#### Is there a limit on the number of shared IP addresses that a tenant can have?
+
+The default limit is 10 shared IP Addresses per tenant. A quota increase is currently not supported per tenant via a request, but we may support this in the future.   
+#### Which high availability protocols are supported?
+
+Some high availability protocols depend on an interface floating MAC address to move with the shared IP during an impacting event, i.e. activating the standby instance in a passive state. These protocols are not supported in our cloud, as our underlying data plane implementation doesn't support MACs moving between instances. Therefore, high availability protocols such as heartbeat, corosync and other similar protocols are favored to function in our cloud over protocols requiring a floating MAC address.  
+
+#### How is shared IP address different from a floating IP address?
+
+A shared IP address is used for active/passive high availability (HA), where one IP address is needed between two or more servers for the purpose of redundancy (active-standby). The IP address is owned by one of the servers at any given time, and clients or other servers use this IP address for communication with the HA pair.  
+
+Although a floating IP address can be used to solve the active/passive HA problem, it would require monitoring and API calls to achieve the same result. Thus, a shared IP address is the preferred method to solve the active/passive HA problem.  
+
+#### Can existing cloud servers’ public IP addresses be used as a shared IP address?
+
+No, the shared IP address is an additional public IP assigned to an instance port.  The existing public IP must also reside on each instance for the purpose of active-standby detection from high availability protocols such as heartbeat and corosync.  
+
+#### Are shared IP addresses supported for OnMetal users?
+
+No, shared IP addresses are currently supported only for virtual cloud servers.  
+
+#### Are shared IP addresses supported for RackConnect v3.0 users?
+
+No, shared IP addresses do not work with a RackConnect v3.0 cloud network.  
+
+#### Can we migrate FirstGen customer IPs to be shared IPs?
+
+Yes.
+
+#### Can I migrate First Gen customer IPs to be shared IPs?
+
+No. Please contact Rackspace for migration requests.
