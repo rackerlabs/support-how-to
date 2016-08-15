@@ -70,7 +70,7 @@ You can use rsync to connect the servers and transfer the data. The following st
 
 #### Other methods
 
-Besides rsync, you can transfer data from an existing server to a Rackspace server in a number of different ways. The following methods upload your existing data to Rackspace Cloud Files. After the data is uploaded, you can thn download and restore it on your new server.
+Besides rsync, you can transfer data from an existing server to a Rackspace server in a number of different ways. The following methods upload your existing data to Rackspace Cloud Files. After the data is uploaded, you can then download and restore it on your new server.
 
 -   **Use OpenStack Object Storage (swift)**
 
