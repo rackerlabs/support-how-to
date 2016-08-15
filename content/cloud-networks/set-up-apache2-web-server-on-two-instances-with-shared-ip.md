@@ -513,7 +513,7 @@ indicates where to perform the step.
 
 10. (Slave) Create the ***/etc/heartbeat/ha.cf*** file on the slave server and
    enter the following text. The lines with comments are the ones that have to be modified.
-
+   
    *File contents:*
    
         logfacility daemon
