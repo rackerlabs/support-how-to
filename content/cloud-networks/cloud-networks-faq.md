@@ -283,7 +283,7 @@ The Shared IP sections are:
 
 - [API operations](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/shared-ip-address-operations)
 
-- [Getting started](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#using-floating-ip-addresses)
+- [Getting started](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#sharing-ip-address-between-servers)
 
 #### What features are supported for LA?
 
