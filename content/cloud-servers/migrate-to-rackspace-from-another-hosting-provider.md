@@ -5,8 +5,8 @@ title: Migrate to Rackspace from another hosting provider
 type: article
 created_date: '2016-01-21'
 created_by: Nate Archer
-last_modified_date: '2016-01-21'
-last_modified_by: Nate Archer
+last_modified_date: '2016-08-15'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -60,7 +60,13 @@ existing server instance and Rackspace server instance.
 
     If necessary, install rsync:
 
+    **Debian/Ubuntu distributions:**
+
         apt-get install rsync
+
+    **Red Hat/CentOS distributions:**
+
+        yum install rsync
 
 3.  Use SSH to log in to your Rackspace server from your existing server.
     Generate an SSH key from your existing server if you have not done so
@@ -73,10 +79,12 @@ existing server instance and Rackspace server instance.
 
         ssh-copy-id 111.344.65.781
 
-5.  Copy your existing server files by using rsync. Replace the IP address after
-    `root@` with the IP address of your Rackspace cloud server.
+5.  Copy your existing server files by using rsync. Replace the IP address after `root@` with the IP address of your Rackspace cloud server.
+
+   **Note:** The following command should be adjusted to fit your specific situation. For example, you might need additional excludes or change the source and destination paths.
 
         rsync --exclude="/sys/*" --exclude="/proc/*" -aHSKDvz -e ssh / root@111.344.65.781:/media/xvda/
+
 
 #### Other methods
 
