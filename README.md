@@ -21,4 +21,12 @@ For more information see: https://one.rackspace.com/display/devdoc/How-To+suppor
 - Aug 8 - 12: Renée
 - Aug 15 - 19: Kyle
 - Aug 22 - 26: Stephanie
-- Aug 29 - Sep 2:Renée
+- Aug 29 - Sep 2: Renée
+- Sep 5 - 9: Renée
+- Sep 12 - 16:
+- Sep 19 - 23:
+- Sep 26 - 30:
+- Oct 3 - 7: Renée
+- Oct 10 - 14:
+- Oct 17 - 21:
+- Oct 24 - 28:
