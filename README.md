@@ -10,7 +10,6 @@ https://support.rackspace.com/how-to/
 
 ### How-to ninja support schedule
 
-For more information see: https://one.rackspace.com/display/devdoc/How-To+support+ninja
 
 - June 27 - July 1: Renée
 - July 4 - 8: Stephanie
