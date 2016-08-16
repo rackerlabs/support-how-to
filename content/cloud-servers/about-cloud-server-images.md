@@ -46,6 +46,8 @@ images:
 -   If the image process fails more than once and you're sure you haven't
     exceeded the image limits, contact Rackspace Support.
 
+-   **If you are using a boot from volume server, you cannot create an image of it**. You can, however, create snapshots and clones of a boot from volume server.
+
 ### Limitations for Linux servers
 
 -   When an image creation is initiated, the system runs a process that
