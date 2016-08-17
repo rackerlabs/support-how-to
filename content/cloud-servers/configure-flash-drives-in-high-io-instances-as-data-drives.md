@@ -14,9 +14,11 @@ product_url: cloud-servers
 The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unformatted. Use the following steps to configure your flash cards for use as a data disk.
 
 1. Determine what devices are the PCIe block devices.
+
    **Note:** `lsblk -oNAME,MODEL #` devices listed with model `NWD-BLP*` or `XP6302*` are the high performance PCIe cards,
 
-2. Apply best SSD settings for each devices (sub DEVICENAME with name identified in step 1).
+2. Apply best SSD settings for each devices (sub DEVICENAME with name
+   identified in step 1).
 
         echo noop | sudo tee /sys/block/DEVICENAME/queue/scheduler
         echo 4096 | sudo tee /sys/block/DEVICENAME/queue/nr_requests
@@ -24,7 +26,8 @@ The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unform
         echo 1 | sudo tee /sys/block/DEVICENAME/queue/nomerges
         echo 512 | sudo tee /sys/block/DEVICENAME/device/queue_depth
 
-3. (*Optional*) Partition the created raid device if you prefer, or can create an FS directly.
+3. (*Optional*) Partition the created raid device if you prefer, or can create
+   an FS directly.
 
 4. Create an ext4 FS on it.
 
