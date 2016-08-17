@@ -14,7 +14,7 @@ product_url: cloud-servers
 The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unformatted. Use the following steps to configure your flash cards for use as a data disk.
 
 1. Determine what devices are the PCIe block devices.
-   *Note:* `lsblk -oNAME,MODEL #` devices listed with model `NWD-BLP*` or `XP6302*` are the high performance PCIe cards,
+   **Note:** `lsblk -oNAME,MODEL #` devices listed with model `NWD-BLP*` or `XP6302*` are the high performance PCIe cards,
 
 2. Apply best SSD settings for each devices (sub DEVICENAME with name identified in step 1).
 
