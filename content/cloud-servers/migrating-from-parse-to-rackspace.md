@@ -5,15 +5,15 @@ title: Migrating From Parse To Rackspace
 type: article
 created_date: '2016-03-25'
 created_by: Amanda Clark
-last_modified_date: '2016-07-26'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-08-17'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 This article assumes you have already migrated your database from Parse to ObjectRocket. If you have not, you can find more information [here.](https://objectrocket.com/parse)
 
-### Deploy the Parse Stack
+### Deploy the Parse stack
 
 From the [Cloud Control Panel](https://mycloud.rackspace.com), go to the **Orchestration** tab and click on **Stack Templates**. Select **Parse** from the list, then click **Create Stack**.
 
@@ -21,13 +21,13 @@ Or, [click here](https://mycloud.rackspace.com/cloud/servers#templates/orchestra
 
 On the Create Stack page, enter your Parse site domain and email address. Optionally, you can also add Git repository information and your custom code will be automatically pulled and installed on your server.  
 
-### Configure Your New Server
+### Configure your new server
 
 After the stack has been successfully created you will need to configure your database authentication information.
 
 1. Log on to the server via SSH either as `root` using the SSH key provided, or as `parse` using the password provided.
 
-  Additional information on the server login process can be found [here](how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) for Mac/Linux users or [here](how-to/connecting-to-linux-from-windows-by-using-putty) for Windows users.
+   Additional information on the server login process can be found [here](how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) for Mac/Linux users or [here](how-to/connecting-to-linux-from-windows-by-using-putty) for Windows users.
 
 2. After you have logged in to the primary server, modify `/home/parse/ecosystem.json` with your
    - MongoDB Connection String
@@ -73,17 +73,19 @@ Custom code will likely need to be modified before it will run successfully. You
 
 For debugging purposes, you can view the Parse logs at `/home/parse/.pm2/logs/`.
 
-### Configure Your Certificate
+### Install and configure your certificate
 
 After Parse is running, you can configure a valid certificate within NGINX by modifying `/etc/nginx/conf.d/<your_url>.conf`, where `<your_url>` is replaced with the URL you provided when you deployed your Parse stack.
 
-Validate your ssl certificate with the following command:
+**Note:** If you need help installing your SSL certificate, see NGINX's information on [SSL certificate chains](http://nginx.org/en/docs/http/configuring_https_servers.html#chains).
+
+Validate your SSL certificate by using the following command:
 
     nginx -t -c /etc/nginx/nginx.conf
 
 If you do not have a valid certificate, you can purchase one through Rackspace if you are hosting a physical server with us. Please contact your Account Manager or Rackspace Support with further questions.
 
-### Configure Your Parse Dashboard
+### Configure your Parse Dashboard
 
 This stack also comes with Parse Dashboard, which enables you to visualize all the Parse applications running on your server. The Dashboard is configured separately from `parse-server`, and the configuration file is located in `/home/parse/parse-dashboard-config.json`. You must configure your Application ID and Master Key in this file in order to use Parse Dashboard.  
 
