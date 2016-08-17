@@ -15,7 +15,7 @@ The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unform
 
 1. Determine what devices are the PCIe block devices.
 
-   **Note:** `lsblk -oNAME,MODEL #` devices listed with model `NWD-BLP*` or `XP6302*` are the high performance PCIe cards,
+   **Note:** Find the high performance PCIe cards by running `lsblk -oNAME, MODEL` and looking for devices listed with model `NWD-BLP* or XP6302*`.
 
 2. Apply best SSD settings for each devices (sub DEVICENAME with name
    identified in step 1).
