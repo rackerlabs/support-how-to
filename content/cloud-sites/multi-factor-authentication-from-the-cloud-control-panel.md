@@ -1,7 +1,7 @@
 ---
 permalink: multi-factor-authentication-from-the-cloud-control-panel/
 audit_date:
-title: Multi-factor authentication from the Cloud Control Panel
+title: Multi-factor authentication from the MyRackspace Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
