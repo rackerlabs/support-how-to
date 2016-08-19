@@ -27,8 +27,7 @@ account:
     your phone, notebook, or other digital device.
 
 You can add multi-factor authentication by updating your account
-settings in the [Rackspace Cloud Control Panel](https://my.rackspace.com). After you pair a device with
-your account, authentication becomes a two-step process:
+settings in the [Rackspace Cloud Control Panel](https://my.rackspace.com). After you pair a device with your account, authentication becomes a two-step process:
 
 1.  Each time you log in, the Rackspace authentication service generates
     a passcode and sends it to the associated device.
@@ -114,23 +113,23 @@ device. The device must be enabled to receive SMS text messages.
 5.  On the Register SMS Device form, select the country code for the
     device, and then type the device phone number. Click **Add
     SMS Device.**
-    
-    <img src="{% asset_path  cloud-sites/multi-factor-authentication-myrackspace-control-panel/Add-SMS-device1.png%}" alt="Add SMS device." /> 
+
+    <img src="{% asset_path  cloud-sites/multi-factor-authentication-myrackspace-control-panel/Add-SMS-device1.png%}" alt="Add SMS device." />
 
 6.  After you click **Add SMS Device**, the Identity service sends an SMS
     text message with a four-digit PIN to the specified phone.
-    
-    <img src="{% asset_path cloud-sites/multi-factor-authentication-myrackspace-control-panel/add-sms-device2.png%}" alt="Add SMS device second image."/> 
+
+    <img src="{% asset_path cloud-sites/multi-factor-authentication-myrackspace-control-panel/add-sms-device2.png%}" alt="Add SMS device second image."/>
 
 7.  On the Verify Code form in the control panel, type the PIN code sent
     to your mobile device in the verification code field. Then, click
     **Verify SMS Device**.
-      
+
     After you submit the verification code, the Cloud Control Panel
     login page is displayed so that you can re-authenticate by using the
     multi-factor authentication process.
-    
-    
+
+
 
 ### Configure your account to authenticate by using an OTP device
 
@@ -151,30 +150,30 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
 
 4.  In the **Multi-factor Authentication Mobile Passcode** field, click
     **Add**.
-    
+
     <img src="{% asset_path cloud-sites/multi-factor-authentication-myrackspace-control-panel/mobile-passcode1.png  %}" alt="Mobile passcode 1" />
-    
+
     <img src="{% asset_path cloud-sites/multi-factor-authentication-myrackspace-control-panel/mobile-passcode2.png  %}" alt="Mobile passcode 2" />
 
-5.  On the Name of your Device form, type a **Device nickname** for
+5. On the Name of your Device form, type a **Device nickname** for
     the OTP device. Then, click **Add Device.**
 
     After you click **Add Device**, the Identity service generates a
     barcode that you can use to link your Rackspace Cloud account with
     an OTP device.
-    
+
     <img src="{% asset_path cloud-sites/multi-factor-authentication-myrackspace-control-panel/otp-device.png %}" alt="OTP device" />
 
-6.  To pair your Rackspace Cloud account with your device, use the OTP
-    client application on your device to scan the barcode on the Verify
-    Code form.
+6. To pair your Rackspace Cloud account with your device, use the OTP
+   client application on your device to scan the barcode on the Verify
+   Code form.
 
-    After you scan the code, the OTP application on your device creates
-    the OTP device using the device name you specified. It also
+   After you scan the code, the OTP application on your device creates
+   the OTP device using the device name you specified. It also
     generates a passcode.
 
 7.  To verify the new device, enter the passcode on the Verify
-    Code form. Then, click **Verify Mobile Passcode**.
+   Code form. Then, click **Verify Mobile Passcode**.
 
     After you submit the verification code, you are automatically logged out.
 
@@ -238,7 +237,7 @@ authentication**
     following one:
 
     <img src="{% asset_path cloud-sites/multi-factor-authentication-myrackspace-control-panel/set-accout-user-policy.png %}" %}" alt="Set accout user policy." />
-    
+
     When these users log back in, they are guided through the
     multi-factor authentication set up.
 
@@ -268,12 +267,12 @@ To log in to the Rackspace Cloud with multi-factor authentication
 
 1. Log in to the [MyRackspace Control Panel](https://my.rackspace.com/) with
    your user name and password.
-   
+
    If your account is configured to use multi-factor authentication with
    an SMS device, the Rackspace Cloud Identity service sends an SMS
    text message with a 7-digit passcode to the device registered to
    your account.
-   
+
    If your device is configured to use multi-factor authentication by
    OTP device, open the OTP client application and get the passcode
    from the OTP device associated with your Rackspace Cloud account.
@@ -281,7 +280,7 @@ To log in to the Rackspace Cloud with multi-factor authentication
 2. When prompted, type the passcode in the **Passcode** field on the
    control panel. Then, click **Verify Code** to log in to your
    account:
-   
+
    If the passcode is expired or invalid, refresh the page to return to
    the Rackspace Cloud Control Panel login page. Then, log in again and
    click the Resend code option on the Account Settings page to get a
@@ -300,9 +299,9 @@ MyRackspace users can view and manage the multi-factor authentication configurat
 
 3.  In the sub-menu, click **My Multi-Factor Devices**.
 
-3. In the Login Details section, review the information in the **Multi-Factor Authentication** field.
+4. In the Login Details section, review the information in the **Multi-Factor Authentication** field.
 
-**To verify your device**
++**To verify your device**
 
 You can verify your SMS or OTP device from the Account Settings page.
 
@@ -369,35 +368,20 @@ your account.
 **Use the following information to resolve common issues that can occur
 when configuring and using multi-factor authentication.**
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td align="left"><strong><strong>Issue</strong></strong></td>
-<td align="left"><strong><strong>Resolution</strong></strong></td>
-</tr>
-<tr class="even">
-<td align="left"><h4 id="invalid-phone-number"><strong><strong><strong>Invalid phone number</strong></strong></strong></h4></td>
-<td align="left">If you get an error message when registering a phone number, verify that you have entered the correct country code and a valid phone number with no extra characters or spaces.</td>
-</tr>
-<tr class="odd">
-<td align="left"><h4 id="invalid-pin-when-verifying-device"><strong><strong><strong>Invalid PIN when verifying device</strong></strong></strong></h4></td>
-<td align="left"><p>When you try to verify a mobile device, you might receive an error caused by an invalid PIN. Confirm that you are entering the correct four-digit PIN that you received via SMS text message.  Ensure that you are using the mobile device that is paired with the Rackspace Cloud account.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><h4 id="locked-account"><strong><strong><strong>Locked account</strong></strong></strong></h4></td>
-<td align="left">If you enter an incorrect passcode more than six times during the multi-factor authentication process, your account will be locked. Contact Rackspace Support to restore access to a locked account. </td>
-</tr>
-<tr class="odd">
-<td align="left"><h4 id="cannot-link-cloud-account-in-myrackspace-with-multi-factor-enabled"><strong><strong><strong>Cannot link cloud account in MyRackspace with multi-factor enabled</strong></strong></strong></h4></td>
-<td align="left"><p>If you are using MyRackspace, you cannot link to an existing Rackspace Cloud account that has been enabled for multi-factor authentication.</p></td>
-</tr>
-<tr class="even">
-<td align="left"><h4 id="account-recovery"><strong><strong><strong>Account recovery</strong></strong></strong></h4></td>
-<td align="left"><p>If your account is configured for multi-factor authentication, and you do not have access to your device or your generated account recovery codes,  contact Rackspace Support.</p></td>
-</tr>
-</tbody>
-</table>
+| **Issue** | **Resolution** |
+| --- | --- |
+|
+#### **Invalid phone number**
+| If you get an error message when registering a phone number, verify that you have entered the correct country code and a valid phone number with no extra characters or spaces. |
+|
+#### **Invalid PIN when verifying device**
+ | When you try to verify a mobile device, you might receive an error caused by an invalid PIN. Confirm that you are entering the correct four-digit PIN that you received via SMS text message. Ensure that you are using the mobile device that is paired with the MyRackspace account. |
+|
+#### **Locked account**
+ | If you enter an incorrect passcode more than six times during the multi-factor authentication process, your account will be locked. Contact Rackspace Support to restore access to a locked account. |
+|
+#### **Cannot link cloud account in MyRackspace with multi-factor enabled**
+ | If you are using MyRackspace, you cannot link to an existing Rackspace Cloud account that has been enabled for multi-factor authentication. |
+|
+#### **Account recovery**
+ | If your account is configured for multi-factor authentication, and you do not have access to your device or your generated account recovery codes, contact Rackspace Support. |
