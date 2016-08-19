@@ -217,7 +217,7 @@ accounts until they add and verify a device on their account.
 **To configure account-wide settings for multi-factor
 authentication**
 
-1.  Log in to the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com/ "Cloud Control Panel").
+1.  Log in to the [MyRackspace Control Panel](https://my.rackspace.com/ "MyRackspace Control Panel").
 
 2.  Click **Account** and then, select **User List** from the menu.
 
