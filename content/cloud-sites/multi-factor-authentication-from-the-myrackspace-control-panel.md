@@ -1,5 +1,5 @@
 ---
-permalink: multi-factor-authentication-from-the-cloud-control-panel/
+permalink: multi-factor-authentication-from-the-myrackspace-control-panel/
 audit_date:
 title: Multi-factor authentication from the MyRackspace Control Panel
 type: article
