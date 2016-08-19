@@ -1,3 +1,15 @@
+- [Contributing to the Rackspace How-To content repository](#contributing-to-the-rackspace-how-to-content-repository)
+	- [Getting started with GitHub](#getting-started-with-github)
+		- [Create a fork of this repository](#create-a-fork-of-this-repository)
+		- [Keeping your fork up to date](#keeping-your-fork-up-to-date)
+	- [Creating and changing articles](#creating-and-changing-articles)
+		- [Create an article](#create-an-article)
+		- [Edit an article](#edit-an-article)
+		- [Make a change to a PR](#make-a-change-to-a-pr)
+		- [Request an article change](#request-an-article-change)
+	- [Writing guidelines](#writing-guidelines)
+	- [Support and feedback](#support-and-feedback)
+
 ## Contributing to the Rackspace How-To content repository
 
 This file describes the general process for maintaining source code for content published at [https://support.rackspace.com/how-to/](https://support.rackspace.com/how-to/).
