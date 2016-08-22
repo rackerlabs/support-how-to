@@ -78,20 +78,18 @@ device. The device must be enabled to receive SMS text messages.
 
 4.  In the **Multi-Factor Authentication SMS** field, click **Add**.
 
-4.  On the Register SMS Device form, select the country code for the
+5.  On the Register SMS Device form, select the country code for the
     device, and then type the device phone number. Click **Add
     SMS Device.**
 
     After you click **Add SMS Device**, the Identity service sends an SMS
     text message with a four-digit PIN to the specified phone.
 
-5.  On the Verify Code form in the control panel, type the PIN code sent
+6.  On the Verify Code form in the control panel, type the PIN code sent
     to your mobile device in the verification code field. Then, click
     **Verify SMS Device**.
 
-    After you submit the verification code, the Cloud Control Panel
-    login page is displayed so that you can re-authenticate by using the
-    multi-factor authentication process.
+    After you submit the verification code, the MyRackspace portal login page is displayed so that you can re-authenticate by using the multi-factor authentication process.
 
 ### Configure your account to authenticate by using an OTP device
 
@@ -224,7 +222,7 @@ authentication is a two-step process.
 
     If your device is configured to use multi-factor authentication by
     OTP device, open the OTP client application and get the passcode
-    from the OTP device associated with your Rackspace Cloud account.
+    from the OTP device associated with your MyRackspace account.
 
 2.  When prompted, type the passcode in the **Passcode** field on the
     login page. Then, click **Verify Code** to log in to your
