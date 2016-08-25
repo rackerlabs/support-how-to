@@ -3,8 +3,8 @@ title: Contribution class exercise
 type: practice
 created_date: '2016-05-25'
 created_by: Nate Archer
-last_modified_date: '2016-05-25'
-last_modified_by: Nate Archer
+last_modified_date: '2016-08-24'
+last_modified_by: Catherine Richardson
 product: undefined
 product_url: undefined
 ---
@@ -18,15 +18,17 @@ Answer each of the following questions by typing one of the answer options provi
 
 #### Was the training easy to understand?
 Yes
+Yes
 **Answer options**
-- Yes
+- Yes 
 - Somewhat
 - No
 
 
 
 #### How often do you think you will use the training?
-Never
+Somewhat Often
+Somewaht often
 **Answer options**
 - Often
 - Somewhat often
@@ -34,18 +36,21 @@ Never
 
 #### Would you recommend this training to others?
 Yes
+Yes
 **Answer options**
 - Yes
 - No
 
 #### Are you interested in taking an advanced level contribution class?
 Yes
+Yes
 **Answer options**
 - Yes
 - No
 
 #### Is there anything else you'd like to share about the training?
-Cool exercise
+Cool gateway to programming
+Knowing is half the battle
 **Answer options**
 - Open ended
 
