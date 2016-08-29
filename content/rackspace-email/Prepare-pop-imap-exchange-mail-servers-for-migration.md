@@ -1,5 +1,5 @@
 ---
-permalink: Prepare-pop-imap-exchange-mail-servers-for-migration/
+permalink: prepare-pop-imap-exchange-mail-servers-for-migration/
 audit_date:
 title: Prepare POP, IMAP, and Exchange mail servers for migration
 type: article
