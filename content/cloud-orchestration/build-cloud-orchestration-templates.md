@@ -5,7 +5,7 @@ title: Build Cloud Orchestration templates
 type: article
 created_date: '2016-10-09'
 created_by: Aaron Mehar
-last_modified_date: '2016-08-25'
+last_modified_date: '2016-08-29'
 last_modified_by: Nate Archer
 product: Cloud Orchestration
 product_url: cloud-orchestration
@@ -110,7 +110,7 @@ You can also use `description` within the parameters piece of the template.
 
 The following section provides some examples of HEAT templates for different use cases. Each template can be used for your own Orchestration templates by copying the examples into a text file then saving the file as a YAML file.
 
-**Note:** YAML requires the indentations be perserved for each example, in order for the template to be usable by the HEAT infrastructure.
+**Note:** YAML requires the indentations be preserved for each example, in order for the template to be usable by the HEAT infrastructure.
 
 #### Single server
 
@@ -127,7 +127,9 @@ resources:
       image: Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) (Orchestration)
 ```
 
-This template creates a `resource`, than specifies the name of the resource, `my_server`, and the type of `resource`, in this case an 'OpenStack Nova Server'. Then the `properties` of the server, such as the image and the flavour, are listed.
+This template specifies the name of the resource, `my_server`, and the type of `resource`, in this case an OpenStack Nova server or `OS::Nova::Server`. Then the `properties` of the server, such as the image and the flavour, are listed.
+
+**Note:** A `resource` can only be specified once.
 
 #### Multiple servers
 
@@ -149,11 +151,11 @@ resources:
           image: Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) (Orchestration)
 ```
 
-A resource group named `multi-server` allows the template to set properties for multiple servers. The `count` property indicates the number of servers  Then you create a cloud server, as would if you were only building one. Furthermore, resource groups require a special variable, `%index%`, to number the server names. The servers created in this example are `node-1` and `node-2`.
+A resource group named `multi-server` allows the template to set properties for multiple servers. The `count` property indicates the number of servers  Then you create a cloud server, as would if you were only building one. Furthermore, resource groups many an optional variable, `%index%`, to number the server names. The servers created in this example are `node-1` and `node-2`.
 
 #### Booting from volumes
 
-Use the following to boot from volumes.
+Use the following to boot from Cloud Block Storage volumes.
 
 ```
 heat_template_version: 2015-04-30
@@ -228,7 +230,7 @@ resources:
 
 The `instance_uuid` property dynamically receives information about a resource, since the UUID of the server you created will not be readily accessible until the server is created. You can use this to send the attachment request.
 
-### Attaching multiple cloud block storage volumes
+### Attaching multiple Cloud Block Storage volumes
 
 Use the following to create several Cloud Block Storage volumes, then attach them to one server using a resource group. You do not need to have a resource for each CBS volume.
 
@@ -321,7 +323,7 @@ resources:
 
 #### Cloud Load Balancers
 
-Because OpenStack does not have load balancers, we have a unique resource type called `Rackspace::Cloud::LoadBalancer`, specifically for Rackspace.
+Rackspace uses a unique resource type called `Rackspace::Cloud::LoadBalancer` for Cloud Load Balancers.
 
 ```
 heat_template_version: 2013-05-23
@@ -349,7 +351,7 @@ resources:
 
 #### Sharing IPs between load balancers
 
-Use the following to create a load balancer, and share that load balancer's IP with another load balancer. This is most commonly used for HTTP and HTTPS load balancers, so to achieve this in a template, you create your second load balancer, and pull in the IP from first one. This is achieve using the `get_attr` parameter.
+Use the following to create a load balancer, and share that load balancer's IP with another load balancer. This is most commonly used for HTTP and HTTPS load balancers, so to achieve this in a template, you create your second load balancer, and pull in the IP from first one. This is achieved using the `get_attr` parameter.
 
 ```
   load_balancer_2:
@@ -371,7 +373,7 @@ Use the following to create a load balancer, and share that load balancer's IP w
 
 In the template, you create a second load balancer and pull in an IP from the first load balancer using the `get_attr` parameter.
 
-In the proceeding example, an IP address is hard coded into the load balancer. However, if you are creating nodes in the same template, so you would not know the IP yet for the load balancer.
+In the proceeding example, an IP address is hard coded into the load balancer. However, if you are creating nodes in the same template, you would not know the IP yet for the load balancer.
 
 You can compensate for this by using `{ get_attr: [web_server, private_ip] }` which will retrieve the Private IP address for all the nodes under the `web_server` resource:
 
@@ -577,6 +579,6 @@ outputs:
 
 ### Intrinsic functions
 
-HEAT Orchestration provides a set of functions that can be used within a template. A list of these functions  can be found in the [HOT Spsec](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
+HEAT Orchestration provides a set of functions that can be used within a template. A list of these functions  can be found in the [HOT Spec](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
 
 If you have anymore questions regarding Orchestration, contact Rackspace support.
