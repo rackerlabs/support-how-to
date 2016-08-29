@@ -65,7 +65,7 @@ When migrating from Exchange, use the administrator credentials from your source
 
 #### Test Exchange server access
 
-We recommend testing access to your exchange server prior to migrating. The migration tool accesses the exchange server using the OWA URL. The URL should look similar to the following:
+We recommend testing access to your exchange server prior to migrating. The migration tool accesses the exchange server using the Outlook Web App(OWA) URL. The URL should look similar to the following:
 
 - https://mail.example.com/exchange
 - https://mail.example.com/owa
