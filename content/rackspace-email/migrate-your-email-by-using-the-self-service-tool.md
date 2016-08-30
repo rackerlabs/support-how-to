@@ -47,7 +47,7 @@ Perform the following steps before using the MigrationWiz tool.
 
 Remember, **DO NOT** cancel your source mail server service until you have confirmed with all users that they have their email data.
 
-For more information on the migration preparation required for POP, IMAP, and Exchange servers, read the article [Prepare for POP, IMAP, and Exchange mail servers for migration](/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/)
+**Important:**For more information on the migration preparation required for POP, IMAP, and Exchange servers, read the article [Prepare for POP, IMAP, and Exchange mail servers for migration](/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/)
 
 ### Create mailboxes
 
