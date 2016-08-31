@@ -56,8 +56,8 @@ your business.
   <tr>
     <td><strong>Operating system avilability</strong></td>
     <td>Red Hat Enterprise Linux<br>CentOS<br>Windows Server</td>
-    <td>Ubuntu<br>Debian<br>Red Hat Enterprise Linux<br>CentOS<br>Windows Server</td>
-    <td><strong>Linux distributions</strong><br>Arch<br>CentOS<br>CoreOS<br>Debian<br>Fedora<br>Gentoo<br>openSUSE<br>Red Hat Enterprise Linux<br>Scientific Linux<br>Ubuntu<br><br><strong>Other operating systems</strong><br>FreeBSD<br>Windows Server</td>
+    <td>Ubuntu<br>Debian<br>CentOS<br>Windows Server</td>
+    <td><strong>Linux distributions</strong><br>Arch<br>CentOS<br>CoreOS<br>Debian<br>Fedora<br>Gentoo<br>openSUSE<br>Scientific Linux<br>Ubuntu<br><br><strong>Other operating systems</strong><br>FreeBSD<br>Windows Server</td>
   </tr>
   <tr>
     <td><strong>Ticketing system, control panel</strong></td>
