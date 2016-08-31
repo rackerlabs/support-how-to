@@ -1,5 +1,5 @@
 ---
-permalink: building-cloud-orchestration-templates/
+permalink: build-cloud-orchestration-templates/
 audit_date: '2016-08-30'
 title: Building Cloud Orchestration templates
 type: article
@@ -48,7 +48,7 @@ The property `heat_template_version` tells Heat what version of the template to 
     heat_template_version: 2014-10-16
 
 
-#### Description 
+#### Description
 
 The `description` section provides the purpose of the template. Descriptions with multiple lines should be formatted like the following example:
 
@@ -57,7 +57,7 @@ The `description` section provides the purpose of the template. Descriptions wit
       have several lines, and include details of the template
       such 2 LBs, 2 WebServers, 1 DBaaS and Autoscale.
 
-Use a vertical line (|) or angle bracket (>) to indicate literal blocks with the line breaks preserved. The description for the template is displayed in the template list in the Cloud Control Panel. 
+Use a vertical line (|) or angle bracket (>) to indicate literal blocks with the line breaks preserved. The description for the template is displayed in the template list in the Cloud Control Panel.
 
 You can also use the `description` property within the parameters section of the template, as shown in the following example. See the "Parameters" section for more information.
 
@@ -103,11 +103,11 @@ The `parameters` section specifies the input parameters used to customize each d
         - CentOS 7 (PVHVM) (Orchestration)
         - Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) (Orchestration)
         description: Must be a supported operating system
-        
 
-#### Outputs and resources 
 
-Outputs are how you display information about the stack you created from your Orchestration templates. Output values are typically resolved using an intrinsic function such as the `get_attr` function. 
+#### Outputs and resources
+
+Outputs are how you display information about the stack you created from your Orchestration templates. Output values are typically resolved using an intrinsic function such as the `get_attr` function.
 
 Use the following example to display the IP address of a server and a load balancer, and to display the private SSH key generated in your template.
 
@@ -140,7 +140,7 @@ outputs:
           IP: { get_attr: [my_server, accessIPv4] }
 ```
 
-To get a list of available attributes, see the [list of resource types](http://docs.openstack.org/developer/heat/template_guide/openstack.html) 
+To get a list of available attributes, see the [list of resource types](http://docs.openstack.org/developer/heat/template_guide/openstack.html)
 
 #### Intrinsic functions
 
@@ -171,7 +171,7 @@ This template specifies `my_server` as the name of the resource and an OpenStack
 
 **Note:** A `resource` can be specified only once.
 
-#### Create multiple identical servers 
+#### Create multiple identical servers
 
 Use the following template to create two identical servers:
 
@@ -212,11 +212,11 @@ resources:
           volume_size: 50
 ```
 
-A few extra properties are needed in order to boot from volume: 
+A few extra properties are needed in order to boot from volume:
 
-- `block_device_mapping_v2` property is used to indicate a boot from volume. 
+- `block_device_mapping_v2` property is used to indicate a boot from volume.
 - `device_name` is always set to `vda` when booting from volume.  
-- `delete_on_termination` defines whether to delete the volume when the server is deleted. 
+- `delete_on_termination` defines whether to delete the volume when the server is deleted.
 
 Lastly, the image and the volume size are specified.
 
@@ -300,7 +300,7 @@ resources:
           instance_id: { get_resource: instance }
 ```
 
-Each volume requires its own `volume_attachment` resource which requires you to specify a child template, here called `volume_with_attachment.yaml`, in the resource definition. This file can be loaded remotely over HTTP or HTTPS. If you are using the HEAT CLI, then you can use a full path (`/home/user/heat/volume_with_attachment.yaml`), or a relative path (`volume_with_attachment.yaml`). 
+Each volume requires its own `volume_attachment` resource which requires you to specify a child template, here called `volume_with_attachment.yaml`, in the resource definition. This file can be loaded remotely over HTTP or HTTPS. If you are using the HEAT CLI, then you can use a full path such as `/home/user/heat/volume_with_attachment.yaml`, or a relative path `volume_with_attachment.yaml`.
 
 Use the following example for the `volume_with_attachment.yaml` file:
 
@@ -477,7 +477,7 @@ resources:
 
 #### Create a cloud database as a service
 
-Use this example template to create a database as a service (DBaaS) a database, a user for that database, and a database password. The database assignment for the user is a YAML list, so you can give that user access to multiple databases. 
+Use this example template to create a database as a service (DBaaS) a database, a user for that database, and a database password. The database assignment for the user is a YAML list, so you can give that user access to multiple databases.
 
 ```
 heat_template_version: 2013-05-23
