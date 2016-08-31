@@ -22,7 +22,7 @@ Heat Orchestration Templates (HOT) are written in a [YAML](http://yaml.org/) for
 
 ### Heat template format
 
-Templates are made up the parts shown in the following example. You can find more information about the template format in the [HOT specification](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html).
+Templates are made up of the parts shown in the following example. You can find more information about the template format in the [HOT specification](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html).
 
 
     heat_template_version: 2014-10-16
@@ -57,7 +57,7 @@ The `description` section provides the purpose of the template. Descriptions wit
       have several lines, and include details of the template
       such 2 LBs, 2 WebServers, 1 DBaaS and Autoscale.
 
-Use a vertical line (|) or angle bracket (>) to indicate literal blocks with line breaks preserved. The description for the template is displayed in the template list in the Cloud Control Panel. 
+Use a vertical line (|) or angle bracket (>) to indicate literal blocks with the line breaks preserved. The description for the template is displayed in the template list in the Cloud Control Panel. 
 
 You can also use the `description` property within the parameters section of the template, as shown in the following example. See the "Parameters" section for more information.
 
@@ -70,7 +70,7 @@ You can also use the `description` property within the parameters section of the
 
 #### Parameter groups
 
-The groups `parameter_groups` section specifies how the input parameters are grouped. Each parameter can be part of only one group.
+The `parameter_groups` section specifies how the input parameters are grouped. Each parameter can be part of only one group.
 
     parameter_groups:
       - label: Server Settings
@@ -111,8 +111,6 @@ Outputs are how you display information about the stack you created from your Or
 
 Use the following example to display the IP address of a server and a load balancer, and to display the private SSH key generated in your template.
 
-To get a list of available attributes, see the [list of resource types](http://docs.openstack.org/developer/heat/template_guide/openstack.html) 
-
 ```
 outputs:
   instance_ip:
@@ -142,9 +140,11 @@ outputs:
           IP: { get_attr: [my_server, accessIPv4] }
 ```
 
+To get a list of available attributes, see the [list of resource types](http://docs.openstack.org/developer/heat/template_guide/openstack.html) 
+
 #### Intrinsic functions
 
-Heat Orchestration provides a set of functions that can be used within a template. For a list of these functions, see the [HOT Spec](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
+Heat Orchestration provides a set of functions that can be used within a template. For a list of these functions, see the [HOT specification](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
 
 ### Example templates
 
@@ -167,7 +167,7 @@ resources:
       image: Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) (Orchestration)
 ```
 
-This template specifies `my_server` as the name of the resource and an OpenStack Nova server as the type of resource. Then the template lists the properties of the server, in this case, the image and the flavor.
+This template specifies `my_server` as the name of the resource and an OpenStack Nova server as the type of resource. Then the template lists the properties of the server. In this case, the properties listed are the server's flavor and image.
 
 **Note:** A `resource` can be specified only once.
 
@@ -212,7 +212,7 @@ resources:
           volume_size: 50
 ```
 
-A few extra properties are needed in order to boot from volume. 
+A few extra properties are needed in order to boot from volume: 
 
 - `block_device_mapping_v2` property is used to indicate a boot from volume. 
 - `device_name` is always set to `vda` when booting from volume.  
@@ -222,7 +222,7 @@ Lastly, the image and the volume size are specified.
 
 #### Boot multiple servers from a volume
 
-Use the following templates to boot multiple servers from the same volume:
+Use the following template to boot multiple servers from the same volume:
 
 ```
 heat_template_version: 2015-04-30
@@ -278,7 +278,7 @@ The `instance_uuid` property dynamically receives information about a resource, 
 
 #### Attach multiple Cloud Block Storage volumes
 
-Use the following template to create several Cloud Block Storage volumes an then attach them to one server by using a resource group. You do not need to have a resource for each CBS volume.
+Use the following template to create several Cloud Block Storage volumes and then attach them to one server by using a resource group. You do not need to have a resource for each CBS volume.
 
 ```
 heat_template_version: 2015-04-30
@@ -327,7 +327,7 @@ resources:
       instance_uuid: { get_param: instance_id }
 ```
 
-The  `instance_id` parameter passes from the parent template under properties `instance_id: { get_resource: instance }`. No value is defined in the child template because the value (in this case, the server UUID) passes from the parent template to the child template.
+The  `instance_id` parameter passes from the parent template under property `instance_id: { get_resource: instance }`. No value is defined in the child template because the value (in this case, the server UUID) passes from the parent template to the child template.
 
 #### Create a group of Cloud Block Storage volumes and servers
 
@@ -571,7 +571,7 @@ The `OS::Zaqar::Queue` resource type allows properties to name your queue and ad
 
 #### Use SSH keys
 
-Use the following  template if you are using Linux servers and want to use SSH keys:
+Use the following template if you are using Linux servers and want to use SSH keys:
 
 ```
 heat_template_version: 2013-05-23
