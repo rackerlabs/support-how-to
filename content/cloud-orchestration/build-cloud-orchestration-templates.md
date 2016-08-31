@@ -15,6 +15,32 @@ Rackspace Cloud Orchestration is based on the OpenStack® Heat project, which en
 
 This article explains the parts of an Orchestration template, and provides Orchestration templates for certain use cases. For more examples of Orchestration templates, read the [Orchestration templates user guide](https://developer.rackspace.com/docs/user-guides/orchestration/).
 
+- [How Heat templates work](#how-heat-templates-work)
+- [Heat template format](#heat-template-format)
+    - [Template Version](#template-version)
+    - [Description](#description)
+    - [Parameter groups](#parameter-groups)
+    - [Parameters](#parameters)
+    - [Outputs and resources](#outputs-and-resources)
+    - [Intrinsic functions](#intrinsic-functions)
+- [Example templates](#example-templates)
+    - [Create a single server](#create-a-single-server)
+    - [Create multiple identical servers](#create-multiple-identical-servers)
+    - [Boot a server from a volume](#boot-a-server-from-a-volume)
+    - [Boot multiple servers from a volume](#boot-multiple-servers-from-a-volume)
+    - [Attach a Cloud Block Storage volume](#attach-a-cloud-block-storage-volume)
+    - [Attach multiple Cloud Block Storage volumes](#attach-multiple-cloud-block-storage-volumes)
+    - [Create a group of Cloud Block Storage volumes and servers](#create-a-group-of-cloud-block-storage-volumes-and-servers)
+    - [Create a load balancer](#create-a-load-balancer)
+    - [Share IP addresses between load balancers](#share-ip-addresses-between-load-balancers)
+    - [Use Cloud Networks](#use-cloud-networks)
+    - [Create a cloud database as a service](#create-a-cloud-database-as-a-service)
+    - [Create a Cloud Files container](#create-a-cloud-files-container)
+    - [Create a domain in Cloud DNS](#create-a-domain-in-cloud-dns)
+    - [Create a cloud queue](#create-a-cloud-queue)
+    - [Use SSH keys](#use-ssh-keys)
+
+
 ### How Heat templates work
 
 Heat Orchestration Templates (HOT) are written in a [YAML](http://yaml.org/) format. Ansible provides a useful [YAML Syntax guide](http://docs.ansible.com/ansible/YAMLSyntax.html). The template is processed by the Heat engine which validates the template and then sends calls to each appropriate API endpoint in the correct order to complete the launch of your stack.
@@ -367,7 +393,7 @@ resources:
       instance_uuid: { get_resource: my_server }
 ```
 
-#### Create a load balancers
+#### Create a load balancer
 
 Rackspace uses a unique resource type called `Rackspace::Cloud::LoadBalancer` to create cloud load balancers.
 
@@ -553,7 +579,7 @@ resources:
       records: [ {"name": "domain.com", "data": 123.456.78.90 , "type": "A" }, {"name": "www.domain.com", "data": domain.com , "type": "CNAME" } ]
 ```
 
-####  Create a cloud queues
+####  Create a cloud queue
 
 Use the following template to create queue a Cloud Queues:
 
