@@ -1,5 +1,5 @@
 ---
-permalink: build-cloud-orchestration-templates/
+permalink: building-cloud-orchestration-templates/
 audit_date: '2016-08-30'
 title: Building Cloud Orchestration templates
 type: article
