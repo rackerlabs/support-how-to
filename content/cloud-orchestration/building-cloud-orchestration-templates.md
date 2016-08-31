@@ -5,7 +5,7 @@ title: Building Cloud Orchestration templates
 type: article
 created_date: '2016-10-09'
 created_by: Aaron Mehar
-last_modified_date: '2016-08-29'
+last_modified_date: '2016-08-31'
 last_modified_by: Nate Archer
 product: Cloud Orchestration
 product_url: cloud-orchestration
@@ -142,7 +142,7 @@ outputs:
           IP: { get_attr: [my_server, accessIPv4] }
 ```
 
-### Intrinsic functions
+#### Intrinsic functions
 
 Heat Orchestration provides a set of functions that can be used within a template. For a list of these functions, see the [HOT Spec](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
 
