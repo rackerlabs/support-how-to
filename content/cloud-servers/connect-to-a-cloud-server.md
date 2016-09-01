@@ -32,9 +32,9 @@ operating system:
 
 -   [Logging in to Your Server via RDP (Windows)](/how-to/log-in-to-your-server-via-rdp-windows)
 
-If you cannot use SSH or connect via RDP to access a your cloud server remotely, you still may
-access it using the [console in the Cloud Control Panel](/how-to/start-a-console-session).
-
 ### More information
+
+If you cannot connect to your cloud server remotely using SSH or RDP, you can
+access your server using the [console in the Cloud Control Panel](/how-to/start-a-console-session).
 
 For more information about working with Cloud Servers, see [Learn more about Cloud Servers](/how-to/learn-more-about-cloud-servers).
