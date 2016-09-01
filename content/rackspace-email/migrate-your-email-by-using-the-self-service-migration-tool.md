@@ -40,7 +40,7 @@ Perform the following actions before using the MigrationWiz tool.
 
 - Copy email from the source server so that no data is lost. Some email messages might be corrupt and not migrate. If you want to back up your mailbox locally, see the "Export data into a .PST file" section in the article, [Migrating Exchange to Exchange via Outlook](/how-to/migrating-exchange-to-exchange-via-outlook/).
 
-- Telll users and administrators of both your source and destination servers to refrain from changing their passwords during the migration process.
+- Tell users and administrators of both your source and destination servers to refrain from changing their passwords during the migration process.
 
 - Prepare users for reconfiguring Outlook, mail clients, and mobile devices, after the migration is complete. by reading [Email access options during an email migration](/how-to/email-access-options-during-an-email-migration/). For instructions specific to the users' needs, users can visit https://emailhelp.rackspace.com.
 
