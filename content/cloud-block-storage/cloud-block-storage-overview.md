@@ -5,8 +5,8 @@ title: Overview of Cloud Block Storage
 type: article
 created_date: '2012-10-22'
 created_by: Rackspace Support
-last_modified_date: '2016-06-06'
-last_modified_by: Nate Archer
+last_modified_date: '2016-09-01'
+last_modified_by: Kyle Laffoon
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
