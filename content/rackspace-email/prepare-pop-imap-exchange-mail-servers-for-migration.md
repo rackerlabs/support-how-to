@@ -61,12 +61,13 @@ Exchange migrations copy some of the email data stored on the source server, but
 - **Rackspace Email**: Inbox and sub-folders of the inbox are migration
 - **Hosted Exchange**: Inbox and subfolders of the inbox, contacts, calendars, task, and notes are migrated
 
-When migrating from Exchange, use the administrator credentials from your source server instead of individual usernames and passwords from each mailbox. For information about setting up your admin credentials on your Exchange source server, see this [reference page](https://community.bittitan.com/kb/Pages/How do I create an administrator account for login.aspx#) from BitTitan
+When migrating from Exchange, use the administrator credentials from your source server instead of individual usernames and passwords from each mailbox. For information about setting up your admin credentials on your Exchange source server, see this [reference page](https://community.bittitan.com/kb/Pages/How do I create an administrator account for login.aspx#) from BitTitan.
+
 #### Test Exchange server access
 
-We recommend testing access to your Exchange before prior to migrating. The migration tool accesses the exchange server using the Outlook Web App (OWA) URL. The URL should look similar to the following:
+We recommend testing access to your Exchange before migrating. The migration tool accesses the Exchange server by using the Outlook Web App (OWA) URL. The URL should look similar to the following:
 
 - https://mail.example.com/exchange
 - https://mail.example.com/owa
 
-To test access to the server using the OWA URL, enter the username (either the full email address or Exchange username) and password for the individual mailbox to log in. If you using admin credentials, you can enter these credentials then open another user's mailbox.
+To test access to the server by using the OWA URL, enter the username (either the full email address or Exchange username) and password for the individual mailbox to log in. If you use admin credentials, you can enter these credentials and then open another user's mailbox.
