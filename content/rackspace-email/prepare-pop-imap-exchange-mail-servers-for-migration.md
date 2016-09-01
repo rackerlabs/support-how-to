@@ -13,7 +13,7 @@ product_url: rackspace-email
 
 This article outlines important information to consider when you are migrating to Rackspace from one of the most common types of mail servers. Prior to migrating, we recommend that you review this information for your source (current) mail server.
 
-After you have reviewed this information, you can follow the steps in the article [Migrate your email by using the Self-Service tool](how-to/migrate-your-email-by-using-the-self-service-tool/) to complete your migration.
+After you have reviewed this information, you can follow the steps in the article [Migrate your email by using the Self-Service Migration tool](how-to/migrate-your-email-by-using-the-self-service-migration-tool/) to complete your migration.
 
 ### POP server
 
