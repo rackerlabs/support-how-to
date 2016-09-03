@@ -83,7 +83,7 @@ The `description` section provides the purpose of the template. Descriptions wit
       have several lines, and include details of the template
       such 2 LBs, 2 WebServers, 1 DBaaS and Autoscale.
 
-Use a vertical line or angle bracket (>) to indicate literal blocks with the line breaks preserved. The description for the template is displayed in the template list in the Cloud Control Panel.
+Use a vertical line (\|)or angle bracket (>) to indicate literal blocks with the line breaks preserved. The description for the template is displayed in the template list in the Cloud Control Panel.
 
 You can also use the `description` property within the parameters section of the template, as shown in the following example. See the "Parameters" section for more information.
 
@@ -100,16 +100,16 @@ The `parameter_groups` section specifies how the input parameters are grouped. E
 
     parameter_groups:
       - label: Server Settings
-    parameters:
-      - srv_flavour
-      - srv_image
-      - srv_key
+        parameters:
+        - srv_flavour
+        - srv_image
+        - srv_key
 
-    label: Server Settings
-    parameters:
-      - db_flavour
-      - db_ram
-      - db_version
+      - label: Database Settings
+        parameters:
+        - db_flavour
+        - db_ram
+        - db_version
 
 
 #### Parameters
@@ -126,9 +126,9 @@ The `parameters` section specifies the input parameters used to customize each d
         default: CentOS 7 (PVHVM) (Orchestration)
       constraints:
         - allowed_values:
-        - CentOS 7 (PVHVM) (Orchestration)
-        - Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) (Orchestration)
-        description: Must be a supported operating system
+          - CentOS 7 (PVHVM) (Orchestration)
+          - Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) (Orchestration)
+          description: Must be a supported operating system
 
 
 #### Outputs and resources
@@ -577,7 +577,7 @@ Use the following template to create a domain in Cloud DNS and create records. N
 
 ####  Create a cloud queue
 
-Use the following template to create queue a Cloud Queues:
+Use the following template to create queue a Cloud Queue:
 
 
     heat_template_version: 2013-05-23
