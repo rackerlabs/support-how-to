@@ -14,13 +14,13 @@ https://support.rackspace.com/how-to/
 - Sep 5 - 9: Renée
 - Sep 12 - 16: Nate
 - Sep 19 - 23: Stephanie
-- Sep 26 - 30:
+- Sep 26 - 30:Kyle
 - Oct 3 - 7: Renée
 - Oct 10 - 14: Nate
-- Oct 17 - 21:
+- Oct 17 - 21:Kyle
 - Oct 24 - 28: Stephanie
 - Oct 31 - Nov 4: Nate
-- Nov 7 - 11:
+- Nov 7 - 11:Kyle
 - Nov 14 - 18:
 - Nov 21 - 25
-- Nov 28 - Dec 2:
+- Nov 28 - Dec 2:Kyle
