@@ -11,21 +11,16 @@ https://support.rackspace.com/how-to/
 ### How-to ninja support schedule
 
 
-- June 27 - July 1: Renée
-- July 4 - 8: Stephanie
-- July 11 -15: Nate
-- July 18 - 22: Kyle
-- July 25 - 29: Stephanie
-- Aug 1 - 5: Nate
-- Aug 8 - 12: Renée
-- Aug 15 - 19: Kyle
-- Aug 22 - 26: Stephanie
-- Aug 29 - Sep 2: Nate
 - Sep 5 - 9: Renée
-- Sep 12 - 16:
+- Sep 12 - 16: Nate
 - Sep 19 - 23: Stephanie
 - Sep 26 - 30:
 - Oct 3 - 7: Renée
-- Oct 10 - 14: 
+- Oct 10 - 14: Nate
 - Oct 17 - 21:
 - Oct 24 - 28: Stephanie
+- Oct 31 - Nov 4: Nate
+- Nov 7 - 11:
+- Nov 14 - 18:
+- Nov 21 - 25
+- Nov 28 - Dec 2:
