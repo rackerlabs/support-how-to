@@ -5,8 +5,8 @@ title: Install Active Directory Domain Services on Windows Server 2008 R2 Enterp
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-06-29'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-07'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -94,7 +94,7 @@ framework for Windows Server 2008 to become a DC and run AD DS. It does
 5.  On the Results page, after the role is successfully added,
     click **Close**.
 
-#### Enable the Remote Registry
+#### Enable Remote Management
 
 1.  Open the Server Manager window if it is not already
     open.
@@ -159,7 +159,7 @@ command prompt. Then, skip to step 4.
 
     The installation begins.
 
-   **Note:** If you want the server to restart automatically after the
+    **Note:** If you want the server to restart automatically after the
     installation is completed, select the **Reboot on completion** check
     box.
 
