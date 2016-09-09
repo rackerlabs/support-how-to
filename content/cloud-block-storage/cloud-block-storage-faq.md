@@ -5,8 +5,8 @@ title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-05-25'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-09-09'
+last_modified_by: Kyle Laffoon
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -52,7 +52,6 @@ Cloud Block Storage is an excellent option for you if you:
 
 You might not be a good fit for the Cloud Block Storage service if you:
 
--   Are leveraging First Generation Cloud Servers
 -   Are not comfortable with low-level system administration tasks, such
     as installing file systems, mounting and partitioning storage
     volumes, or installing your own applications on top of a raw storage
@@ -251,5 +250,3 @@ For your security, the used portions of the physical disk are
 overwritten with zeroes before the deleted volume's disk space is
 reallocated to the shared pool of disk resources. At this point, your
 data cannot be recovered and is not visible to other customers.
-
-

@@ -5,7 +5,7 @@ title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
-last_modified_date: '2016-08-12'
+last_modified_date: '2016-09-09'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -363,7 +363,7 @@ data storage space in one of two ways:
     Volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
 -   Migrate to a larger size server with more RAM, disk space,
     and vCPUs. For  more information on resizing, see [Changing the Size
-    of Your First Generation Cloud
+    of Your Cloud
     Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
 #### How many users go onto each machine?
@@ -416,8 +416,7 @@ There are different processes of resizes, as follows:
     powered on during the "Prep-Resize" step, and only powers down
     during the second step of the resize process.
 
-    This includes: First Generation Server resize up and resize down,
-    and Standard resize up.
+    This includes: Standard resize up.
 
 -   **Offline Resizes**: Power down as the first "Prep-Resize" step.
 
@@ -613,10 +612,7 @@ The maximum limits are as follows:
 
 #### When a Cloud Server is deleted how is the data removed from the host server?
 
--   First Generation Cloud Servers on xen classic use LVM storage. As
-    such, when a server is deleted it is scrubbed by writing 0's over
-    the partition.
--   Next Generation Cloud Servers use VHD storage. Once a server is
+-   Cloud Servers use VHD storage. Once a server is
     deleted the VHD is deleted, similar to the way you would do a rm
     command in Linux. When that is done the VHD is completely removed
     thus allowing another one to be created.
