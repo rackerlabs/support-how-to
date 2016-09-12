@@ -5,8 +5,8 @@ title: Start a Console session
 type: article
 created_date: '2012-03-27'
 created_by: Rackspace Support
-last_modified_date: '2016-07-08'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -22,8 +22,6 @@ As the administrator for your cloud servers, you might need to occasionally log 
 A terminal emulator window opens and displays your server's console. If you see a blank screen, hit Enter to bring up a login prompt or Windows desktop.
 
 If you get a security error message from Java, you might need to add the console URL to Java's security exceptions list.  For more information, see [How can I configure the Exception Site List?](http://java.com/en/download/faq/exception_sitelist.xml)
-
-**Note:** First-generation servers load a different version of the console with a reduced feature set.
 
 ### Working in the console
 

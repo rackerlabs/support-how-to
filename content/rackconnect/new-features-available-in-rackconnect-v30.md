@@ -5,7 +5,7 @@ title: New features available in RackConnect v3.0
 type: article
 created_date: '2014-08-25'
 created_by: Juan Perez
-last_modified_date: '2016-01-06'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
@@ -26,8 +26,7 @@ following tasks:
 
 RackConnect is based on and requires Rackspace Cloud Networks for
 cloud-side connectivity. Because of this, RackConnect is compatible only
-with the same types of cloud servers that Cloud Networks supports, which
-excludes first-generation cloud servers.
+with the same types of cloud servers that Cloud Networks supports.
 
 RackConnect has configuration options that can greatly improve security
 for your cloud servers environment, including support for servers built

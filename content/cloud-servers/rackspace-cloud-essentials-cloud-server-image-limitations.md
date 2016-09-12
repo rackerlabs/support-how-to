@@ -5,8 +5,8 @@ title: Rackspace Cloud Essentials - Cloud Server Image Limitations
 type: article
 created_date: '2011-08-05'
 created_by: Rackspace Support
-last_modified_date: '2016-07-08'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -47,16 +47,12 @@ there are a number of practical limitations in place:
     image if it's been properly prepared for use in the Rackspace
     open cloud.
 
-    **Note**: Image import is not available for the First-Generation
-    Cloud servers. All servers based on the OpenStack architecture can
+    **Note**: All servers based on the OpenStack architecture can
     have images exported and imported between accounts. For more
     information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
 
--   While you can download First-Generation cloud images and images
-    exported from the Rackspace open cloud, whether those images will
-    work in another cloud or in your local virtualization solution
-    depends upon the target cloud or local solution.  Consult your
-    vendor for details.
+-   While you can download images exported from the Rackspace open cloud,
+    whether those images will work in another cloud or in your local virtualization solution depends upon the target cloud or local solution.  Consult your vendor for details.
 
     **Note**: Not all images may be exported from the Rackspace open
     cloud.  For more information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
@@ -83,13 +79,7 @@ there are a number of practical limitations in place:
 
 ### Linux-specific limitations
 
--   On a First-Generation Linux Cloud Server current volume size cannot
-    be more than **250GB** and current inode usage should not be more
-    than 3 million. Exceeding those limits will cause an image request
-    to fail (though in most cases we can help you work around the
-    inode limit). You can check how much disk space you are currently
-    using by running the command "**df -h**", and your inode usage can
-    be viewed with "**df -i**". There are no limits on image disk size
+-   There are no limits on image disk size
     or inode usage for Standard Cloud Servers at this time. General
     Purpose and I/O servers cannot be built from images with system
     volumes larger than 40GB.
@@ -111,17 +101,8 @@ there are a number of practical limitations in place:
 
 ### Windows-specific limitations
 
--   On a First-Generation **Windows** Cloud Server, current ***or
-    previous*** disk usage cannot exceed **250GB**. Due to limitations
-    with the Windows filesystem, the underlying virtual hard disk cannot
-    shrink once it has expanded. Therefore, if you have resized your
-    server larger than 250GB, our Imaging system will not be able to
-    take an image of the server. We recommend taking an On-Demand image
-    of your configuration before you reach 250GB of data on a
-    first-generation Windows machine for this reason.  There are no
-    limits on image disk size for Standard Windows Cloud Servers at this
-    time. General Purpose and I/O servers cannot be built from images
-    with system volumes larger than 40GB.
+-   There are no limits on image disk size for Standard Windows Cloud
+    Servers at this time. General Purpose and I/O servers cannot be built from images with system volumes larger than 40GB.
 
 -   If you take an image of a Windows Cloud Server that is configured to
     be a Domain Controller (DC), you will be unable to restore from
