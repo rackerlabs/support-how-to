@@ -5,11 +5,13 @@ title: Manually configure Android devices for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-31'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
+last_modified_date: '2016-09-12'
+last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
 ---
+
+**Note:** Use the [Email Help Tool](https://emailhelp.rackspace.com/) for specific user and server information, as well as specific device instructions.
 
 The following steps are required to configure Microsoft Exchange 2013 on
 most Android devices:
@@ -22,19 +24,15 @@ and assign it to your email address.
 
     <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/1.%20Settings_2.png %}" width="217" height="386" />
 
-
 2.  Tap **Accounts and Sync** (**Accounts** on some devices).
 
     <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/2.%20Accounts%20and%20Sync_2.png %}" width="217" height="386" />
-
-
 
 3.  Tap on **Add**.
 
     <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/3.%20Add_2.png %}" width="217" height="386" />
 
-
-4.  Select **Exchange ActiveSync **(**Microsoft Exchange ActiveSync** on
+4.  Select **Exchange ActiveSync** (**Microsoft Exchange ActiveSync** on
     some devices).
 
     <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/4.%20Exchange%20ActiveSync_2.png %}" width="217" height="386" />
@@ -43,11 +41,13 @@ and assign it to your email address.
 
     <img src="{% asset_path exchange/manually-configure-android-devices-for-email-hosted-on-exchange-2013/5.%20Manual%20Setup_2.png %}" width="217" height="386" />
 
-
 6.  On the next page, add in the rest of the necessary information:
 
     -   Email address: your email address (for example, **test@example.org**)
-    -   Server Address: **mex06.emailsrvr.com**
+    -   Server Address: **mex06.emailsrvr.com** or **mex08.emailsrvr.com**.
+
+        **Note:** The [Email Help Tool](https://emailhelp.rackspace.com/) can help you decide which server address is appropriate for your device.
+
     -   Domain: (**Leave this blank**)
     -   Username: your email address again.
     -   Some devices may have the settings as domain\\username. On those
