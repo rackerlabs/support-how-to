@@ -5,7 +5,7 @@ title: 'Cloud Servers: How to articles & other resources'
 type: article
 created_date: '2012-07-24'
 created_by: Jerry Schwartz
-last_modified_date: '2016-09-09'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -63,7 +63,7 @@ articles:
 
 ### Learn About the OpenStack Compute Nova Project
 
-The next generation Rackspace Cloud Servers is powered
+The Rackspace Cloud Servers is powered
 by OpenStack's Compute Nova project. If you want to build
 your own OpenStack Compute Nova solution or dig into the details of the
 OpenStack project that powers Cloud Servers, check out:

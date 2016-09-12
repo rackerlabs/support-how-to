@@ -179,7 +179,7 @@ API documentation at <https://developer.rackspace.com/docs/>.
 
 ### Which products are currently RBAC-enabled?
 
--   [Next Generation Servers](/how-to/cloud-servers)
+-   [Cloud Servers](/how-to/cloud-servers)
 -   [Cloud Files](/how-to/cloud-files)
 -   [Cloud Databases](/how-to/cloud-databases)
 -   [Cloud Load Balancers](/how-to/cloud-load-balancers)

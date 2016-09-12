@@ -5,7 +5,7 @@ title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
-last_modified_date: '2016-09-09'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -251,7 +251,7 @@ per datacenter.
 
 #### Can I buy extra public IPs?
 
-Yes. For more information on the IP request process, see [Requesting Additional IPv4 Addresses for First and Next Generation Cloud Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
+Yes. For more information on the IP request process, see [Requesting Additional IPv4 Addresses for Cloud Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
 
 #### I would like to set up multiple servers from the same image. Can I do this?
 
@@ -371,7 +371,7 @@ data storage space in one of two ways:
 The number of customers on a Cloud Server host machine depends on the
 size of the customers' Cloud Servers, and the type of operating system.
 
-#### How does the CPU scheduling work on Standard Next Generation servers?
+#### How does the CPU scheduling work on Standard servers?
 
 **Note**: [General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers)
 have specific virtual CPU allocations, as detailed on the [Cloud Servers pricing page](http://www.rackspace.com/cloud/servers/pricing/). The

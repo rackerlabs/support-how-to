@@ -27,7 +27,7 @@ service.
 ### Permissions matrixes for RBAC
 
 -   [Permissions Matrix for Role-Based Access Control (RBAC)](/how-to/permissions-matrix-for-role-based-access-control-rbac)
--   [Permissions Matrix for Next Generation Cloud Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers)
+-   [Permissions Matrix for Cloud Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers)
 -   [Permissions Matrix for Cloud Files](/how-to/permissions-matrix-for-cloud-files)
 -   [Permissions Matrix for Cloud Databases](/how-to/permissions-matrix-for-cloud-databases)
 -   [Permissions Matrix for Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data)

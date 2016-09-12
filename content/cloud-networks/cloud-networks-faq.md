@@ -5,7 +5,7 @@ title: Cloud Networks FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Sameer Satyam
-last_modified_date: '2016-09-09'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Networks
 product_url: cloud-networks
@@ -263,7 +263,7 @@ Because cloud servers come with a fixed public IPv4 address you can remove the f
 
 #### What are the features limitations for EA?
 
- - Floating IP addresses are intended to work only with Next Gen Cloud Servers. Floating IP addresses do not work with other products such as OnMetal, Cloud Load Balancers, and RackConnect v3.0.
+ - Floating IP addresses are intended to work only with Cloud Servers. Floating IP addresses do not work with other products such as OnMetal, Cloud Load Balancers, and RackConnect v3.0.
  - You can't convert current public IPv4 addresses to floating IP addresses. You must provision a new floating IP address.
  - The quota is limited to 5 floating IP addresses per tenant. Quotas will be raised during Limited Availability and later.
  - There is no support for floating IP addresses in the Cloud Control Panel.

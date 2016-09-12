@@ -5,8 +5,8 @@ title: Rescue mode on Windows cloud servers
 type: article
 created_date: '2015-09-15'
 created_by: Richard Hinojosa
-last_modified_date: '2016-07-08'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -99,7 +99,7 @@ There is currently a known issue when a Windows cloud server is put into rescue 
 
 #### Resolve the ID conflict
 
-**Note**: This process has been tested on Next Gen Cloud Servers only.
+**Note**: This process has been tested on Cloud Servers only.
 
 1. With the server in rescue mode and the original system drive set online, open a command line.
 

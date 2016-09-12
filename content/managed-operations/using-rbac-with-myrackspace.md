@@ -5,8 +5,8 @@ title: Using RBAC with MyRackspace
 type: article
 created_date: '2013-07-30'
 created_by: Renee Rendon
-last_modified_date: '2016-06-22'
-last_modified_by: Nate Archer
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -43,7 +43,7 @@ Ted, and Val. Through the Cloud Control Panel, Rob sets up these users
 and grants them the following roles:
 
 -   Chris - admin role for Cloud Files
--   Ted - creator role for Next Gen Cloud Servers
+-   Ted - creator role for Cloud Servers
 -   Val - observer role for Cloud Load Balancers
 
 As a result, Bill and Alice retain their access to the linked Cloud
