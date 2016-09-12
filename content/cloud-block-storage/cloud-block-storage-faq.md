@@ -5,7 +5,7 @@ title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-09-09'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Block Storage
 product_url: cloud-block-storage
@@ -106,11 +106,6 @@ volume (if supported by your operating system).
 
 When you copy your data within the same data center via the internal
 ServiceNet network, there is no charge for bandwidth.
-
-#### Can a Cloud Block Storage volume be mounted to a first-generation Cloud Server or a Dedicated Server?
-
-No. Cloud Block Storage volumes are available to newer Cloud Servers
-platforms, but not first-generation Cloud Servers.
 
 #### When I am using a volume, how can I know how much space I have left?
 
