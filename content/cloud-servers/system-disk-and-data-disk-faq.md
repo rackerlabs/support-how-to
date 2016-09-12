@@ -39,8 +39,7 @@ retain information from the data disk(s)..
 
 ### What About Scaling and Resizing?
 
-Only first-generation and standard servers can be directly
-resized. Other servers can be scaled by either hosting your application
+Servers can be scaled by either hosting your application
 on a load-balanced cluster (horizontal scaling) or by recreating the
 server with a different server flavor.
 

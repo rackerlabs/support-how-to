@@ -51,11 +51,8 @@ there are a number of practical limitations in place:
     have images exported and imported between accounts. For more
     information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
 
--   While you can download First-Generation cloud images and images
-    exported from the Rackspace open cloud, whether those images will
-    work in another cloud or in your local virtualization solution
-    depends upon the target cloud or local solution.  Consult your
-    vendor for details.
+-   While you can download images exported from the Rackspace open cloud,
+    whether those images will work in another cloud or in your local virtualization solution depends upon the target cloud or local solution.  Consult your vendor for details.
 
     **Note**: Not all images may be exported from the Rackspace open
     cloud.  For more information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
