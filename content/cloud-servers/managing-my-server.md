@@ -5,8 +5,8 @@ title: Manage a Cloud Server
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-07-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -14,19 +14,6 @@ product_url: cloud-servers
 You can use the Cloud Control Panel to perform administrative tasks in as few clicks as
 possible. This article describes the different methods for performing server management
 tasks in the control panel.
-
-### Identifying server types
-
-Two types of servers can be listed on the Cloud Servers page in the control panel:
-
-- Next Generation Cloud Servers powered by OpenStack.
-- First Generation Cloud Servers, our legacy Cloud Server offering.
-
-For a comparison of the features of First and Next Generation Cloud Servers, see
-[Next-Generation Cloud Migration Considerations and Options](/how-to/next-generation-cloud-servers-migration-considerations-and-options).
-
-You can identify First Generation Cloud Servers in the control panel by the blue asterisk
-that follows the server name. You can also filter your servers by type in the left-hand side bar.
 
 ### Accessing server management tasks
 
