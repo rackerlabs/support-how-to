@@ -5,7 +5,7 @@ title: RackConnect FAQ
 type: article
 created_date: '2014-09-26'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
@@ -344,20 +344,6 @@ stack has been modified or iptables have been set to block all access
 the snapshot must have a clean SSH configuration that permits root
 login, with port 22 open in iptables, and accepts password
 authentication.
-
-#### Can I use first generation cloud server customer images with next generation cloud servers?
-
-The snapshot migration feature enables a Rackspace customer to take a
-snapshot of their eligible first generation cloud server and create a
-new next generation cloud server from that snapshot. With a few button
-clicks, a new next generation cloud server is up and running that is an
-exact copy, data-wise, of the first generation server. The new next generation cloud server has a new
-IP address, but you will experience no downtime.
-
-#### Can I migrate my first generation cloud servers to next generation cloud servers?
-
-An automated migration process will not be available upon launch,
-but we anticipate that one will be made available in the future.
 
 #### How do I retrieve the public IP address for a next generation cloud server that has been recently provisioned?
 

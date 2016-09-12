@@ -5,8 +5,8 @@ title: RackConnect v3.0 limitations
 type: article
 created_date: '2014-08-29'
 created_by: Juan Perez
-last_modified_date: '2014-11-17'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -57,7 +57,7 @@ A single cloud account cannot be associated with both a RackConnect v3.0 configu
 
 - IPv6 is not currently supported.
 
-- First Generation Cloud Servers are not supported. Next Generation Standard Cloud Servers are supported.
+- Standard Cloud Servers are supported.
 
 - Currently, PublicNet network interfaces are not supported. Optionally, a single network address translation (NAT) from a dedicated public IP address to a cloud server's cloud network IP address may be configured. This is also known as provisioning a public IP address to a RackConnect v3.0 cloud server.
 
