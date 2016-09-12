@@ -5,8 +5,8 @@ title: Sharing images in the Cloud Control Panel
 type: article
 created_date: '2015-01-29'
 created_by: Cloud Images
-last_modified_date: '2016-05-03'
-last_modified_by: Joe Savak
+last_modified_date: '2016-09-09'
+last_modified_by: Kyle Laffoon
 product: Cloud Images
 product_url: cloud-images
 ---
@@ -39,9 +39,6 @@ Following are example scenarios in which image sharing would be helpful:
     passed testing, you can create an image of that server in account T
     and share it with account P and then boot a server in the
     production account.
-
-**Note:** Image sharing is only available in Next Generation Cloud
-Servers. It is not available in First Generation Cloud Servers.
 
 ### Image sharing overview
 
@@ -190,7 +187,7 @@ cloud services in the ORD region may not be available to some
 customers. If you share an image with such a customer, the sharing will
 occur without error from your perspective. If the customer you are
 sharing an image with doesn't have cloud services in ORD, they will
-not see the image and won't be able to boot a server from the image. The customer can 
+not see the image and won't be able to boot a server from the image. The customer can
 resolve this issue by opening a support ticket to request ORD region access.
 
 A customer can tell if they don't have access to the ORD region by
@@ -282,7 +279,7 @@ following information before booting a server from a shared image:
     even dreamed of. So although you can expect support, you can't
     expect our support staff to know the intricacies of Exotic OS, for
     example, in the same way they know CentOS.
-    
+
 -   Verify that there are no strange users with login privileges in
     /**etc/passwd** and that there aren't any strange SSH keys
     preinstalled on the server.

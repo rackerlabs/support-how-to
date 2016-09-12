@@ -5,13 +5,13 @@ title: 'Cloud Servers: How to articles & other resources'
 type: article
 created_date: '2012-07-24'
 created_by: Jerry Schwartz
-last_modified_date: '2016-01-05'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-09-09'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### First Generation and Nova Cloud Servers:  How-To Articles & Other Resources
+### Nova Cloud Servers:  How-To Articles & Other Resources
 
 
 ### Documentation
