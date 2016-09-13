@@ -375,7 +375,7 @@ size of the customers' Cloud Servers, and the type of operating system.
 
 **Note**: [General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers)
 have specific virtual CPU allocations, as detailed on the [Cloud Servers pricing page](http://www.rackspace.com/cloud/servers/pricing/). The
-following information on CPU scheduling applies only to standard (for example, not General Purpose) Cloud Servers.
+following information on CPU scheduling applies to standard Cloud Servers only.
 
 For Windows images, each Cloud Server is assigned a number of virtual
 cores based on the size of the Cloud Server. The Standard 1 GB Cloud
