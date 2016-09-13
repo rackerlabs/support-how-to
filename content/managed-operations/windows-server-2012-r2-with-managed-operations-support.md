@@ -122,8 +122,9 @@ unlimited virtualization use rights. Customers who would have had to
 chose among Web, Standard and Enterprise editions can now simply select
 Standard edition.
 
-**Note**: Cloud customers will have access to Windows Server 2012 R2
-images through the Cloud Servers API and Control Panel.
+**Notes**:
 
-**Note**: MyRack is used by customers with dedicated servers and is the
-interface for RackConnect.
+- Cloud customers will have access to Windows Server 2012 R2 images through the Cloud Servers API
+  and Control Panel.
+
+- MyRack is used by customers with dedicated servers and is the interface for RackConnect.
