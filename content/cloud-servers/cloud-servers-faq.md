@@ -251,7 +251,7 @@ per datacenter.
 
 #### Can I buy extra public IPs?
 
-Yes. For more information on the IP request process, see [Requesting Additional IPv4 Addresses for Cloud Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
+Yes. For more information about the IP request process, see [Requesting Additional IPv4 Addresses for Cloud Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
 
 #### I would like to set up multiple servers from the same image. Can I do this?
 
