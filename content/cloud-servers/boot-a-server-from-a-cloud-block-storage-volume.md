@@ -5,8 +5,8 @@ title: Boot a server from a Cloud Block Storage volume
 type: article
 created_date: '2014-08-26'
 created_by: Trey Hoehne
-last_modified_date: '2016-06-10'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as "shelving," and improvements in managing and recovering from server outages.
 
-**Note:** You cannot boot first-generation or standard servers from a Cloud Block Storage volume. Standard servers support local boot systems only.
+**Note:** You cannot boot standard servers from a Cloud Block Storage volume. Standard servers support local boot systems only.
 
 ### Benefits
 

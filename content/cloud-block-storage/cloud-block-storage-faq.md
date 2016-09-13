@@ -107,11 +107,6 @@ volume (if supported by your operating system).
 When you copy your data within the same data center via the internal
 ServiceNet network, there is no charge for bandwidth.
 
-#### Can a Cloud Block Storage volume be mounted to a first-generation Cloud Server or a Dedicated Server?
-
-No. Cloud Block Storage volumes are available to newer Cloud Servers
-platforms, but not first-generation Cloud Servers.
-
 #### When I am using a volume, how can I know how much space I have left?
 
 You can verify a volume's capacity and available space using basic

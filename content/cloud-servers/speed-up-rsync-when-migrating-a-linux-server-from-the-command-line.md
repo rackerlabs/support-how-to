@@ -5,7 +5,11 @@ title: Speed up rsync when migrating a Linux server from the command line
 type: article
 created_date: '2011-06-23'
 created_by: Rackspace Support
+<<<<<<< HEAD
 last_modified_date: '2016-09-13'
+=======
+last_modified_date: '2016-09-12'
+>>>>>>> master
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -132,8 +136,11 @@ This unpredictability is particularly true for the final directory on Linux file
 
 The second uncertainty is that the final phase of a migration includes a rescue mode (downtime) component during which any files updated since the live rsync first phase began, are copied again. The length of the downtime depends on the size and number of updated files. Again, the rsync process cannot tell in advance how many updates applications like MySQL are writing to data files so it’s hard to predict how long this final 'rescue-mode rsync' copy will take.
 
+<<<<<<< HEAD
 The above applies to a typical manual migration process, which is similar to resizing a server on our first-generation Rackspace Cloud. Our Cloud changes the resize process to bring the server down for a single rsync, increasing downtime but also increasing the reliability of the sync.
 
+=======
+>>>>>>> master
 ### Summary
 
 If you know how your applications are using disk space and writing to files you may be able to judge how much time a migration will take longer than you would like and make preparations accordingly. At the very least, you should be able to use your new-found migration knowledge to better schedule migration to fit your timing requirements.
