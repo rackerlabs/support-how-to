@@ -35,7 +35,7 @@ More information about Rackspace data centers is located on the [Global Infrastr
 **Note:** Because Classic v1 and Cloud Servers have
 different architectures, they are not considered to be in the same
 region, even if they are in the same data center. For example, a Classic
-v1 and server that are both located in the DFW data
+v1 and Cloud server that are both located in the DFW data
 center are not in the same region.
 
 ### Region availability
