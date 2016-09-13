@@ -217,7 +217,7 @@ or to individual files on the drive. Save your Schedule as normal.
 #### What is Rackspace Cloud Block Storage?
 
 Rackspace Cloud Block Storage provides persistent block-level storage
-volumes for use with Rackspace next generation Cloud Servers. Volumes
+volumes for use with Rackspace Cloud Servers. Volumes
 can be created and deleted independently of the Cloud Servers they are
 attached to. Rackspace Cloud Block Storage customers can create volumes
 ranging from 50 GB for an SSD volume or 75 GB for a SATA volume up to 1

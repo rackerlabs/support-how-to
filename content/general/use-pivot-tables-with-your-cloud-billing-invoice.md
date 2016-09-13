@@ -5,8 +5,8 @@ title: Use pivot tables with your Cloud billing invoice
 type: article
 created_date: '2015-03-24'
 created_by: David Hendler
-last_modified_date: '2016-06-24'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -105,7 +105,7 @@ invoice
 the charge, such as:
 
   -   BigData Uptime
-  -   NG (next generation) Server Uptime
+  -   NG (previously next generation) Cloud Server Uptime
   -   Files BWOUT (bandwidth out)
 
 
