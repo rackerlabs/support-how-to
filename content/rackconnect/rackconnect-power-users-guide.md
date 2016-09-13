@@ -5,8 +5,8 @@ title: RackConnect Power Users Guide
 type: article
 created_date: '2012-11-09'
 created_by: Jonathan Hogue
-last_modified_date: '2016-01-06'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -66,10 +66,7 @@ accessible from your dedicated environment.
 
 ### How to decrease build times
 
-Use manual disk mode. The Rackspace Next Generation Cloud Servers API
-has an extension called `diskConfig` that enables you to control how the
-cloud server disk is partitioned when servers are created, rebuilt, or
-resized. There are two modes: manual and auto.
+Use manual disk mode. The Rackspace Cloud Servers API has an extension called `diskConfig` that enables you to control how the cloud server disk is partitioned when servers are created, rebuilt, or resized. There are two modes: manual and auto.
 
 -   Auto: The server is built with a single partition the size of the
     target disk. The file system is automatically adjusted to fit the

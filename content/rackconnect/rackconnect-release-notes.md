@@ -83,7 +83,7 @@ RackConnect.
 
 ### August 1, 2012
 
--   Added support for next generation Cloud Servers.
+-   Added support for Cloud Servers.
 
 ### July 02, 2012
 
@@ -106,9 +106,7 @@ RackConnect automation.
 is disabled, leading to an instance that does not have proper
 connectivity and thus fails RackConnect automation.
 
-**Affects:** Snapshots created from next generation Managed Operations
-Windows Servers where the Cloud Server from which the image is based was
-spun up before 9/6/12.
+**Affects:** Snapshots created from Managed Operations Windows Servers where the Cloud Server from which the image is based was spun up before 9/6/12.
 
 **Workaround:** Re-enable IPv6 on the base image before creating snapshots.
 See [http://support.microsoft.com/kb/929852](http://support.microsoft.com/kb/929852) for instructions.

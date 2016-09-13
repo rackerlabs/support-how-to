@@ -5,8 +5,8 @@ title: Prepare your Cloud Block Storage volume
 type: article
 created_date: '2012-10-21'
 created_by: David Hendler
-last_modified_date: '2016-06-06'
-last_modified_by: Nate Archer
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -248,8 +248,7 @@ Now the volume persists on the server after server restarts.
 ### Prepare your volume for use with a Windows server
 
 **Note**: In the examples in the procedure, a 100 GB volume is added to
-a Windows Server 2012 server. The steps are similar for all
-next-generation Windows cloud servers.
+a Windows Server 2012 server. The steps are similar for all Windows cloud servers.
 
 #### Remotely connect to your Server.
 
