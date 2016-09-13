@@ -21,7 +21,7 @@ of images available for your cloud account by using the
 API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server/list-images),
 or when you build a new cloud server in the [Cloud Control
 Panel](https://mycloud.rackspace.com/). RackConnect v3.0 is also
-compatible with all Cloud Servers flavors, including Standard and General Purpose flavors, as well as I/O, Compute, and Memory optimized flavors.
+compatible with the following Cloud Servers flavor types: Standard, General Purpose, and I/O, Compute, and Memory optimized.
 
 This enhanced image compatibility is possible because
 RackConnect v3.0 leverages the same underlying technology as Cloud
