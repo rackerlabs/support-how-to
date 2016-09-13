@@ -8,7 +8,6 @@ created_by: Rackspace Support
 last_modified_date: '2016-09-13'
 =======
 last_modified_date: '2016-09-12'
->>>>>>> master
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -138,7 +137,6 @@ The second uncertainty is that the final phase of a migration includes a rescue 
 The above applies to a typical manual migration process, which is similar to resizing a server on our first-generation Rackspace Cloud. Our Cloud changes the resize process to bring the server down for a single rsync, increasing downtime but also increasing the reliability of the sync.
 
 =======
->>>>>>> master
 ### Summary
 
 If you know how your applications are using disk space and writing to files you may be able to judge how much time a migration will take longer than you would like and make preparations accordingly. At the very least, you should be able to use your new-found migration knowledge to better schedule migration to fit your timing requirements.
