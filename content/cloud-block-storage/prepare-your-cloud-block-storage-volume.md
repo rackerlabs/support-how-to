@@ -248,7 +248,7 @@ Now the volume persists on the server after server restarts.
 ### Prepare your volume for use with a Windows server
 
 **Note**: In the examples in the procedure, a 100 GB volume is added to
-a Windows Server 2012 server. The steps are similar for all Windows cloud servers.
+a Windows Server 2012 server. The steps are similar for all next-generation Windows cloud servers.
 
 #### Remotely connect to your Server.
 
