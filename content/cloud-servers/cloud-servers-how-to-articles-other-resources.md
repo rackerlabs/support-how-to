@@ -63,7 +63,7 @@ articles:
 
 ### Learn About the OpenStack Compute Nova Project
 
-The Rackspace Cloud Servers is powered
+Rackspace Cloud Servers technology is powered
 by OpenStack's Compute Nova project. If you want to build
 your own OpenStack Compute Nova solution or dig into the details of the
 OpenStack project that powers Cloud Servers, check out:
