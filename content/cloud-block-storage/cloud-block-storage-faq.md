@@ -225,7 +225,7 @@ TB in size.
 
 #### How does Cloud Block Storage differ from the local storage available through Cloud Servers?
 
-Cloud Block Storage provides persistent data storage Cloud Servers. Persistent storage can exist independent of your server, even after the server has been deleted. The local storage bundled with Cloud Servers is ephemeral and exists only as long as the Cloud Server exists. When the server is deleted, so is its local storage.
+Cloud Block Storage provides persistent data storage for Cloud Servers. Persistent storage can exist independent of your server, even after the server has been deleted. The local storage bundled with Cloud Servers is ephemeral and exists only as long as the Cloud Server exists. When the server is deleted, so is its local storage.
 
 We recommend that you [unmount and detach Cloud Block
 Storage](/how-to/detach-and-delete-cloud-block-storage-volumes)
