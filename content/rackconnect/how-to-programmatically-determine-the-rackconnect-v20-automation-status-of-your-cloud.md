@@ -5,7 +5,7 @@ title: Programmatically determine the RackConnect v2.0 Automation status of your
 type: article
 created_date: '2012-10-02'
 created_by: Juan Perez
-last_modified_date: '2016-09-12'
+last_modified_date: '2016-09-13'
 last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
@@ -59,7 +59,7 @@ RackConnect:
 cloud server in a region that does not match your RackConnect
 configuration region.
 
-#### Obtaining the metadata information via the Next Generation Cloud Servers API (examples)
+#### Obtaining the metadata information via the Cloud Servers API (examples)
 
 **Authenticate and obtain an authentication token**
 

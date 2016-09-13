@@ -5,8 +5,8 @@ title: Windows Server 2012 R2 with Managed Operations support
 type: article
 created_date: '2012-10-09'
 created_by: Rae D. Cabello
-last_modified_date: '2016-01-21'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -123,8 +123,7 @@ chose among Web, Standard and Enterprise editions can now simply select
 Standard edition.
 
 **Note**: Cloud customers will have access to Windows Server 2012 R2
-images through the next generation Cloud Servers API and Control Panel.
+images through the Cloud Servers API and Control Panel.
 
 **Note**: MyRack is used by customers with dedicated servers and is the
 interface for RackConnect.
-

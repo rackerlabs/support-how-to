@@ -3,14 +3,14 @@ title: Cloud Block Storage
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-01-22'
-last_modified_by: Rackspace Support
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 permalink: /cloud-block-storage/
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
-<p class="lead" markdown="1">Cloud Block Storage lets you extend the storage capacity of your Rackspace Next Generation Cloud Servers&trade; and OnMetal&trade; Cloud Servers without needing to create a bigger server.</p>
+<p class="lead" markdown="1">Cloud Block Storage lets you extend the storage capacity of your Rackspace Cloud Servers&trade; and OnMetal&trade; Cloud Servers without needing to create a bigger server.</p>
 
 <hr />
 
