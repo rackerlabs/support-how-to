@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 Python-novaclient is a command-line client for controlling OpenStack
-cloud server instances.  Since Cloud Servers are based on OpenStack, python-novaclient will work with Cloud Servers as well. The client provides a bit more functionality than the control panel without needing to delve into the API directly.
+cloud server instances.  Because Cloud Servers are based on OpenStack, python-novaclient also works with Cloud Servers. The client provides a bit more functionality than the control panel without needing to delve into the API directly.
 
 We have installation instructions for Windows, Mac OS X, and Linux:
 
