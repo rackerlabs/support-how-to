@@ -45,17 +45,17 @@ Use the following steps to create a HA instance group.
 
    **Note:** You can specify networks only when you are creating the HA group. You can't enable public network access after the HA group is created.
 
-9.  In **Advanced Options**, select scheduled backup settings and IP addresses/ranges that are allowed to connect to your HA instance group.
+9.  In **Advanced Options**, select scheduled backup settings and IP addresses or ranges that are allowed to connect to your HA instance group.
 
-   By default, when an HA instance group is created, a [regular daily backup](/how-to/scheduled-backups-for-cloud-databases/) is scheduled for a random time and random day. In this section, you can specify the exact time for your daily backup and which day to take your weekly full backup. If no time or day is specified, a random time and day will be selected during creation that will then be used for all subsequent backups. Though not recommended, scheduled backups can also be disabled by unchecking the box next to where it says "Protect your data with Daily Scheduled Backups".
+    When an HA instance group is created, a [regular daily backup](/how-to/scheduled-backups-for-cloud-databases/) is scheduled. You can specify the exact day and time that your weekly daily backup is performed. If no time or day is specified, a random time and day will be selected during creation that will then be used for all subsequent backups. Though not recommended, scheduled backups can also be disabled by unchecking the box next to **Protect your data with Daily Scheduled Backups**.
 
-   Next, select which IP addresses/ranges you want to have access to your database. A major difference between single instances and HA  groups is that HA groups sit behind a load balancer with a firewall. That firewall is set to block all connections by default, so you must add allowed IP addresses or ranges by clicking the **Add IP Range** button. Both single IP addresses and IP address ranges in CIDR format are allowed.
+    When selecting which IP addresses or ranges you want to have access to your database, keep mind that a major difference between single instances and HA groups is that HA groups sit behind a load balancer with a firewall. That firewall blocks all connections by default. IP addresses or ranges are added clicking the **Add IP Range** button. Both single IP addresses and IP address ranges in CIDR format are allowed.
 
    <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/advanced-settings-with-backups.png %}" alt=" Backup settings and ACLs" />
 
    **Note:** You can't connect to your HA instance group without first setting up the allowed IP addresses or ranges here. You can also add or remove addresses and ranges after you have created the HA group.
 
-10.  When all selections are complete, click **Create HA Group**.
+11.  When all selections are complete, click **Create HA Group**.
 
    The total cost of the HA group is displayed to the right of the **Create HA Group** button.
 
@@ -76,7 +76,7 @@ Scheduled Backups | Lists the scheduled backup settings if enabled
 
 While the group is building, the **HA Group Status** is shown as `Building` and a `Loading` animation is shown in the **HA Group Networks** table.
 
-**Note:** While the HA group is in the `Building` state, the Scheduled Backups row may say "No Backup Scheduled" even if scheduled backups were enabled on the create screen. This information will be updated to reflect the actual schedule settings when the group transitions to the `Running` state.
+**Note:** While the HA group is in the `Building` state, the **Scheduled Backups** row may say "No Backup Scheduled" even if scheduled backups were enabled on the create screen. This information will be updated to reflect the actual schedule settings when the group transitions to the `Running` state.
 
 When the group has completed building, the **HA Group Status** value changes to `Running` and the **HA Group Networks** section shows the hostnames and ports that you can use to connect to the instance group. These hostnames will stay the same regardless of failovers and which instance is the master. The following is an example of a completed build.
 
