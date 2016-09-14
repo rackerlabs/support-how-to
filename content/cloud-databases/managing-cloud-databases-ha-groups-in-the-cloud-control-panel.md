@@ -1,5 +1,6 @@
 ---
 permalink: managing-cloud-databases-ha-groups-in-the-cloud-control-panel/
+audit_date:
 title: Managing Cloud Databases HA instance groups in the Cloud Control Panel
 type: article
 created_date: '2016-03-18'
@@ -36,21 +37,21 @@ Use the following steps to create a HA instance group.
 
 6.  In the **Build** section, select the amount of RAM and disk space you want *each instance* of your HA group to have. The master instance and each replica instance will be created with this same amount of RAM and disk space.
 
-7.  Also, in the **Build** section, select the **High-Availability Group** option next to **Instance Type**. Some new options are displayed.
+7.  Also, in the **Build** section, select the **High-Availability Group** option next to **Instance Type**. New options are displayed.
 
-8.  Perform the following actions:
-   - In the **HA Instances** section, which lists the master and replica instances, remove replicas by clicking the circle next to the last replica, or add a replica by selecting **+ Add another replica** beneath the list. Currently, HA groups support only 1 or 2 replicas.
-  - In the **Networks** section, select which networks the HA group can connect to. If you select **ServiceNet**, the group is accessible only on ServiceNet, like standard Cloud Databases instances. If you select **ServiceNet and Public**, the HA group is given two hostnames after creation: one accessible on ServiceNet and another accessible on the public Internet.
+8. In the **HA Instances** section, which lists the master and replica instances, remove replicas by clicking the circle next to the last replica, or add a replica by selecting **+ Add another replica** beneath the list. Currently, HA groups support only 1 or 2 replicas.
+
+9. In the **Networks** section, select which networks the HA group can connect to. If you select **ServiceNet**, the group is accessible only on ServiceNet, like standard Cloud Databases instances. If you select **ServiceNet and Public**, the HA group is given two hostnames after creation: one accessible on ServiceNet and another accessible on the public Internet.
 
    **Note:** You can specify networks only when you are creating the HA group. You can't enable public network access after the HA group is created.
 
 9.  In **Advanced Options**, select scheduled backup settings and IP addresses/ranges that are allowed to connect to your HA instance group.
 
    By default, when an HA instance group is created, a [regular daily backup](/how-to/scheduled-backups-for-cloud-databases/) is scheduled for a random time and random day. In this section, you can specify the exact time for your daily backup and which day to take your weekly full backup. If no time or day is specified, a random time and day will be selected during creation that will then be used for all subsequent backups. Though not recommended, scheduled backups can also be disabled by unchecking the box next to where it says "Protect your data with Daily Scheduled Backups".
-   
+
    Next, select which IP addresses/ranges you want to have access to your database. A major difference between single instances and HA  groups is that HA groups sit behind a load balancer with a firewall. That firewall is set to block all connections by default, so you must add allowed IP addresses or ranges by clicking the **Add IP Range** button. Both single IP addresses and IP address ranges in CIDR format are allowed.
 
-   <img src="NEW ADVANCED SETTINGS IMAGE" alt=" Backup settings and ACLs" />
+   <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/advanced-settings-with-backups.png %}" alt=" Backup settings and ACLs" />
 
    **Note:** You can't connect to your HA instance group without first setting up the allowed IP addresses or ranges here. You can also add or remove addresses and ranges after you have created the HA group.
 
@@ -79,7 +80,7 @@ While the group is building, the **HA Group Status** is shown as `Building` and 
 
 When the group has completed building, the **HA Group Status** value changes to `Running` and the **HA Group Networks** section shows the hostnames and ports that you can use to connect to the instance group. These hostnames will stay the same regardless of failovers and which instance is the master. The following is an example of a completed build.
 
-   <img src="NEW RUNNING PICTURE WITH SCHEDULE SET" alt="completed instances display running status" />
+   <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/details-page-with-schedule.png %}" alt="completed instances display running status" />
 
 The **HA Group Networks** section displays the following information:
 
