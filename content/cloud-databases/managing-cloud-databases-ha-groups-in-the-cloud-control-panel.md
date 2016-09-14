@@ -105,6 +105,6 @@ Farther down the Instance Details page, greater detail about the HA group master
 
    <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/managing-cloud-databases-instance-details-built-7.png %}" alt="completed images display running status" />
 
-An alternate way to make the modifications from the previous step is to use the Actions menu in the upper-right corner. The meu adds an additional action to delete the HA group.
+An alternate way to make the modifications from the previous step is to use the Actions menu in the upper-right corner. The menu adds an additional action to delete the HA group.
 
    <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/managing-cloud-databases-instance-details-gear-8.png %}" alt="make modifications by using the actions menu" />
