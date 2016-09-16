@@ -15,7 +15,7 @@ More than half of all deployment issues involves an inaccessible of downed websi
 
 **Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`.
 
-### Information to gather
+### Prerequisites
 
 Gather the following information before troubleshooting your downed site:
 
@@ -71,10 +71,10 @@ Gather the following information before troubleshooting your downed site:
 
 4. Run the `nmap` command on the IP address of your server. If port 80 is shown as `open` and utilizing `http`, move on the "Load the console" section.
 
-    # nmap abshier.com
+    # nmap website.com
      
     Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:23 UTC
-    Nmap scan report for abshier.com (104.130.8.75)
+    Nmap scan report for website.com (104.130.8.75)
     Host is up (0.0000060s latency).
     rDNS record for 104.130.8.75: elector
     Not shown: 997 closed ports
@@ -87,13 +87,58 @@ Gather the following information before troubleshooting your downed site:
 
   If port 80 shows as `closed` or `filtered`, make sure that the web service for your server is running and that port 80 is open on your server's firewall.
 
-    # nmap -Pn -p 443 abshier.com
+    # nmap -Pn -p 443 website.com
      
     Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
-    Nmap scan report for abshier.com (104.130.8.75)
+    Nmap scan report for website.com (104.130.8.75)
     Host is up (0.000052s latency).
     rDNS record for 104.130.8.75: elector
     PORT    STATE  SERVICE
     443/tcp closed https
      
     Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+
+### Testing your connection using your server's console
+
+Even if your website appears back online after performing the preceding steps, you need to test your websites connectivity using the console the cloud server that hosts your website. To access your server's console:
+
+1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com/).
+
+2. Click **Cloud Servers**.
+
+3. Click the gear next to the name of the server that hosts your website and select **Connect via Console**.
+
+Use the following to test your servers connectivity using the console:
+
+**For linux servers**
+
+Press **enter** to see if the server is responsive during the log in process. If the server is responsive, you should see the following login prompts each time you press **enter**.
+
+    CentOS Linux 7 (Core)
+    Kernel 3.10.0-327.22.2.e17.x86_64 on an x86_64
+ 
+    server-01 login:
+ 
+    CentOS Linux 7 (Core)
+    Kernel 3.10.0-327.22.2.e17.x86_64 on an x86_64
+ 
+    server-01 login:
+
+If you press **enter** you might receive an `Out of memory` error.
+
+    kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
+    kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
+
+If you receive this error:
+
+- Reboot your server and attempt to use the server's console again.
+
+- If the `Out of memory` error occurs again, determine whether you need to resize your server, or tweak your configuration for scalability.
+
+**For Windows servers**
+
+Use **CTRL ALT DELETE** to see if the server prompts your to login. If prompted to login, your server is powered on and active. Your website should be up and running.
+
+If using **CTRL ALT DELETE** switches the console to a blank screen, your server has likely crashed, reboot your server. If rebooting does not cause the login prompt to occur after opening up the console again, press **ESC**.
+
+**Note:** If you cannot connect to your Window's servers console at all, contact support to ensure that your host is not down.
