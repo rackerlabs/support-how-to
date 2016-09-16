@@ -5,8 +5,8 @@ title: About regions
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-05-19'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -32,10 +32,10 @@ Following is a list of available Rackspace regions:
 
 More information about Rackspace data centers is located on the [Global Infrastructure page](http://www.rackspace.com/about/datacenters/).
 
-**Note:** Because Classic v1 and Next Generation Cloud Servers have
+**Note:** Because Classic v1 and Cloud Servers have
 different architectures, they are not considered to be in the same
 region, even if they are in the same data center. For example, a Classic
-v1 and Next Generation server that are both located in the DFW data
+v1 and Cloud server that are both located in the DFW data
 center are not in the same region.
 
 ### Region availability

@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 [Managing RBAC](/how-to/managing-role-based-access-control-rbac)
 
-The RBAC permissions matrix displays the type of product roles that are available within each product. 
+The RBAC permissions matrix displays the type of product roles that are available within each product.
 
 Create, Read, Update, and Delete describes the permissions that are available in RBAC roles.
 
@@ -31,8 +31,7 @@ Additionally, there are Global Roles which apply access across all products. Tho
 
 Product | ADMIN (CRUD): Within specified product | CREATOR (CRU): Within specified product | OBSERVER: Read-only within specified product
 ------------------------- | :---: | :---: | :---: | :---: | :---:
-[Next Gen Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers) | **YES** | **YES** | **YES**
-[First Generation Servers](/how-to/permissions-matrix-for-first-generation-cloud-servers) | **YES** | **NO** | **YES**
+[Cloud Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers) | **YES** | **YES** | **YES**
 [Cloud Files](/how-to/permissions-matrix-for-cloud-files) | **YES** | **NO** | **YES**
 [Rackspace CDN](/how-to/permission-matrix-for-rackspace-cdn) | **YES** | **YES** | **YES**
 [Cloud Databases](/how-to/permissions-matrix-for-cloud-databases) | **YES** | **YES** | **YES**

@@ -5,13 +5,13 @@ title: Load Balancing Internal IPs in the same region
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-04-21'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-All Next Generation Cloud Servers automatically receive three IP
+All Cloud Servers automatically receive three IP
 addresses upon creation:
 
 -   A version 4 **IP Address** that provides public access

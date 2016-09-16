@@ -5,8 +5,8 @@ title: RackConnect 1.0 post-upgrade FAQ
 type: article
 created_date: '2012-08-23'
 created_by: Juan Perez
-last_modified_date: '2016-01-05'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -35,7 +35,7 @@ originally configured with RackConnect v1.0, you can disregard this article.
     means that changes in your cloud environment are picked up by
     RackConnect much faster, providing improved performance.
 
--   This upgrade enables you to use next generation cloud servers.
+-   This upgrade enables you to use cloud servers.
 
 #### What's the difference between this upgrade and the full RackConnect v2.0 feature set?
 

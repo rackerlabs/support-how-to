@@ -5,7 +5,7 @@ title: Cloud Networks FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Sameer Satyam
-last_modified_date: '2016-08-30'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Networks
 product_url: cloud-networks
@@ -257,23 +257,13 @@ Although a floating IP address can be used to solve the active/passive HA proble
 
 No, the floating IP addresses are a new pool of IP addresses. You can't migrate existing IP addresses on your cloud servers to become floating IP adresses.
 
-#### Can we migrate FirstGen customer IPs to be Floating IPs?
-
-No.
-
-#### Can I migrate First Gen customer IPs to be Floating IPs?
-
-No. Do not add or disconnect networks . Doing so causes serious issues with
-networking on the Vyatta appliance and the only recourse will be to rebuild the
-Vyatta appliance.
-
 #### What do I need to know when I associate a floating IP address with my cloud server ?
 
 Because cloud servers come with a fixed public IPv4 address you can remove the fixed IP address and replace it with a floating IP address. If you want to keep the fixed IP address in addition to using the floating IP address, then you must configure the  server to handle traffic appropriately. For details about how to do this, see the API and How-To documentation.
 
 #### What are the features limitations for EA?
 
- - Floating IP addresses are intended to work only with Next Gen Cloud Servers. Floating IP addresses do not work with other products such as OnMetal, Cloud Load Balancers, and RackConnect v3.0.
+ - Floating IP addresses are intended to work only with Cloud Servers. Floating IP addresses do not work with other products such as OnMetal, Cloud Load Balancers, and RackConnect v3.0.
  - You can't convert current public IPv4 addresses to floating IP addresses. You must provision a new floating IP address.
  - The quota is limited to 5 floating IP addresses per tenant. Quotas will be raised during Limited Availability and later.
  - There is no support for floating IP addresses in the Cloud Control Panel.
@@ -333,11 +323,3 @@ No, shared IP addresses are currently supported only for virtual cloud servers.
 #### Are shared IP addresses supported for RackConnect v3.0 users?
 
 No, shared IP addresses do not work with a RackConnect v3.0 cloud network.  
-
-#### Can we migrate FirstGen customer IPs to be shared IPs?
-
-Yes.
-
-#### Can I migrate First Gen customer IPs to be shared IPs?
-
-No. Please contact Rackspace for migration requests.

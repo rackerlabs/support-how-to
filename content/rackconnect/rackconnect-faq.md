@@ -5,7 +5,7 @@ title: RackConnect FAQ
 type: article
 created_date: '2014-09-26'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-09-13'
 last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
@@ -32,10 +32,7 @@ Not yet, but we are working on a migration path. Initially, we plan to
 offer you the ability to associate a *new* cloud account with your
 existing RackConnect v2.0 configuration, which will enable you to
 experience RackConnect v3.0 without deactivating your existing
-RackConnect v2.0 environment. Note that only *next generation cloud
-servers* will be compatible with the migration process to RackConnect
-v3.0. We will provide more details about this process as they become
-available.
+RackConnect v2.0 environment. Note that only *cloud servers* will be compatible with the migration process to RackConnect v3.0. We will provide more details about this process as they become available.
 
 #### Can I use a Brocade ADX 1000 as my RackConnect v3.0 edge device?
 
@@ -345,21 +342,7 @@ the snapshot must have a clean SSH configuration that permits root
 login, with port 22 open in iptables, and accepts password
 authentication.
 
-#### Can I use first generation cloud server customer images with next generation cloud servers?
-
-The snapshot migration feature enables a Rackspace customer to take a
-snapshot of their eligible first generation cloud server and create a
-new next generation cloud server from that snapshot. With a few button
-clicks, a new next generation cloud server is up and running that is an
-exact copy, data-wise, of the first generation server. The new next generation cloud server has a new
-IP address, but you will experience no downtime.
-
-#### Can I migrate my first generation cloud servers to next generation cloud servers?
-
-An automated migration process will not be available upon launch,
-but we anticipate that one will be made available in the future.
-
-#### How do I retrieve the public IP address for a next generation cloud server that has been recently provisioned?
+#### How do I retrieve the public IP address for a cloud server that has been recently provisioned?
 
 You can view the public IP address of your RackConnect cloud server in
 the following places:
@@ -374,21 +357,20 @@ the following places:
     the API to retrieve server information, see the [Getting server details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#getting-server-details)
     section in the *Cloud Servers v2 Developer Guide*.
 
-#### Can I use next generation cloud server images to create cloud servers in different regions?
+#### Can I use cloud server images to create cloud servers in different regions?
 
-It is not currently possible to use next generation images (snapshots)
+It is not currently possible to use cloud server images (snapshots)
 created in one region to spin up cloud servers in a different region. We
 expect this functionality to be available in late 2013.
 
-Due to the limitation above, if you would like to use next generation cloud
-server images with RackConnect, follow this process:
+Due to the limitation above, if you would like to use cloud server images with RackConnect, follow this process:
 
-1.  Create a next generation cloud server in the same region as your RackConnect configuration.
+1.  Create a cloud server in the same region as your RackConnect configuration.
 2.  After the cloud server is deployed and configured as you would like, you can create an image (snapshot) of it.
-3.  You can now create new next generation cloud servers from this image, as long as they are created in the same region in which your
+3.  You can now create new cloud servers from this image, as long as they are created in the same region in which your
     RackConnect configuration is located.
 
-**Note**: If you have existing next generation images that were created
+**Note**: If you have existing cloud server images that were created
 in a different region than where your RackConnect configuration is
 located, then it will not be possible to use them with RackConnect until
 the first half of 2014 (expected time frame).

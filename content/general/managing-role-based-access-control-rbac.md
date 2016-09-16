@@ -5,8 +5,8 @@ title: Use Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-06-28'
 created_by: Renee Rendon
-last_modified_date: '2016-06-17'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: undefined
 product_url: undefined
 ---
@@ -89,28 +89,16 @@ optimal product interaction.
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>First Generation Cloud Servers</strong></td>
-<td align="left"><p>A user has been assigned any First Generation Cloud Server role.</p></td>
-<td align="left"><p> </p></td>
-<td align="left"><p>In First Generation Cloud Servers, give the user the Observer role (minimum action).</p></td>
-</tr>
-<tr class="even">
-<td align="left"><strong>First Generation Cloud Servers</strong> </td>
-<td align="left">A user needs to back up an image.</td>
-<td align="left">The user has been assigned any First Generation Cloud Server role.</td>
-<td align="left">In First Generation Cloud Servers and Cloud Files, give the user the Admin role.</td>
-</tr>
-<tr class="odd">
 <td align="left"><strong>Cloud Load Balancers</strong></td>
 <td align="left"><p>A user has been assigned any Cloud Load Balancers role.</p></td>
 <td align="left"><p> </p></td>
-<td align="left"><p>In First Generation and Next Generation Cloud Servers, give the user the Observer role (minimum action).</p></td>
+<td align="left"><p>In Cloud Servers, give the user the Observer role (minimum action).</p></td>
 </tr>
 <tr class="even">
 <td align="left"><strong>Cloud Load Balancers </strong></td>
 <td align="left">A user wants to add a node by using **Nodes > Add Cloud Servers** option in the Cloud Control Panel.</td>
 <td align="left">The user has been assigned any Cloud Load Balancers role.</td>
-<td align="left">In First Generation or Next Generation Cloud Servers, give the user any role. </td>
+<td align="left">In Cloud Servers, give the user any role. </td>
 </tr>
 <tr class="odd">
 <td align="left"><p><strong>Cloud Databases</strong></p></td>

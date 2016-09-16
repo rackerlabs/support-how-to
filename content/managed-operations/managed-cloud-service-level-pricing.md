@@ -5,8 +5,8 @@ title: Managed Cloud Service level pricing
 type: article
 created_date: '2014-07-01'
 created_by: Nicole Schwartz
-last_modified_date: '2016-06-22'
-last_modified_by: Nate Archer
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -28,4 +28,4 @@ The Service Level Rate covers maintenance and support of all your cloud compute 
 
 The minimum Service Level Rate for Managed Infrastructure is $50; for Managed Operations, it is $500. If you do not meet the minimum during your billing cycle, the difference is assessed to your account.
 
-Your service level and support cover all products, but the Service Level Rate is only assessed against compute products. Storage services such as Cloud Files and Cloud Block Storage have no Service Level Rates associated with them. There are no minimums for Standard Next Generation Cloud Servers at the Managed Infrastructure level.
+Your service level and support cover all products, but the Service Level Rate is only assessed against compute products. Storage services such as Cloud Files and Cloud Block Storage have no Service Level Rates associated with them. There are no minimums for Standard Cloud Servers at the Managed Infrastructure level.

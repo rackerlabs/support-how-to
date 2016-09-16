@@ -5,8 +5,8 @@ title: Detailed Permissions Matrix for DNS
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2016-01-18'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-09-09'
+last_modified_by: Kyle Laffoon
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -48,7 +48,7 @@ Modify Single Record | ```PUT /domains/domainId/records/recordId``` | **Creator 
 Modify Multiple Records	| ```PUT /domains/domainId/records``` | **Creator & Admin** | Modifies the configuration of records in the domain.
 Delete Single Record | ```DELETE /domains/domainId/records/recordId``` | **Admin only** | Removes a record from the domain.
 Delete Multiple Records	| ```DELETE /domains/domainId/records?id=recordId1&id=recordId2``` | **Admin only** | Removes multiple records from the domain.
-**REVERSE** | **Note:** For Reverse DNS, in order to create a PTR record for a Cloud Load Balancer, First Generation Cloud Server, or Next Generation Cloud Server, you will additionally need at least the Observer role for the service you are associating the PTR record with. | |
+**REVERSE** | **Note:** For Reverse DNS, in order to create a PTR record for a Cloud Load Balancer or Cloud Server, you will additionally need at least the Observer role for the service you are associating the PTR record with. | |
 List PTR Records | ```GET /rdns/service_name?href=device-resource-uri``` | **Observer & Creator & Admin** | Lists all PTR records configured for a Rackspace Cloud device.
 List PTR Record Details	| ```GET /rdns/service_name/recordId?href=device-resource-uri``` | **Observer & Creator & Admin** | Lists details for a specific PTR record associated with a Rackspace Cloud device.
 Add PTR Records | ```POST /rdns``` | **Creator & Admin** | Adds new PTR record(s) for a Rackspace Cloud device.

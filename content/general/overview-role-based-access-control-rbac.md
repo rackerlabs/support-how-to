@@ -5,7 +5,7 @@ title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2016-07-27'
+last_modified_date: '2016-09-12'
 last_modified_by: Kyle Laffoon
 product: undefined
 product_url: undefined
@@ -179,8 +179,7 @@ API documentation at <https://developer.rackspace.com/docs/>.
 
 ### Which products are currently RBAC-enabled?
 
--   [Next Generation Servers](/how-to/cloud-servers)
--   [First Generation Servers](/how-to/cloud-servers)
+-   [Cloud Servers](/how-to/cloud-servers)
 -   [Cloud Files](/how-to/cloud-files)
 -   [Cloud Databases](/how-to/cloud-databases)
 -   [Cloud Load Balancers](/how-to/cloud-load-balancers)
