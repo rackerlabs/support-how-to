@@ -5,7 +5,7 @@ title: Troubleshooting when your website is down
 type: article
 created_date: '2016-09-08'
 created_by: Nate Archer
-last_modified_date: '2016-09-08'
+last_modified_date: '2016-09-16'
 last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
@@ -55,21 +55,21 @@ Gather the following information before troubleshooting your downed site:
 
 3. Ping your website by its host name. If you receive a response similar to the following example, move on to step 3:
 
-    $ ping abshier.com
-    PING abshier.com (104.130.7.75) 56(84) bytes of data.
+    $ ping website.com
+    PING website.com (104.130.7.75) 56(84) bytes of data.
     64 bytes from 104.130.7.75: icmp_seq=1 ttl=55 time=32.4 ms
     64 bytes from 104.130.7.75: icmp_seq=2 ttl=55 time=32.2 ms
     64 bytes from 104.130.7.75: icmp_seq=3 ttl=55 time=32.2 ms
     64 bytes from 104.130.7.75: icmp_seq=4 ttl=55 time=32.2 ms
     64 bytes from 104.130.7.75: icmp_seq=5 ttl=55 time=32.2 ms
     ^C
-    --- abshier.com ping statistics ---
+    --- website.com ping statistics ---
     5 packets transmitted, 5 received, 0% packet loss, time 4008ms
     rtt min/avg/max/mdev = 32.208/32.261/32.429/0.141 ms
 
   If you receive a `ping: unknown host` response, check your DNS settings for missing or misconfigured A record.
 
-4. Run `nmap` command on the IP address of your server. If port 80 is shown as `open` and utilizing `http`, move on the "Load the console" section.
+4. Run the `nmap` command on the IP address of your server. If port 80 is shown as `open` and utilizing `http`, move on the "Load the console" section.
 
     # nmap abshier.com
      
