@@ -52,7 +52,7 @@ This article describes how to create and manage HA instance groups by using the 
 
    You can't connect to your HA instance group without first setting up the allowed IP addresses or ranges. HA groups sit behind a load balancer with a firewall, and that firewall blocks all connections by default. Both single IP addresses and IP address ranges in CIDR format are allowed.
 
-   <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/advanced-settings-with-backups.png %}" alt=" Backup settings and ACLs" />
+   <img src="{% asset_path cloud-databases/manage-cloud-databases-ha-groups-in-the-control-panel/advanced-settings-with-backups.png %}" alt=" Backup settings and ACLs" />
 
    **Note:** You can't connect to your HA instance group without first setting up the allowed IP addresses or ranges here. You can also add or remove addresses and ranges after you have created the HA group.
 
@@ -90,7 +90,7 @@ The hostnames stay the same regardless of failovers and which instance is the ma
 
 The following image shows an example of a completed build.
 
-<img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/details-page-with-schedule.png %}" alt="completed instances display running status" />
+<img src="{% asset_path cloud-databases/manage-cloud-databases-ha-groups-in-the-control-panel/details-page-with-schedule.png %}" alt="completed instances display running status" />
 
 Farther down the details page, more information about the HA group master instance is displayed. This information  is similar to what's shown on the Instance Details page for a single instance or replica set. The **Increase Volume**, **Resize RAM**, and other instance modification options are dimmed because modifications to an HA group must be made to the group rather than to individual instances.
 
@@ -106,6 +106,6 @@ Farther down the details page, more information about the HA group master instan
 
    All actions that you perform on the HA group apply to all instances in the group. Resizes occur on all instances. Backups are performed against a replica of the HA group.
 
-   <img src="{% asset_path cloud-databases/managing-cloud-databases-ha-groups-in-the-control-panel/managing-cloud-databases-instance-details-built-7.png %}" alt="completed images display running status" />
+   <img src="{% asset_path cloud-databases/manage-cloud-databases-ha-groups-in-the-control-panel/managing-cloud-databases-instance-details-built-7.png %}" alt="completed images display running status" />
 
 **Tip:** You can also perform these actions by using the **Actions** menu in the upper-right corner of the details page. From this menu, you can also choose to delete the HA group.
