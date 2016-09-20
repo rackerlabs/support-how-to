@@ -30,8 +30,8 @@ product_url: cloud-block-storage
 
 ###  Prepare your volume
 
-- [Prepare your volume for use with a Linux server](/how-to/prepare-your-cloud-block-storage-volume#prepare_linux)
-- [Prepare your volume for use with a Windows server](/how-to/prepare-your-cloud-block-storage-volume#prepare_windows)
+- <a  href="https://support.rackspace.com/how-to/prepare-your-cloud-block-storage-volume#prepare_linux">Prepare your volume for use with a Linux server</a>
+- <a href="https://support.rackspace.com/how-to/prepare-your-cloud-block-storage-volume#prepare_windows">Prepare your volume for use with a Windows server</a>
 
 ###  Create and use snapshots
 
