@@ -14,7 +14,7 @@ https://support.rackspace.com/how-to/
 - Sep 5 - 9: Renée
 - Sep 12 - 16: Nate
 - Sep 19 - 23: Stephanie
-- Sep 26 - 30: Kyle
+- Sep 26 - 30: Renée
 - Oct 3 - 7: Renée
 - Oct 10 - 14: Nate
 - Oct 17 - 21: Kyle
