@@ -1,7 +1,7 @@
 ---
 permalink: serve-multiple-domains-by-using-virtual-hosts/
 audit_date: '2016-09-21'
-title: Serve Multiple Domains By Using Virtual Hosts
+title: Serve multiple domains by using virtual hosts
 type: article
 created_date: '2011-06-17'
 created_by: Rackspace Support
