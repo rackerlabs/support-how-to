@@ -20,7 +20,7 @@ https://support.rackspace.com/how-to/
 - Oct 17 - 21: Kyle
 - Oct 24 - 28: Stephanie
 - Oct 31 - Nov 4: Nate
-- Nov 7 - 11: Kyle
+- Nov 7 - 11: Nate
 - Nov 14 - 18: Renée
 - Nov 21 - 25
-- Nov 28 - Dec 2: Kyle
+- Nov 28 - Dec 2: Nate
