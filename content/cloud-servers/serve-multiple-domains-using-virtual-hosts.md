@@ -152,7 +152,7 @@ The following example shows the commented directive that caused the error:
 
 #### Element missing from VirtualHost directive
 
-If running httpd -S" reports the following error message:
+If running `httpd -S` reports the following error message:
 
     Syntax error on line 8 of /etc/httpd/conf/custom/virtualhost.conf:
 		<VirtualHost> directive requires additional arguments
