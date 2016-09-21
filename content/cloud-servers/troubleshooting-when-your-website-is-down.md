@@ -102,7 +102,7 @@ Gather the following information before troubleshooting your downed site:
      
     Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
 
-### Testing your connection using your server's console
+### Test your connection using your server's console
 
 Even if your website appears back online after performing the preceding steps, you need to test your websites connectivity using the console the cloud server that hosts your website. To access your server's console:
 
