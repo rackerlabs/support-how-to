@@ -103,9 +103,9 @@ The output shows the virtual host settings from the configuration file. The foll
 
 - Line [4] reports the port and the name of the second virtual host configuration found, the file it is configured in and the line number its configuration starts on.
 
--Line [5] reports whether the configuration syntax is correct, although that doesn't necessarily mean your site is working
+- Line [5] reports whether the configuration syntax is correct, although that doesn't necessarily mean your site is working
 
-The following output was produced by following virutal host file configuration:
+The following output was produced by following virtual host file configuration:
 
       NameVirtualHost \*:80   Turns on name-based host resolution and binds the virtual server to IP addresses and ports as in [1] above. The \* is a wildcard specifying all IP addresses.
 
@@ -280,11 +280,10 @@ If you don't see `200 OK`, you might see one of the following common messages:
 
   Another way to verify this is to check the error log. The default error log is at `/var/log/httpd/error_log` on Red Hat systems and `/var/log/apache2/error_log` on Debian systems. If no port is specified for Apache to listen on, the message no listening sockets available, shutting down follows Apache's attempt to restart.
 
-    [Mon May 09 21:50:21 2011] [notice] SIGHUP received.  Attempting to restart
-		no listening sockets available, shutting down
-		Unable to open logs
+      [notice] SIGHUP received.  Attempting to restart no listening sockets available, shutting down
+		  Unable to open logs
 
--  HTTP/1.1 403 Forbidden.
+-  `HTTP/1.1 403 Forbidden`
 
   This response indicates that the permissions that allow Apache access to the page that you're requesting are not correct. Perhaps the directory permissions are incorrect, or it could be the page itself.
 
@@ -310,13 +309,13 @@ Following are examples of some common permissions-related configuration errors t
 
 - The following log entry shows that permissions on the `index.html` file for `vh2.example.com` are denying access to Apache.
 
-    [error] [client 203.0.113.96] (13)Permission denied: access to /index.html denied
+      [error] [client 203.0.113.96] (13)Permission denied: access to /index.html denied
 
 - The following log entry shows that permissions on the `/var/www/vhosts/vh2` directory are blocking Apache's read request.
 
-    [error] [client 203.0.113.96] (13)Permission denied: file permissions deny server access: /var/www/vhosts/vh2/index.html
+      [error] [client 203.0.113.96] (13)Permission denied: file permissions deny server access: /var/www/vhosts/vh2/index.html
 
 - The following log entry shows that Apache does not have execute or read
 permissions on one of the directories above `DocumentRoot`.
 
-    [error] [client 203.0.113.96] (13)Permission denied: access to / denied
+      [error] [client 203.0.113.96] (13)Permission denied: access to / denied
