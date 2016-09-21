@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 More than half of all deployment issues involves an inaccessible of downed website. The causes of a website being offline are often simple and easy to fix. This article describes how to troubleshoot a downed website.
 
-**Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`.
+**Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`. Go to [Basic network troubleshooting](how-to/basic-network-troubleshooting) for more information on these tools.
 
 ### Prerequisites
 
@@ -28,8 +28,12 @@ Gather the following information before troubleshooting your downed site:
 1. Try accessing your website through a web browser.
 
   - If the site does not load or you receive a "Server Not Found" message, move on to the next step.
-  - If the site loads, but there is an error page visible, proceed to the "Common errors" section of this article.
-  - If the site loads and functions as intended, load the site through a different web browser or another location. It is possible that you are experiencing [network issues].
+
+  - If the site loads, but there is an error page visible, look over your current deployment configuration.
+
+    **Note:** Rackspace support cannot assist with configuration errors
+
+  - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues].
 
 2. Ping your web server using the server's IP address. If you receive a response similar to the following, move on to step 3:
 
@@ -142,3 +146,6 @@ Use **CTRL ALT DELETE** to see if the server prompts your to login. If prompted 
 If using **CTRL ALT DELETE** switches the console to a blank screen, your server has likely crashed, reboot your server. If rebooting does not cause the login prompt to occur after opening up the console again, press **ESC**.
 
 **Note:** If you cannot connect to your Window's servers console at all, contact support to ensure that your host is not down.
+
+
+If none of the preceeding troubleshooting steps bring your website online, review the steps in [Basic network troubleshooting](how-to/basic-network-troubleshooting) before contacting Rackspace support.
