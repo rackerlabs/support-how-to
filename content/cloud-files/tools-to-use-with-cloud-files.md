@@ -30,5 +30,3 @@ The following tools are some of the methods you can use to upload and manage con
     10. Django is gaining steam: it's supported by Google App Engine, and it is gaining traction.
 
 **Media manager** plug-in will mirror your media library to your Cloud Files CDN. All URL's to this content will use the Cloud Files path when you insert them via the media manager. You can import all of your media to the CDN.
-
-For more information, go to [Cloud Tools](https://cloudtools.rackspace.com/home).
