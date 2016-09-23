@@ -86,8 +86,6 @@ to indicate when usage reaches a certain level, or if it has increased
 by a certain amount. This is a great way to get monitoring without
 having to code a solution yourself.
 
-Review the [Rackspace Cloud Tools Partners](https://cloudtools.rackspace.com/home) list for third-party monitoring options.
-
 ### Hide source code
 
 Although completely hiding your source code is impossible, following are
