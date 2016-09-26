@@ -16,7 +16,7 @@ The following permissions matrix displays specific permissions for the roles in 
 **As of May 24, 2015**
 
 Method Name | API Action | Role | Description
----|---|---|---
+:---: | :---: | :---: | :---:
 **LOAD BALANCER** | | |
 List Load Balancers | `GET /loadbalancers` | **Observer & Creator & Admin** | Provide a list of all load balancers configured and associated with your account.
 List Load Balancer Details | `GET /loadbalancers/{loadBalancerId}` | **Observer & Creator & Admin** | Provide a list of all load balancers configured and associated with your account.
@@ -78,7 +78,7 @@ Enable or Disable Content Caching | `PUT /loadbalancers/{loadBalancerId}/content
 List Load Balancer Protocols | `GET /loadbalancers/protocol` | **Observer & Creator & Admin** | List supported load balancing protocols.
 **ALGORITHMS** | | |
 List Load Balancer Algorithms | `GET /loadbalancers/algorithms` | **Observer & Creator & Admin** | List all supported load balancing algorithms.
-**SSL TERMINATION / CERTIFICATE MAPPINGS** | | |
+**SSL TERMINATION & CERTIFICATE MAPPINGS** | | |
 Show SSL Termination Configuration | `GET /loadbalancers/{loadBalancerId}/ssltermination` | **Observer & Creator & Admin** | Show the load balancer's SSL termination configuration.
 Update SSL Termination | `PUT /loadbalancers/{loadBalancerId}/ssltermination` | **Creator & Admin** | Update the SSL termination. **Warning:** If SSL is enabled on a load balancer that is configured with nodes that are NOT in the same datacenter, then decrypted traffic will be sent in clear text over the public internet to the external node(s) and will no longer be secure.
 Delete SSL Termination | `DELETE /loadbalancers/{loadBalancerId}/ssltermination` | **Admin only** | Delete SSL termination.
