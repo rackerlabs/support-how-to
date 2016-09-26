@@ -5,8 +5,8 @@ title: Permissions Matrix for Cloud Load Balancers
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2016-06-17'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-26'
+last_modified_by: Nate Archer
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
@@ -14,6 +14,8 @@ product_url: cloud-load-balancers
 The following permissions matrix displays specific permissions for the roles in Cloud Load Balancers. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
 **As of May 24, 2015**
+
+**Warning:** If SSL is enabled on a load balancer that is configured with nodes that are NOT in the same datacenter, then decrypted traffic will be sent in clear text over the public internet to the external node(s) and will no longer be secure.
 
 Method Name | API Action | Role | Description
 :---: | :---: | :---: | :---:
@@ -80,7 +82,7 @@ List Load Balancer Protocols | `GET /loadbalancers/protocol` | **Observer & Crea
 List Load Balancer Algorithms | `GET /loadbalancers/algorithms` | **Observer & Creator & Admin** | List all supported load balancing algorithms.
 **SSL TERMINATION & CERTIFICATE MAPPINGS** | | |
 Show SSL Termination Configuration | `GET /loadbalancers/{loadBalancerId}/ssltermination` | **Observer & Creator & Admin** | Show the load balancer's SSL termination configuration.
-Update SSL Termination | `PUT /loadbalancers/{loadBalancerId}/ssltermination` | **Creator & Admin** | Update the SSL termination. **Warning:** If SSL is enabled on a load balancer that is configured with nodes that are NOT in the same datacenter, then decrypted traffic will be sent in clear text over the public internet to the external node(s) and will no longer be secure.
+Update SSL Termination | `PUT /loadbalancers/{loadBalancerId}/ssltermination` | **Creator & Admin** | Update the SSL termination. 
 Delete SSL Termination | `DELETE /loadbalancers/{loadBalancerId}/ssltermination` | **Admin only** | Delete SSL termination.
 List Certificate Mappings | `GET /loadbalancers/{loadBalancerId}/ssltermination/certificatemappings` | **Observer & Creator & Admin** | List certificate mappings that are configured for a specified load balancer.
 Add Certificate Mapping | `POST /loadbalancers/{loadBalancerId}/ssltermination/certificatemappings` | **Creator & Admin** | Add a certificate mapping to a specified load balancer.
