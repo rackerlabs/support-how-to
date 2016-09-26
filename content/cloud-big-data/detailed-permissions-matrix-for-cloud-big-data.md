@@ -42,7 +42,9 @@ List Supported Flavors for a Cluster Type | <code>GET /types/{typeid}/flavors</c
 **RESOURCE LIMITS** | | |
 List Resource Limits for User | <code>GET /limits</code> | Displays the resource limits for the user.
 
-<a id="bigdata" name="bigdata"></a>
+
+
+
 ### Cloud Big Data Terminology
 
 #### Cluster
@@ -53,4 +55,4 @@ A group of servers (nodes). In Cloud Big Data, the servers are virtual.
 
 In a network, a node is a connection point, either a redistribution point or an end point for data transmissions. In general, a node has programmed or engineered capability to recognize and process or forward transmissions to other nodes.
 
-[**&lt; Permissions Matrices for RBAC**](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Permissions Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
