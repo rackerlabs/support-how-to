@@ -10,6 +10,7 @@ last_modified_by: Stephanie Fillmon
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
+**To sign up for Rackspace Metrics, please go to <http://go.rackspace.com/metrics>**
 
 Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product
 that offers a flexible and affordable platform for storing and serving
@@ -56,7 +57,7 @@ Rackspace Metrics consists of two components: **metrics ingestion** and
     You can also choose to leave your existing metrics storage engine
     running for a while to compare against Rackspace Metrics.
 
-    The Metrics Ingestion API is currently in the [Early Access Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#early-access-program)
+    The Metrics Ingestion API is currently in the [Early Access Program](https://developer.rackspace.com/docs/metrics/v2/early-access-program/)
     (EAP).
 
 -   **Metrics query**: Rackspace Metrics enables users to retrieve
