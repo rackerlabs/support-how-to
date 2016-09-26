@@ -5,8 +5,8 @@ title: Detailed Permissions Matrix for Cloud Big Data
 type: article
 created_date: '2013-09-12'
 created_by: Renee Rendon
-last_modified_date: '2016-01-15'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-09-26'
+last_modified_by: Renee Rendon
 product: Cloud Big Data
 product_url: cloud-big-data
 ---
@@ -43,13 +43,13 @@ List Supported Flavors for a Cluster Type | <code>GET /types/{typeid}/flavors</c
 List Resource Limits for User | <code>GET /limits</code> | Displays the resource limits for the user.
 
 <a id="bigdata" name="bigdata"></a>
-## Cloud Big Data Terminology
+### Cloud Big Data Terminology
 
-### Cluster
+#### Cluster
 
 A group of servers (nodes). In Cloud Big Data, the servers are virtual.
 
-### Node
+#### Node
 
 In a network, a node is a connection point, either a redistribution point or an end point for data transmissions. In general, a node has programmed or engineered capability to recognize and process or forward transmissions to other nodes.
 
