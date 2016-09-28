@@ -56,7 +56,8 @@ your business.
   <tr>
     <td><strong>Operating system avilability</strong></td>
     <td>Red Hat Enterprise Linux<br>CentOS<br>Windows Server</td>
-    <td colspan="2">Please see <a href="https://support.rackspace.com/how-to/rackspace-monitoring-support-matrix/">support matrix article</a> for details</td>
+    <td> Please see <a href="/how-to/supported-operating-systems/">Supported Operating Systems</a> on cloud server</td>
+    <td>Please see the following two links for details: <a href="/how-to/cloud-servers-with-managed-operations-support-for-linux">Cloud Servers with Managed Operations support for Linux</a> and <a href="/how-to/cloud-servers-with-managed-operations-support-for-windows">Cloud Servers with Managed Operations support for Windows</a></td>
   </tr>
   <tr>
     <td><strong>Ticketing system, control panel</strong></td>
