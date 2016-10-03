@@ -160,11 +160,10 @@ The following tools can be installed on your local system or a Rackspace cloud s
 
 #### MTR
 
-My traceroute (MTR) combines the functions of the Traceroute and Ping programs. MTR tracks routers on the route path by limiting the number of hops individual packets may traverse. It tracks the response times of hops along the route path.
+My traceroute (mtr) combines the functions of the Traceroute and Ping programs. MTR tracks routers on the route path by limiting the number of hops individual packets may traverse. It tracks the response times of hops along the route path.
 
 **Installation**
-
-MTR is either installed or can be installed on each operating system.
+Mtr is either installed or can be installed on each operating system.
 
 - Linux: Installed by default
 
