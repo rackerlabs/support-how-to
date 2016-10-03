@@ -5,7 +5,7 @@ title: Common network troubleshooting tools
 type: article
 created_date: '2016-10-03'
 created_by: Nate Archer
-last_modified_date: 
+last_modified_date:
 last_modified_by:
 product: Cloud Servers
 product_url: cloud-servers
@@ -232,14 +232,14 @@ Nmap is most useful when used in conjunction with the following common command f
 
  The `nmap` command is best used to test whether or not a port is behind a firewall, and if that firewall is preventing the port from listening to the nmap service, as shown in the following example.
 
-    $ nmap -Pn $IP
+      $ nmap -Pn $IP
 
-    Starting Nmap 6.40 ( http://nmap.org ) at 2016-04-08 15:34 UTC
-    Nmap scan report for 23.253.48.249
-    Host is up (0.022s latency).
-    Not shown: 998 filtered ports
-    PORT STATE SERVICE
-    80/tcp open http
-    443/tcp open https
+      Starting Nmap 6.40 ( http://nmap.org ) at 2016-04-08 15:34 UTC
+      Nmap scan report for 23.253.48.249
+      Host is up (0.022s latency).
+      Not shown: 998 filtered ports
+      PORT STATE SERVICE
+      80/tcp open http
+      443/tcp open https
 
-    Nmap done: 1 IP address (1 host up) scanned in 6.38 seconds
+      Nmap done: 1 IP address (1 host up) scanned in 6.38 seconds
