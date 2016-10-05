@@ -11,7 +11,9 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-In the Cloud Control Panel, you can choose to set monitoring checks on your servers. This article explains each check and the options that you can set for them. For information about setting up one of these monitoring checks, see [Create a monitoring check using the Cloud Control Panel](/how-to/creating-a-monitoring-check-using-the-cloud-control-panel).
+In the Cloud Control Panel, you can choose to set most common monitoring checks on your servers. This article explains these common check and the options that you can set for them on Cloud Control Panel. For information about setting up one of these monitoring checks, see [Create a monitoring check using the Cloud Control Panel](/how-to/creating-a-monitoring-check-using-the-cloud-control-panel).
+
+For configuration of all the supported checks and plugin checks, suppressions, notification plans, please see [Rackspace Intelligence documentation](https://support.rackspace.com/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
 
 For API check definitions, see the [Rackspace Monitoring developer documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-tech-ref-info/check-type-reference).
 
