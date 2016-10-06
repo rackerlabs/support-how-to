@@ -19,13 +19,20 @@ To check that the program is running we will start by using the command
 application that has an init script installed.
 
 The service command references a service using its init script, stored
-in the **/etc/init.d** directory. Check that directory if you aren't sure
-what name the system uses for a service.
+in the **/etc/init.d** directory for CentOS, and **etc/rc.d/init.d** for Ubuntu. If you aren't sure wat name the system used for a service,  check either directory by using the `ls` followed by the directory.
 
 Some names vary depending on your distribution - apache is `httpd` on
 CentOS, for example, while it's `apache2` on Ubuntu.
 
+**Note:** Many newer linux distributions use Systemd instead of netstat for checking services. If you are using SystemD, replace all `service` commands in this article with `systemct1`. For more information on `systemct1` commands, see the Fedora [SysVinit to Systemmd cheatsheer](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet).
+
 #### Service status
+
+A service can have any of the following statues:
+
+- `start`: The service has started.
+- `stop`: The service has stopped running
+- `restart`: The service is rebooting and will start once the process is complete
 
 The following example shows how to check the status of `httpd` on CentOS
 using the service command.
