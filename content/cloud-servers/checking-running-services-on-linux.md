@@ -19,7 +19,7 @@ To check that the program is running we will start by using the command
 application that has an init script installed.
 
 The service command references a service using its init script, stored
-in the **/etc/init.d** directory for CentOS, and **etc/rc.d/init.d** for Ubuntu. If you aren't sure wat name the system used for a service,  check either directory by using the `ls` followed by the directory.
+in the **/etc/init.d** directory for CentOS, and **etc/rc.d/init.d** for Ubuntu. If you aren't sure what name the system uses for a service,  check either directory by using the `ls` followed by the directory.
 
 Some names vary depending on your distribution - apache is `httpd` on
 CentOS, for example, while it's `apache2` on Ubuntu.
