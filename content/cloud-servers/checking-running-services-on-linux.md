@@ -91,8 +91,8 @@ have resolved the issue. Run the following command to verify:
 
 ### Check logs
 
-If you cannot start your application take a look at your logs to see if
-they contain further information regarding the issue. This guide should
-help with making use of your logs.
+If you can’t start your service, [look at your logs](https://www.digitalocean.com/community/tutorials/how-to-view-and-configure-linux-logs-on-ubuntu-and-centos) to see if they contain information about
+the issue. 
 
-Once you're sure the application is running you'll want to [take a look at the server resources it is consuming](/how-to/checking-system-load-on-linux).
+### Next steps
+Once you're sure the application is running, check [the server resources](/how-to/checking-system-load-on-linux) that your application is consuming. 
