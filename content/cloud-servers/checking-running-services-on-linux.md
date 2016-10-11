@@ -25,7 +25,7 @@ distribution. For example, Apache is `httpd` on CentOS and `apache2` on Ubuntu.
 
 **Note:** Many newer Linux distributions use systemd instead of netstat for checking services. If you are using systemd, replace all `service <service-name> <status>` commands with `systemct1 <status> <service-name>`. For more information about `systemct1` commands, see the Fedora [SysVinit to Systemmd Cheatsheet](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet).
 
-#### Check the service status
+### Check the service status
 
 A service can have any of the following statuses:
 
