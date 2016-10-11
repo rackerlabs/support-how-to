@@ -65,8 +65,6 @@ already listening on the port. To find out what it is, you can run
 Run the following command to display a list of listening programs and the ports that
 they are using.
 
-**Note:** You can read more information about `netstat` in the article [Check listening ports with netstat](/how-to/checking-listening-ports-with-netstat)
-
     # netstat -plnt
     Active Internet connections (only servers)
     Proto Recv-Q Send-Q Local Address               Foreign Address             State       PID/Program name
