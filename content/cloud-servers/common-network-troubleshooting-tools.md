@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article is designed to help you to troubleshoot network connectivity issues using common networking tools. You can utilize some or all of those tools listed in the article for your networking purposes.
+This article is designed to help you troubleshoot network connectivity issues using common networking tools. You can utilize some or all of those tools listed in the article for your networking purposes.
 
 ### Tools installed by default
 
