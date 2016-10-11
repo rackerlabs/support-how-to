@@ -5,26 +5,25 @@ title: Check running services on Linux
 type: article
 created_date: '2012-06-21'
 created_by: Rackspace Support
-last_modified_date: '2016-06-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-10-11'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The first step in troubleshooting a network service is to make sure the
-program is running.
+When you need to troubleshoot a network service, the first step is to ensure that the
+service is running.
 
-To check that the program is running we will start by using the command
-`service`. You can use `service` to start, stop, and check status for an
-application that has an init script installed.
+If the service has an init script installed, you can use the `service` command to start, stop,
+and check the status of the service. The service command references a service by using
+its init script, which is stored in the **/etc/init.d** directory for debain based distributions and the
+**etc/rc.d/init.d** directory for Red Hat based distributions. 
 
-The service command references a service using its init script, stored
-in the **/etc/init.d** directory for CentOS, and **etc/rc.d/init.d** for Ubuntu. If you aren't sure what name the system uses for a service,  check either directory by using the `ls` followed by the directory.
+If you aren't sure what name the system uses for a service, check either directory by
+using the `ls` command followed by the directory. Some names vary depending on your
+distribution. For example, Apache is `httpd` on CentOS and `apache2` on Ubuntu.
 
-Some names vary depending on your distribution - apache is `httpd` on
-CentOS, for example, while it's `apache2` on Ubuntu.
-
-**Note:** Many newer linux distributions use Systemd instead of netstat for checking services. If you are using SystemD, replace all `service` commands in this article with `systemct1`. For more information on `systemct1` commands, see the Fedora [SysVinit to Systemmd cheatsheer](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet).
+**Note:** Many newer linux distributions use Systemd instead of netstat for checking services. If you are using SystemD, replace all `service <service-name> <status>` commands in this article with `systemct1 <status> <service-name>`. For more information on `systemct1` commands, see the Fedora [SysVinit to Systemmd cheatsheer](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet).
 
 #### Service status
 
