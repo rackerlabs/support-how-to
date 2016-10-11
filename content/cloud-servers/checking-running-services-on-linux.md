@@ -89,8 +89,7 @@ have resolved the issue. Run the following command to verify:
 
 ### Check logs
 
-If you can’t start your service, [look at your logs](https://www.digitalocean.com/community/tutorials/how-to-view-and-configure-linux-logs-on-ubuntu-and-centos) to see if they contain information about
-the issue. 
+If you can’t start your service, [look at your logs](https://community.rackspace.com/products/f/25/t/531) to see if they contain information about the issue. 
 
 ### Next steps
 Once you're sure the application is running, check [the server resources](/how-to/checking-system-load-on-linux) that your application is consuming. 
