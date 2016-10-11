@@ -6,12 +6,12 @@ type: article
 created_date: '2016-10-03'
 created_by: Nate Archer
 last_modified_date:
-last_modified_by:
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article is designed to help you troubleshoot network connectivity issues using common networking tools. You can utilize some or all of those tools listed in the article for your networking purposes.
+This article lists common networking tools which can be used to help identify common network connectivity issues.
 
 ### Tools installed by default
 
@@ -43,7 +43,7 @@ If `ping` indicates an equal amount of `packets` transmitted and received, as we
 
 **Bad Ping response**
 
-If no packets are received, like in the following example, this doesn't mean that the network is down. However, it may warrant additional troubleshooting.
+If no packets are received, like in the following example, this doesn't mean that the network is down. However, it may warrant additional troubleshooting with the Traceroute and MTR tools.
 
     $ ping -c 5 engadget.com
     PING engadget.com (149.174.110.102) 56(84) bytes of data.
@@ -51,11 +51,10 @@ If no packets are received, like in the following example, this doesn't mean tha
     --- engadget.com ping statistics ---
     5 packets transmitted, 0 received, 100% packet loss, time 3999ms
 
-<----We probably need to add some troubleshooting steps, particularly how to see if ping response has been disabled on the customers cloud server---->
 
 #### Traceroute
 
-Traceroute is a computer network diagnostic tool for displaying the route (path) and measuring transit delays of packets across an IP network.
+Traceroute is a computer network diagnostic tool for displaying the route (path) of a network hop and measuring transit delays of packets across an IP network.
 
 This is particularly useful for identifying network latency issues by using the `traceroute` command followed by URL of the website you wish to test.
 
@@ -70,6 +69,8 @@ This is particularly useful for identifying network latency issues by using the 
     7  209.85.253.197 (209.85.253.197)  1.062 ms 209.85.251.249 (209.85.251.249)  1.022 ms  1.009 ms
     8  209.85.143.143 (209.85.143.143)  1.570 ms 209.85.143.145 (209.85.143.145)  1.092 ms 209.85.143.143 (209.85.143.143)  1.523 ms
     9  iad23s44-in-f14.1e100.net (216.58.217.174)  0.971 ms  0.962 ms  0.943 ms
+
+The preceding output also identifies the location of each hop along a networks route, as shown in the preceding output with `aggr403b-9-core8.iad3.rackspace.net`. If a hop is located within a Rackspace network and other networking exist, contact [support](https://www.rackspace.com/en-us/support) with the steps you have take troubleshoot your network. If a hop is not located within Rackspace's network and other networking issues exist, please contact your Internet service provider.
 
 To learn more about how to troubleshoot latency issues with **Traceroute** see the MaxCDN tutorial [Reading a Traceroute](https://www.maxcdn.com/one/tutorial/how-to-read-a-traceroute/).
 
@@ -190,7 +191,7 @@ The following are common flags used with the `mtr` command:
 
 The `mtr` command requires flags to get the desired response with IP addresses and formatting. One of the most commonly used `mtr` flags is `-web4c`, followed by the number of packets you wish MTR to count, then the IP address or URL you wish to send the packets too. A good `mtr` response shows a packet loss of 0%, and a response time below 10ms as shown in response columns `Last`, `Avg`, `Best`, and `Wrst`, as shown in the following example.
 
-    $ mtr -wrb4c 10 google.com
+    $ mtr -web4c 10 google.com
     Start: Fri Apr  8 15:53:25 2016
     HOST: test-cent7--070604apr08                              Loss%   Snt   Last   Avg  Best  Wrst StDev
       1.|-- 162.242.237.3                                       0.0%    10    0.5   0.5   0.4   0.6   0.0
@@ -223,7 +224,7 @@ Nmap is most useful when used in conjunction with the following common command f
 
 - `-Pn`: (No ping) This option skips the Nmap discovery stage altogether. Normally, Nmap uses this stage to determine active machines for heavier scanning.
 
-- `-sV`:  Enables version detection, as discussed above. Alternatively, you can use -A, which enables version detection among other things.
+- `-sV`:  Enables version detection. Alternatively, you can use -A, which enables version detection among other things.
 
  - `-v`:  Increases the verbosity level, causing Nmap to print more information about the scan in progress. Open ports are shown as they are found and completion time estimates are provided when Nmap thinks a scan will take more than a few minutes.
 
@@ -242,3 +243,9 @@ Nmap is most useful when used in conjunction with the following common command f
       443/tcp open https
 
       Nmap done: 1 IP address (1 host up) scanned in 6.38 seconds
+
+### Next steps
+
+For help troubleshooting an offline website, see [Troubleshooting an offline website](how-to/troubleshooting-an-offline-website/).
+
+If you have received any of the preceding *bad* responses, contact [support](https://www.rackspace.com/en-us/support) with the steps you have taken to troubleshoot your network.
