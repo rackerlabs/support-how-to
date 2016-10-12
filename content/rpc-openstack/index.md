@@ -28,6 +28,14 @@ product_url: rpc-openstack
 - [Rackspace Private Cloud Resources](http://www.rackspace.com/cloud/private/openstack/resources/)
 - [Rackspace Training](http://training.rackspace.com/)
 
+###  Rackspace Private Cloud v13 (Mitaka)
+
+- [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-releasenotes/)
+- [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/mitaka/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](http://www.rackspace.com/cloud/private/openstack/support/).
+- [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-swift)
+- [Admin Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-admin/)
+- [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-faq-external/)
+
 ###  Rackspace Private Cloud v12 (Liberty)
 
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-releasenotes/)
