@@ -1,17 +1,17 @@
 ---
 permalink: common-network-troubleshooting-tools/
-audit_date:
+audit_date: '2016-10-11'
 title: Common network troubleshooting tools
 type: article
 created_date: '2016-10-03'
 created_by: Nate Archer
-last_modified_date:
+last_modified_date: '2016-10-11'
 last_modified_by: Nate Archer
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud networks
+product_url: cloud-networks
 ---
 
-This article lists common networking tools which can be used to help identify common network connectivity issues.
+This article describes common networking tools that can help you to identify network connectivity issues for your server or website. Some of these tools are installed on your system by default, and some require installation.
 
 ### Tools installed by default
 
@@ -19,15 +19,15 @@ The following tools are installed on all Windows, Mac, and Linux operating syste
 
 #### Ping
 
-Ping is a computer network administration software utility used to test how reachable a host on an Internet Protocol (IP) network is. It also measures the amount of time messages (listed in the output as `packets`) take to send from originating host of to a destination computer and back.
+Ping is a computer network administration utility that you can use to test how reachable a host is on an IP network. It also measures the amount of time that messages (or `packets`) take to travel from the origin host to a destination computer and back.
 
-Ping commands require no flags to test. Simply use enter the command `ping` followed by the URL or IP addresses of the website you are testing. You can find the IP Address of your website in the **Servers** section of the [Cloud control panel](https://mycloud.rackspace.com/).
+Ping commands require no flags to test. Enter the `ping` command followed by the URL or IP addresses of the website or server you are testing. You can find the IP address in the **Servers** section of the [Cloud Control Panel](https://mycloud.rackspace.com/).
 
     ping google.com
 
-**Good Ping response**
+**Successful ping response**
 
-If `ping` indicates an equal amount of `packets` transmitted and received, as well as a response time of under 100ms in the US and under 200ms outside of the US (as shown in the following example), no networking issues exist:
+If the `ping` command indicates that an equal number of `packets` were transmitted and received, and shows a response time of under 100 ms in the US and under 200 ms outside of the US, no networking issues exist. The following example shows a successful response:
 
     $ ping google.com
     PING google.com (216.58.218.238) 56(84) bytes of data.
@@ -41,11 +41,11 @@ If `ping` indicates an equal amount of `packets` transmitted and received, as we
     5 packets transmitted, 5 received, 0% packet loss, time 4007ms
     rtt min/avg/max/mdev = 0.924/0.963/0.983/0.029 ms
 
-**Bad Ping response**
+**Unsuccessful ping response**
 
-If no packets are received, like in the following example, this doesn't mean that the network is down. However, it may warrant additional troubleshooting with the Traceroute and MTR tools.
+If no packets are received, as shown in the following example, the network might or might not be down. To verify, consider performing additional troubleshooting with the traceroute or MTR tool
 
-    $ ping -c 5 engadget.com
+    $ ping engadget.com
     PING engadget.com (149.174.110.102) 56(84) bytes of data.
 
     --- engadget.com ping statistics ---
@@ -54,9 +54,9 @@ If no packets are received, like in the following example, this doesn't mean tha
 
 #### Traceroute
 
-Traceroute is a computer network diagnostic tool for displaying the route (path) of a network hop and measuring transit delays of packets across an IP network.
+Traceroute is a computer network diagnostic tool that displays the route (path) of a network hop and measures transit delays of packets across an IP network. Traceroute is particularly useful for identifying network latency issues.
 
-This is particularly useful for identifying network latency issues by using the `traceroute` command followed by URL of the website you wish to test.
+Use the`traceroute` command followed by URL of the website or the IP address of the server that you want to test.
 
     $ traceroute google.com
     traceroute to google.com (216.58.217.174), 30 hops max, 60 byte packets
@@ -70,28 +70,32 @@ This is particularly useful for identifying network latency issues by using the 
     8  209.85.143.143 (209.85.143.143)  1.570 ms 209.85.143.145 (209.85.143.145)  1.092 ms 209.85.143.143 (209.85.143.143)  1.523 ms
     9  iad23s44-in-f14.1e100.net (216.58.217.174)  0.971 ms  0.962 ms  0.943 ms
 
-The preceding output also identifies the location of each hop along a networks route, as shown in the preceding output with `aggr403b-9-core8.iad3.rackspace.net`. If a hop is located within a Rackspace network and other networking exist, contact [support](https://www.rackspace.com/en-us/support) with the steps you have take troubleshoot your network. If a hop is not located within Rackspace's network and other networking issues exist, please contact your Internet service provider.
+The preceding output identifies the location of each hop along a networks route, as shown by `aggr403b-9-core8.iad3.rackspace.net`.
 
-To learn more about how to troubleshoot latency issues with **Traceroute** see the MaxCDN tutorial [Reading a Traceroute](https://www.maxcdn.com/one/tutorial/how-to-read-a-traceroute/).
+If a hop is located within a Rackspace network and other networking issues exist, contact [Rackspace Support](https://www.rackspace.com/en-us/support) with the steps that you have taken to troubleshoot your network. If a hop is *not* located within a Rackspace network and other networking issues exist, please contact your Internet service provider.
+
+To learn more about how to troubleshoot latency issues with traceroute see the MaxCDN tutorial [Reading a Traceroute](https://www.maxcdn.com/one/tutorial/how-to-read-a-traceroute/).
 
 
 #### Telnet
 
-Telnet is an application layer protocol used on the Internet or local area networks to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection. User data is interspersed in-band with Telnet control information in an 8-bit byte oriented data connection over the Transmission Control Protocol (TCP).
+Telnet is a TCP/IP protocol that is used for accessing hardware on a network remotely.
 
-Telnet is used to to test if a networking port is open by using the command `telnet` followed by the server's IP address and the port number you wish to test.
+Use telnet to test whether a networking port is open by using the command `telnet` followed by the server's IP address and the port number that you want to test.
 
     telnet 104.130.5.20 22
 
-The following are common `telnet` command flags.
+**Common flags**
 
-- `-4`: Forces telnet to use IPv4 addresses only.
+The following flags are commonly used with the `telnet` command:
 
-- `-6`: Forces telnet to use IPv6 addresses only.
+- `-4`: Forces telnet to use IPv4 addresses only
 
-**Good Telnet response**
+- `-6`: Forces telnet to use IPv6 addresses only
 
-If Telnet connects to the server's IP address through an open port (as shown in the following example), no networking issues exist.
+**Successful telnet response**
+
+If telnet connects to the server's IP address through an open port (as shown in the following example), no networking issues exist.
 
     $ telnet 104.130.5.20 22
     Trying 104.130.5.20...
@@ -99,11 +103,11 @@ If Telnet connects to the server's IP address through an open port (as shown in 
     Escape character is '^]'.
     SSH-2.0-OpenSSH_5.3
 
-**Note:** Use **CTRL ]** and than enter `exit` to leave the telnet connected state.
+**Note:** Use **CTRL ]** and then enter `exit` to leave the telnet connected state.
 
-**Bad Telnet response**
+**Unsuccessful Telnet response**
 
-If the port you attempted a connection though is not open (as shown in the following example), either the connection is refused or the command will become stuck in a `trying` state.
+If the port that you tried to use is not open (as shown in the following example), either the connection is refused or the command will become stuck in a `trying` state.
 
     telnet 104.130.5.20 443
     Trying 104.130.5.20...
@@ -113,24 +117,24 @@ If the port you attempted a connection though is not open (as shown in the follo
 
 #### Netcat
 
-Netcat (nc) is a computer networking utility for reading from and writing to network connections using TCP or UDP. It is used to test whether a host's connection succeeds or fails by using the `nc` command, followed by URL and the port you want to test the connectivity of.
+Netcat (nc) is a networking tool for interfacing with network connections by using TCP or UDP. Test whether a host's connection succeeds or fails by using the `nc` command, followed by the URL and the port for which you want to test t connectivity.
 
     $ nc -vz google.com 80
 
-**Common Flags**
+**Common flags**
 
-The following are common `netcat` command flags:
+The following flags are commonly used with `netcat` command:
 
-- `-v` or `--verbose`: Sets the amount of information you wish to see in each response
+- `-v` or `--verbose`: Sets the amount of information you want to see in each response
 
 - `-4`: Use IPv4 only
 
 - `-6`: Use IPv6 only
 
-- `-z`: Sets netcat to scan for connected servers, without sending any actual data to the servers.
+- `-z`: Sets netcat to scan for connected servers without sending any actual data to the servers.
 
 
-**Good Netcat response**
+**Successful netcat response**
 
 If netcat connects to the website through the port indicated (as shown in the following example), no network connectivity issues exist.
 
@@ -146,9 +150,9 @@ If netcat connects to the website through the port indicated (as shown in the fo
 
     Connection to google.com port 80 [tcp/http] succeeded!
 
-**Bad Netcat response**
+**Unsuccessful netcat response**
 
-If netcat fails to connect to the website through the port indicated (as shown in the following example), try using the tools described in "Other networking tools"
+If netcat fails to connect to the website through the port indicated (as shown in the following example), try using the tools described in the next section, "Other networking tools."
 
     $ nc -vz google.com 8080
     nc: connectx to google.com port 8080 (tcp) failed: Operation timed out
@@ -161,35 +165,39 @@ The following tools can be installed on your local system or a Rackspace cloud s
 
 #### MTR
 
-My traceroute (mtr) combines the functions of the Traceroute and Ping programs. MTR tracks routers on the route path by limiting the number of hops individual packets may traverse. It tracks the response times of hops along the route path.
+My traceroute (MTR) combines the functions of the traceroute and ping programs. MTR tracks routers on the route path by limiting the number of hops individual packets can traverse. It tracks the response times of hops along the route path.
 
 **Installation**
-Mtr is either installed or can be installed on each operating system.
 
-- Linux: Installed by default
+MTR is installed by default on Linux and can be installed as follows on Mac and
+Windows:
 
 - Mac: Enter the command `brew install mtr`
 
-- Windows: Download using the link <http://winmtr.net/download-winmtr/>
+- Windows: Download from http://winmtr.net/download-winmtr/
 
-**Common Flags**
+**Common flags**
 
-The following are common flags used with the `mtr` command:
+The following are flags commonly used with the `mtr` command:
 
 - `-4`:  Use IPv4 only.
 
-- `-6`:  Use IPv6 only.  (IPV4 may be used for DNS lookups).
+- `-6`:  Use IPv6 only.  (IPv4 can be used for DNS lookups)
 
-- `-w`:  This option puts mtr into wide report mode.  When in this mode, mtr will not cut hostnames in the report.
+- `-w`:  Puts MTR into wide report mode. In this mode, MRT will include hostnames on the route path in the report.
 
-- `-c`: Use this option to set the number of pings sent to determine both the machines on the  network and the reliability of those machines.  Each cycle lasts one second.
+- `-c`:  Set the number of pings sent to determine both the machines on the  network and the reliability of those machines.  Each cycle lasts one second.
 
-- `-b`: Use this option to tell mtr to display both the host names and numeric IP numbers.  In split mode this adds an extra field to the output. In report mode, there is usually too little space to add the IPs, and they will be truncated. Use  the  wide report (-w) mode to see the IPs in report mode.
+- `-b`:  Tells MTR to display both the host names and the numeric IP addresses. In split mode, an extra field is added to the output. In report mode, the IP addresses are usually truncated. To see the IP addresses in report mode, use the wide report (`-w`) mode.
+
+- `web4c`: Sets the number of packets that MTR counts along the route path.
 
 
-**Mtr example**
+**MTR example**
 
-The `mtr` command requires flags to get the desired response with IP addresses and formatting. One of the most commonly used `mtr` flags is `-web4c`, followed by the number of packets you wish MTR to count, then the IP address or URL you wish to send the packets too. A good `mtr` response shows a packet loss of 0%, and a response time below 10ms as shown in response columns `Last`, `Avg`, `Best`, and `Wrst`, as shown in the following example.
+The `mtr` command requires flags to get the desired response with IP addresses and formatting. The `mtr` flags `-web4c`, followed the number of packets you want MTR to count. You then provide the IP address or URL to which you want send the packets.
+
+A successful response shows a packet loss of 0% and a response time below 10 ms, as shown in the columns `Last`, `Avg`, `Best`, and `Wrst` in the following example:
 
     $ mtr -web4c 10 google.com
     Start: Fri Apr  8 15:53:25 2016
@@ -206,31 +214,31 @@ The `mtr` command requires flags to get the desired response with IP addresses a
 
 #### Nmap
 
-Network Mapper (Nmap) is a security scanner used to discover hosts and services on a computer network, thus creating a "map" of the network. To accomplish its goal, Nmap sends specially crafted packets to the target host and then analyzes the responses.
+Network Mapper (Nmap) is a security scanner that discovers hosts and services on a computer network, thus creating a "map" of the network. To accomplish its goal, Nmap sends specially crafted packets to the target host and then analyzes the responses.
 
 **Installation**
 
-The following commands or URL's are used to install `nmap` on each operating system.
+Use the following commands or URLs to install `nmap` on each operating system:
 
-- Linux: Enter `yum install nmap`
+- Linux: Enter the following command: `yum install nmap`
 
-- Mac: Enter `brew install nmap`
+- Mac: Enter the following command: `brew install nmap`
 
-- Windows: Download using the link <https://nmap.org/download.html>
+- Windows: Download from https://nmap.org/download.html
 
 **Common flags**
 
-Nmap is most useful when used in conjunction with the following common command flags.
+Nmap is most useful when used in conjunction with the following common flags:
 
-- `-Pn`: (No ping) This option skips the Nmap discovery stage altogether. Normally, Nmap uses this stage to determine active machines for heavier scanning.
+- `-Pn`: (No ping) Skips the Nmap discovery stage altogether. Normally, Nmap the discovery stage to determine active machines for heavier scanning.
 
-- `-sV`:  Enables version detection. Alternatively, you can use -A, which enables version detection among other things.
+- `-sV`:  Enables version detection. Alternatively, you can use `-A`, which enables version detection, OS detection, script scanning, and traceroute.
 
- - `-v`:  Increases the verbosity level, causing Nmap to print more information about the scan in progress. Open ports are shown as they are found and completion time estimates are provided when Nmap thinks a scan will take more than a few minutes.
+ - `-v`:  Increases the verbosity level, causing Nmap to print more information about the scan in progress. Open ports are shown as they are found and completion time estimates are provided when Nmap determines that a scan will take more than a few minutes.
 
  **Nmap example**
 
- The `nmap` command is best used to test whether or not a port is behind a firewall, and if that firewall is preventing the port from listening to the nmap service, as shown in the following example.
+ The `nmap` command is best used to test whether a port is behind a firewall, and if that firewall is preventing the port from listening to the Nmap service, as shown in the following example:
 
       $ nmap -Pn $IP
 
@@ -248,4 +256,4 @@ Nmap is most useful when used in conjunction with the following common command f
 
 For help troubleshooting an offline website, see [Troubleshooting an offline website](how-to/troubleshooting-an-offline-website/).
 
-If you have received any of the preceding *bad* responses, contact [support](https://www.rackspace.com/en-us/support) with the steps you have taken to troubleshoot your network.
+If you have received any of the preceding *unseccessful* responses, contact [Rackspace Support](https://www.rackspace.com/en-us/support) with the steps that you have taken to troubleshoot your network.
