@@ -7,13 +7,13 @@ created_date: '2016-09-08'
 created_by: Nate Archer
 last_modified_date: '2016-09-16'
 last_modified_by: Nate Archer
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Networks
+product_url: cloud-networks
 ---
 
 More than half of all deployment issues involve an offline website. The causes of a website being offline are often easy to fix. This article describes how to troubleshoot an offline website.
 
-**Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`. For more information about these tools, see [Basic network troubleshooting](how-to/basic-network-troubleshooting/)
+**Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`. For more information about these tools, see [Common network troubleshooting tools](how-to/common-network-troubleshooting-tools/)
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@ Gather the following information before troubleshooting your site:
 
     **Note:** Rackspace Support can't assist with configuration errors.
 
-  - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues](how-to/basic-network-troubleshooting/).
+  - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues](how-to/common-network-troubleshooting-tools/).
 
 2. Ping the web server using the server's IP address.
 
@@ -150,4 +150,4 @@ Press **Ctrl+Alt+Del** to see if the server prompts you to log in.
 **Note:** If you can’t connect to your Windows server’s console at all, contact Support to ensure that your host is not down.
 
 
-If none of the preceding troubleshooting steps bring your website online, review the steps in [Basic network troubleshooting](how-to/basic-network-troubleshooting) before contacting Rackspace support.
+If none of the preceding troubleshooting steps bring your website online, review the steps in [Common network troubleshooting tools](how-to/common-network-troubleshooting-tools/) before contacting Rackspace support.
