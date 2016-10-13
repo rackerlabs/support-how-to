@@ -43,7 +43,7 @@ If the `ping` command indicates that an equal number of `packets` were transmitt
 
 **Unsuccessful ping response**
 
-If no packets are received, as shown in the following example, the network might or might not be down. To verify, consider performing additional troubleshooting with the traceroute or MTR tool
+If no packets are received, as shown in the following example, the network might be down. To verify, consider performing additional troubleshooting with the traceroute or MTR tool
 
     $ ping engadget.com
     PING engadget.com (149.174.110.102) 56(84) bytes of data.
@@ -56,7 +56,7 @@ If no packets are received, as shown in the following example, the network might
 
 Traceroute is a computer network diagnostic tool that displays the route (path) of a network hop and measures transit delays of packets across an IP network. Traceroute is particularly useful for identifying network latency issues.
 
-Use the`traceroute` command followed by URL of the website or the IP address of the server that you want to test.
+Use the `traceroute` command followed by URL of the website or the IP address of the server that you want to test:
 
     $ traceroute google.com
     traceroute to google.com (216.58.217.174), 30 hops max, 60 byte packets
@@ -195,7 +195,7 @@ The following are flags commonly used with the `mtr` command:
 
 **MTR example**
 
-The `mtr` command requires flags to get the desired response with IP addresses and formatting. The `mtr` flags `-web4c`, followed the number of packets you want MTR to count. You then provide the IP address or URL to which you want send the packets.
+The `mtr` command requires flags to get the desired response with IP addresses and formatting. Most MTR commands begin with the flag `-web4c`, followed the number of packets you want MTR to count. You then provide the IP address or URL to which you want send the packets.
 
 A successful response shows a packet loss of 0% and a response time below 10 ms, as shown in the columns `Last`, `Avg`, `Best`, and `Wrst` in the following example:
 
@@ -230,7 +230,7 @@ Use the following commands or URLs to install `nmap` on each operating system:
 
 Nmap is most useful when used in conjunction with the following common flags:
 
-- `-Pn`: (No ping) Skips the Nmap discovery stage altogether. Normally, Nmap the discovery stage to determine active machines for heavier scanning.
+- `-Pn`: (No ping) Skips the Nmap discovery stage. Normally, Nmap uses the discovery stage to determine active machines for heavier scanning.
 
 - `-sV`:  Enables version detection. Alternatively, you can use `-A`, which enables version detection, OS detection, script scanning, and traceroute.
 
