@@ -1,6 +1,6 @@
 ---
 permalink: work-with-origins-and-origin-rules-in-rackspace-cdn/
-audit_date:
+audit_date: '2016-06-02'
 title: Work with origins and origin rules in Rackspace CDN
 type: article
 created_date: '2015-05-11'

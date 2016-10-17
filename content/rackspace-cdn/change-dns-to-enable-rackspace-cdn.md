@@ -1,6 +1,6 @@
 ---
 permalink: change-dns-to-enable-rackspace-cdn/
-audit_date:
+audit_date: 
 title: Change DNS to enable Rackspace CDN
 type: article
 created_date: '2015-02-12'
