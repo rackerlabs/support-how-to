@@ -1,6 +1,6 @@
 ---
 permalink: create-a-rackspace-cdn-service/
-audit_date:
+audit_date: '2016-06-01'
 title: Create a Rackspace CDN service
 type: article
 created_date: '2015-05-08'

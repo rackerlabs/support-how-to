@@ -1,6 +1,6 @@
 ---
 permalink: delete-a-rackspace-cdn-service/
-audit_date:
+audit_date: '2016-06-02'
 title: Delete a Rackspace CDN service
 type: article
 created_date: '2015-05-11'

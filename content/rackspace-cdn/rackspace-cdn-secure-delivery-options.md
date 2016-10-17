@@ -1,6 +1,6 @@
 ---
 permalink: rackspace-cdn-secure-delivery-options/
-audit_date:
+audit_date: '2016-09-21'
 title: Rackspace CDN secure delivery options
 type: article
 created_date: '2015-04-20'
