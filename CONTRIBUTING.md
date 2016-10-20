@@ -58,23 +58,14 @@ Follow these steps to create a new article within a product folder of the **rack
 
            ---
            permalink: title-of-article/
-           
            audit_date: 2016-08-22
-           
            title: Checking cloud status
-
            type: article
-
            created_date: '2016-01-29'
-
            created_by: Rosie Contreras
-
            last_modified_date: '2016-01-29'
-
            last_modified_by: Rosie Contreras
-
            product: Cloud Servers
-
            product_url: cloud-servers
            ---
 5. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
