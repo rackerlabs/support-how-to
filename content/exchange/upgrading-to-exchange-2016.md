@@ -77,11 +77,11 @@ The domain quarantine will still receive spam messages for other Exchange addres
 
 The following items will affect the length of your migration:
 
-- Item count
-- Mailbox size
-- Total size of attachments
-- Number of mailboxes on the domain
-- Provisioning delays in our Exchange environment (you can consult our [Rackspace Status Page](http://status.apps.rackspace.com/) for notice on this type of issue.
+- Item count.
+- Mailbox size.
+- Total size of attachments.
+- Number of mailboxes on the domain.
+- Provisioning delays in our Exchange environment. See the [Rackspace Status Page](http://status.apps.rackspace.com/) for notice on this type of issue.
 
 ### Using the Exchange self-service migration tool
 
@@ -93,7 +93,7 @@ The following items will affect the length of your migration:
 
 2. The migration portal lists all of your domains that use Exchange services. Select the gear icon next to the domain you would like to upgrade:
 
- ![Exchagne Upgrades 1.jpg]
+  ![Exchagne Upgrades 1.jpg]
 
 3. Select a date and time to schedule the migration.
 
@@ -101,15 +101,17 @@ The following items will affect the length of your migration:
 
 4. Click **Submit Migration**.
 
-5. After the migration information has been submitted, you will be taken back to the [Rackspace migrations home page]().
+5. After the migration information has been submitted, you will be taken back to the [Rackspace migrations home page](https://rackspacemigrations.com/).
 
   On the home page, you can see the status of your migration as well the Support ticket number used to track your migration. No automatic responses from this support ticket will be emailed to you, unless you log in to the control panel and update the ticket.
 
  ![Exchagne Upgrades 3.jpg]
 
-  You also have the ability to reschedule or cancel your migration before the scheduled time.
+  You can also reschedule or cancel your migration before the scheduled time by clicking the gear icon next to the domain you are migrating.
 
-When the migration completes you can log into your [Mail Control Panel](https://apps.rackspace.com/index.php) and manage the mailboxes.
+  ![Exchagne Upgrades 5.jpg]
+
+When the migration completes you can log into the [Mail Control Panel](https://apps.rackspace.com/) and manage the mailboxes.
 
  ![Exchagne Upgrades 5.jpg]
 
@@ -132,7 +134,7 @@ The reconfiguration prompt will occur in the following situations:
 
   - The user is using Outlook 2010 or 2013.
   - The user's profile was set up using Autodiscover.
-  - The Autodiscover CNAME points to **autodiscover.emailsrvr.com** and the profile was configured using Autodiscover._ _
+  - The Autodiscover CNAME points to **autodiscover.emailsrvr.com** and the profile was configured using Autodiscover.
 
 #### Is there any downtime?
 
