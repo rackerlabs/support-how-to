@@ -5,8 +5,8 @@ title: ObjectRocket Documentation
 type: article
 created_date: '2013-06-06'
 created_by: Jered Heeschen
-last_modified_date: '2014-03-13'
-last_modified_by: Ross Diaz
+last_modified_date: '2016-10-25'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,8 +15,6 @@ product_url: cloud-servers
 
 ObjectRocket is a Database as a Service based on the popular MongoDB
 database. The ObjectRocket infrastructure has been designed for MongoDB.
-
-Learn more by reading the [ObjectRocket API Overview and Concepts](https://docs.objectrocket.com/overview_and_concepts.html) documentation.
 
 Get to know ObjectRocket. [Watch an interview](http://www.youtube.com/watch?v=q_necZ_HG5g) with founder and
 Chief Architect, Kenny Gorman.
@@ -41,7 +39,7 @@ Read the [Getting Started Guide](https://docs.objectrocket.com/getting_started.h
 Data backups are provided so customers can have access to point in time
 copy of their data. Backups are taken at regular intervals.
 
-Learn more about Backups in the [Backup and Recovery Guide](https://docs.objectrocket.com/backup_and_recovery.html)
+Learn more about Backups in the [Backup and Recovery Guide](https://objectrocket.com/docs/mongodb_backup_and_recovery.html)
 
 ### The ObjectRocket API
 
@@ -51,7 +49,7 @@ ObjectRocket.
 
 [Overview](https://docs.objectrocket.com/api/overview.html)
 
--  [Authentication](https://docs.objectrocket.com/api/overview.html#authentication)
+-  [Authentication](https://objectrocket.com/docs/api_v2_getting_started.html#authentication)
 -  [Data Operations](https://docs.objectrocket.com/api/overview.html#operations)
 -  [Metadata Operations](https://docs.objectrocket.com/api/overview.html#metadata-operations)
 -  [cURL examples](https://docs.objectrocket.com/api/curl.html)
@@ -62,9 +60,12 @@ ObjectRocket.
 
 ### Connect via Native MongoDB Drivers
 
--   [Overview](https://docs.objectrocket.com/native_drivers.html#overview)
--   [Python example](https://docs.objectrocket.com/native_drivers.html#python)
--   [Node.js example](https://docs.objectrocket.com/native_drivers.html#node-js)
+-   [Overview](https://objectrocket.com/docs/mongodb_connection_examples.html)
+-   [Go example](https://objectrocket.com/docs/mongodb_go_examples.html)
+-   [PHP example](https://objectrocket.com/docs/mongodb_go_examples.html)
+-   [Node.js example](https://objectrocket.com/docs/mongodb_node_examples.html)
+-   [Python example](https://objectrocket.com/docs/mongodb_python_examples.html)
+-   [Ruby example](https://objectrocket.com/docs/mongodb_connection_examples.html)
 -   [C\#](https://docs.objectrocket.com/native_drivers.html#c)
 
 ### Tools
