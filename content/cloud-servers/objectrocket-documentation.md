@@ -32,7 +32,7 @@ steps:
 4.  Create a database
 5.  Add a Access Conrol List (ACL)
 
-Read the [Getting Started Guide](https://docs.objectrocket.com/getting_started.html)
+Read the [Getting Started Guide](https://objectrocket.com/docs/getting_started.html)
 
 ### Backup and Recovery Guide
 
@@ -47,7 +47,7 @@ The ObjectRocket API is a REST-based HTTP API over SSL. The API can be
 used in addition to and alongside with the MongoDB driver access into
 ObjectRocket.
 
-[Overview](https://docs.objectrocket.com/api/overview.html)
+[Overview](https://objectrocket.com/docs/api_v2_getting_started.html)
 
 -  [Authentication](https://objectrocket.com/docs/api_v2_getting_started.html#authentication)
 -  [Data Operations](https://docs.objectrocket.com/api/overview.html#operations)
@@ -85,7 +85,7 @@ Learn more about the tools and get access to their Github repos on [the Tools pa
 
 ### Have a question?
 
-Read the [FAQ](http://docs.objectrocket.com/faq.html).
+Read the [FAQ](https://objectrocket.com/docs/faq.html).
 
 ### Support
 
