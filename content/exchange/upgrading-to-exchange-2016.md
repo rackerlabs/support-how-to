@@ -91,29 +91,27 @@ The following items will affect the length of your migration:
   - Admin ID
   - Password
 
-2. The migration portal lists all of your domains that use Exchange services. Select the gear icon next to the domain you would like to upgrade:
+2. The migration portal lists all of your domains that use Exchange services. Select the gear icon next to the domain you wish to upgrade:
 
-  ![Exchagne Upgrades 1.jpg]
+  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-step-1.png %}" />
 
 3. Select a date and time to schedule the migration.
 
- ![Exchagne Upgrades 2.jpg]
+  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-2.png %}" />
 
 4. Click **Submit Migration**.
+
+  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-3.png %}" />  
 
 5. After the migration information has been submitted, you will be taken back to the [Rackspace migrations home page](https://rackspacemigrations.com/).
 
   On the home page, you can see the status of your migration as well the Support ticket number used to track your migration. No automatic responses from this support ticket will be emailed to you, unless you log in to the control panel and update the ticket.
 
- ![Exchagne Upgrades 3.jpg]
-
   You can also reschedule or cancel your migration before the scheduled time by clicking the gear icon next to the domain you are migrating.
 
-  ![Exchagne Upgrades 5.jpg]
+  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-5.png %}" />  
 
 When the migration completes you can log into the [Mail Control Panel](https://apps.rackspace.com/) and manage the mailboxes.
-
- ![Exchagne Upgrades 5.jpg]
 
 
 ### Frequently asked questions
