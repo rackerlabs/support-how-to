@@ -88,9 +88,9 @@ You can use the self-service tool to upgrade Exchange at any time. All users of 
 
 1. Log in to [Rackspacemigrations.com](https://rackspacemigrations.com/Account/Login) with the following information:
 
-  - Account number
-  - Admin ID
-  - Password
+   - Account number
+   - Admin ID
+   - Password
 
    The migration portal lists all of your domains that use Exchange services.
 
