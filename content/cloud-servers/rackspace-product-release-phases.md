@@ -24,7 +24,7 @@ ready.
 ### Early Access Program
 
 Access expanded to a larger number of customers. Varied support levels,
-no SLA, no pricing, often API only and is not production ready.
+no SLA, may or may not have pricing, often API only and is not production ready.
 
 ### Limited Availability
 
