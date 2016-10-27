@@ -1,25 +1,24 @@
 ---
-permalink: troubleshooting-alarms/
+permalink: troubleshooting-alerts/
 audit_date:
-title: Troubleshooting Alarms
+title: Troubleshooting alerts
 type: article
 created_date: '2012-09-04'
 created_by: Susan Million
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze Kratel
+last_modified_date: '2016-10-28'
+last_modified_by: Nate Archer
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
 When a monitoring check reaches or passes a specific threshold or value,
-an alarm is triggered and you'll receive a Warning or Critical email
+an alert is triggered and you'll receive a Warning or Critical email
 notification for the monitored resource. This article describes some
 simple troubleshooting steps that can help you diagnose the problem.
 
 ### Ping checks
 
-
-Ping checks typically monitor a server. If your ping check alarm is
+Ping checks typically monitor a server. If your ping check alert is
 triggered, you should immediately try to contact your server using the
 **ping** command.
 
@@ -28,12 +27,9 @@ Command Prompt, or a Linux shell:
 
     ping <target_hostname or ip_address>
 
-The following ehow article provides some helpful information about how
-to read the results of a ping test: [How to Read Ping Test
-Results](http://www.ehow.com/how_8241153_read-ping-test-results.html).
+If a host returns a result of `O packets received`, you might be experiencing network connection issues. Use the networking tool `traceroute` to diagnose any network issues. For more information on using ping and traceroute for network troubleshooting, see [Common network troubleshooting tools](how-to/common-network-troubleshooting-tools/).
 
-###HTTP checks
-
+### HTTP checks
 
 The HTTP check is used to check websites. If you receive a notification
 from an HTTP check, try the following preliminary troubleshooting steps:
@@ -75,8 +71,7 @@ The output should look something like this:
 
 ### TCP checks
 
-
-TCP checks monitor ports. If an alarm is triggered for a TCP check, try
+TCP checks monitor ports. If an alert is triggered for a TCP check, try
 to use Telnetto communicate with the target or scan your target for the
 open port.
 
@@ -97,11 +92,11 @@ To exit telnet, type `Ctrl  \]`, press the **Enter** key, and then type `quit`.
 
 ### Contact Rackspace Technical Support
 
-
 If you're unable to solve the problem using the steps outlined in this
-article, contact Rackspace Technical Support by using the Cloud Control
-Panel. Your options for contacting Rackspace are as follows:
+article, review the information in the following documents:
 
--   Open a Support Ticket
--   Use Live Chat
--   Call the toll free number for your area
+- [Rackspace Monitoring API status code reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#check-status-codes)
+
+- [Checks and Alarms](how-to/rackspace-monitoring-checks-and-alarms/)
+
+If you need more assistance, contact [Rackspace Support](https://www.rackspace.com/support).
