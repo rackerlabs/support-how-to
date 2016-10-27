@@ -50,13 +50,10 @@ ObjectRocket.
 [Overview](https://objectrocket.com/docs/api_v2_getting_started.html)
 
 -  [Authentication](https://objectrocket.com/docs/api_v2_getting_started.html#authentication)
--  [Data Operations](https://docs.objectrocket.com/api/overview.html#operations)
--  [Metadata Operations](https://docs.objectrocket.com/api/overview.html#metadata-operations)
--  [cURL examples](https://docs.objectrocket.com/api/curl.html)
--  [Python examples](https://docs.objectrocket.com/api/python.html)
--  [Node.js examples](https://docs.objectrocket.com/api/nodejs.html)
--  [Java examples](https://docs.objectrocket.com/api/java.html)
--  [PHP examples](https://docs.objectrocket.com/api/php.html)
+-  [General Resources](http://objectrocket.com/docs/api_v2_general_resources.html)
+-  [Instance Resources](http://objectrocket.com/docs/api_v2_instance_resources.html)
+-  [MongoDB Resources](http://objectrocket.com/docs/api_v2_mongodb_resources.html)
+-  [Redis Resources](http://objectrocket.com/docs/api_v2_redis_resources.html)
 
 ### Connect via Native MongoDB Drivers
 
@@ -67,21 +64,6 @@ ObjectRocket.
 -   [Python example](https://objectrocket.com/docs/mongodb_python_examples.html)
 -   [Ruby example](https://objectrocket.com/docs/mongodb_connection_examples.html)
 -   [C\#](https://docs.objectrocket.com/native_drivers.html#c)
-
-### Tools
-
-ObjectRocket has created a couple of example tools to use in conjunction
-with the ObjectRocket service. The ObjectRocket API makes it very easy
-to query the service for data and metadata for various things like
-monitoring or performance tools.
-
--   **Rocketstat** - Rocketstat is a clone of the popular
-    mongostat utility. This utility show various performance metrics
-    about the ObjectRocket instance.
--   **Rockettop** - RocketTop is a real-time statistics viewer
-    for ObjectRocket.
-
-Learn more about the tools and get access to their Github repos on [the Tools page](http://docs.objectrocket.com/tools.html).
 
 ### Have a question?
 
