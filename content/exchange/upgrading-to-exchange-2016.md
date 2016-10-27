@@ -92,7 +92,7 @@ You can use the self-service tool to upgrade Exchange at any time. All users of 
   - Admin ID
   - Password
 
-   The migration portal lists all of your domains that use Exchange services.
+  The migration portal lists all of your domains that use Exchange services.
 
 2. Click the gear icon next to the domain that you want to upgrade and select **Create migration**.
 
