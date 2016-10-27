@@ -52,7 +52,7 @@ Although we do not anticipate any issues with the migration, we recommend that y
 
 #### Autodiscover
 
-Ensure that your Autodiscover DNS record points to Rackspace. For instructions on setting up a DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/).
+Ensure that your Autodiscover DNS record points to Rackspace. For instructions on setting up a DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/).
 
 #### Public folders
 
