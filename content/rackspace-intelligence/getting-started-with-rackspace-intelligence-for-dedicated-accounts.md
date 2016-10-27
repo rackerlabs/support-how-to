@@ -43,7 +43,7 @@ As a customer with a dedicated account:
     accounts](/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
 -   [Learn about the differences between Rackspace Intelligence for
     Cloud accounts and for dedicated
-    accounts](/how-to/differences-between-rackspace-intelligence-for-cloud-accounts-and-dedicated-accounts)
+    accounts](/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account)
 
 **When you want to log into Rackspace Intelligence**
 
