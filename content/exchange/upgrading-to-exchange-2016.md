@@ -92,15 +92,15 @@ You can use the self-service tool to upgrade Exchange at any time. All users of 
   - Admin ID
   - Password
 
-  The migration portal lists all of your domains that use Exchange services.
+   The migration portal lists all of your domains that use Exchange services.
 
 2. Click the gear icon next to the domain that you want to upgrade and select **Create migration**.
 
-  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-step-1.png %}" />
+   <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-step-1.png %}" />
 
 3. On the Create Migration page, select a date and time to schedule the migration and then click **Next**.
 
-  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-2.png %}" />
+   <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-2.png %}" />
 
 4. On the confirmation page, verify the date and time, then click **Submit Migration**.
 
