@@ -64,7 +64,6 @@ ObjectRocket.
 -   [Node.js example](https://objectrocket.com/docs/mongodb_node_examples.html)
 -   [Python example](https://objectrocket.com/docs/mongodb_python_examples.html)
 -   [Ruby example](https://objectrocket.com/docs/mongodb_connection_examples.html)
--   [C\#](https://docs.objectrocket.com/native_drivers.html#c)
 
 ### Have a question?
 
