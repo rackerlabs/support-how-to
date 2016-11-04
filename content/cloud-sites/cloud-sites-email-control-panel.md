@@ -39,7 +39,7 @@ which gives you the flexibility to assign administrator permissions to all or
 to specific lists of domains.  You can also enable or disable two-factor
 authentication per user account.
 
-<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP4.png %}" width="655" height="299" />
+<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP4.png %}" width="400" height="150" />
 
 
 You can pick from three levels of permissions for the administration accounts.
