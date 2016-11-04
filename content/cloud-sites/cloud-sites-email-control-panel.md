@@ -18,7 +18,7 @@ capabilities.  This article describes some of the new features.
 ###Multi-tiered access###
 You can manage your email at either the mailbox or the domain level.
 
-<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSESCP2.png %}" width="655" height="299" />
+<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP2.png %}" width="655" height="299" />
 
 ###Spam management###
 You can manage your spam settings at either the mailbox or domain level. You
@@ -31,7 +31,7 @@ and enable mailboxes.  The control panel displays mailbox usage, so you can
 monitor your mailboxes at a glance. You can also export information about all
 your mailboxes or entire domains for local analysis.
 
-<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSESCP3.png %}" width="655" height="299" />
+<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP3.png %}" width="655" height="299" />
 
 ###Management logins###
 You can create and delete management logins for your team or your customers,
@@ -39,16 +39,16 @@ which gives you the flexibility to assign administrator permissions to all or
 to specific lists of domains.  You can also enable or disable two-factor
 authentication per user account.
 
-<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSESCP4.png %}" width="655" height="299" />
+<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP4.png %}" width="655" height="299" />
 
 
 You can pick from three levels of permissions for the administration accounts.
 You can restrict the limited administrator to specific tasks and abilities
 as dictated by your business needs.
 
-<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSESCP5.png %}" width="655" height="299" />
+<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP5.png %}" width="655" height="299" />
 
-<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSESCP6.png %}" width="655" height="299" />
+<img src="{% asset_path cloud-sites/cloud-sites-email-control-panel/CSECP6.png %}" width="655" height="299" />
 
 ###Additional capabilities###
 
