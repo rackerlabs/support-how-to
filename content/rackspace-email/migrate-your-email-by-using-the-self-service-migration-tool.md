@@ -5,15 +5,15 @@ title: Migrate your email by using the Self-Service Migration Tool
 type: article
 created_date: '2013-03-18'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-09-01'
-last_modified_by: Nate Archer
+last_modified_date: '2016-11-03'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
 This article demonstrates how to use the Self-Service Migration Tool
 provided in the Cloud Office Control Panel to copy email data from your
-current provider to Rackspace Email or Rackspace Hosted Exchange. The
+current provider to Rackspace Email, Rackspace Hosted Exchange, or Rackspace Office 365. The
 Self-Service Migration Tool uses our private-label version of
 MigrationWiz, which you can run at any time at no additional cost.
 
@@ -26,7 +26,7 @@ Self-Service Migration Tool. If you want to use the full version, see
 
 Perform the following actions before using the MigrationWiz tool.
 
-- Gather all email addresses, usernames, and passwords for mailboxes on both your source (current) and destination (Rackspace Email/Rackspace Hosted Exchange) mail servers. This information is required for migrating email data with the Self-Service Migration Tool.
+- Gather all email addresses, usernames, and passwords for mailboxes on both your source (current) and destination (Rackspace Email/Rackspace Hosted Exchange) mail servers. This information is required for migrating email data with the Self-Service Migration Tool. For Office 365, you can use admin credentials to verify your migration.
 
   **Note:** The username for a mailbox is typically the same username you would use to log in to the Outlook Web App (OWA) or webmail in a web browser. For Rackspace, the username is the full email address
 
@@ -56,10 +56,12 @@ mailboxes for you.
 
 Use the following resources to help you create your mailboxes:
 
--   Rackspace Email: [How to add Rackspace Email
-    mailboxes](/how-to/add-rackspace-email-mailboxes)
--   Microsoft Exchange: [How to add Microsoft Exchange
-    mailboxes](/how-to/adding-microsoft-exchange-mailboxes-0)
+- Rackspace Email: [How to add Rackspace Email mailboxes](/how-to/add-rackspace-email-mailboxes)
+- Microsoft Exchange: [How to add Microsoft Exchange mailboxes](/how-to/adding-microsoft-exchange-mailboxes-0)
+- Rackspace Office 365:
+  - [Add users](https://support.office.com/en-US/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)
+  - [Create shared mailboxes](https://support.office.com/en-us/article/Create-shared-mailboxes-in-Office-365-871a246d-3acd-4bba-948e-5de8be0544c9)
+
 
 ### Migrate your email
 
@@ -104,7 +106,7 @@ Use the following resources to help you create your mailboxes:
         server address. For IMAP, you must also enter a port number.
         IMAP ports are 993 (SSL) and 143 (non-SSL).
     B.  For the destination server, select the service that you are
-        migrating to, Rackspace Email or Rackspace Exchange 2016.
+        migrating to, Rackspace Email, Rackspace Exchange 2016, or Microsoft Office 365.
     C.  Click **Next**.    
 
     **Note:** : If you are migrating to a hybrid solution (both Rackspace Email and Rackspace Exchange), you need to create more than one migration project. Step 12 explains how to start a new project when the current one is completed.
