@@ -19,7 +19,7 @@ You need to set up the Autodiscover record for your domain name to have the foll
 1. Setup Outlook 2007/2010/2013/2016 for Windows setup using Autodiscovery.
 2. Setup Outlook 2011/2016 for Mac using Autodiscovery.
 3. Free/Busy information for Calendar Scheduling
-4. Out of Office Setup and Management messages setup in Outlook.
+4. Out of Office setup and management through Outlook.
 **Note**: Without the Autodiscover record you can use Outlook Web Access to set up automatic replies. 
 5. Offline Address Book synchronization.
 6. Sharing Calendars, Contacts, and Folders using Sharing invitation within Outlook.
