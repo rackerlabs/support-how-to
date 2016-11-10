@@ -302,23 +302,23 @@ The following changes should occur:
 -   The path `%programfiles%\driveclient` contains a single file:
     install.log
 
-    C:\>dir %programfiles%\driveclient /a-d
-     Volume in drive C is OS
-     Volume Serial Number is EE4C-78FC
-     Directory of C:\Program Files\driveclient
-    10/05/2011  01:29 PM           607,013 install.log
-                  1 File(s)        607,013 bytes
-                   2 Dir(s)  449,805,914,112 bytes free
+        C:\>dir %programfiles%\driveclient /a-d
+         Volume in drive C is OS
+         Volume Serial Number is EE4C-78FC
+         Directory of C:\Program Files\driveclient
+        10/05/2011  01:29 PM           607,013 install.log
+                      1 File(s)        607,013 bytes
+                       2 Dir(s)  449,805,914,112 bytes free
 
 -   The %programdata%\\driveclient path does not exist.
 
-    C:\>dir "%programdata%\driveclient"
-     Volume in drive C is OS
-     Volume Serial Number is EE4C-78FC
+        C:\>dir "%programdata%\driveclient"
+         Volume in drive C is OS
+         Volume Serial Number is EE4C-78FC
 
-     Directory of C:\ProgramData
+         Directory of C:\ProgramData
 
-    File Not Found
+        File Not Found
 
 -   No driveclient.exe entry exists in **Control Panel > Programs
     and Features**.
