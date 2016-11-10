@@ -249,7 +249,7 @@ and download the MSI for this version at <http://agentrepo.drivesrvr.com/win64/o
 
 The following changes should occur:
 
--   The %programdata%\driveclient path contains files and folders that you can use to reinstall
+-   The `%programdata%\driveclient` path contains files and folders that you can use to reinstall
     the agent without re-registering, if desired. If you are sure that you will not reinstall
     the agent, these files and folders may be deleted.
 
@@ -274,10 +274,10 @@ The following changes should occur:
                        5 Dir(s)   6,035,111,936 bytes free
 
 
--   No driveclient.exe entry exists in **Control Panel > Programs
+-   No `driveclient.exe` entry exists in **Control Panel > Programs
     and Features**.
 
--   No DriveClientSvc service is installed.
+-   No `DriveClientSv`c service is installed.
 
         C:\>sc query driveclient
         [SC] EnumQueryServicesStatus:OpenService FAILED 1060:
@@ -310,7 +310,7 @@ The following changes should occur:
                       1 File(s)        607,013 bytes
                        2 Dir(s)  449,805,914,112 bytes free
 
--   The %programdata%\\driveclient path does not exist.
+-   The `%programdata%\\driveclient` path does not exist.
 
         C:\>dir "%programdata%\driveclient"
          Volume in drive C is OS
@@ -320,10 +320,10 @@ The following changes should occur:
 
         File Not Found
 
--   No driveclient.exe entry exists in **Control Panel > Programs
+-   No `driveclient.exe` entry exists in **Control Panel > Programs
     and Features**.
 
--   No DriveClientSvc service is installed.
+-   No `DriveClientSvc` service is installed.
 
 -   There should be no scheduled tasks to "check for
     driveclient update".
