@@ -5,8 +5,8 @@ title: Install the Cloud Backup agent on Windows
 type: article
 created_date: '2014-05-01'
 created_by: Megan Meza
-last_modified_date: '2016-07-12'
-last_modified_by: Catherine Richardson
+last_modified_date: '2016-11-10'
+last_modified_by: Nate Archer
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -85,7 +85,7 @@ See the Test Windows installation or update section below for the verification s
 
 #### Silent installation
 
-See [Rackspace Cloud Backup - Install the agent on Windows by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
+See [Install the agent on Windows by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
 
 **Note:** The silent installation works only when you run it from the
 administrator account of the server.
@@ -249,7 +249,7 @@ and download the MSI for this version at <http://agentrepo.drivesrvr.com/win64/o
 
 The following changes should occur:
 
--   The %programdata%\driveclient path contains files and folders that you can use to reinstall
+-   The `%programdata%\driveclient` path contains files and folders that you can use to reinstall
     the agent without re-registering, if desired. If you are sure that you will not reinstall
     the agent, these files and folders may be deleted.
 
@@ -274,10 +274,10 @@ The following changes should occur:
                        5 Dir(s)   6,035,111,936 bytes free
 
 
--   No driveclient.exe entry exists in **Control Panel > Programs
+-   No `driveclient.exe` entry exists in **Control Panel > Programs
     and Features**.
 
--   No DriveClientSvc service is installed.
+-   No `DriveClientSv`c service is installed.
 
         C:\>sc query driveclient
         [SC] EnumQueryServicesStatus:OpenService FAILED 1060:
@@ -302,28 +302,28 @@ The following changes should occur:
 -   The path `%programfiles%\driveclient` contains a single file:
     install.log
 
-    C:\>dir %programfiles%\driveclient /a-d
-     Volume in drive C is OS
-     Volume Serial Number is EE4C-78FC
-     Directory of C:\Program Files\driveclient
-    10/05/2011  01:29 PM           607,013 install.log
-                  1 File(s)        607,013 bytes
-                   2 Dir(s)  449,805,914,112 bytes free
+        C:\>dir %programfiles%\driveclient /a-d
+         Volume in drive C is OS
+         Volume Serial Number is EE4C-78FC
+         Directory of C:\Program Files\driveclient
+        10/05/2011  01:29 PM           607,013 install.log
+                      1 File(s)        607,013 bytes
+                       2 Dir(s)  449,805,914,112 bytes free
 
--   The %programdata%\\driveclient path does not exist.
+-   The `%programdata%\\driveclient` path does not exist.
 
-    C:\>dir "%programdata%\driveclient"
-     Volume in drive C is OS
-     Volume Serial Number is EE4C-78FC
+        C:\>dir "%programdata%\driveclient"
+         Volume in drive C is OS
+         Volume Serial Number is EE4C-78FC
 
-     Directory of C:\ProgramData
+         Directory of C:\ProgramData
 
-    File Not Found
+        File Not Found
 
--   No driveclient.exe entry exists in **Control Panel > Programs
+-   No `driveclient.exe` entry exists in **Control Panel > Programs
     and Features**.
 
--   No DriveClientSvc service is installed.
+-   No `DriveClientSvc` service is installed.
 
 -   There should be no scheduled tasks to "check for
     driveclient update".
