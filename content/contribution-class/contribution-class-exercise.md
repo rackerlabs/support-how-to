@@ -20,6 +20,7 @@ Answer each of the following questions by typing one of the answer options provi
 Yes
 Yes
 Somewhat
+Yes
 **Answer options**
 - Yes 
 - Somewhat
@@ -31,6 +32,7 @@ Somewhat
 Somewhat Often
 Somewaht often
 Somewhat Often
+Somewhat Often
 **Answer options**
 - Often
 - Somewhat often
@@ -40,6 +42,7 @@ Somewhat Often
 Yes
 Yes
 Yes
+Yes, if they have a need to edit the How-To
 **Answer options**
 - Yes
 - No
@@ -48,6 +51,7 @@ Yes
 Yes
 Yes
 Yes
+No
 **Answer options**
 - Yes
 - No
