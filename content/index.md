@@ -13,6 +13,9 @@ permalink: /
 					<li><a id="cloud-ctrl" class="inactive">Cloud Hosting</a></li>
 					<li><a id="office-ctrl" class="inactive">Cloud Office</a></li>
 					<li>
+						<a href="/how-to/dedicated-hosting">Dedicated Hosting</a>
+                    </li>
+					<li>
 						<a href="https://developer.rackspace.com/docs/user-guides/infrastructure/" class="inactive">Cloud User Guide</a>
 					</li>
 				</ul>
@@ -192,53 +195,6 @@ permalink: /
 							</p>
 						</aside>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row content home inactive product-type" id="get-start-display">
-			<div class="twelve columns" id="inf-guide-callout">
-				<div class="eight columns">
-					<h4>Cloud User Guide</h4>
-					<p>Discover the services at the heart of the Rackspace cloud: Servers, Networks, Images, Storage, Files. Understand how they work together to help you perform the tasks essential to your business. Learn how to interact with these core services and how the Rackspace cloud gives you a new way to get your work done.</p>
-				</div>
-				<div class="four columns">
-					<aside class="cta">
-						<p class="button">
-							<a href="https://developer.rackspace.com/docs/user-guides/infrastructure/" id="guide-button" class="banner-button">Read the User Guide</a>
-						</p>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row content home inactive" id="sdks-display">
-			<div class="product-type-sdks">
-				<div class="six columns primary">
-					<p>Speed up development by leveraging an SDK with the language of your choice.</p>
-					<a href="https://developer.rackspace.com/docs/">Rackspace Develop Docs</a>
-				</div>
-				<div class="six columns">
-					<ul id="sdk-list">
-						<a href="https://developer.rackspace.com/docs/rack-cli/"><li>
-							<i class="icon-terminal"></i>CLI</li></a>
-						<a href="https://developer.rackspace.com/sdks/golang/"><li><i class="icon-gopher"></i>Go
-						</li></a>
-						<a href="https://developer.rackspace.com/sdks/python/"><li><i class="icon-python"></i>Python
-						</li></a>
-						<a href="https://developer.rackspace.com/sdks/dot-net/"><li><i class="icon-dot-net"></i>.NET
-						</li></a>
-						<a href="https://developer.rackspace.com/sdks/java/"><li><i class="icon-java"></i>Java
-						</li></a>
-						<a href="https://developer.rackspace.com/sdks/php/"><li><i class="icon-php"></i>PHP</li>
-						</a>
-						<a href="https://developer.rackspace.com/sdks/node-js/"><li><i class="icon-js"></i>Node.js
-						</li></a>
-						<a href="https://developer.rackspace.com/sdks/ruby/"><li><i class="icon-ruby"></i>Ruby
-						</li></a>
-					</ul>
 				</div>
 			</div>
 		</div>
