@@ -5,8 +5,8 @@ title: Rackspace Private Cloud Documentation
 type: article
 created_date: '2014-06-16'
 created_by: Karin Levenstein
-last_modified_date: '2016-08-02'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-11-10'
+last_modified_by: Cat Lookabaugh
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
