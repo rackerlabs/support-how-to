@@ -12,7 +12,9 @@ permalink: /
 				<ul>
 					<li><a id="cloud-ctrl" class="inactive">Cloud Hosting</a></li>
 					<li><a id="office-ctrl" class="inactive">Cloud Office</a></li>
-					<li><a id="hosting-ctrl" class="inactive">Dedicated Hosting</a></li>
+					<li>
+						<a href="/how-to/dedicated-hosting">Dedicated Hosting</a>
+                    </li>
 					<li>
 						<a href="https://developer.rackspace.com/docs/user-guides/infrastructure/" class="inactive">Cloud User Guide</a>
 					</li>
@@ -195,29 +197,6 @@ permalink: /
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row content home inactive product-type" id="hosting-display">
-			<div class="row">
-				<h3>Dedicated Hosting</h3>
-				<div class="twelve columns">
-					<div class="three columns icon servers primary">
-						<h4><a href="/how-to/cloud-servers/"><span>Cloud</span> Servers</a></h4>
-					</div>
-					<div class="three columns icon sites">
-						<h4><a href="/how-to/cloud-sites/"><span>Cloud</span> Sites</a></h4>
-					</div>
-					<div class="three columns icon images">
-						<h4><a href="/how-to/cloud-images/"><span>Cloud</span> Images</a></h4>
-					</div>
-					<div class="three columns icon vmware">
-						<h4><a href="/how-to/managed-vmware-services/"><span>Managed</span> VMware Services</a>
-						</h4>
-					</div>
-				</div>
-			</div>
-			<hr/>
 		</div>
 	</div>
 	<div class="river">
