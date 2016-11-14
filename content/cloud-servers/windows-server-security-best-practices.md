@@ -61,9 +61,11 @@ Port   |  Service
 80     | HTTP - IIS sites or web application
 443 HTTPS | Secure IIS sites or web applications with SSL
 
+
 We recommend locking down the following ports via IP address
 whitelisting on the public interface to limit brute-force attacks or
 exploitation attempts against commonly named accounts or services on the server:
+
 
 Port  | Description
 ------|------------
@@ -154,7 +156,7 @@ occurs on the second Tuesday of each month in North America, is the day
 on which Microsoft regularly releases security patches. Each customer
 must decide how best to implement a patching strategy that will keep
 their server up to date. Remember to reboot your server to complete
-pending windows updates because most updates require a reboot.
+pending windows updates since most updates require a reboot.
 By default, Rackspace Cloud Servers are set up to check for updates
 between 2 a.m. and 4 a.m. every day.
 
@@ -185,7 +187,7 @@ instance from a Cloud Image is always a good idea to ensure that the
 image is good, and restoring a file from Cloud Backups helps to verify
 that the data being backed up can be restored.
 
-### Code
+### Code attacks
 
 The last attack surface exposed to the Internet is the code. You and
 your developer must ensure that the code is enforcing proper
@@ -200,10 +202,10 @@ for improving the ASP .Net security can be found at the following sites:
 -  <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
 -   <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
 
-Last, use certificates purshased from certitificate authorities to enable
-HTTPS connections in favor of HTTP. The use of HTTPS will contribute to
-protect against man-in-the-middle attacks and eavesdroppings ,
-therefore improve the security between the client and the server.
+Lastly, use certificates purchased from certificate authorities to enable
+HTTPS connections in favor of HTTP. The use of HTTPS
+protects against man-in-the-middle attacks and unwanted users listening in on the server.
+
 
 ### Conclusion
 
