@@ -30,7 +30,7 @@ on installing this agent, see [Rackspace Cloud Backup - Install the agent (Windo
 To set up your backup directory and a schedule for exporting your backup
 to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/how-to/rackspace-cloud-backup-create-a-backup).
 
-**Note**: Cloud Backup does not back up live databases. If you wish to use data from a live database, it is recommended that you configure Microsoft SQL to take a local backup using Microsoft SQL Server Management Studio, then use the Cloud Backup agent to take a backup of the database. 
+**Note**: Cloud Backup does not back up live databases. If you wish to use data from a live database, it is recommended that you configure Microsoft SQL (MSSQL) to take a local backup, then use the Cloud Backup agent to take a backup of the database. For more information about taking a local backup with MSSQL, see [Create a maintenance backup place in SQL Server 2008 R2](/how-to/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard).
 
 You can find more information about Cloud Backup
 at <http://www.rackspace.com/cloud/backup>.
