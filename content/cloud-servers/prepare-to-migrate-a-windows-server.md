@@ -5,8 +5,8 @@ title: Prepare to migrate a Windows server
 type: article
 created_date: '2015-01-22'
 created_by: Hounsou Dansou
-last_modified_date: '2016-01-07'
-last_modified_by: Renee Rendon
+last_modified_date: '2016-11-14'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -27,12 +27,10 @@ important data. Rackspace offers a backup solution, Cloud Backup, which
 requires a backup agent to be installed on the server. For instructions
 on installing this agent, see [Rackspace Cloud Backup - Install the agent (Windows)](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
 
-**Note**: Cloud Backup does not back up live databases. The first step
-for backing up a Microsoft SQL Server database is through Microsoft SQL
-Server Management Studio.
-
 To set up your backup directory and a schedule for exporting your backup
 to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/how-to/rackspace-cloud-backup-create-a-backup).
+
+**Note**: Cloud Backup does not back up live databases. If you wish to use data from a live database, it is recommended that you configure Microsoft SQL to take a local backup using Microsoft SQL Server Management Studio, then use the Cloud Backup agent to take a backup of the database. 
 
 You can find more information about Cloud Backup
 at <http://www.rackspace.com/cloud/backup>.
