@@ -5,8 +5,8 @@ title: Cloud Servers with Managed Operations support for Linux
 type: article
 created_date: '2011-05-26'
 created_by: David Hendler
-last_modified_date: '2016-01-21'
-last_modified_by: Zach Corleissen
+last_modified_date: '2016-11-14'
+last_modified_by: Nate Archer
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -23,6 +23,7 @@ The Managed Operations spheres of support include the following operating system
 - Debian 7 (Wheezy) (PVHVM)
 - Red Hat Enterprise Linux 7 (PVHVM)
 - Red Hat Enterprise Linux 6 (PVHVM)
+- Ubuntu 16.04 LTS (Xenial Xerus) (PVHVM) 
 - Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM)
 - Ubuntu 12.04 LTS (Precise Pangolin) (PVHVM)
 - Vyatta Network OS (6.7R9)
