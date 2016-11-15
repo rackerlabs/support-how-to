@@ -35,13 +35,10 @@ of existing stacks.
 to add a WordPress site.
 
 4. From the list of servers, click the name of the backend server to view
-its details page.
-
-   On the backend server's detail page, you will find the PublicNet IP address
-   in the Networks section.
-
-  **Note:** If "backend" does not appear on your server list, find the details
-  for "database", which acts as your backend server.
+its details page. Find the PublicNet IP address on the backend server's detail
+page in the Networks section. If "backend" does not appear on your server list,
+look for "database" in the server list, because the database server acts as
+your backend server.
 
 5. Use the public IP address from the server details page and the private key,
 which was provided when the stack was created, to connect to the backend server
@@ -49,11 +46,11 @@ with SSH.
 
         ssh user@<ip_address_of_backend_server> -i /path/to/key
 
-  If you do not have the private key, you can reset the backend server's root
-  password. For help connecting to your server by using SSH, see the articles
-  on using SSH with a private key in our How To center for
-  [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or
-  [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
+   If you do not have the private key, you can reset the backend server's root
+   password. For help connecting to your server by using SSH, see the articles
+   on using SSH with a private key in our How To center for
+   [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or
+   [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
 ### Set up a database
 
@@ -75,9 +72,9 @@ strong password.
 
 4. Grant access to the database for this user.
 
-  In the following example, we grant the user access to all `10.x.x.x` IP
-  addresses. However, for additional security, replace this with the specific
-  ServiceNet IP addresses of your web servers.
+   In the following example, we grant the user access to all `10.x.x.x` IP
+   addresses. However, for additional security, replace this with the specific
+   ServiceNet IP addresses of your web servers.
 
         grant all on `blogsrock_rackspace_com`.* to blogsrockuser'@'10.% identified by mypassword;
 
@@ -90,8 +87,8 @@ Now that the database is ready, you can install WordPress on the master node.
 
 1. From the stack's detail page, click the link for the "master" server.
 
-  On the master server's detail page, find the PublicNet IP address in the
-  Networks section.
+   On the master server's detail page, find the PublicNet IP address in the
+   Networks section.
 
 2. Use the following command to connect to the server with `ssh`.  Use your IP
 address and private key.
@@ -140,11 +137,12 @@ a new WordPress config file.
 7. Edit the configuration file, and add some extra entries to help with file
 permissions and load balancing.
 
-  For HTTP-only sites, make the necessary changes by using the following command:
+   For HTTP-only sites, make the necessary changes by using the following
+   command:
 
         sudo bash -c "echo -e "define('FS_METHOD', \"direct\");\ndefine('FS_CHMOD_DIR', (02775 & ~umask()));\ndefine('FS_CHMOD_FILE', (0664 & ~ umask()));\ndefine('FORCE_SSL_ADMIN', false);\nif ( isset(\$_SERVER['HTTP_X_PROXY_PROTO']) && \$_SERVER['HTTP_X_PROXY_PROTO'] == 'HTTPS' ) { \$_SERVER['HTTPS'] = 1; }" >> wp-config.php"
 
-  If you are running an HTTPS site, use the following command instead:
+   If you are running an HTTPS site, use the following command instead:
 
         sudo bash -c "echo -e "define('FS_METHOD', \"direct\");\ndefine('FS_CHMOD_DIR', (02775 & ~umask()));\ndefine('FS_CHMOD_FILE', (0664 & ~ umask()));\ndefine('FORCE_SSL_ADMIN', true);\nif ( isset($_SERVER['HTTP_X_PROXY_PROTO']) && \$_SERVER['HTTP_X_PROXY_PROTO'] == 'HTTPS' ) { \$_SERVER['HTTPS'] = 1; }" >> wp-config.php"
 
@@ -153,7 +151,7 @@ API.
 
         curl -q https://api.wordpress.org/secret-key/1.1/salt/
 
-  You should get output similar to the following:
+   You should get output similar to the following:
 
         define('AUTH_KEY',         'V}zrS|PsyH3]!p!AEufS{7:Jjy);(ooKx/aG-S6VWcpd3D47zc3Xr~2=.W3|Yfw:');
         define('SECURE_AUTH_KEY',  'w1|o-0:5i};kj&V1SY}2O[2MGTwo8NhoI2+Gmj!qDgG<~1A+*,DAQ?^0xO_&g%se');
@@ -166,7 +164,7 @@ API.
 
 ### Set up the system
 
-Now you should make some changes to the system to accommodate the new WordPress
+Now, you should make some changes to the system to accommodate the new WordPress
 site.
 
 1. Use the following command to create a new user for the site, setting the
@@ -197,8 +195,8 @@ the new site.
 
         sudo mv iloveblog.rackspace.com__http.conf blogsrock.rackspace.com__http.conf
 
-  If your site supports HTTPS you'll also need to rename the copied HTTPS
-  configuration file, by using the following command.
+   If your site supports HTTPS you'll also need to rename the copied HTTPS
+   configuration file, by using the following command.
 
         sudo mv iloveblog.rackspace.com__https.conf blogsrock.rackspace.com__https.conf
 
@@ -207,8 +205,8 @@ name of the new site in place of the existing site.
 
         sudo sed -i 's/iloveblog.rackspace.com/blogsrock.rackspace.com/g' blogsrock.rackspace.com__http.conf
 
-  If your site supports HTTPS you'll need to make the same change to the HTTPS
-  file by using the following command.
+   If your site supports HTTPS you'll need to make the same change to the HTTPS
+   file by using the following command.
 
         sudo sed -i 's/iloveblog.rackspace.com/blogsrock.rackspace.com/g' blogsrock.rackspace.com__https.conf
 
@@ -233,7 +231,7 @@ you created for the site in Step 1 of this section.
 After configuring the system for the new WordPress site, you need to create an
 Apache virtual host configuration file for the new site.
 
-1.  Use the following command to change to Apache's sites-available directory.
+1. Use the following command to change to Apache's sites-available directory.
 
         cd /etc/apache2/sites-available
 
@@ -267,11 +265,11 @@ SSH private key. Replace `nano` in that command with your text editor of choice.
 3. Add the stack's SSH private key to the file and save the change. If the file
 isn't empty, add the key on a new line at the end of the file.
 
-4.  Use the following command to change permissions on the key file so only root can access it.
+4. Use the following command to change permissions on the key file so only root can access it.
 
         chmod 600 ~/.ssh/id_rsa
 
-5.  Use the following commands to install `pssh` on the master server.
+5. Use the following commands to install `pssh` on the master server.
 
         apt-get update
         apt-get install pssh
@@ -289,7 +287,7 @@ node, again adding `-H` flags for each additional slave node.
 
         parallel-ssh -P -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" id wp_user2
 
-  You should see something similar to the following from each slave node:
+   You should see something similar to the following from each slave node:
 
         uid=1001(wp_user2) gid=1001(wp_user2) groups=1001(wp_user2),33(www-data)
 
@@ -298,12 +296,12 @@ server to each slave server using `rsync`.
 
         rsync -avz -e ssh /var/www/vhosts/blogsrock.rackspace.com root@<slave_node_ip>:/var/www/vhosts
 
-  Repeat the `rsync` for each slave node in your stack.
+   Repeat the `rsync` for each slave node in your stack.
 
-9.  Copy the Apache configuration file to the slave nodes.
+9. Copy the Apache configuration file to the slave nodes.
 
-  To make things easier, use a loop with the `parallel-scp` command (part of
-  the `pssh` package). Add extra `-H` flags for each additional slave node.
+   To make things easier, use a loop with the `parallel-scp` command (part of
+   the `pssh` package). Add extra `-H` flags for each additional slave node.
 
         for file in /etc/apache2/sites-available/blogsrock.rackspace.com.conf; do parallel-scp -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" $file $file; done
 
@@ -325,10 +323,5 @@ the master server and slave nodes.
 server and slave nodes.
 
         parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service apache2 reload; service apache2 reload
-
-4. Use the following command to reload Varnish's configuration on the master
-server and slave nodes.
-
-        parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service varnish reload; service varnish reload
 
 Your new WordPress site should now be online.
