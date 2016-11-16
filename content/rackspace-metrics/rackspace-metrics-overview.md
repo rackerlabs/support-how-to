@@ -108,16 +108,16 @@ the output, including the following ones:
 
 If you want more information about Rackspace Metrics, such as access
 endpoints, how to determine your tenant ID and retrieve authentication
-tokens, and supported request options, see the [Rackspace Metrics Getting Started Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-getting-started)
-and the [Rackspace Metrics Developer Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-developer-guide).
+tokens, and supported request options, see the [Rackspace Metrics Getting Started Guide](https://developer.rackspace.com/docs/metrics/v2/getting-started/)
+and the [Rackspace Metrics General API Info](https://developer.rackspace.com/docs/metrics/v2/general-api-info/).
 
 ### Get help and provide feedback
 
 During the Early Access program, support for Rackspace Metrics will be
 available via email only during regular business hours. If you have
 further questions or a suggestion, contact us at
-<cloudmetrics-earlyaccess@rackspace.com>.
+<metrics-ea@rackspace.com>.
 
 Your feedback is a key ingredient of Rackspace's success. If you have
 suggestions for enhancements to Rackspace Metrics, contact us at
-<cloudmetrics-earlyaccess@rackspace.com>.
+<metrics-ea@rackspace.com>.
