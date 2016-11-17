@@ -79,7 +79,7 @@ to users through the Query API.  When accessing data through the Query
 API, a user must have the appropriate role.
 
 To obtain access to the Rackspace Metrics Ingestion API, sign up through
-[Early Access Program](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#early-access-program).
+[Early Access Program](<http://go.rackspace.com/metrics>).
 
 ### How to add the appropriate roles
 
