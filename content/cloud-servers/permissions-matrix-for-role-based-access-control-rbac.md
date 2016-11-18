@@ -46,8 +46,10 @@ Product | ADMIN | CREATOR | OBSERVER
 ### Account Access
 
 ACCOUNT ACCESS | ADMIN | OBSERVER
--------------- | --- | --- 
+-------------- | --- | ---
 [Billing Services](/how-to/detailed-permissions-matrix-for-billing-services) | **YES** | **YES**
 [Payment Services](/how-to/detailed-permissions-matrix-for-billing-services) | **YES** | **YES**
 
 ### Related articles
+
+<!-- link to product specific permissions matrix articles here -->
