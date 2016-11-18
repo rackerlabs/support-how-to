@@ -71,7 +71,7 @@ pending because of updates. Pending Windows updates can cause errors when run on
 newly migrated server, so it is important to ensure that updates are completed before
 imaging or migrating a server and that any pending reboots are performed.
 
-** Windows Server 2008 and 2008 R2**
+**Windows Server 2008 and 2008 R2**
 
 1.  Click **Start > Control Panel**.
 2.  Click **Windows Update**.
