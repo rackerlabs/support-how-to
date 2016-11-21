@@ -1,19 +1,22 @@
 ---
 permalink: permissions-matrix-for-auto-scale/
 audit_date:
-title: Permissions Matrix for Auto Scale
+title: Permissions Matrix for Rackspace Auto Scale
 type: article
 created_date: '2013-09-04'
 created_by: Renee Rendon
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze Kratel
+last_modified_date: '2016-11-21'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-The following permissions matrix displays specific permissions for roles in Rackspace Auto Scale. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
+The Rackspace Auto Scale permissions matrix displays specific permissions for the following roles:
 
-### As of November 11, 2013
+- **Admin** - provides full access to create, read, update, and delete.
+- **Observer** - provides read-only access.
+
+The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
 | Method | API Action | Role | Description |
 | ------ | ---------- | ---- | ----------- |
@@ -40,4 +43,6 @@ The following permissions matrix displays specific permissions for roles in Rack
 | Delete a Webhook | `DELETE /groups/{groupId}/policies/{policyId}/webhook/{webhookId}` | **Admin Only** | Deletes a webhook. |
 | View Webhook Info | `GET /groups/{groupId}/policies/{policyId}/webhook/{webhookId}` | **Admin Only** | Describes one webhook. |
 
-**Related article** - [Permission Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+### Related article
+
+[Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)

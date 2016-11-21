@@ -34,7 +34,7 @@ Product | ADMIN | CREATOR | OBSERVER
 [Cloud Networks](/how-to/permissions-matrix-for-cloud-networks) | **YES** | **YES** | **YES**
 [Cloud Monitoring](/how-to/detailed-permissions-matrix-for-rackspace-monitoring) | **YES** | **YES** | **YES**
 [Cloud Block Storage](/how-to/permissions-matrix-for-cloud-block-storage) | **YES** | **YES** | **YES**
-[Auto Scale](/how-to/permissions-matrix-for-auto-scale) | **YES** | **NO** | **YES**
+[Rackspace Auto Scale](/how-to/permissions-matrix-for-auto-scale) | **YES** | **NO** | **YES**
 [Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images) | **YES** | **YES** | **YES**
 [Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data) | **YES** | **YES** | **YES**
 [Cloud Big Data v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | **YES** | **YES** | **YES**
@@ -49,7 +49,3 @@ ACCOUNT ACCESS | ADMIN | OBSERVER
 -------------- | --- | ---
 [Billing Services](/how-to/detailed-permissions-matrix-for-billing-services) | **YES** | **YES**
 [Payment Services](/how-to/detailed-permissions-matrix-for-billing-services) | **YES** | **YES**
-
-### Related articles
-
-<!-- link to product specific permissions matrix articles here -->
