@@ -11,7 +11,7 @@ product: Cloud Sites
 product_url: cloud-sites
 ---
 
-**Important Note:** Disabling a mailbox prevents the user from logging into the mailbox. The mailbox still receives email, and forwarding rules still apply.
+**Important:** Disabling a mailbox prevents the user from logging into the mailbox. The mailbox still receives email, and forwarding rules still apply.
 
 ### Enable or disable a mailbox within your Cloud Sites Email Control Panel
 
