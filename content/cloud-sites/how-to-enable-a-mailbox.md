@@ -13,7 +13,7 @@ product_url: cloud-sites
 
 **Important Note:** Disabling a mailbox prevents the user from logging into the mailbox. The mailbox still receives email, and forwarding rules still apply.
 
-###Enable or disable a mailbox within your Cloud Sites Email Control Panel
+### Enable or disable a mailbox within your Cloud Sites Email Control Panel
 
 1. Log in to the [**Cloud Sites Email Control Panel**](https://cloudsites.mycpsrvr.com/) using your username and password.
 
@@ -23,7 +23,7 @@ product_url: cloud-sites
 
 4. Click on **Enable** or **Disable** to the right of the mailbox name.
 
-####Enable or disable multiple mailboxes within your Cloud Sites Email Control Panel
+#### Enable or disable multiple mailboxes within your Cloud Sites Email Control Panel
 
 1. When viewing the list of mailboxes, place a checkmark to the left of each email address that you would like to enable or disable.
 
