@@ -19,7 +19,7 @@ applications to your server.
 ### Download Web PI
 
 Download the most recent version of Web PI on your server from
-[http://www.microsoft.com/web/downloads/platform.aspx](http://www.microsoft.com/web/downloads/platform.aspx.).
+[http://www.microsoft.com/web/downloads/platform.aspx](http://www.microsoft.com/web/downloads/platform.aspx).
 
 ### Install MySQL
 
