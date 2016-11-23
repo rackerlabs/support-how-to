@@ -1,7 +1,7 @@
 ---
-permalink: setting-up-autodiscover-for-outlook/
+permalink: set-up-autodiscover-for-outlook/
 audit_date:
-title: Setting up Autodiscover for Outlook
+title: Set up Autodiscover for Outlook
 type: article
 created_date: '2016-10-25'
 created_by: Aaron Medrano
