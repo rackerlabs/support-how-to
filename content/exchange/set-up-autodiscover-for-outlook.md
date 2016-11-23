@@ -35,18 +35,19 @@ You need to set up the Autodiscover record for your domain name in order to have
 
 **Note:** You can use the Outlook Web App to set-up out of office automatic replies without Autodiscover
 
-### Set up the autodiscover DNS record
+### Set up the Autodiscover DNS record
 
 To set-up the special autodiscover DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/#autodiscover-records).
 
-#### Text autodiscover functionality in Outlook
+#### Test Autodiscover functionality in Outlook
 
 To determine if the Autodiscover service is configured properly, you may use the **Test E-mail AutoConfiguration tool** in Outlook.
 
 1. While Outlook is running, hold down the CTRL key, right-click the Outlook icon in your system tray or notification area on the lower right corner of the screen.
 
 2. Select **Test E-mail AutoConfiguration**.
-<![autodiscover1.jpg]>
+
+    <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover1.png %}" alt="" />
 
 3. Enter your email address and password.
 
@@ -54,7 +55,7 @@ To determine if the Autodiscover service is configured properly, you may use the
 
 5. Select **Test** to run the test.
 
-<![autodiscover2.jpg]>
+    <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover2.png %}" alt="" />
 
 
 You can also check your outlook troubleshooting logs for the following:
@@ -64,5 +65,3 @@ You can also check your outlook troubleshooting logs for the following:
 - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml starting`
 
 - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml Succeeded (0x00000000)``
-
-<![autodiscover3.jpg]>
