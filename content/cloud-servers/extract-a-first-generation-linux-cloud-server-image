@@ -1,1 +1,42 @@
+---
+permalink: extract-a-first-generation-linux-cloud-server-image/
+node_id:
+title: Extract a First Generation (Linux) Cloud Server Image
+type: article
+created_date: '2016-11-23'
+created_by: Luke Repko
+last_modified_date: '2016-11-23'
+last_modified_by: Luke Repko
+product: Cloud Servers
+product_url: cloud-servers
+---
 
+This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. 
+
+###Downloading your image
+
+Using the [cloud control panel](https://mycloud.rackspace.com), navigate to Storage, and then Files to view your Containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
+
+As an alternative to using the cloud control panel, there are several swift clients available which can be used to download your image from cloud files. One such popular client is swiftly which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, it can be installed via pip. 
+
+          pip install swiftly
+
+The following is an example command using swiftly. Notice in the below command that we are not specifying the full file name. This will allow swiftly to systematically download all of the tar.gz parts.
+
+          swiftly -v -A https://identity.api.rackspacecloud.com/v2.0 --region=ORD -U {username} -K {API_Key} get cloudservers --prefix={"image_name.tar"} --all-objects -o {local_download_directory/}
+          
+###Extracting your image
+
+In the following example, we will concatenate and extract the tar.gz image files using one command (will work with a single file also). Before executing the command, be sure all image files have successfully downloaded, and are located in the same directory. 
+
+          cat {image_name.tar.gz.*} | pv | tar -zxf - -i
+          
+###What is, “pv” in that command?
+
+PV or pipe viewer is used to monitor the progress of data through a pipe. It allows a user to see the progress of data through a pipeline, by giving information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. It is not necessary to use pv, however it is very convenient. As most linux distributions do not come with this package, you may need to install it. If you’d rather not, the following command assumes you do not wish to use pv.
+
+          cat $image_name.tar* | tar -zxvf - -i
+          
+###Viewing the image contents
+
+The prior command will have extracted the compressed image file(s) into a subdirectory named, "image", which will contain the file system.
