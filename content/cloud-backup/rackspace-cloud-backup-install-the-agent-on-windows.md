@@ -5,8 +5,8 @@ title: Install the Cloud Backup agent on Windows
 type: article
 created_date: '2014-05-01'
 created_by: Megan Meza
-last_modified_date: '2016-04-11'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-11-10'
+last_modified_by: Nate Archer
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -23,7 +23,7 @@ A new agent installation disconnects any previous registrations from that server
 
 ### Download the installer
 
-Determine whether your Windows server architecture is 64-bit or 32-bit, and download the latest MSI installation file for that architecture from<http://agentrepo.drivesrvr.com/>.
+Determine whether your Windows server architecture is 64-bit or 32-bit, and download the latest MSI installation file for that architecture from <http://agentrepo.drivesrvr.com/>.
 
 -   [32-bit Windows
     .msi](http://97a6455ef60243cc8c74-57c93634a2c6eae60c16d098c741cf9b.r43.cf1.rackcdn.com/win32/driveclient-latest.msi)
@@ -81,11 +81,11 @@ installation and configuration.
 
 5.  Click **Finish** to complete the interactive installation.
 
-See [Test Windows installation or update](#testsetup) for the verification steps to test the installation.
+See the Test Windows installation or update section below for the verification steps to test the installation.
 
 #### Silent installation
 
-See [Rackspace Cloud Backup - Install the agent on Windows by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
+See [Install the agent on Windows by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
 
 **Note:** The silent installation works only when you run it from the
 administrator account of the server.
@@ -93,6 +93,7 @@ administrator account of the server.
 #### Update Cloud Backup agent on Windows
 
 For instructions to update the agent on Windows, see [Update the Rackspace Cloud Backup Agent.](/how-to/update-the-rackspace-cloud-backup-agent)
+
 
 ### Test the Windows installation or update
 
@@ -104,61 +105,94 @@ Verify that installation performed the following actions:
 
 2.  Placed files in the `Program Files\driveclient` directory:
 
-        c:\>dir "%programfiles%\driveclient" /a-d
-        Volume in drive C is OS
-        Volume Serial Number is EE4C-78FC
-        Directory of C:\Program Files\driveclient
-        10/05/2011 12:24 PM 5,749,760 driveclient.exe
-        03/01/2011 05:41 PM 1,693,696 icudt42.dll
-        03/01/2011 05:39 PM 1,289,216 icuuc42.dll
-        10/05/2011 01:37 PM 647,630 install.log
-        10/05/2011 01:37 PM 58,384 uninst.exe
-        5 File(s) 9,438,686 bytes
+        C:\Program Files\Driveclient>dir
+         Volume in drive C is System
+         Volume Serial Number is 9A20-F50E
+
+         Directory of C:\Program Files\Driveclient
+
+        07/11/2016  03:39 PM    <DIR>          .
+        07/11/2016  03:39 PM    <DIR>          ..
+        09/22/2014  07:24 PM            15,226 3rd-party-licenses.zip
+        06/17/2016  03:54 PM           386,560 AgentConfig.exe
+        06/17/2016  03:54 PM           551,936 AgentReg.exe
+        06/15/2016  04:34 PM        10,170,368 driveclient.exe
+        11/28/2012  11:27 AM         1,693,696 icudt42.dll
+        11/28/2012  11:27 AM         1,289,216 icuuc42.dll
+        11/28/2012  11:27 AM         2,845,696 icuuc42d.dll
+        04/20/2015  02:51 PM            35,840 librsync.dll
+        06/01/2016  01:28 PM           827,728 msvcr100.dll
+        06/17/2016  03:54 PM            32,256 UpdateSvc.exe
+                     10 File(s)     17,848,522 bytes
+                      2 Dir(s)   6,455,734,272 bytes free
 
 3.  Created the `%programdata%\driveclient` path.
 
-4.  Placed `bootstrap.json` in the `%programdata?%\driveclient` path,
+4.  Placed `bootstrap.json` in the `%programdata%\driveclient` path,
     which looks as follows.
 
-        {
-            "AccountId" : "991199",
-            "AgentId" : 119991,
-            "AgentKey" : "ZLgIosvV558PXVlx+EKiT+2+sRtaSo+cI9BE1aY1W/73WRv8O8len56rjmeDoT0cnthAysW=",
+        { 
+            "AccountId" : “<your account ID>",
+            "AgentFingerprint" : “<your encoded agent fingerprint ID>",
+            "AgentFingerprintPlainText" : “<your plaintext agent fingerprint ID>",
+            "AgentId" : <your machine agent ID>,
+            "AgentIdV2" : "",
+            "AgentKey" : “<your agent key>",
             "ApiHostName" : "api.drivesrvr.com",
+            "ApiVersion" : 0,
             "IsRegistered" : true,
-            "Username" : "[yourusername]",
-            "VolumePasswords" : [yourownveryverylongpasswordthatnoonecouldeverpossiblycrack]
+            "ProjectId" : "",
+            "RsaKeyPair" : “<your RSA key-pair>”,
+            "Username" : “<your account user name>",
+            "VolumePasswords" : {
+            }
         }
 
     Replace values in brackets with values that match your installation.
     The parameter provided with `/type=install` should be visible in the
     `bootstrap.json` file.
 
-5.  Created a DriveClientSvc service:
+5.  Created a DriveClient service and an UpgradeRcbuSvc service:
 
-        c:\>sc query DriveClient
-        SERVICE_NAME: DriveClientSvc
-        TYPE : 10 WIN32_OWN_PROCESS
-        STATE : 1 STOPPED
-        WIN32_EXIT_CODE : 0 (0x0)
-        SERVICE_EXIT_CODE : 0 (0x0)
-        CHECKPOINT : 0x0
-        WAIT_HINT : 0x0
+
+        C:\ProgramData\Driveclient>sc query driveclient
+
+        SERVICE_NAME: driveclient
+                TYPE               : 10  WIN32_OWN_PROCESS
+                STATE              : 4  RUNNING
+                                        (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+                WIN32_EXIT_CODE    : 0  (0x0)
+                SERVICE_EXIT_CODE  : 0  (0x0)
+                CHECKPOINT         : 0x0
+                WAIT_HINT          : 0x0
+
+        C:\ProgramData\Driveclient>sc query upgradercbusvc
+
+        SERVICE_NAME: upgradercbusvc
+                TYPE               : 10  WIN32_OWN_PROCESS
+                STATE              : 4  RUNNING
+                                        (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+                WIN32_EXIT_CODE    : 0  (0x0)
+                SERVICE_EXIT_CODE  : 0  (0x0)
+                CHECKPOINT         : 0x0
+                WAIT_HINT          : 0x0
 
 6.  Created the entry driveclient.exe in Control Panel &gt;
     Programs &gt; Programs and Features.
 
 ### Test the Windows update
 
-Run `driveclient-setup-latest.exe` to show any updated files in `program files\driveclient`. This is the same as running the setup with no parameters.
+Run the following command from the command line:
 
-    c:\>dir "%programfiles%\driveclient\driveclient.exe"
-    Volume in drive C is OS
-    Volume Serial Number is EE4C-78FC
-    Directory of C:\Program Files\driveclient
-    10/05/2011 12:24 PM 5,749,760 driveclient.exe
-    1 File(s) 5,749,760 bytes
-    0 Dir(s) 449,822,932,992 bytes free
+    reg export "hkey_local_machine\software\rackspace\cloudbackup" deleteme.txt & type deleteme.txt | findstr /i version & del deleteme.txt
+
+Note the ``Product Version`` number.
+
+Run the following command from the command line:
+
+    powershell -command "& { (New-Object Net.WebClient).DownloadFile('http://agentrepo.drivesrvr.com/version.txt', 'deleteme.txt') }" & type deleteme.txt & del deleteme.txt
+
+View the version number and make sure that it matches the ``Product Version`` number in the registry.
 
 ### Troubleshooting installs, upgrades, and uninstalls
 
@@ -197,50 +231,59 @@ The backup statuses are defined below:
     run, but it needs to be investigated.
 -   **Failed:** A serious problem occurred, and the backup job did not run.
 
-To troubleshoot these error status, see [Cloud Backup Troubleshoot](/how-to/cloud-backup-troubleshooting/)
+To troubleshoot these error status, see [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/).
 
 ### Uninstall Cloud Backup agent on Windows
 
-To uninstall the Cloud Backup agent, the preferred method is to
-uninstall using the Windows Control Panel. However, you can also use
-msiexec from the command line.
+To uninstall the Cloud Backup agent, the preferred method is to use Add/Remove Programs
+in the Windows Control Panel. However, in cases where the Rackspace Cloud Backup entry
+does not exist there, you use the command line to uninstall.
 
-    msiexec /x driveclient-1.18.007148-en-us.msi /qn /l*v %tmp%\uninstall-1.18.007148.log
+    msiexec /x driveclient-latest.msi /qb /l*v %tmp%\uninstall.log
 
-Run `%programfiles%\driveclient\uninst.exe`.
+**Note**: If the agent installed on your server is not the latest agent, you can download the
+corresponding old MSI file to use it to uninstall the outdated agent. The version of the MSI
+must match the version of your currently installed agent or the uninstall fails. Your current agent
+version is displayed as **Agent Version:** on the **Backups System Details** page. You can find
+and download the MSI for this version at <http://agentrepo.drivesrvr.com/win64/old_msi/>.
 
 The following changes should occur:
 
--   The path %programfiles%\\driveclient contains a single file:
-    `install.log`
+-   The `%programdata%\driveclient` path contains files and folders that you can use to reinstall
+    the agent without re-registering, if desired. If you are sure that you will not reinstall
+    the agent, these files and folders may be deleted.
 
-        c:\>dir "%programfiles%\driveclient" /a-d
-        Volume in drive C is OS
-        Volume Serial Number is EE4C-78FC
-        Directory of C:\Program Files\driveclient
-        10/05/2011 01:29 PM 607,013 install.log
-        1 File(s) 607,013 bytes
-        2 Dir(s) 449,805,914,112 bytes free
+        C:\>dir %programdata%\driveclient
+        Volume in drive C is System
+        Volume Serial Number is 9A20-F50E
 
--   The %programdata%\\driveclient path does not exist.
+        Directory of C:\ProgramData\driveclient
 
-        c:\>dir "%programdata%\driveclient"
-        Volume in drive C is OS
-        Volume Serial Number is EE4C-78FC
-        Directory of C:\ProgramData
-        File Not Found
+        06/17/2016  04:00 PM    <DIR>          .
+        06/17/2016  04:00 PM    <DIR>          ..
+        05/27/2016  02:16 PM                 0 backup-running.lock
+        06/17/2016  03:54 PM             3,720 bootstrap.json
+        04/01/2016  07:25 PM             3,801 bootstrap.json.20160426102748
+        04/01/2016  07:25 PM    <DIR>          log
+        06/17/2016  03:58 PM               827 log4cxx.xml
+        05/27/2016  02:16 PM    <DIR>          MossoCloudFS_ede95edd-78f8-4097-82de-5dfa7941b7c7
+        06/17/2016  03:54 PM               451 public-key.pem
+        05/27/2016  02:19 PM               305 rse-client-state.json
+        05/27/2016  02:16 PM    <DIR>          vss
+                      10 File(s)         23,984 bytes
+                       5 Dir(s)   6,035,111,936 bytes free
 
--   No driveclient.exe entry exists in **Control Panel > Programs
+
+-   No `driveclient.exe` entry exists in **Control Panel > Programs
     and Features**.
 
--   No DriveClientSvc service is installed.
+-   No `DriveClientSv`c service is installed.
 
-    -   There should be no scheduled tasks to "check for driveclient
-        update."
-
-        c:\>sc query driveclientsvc
+        C:\>sc query driveclient
         [SC] EnumQueryServicesStatus:OpenService FAILED 1060:
-        The specified service does not exist as an installed service.
+        
+        The specified service does not exist as an installed service.              
+
 
 ### Uninstall the agent from older versions of Windows
 
@@ -259,33 +302,33 @@ The following changes should occur:
 -   The path `%programfiles%\driveclient` contains a single file:
     install.log
 
-    c:\>dir %programfiles%\driveclient /a-d
-     Volume in drive C is OS
-     Volume Serial Number is EE4C-78FC
-     Directory of C:\Program Files\driveclient
-    10/05/2011  01:29 PM           607,013 install.log
-                  1 File(s)        607,013 bytes
-                   2 Dir(s)  449,805,914,112 bytes free
+        C:\>dir %programfiles%\driveclient /a-d
+         Volume in drive C is OS
+         Volume Serial Number is EE4C-78FC
+         Directory of C:\Program Files\driveclient
+        10/05/2011  01:29 PM           607,013 install.log
+                      1 File(s)        607,013 bytes
+                       2 Dir(s)  449,805,914,112 bytes free
 
--   The %programdata%\\driveclient path does not exist.
+-   The `%programdata%\\driveclient` path does not exist.
 
-    c:\>dir "%programdata%\driveclient"
-     Volume in drive C is OS
-     Volume Serial Number is EE4C-78FC
+        C:\>dir "%programdata%\driveclient"
+         Volume in drive C is OS
+         Volume Serial Number is EE4C-78FC
 
-     Directory of C:\ProgramData
+         Directory of C:\ProgramData
 
-    File Not Found
+        File Not Found
 
--   No driveclient.exe entry exists in **Control Panel > Programs
+-   No `driveclient.exe` entry exists in **Control Panel > Programs
     and Features**.
 
--   No DriveClientSvc service is installed.
+-   No `DriveClientSvc` service is installed.
 
 -   There should be no scheduled tasks to "check for
     driveclient update".
 
-        c:\>sc query driveclientsvc
+        C:\>sc query driveclientsvc
         [SC] EnumQueryServicesStatus:OpenService FAILED 1060:
 
         The specified service does not exist as an installed service.

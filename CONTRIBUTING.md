@@ -1,8 +1,22 @@
+- [Contributing to the Rackspace How-To content repository](#contributing-to-the-rackspace-how-to-content-repository)
+	- [Getting started with GitHub](#getting-started-with-github)
+		- [Create a fork of this repository](#create-a-fork-of-this-repository)
+		- [Keeping your fork up to date](#keeping-your-fork-up-to-date)
+	- [Creating and changing articles](#creating-and-changing-articles)
+		- [Create an article](#create-an-article)
+		- [Edit an article](#edit-an-article)
+		- [Make a change to a PR](#make-a-change-to-a-pr)
+		- [Request an article change](#request-an-article-change)
+	- [Writing guidelines](#writing-guidelines)
+	- [Support and feedback](#support-and-feedback)
+
 ## Contributing to the Rackspace How-To content repository
 
 This file describes the general process for maintaining source code for content published at [https://support.rackspace.com/how-to/](https://support.rackspace.com/how-to/).
 
-Content is grouped into one directory per product. Each directory contains one file per article.
+See [Treat Documentation Like Code](https://www.youtube.com/watch?v=haFooDkKr-A&feature=youtu.be) for a brief video overview of how to edit articles on the How-To support network.
+
+**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the Edit This Article button on the left-hand side of the page.
 
 ### Getting started with GitHub
 
@@ -20,7 +34,7 @@ A personal copy of the How-To repository is created in your GitHub account. You 
 
 #### Keeping your fork up to date
 
-Because your forked copy of the repository is not live, you need to periodically update it with changes from the live repository. A status message above the latest commit activity that informs you whether your forked repository is current with the master How-To repository. If the status says `This branch is X commits behind rackerlabs:master`, update your repo by clicking the **Pull request** button to the right of the message.
+Because your forked copy of the repository is not live, you need to periodically update it with changes from the live repository. A status message above the latest commit activity informs you whether your forked repository is current with the master How-To repository. If the status says `This branch is X commits behind rackerlabs:master`, update your repo by clicking the **Pull request** button to the right of the message.
 
 **Note:** If you get a message that the rackerlabs:master branch is up-to-date with commits from your master branch, click the "switching the base" link. 
 
@@ -29,6 +43,8 @@ Because your forked copy of the repository is not live, you need to periodically
 ### Creating and changing articles
 
 Use the following instructions to create a new article, make edits to an existing one, or suggest edits via an issue.
+
+Articles are grouped into one directory per product. Each directory contains one file per article.
 
 #### Create an article
 
@@ -44,30 +60,23 @@ Follow these steps to create a new article within a product folder of the **rack
 
            ---
            permalink: title-of-article/
-           
+           audit_date: 2016-08-22
            title: Checking cloud status
-
            type: article
-
            created_date: '2016-01-29'
-
            created_by: Rosie Contreras
-
            last_modified_date: '2016-01-29'
-
            last_modified_by: Rosie Contreras
-
            product: Cloud Servers
-
            product_url: cloud-servers
            ---
-5. Write your article in Markdown.
+5. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
 
-6. When you have finished writing your article, review it in the *Preview* tab.
+6. When you have finished writing your article, review it in the **Preview** tab.
 
 7. Click **Propose new change**.
 
-8. Create a pull request(PR). On the "Comparing changes" page, check the following settings:
+8. Create a pull request (PR). On the "Comparing changes" page, check the following settings:
 
     - `base fork: rackerlabs/rackspace-how-to`
     - `base: master`
@@ -116,7 +125,7 @@ Follow these steps to edit an existing article within a product folder of the **
    Use the following guidelines to create the PR message:
 
     - Provide a brief description of the change, starting with an imperative verb. For example, "Add a paragraph about... ."
-    - If you make a complex edit, explain why you are making the edit. For example, if you are changing the formatting of an article because a list should be ordered instead of unordered, say, "Switch list in middle of article to ordered to show clear progression of steps".
+    - If you make a complex edit, explain why you are making the edit in the larger box under **Commit changes**. For example, if you are changing the formatting of an article because a list should be ordered instead of unordered, say, "Switch list in middle of article to ordered to show clear progression of steps".
 
 8. Click **Create pull request**.
 

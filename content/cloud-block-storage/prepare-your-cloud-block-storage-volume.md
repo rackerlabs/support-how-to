@@ -5,8 +5,8 @@ title: Prepare your Cloud Block Storage volume
 type: article
 created_date: '2012-10-21'
 created_by: David Hendler
-last_modified_date: '2016-06-06'
-last_modified_by: Nate Archer
+last_modified_date: '2016-09-16'
+last_modified_by: Kyle Laffoon
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -215,6 +215,8 @@ Your drive is ready for use with your Linux server. However, you should
 consider performing the following step to ensure that your volume
 remains persistent after a server reboot.
 
+**Note:** If you ever decide to move the volume to a different server, begin by un-mounting the volume. Use the **unmount** command to unmount the volume, and then repeat this **Mount the volume** process for the new endpoint.
+
 #### Make the volume permanent.
 
 This step is optional, but it keeps your volume attached to your server
@@ -248,8 +250,7 @@ Now the volume persists on the server after server restarts.
 ### Prepare your volume for use with a Windows server
 
 **Note**: In the examples in the procedure, a 100 GB volume is added to
-a Windows Server 2012 server. The steps are similar for all
-next-generation Windows cloud servers.
+a Windows Server 2012 server. The steps are similar for all Windows cloud servers.
 
 #### Remotely connect to your Server.
 
@@ -286,6 +287,8 @@ Windows terminology, is required before running this wizard.
 
 1. To bring the volume online, in the Disks pane, right-click the
     offline drive and select **Bring Online** from the pop-up menu.
+
+    **Note:** If you want to move the volume to a different server, begin by un-mounting the volume. Repeat this same step, but select **Offline** to unmount the volume, and then repeat this **Partition and format drive* process for the new endpoint.
 
 2. In the Disks pane, right-click the drive and select **New Volume**
     from the pop-up menu. In Windows Server 2008, you right-click the

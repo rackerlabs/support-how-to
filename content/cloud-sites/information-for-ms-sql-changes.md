@@ -37,8 +37,8 @@ product_url: cloud-sites
     we will be migrating SQL Server 2012 and SQL Server 2014 over to the
     new environment.
 -   We will create an alias from the old hostname to the new
-    hostname automatically. **Note:** *In the future we will deprecate
-    the former hostnames at end of Q2 2016.*
+    hostname automatically. **Note:** *We will deprecate the former hostnames
+    at a future date.*
 -   Cloud Database instances are not subject to this migration.
 
 ### How does this affect me?

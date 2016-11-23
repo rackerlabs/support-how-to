@@ -5,8 +5,8 @@ title: Programmatically determine the RackConnect v2.0 Automation status of your
 type: article
 created_date: '2012-10-02'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -24,7 +24,7 @@ RackConnect Gateway IP, automation status, automation status details,
 and the automation features. If you want to use the
 RackConnect API, see [RackConnect v2.0 API](/how-to/the-rackconnect-v20-api) for more details.
 
-### Using the Next Generation Cloud Servers API to query your cloud servers’ metadata
+### Using the Cloud Servers API to query your cloud servers’ metadata
 
 You can also use the Cloud Servers API to query the RackConnect
 Automation status of your cloud servers. The benefit of using this
@@ -59,7 +59,7 @@ RackConnect:
 cloud server in a region that does not match your RackConnect
 configuration region.
 
-#### Obtaining the metadata information via the Next Generation Cloud Servers API (examples)
+#### Obtaining the metadata information via the Cloud Servers API (examples)
 
 **Authenticate and obtain an authentication token**
 
@@ -104,73 +104,6 @@ preceding step. Enter these values for ``<cloudAccountNumber>``, ``<serverID>``,
 This is just a brief introduction to get you started on using the Cloud
 Servers API to query the RackConnect statuses of your servers. If
 you need more information about the Cloud Servers API, see the [Cloud Servers API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/).
-
-### Using the First Generation Cloud Servers API to query your cloud servers' metadata
-
-You can also use the First Generation Cloud Servers API to query the
-RackConnect Automation status of first generation cloud servers. The
-benefits of using this method are that you do not need to query the status from the same
-server you want the status of.
-
-To use this method, query the First Generation Cloud Servers API and
-look for the metadata key named ``"rackconnect_automation_status"`` on
-any of your first generation cloud servers. The value of this metadata key is the current automation status of your server in RackConnect (accurate within a few seconds after each change). The automation status has one of the following values: DEPLOYING, DEPLOYED, or FAILED.
-
-The ``"metadata"`` entries also
-show what RackConnect Automation features are currently enabled on your
-account and consist of the following keys:
-
-- ``"rackconnect_automation_feature_configure_network_stack"``
-- ``"rackconnect_automation_feature_manage_software_firewall"``
-- ``"rackconnect_automation_feature_provison_public_ip"``
-
-Following is an example of the metadata keys/values now available for
-RackConnect:
-
-    "metadata":{
-    "rackconnect_automation_feature_configure_network_stack":"ENABLED",
-    "rackconnect_automation_status":"DEPLOYED",
-    "rackconnect_automation_feature_provison_public_ip":"ENABLED",
-    "rackconnect_automation_feature_manage_software_firewall":"ENABLED"
-    }
-
-#### Obtaining the metadata information via the First Generation Cloud Servers API (examples)
-
-**Authenticate and obtain an authentication token**
-
-You first need to authenticate and obtain an authentication token. The
-following cURL command is one way of accomplishing this. You need
-to enter the command with your Rackspace cloud account's API key and
-username credentials for `<apiKey>` and `<username>`.
-
-    curl -D - -k -H "X-Auth-Key: <apiKey>" -H "X-Auth-User: <username>" https://auth.api.rackspacecloud.com/v1.0
-
-The results from running this query display a `"X-Auth-Token:"`
-entry, and you need to copy the value associated with this entry.
-The `"X-Auth-Token:"` entry looks as follows:
-
-    X-Auth-Token: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-
-For information about how to find your API key, see [View and reset your
-API key](/how-to/view-and-reset-your-api-key).
-
-**Show details for a cloud server to view the "metadata" values**
-
-Using the `X-Auth-Token`, you can now query a cloud server's details to view the metadata keys/values associated with RackConnect. The
-following cURL command is one way of accomplishing this. You need
-to enter the command with your cloud account's number, the ID of
-the server that you want to query, and the `X-Auth-Token` value that you obtained in the
-previous step. Enter these values for `<cloudAccountNumber>`, `<serverID>`, and
-`XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`.
-
-    curl -k -X GET -D - -H "X-Auth-Token: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" https://servers.api.rackspacecloud.com/v1.0/<cloudAccountNumber>/servers/<serverID>
-
-**Note**: Do not include the &lt; &gt; brackets when entering these values.
-
-This is just a brief introduction to get you started on using the First
-Generation Cloud Servers API to query the RackConnect statuses of your
-cloud servers. If you need more information about the Cloud Servers
-API, see the [First Generation Cloud Servers API documentation](https://6266fae112c61ca2a24b-0b7d389aeec8162360b1800f389138d1.ssl.cf1.rackcdn.com/cs-firstgen-devguide-20160112.pdf).
 
 ### Determining when the Managed Operations post-build automation process is complete
 

@@ -5,8 +5,8 @@ title: Rackspace Monitoring FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Stephanie Fillmon
-last_modified_date: '2016-01-22'
-last_modified_by: Constanze Kratel
+last_modified_date: '2016-07-25'
+last_modified_by: Kyle Laffoon
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
@@ -124,7 +124,7 @@ your account team.
 
 #### Will you support SNMP traps?
 
-Not yet, but we are planning on starting in the near future.
+Not yet, but we are planning on starting in the future.
 
 #### How is Rackspace Monitoring billed?
 
@@ -376,7 +376,7 @@ for an upgrade package, and no need for downtime).
 Listing monitoring zones will give you CIDRs of the set of collectors
 in that zone. To get the most accurate list possible use this API call.
 
-### Does "60 day retention" mean "default 60 days on all customer alert log data"? If so, can customers ask that it be less than 60 days for some bizarre reason?
+#### Does "60 day retention" mean "default 60 days on all customer alert log data"? If so, can customers ask that it be less than 60 days for some bizarre reason?
 
 Not today, we will have more flexibility in setting policies in the
 future though.

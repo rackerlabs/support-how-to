@@ -1,6 +1,6 @@
 ---
 permalink: rackspace-cdn-edge-rules/
-audit_date:
+audit_date: '2016-06-03'
 title: Rackspace CDN edge rules
 type: article
 created_date: '2015-02-11'

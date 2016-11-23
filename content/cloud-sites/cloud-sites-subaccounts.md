@@ -1,11 +1,11 @@
 ---
-permalink: cloud-sites-subaccounts/
+permalink: getting-started-with-cloud-sites-set-up-site-security-with-subaccounts/
 audit_date:
-title: Cloud Sites subaccounts
+title: Set up site security with Cloud Sites subaccounts
 type: article
 created_date: '2011-06-15'
 created_by: Rackspace Support
-last_modified_date: '2015-06-16'
+last_modified_date: '2016-07-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Sites
 product_url: cloud-sites

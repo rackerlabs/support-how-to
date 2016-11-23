@@ -17,7 +17,7 @@ Rackspace product through the [Cloud Control Panel](https://mycloud.rackspace.co
 
 ### Contact Support by phone
 
-Call Rackspace Support at 1 800 961 4454 in the US, and at +1 210 581 0407 outside the US.
+Call Rackspace Support at 1 800 961 4454.
 
 ### Cloud Control Panel Support features
 

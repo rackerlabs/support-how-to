@@ -5,8 +5,8 @@ title: Rackspace Cloud Essentials - Install vsftpd for CentOS
 type: article
 created_date: '2011-04-04'
 created_by: Rackspace Support
-last_modified_date: '2016-06-14'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-07-08'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -45,13 +45,13 @@ and convenience.
 
 ### Set the vsftp service to start on reboot
 
-You can use the chkconfig tool to view which services start automatically
+You can use the `chkconfig` tool to view which services start automatically
 when the server starts, and on which run level they start. To get vsftpd
 to start on the most common run levels (3,4,5), run the following command:
 
     sudo chkconfig vsftpd on
 
-Verify the "on" status by checking the chkconfig output for vsftpd:
+Verify the "on" status by checking the `chkconfig` output for vsftpd:
 
     chkconfig --list vsftpd
 
@@ -61,7 +61,7 @@ this directory is **vsftpd.conf**. You need to make two changes to this file
 for security and convenience. These are the changes described in the next two
 sections.
 
-To get startd, open the **/etc/vsftpd/vsftpd.conf** file in your favorite text
+To get started, open the **/etc/vsftpd/vsftpd.conf** file in your favorite text
 editor.
 
 ### Disable anonymous users
@@ -76,7 +76,7 @@ Change the value for `anonymous_eanble` to `No`, as follows:
 
 ### Restrict user access
 
-Now configure vsftpd to be able to chroot(commonly referred to as
+Now configure vsftpd to be able to `chroot` (commonly referred to as
 jailing) users to their home directories for security and privacy.
 
 1. Change the value of `chroot_list_enable` to `No`, as follows:
@@ -152,6 +152,4 @@ Use the following syntax to open an FTP session from the command line:
 
 To close the FTP session, type **exit** in the session window.
 
-### Next section
-
-[Rackspace Cloud Essentials - Configure a user in vsftpd](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
+**Next section:** [Rackspace Cloud Essentials - Configure a user in vsftpd](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)

@@ -5,8 +5,8 @@ title: Rackspace account invoice
 type: article
 created_date: '2014-09-01'
 created_by: Kenny Johnston
-last_modified_date: '2016-06-22'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: undefined
 product_url: undefined
 ---
@@ -78,8 +78,7 @@ and other charges, and is organized as follows:
 Most of the service summary items are self-explanatory, but two services warrant additional description:
 
 -   **Cloud Servers** - The Cloud Servers service line includes all
-    Cloud Servers flavor classes, for example, First Gen, Next Gen, and
-    OnMetal.
+    Cloud Servers flavor classes, for example, OnMetal.
 -   **Cloud Bandwidth** - The Cloud Bandwidth service line includes both
     Public and CDN Bandwidth.
 

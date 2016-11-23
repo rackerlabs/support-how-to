@@ -1,12 +1,12 @@
 ---
 permalink: overview-role-based-access-control-rbac/
 audit_date:
-title: Learning about Role-Based Access Control (RBAC)
+title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2016-06-20'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: undefined
 product_url: undefined
 ---
@@ -14,6 +14,8 @@ product_url: undefined
 **Previous section:** [Getting started with Role-Based Access Control (RBAC)](/how-to/getting-started-with-role-based-access-control-rbac)  
 
 This article answers basic questions about the Role-Based Access Control (RBAC) service.
+
+   **Note:** The RBAC service is not currently available for the Cloud Sites, Rackconnect or Mailgun products.
 
 ### What is RBAC?
 
@@ -53,13 +55,13 @@ RBAC provides the following roles.
     create, read, update, and delete resources within multiple
     designated products where access is granted. These permissions apply
     to products that are currently RBAC-enabled and
-    to products as they become RBAC-enabled in the future.
+    to products as they become RBAC-enabled.
 
 -   **Read-only access** - The read-only access role has permissions to
     view given resources within multiple designated products where
     access is granted. These permissions apply to products that are
     currently RBAC-enabled and to products as they
-    become RBAC-enabled in the future.
+    become RBAC-enabled.
 
 **Note**: Users with the full or read-only access roles will have
 automatic access to all new products that become RBAC-enabled, with the
@@ -177,8 +179,7 @@ API documentation at <https://developer.rackspace.com/docs/>.
 
 ### Which products are currently RBAC-enabled?
 
--   [Next Generation Servers](/how-to/cloud-servers)
--   [First Generation Servers](/how-to/cloud-servers)
+-   [Cloud Servers](/how-to/cloud-servers)
 -   [Cloud Files](/how-to/cloud-files)
 -   [Cloud Databases](/how-to/cloud-databases)
 -   [Cloud Load Balancers](/how-to/cloud-load-balancers)

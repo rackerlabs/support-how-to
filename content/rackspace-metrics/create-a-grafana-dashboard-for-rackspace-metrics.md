@@ -46,7 +46,7 @@ To create a Grafana dashboard, complete the following steps:
     After the template is complete, a details page displays that shows
     information about your custom template, including a description.
 
-    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-customized-template1.png %}" width="513" height="297" />
+    <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-customized-template1.png %}" width="513"/>
 
 8.  From the **Actions** menu, choose **Create Stack from Template**.
 9.  On the **Create Stack** page, enter a name for the stack and then
@@ -66,7 +66,7 @@ When the stack has finished building, the **Status** field changes to
 and a Grafana auth username that you can use to access your Grafana
 dashboard. Be sure to record this information.
 
-<img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-metrics-up1.png %}" width="408" height="600" />
+<img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-metrics-up1.png %}" width="408"/>
 
 ### Use the Grafana dashboard
 
@@ -83,7 +83,7 @@ To access the Grafana dashboard, perform the following steps:
 3.  Type the username and password that were displayed after you created
     the stack and click **Log In**.
 
-    Your Grafana dashboard is displayed.
+4.  Create your Grafana dashboard from Rackspace Monitoring data by pasting the JSON code found in this [orchestration template](https://github.com/rackspace-orchestration-templates/grafana/blob/master/dashboards/default_dashboard.json).
 
     <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-home-page_0.png %}" width="432" height="284" />
 

@@ -1,4 +1,5 @@
 ---
+permalink: public-folder-permissions-for-exchange/
 audit_date:
 title: Public folder permissions for Exchange
 type: article

@@ -1,6 +1,6 @@
 ---
 permalink: refresh-content-in-a-rackspace-cdn-service/
-audit_date:
+audit_date: 
 title: Refresh Content in a Rackspace CDN service
 type: article
 created_date: '2015-05-11'

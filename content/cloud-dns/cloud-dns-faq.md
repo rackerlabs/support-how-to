@@ -5,8 +5,8 @@ title: Cloud DNS FAQ
 type: article
 created_date: '2011-10-25'
 created_by: Rackspace Support
-last_modified_date: '2016-06-22'
-last_modified_by: Nate Archer
+last_modified_date: '2016-04-12'
+last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -111,8 +111,8 @@ Yes, via API. You can import a domain from external providers using a valid bind
 
 Our default DNS servers are:
 
--  ns.stabletransit.com
--  ns2.stabletransit.com
+-  dns1.stabletransit.com
+-  dns2.stabletransit.com
 
 #### What type of DNS network does Rackspace use?
 

@@ -56,8 +56,8 @@ your business.
   <tr>
     <td><strong>Operating system avilability</strong></td>
     <td>Red Hat Enterprise Linux<br>CentOS<br>Windows Server</td>
-    <td>Ubuntu<br>Debian<br>Red Hat Enterprise Linux<br>CentOS<br>Windows Server</td>
-    <td><strong>Linux distributions</strong><br>Arch<br>CentOS<br>CoreOS<br>Debian<br>Fedora<br>Gentoo<br>openSUSE<br>Red Hat Enterprise Linux<br>Scientific Linux<br>Ubuntu<br><br><strong>Other operating systems</strong><br>FreeBSD<br>Windows Server</td>
+    <td> Please see <a href="/how-to/supported-operating-systems/">Supported Operating Systems</a> on cloud server</td>
+    <td>Please see the following two links for details: <a href="/how-to/cloud-servers-with-managed-operations-support-for-linux">Cloud Servers with Managed Operations support for Linux</a> and <a href="/how-to/cloud-servers-with-managed-operations-support-for-windows">Cloud Servers with Managed Operations support for Windows</a></td>
   </tr>
   <tr>
     <td><strong>Ticketing system, control panel</strong></td>

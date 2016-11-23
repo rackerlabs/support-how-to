@@ -5,8 +5,8 @@ title: Windows Server security best practices
 type: article
 created_date: '2014-07-15'
 created_by: Rackspace Support
-last_modified_date: '2016-01-19'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-11-11'
+last_modified_by: Hounsou Dansou
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -18,8 +18,8 @@ that you do not change these configurations. When connecting to your
 server, Rackspace support will log in as the user **rack** using Remote
 Desktop Connection to the public IP address over port 3389. In addition,
 rebuilding existing servers or building a new server from a snapshot
-will require that Administrator logins are enabled and port 445 is not
-blocked in the Windows firewall. If you insist on changing these values,
+will require that Administrator logins are enabled and port 5986 or 445
+is not blocked in the Windows firewall. If you insist on changing these values,
 please speak with an administrator at Rackspace to do so in a way that
 does not impact our ability to provide you with Fanatical Support.
 
@@ -56,14 +56,16 @@ need access to the server have it, and those who don't will be blocked
 from those open ports. The most typical ports that need to be open in
 the Windows firewall for web hosting on a cloud server are as follows:
 
-Port   |  Service  
+Port   |  Service
 -------|-----------
 80     | HTTP - IIS sites or web application
 443 HTTPS | Secure IIS sites or web applications with SSL
 
+
 We recommend locking down the following ports via IP address
 whitelisting on the public interface to limit brute-force attacks or
 exploitation attempts against commonly named accounts or services on the server:
+
 
 Port  | Description
 ------|------------
@@ -153,8 +155,10 @@ server -- ensure that your Windows OS is patched. Patch Tuesday, which
 occurs on the second Tuesday of each month in North America, is the day
 on which Microsoft regularly releases security patches. Each customer
 must decide how best to implement a patching strategy that will keep
-their server up to date. By default, Rackspace Cloud Servers are set up
-to check for updates between 2 a.m. and 4 a.m. every day.
+their server up to date. Remember to reboot your server to complete
+pending windows updates since most updates require a reboot.
+By default, Rackspace Cloud Servers are set up to check for updates
+between 2 a.m. and 4 a.m. every day.
 
 ### Server backups
 
@@ -183,7 +187,7 @@ instance from a Cloud Image is always a good idea to ensure that the
 image is good, and restoring a file from Cloud Backups helps to verify
 that the data being backed up can be restored.
 
-### Code
+### Code attacks
 
 The last attack surface exposed to the Internet is the code. You and
 your developer must ensure that the code is enforcing proper
@@ -197,6 +201,11 @@ for improving the ASP .Net security can be found at the following sites:
 -  <http://www.asp.net/web-forms/pluralsight>
 -  <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
 -   <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
+
+Lastly, use certificates purchased from certificate authorities to enable
+HTTPS connections in favor of HTTP. The use of HTTPS
+protects against man-in-the-middle attacks and unwanted users listening in on the server.
+
 
 ### Conclusion
 

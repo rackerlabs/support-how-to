@@ -5,8 +5,8 @@ title: Permissions Matrix for First Generation Cloud Servers
 type: article
 created_date: '2013-06-17'
 created_by: Renee Rendon
-last_modified_date: '2016-01-18'
-last_modified_by: Rose Contreras
+last_modified_date: '2016-09-12'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---

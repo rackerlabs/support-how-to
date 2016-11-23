@@ -5,8 +5,8 @@ title: Access the full version of MigrationWiz
 type: article
 created_date: '2013-10-24'
 created_by: Milton Prado
-last_modified_date: '2016-01-26'
-last_modified_by: Rose Coste
+last_modified_date: '2016-09-01'
+last_modified_by: Nate Archer
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -16,7 +16,7 @@ This means that many features that are present in the full version of
 MigrationWiz are not readily available. You may use the full version if
 you choose to. If you are not looking for the features provided by the
 full version of MigrationWiz, see
-[Migrate your email by using the Self-Service Tool](/how-to/migrate-your-email-by-using-the-self-service-tool)
+[Migrate your email by using the Self-Service Migration Tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool)
 for the standard steps.
 
 ### Benefits of the full version of MigrationWiz

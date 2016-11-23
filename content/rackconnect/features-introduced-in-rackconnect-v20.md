@@ -5,8 +5,8 @@ title: Features introduced in RackConnect v2.0
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -19,7 +19,7 @@ v2.0](/how-to/introducing-rackconnect-v20)
 The 2.0 version of RackConnect added the following automation and
 security features:
 
--   **Support for next generation Rackspace Cloud Servers**, powered by
+-   **Support for Rackspace Cloud Servers**, powered by    
     OpenStack<sup>&reg;</sup>
 
 -   **RackConnect API**, which gives you a way to programmatically

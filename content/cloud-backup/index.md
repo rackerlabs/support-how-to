@@ -3,8 +3,8 @@ title: Cloud Backup
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2016-04-11'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-07-14'
+last_modified_by: Catherine Richardson
 permalink: /cloud-backup/
 product: Cloud Backup
 product_url: cloud-backup
@@ -24,7 +24,7 @@ This introduction is designed to get you up and running with Cloud Backup, inclu
 
 - [Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)
 - [View backup information](/how-to/rackspace-cloud-backup-view-backup-information)
-- [Generage your encrypted key](/how-to/generating-your-encrypted-key-in-cloud-backup)
+- [Generate your encrypted key](/how-to/generating-your-encrypted-key-in-cloud-backup)
 - [Backup actions](/how-to/rackspace-cloud-backup-backup-actions)
 - [System actions](/how-to/rackspace-cloud-backup-system-actions)
 - [Set account notification preferences](/how-to/rackspace-cloud-backup-preferences)

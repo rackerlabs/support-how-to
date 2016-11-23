@@ -5,8 +5,8 @@ title: RackConnect v3.0 compatibility
 type: article
 created_date: '2014-09-08'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -25,7 +25,7 @@ Product | Requirements | Details | Product information
 --- | --- | --- | ---
 Auto Scale | None | Auto Scale is an API-based tool that automatically scales resources in response to an increase or decrease in overall workload based on user-defined thresholds. Auto Scale enables you to automatically scale your RackConnect cloud servers resources to adjust to customer demand. <br /><br /> See the [Cloud Bursting with RackConnectV3](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#cloud-bursting) section of the *Rackspace Auto Scale Developer Guide* for details about using Auto Scale with RackConnect v3.0. | [Auto Scale Getting Started Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#getting-started)<br /><br /> [Auto Scale Developer Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-developer-guide)<br /><br /> [Cloud Bursting with RackConnectV3](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#cloud-bursting)
 Cloud Backup | ServiceNet | Cloud Backup is a file-based backup application that enables you to choose which files and folders to back up from your cloud servers. You can choose to restore your whole system with all of its folders and files, or individual files or folders from a given date, to restore to an entirely different server. | [Getting Started with Rackspace Cloud Backup](/how-to/cloud-backup)
-Cloud Block Storage | None | Cloud Block Storage is a block-level storage solution that enables you to expand the storage capacity of your Rackspace Next Generation Cloud Servers. | [Getting Started with Cloud Block Storage](/how-to/cloud-block-storage)
+Cloud Block Storage | None | Cloud Block Storage is a block-level storage solution that enables you to expand the storage capacity of your Rackspace  Cloud Servers. | [Getting Started with Cloud Block Storage](/how-to/cloud-block-storage)
 Cloud Databases | ServiceNet | Cloud Databases is a stand-alone, API-based relational database service built on the OpenStack&reg; cloud that enables you to easily provision and manage multiple MySQL database instances. Instances are provisioned in a single-tenant, container-based environment per account. <br /><br /> RackConnect v3.0 is <strong>compatible</strong> with MySQL Cloud Databases instances. <br /><br /> **Note:** Cloud Databases is compatible with cloud servers only and cannot be used directly with dedicated servers. | [Getting Started with Cloud Databases](/how-to/cloud-databases)
 Cloud Files | ServiceNet | Cloud Files provides an easy-to-use online storage for files and media that can be delivered globally at fast speeds over the Akamai content delivery network (CDN). | [Getting Started with Cloud Files](/how-to/cloud-files)
 Cloud Monitoring | Provisioned public IP address | Cloud Monitoring provides you with timely and accurate information about how your resources are performing. You can quickly create multiple monitors that use predefined checks such as PING, HTTPS, and SMTP to track your cloud resources and receive instant notification when a resource needs your attention. | [Getting Started with Cloud Monitoring](/how-to/cloud-monitoring)

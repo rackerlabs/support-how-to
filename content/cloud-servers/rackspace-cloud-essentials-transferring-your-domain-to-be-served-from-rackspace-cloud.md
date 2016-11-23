@@ -5,15 +5,13 @@ title: Rackspace Cloud Essentials - Transferring Your Domain to be Served from R
 type: article
 created_date: '2012-03-07'
 created_by: Rackspace Support
-last_modified_date: '2016-06-27'
-last_modified_by: Nate Archer
+last_modified_date: '2016-07-08'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Previous section
-
-[Rackspace Cloud Essentials - What are your name servers](/how-to/rackspace-cloud-essentials-what-are-your-name-servers)
+**Previous section:** [Rackspace Cloud Essentials - What are your name servers](/how-to/rackspace-cloud-essentials-what-are-your-name-servers)
 
 In the previous article you learned how to [identify the Rackspace Cloud Nameservers](/how-to/rackspace-cloud-essentials-what-are-your-name-servers),
 and that you will have to update them with your current domain registrar
@@ -58,7 +56,16 @@ domain.
 
 For Rackspace Cloud services, the name servers you need to use are:
 
-**ns.stabletransit.com** & **ns2.stabletransit.com**
+**dns1.stabletransit.com** & **dns2.stabletransit.com**
+
+If you are also using our dedicated hosting services, you may have been
+previously instructed to use the following name servers:
+
+**ns.rackspace.com** & **ns2.rackspace.com**
+
+Please continue to use these name servers for your dedicated services,
+but you will use the 'stabletransit' name servers above for any domain
+hosted from a Rackspace Cloud Server.
 
 #### How do I transfer the domain?
 
@@ -66,8 +73,8 @@ When you first register a domain, you are usually assigned the
 name servers belonging to the domain registrar, unless you specify
 otherwise. First, you will need to log into your account with your
 domain registrar and locate the section where the name servers are
-stored. Next, you will change those to **ns.stabletransit.com** and
-**ns2.stabletransit.com** to initiate the transfer of the domain. Some
+stored. Next, you will change those to **dns1.stabletransit.com** and
+**dns2.stabletransit.com** to initiate the transfer of the domain. Some
 registrars require a few extra steps in order to unlock the domain, but
 this will vary on a case-by-case basis.
 
@@ -108,6 +115,4 @@ configurations. If you have verified that DNS and your firewall are
 correctly configured and your site is still inaccessible, you will need
 to take a closer look at the configuration of your web applications.
 
-### Next steps
-
-[Create DNS records for Cloud Servers with the Control Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
+**Next steps:** [Create DNS records for Cloud Servers with the Control Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)

@@ -4,7 +4,7 @@ title: Replicate backups for disaster recovery with Cloud Databases
 type: article
 created_date: '2016-04-28'
 created_by: Steve Croce
-last_modified_date: '2016-05-03'
+last_modified_date: '2016-07-27'
 last_modified_by: Kyle Laffoon
 product: Cloud Databases
 product_url: cloud-databases
@@ -25,13 +25,13 @@ Use the following steps to copy individual backups from one region to another. T
 1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 
 2. At the top of the panel, select **Backups > MySQL Backups**.
-  
+
 3. In the list of backups, click the gear icon next to the backup you want to copy and select **Copy Backup**.
-  
+
      **Note:** You can copy incremental backups only if the full backup to which it is related has been copied first. You can see whether a backup is incremental by hovering the mouse pointer over the backup name and looking at the **Backup Type** line.
 
 4. In the popup dialog box, select the region to copy the backup to, and then click **Copy Backup**.
-  
+
      **Note:** This feature is avialable only in US regions (IAD, ORD, and DFW).
 
 A message appears at the lower right stating that the copy has been created and the backup being copied is entering the **Copying** state.

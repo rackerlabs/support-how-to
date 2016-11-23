@@ -1,19 +1,17 @@
 ---
 permalink: rackspace-cdn-secure-delivery-options/
-audit_date:
+audit_date: '2016-09-21'
 title: Rackspace CDN secure delivery options
 type: article
 created_date: '2015-04-20'
 created_by: Megan Meza
-last_modified_date: '2016-01-21'
+last_modified_date: '2016-09-21'
 last_modified_by: Stephanie Fillmon
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-[Rackspace CDN](http://www.rackspace.com/cloud/cdn-content-delivery-network)
-offers the following certificate types for secure delivery: Rackspace
-shared domain, SAN, and Custom. These types are distinguished by how
+[Rackspace CDN](http://www.rackspace.com/cloud/cdn-content-delivery-network) offers the following certificate types for secure delivery: Rackspace shared domain, SAN, and Custom. These types are distinguished by how
 much ownership a customer has over the secure certificate.
 
 ### Requirements for all Rackspace CDN certificate types
@@ -63,7 +61,6 @@ Following is a list of approved CAs:
 -   QuoVadis Root CA 3
 -   QuoVadis Root CA 2
 -   SecureTrust CA
--   StartCom Certification Authority
 -   SwissSign Gold CA - G2
 -   SwissSign Silver CA - G2
 -   TC TrustCenter Class 2 CA II

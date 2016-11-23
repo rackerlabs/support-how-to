@@ -1,18 +1,18 @@
 ---
 permalink: permissions-matrix-for-next-generation-cloud-servers/
 audit_date:
-title: Permissions Matrix for Next Generation Cloud Servers
+title: Permissions Matrix for Cloud Servers
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2016-04-29'
-last_modified_by: Renee Rendon
+last_modified_date: '2016-09-13'
+last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 The following permissions matrix displays specific permissions for the
-roles in Next Gen Cloud Servers. The matrix displays the method names,
+roles in Cloud Servers. The matrix displays the method names,
 their corresponding RESTful API commands, and the roles that are
 supported.
 
@@ -20,7 +20,7 @@ supported.
 
 [Related Rackspace How-To Articles](/how-to/)
 
-### Next Generation Cloud Servers Terminology
+### Cloud Servers Terminology
 
 #### Flavor
 

@@ -5,8 +5,8 @@ title: Permissions Matrix for Cloud Load Balancers
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2016-06-17'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2016-09-26'
+last_modified_by: Nate Archer
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
@@ -15,8 +15,10 @@ The following permissions matrix displays specific permissions for the roles in 
 
 **As of May 24, 2015**
 
+**Warning:** If SSL is enabled on a load balancer that is configured with nodes that are NOT in the same datacenter, then decrypted traffic will be sent in clear text over the public internet to the external node(s) and will no longer be secure. 
+
 Method Name | API Action | Role | Description
----|---|---|---
+:---: | :---: | :---: | :---:
 **LOAD BALANCER** | | |
 List Load Balancers | `GET /loadbalancers` | **Observer & Creator & Admin** | Provide a list of all load balancers configured and associated with your account.
 List Load Balancer Details | `GET /loadbalancers/{loadBalancerId}` | **Observer & Creator & Admin** | Provide a list of all load balancers configured and associated with your account.
@@ -72,15 +74,15 @@ Show Connection Throttling Configuration | `GET /loadbalancers/{loadBalancerId}/
 Create or Update Connection Throttling Configuration | `PUT /loadbalancers/{loadBalancerId}/connectionthrottling` | **Creator & Admin** | Create or update throttling configuration.
 Delete Connection Throttling Configuration | `DELETE /loadbalancers/{loadBalancerId}/connectionthrottling` | **Admin only** | Delete connection throttling configurations.
 **CONTENT CACHING** | | |
-Show Content Caching Configuration | ` GET /loadbalancers/{loadBalancerId}/contentcaching` | **Observer & Creator & Admin**	| Show current configuration of content caching.
+Show Content Caching Configuration | `GET /loadbalancers/{loadBalancerId}/contentcaching` | **Observer & Creator & Admin**	| Show current configuration of content caching.
 Enable or Disable Content Caching | `PUT /loadbalancers/{loadBalancerId}/contentcaching` | **Creator & Admin** | Enable or disable content caching.
 **PROTOCOLS** | | |
 List Load Balancer Protocols | `GET /loadbalancers/protocol` | **Observer & Creator & Admin** | List supported load balancing protocols.
 **ALGORITHMS** | | |
 List Load Balancer Algorithms | `GET /loadbalancers/algorithms` | **Observer & Creator & Admin** | List all supported load balancing algorithms.
-**SSL TERMINATION / CERTIFICATE MAPPINGS** | | |
+**SSL TERMINATION & CERTIFICATE MAPPINGS** | | |
 Show SSL Termination Configuration | `GET /loadbalancers/{loadBalancerId}/ssltermination` | **Observer & Creator & Admin** | Show the load balancer's SSL termination configuration.
-Update SSL Termination | `PUT /loadbalancers/{loadBalancerId}/ssltermination` | **Creator & Admin** | Update the SSL termination. **Warning:** If SSL is enabled on a load balancer that is configured with nodes that are NOT in the same datacenter, then decrypted traffic will be sent in clear text over the public internet to the external node(s) and will no longer be secure.
+Update SSL Termination | `PUT /loadbalancers/{loadBalancerId}/ssltermination` | **Creator & Admin** | Update the SSL termination. 
 Delete SSL Termination | `DELETE /loadbalancers/{loadBalancerId}/ssltermination` | **Admin only** | Delete SSL termination.
 List Certificate Mappings | `GET /loadbalancers/{loadBalancerId}/ssltermination/certificatemappings` | **Observer & Creator & Admin** | List certificate mappings that are configured for a specified load balancer.
 Add Certificate Mapping | `POST /loadbalancers/{loadBalancerId}/ssltermination/certificatemappings` | **Creator & Admin** | Add a certificate mapping to a specified load balancer.

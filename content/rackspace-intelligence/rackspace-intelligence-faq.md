@@ -70,7 +70,7 @@ with a Cloud services account.
 Rackspace Intelligence currently does not expose an API. However, many
 monitoring-related features, such as the creation and editing of checks
 and alarms, are built using the
-[Rackspace Monitoring API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-developer-guide).
+[Rackspace Monitoring API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/).
 
 ------------------------------------------------------------------------
 
@@ -131,12 +131,10 @@ a certain status is returned by the check.
 
 We plan to provide the following features in future releases:
 
--   Customizable dashboards: Provides the ability to customize your
-    dashboard in Rackspace Intelligence by adding widgets for graphs,
-    drag-and-drop widgets, and more.
--   Details for a monitoring alert: Provides a single page with all the
-    relevant information and insights to help you understand why an
-    issue happened and what steps are needed to resolve it.
--   Access to Rackspace Intelligence for Rackspace Dedicated customers:
-    Provides the ability for Dedicated customers to also access
-    Rackspace Intelligence for their devices.
+-   **Available in GA** - Access to Rackspace Intelligence for Rackspace
+    Dedicated customers: Provides the ability for Dedicated customers to also
+    access Rackspace Intelligence for their devices.
+
+-   **Available in future** - Customizable dashboards: Provides the ability to
+    customize your dashboard in Rackspace Intelligence by adding widgets for
+    graphs, drag-and-drop widgets, and more.

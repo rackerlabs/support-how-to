@@ -25,7 +25,6 @@ products.
 | Amazon VPC             | [Cloud Networks product and pricing](https://www.rackspace.com/cloud/networks)                           |
 | Amazon Route 53        | [Cloud DNS product and pricing](https://www.rackspace.com/cloud/dns)                                     |
 | AWS Direct Connect     | [RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect)                                        |
-| AWS Marketplace        | [Cloud Tools Marketplace](https://marketplace.rackspace.com/home)                                        |
 | Amazon S3              | [Cloud Files product and pricing](http://www.rackspace.com/cloud/files)<br />[Cloud Files API](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)|
 | Amazon Glacier         | [Cloud Backup (with compression)](https://www.rackspace.com/cloud/backup)                                |
 | Amazon EBS             | [Cloud Block Storage product and pricing](http://www.rackspace.com/cloud/block-storage)<br />[Cloud Block Storage API](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)     |

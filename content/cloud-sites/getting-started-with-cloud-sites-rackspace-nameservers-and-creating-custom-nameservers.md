@@ -5,8 +5,8 @@ title: Getting Started With Cloud Sites - Rackspace Nameservers and Creating Cus
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
-last_modified_date: '2016-06-27'
-last_modified_by: Nate Archer
+last_modified_date: '2016-01-14'
+last_modified_by: Kelly Holcomb
 product: Cloud Sites
 product_url: cloud-sites
 ---
@@ -22,8 +22,8 @@ Rackspace Cloud, follow these steps:
 
 1.  Access your account with your current registrar (for example,
     **godaddy.com** or **register.com**).
-2.  Change the name servers to **ns.stabletransit.com** and
-    **ns2.stabletransit.com**.
+2.  Change the name servers to **dns1.stabletransit.com** and
+    **dns2.stabletransit.com**.
 
 Your current registrar might offer "transfer lock" or a similar service
 as a security measure to prevent unauthorized transfer of your domain

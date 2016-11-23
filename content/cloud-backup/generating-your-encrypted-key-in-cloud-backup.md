@@ -1,5 +1,5 @@
 ---
-permalink: generating-your-encrypted-key-in-cloud-backup/
+permalink: generate-your-encrypted-key-in-cloud-backup/
 audit_date:
 title: Generate your encrypted key in Cloud Backup
 type: article

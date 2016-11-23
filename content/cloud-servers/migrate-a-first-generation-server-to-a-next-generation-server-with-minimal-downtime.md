@@ -5,8 +5,8 @@ title: Migrate a First Gen server to a Next Gen server with minimal downtime
 type: article
 created_date: '2015-08-10'
 created_by: Rackspace Support
-last_modified_date: '2016-06-01'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2016-07-07'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -21,11 +21,9 @@ The load balancer makes a seamless migration from First Gen server to a Next Gen
 
 1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 
-2. From the **Networking** menu, select **Load Balancers**.
+2. In the top navigation bar, click **Networking > Load Balancers**.
 
 3. Click **Create Load Balancer**.
-
-   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/1941-2_0.png %}" width="520" height="104" border="1" alt=""  />
 
 4. In the **Identification** section, enter a name and select the same region that your server is in.
 
@@ -39,7 +37,7 @@ The load balancer makes a seamless migration from First Gen server to a Next Gen
 
 2.	On the load balancer details page, go to the Nodes section, click Add Cloud Servers, and add the First Gen server to the load balancer.
 
-**Note:** If you have SSL termination on your server, you will need additional configuration. Enable SSL termination through the load balancer or have two load balancers sharing the same IP addres to direct HTTP and HTTPS traffic to your server.
+**Note:** If you have SSL termination on your server, you will need additional configuration. Enable SSL termination through the load balancer or have two load balancers sharing the same IP address to direct HTTP and HTTPS traffic to your server.
 
 ### Repoint your DNS to the load balancer
 
@@ -49,9 +47,7 @@ The load balancer makes a seamless migration from First Gen server to a Next Gen
 
 3. On the domain details page, click the gear icon next to your A record and select **Modify Record**.
 
-4. In the pop-up dialog box, endter the IP address of the load balancer int eh **Target** field.
-
-    <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-7_0.png %}" border="1" alt=""  />
+4. In the pop-up dialog box, enter the IP address of the load balancer in the **Target** field.
 
 5. Type the load balancer's IP address in to your browser's address bar to verify your website is loading correctly.
 
@@ -59,11 +55,9 @@ The load balancer makes a seamless migration from First Gen server to a Next Gen
 
 Follow the steps in this section to create an image of the First Gen server that you will then use to create a Next Gen server.
 
-   **Note:** If you are on a Linux server with under 40 GB of disk in use, you can resize down to a 1 GB flavor before taking the image. When you create the new Next Gen server from the image, you can choose any flavor that will allow you to boot the server from a volume, as described in the [Boot a server from a Cloud Block Storage volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
+**Note:** If you are on a Linux server with under 40 GB of disk in use, you can resize down to a 1 GB flavor before taking the image. When you create the new Next Gen server from the image, you can choose any flavor that will allow you to boot the server from a volume, as described in the [Boot a server from a Cloud Block Storage volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
 
 1. On the Cloud Servers page of the Cloud Control Panel, click the gear icon next to the First Gen server that you are imaging and select **Create Image**.
-
-   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-5_0.png %}" width="230" height="329" border="1" alt=""  />
 
 2. In the pop-up dialog box, enter a name for the image in the **Saved Image Name** field.
 
@@ -75,13 +69,9 @@ Follow the steps in this section to create an image of the First Gen server that
 
 Follow these steps to create a Next Gen server for the First Gen server image.
 
-1. At the top of the Cloud Servers, select **Servers > Saved Images**.
+1. In the top navigation bar of the [Cloud Control Panel](https://mycloud.rackspace.com), select **Servers > Saved Images**.
 
-   <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-7_0.png %}" border="1" alt=""  />
-
-2. Click the gear icon next to the image you just created and select **Create Server with Image**.
-
-    <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-8_0.png %}" border="1" alt=""  />
+2. Click the gear icon next to the image you created in the previous section and select **Create Server with Image**.
 
 3. Name your server and choose your preferred flavor.
 
@@ -95,19 +85,18 @@ After the server has been created, attach it to your load balancer by performing
 
 2. Under **Nodes**, click **Add Cloud Servers**.
 
-3. Select the server that you just created and click **Add Selected Servers**.
+3. Select the server that you created in the previous section and then click **Add Selected Servers**.
 
-    <img src="{% asset_path cloud-servers/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/4782-11_0.png %}" width="388" height="287" border="1" alt=""  />
-
-4. Use the following steps to remove the First Gen server that you added previously from the load balancer
+4. Use the following steps to remove the First Gen server that you added previously from the load balancer:
 
    **Note:** You can remove the First Gen server by using the Edit Node Condition feature instead. With this option, anyone currently on the server will be unaffected by the transition but will not be allowed to start new connections.
 
-   a. Click the gear icon next to the First Geb server and select **Edit Node Condition**.
+   a. Click the gear icon next to the First Gen server and select **Edit Node Condition**.
 
    b. In the pop-up dialog box, select **Draining Connections**.
 
    c. Click **Save Condition**.
+
    Your server traffic will now use your Next Gen server.
 
 ### Delete the Load Balancer
