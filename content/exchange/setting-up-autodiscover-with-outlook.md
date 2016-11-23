@@ -14,6 +14,8 @@ product_url: exchange
 
 In order for your Exchange account to work with Outlook, you need to set up your domain name with a special DNS record that points to Rackspace Cloud Office's Autodiscover server.
 
+**Note:** Autodiscover is not compatible with Outlook 2011, Outlook 2016, or Mac Mail when setting up an email account as POP or IMAP. 
+
 
 ### Autodiscover outlook features
 
@@ -55,7 +57,7 @@ To determine if the Autodiscover service is configured properly, you may use the
 <![autodiscover2.jpg]>
 
 
-You can also check your outlook troubleshooting logs for the following: 
+You can also check your outlook troubleshooting logs for the following:
 
 - `Redirect Check`
 
