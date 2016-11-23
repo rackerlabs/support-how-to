@@ -1,7 +1,7 @@
 ---
-permalink: extract-a-first-generation-linux-cloud-server-image/
+permalink: view-contents-of-a-first-generation-cloud-server-image/
 node_id:
-title: Extract a First Generation (Linux) Cloud Server Image
+title: View Contents of a First Generation Cloud Server Image
 type: article
 created_date: '2016-11-23'
 created_by: Luke Repko
@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. 
+This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the VHD or .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. 
 
 ###Downloading your image
 
