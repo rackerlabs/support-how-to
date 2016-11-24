@@ -11,11 +11,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. 
+This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. The information contained herein does not guarantee the successful recovery of data, and is instead aimed at assisting the user in accessing their data. 
 
 ###Downloading your first generation server image
 
-Using the [cloud control panel](https://mycloud.rackspace.com), navigate to Storage, and then Files to view your containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
+Using the [cloud control panel](https://mycloud.rackspace.com), navigate to "Storage", and then, "Files" to view your containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
 
 As an alternative to using the cloud control panel, there are several swift clients available which can be used to download your image from cloud files. One such popular client is swiftly which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, it can be installed via pip. 
 
@@ -25,7 +25,7 @@ The following is an example command using swiftly. Notice in the below command t
 
           swiftly -v -A https://identity.api.rackspacecloud.com/v2.0 --region=ORD -U {username} -K {API_Key} get cloudservers --prefix={"image_name.tar"} --all-objects -o {local_download_directory/}
           
-###Extracting your image
+###Extracting your image in Linux
 
 In the following example, we will concatenate and extract the tar.gz image files using one command (will work with a single file also). Before executing the command, be sure all image files have successfully downloaded, and are located in the same directory. 
 
@@ -35,7 +35,17 @@ In the following example, we will concatenate and extract the tar.gz image files
 
 PV or pipe viewer is used to monitor the progress of data through a pipe. It allows a user to see the progress of data through a pipeline, by giving information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. It is not necessary to use pv, however it is very convenient. As most linux distributions do not come with this package, you may need to install it. If you’d rather not, the following command assumes you do not wish to use pv.
 
-          cat $image_name.tar* | tar -zxvf - -i
+          cat {image_name.tar*} | tar -zxvf - -i
+          
+###Extracting your image in Windows
+
+If there are multiple image parts, you will need to concatenate the files before decompressing and extracting the image. To do this in Windows, first open a command prompt at the directory where the image files were downloaded. The following command can be used to concatenate, or combine the files. Note that while running, there will be no progress in command prompt, simply watch the file grow in explorer, or monitor disk I/O using task manager for progress/status information. 
+
+          copy /b {image_name.tar.gz.*} {image_name.tar.gz}
+
+Windows is not capable of extracting the tar.gz format natively. There are many third party applications that have the ability to extract this format. One popular open source application is [7zip](http://www.7-zip.org/). The extraction process is two pronged in that the, ".gz" portion of the file will need to first be decompressed which will reveal the, ".tar" archive. 
+
+1. Right click the concatenated, "image_name.tar.gz" file
           
 ###Viewing the image contents
 
