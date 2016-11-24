@@ -1,7 +1,7 @@
 ---
-permalink: view-contents-of-a-first-generation-cloud-server-image/
+permalink: access-contents-of-a-first-generation-cloud-server-image/
 node_id:
-title: View Contents of a First Generation Cloud Server Image
+title: Access Contents of a First Generation Cloud Server Image
 type: article
 created_date: '2016-11-23'
 created_by: Luke Repko
@@ -11,11 +11,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the VHD or .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. 
+This article describes how to access the contents of a first generation Rackspace cloud server image stored in cloud files. It will guide you through the process of downloading the .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. 
 
-###Downloading your image
+###Downloading your first generation server image
 
-Using the [cloud control panel](https://mycloud.rackspace.com), navigate to Storage, and then Files to view your Containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
+Using the [cloud control panel](https://mycloud.rackspace.com), navigate to Storage, and then Files to view your containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
 
 As an alternative to using the cloud control panel, there are several swift clients available which can be used to download your image from cloud files. One such popular client is swiftly which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, it can be installed via pip. 
 
@@ -39,4 +39,11 @@ PV or pipe viewer is used to monitor the progress of data through a pipe. It all
           
 ###Viewing the image contents
 
-The prior command will have extracted the compressed image file(s) into a subdirectory named, "image", which will contain the file system.
+The prior command will extract the compressed image file(s) into a subdirectory named, "image", which will contain the file system. However, if there is another image file named, "image.vhd" within this directory, it will need to be mounted separately. This is because the first generation infrastructure utilized several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but for the sake of simplicity, we advise attaching the VHD to a virtual machine on your local workstation using VMware Workstation, or VirtualBox. If the image is of a Windows cloud server, mounting the VHD is an easier process. 
+
+###Mounting a Windows VHD
+
+1. Open Disk Management (In a run dialogue box type, "diskmgmt.msc" then hit enter).
+2. Click, “Action” then “Attach VHD”.
+3. Click, "Browse" then locate the VHD, click "open", then "OK".
+4. The disk will be visible in disk management, and a drive letter can now be assigned if not already present.
