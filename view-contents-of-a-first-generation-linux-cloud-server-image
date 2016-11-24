@@ -45,11 +45,12 @@ If there are multiple image parts, you will need to concatenate the files before
 
 Windows is not capable of extracting the tar.gz format natively. There are many third party applications that have the ability to extract this format. One popular open source application is [7zip](http://www.7-zip.org/). The extraction process is two pronged in that the, ".gz" portion of the file will need to first be decompressed which will reveal the, ".tar" archive. 
 
-1. Right click the concatenated, "image_name.tar.gz" file
+1. Right click the concatenated, "image_name.tar.gz" file, hover over, "7-Zip", and click, "Extract Here".
+2. Right click on the decompressed, "image_name.tar" file, hover over, "7Zip", and click, "Extract Here".
           
 ###Viewing the image contents
 
-The prior command will extract the compressed image file(s) into a subdirectory named, "image", which will contain the file system. However, if there is another image file named, "image.vhd" within this directory, it will need to be mounted separately. This is because the first generation infrastructure utilized several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but for the sake of simplicity, we advise attaching the VHD to a virtual machine on your local workstation using VMware Workstation, or VirtualBox. If the image is of a Windows cloud server, mounting the VHD is an easier process. 
+The prior commands should have aided in the decompression and extraction of the image file(s) into a subdirectory named, "image", which will contain the file system. However, if there is another image file named, "image.vhd" within this directory, it will need to be mounted separately. This is because the first generation infrastructure utilized several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but for the sake of simplicity, we advise attaching the VHD to a virtual machine on your local workstation using VMware Workstation, or VirtualBox. If the image is of a Windows cloud server, mounting the VHD is an easier process. 
 
 ###Mounting a Windows VHD
 
