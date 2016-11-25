@@ -29,7 +29,7 @@ You must set up the Autodiscover record for your domain name in order to have th
 
 - Sharing calendars, contacts, and folders using a sharing invitation within Outlook
 
-- Access to Public Folders in Exchange 2013 and Exchange 2016.
+- Access to Public Folders in Exchange 2013 and Exchange 2016
 
 - Automatic mapping of shared mailboxes
 
