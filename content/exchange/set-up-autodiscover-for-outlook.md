@@ -61,10 +61,10 @@ To determine if the Autodiscover service is configured properly,  use the Test E
     <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover2.png %}" alt="" />
 
 
-    You can also click the **Log** tab and for the following lines:
+    You can also click the **Log** tab for the following lines:
 
       - `Redirect Check`
 
       - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml starting`
 
-      - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml Succeeded (0x00000000)``
+      - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml Succeeded (0x00000000)`
