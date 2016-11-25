@@ -5,14 +5,14 @@ title: Set up Autodiscover for Outlook
 type: article
 created_date: '2016-10-25'
 created_by: Aaron Medrano
-last_modified_date: '2016-11-24'
+last_modified_date: '2016-11-25'
 last_modified_by: Nate Archer
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 
-In order for certain features on your Exchange account to work with Outlook, you must set up your domain name with a special DNS record that points to Rackspace Cloud Office Autodiscover server.
+In order for certain features on your Exchange account to work with Outlook, you must set up your domain name with a special DNS record that points to the Rackspace Cloud Office Autodiscover server.
 
 **Note:** Autodiscover is not compatible with Outlook 2011, Outlook 2016, or Mac Mail when setting up an email account as POP or IMAP.
 
@@ -33,11 +33,11 @@ You must set up the Autodiscover record for your domain name in order to have th
 
 - Automatic mapping of shared mailboxes
 
-**Note:** You can use the Outlook Web App to set up automatic out of office automatic replies without Autodiscover.
+**Note:** You can use the Outlook Web App to set up automatic out-of-office replies without Autodiscover.
 
 ### Set up the Autodiscover DNS record
 
-To set up Autodiscover DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/#autodiscover-records).
+To set up the Autodiscover DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/#autodiscover-records).
 
 ### Test Autodiscover functionality in Outlook
 
