@@ -12,56 +12,59 @@ product_url: exchange
 ---
 
 
-In order for your Exchange account to work with Outlook, you need to set up your domain name with a special DNS record that points to Rackspace Cloud Office's Autodiscover server.
+In order for certain features on your Exchange account to work with Outlook, you must set up your domain name with a special DNS record that points to Rackspace Cloud Office Autodiscover server.
 
 **Note:** Autodiscover is not compatible with Outlook 2011, Outlook 2016, or Mac Mail when setting up an email account as POP or IMAP.
 
 
 ### Autodiscover outlook features
 
-You need to set up the Autodiscover record for your domain name in order to have the following Exchange features:
+You must set up the Autodiscover record for your domain name in order to have the following Exchange features:
 
-- Free/Busy information for Calendar Scheduling
+- Free/busy information for calendar scheduling
 
-- Out of Office setup and management through Outlook.
+- Out of office setup and management through Outlook
 
-- Offline Address Book synchronization.
+- Offline address book synchronization
 
-- Sharing Calendars, Contacts, and Folders using Sharing invitation within Outlook.
+- Sharing calendars, contacts, and folders using a sharing invitation within Outlook
 
 - Access to Public Folders in Exchange 2013 and Exchange 2016.
 
-- Automapping of Shared Mailboxes
+- Automatic mapping of shared mailboxes
 
-**Note:** You can use the Outlook Web App to set-up out of office automatic replies without Autodiscover
+**Note:** You can use the Outlook Web App to set up automatic out of office automatic replies without Autodiscover.
 
 ### Set up the Autodiscover DNS record
 
-To set-up the special autodiscover DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/#autodiscover-records).
+To set up Autodiscover DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/#autodiscover-records).
 
-#### Test Autodiscover functionality in Outlook
+### Test Autodiscover functionality in Outlook
 
-To determine if the Autodiscover service is configured properly, you may use the **Test E-mail AutoConfiguration tool** in Outlook.
+To determine if the Autodiscover service is configured properly,  use the Test E-mail AutoConfiguration tool in Outlook.
 
-1. While Outlook is running, hold down the CTRL key, right-click the Outlook icon in your system tray or notification area on the lower right corner of the screen.
+1. While Outlook is running, press and hold down the **CTRL** key, and then right-click the Outlook icon in the system tray or notification area on the lower-right corner of the screen.
 
-2. Select **Test E-mail AutoConfiguration**.
+2. From the menu, select **Test E-mail AutoConfiguration**.
 
     <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover1.png %}" alt="" />
 
 3. Enter your email address and password.
 
-4. Uncheck the boxes next to **Use Guessmart** and **Secure Guessmart Authentication**. **Use Autodiscover** must be checked
+4. Clear the **Use Guessmart** and **Secure Guessmart Authentication** check boxes.
 
-5. Select **Test** to run the test.
+    Ensure that the Use Autodiscover check box is selected.
 
+5. Click test.
+
+    The result tab shows that Autodiscover is detected.
     <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover2.png %}" alt="" />
 
 
-You can also check your outlook troubleshooting logs for the following:
+    You can also click the **Log** tab and for the following lines:
 
-- `Redirect Check`
+      - `Redirect Check`
 
-- `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml starting`
+      - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml starting`
 
-- `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml Succeeded (0x00000000)``
+      - `Autodiscover to https://secure.autodiscover.emailsrvr.com/autodiscover/autodiscover.xml Succeeded (0x00000000)``
