@@ -19,11 +19,11 @@ Using the [Cloud Control Panel](https://mycloud.rackspace.com), navigate to "Sto
 
 As an alternative to using the Cloud Control Panel, you may use a swift clients available to download your image from Cloud Files. One such popular client is **swiftly**, which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, install it by using pip. 
 
-          pip install swiftly
+    pip install swiftly
 
 The following example uses swiftly to download an image. Notice that we don't specify the full file name. This allows swiftly to systematically download all of the tar.gz parts.
 
-          swiftly -v -A https://identity.api.rackspacecloud.com/v2.0 --region=ORD -U {username} -K {API_Key} get cloudservers --prefix={"image_name.tar"} --all-objects -o {local_download_directory/}
+    swiftly -v -A https://identity.api.rackspacecloud.com/v2.0 --region=ORD -U {username} -K {API_Key} get cloudservers --prefix={"image_name.tar"} --all-objects -o {local_download_directory/}
           
 If you are looking for a swift client that is compatible with Windows, try [Cyberduck](https://cyberduck.io/). Configuration instructions for Rackspace Cloud Files can be found [here](https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles). 
           
@@ -31,19 +31,19 @@ If you are looking for a swift client that is compatible with Windows, try [Cybe
 
 In the following example, we concatenate and extract the tar.gz image files using one command. It works with a single file also. Before executing the command, be sure all image files have successfully downloaded, and are located in the same directory. 
 
-          cat {image_name.tar.gz.*} | pv | tar -zxf - -i
+    cat {image_name.tar.gz.*} | pv | tar -zxf - -i
           
 ###What is, “pv” in that command?
 
 PV, or pipe viewer, is used to monitor the progress of data through a pipe. It allows a user to see the progress of data through a pipeline, by giving information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. It is not necessary to use pv, however it is very convenient. As most linux distributions do not come with this package, you may need to install it. If you’d rather not use pv, execute the following command.
 
-          cat {image_name.tar*} | tar -zxvf - -i
+    cat {image_name.tar*} | tar -zxvf - -i
           
 ###Extracting your image in Windows
 
 If there are multiple image parts, you will need to concatenate the files before decompressing and extracting the image. To do this in Windows, first open a command prompt at the directory where the image files were downloaded. The following command can be used to concatenate, or combine, the files. While copy is running, there will be no progress in the command prompt. For progress/status information, simply watch the file grow in explorer, or monitor disk I/O using task manager. 
 
-          copy /b {image_name.tar.gz.*} {image_name.tar.gz}
+    copy /b {image_name.tar.gz.*} {image_name.tar.gz}
 
 Windows is not capable of extracting the tar.gz format natively, but many third party applications have the ability to extract this format. One popular open source application is [7zip](http://www.7-zip.org/). The extraction process is two pronged - the file must be decompressed, revealing ".tar" archive, which then must be unarchived. 
 
