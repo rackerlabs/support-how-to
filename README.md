@@ -16,5 +16,5 @@ https://support.rackspace.com/how-to/
 - Dec 12 - 16:
 - Dec 19 - 23: Nate
 - Dec 26 - 30:
-- Jan 2 - 6:
+- Jan 2 - 6: Laura
 
