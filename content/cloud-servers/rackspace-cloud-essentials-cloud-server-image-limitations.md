@@ -101,9 +101,6 @@ there are a number of practical limitations in place:
 
 ### Windows-specific limitations
 
--   There are no limits on image disk size for Standard Windows Cloud
-    Servers at this time. General Purpose and I/O servers cannot be built from images with system volumes larger than 40GB.
-
 -   If you take an image of a Windows Cloud Server that is configured to
     be a Domain Controller (DC), you will be unable to restore from
     that image. Our build system relies on the local Administrator
