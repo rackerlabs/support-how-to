@@ -54,7 +54,7 @@ Windows is not capable of extracting the tar.gz format natively. There are many 
 
 The prior commands should have aided in the decompression and extraction of the image file(s) into a subdirectory named, "image", which will contain the file system. However, if there is another image file named, "image.vhd" within this directory, it will need to be mounted separately. This is because the first generation infrastructure utilized several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but for the sake of simplicity, we advise attaching the VHD to a virtual machine on your local workstation using VMware Workstation, or VirtualBox. If the image is of a Windows cloud server, mounting the VHD is an easier process. 
 
-###Mounting a Windows VHD
+### Mounting a Windows VHD
 
 1. Open Disk Management (In a run dialogue box type, "diskmgmt.msc" then hit enter).
 2. Click, “Action” then “Attach VHD”.
