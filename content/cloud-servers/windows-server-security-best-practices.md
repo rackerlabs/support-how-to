@@ -23,6 +23,8 @@ do not change the following configurations as you consider security best practic
 If you must change these values, contact an administrator at Rackspace to make the
 changes in a way that does not impact our ability to provide you with Fanatical
 Support®.
+
+
 ------
 
 This article provides some general security best practices to consider when you set up a
