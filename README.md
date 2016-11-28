@@ -10,14 +10,11 @@ https://support.rackspace.com/how-to/
 
 ### How-to ninja support schedule
 
-- Sep 19 - 23: Stephanie
-- Sep 26 - 30: Renée
-- Oct 3 - 7: Renée
-- Oct 10 - 14: Nate
-- Oct 17 - 21: Stephanie
-- Oct 24 - 28: Stephanie
-- Oct 31 - Nov 4: Nate
-- Nov 7 - 11: Nate
-- Nov 14 - 18: Renée
-- Nov 21 - 25: Cat
+
 - Nov 28 - Dec 2: Nate
+- Dec 5 - 9: 
+- Dec 12 - 16:
+- Dec 19 - 23: 
+- Dec 26 - 30:
+- Jan 2 - 6
+
