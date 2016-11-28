@@ -13,8 +13,12 @@ https://support.rackspace.com/how-to/
 
 - Nov 28 - Dec 2: Nate
 - Dec 5 - 9: Stephanie
-- Dec 12 - 16:
+- Dec 12 - 16:Renée
 - Dec 19 - 23: Nate
 - Dec 26 - 30:
 - Jan 2 - 6: Laura
+- Jan 9 - 13: Renée
+- Jan 16 - 20:
+- Jan 23 - 27:
+- Jan 30 - Feb 3:
 
