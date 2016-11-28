@@ -1,3 +1,16 @@
+---
+permalink: access-contents-of-a-first-generation-cloud-server-image/
+node_id:
+title: Access Contents of a First Generation Cloud Server Image
+type: article
+created_date: '2016-11-24'
+created_by: Luke Repko
+last_modified_date: '2016-11-28'
+last_modified_by: Luke Repko
+product: Cloud Servers
+product_url: cloud-servers
+---
+
 This article describes how to access the contents of a first generation Rackspace cloud server image. It will guide you through the process of downloading the .tar.gz image parts, concatenating, and extracting them. This is mostly useful for data recovery situations, where file level backups may not exist. The information contained herein does not guarantee the successful recovery of data, and is instead a best effort attempt at assisting the user in accessing data contained within an image.
 
 ###Downloading your first generation server image
