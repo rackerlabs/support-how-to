@@ -12,7 +12,7 @@ https://support.rackspace.com/how-to/
 
 
 - Nov 28 - Dec 2: Nate
-- Dec 5 - 9: 
+- Dec 5 - 9: Stephanie
 - Dec 12 - 16:
 - Dec 19 - 23: Nate
 - Dec 26 - 30:
