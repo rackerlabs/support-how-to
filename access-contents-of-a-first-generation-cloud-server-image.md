@@ -17,7 +17,7 @@ This article describes how to access the contents of a first generation Rackspac
 
 Using the [Cloud Control Panel](https://mycloud.rackspace.com), navigate to "Storage", and then, "Files" to view your Cloud Files containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
 
-As an alternative to using the Cloud Control Panel, you may use a swift clients available to download your image from Cloud Files. One such popular client is **swiftly**, which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, install it by using pip. 
+As an alternative to using the Cloud Control Panel, you may use a swift client to download your image from Cloud Files. One such popular client is **swiftly**, which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, install it by using pip. 
 
     pip install swiftly
 
