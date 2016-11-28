@@ -21,8 +21,8 @@ do not change the following configurations as you consider security best practic
 - Rebuilding existing servers or building a new server from a snapshot requires that Administrator logins are enabled and port 445 is not blocked in the Windows firewall. 
 
 If you must change these values, contact an administrator at Rackspace to make the
-changes in a way that does not impact our ability to provide you with Fanatical
-Support®.
+changes in a way that does not impact our ability to provide you with *Fanatical
+Support*®.
 
 
 ------
@@ -133,7 +133,7 @@ servers because, at the time this article was written, the process that connects
 firewall and the servers is automated during the build process. Physical firewalls are not
 provisioned as quickly as cloud servers and must be requested through our Hybrid
 teams. For more information about physical firewalls and RackConnect, see
-http://www.rackspace.com/cloud/hybrid/rackconnect/.
+<http://www.rackspace.com/cloud/hybrid/rackconnect/>.
 
 If you do install Active Directory on a cloud server, we recommend that
 you run two Domain Controllers in case one fails (imaging is currently
