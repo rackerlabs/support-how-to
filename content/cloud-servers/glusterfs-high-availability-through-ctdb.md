@@ -144,19 +144,6 @@ The following items are necessary for CTDB installation:
 
     You should see the following output:
 
-    - `ctdb ip` returns a list of all IP addresses and the nodes to which they are assigned:
-
-            [root@centos63-gluster1 ~]# ctdb ip
-            Public IPs on node 0
-            10.0.0.6 node[3] active[] available[eth2] configured[eth2]
-            10.0.0.7 node[2] active[] available[eth2] configured[eth2]
-            10.0.0.8 node[1] active[] available[eth2] configured[eth2]
-            10.0.0.9 node[0] active[eth2] available[eth2] configured[eth2]
-            10.0.0.10 node[3] active[] available[eth2] configured[eth2]
-            10.0.0.11 node[2] active[] available[eth2] configured[eth2]
-            10.0.0.12 node[1] active[] available[eth2] configured[eth2]
-            10.0.0.13 node[0] active[eth2] available[eth2] configured[eth2]
-
     - `ctdb status` returns the following information:
 
             [root@centos63-gluster1 ~]# ctdb status
@@ -173,6 +160,19 @@ The following items are necessary for CTDB installation:
             hash:3 lmaster:3
             Recovery mode:NORMAL (0)
             Recovery master:0
+
+    - `ctdb ip` returns a list of all IP addresses and the nodes to which they are assigned:
+
+            [root@centos63-gluster1 ~]# ctdb ip
+            Public IPs on node 0
+            10.0.0.6 node[3] active[] available[eth2] configured[eth2]
+            10.0.0.7 node[2] active[] available[eth2] configured[eth2]
+            10.0.0.8 node[1] active[] available[eth2] configured[eth2]
+            10.0.0.9 node[0] active[eth2] available[eth2] configured[eth2]
+            10.0.0.10 node[3] active[] available[eth2] configured[eth2]
+            10.0.0.11 node[2] active[] available[eth2] configured[eth2]
+            10.0.0.12 node[1] active[] available[eth2] configured[eth2]
+            10.0.0.13 node[0] active[eth2] available[eth2] configured[eth2]
 
     - `ctdb ping -n all` shows the result of issuing a ping to all nodes:
 
