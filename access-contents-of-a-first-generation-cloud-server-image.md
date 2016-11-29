@@ -15,7 +15,7 @@ Because first generation images cannot be used for next generation servers, this
 
 ###Download the first generation server image
 
-You can download the **tar.gz** image files by using either the CloudControl panelor a client tool.
+You can download the **tar.gz** image files by using either the Cloud Control panel or a client tool.
 
 ####Use the Cloud Control Panel
 
@@ -43,7 +43,7 @@ You can concatenate and extract the **tar.gz** image files by using one command,
 
     cat {image_name.tar.gz.*} | pv | tar -zxf - -i
 
-Note: The `pv` command, or pipe viewer, enables you to monitor the progress of data through a pipe. It provides information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. This command is not required, but it is very convenient. Most Linux distributions don't come with this package, so you may need to install it. If you’d rather not use pv, run the following command:
+`**Note**`: The `pv` command, or pipe viewer, enables you to monitor the progress of data through a pipe. It provides information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. This command is not required, but it is very convenient. Most Linux distributions don't come with this package, so you may need to install it. If you’d rather not use pv, run the following command:
 
     cat {image_name.tar.gz.*} | tar -zxvf - -i
           
@@ -62,7 +62,7 @@ Windows can't extract the **tar.gz** format natively, but many third party appli
           
 ###View the image contents
 
-The preceeding commands extract the image file(s) into a subdirectory named, **image**, which contains the file system. If there is another image file named "image.vhd" within this directory, you should mount it separately, because the first generation infrastructure used several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but we recommend that you attach the VHD to a virtual machine on your local workstation by using VMware Workstation, or VirtualBox. If the image is a Windows Cloud Server image, mounting the VHD is an easier process, as shown in the following example. 
+The preceeding commands extract the image files into a subdirectory named, **image**, which contains the file system. If there is another image file named "image.vhd" within this directory, you should mount it separately, because the first generation infrastructure used several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but we recommend that you attach the VHD to a virtual machine on your local workstation by using VMware Workstation, or VirtualBox. If the image is a Windows Cloud Server image, mounting the VHD is an easier process, as shown in the following example. 
 
 ###Mount a Windows VHD
 
