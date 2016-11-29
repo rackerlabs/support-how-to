@@ -25,7 +25,7 @@ A list of your Cloud Files containers is displayed. Image files are stored in th
 
 ####Use a client tool
 
-You can use a client tool, such as **swiftly**, to download your image from Cloud Files. Using swiftly from the command line, you can download all “parts” of an image by invoking the `--prefix flag`. 
+You can use a client tool, such as **swiftly**, to download your image from Cloud Files. Using swiftly from the command line, you can download all “parts” of an image by invoking the `--prefix` flag. 
 
 If you do not have swiftly installed, install it by using pip. 
 
