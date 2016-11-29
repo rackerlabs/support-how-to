@@ -11,52 +11,62 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to access the contents of a first generation Rackspace cloud server image. Since first generation images cannot be used for next generation servers, the article guides you through the process of downloading the .tar.gz image parts, and concatenating and extracting those parts. This is mostly useful for data recovery situations, where file level backups may not exist but you need to access the data. This information does not guarantee the successful recovery of data but may help you to access the data contained within an image.
+Because first generation images cannot be used for next generation servers, this article guides you through the process of downloading the **tar.gz** parts of an image, and then concatenating and extracting those parts. This process is useful when you need to access the data in an image and file level backups don't exist. This process doesn't guarantee the successful recovery of data, but it can help you to access the data contained within an image.
 
-###Downloading your first generation server image
+###Download the first generation server image
 
-Using the [Cloud Control Panel](https://mycloud.rackspace.com), navigate to "Storage", and then, "Files" to view your Cloud Files containers. Image files will be stored within the, “cloudservers” container. If your image is larger than 5 GB, you can expect to see multiple image, “chunks”. It is important to download all of the tar.gz parts for a given image.
+You can download the **tar.gz** image files by using either the CloudControl panelor a client tool.
 
-As an alternative to using the Cloud Control Panel, you may use a swift client to download your image from Cloud Files. One such popular client is **swiftly**, which is run from the command line. Using swiftly, it is simple to download all “chunks” of an image by invoking the, --prefix flag. If you do not have swiftly, install it by using pip. 
+####Use the Cloud Control Panel
+
+In the [Cloud Control Panel](https://mycloud.rackspace.com), navigate to **Storage** > **Files**.
+
+A list of your Cloud Files containers is displayed. Image files are stored in the **cloudservers** container. If your image is larger than 5 GB, you can expect to see multiple image “parts”. It's important to download all of the **tar.gz** parts for a given image.
+
+####Use a client tool
+
+You can use a client tool, such as **swiftly**, to download your image from Cloud Files. Using swiftly from the command line, you can download all “parts” of an image by invoking the `--prefix flag`. 
+
+If you do not have swiftly installed, install it by using pip. 
 
     pip install swiftly
 
-The following example uses swiftly to download an image. Notice that we don't specify the full file name. This allows swiftly to systematically download all of the tar.gz parts.
+The following example uses swiftly to download an image. Because the full file name is not specified, swiftly can systematically download all of the **tar.gz** parts.
 
     swiftly -v -A https://identity.api.rackspacecloud.com/v2.0 --region=ORD -U {username} -K {API_Key} get cloudservers --prefix={"image_name.tar"} --all-objects -o {local_download_directory/}
           
-If you are looking for a swift client that is compatible with Windows, try [Cyberduck](https://cyberduck.io/). Configuration instructions for Rackspace Cloud Files can be found [here](https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles). 
+If you need a client that is compatible with Windows, try [Cyberduck](https://cyberduck.io/). Configuration instructions for Rackspace Cloud Files can be found on the [Cyberduck website](https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles). 
           
-###Extracting your image in Linux
+###Extract the image in Linux
 
-In the following example, we concatenate and extract the tar.gz image files using one command. It works with a single file also. Before executing the command, be sure all image files have successfully downloaded, and are located in the same directory. 
+You can concatenate and extract the **tar.gz** image files by using one command, as shown in the following example. This command also works with a single file. Before running the command, ensure that all of the image files have successfully downloaded and are located in the same directory. 
 
     cat {image_name.tar.gz.*} | pv | tar -zxf - -i
+
+Note: The `pv` command, or pipe viewer, enables you to monitor the progress of data through a pipe. It provides information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. This command is not required, but it is very convenient. Most Linux distributions don't come with this package, so you may need to install it. If you’d rather not use pv, run the following command:
+
+    cat {image_name.tar.gz.*} | tar -zxvf - -i
           
-###What is, “pv” in that command?
+###Extract the image in Windows
 
-PV, or pipe viewer, is used to monitor the progress of data through a pipe. It allows a user to see the progress of data through a pipeline, by giving information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. It is not necessary to use pv, however it is very convenient. As most linux distributions do not come with this package, you may need to install it. If you’d rather not use pv, execute the following command.
-
-    cat {image_name.tar*} | tar -zxvf - -i
-          
-###Extracting your image in Windows
-
-If there are multiple image parts, you will need to concatenate the files before decompressing and extracting the image. To do this in Windows, first open a command prompt at the directory where the image files were downloaded. The following command can be used to concatenate, or combine, the files. While copy is running, there will be no progress in the command prompt. For progress/status information, simply watch the file grow in explorer, or monitor disk I/O using task manager. 
+If the image has multiple parts, you must concatenate the files before decompressing and extracting the image. To do this in Windows, open a command prompt at the directory where the image files were downloaded and then use the following command to concatenate, or combine, the files: 
 
     copy /b {image_name.tar.gz.*} {image_name.tar.gz}
+    
+While the `copy` command is running, no progress is shown in the command prompt. To get progress and status information, watch the file grow in the File Explorer, or monitor disk I/O by using task manager. 
 
-Windows is not capable of extracting the tar.gz format natively, but many third party applications have the ability to extract this format. One popular open source application is [7zip](http://www.7-zip.org/). The extraction process is two pronged - the file must be decompressed, revealing ".tar" archive, which then must be unarchived. 
+Windows can't extract the **tar.gz** format natively, but many third party applications have the ability to extract this format. One popular open source application is [7-Zip](http://www.7-zip.org/). The 7-Zip extraction process has two steps: you decompress the file, revealing a **tar** archive, which you then unarchive. 
 
-1. Right click the concatenated, "image_name.tar.gz" file, hover over, "7-Zip", and click, "Extract Here".
-2. Right click on the decompressed, "image_name.tar" file, hover over, "7Zip", and click, "Extract Here".
+1. Right-click the concatenated **image_name.tar.gz** file and select **7-Zip > Extract Here**.
+2. Right-click the decompressed, **image_name.tar** file, and select **7-Zip > Extract Here**.
           
-###Viewing the image contents
+###View the image contents
 
-The preceeding commands should result in the extraction of the image file(s) into a subdirectory named, "image", which will contain the file system. However, if there is another image file named "image.vhd" within this directory, it will need to be mounted separately, because the first generation infrastructure utilized several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but we advise attaching the VHD to a virtual machine on your local workstation using VMware Workstation, or VirtualBox. If the image is a Windows Cloud Server image, mounting the VHD is an easier process, as shown in the following example. 
+The preceeding commands extract the image file(s) into a subdirectory named, **image**, which contains the file system. If there is another image file named "image.vhd" within this directory, you should mount it separately, because the first generation infrastructure used several different versions of Xen (XenClassic and XenServer). Images taken on XenClassic were file level, while images taken on XenServer were block level. Mounting a VHD in Linux is possible, but we recommend that you attach the VHD to a virtual machine on your local workstation by using VMware Workstation, or VirtualBox. If the image is a Windows Cloud Server image, mounting the VHD is an easier process, as shown in the following example. 
 
-### Mounting a Windows VHD
+###Mount a Windows VHD
 
-1. Open Disk Management - open a run dialogue box, type "diskmgmt.msc", and then press enter).
-2. Click, “Action” then “Attach VHD”.
-3. Click, "Browse", locate the VHD, click "open", then "OK".
-4. The disk will be visible in disk management, and a drive letter can now be assigned if not already present.
+1. Open a run dialogue box, type "diskmgmt.msc", and then press enter. This starts the Disk Management utility.
+2. Click, **Action**, and then click **Attach VHD**.
+3. Click **Browse**, locate the VHD file, click **Open**, and then click **OK**.
+4. The disk is now available in disk management, and a drive letter can now be assigned, if one isn't already assigned.
