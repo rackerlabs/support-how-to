@@ -45,7 +45,7 @@ You can concatenate and extract the **tar.gz** image files by using one command,
 
     cat {image_name.tar.gz.*} | pv | tar -zxf - -i
 
-**Note**: The `pv` command, or pipe viewer, enables you to monitor the progress of data through a pipe. It provides information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. This command is not required, but it is very convenient. Most Linux distributions don't come with this package, so you may need to install it. If you’d rather not use `pv`, run the following command:
+**Note:** The `pv` command, or pipe viewer, enables you to monitor the progress of data through a pipe. It provides information such as time elapsed, percentage completed (with progress bar), current throughput rate, total data transferred, and ETA. This command is not required, but it is very convenient. Most Linux distributions don't come with this package, so you may need to install it. If you’d rather not use `pv`, run the following command:
 
     cat {image_name.tar.gz.*} | tar -zxvf - -i
           
