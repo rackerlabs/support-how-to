@@ -5,7 +5,7 @@ title: Explore high availability of GlusterFS through CTDB
 type: article
 created_date: '2014-08-14'
 created_by: Marcin Stangel
-last_modified_date: '2016-06-24'
+last_modified_date: '2016-11-29'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -90,26 +90,18 @@ The following items are necessary for CTDB installation:
 
 5.	Stop Samba.
 
-6.	Add the following configuration to **/etc/samba/smb.conf**, under `[global]`. The
-   `private dir` option specifies where to store the locking information. Ideally you should
-   have a separate replicated volume created, or some other form of shared storage.
-
-          clustering = yes
-          idmap backend = tdb2
-          private dir = /gluster-volume0/
-
-7.	Disable Samba from automatically starting. It will be managed by the CTDB service.
+6.	Disable Samba from automatically starting. It will be managed by the CTDB service.
 
           chkconfig smb off
 
-8.	Configure the CTDB **/etc/sysconfig/ctdb** file, as follows:
+7.	Configure the CTDB **/etc/sysconfig/ctdb** file, as follows:
 
           CTDB_RECOVERY_LOCK=/gluster-volume0/.CTDB-lockfile
           CTDB_PUBLIC_ADDRESSES=/etc/ctdb/public_addresses
           CTDB_MANAGES_SAMBA=yes
           CTDB_NODES=/etc/ctdb/nodes
 
-9.	Configure the **/etc/ctdb/public_addresses** file, which is the list of virtual IP addresses
+8.	Configure the **/etc/ctdb/public_addresses** file, which is the list of virtual IP addresses
    to be assigned to all server nodes. This example uses two virtual IP addresses per server
    node (one for NFS and one for Samba), so in total it uses eight new private IP addresses.
 
@@ -124,7 +116,7 @@ The following items are necessary for CTDB installation:
           10.0.0.12/24 eth2
           10.0.0.13/24 eth2
 
-10.	In **/etc/ctdb/nodes**, list the server nodes that will be members of the CTDB cluster:
+9.	In **/etc/ctdb/nodes**, list the server nodes that will be members of the CTDB cluster:
 
            vi /etc/ctdb/nodes
 
@@ -152,19 +144,6 @@ The following items are necessary for CTDB installation:
 
     You should see the following output:
 
-    - `ctdb ip` returns a list of all IP addresses and the nodes to which they are assigned:
-
-            [root@centos63-gluster1 ~]# ctdb ip
-            Public IPs on node 0
-            10.0.0.6 node[3] active[] available[eth2] configured[eth2]
-            10.0.0.7 node[2] active[] available[eth2] configured[eth2]
-            10.0.0.8 node[1] active[] available[eth2] configured[eth2]
-            10.0.0.9 node[0] active[eth2] available[eth2] configured[eth2]
-            10.0.0.10 node[3] active[] available[eth2] configured[eth2]
-            10.0.0.11 node[2] active[] available[eth2] configured[eth2]
-            10.0.0.12 node[1] active[] available[eth2] configured[eth2]
-            10.0.0.13 node[0] active[eth2] available[eth2] configured[eth2]
-
     - `ctdb status` returns the following information:
 
             [root@centos63-gluster1 ~]# ctdb status
@@ -181,6 +160,19 @@ The following items are necessary for CTDB installation:
             hash:3 lmaster:3
             Recovery mode:NORMAL (0)
             Recovery master:0
+
+    - `ctdb ip` returns a list of all IP addresses and the nodes to which they are assigned:
+
+            [root@centos63-gluster1 ~]# ctdb ip
+            Public IPs on node 0
+            10.0.0.6 node[3] active[] available[eth2] configured[eth2]
+            10.0.0.7 node[2] active[] available[eth2] configured[eth2]
+            10.0.0.8 node[1] active[] available[eth2] configured[eth2]
+            10.0.0.9 node[0] active[eth2] available[eth2] configured[eth2]
+            10.0.0.10 node[3] active[] available[eth2] configured[eth2]
+            10.0.0.11 node[2] active[] available[eth2] configured[eth2]
+            10.0.0.12 node[1] active[] available[eth2] configured[eth2]
+            10.0.0.13 node[0] active[eth2] available[eth2] configured[eth2]
 
     - `ctdb ping -n all` shows the result of issuing a ping to all nodes:
 
@@ -229,5 +221,5 @@ methods:
 ### References
 
 -  [http://ctdb.samba.org/](http://ctdb.samba.org/)
--  [http://ctdb.samba.org/testing.html](http://ctdb.samba.org/testing.html)
+-  [hhttps://wiki.samba.org/index.php/CTDB_and_Clustered_Samba](https://wiki.samba.org/index.php/CTDB_and_Clustered_Samba)
 -  [http://www.zytrax.com/books/dns/ch9/rr.html](http://www.zytrax.com/books/dns/ch9/rr.html)
