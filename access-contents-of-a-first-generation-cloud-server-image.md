@@ -11,25 +11,27 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Because first generation images cannot be used for next generation servers, this article guides you through the process of downloading the **tar.gz** parts of an image, and then concatenating and extracting those parts. This process is useful when you need to access the data in an image and file level backups don't exist. This process doesn't guarantee the successful recovery of data, but it can help you to access the data contained within an image.
+Because first generation images cannot be used for next generation servers, this article guides you through the process of downloading the **tar.gz** parts of an image, and then concatenating and extracting those parts. This process is useful when you need to access the data in an image and file-level backups don't exist. This process doesn't guarantee the successful recovery of data, but it can help you to access the data contained within an image.
 
 ###Download the first generation server image
 
-You can download the **tar.gz** image files by using either the Cloud Control panel or a client tool.
+You can download the **tar.gz** image files by using either the Cloud Control Panel or a client tool.
 
 ####Use the Cloud Control Panel
 
 In the [Cloud Control Panel](https://mycloud.rackspace.com), navigate to **Storage** > **Files**.
 
-A list of your Cloud Files containers is displayed. Image files are stored in the **cloudservers** container. If your image is larger than 5 GB, you can expect to see multiple image “parts”. It's important to download all of the **tar.gz** parts for a given image.
+A list of your Cloud Files containers is displayed. Image files are stored in the **cloudservers** container. If your image is larger than 5 GB, you can expect to see multiple image “parts.” It's important to download all of the **tar.gz** parts for a given image.
 
 ####Use a client tool
 
-You can use a client tool, such as **swiftly**, to download your image from Cloud Files. Using swiftly from the command line, you can download all “parts” of an image by invoking the `--prefix` flag. 
+You can use a client tool, such as swiftly, to download your image from Cloud Files. Using swiftly from the command line, you can download all “parts” of an image by invoking the `--prefix` flag. 
 
-If you do not have swiftly installed, install it by using pip. 
+If you do not have swiftly installed, install it by using `pip`. 
 
     pip install swiftly
+
+If you need more detailed instructions for installing swiftly, see [Install the Swiftly Client for Cloud Files](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/).
 
 The following example uses swiftly to download an image. Because the full file name is not specified, swiftly can systematically download all of the **tar.gz** parts.
 
@@ -58,7 +60,7 @@ While the `copy` command is running, no progress is shown in the command prompt.
 Windows can't extract the **tar.gz** format natively, but many third party applications have the ability to extract this format. One popular open source application is [7-Zip](http://www.7-zip.org/). The 7-Zip extraction process has two steps: you decompress the file, revealing a **tar** archive, which you then unarchive. 
 
 1. Right-click the concatenated **image_name.tar.gz** file and select **7-Zip > Extract Here**.
-2. Right-click the decompressed, **image_name.tar** file, and select **7-Zip > Extract Here**.
+2. Right-click the decompressed **image_name.tar** file, and select **7-Zip > Extract Here**.
           
 ###View the image contents
 
@@ -66,7 +68,8 @@ The preceeding commands extract the image files into a subdirectory named, **ima
 
 ###Mount a Windows VHD
 
-1. Open a run dialogue box, type "diskmgmt.msc", and then press enter. This starts the Disk Management utility.
+1. Open a run dialog box, type **diskmgmt.msc**, and then press **Enter**. This starts the Disk Management utility.
 2. Click, **Action**, and then click **Attach VHD**.
 3. Click **Browse**, locate the VHD file, click **Open**, and then click **OK**.
-4. The disk is now available in disk management, and a drive letter can now be assigned, if one isn't already assigned.
+4. The disk is now available in disk management.
+5. A drive letter can now be assigned, if one isn't already assigned.
