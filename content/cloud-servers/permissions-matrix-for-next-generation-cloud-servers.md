@@ -34,9 +34,8 @@ List Keypairs	| ```GET /os-keypairs``` |  **Creator Admin**	| Lists a keypair co
 Delete Server Keypair | ```DELETE /os-keypairs/{keypair name}``` | **Admin only**	| Deletes a keypair of a specified name.
 List Addresses | ```GET /servers/{id}/ips``` | **Observer Creator Admin** |	Lists all networks and server addresses associated with a specified server.
 List Addresses by Network	| ```GET /servers/{id}/ips/{networkLabel}``` | **Observer Creator Admin** | Lists addresses associated with a specified server and network.
-Change Administrator password, Reboot Server, Rebuild Server, Resize Server, Confirm Resized Server, Revert Resized Server, Enter Resuce Mode, Exit Rescue Mode, or Create Image | ```POST /servers/{id}/action``` | **Admin only** |	Performs the requested action.
-Attach Volume to Server | | |
-**Note:** The user must also have a Cloud Block Storage Admin or Creator role. | ```POST /servers/{id}/os-volume_attachments``` | **Creator Admin**	| Attaches a volume to the specified server.
+Change Administrator password, Reboot Server, Rebuild Server, Resize Server, Confirm Resized Server, Revert Resized Server, Enter Rescue Mode, Exit Rescue Mode, or Create Image | ```POST /servers/{id}/action``` | **Admin only** |	Performs the requested action.
+Attach Volume to Server | **Note:** The user must also have a Cloud Block Storage Admin or Creator role. | ```POST /servers/{id}/os-volume_attachments``` | **Creator Admin**	| Attaches a volume to the specified server.
 List Volume Attachments	| ```GET /servers/{id}/os-volume_attachments``` | **Observer Creator Admin** | Lists the volume attachments for the specified server.
 Get Volume Attachment Details |	```GET /servers/{id}/os-volume_attachments/{attachment_id}``` | **Observer Creator Admin** | Lists volume details for the specified volume attachment ID.
 Delete Volume Attachment | ```DELETE /servers/{id}/os-volume_attachments/{attachment_id}```  | **Admin only**	| Deletes a specified volume attachment from a specified server instance.
