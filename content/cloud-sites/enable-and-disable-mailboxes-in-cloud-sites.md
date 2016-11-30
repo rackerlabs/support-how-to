@@ -1,11 +1,11 @@
 ---
-permalink: how-to-enable-a-mailbox/
+permalink: enable-and-disable-mailboxes-in-cloud-sites/
 audit_date:
 title: Enable and disable mailboxes in cloud sites
 type: article
-created_date: '2016-11-20'
+created_date: '2016-11-29'
 created_by: Thomas Hester
-last_modified_date: '2016-11-20'
+last_modified_date: '2016-11-29'
 last_modified_by: Laura Santamaria
 product: Cloud Sites
 product_url: cloud-sites
@@ -23,12 +23,12 @@ product_url: cloud-sites
 
 1. Click **Enable** or **Disable** to the right of the mailbox name.
 
-  ![Mailboxes page showing Disable option on a mailbox](_assets/img/cloud-sites/how-to-enable-a-mailbox/enablemailbox1.png)
+    <img src="{% asset_path cloud-sites/enable-and-disable-mailboxes-in-cloud-sites/enablemailbox1.png %}" alt="Mailboxes page showing Disable option on a mailbox" />
 
-#### Enable or disable multiple mailboxes
+### Enable or disable multiple mailboxes
 
 1. When viewing the list of mailboxes, place a checkmark to the left of each email address that you would like to enable or disable.
 
 1. Under the list of mailboxes, select either **Enable Mailboxes** or **Disable Mailboxes** from the **Select Action** dropdown.
 
-  ![Mailboxes page showing Select Action dropdown for all mailboxes](_assets/img/cloud-sites/how-to-enable-a-mailbox/enablemailbox2.png)
+    <img src="{% asset_path cloud-sites/enable-and-disable-mailboxes-in-cloud-sites/enablemailbox2.png %}" alt="Mailboxes page showing Select Action dropdown for all mailboxes" />
