@@ -19,61 +19,61 @@ This article explains how to add, delete, and disable an administrator through t
 
 2. Under **Common Actions** on the right of the screen, click **Manage Administrators**.
 
-        <img src="{% asset_path add-delete-or-disable-admin-accounts/image01.png %}" alt="Manage administrators link in the Cloud Sites Email Control Panel"/>
+    <img src="{% asset_path cloud-sites/add-delete-or-disable-admin-accounts/image01.png %}" alt="Manage administrators link in the Cloud Sites Email Control Panel" />
 
 3. Click **Add Administrator**.
 
 4. Enter the following information under **Add Administrator**:
 
-        <img src="{% asset_path cloud-sites/add-delete-or-disable-admin-accounts/image03.png %}" alt="Add Administrator settings fields" />
+    <img src="{% asset_path cloud-sites/add-delete-or-disable-admin-accounts/image03.png %}" alt="Add Administrator settings fields" />
 
-        - **First Name** - Enter the administrator's first name.
+    - **First Name** - Enter the administrator's first name.
 
-        - **Last Name** - Enter the administrator's last name.
+    - **Last Name** - Enter the administrator's last name.
 
-        - **Email** - Enter the administrator's email address.
+    - **Email** - Enter the administrator's email address.
 
-        - **Admin ID** - Enter a unique name for the account. If the ID that you enter is used elsewhere on the email hosting system, you are prompted to enter a new ID.
+    - **Admin ID** - Enter a unique name for the account. If the ID that you enter is used elsewhere on the email hosting system, you are prompted to enter a new ID.
 
-        - **Type** - Select the level of security for the administrator:
+    - **Type** - Select the level of security for the administrator:
 
-            + **Super** - Allows full access to the control panel and includes the ability to create and manage administrator accounts.
+        - **Super** - Allows full access to the control panel and includes the ability to create and manage administrator accounts.
 
-            + **Standard** - Allows full access to the control panel but restricts the administrator from certain areas of the account section of the control panel.
+        - **Standard** - Allows full access to the control panel but restricts the administrator from certain areas of the account section of the control panel.
 
-            + **Limited** - Allows access to only the control panel areas that you specify.
+        - **Limited** - Allows access to only the control panel areas that you specify.
 
-                  You can select the specific areas at the bottom of the screen after selecting **Limited**. See step 6.
+        You can select the specific areas at the bottom of the screen after selecting **Limited**. See step 6.
 
-        - **Password** - Enter a password for this administrator account.
+    - **Password** - Enter a password for this administrator account.
 
-        - **Confirm** - Retype the password.
+    - **Confirm** - Retype the password.
 
-        - **Security Question** - Select a security question from the list provided.
+    - **Security Question** - Select a security question from the list provided.
 
-        - **Security Answer** - Enter the answer to the security question.
+    - **Security Answer** - Enter the answer to the security question.
 
 5. Enter in the following information for **Security Settings**:
 
-        - Specify whether the password never expires or expires in a specified number of days.
+    - Specify whether the password never expires or expires in a specified number of days.
 
-        - Select **Allow simultaneous logins using this Administrative ID** to allow multiple people on different machines to log in using the same account.
+    - Select **Allow simultaneous logins using this Administrative ID** to allow multiple people on different machines to log in using the same account.
 
-        - Select **Login restricted to IP address(es)** to allow access only from certain IP addresses, such as the office or home network.
+    - Select **Login restricted to IP address(es)** to allow access only from certain IP addresses, such as the office or home network.
 
 6. If you selected **Limited** as the type for your newly created administrator, perform the following actions at the bottom of the screen:
 
-        - On the **Permissions** tab, select the check box for each area to which this limited administrator should have access. By default, limited administrators have access to all domains in the account.
+    - On the **Permissions** tab, select the check box for each area to which this limited administrator should have access. By default, limited administrators have access to all domains in the account.
 
-        - To specify which domains the administrator can access, click the **Domain Access** tab.
+    - To specify which domains the administrator can access, click the **Domain Access** tab.
 
-        - Use the **Filter** and **Search** tools to locate the domains associated with the account.
+    - Use the **Filter** and **Search** tools to locate the domains associated with the account.
 
-        - In the **Current Domains** box, select the domains that you want to allow the administrator to access. To select multiple domains, hold the **Ctrl** key as you click each domain. Then, click **Add**.
+    - In the **Current Domains** box, select the domains that you want to allow the administrator to access. To select multiple domains, hold the **Ctrl** key as you click each domain. Then, click **Add**.
 
-        - To select multiple domains, hold the **Ctrl** key as you click each domain.
+    - To select multiple domains, hold the **Ctrl** key as you click each domain.
 
-        - To remove a domain from the **Access-Allowed** box, click the domain and then click **Remove**.
+    - To remove a domain from the **Access-Allowed** box, click the domain and then click **Remove**.
 
 7.  Click **Save**.
 
@@ -105,4 +105,4 @@ To disable an administrator, log in to the [Cloud Sites Email Control Panel](htt
 
 2.  In the **Action** column for the administrator, click **Disable**.
 
-        **Note:** You can reverse this action by clicking **Enable**.
+    **Note:** You can reverse this action by clicking **Enable**.
