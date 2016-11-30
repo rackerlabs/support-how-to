@@ -1,11 +1,11 @@
 ---
 permalink: detailed-permissions-matrix-for-cloud-images/
-audit_date: '2016-11-29'
+audit_date: '2016-11-30'
 title: Permissions Matrix for Cloud Images
 type: article
 created_date: '2013-10-28'
 created_by: Renee Rendon
-last_modified_date: '2016-11-29'
+last_modified_date: '2016-11-30'
 last_modified_by: Cat Lookabaugh
 product: Cloud Images
 product_url: cloud-images
@@ -31,8 +31,8 @@ List Image Members | `GET /v2/images/{image_id}/members` | **Observer & Creator 
 Show Image Member | `GET /v2/images/{image_id}/members/{member_id}` | **Observer & Creator & Admin** | Gets details for a specified image member.
 Update Member Status | `PUT /v2/images/{image_id}/members/{member_id}` | **Admin only** | Sets the specified status for the specified member (user) of the specified image.
 Delete Image Member | `DELETE /v2/images/{image_id}/members/{member_id}` | **Admin only** | Deletes the specified tenant ID from the member list of the specified image.
-Add an Image Tag | `PUT /v2/images/{image_id}/tags/{tag}` | **Admin only** | Adds the specified tag to the specified image.
-Delete an Image Tag	| `DELETE /v2/images/{image_id}/tags/{tag}` | **Admin only** | Deletes the specified tag from the specified image.
+Add an Image Tag | `PUT /v2/images/{image_id}/tags/{tag}` | **Observer & Creator & Admin** | Adds the specified tag to the specified image.
+Delete an Image Tag	| `DELETE /v2/images/{image_id}/tags/{tag}` | **Observer & Creator & Admin** | Deletes the specified tag from the specified image.
 Get Images Schema | `GET /v2/schemas/images` | **Observer & Creator & Admin** | Gets a json-schema document that represents an images entity, which is a container of image entities.
 Get Image Schema | `GET /v2/schemas/image` | **Observer & Creator & Admin** | Gets a json-schema document that represents a single image entity.
 Get Image Members Schema | `GET /v2/schemas/members` | **Observer & Creator & Admin** | Gets a json-schema document that represents an image members entity.
