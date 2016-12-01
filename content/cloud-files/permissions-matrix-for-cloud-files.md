@@ -1,7 +1,7 @@
 ---
 permalink: permissions-matrix-for-cloud-files/
 audit_date: '2016-12-01'
-title: Permissions Matrix for Cloud Files
+title: Permissions matrix for Cloud Files
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
