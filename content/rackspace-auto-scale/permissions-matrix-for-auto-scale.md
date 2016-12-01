@@ -1,6 +1,6 @@
 ---
 permalink: permissions-matrix-for-auto-scale/
-audit_date:
+audit_date: '2016-12-01'
 title: Permissions Matrix for Rackspace Auto Scale
 type: article
 created_date: '2013-09-04'
