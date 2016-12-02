@@ -5,7 +5,7 @@ title: Manage public folders in the control panel for Hosted Exchange 2013 and 2
 type: article
 created_date: '2014-12-14'
 created_by: Theresa Kinney
-last_modified_date: '2016-04-29'
+last_modified_date: '2016-02-12'
 last_modified_by: Renee Rendon
 product: Microsoft Exchange
 product_url: exchange
@@ -136,7 +136,7 @@ You can create a subfolder in the following ways:
 1. Click the gear icon next to the folder for which you want to
    create subfolders.
 2. Select **Create Subfolder**.
-3. In the **Folder Name** field, specify a name for the subfolder.
+a3. In the **Folder Name** field, specify a name for the subfolder.
 4. Select the type of folder.
 5. To mail-enable the folder, select the **Enabled** check box.
 6. Specify or edit the display name.
@@ -199,12 +199,9 @@ folders must have administrator access.
 ### Authorization to add, delete, or modify content
 
 Unlike Exchange 2007 and 2010, individual permissions are not
-managed through Outlook for Exchange 2013 or 2016.  We are working on a release
-that will allow you to assign different levels of permissions for each
-user.  For the current release, your users have the following
+managed through Outlook for Exchange 2013 or 2016. For these versions, your users have the following
 permission levels:
 
-- Any user on the domain can create and delete their own items only,
-  but they cannot modify any items.
-- Public folder administrators can add, delete, and modify any content by any
-  user.
+- Reviewer:  Allows all users on the domain to view all public folders
+
+- Publishing author: Automatically given to administrators who create Public Folders in the Control Panel. Each action applies only to folders that the administrators create.
