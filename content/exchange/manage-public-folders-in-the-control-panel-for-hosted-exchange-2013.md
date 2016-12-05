@@ -56,7 +56,7 @@ steps:
 
 1. Click **Create Folder**.
 
-2. The the popup dialog box, enter a name for the folder.
+2. In the popup dialog box, enter a name for the folder.
 
    The name will appear in the list of folders.
 
