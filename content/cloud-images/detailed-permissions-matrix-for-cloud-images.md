@@ -38,7 +38,7 @@ Get image schema | `GET /v2/schemas/image` | **Observer, Creator, Admin** | Gets
 Get image members schema | `GET /v2/schemas/members` | **Observer, Creator, Admin** | Gets a json-schema document that represents an image members entity.
 Get image member schema | `GET /v2/schemas/member` | **Observer, Creator, Admin** | Gets a json-schema document that represents an image member entity.
 Get task schema	| `GET /v2/schemas/task` | **Observer, Creator, Admin** | Gets a json-schema document that represents a specified task entity.
-Get tasks schema | `GET /v2/schemas/tasks` | **Observer , Creator, Admin** | Gets a json-schema document that represents a tasks entity.
+Get tasks schema | `GET /v2/schemas/tasks` | **Observer, Creator, Admin** | Gets a json-schema document that represents a tasks entity.
 List tasks | `GET /v2/tasks` | **Observer, Creator, Admin** | Returns a collection of tasks.
 Create a task to import or export images | `POST /v2/tasks` | **Admin** | Creates an import or export image task.
 Get task details | `GET /v2/tasks/{task_id}` | **Observer, Creator, Admin** | Gets the details for a specified task.
