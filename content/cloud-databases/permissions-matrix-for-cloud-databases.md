@@ -160,7 +160,7 @@ Articles](/how-to/)**
 | List a version for a datastore. |	`GET /datastores/{datastoreId}/versions/{versionId}` | **Admin, Creator, Observer**	|	Lists the specified datastore version for the specified datastore. |
 
 
-#### Cloud Databases terminology
+### Cloud Databases terminology
 
 The following terms are used to describe Cloud Databases.
 
