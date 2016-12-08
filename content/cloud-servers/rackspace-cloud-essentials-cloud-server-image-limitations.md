@@ -5,7 +5,7 @@ title: Rackspace Cloud Essentials - Cloud Server Image Limitations
 type: article
 created_date: '2011-08-05'
 created_by: Rackspace Support
-last_modified_date: '2016-09-12'
+last_modified_date: '2016-08-12'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
@@ -100,6 +100,8 @@ there are a number of practical limitations in place:
     in a successful image thanks to that cleanup operation.
 
 ### Windows-specific limitations
+
+-   Servers cannot be built from images with volumes larger than the disk size of the Cloud Server flavor selected to deploy the new server. For example, I/O servers cannot be built from images with system volumes larger than 40GB.
 
 -   If you take an image of a Windows Cloud Server that is configured to
     be a Domain Controller (DC), you will be unable to restore from
