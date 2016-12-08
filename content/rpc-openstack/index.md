@@ -33,7 +33,6 @@ product_url: rpc-openstack
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-releasenotes/)
 - [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/mitaka/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](http://www.rackspace.com/cloud/private/openstack/support/).
 - [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-swift)
-- [Admin Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-admin/)
 - [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-faq-external/)
 
 ###  Rackspace Private Cloud v12 (Liberty)
@@ -41,7 +40,6 @@ product_url: rpc-openstack
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-releasenotes/)
 - [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/liberty/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](http://www.rackspace.com/cloud/private/openstack/support/).
 - [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-swift)
-- [Admin Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-admin/)
 - [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-faq-external/)
 
 ###  Rackspace Private Cloud v11 (Kilo)
@@ -49,5 +47,4 @@ product_url: rpc-openstack
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-releasenotes)
 - [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/kilo/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](http://www.rackspace.com/cloud/private/openstack/support/).
 - [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-swift)
-- [Admin Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-admin/)
 - [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v11/rpc-faq-external/)
