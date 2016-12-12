@@ -21,7 +21,7 @@ The previous article described how to [restore servers from an image](/how-to/cr
     disk, *not any attached data disks*. The Cloud Backup service can
     back up data disks to Cloud Files.
 
--   Although you can import images into the Rackspace open cloud by using Cloud Images, you can boot a server from such an image only if it's been properly prepared for use in the Rackspace open cloud
+-   Although you can import images into the Rackspace open cloud by using Cloud Images, you can boot a server from such an image only if it's been properly prepared for use in the Rackspace open cloud.
 
     **Note**: All servers based on the OpenStack architecture can have images exported and imported between accounts. For more information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
 
