@@ -1,6 +1,6 @@
 ---
 permalink: cloud-server-image-limitations/
-audit_date:'2016-12-13'
+audit_date: '2016-12-13'
 title: Cloud server image limitations
 type: article
 created_date: '2011-08-05'
