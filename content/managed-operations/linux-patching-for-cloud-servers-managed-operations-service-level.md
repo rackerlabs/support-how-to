@@ -16,5 +16,5 @@ Linux patching comes directly from vendors or distribution communities. The exce
 Distribution | Patching mechanism  | Patching servers | Frequency | Configuration
 --- | --- | --- | --- | ---
 Ubuntu | `unattended-upgrades` | `snet1-{dc}.mirror.rackspace.com`<br/>`snet2-{dc}.mirror.rackspace.com`<br/>`Howbackup:archive.ubuntu.com` <br/>`security.ubuntu.com` | Nightly between 0000 and 0400 server time | `/etc/apt/apt.conf.d/02periodic`<br/>`/etc/apt/apt.conf.d/50unattended-upgrades`
-Red Hat Enterprise Linux | `yum-cron` | `snet1-{dc}.mirror.rackspace.com`<br/>`snet2-{dc}.mirror.rackspace.com` (for epel and ius)<br/>`proxy1.[dc].slicehost.com` or `proxy2.[dc].slicehost.com` (`proxy1.dfw1`, `proxy2.ord1`, and so on) | Nightly between 0000 and 0400 server time | `/etc/yum-cron`<br>`/etc/sysconfig/rhn/up2date`
+Red Hat Enterprise Linux | `yum-cron` | `snet1-{dc}.mirror.rackspace.com`<br/>`snet2-{dc}.mirror.rackspace.com` (for EPEL and IUS)<br/>`proxy1.[dc].slicehost.com` or `proxy2.[dc].slicehost.com` (`proxy1.dfw1`, `proxy2.ord1`, and so on) | Nightly between 0000 and 0400 server time | `/etc/yum-cron`<br/>`/etc/sysconfig/rhn/up2date`
 CentOS | `yum-cron` | `snet1-{dc}.mirror.rackspace.com`<br/>`snet2-{dc}.mirror.rackspace.com` | Nightly between 0000 and 0400 server time | `/etc/yum-cron`
