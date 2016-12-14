@@ -20,5 +20,5 @@ https://support.rackspace.com/how-to/
 - Jan 9 - 13: Renée
 - Jan 16 - 20:
 - Jan 23 - 27: Stephanie
-- Jan 30 - Feb 3:
+- Jan 30 - Feb 3: Laura
 
