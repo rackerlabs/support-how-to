@@ -104,7 +104,7 @@ or superuser privileges.
       - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`. Typically it is `raxcloudserver`.
       - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-   **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
+    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
 
 11. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 
