@@ -100,9 +100,9 @@ or superuser privileges.
 
         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
 
-   - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key)
-   - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`. Typically it is `raxcloudserver`.
-   - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
+      - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key)
+      - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`. Typically it is `raxcloudserver`.
+      - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
 
