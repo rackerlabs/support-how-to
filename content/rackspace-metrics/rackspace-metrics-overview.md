@@ -65,7 +65,7 @@ Rackspace Metrics consists of two components: **metrics ingestion** and
     Metrics supports metrics visualization in the Rackspace Cloud
     Control Panel and Rackspace Intelligence for data collected through
     Cloud Monitoring. In addition, Rackspace Metrics can also integrate
-    with Graphite and Grafana. See the how-to article for details:  following blog post for details:
+    with Graphite and Grafana. See the how-to article for details:
 [Create a Grafana dashboard for Rackspace Metrics](/how-to/create-a-grafana-dashboard-for-rackspace-metrics/).
 
     The Rackspace Metrics Query API is currently in
@@ -89,10 +89,9 @@ automatically. If you see permission-related issues in testing, please
 let us know.
 
 **Notes:**
--   The roles needed for accessing the Rackspace Metrics API are
+The roles needed for accessing the Rackspace Metrics API are
     described at:
-    <https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/>
--   For more information about role-based access control, see [Overview: Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
+    <https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/>. For more information about role-based access control, see [Overview: Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
 ### How to access Rackspace Metrics
 
