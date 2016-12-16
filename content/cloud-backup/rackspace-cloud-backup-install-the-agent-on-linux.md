@@ -103,7 +103,7 @@ or superuser privileges.
 
 10.  Run the agent with the `--configure` option to configure it.
 
-        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
+         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
 
     - Use your Rackspace Cloud account username and API key for `<username>`
     and `<apiKey>`. For information about how to find your API key, see

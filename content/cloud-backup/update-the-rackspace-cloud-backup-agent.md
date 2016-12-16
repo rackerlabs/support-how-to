@@ -136,9 +136,9 @@ from the deployment server and simply run it.
 
 1. Download the updated agent.
 
-  - 32-bit systems: http://agentrepo.drivesrvr.com/win32/driveclient-setup-latest.exe
+   - 32-bit systems: http://agentrepo.drivesrvr.com/win32/driveclient-setup-latest.exe
 
-  - 64-bit systems: http://agentrepo.drivesrvr.com/win64/driveclient-setup-latest.exe
+   - 64-bit systems: http://agentrepo.drivesrvr.com/win64/driveclient-setup-latest.exe
 
 2. Run the updated agent.
 
