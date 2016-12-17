@@ -5,7 +5,7 @@ title: Use annotation metrics
 type: article
 created_date: '2016-02-23'
 created_by: Kyle Laffoon
-last_modified_date: '2016-12/17'
+last_modified_date: '2016-12-17'
 last_modified_by: Shane Duan
 product: Rackspace Metrics
 product_url: rackspace-metrics
