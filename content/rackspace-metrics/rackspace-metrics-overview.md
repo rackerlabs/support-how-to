@@ -5,12 +5,12 @@ title: Rackspace Metrics overview
 type: article
 created_date: '2015-03-03'
 created_by: Shane Duan
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-12-19'
+last_modified_by: Laura Santamaria
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
-**To sign up for Rackspace Metrics, please go to <http://go.rackspace.com/metrics>**
+**To sign up for Rackspace Metrics, go to <http://go.rackspace.com/metrics>.**
 
 Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product
 that offers a flexible and affordable platform for storing and serving
@@ -88,10 +88,9 @@ the EAP, Rackspace Metrics related roles will be added to your users
 automatically. If you see permission-related issues in testing, please
 let us know.
 
-**Notes:**
-The roles needed for accessing the Rackspace Metrics API are
-    described at:
-    <https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/>. For more information about role-based access control, see [Overview: Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
+**Note:** The roles needed for accessing the Rackspace Metrics API are described
+in <https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/>.
+For more information about role-based access control, see [Learn about Role-Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
 ### How to access Rackspace Metrics
 
@@ -100,15 +99,15 @@ number of tools are available that can send HTTP requests and capture
 the output, including the following ones:
 
 -   cURL, a command-line tool, available at <http://curl.haxx.se/>
--   Chrome Advanced Rest Client, available at
-    <http://chromerestclient.appspot.com/>
+-   Chrome Advanced REST Client, available at
+    <https://advancedrestclient.com/>
 
 ### Find more information
 
 If you want more information about Rackspace Metrics, such as access
 endpoints, how to determine your tenant ID and retrieve authentication
-tokens, and supported request options, see the [Rackspace Metrics Getting Started Guide](https://developer.rackspace.com/docs/metrics/v2/getting-started/)
-and the [Rackspace Metrics General API Info](https://developer.rackspace.com/docs/metrics/v2/general-api-info/).
+tokens, and supported request options, see the [Rackspace Metrics getting started guide](https://developer.rackspace.com/docs/metrics/v2/getting-started/)
+and the [Rackspace Metrics general API information](https://developer.rackspace.com/docs/metrics/v2/general-api-info/).
 
 ### Get help and provide feedback
 
