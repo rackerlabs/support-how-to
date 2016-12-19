@@ -5,8 +5,8 @@ title: Use annotation metrics
 type: article
 created_date: '2016-02-23'
 created_by: Kyle Laffoon
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-12-17'
+last_modified_by: Shane Duan
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
@@ -23,7 +23,7 @@ Through Grafana, Rackspace Metrics users can create dashboard that can help iden
 
 <img src="{% asset_path rackspace-metrics/use-annotation-metrics/Anotationsupport-what-changed.png %}" alt="" />
 
-With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Request an annotation](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-annotation) for additional information. (Mock-ups below)
+With annotation support, users can submit change event to show along with the graph, adding additional information for the graph on the dashboard. See [Ingestion events](https://developer.rackspace.com/docs/metrics/v2/ingestion-api-reference/ingestion-events/) for additional information. (Mock-ups below)
 
 <img src="{% asset_path rackspace-metrics/use-annotation-metrics/Anotattionsupport-change-event.png %}" alt="" />
 
@@ -89,17 +89,11 @@ If you prefer to use the API command to retrieve your annotation, use the follow
 
     [{"tags":"deployment","tenantId":"737305","what":"app03 deployment","when":1452105873000,"data":"deploying prod"}]
 
-### Pricing
-
-Rackspace Metrics comes bundled free with any cloud or dedicated customer.
-
 ### FAQ
 
 #### How can I learn more about Rackspace Metrics product?
 
-Product Overview:  [http://bit.ly/rax-metrics-overview](http://bit.ly/rax-metrics-overview)
-
-Grafana support blog post:  [http://bit.ly/grafana-cloudmetrics](http://bit.ly/grafana-cloudmetrics)
+Check out [Rackspace Metrics Overview](/how-to/rackspace-metrics-overview/)
 
 #### Why don't I see the events that I just pushed?
 
@@ -108,7 +102,3 @@ Make sure all your API calls have 200 OK response code.
   - If it is 403 Forbidden and your API call into other end points (like Rackspace Monitoring) with the same tenant and auth token works, check with metrics team to make sure that the account is in EAP program.
 
 Make sure that the dates of the events are within the time window specified by query.
-
-#### How do I sign up an account for EAP?
-
-Contact <cloudmetrics-earlyaccess@rackspace.com>. For more information on how to sign up for the Early Access Program, see the [Rackspace Metrics Developer Guide](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#document-overview/early-access-program).
