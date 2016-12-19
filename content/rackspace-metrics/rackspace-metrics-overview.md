@@ -5,12 +5,12 @@ title: Rackspace Metrics overview
 type: article
 created_date: '2015-03-03'
 created_by: Shane Duan
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-12-19'
+last_modified_by: Laura Santamaria
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
-**To sign up for Rackspace Metrics, please go to <http://go.rackspace.com/metrics>**
+**To sign up for Rackspace Metrics, go to <http://go.rackspace.com/metrics>.**
 
 Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product
 that offers a flexible and affordable platform for storing and serving
@@ -88,10 +88,9 @@ the EAP, Rackspace Metrics related roles will be added to your users
 automatically. If you see permission-related issues in testing, please
 let us know.
 
-**Notes:**
-The roles needed for accessing the Rackspace Metrics API are
-    described at:
-    <https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/>. For more information about role-based access control, see [Overview: Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
+**Note:** The roles needed for accessing the Rackspace Metrics API are described
+in <https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/>.
+For more information about role-based access control, see [Overview: Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
 ### How to access Rackspace Metrics
 
