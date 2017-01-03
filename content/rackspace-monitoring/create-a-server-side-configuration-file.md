@@ -46,11 +46,11 @@ A configuration file written in YAML is needed in order for the servier-side con
 
    For linux:
 
-     /etc/rackspace-monitoring-agent.conf.d/main_disk_check.yaml
+       /etc/rackspace-monitoring-agent.conf.d/main_disk_check.yaml
 
    For windows:
 
-     C:ProgramDataRackspace Monitoringconfigrackspace-monitoring-agent.conf.dmain_disk_check.yaml
+       C:ProgramDataRackspace Monitoringconfigrackspace-monitoring-agent.conf.dmain_disk_check.yaml
 
    **Note:** Saving the configuration file to the `conf.d` directory might require administrative access.
 
