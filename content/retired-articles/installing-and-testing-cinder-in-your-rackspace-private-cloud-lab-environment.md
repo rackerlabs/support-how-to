@@ -7,8 +7,6 @@ created_date: '2014-04-24'
 created_by: Jason Grimm
 last_modified_date: '2016-07-14'
 last_modified_by: Kyle Laffoon
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 This article provides instructions for setting up the OpenStack Cinder

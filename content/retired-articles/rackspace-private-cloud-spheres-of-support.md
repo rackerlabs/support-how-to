@@ -7,8 +7,6 @@ created_date: '2014-09-19'
 created_by: Karin Levenstein
 last_modified_date: '2016-12-02'
 last_modified_by: Laura Santamaria
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 **Previous section**: [Getting Started with Rackspace Private Cloud - OpenStack](/how-to/rpc-openstack)

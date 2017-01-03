@@ -7,8 +7,6 @@ created_date: '2013-09-12'
 created_by: Renee Rendon
 last_modified_date: '2016-09-26'
 last_modified_by: Renee Rendon
-product: Cloud Big Data
-product_url: cloud-big-data
 ---
 
 The following permissions matrix displays specific permissions for the roles in Cloud Big Data v1. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.

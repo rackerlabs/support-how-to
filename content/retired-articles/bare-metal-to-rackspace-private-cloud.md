@@ -7,8 +7,6 @@ created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
 last_modified_date: '2014-05-15'
 last_modified_by: Rose Contreras
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 Combining Razor and Chef provides a powerful, fully automated solution
@@ -34,7 +32,7 @@ space.
 
 ### Getting started
 
-To install Razor, follow the installation guide on the 
+To install Razor, follow the installation guide on the
 [Razor project wiki](https://github.com/puppetlabs/Razor/wiki/Installation). Note that your
 Razor installation will require a DHCP server as part of the setup. Once
 Razor is installed and running, you can proceed with configuring Razor
@@ -43,7 +41,7 @@ to deploy RPCS.
 After installing Razor, set it up to install your preferred OS on servers that come online. To help with the
 installation process itself, Razor uses a Microkernel, or the MK, that boots from the network and lives in memory until a real target operating system can be installed. The MK is a Tiny-Core Linux based, and is used on first boot and as the default boot image for any nodes. Doing this allows Razor to collect data on the node (similar to Chef's ohai) which is then used in tagging and policies.
 
-To enable Razor to boot a server, add a Microkernal (MK) image to Razor. For more information, 
+To enable Razor to boot a server, add a Microkernal (MK) image to Razor. For more information,
 about Microkernel, see [Razor-mkkernel wiki](https://github.com/puppetlabs/Razor-Microkernel/wiki)
 
     $ razor image add -t mk p ~/images/rz_mk_prod-image.0.9.3.0.iso
@@ -78,14 +76,14 @@ discovered by using the 'razor node' command.*
 At this point, you are ready to do
 automated installs, but not yet ready for the automated hand off to
 Chef. To fix this, create a Chef broker and then add it to the policy we
-created. 
+created.
 
 
 
 ### Setting up Razor Chef Broker
 
 The Razor broker manages handoffs between Razor and a DevOps system,
-like Chef or Puppet. Since we are using Chef, we need a Chef broker. 
+like Chef or Puppet. Since we are using Chef, we need a Chef broker.
 
 In Razor, the Chef broker takes over at the end of the OS installation and runs
 the additional, predefined steps to complete the following tasks:
@@ -112,21 +110,21 @@ You can view the brokers available in Razor by running the following command:
 
        $ razor broker add -p chef -n Chef -d PrivateCloud
 
-    
-2\. When prompted, answer the questions about your Chef set up. 
 
-  If you're unsure about 
+2\. When prompted, answer the questions about your Chef set up.
+
+  If you're unsure about
   how to respond, see the
   [Chef broker set up guide](http://anystacker.com/2012/12/razor-chef-broker-updated/).
-  
-   
+
+
 
 3\. Add the broker to the policy by running the following command:
 
       $ razor policy update  -b
 
 
-     
+
 This is what newly created broker will look like:
 
     [Policy] [update_policy]
@@ -221,7 +219,7 @@ Some of the important roles and recipes:
       )
 
 Users can update the ``run_list`` and design the private cloud cluster in the order they want it to
-be. 
+be.
 
 ### Fully automating the deployment
 
@@ -253,12 +251,12 @@ for you, create a new Chef broker to include the run list:
 Associate this broker with the Razor
 policy used to deploy your test environments, and the all-in-one Chef
 roles will be installed on the new node after it connects to the
-system. 
+system.
 
 Similarly, servers dedicated to a
 different type of node, can have a different broker set up. For example,
 dedicated Volume nodes can be set up with the appropriate Cinder
-specific run list. Check the roles used to deploy Cinder node on the 
+specific run list. Check the roles used to deploy Cinder node on the
 [Rackspace Cloud Builders github](https://github.com/rcbops/chef-cookbooks/blob/master/roles/cinder-all.rb). Then, add the list of roles to a new broker:
 
     Name =>  Chef
@@ -285,7 +283,7 @@ they come online.
 
 Create Cinder specific tags for this
 example. Add the tag, followed by tag "matchers". Each matcher is based
-on server specific metadata that Razor Microkernel collects. 
+on server specific metadata that Razor Microkernel collects.
 
     $ razor tag add -n cinderTags -t cinder
     Name =>  cinderTags
@@ -352,7 +350,7 @@ clusters as it would take one. Deployment model similar to this is used
 at Rackspace. Quality engineering teams use a combination of Razor,
 Chef, and Jenkins to run a full suite of automated tests on RPCS. Tests
 include integration, functional, and capacity testing on bare metal as
-well as virtualized environment. 
+well as virtualized environment.
 
 Other business systems can track
 assets and their assignment to business units. Utilizing the flexible

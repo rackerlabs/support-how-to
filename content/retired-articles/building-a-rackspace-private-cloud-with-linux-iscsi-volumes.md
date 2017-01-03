@@ -7,8 +7,6 @@ created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
 last_modified_date: '2013-03-27'
 last_modified_by: Rae D. Cabello
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 This document will describe how to build a Rackspace Private Cloud with
@@ -77,4 +75,3 @@ be used to maximize space while minimizing drive failure. For the storage networ
 choices for protocols and transports. In this design, we use twinax for
 10 GbE, but CAT6 or fiber can be used too, as long as the network
 interface card or fabric adaptor is compatible with Ubuntu 12.04.</span>
-

@@ -7,8 +7,6 @@ created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
 last_modified_date: '2014-02-07'
 last_modified_by: Rose Contreras
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 The following compute components are certified for use in Private
@@ -51,5 +49,3 @@ Clouds.
 -   ProLiant DL385G7
 
 -   ProLiant DL980G7
-
-

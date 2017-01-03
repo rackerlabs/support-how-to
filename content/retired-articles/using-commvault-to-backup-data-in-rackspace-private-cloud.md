@@ -7,8 +7,6 @@ created_date: '2013-02-19'
 created_by: Alyssa Hurtgen
 last_modified_date: '2013-06-26'
 last_modified_by: Kyle Laffoon
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 ### Overview
@@ -97,4 +95,3 @@ Rackspace Private Cloud to perform file-level backup and recovery of
 data inside individual instances. OpenStack virtual machines can easily
 be protected in an existing CommVault infrastructure or a new
 deployment.
-

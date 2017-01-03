@@ -7,8 +7,6 @@ created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
 last_modified_date: '2013-06-23'
 last_modified_by: Rose Contreras
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 ### Overview
@@ -233,5 +231,3 @@ ensure objects are available and uncorrupted.
     Overview](http://www.seamicro.com/sites/default/files/SM_TO01_64_v2.5.pdf)
 -   [Wormhole
     switching](http://en.wikipedia.org/wiki/Wormhole_switching)
-
-

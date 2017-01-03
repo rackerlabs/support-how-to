@@ -7,8 +7,6 @@ created_date: '2013-01-24'
 created_by: Rae D. Cabello
 last_modified_date: '2016-01-19'
 last_modified_by: Rose Contreras
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 #### Previous section
@@ -55,4 +53,3 @@ Hortonworks Data Platform.
 
 [Rackspace Private Cloud
 Support](http://www.rackspace.com/cloud/private/openstack/support/)
-

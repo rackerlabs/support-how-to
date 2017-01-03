@@ -7,8 +7,6 @@ created_date: '2013-06-07'
 created_by: Alyssa Hurtgen
 last_modified_date: '2016-06-24'
 last_modified_by: Kyle Laffoon
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 ### Rackspace Private Cloud Certified and Supported Devices

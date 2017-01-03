@@ -7,8 +7,6 @@ created_date: '2013-03-19'
 created_by: Karin Levenstein
 last_modified_date: '2013-03-27'
 last_modified_by: Jered Heeschen
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 Rackspace has released a package update for Rackspace Private Cloud

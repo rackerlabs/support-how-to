@@ -7,8 +7,6 @@ created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
 last_modified_date: '2016-01-06'
 last_modified_by: Constanze Kratel
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
 ---
 
 Cloud computing is creating significant shifts in the way information
@@ -149,4 +147,3 @@ solutions, and is just one system to manage.
 <http://www.fallenbeck.net/publications/sfsf10.pdf>
 
 <http://github.com/rcbops/chef-cookbooks>
-
