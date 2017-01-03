@@ -10,18 +10,17 @@ product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
 
-<p class="lead" markdown="1">Rackspace has developed a set of tools that allow you to quickly install an OpenStack private cloud, configured as recommended by Rackspace OpenStack specialists.</p>
+Rackspace has developed a set of tools that allow you to quickly install an OpenStack private cloud, configured as recommended by Rackspace OpenStack specialists.
 
-<p class="lead" markdown="1">Rackspace Private Cloud Software uses Ansible to create an OpenStack cluster on Ubuntu Linux. The installation process provides a familiar approach for Linux system administrators, and the environment can be updated easily without downloading and installing a new ISO.</p>
+Rackspace Private Cloud Software uses Ansible to create an OpenStack cluster on Ubuntu Linux. The installation process provides a familiar approach for Linux system administrators, and the environment can be updated easily without downloading and installing a new ISO.
 
-<p class="lead" markdown="1">Learn more [on the main product page](https://www.rackspace.com/cloud/private/openstacksolutions). You can also learn more about the documentation at the [Rackspace Private Cloud Documentation page.](https://developer.rackspace.com/docs/#docs-private-cloud)</p>
+You can learn more about Rackspace Private Cloud and OpenStack [on the main product page](https://www.rackspace.com/cloud/private/openstacksolutions). You can also find Rackspace Private Cloud developer documentation on the [Rackspace Private Cloud Documentation page.](https://developer.rackspace.com/docs/#docs-private-cloud)
 
 <hr />
 
 ###  General resources
 
 - [FAQ](https://support.rackspace.com/how-to/rpc-openstack-faq/)
-- [Private Cloud Tech Resources](https://support.rackspace.com/how-to/private-cloud-tech-resources/)
 - [Rackspace Private Cloud Software and Reference Architecture](http://www.rackspace.com/cloud/private/openstack/software/)
 - [Rackspace Private Cloud Support](http://www.rackspace.com/cloud/private/openstack/support/)
 - [Rackspace Private Cloud Resources](http://www.rackspace.com/cloud/private/openstack/resources/)
