@@ -80,7 +80,7 @@ The matrix displays the Cloud Databases methods grouped by category, their corre
 
 ### On-demand backups
 
-**Note**: Any user who calls the on demand backup operations for Cloud Databases must have access to Cloud Files.
+**Note**: Any user who calls the on-demand backup operations for Cloud Databases must have access to Cloud Files.
 
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
@@ -93,7 +93,7 @@ The matrix displays the Cloud Databases methods grouped by category, their corre
 
 ### Scheduled Backups
 
-**Note:** Any user calling the scheduled backup operations for Cloud Databases must have access to Cloud Files.
+**Note:** Any user who calls on the scheduled backup operations for Cloud Databases must have access to Cloud Files.
 
 | Method | API action | Role | Description |
 |-------|---------|---|--------|
