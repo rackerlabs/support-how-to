@@ -99,14 +99,14 @@ Gather the following information before troubleshooting your site:
 
           $ nmap -Pn -p 443 website.com
      
-           Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
-           Nmap scan report for website.com (104.130.8.75)
-           Host is up (0.000052s latency).
-           rDNS record for 104.130.8.75: elector
-           PORT    STATE  SERVICE
-           443/tcp closed https
+            Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
+            Nmap scan report for website.com (104.130.8.75)
+            Host is up (0.000052s latency).
+            rDNS record for 104.130.8.75: elector
+            PORT    STATE  SERVICE
+            443/tcp closed https
      
-           Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+            Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
 
 ### Test your connection using your server's console
 
@@ -132,7 +132,7 @@ Press **Enter** to see if the server is responsive during the login process.
         server-01 login:
  
 
- - If you receive an `Out of memory` error (as shown in the following example), reboot the server and attempt to use the server's console again.
+- If you receive an `Out of memory` error (as shown in the following example), reboot the server and attempt to use the server's console again.
 
          kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
          kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
