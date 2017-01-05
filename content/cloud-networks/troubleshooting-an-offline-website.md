@@ -63,17 +63,17 @@ Gather the following information before troubleshooting your site:
 
   - If packets are transmitted and received, skip to step 4.
 
-         $ ping website.com
-         PING website.com (104.130.7.75) 56(84) bytes of data.
-         64 bytes from 104.130.7.75: icmp_seq=1 ttl=55 time=32.4 ms
-         64 bytes from 104.130.7.75: icmp_seq=2 ttl=55 time=32.2 ms
-         64 bytes from 104.130.7.75: icmp_seq=3 ttl=55 time=32.2 ms
-         64 bytes from 104.130.7.75: icmp_seq=4 ttl=55 time=32.2 ms
-         64 bytes from 104.130.7.75: icmp_seq=5 ttl=55 time=32.2 ms
-         ^C
-         --- website.com ping statistics ---
-         5 packets transmitted, 5 received, 0% packet loss, time 4008ms
-         rtt min/avg/max/mdev = 32.208/32.261/32.429/0.141 ms
+          $ ping website.com
+          PING website.com (104.130.7.75) 56(84) bytes of data.
+          64 bytes from 104.130.7.75: icmp_seq=1 ttl=55 time=32.4 ms
+          64 bytes from 104.130.7.75: icmp_seq=2 ttl=55 time=32.2 ms
+          64 bytes from 104.130.7.75: icmp_seq=3 ttl=55 time=32.2 ms
+          64 bytes from 104.130.7.75: icmp_seq=4 ttl=55 time=32.2 ms
+          64 bytes from 104.130.7.75: icmp_seq=5 ttl=55 time=32.2 ms
+          ^C
+          --- website.com ping statistics ---
+          5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+          rtt min/avg/max/mdev = 32.208/32.261/32.429/0.141 ms
 
   - If you receive a `ping: unknown host` response, check the DNS settings for a missing or misconfigured A record.
 
