@@ -44,17 +44,27 @@ A configuration file written in YAML is needed in order for the servier-side con
 
 2. Save the file to the `rackspace-monitoring-agent.conf.d` directory on your target server. The location of the conf.d directory will depend on your server's operating system.
 
-   For linux:
+   - For linux:
 
-       /etc/rackspace-monitoring-agent.conf.d/main_disk_check.yaml
+         /etc/rackspace-monitoring-agent.conf.d/main_disk_check.yaml
 
-   For windows:
+   - For windows:
 
-       "C:ProgramDataRackspace Monitoringconfigrackspace-monitoring-agent.conf.dmain_disk_check.yaml"
+         "C:ProgramDataRackspace Monitoringconfigrackspace-monitoring-agent.conf.dmain_disk_check.yaml"
 
    **Note:** Saving the configuration file to the `conf.d` directory might require administrative access.
 
-3. After the YAML file is saved in the correct directory, restart the Rackspace Monitoring agent. The agent will upload the file to the Rackspace Monitoring service and set up your new configuration on the target server.
+3. After the YAML file is saved in the correct directory, restart the Rackspace Monitoring agent.
+
+   - For linux, use the following command:
+
+         sudo service rackspace-monitoring-agent restart 
+
+   - For Windows, use the Windows service manager.
+
+   The agent will upload the file to the Rackspace Monitoring service and set up your new configuration on the target server.
+
+### Update or delete your server-side configuration
 
 If you want to change your server-side configuration file in the future, update and save your YAML file, then restart the agent. The agent will update the target server with your updated checks and alarms.
 
