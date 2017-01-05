@@ -120,7 +120,7 @@ Even if your website appears back online after you perform the preceding steps, 
 
 Use the following steps to test the server's connectivity with the console.
 
-**For linux servers**
+**For Linux servers**
 
 Press **Enter** to see if the server is responsive during the login process.
 
