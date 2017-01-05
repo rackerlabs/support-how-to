@@ -27,17 +27,17 @@ Gather the following information before troubleshooting your site:
 
 1. Try to access the website through a web browser.
 
-  - If the site does not load or you receive a `Server Not Found` message, skip to step 2.
+    - If the site does not load or you receive a `Server Not Found` message, skip to step 2.
 
-  - If the site loads but an error page visible, review the current deployment configuration.
+    - If the site loads but an error page visible, review the current deployment configuration.
 
-    **Note:** Rackspace Support can't assist with configuration errors.
+         **Note:** Rackspace Support can't assist with configuration errors.
 
-  - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues](/how-to/common-network-troubleshooting-tools/).
+    - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues](/how-to/common-network-troubleshooting-tools/).
 
 2. Ping the web server using the server's IP address.
 
-  - If packets are transmitted and received, skip to step 3.
+    - If packets are transmitted and received, skip to step 3.
 
           $ ping 104.130.8.75
           PING 104.130.8.75 (104.130.8.75) 56(84) bytes of data.
@@ -51,7 +51,7 @@ Gather the following information before troubleshooting your site:
           5 packets transmitted, 5 received, 0% packet loss, time 4005ms
           rtt min/avg/max/mdev = 32.283/32.346/32.377/0.118 ms
 
-  - If no packets are received, skip to the "Test your connection using the server's console" section.  
+    - If no packets are received, skip to the "Test your connection using the server's console" section.  
 
           $ ping 50.51.225.132
           PING 50.51.225.132 (50.51.225.132) 56(84) bytes of data.
@@ -61,7 +61,7 @@ Gather the following information before troubleshooting your site:
 
 3. Ping the website by using the host name.
 
-  - If packets are transmitted and received, skip to step 4.
+    - If packets are transmitted and received, skip to step 4.
 
           $ ping website.com
           PING website.com (104.130.7.75) 56(84) bytes of data.
@@ -75,11 +75,11 @@ Gather the following information before troubleshooting your site:
           5 packets transmitted, 5 received, 0% packet loss, time 4008ms
           rtt min/avg/max/mdev = 32.208/32.261/32.429/0.141 ms
 
-  - If you receive a `ping: unknown host` response, check the DNS settings for a missing or misconfigured A record.
+    - If you receive a `ping: unknown host` response, check the DNS settings for a missing or misconfigured A record.
 
 4. Run the `nmap` command on the IP address of the server.
 
-  - If port 80 is shown as `open` and using `http`, skip to the "Test your connection using server's console" section.
+    - If port 80 is shown as `open` and using `http`, skip to the "Test your connection using server's console" section.
 
           $ nmap website.com
      
@@ -95,7 +95,7 @@ Gather the following information before troubleshooting your site:
      
           Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
 
-  - If port 80 is shown as `closed` or `filtered`, ensure that the web service for the server is running and that port 80 is open on the server's firewall.
+    - If port 80 is shown as `closed` or `filtered`, ensure that the web service for the server is running and that port 80 is open on the server's firewall.
 
           $ nmap -Pn -p 443 website.com
      
