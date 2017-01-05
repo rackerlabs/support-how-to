@@ -39,41 +39,41 @@ Gather the following information before troubleshooting your site:
 
   - If packets are transmitted and received, skip to step 3.
 
-        $ ping 104.130.8.75
-        PING 104.130.8.75 (104.130.8.75) 56(84) bytes of data.
-        64 bytes from 104.130.8.75: icmp_seq=1 ttl=55 time=32.3 ms
-        64 bytes from 104.130.8.75: icmp_seq=2 ttl=55 time=32.3 ms
-        64 bytes from 104.130.8.75: icmp_seq=3 ttl=55 time=32.3 ms
-        64 bytes from 104.130.8.75: icmp_seq=4 ttl=55 time=32.2 ms
-        64 bytes from 104.130.8.75: icmp_seq=5 ttl=55 time=32.3 ms
-        ^C
-        --- 104.130.8.75 ping statistics ---
-         5 packets transmitted, 5 received, 0% packet loss, time 4005ms
-        rtt min/avg/max/mdev = 32.283/32.346/32.377/0.118 ms
+          $ ping 104.130.8.75
+          PING 104.130.8.75 (104.130.8.75) 56(84) bytes of data.
+          64 bytes from 104.130.8.75: icmp_seq=1 ttl=55 time=32.3 ms
+          64 bytes from 104.130.8.75: icmp_seq=2 ttl=55 time=32.3 ms
+          64 bytes from 104.130.8.75: icmp_seq=3 ttl=55 time=32.3 ms
+          64 bytes from 104.130.8.75: icmp_seq=4 ttl=55 time=32.2 ms
+          64 bytes from 104.130.8.75: icmp_seq=5 ttl=55 time=32.3 ms
+          ^C
+          --- 104.130.8.75 ping statistics ---
+          5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+          rtt min/avg/max/mdev = 32.283/32.346/32.377/0.118 ms
 
   - If no packets are received, skip to the "Test your connection using the server's console" section.  
 
-        $ ping 50.51.225.132
-         PING 50.51.225.132 (50.51.225.132) 56(84) bytes of data.
-        ^C
-         --- 50.51.225.132 ping statistics ---
-        5 packets transmitted, 0 received, 100% packet loss, time 3999ms
+          $ ping 50.51.225.132
+          PING 50.51.225.132 (50.51.225.132) 56(84) bytes of data.
+          ^C
+          --- 50.51.225.132 ping statistics ---
+          5 packets transmitted, 0 received, 100% packet loss, time 3999ms
 
 3. Ping the website by using the host name.
 
   - If packets are transmitted and received, skip to step 4.
 
          $ ping website.com
-        PING website.com (104.130.7.75) 56(84) bytes of data.
-        64 bytes from 104.130.7.75: icmp_seq=1 ttl=55 time=32.4 ms
-        64 bytes from 104.130.7.75: icmp_seq=2 ttl=55 time=32.2 ms
-        64 bytes from 104.130.7.75: icmp_seq=3 ttl=55 time=32.2 ms
-        64 bytes from 104.130.7.75: icmp_seq=4 ttl=55 time=32.2 ms
-        64 bytes from 104.130.7.75: icmp_seq=5 ttl=55 time=32.2 ms
-        ^C
-        --- website.com ping statistics ---
-        5 packets transmitted, 5 received, 0% packet loss, time 4008ms
-        rtt min/avg/max/mdev = 32.208/32.261/32.429/0.141 ms
+         PING website.com (104.130.7.75) 56(84) bytes of data.
+         64 bytes from 104.130.7.75: icmp_seq=1 ttl=55 time=32.4 ms
+         64 bytes from 104.130.7.75: icmp_seq=2 ttl=55 time=32.2 ms
+         64 bytes from 104.130.7.75: icmp_seq=3 ttl=55 time=32.2 ms
+         64 bytes from 104.130.7.75: icmp_seq=4 ttl=55 time=32.2 ms
+         64 bytes from 104.130.7.75: icmp_seq=5 ttl=55 time=32.2 ms
+         ^C
+         --- website.com ping statistics ---
+         5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+         rtt min/avg/max/mdev = 32.208/32.261/32.429/0.141 ms
 
   - If you receive a `ping: unknown host` response, check the DNS settings for a missing or misconfigured A record.
 
@@ -81,32 +81,32 @@ Gather the following information before troubleshooting your site:
 
   - If port 80 is shown as `open` and using `http`, skip to the "Test your connection using server's console" section.
 
-        $ nmap website.com
+          $ nmap website.com
      
-        Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:23 UTC
-        Nmap scan report for website.com (104.130.8.75)
-        Host is up (0.0000060s latency).
-        rDNS record for 104.130.8.75: elector
-        Not shown: 997 closed ports
-        PORT     STATE SERVICE
-        21/tcp   open  ftp
-        80/tcp   open  http
-        3306/tcp open  mysql
+          Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:23 UTC
+          Nmap scan report for website.com (104.130.8.75)
+          Host is up (0.0000060s latency).
+          rDNS record for 104.130.8.75: elector
+          Not shown: 997 closed ports
+          PORT     STATE SERVICE
+          21/tcp   open  ftp
+          80/tcp   open  http
+          3306/tcp open  mysql
      
-        Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+          Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
 
   - If port 80 is shown as `closed` or `filtered`, ensure that the web service for the server is running and that port 80 is open on the server's firewall.
 
-        $ nmap -Pn -p 443 website.com
+          $ nmap -Pn -p 443 website.com
      
-        Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
-        Nmap scan report for website.com (104.130.8.75)
-        Host is up (0.000052s latency).
-        rDNS record for 104.130.8.75: elector
-        PORT    STATE  SERVICE
-        443/tcp closed https
+          Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
+          Nmap scan report for website.com (104.130.8.75)
+          Host is up (0.000052s latency).
+          rDNS record for 104.130.8.75: elector
+          PORT    STATE  SERVICE
+          443/tcp closed https
      
-        Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+          Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
 
 ### Test your connection using your server's console
 
@@ -126,16 +126,16 @@ Press **Enter** to see if the server is responsive during the login process.
 
 - If the server is responsive, you should see the following login prompts each time you press **Enter**.
 
-      CentOS Linux 7 (Core)
-      Kernel 3.10.0-327.22.2.e17.x86_64 on an x86_64
+        CentOS Linux 7 (Core)
+        Kernel 3.10.0-327.22.2.e17.x86_64 on an x86_64
  
-      server-01 login:
+        server-01 login:
  
 
  - If you receive an `Out of memory` error (as shown in the following example), reboot the server and attempt to use the server's console again.
 
-       kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
-       kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
+        kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
+        kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
 
  If the `Out of memory` error occurs again, determine whether you need to resize the server or tweak the configuration for scalability.
 
