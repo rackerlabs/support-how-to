@@ -83,15 +83,15 @@ Gather the following information before troubleshooting your site:
 
           $ nmap website.com
      
-          Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:23 UTC
-          Nmap scan report for website.com (104.130.8.75)
-          Host is up (0.0000060s latency).
-          rDNS record for 104.130.8.75: elector
-          Not shown: 997 closed ports
-          PORT     STATE SERVICE
-          21/tcp   open  ftp
-          80/tcp   open  http
-          3306/tcp open  mysql
+           Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:23 UTC
+           Nmap scan report for website.com (104.130.8.75)
+           Host is up (0.0000060s latency).
+           rDNS record for 104.130.8.75: elector
+           Not shown: 997 closed ports
+           PORT     STATE SERVICE
+           21/tcp   open  ftp
+           80/tcp   open  http
+           3306/tcp open  mysql
      
           Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
 
@@ -99,14 +99,14 @@ Gather the following information before troubleshooting your site:
 
           $ nmap -Pn -p 443 website.com
      
-          Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
-          Nmap scan report for website.com (104.130.8.75)
-          Host is up (0.000052s latency).
-          rDNS record for 104.130.8.75: elector
-          PORT    STATE  SERVICE
-          443/tcp closed https
+           Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
+           Nmap scan report for website.com (104.130.8.75)
+           Host is up (0.000052s latency).
+           rDNS record for 104.130.8.75: elector
+           PORT    STATE  SERVICE
+           443/tcp closed https
      
-          Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
+           Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
 
 ### Test your connection using your server's console
 
@@ -134,8 +134,8 @@ Press **Enter** to see if the server is responsive during the login process.
 
  - If you receive an `Out of memory` error (as shown in the following example), reboot the server and attempt to use the server's console again.
 
-        kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
-        kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
+         kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
+         kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
 
  If the `Out of memory` error occurs again, determine whether you need to resize the server or tweak the configuration for scalability.
 
