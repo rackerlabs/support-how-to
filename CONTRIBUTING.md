@@ -188,4 +188,4 @@ Following are some specific guidelines for How-To content:
 
 If you find a problem, open a GitHub issue.
 
-If you need additional assistance, contact us at [devdoc@rackspace.com](mailto:devdoc@rackspace.com).
+If you need additional assistance, contact us at [how-to@rackspace.com](mailto:how-to@rackspace.com).
