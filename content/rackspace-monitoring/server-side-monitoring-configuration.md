@@ -50,7 +50,7 @@ A configuration file written in YAML is needed in order for the servier-side con
 
    - For windows:
 
-         "C:ProgramDataRackspace Monitoringconfigrackspace-monitoring-agent.conf.dmain_disk_check.yaml"
+         "C:\ProgramData\Rackspace Monitoring\config\rackspace-monitoring-agent.conf.d\main_disk_check.yaml"
 
    **Note:** Saving the configuration file to the `conf.d` directory might require administrative access.
 
@@ -58,7 +58,7 @@ A configuration file written in YAML is needed in order for the servier-side con
 
    - For linux, use the following command:
 
-         sudo service rackspace-monitoring-agent restart 
+         sudo service rackspace-monitoring-agent restart
 
    - For Windows, use the Windows service manager.
 
