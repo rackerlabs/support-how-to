@@ -5,7 +5,7 @@ title: Permissions matrix for Cloud Block Storage
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2016-12-06'
+last_modified_date: '2017-01-09'
 last_modified_by: Stephanie Fillmon
 product: Cloud Block Storage
 product_url: cloud-block-storage
