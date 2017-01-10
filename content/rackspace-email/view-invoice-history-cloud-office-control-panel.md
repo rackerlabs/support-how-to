@@ -15,7 +15,7 @@ To view past invoices for your Cloud Office account, [log in to the
 Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following
 steps:
 
-1. In the top-right corner of the page, click on your admin ID name or account number and select **Billing & Payments** from the drop-down menu.
+1. In the top-right corner of the page, click your admin ID name or account number and select **Billing & Payments** from the drop-down menu.
 
 2. On the **Billing & Payments** tab, click **Invoices**.
 
