@@ -42,6 +42,9 @@ A configuration file written in YAML is needed in order for the servier-side con
                    return new AlarmStatus(WARNING, 'Less than 20% free space left - #{used} used out of #{total}');
                 }
 
+
+   **Note:** If you include a parsing error within your YAML file, this error will be ignored. You can see parsing results in the agent log file.
+
 2. Save the file to the `rackspace-monitoring-agent.conf.d` directory on your target server. The location of the conf.d directory will depend on your server's operating system.
 
    - For linux:
@@ -67,5 +70,7 @@ A configuration file written in YAML is needed in order for the servier-side con
 ### Update or delete your server-side configuration
 
 If you want to change your server-side configuration file in the future, update and save your YAML file, then restart the agent. The agent will update the target server with your updated checks and alarms.
+
+Checks and alarms defined by the server side configuration file can also be temporarily updated with the Rackspace Monitoring API until the  agent restarts. Once the agent has been restarted, all changed made from the API will be overwritten by the configuration file. If a check or alarm is created through the the API, it is unaffected by the server side configuration file.
 
 If you want to delete your server-side configuration file, simply delete the file and restart the agent. The agent will delete any checks and alarms you included in the file.
