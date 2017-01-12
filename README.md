@@ -18,9 +18,9 @@ https://support.rackspace.com/how-to/
 - Jan 30 - Feb 3: Laura
 - Feb 6 - 10: Renée
 - Feb 13 - 17: Laura
-- Feb 20 -24:
+- Feb 20 -24: Nate
 - Feb 27 - Mar 3:
 - Mar 6 - 10: Laura
 - Mar 13 -17:
-- Mar 20 - 24:
+- Mar 20 - 24: Nate
 - Mar 27 - 31: Laura
