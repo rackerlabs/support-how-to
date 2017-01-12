@@ -19,7 +19,7 @@ https://support.rackspace.com/how-to/
 - Feb 6 - 10: Renée
 - Feb 13 - 17: Laura
 - Feb 20 -24: Nate
-- Feb 27 - Mar 3:
+- Feb 27 - Mar 3: Cat
 - Mar 6 - 10: Laura
 - Mar 13 -17: Stephanie
 - Mar 20 - 24: Nate
