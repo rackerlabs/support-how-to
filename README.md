@@ -21,6 +21,6 @@ https://support.rackspace.com/how-to/
 - Feb 20 -24: Nate
 - Feb 27 - Mar 3:
 - Mar 6 - 10: Laura
-- Mar 13 -17:
+- Mar 13 -17: Stephanie
 - Mar 20 - 24: Nate
 - Mar 27 - 31: Laura
