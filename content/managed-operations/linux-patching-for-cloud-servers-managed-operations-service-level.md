@@ -18,7 +18,7 @@ Managed Red Hat Network server. Patching delays in a Managed Red Hat Network
 server also cause update delays in the proxy servers for the Managed Operations
 service level. For example, the upgrade to Red Hat Enterprise Linux 5.5, the
 fifth update release to Red Hat Enterprise Linux 5, was delayed for several
-months after it was released by Red Hat.
+months after it was released by Red Hat. 
 
 This table states the patching mechanisms and Rackspace-specific servers used in
 Managed Operations for different distributions. In the patching server URL,
