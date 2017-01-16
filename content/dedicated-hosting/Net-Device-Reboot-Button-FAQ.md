@@ -1,7 +1,7 @@
 ---
-permalink: net-device-reboot-button-faq/
+permalink: net-device-reboot-faq/
 audit_date:
-title: Net Device Reboot Button FAQ
+title: Network device reboot FAQ
 type: product
 created_date: '2017-01-16'
 created_by: Trevor Becker
@@ -11,92 +11,84 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The MyRackspace Portal now has a new "Reboot Appliance" option for Net Devices. This reboot button gives you the control and flexibility to reboot your network appliance during a maintenance window that best fits your business needs. It can also be used in the event of security vulnerabilities of your Net Device(s). In this event,  Rackspace will pre-stage patched versions of software code so that you can reboot and upgrade the code version of your Net Device at will.
+The MyRackspace Portal now has a new reboot option for network devices. This reboot option gives you the control and flexibility to reboot your network device during a maintenance window that best fits your business needs. You can also use this option when your device experiences security vulnerabilities. During such an event, Rackspace prestages patched versions of software code so that you can reboot and upgrade the code version of your device at will.
+
+The rest of this article provides answers to frequently asked questions about the new reboot option.
 
 ### General
 
 #### What does the reboot process do?
 
-This warm-boot process reboots your network appliance which resets all memory utilization. The device loads the pre-configured operating system from primary storage and reloads the device’s saved configuration.
+The warm-boot process reboots your network appliance which resets all memory utilization. The device loads the preconfigured operating system from primary storage and reloads the device’s saved configuration.
 
+#### Why would I want to reboot my network device?
 
-#### Why would I want to reboot my network appliance?
-
-In most cases, the only time a network appliance needs to be rebooted is when a new version of the operating system needs to be loaded or there is a bug in the operating system that has caused processes on the device to operate improperly. Rackspace pre-stages the new operating system or the operating system updates on the network appliance. Upon the next reboot, the operating system updates to the staged code. Rackspace will notify you if there has been new code staged on your device so that you are aware of any pending updates.
+Generally, you need to reboot a network device only when a new version of the operating system needs to be loaded or the operating system contains a bug that has caused processes on the device to operate improperly. Rackspace prestages the new operating system or the operating system updates on the network device. During the next reboot, the operating system is updated to the staged code. Rackspace notifies you when new code is staged on your device so that you are aware of any pending updates.
  
- 
-#### When should I reboot my network appliances?
+#### When should I reboot my network devices?
 
-You can reboot your network appliances whenever you like. Rackspace highly recommends that except in the case of emergency, you should always reboot your network appliances in a maintenance window when you expect the least impact to your production or business.
-
+You can reboot your network deviceses whenever you like. Rackspace highly recommends that except in the case of emergency, you always reboot your network devices in a maintenance window when you expect the least impact to your production or business.
 
 #### Can I schedule the reboot?
 
-You cannot schedule a reboot at this time. However, we are working with our teams to roll out this functionality in the future.
+You can't schedule a reboot at this time. However, we are working with our teams to roll out this functionality in the future.
+
+#### I was notified that my network device is vulnerable to a bug or a security related exploit. How do I proceed?
+
+If you were notified by Rackspace that your network device is vulnerable to a bug or a security related exploit, you should also have been notified that the code has been staged on your network device. After the next reboot, you will be running updated code that remediates the issue.
 
 
-#### I was notified that my network appliance is vulnerable to a bug or a security related exploit. How do I proceed?
+#### How long does a network device take to reboot?
 
-If you were notified by Rackspace that your network appliance is vulnerable to a bug or a security related exploit, you should have been notified that the code has been staged on your network appliance. Upon the next reboot, you will be running updated code that remediates the issue.
+A network appliance device takes approximately 4 to 5 minutes. This estimation is slightly variable based on the platform and the size of the device configuration.
 
+#### What will be “down” while my network device reboots?
 
-#### How long does a network appliance take to reboot?
+Every device located behind the network device will be unavailable while the device reboots, unless you have a high availability (HA) solution.
 
-A network appliance reboot takes approximately 4-5 minutes. This is slightly variable based on the platform and the size of the device configuration.
+#### Will any “device down” alerts be generated while my network devices reboot?
 
-
-#### What will be “down” while my network appliance reboots?
-
-Every device located behind the network appliance will be unavailable while the device reboots, unless you have a high availability (HA) solution.
-
-
-#### Will there be any “device down” alerts generated while my network appliances reboot?
-
-There should no alerts generated. During this process, alert suppression is put in place for any devices behind the network appliance. This alert suppression is removed once the reboot process has completed.
-
+No alerts should be generated. During the reboot process, alert suppression is put in place for any devices behind the network device. This alert suppression is removed after the reboot process has completed.
  
-#### Who can reboot my network appliance?
+#### Who can reboot my network device?
 
-Any contact on your account that has administrative or edit permissions on the network appliance has the ability to start the reboot process in the MyRack portal.
-
+Any contact on your account that has administrative or edit permissions on the network
+device can start the reboot process in the MyRackspace Portal.
  
-#### Can I get more details on what occurs as part of the reboot process?
+#### What specifically occurs during the reboot process?
 
 The following events occur during this process:
 
-- A ticket is created to track the reboot process and actions
-- Boot code version is checked
-- A Backup of the configuration is performed
-- The current running configuration is saved to non-volatile memory
-- Device alert generation is suppressed
-- The device is reloaded
-- Alert suppression is lifted
-- The ticket is updated with the relevant details of the reboot, including the code version running at the time of process completion
-
+1. A ticket is created to track the reboot process and actions.
+2. The boot code version is checked.
+3. The device configuration is backed up,
+4. The current running configuration is saved to non-volatile memory.
+5. Device alert generation is suppressed.
+6. The device is reloaded.
+7. Alert suppression is lifted.
+8. The ticket is updated with the relevant details of the reboot, including the code version running when the process completes.
  
-#### What are the risks associated with a reboot event?
+#### What risks are associated with a reboot event?
 
-The biggest risk in a network appliance reboot is hardware failure. This risk can be lessened by employing a high availability (HA) solution.
-
+The biggest risk during in a network device reboot is hardware failure. This risk can be lessened by employing a high availability (HA) solution.
 
 #### What if something goes wrong (like a hardware failure)?
 
-The process monitors the reboot actions. If the appliance does not recover in the expected amount of time, an emergency ticket is sent to the Rackspace Netsec ticket queue with an emergency priority. The ticket will be picked up immediately, ahead of all others, and the situation will be treated as a “network down emergency”. In the event of an HA solution, if the standby device fails the reboot process, the process will be halted and the primary device will continue to pass traffic and the failed device will be handled as stated previously.
+The process monitors the reboot actions. If the device does not recover in the expected amount of time, an emergency ticket is sent to the Rackspace Netsec ticket queue with an emergency priority. The ticket is picked up immediately, ahead of all others, and the situation is treated as a “network down” emergency. If an HA solution is in place and the standby device fails the reboot process, then the process is halted, the primary device continues to pass traffic, and the failed device is handled as stated previously.
 
 
-### High-avaliabilty network appliance pair 
+### Reboots for high-availability network device pairs
  
-#### I have an HA network appliance pair. How does this process work?
+#### I have an HA network device pair. How does the reboot process work in this case?
 
-Either device may own the primary device role at any time. The process determines which unit is currently the active device and which unit currently owns the standby role. The standby unit reboots first. Once the standby unit has been rebooted and is in a healthy status, the active device reboots and the network traffic will be failed-over to the standby unit. Once the formerly-active unit has rebooted, the process is complete. Note that there is no need to fail back over to the former-primary device, because that device will assume a standby role after the device has recovered.
+Either device can own the primary device role at any time. The reboot process first determines which device is currently the active device and which device currently owns the standby role. The standby device is rebooted first. After the standby device has been rebooted and is in a healthy status, the network traffic fails over to this device (which is now the active device) and the formerly active device is rebooted. After the formerly active device has rebooted, it assumes the standby role, and the process is complete. 
 
+#### In my HA pair, which network device should I reboot?
+
+You can select either of the HA network devices for reboot. The reboot process
+determines which device owns the standby role and which device owns the primary role
  
-#### On my HA pair, which network appliance should I reboot?
+#### In my HA pair, do I need to reboot both network devices?
 
-You may select either of the HA network appliances for reboot. The process will determine which device owns the standby role and which device owns the primary role.
-
- 
-####  On my HA pair, do I need to reboot both network appliances?
-
-No, you only need to click the reboot button for one network device in your HA pair. Once the process starts, both units will eventually be rebooted as part of this process.
+No, you need to click the reboot button for only one network device in your HA pair. After the process starts, both devices are rebooted.
 
