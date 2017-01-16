@@ -43,7 +43,7 @@ A configuration file written in YAML is needed in order for the servier-side con
                 }
 
 
-   **Note:** If the YAML file includes a parsing error, the error is ignored. You can see parsing results in the agent log file.
+   **Note:** If the YAML file includes a parsing error, the file is ignored. You can see parsing results in the agent log file.
 
 2. Save the file to the `rackspace-monitoring-agent.conf.d` directory on your target server. The location of the `conf.d` directory depends on your server's operating system.
 
