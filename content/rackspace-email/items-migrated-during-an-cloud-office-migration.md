@@ -5,8 +5,8 @@ title: Items migrated during an Cloud Office migration
 type: article
 created_date: '2013-11-13'
 created_by: Milton Prado
-last_modified_date: '2016-11-09'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-01-16'
+last_modified_by: Nate Archer
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -19,7 +19,18 @@ to, the items that are migrated by MigrationWiz might differ.
 
 The following table shows which items are automatically migrated by the tool.
 
-<img src="{% asset_path rackspace-email/items-migrated-during-an-cloud-office-migration/items-migrated-table.png %}" width="681" height="626" />
+| Source | Hosted Exchange | Rackspace Email | Microsoft Office 365 |
+|-----------------------|----------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------|
+| Microsoft Office 365 | **Email**, **Calendars**, **Contacts**, **Tasks**, **Journals**, **Notes** | **Email** | **Email**, **Calendars**, **Contacts**, </br></br> **Tasks**, **Journals**, **Notes** |
+| Exchange Server 2003+ | **Email**, **Calendars**, **Contacts**, **Tasks**, **Journals**, **Notes** | **Email** | **Email**, **Calendars**, **Contacts**,  **Tasks**, **Journals**, **Notes** |
+| Google Apps/Gmail | **Email**, **Calendars**, **Contacts** | **Email** | **Email**, **Calendars**, **Contacts** |
+| GroupWise 7+ | **Email**, **Calendars**, **Contacts**, **Tasks** | **Email** | **Email**, **Calendars**, **Contacts**, **Tasks** |
+| IMAP | **Email** | **Email** | **Email** |
+| Lotus Notes 6.5+ | **Email**, **Calendars**, **Contacts**, **Tasks** | **Email** | **Email**, **Calendars**, **Contacts**, **Tasks** |
+| POP (inbox only) | **Email** | **Email** | **Email** |
+| Zimbra 6+ | **Email**, **Calendars**, **Contacts**, **Tasks** | **Email** | **Email**, **Calendars**, **Contacts**, **Tasks** |
+
+
 
 ### Items that are not migrated
 
@@ -30,6 +41,7 @@ email client.
 
 -   Items that do not match folder types (for example, calendar responses within a mail folder)
 -   Custom items that do not inherit from the core system types (for example, items that are not true emails, calendars, contacts, journals, mail, notes, or tasks)
+-   Additional calendar color categories that are not supported by the destination of the migration
 -   Personal distribution lists
 -   Bounce notifications such as Non-Delivery Report/Receipt (NDR) or Delivery Status Notification (DSN)
 -   Calendar notifications such as invites, cancellations, and so on
