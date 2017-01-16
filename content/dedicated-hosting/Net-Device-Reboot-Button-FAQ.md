@@ -1,6 +1,6 @@
 ---
 permalink: net-device-reboot-faq/
-audit_date:
+audit_date: '2017-01-16'
 title: Network device reboot FAQ
 type: product
 created_date: '2017-01-16'
@@ -27,7 +27,7 @@ Generally, you need to reboot a network device only when a new version of the op
  
 #### When should I reboot my network devices?
 
-You can reboot your network deviceses whenever you like. Rackspace highly recommends that except in the case of emergency, you always reboot your network devices in a maintenance window when you expect the least impact to your production or business.
+You can reboot your network devices whenever you like. Rackspace highly recommends that except in the case of emergency, you always reboot your network devices in a maintenance window when you expect the least impact to your production or business.
 
 #### Can I schedule the reboot?
 
