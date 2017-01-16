@@ -88,7 +88,7 @@ The process monitors the reboot actions. If the appliance does not recover in th
  
 #### I have an HA network appliance pair. How does this process work?
 
-Either device may own the primary device role at any time. The process will determine which unit is currently the active device and which unit currently owns the standby role. The standby unit will be rebooted first. Once the standby unit has been rebooted and is in a healthy status, the active device will be rebooted and the network traffic will be failed-over to the standby unit. Once the formerly-active unit has rebooted, the process is complete. Note that there is no need to fail back over to the former-primary device, as when it recovers, it will now assume the standby role.
+Either device may own the primary device role at any time. The process determines which unit is currently the active device and which unit currently owns the standby role. The standby unit reboots first. Once the standby unit has been rebooted and is in a healthy status, the active device reboots and the network traffic will be failed-over to the standby unit. Once the formerly-active unit has rebooted, the process is complete. Note that there is no need to fail back over to the former-primary device, because that device will assume a standby role after the device has recovered.
 
  
 #### On my HA pair, which network appliance should I reboot?
@@ -98,5 +98,5 @@ You may select either of the HA network appliances for reboot. The process will 
  
 ####  On my HA pair, do I need to reboot both network appliances?
 
-No, you only need to click the reboot button for one network device in your HA pair. Once the process kicks off, both units will eventually be rebooted as part of this process.
+No, you only need to click the reboot button for one network device in your HA pair. Once the process starts, both units will eventually be rebooted as part of this process.
 
