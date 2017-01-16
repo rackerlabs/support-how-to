@@ -11,7 +11,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The MyRackspace Portal now has a new Reboot Appliance option for Net Devices. This reboot button gives you the control and flexibility to reboot your network appliance during a maintenance window that best fits your business needs. This Reboot Appliance option will also be used in the event of security vulnerabilities of your Net Device(s). In this event,  Rackspace will prestage patched versions of software code so that you can reboot and upgrade the code version of your Net Device at will.
+The MyRackspace Portal now has a new "Reboot Appliance" option for Net Devices. This reboot button gives you the control and flexibility to reboot your network appliance during a maintenance window that best fits your business needs. It can also be used in the event of security vulnerabilities of your Net Device(s). In this event,  Rackspace will pre-stage patched versions of software code so that you can reboot and upgrade the code version of your Net Device at will.
 
 ### General
 
@@ -47,22 +47,22 @@ A network appliance reboot takes approximately 4-5 minutes. This is slightly var
 
 #### What will be “down” while my network appliance reboots?
 
-Every device that is located behind the network appliance will be unavailable while the device reboots, unless you have a high availability (HA) solution.
+Every device located behind the network appliance will be unavailable while the device reboots, unless you have a high availability (HA) solution.
 
 
 #### Will there be any “device down” alerts generated while my network appliances reboot?
 
-There should not be any alerts generated. During this process, alert suppression is put in place for any devices behind the network appliance. This alert suppression is removed once the reboot process has completed.
+There should no alerts generated. During this process, alert suppression is put in place for any devices behind the network appliance. This alert suppression is removed once the reboot process has completed.
 
  
 #### Who can reboot my network appliance?
 
-Any contact on your account that has administrative or edit permissions on the network appliance has the ability to kick off the reboot process in the MyRack portal.
+Any contact on your account that has administrative or edit permissions on the network appliance has the ability to start the reboot process in the MyRack portal.
 
  
 #### Can I get more details on what occurs as part of the reboot process?
 
-Here is a high level list of what happens during this process:
+The following events occur during this process:
 
 - A ticket is created to track the reboot process and actions
 - Boot code version is checked
