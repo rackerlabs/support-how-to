@@ -5,8 +5,8 @@ title: Server-side monitoring configuration
 type: article
 created_date: '2017-01-03'
 created_by: Nate Archer
-last_modified_date: Nate Archer
-last_modified_by: '2017-01-16'
+last_modified_date: '2017-01-16'
+last_modified_by: Nate Archer
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
