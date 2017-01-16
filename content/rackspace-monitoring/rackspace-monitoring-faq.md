@@ -5,8 +5,8 @@ title: Rackspace Monitoring FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Stephanie Fillmon
-last_modified_date: '2016-07-25'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2017-01-16'
+last_modified_by: Nate Archer
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
@@ -29,12 +29,12 @@ upgrade downtime, as well as ensures your monitoring services remain
 uninterrupted even in the event of a datacenter failure. You can find an
 up-to-date list of monitoring zones in the [Rackspace Monitoring
 Developer
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-index).
+Guide](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/).
 
 #### What are the various terms I need to know when using Rackspace Monitoring?
 
 For more information, see the
-[Concepts](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-concepts)
+[Concepts](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/concepts/)
 section in the Rackspace Monitoring Developer Guide.
 
 #### How do I configure my monitoring system?
@@ -55,7 +55,7 @@ scroll down to the **Monitoring Checks** section and click **Create Check**.
 
 If you would like to practice setting up a monitoring check using the
 CLI, consult the [Rackspace Monitoring Getting Started
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-getting-started).
+Guide](https://developer.rackspace.com/docs/rackspace-monitoring/quickstart/#concepts).
 
 For a complete list of Rackspace Monitoring API endpoints, see the
 [Rackspace Monitoring Developer's
@@ -65,14 +65,14 @@ Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/
 
 We currently support email, SMS, PagerDuty, VictorOps and webhook. You
 can find the most up-to-date information in the [Notification
-types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-type-operations)
+types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/notification-type-operations/)
 section in the Rackspace Monitoring Developer's Guide.
 
 #### What does Rackspace Monitoring actually monitor?
 
 Anything with a URL or an IP address that is not blocked by a firewall.
 You can find more information in the
-[Checks](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/check-operations)
+[Checks](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/check-operations/)
 section in the Rackspace Monitoring Developer's Guide.
 
 #### Why do I need Rackspace Monitoring?
@@ -167,8 +167,7 @@ available only to customers with a Managed Operations service level.
 #### How do I set up a custom notification plan?
 
 You can use the Rackspace Monitoring API. For instructions, see the
-[Rackspace Monitoring Developer
-	Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
+[Rackspace Monitoring Developer Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
 
 #### Where can I download the Rackspace Monitoring CLI?
 
@@ -178,8 +177,7 @@ website](https://pypi.python.org/pypi/rackspace-monitoring-cli/0.4.5).
 
 #### Where can I find the API documentation for Rackspace Monitoring notification plans?
 
-You can find information about Rackspace Monitoring [notification
-plans](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
+You can find information about Rackspace Monitoring [notification plans](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/notification-plans-operations/)
 in the Rackspace Monitoring Developer Guide.
 
 ### Monitoring and Troubleshooting
@@ -219,7 +217,7 @@ reliable experience.
 
 You can access metrics for a check directly by using the [Rackspace
 Monitoring
-API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/metrics-operations).
+API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
 You can also access metrics by using the [Rackspace Intelligence
 portal](https://intelligence.rackspace.com/).
 
@@ -429,7 +427,7 @@ install it on your workstation and not your server.
 #### Is there a good tutorial for customers unfamiliar with monitoring in general?
 
 Yes - please visit our [Rackspace Monitoring Getting Started
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-getting-started),
+Guide](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/),
 which can guide you through the steps in creating your Rackspace
 Monitoring setup from scratch.
 
@@ -459,10 +457,10 @@ incredible.
 #### How do you see monitors for both your Dedicated and Cloud Servers?
 
 Through the API by using a check:
-[here](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/check-operations).
+[here](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/check-operations/).
 
 Through the Raxmon CLI:
-[here](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#using-the-raxmon-client).
+[here](https://developer.rackspace.com/blog/using-raxmon-to-configure-rackspace-cloud-monitoring/).
 
 #### How fast and easy is it to work with the API?
 
