@@ -21,7 +21,7 @@ The following table shows which items are automatically migrated by the tool.
 
 | Source | Hosted Exchange | Rackspace Email | Microsoft Office 365 |
 |-----------------------|----------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------|
-| Microsoft Office 365 | **Email**, **Calendars**, **Contacts**, **Tasks**, **Journals**, **Notes** | **Email** | **Email**, **Calendars**, **Contacts**, </br></br> **Tasks**, **Journals**, **Notes** |
+| Microsoft Office 365 | **Email**, **Calendars**, **Contacts**, **Tasks**, **Journals**, **Notes** | **Email** | **Email**, **Calendars**, **Contacts**,  **Tasks**, **Journals**, **Notes** |
 | Exchange Server 2003+ | **Email**, **Calendars**, **Contacts**, **Tasks**, **Journals**, **Notes** | **Email** | **Email**, **Calendars**, **Contacts**,  **Tasks**, **Journals**, **Notes** |
 | Google Apps/Gmail | **Email**, **Calendars**, **Contacts** | **Email** | **Email**, **Calendars**, **Contacts** |
 | GroupWise 7+ | **Email**, **Calendars**, **Contacts**, **Tasks** | **Email** | **Email**, **Calendars**, **Contacts**, **Tasks** |
