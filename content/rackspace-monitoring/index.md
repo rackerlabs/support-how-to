@@ -14,10 +14,10 @@ When something in your system unexpectedly breaks, it can impact performance, or
 
 Rackspace Monitoring can help by providing you with timely and accurate information about how your resources are performing. It supplies you the following key pieces of information that can help you manage your business:
 
-- Current system health
-- Alerts on failure conditions
-- Collection of historical data
-- Trending and capacity planning
+-   Current system health
+-   Alerts on failure conditions
+-   Collection of historical data
+-   Trending and capacity planning
 
 With Rackspace Monitoring you can quickly create multiple monitors that use predefined checks such as PING, HTTPS, SMTP, and more to keep track of your cloud resources and receive instant notification when a resource needs your attention.
 
