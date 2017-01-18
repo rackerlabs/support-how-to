@@ -4,7 +4,7 @@ type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2017-01-18'
-last_modified_by: Constanze Kratel
+last_modified_by: Laura Santamaria
 permalink: /rackspace-monitoring/
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
