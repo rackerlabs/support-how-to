@@ -105,7 +105,7 @@ Fanatical Support® for Linux supports the following application servers:
 Fanatical Support® for Linux supports the following authentication tools:
 
 |   | **Installation** | **Configuration** | **Modules** | **Patching** | **Notes** |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | [**SSSD-AD**](https://fedorahosted.org/sssd/) | **Yes** | **Yes** | **Yes** | **Yes** | **SSSD-AD is the preferred solution over legacy LDAP or Winbind** |
 | [**Duo 2FA**](https://duo.com/) | **Yes** | **Yes** | **Yes** | **Yes** | **Supported for SSH with passwords** |
 
