@@ -30,8 +30,6 @@ The following table shows which items are automatically migrated from a source p
 | **POP (inbox only)** | Email | Email | Email |
 | **Zimbra 6 or later** | Email, Calendars, Contacts, Tasks | Email | Email, Calendars, Contacts, Tasks |
 
-
-
 ### Items that are not migrated
 
 Because of system limitations, the following items are not automatically migrated in the migration process. These items must be manually created or brought over via an email client.
