@@ -84,7 +84,7 @@ The Managed Operations service supports the following Mail Servers:
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** | **Notes** |
 | --- | --- | --- | --- | --- | --- |
 | [**Postfix**](http://www.postfix.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Default for El6+, Ubuntu, Debian** |
-| [**Dovecot**]](https://www.dovecot.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Default for El5.x** |
+| [**Dovecot**](https://www.dovecot.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Default for El5.x** |
 | [**Qmail**](http://www.qmail.org/top.html) | **Yes** | **Yes** | **Yes** | **Yes** | **Plesk Servers less than 10.x Only** |
 | [**Courier**](http://www.courier-mta.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Plesk Servers 10.x forward Only** |
 
@@ -132,13 +132,14 @@ Fanatical Support® for Linux supports the following Services on RHCS:
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
 | --- | --- | --- | --- | --- |
 | [**MySQL**]()/[**MariaDB**](http://mariadb.org)/[**Percona**](https://www.percona.com) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**NFS**](hhttp://linux-nfs.org/wiki/index.php/Main_Page) | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**NFS**](http://linux-nfs.org/wiki/index.php/Main_Page) | **Yes** | **Yes** | **Yes** | **Yes** |
 | [**Redis**](https://redis.io/) | **Yes** | **Yes** | **Yes** | **Yes** |
 
 **Note:** RHCS is only supported on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported by the DBA team and OS Admins will support the cluster aspect of that service.
 
 **Note:** Please note that EL7 PCS Clusters are not yet supported and that all cluster builds are still being built on EL6.
 
+**Note:** Restrictions around the clustered services are the same as their restrictions in the standard support sections.
 
 ### Control Panels
 
@@ -219,7 +220,7 @@ Fanatical Support® for Linux supports the following backup software:
 | --- | --- | --- | --- | --- |
 | [**Holland**](https://git-scm.com/download/linux) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-**Note:** Holland is a publicly available, internally developed and maintained tool for the backup of databases. Consult [http://hollandbackup.org/(http://hollandbackup.org/) Rackspace currently only supports MySQL-like database options (MariaDB/Percona) using mysqldump and mysql-lvm only. For issues with unsupported plugins like XtraBackup our DBA team is available for further information.
+**Note:** Holland is a publicly available, internally developed and maintained tool for the backup of databases. Consult [http://hollandbackup.org/](http://hollandbackup.org/) Rackspace currently only supports MySQL-like database options (MariaDB/Percona) using mysqldump and mysql-lvm only. For issues with unsupported plugins like XtraBackup our DBA team is available for further information.
 
 
 ### Anti-Virus
