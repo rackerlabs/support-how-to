@@ -1,6 +1,6 @@
 ---
 permalink: rackspace-monitoring-faq/
-audit_date:
+audit_date: '2017-01-24'
 title: Rackspace Monitoring FAQ
 type: article
 created_date: '2015-12-10'
@@ -78,7 +78,7 @@ and your customers are already having a negative experience using your website o
 application. Rackspace Monitoring prevents these types of problems from occurring
 
 
-### Account Services
+### Account services
 
 #### Can I use a UK account as well as a US account?
 
@@ -145,22 +145,6 @@ You can use the Rackspace Monitoring API. For instructions, see the
 Information about Rackspace Monitoring [notification plans](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/notification-plans-operations/)
 is located Rackspace Monitoring API Reference.
 
-### Monitoring and troubleshooting
-
-
-#### Can I view historical metrics for monitoring checks?
-
-You can access metrics for a check directly by using the [Rackspace Monitoring API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
-You can also access metrics by using the [Rackspace Intelligence portal](https://intelligence.rackspace.com/).
-
-#### How do I submit commands through the Rackspace Monitoring API?
-
-As with any commands you submit to your cloud resources through the API, you must first authenticate through the API for the commands to be correctly processed.
-
-In the [Rackspace Monitoring Developer Guide](https://developer.rackspace.com/docs/rackspace-monitoring/v1/),
-provides the detailed configuration options available with this service
-offering and the necessary components to build functioning monitoring
-checks.
 
 ### General
 
@@ -198,7 +182,6 @@ At this time, Rackspace doesn't use "synthetic transactions" (a simulated set of
 actions.) However, we do support checking the HTML of the response. We
 follow redirects but don't check content within a frame/iframe.
 
-
 #### What is a notification?
 
 A notification defines how the customer wants to be contacted in the
@@ -224,7 +207,6 @@ An entity is the resource (for example, website or server) that you want to moni
 The service provides an on-demand simulation feature that you can use to test the
 functionality of the monitoring system by simulating a normal operating situation.
 
-
 #### How responsive is the system to change, especially in large numbers?
 
 Scalability has been a priority from the beginning. Even if a customer adds thousands of
@@ -240,10 +222,6 @@ checks, which is generally difficult to get with any solution. Customers can lev
 big data center footprint, incredible scalability, and our continuous release feature.
 Future improvements to the service are released as they become functional, so there is
 no need to wait for an upgrade package, and no need for downtime.
-
-#### Is there an API call or published URI to get all the collector IP addresses as with Cloudkick?
-
-Listing monitoring zones gives you the CIDRs of the set of collectors in that zone.
 
 #### Can I request to retain alert log data for less than 60 days?
 
@@ -267,7 +245,6 @@ Building an API around thresholds can be cumbersome. So we decided to represent
 thresholds in a JavaScript-like language. It gives you the ability to write some very
 concise thresholds. For a list of examples, see [Best practices for creating alerts](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/#best-practices-for-creating-alerts) in the
 Rackspace Monitoring Technical Reference.
-
 
 #### Is there a set of command line tools to use with Rackspace Monitoring?
 
@@ -306,3 +283,21 @@ Through the API by using a check. For more information, see the [Checks section]
 
 Through the Raxmon CLI see
 [Using raxmon to configure Rackspace Cloud Monitoring](https://developer.rackspace.com/blog/using-raxmon-to-configure-rackspace-cloud-monitoring/).
+
+#### Can I view historical metrics for monitoring checks?
+
+You can access metrics for a check directly by using the [Rackspace Monitoring API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
+You can also access metrics by using the [Rackspace Intelligence portal](https://intelligence.rackspace.com/).
+
+#### How do I submit commands through the Rackspace Monitoring API?
+
+As with any commands you submit to your cloud resources through the API, you must first authenticate through the API for the commands to be correctly processed.
+
+In the [Rackspace Monitoring Developer Guide](https://developer.rackspace.com/docs/rackspace-monitoring/v1/),
+provides the detailed configuration options available with this service
+offering and the necessary components to build functioning monitoring
+checks.
+
+#### Is there an API call or published URI to get all the collector IP addresses as with Cloudkick?
+
+Listing monitoring zones gives you the CIDRs of the set of collectors in that zone.
