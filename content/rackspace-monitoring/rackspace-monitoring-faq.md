@@ -5,7 +5,7 @@ title: Rackspace Monitoring FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Stephanie Fillmon
-last_modified_date: '2017-01-16'
+last_modified_date: '2017-01-24'
 last_modified_by: Nate Archer
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
