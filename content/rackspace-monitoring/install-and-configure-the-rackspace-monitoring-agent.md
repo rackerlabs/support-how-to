@@ -18,8 +18,7 @@ monitor. The agent gathers data based on the checks that you configure,
 including checks for host information and host metrics, and
 custom-defined checks.
 
-For a list of supported operating systems on which the monitoring
-agent can be installed, see [Cloud Servers with Managed Operations Support for Linux](/how-to/cloud-servers-with-managed-operations-support-for-linux).
+Rackspace Montioring agent supports both Windows and Linux platforms. For a list of detailed supported operating systems, see [Rackspace Monitoring support matrix](/how-to/rackspace-monitoring-support-matrix/).
 
 This article describes the following tasks:
 
@@ -36,9 +35,10 @@ This article describes the following tasks:
 
 We recommend using the Rackspace Intelligence web-based interface to install
 and configure the monitoring agent. The Rackspace Intelligence
-interface provides easy installation and set up as well as
-graphs for visualizing Rackspace Monitoring. Cloud
-Intelligence has many more monitoring
+interface provides easy installation and set up based on the Windows or Linux platform you select. 
+The Rackspace Intelligence interface also provides graphs for visualizing data collected by Rackspace Monitoring. 
+
+Rackspace Intelligence has many more monitoring
 configuration and visualization options than the Cloud Control Panel,
 including three methods for installing the monitoring
 agent: Quick Install, Step By Step, and Source.
@@ -75,7 +75,7 @@ you can also do within Rackspace Intelligence.
 
 
 The meta packages installation obviates the need to install the
-certificate or create a repository manually.
+certificate or create a repository manually.  This is for Linux distribution only.
 
 1. Log in to the server that you want to monitor.
 
