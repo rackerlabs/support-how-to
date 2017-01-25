@@ -5,8 +5,8 @@ title: Migrating From Parse To Rackspace
 type: article
 created_date: '2016-03-25'
 created_by: Amanda Clark
-last_modified_date: '2016-08-17'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-01-26'
+last_modified_by: Chris Hultin
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -29,14 +29,14 @@ After the stack has been successfully created you will need to configure your da
 
    Additional information on the server login process can be found [here](how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) for Mac/Linux users or [here](how-to/connecting-to-linux-from-windows-by-using-putty) for Windows users.
 
-2. After you have logged in to the primary server, modify `/home/parse/ecosystem.json` with your
+2. After you have logged in to the primary server, modify `/home/parse/parse.json` with your
    - MongoDB Connection String
    - Application ID
    - Master Key
 
    The MongoDB Connection String can be found in the ObjectRocket Control Panel, listed as **Connect** under the instance you plan to use. The Application ID and Master Key values can be found in your **Parse.com** account under **App Settings > Security and Keys**.  Any other application-specific keys are optional. They should be left blank if not used.  
 
-   Following is an example **ecosystem.json** config file:  
+   Following is an example **parse.json** config file:  
 
 	    {
 		  "apps" : [{
@@ -62,10 +62,10 @@ After the stack has been successfully created you will need to configure your da
           }]
         }
 
-3. Parse must be restarted after any changes are made to **ecosystem.json**.  Do so by running the following two commands while logged in as the `Parse` user:
+3. Parse must be restarted after any changes are made to **parse.json**.  Do so by running the following two commands while logged in as the `Parse` user:
 
-	    pm2 stop parse-wrapper
-	    pm2 start ecosystem.json
+	    pm2 stop 'Your Application'
+	    pm2 start parse.json
 
    Repeat this step on all Parse servers created by this stack. These servers will be linked from the Stack page, which should be displayed after you create your stack. You can also select the **Orchestration** tab in the Cloud Control Panel, click on **Stacks** from the dropdown menu, and the click on the name of your stack. The `parse` password should be the same across all servers.
 
@@ -102,6 +102,6 @@ Following is an example `parse-dashboard-config.json` file:
       ]
     }
 
-After you modify this file, you will need to restart the Parse Dashboard service by running the following command:
+After you modify this file, you will need to restart the Parse Dashboard service by running the following command (as root):
 
     service parse-dashboard restart
