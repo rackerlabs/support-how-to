@@ -50,7 +50,7 @@ After the stack has been successfully created, configure your database authentic
 
    Following is an example **parse.json** config file:  
 
-	        {
+	      {
 		        "apps" : [{
             "name"        : "parse-wrapper",
             "script"      : "/usr/local/bin/parse-server",
@@ -71,7 +71,7 @@ After the stack has been successfully created, configure your database authentic
               "PARSE_SERVER_FACEBOOK_APP_IDS": "app1, app2, app3",
               "PARSE_MOUNT": "/1",
               }
-            }]
+           }]
          }
 
 3. Restart Parse by running the following, commands while logged in as the `parse` user:
