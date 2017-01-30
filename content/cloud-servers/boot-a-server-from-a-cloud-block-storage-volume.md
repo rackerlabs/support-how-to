@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note:** Cloud Images created from [i]large[/i] servers will not work with Boot From Volume. If the Cloud Server from which the Cloud Image was taken of has a root disk (or if the image has a min_disk parameter) larger than 127GB the volume creation will not work. qemu-img (the component used attaching images to Cloud Servers) cannot handle files that are 127GB or larger. This will result in a HTTP 412 invalid image when done via the API.
+**Note:** Cloud Images created from *large* servers will not work with Boot From Volume. If the Cloud Server from which the Cloud Image was taken has a root disk, or if the image has a min_disk parameter larger than 127GB, the image can not create a volume. `qemu-img` (the component used attaching images to Cloud Servers) can not handle files 127GB or larger. This will result in an `HTTP 412` invalid image when performed through the API.
 
 You can now boot most cloud servers from a network-attached [Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume. This feature enables you to boot a server from a remotely attached volume, which moves the system disk from local to remote. Separating the system disk from the server allows for future diskless flavors, features such as "shelving," and improvements in managing and recovering from server outages.
 
