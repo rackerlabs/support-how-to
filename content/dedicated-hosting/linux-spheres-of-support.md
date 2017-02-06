@@ -179,8 +179,8 @@ Fanatical Support® for Linux will, under reasonable endeavors and without warra
 
 - [EPEL](http://fedoraproject.org/wiki/EPEL)
 - [IUS](https://ius.io/)
-- [Nginx (vendor)](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
-- [Percona (vendor)](https://www.percona.com/doc/percona-server/LATEST/installation.html#installing-percona-server-from-repositories)
 - [MariaDB (vendor)](https://downloads.mariadb.org/mariadb/repositories/#mirror=osuosl)
 - [MySQL (vendor)](https://dev.mysql.com/downloads/repo/)
+- [Nginx (vendor)](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+- [Percona (vendor)](https://www.percona.com/doc/percona-server/LATEST/installation.html#installing-percona-server-from-repositories)
 - [Varnish (vendor)](https://www.varnish-cache.org/releases/install_redhat.html)
