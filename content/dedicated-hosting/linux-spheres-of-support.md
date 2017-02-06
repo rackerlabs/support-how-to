@@ -4,9 +4,9 @@ audit_date: '2017-01-17'
 title: Linux Spheres of Support
 type: article
 created_date: '2017-01-17'
-created_by: Alex xJuarez
+created_by: Alex Juarez
 last_modified_date: '2017-02-05'
-last_modified_by: Kevin Grigsby
+last_modified_by: Kevin Grigsby & Friends
 product: Fanatical Support
 product_url: dedicated-hosting
 ---
