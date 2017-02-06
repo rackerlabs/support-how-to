@@ -72,7 +72,7 @@ Fanatical Support® for Linux supports the following File Servers:
 
 ### Mail Servers
 
-The Managed Operations service supports the following Mail Servers:
+Fanatical Support® for Linux supports the following Mail Servers:
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
