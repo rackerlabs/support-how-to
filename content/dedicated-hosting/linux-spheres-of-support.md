@@ -156,7 +156,7 @@ offering alternative solutions. Reasonable endeavor support can include help fro
 services.
 
 -  **API support**:  Fanatical Support® for Linux offers all the support functions listed in the [developer guides](https://developer.rackspace.com/).
--  **Backups**:  Rackspace provides solutions for file system and databse back ups including leveraging the use of open source projects such as Holland. Please contact support for more information.  
+-  **Backups**:  Rackspace provides solutions for file system and database backups including leveraging the use of open source projects such as [Holland](http://docs.hollandbackup.org/). Please contact support for more information.  
 -  **Cloud Files**:  Integration with Cloud Files is supported via the API, however no development support is offered to help utilize Cloud Files via the API.
 -  **DNS**: Rackspace supports the use of the public Rackspace nameservers for DNS.  Bind/named are *not* supported at this time.
 -  **Firewall**: Support is provided for iptables, Ubuntu ufw, and fail2ban.
