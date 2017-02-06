@@ -4,9 +4,9 @@ audit_date: '2017-01-17'
 title: Linux Spheres of Support
 type: article
 created_date: '2017-01-17'
-created_by: Alex xJuarez
+created_by: Alex Juarez
 last_modified_date: '2017-02-05'
-last_modified_by: Kevin Grigsby
+last_modified_by: Kevin Grigsby & Friends
 product: Fanatical Support
 product_url: dedicated-hosting
 ---
@@ -53,7 +53,7 @@ Fanatical Support® for Linux supports the following types of database servers:
 | **MySQL / MariaDB** | **Yes** | **Yes** | **Yes** | **Yes** |
 | **Percona** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-**Note:** Linux OS Administrators handle basic database support topics, advacned topics may require DBA support assistance. PostgresSQL, MongoDB, and Oracle are not supported by Linux OS Administrators. The Rackspace DBA team is available for support consultation on database issues. The Rackspace DBA team supports Oracle & MySQL; PostgreSQL requests can be considered on a case-by-case basis. 
+**Note:** Linux OS Administrators handle basic database support topics, advanced topics may require DBA support assistance. PostgresSQL, MongoDB, and Oracle are not supported by Linux OS Administrators. The Rackspace DBA team supports Oracle & MySQL; PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues, fees may apply.
 
 
 ### File Servers
@@ -79,7 +79,7 @@ The Managed Operations service supports the following Mail Servers:
 | **Postfix** | **Yes** | **Yes** | **Yes** | **Yes** |
 | **Dovecot** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-**Note:** By their nature, cloud servers have ephemeral IP addresses. Many email monitoring providers blacklist these IP addresses and so sending emails from a cloud server must go through a third part such as  [**Mailgun**](https://www.mailgun.com) may be a good option.
+**Note:** By their nature, cloud servers have ephemeral IP addresses which most email providers blacklist. Sending emails from a cloud server must go through a third party such as  [**Mailgun**](https://www.mailgun.com).
 
 
 ### Application Servers
@@ -97,7 +97,7 @@ Fanatical Support® for Linux supports the following authentication tools:
 
 |   | **Installation** | **Configuration** | **Modules** | **Patching** |
 | --- | --- | --- | --- | --- |
-| [**SSSD-AD** | **Yes** | **Yes** | **Yes** | **Yes** |
+| **SSSD-AD** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [**Duo 2FA**](https://duo.com/) | **Yes** | **Yes** | **Yes** | **Yes** |
 
 
@@ -111,7 +111,7 @@ Fanatical Support® for Linux supports the following caching tools:
 | **Redis** | **Yes** | **Yes** | **Yes** | **Yes** |
 | **Varnish** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-**Note:** Rackspace does not support VCL customization for Varnish
+**Note:** Rackspace does not support VCL customization for Varnish.
 
 
 ### Clustering (Red Hat Cluster Suite)
@@ -124,7 +124,7 @@ Fanatical Support® for Linux supports the following Services on RHCS:
 | **NFS** | **Yes** | **Yes** | **Yes** | **Yes** |
 | **Redis** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-**Note:** RHCS is only supported on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported by the DBA team and OS Admins will support the cluster aspect of that service.
+**Note:** RHCS is only supported on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported in tandem by the DBA team and OS Admins.
 
 
 ### Control Panels
@@ -146,7 +146,7 @@ Fanatical Support® for Linux supports the following backup software:
 | --- | --- | --- | --- | --- |
 | **Holland** | **Yes** | **Yes** | **Yes** | **Yes** | 
 
-**Note:** Holland is a publicly available, internally developed and maintained tool for the backup of databases. Consult [http://hollandbackup.org/](http://hollandbackup.org/) Rackspace currently only supports MySQL-like database options (MariaDB / Percona) using mysqldump and mysql-lvm only. For issues with unsupported plugins like XtraBackup, our DBA team is available for further information.
+**Note:** Holland is a publicly available solution leveraged by Rackspac for the backup of databases, consult [http://hollandbackup.org/](http://hollandbackup.org/). Rackspace currently only supports MySQL-like database options (MariaDB / Percona) using mysqldump and mysql-lvm only. For issues with unsupported plugins like XtraBackup, our DBA team is available for further consultation.
 
 
 ### Anti-Virus
@@ -168,9 +168,9 @@ services.
 
 -  **API support**:  Managed Operations offers all the support functions listed in the [developer guides](https://developer.rackspace.com/).
 -  **Cloud Files**:  Integration with Cloud Files is supported via the API, however no development support is offered to help utilize Cloud Files via the API.
--  **Load Balancing**: Cloud Load Balancers are supported by Fanatical Support® for Linux .
 -  **DNS**: Rackspace supports the use of the public Rackspace nameservers for DNS.  Bind/named are *not* supported at this time.
 -  **Firewall**: Support is provided for iptables, Ubuntu ufw, and fail2ban.
+-  **Load Balancing**: Cloud Load Balancers are supported by Fanatical Support® for Linux.
 
 
 ### Third Party Repositories
@@ -179,8 +179,8 @@ Fanatical Support® for Linux will, under reasonable endeavors and without warra
 
 - [EPEL](http://fedoraproject.org/wiki/EPEL)
 - [IUS](https://ius.io/)
-- [Nginx (vendor)](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
-- [Percona (vendor)](https://www.percona.com/doc/percona-server/LATEST/installation.html#installing-percona-server-from-repositories)
 - [MariaDB (vendor)](https://downloads.mariadb.org/mariadb/repositories/#mirror=osuosl)
 - [MySQL (vendor)](https://dev.mysql.com/downloads/repo/)
+- [Nginx (vendor)](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+- [Percona (vendor)](https://www.percona.com/doc/percona-server/LATEST/installation.html#installing-percona-server-from-repositories)
 - [Varnish (vendor)](https://www.varnish-cache.org/releases/install_redhat.html)
