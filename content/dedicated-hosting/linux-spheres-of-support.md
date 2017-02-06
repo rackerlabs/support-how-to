@@ -124,7 +124,7 @@ Fanatical Support® for Linux supports the following Services on RHCS:
 | **NFS** | **Yes** | **Yes** | **Yes** | **Yes** |
 | **Redis** | **Yes** | **Yes** | **Yes** | **Yes** |
 
-**Note:** RHCS is only supported on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported in tandem by the DBA team and OS Admins.
+**Note:** RHCS is only supported on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported in tandem by the DBA team and Linux OS Administrators.
 
 
 ### Control Panels
@@ -138,17 +138,6 @@ Fanatical Support® for Linux supports the following control panels:
 **Note:** Only supported on dedicated RHEL/CentOS platforms.
 
 
-### Backups
-
-Fanatical Support® for Linux supports the following backup software:
-
-|    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
-| --- | --- | --- | --- | --- |
-| **Holland** | **Yes** | **Yes** | **Yes** | **Yes** | 
-
-**Note:** Holland is a publicly available solution leveraged by Rackspac for the backup of databases, consult [http://hollandbackup.org/](http://hollandbackup.org/). Rackspace currently only supports MySQL-like database options (MariaDB / Percona) using mysqldump and mysql-lvm only. For issues with unsupported plugins like XtraBackup, our DBA team is available for further consultation.
-
-
 ### Anti-Virus
 
 Fanatical Support® for Linux supports the following anti-virus software:
@@ -160,13 +149,14 @@ Fanatical Support® for Linux supports the following anti-virus software:
 **Note:** Rackspace requires the use of anti-virus software on any configurations utilizing domain controllers and to assist in maintaining PCI compliance. 
 
 
-### Other packages
+### Other Services & Technologies
 
 Although we don’t support all technologies, we do offer reasonable endeavor support, which extends our support into
 offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other third-party
 services.
 
--  **API support**:  Managed Operations offers all the support functions listed in the [developer guides](https://developer.rackspace.com/).
+-  **API support**:  Fanatical Support® for Linux offers all the support functions listed in the [developer guides](https://developer.rackspace.com/).
+-  **Backups**:  Rackspace provides solutions for file system and databse back ups including leveraging the use of open source projects such as Holland. Please contact support for more information.  
 -  **Cloud Files**:  Integration with Cloud Files is supported via the API, however no development support is offered to help utilize Cloud Files via the API.
 -  **DNS**: Rackspace supports the use of the public Rackspace nameservers for DNS.  Bind/named are *not* supported at this time.
 -  **Firewall**: Support is provided for iptables, Ubuntu ufw, and fail2ban.
