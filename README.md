@@ -20,5 +20,5 @@ https://support.rackspace.com/how-to/
 - Mar 27 - 31: Laura
 - Apr 3 - 7:
 - Apr 10 - 14: Nate
-- Apr 17 - 21: 
+- Apr 17 - 21: Laura
 - Apr 24 - 28:
