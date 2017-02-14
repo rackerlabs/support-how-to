@@ -147,7 +147,7 @@ The preceding example boots a General Purpose 1 GB server from a prepared volume
              }
      }
 
-The following example boots a General Purpose 1 GB server from a volume that is prepared with the image set by the ID. If you wanted to use this command to boot from an existing volume <code>source</code> would be <code>source=volume</code> and <code>id</code> would be set to the volume's ID.
+The following example boots a General Purpose 1 GB server from a volume that is prepared with the image set by the ID. If you wanted to use this command to boot from an existing volume `source` would be `source=volume` and `id` would be set to the volume's ID.
 
      nova boot --flavor general1-1 --block-device source=image,id=e0b7734d-2331-42a3-b19e-067adc0da17d,dest=volume,size=100,shutdown=preserve,bootindex=0 BFVServer
 
