@@ -21,4 +21,4 @@ https://support.rackspace.com/how-to/
 - Apr 3 - 7:Renée
 - Apr 10 - 14: Nate
 - Apr 17 - 21: Laura
-- Apr 24 - 28: Steph
+- Apr 24 - 28: Stephanie
