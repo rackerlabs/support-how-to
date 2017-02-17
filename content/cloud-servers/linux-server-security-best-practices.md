@@ -546,11 +546,7 @@ Use the following links to find out when your Linux distribution release will
 reach its EOL:
 
 -   Ubuntu: [https://wiki.ubuntu.com/Releases](https://wiki.ubuntu.com/Releases)
--   Red Hat: [https://access.redhat.com/support/policy/updates/errata/](https://access.redhat.com/support/policy/updates/errata/)
+-   Red Hat Enterprise Linux: [https://access.redhat.com/support/policy/updates/errata/](https://access.redhat.com/support/policy/updates/errata/)
 -   CentOS: See Red Hat
 -   Fedora: [https://fedoraproject.org/wiki/End_of_life](https://fedoraproject.org/wiki/End_of_life)
 -   Debian: [https://wiki.debian.org/DebianReleases](https://wiki.debian.org/DebianReleases)
-
-### Further reading
-
--   [Rackspace Cloud Essentials Guide - Security & Remote Access](http://www.rackspace.com/knowledge_center/article/rackspace-cloud-essentials-guide-security-remote-access)
