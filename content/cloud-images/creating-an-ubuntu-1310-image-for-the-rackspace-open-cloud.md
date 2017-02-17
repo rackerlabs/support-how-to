@@ -14,7 +14,7 @@ product_url: cloud-images
 Use the Cloud Images service to import custom virtual machine disk images into
 the Rackspace open cloud, but make sure the images are properly prepared so
 that the servers with those custom images are bootable. This article provides a
-detailed example of how to prepare an image of an Ubuntu 1310 operating system,
+detailed example of how to prepare an image of an Ubuntu 13.10 operating system,
 as an example. After you've worked through it, you'll have a better idea of how
 to create your own custom image for the Rackspace cloud.
 
