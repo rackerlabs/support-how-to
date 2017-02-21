@@ -11,9 +11,9 @@ product: Cloud Images
 product_url: cloud-images
 ---
 
-Meet Pitchfork - It was created by a rather cleaver fellow (https://github.com/oldarmyc@Github) who made interacting with the Rackspace Cloud API super easy!
+Meet Pitchfork - It was created by a [rather cleaver fellow](https://github.com/oldarmyc@Github) who made interacting with the Rackspace Cloud API super easy!
 This community article was written for folks who would like to to transfer Rackspace Cloud Server instance images between regions of the Rackspace cloud.
-*NOTE: For the image download/upload steps listed below I will be using another 3rd party software called "Cybyerduck" - you can still use a different opensource (free) software or the API directly - However, I will only be covering the methods used here, in this article*
+*NOTE: For the image download/upload steps listed below I will be using another 3rd party software called [Cyberduck](https://cyberduck.io/) - you can still use a different opensource (free) software or the API directly - However, I will only be covering the methods used here, in this article*
 
 
 Before we get into the details, we already assume that you have done the following:
@@ -46,7 +46,7 @@ Here are the steps on using completeing the image transfer:
 -   Once you input what you have into the correlating fields to send the API call, scroll down and you will see a "request-id" in the Response Body of the call.
     -   NOTE: You can use the "request_id" to check the "status" of the EXPORT/IMPORT from https://pitchfork.cloudapi.co/images/#get_task_details-images
 
--   After the image has been exported to the container, you will need to download the image. I download and upload the image using [Cyberduck](https://cyberduck.io/)
+-   After the image has been exported to the container, you will need to download the image. I download and upload the image using Cyberduck
     -   SIDE NOTE: As I mentioned in the preface, I use Cyberduck to perform the image download/upload as it's the easiest to use. You just plug in your username and API key, it saves it for you and will simplify everything with the image download and upload.
     
 -   After you have the entire image downloaded to your localhost, you will then need to upload it to the Image IMPORT Container at the destination DC/Region.
