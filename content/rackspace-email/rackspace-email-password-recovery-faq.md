@@ -22,6 +22,14 @@ purposes. We will never sell or share it.
 Following are some frequently asked questions and answers about this
 feature.
 
+### How do I update my phone number?
+
+1. Log in to your Webmail account at [apps.rackspace.com](https://apps.rackspace.com).
+2. In the top-right corner, click the account's username and then select **Update Phone**.
+3. Enter your phone number then click **Save**.
+
+After your phone number has been updated, you will receive a six digit verification code confirming your number. Your phone number will only be used for security purposes.
+
 ### How do I change my Rackspace Email password if I forgot it?
 
 On your Webmail login page, click the **Forgot Password** link to change
