@@ -15,7 +15,7 @@ The Rackspace Cloud Images service offers retrieval, storage, and metadata assig
 ###  Preparing images
 
 - [Preparing an image for import into the Rackspace open cloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud)
-- [Creating an Ubuntu 13.10 image for the Rackspace open cloud](/how-to/creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud)
+- [Create a server image for the Rackspace open cloud](/how-to/creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud)
 
 ###  Uploading and downloading images
 
