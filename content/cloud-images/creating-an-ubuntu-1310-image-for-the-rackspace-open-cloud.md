@@ -204,13 +204,13 @@ If your VM network requires static IPs, you must perform the following tasks:
 
 14. Import the image to the Rackspace cloud by using the Cloud Images API.
 
-    ### Prerequisites
+    **Prerequisites**
 
     - You have already uploaded the image to a container called **images** in
     the region where you want to import the image.
     - You have named your image *ubuntu1310v1.vhd**.
 
-    # Set your token to $TOKEN, tenantid to $TENANTID and endpoint to $IMAGESURL
+    Set your token to $TOKEN, tenantid to $TENANTID and endpoint to $IMAGESURL
         TOKEN="YOURTOKENHERE"
         TENANTID="YOURTENANTIDHERE"
         IMAGESURL="https://iad.images.api.rackspacecloud.com/v2"
@@ -218,7 +218,7 @@ If your VM network requires static IPs, you must perform the following tasks:
         # Create the import image task
         curl -s $IMAGESURL/tasks -X POST -H "X-Auth-Project-Id: $TENANTID" -H "Accept: application/json"  -H "Content-Type: application/json" -H "X-Tenant-Id: $TENANTID" -H "X-User-Id: $TENANTID" -H "X-Auth-Token: $TOKEN" -d '{"type": "import", "input": {"import_from": "images/ubuntu1310v1.vhd", "image_properties" : {"name": "Custom Ubuntu 13.10 v1"}}}'
 
-       The output of the above command (piped through `python -m json.tool`) is:
+    The output of the above command (piped through `python -m json.tool`) is:
 
         {
             "created_at": "2014-01-03T01:24:21Z",
@@ -238,10 +238,10 @@ If your VM network requires static IPs, you must perform the following tasks:
             "updated_at": "2014-01-03T01:24:21Z"
         }
 
-    Note the 'id' field of the task response above. You can use it to poll the
-    task to check on its status. A task is a complex asynchronous activity, so
-    you don't need to poll more often than every 30 seconds. Here's an example
-    of how to poll:
+    **Note:** the 'id' field of the task response above. You can use it to poll
+    the task to check on its status. A task is a complex asynchronous activity,
+    so you don't need to poll more often than every 30 seconds. Here's an
+    example of how to poll:
 
         # Check on the status of the import task
         curl -s $IMAGESURL/tasks/31f3e9c2-6b98-4f66-afdb-b249b24c82b4 -X GET -H "X-Auth-Project-Id: $TENANTID" -H "Accept: application/json"  -H "Content-Type: application/json" -H "X-Tenant-Id: $TENANTID" -H "X-User-Id: $TENANTID" -H "X-Auth-Token: $TOKEN" | python -mjson.tool
@@ -270,7 +270,7 @@ If your VM network requires static IPs, you must perform the following tasks:
             "updated_at": "2014-01-03T01:24:49Z"
         }
 
-    Now you can perform other image and server operations with your image:
+15. Now you can perform other image and server operations with your image:
 
         # Look at your new image
         supernova personal-iad image-show "Custom Ubuntu 13.10 v1"
