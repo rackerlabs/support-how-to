@@ -1,12 +1,12 @@
 ---
 permalink: creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud/
-audit_date:
-title: Create an Ubuntu 13.10 image for the Rackspace open cloud
+audit_date: '2017-02-27'
+title: Create a server image for the Rackspace open cloud
 type: article
 created_date: '2014-02-17'
 created_by: Cloud Images
-last_modified_date: '2016-04-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-02-27'
+last_modified_by: Cat Lookabaugh
 product: Cloud Images
 product_url: cloud-images
 ---
@@ -35,17 +35,14 @@ either expressed or implied, including, but not limited to, the
 implied warranties of merchantability and fitness for a
 particular purpose.
 
-The instructions are written so you can create and re-create the same VM
+The instructions are written so that you can create and re-create the same VM
 repeatedly as you perfect your image.
 
 **Note:** The scripts will automatically delete old VMs and templates that were
 created in previous runs.
 
-Ensure that the kickstart file you use installs the XenServer and nova agents
-together, or installs the cloud-init agent.
-
-**Note**: Cloud-init currently isn't working because of a bug with config-drive
-in OpenStack.
+Ensure that the kickstart file that you use either installs the XenServer and
+nova agents together, or installs the cloud-init agent.
 
 - The XenServer 6.2.0 tools ISO can be downloaded
   from: <http://boot.rackspace.com/files/xentools/xs-tools-6.2.0.iso>,
