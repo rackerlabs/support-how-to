@@ -211,6 +211,7 @@ If your VM network requires static IPs, you must perform the following tasks:
     - You have named your image *ubuntu1310v1.vhd**.
 
     Set your token to $TOKEN, tenantid to $TENANTID and endpoint to $IMAGESURL
+
         TOKEN="YOURTOKENHERE"
         TENANTID="YOURTENANTIDHERE"
         IMAGESURL="https://iad.images.api.rackspacecloud.com/v2"
