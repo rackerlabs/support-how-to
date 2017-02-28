@@ -5,8 +5,8 @@ title: Create a DKIM TXT record
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-04-13'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-02-22'
+last_modified_by: CarlDRacker
 product: Cloud DNS
 product_url: cloud-dns
 
