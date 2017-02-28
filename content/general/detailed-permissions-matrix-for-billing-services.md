@@ -1,6 +1,6 @@
 ---
 permalink: detailed-permissions-matrix-for-billing-services/
-audit_date:
+audit_date: '2017-02-28'
 title: Detailed permissions matrix for billing services
 type: article
 created_date: '2013-09-19'
@@ -43,12 +43,10 @@ Delete account VAT | **Admin only** | Deletes the Value Added Tax (VAT) code for
 Capability | Role | Description
 :---: | :---: | :---:
 Get payment method | **Observer & Admin** | Returns the payment method for the current account.
-Get payment methods | **Observer & Admin** | Returns a list of payment methods for the current account.
 Get default payment method | **Observer & Admin** | Returns the default payment method for the current account.
 Create payment method | **Admin only** | Creates a payment method for the current account.
 Set default payment method | **Admin only** | Sets the default payment method for the current account.
 Delete default payment method | **Admin only** | Deletes the default payment method for the current account.
-Get supported methods | **Observer & Admin** | Lists the supported method of payments.
 
 **Note:** Role-Based Access Control (RBAC) is enabled for the billing services level (BSL) and payment services level (PSL) only through the Cloud Control Panel. API access for BSL and PSL is not provided at this time.
 
