@@ -1,25 +1,23 @@
 ---
 permalink: using-putty-to-access-private-instances
 audit_date: 'yyyy-mm-dd'
-title: 'Using Putty To Access Private Instances'
+title: Using Putty to access a private instance
 type: article
-created_date: '2017-02-16'
-created_by: gustavo panizzo
-last_modified_date: '2017-02-16'
-last_modified_by: gustavo panizzo
+created_date: '2017-03-07'
+created_by: Gustavo Panizzo
+last_modified_date: '2017-03-07'
+last_modified_by: Nate Archer
 product: FAWS
-product_url: cloud-product
+product_url: faws
 ---
 
-Accessing a Private Instance using Putty and a Bastion Server
-
-Sometimes is needed to access an EC2, RDS or Elasticache instance from a workstation without [Passport](https://manage.rackspace.com/docs/product-guide/passport.html) or Site-to-Site VPN.
+You use Putty and a bastion server to access a private EC2, RDS or Elasticache instance from a workstation without [Passport](https://manage.rackspace.com/docs/product-guide/passport.html) or site-to-site VPN. 
 
 ### Prerequisites
 
-   - SSH access to a Linux instance that has Public IP (Bastion Server)
-   - Network access from the Bastion Server to the resource. SecurityGroups, Network ACL, credential have to allow access to the resource from the Bastion Server
-   - Putty
+   - SSH access to a Linux instance that has a public IP (Bastion server)
+   - Network access from the bastion server to the EC2, RDS, or Elasticache instance. Security groups and network access control credentials must allow access to the resource from the Bastion Server
+   - A Windows oberation system with Putty installed
 
 ### Procedure
 
