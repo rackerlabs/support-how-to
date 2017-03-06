@@ -1,6 +1,6 @@
 ---
 permalink: create-a-dkim-txt-record/
-audit_date:
+audit_date: '2017-03-06'
 title: Create a DKIM TXT record
 type: article
 created_date: '2012-07-24'
