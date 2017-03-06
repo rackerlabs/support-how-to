@@ -9,6 +9,7 @@ last_modified_date: '2017-02-22'
 last_modified_by: CarlDRacker
 product: Cloud DNS
 product_url: cloud-dns
+---
 
 **Note:** The method described in this article differs from the way DKIM is set up for
 Rackspace Hosted Email and Exchange customers. If you are a Rackspace Email, Hosted
