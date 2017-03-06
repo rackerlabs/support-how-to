@@ -11,11 +11,6 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-**Note:** The method described in this article differs from the way DKIM is set up for
-Rackspace Hosted Email and Exchange customers. If you are a Rackspace Email, Hosted
-Exchange, or Office 365 customer, contact the Rackspace Cloud Office team for help
-configuring the proper DKIM, DMARC, and SPF records.
-
 Domain Keys Identified Mail (DKIM) helps you protect your company from
 email spamming and phishing attempts. It provides a method for
 validating a domain name identity that is associated with a message
@@ -23,6 +18,11 @@ through cryptographic authentication.
 
 For a complete description of DKIM, see a recommended list of DKIM sites
 in the "External resources" section at the end of this article.
+
+**Note:** The method described in this article differs from the way DKIM is set up for
+Rackspace Hosted Email and Exchange customers. If you are a Rackspace Email, Hosted
+Exchange, or Office 365 customer, contact the Rackspace Cloud Office team for help
+configuring the proper DKIM, DMARC, and SPF records.
 
 The process of setting up DKIM involves the following tasks:
 
