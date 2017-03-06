@@ -7,8 +7,8 @@ created_date: '2017-03-07'
 created_by: Gustavo Panizzo
 last_modified_date: '2017-03-07'
 last_modified_by: Nate Archer
-product: FAWS
-product_url: faws
+product: Fanatical Support for AWS
+product_url: fanatical-support-for-aws
 ---
 
 You use Putty and a bastion server to access a private EC2, RDS or Elasticache instance from a workstation without [Passport](https://manage.rackspace.com/docs/product-guide/passport.html) or site-to-site VPN. 
