@@ -1,66 +1,93 @@
 ---
-permalink: transferring-images-between-regions-of-the-rackspace-open-cloud-with-pitchfork/
-audit_date:
-title: Transfer images between regions of the Rackspace open cloud with pitchfork
+permalink: transfer-server-images-between-cloud-regions-with-pitchfork/
+audit_date: '2017-03-07'
+title: Transfer server images between cloud regions with Pitchfork
 type: article
 created_date: '2017-02-20'
-created_by: Cloud Images
-last_modified_date: '2017-02-20'
-last_modified_by: Mo Nash
+created_by: Mo Nash
+last_modified_date: '2017-03-07'
+last_modified_by: Stephanie Fillmon
 product: Cloud Images
 product_url: cloud-images
 ---
 
-Meet Pitchfork - It was created by a [rather cleaver fellow](https://github.com/oldarmyc@Github) who made interacting with the Rackspace Cloud API super easy!
-This community article was written for folks who would like to to transfer Rackspace Cloud Server instance images between regions of the Rackspace cloud.
-*NOTE: For the image download/upload steps listed below I will be using another 3rd party software called [Cyberduck](https://cyberduck.io/) - you can still use a different opensource (free) software or the API directly - However, I will only be covering the methods used here, in this article*
+This article describes how to transfer Rackspace Cloud Servers instance images between regions of the Rackspace Cloud by using [Pitchfork](https://pitchfork.cloudapi.co/). Pitchfork is an interactive Rackspace Cloud API application that simplifies working with the Rackspace Cloud APIs. Using a browser, you can execute any Rackspace API command for any Cloud product without the need to get on a command line or use another CLI tool.
 
+**Note:** You can't transfer images larger than 50 GB, so check the size of the image before you start.
 
-Before we get into the details, we already assume that you have done the following:
-*SHOW-STOPPER: This cannot be done with images larger than 50GB - There's no way to transfer those... So, check the size of the image before you start!*
+### Getting started
 
--   Copy your username and API key, you'll need it to log into pitchfork.
-    -   If you're uncertain where to find it, check out this how-to article -> https://support.rackspace.com/how-to/view-and-reset-your-api-key/
+Before you can transfer the images, perform the following steps:
 
--   Create a (Cloud Files) "Image Export Container" - In the same DC/Region where the image that you want to transfer, currently lives. (Example Containername: DFW_IMG_ExportContainer) Then copy the name of the container (as it is case sensitive)
-    -   Then, create a (Cloud Files) "Image Import Container" - In the destination DC/Region, where you want to send the image to. (Example Containername: ORD_IMG_ImportContainer) Then copy the name of the container (as it is case sensitive)
-    -   If you're uncertain how to create the containers, check out this how-to article -> https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn/
-        
--   Find the image you want to send to another region, then copy that images' "UUID" alongside the .
-    -   PROTIP: An easy way to get the image UUID - In the Server Images section of the MyCloud Dashboard, hover over the image name (it's a hyperlink), a little box will appear after a second or two and you can copy the UUID from there.
+1. Open a new text file. You will be copying information into this file during the following steps.
 
--   As a result, you should have 5 items copied to your notepad - Your mycloud username, that users API key, the UUID of the image you want to transfer, the IMPORT container name and the EXPORT container name.
+2. Copy your Rackspace Cloud username and API key, which you'll need to log in to Pitchfork.
 
+   If you don't know your username or API key, use the instructions in [View and reset your API key](/how-to/view-and-reset-your-api-key) to fine them.
 
-Here are the steps on using completeing the image transfer:
--   Open a new browser tab and head to https://pitchfork.cloudapi.co/images/#export_task-images
+3. In Cloud Files, create containers for the image export and the image import:
 
--   Before you can actually use Pitchfork - Log into the application via the link at the top right of the page and select the region from the drop-down in the top left, that you are working in for the task.
-    -   NOTE: When I say "working in" for the task, it's relative to the task you're performing
-        -   Say you're EXPORTING the image for example, the region in the dropdown should match the DC/Region of where the image lives.
-        -   Adversely, when you get to the IMPORT task, you must remember to change the region before sending the API request.
+   - In the same region where the image that you want to transfer currently lives, create a container to export it to, and give the container a descriptive name, such as DFW_IMG_ExportContainer. Then copy the name of the container to the text file.
+   
+   - In the region to which you want to transfer the image, create a container to import the image to, and give the container a descriptive name, such as ORD_IMG_ImportContainer. Then copy the name of the container to the text file.
+   
+   For instructions on how to create a container, see [Getting started with Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn). 
 
--   The next step after logging in, is to EXPORT the image to the EXPORT container. You'll need the following details that you copied earlier:
-    -   The image UUID and the EXPORT container name
+4. Find the image that you want to transfer, and copy that image's UUID to the text file.
 
--   Once you input what you have into the correlating fields to send the API call, scroll down and you will see a "request-id" in the Response Body of the call.
-    -   NOTE: You can use the "request_id" to check the "status" of the EXPORT/IMPORT from https://pitchfork.cloudapi.co/images/#get_task_details-images
+   To find the image's UUID, go to the Saved Images section of the Cloud Control Panel, click the name of the image, and copy the ID value (for example, a6da1504-e1c04f40-8461-1ed9a9990e90).
+   
+You should have five items copied to yoru text file: your Rackspace Cloud username, the API key for that username, the export container name, the import container name, and the UUID of the image that you want to transfer. 
 
--   After the image has been exported to the container, you will need to download the image. I download and upload the image using Cyberduck
-    -   SIDE NOTE: As I mentioned in the preface, I use Cyberduck to perform the image download/upload as it's the easiest to use. You just plug in your username and API key, it saves it for you and will simplify everything with the image download and upload.
-    
--   After you have the entire image downloaded to your localhost, you will then need to upload it to the Image IMPORT Container at the destination DC/Region.
+Additionally, we recommend using a third-party application called Cyberduck to download and upload the image. You can, however, use a different open-source (free) application or use the API directly.
 
--   The last step comes after the image has finished uploading to the IMPORT container. Head back to Pitchfork at https://pitchfork.cloudapi.co/images/#import_task-images
-    -   Don't forget to change the destination DC/Region from the dropdown in the top left of the page, for the last leg of this image's journey. Once again, you'll need the those details that you copied earlier.
-    -   You'll want to get the IMPORT container name and the name of the uploaded image to input into the "import_from" field, making sure there's no spaces in what you put, before sending the API call.
+### Transfer the image
 
-After the API has had some time to proccess the image from the container to the available images (Once again you can use the request_id to confirm).
-    If everything went accordingly, the image will be listed and available for use in that DC/Region.
+1. Open a browser and go to https://pitchfork.cloudapi.co/images/#export_task-images.
+
+2. Log in to Pitchfork by clicking the link at the top right of the page and entering your Rackspace Cloud username and API key.
+
+3. From the **Region** list, select the region in which the image currently lives (from which you are exporting it).
+
+4. Export the image to the export container that you created.
+
+   a. In the API Calls list under Tasks, click **Post** for Export Task.
+   
+   b. For `image_id`, enter the image UUID.
+   
+   c. For `receiving_container`, enter the name of the export container that you created. 
+   
+   d. Click **Send API Call**.
+   
+5. Scroll down to the `request-id` parameter in the Response Body of the call.
+
+   You can use the value of `request-id` to check the status of the export and import from the Get Task Details API call.
+   
+6. After the image has been exported to the container, download the image to your local host.
+
+   **Tip:** Because of its ease-of-use, we recommend using Cyberduck to download and upload the image.
+
+7. After the image is downloaded, upload it to the import container in the destination region.
+
+8. After the impage is uploaded to the import container, import the image to the destination region:
+
+   a. Go to https://pitchfork.cloudapi.co/images/#import_task-images.
+   
+   b. In the **Region** list, select the region to which you are transferring the image.
+   
+   c. For the Import Task call, click **Post**.
+   
+   d. Enter the name of the image.
+   
+   e. Enter the import container name and the name of the uploaded image file in the `import_from` field. Do not enter any spaces.
+   
+   f. Click **Send API Call**.
+   
+While the API transfers the image from the container to the available images list, you can use the `request_id` value to confirm the progress. If the process is successful, the image is listed and available for use in the destination region.
 
 ### Related information
 
--   [Rackspace Cloud Images Developer Guide](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
+-   [Rackspace Cloud Images API information](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
 -   [Cloud Images FAQ](/how-to/cloud-images-faq)
 -   [Transferring images between regions of the Rackspace Open Cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud)
--   [Pitchfork @Github](https://github.com/oldarmyc/pitchfork)
+-   [Pitchfork on Github](https://github.com/oldarmyc/pitchfork)
