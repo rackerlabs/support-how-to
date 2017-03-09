@@ -73,7 +73,7 @@ Windows 10, Windows 8, Windows 7, and Windows Vista use User Account Control (UA
 5.  Press **Control-x**.
 6.  When asked if you want to save your changes, answer **y**.
 
-### Mac OS X 10.0 through 10.11
+### Mac OS X 10.0 through 10.12
 
 **Mac OS X 10.0 through 10.1.5**
 
