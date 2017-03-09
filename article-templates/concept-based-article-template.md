@@ -1,6 +1,6 @@
 ---
 permalink: article-title/
-audit_date: 'yyyy-mm-dd'
+audit_date:
 title: 'Article title'
 type: article
 created_date: 'yyyy-mm-dd'
@@ -11,11 +11,11 @@ product: Cloud Product
 product_url: cloud-product
 ---
 
-Provide a descriptive title for the article. Conceptual articles have a wide range of appropriate titles. If the article's purpose is to impart general information, a title such as "About regions" is appropriate. If the topic of the article could potentially result in action from the customer, a title such as "Using the Rackspace network effectively" is better.
+Provide a descriptive title for the article in the metadata above. Conceptual articles have a wide range of appropriate titles. If the article's purpose is to impart general information, a title such as "About regions" is appropriate. If the topic of the article could potentially result in action from the customer, a title such as "Using the Rackspace network effectively" is better.
 
-Begin the article by describing the concept that you want your audience to better understand. The primary audience for How-To content is Rackspace customers who might have varying levels of technical expertise.
+Begin the article by describing the concept that you want your audience to better understand. The primary audience for How-To content is Rackspace customers and Support staff, who might have varying levels of technical expertise.
 
-Write your article in Markdown. You can find Markdown guidelines at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
+Write your article in Markdown. For more information about writing in Markdown, see the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 For general writing guidelines, see the [contribution guidelines](https://github.com/rackerlabs/rackspace-how-to/blob/master/CONTRIBUTING.md).
 

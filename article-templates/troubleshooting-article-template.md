@@ -1,6 +1,6 @@
 ---
 permalink: article-title/
-audit_date: 'yyyy-mm-dd'
+audit_date:
 title: 'Article title'
 type: article
 created_date: 'yyyy-mm-dd'
@@ -11,13 +11,13 @@ product: Cloud Product
 product_url: cloud-product
 ---
 
-Provide a descriptive title for the article that begins with the imperative verb "Troubleshoot". For example: Troubleshoot remote access to SQL Server.
+Provide a descriptive title for the article that begins with the imperative verb "Troubleshoot" in the metadata above. For example: Troubleshoot remote access to SQL Server.
 
 Troubleshooting articles can be specific to an individual task, such as [Troubleshoot DNS issues](/how-to/troubleshooting-dns-issues), or can cover an entire product, such as [Troubleshoot Cloud Backup](/how-to/cloud-backup-troubleshooting).
 
-Begin the article by describing the issue that the user needs to solve. The primary audience for How-To content is Rackspace customers, who might have varying levels of technical expertise.
+Begin the article by describing the issue that the user needs to solve. The primary audience for How-To content is Rackspace customers and Support staff, who might have varying levels of technical expertise.
 
-Write your article in Markdown. You can find Markdown guidelines at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
+Write your article in Markdown. For more information about writing in Markdown, see the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 For general writing guidelines, see the [contribution guidelines](https://github.com/rackerlabs/rackspace-how-to/blob/master/CONTRIBUTING.md).
 
