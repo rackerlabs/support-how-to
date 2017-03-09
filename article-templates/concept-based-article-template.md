@@ -31,6 +31,8 @@ For guidance on when to use diagrams and screenshots, see the [Screenshot and di
 
 Any subtopics related to a concept should use the next level heading. Follow the preceding guidelines for subtopics.
 
+For example, in the conceptual article [Understanding logrotate utility](/how-to/understanding-logrotate-utility), the section on Configuration commands has several conceptual subtopics that give more detail about the varying commands used in logrotate configuration files.
+
 ### Next steps (optional)
 
 Include any links to articles that your audience should read next.
