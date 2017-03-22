@@ -30,7 +30,13 @@ For your documentation and auditing purposes, the Firewall Manager v2 has a chan
 3. Click the **Changle Log** tab on the left drop down menu.
 
   **Example 1.1:** Example location of the change log in the Firewall Manager v2
-<!-- Image "FWCPv2 Article 4 Image Change Log" --->
+  <!-- Image "FWCPv2 Article 4 Image Change Log" --->
+
+### Change log features
+
+The Firewall Manager v2 change log has an export function built into it. Click on the **_Export to .csv_** button. You can download the .csv or open it directly from the next screen prompt. Now you have the ability to look at your change log using your .csv viewer of choice.
+
+The change log also has a search bar built into it. This search bar modifies your change log view based off of the input values you add to it. You can search for keywords in any of the fields. This feature is commonly used to filter the output down to a single user or IP address for example.
 
 ### What information does the change log document?
 
@@ -47,4 +53,4 @@ The Firewall Manager v2 change log creates one new entry per task that is perfor
 - **_Details_** field: This field identifies addition details of the configuration element that was modified.
 
   **Example 1.2:** Example image of an active change log in the Firewall Manager v2
-<!-- Image "FWCPv2 Article 4 Image Example Change Log" --->
+  <!-- Image "FWCPv2 Article 4 Image Example Change Log" --->
