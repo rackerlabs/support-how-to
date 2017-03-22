@@ -22,3 +22,12 @@ https://support.rackspace.com/how-to/
 - Apr 10 - 14: Nate
 - Apr 17 - 21: Laura
 - Apr 24 - 28: Stephanie
+- May 1 - 5: Renée
+- May 8 - 12:
+- May 15 - 19:
+- May 22 - 26:
+- May 29 - Jun 2:Renée
+- Jun 5 - 9:
+- Jun 12 - 16:
+- Jun 19 - 23:
+- 26 - 30:
