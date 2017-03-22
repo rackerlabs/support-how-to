@@ -21,8 +21,30 @@ For your documentation and auditing purposes, the Firewall Manager v2 has a chan
 
 **Note:** If you would like to identify when or if changes have occurred to any of your platforms, please open a support ticket, and a Network Security Racker will complete this task for you.
 
+### Location of the change log
+
+1. Log in to the Firewall Manager v2 using the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) "How do I find the Firewall Manager v2?" section.
+
+2. Select the correct firewall from the list on the left by clicking on it.
+
+3. Click the **Changle Log** tab on the left drop down menu.
+
+  **Example 1.1** Example location of the change log in the Firewall Manager v2
+<!-- Image "FWCPv2 Article 4 Image Change Log" --->
+
 ### What information does the change log document?
 
 The Firewall Manager v2 change log creates one new entry per task that is performed. Each entry contains the following fields:
+
 - **_Date_** field: This field identifies the date in which the action was performed. You can click the arrow to alternate the sort from oldest to newest or newest to oldest. The default sort is from newest to oldest.
-- **_Changed By_** field: 
+
+- **_Changed By_** field: This field identifies who made the change. Only customer contacts who have edit or admin permissions on the firewall can execute changes. This field displays customer contacts as [first name] [last name]. If a Racker executes a change through the Firewall Manager v2, this field is documented as "Racker - [first name] [Last initial]". 
+
+- **_Action_** field: This field identifies the action that was executed. The possible actions are Create, Delete, or Add. Create defines that an configuration such as an object-group or port-group has been created. Delete defines that an object was removed from an object-group or port-group. Add defines that an access-list policy was added.
+
+- **_Item_** field: This field identifies what configuration element was modified. 
+
+- **_Details_** field: This field identifies addition details of the configuration element that was modified.
+
+  **Example 1.2** Example image of an active change log in the Firewall Manager v2
+<!-- Image "FWCPv2 Article 4 Image Example Change Log" --->
