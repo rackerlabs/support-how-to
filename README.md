@@ -30,4 +30,4 @@ https://support.rackspace.com/how-to/
 - Jun 5 - 9:
 - Jun 12 - 16:
 - Jun 19 - 23:
-- 26 - 30:
+- Jun 26 - 30:
