@@ -29,7 +29,7 @@ For your documentation and auditing purposes, the Firewall Manager v2 has a chan
 
 3. Click the **Changle Log** tab on the left drop down menu.
 
-  **Example 1.1** Example location of the change log in the Firewall Manager v2
+  **Example 1.1:** Example location of the change log in the Firewall Manager v2
 <!-- Image "FWCPv2 Article 4 Image Change Log" --->
 
 ### What information does the change log document?
@@ -46,5 +46,5 @@ The Firewall Manager v2 change log creates one new entry per task that is perfor
 
 - **_Details_** field: This field identifies addition details of the configuration element that was modified.
 
-  **Example 1.2** Example image of an active change log in the Firewall Manager v2
+  **Example 1.2:** Example image of an active change log in the Firewall Manager v2
 <!-- Image "FWCPv2 Article 4 Image Example Change Log" --->
