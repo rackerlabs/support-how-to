@@ -145,8 +145,8 @@ at [rpcsales@rackspace.com](mailto:rpcsales@rackspace.com).
 
 #### What devices are certified for Rackspace Private Cloud compute nodes?
 
-All devices certified for Ubuntu Server 14.04 LTS are certified for Rackspace
-Private Cloud. Refer to the
+All devices certified for Ubuntu Server 14.04 LTS and Ubuntu Server 16.04 LTS
+are certified for Rackspace Private Cloud. Refer to the
 [Ubuntu Server certified hardware page](http://www.ubuntu.com/certification/server/)
 for the full list.
 
