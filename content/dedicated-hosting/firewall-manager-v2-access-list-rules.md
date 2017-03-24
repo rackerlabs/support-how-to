@@ -17,7 +17,7 @@ To learn more about the tool, see [Firewall Manager v2](https://support.rackspac
 
 ### Firewall Manager v2 access-list theory and best practices
 
-**Warning:** Using this feature in Firewall Manager v2 requires prerequisite knowledge. To learn more about the prerequisite knowledge on access-list theory and best practices, see [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices).
+**Warning:** Using this feature in Firewall Manager v2 requires prerequisite knowledge. To learn more about the prerequisite knowledge on access-list theory and best practices, see the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
 ### Location of access-list rules
 
@@ -57,30 +57,32 @@ The Rules tab also has a search bar which modifies your display based on the val
 
 5. Fill out the **Add Rule** screen options
 
-  **Section 1:** Details 
+   **Section 1:** Details 
   
-  - **Rule List** - Select the correct access-list name you wish to add an access control entry to.
+       - **Rule List** - Select the correct access-list name you wish to add an access control entry to.
   
-  - **Name** - This is a required field. This name is stored in the Firewall Manager v2 only and is used for your documentation and auditing purposes.
+       - **Name** - This is a required field. This name is stored in the Firewall Manager v2 only and is used for your documentation and auditing purposes.
   
-  - **Rule Type** - Define either the action of permit or deny
+       - **Rule Type** - Define either the action of permit or deny
   
-  **Section 2:** Traffic coming from...
+   **Section 2:** Traffic coming from...
   
-  - **A single IP** - Enter a host IP address or search for a device number.
+       - **A single IP** - Enter a host IP address or search for a device number.
   
-  - **A CIDR IP** - Define a subnet range.
+       - **A CIDR IP** - Define a subnet range.
   
-  - **A group of IPs** - (Recommended option) - Select and existing object-group. If you need to create a new object-group first, see: [Firewall Manager v2 - Object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups).
+       - **A group of IPs** - (Recommended option) - Select and existing object-group. If you need to create a new object-group first, see: [Firewall Manager v2 - Object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups).
   
-  - **Any IP** - This option defines the source as any. If you are modifying the 101 access-list, 
+       - **Any IP** - This option defines the source as any. Before using the any value, please refer the Best practices section in the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article. 
   
-  **Section 3:** Traffic going to...
+   **Section 3:** Traffic going to...
   
-  - 
+       - The same four options exist from section 2 above.
   
-  **Section 4:** Using Protocol...
+   **Section 4:** Using Protocol...
   
-  - 
+       - **Protocol** - Select either TCP, UDP, or IP. (IP is the entire IP suite, which includes all TCP and UDP ports plus many more. Use caution when specifying this protocol.
+  
+       - ** test
   
    
