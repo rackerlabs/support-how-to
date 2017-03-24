@@ -17,7 +17,7 @@ To learn more about the tool, see [Firewall Manager v2](https://support.rackspac
 
 ### Firewall Manager v2 access-list theory and best practices
 
-To learn more about access-list theory and best practices, see [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices).
+**Warning:** To learn more about access-list theory and best practices, see [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices).
 
 ### Location of access-list rules
 
