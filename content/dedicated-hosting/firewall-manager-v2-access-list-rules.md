@@ -43,6 +43,22 @@ The Firewall Manager v2 rules has an export function. To use this feature, click
 
 The Rules tab also has a search bar which modifies your display based on the values you enter, such as a IP address or protocol.
 
+### Access-list rule execution order
+
+Cisco firewalls execute access-list rules in order from top to the bottom. If the customer request matches a rule, it stops processing the requests and performs the action. The Firewall Manager v2 always adds new access-list rules to the bottom of the access-list. Sometimes you will be required to change the execution order. Use these steps to perform this:
+
+1. Navigate to the **All Rules** tab.
+
+2. Click the cog action icon to the left of the execution order line number.
+
+3. Section the **Change order** option.
+
+4. Specific the line number to move this entry to. 
+
+   **Note:** The Firewall Manager v2 will not allow you to place rules above the highest redacted Rackspace intenral line. This is to prevent hindering our ability of accessing your environment and give you Fanatical Support.
+   
+   Also note that changing the execution order of a line require that line to be temporarily removed and re-added. This is due to a Cisco limitation. DO not change the execution order of a rule unless a blip in access for that rule is acceptable.
+
 ### Adding an access-list rule
 
 1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
@@ -57,32 +73,37 @@ The Rules tab also has a search bar which modifies your display based on the val
 
 5. Fill out the **Add Rule** screen options
 
-   **Section 1:** Details 
+   **Section 1: Details **
   
-      - **Rule List** - Select the correct access-list name you wish to add an access control entry to.
+      - Rule List - Select the correct access-list name you wish to add an access control entry to.
   
-      - **Name** - This is a required field. This name is stored in the Firewall Manager v2 only and is used for your documentation and auditing purposes.
+      - Name - This is a required field. This name is stored in the Firewall Manager v2 only and is used for your documentation and auditing purposes.
   
-      - **Rule Type** - Define either the action of permit or deny
+      - Rule Type - Define either the action of permit or deny
   
-   **Section 2:** Traffic coming from...
+   **Section 2: Traffic coming from...**
   
-      - **A single IP** - Enter a host IP address or search for a device number.
+      - A single IP - Enter a host IP address or search for a device number.
   
-      - **A CIDR IP** - Define a subnet range.
+      - A CIDR IP - Define a subnet range.
   
-      - **A group of IPs** - (Recommended option) - Select and existing object-group. If you need to create a new object-group first, see: [Firewall Manager v2 - Object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups).
+      - A group of IPs - (Recommended option) - Select and existing object-group. If you need to create a new object-group first, see: [Firewall Manager v2 - Object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups).
   
-      - **Any IP** - This option defines the source as any. Before using the any value, please refer the Best practices section in the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article. 
+      - Any IP - This option defines the source as any. Before using the any value, please refer the Best practices section in the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article. 
   
-   **Section 3:** Traffic going to...
+   **Section 3: Traffic going to...**
   
       - The same four options exist from section 2 above.
   
-   **Section 4:** Using Protocol...
+   **Section 4: Using Protocol...**
   
-      - **Protocol** - Select either TCP, UDP, or IP. (IP is the entire IP suite, which includes all TCP and UDP ports plus many more. Use caution when specifying this protocol.
+      - Protocol - Select either TCP, UDP, or IP. (IP is the entire IP suite, which includes all TCP and UDP ports plus many more. Use caution when specifying this protocol.)
   
-      - ** test
+      -  The same four options exist from section 2 above except it is referring to ports. Use extreme caution if you select any for the port. This is typically not the best security decision that could be made.
   
+6. Click **Next**.
+
+7. Click **Add to Firewall**.
+
+   Firewall Manager v2 interacts with your firewall and adds the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
    
