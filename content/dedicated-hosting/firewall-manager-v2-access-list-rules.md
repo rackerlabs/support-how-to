@@ -49,7 +49,7 @@ Cisco firewalls execute access-list rules in order from top to the bottom. If th
 
 1. Navigate to the **All Rules** tab.
 
-2. Click the cog action icon to the left of the execution order line number.
+2. Click the **cog action icon** to the left of the execution order line number.
 
 3. Section the **Change order** option.
 
@@ -57,7 +57,7 @@ Cisco firewalls execute access-list rules in order from top to the bottom. If th
 
    **Note:** The Firewall Manager v2 will not allow you to place rules above the highest redacted Rackspace intenral line. This is to prevent hindering our ability of accessing your environment and give you Fanatical Support.
    
-   Also note that changing the execution order of a line require that line to be temporarily removed and re-added. This is due to a Cisco limitation. DO not change the execution order of a rule unless a blip in access for that rule is acceptable.
+   **Warning:** Changing the execution order of a line require that line to be temporarily removed and re-added. This is due to a Cisco limitation. Do not change the execution order of a rule unless a blip in access for that rule is acceptable.
 
 ### Adding an access-list rule
 
@@ -65,7 +65,7 @@ Cisco firewalls execute access-list rules in order from top to the bottom. If th
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see access-list rules.
 
-    **Note:** When you first login to the Firewall Manager v2, the default screen is the All Rules tab.
+    If this is the first time in your session you have logged into the Firewall Manager v2, the default screen is the All Rules tab.
     
 3. Navigate to the **All Rules** tab.
 
@@ -107,3 +107,22 @@ Cisco firewalls execute access-list rules in order from top to the bottom. If th
 
    Firewall Manager v2 interacts with your firewall and adds the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
    
+8. The new access-list rule is added to the bottom of the access-list. If you require changing the line number of the execution order, follow the steps above in the section: **Access-list rule execution order**
+
+### Deleting an access-list rule
+
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+
+2. In the navigation pane on the left side of the panel, click the firewall for which you want to see access-list rules.
+
+    If this is the first time in your session you have logged into the Firewall Manager v2, the default screen is the All Rules tab.
+    
+3. Navigate to the **All Rules** tab.
+
+4. Locate the access-list rule to be deleted. Click the **cog action icon** to the left of the execution order line number.
+
+5. Select **Delete**.
+
+6. Click **Delete Rule**.
+
+   Firewall Manager v2 interacts with your firewall and deletes the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
