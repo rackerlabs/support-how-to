@@ -17,7 +17,7 @@ To learn more about the tool, see [Firewall Manager v2](https://support.rackspac
 
 ### Firewall Manager v2 access-list theory and best practices
 
-**Warning:** To learn more about access-list theory and best practices, see [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices).
+**Warning:** Using this feature in Firewall Manager v2 requires prerequisite knowledge. To learn more about the prerequisite knowledge on access-list theory and best practices, see [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices).
 
 ### Location of access-list rules
 
@@ -29,3 +29,58 @@ To learn more about the tool, see [Firewall Manager v2](https://support.rackspac
 
   **Example 1.1:** Example location of the access-list rules in Firewall Manager v2
   <!-- Image "FWCPv2 Article 6 Image Rules" --->
+
+### Rackspace internal lines
+
+In order for Rackspace to manage and monitor your environment properly, we need to have some configurations in place on your Cisco firewall. These configurations contain senstive Rackspace internal data and they have been redacted from your view in the Firewall Manager v2. This Rackspace line needs to remain at the top of your access-list to prevent issues. The Firewall Manager v2 will not allow you to place custom rules above the highest redacted line.
+
+**Example 1.2:** An example of what the redacted line looks like.
+<!-- Image "FWCPv2 Article 6 Redacted Line" --->
+
+### Access-list rules features
+
+The Firewall Manager v2 rules has an export function. To use this feature, click on the **Export to .csv** button. You can download the .csv or open it directly from the next screen prompt.
+
+The Rules tab also has a search bar which modifies your display based on the values you enter, such as a IP address or protocol.
+
+### Adding an access-list rule
+
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+
+2. In the navigation pane on the left side of the panel, click the firewall for which you want to see access-list rules.
+
+    **Note:** When you first login to the Firewall Manager v2, the default screen is the All Rules tab.
+    
+3. Navigate to the **All Rules** tab.
+
+4. Click the **Add Rule** button
+
+5. Fill out the **Add Rule** screen options
+
+  **Section 1:** Details 
+  
+  - **Rule List** - Select the correct access-list name you wish to add an access control entry to.
+  
+  - **Name** - This is a required field. This name is stored in the Firewall Manager v2 only and is used for your documentation and auditing purposes.
+  
+  - **Rule Type** - Define either the action of permit or deny
+  
+  **Section 2:** Traffic coming from...
+  
+  - **A single IP** - Enter a host IP address or search for a device number.
+  
+  - **A CIDR IP** - Define a subnet range.
+  
+  - **A group of IPs** - (Recommended option) - Select and existing object-group. If you need to create a new object-group first, see: [Firewall Manager v2 - Object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups).
+  
+  - **Any IP** - This option defines the source as any. If you are modifying the 101 access-list, 
+  
+  **Section 3:** Traffic going to...
+  
+  - 
+  
+  **Section 4:** Using Protocol...
+  
+  - 
+  
+   
