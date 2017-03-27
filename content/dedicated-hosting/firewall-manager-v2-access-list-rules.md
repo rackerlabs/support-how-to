@@ -15,9 +15,9 @@ Firewall Manager v2 is a new tool within the MyRackspace portal. This article de
 
 To learn more about the tool, see [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2).
 
-### Firewall Manager v2 access-list theory and best practices
+### Prerequisites
 
-**Warning:** Using this feature in Firewall Manager v2 requires some prerequisite knowledge. To learn more about the prerequisite knowledge on access-list theory and best practices, see the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
+Please read the article [Access-list theory and best practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) before using the access-list rules feature.
 
 ### Location of access-list rules
 
@@ -27,7 +27,6 @@ To learn more about the tool, see [Firewall Manager v2](https://support.rackspac
 
 3. Click **Rules**
 
-  **Example 1.1:** Example location of the Rules tab in the Firewall Manager v2
   <!-- Image "FWCPv2 Article 6 Image Rules" --->
 
 ### Rackspace internal lines
@@ -74,7 +73,7 @@ Cisco firewalls execute access-list rules in order from top to the bottom. If th
 
 4. Click **Add Rule**
 
-5. Fill out the **Add Rule** screen options
+5. Fill out the **Add Rule** screen options:
 
    **Section 1: Details**
   
@@ -117,7 +116,7 @@ Cisco firewalls execute access-list rules in order from top to the bottom. If th
 
 7. Click **Add to Firewall**.
 
-   Firewall Manager v2 interacts with your firewall and adds the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
+    Firewall Manager v2 interacts with your firewall and adds the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
    
 8. The new access-list rule is added to the bottom of the access-list. If you require changing the line number of the execution order, follow the steps above in the section: **Access-list rule execution order**
 
