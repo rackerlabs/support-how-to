@@ -10,12 +10,6 @@ https://support.rackspace.com/how-to/
 
 ### How-to ninja support schedule
 
-
-- Jan 2 - 6: Laura
-- Jan 9 - 13: Renée
-- Jan 16 - 20: Nate
-- Jan 23 - 27: Stephanie
-- Jan 30 - Feb 3: Laura
 - Feb 6 - 10: Renée
 - Feb 13 - 17: Laura
 - Feb 20 -24: Nate
@@ -24,3 +18,16 @@ https://support.rackspace.com/how-to/
 - Mar 13 -17: Stephanie
 - Mar 20 - 24: Nate
 - Mar 27 - 31: Laura
+- Apr 3 - 7:Renée
+- Apr 10 - 14: Nate
+- Apr 17 - 21: Laura
+- Apr 24 - 28: Stephanie
+- May 1 - 5: Renée
+- May 8 - 12:
+- May 15 - 19: Stephanie
+- May 22 - 26:
+- May 29 - Jun 2:Renée
+- Jun 5 - 9:
+- Jun 12 - 16: Stephanie
+- Jun 19 - 23:
+- Jun 26 - 30:
