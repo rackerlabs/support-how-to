@@ -17,7 +17,7 @@ To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager
 
 ### Prerequisite
 
-Before you use the access-list rules feature, read the Firewall Manager v2 [access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
+Before you use the access-list rules feature, read the [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
 ### View access-list rules
 
