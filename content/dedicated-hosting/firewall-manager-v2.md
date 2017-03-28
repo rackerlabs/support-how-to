@@ -62,5 +62,5 @@ The following articles provide detailed information about Firewall Manager v2 fe
 - [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups)
 - [Firewall Manager v2 port-objects](/how-to/firewall-manager-v2-port-groups)
 - [Firewall Manager v2 change log](/how-to/firewall-manager-v2-change-log)
-- [Firewall Manager v2 - access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
-- [Firewall Manager v2 - access-list rules](/how-to/firewall-manager-v2-access-list-rules)
+- [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
+- [Firewall Manager v2 access-list rules](/how-to/firewall-manager-v2-access-list-rules)
