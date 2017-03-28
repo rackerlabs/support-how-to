@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a new tool within the MyRackspace portal. This article describes the port-group feature within this tool.
 
-To learn more about the tool, see [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
 
 ### What is a port-group?
 
@@ -35,7 +35,7 @@ In Firewall Manager v2, you can now view, modify, and delete any port-group on y
 
 ### View port-groups
 
-1. Log in to the Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+1. Log in to the Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see port-groups.
 
