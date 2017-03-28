@@ -1,7 +1,7 @@
 ---
 permalink: firewall-manager-v2-access-list-theory-and-best-practices/
 audit_date:
-title: 'Firewall Manager v2 access-list theory and best practices'
+title: Firewall Manager v2 access-list theory and best practices
 type: article
 created_date: '2017-03-23'
 created_by: Trevor Becker
@@ -31,7 +31,7 @@ An access control entry (ACE) is an individual entry in an ACL. ACEs are referre
 
 ### Access-list best practices and recommendations
 
-The security of your Rackspace environment begins at your Cisco firewall. Misconfigurations in network access policies on your firewall can lead to unwanted network exposure and potential compromise. To remain secure and follow compliance requirements, use the following best practices and recommondations:
+The security of your Rackspace environment begins at your Cisco firewall. Misconfigurations in network access policies on your firewall can lead to unwanted network exposure and potential compromise. To remain secure and follow compliance requirements, use the following best practices and recommendations:
 
    - Minimize the size of the source and destination traffic in your access-list rules when possible. Be as specific as possible. Do not define the destination as **any** (your entire Rackspace environment) when only one destination server needs to be accessed.
 

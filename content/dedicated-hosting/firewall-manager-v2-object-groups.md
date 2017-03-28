@@ -1,7 +1,7 @@
 ---
 permalink: firewall-manager-v2-object-groups/
 audit_date: '2017-03-23'
-title: Firewall Manager v2 Object-groups
+title: Firewall Manager v2 object-groups
 type: article
 created_date: '2017-03-21'
 created_by: Trevor Becker
@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a new tool within the MyRackspace portal. This article describes the object-group feature within this tool.
 
-To learn more about the tool, see [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
 
 ### What is an object-group?
 
@@ -32,7 +32,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can no
 
 #### View object-groups
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see object-groups.
 
@@ -56,7 +56,7 @@ You can also search the contents of an object-group. This feature enables you to
 
 3. In the **Group Name** field, type the name of the object-group.
 
-    We recommend using a name that directly relates to the access that this object-group will grant. We also recommend using all uppercase letters with dashes separating word groups. For example, if an object-group will be used to give John Doe SSH access to the web servers over TCP port 22, you might name the object-group JOHNDOE-WEBSRVS-22.
+    We recommend using a name that directly relates to the access that this object-group will grant. We also recommend using all uppercase letters with dashes separating word groups. For example, if an object-group will be used to give John Doe SSH access to the web servers over TCP port 22, you might name the object-group `JOHNDOE-WEBSRVS-22`.
 
 4. To add IP hosts or subnet ranges to the group, click **Add IP(s)**.
 
