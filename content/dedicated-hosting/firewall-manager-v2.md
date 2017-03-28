@@ -23,11 +23,13 @@ Firewall Manager, commonly referred to as the Firewall Control Panel (FWCP), is 
 
 2. In the top navigation bar, click **Network** > **Firewall Manager v2**.
 
-<!--- IMAGE "Dropdown -->
+    <img src="{% asset_path dedicated-hosting/firewall-manager-v2/dropdown.png %}" alt="" />
 
 ### Firewall User Agreement
 
 Rackspace requires each customer contact who attempts to use Firewall Manager to accept the Firewall User Agreement terms. These terms are prompted for each device, every 90 days. Only customer contacts who have edit or admin permissions on firewalls are permitted to make modifications. When the customer contact accepts the terms, a confirmation email is sent to the customer contact and primary contact. If the customer contact chooses not to accept the terms, that contact can only view their firewall configuration.
+
+<img src="{% asset_path dedicated-hosting/firewall-manager-v2/user-agreement.png %}" alt="" />
 
 ### Firewall Manager v2 features
 
@@ -41,7 +43,7 @@ These feature enhancements provide the following new abilities:
 - Create, modify, and delete any object-group and port-group, including groups not beginning with "FWCP-"
 - Update VPN encryption domains
 - View and manage documentation of public and private IP address on servers through the integration of the IP mapping tool
- 
+
 **Existing features include the ability to**:
 
 - View the hit count numbers and add comments to ACE lines
@@ -55,7 +57,7 @@ These feature enhancements provide the following new abilities:
 
 ### Firewall Manager v2 detailed resources
 
-The following articles provide detailed information about Firewall Manager v2 features and how to use them: 
+The following articles provide detailed information about Firewall Manager v2 features and how to use them:
 
 - [Firewall Manager v2 - object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups)
 - [Firewall Manager v2 - port-objects](https://support.rackspace.com/how-to/firewall-manager-v2-port-groups)
