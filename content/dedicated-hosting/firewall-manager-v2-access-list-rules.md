@@ -1,8 +1,8 @@
 ---
 permalink: firewall-manager-v2-access-list-rules/
 audit_date: '2017-03-28'
-title: Firewall Manager v2 - access-list rules
-type: product
+title: Firewall Manager v2 access-list rules
+type: article
 created_date: '2017-03-24'
 created_by: Trevor Becker
 last_modified_date: '2017-03-24'
@@ -13,15 +13,15 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a new tool within the MyRackspace portal. This article describes the access-list rule feature within this tool.
 
-To learn more about the tool, see [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
 
 ### Prerequisite
 
-Before you use the access-list rules feature, read the Firewall Manager v2 [access-list theory and best practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
+Before you use the access-list rules feature, read the Firewall Manager v2 [access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
 ### View access-list rules
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see access-list rules.
 
@@ -33,7 +33,7 @@ Before you use the access-list rules feature, read the Firewall Manager v2 [acce
 
 ### Rackspace internal lines
 
-For Rackspace to manage and monitor your environment properly, we must have some configurations in place on your Cisco firewall. These configurations contain sensitive Rackspace internal data, and the access-list rule that contains them has been hidden from your view in Firewall Manager v2. Because the hidden Rackspace line must remain at the top of your access-list to prevent
+For Rackspace to manage and monitor your environment properly, we must have some configurations in place on your Cisco firewall. These configurations contain sensitive Rackspace internal data, and the access-list rule that contains them has been hidden from your view in Firewall Manager v2. Because the hidden Rackspace line must remain at the top of your access-list to prevent issues. Firewall Manager v2 does not allow you to place custom rules above this line.
 
 Following is an example of how the hidden line is indicated in the access-list:
 
@@ -41,7 +41,7 @@ Following is an example of how the hidden line is indicated in the access-list:
 
 ### Access-list rule features
 
-The Firewall Manager v2 access-list rules feature has an export function. To use this function, clickthe **Export to .csv** button. You can download the .csv file or open it directly from the next screen prompt.
+The Firewall Manager v2 access-list rules feature has an export function. To use this function, click the **Export to .csv** button. You can download the .csv file or open it directly from the next screen prompt.
 
 The Rules page also has a search function that filters the rules which modifies your display based on the values you enter.
 
@@ -68,9 +68,9 @@ Firewall Manager v2 always adds new access-list rules to the end of the access-l
 
 ### Adding an access-list rule
 
-Before you add an access-list rule, be sure to read and understand all of the best practices documented in the  [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
+Before you add an access-list rule, be sure to read and understand all of the best practices documented in the  [Firewall Manager v2 theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to add an access-list rules.
 
@@ -96,9 +96,9 @@ Before you add an access-list rule, be sure to read and understand all of the be
 
       - A CIDR IP: Define a subnet range.
 
-      - A group of IPs: This is the recommended option. Select an existing object-group. If you need to create a new object-group first, see [Firewall Manager v2 - object-groups](https://support.rackspace.com/how-to/firewall-manager-v2-object-groups).
+      - A group of IPs: This is the recommended option. Select an existing object-group. If you need to create a new object-group first, see [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups).
 
-      - Any IP: This option defines the source as **any**. Before choosing this option, refer to the best practices section in the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
+      - Any IP: This option defines the source as **any**. Before choosing this option, refer to the best practices section in the [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
       <img src="{% asset_path dedicated-hosting/firewall-manager-v2-access-list-rules/image-traffic-coming-from.png %}" />
 
@@ -120,7 +120,7 @@ Before you add an access-list rule, be sure to read and understand all of the be
 
 ### Delete an access-list rule
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to delete an access-list rules.
 
