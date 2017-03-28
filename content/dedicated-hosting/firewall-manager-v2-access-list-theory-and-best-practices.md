@@ -1,7 +1,7 @@
 ---
 permalink: firewall-manager-v2-access-list-theory-and-best-practices/
 audit_date:
-title: 'Firewall Manager v2 access-list theory and best practices'
+title: Firewall Manager v2 access-list theory and best practices
 type: article
 created_date: '2017-03-23'
 created_by: Trevor Becker
