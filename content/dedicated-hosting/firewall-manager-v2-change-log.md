@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a new tool within the MyRackspace portal. This article describes the change log feature within this tool.
 
-To learn more about the tool, see [Firewall Manager v2](https://support.rackspace.com/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
 
 ### What is the change log?
 
@@ -53,5 +53,3 @@ The Firewall Manager v2 change log creates one new entry per task that is perfor
 - **Item**: The configuration element that was modified.
 
 - **Details**: Additional information about the configuration element that was modified.
-
-  
