@@ -27,7 +27,7 @@ Before you use the access-list rules feature, read the Firewall Manager v2 [acce
 
 3. Under **Rules**, click **All Rules**.
 
-  <!-- Image "FWCPv2 Article 6 Image Rules" --->
+    <img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-rules.png %}" />
 
    The Rules page shows the rules for the access-list on the selected tab. To view the rules for a different access-list, click the its tab.
 
@@ -36,7 +36,8 @@ Before you use the access-list rules feature, read the Firewall Manager v2 [acce
 For Rackspace to manage and monitor your environment properly, we must have some configurations in place on your Cisco firewall. These configurations contain sensitive Rackspace internal data, and the access-list rule that contains them has been hidden from your view in Firewall Manager v2. Because the hidden Rackspace line must remain at the top of your access-list to prevent
 
 Following is an example of how the hidden line is indicated in the access-list:
-<!-- Image "FWCPv2 Article 6 Redacted Line" --->
+
+<img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-redacted-line.png %}" />
 
 ### Access-list rule features
 
@@ -58,7 +59,7 @@ Firewall Manager v2 always adds new access-list rules to the end of the access-l
 
 3. Section the **Change order** option.
 
-<!-- Image "FWCPv2 Article 6 Line number" --->
+    <img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-line-number.png %}" />
 
 4. Specify the line number to move this entry to.
 
@@ -87,7 +88,7 @@ Before you add an access-list rule, be sure to read and understand all of the be
 
    - Rule Type: Specify whether the rule allows (permits) traffic or blocks (denies) traffic.
 
-   <!-- Image "FWCPv2 Article 6 section 1" --->
+    <img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-details.png %}" />
 
 6. On the **Traffic coming from** page, select one of the following options for incoming traffic, provide the necessary information, and then click **Next**:
 
@@ -99,7 +100,7 @@ Before you add an access-list rule, be sure to read and understand all of the be
 
       - Any IP: This option defines the source as **any**. Before choosing this option, refer to the best practices section in the [Firewall Manager v2 - Theory and Best Practices](https://support.rackspace.com/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
-      <!-- Image "FWCPv2 Article 6 section 2" --->
+      <img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-traffic-coming-from.png %}" />
 
 7. On the **Traffic going to**, select one of the options for outgoing traffic, provide the necessary information, and then click **Next**. The options are the same as those shown for incoming traffic.
 
@@ -109,7 +110,7 @@ Before you add an access-list rule, be sure to read and understand all of the be
 
    -  The same options provided on preceding pages for IP addresses are provided here for ports. Use extreme caution if you select **any** for the port, which is typically not a good security decision.     
 
-    <!-- Image "FWCPv2 Article 6 section 4" --->
+    <img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-using-protocol.png %}" />
 
 9. Click **Add to Firewall**.
 
@@ -127,6 +128,6 @@ Before you add an access-list rule, be sure to read and understand all of the be
 
 4. Click the gear icon next to the line number of the rule that you want delete, and select **Delete**.
 
-    <!-- Image "FWCPv2 Article 6 delete rule" --->
+    <img src="{% asset_path dedicated-hosting/firewall-manager-v2/image-delete.png %}" />
 
     Firewall Manager v2 interacts with your firewall and deletes the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
