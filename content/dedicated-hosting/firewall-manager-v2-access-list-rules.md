@@ -1,6 +1,6 @@
 ---
 permalink: firewall-manager-v2-access-list-rules/
-audit_date:
+audit_date: '2017-03-28'
 title: Firewall Manager v2 - access-list rules
 type: product
 created_date: '2017-03-24'
