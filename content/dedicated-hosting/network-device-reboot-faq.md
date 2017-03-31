@@ -4,7 +4,7 @@ audit_date: '2017-01-16'
 title: Network device reboot FAQ
 type: article
 created_date: '2017-01-16'
-created_by: Trevor Becker
+created_by: Aaron Hackney and Trevor Becker
 last_modified_date: '2017-01-16'
 last_modified_by: Trevor Becker
 product: Dedicated Hosting
