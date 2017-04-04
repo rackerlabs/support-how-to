@@ -5,13 +5,33 @@ title: Add Rackspace Email mailboxes
 type: article
 created_date: '2011-12-18'
 created_by: Rackspace Support
-last_modified_date: '2017-01-04'
-last_modified_by: Laura Santamaria
+last_modified_date: '2017-04-04'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
 You can add a single mailbox to your Rackspace Email account or add multiple mailboxes by using a CSV or Microsoft Excel file.
+
+If the **Add Mailbox** button is inactive, you must add the necessary licenses to your account before you can add any mailboxes.
+
+<img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/rackspace-email-greyed-out-button.png %}" alt="" />
+
+1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
+
+2.	In the **Go to section** list, choose **Rackspace Email**.
+
+3.	Click the **Email Accounts** tab.
+
+4.	If you have multiple domains, select the appropriate domain name.
+
+5.	Click the **Upgrade this plan** link.
+
+6.	In the appropriate section, add the number of mailboxes that you need.
+
+7.	Click **Continue**.
+
+8.	If the order summary looks correct, click **Complete Order**.
 
 ### Add a single mailbox
 
@@ -86,21 +106,3 @@ To add multiple mailboxes at once, create a CSV or Excel file with the mailbox i
 9.	Click **Open** and then **Import**.
 
 The mailboxes appear in the list. Any errors that occur are detailed in the import log.
-
-### Add licenses
-
-1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
-
-2.	In the **Go to section** list, choose **Rackspace Email**.
-
-3.	Click the **Email Accounts** tab.
-
-4.	If you have multiple domains, select the appropriate domain name.
-
-5.	Click the **Upgrade this plan** link.
-
-6.	In the appropriate section, add the number of mailboxes that you need.
-
-7.	Click **Continue**.
-
-8.	If the order summary looks correct, click **Complete Order**.

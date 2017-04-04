@@ -16,6 +16,6 @@ To set up Webmail Mobile Sync with your Rackspace Email account on your mobile d
 3. On the Mobile Sync page, select the users to activate by selecting the check box next to the user email adress, or you can select **Add Mobile Sync to all mailboxes on this domain**
 4. Click **Save**.
 
-    <img src="{% asset_path rackspace-email/adding-a-mobile-sync-license/webmail2.png %}" alt="" />
+
 
 For more information about setting up email on mobile devices, see [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings).
