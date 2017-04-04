@@ -5,7 +5,7 @@ title: Hidden base images
 type: article
 created_date: '2013-11-04'
 created_by: Amanda Clark
-last_modified_date: '2017-03-21'
+last_modified_date: '2017-04-04'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -27,6 +27,7 @@ Arch 2013.9 | ba293687-4af0-4ccb-99e5-097d83f72dfe | 2014-03-05 | Replaced by Ar
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
+CentOS 5 (PV) | a5fe0925-869f-4bc2-bd0a-328929c66839 | 2017-03-31 | No longer supported by the CentOS Project. This image was the last image of this version published.
 CentOS 5.9 | 59c037c1-70ec-41e4-aa17-73a9b0cb6b16 | 2014-03-05 | Replaced by CentOS 5.10.
 CentOS 6.4 | f70ed7c7-b42e-4d77-83d8-40fa29825b85 | 2014-02-20 | Replaced by CentOS 6.5.
 
