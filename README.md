@@ -29,5 +29,5 @@ https://support.rackspace.com/how-to/
 - May 29 - Jun 2:Renée
 - Jun 5 - 9: Cat
 - Jun 12 - 16: Stephanie
-- Jun 19 - 23:
+- Jun 19 - 23: Laura
 - Jun 26 - 30:
