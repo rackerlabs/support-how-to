@@ -36,3 +36,5 @@ You can find instructions on how to set up this service using our [Help Tool](ht
 
 5. When asked "*How would you like to connect to the mail server?*", select the **Mobile Sync** button. 
 <!--insert mobile sync setup 4.PNG-->
+
+6. Follow the instructions which are customized to your specific device type.
