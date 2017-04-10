@@ -539,9 +539,6 @@ distribution's maintainers will no longer support it or supply package updates
 via their official repositories. You want to plan your migration to a newer
 release well before your current release reaches its EOL.
 
-For an example, Ubuntu's Raring Ringtail (13.04) release reached its EOL on
-January 27, 2014.
-
 Use the following links to find out when your Linux distribution release will
 reach its EOL:
 
