@@ -5,25 +5,24 @@ title: Linux server security best practices
 type: article
 created_date: '2014-07-16'
 created_by: Christoph Champ and Reese McJunkin
-last_modified_date: '2017-02-16'
-last_modified_by: Laura Santamaria
+last_modified_date: '2017-04-11'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The first step after creating a Linux cloud server should be to set the security
+The first step after you create a Linux cloud server should be to set the security
 on it. This crucial step must be performed on every server to prevent hackers
 from obtaining unwanted access. The result is a more secure environment that
 helps prevent you and your business from being hacked. Performing these basic
 steps and hardening the security on your server *should* make hackers give up
 and move on to a new target.
 
-### Best practices for Linux user management
+### User management
 
-By default, every Linux system has the root user created as the first user. The
+By default on every Linux system, the root user is created as the first user. The
 root user should be used only for the initial configuration of the system and
-should then be disabled via Secure Shell (SSH) (see the "Linux SSH
-configuration" section for more information). Disabling this root user via SSH
+should then be disabled via Secure Shell (SSH). Disabling this root user via SSH
 makes it harder for a hacker to gain access to the system. Because the root user
 is created by default on every Linux server, hackers already have half the
 information they need to log in to your server if the root user is enabled via
@@ -62,7 +61,7 @@ guidelines advocated by proponents of software system security:
 
 #### Add a user (Debian and Ubuntu)
 
-1.  Create a new user and set the user's password.
+1.  Create a new user and set the user's password:
 
         adduser {username}
 
@@ -87,11 +86,11 @@ guidelines advocated by proponents of software system security:
         su {username}
         sudo iptables -L
 
-    You will be asked to enter the new user's password for verification before
-    the command will be executed.
+    You are asked to enter the new user's password for verification before
+    the command is executed.
 
-If you got a bunch of lines about INPUT and OUTPUT, the new user now has sudo
-permissions and you can proceed to the next section. You should log in to this
+If several lines about INPUT and OUTPUT appeared, the new user has sudo
+permissions and you can skip to the next section. You should log in with
 user instead of root whenever possible. Using `sudo` will help you avoid making
 inadvertent system changes, and your changes will be logged for future
 reference.
