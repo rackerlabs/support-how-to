@@ -7,8 +7,8 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2016-02-09'
 last_modified_by: Joe Ashcraft
-product: Cloud Sites
-product_url: cloud-sites
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 La modificación de su archivo de hosts le permitirá anular el DNS para un dominio, en esa máquina en particular. Esto se puede utilizar para evaluar su sitio sin el enlace de prueba, antes de salir en vivo con SSL, verificar que el alias de un sitio funcione antes de los cambios de DNS, o para otras razones relacionadas con el DNS. Esto hace que su máquina local solo busque directamente en el IP especificado.
