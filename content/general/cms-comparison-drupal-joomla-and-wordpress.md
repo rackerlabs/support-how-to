@@ -7,8 +7,8 @@ created_date: '2011-03-27'
 created_by: Rackspace Support
 last_modified_date: '2016-07-18'
 last_modified_by: Stephanie Fillmon
-product: Cloud Sites
-product_url: cloud-sites
+product: undefined
+product_url: undefined
 ---
 
 If you need to create a website for your business, you might be wondering which content management system (CMS) is the best choice for you. This article compares three of the most widely-used ones: Drupal, Joomla, and WordPress. All three are open-source software, each developed and maintained by a community of thousands, and all are free to download and use. The open-source format means that their platforms are continuously being improved to support new Internet technologies, and basic functions can be continuously enhanced with an ever-expanding array of add-ons, contributed from their respective communities.
