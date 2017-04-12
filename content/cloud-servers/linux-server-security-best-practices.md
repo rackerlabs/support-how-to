@@ -478,7 +478,7 @@ To check for and install updates on Ubuntu and Debian systems, run the following
     sudo apt-get update
     sudo apt-get upgrade
 
-To check for and install updates on CentOS, Red Hat, and Fedora systems, run the following commands:
+To check for and install updates on CentOS, Red Hat, and Fedora systems, run the following command:
 
     sudo yum update
 
