@@ -452,7 +452,6 @@ Fail2ban monitors logs and automatically blocks connections if it sees too many
 from the same host in a short period of time. To set up and configure Fail2ban
 on your server, see [Basic Cloud Server security](/how-to/basic-cloud-server-security)
 
-
 ### Intrusion detection
 
 An intrusion detection system (IDS) can help an administrator monitor systems
