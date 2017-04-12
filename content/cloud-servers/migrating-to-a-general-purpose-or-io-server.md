@@ -5,8 +5,8 @@ title: Migrate to a General Purpose or I/O server
 type: article
 created_date: '2013-10-03'
 created_by: Jered Heeschen
-last_modified_date: '2016-09-12'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2017-04-12'
+last_modified_by: Brian King
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -36,12 +36,7 @@ General Purpose server. (Similarly, images can be taken only from the system dis
 General Purpose server; images cannot be saved for any data disks attached).
 
 Image-based migration to a General Purpose server is not possible for Standard servers with
-more than 1 GB of memory because of the larger disk allotment on those servers. Some 1 GB
-and smaller servers might also be ineligible for image migration; for example, if a server
-was resized, that can affect an image's minimum disk size requirement.
-
-Images are restricted to the region in which they were created. General Purpose servers can
-currently be created in the IAD, ORD, DFW, SYD, and LON regions.
+more than 4 GB of memory because of the larger disk allotment on those servers.
 
 The simplest way to find out if you can use an image-based migration is to try it. Create
 an image of your server (you can use the steps in
@@ -50,12 +45,7 @@ for guidance), and then try to restore the image to a new server. If the image s
 large for a General Purpose server system disk, you won't have the option to create a General
 Purpose server.
 
-If an image-based migration works, we recommend using that approach. For a reliable migration,
-we recommend stopping any running applications before you create the image that you plan
-to restore to the new server.
-
-If you're unable to use image-based migration, read the following sections to prepare for
-a manual migration of your data.
+If an image-based migration works, we recommend using that approach. 
 
 ### Manual migration
 
@@ -109,8 +99,10 @@ include one or more data disks. You can also attach Cloud Block Storage volumes 
 When choosing the size of your server, consider your current needs and any scaling you might
 need to do in the future.
 
-General Purpose and I/O-optimized servers can't be resized, so adding and removing storage
-space via Cloud Block Storage are the only changes that you can make to their capabilities.
+I/O-optimized servers can't be resized, so adding and removing storage
+space via Cloud Block Storage are the only changes that you can make to their capabilities. 
+General Purpose servers can only resize up, and their maximum size is 8 GB RAM/160 GB HDD.
+
 For a single-server environment, you must migrate to a new server if your RAM or CPU
 requirements change.
 
@@ -121,8 +113,8 @@ you can easily add or remove servers to account for fluctuating load requirement
 
 Some example environments can be found in [our article on open cloud reference architectures](/how-to/rackspace-open-cloud-reference-architecture).
 
-**Note:** You can't take a snapshot of a General Purpose server data disk, so to back up
-data disks you must rely on Rackspace Cloud Backup or a similar file-based backup approach.
+**Note:** If you are current using "Performance" servers, please note that the data disk(s) are not captured
+when you create an image, so to back up data disks you must rely on Rackspace Cloud Backup or a similar file-based backup approach.
 If you want your additional storage to be more portable or need to be able to take data
 snapshots, consider [adding one or more Cloud Block Storage volumes](/how-to/create-and-attach-a-cloud-block-storage-volume)
 to the new server.
