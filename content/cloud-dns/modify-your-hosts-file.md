@@ -7,8 +7,8 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2016-06-08'
 last_modified_by: Nate Archer
-product: Cloud Sites
-product_url: cloud-sites
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 Modifying your **hosts** file enables you to override the DNS for a domain, on that particular machine. This is useful when you want to test your site without the test link, prior to going live with SSL; verify that an alias site works, prior to DNS changes; and for other DNS-related reasons. Modifying your **hosts** file causes your local machine to look directly at the IP address specified.

@@ -7,8 +7,8 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2016-02-09'
 last_modified_by: Joe Ashcraft
-product: Cloud Sites
-product_url: cloud-sites
+product: Cloud DNS
+product_url: cloud-dns
 ---
 
 Modificar seu arquivo hosts permite que voc&ecirc; substitua o dom&iacute;nio DNS em uma determinada m&aacute;quina. Isso pode ser usado para avaliar o seu site sem o link de teste antes de ir ao vivo com o SSL, verificar se o alias de um local funciona antes de altera&ccedil;&otilde;es de DNS, ou por outros motivos relacionados com o DNS. Isso faz com que sua m&aacute;quina local somente se conecte diretamente com o IP especificado.
