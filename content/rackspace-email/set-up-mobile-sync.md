@@ -25,18 +25,18 @@ You can find instructions on how to set up this service by using our Help Tool.
 
 2. Under Support Tools, tap **Set Up My Email**.
 
-   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile sync setup 1.PNG %}" />
+   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile-sync-setup-1.PNG %}" />
 
 3. Depending on the device you are setting up, tap either **Phone** or **Tablet**.
 
-   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile sync setup 2.PNG %}" />
+   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile-sync-setup-2.PNG %}" />
 
 4. Select the operating system of your mobile device. If applicable, select the version or manufacturer on the subsequent screen.
 
-   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile sync setup 3.PNG %}" />
+   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile-sync-setup-3.PNG %}" />
 
 5. When asked "How would you like to connect to the mail server?", tap the **Mobile Sync** button.
 
-   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile sync setup 4.PNG %}" />
+   <img src="{% asset_path rackspace-email/set-up-mobile-sync/mobile-sync-setup-4.PNG %}" />
 
 6. Follow the instructions which are customized to your specific device type.
