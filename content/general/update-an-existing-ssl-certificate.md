@@ -7,8 +7,8 @@ created_date: '2011-08-16'
 created_by: Chris Farmer
 last_modified_date: '2016-06-23'
 last_modified_by: Kyle Laffoon
-product: Cloud Sites
-product_url: cloud-sites
+product: undefined
+product_url: undefined
 ---
 
 Updating your existing SSL Certificate is a quick and simple process.
