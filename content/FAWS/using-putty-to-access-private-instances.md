@@ -1,51 +1,47 @@
 ---
-permalink: using-putty-to-access-private-instances
-audit_date: 'yyyy-mm-dd'
-title: Using Putty to access a private instance
+permalink: access-a-private-rds-instance-with-putty
+audit_date:
+title: Access a private RDS instance with Putty
 type: article
 created_date: '2017-03-07'
 created_by: Gustavo Panizzo
-last_modified_date: '2017-03-07'
+last_modified_date: '2017-04-13'
 last_modified_by: Nate Archer
 product: Fanatical Support for AWS
 product_url: fanatical-support-for-aws
 ---
 
-You use Putty and a bastion server to access a private EC2, RDS or Elasticache instance from a workstation without [Passport](https://manage.rackspace.com/docs/product-guide/passport.html) or site-to-site VPN. 
+Rackspace builds your Fanatical Support for AWS (FAWS) environment on private networks. Therefore, if a customer uses as RDS database in their environment, that database must be accessed through a site-to-site VPN, or through Rackspace's  [Passport](https://manage.rackspace.com/docs/product-guide/passport.html) service which is included at Aviator service level.
+
+Customers without access to Passport or site-to-site VPN can access their RDS private instance with Putty, using the following steps:
 
 ### Prerequisites
 
-   - SSH access to a Linux instance that has a public IP (Bastion server)
-   - Network access from the bastion server to the EC2, RDS, or Elasticache instance. Security groups and network access control credentials must allow access to the resource from the Bastion Server
-   - A Windows oberation system with Putty installed
+Accessing your private instance requires the following:
 
-### Procedure
+   - SSH access to a Linux EC2 instance with a public IP address. This instance can be an EC2 instance within your Rackspace environment or your own AC2 instance
+   - Network access to the RDS instance you want to access. For more information on FAWS user management, see [User management and permissions](https://manage.rackspace.com/docs/product-guide/access_and_permissions/user_management_and_permissions.html)
+   - A local machine with windows and Putty installed
+   - A MySQL appliance such as MySQL Workbench.
 
-1. Connect to the bastion server, perform any validation needed, proxy, etc.  
-2. Second click on the window title, a menu will open.  
-3. On the menu select "Change Settings"  
-4. On the left side tree select Connection -> SSH -> Tunnels  
-5. On Source port configure a port that is not used on your local machine 
-   Example, don't use 3306 if you run MySQL on your workstation, don't use 1433 if you use MSSQL on your workstation, don't use 80 & 443 if you use IIS on your workstation, don't use 3389, etc.  
-6. On Destination write down the DNS Name of the RDS/ElastiCache/EC2 instance and the port you want to to connect to, For example for RDS MySQL rb1ppr6elwqc49x.cksdepeaehqd.ap-southeast-1.rds.amazonaws.com:3306  
-7. Click on Add  
-8. Click on Apply  
-9. Go to Windows Firewall and Open the port you choose in the step 5  
-10. Configure your tool to connect to 127.0.0.1 on the port you specify on the step 5  
+### Connect to to private RDS instance
 
-### Troubleshooting
+1. Connect to your EC2 instance using SSH. If you are using an EC2 instance inside your Rackspace FAWS environment, you can find your public IP address for the EC2 instance by logging into the [FAWS control panel](https://login.rackspace.com/). This instance acts as your bastion server.
 
-If you cannot connect, verify that the Security Groups on the resource and the Bastion Server allow to connect from the Bastion Server to the Private Resource  
+2. Inside the FAWS control panel, find the host name for the RDS instance you want to access <!---Where in the control panel can users find the host name--->.
 
+3. Open Putty, right click the main screen and select **Change settings**.
 
-If you still can't connect, the Source Port may be in use  
+4. Select **Tunnels** under SSH.
 
-On Putty
+5. In the destination box, paste the RDS instance hostname followed by `:3306`. `3006` is the source port used to access the RDS instance.
 
-1. Second click on the window title, a menu will open.  
-2. On the menu select "Change Settings"  
-3. On the left side tree select Connection -> SSH -> Tunnels  
-4. Select the Forwarded port and click on Remove.  
-5. Create the Forwarded port again using a different Source Port  
+   <!---What source port should a user use if they are not using MySQL?--->
 
+6. Click **Add** > **Apply**.
 
+7. Open your MySQL appliance, and click **Connect to database**.
+
+8. Enter hostname `127.0.0.1` followed by the username and password provided to you by Rackspace. Click **Save password**.
+
+   You can now access files inside your RDS database using the MySQL appliance.
