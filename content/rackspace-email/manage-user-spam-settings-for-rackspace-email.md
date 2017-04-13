@@ -6,7 +6,7 @@ type: article
 created_date: '2011-03-18'
 created_by: Rackspace Support
 last_modified_date: '2017-04-13'
-last_modified_by: Cory Aldrich
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
 ---
