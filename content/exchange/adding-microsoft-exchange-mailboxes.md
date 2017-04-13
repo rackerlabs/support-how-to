@@ -5,7 +5,7 @@ title: Add Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2016-05-17'
+last_modified_date: '2017-04-13'
 last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
@@ -14,6 +14,24 @@ product_url: exchange
 You can create a single Microsoft Exchange mailbox by using the Cloud Office Control Panel
 to enter all the information, or you can add multiple Microsoft Exchange boxes
 by using the Cloud Office Control Panel to import that information from a .CSV file.
+
+If the **Add Mailbox** button is inactive, you must add the necessary licenses to your account before you can add any mailboxes.
+
+<img src="{% asset_path exchange/adding-microsoft-exchange-mailboxes/inactive-button-add-exchange-mailbox.png %}" alt="" />
+
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com) using your Rackspace Cloud Office admin ID and password.
+
+2. In the **Go to section** list, choose **Microsoft Exchange**.
+
+3. If you have multiple domains, select the appropriate domain name.
+
+4. Click the **Upgrade this plan** link.
+
+5. In the appropriate section, add the number of mailboxes that you need.
+
+6. Click **Continue**.
+
+7. If the order summary looks correct, click **Complete Order**.
 
 ### Add one Exchange mailbox
 
