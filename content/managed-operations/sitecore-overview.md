@@ -1,11 +1,11 @@
 ---
 permalink: sitecore-overview/
 audit_date:
-title: Sitecore Overviewq
+title: Sitecore Overview
 type: article
 created_date: '2017-04-04'
 created_by: Juan Garza
-last_modified_date: '2017-04-04'
+last_modified_date: '2017-04-12'
 last_modified_by: Nate Archer
 product: Managed Operations
 product_url: managed-operations
