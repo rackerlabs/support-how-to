@@ -28,6 +28,10 @@ If you want to make changes to your Sitecore environment, log in to the [Azure p
 
 **Note:** You can not delete your application or website through the Azure portal. To delete your application, contact [Rackspace Support](https://www.rackspace.com/en-us/information/contactus).
 
+### Set deployment credentials
+
+### Deploy using FTP
+
 ### Log in to Sitecore
 
 In order to login into Sitecore, you need the URL for your content management website.
