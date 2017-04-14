@@ -1,7 +1,7 @@
 ---
 permalink: sitecore-overview/
 audit_date:
-title: Sitecore Overview
+title: Sitecore Cloud portals and account management
 type: article
 created_date: '2017-04-04'
 created_by: Juan Garza
@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-Customers using Managed Environments for Sitecore are given a fully customizable dedicated environment designed by experts at Rackspace, allowing you to focus on producing the best web content for your application or website
+Customers using Managed Environments for Sitecore Cloud are given a fully customizable dedicated environment designed by experts at Rackspace, allowing you to focus on producing the best web content for your application or website
 
 While Rackspace manages your Sitecore environment, access to three portals give you greater control and direction over your Sitecore environment and website.
 
