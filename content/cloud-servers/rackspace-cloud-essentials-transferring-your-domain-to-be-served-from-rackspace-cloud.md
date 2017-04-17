@@ -30,8 +30,7 @@ Rackspace IS a provider of world-class Cloud Hosting services on demand
 backed by our commitment to Fanatical Support. What we are NOT is a
 Domain Registrar like [Namecheap](http://www.namecheap.com/),
 [Dreamhost](http://dreamhost.com/domains/), or
-[GoDaddy](http://www.godaddy.com/). The only time that Rackspace acts
-as a Domain Registrar is if you are using our [Cloud Sites service](/how-to/getting-started-with-cloud-sites-registering-andor-transferring-domain-names).
+[GoDaddy](http://www.godaddy.com/).
 
 So in order to host a domain from your Cloud Server, you will need to
 have already registered it at a domain registrar, and then transfer it
