@@ -5,8 +5,8 @@ title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-02-25'
-last_modified_by: Steve Croce
+last_modified_date: '2017-04-17'
+last_modified_by: Stephanie Fillmon
 product: Cloud Databases
 product_url: cloud-databases
 ---
