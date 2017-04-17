@@ -30,9 +30,6 @@ permalink: /
 					<div class="three columns icon servers primary">
 						<h4><a href="/how-to/cloud-servers/"><span>Cloud</span> Servers</a></h4>
 					</div>
-					<div class="three columns icon sites">
-						<h4><a href="/how-to/cloud-sites/"><span>Cloud</span> Sites</a></h4>
-					</div>
 					<div class="three columns icon images">
 						<h4><a href="/how-to/cloud-images/"><span>Cloud</span> Images</a></h4>
 					</div>
