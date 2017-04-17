@@ -1,5 +1,5 @@
 ---
-permalink: sitecore-overview/
+permalink: sitecore-cloud-portals-and-account-management/
 audit_date:
 title: Sitecore Cloud portals and account management
 type: article
@@ -26,7 +26,9 @@ While Rackspace manages your Sitecore environment, access to three portals give 
 The MyRackspace provides the log in credentials for both the Azure and Sitecore portals. While these credentials are typically sent through a link in the Welcome email received after you signed up, you can also find the credentials inside a support ticker in the MyRackspace portal. To find this ticket:
 
 1. Log in to the [MyRackspace portal](https://my.rackspace.com/portal/).
+
 2. Click **Support** in the top navigation bar and select **Create or View a Ticket** in the pop-up window.
+
 3. Click on your Account in the top navigation bar, and in the drop-down menu, select **Support Tickets**.
 
 4. You will see a list displaying your currently open tickets, and a tab with the option to view your closed tickets. Each ticket entry displays the name, the date it was last updated, the ticket status, and ticket ID number. Azure and Sitecore portal credentials are found in the very first ticket opened on the account.
@@ -50,6 +52,8 @@ The Azure portal contains the URL for the content management site. This URL is u
 
 1. Log in to the [Azure portal](https://portal.azure.com/) using the credentials sent to you by Rackspace.
 
+  <img src="{% asset_path managed-operations/sitecore-cloud-portals-and-account-management/azure-login.png %}" alt=""  />   
+
 2. Select **Resource Groups**. A list of resource groups appears. Select the resource group containing the Sitecore application you wish to access.
 
 3. In the device list select the device named similary to `appname-cm`. The device type should be **App Service**.
@@ -61,6 +65,8 @@ The Azure portal contains the URL for the content management site. This URL is u
 The Sitecore portal manages the content of your website or application. It does manage your environment, which is managed through the Azure portal.
 
 1. Enter the URL of your content management website to verify the site loads. The URL should look similar to **http://gsdk-cm.azurewebsites.net/**. You can find the URL by logging in to the Azure portal.
+
+   <img src="{% asset_path managed-operations/sitecore-cloud-portals-and-account-management/sitecore-login.png %}" alt=""  />   
 
 2. Add `/sitecore/login` to the URL to open the Sitecore login page. The URL should look similar to **https://gsdk-cm.azurewebsites.net/sitecore/login**.
 
