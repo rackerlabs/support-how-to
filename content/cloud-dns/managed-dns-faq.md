@@ -65,10 +65,6 @@ For example, it is possible to configure a Managed DNS (Early Access) zone with 
 
 **Note:** The Managed DNS (Early Access) service will be subject to unscheduled downtime for maintenance, upgrades, and testing during this initial phase and therefore should not be used for any production applications, zones (domains), or subdomains.
 
-#### Does Managed DNS (Early Access) work with Rackspace Cloud Sites?
-
-Managed DNS (Early Access) and Rackspace Cloud Sites domain and DNS management are not integrated, nor are they compatible.
-
 #### How does Managed DNS (Early Access) work for Rackspace Hybrid customers?
 
 A Hybrid customer who may or may not be using MyRackspace.com to manage Dedicated account domains, using Cloud DNS to manage Cloud account domains, or both, can also choose to participate in the Early Access phase for Managed DNS.
