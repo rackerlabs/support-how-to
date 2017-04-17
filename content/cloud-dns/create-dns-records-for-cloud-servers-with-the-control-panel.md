@@ -5,7 +5,7 @@ title: Create DNS Records for cloud servers with the Control Panel
 type: article
 created_date: '2012-07-13'
 created_by: Rackspace Support
-last_modified_date: '2016-04-13'
+last_modified_date: '2017-04-17'
 last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns
@@ -16,9 +16,6 @@ product_url: cloud-dns
 This article provides instructions for creating a DNS zone for your
 domain and adding basic A, MX, and CNAME records by using the Cloud
 Control Panel.
-
-To learn more about A, MX, and CNAME records for Cloud Sites, see
-[Getting started with Cloud Sites - Managing DNS records](/how-to/getting-started-with-cloud-sites-managing-dns-records).
 
 ### DNS servers for cloud servers
 

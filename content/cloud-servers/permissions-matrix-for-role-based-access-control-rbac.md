@@ -19,7 +19,7 @@ The RBAC permissions matrix displays the type of product roles, **Admin**, **Cre
 
 **Note:** Admin and Observer are *global roles*, which apply across all RBAC-enabled cloud products.
 
-The following products are not RBAC-enabled: Cloud Sites, RackConnect, and Mailgun.
+The following products are not RBAC-enabled: RackConnect and Mailgun.
 
 ### Product Roles
 

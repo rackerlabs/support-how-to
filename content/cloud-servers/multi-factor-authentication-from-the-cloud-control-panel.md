@@ -5,7 +5,7 @@ title: Multi-factor authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2016-07-07'
+last_modified_date: '2017-04-17'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -57,15 +57,6 @@ complete the setup process.
     not implemented through the Rackspace Cloud Identity 2.0 API. For
     information about using multi-factor authentication with
     MyRackspace, see [MyRackspace Two-Factor Authentication](/how-to/myrackspace-two-factor-authentication).
-
--   You cannot configure multi-factor authentication from the Cloud
-    Sites Control Panel. However, if you set up multi-factor
-    authentication for your Rackspace Cloud account using the [Cloud Control Panel](https://mycloud.rackspace.com/), the configuration
-    also applies to your Cloud Sites account. Multi-factor
-    authentication can only be enabled for the main account user login;
-    sub-account user logins are not able to use this feature. In
-    addition, FTP user accounts (main or sub) cannot use
-    multi-factor authentication.
 
 -   When multi-factor authentication is enabled for an account, it is
     enabled only for authentication via username and password
