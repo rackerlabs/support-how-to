@@ -56,9 +56,12 @@ The Azure portal contains the URL for the content management site. This URL is u
 
 2. Select **Resource Groups**. A list of resource groups appears. Select the resource group containing the Sitecore application you wish to access.
 
-3. In the device list select the device named similary to `appname-cm`. The device type should be **App Service**.
+3. In the device list select the device named similarly to `{appname}-cm`. The device type should be **App Service**.
 
 4. On the app service overview screen, you can find the content management website url under *URL*.
+
+   <img src="{% asset_path managed-operations/sitecore-cloud-portals-and-account-management/cm-azure-url.png %}" alt=""  />   
+
 
 ### Sitecore portal
 
