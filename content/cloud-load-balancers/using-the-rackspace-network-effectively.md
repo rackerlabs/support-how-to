@@ -36,7 +36,7 @@ offer the first level of network security. For example if you're not
 expecting external traffic to your Cloud Servers, you can create a
 firewall around them and reduce their exposure to outside threats. Note
 that Rackspace creates all new servers with basic security settings,
-however you should follow the instructions located in [Configuring Basic Security](/how-to/configuring-basic-security)to
+however you should follow the instructions located in [Configuring Basic Security](/how-to/configuring-basic-security) to
 further protect your data.
 
 ### Finding the Rackspace IP address
