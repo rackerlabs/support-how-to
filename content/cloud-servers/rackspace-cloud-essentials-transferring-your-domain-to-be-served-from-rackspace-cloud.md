@@ -5,7 +5,7 @@ title: Rackspace Cloud Essentials - Transferring Your Domain to be Served from R
 type: article
 created_date: '2012-03-07'
 created_by: Rackspace Support
-last_modified_date: '2016-07-08'
+last_modified_date: '2017-04-17'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
