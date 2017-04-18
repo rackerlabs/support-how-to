@@ -70,7 +70,7 @@ disks or Cloud Block Storage volumes on the new server to accommodate all of you
 
 When you are setting up data disks or Cloud Block Storage volumes, check the sizes of
 the directories on your origin server. This information can help you plan your data's
-organization on the new server: what data goes go on the system disk and what data
+organization on the new server: what data goes on the system disk and what data
 will be stored on the additional volumes.
 
 On Linux, you can determine the disk space used by files and directories in the current
@@ -131,8 +131,8 @@ for more information.
 For instructions on formatting and mounting data disks on General Purpose or I/O-optimized
 servers, see the following article that is appropriate for your server's operating system:
 
-- [Prepare a data disks on a Windows Cloud Servers](/how-to/preparing-data-disks-on-windows-cloud-servers)
-- [Prepare a data disks on a Linux Cloud Servers](/how-to/preparing-data-disks-on-linux-cloud-servers)
+- [Prepare data disks on a Windows Cloud Servers](/how-to/preparing-data-disks-on-windows-cloud-servers)
+- [Prepare data disks on a Linux Cloud Servers](/how-to/preparing-data-disks-on-linux-cloud-servers)
 
 If you are setting up attached volumes in a software RAID on Linux, see the
 [Linux Software-RAID HOWTO](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html) for instructions.
