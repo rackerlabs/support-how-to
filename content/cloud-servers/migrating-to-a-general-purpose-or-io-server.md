@@ -113,7 +113,7 @@ you can easily add or remove servers to account for fluctuating load requirement
 
 Some example environments are provided in our article on [open cloud reference architectures](/how-to/rackspace-open-cloud-reference-architecture).
 
-**Note:** If you are current using a Performance servers, please note that the data disks are not captured
+**Note:** If you are currently using Performance servers, please note that the data disks are not captured
 when you create an image. To back up data disks you must rely on Rackspace Cloud Backup or a similar file-based backup approach.
 If you want your additional storage to be more portable or need to be able to take data
 snapshots, consider [adding one or more Cloud Block Storage volumes](/how-to/create-and-attach-a-cloud-block-storage-volume)
