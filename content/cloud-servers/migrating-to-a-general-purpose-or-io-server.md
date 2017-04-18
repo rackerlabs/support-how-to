@@ -5,7 +5,7 @@ title: Migrate to a General Purpose or I/O server
 type: article
 created_date: '2013-10-03'
 created_by: Jered Heeschen
-last_modified_date: '2017-04-12'
+last_modified_date: '2017-04-18'
 last_modified_by: Brian King
 product: Cloud Servers
 product_url: cloud-servers
@@ -17,12 +17,12 @@ be a straightforward process with some planning and preparation.
 
 ### Preparation
 
-For detailed advice on preparing a server for  migration, see the recommendations
+For detailed advice on preparing a server for migration, see the recommendations
 in [Prepare to migrate a Linux server](/how-to/prepare-to-migrate-a-linux-server) or [Prepare to migrate a Windows server](https://support.rackspace.com/how-to/prepare-to-migrate-a-windows-server/). In
 particular, you can reduce the amount of data to be migrated by deleting old installers,
 rotating logs, and removing old cache and session files.
 
-You can also find a  list of items to consider before migrating in the
+You can also find a list of items to consider before migrating in the
 [Before you move to General Purpose or I/O server checklist](/how-to/before-you-move-to-general-purpose-or-io-cloud-server-checklist).
 
 If you plan to remove files from your server to speed up your migration, we recommend that
@@ -30,19 +30,14 @@ you create a backup first to ensure that no essential data is lost.
 
 ### Image-based migration
 
-The easiest way to migrate an existing server to a General Purpose server is to migrate an
-image of the existing server. A server image can be restored only to the system disk of a
-General Purpose server. (Similarly, images can be taken only from the system disk of a
-General Purpose server; images cannot be saved for any data disks attached).
+The easiest way to migrate an existing server to a General Purpose server is to make an image of your current server and deploy a new General Purpose server from that image.
 
-Image-based migration to a General Purpose server is not possible for Standard servers with
-more than 4 GB of memory because of the larger disk allotment on those servers.
+An image from a Classic or Standard server can build a General Purpose server that is one size larger. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or larger, you can’t perform an image-based migration because of the larger disk allotment on the older flavors. If you have an older Linux server, you might be able to resize it down to 4 GB or smaller and then create an image that will build a General Purpose server.
 
-To find out if you can use an image-based migration is to try it, create
-an image of your server (use the steps in
+To test whether or not image of your server is too large, use the steps in
 [this article](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
-for guidance), and then try to restore the image to a new server. If the image size is too
-large for a General Purpose server system disk, you won't have the option to create a General
+to try and restore the image to a new server. If the image size is too
+large for a General Purpose server, you won't have the option to create a General
 Purpose server.
 
 If an image-based migration works, we recommend using that approach. 
@@ -63,12 +58,11 @@ To check disk space used on Linux, run the following command:
 
 To check disk space used on Windows, check the properties for the **C:** drive.
 
-If you require more space than is provided by the system disk, you need to use data
-disks or Cloud Block Storage volumes on the new server to accommodate all of your data.
+If you require more than 160 GB (the maximum disk size for a General Purpose flavor), you need to use Cloud Block Storage volumes on the new server to accommodate all of your data.
 
 #### Identify directory requirements
 
-When you are setting up data disks or Cloud Block Storage volumes, check the sizes of
+When you are setting up Cloud Block Storage volumes, check the sizes of
 the directories on your origin server. This information can help you plan your data's
 organization on the new server: what data goes on the system disk and what data
 will be stored on the additional volumes.
@@ -93,7 +87,7 @@ When you create the destination server, consider your storage requirements as we
 memory, CPU, and network requirements.
 
 If you have more data than will fit on the new server's system disk, decide whether you
-want to use one or more data disks, or attach Cloud Block Storage volumes to the
+want to use one or more data disks (I/O flavor only), or attach Cloud Block Storage volumes to the
 server.
 
 When choosing the size of your server, consider your current needs and any scaling you might
@@ -119,7 +113,7 @@ If you want your additional storage to be more portable or need to be able to ta
 snapshots, consider [adding one or more Cloud Block Storage volumes](/how-to/create-and-attach-a-cloud-block-storage-volume)
 to the new server.
 
-#### Format and configure any data disks
+#### Format and configure any Cloud Block Storage volumes or data disks
 
 After you create your server, prepare any attached data disks or Cloud Block Storage volumes
 by formatting them and configuring the system to use them.
@@ -128,7 +122,7 @@ If you've attached Cloud Block Storage volumes, see
 [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume)
 for more information.
 
-For instructions on formatting and mounting data disks on General Purpose or I/O-optimized
+For instructions on formatting and mounting data disks on I/O-optimized
 servers, see the following article that is appropriate for your server's operating system:
 
 - [Prepare data disks on a Windows Cloud Servers](/how-to/preparing-data-disks-on-windows-cloud-servers)
@@ -137,7 +131,7 @@ servers, see the following article that is appropriate for your server's operati
 If you are setting up attached volumes in a software RAID on Linux, see the
 [Linux Software-RAID HOWTO](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html) for instructions.
 
-When your attached disks ready, you can migrate your data.
+When your attached disks are ready, you can migrate your data.
 
 ### Other manual migration options
 
