@@ -32,7 +32,7 @@ you create a backup first to ensure that no essential data is lost.
 
 The easiest way to migrate an existing server to a General Purpose server is to make an image your current server and deploy a new General Purpose server from that image.
 
-An image from a Classic or Standard server image can build a larger general General Purpose server. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or above, you can not perform image-based migration due to the larger disk allotment on the older flavors. If you have an older Linux server, you might be able to resize down to 4 GB or smaller, then create an image that builds a General Purpose server.
+An image from a Classic or Standard server can build a General Purpose server that is one size larger. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or larger, you can’t perform an image-based migration because of the larger disk allotment on the older flavors. If you have an older Linux server, you might be able to resize it down to 4 GB or smaller, and then create an image that will build a General Purpose server.
 
 To test whether or not image of your server use the steps in
 [this article](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
