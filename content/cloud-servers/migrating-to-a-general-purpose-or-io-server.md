@@ -17,12 +17,12 @@ be a straightforward process with some planning and preparation.
 
 ### Preparation
 
-For detailed advice on preparing a server for  migration, see the recommendations
+For detailed advice on preparing a server for migration, see the recommendations
 in [Prepare to migrate a Linux server](/how-to/prepare-to-migrate-a-linux-server) or [Prepare to migrate a Windows server](https://support.rackspace.com/how-to/prepare-to-migrate-a-windows-server/). In
 particular, you can reduce the amount of data to be migrated by deleting old installers,
 rotating logs, and removing old cache and session files.
 
-You can also find a  list of items to consider before migrating in the
+You can also find a list of items to consider before migrating in the
 [Before you move to General Purpose or I/O server checklist](/how-to/before-you-move-to-general-purpose-or-io-cloud-server-checklist).
 
 If you plan to remove files from your server to speed up your migration, we recommend that
@@ -30,13 +30,13 @@ you create a backup first to ensure that no essential data is lost.
 
 ### Image-based migration
 
-The easiest way to migrate an existing server to a General Purpose server is to image your current server and deploy a new General Purpose server from image.
+The easiest way to migrate an existing server to a General Purpose server is to make an image your current server and deploy a new General Purpose server from that image.
 
- An image from a Classic or Standard server can build a server that is "next size up" in General Purpose. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or above, you cannot do an image-based migration due to the larger disk allotment on the older flavors. If you have an older Linux server, you may be able to resize down to 4 GB or smaller, then create an image that will build a General Purpose server.
+An image from a Classic or Standard server image can build a larger general General Purpose server. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or above, you can not perform image-based migration due to the larger disk allotment on the older flavors. If you have an older Linux server, you might be able to resize down to 4 GB or smaller, then create an image that builds a General Purpose server.
 
-The easiest way to test whether or not  image of your server (use the steps in
+To test whether or not image of your server use the steps in
 [this article](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
-for guidance), and then try to restore the image to a new server. If the image size is too
+for guidance, then try to restore the image to a new server. If the image size is too
 large for a General Purpose server, you won't have the option to create a General
 Purpose server.
 
