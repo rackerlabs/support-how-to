@@ -1,7 +1,7 @@
 ---
-permalink: before-you-move-to-general-purpose-or-io-cloud-server-checklist/
-audit_date:
-title: Before you move to General Purpose or I/O Cloud Server (checklist)
+permalink: considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/
+audit_date: '2017-04-21'
+title: Considerations for migrating to a General Purpose or I/O cloud server
 type: article
 created_date: '2013-11-04'
 created_by: David Hendler
