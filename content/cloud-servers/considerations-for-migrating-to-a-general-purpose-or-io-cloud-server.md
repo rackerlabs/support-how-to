@@ -25,16 +25,22 @@ downtime or DNS changes.
 
 ### Premigration actions
 
--   Migrating from "Standard" or "Classic" flavors
-    - An image from a Classic or Standard server can build a General Purpose server that is one size larger. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or larger, you can’t perform an image-based migration because of the larger disk allotment on the older flavors. If you have an older Linux server, you might be able to resize it down to 4 GB or smaller, and then create an image that will build a General Purpose server.
+**Migrating from "Standard" or "Classic" flavors**
 
--  Migrating from "Performance" flavors 
-    - Any Performance server image can build a General Purpose server. However, 2 GB and larger Performance servers have a data disk that is not captured when you image the server. Thus, you must copy the data from the data disks manually via rsync, Robocopy or some other method.
-    
--  Understand how resizing works
-    - General Purpose servers can resize, but only up, and only to a maximum size of 8 GB RAM/160 GB system disk. Rather than resizing (scaling vertically), we recommend scaling horizontally (adding multiple cloud servers) which increases the fault tolerance of your application.
-    - Standard and Classic servers can resize up to 30 GB RAM/1.2 TB system disk. 
-    
--   If you use Cloud Backup, ensure that all of your data is backed up on your current server, and test a restore.
+- An image from a Classic or Standard server can build a General Purpose server that is one size larger. For example, a 1 GB Standard server image can build a 2 GB General Purpose server. If your Standard or Classic server is 8 GB or larger, you can’t perform an image-based migration because of the larger disk allotment on the older flavors. If you have an older Linux server, you might be able to resize it down to 4 GB or smaller, and then create an image that will build a General Purpose server.
 
--   Before deleting the current server, build a test server from your image and verify that it boots correctly.
+**Migrating from "Performance" flavors**
+
+- Any Performance server image can build a General Purpose server. However, 2 GB and larger Performance servers have a data disk that is not captured when you image the server. Thus, you must copy the data from the data disks manually via rsync, Robocopy or some other method.
+    
+**Understand how resizing works**
+
+- General Purpose servers can resize, but only up, and only to a maximum size of 8 GB RAM/160 GB system disk. Rather than resizing (scaling vertically), we recommend scaling horizontally (adding multiple cloud servers) which increases the fault tolerance of your application.
+
+- Standard and Classic servers can resize up to 30 GB RAM/1.2 TB system disk. 
+
+**Other considerations** 
+
+-  If you use Cloud Backup, ensure that all of your data is backed up on your current server, and test a restore.
+
+-  Before deleting the current server, build a test server from your image and verify that it boots correctly.
