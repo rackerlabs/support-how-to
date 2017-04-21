@@ -5,8 +5,8 @@ title: Rackspace Private Cloud FAQ
 type: article
 created_date: '2014-09-09'
 created_by: Karin Levenstein
-last_modified_date: '2017-03-23'
-last_modified_by: Catherine Richardson
+last_modified_date: '2017-04-21'
+last_modified_by: Arun Rajan
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
@@ -42,100 +42,70 @@ for the latest release notes.
 
 #### What support services are available for Rackspace Private Cloud?
 
-Rackspace offers the following support service, which we define as
-**Core Support**. Our support engineers will proactively monitor and maintain
-the health of your cloud providing installation, configuration, patching,
-updating, troubleshooting and resizing services.
+Rackspace Private Cloud handles all operations of your private cloud environment, so that the environment just works when you need it. From initial design to production deployment, our support engineers proactively monitor and maintain the health of your private cloud by providing installation, configuration, patching, updating, troubleshooting, and capacity planning services, which are all apart of your standard service contract.
+
+You can also select to have a Dedicated OpenStack Engineer for your account for an additional fee. This engineer provides DevOps automation services to help you optimize your private cloud through automation.
 
 More information is available at the [Rackspace Private Cloud web page](http://www.rackspace.com/cloud/private/).
 
-#### Does Rackspace offer any additional services for RPC customers?
-
-Yes, Rackspace offers several additional services for RPC customers.  Customers
-have the option to have a Dedicated OpenStack Engineer for their account,
-DevOps automation services to help you unlock the full power of your cloud
-through automation and professional services to help you get started with, and
-optimize, your private cloud.
 
 #### What are Rackspace Private Cloud's main differentiators?
 <img src="{% asset_path rpc-openstack/rpc-openstack-faq/rpc-differentiators.png %}" width="700" alt="What differentiates Rackspace Private Cloud"  />
 
 >**Stable & Scalable**
 
->We offer an industry leading 99.99% OpenStack API uptime guarantee, a reference
-architecture that utilizes Linux containers to provide in-place upgrades and
-independent scaling of each OpenStack service, and a cloud that is designed to
-scale to hundreds of nodes.
+>We offer an industry leading 99.99% OpenStack API uptime guarantee, a reference architecture that utilizes Linux containers to provide in-place upgrades and independent scaling of each OpenStack service, and a cloud that is designed to scale to hundreds of nodes.
 
 >**Automation**
 
->RPC is deployed using Ansible software, supports OpenStack Orchestration
-(Heat), can be combined with our DevOps Automation Service to help automate a
-customer's process for deploying and scaling applications, and provides solution
-templates that enable customers to deploy production-ready application stacks in
-minutes.
+>RPC OpenStack is deployed using Ansible software, supports OpenStack Orchestration (Heat), can be combined with our DevOps Automation Service to help automate a customer's process for deploying and scaling applications, and provides solution templates that enable customers to deploy production-ready application stacks in minutes.
 
 >**Fanatical Support**
 
->Dedicated account manager, optional dedicated OpenStack Engineer service, 15
-minute live response time guarantee to any emergency ticket with Core support
-and 24x7x365 access to our team of OpenStack experts.
+>Dedicated account manager, optional dedicated OpenStack Engineer service, 15 minute live response time guarantee to any emergency ticket with Core support and 24x7x365 access to our team of OpenStack experts.
 
 >**Deploy Anywhere**
 
->Deploy anywhere in the world.  You can host Rackspace private cloud in your
-data center, in our data center, in a colocation facility or in multiple
-locations.
+>Deploy anywhere in the world.  You can host Rackspace private cloud in your data center, in our data center, in a colocation facility or in multiple locations.
 
 >**Expertise**
 
->We manage one of the world's largest OpenStack powered clouds, are #1 in
-all-time code contributions to the OpenStack project and offer an extensive
-OpenStack training curriculum.
+>We manage one of the world's largest OpenStack powered clouds, are #1 in all-time code contributions to the OpenStack project and offer an extensive OpenStack training curriculum.
 
 >**Hybrid**
 
->Add elasticity to your infrastructure with the capability to automatically add
-and remove public cloud resources as needed to support your private cloud
-workloads.
+>Add elasticity to your infrastructure with the capability to automatically add and remove public cloud resources as needed to support your private cloud workloads.
 
 #### Where can I deploy Rackspace Private Cloud?
 
 You can deploy a Rackspace Private Cloud in your own data center, in a Rackspace
 data center, in a colocation facility or across multiple locations.
 
-#### Is Rackspace Private Cloud updated with each new OpenStack version release (e.g. Juno, Kilo, etc)?
+#### Is Rackspace Private Cloud updated with each new OpenStack version release (i.e. Mikata, Newton, Ocata)?
 
-Yes, Rackspace updates and releases a major version of Rackspace Private Cloud
-software following each OpenStack version release.  We first verify that the
-new OpenStack version release meets our stability requirements before launching,
-which typically takes about six weeks.  We also have minor releases throughout
-the year to introduce new features, fix bugs and provide security patches.
+Yes, we also have minor releases throughout the year to introduce new features, fix bugs and provide security patches.
+
+The one exception is the Ocata release. Rackspace made a deliberate decision not to release an RPC version of Ocata for our customers, because the short cycle between the Newton and Ocata had a low impact in terms of feature sets.
 
 #### Can I install Rackspace Private Cloud on virtual machines?
 
 Rackspace strongly recommends that you install Rackspace Private Cloud on
-physical hardware nodes running Ubuntu 12.04 or CentOS 6.3. Installation on
-virtual platforms should only be performed for evaluation purposes.
+physical hardware nodes running Ubuntu 16.04 for the latest Newton release. Installation on virtual platforms should only be performed for evaluation purposes.
 
 #### What is the maximum number of nodes for Rackspace Private Cloud?
 
-Rackspace Private Cloud is designed to scale to hundreds of nodes. The maximum
-number depends on the specific application.
+Rackspace Private Cloud is designed to scale to hundreds of nodes.
 
 #### Does Rackspace Private Cloud come with any images?
 
-Currently, Rackspace Private Cloud Software does not include any images. For
-more information about downloading and creating images, refer to the
-[OpenStack Virtual Machine Image Guide](http://docs.openstack.org/image-guide/content/).
+Currently, Rackspace Private Cloud Software does not include any images. Users can create their own images and populate those images into Glance a image repository for on-demand consumption. For more information about downloading and creating images, refer to the [OpenStack Virtual Machine Image Guide](http://docs.openstack.org/image-guide/content/).
 
 #### Why does the node IP address need to have Internet access?
 
 Rackspace Private Cloud Software downloads Ubuntu installation files as part of
 the installation process to ensure that you have the most up-to-date operating
 system that works with our software. If the node doesn't have internet access,
-the installation process will fail. You may also experience issues if the node
-is behind a firewall.
+the installation process will fail.
 
 #### Is there a proof-of-concept offering to allow a customer to test Rackspace Private Cloud before they buy it?
 
@@ -145,10 +115,7 @@ at [rpcsales@rackspace.com](mailto:rpcsales@rackspace.com).
 
 #### What devices are certified for Rackspace Private Cloud compute nodes?
 
-All devices certified for Ubuntu Server 14.04 LTS and Ubuntu Server 16.04 LTS
-are certified for Rackspace Private Cloud. Refer to the
-[Ubuntu Server certified hardware page](http://www.ubuntu.com/certification/server/)
-for the full list.
+All devices certified for Ubuntu Server 16.04 LTS are certified for Rackspace Private Cloud. Refer to the [Ubuntu Server certified hardware page](http://www.ubuntu.com/certification/server/) for the full list.
 
 #### Where can I get more technical information?
 
@@ -160,17 +127,6 @@ in [the Rackspace Private Cloud v11 FAQ](https://developer.rackspace.com/docs/pr
 More information about Rackspace Private Cloud is available on the Rackspace
 Private Cloud web site at
 [http://www.rackspace.com/cloud/private](http://www.rackspace.com/cloud/private).
-You can also visit the Rackspace Private Cloud Forum at
-[https://community.rackspace.com/products/f/45](https://community.rackspace.com/products/f/45).
-
-#### How is Rackspace Monitoring billed?
-
-Rackspace Monitoring bills you by how much you use. While other monitoring
-services lock you into a month-long or even year-long contract, with Rackspace
-Monitoring you are billed by the hourly usage based on how many checks were
-running in that hour, and from how many monitoring zones were involved. Adjusting
-your usage is quick and easy, and this flexibility can help reduce unnecessary
-costs. Never again will you have to pay for more than you use.
 
 ---------
 
