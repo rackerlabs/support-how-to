@@ -5,10 +5,8 @@ title: Configure a Software RAID on a Linux General Purpose Cloud Server
 type: article
 created_date: '2013-11-03'
 created_by: Tim Pownall
-last_modified_date: '2014-12-11'
-last_modified_by: Kyle Laffoon
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2016-04-21'
+last_modified_by: Nate Archer
 ---
 
 This article will demonstrate how to put multiple data disks on a
