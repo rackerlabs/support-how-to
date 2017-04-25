@@ -1,6 +1,6 @@
 ---
 permalink: sitecore-cloud-portals-and-account-management/
-audit_date: 
+audit_date:
 title: Sitecore Cloud portals and account management
 type: article
 created_date: '2017-04-04'
@@ -19,7 +19,7 @@ While Rackspace manages your Sitecore environment, access to three portals gives
 
 - **Azure portal**: Manages your Sitecore environment.
 
-- **Sitecore Cloud portal**: Manages the content of your Sitecore application or website, as well as billing information.
+- **Sitecore Cloud portal**: Manages the content of your Sitecore application or website, as well as billing and account information.
 
 ### Get your login credentials
 
@@ -65,7 +65,7 @@ The Azure portal contains the URL for the content management site. You use URL  
 
 ### Sitecore portal
 
-The Sitecore portal manages the content of your website or application, as well as billing. It does not manage your environment, which is managed through the Azure portal.
+The Sitecore portal manages the content of your website or application, as well as billing and account information. It does not manage your environment, which is managed through the Azure portal.
 
 1. Enter the URL of your content management website to verify the site loads. The URL should look similar to **http://gsdk-cm.azurewebsites.net/**. You can find the URL by logging in to the Azure portal.
 
