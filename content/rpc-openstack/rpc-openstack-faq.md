@@ -1,6 +1,6 @@
 ---
 permalink: rpc-openstack-faq/
-audit_date:
+audit_date: '2017-04-26'
 title: Rackspace Private Cloud powered by OpenStack FAQ
 type: article
 created_date: '2014-09-09'
