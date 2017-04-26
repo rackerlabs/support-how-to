@@ -166,12 +166,8 @@ Directory Sync service must be configured. Perform the following steps:
         synchronized with Microsoft Exchange mailboxes.
     - **Hosted Email**: Select the appropriate security group to be
         synchronized with Rackspace Email mailboxes.
-    - **Administrator email**: Enter an email address. All alerts will
-        be sent to this email address.
-    - **Time to Send Summary Email**: Set the time when a summary
-        report of changes synchronized with your Active Directory will
-        be sent to the Administrator email address.  By default, this
-        value is set to 08:00.
+ 
+    **Note:** The daily admin summary emails are no longer a feature of the Directory Sync service. This information can be found in the sync history and alerts tab in your Directory Sync.
 
     <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Installer7.png %}" class="image-full_width" width="700" height="537" />
 
