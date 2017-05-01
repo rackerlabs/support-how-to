@@ -24,9 +24,11 @@ DKIM is not available for domains on Hosted Exchange 2007. Please contact our Su
 To enable DKIM for a domain, log in to the [Cloud Office Control Panel](https://cp.rackspace.com), and perform the following steps:
 
 1.  From the **Domains** section of the home page, click the link for **Sender Authentication (DKIM)**.  
+<!--![alt text](HomePage_Domains.png "Home Page - Domains")-->
+
+2.  On the **Sender Authentication (DKIM)** page, select the domain to enable DKIM from the domain list.  
 <!--![alt text](DKIM_Domain_Listing.png "DKIM Domain Listing")-->
 
-2.  On the **Sender Authentication (DKIM)** page, select the domain to enable DKIM from the domain list.
 3.  Click the **Enable DKIM for <your domain>** button.  
   a.  If your domain's DNS is managed through your Cloud Office Control Panel, then DKIM enabling is automatic.
 
