@@ -17,11 +17,11 @@ This article describes how to deploy application files to your Sitecore Cloud en
 
 To set up your deploy, you need the following:
 
-- An FTP client (for example, FileZilla or Cyberduck).
+- An FTP client (for example, [FileZilla](https://filezilla-project.org/) or [Cyberduck](https://cyberduck.io/?l=en)).
 
-### Set deployment credentials and find FTP hostname
+### Set deployment credentials and deploy application files
 
-You can deploy using FTP or FTPS protocol. To access the file system of your Webapp, you need to set deployment credentials and copy your FTP hostname. These will be used by the FTP client.
+You can deploy using FTP or FTPS protocol. To access the file system of your Webapp, you need to set deployment credentials and copy your FTP hostname. These credentials and the FTP hostname allow you to deploy your application files.
 
 1. Sign in to the [Azure portal](https://portal.azure.com/). For information on where to find your credentials to log in to the Azure portal see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
