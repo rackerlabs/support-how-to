@@ -24,3 +24,5 @@ product_url: managed-operations
 For instructions on how to login into your Sitecore application, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/)
 
 #### Can you only deploy to Sitecore using FTP?
+
+#### How am I billed for Sitecore Experience Platform Hosting?
