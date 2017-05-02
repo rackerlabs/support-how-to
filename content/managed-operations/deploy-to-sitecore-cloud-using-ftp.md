@@ -11,36 +11,38 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-This article describes how to deploy your application using your Sitecore Cloud environment using an FTP client. FTP is the default deployment protocol for Sitecore cloud.
+This article describes how to deploy application files to your Sitecore Cloud environment using an FTP client.
 
 ### Prerequisites
 
-Before you can deploy to Sitecore Cloud, you need the following:
+To set up your deploy, you need the following:
 
-- Credentials for the Azure portal from the Managed Sitecore team
+- An FTP client (for example, FileZilla or Cyberduck).
 
-- An FTP client (for example, FileZilla or Cyberduck)
+### Set deployment credentials and find FTP hostname
 
-### Set up deployment credentials
+You can deploy using FTP or FTPS protocol. To access the file system of your Webapp, you need to set deployment credentials and copy your FTP hostname. These will be used by the FTP client.
 
-To access the FTP server of your app, you need to set up your deployment credentials.
+1. Sign in to the [Azure portal](https://portal.azure.com/). For information on where to find your credentials to log in to the Azure portal see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
-1. [Sign in to the Azure portal](https://portal.azure.com/). For information on where to find your credentials to log in to the Azure portal see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
+2. Click **All resources**, then select the Webapp you wish to set credentials for.
 
-2. Click **App Service > APP > Deployment credentials**.
+3. In the app screen under Deployment, select **Deployment credentials**
+
+<!-
 
 3. Change your user name and password, then click Save.
 
-### Deploy using FTP
+4. After your credentials are set, click **Overview**.
 
-After your deployment credentials are set up, you need to set up your FTP client to access the FTP server.
+5. Copy the **FTP hostname** or **FTPS hostname**. Copy the FTP values exactly as displayed in the Azure Portal, including the application name, in order to give the FTP client proper context for the FTP server. The value should look similar to `app-cm\Deployuser`.
 
-1. In the Azure portal, select **App Service > App > Settings > Properties**.
+6. Open your FTP client. Create a new session using the hostname you copied and the credentials you set.
 
-2. Copy either the **FTP deployment user**, **FTP Host Name**, or **FTPS Host Name**. Copy the FTP values exactly as displayed in the Azure Portal, including the application name, in order to give the FTP client proper context for the FTP server. The value should look similar to `app-cm\Deployuser`.
+7. Upload your application files and it's directory structure to the `/site/wwwroot` directory.
 
-3. Open your FTP client. Use the FTP connection values you copied to connect to your app. <!---Need more instructions for this--->.
+8. Browse to website to verify that deployment was successful.
 
-4. Copy your deployment files and it's directory structure to the `/site/wwwroot` directory.
+  **Note:** If you need the URL for the website, go back to the Azure portal and navigate to the Overview of your Webapp. The URL will be listed there.
 
-5. Browse to the url of your application to verify that your application is running. <!---Might need more information here--->
+ <!---Might need more information here--->
