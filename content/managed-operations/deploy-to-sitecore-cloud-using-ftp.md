@@ -29,20 +29,16 @@ You can deploy using FTP or FTPS protocol. To access the file system of your Web
 
 3. In the app screen under Deployment, select **Deployment credentials**
 
-<!-
+4. Change your user name and password, then click Save.
 
-3. Change your user name and password, then click Save.
+5. After your credentials are set, click **Overview**.
 
-4. After your credentials are set, click **Overview**.
+6. Copy the **FTP hostname** or **FTPS hostname**. Copy the FTP values exactly as displayed in the Azure Portal, including the application name, in order to give the FTP client proper context for the FTP server. The value should look similar to `app-cm\Deployuser`.
 
-5. Copy the **FTP hostname** or **FTPS hostname**. Copy the FTP values exactly as displayed in the Azure Portal, including the application name, in order to give the FTP client proper context for the FTP server. The value should look similar to `app-cm\Deployuser`.
+7. Open your FTP client. Create a new session using the hostname you copied and the credentials you set.
 
-6. Open your FTP client. Create a new session using the hostname you copied and the credentials you set.
+8. Upload your application files and it's directory structure to the `/site/wwwroot` directory.
 
-7. Upload your application files and it's directory structure to the `/site/wwwroot` directory.
-
-8. Browse to website to verify that deployment was successful.
+9. Browse to website to verify that deployment was successful.
 
   **Note:** If you need the URL for the website, go back to the Azure portal and navigate to the Overview of your Webapp. The URL will be listed there.
-
- <!---Might need more information here--->
