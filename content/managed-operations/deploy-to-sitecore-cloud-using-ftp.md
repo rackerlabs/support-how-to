@@ -1,7 +1,7 @@
 ---
-permalink: deploy-to-sitecore-cloud/
+permalink: deploy-to-sitecore-cloud-using-ftp/
 audit_date:
-title: Deploy to Sitecore Cloud
+title: Deploy to Sitecore Cloud using FTP
 type: article
 created_date: '2017-05-02'
 created_by: Juan Garza
@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-This article describes how to deploy your application using your Sitecore Cloud environment.
+This article describes how to deploy your application using your Sitecore Cloud environment using an FTP client. FTP is the default deployment protocol for Sitecore cloud.
 
 ### Prerequisites
 
@@ -21,9 +21,7 @@ Before you can deploy to Sitecore Cloud, you need the following:
 
 - An FTP client (for example, FileZilla or Cyberduck)
 
-### Set up your FTP server
-
-### Set deployment credentials
+### Set up deployment credentials
 
 To access the FTP server of your app, you need to set up your deployment credentials.
 
@@ -33,7 +31,7 @@ To access the FTP server of your app, you need to set up your deployment credent
 
 3. Change your user name and password, then click Save.
 
-### Copy your deployment files to the FTP client
+### Deploy using FTP
 
 After your deployment credentials are set up, you need to set up your FTP client to access the FTP server.
 
