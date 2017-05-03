@@ -19,7 +19,7 @@ While Rackspace manages your Sitecore environment, access to three portals gives
 
 - **Azure portal**: Manages your Sitecore environment.
 
-- **Sitecore Cloud portal**: Manages the content of your Sitecore application or website.
+- **Sitecore Cloud content management site**: Manages the content of your Webapp.
 
 ### Get your login credentials
 
@@ -44,7 +44,7 @@ Log in to the [Azure portal](https://portal.azure.com/) using the credentials se
 
 **Note:** You cannot delete your application or website through the Azure portal. To delete your application, contact [Rackspace Support](https://www.rackspace.com/en-us/information/contactus).
 
-#### Find the URL for the content management site
+#### Find the URL for the Sitecore content management site
 
 The Azure portal contains the URL for the content management site. You use URL  to log in to the Sitecore portal.
 
@@ -63,9 +63,9 @@ The Azure portal contains the URL for the content management site. You use URL  
    <img src="{% asset_path managed-operations/sitecore-cloud-portals-and-account-management/cm-azure-url.png %}" alt=""  />   
 
 
-### Sitecore portal
+### Sitecore Cloud content management site
 
-The Sitecore portal manages the content of your Sitecore application or website. It does not manage your environment, which is managed through the Azure portal.
+The Sitecore Cloud content management site manages the content of your Sitecore application or website. It does not manage your environment, which is managed through the Azure portal.
 
 1. Enter the URL of your content management website to verify the site loads. The URL should look similar to **http://gsdk-cm.azurewebsites.net/**. You can find the URL by logging in to the Azure portal.
 
