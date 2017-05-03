@@ -1,6 +1,6 @@
 ---
 permalink: sitecore-cloud-portals-and-account-management/
-audit_date:
+audit_date: '2017-04-45'
 title: Sitecore Cloud portals and account management
 type: article
 created_date: '2017-04-04'
@@ -11,19 +11,19 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-When you use Managed Environments for Sitecore Cloud, you are given a fully customizable dedicated environment designed by experts at Rackspace that enables you to focus on producing the best web content for your application or website.
+When you use Sitecore Managed Cloud, you are given a fully customizable dedicated environment designed by experts at Sitecore and Rackspace that enables you to focus on producing the best web content for your application or website.
 
-While Rackspace manages your Sitecore environment, access to three portals gives you greater control and direction over your Sitecore environment and website.
+While Rackspace manages your Sitecore environment, access to three portals gives you more control and direction over your Sitecore environment and website.
 
 - **MyRackspace portal**: Contains your credentials for logging in to the Azure and Sitecore portals.
 
 - **Azure portal**: Manages your Sitecore environment.
 
-- **Sitecore Cloud portal**: Manages the content of your Sitecore application or website, as well as billing and account information.
+- **Sitecore Cloud portal**: Manages the content of your Sitecore application or website.
 
 ### Get your login credentials
 
-The MyRackspace portal provides the login credentials for both the Azure and Sitecore portals. While these credentials are typically sent through a link to the MyRackspace portal in the Welcome email received after you signed up, you can also find the credentials inside a support ticket in the MyRackspace portal. To find this ticket:
+The MyRackspace portal provides the login credentials for both the Azure and Sitecore portals. While these credentials are sent through a link to the MyRackspace portal in the Welcome email received after you signed up, you can also find the credentials inside a support ticket in the MyRackspace portal. To find this ticket:
 
 1. Log in to the [MyRackspace portal](https://my.rackspace.com/portal/).
 
@@ -33,14 +33,14 @@ The MyRackspace portal provides the login credentials for both the Azure and Sit
 
 ### Azure portal
 
-Sitecore runs on Windows .NET services, hosted on Azure Web Apps. Therefore, all Rackspace Sitecore environments use Azure credentials to make changes to a Sitecore environment. Through the Azure portal, you can perform the following tasks:
+Sitecore runs on Windows .NET services, hosted on Azure Web Apps. Therefore, all Sitecore Managed Cloud environments use Azure credentials to make changes to a Sitecore environment. Through the Azure portal, you can perform the following tasks:
 
 - Get the URL to your Sitecore content management website (for example,  **http://gsdk-cm.azurewebsites.net/**). You need this URL to log in to Sitecore.
 - Reset deployment credentials
 - Restart your website or application
 - Access logs
 
-Log in to the [Azure portal](https://portal.azure.com/) using the credentials sent to you by Rackspace on a support ticket. This ticket is accessible through the [MyRackspace portal](https://my.rackspace.com/portal/).
+Log in to the [Azure portal](https://portal.azure.com/) using the credentials sent to you by Rackspace in a support ticket. This ticket is accessible through the [MyRackspace portal](https://my.rackspace.com/portal/).
 
 **Note:** You cannot delete your application or website through the Azure portal. To delete your application, contact [Rackspace Support](https://www.rackspace.com/en-us/information/contactus).
 
@@ -65,7 +65,7 @@ The Azure portal contains the URL for the content management site. You use URL  
 
 ### Sitecore portal
 
-The Sitecore portal manages the content of your website or application, as well as billing and account information. It does not manage your environment, which is managed through the Azure portal.
+The Sitecore portal manages the content of your Sitecore application or website. It does not manage your environment, which is managed through the Azure portal.
 
 1. Enter the URL of your content management website to verify the site loads. The URL should look similar to **http://gsdk-cm.azurewebsites.net/**. You can find the URL by logging in to the Azure portal.
 
