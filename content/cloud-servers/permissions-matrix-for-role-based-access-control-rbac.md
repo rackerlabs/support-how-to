@@ -49,3 +49,4 @@ ACCOUNT ACCESS | ADMIN | OBSERVER
 -------------- | --- | ---
 [Billing Services](/how-to/detailed-permissions-matrix-for-billing-services) | **YES** | **YES**
 [Payment Services](/how-to/detailed-permissions-matrix-for-billing-services) | **YES** | **YES**
+[Support Tickets](/how-to/detailed-permissions-matrix-for-support-tickets) | **YES** | **YES**
