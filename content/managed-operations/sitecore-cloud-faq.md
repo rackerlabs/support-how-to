@@ -1,7 +1,7 @@
 ---
-permalink: sitecore-cloud-faq/
+permalink: sitecore-managed-cloud-faq/
 audit_date:
-title: Sitecore Cloud FAQ
+title: Sitecore Managed Cloud FAQ
 type: article
 created_date: '2017-05-02'
 created_by: Juan Garza
@@ -13,7 +13,7 @@ product_url: managed-operations
 
 ### General
 
-#### How do I sign-up for Sitecore Experience Platform Hosting?
+#### How do I sign-up for Sitecore Managed Cloud?
 
 #### What is the difference between Managed Environments for Sitecore and Managed Applications for Sitecore?
 
@@ -33,7 +33,7 @@ Depending on the instance size and Sitecore features you've selected you will ha
 
 (XM Diagrams coming soon)
 
-#### Which regions is Sitecore available in?
+#### Which regions are Sitecore available in?
 
 Sitecore on Azure Paas services is available in the following Azure Regions, as well as the followiing Object Rocket datacenter combinations for XP packages that use the Experience Database:
 
@@ -50,6 +50,5 @@ Sitecore on Azure Paas services is available in the following Azure Regions, as 
 
 For instructions on how to login into your Sitecore application, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/)
 
-#### Can you only deploy to Sitecore using FTP?
 
-#### How am I billed for Sitecore Experience Platform Hosting?
+#### How am I billed for Sitecore Managed Cloud?
