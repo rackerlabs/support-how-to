@@ -5,8 +5,8 @@ title: New features in General Purpose and work-optimized Cloud Servers
 type: article
 created_date: '2013-09-30'
 created_by: Rackspace Support
-last_modified_date: '2016-01-05'
-last_modified_by: Mike Asthalter
+last_modified_date: '2017-05-04'
+last_modified_by: Brian King
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -20,14 +20,8 @@ allocate adequate disk resources for each server.
 
 ### Disk structure
 
-The General Purpose and work-optimized flavors use faster solid state
-drives (SSD) and separate the system disk from the data disk, with both
-disks equally RAID 10 protected. With your operating system on a
-separate disk from your data, you can more easily create an image of the
-system disk because it is a fixed size and doesn't scale up as other
-resources increase. For more information about data disk imaging
-limitations, see the "Images capture the system disk only" section later in this article or, for the full procedure, see the
-article [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+The General Purpose and I/O flavors use faster solid state
+drives (SSD). I/O flavors also have secondary data disks, which are not captured during an imaging operation. For more information about data disk imaging limitations, see the article [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 
 You can back up the data on your data disk or disks by leveraging either
 Rackspace Cloud Backup or Rackspace Cloud Block Storage (an option that
@@ -45,10 +39,9 @@ Purpose and work-optimized servers:
 -   No requirement to format the entire disk (system disk only) when
     building your servers
 
-### Higher memory availability
+### Higher memory capacity
 
-The General Purpose and work-optimized flavors are available with RAM
-selection of up to 120 GB per server (up from 30 GB in the Standard
+Work-optimized flavors feature a maximum of 240 GB RAM per server (up from 30 GB in the Standard
 server class).
 
 ### Compute
@@ -111,20 +104,7 @@ balancer) to manage your available resources to suit your needs.
 For information about reducing the size of your General Purpose server
 or changing the size of your work-optimized server, see [Upgrading resources for General Purpose or I/O optimized Cloud Servers](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
-### Images capture the system disk only
-
-Images of your system capture only your operating system's configuration
-(your system disk). This makes the imaging process run more quickly and
-reliably without placing undue strain on your server. To retain the
-information stored on attached data disks for General Purpose and I/O
-optimized flavors, you can use [Cloud Block Storage](/how-to/create-and-attach-a-cloud-block-storage-volume)
-or [Cloud Backup](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
-to save only the files and directories that you need. For a comparison
-of the two options, see [Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
-To learn more about Cloud Block Storage snapshots, which are useful for
-diskless flavors like Compute and Memory, see [Create and Use Cloud Block Storage Snapshots](/how-to/create-and-use-cloud-block-storage-snapshots).
-
-### Preparing the data disk for use
+### (I/O flavors only) Preparing the data disk for use
 
 As a result of having a separate system disk and data disk for I/O
 optimized servers, you must prepare your data disk by formatting and
