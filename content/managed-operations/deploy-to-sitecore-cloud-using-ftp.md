@@ -43,4 +43,4 @@ You can use FTP or FTPS protocol to deploy. To access the file system of your We
 
 9. Browse to your Webapp URL to verify that deployment was successful.
 
-  **Tip:** : If you need the URL for the website, go back to the Azure portal and navigate to the overview of your application. The URL is listed there.
+  **Note:** If you need the URL for the website, go back to the Azure portal and navigate to the overview of your application. The URL is listed there.
