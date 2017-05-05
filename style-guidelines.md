@@ -27,7 +27,7 @@ Following are some examples:
 - Troubleshooting a Vyatta site-to-site VPN connection
 - Differences between IMAP and POP
 
-For more information about titles and headings, see the [Titles and headings](https://github.com/rackerlabs/docs-rackspace/blob/master/doc/style-guide/m-z-style-guidelines.md#titles-and-headings) topic in the complete style guide.
+For more information about titles and headings, see the [Titles and headings](https://github.com/rackerlabs/docs-rackspace/blob/master/doc/style-guide/m-z-style-guidelines.md (#titles-and-headings)) topic in the complete style guide.
 
 ### Use active voice
 
