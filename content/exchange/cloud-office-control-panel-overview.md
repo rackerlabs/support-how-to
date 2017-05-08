@@ -6,13 +6,12 @@ type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
 last_modified_date: '2017-05-08'
-last_modified_by: Stephanie Fillmon
+last_modified_by: Nate Archer
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-After you sign up for Cloud Office services through Rackspace, the first thing
-to do is log in to the Cloud Office Control Panel. This article
+After you sign up for Cloud Office services through Rackspace, the first thing to do is log in to the Cloud Office Control Panel. This article
 provides a brief overview of the features that you have access to in the control panel. New Cloud Office customers can access the control panel [here](https://cp.rackspace.com/) and UK and MyRackspace customers can log in [here](https://my.rackspace.com/).
 
 After you log in to the control panel, you will see a variety of
@@ -21,11 +20,21 @@ options and tools to choose from. As you sign up for additional services, they w
 
 ### Reseller tools
 
+The **Reseller Tools** section provides you reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains and sites, and gaining access to the reseller Partner Portal.
+
+Following are some of the options available in Reseller Tools section of the control panel:
+
+- **Customers** -
+- **Add customers** -
+- **Administrators** -
+- **Domains** -
+- **Webmail sites** -
+- **Sharepoint** -
+- **Partner Portal** -
+
 ### Email Hosting
 
 The **Email Hosting** section provides you with options and tools for Rackspace Email such as spam filtering, group lists, aliases, and mobile devices.
-
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-email-2.jpg %}" alt="Cloud Office Control Panel Rackspace Email" />
 
 Following are some of the options available in the **Email Hosting** section of the control panel:
 
@@ -68,7 +77,16 @@ Following are some of the options available in the **Microsoft Exchange** sectio
 
 ### Microsoft Office 365
 
+The **Microsoft Office 365** section provides a link manage your Office 365 reseller account and Microsoft Partner features. If you're a first time Microsoft Partner user, follow the instructions provided when clicking the link to activate your account.
+
 ### Microsoft SharePoint
+
+The **Microsoft SharePoint** section provides the URL for your SharePoint site, as well as an option to add storage to your SharePoint.
+
+Following are some of the options available in the **Microsoft SharePoint** section:
+
+- **Site collection** -
+- **Add storage** -
 
 ### Domains
 
