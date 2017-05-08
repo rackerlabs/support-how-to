@@ -5,7 +5,7 @@ title: Cloud Office Control Panel overview
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2016-03-14'
+last_modified_date: '2017-05-08'
 last_modified_by: Stephanie Fillmon
 product: Microsoft Exchange
 product_url: exchange
@@ -19,38 +19,38 @@ After you log in to the control panel, you will see a variety of
 sections that showcase the services for which you have signed up. Each section has a variety of
 options and tools to choose from. As you sign up for additional services, they will appear here to enable you to manage them directly from the landing page.
 
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-main-1.jpg %}" alt="Cloud Office Control Panel landing page" />
+### Reseller tools
 
-### Rackspace Email
+### Email Hosting
 
-The **Rackspace Email** section provides you with options and tools such as spam filtering, group lists, aliases, and mobile devices.
+The **Email Hosting** section provides you with options and tools for Rackspace Email such as spam filtering, group lists, aliases, and mobile devices.
 
 <img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-email-2.jpg %}" alt="Cloud Office Control Panel Rackspace Email" />
 
-Following are some of the options available in the **Rackspace Email** section of the control panel:
+Following are some of the options available in the **Email Hosting** section of the control panel:
 
 #### Email Accounts
+
 -  **Mailboxes** - Add new mailboxes for your domain.
 -  **Aliases** - Manage your company's alias addresses.
 -  **Group Lists** - Email a large number of people by assigning them to a group list.
 -  **Filter Settings** (see **Spam Filtering** below) - Control spam handling settings for users or the entire domain.
 -  **Mobile Sync** - Enable your mobile devices to handle mail and PIM data (for example, Contacts and Calendars), which syncs to Rackspace Webmail.
 
-### Spam Filtering
+#### Spam Filtering
 
--  **Set Preferences** - Control your domain spam settings or individual settings, sucha s spam filtering.
+-  **Filter settings** - Control your domain spam settings or individual settings, such as spam filtering.
 -  **Blacklists** - Control domain or individual mailbox blacklist settings.
 -  **Safelists** - Control domain or individual mailbox safelist settings.
 
-### Microsoft Exchange
+### Hosted Exchange
 
 The **Microsoft Exchange** section provides you with options and tools such as spam filtering, distribution lists, contacts, resources, and mobile devices.
-
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-exchange-3.jpg %}" alt="Cloud Office Control Panel Microsoft Exchange" />
 
 Following are some of the options available in the **Microsoft Exchange** section of the control panel:
 
 #### Email Accounts
+
 -  **Mailboxes** - Add new mailboxes for your domain.
 -  **Lists** - Add members of your domain (and contacts) to one exclusive email address so that emails are automatically sent out to all members of the list.
 -  **Resources** - Set up or reserve an Exchange room for company collaboration.
@@ -61,46 +61,18 @@ Following are some of the options available in the **Microsoft Exchange** sectio
 -  **Filter Settings** (see **Spam Filtering** below) - Control spam handling settings for users or the entire domain.
 
 #### Spam Filtering
--  **Set Preferences** - Control your domain spam settings or individual mailbox settings, such as spam filtering.
+
+-  **Settings** - Control your domain spam settings or individual mailbox settings, such as spam filtering.
 -  **Blacklists** - Control domain or individual mailbox blacklists settings.
 -  **Safelists** - Control domain or individual mailbox safelists settings.
 
-### My Account
+### Microsoft Office 365
 
-The **My Account** section is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. This section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and find general information.
-
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-account-4.jpg %}" alt="Cloud Office Control Panel My Account" />
-
-Following are the options available for the **My Account** section in the control panel:
-
-#### Billing & Payments
--  **Company Info** - Manage your account contact information and credit card information.
--  **Invoice History** - Manage and view past and present account invoices.
--  **Unpaid Invoices** - View your unpaid invoices.
-
-#### Upgrades & Services
--  **Email Hosting** - Upgrade your services with Rackspace Email or Microsoft Exchange.
--  **Service Summary** - View a summary of your billed services.
--  **Pending Cancellations** - View any pending cancellation requests.
-
-#### Admins & Contacts
--  **Administrators** - View your current domains administrators.
--  **Company Contacts** - Manage your account contact information such as phone number and permissions.
--  **API Keys** - Generate your API access key for your domain.
-
-#### Audit Logs
-View control panel activity over the last 90 days.
-
-#### Product Feedback
-Provide feedback on our products and services.
+### Microsoft SharePoint
 
 ### Domains
 
 The **Domains** section enables you to access your domain's DNS settings, add disclaimers, view domains, and manage spam filter settings.
-
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-domains-5.jpg %}" alt="Cloud Office Control Panel domains" />
-
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-domain-home-6.jpg %}" alt="Cloud Office Control Panel domains home" />
 
 Following are some of the options available in the **Domains** section of the control panel:
 
@@ -133,17 +105,42 @@ Following are some of the options available in the **Domains** section of the co
 -  **Mailbox Details** - View a summary of your domains mailboxes.
 -  **Mail Forwarding** - View which mailboxes on your domains have forwarding.
 
+### My Account
+
+The **My Account** section is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. This section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and find general information.
+
+<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-account-4.jpg %}" alt="Cloud Office Control Panel My Account" />
+
+Following are the options available for the **My Account** section in the control panel:
+
+#### Billing & Payments
+-  **Company Info** - Manage your account contact information and credit card information.
+-  **Invoice History** - Manage and view past and present account invoices.
+-  **Unpaid Invoices** - View your unpaid invoices.
+
+#### Upgrades & Services
+-  **Email Hosting** - Upgrade your services with Rackspace Email or Microsoft Exchange.
+-  **Service Summary** - View a summary of your billed services.
+-  **Pending Cancellations** - View any pending cancellation requests.
+
+#### Admins & Contacts
+-  **Administrators** - View your current domains administrators.
+-  **Company Contacts** - Manage your account contact information such as phone number and permissions.
+-  **API Keys** - Generate your API access key for your domain.
+
+#### Audit Logs
+View control panel activity over the last 90 days.
+
+#### Product Feedback
+Provide feedback on our products and services.
+
 ### Support
 
-The **Support** section enables you to use support documents for the most common questions, access the [Help Tool](how-to/help-tool-for-hosted-email-and-skype-for-business), and view or create support tickets if you ever need assistance.
-
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-support-7.jpg %}" alt="Cloud Office Control Panel support" />
+The **Support** section enables you to view or create support tickets if you ever need assistance.
 
 Following are the options available in the **Support** section of the control panel:
 
--  **Get Started** - View a collection of articles, links, and tools to help you get started with Cloud Office products and services.
--  **Knowledge Center** - Go to the How-To self-service support documentation for the Cloud Office products and services.
 -  **Email Setup Wizard** - View useful mailbox information while using step-by-step instructions on how to set up your Cloud Office services.
 -  **View Tickets** - Create a new ticket and view any past tickets on the Support Tickets landing page.
 
-  <img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-support-tickets-8.jpg %}" alt="Cloud Office Control panel support tickets" />
+If you need assistance with a specific feature, you can use the [Help tool for hosted email and Skype for business](https://support.rackspace.com/how-to/help-tool-for-hosted-email-and-skype-for-business/).
