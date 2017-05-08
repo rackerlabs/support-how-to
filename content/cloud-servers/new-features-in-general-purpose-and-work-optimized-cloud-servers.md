@@ -65,7 +65,7 @@ server class.
 General Purpose and work-optimized flavors provide more processing
 power: up to 32 vCPUs or virtual cores, compared to a maximum 8 vCPUs on
 the largest-size server in the Standard server class. For information,
-see [Work-optimized server types](#SizeOptions).
+see [Work-optimized server types](#work-optimized-server-types).
 
 ### Faster networking
 
