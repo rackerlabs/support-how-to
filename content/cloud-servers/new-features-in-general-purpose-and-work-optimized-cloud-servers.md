@@ -1,6 +1,6 @@
 ---
 permalink: new-features-in-general-purpose-and-work-optimized-cloud-servers/
-audit_date: '
+audit_date: '2017-05-08'
 title: New features in General Purpose and work-optimized Cloud Servers
 type: article
 created_date: '2013-09-30'
