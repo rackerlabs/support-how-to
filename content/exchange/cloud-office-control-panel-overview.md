@@ -81,16 +81,11 @@ The **Microsoft Office 365** section provides a link manage your Office 365 rese
 
 ### Microsoft SharePoint
 
-The **Microsoft SharePoint** section provides the URL for your SharePoint site, as well as an option to add storage to your SharePoint.
-
-Following are some of the options available in the **Microsoft SharePoint** section:
-
-- **Site collection** -
-- **Add storage** -
+The **Microsoft SharePoint** section provides the URL for your SharePoint site, manage your site collection, manage SharePoint site users, and the change the administrator for your Sharepoint site.
 
 ### Domains
 
-The **Domains** section enables you to access your domain's DNS settings, add disclaimers, view domains, and manage spam filter settings.
+The **Domains** section allows you to access your domain's DNS settings, add disclaimers, view domains, and manage spam filter settings.
 
 Following are some of the options available in the **Domains** section of the control panel:
 
