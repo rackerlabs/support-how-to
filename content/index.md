@@ -21,6 +21,19 @@ permalink: /
 	</div>
 	<div class="container">
 		<div class="content home product-type product-type-cloud" id="cloud-display">
+		      <div class="row">
+			      <h3>Rackspace Private Cloud</h3>
+			      <div class="twelve columns">
+				      <div class="four columns primary icon private">
+					      <h4><a href="/how-to/rpc-microsoft/"><span>Rackspace Private Cloud</span> Powered by Microsoft Cloud Platform</a></h4>
+					</div>
+					<div class="five columns icon private">
+						<h4><a href="/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
+					</div>
+				</div>
+			</div>
+			<hr/>
+			
 			<div class="row">
 				<h3>Compute</h3>
 				<div class="twelve columns">
@@ -129,21 +142,6 @@ permalink: /
 
 			<hr/>
 
-			<div class="row">
-				<h3>Rackspace Private Cloud</h3>
-				<div class="twelve columns">
-					<div class="four columns primary icon private">
-						<h4>
-							<a href="/how-to/rpc-microsoft/"><span>Rackspace Private Cloud</span> Powered by Microsoft Cloud Platform</a>
-						</h4>
-					</div>
-					<div class="five columns icon private">
-						<h4>
-							<a href="/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a>
-						</h4>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 
