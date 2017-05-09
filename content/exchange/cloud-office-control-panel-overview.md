@@ -122,8 +122,6 @@ Following are some of the options available in the **Domains** section of the co
 
 The **My Account** section is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. This section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and find general information.
 
-<img src="{% asset_path exchange/microsoft-exchange-cloud-office-control-panel-overview/microsoft-exchange-cp-account-4.jpg %}" alt="Cloud Office Control Panel My Account" />
-
 Following are the options available for the **My Account** section in the control panel:
 
 #### Billing & Payments
