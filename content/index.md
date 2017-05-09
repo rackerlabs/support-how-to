@@ -15,9 +15,6 @@ permalink: /
 					<li>
 						<a href="/how-to/dedicated-hosting">Dedicated Hosting</a>
                     </li>
-					<li>
-						<a href="https://developer.rackspace.com/docs/user-guides/infrastructure/" class="inactive">Cloud User Guide</a>
-					</li>
 				</ul>
 			</div>
 		</div>
