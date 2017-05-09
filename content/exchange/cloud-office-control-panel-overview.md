@@ -24,13 +24,13 @@ The **Reseller Tools** section provides you reseller options for Rackspace Email
 
 Following are some of the options available in Reseller Tools section of the control panel:
 
-- **Customers** -
-- **Add customers** -
-- **Administrators** -
-- **Domains** -
-- **Webmail sites** -
-- **Sharepoint** -
-- **Partner Portal** -
+- **Customers** - List customers for your reseller account.
+- **Add customers** - Add new customers to your reseller account.
+- **Administrators** - Manage administrators for customer accounts.
+- **Domains** - Manage licenses for customer domains
+- **Webmail sites** - Add webmail sites for customers
+- **Sharepoint** - Manage Sharepoint sites for customers
+- **Partner Portal** - Link to portal which provides extra resources for resellers such as documentation and support tools.
 
 ### Email Hosting
 
