@@ -67,23 +67,23 @@ and encryption.
 #### Installation files
 
 You can find the installation files while logged in to
-either https://cp.rackspace.com or into the
-https://my.rackspace.com, depending on how you normally log
+either the [Cloud Office control panel](https://cp.rackspace.com) or into the
+[MyRackspace Portal](https://my.rackspace.com), depending on how you normally log
 in.
 
-Administrators who log in to https://my.rackspace.com as
+Administrators who log in to the MyRackspace Portal as
 the primary contact can follow these steps:
 
 1. Click the **Products** tab and select **Cloud Office** from the menu.
 2. Click on your domain. The Directory Sync installers are located in the right column.
 
-Administrators who log in to [https://cp.rackspace.com](https://cp.rackspace.com) with Super Admin permission can follow these steps:
+Administrators who log in to the Cloud Office control panel with Super Admin permission can follow these steps:
 
 1. While on the home page, click **Domains**.
 2. On the Domains Home page, click on **Tools**, and then click the **Directory Sync** tab.
 
   The Directory Sync installers are listed at the bottom of the page.
-
+  
 Choose the appropriate installer, based on either 32- or 64-bit platforms.
 
 - **Directory Sync Service x64.msi**
