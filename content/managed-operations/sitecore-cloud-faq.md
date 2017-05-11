@@ -15,7 +15,7 @@ product_url: managed-operations
 
 #### How do I sign-up for Sitecore Managed Cloud?
 
-#### What are support levels are offered for Sitecore Managed Cloud?
+#### What support levels are offered for Sitecore Managed Cloud?
 
 #### Which regions is Sitecore available in?
 
@@ -32,7 +32,7 @@ Sitecore on Azure Paas services is available in the following Azure Regions, as 
 
 #### How do I login into my Sitecore content management site?
 
-For instructions on how to login into your Sitecore content management, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/)
+For instructions on how to login into your Sitecore content management, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
 
 #### Where can I see my account and billing information?
