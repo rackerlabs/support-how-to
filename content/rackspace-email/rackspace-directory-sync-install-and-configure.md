@@ -5,17 +5,17 @@ title: 'Rackspace Directory Sync: Install and configure'
 type: article
 created_date: '2013-04-25'
 created_by: Kevin Richey
-last_modified_date: '2016-01-12'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-05-11'
+last_modified_by: Cory Aldrich
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Rackspace Directory Sync allows Rackspace Hosted Email customers to synchronize their local Active Directory objects and user passwords with Rackspace Hosted Email in real time. This article describes how to install and configure Rackspace Directory Sync.
+Rackspace Directory Sync enables Rackspace Hosted Email customers to synchronize their local Active Directory objects and user passwords with Rackspace Hosted Email in real time. This article describes how to install and configure Rackspace Directory Sync.
 
 ### System requirements
 
-A functional level of domain controller and Active Directory
+A functional level of domain controller (DC) and Active Directory such as:
 
 - Windows Server 2008
 - Windows Server 2008 R2
@@ -34,23 +34,23 @@ A functional level of domain controller and Active Directory
 
 #### Software prerequisites
 
-You must have NET Framework version 4.0 on the target domain controller
-and any other domain controllers in the forest. You can download the
+You must have NET Framework version 4.0 on the target DC
+and any other DCs in the forest. You can download the
 appropriate .NET Framework from the [Microsoft Download
 Center](http://www.microsoft.com/download/en/details.aspx?id=17718).
 
 #### Firewall ports
 
 You do not have to open any inbound ports from the Internet to your
-domain controllers.
+DCs.
 
 Enable the following ports on the Directory Sync server:
 
 - **443** - Outbound HTTPS connections from the Directory Sync service
     to the Rackspace API.
-- **8732** - Open for connections from other domain controllers to the
-    Directory Sync server not used for any connections outside
-    your network. This port is used by domain controller password
+- **8732** - Open for connections from other DCs to the
+    Directory Sync server, but not used for any connections outside
+    your network. This port is used by DC password
     hooks.
 - **8080** - Used only locally on the Directory Sync service server
     for a web browser user interface. You can block this port for any
@@ -67,18 +67,15 @@ and encryption.
 #### Installation files
 
 You can find the installation files while logged in to
-either [https://cp.rackspace.com](https://cp.rackspace.com) or into the
-[https://my.rackspace.com](https://my.rackspace.com), depending on how you normally log
+either https://cp.rackspace.com or into the
+https://my.rackspace.com, depending on how you normally log
 in.
 
-Administrators who log in to [https://my.rackspace.com](https://my.rackspace.com) as
+Administrators who log in to https://my.rackspace.com as
 the primary contact can follow these steps:
 
-1. Click the **Products** tab and select **Email and Apps** from
-    the menu.
-2. Click on your domain.
-
-  The Directory Sync installers are located in the right column.
+1. Click the **Products** tab and select **Cloud Office** from the menu.
+2. Click on your domain. The Directory Sync installers are located in the right column.
 
 Administrators who log in to [https://cp.rackspace.com](https://cp.rackspace.com) with Super Admin permission can follow these steps:
 
