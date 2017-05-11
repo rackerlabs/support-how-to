@@ -12,29 +12,34 @@ product_url: exchange
 ---
 
 After you sign up for Cloud Office services through Rackspace, the first thing to do is log in to the Cloud Office Control Panel. This article
-provides a brief overview of the features that you have access to in the control panel. New Cloud Office customers can access the control panel [here](https://cp.rackspace.com/) and UK and MyRackspace customers can log in [here](https://my.rackspace.com/).
+provides a brief overview of the features that you can access to in the control panel.
 
-After you log in to the control panel, you will see a variety of
-sections that showcase the services for which you have signed up. Each section has a variety of
-options and tools to choose from. As you sign up for additional services, they will appear here to enable you to manage them directly from the landing page.
+### Logging in
+
+Use one of the following links to log in to the Cloud Control Panel:
+
+[Login for new Cloud Office customers](https://cp.rackspace.com/)
+[Login for UK and MyRackspace customers](https://my.rackspace.com/).
+
+After you log in, you see sections that represent the services for which you signed up.Each section has several options and tools to choose from. As you sign up for additional services, they appear here to enable you to manage them directly from the landing page.
 
 ### Reseller tools
 
-The **Reseller Tools** section provides you reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains and sites, and gaining access to the reseller Partner Portal.
+The Reseller Tools section provides reseller options for Rackspace Email, such as adding new customers: managing reseller administrators, domains and sites, and gaining access to the reseller Partner Portal.
 
-Following are some of the options available in Reseller Tools section of the control panel:
+Following are some of the options available in Reseller Tools section:
 
 - **Customers** - List customers for your reseller account.
 - **Add customers** - Add new customers to your reseller account.
 - **Administrators** - Manage administrators for customer accounts.
 - **Domains** - Manage licenses for customer domains
 - **Webmail sites** - Add webmail sites for customers
-- **Sharepoint** - Manage Sharepoint sites for customers
-- **Partner Portal** - Link to portal which provides extra resources for resellers such as documentation and support tools.
+- **SharePoint** - Manage SharePoint sites for customers
+- **Partner Portal** - Link to a portal that provides extra resources for resellers such as documentation and support tools.
 
 ### Email Hosting
 
-The **Email Hosting** section provides you with options and tools for Rackspace Email such as spam filtering, group lists, aliases, and mobile devices.
+The Email Hosting section provides you with options and tools for Rackspace Email such as spam filtering, group lists, aliases, and mobile devices.
 
 Following are some of the options available in the **Email Hosting** section of the control panel:
 
@@ -43,10 +48,10 @@ Following are some of the options available in the **Email Hosting** section of 
 -  **Mailboxes** - Add new mailboxes for your domain.
 -  **Aliases** - Manage your company's alias addresses.
 -  **Group Lists** - Email a large number of people by assigning them to a group list.
--  **Filter Settings** (see **Spam Filtering** below) - Control spam handling settings for users or the entire domain.
+-  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following **Spam** section.
 -  **Mobile Sync** - Enable your mobile devices to handle mail and PIM data (for example, Contacts and Calendars), which syncs to Rackspace Webmail.
 
-#### Spam Filtering
+#### Spam
 
 -  **Filter settings** - Control your domain spam settings or individual settings, such as spam filtering.
 -  **Blacklists** - Control domain or individual mailbox blacklist settings.
@@ -54,9 +59,9 @@ Following are some of the options available in the **Email Hosting** section of 
 
 ### Hosted Exchange
 
-The **Microsoft Exchange** section provides you with options and tools such as spam filtering, distribution lists, contacts, resources, and mobile devices.
+The Microsoft Exchange section provides you with options and tools such as spam filtering, distribution lists, contacts, resources, and mobile devices for Microsoft Exchange.
 
-Following are some of the options available in the **Microsoft Exchange** section of the control panel:
+Following are some of the options available in the **Hosted Exchange** section of the control panel:
 
 #### Email Accounts
 
@@ -67,7 +72,7 @@ Following are some of the options available in the **Microsoft Exchange** sectio
 -  **Contacts** - Manage your company's Exchange contacts.
 -  **Folders** - Enable and manage your domain's public folders.
 -  **Mobile** - Add ActiveSync and BlackBerry Enterprise Service licenses for users on your domain to enable them to synchronize email, contacts, and calendars to their mobile devices.
--  **Filter Settings** (see **Spam Filtering** below) - Control spam handling settings for users or the entire domain.
+-  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following “Spam” section.
 
 #### Spam Filtering
 
@@ -77,32 +82,33 @@ Following are some of the options available in the **Microsoft Exchange** sectio
 
 ### Microsoft Office 365
 
-The **Microsoft Office 365** section provides a link manage your Office 365 reseller account and Microsoft Partner features. If you're a first time Microsoft Partner user, follow the instructions provided when clicking the link to activate your account.
+The Microsoft Office 365 section provides a link manage your Office 365 reseller account and Microsoft Partner features. If you're a first time Microsoft Partner user, follow the instructions provided after you click the link to activate your account.
 
 ### Microsoft SharePoint
 
-The **Microsoft SharePoint** section provides the URL for your SharePoint site, manage your site collection, manage SharePoint site users, and the change the administrator for your Sharepoint site.
+The Microsoft SharePoint section provides the URL for your SharePoint site and provides options for managing your site collection, managing SharePoint site users, and the changing the administrator for your SharePoint site.
 
 ### Domains
 
-The **Domains** section allows you to access your domain's DNS settings, add disclaimers, view domains, and manage spam filter settings.
+The Domains section provides access your domain's DNS settings, and options to add disclaimers, view domains, and manage spam filter settings.
 
-Following are some of the options available in the **Domains** section of the control panel:
+Following are some of the options available in the Domains section of the control panel:
 
 #### Manage
 -  **Domains** - View a list of all domains associated with the account.
--  **Add Domain** - Add additional domains to your account (this requires the addition of services for the domain).
+-  **Add Domain** - Add additional domains to your account (which requires the addition of services for the domain).
 -  **Domain Aliases** - Display domain aliases for your domains.
 -  **DNS Settings** - Manage and view your domain's DNS settings.
+- **Sender Authentication (DKIM)** - Adds a secure signature to your domain for authentication.
 -  **Email Archiving** - Archive all incoming and outgoing email for your domain.
 -  **BCC Archiving** - Archive your domain's incoming and outgoing email to another mailbox.
 -  **Global Access Rights** - Grant or disable access for POP or IMAP connections.
 
-#### Spam Filtering
+#### Spam
 -  **Filter Settings** - Control your domain spam settings or individual mailbox settings for spam.
 -  **Blacklists** - Control domain or individual mailbox blacklists settings.
 -  **Safelists** - Control domain or individual mailbox safelists settings.
--  **Blacklists / Safelists Search** - Search for users on blacklists or safelists.
+-  **Search** - Search for users on blacklists or safelists.
 
 #### Tools
 -  **Split Domain** - Set up and manage split domain routing.
@@ -120,16 +126,16 @@ Following are some of the options available in the **Domains** section of the co
 
 ### My Account
 
-The **My Account** section is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. This section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and find general information.
+The My Account option is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and to find general information.
 
-Following are the options available for the **My Account** section in the control panel:
+Following are the options available for the account section:
 
 #### Billing & Payments
 -  **Company Info** - Manage your account contact information and credit card information.
 -  **Invoice History** - Manage and view past and present account invoices.
 -  **Unpaid Invoices** - View your unpaid invoices.
 
-#### Upgrades & Services
+#### Services
 -  **Email Hosting** - Upgrade your services with Rackspace Email or Microsoft Exchange.
 -  **Service Summary** - View a summary of your billed services.
 -  **Pending Cancellations** - View any pending cancellation requests.
@@ -143,15 +149,15 @@ Following are the options available for the **My Account** section in the contro
 View control panel activity over the last 90 days.
 
 #### Product Feedback
-Provide feedback on our products and services.
+Provide feedback about our products and services.
 
 ### Support
 
-The **Support** section enables you to view or create support tickets if you ever need assistance.
+The **Support** menu enables you to view or create support tickets if you need help.
 
-Following are the options available in the **Support** section of the control panel:
+The following options available in the **Support** menu:
 
 -  **Email Setup Wizard** - View useful mailbox information while using step-by-step instructions on how to set up your Cloud Office services.
 -  **View Tickets** - Create a new ticket and view any past tickets on the Support Tickets landing page.
 
-If you need assistance with a specific feature, you can use the [Help tool for hosted email and Skype for business](https://support.rackspace.com/how-to/help-tool-for-hosted-email-and-skype-for-business/).
+If you need assistance help a specific feature, read about how to use the [Help tool for hosted email and Skype for business](https://support.rackspace.com/how-to/help-tool-for-hosted-email-and-skype-for-business/).
