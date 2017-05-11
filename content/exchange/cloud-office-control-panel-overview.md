@@ -1,6 +1,6 @@
 ---
 permalink: cloud-office-control-panel-overview/
-audit_date:
+audit_date: '2017-05-11'
 title: Cloud Office Control Panel overview
 type: article
 created_date: '2012-05-23'
@@ -57,11 +57,11 @@ Following are some of the options available in the **Email Hosting** section of 
 -  **Blacklists** - Control domain or individual mailbox blacklist settings.
 -  **Safelists** - Control domain or individual mailbox safelist settings.
 
-### Hosted Exchange
+### Microsoft Exchange
 
 The Microsoft Exchange section provides you with options and tools such as spam filtering, distribution lists, contacts, resources, and mobile devices for Microsoft Exchange.
 
-Following are some of the options available in the **Hosted Exchange** section of the control panel:
+Following are some of the options available in the **Microsoft Exchange** section of the control panel:
 
 #### Email Accounts
 
@@ -74,7 +74,7 @@ Following are some of the options available in the **Hosted Exchange** section o
 -  **Mobile** - Add ActiveSync and BlackBerry Enterprise Service licenses for users on your domain to enable them to synchronize email, contacts, and calendars to their mobile devices.
 -  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following “Spam” section.
 
-#### Spam Filtering
+#### Spam
 
 -  **Settings** - Control your domain spam settings or individual mailbox settings, such as spam filtering.
 -  **Blacklists** - Control domain or individual mailbox blacklists settings.
