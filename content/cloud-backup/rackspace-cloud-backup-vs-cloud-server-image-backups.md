@@ -21,7 +21,7 @@ Using an image as a backup works well for saving a configuration or keeping gold
 
 - Images are not verified, so you need to actually build a server from an image to verify that it can boot a valid server. 
 - Imaging the server captures the whole system disk, which is not helpful when you need only individual files. You cannot recover a single file from that image or update a single file.
-- Image backups are not incremental: They copy the whole system every time.
+- Image backups are not incremental: they copy the whole system every time.
 
 In contrast, with Cloud Backup you can specify which folders or files to back up or restore. Cloud Backup can help you streamline your backup and restore process by choosing only the files that you need, rather than having to restore an entire image.
 
