@@ -1,52 +1,34 @@
 ---
 permalink: rackspace-cloud-backup-vs-cloud-server-image-backups/
-audit_date:
+audit_date: '2017-05-15'
 title: Rackspace Cloud Backup vs. Cloud Server Image Backups
 type: article
 created_date: '2012-06-06'
 created_by: Rackspace Support
-last_modified_date: '2017-05-04'
+last_modified_date: '2017-05-15'
 last_modified_by: Brian King
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-Rackspace Cloud users can image their [Cloud Server](http://www.rackspace.com/cloud/servers) and use the resulting image as a backup. This works well for saving configuration or keeping gold copies of your system.  However, images are not verified, so you should build a server from an image to verify that it can boot a valid server. Additionally, imaging the server captures the whole system disk, which may be overkill when you just need individual files. You cannot recover a single file from that image, or update a single file.
+Rackspace customers now have two options for backing up their cloud servers:
 
-**Note:** You can learn more about scheduling images from the [Scheduled Images FAQ](/how-to/scheduled-images-faq).
+- **Rackspace Cloud Backup**, which is a fully integrated, file-based backup solution that helps protect your data on cloud servers. For additional information, see the [Cloud Backup introduction](https://support.rackspace.com/how-to/cloud-backup/).
 
-In contrast, Rackspace Cloud Backup is a **FILE-BASED backup**.
-This means that you can specify what folders or files to backup or
-restore. Rackspace Cloud Backup can help you streamline your backup and restore process by choosing 
-only the files you need, rather having to restore an entire image.
+- **Cloud server image backup**, which provides a copy of the entire state of a server stored on Cloud Files. Images can be scheduled or created on-demand. For additional information, see [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/) and [Scheduled Images FAQ](/how-to/scheduled-images-faq/).
 
-Moreover, Rackspace Cloud Backup is also an **INCREMENTAL backup** tool
-in that it only copies the portion of the files that changed for those
-files that actually changed. This gives you some flexibility because,
-with the exception of your first complete backup, every subsequent
-backup is just a "delta" of the previous backup, which makes for faster
-backup and restores operations and also reduces the storage required. As
-you probably know, image backups are not incremental: they copy the
-whole system every time.
+Using an image as a backup works well for saving a configuration or keeping gold copies of your system. However, this method has some disadvantages:
 
-Rackspace customers now have two options for backing up their Cloud
-Servers. Below is a summary of both:
+- Images are not verified, so you need to actually build a server from an image to verify that it can boot a valid server. 
+- Imaging the server captures the whole system disk, which is not helpful when you need only individual files. You cannot recover a single file from that image, or update a single file.
+- Image backups are not incremental: they copy the whole system every time.
 
--   **Rackspace Cloud Backup** - Rackspace Cloud Backup is a fully
-    integrated, file-based backup solution that helps protect your data
-    on cloud servers. For additional information, see the [Cloud Backup introduction](/how-to/cloud-backup).
+In contrast, with Cloud Backup you can specify what folders or files to back up or restore. Rackspace Cloud Backup can help you streamline your backup and restore process by choosing only the files that you need, rather than having to restore an entire image.
 
--   **Cloud Server Image Backup** - Cloud Server Image Backup is a copy
-    of the entire state of a Cloud Server stored on Cloud Files. Images
-    can be scheduled or created on-demand. For additional information,
-    check out [Creating A New Cloud Server From A Saved Image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+Moreover, Cloud Backup is an incremental backup tool. It copies only the portion of the files that changed for those files that actually changed. Except for your first complete backup, every subsequent backup is just a "delta" of the previous backup, so this method provides faster backup and restore operations and also reduces the storage required. 
 
-**Note:** With I/O-optimized Cloud Servers, only the
-system disk is captured when using an Image Backup. If you require
-backups of your data disk or disks, use Cloud Backup so you configure
-your backup to include the specific drives and directories you want to
-retain. To determine which product best suits your backup needs, visit
-the links below:
+**Note:** With I/O-optimized cloud servers, only the system disk is captured when you use an image backup. If you require backups of your data disk or disks, use Cloud Backup so that you can configure your backup to include the specific drives and directories that you want to retain. 
 
--   [Cloud Block Storage overview](/how-to/cloud-block-storage-overview)
--   [Cloud Backup](/how-to/cloud-backup)
+
+
+
