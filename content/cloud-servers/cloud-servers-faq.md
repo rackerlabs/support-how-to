@@ -6,7 +6,7 @@ type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
 last_modified_date: '2017-05-12'
-last_modified_by: Cat Lookabaugh
+last_modified_by: Brian King
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -215,8 +215,7 @@ support that you need to get the most out of the Cloud.
 #### Can I install the Rackspace Private Cloud on virtual machines?
 
 Rackspace strongly recommends that you install Rackspace Private Cloud
-on physical hardware nodes running Ubuntu 12.04 or CentOS 6.3.
-Installation on virtual platforms should only be performed for
+on physical hardware nodes. Installation on virtual platforms should only be performed for
 evaluation purposes.
 
 ------------------------------------------------------------------------
@@ -247,7 +246,7 @@ communicate between servers. The traffic that flows over this interface
 also referred to as ServiceNet. ServiceNet is an internal only,
 multi-tenant network connection within each Rackspace datacenter.
 ServiceNet IPs are not accessible from the public Internet and are local
-per datacenter.
+per datacenter. You can also deploy with Cloud Networks, which are single-tenant. 
 
 #### Can I buy extra public IPs?
 
@@ -300,9 +299,9 @@ the same functions as a control panel.
 
 #### Do you provide Console access?
 
-Yes, via a Java web terminal accessible through the Details section of
+Yes, via an HTML5 web terminal accessible through the Details section of
 each webserver, in the Actions menu under the section labeled Manage,
-you will see a link to Connect Via Terminal.
+you will see a link to Connect Via Emergency Console.
 
 **Note**: Console access is via a secure HTTP connection which is
 different connection from the traditional way to connect via SSH for
@@ -311,9 +310,7 @@ if your server is unresponsive or you have locked yourself out.
 
 #### Can I reboot my machine?
 
-Yes. All Cloud Servers can perform both soft (reset button) and hard
-(power cycle) reboots. These are performed instantly and handled via the
-Cloud Server Control Panel.
+Yes, select **Reboot** under Actions in Cloud Control Panel. This is useful if you server is unresponsive. 
 
 #### Will I be billed if my server is powered off?
 
@@ -400,8 +397,8 @@ There are different processes of resizes, as follows:
 
     This includes: Standard resize down.
 
-**NOTE**: Resizing is not available for workload-optimized Cloud
-Servers. For information on your available options, see [Changing the size of your workload-optimized Cloud Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
+**NOTE**: Resizing is not available for work-optimized Cloud
+Servers. For information on your available options, see [Upgrade resources for General Purpose or work-optimized Cloud Servers](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
 #### Can I buy extra storage?
 
@@ -413,14 +410,13 @@ any time with our [Cloud Block Storage](http://www.rackspace.com/cloud/blockstor
 
 ### Performance
 
-#### What is the difference between Standard and the newer General Purpose and Work-Optimized Cloud Servers?
+#### What is the difference between Standard and General Purpose/work-optimized Cloud Servers?
 
-There are several noteworthy differences between Standard and General
-Purpose Cloud Servers:
+There are several noteworthy differences between Standard and General Purpose work-optimized Cloud Servers:
 
 -   General Purpose Cloud Servers use faster solid state drives (SSD)
     compared to the standard spinning disk allocation for Standard
-    Cloud Servers. Work-optimized servers can boot from Cloud Block Storage, and you can choose the size of your system disk (50 GB-1 TB) and your disk medium (SATA or SSD).
+    Cloud Servers. Work-optimized servers (I/O, Compute, or Memory flavors) can boot from Cloud Block Storage. You can choose the size of your system disk (50 GB-1 TB) and your disk medium (SATA or SSD).
 -   Up to 240 GB of RAM is available on work-optimized servers (Memory flavor), whereas
     Standard Servers provide up to 30 GB of RAM.
 -   You can have up to 32 vCPUs running on work-optimized Cloud
@@ -429,7 +425,7 @@ Purpose Cloud Servers:
     public and 1200 Mbps private network. Maximum network
     bandwidth on work-optimized Cloud Servers is 5Gbps public and 10Gbps private network.
 
-For more information about General Purpose Cloud Servers, see [What is new with General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
+For more information about General Purpose Cloud Servers, see [New features in General Purpose and work-optimized Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
 
 ------------------------------------------------------------------------
 
@@ -589,10 +585,7 @@ The maximum limits are as follows:
 
 #### When a Cloud Server is deleted how is the data removed from the host server?
 
--   Cloud Servers use VHD storage. Once a server is
-    deleted the VHD is deleted, similar to the way you would do a rm
-    command in Linux. When that is done the VHD is completely removed
-    thus allowing another one to be created.
+-   Cloud Servers use VHD storage. When a Cloud Server is deleted, the VHD file is securely and immediately deleted. It is not possible to recover a Cloud Server that has been deleted.
 
 ------------------------------------------------------------------------
 
