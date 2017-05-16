@@ -368,38 +368,6 @@ data storage space in one of two ways:
 The number of customers on a Cloud Server host machine depends on the
 size of the customers' Cloud Servers, and the type of operating system.
 
-#### How long does a standard Cloud Server resize take?
-
-The amount of time a resize takes varies by the size of the server and
-the time of day you are performing the resize. If you have a brand-new
-server with no additional data or software installed, then you might be
-looking at 10 minutes. However, if you have data installed on your
-server and have been installing software then it can take up to 30
-minutes or more. Peak times for resize activity tend to be at the start
-and end of the business day. Expect a short period of downtime while
-your server is being resized.
-
-Note also that resizing a server down can take longer than resizing up
-because the system needs to consolidate and copy data to a smaller disk
-container rather than expand the existing container. Cleaning up
-unneeded files (like old logs and session files) can improve the speed
-of a resize operation.
-
-There are different processes of resizes, as follows:
-
--   **Online Resizes**: Allow for the original sized Cloud Server to be
-    powered on during the "Prep-Resize" step, and only powers down
-    during the second step of the resize process.
-
-    This includes: Standard resize up.
-
--   **Offline Resizes**: Power down as the first "Prep-Resize" step.
-
-    This includes: Standard resize down.
-
-**NOTE**: Resizing is not available for work-optimized Cloud
-Servers. For information on your available options, see [Upgrade resources for General Purpose or work-optimized Cloud Servers](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
-
 #### Can I buy extra storage?
 
 While the native storage allocation for a Cloud Server is based on the
