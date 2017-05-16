@@ -5,18 +5,18 @@ title: Detailed permissions matrix for support tickets
 type: article
 created_date: '2017-05-04'
 created_by: Hari Gaire
-last_modified_date: '2017-05-04'
-last_modified_by: Hari Gaire
+last_modified_date: '2017-05-16'
+last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
 ---
 
 The permissions matrix for support tickets displays the specific capabilities for the following roles:
 
-- Admin provides full access to create, read, update, and close.
-- Observer provides read-only access.
+- **Admin** provides full access to create, read, update, and close.
+- **Observer** provides read-only access.
 
-### Support Tickets
+### Support tickets
 
 Capability | Role | Description
 :---: | :---: | :---:
@@ -29,4 +29,4 @@ Close ticket | **Admin** | Closes the ticket for the current account.
 
 ### Related articles
 
--  [Permissions Matrix for Role-Based Access Control (RBAC) for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
