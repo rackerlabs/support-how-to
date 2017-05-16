@@ -1,20 +1,20 @@
 ---
 permalink: detailed-permissions-matrix-for-billing-services/
 audit_date: '2017-02-28'
-title: Detailed permissions matrix for billing services
+title: Detailed permissions matrix for billing and payment services
 type: article
 created_date: '2013-09-19'
 created_by: Renee Rendon
-last_modified_date: '2017-02-28'
-last_modified_by: Nate Archer
+last_modified_date: '2017-05-16'
+last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
 ---
 
 The permissions matrix for billing and payment services displays the specific capabilities for the following roles:
 
-- Admin provides full access to create, read, update, and delete.
-- Observer provides read-only access.
+- **Admin** provides full access to create, read, update, and delete.
+- **Observer** provides read-only access.
 
 ### Billing services
 
@@ -56,4 +56,4 @@ Delete default payment method | **Admin** | Deletes the default payment method f
 ### Related articles
 
 -  [Billing services overview](/how-to/billing-services-overview)
--  [Permissions Matrix for Role-Based Access Control (RBAC) for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+-  [Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
