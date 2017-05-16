@@ -371,27 +371,6 @@ data storage space in one of two ways:
 The number of customers on a Cloud Server host machine depends on the
 size of the customers' Cloud Servers, and the type of operating system.
 
-#### How does the CPU scheduling work on Standard servers?
-
-**Note**: [General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers)
-have specific virtual CPU allocations, as detailed on the [Cloud Servers pricing page](http://www.rackspace.com/cloud/servers/pricing/). The
-following information on CPU scheduling applies to standard Cloud Servers only.
-
-For Windows images, each Cloud Server is assigned a number of virtual
-cores based on the size of the Cloud Server. The Standard 1 GB Cloud
-Server receives 1 virtual core, the standard 2 GB and 4 GB Cloud Servers
-receive 2 virtual cores, the standard 8 GB and 15.5 GB Cloud Servers
-receive 4 virtual cores, and the standard 30GB servers receive 8 virtual
-cores. Each of these cores is given equal weight when allocating CPU
-cycles.
-
-For Linux distributions, each Standard Cloud Server is assigned the
-number of virtual cores and the CPU cycles allocated to these cores, as
-selected when creating the server in the Control Panel.
-
-All standard Cloud Servers receive a guaranteed minimum amount of CPU
-cycles with the ability to burst when excess cycles are available.
-
 #### How long does a standard Cloud Server resize take?
 
 The amount of time a resize takes varies by the size of the server and
@@ -434,22 +413,21 @@ any time with our [Cloud Block Storage](http://www.rackspace.com/cloud/blockstor
 
 ### Performance
 
-#### What is the difference between Standard and General Purpose Cloud Servers?
+#### What is the difference between Standard and the newer General Purpose and Work-Optimized Cloud Servers?
 
 There are several noteworthy differences between Standard and General
 Purpose Cloud Servers:
 
 -   General Purpose Cloud Servers use faster solid state drives (SSD)
     compared to the standard spinning disk allocation for Standard
-    Cloud Servers.
--   Up to 120 GB of RAM is available on General Purpose servers, whereas
+    Cloud Servers. Work-optimized servers can boot from Cloud Block Storage, and you can choose the size of your system disk (50 GB-1 TB) and your disk medium (SATA or SSD).
+-   Up to 240 GB of RAM is available on work-optimized servers (Memory flavor), whereas
     Standard Servers provide up to 30 GB of RAM.
--   You can have up to 32 vCPUs running on General Purpose Cloud
-    Servers, comapred to the maximum of 8 on the Standard Cloud Servers.
--   Maximum network bandwidth on Standard Cloud Servers is 300 Mbps
-    public network and 600 Mbps private network. Maximum network
-    bandwidth on General Purpose Cloud Servers is 10,000 Mbps to divide
-    between public and private networks as you choose.
+-   You can have up to 32 vCPUs running on work-optimized Cloud
+    Servers, compared to the maximum of 8 on the Standard Cloud Servers.
+-   Maximum network throughput on Standard Cloud Servers is 600 Mbps
+    public and 1200 Mbps private network. Maximum network
+    bandwidth on work-optimized Cloud Servers is 5Gbps public and 10Gbps private network.
 
 For more information about General Purpose Cloud Servers, see [What is new with General Purpose Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
 
