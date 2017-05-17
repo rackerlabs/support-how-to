@@ -25,18 +25,18 @@ To enable DKIM for a domain, log in to the [Cloud Office Control Panel](https://
 
    <img src="{% asset_path rackspace-email/enable-dkim-in-the-cloud-office-control-panel/domain-home-page.png %}"/>
 
-2.  On the **Sender Authentication (DKIM)** page, select the domain to enable DKIM from the domain list.  
+2. On the **Sender Authentication (DKIM)** page, select the domain to enable DKIM from the domain list.  
 
     <img src="{% asset_path rackspace-email/enable-dkim-in-the-cloud-office-control-panel/dkim-domain-list.png %}"/>
 
-3.  Click the **Enable DKIM for <your domain>** button.  
+3. Click the **Enable DKIM for <your domain>** button.  
 
     If your domain's DNS is managed through your Cloud Office Control Panel, then DKIM enabling is automatic.
 
-4.  If your domain's DNS is managed through another service, then you will be provided with the DNS key and value information for adding the new TXT record. Consult the help documentation of your DNS hosting provider for instructions on adding a new TXT record for your domain.  
+4. If your domain's DNS is managed through another service, then you will be provided with the DNS key and value information for adding the new TXT record. Consult the help documentation of your DNS hosting provider for instructions on adding a new TXT record for your domain.  
 
 
-5.  After adding the DKIM TXT record, click the **Verify TXT Record** button to ensure the new DKIM record is publicly available in DNS and is correct.  
+5. After adding the DKIM TXT record, click the **Verify TXT Record** button to ensure the new DKIM record is publicly available in DNS and is correct.  
 
    If validation fails, then an appropriate error message will display to guide you in correcting the problem.  
 
