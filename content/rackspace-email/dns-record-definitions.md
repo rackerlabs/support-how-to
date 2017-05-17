@@ -72,7 +72,9 @@ Example:
 
 ###TXT Record
 – “Text Record”. TXT records are referenced by external sources to check for domain specific polices such as SPF, DKIM, and DMARC.
+
 Example:
+
 |Type    |Hostname                  |Destination                            |TTL    |
 |--------|--------------------------|---------------------------------------|-------|        
 |TXT     |           @              |v = spf1 include: emailsrvr.com ~ all  |3600   |
