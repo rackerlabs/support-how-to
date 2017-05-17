@@ -5,17 +5,11 @@ title: Set up DNS records for Cloud Office email and Skype for Business
 type: article
 created_date: '2014-08-15'
 created_by: Cody Jobson
-last_modified_date: '2017-02-22'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-05-16'
+last_modified_by: William Loy
 product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
-
-To complete the configuration of your Rackspace Email, your hosted
-implementation of Microsoft Exchange, or your hosted implementation of
-[Microsoft Skype for Business](#set-up-dns-records-for-hosted-skype-for-business), you must set up DNS records. If incorrect
-DNS settings are associated with your domain, you will experience
-problems using these applications.
 
 ### Initial Domain (DNS) Configuration to Send/Receive Email
 
@@ -32,7 +26,7 @@ The following DNS entries are required to properly use email services at Rackspa
 
 **MX Records** tell other email providers where to properly send mail. In this case, you would like to set your MX Records to point to Rackspace. [More on MX Records](#).
 **SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability success of your outgoing emails. [More on SPF Records](#)
-**Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier user email client setups. [More on Autodiscover Records](#)
+**Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier user email client setups. [More on Autodiscover Records](#autodiscover-records)
 
 
 **Warning:** Changing DNS settings for a domain that was previously hosting email elsewhere will require user email clients and devices to be reconfigured to point to Rackspace. Send your users to [http://emailhelp.rackspace.com](http://emailhelp.rackspace.com) to assist them with new settings.
