@@ -20,7 +20,7 @@ product_url: rackspace-email
 **Tools Required:** N/A
 
 ## Overview
-This is a brief overview of common email related DNS records.
+This is a brief overview of common email related DNS records. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 ## DNS Record Definitions
  Record definitions include an example of how to configure these records at your DNS hosting provider.

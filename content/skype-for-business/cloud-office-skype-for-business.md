@@ -20,7 +20,7 @@ product_url: skype-for-business
 **Tools Required:** DNS host administrator access
 
 ## Overview
-Instructions for configuring Rackspace Cloud Office Skype for Business
+Instructions for configuring Rackspace Cloud Office Skype for Business. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 ## **Set up DNS records for Hosted Skype for Business**
 

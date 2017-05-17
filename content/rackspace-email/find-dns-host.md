@@ -20,8 +20,8 @@ product_url: rackspace-email
 **Tools Required:** Internet Browser
 
 
-## Overview: 
-To locate the location of your domain’s DNS host.
+## Overview:
+To locate the location of your domain’s DNS host. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 ## Find your DNS host
 

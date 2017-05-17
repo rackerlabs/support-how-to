@@ -37,7 +37,7 @@ The following DNS entries are required to properly use email services at Rackspa
 
 **MX Records** tell other email providers where to send email. In this case, you would like to set your MX Records to point to Rackspace. [More on MX Records](https://support.rackspace.com/how-to/dns-record-definitions#mx-record).
 
-**SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability of your outgoing emails. [More on SPF Records](https://support.rackspace.com/how-to/dns-record-definition#txt-record)
+**SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability of your outgoing emails. [More on SPF Records](https://support.rackspace.com/how-to/dns-record-definitions#txt-record)
 
 **Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier email client setups. [More on Autodiscover Records](https://support.rackspace.com/how-to/dns-record-definitions#cname-record)
 
