@@ -10,10 +10,12 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**APPLIES TO: Account Administrator**
-Difficulty: Moderate
-Time Needed: 30 minutes to figure/24-48 hours to propagate
-Tools Required: DNS host administrator access
+**APPLIES TO:** Account Administrator
+Difficulty: Moderate 
+
+**Time Needed:** 30 minutes to figure/24-48 hours to propagate
+
+**Tools Required:** DNS host administrator access
 
 ## Overview
 This article will instruct you how to configure you domain's DNS to start receiving email at Rackspace Cloud Office
