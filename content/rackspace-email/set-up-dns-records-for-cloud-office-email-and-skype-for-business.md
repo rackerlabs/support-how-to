@@ -12,47 +12,51 @@ product_url: rackspace-email
 ---
 **APPLIES TO:** Account Administrator
 
-**Difficulty:** Moderate 
+**Difficulty:** Moderate
 
-**Time Needed:** 30 minutes to figure/24-48 hours to propagate
+**Time Needed:** 30 minutes to configure/24-48 hours to propagate
 
 **Tools Required:** DNS host administrator access
 
 ## Overview
-This article will instruct you how to configure you domain's DNS to start receiving email at Rackspace Cloud Office
+This article will instruct you how to configure your domain's DNS to start receiving email at Rackspace Cloud Office
 
 
 ## Initial Domain (DNS) Configuration to Send/Receive Email
 
-DNS tells the world how email should be handled and routed for your domain. This guide will allow you to setup your domain to allow proper routing of incoming and outgoing mail as well as easy user client setups.
+DNS tells the world how email should be handled and routed for your domain. This guide will allow you to setup your domain to allow proper routing of incoming and outgoing email as well as easy user client setups.
 
 *Note: It is important to follow all steps and carefully input settings exactly as described below.*
 
 #### Before Continuing
 This guide will require access to update DNS entries for your domain.
-If you do not know where you DNS is hosted please read: [How do I find out who my DNS host is?](https://support.rackspace.com/how-to/find-dns-host#how-do-i-find-out-who-my-dns-host-is)
+If you do not know where your DNS is hosted please read: [How do I find out who my DNS host is?](https://support.rackspace.com/how-to/find-dns-host#how-do-i-find-out-who-my-dns-host-is)
 
 #### DNS Settings
 The following DNS entries are required to properly use email services at Rackspace.
 
-**MX Records** tell other email providers where to properly send mail. In this case, you would like to set your MX Records to point to Rackspace. [More on MX Records](https://support.rackspace.com/how-to/dns-record-definitions#mx-record).
-**SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability success of your outgoing emails. [More on SPF Records](https://support.rackspace.com/how-to/dns-record-definition#txt-record)
-**Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier user email client setups. [More on Autodiscover Records](https://support.rackspace.com/how-to/dns-record-definitions#cname-record)
+**MX Records** tell other email providers where to send email. In this case, you would like to set your MX Records to point to Rackspace. [More on MX Records](https://support.rackspace.com/how-to/dns-record-definitions#mx-record).
+
+**SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability of your outgoing emails. [More on SPF Records](https://support.rackspace.com/how-to/dns-record-definition#txt-record)
+
+**Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier email client setups. [More on Autodiscover Records](https://support.rackspace.com/how-to/dns-record-definitions#cname-record)
 
 
 *Warning: Changing DNS settings for a domain that was previously hosting email elsewhere will require user email clients and devices to be reconfigured to point to Rackspace. Send your users to [http://emailhelp.rackspace.com](http://emailhelp.rackspace.com) to assist them with new settings.*
 
-1.	Log into your domain DNS host control panel. As identified above.
+1.	Log into your domain DNS host control panel, as identified above.
 2.	Set the DNS entries to the following (ensure there are no other MX record entries or you will have complications with email). [How do I edit/add entries for my DNS host?](https://support.rackspace.com/how-to/find-dns-host#how-do-add-or-edit-entries-for-my-dns-host)
+
+*Note: The field headings below may vary slightly depending on your DNS host. Reference your DNS host for further information.*
 
 |Type    |Hostname                   |Destination                      |Priority    |TTL                           |
 |--------|---------------------------|---------------------------------|------------|------------------------------|        
 |MX      | @ or left blank           |mx1.emailsrvr.com                |10          |3600 seconds or lowest allowed|
 |MX      | @ or left blank           |mx2.emailsrvr.com                |20          |3600 seconds or lowest allowed|   
 |TXT     | @ or left blank           |v=spf1 include:emailsrvr.com ~all| N/A        |3600 seconds or lowest allowed|
-|CNAME   |autodiscover.yourdomain.com|autodiscover.emailsrvr.com       | N/A        |3600 seconds or lowest allowed|
+|CNAME   |autodiscover               |autodiscover.emailsrvr.com       | N/A        |3600 seconds or lowest allowed|
 
-*Note: The field headings below may vary slightly depending on your DNS host. See your DNS host for help.*
+
 
 3.	Save your changes.
 4.	Wait for up to 48 hours for your new settings to propagate to the world. [Why does it take so long for these settings to propagate?](https://support.rackspace.com/how-to/dns-record-definitions#dns-propagation)

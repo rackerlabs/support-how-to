@@ -28,7 +28,7 @@ product_url: rackspace-email
 You can use the following steps to identify where you can add/edit entries for your Domain (DNS).
 
   1.	Search for your domain at https://who.is/
-  2.	Look for the entry titled “Nameserver” – this is the location of your DNS host.
+  2.	Look for the entry titled “Name Server” – this is the location of your DNS host.
   3.	If any of the following are listed in the field “Name Server” for your domain, Rackspace is most likely your DNS host and can assist with editing of your DNS records.
 
 
@@ -44,7 +44,7 @@ You can use the following steps to identify where you can add/edit entries for y
       DNS4.NAME-SERVICES.COM
       DNS5.NAME-SERVICES.COM
 
-  4.	To find the company that owns the location of your DNS host (to access and edit your DNS records) you can google the entry found in “Name Server” from above.
+  4.	To find the company that owns the location of your DNS host (in order to access and edit your DNS records) you can google the entry found in the “Name Server” field from above.
 
   5. If this search does not work, try contacting any company you pay for webhosting. Rackspace Cloud Office does offer DNS hosting but we do not offer website hosting.
 
