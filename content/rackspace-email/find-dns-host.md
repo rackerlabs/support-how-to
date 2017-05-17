@@ -11,10 +11,13 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**APPLIES TO: Account Administrator**
-Difficulty: Easy
-Time Needed: 10 minutes
-Tools Required: Internet Browser
+**APPLIES TO:** Account Administrator
+
+**Difficulty:** Easy
+
+**Time Needed:** 10 minutes
+
+**Tools Required:** Internet Browser
 
 
 ## Overview: To locate the location of your domain’s DNS host.
@@ -49,17 +52,17 @@ You can use the following steps to identify where you can add/edit entries for y
 
 You can find links to articles with instructions to modify your DNS records for some of the more common DNS hosts below. If your host is not listed below, please search their knowledge base or contact their support for assistance with modifying your DNS.
 
-GoDaddy
+**GoDaddy**
 https://www.godaddy.com/help/manage-dns-680
 
-BlueHost
+**BlueHost**
 https://my.bluehost.com/cgi/help/559
 
-HostGator
+**HostGator**
 http://support.hostgator.com/articles/changing-dns-records
 
-Network Solutions
+**Network Solutions**
 http://www.networksolutions.com/support/how-to-manage-advanced-dns-records/
 
-1&1
+**1&1**
 https://help.1and1.com/domains-c36931/manage-domains-c79822/dns-c37586

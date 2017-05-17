@@ -11,10 +11,13 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**APPLIES TO: Account Administrator or User**
-Difficulty: Easy
-Time Needed: N/A
-Tools Required: N/A
+**APPLIES TO:** Account Administrator or User
+
+**Difficulty:** Easy
+
+**Time Needed:** N/A
+
+**Tools Required:** N/A
 
 ## Overview
 This is a brief overview of common email related DNS records.
@@ -24,22 +27,30 @@ This is a brief overview of common email related DNS records.
 
 
 [**A Record**](#a-record)
+
 [**MX Record**](#mx-record)
+
 [**CNAME Record**](#cname-record)
+
 [**TXT Record**](#txt-record)
+
 [**DNS Propagation**](#dns-propagation)
 
 
 ### A Record  
 – “Address Record”. This is the most basic DNS record type. It’s function is to point a domain or subdomain to an IP address
+
 Example:
+
 |Type    |Hostname          |Destination    |Priority    |TTL    |
 |--------|------------------|---------------|------------|-------|        
 |A       |blog.example.com  |XXX.XX.XX.XXX  |10          |3600   |
 
 ### MX Record
 – “Mail Exchanger Record”. This record specifies a mail server responsible for accepting messages addressed to your domain. Without these records, emails addressed to your domain do not know how to find your mailbox.  Think of it as sending a letter to an address that does not exist; it will be returned to sender.
+
 Example:
+
 |Type    |Hostname          |Destination        |Priority    |TTL    |
 |--------|------------------|-------------------|------------|-------|        
 |MX      |         @        |mx1.emailsrvr.com  |10          |3600   |
@@ -49,7 +60,9 @@ Example:
 
 ### CNAME Record
 – “Canonical Name Record”. A CNAME record specifies that domain name is an alias for another domain.
+
 Example:
+
 |Type    |Hostname                  |Destination                 |TTL    |
 |--------|--------------------------|----------------------------|-------|        
 |CNAME   |autodiscover.example.com  |autodiscover.emailsrvr.com  |3600   |

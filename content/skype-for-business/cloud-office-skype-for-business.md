@@ -11,10 +11,13 @@ product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
 
-**APPLIES TO: Account Administrator**
-Difficulty: Moderate
-Time Needed: 30 minutes to figure/24-48 hours to propagate
-Tools Required: DNS host administrator access
+**APPLIES TO:** Account Administrator
+
+**Difficulty:** Moderate
+
+**Time Needed:** 30 minutes to figure/24-48 hours to propagate
+
+**Tools Required:** DNS host administrator access
 
 ## Overview
 Instructions for configuring Rackspace Cloud Office Skype for Business
