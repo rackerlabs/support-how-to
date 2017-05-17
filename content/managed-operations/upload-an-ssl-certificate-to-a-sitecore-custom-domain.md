@@ -51,7 +51,7 @@ If you do not already have SSL certificate, you need to get one from a trusted c
 
 6. Click **Upload**. You can now navigate to your SSL certificate through the Webapp screen.
 
-<!---Screenshot might be useful here--->
+    <!---Screenshot might be useful here--->
 
 7. In the "SSL bindings" section of the SSL certificate screen, select **Add bindings**. A new screen called *SSL Bindings* will appear.
 
