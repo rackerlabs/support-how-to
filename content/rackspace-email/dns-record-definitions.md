@@ -77,19 +77,22 @@ Example:
 
 |Type    |Hostname                  |Destination                            |TTL    |
 |--------|--------------------------|---------------------------------------|-------|        
-|TXT     |           @              |v = spf1 include: emailsrvr.com ~ all  |3600   |
+|TXT     |           @              |v=spf1 include:emailsrvr.com ~all      |3600   |
 
 
-•	**SPF record** – “Sender Policy Framework”. SPF records are defined as a TXT record in your domain’s DNS. SPF records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing).
 
-•	**DMARC record** – “Domain Message Authentication Reporting”. DMARC indicates to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message you sent them using your DKIM and SPF policies.
+•	**SPF record – “Sender Policy Framework"** SPF records are defined as a TXT record in your domain’s DNS. SPF records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing).
 
-•	**DKIM record** – “DomainKeys Identified Mail”. This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain.
+*Note: If you send email from other providers on behalf of your domain, be sure to include their sending server in the same SPF record entry. Do not create multiple SPF records.*
+
+•	**DMARC record – “Domain Message Authentication Reporting and Compliance”**  DMARC indicates to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message you sent them using your DKIM and SPF policies.
+
+•	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain.
 
 *Note: Why are SPF, DMARC, and DKIM important?  With “Spoofing” and “Phishing” attempts increasing dramatically, mail recipients are adopting these methods of sender authentication to combat malicious email. This not only protects those you are sending mail to, but it helps identify mail you are sending as legitimate.*
 
 ### DNS propagation
--When one of the above records is added/edited in your DNS zone file, it must go through a propagation period.
+When one of the above records is added/edited in your DNS zone file, it must go through a propagation period.
 It takes time to tell the rest of the internet that changes were made to your domain. The industry standard for DNS propagation time is 24-48 hours.
 
-For example if you change your domain's MX records, the change will take 24-48 hours to complete. The reason this takes so long is that your domain is associated to an IP address at thousands of databases worldwide. This is how you are able to communicate with email addresses around the world. You send an email, and the message is given a destination by some database somewhere in the world. In short, when you make a change to your domain's DNS, it takes some time to spread the word to databases across the entire globe.
+For example if you change your domain's MX records, the change may take up to 24-48 hours to complete. The reason this takes so long is that your domain is associated to an IP address at thousands of databases worldwide. This is how you are able to communicate with email addresses around the world. You send an email, and the message is given a destination by some database somewhere in the world. In short, when you make a change to your domain's DNS, it takes some time to spread the word to databases across the entire globe.
