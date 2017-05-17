@@ -17,51 +17,35 @@ implementation of Microsoft Exchange, or your hosted implementation of
 DNS settings are associated with your domain, you will experience
 problems using these applications.
 
-### Set up DNS records for email
+### Initial Domain (DNS) Configuration to Send/Receive Email
 
-This section provides information about the DNS records that you need to
-set up for email transfer in Rackspace Email or Hosted Exchange.
+DNS tells the world how email should be handled and routed for your domain.
+This guide will allow you to setup your domain to allow proper routing of incoming and outgoing mail as well as easy user client setups.
+It is important to follow all steps and carefully input settings exactly as described below.
 
-Create the following entries, which are described below, on your DNS server:
+#### Before Continuing
+This guide will require access to update DNS entries for your domain.
+If you do not know where you DNS is hosted please read: [How do I find out who my DNS host is?](#)
 
--   [MX records](#mx-records)
--   [Autodiscover records](#autodiscover-records)
--   [SPF records](#spf-records)
+#### DNS Settings
+The following DNS entries are required to properly use email services at Rackspace.
+
+**MX Records** tell other email providers where to properly send mail. In this case, you would like to set your MX Records to point to Rackspace. [More on MX Records](#).
+**SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability success of your outgoing emails. [More on SPF Records](#)
+**Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier user email client setups. [More on Autodiscover Records](#)
 
 
-#### MX records
+**Warning:** Changing DNS settings for a domain that was previously hosting email elsewhere will require user email clients and devices to be reconfigured to point to Rackspace. Send your users to [http://emailhelp.rackspace.com](http://emailhelp.rackspace.com) to assist them with new settings.
 
-A mail exchange (MX) record directs incoming email sent to your domain
-to the specific server set up to accept email traffic for your domain.
-For example, if your email is hosted through Rackspace you have MX
-records that point to **mx1.emailsrvr.com (10)** and **mx2.emailsrvr.com
-(20)**.
+1.	Log into your domain DNS host control panel. As identified above.
+2.	Set the DNS entries to the following (ensure there are no other MX record entries or you will have complications with email). [How do I edit/add entries for my DNS host?](#)
 
-On your DNS server, set up MX records for both **mx1.emailsrvr.com** and
-**mx2.emailsrvr.com** with the following information:
+_Note: The field headings below may vary slightly depending on your DNS host. See your DNS host for help._
 
--   **Hostname:** blank or @
--   **Time to live (TTL):** 3600
--   **Record type:** MX
--   **Destination:** `mx1.emailsrvr.com`
--   **Priority:** 10
+3.	Save your changes.
+4.	Wait for up to 48 hours for your new settings to propagate to the world. [Why does it take so long for these settings to propagate?](#)
+5.	You have now successfully setup your DNS for your Domain, allowing users to send and receive email from your Rackspace Hosted Email solution.
 
-<!-- -->
-
--   **Hostname:** blank or @
--   **Time to live (TTL):** 3600
--   **Record type:** MX
--   **Destination:** `mx2.emailsrvr.com`
--   **Priority:** 20
-
-<!-- -->
-
-**Note:** To change the settings for your domain, you must own and have
-access to edit these records. If you do not have access to do so,
-contact your DNS provider. Typically it takes between 24 and 48 hours
-for changes to DNS records to fully propagate. We recommend updating
-your DNS records during off-peak traffic hours to allow for DNS
-propagation. No mail is lost during this time.
 
 #### Autodiscover records
 
