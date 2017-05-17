@@ -20,7 +20,8 @@ product_url: rackspace-email
 **Tools Required:** Internet Browser
 
 
-## Overview: To locate the location of your domain’s DNS host.
+## Overview: 
+To locate the location of your domain’s DNS host.
 
 ## Find your DNS host
 
