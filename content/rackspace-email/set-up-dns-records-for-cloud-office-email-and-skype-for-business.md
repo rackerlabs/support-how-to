@@ -11,7 +11,8 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 **APPLIES TO:** Account Administrator
-Difficulty: Moderate 
+
+**Difficulty:** Moderate 
 
 **Time Needed:** 30 minutes to figure/24-48 hours to propagate
 
