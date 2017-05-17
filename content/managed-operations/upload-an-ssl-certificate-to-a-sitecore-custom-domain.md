@@ -56,3 +56,5 @@ If you do not already have SSL certificate, you need to get one from a trusted c
 7. In the "SSL bindings" section of the SSL certificate screen, select **Add bindings**. A new screen called *SSL Bindings* will appear.
 
 8. Use the drop down menu to select the custom domain URL you wish to secure using SSL, followed by the name of SSL certificate. You can also select whether to use Server Name Indication (SNI) or IP based SSL.
+
+9. Click **Add binding**. This enables SSL for your custom domain.
