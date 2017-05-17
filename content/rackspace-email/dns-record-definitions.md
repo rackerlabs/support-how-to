@@ -70,7 +70,7 @@ Example:
 
 *Note: A common CNAME record entry is an Autodiscover Record. The example shown is the CNAME record used by our Rackspace Hosted Exchange users to redirect their subdomain autodiscover.example.com to our Autodiscover server (autodiscover.emailsrvr.com).*
 
-###TXT Record
+### TXT Record
 – “Text Record”. TXT records are referenced by external sources to check for domain specific polices such as SPF, DKIM, and DMARC.
 
 Example:
