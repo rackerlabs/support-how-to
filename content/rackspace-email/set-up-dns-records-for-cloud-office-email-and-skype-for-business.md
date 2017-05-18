@@ -58,7 +58,7 @@ The following DNS entries are required to properly use email services at Rackspa
 
 3.	Save your changes.
 4.	Wait for up to 48 hours for your new settings to propagate to the world. [Why does it take so long for these settings to propagate?](https://support.rackspace.com/how-to/dns-record-definitions#dns-propagation)
-5.	You have now successfully setup your DNS for your Domain, allowing users to send and receive email from your Rackspace Hosted Email solution.
+5.	You have now successfully setup your DNS for your domain, allowing users to send and receive email from your Rackspace Hosted Email solution.
 
 
 Need help setting up DNS for Skype for Business? Please follow this link for instructions: [Cloud Office Skype for Business DNS](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-skype-for-business)

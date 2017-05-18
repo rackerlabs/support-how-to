@@ -13,11 +13,6 @@ product_url: rackspace-email
 
 **Applies To:** Account Administrator or User
 
-**Difficulty:** Easy
-
-**Time Needed:** N/A
-
-**Tools Required:** N/A
 
 ## Overview
 This is a brief overview of common email related DNS records. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
@@ -38,7 +33,7 @@ This is a brief overview of common email related DNS records. If you need to con
 
 
 ### A Record  
-– “Address Record”. This is the most basic DNS record type. It’s function is to point a domain or subdomain to an IP address
+**A Record** (Address Record) is the most basic DNS record type. It’s function is to point a domain or subdomain to an IP address
 
 Example:
 
@@ -47,7 +42,7 @@ Example:
 |A       |blog.example.com  |XXX.XX.XX.XXX  |10          |3600   |
 
 ### MX Record
-– “Mail Exchanger Record”. This record specifies a mail server responsible for accepting messages addressed to your domain. Without these records, emails addressed to your domain do not know how to find your mailbox.  Think of it as sending a letter to an address that does not exist; it will be returned to sender if the MX records are missing.
+**MX Record** (Mail Exchanger Record) specifies a mail server responsible for accepting messages addressed to your domain. Without these records, emails addressed to your domain do not know how to find your mailbox.  Think of it as sending a letter to an address that does not exist; it will be returned to sender if the MX records are missing.
 
 Example:
 
@@ -59,7 +54,7 @@ Example:
 *Note: Email hosts may ask for multiple MX record entries. The examples are actually the MX records for Rackspace Cloud Office. We require two records entries, in case the first MX server experiences a disruption. This is a redundancy to ensure you still receive your email.*
 
 ### CNAME Record
-– “Canonical Name Record”. A CNAME record specifies that domain name is an alias for another domain.
+**CNAME Record** (Canonical Name Record) record specifies that domain name is an alias for another domain.
 
 Example:
 
@@ -71,7 +66,7 @@ Example:
 *Note: A common CNAME record entry is an Autodiscover Record. The example shown is the CNAME record used by our Rackspace Cloud Office users to redirect their subdomain, autodiscover.example.com to our Autodiscover server (autodiscover.emailsrvr.com).*
 
 ### TXT Record
-– “Text Record”. TXT records are referenced by external sources to check for domain specific polices such as SPF, DKIM, and DMARC.
+**TXT Record** (Text Record) is referenced by external sources to check for domain specific polices such as SPF, DKIM, and DMARC.
 
 Example:
 
