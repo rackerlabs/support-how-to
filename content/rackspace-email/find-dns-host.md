@@ -28,26 +28,24 @@ Instructions for locating your domain’s DNS host. If you need to configure you
 #### How do I find out who my DNS host is?
 You can use the following steps to identify where you can add/edit entries for your domain (DNS).
 
-  1.	Search for your domain at https://who.is/
-  2.	Look for the field titled “Name Server” – this is the location of your DNS host.
-  3.	If any of the following server names are listed in the field “Name Server” for your domain, Rackspace is most likely your DNS host and can assist with editing of your DNS records [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
+1.	Search for your domain at https://who.is/
+2.	Look for the field titled “Name Server” – this is the location of your DNS host.
+3.	If any of the following server names are listed in the field “Name Server” for your domain, Rackspace is most likely your DNS host and can assist with editing of your DNS records [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
+    NS.RACKSPACE.COM
+    NS2.RACKSPACE.COM
 
-      NS.RACKSPACE.COM
-      NS2.RACKSPACE.COM
+    DNS1.STABLETRANSIT.COM
+    DNS2.STABLETRANSIT.COM
 
-      DNS1.STABLETRANSIT.COM
-      DNS2.STABLETRANSIT.COM
+    DNS1.NAME-SERVICES.COM
+    DNS2.NAME-SERVICES.COM
+    DNS3.NAME-SERVICES.COM
+    DNS4.NAME-SERVICES.COM
+    DNS5.NAME-SERVICES.COM
 
-      DNS1.NAME-SERVICES.COM
-      DNS2.NAME-SERVICES.COM
-      DNS3.NAME-SERVICES.COM
-      DNS4.NAME-SERVICES.COM
-      DNS5.NAME-SERVICES.COM
-
-  4.	To find the company that is hosting your domain's DNS (in order to access and edit your DNS records) you can google the entry found in the “Name Server” field from above.
-
-  5. If this search does not work, try contacting any company you pay for webhosting as they are likely who is hosting your DNS. Rackspace Cloud Office does offer DNS hosting but we do not offer website hosting.
+4.	To find the company that is hosting your domain's DNS (in order to access and edit your DNS records) you can google the entry found in the “Name Server” field from above.
+5. If this search does not work, try contacting any company you pay for webhosting as they are likely who is hosting your DNS. Rackspace Cloud Office does offer DNS hosting but we do not offer website hosting.
 
 #### How do I add or edit entries for my DNS host?
 
