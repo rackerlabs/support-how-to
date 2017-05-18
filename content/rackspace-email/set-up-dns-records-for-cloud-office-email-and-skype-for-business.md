@@ -47,13 +47,14 @@ The following DNS entries are required to properly use email services at Rackspa
 1.	Log into your domain DNS host control panel, as identified above.
 2.	Set the DNS entries to the following (ensure there are no other MX record entries or you will experience email complications). [How do I edit/add entries for my DNS host?](https://support.rackspace.com/how-to/find-dns-host#how-do-i-add-or-edit-entries-for-my-dns-host)
 
-*Note: The field headings below may vary slightly depending on your DNS host. Reference your DNS host for further information.*
-|Type    |Hostname                   |Destination                      |Priority    |TTL                           |
-|--------|---------------------------|---------------------------------|------------|------------------------------|        
-|MX      | @ or left blank           |mx1.emailsrvr.com                |10          |3600 seconds or lowest allowed|
-|MX      | @ or left blank           |mx2.emailsrvr.com                |20          |3600 seconds or lowest allowed|   
-|TXT     | @ or left blank           |v=spf1 include:emailsrvr.com ~all| N/A        |3600 seconds or lowest allowed|
-|CNAME   |autodiscover               |autodiscover.emailsrvr.com       | N/A        |3600 seconds or lowest allowed|
+ *Note: The field headings below may vary slightly depending on your DNS host. Reference your DNS host for further information.*
+
+ |Type    |Hostname                   |Destination                      |Priority    |TTL                           |
+ |--------|---------------------------|---------------------------------|------------|------------------------------|        
+ |MX      | @ or left blank           |mx1.emailsrvr.com                |10          |3600 seconds or lowest allowed|
+ |MX      | @ or left blank           |mx2.emailsrvr.com                |20          |3600 seconds or lowest allowed|   
+ |TXT     | @ or left blank           |v=spf1 include:emailsrvr.com ~all| N/A        |3600 seconds or lowest allowed|
+ |CNAME   |autodiscover               |autodiscover.emailsrvr.com       | N/A        |3600 seconds or lowest allowed|
 
 
 
