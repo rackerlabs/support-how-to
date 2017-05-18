@@ -19,7 +19,7 @@ product_url: rackspace-email
 **Tools Required:** DNS host administrator access
 
 ## Overview
-This article will instruct you in how to configure your domain's DNS to start receiving email at Rackspace Cloud Office
+This article will guide you through initial configuration of your domain's DNS to start receiving email at Rackspace Cloud Office.
 
 
 ## Initial Domain (DNS) Configuration to Send/Receive Email
@@ -47,16 +47,14 @@ The following DNS entries are required to properly use email services at Rackspa
 1.	Log into your domain DNS host control panel, as identified above.
 2.	Set the DNS entries to the following (ensure there are no other MX record entries or you will experience email complications). [How do I edit/add entries for my DNS host?](https://support.rackspace.com/how-to/find-dns-host#how-do-i-add-or-edit-entries-for-my-dns-host)
 
- *Note: The field headings below may vary slightly depending on your DNS host. Reference your DNS host for further information.*
+    *Note: The field headings below may vary slightly depending on your DNS host. Reference your DNS host for further information.*
 
- |Type    |Hostname                   |Destination                      |Priority    |TTL                           |
- |--------|---------------------------|---------------------------------|------------|------------------------------|        
- |MX      | @ or left blank           |mx1.emailsrvr.com                |10          |3600 seconds or lowest allowed|
- |MX      | @ or left blank           |mx2.emailsrvr.com                |20          |3600 seconds or lowest allowed|   
- |TXT     | @ or left blank           |v=spf1 include:emailsrvr.com ~all| N/A        |3600 seconds or lowest allowed|
- |CNAME   |autodiscover               |autodiscover.emailsrvr.com       | N/A        |3600 seconds or lowest allowed|
-
-
+     |Type    |Hostname                   |Destination                      |Priority    |TTL                           |
+     |--------|---------------------------|---------------------------------|------------|------------------------------|        
+     |MX      | @ or left blank           |mx1.emailsrvr.com                |10          |3600 seconds or lowest allowed|
+     |MX      | @ or left blank           |mx2.emailsrvr.com                |20          |3600 seconds or lowest allowed|   
+     |TXT     | @ or left blank           |v=spf1 include:emailsrvr.com ~all| N/A        |3600 seconds or lowest allowed|
+     |CNAME   |autodiscover               |autodiscover.emailsrvr.com       | N/A        |3600 seconds or lowest allowed|
 
 3.	Save your changes.
 4.	Wait for up to 48 hours for your new settings to propagate to the world. [Why does it take so long for these settings to propagate?](https://support.rackspace.com/how-to/dns-record-definitions#dns-propagation)
