@@ -11,7 +11,7 @@ product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
 
-**APPLIES TO:** Account Administrator
+**Applies To:** Account Administrator
 
 **Difficulty:** Moderate
 

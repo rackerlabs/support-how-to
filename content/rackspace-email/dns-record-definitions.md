@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**APPLIES TO:** Account Administrator or User
+**Applies To:** Account Administrator or User
 
 **Difficulty:** Easy
 
@@ -79,15 +79,14 @@ Example:
 |--------|--------------------------|---------------------------------------|-------|        
 |TXT     |           @              |v=spf1 include:emailsrvr.com ~all      |3600   |
 
+**Common email-related TXT Records**
 
-
-•	**SPF record – “Sender Policy Framework"** SPF records are defined as a TXT record in your domain’s DNS. SPF records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing).
-
+-	**SPF record – “Sender Policy Framework"** SPF records are defined as a TXT record in your domain’s DNS. SPF records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing).
 *Note: If you send email from other providers on behalf of your domain, be sure to include their sending server in the same SPF record entry. Do not create multiple SPF records.*
 
-•	**DMARC record – “Domain Message Authentication Reporting and Compliance”**  DMARC indicates to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message you sent them using your DKIM and SPF policies.
+-	**DMARC record – “Domain Message Authentication Reporting and Compliance”**  DMARC indicates to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message you sent them using your DKIM and SPF policies.
 
-•	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain.
+-	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain.
 
 *Note: Why are SPF, DMARC, and DKIM important?  With “Spoofing” and “Phishing” attempts increasing dramatically, mail recipients are adopting these methods of sender authentication to combat malicious email. This not only protects those you are sending mail to, but it helps identify mail you are sending as legitimate.*
 

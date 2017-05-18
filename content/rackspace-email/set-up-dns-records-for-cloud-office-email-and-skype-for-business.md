@@ -10,7 +10,7 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**APPLIES TO:** Account Administrator
+**Applies To:** Account Administrator
 
 **Difficulty:** Moderate
 
@@ -19,7 +19,7 @@ product_url: rackspace-email
 **Tools Required:** DNS host administrator access
 
 ## Overview
-This article will instruct you how to configure your domain's DNS to start receiving email at Rackspace Cloud Office
+This article will instruct you in how to configure your domain's DNS to start receiving email at Rackspace Cloud Office
 
 
 ## Initial Domain (DNS) Configuration to Send/Receive Email
@@ -37,18 +37,17 @@ The following DNS entries are required to properly use email services at Rackspa
 
 **MX Records** tell other email providers where to send email. In this case, you would like to set your MX Records to point to Rackspace. [More on MX Records](https://support.rackspace.com/how-to/dns-record-definitions#mx-record).
 
-**SPF (Sender Policy Framework)** Records reduce unwanted SPAM and spoofing from your domain and help ensure best-possible deliverability of your outgoing emails. [More on SPF Records](https://support.rackspace.com/how-to/dns-record-definitions#txt-record)
+**SPF Records** reduce unwanted SPAM, spoofing from your domain, as well as help ensure best-possible deliverability of your outgoing emails. [More on SPF Records](https://support.rackspace.com/how-to/dns-record-definitions#txt-record)
 
 **Autodiscover Records** allow for full functionality of calendar features (free/busy information) and easier email client setups. [More on Autodiscover Records](https://support.rackspace.com/how-to/dns-record-definitions#cname-record)
 
 
-*Warning: Changing DNS settings for a domain that was previously hosting email elsewhere will require user email clients and devices to be reconfigured to point to Rackspace. Send your users to [http://emailhelp.rackspace.com](http://emailhelp.rackspace.com) to assist them with new settings.*
+*Warning: Changing DNS settings for a domain that was previously hosting email elsewhere will require user email clients and devices to be reconfigured to point to Rackspace. Send your users to [https://emailhelp.rackspace.com](http://emailhelp.rackspace.com) to assist them with new settings.*
 
 1.	Log into your domain DNS host control panel, as identified above.
-2.	Set the DNS entries to the following (ensure there are no other MX record entries or you will have complications with email). [How do I edit/add entries for my DNS host?](https://support.rackspace.com/how-to/find-dns-host#how-do-add-or-edit-entries-for-my-dns-host)
+2.	Set the DNS entries to the following (ensure there are no other MX record entries or you will experience email complications). [How do I edit/add entries for my DNS host?](https://support.rackspace.com/how-to/find-dns-host#how-do-i-add-or-edit-entries-for-my-dns-host)
 
 *Note: The field headings below may vary slightly depending on your DNS host. Reference your DNS host for further information.*
-
 |Type    |Hostname                   |Destination                      |Priority    |TTL                           |
 |--------|---------------------------|---------------------------------|------------|------------------------------|        
 |MX      | @ or left blank           |mx1.emailsrvr.com                |10          |3600 seconds or lowest allowed|
