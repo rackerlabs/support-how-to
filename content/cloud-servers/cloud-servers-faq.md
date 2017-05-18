@@ -61,7 +61,7 @@ Administrator access, and are built with nothing but the default
 applications on installation. Cloud servers are designed for customers who
 want to start from scratch and tune a system for their own purposes.
 
-If you are uncomfortable in teh System Administrator role, we also offer a 
+If you are uncomfortable in the System Administrator role, we also offer a 
 [Managed Operations service level](http://www.rackspace.com/cloud/managed_cloud/).
 
 #### What level of support comes with Cloud Servers?
@@ -283,7 +283,7 @@ which offers many of the same functions as a control panel.
 #### Do you provide Console access?
 
 Yes, via an HTML5 web terminal that you can access through the Cloud Control Panel. On the 
-details section for your server, click **Actions>Emergency Console**.
+details section for your server, click **Actions > Emergency Console**.
 
 **Note**: Console access is via a secure HTTP connection, which is
 a different connection from the traditional way to connect via SSH for
@@ -292,7 +292,7 @@ if your server is unresponsive or you have locked yourself out.
 
 #### Can I reboot my server?
 
-Yes. On teh details page for teh server in the Clou Control Panel, select **Actions>Reboot**. 
+Yes. On the details page for the server in the cloud control panel, select **Actions > Reboot**. 
 This method is useful if the server is unresponsive. 
 
 #### Am I billed if my server is powered off?
@@ -326,12 +326,12 @@ any associated DNS records to reflect the new IP address.
 
 #### How do I power on my server after shutting it down?
 
-Intructions are  located in [Reboot your server](/how-to/reboot-your-server)
+Intructions are located in [Reboot your server](/how-to/reboot-your-server)
 
 #### Which distributions do you offer?
 
 To see the Linux distributions and Windows operating systems that we have
-available, go to the Cloud Control Panel, **Servers>CloudServers**, and 
+available, go to the Cloud Control Panel, **Servers > CloudServers**, and 
 then click **Create Server**.
 
 #### Can I upgrade my server later?
@@ -402,7 +402,7 @@ the [Cloud Servers discounts page](http://www.rackspace.com/cloud/servers/discou
 #### Are cloud servers PCI-DSS compliant?
 
 For information about PCI-DSS, see [
-Cloud Security Solutions](https://support.rackspace.com/how-to/are-cloud-servers-pci-dss-compliant/). 
+Cloud Security Solutions](how-to/are-cloud-servers-pci-dss-compliant/). 
 For information about PCI-DSS for Rackspace Dedicated Hosting
 services, see [PCI-Compliant Hosting for E-commerce Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
 
