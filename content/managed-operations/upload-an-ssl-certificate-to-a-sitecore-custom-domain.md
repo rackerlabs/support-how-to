@@ -11,13 +11,13 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-To secure a application that has a custom domain name, you need to use HTTPS. By default, Azure secures the **.azurewebsites.net** wildcard domain with a single SSL certificate, so you can already access your application using the  **https://\<appname>.azurewebsites.net** URL.
+To secure an application that has a custom domain name, you need to use HTTPS. By default, Azure secures the **.azurewebsites.net** wildcard domain with a single SSL certificate, so you can already access your application using the  **https://\<appname>.azurewebsites.net** URL.
 
-However, the default Azure SSL certificate does not work if you use a custom domain for your application . A custom domain with its own SSL certificate is more secure than the default. This article describes how to add an SSL certificate to a application  with a custom domain.
+However, the default Azure SSL certificate does not work if you use a custom domain for your application. A custom domain with its own SSL certificate is more secure than the default. This article describes how to add an SSL certificate to a application with a custom domain.
 
 ### Prerequisite
 
-- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/)
+- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
 ### Get an SSL certificate
 
@@ -25,11 +25,11 @@ If you do not already have SSL certificate, you need to get one from a trusted c
 
 - Signed by a trusted CA (no private CA servers).
 
-- Contains a private key.
+- Contain a private key.
 
 - Created for key exchange, and exported to a .PFX file.
 
-- Uses a minimum of 2048-bit encryption.
+- Use a minimum of 2048-bit encryption.
 
 - Have a subject name that matches the custom domain it needs to secure. To secure multiple domains with one certificate, you need to use a wildcard name (for example, *.contoso.com*) or specify subjectAltName values.
 
