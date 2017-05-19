@@ -5,21 +5,21 @@ title: Common Email Bounces
 type: article
 created_date: '2017-05-18'
 created_by: William Loy
-last_modified_date: '2017-05-18'
+last_modified_date: '2017-05-19'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**Applies To:** Account Administrator
+**Applies To:** User
 
 
 ## Common Email Bounces
 
 ### Overview:
-Causes of common bounce messages and how to resolve the issue causing them.
+Common bounce messages and how to resolve the issue causing them.
 
 **What is a “bounceback” message?**
-Bounce messages give a brief report of why a message will not deliver. Bounce messages vary from mail provider to mail provider. If you do not see your particular bounce error here, you can reference the mail provider you were sending to for an interpretation of their bounce.
+Bounce messages provide a report of why a message will not deliver. Bounce messages vary from mail provider to mail provider. If you do not see your particular bounce error here, you can reference the mail provider you were sending to for an interpretation of their bounce.
 
 ### Before continuing
 If Rackspace bounced your message, the generating server will show: emailsrvr.com. If you do not see emailsrvr.com in the bounce, the recipient’s provider likely blocked the message.
@@ -27,7 +27,7 @@ If Rackspace bounced your message, the generating server will show: emailsrvr.co
 
 |SMTP Error|	Explanation|	Solution|
 |----------|-------------|----------|
-|**450 4.1.8** <user@domain.com>: Sender address rejected: Domain not found| The recipient is unable to verify the existence of your domain.|	Verify that your domain’s DNS is properly configured here(link to DNS)|
+|**450 4.1.8** <user@domain.com>: Sender address rejected: Domain not found| The recipient is unable to verify the existence of your domain.|	Verify that your domain’s DNS is properly configured [here](https://support.rackspace.com/how-to/find-dns-host#how-do-i-find-out-who-my-dns-host-is)|
 |**451 4.3.0** <servername[xx.xx.xx.xx]>: Client host rejected: Throttled - Too much spam from your mail server. Try again later.| The recipient’s server has received too much spam from this source.|	Try sending the message again later. Follow these steps (link to best practices) to avoid being marked as spam. Ask the recipient to Safelist/Whitelist your domain.|
 |**451 4.3.0** <user@domain.com>: Temporary lookup failure|	An intermittent issue has occurred.|	Wait and send the message again at a later time.|
 |**421** "Too many concurrent connections from this client (G2)"|	The sending IP has too many concurrent connections with our servers.|	Reduce concurrent connections to our servers to five or less.|
