@@ -50,6 +50,7 @@ Note: The reputation of sites or companies referenced in your email is determine
 
 #### Word choice
 -	Avoid the following spam triggers:
+
     o	Punctuation (especially exclamation points (!) and question marks(?))
     o	Capitalization of all letters (**LIKE THIS**)
     o	Words such as urgent, free, and guaranteed
