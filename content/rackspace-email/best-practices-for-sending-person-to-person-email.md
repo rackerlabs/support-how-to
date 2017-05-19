@@ -20,6 +20,7 @@ This article provides recommendations to avoid having legitimate messages flagge
 Stricter and more sophisticated spam filters, flag more email as spam than ever. To ensure your person-to-person emails reach their destination, Rackspace and the email industry recommend some simple guidelines.
 The following sections provide our recommended best practices for sending legitimate person-to-person email through the Rackspace mail system. Most reputable mail providers give their own recommendations, and we encourage you to read those as well.
 
+
 [**Message format**](#message-format)
 [**Links**](#links)
 [**Word choice**](#word-choice)
