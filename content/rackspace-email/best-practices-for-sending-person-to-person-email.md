@@ -52,9 +52,13 @@ Note: The reputation of sites or companies referenced in your email is determine
 -	Avoid the following spam triggers:
 
     o	Punctuation (especially exclamation points (!) and question marks(?))
+
     o	Capitalization of all letters (**LIKE THIS**)
+
     o	Words such as urgent, free, and guaranteed
+
     o	Spaces between every letter in a word, such as H e l l o
+    
 -	Use personalized greetings and salutations. For example, “Hey Bob” instead of “Hey” or “To Whom It May Concern”. Generic greetings make your content more likely to appear as unsolicited mail to spam filters.
 -	Do not include a disclaimer that your email is not spam, and do not claim compliance with some legal criteria. Legitimate email does not need to advertise compliance.
 -	Use conversational language. Message content that follows a consistent limited verbiage or template will appear to be computer-generated content, and will be flagged as spam.
