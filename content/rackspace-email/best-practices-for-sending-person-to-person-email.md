@@ -22,8 +22,11 @@ The following sections provide our recommended best practices for sending legiti
 
 
 [**Message format**](#message-format)
+
 [**Links**](#links)
+
 [**Word choice**](#word-choice)
+
 [**Attachments**](#attachments)
 
 
