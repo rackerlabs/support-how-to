@@ -29,6 +29,8 @@ The following sections provide our recommended best practices for sending legiti
 
 [**Attachments**](#attachments)
 
+[**Acceptable Use Policy**](#acceptable-use-policy)
+
 
 
 
@@ -58,7 +60,7 @@ Note: The reputation of sites or companies referenced in your email is determine
     o	Words such as urgent, free, and guaranteed
 
     o	Spaces between every letter in a word, such as H e l l o
-    
+
 -	Use personalized greetings and salutations. For example, “Hey Bob” instead of “Hey” or “To Whom It May Concern”. Generic greetings make your content more likely to appear as unsolicited mail to spam filters.
 -	Do not include a disclaimer that your email is not spam, and do not claim compliance with some legal criteria. Legitimate email does not need to advertise compliance.
 -	Use conversational language. Message content that follows a consistent limited verbiage or template will appear to be computer-generated content, and will be flagged as spam.
@@ -69,3 +71,7 @@ Note: The reputation of sites or companies referenced in your email is determine
 #### Attachments
 -	It is now preferable to avoid attaching files to your messages. Cloud file services such as [Microsoft OneDrive with Rackspace](https://www.rackspace.com/office-365) now offer shareable links to files that you can provide in your email. Attachments are a common way of distributing viruses, making filters increasingly strict about attachments. Blocking zip file attachments is a prolific example of this.
 -	If you send attachments, ensure the spelling is correct and the attachment named correctly. Also, chose an attachment name that is simple and specific. Oddly named or spelled attachments are a common way of transporting viruses.
+
+
+#### Acceptable Use Policy
+Please reference this link [Acceptable Use Policy](https://www.rackspace.com/information/legal/aup?_ga=2.75345873.298003222.1495221511-62538955.1439921553) for any questions you may have about properly utilizing your Rackspace Cloud Office hosted email solution.
