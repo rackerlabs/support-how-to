@@ -1,6 +1,6 @@
 ---
 permalink: upload-an-ssl-certificate-to-a-custom-domain/
-audit_date:
+audit_date: '2017-05-19'
 title: Upload an SSL certificate to a custom domain
 type: article
 created_date: '2017-05-08'
