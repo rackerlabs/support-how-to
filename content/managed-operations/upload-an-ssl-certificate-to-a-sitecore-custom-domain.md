@@ -11,9 +11,9 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-To secure a Webapp that has a custom domain name, you need to use HTTPS. By default, Azure secures the **.azurewebsites.net** wildcard domain with a single SSL certificate, so you can already access your Webapp using the  **https://\<appname>.azurewebsites.net** URL.
+To secure a application that has a custom domain name, you need to use HTTPS. By default, Azure secures the **.azurewebsites.net** wildcard domain with a single SSL certificate, so you can already access your application using the  **https://\<appname>.azurewebsites.net** URL.
 
-However, the Azure default certificate will not work if you use a custom domain for your Webapp. A custom domain with its own SSL certificate is more secure than the default. This article describes to add an SSL certificate to a Webapp with a custom domain.
+However, the default Azure SSL certificate does not work if you use a custom domain for your application . A custom domain with its own SSL certificate is more secure than the default. This article describes how to add an SSL certificate to a application  with a custom domain.
 
 ### Prerequisite
 
@@ -41,7 +41,7 @@ If you do not already have SSL certificate, you need to get one from a trusted c
 
 2. In the left side navigation pane, click **App services**.
 
-3. Select the Webapp to which you want to assign the certificate.
+3. Select the application to which you want to assign the certificate.
 
 4. Navigate to the Settings and then click **SSL certificate**.
 
@@ -51,7 +51,7 @@ If you do not already have SSL certificate, you need to get one from a trusted c
 
 7. Click **Upload**.
 
-   You can now navigate to the SSL certificate through the Webapp pane.
+   You can now navigate to the SSL certificate through the application  pane.
 
 8. In the "SSL bindings" section of the SSL certificate pane, click **Add bindings**.
 
