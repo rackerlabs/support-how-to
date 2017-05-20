@@ -57,22 +57,6 @@ F4F/F4M  | H.264 <br /> VP6  | AAC <br /> MP3 |  None
   -   **flowplayer-*version*.min.js**
   -   **flowplayer.controls-*version*.swf**
 
-### Create a cross-domain XML file
-
-The cross-domain XML file enables you to specify what domains are allowed to get data from the CDN, so that people cannot hotlink your content unless you let them. Following is an example of a simple cross-domain XML file that allows all domains to call these Flash files:
-
-    <?xml version="1.0"?>
-     <!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
-      <cross-domain-policy>
-       <site-control permitted-cross-domain-policies="master-only"/>
-       <allow-access-from domain="*"/>
-       <allow-http-request-headers-from domain="*" headers="SOAPAction"/>
-      </cross-domain-policy>
-
-For more information about cross-domain XML files, see [Adobe's website](http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html "http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html")
-
-Save this file in your text editor as **crossdomain.xml** and upload it to the same Cloud Files container as the previous files.
-
 ### Create an XHTML file
 
 Now you can create a simple XHTML file that calls this Flash player and embeds it onto the page here. Following is the code:
