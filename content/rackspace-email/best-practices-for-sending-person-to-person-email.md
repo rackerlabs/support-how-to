@@ -5,7 +5,7 @@ title: Best practices for sending person-to-person email
 type: article
 created_date: '2017-05-17'
 created_by: Beau Bailey
-last_modified_date: '2017-05-17'
+last_modified_date: '2017-05-22'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -75,4 +75,4 @@ Note: The reputation of sites or companies referenced in your email is determine
 
 
 #### Acceptable Use Policy
-Please reference this link [Acceptable Use Policy](https://www.rackspace.com/information/legal/aup?_ga=2.75345873.298003222.1495221511-62538955.1439921553) for any questions you may have about properly utilizing your Rackspace Cloud Office hosted email solution.
+Please reference this link [Acceptable Use Policy](https://www.rackspace.com/information/legal/aup?_ga=2.75345873.298003222.1495221511-62538955.1439921553) as well as our [Mail Terms](https://www.rackspace.com/information/legal/aup?_ga=2.75345873.298003222.1495221511-62538955.1439921553) for any questions you may have about properly utilizing your Rackspace Cloud Office hosted email solution.
