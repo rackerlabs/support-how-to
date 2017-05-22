@@ -10,7 +10,7 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**Applies To:** Administrator and User
+**Applies to:** Administrator and User
 
 ## Overview
 Comprehensive list of file types that are not permitted using Rackspace Cloud Office email solutions. If you have received a bounce message when sending an email, please reference our list of [Common email bounces](https://support.rackspace.com/how-to/common-email-bounces/) for more information.

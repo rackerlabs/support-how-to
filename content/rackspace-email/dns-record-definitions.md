@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**Applies To:** Account Administrator or User
+**Applies to:** Account Administrator or User
 
 
 ## Overview

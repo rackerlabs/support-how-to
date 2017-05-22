@@ -10,7 +10,7 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**Applies To:** User
+**Applies to:** User
 
 
 ## Common Email Bounces
