@@ -5,7 +5,7 @@ title: Download a Skype for Business client
 type: article
 created_date: '2014-04-16'
 created_by: Kevin Richey
-last_modified_date: '2017-05-22'
+last_modified_date: '2017-05-23'
 last_modified_by: Catherine Richardson
 product: Microsoft Skype for Business
 product_url: skype-for-business

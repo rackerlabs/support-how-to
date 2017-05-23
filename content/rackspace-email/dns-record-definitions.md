@@ -1,11 +1,11 @@
 ---
-permalink: dns-record-definitions
+permalink: dns-record-definitions/
 audit_date:
 title: DNS  record definitions
 type: article
 created_date: '2017-05-17'
 created_by: William Loy
-last_modified_date: '2017-05-22'
+last_modified_date: '2017-05-23'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -15,7 +15,7 @@ product_url: rackspace-email
 
 
 ## Overview
-This is a brief overview of common email related DNS records. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
+This is a brief overview of common email related DNS records. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 ## DNS Record Definitions
  Record definitions include an example of how to configure these records at your DNS hosting provider.
@@ -81,7 +81,7 @@ Example:
 
 -	**DMARC record – “Domain Message Authentication Reporting and Compliance”**  DMARC indicates to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message you sent them using your DKIM and SPF policies.
 
--	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email please reference [Enable DKIM in the Cloud Office Control Panel](https://support.rackspace.com/how-to/enable-dkim-in-the-cloud-office-control-panel/).
+-	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email please reference [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel/).
 
 *Note: Why are SPF, DMARC, and DKIM important?  With “Spoofing” and “Phishing” attempts increasing dramatically, mail recipients are adopting these methods of sender authentication to combat malicious email. This not only protects those you are sending mail to, but it helps identify mail you are sending as legitimate.*
 

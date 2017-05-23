@@ -1,11 +1,11 @@
 ---
-permalink: best-practices-for-sending-person-to-person-email
+permalink: best-practices-for-sending-person-to-person-email/
 audit_date:
 title: Best practices for sending person-to-person email
 type: article
 created_date: '2017-05-17'
 created_by: Beau Bailey
-last_modified_date: '2017-05-22'
+last_modified_date: '2017-05-23'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -14,8 +14,8 @@ product_url: rackspace-email
 **Applies to:** User
 
 ## Overview
-This article provides recommendations to avoid having legitimate messages flagged as spam. If you require recommendations for sending email to many recipients reference [Best practices for sending email to many recipients](https://support.rackspace.com/how-to/best-practices-for-sending-emails-to-many-recipients/)
-If you have received a bounce message when sending an email, please reference our list of [Common email bounces](https://support.rackspace.com/how-to/common-email-bounces/) for more information.
+This article provides recommendations to avoid having legitimate messages flagged as spam. If you require recommendations for sending email to many recipients reference [Best practices for sending email to many recipients](/how-to/best-practices-for-sending-emails-to-many-recipients/)
+If you have received a bounce message when sending an email, please reference our list of [Common email bounces](/how-to/common-email-bounces/) for more information.
 
 ## Best practices for sending person-to-person email
 Stricter and more sophisticated spam filters, flag more email as spam than ever. To ensure your person-to-person emails reach their destination, Rackspace and the email industry recommend some simple guidelines.
