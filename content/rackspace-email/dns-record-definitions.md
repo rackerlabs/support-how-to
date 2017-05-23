@@ -1,17 +1,17 @@
 ---
 permalink: dns-record-definitions
 audit_date:
-title: DNS definitions
+title: DNS  record definitions
 type: article
 created_date: '2017-05-17'
 created_by: William Loy
-last_modified_date: '2017-05-17'
+last_modified_date: '2017-05-22'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**Applies To:** Account Administrator or User
+**Applies to:** Account Administrator or User
 
 
 ## Overview
@@ -81,7 +81,7 @@ Example:
 
 -	**DMARC record – “Domain Message Authentication Reporting and Compliance”**  DMARC indicates to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message you sent them using your DKIM and SPF policies.
 
--	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain.
+-	**DKIM record – “DomainKeys Identified Mail”**  This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email please reference [Enable DKIM in the Cloud Office Control Panel](https://support.rackspace.com/how-to/enable-dkim-in-the-cloud-office-control-panel/).
 
 *Note: Why are SPF, DMARC, and DKIM important?  With “Spoofing” and “Phishing” attempts increasing dramatically, mail recipients are adopting these methods of sender authentication to combat malicious email. This not only protects those you are sending mail to, but it helps identify mail you are sending as legitimate.*
 

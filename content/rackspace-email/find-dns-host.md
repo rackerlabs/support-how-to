@@ -5,13 +5,13 @@ title: Find your DNS host
 type: article
 created_date: '2017-05-17'
 created_by: William Loy
-last_modified_date: '2017-05-17'
+last_modified_date: '2017-05-22'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**Applies To:** Account Administrator
+**Applies to:** Account Administrator
 
 **Difficulty:** Easy
 
@@ -28,7 +28,7 @@ Instructions for locating your domain’s DNS host. If you need to configure you
 #### How do I find out who my DNS host is?
 You can use the following steps to identify where you can add/edit entries for your domain (DNS).
 
-1.	Search for your domain at https://who.is/
+1.	Search for your domain at [https://who.is/](https://who.is/)
 2.	Look for the field titled “Name Server” – this is the location of your DNS host.
 3.	If any of the following server names are listed in the field “Name Server” for your domain, Rackspace is most likely your DNS host and can assist with editing of your DNS records [here](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
