@@ -29,7 +29,7 @@ Bounce messages give a brief report of why a message will not deliver. Bounce me
 If Rackspace bounced your message, the generating server should show: emailsrvr.com. If you do not see emailsrvr.com in the bounce, the recipient’s provider may have blocked the message.
 
 
-| SMTP Error | Explanation | Solution |
+|SMTP Error |Explanation |Solution |
 |----------|-------------|----------|
 |**450 4.1.8** `<user@domain.com>: Sender address rejected: Domain not found`| The recipient is unable to verify the existence of your domain.|	Verify that your domain’s DNS is properly configured [here](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/)|
 |**451 4.3.0** `<servername[xx.xx.xx.xx]>: Client host rejected: Throttled - Too much spam from your mail server. Try again later.`| The recipient’s server has received too much spam from this source.|	Try sending the message again later. Follow these steps [Best practices for sending person-to-person email](/how-to/best-practices-for-sending-person-to-person-email/) or [Best practices for sending emails to many recipients](/how-to/best-practices-for-sending-emails-to-many-recipients/) to avoid being marked as spam. Ask the recipient to Safelist/Whitelist your domain.|
