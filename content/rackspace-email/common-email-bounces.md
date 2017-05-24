@@ -5,7 +5,7 @@ title: Common Email Bounces
 type: article
 created_date: '2017-05-18'
 created_by: William Loy
-last_modified_date: '2017-05-23'
+last_modified_date: '2017-05-24'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -26,7 +26,7 @@ Bounce messages give a brief report of why a message will not deliver. Bounce me
 **5.X.X Bounce** A bounce that is assigned a 500 error code is a permanent failure. This does not mean you will never be able to send email again. However, you will have to change some aspect of either the message or the method of delivery for it to successfully deliver. What you will need to change should be shown in the bounceback report.
 
 #### Before continuing
-If Rackspace bounced your message, the generating server should show: emailsrvr.com. If you do not see emailsrvr.com in the bounce, the recipient’s provider likely blocked the message.
+If Rackspace bounced your message, the generating server should show: emailsrvr.com. If you do not see emailsrvr.com in the bounce, the recipient’s provider may have blocked the message.
 
 
 |SMTP Error|	Explanation|	Solution|
