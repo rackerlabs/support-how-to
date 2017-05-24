@@ -10,7 +10,7 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**Applies To:** Account Administrator
+**Applies To:** User or Administrator
 
 
 ## Common Email Bounces
@@ -20,6 +20,10 @@ Causes of common bounce messages and how to resolve the underlying issue.
 
 **What is a “bounceback” message?**
 Bounce messages give a brief report of why a message will not deliver. Bounce messages vary from mail provider to mail provider. If you do not see your particular bounce error here, you can reference the mail provider you were sending to for an interpretation of their bounce.
+
+**4.X.X Bounce** A bounce that is assigned a 400 error is a temporary failure. This means that a temporary condition has caused this message to not be delivered but can likely be resolved by sending at a later time.
+
+**5.X.X Bounce** A bounce that is assigned a 500 error code is a permanent failure. This does not mean you will never be able to send email again. However, you will have to change some aspect of either the message or the method of delivery for it to successfully deliver. What you will need to change should be shown in the bounceback report.
 
 #### Before continuing
 If Rackspace bounced your message, the generating server should show: emailsrvr.com. If you do not see emailsrvr.com in the bounce, the recipient’s provider likely blocked the message.
