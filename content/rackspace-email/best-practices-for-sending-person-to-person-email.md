@@ -17,7 +17,7 @@ If you have received a bounce message when sending an email, please reference ou
 
 ### Prerequisites
 
-This article applies to **Users**.
+- **Applies to** - Users
 
 ### Best practices for sending person-to-person email
 
