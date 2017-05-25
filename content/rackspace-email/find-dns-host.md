@@ -11,21 +11,18 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-**Applies to:** Account Administrator
+This article describes how to locate your domain’s DNS host. If you need to configure your DNS for Rackspace Cloud Office Email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
 
-**Difficulty:** Easy
+### Prerequisites
 
-**Time Needed:** 10 minutes
+This article apples to **Account administrators**.
 
-**Tools Required:** Internet Browser
+- **Difficulty** - Easy
+- **Time needed** - Approximately 10 minutes
+- **Tools required** - Internet browser
 
+### Find your DNS host
 
-## Overview:
-Instructions for locating your domain’s DNS host. If you need to configure your DNS for Rackspace Cloud Office Email products click [here](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
-
-## Find your DNS host
-
-#### How do I find out who my DNS host is?
 You can use the following steps to identify where you can add/edit entries for your domain (DNS).
 
 1.	Search for your domain at [https://who.is/](https://who.is/)
@@ -53,7 +50,7 @@ You can use the following steps to identify where you can add/edit entries for y
 4.	To find the company that is hosting your domain's DNS (in order to access and edit your DNS records) you can google the entry found in the “Name Server” field from above.
 5. If this search does not work, try contacting any company you pay for webhosting as they are likely who is hosting your DNS. Rackspace Cloud Office does offer DNS hosting but we do not offer website hosting.
 
-#### How do I add or edit entries for my DNS host?
+### Add or edit entries for your DNS host
 
 You can find links to articles with instructions to modify your DNS records for some of the more common DNS hosts below. If your host is not listed below, please search their knowledge base or contact their support for assistance with modifying your DNS.
 
