@@ -40,3 +40,7 @@ Because of the nature of our hosted environment, the domain listed for these thr
 <img src="{% asset_path skype-for-business/set-up-dns-records-for-cloud-office-email-and-skype-for-business/SkypeforBusinessa.png %}" width="656" height="261" />
 
 **Note:** If you have an internal DNS, you must also set up these records on your internal DNS. If you want to enable Lync federation with domains hosted outside of Rackspace or domains that are hosted within Rackspace, contact our support team to learn more.
+
+### Related articles
+
+- [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email)
