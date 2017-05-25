@@ -15,8 +15,7 @@ This article describes how to locate your domain’s DNS host. If you need to co
 
 ### Prerequisites
 
-This article apples to **Administrators**.
-
+- **Applies to** -Administrators
 - **Difficulty** - Easy
 - **Time needed** - Approximately 10 minutes
 - **Tools required** - Internet browser
