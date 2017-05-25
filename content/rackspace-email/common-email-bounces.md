@@ -1,6 +1,6 @@
 ---
 permalink: common-email-bounces/
-audit_date:
+audit_date: '2017-05-25'
 title: Common Email Bounces
 type: article
 created_date: '2017-05-18'
@@ -10,27 +10,25 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-**Applies To:** User or Administrator
 
+This article explains causes of common bounce messages and how to resolve the underlying issue.
 
-## Common Email Bounces
+### Prerequisite
 
-### Overview:
-Causes of common bounce messages and how to resolve the underlying issue.
+This article applies to **Administrators** and **Users**.
 
-**What is a “bounceback” message?**
+### Bounce messages
+
 Bounce messages give a brief report of why a message will not deliver. Bounce messages vary from mail provider to mail provider. If you do not see your particular bounce error here, you can reference the mail provider you were sending to for an interpretation of their bounce.
 
-**4.X.X Bounce** A bounce that is assigned a 400 error is a temporary failure. This means that a temporary condition has caused this message to not be delivered but can likely be resolved by sending at a later time.
+- **4xx Bounce** -  A bounce that is assigned a 400 error is a temporary failure. This means that a temporary condition has caused this message to not be delivered but can likely be resolved by sending at a later time.
 
-**5.X.X Bounce** A bounce that is assigned a 500 error code is a permanent failure. This does not mean you will never be able to send email again. However, you will have to change some aspect of either the message or the method of delivery for it to successfully deliver. What you will need to change should be shown in the bounceback report.
+- **5xx Bounce** - A bounce that is assigned a 500 error code is a permanent failure. This does not mean you will never be able to send email again. You must change some aspect of either the message or the method of delivery for email to successfully deliver. The bounceback report should indicate what needs to change.
 
-#### Before continuing
-If Rackspace bounced your message, the generating server should show: emailsrvr.com. If you do not see emailsrvr.com in the bounce, the recipient’s provider may have blocked the message.
+**Note:** If Rackspace bounced your message, the generating server should show **emailsrvr.com**. If you do not see **emailsrvr.com** in the bounce, the recipient’s provider may have blocked the message.
 
-
-|SMTP Error |Explanation |Solution |
-|----------|-------------|----------|
+| SMTP Error |Explanation | Solution |
+| --- | --- | --- |
 |**450 4.1.8** `<user@domain.com>: Sender address rejected: Domain not found`| The recipient is unable to verify the existence of your domain.|	Verify that your domain’s DNS is properly configured [here](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/)|
 |**451 4.3.0** `<servername[xx.xx.xx.xx]>: Client host rejected: Throttled - Too much spam from your mail server. Try again later.`| The recipient’s server has received too much spam from this source.|	Try sending the message again later. Follow these steps [Best practices for sending person-to-person email](/how-to/best-practices-for-sending-person-to-person-email/) or [Best practices for sending emails to many recipients](/how-to/best-practices-for-sending-emails-to-many-recipients/) to avoid being marked as spam. Ask the recipient to Safelist/Whitelist your domain.|
 |**451 4.3.0** `<user@domain.com>: Temporary lookup failure`|	An intermittent issue has occurred.|	Wait and send the message again at a later time.|
