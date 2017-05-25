@@ -15,7 +15,7 @@ This article includes a comprehensive list of file types that are not permitted 
 
 ### Prerequisites 
 
-This article apples to **Administrators and Users**.
+This article apples to **Administrators** and **Users**.
 
 ### Blocked attachement types
 
