@@ -74,3 +74,4 @@ If you send attachments, ensure the spelling is correct and the attachment is na
 ### References
 
 - [Acceptable Use Policy](https://www.rackspace.com/information/legal/aup), specifically the Mail Requirements section
+- [Rackspace Cloud Office Mail Terms](https://www.rackspace.com/information/legal/mailterms)
