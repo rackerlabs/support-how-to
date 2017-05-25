@@ -15,7 +15,7 @@ This article explains causes of common bounce messages and how to resolve the un
 
 ### Prerequisite
 
-This article applies to **Administrators** and **Users**.
+- **Applies to** - Administrators and Users
 
 ### Bounce messages
 
