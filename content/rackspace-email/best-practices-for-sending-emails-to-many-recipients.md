@@ -15,7 +15,7 @@ This article provides our recommended best practices for sending legitimate mail
 
 ### Prerequisites
 
-This article applies to **Administrators** and **Users**.
+- **Applies to** - Administrators and Users
 
 ### Best practices for sending emails to many recipients
 
