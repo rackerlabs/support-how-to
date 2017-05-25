@@ -55,3 +55,4 @@ We recommend that you follow our person-to-person best practices when creating m
 ### References
 
 - [Rackspace Acceptable Use Policy](https://www.rackspace.com/information/legal/aup), specifically the Mail Requirements section
+- [Rackspace Cloud Office Mail Terms](https://www.rackspace.com/information/legal/mailterms)
