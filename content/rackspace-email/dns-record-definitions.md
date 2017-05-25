@@ -21,6 +21,12 @@ This article apples to **Administrators** and **Users**.
 
 The following DNS record definitions also include an example of how to configure these records at your DNS hosting provider.
 
+- [A record](#a-record)
+- [MX record](#mx-record)
+- [CNAME record](#cname-record)
+- [TXT record](#txt-record)
+   - [Common email-related TXT records](#common-email-related-txt-records)
+
 ### A record  
 
 The Address (A) record is the most basic DNS record type. It’s function is to point a domain or subdomain to an IP address
