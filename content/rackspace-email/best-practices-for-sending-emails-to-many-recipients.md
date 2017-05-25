@@ -46,7 +46,11 @@ Maintain a safe and reputable business website. It should include easy access to
 
 Ensure that other companies you allow to include references to your business are reputable. If they send out spam and your company information is referenced in those emails, your domain could be flagged as being related to spam.
 
-**Note:** We recommend that you follow our person-to-person best practices when creating message content. Rackspace strives to maintain the best possible reputation with other mail providers and the email industry. Our Anti-Abuse and Acceptable Use teams work diligently to protect our users from abusive email. An important part of helping us maintain our reputation is helping you send good email.
+#### Message content
+
+We recommend that you follow our person-to-person best practices when creating message content. For more information, see [Best practices for sending person-to-person email](/how-to/best-practices-for-sending-person-to-person-email).
+
+**Note:** Rackspace strives to maintain the best possible reputation with other mail providers and the email industry. Our Anti-Abuse and Acceptable Use teams work diligently to protect our users from abusive email. An important part of helping us maintain our reputation is helping you send good email.
 
 ### References
 
