@@ -76,7 +76,7 @@ Example:
 
 - **DomainKeys Identified Mail (DKIM)** - This record assigns a digital signature to mail sent from your domain marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel/).
 
-**Note:** SPF, DMARC, and DKIM are important because of increased “Spoofing” and “Phishing” attempt. Mail recipients are adopting these methods of sender authentication to combat malicious email. This not only protects those you are sending mail to, but it helps identify mail you are sending as legitimate.
+**Note:** SPF, DMARC, and DKIM are important because of increased “Spoofing” and “Phishing” attempts. Mail recipients are adopting these methods of sender authentication to combat malicious email. This not only protects those you are sending mail to, but it helps identify mail you are sending as legitimate.
 
 ### DNS propagation
 
