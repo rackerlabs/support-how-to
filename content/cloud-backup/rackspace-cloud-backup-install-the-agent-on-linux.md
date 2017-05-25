@@ -41,9 +41,6 @@ get a message that the command can't be found, you must install the agent.
 If the Cloud Backup agent is not installed, proceed with the instructions in
 this article for your Linux distribution.
 
-**Note**: Installation of all the Linux backup agents requires a reboot.
-However, updating the agent does not require a reboot.
-
 ### Install the agent on APT-based systems, such as Ubuntu and Debian
 
 **Note:** On Tuesday, December 13th, 2016, we released a new set of packages to
