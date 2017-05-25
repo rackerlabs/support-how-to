@@ -15,7 +15,7 @@ This article provides a brief overview of common email related DNS records. If y
 
 ### Prerequisites
 
-This article apples to **Administrators** and **Users**.
+- **Applies to** - Administrators and Users
 
 ### DNS records
 
