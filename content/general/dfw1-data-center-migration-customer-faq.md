@@ -9,6 +9,7 @@ last_modified_date: '2017-05-26'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
+noindex: true
 ---
 
 In 2014, Rackspace opened a new data center facility in the Dallas area - DFW3.
