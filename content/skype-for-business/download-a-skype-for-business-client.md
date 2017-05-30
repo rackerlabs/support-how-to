@@ -15,7 +15,7 @@ Skype for Business clients are available for multiple platforms. Select the plat
 
 ### Desktop clients
 
-Following are the available clients for Microsoft Windows and Mac OS X systems. Note that some download pages still use the previous name, Microsoft Lync.
+Desktop clients are available for Microsoft Windows and Mac OS X systems. Note that some download pages still use the previous name, Microsoft Lync.
 
 #### Microsoft Windows
 
