@@ -25,10 +25,11 @@ Bounce messages provide a brief explanation of why an email was not delivered. B
 
 - **5xx bounce** - A 500 error indicates a permanent failure. This error does not mean you will never be able to send email again; you must change some aspect of either the message or the method of delivery for email to successfully be delivered. The bounce message should indicate what needs to change.
 
-**Note:** If Rackspace bounced your email message, the generating server should show **emailsrvr.com** in the bounce message. If you do not see **emailsrvr.com** in the bounc emessage, the recipient’s provider might have blocked the message.
+**Note:** If Rackspace bounced your email message, the generating server should show **emailsrvr.com** in the bounce message. If you do not see **emailsrvr.com** in the bounce message, the recipient’s provider might have blocked the message.
 
 | SMTP error |Explanation | Solution |
 | --- | --- | --- |
+|Host or domain name not found. MX host not found.| There are no MX records for the recipient's domain| This message will not deliver. The recipient must create MX records at their DNS host so that they can receive email. More information on [MX records](/how-to/dns-record-definitions/#mx-records). |
 | **450 4.1.8** \<user@domain.com\>: Sender address rejected: Domain not found | The recipient cannot verify the existence of your domain. | Verify that your domain’s DNS is properly configured. See [Set up DNS records](/how-to/set-up-dns-records-for-cloud-office-email) for instructions. |
 | **451 4.3.0** <servername[xx.xx.xx.xx]>: Client host rejected: Throttled - Too much spam from your mail server. Try again later. | The recipient’s server has received too much spam from this source. | Try sending the message again later. Follow the steps in [Best practices for sending person-to-person email](/how-to/best-practices-for-sending-person-to-person-email) or [Best practices for sending emails to many recipients](/how-to/best-practices-for-sending-emails-to-many-recipients) to avoid having your email marked as spam. Ask the recipient to safelist or whitelist your domain. |
 | **451 4.3.0** \<user@domain.com\>: Temporary lookup failure | An intermittent issue has occurred. | Wait and send the message again at a later time. |
