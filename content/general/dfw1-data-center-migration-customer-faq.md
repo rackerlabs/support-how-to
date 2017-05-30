@@ -1,7 +1,7 @@
 ---
 permalink: dfw1-data-center-migration-customer-faq/
 audit_date:
-title: DFW1 Data center migration customer FAQ
+title: DFW1 Data-center migration customer FAQ
 type: article
 created_date: '2017-05-22'
 created_by: Ciaran Maher
@@ -12,7 +12,7 @@ product_url: undefined
 noindex: true
 ---
 
-In 2014, Rackspace opened a new data center facility in the Dallas area - DFW3.
+In 2014, Rackspace opened a new data-center facility in the Dallas area - DFW3.
 The initial intake was only for Cloud customers; however, in 2016, it also
 started serving dedicated hosting customers.
 
@@ -21,14 +21,14 @@ latest networking and electrical infrastructure deployed there, Rackspace has
 decided to close its oldest data center, DFW1. All customers currently hosted
 in DFW1 will be physically migrated to the DFW3 facility.
 
-Rackspace has had widespread success in data center migrations over the past
+Rackspace has had widespread success in data-center migrations over the past
 decade. During this time, our dedicated migration teams have performed the
 following migrations:
 
--   In 2009, 15,000 devices from our LON2 facility to LON3.
--   In 2011, 3,828 devices from our SAT1 and SAT2 facilities to DFW1.
--   In 2012, 8,200 devices from our IAD1 facility to DFW1 and IAD3.
--   In 2015, 11,200 devices from our LON1 and LON3/DH4 facilities to LON5.
+-   In 2009, 15,000 devices from our LON2 facility.
+-   In 2011, 3,828 devices from our SAT1 and SAT2 facilities.
+-   In 2012, 8,200 devices from our IAD1 facility.
+-   In 2015, 11,200 devices from our LON1 and LON3/DH4 facilities.
 
 You can rest assured that we are investing significant resources to ensure a
 smooth migration for all customers.
@@ -82,7 +82,7 @@ The migration will happen in the following stages:
    days before the maintenance date.
 
 4.	The affected devices are removed from the cabinets and securely transported
-   to the new data center facility.
+   to the new data-center facility.
 
 5.	In the new data center, all devices are racked and turned on.
 
@@ -180,13 +180,13 @@ night:
     server is turned on.
 
 -   Fully install any pending Windows updates before the scheduled migration.
-    If updates stop us from being able to gracefully turning off your servers,
+    If updates stop us from being able to gracefully turn off your servers,
     the downtime for the entire move group could be extended, and we might need
     to remove the power before the update process concludes.
 
 -   Perform a test reboot of your servers before the migration to ensure that
     applications and services start correctly. You can schedule reboots from
-    the Cloud Control Panel.
+    the MyRackspace portal.
 
 #### How will you keep me informed about the migration?
 
@@ -272,7 +272,7 @@ miles from DFW1.
 
 Contact us in any of the following ways:
 
--   Create a ticket in the Cloud Control Panel. Request in the ticket that it
+-   Create a ticket in the MyRackspace portal. Request in the ticket that it
     be assigned to the DFW1 Migration ticket queue.
 -   Ask a member of your account team for more information.
 -   Respond to one of the ticket notifications that you will receive before
