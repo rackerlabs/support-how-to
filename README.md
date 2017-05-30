@@ -20,6 +20,6 @@ https://support.rackspace.com/how-to/
 - Jun 19 - 23: Laura
 - Jun 26 - 30: Nate
 - Jul 3 - Jul 7: Renée
-- Jul 10 - Jul 14: 
+- Jul 10 - Jul 14: Cat
 - Jul 17 - Jul 21: 
 - Jul 24 - Jul 28:
