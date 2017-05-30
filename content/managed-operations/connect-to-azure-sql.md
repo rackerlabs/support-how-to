@@ -34,6 +34,8 @@ By default, an Azure SQL Database firewall prevents external connectivity to you
 
 3. On the SQL server pane, click **Firewall** to open the **Firewall pane** for your server. The IP address is displayed on your client computer.
 
+    <img src="{% asset_path managed-operations/connect-to-azure-sql/firewall-ip.png %}" alt="" />  
+
 4. Click **Add client IP** on the toolbar to create a firewall rule for your current IP address. You can create a firewall rule for a single IP address or an entire range of addresses. Opening the firewall enables SQL administrators and users to log in to any database on the server for which they have valid credentials.
 
 5. Click **Save** on the toolbar save this server level firewall rule, and then select **Ok** to close the Success dialog box.
