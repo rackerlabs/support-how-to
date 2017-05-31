@@ -31,7 +31,7 @@ The advantage of this manual approach is that the files are copied using the cur
 
 2. Delete **/files** directory from the original zip file. <!---Does this mean the original must be compressed again??---> You should now have a set of uncompressed package files with the original three directories, and a compressed package file with only the **/items** and **/metadata**.
 
-<!---Lost right here. Which website, the Azure Webapp, the content management site, just the Website files--->
+     <!---Lost right here. Which website, the Azure Webapp, the content management site, just the Website files--->
 
 3. Backup databases and files from the website, remember files that are not located under the website root, for example, files in the data folder which may have been moved to a non-public folder.
 
