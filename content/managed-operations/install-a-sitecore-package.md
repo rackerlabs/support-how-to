@@ -33,7 +33,7 @@ The advantage of this manual approach is that the files are copied using the cur
 
      <!---Lost right here. Which website, the Azure Webapp, the content management site, just the Website files--->
 
-3. Backup databases and files from the website, remember files that are not located under the website root, for example, files in the data folder which may have been moved to a non-public folder.
+3. Backup databases and files from the website. Remember files that are not located under the website root, for example, files in the data folder which may have been moved to a non-public folder.
 
 The website is now considered down for maintenance. You might want to publish an "Under Maintenance" page on your website.
 
@@ -55,8 +55,8 @@ The website is now considered down for maintenance. You might want to publish an
 
 8. Review the package information and click **Install**.
 
-9. Copy the extracted files to the website preserving the folder structure, so that existing files are overwritten.
+9. Copy the extracted files to the website, preserving the same folder structure so that existing files are overwritten.
 
-10. Verify the your website is running.
+10. Verify that your website is running.
 
 The website should no longer be considered down for maintenance. Ff you used an “Under Maintenance” page it should now be removed. The advantage of this manual approach is that the files are copied using the current FTP User, and you do not need to change any security settings.
