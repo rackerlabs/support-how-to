@@ -19,7 +19,7 @@ If you have received a bounce message when sending an email, see our list of [co
 
 - **Applies to:** Administrators and Users
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Best practices
 
