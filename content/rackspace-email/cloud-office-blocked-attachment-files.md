@@ -19,6 +19,8 @@ If you receive a bounce message when sending an email, see our list of [common e
 
 - **Applies to:** Administrators and Users
 
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### Blocked attachment types
 
 **Note:** We cannot make exceptions for any file type listed for any reason.
