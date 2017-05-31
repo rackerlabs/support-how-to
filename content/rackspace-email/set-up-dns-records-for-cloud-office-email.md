@@ -22,6 +22,8 @@ DNS tells the world how email should be handled and routed for your domain. This
 
 You also need access to update DNS entries for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/how-to/find-dns-host).
 
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### Configure DNS to send and receive email
 
 Use the steps in this section to set up your domain to allow proper routing of incoming and outgoing email.
