@@ -19,6 +19,8 @@ If you need to configure your DNS for Rackspace Cloud Office Email products, see
 
 - **Applies to:** Administrators and Users
 
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### DNS records
 
 The following DNS record definitions also include an example of how to configure these records at your DNS hosting provider:
