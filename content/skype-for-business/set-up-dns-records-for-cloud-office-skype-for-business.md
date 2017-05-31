@@ -20,6 +20,8 @@ This article describes how to set up DNS for the Skype for Business offering fro
 - **Time needed:** Approximately 30 minutes to configure and an additional 24-48 hours to propagate
 - **Tools required:** DNS host administrator access
 
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### Set up DNS records for Skype for Business
 
 To configure your hosted implementation of Microsoft Skype for Business formerly Microsoft Lync, you must set up DNS records. The following CNAME and SRV records must be in place to enable Skype for Business to work with the Hosted Exchange environment.
