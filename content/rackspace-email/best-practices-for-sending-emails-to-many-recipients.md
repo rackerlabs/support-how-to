@@ -19,6 +19,8 @@ If you have received a bounce message when sending an email, see our list of [co
 
 - **Applies to:** Administrators and Users
 
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### Best practices
 
 Sending email to many recipients is a common practice of spammers. As a result, most email providers have strict rules regarding email content sent to many recipients. It is difficult to distinguish your email from typical mass marketing, newsletter, and other unsolicited mass email content.
