@@ -19,7 +19,7 @@ If you need recommendations for sending email to many recipients, see [Best prac
 
 - **Applies to:** Users
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Best practices
 
