@@ -1,7 +1,7 @@
 ---
-permalink: clear-your-sitecore-cache/
+permalink: clear-your-sitecore-caches/
 audit_date:
-title: Clear your Sitecore cache
+title: Clear your Sitecore caches
 type: article
 created_date: '2017-09-02'
 created_by: Juan Garza
@@ -11,9 +11,9 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-Sitecore administrators can view Sitecore's cache administration page using the URL **http://{sitecoreurl}/sitecore/admin/cache.aspx**. You can make sure your Sitecore site performs well by clearing your cache.
+Sitecore administrators can view their Sitecores caches administration page using the URL **http://{sitecoreurl}/sitecore/admin/cache.aspx**. You can make sure your Sitecore site performs well by clearing your caches.
 
-However, Sitecore caches templates in administration pages are blocked for security purposes. Therefore, clearing your Sitecore caches in the Sitecore Dashboard requires customization and is not recommended.
+However, Sitecore cache templates in administration pages are blocked for security purposes. Therefore, clearing your Sitecore caches in the Sitecore Dashboard requires customization and is not recommended.
 
 Sitecore recommends clearing your cache by restarting your Sitecore sites respective Webapp in the Azure portal. This creates a fresh cache for your website's content.
 
