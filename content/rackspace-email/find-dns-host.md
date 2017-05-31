@@ -22,6 +22,8 @@ If you need to configure your DNS for Rackspace Cloud Office Email products, see
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Internet browser
 
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### Find the DNS host
 
 1. Go to <https://who.is/> and search for your domain.
