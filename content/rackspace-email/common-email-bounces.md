@@ -17,6 +17,8 @@ This article explains the causes of common email bounce messages and how to reso
 
 - **Applies to:** Administrators and Users
 
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### Bounce messages
 
 Bounce messages provide a brief explanation of why an email was not delivered. Bounce messages vary among mail providers. If you do not see your particular bounce message here, refer to the mail provider for an interpretation of their message.
