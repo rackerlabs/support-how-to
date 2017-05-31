@@ -40,7 +40,7 @@ The following DNS entries are required to properly use email services at Rackspa
 
 1. Log in to the control panel for your domain DNS host.
 
-2. Set the DNS entries to the following values. Ensure that no other MX record entries exist, or you will experience email complications. For more information, see [Add or edit entries for your DNS host](/how-to/find-dns-host-add-or-edit-entries-for-your-dns-host).
+2. Set the DNS entries to the following values. Ensure that no other MX record entries exist, or you will experience email complications. For more information, see [Add or edit entries for your DNS host](/how-to/find-dns-host#add-or-edit-entries-for-your-dns-host).
 
    **Note:** The field headings might vary slightly depending on your DNS host. Refer to your DNS host for details.
 
