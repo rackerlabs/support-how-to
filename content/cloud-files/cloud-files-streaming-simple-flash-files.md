@@ -1,7 +1,7 @@
 ---
 permalink: cloud-files-streaming-simple-flash-files/
 audit_date:
-title: Cloud Files - Streaming simple Flash files
+title: Stream simple Flash files from Cloud Files
 type: article
 created_date: '2011-03-08'
 created_by: Rackspace Support
