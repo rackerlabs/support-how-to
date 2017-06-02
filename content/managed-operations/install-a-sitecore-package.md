@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-This article describes how to install a Sitecore package from a zip file. The zip file contains 3 folders; items, files, and metadata. These folders hold both content items and package configuration files.
+This article describes how to install a Sitecore package from a zip file. 
 
 ### Prerequisites
 
@@ -21,23 +21,21 @@ To set up your deployment, you need the following:
 
 - Familiarity with how to [Publish content to Sitecore](/how-to/publish-content-to-sitecore/).
 
-- A zip file containing Sitecore package files. The zip file contains 3 folders; items, files, and metadata. These folders hold both content items and package configuration files.
+- A zip file containing Sitecore package files. The zip file contains 3 folders; **/items**, **/files**, and **/metadata**. These folders hold both content items and package configuration files.
 
 ### Install a package manually
 
 The advantage of this manual approach is that the files are copied using the current FTP User, and you do not need to change any security settings.
 
-1. Open the compressed zip package file and extract the files from the **/files** folder. Preserve the original directory structure when extracting the files.
+1. Open the compressed zip package file and extract the **/files** folder. Preserve the original directory structure when extracting the folder.
 
-2. Delete **/files** directory from the original zip file. <!---Does this mean the original must be compressed again??---> You should now have a set of uncompressed package files with the original three directories, and a compressed package file with only the **/items** and **/metadata**.
-
-     <!---Lost right here. Which website, the Azure Webapp, the content management site, just the Website files--->
+2. Delete the **/files** folder from the original zip. You should now have a package file with the original three folders, and a package file with only the **/items** and **/metadata** folders.
 
 3. Backup databases and files from the website. Remember files that are not located under the website root, for example, files in the data folder which may have been moved to a non-public folder.
 
 The website is now considered down for maintenance. You might want to publish an "Under Maintenance" page on your website.
 
-### Install the package with only items and metadata.
+### Install the package with only /items and /metadata
 
 1. Login to your Sitecore content management site.
 
@@ -51,12 +49,16 @@ The website is now considered down for maintenance. You might want to publish an
 
 6. After the files are upload click **Close**.
 
-7. Click **Next** to continue with the package installation. When prompted, rad and accept the license agreement, and then click **Next**.
+7. Click **Next** to continue with the package installation. When prompted, read and accept the license agreement, and then click **Next**.
 
 8. Review the package information and click **Install**.
 
-9. Copy the extracted files to the website, preserving the same folder structure so that existing files are overwritten.
+### Publish contents and deploy the extracted files
 
-10. Verify that your website is running.
+1. If necessary, [publish the contents of your install package](/how-to/publish-content-to-sitecore/).
 
-The website should no longer be considered down for maintenance. Ff you used an “Under Maintenance” page it should now be removed. The advantage of this manual approach is that the files are copied using the current FTP User, and you do not need to change any security settings.
+2. Deploy the extracted **/files** folder to the website, preserving the same folder structure so that existing files are overwritten.
+
+3. Verify that your website is running.
+
+The website should no longer be considered down for maintenance. If you used an “Under Maintenance” page it should now be removed. 
