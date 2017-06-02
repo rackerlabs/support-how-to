@@ -51,7 +51,7 @@ The following types of database servers are supported in the indicated areas:
 | MySQL and MariaDB | Yes | Yes | Yes | Yes |
 | Percona | Yes | Yes | Yes | Yes |
 
-**Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL, and PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply.
+**Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL. PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply. For more information visit our [DBA Services page](https://www.rackspace.com/en-us/dba-services).
 
 **Note**: Rackspace will install and support the official Oracle MySQL, MariaDB and Percona MySQL
 software from the vendor's repositories.
