@@ -21,7 +21,6 @@ This article describes how to connect to Azure SQL.
 
 When working with SQL Database, you should always use the most recent version of SQL Server Management Studio (SSMS). The latest version of SSMS is continually updated and optimized to work with Azure and SQL Database. The latest version of SSMS works for all supported versions of SQL Server. To download and install the latest version, see the Microsoft documentation [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
-In the **Connect to Server** dialog box, enter the necessary information to connect to your SQL server using SQL Server Authentication.
 To stay up-to-date, the latest version of SSMS prompts you when there is a new version available to download.
 
 ### Create a server level firewall rule
@@ -30,9 +29,9 @@ By default, an Azure SQL Database firewall prevents external connectivity to you
 
 1. Log in to the [Azure portal](https://portal.azure.com/).
 
-2. In the left side navigation pane, select **SQL server**.
+2. In the left side navigation pane, click **All resources**, and select the SQL server (for example, **sccwest-web-sql**) to bring up SQL server pane.
 
-3. On the SQL server pane, click **Firewall** to open the **Firewall pane** for your server. The IP address is displayed on your client computer.
+3. On the SQL server pane, click **Firewall** to open the Firewall pane for your server. The IP address is displayed on your client computer.
 
     <img src="{% asset_path managed-operations/connect-to-azure-sql/firewall-ip.png %}" alt="" />  
 
