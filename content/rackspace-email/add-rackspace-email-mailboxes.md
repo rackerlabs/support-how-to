@@ -70,7 +70,7 @@ The mailbox will appear in the mailboxes list. To manage additional features for
 
 1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 
-2.	Select "Mailboxes" within the Rackspace Email section.
+2.	Select **Mailboxes** within the Rackspace Email section.
     <!--add screen shot file AddmailboxSC1.png-->
 
 3.	If you have multiple domains, select the domain you wish to add a mailbox to.
@@ -89,7 +89,7 @@ The mailbox will appear in the mailboxes list. To manage additional features for
     - Numerals (0&ndash;9)
     - Alphanumeric symbols (such as !, #, $, %)
 
-Warning: **Username**, **Password**, and **Enabled** fields are required on all CSV or Excel imports. This method of mailbox creation should be used for adding a very high number of mailboxes.
+Warning: **Username**, **Password**, and **Enabled** fields are required on all CSV or Excel imports when adding Rackspace Email mailboxes. This method of mailbox creation should be used for adding a very high number of mailboxes.
 
 6.	In the **Import File** section, click **Browse** or **Choose File**.
 
@@ -118,3 +118,7 @@ Note: Any errors that occur are detailed in the import log. Make corrections as 
 [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
 
 [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel")
+
+[Cloud Office Email Portal](https://apps.rackspace.com/index.php)
+
+[Add Microsoft Exchange mailboxes](https://support.rackspace.com/how-to/adding-microsoft-exchange-mailboxes/).
