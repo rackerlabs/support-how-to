@@ -18,7 +18,7 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
 - **Difficulty:** Easy
 
-- **Time needed:** Approximately 10 minutes to create a mailbox / Approximately 10 additional minutes for mailbox to be accessible
+- **Time needed:** Approximately 5 minutes to create a mailbox / Approximately 15 additional minutes for mailbox to be accessible
 
 - **Tools required:** Cloud Office Control Panel access
 
@@ -49,6 +49,8 @@ Add Rackspace Email mailboxes using these steps. If you need to add a Hosted Exc
 
 	 * **User Name:** Enter the part of the email address before the @ symbol. For example, if the email address is **myname@yourdomainexample.com**, enter **myname**.
 
+   Note: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address before using the same username.
+
 	 * **Password:** Enter a password for the email account using the following requirements:
 
 	   - It must be at least eight characters.
@@ -64,7 +66,7 @@ Add Rackspace Email mailboxes using these steps. If you need to add a Hosted Exc
 
 The mailbox will appear in the mailboxes list. To manage additional features for the mailbox, such as forwarding, autoreply, aliases, or settings, click the mailbox name and then click the corresponding tab on the details page.
 
-**Note:** Once a mailbox is created in the Cloud Office Control Panel, it can take up to 10 minutes for the mailbox to be accessible. You can then log into the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php)
+**Note:** Once a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to be accessible. You can then log into the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php)
 
 ### Add multiple mailboxes
 
@@ -80,6 +82,8 @@ The mailbox will appear in the mailboxes list. To manage additional features for
     <!--add screen shot file AddmultmailboxesSC1.png-->
 
 5.	Create a CSV or Excel file(XLS) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
+
+Note: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address before using the same username.
 
 	Passwords requirements:
   - It must be at least eight characters.
@@ -97,7 +101,7 @@ Warning: **Username**, **Password**, and **Enabled** fields are required on all 
 
 8.	Click **Open** and then **Import**.
 
-The mailboxes will appear in the mailboxes list.
+The mailboxes will appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
 
 Note: Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
 
