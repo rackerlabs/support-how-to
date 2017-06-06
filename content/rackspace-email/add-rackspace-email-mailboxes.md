@@ -24,7 +24,7 @@ You can add a single mailbox to your Rackspace Email account or add multiple mai
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-Add Rackspace Email mailboxes using these steps. If you need to add a Hosted Exchange mailbox see [Add Microsoft Exchange mailboxes](https://support.rackspace.com/how-to/adding-microsoft-exchange-mailboxes/).
+Add Rackspace Email mailboxes using these steps. If you need to add a Microsoft Exchange mailbox see [Add Microsoft Exchange mailboxes](https://support.rackspace.com/how-to/adding-microsoft-exchange-mailboxes/).
 
 ### Add a single mailbox
 
