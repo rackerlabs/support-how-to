@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article provides a brief overview of common email related DNS records. 
+This article provides a brief overview of common email related DNS records.
 
 If you need to configure your DNS for Rackspace Cloud Office Email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
 
@@ -36,9 +36,9 @@ The Address (A) record is the most basic DNS record type. It’s function is to 
 
 Example:
 
-| Type | Hostname | Destination | Priority | TTL |
+| Type | Hostname | Destination | TTL |
 | --- | --- | --- | --- | --- |        
-| A | **blog.example.com** | XXX.XX.XX.XXX | 10 | 3600 |
+| A | **blog.example.com** | XXX.XX.XX.XXX | 3600 |
 
 #### MX record
 
@@ -80,7 +80,7 @@ Following are some common email-related TXT records:
 - **Sender Policy Framework (SPF)** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing).
 
    **Note:** If you send email from other providers on behalf of your domain, be sure to include their sending servers in the same SPF record entry. Do not create multiple SPF records.
-   
+
 - **DomainKeys Identified Mail (DKIM)** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel/).
 
 - **Domain Message Authentication Reporting and Compliance (DMARC)** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies.
