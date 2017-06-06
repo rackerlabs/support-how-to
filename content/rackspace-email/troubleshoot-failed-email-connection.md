@@ -45,7 +45,7 @@ Because many factors can affect mailbox connectivity, we recommend a methodical 
 
 4. **Have you upgraded your mailboxes at Rackspace Cloud Office?**
 
-   When you upgrade your mailbox, your mailbox might have been created again on another sever. For example, if you upgrade a mailbox from Exchange 2007 to Exchange 2016, your data is migrated from the Exchange 2007 mailbox to a new mailbox on Exchange 2016. This means that you must configure your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) to connect to the mailbox on the new server. For instructions on configuring your mail client after upgrading, see [emailhelp.rackspace.com](https://emailhelp.rackspace.com/).
+   When you upgrade your mailbox, your mailbox might have been created again on another server. For example, if you upgrade a mailbox from Exchange 2007 to Exchange 2016, your data is migrated from the Exchange 2007 mailbox to a new mailbox on Exchange 2016. This means that you must configure your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) to connect to the mailbox on the new server. For instructions on configuring your mail client after upgrading, see [emailhelp.rackspace.com](https://emailhelp.rackspace.com/).
 
 5. **Is the connectivity issue happening for all users on your domain?**
 
