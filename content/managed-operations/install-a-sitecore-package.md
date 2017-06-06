@@ -25,9 +25,7 @@ To set up your deployment, you need the following:
 
 ### Manually extract the package files
 
-Use the following steps to manually extract the package files to perfrom a manual installation. The advantage of
-manual installation is that the files are copied using the current FTP User, and you do
-not need to change any security settings.
+Use the following steps to manually extract the package files to perfrom a manual installation. The advantage of manual installation is that the files are copied using the current FTP User, and you do not need to change any security settings.
 
 1. Open the zip package and extract the **/files** folder. Preserve the original directory structure when extracting the folder.
 
