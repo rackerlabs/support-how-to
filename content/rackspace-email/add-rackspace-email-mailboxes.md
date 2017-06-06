@@ -83,9 +83,9 @@ The mailbox will appear in the mailboxes list. To manage additional features for
 
 5.	Create a CSV or Excel file(XLS) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
 
-Note: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address before using the same username.
+    Note: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address before using the same username.
 
-	**Passwords requirements:**
+	**Password requirements:**
   - It must be at least eight characters.
   - It must use characters from at least three of the following four character types:
     - English alphabet uppercase letters (A&ndash;Z)
