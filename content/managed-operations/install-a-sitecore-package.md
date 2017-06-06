@@ -3,7 +3,7 @@ permalink: install-a-sitecore-package/
 audit_date: '2017-06-06'
 title: Install a Sitecore package
 type: article
-created_date: '2017-09-02'
+created_date: '2017-06-06'
 created_by: Juan Garza
 last_modified_date: '2017-06-06'
 last_modified_by: Nate Archer
