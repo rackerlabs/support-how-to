@@ -65,4 +65,4 @@ The website is now considered down for maintenance. You might want to publish an
 
 3. Verify that your website is running.
 
-The website should no longer be considered down for maintenance. If you published an “Under Maintenance” page, remove it
+The website should no longer be considered down for maintenance. If you published an “Under Maintenance” page, remove it.
