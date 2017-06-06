@@ -5,8 +5,8 @@ title: Support ticket statuses
 type: article
 created_date: '2011-06-15'
 created_by: Rackspace Support
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-06-06'
+last_modified_by: Nate Archer
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -33,10 +33,9 @@ statuses:
 
 1.  As soon as a Rackspace Cloud customer opens a ticket, it has a
     status of **New**.
-2.  When a ticket has been seen by a member of Rackspace Cloud support
-    team, it has a status of **Feedback Received.**
+2.  When a ticket has been placed in the Rackspace Cloud support team's queue, it has a status of **Feedback Received**.
 3.  After a ticket is reviewed by the Rackspace Cloud support team, it
-    moves to the **In Progress** or **Solved** status.
+    moves to the **In Progress** status. If Rackspace solves the issue, the status is moved to **Solved**.
 4.  If the support team needs more information from the customer to fix
     the issue, the ticket might move to the **Pending Customer** status.
 5.  If the ticket is pending an update or release from a vendor, the
@@ -51,4 +50,4 @@ statuses:
     Progress**.
 9.  If a customer does not explicitly close or reopen a ticket with a
     **Solved** status, the ticket automatically goes to the **Closed**
-    status in seven days.
+    status after a set period of time, depending on the nature of the ticket's request.
