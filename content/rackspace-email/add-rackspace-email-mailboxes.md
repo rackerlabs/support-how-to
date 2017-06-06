@@ -37,8 +37,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 <!--add screen shot file AddmailboxSC2.png-->
 
-
-    **Note:** If the **Add Mailbox** button is greyed out, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+**Note:** If the **Add Mailbox** button is greyed out, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 5.	Enter the following information in the fields provided:
 
