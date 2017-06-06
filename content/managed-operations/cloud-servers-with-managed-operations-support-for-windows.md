@@ -5,7 +5,7 @@ title: Cloud Servers with Managed Operations support for Windows
 type: article
 created_date: '2011-03-16'
 created_by: David Hendler
-last_modified_date: '2017-03-03'
+last_modified_date: '2017-06-06'
 last_modified_by: Stephanie Fillmon
 product: Managed Operations
 product_url: managed-operations
@@ -135,14 +135,6 @@ third party services.
 
 -   **Load Balancing:** Support is provided through the use of Cloud
     Load Balancers.
-
--   **Email:** Support is provided through Rackspace Email and using
-    IIS SMTP on the server. Cloud servers with the Managed Operations
-    service Level are preconfigured to use Mailgun, our mail relay service,
-    to ensure reliable mail delivery. The first 50,000 emails sent each
-    month are free, and your mail package can be upgraded if higher volume
-    is expected. For more details see the [Mailgun Rackspace pricing
-    page](http://www.mailgun.com/rackspace).
 
 -   **DNS:** The use of the Rackspace Cloud name servers for DNS
     is supported. Windows DNS is currently not supported.
