@@ -5,7 +5,7 @@ title: Mapping of Amazon Web Services resources to Rackspace resources
 type: article
 created_date: '2013-07-01'
 created_by: David Hendler
-last_modified_date: '2017-04-17'
+last_modified_date: '2017-06-06'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -33,8 +33,8 @@ products.
 | Amazon CloudFront | [Rackspace CDN product and pricing](http://www.rackspace.com/cloud/cdn-content-delivery-network)<br />[Rackspace CDN API](https://developer.rackspace.com/docs/cdn/v1/developer-guide/) |
 | Amazon RDS | [Cloud Databases product and pricing](https://www.rackspace.com/cloud/databases)<br />[Cloud Databases API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/) |
 | Amazon DynamoDB | Object Rocket (MongoDB - open) |
-| Amazon SES, SNS | Mailgun |
-| Elastic Transcoder | Partner solutions - encoding.com |
+| Amazon SES, SNS | Partner solutions - [Mailgun](https://www.mailgun.com/) |
+| Elastic Transcoder | Partner solutions - [Enterprise Media Processing](https://www.encoding.com/) |
 | IAM & Mgmt Console | [Cloud Control Panel](http://mycloud.rackspace.com) |
 | AWS CloudWatch | [Cloud Monitoring product and pricing](http://www.rackspace.com/cloud/monitoring)<br />[Cloud Monitoring API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)  |
 | AWS CloudFormation | Deployments |

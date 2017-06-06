@@ -5,7 +5,7 @@ title: Managed Operations FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-20'
+last_modified_date: '2017-06-06'
 last_modified_by: Stephanie Fillmon
 product: Managed Operations
 product_url: managed-operations
@@ -139,10 +139,6 @@ user-defined ports as well as user-defined URL content.
 We will provide free licensing for the Rackspace Cloud Backup file-based
 backup option ( [standard Cloud Files storage fees
 apply](http://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/)).
-Your servers will also be configured to use our Mailgun SMTP relay
-service to ensure smooth email delivery, with the first 50,000 emails
-sent for free every month. For details and options, see the [Mailgun
-Rackspace pricing page](http://www.mailgun.com/rackspace).
 
 #### What is Cloud Servers with a Managed Operations Service Level?
 

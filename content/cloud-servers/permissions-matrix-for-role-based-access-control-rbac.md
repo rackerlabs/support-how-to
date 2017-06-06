@@ -5,8 +5,8 @@ title: Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting
 type: article
 created_date: '2013-06-17'
 created_by: Renee Rendon
-last_modified_date: '2017-05-16'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2017-06-06'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -19,7 +19,7 @@ The RBAC permissions matrix displays the type of product roles that are availabl
 
 **Note:** Admin and Observer are *global roles*, which apply across all RBAC-enabled cloud products.
 
-The following products are not RBAC-enabled: RackConnect and Mailgun.
+RackConnect is not RBAC-enabled.
 
 ### Product roles
 
