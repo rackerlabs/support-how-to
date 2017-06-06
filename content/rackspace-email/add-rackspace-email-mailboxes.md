@@ -106,9 +106,11 @@ Note: Any errors that occur are detailed in the import log. Make corrections as 
 
 1.	Click the **Upgrade this plan** link.
 
-<!--add screen shot file Addmailboxlicense.png-->
+<!--add screen shot file AddRSElicenseSC1.png-->
 
-2.	In the appropriate section, add the number of mailboxes that you need.
+2.	Under **Rackspace Email Mailboxes**, add the number of mailboxes that you need.
+
+<!--add screen shot file AddRSElicenseSC2.png-->
 
 3.	Click **Continue**.
 
