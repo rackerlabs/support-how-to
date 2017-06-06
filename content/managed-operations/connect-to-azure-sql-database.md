@@ -11,9 +11,9 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-When a change to an application works in a development environment but does not work in production, you might need to make that same change in your database. Microsoft Azure SQL Database uses the same tools as a SQL database server, but with the capability of the Microsoft cloud.
+When a change to an application works in a development environment but does not work in production, you might need to make that same change in your database. Microsoft Azure SQL Database uses the same tools as a SQL database server, but with the capability of the Microsoft cloud. 
 
-This article describes how to connect to Azure SQL Database.
+This article describes how to connect to an Azure SQL Database.
 
 ### Prerequisite
 
