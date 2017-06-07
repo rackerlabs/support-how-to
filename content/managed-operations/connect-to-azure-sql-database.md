@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-When a change to an application works in a development environment but does not work in production, you might need to make that same change in your database. Microsoft Azure SQL Database uses the same tools as a SQL Server, but with the capability of the Microsoft cloud. 
+When a change to an application works in a development environment but does not work in production, you might need to make that same change in your database. Microsoft Azure SQL Database uses the same tools as a SQL Server but with the capability of the Microsoft cloud. 
 
 This article describes how to connect to an Azure SQL Database.
 
@@ -21,13 +21,13 @@ This article describes how to connect to an Azure SQL Database.
 
 ### Install the latest version of SQL Server Management Studio
 
-When you are working with SQL Database, you should always use the latest version of SQL Server Management Studio (SSMS). The latest version of SSMS is optimized to work with Azure and SQL Database, and works for all supported versions of SQL Server. To help you stay up-to-date, the latest version prompts you when there is a new version available to download. 
+When you are working with SQL Database, you should always use the latest version of SQL Server Management Studio (SSMS). The latest version of SSMS is optimized to work with Azure and SQL Database and works for all supported versions of SQL Server. To help you stay up-to-date, the latest version prompts you when there is a new version available to download. 
 
 To download and install the latest version of SMSS, see [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
 ### Create a server-level firewall rule
 
-By default, an Azure SQL Database firewall prevents external connectivity to your logical server and its databases. To enable you to connect to your server, you need to create a firewall rule for the IP address of the computer from which you connect.
+By default, an Azure SQL Database firewall prevents external connectivity to your logical server and its databases. To enable you to connect to your server, you need to create a firewall rule for the IP address of the computer from which you connect by using the following instructions:
 
 1. Log in to the [Azure portal](https://portal.azure.com/).
 
