@@ -61,14 +61,14 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
    * **Password:** Enter a password for the email account using the following requirements:
 
-         - It must be at least eight characters.
-    	   - It must use characters from at least three of the following four character types:
-    	     - English alphabet uppercase letters (A-Z)
-    	     - English alphabet lowercase letters (a-z)
-    	     - Numerals (0-9)
-    	     - Alphanumeric symbols (such as !, #, $, %)
+      - It must be at least eight characters.
+    	- It must use characters from at least three of the following four character types:
+    	 - English alphabet uppercase letters (A-Z)
+    	 - English alphabet lowercase letters (a-z)
+    	 - Numerals (0-9)
+    	 - Alphanumeric symbols (such as !, #, $, %)
 
-    	 * **Confirm:** Retype the password that you entered in the **Password** box.
+   * **Confirm:** Retype the password that you entered in the **Password** box.
 
 
    * Select the **Save** button and the mailbox will appear in
