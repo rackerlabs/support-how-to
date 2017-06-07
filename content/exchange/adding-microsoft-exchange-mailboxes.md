@@ -84,7 +84,7 @@ name and then click the corresponding tab.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
-2. 2. Select **Mailboxes** within the **Microsoft Exchange** section.
+2. Select **Mailboxes** within the **Microsoft Exchange** section.
 <!--add screen shot file AddHexmailboxSC1.png-->
 
 3. If you have multiple domains, select the domain you wish to add a mailbox to.
