@@ -86,7 +86,7 @@ The mailbox will appear in the mailboxes list. To manage additional features for
 
     <!--add screen shot file AddmultmailboxesSC1.png-->
 
-		**Note:** If the **Add/Edit Multiple Mailboxes** button is greyed out, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+    **Note:** If the **Add/Edit Multiple Mailboxes** button is greyed out, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 5.	Create a CSV or Excel file(XLS) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
 
