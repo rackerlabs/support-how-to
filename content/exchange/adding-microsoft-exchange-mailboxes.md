@@ -70,6 +70,7 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
    * **Confirm:** Retype the password that you entered in the **Password** box.
 
+   * **? symbol:** Place your cursor over the **?** symbol for a description of additional mailbox options.
 
    * Select the **Save** button and the mailbox will appear in
      the list.
