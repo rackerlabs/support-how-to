@@ -59,9 +59,9 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
      Note: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
-     * **Password:** Enter a password for the email account using the following requirements:
+   * **Password:** Enter a password for the email account using the following requirements:
 
-    	   - It must be at least eight characters.
+         - It must be at least eight characters.
     	   - It must use characters from at least three of the following four character types:
     	     - English alphabet uppercase letters (A-Z)
     	     - English alphabet lowercase letters (a-z)
