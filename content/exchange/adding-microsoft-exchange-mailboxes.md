@@ -55,7 +55,7 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
    * **User Name**: This is used in the email address.
      For example, if the user name is specified as "**myname** and the domain is
-     "example.com", then the email address will be **myname@yourdomainexample.com**.
+     **yourdomainexample.com**, then the email address will be **myname@yourdomainexample.com**.
 
      Note: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
@@ -96,8 +96,6 @@ name and then click the corresponding tab.
     **Note:** If the **Add/Edit Mailboxes** button is greyed out, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 5.	Create a CSV or Excel file(XLS format) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
-
-    <img src="{% asset_path exchange/adding-microsoft-exchange-mailboxes/(E%26A)AddingAMailbox3.png %}" alt="" />
 
 **Note:** You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
