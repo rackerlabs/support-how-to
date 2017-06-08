@@ -151,7 +151,7 @@ Note: Any address that is not on the domain you are creating the Distribution Li
     - Select the **Distribution List** address we just created from the list below **Forward to an Exchange address within this domain**
     - Check the box for **Save copies of forwarded email**
 
-<!--- add screen shot file HexForwardMultSC7.png--->    
+    <!--- add screen shot file HexForwardMultSC7.png--->    
 
     Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
     Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
