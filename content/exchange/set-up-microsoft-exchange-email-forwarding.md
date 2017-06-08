@@ -119,9 +119,13 @@ Note: Any address that is not on the domain you are creating the Distribution Li
 
 2. In the **Microsoft Exchange** section, select **Lists**
 
+<!--- add screen shot file HexForwardMultSC1.png--->
+
 3. If you have multiple domains, select the domain that contains the mailbox you would like to forward.
 
 4. Select **Add Distribution List**  
+
+<!--- add screen shot file HexForwardMultSC2.png--->
 
 5. Fill out the required fields under **General**.
 
@@ -129,18 +133,25 @@ Note: Any address that is not on the domain you are creating the Distribution Li
     - **Email Address:** This is the **Distribution List Address**. This is not a physical mailbox. This is the address that we will forward to so that we can forward to multiple addresses.
     - **Members:** The members selected will each receive a copy of email sent to the Distribution List.
 
+<!--- add screen shot file HexForwardMultSC3.png--->
+
 6. Expand **Advanced** and select the address you plan to forward.
+
+<!--- add screen shot file HexForwardMultSC4.png--->
 
 7. Select **Create Distribution List**.  You will see the created list on the next screen. From this screen select **Mailboxes** from the red ribbon.
 
+<!--- add screen shot file HexForwardMultSC5.png--->
+
 8. From the mailbox list, click the blue highlighted mailbox name that you would like to forward.
-<!--- add screen shot file HexForwardContactSC5.png--->
+<!--- add screen shot file HexForwardMultSC6.png--->
 9. Select the **Mail Forwarding** tab.
 
 10. Check the circle for **Forward to an Exchange address within this domain**
     - Select the **Distribution List** address we just created from the list below **Forward to an Exchange address within this domain**
     - Check the box for **Save copies of forwarded email**
-    <!--- add screen shot file HexForwardContactSC6.png--->
+
+<!--- add screen shot file HexForwardMultSC7.png--->    
 
     Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
     Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same version of Exchange. If you are not sure if both domains are on the same version of Exchange, the method of creating a contact will work regardless.
