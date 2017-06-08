@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Configure a Microsoft Exchange mailbox to forward to another email address. If you require steps to set up forwarding for a Rackspace Email mailbox please see [Setup forwarding RSE]
+Configure a Microsoft Exchange mailbox to forward to another email address. If you require steps to set up forwarding for a Rackspace Email mailbox please see [Set up forwarding for a Rackspace Email mailbox](/how-to/set-up-rackspace-email-forwarding/)
 
 ### Prerequisites
 
@@ -169,3 +169,5 @@ Note: Allow at least 15 minutes for the forward to be fully enabled after settin
 [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
 
 [Cloud Office Email Portal](https://apps.rackspace.com/index.php)
+
+[Set up Rackspace Email forwarding](/how-to/set-up-rackspace-email-forwarding/)
