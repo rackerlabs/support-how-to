@@ -59,7 +59,7 @@ Note: Only [Administrators](/how-to/cloud-office-support-terminology/#cloud-offi
 
 4. Under **User Name** you will see two fields:
 
-<!--- add screen shot file CPpasswordResetCPSC3.png--->
+    <!--- add screen shot file CPpasswordResetCPSC3.png--->
 
     - **Password:** Enter the new password
 
