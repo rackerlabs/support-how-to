@@ -21,12 +21,14 @@ Difficulty: Moderate
 
 Time needed: Approximately 10 minutes
 
-Tools required: Users need their current password / Administrators need [Cloud Office Control Panel](/how-to/cloud-office-support-terminology/#cloud-office-terminology) access
+Tools required: Users need their current mailbox password / Administrators need [Cloud Office Control Panel](https://cp.rackspace.com) access
 
 For more information about prerequisite terminology, see Cloud Office support terminology.
 
-#### Reset your password from the User Control Panel
 
+
+
+#### Reset your password from the User Control Panel
 
 1. Log into the [User Control Panel](https://cp.rackspace.com/usercp/Login) with your email address and current password.
 
