@@ -39,7 +39,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 Use these steps to forward email from your Microsoft Exchange address to another address on the same domain.
 
-For example, you want to forward the address **example@yourdomainexample.com** to **forwardexample@yourdomainexample.com**.
+For example, you want to forward the address **example@yourdomainexample**.com to **forwardexample@yourdomainexample**.com.
 
 Note: These steps apply to Administrators with access to their account's Control Panel.
 
@@ -71,7 +71,7 @@ Note: Allow at least 15 minutes for the forward to be fully enabled after settin
 
 ### Forward a Microsoft Exchange mailbox to an external domain's email address
 
-For example, you want to forward the address **example@yourdomainexample.com** to **myname@externaldomain.com**. In this scenario a Microsoft Exchange contact must be created. The following steps will explain how to create an Exchange contact and how to forward to that contact.
+For example, you want to forward the address **example@yourdomainexample**.com to **myname@externaldomain**.com. In this scenario a Microsoft Exchange contact must be created. The following steps will explain how to create an Exchange contact and how to forward to that contact.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 
