@@ -111,7 +111,7 @@ Note: Allow at least 15 minutes for the forward to be fully enabled after settin
 
 ### Forward a Microsoft Exchange mailbox to multiple email addresses
 
-For example, you want to forward the address <**example@yourdomainexample.com**> to <**address1@externaldomain.com**>, <**address2@yourdomainexample.com**>, and <**address3@externaldomain.com**>. In this scenario a Microsoft Exchange **Distribution List**  must be created. The following steps will explain how to create an Exchange **Distribution List** and how to forward to that list.
+For example, you want to forward the address \**example@yourdomainexample.com**\ to \**address1@externaldomain.com**\, \**address2@yourdomainexample.com**\, and \**address3@externaldomain.com**\. In this scenario a Microsoft Exchange **Distribution List**  must be created. The following steps will explain how to create an Exchange **Distribution List** and how to forward to that list.
 
 Note: Any address that is not on the domain you are creating the Distribution List under must be created as a contact before it can be added to the Distribution List. See steps 2 - 6 in the section [Forward a Microsoft Exchange mailbox to an external domain's email address](#Forward a Microsoft Exchange mailbox to an external domain's email address).
 
@@ -153,8 +153,8 @@ Note: Any address that is not on the domain you are creating the Distribution Li
 
 <!--- add screen shot file HexForwardMultSC7.png--->    
 
-     Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
-     Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
+Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
+Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
 
 11. Click **Save** in the lower left-hand corner.
 
