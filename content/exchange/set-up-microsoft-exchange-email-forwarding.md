@@ -103,7 +103,7 @@ For example, you want to forward the address **example@yourdomainexample**.com t
     <!--- add screen shot file HexForwardContactSC6.png--->
 
     Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
-    Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same version of Exchange. If you are not sure if both domains are on the same version of Exchange, the method of creating a contact will work regardless.
+    Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
 
 11. Click **Save** in the lower left-hand corner.
 
@@ -153,8 +153,8 @@ Note: Any address that is not on the domain you are creating the Distribution Li
 
 <!--- add screen shot file HexForwardMultSC7.png--->    
 
-Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
-Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
+    Warning: If **Save a copy of forwarded email** is not checked, this mailbox WILL NOT store any messages sent to it.
+    Warning: **Forward to an Exchange address within another domain on this account:** will only work if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
 
 11. Click **Save** in the lower left-hand corner.
 
