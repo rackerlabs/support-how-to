@@ -5,7 +5,7 @@ title: Set up Microsoft Exchange email forwarding
 type: article
 created_date: '2017-06-07'
 created_by: William Loy
-last_modified_date: '2017-06-07'
+last_modified_date: '2017-06-08'
 last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
@@ -17,11 +17,11 @@ Configure a Microsoft Exchange mailbox to forward to another email address. If y
 
 - **Applies to:** Administrator
 
-- **Difficulty:** Easy
+- **Difficulty:** Moderate
 
 - **Time needed:** Approximately 10 minutes to set forward / Additional 15 minutes for forward to function
 
-- **Tools required:** Cloud Office control panel access
+- **Tools required:** [Cloud Office Control Panel](https://cp.rackspace.com) access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
@@ -98,7 +98,7 @@ For example, you want to forward the address **example@yourdomainexample**.com t
 9. Select the **Mail Forwarding** tab.
 
 10. Check the circle for **Forward to an Exchange address within this domain**
-    - Select the address you would like to forward email to from the list below **Forward to an Exchange address within this domain**
+    - Select the **Contact** address you just created from the list below **Forward to an Exchange address within this domain**
     - Check the box for **Save copies of forwarded email**
     <!--- add screen shot file HexForwardContactSC6.png--->
 
