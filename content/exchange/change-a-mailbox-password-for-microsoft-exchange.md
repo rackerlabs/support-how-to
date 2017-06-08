@@ -1,7 +1,7 @@
 ---
-permalink: change-a-mailbox-password-for-microsoft-exchange/
+permalink: change-a-microsoft-exchange-mailbox-password/
 audit_date:
-title: Change a mailbox password for Microsoft Exchange
+title: Change a Microsoft Exchange mailbox password
 type: article
 created_date: '2017-06-08'
 created_by: William Loy
@@ -13,11 +13,11 @@ product_url: exchange
 
 Steps for changing the password of your Microsoft Exchange mailbox.
 
-Prerequisites
+### Prerequisites
 
 Applies to: User and Administrator
 
-Difficulty: Easy
+Difficulty: Moderate
 
 Time needed: Approximately 10 minutes
 
@@ -25,7 +25,7 @@ Tools required: Users need their current password / Administrators need [Cloud O
 
 For more information about prerequisite terminology, see Cloud Office support terminology.
 
-### Reset your password from the User Control Panel
+#### Reset your password from the User Control Panel
 
 
 1. Log into the [User Control Panel](https://cp.rackspace.com/usercp/Login) with your email address and current password.
@@ -43,7 +43,7 @@ Note: If you are unable to log into this tool, attempt to log in at [apps.racksp
 Warning: After you change the password, you must update the password on all devices that connect to this mailbox. If you do not update the password on EVERY device,
 the mailbox will lock itself and you will have to contact your [Administrators](/how-to/cloud-office-support-terminology/#cloud-office-terminology) to unlock it. Provide your Administrator the [mailbox lockout](#mailbox-lockout) instructions at the bottom of this page.
 
-### Reset a mailbox password through the Cloud Office Control Panel.
+#### Reset a mailbox password through the Cloud Office Control Panel.
 
 Note: Only [Administrators](/how-to/cloud-office-support-terminology/#cloud-office-terminology) have access to the Cloud Office Control Panel.
 
@@ -55,9 +55,11 @@ Note: Only [Administrators](/how-to/cloud-office-support-terminology/#cloud-offi
 
 3. From the mailbox list, click the blue highlighted mailbox name that you wish to change the password for.
 
-<!--- add screen shot file CPpasswordResetCPSC3.png--->
+<!--- add screen shot file CPpasswordResetCPSC2.png--->
 
 4. Under **User Name** you will see two fields:
+
+<!--- add screen shot file CPpasswordResetCPSC3.png--->
 
     - **Password:** Enter the new password
 
@@ -67,7 +69,7 @@ Note: Only [Administrators](/how-to/cloud-office-support-terminology/#cloud-offi
 
 Warning: After the password has been changed, the user must update the password on all devices that connect to this mailbox. If they do not update the password on EVERY device the mailbox will lock itself and they will be unable to access their email.
 
-### Mailbox Lockout
+#### Mailbox Lockout
 
 If a user's  mailbox is locked, walk them through these steps.
 
@@ -79,4 +81,4 @@ If a user's  mailbox is locked, walk them through these steps.
 
 4. The user needs to successfully log in at [apps.rackspace.com](https://apps.rackspace.com/index.php). If they cannot log in, you will need to reset their password for them as outlined in the previous section.
 
-5. Once the user has successfully logged into [apps.rackspace.com](https://apps.rackspace.com/index.php) they should manually enter their email address and password back into each device that connects to the mailbox one at a time. 
+5. Once the user has successfully logged into [apps.rackspace.com](https://apps.rackspace.com/index.php) they should manually enter their email address and password back into each device that connects to the mailbox one at a time.
