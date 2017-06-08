@@ -1,41 +1,50 @@
 ---
-permalink: rackspace-cloud-backup-install-the-agent-on-linux/
-audit_date:
+permalink: install-or-update-the-cloud-backup-agent-on-linux/
+audit_date: '2017-06-07'
 title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
 last_modified_date: '2017-06-06'
-last_modified_by: Cat Lookabaugh
+last_modified_by: Nate Archer
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-Use the following instructions to install or update the Rackspace Cloud Backup agent on your Linux server by using the Cloud Backup updater.
-
-**Note:** If the Cloud Backup updater fails, use the instructions in [Manually update the Rackspace Cloud Backup agent](/how-to/update-the-rackspace-cloud-backup-agent).
+The Rackspace Cloud Backup agent is an executable that facilitates the backup process on your servers. You must install the agent on every server that you want to back up. This article provide instructions for installing the agent on a Linux server by using the Cloud Backup Updater. 
 
 If you are using a Windows server, see [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows) for parallel instructions.
 
-**Note:** You can use Cloud Backup on almost any Linux server in the Rackspace Cloud. Exceptions are FreeBSD 9 (not supported) and Debian 5 (End of Life February 2012). If you use FreeBSD 9 or Debian 5, use an alternative method to back up your data. Also note that 32-bit servers and agents on Linux are not supported.
+### Considerations
 
-### Install or update the agent
+You can use Cloud Backup on any Linux server in the Rackspace Cloud, except FreeBSD
+9 and Debian 5. If you use either of these distributions, use an alternative method to
+back up your data. 
 
-To see if your server already has the Cloud Backup agent installed, run the following command:
+Also, 32-bit servers and agents on Linux are not supported.
+
+The agent should already be installed on servers that have the Managed Operations
+service level. See the following section to determine whether the agent is already
+installed on a server. 
+
+If the Cloud Backup updater fails, use the instructions in [Manually update the Rackspace Cloud Backup agent](/how-to/update-the-rackspace-cloud-backup-agent).
+
+### Verify whether the agent is already installed
+
+To determine whether the Cloud Backup agent is already installed on a server, run the
+following command:
 
     sudo cloudbackup-updater -v
 
-If the command runs without an error, the agent is already installed. This should be the case for servers with a Managed Operations service level. If you get a message that the command can't be found, you must install the agent.
+If the command runs without an error, the agent is already installed.
 
-If the Cloud Backup agent is not installed, proceed with the instructions in this article for your Linux distribution.
+If you get a message that the command can't be found, you must install the agent. Proceed with the instructions in this article for your Linux distribution.
 
 ### Install the agent on APT-based systems, such as Ubuntu and Debian
 
-**Note:** On Tuesday, December 13th, 2016, we released a new set of packages to production (a new version of Cloud Backup Updater for Debian Linux and a new Debian Package - cloudbackup-keyring.deb) to the Debian APT repository to support Debian and derivative Linux distributions, like Ubuntu. Any system that has the Cloud Backup Updater installed and enabled should get the new packages.
-
 1. Use SSH to log in to your server, and run the commands as a user with sudo or superuser privileges.
 
-2. Download the new [Cloud Backup Keyring package](http://agentrepo.drivesrvr.com/debian/pool/main/c/cloudbackup-keyring/cloudbackup-keyring_2016.12.02-1_all.deb).
+2. Download the [Cloud Backup Keyring package](http://agentrepo.drivesrvr.com/debian/pool/main/c/cloudbackup-keyring/cloudbackup-keyring_2016.12.02-1_all.deb).
 
 3. Install the Keyring package manually.
 
@@ -49,15 +58,15 @@ If the Cloud Backup agent is not installed, proceed with the instructions in thi
 
         sudo apt-get install python-apt
 
-6. Get the auto-updater.
+6. Get the updater.
 
         wget 'http://agentrepo.drivesrvr.com/debian/cloudbackup-updater-latest.deb'
 
-7. Install the auto-updater.
+7. Install the updater.
 
         sudo dpkg -i cloudbackup-updater-latest.deb
 
-    The updater installs the agent (if it's not already installed) and sets the agent to start at boot. Any errors will be fixed it in the next step.
+    The updater installs the agent and sets the agent to start at boot. Any errors are fixed it in the next step.
 
 8. To ensure that the package configuration process finishes, run `apt-get` with the `-f` option. This option fixes any outstanding package dependency issues on the system.
 
@@ -71,19 +80,19 @@ If the Cloud Backup agent is not installed, proceed with the instructions in thi
 
    The command won't respond until the installation is complete. When it returns you to the shell prompt, proceed to the next step.
 
-   If you get a `command not found` error, run `sudo apt-get install -f` per the preceding step.
+   If you get a `command not found` error, run `sudo apt-get install -f` again.
 
-10. Run the agent with the `--configure` option to configure it.
+10. Run the agent with the `--configure` option to configure it, and supply other options as needed. You are asked for your Rackspace Cloud account username and password.
 
         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
 
-      - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key).
+      - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
       
       - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
       
-      - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
+      - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
+    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the Backups section at the bottom of the Cloud Servers details page in the Cloud Control Panel. However, items do appear as they should on the Backups tab in the Cloud Control Panel.
 
 11. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 
@@ -95,11 +104,11 @@ If the Cloud Backup agent is not installed, proceed with the instructions in thi
 
 1.  Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
 
-2.  Download and install the auto-updater.
+2.  Download and install the updater.
 
         sudo rpm -Uvh 'http://agentrepo.drivesrvr.com/redhat/cloudbackup-updater-latest.rpm'
 
-    The updater installs the agent (if it's not already installed) and sets it to start at boot.
+    The updater installs the agent and sets it to start at boot.
 
 2.  Check the installation.
 
@@ -109,17 +118,17 @@ If the Cloud Backup agent is not installed, proceed with the instructions in thi
 
     The command won't respond until the installation is complete. When it returns you to the shell prompt, proceed to the next step.
 
-3.  Run the agent with the `--configure` option to configure it. You will be asked for your Rackspace Cloud account username and password.
+3.  Run the agent with the `--configure` option to configure it, and supply other options as needed. You are asked for your Rackspace Cloud account username and password.
 
         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
 
-    - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key).
+    - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
     
     - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
     
-    - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
+    - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
+    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the Backups section at the bottom of the Cloud Servers details page in the Cloud Control Panel. However, items do appear as they should on the Backups tab in the Cloud Control Panel.
 
 4.  Start the agent.
 
@@ -151,19 +160,17 @@ For Arch, Gentoo, and SUSE Linux systems, you must first download the tarball. T
         sudo mkdir -m 700 /etc/driveclient
         sudo cp cacert.pem /etc/driveclient
 
-5.  Run the agent with the `--configure` option to configure it.
+5.  Run the agent with the `--configure` option to configure it, and supply others options as needed. You are asked for your Rackspace Cloud account username and password.
 
-    You will be asked for your Rackspace Cloud account username and password.
-
-          sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apikey> --flavor <flavor> --datacenter <datacenter> --apihost api.drivesrvr.com
+          sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <datacenter> --apihost api.drivesrvr.com
 
     - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key).
     
     - The value for `<flavor>` is `raxcloudserver`, `privatecloud`, or `dedicated`. 
     
-    - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, best results have been received by setting `<flavor>` to `privatecloud` with the `--snet` flag.
+    - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the **Backups** section at the bottom of the **Cloud Servers Details** page in the Cloud Control Panel. However, items do appear as they should on the **Backup** tab in the Cloud Control Panel.
+    **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the Backups section at the bottom of the Cloud Servers details page in the Cloud Control Panel. However, items do appear as they should on the Backups tab in the Cloud Control Panel.
 
 6. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 
@@ -171,11 +178,11 @@ For Arch, Gentoo, and SUSE Linux systems, you must first download the tarball. T
 
         sudo /usr/local/bin/driveclient --daemon
 
-    Example init/startup scripts are included in the tarball.
+    Example `init/startup` scripts are included in the tarball.
 
 ### Troubleshooting
 
-If you encounter issues during installation, use the tips in this section to troubleshoot.
+If you encounter issues after installation, use the tips in this section to troubleshoot.
 
 #### Connection error
 
@@ -209,7 +216,7 @@ If you need to read the logs of the agent, you can find them in `/var/log`.
 
 ### Uninstall the agent from Linux
 
-To uninstall the agent, you can stop and remove both the auto-updater and the backup agent by using the system package manager.
+To uninstall the agent, you can stop and remove both the updater and the backup agent by using the system package manager.
 
 #### CentOS or Red Hat
 
@@ -223,7 +230,7 @@ Run the following command:
 
     sudo apt-get remove cloudbackup-updater driveclient
 
-#### Other Linux distributions
+#### Other distributions
 
 For all other Linux operating systems, follow OS-standard uninstallation operations. Based on the previous installation instructions, use the following commands to uninstall the agent.
 
