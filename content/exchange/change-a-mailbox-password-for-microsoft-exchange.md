@@ -66,6 +66,8 @@ Note: Only [Administrators](/how-to/cloud-office-support-terminology/#cloud-offi
 
     - **Confirm:** Re-type the new password exactly as you typed it in **Password**
 
+    **Note**: We recommend that you create a password that you have never used before and that remains unique from all your other passwords. Also, the longer your password, the more secure your account is.
+
 5. Click the **Save** button.
 
 Warning: After the password has been changed, the user must update the password on all devices that connect to this mailbox. If they do not update the password on EVERY device the mailbox will lock itself and they will be unable to access their email.
