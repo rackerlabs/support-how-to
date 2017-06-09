@@ -62,7 +62,7 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 	     - English alphabet uppercase letters (A-Z)
 	     - English alphabet lowercase letters (a-z)
 	     - Numerals (0-9)
-	     - Alphanumeric symbols (such as !, #, $, %)
+	     - Non-alphanumeric symbols (such as !, #, $, %)
 
 	 * **Confirm:** Retype the password that you entered in the **Password** box.
 
@@ -98,7 +98,7 @@ The mailbox will appear in the mailboxes list. To manage additional features for
     - English alphabet uppercase letters (A-Z)
     - English alphabet lowercase letters (a-z)
     - Numerals (0-9)
-    - Alphanumeric symbols (such as !, #, $, %)
+    - Non-alphanumeric symbols (such as !, #, $, %)
 
 Warning: **Username**, **Password**, and **Enabled** fields are required on all CSV or Excel imports when adding Rackspace Email mailboxes. This method of mailbox creation should be used for adding a high number of mailboxes.
 
