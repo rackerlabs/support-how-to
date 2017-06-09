@@ -12,6 +12,7 @@ product_url: rackspace-email
 ---
 
 You can add a single mailbox to your Rackspace Email account or add multiple mailboxes by using a CSV or Microsoft Excel file.
+
 ### Prerequisites
 
 - **Applies to:** Administrator
