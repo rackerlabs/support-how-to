@@ -23,8 +23,7 @@ Time needed: Approximately 10 minutes
 
 Tools required: Users need their current mailbox password / Administrators need [Cloud Office Control Panel](https://cp.rackspace.com) access
 
-For more information about prerequisite terminology, see Cloud Office support terminology.
-
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/#cloud-office-terminology).
 
 
 
