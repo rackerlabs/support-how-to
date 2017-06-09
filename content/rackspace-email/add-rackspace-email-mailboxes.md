@@ -4,7 +4,7 @@ audit_date:
 title: Add Rackspace Email mailboxes
 type: article
 created_date: '2011-12-18'
-created_by: Rackspace Support
+created_by: William Loy
 last_modified_date: '2017-06-06'
 last_modified_by: William Loy
 product: Rackspace Email
