@@ -4,7 +4,7 @@ audit_date: '2017-02-24'
 title: Change a Rackspace Email mailbox password
 type: article
 created_date: '2017-06-08'
-created_by: Beau Bailey
+created_by: William Loy
 last_modified_date: '2017-06-08'
 last_modified_by: William Loy
 product: Rackspace Email
@@ -15,7 +15,7 @@ This article explains how to change the password to your Rackspace Email mailbox
 
 ### Prerequisites
 
-- **Applies to:** User or Administrator 
+- **Applies to:** User or Administrator
 
 - **Difficulty:** Easy
 
