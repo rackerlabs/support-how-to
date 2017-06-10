@@ -15,13 +15,13 @@ Steps for changing the password of your Microsoft Exchange mailbox.
 
 ### Prerequisites
 
-Applies to: User and Administrator
+**Applies to**: User and Administrator
 
-Difficulty: Moderate
+**Difficulty**: Moderate
 
-Time needed: Approximately 10 minutes
+**Time needed**: Approximately 10 minutes
 
-Tools required: Users need their current mailbox password / Administrators need [Cloud Office Control Panel](https://cp.rackspace.com) access
+**Tools required**: Users need their current mailbox password / Administrators need [Cloud Office Control Panel](https://cp.rackspace.com) access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/#cloud-office-terminology).
 
