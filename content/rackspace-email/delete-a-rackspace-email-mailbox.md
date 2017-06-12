@@ -44,7 +44,7 @@ change reflected on your bill.
 
 2.	Select **Mailboxes** within the **Rackspace Email** section.
 
-    <!--add screen shot file RSEstorageCPSC1.png-->
+    <!--add screen shot file DeleteRSEboxCPSC1.png-->
 
 3.	If you have multiple domains, select the domain you wish to delete a mailbox from.
 
@@ -53,4 +53,8 @@ change reflected on your bill.
 Warning: Once a mailbox is deleted it can only be recovered for up to 14 days. See [Recover a deleted mailbox](/how-to/recover-a-deleted-rackspace-email-mailbox/) for
 instructions on recovering a deleted mailbox.
 
-5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**
+5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**.
+
+<!--add screen shot file DeleteRSEboxCPSC1.png-->
+
+6. A box will appear asking you to confirm the deletion. Read the notes in the box and click **Delete Mailboxes** if there is no conflict.  
