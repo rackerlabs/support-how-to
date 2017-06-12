@@ -34,11 +34,12 @@ Warning: A mailbox must be recovered within 14 days of deletion. After 14 days t
 
 2.	Select **Mailboxes** within the **Microsoft Exchange** section.
 
-<!--add screen shot file DeleteHexboxSC1.png-->
+<!--add screen shot file RecoverHexboxSC1.png-->
 
 3.	If you have multiple domains, select the domain you need to recover a mailbox under.
 
 4. Create a mailbox using the EXACT SAME username as the mailbox that was deleted. See [Add Microsoft Exchange mailbox](/how-to/adding-microsoft-exchange-mailboxes/) for help adding a mailbox.
+
 
 5. Allow 24 hours to pass after mailbox recreation.
 
