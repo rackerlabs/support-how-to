@@ -117,7 +117,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Under **Microsoft Exchange Mailboxes**, add the number of mailboxes that you need.
 
-   <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-license-sc3.png %}" />
+   <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-license-sc2.png %}" />
 
 3. Click **Continue**.
 
