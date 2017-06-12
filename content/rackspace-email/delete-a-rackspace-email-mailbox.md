@@ -55,6 +55,6 @@ instructions on recovering a deleted mailbox.
 
 5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**.
 
-<!--add screen shot file DeleteRSEboxCPSC1.png-->
+<!--add screen shot file DeleteRSEboxCPSC2.png-->
 
 6. A box will appear asking you to confirm the deletion. Read the notes in the box and click **Delete Mailboxes** if there is no conflict.  
