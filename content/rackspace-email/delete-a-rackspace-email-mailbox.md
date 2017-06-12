@@ -5,7 +5,7 @@ title: Delete a Rackspace Email mailbox
 type: article
 created_date: '2017-06-09'
 created_by: William Loy
-last_modified_date: '2017-06-09'
+last_modified_date: '2017-06-12'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
