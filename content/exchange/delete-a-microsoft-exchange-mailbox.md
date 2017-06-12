@@ -50,7 +50,7 @@ change reflected on your bill.
 
 4. Check the box to the left of the mailbox you wish to delete.
 
-Warning: Once a mailbox is deleted it can only be recovered for up to 14 days. You must contact support within 14 days of deleting a mailbox to recover a deleted Microsoft Exchange mailbox.
+Warning: Once a mailbox is deleted it can only be recovered for up to 14 days. You must contact support within 14 days of deleting a mailbox to recover a deleted Microsoft Exchange mailbox. See [Recover a deleted Microsoft Exchange mailbox](/how-to/recover-a-deleted-microsoft-exchange-mailbox/) for steps on recovering a recently deleted Microsoft Exchange mailbox. 
 
 5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**.
 
