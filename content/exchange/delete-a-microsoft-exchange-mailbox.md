@@ -44,12 +44,16 @@ change reflected on your bill.
 
 2.	Select **Mailboxes** within the **Microsoft Exchange** section.
 
+<!--add screen shot file DeleteHexboxSC1.png-->
 
 3.	If you have multiple domains, select the domain you wish to delete a mailbox from.
 
 4. Check the box to the left of the mailbox you wish to delete.
 
-Warning: Once a mailbox is deleted it can only be recovered for up to 14 days. See [Recover a deleted mailbox] for
-instructions on recovering a deleted mailbox.
+Warning: Once a mailbox is deleted it can only be recovered for up to 14 days. You must contact support within 14 days of deleting a mailbox to recover a deleted Microsoft Exchange mailbox.
 
-5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**
+5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**.
+
+<!--add screen shot file DeleteHexboxSC2.png-->
+
+6. A box will appear asking you to confirm the deletion. Read the notes in the box and click **Delete Mailboxes** if there is no conflict.  
