@@ -37,7 +37,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc1.png %}" />
 
-**Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+   **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 3. If you have multiple domains, select the domain of which you want to add a mailbox to.
 
@@ -62,10 +62,15 @@ For more information about prerequisite terminology, see [Cloud Office support t
    * **Password:** Enter a password for the email account using the following requirements:
 
       - It must be at least eight characters.
+
     	- It must use characters from at least three of the following four character types:
+
     	 - English alphabet uppercase letters (A-Z)
+
     	 - English alphabet lowercase letters (a-z)
+
     	 - Numerals (0-9)
+       
     	 - Alphanumeric symbols (such as !, #, $, %)
 
    * **Confirm:** Retype the password that you entered in the **Password** box.
