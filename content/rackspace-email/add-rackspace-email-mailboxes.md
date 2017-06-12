@@ -35,7 +35,7 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
 2. Select **Mailboxes** within the **Rackspace Email** section.
 
-		<img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
+	 <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
 
 3. If you have multiple domains, select the domain you wish to add a mailbox to.
 
@@ -80,7 +80,7 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
 2. Select **Mailboxes** within the Rackspace Email section.
 
-		 <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
+		<img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
 
 3. If you have multiple domains, select the domain you wish to add a mailbox to.
 
