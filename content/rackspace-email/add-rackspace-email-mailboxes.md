@@ -31,28 +31,28 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
 ### Add a single mailbox
 
-1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 
-2.	Select **Mailboxes** within the **Rackspace Email** section.
-    <!--add screen shot file AddmailboxSC1.png-->
+2. Select **Mailboxes** within the **Rackspace Email** section.
 
-3.	If you have multiple domains, select the domain you wish to add a mailbox to.
+		<img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
+
+3. If you have multiple domains, select the domain you wish to add a mailbox to.
 
 4.	Click **Add Mailbox**.
 
-<!--add screen shot file AddmailboxSC2.png-->
+    <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc2.png %}" />
 
-**Note:** If the **Add Mailbox** button is greyed out, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+     **Note:** If the **Add Mailbox** button is greyed out, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
-5.	Enter the following information in the fields provided:
+5. Enter the following information in the fields provided:
 
 	 * **First Name and Last Name** (optional): Enter first and last name information for the mailbox owner.
 
 	 * **Display Name** (optional): This name is displayed when the user sends email.
 
 	 * **User Name:** This is used in the email address.
-     For example, if the user name is specified as "**myname** and the domain is
-     **yourdomainexample.com**, then the email address will be **myname@yourdomainexample.com**.
+     For example, if the user name is specified as "**myname** and the domain is **yourdomainexample.com**, then the email address will be **myname@yourdomainexample.com**.
 
        **Note:** You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
@@ -69,27 +69,28 @@ Warning: Adding multiple mailboxes will extend the time needed to be able to acc
 
 6.	Click **Save**.
 
-**Note:** Once a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to be accessible. You can then log into the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php)
+     **Note:** Once a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to be accessible. You can then log into the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php)
 
-The mailbox will appear in the mailboxes list. To manage additional features for the mailbox, such as forwarding, autoreply, aliases, or settings, click the mailbox name and then click the corresponding tab on the details page.
+    The mailbox will appear in the mailboxes list. To manage additional features for the mailbox, such as forwarding, autoreply, aliases, or settings, click the mailbox name and then click the corresponding tab on the details page.
 
 
 ### Add multiple mailboxes
 
-1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 
-2.	Select **Mailboxes** within the Rackspace Email section.
-    <!--add screen shot file AddmailboxSC1.png-->
+2. Select **Mailboxes** within the Rackspace Email section.
 
-3.	If you have multiple domains, select the domain you wish to add a mailbox to.
+		 <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
 
-4.	Click **Add/Edit Multiple Mailboxes**.
+3. If you have multiple domains, select the domain you wish to add a mailbox to.
 
-    <!--add screen shot file AddmultmailboxesSC1.png-->
+4. Click **Add/Edit Multiple Mailboxes**.
+
+    <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-multi-mailboxes.png %}" />
 
     **Note:** If the **Add/Edit Multiple Mailboxes** button is greyed out, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
-5.	Create a CSV or Excel file(XLS) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
+5. Create a CSV or Excel file(XLS) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
 
     **Note:** You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
@@ -101,30 +102,30 @@ The mailbox will appear in the mailboxes list. To manage additional features for
     - Numerals (0-9)
     - Non-alphanumeric symbols (such as !, #, $, %)
 
-Warning: **Username**, **Password**, and **Enabled** fields are required on all CSV or Excel imports when adding Rackspace Email mailboxes. This method of mailbox creation should be used for adding a high number of mailboxes.
+    **Warning:** **Username**, **Password**, and **Enabled** fields are required on all CSV or Excel imports when adding Rackspace Email mailboxes. This method of mailbox creation should be used for adding a high number of mailboxes.
 
-6.	In the **Import File** section, click **Browse** or **Choose File**.
+6. In the **Import File** section, click **Browse** or **Choose File**.
 
-7.	Locate and select the CSV or Excel file that you created.
+7. Locate and select the CSV or Excel file that you created.
 
-8.	Click **Open** and then **Import**.
+8. Click **Open** and then **Import**.
 
 The mailboxes will appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
 
 
 ### Add a mailbox license
 
-1.	Click the **Upgrade this plan** link.
+1. Click the **Upgrade this plan** link.
 
-<!--add screen shot file AddRSElicenseSC1.png-->
+    <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-rse-license-sc1.png %}" />
 
-2.	Under **Rackspace Email Mailboxes**, add the number of mailboxes that you need.
+2. Under **Rackspace Email Mailboxes**, add the number of mailboxes that you need.
 
-<!--add screen shot file AddRSElicenseSC2.png-->
+    <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-rse-license-sc2.png %}" />
 
-3.	Click **Continue**.
+3. Click **Continue**.
 
-4.	If the order summary looks correct, click **Complete Order**.
+4. If the order summary looks correct, click **Complete Order**.
 
 ### References
 [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
