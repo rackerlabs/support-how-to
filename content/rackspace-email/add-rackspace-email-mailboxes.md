@@ -92,12 +92,12 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
   The **Username**, **Password**, and **Enabled** fields are required for all mailbox entries in the file. Passwords must meet the following requirements:
 
-    - It must be at least eight characters.
-    - It must use characters from at least three of the following four character types:
-      - English alphabet uppercase letters (A-Z)
-      - English alphabet lowercase letters (a-z)
-      - Numerals (0-9)
-      - Non-alphanumeric symbols (such as !, #, $, %)
+   - It must be at least eight characters.
+   - It must use characters from at least three of the following four character types:
+     - English alphabet uppercase letters (A-Z)
+     - English alphabet lowercase letters (a-z)
+     - Numerals (0-9)
+     - Non-alphanumeric symbols (such as !, #, $, %)
 
 		**Note:** You can’t create a username that already exists as an alias, group list, distribution list, or another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
