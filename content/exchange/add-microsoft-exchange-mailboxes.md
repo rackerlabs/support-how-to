@@ -13,7 +13,7 @@ product_url: exchange
 
 You can add a single mailbox to your Cloud Office account or add multiple mailboxes by using a CSV or Microsoft Excel file.
 
-If you need to add a Rackspace Email mailbox see [Add Rackspace Email mailboxes](https://support.rackspace.com/how-to/add-rackspace-email-mailboxes/).
+If you need to add a Rackspace Email mailbox, see [Add Rackspace Email mailboxes](https://support.rackspace.com/how-to/add-rackspace-email-mailboxes/).
 
 ### Prerequisites
 
@@ -70,7 +70,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
     	 - English alphabet lowercase letters (a-z)
 
     	 - Numerals (0-9)
-       
+
     	 - Alphanumeric symbols (such as !, #, $, %)
 
    * **Confirm:** Retype the password that you entered in the **Password** box.
@@ -130,6 +130,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 
 ### References
+
 - [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
 
 - [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel")
