@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 
 Before deleting a mailbox, you should be absolutely certain that you do not need any of the data stored in the mailbox. If you do need data in the mailbox,
-you must export the data before deleting the mailbox.
+you must export the data before deleting the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology) such as Outlook.
 
 ### Delete vs. Disable
 
