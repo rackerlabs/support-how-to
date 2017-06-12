@@ -1,7 +1,7 @@
 ---
 permalink: recover-a-deleted-microsoft-exchange-mailbox/
 audit_date:
-title: Recover a deleted Microsoft Exchange Mailbox
+title: Recover a deleted Microsoft Exchange mailbox
 type: article
 created_date: '2017-06-12'
 created_by: William Loy
@@ -28,7 +28,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### How to recover a deleted Microsoft Exchange mailbox
 
-Warning: A mailbox must be recovered within 14 days of deletion. 
+Warning: A mailbox must be recovered within 14 days of deletion.
 
 1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 
