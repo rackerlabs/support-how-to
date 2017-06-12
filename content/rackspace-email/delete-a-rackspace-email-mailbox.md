@@ -32,7 +32,7 @@ you must export the data before deleting the mailbox. Data exports must be perfo
 ### Delete vs. Disable
 
 Disable a mailbox - This DOES NOT remove a mailbox from your account. It prevents access to the mailbox. If a mailbox is disabled it remains on your account
-and you continue to be billed for that mailbox.
+and you continue to be billed for that mailbox. The mailbox will still retain its previous data and will still receive new mail sent to it.
 
 Delete a mailbox - Deleting a mailbox removes that mailbox and all of it's data from our servers. Once you have deleted a mailbox, you must contact support to have that
 change reflected on your bill.
