@@ -51,7 +51,7 @@ change reflected on your bill.
 4. Check the box to the left of the mailbox you wish to delete.
 
 Warning: Once a mailbox is deleted it can only be recovered for up to 14 days. See [Recover a deleted mailbox](/how-to/recover-a-deleted-rackspace-email-mailbox/) for
-instructions on recovering a deleted mailbox.
+instructions on recovering a deleted Rackspace Email mailbox.
 
 5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**.
 
