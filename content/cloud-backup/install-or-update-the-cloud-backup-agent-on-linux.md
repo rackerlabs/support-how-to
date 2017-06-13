@@ -11,7 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-The Rackspace Cloud Backup agent is an executable that facilitates the backup process on your servers. You must install the agent on every server that you want to back up. This article provide instructions for installing the agent on a Linux server by using the Cloud Backup Updater. 
+The Rackspace Cloud Backup agent is an executable that facilitates the backup process on your servers. You must install the agent on every server that you want to back up. This article provide instructions for installing the agent on a Linux server by using the Cloud Backup Updater.
 
 If you are using a Windows server, see [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows) for parallel instructions.
 
@@ -19,13 +19,13 @@ If you are using a Windows server, see [Install the Cloud Backup agent on Window
 
 You can use Cloud Backup on any Linux server in the Rackspace Cloud, except FreeBSD
 9 and Debian 5. If you use either of these distributions, use an alternative method to
-back up your data. 
+back up your data.
 
 Also, 32-bit servers and agents on Linux are not supported.
 
 The agent should already be installed on servers that have the Managed Operations
 service level. See the following section to determine whether the agent is already
-installed on a server. 
+installed on a server.
 
 If the Cloud Backup updater fails, use the instructions in [Manually update the Rackspace Cloud Backup agent](/how-to/update-the-rackspace-cloud-backup-agent).
 
@@ -87,9 +87,9 @@ If you get a message that the command can't be found, you must install the agent
         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
 
       - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
-      
+
       - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
-      
+
       - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
     **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the Backups section at the bottom of the Cloud Servers details page in the Cloud Control Panel. However, items do appear as they should on the Backups tab in the Cloud Control Panel.
@@ -123,9 +123,9 @@ If you get a message that the command can't be found, you must install the agent
         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
 
     - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
-    
+
     - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
-    
+
     - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
     **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the Backups section at the bottom of the Cloud Servers details page in the Cloud Control Panel. However, items do appear as they should on the Backups tab in the Cloud Control Panel.
@@ -138,21 +138,21 @@ If you get a message that the command can't be found, you must install the agent
 
 For Arch, Gentoo, and SUSE Linux systems, you must first download the tarball. The tarball has the most up-to-date instructions. If the following instructions differ from the tarball instructions, use the tarball instructions instead.
 
-1.  Download the tarball.
+1. Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
+
+2.  Download the tarball.
 
         wget http://agentrepo.drivesrvr.com/tar/driveclient-latest.tar.bz2
 
-2. Use SSH to log in to your server and run the commands as a user with sudo or superuser privileges.
-
-2.  Extract the installation files.
+3.  Extract the installation files.
 
         tar -xvjf driveclient-latest.tar.bz2
 
-3.  Change to the directory that was created by extracting the files. For example:
+4.  Change to the directory that was created by extracting the files. For example:
 
         cd driveclient-1
 
-4.  Create directories and copy files.
+5.  Create directories and copy files.
 
         sudo cp driveclient /usr/local/bin/
         sudo chown root:root /usr/local/bin/driveclient
@@ -160,21 +160,21 @@ For Arch, Gentoo, and SUSE Linux systems, you must first download the tarball. T
         sudo mkdir -m 700 /etc/driveclient
         sudo cp cacert.pem /etc/driveclient
 
-5.  Run the agent with the `--configure` option to configure it, and supply others options as needed. You are asked for your Rackspace Cloud account username and password.
+6.  Run the agent with the `--configure` option to configure it, and supply others options as needed. You are asked for your Rackspace Cloud account username and password.
 
           sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <datacenter> --apihost api.drivesrvr.com
 
     - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key).
-    
-    - The value for `<flavor>` is `raxcloudserver`, `privatecloud`, or `dedicated`. 
-    
+
+    - The value for `<flavor>` is `raxcloudserver`, `privatecloud`, or `dedicated`.
+
     - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
     **Note**: If you use any flavor other than `raxcloudserver`, the agent is shown as not installed in the Backups section at the bottom of the Cloud Servers details page in the Cloud Control Panel. However, items do appear as they should on the Backups tab in the Cloud Control Panel.
 
-6. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
+7. When prompted to confirm that you want to overwrite your configuration file, answer `yes`.
 
-7.  Start the agent.
+8.  Start the agent.
 
         sudo /usr/local/bin/driveclient --daemon
 
