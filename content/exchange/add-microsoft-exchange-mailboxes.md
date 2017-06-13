@@ -1,6 +1,6 @@
 ---
 permalink: add-microsoft-exchange-mailboxes/
-audit_date: '2017-06-06'
+audit_date: '2017-06-12'
 title: Add Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
@@ -47,24 +47,24 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc3.png %}" />
 
-   * **First and Last Name** (optional): Enter first and last name information for the mailbox owner in the spaces provided.
+	 * **First Name and Last Name** (optional): Enter first and last name information for the mailbox owner.
 
-   * **Display Name**: Enter the name to associate with the mailbox. This name will be displayed when the user sends email.
+	 * **Display Name**: Enter the name to display when the user sends email.
 
-   * **User Name**:  Enter the name to use in the email address. For example, if you specify **myname** as the username, and the domain is **yourdomainexample.com**, then the email address is **myname@yourdomainexample.com**.
+	 * **User Name**: Enter the name to use in the email address. For example, if you specify **myname** as the username, and the domain is **yourdomainexample.com**, then the email address is **myname@yourdomainexample.com**.
 
-     **Note:** You can't create a username that already exists as an alias, group list, distribution list, or another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
+      **Note**: You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
-   * **Password:** Enter a password for the email account using the following requirements:
+	 * **Password:** Enter a password for the email account using the following requirements:
 
-     - It must be at least eight characters.
-     - It must use characters from at least three of the following four character types:
-    	 - English alphabet uppercase letters (A-Z)
-    	 - English alphabet lowercase letters (a-z)
-    	 - Numerals (0-9)
-    	 - Alphanumeric symbols (such as !, #, $, %)
+	   - It must be at least eight characters.
+	   - It must use characters from at least three of the following four character types:
+	     - English alphabet uppercase letters (A-Z)
+	     - English alphabet lowercase letters (a-z)
+	     - Numerals (0-9)
+	     - Non-alphanumeric symbols (such as !, #, $, %)
 
-   * **Confirm:** Retype the password that you entered in the **Password** box.
+	 * **Confirm:** Retype the password that you entered in the **Password** box.
 
 6. Under Options, place your cursor over the **?** symbol for a description of additional mailbox options, and select any options that you want.
 
