@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-You can add a single mailbox to your Cloud Office account or add multiple mailboxes by using a CSV or Microsoft Excel file.
+You can add a single mailbox to your Cloud Office account, or you can add multiple mailboxes by using a CSV or Microsoft Excel file.
 
 If you need to add a Rackspace Email mailbox, see [Add Rackspace Email mailboxes](https://support.rackspace.com/how-to/add-rackspace-email-mailboxes/).
 
@@ -21,29 +21,27 @@ If you need to add a Rackspace Email mailbox, see [Add Rackspace Email mailboxes
 
 - **Difficulty:** Easy
 
-- **Time needed:** Approximately 5 minutes to create a mailbox / Approximately 15 additional minutes for mailbox to be accessible
+- **Time needed:** Approximately 5 minutes to create a mailbox, and approximately 15 additional minutes for the mailbox to be accessible
 
 - **Tools required:** Cloud Office Control Panel access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-### Add one Exchange mailbox
-
-**Warning:** Adding multiple mailboxes will extend the time needed to be able to access a new mailbox as mailbox additions are processed in order.
+### Add a single Exchange mailbox
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com) using your Rackspace Cloud Office admin ID and password.
 
-2. In the Microsoft Exchange section, select **Mailboxes**.
+2. In the Microsoft Exchange section, click **Mailboxes**.
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc1.png %}" />
 
-   **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
-
-3. If you have multiple domains, select the domain of which you want to add a mailbox to.
+3. If you have multiple domains, select the domain to which you want to add a mailbox to.
 
 4. Click **Add Mailbox**.
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc2.png %}" />
+
+   **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 5. Enter the requested information in the fields provided:
 
@@ -51,13 +49,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    * **First and Last Name** (optional): Enter first and last name information for the mailbox owner in the spaces provided.
 
-   * **Display Name** (optional): Enter the name that should be associated with the mailbox. This name will be displayed when the user sends email.
+   * **Display Name**: Enter the name to associate with the mailbox. This name will be displayed when the user sends email.
 
-   * **User Name**: This is used in the email address.
-     For example, if the user name is specified as "**myname** and the domain is
-     **yourdomainexample.com**, then the email address will be **myname@yourdomainexample.com**.
+   * **User Name**:  Enter the name to use in the email address. For example, if you specify **myname** as the username, and the domain is **yourdomainexample.com**, then the email address is **myname@yourdomainexample.com**.
 
-    **Note:** You can not create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
+     **Note:** You can't create a username that already exists as an alias, group list, distribution list, or another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 
    * **Password:** Enter a password for the email account using the following requirements:
 
@@ -75,52 +71,55 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    * **Confirm:** Retype the password that you entered in the **Password** box.
 
-   * **? symbol:** Place your cursor over the **?** symbol for a description of additional mailbox options.
+6. Under Options, place your cursor over the **?** symbol for a description of additional mailbox options, and select any options that you want.
 
-   * Select the **Save** button and the mailbox will appear in
-     the list.
+7. Click **Save**.
 
-    **Note:** After a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to be accessible. You can then log into the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php)
+   **Note:** After a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to become accessible. You can then log in to the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
 
-    To manage additional features for the mailbox, such as **Mail Forwarding**, **Email Addresses**, or **Permissions**, click the mailbox name and then click the corresponding tab.
+   The mailbox appears in the mailboxes list. To manage additional features for the mailbox, such as forwarding, addresses, or permissions, click the mailbox name and then click the corresponding tab on the details page.
 
 ### Add multiple Exchange mailboxes
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
+**Warning:** Adding multiple mailboxes will extend the time needed to be able to access a new mailbox as mailbox additions are processed in order
 
-2. In the Microsoft Exchange section, select **Mailboxes**.
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com) using your Rackspace Cloud Office admin ID and password.
+
+2. In the Microsoft Exchange section, click **Mailboxes**.
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc1.png %}" />
 
-3. If you have multiple domains, select the domain of which you want to add a mailbox.
+3. If you have multiple domains, select the domain to which you want to add a mailbox.
 
-4. Click **Add/Edit Multiple Mailboxes**.
+4. Click **Add Multiple Mailboxes**.
 
     <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-multi-hex-sc1.png %}" />
 
-    If the **Add/Edit Mailboxes** button is unavailable, add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+    If the **Add Mailboxes** button is unavailable, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
-5. Create a CSV or Excel file(XLS format) that contains the information detailed in the **Data Format** section of the **Import Mailboxes** page. You can download a template from that section to help you create a file with the correct format.
-
-    **Note:** You are not able to create a username that already exists as an alias, group list, distribution list, or as another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
+5. Create a CSV or Excel file (XLS) that contains the information detailed in the Data Format section of the Import Mailboxes page. You can download a template from that section to help you create a file with the correct format.
 
     **Username**, **Password**, **First Name**, **Last Name** and **Enabled(Enabled=1 Disabled=0)** fields are required on all CSV or Excel imports when adding Microsoft Exchange mailboxes. This method of mailbox creation should be used for adding a high number of mailboxes.
 
-4. In the **Import File** section, click **Browse** and locate and select
-   the CSV or Excel file you created.
+6. In the **Import File** section of the Import Mailboxes page, click **Browse**.
 
-5. Select **Open** and then **Import**.
+7. Locate the CSV or Excel file you created.
+
+8. Select **Open** and then **Import**.
 
     The mailboxes appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
 
 
 ### Add a mailbox license
 
+If the buttons to add one or more mailboxes are unavailable, you must add the
+necessary licenses to your account before you can add a mailbox
+
 1. Click the **Upgrade this plan** link.
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-license-sc1.png %}" />
 
-2. Under **Microsoft Exchange Mailboxes**, add the number of mailboxes that you need.
+2. Under **Microsoft Exchange Mailboxes**, add the number of mailboxes that you want to make available to your account.
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-license-sc2.png %}" />
 
@@ -137,4 +136,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 - [Cloud Office Email Portal](https://apps.rackspace.com/index.php)
 
-- [Add Rackspace Email mailboxes](https://support.rackspace.com/how-to/add-rackspace-email-mailboxes/).
+- [Add Rackspace Email mailboxes](https://support.rackspace.com/how-to/add-rackspace-email-mailboxes/)
