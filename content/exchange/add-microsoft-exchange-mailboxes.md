@@ -5,13 +5,13 @@ title: Add Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2017-06-06'
+last_modified_date: '2017-06-12'
 last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-You can add a single mailbox to your Cloud Office account, or you can add multiple mailboxes by using a CSV or Microsoft Excel file.
+You can add a single mailbox to your Cloud Office Exchange account, or you can add multiple mailboxes by using a CSV or Microsoft Excel file.
 
 If you need to add a Rackspace Email mailbox, see [Add Rackspace Email mailboxes](https://support.rackspace.com/how-to/add-rackspace-email-mailboxes/).
 
@@ -41,7 +41,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc2.png %}" />
 
-   **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+   If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 5. Enter the requested information in the fields provided:
 
@@ -76,7 +76,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Add multiple Exchange mailboxes
 
-**Warning:** Adding multiple mailboxes will extend the time needed to be able to access a new mailbox as mailbox additions are processed in order
+**Warning:** Adding multiple mailboxes will extend the time needed to be able to access a new mailbox as mailbox additions are processed in order.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com) using your Rackspace Cloud Office admin ID and password.
 
@@ -102,13 +102,12 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 8. Select **Open** and then **Import**.
 
-    The mailboxes appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
+   The mailboxes appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
 
 
 ### Add a mailbox license
 
-If the buttons to add one or more mailboxes are unavailable, you must add the
-necessary licenses to your account before you can add a mailbox
+If the buttons to add one or more mailboxes are unavailable, you must add the necessary licenses to your account before you can add a mailbox
 
 1. Click the **Upgrade this plan** link.
 
