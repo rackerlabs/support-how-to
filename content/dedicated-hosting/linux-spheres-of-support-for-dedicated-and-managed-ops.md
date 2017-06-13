@@ -5,8 +5,8 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2017-03-07'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-06-02'
+last_modified_by: Alex Juarez
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -51,7 +51,10 @@ The following types of database servers are supported in the indicated areas:
 | MySQL and MariaDB | Yes | Yes | Yes | Yes |
 | Percona | Yes | Yes | Yes | Yes |
 
-**Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL, and PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply.
+**Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL. PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply. For more information visit our [DBA Services page](https://www.rackspace.com/en-us/dba-services).
+
+**Note**: Rackspace will install and support the official Oracle MySQL, MariaDB and Percona MySQL
+software from the vendor's repositories.
 
 ### File servers
 
@@ -136,7 +139,8 @@ Although we don't support all technologies, we do offer *reasonable endeavor* su
 
 - **API support**: All the support functions listed in the [API guides](https://developer.rackspace.com/docs) are supported.
 - **Backups**: Rackspace provides solutions for file system and database backups including leveraging the use of open-source projects such as [Holland](http://docs.hollandbackup.org/). For more information, contact Support.
--  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development support is offered to help uses Cloud Files via the API.
+-  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
+   support is offered to help use Cloud Files via the API.
 -  **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Bind/named are *not* supported at this time.
 -  **Firewall**: Support is provided for iptables, Ubuntu ufw, and fail2ban.
 -  **Load Balancing**: Cloud Load Balancers are supported.
@@ -152,6 +156,9 @@ Fanatical Support for Linux will, under reasonable endeavors and without warrant
 - [NGINX (vendor)](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 - [Percona (vendor)](https://www.percona.com/doc/percona-server/LATEST/installation.html#installing-percona-server-from-repositories)
 - [Varnish (vendor)](https://www.varnish-cache.org/releases/install_redhat.html)
+
+_When packages from 3rd party vendors are installed, customers are responsible for vendor escalation,
+patching, and updates._
 
 #### Disclaimer
 
