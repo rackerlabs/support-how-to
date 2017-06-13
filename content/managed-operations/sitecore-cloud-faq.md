@@ -1,11 +1,11 @@
 ---
-permalink: sitecore-managed-cloud-faq/
+permalink: sitecore-cloud-faq/
 audit_date:
-title: Sitecore Managed Cloud FAQ
+title: Sitecore Cloud FAQ
 type: article
 created_date: '2017-05-02'
 created_by: Juan Garza
-last_modified_date: '2017-05-02'
+last_modified_date: '2017-06-13'
 last_modified_by: Nate Archer
 product: Managed Operations
 product_url: managed-operations
