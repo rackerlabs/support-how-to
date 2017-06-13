@@ -35,7 +35,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path exchange/add-microsoft-exchange-mailboxes/add-hex-mailbox-sc1.png %}" />
 
-3. If you have multiple domains, select the domain to which you want to add a mailbox to.
+3. If you have multiple domains, select the domain to which you want to add a mailbox.
 
 4. Click **Add Mailbox**.
 
