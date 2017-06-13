@@ -1,6 +1,6 @@
 ---
 permalink: add-microsoft-exchange-mailboxes/
-audit_date:
+audit_date: '2017-06-06'
 title: Add Microsoft Exchange mailboxes
 type: article
 created_date: '2012-05-23'
@@ -57,17 +57,12 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    * **Password:** Enter a password for the email account using the following requirements:
 
-      - It must be at least eight characters.
-
-    	- It must use characters from at least three of the following four character types:
-
-    	    - English alphabet uppercase letters (A-Z)
-
-    	    - English alphabet lowercase letters (a-z)
-
-    	    - Numerals (0-9)
-
-    	    - Alphanumeric symbols (such as !, #, $, %)
+     - It must be at least eight characters.
+     - It must use characters from at least three of the following four character types:
+    	 - English alphabet uppercase letters (A-Z)
+    	 - English alphabet lowercase letters (a-z)
+    	 - Numerals (0-9)
+    	 - Alphanumeric symbols (such as !, #, $, %)
 
    * **Confirm:** Retype the password that you entered in the **Password** box.
 
