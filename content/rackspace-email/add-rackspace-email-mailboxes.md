@@ -69,7 +69,6 @@ The mailbox appears in the mailboxes list. To manage additional features for the
     <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc1.png %}" />
     
 3. If you have multiple domains, select the domain to which you want to add a mailbox.
-
 4. Click **Add/Edit Multiple Mailboxes**.
 
     <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-multi-mailboxes.png %}" />
@@ -90,9 +89,7 @@ The mailbox appears in the mailboxes list. To manage additional features for the
 	**Note:** You can’t create a username that already exists as an alias, group list, distribution list, or another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 		
 6. In the **Import File** section of Import Mailboxes page, click **Browse** or **Choose File**.
-
 7. Locate and select the CSV or Excel file that you created.
-
 8. Click **Open** and then click **Import**.
 
 After they are created, the mailboxes appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
