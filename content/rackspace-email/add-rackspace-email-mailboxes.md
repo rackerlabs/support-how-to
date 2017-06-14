@@ -53,9 +53,9 @@ For more information about prerequisite terminology, see [Cloud Office support t
 	 * **Confirm:** Retype the password that you entered in the **Password** box.
 6. Click **Save**.
 
-     **Note:** After a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to become accessible. You can then log in to the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
+   **Note:** After a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to become accessible. You can then log in to the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
      
-    The mailbox appears in the mailboxes list. To manage additional features for the mailbox, such as forwarding, autoreply, aliases, or settings, click the mailbox name and then click the corresponding tab on the details page.
+The mailbox appears in the mailboxes list. To manage additional features for the mailbox, such as forwarding, autoreply, aliases, or settings, click the mailbox name and then click the corresponding tab on the details page.
 
 ### Add multiple mailboxes
 
@@ -77,13 +77,15 @@ For more information about prerequisite terminology, see [Cloud Office support t
 5. Create a CSV or Excel file(XLS) that contains the information detailed in the **Data Format** section of the Import Mailboxes page. You can download a template from that section to help you create a file with the correct format.
 
    The **Username**, **Password**, and **Enabled** fields are required for all mailbox entries in the file. Passwords must meet the following requirements:
+   
     - It must be at least eight characters.
     - It must use characters from at least three of the following four character types:
       - English alphabet uppercase letters (A-Z)
       - English alphabet lowercase letters (a-z)
       - Numerals (0-9)
       - Non-alphanumeric symbols (such as !, #, $, %)
-		**Note:** You can’t create a username that already exists as an alias, group list, distribution list, or another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
+		
+	**Note:** You can’t create a username that already exists as an alias, group list, distribution list, or another mailbox. You must remove the conflicting address from your account before using the same username for another purpose.
 		
 6. In the **Import File** section of Import Mailboxes page, click **Browse** or **Choose File**.
 
