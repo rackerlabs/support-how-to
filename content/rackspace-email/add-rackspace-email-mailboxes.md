@@ -95,7 +95,7 @@ The mailbox appears in the mailboxes list. To manage additional features for the
 
 8. Click **Open** and then click **Import**.
 
-   After they are created, the mailboxes appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
+After they are created, the mailboxes appear in the mailboxes list. Any errors that occur are detailed in the import log. Make corrections as detailed in the import log and import again.
 
 ### Add a mailbox license
 
