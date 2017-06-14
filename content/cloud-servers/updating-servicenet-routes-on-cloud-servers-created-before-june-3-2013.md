@@ -1,4 +1,5 @@
 ---
+permalink: updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/
 audit_date:
 title: 'Update ServiceNet Routes on Cloud Servers Created Before June 3, 2013'
 type: article
