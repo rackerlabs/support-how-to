@@ -18,11 +18,8 @@ If you need to add a Microsoft Exchange mailbox see [Add Microsoft Exchange mail
 ### Prerequisites
 
 - **Applies to:** Administrator
-
 - **Difficulty:** Easy
-
 - **Time needed:** Approximately 5 minutes to create a mailbox and approximately 15 additional minutes for the mailbox to become accessible
-
 - **Tools required:** Cloud Office Control Panel access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
