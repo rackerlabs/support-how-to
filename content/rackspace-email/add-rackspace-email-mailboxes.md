@@ -36,9 +36,10 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
     <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/add-mailbox-sc2.png %}" />
     
-     **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
+    **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
      
 5. Enter the following information in the fields provided:
+
 	 * **First Name and Last Name** (optional): Enter first and last name information for the mailbox owner.
 	 * **Display Name** (optional): Enter the name to display when the user sends email.
 	 * **User Name:** Enter the name to use in the email address. For example, if you specify **myname** as the username, and the domain is **yourdomainexample.com**, then the email address is **myname@yourdomainexample.com**.
@@ -51,6 +52,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 	     - Numerals (0-9)
 	     - Non-alphanumeric symbols (such as !, #, $, %)
 	 * **Confirm:** Retype the password that you entered in the **Password** box.
+	 
 6. Click **Save**.
 
    **Note:** After a mailbox is created in the Cloud Office Control Panel, it can take up to 15 minutes for the mailbox to become accessible. You can then log in to the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
