@@ -4,24 +4,24 @@ Microsoft Exchange includes many robust product features that Rackspace Email do
 To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the two.
 
 Rackspace Email:
-Syncs mail folders with local mail clients such as Outlook
-Share calendar (webmail only)
-Grant calendar editing permissions to other Rackspace Email users(webmail only)
-Create contacts(webmail only)
-Create notes(webmail only)
-Create tasks(webmail only)
-Maximum of 25 GBs of email storage
+- Syncs mail folders with local mail clients such as Outlook
+- Share calendar (webmail only)
+- Grant calendar editing permissions to other Rackspace Email users(webmail only)
+- Create contacts(webmail only)
+- Create notes(webmail only)
+- Create tasks(webmail only)
+- Maximum of 25 GBs of email storage
 
-Microsoft Exchange
-Syncs mail folders with local mail clients such as Outlook
-Share calendar(Outlook and online)
-Grant calendar editing permissions to other Microsoft Exchange users(Mail client and online)
-Sync calendars(Mail client, mobile device, and online)
-Sync contacts(Mail client, mobile device, and online)
-Sync notes(Mail client, mobile device, and online)
-Sync tasks(Mail client, mobile device, and online)
-Public Folders
-Maximum 100GBs of email storage
+Microsoft Exchange:
+- Syncs mail folders with local mail clients such as Outlook
+- Share calendar(Outlook and online)
+- Grant calendar editing permissions to other Microsoft Exchange users(Mail client and online)
+- Sync calendars(Mail client, mobile device, and online)
+- Sync contacts(Mail client, mobile device, and online)
+- Sync notes(Mail client, mobile device, and online)
+- Sync tasks(Mail client, mobile device, and online)
+- Public Folders
+- Maximum 100GBs of email storage
 
 Customers who need to ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
 If you are considering the migration because you Rackspace Email mailbox is at maximum capacity you may want to reconsider. As far as email storage goes, 25GBs is quite substantial and anything beyond that may run into performance issues.
