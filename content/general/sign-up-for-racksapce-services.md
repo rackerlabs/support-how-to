@@ -21,9 +21,9 @@ Before you sign up for a Rackspace account, ask yourself the following questions
 
 Rackspace supports a several different clouds including Amazon Web Services and Microsoft Azure, as well as Rackspace’s own suite of cloud products including Rackspace Private Cloud and Rackspace Public Cloud. The sign up process changes depending on what product you are using. Use the following list to find the right sign up process for your chosen Rackspace product or service.
 
--	Fanatical Support for AWS, Azure, and Rackspace Public Cloud
--	Rackspace Email and applications
--	Office 365
+-	[Fanatical Support for AWS and Rackspace Public Cloud](#fanatical-support-for-aws-or-rackspace-public-cloud)
+-	[Rackspace Email and applications](#rackspace-email-and-applications)
+-	[Office 365](#office-365)
 
 **Who will be the primary user/account owner?**
 
@@ -46,6 +46,10 @@ Rackspace uses the following information to create your account:
 - Physical address
 - Phone number
 - Valid credit card
+
+### Service levels
+
+
 
 ### Sign up for a Rackspace account
 
