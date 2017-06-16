@@ -47,9 +47,6 @@ Rackspace uses the following information to create your account:
 - Phone number
 - Valid credit card
 
-### Service levels
-
-
 
 ### Sign up for a Rackspace account
 
@@ -63,6 +60,8 @@ The sign up process is different depending on the Rackspace product or service y
 4. Enter your billing information. Rackspace will place a $1 hold on your credit card to confirm your account.
 5. Accept the [Rackspace Global Services Agreement](https://www.rackspace.com/information/legal/GSA) and [Fanatical Support for AWS Terms and Conditions](https://www.rackspace.com/information/legal/awssupport) or [Rackspace Cloud Terms of Service](https://www.rackspace.com/information/legal/cloud/tos).
 6. Click **Create Account**. A confirmation screen appears confirming that your account has been created. You can now log in using the username and password you created.
+
+   **Note:** All Rackspace Public Cloud accounts are set to the Managed Infrastructure service level by default. You can upgrade to the Managed Operations service level inside the Cloud Control Panel. Click your account username at the top of the Control panel screen, then click **Upgrade Service Level**.
 
 #### Rackspace Email and applications
 
