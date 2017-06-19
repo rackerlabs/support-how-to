@@ -17,7 +17,7 @@ your Thunderbird email client.
 1. Open Thunderbird.
 2. In the navigation pane, click **Local Folders** and under **Create a new account**, click **Email**.
 
-   <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird-create-acccount.png %}" />
+   <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird-create-account.png %}" />
 
 3. When prompted to create a new email address, click the **Skip this and use my existing email** button at the bottom of the dialog box.
 4. In the Mail Account Setup dialog box, enter the following information in the fields provided:
