@@ -24,18 +24,20 @@ Microsoft Exchange:
 - Maximum 100GBs of email storage
 
 Customers who need to ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
-If you are considering the migration because you Rackspace Email mailbox is at maximum capacity you may want to reconsider. As far as email storage goes, 25GBs is quite substantial and anything beyond that may run into performance issues.
-When you store that much data in a mailbox, it can cause things to run slowly. Try the recommendations in [Rackspace Email storage maintenance and best practices].
+If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider. Try the recommendations in [Rackspace Email storage maintenance and best practices].
+
 
 ### Planning your migration
 
-1. Set up Autodiscover for your domain. See [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email/) for the necessary autodiscover record.
+
+1. Consider the number of users that will be making the move. All of them will have to go through migration preparation before the move.
+
+2. Set up Autodiscover for your domain. See [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email/) for the necessary autodiscover record.
 
     - Autodiscover allows users to set up email in Outlook using only their email address and password.
     - Autodiscover is REQUIRED for Outlook 2016 set ups.
     - Setting up autodiscover sets you and your users up for success post-migration.
 
-2. Consider the number of users that will be making the move. All of them will have to go through migration preparation before the move.
 
 3. Instruct all of your users to verify that they can find all of their email in apps.rackspace.com.
     - The mail stored in apps.rackspace.com is all that will be migrated. If a user notices mail is missing in apps.rackspace.com, they might be storing mail locally.
@@ -54,3 +56,42 @@ When you store that much data in a mailbox, it can cause things to run slowly. T
 
 5.  Mac users
     -  Mac users will want to ensure their IMAP folders are mapped correctly through their Mac/Apple Mail Client before scheduling this migration. If not correctly mapped we have seen duplicated folders created under their Exchange account.
+
+### Items migrated
+
+- Mail stored in webmail. You can verify what email is stored in webmail by logging in at apps.rackspace.com
+- Calendar and Contact data stored in Rackspace Webmail is **not guaranteed to migrate but will be attempted**. We recommend backing up your contact data to a .csv file through the Rackspace Webmail.
+- Users will remain members of any aliases or lists they are a part of.
+
+### Items NOT migrated
+
+**Task and Notes in Rackspace Webmail**
+**Auto-Saved and Group Contacts in Rackspace Webmail**
+**Flags in Flagged Messages**
+**Passwords**
+**Forwarding**
+**Safelists/Blacklists**
+**Custom Signatures**
+**Rules & Alerts**
+**Sharepoint Permissions and Sharepoint User Settings**
+**Outlook settings (Categories, Junk Folder Settings, Delegate permissions, Folder permissions, Archive Settings, and Autocomplete settings/NK2)**
+
+
+### Ready to move from Rackspace Email to Microsoft Exchange
+
+Once you have prepared all of your users to migrate from Rackspace Email to Microsoft Exchange you will want to schedule your migration.
+
+1. Submit a ticket through your Cloud Office Control Panel or contact support directly.
+
+2. You will receive your migration plan via support ticket. You must read this plan carefully and respond to the ticket with the following:
+
+    - Confirm you have read and fully understand the migration plan.
+    - List a date and time you would like to schedule the migration.
+
+    Warning: Users will not have access to email once the migration has started.
+
+    - List all email addresses that you would like to migrate
+
+3. Reply to the ticket with all of the needed information or with and questions you have about the migration plan.
+
+4.
