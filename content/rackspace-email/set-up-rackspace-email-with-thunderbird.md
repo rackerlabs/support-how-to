@@ -17,7 +17,7 @@ your Thunderbird email client.
 1. Open Thunderbird.
 2. In the navigation pane, click **Local Folders** and under **Create a new account**, click **Email**.
 
-   <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird_create_acccount.png %}" />
+   <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird-create-acccount.png %}" />
 
 3. When prompted to create a new email address, click the **Skip this and use my existing email** button at the bottom of the dialog box.
 4. In the Mail Account Setup dialog box, enter the following information in the fields provided:
@@ -34,7 +34,7 @@ your Thunderbird email client.
 
    The dialog box expands to show new fields.
 
-    <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird-dialog-field.png %}"  />
+    <img src="{% asset_path rackspace-email/set-up-rackspace-email-with-thunderbird/thunderbird-dialog-fields.png %}"  />
 
 7.  Enter the following values in the **Incoming** row:
     -   IMAP
