@@ -19,7 +19,7 @@ Before you sign up for a Rackspace account, ask yourself the following questions
 
 **Which cloud or Rackspace product are you using?**
 
-Rackspace supports a several different clouds including Amazon Web Services and Microsoft Azure, as well as Rackspace’s own suite of cloud products including Rackspace Private Cloud and Rackspace Public Cloud. The sign up process changes depending on what product you are using. Use the following list to find the right sign up process for your chosen Rackspace product or service.
+Rackspace supports a several different clouds including Amazon Web Services and Microsoft Azure, as well as Rackspace’s own suite of cloud products including Rackspace Private Cloud and Rackspace Public Cloud. The sign up process depends on what product or products you want to use. Use the following list to find the right sign up process for your chosen Rackspace product or service.
 
 -	[Fanatical Support for AWS and Rackspace Public Cloud](#fanatical-support-for-aws-or-rackspace-public-cloud)
 -	[Rackspace Email and applications](#rackspace-email-and-applications)
