@@ -10,8 +10,7 @@ last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
-
-Import contacts from your previous mail provider or export contacts from apps.rackspace.com before upgrading to our [Microsoft Exchange](https://www.rackspace.com/email-hosting) or [Office 365](https://www.rackspace.com/email-hosting) solutions.
+Plan your migration from Rackspace Email to Microsoft Exchange.
 
 ### Prerequisites
 
@@ -23,12 +22,12 @@ Import contacts from your previous mail provider or export contacts from apps.ra
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 
-Rackspace Email to Microsoft Exchange migration
+### Rackspace Email to Microsoft Exchange migration
 
 Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
 To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the two.
 
-Rackspace Email:
+**Rackspace Email:**
 - Syncs mail folders with local mail clients such as Outlook
 - Share calendar (webmail only)
 - Grant calendar editing permissions to other Rackspace Email users(webmail only)
@@ -37,7 +36,7 @@ Rackspace Email:
 - Create tasks(webmail only)
 - Maximum of 25 GBs of email storage
 
-Microsoft Exchange:
+**Microsoft Exchange:**
 - Syncs mail folders with local mail clients such as Outlook
 - Share calendar(Outlook and online)
 - Grant calendar editing permissions to other Microsoft Exchange users(Mail client and online)
@@ -81,7 +80,7 @@ for details on upgrading from Rackspace Email to Rackspace Email PLUS.
 |**Available in Outlook Web Access**|  X | X | X | X | X | X |
 
 Customers who need to ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
-If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider. Try the recommendations in [Rackspace Email storage maintenance and best practices].
+If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider as this will not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/how-to/rackspace-email-storage-maintenance-and-best-practices/).
 
 
 ### Planning your migration
@@ -101,7 +100,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
     Theses users will need to import the locally stored email into their Rackspace Email IMAP account before migrating.
     - Are any users utilizing a POP connection to their mailbox?
     - In either case the instructions [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/) for Windows user or
-    [Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/) for Mac users will walk them through
+    [Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/) for Mac, users will walk them through syncing their [locally](/how-to/cloud-office-support-terminology/). stored mail to apps.rackspace.com.
 
 4. Remove special characters from folder names.
 
@@ -134,7 +133,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 - **Outlook settings (Categories, Junk Folder Settings, Delegate permissions, Folder permissions, Archive Settings, and Autocomplete settings/NK2)**
 
 
-### Ready to move from Rackspace Email to Microsoft Exchange
+### Ready to migrate from Rackspace Email to Microsoft Exchange
 
 Once you have prepared all of your users to migrate from Rackspace Email to Microsoft Exchange you will want to schedule your migration.
 
