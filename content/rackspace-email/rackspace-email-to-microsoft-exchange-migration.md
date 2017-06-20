@@ -25,7 +25,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 ### Rackspace Email to Microsoft Exchange migration
 
 Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
-To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the two.
+To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the two. We also now offer Rackspace Email PLUS which does not require users to migrate.
 
 **Rackspace Email:**
 - Syncs mail folders with local mail clients such as Outlook
@@ -35,6 +35,7 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 - Create notes(webmail only)
 - Create tasks(webmail only)
 - Maximum of 25 GBs of email storage
+
 
 **Microsoft Exchange:**
 - Syncs mail folders with local mail clients such as Outlook
