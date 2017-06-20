@@ -13,10 +13,6 @@ product_url: managed-operations
 
 ### General
 
-#### How do I sign-up for Sitecore Managed Cloud?
-
-#### What support levels are offered for Sitecore Managed Cloud?
-
 #### Which regions is Sitecore available in?
 
 Sitecore on Azure Paas services is available in the following Azure Regions, as well as their corresponding Object Rocket regions for Sitecore XP customers who require the Experience Database.
@@ -34,5 +30,31 @@ Sitecore on Azure Paas services is available in the following Azure Regions, as 
 
 For instructions on how to login into your Sitecore content management, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
+#### How do I deploy to Sitecore using FTP?
 
-#### Where can I see my account and billing information?
+See [Deploy to Sitecore Cloud using FTP](https://support.rackspace.com/how-to/deploy-to-sitecore-cloud-using-ftp/).
+
+#### How do I publish content to Sitecore?
+
+For instructions on how to publish content to Sitecore, see [Publish content to Sitecore](/how-to/publish-content-to-sitecore/).
+
+#### Can you upload an SSL certificate in Azure if you have a custom domain?
+
+Yes. For instructions on how to upload an SSL certificate to a custom domain in the Azure portal, see [Upload an SSL certificate to a custom domain](/how-to/upload-an-ssl-certificate-to-a-custom-domain/).
+
+#### How do I install my Sitecore package to my Sitecore content management site?
+
+See [Install a Sitecore package](/how-to/install-a-sitecore-package/).
+
+#### How do I manually clear my Sitecore cache?
+
+See [Clear your Sitecore cache](/how-to/clear-your-sitecore-cache/).
+
+#### How do I connect to my Azure SQL database?
+
+See [Connect to Azure SQL database](/how-to/connect-to-azure-sql-database/).
+
+
+
+
+
