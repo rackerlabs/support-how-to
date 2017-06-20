@@ -1,4 +1,29 @@
-Rackspace Email to Microsoft Exchange
+---
+permalink: rackspace-email-to-microsoft-exchange-migration/
+audit_date:
+title: Rackspace Email to Microsoft Exchange migration
+type: article
+created_date: '2017-06-19'
+created_by: William Loy
+last_modified_date: '2017-06-19'
+last_modified_by: William Loy
+product: Rackspace Email
+product_url: rackspace-email
+---
+
+Import contacts from your previous mail provider or export contacts from apps.rackspace.com before upgrading to our [Microsoft Exchange](https://www.rackspace.com/email-hosting) or [Office 365](https://www.rackspace.com/email-hosting) solutions.
+
+### Prerequisites
+
+- **Applies to:** Administrator
+- **Difficulty:** Challenging
+- **Time needed:** Minimum of 5 business days
+- **Tools required:** Listed as Administrator
+
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+
+
+Rackspace Email to Microsoft Exchange migration
 
 Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
 To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the two.
@@ -85,16 +110,16 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
 ### Items NOT migrated
 
-**Task and Notes in Rackspace Webmail**
-**Auto-Saved and Group Contacts in Rackspace Webmail**
-**Flags in Flagged Messages**
-**Passwords**
-**Forwarding**
-**Safelists/Blacklists**
-**Custom Signatures**
-**Rules & Alerts**
-**Sharepoint Permissions and Sharepoint User Settings**
-**Outlook settings (Categories, Junk Folder Settings, Delegate permissions, Folder permissions, Archive Settings, and Autocomplete settings/NK2)**
+- **Task and Notes in Rackspace Webmail**
+- **Auto-Saved and Group Contacts in Rackspace Webmail**
+- **Flags in Flagged Messages**
+- **Passwords**
+- **Forwarding**
+- **Safelists/Blacklists**
+- **Custom Signatures**
+- **Rules & Alerts**
+- **Sharepoint Permissions and Sharepoint User Settings**
+- **Outlook settings (Categories, Junk Folder Settings, Delegate permissions, Folder permissions, Archive Settings, and Autocomplete settings/NK2)**
 
 
 ### Ready to move from Rackspace Email to Microsoft Exchange
