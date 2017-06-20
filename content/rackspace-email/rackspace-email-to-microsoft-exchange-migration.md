@@ -17,7 +17,7 @@ Import contacts from your previous mail provider or export contacts from apps.ra
 
 - **Applies to:** Administrator
 - **Difficulty:** Challenging
-- **Time needed:** Minimum of 5 business days
+- **Time needed:** Minimum of 5 business days to schedule
 - **Tools required:** Listed as Administrator
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
@@ -151,4 +151,4 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 
 3. Reply to the ticket with all of the needed information or with questions you have about the migration plan.
 
-4. Our Internal Migrations team will reply to you within 5 business days to confirm your scheduled migration time or suggest and alternative date.
+4. Our Internal Migrations team will reply to you within 5 business days to confirm your scheduled migration time.
