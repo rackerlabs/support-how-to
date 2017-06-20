@@ -59,6 +59,18 @@ Microsoft Exchange:
 |**Available in webmail**|  X | X | X | X | X | X |
 
 
+|Rackspace Email PLUS|
+|---|
+
+|   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
+|---|---|---|---|---|---|---|
+|**Syncs to Outlook**| X |  |  |  | | |
+|**Syncs to Mobile Device**| X | X | X | X | X | X |
+|**Available in webmail**|  X | X | X | X | X | X |
+
+Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [link]
+for details on upgrading from Rackspace Email to Rackspace Email PLUS.
+
 |Microsoft Exchange|
 |---|
 
@@ -131,12 +143,12 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 2. You will receive your migration plan via support ticket. You must read this plan carefully and respond to the ticket with the following:
 
     - Confirm you have read and fully understand the migration plan.
-    - List a date and time you would like to schedule the migration.
+    - List a date and time you would like to schedule the migration. Times requested within 5 business days of an initial request will not be scheduled and an alternative date will be suggested.
 
     Warning: Users will not have access to email once the migration has started.
 
     - List all email addresses that you would like to migrate
 
-3. Reply to the ticket with all of the needed information or with and questions you have about the migration plan.
+3. Reply to the ticket with all of the needed information or with questions you have about the migration plan.
 
-4.
+4. Our Internal Migrations team will reply to you within 5 business days to confirm your scheduled migration time or suggest and alternative date.
