@@ -65,7 +65,7 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 |   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
 |---|---|---|---|---|---|---|
 |**Syncs to Outlook**| X |  |  |  | | |
-|**Syncs to Mobile Device**| X | X | X | X | X |  |
+|**Syncs to Mobile Device**| X | X | X |  |  |  |
 |**Available in webmail**|  X | X | X | X | X | X |
 
 Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/)
@@ -134,6 +134,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 - **Outlook settings (Categories, Junk Folder Settings, Delegate permissions, Folder permissions, Archive Settings, and Autocomplete settings/NK2)**
 
 
+
 ### Ready to migrate from Rackspace Email to Microsoft Exchange
 
 Once you have prepared all of your users to migrate from Rackspace Email to Microsoft Exchange you will want to schedule your migration.
@@ -152,3 +153,23 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 3. Reply to the ticket with all of the needed information or with questions you have about the migration plan.
 
 4. Our Internal Migrations team will reply to you within 5 business days to confirm your scheduled migration time.
+
+
+### What to expect during migration
+
+1. You will receive a ticket update notifying you that the migration has started.
+
+    Warning: If you do not receive this notification on the day your migration is scheduled, check your migration ticket to verify that you confirmed your migration date with the migrations team.
+
+2. Once the migration has started users will not be able to access their mailbox.
+
+Note: Mail will still deliver to your mailboxes and will be available after the migration completes.
+
+3. Migrations are not instant and require many hours to complete. However, we will notify you if anything occurs that will prolong the migration.
+
+    - Factors that affect the duration of your migration:
+        - Number of mailbox items. Each item is processed individually so the more items in a mailbox, the more processes to complete.
+        - Mailbox size.
+        - Number of users being migrated.
+
+4.
