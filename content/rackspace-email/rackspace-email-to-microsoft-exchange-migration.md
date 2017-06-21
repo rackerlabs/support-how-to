@@ -68,7 +68,7 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 |**Syncs to Mobile Device**| X | X | X | X | X |  |
 |**Available in webmail**|  X | X | X | X | X | X |
 
-Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [link]
+Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/)
 for details on upgrading from Rackspace Email to Rackspace Email PLUS.
 
 |Microsoft Exchange|
