@@ -163,7 +163,7 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 
 2. Once the migration has started users will not be able to access their mailbox.
 
-Note: Mail will still deliver to your mailboxes and will be available after the migration completes.
+    Note: Mail will still deliver to your mailboxes and will be available after the migration completes.
 
 3. Migrations are not instant and require many hours to complete. However, we will notify you if anything occurs that will prolong the migration.
 
@@ -172,4 +172,6 @@ Note: Mail will still deliver to your mailboxes and will be available after the 
         - Mailbox size.
         - Number of users being migrated.
 
-4.
+    Note: There is no way to speed up a migration in progress.
+
+4. When the migration is complete you will receive a ticket update informing you of it's completion.
