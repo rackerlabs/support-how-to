@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-Get quick questions to common questions about Sitecore Managed Cloud.
+Get quick answers to common questions about Sitecore Managed Cloud.
 
 #### Which regions is Sitecore available in?
 
