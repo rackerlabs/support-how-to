@@ -15,16 +15,15 @@ Get quick answers to common questions about Sitecore Managed Cloud.
 
 #### Which regions is Sitecore available in?
 
-Sitecore on Azure PaaS services is available in the following Azure regions their corresponding ObjectRocket regions for Sitecore XP customers who require the Experience Database.
+Sitecore on Azure PaaS services is available in the following Azure regions and their corresponding ObjectRocket regions for Sitecore XP customers who require the Experience Database.
 
-- Azure East US & Object Rocket Northern Virginia (IAD)
-- Azure North Central US & Object Rocket Chicago (ORD)
-- Azure South Central US & Object Rocket Dallas (DFW)
-- Azure West US & Object Rocket San Jose (SJC)
-- Azure North Eurpoe & Object Rocket London (LON)
-- Azure East Asia & Object Rocket Hong Kong (HKG)
-- Azure Australia East & Object Rocket Sydney (SYD)
-
+- Azure East US and Object Rocket Northern Virginia (IAD)
+- Azure North Central US and Object Rocket Chicago (ORD)
+- Azure South Central US and Object Rocket Dallas (DFW)
+- Azure West US and Object Rocket San Jose (SJC)
+- Azure North Eurpoe and Object Rocket London (LON)
+- Azure East Asia and Object Rocket Hong Kong (HKG)
+- Azure Australia East and Object Rocket Sydney (SYD)
 
 #### How do I log in into my Sitecore content management site?
 
