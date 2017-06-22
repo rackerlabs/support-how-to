@@ -82,7 +82,7 @@ for details on upgrading from Rackspace Email to Rackspace Email PLUS.
 
 |   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
 |---|---|---|---|---|---|---|
-|**Syncs to Outlook**| [X] | X | X | X | X | X |
+|**Syncs to Outlook**| *\[X] | X | X | X | X | X |
 |**Syncs to Mobile Device**| X | X | X | X | X | X |
 |**Available in Outlook Web Access**|  X | X | X | X | X | X |
 
