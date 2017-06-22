@@ -17,7 +17,7 @@ Plan your migration from Rackspace Email to Microsoft Exchange.
 - **Applies to:** Administrator
 - **Difficulty:** Challenging
 - **Time needed:** Minimum of 5 business days to schedule
-- **Tools required:** Listed as Administrator
+- **Tools required:** Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
@@ -86,7 +86,7 @@ for details on upgrading from Rackspace Email to Rackspace Email PLUS.
 |**Syncs to Mobile Device**| X | X | X | X | X | X |
 |**Available in Outlook Web Access**|  X | X | X | X | X | X |
 
-Customers who need to ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
+Customers who need the ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
 If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider as this will not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/how-to/rackspace-email-storage-maintenance-and-best-practices/).
 
 
@@ -106,8 +106,8 @@ If you are considering the migration because your Rackspace Email mailbox is at 
     - The mail stored in apps.rackspace.com is all that will be migrated. If a user notices mail is missing in apps.rackspace.com, they might be storing mail locally.
     Theses users will need to import the locally stored email into their Rackspace Email IMAP account before migrating.
     - Are any users utilizing a POP connection to their mailbox?
-    - In either case the instructions [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/) for Windows user or
-    [Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/) for Mac, users will walk them through syncing their [locally](/how-to/cloud-office-support-terminology/). stored mail to apps.rackspace.com.
+    - In either case the instructions [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/) for Windows users or
+    [Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/) for Mac users will walk them through syncing their [locally](/how-to/cloud-office-support-terminology/). stored mail to apps.rackspace.com.
 
 4. Remove special characters from folder names.
 
