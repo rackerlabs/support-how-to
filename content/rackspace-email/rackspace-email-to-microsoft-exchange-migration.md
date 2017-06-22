@@ -25,7 +25,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 ### Rackspace Email to Microsoft Exchange migration
 
 Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
-To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the two. We also now offer Rackspace Email PLUS which does not require users to migrate.
+To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the available solutions. We now offer Rackspace Email PLUS which does not require users to migrate.
 
 **Rackspace Email:**
 - Syncs mail folders with local mail clients such as Outlook
@@ -36,6 +36,12 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 - Create tasks(webmail only)
 - Maximum of 25 GBs of email storage
 
+**Rackspace Email Plus**
+- All Rackspace Email features
+- 30 GB of Cloud Drive storage
+- Desktop File Synchronization
+- Online Document & Spreadsheet Editors
+- Mobile Sync for Email, Calendars, and Contacts
 
 **Microsoft Exchange:**
 - Syncs mail folders with local mail clients such as Outlook
@@ -112,7 +118,8 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
 
 5.  Mac users
-    -  Mac users will want to ensure their IMAP folders are mapped correctly through their Mac/Apple Mail Client before scheduling this migration. If not correctly mapped we have seen duplicated folders created under their Exchange account.
+    -  Mac users require special preparation when migrating from Rackspace Email to Microsoft Exchange. This is because Apple Mail interacts with IMAP and POP connections
+    in such a way that does not translate properly to Microsoft Exchange.[Prepare your Mac users for Microsoft Exchange](/how-to/prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration/)
 
 ### Items migrated
 
@@ -168,7 +175,7 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 3. Migrations are not instant and require many hours to complete. However, we will notify you if anything occurs that will prolong the migration.
 
     - Factors that affect the duration of your migration:
-        - Number of mailbox items. Each item is processed individually so the more items in a mailbox, the more processes to complete.
+        - Number of mailbox items. Each item is processed individually so the more items in a mailbox, the more individual processes to complete.
         - Mailbox size.
         - Number of users being migrated.
 
@@ -179,7 +186,7 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 
 ### Finishing the move from Rackspace Email to Microsoft Exchange
 
-Once you are notified that the migration has been completed there are final steps you must complete to ensure all of your users will be able to access their new Microsoft Exchange mailboxes. 
+Once you are notified that the migration has been completed there are final steps you must complete to ensure all of your users will be able to access their new Microsoft Exchange mailboxes.
 
 1. You must update all of their passwords through the Cloud Office Control Panel, as the passwords were changed in the migration. See [link](how to on resetting exchange password). Once you have updated all of your user's passwords, have them test logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) where they can access their new mailbox and verify that their email was all migrated.
 
@@ -187,6 +194,6 @@ Once you are notified that the migration has been completed there are final step
 
 3. Users will need to configure their [mail client] on all devices to connect to their new mailbox. This includes desktop and mobile devices. Users can obtain instructions to configure their mail clients at [emailhelp.rackspace.com]
 
-Warning: If users do not configure their mail client to connect to the new mailbox they will not receive new mail in their mail client.
+     Warning: If users do not configure their mail client to connect to the new mailbox they will not receive new mail in their mail client.
 
 4. When you have confirmed that all of your data has been successfully migrated, you can request via ticket to have the remaining Rackspace Email licenses removed from your account.
