@@ -175,3 +175,18 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
     Note: There is no way to speed up a migration in progress.
 
 4. When the migration is complete you will receive a ticket update informing you of it's completion.
+
+
+### Finishing the move from Rackspace Email to Microsoft Exchange
+
+Once you are notified that the migration has been completed there are final steps you must complete to ensure all of your users will be able to access their new Microsoft Exchange mailboxes. 
+
+1. You must update all of their passwords through the Cloud Office Control Panel, as the passwords were changed in the migration. See [link](how to on resetting exchange password). Once you have updated all of your user's passwords, have them test logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) where they can access their new mailbox and verify that their email was all migrated.
+
+2. Users can reset their own passwords to whatever they choose using these instructions[link to pw reset]
+
+3. Users will need to configure their [mail client] on all devices to connect to their new mailbox. This includes desktop and mobile devices. Users can obtain instructions to configure their mail clients at [emailhelp.rackspace.com]
+
+Warning: If users do not configure their mail client to connect to the new mailbox they will not receive new mail in their mail client.
+
+4. When you have confirmed that all of your data has been successfully migrated, you can request via ticket to have the remaining Rackspace Email licenses removed from your account.
