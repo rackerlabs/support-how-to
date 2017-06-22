@@ -114,7 +114,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
     - Folders names with special characters—such as commas ( , ), periods ( . ), slashes ( / ), and ampersands ( & )—cause issues during migration.
     - Before you begin migrating, revise folder names with special characters to use only alphanumeric characters.
 
-    Example folder name: **1.Inbox**.  The (.) will cause the migration to break.
+    Example folder name: "**1.Inbox**"  The (.) will cause the migration to break.
 
 
 5.  Mac users
