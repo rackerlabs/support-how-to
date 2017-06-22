@@ -60,9 +60,9 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 
 |   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
 |---|---|---|---|---|---|---|
-|**Syncs to Outlook**| X |  |  |  | | |
-|**Syncs to Mobile Device**| X |  |  |  |  | |
-|**Available in webmail**|  X | X | X | X | X | X |
+|**Syncs to Outlook**| &#10003; |  |  |  | | |
+|**Syncs to Mobile Device**| &#10003; |  |  |  |  | |
+|**Available in webmail**|  &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
 
 |Rackspace Email PLUS|
@@ -70,9 +70,9 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 
 |   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
 |---|---|---|---|---|---|---|
-|**Syncs to Outlook**| X |  |  |  | | |
-|**Syncs to Mobile Device**| X | X | X |  |  |  |
-|**Available in webmail**|  X | X | X | X | X | X |
+|**Syncs to Outlook**| &#10003; |  |  |  | | |
+|**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; |  |  |  |
+|**Available in webmail**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
 Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/)
 for details on upgrading from Rackspace Email to Rackspace Email PLUS.
@@ -82,9 +82,9 @@ for details on upgrading from Rackspace Email to Rackspace Email PLUS.
 
 |   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
 |---|---|---|---|---|---|---|
-|**Syncs to Outlook**| *\[X] | X | X | X | X | X |
-|**Syncs to Mobile Device**| X | X | X | X | X | X |
-|**Available in Outlook Web Access**|  X | X | X | X | X | X |
+|**Syncs to Outlook**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+|**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+|**Available in Outlook Web Access**|  &#10003; | &#10003; | &#10003; | &#10003; |&#10003; | &#10003; |
 
 Customers who need the ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
 If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider as this will not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/how-to/rackspace-email-storage-maintenance-and-best-practices/).
