@@ -43,6 +43,8 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 - Online Document & Spreadsheet Editors
 - Mobile Sync for Email, Calendars, and Contacts
 
+Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/) for details on upgrading from Rackspace Email to Rackspace Email PLUS.
+
 **Microsoft Exchange:**
 - Syncs mail folders with local mail clients such as Outlook
 - Share calendar(Outlook and online)
@@ -55,35 +57,30 @@ To determine if migrating your users to Microsoft Exchange is necessary for your
 - Maximum 100GBs of email storage
 
 
-|Rackspace Email|
-|---|
-
-|   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
-|---|---|---|---|---|---|---|
+|Rackspace Email| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
+|---|---|---|---|---|
+|  | 25 GB| | | |
+|*Basic Features*  | **Mail** | **Calendar** | **Contacts** | **Notes** | **Tasks** | **Calendar Sharing** |
 |**Syncs to Outlook**| &#10003; |  |  |  | | |
 |**Syncs to Mobile Device**| &#10003; |  |  |  |  | |
 |**Available in webmail**|  &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
 
-|Rackspace Email PLUS|
-|---|
-
-|   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
-|---|---|---|---|---|---|---|
+|Rackspace Email Plus| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
+|---|---|---|---|---|
+|  | 25 GB |&#10003;|&#10003;|&#10003;|
+| *Basic Features*  | **Mail** | **Calendar** | **Contacts** | **Notes** | **Tasks** | **Calendar Sharing** |
 |**Syncs to Outlook**| &#10003; |  |  |  | | |
 |**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; |  |  |  |
 |**Available in webmail**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
-Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/)
-for details on upgrading from Rackspace Email to Rackspace Email PLUS.
 
-|Microsoft Exchange|
-|---|
-
-|   | Mail | Calendar | Contacts | Notes | Tasks | Calendar Sharing |
-|---|---|---|---|---|---|---|
+|Microsoft Exchange| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
+|---|---|---|---|---|
+|  |100 GB| | | |
+| *Basic Features*  | **Mail** | **Calendar** | **Contacts** | **Notes** | **Tasks** | **Calendar Sharing** |
 |**Syncs to Outlook**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
-|**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+|**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |  |
 |**Available in Outlook Web Access**|  &#10003; | &#10003; | &#10003; | &#10003; |&#10003; | &#10003; |
 
 Customers who need the ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
