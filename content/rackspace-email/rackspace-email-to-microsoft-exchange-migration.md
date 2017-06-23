@@ -27,34 +27,8 @@ For more information about prerequisite terminology, see [Cloud Office support t
 Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
 To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the available solutions. We now offer Rackspace Email PLUS which does not require users to migrate.
 
-**Rackspace Email:**
-- Syncs mail folders with local mail clients such as Outlook
-- Share calendar (webmail only)
-- Grant calendar editing permissions to other Rackspace Email users(webmail only)
-- Create contacts(webmail only)
-- Create notes(webmail only)
-- Create tasks(webmail only)
-- Maximum of 25 GBs of email storage
+Note: Upgrading to Rackspace Email Plus DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/) for details on upgrading from Rackspace Email to Rackspace Email Plus.
 
-**Rackspace Email Plus**
-- All Rackspace Email features
-- 30 GB of Cloud Drive storage
-- Desktop File Synchronization
-- Online Document & Spreadsheet Editors
-- Mobile Sync for Email, Calendars, and Contacts
-
-Note: Upgrading to Rackspace Email PLUS DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/) for details on upgrading from Rackspace Email to Rackspace Email PLUS.
-
-**Microsoft Exchange:**
-- Syncs mail folders with local mail clients such as Outlook
-- Share calendar(Outlook and online)
-- Grant calendar editing permissions to other Microsoft Exchange users(Mail client and online)
-- Sync calendars(Mail client, mobile device, and online)
-- Sync contacts(Mail client, mobile device, and online)
-- Sync notes(Mail client, mobile device, and online)
-- Sync tasks(Mail client, mobile device, and online)
-- Public Folders
-- Maximum 100GBs of email storage
 
 
 |Rackspace Email| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
