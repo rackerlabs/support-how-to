@@ -5,8 +5,8 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2017-06-06'
-last_modified_by: Nate Archer
+last_modified_date: '2017-06-23'
+last_modified_by: Catherine Richardson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -84,11 +84,13 @@ If you get a message that the command can't be found, you must install the agent
 
 10. Run the agent with the `--configure` option to configure it, and supply other options as needed. You are asked for your Rackspace Cloud account username and password.
 
-        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
+        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost <apiDrivesrvr>
 
       - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
       - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
+
+      - For `apihost` for API servers in the US, use `api.drivesrvr.com` for the value of `<apiDrivesrvr>`. For `apihost` for API servers in the UK, use `api.drivesrvr.co.uk` for the value of `<apiDrivesrvr>`.
 
       - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
@@ -120,11 +122,13 @@ If you get a message that the command can't be found, you must install the agent
 
 3.  Run the agent with the `--configure` option to configure it, and supply other options as needed. You are asked for your Rackspace Cloud account username and password.
 
-        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost api.drivesrvr.com
+        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost <apiDrivesrvr>
 
     - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
     - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
+
+    - For `apihost` for API servers in the US, use `api.drivesrvr.com` for the value of `<apiDrivesrvr>`. For `apihost` for API servers in the UK, use `api.drivesrvr.co.uk` for the value of `<apiDrivesrvr>`.
 
     - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend by setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
@@ -162,11 +166,13 @@ For Arch, Gentoo, and SUSE Linux systems, you must first download the tarball. T
 
 6.  Run the agent with the `--configure` option to configure it, and supply others options as needed. You are asked for your Rackspace Cloud account username and password.
 
-          sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <datacenter> --apihost api.drivesrvr.com
+          sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <datacenter> --apihost <apiDrivesrvr>
 
     - Use your Rackspace Cloud account username and API key for `<username>` and `<apiKey>`. For information about how to find your API key, see [View and reset your API key.](/how-to/view-and-reset-your-api-key).
 
     - The value for `<flavor>` is `raxcloudserver`, `privatecloud`, or `dedicated`.
+
+    - For `apihost` for API servers in the US, use `api.drivesrvr.com` for the value of `<apiDrivesrvr>`. For `apihost` for API servers in the UK, use `api.drivesrvr.co.uk` for the value of `<apiDrivesrvr>`.
 
     - For installation on an OnMetal server, you *must* specify the region and host name for the data center in order to connect. For an OnMetal server, we recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
