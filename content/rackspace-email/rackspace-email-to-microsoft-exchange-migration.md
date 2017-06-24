@@ -5,7 +5,7 @@ title: Rackspace Email to Microsoft Exchange migration
 type: article
 created_date: '2017-06-19'
 created_by: William Loy
-last_modified_date: '2017-06-19'
+last_modified_date: '2017-06-23'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -16,7 +16,7 @@ Plan your migration from Rackspace Email to Microsoft Exchange.
 
 - **Applies to:** Administrator
 - **Difficulty:** Challenging
-- **Time needed:** Minimum of 5 business days to schedule
+- **Time needed:** Minimum of 5 business days to schedule migration
 - **Tools required:** Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
@@ -31,31 +31,18 @@ Note: Upgrading to Rackspace Email Plus DOES NOT require a migration. See [Upgra
 
 
 
-|Rackspace Email| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
-|---|---|---|---|---|
-|  | 25 GB| | | |
-|*Basic Features*  | **Mail** | **Calendar** | **Contacts** | **Notes** | **Tasks** | **Calendar Sharing** |
-|**Syncs to Outlook**| &#10003; |  |  |  | | |
-|**Syncs to Mobile Device**| &#10003; |  |  |  |  | |
-|**Available in webmail**|  &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
-
-
-|Rackspace Email Plus| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
-|---|---|---|---|---|
-|  | 25 GB |&#10003;|&#10003;|&#10003;|
-| *Basic Features*  | **Mail** | **Calendar** | **Contacts** | **Notes** | **Tasks** | **Calendar Sharing** |
-|**Syncs to Outlook**| &#10003; |  |  |  | | |
-|**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; |  |  |  |
-|**Available in webmail**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
-
-
-|Microsoft Exchange| Max mailbox storage|30 GB of Cloud Drive storage| Desktop File Synchronization| Online Document & Spreadsheet Editors|
-|---|---|---|---|---|
-|  |100 GB| | | |
-| *Basic Features*  | **Mail** | **Calendar** | **Contacts** | **Notes** | **Tasks** | **Calendar Sharing** |
-|**Syncs to Outlook**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
-|**Syncs to Mobile Device**| &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |  |
-|**Available in Outlook Web Access**|  &#10003; | &#10003; | &#10003; | &#10003; |&#10003; | &#10003; |
+|Feature | Rackspace Email | Rackspace Email Plus | Microsoft Exchange
+|---|---|---|---|
+|**Syncs to Mail Client** | &#10003; Mail |&#10003; Mail|<br/></br>&#10003; Mail<br/></br> &#10003; Contacts<br/></br>&#10003;Calendar<br/></br> &#10003;Notes <br/></br> &#10003;Tasks|
+|**Syncs to Mobile Device** | &#10003; Mail | <br/></br>&#10003; Mail<br/></br> &#10003; Contacts<br/></br> &#10003; Calendar<br/></br>|<br/></br>&#10003; Mail<br/></br> &#10003; Contacts<br/></br> &#10003; Calendar<br/></br>&#10003;Notes <br/></br> &#10003;Tasks
+|**Online Contacts** | &#10003; | &#10003; |&#10003; |
+|**Online Calendar** | &#10003; | &#10003; |&#10003; |
+|**Online Notes** | &#10003; | &#10003; |&#10003; |
+|**Online Tasks** | &#10003; | &#10003; |&#10003;
+|**30GB Cloud Drive storage**|  | &#10003;| |
+|**Desktop File Synchronization**| | &#10003;| |
+|**Online Document & Spreadsheet Editors**| | &#10003;| |
+| **Max mailbox storage**| 25GB | 25GB | 100GB|
 
 Customers who need the ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
 If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider as this will not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/how-to/rackspace-email-storage-maintenance-and-best-practices/).
@@ -73,7 +60,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
     - Setting up autodiscover sets you and your users up for success post-migration.
 
 
-3. Instruct all of your users to verify that they can find all of their email in apps.rackspace.com.
+3. Instruct all of your users to verify that they can find all of their email in [apps.rackspace.com](https://apps.rackspace.com/index.php).
     - The mail stored in apps.rackspace.com is all that will be migrated. If a user notices mail is missing in apps.rackspace.com, they might be storing mail locally.
     Theses users will need to import the locally stored email into their Rackspace Email IMAP account before migrating.
     - Are any users utilizing a POP connection to their mailbox?
@@ -85,7 +72,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
     - Folders names with special characters—such as commas ( , ), periods ( . ), slashes ( / ), and ampersands ( & )—cause issues during migration.
     - Before you begin migrating, revise folder names with special characters to use only alphanumeric characters.
 
-    Example folder name: "**1.Inbox**"  The (.) will cause the migration to break.
+    Example folder name: "**1.Inbox**"  The (.) will cause the migration problems.
 
 
 5.  Mac users
@@ -95,7 +82,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 ### Items migrated
 
 - Mail stored in webmail. You can verify what email is stored in webmail by logging in at apps.rackspace.com
-- Calendar and Contact data stored in Rackspace Webmail is **not guaranteed to migrate but will be attempted**. We recommend backing up your contact data to a .csv file through the Rackspace Webmail.
+- Calendar and Contact data stored in Rackspace Webmail is **not guaranteed to migrate but will be attempted**. We recommend backing up your contact data to a .csv file. See [Import or export contacts in Rackspace Email](/how-to/import-or-export-contacts-in-rackspace-email/) for instructions on exporting contacts from Rackspace Email.
 - Users will remain members of any aliases or lists they are a part of.
 
 ### Items NOT migrated
@@ -150,8 +137,6 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
         - Mailbox size.
         - Number of users being migrated.
 
-    Note: There is no way to speed up a migration in progress.
-
 4. When the migration is complete you will receive a ticket update informing you of it's completion.
 
 
@@ -159,11 +144,11 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 
 Once you are notified that the migration has been completed there are final steps you must complete to ensure all of your users will be able to access their new Microsoft Exchange mailboxes.
 
-1. You must update all of their passwords through the Cloud Office Control Panel, as the passwords were changed in the migration. See [link](how to on resetting exchange password). Once you have updated all of your user's passwords, have them test logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) where they can access their new mailbox and verify that their email was all migrated.
+1. You must update all of their passwords through the Cloud Office Control Panel, as the passwords were changed in the migration. See [Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password/#reset-a-mailbox-password-through-the-cloud-office-control-panel). Once you have updated all of your user's passwords, have them test logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) where they can access their new mailbox and verify that their email was all migrated.
 
-2. Users can reset their own passwords to whatever they choose using these instructions[link to pw reset]
+2. Users can reset their own passwords to whatever they choose using these instructions[Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password/#reset-your-mailbox-password-from-the-user-control-panel)
 
-3. Users will need to configure their [mail client] on all devices to connect to their new mailbox. This includes desktop and mobile devices. Users can obtain instructions to configure their mail clients at [emailhelp.rackspace.com]
+3. Users will need to configure their [mail client](/how-to/cloud-office-support-terminology/) on all devices to connect to their new mailbox. This includes desktop and mobile devices. Users can obtain instructions to configure their mail clients at [emailhelp.rackspace.com](https://emailhelp.rackspace.com/)
 
      Warning: If users do not configure their mail client to connect to the new mailbox they will not receive new mail in their mail client.
 
