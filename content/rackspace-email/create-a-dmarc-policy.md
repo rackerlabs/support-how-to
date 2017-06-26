@@ -24,11 +24,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Create a DMARC Policy
 
-DMARC (Domain-based Message Authentication, Reporting & Conformance) is a standard for email in conjunction with SPF and DKIM to help combat spoofing - this is when a spammer uses your domain in the "from" field of an email to impersonate one of your users.
+DMARC (Domain-based Message Authentication, Reporting & Conformance) is used in conjunction with SPF and DKIM to help combat email spoofing. Spoofing is when a scammer uses your domain in the "from" field of an email to impersonate one of your users.
 
 DMARC uses a policy that is given to you by your email provider, and this policy tells the receiving email host how to treat emails sent from your domain based on the criteria you set. This mechanism also gives visibility into reports on what your domain is sending, and how receiving hosts are treating that mail. For detailed information about DMARC, see Domain-based Message Authentication, Reporting & Conformance.
 
-Note: DMARC enforces SPF and DKIM. will not be valuable unless you already have SPF and DKIM setup, because this policy enforces each of those records. If you aren't familiar with them, learn more about [SPF] and [DKIM].
+Note: DMARC enforces SPF and DKIM. DMARC will not be valuable unless you already have SPF and DKIM setup. If you aren't familiar with them, learn more about [SPF] and [DKIM].
 
 Considerations for DMARC
 
