@@ -24,9 +24,8 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Rackspace Email to Microsoft Exchange migration
 
-Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
-To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the available solutions. We now offer Rackspace Email PLUS which does not require users to migrate.
 
+To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the available solutions. We now offer Rackspace Email Plus which does not require users to migrate.
 
 
 |Feature | Rackspace Email | Rackspace Email Plus | Microsoft Exchange
@@ -67,11 +66,10 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
 4. Remove special characters from folder names.
 
-    - Folders names with special characters—such as commas ( , ), periods ( . ), slashes ( / ), and ampersands ( & )—cause issues during migration.
+    - Folders names with special characters—such as commas ( , ), periods ( . ), slashes ( / ), and ampersands ( & )—cause migration issues.
     - Before you begin migrating, revise folder names with special characters to use only alphanumeric characters.
 
-    Example folder name: "**1.Inbox**"  The (.) will cause the migration problems.
-
+    Example folder name: "**1.Inbox**"  The (.) will cause migration problems.
 
 5.  Mac users
     -  Mac users require special preparation when migrating from Rackspace Email to Microsoft Exchange. This is because Apple Mail interacts with IMAP and POP connections
@@ -79,7 +77,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
 ### Items migrated
 
-- Mail stored in webmail. You can verify what email is stored in webmail by logging in at apps.rackspace.com
+- Mail stored in webmail. You can verify what email is stored in webmail by logging in at [apps.rackspace.com](https://apps.rackspace.com/index.php)
 - Calendar and Contact data stored in Rackspace Webmail is **not guaranteed to migrate but will be attempted**. We recommend backing up your contact data to a .csv file. See [Import or export contacts in Rackspace Email](/how-to/import-or-export-contacts-in-rackspace-email/) for instructions on exporting contacts from Rackspace Email.
 - Users will remain members of any aliases or lists they are a part of.
 
@@ -140,7 +138,7 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 
 ### Finishing the move from Rackspace Email to Microsoft Exchange
 
-Once you are notified that the migration has been completed there are final steps you must complete to ensure all of your users will be able to access their new Microsoft Exchange mailboxes.
+Once you are notified that the migration has been completed there are final steps you must perform to ensure all of your users will be able to access their new Microsoft Exchange mailboxes.
 
 1. You must update all of their passwords through the Cloud Office Control Panel, as the passwords were changed in the migration. See [Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password/#reset-a-mailbox-password-through-the-cloud-office-control-panel). Once you have updated all of your user's passwords, have them test logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) where they can access their new mailbox and verify that their email was all migrated.
 
