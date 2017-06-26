@@ -27,8 +27,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 Microsoft Exchange includes many robust product features that Rackspace Email does not. However, we understand that not every customer needs these features.
 To determine if migrating your users to Microsoft Exchange is necessary for your business, lets compare the available solutions. We now offer Rackspace Email PLUS which does not require users to migrate.
 
-Note: Upgrading to Rackspace Email Plus DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/) for details on upgrading from Rackspace Email to Rackspace Email Plus.
-
 
 
 |Feature | Rackspace Email | Rackspace Email Plus | Microsoft Exchange
@@ -44,15 +42,15 @@ Note: Upgrading to Rackspace Email Plus DOES NOT require a migration. See [Upgra
 |**Online Document & Spreadsheet Editors**| | &#10003;| |
 | **Max mailbox storage**| 25GB | 25GB | 100GB|
 
-Customers who need the ability to sync calendars, contacts, notes, and tasks from a mail client such as Outlook are good candidates for the migration from Rackspace Email to Microsoft Exchange.
+
+Note: Upgrading to Rackspace Email Plus DOES NOT require a migration. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/) for details on upgrading from Rackspace Email to Rackspace Email Plus.
+
 If you are considering the migration because your Rackspace Email mailbox is at maximum capacity you may want to reconsider as this will not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/how-to/rackspace-email-storage-maintenance-and-best-practices/).
 
 
 ### Planning your migration
 
-
 1. Consider the number of users that will be making the move. All of them will have to go through migration preparation before the move.
-
 2. Set up Autodiscover for your domain. See [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email/) for the necessary autodiscover record.
 
     - Autodiscover allows users to set up email in Outlook using only their email address and password.
@@ -109,11 +107,11 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 2. You will receive your migration plan via support ticket. You must read this plan carefully and respond to the ticket with the following:
 
     - Confirm you have read and fully understand the migration plan.
-    - List a date and time you would like to schedule the migration. Times requested within 5 business days of an initial request will not be scheduled and an alternative date will be suggested.
+    - List a date and time you would like to schedule the migration.
 
     Warning: Users will not have access to email once the migration has started.
 
-    - List all email addresses that you would like to migrate
+    - List all email addresses that you would like to migrate.
 
 3. Reply to the ticket with all of the needed information or with questions you have about the migration plan.
 
@@ -130,7 +128,7 @@ Once you have prepared all of your users to migrate from Rackspace Email to Micr
 
     Note: Mail will still deliver to your mailboxes and will be available after the migration completes.
 
-3. Migrations are not instant and require many hours to complete. However, we will notify you if anything occurs that will prolong the migration.
+3. Migrations take time to complete. However, we will notify you if anything occurs that will prolong the migration.
 
     - Factors that affect the duration of your migration:
         - Number of mailbox items. Each item is processed individually so the more items in a mailbox, the more individual processes to complete.
