@@ -23,6 +23,8 @@ MigrationWiz, which you can run at any time at no additional cost.
 - **Difficulty:** Moderate
 - **Tools required:** Cloud Office Control Panel access
 
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+
 **Note**: Some of the features that are present in the full version of
 MigrationWiz (at migrationwiz.com) are not readily available within the
 Self-Service Migration Tool. If you want to use the full version, see
