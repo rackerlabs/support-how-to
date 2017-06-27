@@ -42,6 +42,7 @@ Use the following resources to help you create your mailboxes:
 - Rackspace Email: [How to add Rackspace Email mailboxes](/how-to/add-rackspace-email-mailboxes)
 - Microsoft Exchange: [How to add Microsoft Exchange mailboxes](/how-to/adding-microsoft-exchange-mailboxes-0)
 - Rackspace Office 365:
+  - [Add Office 365 subscriptions](/how-to/add-an-office-365-subscription/)
   - [Add users](https://support.office.com/en-US/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)
   - [Create shared mailboxes](https://support.office.com/en-us/article/Create-shared-mailboxes-in-Office-365-871a246d-3acd-4bba-948e-5de8be0544c9)
 
