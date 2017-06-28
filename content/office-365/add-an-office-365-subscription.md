@@ -30,13 +30,22 @@ For more information about prerequisite terminology, see [Cloud Office support t
     <!--add screen shot file AddO365subscriptionSC1.png-->
 
 3. If the following screen reads *FIRST TIME SETUP* above **Microsoft Office 365**, follow these instructions to [create your Office 365 tenant](/how-to/office-365/#create-your-tenant-id/)
-4. If you have an existing tenant, click **Add Product** to add a new product subscription. [Compare subscriptions here.](https://www.rackspace.com/office-365/pick-your-plan)
+4. If you have an existing tenant, click **Add Product** to add a new product subscription. [Compare subscriptions here.](https://www.rackspace.com/office-365/pick-your-plan).
 
-
+    <!--add screen shot file AddO365subscriptionSC2.png-->
 
 5. Click the gear icon to the left of an existing product subscription and select **Change Quantity** to add additional licenses.
 
+    <!--add screen shot file AddO365subscriptionSC3.png-->
 
-6. Log into portal.office.com using you Office 365 administrator credentials.
+6. Log into [portal.office.com] using your Office 365 administrator credentials.
 
-7. Create the user that you would like to apply the license to.
+7. Under **Users** click **Add User** to create the user that you would like to apply the license to.
+
+    <!--add screen shot file AddO365subscriptionSC4.png-->
+
+8. Fill in the requested information to create the new user. Under **Product licenses** apply the new license you just added in the Cloud Office Control Panel.
+
+    <!--add screen shot file AddO365subscriptionSC5.png-->
+
+9. Scroll down and click **Add**.
