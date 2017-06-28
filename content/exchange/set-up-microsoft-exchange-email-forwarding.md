@@ -73,23 +73,23 @@ To forward to a mailbox with an external domain, use these steps to create an ex
 
        <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-3.png %}" />
 
-6. Click **Save** to create the contact.
-7. Click the **Mailboxes** tab.
+5. Click **Save** to create the contact.
+6. Click the **Mailboxes** tab.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-4.png %}" />
 
-8. In the mailbox list, select the name of the mailbox that you would like to forward.
-9. Click the **Mail Forwarding** tab. On the Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
+7. In the mailbox list, select the name of the mailbox that you would like to forward.
+8. Click the **Mail Forwarding** tab. On the Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
 
    **Note:** Forwarding to an Exchange address within another domain on this account will work only if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, create a contact for the domain you want to forward to.
 
-10. Select the **Save copies of forwarded email** option.
+9. Select the **Save copies of forwarded email** option.
 
        <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-6.png %}" />
 
     If **Save a copy of forwarded email** is not checked, this mailbox _not_ store any messages sent to it.
 
-11. Click **Save**. Allow at least 15 minutes for the forward to enable.
+10. Click **Save**. Allow at least 15 minutes for the forward to enable.
 
 ### Forward a Microsoft Exchange mailbox to multiple email addresses
 
@@ -107,7 +107,7 @@ Any address in your Distribution List that are not on the your domain need to be
 5. Fill out the required fields under **General**.
 
     - **Display Name:** Enter the name that is displayed in the Global Address List.
-    - **Email Address:** Enter the **Distribution List Address**. This is not a physical mailbox. This is used forward to the multiple email addresses inside the selected **Distribution List**.
+    - **Email Address:** Enter the **Distribution List Address**. This is not a physical mailbox. This is used forward to multiple email addresses inside the selected **Distribution List**.
     - **Members:** Enter the members that you want receive a copy of email sent to the Distribution List.
 
     <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-3.png %}" />
@@ -116,27 +116,29 @@ Any address in your Distribution List that are not on the your domain need to be
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-4.png %}" />
 
-7. Click **Create Distribution List**.  You will see the created list on the next screen. From this screen select the **Mailboxes** tab.
+7. Click **Create Distribution List**.  You will see the created list on the next screen.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-5.png %}" />
 
-8. In the mailbox list, click the mailbox name that you would like to forward.
+8. Click the **Mailboxes** tab.
+
+9. In the mailbox list, click the mailbox name that you would like to forward.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-6.png %}" />
 
-9. Click the **Mail Forwarding** tab. On the Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
+10. Click the **Mail Forwarding** tab. On the Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
 
     **Note:** Forwarding to an Exchange address within another domain on this account will work only if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, create a contact for the domain you want to forward to.
 
-10. Select the Distribution List address you created.
+11. Select the Distribution List address you created.
 
-11. Select the **Save copies of forwarded email** option.
+12. Select the **Save copies of forwarded email** option.
 
     <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-7.png %}" />
 
     If **Save a copy of forwarded email** is not checked, this mailbox _not_ store any messages sent to it.
 
-12. Click **Save**. Allow at least 15 minutes for the forward to enable.
+13. Click **Save**. Allow at least 15 minutes for the forward to enable.
 
 ### References
 
