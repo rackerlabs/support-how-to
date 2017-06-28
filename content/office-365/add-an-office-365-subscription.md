@@ -1,7 +1,7 @@
 ---
-permalink: add-an-office-365-subscription/
+permalink: add-an-office-365-license/
 audit_date:
-title: Add an Office 365 Subscription
+title: Add an Office 365 License
 type: article
 created_date: '2017-06-26'
 created_by: William Loy
@@ -10,7 +10,7 @@ last_modified_by: William Loy
 product: Office 365
 product_url: office-365
 ---
-Add Office 365 subscriptions at Rackspace Cloud Office.
+Add Office 365 licenses at Rackspace Cloud Office.
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ Add Office 365 subscriptions at Rackspace Cloud Office.
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 
-### Add an Office 365 Subscription
+### Add an Office 365 License
 
 1. Log into the Cloud Office Control Panel.
 2. Select **Manage Office 365** from the **Microsoft Office 365** section.
@@ -38,14 +38,16 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
     <!--add screen shot file AddO365subscriptionSC3.png-->
 
-6. Log into [portal.office.com] using your Office 365 administrator credentials.
+### Assign an Office 365 License
 
-7. Under **Users** click **Add User** to create the user that you would like to apply the license to.
+1. Log into [portal.office.com] using your Office 365 administrator credentials.
+
+2. Under **Users** click **Add User** to create the user that you would like to apply the license to.
 
     <!--add screen shot file AddO365subscriptionSC4.png-->
 
-8. Fill in the requested information to create the new user. Under **Product licenses** apply the new license you just added in the Cloud Office Control Panel.
+3. Fill in the requested information to create the new user. Under **Product licenses** apply the new license you just added in the Cloud Office Control Panel.
 
     <!--add screen shot file AddO365subscriptionSC5.png-->
 
-9. Scroll down and click **Add**.
+4. Scroll down and click **Add**.
