@@ -16,7 +16,7 @@ This article describes how to forward a Microsoft Exchange mailbox to forward to
 If you need to configure forwarding for a Rackspace Email mailbox, see [Set up forwarding for a Rackspace Email mailbox](/how-to/set-up-rackspace-email-forwarding/).
 
 - [Forward to a mailbox on the same domain](#forward-to-a-mailbox-on-the-same-domain)
-- [Forward to an email address on an external domain](#forward-to-an-external-domain's-mailbox)
+- [Forward to an external domain's email address](#forward-to-an-external-domains-mailbox)
 - [Forward to multiple email addresses](#forward-to-multiple-email-addresses)
 
 ### Prerequisites
