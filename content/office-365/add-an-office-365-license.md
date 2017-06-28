@@ -40,7 +40,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Assign an Office 365 License
 
-1. Log into [portal.office.com] using your Office 365 administrator credentials.
+1. Log into [portal.office.com](portal.office.com) using your Office 365 administrator credentials.
 
 2. Under **Users** click **Add User** to create the user that you would like to apply the license to.
 
