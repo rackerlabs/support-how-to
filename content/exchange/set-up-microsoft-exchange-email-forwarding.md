@@ -77,7 +77,7 @@ To forward to a mailbox on an external domain, use the following steps to create
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-4.png %}" />
 
-7. In the mailbox list, select the name of the mailbox that you would like to forward.
+7. In the mailbox list, select the name of the mailbox that you want to forward.
 8. Click the **Mail Forwarding** tab. On the Mail Forwarding page, select **Forward to an Exchange address within this domain**.
 
    **Note:** Forwarding to an Exchange address within another domain on this account only works if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, create a contact for the domain to which you want to forward.
