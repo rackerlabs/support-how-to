@@ -34,19 +34,16 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Forward to a mailbox on the same domain
 
-Use these steps to forward email from your Microsoft Exchange address to another address on the same domain.
+Use these steps to forward email from your Exchange address to another address on the same domain.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
-
-   <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-1.png %}" />
-
 3. Select the domain that contains the mailbox you would like to forward.
-4. Click the mailbox you would like to forward from.
+4. In the mailbox list, select the name of the mailbox that you would like to forward.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-2.png %}" />
 
-5. Select the **Mail Forwarding** tab. On Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
+5. Click the **Mail Forwarding** tab. On Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
 6. Select the address you want to forward email to from the list.
 7. Select the **Save copies of forwarded email** option.
 
@@ -61,12 +58,9 @@ Use these steps to forward email from your Microsoft Exchange address to another
 To forward to a mailbox with an external domain, use these steps to create an external contact for the external domain then forward your Exchange mailbox to that contact.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
-2. In the **Microsoft Exchange** section, select **Contacts**.
-
-   <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-1.png %}" />
-
+2. In the **Microsoft Exchange** section, click **Contacts**.
 3. If you have multiple domains, select the domain that contains the mailbox you would like to forward.
-4. Select **Add Contact**.
+4. Click **Add Contact**.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-2.png %}" />
 
@@ -84,12 +78,12 @@ To forward to a mailbox with an external domain, use these steps to create an ex
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-4.png %}" />
 
-8. In the mailbox list, click the mailbox name that you would like to forward.
+8. In the mailbox list, select the name of the mailbox that you would like to forward.
 9. Click the **Mail Forwarding** tab. On the Mail Forwarding screen, select **Forward to an Exchange address within this domain**.
 
-   **Note:** Forwarding to an Exchange address within another domain on this account will work only if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, the method of creating a contact will work regardless.
+   **Note:** Forwarding to an Exchange address within another domain on this account will work only if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, create a contact for the domain you want to forward to.
 
-11. Select the **Save copies of forwarded email** option.
+10. Select the **Save copies of forwarded email** option.
 
        <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-6.png %}" />
 
@@ -104,13 +98,9 @@ Use these steps to create a Microsoft Exchange **Distribution List** in order to
 Any address in your Distribution List that are not on the your domain need to be made into a contact before the external address can be added to the Distribution List. For instructions, see [Forward a Microsoft Exchange mailbox to an external domain's email address](#forward-a-microsoft-exchange-mailbox-to-an-external-domain's email-address).
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
-2. In the **Microsoft Exchange** section, select **Lists**.
-
-   <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-1.png %}" />
-
+2. In the **Microsoft Exchange** section, click **Lists**.
 3. Select the domain that contains the mailbox you would like to forward.
-
-4. Select **Add Distribution List**.  
+4. Click **Add Distribution List**.  
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-2.png %}" />
 
@@ -122,7 +112,7 @@ Any address in your Distribution List that are not on the your domain need to be
 
     <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-3.png %}" />
 
-6. In the **Advanced** section, select **Selected addresses on this domain** and select the address you plan to forward.
+6. In the **Advanced** section, click **Selected addresses on this domain** and select the address you plan to forward.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-multi-4.png %}" />
 
@@ -138,7 +128,7 @@ Any address in your Distribution List that are not on the your domain need to be
 
     **Note:** Forwarding to an Exchange address within another domain on this account will work only if both domains are on the same Exchange server. If you are not sure if both domains are on the same Exchange server, create a contact for the domain you want to forward to.
 
-10. Select the Distribution List address you just created.
+10. Select the Distribution List address you created.
 
 11. Select the **Save copies of forwarded email** option.
 
@@ -146,7 +136,7 @@ Any address in your Distribution List that are not on the your domain need to be
 
     If **Save a copy of forwarded email** is not checked, this mailbox _not_ store any messages sent to it.
 
-11. Click **Save**. Allow at least 15 minutes for the forward to enable.
+12. Click **Save**. Allow at least 15 minutes for the forward to enable.
 
 ### References
 
