@@ -16,17 +16,14 @@ This article describes how to forward a Microsoft Exchange mailbox to forward to
 If you need to configure forwarding for a Rackspace Email mailbox, see [Set up forwarding for a Rackspace Email mailbox](/how-to/set-up-rackspace-email-forwarding/).
 
 - [Forward to a mailbox on the same domain](#forward-to-a-mailbox-on-the-same-domain)
-- [Forward to an email address on an external domain](#forward-to-a-mailbox-on-an-external-domain)
+- [Forward to an email address on an external domain](#forward-to-an-external-domain's-mailbox)
 - [Forward to multiple email addresses](#forward-to-multiple-email-addresses)
 
 ### Prerequisites
 
 - **Applies to:** Administrator
-
 - **Difficulty:** Moderate
-
 - **Time needed:** Approximately 10 minutes to set forward / Additional 15 minutes for forward to enable
-
 - **Tools required:** [Cloud Office Control Panel](https://cp.rackspace.com) access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
@@ -46,7 +43,7 @@ Use the following steps to forward email from your Exchange address to another a
 6. Select the address to which you want to forward email from the list.
 7. Select the **Save copies of forwarded email** option.
 
-       <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-3.png %}" />
+    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-3.png %}" />
 
     If **Save a copy of forwarded email** is not checked, this mailbox will _not_ store any messages sent to it.
 
@@ -84,7 +81,7 @@ To forward to a mailbox on an external domain, use the following steps to create
 
 9. Select the **Save copies of forwarded email** option.
 
-       <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-6.png %}" />
+    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-6.png %}" />
 
     If **Save a copy of forwarded email** is not checked, this mailbox _not_ store any messages sent to it.
 
@@ -94,7 +91,7 @@ To forward to a mailbox on an external domain, use the following steps to create
 
 Use the following steps to create a *Distribution List*, from which you can forward mail from an Exchange mailbox to multiple email addresses.
 
-**Note**: Any address in your Distribution List that is not on your domain need to be made into a contact before that address can be added to the Distribution List. For instructions, see [the preceding section ](#forward-a-mailbox-to-an-external-domain).
+**Note**: Any address in your Distribution List that is not on your domain need to be made into a contact before that address can be added to the Distribution List. For instructions, see [the preceding section](#forward-a-mailbox-to-an-external-domain).
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Lists**.
