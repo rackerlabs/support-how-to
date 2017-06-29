@@ -63,7 +63,7 @@ Note: You will need the email address, and password for every mailbox you create
 
 6. Inform users to refrain from changing their passwords during the migration process.
 
-Note: Users must reconfigure Outlook, mail clients, and mobile devices, after the migration is complete to connect to their mailbox at Rackspace. Users can visit https://emailhelp.rackspace.com for configuration instructions.
+Note: Users must reconfigure Outlook, [mail clients](/how-to/cloud-office-support-terminology/), and mobile devices, after the migration is complete to connect to their mailbox at Rackspace. Users can visit https://emailhelp.rackspace.com for configuration instructions.
 
 Warning: For more information about the migration preparation required for POP, IMAP, and Exchange servers, see [Prepare for POP, IMAP, and Exchange mail servers for migration](/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/)
 
@@ -71,7 +71,7 @@ Warning: For more information about the migration preparation required for POP, 
 
 ### Migrate your email
 
-1.  Log in to your Cloud Office Control Panel.
+1.  Log into your [Cloud Office Control Panel](cp.rackspace.com).
 2.  Under the **Domains** section at the bottom of the screen click **Email Migrations** in the far right column.
 3.  Click **Start Migration Now**.
 
