@@ -5,7 +5,7 @@ title: Rackspace Email password recovery FAQ
 type: article
 created_date: '2014-10-24'
 created_by: Beau Bailey
-last_modified_date: '2017-02-24'
+last_modified_date: '2017-06-08'
 last_modified_by: Nate Archer
 product: Rackspace Email
 product_url: rackspace-email
@@ -16,6 +16,15 @@ our system send your phone a text message that verifies your identity. This
 feature must be enabled by your site administrator, and you must
 enter a mobile phone number for your account before it will work.
 
+### Prerequisites
+
+- **Applies to:** User
+- **Difficulty:** Easy
+- **Time needed:** Approximately 5 minutes
+- **Tools required:** Your cell phone
+
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 Following are some frequently asked questions and answers about this
 feature.
 
@@ -25,11 +34,11 @@ feature.
 2. In the top-right corner, click the account's username and then select **Update Phone**.
 3. Enter your phone number, and click **Save**.
 
-After your phone number has been updated, you will receive a six digit verification code that confirms your number. 
+After your phone number has been updated, you will receive a six digit verification code that confirms your number.
 
 ### How do I change my Rackspace Email password if I forgot it?
 
-On your Webmail login page, click the **Forgot Password** link to change
+On the login page for [apps.rackspace.com](https://apps.rackspace.com), click the **Forgot Password** link to change
 your password. A one-time passcode is sent in a text message to the
 mobile phone number on file for your account.
 
@@ -38,6 +47,8 @@ mobile phone number on file for your account.
 You use this passcode to change your password.
 
 <img src="{% asset_path rackspace-email/rackspace-email-password-recovery-faq/1481.1b.png %}" width="414" height="273" />
+
+**Warning:** After you have changed your password, update the password on any device used to check this mailbox.
 
 ### Why is Webmail asking for my mobile phone number?
 
