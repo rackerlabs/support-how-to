@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: Exchange
 ---
 
-This article describes how to recover a deleted Microsoft Exchange mailbox in the Cloud Office Control Panel.
+This article describes how to recover a deleted Exchange mailbox in the Cloud Office Control Panel.
 
 ### Prerequisites
 
