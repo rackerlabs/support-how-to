@@ -3,7 +3,7 @@ permalink: sign-up-for-rackspace-services/
 audit_date: '2017-06-29'
 title: Sign up for Rackspace services
 type: article
-created_date: '2011-06-15'
+created_date: '2017-06-15'
 created_by: Nate Archer
 last_modified_date: '2017-06-15'
 last_modified_by: Nate Archer
