@@ -22,7 +22,7 @@ This article describes how to recover a deleted Exchange mailbox in the Cloud Of
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-### How to recover a deleted Exchange mailbox
+### Recover a deleted Exchange mailbox
 
 **Warning:** A mailbox can only be recovered within 14 days of its deletion.
 
