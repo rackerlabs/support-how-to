@@ -131,7 +131,7 @@ Warning: For more information about the migration preparation required for POP, 
 
 10.  When the status changes to **Ready for migration**, click **Next**.
 
-    Note: If the status shows **Failed**, click the red button labeled **More info**. Next select **Solve Issue** for instructions on resolving the issue.
+      Note: If the status shows **Failed**, click the red button labeled **More info**. Next select **Solve Issue** for instructions on resolving the issue.
 
 11. On the Ready to migrate page, click **Next** to begin the migration of your email data.
 
