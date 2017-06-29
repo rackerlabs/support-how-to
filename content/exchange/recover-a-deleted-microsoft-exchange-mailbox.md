@@ -1,6 +1,6 @@
 ---
 permalink: recover-a-deleted-microsoft-exchange-mailbox/
-audit_date:
+audit_date: '2017-06-29'
 title: Recover a deleted Microsoft Exchange mailbox
 type: article
 created_date: '2017-06-12'
