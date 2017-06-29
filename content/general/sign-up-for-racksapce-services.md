@@ -11,7 +11,7 @@ product: undefined
 product_url: undefined
 ---
 
-When you have decide that Rackspace Fanatical Support&reg;  is for you, it's time to sign up for a Rackspace account. Although the signup process is straightforward, it’s important to understand some details about the verification process and account ownership before you start.
+When you have decide that Rackspace Fanatical Support&reg; is for you, it's time to sign up for a Rackspace account. Although the signup process is straightforward, it’s important to understand some details about the verification process and account ownership before you start.
 
 ### Before you sign up
 
@@ -41,13 +41,9 @@ If the account is for a business or organization, Rackspace recommends creating 
 
 **Is your signup information accurate?**
 
-Our security precautions start with the signup process. We employ a series of industrystandard,
-enterprise-class tools to help verify and validate all account requests as quickly
-as possible. Additionally, we have a global team that manages the signup and validation process 24x7x365, and calls customers to verify information within minutes of receiving applications. The most common delay in this process is caused by receiving inaccurate contact information from new customers.
+Our security precautions start with the signup process. We employ a series of industry standard, enterprise-class tools to help verify and validate all account requests as quickly as possible. Additionally, we have a global team that manages the signup and validation process 24x7x365, and calls customers to verify information within minutes of receiving applications. The most common delay in this process is caused by receiving inaccurate contact information from new customers.
 
-You can ensure the quick processing of your account by verifying that all of the
-information that you provide is accurate. Rackspace uses the following information to
-create your account:
+You can ensure the quick processing of your account by verifying that all of the information that you provide is accurate. Rackspace uses the following information to create your account:
 
 - Email address
 - Unique username 
