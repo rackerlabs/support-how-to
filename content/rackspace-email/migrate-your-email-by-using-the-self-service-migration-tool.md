@@ -5,8 +5,8 @@ title: Migrate your email by using the Self-Service Migration Tool
 type: article
 created_date: '2013-03-18'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-11-03'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-06-29'
+last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -23,7 +23,7 @@ current provider to Rackspace Email, Rackspace Hosted Exchange, or Rackspace Off
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 **Note**: Some of the features that are present in the full version of
-MigrationWiz (at migrationwiz.com) are not readily available within the
+MigrationWiz (at migrationwiz.com) are not available within the
 Self-Service Migration Tool. If you want to use the full version, see
 [Accessing the full version of MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
 
@@ -53,7 +53,7 @@ Note: You will need the email address, and password for every mailbox you create
 
    **Note:** The username for a mailbox is typically the same username you would use to log in to the Outlook Web App (OWA) or webmail in a web browser. For Rackspace, the username is the full email address
 
-2. Ensure that you can update your email DNS records at your current DNS host. If you do not know where to update your email DNS records, read [Find your DNS host](/how-to/find-your-dns-host/).  You can find information about the best DNS records for Rackspace in [Set up DNS records for Cloud Office email ](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/).
+2. Ensure that you can update your email DNS records at your current DNS host. If you do not know where to update your email DNS records, read [Find your DNS host](/how-to/find-your-dns-host/).  You can find information about the best DNS records for Rackspace in [Set up DNS records for Cloud Office email ](/how-to/set-up-dns-records-for-cloud-office-email).
 
 3. Review the list of [items migrated during a Cloud Office migration](/how-to/items-migrated-during-an-cloud-office-migration/).
 
@@ -95,12 +95,12 @@ Warning: For more information about the migration preparation required for POP, 
         **mail.domain.com** or **imap.domain.com**.
     -   Webmail: Your server address is a portion of the webmail URL.
         For example, if your webmail address is
-        **https://webmail.domain.com**, then your server address is
+        `https://webmail.domain.com`, then your server address is
         **webmail.domain.com**.
     -   Exchange: Your Outlook Web Access (OWA) address is the best way
         to connect. Check your mail via an Internet browser. It
-        typically looks like **https://mail.domain.com/owa** or
-        **https://mail.domain.com/exchange**.
+        typically looks like `https://mail.domain.com/owa` or
+        `https://mail.domain.com/exchange`.
 
     **Note:** You may also use your server's IP address in place of any host names and server addresses.
 
