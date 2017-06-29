@@ -95,12 +95,12 @@ Warning: For more information about the migration preparation required for POP, 
         **mail.domain.com** or **imap.domain.com**.
     -   Webmail: Your server address is a portion of the webmail URL.
         For example, if your webmail address is
-        `https://webmail.domain.com`, then your server address is
+        **https://webmail.domain.com**, then your server address is
         **webmail.domain.com**.
     -   Exchange: Your Outlook Web Access (OWA) address is the best way
         to connect. Check your mail via an Internet browser. It
-        typically looks like `https://mail.domain.com/owa` or
-        `https://mail.domain.com/exchange`.
+        typically looks like **https://mail.domain.com/owa** or
+        **https://mail.domain.com/exchange**.
 
     **Note:** You may also use your server's IP address in place of any host names and server addresses.
 
