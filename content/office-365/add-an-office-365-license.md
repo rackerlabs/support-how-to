@@ -30,7 +30,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
     <!--add screen shot file AddO365subscriptionSC1.png-->
 
 3. If the following screen reads *FIRST TIME SETUP* above **Microsoft Office 365**, follow these instructions to [create your Office 365 tenant](/how-to/office-365/#create-your-tenant-id/)
-4. If you have an existing tenant, click **Add Product** to add a new product subscription. [Compare subscriptions here.](https://www.rackspace.com/office-365/pick-your-plan)
+4. If you have an existing tenant, click **Add Product** to add a new product subscription. [Compare subscriptions here.](https://www.rackspace.com/office-365/pick-your-plan).
 
     <!--add screen shot file AddO365subscriptionSC2.png-->
 
