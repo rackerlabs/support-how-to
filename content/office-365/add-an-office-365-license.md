@@ -42,12 +42,14 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 1. Log into [portal.office.com](portal.office.com) using your Office 365 administrator credentials.
 
-2. Under **Users** click **Add User** to create the user that you would like to apply the license to.
+2. Select the **Admin** tile.
+
+3. Under **Users** click **Add User** to create the user that you would like to apply the license to.
 
     <!--add screen shot file AddO365subscriptionSC4.png-->
 
-3. Fill in the requested information to create the new user. Under **Product licenses** apply the new license you just added in the Cloud Office Control Panel.
+4. Fill in the requested information to create the new user. Under **Product licenses** apply the new license you just added in the Cloud Office Control Panel.
 
     <!--add screen shot file AddO365subscriptionSC5.png-->
 
-4. Scroll down and click **Add**.
+5. Scroll down and click **Add**.
