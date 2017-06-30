@@ -25,10 +25,10 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 #### Who sets up my Rackspace Office 365 environment and what does that process entail?
 Administrators will be tasked with adding the Office 365 licenses to their account and creating their new Office 365 environment. Please see the following instructional articles in the order listed to prepare for migration:
-- [Create your Office 365 Tenant](/how-to/office-365/#create-your-tenant-id/).
-- [Add your domain in Office 365](/how-to/add-a-domain-in-office-365/).
-- [Add an Office 365 license](/how-to/add-an-office-365-license/#add-an-office-365-license/).
-- [Create users in Office 365](how-to/add-an-office-365-license/#assign-an-office-365-license/).
+- [Create your Office 365 Tenant](/how-to/office-365/#create-your-tenant-id/)
+- [Add your domain in Office 365](/how-to/add-a-domain-in-office-365/)
+- [Add an Office 365 license](/how-to/add-an-office-365-license/#add-an-office-365-license/)
+- [Create users in Office 365](how-to/add-an-office-365-license/#assign-an-office-365-license/)
 
 
   Note: You will need to complete these steps before self-migrating or requesting an assisted migration.
