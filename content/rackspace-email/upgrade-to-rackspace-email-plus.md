@@ -22,9 +22,7 @@ Upgrade your Rackspace Email users to Rackspace Email Plus.
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-This article provides instructions for upgrading your Rackspace Email users to Rackspace Email Plus and why you should consider the
-upgrade if you are not yet sure.
-
+This article provides instructions for upgrading your Rackspace Email users to Rackspace Email Plus and why you should consider the upgrade if you are not yet sure.
 
 ### Upgrade your Rackspace Email users to Rackspace Email Plus.
 
