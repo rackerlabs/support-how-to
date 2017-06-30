@@ -14,10 +14,10 @@ Frequently Asked Questions by customers moving from Rackspace Microsoft Exchange
 
 ### Prerequisites
 
-**Applies to:** Administrator
-**Difficulty:** Moderate
-**Time needed:** Onboarding to O365 (which includes the data migration) can take anywhere from 2 to 6 weeks depending on your situation.
-**Tools required:** Customers will need access to their Cloud Office Control Panel, Office 365 Admin Center and the ability to access and edit your DNS Records.
+- **Applies to:** Administrator
+- **Difficulty:** Moderate
+- **Time needed:** Onboarding to O365 (which includes the data migration) can take anywhere from 2 to 6 weeks depending on your situation.
+- **Tools required:** Customers will need access to their Cloud Office Control Panel, Office 365 Admin Center and the ability to access and edit your DNS Records.
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
@@ -25,13 +25,13 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 #### Who sets up my Rackspace Office 365 environment and what does that process entail?
 Administrators will be tasked with adding the Office 365 licenses to their account and creating their new Office 365 environment. Please see the following instructional articles in the order listed to prepare for migration:
+- [Create your Office 365 Tenant](/how-to/office-365/#create-your-tenant-id/).
+- [Add your domain in Office 365](/how-to/add-a-domain-in-office-365/).
+- [Add an Office 365 license](/how-to/add-an-office-365-license/#add-an-office-365-license/).
+- [Create users in Office 365](how-to/add-an-office-365-license/#assign-an-office-365-license/).
 
-    - [Create your Office 365 Tenant](/how-to/office-365/#create-your-tenant-id/)
-    - [Add your domain in Office 365](/how-to/add-a-domain-in-office-365/)
-    - [Add an Office 365 license](/how-to/add-an-office-365-license/#add-an-office-365-license/)
-    - [Create users in Office 365](how-to/add-an-office-365-license/#assign-an-office-365-license/)
 
-    Note: You will need to complete these steps before self-migrating or requesting an assisted migration.
+  Note: You will need to complete these steps before self-migrating or requesting an assisted migration.
 
 #### Can the Rackspace Migrations Team migrate my data?
 Yes! Admins can request an Assisted Migration with our team or utilize the [Self-Service Migration Tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) located within the [Cloud Office Control Panel](cp.rackspace.com). Admins will be responsible for recreating their entire environment within Office 365 and the Migrations Team will copy the email data over using MigrationWiz.
