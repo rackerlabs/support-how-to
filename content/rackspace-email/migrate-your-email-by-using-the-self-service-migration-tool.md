@@ -4,8 +4,8 @@ audit_date: '2016-09-01'
 title: Migrate your email by using the Self-Service Migration Tool
 type: article
 created_date: '2013-03-18'
-created_by: Mawutor Amesawu
-last_modified_date: '2017-06-29'
+created_by: William Loy
+last_modified_date: '2017-06-30'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
