@@ -5,7 +5,7 @@ title: Add a domain in Office 365
 type: article
 created_date: '2017-06-29'
 created_by: William Loy
-last_modified_date: '2017-06-29'
+last_modified_date: '2017-06-30'
 last_modified_by: William Loy
 product: Office 365
 product_url: office-365
