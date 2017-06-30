@@ -55,7 +55,11 @@ No, Admins will create the new mailboxes via the Office 365 Admin Center and cre
 
 #### What items are NOT migrated from Rackspace Email or Microsoft Exchange to Office 365?
 
+  - Aliases
+  - Alternate Addresses
+  - Grouplists
   - Distribution Lists
   - Public Folders
   - Custom Groups created via Outlook
   - Custom color coded Calendar items
+  - Local data
