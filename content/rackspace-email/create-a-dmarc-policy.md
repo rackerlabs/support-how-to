@@ -78,11 +78,11 @@ To add your DMARC policy as a TXT record in the Control Panel, follow these step
 Your new settings take 24 to 48 hours to propagate to the world. For more information on propagation, see [DNS propagation](/how-to/dns-record-definitions/#dns-propagation). In addition to this, your DMARC policy is much more valuable when using an aggregator to help filter the content of these emails that will be returned. The top reporting aggregators we have found are:
 
 - [dmarcian](http://dmarcian.com);
--  [250OK](http://250OK.com);
--  [Agari](http://agari.com);
+- [250OK](http://250OK.com);
+- [Agari](http://agari.com);
 
 These are the most well-known providers based on suggestions from https://dmarc.org/resources/products-and-services/.
 
-Warning: If you do not use an aggregator, your DMARC reports will be nearly unreadable.  
+Warning: If you do not use an aggregator, your DMARC reports will be unreadable.  
 
 Without selecting an aggregator for DMARC, you will receive reports to the email you specified in an XML format. Interpreting this raw data is a difficult, time consuming task that takes time away from your daily business. An aggregator's job is to format this information and send out weekly reports to the email address you specified, which contain the sending source (domain/IP) along with whether the message passed or failed SPF and DKIM. This allows you to monitor your domain's activity, and helps to prevent spoofing and domain abuse.
