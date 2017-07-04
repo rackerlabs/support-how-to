@@ -22,7 +22,7 @@ support options to make your transition as easy as possible.
 
 #### Option 1: Self-service migration
 
-Run your migration at any time of the day or night with MigrationWiz, which is available from the Cloud Office Control Panel. [Click here to for instructions](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/).
+Run your migration at any time of the day or night with MigrationWiz, which is available within the Cloud Office Control Panel. [Click here for instructions](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/).
 
 The benefits of using the self-migration tool:
 
@@ -34,6 +34,8 @@ The benefits of using the self-migration tool:
 -   Direct access to view your migration status
 -   Can be accessed from any Internet browser
 -   24x7 ***Fanatical Support***<sup>&reg;</sup> provided by a team of email experts
+
+Note: Current customers seeking to upgrade to our Office 365 solution should review [Rackspace Email and Microsoft Exchange upgrade to Office 365 FAQ](/how-to/rackspace-email-and-microsoft-exchange-upgrade-to-office-365-faq/) for questions and instructions on the process.
 
 #### Option 2: Assisted migration
 
@@ -57,13 +59,13 @@ information from you.
 
 Migrations vary based on the type of mailboxes we are migrating to and
 from. See the following chart for a list of what will migrate using
-our services.
+our services:
 
 | Current Service    | Rackspace service | Mail inbox | Mail subfolders | Contacts | Calendar | Tasks | Notes |
 |--------------------|-------------------|------------|-----------------|----------|----------|-------|-------|
-| POP                |&#10003;                 |            |                 |          |          |       |       |
-| IMAP               | &#10003;                 | &#10003;          | &#10003;               |          |          |       |       |
-| Microsoft Exchange or Office 365 | &#10003;                 | &#10003;          | &#10003;               | &#10003;        | &#10003;        | &#10003;     | &#10003;     |
+| **POP**                |&#10003;                 |            |                 |          |          |       |       |
+| **IMAP**               | &#10003;                 | &#10003;          | &#10003;               |          |          |       |       |
+| **Microsoft Exchange or Office 365** | &#10003;                 | &#10003;          | &#10003;               | &#10003;        | &#10003;        | &#10003;     | &#10003;     |
 
 
 ### Rackspace archive services
@@ -85,7 +87,7 @@ submit a request via a ticket and we'll take care of the rest.
 
 | Service | Cost | Notes |How to request migration|
 | --- | --- | --- | --- |
-| **Upgrade from Exchange 2007, 2010, or 2013 to Exchange 2016** | No charge | This type of migration requires all users on the domain to migrate. | See [Upgrading to Exchange 2016](/how-to/upgrading-to-exchange-2016/) for self-scheduled Exchange upgrade instructions.
+| **Upgrade from Exchange 2007, 2010, or 2013 to Exchange 2016** | No charge | This type of migration requires all users on the domain to migrate. | See [Upgrading to Exchange 2016](/how-to/upgrading-to-exchange-2016/) for self-scheduled Exchange upgrade instructions.|
 | **Platform changes** | No charge | - Convert from Rackspace Email to Microsoft Exchange and keep the same address.<br/><br/> - Convert from Exchange to Rackspace Email and keep the same address.| Submit a support ticket to request either platform change.|
 | **Domain rename** | No charge | $50 if Rackspace archiving is enabled for the domain. | Submit a support ticket.|
 | **Hosted Exchange Mailbox rename** | No charge | [Rackspace Email  mailboxes can be renamed inside your mail control panel.](/how-to/rename-a-rackspace-email-mailbox/) | Submit a support ticket. |
