@@ -15,6 +15,15 @@ We offer a number of email migration services to our customers at no
 charge. Our team of email migration experts are here to help you in case
 you have any questions or concerns.
 
+### Prerequisites
+
+- **Applies to:** Administrator
+- **Difficulty:** Easy
+- **Time needed:** Dependent on migration type
+- **Tools required:** Cloud Office Control Panel access
+
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
 ### External migration services
 
 If you are a new customer and require email data to be migrated from another provider, we can help. We provide two migration
