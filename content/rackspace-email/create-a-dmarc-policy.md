@@ -46,14 +46,14 @@ To set up DMARC the way that works best for you, answer these questions:
 
 Each part of the policy is defined as follows:
 
-    `_dmarc` identifies the TXT record as a DMARC policy
-    `v=DMARC1` indicates the version of DMARC used
-    `p=quarantine` is the policy action.
-        none: do nothing/reporting only
-        quarantine: treat the mail as spam
-        reject: refuse mail that fails DKIM and SPF
-    `rua=` identifies the destination for the aggregate reports
-    `pct=100` specifies how much traffic should be subject to policy validation
+  - `_dmarc` identifies the TXT record as a DMARC policy
+  - `v=DMARC1` indicates the version of DMARC used
+  - `p=quarantine` is the policy action.
+    - none: do nothing/reporting only
+    - quarantine: treat the mail as spam
+    - reject: refuse mail that fails DKIM and SPF
+  - `rua=` identifies the destination for the aggregate reports
+  - `pct=100` specifies how much traffic should be subject to policy validation
 
 #### Create a DMARC Policy in your DNS Settings
 
