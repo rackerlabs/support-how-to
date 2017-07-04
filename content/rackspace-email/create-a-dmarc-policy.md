@@ -46,14 +46,14 @@ To set up DMARC the way that works best for you, answer these questions:
 
 Each part of the policy is defined as follows:
 
-  - `_dmarc` identifies the TXT record as a DMARC policy
-  - `v=DMARC1` indicates the version of DMARC used
-  - `p=quarantine` is the policy action.
+ - **_dmarc** identifies the TXT record as a DMARC policy
+      - **v=DMARC1** indicates the version of DMARC used
+  - **p=quarantine** is the policy action.
     - none: do nothing/reporting only
     - quarantine: treat the mail as spam
     - reject: refuse mail that fails DKIM and SPF
-  - `rua=` identifies the destination for the aggregate reports
-  - `pct=100` specifies how much traffic should be subject to policy validation
+  - **rua=** identifies the destination for the aggregate reports
+  - **pct=100** specifies how much traffic should be subject to policy validation
 
 #### Create a DMARC Policy in your DNS Settings
 
@@ -67,7 +67,6 @@ To add your DMARC policy as a TXT record in the Control Panel, follow these step
     4. Under the Advanced Settings section, select **DNS Records**.
     5. Under Hosting Records, click on Add Additional Record.
     6. Select **TXT Record** for the record type, and enter the following, replacing the email address example with your chosen reporting address:
-
 
 | Type | Hostname | Destination | Priority | TTL |
 | --- | --- | --- | --- | --- |
