@@ -61,18 +61,18 @@ Note: If your DNS is not hosted with us, you will need access to add this record
 
 To add your DMARC policy as a TXT record in the Control Panel, follow these steps:
 
-    1. Log in to the Cloud Office Control Panel.
-    2. In the Domains section of the home page, click the **DNS Settings** link.
-    3. On the DNS Settings page, click the domain for which you want to add this record.
-    4. Under the Advanced Settings section, select **DNS Records**.
-    5. Under Hosting Records, click on Add Additional Record.
-    6. Select **TXT Record** for the record type, and enter the following, replacing the email address example with your chosen reporting address:
+1. Log in to the Cloud Office Control Panel.
+2. In the Domains section of the home page, click the **DNS Settings** link.
+3. On the DNS Settings page, click the domain for which you want to add this record.
+4. Under the Advanced Settings section, select **DNS Records**.
+5. Under Hosting Records, click on Add Additional Record.
+6. Select **TXT Record** for the record type, and enter the following, replacing the email address example with your chosen reporting address:
 
 | Type | Hostname | Destination | Priority | TTL |
 | --- | --- | --- | --- | --- |
 | TXT | _dmarc | v=DMARC1; p=none; rua=mailto:CHOSEN-EMAIL@YOURDOMAIN.COM | NA |  3600 seconds or lowest allowed
 
-     7. Click **Add Record**
+7. Click **Add Record**
 
 
 Your new settings take 24 to 48 hours to propagate to the world. For more information on propagation, see [DNS propagation](/how-to/dns-record-definitions/#dns-propagation). In addition to this, your DMARC policy is much more valuable when using an aggregator to help filter the content of these emails that will be returned. The top reporting aggregators we have found are:
