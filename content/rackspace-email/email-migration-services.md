@@ -98,9 +98,9 @@ submit a request via a ticket and we'll take care of the rest.
 | --- | --- | --- | --- |
 | **Upgrade from Exchange 2007, 2010, or 2013 to Exchange 2016** | No charge | This type of migration requires all users on the domain to migrate. | See [Upgrading to Exchange 2016](/how-to/upgrading-to-exchange-2016/) for self-scheduled Exchange upgrade instructions.|
 | **Platform changes** | No charge | - Convert from Rackspace Email to Microsoft Exchange and keep the same address.<br/><br/> - Convert from Exchange to Rackspace Email and keep the same address.| Submit a support ticket to request either platform change.|
-| **Domain rename** | No charge | $50 if Rackspace archiving is enabled for the domain. | Submit a support ticket.|
-| **Hosted Exchange Mailbox rename** | No charge | [Rackspace Email  mailboxes can be renamed inside your mail control panel.](/how-to/rename-a-rackspace-email-mailbox/) | Submit a support ticket. |
-| **Mailbox data migrations** | No charge | Migrate data from **OneUser@domain**.com to **DifferentUser@domain**.com. | Submit a support ticket. |
+| **Domain rename** | No charge | $50 if Rackspace archiving is enabled for the domain. | Submit a support ticket requesting this service.|
+| **Hosted Exchange Mailbox rename** | No charge | [Rackspace Email  mailboxes can be renamed inside your mail control panel.](/how-to/rename-a-rackspace-email-mailbox/) | Submit a support ticket requesting this service. |
+| **Mailbox data migrations** | No charge | Migrate data from **OneUser@domain**.com to **DifferentUser@domain**.com. | Submit a support ticket requesting this service. |
 
 
 
