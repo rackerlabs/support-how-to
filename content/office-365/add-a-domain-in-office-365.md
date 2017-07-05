@@ -31,19 +31,19 @@ After you have [created your Office 365 tenant with Rackspace](/how-to/office-36
 
 2. Select the **Admin** tile.
 
-   <img src="{% asset_path office-365/add-a-domain-in-office-365/add-a-domain-in-office-365-sc1.png %}" />
+   <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc1.png %}" />
 
 3. Expand **Settings** on the left hand side of the screen and select **Domains**.
 4. In the **Domains** section, click **Add Domain**.
 5. On the next page enter the domain name that you want to add.
 
-   <img src="{% asset_path office-365/add-a-domain-in-office-365/add-a-domain-in-office-365-sc3.png %}" />
+   <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc3.png %}" />
 
 6. Verify that you own the domain. This step will require to log into your domain's DNS host portal. If you do not not who your DNS host is, see [Find your DNS host](/how-to/find-your-dns-host/).
 
     - Copy the TXT record information provided in the Office 365 portal
 
-      <img src="{% asset_path office-365/add-a-domain-in-office-365/add-a-domain-in-office-365-sc3.png %}" />
+      <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc3.png %}" />
 
     - Log into your domain's DNS host portal
 
