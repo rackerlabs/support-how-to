@@ -11,7 +11,9 @@ product: Office 365
 product_url: office-365
 ---
 
-This article describes how to add your Office 365 product license in the Cloud Office Control Panel. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 Plans and Pricing](https://www.rackspace.com/office-365/pick-your-plan).
+This article describes how to add an Office 365 product license in the Cloud Office Control Panel. This license allows a Cloud Office user to access an Office 365 subscription, depending on the number of licenses allotted in the Cloud Office Control panel.
+
+For more information about Office 365 subscriptions, see [set-up-office-365](how-to/set-up-office-365/).
 
 ### Prerequisites
 
@@ -30,9 +32,9 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-1.png %}" />
 
-3. If the screen reads "FIRST TIME SETUP" above **Microsoft Office 365**, see [create your Office 365 tenant](/how-to/office-365/create-your-tenant-id/) for first time set up instructions.
+3. If the screen reads "FIRST TIME SETUP" above **Microsoft Office 365**, see [Set up Office 365](/how-to/office-365/set-up-office-365).
 
-   If the screen does not read *FIRST TIME SETUP* because you have an existing tenant, click **Add Product** to add a new product subscription.
+   If the screen does not read "FIRST TIME SETUP" because you have an existing tenant, click **Add Product** to add a new product subscription.
 
    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-2.png %}" />
 
