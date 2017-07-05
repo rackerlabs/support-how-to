@@ -30,7 +30,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-1.png %}" />
 
-3. If the screen reads *FIRST TIME SETUP* above **Microsoft Office 365**, see [create your Office 365 tenant](/how-to/office-365/create-your-tenant-id/) for first time set up instructions.
+3. If the screen reads "FIRST TIME SETUP" above **Microsoft Office 365**, see [create your Office 365 tenant](/how-to/office-365/create-your-tenant-id/) for first time set up instructions.
 
    If the screen does not read *FIRST TIME SETUP* because you have an existing tenant, click **Add Product** to add a new product subscription.
 
