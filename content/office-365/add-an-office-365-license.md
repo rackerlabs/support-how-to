@@ -10,7 +10,8 @@ last_modified_by: William Loy
 product: Office 365
 product_url: office-365
 ---
-Add Office 365 licenses at Rackspace Cloud Office.
+
+This article describes how to add your Office 365 product license in the Cloud Office Control Panel. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 Plans and Pricing](https://www.rackspace.com/office-365/pick-your-plan).
 
 ### Prerequisites
 
@@ -24,19 +25,20 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Add an Office 365 License
 
-1. Log into the Cloud Office Control Panel.
-2. Select **Manage Office 365** from the **Microsoft Office 365** section.
+1. Log into the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
+2. In the Microsoft Office 365 section, select **Manage Office 365**.
 
-    <!--add screen shot file AddO365subscriptionSC1.png-->
+   <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-1.png %}" />
 
-3. If the following screen reads *FIRST TIME SETUP* above **Microsoft Office 365**, follow these instructions to [create your Office 365 tenant](/how-to/office-365/#create-your-tenant-id/)
-4. If you have an existing tenant, click **Add Product** to add a new product subscription. [Compare subscriptions here.](https://www.rackspace.com/office-365/pick-your-plan).
+3. If the screen reads *FIRST TIME SETUP* above **Microsoft Office 365**, see [create your Office 365 tenant](/how-to/office-365/create-your-tenant-id/) for first time set up instructions.
 
-    <!--add screen shot file AddO365subscriptionSC2.png-->
+   If the screen does not read *FIRST TIME SETUP* because you have an existing tenant, click **Add Product** to add a new product subscription.
 
-5. Click the gear icon to the left of an existing product subscription and select **Change Quantity** to add additional licenses.
+   <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-2.png %}" />
 
-    <!--add screen shot file AddO365subscriptionSC3.png-->
+4. Click the gear icon to the left of an existing product subscription and then select **Change Quantity** to add additional licenses.
+
+    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-3.png %}" />
 
 ### Assign an Office 365 License
 
@@ -46,10 +48,12 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 3. Under **Users** click **Add User** to create the user that you would like to apply the license to.
 
-    <!--add screen shot file AddO365subscriptionSC4.png-->
+    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-4.png %}" />
 
-4. Fill in the requested information to create the new user. Under **Product licenses** apply the new license you just added in the Cloud Office Control Panel.
+   Fill in the requested information to create the new user.
 
-    <!--add screen shot file AddO365subscriptionSC5.png-->
+4. Under **Product licenses**, apply the new license you just added in the Cloud Office Control Panel.
+
+    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-5.png %}" />
 
 5. Scroll down and click **Add**.
