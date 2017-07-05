@@ -25,7 +25,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Add a domain in Office 365
 
-After you have [created your Office 365 tenant with Rackspace](/how-to/office-365/#create-your-tenant-id/) and [added the product licenses](/how-to/add-an-office-365-license/) you need, you can set up your domain in the Office 365 portal.
+After you have [created your Office 365 tenant with Rackspace](/how-to/office-365/set-up-office-365/) and [added the product licenses](/how-to/add-an-office-365-license/) that you need, you can set up your domain in the Office 365 portal.
 
 1. Log in with your Office 365 Administrator credentials at [portal.office.com](portal.office.com).
 
@@ -56,10 +56,6 @@ After you have [created your Office 365 tenant with Rackspace](/how-to/office-36
 7. After your domain has been successfully verified by Office 365, Office 365 prompts you to **Set up your online services**:
 
     - **Set up my online services for me**: Sets up a domain with it's own DNS record in Office 365.
-    - Option 2: **I'll manage my own DNS records**: Provides a list of DNS records which need to be changed on your DNS host to utilize Office 365 services.
+    - **I'll manage my own DNS records**: Provides a list of DNS records which need to be changed on your DNS host to utilize Office 365 services.
 
     **Warning:** Do not change your DNS records until you are ready to start using your Office 365 services.
-
-### Next step
-
-After you have added your domain in Office 365, you are ready to [create Office 365 users](/how-to/add-an-office-365-license/#assign-an-office-365-license/).
