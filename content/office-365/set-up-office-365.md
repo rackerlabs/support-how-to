@@ -13,7 +13,19 @@ product_url: office-365
 
 This article helps you set up Office 365 for the first time if you're an existing Cloud Office customer.
 
+### Prerequisites
+
+- **Applies to:** Office 365 Administrator
+- **Difficulty:** Easy
+- **Time needed:** 10 minutes
+- **Tools required:**  Office 365 tenant Administrator access
+
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+
+
 ### Create a tenant ID
+
+**Note:** The tenant ID you create is permanent. If you wish to remove a tenant ID from your Office 365 account, contact Microsoft Support. This will allow you to create a new tenant ID for your account.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 2. In the Cloud Office section, select **Manage Office 365**.
@@ -30,7 +42,7 @@ This article helps you set up Office 365 for the first time if you're an existin
 
 5. Click **Create Tenant**.
 
-   The tenant name, user name, and password you enter in Cloud Office form your Office 365 User ID
+   The tenant name, user name, and password you enter in Cloud Office form your Office 365 User ID. Your Sharepoint (**{tenantname}.sharepoint.com**) and OneDrive (**{my-tenantname}.sharepoint.com**) URL's use the tenant ID for the life of your account.
 
 ### Add a subscription
 
@@ -67,4 +79,4 @@ To delete your subscription, click **Suspend/Delete** and click **Suspend Subscr
 
 2. Enter the tenant ID and password you created in Cloud Office.
 
-When you first log in, the Office 365 Portal requires you to enter and confirm a new password.
+When you first log in, the Office 365 Portal requires you to enter and confirm a new password. After you have confirmed the password, the only User that can log in to your Office 365 account will be **admin@{tenantname}.onmicrosoft.com**, until new Users are created.
