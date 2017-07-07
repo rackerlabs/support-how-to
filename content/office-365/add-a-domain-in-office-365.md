@@ -11,7 +11,9 @@ product: Office 365
 product_url: office-365
 ---
 
-This article to describes how to add a domain in Office 365.
+The default domain in Office 365 is **tenantname.onmicrosoft.com**. Until you add your own domain to Office 365, any new Users you create will contain the default domain name.
+
+This article to describes how to add a domain in Office 365. By adding your own domain, you can create Users specific to that domain.
 
 ### Prerequisites
 
@@ -55,7 +57,12 @@ After you have [created your Office 365 tenant with Rackspace](/how-to/office-36
 
 7. After your domain has been successfully verified by Office 365, Office 365 prompts you to **Set up your online services**:
 
-    - **Set up my online services for me**: Sets up a domain with it's own DNS record in Office 365.
+    - **Set up my online services for me**: Inputs all DNS records from your DNS host automatically. All mail associated with your DNS host will immediately reroute to Office 365. This option is recommended for Users
+
+      **Note:** **Set up my online services for me** is only available with certain DNS hosts. Before selecting this option, please verify that your DNS host allows use of this feature.
+
     - **I'll manage my own DNS records**: Provides a list of DNS records which need to be changed on your DNS host to utilize Office 365 services.
 
-    **Warning:** Do not change your DNS records until you are ready to start using your Office 365 services.
+      **Warning:** Do not change your DNS records until you are ready to start using your Office 365 services.
+
+8. Verify that you can create a new user with the domain you added. Select **Users** > **Active Users**, and then find your domain in the drop-down menu.
