@@ -19,7 +19,7 @@ This article describes how to add a domain in Office 365. By adding your own dom
 
 - **Applies to:** Office 365 Administrator
 - **Difficulty:** Easy
-- **Time needed:** 24-48 hours for domain to be verified
+- **Time needed:** 24-48 hours for the domain to be verified
 - **Tools required:**  Office 365 tenant Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
