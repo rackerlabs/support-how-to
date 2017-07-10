@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-The default domain in Office 365 is **tenantName.onmicrosoft.com**.  Until you add your own domain to Office 365, any new users that you create contain the default domain name.
+The default domain in Office 365 is **{tenantName}.onmicrosoft.com**.  Until you add your own domain to Office 365, any new users that you create contain the default domain name.
 
 This article describes how to add a domain in Office 365. By adding your own domain, you can create users specific to that domain.
 
