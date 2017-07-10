@@ -1,11 +1,10 @@
 ---
 title: Microsoft Office 365
-audit_date:
 type: product
 created_date: '2017-07-05'
 created_by: Nate Archer
 last_modified_date: '2017-07-05'
-last_modified_by: Kyle Laffoon
+last_modified_by: Nate Archer
 permalink: /office-365/
 product: Office 365
 product_url: office-365
