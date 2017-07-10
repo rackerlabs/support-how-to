@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-The default domain in Office 365 is **<tenantName>.onmicrosoft.com**.  Until you add your own domain to Office 365, any new users that you create contain the default domain name.
+The default domain in Office 365 is **tenantName.onmicrosoft.com**.  Until you add your own domain to Office 365, any new users that you create contain the default domain name.
 
 This article describes how to add a domain in Office 365. By adding your own domain, you can create users specific to that domain.
 
@@ -38,7 +38,7 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 4. In the **Domains** section, click **Add Domain**.
 5. On the next page enter the domain name that you want to add.
 
-   <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc3.png %}" />
+   <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc2.png %}" />
 
 6. Verify that you own the domain.
 
@@ -46,7 +46,7 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
     1. Copy the TXT record information provided in the Office 365 portal
 
-      <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc3.png %}" />
+        <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc3.png %}" />
 
     2. Log in to your domain's DNS host portal
 
