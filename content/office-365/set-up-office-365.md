@@ -78,4 +78,4 @@ To delete your subscription, click **Suspend/Delete** and then click **Suspend S
 
 2. Enter the tenant ID and password that you created in Cloud Office.
 
-When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is **admin@tenantName.onmicrosoft.com**, until new users are created.
+When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is **admin@{tenantName}.onmicrosoft.com**, until new users are created.
