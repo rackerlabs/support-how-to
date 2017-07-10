@@ -44,13 +44,13 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
    This step requires you to log in to your domain's DNS host portal. If you do not know who your DNS host is, see [Find your DNS host](/how-to/find-your-dns-host/).
 
-    1. Copy the TXT record information provided in the Office 365 portal
+    1. Copy the TXT record information provided in the Office 365 portal.
 
         <img src="{% asset_path office-365/add-a-domain-in-office-365/add-domain-in-o365-sc3.png %}" />
 
-    2. Log in to your domain's DNS host portal
+    2. Log in to your domain's DNS host portal.
 
-    3. Add the TXT record provided in the Office 365 portal
+    3. Add the TXT record provided in the Office 365 portal.
 
     4. Save this change at your DNS host.
 
@@ -60,7 +60,7 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
 7. To set up your online services, select one of the following options:
 
-    - **Set up my online services for me**: Inputs all DNS records from your DNS host automatically. All mail associated with your DNS host is immediately reroute to Office 365.
+    - **Set up my online services for me**: Inputs all DNS records from your DNS host automatically. All mail associated with your DNS host is immediately rerouted to Office 365.
 
       **Note:** **Set up my online services for me** is only available with certain DNS hosts. Before selecting this option, please verify that your DNS host allows use of this feature.
 
