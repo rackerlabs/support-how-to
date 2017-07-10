@@ -1,12 +1,12 @@
 ---
 permalink: add-an-office-365-license/
-audit_date:
+audit_date: '2017-07-10'
 title: Add an Office 365 license
 type: article
 created_date: '2017-06-26'
 created_by: William Loy
-last_modified_date: '2017-06-26'
-last_modified_by: William Loy
+last_modified_date: '2017-07-10'
+last_modified_by: Nate Archer
 product: Office 365
 product_url: office-365
 ---
@@ -32,9 +32,9 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-1.png %}" />
 
-3. If the "FIRST TIME SETUP", appears above the **Microsoft Office 365** title, perform the steps in [Set up Office 365 - Create a tenant ID](/how-to/office-365/set-up-office-365#create-a-tenant-id), and then return to this article.
+3. If "FIRST TIME SETUP", appears above the **Microsoft Office 365** title, perform the steps in [Set up Office 365 - Create a tenant ID](/how-to/office-365/set-up-office-365#create-a-tenant-id), and then return to this article.
 
-   If the "FIRST TIME SETUP" does not appear (because you have an existing tenant), click **Add Product** to add a new product subscription.
+   If "FIRST TIME SETUP" does not appear (because you have an existing tenant), click **Add Product** to add a new product subscription.
 
    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-2.png %}" />
 
