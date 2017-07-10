@@ -1,7 +1,7 @@
 ---
-permalink: rackspace-email-and-microsoft-exchange-upgrade-to-office-365-faq/
+permalink: upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq/
 audit_date:
-title: Rackspace Email and Microsoft Exchange upgrade to Office 365 FAQ
+title: Upgrade Rackspace Email and Microsoft Exchange to Office 365 FAQ
 type: article
 created_date: '2017-06-29'
 created_by: Casey Gurbanov
