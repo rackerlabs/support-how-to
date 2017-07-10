@@ -2,7 +2,7 @@
 permalink: office-365-faq/
 audit_date:
 title: Microsoft Office 365 FAQ
-type: product
+type: article
 created_date: '2016-01-20'
 created_by: Nate Archer
 last_modified_date: '2016-01-21'
