@@ -33,21 +33,21 @@ The tenant ID that you create is permanent. If you have an existing tenant ID fo
 
    A tenant is a unique name for your organization within the Office 365 portal. Your tenant name forms your Office 365 user ID. A tenant is not a domain.
 
-   If the tenant ID that you enter is valid and available, a green check box appears next to the name
+   If the tenant ID that you enter is valid and available, a green check box appears next to the name.
 
 4. Enter values in the following fields. All fields are required.
 
    - **User name**: Enter a unique user name.
-   - **Password**: Enter a unique password. This password is temporary The Office 365 portal prompts you to create a new password when you first visit the site.
+   - **Password**: Enter a unique password. This password is temporary. The Office 365 portal prompts you to create a new password when you first visit the site.
    - **Company information**: Enter the information for your company.
 
 5. Click **Create Tenant**.
 
-The tenant name, user name, and password that you enter in Cloud Office form your Office 365 user ID. Your SharePoint (**<tenantName>.sharepoint.com**) and OneDrive (**<tenantName>-my.sharepoint.com**) URLs use the tenant ID for the life of your account.
+The tenant name, user name, and password that you enter in Cloud Office form your Office 365 user ID. Your SharePoint (**{tenantName}.sharepoint.com**) and OneDrive (**{tenantName}-my.sharepoint.com**) URLs use the tenant ID for the life of your account.
 
 ### Add a subscription
 
-After you create an Office 365 tenant ID, chose an Office 365 subscription. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
+After you create an Office 365 tenant ID, choose an Office 365 subscription. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
 
 1. In the [Office 365 manager page of the Cloud Office control panel](https://cp.rackspace.com/Office365#/Manage), click **Add Subscription**.
 2. Select a plan. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
