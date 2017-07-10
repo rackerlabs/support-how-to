@@ -1,6 +1,6 @@
 ---
-audit_date:
 title: Microsoft Office 365
+audit_date:
 type: product
 created_date: '2017-07-05'
 created_by: Nate Archer
