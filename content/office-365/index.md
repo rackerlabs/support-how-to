@@ -19,10 +19,9 @@ The following support articles help you get start using Office 365:
 - [Set up Office 365](how-to/set-up-office-365/)
 - [Add an Office 365 license](how-to/add-an-office-365-license/)
 - [Add a domain in Office 365](how-to/add-a-domain-in-office-365)
-- [Upgrade Rackspace Email or Microsoft Exchange to Office 365 FAQ](how-to/upgrade-rackspace-email-microsoft-exchange-to-office-365-faq/)  
 
 ### Other support Resources
 
 [Microsoft Office 365 frequently asked questions](https://products.office.com/en-us/business/microsoft-office-365-frequently-asked-questions)
 
-[Rackspace Office 365 plans](http://www.rackspace.com/office-365)
+[Rackspace Office 365 plans](https://www.rackspace.com/office-365/pick-your-plan) 
