@@ -1,6 +1,6 @@
 ---
 permalink: upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq/
-audit_date:
+audit_date: '2017-07-11'
 title: Upgrade Rackspace Email and Microsoft Exchange to Office 365 FAQ
 type: article
 created_date: '2017-06-29'
