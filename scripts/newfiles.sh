@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Purpose: Identify all *md files in H2 repo where:
-# Created date is after date begin date passed in with script call 
+# Created date is after date begin date passed in with script call
 # and before end date passed in with script call
 #
 # Example call: new-files.sh 2016-01-29 2016-04-05
@@ -17,7 +17,7 @@
 #       create_date is between begin and end dates (from the script arguments)
 #
 # Updates:
-# 7/10/17: remove criteria that create date and modified date must be the same 
+# 7/10/17: remove criteria that create date and modified date must be the same
 
 
 # assign date arguments to variables
@@ -44,7 +44,7 @@ do
    amdate=`echo $mdate | awk -F\' '{print $2}'`
 
 # if create date is between the begin and end dates passed in - proceed
-  if [[ "$acdate" > "$begdate" ]] && [[ "$acdate" < "$enddate" ]] ; 
+  if [[ "$acdate" > "$begdate" ]] && [[ "$acdate" < "$enddate" ]] ;
   then
 # print out all newly created files
      echo "File created: " $acdate " " $f;
