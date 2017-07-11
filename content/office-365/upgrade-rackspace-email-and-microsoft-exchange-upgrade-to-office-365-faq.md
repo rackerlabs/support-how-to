@@ -47,13 +47,13 @@ Yes. Your invoice will reflect fees for both environments while they remain acti
 
 #### Is there be downtime during the migration?
 
+No. When we migrate your data, you will continue to use your Microsoft Exchange or Rackspace Email mailboxes until you change your domain's DNS records to receive mail at your new Office 365 mailboxes.
+
+#### Does Rackspace update the customer’s DNS records?
+
 No. Admins are responsible for updating their domain's DNS records. The migration specialist provides you with a list of records that must be updated. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
 
-#### Will Rackspace update the customer’s DNS records?
-
-No, the Admin is responsible for updating their domain's DNS records. The migration specialist will provide you with a list of records that need to be updated. Rackspace does not have access to your externally hosted DNS and is not able to accept access to external DNS hosting accounts due to privacy and security reasons.
-
-If you use the self-service migration tool, follow the instructions in [Add your domain in Office 365](/how-to/add-a-domain-in-office-365/) to update your domain's DNS records
+If you use the self-service migration tool, follow the instructions in [Add your domain in Office 365](/how-to/add-a-domain-in-office-365) to update your domain's DNS records.
 
 #### Are my Rackspace Email or Microsoft Exchange passwords migrated over?
 
