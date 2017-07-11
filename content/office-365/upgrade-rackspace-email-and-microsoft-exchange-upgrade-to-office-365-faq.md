@@ -29,13 +29,13 @@ Administrators add the Office 365 licenses to their account and create their new
  - [Create your Office 365 Tenant](/how-to/set-up-office-365#create-a-tenant-id)
  - [Add your domain in Office 365](/how-to/add-a-domain-in-office-365)
  - [Add an Office 365 license](/how-to/add-an-office-365-license)
- - [Assign an Office 365 license to a user](how-to/add-an-office-365-license#assign-an-office-365-license-to-a-user)
+ - [Assign an Office 365 license to a user](/how-to/add-an-office-365-license#assign-an-office-365-license-to-a-user)
 
 **Note:** You must complete these steps before self-migrating or requesting an assisted migration.
 
 #### Can the Rackspace Migrations Team migrate my data?
 
-Yes! Admins can request Assisted Migration with our team or use the [Self-Service Migration Tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) located within the [Cloud Office Control Panel](cp.rackspace.com). Admins are responsible for re-creating their entire environment within Office 365 and the Migrations team migrates the email data by using MigrationWiz.
+Yes! Admins can request Assisted Migration with our team or use the [Self-Service Migration tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) located within the [Cloud Office Control Panel](cp.rackspace.com). Admins are responsible for re-creating their entire environment within Office 365 and the Migrations team migrates the email data by using MigrationWiz.
 
 #### Do my users have to create new profiles for their desktop mail clients and mobile devices?
 
