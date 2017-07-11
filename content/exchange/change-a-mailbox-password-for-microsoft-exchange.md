@@ -48,7 +48,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 3. In the mailbox list, click the mailbox name for which you want to change the password.
 
-   <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/CPpasswordResetCPSC2.png %}" />
+   <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/CPpasswordResetSC2.png %}" />
 
 4. Under **User Details**, enter the following information:
 
@@ -59,7 +59,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 5. Click **Save**.
 
-   <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/CPpasswordResetCPSC3.png %}" />
+   <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/CPpasswordResetSC3.png %}" />
 
 **Warning:** After the password has been changed, the user must update the password on all devices that connect to this mailbox. If the password is not updated on *every* device, the mailbox will lock itself and users cannot access their email.
 
