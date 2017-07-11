@@ -5,7 +5,7 @@ title: Change a Rackspace Email mailbox password
 type: article
 created_date: '2017-06-19'
 created_by: William Loy
-last_modified_date: '2017-07-10]1'
+last_modified_date: '2017-07-11'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
