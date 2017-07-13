@@ -22,9 +22,6 @@ This article describes how to delete a Microsoft Exchange mailbox in the Cloud O
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-you should be absolutely certain that you do not need any of the data stored in the mailbox. If you do need data in the mailbox,
-you must export the data before deleting the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology) such as Outlook.
-
 ### Disable vs. delete
 
 It is important to know the difference between disabling a mailbox and deleting a mailbox.
@@ -33,7 +30,7 @@ It is important to know the difference between disabling a mailbox and deleting 
 
 **Delete a mailbox**: Removes that mailbox and all of it's data from Rackspace's servers. After you have deleted a mailbox, you must contact support to have that change reflected on your bill.
 
-You should be absolutely certain that you do not need any of the data stored in the mailbox. If you do need data in the mailbox, you must export the data before deleting the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology) such as Outlook.
+You should be certain that you do not need any of the data stored in the mailbox. If you do need data in the mailbox, you must export the data before deleting the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology) such as Outlook.
 
 
 ### How to delete a mailbox
@@ -45,7 +42,6 @@ You should be absolutely certain that you do not need any of the data stored in 
 
 
 3.	If you have multiple domains, select the domain that contains the mailbox you want to delete.
-
 4. In the domains screen, check the box to the left of the mailbox that you want to delete.
 
 **Warning:** A deleted mailbox can only be recovered for 14 days. For more information, see [Recover a deleted Microsoft Exchange mailbox](/how-to/recover-a-deleted-microsoft-exchange-mailbox/).
@@ -54,4 +50,4 @@ You should be absolutely certain that you do not need any of the data stored in 
 
    <img src="{% asset_path exchange/delete-a-microsoft-exchange-mailbox/delete-hexbox-sc2.png %}" />
 
-  A box appears asking you to confirm the deletion. To confirm, click **Delete Mailboxes**.  
+   A box appears asking you to confirm the deletion. To confirm, click **Delete Mailboxes**.  
