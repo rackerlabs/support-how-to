@@ -53,6 +53,6 @@ You should be certain that you do not need any of the data stored in the mailbox
 
 5. Expand the **Select Action** drop down menu at the bottom of the mailbox list and select **Delete Mailboxes**.
 
-   <img src="{% asset_path rackspace-email/add-rackspace-email-mailboxes/delete-rse-box-sc2.png %}" />
+   <img src="{% asset_path rackspace-email/delete-a-rackspace-email-mailbox/delete-rse-box-sc2.png %}" />
 
 6. A box will appear asking you to confirm the deletion. Read the notes in the box and click **Delete Mailboxes** if there is no conflict.  
