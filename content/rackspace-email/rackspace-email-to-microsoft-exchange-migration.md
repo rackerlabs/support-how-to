@@ -58,7 +58,7 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
 
 3. Instruct all of your users to verify that they can find all of their email in [apps.rackspace.com](https://apps.rackspace.com/index.php).
-    - The mail stored in apps.rackspace.com is all that will be migrated. If a user notices mail is missing in apps.rackspace.com, they might be storing mail locally.
+    - The mail stored in apps.rackspace.com is what will be migrated. If a user notices mail is missing in apps.rackspace.com, they might be storing mail locally.
     Theses users will need to import the locally stored email into their Rackspace Email IMAP account before migrating.
     - Are any users utilizing a POP connection to their mailbox?
     - In either case the instructions [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/) for Windows users or
@@ -66,14 +66,13 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
 4. Remove special characters from folder names.
 
-    - Folders names with special characters—such as commas ( , ), periods ( . ), slashes ( / ), and ampersands ( & )—cause migration issues.
-    - Before you begin migrating, revise folder names with special characters to use only alphanumeric characters.
+    - Folder names with special characters—such as commas ( , ), periods ( . ), slashes ( / ), and ampersands ( & )—cause migration issues.
+    - Before you begin migrating, change folder names with special characters to use only alphanumeric characters.
 
-    Example folder name: "**1.Inbox**"  The (.) will cause migration problems.
+    Example bad folder name: "**1.Inbox**"  The (.) will cause migration problems.
 
 5.  Mac users
-    -  Mac users require special preparation when migrating from Rackspace Email to Microsoft Exchange. This is because Apple Mail interacts with IMAP and POP connections
-    in such a way that does not translate properly to Microsoft Exchange.[Prepare your Mac users for Microsoft Exchange](/how-to/prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration/)
+    -  Mac users require special preparation when migrating from Rackspace Email to Microsoft Exchange. [Prepare your Mac users for Microsoft Exchange](/how-to/prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration/)
 
 ### Items migrated
 
@@ -146,6 +145,6 @@ Once you are notified that the migration has been completed there are final step
 
 3. Users will need to configure their [mail client](/how-to/cloud-office-support-terminology/) on all devices to connect to their new mailbox. This includes desktop and mobile devices. Users can obtain instructions to configure their mail clients at [emailhelp.rackspace.com](https://emailhelp.rackspace.com/)
 
-     Warning: If users do not configure their mail client to connect to the new mailbox they will not receive new mail in their mail client.
+     Warning: If users do not configure their mail client to connect to the new Microsoft Exchange mailbox they will not receive new mail in their mail client.
 
 4. When you have confirmed that all of your data has been successfully migrated, you can request via ticket to have the remaining Rackspace Email licenses removed from your account.
