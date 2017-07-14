@@ -40,7 +40,6 @@ If you need any of the data in the mailbox, you must export the data before you 
    <img src="{% asset_path exchange/delete-a-microsoft-exchange-mailbox/delete-hexbox-sc1.png %}" />
 
 3.	If you have multiple domains, select the domain that contains the mailbox that you want to delete.
-
 4. Select the check box next to the mailbox that you want to delete.
 
    **Warning:** A deleted mailbox can only be recovered for 14 days. For more information, see [Recover a deleted Microsoft Exchange mailbox](/how-to/recover-a-deleted-microsoft-exchange-mailbox/).
@@ -49,6 +48,6 @@ If you need any of the data in the mailbox, you must export the data before you 
 
    <img src="{% asset_path exchange/delete-a-microsoft-exchange-mailbox/delete-hexbox-sc2.png %}" />
 
-6. Read the information in the popup box that appears, and if there is no conflict, click **Delete 1 mailbox**.
+6. Read the information in the popup box that appears. If there is no conflict, click **Delete 1 mailbox**.
 
 7. Contact support to confirm your deletion.
