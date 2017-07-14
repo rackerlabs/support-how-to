@@ -40,7 +40,7 @@ If you need any of the data in the mailbox, you must export the data before you 
 
 ### Delete a mailbox
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 
 2. In the Rackspace Email section, click **Mailboxes**.
 
