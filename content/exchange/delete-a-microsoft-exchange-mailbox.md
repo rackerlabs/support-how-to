@@ -28,11 +28,9 @@ It is important to know the difference between disabling a mailbox and deleting 
 
 - Disabling a mailbox prevents access to the mailbox. When a mailbox is disabled, it remains on your account and you continue to be billed for it. The mailbox retains its previous data and receives new mail sent to it.
 
-- Deleting a mailbox removes that mailbox and all of its data from Rackspace's
-servers. After you have deleted a mailbox, you must contact Support to have that change reflected on your bill.
+- Deleting a mailbox removes that mailbox and all of its data from Rackspace's servers. After you have deleted a mailbox, you must contact Support to have that change reflected on your bill.
 
 If you need any of the data in the mailbox, you must export the data before you delete the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology) such as Outlook.
-
 
 ### Delete a mailbox
 
@@ -40,7 +38,6 @@ If you need any of the data in the mailbox, you must export the data before you 
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
    <img src="{% asset_path exchange/delete-a-microsoft-exchange-mailbox/delete-hexbox-sc1.png %}" />
-
 
 3.	If you have multiple domains, select the domain that contains the mailbox that you want to delete.
 
