@@ -5,14 +5,13 @@ title: Migrate your email by using the Self-Service Migration Tool
 type: article
 created_date: '2013-03-18'
 created_by: William Loy
-last_modified_date: '2017-06-30'
-last_modified_by: William Loy
+last_modified_date: '2017-07-17'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Use the Self-Service Migration Tool provided in the Cloud Office Control Panel to copy email data from your
-current provider to Rackspace Email, Rackspace Hosted Exchange, or Rackspace Office 365.
+Use the Self-Service Migration Tool provided in the Cloud Office Control Panel to copy email data from your current provider to Rackspace Email, Rackspace Hosted Exchange, or Rackspace Office 365.
 
 ### Prerequisites
 
@@ -22,17 +21,11 @@ current provider to Rackspace Email, Rackspace Hosted Exchange, or Rackspace Off
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-**Note**: Some of the features that are present in the full version of
-MigrationWiz (at migrationwiz.com) are not available within the
-Self-Service Migration Tool. If you want to use the full version, see
-[Accessing the full version of MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
-
+**Note**: Some of the full version features of MigrationWiz (at migrationwiz.com) are not available within the Self-Service Migration Tool. If you want to use the full version, see [Accessing the full version of MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
 
 ### Create mailboxes
 
-Before you begin your migration, you need to create your mailboxes on
-the Rackspace environment. The migration tool does not create your
-mailboxes for you.
+Before you begin your migration, you must create your mailboxes on the Rackspace environment. The migration tool does not create your mailboxes for you.
 
 Use the following resources to help you create your mailboxes:
 
@@ -43,7 +36,7 @@ Use the following resources to help you create your mailboxes:
   - [Add users](https://support.office.com/en-US/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)
   - [Create shared mailboxes](https://support.office.com/en-us/article/Create-shared-mailboxes-in-Office-365-871a246d-3acd-4bba-948e-5de8be0544c9)
 
-Note: You will need the email address, and password for every mailbox you create for the self-migration tool later.
+**Note:** You will need the email address, and password for every mailbox you create for the self-migration tool later.
 
 ### Migration requirements
 
@@ -63,11 +56,9 @@ Note: You will need the email address, and password for every mailbox you create
 
 6. Inform users to refrain from changing their passwords during the migration process.
 
-Note: Users must reconfigure Outlook, [mail clients](/how-to/cloud-office-support-terminology/), and mobile devices, after the migration is complete to connect to their mailbox at Rackspace. Users can visit https://emailhelp.rackspace.com for configuration instructions.
+**Note:** Users must reconfigure Outlook, [mail clients](/how-to/cloud-office-support-terminology/), and mobile devices, after the migration is complete to connect to their mailbox at Rackspace. Users can visit https://emailhelp.rackspace.com for configuration instructions.
 
-Warning: For more information about the migration preparation required for POP, IMAP, and Exchange servers, see [Prepare for POP, IMAP, and Exchange mail servers for migration](/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/)
-
-
+For more information about the migration preparation required for POP, IMAP, and Exchange servers, see [Prepare for POP, IMAP, and Exchange mail servers for migration](/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/)
 
 ### Migrate your email
 
@@ -82,7 +73,7 @@ Warning: For more information about the migration preparation required for POP, 
     the Terms of Service (BitTitan is MigrationWiz), and then click
     **Login**.
 
-    <!--add screen shot file MigWizSC1.png-->
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/MigWizSC1.png %}" />
 
     A notification informs you that an email with a secure link has been
     sent to your email address. Follow the instructions in the email to
