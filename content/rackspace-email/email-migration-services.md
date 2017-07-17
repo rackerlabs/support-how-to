@@ -27,11 +27,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 ### External migration services
 
 If you are a new customer and require email data to be migrated from another provider, we can help. We provide two migration
-support options to make your transition as easy as possible.
+support options to make your transition as easy as possible: self-service migration, and assisted migration.
 
-#### Option 1: Self-service migration
+#### Self-service migration
 
-Run your migration at any time of the day or night with MigrationWiz, which is available within the Cloud Office Control Panel. [Click here for instructions](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/).
+Run your migration at any time of the day or night with MigrationWiz, which you can access in the Cloud Office Control Panel. For instructions on how to use MigrationWiz, see [Migrate your email by using the self-service migration tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/).
 
 The benefits of using the self-migration tool:
 
@@ -44,9 +44,9 @@ The benefits of using the self-migration tool:
 -   Can be accessed from any Internet browser
 -   24x7 ***Fanatical Support***<sup>&reg;</sup> provided by a team of email experts
 
-Note: Current customers seeking to upgrade to our Office 365 solution should review [Rackspace Email and Microsoft Exchange upgrade to Office 365 FAQ](/how-to/rackspace-email-and-microsoft-exchange-upgrade-to-office-365-faq/) for questions and instructions on the process.
+**Note:** Current customers seeking to upgrade to Office 365 should review [Rackspace Email and Microsoft Exchange upgrade to Office 365 FAQ](/how-to/rackspace-email-and-microsoft-exchange-upgrade-to-office-365-faq/) for questions and instructions on the process.
 
-#### Option 2: Assisted migration
+#### Assisted migration
 
 Assisted migrations are ideal for companies that need help consulting,
 planning, and scheduling a migration project. Our assisted migration
@@ -72,10 +72,9 @@ our services:
 
 | Current Service    | Rackspace service | Mail inbox | Mail subfolders | Contacts | Calendar | Tasks | Notes |
 |--------------------|-------------------|------------|-----------------|----------|----------|-------|-------|
-| **POP**                |&#10003;                 |            |                 |          |          |       |       |
-| **IMAP**               | &#10003;                 | &#10003;          | &#10003;               |          |          |       |       |
-| **Microsoft Exchange or Office 365** | &#10003;                 | &#10003;          | &#10003;               | &#10003;        | &#10003;        | &#10003;     | &#10003;     |
-
+| **POP**            |&#10003;           |            |                 |          |          |       |       |
+| **IMAP**           | &#10003;          | &#10003;   | &#10003;        |          |          |       |       |
+| **Microsoft Exchange or Office 365** | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 
 ### Rackspace archive services
 
@@ -84,15 +83,9 @@ our services:
 |**Cost**| &#36;6 per GB via FTP |  - &#36;6 per GB EML format<br/><br/> - &#36;9 per GB PST format |  
 
 
-
 ### Internal migration services
 
-Do you have an employee who is going through a name change and needs an
-email account renamed? Does your company need a domain rename? Do you
-want to switch to a new email platform or upgrade from an older one? Our
-internal migration services help you to perform these tasks. Simply
-submit a request via a ticket and we'll take care of the rest.
-
+The Rackspace internal migration services can help you rename email accounts, change domain names, switch to a new email platform, and more. Submit a request via a ticket and we'll take care of the rest.
 
 | Service | Cost | Notes |How to request migration|
 | --- | --- | --- | --- |
@@ -102,11 +95,9 @@ submit a request via a ticket and we'll take care of the rest.
 | **Hosted Exchange Mailbox rename** | No charge | [Rackspace Email  mailboxes can be renamed inside your mail control panel.](/how-to/rename-a-rackspace-email-mailbox/) | Submit a support ticket requesting this service. |
 | **Mailbox data migrations** | No charge | Migrate data from **OneUser@domain**.com to **DifferentUser@domain**.com. | Submit a support ticket requesting this service. |
 
-
-
 **Note**: Charges for internal migration services are applied to the
 next month's statement.
 
 #### Self-service Exchange Upgrade Tool
 
-Customers can now schedule and run their own Hosted Exchange upgrades at rackspacemigrations.com. For more information, see the article [Upgrading to Exchange 2016](/how-to/upgrading-to-exchange-2016/).
+Customers can schedule and run their own Hosted Exchange upgrades at rackspacemigrations.com. For more information, see [Upgrading to Exchange 2016](/how-to/upgrading-to-exchange-2016/).
