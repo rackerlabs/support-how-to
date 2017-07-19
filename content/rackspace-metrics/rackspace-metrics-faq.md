@@ -1,11 +1,11 @@
 ---
 permalink: rackspace-metrics-faq/
-audit_date: '2016-07-19'
+audit_date: '2017-07-19'
 title: Rackspace Metrics FAQ
 type: article
 created_date: '2015-05-06'
 created_by: Constanze Kratel
-last_modified_date: '2016-07-19'
+last_modified_date: '2017-07-19'
 last_modified_by: Nate Archer
 product: Rackspace Metrics
 product_url: rackspace-metrics
