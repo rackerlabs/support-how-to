@@ -5,8 +5,8 @@ title: Upgrade to Rackspace Email Plus
 type: article
 created_date: '2017-06-20'
 created_by: William Loy
-last_modified_date: '2017-06-23'
-last_modified_by: William Loy
+last_modified_date: '2017-07-20'
+last_modified_by: Nate Archer
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -52,5 +52,5 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 5. When the domain has successfully upgraded to, you are taken back to the mailbox list and see a note appears stating *"Success! All Rackspace Email users on yourdomainexample.com have been upgraded to Rackspace Email Plus."*
 
-**Warning:** Please allow at least 15 minutes for the upgrade to complete before making any further changes.  
+  
 
