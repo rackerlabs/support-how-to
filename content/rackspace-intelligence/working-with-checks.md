@@ -5,8 +5,8 @@ title: Understand and work with checks
 type: article
 created_date: '2015-08-05'
 created_by: Constanze Kratel
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2016-07-20'
+last_modified_by: Nate Archer
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
@@ -18,7 +18,7 @@ checks.
 Each check has a designated *type*. The check type instructs the
 monitoring system how to check the monitored resource. For more
 information, see [Check
-types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#check-types).
+types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#check-types-ref).
 
 Check types are divided into two categories: agent checks and remote checks.
 
@@ -31,8 +31,8 @@ For example, a **Memory** check can trigger an alarm if it detects
 memory usage above a specified percentage. Agent checks require the
 monitoring agent to be installed on the server. For a list of
 available agent check types, see
-[Agent check types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-check-types).
-For information on how to install the monitoring agent, see [Install and configure](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-install-configure).
+[Agent check types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-type-ref).
+For information on how to install the monitoring agent, see [Install and configure](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/install-configure/).
 
 Rackspace Intelligence supports the following types of agent checks:
 
@@ -62,7 +62,7 @@ For example, a **Ping** check can trigger an alarm if it detects packet
 loss above a specified percentage. For a list of available remote
 checks, see
 [Remote check types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-check-type-ref).
-For information on how to install the monitoring agent, see [Install and configure](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-install-configure).
+For information on how to install the monitoring agent, see [Install and configure](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/install-configure/).
 
 Rackspace Intelligence supports the following types of remote checks:
 
