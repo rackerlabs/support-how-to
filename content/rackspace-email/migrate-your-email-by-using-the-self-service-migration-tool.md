@@ -17,6 +17,7 @@ Use the Self-Service Migration Tool provided in the Cloud Office Control Panel t
 
 - **Applies to:** Administrator
 - **Difficulty:** Moderate
+- **Time needed:** Up to several hours, depending on how much data is migrated
 - **Tools required:** Cloud Office Control Panel access, DNS host Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
