@@ -108,17 +108,9 @@ Security groups act as a distributed firewall for your Cloud Server instances. A
 
 Prior to the release of this feature, users had to manage traffic to and from their instances individually via iptables rules (as an example) on every instance, or perhaps use third-party tools such as CloudPassage. Managing firewall policies involves significant overhead. Security groups make it possible to use a self-service API to define a common set of rules and apply them to the servers without needing to manage iptables rules on each server. Security groups simplify security policy administration for customers across their deployments.
 
-#### What is being launched?
-
-We are launching security groups as limited availability in all data centers, so customers can request the security groups feature and receive provisioned endpoints in their service catalog. Security groups are supported for Managed Infrastructure (non RackConnect) customers at launch.
-
-#### What features are supported at launch?
-
-With the limited availability launch in early 2015, we support inbound and outbound security groups on both PublicNet and ServiceNet interfaces. This means that customers can filter incoming traffic to their PublicNet and ServiceNet ports.
-
 #### Is this feature available to all Rackspace Cloud customers?
 
-No. This feature is currently in limited availability in all data centers. Please contact Rackspace support or your Account Manager to request access.
+Yes, the security groups feature is available to all customers.
 
 #### What limitations does the feature currently have?
 
@@ -150,7 +142,7 @@ Traffic that matches the new security group rule is allowed to go through.
 
 #### Can traffic be blocked or denied based on a security group rule?
 
-No. Traffic that matches a rule is permitted, and any traffic that is not part of the ruleset for that security group is denied or blocked. Because of OpenStack API design requirements, you cannot specify that traffic matching a rule should be denied. The security groups API is a whitelist. Thus, traffic that doesn't match any of the rules in the whitelist is automatically blacklisted.
+Traffic that matches a rule is permitted. Any traffic that is not part of the ruleset for that Security Group is denied / blocked. There is no way to specify that traffic matching a rule should be denied. This is how the OpenStack Security Groups API was designed. Hence the Security Groups API is a white-list. Traffic that doesn't match any of the rules in the white-list is automatically black-listed.
 
 #### Is there any traffic that is permitted or allowed by default by security groups?
 
@@ -179,10 +171,6 @@ No. Security groups are applied to a Neutron port on a network that is attached 
 - You can apply up to 5 security groups per port.
 - You can have up to 20 security group rules per security group
 - You can have up to 100 security group rules (aggregate) per user during the limited availability release.
-
-#### Can I have traffic blocked or denied based on a Security Group rule?
-
-Traffic that matches a rule is permitted. Any traffic that is not part of the ruleset for that Security Group is denied / blocked. There is no way to specify that traffic matching a rule should be denied. This is how the OpenStack Security Groups API was designed. Hence the Security Groups API is a white-list. Traffic that doesn't match any of the rules in the white-list is automatically black-listed.
 
 ---------
 
