@@ -37,11 +37,7 @@ A widget is a component of the custom dashboard that is customized to show the m
 
 #### Performance Graphs
 
-Performance graphs show the relation between various check types and metrics for specific entities.
-
-For more information about check types, see [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/).
-
-For more information about metrics, see [Rackspace Monitoring API reference - Metrics](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
+Performance graphs show the relation between various check types and metrics for specific entities. For more information about check types, see [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/). For more information about metrics, see [Rackspace Monitoring API reference - Metrics](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
 
 Use the following process to add a performance graph to your custom dashboard:
 
@@ -56,7 +52,6 @@ Use the following process to add a performance graph to your custom dashboard:
 2. In the add widget screen, select one of the following tabs:
 
    1. **Explore a Metric**: Creates a performance graph that focuses one check type and one metric. The graph compares that metric across multiple entities (or device such as server or database).
-
    2. **Explore an Entity**: Creates a performance graph with one entity and one check type. The graph examines multiple metrics for the selected entity.
 
 3. Select the values for your graph(s) from the list of options:
@@ -73,11 +68,12 @@ Use the following process to add a performance graph to your custom dashboard:
 
 5. Set your graph(s) x-axis to visualize metrics for either a preset amount of time or a custom amount of time.
 
-   For a preset amount of time, select **Presets** and then the amount of preset time you want to visualize. You can chose any of the following time spans: 1 hour (*1 hr*) , 8 hr (*8 hr*), one day (*day*), one week (*wk*), or one month (*mo*).
+   For a preset amount of time, select **Presets** and then the amount of preset time you want to visualize. You can chose any of the following time spans: 1 hour (**1 hr**) , 8 hours (**8 hr**), one day (**day**), one week (**wk**), or one month (**mo**).
 
    For a custom amount of time, select **Custom**, and then the specific date and time for which you want to visualize your metrics. After you have selected the desired time span, click **Apply**.
 
-6. Enter a name for your widget and then select either **Add Graph** to add the widget to your custom dashboard, or **Add and View Graph** to immediately view your created widget on the custom dashboard.
+6. Enter a name for your widget.
+7. Select either **Add Graph** to add the widget to your custom dashboard, or **Add and View Graph** to immediately view your created widget on the custom dashboard.
 
 #### Monitoring alerts
 
@@ -92,8 +88,8 @@ Use the following process to add a monitoring alert widget to your custom dashbo
    - **All Alerts (Last 7 Days) Shows a list of all alerts that triggered in the last 7 days**
 
 3. After you have selected the type of alerts you want the widget to show, click **Preview**. A preview of the widget appears under the selection table.
-
-4. Enter a name for your widget, and then select either **Add Graph** to add the widget to your custom dashboard, or **Add and View Graph** to immediately view your created widget on the custom dashboard.
+4. Enter a name for your widget.
+5. Select either **Add Graph** to add the widget to your custom dashboard, or **Add and View Graph** to immediately view your created widget on the custom dashboard.
 
 ### Access and edit a custom dashboard
 
