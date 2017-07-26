@@ -11,9 +11,9 @@ product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
 
-Rackspace Intelligence custom dashboards enable user's to create to get a better view of their infrastructure through customized graphs and alerts.
+Rackspace Intelligence custom dashboards enable users to create to get a better view of their infrastructure through customized graphs and alerts.
 
-Custom dashboards use the same checks and metrics that are used by Rackspace Monitoring. Create multiple dashboards to address different needs. If you to understand how servers in an application are performing, create a dashboard with graphs and alerting information for the servers in that application. Alternatively, create a dashboard to monitor specific metrics for database and production servers.
+Custom dashboards use the same checks and metrics that are available in Rackspace Monitoring. Create multiple dashboards to address different needs. If you need to understand how servers in an application are performing, create a dashboard with graphs and alerting information for the servers in that application. Alternatively, create a dashboard to monitor specific metrics for database and production servers.
 
 The following article provides instructions on how to create, access, and edit a custom dashboard.
 
