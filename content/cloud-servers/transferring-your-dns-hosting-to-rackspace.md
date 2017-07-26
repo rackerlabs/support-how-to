@@ -1,6 +1,6 @@
 ---
 permalink: transferring-your-dns-hosting-to-rackspace/
-audit_date: 2017-07-26
+audit_date: '2017-07-26'
 title: Transfer your DNS hosting to Rackspace
 type: article
 created_date: '2011-11-16'
