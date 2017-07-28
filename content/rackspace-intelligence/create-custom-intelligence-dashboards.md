@@ -1,6 +1,6 @@
 ---
 permalink: Create-custom-intelligence-dashboards/
-audit_date:
+audit_date: '2017-07-28'
 title: Create custom intelligence dashboards
 type: article
 created_date: '2017-07-25'
@@ -57,11 +57,9 @@ Use the following process to add a performance graph to your custom dashboard:
    **Note:** All check types, excluding remote checks, require the Rackspace Monitoring agent to be installed on the chosen entity before metrics are measured.
 
 4. Click **Generate Graphs**. A preview of the graph appears under the value selection table.
-
 5. Set the x-axis of the graphs to visualize metrics for either a preset amount of time or a custom amount of time.
 
    - For a preset amount of time, select **Presets** and then select the amount of preset time that you want to visualize. You can chose any of the following time spans: 1 hour (**1 hr**) , 8 hours (**8 hr**), one day (**day**), one week (**wk**), or one month (**mo**).
-
    - For a custom amount of time, select **Custom**, and then select the specific date and time for which you want to visualize your metrics. After you select the time span, click **Apply**.
 
 6. Enter a name for the widget.
@@ -76,8 +74,8 @@ Use the following process to add a monitoring alert widget to your custom dashbo
 1. Under **Categories**, click **Monitoring Alerts**.
 2. Select one of the following options:
 
-   - **Open Alerts Shows a list of alerts that are open right now and need to be addressed urgently**.
-   - **All Alerts (Last 7 Days) Shows a list of all alerts that triggered in the last 7 days**
+   - **Open Alerts**: Shows a list of alerts that are open right now and need to be addressed urgently
+   - **All Alerts**: (Last 7 Days) Shows a list of all alerts that triggered in the last 7 days
 
 3. Click **Preview**. A preview of the widget appears under the selection table.
 4. Enter a name for the widget.
