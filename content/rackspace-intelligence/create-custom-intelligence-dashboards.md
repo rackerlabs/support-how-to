@@ -1,7 +1,7 @@
 ---
-permalink: Create-a-custom-intelligence-dashboard/
+permalink: Create-custom-intelligence-dashboards/
 audit_date:
-title: Create a custom intelligence dashboard
+title: Create custom intelligence dashboards
 type: article
 created_date: '2017-07-25'
 created_by: Nate Archer
@@ -11,24 +11,20 @@ product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
 
-Rackspace Intelligence custom dashboards enable users to create to get a better view of their infrastructure through customized graphs and alerts.
+Rackspace Intelligence custom dashboards enable you to get a better view of your infrastructure through customized graphs and alerts.
 
-Custom dashboards use the same checks and metrics that are available in Rackspace Monitoring. Create multiple dashboards to address different needs. If you need to understand how servers in an application are performing, create a dashboard with graphs and alerting information for the servers in that application. Alternatively, create a dashboard to monitor specific metrics for database and production servers.
+You can create multiple dashboards to address different needs. For example, if you need to understand how servers in an application are performing, create a dashboard with graphs and alerting information for the servers in that application. Alternatively, create a dashboard to monitor specific metrics for database and production servers. Custom dashboards use the same checks and metrics that are available in Rackspace Monitoring.
 
-The following article provides instructions on how to create, access, and edit a custom dashboard.
+This following article provides instructions on how to create, access, and edit custom dashboards.
 
 ### Create a custom dashboard
 
-1. In the Cloud Control Panel, click **Servers** and select **Rackspace Intelligence** from the drop-down menu.
-2. From the Rackspace Intelligence page, click **Dashboard**.
-3. On the dashboard page, select **Custom**.
-4. Click **New Dashboard** to create a new custom dashboard name.
-5. Enter information for the following fields:
-
-   - **Dashboard Name**: A descriptive name for your dashboard
-   - **Description**: A brief description of your dashboard
-
-6. In the **Start From** dropdown menu, chose if you would like your dashboard to include any monitoring widgets by default.
+1. Log into the Cloud Control Panel.
+2. In the top navigation bar, select **Servers** > **Rackspace Intelligence**.
+3. At the top of the Rackspace Intelligence page, click **Dashboard**.
+4. In the dashboard page, click **Custom**.
+5. On the Create Your Custom Dashboard page, provide a descriptive name for your dashboard and a brief description of it.
+6. In the **Start From** menu, chose whether your dashboard should include any monitoring widgets by default.
 7. Click **Next step: Add widgets**.
 
 ### Add widgets to custom dashboard
