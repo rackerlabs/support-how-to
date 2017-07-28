@@ -27,51 +27,47 @@ This following article provides instructions on how to create, access, and edit 
 6. In the **Start From** menu, chose whether your dashboard should include any monitoring widgets by default.
 7. Click **Next step: Add widgets**.
 
-### Add widgets to custom dashboard
+### Add widgets to a custom dashboard
 
-A widget is a component of the custom dashboard that is customized to show the monitoring metrics for the check types or entities (instance or device) you select. Two categories of widgets are available, Performance Graphs and Monitoring Alerts.
+A widget is a component of a custom dashboard that is customized to show the monitoring metrics for the check types or entities (instance or device) that you select. Two kinds of widgets are available: performance graphs and monitoring alerts.
 
-#### Performance Graphs
+#### Add performance graphs
 
-Performance graphs show the relation between various check types and metrics for specific entities. For more information about check types, see [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/). For more information about metrics, see [Rackspace Monitoring API reference - Metrics](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
+Performance graphs show the relationships among various check types and metrics for specific entities. For more information about check types, see [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/). For more information about metrics, see the Metrics section of the [Rackspace Monitoring API reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
 
 Use the following process to add a performance graph to your custom dashboard:
 
-1. Click **Performance Graphs** under **Categories**.
+1. Under **Categories**, click **Performance Graphs**.
 
-    Check types and metrics are based off of the same check types and metrics in Rackspace Monitoring. Each check type contains it's own set of metrics.
+   Check types and metrics are based on the same check types and metrics in Rackspace Monitoring. Each check type contains its own set of metrics
 
-    For more information about check types, see [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/).
+2. Click one of the following tabs:
 
-    For more information about metrics, see [Rackspace Monitoring API reference - Metrics](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
+   - **Explore a Metric**: Creates a performance graph that focuses on one check type and one metric. The graph compares that metric across multiple entities (or devices such as servers or databases).
+   - **Explore an Entity**: Creates a performance graph with one entity and one check type. The graph examines multiple metrics for the selected entity.
 
-2. In the add widget screen, select one of the following tabs:
+3. Select the values for the graph or graphs from the list of options::
 
-   1. **Explore a Metric**: Creates a performance graph that focuses one check type and one metric. The graph compares that metric across multiple entities (or device such as server or database).
-   2. **Explore an Entity**: Creates a performance graph with one entity and one check type. The graph examines multiple metrics for the selected entity.
+   - If you selected the **Explore a Metric** tab, select one check type, one metric, and the **Entities** that you want to monitor.
 
-3. Select the values for your graph(s) from the list of options:
+      Every entity that you select is placed on a single graph by default. If you want to create individual graphs for each entity, clear the **Single graph for all Entities (Recommended)** check box.
 
-   1. If you selected the **Explore a Metric** tab, select one **Check**, one **Metric**, and the **Entities** for which you want to monitor.
+   - If you selected the **Explore an Entity** tab, select one entity, one check type, and the metrics that you want to measure.
 
-       Every entity that you select is placed on a single graph by default. If you want to create individual graphs for each entity, uncheck the **Single graph for all Entities (Recommended)** box.
+   **Note:** All check types, excluding remote checks, require the Rackspace Monitoring agent to be installed on the chosen entity before metrics are measured.
 
-   2. If you selected the **Explore an Entity** tab, select one **Entity**, one **Check**, and the **Metrics** for which want measure.
+4. Click **Generate Graphs**. A preview of the graph appears under the value selection table.
 
-   **Note:** All check types excluding Remote checks require the Rackspace Monitoring agent to be installed on the chosen Entity before metrics are measured.
+5. Set the x-axis of the graphs to visualize metrics for either a preset amount of time or a custom amount of time.
 
-4. Click **Generate Graphs**. A preview of your graph appears under the value selection table.
+   - For a preset amount of time, select **Presets** and then select the amount of preset time that you want to visualize. You can chose any of the following time spans: 1 hour (**1 hr**) , 8 hours (**8 hr**), one day (**day**), one week (**wk**), or one month (**mo**).
 
-5. Set your graph(s) x-axis to visualize metrics for either a preset amount of time or a custom amount of time.
+   - For a custom amount of time, select **Custom**, and then select the specific date and time for which you want to visualize your metrics. After you select the time span, click **Apply**.
 
-   For a preset amount of time, select **Presets** and then the amount of preset time you want to visualize. You can chose any of the following time spans: 1 hour (**1 hr**) , 8 hours (**8 hr**), one day (**day**), one week (**wk**), or one month (**mo**).
+6. Enter a name for the widget.
+7. To add the graph to the custom dashboard, click **Add Graph**. To add the graph to and immediately view it on the custom dashboard, click **Add and View Graph**.
 
-   For a custom amount of time, select **Custom**, and then the specific date and time for which you want to visualize your metrics. After you have selected the desired time span, click **Apply**.
-
-6. Enter a name for your widget.
-7. Select either **Add Graph** to add the widget to your custom dashboard, or **Add and View Graph** to immediately view your created widget on the custom dashboard.
-
-#### Monitoring alerts
+#### Add monitoring alerts
 
 Monitoring alerts show alerts generated by Rackspace Monitoring. The monitoring alert widget for custom dashboards displays more information about an alert than the default dashboard.
 
@@ -83,29 +79,29 @@ Use the following process to add a monitoring alert widget to your custom dashbo
    - **Open Alerts Shows a list of alerts that are open right now and need to be addressed urgently**.
    - **All Alerts (Last 7 Days) Shows a list of all alerts that triggered in the last 7 days**
 
-3. After you have selected the type of alerts you want the widget to show, click **Preview**. A preview of the widget appears under the selection table.
-4. Enter a name for your widget.
-5. Select either **Add Graph** to add the widget to your custom dashboard, or **Add and View Graph** to immediately view your created widget on the custom dashboard.
+3. Click **Preview**. A preview of the widget appears under the selection table.
+4. Enter a name for the widget.
+5. To add the alert to the custom dashboard, click **Add Alert**. To add the alert to and immediately view it on the custom dashboard, click **Add and View Alert**.
 
 ### Access and edit a custom dashboard
 
-After you have created your custom dashboard, you can access your dashboard using the following instructions:
+After you have created a custom dashboard, you can access and edit the dashboard as follows:
 
-1. In the Cloud Control Panel, click **Servers** and select **Rackspace Intelligence** from the drop-down menu.
-2. From the Rackspace Intelligence page, click **Dashboard**.
-3. On the dashboard page, select **Custom**.
-4. Select the custom dashboard you want to view in the drop-down menu.
+1. In the Cloud Control Panel, select **Servers** > **Rackspace Intelligence**.
+2. At the top of the Rackspace Intelligence page, click **Dashboard**.
+3. On the dashboard page, click **Custom**.
+4. Select the custom dashboard you want to view from the drop-down menu.
+5. If you want to change to a custom dashboard, click the **Actions** button at the top-right corner of the screen and select one of the following options:
 
-You can make changes to a custom dashboard by clicking the **Actions** button at the top right corner of the screen. You can make the following changes to your dashboard:
-
-- **Rename dashboard**: Change the name of the dashboard.
-- **Add Widgets to Dashboard**: Add a new performance graph or monitoring alert you the dashboard.
-- **Delete Dashboard**: Deletes the selected dashboard. There is no way to recover a dashboard after it is deleted.
-- **Delete Dashboard's Widgets**: Deletes a widget from your custom dashboard.
+  - **Rename dashboard**: Change the name of the dashboard.
+  - **Add Widgets to Dashboard**: Add a new performance graph or monitoring alert to the dashboard.
+  - **Delete Dashboard**: Deletes the selected dashboard. You can't recover a dashboard after it is deleted.
+  - **Delete Dashboard's Widgets**: Deletes a widget from your custom dashboard.
 
 ### Export a graph as a CSV file
 
-You can export any individual graph inside the widget of you custom dashboard as a CSV file. The CSV file contains the exact times and metrics visualized by the graph, allowing for a more comprehensive analysis of your infrastructure.
+You can export any individual graph inside the widget of a custom dashboard as a CSV file. The CSV file contains the exact times and metrics visualized by the graph, allowing for a more comprehensive analysis of your infrastructure.
 
-1. Click the gear icon on the right hand corner of the graph you wish to export.
-2. Select **Export as CSV**. The CSV file is saved onto your local machine.
+In the top-right corner of the graph that you want to export, click the gear icon and select Export as CSV.
+
+The CSV file is saved to your local computer.
