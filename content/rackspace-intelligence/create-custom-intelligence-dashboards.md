@@ -24,7 +24,7 @@ This following article provides instructions on how to create, access, and edit 
 3. At the top of the Rackspace Intelligence page, click **Dashboard**.
 4. In the dashboard page, click **Custom**.
 5. On the Create Your Custom Dashboard page, provide a descriptive name for your dashboard and a brief description of it.
-6. In the **Start From** menu, chose whether your dashboard should include any monitoring widgets by default.
+6. In the **Start From** menu, choose whether your dashboard should include any monitoring widgets by default.
 7. Click **Next step: Add widgets**.
 
 ### Add widgets to a custom dashboard
@@ -39,14 +39,14 @@ Use the following process to add a performance graph to your custom dashboard:
 
 1. Under **Categories**, click **Performance Graphs**.
 
-   Check types and metrics are based on the same check types and metrics in Rackspace Monitoring. Each check type contains its own set of metrics
+   Check types and metrics are based on the same check types and metrics in Rackspace Monitoring. Each check type contains its own set of metrics.
 
 2. Click one of the following tabs:
 
    - **Explore a Metric**: Creates a performance graph that focuses on one check type and one metric. The graph compares that metric across multiple entities (or devices such as servers or databases).
    - **Explore an Entity**: Creates a performance graph with one entity and one check type. The graph examines multiple metrics for the selected entity.
 
-3. Select the values for the graph or graphs from the list of options::
+3. Select the values for the graph or graphs from the list of options:
 
    - If you selected the **Explore a Metric** tab, select one check type, one metric, and the **Entities** that you want to monitor.
 
