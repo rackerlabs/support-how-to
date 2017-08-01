@@ -48,6 +48,7 @@ You can view all the available information for your cloud server through the Clo
 4. In the **Flavor** section, view server configuration information by first choosing the class of server--General Purpose, Compute, Memory, I/O, or Standard--and then using the slider bar to select the specific configuration.
 
    The following information is listed for each configuration:
+   
     - CPU - The number of vCPUs
     - RAM - The amount of RAM
     - Boot Source - Allows you to boot a server from a remotely attached volume, which moves the system disk from local to remote
