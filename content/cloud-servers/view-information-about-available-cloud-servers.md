@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In addition to viewing CPU, RAM, and disk space configuration information for available cloud servers, you can also view disk, I/O, and networking information. Use this information to help you decide which cloud server is right for you needs. You can view the available servers through either the command-line nova client or the Cloud Control Panel GUI.
+In addition to viewing CPU, RAM, and disk space configuration information for available cloud servers, you can also view disk, I/O, and networking information. Use this information to help you decide which cloud server is right for your needs. You can view the available servers through either the command-line nova client or the Cloud Control Panel GUI.
 
 ### View server information through novaclient
 
