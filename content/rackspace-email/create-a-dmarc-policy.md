@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Domain-based Message Authentication, Reporting & Conformance (DMARC) is used in conjunction with SPF and DKIM to help combat email spoofing. Spoofing is when a scammer uses your domain in the "from" field of an email to impersonate one of your users. DMARC uses a policy that is given to you by your email provider, and this policy tells the receiving email host how to treat emails sent from your domain based on the criteria you set. This mechanism also gives visibility into reports on what your domain is sending, and how receiving hosts are treating that mail.
+Domain-based Message Authentication, Reporting & Conformance (DMARC) is used in conjunction with SPF and DKIM to help combat email spoofing. Spoofing is when a scammer uses your domain in the "from" field of an email to impersonate one of your users. DMARC uses a policy that is given to by your email provider, and this policy tells the receiving email host how to treat emails sent from your domain based on the criteria you set. This mechanism also gives visibility into reports on what your domain is sending, and how receiving hosts are treating that mail.
 
 This article shows how to create a DMARC policy to use with Cloud Office.
 
@@ -28,7 +28,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Considerations for DMARC
 
-To set up DMARC the way that works best for you, answer these questions:
+To set up DMARC the way that works best for your needs, answer these questions:
 
 **How do you want illegitimate mail to be handled?**
 
@@ -36,11 +36,9 @@ Do you want it to be rejected outright, or do you want the message to be classif
 
 **How do these DMARC reports work, and where do you want them to be sent?**
 
-When the receiving host processes mail coming from your domain, they generate reports that get sent to the email address you specify in your policy. There will be more information on this reporting later on in this article.
+When the receiving host processes mail coming from the domain, they generate reports that get sent to the email address specified in the DMARC policy. 
     
-**Note:** DMARC enforces SPF and DKIM. DMARC will not be valuable unless you already have SPF and DKIM setup. If you aren't familiar with them, set up [SPF](/how-to/dns-record-definitions/#txt-record/) and [DKIM](/how-to/dns-record-definitions/#txt-record/) with these instructions.
-
-#### Set up a DMARC Policy to fit your needs:
+### Parts of a DMARC policies:
 
 Each part of the policy is defined as follows:
 
@@ -53,7 +51,7 @@ Each part of the policy is defined as follows:
   - **rua=** identifies the destination for the aggregate reports
   - **pct=100** specifies how much traffic should be subject to policy validation
 
-#### Create a DMARC Policy in your DNS Settings
+### Create a DMARC Policy in your DNS Settings
 
 **Note:** If your DNS is not hosted with us, you need access to your DNS provider to add the DMARC policy. If you do not know where your DNS is hosted, see [Find your DNS host](/how-to/find-your-dns-host/).
 
