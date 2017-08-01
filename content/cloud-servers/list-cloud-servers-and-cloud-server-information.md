@@ -1,11 +1,11 @@
 ---
 permalink: list-cloud-servers-and-cloud-server-information/
-audit_date:
-title: List Cloud Servers and Cloud Server Information
+audit_date: '2017-08-01'
+title: List Cloud Servers and Cloud Server information
 type: article
 created_date: '2013-10-23'
 created_by: Rose Contreras
-last_modified_date: '2016-07-05'
+last_modified_date: '2017-08-01'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -45,41 +45,51 @@ The server list contains the following information:
     (Cloud Networks) attached to a server
 -   Is_Public - Not used
 
-You will see one of the following possible result sets, depending on
-whether the region you selected supports General Purpose Cloud Servers:
-
-**Server list for General Purpose and Compute, I/O, or Memory servers**
-
-    +------------------+--------------------+-----------+------+-----------+------+-------+-------------+-----------+
-    | ID               | Name               | Memory_MB | Disk | Ephemeral | Swap | VCPUs | RXTX_Factor | Is_Public |
-    +------------------+--------------------+-----------+------+-----------+------+-------+-------------+-----------+
-    | 2                | 512 MB Standard    | 512       | 20   | 0         | 512  | 1     | 88.0        | N/A       |
-    | 3                | 1 GB Standard      | 1024      | 40   | 0         | 1024 | 1     | 120.0       | N/A       |
-    | 4                | 2 GB Standard      | 2048      | 80   | 0         | 2048 | 2     | 240.0       | N/A       |
-    | 5                | 4 GB Standard      | 4096      | 160  | 0         | 2048 | 2     | 400.0       | N/A       |
-    | 6                | 8 GB Standard      | 8192      | 320  | 0         | 2048 | 4     | 600.0       | N/A       |
-    | 7                | 15 GB Standard     | 15360     | 620  | 0         | 2048 | 6     | 800.0       | N/A       |
-    | 8                | 30 GB Standard     | 30720     | 1200 | 0         | 2048 | 8     | 1200.0      | N/A       |
-    | performance2-120 | 120 GB Performance | 122880    | 40   | 1200      |      | 32    | 10000.0     | N/A       |
-    | performance2-15  | 15 GB Performance  | 15360     | 40   | 150       |      | 4     | 1250.0      | N/A       |
-    | performance2-30  | 30 GB Performance  | 30720     | 40   | 300       |      | 8     | 2500.0      | N/A       |
-    | performance2-60  | 60 GB Performance  | 61440     | 40   | 600       |      | 16    | 5000.0      | N/A       |
-    | performance2-90  | 90 GB Performance  | 92160     | 40   | 900       |      | 24    | 7500.0      | N/A       |
-    +------------------+--------------------+-----------+------+-----------+------+-------+-------------+-----------+
-
-**Server list for only General Purpose servers**
-
-    +------------------+--------------------+-----------+------+-----------+------+-------+-------------+-----------+
-    | ID               | Name               | Memory_MB | Disk | Ephemeral | Swap | VCPUs | RXTX_Factor | Is_Public |
-    +------------------+--------------------+-----------+------+-----------+------+-------+-------------+-----------+
-    | 2                | 512 MB Standard    | 512       | 20   | 0         | 512  | 1     | 88.0        | N/A       |
-    | 3                | 1 GB Standard      | 1024      | 40   | 0         | 1024 | 1     | 120.0       | N/A       |
-    | 4                | 2 GB Standard      | 2048      | 80   | 0         | 2048 | 2     | 240.0       | N/A       |
-    | 5                | 4 GB Standard      | 4096      | 160  | 0         | 2048 | 2     | 400.0       | N/A       |
-    | 6                | 8 GB Standard      | 8192      | 320  | 0         | 2048 | 4     | 600.0       | N/A       |
-    | 7                | 15 GB Standard     | 15360     | 620  | 0         | 2048 | 6     | 800.0       | N/A       |
-    | 8                | 30 GB Standard     | 30720     | 1200 | 0         | 2048 | 8     | 1200.0      | N/A       |
-    +------------------+--------------------+-----------+------+-----------+------+-------+-------------+-----------+
+<pre><code>
++-------------------------+-----------------------------------+-----------+------+-----------+------+-------+-------------+-----------+
+| ID                      | Name                              | Memory_MB | Disk | Ephemeral | Swap | VCPUs | RXTX_Factor | Is_Public |
++-------------------------+-----------------------------------+-----------+------+-----------+------+-------+-------------+-----------+
+| 2                       | 512MB Standard Instance           | 512       | 20   | 0         |      | 1     |             | N/A       |
+| 3                       | 1GB Standard Instance             | 1024      | 40   | 0         |      | 1     |             | N/A       |
+| 4                       | 2GB Standard Instance             | 2048      | 80   | 0         |      | 2     |             | N/A       |
+| 5                       | 4GB Standard Instance             | 4096      | 160  | 0         |      | 2     |             | N/A       |
+| 6                       | 8GB Standard Instance             | 8192      | 320  | 0         |      | 4     |             | N/A       |
+| 7                       | 15GB Standard Instance            | 15360     | 620  | 0         |      | 6     |             | N/A       |
+| 8                       | 30GB Standard Instance            | 30720     | 1200 | 0         |      | 8     |             | N/A       |
+| compute1-15             | 15 GB Compute v1                  | 15360     | 0    | 0         |      | 8     |             | N/A       |
+| compute1-30             | 30 GB Compute v1                  | 30720     | 0    | 0         |      | 16    |             | N/A       |
+| compute1-4              | 3.75 GB Compute v1                | 3840      | 0    | 0         |      | 2     |             | N/A       |
+| compute1-60             | 60 GB Compute v1                  | 61440     | 0    | 0         |      | 32    |             | N/A       |
+| compute1-8              | 7.5 GB Compute v1                 | 7680      | 0    | 0         |      | 4     |             | N/A       |
+| general1-1              | 1 GB General Purpose v1           | 1024      | 20   | 0         |      | 1     |             | N/A       |
+| general1-2              | 2 GB General Purpose v1           | 2048      | 40   | 0         |      | 2     |             | N/A       |
+| general1-4              | 4 GB General Purpose v1           | 4096      | 80   | 0         |      | 4     |             | N/A       |
+| general1-8              | 8 GB General Purpose v1           | 8192      | 160  | 0         |      | 8     |             | N/A       |
+| io1-120                 | 120 GB I/O v1                     | 122880    | 40   | 1200      |      | 32    |             | N/A       |
+| io1-15                  | 15 GB I/O v1                      | 15360     | 40   | 150       |      | 4     |             | N/A       |
+| io1-30                  | 30 GB I/O v1                      | 30720     | 40   | 300       |      | 8     |             | N/A       |
+| io1-60                  | 60 GB I/O v1                      | 61440     | 40   | 600       |      | 16    |             | N/A       |
+| io1-90                  | 90 GB I/O v1                      | 92160     | 40   | 900       |      | 24    |             | N/A       |
+| memory1-120             | 120 GB Memory v1                  | 122880    | 0    | 0         |      | 16    |             | N/A       |
+| memory1-15              | 15 GB Memory v1                   | 15360     | 0    | 0         |      | 2     |             | N/A       |
+| memory1-240             | 240 GB Memory v1                  | 245760    | 0    | 0         |      | 32    |             | N/A       |
+| memory1-30              | 30 GB Memory v1                   | 30720     | 0    | 0         |      | 4     |             | N/A       |
+| memory1-60              | 60 GB Memory v1                   | 61440     | 0    | 0         |      | 8     |             | N/A       |
+| onmetal-general2-large  | OnMetal General Purpose v2 Large  | 131072    | 800  | 0         |      | 24    |             | N/A       |
+| onmetal-general2-medium | OnMetal General Purpose v2 Medium | 65536     | 800  | 0         |      | 24    |             | N/A       |
+| onmetal-general2-small  | OnMetal General Purpose v2 Small  | 32768     | 800  | 0         |      | 12    |             | N/A       |
+| onmetal-io2             | OnMetal I/O v2                    | 131072    | 240  | 3200      |      | 40    |             | N/A       |
+| performance1-1          | 1 GB Performance                  | 1024      | 20   | 0         |      | 1     |             | N/A       |
+| performance1-2          | 2 GB Performance                  | 2048      | 40   | 20        |      | 2     |             | N/A       |
+| performance1-4          | 4 GB Performance                  | 4096      | 40   | 40        |      | 4     |             | N/A       |
+| performance1-8          | 8 GB Performance                  | 8192      | 40   | 80        |      | 8     |             | N/A       |
+| performance2-120        | 120 GB Performance                | 122880    | 40   | 1200      |      | 32    |             | N/A       |
+| performance2-15         | 15 GB Performance                 | 15360     | 40   | 150       |      | 4     |             | N/A       |
+| performance2-30         | 30 GB Performance                 | 30720     | 40   | 300       |      | 8     |             | N/A       |
+| performance2-60         | 60 GB Performance                 | 61440     | 40   | 600       |      | 16    |             | N/A       |
+| performance2-90         | 90 GB Performance                 | 92160     | 40   | 900       |      | 24    |             | N/A       |
++-------------------------+-----------------------------------+-----------+------+-----------+------+-------+-------------+-----------+
+</code></pre>
 
 Copy the ID of the configuration that you want to use from the ID field.
 You need it to create your server. To create a cloud server with nova
