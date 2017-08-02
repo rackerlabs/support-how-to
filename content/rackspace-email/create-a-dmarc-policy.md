@@ -19,7 +19,7 @@ the receiving email host how to treat emails sent from your domain based on the 
 that you set. This mechanism also gives visibility into reports on what your domain is
 sending, and how receiving hosts are treating that mail.
 
-This article shows how to create a DMARC policy to use with Cloud Office
+This article shows how to create a DMARC policy to use with Cloud Office.
 
 ### Prerequisites
 
