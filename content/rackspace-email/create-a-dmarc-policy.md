@@ -89,7 +89,7 @@ Your new settings take 24 to 48 hours to propagate. For more information on prop
 Your DMARC policy is more valuable when you use an aggregator to help filter the
 content of the reports that are returned. Without an aggregator, the reports are in an
 XML format and are virtually unreadable. An aggregator formats this information and
-send out weekly reports to the email address specified, which contain the sending
+sends out weekly reports to the email address specified. The weekly report contains the sending
 source (domain or IP address) and information about whether the message passed or
 failed SPF and DKIM. This information enables you to monitor your domain's activity
 and helps to prevent spoofing and domain abuse.
