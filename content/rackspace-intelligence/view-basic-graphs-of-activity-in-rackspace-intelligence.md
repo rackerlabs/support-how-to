@@ -1,12 +1,12 @@
 ---
-permalink: viewing-basic-graphs-of-activity-in-rackspace-intelligence/
+permalink: view-basic-graphs-of-activity-in-rackspace-intelligence/
 audit_date:
 title: View basic graphs of activity in Rackspace Intelligence
 type: article
 created_date: '2015-07-16'
 created_by: Rose Coste
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-08-03'
+last_modified_by: Nate Archer
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
@@ -27,8 +27,6 @@ Graphs**.
 
 To view any of the default graphs for your entities**,** click
 **Rackspace Default** under **Graph Collections**.
-
-<img src="{% asset_path rackspace-intelligence/viewing-basic-graphs-of-activity-in-rackspace-intelligence/BG_Default.1.png %}" width="656" height="410" />
 
 To view a graph for a specific check, in the **Graphs by Check**
 section, click the name of the check for which you want to see the
