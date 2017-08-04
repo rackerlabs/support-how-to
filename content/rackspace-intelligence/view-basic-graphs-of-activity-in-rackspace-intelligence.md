@@ -1,6 +1,6 @@
 ---
 permalink: view-basic-graphs-of-activity-in-rackspace-intelligence/
-audit_date:
+audit_date: '2017-08-03'
 title: View basic graphs of activity in Rackspace Intelligence
 type: article
 created_date: '2015-07-16'
@@ -11,21 +11,18 @@ product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
 
-Rackspace Intelligence provides a set of predefined graphs that
-represent the activity of any metrics and checks that have been defined
-for your monitoring entities. Rackspace Intelligence now displays
-out-of-the-box graphs for all of your checks.
+Rackspace Intelligence provides a set of predefined graphs that show the activity of all
+the metrics and checks that have been defined for your monitoring entities. 
 
 If you want to explore a metric across multiple entities, consider using
-custom graphs. For more information, read [Creating custom graphs of activity in Rackspace Intelligence](/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence).
+custom graphs. For more information, see [Creating custom graphs of activity in Rackspace Intelligence](/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence).
 
-### View default graphs
+### View basic graphs
 
-To view the default graphs that are available for you, click
-**Visualize** at the top of the interface, and then click **Basic
-Graphs**.
+To view the predefined graphs that are available to you, click **Visualize** at the top
+of the interface, and then click **Basic Graphs**.
 
-To view any of the default graphs for your entities**,** click
+To view any of the default graphs for your entities, click
 **Rackspace Default** under **Graph Collections**.
 
 To view a graph for a specific check, in the **Graphs by Check**
@@ -39,7 +36,7 @@ A list of graphs are displayed that are available for your check.
 Rackspace Intelligence lets you specify one or more favorite graphs and
 filter for your favorites.
 
-To mark a graph as favorite, click the favorite icon to the left of the
+To mark a graph as favorite, click the star icon to the left of the
 title of the graph.
 
 To filter for your favorite graphs, click **Favorites** under **Graph
@@ -65,14 +62,9 @@ last time stamp.
 
 ### Adjust the layout of your graph page
 
-You can adjust the way your graphs are displayed on the page by
-selecting the appropriate display icon on the top right corner of the
-page.
-
-You can choose from one of the two display options:
-
--   *grid layout* - displays two graphs side by side
--   *linear layout* - displays your graphs in linear sequence
+You can adjust the way your graphs are displayed on the page by selecting the one of
+the display icons on the top-right corner of the page. You can choose to display graphs
+side-by-side in a grid or display them in a linear sequence. 
 
 The following example shows a grid layout:
 
