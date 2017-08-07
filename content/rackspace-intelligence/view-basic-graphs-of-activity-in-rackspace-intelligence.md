@@ -62,7 +62,7 @@ last time stamp.
 
 ### Adjust the layout of your graph page
 
-You can adjust the way your graphs are displayed on the page by selecting the one of
+You can adjust the way your graphs are displayed on the page by selecting one of
 the display icons on the top-right corner of the page. You can choose to display graphs
 side-by-side in a grid or display them in a linear sequence. 
 
