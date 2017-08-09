@@ -5,7 +5,7 @@ title: Use pivot tables with your Cloud billing invoice
 type: article
 created_date: '2015-03-24'
 created_by: David Hendler
-last_modified_date: '2017-07-14'
+last_modified_date: '2017-08-09'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -26,7 +26,6 @@ the following ways:
 -   **Pivot Example 1**: Sort by Service, Product Type, Impact (charge discount), and Resource
 -   **Pivot Example 2**: Sort by Service, Product Type, and Resource
 -   **Pivot Example 3**: Sort by Resource, Flavor, Server Type, Product, and Event
-
 
 1.  Select the spreadsheet that matches your spreadsheet application and
     download it:
@@ -50,7 +49,7 @@ the following ways:
     <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/2%20-%20billing_SelectAll_arrow.png %}" width="314" height="268" />
 
 9.  Copy the data to your clipboard.
-10.  Open the file that you downloaded in step 1.
+10. Open the file that you downloaded in step 1.
 11. Paste the CSV data into the **Invoice CSV Data** worksheet.
 
     <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/3%20-%20billing_csvTab_arrow.png %}" width="538" height="130" />
@@ -58,6 +57,37 @@ the following ways:
 12. In each of the three pivot tables (worksheets), right-click in the
     pivot table and select **Refresh**.
 13. Save the spreadsheet with a new name to your computer.
+
+### Open csv files in UTF-8 format
+
+Opening **.csv** files in UTF-8 format allows some special characters, such as **-**, to display correctly.
+
+**Windows uers**
+
+1. Open Microsoft Office Excel 2016.
+
+   **Note:** Do **not** double click on the **.csv** file to open it.
+
+2. In the **Data** tab, click **From Text/CSV**.
+3. Select the **.csv** file from the list of files that displays and then click **Import**.
+4. Select **65001 UTF-8** from the **File Origin** list, and then click **Load**.
+
+**Mac users**
+
+1. Open Microsoft Office Excel.
+2. In the **Data** tab, click **From Text**.
+3. Navigate to the location of the file that you want to import. Select the file and then click **Import**.
+
+   The Text Import Wizard starts.
+
+4. Choose the file type that best describes your data. In this case, select **Delimited**.
+5. Choose **65001: Unicode (UTF-8)** from the drop-down list next to **File origin**, and the click **Next**.
+6. Place a checkmark next to the delimiter that was used in the file that you want to import, and then click **Next**.
+
+   **Note:** The Data Preview window displays how your data will appear.
+
+7. Choose the appropriate data format for each column of data that you want to import. You can also choose not to import one or more columns of data.
+8. Click **Finish**.
 
 ### Video demos
 
@@ -68,7 +98,7 @@ The following videos show how to view your data in a pivot table:
 -   Import invoice into the Open Office spreadsheet
     ([download](http://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_open_office_pivot_tables_demo.mov))
 
-### About the CSV file
+### About the csv file
 
 **Billing Time Charges** under Cloud Servers is the charge for Saved
 Images. **Billing Time Charges** under Cloud Files is the charge for
