@@ -55,7 +55,7 @@ and click on **Load** (or **Finish** for Mac users).
 
 Result:
 
-    <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/resukt.png %}" width="314" height="200" />
+    <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/result.png %}" width="314" height="200" />
 
 11.  Click the small blank square at the top left of the spreadsheet to
     select all values.
