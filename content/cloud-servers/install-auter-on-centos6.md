@@ -18,7 +18,7 @@ This article show to install install and configure Auter, a package that provide
 ### Prerequisites
 
    - A CentOS 6 or RHEL server configured to use an EPEL repository. For instructions on how to configure an EPEL repository with your server,  see [Install and EPEL, IUS, and Remo repositories on CentOS and Red Hat](/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
-   - Your server must be able to successfully reboot with all necessary applications restarting automatically or able to be started by scripts.
+   - Your server must be able to successfully reboot with all necessary applications restarting automatically or able to be started using scripts.
 
 ### Limitations
 
@@ -41,8 +41,7 @@ This article uses steps for CentOS 6, so there may be some minor adjustments req
 
        AUTOREBOOT="yes"
 
-
-2. Configure update times. Update times are set via **/etc/cron.d/auter**. The default install comes with some examples, all of which are commented out. Remove the preceeding '#' from each line you want to apply. At a minimum you will need to uncomment one line from the 'Preparing package downloads' section and one line of the 'Executing updates' section. You can check enabled options using:
+2. Configure update times. Update times are set with a cron file found in the **/etc/cron.d/auter** directory. The default install comes with some examples, all of which are commented out. Remove the preceeding '#' from each line you want to apply. At a minimum you will need to uncomment one line from the 'Preparing package downloads' section and one line of the 'Executing updates' section. You can check enabled options using:
 
        egrep -v '^#|^$' /etc/cron.d/auter 
 
@@ -60,8 +59,7 @@ This article uses steps for CentOS 6, so there may be some minor adjustments req
        PREREBOOTSCRIPTDIR="/etc/auter/pre-reboot.d"
        POSTREBOOTSCRIPTDIR="/etc/auter/post-reboot.d"
 
-
-3. Test that your server will reboot without any errors. Run the following commands to manually perform an Auter patching run:
+3. Test that your server reboots without any errors. Run the following commands to manually perform an Auter patching run:
 
        auter --prep
        auter --apply
@@ -69,7 +67,7 @@ This article uses steps for CentOS 6, so there may be some minor adjustments req
 
 Auter is now configured on your system to automatically apply updates at the specified time and reboot the server after application.
 
-You can find more information about different configuration options in the auter man pages.
+You can find more information about different configuration options in the Auter man pages.
 
 ### Further information
 
