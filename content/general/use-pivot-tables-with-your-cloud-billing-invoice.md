@@ -21,10 +21,6 @@ Each pivot table provides the following data filters:
 -   **Pivot Example 2**: Sort by Service, Product Type, and Resource
 -   **Pivot Example 3**: Sort by Resource, Flavor, Server Type, Product, and Event
 
-**Note:** UK Cloud accounts cannot export the CSV format to pivot tables. We
-plan to make the CSV export feature available to UK Cloud accounts in
-September, 2016.
-
 ### View billing data in pivot tables
 
 1.  Select the pivot table spreadsheet from the following list that matches
