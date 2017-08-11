@@ -53,16 +53,16 @@ and click on **Load** (or **Finish** for Mac users).
 
     <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/step4.png %}" width="314" height="268" />
 
-Result:
+    Result:
 
-    <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/result.png %}" width="314" height="200" />
+    <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/result.png %}" width="690" height="153" />
 
-11.  Click the small blank square at the top left of the spreadsheet to
+11. Click the small blank square at the top left of the spreadsheet to
     select all values.
 
     <img src="{% asset_path general/use-pivot-tables-with-your-cloud-billing-invoice/2%20-%20billing_SelectAll_arrow.png %}" width="314" height="268" />
 
-12.  Copy the data to your clipboard.
+12. Copy the data to your clipboard.
 13. Open the spreadsheet file that you downloaded in step 1.
 14. Paste the CSV data into the **Invoice CSV Data** worksheet.
 
