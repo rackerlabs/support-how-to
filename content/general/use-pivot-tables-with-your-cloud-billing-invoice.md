@@ -33,15 +33,15 @@ your spreadsheet application and download it:
     -   OpenOffice
         ([download](http://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_open_office_pivot_tables.ods))
 
-Note: The following steps use the current version of Microsoft Excel on [Windows|Mac OSX].
-If you are using a different spreadsheet application version or a different OS,
-adjust your steps accordingly.
+    Note: The following steps use the current version of Microsoft Excel on [Windows|Mac OSX].
+    If you are using a different spreadsheet application version or a different OS,
+    adjust your steps accordingly.
 
 2.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 3.  In the top-right corner, click your user name, and then select **Billing Overview**.
 4.  Click **Billing History** > **Invoice Details**.
 5.  In the **Filter Invoice** menu, select the invoice that you want to view.
-6.  On the **Invoice Details** page, click teh SCV link and export the CSV invoice file.
+6.  On the **Invoice Details** page, click the CSV link and export the CSV invoice file.
 7.  Open Microsoft Excel, and create a new workbook. Do not open the CSV invoice file.
 8.  In the new workbook, click **Data** > **From Text/CSV**.
 
