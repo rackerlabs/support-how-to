@@ -43,10 +43,6 @@ To create a new alarm, complete the following steps:
 2.  In the **Monitoring** section, click the entity for which you want
     to define an alarm.
 
-    On the entity overview page, in the **Monitoring Checks** section,
-    select the check for which you want to create the alarm and click
-    on it.
-
 3.  In the **Monitoring Checks** section of the entity details page,
     click the check for which you want to create the alarm.
 
