@@ -13,15 +13,15 @@ product_url: rackspace-intelligence
 
 Rackspace Intelligence provides an interface that you can use to create new checks to generate metrics for your entities, and to update existing checks.
 
-Each check has a designated type. The type instructs the monitoring system how to
+Each check has a designated *type*. The type instructs the monitoring system how to
 check the monitored resource. Check types are divided into two categories: agent
-checks and remote checks
+checks and remote checks.
 
 Check types are divided into two categories: agent checks and remote checks.
 
 ### Agent checks
 
-Checks are of the *agent* type if they monitor an entity's resource utilization. Agent checks are performed by the monitoring agent that is running on a server. For example, a Memory check monitors a server's memory use and can trigger an alarm if it detects memory use above a specified percentage. 
+*Agent check*s monitor an entity's resource utilization. Agent checks are performed by the monitoring agent that is running on a server. For example, a Memory check monitors a server's memory use and can trigger an alarm if it detects memory use above a specified percentage. 
 
 Rackspace Intelligence supports the following agent checks:
 
@@ -47,7 +47,7 @@ on how to install the monitoring agent, see [Install and configure the agent](ht
 
 ### Remote checks
 
-Checks are of the *remote* type if they monitor an entity's internet connectivity. Remote checks are performed by attempting to contact the entity from outside the entity. For example, a *Ping* check attempts to ping a server and can trigger an alarm if it detects packet loss above a specified percentage. 
+*Remote checks* monitor an entity's internet connectivity. Remote checks are performed by attempting to contact the entity from outside the entity. For example, a *Ping* check attempts to ping a server and can trigger an alarm if it detects packet loss above a specified percentage. 
 
 Rackspace Intelligence supports the following remote checks:
 
@@ -96,7 +96,7 @@ To create a new check, complete the following steps:
 
 To edit a check, navigate to the check's details page and click the **Actions** menu.
 
-You can perform the following editing actions for checks.
+You can perform the following editing actions for checks. 
 
 #### Rename a check
 
