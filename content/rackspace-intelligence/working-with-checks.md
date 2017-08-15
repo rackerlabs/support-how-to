@@ -21,7 +21,7 @@ Check types are divided into two categories: agent checks and remote checks.
 
 ### Agent checks
 
-*Agent check*s monitor an entity's resource utilization. Agent checks are performed by the monitoring agent that is running on a server. For example, a Memory check monitors a server's memory use and can trigger an alarm if it detects memory use above a specified percentage. 
+*Agent checks* monitor an entity's resource utilization. Agent checks are performed by the monitoring agent that is running on a server. For example, a Memory check monitors a server's memory use and can trigger an alarm if it detects memory use above a specified percentage. 
 
 Rackspace Intelligence supports the following agent checks:
 
