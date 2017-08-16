@@ -5,10 +5,8 @@ title: Rackspace Email mailbox features
 type: article
 created_date: '2014-08-25'
 created_by: Marco Salazar
-last_modified_date: '2014-08-29'
-last_modified_by: Kyle Laffoon
-product: Rackspace Email
-product_url: rackspace-email
+last_modified_date: '2017-08-16'
+last_modified_by: Nate Archer
 ---
 
 Rackspace Email is Rackspace's email service. We manage the
