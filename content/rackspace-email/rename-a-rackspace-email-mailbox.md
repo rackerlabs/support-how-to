@@ -37,7 +37,7 @@ If the user mailbox is set up on a [local email client](/how-to/cloud-office-sup
 
 </ screenshot of mailbox list>
 
-4. Click **More** button, expanding the dropdown menu and select **Rename Email Address**
+4. Click the **More** button, expanding the dropdown menu and select **Rename Email Address**
 
 5. Within the **New Email** field, type in the username you would like to change this mailbox to then click **Rename Email Address**.
 
@@ -49,8 +49,16 @@ If the user mailbox is set up on a [local email client](/how-to/cloud-office-sup
 
 Once the mailbox has been renamed, you must update all of the devices connected to the renamed mailbox so they can continue syncing mail. Select your mail client below for instructions on completing this process.
 
+#### Desktop configuration 
+
 - [Outlook 2016 for Windows](#)
 - [Outlook 2013 for Windows](#)
 - [Outlook 2010 for Windows](#)
 - [Outlook 2016 for Mac](#)
 - [Outlook 2011 for Mac](#)
+
+#### Mobile configuration
+
+- [Iphone](#)
+- [Android](#)
+- [Windows](#)
