@@ -5,14 +5,15 @@ title: Add a Rackspace Email group list
 type: article
 created_date: '2012-05-23'
 created_by: Rackspace Support
-last_modified_date: '2012-07-24'
+last_modified_date: '2017-08-16'
 last_modified_by: Rackspace Support
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article shows how to create a group list. A group list can be used to email a large quantity of people by assigning them to a parent
-email list.
+A group list is a great way to manage users in a select team or group on your domain. There is no limit to the number of internal address (addresses within your domain) and a limit of 250 additional members outside of the domain. For example, suppose that you have a billing team you want to group together - bob@domain.com, amy@domain.com, and scott@domain.com. You can create a group list for the team so that they can communicate new upcoming billing updates within the team, at billingupdates@domain.com.
+
+This article shows how to create a group list.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 2. In the Rackspace Email section, click **Group Lists**.

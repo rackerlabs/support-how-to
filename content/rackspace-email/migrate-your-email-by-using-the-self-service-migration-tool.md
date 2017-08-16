@@ -102,22 +102,22 @@ For more information about the migration preparation required for POP, IMAP, and
 
    The next step is a trial migration to ensure that connectivity is successful to both the source and destination mailboxes based on the information that you entered.
 
-9.  Click **Next** to begin the trial migration.
+9. Click **Next** to begin the trial migration.
 
 10. When the status changes to **Ready for migration**, click **Next**.
 
-   **Note:** If the status shows **Failed**, click the red button labeled **More info**. Next select **Solve Issue** for instructions on resolving the issue.
+    **Note:** If the status shows **Failed**, click the red button labeled **More info**. Next select **Solve Issue** for instructions on resolving the issue.
 
 11. On the Ready to migrate page, click **Next** to begin the migration of your email data.
 
-   <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/13-2_0.png %}" width="450" height="302" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/13-2_0.png %}" width="450" height="302" />
 
-   Several factors influence how long your email takes to migrate. For a list of possible factors, see [Factors that affect the duration of email migrations](/how-to/factors-that-affect-the-duration-of-email-migrations).
+    Several factors influence how long your email takes to migrate. For a list of possible factors, see [Factors that affect the duration of email migrations](/how-to/factors-that-affect-the-duration-of-email-migrations).
 
 12. After your migration has completed, you can run the migration tool again by clicking **Migrate new items.** For more information about running additional migrations, see [Run additional passes with MigrationWiz](/how-to/running-additional-passes-with-migrationwiz). Otherwise, click **Finish**.
 
-   <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/14-2_0.png %}" width="450" height="335" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/14-2_0.png %}" width="450" height="335" />
 
 13. To begin a new migration project, click **My Migrations** in the top-right corner of your migration portal. On the My Migrations page, click **Start new migration**.
 
-   <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/15-2_0.png %}" width="450" height="243" />
+    <img src="{% asset_path rackspace-email/migrate-your-email-by-using-the-self-service-tool/15-2_0.png %}" width="450" height="243" />
