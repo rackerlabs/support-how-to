@@ -71,11 +71,12 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 9. Enter the following settings to connect to the renamed mailbox:
 
     - **Your Name:**  The name email recipients will see in the *From* field.
-    - **Email Address:** renamed@newmailboxname.com   *Here is where you will use the new mailbox address*
+    - **Email Address:** renamed@newmailboxname.com   (*Use the new mailbox address here*)
     - **Account Type**: IMAP
     - **Incoming mail server**: secure.emailsrvr.com
     - **Outgoing mail server (SMTP):** secure.emailsrvr.com
     - **Logon Information:**
 
-        - **Username:** renamed@newmailboxname.com
+        - **Username:** renamed@newmailboxname.com (*Use the new mailbox address here*)
         - **Password:** Your mailbox password
+10.
