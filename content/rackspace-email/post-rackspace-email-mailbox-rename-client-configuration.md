@@ -41,17 +41,17 @@ Below are instructional articles for popular mail clients that will help you cre
 Once you have backed up the mail data locally, you are ready to connect to the renamed mailbox. See the instructions for your mail client below.
 
 #### Desktop clients
-[Outlook 2016 for Windows](#)
-[Outlook 2013 for Windows](#)
-[Outlook 2010 for Windows](#)
+- [Outlook 2016 for Windows](#)
+- [Outlook 2013 for Windows](#)
+- [Outlook 2010 for Windows](#)
 
-[Outlook 2016 for Mac](#)
-[Outlook 2011 for Mac](#)
+- [Outlook 2016 for Mac](#)
+- [Outlook 2011 for Mac](#)
 
-[Apple Mail](#)
+- [Apple Mail](#)
 
 #### Mobile clients
 
-[Iphone IOS](#)
-[Android](#)
-[Windows](#)
+- [Iphone IOS](#)
+- [Android](#)
+- [Windows](#)
