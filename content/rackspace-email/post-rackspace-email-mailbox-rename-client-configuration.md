@@ -66,7 +66,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 7. Click **Manual setup or additional server types** at that bottom of the **Add Account** setup box. Then click **Next**.
 
-8. Select **POP or IMAP** from the options presented and click **Next**.
+8. Select **POP or IMAP** from the options presented and click **Next**. You will be taken to the **POP and IMAP Account Settings Screen**.
 
 9. Enter the following settings to connect to the renamed mailbox:
 
@@ -85,3 +85,10 @@ Once you have backed up the mail data locally, you are ready to connect to the r
     - Select the **Advanced** tab  and change *Use the following type of encrypted connection:* to **SSL** for both **Incoming server(IMAP):** and **Outgoing Server(SMTP):**.
     - Set the **Incoming server(IMAP)** to port: 993
     - Set the **Outgoing server(SMTP)** to port: 465
+    - Click **OK**.
+11. When you are back at the at the **POP and IMAP Account Settings Screen**, click the **Next** button in the lower right hand corner. You will then be taken to the **Test Account Settings** screen.
+
+12. When both *Log onto incoming mail server(IMAP)* and *Send test e-mail message* show a Status of **Completed**, click the **Close** button. You will be taken back to the list of profiles.
+
+    <!--insert OL16windowsSC3.png-->
+13. Under *When starting Microsoft Outlook, use this profile:* check the bubble next to *Always use this profile*. Next, open the drop down list and select the profile we just created. Lastly click **Apply** and then **OK** and open Outlook.
