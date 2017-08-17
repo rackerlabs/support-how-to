@@ -79,4 +79,8 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
         - **Username:** renamed@newmailboxname.com (*Use the new mailbox address here*)
         - **Password:** Your mailbox password
-10.
+10. Click the **More Settings** button in the lower right hand corner.
+
+    - Select the **Outgoing Server** tab and check the box next to *My outgoing server (SMTP) requires authentication* and click the bubble next to *Use same settings as my incoming mail server*
+    - Select the **Advanced** tab  and change *Use the following type of encrypted connection:* to **SSL** for both **Incoming server(IMAP):** and **Outgoing Server(SMTP):**.
+    -
