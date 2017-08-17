@@ -44,10 +44,8 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 - [Outlook 2016 for Windows](#)
 - [Outlook 2013 for Windows](#)
 - [Outlook 2010 for Windows](#)
-
 - [Outlook 2016 for Mac](#)
 - [Outlook 2011 for Mac](#)
-
 - [Apple Mail](#)
 
 #### Mobile clients
