@@ -83,4 +83,5 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
     - Select the **Outgoing Server** tab and check the box next to *My outgoing server (SMTP) requires authentication* and click the bubble next to *Use same settings as my incoming mail server*
     - Select the **Advanced** tab  and change *Use the following type of encrypted connection:* to **SSL** for both **Incoming server(IMAP):** and **Outgoing Server(SMTP):**.
-    -
+    - Set the **Incoming server(IMAP)** to port: 993
+    - Set the **Outgoing server(SMTP)** to port: 465
