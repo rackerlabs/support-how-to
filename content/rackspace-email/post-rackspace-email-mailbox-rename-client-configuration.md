@@ -33,8 +33,7 @@ It is always best practice to export a copy of your mailbox from your [local mai
 Once you have backed up the mail data locally, you are ready to connect to the renamed mailbox. See the instructions for your mail client below.
 
 #### Desktop clients
-- [Outlook 2016 and 2013 for Windows](#outlook-2016-and-2013-for-windows)
-- [Outlook 2010 for Windows](#)
+- [Outlook 2016, 2013 and 2010 for Windows](#outlook-2016-and-2013-for-windows)
 - [Outlook 2016 for Mac](#)
 - [Outlook 2011 for Mac](#)
 - [Apple Mail](#)
@@ -46,7 +45,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 - [Windows](#)
 
 
-#### Outlook 2016 and 2013 for Windows
+#### Outlook 2016, 2013 and 2010 for Windows
 
 1. Open the **Start** menu for Windows in the lower left hand corner of the desktop screen and open the **Control Panel**.
 2. Once the Windows **Control Panel** is open, change the **View By** setting in the upper right hand corner to **Small Icons**.
@@ -68,6 +67,8 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 8. Select **POP or IMAP** from the options presented and click **Next**. You will be taken to the **POP and IMAP Account Settings Screen**.
 
+    Note: In Outlook 2010 you will select **Internet Email** on this step.
+
 9. Enter the following settings to connect to the renamed mailbox:
 
     - **Your Name:**  The name email recipients will see in the *From* field.
@@ -79,6 +80,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
         - **Username:** renamed@newmailboxname.com (*Use the new mailbox address here*)
         - **Password:** Your mailbox password
+
 10. Click the **More Settings** button in the lower right hand corner.
 
     - Select the **Outgoing Server** tab and check the box next to *My outgoing server (SMTP) requires authentication* and click the bubble next to *Use same settings as my incoming mail server*
@@ -86,9 +88,22 @@ Once you have backed up the mail data locally, you are ready to connect to the r
     - Set the **Incoming server(IMAP)** to port: 993
     - Set the **Outgoing server(SMTP)** to port: 465
     - Click **OK**.
+
 11. When you are back at the at the **POP and IMAP Account Settings Screen**, click the **Next** button in the lower right hand corner. You will then be taken to the **Test Account Settings** screen.
 
 12. When both *Log onto incoming mail server(IMAP)* and *Send test e-mail message* show a Status of **Completed**, click the **Close** button. You will be taken back to the list of profiles.
 
     <!--insert OL16windowsSC3.png-->
+
 13. Under *When starting Microsoft Outlook, use this profile:* check the bubble next to *Always use this profile*. Next, open the drop down list and select the profile we just created. Lastly click **Apply** and then **OK** and open Outlook.
+
+
+#### Outlook 2016 for Mac
+
+1. Open **Finder** and select **Applications**.
+
+2. Highlight **Outlook 2016** in the application menu, and right-click the icon.
+
+3. Click **Show Package Contents**
+ To access the Profile Manager, go to Applications>Outlook 2016>Right Click>Show Package Contents
+Select Contents>Shared Support>Outlook Profile Manager
