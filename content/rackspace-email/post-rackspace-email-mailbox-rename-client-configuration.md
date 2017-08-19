@@ -104,6 +104,24 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 2. Highlight **Outlook 2016** in the application menu, and right-click the icon.
 
-3. Click **Show Package Contents**
- To access the Profile Manager, go to Applications>Outlook 2016>Right Click>Show Package Contents
-Select Contents>Shared Support>Outlook Profile Manager
+3. Click **Show Package Contents** then click **Shared Support**.
+
+4. Open **Outlook Profile Manager**. You will be taken to a list of existing profiles. Click the **+** sign and name the new profile.
+
+5. Close **Outlook Profile Manager** and open **Outlook 2016**. Once **Outlook 2016** is open, set up your email account using the new mailbox address.
+
+
+#### Outlook 2011 for Mac
+
+1. Open **Outlook 2011** while holding down the **Option** key. This will open the **Microsoft Database Utility**.
+
+2. We will now create a new identity by click the **+** sign.
+
+3. Once you have named the new identity, be sure to set it as the default identity. Click the **Settings Gear**, then select **Set as Default**.
+
+4. Close the **Microsoft Database Utility** and open **Outlook 2011**.
+
+
+#### Apple Mail
+
+1.
