@@ -124,4 +124,5 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 #### Apple Mail
 
-1.
+
+1. Launch Mail. If Mail is not in your dock, Command (⌘) + Space Bar. Then type Mail in the Spotlight search. Press enter to launch the Mail application.
