@@ -126,3 +126,24 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 
 1. Launch **Mail**. If **Mail** is not in your dock, *Command (⌘) + Space Bar*. Then type **Mail** in the Spotlight search. Press enter to launch the **Mail** application.
+
+2. Within **Mail**, click **Mail** on the top left. Then select **Add Account**.
+
+3. In the pop-up window, select **Other Mail Account** and click **Continue**.
+
+4. Enter the following:
+
+    - **Name:** Enter your first and last name
+    - **Email Address:** Enter the renamed mailbox email address
+    - **Password:** Your mailbox password
+    - Click **Sign In**.
+5. You will see an alert which says Unable to verify account name or password. Along with this alert, you will see more fields that require additional info
+
+    - Fill in the following details:
+
+        - **Email Address:** Enter the renamed mailbox email address
+        - **User Name:** Enter the rename mailbox email address (even though it says automatic, fill it in as shown)
+        - **Password:** Your mailbox password
+        - **Account Type:** IMAP
+        - **Incoming Mail Server:** secure.emailsrvr.com
+        - **Outgoing Mail Server:** secure.emailsrvr.com
