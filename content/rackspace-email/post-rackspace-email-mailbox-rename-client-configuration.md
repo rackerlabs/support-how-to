@@ -13,7 +13,7 @@ product_url: rackspace-email
 
 Once you have renamed a Rackspace Email mailbox, your devices will no longer connect to the mailbox. This is because they are trying to connect to the old mailbox name.
 
-This article outlines the steps to connect your devices to your newly rename Rackspace Email mailbox. If you have not yet renamed the mailbox and require instructions, see [Rename link].
+This article outlines the steps to connect your devices to your newly renamed Rackspace Email mailbox. If you have not yet renamed the mailbox and require instructions, see [Rename a Rackspace Email mailbox](/how-to/rename-a-rackspace-email-mailbox/).
 
 ### Prerequisites
 
@@ -34,13 +34,13 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 #### Desktop clients
 - [Outlook 2016, 2013 and 2010 for Windows](#outlook-2016-and-2013-for-windows)
-- [Outlook 2016 for Mac](#)
-- [Outlook 2011 for Mac](#)
-- [Apple Mail](#)
+- [Outlook 2016 for Mac](#outlook-2016-for-mac)
+- [Outlook 2011 for Mac](#outlook-2011-for-mac)
+- [Apple Mail](#apple-mail)
 
 #### Mobile clients
 
-- [Iphone IOS](#)
+- [Iphone iOS](#)
 - [Android](#)
 - [Windows](#)
 
@@ -190,20 +190,16 @@ Warning: If you see items missing in the new Outlook account, you will need to i
 
 
 1. Launch **Mail**. If **Mail** is not in your dock, *Command (⌘) + Space Bar*. Then type **Mail** in the Spotlight search. Press enter to launch the **Mail** application.
-
 2. Within **Mail**, click **Mail** on the top left. Then select **Add Account**.
-
 3. In the pop-up window, select **Other Mail Account** and click **Continue**.
-
 4. Enter the following:
 
     - **Name:** Enter your first and last name
     - **Email Address:** Enter the renamed mailbox email address
     - **Password:** Your mailbox password
     - Click **Sign In**
-5. You will see an alert which says Unable to verify account name or password. Along with this alert, you will see more fields that require additional info
 
-    - Fill in the following details:
+5. You will see an alert which says Unable to verify account name or password. Along with this alert, you will see more fields that require additional info. Fill in the following details:
 
         - **Email Address:** Enter the renamed mailbox email address
         - **User Name:** Enter the rename mailbox email address (even though it says automatic, fill it in as shown)
@@ -220,17 +216,17 @@ Warning: If you see items missing in the new Outlook account, you will need to i
 
 These are general settings for Iphone iOS and may vary across iOS versions.
 
-1. On the home screen, tap the Settings icon.
-2. Within Settings, scroll down and tap Mail
-3. Now tap Accounts
-4. Tap Add Account
-5. Tap Other, at the bottom
+1. On the home screen, tap the **Settings** icon.
+2. Within **Settings**, scroll down and tap **Mail**.
+3. Now tap **Accounts**
+4. Tap **Add Account**
+5. Tap **Other**, at the bottom
 6. Tap **Add Mail Account**.
 7. The next screen will ask for basic account information:
-    - Name: Your first and last name
-    - Email: william.loy@raxrse.com
-    - Password: Your mailbox password
-    - Description: Anything you'd like!
+    - **Name:** Your first and last name
+    - **Email:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Password:** Your mailbox password
+    - **Description:** Anything you'd like!
 
 8. Tap **Next**.
 9. Make sure IMAP is selected and enter the following settings:
@@ -265,10 +261,10 @@ These are general settings for Android and may vary across Android versions.
 2. Once it launches, tap on Accounts.
 3. Tap on Add Account.
 4. Select Email as the Account Type  and enter the following:
-    - Email Address: renamed@yourdomainexample.com (*Use the new mailbox address here*)
-    - Password: You mailbox Password
-5. Tap Sign In
-6. Tap IMAP account
+    - **Email Address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Password:** You mailbox Password
+5. Tap **Sign In**
+6. Tap **IMAP account**
 7. Enter the following server details:
 
     - **Email address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
@@ -297,25 +293,27 @@ You have now successfully configured your Android to connect to the renamed mail
 
 #### Windows
 
-1. Tap the Windows button and locate the "Settings" option from the Application Menu.
-2. Tap "email+accounts".
-3. Tap "add an account".
-4. Tap "other account (POP and IMAP)".
+1. Tap the **Windows** button and locate the **Settings** option from the Application Menu.
+2. Tap **email+accounts**.
+3. Tap **add an account**.
+4. Tap **other account (POP and IMAP)**.
 5. Enter the following details:
 
-    "Email Address": william.loy@raxrse.com
-    "Password": Your mailbox password
-6. Tap "sign in".
-7. The phone likely will be unable to determine your settings. Tap "advanced".
+    **Email Address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    **Password:** Your mailbox password
+
+6. Tap **sign in**.
+7. The phone likely will be unable to determine your settings. Tap **advanced**.
 8.  Enter the following details:
 
-    "Incoming email server": secure.emailsrvr.com
-    "Account type": IMAP4
-    "Username": william.loy@raxrse.com
-    "Password": Your mailbox password
-    "Outgoing (SMTP) email server": secure.emailsrvr.com
-    "Outgoing server requires authentication": Checked
-    "Use the same user name and password for sending email": Checked
-9. Tap "sign in".
+    **Incoming email server:** secure.emailsrvr.com
+    **Account type**: IMAP4
+    **Username**: renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    **Password:** Your mailbox password
+    **Outgoing (SMTP) email server:** secure.emailsrvr.com
+    **Outgoing server requires authentication:** Checked
+    **Use the same user name and password for sending email:** Checked
+
+9. Tap **sign in**.
 
 You have now successfully configured your Windows phone to connect to the renamed mailbox. When you have confirmed your mail data is synced to the phone, you can remove the old account using the previous mailbox name from your phone.
