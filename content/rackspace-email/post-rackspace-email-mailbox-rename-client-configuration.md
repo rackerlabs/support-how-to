@@ -72,13 +72,13 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 9. Enter the following settings to connect to the renamed mailbox:
 
     - **Your Name:**  The name email recipients will see in the *From* field.
-    - **Email Address:** renamed@newmailboxname.com   (*Use the new mailbox address here*)
+    - **Email Address:** renamed@yourdomainexample.com   (*Use the new mailbox address here*)
     - **Account Type**: IMAP
     - **Incoming mail server**: secure.emailsrvr.com
     - **Outgoing mail server (SMTP):** secure.emailsrvr.com
     - **Logon Information:**
 
-        - **Username:** renamed@newmailboxname.com (*Use the new mailbox address here*)
+        - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
         - **Password:** Your mailbox password
 
 10. Click the **More Settings** button in the lower right hand corner.
@@ -100,27 +100,89 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 #### Outlook 2016 for Mac
 
-1. Open **Finder** and select **Applications**.
+1. Quit **Outlook 2016** by right-clicking the icon and selecting *Quit*.
 
-2. Highlight **Outlook 2016** in the application menu, and right-click the icon.
+2. Open **Finder** and select **Applications**.
 
-3. Click **Show Package Contents** then click **Shared Support**.
+3. Highlight **Outlook 2016** in the application menu, and right-click the icon.
 
-4. Open **Outlook Profile Manager**. You will be taken to a list of existing profiles. Click the **+** sign and name the new profile.
+4. Click **Show Package Contents** then click **Shared Support**.
 
-5. Close **Outlook Profile Manager** and open **Outlook 2016**. Once **Outlook 2016** is open, set up your email account using the new mailbox address.
+5. Open **Outlook Profile Manager**. You will be taken to a list of existing profiles. Click the **+** sign and name the new profile.
 
+6. Close **Outlook Profile Manager** and open **Outlook 2016**. You will be prompted to set up your email in the new profile.
+
+7. Enter the renamed email address and click **Continue**.
+
+    Note: Outlook 2016 might default to selecting Exchange as the account type. Select **Not Exchange?** if this happens.
+    
+8. Select **IMAP/POP** and enter the following details:
+
+    - **Type:** IMAP
+    - **Email address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Password:** Your mailbox password
+
+    - **Incoming Server:** secure.emailsrvr.com
+    - **Port:** 993
+    - **Use SSL to connect:** Checked
+
+    - **Outgoing Server:** secure.emailsrvr.com
+    - **Port:** 465
+    - **Use SSL to connect:** Checked
+
+9. Click **Add Account** and click **Done**.
+
+You have now successfully configured Outlook to connect to the renamed mailbox.
+
+Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
 
 #### Outlook 2011 for Mac
 
-1. Open **Outlook 2011** while holding down the **Option** key. This will open the **Microsoft Database Utility**.
 
-2. We will now create a new identity by click the **+** sign.
+1. Quit **Outlook 2011** by right-clicking the icon and selecting *Quit*.
 
-3. Once you have named the new identity, be sure to set it as the default identity. Click the **Settings Gear**, then select **Set as Default**.
+2. Open **Outlook 2011** while holding down the **Option** key. This will open the **Microsoft Database Utility**.
 
-4. Close the **Microsoft Database Utility** and open **Outlook 2011**.
+3. We will now create a new identity by click the **+** sign.
 
+4. Once you have named the new identity, be sure to set it as the default identity. Highlight the new identity, then click the **Settings Gear**, and select **Set as Default**.
+
+5. Close the **Microsoft Database Utility** and open **Outlook 2011**.
+
+6. Once **Outlook 2011** is open, select **Outlook** in the upper right-hand corner and select **Preferences** from the drop down menu.
+
+7. In the next prompt, select **Accounts**.
+
+8. Within the Accounts dialog, select **Other Email**.
+
+9. Enter the following requested settings:
+
+    - **Email Address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Password:** Enter your mailbox password.
+    - **User name:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+
+    - **Type:** IMAP
+    - **Incoming Server:** secure.emailsrvr.com
+    - **Override default port:** Checked
+    - **Use SSL to connect (recommended):** Checked
+    - **Incoming Server Port:** 993
+
+    - **Outgoing Server:** secure.emailsrvr.com
+    - **Override default port:** Checked
+    - **Use SSL to connect (recommended):** Checked
+    - **Outgoing Server Port:** 465
+
+10. Click the **More Options** button, and enter the following settings:
+
+    - **Authentication:** Use Incoming Server information
+    - **Unqualified domain:** Leave this field blank
+    - Click **OK**
+11. Close the accounts window and click **Send/Receive** in Outlook.
+
+You have now successfully configured Outlook to connect to the renamed mailbox.
+
+Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
 
 #### Apple Mail
 
@@ -136,7 +198,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
     - **Name:** Enter your first and last name
     - **Email Address:** Enter the renamed mailbox email address
     - **Password:** Your mailbox password
-    - Click **Sign In**.
+    - Click **Sign In**
 5. You will see an alert which says Unable to verify account name or password. Along with this alert, you will see more fields that require additional info
 
     - Fill in the following details:
@@ -147,3 +209,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
         - **Account Type:** IMAP
         - **Incoming Mail Server:** secure.emailsrvr.com
         - **Outgoing Mail Server:** secure.emailsrvr.com
+
+    Note: Apple Mail will usually clear the *User Name* field after entering the *Incoming and Outgoing Mail Server* fields. Ensure your *User Name* is filled in with your email address *after* entering the server information and *before* clicking *Sign in*
+
+6. Select the desired syncing options. You can leave the defaults on and click **Done**.
