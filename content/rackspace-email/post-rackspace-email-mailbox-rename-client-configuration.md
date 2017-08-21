@@ -30,7 +30,7 @@ It is always best practice to export a copy of your mailbox from your [local mai
 
 ### Connect to the newly renamed mailbox
 
-Once you have backed up the mail data locally, you are ready to connect to the renamed mailbox. See the instructions for your mail client below.
+Once you have backed up the mail data locally, you are ready to connect to the renamed mailbox. Click on your mail client below for instructions.
 
 #### Desktop clients
 - [Outlook 2016, 2013 and 2010 for Windows](#outlook-2016-and-2013-for-windows)
@@ -97,6 +97,8 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 13. Under *When starting Microsoft Outlook, use this profile:* check the bubble next to *Always use this profile*. Next, open the drop down list and select the profile we just created. Lastly click **Apply** and then **OK** and open Outlook.
 
+Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/).
+
 
 #### Outlook 2016 for Mac
 
@@ -115,7 +117,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 7. Enter the renamed email address and click **Continue**.
 
     Note: Outlook 2016 might default to selecting Exchange as the account type. Select **Not Exchange?** if this happens.
-    
+
 8. Select **IMAP/POP** and enter the following details:
 
     - **Type:** IMAP
@@ -133,7 +135,7 @@ Once you have backed up the mail data locally, you are ready to connect to the r
 
 9. Click **Add Account** and click **Done**.
 
-You have now successfully configured Outlook to connect to the renamed mailbox.
+You have now successfully configured Outlook 2016 to connect to the renamed mailbox.
 
 Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
 
@@ -180,7 +182,7 @@ Warning: If you see items missing in the new Outlook account, you will need to i
     - Click **OK**
 11. Close the accounts window and click **Send/Receive** in Outlook.
 
-You have now successfully configured Outlook to connect to the renamed mailbox.
+You have now successfully configured Outlook 2011 to connect to the renamed mailbox.
 
 Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
 
@@ -213,3 +215,40 @@ Warning: If you see items missing in the new Outlook account, you will need to i
     Note: Apple Mail will usually clear the *User Name* field after entering the *Incoming and Outgoing Mail Server* fields. Ensure your *User Name* is filled in with your email address *after* entering the server information and *before* clicking *Sign in*
 
 6. Select the desired syncing options. You can leave the defaults on and click **Done**.
+
+#### Iphone iOS
+
+1. On the home screen, tap the Settings icon.
+2. Within Settings, scroll down and tap Mail
+3. Now tap Accounts
+4. Tap Add Account
+5. Tap Other, at the bottom
+6. Tap **Add Mail Account**.
+7. The next screen will ask for basic account information:
+    - Name: Your first and last name
+    - Email: william.loy@raxrse.com
+    - Password: Your mailbox password
+    - Description: Anything you'd like!
+
+8. Tap **Next**.
+9. Make sure IMAP is selected and enter the following settings:
+
+    - **Name:** Your first and last name
+    - **Email:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Description:** Should already be prefilled from last section
+    - **Password:** Your mailbox password
+
+    - Incoming Server Settings
+        - **Host Name:** secure.emailsrvr.com
+        - **User Name:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+        - **Password:** Your mailbox password
+
+    - Outgoing Server Settings
+        - **Host Name:** secure.emailsrvr.com
+        - **User Name:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+        - **Password:** Your mailbox password
+
+Warning: Even though it says optional, they are NOT optional. If you skip these fields, you will NOT be able to send out email.
+
+10. Tap **Next**.
+11. Select the desired settings and tap **Save**.
