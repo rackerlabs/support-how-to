@@ -218,6 +218,8 @@ Warning: If you see items missing in the new Outlook account, you will need to i
 
 #### Iphone iOS
 
+These are general settings for Iphone iOS and may vary across iOS versions.
+
 1. On the home screen, tap the Settings icon.
 2. Within Settings, scroll down and tap Mail
 3. Now tap Accounts
@@ -252,3 +254,68 @@ Warning: Even though it says optional, they are NOT optional. If you skip these 
 
 10. Tap **Next**.
 11. Select the desired settings and tap **Save**.
+
+You have now successfully configured your Iphone to connect to the renamed mailbox. When you have confirmed your mail data is synced to the phone, you can remove the old account using the previous mailbox name from your phone.
+
+#### Android
+
+These are general settings for Android and may vary across Android versions.
+
+1. Launch the Settings app on your device.
+2. Once it launches, tap on Accounts.
+3. Tap on Add Account.
+4. Select Email as the Account Type  and enter the following:
+    - Email Address: renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - Password: You mailbox Password
+5. Tap Sign In
+6. Tap IMAP account
+7. Enter the following server details:
+
+    - **Email address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Password:** Your mailbox password
+
+    - **IMAP Server:** secure.emailsrvr.com
+    - **Security Type:** SSL
+    - **Port:** 993
+
+    - **SMTP Server:** secure.emailsrvr.com
+    - **Security Type:** SSL
+    - **Port:** 465
+
+    - **Authentication required before sending emails:** On
+    - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
+    - **Password:** Your mailbox password
+
+10. Tap Next and enter the following:
+
+    **Account Name:** Used to distinguish the account in your device
+    **Your Name:** Name shown on outgoing emails
+
+You have now successfully configured your Android to connect to the renamed mailbox. When you have confirmed your mail data is synced to the phone, you can remove the old account using the previous mailbox name from your phone.
+
+
+#### Windows
+
+1. Tap the Windows button and locate the "Settings" option from the Application Menu.
+2. Tap "email+accounts".
+3. Tap "add an account".
+4. Tap "other account (POP and IMAP)".
+5. Enter the following details:
+
+    "Email Address": william.loy@raxrse.com
+    "Password": Your mailbox password
+6. Tap "sign in".
+7. The phone likely will be unable to determine your settings. Tap "advanced".
+8.  Enter the following details:
+
+    "Incoming email server": secure.emailsrvr.com
+    "Account type": IMAP4
+    "Username": william.loy@raxrse.com
+    "Password": Your mailbox password
+    "Outgoing (SMTP) email server": secure.emailsrvr.com
+    "Outgoing server requires authentication": Checked
+    "Use the same user name and password for sending email": Checked
+9. Tap "sign in".
+
+You have now successfully configured your Windows phone to connect to the renamed mailbox. When you have confirmed your mail data is synced to the phone, you can remove the old account using the previous mailbox name from your phone.
