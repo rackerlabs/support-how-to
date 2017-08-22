@@ -33,15 +33,15 @@ Outlook 2016, 2013, and 2010 for Windows are nearly identical in the steps neede
 2. Once the Windows **Control Panel** is open, change the **View By** setting in the upper right hand corner to **Small Icons**.
 3. Click **Mail(Microsoft Outlook 2016)** from the **Control Panel** menu which will bring up the **Mail Setup** menu.
 
-   <!--insert OL16windowsSC1.png-->
+   <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC1.png %}" />
 
 4. From the **Mail Setup** menu, click the **Show Profiles** button which will bring up the current profile list were you will see your current profile.
 
-   <!--insert OL16windowsSC2.png-->
+   <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC2.png %}" />
 
 5. We will click the **Add** button to create a profile to connect to the new mailbox name. A box will appear asking you to name the new profile.
 
-    <!--insert OL16windowsSC3.png-->
+   <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC3.png %}" />
 
 6. Name the new profile. We recommend you use your new email address for the profile name to clearly identify it. Once you name the profile click **OK** and the **Add Account** setup box will appear.
 7. Click **Manual setup or additional server types** at that bottom of the **Add Account** setup box. Then click **Next**.
@@ -72,7 +72,7 @@ Outlook 2016, 2013, and 2010 for Windows are nearly identical in the steps neede
 11. When you are back at the at the **POP and IMAP Account Settings Screen**, click the **Next** button in the lower right hand corner. You will then be taken to the **Test Account Settings** screen.
 12. When both *Log onto incoming mail server(IMAP)* and *Send test e-mail message* show a Status of **Completed**, click the **Close** button. You will be taken back to the list of profiles.
 
-    <!--insert OL16windowsSC3.png-->
+    <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC4.png %}" />
 
 13. Under *When starting Microsoft Outlook, use this profile:* check the bubble next to *Always use this profile*. Next, open the drop down list and select the profile we just created. Lastly click **Apply** and then **OK** and open Outlook.
 
