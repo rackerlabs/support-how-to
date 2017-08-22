@@ -24,8 +24,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Before you begin
 
-If the user mailbox is set up on a [local email client](/how-to/cloud-office-support-terminology) profile such as Outlook or Mac Mail, export the user's local profile. After the mailbox is renamed, the local profile must be recreated. Exporting the profile before renaming the mailbox prevents the loss of mail data. See [Update devices to connect to the renamed mailbox](#Update-devices-to-connect-to-the-renamed-mailbox) if the mailbox has already been renamed.
-
+If the mailbox is set up in a [local email client](/how-to/cloud-office-support-terminology) profile such as Outlook or Apple Mail, you should export the user's local profile. After the mailbox is renamed, the local profile must be recreated. Exporting the profile before renaming the mailbox prevents the loss of mail data.
 
 ### Rename a Rackspace Email mailbox
 
@@ -53,7 +52,7 @@ Note: The old email address will automatically be made into an alias of the new 
 
 Once the mailbox has been renamed, you must update all devices such as desktop computers and mobile phones to connect to the renamed mailbox. Select your mail client below for instructions on completing this process.
 
-Note: We recommend logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before configuring devices. If you are unable to log in, we recommend updating the password before continuing. See [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel) if you are unable to log into the mailbox. 
+Note: We recommend logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before configuring devices. If you are unable to log in, updated the mailbox password before continuing. See [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel) if you are unable to log into the mailbox.
 
 #### Desktop configuration
 
