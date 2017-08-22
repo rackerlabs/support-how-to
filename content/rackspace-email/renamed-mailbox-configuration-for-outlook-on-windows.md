@@ -1,6 +1,6 @@
 ---
 permalink: renamed-mailbox-configuration-for-outlook-on-windows/
-audit_date: '2017-08-17'
+audit_date: '2017-08-22'
 title: Renamed mailbox configuration for Outlook on Windows
 type: article
 created_date: '2017-08-22'
