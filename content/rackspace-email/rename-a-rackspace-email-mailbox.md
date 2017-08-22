@@ -40,7 +40,7 @@ If the mailbox is set up in a [local email client](/how-to/cloud-office-support-
 
 5. A window will appear asking for the new email address. Enter the **NEW EMAIL** address name, then click **Rename Email Address**.
 
-    -Note: `This email address is already taken`, means the address is already in use as an alias, group list, distribution list, or as a Microsoft Exchange mailbox on this domain. Try a different address.
+    - Note: `This email address is already taken`, means the address is already in use as an alias, group list, distribution list, or as a Microsoft Exchange mailbox on this domain. Try a different address.
 
 6. A confirmation message will appear, displaying the old email address and the new email address. If the change is correct, click **OK**.
 
