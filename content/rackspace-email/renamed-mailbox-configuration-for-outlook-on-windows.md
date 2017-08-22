@@ -85,4 +85,6 @@ Warning: If the old mailbox name connects via POP, you will want to migrate the 
 
 13. Under *When starting Microsoft Outlook, use this profile:* check the bubble next to *Always use this profile*. Next, open the drop down list and select the profile we just created. Lastly click **Apply** and then **OK** and open Outlook.
 
+    <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC8.png %}" />
+
 Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/).
