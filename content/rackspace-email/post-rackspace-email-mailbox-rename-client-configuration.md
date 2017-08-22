@@ -155,14 +155,16 @@ Warning: If you see items missing in the new Outlook account, you will need to i
     - **Password:** Enter your mailbox password.
     - **User name:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Type:** IMAP
-        - **Incoming Server:** secure.emailsrvr.com
-        - **Override default port:** Checked
-        - **Use SSL to connect (recommended):** Checked
-        - **Incoming Server Port:** 993
-        - **Outgoing Server:** secure.emailsrvr.com
-        - **Override default port:** Checked
-        - **Use SSL to connect (recommended):** Checked
-        - **Outgoing Server Port:** 465
+        - *Incoming Server Settings:*
+            - **Incoming Server:** secure.emailsrvr.com
+            - **Override default port:** Checked
+            - **Use SSL to connect (recommended):** Checked
+            - **Incoming Server Port:** 993
+        - *Outgoing Server Settings:*
+            - **Outgoing Server:** secure.emailsrvr.com
+            - **Override default port:** Checked
+            - **Use SSL to connect (recommended):** Checked
+            - **Outgoing Server Port:** 465
 
 10. Click the **More Options** button, and enter the following settings:
 
