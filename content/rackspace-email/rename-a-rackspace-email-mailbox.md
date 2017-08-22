@@ -34,7 +34,7 @@ If the mailbox is set up in a [local email client](/how-to/cloud-office-support-
 
 3. In the mailbox list, click the link for the mailbox name which you would like to rename.
 
-    <!--insert OL16windowsSC3.png-->
+    <img src="{% asset_path rackspace-email/rename-a-rackspace-email-mailbox/edit-mailbox-options.png %}" />
 
 4. Click the **More** button, expanding the dropdown menu and select **Rename Email Address**.
 
