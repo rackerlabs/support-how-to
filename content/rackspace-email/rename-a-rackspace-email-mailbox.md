@@ -4,7 +4,7 @@ title: Rename a Rackspace Email mailbox
 type: article
 created_date: '2016-05-10'
 created_by: Amber Melita
-last_modified_date: '2016-05-13'
+last_modified_date: '2017-08-21'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
@@ -29,36 +29,43 @@ If the user mailbox is set up on a [local email client](/how-to/cloud-office-sup
 
 ### Rename a Rackspace Email mailbox
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
+1. Log into the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-2. In the Rackspace Email section, click on **Mailboxes**.
+2. In the **Rackspace Email** section, click on the link for **Mailboxes**.
 
-3. In the mailbox list, click the mailbox name which you would like to rename.
+3. In the mailbox list, click the link for the mailbox name which you would like to rename.
 
-</ screenshot of mailbox list>
+<!--insert OL16windowsSC3.png-->
 
-4. Click the **More** button, expanding the dropdown menu and select **Rename Email Address**
+4. Click the **More** button, expanding the dropdown menu and select **Rename Email Address**.
 
-5. Within the **New Email** field, type in the username you would like to change this mailbox to then click **Rename Email Address**.
+5. A window will appear asking for the new email address. Enter the **NEW EMAIL** address name, then click **Rename Email Address**.
 
-    -Note: If you are prompted with the error "This email address is already taken", make certain that the email address is not being used as an alias, group list, distribution list, or as a Microsoft Exchange mailbox under your account.
+    -Note: `This email address is already taken`, means the address is already in use as an alias, group list, distribution list, or as a Microsoft Exchange mailbox on this domain. Try a different address.
 
-6. A confirmation message will appear, displaying the old email address and the new email address. Click **OK**.
+6. A confirmation message will appear, displaying the old email address and the new email address. If the change is correct, click **OK**.
+
+You have successfully renamed a Rackspace Email mailbox!
+
+Note: The old email address will automatically be made into an alias of the new email address. This means messages sent to the old email address, will deliver to the new email address.
 
 ### Update devices to connect to the renamed mailbox
 
-Once the mailbox has been renamed, you must update all of the devices connected to the renamed mailbox so they can continue syncing mail. Select your mail client below for instructions on completing this process.
+Once the mailbox has been renamed, you must update all devices such as desktop computers and mobile phones to connect to the renamed mailbox. Select your mail client below for instructions on completing this process.
 
-#### Desktop configuration 
+Note: We recommend logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before configuring devices. If you are unable to log in, we recommend updating the password before continuing. See [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel) if you are unable to log into the mailbox. 
 
-- [Outlook 2016 for Windows](#)
-- [Outlook 2013 for Windows](#)
-- [Outlook 2010 for Windows](#)
-- [Outlook 2016 for Mac](#)
-- [Outlook 2011 for Mac](#)
+#### Desktop configuration
+
+- [Outlook 2016 for Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-2013-and-2010-for-windows)
+- [Outlook 2013 for Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-2013-and-2010-for-windows)
+- [Outlook 2010 for Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-2013-and-2010-for-windows)
+- [Outlook 2016 for Mac](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-for-mac)
+- [Outlook 2011 for Mac](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2011-for-mac)
+- [Apple Mail](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#apple-mail)
 
 #### Mobile configuration
 
-- [Iphone](#)
-- [Android](#)
-- [Windows](#)
+- [Iphone](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#iphone-ios)
+- [Android](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#android)
+- [Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#windows)
