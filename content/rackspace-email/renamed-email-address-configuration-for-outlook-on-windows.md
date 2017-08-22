@@ -37,6 +37,8 @@ Warning: If the old email address connects via POP, you will want to migrate the
 
    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC1.png %}" />
 
+    Note: **Mail** or **Mail(32-bit)** may be the icon displayed for your Outlook version.
+
 4. From the **Mail Setup** menu, click the **Show Profiles** button which will bring up the current profile list were you will see your current profile.
 
    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC2.png %}" />
