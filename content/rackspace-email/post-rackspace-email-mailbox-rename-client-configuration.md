@@ -115,14 +115,14 @@ Warning: If you see items missing in the new Outlook account, you will need to i
     - **Email address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Password:** Your mailbox password
-
-    - **Incoming Server:** secure.emailsrvr.com
-    - **Port:** 993
-    - **Use SSL to connect:** Checked
-
-    - **Outgoing Server:** secure.emailsrvr.com
-    - **Port:** 465
-    - **Use SSL to connect:** Checked
+        - *Incoming Server Settings:*
+            - **Incoming Server:** secure.emailsrvr.com
+            - **Port:** 993
+            - **Use SSL to connect:** Checked
+        - *Outgoing Server Settings:*
+            - **Outgoing Server:** secure.emailsrvr.com
+            - **Port:** 465
+            - **Use SSL to connect:** Checked
 
 9. Click **Add Account** and click **Done**.
 
