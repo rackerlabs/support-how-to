@@ -192,12 +192,12 @@ Warning: If you see items missing in the new Outlook account, you will need to i
 
 5. You will see an alert which says Unable to verify account name or password. Along with this alert, you will see more fields that require additional info. Fill in the following details:
 
-        - **Email Address:** Enter the renamed mailbox email address
-        - **User Name:** Enter the rename mailbox email address (even though it says automatic, fill it in as shown)
-        - **Password:** Your mailbox password
-        - **Account Type:** IMAP
-        - **Incoming Mail Server:** secure.emailsrvr.com
-        - **Outgoing Mail Server:** secure.emailsrvr.com
+    - **Email Address:** Enter the renamed mailbox email address
+    - **User Name:** Enter the rename mailbox email address (even though it says automatic, fill it in as shown)
+    - **Password:** Your mailbox password
+    - **Account Type:** IMAP
+    - **Incoming Mail Server:** secure.emailsrvr.com
+    - **Outgoing Mail Server:** secure.emailsrvr.com
 
     Note: Apple Mail will usually clear the *User Name* field after entering the *Incoming and Outgoing Mail Server* fields. Ensure your *User Name* is filled in with your email address *after* entering the server information and *before* clicking *Sign in*
 
