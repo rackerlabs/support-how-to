@@ -248,10 +248,10 @@ You have now successfully configured your Iphone to connect to the renamed mailb
 
 These are general settings for Android and may vary across Android versions.
 
-1. Launch the Settings app on your device.
-2. Once it launches, tap on Accounts.
-3. Tap on Add Account.
-4. Select Email as the Account Type  and enter the following:
+1. Launch the **Settings** app on your device.
+2. Once it launches, tap on **Accounts**.
+3. Tap on **Add Account**.
+4. Select **Email** as the Account Type  and enter the following:
     - **Email Address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Password:** You mailbox Password
 5. Tap **Sign In**
@@ -261,15 +261,14 @@ These are general settings for Android and may vary across Android versions.
     - **Email address:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Password:** Your mailbox password
-
-    - **IMAP Server:** secure.emailsrvr.com
-    - **Security Type:** SSL
-    - **Port:** 993
-
-    - **SMTP Server:** secure.emailsrvr.com
-    - **Security Type:** SSL
-    - **Port:** 465
-
+        - *IMAP Server Settings:*
+            - **IMAP Server:** secure.emailsrvr.com
+            - **Security Type:** SSL
+            - **Port:** 993
+        - *SMTP Server Settings:*
+            - **SMTP Server:** secure.emailsrvr.com
+            - **Security Type:** SSL
+            - **Port:** 465
     - **Authentication required before sending emails:** On
     - **Username:** renamed@yourdomainexample.com (*Use the new mailbox address here*)
     - **Password:** Your mailbox password
