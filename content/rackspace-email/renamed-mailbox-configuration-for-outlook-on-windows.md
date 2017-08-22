@@ -48,7 +48,7 @@ Warning: If the old mailbox name connects via POP, you will want to migrate the 
 6. Name the new profile. We recommend you use your new email address for the profile name to clearly identify it. Once you name the profile click **OK** and the **Add Account** setup box will appear.
 7. Click **Manual setup or additional server types** at that bottom of the **Add Account** setup box. Then click **Next**.
 
-    <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC5.png %}" />
+    <img src="{% asset_path rackspace-email/renamed-mailbox-configuration-for-outlook-on-windows/OL16windowsSC4.png %}" />
 
 8. Select **POP or IMAP** from the options presented and click **Next**. You will be taken to the **POP and IMAP Account Settings Screen**.
 
