@@ -74,14 +74,18 @@ Warning: If the old email address connects via POP, you will want to migrate the
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/server-settings.png %}" />
 
 
+10. Click **Add Account**.
 
-10. Click the **More Options** button, and enter the following settings:
+11. Click the **More Options** button, and enter the following settings:
 
     - **Authentication:** Use Incoming Server information
     - **Unqualified domain:** Leave this field blank
     - Click **OK**
 
-11. Close the accounts window and click **Send/Receive** in Outlook.
+    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/more-options.png %}" />
+
+
+12. Close the accounts window and click **Send/Receive** in Outlook.
 
 You have now successfully configured Outlook 2011 to connect to the renamed email address.
 
