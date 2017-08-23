@@ -50,7 +50,7 @@ Warning: If the old email address connects via POP, you will want to migrate the
 
 7. In the next prompt, select **Accounts**.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/ol2011-accounts.png %}" />
+    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/OL2011-accounts.png %}" />
 
 8. Within the Accounts dialog, select **Other Email**.
 
