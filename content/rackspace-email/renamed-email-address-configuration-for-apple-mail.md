@@ -64,3 +64,5 @@ Warning: If the old email address connects via POP, you will want to migrate the
 6. Click **Sign in**
 
 7. Select the desired syncing options. You can leave the defaults on and click **Done**.
+
+Warning: You must configure your Mac to sync various IMAP folders and prevent duplicate folder creation. This is referred to as **Folder Mapping**. See [Mapping IMAP folder in Apple Mail] for instructions.
