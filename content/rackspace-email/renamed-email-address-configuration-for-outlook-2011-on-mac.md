@@ -46,7 +46,7 @@ Warning: If the old email address connects via POP, you will want to migrate the
 
 6. Once **Outlook 2011** is open, select the **Outlook** option from the ribbon in the upper left-hand corner and select **Preferences** from the drop down menu.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/outlook_dropdown.png %}" />
+    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/Outlook_Dropdown.png %}" />
 
 7. In the next prompt, select **Accounts**.
 
