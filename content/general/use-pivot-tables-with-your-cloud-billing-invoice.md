@@ -39,10 +39,12 @@ your spreadsheet application and download it:
 2.  Log in to the portal.
 
       a.  Dedicated account customers: Log in to the [MyRackspace customer portal](https://my.rackspace.com/).
+
       b.  Cloud customers: Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 3.  Choose next menu option.
 
       a.  Dedicated account customers: Click **Account** > **Transactions**.
+
       b.  Cloud customers: Click **Billing History** > **Invoice Details**.
 4.  Click **Billing History** > **Invoice Details**.
 5.  In the **Filter Invoice** menu, select the invoice that you want to view.
