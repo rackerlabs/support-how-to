@@ -40,7 +40,7 @@ Warning: If the old email address connects via POP, you will want to migrate the
 
 4. Once you have named the new identity, be sure to set it as the default identity. Highlight the new identity, then click the **Settings Gear**, and select **Set as Default**.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/microsoft-database-utility.png %}" />
+    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/microsoft-database-utility-default.png %}" />
 
 5. Close the **Microsoft Database Utility** and open **Outlook 2011**.
 
