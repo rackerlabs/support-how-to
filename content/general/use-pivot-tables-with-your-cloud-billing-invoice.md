@@ -37,8 +37,8 @@ your spreadsheet application and download it:
     If you are using a different spreadsheet application version or a different OS,
     adjust your steps accordingly.
 
-2.  Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
-3.  In the top-right corner, click your user name, and then select **Billing Overview**.
+2.  Log in to the [MyRackspace customer portal](https://my.rackspace.com/).
+3.  Click **Account** > **Transactions**.
 4.  Click **Billing History** > **Invoice Details**.
 5.  In the **Filter Invoice** menu, select the invoice that you want to view.
 6.  On the **Invoice Details** page, click the CSV link and export the CSV invoice file.
