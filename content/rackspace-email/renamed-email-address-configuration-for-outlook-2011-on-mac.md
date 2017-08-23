@@ -1,6 +1,6 @@
 ---
 permalink: renamed-email-address-configuration-for-outlook-2011-on-mac/
-audit_date: '2017-08-22'
+audit_date: '2017-08-23'
 title: Renamed email address configuration for Outlook 2011 on Mac
 type: article
 created_date: '2017-08-23'
