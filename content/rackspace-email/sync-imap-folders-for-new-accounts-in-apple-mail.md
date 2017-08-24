@@ -67,7 +67,7 @@ Select the version which applies to you.
  3. Once the **Sent** folder is selected, click on the **Mailbox** menu on the top.
  4. Select **Use This Mailbox As** -> **Sent Mailbox**.
 
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_Folder_Mapping_Sent.png %}" />
+    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_FolderMapping_Sent.png %}" />
 
  5. Repeat Steps 3 & 4 for **Junk/Spam** and **Trash** folders.
 
