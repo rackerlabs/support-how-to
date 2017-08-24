@@ -35,7 +35,7 @@ Select the version which applies to you.
 
  1. Within **Mail**, click **Mail** on the top left. Then select **Preferences**.
 
-     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/preference-mapping.png %}" />
+     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/preference-mapping-sierra.png %}" />
 
  2. Select the **Accounts** tab at the top of the window, then select your IMAP email account from the left pane.
  3. Select the **Mailbox Behaviors** tab.
