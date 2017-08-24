@@ -11,14 +11,14 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Instructions for setting up a renamed email address in Outlook 2016 for Mac.
+Instructions for setting up a renamed email address in Apple Mail.
 
 ### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
 - **Time needed:** Approximately 20 minutes
-- **Tools required:**  Mailbox password and access to the devices you want to connect
+- **Tools required:**  Mailbox password and access to the devices you want to receive mail on
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
@@ -65,4 +65,4 @@ Warning: If the old email address connects via POP, you will want to migrate the
 
 7. Select the desired syncing options. You can leave the defaults on and click **Done**.
 
-Warning: You must configure your Mac to sync various IMAP folders and prevent duplicate folder creation. This is referred to as **Folder Mapping**. See [Mapping IMAP folder in Apple Mail] for instructions.
+Warning: You must configure your Mac to sync various IMAP folders and prevent duplicate folder creation. This is referred to as **Folder Mapping**. See [Sync IMAP folders for new accounts in Apple Mail](/how-to/sync-imap-folders-for-new-accounts-in-apple-mail/) for instructions.
