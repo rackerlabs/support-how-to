@@ -79,12 +79,12 @@ Select the version which applies to you.
  1. Close all windows so that you are looking at your mailbox's Inbox.
  2. Click on the **Sent** folder underneath your email account (**not the Sent folder with the paper airplane**).
 
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_MailboxFolderList.png %}" />
+    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/yosemite-folder-list.png %}" />
 
  3. Once the **Sent** folder is selected, click on the **Mailbox** menu on the top.
  4. Select **Use This Mailbox As** -> **Sent Mailbox**.
 
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_Folder_Mapping_Sent.png %}" />
+    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/yosemite-Sent.png %}" />
 
  5. Repeat Steps 3 & 4 for **Junk/Spam** and **Trash** folders.
 
