@@ -53,7 +53,7 @@ Note: There are additional instructions after initial configuration that must be
 
 7. The next screen will ask for basic account information:
     - **Name:** Your first and last name
-    - **Email:** renamedaddress@yourdomainexample.com (*Use the new email address here*)
+    - **Email:** renamed@yourdomainexample.com (*Use the new email address here*)
     - **Password:** Your mailbox password
     - **Description:** Anything you'd like!
 
@@ -63,23 +63,23 @@ Note: There are additional instructions after initial configuration that must be
 9. Make sure IMAP is selected and enter the following settings:
 
     - **Name:** Your first and last name
-    - **Email:** renamedaddress@yourdomainexample.com (*Use the new email address here*)
+    - **Email:** renamed@yourdomainexample.com (*Use the new email address here*)
     - **Description:** Should already be prefilled from last section
     - **Password:** Your mailbox password
 
     - Incoming Server Settings
         - **Host Name:** secure.emailsrvr.com
-        - **User Name:** renamedaddress@yourdomainexample.com (*Use the new email address here*)
+        - **User Name:** renamed@yourdomainexample.com (*Use the new email address here*)
         - **Password:** Your mailbox password
 
     - Outgoing Server Settings
         - **Host Name:** secure.emailsrvr.com
-        - **User Name:** renamedaddress@yourdomainexample.com (*Use the new email address here*)
+        - **User Name:** renamed@yourdomainexample.com (*Use the new email address here*)
         - **Password:** Your mailbox password
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/imap-serversettings.png %}" />
 
-Warning: Even though it says optional, they are NOT optional. If you skip these fields, you will NOT be able to send out email.
+    Warning: Even though it says optional, they are NOT optional. If you skip these fields, you will NOT be able to send out email.
 
 10. Tap **Next**.
 11. Select the desired settings and tap **Save**.
