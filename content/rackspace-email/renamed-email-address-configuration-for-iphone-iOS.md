@@ -1,7 +1,7 @@
 ---
 permalink: renamed-email-address-configuration-for-iphone-iOS/
 audit_date: '2017-08-24'
-title: Renamed email address configuration for Iphone iOS
+title: Renamed email address configuration for iPhone iOS
 type: article
 created_date: '2017-08-24'
 created_by: William Loy
@@ -24,11 +24,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 
 
-#### Iphone iOS renamed email address configuration
+#### iPhone iOS renamed email address configuration
 
-These are general settings for Iphone iOS and may vary across iOS versions.
+These are general settings for iPhone iOS and may vary across iOS versions.
 
-Note: There are additional instructions after initial configuration that must be followed in order for the IMAP folders on your Iphone to sync properly.
+Note: There are additional instructions after initial configuration that must be followed in order for the IMAP folders on your iPhone to sync properly.
 
 1. On the home screen, tap the **Settings** icon.
 2. Within **Settings**, scroll down and tap **Mail**.
@@ -83,12 +83,12 @@ Note: There are additional instructions after initial configuration that must be
 
 10. Tap **Next**.
 11. Select the desired settings and tap **Save**.
-12. Continue to **Iphone IMAP folder sync settings**.
+12. Continue to **iPhone IMAP folder sync settings**.
 
 Note: You will only be able to sync **Mail** with Rackspace Email. If you need to sync **Mail**, **Contacts**, and **Calendar** items to your mobile device consider upgrading to [**Rackspace Email Plus**](/how-to/upgrade-to-rackspace-email-plus/).
 
 
-#### Iphone IMAP folder sync settings
+#### iPhone IMAP folder sync settings
 
 1. Within the **Mail** settings window, select the account that you just added.
 2. Under **IMAP**, tap **Account**.
