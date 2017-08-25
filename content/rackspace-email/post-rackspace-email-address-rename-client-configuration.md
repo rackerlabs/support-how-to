@@ -1,7 +1,7 @@
 ---
 permalink: post-rackspace-email-mailbox-rename-client-configuration/
 audit_date: '2017-08-17'
-title: Connect to a renamed Rackspace Email mailbox
+title: Connect to a renamed Rackspace Email address
 type: article
 created_date: '2017-08-17'
 created_by: William Loy
