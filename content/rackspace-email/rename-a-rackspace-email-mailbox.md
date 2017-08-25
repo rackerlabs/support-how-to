@@ -50,25 +50,9 @@ If the mailbox is set up in a [local email client](/how-to/cloud-office-support-
 
 You have successfully renamed a Rackspace Email mailbox!
 
-Note: The old email address will automatically be made into an alias of the new email address. This means messages sent to the old email address, will deliver to the new email address.
 
 ### Update devices to connect to the renamed mailbox
 
-Once the mailbox has been renamed, you must update all devices such as desktop computers and mobile phones to connect to the renamed mailbox. Select your mail client below for instructions on completing this process.
+Once the mailbox has been renamed, you must update all devices such as desktop computers and mobile phones to connect to the renamed mailbox. See [Renamed Rackspace Email address setup guide](/how-to/renamed-rackspace-email-address-setup-guide/) for next steps.
 
 Note: We recommend logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before configuring devices. If you are unable to log in, updated the mailbox password before continuing. See [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel) if you are unable to log into the mailbox.
-
-#### Desktop configuration
-
-- [Outlook 2016 for Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-2013-and-2010-for-windows)
-- [Outlook 2013 for Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-2013-and-2010-for-windows)
-- [Outlook 2010 for Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-2013-and-2010-for-windows)
-- [Outlook 2016 for Mac](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2016-for-mac)
-- [Outlook 2011 for Mac](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#outlook-2011-for-mac)
-- [Apple Mail](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#apple-mail)
-
-#### Mobile configuration
-
-- [Iphone](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#iphone-ios)
-- [Android](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#android)
-- [Windows](/how-to/post-rackspace-email-mailbox-rename-client-configuration/#windows)
