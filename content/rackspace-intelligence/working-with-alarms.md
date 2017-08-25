@@ -5,8 +5,8 @@ title: Understand and work with alarms
 type: article
 created_date: '2015-07-31'
 created_by: Constanze Kratel
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-08-26'
+last_modified_by: Nate Archer
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
@@ -93,6 +93,7 @@ To create a new alarm, complete the following steps:
     result.
 
     <img src="{% asset_path rackspace-intelligence/working-with-alarms/intelligence-alarms-test-critical.png %}" width="757" height="533" />
+    
 9.  After you have tested your alarm, click **Create Alarm**.
 
 After the alarm is successfully created, a new alarm details page
@@ -217,6 +218,7 @@ system check.
     Alarm**.
 
     <img src="{% asset_path rackspace-intelligence/working-with-alarms/intelligence-alarms-filesystem-alarm-settings.png %}" width="850" height="581" />
+    
     The new alarm is displayed on the alarm details page.
 
 #### Create an alarm for an agent check type without an agent installed
