@@ -1,7 +1,7 @@
 ---
-permalink: post-rackspace-email-mailbox-rename-client-configuration/
+permalink: renamed-rackspace-email-address-setup-guide/
 audit_date: '2017-08-17'
-title: Connect to a renamed Rackspace Email address
+title: Renamed Rackspace Email address setup guide
 type: article
 created_date: '2017-08-17'
 created_by: William Loy
