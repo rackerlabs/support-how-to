@@ -82,55 +82,48 @@ If your existing Rackspace public cloud servers don't have automatic updates ena
 
 7. (Optional) Set up notifications for automatic package updates (time of installation, packages installed, errors during installation) by entering `sudo apt-get install apticron`
 
-8. To configure, use the command: _vim /etc/apt/apt.conf.d/50unattended-upgrades_ and then scroll down to the portion that has a line of `//Unattended-Upgrade::Mail "root";` and then click the "i" key on your keyboard and entering the **del** twice to remove the // at the beginning of the line.  Note that the color of the line changes.  Now, move to the right and click the "del" button to delete root from in between the quotes.   Enter the desired email between those same quotes.
+8. Enter _vim /etc/apt/apt.conf.d/50unattended-upgrades_ to configure unattended upgrades. Scroll down to the portion that has the line `//Unattended-Upgrade::Mail "root";` and then enter the **i** key. Enter the **del** key twice to remove the // at the beginning of the line.  Note that the color of the line changes. Move the cursor to the right and enter **del** key to delete `root` from in between the quotes. Enter the email you want to use inbetween the quotes.
 
 9. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
-10. Next, use the command: _vim /etc/apticron/apticron.conf_ and scroll to the portion that begins with "EMAIL".  Click the "i" key on your keyboard, then move to the right and delete the root located in between quotes by clicking the "del" on your keyboard.  Enter the email address between the same quotes that you wish for the notifications to be sent:
+10. Enter  _vim /etc/apticron/apticron.conf_ and scroll to the portion that begins with "EMAIL".  Click the "i" key on your keyboard, then the cursor to the right and delete the `root` located in between quotes by.  Enter the email address between the same quotes that you want notifications to be sent.
 
 11. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
 
 #### Red Hat Enterprise Linux (RHEL 6) & CentOS 6
 
-1. After connecting to your CentOS 6 server, run the command: _yum –y install yum-cron_:
+1. Connect to your CentOS 6 or RHEL 6 server, and then run _yum –y install yum-cron_.
 
-2. Use the command: _vi /etc/sysconfig/yum-cron_ to view the configuration for yum-cron.  By default, the configuration should be set to download and install the updates:
+2. To view the yum-cron configuration, run _vi /etc/sysconfig/yum-cron_ .  By default, the configuration should be set to download and install the updates.
 
-3. (Optional) Set up notifications for automatic package updates (time of installation, packages installed, errors during installation). Press the "i" key on your keyboard to enter "INSERT" mode unless still in it from earlier steps).  Utilize the arrow keys on the keyboard to move down to the section with a "MAILTO=" field:
+3. (Optional) Set up notifications for automatic package updates (time of installation, packages installed, errors during installation). Press the "i" key on your keyboard to enter "INSERT" mode unless still in it from earlier steps).  Utilize the arrow keys on the keyboard to move down to the section with a "MAILTO=" field. Enter the desired email after "MAILTO=".
 
-4. Enter the desired email after "MAILTO=":
+4. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
-5. Click the "esc" key on your keyboard.  This will remove you from "INSERT" mode.  Press the keys _:wq_ to save the configuration.  When successful, a message stating that the file was properly written:
+6. Start the yum-cron service, run _/etc/inid.d/yum-cron start_.
 
-6. To start the yum-cron service, run the command: _/etc/inid.d/yum-cron start_:
-
-7. Just starting the service will help right away, but it is not configured to start the service on server reboot.  Because of this, run the command: _chkconfig yum-cron on_
+7. To configure the server to start the yum-cron service during a reboot, run _chkconfig yum-cron on_
 
 
 #### Red Hat Enterprise Linux 7 (RHEL 7) & CentOS 7
 
-1. After connecting to your CentOS 6 server, run the command: _yum –y install yum-cron_:
+1. Connect to your CentOS 7 or RHEL 7 server, and then run _yum –y install yum-cron_.
 
-2. Use the command: _vi /etc/sysconfig/yum-cron_ to view the configuration for yum-cron:
+2. Run _vi /etc/sysconfig/yum-cron_ to view the configuration for yum-cron.
 
-3. For automatic updates to be downloaded and installed, assure that "download\_updates" and "apply\_updates" are set to "yes":
+3. Check that `download\_updates` and `apply\_updates` are set to "yes" so that automatic updates are enabled.
 
-4. Notifications can be set up from within the configuration so that the output of the yum updates is emailed to inform the user what was completed, and what failed if there are issues.  \*\*\*please note this step can be skipped if you do not want the notification to be emailed to you\*\*\*).  Utilize the arrow keys on the keyboard to move down to the section titled [emitters].  The "emit\_via" should equal "stdio."  If this needs to be updated, use the same method as the previous step to update:
+4. (Optional) Notifications can be set up so that the output of the yum updates is emailed to inform the user what updates completed and what updates failed. Use the arrow keys on the keyboard to move down to the section titled "emitters".  The `emit\_via` value should should be set to `stdio`. 
 
-5. Continue to parse down the page with the down arrow until you reach the [email] section:
+5. Move your cursor to the the "email" section.
 
-6. Update the configuration to change the "email\_to" field to where you want the output to be sent:
+6. Update the configuration to change the `email\_to` field to the email you want the output you to be sent.
 
-7. Click the "esc" key on your keyboard.  This will remove you from "INSERT" mode.  Press the keys _:wq_ to save the configuration.  When successful, a message stating that the file was properly written:
+7. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
-8. The yum-cron service should be started already, but to check run the command: _systemctl status yum-cron_:
+8. Run _systemctl status yum-cron_ to check that the yum-cron service is already active. If the service is inactive, run `systemctl start yum-cron`.
 
-9. If it is not running (inactive), it can be started by running the command: systemctl start yum-cron:
+9. Make sure that the yum-cron service is set to start during a reboot _systemctl list-unit-files –type=service_ Find the `yum-cron.service` process in the file and make sure it is set to `enabled`. If the process is `disabled` run _systemctl enable yum-cron_.
 
-10. Now that the service is running, it is important to assure that the process will start after a reboot.  Check if the yum-cron service is "enabled" by running the command: _systemctl list-unit-files –type=service_ and finding the yum-cron.service process.  If it is "enabled" then you are good to go:
-
-11. If the process shows to be "disabled," run the command: _systemctl enable yum-cron_:
-
-12. Run the command: _systemctl list-unit-files –type=service_ and find the yum-cron service again.  It should now show "enabled" and you are all set:
-
+10. Run  _systemctl list-unit-files –type=service_ to find the yum-cron service again.  The service should not be set to `enabled`.
