@@ -82,7 +82,7 @@ If your existing Rackspace public cloud servers don't have automatic updates ena
 
 7. (Optional) Set up notifications for automatic package updates (time of installation, packages installed, errors during installation) by entering `sudo apt-get install apticron`
 
-8. Enter _vim /etc/apt/apt.conf.d/50unattended-upgrades_ to configure unattended upgrades. Scroll down to the portion that has the line `//Unattended-Upgrade::Mail "root";` and then enter the **i** key. Enter the **del** key twice to remove the // at the beginning of the line.  Note that the color of the line changes. Move the cursor to the right and enter **del** key to delete `root` from in between the quotes. Enter the email you want to use inbetween the quotes.
+8. Enter _vim /etc/apt/apt.conf.d/50unattended-upgrades_ to configure unattended upgrades. Scroll down to the portion that has the line `//Unattended-Upgrade::Mail "root";` and then enter the **i** key. Enter the **del** key twice to remove the // at the beginning of the line.  Note that the color of the line changes. Move the cursor to the right and enter **del** key to delete `root` from in between the quotes. Enter the email you want to use in between the quotes.
 
 9. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
@@ -97,7 +97,7 @@ If your existing Rackspace public cloud servers don't have automatic updates ena
 
 2. To view the yum-cron configuration, run _vi /etc/sysconfig/yum-cron_ .  By default, the configuration should be set to download and install the updates.
 
-3. (Optional) Set up notifications for automatic package updates (time of installation, packages installed, errors during installation). Press the "i" key on your keyboard to enter "INSERT" mode unless still in it from earlier steps).  Utilize the arrow keys on the keyboard to move down to the section with a "MAILTO=" field. Enter the desired email after "MAILTO=".
+3. (Optional) Set up notifications for automatic package updates (time of installation, packages installed, errors during installation). Press the "i" key on your keyboard to enter "INSERT" mode unless still in it from earlier steps).  Use the arrow keys on your keyboard to move down to the section with a "MAILTO=" field. Enter the desired email after "MAILTO=".
 
 4. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
