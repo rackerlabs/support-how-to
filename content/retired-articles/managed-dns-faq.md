@@ -7,8 +7,6 @@ created_date: '2016-03-14'
 created_by: Nicole Hairston
 last_modified_date: '2017-04-17'
 last_modified_by: Stephanie Fillmon
-product: Cloud DNS
-product_url: cloud-dns
 ---
 
 ### General
