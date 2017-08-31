@@ -1,7 +1,7 @@
 ---
-permalink: keep-a-server-up-to-date/
+permalink: keep-cloud-servers-up-to-date/
 audit_date: 
-title: Keep a cloud server up to date
+title: Keep a cloud server up-to-date
 type: article
 created_date: '2017-07-31'
 created_by: Shaun Crumpler
@@ -11,60 +11,55 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-While package updates can not completely prevent cyber attacks, compromised servers can be avoided if the servers are kept up to date with the proper security fixes. While package updates can not completely prevent cyber attacks, keeping your servers up to date should be a key component of your security posture.
+Although package updates cannot completely prevent cyberattacks, you can avoid compromised servers if the servers are kept up-to-date with the proper appropriate security fixes. Keeping your servers up-to-date should be a key component of your security strategy.
 
 This article describes how to update packages on your Rackspace public cloud server and how to keep them updated.
 
-### Migrate away from End-of-Life (EOL) Operating Systems**
+### Migrate away from EOL operating systems
 
-After an operating system has reached end-of-life (EOL), it is no longer supported by the OS provider, nor does it receive security updates. For example, CentOS 5, Debian 6 (Squeeze) and Ubuntu 12 LTS have reached their EOL date. Check your operating system's home page to see end-of-life dates, and make plans to migrate to newer operating systems before the end-of-life date.
+After an operating system (OS) reaches its end-of-life (EOL) date, it is no longer
+supported by the OS provider, nor does it receive security updates. For example, CentOS
+5, Debian 6 (Squeeze), and Ubuntu 12 LTS have reached their EOL date. Check your OS's
+home page for EOL dates, and plan to migrate to a newer OS before the EOL date.
 
-### Build a new server with automatic updates enabled
+### Enable automatic updates when creating a server
 
-If you're building a new Rackspace public cloud server, it's easy to enable automatic updates:
+When you create a new Rackspace public cloud server through the Cloud Control Panel,
+you can enable automatic updates. 
 
-1. In the Rackspace Cloud control panel, click **Servers** > **Create Server**. 
+In the Recommended Installs section of the Create Server page, select the **Operating
+system security patched applied on selected images** option.
 
-3. Click **Create Server**.
+**Note:** This option is not available for all types of cloud servers.
 
-4. Chose the customization options for your server such as the Server Name, Region, Image Type, Operating System, Version, and Flavor.
+### Enable automatic updates on existing cloud servers
 
-5. Go to the Recommended Installs section.  Check the **Operating system security patched applied on selected images** option. 
-
-   **Note:** This option is not avaliable on some types of Cloud Servers.
-
-
-### Enable automatic ppdates on existing cloud servers
-
-If your existing Rackspace public cloud servers don't have automatic updates enabled, you can enable them manually based on your OS using the following:
+If your existing Rackspace public cloud servers do not have automatic updates enabled,
+you can enable them manually. See the following steps for your OS.
 
 #### Windows 2008
 
-1. Connect to the Windows Server and then click on the **Start** in the lower left corner.
-
-2. Select **Control Panel** > **System and Security**.
-
-4. In the "Windows Update" section, click **Turn automatic updating on or off**.
-
-5. In the drop down menu, select **Install updates automatically (recommended)**.
-
-6. Check the box under **Recommended Updates** so that the recommended updates are automatic.  You can also check the box under "Who can install updates" to allow all users the option to install updates on the server.
-
+1. Connect to the server.
+2. From the **Start** menu, select **Control Panel > System and Security**.
+3. In the **Windows Update section**, click **Turn automatic updating on or off**.
+4. In the drop-down menu, select **Install updates automatically (recommended)**.
+5. Select the check box under **Recommended Updates** so that the recommended updates are automatic.
+6. To allow all users the option to install updates on the server, select the check box
+under **Who can install updates**.
 
 #### Windows 2012
 
-1. Connect to the Windows server and theclick on the Windows icon in the lower left corner.
+1. Connect to the server.
+2. Click the Windows icon in the lower-left corner and select **Control
+Panel > System and Security**.
+3. In the **Windows Update** section, click **Turn automatic updating on or off**.
+4. In the drop-down menu, select **Install updates automatically (recommended)**.
+5. Select the check box under **Recommended Updates** so that the recommended
+updates are automatic.
+6. To enable updates for other Microsoft products at the same time that Windows
+updates are completed, select the check box under **Microsoft Update**.
 
-2. Select **Control Panel** > **System and Security**.
-
-3. In the "Windows Update" section, click **Turn automatic updating on or off**.
-
-4. In the drop down menu, select **Install updates automatically (recommended)**.
-
-5. Check the box under **Recommended Updates** so that the recommended updates are automatic.  You can also check the box under "Microsoft Update" to enable updates for other Microsoft products to be done at the same time that Windows updates are completed.
-
-
-#### Debian/Ubuntu 14.04 & 16.04
+#### Debian or Ubuntu 14.04 and 16.04
 
 1. Connect to your Debian/Ubuntu server and run `sudo apt install unattended-upgrades`.
 
