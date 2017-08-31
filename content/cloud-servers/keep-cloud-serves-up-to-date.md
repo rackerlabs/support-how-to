@@ -61,15 +61,17 @@ updates are completed, select the check box under **Microsoft Update**.
 
 #### Debian or Ubuntu 14.04 and 16.04
 
-1. Connect to your Debian/Ubuntu server and run `sudo apt install unattended-upgrades`.
+1. Connect to the server. 
 
-2. Use `vim /etc/apt/apt.conf.d/50unattended-upgrades` to open the configuration file.
+2. Run `sudo apt install unattended-upgrades`.
 
-3. Any line beginning with "//" will be ignored when the command is run. To delete the "//" before the updates line, enter **i** and then press the down arrow to move the cursor to the // to the left of the `${distro\_id}:${distro\_codename}-update;` line.  Press the **del** key twice to delete the line.
+3. Run `vim /etc/apt/apt.conf.d/50unattended-upgrades` to open the configuration file.
 
-4. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
+4. Any line beginning with "//" will be ignored when the command is run. To delete the "//" before the updates line, enter **i** and then press the down arrow to move the cursor to the // to the left of the `${distro\_id}:${distro\_codename}-update;` line.  Press the **del** key twice to delete the line.
 
-5. Use `vim /etc/apt/apt.conf.d/10periodic` to set the desired recurrence time for each of the updates.  As in the previous step, click the "i" key on your keyboard to once again enter "Insert" mode.  Use the keys on the your keyboard to navigate to the number between quotes that you wish to change.  Press the **del** key twice to remove the number. Update and then enter the number of times you want the server to update each day.  
+5. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
+
+6. Use `vim /etc/apt/apt.conf.d/10periodic` to set the desired recurrence time for each of the updates.  As in the previous step, click the "i" key on your keyboard to once again enter "Insert" mode.  Use the keys on the your keyboard to navigate to the number between quotes that you wish to change.  Press the **del** key twice to remove the number. Update and then enter the number of times you want the server to update each day.  
 
     The following example shows that three of the updates will be done each day, and the `AutocleanInterval` to clean the local download archive will be cleaned every fourteen days:
 
