@@ -1,6 +1,6 @@
 ---
 permalink: change-account-information/
-audit_date:
+audit_date: '2017-09-01'
 title: Change account information
 type: article
 created_date: '2015-06-18'
