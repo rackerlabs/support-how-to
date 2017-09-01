@@ -5,8 +5,8 @@ title: Change account information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
-last_modified_date: '2017-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-09-01'
+last_modified_by: Renée Rendon
 product: undefined
 product_url: undefined
 ---
@@ -20,26 +20,26 @@ complete them.
 
 If the ownership of your company has changed or the company's tax ID has
 changed, you must inform us of these changes by completing the
-**Assignment and Assumption form**. This form requires signatures from
+**Service Transfer** form. This form requires signatures from
 both the assignor (original account owner) and the assignee (new account
 owner).
 
-You can download the **Assignment and Assumption** form directly from
+You can download the **Service Transfer** form directly from
 the [Cloud Control Panel](https://mycloud.rackspace.com/) by using the following steps.
 
 **Note:** If you are a Dedicated Hosting customer, you can request this form
 directly from your Account Manager.
 
 1. In the upper-right corner of the Cloud Control Panel, click the ***userName*** menu and select **Documents and Forms**.
-2.  In the **Rackspace Account Change Forms** section, click the **Assignment and Assumption Form** link.
-3.  Download the **Assignment and Assumption** form and complete it.
+2.  In the **Rackspace Account Change Forms** section, click the **Service Transfer** form link.
+3.  Download the **Service Transfer** form and complete it.
 4.  Attach the completed form to a support ticket and submit the ticket.
 
 ### Company name change
 
 If your company has filed for a name change with the Secretary of State
 where the company is registered and there was a change in tax ID,
-complete the **Assignment and Assumption** form. See the preceding section for information about obtaining and submitting this form.
+complete the **Service Transfer** form form. See the preceding section for information about obtaining and submitting this form.
 
 If the company name has changed but there was no change in tax ID or
 ownership, you must complete one of the following forms to provide
@@ -83,7 +83,7 @@ two business days for the Billing team to review.
 To avoid form rejection, use the following tips when completing the
 form:
 
--   The signatures on the **Assignment and Assumption** form *must* come
+-   The signatures on the **Service Transfer** form *must* come
     from an officer or an owner of the company.
 -   The owner or officer must initial any changes regarding an increase
     in MMR or added devices or domains that are made to the form after
@@ -91,10 +91,10 @@ form:
 -   No blank fields are allowed on any form, except where indicated. You
     may not type **Same** in any field
 
-### Assignment and Assumption form requirements
+### Service Transfer form requirements
 
 The Billing team has strict requirements when processing the
-**Assignment and Assumption** form for a Rackspace account. Use the
+**Service Transfer** form for a Rackspace account. Use the
 following information to have the submission processed quickly and
 efficiently.
 
@@ -126,17 +126,5 @@ representative will complete this section.
 
 In the **List of Instances transferring** section, provide the following information:
   -   **Cloud Account Number** - Enter the account number.
-  -   **Current Cloud Name** - Enter the current name of your account.
   -   **New Cloud Name** - Enter the new name of the account. Leave
         this blank if there is no change.
-  -   **Monthly Recurring Fee** - Enter the amount of the account's
-        most recent invoice.
-  -   **Total Monthly Recurring Fee for Instances** - Enter $0.00.
-  -   **Utility Fee for Instances** - Enter the amount of the
-        account's last invoice.
-
-The remainder of the document pertains to Cloud Office customers only.
-
-<img src="{% asset_path general/change-account-information/change-account-3.jpg %}" alt="Cloud Instances Exhibit A" width="593" height="141" />
-
-<img src="{% asset_path general/change-account-information/change-account-4.jpg %}" alt="Lower part of Cloud Instances Exhibit A" width="599" height="295" />
