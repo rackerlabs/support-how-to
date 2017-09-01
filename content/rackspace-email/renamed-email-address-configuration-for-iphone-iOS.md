@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Once you have renamed a Rackspace Email address, your devices will not receive new email until you configure them to connect to the new email address.
+After you have renamed a Rackspace Email address, your devices will not receive new email until you configure them to connect to the new email address. This article describes how to configure a renamed email address on iPhone iOS.
 
 ### Prerequisites
 
@@ -22,20 +22,14 @@ Once you have renamed a Rackspace Email address, your devices will not receive n
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
+### Configure mail settings
 
+The following steps use  general settings for iPhone iOS and may vary across iOS versions.
 
-#### iPhone iOS renamed email address configuration
-
-These are general settings for iPhone iOS and may vary across iOS versions.
-
-Note: There are additional instructions after initial configuration that must be followed in order for the IMAP folders on your iPhone to sync properly.
+**Important:** For IMAP folders to sync properly on your iPhone, follow the instructions in the **Configure IMAP folder sync settings** section.
 
 1. On the home screen, tap the **Settings** icon.
-2. Within **Settings**, scroll down and tap **Mail**.
-
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/iphone-settings.png %}" />
-
-3. Now tap **Accounts**
+2. In the **Settings** menu, scroll down and tap **Mail** and then **Accounts**.
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/accounts.png %}" />
 
@@ -43,7 +37,7 @@ Note: There are additional instructions after initial configuration that must be
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/addaccount.png %}" />
 
-5. Tap **Other**, at the bottom
+5. In the list of mail types, tap **Other**.
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/mail-type.png %}" />
 
@@ -51,48 +45,49 @@ Note: There are additional instructions after initial configuration that must be
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/addmailaccount.png %}" />
 
-7. The next screen will ask for basic account information:
+7. Enter the following account information:
+
     - **Name:** Your first and last name
-    - **Email:** renamed@yourdomainexample.com (*Use the new email address here*)
+    - **Email:** Your renamed Rackspace Email address
     - **Password:** Your mailbox password
-    - **Description:** Anything you'd like!
+    - **Description:** A brief description of the mailbox
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/iphone-logindetails.png %}" />
 
 8. Tap **Next**.
-9. Make sure IMAP is selected and enter the following settings:
+9. Verify that IMAP is selected and enter the following settings:
 
     - **Name:** Your first and last name
-    - **Email:** renamed@yourdomainexample.com (*Use the new email address here*)
-    - **Description:** Should already be prefilled from last section
+    - **Email:** Your renamed Rackspace Email address
+    - **Description:** A brief description of the mailbox
     - **Password:** Your mailbox password
 
     - Incoming Server Settings
+    
         - **Host Name:** secure.emailsrvr.com
-        - **User Name:** renamed@yourdomainexample.com (*Use the new email address here*)
+        - **User Name:** Your renamed Rackspace Email address
         - **Password:** Your mailbox password
 
     - Outgoing Server Settings
+    
         - **Host Name:** secure.emailsrvr.com
-        - **User Name:** renamed@yourdomainexample.com (*Use the new email address here*)
+        - **User Name:** Your renamed Rackspace Email address
         - **Password:** Your mailbox password
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/imap-serversettings.png %}" />
 
-    Warning: Even though it says optional, they are NOT optional. If you skip these fields, you will NOT be able to send out email.
+    **Warning:** Before you enter any information, the outgoing server settings fields display *Optional*. Do **not** skip this step. For your outgoing email to function, you must enter the outgoing server information.
 
 10. Tap **Next**.
 11. Select the desired settings and tap **Save**.
-12. Continue to **iPhone IMAP folder sync settings**.
 
-Note: You will only be able to sync **Mail** with Rackspace Email. If you need to sync **Mail**, **Contacts**, and **Calendar** items to your mobile device consider upgrading to [**Rackspace Email Plus**](/how-to/upgrade-to-rackspace-email-plus/).
+**Note:** You can sync only **Mail** with Rackspace Email. If you need to sync **Mail**, **Contacts**, and **Calendar** items to your mobile device consider upgrading to [Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/).
 
+### Configure IMAP folder sync settings
 
-#### iPhone IMAP folder sync settings
-
-1. Within the **Mail** settings window, select the account that you just added.
+1. In the **Mail** settings, select the account that you added in the previous section.
 2. Under **IMAP**, tap **Account**.
-3. Within the account settings, select **Advanced** at the bottom.
+3. In the account settings, select **Advanced**.
 4. Under **MAILBOX BEHAVIORS**, select **Sent Mailbox**.
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/mapping-folderlist.png %}" />
@@ -101,8 +96,9 @@ Note: You will only be able to sync **Mail** with Rackspace Email. If you need t
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/mapping-ontheserver.png %}" />
 
-6. Now repeat the previous step for **Deleted Mailbox**. Ignore the Archive Mailbox, it won't be used.
-7. Last step! Make sure **Deleted Mailbox** is selected under **MOVE DISCARDED MESSAGES INTO**. This will ensure deleted messages go to the Deleted Mailbox folder.
-8. Now you're done! Go back to the home screen and launch the Mail app. Your email should appear within a few minutes, depending on the amount of items to sync.
+6. Repeat the previous step for **Deleted Mailbox**. Ignore the Archive Mailbox, it won't be used.
+7. Verify that **Deleted Mailbox** is selected under **MOVE DISCARDED MESSAGES INTO**. This ensures that deleted messages go to the Deleted Mailbox folder.
 
-Note: If you have a large mailbox, it may take several minutes before email appears. Please wait at least 15 minutes before troubleshooting.
+Go back to the home screen and launch the Mail app. Your email should appear within a few minutes, depending on the amount of items to sync.
+
+**Note:** If you have a large mailbox, it may take several minutes before email appears. Please wait at least 15 minutes before troubleshooting.
