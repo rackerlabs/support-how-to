@@ -29,7 +29,7 @@ The following steps use  general settings for iPhone iOS and may vary across iOS
 **Important:** For IMAP folders to sync properly on your iPhone, follow the instructions in the **Configure IMAP folder sync settings** section.
 
 1. On the home screen, tap the **Settings** icon.
-2. In the **Settings** menu, scroll down and tap **Mail** and then **Accounts**.
+2. In the **Settings** menu, tap **Mail**, and then tap **Accounts**.
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/accounts.png %}" />
 
