@@ -33,19 +33,19 @@ The following steps use  general settings for iPhone iOS and may vary across iOS
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/accounts.png %}" />
 
-4. Tap **Add Account**
+3. Tap **Add Account**
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/addaccount.png %}" />
 
-5. In the list of mail types, tap **Other**.
+4. In the list of mail types, tap **Other**.
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/mail-type.png %}" />
 
-6. Tap **Add Mail Account**.
+5. Tap **Add Mail Account**.
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/addmailaccount.png %}" />
 
-7. Enter the following account information:
+6. Enter your account information, and then tap **Next**.
 
     - **Name:** Your first and last name
     - **Email:** Your renamed Rackspace Email address
@@ -54,8 +54,7 @@ The following steps use  general settings for iPhone iOS and may vary across iOS
 
     <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-iphone-iOS/iphone-logindetails.png %}" />
 
-8. Tap **Next**.
-9. Verify that IMAP is selected and enter the following settings:
+7. Verify that IMAP is selected and enter the following settings:
 
     - **Name:** Your first and last name
     - **Email:** Your renamed Rackspace Email address
@@ -78,8 +77,8 @@ The following steps use  general settings for iPhone iOS and may vary across iOS
 
     **Warning:** Before you enter any information, the outgoing server settings fields display *Optional*. Do **not** skip this step. For your outgoing email to function, you must enter the outgoing server information.
 
-10. Tap **Next**.
-11. Select the desired settings and tap **Save**.
+8. Tap **Next**.
+9. Select the desired settings and tap **Save**.
 
 **Note:** You can sync only **Mail** with Rackspace Email. If you need to sync **Mail**, **Contacts**, and **Calendar** items to your mobile device consider upgrading to [Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/).
 
