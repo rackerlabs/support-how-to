@@ -62,13 +62,11 @@ The following steps use  general settings for iPhone iOS and may vary across iOS
     - **Password:** Your mailbox password
 
     - Incoming Server Settings
-    
         - **Host Name:** secure.emailsrvr.com
         - **User Name:** Your renamed Rackspace Email address
         - **Password:** Your mailbox password
 
     - Outgoing Server Settings
-    
         - **Host Name:** secure.emailsrvr.com
         - **User Name:** Your renamed Rackspace Email address
         - **Password:** Your mailbox password
