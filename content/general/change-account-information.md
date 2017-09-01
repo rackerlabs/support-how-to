@@ -30,7 +30,7 @@ the [Cloud Control Panel](https://mycloud.rackspace.com/) by using the following
 **Note:** If you are a Dedicated Hosting customer, you can request this form
 directly from your Account Manager.
 
-1. In the upper-right corner of the Cloud Control Panel, click the ***userName*** menu and select **Documents and Forms**.
+1.  In the upper-right corner of the Cloud Control Panel, click the ***userName*** menu and select **Documents and Forms**.
 2.  In the **Rackspace Account Change Forms** section, click the **Service Transfer** form link.
 3.  Download the **Service Transfer** form and complete it.
 4.  Attach the completed form to a support ticket and submit the ticket.
@@ -122,9 +122,9 @@ efficiently.
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
 representative will complete this section.
 
-#### Page 3 - Cloud Instances (Exhibit A)
+#### Page 3 - Consolidated and/or Linked Cloud Accounts (Exhibit A)
 
-In the **List of Instances transferring** section, provide the following information:
+In the **Cloud Account Number** and the **New Cloud Account Name** columns, provide the following information:
   -   **Cloud Account Number** - Enter the account number.
-  -   **New Cloud Name** - Enter the new name of the account. Leave
+  -   **New Cloud Account Name** - Enter the new name of the account. Leave
         this blank if there is no change.
