@@ -24,12 +24,10 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 
 There are many situations where you may need to import your email address data into Outlook.
-
     - [Renaming a Rackspace Email address](/how-to/rename-a-rackspace-email-mailbox/)
     - Switching from a POP account to an IMAP account
     - Migrating to a new domain
     - Migrating to [Microsoft Exchange](/how-to/rackspace-email-to-microsoft-exchange-migration/) or [Office 365](/how-to/upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq/)
-
 
 If you need to export email address data before importing it, follow this link for instructions
 
