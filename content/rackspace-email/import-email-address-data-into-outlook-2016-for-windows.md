@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article provides instructions for exporting a copy of your email address data from Outlook 2016.
+This article provides instructions for importing a copy of your email address data into Outlook 2016.
 
 ### Prerequisites
 
@@ -25,13 +25,13 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 There are many situations where you may need to import your email address data into Outlook.
 
-    - [Renaming a Rackspace Email address](/how-to/)
+    - [Renaming a Rackspace Email address](/how-to/rename-a-rackspace-email-mailbox/)
     - Switching from a POP account to an IMAP account
     - Migrating to a new domain
     - Migrating to [Microsoft Exchange](/how-to/rackspace-email-to-microsoft-exchange-migration/) or [Office 365](/how-to/upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq/)
 
-It is important that you export a copy of your email address data from Outlook before starting any of the above items to avoid data loss. Follow the applicable link for instructions on exporting from [Outlook 2013 for Windows](/how-to/export-email-address-from-outlook-2013-for-windows/) or [Outlook 2010 for Windows](/how-to/export-email-address-data-from-outlook-2010-for-windows/).
 
+If you need to export email address data before importing it, follow this link for instructions
 
 
 #### Import to Outlook 2016
@@ -45,7 +45,7 @@ It is important that you export a copy of your email address data from Outlook b
 
     <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/advanced2016.png %}" />
 
-4. Click **Export**.
+4. Click **Export** to the right.
 
     <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/export2016.png %}" />
 
@@ -67,6 +67,4 @@ It is important that you export a copy of your email address data from Outlook b
 
 9. Click **Finish**. The **Outlook Data File** will begin importing. The time to complete the import could take several minutes to several hours depending on the size of the importing file.
 
-
-
-Once the import has completed, verify that the data has successfully imported by opening folders that should contain data.
+You have now successfully imported email data into Outlook 2016.
