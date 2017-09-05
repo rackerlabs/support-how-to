@@ -31,31 +31,31 @@ If you need to export email address data before importing it, follow this link f
 1. Click the **File** tab.
 2. Click **Options** on the left side menu.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/options2016.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2013-for-windows/options2013.png %}" />
 
 3. In the **Outlook Options** window, click **Advanced**.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/advanced2016.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2013-for-windows/advanced2013.png %}" />
 
 4. Click **Export** to the right.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/export2016.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2013-for-windows/export2013.png %}" />
 
 5. In the **Import and Export Wizard**, click **Import from a file**, and then click **Next**.
 
-    <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2016-for-windows/import_from_a_file2016.png %}" />
+    <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2013-for-windows/import_from_a_file2013.png %}" />
 
 6. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/outlook_data_file.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2013-for-windows/outlook_data_file.png %}" />
 
 7. Click **Browse**, and then select the **Outlook data file** file to be imported.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/browse_import2016.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2013-for-windows/browse_import2013.png %}" />
 
 8. Select the folder to import from. If you wish to import all folders, select the **Outlook Data File** and check the box next to **Include subfolders**. Select **Import items into the same folder in:** and select the email address you would like the data imported into.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/import_from2016.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2013-for-windows/import_from2013.png %}" />
 
 9. Click **Finish**. The **Outlook Data File** will begin importing. The time to complete the import could take several minutes to several hours depending on the size of the importing file.
 
