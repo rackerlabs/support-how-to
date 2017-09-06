@@ -1,17 +1,17 @@
 ---
-permalink: sitecore-cloud-faq/
+permalink: sitecore-managed-cloud-premium-faq/
 audit_date:
-title: Sitecore Cloud FAQ
+title: Sitecore Managed Cloud Premium FAQ
 type: article
 created_date: '2017-05-02'
 created_by: Juan Garza
-last_modified_date: '2017-06-13'
+last_modified_date: '2017-09-17'
 last_modified_by: Nate Archer
 product: Managed Operations
 product_url: managed-operations
 ---
 
-Get quick answers to common questions about Sitecore Managed Cloud.
+Get quick answers to common questions about Sitecore Managed Cloud Premium.
 
 #### Which regions is Sitecore available in?
 
