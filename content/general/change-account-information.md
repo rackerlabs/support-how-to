@@ -25,7 +25,7 @@ the [Cloud Control Panel](https://mycloud.rackspace.com/) by using the following
 **Note:** If you are a Dedicated Hosting customer, you can request this form
 directly from your Account Manager.
 
-1.  In the upper-right corner of the Cloud Control Panel, click the your username, and then click **Documents and Forms**.
+1.  In the upper-right corner of the Cloud Control Panel, click your username, and then click **Documents and Forms**.
 2.  In the **Rackspace Account Change Forms** section, click the **Service Transfer** form link.
 3.  Download the **Service Transfer** form and complete it.
 4.  Attach the completed form to a support ticket and submit the ticket.
