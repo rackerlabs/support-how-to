@@ -30,11 +30,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
     <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2011-for-mac/file_export2011.png %}" />
 
-3. A box will appear asking **What do you want to export?**. Select **Outlook for Mac Data File(.olm) then check off all applicable items to be exported and click the right arrow in the lower right corner to continue.
+3. A box will appear asking **What do you want to export?**. Select **Outlook for Mac Data File(.olm)** then check off all applicable items to be exported and click the right arrow in the lower right corner to continue.
 
     <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2011-for-mac/items_export2011.png %}" />
 
-4. A box will appear asking **Do you want to delete items from Outlook after they are exported?**. We do not recommend deleting anything. Select ** No, do not delete items** and click the right arrow in the lower right corner to continue.
+4. A box will appear asking **Do you want to delete items from Outlook after they are exported?**. We do not recommend deleting anything. Select **No, do not delete items** and click the right arrow in the lower right corner to continue.
 
     <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2011-for-mac/delete_export2011.png %}" />
 
@@ -46,4 +46,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
     <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2011-for-mac/export_complete2011.png %}" />
 
-You have exported a copy of your email address data from Outlook 2011 for Mac! If you need to import email address data into Outlook 2011 for Mac, see [Import email address data into Outlook 2011 for Mac](import-email-address-data-into-outlook-2011-for-mac)
+You have exported a copy of your email address data from Outlook 2011 for Mac! If you need to import email address data into Outlook 2011 for Mac, see [Import email address data into Outlook 2011 for Mac](/how-to/import-email-address-data-into-outlook-2011-for-mac).
