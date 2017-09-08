@@ -5,7 +5,7 @@ title: Import email address data into Outlook 2010 for Windows
 type: article
 created_date: '2017-09-05'
 created_by: William Loy
-last_modified_date: '2017-09-05'
+last_modified_date: '2017-09-08'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -23,7 +23,7 @@ This article provides instructions for importing a copy of your email address da
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 
-If you need to export email address data before importing it, follow this link for instructions
+If you need to export or import email address data from a different Outlook version reference [Export and Import email address data using Outlook](/how-to/export-and-import-email-address-data-in-outlook).
 
 
 #### Import to Outlook 2010
@@ -31,7 +31,7 @@ If you need to export email address data before importing it, follow this link f
 1. Click the **File** tab.
 2. Click **Options** on the left side menu.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/options2010.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/file_options2010.png %}" />
 
 3. In the **Outlook Options** window, click **Advanced**.
 
@@ -47,15 +47,15 @@ If you need to export email address data before importing it, follow this link f
 
 6. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/outlook_data_file.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/outlook_data_file2010.png %}" />
 
 7. Click **Browse**, and then select the **Outlook data file** file to be imported.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/browse_import2010.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/browset2010.png %}" />
 
 8. Select the folder to import from. If you wish to import all folders, select the **Outlook Data File** and check the box next to **Include subfolders**. Select **Import items into the same folder in:** and select the email address you would like the data imported into.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/import_from2010.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/folder_to_import_from2010.png %}" />
 
 9. Click **Finish**. The **Outlook Data File** will begin importing. The time to complete the import could take several minutes to several hours depending on the size of the importing file.
 
