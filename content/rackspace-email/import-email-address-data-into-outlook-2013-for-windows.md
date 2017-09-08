@@ -5,7 +5,7 @@ title: Import email address data into Outlook 2013 for Windows
 type: article
 created_date: '2017-09-04'
 created_by: William Loy
-last_modified_date: '2017-09-04'
+last_modified_date: '2017-09-08'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -23,7 +23,7 @@ This article provides instructions for importing a copy of your email address da
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 
-If you need to export email address data before importing it, follow this link for instructions
+If you need to export or import email address data from a different Outlook version reference [Export and Import email address data using Outlook](/how-to/export-and-import-email-address-data-in-outlook).
 
 
 #### Import to Outlook 2013
