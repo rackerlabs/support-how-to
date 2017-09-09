@@ -48,7 +48,7 @@ If the mailbox is set up in a [local email client](/how-to/cloud-office-support-
 
     <img src="{% asset_path rackspace-email/rename-a-rackspace-email-address/success-message.png %}" />
 
-You have successfully renamed a Rackspace Email mailbox!
+You have successfully renamed a Rackspace Email address!
 
 
 ### Update devices to connect to the renamed email address
