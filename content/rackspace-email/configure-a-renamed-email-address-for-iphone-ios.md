@@ -18,7 +18,7 @@ After you have renamed a Rackspace Email address, your devices will receive new 
 - **Applies to:** User
 - **Difficulty:** Easy
 - **Time needed:** Approximately 10 minutes
-- **Tools required:**  Mailbox password and access to the devices you that want to configure
+- **Tools required:**  Mailbox password and access to the devices that you want to configure
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
