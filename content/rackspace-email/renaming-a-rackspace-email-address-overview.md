@@ -1,7 +1,7 @@
 ---
-permalink: renaming-a-rackspace-email-mailbox-overview/
+permalink: renaming-a-rackspace-email-address-overview/
 audit_date: '2017-09-11'
-title: Renaming a Rackspace Email mailbox overview
+title: Renaming a Rackspace Email address overview
 type: article
 created_date: '2017-09-11'
 created_by: William Loy
@@ -11,14 +11,14 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-You can rename an existing Rackspace Email mailbox. This article provides an overview of the process, including information about backing up mail data, renaming the mailbox, reconnecting to the mailbox from your devices, and troubleshooting. 
+You can rename an existing Rackspace Email address. This article provides an overview of the process, including information about backing up mail data, renaming the address, reconnecting to the address from your devices, and troubleshooting. 
 
 ### Prerequisites
 
 - **Applies to:** User or administrator
 - **Difficulty:** Easy
 - **Time needed:** Approximately 20 minutes
-- **Tools required:**  Mailbox password and access to the devices you want to connect
+- **Tools required:**  Email address password and access to the devices you want to connect
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
@@ -27,11 +27,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 Before you rename your mailbox, export a copy of the mailbox from your [local mail client](/how-to/cloud-office-support-terminology). Creating a copy ensures that you won't lose any data when making configuration changes.
 
-### Rename the mailbox
+### Rename the email address
 
-For instructions, see [Rename a Rackspace Email mailbox](/how-to/rename-a-rackspace-email-mailbox)
+For instructions, see [Rename a Rackspace Email address](/how-to/rename-a-rackspace-email-address)
 
-### Connect to the newly named mailbox
+### Connect to the newly named address
 
 After you have backed up the mail data locally, you are ready to connect to the renamed mailbox. Use the following instructions for your mail client. 
 
