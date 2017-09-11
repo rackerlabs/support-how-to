@@ -17,7 +17,7 @@ You can rename an existing Rackspace Email address. This article provides an ove
 
 - **Applies to:** User or administrator
 - **Difficulty:** Easy
-- **Time needed:** Approximately 20 minutes
+- **Time needed:** Dependent on the amount of data backed up, otherwise approximately 20 minutes
 - **Tools required:**  Email address password and access to the devices you want to connect
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
