@@ -37,16 +37,16 @@ After you have backed up the mail data locally, you are ready to connect to the 
 
 #### Desktop clients
 
-- [Outlook 2016, 2013 and 2010 for Windows](/how-to/renamed-email-address-configuration-for-outlook-on-windows)
-- [Outlook 2016 for Mac](/how-to/renamed-email-address-configuration-for-outlook-2016-on-mac)
-- [Outlook 2011 for Mac](/how-to/renamed-email-address-configuration-for-outlook-2011-on-mac)
-- [Apple Mail](/how-to/renamed-email-address-configuration-for-apple-mail)
+- [Outlook 2016, 2013 and 2010 for Windows](/how-to/configure-a-renamed-email-address-configuration-for-outlook-on-windows)
+- [Outlook 2016 for Mac](/how-to/configure-a-renamed-email-address-configuration-for-outlook-2016-on-mac)
+- [Outlook 2011 for Mac](/how-to/configure-a-renamed-email-address-configuration-for-outlook-2011-on-mac)
+- [Apple Mail](/how-to/configure-a-renamed-email-address-configuration-for-apple-mail)
 
 #### Mobile clients
 
-- [Iphone iOS](/how-to/renamed-email-address-configuration-for-iphone-iOS)
-- [Android](/how-to/renamed-email-address-configuration-for-android-mobile-phone)
-- [Windows](/how-to/renamed-email-address-configuration-for-windows-mobile-phone)
+- [Iphone iOS](/how-to/configure-a-renamed-email-address-on-iphone-iOS)
+- [Android](/how-to/configure-a-renamed-email-address-configuration-for-android-mobile-phone)
+- [Windows](/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone)
 
 ### Troubleshooting
 
