@@ -56,7 +56,7 @@ Your devices are not receiving mail because they are configured to connect using
 
 #### I followed the configuration instructions and now I am missing mail! What happened?
 
-As we recommended you should back up local data before making changes. In many cases this issue is easily resolved. If you are missing mail data, it might be that your old configuration was storing data locally to your device. If backed up the data, you can import it into the new configuration.
+In many cases this issue is easily resolved if you back up the local data before making changes. If you are missing mail data, it might be that your old configuration was storing data locally to your device. You can import the data into the new configuration.
 
 #### Will mail sent to the old email address be delivered to my new email address?
 
