@@ -51,7 +51,7 @@ If you need to export or import email address data from a different Outlook vers
 
 7. Click **Browse**, and then select the **Outlook data file** file to be imported.
 
-    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/browset2010.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/browse2010.png %}" />
 
 8. Select the folder to import from. If you wish to import all folders, select the **Outlook Data File** and check the box next to **Include subfolders**. Select **Import items into the same folder in:** and select the email address you would like the data imported into.
 
