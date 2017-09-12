@@ -1,7 +1,7 @@
 ---
-permalink: renamed-email-address-configuration-for-outlook-2011-on-mac/
+permalink: configure-a-renamed-email-address-on-outlook-2011-for-mac/
 audit_date: '2017-08-23'
-title: Renamed email address configuration for Outlook 2011 on Mac
+title: Configure a renamed email address on Outlook for Mac
 type: article
 created_date: '2017-08-23'
 created_by: William Loy
@@ -29,28 +29,27 @@ Warning: If the old email address connects via POP, you will want to migrate the
 
 #### Outlook 2011 for Mac
 
-
 1. Quit **Outlook 2011** by right-clicking the icon and selecting *Quit*.
 
 2. Hold down the **Option** key while opening **Outlook 2011**. This will open the **Microsoft Database Utility**.
 
 3. We will now create a new identity by click the **+** sign.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/microsoft-database-utility.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/microsoft-database-utility.png %}" />
 
 4. Once you have named the new identity, be sure to set it as the default identity. Highlight the new identity, then click the **Settings Gear**, and select **Set as Default**.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/microsoft-database-utility-default.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/microsoft-database-utility-default.png %}" />
 
 5. Close the **Microsoft Database Utility** and open **Outlook 2011**.
 
 6. Once **Outlook 2011** is open, select the **Outlook** option from the ribbon in the upper left-hand corner and select **Preferences** from the drop down menu.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/Outlook_Dropdown.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/Outlook_Dropdown.png %}" />
 
 7. In the next prompt, select **Accounts**.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/OL2011-accounts.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/OL2011-accounts.png %}" />
 
 8. Within the Accounts dialog, select **Other Email**.
 
@@ -71,7 +70,7 @@ Warning: If the old email address connects via POP, you will want to migrate the
             - **Use SSL to connect (recommended):** Checked
             - **Outgoing Server Port:** 465
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/server-settings.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/server-settings.png %}" />
 
 
 10. Click **Add Account**.
@@ -82,7 +81,7 @@ Warning: If the old email address connects via POP, you will want to migrate the
     - **Unqualified domain:** Leave this field blank
     - Click **OK**
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-2011-on-mac/more-options.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/more-options.png %}" />
 
 
 12. Close the accounts window and click **Send/Receive** in Outlook.
