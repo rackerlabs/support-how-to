@@ -22,7 +22,7 @@ This article provides instructions for exporting a copy of your email address da
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-If you need to export or import email address data from a different Outlook version reference [Export and Import email address data using Outlook](/how-to/export-and-import-email-address-data-in-outlook).
+If you need to export or import email address data from a different Outlook version reference [Export and Import email address data using Outlook](/how-to/export-and-import-email-address-data-using-outlook).
 
 #### Import into Outlook 2011 for Mac
 
@@ -30,19 +30,19 @@ If you need to export or import email address data from a different Outlook vers
 1. Click the **File** tab in the upper-left corner.
 2. Click **Import** from the dropdown menu
 
-    <img src="{% asset_path rackspace-email/export-email-address-into-outlook-2011-for-mac/file_import2011.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2011-for-mac/file_import2011.png %}" />
 
 3. A box will appear asking **What do you want to import?**. Select **Outlook for Mac Data File(.pst or .olm)**. Then click the right arrow in the lower right corner to continue.
 
-    <img src="{% asset_path rackspace-email/export-email-address-into-outlook-2011-for-mac/outlook_olm2011.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2011-for-mac/outlook_olm2011.png %}" />
 
 4. Another box will appear asking again **What do you want to import?**. Select **Outlook for Mac Data File(.olm)** if the file to be imported was also exported from Outlook for Mac. Then click the right arrow in the lower right corner to continue.
 
-    <img src="{% asset_path rackspace-email/export-email-address-into-outlook-2011-for-mac/file_type2011.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2011-for-mac/file_type2011.png %}" />
 
 5. Next you will choose the .olm file to be imported into Outlook.
 
-    <img src="{% asset_path rackspace-email/export-email-address-into-outlook-2011-for-mac/choose_olm2011.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2011-for-mac/choose_olm2011.png %}" />
 
 6. A box will appear with the message **Outlook has finished importing your data.**. Click **Done**.
 
