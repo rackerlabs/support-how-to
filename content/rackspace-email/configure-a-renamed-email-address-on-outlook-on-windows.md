@@ -1,7 +1,7 @@
 ---
-permalink: renamed-email-address-configuration-for-outlook-on-windows/
+permalink: configure-a-renamed-email-address-on-outlook-on-windows/
 audit_date: '2017-08-22'
-title: Renamed email address configuration for Outlook on Windows
+title: Configure a renamed email address on Outlook for Windows
 type: article
 created_date: '2017-08-22'
 created_by: William Loy
@@ -35,22 +35,22 @@ Warning: If the old email address connects via POP, you will want to migrate the
 2. Once the Windows **Control Panel** is open, change the **View By** setting in the upper right hand corner to **Small Icons**.
 3. Click **Mail(Microsoft Outlook 2016)** from the **Control Panel** menu which will bring up the **Mail Setup** menu.
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC1.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC1.png %}" />
 
     Note: **Mail** or **Mail(32-bit)** may be the icon displayed for your Outlook version.
 
 4. From the **Mail Setup** menu, click the **Show Profiles** button which will bring up the current profile list were you will see your current profile.
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC2.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC2.png %}" />
 
 5. We will click the **Add** button to create a profile to connect to the renamed email address. A box will appear asking you to name the new profile.
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC3.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC3.png %}" />
 
 6. Name the new profile. We recommend you use your new email address for the profile name to clearly identify it. Once you name the profile click **OK** and the **Add Account** setup box will appear.
 7. Click **Manual setup or additional server types** at that bottom of the **Add Account** setup box. Then click **Next**.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC4.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC4.png %}" />
 
 8. Select **POP or IMAP** from the options presented and click **Next**. You will be taken to the **POP and IMAP Account Settings Screen**.
 
@@ -68,7 +68,7 @@ Warning: If the old email address connects via POP, you will want to migrate the
         - **Username:** renamed@yourdomainexample.com (*Use the new email address here*)
         - **Password:** Your mailbox password
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC5.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC5.png %}" />
 
 10. Click the **More Settings** button in the lower right hand corner.
 
@@ -78,15 +78,15 @@ Warning: If the old email address connects via POP, you will want to migrate the
     - Set the **Outgoing server(SMTP)** to port: 465
     - Click **OK**.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC6.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC6.png %}" />
 
 11. When you are back at the at the **POP and IMAP Account Settings Screen**, click the **Next** button in the lower right hand corner. You will then be taken to the **Test Account Settings** screen.
 12. When both *Log onto incoming mail server(IMAP)* and *Send test e-mail message* show a Status of **Completed**, click the **Close** button. You will be taken back to the list of profiles.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC7.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC7.png %}" />
 
 13. Under *When starting Microsoft Outlook, use this profile:* check the bubble next to *Always use this profile*. Next, open the drop down list and select the profile we just created. Lastly click **Apply** and then **OK** and open Outlook.
 
-    <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-outlook-on-windows/OL16windowsSC8.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-on-windows/OL16windowsSC8.png %}" />
 
 Warning: If you see items missing in the new Outlook account, you will need to import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/).
