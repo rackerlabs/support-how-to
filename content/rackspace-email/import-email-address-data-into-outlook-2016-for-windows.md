@@ -43,7 +43,7 @@ If you need to export or import email address data from a different Outlook vers
 
 5. In the **Import and Export Wizard**, click **Import from a file**, and then click **Next**.
 
-    <img src="{% asset_path rackspace-email/export-email-address-from-outlook-2016-for-windows/import_from_a_file2016.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/import_from_a_file2016.png %}" />
 
 6. Click **Outlook Data File (.pst)**, and then click **Next**.
 
