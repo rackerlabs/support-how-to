@@ -20,5 +20,5 @@ This article shows how to create a group list.
 3. On the Group Lists page, click **Add Group List**.
 4. Enter in an email address for your group list, enter a subject tag, and select a list type. You can choose to send replies to the sender only or send replies to the entire group list.
 5. Select the recipients to include in the group list. You can add recipients outside your domain.
-6. Select who will be authorized to send email from this group list.
+6. Select who will be authorized to send email to this group list.
 7. Click **Save**.
