@@ -46,6 +46,6 @@ If you need to export or import email address data from a different Outlook vers
 
 6. A box will appear with the message **Outlook has finished importing your data.**. Click **Done**.
 
-    <img src="{% asset_path rackspace-email/import-email-address-into-outlook-2011-for-mac/import_complete2011.png %}" />
+    <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2011-for-mac/import_complete2011.png %}" />
 
 You have imported a copy of your email address data into Outlook 2011 for Mac! This can take several minutes to a few hours to complete depending on the size of the file you just imported.
