@@ -32,11 +32,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. In the upper-left corner of the navigation bar, click **Mail**, and then **Add Account**.
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-apple-mail/mail_addaccountdropdown.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-in-apple-mail/mail_addaccountdropdown.png %}" />
 
 3. In the pop-up window, click **Other Mail Account**, and then click **Continue**.
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-apple-mail/accounttype_imap.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-in-apple-mail/accounttype_imap.png %}" />
 
 4. Enter the following information:
 
@@ -44,7 +44,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
    - **Email Address:** Your renamed Rackspace Email address
    - **Password:** Your mailbox password
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-apple-mail/imap_logindetails.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-in-apple-mail/imap_logindetails.png %}" />
 
 5. Click **Sign In**.
 
@@ -59,7 +59,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
    - **Incoming Mail Server:** secure.emailsrvr.com
    - **Outgoing Mail Server:** secure.emailsrvr.com
 
-   <img src="{% asset_path rackspace-email/renamed-email-address-configuration-for-apple-mail/imap_serversettings.png %}" />
+   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-in-apple-mail/imap_serversettings.png %}" />
 
    **Note:** Apple Mail typically clears the *User Name* field after entering the *Incoming and Outgoing Mail Server* fields. Ensure that your *User Name* is filled in with your email address *after* entering the server information and *before* clicking **Sign in**.
 
