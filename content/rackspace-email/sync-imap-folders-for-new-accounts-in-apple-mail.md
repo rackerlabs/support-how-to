@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Instructions for synchronizing IMAP folders after a new account setup in Apple Mail.
+This article describes how to synchronize IMAP folders after a new account setup in Apple Mail.
 
 ### Prerequisites
 
@@ -22,14 +22,14 @@ Instructions for synchronizing IMAP folders after a new account setup in Apple M
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-Apple Mail does not automatically synchronize IMAP folders. This process must be completed manually through what we refer to as folder mapping. This article will provide folder mapping instructions for various Apple Mail versions.
+Because Apple Mail does not automatically synchronize IMAP folders, this process must be completed manually through folder mapping. This article provides folder mapping instructions for various Apple Mail versions.
 Select the version which applies to you.
 
  - [Sierra](#map-imap-folders-in-sierra-apple-mail)
  - [El Capitan](#map-imap-folders-in-el-capitan-apple-mail)
  - [Yosemite](#map-imap-folders-in-yosemite-apple-mail)
 
- Warning: These instructions are for new account set ups. If you have been using your IMAP account in Apple Mail previously and have now noticed folder sync issues please contact support.
+**Note:** These instructions are for setting up a new account. If you have been using your IMAP account in Apple Mail and have now noticed folder sync issues, please contact support.
 
 #### Map IMAP folders in Sierra Apple Mail
 
@@ -37,20 +37,20 @@ Select the version which applies to you.
 
      <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/preference-mapping-sierra.png %}" />
 
- 2. Select the **Accounts** tab at the top of the window, then select your IMAP email account from the left pane.
+ 2. Select the **Accounts** tab at the top of the window, and then select your IMAP email account from the left pane.
  3. Select the **Mailbox Behaviors** tab.
 
      <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_MailboxBehaviors.png %}" />
 
- 4. Click the **Sent Mailbox** dropdown and select the folder **Sent** that's listed under your email address (**not** the folder listed under *On My Mac*).
+ 4. Click the **Sent Mailbox** dropdown menu, and select the folder **Sent**, which is listed under your email address (**not** the folder listed under *On My Mac*).
 
      <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_SentFolderMapping.png %}" />
 
- 5. Click the **Junk Mailbox** dropdown and select the folder **Spam** that's listed under your email address (**not** the folder listed under *On My Mac*).
+ 5. Click the **Junk Mailbox** dropdown menu, and select the folder **Spam**, which is listed under your email address (**not** the folder listed under *On My Mac*).
 
      <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_SpamFolderMapping.png %}" />
 
- 6. Click the **Trash Mailbox** dropdown and select the folder **Trash** that's listed under your email address (**not** the folder listed under *On My Mac*).
+ 6. Click the **Trash Mailbox** dropdown menu, and select the folder **Trash**, which is listed under your email address (**not** the folder listed under *On My Mac*).
 
      <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_TrashFolderMapping.png %}" />
 
@@ -59,12 +59,12 @@ Select the version which applies to you.
 
 #### Map IMAP folders in El Capitan Apple Mail
 
- 1. Close all windows so that you are looking at your mailbox's Inbox.
+ 1. Close all windows so that only your mailbox's Inbox is open.
  2. Click on the **Sent** folder underneath your email account (**not the Sent folder with the paper airplane**).
 
     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_MailboxFolderList.png %}" />
 
- 3. Once the **Sent** folder is selected, click on the **Mailbox** menu on the top.
+ 3. After the **Sent** folder is selected, click on the **Mailbox** menu on the top.
  4. Select **Use This Mailbox As** -> **Sent Mailbox**.
 
     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_FolderMapping_Sent.png %}" />
@@ -81,7 +81,7 @@ Select the version which applies to you.
 
     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/yosemite-folder-list.png %}" />
 
- 3. Once the **Sent** folder is selected, click on the **Mailbox** menu on the top.
+ 3. After the **Sent** folder is selected, click on the **Mailbox** menu on the top.
  4. Select **Use This Mailbox As** -> **Sent Mailbox**.
 
     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/yosemite-Sent.png %}" />
