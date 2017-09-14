@@ -1,17 +1,17 @@
 ---
 permalink: configure-a-renamed-email-address-on-outlook-2011-for-mac/
-audit_date: '2017-08-23'
-title: Configure a renamed email address on Outlook for Mac
+audit_date: '2017-09-14'
+title: Configure a renamed email address on Outlook 2011 for Mac
 type: article
 created_date: '2017-08-23'
 created_by: William Loy
-last_modified_date: '2017-08-23'
-last_modified_by: William Loy
+last_modified_date: '2017-09-14'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-After you rename a Rackspace Email address, your devices will receive new mail only after you configure them to connect to the new email address. If you have not yet renamed the email address, see [Rename a Rackspace Email address](/how-to/rename-a-rackspace-email-mailbox/). This article describes how to configure a renamed email address in Outlook 2011 for Mac.
+After you rename a Rackspace Email address, your devices will receive new mail only after you configure them to connect to the new email address. This article describes how to configure a renamed email address in Outlook 2011 for Mac.
 
 ### Prerequisites
 
@@ -22,25 +22,25 @@ After you rename a Rackspace Email address, your devices will receive new mail o
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost in the rename configuration. Follow the instructions in [Migrate from a POP server to IMAP in Outlook for Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
+**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost. Follow the instructions in [Migrate from a POP server to IMAP in Outlook for Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
 
 ### Configure mail settings
 
-1. Verify that **Outlook 2011** is closed by right-clicking the icon and clicking **Quit**.
+1. Quit Outlook 2011 by right-clicking the icon and selecting **Quit**.
 
-2. Hold down the **Option** key while opening **Outlook 2011**.
+2. Open Outlook 2011 while pressing the **Option** key.
 
-   The **Microsoft Database Utility** opens.
+   The Microsoft Database Utility opens.
 
-3. Create a new identity by clicking the **+** sign.
+3. Create a new identity by clicking the **+** sign and then naming the identity.
 
    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/microsoft-database-utility.png %}" />
 
-4. After you have named the new identity, set it as the default identity. Highlight the new identity, then click the **Settings Gear** and select **Set as Default**.
+4. Set the new identity as the default by highlighting it, clicking the gear icon, and then selecting **Set as Default**.
 
     <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/microsoft-database-utility-default.png %}" />
 
-5. Close the **Microsoft Database Utility** and open **Outlook 2011**.
+5. Close the Microsoft Database Utility and open Outlook 2011.
 
 6. In the upper-left corner of the menu bar, click **Outlook > Preferences**.
 
@@ -53,20 +53,20 @@ For more information about prerequisite terminology, see [Cloud Office support t
 8. On the Accounts screen, click **Other Email** and enter the following information:
 
    - **Email Address:** Your renamed Rackspace Email address
-   - **Password:** Enter your mailbox password.
+   - **Password:** Your mailbox password.
    - **User name:** Your renamed Rackspace Email address
    - **Type:** IMAP
 
    - Incoming server settings:
       - **Incoming Server:** secure.emailsrvr.com
-      - **Override default port:** Checked
-      - **Use SSL to connect (recommended):** Checked
+      - **Override default port:** Selected
+      - **Use SSL to connect (recommended):** Selected
       - **Incoming Server Port:** 993
 
    - Outgoing server settings:
       - **Outgoing Server:** secure.emailsrvr.com
-      - **Override default port:** Checked
-      - **Use SSL to connect (recommended):** Checked
+      - **Override default port:** Selected
+      - **Use SSL to connect (recommended):** Selected
       - **Outgoing Server Port:** 465
 
    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/server-settings.png %}" />
@@ -86,4 +86,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 You have now successfully configured Outlook 2011 to connect to the renamed email address.
 
-**Warning:** If you see items missing in the new Outlook account, you must import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
+**Note:** If you see items missing in the new Outlook account, you must import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
