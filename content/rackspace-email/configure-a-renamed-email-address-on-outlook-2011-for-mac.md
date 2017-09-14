@@ -75,10 +75,10 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 10. Click **More Options** and enter the following information:
 
-   - **Authentication:** Use Incoming Server information
-   - **Unqualified domain:** Leave this field blank
+    - **Authentication:** Use Incoming Server information
+    - **Unqualified domain:** Leave this field blank
 
-   <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/more-options.png %}" />
+    <img src="{% asset_path rackspace-email/configure-a-renamed-email-address-on-outlook-2011-for-mac/more-options.png %}" width="400" />
 
 11. Click **OK**.
 
