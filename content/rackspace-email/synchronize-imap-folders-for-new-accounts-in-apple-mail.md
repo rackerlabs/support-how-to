@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article describes how to synchronize IMAP folders after you set up a new account in Apple Mail. Because Apple Mail does not automatically synchronize IMAP folders, you must complete this process manually through folder mapping. Instructions for several Aple Mail version are included; select the version that applies to you:
+This article describes how to synchronize IMAP folders after you set up a new account in Apple Mail. Because Apple Mail does not automatically synchronize IMAP folders, you must complete this process manually through folder mapping. Instructions for several Apple Mail version are included; select the version that applies to you:
 
  - [Sierra](#map-imap-folders-in-sierra-apple-mail)
  - [El Capitan or Yosemite](#map-imap-folders-in-el-capitan-or-yosemite-apple-mail)
