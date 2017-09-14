@@ -14,8 +14,8 @@ product_url: rackspace-email
 This article describes how to synchronize IMAP folders after you set up a new account in Apple Mail. Because Apple Mail does not automatically synchronize IMAP folders, you must complete this process manually through folder mapping. Instructions for several Aple Mail version are included; select the version that applies to you:
 
  - [Sierra](#map-imap-folders-in-sierra-apple-mail)
- - [El Capitan](#map-imap-folders-in-el-capitan-apple-mail)
- - [Yosemite](#map-imap-folders-in-yosemite-apple-mail)
+ - [El Capitan or Yosemite](#map-imap-folders-in-el-capitan-or-yosemite-apple-mail)
+
  
  **Note:** These instructions are for setting up a new account. If you have been using your IMAP account in Apple Mail and are having folder synchronization issues, contact support.
 
@@ -55,7 +55,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
  7. Test the functionality of each of these folders to ensure that the mapping was successful.  
 
-### Map IMAP folders in El Capitan Apple Mail
+### Map IMAP folders in El Capitan or Yosemite Apple Mail
 
  1. Close all windows so that only your mailbox's Inbox is open and visible.
  
@@ -70,20 +70,3 @@ For more information about prerequisite terminology, see [Cloud Office support t
  4. Repeat steps 2 & 3 for the **Junk/Spam** and **Trash** folders.
 
  5. Test the functionality of each of these folders to ensure that the mapping was successful.  
-
-
-### Map IMAP folders in Yosemite Apple Mail
-
- 1. Close all windows so that only your mailbox's Inbox is open and visible.
- 
- 2. Under your email account, click on the **Sent** folder  (*not* the **Sent** folder with the paper airplane icon).
-
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/yosemite-folder-list.png %}" />
-
- 3. From the **Mailbox** menu, select **Use This Mailbox As** > **Sent Mailbox**.
-
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/yosemite-Sent.png %}" />
-
- 4. Repeat steps 2 & 3 for the **Junk/Spam** and **Trash** folders.
-
- 5. Test the functionality of each of these folders to ensure that the mapping was successful.   
