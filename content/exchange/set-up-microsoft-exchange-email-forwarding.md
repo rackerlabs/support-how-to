@@ -55,7 +55,7 @@ To forward to a mailbox on an external domain, use the following steps to create
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Contacts**.
-3. If you have multiple domains, select the domain that contains the mailbox that you would like to forward.
+3. If you have multiple domains, select the domain that contains the mailbox that you want to forward.
 4. Click **Add Contact**.
 
    <img src="{% asset_path exchange/set-up-microsoft-exchange-email-forwarding/hex-forward-contact-2.png %}" />
