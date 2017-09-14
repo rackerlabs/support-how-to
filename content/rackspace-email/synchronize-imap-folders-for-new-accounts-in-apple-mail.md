@@ -32,25 +32,25 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
  1. Within the **Mail** app, select **Mail** > **Preferences**.
 
-     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/preference-mapping-sierra.png %}" />
+     <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/preference-mapping-sierra.png %}" />
 
  2. Select the **Accounts** tab at the top of the window, and then select your IMAP email account in the left pane.
  
  3. Select the **Mailbox Behaviors** tab.
 
-     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_MailboxBehaviors.png %}" />
+     <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/IMAP_MailboxBehaviors.png %}" />
 
  4. Click the **Sent Mailbox** menu, and select the **Sent** folder that is listed under your email (*not* the folder listed under **On My Mac**).
 
-     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_SentFolderMapping.png %}" />
+     <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/IMAP_SentFolderMapping.png %}" />
 
  5. Click the **Junk Mailbox** menu, and select the **Spam** folder that is listed under your email (*not* the folder listed under **On My Mac**).
 
-     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_SpamFolderMapping.png %}" />
+     <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/IMAP_SpamFolderMapping.png %}" />
 
  6. Click the **Trash Mailbox** menu, and select the **Trash** folder that is listed under your email (*not* the folder listed under **On My Mac**).
 
-     <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/IMAP_TrashFolderMapping.png %}" />
+     <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/IMAP_TrashFolderMapping.png %}" />
 
 
  7. Test the functionality of each of these folders to ensure that the mapping was successful.  
@@ -61,11 +61,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
  
  2. Under your email account, click on the **Sent** folder  (*not* the **Sent** folder with the paper airplane icon).
 
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_MailboxFolderList.png %}" />
+    <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/el_capitan_yosemite_MailboxFolderList.png %}" />
 
  3. From the **Mailbox** menu, select **Use This Mailbox As** > **Sent Mailbox**.
 
-    <img src="{% asset_path rackspace-email/sync-imap-folders-for-new-accounts-in-apple-mail/el_capitan_FolderMapping_Sent.png %}" />
+    <img src="{% asset_path rackspace-email/synchronize-imap-folders-for-new-accounts-in-apple-mail/el_capitan_yosemite_FolderMapping_Sent.png %}" />
 
  4. Repeat steps 2 & 3 for the **Junk/Spam** and **Trash** folders.
 
