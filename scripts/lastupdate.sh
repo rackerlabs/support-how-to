@@ -44,7 +44,7 @@ do
    amdate=`echo $mdate | awk -F\' '{print $2}'`
 
 # if create date is between the begin and end dates passed in - proceed
-  if [[ "$acdate" >= "$begdate" ]] && [[ "$acdate" <= "$enddate" ]] ;
+  if [[ "$acdate" > "$begdate" ]] && [[ "$acdate" < "$enddate" ]] ;
   then
 # print out all newly created files
      echo "File last modified: " $acdate " " $f;
