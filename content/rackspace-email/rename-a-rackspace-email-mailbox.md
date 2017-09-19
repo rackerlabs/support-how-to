@@ -28,7 +28,7 @@ If the mailbox is set up in a [local email client](/how-to/cloud-office-support-
 
 ### Rename a Rackspace Email Address
 
-If you prefer a video tutorial, please see [Rackspace Email - Adding/Editing/Renaming/Restoring <img src="{% asset_path rackspace-email/rename-a-rackspace-email-address/Add_edit_mailboxes.png %}" />](https://youtu.be/9eBoiox64UE?t=2m17s).
+If you prefer a video tutorial, please see [Rackspace Email - Adding/Editing/Renaming/Restoring <img src="{% asset_path rackspace-email/rename-a-rackspace-email-address/add_edit_mailboxes.png %}" />](https://youtu.be/9eBoiox64UE?t=2m17s).
 
 1. Log into the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
