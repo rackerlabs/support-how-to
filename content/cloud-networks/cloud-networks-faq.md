@@ -191,8 +191,7 @@ themselves and apply it to ports on an instance.
 
 #### Can I apply security groups to ports on an instance at boot time?
 
-No. Security groups can be applied only after the instance is active.  We are
-actively working to include this feature in an upcoming release.
+No. Security groups can be applied only after the instance is active.
 
 #### What happens when a security group rule is added to the security group?
 
