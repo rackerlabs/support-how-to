@@ -133,14 +133,16 @@ Cloud networks are regional in scope and can be attached to any of your cloud se
 #### What are security groups?
 
 Security groups are containers for a set of inbound and outbound traffic rules
-that are directly applied to a Neutron port (PublicNet, ServiceNet or Cloud Network).
-After you launch an instance, you can assign one or more security groups to ports
-on that instance. Security groups act as a stateful firewall for your Cloud Server instances.
+that are directly applied to a Neutron port (PublicNet, ServiceNet or Cloud
+Network). After you launch an instance, you can assign one or more security
+groups to ports on that instance. Security groups act as a stateful firewall
+for your Cloud Server instances.
 
 #### What is the difference between security groups and a firewall?
 
 Security groups act as a distributed firewall for your Cloud Server instances.
-After you launch an instance, you can assign one or more security groups to ports on that instance.
+After you launch an instance, you can assign one or more security groups to
+ports on that instance.
 
 #### Where is the documentation?
 
@@ -150,13 +152,12 @@ After you launch an instance, you can assign one or more security groups to port
 
 #### What are the benefits of using security groups?
 
-Prior to the release of this feature, users had to manage traffic to and from
-their instances individually via iptables rules (as an example) on every instance,
-or perhaps use third-party tools such as CloudPassage. Managing firewall policies
-involves significant overhead. Security groups make it possible to use a self-service
-API to define a common set of rules and apply them to the servers without needing
-to manage iptables rules on each server. Security groups simplify security policy
-administration for customers across their deployments.
+Security groups enable users to manage the flow of traffic across a group of
+instances without manually configuring firewall settings. Security groups
+provide a whitelist-style of allowing traffic. After you've applied a security
+rule, such as restricting IPv4 addresses, port 8080, or all IP addresses, the
+only traffic allowed to reach the instance must comply with the security rule;
+all other traffic is stopped.
 
 #### Is this feature available to all Rackspace Cloud customers?
 
@@ -165,17 +166,19 @@ Yes, the security groups feature is available to all customers.
 #### What limitations does the feature currently have?
 
 A security group can't be added as a child of another security group. You also
-can't edit a security group rule - you must add a new security group to replace the old one.
+can't edit a security group rule - you must add a new security group to replace
+the old one.
 
 #### Will security groups be supported via the neutron client?
 
 Yes. Users can provision security groups via the neutron client.
 
-#### Is this functionality integrated with and available from the Cloud Control Panel?
+#### Is this functionality integrated with and available from the Cloud Control
+Panel?
 
 Yes, but only inbound PublicNet and ServiceNet security groups are currently
-available in the control panel. To access additional features, you can use either
-the neutron client or the API.
+available in the control panel. To access additional features, you can use
+either the neutron client or the API.
 
 #### Are security groups supported for OnMetal users?
 
@@ -226,10 +229,9 @@ Yes. Such a security group will deny or block all traffic.
 
 #### Are security groups applied to instances?
 
-No. Security groups are applied to a Neutron port on a network that is attached
-to an instance and not to an instance itself. In the near future, when updating
-a security group, changes will be applied automatically to any port associated
-with that security group.
+Yes, security groups are applied to instances. You are able to associate a
+number of instances with a security group and those instances automatically
+inherit all security group rules associated with that security group.
 
 #### What are the available quotas for security groups and rules?
 
