@@ -1,6 +1,6 @@
 ---
 permalink: keep-cloud-servers-up-to-date/
-audit_date: 
+audit_date: '2017-08-26'
 title: Keep a cloud server up-to-date
 type: article
 created_date: '2017-07-31'
@@ -67,13 +67,11 @@ updates are completed, select the check box under **Microsoft Update**.
 
 3. Run `vim /etc/apt/apt.conf.d/50unattended-upgrades` to open the configuration file.
 
-4. Any line beginning with "//" will be ignored when the command is run. To delete the "//" before the updates line, enter **i** and then press the down arrow to move the cursor to the // to the left of the `${distro\_id}:${distro\_codename}-update;` line.  Press the **del** key twice to delete the line.
+4. Any line beginning with "//" will be ignored when the command is run. Delete the "//" before the `${distro\_id}:${distro\_codename}-update;` line. To do this, enter "i" on your keyboard, use the directional pad to navigate to the line.  Press the **del** key twice to delete the "//".
 
 5. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
-6. Use `vim /etc/apt/apt.conf.d/10periodic` to set the desired recurrence time for each of the updates.  As in the previous step, click the "i" key on your keyboard to once again enter "Insert" mode.  Use the keys on the your keyboard to navigate to the number between quotes that you wish to change.  Press the **del** key twice to remove the number. Update and then enter the number of times you want the server to update each day.  
-
-    The following example shows that three of the updates will be done each day, and the `AutocleanInterval` to clean the local download archive will be cleaned every fourteen days:
+6. Use `vim /etc/apt/apt.conf.d/10periodic` to set the desired recurrence time for each of the updates. Click the "i" key on your keyboard to enter "Insert" mode.  Use the keys on the your keyboard to navigate to the number between quotes that you want to change.  Press the **del** key twice to remove the number, and then enter the number of times you want the server to update each day.  
 
 6. Click the **esc** key, and then enter the keys `:wq` to save the configuration.  If successful, a message stating that the file was properly written appears.
 
