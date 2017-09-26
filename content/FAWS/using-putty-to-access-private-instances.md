@@ -27,7 +27,7 @@ Accessing your private instance requires the following:
 ### Connect to to private RDS instance
 
 1. Configure an SSH tunnel by finding the host name for the RDS instance you want to access. This host name should have been provided through email when you signed up for FAWS.
-2. Open Putty, right click the main screen and select **Change settings**.
+2. Open Putty, and than right click the main screen and select **Change settings**.
 3. Select **Tunnels** under SSH.
 4. In the destination box, paste the RDS instance hostname followed by port number for the application you are using the connect. For example, if you are using MYSQL, enter source port `:3306`. This source port is used to access your RDS instance.
 5. Click **Add** > **Apply**.
