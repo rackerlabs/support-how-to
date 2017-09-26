@@ -44,17 +44,14 @@ If you prefer a video tutorial, please see [Rackspace Email - Adding/Editing/Ren
 
     <img src="{% asset_path rackspace-email/rename-a-rackspace-email-address/rename-pop-up-SC1.png %}" />
 
-    - Note: `This email address is already taken`, means the address is already in use as an alias, group list, distribution list, or as a Microsoft Exchange mailbox on this domain. Try a different address.
+    If you receive a `This email address is already taken` message, it means the address is already in use as an alias, group list, distribution list, or as a Microsoft Exchange mailbox on this domain. Try a different email address.
 
 6. A confirmation message will appear with the banner **Email Address Renamed!**, displaying the old email address and the new email address. Click **OK**.
 
     <img src="{% asset_path rackspace-email/rename-a-rackspace-email-address/success-message.png %}" />
 
-You have successfully renamed a Rackspace Email address!
-
-
 ### Update devices to connect to the renamed email address
 
-Once the email address has been renamed, you must update all devices such as desktop computers and mobile phones to connect to the renamed mailbox. See [Renamed Rackspace Email address setup guide](/how-to/renamed-rackspace-email-address-setup-guide/) for next steps.
+After the email address has been renamed, you must update all devices such as desktop computers and mobile phones to connect to the renamed mailbox. See [Renamed Rackspace Email address setup guide](/how-to/renamed-rackspace-email-address-setup-guide/) for next steps.
 
-Note: We recommend logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before configuring devices. If you are unable to log in, updated the mailbox password before continuing. See [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel) if you are unable to log into the mailbox.
+**Note:** We recommend logging into [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before configuring devices. If you are unable to log in, updated the mailbox password before continuing. See [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel) if you are unable to log into the mailbox.
