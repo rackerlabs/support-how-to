@@ -1,6 +1,6 @@
 ---
 permalink: access-a-private-rds-instance-with-putty
-audit_date: 
+audit_date: '2017-09-26'
 title: Access a private RDS instance with Putty
 type: article
 created_date: '2017-03-07'
