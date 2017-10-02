@@ -33,6 +33,8 @@ following migrations:
 You can rest assured that we are investing significant resources to ensure a
 smooth migration for all customers.
 
+#### Why is Rackspace closing DFW1?
+
 Because DFW1 has been operational for 12 years and is Rackspace’s oldest
 running data center, Rackspace is closing DFW1. Rackspace has made the decision
 to consolidate all DFW1 and DFW3 customers into its newest data center in the
