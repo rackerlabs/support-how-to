@@ -33,9 +33,9 @@ following migrations:
 You can rest assured that we are investing significant resources to ensure a
 smooth migration for all customers.
 
-Rackspace is closing DFW1, because DFW1 has been operational for 12 years and
-is Rackspace’s oldest running data center. Rackspace has made the decision to
-consolidate all DFW1 and DFW3 customers into its newest data center in the
+Because DFW1 has been operational for 12 years and is Rackspace’s oldest
+running data center, Rackspace is closing DFW1. Rackspace has made the decision
+to consolidate all DFW1 and DFW3 customers into its newest data center in the
 Dallas area, DFW3.
 
 #### Will service be interrupted?
@@ -65,17 +65,17 @@ and execute the IP address change before your migration date.
 ##### Exception - Rackspace Managed Backup service
 
 The IP addresses used for the network that runs the Rackspace Managed Backup
-service (BackupNet/ServiceNet) will change for all customers. Managed
-Colocation customers will need to make the Managed Backup service IP address
-change themselves, because Rackspace does not have access to Managed Colocation
-servers. Rackspace will take responsibility for updating the Managed Backup
+service (BackupNet/ServiceNet) will change for all customers. Because Rackspace
+does not have access to Managed Colocation servers, Managed Colocation
+customers will need to make the Managed Backup service IP address change
+themselves. Rackspace will take responsibility for updating the Managed Backup
 service IP addresses for all other customers who use this service.
 
 If you are using BackupNet/ServiceNet for any purpose other than Rackspace
 Managed Backup or for ObjectRocket, you will need to make the necessary
-arrangements to move to ExNet before your move night. BackupNet/ServiceNet, in
-DFW3, will be available for use only for Rackspace Managed Backup and for
-ObjectRocket.
+arrangements to move to ExNet before your move night. In DFW3,
+BackupNet/ServiceNet, will be available for use only for Rackspace Managed
+Backup and for ObjectRocket.
 
 #### What are the high-level stages of the migration?
 
@@ -125,12 +125,12 @@ turning on your devices in a certain order.
 
 #### I want to shut down the environment myself. Is that possible?
 
-Yes, you can be responsible for turning off your devices. You must tell us in
-advance, because the changes to ServiceNet and DRAC IP addresses are made in
-the hours before the migration. You must ensure that all devices are turned off
-before 23:00 on your allocated move night. If they are still turned on when we
-start to remove devices from the cabinets, we will power them down by removing
-the power cables.
+Yes, you may turn off your devices. However, because the changes to ServiceNet
+and DRAC IP addresses are made in the hours before the migration, you must tell
+us in advance and ensure that all devices are turned off before 23:00 on your
+allocated move night. If they are still turned on when we start to remove
+devices from the cabinets, we will power them down by removing the power
+cables.
 
 You also need to tell us if you want to be responsible for turning on your
 devices after the migration. In this case, we will rack your devices in the
@@ -146,10 +146,10 @@ cabinets, their power cables will be removed. If you do not want Rackspace to
 turn on your devices when they arrive in DFW3, you must inform us at least
 seven days before your move night.
 
-If you are using the Rackspace Managed Backup service you will need to change
+If you are using the Rackspace Managed Backup service, you will need to change
 the IP addresses for the network used to run this service.  At least a week
 before your migration, we will create a ticket that contains the new IP
-addresses and provides instructions for updating them.  We recommend that you
+addresses and provides instructions for updating them. We recommend that you
 make this change prior to the migration.
 
 #### My data is replicated to another location. How will the migration affect this replication?
@@ -159,14 +159,14 @@ you tell us about any replication or log shipping so that we can work with you
 to ensure that it is re-established following the maintenance.
 
 If you are using BackupNet/ServiceNet, you will need to make arrangements to
-move this to ExNet before your move night. BackupNet/ServiceNet, in DFW3, will
+move this to ExNet before your move night. In DFW3, BackupNet/ServiceNet will
 be available for use only for Rackspace Managed Backup and for ObjectRocket.
 
 #### I have colocation devices that Rackspace does not have access to. How will these be migrated?
 
 Because we do not have access to your colocation devices, you will be
-responsible for shutting these devices down.  Rackspace may be able to assist
-you, if you contact us, but this will be managed on a case-by-case basis. Our
+responsible for shutting these devices down. If you contact us, Rackspace might
+be able to assist you, but this will be managed on a case-by-case basis. Our
 standard approach will be to remove the power cables from the devices in DFW1
 and reconnect them in DFW3.
 
@@ -193,11 +193,11 @@ to do if we encounter issues that we cannot resolve.
 
 Rackspace will use all of its experience with data-center migration projects to
 help support you during the migration to DFW3. We have assembled a dedicated
-migration team, made up of existing Rackers from across the business. This
-team will run audits on your servers before the migration to identify and
-resolve, in advance, any potential migration issues. They will work with you
-and your account team to determine and agree to any special requirements that
-you might have for pre- and post-migration instructions as we turn off and turn
+migration team, made up of existing Rackers from across the business. This team
+will run audits on your servers before the migration to identify and resolve,
+any potential migration issues in advance. They will work with you and your
+account team to determine and agree to any special requirements that you might
+have for pre-migration and post-migration instructions as we turn off and turn
 on your solution. The migration team will then be focused on successfully
 executing your instructions on the night of the migration.
 
@@ -222,16 +222,16 @@ night:
     applications and services start correctly. You can schedule reboots from
     the MyRackspace portal.
 
-#### I would like to run a full backup before my migration.  Can this be arranged?
+#### I would like to run a full backup before my migration. Can this be arranged?
 
-We do not recommend that you initiate a full backup just before the migration,
-because it may not complete in time. Approximately two hours before the
+Because it may not complete in time, we do not recommend that you initiate a
+full backup just before the migration. Approximately two hours before the
 migration is scheduled to start, our automated steps will kill any backup
-still in progress so that we can ensure a clean shut down.  If your backups
+still in progress so that we can ensure a clean shut down. If your backups
 have been completing successfully in the weeks before the migration, you should
-not need to run an additional backup. However, you may raise a ticket with the
-Managed Backup team to review the possibility of running a differential (or
-incremental) backup before the migration, if you are concerned.
+not need to run an additional backup. However, if you are concerned, you may
+raise a ticket with the Managed Backup team to review the possibility of
+running a differential (or incremental) backup before the migration.
 
 #### How will you keep me informed about the migration?
 
