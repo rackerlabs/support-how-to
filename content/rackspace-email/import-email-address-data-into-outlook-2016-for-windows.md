@@ -40,7 +40,7 @@ If you need to export or import email address data from a different Outlook vers
     
     The Import and Export Wizard launches.
 
-4. In the Import and Export Wizard, click **Import from a file**, and then click **Next**.
+4. In the Import and Export Wizard, click **Import from another program or file**, and then click **Next**.
 
     <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2016-for-windows/import_from_a_file2016.png %}" />
 
