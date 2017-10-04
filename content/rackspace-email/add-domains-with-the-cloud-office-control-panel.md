@@ -57,11 +57,11 @@ Continue to use your current domain registrar, but have Rackspace to host your [
 3. [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email). In order for these records to become active, you must first contact your domain's current registrar and request that the Name Server records be switched over to Rackspace's Name Servers.
 4. [Configure your DNS records](/how-to/set-up-dns-records-for-cloud-office-email) in the Cloud Office Control Panel **BEFORE** you change the Name Server records to avoid any interruption of service. Update the following Name Server records at your registrar to the following records:
 
-   Primary: **DNS1.NAME-SERVICES.COM**<br>
-   Secondary: **DNS2.NAME-SERVICES.COM**<br>
-   Secondary: **DNS3.NAME-SERVICES.COM**<br>
-   Secondary: **DNS4.NAME-SERVICES.COM**<br>
-   Secondary: **DNS5.NAME-SERVICES.COM**
+    Primary: DNS1.NAME-SERVICES.COM
+    Secondary: DNS2.NAME-SERVICES.COM
+    Secondary: DNS3.NAME-SERVICES.COM
+    Secondary: DNS4.NAME-SERVICES.COM
+    Secondary: DNS5.NAME-SERVICES.COM
 
 #### I want to register this domain(price varies)
 
