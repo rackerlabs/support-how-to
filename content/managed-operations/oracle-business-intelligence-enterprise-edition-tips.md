@@ -15,10 +15,23 @@ Oracle® Business Intelligence Enterprise Edition (OBIEE) offers agile visual
 analytics and self-service discovery. This article is for those who know the
 basics of OBIEE and want to take their skills to the next level. It includes
 answers to frequently asked questions and provides best practices for OBIEE.
-For more information,
-[contact us](https://www.tricoresolutions.com/about-us/contact-us/).
+
+This article includes tips to perform the following tasks:
+
+- [Upload the repository in OBIEE 11g and 12c](#upload-the-repository-in-obiee-11g-and-12c)
+- [Fix patch application issues](#fix-patch-appliation-issues)
+- [Change the WebLogic password](#change-the-weblogic-password)
+- [Fix OBIEE report errors](#fix-obiee-report-errors)
+- [Increase the row limit](#increase-the-row-limit)
+- [Resolve stuck threads](#resolve-stuck-threads)
+- [Customize the OBIEE 11g Analytics logo](#customize-the-obiee-11g-analytics-logo)
+- [Customize the OBIEE 11g Analytics banner text](#customize-the-obiee-11g-analytics-banner-text)
+- [Start and stop servers in OBIEE 11g and 12c](#start-and-stop-servers-in-obiee-11g-and-12c)
 
 You might also be interested in the article [Oracle Business Intelligence 12c release features](https://support.rackspace.com/how-to/oracle-business-intelligence-12c-release-new-features/).
+
+For more information,
+[contact us](https://www.tricoresolutions.com/about-us/contact-us/).
 
 ### Upload the repository in OBIEE 11g and 12c
 
@@ -37,26 +50,26 @@ BI Services > Upload the latest RPD**.
 
 #### OBIEE 12 procedure
 
-In version 12c, the ``.rpd`` file  is uploaded by using the Weblogic Scripting
+In version 12c, the ``.rpd`` file  is uploaded by using the WebLogic Scripting
 command ``uploadrpd``. In Unix or Linux, get the ``data-model-cmd.sh`` script
 to execute at the following location:
 
-  ``<Oracle_Home>/user_projects/domains/bi/bitools/bin``
+    <Oracle_Home>/user_projects/domains/bi/bitools/bin
 
-  **Note**: The Oracle Home ``<Oracle_Home>`` that you use in OBIEE 12c is
-  referred to as Middleware Home ``<MW_HOME>`` in OBIEE 11c.
+**Note**: The Oracle Home ``<Oracle_Home>`` that you use in OBIEE 12c is
+referred to as Middleware Home ``<MW_HOME>`` in OBIEE 11c.
 
 Use the following commands to upload the ``.rpd`` file,
 ``OBIEE12CBusinessIntelligence.rpd``, in Unix and Linux environments:
 
-  ``[OSuser@LocalHostDetails bin]$ ./data-model-cmd.sh uploadrpd -I``
-  ``/temp/OBIEE12CBusinessIntelligence.rpd -SI ssi -U Username -Password -S``
-  ``LocalHostDetails.com -N PortNo9502``
-  ``RPD Password: <Enter the RPD password>``
-  ``Service Instance: <Enter the RPD password - the ssi>``
-  ``Operation successful.``
-  ``RPD upload completed successfully.``
-  ``[OSuser@LocalHostDetails bin]$``
+    [OSuser@LocalHostDetails bin]$ ./data-model-cmd.sh uploadrpd -I
+    /temp/OBIEE12CBusinessIntelligence.rpd -SI ssi -U Username -Password -S
+    LocalHostDetails.com -N PortNo9502
+    RPD Password: <Enter the RPD password>
+    Service Instance: <Enter the RPD password - the ssi>
+    Operation successful.
+    RPD upload completed successfully.
+    [OSuser@LocalHostDetails bin]$
 
 The descriptions for arguments you can use with the script are as follows:
 
@@ -86,19 +99,19 @@ The descriptions for arguments you can use with the script are as follows:
       the command only if you are using automated scripting to run the
       command.
 
-  -   ``S`` denotes the OBIEE host name. Only include this option
+  -   ``S`` denotes the OBIEE host name. Include this option only
       when you are running the command from a client installation.
 
-  -   ``N`` specifies the OBIEE port number. Only include this
-      option when you are running the command from a client installation.
+  -   ``N`` specifies the OBIEE port number. Include this
+      option only when you are running the command from a client installation.
 
   -   ``SSL`` specifies to use SSL to connect to the WebLogic Server to
-      run the command. Only include this option when you are running the
+      run the command. Include this option only when you are running the
       command from a client installation.
 
   -   ``H`` displays usage information and exits the command.      
 
-For addition information, see these references for the 12c procedure:
+For additional information, see these references for the 12c procedure:
 
 - [*New and Deprecated*](https://docs.oracle.com/middleware/1212/core/ASCON/whatsnew.htm#ASCON11224)
 
@@ -116,10 +129,10 @@ apply patches in OBIEE and provides solutions for you to try.
 You might encounter this error when you try to apply a patch in Solaris by
 using the Smart Update tool (BSU):
 
-  ``Encountered unrecognized patch ID: XXXX (ID based on patch)``
+    Encountered unrecognized patch ID: XXXX (ID based on patch)
 
-To resolve the issue, change the name of the catalog xml file from the patch,
-such as ``patch-catalog_24474.xml``, to the more generic file name,
+To resolve the issue, change the name of the catalog ``xml`` file from the
+patch, such as ``patch-catalog_24474.xml``, to the more generic file name,
 ``patch-catalog.xml``.
 
 Then, try to apply the patch again using BSU tool.
@@ -131,41 +144,42 @@ Then, try to apply the patch again using BSU tool.
 You might encounter this error when you try to apply a patch in Solaris by
 using the Smart Update tool (BSU):
 
-  ``Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit``
-  ``exceeded at java.util.Arrays.copyOf(Arrays.java:2367)``
-  ``at``
-  ``java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:130)``
-  ``at``
-  ``java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:114)``
-  ``at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:415)``
-  ``at java.lang.StringBuilder.append(StringBuilder.java:132)``
-  ``at java.lang.Class.getMethod(Class.java:1665)``
+    Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit
+    exceeded at java.util.Arrays.copyOf(Arrays.java:2367)
+    at
+    java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:130)
+    at
+    java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:114)
+    at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:415)
+    at java.lang.StringBuilder.append(StringBuilder.java:132)
+    at java.lang.Class.getMethod(Class.java:1665)
 
 To resolve this issue, remove the Java path from the ``bsu.sh`` file and apply
 the path again.
 
-### Change the Weblogic password
+### Change the WebLogic password
 
-Use the steps in this section to change your Weblogic password.
+Use the steps in this section to change your WebLogic password.
 
 #### Log in and change your password
 
-To change the Weblogic password, first log in and provide a new password by
+To change the WebLogic password, first log in and provide a new password by
 using the following steps:
 
-1. Log in to the Weblogic console.
+1. Log in to the WebLogic console.
 
-2. Click **Security** on the left pane.
+2. In the left-hand navigation pane, click **Security > My Realm**.
 
-3.  Click **My Realm**.
+3.  Click the **Users and Groups** tab.
 
-4.  Select the **Users and Groups** tab.
+4.  Scroll down to **WebLogic user**.
 
-5.  Drill down to **WebLogic user**.
+5.  Navigate to the **Password** tab.
 
-6.  Navigate to the **Password** tab.
+6.  Enter the password into the **New Password** and **Confirm Password**
+    boxes.
 
-7.  Enter the password into **New Password** and **Confirm Password** boxes.
+7.  Save the new password.   
 
 #### Remove or rename the boot.properties file
 
@@ -174,13 +188,13 @@ locations:
 
 1.  Navigate to the following location:
 
-    ``OBIEE11g\product\fmw\user_projects\domains\bifoundation_domain\servers\ **AdminServer**\security``
+    OBIEE11g\product\fmw\user_projects\domains\bifoundation_domain\servers\ **AdminServer**\security
 
 2.  Rename the ``boot.properties`` file to any name or remove the file.    
 
 3.  Navigate to the following location:
 
-    ``OBIEE11g\product\fmw\user_projects\domains\bifoundation_domain\servers\ **bi_server1**\security``
+    OBIEE11g\product\fmw\user_projects\domains\bifoundation_domain\servers\ **bi_server1**\security
 
 4.  Rename the ``boot.properties`` file to any name or remove the file.
 
@@ -188,14 +202,13 @@ locations:
 
 1.  Stop Business Intelligence (BI) Services.
 
-2.  When prompted for the Weblogic username and password, provide the username
+2.  When prompted for the WebLogic username and password, provide the username
     and modified password.
 
 3.  Delete the ``tmp`` files for Admin and BI servers before
     starting the services.
 
 4.  Start BI Services.
-
 
 ### Fix OBIEE report errors
 
@@ -204,12 +217,13 @@ encounter and provides solutions for you to try.
 
 #### Catalog object schema validation failed
 
-You might encounter this error when you try to access reports in OBIEE 12c:
+When you try to access reports in OBIEE 12c, you might receive the following
+error message:
 
-``Catalog object schema validation failed``
+    Catalog object schema validation failed
 
 Some font values that are available in Oracle Discoverer are not supported in
-OBIEE 12c. If a Discoverer report is done in the Dialog font, and you are
+OBIEE 12c. If a Discoverer report uses the Dialog font, and you are
 migrating the report from Discoverer to OBIEE, this error might occur.
 
 The following steps might provide a solution for the error:
@@ -224,26 +238,30 @@ The following steps might provide a solution for the error:
 
 #### Datatype error: Type:InvalidDatatypeValueException ...
 
-You might encounter this error when you try to access reports in OBIEE 12c:
+When you try to access reports in OBIEE 12c, you might receive the following
+error message:
 
-  ``Datatype error: Type:InvalidDatatypeValueException, Message: Value
-'Dialog' is not in enumeration``
+    Datatype error: Type:InvalidDatatypeValueException,
+    Message: Value 'Dialog' is not in enumeration
 
 A possible solution is to edit the XML code, remove the parameter
 ``fontFamily="Dialog"`` from the **Advanced** tab, and rerun the report.
 
-**Note**: If you want to display report with all of the default font values in
+If you want to display report with all of the default font values in
 OBIEE, remove the following parameters in the XML code:
 
-  ``<saw:displayFormat><saw:formatSpec suppress="default"`` ``interaction="default" backgroundColor="\#FFFFFF" fontColor="\#000000"`` ``fontStyle="regular" fontSize="11" fontEffects="none" hAlign="left"`` ``vAlign="top" fontFamily="Dialog"><saw:dataFormat xsi:type="saw:custom"`` ``customFormat="DD-MMM- YYYY"/></saw:formatSpec></saw:displayFormat>``
-
+    <saw:displayFormat><saw:formatSpec suppress="default"
+    interaction="default" backgroundColor="\#FFFFFF" fontColor="\#000000"
+    fontStyle="regular" fontSize="11" fontEffects="none" hAlign="left"
+    vAlign="top" fontFamily="Dialog"><saw:dataFormat xsi:type="saw:custom"
+    customFormat="DD-MMM-YYYY"/></saw:formatSpec></saw:displayFormat>
 
 ### Increase the row limit
 
-You might encounter the following message while downloading reports in
-Microsoft® Excel® CSV file format:
+When downloading reports in Microsoft® Excel® CSV file format,
+you might receive the following error message:
 
-  ``OBIEE Maximum total number of cells exceeded``
+    OBIEE Maximum total number of cells exceeded
 
 When you download reports in CSV file format, you cannot exceed more
 than 65,000 rows by default. This is a common issue that you can fix by
@@ -264,18 +282,18 @@ format.
 
 Use the following steps to increase the row limit:
 
-1.  Take a backup copy of instanceconfig.xml file.
+1.  Take a backup copy of the ``instanceconfig.xml`` file.
 
-    Use the following paths to ``instanceconfig.xml`` file for the different
+    Use the following paths to the ``instanceconfig.xml`` file for the different
     versions of OBIEE:
 
     For OBIEE 12c:
 
-    ``<obiee_home>/user_projects/domains/bi/config/fmwconfig/biconfig/OBIPS``
+        <obiee_home>/user_projects/domains/bi/config/fmwconfig/biconfig/OBIPS
 
     For OBIEE 11g:
 
-    ``<obiee\home>/instances/instance1/config/OracleBIPresentationServicesComponent/coreapplication_obips1``
+        <obiee\home>/instances/instance1/config/OracleBIPresentationServicesComponent/coreapplication_obips1
 
 2.  Open ``instanceconfig.xml`` for editing.
 
@@ -284,32 +302,32 @@ Use the following steps to increase the row limit:
 
     Before adding the parameter:
 
-    ``<Table>``    
-    ``<MaxCells>65000000</MaxCells>``
-    ``<MaxVisiblePages>10000</MaxVisiblePages>``
-    ``<MaxVisibleRows>1000000</MaxVisibleRows>``
-    ``<MaxVisibleSections>25000</MaxVisibleSections>``
-    ``<DefaultRowsDisplayed>75</DefaultRowsDisplayed>``
-    ``<!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>``
-    ``<DefaultRowsDisplayedInDelivery>250000</DefaultRowsDisplayedInDelivery>``
-    ``<!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>``
-    ``<DefaultRowsDisplayedInDownload>250000</DefaultRowsDisplayedInDownload>``
-    ``</Table>``
+        <Table>
+        <MaxCells>65000000</MaxCells>
+        <MaxVisiblePages>10000</MaxVisiblePages>
+        <MaxVisibleRows>1000000</MaxVisibleRows>
+        <MaxVisibleSections>25000</MaxVisibleSections>
+        <DefaultRowsDisplayed>75</DefaultRowsDisplayed>
+        <!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>
+        <DefaultRowsDisplayedInDelivery>250000</DefaultRowsDisplayedInDelivery>
+        <!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>
+        <DefaultRowsDisplayedInDownload>250000</DefaultRowsDisplayedInDownload>
+        </Table>
 
-    After adding the parameter:
+    After adding the parameter just above ``</Table>``:
 
-    ``<Table>``    
-    ``<MaxCells>65000000</MaxCells>``
-    ``<MaxVisiblePages>10000</MaxVisiblePages>``
-    ``<MaxVisibleRows>1000000</MaxVisibleRows>``
-    ``<MaxVisibleSections>25000</MaxVisibleSections>``
-    ``<DefaultRowsDisplayed>75</DefaultRowsDisplayed>``
-    ``<!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>``
-    ``<DefaultRowsDisplayedInDelivery>250000</DefaultRowsDisplayedInDelivery>``
-    ``<!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>``
-    ``<DefaultRowsDisplayedInDownload>250000</DefaultRowsDisplayedInDownload>``
-    <**DefaultRowsDisplayedInDownloadCSV>250000</DefaultRowsDisplayedInDownloadCSV**>
-    ``</Table>``
+        <Table>  
+        <MaxCells>65000000</MaxCells>
+        <MaxVisiblePages>10000</MaxVisiblePages>
+        <MaxVisibleRows>1000000</MaxVisibleRows>
+        <MaxVisibleSections>25000</MaxVisibleSections>
+        <DefaultRowsDisplayed>75</DefaultRowsDisplayed>
+        <!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>
+        <DefaultRowsDisplayedInDelivery>250000</DefaultRowsDisplayedInDelivery>
+        <!–This Configuration setting is managed by Oracle Enterprise Manager Fusion Middleware Control–>
+        <DefaultRowsDisplayedInDownload>250000</DefaultRowsDisplayedInDownload>
+        <DefaultRowsDisplayedInDownloadCSV>250000</DefaultRowsDisplayedInDownloadCSV>
+        </Table>
 
 4. Set the value of the ``DefaultRowsDisplayedInDownloadCSV`` parameter
    to a number that is appropriate for your application.
@@ -323,13 +341,13 @@ export the reports in CSV format without any issues.
 
 ###  Resolve stuck threads
 
-In Weblogic, you might encounter the following warning:
+In WebLogic, you might receive the following warning:
 
-  ``ThreadPool has stuck threads``
+    ThreadPool has stuck threads
 
 Stuck threads are Java Virtual Machine (JVM) threads that have been running
 for more than a configurable time (the default value is 600 seconds). The
-Weblogic Server automatically detects when a thread in an execution queue gets
+WebLogic Server automatically detects when a thread in an execution queue gets
 stuck. When a stuck thread cannot complete its current work or accept new work,
 the server logs a message each time that it diagnoses a stuck thread. If all
 threads in an execution queue become stuck, the server changes its health
@@ -338,14 +356,14 @@ increase, your server might crash.
 
 Use the following steps to resolve this problem:
 
-1.  Log on to the Administration Console.
+1.  Log in to the Administration Console.
 
 2.  Click **Lock & Edit**.
 
 3.  In the left pane of the console, expand **Environment > Servers**.
 
-4.  On the **Summary of Servers** page, select the server instance,
-   **bi_server1**, that is noted with at state of  **RUNNING** and
+4.  On the Summary of Servers page, select the server instance,
+   **bi_server1**, that is noted with a state of **RUNNING** and
     with a health state of **Warning**.
 
 5.  Click **bi-server1** to check for the reason for the **Warning** state.
@@ -358,14 +376,14 @@ Use the following steps to resolve this problem:
 
     a.  **Stuck Thread Max Time**: The amount of time, in seconds, that a thread must be continually working before a server instance diagnoses a thread as being stuck. The default value is 600. Oracle recommends a value of 2400 for this parameter to resolve stuck threads.
 
-    b.  **Stuck Thread Timer Interval**: The amount of time, in seconds, after which a server instance periodically scans threads to see if they havebeen continually working for the configured **Stuck Thread Max Time**. The default value is 60. The range of this parameter is 0 to 2147483647. Oracle recommends a value of 2400 for this parameter to resolve stuck threads.
+    b.  **Stuck Thread Timer Interval**: The amount of time, in seconds, after which a server instance periodically scans threads to see if they have been continually working for the configured **Stuck Thread Max Time**. The default value is 60. The range of this parameter is 0 to 2147483647. Oracle recommends a value of 2400 for this parameter to resolve stuck threads.
 
 7.  Click **Save**.
 
 8.  To activate these changes, in the Change Center of the Administration
     Console, click **Activate Changes**.
 
-    Not all changes take effect immediately. some require a restart (see [Use the Change Center](https://docs.oracle.com/cd/E13222_01/wls/docs100/ConsoleHelp/taskhelp/console/UseTheChangeCenter.html).
+    Not all changes take effect immediately. Some require a restart (see [Use the Change Center](https://docs.oracle.com/cd/E13222_01/wls/docs100/ConsoleHelp/taskhelp/console/UseTheChangeCenter.html).
 
 9.  After you finish the preceding steps, you must reboot the server to use
     the new stuck thread detection behavior values.
@@ -375,7 +393,7 @@ For more information about low memory detection properties, see
 
 ### Customize the OBIEE 11g Analytics logo
 
-After the completion of the OBIEE installation, you can see the Oracle logo on
+After OBIEE finishes installing, you can see the Oracle logo on
 the OBIEE Analytics Home page as well as on the Login page. Administrators are
 often required to customize the OBIEE logo based on their application.
 The main advantage of this customization is that it personalizes the tool. The
@@ -388,14 +406,14 @@ Use the following steps to customize the logo in OBIEE Analytics:
 
 2.  Use the following the path to go to the logo file for the Oracle Home page:
 
-    ``$FMW_HOME/user_projects/domains/DR_domain/servers/``
-    ``bi_server/tmp/_WL_user/analytics_11.1.1/7dezjl/war/res/s_Skyros/master``
+        $FMW_HOME/user_projects/domains/DR_domain/servers/
+        bi_server/tmp/\_WL_user/analytics_11.1.1/7dezjl/war/res/s_Skyros/master
 
     Here you see the ``oracle_logo.png`` file, which is based on the default
     skin style to help you quickly customize the logo.  
 
-    **Note**: The default dimensions for the logo file is 119*25 for OBIEE
-    11.1.1.7 and 104*14 for OBIEE 11.1.1.9. Only OBIEE 11.1.1.9 allows changes
+    **Note**: The default dimensions for the logo file is 119 x 25 pixels for OBIEE
+    11.1.1.7 and 104 x 14 pixels for OBIEE 11.1.1.9. Only OBIEE 11.1.1.9 allows changes
     to the entire screen (Login page, Home, dashboards, and logout page) in
     one pass of the change to the ``oracle_logo.png`` file.
 
@@ -408,14 +426,14 @@ Use the following steps to customize the logo in OBIEE Analytics:
 5.  Clear the browser cache and check the changes to see your custom logo on
     the Login and Home page of Oracle Analytics.
 
-After completing this procedure, you see your customized logo in the Login page
-and Home page for Oracle Analytics.     
+After completing this procedure, your customized logo displays
+on the Login page and Home page for Oracle Analytics.     
 
 ### Customize the OBIEE 11g Analytics banner text
 
-After completion of the OBIEE installation, you can see the Oracle
+After OBIEE finishes installing, you can see the Oracle
 banner text (Business Intelligence) on the OBIEE Analytics Home page and Login
-page. The following procedure helps you understand the user interface (UI)
+page. The following procedure helps you understand the UI
 elements in OBIEE 11g to reduce the time that you spend customizing your
 environment.
 
@@ -426,7 +444,7 @@ Use the following steps to customize the banner text:
 2.  Use the following the path to go to the location of the default banner
     text file:
 
-    ``/FMW_HOME/Oracle_BI1/bifoundation/web/msgdb/l-en/messages``
+        /FMW_HOME/Oracle_BI1/bifoundation/web/msgdb/l-en/messages
 
 3.  Search for the ``productmessages.xml`` file.
 
@@ -434,7 +452,7 @@ Use the following steps to customize the banner text:
 
 5.  Edit ``productmessages.xml``. Go to:
 
-    ``<WebMessage name="kmsgHeaderBIBrandName"><TEXT>Business Intelligence</TEXT></WebMessage>line``
+        <WebMessage name="kmsgHeaderBIBrandName"><TEXT>Business Intelligence</TEXT></WebMessage>line
 
     Change the ``Business Intelligence`` text within ``<TEXT></TEXT>``
     to the text that you want to display in your customized banner. For
@@ -447,8 +465,9 @@ Use the following steps to customize the banner text:
 9.  Clear the browser cache and check that the pages reflect your customized
     banner text.
 
-After completing this procedure, you see your customized banner text in the
-Login page and Home page for Oracle Analytics.   
+After completing this procedure, your customized banner text
+displays on the Login page and Home page for Oracle
+Analytics.   
 
 ### Start and stop servers in OBIEE 11g and 12c
 
@@ -460,108 +479,113 @@ shutdown of servers easier.
 
 #### OBIEE 11g: Start servers
 
-1.  To start a Weblogic server, go to the Middleware home at the following
+Use the following steps to start servers in OBIEE 11g:
+
+1.  To start a WebLogic server, go to the Middleware home at the following
     path:
 
-    ``<MW_HOME>/user_projects/domains/bifoundation_domain/bin``
+        <MW_HOME>/user_projects/domains/bifoundation_domain/bin
 
 2.  Execute the script **./startWebLogic.sh (space) &** or use the ``nohup``
     utility by using the following command:
 
-    ``nohup ./startWebLogic.sh 2>&1 &``
+        nohup ./startWebLogic.sh 2>&1 &
 
 3.  Go to the Middleware home at the following path:
 
-    ``<MW_HOME>/wlserver_10.3/server/bin``
+        <MW_HOME>/wlserver_10.3/server/bin
 
 4.  Set up the Environment by using the following script:
 
-        ``./setWLSEnv.sh``
+          ./setWLSEnv.sh
 
     After the Environment is set, the following message displays:
 
-    ``Your Environment has been set.``
+        Your Environment has been set.
 
 5.  Set up the Node Manager by using the following syntax:
 
-    ``./startNodeManager.sh (space) &``
+        ./startNodeManager.sh (space) &
 
     After the Node Manager is up, the following message displays:
 
-    ``Secure Socket Listener started on port No``
+        Secure Socket Listener started on port No
 
 6.  Start the Admin and Managed servers simultaneously though the console at
     http://localhost:7001/console by following these selections:
-    **Environments > Servers > Control**, then check the servers from the
-    list, and select **Start**.
+    **Environments > Servers > Control**.
+
+    Then check the servers from the list, and select **Start**.
 
 7.  Start the OPMN services:
 
     a.  Go to the following location in the Middleware Home:
 
-        ``<MW_HOME>/instances/instance1/bin``
+            <MW_HOME>/instances/instance1/bin
 
     b.  Enter the following syntax:
 
-        ``./opmnctl (space) startall``
+            ./opmnctl (space) startall
 
     c. Check the status by using the following syntax:
 
-       ``./opmnctl status``
+            ./opmnctl status
 
        All the services should show status as **Alive**.
 
 #### OBIEE 11g: Stop servers
 
+Use the following steps to stop servers in OBIEE 11g:
+
 1.  Go to the following location in the Middleware Home:
 
-    ``<MW_HOME>/instances/instance1/bin``
+        <MW_HOME>/instances/instance1/bin
 
 2.  Enter the following syntax:
 
-    ``./opmnctl (space) stopall``
+        ./opmnctl (space) stopall
 
 3.  Check the status by using the following syntax:
 
-    ``./opmnctl status``
+        ./opmnctl status
 
     All the services should be down.
 
 4.  Stop the Admin and Managed servers simultaneously though the console at
     http://localhost:7001/console by following these selections:
-    **Environments > Servers > Control**, then check the servers from the
-    list, and select **Shutdown > Force shutdown**.    
+    **Environments > Servers > Control**
+
+    Then check the servers from the list, and select
+    **Shutdown > Force shutdown**.    
 
 #### OBIEE 12c: Start servers
 
-Oracle OBIEE 12c uses the following process to start servers. This
-process requires less effort than in 11g.
+Use the following steps to start servers in OBIEE 12c:
 
 1.  Go to the following path in Oracle Home:
 
-    ``<ORACLE_HOME>/user_projects/domains/BIDomain/bitools/bin``
+        <ORACLE_HOME>/user_projects/domains/BIDomain/bitools/bin
 
 2.  Start OBIEE 12c services with the following command:
 
-     ``./start.sh``
+        ./start.sh
 
 3.  Check status with the following command:
 
-    ``./status``     
+        ./status     
 
 #### OBIEE 12c: Stop servers
 
-Oracle OBIEE 12c uses the following process to stop servers. This
-process requires less effort than in 11g.
+Use the following steps to stop servers in OBIEE 12c: 
 
 1.  Go to the following path in Oracle Home:
 
-    ``<ORACLE_HOME>/user_projects/domains/BIDomain/bitools/bin``
+        <ORACLE_HOME>/user_projects/domains/BIDomain/bitools/bin
 
 2.  Stop OBIEE 12c services with the following command:
 
-     ``./stop.sh``
+        ./stop.sh
 
 3.  Check status with the following command:
 
-    ``./status``
+        ./status
