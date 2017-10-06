@@ -60,6 +60,6 @@ If you need to export or import email address data from a different Outlook vers
 
     <img src="{% asset_path rackspace-email/import-email-address-data-into-outlook-2010-for-windows/folder_to_import_from2010.png %}" />
 
-9. Click **Finish**. The **Outlook Data File** begins importing. The time to complete the import could take several minutes to several hours depending on the size of the importing file.
+9. Click **Finish**. The **Outlook Data File** begins importing. It could take several minutes to several hours to import, depending on the size of the importing file.
 
 You have now successfully imported email data into Outlook 2010.
