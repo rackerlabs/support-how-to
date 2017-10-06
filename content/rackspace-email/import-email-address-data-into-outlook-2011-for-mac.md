@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article how to import a copy of your email address data from Outlook 2011 for Mac OS.
+This article describes how to import a copy of your email address data from Outlook 2011 for Mac OS.
 
 ### Prerequisites
 
