@@ -24,7 +24,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 If you need to export or import email address data from a different Outlook version, see [Export and Import email address data using Outlook](/how-to/export-and-import-email-address-data-using-outlook) for a list of all version articles.
 
-#### Export email address data
+### Export email address data
 
 1. In Outlook 2011, click **File > Export** from the top navigation bar.
 
