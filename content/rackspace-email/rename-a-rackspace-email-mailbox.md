@@ -37,7 +37,7 @@ For a video tutorial of the following steps, see [Rackspace Email - Adding/Editi
 
 3. In the mailbox list, click the link for the email address that you want to rename.
 
-4. Click the **More** button, expanding the dropdown menu and select **Rename Email Address**.
+4. Click the **More** button, expanding the dropdown menu, and select **Rename Email Address**.
 
    <img src="{% asset_path rackspace-email/rename-a-rackspace-email-address/edit-mailbox-options.png %}" />
 
