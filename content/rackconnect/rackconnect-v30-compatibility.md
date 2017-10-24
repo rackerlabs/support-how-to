@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v30-compatibility/
-audit_date:
+audit_date: '2017-10-24'
 title: RackConnect v3.0 compatibility
 type: article
 created_date: '2014-09-08'
 created_by: Juan Perez
-last_modified_date: '2016-12-09'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2017-07-14'
+last_modified_by: Sean Laszakovits
 product: RackConnect
 product_url: rackconnect
 ---
@@ -15,7 +15,7 @@ product_url: rackconnect
 
 This article outlines the compatibility of RackConnect v3.0 with other Rackspace products and offerings.
 
-###RackConnect v3.0 compatibility with Rackspace public cloud offerings
+### RackConnect v3.0 compatibility with Rackspace public cloud offerings
 
 The following table lists and describes the Rackspace public cloud products that are compatible with RackConnect v3.0. The **Requirements** column lists the requirements that your RackConnect v3.0 cloud servers must meet for them to work with the listed product. For example, "ServiceNet" means that your cloud servers must be provisioned with ServiceNet interfaces for them to work with the designated product.
 
@@ -43,6 +43,7 @@ Network device | Details
 --- | ---
 Cisco ASA Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 Cisco ASA X Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
+Juniper SRX Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 BIG-IP F5 Load Balancers | [Using dedicated load balancers with RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20)
 Brocade Load Balancer | [Using dedicated load balancers with RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20)
 
@@ -56,5 +57,3 @@ Managed Colocation  | Network devices in a Managed Colocation environment are su
 Managed Storage | The Managed Storage offering is compatible only with dedicated servers in a RackConnect configured dedicated environment. The Managed Storage offering cannot be used directly with cloud servers. | [Managed Storage](https://www.rackspace.com/managed-hosting/data-storage)
 Managed Virtualization | Yes | [Managed Virtualization](https://www.rackspace.com/cloud/private/managed_virtualization/)
 Private Cloud | Yes | [Private Cloud](https://www.rackspace.com/cloud/private/)
-
-If you have questions, reach out to us. Contact information is available on the [Contact Us](/how-to/support) page.
