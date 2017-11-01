@@ -5,7 +5,7 @@ title: Common email bounce messages
 type: article
 created_date: '2017-05-18'
 created_by: William Loy
-last_modified_date: '2017-05-30'
+last_modified_date: '2017-10-19'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -18,6 +18,8 @@ This article explains the causes of common email bounce messages and how to reso
 - **Applies to:** Administrators and Users
 
 For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+
+For a video tutorial see [Email Help - Bounce Messages](https://emailhelp.rackspace.com/l/common-bounce-message-solutions).
 
 ### Bounce messages
 
