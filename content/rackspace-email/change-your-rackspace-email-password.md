@@ -5,7 +5,7 @@ title: Change a Rackspace Email mailbox password
 type: article
 created_date: '2017-06-19'
 created_by: William Loy
-last_modified_date: '2017-09-12'
+last_modified_date: '2017-10-23'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -24,7 +24,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Change your password through webmail
 
-If you prefer a video tutorial, please see [Rackspace Email - Password Resets: Webmail <img src="{% asset_path rackspace-email/change-your-rackspace-email-password/reset_user_password_thumb.png %}" />](https://www.youtube.com/watch?v=wdEXE9JQKfk).
+If you prefer a video tutorial, please see [Rackspace Email - Password Resets: Webmail <img src="{% asset_path rackspace-email/change-your-rackspace-email-password/reset_user_password_thumb.png %}" />](https://emailhelp.rackspace.com/l/password-reset-user).
 
 1. Log in to your mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
 
@@ -52,7 +52,7 @@ If you prefer a video tutorial, please see [Rackspace Email - Password Resets: W
 
 ### Change a password through Cloud Office Control Panel
 
-If you prefer a video tutorial, please see [Rackspace Email - Password Resets: Admin Control Panel <img src="{% asset_path rackspace-email/change-your-rackspace-email-password/cp_reset_password_thumb.png %}" />](https://www.youtube.com/watch?v=-daShi62uHA).
+If you prefer a video tutorial, please see [Rackspace Email - Password Resets: Admin Control Panel <img src="{% asset_path rackspace-email/change-your-rackspace-email-password/cp_reset_password_thumb.png %}" />](https://emailhelp.rackspace.com/l/password-reset-admin-cp).
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 2. In the **Rackspace Email** section, click **Mailboxes**.
