@@ -5,7 +5,7 @@ title: Add domains with the Cloud Office Control Panel
 type: article
 created_date: '2014-04-10'
 created_by: William Loy
-last_modified_date: '2017-09-22'
+last_modified_date: '2017-10-20'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -20,7 +20,7 @@ This article explains how to add a domain in your Cloud Office Control Panel.
 - **Time needed:** Approximately 15 minutes
 - **Tools required:**  Cloud Office Control Panel access
 
-If you would prefer a video tutorial see [Rackspace Email - Adding a Domain <img src="{% asset_path rackspace-email/add-domains-with-the-cloud-office-control-panel/add_domain_thumb.png %}" /> ](https://www.youtube.com/watch?v=Y6aaeoBVkGc).
+If you would prefer a video tutorial see [Rackspace Email - Adding a Domain <img src="{% asset_path rackspace-email/add-domains-with-the-cloud-office-control-panel/add_domain_thumb.png %}" /> ](https://emailhelp.rackspace.com/l/adding-a-domain-in-cp).
 
 ### Add domains in the Cloud Office Control Panel
 
