@@ -1,8 +1,8 @@
 ---
 permalink: dns-fundamentals/
-audit_date:
+audit_date: '2017-11-13'
 title: DNS Fundamentals
-type: whitepaper
+type: article
 created_date: '2017-01-26'
 created_by: Alan Hicks
 last_modified_date: '2017-11-06'
@@ -16,6 +16,22 @@ limited by experience. Hardly anyone takes a class or studies DNS
 carefully. As a result, DNS knowledge is somewhat haphazardly obtained.
 Technicians often have gaps in their DNS knowledge. Here, I hope to cover the
 fundamentals with enough detail to fill in some of those gaps.
+
+- [Background](#background)
+- [Global distribution hierarchy](#global-distribution-hierarchy)
+- [Caching and TTLs](#caching-and-ttls)
+- [Recursion](#recursion)
+- [Record types](#record-types)
+  - [A records](#a-records)
+  - [AAAA records](#aaaa-records)
+  - [PTR records](#ptr-records)
+  - [MX records](#mx-records)
+  - [CNAME records](#cname-records)
+  - [NS records](#ns-records)
+  - [TXT records](#txt-records)
+  - [SOA records](#soa-records)
+- [Zone files](#zone-files)
+- [Further reading](#further-reading)
 
 ### Background
 
