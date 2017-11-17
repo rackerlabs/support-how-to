@@ -5,7 +5,7 @@ title: Spam filtering
 type: article
 created_date: '2017-05-24'
 created_by: William Loy
-last_modified_date: '2017-05-25'
+last_modified_date: '2017-11-17'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -21,17 +21,18 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Spam filtering system
 
-Over 95 percent of all email traffic on the Internet is spam. Spammers have grown increasingly sophisticated, using innovative methods to trick spam filters and penetrate email inboxes. Rackspace uses the following robust filtering system to protect your users from spam:
+Rackspace estimates that over 90% of all email traffic is spam, although most spam never makes it to the inbox. Millions of dollars in business productivity and additional infrastructure expenses are often lost due to spam. To make matters worse, email is being used to ‘phish’ sensitive and valuable information from companies and trick people into transferring money. To defend against email spam and phishing, you must stay one step ahead of the evolving threat.
 
-1. **Gateway scan**: As soon as an email arrives, our gateway servers try to match the sending IP address to an aggregated blacklist compiled from multiple spammer tracking systems. The servers analyze the email message in comparison to other arriving mail, and block the message if the following conditions exist:
 
-   - A large number of emails arrive simultaneously from a single IP address.
-   - A large number of emails are addressed to users that do not exist in our system.
-   - The sending address is from a domain in our system but the mailbox does not exist.
+#### Blocked Email
 
-2. **Cloudmark® scan**: We scan all email with the industry-leading Cloudmark spam detection software. Cloudmark uses Advanced Message Fingerprinting to detect viruses, spam, and phishing. Advanced Message Fingerprinting uses algorithms that detect spam across all languages and character formats. These algorithms update every 60 seconds based on worldwide feedback loops and the latest spam tactics.
+Rackspace Email uses several industry best practice techniques to block email spam coming from known disreputable sources. This comprises email we know, with a high degree of certainty, is not from a legitimate service. This covers everything from compromised servers to ‘spam cannon’ services that send unsolicited spam across the internet. These techniques include the use of IP block lists provided by reputable services well known throughout the email industry, as well as blocking emails with attachment types known to exploit end-user computers. We also provide admins with the ability to blacklist senders at both the domain and mailbox level. Any mail matching these blacklists are blocked.
 
-3. **Message Sniffer scan**: We scan email with Message Sniffer from ARM Research Labs. Message Sniffer relies on pattern recognition and machine learning technology to detect spam and malware. It searches the entire message for spam and malware features, including unusual headers, message source behaviors, structural artifacts, obfuscation techniques, binary and image signatures, email and URL targets, unusual code fragments, and even coding styles.
+
+#### Filtered Email
+
+If mail passes the blocked email checks, we apply advanced content filtering to verify whether it is considered spam. Content filtering combines many techniques to analyze email structure and content, and create key indicators that identify patterns in email. These indicators are combined with industry-wide feedback from email providers across the internet about reported spam, phishing, and viruses. The end result is an accurate, adaptive, and evolving content filtering system that is highly effective at removing spam.
+
 
 The filtering system does not apply only to the “sophisticated spammer”. This system scans all incoming and outgoing mail traffic regardless of sender or intent.  Our filters will flag only message content that has been deemed as spam by the whole of the internet community.
 
@@ -66,4 +67,3 @@ When a legitimate message is flagged as spam, follow these recommendations:
 
 - [Acceptable Use Policy](https://www.rackspace.com/information/legal/aup?_ga=2.75345873.298003222.1495221511-62538955.1439921553)
 - [Rackspace Cloud Office Mail Terms](https://www.rackspace.com/information/legal/mailterms)
-
