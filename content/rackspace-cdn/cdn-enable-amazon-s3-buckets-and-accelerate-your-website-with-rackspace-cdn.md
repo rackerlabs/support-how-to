@@ -84,7 +84,7 @@ perform the following actions:
 
 2. When you specify the origin, enter the URL of your Amazon S3 bucket as your origin domain. For example, `yourBucket.s3-website-yourBucketRegion.amazonaws.com`. 
 
-   **Note:** Make sure to chose `http` type instead of `https` type. S3 static sites do not support `https`. 
+   **Note:** Make sure to choose `http` type instead of `https` type. S3 static sites do not support `https`. 
 
 3. Set the **Host Header** type to **Origin**.
 
