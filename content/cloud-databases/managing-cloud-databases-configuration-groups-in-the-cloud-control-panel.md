@@ -5,8 +5,8 @@ title: Manage Cloud Databases configuration groups in the Cloud Control Panel
 type: article
 created_date: '2014-11-13'
 created_by: Rose Contreras
-last_modified_date: '2016-06-09'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2018-01-11'
+last_modified_by: DaPriest Watson
 product: Cloud Databases
 product_url: cloud-databases
 ---
