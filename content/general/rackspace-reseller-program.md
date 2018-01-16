@@ -26,7 +26,7 @@ by:
 ### Program benefits
 
 In addition to receiving compensation benefits, resellers can also take
-advantage of sales, marketing and training resources. Some of these
+advantage of sales, marketing, and training resources. Some of these
 benefits include:
 
 Benefit | Associate | Preferred | Premier
@@ -46,7 +46,7 @@ Joint marketing funds <sup>1</sup> |  |  | X
 
 ### How the program works
 
-Joining offers you access to the benefits you need to begin building and
+Joining offers you access to the benefits that you need to begin building and
 selling Rackspace solutions to your prospects and customers. Our program
 offers market competitive reseller discounts that lead to higher margins
 and greater competitive advantages. You can see the reseller discounts on the [Rackspace Reseller Program](https://partners.rackspace.com/English/resellers.aspx) page.
