@@ -5,8 +5,8 @@ title: Secure a compromised Rackspace Email mailbox
 type: article
 created_date: '2017-12-18'
 created_by: William Loy
-last_modified_date: '2018-01-16'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2018-01-19'
+last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -67,9 +67,9 @@ Take the following steps to secure a mailbox that has been compromised:
 
     - It is better to raise the alarm and protect everyone's information than to risk the compromise growing beyond your mailbox.
 
-4.If the return-path and originating IP of the message that led to the compromise was the source, blacklist them. Usually, the message contained a suspicious link or asked you for account information.
+4. If the return-path and originating IP of the message that led to the compromise was the source, blacklist them. Usually, the message contained a suspicious link or asked you for account information.
 
-    - The [View and read Rackspace Email headers](/how-to/view-and-read-rackspace-email-headers) article shows how to identify the return-path and originating IP of the malicious email.
+   - The [View and read Rackspace Email headers](/how-to/view-and-read-rackspace-email-headers) article shows how to identify the return-path and originating IP of the malicious email.
 
 5. Educate your users about the risk factors and symptoms of a compromised mailbox. Email attacks are a constant threat that users and admins should be prepared for at all times.
 
