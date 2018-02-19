@@ -24,7 +24,7 @@ Rackspace offers two different solutions for DR:
   of the customer’s disaster recovery (DR) plan.
 
 - [VM Replication](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/vm-replication/):
-  
+
   VM Replication provides geographical redundancy and helps protect
   business-critical VMs in the event of a data center outage or unplanned
   downtime. Geographical redundancy is a key component to any sound
@@ -35,7 +35,7 @@ Rackspace offers two different solutions for DR:
 #### Are imaged-based backups part of the VMware Server Virtualization offering?
 
 - [Virtual Machine Recovery](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/vm-recovery/):
-  
+
   Managed Backup Virtual Machine Recovery (VMR) is the Rackspace-productized
   version of VMware’s API for Data Protection (VADP) based backups to
   protect VMware Server Virtualization VMs. Managed Backup (MBU) VMR is a
