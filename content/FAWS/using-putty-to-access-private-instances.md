@@ -20,7 +20,7 @@ Customers without a site-to-site VPN can access their RDS private instance with 
 Accessing your private instance requires the following:
 
    - SSH access to a Linux EC2 instance with a public IP address. This instance can be an EC2 instance within your Rackspace environment or your own AC2 instance.
-   - Network access to the RDS instance you want to access. For more information on FAWS user management, see [User management and permissions](https://manage.rackspace.com/docs/product-guide/access_and_permissions/user_management_and_permissions.html)
+   - Network access to the RDS instance you want to access. For more information on FAWS user management, see [User management and permissions](https://manage.rackspace.com/docs/product-guide/access_and_permissions/user_management_and_permissions.html).
    - A local machine with windows and Putty installed.
    - A MySQL application such as MySQL Workbench.
 
