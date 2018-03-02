@@ -21,7 +21,7 @@ compliance with the Payment Card Industry (PCI) Data Security Standard
 Solutions](https://support.rackspace.com/how-to/are-cloud-servers-pci-dss-compliant/). For
 information about PCI-DSS when using Rackspace Dedicated Hosting
 services, see [PCI-Compliant Hosting for E-commerce
-Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
+Websites](https://www.rackspace.com/ecommerce-hosting/pci/).
 
 ------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
 #### Do you have Servers with a Managed Operations Service Level in the UK?
 
 Yes. For information, go to
-[http://www.rackspace.co.uk/cloud/managed](http://www.rackspace.co.uk/cloud-hosting/cloud-products/managed-cloud/).
+[https://www.rackspace.co.uk/cloud/managed](https://www.rackspace.co.uk/cloud/managed/).
 
 #### How do I contact the Managed Operations Team?
 
@@ -122,7 +122,7 @@ solutions.
 #### What does a server with Managed Operations Service Level support cost?
 
 Please see our [Cloud Servers Pricing
-Page](http://www.rackspace.com/cloud/servers/pricing/) for full pricing
+Page](https://www.rackspace.com/cloud/servers/pricing/) for full pricing
 details.
 
 #### What is included in a Managed Operations Service Level account?
@@ -138,7 +138,7 @@ user-defined ports as well as user-defined URL content.
 
 We will provide free licensing for the Rackspace Cloud Backup file-based
 backup option ( [standard Cloud Files storage fees
-apply](http://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/)).
+apply](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/)).
 
 #### What is Cloud Servers with a Managed Operations Service Level?
 
