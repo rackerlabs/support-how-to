@@ -1,6 +1,6 @@
 ---
 permalink: cloud-dns-faq/
-audit_date:
+audit_date: '2018-03-13'
 title: Cloud DNS FAQ
 type: article
 created_date: '2011-10-25'
@@ -26,7 +26,7 @@ of the master invokes the slave. DNS servers might also be clustered or replicat
 such that changes made to one DNS server are automatically propagated to other
 active servers.
 
-#### What types of customers/accounts can access Cloud DNS?
+#### What types of customers or accounts can access Cloud DNS?
 
 Anyone who has a Rackspace Cloud account can access the Cloud DNS service.
 Existing Cloud customers have access to the Rackspace Cloud DNS by default.
@@ -48,8 +48,8 @@ with Cloud accounts that have provisioned and active resources.
 #### Can this service be used for Dedicated Servers?
 
 No. The Cloud DNS service is only available for Cloud account resources. Managed
-and Dedicated customers with RackConnect (that is customers who also have a
-Cloud account) have access, but can only use the service to manage DNS for their
+and Dedicated customers with RackConnect (that is, customers who also have a
+Cloud account) have access but can only use the service to manage DNS for their
 Rackspace Cloud resources.
 
 #### How does this work for Hybrid customers?
@@ -94,7 +94,7 @@ each have the following separate API endpoints:
 
 #### What DNS management operations does the Cloud DNS API support?
 
-Customers can create, modify, remove, and list domains, subdomains and records.
+Customers can create, modify, remove, and list domains, subdomains, and records.
 
 Additionally, users can search domains by filtering. We do not support filtering
 records.
@@ -116,8 +116,8 @@ The Cloud DNS API currently supports the following record types:
 -  PTR
 -  SOA
 
-**Note:** You cannot create SOA records, which are handled by the
-system, but you can modify the TTL and email address.
+**Note:** You cannot create Service-Oriented Architecture (SOA) records, which are handled by the
+system, but you can modify the Time to Live (TTL) and email address.
 
 The service supports `DKIM` and `SPF` records through formatting `TXT` records with
 custom attributes indicating the record type. We do not currently support the
@@ -128,11 +128,11 @@ For more information about supported record types, see the
 
 #### Can I import and export domains?
 
-Yes, by using API. You can import a domain from external providers by using a
+Yes, you can do this by using API. You can import a domain from external providers by using a
 valid `bind9-formatted` zone file. Similarly, you can export their domain to a
-`bind9-formatted` file. Currently, you will not be able to transfer zones from
-MyRackspace to Cloud DNS and should contact Support to request a domain transfer
-from dedicated resources to Cloud resources.
+`bind9-formatted` file. Currently, you cannot transfer zones from MyRackspace
+to Cloud DNS and should contact Support to request a domain transfer from
+dedicated resources to Cloud resources.
 
 #### What are the Rackspace DNS servers?
 
@@ -149,8 +149,8 @@ broadcast the IP addresses for `ns.rackspace.com` and `ns2.rackspace.com` from
 each location. All DNS queries generally go to the geographically-closest
 name servers, giving you faster results no matter where your queries originate.
 Additionally, all of our DNS servers are monitored 24/7, and if an entire
-datacenter were to fail, or even if all of the DNS servers within a specific
-datacenter were to fail, the DNS queries automatically start going to the
+data center were to fail, or even if all of the DNS servers within a specific
+data center were to fail, the DNS queries automatically start going to the
 next best location.
 
 #### What are the limitations of the search functionality?
@@ -166,19 +166,19 @@ No.
 
 #### What are the default TTLs for domains and records?
 
-When a domain or record is created, and no TTL (Time To Live) is specified,
+When a domain or record is created, and no TTL is specified,
 a default value of 3600 seconds is used. When the domain or record TTL is
 supplied by the user through a create or update operation, the specified TTL values
 must be 300 seconds or more.
 
 #### How long does it take for DNS changes to be propagated globally?
 
-Typical DNS propagation to Rackspace name servers (globally) may take up to one
-minute. Propagation refers to the time between when a change is made to a
+Typical DNS propagation to Rackspace name servers (globally) might take up to
+one minute. Propagation refers to the time between when a change is made to a
 customer's records and when the change takes effect on our name servers. A large
-amount of changes made simultaneously may take 2-3 minutes.
+amount of changes made simultaneously might take 2 to 3 minutes.
 
-If a new domain is added or an existing domain is deleted, this may take
+If a new domain is added or an existing domain is deleted, this might take
 a few minutes to propagate to our Rackspace name servers.
 
 When changing name servers for a domain, complete propagation takes about 2
@@ -188,7 +188,7 @@ days for most domains. This is enforced by the registries.
 
 By default, all accounts have a preconfigured set of thresholds (or limits) to
 manage capacity and prevent abuse of the system. The system recognizes two kinds
-of limits: rate limits and absolute limits. Rate limits are thresholds that are
+of limits: *rate limits* and *absolute limits*. Rate limits are thresholds that are
 reset after a certain amount of time passes. Absolute limits are fixed. See the [
 Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for more information on rate limits.
@@ -197,12 +197,12 @@ for more information on rate limits.
 
 #### How many Cloud DNS domains and records can I have?
 
-By default, Cloud DNS users may have up to 500 domains (including sub-domains)
+By default, Cloud DNS users can have up to 500 domains (including sub-domains)
 and 500 records per domain per Cloud account. When a user submits a request to
 create new domains, records, or sub-domains, the system accepts the request
-only if the total number of existing  domains plus requested domains, sub-domains
+only if the total number of existing  domains plus requested domains, sub-domains,
 or records is within the account limits. If the total exceeds the account limit,
-the entire request is rejected and a `413 Request Entity Too Large` message is
+the entire request is rejected, and a `413 Request Entity Too Large` message is
 returned. See the
 [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for more information on absolute limits.
