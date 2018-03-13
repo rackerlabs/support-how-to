@@ -15,7 +15,7 @@ product_url: cloud-dns
 
 #### What is a domain name system (DNS)?
 
-The Domain Name System (DNS) determines internet domain name-to-address
+The Domain Name System (DNS) determines Internet domain name-to-address
 and address-to-name resolutions. All domains and their components,
 such as mail servers, use DNS to resolve to the appropriate locations. For
 example, DNS is used to turn 'www.rackspace.com' into the computer addressable
@@ -128,7 +128,7 @@ For more information about supported record types, see the
 
 #### Can I import and export domains?
 
-Yes, you can do this by using API. You can import a domain from external providers by using a
+Yes, you can do this by using the API. You can import a domain from external providers by using a
 valid `bind9-formatted` zone file. Similarly, you can export their domain to a
 `bind9-formatted` file. Currently, you cannot transfer zones from MyRackspace
 to Cloud DNS and should contact Support to request a domain transfer from
