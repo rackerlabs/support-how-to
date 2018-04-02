@@ -5,13 +5,13 @@ title: Use Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-06-28'
 created_by: Renee Rendon
-last_modified_date: '2016-09-12'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2018-02-12'
+last_modified_by: Kate Dougherty
 product: undefined
 product_url: undefined
 ---
 
-**Previous section:** [Learning about Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac)
+**Previous section:** [Learn about Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac)
 
 The account owner implements Role-Based Access Control (RBAC) by adding users to the account and assigning roles. This article is intended for account owners and guides you through this process using the [Cloud Control Panel](https://mycloud.rackspace.com/).
 
@@ -23,11 +23,11 @@ determines the user's level of access.
 
 ### Account credentials
 
-Rackspace recommends that the you change the account password
+Rackspace recommends that you change the account password
 and secret question before adding new users to the account.
 
 When new users are created, a temporary password is assigned to
-them, which they should change at their first login.
+them. They should change the temporary password at their first login.
 
 Also, new users must be informed that they have been added to the
 account. Rackspace does not notify them automatically. You
@@ -37,10 +37,12 @@ can use the following text to notify your users:
 
 ### Create new users
 
+To create new users, use the following steps:
+
 1. In the upper-right corner of the [Cloud Control Panel](https://mycloud.rackspace.com/),
 click your user name and then select **User Management.**
 
-2. On the User Management page, click **Create User**.
+2. On the **User Management** page, click **Create User**.
 
 3. Enter information in the **Login Details** section.
 
@@ -65,7 +67,7 @@ user's contact details.
 
 8. Click **Create User**.
 
-  **Note:** The Control Panel view is different for each user depending on the roles assigned.
+  **Note:** Depending on the roles assigned, the Control Panel view is different for each user.
 
 ### Suggested role configurations
 
@@ -81,7 +83,7 @@ optimal product interaction.
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">PRODUCT</th>
+<th align="left">Product</th>
 <th align="left">If</th>
 <th align="left">And</th>
 <th align="left">Then</th>
@@ -92,11 +94,11 @@ optimal product interaction.
 <td align="left"><strong>Cloud Load Balancers</strong></td>
 <td align="left"><p>A user has been assigned any Cloud Load Balancers role.</p></td>
 <td align="left"><p> </p></td>
-<td align="left"><p>In Cloud Servers, give the user the Observer role (minimum action).</p></td>
+<td align="left"><p>In Cloud Servers, give the user the <strong>Observer</strong> role (minimum action).</p></td>
 </tr>
 <tr class="even">
 <td align="left"><strong>Cloud Load Balancers </strong></td>
-<td align="left">A user wants to add a node by using **Nodes > Add Cloud Servers** option in the Cloud Control Panel.</td>
+<td align="left">A user wants to add a node by using the <strong>Nodes > Add Cloud Servers</strong> option in the Cloud Control Panel.</td>
 <td align="left">The user has been assigned any Cloud Load Balancers role.</td>
 <td align="left">In Cloud Servers, give the user any role. </td>
 </tr>
@@ -104,22 +106,23 @@ optimal product interaction.
 <td align="left"><p><strong>Cloud Databases</strong></p></td>
 <td align="left"><p>A user wants to create a backup in Cloud Databases.</p></td>
 <td align="left"><p> </p></td>
-<td align="left"><p>In Cloud Files, give the user the Admin role.</p></td>
+<td align="left"><p>In Cloud Files, give the user the <strong>Admin</strong> role.</p></td>
 </tr>
 </tbody>
 </table>
 
 ### Add a user login and custom role to an existing contact
 
-1. On the **User Management** page of the control panel, click the gear icon next to the contact's name.
+To add a user login and custom role to an existing contact, use the following steps:
+
+1. On the **User Management** page of the Control Panel, click the gear icon next to the contact's name.
 
 2. Select **Add Login**.
 
 3. Complete the **Username**, **Password**, **Security Question**, and
 **Security Answer** fields.
 
-4. Click **Save User Information** after choosing the custom
-role.
+4. After choosing the custom role, click **Save User Information**.
 
 5. Click the gear icon next to that user's name and configure
 the custom role.
@@ -132,7 +135,3 @@ owner must configure that user with a different username for
 each account. The following graphic illustrates this scenario.
 
 <img src="{% asset_path general/managing-role-based-access-control-rbac/MutiAccountsRBAC.png %}" width="534" height="250" />
-
-### Next section
-
-[Using RBAC with MyRackspace](/how-to/using-rbac-with-myrackspace)
