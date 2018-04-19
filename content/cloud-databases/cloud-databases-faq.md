@@ -272,9 +272,9 @@ For more information about these engine types, see the following MySQL
 documentation:
 
 -   [The InnoDB Storage
-    Engine](http://dev.mysql.com/doc/refman/5.1/en/innodb-storage-engine.html)
+    Engine](https://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html)
 -   [The MyISAM Storage
-    Engine](http://dev.mysql.com/doc/refman/5.1/en/myisam-storage-engine.html)
+    Engine](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)
 
 #### How many connections does each database instance size support?
 
