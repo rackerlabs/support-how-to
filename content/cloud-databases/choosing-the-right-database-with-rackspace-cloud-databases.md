@@ -12,12 +12,11 @@ product_url: cloud-databases
 ---
 
 Cloud Databases supports MySQL 5.1 and 5.6, Percona 5.6, and MariaDB 10 and
-10.1. This article highlights some key aspects to consider when
-deciding which MySQL-based datastore fits your application best.
+10.1. This article highlights some key aspects to consider to decide which MySQL-based datastore fits your application best.
 
 ### MySQL overview
 
-MySQL is an open-source database developed by Oracle, and the recommended
+MySQL is an open-source database developed by Oracle and is the recommended
 choice of the MySQL database administrator community. MySQL is a good fit
 for customers who are concerned about maintaining compatibility with upstream,
 and who prefer a quick release schedule for upstream updates. For more
@@ -25,18 +24,18 @@ information, see the [MySQL documentation](http://dev.mysql.com).
 
 ### Benefits of using MySQL
 
-MySQL offers the following benefits:
+MySQL offers the following benefit:
 
 - Upstream is controlled by Oracle.
 
 ### MySQL limitations
 
-MySQL has the following limitations:
+MySQL has the following limitation:
 
 - Bug fixes are delayed behind forks that might have already been resolved
   by community patches.
 
-### Percona server overview
+### Percona Server overview
 
 Percona Server is a good solution for customers who want improved
 performance right out of the box and want to maintain close (but not
@@ -63,13 +62,13 @@ Percona Server offers the following benefits:
 -   Improved query optimizer.
 
 -   Increased log verbosity options, status and performance counters,
-    and increased `INFORMATION_SCHEMA` content.
+    and `INFORMATION_SCHEMA` content.
 
--   Thread pool option without the need for Enterprise MySQL.
+-   Thread pool option without the need for MySQL Enterprise.
 
 ### Percona Server limitations
 
-MySQL has the following limitations:
+MySQL has the following limitation:
 
 - After using features that are specific to Percona, you might not be able to
   directly roll back the database.
@@ -81,9 +80,9 @@ aims to maintain compatibility with MySQL. It offers the best
 performance and features out of the box. MariaDB is a good database choice for
 customers who are less concerned with maintaining direct compatibility with
 upstream. For example, instead of merging with code provided by upstream,
-MariaDB attempts to re-implement features as they are released if they were
+MariaDB attempts to re-implement features as they are released if they are
 not already provided. MariaDB offers the best optimizer performance of all of
-the solutions presented in this article, and has the largest selection of
+the solutions presented in this article and has the largest selection of
 storage engines by default. For more information, see the [MariaDB
 documentation](https://mariadb.org/en/about/).
 
@@ -105,9 +104,9 @@ MariaDB offers the following benefits:
 -   Improved query optimizer.
 
 -   Increased log verbosity options, status and performance counters,
-    and increased `INFORMATION_SCHEMA` content.
+    and `INFORMATION_SCHEMA` content.
 
--   Thread pool option without the need for Enterprise MySQL.
+-   Thread pool option without the need for MySQL Enterprise.
 
 -   Increased quantity of storage engines by default.
 
