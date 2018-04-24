@@ -5,7 +5,7 @@ title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2018-04-04'
+last_modified_date: '2018-04-24'
 last_modified_by: Kate Dougherty
 product: Cloud Databases
 product_url: cloud-databases
@@ -18,11 +18,12 @@ product_url: cloud-databases
 Cloud Databases is a standalone, API-based, relational database service
 built on OpenStack&reg; cloud that enables Rackspace customers to easily
 provision and manage multiple MySQL database instances. Instances are
-provisioned in a single-tenant, container-based environment per account
-and are accessible through the Rackspace internal ServiceNet network or
-through a public IP (High Availability instances only). Each
-database instance is optimized for performance. You can run a database
-instance with MySQL, Percona, or MariaDB as the database technology.
+provisioned in a single-tenant, container-based environment per account and
+are accessible through the Rackspace internal ServiceNet network. In addition,
+High Availability (HA) instances can also be provisioned with a public IP
+during creation to enable access via public IP. Each database instance is
+optimized for performance. You can run a database instance by using MySQL,
+Percona, or MariaDB as the database technology.
 
 #### What are the benefits of using Cloud Databases?
 
@@ -45,8 +46,9 @@ Connecting to one of these types of Cloud Databases instances remotely
 requires either a Cloud Server or Cloud Load Balancer to proxy the
 connection.
 
-For more information on connecting to a Cloud Databases instance, see [Connect
-to a Cloud Databases instance](/how-to/connect-to-a-cloud-databases-instance).
+For more information about connecting to a Cloud Databases instance, see
+[Connect to a Cloud Databases
+instance](/how-to/connect-to-a-cloud-databases-instance).
 
 For more information on HA instance groups, see [High Availability for Cloud
 Databases](/how-to/high-availability-for-cloud-databases) or the "High
@@ -55,8 +57,8 @@ Availability" section of this FAQ.
 #### What kind of storage solution does Cloud Databases offer?
 
 Each Cloud Databases instance comes with an attached storage volume.
-Storage volumes are automatically provisioned on a shared Internet Small
-Computer System Interface (iSCSI) storage area network (SAN) that
+Storage volumes are automatically provisioned on a shared Internet small
+computer system interface (iSCSI) storage area network (SAN) that
 enables increased performance, scalability, availability, and
 manageability. Applications with high input/output (I/O) demands are
 performance-optimized and data is protected through both local and
@@ -69,10 +71,10 @@ clusters.
 
 Every Cloud Databases instance is optimized for performance. Cloud
 Databases uses container-based virtualization, which eliminates the
-performance bottlenecks associated with traditional hardware virtualization and
-enables your database to run at near-baremetal speeds. Cloud Databases also
-uses dedicated SAN storage and high-speed networking to give you faster
-access to your data.
+performance bottlenecks that are associated with traditional hardware
+virtualization and enables your database to run at near-baremetal speeds.
+Cloud Databases also uses dedicated SAN storage and high-speed networking to
+give you faster access to your data.
 
 #### What instance sizes do you currently support?
 
@@ -90,10 +92,10 @@ RackConnected Cloud Servers. Both First and Open Cloud Servers can
 connect to Cloud Databases, as well as any product with access to our
 internal ServiceNet network within the same regional data center.
 
-#### Can Cloud Databases be used with Dedicated servers?
+#### Can Cloud Databases be used with dedicated servers?
 
 No, Cloud Databases are available only to customers with Cloud account
-credentials. Managed Operations Service Level or Dedicated customers
+credentials. Managed Operations Service Level or dedicated customers
 with RackConnect (those customers who also have a Cloud account)
 have access, but can use the service only with their Rackspace Cloud
 product resources.
@@ -115,8 +117,7 @@ connection](/how-to/connect-to-a-cloud-databases-instance).
 
 #### Does Cloud Databases support SSL for communication between my application and my database instance?
 
-Yes, Cloud Databases supports connecting to your instance by using SSL. An
-SSL certificate is installed for each Cloud Databases instance. This
+Yes. An SSL certificate is installed for each Cloud Databases instance. This
 certificate enables a secure connection between your application and the
 instance. When an SSL connection is established, any data transfer between the
 instance and the application is encrypted.
@@ -128,7 +129,7 @@ instance and the application is encrypted.
 #### Can I write to my database instance during a backup?
 
 The behavior of your instance during a backup depends on the storage
-engine that you are using for tables. If you use only InnoDB, write
+engine that you use for tables. If you use only InnoDB, write
 access to your database instance is not suspended. However, if you
 have MyISAM tables, those databases are write-locked during the backup
 process.
@@ -143,9 +144,9 @@ backups of databases that use InnoDB and MyISAM.
 #### How much do you charge for database backups?
 
 Backups are stored in your Cloud Files account, and you are charged for the
-storage used. Standard rates for Cloud Files storage apply. For current
-costs, see the [Cloud Files pricing
-page](http://www.rackspace.com/cloud/files/pricing/).
+storage that they use. Standard rates for Cloud Files storage apply. For
+current costs, see the [OpenStack pricing
+page](https://www.rackspace.com/openstack/public/pricing).
 
 #### How do you perform database backups?
 
@@ -188,8 +189,9 @@ Panel.
 
 #### How many database backups can I request?
 
-There is no limit on the number of database backups that you can create. Note
-that you may run only one backup at a time. Duplicate requests generate
+There is no limit on the number of database backups that you can create.
+
+**Note**: You may run only one backup at a time. Duplicate requests generate
 a 422 error.
 
 #### When a Cloud Database is deleted how is the data removed?
@@ -215,9 +217,8 @@ to retain.
 
 #### What Cloud Databases operations are supported at different service levels?
 
-For support coverage information for Managed Infrastructure and the Managed
-Operations Service Level, see the [Cloud Databases support
-matrix page](http://www.rackspace.com/cloud/databases/support/).
+Support coverage information is available on [the OpenStack Cloud Service
+Levels page](https://www.rackspace.com/openstack/public/service-levels).
 
 #### Where can I find the Cloud Service Level Agreement?
 
@@ -239,9 +240,12 @@ CLI](/how-to/getting-started-with-rackspace-monitoring-cli).
 
 You can also set up alarms that send you email alerts based on thresholds
 that you define. An alert for disk space is set up by default for every
-instance. You can also use our [Cloud Intelligence beta
-site](https://intelligence.rackspace.com/) to observe usage patterns or
-any unexpected changes in your environment.
+instance.
+
+In addition, you can use Rackspace Intelligence to observe usage patterns for
+any unexpected changes in your environment. For more information, see [Getting
+started with Rackspace Intelligence for the
+cloud](https://support.rackspace.com/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
 
 #### Can I create a Cloud Databases support ticket?
 
@@ -424,7 +428,7 @@ user on the database instance.
 #### What is the default database storage engine?
 
 The default storage engine is InnoDB. However, other storage engines such as
-MyISAM that are included with MySQL 5.1 also work for certain use cases.
+MyISAM that are included with MySQL also work for certain use cases.
 
 ------------------------------------------------------------------------
 
