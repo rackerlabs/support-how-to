@@ -81,7 +81,7 @@ give you faster access to your data.
 For the most up-to-date information about available instance sizes, see
 the [Cloud Databases website](http://www.rackspace.com/cloud/databases/)
 or the _[Cloud Databases Developer
-Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#listing-flavors)_.
+Guide](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/flavors/#list-flavors)_.
 
 #### What types of Rackspace products and accounts can use Cloud Databases?
 
@@ -159,9 +159,9 @@ directly to your Cloud Files account for storage.
 Scheduled backup, on-demand backup, and restore operations are currently
 supported by the Cloud Control Panel and the [Cloud Databases
 API](https://developer.rackspace.com/docs/cloud-databases/v1/). For more
-information, see [Scheduled Backups for Cloud
-Databases](/how-to/scheduled-backups-for-cloud-databases) and [Managing
-Backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
+information, see [Scheduled backups for Cloud
+Databases](/how-to/scheduled-backups-for-cloud-databases) and [Manage
+backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
 For details about using the Cloud Databases
 API, see the [API
 Reference](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/).
@@ -234,8 +234,8 @@ memory, disk storage, network, and a number of MySQL metrics. You can
 monitor your Cloud Databases instances by using the [Cloud Control
 Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel),
 the [Cloud Monitoring
-API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)
-, or the [Cloud Monitoring
+API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/), or the
+[Cloud Monitoring
 CLI](/how-to/getting-started-with-rackspace-monitoring-cli).
 
 You can also set up alarms that send email alerts to you that are based on
@@ -351,7 +351,7 @@ based on instance size.
 
 For release notes, API documentation, and a _Getting started_ guide for Cloud
 Databases, see [Rackspace Cloud Databases API
-v1.0](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
+v1.0](https://developer.rackspace.com/docs/cloud-databases/v1/).
 
 #### Are there API or account limits for my Cloud Database instances?
 
@@ -389,7 +389,7 @@ You can also use the Cloud Control Panel, the API, or the CLI to manage your
 database instance. While some features are not available in the Control Panel,
 you can access these features through the API or the CLI. More information
 about the API and the CLI is available in the [Cloud Databases API
-documentation](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
+documentation](https://developer.rackspace.com/docs/cloud-databases/v1/).
 
 #### How do I set the default time zone for MySQL?
 
@@ -398,7 +398,7 @@ MySQL by creating a configuration group that sets the
 `default\_time\_zone` parameter to the offset from UTC. (For example,
 `-6:00` for CST.)
 
-For more information, see [Setting the time zone for a Cloud Databases
+For more information, see [Set the time zone for a Cloud Databases
 instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
 
 #### Do you support importing and exporting data into the database?
@@ -413,7 +413,7 @@ and [Export Data from MySQL](/how-to/exporting-data-from-mysql).
 Yes. Configuration settings for Cloud Databases instances can be stored
 and applied by using the [Cloud Control
 Panel](https://mycloud.rackspace.com/) and the [Cloud Databases
-API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
+API](https://developer.rackspace.com/docs/cloud-databases/v1/).
 You can save your settings in configuration groups, and then apply each
 configuration group to multiple instances. You can maintain multiple
 configuration groups to account for different workloads.
@@ -507,8 +507,7 @@ instance to an HA group at a later date.
 #### Can I monitor replication?
 
 Yes. You can monitor replication using the monitoring agent installed on
-the instance. For more information, see [Database replication with Cloud
-Databases](how-to/database-replication-with-cloud-databases) and
+the instance. For more information, see [Database replication with Cloud Databases](how-to/database-replication-with-cloud-databases/) and
 [Monitoring Read
 Replication](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-read-replication)
 in the API documentation.
@@ -559,8 +558,8 @@ support in newer versions of MySQL. We highly recommend all users to
 Yes we do support master-slave replication. You can add and manage
 replicas using [Cloud Control Panel](https://mycloud.rackspace.com/) and
 Cloud Databases API. For more information about managing replication
-with API, see [API docs for
-replication](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/replication).
+with API, see the [API documentation for
+replication](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/replication/).
 
 ------------------------------------------------------------------------
 
