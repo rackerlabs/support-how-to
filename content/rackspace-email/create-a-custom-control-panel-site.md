@@ -1,6 +1,6 @@
 ---
 permalink: create-a-custom-control-panel-site/
-audit_date:'2018-03-28'
+audit_date: '2018-03-28'
 title: Create a custom control panel site
 type: article
 created_date: '2018-02-23'
