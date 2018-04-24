@@ -1,6 +1,6 @@
 ---
 permalink: choosing-the-right-database-with-rackspace-cloud-databases/
-audit_date: '2018-04-23'
+audit_date: '2018-04-19'
 title: Choosing the right database with Rackspace Cloud Databases
 type: article
 created_date: '2014-07-16'
