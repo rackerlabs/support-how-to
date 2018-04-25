@@ -149,22 +149,21 @@ permalink: /
 					<div class="primary three columns icon email">
 						<h4><a href="/how-to/rackspace-email/"><span>Rackspace</span> Email</a></h4>
 					</div>
-					<div class="three columns icon skype">
-						<h4><a href="/how-to/skype-for-business/"><span>Microsoft</span> Skype for Business</a>
-						</h4>
-					</div>
 					<div class="three columns icon exchange">
 						<h4><a href="/how-to/exchange/"><span>Microsoft</span> Exchange</a></h4>
 					</div>
-					<div class="three columns icon sharepoint">
-						<h4><a href="/how-to/sharepoint/"><span>Microsoft</span> Sharepoint</a></h4>
-					</div>
-					<div class="primary three columns icon email-archiving">
+					<div class="three columns icon email-archiving">
 						<h4><a href="/how-to/rackspace-email-archiving/"><span>Rackspace</span> Email Archiving</a>
 						</h4>
 					</div>
-					<div class="nine columns icon office-365">
+				</div>
+				<div class="twelve columns">
+					<div class="three columns primary icon office-365">
 						<h4><a href="/how-to/office-365/"><span>Microsoft</span> Office 365</a></h4>
+					</div>
+					<div class="three columns icon skype">
+						<h4><a href="/how-to/skype-for-business/"><span>Microsoft</span> Skype for Business</a>
+						</h4>
 					</div>
 				</div>
 			</div>
