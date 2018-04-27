@@ -16,6 +16,11 @@ While NoSQL databases are gaining popularity due to their speed and
 scalability, highly structured SQL databases might be preferable in certain
 cases.
 
+### Prerequisite
+
+For an introduction to relational databases and NoSQL databases, see [Types of
+databases](/how-to/types-of-databases/)
+
 ### Understand when a SQL database might be preferable
 
 You might choose an SQL database for the following reasons: 
@@ -29,11 +34,6 @@ You might choose an SQL database for the following reasons: 
   significant growth that would require additional servers and you’re only
   working with data that is consistent, then an SQL database might be adequate.
 
-### Previous step
-
-[Properties of RDBMSs and NoSQL
-databases](/how-to/properties-of-rdbmss-and-nosql-databases/)
-
 ### Next step
 
-[Reasons to use a NoSQL database](/how-to/reasons-to-use-a-nosql-database/)
+[Reasons to use a NoSQL database](/how-to/reasons-to-use-a-nosql-db/)
