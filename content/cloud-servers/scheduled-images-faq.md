@@ -217,9 +217,9 @@ novaclient, direct API calls).
 
 ### Miscellaneous
 
-#### You say this is a "best effort" service. What does that mean?
+#### Can I schedule when my image starts or completes?
 
-"Best effort" service means that you may not specify a particular time
+You may not specify a particular time
 at which your server snapshot will be taken, nor can we guarantee what
 time your scheduled image will become active. We've placed these
 restrictions because the scheduled times for snapshots are spread out so
