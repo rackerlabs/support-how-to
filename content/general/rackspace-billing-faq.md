@@ -90,7 +90,7 @@ show what you are paying for when you partner with us.
 -   The raw infrastructure price can be contrasted with what other
     hosting companies charge for a cloud server. It covers the
     infrastructure of the hosted server.
--   The managed service price applies to the ***Fanatical Support***&reg;
+-   The managed service price applies to the **Fanatical Support**&reg;
     that we offer on top of our infrastructure. This *Service Level
     Rate* varies based on the service level that you choose for your
     cloud account.
