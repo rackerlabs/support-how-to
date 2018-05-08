@@ -24,7 +24,7 @@ article posted in the Rackspace Support forum.
 
 In order to update or renew your SSL certificate, you need your
 CSR. If you don't have your CSR saved, contact support to have a
-new one generated. You can contact our **Fanatical Support** through a
+new one generated. You can contact our ***Fanatical Support***&reg; through a
 ticket, live chat, or a phone call, and we can help you.
 
 ### Renewing Your Certificate
