@@ -29,7 +29,7 @@ results in unpredictable latency and throughput, and the latter involves
 working with a third-party provider, which can be costly.
 RackConnect Global enables you to deploy your hybrid cloud in a network with low
 latency, predictable throughput, and predictable redundancy at a
-reasonable cost to you, all managed by Rackspace ***Fanatical Support***&reg;.
+reasonable cost to you, all managed by Rackspace **Fanatical Support**&reg;.
 
 #### What are the primary use cases?
 
