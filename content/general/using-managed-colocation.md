@@ -75,7 +75,7 @@ also help manage and plan for your growth needs and deployments.
 > *"We want to transition from a total in-house scenario. Colocation is
 the logical first step, but I need some help."*
 
-***[Fanatical Support](https://www.rackspace.com/why-rackspace)***&reg;,
+[**Fanatical Support**&reg;](https://www.rackspace.com/why-rackspace),
 which is our can-do, no-excuses way of thinking, has made Rackspace the
 world's leader in hosting. Since our beginning in 1998, we have grown to
 more than 80,000 customers and 2,800 employees&mdash;we call them
