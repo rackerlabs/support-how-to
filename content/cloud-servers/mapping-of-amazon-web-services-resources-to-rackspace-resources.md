@@ -60,7 +60,7 @@ instance size for your Rackspace Cloud Server.
 
 ### Fanatical Support
 
-[Rackspace Support](http://www.rackspace.com/whyrackspace/support)
+[Rackspace **Fanatical Support**&reg;](http://www.rackspace.com/whyrackspace/support)
 
 
 ### Next section
