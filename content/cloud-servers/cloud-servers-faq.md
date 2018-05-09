@@ -153,7 +153,7 @@ support that you need to get the most out of the cloud.
     Rackspace Community is always open. Use the forum to get your
     questions answered by a Racker.
 -   Do you have a quick question that you can't find an answer for in the
-    Rackspace How-To? Open Chat and talk with our **Fanatical Support&reg;**
+    Rackspace How-To? Open Chat and talk with our **Fanatical Support**&reg;
     staff anytime, 24x7x365.
 -   Do you have a specialized Service Request or are you experiencing a
     problem with our service? Open a ticket. In the Rackspace [Cloud Control Panel](http://mycloud.rackspace.com/),
