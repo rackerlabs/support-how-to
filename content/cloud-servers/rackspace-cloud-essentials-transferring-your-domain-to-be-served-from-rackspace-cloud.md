@@ -27,7 +27,7 @@ basic questions about transferring your domain to Rackspace.
 #### We are not a domain registrar
 
 Rackspace IS a provider of world-class Cloud Hosting services on demand
-backed by our commitment to Fanatical Support. What we are NOT is a
+backed by our commitment to **Fanatical Support**&reg;. What we are NOT is a
 Domain Registrar like [Namecheap](http://www.namecheap.com/),
 [Dreamhost](http://dreamhost.com/domains/), or
 [GoDaddy](http://www.godaddy.com/).
