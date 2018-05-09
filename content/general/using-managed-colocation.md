@@ -79,6 +79,6 @@ the logical first step, but I need some help."*
 which is our can-do, no-excuses way of thinking, has made Rackspace the
 world's leader in hosting. Since our beginning in 1998, we have grown to
 more than 80,000 customers and 2,800 employees&mdash;we call them
-Rackers&mdash;around the world serving our customers. **Fanatical Support**&reg; is
+Rackers&mdash;around the world serving our customers. Fanatical Support is
 what drives our industry-leading SLAs so that you can focus on your core
 business, not on managing servers.
