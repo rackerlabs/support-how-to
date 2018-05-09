@@ -216,4 +216,4 @@ Several resources are available to help you progress:
     guides on how to build and deploy cloud services
 -   [The Rackspace Community](https://community.rackspace.com/) -
     Discuss ideas with Rackers and other customers
--   [Fanatical Support](http://www.rackspace.com/support)
+-   [**Fanatical Support**&reg;](http://www.rackspace.com/support)
