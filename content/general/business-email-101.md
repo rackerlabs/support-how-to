@@ -538,8 +538,8 @@ pay quick dividends.
 Business email hosting with email, calendars, contacts, and more on your
 desktop
 
-[Microsoft<sup>&reg;</sup> Exchange:](http://www.rackspace.com/apps/email_hosting/exchange_hosting/)
-Advanced Outlook<sup>&reg;</sup> collaboration and optional push email for your
+[Microsoft&reg; Exchange:](http://www.rackspace.com/apps/email_hosting/exchange_hosting/)
+Advanced Outlook&reg; collaboration and optional push email for your
 phone
 
 [Exchange Hybrid:](http://www.rackspace.com/email-hosting/webmail-exchange-hybrid/)
