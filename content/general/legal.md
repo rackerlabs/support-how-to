@@ -74,7 +74,7 @@ Except as expressly provided in any written license agreement from
 Rackspace, the furnishing of this document does not give you any license
 to patents, trademarks, copyrights, or other intellectual property.
 
-Rackspace&reg;, Rackspace logo, Fanatical Support&reg;, RackConnect&trade;, Racker&trade;
+Rackspace&reg;, Rackspace logo, **Fanatical Support**&reg;, RackConnect&trade;, Racker&trade;
 are service marks or registered service marks of Rackspace US, Inc. in
 the United States and/or other countries. OpenStack&trade; and OpenStack logo
 are trademarks of OpenStack, LLC.
