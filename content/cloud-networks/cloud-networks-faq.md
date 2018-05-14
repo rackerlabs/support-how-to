@@ -173,8 +173,7 @@ the old one.
 
 Yes. Users can provision security groups via the neutron client.
 
-#### Is this functionality integrated with and available from the Cloud Control
-Panel?
+#### Is this functionality integrated with and available from the Cloud Control Panel?
 
 Yes, but only inbound PublicNet and ServiceNet security groups are currently
 available in the control panel. To access additional features, you can use
