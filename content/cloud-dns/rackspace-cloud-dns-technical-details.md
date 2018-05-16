@@ -14,7 +14,7 @@ product_url: cloud-dns
 **Previous section:** [Rackspace Cloud DNS available features](/how-to/rackspace-cloud-dns-available-features)
 
 Implementation of Rackspace Cloud DNS is available through our RESTful API. To
-use our API, you should have a general understanding of Domain Nawe Systems (DNS) management
+use our API, you should have a general understanding of Domain Name Systems (DNS) management
 and be familiar with the following elements:
 
 -   RESTful web services
