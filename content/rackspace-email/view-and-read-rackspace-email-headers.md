@@ -1,11 +1,11 @@
 ---
 permalink: view-and-read-rackspace-email-headers/
-audit_date: '2017-12-04'
+audit_date: '2018-06-01'
 title: View and read Rackspace Email headers
 type: article
 created_date: '2017-09-26'
 created_by: William Loy
-last_modified_date: '2017-10-20'
+last_modified_date: '2018-06-01'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -24,7 +24,7 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 ### View headers in Rackspace Email
 
-1. Log in to your mailbox at [apps.rackspace.com](apps.rackspace.com).
+1. Log in to your mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
 
 2. Select the message for which you want to view the headers.
 
