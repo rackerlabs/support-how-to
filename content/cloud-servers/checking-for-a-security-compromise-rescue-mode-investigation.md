@@ -5,13 +5,13 @@ title: 'Check for a security compromise: Rescue mode investigation'
 type: article
 created_date: '2013-04-26'
 created_by: Rose Contreras
-last_modified_date: '2016-06-10'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2018-06-26'
+last_modified_by: Catherine Richardson
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the article, [Checking for a security compromise: Back doors and intruders](/how-to/checking-for-a-security-compromise-backdoors-and-intruders),
+In the article, [Checking for a security compromise: Back doors and intruders](/how-to/check-for-a-security-compromise-back-doors-and-intruders),
 you learned some basic techniques for collecting the information needed to intruders who have compromised your server. This article describes how to use the [Cloud Control Panel's](https://mycloud.rackspace.com/) *Rescue Mode* to take a closer look at your system. You can use rescue mode to better understand how your server was compromised and to identify non-compromised files before backing up the data.
 
 ### Activate rescue mode
@@ -143,11 +143,11 @@ You can also look at log files in the **/var/log** directory. For example, **aut
 
 ### Summary
 
-In [Checking for a security compromise: Backdoors and Intruders](/how-to/checking-for-a-security-compromise-backdoors-and-intruders), you learned some techniques to use to discover back doors and track intruders on your cloud server. This will help you to avoid the situation or
+In [Checking for a security compromise: Backdoors and Intruders](/how-to/check-for-a-security-compromise-back-doors-and-intruders), you learned some techniques to use to discover back doors and track intruders on your cloud server. This will help you to avoid the situation or
 mistake that led to the compromise, minimizing the chance of future compromises. In this article, you learned how to investigate your cloud server in rescue mode.
 
 Whether it is caused by viruses, file corruption, machine failure, or
 other unforeseen mishaps, the possibility of data loss is real. To avoid the disruption such a loss can cause, back up your files regularly. Following are some options to help you secure your files:
 
 -   [Rackspace Cloud Backup](http://www.rackspace.com/cloud/backup/) is a good choice for Cloud Servers customers. It is fully integrated with Cloud Servers, and is a file-based backup alternative to whole image server backup.
--   For those who prefer to do it themselves, see [Back up your files with rsync](/how-to/backing-up-your-files-with-rsync).
+-   For those who prefer to do it themselves, see [Back up your files with rsync](/how-to/backing-up-your-files-with-rsync/).
