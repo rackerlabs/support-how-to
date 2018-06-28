@@ -1,6 +1,6 @@
 ---
 permalink: differences-between-rackspace-cdn-and-rackspace-cloud-files/
-audit_date: '2018-06-26
+audit_date: '2018-06-26'
 title: Differences between Rackspace CDN and Rackspace Cloud Files
 type: article
 created_date: '2015-05-08'
