@@ -1,12 +1,12 @@
 ---
 permalink: hidden-base-images/
-audit_date: '2017-12-19'
+audit_date: '2018-07-25'
 title: Hidden base images
 type: article
 created_date: '2013-11-04'
 created_by: Amanda Clark
-last_modified_date: '2017-05-18'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2018-07-25'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -82,6 +82,7 @@ Ubuntu 14.10 (Utopic Unicorn) (PVHVM) | 668b0764-4936-4eec-a2f2-3b5bb2c40b26 | 2
 Ubuntu 15.04 (Vivid Vervet) (PVHVM) | 658a7d3b-4c58-4e29-b339-2509cca0de10 | 2015-10-23 | No longer supported by Canonical.
 Ubuntu 15.10 (Willy Werewolf) (PVHVM) | 59a3fadd-93e7-4674-886a-64883e17115f | 2016-12-07 | No longer supported by Canonical.
 Ubuntu 16.10 (Yakety Yak) (PVHVM) | 321116e4-5c76-42ce-8ddf-5cb4dcbf7cfe | 2017-07-27 | No longer supported by Canonical.
+Ubuntu 17.10 (Artful Aardvark) (PVHVM) | a28b4f0c-64b8-4f5e-a87b-3b0ab17a9c6f | 2018-07-19 | No longer supported by Canonical.
 
 ### Windows Server images
 
