@@ -1,7 +1,7 @@
 ---
 permalink: migrate-to-rackspace-from-another-hosting-provider/
 audit_date:
-title: Migrating to Rackspace from another hosting provider
+title: Migrate to Rackspace from another hosting provider
 type: article
 created_date: '2016-01-21'
 created_by: Nate Archer
