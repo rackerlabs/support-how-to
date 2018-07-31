@@ -1,7 +1,7 @@
 ---
 permalink: add-an-access-list-rule-with-firewall-manager-v2/
 audit_date: '2018-07-18'
-title: Add an access-list rule with Firwall Manager v2
+title: Add an access-list rule with Firewall Manager v2
 type: article
 created_date: '2017-03-24'
 created_by: Trevor Becker
