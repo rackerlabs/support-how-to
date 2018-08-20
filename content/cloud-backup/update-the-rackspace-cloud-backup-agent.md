@@ -52,7 +52,7 @@ up-to-date on the system.
 
         apt-get install --reinstall --assume-yes driveclient
 
-### Update the agent for yum-based systems, including CentOS, Fedora, and Red Hat.
+### Update the agent for yum-based systems, including CentOS and Red Hat.
 
 You might want to review
 [Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
@@ -68,7 +68,7 @@ Cloud Backup updater service, which keeps the agent up-to-date on the system.
 
         yum upgrade -y driveclient
 
-**Note:** Fedora 22 and later use a new package manager called DNF
+**Note:** Fedora 22 and later use a new package manager called DNF. This is not supported.
 (Dandified Yum).
 
 ### Update the agent for Arch, Gentoo, and SUSE systems
