@@ -121,7 +121,7 @@ answer `yes`.
 
         sudo service driveclient start
 
-### Install the agent on RPM-based systems, such as CentOS &reg;, Fedora &reg;, and Red Hat &reg;
+### Install the agent on RPM-based systems, such as CentOS &reg; and Red Hat &reg;
 
 1.  Use SSH to log in to your server, and run any commands as a user with sudo
 or superuser privileges.
