@@ -5,8 +5,8 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2018-03-01'
-last_modified_by: Michael Sessions
+last_modified_date: '2018-08-21'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -53,31 +53,27 @@ or other Linux distributions.
 1. Use SSH to log in to your server, and run any commands as a user with sudo
 or superuser privileges.
 
-2. Download the **Keyring** package.
+2. Download the **Keyring** package and install it.
 
-       curl -O http://agentrepo.drivesrvr.com/debian/pool/main/c/cloudbackup-keyring/cloudbackup-keyring_2018.05.21-1_all.deb
+       curl --silent --show-error https://agentrepo.drivesrvr.com/debian/cloudbackup-keyring.gpg | sudo apt-key add -
 
-3. Install the **Keyring** package manually.
+3. Add `driveclient` to the apt sources list.
 
-       sudo dpkg -i cloudbackup-keyring_2018.05.21-1_all.deb
+       echo "deb [arch=amd64] https://agentrepo.drivesrvr.com/debian serveragent main" | sudo tee /etc/apt/sources.list.d/driveclient.list
 
-4. Add `driveclient` to the apt sources list.
-
-       echo "deb [arch=amd64] http://agentrepo.drivesrvr.com/debian serveragent main" | sudo tee /etc/apt/sources.list.d/driveclient.list
-
-5. Update the `apt` repository information. Install with the `-f` option. This
+4. Update the `apt` repository information. Install with the `-f` option. This
 option fixes any outstanding package dependency issues on the system.
 
        sudo apt-get -y update
        sudo apt-get -y install -f
 
-6. Install the updater and all dependencies.
+5. Install the updater and all dependencies.
 
        sudo apt-get install -q -y cloudbackup-updater
 
     The updater installs the agent and sets the agent to start at boot.
 
-7. Check the installation.
+6. Check the installation.
 
    The updater might take a few minutes to download and install the agent. To
    check the status of the agent installation, run the following command:
@@ -89,7 +85,7 @@ option fixes any outstanding package dependency issues on the system.
 
    If you get a `command not found` error, run `sudo apt-get install -f` again.
 
-8. Use the following command to run and configure the agent. Be prepared to
+7. Use the following command to run and configure the agent. Be prepared to
 provide your Rackspace Cloud account username and apiKey in this command and
 add other options as needed.
 
@@ -114,10 +110,10 @@ add other options as needed.
     Servers **Details** page in the Cloud Control Panel. However, items do appear
     as they should on the **Backups** tab in the Cloud Control Panel.
 
-9. When prompted to confirm that you want to overwrite your configuration file,
+8. When prompted to confirm that you want to overwrite your configuration file,
 answer `yes`.
 
-10. Start the agent.
+9. Start the agent.
 
         sudo service driveclient start
 
@@ -128,7 +124,7 @@ or superuser privileges.
 
 2.  Download and install the updater.
 
-        sudo rpm -Uvh 'http://agentrepo.drivesrvr.com/redhat/cloudbackup-updater-latest.rpm'
+        sudo rpm -Uvh 'https://agentrepo.drivesrvr.com/redhat/cloudbackup-updater-latest.rpm'
 
     The updater installs the agent and sets it to start at boot.
 
@@ -183,7 +179,7 @@ or superuser privileges.
 
 2.  Download the tarball.
 
-        wget http://agentrepo.drivesrvr.com/tar/driveclient-latest.tar.bz2
+        wget https://agentrepo.drivesrvr.com/tar/driveclient-latest.tar.bz2
 
 3.  Extract the installation files.
 
