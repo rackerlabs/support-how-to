@@ -5,8 +5,8 @@ title: Manually update the Rackspace Cloud Backup agent
 type: article
 created_date: '2013-01-08'
 created_by: Rackspace Support
-last_modified_date: '2016-12-16'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2018-08-21'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
