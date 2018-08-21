@@ -5,8 +5,8 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2018-03-01'
-last_modified_by: Michael Sessions
+last_modified_date: '2018-08-21'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
