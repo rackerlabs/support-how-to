@@ -5,8 +5,8 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2017-06-02'
-last_modified_by: Alex Juarez
+last_modified_date: '2018-08-21'
+last_modified_by: Chris Moyer
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -78,7 +78,7 @@ The following mail servers are supported in the indicated areas:
 | Postfix | Yes | Yes | Yes | Yes |
 | Dovecot | Yes | Yes | Yes | Yes |
 
-**Note**: By their nature, cloud servers have ephemeral IP addresses which most email providers blacklist. Emails sent from a cloud server must go through a third-party application such as [Mailgun](https://www.mailgun.com/). Rackspace does not support mail hosting services on cloud servers and recomends [Rackspace Email Hosting](https://www.rackspace.com/en-us/email-hosting) for cloud environments.
+**Note**: By their nature, cloud servers have ephemeral IP addresses, which most email providers blacklist. Emails sent from a cloud server must go through a third-party application such as [Mailgun](https://www.mailgun.com/). Rackspace recommends [Rackspace Email Hosting](https://www.rackspace.com/en-us/email-hosting) for cloud environments.
 
 ### Application servers
 
