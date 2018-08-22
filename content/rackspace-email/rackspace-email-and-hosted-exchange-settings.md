@@ -5,7 +5,7 @@ title: Rackspace Email and Hosted Exchange settings
 type: article
 created_date: '2014-08-27'
 created_by: Cody Jobson
-last_modified_date: '2016-07-18'
+last_modified_date: '2018-08-22'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
