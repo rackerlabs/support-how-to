@@ -34,7 +34,7 @@ set up the connection as IMAP or POP, you can find information for specific clie
 To learn more about the differences between IMAP and POP, see [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison). We
 recommend using IMAP for the incoming mail connection.
 
-#### Secure settings (recommended)
+#### Server settings 
 
 The following server settings provide a secure (SSL) connection:
 
