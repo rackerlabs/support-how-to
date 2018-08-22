@@ -34,7 +34,7 @@ set up the connection as IMAP or POP, you can find information for specific clie
 To learn more about the differences between IMAP and POP, see [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison). We
 recommend using IMAP for the incoming mail connection.
 
-#### Secure settings (recommended)
+#### Server settings 
 
 The following server settings provide a secure (SSL) connection:
 
@@ -43,13 +43,3 @@ The following server settings provide a secure (SSL) connection:
 | POP3 (incoming) | secure.emailsrvr.com | 995 |
 | IMAP (incoming) | secure.emailsrvr.com | 993 |
 | SMTP (outgoing) | secure.emailsrvr.com | 465 |
-
-#### Alternative settings
-
-**Warning:** The following alternative server settings do *not* use SSL and therefore do not make a secure connection to the mail server.
-
-| Protocol | Server name | Port number |
-| --- | --- | --- |
-| POP3 (incoming) | pop.emailsrvr.com | 110 |
-| IMAP (incoming) | imap.emailsrvr.com | 143 |
-| SMTP (outgoing) | smtp.emailsrvr.com | 25, 587, 8025, or 2525 |
