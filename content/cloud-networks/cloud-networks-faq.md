@@ -173,32 +173,32 @@ Outbound security group rules can only be created by using the API. You can use 
 following cURL command but be sure to substitute the variables with
 the appropriate values for your account:
 
-  curl -XPOST https://<region>.networks.api.rackspacecloud.com/v2.0/security-group-rules \
-      -H "Content-type: application/json" \
-      -H "X-Auth-Token: <yourAuthToken>" \
-      -H "User-Agent: python-novaclient" \
-      -H "Accept: application/json" \
-      -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' \
+  curl -XPOST https://<region>.networks.api.rackspacecloud.com/v2.0/security-group-rules <br>
+      -H "Content-type: application/json" <br>
+      -H "X-Auth-Token: <yourAuthToken>" <br>
+      -H "User-Agent: python-novaclient" <br>
+      -H "Accept: application/json"
+      -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' 
       | python -m json.tool
     
-Following are describtions of the variables in the command:   
+Following are descriptions of the variables in the command:   
 
 - `region` is the region you are working in.
 
-- `yourAuthToken` is the authentication token for your user account ( more on that here https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work  ).
+- `yourAuthToken` is the authentication token for your user account (more on that here https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work).
 
-- `portNumber` is the port number you want to add to the rule (ie 22, 80, 443).
+- `portNumber` is the port number that you want to add to the rule (such as `22`, `80`, or `443`).
 
 - `IPv4` or `IPv6` is which ever ip version you want to use.
 
-- `desiredProtocol` is the protocol you want to use (for exampe, tcp, icmp, all).
+- `desiredProtocol` is the protocol you want to use (for example, `tcp`, `icmp`, or `all`).
 
-- `yourSGID` is the Security Group UUID which you can get from the Security Group Details Page next to "Group ID".
+- `yourSGID` is the Security Group UUID that you can get from the Security Group Details Page next to "Group ID".
 
-- `securityGroupRuleID` is used later to explain how to delete a rule with curl
+- `securityGroupRuleID` is used later to explain how to delete a rule with cURL.
 
 After you run the cURL command, you get output that provides an outline of the
-rule that you have just added in a json block. Take note of the `id` field in the
+rule that you have just added in a JSON block. Take note of the `id` field in the
 output because this is the value that you use for `securityGroupRuleID` to delete
 the rule.
 
