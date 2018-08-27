@@ -169,7 +169,7 @@ A security group can't be added as a child of another security group. You also
 can't edit a security group rule - you must add a new security group to replace
 the old one.
 
-Outbound security group rules can only be created using the api. See the section
+Outbound security group rules can only be created using the API. See the section
 titled "Create Outbound Security Group Rule" in the community post below:
 
 [Managing Security Groups and Rules] (https://community.rackspace.com/general/f/general-discussion-forum/ 
