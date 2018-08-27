@@ -177,7 +177,7 @@ the appropriate values for your account:
       -H "Content-type: application/json" <br>
       -H "X-Auth-Token: <yourAuthToken>" <br>
       -H "User-Agent: python-novaclient" <br>
-      -H "Accept: application/json"
+      -H "Accept: application/json" <br>
       -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' 
       | python -m json.tool
     
