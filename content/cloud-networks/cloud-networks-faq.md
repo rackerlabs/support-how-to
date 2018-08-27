@@ -169,10 +169,38 @@ A security group can't be added as a child of another security group. You also
 can't edit a security group rule - you must add a new security group to replace
 the old one.
 
-Outbound security group rules can only be created using the API. See the section
-titled "Create Outbound Security Group Rule" in the community post at
-[Managing Security Groups and Rules](https://community.rackspace.com/general/f/general-discussion-forum/ 
-8568/managing-security-groups-and-rules).
+Outbound security group rules can only be created by using the API. You can use the 
+following cURL command but be sure to substitute the variables with
+the appropriate values for your account:
+
+   curl -XPOST https://<region>.networks.api.rackspacecloud.com/v2.0/security-group-rules \
+       -H "Content-type: application/json" \
+       -H "X-Auth-Token: <yourAuthToken>" \
+      -H "User-Agent: python-novaclient" \
+       -H "Accept: application/json" \
+       -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' \
+       | python -m json.tool
+    
+The variable descriptions are     
+
+- `region` is the region you are working in.
+
+- `yourAuthToken` is the authentication token for your user account ( more on that here https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work  ).
+
+- `portNumber` is the port number you want to add to the rule (ie 22, 80, 443).
+
+- `IPv4` or `IPv6` is which ever ip version you want to use.
+
+- `desiredProtocol` is the protocol you want to use (for exampe, tcp, icmp, all).
+
+- `yourSGID` is the Security Group UUID which you can get from the Security Group Details Page next to "Group ID".
+
+- `securityGroupRuleID` is used later to explain how to delete a rule with curl
+
+After you run the cURL command, you get output that provides an outline of the
+rule you have just added in a json block. Take note of the `id` field in the
+output because this is the value that you use for `securityGroupRuleID` to delete
+the rule.
 
 #### Will security groups be supported via the neutron client?
 
