@@ -173,15 +173,15 @@ Outbound security group rules can only be created by using the API. You can use 
 following cURL command but be sure to substitute the variables with
 the appropriate values for your account:
 
-   curl -XPOST https://<region>.networks.api.rackspacecloud.com/v2.0/security-group-rules \
-       -H "Content-type: application/json" \
-       -H "X-Auth-Token: <yourAuthToken>" \
+  curl -XPOST https://<region>.networks.api.rackspacecloud.com/v2.0/security-group-rules \
+      -H "Content-type: application/json" \
+      -H "X-Auth-Token: <yourAuthToken>" \
       -H "User-Agent: python-novaclient" \
-       -H "Accept: application/json" \
-       -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' \
-       | python -m json.tool
+      -H "Accept: application/json" \
+      -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' \
+      | python -m json.tool
     
-The variable descriptions are     
+Following are describtions of the variables in the command:   
 
 - `region` is the region you are working in.
 
@@ -198,7 +198,7 @@ The variable descriptions are
 - `securityGroupRuleID` is used later to explain how to delete a rule with curl
 
 After you run the cURL command, you get output that provides an outline of the
-rule you have just added in a json block. Take note of the `id` field in the
+rule that you have just added in a json block. Take note of the `id` field in the
 output because this is the value that you use for `securityGroupRuleID` to delete
 the rule.
 
