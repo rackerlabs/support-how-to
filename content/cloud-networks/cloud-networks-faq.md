@@ -169,6 +169,12 @@ A security group can't be added as a child of another security group. You also
 can't edit a security group rule - you must add a new security group to replace
 the old one.
 
+Outbound security group rules can only be created using the api. See the section
+titled "Create Outbound Security Group Rule" in the community post below:
+
+[Managing Security Groups and Rules] (https://community.rackspace.com/general/f/general-discussion-forum/ 
+8568/managing-security-groups-and-rules)
+
 #### Will security groups be supported via the neutron client?
 
 Yes. Users can provision security groups via the neutron client.
