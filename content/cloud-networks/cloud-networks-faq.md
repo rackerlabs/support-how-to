@@ -170,10 +170,9 @@ can't edit a security group rule - you must add a new security group to replace
 the old one.
 
 Outbound security group rules can only be created using the API. See the section
-titled "Create Outbound Security Group Rule" in the community post below:
-
+titled "Create Outbound Security Group Rule" in the community post at
 [Managing Security Groups and Rules](https://community.rackspace.com/general/f/general-discussion-forum/ 
-8568/managing-security-groups-and-rules)
+8568/managing-security-groups-and-rules).
 
 #### Will security groups be supported via the neutron client?
 
