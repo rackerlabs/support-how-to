@@ -172,7 +172,7 @@ the old one.
 Outbound security group rules can only be created using the API. See the section
 titled "Create Outbound Security Group Rule" in the community post below:
 
-[Managing Security Groups and Rules] (https://community.rackspace.com/general/f/general-discussion-forum/ 
+[Managing Security Groups and Rules](https://community.rackspace.com/general/f/general-discussion-forum/ 
 8568/managing-security-groups-and-rules)
 
 #### Will security groups be supported via the neutron client?
