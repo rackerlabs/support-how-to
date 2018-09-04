@@ -14,7 +14,7 @@ product_url: cloud-servers
 When you are finished using your server and are ready to delete it, you can
 do this through the Cloud Control Panel. If you have already saved a
 backup image of your server, you can use that image to create a new
-server at a future time. That server is be an exact clone of your current server
+server at a future time. That server is an exact clone of your current server
 at the time the backup image is saved, but it has a different IP
 address.
 
