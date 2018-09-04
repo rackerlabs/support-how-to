@@ -30,7 +30,7 @@ Use the following steps to delete a server:
 
 2. In the top navigation panel, click **Servers > Cloud Servers**.
 
-3. Click the gear icon next to the server which you want to delete and select **Delete Server**.
+3. Click the gear icon next to the server that you want to delete and select **Delete Server**.
 
 Before the server and its data are deleted permanently, you are asked for confirmation.
 
