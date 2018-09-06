@@ -11,7 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Creating an image of a server is possible on General Purpose and Standard server flavors.  For boot from volume flavors, the block storage volume would need to be backed up via snapshots or cloud backup** 
+**Note: Creating an image of a server is possible on General Purpose and Standard server flavors. For boot-from-volume flavors, 
+the block storage volume needs to be backed up by using snapshots or Cloud Backup.** 
 
 This article guides you through the process of creating an image backup (cloning).
 
