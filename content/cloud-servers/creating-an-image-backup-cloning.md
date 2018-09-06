@@ -5,11 +5,13 @@ title: Create an image backup (cloning)
 type: article
 created_date: '2013-02-12'
 created_by: Renee Rendon
-last_modified_date: '2016-06-21'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2018-09-05'
+last_modified_by: Shaun Crumpler
 product: Cloud Servers
 product_url: cloud-servers
 ---
+
+**Creating an image of a server is possible on General Purpose and Standard server flavors.  For boot from volume flavors, the block storage volume would need to be backed up via snapshots or cloud backup** 
 
 This article guides you through the process of creating an image backup (cloning).
 
