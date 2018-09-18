@@ -52,14 +52,16 @@ KMS.
 
     Look for the **Product Key Channel** setting. **Volume:GVLK** means the device is set to **KMS activation**,
     **Volume:MAK** means the device is set to **MAK** activation.
-    
+
     The following images show sample outputs:
-    
+
     **KMS Activation Output**:
-    <!--insert KMS image here-->
+
+     <img src="{% asset_path cloud-servers/common-windows-issues-key-management-server-activation/kms.jpg %}" />
 
     **MAK Activation Output**:
-    <!--insert MAK image here-->
+
+     <img src="{% asset_path cloud-servers/common-windows-issues-key-management-server-activation/mak.png %}" />
 
 6. If your device is set to **MAK activation** then you should set the device back to **KMS activation**.
     First find and take note of the appropriate KMS client setup key from Microsoft: [KMS Client Setup Keys](https://technet.microsoft.com/library/jj612867.aspx)
@@ -133,3 +135,4 @@ KMS.
 12. You must open UDP port 123 to allow the sync.
 
 13. Make sure your firewall allows outbound connections to TCP port 1688.
+
