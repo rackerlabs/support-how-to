@@ -1,11 +1,11 @@
 ---
 permalink: checking-listening-ports-with-netstat/
-audit_date: '2018-05-08'
+audit_date: '2018-09-19'
 title: Check listening ports with netstat
 type: article
 created_date: '2012-06-21'
 created_by: Rackspace Support
-last_modified_date: '2018-05-08'
+last_modified_date: '2018-09-19'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -73,7 +73,11 @@ longer listens on the port. When `netstat` shows the port is free, enable the co
 
 If you make any changes because the incorrect service is listening, run the `netstat` command again. If `netstat` doesn't show the program listening on the correct port, you need to address its configuration before you go any further.
 
-If you make changes at this point, be sure to test your setup to verify that you 
+If you make changes at this point, be sure to test your setup to verify that you
 have resolved your issue.
 
 If using the `netstat` did not resolve your port issues, continue to test connections to the service by using [the netcat command.](/how-to/testing-network-services-with-netcat)
+
+**Was this helpful?** <br/>
+[**Yes**](https://rackspaceinc.co1.qualtrics.com/jfe/form/SV_9ppN6Ts7BYDZLKd) &nbsp; | &nbsp; [**No**](https://rackspaceinc.co1.qualtrics.com/jfe/preview/SV_5uP0tJVpGUw1iLj?)
+
