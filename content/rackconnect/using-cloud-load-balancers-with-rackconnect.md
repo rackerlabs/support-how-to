@@ -6,7 +6,7 @@ type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
 last_modified_date: '2016-04-24'
-last_modified_by: Blake Moore
+last_modified_by: Rajesh Pandian Rajasekara
 product: RackConnect
 product_url: rackconnect
 ---
@@ -49,6 +49,7 @@ RackConnect.
             10.183.248.0/24
             10.187.186.0/24
             10.183.250.0/24
+            10.187.187.0/26
 
     -   IAD region:
 
