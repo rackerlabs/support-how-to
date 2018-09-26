@@ -5,7 +5,7 @@ title: Identifying suspicious email
 type: article
 created_date: '2018-09-24'
 created_by: Ben Smith
-last_modified_date: '2018-09-24'
+last_modified_date: '2018-09-26'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
