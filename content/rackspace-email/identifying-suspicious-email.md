@@ -27,7 +27,7 @@ Messages that are deemed suspicious show a yellow warning banner in Webmail’s 
 
 <img src="{% asset_path rackspace-email/identifying-suspicious-email/this-is-suspicious.png %}" />
 
-Webmail clearly shows the display name and email address of the sender. Comparing the display name to the email address is a simple way to check for display name spoofing. Display name spoofing is when bad guys place a name that you recognize in the **From** address, such as the name of your manager, but the associated email address is not for that person. For example, Webmail shows you From: John Doe \<sally@notmycompanydomain.com\>  assuming John Doe is your manager’s name, \<sally@notmycompanydomain.com\> is definitely not your manager’s email address.
+Webmail clearly shows the display name and email address of the sender. Comparing the display name to the email address is a simple way to check for display name spoofing. Display name spoofing is when bad guys place a name that you recognize in the **From** address, such as the name of your manager, but the associated email address is not for that person. For example, Webmail shows you \"From: John Doe \<sally@notmycompanydomain.com\>\"  assuming John Doe is your manager’s name, \<sally@notmycompanydomain.com\> is definitely not your manager’s email address.
 
 <img src="{% asset_path rackspace-email/identifying-suspicious-email/sender-discrepancies.png %}" />
 
