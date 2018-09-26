@@ -21,7 +21,7 @@ This article describes how Rackspace Email Webmail identifies suspicious emails.
 
 #### Identify suspicious email
 
-Suspicious email is a gray area between legitimate email and spam. Webmail employs Domain-based Message Authentication, Reporting, and Conformance (DMARC) based indicators to determine if an email is suspicious. There are several other items you can see that indicate if an email is legitimate. These indicators are simple but extremely valuable in determining the validity of a message.
+Suspicious email is a gray area between legitimate email and spam. Webmail employs Domain-based Message Authentication, Reporting, and Conformance (DMARC) indicators to determine if an email is suspicious. There are several other items you can see that indicate if an email is legitimate. These indicators are simple but are extremely valuable in determining the validity of a message.
 
 Messages that are deemed suspicious show a yellow warning banner in Webmail’s preview pane. The intent of this banner is to encourage you to confirm the legitimacy of the sender and the contents of the message before clicking on any links, downloading any attachments, or replying.
 
@@ -35,8 +35,8 @@ Webmail shows you if the domain of the sender does not match the domain used to 
 
 <img src="{% asset_path rackspace-email/identifying-suspicious-email/sender-discrepancies-2.png %}" />
 
-To report suspicious email as spam, you can drag the message to the Spam folder, or you can click ‘Report Spam’ in the “More” menu.
+To report suspicious email as spam, you can drag the message to the Spam folder, or you can click **Report Spam** in the **More** menu.
 
 <img src="{% asset_path rackspace-email/identifying-suspicious-email/report-spam.png %}" />
 
-Remember, it is always a best to verify any request for personal information or money that received via email. For more information on how to recognize phishing emails, please visit our blog here: [https://blog.rackspace.com/email-phishing-rise-mailbox-safe](https://blog.rackspace.com/email-phishing-rise-mailbox-safe).
+Remember, it is always a best to verify any request for personal information or money that is received via email. For more information about how to recognize phishing emails, visit our blog at [https://blog.rackspace.com/email-phishing-rise-mailbox-safe](https://blog.rackspace.com/email-phishing-rise-mailbox-safe).
