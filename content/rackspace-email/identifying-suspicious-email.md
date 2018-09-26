@@ -21,13 +21,13 @@ This article describes how Rackspace Email Webmail identifies suspicious emails.
 
 #### Identify suspicious email
 
-Suspicious email is a gray area between legitimate email and spam. Webmail employs Domain-based Message Authentication, Reporting, and Conformance (DMARC)-based indicators to determine if an email is suspicious. There are several other items you can see that indicate if an email is legitimate. These indicators are simple but extremely valuable in determining the validity of a message.
+Suspicious email is a gray area between legitimate email and spam. Webmail employs Domain-based Message Authentication, Reporting, and Conformance (DMARC) based indicators to determine if an email is suspicious. There are several other items you can see that indicate if an email is legitimate. These indicators are simple but extremely valuable in determining the validity of a message.
 
 Messages that are deemed suspicious show a yellow warning banner in Webmail’s preview pane. The intent of this banner is to encourage you to confirm the legitimacy of the sender and the contents of the message before clicking on any links, downloading any attachments, or replying.
 
 <img src="{% asset_path rackspace-email/identifying-suspicious-email/this-is-suspicious.png %}" />
 
-Webmail clearly shows the display name and email address of the sender. Comparing the display name to the email address is a simple way to check for display name spoofing. Display name spoofing is when bad guys place a name that you recognize in the **From** address, such as the name of your manager, but the associated email address is not for that person. For example, Webmail shows you \"From: John Doe \<sally@notmycompanydomain.com\>\"  assuming John Doe is your manager’s name, \<sally@notmycompanydomain.com\> is definitely not your manager’s email address.
+Webmail clearly shows the display name and email address of the sender. Comparing the display name to the email address is a simple way to check for display name spoofing. Display name spoofing is when bad guys place a name that you recognize in the **From** address, such as the name of your manager, but the associated email address is not for that person. For example, Webmail shows you \"From: John Doe \<sally@notmycompanydomain.com\>\". Assuming John Doe is your manager’s name, \<sally@notmycompanydomain.com\> is definitely not your manager’s email address.
 
 <img src="{% asset_path rackspace-email/identifying-suspicious-email/sender-discrepancies.png %}" />
 
