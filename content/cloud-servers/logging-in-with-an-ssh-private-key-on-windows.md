@@ -1,7 +1,7 @@
 ---
 permalink: logging-in-with-an-ssh-private-key-on-windows/
 audit_date:
-title: Log in with an SSH Private Key on Windows
+title: Log in with an SSH private key on Windows
 type: article
 created_date: '2013-09-25'
 created_by: Brint Ohearn
@@ -49,7 +49,7 @@ your key file.
 passphrase** fields. You will be prompted for that passphrase whenever
 you log in to a server with this key.
 
-We strongly suggest keeping the default settings as they are. To finish, click the "Save private key" button, and then enter a file name in the "Save private key as:" dialog box to save it for use with PuTTY.
+We strongly suggest keeping the default settings as they are. To finish, click the **Save private key** button, and then enter a file name in the **Save private key as:** dialog box to save it for use with PuTTY.
 
 #### Log in to PuTTY with the private key
 
