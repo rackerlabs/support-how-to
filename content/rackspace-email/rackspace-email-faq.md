@@ -39,7 +39,7 @@ You can view and manage your email at [https://apps.rackspace.com](https://apps.
 
 #### How do I change my password?
 
-A Rackspace Email user can do this through [Webmail](https://apps.rackspace.com/). For more information, see [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/).
+A Rackspace Email user can change their password through [Webmail](https://apps.rackspace.com/). For more information, see [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/).
 
 #### What's the difference between IMAP and POP?
 
