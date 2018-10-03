@@ -5,8 +5,8 @@ title: Install an SSL certificate on Apache
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2018-07-31'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2018-10-02'
+last_modified_by: Shaun Crumpler
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -17,7 +17,7 @@ This article describes how to install a Secure Socket Layer (SSL) certificate on
 
 Before installing your certificate, make sure you have the following items:
 
-- A certificate signing request (CSR) should be installed on the server. See [Generate a CSR](/how-to/generate-a-csr-with-openssl/) for instructions.
+- A certificate signing request (CSR). See [Generate a CSR with OpenSSL](/how-to/generate-a-csr-with-openssl/) for instructions. You can also use a [CSR generator](https://csrgenerator.com/) and enter the necessary information for the CSR request, or the Rackspace CSR generator which you can access on the **Server Details** page for the server that you want to install an SSL certificate in the Cloud Control Panel.
 - Apache and ``mod_ssl`` should be installed.
 - You also need to have an Internet Protocol (IP) address for your SSL cert and
 a unique IP address for each SSL that you want to host. Certificate authorities
