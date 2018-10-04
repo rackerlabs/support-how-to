@@ -74,3 +74,7 @@ as compared to GoGrid.
 No, Rackspace will not migrate your environment for you. However, we
 have multiple migration options that we are ready to discuss with
 you. Contact your GoGrid support team to set up a discussion.
+
+#### Are there any self-service options for migration?
+
+GoGrid Linux cloud servers may be able to [migrate to Rackspace Openstack Public Cloud using InstanceSync](https://community.rackspace.com/products/f/dedicated-hybrid-hosting-forum/8987/gogrid-cloud-to-rackspace-public-cloud-how-to-migrate-using-instancesync). This method is offered as an unsupported courtesy and is not guaranteed to work for your GoGrid Linux servers.
