@@ -16,7 +16,7 @@ Rackspace will discontinue support of GoGrid service effective May 31st, 2019.
 If you are a GoGrid Cloud customer, we recommend migrating to one of
 Rackspace’s managed solutions. Rackspace has an extensive portfolio of cloud
 and single tenant solutions, including our Managed Public Clouds across
-[Amazon Web Services (AWS)](https://www.rackspace.com/managed-aws), [Microsoft&reg; Azure&reg;](https://www.rackspace.com/microsoft/managed-azure-cloud), [Google Cloud Platform&tm;](https://www.rackspace.com/managed-google-cloud), and
+[Amazon Web Services (AWS)](https://www.rackspace.com/managed-aws), [Microsoft&reg; Azure&reg;](https://www.rackspace.com/microsoft/managed-azure-cloud), [Google Cloud Platform™](https://www.rackspace.com/managed-google-cloud), and
 [OpenStack&reg;](https://www.rackspace.com/openstack/public), as well as extensive
 support services encompassing migration, architecture design, and ongoing cloud
 management and optimization.
