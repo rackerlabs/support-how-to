@@ -5,18 +5,11 @@ title: Rackspace Cloud Essentials - Rescue Mode on Linux Cloud Servers
 type: article
 created_date: '2013-02-11'
 created_by: Renee Rendon
-last_modified_date: '2018-10-25'
-last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2018-10-26'
+last_modified_by: Kate Dougherty
 ---
 
-If your Linux system has become non-bootable or is suffering from critical system
-errors, you can use rescue mode to recover your system data. These problems may
-be caused by file system corruption, boot file corruption, or other configuration
-errors. Normally, if your system encounters any problem during the boot process,
-you would boot in to a maintenance-mode environment known as **Single User Mode**
-that would enable you to log in with your root password and check for any errors.
+If your Linux system has become non-bootable or is suffering from critical system errors, you can use rescue mode to recover your system data. These problems might be caused by file system corruption, boot file corruption, or other configuration errors. Normally, if your system encounters any problem during the boot process, you would boot in to a maintenance-mode environment known as **Single User Mode** that would enable you to log in with your root password and check for any errors.
 
 Using Single User Mode can cause the following issues:
 
@@ -69,11 +62,7 @@ system. To do that, look at your partitions to determine your file system's devi
 
         fdisk -l
 
-    You should get the following output:
-
-    <img src="{% asset_path cloud-servers/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/fdisknew.png %}" alt="" />
-
-    Note the different disk names. The disk entry displays the device and size
+    The output shows different disk names. The disk entry displays the device and size
     of the disk. For example: `Disk /dev/xvdb1: 20 GiB`
 
     The first block, **/dev/xvdb1**, with size 20 GiB, is the rescue mode file system.
