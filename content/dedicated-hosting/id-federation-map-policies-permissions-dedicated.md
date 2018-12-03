@@ -5,7 +5,7 @@ title: 'Identity federation for Dedicated Hosting: Map policies and permissions'
 type: article
 created_date: '2018-11-14'
 created_by: Kate Dougherty
-last_modified_date: '2018-11-16'
+last_modified_date: '2018-12-03'
 last_modified_by: Kate Dougherty
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -148,8 +148,8 @@ Attribute Mapping Policy to Rackspace.
 
 #### Retrieve your default Attribute Mapping Policy
 
-You can retrieve your default Attribute Mapping Policy from the MyRackspace
-portal by using the following steps:
+You can retrieve your default Attribute Mapping Policy from the
+MyRackspace portal by using the following steps:
 
 1. Log in to the [MyRackspace portal](https://login.rackspace.com).
 2. In the subnavigation bar, select **Account > User List**.
@@ -183,7 +183,7 @@ Your Attribute Mapping Policy must contain the following information:
   </tr>
   <tr>
     <td>domain</td>
-    <td>The Identity or Account Domain that the Identity Provider is authorized to log users in to.</td>
+    <td width="40%">The Identity or Account Domain that the Identity Provider is authorized to log users in to.</td>
     <td>Alphanumeric string</td>
     <td>Must be set to your Identity Domain. <br />The domain is listed on the Identity Provider details page for your Identity Provider.</td>
   </tr>
@@ -191,13 +191,14 @@ Your Attribute Mapping Policy must contain the following information:
     <td>name</td>
     <td>The username of your user as provided by your identity system.</td>
     <td>Alphanumeric string</td>
-    <td>SAML attributes:<br />NameID (persistent type preferred)<br /><code>urn:oid:1.3.6.1.4.1.5923.1.1.1.6http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</code></td>
+    <td>SAML attributes:<br />NameID (persistent type preferred)<br /><code>urn:oid:1.3.6.1.4.1.5923.1.1.1.6<br />
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</code></td>
   </tr>
   <tr>
     <td>email</td>
     <td>The email address of your user as provided by your identity system.</td>
     <td>RFC-valid email address</td>
-    <td>SAML Attributes:<br /> email<br /> http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress <br />urn:oid:1.2.840.113549.1.9.1.10.9.2342.19200300100.1.3</td>
+    <td>SAML Attributes:<br /> email<br /> <code>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress <br />urn:oid:1.2.840.113549.1.9.1.10.9.2342.19200300100.1.3</code></td>
   </tr>
   <tr>
     <td>roles</td>
@@ -233,7 +234,7 @@ guide](https://developer.rackspace.com/docs/rackspace-federation/attribmap-refer
   </tr>
   <tr>
     <td>Default</td>
-    <td>Retrieves the value by looking for common locations or labels for the field. Only an attribute with the same name as the field is matched. For example, name: <code>"{D}"</code> matches the attribute with the name <code>name</code>.</td>
+    <td width="40%">Retrieves the value by looking for common locations or labels for the field. Only an attribute with the same name as the field is matched. For example, name: <code>"{D}"</code> matches the attribute with the name <code>name</code>.</td>
     <td><code>name: "{D}"</code></td>
   </tr>
   <tr>
