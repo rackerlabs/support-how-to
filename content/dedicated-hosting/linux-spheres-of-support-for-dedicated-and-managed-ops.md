@@ -5,8 +5,8 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2018-08-21'
-last_modified_by: Chris Moyer
+last_modified_date: '2018-11-06'
+last_modified_by: Stephanie Fillmon
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -17,17 +17,19 @@ This article outlines our **Fanatical Support&reg;** of software and server conf
 
 The following operating systems are supported for both Dedicated and Managed Operations:
 
-- CentOS 7
+- CentOS&reg; 7
 - CentOS 6
-- Red Hat Enterprise Linux 7
+- Red Hat&reg; Enterprise Linux&reg; 7
 - Red Hat Enterprise Linux 6
-- Ubuntu 16.04 LTS (Xenial Xerus)
+- Ubuntu&reg; 16.04 LTS (Xenial Xerus)
 - Ubuntu 14.04 LTS (Trusty Tahr)
 
 The following operating systems are supported only for Managed Operations:
 
+- Debian&reg; 9 (Stretch)
 - Debian 8 (Jessie)
 - Debian 7 (Wheezy)
+- Ubuntu 18.04 LTS (Bionic Beaver)
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
@@ -86,8 +88,7 @@ The following authentication tools are supported in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
-| SSSD-AD | Yes | Yes | Yes | Yes |
-| Duo 2FA | Yes | Yes | Yes | Yes |
+| PHP-FPM | Yes | Yes | Yes | Yes |
 
 ### Caching
 
@@ -103,7 +104,7 @@ The following caching tools are supported in the indicated areas:
 
 ### Clustering
 
-The following services are supported on Red Hat Cluster Suite (RHCS) in the indicated areas:
+The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
@@ -120,6 +121,7 @@ The following control panel is supported in the indicated area:
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
 | Plesk | Yes | Yes | Yes | Yes |
+| PHPMyAdmin| Yes | Yes | Yes | Yes |
 
 **Note**: Plesk is supported only on dedicated Red Hat Enterprise Linux and CentOS platforms.
 
