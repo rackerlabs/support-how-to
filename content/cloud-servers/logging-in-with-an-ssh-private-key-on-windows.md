@@ -1,7 +1,7 @@
 ---
 permalink: logging-in-with-an-ssh-private-key-on-windows/
 audit_date: '2018-09-26'
-title: Log in with an SSH private key on Windows
+title: Log into a Linux server with an SSH private key on a Windows client
 type: article
 created_date: '2013-09-25'
 created_by: Brint Ohearn
@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 This article demonstrates how to load an SSH private key into PuTTY in order
-to connect to a Linux server. You need the following
+to connect to a Linux&reg; server. You need the following
 software to complete this task:
 
 1.  **PuTTY**: A client for managing SSH sessions
@@ -21,8 +21,8 @@ software to complete this task:
 To download both tools, see [Download PuTTY: latest
 release](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 
-**Note**: These instructions apply to using PuTTY on the Windows operating system.
-For information about using SSH private keys on Linux&reg; and OS X&reg;
+**Note**: These instructions apply to using PuTTY on the Windows&reg; operating system.
+For information about using SSH private keys on Linux and OS X&reg;
 operating systems, see [Log in with an SSH Private Key on Linux and
 Mac](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac).
 
