@@ -11,7 +11,9 @@ product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
 
-This article describes how to set up DNS for the Skype for Business offering from Rackspace Cloud Office. If you need to configure your DNS for Rackspace Cloud Office email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
+This article describes how to set up DNS for the Skype for Business offering from
+Rackspace Cloud Office. If you need to configure your DNS for Rackspace Cloud
+Office email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
 
 ### Prerequisites
 
@@ -24,7 +26,10 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 ### Set up DNS records for Skype for Business
 
-To configure your hosted implementation of Microsoft Skype for Business formerly Microsoft Lync, you must set up DNS records. The following CNAME and SRV records must be in place to enable Skype for Business to work with the Hosted Exchange environment.
+To configure your hosted implementation of Microsoft Skype for Business, formerly
+Microsoft Lync, you must set up DNS records. The following CNAME and SRV records
+must be in place to enable Skype for Business to work with the Hosted Exchange
+environment.
 
 **CNAME records**
 
@@ -37,13 +42,18 @@ To configure your hosted implementation of Microsoft Skype for Business formerly
 -   \_sip.\_tls.*example.com*
 -   \_sipfederationtls.\_tcp.*example.com*
 
-Because of the nature of our hosted environment, the domain listed for the CNAME records will contain specific Skype for Business DNS records. Use our help tool for the specific DNS records for your domain.
+Because of the nature of our hosted environment, the domain listed for the CNAME
+records contains specific Skype for Business DNS records. Use our help tool
+for the specific DNS records for your domain.
 
-After you log in with a mailbox that is enabled for Skype for Business, you can find the DNS settings through the [Help Tool](https://emailhelp.rackspace.com/) as shown in the following image.
+After you log in with a mailbox that is enabled for Skype for Business, you can
+find the DNS settings through the [Help Tool](https://emailhelp.rackspace.com/)
+as shown in the following image.
 
 <img src="{% asset_path skype-for-business/set-up-dns-records-for-cloud-office-email-and-skype-for-business/SkypeforBusinessa.png %}" width="656" height="261" />
 
-If you know exactly which Exchange environment your domain is hosted on you can locate your specific records in the tables below.
+If you know exactly which Exchange environment your domain is hosted on, you can
+locate your specific records in the tables below.
 
 #### mex06.emailsrvr.com
 
@@ -84,7 +94,10 @@ If you know exactly which Exchange environment your domain is hosted on you can 
 | SRV | example.com | lync01.mex09.emailsrvr.com | _sipfederationtls| | _tcp | 5061 |
 | SRV | example.com | sip.mex09.emailsrvr.com |  _sip | _tls | 5061
 
-**Note:** If you have an internal DNS, you must also set up these records on your internal DNS. If you want to enable Skype for Business federation with domains hosted outside of Rackspace or domains that are hosted within Rackspace, contact our support team to learn more.
+**Note:** If you have an internal DNS, you must also set up these records on
+your internal DNS. If you want to enable Skype for Business federation with
+domains that are hosted outside of Rackspace or domains that are hosted within
+Rackspace, contact our Support team to learn more.
 
 ### Related article
 
