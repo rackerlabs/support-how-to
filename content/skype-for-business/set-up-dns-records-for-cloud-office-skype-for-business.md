@@ -45,7 +45,7 @@ After you log in with a mailbox that is enabled for Skype for Business, you can 
 
 If you know exactly which Exchange environment your domain is hosted on you can locate your specific records in the tables below.
 
-**mex06.emailsrvr.com**
+#### mex06.emailsrvr.com
 
 | Type | Hostname | Destination | Time to live (TTL) |
 | --- | --- | --- | --- |       
@@ -58,7 +58,7 @@ If you know exactly which Exchange environment your domain is hosted on you can 
 | SRV | example.com | lync01.mex06.emailsrvr.com | _sipfederationtls| | _tcp | 5061 |
 | SRV | example.com | sip.mex06.emailsrvr.com |  _sip | _tls | 5061 |
 
-**mex08.emailsrvr.com**
+#### mex08.emailsrvr.com**
 
 | Type | Hostname | Destination | Time to live (TTL) |
 | --- | --- | --- | --- |       
@@ -71,7 +71,7 @@ If you know exactly which Exchange environment your domain is hosted on you can 
 | SRV | example.com | lync01.mex08.emailsrvr.com | _sipfederationtls| | _tcp | 5061 |
 | SRV | example.com | sip.mex08.emailsrvr.com |  _sip | _tls | 5061 |
 
-**mex09.emailsrvr.com**
+#### mex09.emailsrvr.com**
 
 | Type | Hostname | Destination | Time to live (TTL) |
 | --- | --- | --- | --- |       
