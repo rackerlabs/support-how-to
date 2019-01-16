@@ -80,7 +80,7 @@ If you know exactly which Exchange environment your domain is hosted on you can 
 | CNAME | sip.example.com | sip.mex09.emailsrvr.com | Lowest possible |
 
 | Type | Host| Destination | Service | Protocol | Port |
-| --- | --- | --- | --- | ---| ---|
+| --- | --- | --- | --- | ---| --- |
 | SRV | example.com | lync01.mex09.emailsrvr.com | _sipfederationtls| | _tcp | 5061 |
 | SRV | example.com | sip.mex09.emailsrvr.com |  _sip | _tls | 5061
 
