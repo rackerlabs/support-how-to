@@ -12,17 +12,17 @@ product_url: cloud-servers
 ---
 
 This article provides steps for connecting to a cloud server from
-a computer running Linux&reg; or MacOS&reg; X by using Secure Shell (SSH). 
-It also discusses generating an SSH key and adding a public key to 
+a computer running Linux&reg; or MacOS&reg; X by using Secure Shell (SSH).
+It also discusses generating an SSH key and adding a public key to
 the server.
 
 ### Introduction
 
-SSH is a protocol through which you can access your cloud server and run 
-shell commands. You can use SSH keys to identify trusted computers without 
+SSH is a protocol through which you can access your cloud server and run
+shell commands. You can use SSH keys to identify trusted computers without
 the need for passwords and to interact with your servers.
 
-SSH is encrypted with Secure Sockets Layer (SSL), which makes it difficult 
+SSH is encrypted with Secure Sockets Layer (SSL), which makes it difficult
 for these communications to be intercepted and read.
 
 **Note:** Many of the commands in this article must be run on your local
@@ -54,17 +54,19 @@ that it has saved from previous connections to that IP address. After you
 rebuild a cloud server, that remote host key changes, so your computer
 warns you of possibly suspicious activity.
 
-To ensure the security of your server, you can [use the web console in the Cloud Control Panel to verify your server's new key](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
+To ensure the security of your server, you can
+[use the web console in the Cloud Control Panel to verify your server's new key](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
 If you're confident that you aren't being spoofed, you can skip that
 step and delete the record of the old SSH host key as follows:
 
 On your *local* computer, edit the SSH `known_hosts` file and remove any
-lines that start with your cloud server's IP address. 
+lines that start with your cloud server's IP address.
 
 **Note:** Use the editor of your choice, such as `nano` on Debian or Ubuntu servers
 or `vi` on RPM or CENTOS servers.  For simplicity, this article just uses `nano`. If you prefer to use `vi`,
 substitute `vi` for `nano` in the edit commands.
-For more on using `vi`, see [https://community.rackspace.com/general/f/general-discussion-forum/6676/basics-of-the-vi-text-editor](https://community.rackspace.com/general/f/general-discussion-forum/6676/basics-of-the-vi-text-editor). For more on using `nano`, see [https://support.rackspace.com/how-to/modify-your-hosts-file/](https://support.rackspace.com/how-to/modify-your-hosts-file/).
+For more on using `nano`, see
+[https://support.rackspace.com/how-to/modify-your-hosts-file/](https://support.rackspace.com/how-to/modify-your-hosts-file/).
 
     nano ~/.ssh/known_hosts
 
@@ -81,7 +83,8 @@ the server and a matching private key is placed on your local computer. If you
 [configure SSH on your server to accept only connections using keys](/how-to/basic-cloud-server-security),
 then no one can log in by using just a password. Connecting clients
 are required to use a private key that has a public key registered on
-the server. For more on security, review [Linux server security best practices](https://support.rackspace.com/how-to/linux-server-security-best-practices/).
+the server. For more on security, review
+[Linux server security best practices](https://support.rackspace.com/how-to/linux-server-security-best-practices/).
 
 Use the following steps to generate an SSH key pair:
 
@@ -94,11 +97,11 @@ Use the following steps to generate an SSH key pair:
     A message indicates that your public-private RSA key pair is
     being generated.
 
-    At the prompt, press **Enter** to use the default location or enter 
+    At the prompt, press **Enter** to use the default location or enter
     a file in which to save the key and press **Enter**.
 
 2.  If you want the additional security of a password for the key pair,
-    enter a passphraseand press **Enter**. If you don't want to use a password 
+    enter a passphraseand press **Enter**. If you don't want to use a password
     with the key pair, press **Enter** to continue without setting one.
 
     Your key pair is generated, and the output looks similar to the following example:
@@ -126,7 +129,7 @@ upload the public key to your cloud account by following these steps:
 2.  In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 3.  Select **Servers >  SSH Keys**.
 4.  Click **Add Public Key**.
-5.  Enter a key name, such as **Work Laptop**, to remind you which computer this key is for. 
+5.  Enter a key name, such as **Work Laptop**, to remind you which computer this key is for.
 6.  Select the region for which you want to store the public key. To
     store your key in multiple regions, repeat these steps for
     each region. The key must reside in the same region as the server.
@@ -139,7 +142,7 @@ upload the public key to your cloud account by following these steps:
 
 8.  Click **Add Public Key**.
 
-If you want to add the key manually, instead of by using the Control Panel, review 
+If you want to add the key manually, instead of by using the Control Panel, review
 [Linux server security best practices](https://support.rackspace.com/how-to/linux-server-security-best-practices/)
 and use the following command:
 
@@ -157,7 +160,8 @@ server.
 3. If you don't see a stored key in the list, you can perform one of the following actions:
 
    - Switch the region for the new server to the region where you have stored the SSH key.
-   - Repeat the steps in the preceding section, *Add the public key to your cloud account*, to add the key to the region in which you want to create the new server.
+   - Repeat the steps in the preceding section, *Add the public key to your cloud account*,
+     to add the key to the region in which you want to create the new server.
 
 ### Add the key to an existing server
 
@@ -182,18 +186,18 @@ existing server. Follow these steps to add the key manually:
 
         chmod 700 ~/.ssh
         chmod 600 ~/.ssh/authorized_keys
-        
+
 4.  If you have any issues and need to fix permissions issues, run the following comand:
-     
-        restorecon -R -v /root/.ssh 
+
+        restorecon -R -v /root/.ssh
 
 After you have added the public key to the **authorized_keys**, you can make an SSH
 connection by using your key pair instead of the account password.
 
 ### Shortcut configuration
 
-Use the following instructions to set up a connection shortcut by creating a 
-**~/.ssh/config** file on your local computer and adding your server and key 
+Use the following instructions to set up a connection shortcut by creating a
+**~/.ssh/config** file on your local computer and adding your server and key
 details to it.
 
 1.  Using a text editor, add the following text to the **~/.ssh/config** file, changing the
@@ -224,16 +228,16 @@ If you have trouble making a new connection after you restart the
 server, use the following steps to help you resolve the issue:
 
 -   The best way to troubleshoot SSH or SFTP login issues is to attempt to
-    login through SSH while logged into the Emergency Console and to watch the log, 
+    login through SSH while logged into the Emergency Console and to watch the log,
     which typically includes the reason for a failure.  If no reason is given,
     it could be a firewall issue.  For RPM servers, run the following command to watch the log:
-    
+
           tail -f /var/log/secure
-       
+
     For Debian servers, run the following command to watch the log:
-    
+
           tail -f /var/log/auth.log
-       
+
 -   If you get a `connection timeout` error, check the IP address that
     you used to ensure that it's correct. You might also check the
     server's iptables to ensure that it isn't blocking the port used by SSH.

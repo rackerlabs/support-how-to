@@ -1,11 +1,11 @@
 ---
 permalink: upgrade-citrix-xen-server-tools-for-windows-cloud-servers/
-node_id:
+audit_date:
 title: Upgrade Citrix (XenServer) Tools for Windows cloud servers
 type: article
 created_date: '2016-04-05'
 created_by: Luke Repko
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-01-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -132,9 +132,8 @@ Access the non-production server's Java console through the [Cloud Control Panel
 
 4. On the Servers page, click the gear icon next to the server’s name and then select **Emergency Console**.
 
-If you are comfortable using cURL, please visit this
-[community article](https://community.rackspace.com/products/f/25/t/5933) to
-find instructions about generating the NoVNC console link. Otherwise, login to
+To send API requests, use cURL from the command line, use the browser plugin of
+your choice, or login to
 [Pitchfork](https://pitchfork.rax.io/servers/#get_vnc_console-cloud_servers)
 with your Rackspace username and API key. Prior to sending the API call, be sure
 to change the console_type to, "novnc". The response contains the URL to the
