@@ -85,7 +85,7 @@ customers.
 #### How can I provide feedback about Rackspace Intelligence?
 
 If you want to suggest features to add to Rackspace Intelligence, or if
-you discover any issues, click the **Feedback** link at the top of the
+you discover any issues, click the **Support** link at the top of the
 [Rackspace Intelligence Portal](https://intelligence.rackspace.com/).
 
 ------------------------------------------------------------------------
