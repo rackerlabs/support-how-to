@@ -77,8 +77,7 @@ server, you are given a server with unrestricted access. The Managed
 Infrastructure support team does not assist in the installation of
 software or troubleshooting any kind of issue related to the software
 installed. We have some articles in the Rackspace How-To covering basic
-installation of common applications. We also have community forums where
-you can share tips and tricks with other customers.
+installation of common applications.
 
 The [Managed Operations service](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
 level provides additional support on Cloud Servers, which includes monitoring,
@@ -149,9 +148,6 @@ support that you need to get the most out of the cloud.
 -   Your first stop should be [Rackspace How-To](/how-to/), which is the best
     source for articles and tutorials to help you get the precise
     answers that you need.
--   Our [Open Cloud Forum](https://community.rackspace.com/products/f/25) in the
-    Rackspace Community is always open. Use the forum to get your
-    questions answered by a Racker.
 -   Do you have a quick question that you can't find an answer for in the
     Rackspace How-To? Open Chat and talk with our **Fanatical Support**&reg;
     staff anytime, 24x7x365.
@@ -272,11 +268,9 @@ To learn more about the Cloud Control Panel, see
 [Introducing the Rackspace Cloud Control Panel](/how-to/introducing-the-rackspace-cloud-control-panel).
 However, we do not offer a control panel like **Plesk** or **cPanel**. You're free to
 install such packages for your own Cloud Server. If you are installing cPanel, be
-sure to install on a clean (empty) server. For more information,
-see [CentOS/RHEL - Installing cPanel & WHM 11.24](https://community.rackspace.com/products/f/25/t/6798).
+sure to install on a clean (empty) server.
 The use of Plesk or cPanel is not supported and strongly discouraged for customers under
-the Managed Operations SLA because it interferes with our server administration. For more information, see
-[Using Plesk or cPanel with the Managed Operations Service Level Agreement](https://community.rackspace.com/products/f/25/t/4888).
+the Managed Operations SLA because it interferes with our server administration.
 
 Also, consider installing the free monitoring agent on your
 server and using the [Rackspace Intelligence dashboard](https://intelligence.rackspace.com/),

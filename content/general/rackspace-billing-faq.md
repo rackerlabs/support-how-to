@@ -49,8 +49,7 @@ Follow these steps to view your invoice:
    You are redirected to the **Billing Overview** dashboard, which provides information on billing, payments, and usage.
 
 Invoices are available as a summarized PDF, a more detailed cooma-separated-values (CSV) file, and a [detailed HTML view](/how-to/detailed-invoices-overview/).
-For assistance with the CSV file, see [How To Read Your Invoice In CSV Format](https://community.rackspace.com/products/f/25/t/4950) in our
-Community forum. We also provide [pivot tables in downloadable spreadsheets](/how-to/use-pivot-tables-with-your-cloud-billing-invoice)
+We provide [pivot tables in downloadable spreadsheets](/how-to/use-pivot-tables-with-your-cloud-billing-invoice)
 to help you organize your billing information.
 
 #### How do I view current service usage?
