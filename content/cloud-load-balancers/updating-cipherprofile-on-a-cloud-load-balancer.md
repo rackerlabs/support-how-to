@@ -6,8 +6,8 @@ created_date: '2019-01-23'
 created_by: Rackspace Community
 last_modified_date: 
 last_modified_by: 
-product: Cloud Servers
-product_url: cloud-servers
+product: Cloud Load Balancers
+product_url: cloud-load-balancers
 --- 
 
 SSL Ciphers are algorithms that help secure networking connections using TLS. One particular cipher, 'SSL_RSA_WITH_3DES_EDE_CBC_SHA,' has been identified as vulnerable to potential intrusion. Rackspace is therefore allowing users to toggle ciphers in use on Cloud Load Balancers in order to better protect their environments. Updating the CipherProfile can be done via the API or by using the Rackspace tool Pitchfork. pitchfork.rax.io
