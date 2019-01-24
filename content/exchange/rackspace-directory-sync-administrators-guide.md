@@ -6,14 +6,14 @@ type: article
 created_date: '2013-04-25'
 created_by: Kevin Richey
 last_modified_date: '2019-01-23'
-last_modified_by: Rose Coste
+last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 This article provides information for administrators using
-Rackspace Directory Sync. It includes information on how Directory Sync
-works with Active Directory&reg; and local domains to synchronize to Rackspace
+Rackspace Directory Sync. It includes information about how Directory Sync
+works with Active Directory&reg; and how to use local domains to synchronize to Rackspace
 Hosted Email.
 
 Using Directory Sync for your organization includes these benefits:
@@ -28,7 +28,7 @@ Using Directory Sync for your organization includes these benefits:
 -   **Save time**: Directory Sync can save considerable effort and time when onboarding new
     employees and managing password policies in large numbers.
 -   **Business automation**: Rackspace Directory Sync is built to use
-    the Rackspace Email cloud's public REST APIs to facilitate automation.
+    the Rackspace Email public REST APIs to facilitate automation.
 -   **Secure**: All data exchanged is encrypted using Secure Sockets Layer (SSL) and synchronization
     is one-way only.
 -   **Cost effective**: Rackspace Directory Sync is available at no
@@ -54,12 +54,12 @@ Directory Sync supports the following Rackspace Email platforms:
 
 Directory Sync supports the following Active Directory platforms:
 
--   Windows Server&reg; 2008 and 2008 R2
 -   Windows&reg; 2012 and 2012 R2
+-   Windows Server&reg; 2008 and 2008 R2
 
 #### Directory Sync limitations
 
--   Does not synchronize with Hosted Exchange 2007
+-   Does not synchronize with Hosted Exchange 2007.
 -   Existing mail data does not migrate with Directory Sync to our
     hosted environment.
     We offer several methods that you can use to migrate your own data,
@@ -162,16 +162,16 @@ attribute to set this.
 The `proxyAddresses` attribute is used to create alternate email
 addresses (aliases) for the Hosted Exchange environment. If you
 set the `proxyAddresses` attribute to include `SMTP: userA@example.net`,
-then Directory Sync will add the address `userA@example.net` to the
+then Directory Sync adds the address `userA@example.net` to the
 environment as an alias to that email address.
 
--   Any address that begins with **SMTP:** in the `proxyAddresses`
+-   Any address that begins with `SMTP:` in the `proxyAddresses`
     attribute creates an alternate email address associated with the
     user's mailbox.
 -   These addresses cannot include a domain alias in the address but can
     include either the primary domain or accepted domains.
--   You can create alternate email addresses associated with domain aliases can be
-    created by using the primary domain. For example,
+-   You can create alternate email addresses associated with domain aliases
+    by using the primary domain. For example,
     `SMTP:userB@example.com` creates the alternate address
     `userB@example.net`.
 -   Accepted domains are created with the full email address (including
@@ -215,12 +215,12 @@ rules to meet or exceed these requirements.
 
 Note the following email requirements:
 
--   At least eight characters long.
+-   At least eight characters long
 -   At least 3 of the following:
     -   At least one lowercase character
     -   At least one uppercase character
     -   At least one number
-    -   At least one non-alphanumeric (!, \$, \#, %, space, and so on).
+    -   At least one non-alphanumeric (!, \$, \#, %, space, and so on)
 
 #### Network ports
 
@@ -240,7 +240,7 @@ Enable the following ports on the Directory Sync server:
 
 #### Network encryption
 
-HTTPS secures communications between Directory Sync and. Microsoft® WCF Transport Security, which uses Windows Authentication and encryption, secures communications between the Active Directory password hook and Directory Sync.
+HTTPS secures communications between Directory Sync and Rackspace. Microsoft® WCF Transport Security, which uses Windows Authentication and encryption, secures communications between the Active Directory password hook and Directory Sync.
 
 ### Synchronized user attributes
 
