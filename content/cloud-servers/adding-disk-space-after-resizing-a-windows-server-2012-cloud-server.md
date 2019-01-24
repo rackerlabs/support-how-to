@@ -1,19 +1,19 @@
 ---
 permalink: adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/
-audit_date: '2018-11-14'
+audit_date: '2019-01-24'
 title: Add disk space after resizing a Windows Server 2012 Cloud Server
 type: article
 created_date: '2013-04-10'
 created_by: Rackspace Support
 last_modified_date: '2019-01-23'
-last_modified_by: Jonathan Lunberg
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 After you resize a Windows&reg; Cloud Server, you need to perform
 some additional steps to use the new disk space that is
-available for your server. In Windows Server 2012 you can merge the
+available for your server. In Windows Server&reg; 2012 you can merge the
 newly available disk space into one drive by expanding your original
 drive.
 
