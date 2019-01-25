@@ -5,8 +5,8 @@ title: Use task states with server imaging
 type: article
 created_date: '2013-08-28'
 created_by: Brian Rosmaita
-last_modified_date: '2015-06-03'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2019-01-25'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -163,7 +163,7 @@ script.
     API_ENDPOINT=
     # your API username, e.g., "fredco"
     API_USER=
-    # your API auth token, obtained from the Rackspace Identity service
+    # your API auth token, obtained from the Identity service
     API_AUTH_TOKEN=
     # the UUID of the server you want to monitor
     API_SERVER=

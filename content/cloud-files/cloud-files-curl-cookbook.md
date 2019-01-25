@@ -5,8 +5,8 @@ title: Cloud Files cURL Cookbook
 type: article
 created_date: '2012-06-25'
 created_by: Rackspace Support
-last_modified_date: '2016-04-14'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-01-25'
+last_modified_by: Cat Lookabaugh
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -162,7 +162,7 @@ you will always get the same token while it is still valid.
 secret. If another user gets your token, that user might get full access
 to your cloud-based services.
 
-To authenticate you need to query the Rackspace Identity API. Version 1.1 of
+To authenticate you need to query the Identity API. Version 1.1 of
 the Identity API service is used in the following example. To query the
 service, you need your Rackspace Cloud account username and API key.
 Instructions for locating these credentials are documented in [View and Reset your API Key](/how-to/view-and-reset-your-api-key).

@@ -5,8 +5,8 @@ title: Multi-region support in Cloud Files
 type: article
 created_date: '2012-09-12'
 created_by: David Hendler
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-01-25'
+last_modified_by: Cat Lookabaugh
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -32,7 +32,7 @@ to use your preferred region for file transfers.
 
 You don't need to do anything to set up multi-region capabilities for
 your account. All US accounts have access to multiple regions. If you
-use the Rackspace Identity API, you may choose the endpoint with which you want
+use the Identity API, you may choose the endpoint with which you want
 to interact. After you authenticate against the regional endpoint, your
 Cloud Files operations only affect that region's content.
 
