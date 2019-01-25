@@ -5,7 +5,7 @@ title: Multi-factor authentication from the MyRackspace portal
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2018-10-26'
+last_modified_date: '2019-01-25'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -29,7 +29,7 @@ You can add multi-factor authentication by updating your account
 settings in the [MyRackspace portal](https://login.rackspace.com). After you pair
 a device with your account, authentication becomes a two-step process:
 
-1.  Each time you log in, the Rackspace Identity service generates
+1.  Each time you log in, the Identity service generates
     a passcode and sends it to the paired device.
 
 2.  After the passcode is sent, the system prompts you to type the
@@ -212,7 +212,7 @@ following steps:
     your username and password.
 
     If your account is configured to use multi-factor authentication with
-    an SMS device, the Rackspace Identity service sends an SMS
+    an SMS device, the Identity service sends an SMS
     text message with a 7-digit passcode to the device registered to
     your account.
 

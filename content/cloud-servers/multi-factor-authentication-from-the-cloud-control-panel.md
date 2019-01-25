@@ -5,7 +5,7 @@ title: Multi-factor authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2018-10-26'
+last_modified_date: '2019-01-25'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -55,7 +55,7 @@ complete the setup process.
 **Notes**
 
 -   MyRackspace also implements multi-factor authentication, but it is
-    not implemented through the Rackspace Identity 2.0 API. For
+    not implemented through the Identity 2.0 API. For
     information about using multi-factor authentication with
     MyRackspace, see [MyRackspace Two-Factor Authentication](/how-to/myrackspace-two-factor-authentication).
 
@@ -86,7 +86,7 @@ complete the setup process.
         requests to the Rackspace Cloud.
 
 -   You can also manage multi-factor authentication from the
-[Rackspace Identity service API.](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops)
+[Identity API 2.0 Guide.](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops)
 
 ### Configure your account to authenticate by using an SMS device
 
@@ -253,7 +253,7 @@ To log in to the Rackspace Cloud with multi-factor authentication
     with your user name and password.
 
     If you account is configured to use multi-factor authentication with
-    an SMS device, the Rackspace Identity service sends an SMS
+    an SMS device, the Identity service sends an SMS
     text message with a 7-digit passcode to the device registered to
     your account.
 
