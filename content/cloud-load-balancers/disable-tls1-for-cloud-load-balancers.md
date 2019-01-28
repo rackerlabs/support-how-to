@@ -43,7 +43,7 @@ On the command line, creating the following variables (using the same formats):
 Creating these variables and using them in your cURL commands makes the
 process of disabling TLS 1.0 easier.
 
-### Something
+### Disable TLS 1.0
 
 Before you disable TLS 1.0 on the cloud load balancer, check the current
 settings by running the following command:
