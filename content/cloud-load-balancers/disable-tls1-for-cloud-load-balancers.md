@@ -2,7 +2,7 @@
 permalink: disable-tls1-for-cloud-load-balancers/
 audit_date: '2019-01-23'
 title: Disable TLS 1.0 for Cloud Load Balancers
-created_date: '2019-01-28'
+created_date: '2019-01-18'
 created_by: Rackspace Community
 last_modified_date: '2019-01-28'
 last_modified_by: Kate Dougherty
