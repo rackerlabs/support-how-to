@@ -1,78 +1,101 @@
 ---
-permalink: disable-tls1-for-cloud-load-balancers
-audit_date:
-title: Disable TLS1.0 for Cloud Load Balancers
-created_date: '2019-01-23'
+permalink: disable-tls1-for-cloud-load-balancers/
+audit_date: '2019-01-23'
+title: Disable TLS 1.0 for Cloud Load Balancers
+created_date: '2019-01-28'
 created_by: Rackspace Community
-last_modified_date: 
-last_modified_by: 
+last_modified_date: '2019-01-28'
+last_modified_by: Kate Dougherty
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
---- 
+---
 
-TLS1.0 was implemented many years ago for secure communication protocols  It has been determined that TLS1.0 is no longer effective and should be disabled for PCI compliance.
+The Transport Layer Security (TLS) 1.0 protocol has been deprecated and
+should be disabled for Payment Card Industry (PCI) PCI compliance.
 
-TLS1.0 can be disabled on Cloud Load Balancers but it must be via an API command or by using a Racker Tool call Pitchfork  In order to disable TLS1.0, the procedures listed below will allow you to disable TLS1.0.
+This article shows you how to disable TLS 1.0 on Rackspace Cloud Load
+Balancers.
 
-This article assumes you have cURL installed as this is the only method of disabling TLS1.0  The Cloud Load Balancer will be out of service while the update is being implemented on the cloud load balancer.  Please ensure you perform the procedure when it will not impact your normal operations.
+**Note**: You must perform this action by using an Application Programming
+Interface (API) command or Rackspace's [Pitchfork](https://pitchfork.rax.io)
+tool.
 
-You will need to obtain an authentication token for this process.  See the following article for how to obtain your token:  https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/    
+This article assumes that you cURL is installed on your desktop machine. Using
+cURL is is the only method of disabling TLS 1.0  Your cloud load balancer is
+out of service while the update is implemented. Please ensure that you perform
+the procedure at a time when it will not impact your normal operations.
 
-If you are having any issues with this process, please contact Rackspace Support.
+### Get an authentication token
 
-In order to make this a relatively easy process, you will need to create several variables to use in the cURL command.
+You need to [obtain an authentication
+token](https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) to complete this process. If you experience any issues with
+obtaining a token, contact Rackspace Support.
 
-TOKEN=<>
-DDI=<Your account number>
-LBID=<The load balancer id>
-REG=<region where the load balancer is located>
+### Create variables
 
-Before you disable TLS1.0 on the cloud load balancer, check the current settings:
+On the command line, creating the following variables (using the same formats):
 
-curl -sX GET -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination
+- `TOKEN=<>`
+- `DDI=<Your account number>`
+- `LBID=<The load balancer id>`
+- `REG=<region where the load balancer is located>`
 
-Ensure this is all one line without any returns or enter the command with the symbol that continues the line without an actual line break:
+Creating these variables and using them in your cURL commands makes the
+process of disabling TLS 1.0 easier.
 
-curl -sX GET -H "x-auth-token:$TOKEN" \
+### Something
 
-https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination
+Before you disable TLS 1.0 on the cloud load balancer, check the current
+settings by running the following command:
 
-The \ is the symbol to be used to continue the typing on the next line without any actual line break.
-This will be part of the output from the command: 
+    curl -sX GET -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination
 
-"secureTrafficOnly": false,
+Ensure that you create this command all one line, without any returns or line
+breaks. To continue a line without inserting a line break, add a backslash
+(`\`) at the end of the command, as shown in the following example:
+
+    curl -sX GET -H "x-auth-token:$TOKEN" \
+
+    https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination
+
+The following example shows part of the output from this command:
+
+    "secureTrafficOnly": false,
+            "securityProtocols": [
+                {
+                    "securityProtocolName": "TLS_10",
+                    "securityProtocolStatus": "ENABLED"
+
+Next, use the following command to disable TLS 1.0 or create a text file with
+the required information:
+
+    curl -sX PUT -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "Content-Type: application/json" \
+    -d '{"sslTermination":{"securityProtocols":[{"securityProtocolName": "TLS_10","securityProtocolStatus":"DISABLED"}]}}'
+
+The text file must contain this exact information and spacing. The file must
+also contain the following code:
+
+    {
+      "sslTermination": {
         "securityProtocols": [
-            {
-                "securityProtocolName": "TLS_10",
-                "securityProtocolStatus": "ENABLED"
- 
-Then use the following command to disable it or create a text file with the required information. 
-
-curl -sX PUT -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "Content-Type: application/json" \
--d '{"sslTermination":{"securityProtocols":[{"securityProtocolName": "TLS_10","securityProtocolStatus":"DISABLED"}]}}'
-
-The file must contain the exact same information and spacing.   The file must contain the following:
- 
-{
-  "sslTermination": {
-    "securityProtocols": [
-      {
-        "securityProtocolName": "TLS_10",
-        "securityProtocolStatus": "DISABLED"
+          {
+            "securityProtocolName": "TLS_10",
+            "securityProtocolStatus": "DISABLED"
+          }
+        ]
       }
-    ]
-  }
-}
+    }
 
-The command to use the file is:
+To use the file, run the following command:
 
-curl -sX PUT -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "Content-Type: application/json" \    
--d @<filename>
+    curl -sX PUT -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "Content-Type: application/json" \
+    -d @<filename>
 
-You should see some the certificate returned along with the following:  
+You should see some of the certificate returned, along with the following
+output:
 
-enabled":true,"secureTrafficOnly":false,"securePort":443,"cipherProfile":"default","securityProtocols":[{"securityProtocolName":"TLS_10","securityProtocolStatus":"DISABLED"}]}}
+    enabled":true,"secureTrafficOnly":false,"securePort":443,"cipherProfile":"default","securityProtocols":[{"securityProtocolName":"TLS_10","securityProtocolStatus":"DISABLED"}]}}
 
-Perform the check to ensure that TLS1.0 is really disabled.
+Verify that TLS 1.0 is now disabled by running the following command:
 
-curl -sX GET -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination
+    curl -sX GET -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination
