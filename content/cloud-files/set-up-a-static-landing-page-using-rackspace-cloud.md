@@ -2,7 +2,7 @@
 permalink: set-up-a-static-landing-page-by-using-rackspace-cloud/
 audit_date: '2019-01-18'
 title: Set up a static landing page by using Rackspace Cloud Files
-created_date: '2019-01-28'
+created_date: '2019-01-18'
 created_by: Rackspace Community
 last_modified_date: '2019-01-28'
 last_modified_by: Kate Dougherty
