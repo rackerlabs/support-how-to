@@ -23,7 +23,7 @@ Cloud Files:
    1. In the pop-up box, enter a name for your container in the **Container
       Name** field.
 
-   2. Select a region from the drop-down list (preferably one that is close to
+   2. Select a **Region** from the drop-down list (preferably one that is close to
       you geographically).
 
    3. For **Type**, select **Static Website**.
@@ -53,8 +53,8 @@ Cloud Files:
       copied. Use the following instructions that correspond to the service
       that you are using:
 
-     - [Rackspace Cloud DNS](https://support.rackspace.com/how-to/using-cnames-with-cloud-files-containers/)
+        - [Rackspace Cloud DNS](https://support.rackspace.com/how-to/using-cnames-with-cloud-files-containers/)
 
-     - [GoDaddy&reg;](https://www.godaddy.com/help/add-a-cname-record-19236)
+        - [GoDaddy&reg;](https://www.godaddy.com/help/add-a-cname-record-19236)
 
-     - [Cloudflare&reg;](https://support.cloudflare.com/hc/en-us/articles/360020615111-Configuring-a-CNAME-setup)
+        - [Cloudflare&reg;](https://support.cloudflare.com/hc/en-us/articles/360020615111-Configuring-a-CNAME-setup)
