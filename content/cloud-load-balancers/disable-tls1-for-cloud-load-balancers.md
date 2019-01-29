@@ -4,7 +4,7 @@ audit_date: '2019-01-23'
 title: Disable TLS 1.0 for Cloud Load Balancers
 created_date: '2019-01-18'
 created_by: Rackspace Community
-last_modified_date: '2019-01-28'
+last_modified_date: '2019-01-29'
 last_modified_by: Kate Dougherty
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
@@ -20,9 +20,9 @@ Balancers.
 Interface (API) command or Rackspace's [Pitchfork](https://pitchfork.rax.io)
 tool.
 
-This article assumes that you cURL is installed on your desktop machine. Using
-cURL is is the only method of disabling TLS 1.0  Your cloud load balancer is
-out of service while the update is implemented. Please ensure that you perform
+This article assumes that cURL is installed on your desktop machine. Using
+cURL is the only method of disabling TLS 1.0. Your cloud load balancer is
+out of service while the update is implemented. Ensure that you perform
 the procedure at a time when it will not impact your normal operations.
 
 ### Get an authentication token
@@ -72,9 +72,7 @@ the required information:
     curl -sX PUT -H "x-auth-token:$TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "Content-Type: application/json" \
     -d '{"sslTermination":{"securityProtocols":[{"securityProtocolName": "TLS_10","securityProtocolStatus":"DISABLED"}]}}'
 
-The text file must contain this exact information and spacing. The file must
-also contain the following code:
-
+The text file must contain the exact information and spacing shown in the following code:
     {
       "sslTermination": {
         "securityProtocols": [
