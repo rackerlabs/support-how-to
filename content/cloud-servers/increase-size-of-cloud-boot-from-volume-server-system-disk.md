@@ -2,7 +2,7 @@
 permalink: increase-size-of-cloud-boot-from-volume-server-system-disk/
 audit_date: '2019-01-23'
 title: Increase the size of a cloud boot-from-volume server system disk
-created_date: '2019-01-23'
+created_date: '2019-01-29'
 created_by: Rackspace Community
 last_modified_date: '2019-01-29'
 last_modified_by: Kate Dougherty
