@@ -68,14 +68,14 @@ Use the following steps to detach the volume from the VM:
        *
 
 6. Record the value that is returned in the `id` field. While this value is
-   usually the same as as the `volumeId`, we recommend that you verify that
+   usually the same as the `volumeId`, we recommend that you verify that
    this is the case.
 
 7. Next, use the following steps to detach the volume by using the
    Pitchfork API call **Unattach Volume From Server**:
 
    1. Click **DELETE**.
-   2. Enter your the UUID of your server and the `id` from the
+   2. Enter the UUID of your server and the `id` from the
       response to the previous API call.
    3. Click **Send API Call** to detach the volume.
 
@@ -110,8 +110,8 @@ green.
 Use the following steps to attach the new volume to the VM:
 
 1. In Pitchfork, use the API call **Attach Volume To Server**.
-2. Click 'POST'.
-3. Enter the UUID of the server, the UUID of the new volume, and the UUID of the 'dev_assignment' that you want to specify `/dev/xvda`.
+2. Click **POST**.
+3. Enter the UUID of the server, the UUID of the new volume, and the UUID of the `dev_assignment` that you want to specify  for `/dev/xvda`.
 4. Click **Send API Call**.
 
 In the Cloud Control Panel, you see that the volume is attached to your
