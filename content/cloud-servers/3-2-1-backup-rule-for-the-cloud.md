@@ -12,7 +12,7 @@ product_url: cloud-servers
 
 When you perform backups, certain issues might occur. For example, you might
 find that you have backed up the wrong data or device, or that the backup
-failed or is corrupted. The classic 3-2-1 backup rule can help you improve
+failed or is corrupted. The classic _3-2-1 backup rule_ can help you improve
 your backups. The rule includes the following guidelines:
 
 - Make three backups
