@@ -35,16 +35,16 @@ Cloud Backup takes a file-by-file backup on a schedule that you choose.
 
 You might consider using a server snapshot for another backup. Server
 snapshots work for some servers in the Rackspace cloud. However, you should
-not considered them a backup solution. For example, if you are running a
-compute instance, your server is booting from a Cloud Block Storage (CBS)
-volume. Server snapshots do not capture CBS volumes because they are performed
+not consider them a backup solution. For example, if you are running a
+compute instance, your server is booting from a Cloud Block Storage
+volume. Server snapshots do not capture Cloud Block Storage volumes because they are performed
 on the host machine. With performance instances on which server snapshots do
 work, corruption might still occur if the snapshot is taken while a database
 table is being written to.
 
 ### Two in different formats
 
-We recommend that you make backups into smaller chunks that you can easily
+We recommend that you make backups in smaller chunks that you can easily
 back up with Cloud Backup and sync to another location.
 
 For example, you might first save your database backup locally, then compress
@@ -65,7 +65,7 @@ formats.
 
 The offsite copy should be a local copy in your office. It should be available
 to your team if they need to access it to build a new server. For example, you
-might task an internal server to pull the files down, or have a server that is
+might use an internal server to pull the files down, or have a server that is
 located in a separate data center from where your primary sources are located
 back up the files.
 
@@ -76,7 +76,7 @@ methods.
 
 #### Replication
 
-Replication is useful in a multi-tier cloud because if a server fails, a
+Replication is useful in a multitiered cloud because if a server fails, a
 replica server keeps your site up and running. However, if you upload a
 corrupted file, the sync mechanism replicates the corrupt data. This
 corruption is a problem if you need to restore a server to a previous version.
@@ -87,7 +87,7 @@ days to see when things went wrong.
 
 #### Snapshots
 
-With CBS snapshots, there is no way to schedule a new snapshot and then delete
+With Cloud Block Storage snapshots, there is no way to schedule a new snapshot and then delete
 the older ones. Snapshots also have the same corruption issues that server
 snapshots have.
 
