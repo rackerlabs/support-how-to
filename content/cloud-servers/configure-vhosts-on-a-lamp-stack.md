@@ -62,7 +62,7 @@ Use the following instructions to configure your vhosts:
 
 ### Test your vhost configuration
 
-This test should see produce a response of `Syntax OK`. Test the configuration by using the following command:
+This test should produce a response of `Syntax OK`. Test the configuration by using the following command:
 
     `$ apache2ctl configtest`
 
