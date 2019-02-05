@@ -1,10 +1,10 @@
 ---
-permalink: set-up-a-cron-job-for-action-scripting/
-audit_date: '2019-02-04'
-title: Set up a cron job for action scripting
+permalink: set-up-cron-jobs-for-action-scripting/
+audit_date: '2019-02-05'
+title: Set up cron jobs for action scripting
 created_date: '2019-01-18'
 created_by: Rackspace Community
-last_modified_date: '2019-02-04'
+last_modified_date: '2019-02-05'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -13,7 +13,7 @@ product_url: cloud-servers
 This article describes how to set up directories and scripts to have cron run different actions
 at regular times. 
 
-This article uses the Pico text editor, but you can use any text editor that you want, such as
+This article uses the `pico` text editor, but you can use any text editor that you want, such as
 `vi` or `nano`.
 
 ### Set up system scripts and directories
