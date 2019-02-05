@@ -35,6 +35,8 @@ Use the following commands to set up the system scripts and directories for cron
     sudo mkdir /usr/local/sbin/weekly.active
 
     sudo mkdir /usr/local/sbin/weekly.inactive
+    
+#### Set up script for continuous jobs
 
 Run the following command to create the script file for continuous jobs and open it in a text editor:
 
@@ -60,6 +62,8 @@ Run the following command to make the **continuous.sh** script executable:
 
     sudo chmod u+x /usr/local/sbin/continuous.sh
 
+#### Set up script for hourly jobs
+
 Run the following command to create the script file for hourly jobs and open it in a text editor:
 
     sudo pico /usr/local/sbin/hourly.sh
@@ -83,7 +87,9 @@ Insert the following script to run each container and all scripts held inside ho
 Run the following command to make the **hourly.sh** script executable:
 
     sudo chmod u+x /usr/local/sbin/hourly.sh
-    
+
+#### Set up script for daily jobs
+
 Run the following command to create the script file for daily jobs and open it in a text editor:
 
     sudo pico /usr/local/sbin/daily.sh
@@ -107,6 +113,8 @@ Insert the following script to run each container and all scripts held inside da
 Run the following command to make the **daily.sh** script executable:
 
     sudo chmod u+x /usr/local/sbin/daily.sh
+
+#### Set up script for weekly jobs
 
 Run the following command to create the script file for weekly jobs and open it in a text editor:
 
@@ -146,7 +154,7 @@ Each line in the crontab file has five date and time fields in the following for
 If you want to run a script some number of times per time unit, you can use the format `*/n`, where `n` is the number
 of times that you want the script to run.
 
-Add the folowing entries to the crontab file:
+Add the following entries to the crontab file:
 
     MAILTO= youremail@domain.com
 
