@@ -11,13 +11,13 @@ product_url: cloud-load-balancers
 ---
 
 SSL ciphers are algorithms that help secure networking connections by using
-Transport Layer Security (TLS). One particular cipher,
-`SSL_RSA_WITH_3DES_EDE_CBC_SHA`, has been identified as vulnerable to
-potential intrusion. Rackspace is therefore allowing users to toggle ciphers
-that are in use on cloud load balancers to better protect their environments.
+Transport Layer Security (TLS). However, the cipher
+`SSL_RSA_WITH_3DES_EDE_CBC_SHA` has been identified as vulnerable to
+potential intrusion. Rackspace is therefore enabling you to update the ciphers
+that your cloud load balancers use to better protect your environment.
 
 You can update the cipher profiles by using either the Cloud Load Balancers
-API or our interactive web application [Pitchfork](https://pitchfork.rax.io).
+API or our interactive web application, [Pitchfork](https://pitchfork.rax.io).
 
 For more information about cipher profiles, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/)
 in the Rackspace developer documentation.
@@ -37,12 +37,11 @@ result, it is important to ensure that you perform this process when it will
 not impact your normal operations.
 
 You need to obtain an authentication token for this process. To learn how to
-obtain your token, see [Authentication](https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) in the Cloud Load Balancer
-API developer documentation.
+obtain your token, see [Authentication](https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) in the Cloud Load Balancer API developer documentation.
 
 If you experience any issues with this process, contact Rackspace Support.
 
-Use the following steps to update cipher profiles by using the Cloud Load
+Use the following steps to update the cipher profile by using the Cloud Load
 Balancers API:
 
 1. Set the following environment variables:
@@ -52,7 +51,7 @@ Balancers API:
       # LBID={Load balancer ID}
       # TOKEN={API_Token}
 
-2. To see which cipher profile is enabled on your cloud load balancer, run the
+2. To see the cipher profile that is enabled on your cloud load balancer, run the
    following cURL command:
 
       # curl -sX GET -H "X-Auth-Token: $TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination/ | python -m json.tool | grep cipherProfile
@@ -64,7 +63,7 @@ Balancers API:
 3. Use the following steps to disable the cipher
    `SSL_RSA_WITH_3DES_EDE_CBC_SHA` by using the API:
 
-   1. Check if the Cipher 'SSL_RSA_WITH_3DES_EDE_CBC_SHA' is enabled on your
+   1. Check if the cipher 'SSL_RSA_WITH_3DES_EDE_CBC_SHA' is enabled on your
       cloud load balancer by running the following cURL command:
 
           # curl -X GET -H "X-Auth-Token: $TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination/ciphers
@@ -75,8 +74,8 @@ Balancers API:
 
    2. The `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher is currently the only cipher
       that you can disable on your cloud load balancer. The cipher profile
-      `CLBCipherPolicy2017-08` disables and `Default` enables the
-      `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher.
+      `CLBCipherPolicy2017-08` disables the
+      `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher, and `Default` enables it.
 
        Disable the `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher by updating the
        cipher profile to `CLBCipherPolicy2017-08`, as shown in the following
@@ -101,7 +100,7 @@ Use the following steps to update the cipher profile by using Pitchfork:
 3. In the drop-down list, select the **Region** where your cloud load balancer
    is located.
 
-4. Scroll down to the **SSL** section. Then, next to **Update Or Configure SSL
+4. Scroll down to the **SSL** section. Then, next to **Update or Configure SSL
    Termination**, click **Details**.
 
 5. Enter the load balancer ID in the **lb_id** field and the cipher profile
