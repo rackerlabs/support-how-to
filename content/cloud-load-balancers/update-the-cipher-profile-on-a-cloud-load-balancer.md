@@ -25,8 +25,7 @@ The following cipher profiles are currently available:
 
 - `Default`: The `Default` cipher profile
   has `SSL_RSA_WITH_3DES_EDE_CBC_SHA` enabled.
-- `CLBCipherPolicy2017-08`: This cipher profile has
-  `SSL_RSA_WITH_3DES_EDE_CBC_SHA` disabled.
+- `CLBCipherPolicy2017-08`: This cipher profile has `SSL_RSA_WITH_3DES_EDE_CBC_SHA` disabled.
 
 ### Update cipher profiles by using the API
 
