@@ -2,9 +2,9 @@
 permalink: update-the-cipher-profile-on-a-cloud-load-balancer/
 audit_date: '2019-01-23'
 title: Update CipherProfile on a cloud load balancer
-created_date: '2019-02-06'
+created_date: '2019-02-05'
 created_by: Rackspace Community
-last_modified_date: '2019-02-06'
+last_modified_date: '2019-02-05'
 last_modified_by: Kate Dougherty
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
@@ -19,8 +19,7 @@ that your cloud load balancers use to better protect your environment.
 You can update the cipher profiles by using either the Cloud Load Balancers
 API or our interactive web application, [Pitchfork](https://pitchfork.rax.io).
 
-For more information about cipher profiles, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/)
-in the Rackspace developer documentation.
+For more information about cipher profiles, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace developer documentation.
 
 The following cipher profiles are currently available:
 
