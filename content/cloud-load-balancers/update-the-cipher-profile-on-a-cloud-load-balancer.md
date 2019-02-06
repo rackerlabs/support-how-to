@@ -2,9 +2,9 @@
 permalink: update-the-cipher-profile-on-a-cloud-load-balancer/
 audit_date: '2019-01-23'
 title: Update the cipher profile on a cloud load balancer
-created_date: '2019-02-05'
+created_date: '2019-02-06'
 created_by: Rackspace Community
-last_modified_date: '2019-02-05'
+last_modified_date: '2019-02-06'
 last_modified_by: Kate Dougherty
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
@@ -23,8 +23,8 @@ For more information about cipher profiles, see [Ciphers](https://developer.rack
 
 The following cipher profiles are currently available:
 
-- `Default` or `CLBCipherPolicy2017-08`: The `Default` cipher profile has
-  `SSL_RSA_WITH_3DES_EDE_CBC_SHA` enabled.
+- `Default` or `CLBCipherPolicy2017-08`: The `Default` cipher profile
+  has `SSL_RSA_WITH_3DES_EDE_CBC_SHA` enabled.
 - `CLBCipherPolicy2017-08`: This cipher profile has
   `SSL_RSA_WITH_3DES_EDE_CBC_SHA` disabled.
 
