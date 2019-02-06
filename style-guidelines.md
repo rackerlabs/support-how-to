@@ -173,7 +173,7 @@ The following example illustrates many of these guidelines. For more examples, s
 
     The `--driver` flag indicates what type of driver the machine will run on. In this case, `virtualbox` indicates that the driver is Oracle VirtualBox. The final argument in the command gives the VM a name, in this case, `test`.
 
-    The output should as follows:
+    The output should look as follows:
 
     ```
     Creating VirtualBox VM...
