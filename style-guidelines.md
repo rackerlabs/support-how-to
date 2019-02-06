@@ -13,7 +13,7 @@ Follow these guidelines when writing content:
 - [Write clear and consistent code examples](#write-clear-and-consistent-code-examples)
 - [Use consistent terminology](#use-consistent-terminology)
 
-For comprehensive writing and style guidelines, see the [complete style guide for technical content](http://rackerlabs.github.io/docs-rackspace/style-guide/index.html).
+For comprehensive writing and style guidelines, see the [complete style guide for technical content](https://developer.rackspace.com/docs/style-guide/).
 
 ### Use sentence-style capitalization for titles and headings
 
