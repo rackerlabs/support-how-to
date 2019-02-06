@@ -23,7 +23,7 @@ For more information about cipher profiles, see [Ciphers](https://developer.rack
 
 The following cipher profiles are currently available:
 
-- `Default` or `CLBCipherPolicy2017-08`: The `Default` cipher profile
+- `Default`: The `Default` cipher profile
   has `SSL_RSA_WITH_3DES_EDE_CBC_SHA` enabled.
 - `CLBCipherPolicy2017-08`: This cipher profile has
   `SSL_RSA_WITH_3DES_EDE_CBC_SHA` disabled.
@@ -62,7 +62,7 @@ Balancers API:
 3. Use the following steps to disable the cipher
    `SSL_RSA_WITH_3DES_EDE_CBC_SHA` by using the API:
 
-   1. Check if the cipher 'SSL_RSA_WITH_3DES_EDE_CBC_SHA' is enabled on your
+   1. Check if the cipher `SSL_RSA_WITH_3DES_EDE_CBC_SHA` is enabled on your
       cloud load balancer by running the following cURL command:
 
           # curl -X GET -H "X-Auth-Token: $TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination/ciphers
@@ -87,7 +87,7 @@ Balancers API:
 Use the following steps to update the cipher profile by using Pitchfork:
 
 1. In your Internet browser, go to
-   [pitchfork.rax.io](https://pitchfork.rax.io) and log in to the application
+   [Pitchfork](https://pitchfork.rax.io) and log in to the application
    by using your username and API key.
 
    To learn how to find your API key, see [View and
