@@ -75,7 +75,7 @@ Use the following instructions to apply a security group rule to a cloud server:
 
 3. Click the gear icon next to the network interface you want to apply the security group rule to.
 
-    **Note:** You can only be apply security group rules to **PublicNet** and **ServiceNet**.
+    **Note:** You can only apply security group rules to **PublicNet** and **ServiceNet**.
 
 4. Click **Select Security Groups**.
 
