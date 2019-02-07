@@ -37,8 +37,6 @@ not impact your normal operations.
 You need to obtain an authentication token for this process. To learn how to
 obtain your token, see [Authentication](https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) in the Cloud Load Balancer API developer documentation.
 
-If you experience any issues with this process, contact Rackspace Support.
-
 Use the following steps to update the cipher profile by using the Cloud Load
 Balancers API:
 
