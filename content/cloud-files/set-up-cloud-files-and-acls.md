@@ -2,9 +2,9 @@
 permalink: set-up-cloud-files-and-acls/
 audit_date: '2019-01-22'
 title: Set up Cloud Files and ACLs
-created_date: '2019-01-22'
+created_date: '2019-02-08'
 created_by: Rackspace Community
-last_modified_date: '2019-02-07'
+last_modified_date: '2019-02-08'
 last_modified_by: Kate Dougherty
 product: Cloud Files
 product_url: cloud-files
