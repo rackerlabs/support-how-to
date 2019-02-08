@@ -1,7 +1,7 @@
 ---
 permalink: windows-patches-for-cloud-servers-with-a-managed-operations-service-level/
 audit_date: '2018-02-07'
-title: Windows patches for Cloud Servers with a Managed Operations service level
+title: Windows patches for cloud servers with a Managed Operations service level
 type: article
 created_date: '2011-04-04'
 created_by: Rackspace Support
@@ -140,7 +140,7 @@ by performing the following steps:
 
 		    Set-Service -Name wuauserv -StartupType Automatic
 
-2.	Ensure that the wuauserv service is running by running the following
+2.	Ensure that the `wuauserv` service is running by running the following
     commands:
 
 		    Restart-Service -Name wuauserv
