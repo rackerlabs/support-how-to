@@ -1,6 +1,6 @@
 ---
 permalink: windows-patches-for-cloud-servers-with-a-managed-operations-service-level/
-audit_date: '2018-02-07'
+audit_date: '2019-02-07'
 title: Windows patches for cloud servers with a Managed Operations service level
 type: article
 created_date: '2011-04-04'
