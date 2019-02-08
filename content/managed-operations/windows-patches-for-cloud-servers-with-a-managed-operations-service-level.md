@@ -67,11 +67,12 @@ The following table provides additional information:
     <td>
       Nightly between 1 AM and 5 AM in your server region’s time zone:<br>
       <ul>
-        <li>**IAD**</li>
-        <li>**DFW**: CST</li>
-        <li>**SYD**: AET</li>
-        <li>**HKG**: HKT</li>
-        <li>**ORD**: CST</li>
+	<br />
+	<li><b>IAD</b>: EST</li>
+        <li><b>DFW</b>: CST</li>
+        <li><b>SYD</b>: AET</li>
+        <li><b>HKG</b>: HKT</li>
+        <li><b>ORD</b>: CST</li>
       </ul>
     </td>
     <td>Windows Patching Portal</td>
@@ -82,11 +83,12 @@ The following table provides additional information:
     <td>
       Nightly between 1 AM and 5 AM in your server region’s time zone:<br>
       <ul>
-        <li>**IAD**</li>
-        <li>**DFW**: CST</li>
-        <li>**SYD**: AET</li>
-        <li>**HKG**: HKT</li>
-        <li>**ORD**: CST</li>
+	<br />
+        <li><b>IAD</b>: EST</li>
+        <li><b>DFW</b>: CST</li>
+        <li><b>SYD</b>: AET</li>
+        <li><b>HKG</b>: HKT</li>
+        <li><b>ORD</b>: CST</li>
       </ul>
     </td>
     <td>Windows Patching Portal</td>
@@ -99,11 +101,12 @@ The following table provides additional information:
     <td>
       Nightly between 1 AM and 5 AM in your server region’s time zone:<br>
       <ul>
-        <li>**IAD**</li>
-        <li>**DFW**: CST</li>
-        <li>**SYD**: AET</li>
-        <li>**HKG**: HKT</li>
-        <li>**ORD**: CST</li>
+	<br />
+        <li><b>IAD</b>: EST</li>
+        <li><b>DFW</b>: CST</li>
+        <li><b>SYD</b>: AET</li>
+        <li><b>HKG</b>: HKT</li>
+        <li><b>ORD</b>: CST</li>
       </ul>
     </td>
     <td>Windows Patching Portal</td>
