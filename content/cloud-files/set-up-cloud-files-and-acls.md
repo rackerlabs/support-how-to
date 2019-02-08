@@ -54,7 +54,7 @@ Similarly, you can give the user write access to `ACL_Container` by setting its
 You do not need to include yourself in either ACL because the account owner
 always has read and write access to everything in their Cloud Files
 account. If you create additional users, you can set the header values to
-`RBAC_USER, RBAC_USER2, RBAC_USER3,` where space before or after a comma is
+`RBAC_USER, RBAC_USER2, RBAC_USER3,` where a space before or after a comma is
 acceptable.
 
 ### Authenticate by using cURL
@@ -154,7 +154,7 @@ The following example shows how to check the headers by using swift:
 
 Swift is a helpful tool, but it has some limitations. The most significant
 issue occurs when an `RBAC_USER` who does not have access to Cloud Files and
-only Read/Write access to they container that they specify attempts to upload
+has only read/write access to the container that they specify attempts to upload
 a file by using a command like the following example:
 
     swift -A https://auth.api.rackspacecloud.com/v1.0 -U RBAC_USER -K $API_KEY upload ACL_Container testfile
@@ -164,7 +164,7 @@ because the restricted user does not have access to Cloud Files, this command
 returns a `403 Forbidden` HTTP response and then attempts to upload the file
 `testfile`.
 
-You can avoid this issue by using another tool for swift, _[Swiftly](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/cli/swiftly/#swiftly)_. You can pass additional parameters with swiftly, which
+You can avoid this issue by using another tool for swift, _[swiftly](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/cli/swiftly/#swiftly)_. You can pass additional parameters with swiftly, which
 enables your restricted user to upload the file directly, without attempting
 to create the container. The swiftly command for performing this action looks
 like the following example:
@@ -177,7 +177,8 @@ This command returns a `201 Created` HTTP response and uploads the file.
 
 Because you gave `No Access` to `RBAC_USER` when you created this user,
 `RBAC_USER` cannot access the container from the Cloud Control Panel.
-`RBAC_USER` now has read and write access to the container `ACL_Container` and
+After using the tools described in this article, `RBAC_USER` now has 
+read and write access to the container `ACL_Container` and
 can only access the container and its objects by using the Cloud Files API.
 
 ACL functionality enables account owners to set up fine-grained access
