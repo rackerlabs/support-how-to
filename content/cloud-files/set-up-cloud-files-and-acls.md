@@ -42,8 +42,8 @@ container-level access by using cURL and passing in the following headers:
   list of users that can write to the container. It allows the PUT, POST, COPY
   and DELETE HTTP methods for all of the objects in the container.
 
-You can set these special headers only on containers. They apply to all of the
-objects in the container.
+You set these special headers only on containers. The headers apply to all of the
+objects in a container.
 
 For example, if you create a user named `RBAC_USER` and have a container named
 `ACL_Container` in Cloud Files, you can give this user read access to
