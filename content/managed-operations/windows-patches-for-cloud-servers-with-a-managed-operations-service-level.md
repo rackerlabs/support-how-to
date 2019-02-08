@@ -65,14 +65,14 @@ The following table provides additional information:
     <td>WSUS</td>
     <td>microsoftupdate.[dc].rackspace.com</td>
     <td>
-      Nightly between 1 AM and 5 AM in your server region’s time zone:<br>
+      Nightly between 1 AM and 5 AM in the time zone in which your server is located:<br>
       <ul>
 	<br />
-	<li><b>IAD</b>: EST</li>
-        <li><b>DFW</b>: CST</li>
-        <li><b>SYD</b>: AET</li>
-        <li><b>HKG</b>: HKT</li>
-        <li><b>ORD</b>: CST</li>
+	<li><strong>IAD</strong>: EST</li>
+        <li><strong>DFW</strong>: CST</li>
+        <li><strong>SYD</strong>: AET</li>
+        <li><strong>HKG</strong>: HKT</li>
+        <li><strong>ORD</strong>: CST</li>
       </ul>
     </td>
     <td>Windows Patching Portal</td>
@@ -81,14 +81,14 @@ The following table provides additional information:
     <td>Windows Server 2012 WSUS</td>
     <td>microsoftupdate.[dc].rackspace.com</td>
     <td>
-      Nightly between 1 AM and 5 AM in your server region’s time zone:<br>
+      Nightly between 1 AM and 5 AM in the time zone in which your server is located:<br>
       <ul>
 	<br />
-        <li><b>IAD</b>: EST</li>
-        <li><b>DFW</b>: CST</li>
-        <li><b>SYD</b>: AET</li>
-        <li><b>HKG</b>: HKT</li>
-        <li><b>ORD</b>: CST</li>
+        <li><strong>IAD</strong>: EST</li>
+        <li><strong>DFW</strong>: CST</li>
+        <li><strong>SYD</strong>: AET</li>
+        <li><strong>HKG</strong>: HKT</li>
+        <li><strong>ORD</strong>: CST</li>
       </ul>
     </td>
     <td>Windows Patching Portal</td>
@@ -99,14 +99,14 @@ The following table provides additional information:
     <td>WSUS</td>
     <td>microsoftupdate.[dc].rackspace.com</td>
     <td>
-      Nightly between 1 AM and 5 AM in your server region’s time zone:<br>
+      Nightly between 1 AM and 5 AM in the time zone in which your server is located:<br>
       <ul>
 	<br />
-        <li><b>IAD</b>: EST</li>
-        <li><b>DFW</b>: CST</li>
-        <li><b>SYD</b>: AET</li>
-        <li><b>HKG</b>: HKT</li>
-        <li><b>ORD</b>: CST</li>
+        <li><strong>IAD</strong>: EST</li>
+        <li><strong>DFW</strong>: CST</li>
+        <li><strong>SYD</strong>: AET</li>
+        <li><strong>HKG</strong>: HKT</li>
+        <li><strong>ORD</strong>: CST</li>
       </ul>
     </td>
     <td>Windows Patching Portal</td>
