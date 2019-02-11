@@ -10,7 +10,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Firewalld has replaced iptables as the firewall for CentOS&reg; 7]. The syntax
+Firewalld has replaced iptables as the firewall for CentOS&reg; 7. The syntax
 that firewalld uses is more user-friendly. This post shows you how to ensure
 that firewalld is running and starts on boot. It also shows you how to create
 persistent and flexible firewall rules.
@@ -155,7 +155,7 @@ You can obtain a list of these services using the below command:
 
 Then, use the following example command to allow a service:
 
-$ sudo firewall-cmd --add-service=http
+    $ sudo firewall-cmd --add-service=http
 
 The configuration takes immediate effect, but doesn't survive reboots. To
 enable these types of service configurations to restart when the server
@@ -167,7 +167,7 @@ effect, and services also reboot, as shown in the following example:
     firewall-cmd --permanent --add-service=http
 
 You can obtain additional details about firewalld's predefined rules by
-navigating to the */usr/lib/firewalld/services/** directory and reading the
+navigating to the **/usr/lib/firewalld/services/** directory and reading the
 files.
 
 ### Set up Rich Rules
