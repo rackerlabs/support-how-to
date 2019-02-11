@@ -12,7 +12,7 @@ product_url: cloud-servers
 
 Firewalld has replaced iptables as the firewall for CentOS&reg; 7. The syntax
 that firewalld uses is more user-friendly. This post shows you how to ensure
-that firewalld is running and starts on boot. It also shows you how to create
+that firewalld is running and starts when your server boots. It also shows you how to create
 persistent and flexible firewall rules.
 
 **Note**: Red Hat&reg; Fedora&reg; also uses firewalld, so all of the commands
@@ -26,8 +26,8 @@ network and which traffic is denied.
 
 This functionality might be useful if you want to establish a very strict
 firewall on your public interface, and a more relaxed firewall on your Cloud
-Network interface. It is helpful to become familiar with the zones that
-firewalld pre-defined. Firewalld has the following pre-defined zones, in
+Network interface. Becoming familiar with the zones that
+firewalld pre-defined is helpful. Firewalld has the following pre-defined zones, in
 order from least trusted to most trusted:
 
 - `drop`: The lowest level of trust. All incoming connections are dropped
@@ -51,7 +51,7 @@ order from least trusted to most trusted:
   computers on the network. A few more services might be allowed.
 - `home`: Used for home environments. This zone generally implies that you
   trust most of the other computers. A few more services are accepted.
-- `trusted`: Trusts all of the machines on the network. This is the most open
+- `trusted`: Trusts all of the machines on the network. This option is the most open
   of the available options and should be used sparingly.
 
 To use the firewall, you create rules and alter the properties of your zones,
@@ -114,7 +114,7 @@ The output should look like the following example:
 
 The output shows that the public zone is the default, and has eth0 and
 eth1 network interfaces. Dynamic Host Configuration Protocol (DHCP)
-(`dhcpv6-client`), SSH, Hypertext Transfer Protocol (HTTP), and Secure HTTP
+(`dhcpv6-client`), Secure Shell (SSH), Hypertext Transfer Protocol (HTTP), and Secure HTTP
 (HTTPS) traffic are allowed, as well as Transmission Control Protocol (TCP)
 traffic on port `1025`.
 
@@ -145,15 +145,15 @@ networking and firewall and force the changes to take effect:
 
 ### Set up the rules
 
-Firewalld comes with predefined services that enable you to add only the
+Firewalld comes with pre-defined services that enable you to add only the
 service, rather than the port number and protocol type. For example, they
 enable you to allow `http` rather than `tcp port 80`.
 
-You can obtain a list of these services using the below command:
+You can obtain a list of these services by using the following command:
 
     $ sudo firewall-cmd --get-services
 
-Then, use the following example command to allow a service:
+Then, use the following example command to add a service:
 
     $ sudo firewall-cmd --add-service=http
 
@@ -166,14 +166,14 @@ effect, and services also reboot, as shown in the following example:
     $ sudo firewall-cmd --add-service=http
     firewall-cmd --permanent --add-service=http
 
-You can obtain additional details about firewalld's predefined rules by
+You can obtain additional details about firewalld's pre-defined rules by
 navigating to the **/usr/lib/firewalld/services/** directory and reading the
 files.
 
-### Set up Rich Rules
+### Set up rich rules
 
-_Rich Rules_ are how you define conditionals in firewalld. The most common use
-case is for Rich Rules is allowing access from a particular IP address or IP
+_Rich rules_ are how you define conditionals in firewalld. The most common use
+case for rich rules is allowing access from a particular IP address or IP
 address range. The following commands enable access to TCP port 80 from any IP
 on the 192.168.0.0 network and make the rule permanent:
 
@@ -181,13 +181,13 @@ on the 192.168.0.0 network and make the rule permanent:
 
     $ sudo firewall-cmd --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" service name="http" accept' --permanent
 
-For examples of Rich Rules, see the [Fedora&reg;
+For examples of rich rules, see the [Fedora&reg;
 Wiki](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage).
 
 ### Define services
 
 You can create your own service and refer to when you create rules by placing a
-file in the **/usr/lib/firewalld/services/** directory. It is easiest
+file in the **/usr/lib/firewalld/services/** directory. The easiest way
 to perform this task by copying an existing **.xml** file in this directory,
 then changing the details.
 
