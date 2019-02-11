@@ -27,8 +27,8 @@ network and which traffic is denied.
 This functionality might be useful if you want to establish a very strict
 firewall on your public interface, and a more relaxed firewall on your Cloud
 Network interface. It is helpful to become familiar with the zones that
-firewalld pre-defined. Firewalld has the following pre-defined zones, in order
-from least trusted to most trusted:
+firewalld pre-defined. Firewalld has the following pre-defined zones, in
+order from least trusted to most trusted:
 
 - `drop`: The lowest level of trust. All incoming connections are dropped
   without reply and only outgoing connections are possible.
