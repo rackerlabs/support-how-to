@@ -55,8 +55,8 @@ from least trusted to most trusted:
   of the available options and should be used sparingly.
 
 To use the firewall, you create rules and alter the properties of your zones,
-and then assign your network interfaces to the zones that are most appropriate
-for your network.
+and then assign your network interfaces to the zones that are most
+appropriate for your network.
 
 ### Start the firewall and enable it on boot
 
