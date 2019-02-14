@@ -2,9 +2,9 @@
 permalink: retrieve-cdn-access-logs-on-per-customer-per-container-basis/
 audit_date: '2019-01-22'
 title: Retrieve CDN access logs on a per-customer, per-container basis
-created_date: '2019-01-31'
+created_date: '2019-02-14'
 created_by: Rackspace Community
-last_modified_date: '2019-01-31'
+last_modified_date: '2019-02-14'
 last_modified_by: Kate Dougherty
 product: Cloud Files
 product_url: cloud-files
@@ -16,9 +16,9 @@ on your Cloud Files storage.
 
 HyperText Transfer Protocol (HTTP) logs have functional limitations. The same
 restrictions that apply to virtual host domains on web servers also apply to
-Rackspace Cloud Files. As a result, you should not put the same customers
-files within the same container, in the same way that you don't put different
-customers' files within the same virtual host.
+Rackspace Cloud Files. As a result, you should not put files belonging to 
+different customers in the same container, in the same way that you do not 
+put files belonging to different customers on the same virtual host.
 
 This tutorial covers generating a different log set for each container for
 each customer, and then downloading and processing those logs.
