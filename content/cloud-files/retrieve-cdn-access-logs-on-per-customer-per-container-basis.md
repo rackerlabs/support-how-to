@@ -10,13 +10,13 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-This article shows you how to monitor Cloud Files usage so that you can bill
+This article shows you how to monitor Rackspace Cloud Files usage so that you can bill
 individual clients for the amount of bandwidth that they use to stream files
 on your Cloud Files storage.
 
 HyperText Transfer Protocol (HTTP) logs have functional limitations. The same
 restrictions that apply to virtual host domains on web servers also apply to
-Rackspace Cloud Files. As a result, you should not put files belonging to 
+Cloud Files. As a result, you should not put files belonging to 
 different customers in the same container, in the same way that you do not 
 put files belonging to different customers on the same virtual host.
 
@@ -36,14 +36,14 @@ bandwidth. However, we recommend that you use the approach in this tutorial
 instead.
 
 Think of Cloud Files CDN access logs in the same way that you would any
-customer virtual host that is running on a Plesk&reg; or cPanel&rge; box.
-It is important in those cases to keep the virtual hosts separate so that you
-can bill each customer based on the log file for that virtual host. You should
-also use the same approach for the containers' logs.
+customer virtual host that is running on a Plesk&reg; or cPanel&reg; box.
+In such cases, keeping the virtual hosts separate so that you
+can bill each customer based on the log file for that virtual host is important. 
+You should also use the same approach for the container logs.
 
 ### Step 1: Enable the CDN access logs for a Cloud Files container
 
-Before you proceed, it's important that you ensure that logging is enabled on
+Before you proceed, ensure that logging is enabled on
 your Cloud Files CDN-enabled container. Logging is not turned on by default.
 
 If you haven't created a container yet, you can create one by performing the
@@ -64,9 +64,10 @@ customer so that you can bill customers individually.
 
 ### Step 2: Retrieve the CDN access logs recursively (all CDN container logs)
 
-It is possible to download the **.CDN_ACCESS_LOGS** by using cURL, but this
-example uses [Swiftly](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/), a Rackspace-developed client tool that
-enables you to download from and upload to Rackspace Cloud Files. This tool
+You can download the **.CDN_ACCESS_LOGS** by using cURL, but this
+example uses [Swiftly](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/), 
+a Rackspace-developed client tool that
+enables you to download from and upload to Cloud Files. This tool
 simplifies the process and enables you to automate it.
 
 You need the following pieces of information to use Swiftly:
@@ -118,9 +119,9 @@ following example, which assumes that you are the root user:
     echo "auth_url = https://identity.api.rackspacecloud.com/v2.0" >> /root/.swiftly.conf
     echo "region = LON" >> /root/.swiftly.conf
 
-**Note**: You can find your API key in the **My Profile & Settings** area of
-the Cloud Control Panel. Click **Show** next to the **Rackspace API Key**
-field to display it.
+**Note**: You can find your API key in the **My Profile & Settings** area
+under your username in the Cloud Control Panel. Click **Show** 
+next to the **Rackspace API Key** field to display it.
 
 After you set your username, API key, and region in the **.swiftly.conf**
 file, verify that it looks like the following example:
@@ -229,8 +230,8 @@ Run the following command to install the Apache&reg; HTTP daemon (httpd) for the
 If you do not have thousands of containers, you might want to generate an
 index of the logs so that you can browse through them.
 
-**Important**: You can only use the following commands to index your logs if
-each container name is the host name of the CDN. If you are not using this
+**Important**: If each container name is the host name of the CDN, you can 
+use the following commands to index your logs. If you are not using this
 approach, the steps that you need to use might differ.
 
 Index the logs by using the following commands:
