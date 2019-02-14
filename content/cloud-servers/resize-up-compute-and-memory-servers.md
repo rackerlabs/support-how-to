@@ -46,7 +46,7 @@ Control Panel:
    your system resources and that there was no adverse impact to your server.
 
 6. Verify that your server was resized correctly by remotely logging in to
-   your server and verifying your system resources and filesystem integrity.
+   your server and verifying your system resources and file system integrity.
 
    **Note:** Verification is an important step because it is the last chance
    you have to revert to the original size and cancel any changes to your
