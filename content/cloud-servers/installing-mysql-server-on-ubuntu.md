@@ -170,7 +170,7 @@ Some applications create a database as part of their setup process, but others
 require you to create a database yourself and tell the
 application about it.
 
-To create a database, log into the `mysql` shell and run the following command,
+To create a database, log in to the `mysql` shell and run the following command,
 replacing `demodb` with the  name of the database that you want to create:
 
     CREATE DATABASE demodb;
