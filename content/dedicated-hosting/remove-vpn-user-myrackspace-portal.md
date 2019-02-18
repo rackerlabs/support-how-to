@@ -1,11 +1,11 @@
 ---
 permalink: remove-vpn-user-myrackspace-portal/
-audit_date: '2018-03-06'
+audit_date: '2019-02-18'
 title: Remove a VPN user in the MyRackspace Portal
 type: article
 created_date: '2017-10-16'
 created_by: Trevor Becker
-last_modified_date: '2018-03-08'
+last_modified_date: '2019-02-18'
 last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -40,10 +40,13 @@ To remove the VPN user, use the following steps:
 
     b. Select the **MyRackspace Portal + Phone Support + Systems & Devices** option.
 
-    c. Fill in the name of the VPN user you want to delete.
-
-   **Note:** You can obtain a list of currently configured client VPN users by 
-   [downloading your firewall's configuration](https://community.rackspace.com/products/f/43/t/5892).
+    c. Fill in the name of the VPN user you want to delete.  If you don't know the VPN users,
+    Use the following steps to download your fiewall's configuration and find the VPN users:
+    
+      i. Log into the [Control Panel](https://login.rackspace.com) and choose **Dedicated Hosting**.
+      ii. Click the drop down next to "Products" to select devices.
+      iii. Mouse over the gear to the left of the Firewall Device to download.
+      iv. Select **Download network configuration**. 
 
 5. Click **Create Ticket**.
 
