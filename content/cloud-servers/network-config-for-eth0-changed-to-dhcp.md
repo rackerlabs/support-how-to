@@ -1,48 +1,63 @@
 ---
-permalink: network-config-for-eth0-changed-to-dhcp
-audit_date:
-title: Network Config for eth0 Changed to DHCP After Upgrading RHEL/CentOS
+permalink: network-configuration-for-eth0-changed-to-dhcp-after-upgrading-rhel-centos
+audit_date: '2019-02-18'
+title: Network configuration for eth0 changed to DHCP after upgrading RHEL/CentOS
 created_date: '2019-01-18'
 created_by: Rackspace Community
-last_modified_date: 
-last_modified_by: 
+last_modified_date: '2019-02-18'
+last_modified_by: 'Erik Wilson'
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This is a known issue.  Upgrading to RHEL/CentOS 7.4, then rebooting causes eth0 configuration to change to DHCP (breaking network connectivity).
-Confirmed not affected:
-RackConnect v2 servers
-Checking if your server is affected:
-Rackspace public cloud servers with a directly-attached public IP and Rackconnect v3 public cloud servers are likely to be affected. Run the command: 
+When upgrading to RHEL/CentOS 7.4, rebooting causes the `eth0` configuration to change to DHCP. This breaks network connectivity.
 
-cat /var/run/cloud-init/result.json
+**Note:** The RackConnect v2 servers are not affected.
 
-You can tell whether or not you are affected by the result of this command.
+## Check if your server is affected
 
-Affected:
-{
+Rackspace public cloud servers with a directly-attached public IP and Rackconnect v3 public cloud servers are likely to be affected by this issue.
 
-  "v1": {
+To determine if your server is affected, run the following command:
 
-    "datasource": "DataSourceNone",
+      cat /var/run/cloud-init/result.json
 
-    "errors": []
+The results of this command show if your server is affected.
 
-  }
+If you receive the following results, your server is affected:
+        {
 
-Not affected:
-{   "v1": {     "datasource": "DataSourceConfigDrive [net,ver=2][source=/dev/xvdd]",     "errors": []   } }
-Problem:
-The cloud-init application is looking for a datasource and Rackspace does not provide one by default. The fix for this is easy to do and you do not have to downgrade the package.
-Solution:
-If you haven't rebooted yet, run the following command:
-echo -e 'network:\n  config: disabled' >> /etc/cloud/cloud.cfg.d/10_rackspace.cfg
+          "v1": {
 
-This will stop cloud-init from wiping your eth0 configuration on reboot.
+            "datasource": "DataSourceNone",
 
-If you rebooted already and networking is down:
-You can quickly recover networking by adding a Cloud Network to the server or by doing a reset network API call. The reset-network call is not available via the mycloud portal, only via the API. The easiest way to use the API is with the unofficial GUI API tool, Pitchfork: https://pitchfork.cloudapi.co/servers/#reset_network-cloud_servers 
+            "errors": []
 
-After you recover networking:
-Be sure to apply the solution listed in the "Solution" section. Otherwise, rebooting will break networking again.
+          }
+
+If you receive the following results, your server is not affected:
+
+      {   "v1": {     "datasource": "DataSourceConfigDrive [net,ver=2][source=/dev/xvdd]",     "errors": []   } }
+
+
+If your server is affected, the problem is that the `cloud-init` application is looking for a datasource that Rackspace does not provide by default.
+
+Run the following commands to fix this issue. You do not have to downgrade the package.
+
+If you have not rebooted yet, run the following command:
+
+      echo -e 'network:\n  config: disabled' >> /etc/cloud/cloud.cfg.d/10_rackspace.cfg
+
+This command stops the `cloud-init` application from deleting your `eth0` configuration on reboot.
+
+If you rebooted already and networking is down, complete the following steps:
+
+1. Add a Cloud Network to the server or reset the network API call.
+
+   You cannot reset the network API call through the mycloud portal. You must use the API. The easiest way to use the API is with the unofficial GUI API tool, Pitchfork: https://pitchfork.cloudapi.co/servers/#reset_network-cloud_servers.
+
+2. After you recover networking, run the following command or rebooting will continue to break networking:
+
+      echo -e 'network:\n  config: disabled' >> /etc/cloud/cloud.cfg.d/10_rackspace.cfg
+
+
