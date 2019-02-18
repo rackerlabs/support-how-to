@@ -26,9 +26,7 @@ Linux&reg;, and security devices as well as network devices.
 
 To remove the VPN user, use the following steps:
 
-1. Log in to the [MyRackspace customer portal](https://my.rackspace.com/portal/auth/login).
-
-   You need your Rackspace account number, as well as your username and password.
+1. Log in to the [MyRackspace customer portal](https://login.rackspace.com).
 
 2. In the top navigation bar, click on the **Tickets** tab and select **Create Ticket**.
 
