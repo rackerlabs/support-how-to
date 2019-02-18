@@ -14,9 +14,9 @@ When upgrading to RHEL/CentOS 7.4, rebooting causes the `eth0` configuration to 
 
 **Note:** The RackConnect v2 servers are not affected.
 
-## Check if your server is affected
+## Check to see if your server is affected
 
-Rackspace public cloud servers with a directly-attached public IP and Rackconnect v3 public cloud servers are likely to be affected by this issue.
+Rackspace public cloud servers with a directly attached public IP and Rackconnect v3 public cloud servers are likely to be affected by this issue.
 
 To determine if your server is affected, run the following command:
 
@@ -25,32 +25,33 @@ To determine if your server is affected, run the following command:
 The results of this command show if your server is affected.
 
 If you receive the following results, your server is affected:
-        {
 
-          "v1": {
+         {
 
-            "datasource": "DataSourceNone",
+           "v1": {
 
-            "errors": []
+             "datasource": "DataSourceNone",
 
-          }
+             "errors": []
+
+           }
 
 If you receive the following results, your server is not affected:
 
       {   "v1": {     "datasource": "DataSourceConfigDrive [net,ver=2][source=/dev/xvdd]",     "errors": []   } }
 
 
-If your server is affected, the problem is that the `cloud-init` application is looking for a datasource that Rackspace does not provide by default.
+If your server is affected, it is because the **cloud-init** application is looking for a datasource that Rackspace does not provide by default.
 
 Run the following commands to fix this issue. You do not have to downgrade the package.
 
-If you have not rebooted yet, run the following command:
+If you have not rebooted, run the following command:
 
       echo -e 'network:\n  config: disabled' >> /etc/cloud/cloud.cfg.d/10_rackspace.cfg
 
-This command stops the `cloud-init` application from deleting your `eth0` configuration on reboot.
+This command stops the **cloud-init** application from deleting your `eth0` configuration on reboot.
 
-If you rebooted already and networking is down, complete the following steps:
+If you have rebooted and networking is down, complete the following steps:
 
 1. Add a Cloud Network to the server or reset the network API call.
 
