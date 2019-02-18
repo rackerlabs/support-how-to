@@ -36,16 +36,19 @@ To remove the VPN user, use the following steps:
 
 4. Complete the following fields:
 
-    a. Select the contact name in the drop-down field.
+   a. Select the contact name in the drop-down field.
 
-    b. Select the **MyRackspace Portal + Phone Support + Systems & Devices** option.
+   b. Select the **MyRackspace Portal + Phone Support + Systems & Devices** option.
 
-    c. Fill in the name of the VPN user you want to delete.  If you don't know the VPN users,
-    Use the following steps to download your fiewall's configuration and find the VPN users:
+   c. Fill in the name of the VPN user you want to delete.  If you don't know the VPN users,
+   Use the following steps to download your fiewall's configuration and find the VPN users:
     
       i. Log into the [Control Panel](https://login.rackspace.com) and choose **Dedicated Hosting**.
+      
       ii. Click the drop down next to "Products" to select devices.
+      
       iii. Mouse over the gear to the left of the Firewall Device to download.
+      
       iv. Select **Download network configuration**. 
 
 5. Click **Create Ticket**.
