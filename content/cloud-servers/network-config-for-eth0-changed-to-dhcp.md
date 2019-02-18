@@ -55,10 +55,10 @@ If you have rebooted and networking is down, complete the following steps:
 
 1. Add a Cloud Network to the server or reset the network API call.
 
-   You cannot reset the network API call through the mycloud portal. You must use the API. The easiest way to use the API is with the unofficial GUI API tool, Pitchfork: <https://pitchfork.cloudapi.co/servers/#reset_network-cloud_servers>.
+   You cannot reset the network API call through the mycloud portal. You must use the API. The easiest way to use the API is with the unofficial GUI API tool, [Pitchfork](https://pitchfork.cloudapi.co/servers/#reset_network-cloud_servers).
 
 2. After you recover networking, run the following command or rebooting will continue to break networking:
 
-       echo -e 'network:\n  config: disabled' >> /etc/cloud/cloud.cfg.d/10_rackspace.cfg
+         echo -e 'network:\n  config: disabled' >> /etc/cloud/cloud.cfg.d/10_rackspace.cfg
 
 
