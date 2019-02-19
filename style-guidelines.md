@@ -12,6 +12,7 @@ Follow these guidelines when writing content:
 - [Clarify gerunds and participles](#clarify-gerunds-and-participles)
 - [Write clear and consistent code examples](#write-clear-and-consistent-code-examples)
 - [Use consistent terminology](#use-consistent-terminology)
+- [When and when not to suggest contacting Support](when-and-when-not-to-suggest-contacting-support)
 
 For comprehensive writing and style guidelines, see the [complete style guide for technical content](https://developer.rackspace.com/docs/style-guide/).
 
@@ -253,3 +254,19 @@ using |	by using
 For more guidelines about terminology, see the following sections in the complete style guide:
 - [Terminology for a global audience](https://developer.rackspace.com/docs/style-guide/terminology/terms-for-global-audience/#terms-for-global-audiencee)
 - [Terminology](https://developer.rackspace.com/docs/style-guide/terminology/)
+
+### When and when not to suggest contacting Support
+
+A customer who has sought out documentation has inherently communicated that documentation is their
+preferred channel of support at that moment. Suggesting that they contact the Support team directly
+undermines the purpose of the documentation and diminishes the user's confidence in the instructions.
+
+- Don't suggest contacting Support directly.
+
+- Don't include Support phone numbers.
+
+- Don't recommend creating a ticket unless it is for gaining access to a Rackspace feature.
+
+  You should not recommend contacting the Support team in an article unless doing so is a required step. A
+  required step is a task that the customer cannot complete without contacting Support by phone or by
+  opening a ticket.
