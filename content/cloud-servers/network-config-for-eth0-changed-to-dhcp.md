@@ -10,7 +10,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-When you upgrade to RHEL® CentOS® 7.4, rebooting causes the eth0 configuration to change to Dynamic Host Configuration Protocol (DHCP). This change breaks network connectivity.
+When you upgrade to RHEL® CentOS® 7.4, rebooting causes the eth0 configuration to change to Dynamic Host
+Configuration Protocol (DHCP). This change breaks network connectivity.
 
 **Note:** The RackConnect v2 servers are not affected.
 
