@@ -37,7 +37,6 @@ If you receive the following results, your server is not affected:
             "datasource": "DataSourceConfigDrive [net,ver=2][source=/dev/xvdd]",
             "errors": []
           }
-        }
 
 If your server is affected, it is because the **cloud-init** application is looking for a datasource that Rackspace does not provide by default.
 
