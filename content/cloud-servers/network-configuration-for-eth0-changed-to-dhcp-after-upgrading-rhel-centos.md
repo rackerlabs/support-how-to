@@ -5,7 +5,7 @@ title: Network configuration for eth0 changed to DHCP after upgrading RHEL/CentO
 created_date: '2019-01-18'
 created_by: Rackspace Community
 last_modified_date: '2019-02-18'
-last_modified_by: 'Erik Wilson'
+last_modified_by: Erik Wilson
 product: Cloud Servers
 product_url: cloud-servers
 ---
