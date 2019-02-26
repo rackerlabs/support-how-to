@@ -2,9 +2,9 @@
 permalink: use-firewalld-on-centos-7/
 audit_date: '2019-01-22'
 title: Use firewalld on CentOS 7
-created_date: '2019-02-11'
+created_date: '2019-02-26'
 created_by: Rackspace Community
-last_modified_date: '2019-02-11'
+last_modified_date: '2019-02-26'
 last_modified_by: Kate Dougherty
 product: Cloud Servers
 product_url: cloud-servers
@@ -30,29 +30,25 @@ Network interface. Becoming familiar with the zones that
 firewalld pre-defined is helpful. Firewalld has the following pre-defined zones, in
 order from least trusted to most trusted:
 
-- `drop`: The lowest level of trust. All incoming connections are dropped
-  without reply and only outgoing connections are possible.
-- `block`: Similar to `drop`, but instead of simply dropping connections,
-  incoming requests are rejected with an `icmp-host-prohibited` or
-  `icmp6-adm-prohibited` message.
-- `public`: Used for public, untrusted networks. Use this zone when you
-  don't trust the other computers on the network. Selected incoming
-  connections are accepted on a case-by-case basis.
-- `external`: Used on external networks where the firewall is used as the
-  gateway. This zone is configured for Network Address Translation (NAT)
-  masquerading so that your internal network remains private but reachable.
-- `internal`: Used for the internal portion of a gateway. Use when the
-  other computers are fairly trustworthy. Some additional services are
-  available.
-- `dmz`: Used for computers that are located in a demilitarized zone (DMZ).
-  These are isolated computers that do not have access to the rest of your
-  network. Only certain incoming connections are allowed.
-- `work`: Used for work machines. Use this zone when you trust most of the
-  computers on the network. A few more services might be allowed.
-- `home`: Used for home environments. This zone generally implies that you
-  trust most of the other computers. A few more services are accepted.
-- `trusted`: Trusts all of the machines on the network. This option is the most open
-  of the available options and should be used sparingly.
+- `drop`: This zone only allows outgoing connections, and drops incoming connections 
+  without a reply.
+- `block`: While similar to `drop`, this zone rejects incoming requests with an 
+  `icmp-host-prohibited` or `icmp6-adm-prohibited` message.
+- `public`: Use this zone for public networks, or when you don't trust the 
+  other computers on the network. This zone accepts incoming connections on a 
+  case-by-case basis.
+- `external`: Use this zone on external networks where the firewall acts as the
+	gateway. This zone is configured for Network Address Translation (NAT)
+	masquerading so that your internal network is private but reachable.
+- `internal`: Use this zone for the internal part of a gateway, where the
+  other computers are reasonably trustworthy.
+- `dmz`: Use for isolated computers that are located in a demilitarized zone 
+  (DMZ). This zone only allows Secure Shell (SSH) and 
+  Internet Control Message Protocol (ICMP).
+- `work`: Use this zone for work machines.
+- `home`: Use this zone for home environments.
+- `trusted`: Use this zone when you trust all of the machines on the network. 
+  Because this is the most open zone, it should be used sparingly.
 
 To use the firewall, you create rules and alter the properties of your zones,
 and then assign your network interfaces to the zones that are most
