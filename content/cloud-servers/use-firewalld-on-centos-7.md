@@ -45,9 +45,9 @@ order from least trusted to most trusted:
 - `dmz`: Use this zone for isolated computers that are located in a demilitarized 
   zone (DMZ). This zone only allows Secure Shell (SSH) and 
   Internet Control Message Protocol (ICMP).
-- `work`: Use this zone for work machines.
+- `work`: Use this zone for work computers.
 - `home`: Use this zone for home environments.
-- `trusted`: Use this zone when you trust all of the machines on the network. 
+- `trusted`: Use this zone when you trust all of the computers on the network. 
 
 To use the firewall, you create rules and alter the properties of your zones,
 and then assign your network interfaces to the zones that are most
@@ -109,7 +109,7 @@ The output should look like the following example:
 
 The output shows that the public zone is the default, and has eth0 and
 eth1 network interfaces. Dynamic Host Configuration Protocol (DHCP)
-(`dhcpv6-client`), Secure Shell (SSH), Hypertext Transfer Protocol (HTTP), and Secure HTTP
+(`dhcpv6-client`), SSH, Hypertext Transfer Protocol (HTTP), and Secure HTTP
 (HTTPS) traffic are allowed, as well as Transmission Control Protocol (TCP)
 traffic on port `1025`.
 
