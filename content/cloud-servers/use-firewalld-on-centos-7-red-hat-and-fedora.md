@@ -1,7 +1,7 @@
 ---
-permalink: use-firewalld-on-centos-7/
+permalink: use-firewalld-on-centos-7-red-hat-and-fedora/
 audit_date: '2019-01-22'
-title: Use firewalld on CentOS 7
+title: Use firewalld on CentOS 7, Red Hat, and Fedora
 created_date: '2019-02-26'
 created_by: Rackspace Community
 last_modified_date: '2019-02-26'
