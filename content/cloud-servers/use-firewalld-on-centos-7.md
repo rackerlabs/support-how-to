@@ -12,8 +12,8 @@ product_url: cloud-servers
 
 Firewalld has replaced iptables as the firewall for CentOS&reg; 7. The syntax
 that firewalld uses is more user-friendly. This post shows you how to ensure
-that firewalld is running and starts when your server boots. It also shows you how to create
-persistent and flexible firewall rules.
+that firewalld is running and starts when your server boots. It also shows you 
+how to create persistent and flexible firewall rules.
 
 **Note**: Red Hat&reg; Fedora&reg; also uses firewalld, so all of the commands
 in this article also work in the Fedora image that Rackspace provides.
