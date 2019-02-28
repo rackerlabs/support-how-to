@@ -5,8 +5,8 @@ title: Rackspace billing FAQ
 type: article
 created_date: '2014-01-17'
 created_by: Rackspace Support
-last_modified_date: '2019-01-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-02-28'
+last_modified_by: Stephanie Fillmon
 product: undefined
 product_url: undefined
 ---
@@ -149,7 +149,7 @@ suspension."
 
 #### Am I still charged if my server goes down?
 
-The Rackspace [Cloud Terms of 
+The Rackspace [Cloud Terms of
 Service](https://www.rackspace.com/information/legal/cloud/tos) explains
 when customers are entitled to credits.
 
@@ -182,11 +182,6 @@ liable for data loss.
 anniversary date. Depending on the date on which your cancellation is
 finalized, you might still receive an additional, final invoice on your next
 invoice date. Refer to your billing overview for your monthly invoice date.
-
-If you prefer to keep your account open without receiving future charges,
-you can manually delete all services from your account profile. This
-method enables you to use the Rackspace services in the future without
-the need to register a new account.
 
 #### I don't agree with my bill. How can I dispute a charge?
 
