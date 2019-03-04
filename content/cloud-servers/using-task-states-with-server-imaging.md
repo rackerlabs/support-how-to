@@ -149,7 +149,7 @@ ability to:
     snapshot (e.g., bring your database management system
     back up).
 
-You can write a simple bash script to monitor your server.
+You can write a simple Bash script to monitor your server.
  How elaborate you want the script to be is up to you, here's a sample
 of the most relevant part.  (Please read through and make sure you know
 what it's doing before using it.)  It uses four programs (curl, egrep,

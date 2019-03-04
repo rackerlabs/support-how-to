@@ -43,7 +43,7 @@ prerequisites, see the following articles:
 
 ### Set environment variables
 
-In a bash shell, set the following environment variables:
+In a Bash shell, set the following environment variables:
 
     CF_USERNAME=       # your Rackspace cloud username
     CF_API_KEY=        # your Rackspace cloud API key
