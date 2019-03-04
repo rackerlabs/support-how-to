@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article lists the tools that are available for performing an analysis of a compromised server. (Cleaning the 
+This article lists the tools that are available for performing an analysis of a compromised server. (Cleaning the
 compromised server is outside of its scope.) Using these tools helps you determine the following information:
 
 - The point of entry
@@ -20,9 +20,9 @@ compromised server is outside of its scope.) Using these tools helps you determi
 - The level of access that the attacker obtained
 - The audit trail of the attacker's footprints
 
-Many different types of compromises can exploit a UNIX&reg; server. Attackers might launch a brute force attack, guess a 
-weak password, or attempt to use known software vulnerabilities in the hope that the server 
-isn't on a regular patch schedule. It's important to understand how the machine was compromised so that you can 
+Many different types of compromises can exploit a UNIX&reg; server. Attackers might launch a brute force attack, guess a
+weak password, or attempt to use known software vulnerabilities in the hope that the server
+isn't on a regular patch schedule. It's important to understand how the machine was compromised so that you can
 determine the extent of the damage to your server and other hosts that are accessible to the compromised machine.
 
 For most root-level compromises, the most straightforward recovery approach is to perform a clean installation of the server and restore any critical data from backups. However, until you know the entry point of the compromise, this step might not be sufficient because you need to understand the compromise so that you can properly close the security hole.
@@ -58,7 +58,7 @@ The `netstat -na` command displays the current listening sockets on the machine.
 
 #### ps -wauxef command    
 
-This command helps you track down any errant processes that are listening and shows other odd processes (for example, the user `www` running a bash process). You can also run the command `lsof |grep <pid>` to find more information about open files that a process is using. Concurrently, running `cat /proc/<pid>/cmdline` might also tell you where the file that controls a process exists.
+This command helps you track down any errant processes that are listening and shows other odd processes (for example, the user `www` running a Bash process). You can also run the command `lsof |grep <pid>` to find more information about open files that a process is using. Concurrently, running `cat /proc/<pid>/cmdline` might also tell you where the file that controls a process exists.
 
 #### bash_history command
 
@@ -76,7 +76,7 @@ When you run the `strace -p pid` command on a suspicious process, the `strace` c
 
 The preceding commands might not provide many clues regarding what occurred during the attack. If this is the case, you can use more specialized tools.
 
-**Important**: Before you use the tools in this section, you should confirm that the binaries that you are using to investigate are not trojanned versions. Trojanned versions can perform tasks on behalf of the attacker, such as 
+**Important**: Before you use the tools in this section, you should confirm that the binaries that you are using to investigate are not trojanned versions. Trojanned versions can perform tasks on behalf of the attacker, such as
 omitting information that might reveal what the compromise was trying to accomplish.
 
 Run the following command to verify that you have a good working set of tools:
@@ -132,11 +132,11 @@ Check the following world-writable directories to which Apache&reg; commonly wri
 
 Look for any files that you don't recognize or that look suspicious. Be on the lookout for hidden files and files that have execute permissions.
 
-If you have set permissions for directories on your website to 777, check those as well. 
+If you have set permissions for directories on your website to 777, check those as well.
 
 ### Find the point of entry
 
-If you find helpful information by using the tools in the previous sections, you might also have a timestamp for the time 
+If you find helpful information by using the tools in the previous sections, you might also have a timestamp for the time
 that the malicious file or files were installed on the server.
 
 You can use that timestamp to review your website's access logs for suspicious entries that were added during that time period. If you find something suspicious, you can cross-reference it with the location of the malicious files to narrow down the point of entry.
@@ -169,7 +169,7 @@ Output:
 
 When you use the `strings` command on that file, you see that it's a backdoor shell.
 
-### Step 2: Check if the attacker cleaned their tracks 
+### Step 2: Check if the attacker cleaned their tracks
 
 In many cases, attackers are inexperienced or sloppy, and have not erased their tracks. Use the following steps to check if the attacker has left clues:
 
@@ -185,20 +185,20 @@ In many cases, attackers are inexperienced or sloppy, and have not erased their 
 
 In this example, the output from the `/root/.bash_history` command reveals that the attacker performed the following actions on the server:
 
-1. Downloaded malicious tools to serve up via Apache in `/var/www/html/*`. 
-2. Installed Internet Relay Chat (IRC) tools and other tools in `/var/tmp/.ICE-unix`. 
-3. Modified root's crontab to re-download the malicious tools if someone removes them from the server 
+1. Downloaded malicious tools to serve up via Apache in `/var/www/html/*`.
+2. Installed Internet Relay Chat (IRC) tools and other tools in `/var/tmp/.ICE-unix`.
+3. Modified root's crontab to re-download the malicious tools if someone removes them from the server
    (`* * * * * /var/tmp/.ICE-unix/update >/dev/null 2>&1`).
 
 ### Step 3: Check for basic web hacks
 
-If steps 1 and 2 don't reveal anything, the attack is probably a simple web hack that you can easily clean without 
+If steps 1 and 2 don't reveal anything, the attack is probably a simple web hack that you can easily clean without
 formatting the server.
 
-However, in this example, we know that the attacker gained root privileges. They also might have exploited phpMyAdmin. 
+However, in this example, we know that the attacker gained root privileges. They also might have exploited phpMyAdmin.
 After the backdoor PHP Shell loaded, the attacker was able to perform a local root exploit to escalate their privileges.
 
-Run the following commands to find hidden files and directories in the world-readable directories to which Apache 
+Run the following commands to find hidden files and directories in the world-readable directories to which Apache
 typically writes `tmp` files:
 
     ls -al /var/tmp |less
@@ -227,7 +227,7 @@ The output appears similar to the following example:
 
     tcp 0 1 172.16.23.13:60968 22.22.22.22:7000 SYN_SENT 6860/sshd
 
-In this example, several other SSH-established connections are also running from high-level ports, as shown in 
+In this example, several other SSH-established connections are also running from high-level ports, as shown in
 the following example:
 
     [root@www tmp]# netstat -natp |grep sshd |awk '{print $4,$5,$6,$7}'
@@ -252,7 +252,7 @@ the following example:
 
     123.123.123.123:57127 143.143.143.143:6667 ESTABLISHED 6860/sshd
 
-This output indicates that the attackers are still connected to this machine. However, you aren't able to see them 
+This output indicates that the attackers are still connected to this machine. However, you aren't able to see them
 because they probably modified the binaries to hide themselves.
 
 ### Step 5: Determine the point of entry for the original compromise
@@ -263,7 +263,7 @@ Use the following steps to determine the point of entry for the original comprom
 
 2. Check the Apache access logs and error logs. This step might help determine which site is exploitable.
 
-   You should also cross-reference IPs against the logs if you think that there is a chance that it might have 
+   You should also cross-reference IPs against the logs if you think that there is a chance that it might have
    originated from there. This is a quick and straightforward way to trace down the point of origin.
 
    You can quickly check servers that have a large number of web logs by using the following commands:
@@ -274,7 +274,7 @@ Use the following steps to determine the point of entry for the original comprom
 
        for i in `ls * |grep access`; do echo $i && grep curl $i; done
 
-   **Note**: This example searches `wget` because `wget` was in root's history file under what might have been part of the 
+   **Note**: This example searches `wget` because `wget` was in root's history file under what might have been part of the
    entry point.
 
 ### Outcome
