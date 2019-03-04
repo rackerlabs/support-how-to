@@ -3,7 +3,7 @@ title: Cloud Servers
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2018-12-06'
+last_modified_date: '2019-03-04'
 last_modified_by: Stephanie Fillmon
 permalink: /cloud-servers/
 product: Cloud Servers
@@ -37,7 +37,6 @@ This introduction covers everything you need to know as a new Rackspace customer
 
 ### DNS & domain management
 
-- [What are your name servers?](/how-to/rackspace-cloud-essentials-what-are-your-name-servers)
 - [Transferring your domain to the Rackspace Cloud](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
 - [Managing DNS](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
 
