@@ -1,6 +1,6 @@
 ---
 permalink: installing-and-configuring-vsftpd
-audit_date:
+audit_date: '2019-03-04'
 title: Installing and Configuring vsFTPD
 created_date: '2019-01-17'
 created_by: Rackspace Community
@@ -71,19 +71,28 @@ Umask removes permissions from the files. For example, a file with 777 becomes 7
 
 #### Restart and enable vsFTPD
 
-After editing the configuation file, you must restart the vsFTPD service for the changes to take effect.
+After you edit the configuation file, you must restart the vsFTPD service for the changes to take effect. Use
+the following command to restart vsFTPD on CentOS, RHEL, and Ubuntu:
 
-### Poke holes in the firewall
+    systemctl restart vsftpd
+    
+After vsFTPD restarts, you should also configure it to start when the server boots. Use the following command to enable
+vsFTPD to start at boot on CentOS, RHEL, and Ubuntu:
 
-**CentOS/RHEL**
+    systemctl enable vsftpd
 
-iptables -I RH-Firewall-1-INPUT -p tcp --dport 21 -m comment --comment "FTP" -j ACCEPT
-iptables -I RH-Firewall-1-INPUT -p tcp -m multiport --dports 60000:65000 -m comment --comment "FTP passive mode ports" -j ACCEPT
-/etc/init.d/iptables save
+#### Allow vsFTPD through the firewall
+
+The final step is to allow vsFTPD through your server firewall by using the following commands:
+
+**CentOS and RHEL**
+
+    iptables -I RH-Firewall-1-INPUT -p tcp --dport 21 -m comment --comment "FTP" -j ACCEPT
+    iptables -I RH-Firewall-1-INPUT -p tcp -m multiport --dports 60000:65000 -m comment --comment "FTP passive mode ports" -j ACCEPT
+    /etc/init.d/iptables save
 
 **Ubuntu**
 
-ufw allow 21
-ufw allow proto tcp from any to any port 60000:65000
-Start me up!
-service vsftpd start
+    ufw allow 21
+    ufw allow proto tcp from any to any port 60000:65000
+
