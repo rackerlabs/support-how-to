@@ -12,7 +12,10 @@ product_url: dedicated-hosting
 
 The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. 
  
+
+ 
 ### Firewall support:
+Firewall support contains the following elements:
 * Monitoring and management of network firewalls
 * Customized patching, rollback capabilities, and iOS Updates
 * Problem, incident, and change management
@@ -23,6 +26,8 @@ The Spheres of Support lists the technologies and features in the Network Securi
 * Provision VLANs and private IP space
 * Managed VPN access
 * SSL certificate installation and troubleshooting
+
+The following table shows which features are supported in Cisco and Juniper firewalls:
 
 |   | Feature | Cisco ASA | Juniper SRX |
 | :---: |:--- | :---: | :---: |
@@ -74,11 +79,15 @@ The Spheres of Support lists the technologies and features in the Network Securi
 ||RackConnect Global 2.1 Static - BGP (with TOR)  |✓| |
 
 
+
 ### Load balancer support:
+Load balancer support contains the following elements:
 * Monitoring and management of Load balancers
 * Problem, incident, and change management
 * Configuration changes on behalf of the customer
 * Performance monitoring and tuning
+
+The following table shows which features are supported in F5 LTM, Brocade ADX, NetScaler VPX, and NetScaler MPX load balancers:
 
 | | Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
 | :---: |:--- | :---: | :---: | :---: | :---: |
@@ -136,7 +145,9 @@ The Spheres of Support lists the technologies and features in the Network Securi
 ^ VPX - Product in early access soon to be limited access
 
 ^^ MPX - Product not launched, only supportability planned at this stage.
-  
+
+The following table shows which global load balancer features are supported in F5 LTM, Brocade ADX, NetScaler VPX, and NetScaler MPX load balancers:
+
 ### Global load balancer
 
 || Feature | F5 GTM |  ADX GSLB | NetScaler VPX | NetScaler MPX|
@@ -174,6 +185,7 @@ End of support on September 1, 2014. Customers that continue using the platform 
 Note: Rackspace makes every effort to align our support dates for operating systems with the manufacturer’s support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms?_ga=2.83585110.1185508516.1551714471-1563606307.1544215242)
 
 ### General topics
+
 | Feature | Support level | 
 | :--- |:---: |
 | DDoS mitigation |✓|
