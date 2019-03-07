@@ -10,12 +10,12 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The Spheres of Support lists the technologies and features in the Network Security domain and defines support level for each item. 
+The Spheres of Support lists the technologies and features in the network security domain and defines support level for each item. 
  
+### Firewall support
 
- 
-### Firewall support:
 Firewall support contains the following elements:
+
 * Monitoring and management of network firewalls
 * Customized patching, rollback capabilities, and iOS Updates
 * Problem, incident, and change management
@@ -27,7 +27,7 @@ Firewall support contains the following elements:
 * Managed VPN access
 * SSL certificate installation and troubleshooting
 
-The following table shows which features are supported in Cisco and Juniper firewalls:
+The following table shows which features are supported in Cisco&reg; and Juniper&reg; firewalls:
 
 |   | Feature | Cisco ASA | Juniper SRX |
 | :---: |:--- | :---: | :---: |
@@ -78,18 +78,23 @@ The following table shows which features are supported in Cisco and Juniper fire
 ||RackConnect Global 2.0 Static - BGP |✓| |
 ||RackConnect Global 2.1 Static - BGP (with TOR)  |✓| |
 
+### Load balancer support
 
-
-### Load balancer support:
 Load balancer support contains the following elements:
+
 * Monitoring and management of Load balancers
 * Problem, incident, and change management
 * Configuration changes on behalf of the customer
 * Performance monitoring and tuning
 
-The following table shows which features are supported in F5 LTM, Brocade ADX, NetScaler VPX, and NetScaler MPX load balancers:
+The following table shows which features are supported in F5&reg; LTM&reg;, Brocade&reg; ADX, 
+NetScaler&reg; VPX, and NetScaler MPX load balancers:
 
-| | Feature | F5 LTM | Brocade ADX | NetScaler VPX^ | NetScaler MPX^^|
+**Note**: Citrix has made the VPX software platform available in early access and will soon 
+release it in limited access. They have not released the MPX hardware platform yet but 
+currently are planning support for it.
+
+| | Feature | F5 LTM | Brocade ADX | NetScaler VPX | NetScaler MPX|
 | :---: |:--- | :---: | :---: | :---: | :---: |
 | **Interfaces** |  VLAN tagged (Cisco trunk) |✓|✓||✓|
 ||VLAN untagged (Cisco access)  |✓|✓|✓|✓|
@@ -142,13 +147,9 @@ The following table shows which features are supported in F5 LTM, Brocade ADX, N
 | **SSL VPNs** |  SSL Client VPN on edge Big-IPs using APM module |✓||||
 | **SNI** | Server Name Indication  |✓|✓|✓|✓|
 
-^ VPX - Product in early access soon to be limited access
-
-^^ MPX - Product not launched, only supportability planned at this stage.
+### Global load balancer
 
 The following table shows which global load balancer features are supported in F5 LTM, Brocade ADX, NetScaler VPX, and NetScaler MPX load balancers:
-
-### Global load balancer
 
 || Feature | F5 GTM |  ADX GSLB | NetScaler VPX | NetScaler MPX|
 | :--- |:--- | :---: | :---: | :---: | :---: |
@@ -175,20 +176,26 @@ The following table shows which global load balancer features are supported in F
 ||Paralled configuration  |✓||||
 ||Standalone BigIP with GTM License |✓||||
 
+### Cisco CSS support
 
-### Cisco CSS
-End of support on September 30, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be reasonable endeavor.
+End of support for Cisco Content Service Switches (CSS) occured on September 30, 2014. Customers 
+that continue to use the platform fall under the Extended Lifecycle Support agreement. Any 
+support is considered a reasonable endeavor.
 
-### Redhill WebMux
-End of support on September 1, 2014. Customers that continue using the platform will be in the Extended Lifecycle Support. All the support will be Reasonable endeavor.
+### Redhill&reg; WebMux support
 
-Note: Rackspace makes every effort to align our support dates for operating systems with the manufacturer’s support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms?_ga=2.83585110.1185508516.1551714471-1563606307.1544215242)
+End of support for the Redhill MebMux load balancer occured on September 1, 2014. Customers that 
+continue to use the platform fall under the Extended Lifecycle Support agreement. Any support 
+is considered a reasonable endeavor.
 
-### General topics
+**Note:** Rackspace makes every effort to align our support dates for operating systems with the 
+manufacturer’s support dates. If a manufacturer decides to shorten the support life of an operating 
+system, Rackspace might be forced to end support sooner than originally anticipated. For full details 
+on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms?_ga=2.83585110.1185508516.1551714471-1563606307.1544215242)
 
-| Feature | Support level | 
-| :--- |:---: |
-| DDoS mitigation |✓|
+### DDoS mitigation
+
+Be aware that Rackspace does support the mitigation of Distributed Denial of Service (DDoS) feature.
 
 ### Disclaimer
 ### The information contained in this document is a general introduction to the Rackspace Services and does not include any legal commitment on the part of Rackspace.
@@ -199,6 +206,6 @@ Except as set forth in Rackspace general terms and conditions, cloud terms of se
 
 Although part of the document explains how Rackspace services may work with third-party products, the information contained in the document is not designed to work with all scenarios. Any use or changes to third-party products and configurations should be made at the discretion of your administrators and are subject to the applicable terms and conditions of such third party. Rackspace does not provide technical support for third-party products, other than specified in your hosting services or other agreement you have with Rackspace, and Rackspace accepts no responsibility for third-party products.
 
-Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Copyright © 2016 Rackspace | Rackspace®, Fanatical Support®, and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products, and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.
+Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Copyright &copy; 2016 Rackspace | Rackspace&reg;, Fanatical Experience&reg;, and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products, and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.
 
 
