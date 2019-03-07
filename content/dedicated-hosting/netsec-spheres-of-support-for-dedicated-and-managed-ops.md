@@ -71,7 +71,7 @@ The following table shows which features are supported in Cisco&reg; and Juniper
 | **Management** |  Buffered logging  |✓| ✓|
 ||Log shipping to log correlation device within the customer's account  |✓| ✓|
 ||Simple Network Management Protocol (SNMP) read-only for customer |✓| ✓|
-| **High Availability (HA)** |  Active or standby (stateful and non-stateful) (clustering - Security, Routing, and Switching (SRX))<Br/>Adaptive Security Appliance (ASA) 5510 and above, ASA-X 5508, 5515 and above |✓|✓|
+| **High Availability (HA)** |  Active or standby (stateful and non-stateful) (clustering - Security, Routing, and Switching (SRX)) Adaptive Security Appliance (ASA) 5510 and above, ASA-X 5508, 5515 and above |✓|✓|
 | **Modes and modules** | Mode - multi-context routed |✓||
 ||Mode - routed |✓| ✓|
 | **RackConnect** | RackConnect VLANs termination |✓| |
