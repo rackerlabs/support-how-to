@@ -27,7 +27,7 @@ Next, run the following command with your SSH key name:
     supernova iad boot --flavor onmetal-compute-v1 --image b59fc7a5-de35-4fd3-87f8-c5f2e390f1ad --user-data cloud-config.yml --key-name pquerna
     pq-cloud-init-test
 
-When the server starts, a */hello-world* bash script is present in your
+When the server starts, a */hello-world* Bash script is present in your
 OnMetal instance.
 
 **Note**: Many more examples of what cloud-init can do are available in

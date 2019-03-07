@@ -73,14 +73,6 @@ implementation.
 To use RackConnect, you must complete the process detailed in the next
 section for at least one Cloud account.
 
-For videos that demonstrate the steps in this process, including an
-overview of the RackConnect portal interface, creating network policies,
-and adding a Cloud account to RackConnect, visit the **Community >
-Video Knowledge Base** section of the MyRackspace Portal.
-
-You can also find more documentation about RackConnect in the
-**Community > Knowledge Center** section of the MyRackspace Portal.
-
 For a collection of recommendations for using RackConnect, see
 [RackConnect best practices](/how-to/rackconnect-v20-best-practices).
 
@@ -133,9 +125,6 @@ RackConnect configuration unless you save an image of them and rebuild
 them after the implementation process is complete. You should also
 verify that you have network policies in place to allow traffic to and
 from your cloud servers before creating new cloud servers.
-
-If you have any questions, reach out to us. Our contact
-information is available on the [Contact Us](/how-to/support) page.
 
 ### Next step
 

@@ -111,7 +111,7 @@ The migration will happen in the following stages:
 
 The migration period starts in January 2019 and runs through March 2019.
 One hundred days before your migration date, you will receive notification via
-a ticket in the Rackspace customer portal that includes the specific date and
+a ticket in the Rackspace Customer Portal that includes the specific date and
 time that your solution will be moved. All migrations have been scheduled to
 occur on either a Friday or Saturday night, starting at 23:00 EST and running
 through to 07:00 EST on the following morning.

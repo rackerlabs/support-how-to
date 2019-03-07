@@ -79,7 +79,7 @@ string is an attribute that can be displayed as template output.
 
 #### Add a server resource
 
-Add a Linux server. In the `user_data` property, include a bash script. At
+Add a Linux server. In the `user_data` property, include a Bash script. At
 the end of the script execution, send a `SUCCESS` or `FAILURE` message to the
 temporary URL that is created by the `SwiftSignalHandle` resource that you
 added earlier.
