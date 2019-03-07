@@ -208,4 +208,3 @@ Although part of the document explains how Rackspace services may work with thir
 
 Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Copyright &copy; 2016 Rackspace | Rackspace&reg;, Fanatical Experience&reg;, and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products, and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.
 
-
