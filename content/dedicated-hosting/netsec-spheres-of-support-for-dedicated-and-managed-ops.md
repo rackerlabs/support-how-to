@@ -77,7 +77,7 @@ The following table shows which features are supported in Cisco&reg; and Juniper
 | **RackConnect** | RackConnect VLANs termination |✓| |
 | **RackConnect Global** |  RackConnect Global Classic Static |✓| ✓|
 ||RackConnect Global 2.0 Static - BGP |✓| |
-||RackConnect Global 2.1 Static - BGP (with top of rack (TOR)  |✓| |
+||RackConnect Global 2.1 Static - BGP (with top of rack (TOR))  |✓| |
 
 ### Load balancer support
 
