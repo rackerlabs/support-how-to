@@ -4,8 +4,8 @@ type: article
 audit_date: '2018-11-12'
 created_date: '2018-10-09'
 created_by: Nick Shobe
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-03-08'
+last_modified_by: Cat Lookabaugh
 permalink: rackspace-pdr-agent-compatibility/
 product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
