@@ -1,6 +1,6 @@
 ---
 permalink: netsec-spheres-of-support-for-dedicated-and-managed-ops
-title: Network security Spheres of Support
+title: Network Security Spheres of Support
 type: article
 audit_date: '2019-03-07'
 created_date: '2019-2-25'
