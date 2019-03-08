@@ -26,9 +26,9 @@ Images must follow these general requirements:
     Static Large Object (SLO), is considered to be a single file for
     this purpose.
 
--   Images must not expand to a system disk larger than 40 GB.
+-   Images must not expand to a system disk larger than 160 GB.
 
-    **Note**: Images with system disks larger than 40 GB can be exported but
+    **Note**: Images with system disks larger than 160 GB can be exported but
     cannot be imported into the Rackspace Open Cloud.
 
 -   If you have exported an image from the Rackspace Open Cloud it will
