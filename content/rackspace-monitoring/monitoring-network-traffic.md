@@ -16,15 +16,15 @@ product_url: rackspace-monitoring
 This article discusses the following topics:
 
 
--   Monitoring in Linux (#monitoring-in-linux)
--   About The Tools](#about-the-tools)
--   Ubuntu and Debian installation (#ubuntu-and-debian-installation)
--   CentOS and RHEL installation (#centOS-and-rhel-installation)
--   Fedora (16+) installation (#fedora-installation)
--   openSUSE installation (#opensuse-installation)
--   How to use VNstat (#how-to-use-vnstat)
--   How to use IPtraf (#how-to-use-iptraf)
--   How to use Tcpdump](/how-to/capturing-packets-with-tcpdump)
+-   [Monitoring in Linux](#monitoring-in-linux)
+-   [About The Tools](#about-the-tools)
+-   [Ubuntu and Debian installation](#ubuntu-and-debian-installation)
+-   [CentOS and RHEL installation](#centOS-and-rhel-installation)
+-   [Fedora (16+) installation](#fedora-installation)
+-   [openSUSE installation](#opensuse-installation)
+-   [How to use VNstat](#how-to-use-vnstat)
+-   [How to use IPtraf](#how-to-use-iptraf)
+-   [How to use Tcpdump](/how-to/capturing-packets-with-tcpdump)
 
 Basic administration principles state that the administrator
 should have a strong grasp on what a server is doing at all times.
@@ -80,7 +80,9 @@ operating systems.
 
 #### Ubuntu and Debian installation
 
-Use the following steps to install VNstat on an Ubunto&reg; or Debian&reg; slice:
+##### Install VNstat and IPtraf on Ubuntu and Debian
+
+Use the following steps to install VNstat and IPtraf on an Ubunto&reg; or Debian&reg; slice:
 
 1. Use the following commands to search for the following packages from Ubuntu and Debian repositories:
 
@@ -112,6 +114,8 @@ install it by using a third-party repository or compile it from the source.
 This article demonstrates compilation from the source install because
 VNstat is a small package and has no real dependencies. At the time 
 of this writing, VNstat 1.12 is the latest version available.
+
+##### Install VNstat on CentOS and RHEL
 
 Use the following steps to install VNstat on a CentOS or RHEL slice:
 
@@ -145,7 +149,9 @@ Use the following steps to install VNstat on a CentOS or RHEL slice:
 
        # Private Interface
        vnstat -u -i eth1
-       
+
+##### Install IPtraf CentOS and RHEL
+
 Use the following steps to install IPtraf:
 
 1. Use the following command to search for the IPtraf package:
@@ -159,6 +165,8 @@ Use the following steps to install IPtraf:
 
 
 #### Fedora installation
+
+##### Install VNstat and IPtraf on Fedora
 
 Use the following steps to install VNstat and IPtraf on a Fedora&reg; 16+ slice:
 
@@ -195,6 +203,8 @@ install it by using a third-party repository or compile it from the source.
 This article demonstrates compilation from the source install because
 VNstat is a small package and has no real dependencies. 
 
+##### Install VNstat on openSUSE
+
 Use the following steps to install VNstat on an openSUSE slice:
 
 1. Use the following commands to download the source and unpack the source:
@@ -229,6 +239,8 @@ Use the following steps to install VNstat on an openSUSE slice:
 
        # Private Interface
        vnstat -u -i eth1
+
+##### Install IPtraf on openSUSE
 
 Use the following steps to install IPtraf:
 
