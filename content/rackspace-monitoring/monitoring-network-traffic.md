@@ -17,9 +17,9 @@ This article discusses the following topics:
 
 
 -   [Monitoring in Linux](#monitoring-in-linux)
--   [About The Tools](#about-the-tools)
+-   [About the VNstat and IPtraf tools](#about-the-vnstat-and-iptraf-tools)
 -   [Ubuntu and Debian installation](#ubuntu-and-debian-installation)
--   [CentOS and RHEL installation](#centOS-and-rhel-installation)
+-   [CentOS and RHEL installation](#centos-and-rhel-installation)
 -   [Fedora (16+) installation](#fedora-installation)
 -   [openSUSE installation](#opensuse-installation)
 -   [How to use VNstat](#how-to-use-vnstat)
