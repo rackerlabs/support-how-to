@@ -1,19 +1,19 @@
 ---
 permalink: preparing-an-image-for-import-into-the-rackspace-opencloud/
-audit_date: '2018-04-10'
+audit_date: '2019-03-11'
 title: Prepare an image for import into the Rackspace Open Cloud
 type: article
 created_date: '2014-02-16'
 created_by: Cloud Images
-last_modified_date: '2018-04-10'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-03-11'
+last_modified_by: Cat Lookabaugh
 product: Cloud Images
 product_url: cloud-images
 ---
 
 You can use the Cloud Images service to import custom virtual machine
 disk images into the Rackspace Open Cloud. In order for these images to boot
-correctly, they must be prepared according to the following requirements
+correctly, prepare them according to the following requirements
 and instructions.
 
 ### General requirements
@@ -26,13 +26,13 @@ Images must follow these general requirements:
     Static Large Object (SLO), is considered to be a single file for
     this purpose.
 
--   Images must not expand to a system disk larger than 40 GB.
+-   Images must not expand to a system disk larger than 160 GB.
 
-    **Note**: Images with system disks larger than 40 GB can be exported but
+    **Note**: Images with system disks larger than 160 GB can be exported but
     cannot be imported into the Rackspace Open Cloud.
 
--   If you have exported an image from the Rackspace Open Cloud it will
-    already be in the VHD format that is required for import.
+-   If you have exported an image from the Rackspace Open Cloud, it is
+    already in the VHD format that is required for import.
 
 ### Microsoft Windows
 
@@ -81,7 +81,8 @@ We suggest that you take the following steps:
 
 For a tutorial on this process, see [Bootstrap your QCOW images for the
 Rackspace Public
-Cloud](https://developer.rackspace.com/blog/bootstrap-your-qcow-images-for-the-rackspace-public-cloud/). This tutorial walks through the process of preparing
+Cloud](https://developer.rackspace.com/blog/bootstrap-your-qcow-images-for-the-rackspace-public-cloud/). 
+This tutorial walks through the process of preparing
 a QEMU Copy on Write (QCOW) image and converting it to the VHD format so that
 it can be imported.
 
