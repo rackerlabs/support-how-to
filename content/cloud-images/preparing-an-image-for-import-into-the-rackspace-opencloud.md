@@ -32,7 +32,7 @@ Images must follow these general requirements:
     cannot be imported into the Rackspace Open Cloud.
 
 -   If you have exported an image from the Rackspace Open Cloud it is
-    already be in the VHD format that is required for import.
+    already in the VHD format that is required for import.
 
 ### Microsoft Windows
 
