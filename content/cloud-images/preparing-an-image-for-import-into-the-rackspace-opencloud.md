@@ -31,7 +31,7 @@ Images must follow these general requirements:
     **Note**: Images with system disks larger than 160 GB can be exported but
     cannot be imported into the Rackspace Open Cloud.
 
--   If you have exported an image from the Rackspace Open Cloud it is
+-   If you have exported an image from the Rackspace Open Cloud, it is
     already in the VHD format that is required for import.
 
 ### Microsoft Windows
