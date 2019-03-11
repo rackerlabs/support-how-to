@@ -1,7 +1,7 @@
 ---
-permalink: backing-up-the-fortinet-fortigate-vm/
+permalink: back-up-the-fortinet-fortigate-vm/
 audit_date: '2019-3-11'
-title: Backing up the Fortinet Fortigate VM
+title: Back up the Fortinet Fortigate VM
 type: article
 created_date: '2019-3-11'
 created_by: Dylan Habedank
@@ -11,23 +11,26 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Back up the Fortigate&reg; Virtual Machine (VM) by using one of the following methods: 
-web-based manager, the Fortigate command line interface (CLI), or secure copy (SCP). 
-This article describes the standard methods of backing your full or virtual domain 
-(VDOM) configuration based on the 
-[Fortinet documentation](https://help.fortinet.com/fos50hlp/54/Content/FortiOS/fortigate-best-practices-54/Firmware/Performing_Config_Backup.htm). 
+This article describes the standard methods of backing your full or virtual domain
+(VDOM) configuration based on the
+[Fortinet documentation](https://help.fortinet.com/fos50hlp/54/Content/FortiOS/fortigate-best-practices-54/Firmware/Performing_Config_Backup.htm).
+Back up the Fortigate&reg; Virtual Machine (VM) by using one of the following methods:
 
-### Web-based Manager
+- Web-based manager
+- The Fortigate command line interface (CLI)
+- Secure copy protocol (SCP)
 
-Use the following steps to backup the Fortigate VM:
+### Web-based manager
+
+Use the following steps to back up the Fortigate VM:
 
 1. Navigate to the public Internet protocol (IP) address of your Fortigate VM and log in to your device.
 
 2. In the top right of the navigation bar in the Fortigate manager, click your username.
 
-3. Select ***Configuration > Backup***
+3. Select **Configuration > Backup**.
 
-4. Select ***Local PC*** and click **OK**.
+4. Select **Local PC** and click **OK**.
 
 
 **Note:** If you want to encrypt your configuration, toggle the encryption bar.
@@ -37,7 +40,7 @@ Make sure to remember your password, in case you want to restore this configurat
 ### Secure Copy Protocol
 
 Retrieve the backups from a remote server by using SCP. The following example uses a cloud server
-in the same region to backup the Fortigate VM configuration:
+in the same region to back up the Fortigate VM configuration:
 
 1. Log in to the firewall and enable SCP:
 
@@ -45,7 +48,7 @@ in the same region to backup the Fortigate VM configuration:
 	    set admin-scp enable 
        end
 
-2. Allow Secure Shell (SSH) access to the port of choice. The following example uses the servicenet port:
+2. Allow Secure Shell (SSH) access to the port of choice. The following example uses the ServiceNet port:
 
        config system interface
           edit port1
@@ -56,5 +59,5 @@ in the same region to backup the Fortigate VM configuration:
 
        # scp admin@10.x.x.x:sys_config fortigate_backup
 
-**Note:** These steps assume that you have the admin password to the Fortigate VM. Enter this password
-at the prompt. Replace 10.x.x.x with the IP address of your Fortigate VM.
+**Note:** These steps assume that you have the administrator password to the Fortigate VM. Enter
+this password at the prompt. Replace 10.x.x.x with the IP address of your Fortigate VM.
