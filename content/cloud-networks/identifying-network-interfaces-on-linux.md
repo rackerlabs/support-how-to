@@ -11,8 +11,8 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-This article describes how to identify which network interfaces on a Linux 
-server are associated with which IP addresses.
+This article describes how to identify which network interfaces on a Linux® 
+server are associated with which Internet Protocol (IP) addresses.
 
 ### IPv4
 
@@ -42,12 +42,12 @@ Here, too, the interface names are on the left, and the IP addresses are on the 
 
 ### Full output
 
-To get all the information about your network interfaces in one place, just run:
+To get all the information about your network interfaces in one place, run the following command:
 
     /sbin/ip a
 
 The detailed output lists each interface, any associated IP addresses, their network prefix 
 length, their scope, and many other details.  For more information, check the 
-`man` page for the `ip` command:
+`man` page for the `ip` command by using the following command:
 
     man ip
