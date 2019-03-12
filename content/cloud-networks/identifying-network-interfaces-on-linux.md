@@ -1,22 +1,22 @@
 ---
 permalink: identifying-network-interfaces-on-linux/
-audit_date:
+audit_date: '2019-03-12'
 title: Identify Network Interfaces on Linux
 type: article
 created_date: '2013-03-15'
 created_by: Jered Heeschen
-last_modified_date: '2013-03-15'
-last_modified_by: Jered Heeschen
+last_modified_date: '2019-03-12'
+last_modified_by: Cat Lookabaugh
 product: Cloud Networks
 product_url: cloud-networks
 ---
 
-This article briefly describes a method of identifying which network interfaces on a Linux 
-server are associated with which IP addresses.
+This article describes how to identify which network interfaces on a Linux® 
+server are associated with which Internet Protocol (IP) addresses.
 
 ### IPv4
 
-You can get a simple list of the network interfaces and IPv4 addresses on your server by 
+You can get a list of the network interfaces and IPv4 addresses on your server by 
 running the following command:
 
     /sbin/ip -4 -o a | cut -d ' ' -f 2,7 | cut -d '/' -f 1
@@ -42,12 +42,13 @@ Here, too, the interface names are on the left, and the IP addresses are on the 
 
 ### Full output
 
-To get all the information about your network interfaces in one place, just run:
+To get all the information about your network interfaces in one place, run the following command:
 
     /sbin/ip a
 
 The detailed output lists each interface, any associated IP addresses, their network prefix 
-length, their scope, and plenty of other data besides.  For more information, check the 
-man page for the "ip address" command:
+length, their scope, and many other details.  For more information, check the 
+`man` page for the `ip` command by using the following command:
 
-    man ip-address
+    man ip
+
