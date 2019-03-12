@@ -137,7 +137,7 @@ currently are planning support for it.
 ||LB - virtual servers - SNAT pools |✓|✓|✓|✓|
 | **Scripting** | iRules  |✓ (Limited)||||
 | **Management** |  Logging - local buffered logging  |✓|✓|✓|✓|
-||Logging - log shipping to log correlation device (Within customer's account)  |✓|✓|✓|✓|
+||Logging - log shipping to log correlation device (within customer's account)  |✓|✓|✓|✓|
 ||Management - SNMP read-only for customer  |✓|✓|✓|✓|
 | **HA** |  High availability |✓ |✓ ADX 1000 only |✓|✓|
 ||HA - active or standby |✓|✓|✓|✓|
@@ -200,7 +200,8 @@ on support life, see the [Rackspace End of Life Terms](https://www.rackspace.com
 Be aware that Rackspace does support the mitigation of the Distributed Denial of Service (DDoS) feature.
 
 ### Disclaimer
-### The information contained in this document is a general introduction to the Rackspace Services and does not include any legal commitment on the part of Rackspace.
+
+The information contained in this document is a general introduction to the Rackspace Services and does not include any legal commitment on the part of Rackspace.
 
 Except as set forth in the agreements you sign with Rackspace, Rackspace assumes no liability whatsoever, and disclaims any express or implied warranty, relating to its services including, but not limited to, the implied warranty of merchantability, fitness for a particular purpose, and no infringement.
 
