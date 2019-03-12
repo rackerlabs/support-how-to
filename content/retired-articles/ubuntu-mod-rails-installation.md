@@ -5,10 +5,8 @@ title: Install mod rails on Ubuntu 9.04
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2015-12-29'
-last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2019-03-12'
+last_modified_by: Cat Lookabaugh
 ---
 
 [Phusion's
@@ -73,7 +71,7 @@ apache2.conf:
 
 You may have a later version of passenger installed.
 
-### Apache restart 
+### Apache restart
 
 Use this command to restart Apache:
 
