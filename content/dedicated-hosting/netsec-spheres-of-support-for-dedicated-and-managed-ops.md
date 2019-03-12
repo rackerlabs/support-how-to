@@ -11,7 +11,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The Spheres of Support for network security (NetSec) lists the technologies and features 
+The Spheres of Support for Network Security (NetSec) lists the technologies and features 
 in the network security domain and defines the support level for each item. 
  
 ### Firewall support
