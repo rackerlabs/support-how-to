@@ -67,7 +67,6 @@ Storage systems become distributed as they grow. OpenStack Swift (the basis for 
 
 -   [Cloud Files Developer Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
 -   [Cloud Files Getting Started Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started)
--   [Software Development Kits & Tools](https://developer.rackspace.com/docs/#sdks)
 
 ------------------------------------------------------------------------
 
@@ -344,7 +343,6 @@ SDKs.
 
 -   [Cloud Files API Getting Started Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started)
 -   [Cloud Files Developers Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
--   [Cloud Files Language-specific Software Development Kits](https://developer.rackspace.com/docs/cloud-files/getting-started/#get-object-via-sdk)
 
 #### Why does one of my Cloud Files scheduled tasks get terminated abruptly?
 

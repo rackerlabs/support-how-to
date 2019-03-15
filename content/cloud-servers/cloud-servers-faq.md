@@ -5,8 +5,8 @@ title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-03-15'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -32,12 +32,10 @@ packages, see [Linux Spheres of Support for Dedicated and Managed Operations](/h
 
 All of our Cloud Servers can be configured as development stacks,
 database servers, and web servers. Apache, Lighttpd, Mongrel, and Visual
-Studio are all options.
+Studio are some options.
 
 You can use the programming language of your choice to interact with
-Cloud Servers. For help getting started, use any of the
-Software Development Kits (SDKs) documented at
-<https://developer.rackspace.com/docs/>.
+Cloud Servers.
 
 #### Do you host DNS?
 
