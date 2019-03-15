@@ -30,8 +30,7 @@ get your site up and running.
 **Multiple interface options**
 
 Rackspace CDN is fully supported via the Rackspace Cloud Control Panel.
-You can also interact with Rackspace CDN by using our REST API or a software
-development kit (SDK).
+You can also interact with Rackspace CDN by using our REST API.
 
 **Whole site delivery and acceleration**
 

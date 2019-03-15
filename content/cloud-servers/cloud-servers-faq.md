@@ -30,12 +30,12 @@ packages, see [Linux Spheres of Support for Dedicated and Managed Operations](/h
 
 #### What programming languages or applications are supported?
 
-All of our cloud servers can be configured as development stacks,
+All of our Cloud Servers can be configured as development stacks,
 database servers, and web servers. Apache, Lighttpd, Mongrel, and Visual
 Studio are some options.
 
 You can use the programming language of your choice to interact with
-Cloud Servers by using a software development kit (SDK).
+Cloud Servers.
 
 #### Do you host DNS?
 
