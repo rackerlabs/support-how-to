@@ -5,14 +5,13 @@ title: 'SDKs for Java, Ruby, Python, Node.js, PHP, and Microsoft.NET'
 type: article
 created_date: '2011-04-04'
 created_by: David Hendler
-last_modified_date: '2016-04-18'
-last_modified_by: Stephanie Fillmon
-product: Cloud Files
-product_url: cloud-files
+last_modified_date: '2019-03-15'
+last_modified_by: Cat Lookabaugh
 ---
 
 You can download the language-specific software development kits (SDKs)
-for Cloud Files from the [Rackspace Developer website](http://developer.rackspace.com/#home-sdks). This site includes links to the SDKs for the following languages:
+for Cloud Files from the [Rackspace Developer website](http://developer.rackspace.com/#home-sdks).
+This site includes links to the SDKs for the following languages:
 
 -   Java
 -   Microsoft .NET
