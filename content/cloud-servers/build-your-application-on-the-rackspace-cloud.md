@@ -79,7 +79,7 @@ application to do this. Use the following tips for best results:
   sending it directly from your cloud servers.
 - Use [Rackspace Cloud Office](https://www.rackspace.com/en-us/email-hosting)
   for employee mailboxes and collaboration. Internet Message Access Protocol
-  (IMAP), Microsoft&reg; Exchange&reg;, G Suite&trade;, and Office 365&reg;
+  (IMAP), Microsoft&reg; Exchange, G Suite&trade;, and Office 365&reg;
   are available.
 
 ### Security
