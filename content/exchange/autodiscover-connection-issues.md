@@ -27,21 +27,21 @@ If Outlook prompts you with the error `cannot connect to server automatically`, 
 When Outlook sends a request to the server for email, it checks for open connections in the following order:
 
 1. It checks for an internal server on your network.
-2. It checks the website server for the domain and then checks the following URL's:
+2. It checks the website server for the domain and then checks the following URLs:
 
      - `https://yourdomain/autodiscover/autodiscover.xml`
 
      - `https://autodiscover.yourdomain/autodiscover/autodiscover.xml`
 
-3. It checks your Domain Name Services(DNS) for an Autodiscover record.
+3. It checks your Domain Name Service (DNS) for an Autodiscover record.
 
 For Outlook to successfully connect to your Exchange account, it must fail to connect on steps 1 and 2, to proceed to step 3. See [Outlook 2016 implementation of Autodiscover](https://support.microsoft.com/en-us/help/3211279/outlook-2016-implementation-of-autodiscover) to learn more about the full path that Autodiscover takes with Outlook 2016 and later.
 
-To verify that Autodiscover is the root cause of this issue, perform an auto-configuration from the affected computer. You can use this test to confirm the path that Outlook is taking from your computer to your Exchange server is not obstructed.
+To verify that Autodiscover is the root cause of this issue, perform an auto-configuration from the affected computer. You can use this test to confirm that the path that Outlook is taking from your computer to your Exchange server is not obstructed.
 See [Test Autodiscover functionality in Outlook](https://support.rackspace.com/how-to/set-up-autodiscover-for-outlook/) for details about performing the auto-configuration test.
 
 
-### Identifying issues connecting Outlook using autodiscover
+### Identifying issues connecting Outlook using Autodiscover
 
 Replace** `yourdomain` in `https://yourdomain/autodiscover/autodiscover.xml` and
 `https://autodiscover.yourdomain/autodiscover/autodiscover.xml` with your domain, and enter the URLs sequentially into a web browser search bar to test for any of the following errors:
@@ -56,9 +56,9 @@ Replace** `yourdomain` in `https://yourdomain/autodiscover/autodiscover.xml` and
 
 When Outlook receives the responses listed above, it has established a connection with that server but does not progress to the server that your Exchange mailbox is hosted on. This situation causes Outlook to produce the error `cannot connect to server automatically`. To summarize, Outlook is not able to retrieve your mail because something is blocking its path to your Exchange server.
 
-Both `https://yourdomain/autodiscover/autodiscover.xml` and `https://autodiscover.yourdomain/autodiscover/autodiscover.xml` must produce a standard `404` error for Autodiscover to establish the correct connection to your Exchange server, which means that Outlook gets no response when Autodiscover attempts a connection to those servers. After you have set up these URLs correctly, the browser says something like `404: this page doesn't exist` or `server cannot be found` with no additional information on the page. After Autodiscover failed to connect to those servers, it proceeds to the next steps in the process, and then finds the CNAME entry in your public DNS.
+Both `https://yourdomain/autodiscover/autodiscover.xml` and `https://autodiscover.yourdomain/autodiscover/autodiscover.xml` must produce a standard `404` error for Autodiscover to establish the correct connection to your Exchange server, which means that Outlook gets no response when Autodiscover attempts a connection to those servers. After you have set up these URLs correctly, the browser says something like `404: this page doesn't exist` or `server cannot be found` with no additional information on the page. After Autodiscover fails to connect to those servers, it proceeds to the next steps in the process, and then finds the CNAME entry in your public DNS.
 
-To resolve this issue, you must reach out to your website host and request they configure both `https://yourdomain/autodiscover/autodiscover.xml` and `https://autodiscover.yourdomain/autodiscover/autodiscover.xml` to produce a `404` error.
+To resolve this issue, you must reach out to your website host and request that they configure both `https://yourdomain/autodiscover/autodiscover.xml` and `https://autodiscover.yourdomain/autodiscover/autodiscover.xml` to produce a `404` error.
 
 #### Certificate errors
 
@@ -78,7 +78,7 @@ GoDaddy cPanel customers have resolved this issue by changing their email routin
 
 What does my email have to do with my website or web host?
 
-  - Your email uses Autodiscover if you have an Exchange mailbox on Outlook 2016 or later. Autodiscover is a process that checks a few different areas to configure your account settings automatically in eleven total Steps. If you are seeing issues as described earlier in this article, you may be having hang-ups during that process. Priority is given to URLS that are managed by your web host. If those URLs are misconfigured, the process stops and never reaches the proper server checks in order to configure your email properly.
+  - Your email uses Autodiscover if you have an Exchange mailbox on Outlook 2016 or later. Autodiscover is a process that checks a few different areas to configure your account settings automatically in eleven steps. If you are seeing issues as described earlier in this article, you may be having hang-ups during that process. Priority is given to URLS that are managed by your web host. If those URLs are misconfigured, the process stops and never reaches the proper server checks in order to configure your email properly.
 
 Why can't Rackspace do this for me?
 
