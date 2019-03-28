@@ -1,23 +1,23 @@
 ---
 permalink: manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/
-audit_date:
+audit_date: '2019-03-28'
 title: Manually configure Outlook 2013 for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-10'
 created_by: Mawutor Amesawu
-last_modified_date: '2018-09-18'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-03-28'
+last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article describes how to set up your
-Microsoft Exchange 2013 mailbox
-to work with your
-Microsoft Outlook 2013 email client.
+This article describes how to set up your Microsoft&reg; Exchange&reg; 2013
+email account with Microsoft Outlook&reg; 2013 email client.
 
-1. Click the Windows **Start** button, select **Control Panel**, and
-   then click **Mail** (32-bit).
+**Note:** If you do not know which Exchange version you are using, log in to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) with the email address and password you are attempting to set up to see the exact server name settings.
+
+1. Click the Windows&reg; **Start** button, select **Control Panel**, and
+   then click **Mail(32-bit)**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step1_0.png %}" width="620" height="276" />
 
@@ -48,13 +48,7 @@ Microsoft Outlook 2013 email client.
 
    **Note:** Outlook 2013 offers the option to limit the amount of data that
    is downloaded to your local machine.  This can be adjusted, using the
-   **Mail to keep offline slider**. You can select caching for 1 month, 3
-   months, 6 months, 1 year, 2 years, or "all.".
-   By default, Outlook 2013 only synchronizes twelve (12) months of email to
-   your Offline Outlook Data (.ost) file from the Exchange server.  
-   If you accept this default setting, if you have
-   email items older than 12 months in your Exchange mailbox, they reside
-   only in your mailbox on the server.
+   **Mail to keep offline slider**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step4_0.png %}" width="694" height="492" />
 
