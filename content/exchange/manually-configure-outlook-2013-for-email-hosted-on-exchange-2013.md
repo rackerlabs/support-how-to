@@ -42,8 +42,11 @@ email account with Microsoft Outlook&reg; 2013 email client.
 5. On the **Server Settings** page, perform the following actions:
 
    a. In the **Server** text box, type **outlook**.
+   
    b. Select the  the **Use Cached Exchange Mode** check box.
+   
    c. In the **User Name** text box, enter your entire email address.
+   
    d. Click **More Settings**.
 
    **Note:** Outlook 2013 offers the option to limit the amount of data that
