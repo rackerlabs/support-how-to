@@ -12,24 +12,24 @@ product_url: exchange
 ---
 
 This article describes how to set up your Microsoft&reg; Exchange&reg; 2013
-email account with Mac&reg; Mail&reg;.
+email account with Mac&reg; Mail.
 
-**Note:** Exchange 2013 is only supported on the Mac operating system(OS) version 10.11 El Capitain&reg;  or later Mac OS versions. To verify which OS your Mac is running, select the **Apple**&reg; icon located in the top left-hand corner and then select  **About This Mac**.
+**Note:** Exchange 2013 is supported only on OS X El Capitan version 10.11 or later Macintosh&reg; operating system versions. To verify which operating system your Mac is running, select the **Apple**&reg; icon located in the top left-hand corner and then select **About This Mac**.
 
-1. Open Mac Mail and select **Mail**, and then **Add Account**.
+1. Open Mac Mail, select **Mail**, and then select **Add Account**.
 
-2. You are prompted to select a mail account provider. Select **Exchange**, then click **Continue**.
+2. You are prompted to select a mail account provider. Select **Exchange**, and then click **Continue**.
 
 3. On the next screen, enter your full name, email address, and click **Sign In**.
 
-4. You are presented with the options to **Configure Manually** or **Sign In**. Click **Configure Manually.
+4. When you are presented with the options to **Configure Manually** or **Sign In**, click **Configure Manually**.
 
-    **Note:** We recommend that you configure your account automatically by using [Autodiscover](/how-to/dns-record-definitions/#cname-record). If you set up your account by using Autodiscover, you will click **Sign In** instead of **Configure Manually**.
+    **Note:** We recommend that you configure your account automatically by using [Autodiscover](/how-to/dns-record-definitions/#cname-record). If you set up your account by using Autodiscover, click **Sign In** instead of **Configure Manually**.
 
-5. On the next screen, enter your full name, email address, and password, and click **Sign In**.
+5. On the next screen, enter your full name, email address, and password, and then click **Sign In**.
 
-6. Select the services that you would like to sync such as mail, contacts, calendar, and then click **Done**.
+6. Select the services that you want to sync, such as mail, contacts, and calendar, and then click **Done**.
 
-After completing the steps in this article, Mail begins syncing down to your Mac Mail client.
+After completing the steps in this article, Mail begins syncing to your Mac Mail client.
 
-**Note:** If you are prompted for server name settings, please log in to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) with the email address and password you are attempting to set up, for the exact server name settings.
+**Note:** If you are prompted for server name settings, log in to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) with the email address and password you are attempting to set up to see the exact server name settings.
