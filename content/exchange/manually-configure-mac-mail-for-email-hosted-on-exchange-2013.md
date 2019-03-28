@@ -16,7 +16,7 @@ email account with Mac&reg; Mail&reg;.
 
 **Note:** Exchange 2013 is only supported on the Mac operating system(OS) version 10.11 El Capitain&reg;  or later Mac OS versions. To verify which OS your Mac is running, select the **Apple**&reg; icon located in the top left-hand corner and then select  **About This Mac**.
 
-1. Open Mac Mail and select **Mail** and then **Add Account**.
+1. Open Mac Mail and select **Mail**, and then **Add Account**.
 
 2. You are prompted to select a mail account provider. Select **Exchange**, then click **Continue**.
 
@@ -28,7 +28,7 @@ email account with Mac&reg; Mail&reg;.
 
 5. On the next screen, enter your full name, email address, and password, and click **Sign In**.
 
-6. Select the services that you would like to sync such as mail, contacts, calendar, and then click **Done**. 
+6. Select the services that you would like to sync such as mail, contacts, calendar, and then click **Done**.
 
 After completing the steps in this article, Mail begins syncing down to your Mac Mail client.
 
