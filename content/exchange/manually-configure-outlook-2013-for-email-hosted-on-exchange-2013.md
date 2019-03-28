@@ -1,35 +1,35 @@
 ---
 permalink: manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/
-audit_date:
+audit_date: '2019-03-28'
 title: Manually configure Outlook 2013 for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-10'
 created_by: Mawutor Amesawu
-last_modified_date: '2018-09-18'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-03-28'
+last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article describes how to set up your
-Microsoft Exchange 2013 mailbox
-to work with your
-Microsoft Outlook 2013 email client.
+This article describes how to set up your Microsoft&reg; Exchange&reg; 2013
+email account with Microsoft Outlook&reg; 2013 email client.
 
-1. Click the Windows **Start** button, select **Control Panel**, and
-   then click **Mail** (32-bit).
+**Note:** If you do not know which Exchange version you are using, log in to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) with the email address and password you are attempting to set up to see the exact server name settings.
+
+1. Click the Windows&reg; **Start** button, select **Control Panel**, and
+   then click **Mail (32-bit)**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step1_0.png %}" width="620" height="276" />
 
    **Note:** Depending on the version of Windows you're running, you might
-   need to switch to **Classic view to find the **Mail** entry or it might
+   need to switch to Classic view to find the **Mail** entry or it might
    be labeled **32-Bit***.
 
 2. Click **Show Profiles**, click **Add**, enter a name for this
    profile, and then select **OK**.
 
-3. On the **Auto Account Setup** page of the **Add New Account** wizard, select
-   **Manually configure server settings or additional server types**, and
+3. On the **Auto Account Setup** page of the **Add Account** wizard, select
+   **Manual setup or additional server types**, and
    then click **Next**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step2_0.png %}" width="694" height="489" />
@@ -39,22 +39,19 @@ Microsoft Outlook 2013 email client.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step3_0.png %}" width="694" height="492" />
 
-5. On the Server Settings page, perform the following actions:
+5. On the **Server Settings** page, perform the following actions:
 
-   1. In the **Server** text box, type **outlook**.
-   2. Select the  the **Use Cached Exchange Mode** check box.
-   3. In the **User Name** text box, enter your entire email address.
-   4. Click **More Settings**.
+   a. In the **Server** text box, type **outlook**.
+   
+   b. Select the  the **Use Cached Exchange Mode** check box.
+   
+   c. In the **User Name** text box, enter your entire email address.
+   
+   d. Click **More Settings**.
 
    **Note:** Outlook 2013 offers the option to limit the amount of data that
    is downloaded to your local machine.  This can be adjusted, using the
-   **Mail to keep offline slider**. You can select caching for 1 month, 3
-   months, 6 months, 1 year, 2 years, or "all.".
-   By default, Outlook 2013 only synchronizes twelve (12) months of email to
-   your Offline Outlook Data (.ost) file from the Exchange server.  
-   If you accept this default setting, if you have
-   email items older than 12 months in your Exchange mailbox, they reside
-   only in your mailbox on the server.
+   **Mail to keep offline slider**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step4_0.png %}" width="694" height="492" />
 
@@ -64,23 +61,23 @@ Microsoft Outlook 2013 email client.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step5_0.png %}" width="354" height="438" />
 
-7. In the Microsoft Exchange Proxy Settings dialog box, perform the
+7. In the **Microsoft Exchange Proxy Settings** dialog box, perform the
    following actions:
 
-   1. In the **Use this URL to connect to my proxy server for
-      Exchange** text box, enter **mex06.emailsrvr.com**.
+   a. In the **Use this URL to connect to my proxy server for**
+      **Exchange** text box, enter **mex06.emailsrvr.com**.
 
-   2. Select both the **On fast networks** and **On slow networks**
+   b. Select both the **On fast networks** and **On slow networks**
       check boxes.
 
-   3. Under **Proxy authentication settings**, select **Basic
-      Authentication**.
+   c. Under **Proxy authentication settings**, select **Basic**
+      **Authentication**.
 
-   4. Click **OK**.
+   d. Click **OK**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step6_0.png %}" width="483" height="411" />
 
-8. In the Microsoft Exchange dialog box, click **Apply** and then click
+8. In the **Microsoft Exchange** dialog box, click **Apply** and then click
    **OK**.
 
 9. On the **Server Settings** page, click **Check Name**, type your
