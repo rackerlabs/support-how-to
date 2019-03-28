@@ -41,10 +41,10 @@ email account with Microsoft Outlook&reg; 2013 email client.
 
 5. On the **Server Settings** page, perform the following actions:
 
-   1. In the **Server** text box, type **outlook**.
-   2. Select the  the **Use Cached Exchange Mode** check box.
-   3. In the **User Name** text box, enter your entire email address.
-   4. Click **More Settings**.
+   a. In the **Server** text box, type **outlook**.
+   b. Select the  the **Use Cached Exchange Mode** check box.
+   c. In the **User Name** text box, enter your entire email address.
+   d. Click **More Settings**.
 
    **Note:** Outlook 2013 offers the option to limit the amount of data that
    is downloaded to your local machine.  This can be adjusted, using the
@@ -61,16 +61,16 @@ email account with Microsoft Outlook&reg; 2013 email client.
 7. In the **Microsoft Exchange Proxy Settings** dialog box, perform the
    following actions:
 
-   1. In the **Use this URL to connect to my proxy server for**
+   a. In the **Use this URL to connect to my proxy server for**
       **Exchange** text box, enter **mex06.emailsrvr.com**.
 
-   2. Select both the **On fast networks** and **On slow networks**
+   b. Select both the **On fast networks** and **On slow networks**
       check boxes.
 
-   3. Under **Proxy authentication settings**, select **Basic**
+   c. Under **Proxy authentication settings**, select **Basic**
       **Authentication**.
 
-   4. Click **OK**.
+   d. Click **OK**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/Step6_0.png %}" width="483" height="411" />
 
