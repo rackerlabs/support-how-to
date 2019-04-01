@@ -22,47 +22,47 @@ This article explains email spoofing and describes the steps that you can take t
 
 For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-If you would prefer a video tutorial, see [Exchange - Spoofing: How to identify & protect your organization](https://emailhelp.rackspace.com/l/how-to-prevent-email-spoofing).
+If you prefer a video tutorial, see [Exchange - Spoofing: How to identify and protect your organization](https://emailhelp.rackspace.com/l/how-to-prevent-email-spoofing).
 
 ### What is email spoofing?
 
-The word **spoof** means **falsified**. A spoofed email is one in which the sender purposefully alters parts of the email to make the message appear as though it was authored by someone else. Commonly, the sender’s name and email address, and the body of the message are formatted to appear from a legitimate source. Sometimes the spoofer makes the email appear to come from a private citizen.
+The word *spoof* means *falsified*. A spoofed email is one in which the sender purposefully alters parts of the email to make the message appear as though it was authored by someone else. Commonly, the sender’s name and email address, and the body of the message, are formatted to appear to be from a legitimate source. Sometimes the spoofer makes the email appear to come from a private citizen.
 
-A spoofed message can appear to come from a coworker, a bank, a family member, or any number of seemingly trustworthy sources. A good spoof looks like any other email that you normally receive.
+A spoofed message can appear to come from a coworker, a bank, a family member, or any number of seemingly trustworthy sources. A good spoof message looks like any other email that you normally receive.
 
-**Warning:** If you suspect that you have received a fraudulent message, **DO NOT** click any link in the message or enter any information that is requested.
+**Warning:** If you suspect that you have received a fraudulent message, *do not* click any link in the message or enter any information that is requested.
 
 ### Why do people spoof email?
 
-In many cases, the spoofed email is part of a **phishing** (scam) attack. In other cases, a spoofed email is used to dishonestly market an online service or sell you a bogus product. The intent is to trick the recipient into making a damaging statement or releasing sensitive information, such as passwords. If you're receiving bounced (returned) emails for messages that you never sent, this could be a case of spoofing.
+In many cases, the spoofed email is part of a *phishing* (scam) attack. In other cases, a spoofed email is used to dishonestly market an online service or sell you a bogus product. The intent is to trick the recipient into making a damaging statement or releasing sensitive information, such as passwords. If you receive bounced (returned) emails for messages that you never sent, you are experiencing a symptom of a case of spoofing.
 
 ### Identify a spoofed message
 
-Scammers alter different sections of an email to disguise the sender of the message. To view the message properties that indicate a message has been spoofed, you must view the email headers of that message.The following are examples of spoofed email header properties:
+Scammers alter different sections of an email to disguise the sender of the message. To view the message properties that indicate a message has been spoofed, you must view the email headers of that message. The following examples are spoofed email header properties:
 
-- **FROM** (for example, boss@companyexample.com) - This appears to come from a legitimate source on a spoofed message.
+- **FROM** (for example, boss@companyexample.com): This property appears to come from a legitimate source on a spoofed message.
 
-- **REPLY-TO** - This can also be spoofed, but a lazy scammer might leave the actual **REPLY-TO** address. If you see a different sending address here, the email might have been spoofed.
+- **REPLY-TO**: This property can also be spoofed, but a lazy scammer might leave the actual **REPLY-TO** address. If you see a different sending address here, the email might be spoofed.
 
-- **RETURN-PATH** - This can also be spoofed, but a lazy scammer might leave the actual **RETURN-PATH** address. If you see a different sending address here, the email might have been spoofed.
+- **RETURN-PATH**: This property can also be spoofed, but a lazy scammer might leave the actual **RETURN-PATH** address. If you see a different sending address here, the email might be spoofed.
 
-- **SOURCE IP address or “X-ORIGIN” address** - This is typically more difficult to alter but it is possible that this property is spoofed.
+- **SOURCE IP address or “X-ORIGIN” address**: This property is typically more difficult to alter, but it is possible that this property is spoofed.
 
-The first three properties can be easily altered by using settings in your Microsoft&reg; Outlook&reg;, Gmail&reg;, Hotmail&reg;, or other email software. The fourth property, Internet Protocol(IP) address, can also be altered, but it usually requires more sophistication to make a false IP address convincing.
+The first three properties can be easily altered by using settings in your Microsoft&reg; Outlook&reg;, Gmail&reg;, Hotmail&reg;, or other email software. The fourth property, SOURCE Internet Protocol (IP) address, can also be altered, but it usually requires more sophistication to make a false IP address convincing.
 
-The recipient appears to have received a message from their office assistant requesting money, in the following example:
+In the following example, the recipient appears to have received a message from their office assistant requesting money:
 
 <img src="{% asset_path exchange/detect-email-spoofing-for-exchange-users/from_assistant.png %}" />
 
-The **subject** line should alert you immediately. The recipient should contact their assistant through another form of communication to confirm that they did not send this message. Next, discover who actually sent the message by opening the message headers. They should look similar to the following:
+The subject line (Send $$$) should alert you immediately. The recipient should contact their assistant through another form of communication to confirm that they did not send this message. Next, discover who actually sent the message by opening the message headers. They should look similar to the following example:
 
 <img src="{% asset_path exchange/detect-email-spoofing-for-exchange-users/reply_to.png %}" />
 
-In this message header snippet shown above, the **From:** field shows the message being sent from **"Assistant"\<assistant@yourdomainexample.com\>**. However, the **REPLY-TO:** field lists *spoofer@scam.com*. That is a clear example of a spoofed message.
+In the message header snippet shown above, the **From:** field shows the message being sent from **"Assistant"\<assistant@yourdomainexample.com\>**. However, the **REPLY-TO:** field lists **spoofer@scam.com**, which is a clear example of a spoofed message.
 
 You should blacklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
 
-For more information on viewing and understanding email headers, see [View and read email headers in Outlook Web App](/how-to/view-and-read-email-headers-in-owa).
+For more information on viewing and understanding email headers, see [View and read email headers in the Outlook Web App](/how-to/view-and-read-email-headers-in-owa).
 
 ### Combat spoofing
 
@@ -72,24 +72,29 @@ User education is the first line of defense against these types of attacks. If a
  - Immediately [change your email account password](/how-to/change-a-microsoft-exchange-mailbox-password) if you or your users provided that information at any point.
  - Alert all of your users to the situation.
 
-Spoofing is a frustrating issue to deal with, because it cannot totally be stopped with any single method. Spoofing is similar to handwriting many letters and signing someone else's name to it. You can imagine how difficult that would be to trace.
+Spoofing is a frustrating issue to deal with because you cannot totally stopped it with any single method. Spoofing is similar to writing paper letters and signing someone else's name to them. You can imagine how difficult that would be to trace.
 
-The most impactful change you can make as an administrator is to implement **SPF**, **DKIM**, and **DMARC** records, in that order. These DNS records add extra layers of protection to prevent malicious email from being sent out using your domain name.
+The most impactful change you can make as an administrator is to implement **Sender Policy Framework (SPF)**, **DomainKeys Identified Mail (DKIM)**, and **DomainKeys Identified Mail (DKIM)** records, in that order. These DNS records add extra layers of protection to prevent malicious email from being sent out using your domain name.
 
-   - **Sender Policy Framework (SPF)** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing). [Create an SPF record policy](/how-to/create-an-spf-policy) first.
+   - **SPF** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing). The first step in the process is to [Create an SPF record policy](/how-to/create-an-spf-policy).
 
        **Note:** If you send email from external providers on behalf of your domain, you must include their sending servers in the same SPF record entry. Do not create multiple SPF records.
 
-   - **DomainKeys Identified Mail (DKIM)** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instructions to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel). Creating a DKIM record is the second step in the process.
+   - **DKIM** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instructions to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel). Creating a DKIM record is the second step in the process.
 
-   - **Domain Message Authentication Reporting and Compliance (DMARC)** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC record policy](/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records. This is the last step in the process.
+   - **DMARC** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC policy](/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records, which is the last step in the process.
 
-Record policies protect the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multi-step process that you must carefully follow. For more information, see [Create a DMARC policy](/how-to/create-a-dmarc-policy).
+Record policies protect the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multistep process that you must carefully follow. For more information, see [Create a DMARC policy](/how-to/create-a-dmarc-policy).
 
 
 ### References
 
-- [Change a Hosted Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password)
+- [Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password)
 - [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
+- [Exchange - Spoofing: How to identify and protect your organization](https://emailhelp.rackspace.com/l/how-to-prevent-email-spoofing)
+- [Create an SPF record policy](/how-to/create-an-spf-policy)
+- [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel)
 - [Create a DMARC policy](/how-to/create-a-dmarc-policy)
-- [View and read email headers in Outlook Web App](/how-to/view-and-read-email-headers-in-owa)
+- [View and read email headers in the Outlook Web App](/how-to/view-and-read-email-headers-in-owa)
+- [Block senders in Outlook Web App](/how-to/block-senders-in-owa)
+- [Change a Microsoft Exchange email mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password)
