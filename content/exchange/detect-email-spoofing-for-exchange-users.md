@@ -72,7 +72,7 @@ User education is the first line of defense against these types of attacks. If a
  - Immediately [change your email account password](/how-to/change-a-microsoft-exchange-mailbox-password) if you or your users provided that information at any point.
  - Alert all of your users to the situation.
 
-Spoofing is a frustrating issue to deal with because you cannot totally stopped it with any single method. Spoofing is similar to writing paper letters and signing someone else's name to them. You can imagine how difficult that would be to trace.
+Spoofing is a frustrating issue to deal with because you cannot totally stop it with any single method. Spoofing is similar to writing paper letters and signing someone else's name to them. You can imagine how difficult that would be to trace.
 
 The most impactful change you can make as an administrator is to implement **Sender Policy Framework (SPF)**, **DomainKeys Identified Mail (DKIM)**, and **DomainKeys Identified Mail (DKIM)** records, in that order. These DNS records add extra layers of protection to prevent malicious email from being sent out using your domain name.
 
