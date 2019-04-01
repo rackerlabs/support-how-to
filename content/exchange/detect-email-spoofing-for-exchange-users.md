@@ -84,7 +84,7 @@ The most impactful change you can make as an administrator is to implement **SPF
 
    - **Domain Message Authentication Reporting and Compliance (DMARC)** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC record policy](/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records. This is the last step in the process.
 
-Using record policies protects the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multi-step process that you must carefully follow. For more information, see [Create a DMARC policy](/how-to/create-a-dmarc-policy).
+Record policies protect the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multi-step process that you must carefully follow. For more information, see [Create a DMARC policy](/how-to/create-a-dmarc-policy).
 
 
 ### References
