@@ -47,7 +47,7 @@ To determine if Autodiscover is configured properly, use the **Test E-mail AutoC
 
     <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover1.png %}" alt="" />
 
-4. Uncheck the **Use Guessmart** and **Secure Guessmart Authentication** checkboxes. Autodiscover is the only checkbox that is selected.
+4. Uncheck the **Use Guessmart** and **Secure Guessmart Authentication** checkboxes. **Use Autodiscover** is the only checkbox that is selected.
 
 5. Enter your email address and password.
 
