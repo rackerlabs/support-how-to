@@ -44,22 +44,20 @@ following tools:
 1.  Four Rackspace Cloud Servers
 2.  Open MPI
 
-### Prerequisites
-
-You need the following three items to successfully complete this tutorial:
-
--   A [Rackspace Cloud account](https://cart.rackspace.com/cloud/)
--   An SSH client. Windows users can use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
--   A basic knowledge of Linux and Open MPI
-
-### Installation process
-
-This tutorial sets up a four-node cluster, runs applications on it, and
+The tutorial sets up a four-node cluster, runs an application on it, and
 gauges the performance, as shown in the following image:
 
 <img src="{% asset_path cloud-servers/high-performance-computing-cluster-in-a-cloud-environment/HPC_Cluster.png %}" width="557" height="343" />
 
 *Figure 1 - HPC on the Cloud High Level Architecture*
+
+#### Prerequisites
+
+You need the following three items to successfully complete this tutorial:
+
+-   A [Rackspace Cloud account](https://cart.rackspace.com/cloud/)
+-   An Secure Shell (SSH) client. Windows users can use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+-   A basic knowledge of Linux and Open MPI
 
 ### Tutorial
 
@@ -83,18 +81,18 @@ Cloud Server from the web interface with the following attributes.
 -  Size: **2GB of RAM** or higher
 
 Click **Create Server** and the Cloud Server build process begins. While it builds,
-a popup displays your Cloud Server password. Record this information for future
+a popup window displays your Cloud Server password. Record the password for future
 reference. Dismiss the popup window and wait for the server build to complete.
-Write down the IP address for the server after it becomes available.
+After the IP address of the new server becomes available, record it.
 
 #### Install Open MPI
 
-Once the server finishes building and is in **Available** status, SSH into
-it and log in by using the IP address and password that you recorded earlier.
+After the server finishes building and is in **Available** status, SSH into
+the server and log in by using the IP address and password that you recorded earlier.
 
     ssh root@<Your Server IP>
 
-After logging in, execute the following commands:
+After logging in, execute the following commands to install Open MPI:
 
     apt-get update
     apt-get install build-essential -y
@@ -102,8 +100,8 @@ After logging in, execute the following commands:
 
 #### Enable clustering
 
-As mentioned earlier, Open MPI facilitates communication between nodes
-via SSH, therefore, you need to enable key-based logins for SSH.
+Open MPI facilitates communication between nodes by using SSH, so you need to enable 
+key-based logins for SSH.
 
 To do this, run the following commands:
 
@@ -133,8 +131,7 @@ The output of these commands should look similar to the following:
     |                 |
     +-----------------+
 
-**Note:** You will be prompted for a passphrase during this process.
-Leave it blank.
+**Note:** You are prompted for a passphrase during this process. Leave it blank.
 
 Run the following commands to copy the key to authorized key folder and change
 the permissions to allow SSH logins:
@@ -146,7 +143,7 @@ the permissions to allow SSH logins:
 
 Now configure the master HPC node by creating a host file. To do this, ensure
 that you are logged in to the first node over SSH and create the following file,
-where <Your Server IP> is the IP address you used to SSH into the machine:
+where `<Your Server IP>` is the IP address that you used to SSH into the machine:
 
     cd ~/
     echo <Your Server IP> >> mpi_hosts
@@ -159,10 +156,10 @@ You should see the following result:
 
     <Your Server IP>
 
-To verify your configuration, use `hello_c.c` from the examples included with
+To verify your configuration, use **hello_c.c** from the examples included with
 Open MPI.
 
-To do this, follow these steps:
+To do this, follow these commands:
 
     mkdir /root/samples
     cd /root/samples
@@ -174,7 +171,7 @@ This should output the following:
 
     Hello, world, I am 0 of 1
 
-Now that it works, get the second example to test connectivity:
+Now that it works, run the following commands to test connectivity:
 
     wget http://svn.open-mpi.org/svn/ompi/tags/v1.6-series/v1.6.4/examples/connectivity_c.c
     mpicc connectivity_c.c -o connectivity
@@ -184,8 +181,7 @@ You should see the following output:
 
     Connectivity test on 1 processes PASSED.
 
-This confirms that the first node is online and operational. The next section
-shows you how to finish building the cluster.
+This confirms that the first node is online and operational. 
 
 #### Create and deploy a Cloud Server image
 
@@ -203,13 +199,13 @@ image:
 8.  Finally, click **Create Image** and wait a few minutes for the image
     to be created.
 
-When completed, deploy a new Cloud Server using the previous procedure with
-the following exception: when prompted for image, click the **Saved** tab.
-Again, provide a meaningful name and record the password and IP address.
+After the image is created, deploy a new Cloud Server using the previous procedure with
+the following exception: when prompted for image, click the **Saved** tab and select your image.
+Again, provide a meaningful server name and record the password and IP address of the new server.
 
 To add the new node to the cluster, run the following commands (assuming that
-the IP of your new server is 10.20.30.40, and the IP/hostname of your first
-server is <Your Server IP>):
+the IP of your new server is `10.20.30.40`, and the IP/hostname of your first
+server is `<Your Server IP>`):
 
     SSH to your first server
     cd ~/
@@ -217,7 +213,7 @@ server is <Your Server IP>):
     10.20.30.40
     EOF
 
-Now, your host file should resemble this:
+Now, your host file should resemble the following example:
 
     <Your Server IP>
     10.20.30.40
@@ -228,10 +224,10 @@ command:
     mpirun -v -np 2 --hostfile ~/mpi_hosts /root/samples/connectivity
 
 If you don't get any errors, you have just successfully created and
-tested your own tiny cloud cluster! To increase the size of the cluster,
+tested your own cloud cluster! To increase the size of the cluster,
 add two more nodes using the same procedure.
 
-To test the connectivity between the four-node cluster, execute the
+To test the connectivity within the four-node cluster, execute the
 following command:
 
     mpirun -v -np 4 --hostfile ~/mpi_hosts /root/samples/connectivity
@@ -248,9 +244,9 @@ cluster. To do this, SSH into the master node and run the following command:
     for i in `cat mpi_hosts`; do ssh root@$i "curl -l http://openstack.prov12n.com/files/tachyon.sh | bash"; done
     cd ~/tachyon/compile/linux-mpi
 
-The Tachyon Parallel / Multiprocessor Ray Tracing System comes with
+The **Tachyon Parallel / Multiprocessor Ray Tracing System** comes with
 multiple sample data files in the scenes folder, which you can use
-to run your tests. First, run it on one node by using the following command:
+to run your tests. First, run the test on one node by using the following command:
 
     cd ~/tachyon/compile/linux-mpi
     ./tachyon ../../scenes/teapot.dat
@@ -284,17 +280,17 @@ You should see the following output:
       Ray Tracing Time:     0.6048 seconds
         Image I/O Time:     0.0182 seconds
 
-Your cluster consisted of four nodes and one CPU each. Therefore, the
-performance improvement was almost four times greater. You should have
+Your cluster consists of four nodes and one CPU each. Therefore, the
+performance improvement is almost four times greater. You should see
 significant improvements even if you don't have multiple nodes and instead
 run your application on only one node, with OpenMPI using both CPUs.
 
 This is why it is important that your server was created with at least
 2GB of RAM because sizes 2GB and higher have access to at least 2 CPUs.
 For more information on sizes,
-see <http://www.rackspace.com/cloud/servers/techdetails/>.
+see [Cloud Servers](http://www.rackspace.com/cloud/servers/techdetails/).
 
-Now you can run this code on multiple CPUs of a single server.
+Execute the following command to run this code on multiple CPUs of a single server:
 
     mpirun -np 2 ./tachyon ../../scenes/teapot.dat -format BMP
 
@@ -318,6 +314,6 @@ application, visit <http://jedi.ks.uiuc.edu/~johns/raytracer/>.
 
 In this tutorial, you learned how to create and image Cloud Servers. You
 also learned how to setup an HPC cluster using Open MPI. After setting
-up and configuring the cluster, you installed a small ray-tracing
+up and configuring the cluster, you installed a small ray tracing
 application to demonstrate the benefits of using multiple nodes instead
 of one node.
