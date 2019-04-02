@@ -1,27 +1,27 @@
 ---
 permalink: set-up-autodiscover-for-outlook/
-audit_date:
+audit_date: '2019-04-02'
 title: Set up Autodiscover for Outlook
 type: article
 created_date: '2016-10-25'
 created_by: Aaron Medrano
-last_modified_date: '2016-11-25'
-last_modified_by: Nate Archer
+last_modified_date: '2019-04-02'
+last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 
-In order for certain features on your Exchange account to work with Outlook, you must set up your domain name with a special DNS record that points to the Rackspace Cloud Office Autodiscover server.
+You must configure your domain name with an [Autodiscover](https://support.rackspace.com/how-to/dns-record-definitions/#cname-record) record that points to the Rackspace Cloud Office Autodiscover server, in order for certain features on your Microsoft&reg; Exchange&reg; account to work with Outlook&reg;.
 
-**Note:** Autodiscover is not compatible with Outlook 2011, Outlook 2016, or Mac Mail when setting up an email account as POP or IMAP.
+**Note:** If you are troubleshooting issues connecting Outlook to Exchange by using Autodiscover please reference [Autodiscover connection issues](https://support.rackspace.com/how-to/autodiscover-connection-issues/) or [Microsoft account association issues](https://support.rackspace.com/how-to/microsoft-account-association-issues/) for information on troubleshooting Autodiscover connections.
 
 
-### Autodiscover outlook features
+### Outlook features enabled by using Autodiscover
 
-You must set up the Autodiscover record for your domain name in order to have the following Exchange features:
+Set up Outlook by using Autodiscover to enable the following Exchange features:
 
-- Free/busy information for calendar scheduling
+- View free or busy details for calendar scheduling
 
 - Out of office setup and management through Outlook
 
@@ -33,29 +33,25 @@ You must set up the Autodiscover record for your domain name in order to have th
 
 - Automatic mapping of shared mailboxes
 
-**Note:** You can use the Outlook Web App to set up automatic out-of-office replies without Autodiscover.
-
-### Set up the Autodiscover DNS record
-
-To set up the Autodiscover DNS record, see [Set up DNS records for Cloud Office email and Skype for Business](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/#autodiscover-records).
+See [DNS record definitions](https://support.rackspace.com/how-to/dns-record-definitions/#cname-record) for information on configuring Autodiscover for your domain.
 
 ### Test Autodiscover functionality in Outlook
 
-To determine if the Autodiscover service is configured properly,  use the Test E-mail AutoConfiguration tool in Outlook.
+To determine if the Autodiscover service is configured properly,  use the **Test E-mail AutoConfiguration** tool in Outlook.
 
-1. While Outlook is running, press and hold down the **CTRL** key, and then right-click the Outlook icon in the system tray or notification area on the lower-right corner of the screen.
+1. Open Outlook and then minimize the Outlook application.
 
-2. From the menu, select **Test E-mail AutoConfiguration**.
+2. While Outlook is running, press and hold down the **CTRL** key, and then right-click the Outlook icon in the system tray or notification area on the lower right corner of the screen.
+
+3. From the menu, select **Test E-mail AutoConfiguration**.
 
     <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover1.png %}" alt="" />
 
-3. Enter your email address and password.
+4. Uncheck the **Use Guessmart** and **Secure Guessmart Authentication** check boxes. Autodiscover is the only check box that is selected.
 
-4. Clear the **Use Guessmart** and **Secure Guessmart Authentication** check boxes.
+5. Enter your email address and password.
 
-    Ensure that the Use Autodiscover check box is selected.
-
-5. Click test.
+6. Click test.
 
     The result tab shows that Autodiscover is detected.
     <img src="{% asset_path exchange/set-up-autodiscover-for-outlook/autodiscover2.png %}" alt="" />
