@@ -1,11 +1,11 @@
 ---
 permalink: high-performance-computing-cluster-in-a-cloud-environment/
-audit_date:
+audit_date: '2019-04-05'
 title: High Performance Computing Cluster in a Cloud Environment
 type: article
 created_date: '2013-03-18'
 created_by: Alyssa Hurtgen
-last_modified_date: '2018-10-26'
+last_modified_date: '2019-04-05'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -13,13 +13,13 @@ product_url: cloud-servers
 
 High Performance Computing (HPC) enables scientists and researchers to
 solve complex problems that require many computing capabilities. HPC
-typically utilizes a message passing interface (MPI) to communicate
+typically uses a message passing interface (MPI) to communicate
 between different nodes.
 
 ### HPC in the cloud
 
 Currently, most projects requiring HPC are still running on legacy Unix
-systems. Migrating these projects to a Cloud-based installation is very
+systems. Migrating these projects to a cloud-based installation is very
 simple and does not require much additional setup. This tutorial builds
 an HPC cluster with Open MPI on the Rackspace Cloud and runs an Open MPI
 application on top of the cluster. By the end of this tutorial, you should
@@ -30,11 +30,11 @@ infrastructure.
 ### Open MPI
 
 To achieve high performance clustering in the Cloud, you can use Open
-MPI, which is a Message Passing Interface project. It provides parallel
+MPI, which is an MPI project. It provides parallel
 processing, thread safety and concurrency, dynamic process spawning, and
 network and fault tolerance. The world's fastest super computers use this
-library and the library powers many petaflops. To find out more about the
-Open MPI library, visit their site: <http://www.open-mpi.org/>.
+library, and the library powers many petaflops. To find out more about the
+Open MPI library, visit [their site](http://www.open-mpi.org/).
 
 ### Objective
 
@@ -46,33 +46,33 @@ following tools:
 
 ### Prerequisites
 
-The following prerequisites are expected for successful completion of
-this tutorial:
+You need the following three items to successfully complete this tutorial:
 
--   Rackspace Cloud account ( <https://cart.rackspace.com/cloud/> )
--   SSH client (Windows users download PuTTY from here:
-    <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html> )
+-   A [Rackspace Cloud account](https://cart.rackspace.com/cloud/)
+-   An SSH client. Windows users can use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 -   A basic knowledge of Linux and Open MPI
 
 ### Installation process
 
 This tutorial sets up a four-node cluster, runs applications on it, and
-gauges the performance.
+gauges the performance, as shown in the following image:
 
 <img src="{% asset_path cloud-servers/high-performance-computing-cluster-in-a-cloud-environment/HPC_Cluster.png %}" width="557" height="343" />
 
 *Figure 1 - HPC on the Cloud High Level Architecture*
 
-This tutorial covers the following tasks:
+### Tutorial
+
+The tutorial covers the following tasks:
 
 1.  Create a Cloud Server.
 2.  Install Open MPI.
-3.  Enable Clustering.
+3.  Enable clustering.
 4.  Configure HPC.
 5.  Create and deploy a Cloud Server image.
 6.  Install and run a sample Open MPI enabled application.
 
-### Create a Cloud Server
+#### Create a Cloud Server
 
 Log in to the [Cloud Control Panel](https://login.rackspace.com) and create a
 Cloud Server from the web interface with the following attributes.
@@ -87,7 +87,7 @@ a popup displays your Cloud Server password. Record this information for future
 reference. Dismiss the popup window and wait for the server build to complete.
 Write down the IP address for the server after it becomes available.
 
-### Install Open MPI
+#### Install Open MPI
 
 Once the server finishes building and is in **Available** status, SSH into
 it and log in by using the IP address and password that you recorded earlier.
@@ -100,7 +100,7 @@ After logging in, execute the following commands:
     apt-get install build-essential -y
     apt-get install openmpi-bin openmpi-checkpoint openmpi-common openmpi-doc libopenmpi-dev -y
 
-### Enable clustering
+#### Enable clustering
 
 As mentioned earlier, Open MPI facilitates communication between nodes
 via SSH, therefore, you need to enable key-based logins for SSH.
@@ -142,7 +142,7 @@ the permissions to allow SSH logins:
     cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
     chmod 600 ~/.ssh/authorized_keys
 
-### Configure HPC
+#### Configure HPC
 
 Now configure the master HPC node by creating a host file. To do this, ensure
 that you are logged in to the first node over SSH and create the following file,
@@ -187,7 +187,7 @@ You should see the following output:
 This confirms that the first node is online and operational. The next section
 shows you how to finish building the cluster.
 
-### Create and deploy a Cloud Server image
+#### Create and deploy a Cloud Server image
 
 With the first node created, you are ready to set up a cluster. To begin,
 make copies of the node that you just created. Follow these steps to create an
@@ -236,7 +236,7 @@ following command:
 
     mpirun -v -np 4 --hostfile ~/mpi_hosts /root/samples/connectivity
 
-### Install and run a sample Open MPI-enabled application
+#### Install and run a sample Open MPI-enabled application
 
 Now that you have an Open MPI cluster, check how it performs. Use a simple
 ray tracing application that can run on a single node or on
@@ -318,6 +318,6 @@ application, visit <http://jedi.ks.uiuc.edu/~johns/raytracer/>.
 
 In this tutorial, you learned how to create and image Cloud Servers. You
 also learned how to setup an HPC cluster using Open MPI. After setting
-up and configuring the cluster, you installed a small ray tracing
+up and configuring the cluster, you installed a small ray-tracing
 application to demonstrate the benefits of using multiple nodes instead
 of one node.
