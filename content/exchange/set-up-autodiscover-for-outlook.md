@@ -12,7 +12,7 @@ product_url: exchange
 ---
 
 
-In order for certain features in your Microsoft&reg; Exchange&reg; account to work with Outlook&reg;, you must configure your domain name with an [Autodiscover](https://support.rackspace.com/how-to/dns-record-definitions/#cname-record) record that points to the Rackspace Cloud Office Autodiscover server.
+For certain features in your Microsoft&reg; Exchange&reg; account to work with Outlook&reg;, you must configure your domain name with an [Autodiscover](https://support.rackspace.com/how-to/dns-record-definitions/#cname-record) record that points to the Rackspace Cloud Office Autodiscover server.
 
 **Note:** If you are troubleshooting issues with connecting Outlook to Exchange by using Autodiscover, reference [Autodiscover connection issues](https://support.rackspace.com/how-to/autodiscover-connection-issues/) or [Microsoft account association issues](https://support.rackspace.com/how-to/microsoft-account-association-issues/) for more information.
 
