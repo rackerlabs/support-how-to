@@ -1,12 +1,12 @@
 ---
 permalink: install-php-on-windows-server-2012-and-later/
-audit_date:
+audit_date: '2019-04-11'
 title: Install PHP on Windows Server 2012 and later
 type: article
 created_date: '2013-04-22'
 created_by: Rackspace Support
-last_modified_date: '2016-07-01'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-04-11'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
