@@ -18,8 +18,8 @@ the source.
 
 ### Prerequisites
 
-Before installing PHP on Windows Server 2012 or later, you should install
-the [IIS framework](https://docs.microsoft.com/en-us/dynamics-nav/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client).
+Before installing PHP on Windows Server 2012 and later, you should install
+the [Internet Information Services (IIS) framework](https://docs.microsoft.com/en-us/dynamics-nav/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client).
 
 You should also install the
 [Microsoft Windows Cache extension for PHP](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php).
@@ -32,7 +32,7 @@ file system:
        C:\Program Files\Microsoft\Web Platform Installer\WebPlatformInstaller.exe
 
    **Note**: If the WebPI is not currently installed, you can download
-   it from the [Web PI](http://www.microsoft.com/web/downloads/platform.aspx).
+   it from [WebPI](http://www.microsoft.com/web/downloads/platform.aspx).
 
 2. Click the **Products** tab, click **Frameworks**, and then scroll down the
 PHP choices.
@@ -62,7 +62,7 @@ snippit:
 
 2. When you run this code, it presents detailed information about the
 current PHP configuration of the local system. Save the
-file as **info.php** in the Internet Information Services (IIS) root directory.
+file as **info.php** in the IIS root directory.
 
    **Note**: The default IIS root directory is **C:\\inetpub\\wwwroot**.
 
@@ -99,7 +99,7 @@ steps:
   **Internet Information Services(IIS) Manager**. Select the server on the
   right-hand screen and click **Restart** in the **Manage Server** section.
 
-### Modify the Default Document settings
+### Modify the default document settings
 
 To ensure that PHP content is served as the first option, you should modify
 the default document setting within the IIS Manager by using the following steps:
