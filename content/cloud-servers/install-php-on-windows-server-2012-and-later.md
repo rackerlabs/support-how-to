@@ -121,4 +121,4 @@ list.
 
    <img src="{% asset_path cloud-servers/install-php-on-windows-server-2012-and-later/php_top.png %}" width="876" height="624" />
 
-6. IIS now serves **index.php** files from the **wwwroot** folder before all other document types.
+IIS now serves **index.php** files from the **wwwroot** folder before all other document types.
