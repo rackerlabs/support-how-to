@@ -94,10 +94,13 @@ steps:
 
 3. Save the file after you complete your modifications.
 
-4. Next, restart the IIS service to load any configuration changes. Open the
-  **Server Manager** from the task bar. From the **Tools** menu, select
-  **Internet Information Services(IIS) Manager**. Select the server on the
-  right-hand screen and click **Restart** in the **Manage Server** section.
+4. Next, restart the IIS service to load any configuration changes. 
+
+5. Open the **Server Manager** from the task bar. 
+
+6. From the **Tools** menu, select **Internet Information Services(IIS) Manager**. 
+
+7. Select the server in the right-hand screen and click **Restart** in the **Manage Server** section.
 
 ### Modify the default document settings
 
