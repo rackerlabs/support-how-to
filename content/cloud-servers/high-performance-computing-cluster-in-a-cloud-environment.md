@@ -205,7 +205,7 @@ Again, provide a meaningful server name and record the password and IP address o
 
 To add the new node to the cluster, run the following commands (assuming that
 the IP of your new server is `10.20.30.40` and the IP/hostname of your first
-server is <Your Server IP>):
+server is `<Your Server IP>`):
 
     SSH to your first server
     cd ~/
