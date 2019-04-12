@@ -1,11 +1,11 @@
 ---
 permalink: high-performance-computing-cluster-in-a-cloud-environment/
-audit_date: '2019-04-05'
+audit_date: '2019-04-12'
 title: High Performance Computing Cluster in a Cloud Environment
 type: article
 created_date: '2013-03-18'
 created_by: Alyssa Hurtgen
-last_modified_date: '2019-04-05'
+last_modified_date: '2019-04-12'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -205,7 +205,7 @@ Again, provide a meaningful server name and record the password and IP address o
 
 To add the new node to the cluster, run the following commands (assuming that
 the IP of your new server is `10.20.30.40`, and the IP/hostname of your first
-server is `<Your Server IP>`):
+server is <Your Server IP>):
 
     SSH to your first server
     cd ~/
