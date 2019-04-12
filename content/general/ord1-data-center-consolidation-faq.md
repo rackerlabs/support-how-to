@@ -1,7 +1,7 @@
 ---
 permalink: ord1-data-center-consolidation-faq/
 audit_date: '2019-04-17'
-title: DFW1 data center migration - customer FAQ
+title: ORD1 data center migration - customer FAQ
 type: article
 created_date: '2019-04-17'
 created_by: Carrie Feiss
@@ -74,7 +74,7 @@ racked in their new cabinets, and powered on.
 
 6.	Your configuration is tested and verified at an infrastructure level.
 If you have provided clear instructions in advance of the move date, further
-testing can be carried out by the migration team. 
+testing can be carried out by the migration team.
 
 
 ### My solution is sensitive and must be handled carefully during a shutdown. Can you help?
