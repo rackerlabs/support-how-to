@@ -1,7 +1,7 @@
 ---
 permalink: high-performance-computing-cluster-in-a-cloud-environment/
 audit_date: '2019-04-12'
-title: High Performance Computing Cluster in a Cloud Environment
+title: High Performance Computing Cluster in a cloud environment
 type: article
 created_date: '2013-03-18'
 created_by: Alyssa Hurtgen
@@ -18,19 +18,19 @@ between different nodes.
 
 ### HPC in the cloud
 
-Currently, most projects requiring HPC are still running on legacy Unix
+Currently, most projects requiring HPC are still running on legacy UNIX&reg;
 systems. Migrating these projects to a cloud-based installation is very
 simple and does not require much additional setup. This tutorial builds
 an HPC cluster with Open MPI on the Rackspace Cloud and runs an Open MPI
 application on top of the cluster. By the end of this tutorial, you should
-know how to leverage the Cloud to rapidly build and scale an HPC cluster
+know how to leverage the cloud to rapidly build and scale an HPC cluster
 for real-time data processing while removing the dependency on physical
 infrastructure.
 
 ### Open MPI
 
-To achieve high performance clustering in the Cloud, you can use Open
-MPI, which is an MPI project. It provides parallel
+To achieve high performance clustering in the cloud, you can use Open
+MPI, which is an Message Passing Interface (MPI) project. It provides parallel
 processing, thread safety and concurrency, dynamic process spawning, and
 network and fault tolerance. The world's fastest super computers use this
 library, and the library powers many petaflops. To find out more about the
@@ -41,8 +41,8 @@ Open MPI library, visit [their site](http://www.open-mpi.org/).
 This tutorial shows you how to build an HPC cluster by using the
 following tools:
 
-1.  Four Rackspace Cloud Servers
-2.  Open MPI
+*  Four Rackspace Cloud Servers
+*  Open MPI
 
 The tutorial sets up a four-node cluster, runs an application on it, and
 gauges the performance, as shown in the following image:
@@ -55,9 +55,9 @@ gauges the performance, as shown in the following image:
 
 You need the following three items to successfully complete this tutorial:
 
--   A [Rackspace Cloud account](https://cart.rackspace.com/cloud/)
--   An Secure Shell (SSH) client. Windows users can use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
--   A basic knowledge of Linux and Open MPI
+-   A [Rackspace Cloud account](https://cart.rackspace.com/cloud/).
+-   An Secure Shell (SSH) client. Windows&reg; users can use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+-   A basic knowledge of Linux&reg; and Open MPI.
 
 ### Tutorial
 
@@ -73,7 +73,7 @@ The tutorial covers the following tasks:
 #### Create a Cloud Server
 
 Log in to the [Cloud Control Panel](https://login.rackspace.com) and create a
-Cloud Server from the web interface with the following attributes.
+Cloud Server from the web interface with the following attributes:
 
 -  Server name: **yourname-HPC-node-01**
 -  Region: **Dallas (DFW)**
@@ -109,7 +109,7 @@ To do this, run the following commands:
     echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
     ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa -C "Open MPI"
 
-The output of these commands should look similar to the following:
+The output of these commands should look similar to the following example:
 
     Generating public/private rsa key pair.
     Enter passphrase (empty for no passphrase):
@@ -133,7 +133,7 @@ The output of these commands should look similar to the following:
 
 **Note:** You are prompted for a passphrase during this process. Leave it blank.
 
-Run the following commands to copy the key to authorized key folder and change
+Run the following commands to copy the key to the authorized key folder and change
 the permissions to allow SSH logins:
 
     cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
@@ -167,7 +167,7 @@ To do this, follow these commands:
     mpicc hello_c.c -o hello
     mpirun ./hello
 
-This should output the following:
+This should output the following result:
 
     Hello, world, I am 0 of 1
 
@@ -199,12 +199,12 @@ image:
 8.  Finally, click **Create Image** and wait a few minutes for the image
     to be created.
 
-After the image is created, deploy a new Cloud Server using the previous procedure with
-the following exception: when prompted for image, click the **Saved** tab and select your image.
+After the image is created, deploy a new Cloud Server by using the previous procedure with
+the following exception: when prompted for the image, click the **Saved** tab and select your image.
 Again, provide a meaningful server name and record the password and IP address of the new server.
 
 To add the new node to the cluster, run the following commands (assuming that
-the IP of your new server is `10.20.30.40`, and the IP/hostname of your first
+the IP of your new server is `10.20.30.40` and the IP/hostname of your first
 server is <Your Server IP>):
 
     SSH to your first server
@@ -224,8 +224,8 @@ command:
     mpirun -v -np 2 --hostfile ~/mpi_hosts /root/samples/connectivity
 
 If you don't get any errors, you have just successfully created and
-tested your own cloud cluster! To increase the size of the cluster,
-add two more nodes using the same procedure.
+tested your own cloud cluster. To increase the size of the cluster,
+add two more nodes by using the same procedure.
 
 To test the connectivity within the four-node cluster, execute the
 following command:
@@ -238,14 +238,14 @@ Now that you have an Open MPI cluster, check how it performs. Use a simple
 ray tracing application that can run on a single node or on
 an Open MPI cluster to compare the performance.
 
-First, install this application on all nodes of the
+First, install the application on all nodes of the
 cluster. To do this, SSH into the master node and run the following command:
 
     for i in `cat mpi_hosts`; do ssh root@$i "curl -l http://openstack.prov12n.com/files/tachyon.sh | bash"; done
     cd ~/tachyon/compile/linux-mpi
 
-The **Tachyon Parallel / Multiprocessor Ray Tracing System** comes with
-multiple sample data files in the scenes folder, which you can use
+The **Tachyon Parallel/Multiprocessor Ray Tracing System** comes with
+multiple sample data files in the **scenes** folder, which you can use
 to run your tests. First, run the test on one node by using the following command:
 
     cd ~/tachyon/compile/linux-mpi
@@ -280,13 +280,13 @@ You should see the following output:
       Ray Tracing Time:     0.6048 seconds
         Image I/O Time:     0.0182 seconds
 
-Your cluster consists of four nodes and one CPU each. Therefore, the
+Your cluster consists of four nodes and one CPU for each. Therefore, the
 performance improvement is almost four times greater. You should see
 significant improvements even if you don't have multiple nodes and instead
-run your application on only one node, with OpenMPI using both CPUs.
+run your application on only one node with OpenMPI using both CPUs.
 
-This is why it is important that your server was created with at least
-2GB of RAM because sizes 2GB and higher have access to at least 2 CPUs.
+It is important that your server was created with at least
+2 GB of RAM because sizes of 2 GB and higher have access to at least 2 CPUs.
 For more information on sizes,
 see [Cloud Servers](http://www.rackspace.com/cloud/servers/techdetails/).
 
@@ -313,7 +313,7 @@ application, visit <http://jedi.ks.uiuc.edu/~johns/raytracer/>.
 ### Summary
 
 In this tutorial, you learned how to create and image Cloud Servers. You
-also learned how to setup an HPC cluster using Open MPI. After setting
+also learned how to set up an HPC cluster using Open MPI. After setting
 up and configuring the cluster, you installed a small ray tracing
 application to demonstrate the benefits of using multiple nodes instead
 of one node.
