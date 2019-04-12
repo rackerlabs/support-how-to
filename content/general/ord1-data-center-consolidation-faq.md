@@ -1,7 +1,7 @@
 ---
 permalink: ord1-data-center-consolidation-faq/
 audit_date: '2019-04-17'
-title: DFW1 Data-center migration customer FAQ
+title: DFW1 data center migration - customer FAQ
 type: article
 created_date: '2019-04-17'
 created_by: Carrie Feiss
@@ -13,14 +13,14 @@ noindex: true
 ---
 
 The ORD1 data center has been operational since 2010 and offers the full suite
-of Rackspace. We are continuously working on improving efficiencies, and we
+of Rackspace services. We are continuously working on improving efficiencies, and we
 regularly examine the performance and capacity of our network zones. To
 maximize efficiency and resource use in ORD1, we need to consolidate cabinets
 within zones 1101 and 1102 so that we can build out the 10 G infrastructure in
-the oldest area of the data center. This means that devices in those affected
+the oldest area of the data center. Devices in those affected
 zones will be physically consolidated into another area of the data center.
 
-Our dedicated Migration Team will carry out this move. The team has had
+Our dedicated migration team will carry out this move. The team has had
 widespread success in data center migrations over the past decade and continues
 to improve and automate its processes, ensuring a smooth migration for our
 customers.
@@ -28,21 +28,21 @@ customers.
 ### Will service be interrupted?
 
 Yes. Rackspace will schedule a six-hour maintenance window from 23:00 to 05:00
-the following morning. We plan to return customers to service as quickly as
+on the following morning. We plan to return customers to service as quickly as
 possible within that window. During this time, all affected devices will be
 offline while they are moved from their current physical location to the new
 location.
 
 ### Are all of the devices in my environment being moved?
 
-For some customers only one device may be affected, and for others, it could
+For some customers, only one device may be affected, and for others, it could
 be some or all of their devices. It is important to note that other devices
 within your environment that are not being physically moved could also be
 impacted by this maintenance, depending on the device type that is being
 physically moved. For example, if we take your firewall offline, any devices
 logically located behind that firewall will be inaccessible while the firewall
 is offline. We have provided your account teams with a list of devices that
-could be impacted by this move. Please reach out to your Account Manager for
+could be impacted by this move. Reach out to your Account Manager for
 further information.
 
 ### Will there be any IP address or Domain Name Service (DNS) changes?
@@ -53,31 +53,31 @@ There are no changes to any IP addresses.
 
 The migration will happen in the following stages:
 
-1.	Leading up to your migration date, Rackspace works with you and your account
+1.	Leading up to your migration date, Rackspace will work with you and your account
 team to establish any specific requirements for the move. For example, let us
 know if you have a specific order in which your devices should be turned off or
 brought back online.
 
-2.	Rackspace runs non-disruptive audits on your devices prior to the
+2.	Rackspace will run non-disruptive audits on your devices prior to the
 migration date to ensure that we have the necessary access to your devices to
-run our shut down scripts and identify issues that could impede a speedy return
+run our shutdown scripts and identify issues that could impede a speedy return
 to service.
 
-3.	Before the migration starts all devices are placed under alert suppression.
+3.	Before the migration starts, all devices are placed under alert suppression.
 
-4.	At 23:01, all affected devices are powered off using an automated script.
+4.	At 23:01, all affected devices are powered off by using an automated script.
 Any servers that need to be turned off in a specific order are powered down
-before the automated shut down script runs between 22:00 and 23:01.
+before the automated shutdown script runs between 22:00 and 23:01.
 
 5.	After all devices are powered off, they are removed from the old cabinets,
-racked in their new cabinets and powered on.
+racked in their new cabinets, and powered on.
 
-6.	Your configuration is tested and verified at an infrastructure level. Further
-testing can be carried out by the migration team, if you have provided clear
-instructions in advance of the move date.
+6.	Your configuration is tested and verified at an infrastructure level.
+If you have provided clear instructions in advance of the move date, further
+testing can be carried out by the migration team. 
 
 
-### My solution is sensitive and must be handled carefully during a shut down. Can you help?
+### My solution is sensitive and must be handled carefully during a shutdown. Can you help?
 
 Yes, we can work with you to understand what needs to be done to ensure a
 smooth migration, and we can help in various ways, including turning off and
@@ -88,7 +88,7 @@ turning on your devices in a certain order.
 Yes, you may turn off your devices. We ask that you inform us in advance that
 you are going to do this.
 
-### I am a Managed Colocation customer and you do not have access to my servers. How will the migration work for me?
+### I am a Managed Colocation customer, and you do not have access to my servers. How will the migration work for me?
 
 Because Rackspace cannot access devices under the Managed Colocation terms, you
 must turn off your devices before the start of the maintenance window. If devices
@@ -99,10 +99,10 @@ days before your move night.
 
 ### My data is replicated to another location. How will the migration affect this replication?
 
-It depends on which devices are being moved and the replication method that you
+It depends on which devices are being moved, and the replication method that you
 have set up. We recommend that you tell us about any replication or log shipping
 so that we can work with you to ensure that it is re-established following the
-maintenance. You can provide us with explicit instructions such as what to
+maintenance. You can provide us with explicit instructions, such as what to
 check for and what to do if it is not working as expected.
 
 ### I have colocation devices that Rackspace does not have access to. How will these be migrated?
@@ -127,7 +127,7 @@ help support you during this consolidation exercise. Our dedicated migration
 team will run audits on your servers before the migration to identify and resolve
 any potential migration issues in advance. They will work with you and your
 account team to determine and agree to any special pre-migration and
-post-migration requirements or instructions that you might for turning off and
+post-migration requirements or instructions that you might have for turning off and
 turning on your solution. The migration team will then focus on successfully
 executing your instructions on the night of the migration.
 
@@ -141,31 +141,31 @@ night:
 
 - Correct any known disk issues before migration night, and ensure there are no
 disk corruption issues by running a check disk (`chkdsk`). Doing so prevents
-any forced chkdsk operations when your server is turned on.
-- Fully install any pending Microsoft&reg; Windows updates before the scheduled
+any forced `chkdsk` operations when your server is turned on.
+- Fully install any pending Microsoft&reg; Windows&reg; updates before the scheduled
 migration. If updates stop us from being able to gracefully turn off your servers,
 the downtime for the entire move group could be extended.
 - Perform a test reboot of your servers before the migration to ensure that
 applications and services start correctly. You can schedule reboots from the
-MyRackspace portal.
+MyRackspace Portal.
 
 ### I would like to run a full backup before my migration. Can this be arranged?
 
 Because it may not complete in time, we do not recommend that you initiate a
 full backup just before the migration. Approximately two hours before the
-migration is scheduled to start, our automated steps will kill any backup still
-in progress so that we can ensure a clean shut down. If your backups have been
+migration is scheduled to start, our automated steps will stop any backup still
+in progress so that we can ensure a clean shutdown. If your backups have been
 completing successfully in the weeks before the migration, you should not need
 to run an additional backup. However, if you are concerned, you may raise a
 ticket with the Managed Backup team to review the possibility of running a
-differential (or incremental) backup before the migration. This must complete
-before backups are killed at 21:00.
+differential (or incremental) backup before the migration. This task must complete
+before backups are stopped at 21:00.
 
 ### How will you keep me informed about the migration?
 
 You will receive a notification ticket 100 days from your move date and then
-receive notifications 45 and 14 days before your move, with the final
-notification created a day before. The final notification ticket updates you
+receive notifications 45 and 14 days before your move date, with the final
+notification sent a day before. The final notification ticket updates you
 throughout the move night. We will issue updates to confirm that the migration
 has been given a “go” decision, to confirm that devices have been shut down,
 and to confirm that the devices are back online.
