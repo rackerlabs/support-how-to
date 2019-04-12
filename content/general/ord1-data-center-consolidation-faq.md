@@ -76,7 +76,6 @@ racked in their new cabinets, and powered on.
 If you have provided clear instructions in advance of the move date, further
 testing can be carried out by the migration team.
 
-
 ### My solution is sensitive and must be handled carefully during a shutdown. Can you help?
 
 Yes, we can work with you to understand what needs to be done to ensure a
