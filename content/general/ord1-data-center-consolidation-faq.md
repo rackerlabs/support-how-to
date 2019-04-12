@@ -35,7 +35,7 @@ location.
 
 ### Are all of the devices in my environment being moved?
 
-Because this is a consolidation and not a closure it could be anywhere from 
+Because this is a consolidation and not a closure, it could be anywhere from 
 one device to a customer’s entire environment in ORD1. It is important to note
 that other devices within an environment that are not being physically moved could
 also be impacted by this maintenance, depending on the device type that is being
