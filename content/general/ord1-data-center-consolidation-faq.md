@@ -16,7 +16,7 @@ The ORD1 data center has been operational since 2010 and offers the full suite
 of Rackspace services. We are continuously working on improving efficiencies, and we
 regularly examine the performance and capacity of our network zones. To
 maximize efficiency and resource usage in ORD1, we need to consolidate cabinets
-within zones 1101 and 1102so that we can clear out a contiguous area for data center
+within zones 1101 and 1102 so that we can clear out a contiguous area for data center
 cabinet upgrades. Customers in the affected area will be physically consolidated into
 another area of the same computer room.
 
@@ -37,7 +37,7 @@ location.
 
 Because this is a consolidation and not a closure it could be anywhere from 
 one device to a customer’s entire environment in ORD1. It is important to note
-that other deviceswithin your environment that are not being physically moved could
+that other devices within an environment that are not being physically moved could
 also be impacted by this maintenance, depending on the device type that is being
 physically moved. For example, if we take your firewall offline, any devices
 logically located behind that firewall will be inaccessible while the firewall
