@@ -12,24 +12,24 @@ product_url: rackspace-email
 ---
 
 
-This article instructs you on transferring your domain registration from your current registrar to Rackspace Cloud Office.
+This article instructs you about how to transfer your domain registration from your current registrar to Rackspace Cloud Office.
 
 ### Prerequisites
 - **Applies to:** Administrator
 - **Difficulty:** Easy
-- **Time needed:** The transfer process can take between 4-7 business days.
-- **Tools required:** Access to Cloud Office Control Panel, access to current Domain Registrar, and access to the current WHOIS contact email address.
+- **Time needed:** The transfer process takes between 4–7 business days.
+- **Tools required:** Access to Cloud Office Control Panel, access to your current domain registrar, and access to the current WHOIS contact email address.
 
 
 #### Preparing your domain for transfer
 
-1. Contact your current domain registrar, and request that your domain be unlocked and to be provided with an Extensible Provisioning Protocol (EPP) transfer code.
+1. Contact your current domain registrar and request that they unlock your domain and provide an Extensible Provisioning Protocol (EPP) transfer code.
 
-2. Create a ticket with Rackspace support requesting transfer of domain registration to your Rackspace account. Include the domain you want to transfer as well the EPP code provided by your current domain registrar.
+2. Create a ticket with Rackspace Support requesting transfer of domain registration to your Rackspace account. Include the domain you want to transfer as well the EPP code provided by your current domain registrar.
 
-3. When the transfer request is initiated at Rackspace, you receive an email at your WHOIS contact address from your current domain registrar. You are instructed in the email to click a link confirming you allow the domain transfer to take place. The transfer process will not commence until you have completed this step.
+3. When Rackspace Support initiates the transfer request, you receive an email at your WHOIS contact address from your current domain registrar. You are instructed in the email to click a link confirming that you allow the domain transfer to take place. The transfer process does not commence until you complete this step.
 
-4. Reply to the ticket you created with Rackspace support by stating that you have completed the previous step. The automated transfer process takes 4 to 7 business days to complete.
+4. Reply to the ticket you created with Rackspace Support by stating that you have completed the previous step. The automated transfer process takes 4–7 business days to complete.
 
 #### Monitor the transfer from your Cloud Office Control Panel
 
@@ -37,4 +37,4 @@ This article instructs you on transferring your domain registration from your cu
 
 2.	Scroll down to the **Domains** section and select **DNS Settings**.
 
-3.	On this page you see your domains listed out as well as the status of the service.  The transfer is complete when the status of the service changes from **Pending Authorization** to **Registration**.
+3.	On this page, you see your domains listed as well as the status of the service. The transfer is complete when the status of the service changes from **Pending Authorization** to **Registration**.
