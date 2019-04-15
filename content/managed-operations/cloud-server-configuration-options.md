@@ -1,11 +1,11 @@
 ---
 permalink: cloud-server-configuration-options/
-audit_date: '2019-10-02'
+audit_date: '2019-04-15'
 title: Cloud Server configuration options
 type: article
 created_date: '2014-12-01'
 created_by: Rose Contreras
-last_modified_date: '2019-04-02'
+last_modified_date: '2019-04-15'
 last_modified_by: Brian King
 product: Managed Operations
 product_url: managed-operations
@@ -42,9 +42,9 @@ Depending upon your service level, these options are available for the
 
 `gateway`
 
-- Available to all customers
-- Used with virtual network devices, such as the Fortigate-VM. Creates
-  a Cloud Network suitable for routing traffic, and configures the 
+- Available to all customers.
+- Used with virtual network devices, such as the Fortigate-VM. This option 
+  creates a Cloud Network suitable for routing traffic and configures the 
   virtual network device as the gateway for the Cloud Network.
 
 `rack_user_only`
