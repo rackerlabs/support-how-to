@@ -22,21 +22,19 @@ Use the following steps to attach a Cloud Network to an existing Fortigate&reg;-
 3. Select **Servers > Cloud Servers**.
 
 4. Navigate to the **Server Details** page for your Fortigate-VM as shown in the
-following image:
+   following image:
 
-<img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/cloud_servers_details.png %}" class="image-half_width" width="350" height="224" />
+   <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/cloud_servers_details.png %}" class="image-half_width" width="350" height="224" />
 
-<ol start=5>
-    <li>In <b>Networks and Security Groups</b>, click <b>Add Network</b> and choose the
-Cloud Network that you want to attach as shown in the following image:</li>
-</ol>
+   In **Networks and Security Groups**, click **Add Network** and choose the
+   Cloud Network that you want to attach as shown in the following image:
 
-<img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/add_network.png %}" class="image-half_width" width="350" height="224" />
+   <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/add_network.png %}" class="image-half_width" width="350" height="224" />
 
-<ol start=6>
-    <li>Click <b>Add Network</b> in the dialog box.</li>
-    <li>Record the Cloud Networks IP address that displays after a few seconds.</li>
-</ol>
+
+6. Click **Add Network** in the dialog box.
+
+7. Record the Cloud Networks IP address that displays after a few seconds.
 
 ### Verify the Classless Inter-Domain Routing (CIDR) (subnet mask)
 
