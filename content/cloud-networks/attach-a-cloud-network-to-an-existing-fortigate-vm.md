@@ -51,6 +51,7 @@ http:\\10.82.89.10.
 3. Click the highest-numbered interface, which is `port3` in this example, and
 click **Edit**.
 
+
 4. In the **Address** section, fill in the Cloud Network IP address and CIDR
 that you recorded earlier and click **OK** as shown in the following images.
 
