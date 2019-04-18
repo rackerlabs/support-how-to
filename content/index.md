@@ -21,20 +21,14 @@ permalink: /
 	</div>
 	<div class="container">
 		<div class="content home product-type product-type-cloud" id="cloud-display">
-		      <div class="row">
-			      <h3>Rackspace Private Cloud</h3>
-			      <div class="twelve columns">
-				      <div class="three columns primary icon private">
-					      <h4><a href="/how-to/rpc-microsoft/"><span>Rackspace Private Cloud</span> Powered by Microsoft Cloud Platform</a></h4>
-					</div>
-					<div class="three columns icon private">
-						<h4><a href="/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
-					</div>
-					<div class="three columns icon private">
-						<h4><a href="/how-to/rpc-vmware/"><span>Rackspace Private Cloud</span> Powered by VMware</a></h4>
-					</div>
-				</div>
-			</div>
+		   <div class="row">
+			   <h3>Rackspace Managed Security</h3>
+			   <div class="twelve columns">
+				   <div class="primary twelve columns icon private">
+					   <h4><a href="/how-to/rackspace-pdr/"><span>Rackspace</span> Proactive Detection & Response</a></h4>
+				   </div>
+			   </div>
+		   </div>
 			<hr/>
 
 			<div class="row">
@@ -139,17 +133,24 @@ permalink: /
 					</div>
 				</div>
 			</div>
-			
+
 			<hr/>
-			
+
 			<div class="row">
-				<h3>Rackspace Managed Security</h3>
+				<h3>Rackspace Private Cloud</h3>
 				<div class="twelve columns">
-					<div class="primary twelve columns icon private">
-						<h4><a href="/how-to/rackspace-pdr/"><span>Rackspace</span> Proactive Detection & Response</a></h4>
-					</div>
-				</div>
+					<div class="three columns primary icon private">
+						<h4><a href="/how-to/rpc-microsoft/"><span>Rackspace Private Cloud</span> Powered by Microsoft Cloud Platform</a></h4>
 			</div>
+			<div class="three columns icon private">
+				<h4><a href="/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
+			</div>
+			<div class="three columns icon private">
+				<h4><a href="/how-to/rpc-vmware/"><span>Rackspace Private Cloud</span> Powered by VMware</a></h4>
+			</div>
+			</div>
+			</div>
+
 		</div>
 	</div>
 
