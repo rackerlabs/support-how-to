@@ -1,7 +1,7 @@
 ---
 permalink: attach-a-cloud-network-to-an-existing-fortigate-vm/
 audit_date: '2019-04-18'
-title: Attach a cloud network to an existing Fortigate-VM
+title: Attach a Cloud Network to an existing Fortigate-VM
 type: article
 created_date: '2019-04-18'
 created_by: Brian King
@@ -11,9 +11,9 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Use the following steps to attach a Cloud Network to an existing Fortigate-VM:
+Use the following steps to attach a Cloud Network to an existing Fortigate&reg;-VM:
 
-### Add the Cloud Network in the MyCloud Portal.
+### Add the Cloud Network in the Cloud Control Panel
 
 1. Log in to the [Cloud Control Panel](login.rackspace.com).
 
@@ -24,7 +24,7 @@ Use the following steps to attach a Cloud Network to an existing Fortigate-VM:
 4. Navigate to the **Server Details** page for your Fortigate-VM.
 
 5. In **Networks and Security Groups**, click **Add Network** and choose the
-Cloud Network that you wish to attach as shown in the following image:
+Cloud Network that you want to attach as shown in the following image:
 
 <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/add_network.png %}" class="image-half_width" width="350" height="224" />
 
@@ -32,7 +32,7 @@ Cloud Network that you wish to attach as shown in the following image:
 
 7. Record the Cloud Networks IP address that displays after a few seconds.
 
-### Verify the Classless Inter-Domain Routing (CIDR) (Subnet Mask)
+### Verify the Classless Inter-Domain Routing (CIDR) (subnet mask)
 
 1. From the Cloud Control Panel, navigate to **Networking > Networks**.
 
@@ -41,12 +41,12 @@ which is usually `ip-address/24`) as shown in the following image.
 
 <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/cloud_networks.png %}" class="image-half_width" width="350" height="224" />
 
-### Set the IP in the Fortigate-VM GUI
+### Set the IP address in the Fortigate-VM GUI
 
-1. Browse to your Fortigate-VM by using the VM IP  address, for example:
+1. Browse to your Fortigate-VM by using the virtual machine (VM) IP  address, for example
 http:\\10.82.89.10.
 
-2. Click on **Network > Interfaces**, to see a list of interfaces.
+2. Click on **Network > Interfaces** to see a list of interfaces.
 
 3. Click the highest-numbered interface, which is `port3` in this example, and
 click **Edit**.
