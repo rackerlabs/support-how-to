@@ -26,7 +26,7 @@ Use the following steps to attach a Cloud Network to an existing Fortigate&reg;-
 
    <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/cloud_servers_details.png %}" class="image-half_width" width="350" height="224" />
 
-   In **Networks and Security Groups**, click **Add Network** and choose the
+5. In **Networks and Security Groups**, click **Add Network** and choose the
    Cloud Network that you want to attach as shown in the following image:
 
    <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/add_network.png %}" class="image-half_width" width="350" height="224" />
