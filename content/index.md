@@ -32,6 +32,17 @@ permalink: /
 			<hr/>
 
 			<div class="row">
+				<h3>Managed Operations</h3>
+				<div class="twelve columns">
+					<div class="primary twelve columns icon managed-operations">
+						<h4><a href="/how-to/managed-operations"><span>Managed</span> Operations</a></h4>
+					</div>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div class="row">
 				<h3>Compute</h3>
 				<div class="twelve columns">
 					<div class="three columns icon servers primary">
@@ -119,17 +130,6 @@ permalink: /
 					</div>
 					<div class="three columns icon metrics">
 						<h4><a href="/how-to/rackspace-metrics"><span>Rackspace</span> Metrics</a></h4>
-					</div>
-				</div>
-			</div>
-
-			<hr/>
-
-			<div class="row">
-				<h3>Managed Operations</h3>
-				<div class="twelve columns">
-					<div class="primary twelve columns icon managed-operations">
-						<h4><a href="/how-to/managed-operations"><span>Managed</span> Operations</a></h4>
 					</div>
 				</div>
 			</div>
