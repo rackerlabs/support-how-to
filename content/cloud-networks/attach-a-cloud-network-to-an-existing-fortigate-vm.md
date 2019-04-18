@@ -51,19 +51,14 @@ http:\\10.82.89.10.
 3. Click the highest-numbered interface, which is `port3` in this example, and
 click **Edit**.
 
-
 4. In the **Address** section, fill in the Cloud Network IP address and CIDR
 that you recorded earlier and click **OK** as shown in the following images.
-
 
 <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/display_fgvm.png %}" class="image-half_width" width="350" height="224" />
 
 <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/ipset.png %}" class="image-half_width" width="350" height="224" />
 
-
 ### (Optional) Backup the new configuration
 
 Because you just changed its configuration, we recommend that you
 [back up the Fortigate-VM](https://support.rackspace.com/how-to/back-up-the-fortinet-fortigate-vm/).
-
-
