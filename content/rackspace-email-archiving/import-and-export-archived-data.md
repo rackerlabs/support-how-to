@@ -21,7 +21,7 @@ panel and include your domain name in the request. Rackspace will gather
 the necessary information and provide you with the best import method.
 
 Cost and turnaround time both depend on how much data you want to
-recover:
+recover.
 
 -   The fee for data imports is \$6 per GB of data.
 -   For maximum import completion times, see [Time frames for importing
