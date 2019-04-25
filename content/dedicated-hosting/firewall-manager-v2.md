@@ -5,8 +5,8 @@ title: Firewall Manager v2
 type: article
 created_date: '2017-03-20'
 created_by: Trevor Becker
-last_modified_date: '2018-03-13'
-last_modified_by: Nate Archer
+last_modified_date: '2018-04-25'
+last_modified_by: Catherine Richardson
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
