@@ -19,7 +19,7 @@ Firewall Manager, commonly referred to as the Firewall Control Panel (FWCP), is 
 
 ### How do I find the Firewall Manager v2?
 
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your username, and password.
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your username and password.
 
 2. In the top navigation bar, click **Select a Product > Dedicated Hosting**.
 
