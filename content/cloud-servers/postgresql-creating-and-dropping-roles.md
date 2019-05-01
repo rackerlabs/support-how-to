@@ -1,7 +1,7 @@
 ---
 permalink: postgresql-creating-and-dropping-roles/
 audit_date: '2019-05-01'
-title: Create and Drop Roles in PostgreSQL
+title: Create and drop roles in PostgreSQL
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
@@ -11,15 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-To test a production database server, you should create additional roles,
-because working regularly in your databases as the default superuser role is
+To test a production database server, you should create additional roles
+because regularly working in your databases as the default superuser role is
 risky.
 
-This article shows you how to create additional roles by using either `psql`
-client commands or shell commands. You need to use the Linux user, **postgres**,
-with both methods.
+This article shows you how to create additional roles with PostgreSQL&reg;
+by using either `psql` client commands or shell commands. You need to use
+the Linux&ref; user, **postgres**&reg;, with both methods.
 
-Log in to your instance with your Linux credentials, and run the following
+Log in to your instance with your Linux credentials and run the following
 command to switch users to the **postgres** user:
 
     # sudo su - postgres
@@ -30,7 +30,7 @@ Use the following steps to create or drop users by using the `psql` client.
 
 #### Connect with psql
 
-Now connect to the database server using the
+Connect to the database server by using the
 [psql](http://www.postgresql.org/docs/8.3/static/app-psql.html "http://www.postgresql.org/docs/8.3/static/app-psql.html")
 client with the `postgres` role:
 
@@ -48,7 +48,7 @@ client with the `postgres` role:
 
 #### Create a role
 
-Ater you connect with the psql client, run the following command to create a
+After you connect with the `psql` client, run the following command to create a
 role that has the `LOGIN` attribute and a non-empty, MD5-encrypted password:
 
     postgres=#CREATE ROLE demorole1 WITH LOGIN ENCRYPTED PASSWORD 'password1';
@@ -57,7 +57,7 @@ role that has the `LOGIN` attribute and a non-empty, MD5-encrypted password:
 required. The single-quotes ( ' ' ) are not part of the password but must
 enclose it.
 
-Validate that you created the role successful by using the following command:
+Validate that you created the role successfully by using the following command:
 
     postgres=# \du
                                    List of roles
@@ -69,7 +69,7 @@ Validate that you created the role successful by using the following command:
 
 #### Drop a role
 
-When you no longer need a role, you can drop (delete, or remove) a role by
+When you no longer need a role, you can drop (delete or remove) a role by
 using the following command:
 
     postgres=# DROP ROLE demorole1;
@@ -79,7 +79,7 @@ longer listed.
 
 #### Create a superuser
 
-On occasion, you might need to create additional superuser roles. For example,
+Occasionally, you might need to create additional superuser roles, such as when
 you have a database programmer whom you trust to administer the postgres
 server.
 
@@ -88,7 +88,7 @@ To create a superuser, run the following command:
     postgres=#CREATE ROLE mysuperuser2 WITH SUPERUSER CREATEDB CREATEROLE LOGIN ENCRYPTED PASSWORD 'mysuperpass2';
 
 The command sets the `LOGIN` attribute and specifies a non-empty password.
-These are important factors if this superuser role is intended for local and
+These factors are important if you intend this superuser role for local and
 remote connections to the database.
 
 #### Exit psql
@@ -106,12 +106,12 @@ You can create and drop database roles by using the
 and
 [dropuser](http://www.postgresql.org/docs/8.3/static/app-dropuser.html "http://www.postgresql.org/docs/8.3/static/app-dropuser.html")
 shell commands, which are wrappers for the CREATE and DROP
-SQL statements. They are included in a standard postgres installation.
+SQL statements. A standard postgres installation includes these commands.
 
 #### createuser
 
 Run the following command to create a non-superuser role that has the `LOGIN`
-attribute.
+attribute:
 
     postgres@demo:~$ createuser -PE demorole2
 
@@ -121,7 +121,7 @@ attribute.
     postgres@demo:~$
 
 The `-P` flag prompts you to set a password for the new role, and the `-E` flag
-indicates that the password should be stored as an MD5-encrypted string.
+indicates to store the password as an MD5-encrypted string.
 
 To verify the role creation, connect to `psql` and run the following command:
 
@@ -149,7 +149,7 @@ measure when you run a potentially destructive command.
 
 #### Create a superuser
 
-On occasion, you might need to create additional superuser roles. For example,
+Occasionally, you might need to create additional superuser roles, such as when
 you have a database programmer whom you trust to administer the postgres
 server.
 
