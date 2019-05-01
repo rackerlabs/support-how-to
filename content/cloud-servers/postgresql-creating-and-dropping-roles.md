@@ -17,7 +17,7 @@ risky.
 
 This article shows you how to create additional roles with PostgreSQL&reg;
 by using either `psql` client commands or shell commands. You need to use
-the Linux&ref; user, **postgres**&reg;, with both methods.
+the Linux&reg; user, **postgres**&reg;, with both methods.
 
 Log in to your instance with your Linux credentials and run the following
 command to switch users to the **postgres** user:
