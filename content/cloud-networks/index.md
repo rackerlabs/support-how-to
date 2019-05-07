@@ -10,7 +10,7 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Cloud Networks lets you create and manage secure, isolated networks in the cloud. These networks are fully single tenant and you have complete control over the network topology, IP addressing (IPv4 or IPv6), and which Cloud Servers are attached. Cloud Networks are regional in scope and can be attached to any of your Cloud Servers in a given region. Cloud Servers can also be attached to multiple Cloud Networks. Cloud Networks can be combined with [Brocade Vyatta vRouters](http://www.rackspace.com/cloud/servers/vrouter/) to create more complex topologies to route traffic between Cloud Networks or to external data centers over VPN. Cloud Networks can be created and managed via API or using the Rackspace Cloud Control Panel.
+Cloud Networks lets you create and manage secure, isolated networks in the cloud. These networks are fully single tenant and you have complete control over the network topology, IP addressing (IPv4 or IPv6), and which Cloud Servers are attached. Cloud Networks are regional in scope and can be attached to any of your Cloud Servers in a given region. Cloud Servers can also be attached to multiple Cloud Networks. Cloud Networks can be combined with [Gateway Instances](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/network-gateway-instances/#network-gateway-instances) to create more complex topologies to route traffic between Cloud Networks or to external data centers over VPN. Cloud Networks can be created and managed via API or using the Rackspace Cloud Control Panel.
 
 ### Using Cloud Networks 
 
