@@ -5,7 +5,7 @@ title: Firewall Manager v2 access list theory and best practices
 type: article
 created_date: '2017-03-23'
 created_by: Trevor Becker
-last_modified_date: '2019-06-07'
+last_modified_date: '2019-05-07'
 last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
