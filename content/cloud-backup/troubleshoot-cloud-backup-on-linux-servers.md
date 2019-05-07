@@ -11,6 +11,8 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
+**Note:** If your server is running a Windows&reg; operating system, see [Cloud backup troubleshooting on Windows](/how-to/cloud-backup-basic-troubleshooting-on-windows-2008-servers).  
+
 This article assists with issues that customers are experiencing when Cloud
 Backup issues are caused by the backup agent being disconnected on the
 Linux&reg; instance, including the following problems:
