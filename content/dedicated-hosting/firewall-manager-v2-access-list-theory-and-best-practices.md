@@ -5,7 +5,7 @@ title: Firewall Manager v2 access list theory and best practices
 type: article
 created_date: '2017-03-23'
 created_by: Trevor Becker
-last_modified_date: '2019-06-07'
+last_modified_date: '2019-05-07'
 last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -33,8 +33,6 @@ An access control entry (ACE) is an individual entry in an ACL. ACEs are referre
 
 The security of your Rackspace environment begins at your Cisco firewall. Misconfigurations in network access policies on your firewall can lead to unwanted network exposure and potential compromise. To remain secure and follow compliance requirements, use the following best practices and recommendations:
 
-   - If you received an alert from Rackspace regarding a firewall rule that is permissive, consider whether the rule was added inadvertently. If this rule was added intentionally, you don't need to take any action. However, you might make the rule more accurate by defining the host IPs or networks allowed in your environment. If the rule was added by accident or is not necessary, remove it.
-
    - Be as specific as possible when setting up ACLs. Minimize the size of the source and destination traffic in your ACL rules when possible.
 
    - Do not define the destination as **any** (your entire Rackspace environment) when only one destination server needs to be accessed.
@@ -44,6 +42,9 @@ The security of your Rackspace environment begins at your Cisco firewall. Miscon
    - Do not allow all traffic to a destination or group of destinations. (Do not use **permit ip any [host]** or **permit ip any [object-group]**).
 
    - Open globally only ports (defining source of **any**) that are considered a generally accepted best practice. Examples of ports that **should not be opened globally** are **22 - SSH**, **1433 - Microsoft&reg; SQL**, **3306 - MySQL&reg;**, and **3389 - Remote Desktop Protocol (RDP)**.
+   
+   - If you received an alert from Rackspace regarding a firewall rule that is permissive, consider whether the rule was added inadvertently. If this rule was added intentionally, you don't need to take any action. However, you might make the rule more accurate by defining the host IPs or networks allowed in your environment. If the rule was added by accident or is not necessary, remove it.
+
 
 ### Rule order and execution
 
