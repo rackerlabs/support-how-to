@@ -7,8 +7,6 @@ created_date: '2013-02-01'
 created_by: Russell Lambert
 last_modified_date: '2016-01-15'
 last_modified_by: Kelly Holcomb
-product: RackConnect
-product_url: rackconnect
 ---
 
 You've built your base server and are about to take an image of it. You
