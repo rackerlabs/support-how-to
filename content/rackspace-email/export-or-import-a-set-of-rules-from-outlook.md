@@ -26,8 +26,11 @@ Export a set of mailbox rules by using the following steps:
 7. Click **Save**.
 
 If you want to export a file that contains only rules that are compatible with a previous version ofOutlook, in the **Save as type** list, select one of the following:
+
  - Outlook 2002&reg; Compatible Rules Wizard rules
+
  - Outlook 2000&reg; Compatible Rules Wizard rules
+ 
  - Outlook 98&reg; Compatible Rules Wizard rules
 
 ### Import a set of mailbox rules
