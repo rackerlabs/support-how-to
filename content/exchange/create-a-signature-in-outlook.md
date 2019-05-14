@@ -49,4 +49,4 @@ Make a signature the default for all messages by using the following steps:
 
 7. Choose **OK** to save your new signature and return to your message.
 
-   **Note:** You need to add your signature to the message you composed in this example but don't need to do again this going forward.
+   **Note:** You need to add your signature to the message you composed in this example, but you don't need to do this again going forward.
