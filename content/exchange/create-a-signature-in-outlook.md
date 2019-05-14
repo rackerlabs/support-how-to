@@ -29,7 +29,7 @@ Create an email signature by using the following steps:
 
    **Note:** You can change the features of your signature such as font, font colors, font size, as well as text alignment. You can also add links and images to your email signature.
 
-6. Under **Choose default signature**, select the email address you want to assign the signature to from the email account drop-down box. You can have different signatures for each email account.
+6. Under **Choose default signature**, select the email address you want to assign to the signature from the email account drop-down box. You can have different signatures for each email account.
 
 #### Set a default signature in Outlook
 
@@ -41,7 +41,7 @@ Make a signature the default for all messages by using the following steps:
 
 3. Within the **Message** menu, select **Signature**.
 
-4. Select the email address you want to assign a default signature to.  
+4. Select the email address you want to assign to a default signature.  
 
 5. Expand the **New messages** drop-down box and select your default signature.
 
@@ -49,4 +49,4 @@ Make a signature the default for all messages by using the following steps:
 
 7. Choose **OK** to save your new signature and return to your message.
 
-   **Note:** You will need to add your signature to the message you composed in this example but will not need to do this going forward.
+   **Note:** You need to add your signature to the message you composed in this example but don't need to do again this going forward.
