@@ -26,9 +26,12 @@ This article describes the results of selection the option to **Configure as a G
 7. Click the **Create Server** button.
 
 
-#### Possible Cloud Networks configuration errors and solutions
+#### Cloud Network configuration steps and possible errors
 
-| Action | What could go wrong? | What state is the device left in? | Recommended nest step. |
+| Configuration steps| What could go wrong? | What state is the device left in? | Recommended nest step. |
 |--------|----------------------|-----------------------------------|------------------------|
-|Build server with "Configure as Gateway" checked in mycloud.rackspace.com, or build_config=gateway in the API.| Infrastructure issues, unrelated to your specific server build.| Server stuck in error state. | Delete the server and build a new one. If issue persists, open a support chat or ticket.|
-|Create Cloud Network with name "$servername-net" | Creation could fail due to Cloud Networks quota (10 allowed per region). Response from API: 409 OverQuotaClient: Quota exceeded for resources: ['network']	| Server built, but Cloud Network configuration is not complete.| Delete unused Cloud Networks in the region, or open a support ticket to request a quota increase (subject to approval). Next, delete the server and build a new one. If issue persists, open a support chat or ticket.|
+|Build a server using the **Configure as a Gateway** option. | The server is now stuck in an error state. | Delete the server and build a new one.|
+|Create Cloud Network with name `$servername-net` | Network creation can fail due to exceeding the Cloud Networks quota of ten networks per region. Response from API: `409 OverQuotaClient: Quota exceeded for resources: ['network']`	| The server is built, but the Cloud Network configuration is not complete.| Delete unused Cloud Networks in the region, or open a support ticket to request a quota increase (subject to approval). Next, delete the server and build a new one.|
+|Create a subnet.| It is unlikely anything will go wrong at this point in the build.| The server is built, but the Cloud Network configuration is not complete.| Delete the server and Cloud Network and build a new server.|
+| Create a fixed Internet Protocol (IP) port by using the device ID of the server| It is unlikely anything will go wrong at this point in the build.| The server is built, but the Cloud Network configuration is not complete. Also, the Cloud Network cannot be deleted until the port is deleted.| Delete the server, Cloud Network port, and Cloud Network and then build a new server.|
+| Attach a fixed IP port to the server| The race condition with Neutron and Nova sync leads to Nova assigning the wrong IP before it is aware of the Neutron port.| The IP is wrong in the API, but it will work. This causes unnecessary Address Resolution Protocol (ARP) traffic and puts stress on the Cloud Networks Software Defined Networking (SDN) stack| This can be ignored in the short term. If it becomes a problem you need to detach the network, wait fifteen minutes and make a new fixed IP port, and attach to server.|
