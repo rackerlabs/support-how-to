@@ -1,11 +1,11 @@
 ---
 permalink: using-configure-as-a-gateway-for-virtual-net-devices/
-audit_date: '2019-05-10'
+audit_date: '2019-05-16'
 title: Using Configure as a Gateway
 type: article
-created_date: '2019-05-10'
+created_date: '2019-05-16'
 created_by: Brian King
-last_modified_date: '2019-05-10'
+last_modified_date: '2019-05-16'
 last_modified_by: William Loy
 product: Cloud Networks
 product_url: cloud-networks
