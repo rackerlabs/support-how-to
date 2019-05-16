@@ -15,6 +15,9 @@ permalink: /
 					<li>
 						<a href="/how-to/dedicated-hosting">Dedicated Hosting</a>
                     </li>
+					<li>
+					  <a href="/how-to/account-management">Account Management</a>
+						        </li>
 				</ul>
 			</div>
 		</div>

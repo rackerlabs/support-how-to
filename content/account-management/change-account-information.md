@@ -7,8 +7,8 @@ created_date: '2015-06-18'
 created_by: David Hendler
 last_modified_date: '2019-01-08'
 last_modified_by: Kate Dougherty
-product: undefined
-product_url: undefined
+product: Account Management
+product_url: account-management
 ---
 
 This article describes the various administrative account changes that you can

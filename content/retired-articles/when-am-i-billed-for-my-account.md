@@ -7,8 +7,6 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2018-02-22'
 last_modified_by: Kate Dougherty
-product: undefined
-product_url: undefined
 ---
 
 When you sign up for products under the Managed Infrastructure or Managed

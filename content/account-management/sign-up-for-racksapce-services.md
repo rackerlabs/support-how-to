@@ -7,8 +7,8 @@ created_date: '2017-06-15'
 created_by: Nate Archer
 last_modified_date: '2017-06-15'
 last_modified_by: Nate Archer
-product: undefined
-product_url: undefined
+product: Account Management
+product_url: account-management
 ---
 
 When you decide that the Fanatical Experience&trade; from Rackspace is for you, it's time to sign up for a Rackspace account. Although the signup process is straightforward, it’s important to understand some details about the verification process and account ownership before you start.

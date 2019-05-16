@@ -7,8 +7,8 @@ created_date: '2014-09-01'
 created_by: Kenny Johnston
 last_modified_date: '2018-03-20'
 last_modified_by: Kate Dougherty
-product: undefined
-product_url: undefined
+product: Account Management
+product_url: account-management
 ---
 
 Your monthly Rackspace account invoice includes account and billing

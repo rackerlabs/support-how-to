@@ -7,8 +7,6 @@ created_date: '2014-01-17'
 created_by: Rackspace Support
 last_modified_date: '2019-02-28'
 last_modified_by: Stephanie Fillmon
-product: undefined
-product_url: undefined
 ---
 
 Get quick answers to common questions about Rackspace billing.
