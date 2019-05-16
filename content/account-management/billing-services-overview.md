@@ -7,8 +7,8 @@ created_date: '2011-08-24'
 created_by: Rackspace Support
 last_modified_date: '2018-10-25'
 last_modified_by: Stephanie Fillmon
-product: undefined
-product_url: undefined
+product: Account Management
+product_url: account-management
 ---
 
 This article provides an overview of the billing resources available to you through the Rackspace website and the Cloud Control Panel. The resources described in this article can help you manage and track the billing for your account.

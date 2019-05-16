@@ -7,8 +7,8 @@ created_date: '2017-08-07'
 created_by: Stephanie Fillmon
 last_modified_date: '2018-10-25'
 last_modified_by: Stephanie Fillmon
-product: undefined
-product_url: undefined
+product: Account Management
+product_url: account-management
 ---
 
 Instead of paying separate bills for multiple Rackspace accounts, you can

@@ -7,8 +7,6 @@ created_date: '2013-04-12'
 created_by: Renee Rendon
 last_modified_date: '2019-01-25'
 last_modified_by: Cat Lookabaugh
-product: undefined
-product_url: undefined
 ---
 
 Get quick answers to common questions about Role-Based Access Control (RBAC).
