@@ -42,6 +42,7 @@ Product | Admin | Creator | Observer
 [Cloud Orchestration](/how-to/permissions-matrix-for-cloud-orchestration) | Yes | Yes | Yes
 [Cloud DNS](/how-to/detailed-permissions-matrix-for-dns) | Yes | Yes | Yes
 [Cloud Feeds](/how-to/detailed-permissions-matrix-for-cloud-feeds) | No | No | Yes
+[Cloud Metrics](/how-to/detailed-permissions-matrix-for-cloud-metrics) | Yes | Yes | Yes
 
 ### Account access
 
