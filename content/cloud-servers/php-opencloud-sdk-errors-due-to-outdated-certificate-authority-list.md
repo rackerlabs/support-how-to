@@ -10,13 +10,20 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Rackspace Cloud recently rotated the SSL certificate for identity.api.rackspacecloud.com . The Rackspace Cloud PHP SDK (PHP-Opencloud) is built on Guzzle, which uses its own certificate authority file. 
+The Rackspace Cloud PHP software developement kit (SDK), PHP-Opencloud, is built on Guzzle, which uses its own 
+certificate authority file, and the Rackspace Cloud recently rotated the Secure Socket Layer (SSL) certificate 
+for `identity.api.rackspacecloud.com`.
 
-If the certificate authority file is outdated, you may see an error similar to 
+If the certificate authority file on your server is outdated, you may see an error similar to the following:
 
-Fatal error: Uncaught exception 'Guzzle\Http\Exception\CurlException' with message '[curl] 60: [url] 
-https://identity.api.rackspacecloud.com/v2.0/tokens' 
+    Fatal error: Uncaught exception 'Guzzle\Http\Exception\CurlException' with message '[curl] 60: [url] 
+    https://identity.api.rackspacecloud.com/v2.0/tokens' 
 
-Solution: Find and replace Guzzle's certificate authority file. For example, it might be located at: /var/www/www.website.com/site/library/apis/rollbarphp/vendor/guzzle/guzzle/src/Guzzle/Http/Resources/cacert.pem. 
+To resolve this error, perform the folowing actions:
 
-If you download the updated file here: https://curl.haxx.se/ca/cacert.pem and overwrite, it should resolve this issue. If not, we recommend opening an issue on the github repo.
+1. Find and replace Guzzle's certificate authority file. For example, it might be located 
+in **/var/www/www.website.com/site/library/apis/rollbarphp/vendor/guzzle/guzzle/src/Guzzle/Http/Resources/cacert.pem**. 
+
+2. Download the [updated certificate file](https://curl.haxx.se/ca/cacert.pem) and overwrite the Guzzle certificate. 
+
+If this does not resolve the issue, we recommend that you open an issue on this github repo: <<add repo link>>
