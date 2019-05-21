@@ -26,4 +26,4 @@ in **/var/www/www.website.com/site/library/apis/rollbarphp/vendor/guzzle/guzzle/
 
 2. Download the [updated certificate file](https://curl.haxx.se/ca/cacert.pem) and overwrite the Guzzle certificate. 
 
-If this does not resolve the issue, we recommend that you open an issue on this github repo: https://github.com/rackspace/php-opencloud
+If this does not resolve the issue, we recommend that you open an issue on this github repo: [https://github.com/rackspace/php-opencloud](https://github.com/rackspace/php-opencloud)
