@@ -92,11 +92,11 @@ You can use the self-service tool to upgrade Exchange at any time. All users of 
 
 2. Click the gear icon next to the domain that you want to upgrade and select **Create migration**.
 
-   <img src="{% asset_path exchange/upgrade-your-exchange-version/exchange-upgrade-step-1.png %}" />
+   <img src="{% asset_path exchange/upgrading-your-exchange-version/exchange-upgrade-step-1.png %}" />
 
 3. On the Create Migration page, select a date and time to schedule the migration and then click **Next**.
 
-   <img src="{% asset_path exchange/upgrade-your-exchange-version/exchange-upgrade-2.png %}" />
+   <img src="{% asset_path exchange/upgrading-your-exchange-version/exchange-upgrade-2.png %}" />
 
 4. On the confirmation page, verify the date and time, then click **Submit Migration**.
 
@@ -106,7 +106,7 @@ On the home page, you can see the status of your migration and see the Support t
 
 You can also reschedule or cancel the migration before the scheduled time by clicking the gear icon next to the domain you are migrating and selecting the appropriate command.
 
-  <img src="{% asset_path exchange/upgrade-your-exchange-version/exchange-upgrade-5.png %}" />
+  <img src="{% asset_path exchange/upgrading-your-exchange-version/exchange-upgrade-5.png %}" />
 
 When the migration completes you can log in to the [Mail Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f) and manage the mailboxes.
 
