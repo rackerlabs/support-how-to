@@ -1,7 +1,7 @@
 ---
-permalink: upgrading-to-exchange-2016/
+permalink: upgrading-your-exchange-version/
 audit_date: '2016-10-27'
-title: Upgrading to Exchange 2016
+title: Upgrading your Exchange version
 type: article
 created_date: '2016-10-25'
 created_by: Aaron Medrano
@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article provides instructions for upgrading your current Exchange environment to Exchange 2016 using a self-service upgrade tool.
+This article provides instructions for upgrading your current Microsoft&reg; Exchange environment to Exchange&reg; 2016 using a self-service upgrade tool.
 
 ### Supported email clients for Exchange 2016
 
@@ -19,14 +19,10 @@ Only the following email clients can safely upgrade to Exchange 2016:
 
 - Outlook 2016
 - Outlook 2013
-- Outlook 2011 for Mac
 - Outlook 2010
-- Outlook 2007 SP3
-- Entourage 2008 EWS
 - Mac Mail
 
-**Note:** Outlook 2003, Outlook 2007, and Entourage 2004 are not supported with
-Exchange 2016. Users on Outlook 2003 or 2007 must upgrade to Outlook 2010 or later.
+**Note:** Outlook 2007 and older are not supported with Exchange 2016. Users on Outlook 2003 or 2007 must upgrade to Outlook 2010 or later.
 
 ### What is migrated
 
@@ -96,11 +92,11 @@ You can use the self-service tool to upgrade Exchange at any time. All users of 
 
 2. Click the gear icon next to the domain that you want to upgrade and select **Create migration**.
 
-   <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-step-1.png %}" />
+   <img src="{% asset_path exchange/upgrading-your-exchange-version/exchange-upgrade-step-1.png %}" />
 
 3. On the Create Migration page, select a date and time to schedule the migration and then click **Next**.
 
-   <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-2.png %}" />
+   <img src="{% asset_path exchange/upgrading-your-exchange-version/exchange-upgrade-2.png %}" />
 
 4. On the confirmation page, verify the date and time, then click **Submit Migration**.
 
@@ -110,7 +106,7 @@ On the home page, you can see the status of your migration and see the Support t
 
 You can also reschedule or cancel the migration before the scheduled time by clicking the gear icon next to the domain you are migrating and selecting the appropriate command.
 
-  <img src="{% asset_path exchange/upgrade-to-exchange-2016/exchange-upgrade-5.png %}" />
+  <img src="{% asset_path exchange/upgrading-your-exchange-version/exchange-upgrade-5.png %}" />
 
 When the migration completes you can log in to the [Mail Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f) and manage the mailboxes.
 
