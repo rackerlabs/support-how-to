@@ -65,6 +65,9 @@ For more information about the migration preparation required for POP, IMAP, and
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 2. In the **Domains** section at the bottom of the screen, click **Email Migrations**.
+
+   **Note:** If you do not see the **Email Migrations** option, click the following link be taken directly to the [Self Service Migration Tool](https://rackspace.selfmigration.com).
+
 3. Click **Start Migration Now**.
 
    You are redirected to the MigrationWiz portal.
