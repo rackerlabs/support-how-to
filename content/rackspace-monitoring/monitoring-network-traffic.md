@@ -5,8 +5,8 @@ title: Monitor Network Traffic
 type: article
 created_date: '2012-04-04'
 created_by: Rackspace Support
-last_modified_date: '2019-03-11'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-05-28'
+last_modified_by: William Loy
 product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
@@ -67,7 +67,7 @@ incoming and outgoing traffic by minute, hour, day, month, and year.
 IPTraf is a console-based network statistics utility for Linux. It
 gathers a variety of figures including the following types:
 
-- Transmission Control Protocol (TCP) connection packet and byte counts 
+- Transmission Control Protocol (TCP) connection packet and byte counts
 - Interface statistics and activity indicators
 - TCP and User Datagram Protocol (UDP) traffic breakdowns
 - LAN station packet
@@ -108,12 +108,12 @@ Use the following steps to install VNstat and IPtraf on an Ubunto&reg; or Debian
 
 #### CentOS and RHEL installation
 
-You can install IPTRAF In the base repositories for CentOS&reg; and RHEL&reg;, 
+You can install IPTRAF In the base repositories for CentOS&reg; and RHEL&reg;,
 but VNstat is not not found in these repositories. You either need to
-install it by using a third-party repository or compile it from the source. 
+install it by using a third-party repository or compile it from the source.
 This article demonstrates compilation from the source install because
-VNstat is a small package and has no real dependencies. At the time 
-of this writing, VNstat 1.12 is the latest version available.
+VNstat is a small package and has no real dependencies. At the time
+of this writing, VNstat 2.2 is the latest version available.
 
 ##### Install VNstat on CentOS and RHEL
 
@@ -122,9 +122,9 @@ Use the following steps to install VNstat on a CentOS or RHEL slice:
 1. Run the following commands to download and unpack the source:
 
        cd ~/
-       wget http://humdi.net/vnstat/vnstat-1.12.tar.gz
-       tar xzf vnstat-1.12.tar.gz
-       cd ~/vnstat-1.12
+       wget http://humdi.net/vnstat/vnstat-2.2.tar.gz
+       tar xzf vnstat-2.2.tar.gz
+       cd ~/vnstat-2.22
 
 2. Run the following commands to install `gcc` and `make`, if they are not installed, and install VNstat:
 
@@ -134,7 +134,7 @@ Use the following steps to install VNstat on a CentOS or RHEL slice:
 
 3. Run the following commands to start VNstat and to configure it to automatically restart on boot:
 
-       cp ~/vnstat-1.12/examples/init.d/redhat/vnstat /etc/init.d/vnstat
+       cp ~/vnstat-2.2/examples/init.d/redhat/vnstat /etc/init.d/vnstat
        chmod +x /etc/init.d/vnstat
        /etc/init.d/vnstat start
        cd /etc/init.d/
@@ -197,11 +197,11 @@ Use the following steps to install VNstat and IPtraf on a Fedora&reg; 16+ slice:
 
 #### openSUSE installation
 
-You can install IPtraf In the base repositories for openSUSE&reg;, 
+You can install IPtraf In the base repositories for openSUSE&reg;,
 but VNstat is not not found in these repositories. You either need to
-install it by using a third-party repository or compile it from the source. 
+install it by using a third-party repository or compile it from the source.
 This article demonstrates compilation from the source install because
-VNstat is a small package and has no real dependencies. 
+VNstat is a small package and has no real dependencies.
 
 ##### Install VNstat on openSUSE
 
@@ -210,9 +210,9 @@ Use the following steps to install VNstat on an openSUSE slice:
 1. Use the following commands to download the source and unpack the source:
 
        cd ~/
-       wget http://humdi.net/vnstat/vnstat-1.12.tar.gz
-       tar xzf vnstat-1.12.tar.gz
-       cd ~/vnstat-1.12
+       wget http://humdi.net/vnstat/vnstat-2.2.tar.gz
+       tar xzf vnstat-2.2.tar.gz
+       cd ~/vnstat-2.2
 
 2. Run the following commands to install `gcc` and `make`, if they are not installed, and install VNstat:
 
@@ -224,7 +224,7 @@ Use the following steps to install VNstat on an openSUSE slice:
 
 3. Run the following commands to start VNstat and to configure it to automatically restart on boot:
 
-       cp ~/vnstat-1.12/examples/init.d/redhat/vnstat /etc/init.d/vnstat
+       cp ~/vnstat-2.2/examples/init.d/redhat/vnstat /etc/init.d/vnstat
        chmod +x /etc/init.d/vnstat
        /etc/init.d/vnstat start
        cd /etc/init.d/
@@ -261,7 +261,7 @@ The following sections provide basic instructions for using VNstat and IPtraf.
 
 To learn more about VNstat, check out the [Manual Page for VNstat](http://linux.die.net/man/1/vnstat).
 
-After you have installed and set up VNstat, you need to wait at least ONE hour 
+After you have installed and set up VNstat, you need to wait at least ONE hour
 for your database to contain data and begin to show some metrics.
 
 The following examples show some common VNstat commands with sample output:
@@ -325,7 +325,7 @@ The following examples show some common VNstat commands with sample output:
 
 #### How to use IPtraf
 
-IPtraf watches traffic in real time, and you can use it as soon as it is installed. 
+IPtraf watches traffic in real time, and you can use it as soon as it is installed.
 
 To learn more about IPtraf, check out the [Manual Page for IPtraf](http://linux.die.net/man/8/iptraf).
 
@@ -348,5 +348,5 @@ The following examples show some common IPtraf commands with sample output:
 After you install these packages, you have full network monitoring in place.
 VNstat monitors the servers' internal and external network interfaces for all 
 sent and received traffic. IPtraf allows you to use a utility from the shell to
-gauge network traffic in real time. These tools are invaluable and provide insight 
+gauge network traffic in real time. These tools are invaluable and provide insight
 into your overall operations.
