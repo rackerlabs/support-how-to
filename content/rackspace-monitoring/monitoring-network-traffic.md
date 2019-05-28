@@ -124,7 +124,7 @@ Use the following steps to install VNstat on a CentOS or RHEL slice:
        cd ~/
        wget http://humdi.net/vnstat/vnstat-2.2.tar.gz
        tar xzf vnstat-2.2.tar.gz
-       cd ~/vnstat-2.22
+       cd ~/vnstat-2.2
 
 2. Run the following commands to install `gcc` and `make`, if they are not installed, and install VNstat:
 
