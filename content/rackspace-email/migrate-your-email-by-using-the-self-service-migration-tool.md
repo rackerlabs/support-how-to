@@ -5,8 +5,8 @@ title: Migrate your email by using the Self-Service Migration Tool
 type: article
 created_date: '2013-03-18'
 created_by: William Loy
-last_modified_date: '2018-03-30'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-05-28'
+last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
