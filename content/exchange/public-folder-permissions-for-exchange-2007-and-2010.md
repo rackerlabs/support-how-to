@@ -5,15 +5,15 @@ title: Public folder permissions for Exchange 2007 and 2010
 type: article
 created_date: '2016-02-23'
 created_by: Stephanie Fillmon
-last_modified_date: '2017-01-10'
-last_modified_by: Nate Archer
+last_modified_date: '2019-05-31'
+last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 When you create a public folder in Exchange 2007 and 2010, you can specify how much access others have to that folder by assigning roles. Following are the different roles that you can assign and the permissions that are granted to each role.
 
-**Note:** For Exchange 2013 and 2016, only administrators can manage public folders for Exchange 2013 and 2016. For more information, see [Manage public folders in the control panel for Hosted Exchange 2013 and 2016](/how-to/https://support.rackspace.com/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/).
+**Note:** For Exchange 2013 and 2016, only administrators can manage public folders for Exchange 2013 and 2016. For more information, see [Manage public folders in the control panel for Hosted Exchange 2013 and 2016](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/).
 
 | Role              | Permission           |
 |-------------------|----------------------|
