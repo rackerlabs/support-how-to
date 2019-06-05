@@ -1,11 +1,11 @@
 ---
 permalink: configuring-basic-security/
-audit_date:
+audit_date: '2019-06-04'
 title: Configure basic security
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-06-20'
+last_modified_date: '2019-06-04'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -83,15 +83,16 @@ for applicable OnMetal steps.
 
 4.  When you are finished adding this line, exit, confirm, and save the
     file as follows:
-    a.  Press **Ctrl-X** to exit.
-    b.  Press **y** to confirm the changes.
-    c.  Press **Enter** to save the file as `/etc/sudoers.tmp`.
+    
+    a. Press **Ctrl-X** to exit.
+    b. Press **y** to confirm the changes.
+    c. Press **Enter** to save the file as `/etc/sudoers.tmp`.
 
-        **Note**: While working in the nano editor, the backspace/delete
-        key works unexpectedly, deleting characters in front of the
-        cursor rather than behind it. You can resolve this issue by
-        editing the `/etc/nanorc` file (with nano, for example) and
-        either uncommenting the following line or adding it:
+       **Note**: While working in the nano editor, the backspace/delete
+       key works unexpectedly, deleting characters in front of the
+       cursor rather than behind it. You can resolve this issue by
+       editing the `/etc/nanorc` file (with nano, for example) and
+       either uncommenting the following line or adding it:
 
             set rebinddelete
 
@@ -427,7 +428,7 @@ the symptoms to determine what might be wrong.
 
 The incorrect configuration of SSH, sudo, or iptables could cause you to
 be locked out of your system.  If this occurs, log in to the The
-Rackspace Cloud Control Panel and use the Web Console or Rescue Mode to
+Rackspace Cloud Control Panel and use the Emergency Console or Rescue Mode to
 repair the configurations.
 
 These are the basics of connecting to a Linux Cloud Server and setting
