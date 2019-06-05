@@ -20,7 +20,7 @@ Because of the global shortage of IPv4 address space, Rackspace currently offers
 - SSL on cloud servers
 - NAT (Network Address Translation) on a Brocade Vyatta vRouter
 
-**Note:** No more than four additional IPv4 addresses can be allocated to a single cloud server or Brocade Vyatta vRouter. Thus each cloud server or Brocade Vyatta vRouter has a maximum capacity of five IPv4 addresses, including the originally assigned public IPv4 address.
+**Note:** No more than five additional IPv4 addresses can be allocated to a single cloud server or Brocade Vyatta vRouter. Thus each cloud server or Brocade Vyatta vRouter has a maximum capacity of six IPv4 addresses, including the originally assigned public IPv4 address.
 
 ### Pricing
 
