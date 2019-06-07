@@ -36,5 +36,5 @@ The Fortinet Fortigate-VM is a next-generation firewall (NGFW) and unified threa
 - [Building a server behind the FortiGate](https://docs2.fortinet.com/vm/rackspace/fortigate/6.0/rackspace-cookbook/6.0.4/57735/building-a-server-behind-the-fortigate)
 - [Attach a Cloud Network to an Existing Fortigate-VM](/how-to/attach-a-cloud-network-to-an-existing-fortigate-vm/ "Attach a Cloud Network to an Existing Fortigate-VM")
 - [Back up the Fortinet Fortigate-VM](/how-to/back-up-the-fortinet-fortigate-vm/ "Back up the Fortinet Fortigate-VM")
-- [Using Configure as Gateway for virtual net devices](how-to/using-configure-as-a-gateway-for-virtual-net-devices/ "Using Configure as Gateway for virtual net devices")
+- [Using Configure as Gateway for virtual net devices](/how-to/using-configure-as-a-gateway-for-virtual-net-devices/ "Using Configure as Gateway for virtual net devices")
 - [Rackspace Cloud Servers features that are not available on the Fortigate-VM](/how-to/rackspace-cloud-servers-features-that-are-not-available-on-the-fortigate-vm/ "Rackspace Cloud Servers features that are not available on the Fortigate-VM")
