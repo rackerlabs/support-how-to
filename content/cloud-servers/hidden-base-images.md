@@ -41,6 +41,10 @@ Fedora 23 (PVHVM) | f597d109-f91f-417e-9818-9ae21dca2262 | 2016-12-27 | No longe
 Fedora 24 (PVHVM) | 4e284168-69fd-44aa-8d4a-0844058118d9 | 2017-08-08 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 25 (PVHVM) | 8c9f3212-8515-484e-9109-00e585be8cf4 | 2017-12-12 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 26 (PVHVM) | 7cf08df8-b4ac-4383-8d16-e515b2fa92f5 | 2018-06-1 | No longer supported by the Fedora Project. This image was the last image of this version published.
+Fedora 27 (PVHVM) | 35c29141-3607-4a4d-ba28-3963d925ed4d | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+OnMetal - Fedora 27 | 15e75b61-a75c-4ac3-ba30-368e8b14856f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+Fedora 28 (PVHVM) | 7b464928-741b-44af-86ad-0352dcf88a2a | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+OnMetal - Fedora 28 | 5cfe8ebd-1b45-4ddc-868f-e98417d0758f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
 
 ### FreeBSD images
 
@@ -83,6 +87,8 @@ Ubuntu 15.04 (Vivid Vervet) (PVHVM) | 658a7d3b-4c58-4e29-b339-2509cca0de10 | 201
 Ubuntu 15.10 (Willy Werewolf) (PVHVM) | 59a3fadd-93e7-4674-886a-64883e17115f | 2016-12-07 | No longer supported by Canonical.
 Ubuntu 16.10 (Yakety Yak) (PVHVM) | 321116e4-5c76-42ce-8ddf-5cb4dcbf7cfe | 2017-07-27 | No longer supported by Canonical.
 Ubuntu 17.10 (Artful Aardvark) (PVHVM) | a28b4f0c-64b8-4f5e-a87b-3b0ab17a9c6f | 2018-07-19 | No longer supported by Canonical.
+Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) | 74e83199-e007-4a5a-a2b4-019afd6f0917	| 2019-06-07 | No longer supported by Canonical.
+OnMetal - Ubuntu 14.04 LTS (Trusty Tahr) | d615ebd6-a2d0-431a-9eb7-02bdf609028d	| 2019-06-07 | No longer supported by Canonical.
 
 ### Windows Server images
 
