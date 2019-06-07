@@ -5,7 +5,7 @@ title: About Cloud Server images
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2018-10-29'
+last_modified_date: '2019-06-07'
 last_modified_by: Brian King
 
 product: Cloud Servers
@@ -52,8 +52,8 @@ images:
     attempts to reclaim space that has been freed by deleting files
     and images. That process continues even if the image creation
     process is aborted because of disk limits at the time the
-    process begins. That means that in some cases, trying to create an image 
-    again after it fails could result in a successful image process thanks to 
+    process begins. That means that in some cases, trying to create an image
+    again after it fails could result in a successful image process thanks to
     that cleanup operation.
 
 -   **If you are using a boot from volume server, you cannot create an image of it**. You can, however, create snapshots and clones of a boot from volume server.
@@ -69,6 +69,10 @@ images:
 
     Instead of using Cloud Server Images, consult your appliance's vendor
  documentation for the recommended backup and restore procedures.
+
+#### Fortinet Fortigate-VM
+- [Back up the Fortinet Fortigate-VM (Rackspace Guide)](/how-to/back-up-the-fortinet-fortigate-vm/)
+- [How to download a FortiGate configuration file and upload firmware file using secure file copy (Vendor doc)](https://kb.fortinet.com/kb/microsites/search.do?cmd=displayKC&docType=kc&externalId=FD43754)
 
 ### Considerations for Windows servers
 
