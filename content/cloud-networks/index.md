@@ -28,7 +28,7 @@ You can use the Cloud Control Panel or the [Cloud Servers API](https://developer
 
 ### Fortinet Fortigate-VM
 
-The Fortinet Fortigate-VM is a next-gen firewall (NGFW) and unified threat manager (UTM) offered in Rackspace Public Cloud. See [the product page](https://www.rackspace.com/cloud/servers/fortigate-vm) for more information.
+The Fortinet Fortigate-VM is a next-generation firewall (NGFW) and unified threat manager (UTM) offered in Rackspace Public Cloud. See [the product page](https://www.rackspace.com/cloud/servers/fortigate-vm) for more information.
 
 - [About Fortigate-VM for Rackspace](https://docs2.fortinet.com/vm/rackspace/fortigate/6.0/rackspace-cookbook/6.0.4/123172/about-fortigate-for-rackspace)
 - [Launching FortiGate on Rackspace](https://docs2.fortinet.com/vm/rackspace/fortigate/6.0/rackspace-cookbook/6.0.4/962534/launching-fortigate-on-rackspace)
