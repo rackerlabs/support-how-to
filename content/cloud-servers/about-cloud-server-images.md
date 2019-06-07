@@ -71,7 +71,7 @@ images:
  documentation for the recommended backup and restore procedures:
 
 #### Fortinet Fortigate-VM
-- [Back up the Fortinet Fortigate-VM (Rackspace Guide)](how-to/back-up-the-fortinet-fortigate-vm/)
+- [Back up the Fortinet Fortigate-VM (Rackspace Guide)](/how-to/back-up-the-fortinet-fortigate-vm/)
 - [How to download a FortiGate configuration file and upload firmware file using secure file copy (Vendor doc)](https://kb.fortinet.com/kb/microsites/search.do?cmd=displayKC&docType=kc&externalId=FD43754)
 
 ### Considerations for Windows servers
