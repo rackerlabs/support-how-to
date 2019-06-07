@@ -68,7 +68,7 @@ images:
      * License key
 
     Instead of using Cloud Server Images, consult your appliance's vendor
- documentation for the recommended backup and restore procedures:
+ documentation for the recommended backup and restore procedures.
 
 #### Fortinet Fortigate-VM
 - [Back up the Fortinet Fortigate-VM (Rackspace Guide)](/how-to/back-up-the-fortinet-fortigate-vm/)
