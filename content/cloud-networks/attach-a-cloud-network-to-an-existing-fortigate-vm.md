@@ -60,7 +60,7 @@ that you recorded earlier and click **OK** as shown in the following images.
 
 <img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/display_fgvm.png %}" class="image-half_width" width="700" height="500" />
 
-<img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/ipset.png %}" class="image-half_width" width="=600" height="450" />
+<img src="{% asset_path cloud-networks/attach-a-cloud-network-to-an-existing-fortigate-vm/ipset.png %}" class="image-half_width" width="=700" height="500" />
 
 ### (Optional) Backup the new configuration
 
