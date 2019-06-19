@@ -11,17 +11,17 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article instructs you on configuring Outlook&reg; 2010 email client to work with your Microsoft&reg; Exchange&reg; 2010 mailbox.
+This article provides instructions about configuring Outlook&reg; 2010 email client to work with your Microsoft&reg; Exchange&reg; 2010 mailbox.
 
 **Note:** We recommend that customers on Exchange 2010 update to a later [Exchange version](/how-to/upgrading-your-exchange-version) or to our [Office 365&reg;](/how-to/upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq) offering.
 
-1. Click the Windows **Start** button, select **Control Panel**, then select the
+1. Click the Windows&reg; **Start** button, select **Control Panel**, and then select the
    **Mail** icon. Change the **View by** setting to **Large Icons** if you do not see the **Mail** icon on this screen.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010ExchangeTwo.png %}" alt="" />
 
-   **Note:** Depending on which version of Windows&reg;you are running, you may need
-   to switch to **Classic** view to find the **Mail** entry. Otherwise it is
+   **Note:** Depending on which version of Windows you are running, you might need
+   to switch to **Classic** view to find the **Mail** entry. Otherwise, it is
    labeled as **Mail(32-Bit)**.
 
 2. Select the **Show Profiles** button, then select the **Add** button.
@@ -29,8 +29,8 @@ This article instructs you on configuring Outlook&reg; 2010 email client to work
 
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010Exchange4.png %}" alt="" />
 
-3. Select the **Manually configure server settings or additional server
-   types** check box and then select the **Next** button.
+3. Select the **Manually configure server settings or additional server**
+   **types** check box and then select the **Next** button.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010Exchange50.png %}" alt="" />
 
@@ -43,12 +43,12 @@ This article instructs you on configuring Outlook&reg; 2010 email client to work
    and then check the **Use Cached Exchange Mode** check box.
 
    In the **User Name** box, enter your entire email address.
-   Then select "**More Settings**."
+   Then select **More Settings**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010WithExchange2010.png %}" alt="" />
 
-6. Select the **Connection** tab, and then select the **Connect to
-   Microsoft Exchange** **using HTTP** check box. Next, click
+6. Select the **Connection** tab, and then select the **Connect to**
+  **Microsoft Exchange using HTTP** check box. Next, click
    the **Exchange Proxy Settings** button.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010Exchange8.png %}" alt="" />
@@ -67,18 +67,20 @@ This article instructs you on configuring Outlook&reg; 2010 email client to work
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010WithExchange20102.png %}" alt="" />
 
 8. Click the **Check Name** box in the **Connect** window, enter the password that your  administrator assigned to your
-   email account and select the **OK** button.
+   email account, and select the **OK** button.
 
-   **Note:** If you receive a pop-up asking you to select your mailbox from a
+   **Note:** If you receive a pop up asking you to select your mailbox from a
    list, select your mailbox and click the **OK** button.
 
 9. Your name is then highlighted and a line appears under the
-   username field. This indicates that your profile has been configured.
+   **username** field, which indicates that your profile has been configured.
 
-   Select **Next**, select **finish**.
+   Select **Next**, and then select **finish**.
 
    <img src="{% asset_path exchange/manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/(E%26A)Outlook2010WithExchange20103.png %}" alt="" />
 
 10. You are then taken back to the **Show Profiles** page. Select the new profile that you named in step 2 from the drop-down menu labeled **Always use this profile**.
 
-11. Click **Apply** and the click **Ok**. Finally, open Outlook to access your newly configured Exchange account.
+11. Click **Apply** and the click **OK**. 
+
+12. Finally, open Outlook to access your newly configured Exchange account.
