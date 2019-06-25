@@ -1,11 +1,11 @@
 ---
 permalink: support-pin-faq/
-audit_date: '2019-05-21'
+audit_date: '2019-06-25'
 title: Support PIN FAQ
 type: article
-created_date: '2019-05-21'
+created_date: '2019-06-25'
 created_by: Rackspace Support
-last_modified_date: '2019-05-21'
+last_modified_date: '2019-06-25'
 last_modified_by: William Loy
 product: Account Management
 product_url: account-management
@@ -49,9 +49,7 @@ This article discusses frequently asked questions about this process.
 - The support PIN enters a locked status if support is provided an incorrect support PIN six times in a row. This means if someone calls support posing as one of your users, they will be unable to receive support without the correct PIN.
 
 #### My customer support PIN is locked what does that mean? ​
- ** Customers will still be able to login to their Portals; the Portal Password and Support PIN are completely separate and are not tied to each other. ​
-To Unlock the Support PIN the customer will need to log into the Portal and take the Unlock action in the User Management Section. ​
-Once the Support PIN is Unlocked the Customer can call in for phone support. ​
+Customers will still be able to login to their Portals; the Portal Password and Support PIN are completely separate and are not tied to each other. To Unlock the Support PIN the customer will need to log into the Portal and take the Unlock action in the User Management Section. ​Once the Support PIN is Unlocked the Customer can call in for phone support. ​
 
 #### Are there any requirements for Support PIN? ​
 
