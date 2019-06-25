@@ -12,55 +12,55 @@ product_url: account-management
 ---
 
 Rackspace now uses a PIN system to verify customer identity when a customer calls in to receive support.
-This article discusses frequently asked questions about this process.
+This article discusses frequently asked questions (FAQs) about this process.
 
 
-### Support PIN FAQ's
+### Support PIN FAQs
 
-#### What is a support PIN?​
+#### What is a support PIN?
 
-- A support PIN is the Customer Secret that will be used to verify a Customer’s identity when calling in for technical, billing, and/or account management support. ​
+- A support PIN is the customer secret that the customer uses to verify their identity when they call in for technical, billing, or account management support.
 
 #### Why is Rackspace using support PINs?
 
-- Support PINs are more secure and better protected against social engineering. ​
-- Support PINs provide a mechanism for Federated Users to be verified for phone support. ​
-- Support PINs can be reset in the event that an individual user or a whole account is attacked. ​
-- Support PINs are uniform, and leave no room for interpretation when verifying a customer's identity. ​
+- Support PINs are more secure and better protected against social engineering.
+- Support PINs provide a mechanism for federated users to be verified for phone support.
+- Support PINs can be reset if an individual user or a whole account is attacked.
+- Support PINs are uniform and leave no room for misinterpretation when verifying a customer's identity.
 
-#### Who needs a support PIN?​
+#### Who needs a support PIN?
 
-- Any customer that is calling Rackspace support. This excludes Cloud Office & Legacy DataPipe customers. ​
+- Any customer that calls Rackspace Support needs a support PIN, excluding Cloud Office and Legacy DataPipe customers.
 
-#### Who has a support PIN?​
+#### Who has a support PIN?
 
-- Any Rackspace account user or contact that is active in the Rackspace Identity system is given a six-digit generated support PIN. This includes dedicated contacts and cloud users. Accounts that were formerly DataPipe and Cloud Office customers will not be assigned support PINs at this time. ​
+- Any Rackspace account user or contact that is active in the Rackspace Identity system, including dedicated contacts and cloud users, is given a six-digit generated support PIN. Accounts that were formerly DataPipe and Cloud Office customers will not be assigned support PINs at this time.
 
-#### Where can customers locate their support PIN?​
+#### Where can customers locate their support PIN?
 
-- All Rackspace account users can find their support PIN within the MyRack, MyCloud, and the mobile app, under the **User Management** section.  ​
+- All Rackspace account users can find their support PIN within the MyRack, MyCloud, and the mobile app, under the **User Management** section.
 
-#### Can customers change their Support PIN?​
+#### Can customers change their support PIN?
 
-- Yes, Rackspace account users can change their pin at any time unless their Support PIN is locked.
+- Yes, Rackspace account users can change their PIN at any time unless their support PIN is locked.
 
-#### How does a support PIN protect your account against social engineering? ​
+#### How does a support PIN protect your account against social engineering?
 
-- The support PIN enters a locked status if support is provided an incorrect support PIN six times in a row. This means if someone calls support posing as one of your users, they will be unable to receive support without the correct PIN.
+- The support PIN enters a locked status if the Support team is provided an incorrect support PIN six times in a row. If someone posing as one of your users calls the Support team, they cannot receive support without the correct PIN.
 
-#### My customer support PIN is locked what does that mean? ​
-Customers will still be able to login to their Portals; the Portal Password and Support PIN are completely separate and are not tied to each other. To Unlock the Support PIN the customer will need to log into the Portal and take the Unlock action in the User Management Section. ​Once the Support PIN is Unlocked the Customer can call in for phone support. ​
+#### What does my support PIN is locked mean?
+Customers are still able to log in to their portals. The portal password and support PIN are completely separate and are not tied to each other. To unlock the support PIN, the customer needs to log in to the portal and take the **Unlock** action in the **User Management** section. After the support PIN is unlocked, the customer can call in for phone support.
 
-#### Are there any requirements for Support PIN? ​
+#### Are there any requirements for a support PIN?
 
-- Six digits total ​
+A support PIN must meet the following requirements:
 
-- 0-9 numeric digits​
+- It must be a 6-digit, numeric (0-9) PIN.
 
-- No repeating digits within three spaces of each other
+- It can have no more than three repeating numbers. For example, 111 and 121212 are acceptable, but 1111 is not.
 
-- No sequential sequences for more than 3 places​<!--- not sure how to phrase this --->
-​
-#### What if I forget my support PIN?​
+- It can have no more than three sequential numbers. For example, 345 is acceptable, but 3456 is not.
 
- - You can log into your Rackspace portal to view your support PIN. ​You do not need the support PIN to log into the portal.
+#### What if I forget my support PIN?
+
+ - You can log in to your Rackspace portal to view your support PIN. You do not need the support PIN to log in to the portal.
