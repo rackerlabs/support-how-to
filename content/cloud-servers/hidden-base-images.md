@@ -28,7 +28,8 @@ Arch 2014.2 | b21af3ef-1a1e-46b5-98ef-bb0c81b25292 | 2017-09-06 | Retired
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Debian 7 (Wheezy) | 8dbe1146-3cc4-4c46-8888-64662a3ec809 | 2018-06-15 | Debian LTS support has ended
-
+Debian 8 (Jessie) (PVHVM) | 1f055de1-48b5-42ed-bc5d-d3552dccb96e | 2019-06-07 | Upstream updates ended
+OnMetal - Debian 8 (Jessie) | aaef6263-b4d6-435b-a7d7-bf51cf61118e | 2019-06-07 | Upstream updates ended
 ### Fedora images
 
 Image | ID | Date hidden | Notes
