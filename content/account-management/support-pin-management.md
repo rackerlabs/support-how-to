@@ -11,7 +11,7 @@ product: Account Management
 product_url: account-management
 ---
 
-Rackspace now uses a Personal Identification Number (PIN) system to verify customer identity when a customer calls in to receive support. This article provides instructions for using and updating an administrator Support PIN. To review frequently asked questions regarding the new Support PIN system, see [Support PIN FAQ](/how-to/support-pin-faq).
+Rackspace now uses a Personal Identification Number (PIN) system to verify customer identity when a customer calls in to receive support. This article provides instructions for using and updating an account user or contact Support PIN. To review frequently asked questions regarding the new Support PIN system, see [Support PIN FAQ](/how-to/support-pin-faq).
 
 
 ### Using your Support PIN
@@ -22,15 +22,15 @@ The following sections discuss how you can verify your identity with support, as
 
 1. Contact Support.
 
-2. Support requests your Support PIN to verify that you are an account administrator.
+2. Support requests your Support PIN to verify that you are an account user or contact.
 
 3. After you correctly recite your Support PIN, Support proceeds with troubleshooting.
 
-If you do not recall your Support PIN, proceed to [View or edit an administrator's Support PIN](#view-or-edit-an-administrators-support-pin).
+If you do not recall your Support PIN, proceed to [View or edit an account user or contact Support PIN](#view-or-edit-an-account-user-or-contact-support-pin).
 
-If your Support PIN is locked, proceed to  [View or edit an administrator's Support PIN](#view-or-edit-an-administrators-support-pin).
+If your Support PIN is locked, proceed to  [View or edit an account user or contact Support PIN](#view-or-edit-an-account-user-or-contact-support-pin).
 
-#### View or edit an administrator's Support PIN
+#### View or edit an account user or contact Support PIN
 
 1. Log in to [login.rackspace.com](https://login.rackspace.com).
 
@@ -38,14 +38,13 @@ If your Support PIN is locked, proceed to  [View or edit an administrator's Supp
 
 3. Select **User Management** from the dropdown menu.
 
-4. You see a list of account administrators. Click on user under the **Username** column for which you want to view or edit their Support PIN.
+4. You see a list of account users and contacts. Click on the user under the **Username** column for which you want to view or edit their Support PIN.
 
 5. You are now on the user profile page. Scroll to the section labeled **Support PIN**.
 
 6. Click **Show** to view your existing PIN or delete the existing PIN from the PIN field and enter a new one.
 
 A Support PIN must meet the following requirements:
-
 
   - It uses the numeric digits 0-9.	 
 
@@ -57,7 +56,7 @@ A Support PIN must meet the following requirements:
 
     - It can have no more than three sequential numbers. For example, 345 is acceptable, but 3456 is not.
 
-#### Unlock an administrator's Support PIN
+#### Unlock a Support PIN
 
 1. Log in to [login.rackspace.com](https://login.rackspace.com).
 
@@ -65,10 +64,14 @@ A Support PIN must meet the following requirements:
 
 3. Select **User Management** from the dropdown menu.
 
-4. You see a list of account administrators. Click on the user under the **Username** column for which you want to view or edit their Support PIN.
+4. You see a list of account users and contacts. Click on the user under the **Username** column for which you want to view or edit their Support PIN.
 
 5. You are now on the user profile page. Scroll to the section labeled **Support PIN**.
 
-6. Click **Unlock** to unlock the administrator's Support PIN.
+6. If your Support PIN is locked you see the message **Support PIN Locked**. Click the **Unlock** link and then click the **Unlock** button on the popup that appears to unlock your Support PIN.
 
-The administrator is now able to verify their identity and receive support.
+   Note: If you do not have the permissions to unlock the Support PIN, a banner appears telling you which account user or contact is permitted to unlock it. 
+
+7. A success message appears stating **Support PIN Unlocked!**. 
+
+The account user or contact is now able to verify their identity and receive support.
