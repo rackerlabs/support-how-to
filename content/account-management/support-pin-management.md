@@ -26,9 +26,9 @@ The following sections discuss how you can verify your identity with support, as
 
 3. After you correctly recite your Support PIN, Support proceeds with troubleshooting.
 
-If you do not recall your Support PIN, proceed to #[View or edit an administrator's Support PIN](#view-or-edit-an-administrators-support-pin).
+If you do not recall your Support PIN, proceed to [View or edit an administrator's Support PIN](#view-or-edit-an-administrators-support-pin).
 
-If your Support PIN is locked, proceed to  #[View or edit an administrator's Support PIN](#view-or-edit-an-administrators-support-pin).
+If your Support PIN is locked, proceed to  [View or edit an administrator's Support PIN](#view-or-edit-an-administrators-support-pin).
 
 #### View or edit an administrator's Support PIN
 
