@@ -49,7 +49,7 @@ This article discusses frequently asked questions about this process.To review i
 - The support PIN enters a locked status if support is provided an incorrect support PIN six times in a row. This means if someone calls support posing as one of your users, they will be unable to receive support without the correct PIN.
 
 #### My customer support PIN is locked what does that mean? ​
-Customers will still be able to login to their Portals; the Portal Password and Support PIN are completely separate and are not tied to each other. To Unlock the Support PIN the customer will need to log into the Portal and take the Unlock action in the User Management Section. ​Once the Support PIN is Unlocked the Customer can call in for phone support. ​See [Unlock an administrator's Support PIN](/how-to/support-pin-management/#unlock-an-administrators-support-pin) for detailed instructions on changing a Support PIN.
+Customers will still be able to login to their Portals; the Portal Password and Support PIN are completely separate and are not tied to each other. To Unlock the Support PIN the customer will need to log into the Portal and take the Unlock action in the User Management Section. ​Once the Support PIN is Unlocked the Customer can call in for phone support. ​See [Unlock an administrator's Support PIN](/how-to/support-pin-management/#unlock-an-administrators-support-pin) for detailed instructions on unlocking a Support PIN.
 
 #### Are there any requirements for Support PIN? ​
 
