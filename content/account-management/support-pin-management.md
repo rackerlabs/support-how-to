@@ -72,6 +72,6 @@ A Support PIN must meet the following requirements:
 
    Note: If you do not have the permissions to unlock the Support PIN, a banner appears telling you which account user or contact is permitted to unlock it. 
 
-7. A success message appears stating **Support PIN Unlocked!**. 
+7. The following success message displays: **Support PIN Unlocked!** 
 
 The account user or contact is now able to verify their identity and receive support.
