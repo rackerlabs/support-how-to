@@ -51,7 +51,7 @@ A Support PIN must meet the following requirements:
 
   - It must be a 6-digit PIN.
 
-  - It cannot have repeating digits within three spaces of each other.	 
+  - It cannot have repeating digits within three spaces of each other as explained in the following examples:	 
   
     - It can have no more than three repeating numbers. For example, 111 and 121212 are acceptable, but 1111 is not.
 
