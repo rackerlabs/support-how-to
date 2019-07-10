@@ -11,7 +11,7 @@ product: Account Management
 product_url: account-management
 ---
 
-**Important:** Rackspace is excited to announce that it is moving to a Personal Identification Number (PIN) based phone support verification system beginning on August 13, 2019. We have prepared the article below in advance of this change.
+**Important:** Rackspace is excited to announce that it is moving to a Personal Identification Number (PIN) based phone and chat support verification system beginning on August 13, 2019. We have prepared the article below in advance of this change.
 
 To review instructions for using the support PIN system please see [Support PIN management](/how-to/support-pin-management).
 
