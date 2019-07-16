@@ -76,9 +76,7 @@ The following table shows which features are supported in Cisco&reg; and Juniper
 | **Modes and modules** | Mode - multi-context routed |✓||
 ||Mode - routed |✓| ✓|
 | **RackConnect** | RackConnect VLANs termination |✓| |
-| **RackConnect Global** |  RackConnect Global Classic Static |✓| ✓|
-||RackConnect Global 2.0 Static - BGP |✓| |
-||RackConnect Global 2.1 Static - BGP (with top of rack (TOR))  |✓| |
+| **RackConnect Global** |  RackConnect Global (Private) |✓| ✓|
 
 ### Load balancer support
 
@@ -145,7 +143,7 @@ currently are planning support for it.
 ||Mode - edge net device|✓ with AFM||||
 ||Multiple segments behind LB |✓|✓||✓<Br/>Interface filtering is |
 | **RackConnect** | RackConnect VLANs termination |✓|RCV2 - X<Br/>RCv3 - ✓|||
-| **RackConnect Global** |  RackConnect Global Classic Static |✓(AFM only)||||
+| **RackConnect Global** |  RackConnect Global (Private) |✓(AFM only)||||
 | **SSL VPNs** |  SSL client VPN on edge Big-IPs using APM module |✓||||
 | **SNI** | Server name indication  |✓|✓|✓|✓|
 
