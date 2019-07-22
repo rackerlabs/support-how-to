@@ -39,8 +39,8 @@ If you're a new user and you've received an email invitation to join an account,
 use the following steps to register:
 
 1. Click the **Register User** link in the invitation email.
-2. On the **Register Your Account** screen, fill in your new account details,
-   including a username and password, and click **Submit**.
+2. On the **Register Your Account** screen, fill in your new account details
+   including a username and password and click **Submit**.
 3. After you are redirected to the **Log In** screen
    ([login.rackspace.com](https://login.rackspace.com)), log in with your ID
    and password.
