@@ -15,13 +15,13 @@ Occasionally, account managers need to invite new users to access an account.
 This article covers this workflow from both the account manager's perspective
 and the new user's perspective.
 
-If you're an account manager see the **Account manager** section.  If you're a
+If you're an account manager, see the **Account manager** section.  If you're a
 new user and you've received a invitation to register, see the **New user**
 section.
 
 ### Account manager
 
-If you're an account owner, use the following steps to create a new user for
+If you're an account manager and owner, use the following steps to create a new user for
 your account:
 
 1. In the upper-right corner of the Control Panel, click **Account > User Management**.
@@ -39,10 +39,10 @@ If you're a new user and you've received an email invitation to join an account,
 use the following steps to register:
 
 1. Click the **Register User** link in the invitation email.
-2. On the **Register Your Account** screen, fill in your new account details,
+2. On the **Register Your Account** screen, fill in your new account details
    including a username and password and click **Submit**.
 3. After you are redirected to the **Log In** screen
-   ([login.rackspace.com](https://login.rackspace.com)), login with your ID
+   ([login.rackspace.com](https://login.rackspace.com)), log in with your ID
    and password.
 
 If you receive a **Link already used** error message when you click **Register**
