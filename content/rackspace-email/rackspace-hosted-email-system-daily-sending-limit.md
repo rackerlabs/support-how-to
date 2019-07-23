@@ -18,7 +18,7 @@ and ensure a timely and reliable experience for all customers.
 Rackspace enforces daily sending limits by using the following criteria:
 
 - Limits are applied per email address.
-- Sending limits are enforced on a 24-hour calendar day time period starting at 00:00:00 Easter Daylight Time (EDT) and ending at 23:59:59 EDT.
+- Sending limits are enforced on a 24-hour calendar day time period starting at 00:00:00 Eastern Daylight Time (EDT) and ending at 23:59:59 EDT.
 - Sending limits are enforced on the total number of recipients during this period, not total messages.
 - Email addresses are limited to 10,000 total recipients per 24-hour period.
 
