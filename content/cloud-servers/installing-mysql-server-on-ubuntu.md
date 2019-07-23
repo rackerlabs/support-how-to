@@ -5,8 +5,8 @@ title: Install MySQL Server on Ubuntu
 type: article
 created_date: '2011-07-29'
 created_by: Jered Heeschen
-last_modified_date: '2019-02-27'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-07-23'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -87,10 +87,10 @@ password that you set, you can create or change the password.
    your new password:
 
        UPDATE mysql.user SET Password = PASSWORD('password') WHERE User = 'root';
-   
+
    For version MySQL 5.7 and later, enter the following command in the `mysql` shell, replacing `password` with
    your new password:
-   
+
        UPDATE mysql.user SET authentication_string = PASSWORD('password') WHERE User = 'root';
 
 
@@ -102,6 +102,8 @@ password that you set, you can create or change the password.
    commands in lowercase, they'll work. By convention, the commands are
    written in all-caps to make them stand out from field names and other
    data that's being manipulated.
+
+If you need to reset the root password later, see [Reset a MySQL root password](/how-to/mysql-resetting-a-lost-mysql-root-password).
 
 ### View users
 
@@ -260,9 +262,10 @@ but can't be used to make any database changes.
 If you're just creating a database and a user, you are done. The concepts
 covered here should give you a solid start from which to learn more.
 
-### Next section
+### Related articles
 
-[Configuring MySQL server on Ubuntu](/how-to/configuring-mysql-server-on-ubuntu)
+- [Configure MySQL server on Ubuntu](/how-to/configuring-mysql-server-on-ubuntu)
+- [Reset a MySQL root password](/how-to/mysql-resetting-a-lost-mysql-root-password)
 
 
 <script type="application/ld+json">

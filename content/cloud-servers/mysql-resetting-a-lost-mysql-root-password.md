@@ -5,8 +5,8 @@ title: Reset a MySQL root password
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2018-12-21'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-07-23'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -73,7 +73,10 @@ Test the new password by logging in to the database.
 
 Enter your new password when prompted.
 
+### Related articles
 
+- [Install MySQL server on Ubuntu](/how-to/installing-mysql-server-on-ubuntu)
+- [Configure MySQL server on Ubuntu](/how-to/configuring-mysql-server-on-ubuntu)
 
 <script type="application/ld+json">
 {

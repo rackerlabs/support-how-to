@@ -5,8 +5,8 @@ title: Change DNS settings on Linux
 type: article
 created_date: '2011-07-20'
 created_by: Jered Heeschen
-last_modified_date: '2018-12-21'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-07-22'
+last_modified_by: Stephanie Fillmon
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -14,6 +14,11 @@ product_url: cloud-dns
 If you find that your server's Domain Name Server (DNS) settings are
 misconfigured or you prefer to use your own, this article describes how to
 change your Linux&reg; server's DNS settings.
+
+If you want to test your site without the test link prior to going live with SSL
+or verify that an alias site works prior to DNS changes, you can
+[Modify your hosts file](/how-to/modify-your-hosts-file) to override the
+DNS for a domain on a specific machine.
 
 ### Add name servers to the configuration file
 
