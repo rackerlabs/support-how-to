@@ -5,10 +5,9 @@ title: Create a server image for the Rackspace open cloud
 type: article
 created_date: '2014-02-17'
 created_by: Cloud Images
-last_modified_date: '2017-02-27'
-last_modified_by: Cat Lookabaugh
-product: Cloud Images
-product_url: cloud-images
+last_modified_date: '2019-07-24'
+last_modified_by: Stephanie Fillmon
+
 ---
 
 Use the Cloud Images service to import custom virtual machine disk images into
