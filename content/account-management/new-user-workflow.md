@@ -31,7 +31,7 @@ user for your account:
 3. Fill out the form and click **Create User**.
 
 The system automatically sends an email invitation to the user.  This invitation
-expires in as soon as two days.
+expires in 48 hours.
 
 **Note**: A *Pending invitation acceptance* banner displays on the
 **User Details** screen until they accept the emailed invitation and register.
@@ -39,7 +39,7 @@ expires in as soon as two days.
 ### New user
 
 If you're a new user and you've received an email invitation to join an account,
-use the following steps to register:
+use the following steps to register within 48 hours:
 
 1. Click the **Register User** link in the invitation email.
 2. On the **Register Your Account** screen, fill in your new account details,
@@ -49,6 +49,6 @@ use the following steps to register:
    and password.
 
 If you receive a **Link already used** error message when you click
-**Register User** in your invitation email, contact the account manager for a
-new invitation.
+**Register User** in your invitation email or if your link has expired, contact
+the account manager for a new invitation.
 
