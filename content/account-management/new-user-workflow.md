@@ -21,14 +21,17 @@ section.
 
 ### Account manager
 
-If you're an account manager and owner, use the following steps to create a new user for
-your account:
+If you're an account manager and owner, use the following steps to create a new
+user for your account:
 
-1. In the upper-right corner of the Control Panel, click **Account > User Management**.
-2. Click **Create User** in the **Users** tab of the **Users & Permissions** screen.
+1. In the upper-right corner of the Control Panel, click
+   **Account > User Management**.
+2. Click **Create User** in the **Users** tab of the **Users & Permissions**
+   screen.
 3. Fill out the form and click **Create User**.
 
-The system automatically sends an email invitation to the user.
+The system automatically sends an email invitation to the user.  This invitation
+expires in as soon as two days.
 
 **Note**: A *Pending invitation acceptance* banner displays on the
 **User Details** screen until they accept the emailed invitation and register.
@@ -39,12 +42,13 @@ If you're a new user and you've received an email invitation to join an account,
 use the following steps to register:
 
 1. Click the **Register User** link in the invitation email.
-2. On the **Register Your Account** screen, fill in your new account details
-   including a username and password and click **Submit**.
+2. On the **Register Your Account** screen, fill in your new account details,
+   including a username and password, and click **Submit**.
 3. After you are redirected to the **Log In** screen
    ([login.rackspace.com](https://login.rackspace.com)), log in with your ID
    and password.
 
-If you receive a **Link already used** error message when you click **Register**
-in your invitation email, contact the account manager for a new invitation.
+If you receive a **Link already used** error message when you click
+**Register User** in your invitation email, contact the account manager for a
+new invitation.
 
