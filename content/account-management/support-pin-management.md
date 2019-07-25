@@ -11,16 +11,16 @@ product: Account Management
 product_url: account-management
 ---
 
-**Important:** Rackspace is excited to announce that it is moving to a Personal Identification Number (PIN) based phone  and chat support verification system beginning on August 13, 2019. We have prepared the article below in advance of this change.
+**Important:** Rackspace is excited to announce that it is moving to a Personal Identification Number (PIN) based phone and chat support verification system beginning on August 13, 2019. We have prepared the article below in advance of this change.
 
 This article provides instructions for using and updating an account user or contact Support PIN. To review frequently asked questions regarding the new Support PIN system, see [Support PIN FAQ](/how-to/support-pin-faq).
 
 
 ### Using your Support PIN
 
-The following sections discuss how you can verify your identity with support, as well as how to view, update, and unlock your Support PIN.
+The following sections discuss how you can verify your identity with Support, as well as how to view, update, and unlock your Support PIN.
 
-#### Verify your identity with support
+#### Verify your identity with Support
 
 1. Contact the Support team.
 
@@ -30,7 +30,7 @@ The following sections discuss how you can verify your identity with support, as
 
 If you do not recall your Support PIN, proceed to [View or edit an account user or contact Support PIN](#view-or-edit-an-account-user-or-contact-support-pin).
 
-If your Support PIN is locked, proceed to  [View or edit an account user or contact Support PIN](#view-or-edit-an-account-user-or-contact-support-pin).
+If your Support PIN is locked, proceed to [View or edit an account user or contact Support PIN](#view-or-edit-an-account-user-or-contact-support-pin).
 
 #### View or edit an account user or contact Support PIN
 
@@ -38,11 +38,11 @@ If your Support PIN is locked, proceed to  [View or edit an account user or cont
 
 2. Click the **Account** icon in the upper right-hand corner of the home page. This icon is located directly to the left of your username in the upper right-hand corner.
 
-3. Select **User Management** from the dropdown menu.
+3. Select **User Management** from the drop-down menu.
 
 4. You see a list of account users and contacts. Click on your user under the **Username** column to view or edit your Support PIN.
 
-    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. If you must reset the Support PIN of another user you must use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
+    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the Control Panel as. You are not able to view or edit the Support PIN of other users or contacts. If you must reset the Support PIN of another user, you must use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
 
 5. You are now on the user profile page. Scroll to the section labeled **Support PIN**.
 
@@ -54,7 +54,7 @@ A Support PIN must meet the following requirements:
 
   - It must be a 6-digit PIN.
 
-  - It cannot have repeating digits within three spaces of each other as explained in the following examples:	 
+  - It cannot have repeating digits within three spaces of each other, as explained in the following examples:	 
 
     - It can have no more than three repeating numbers. For example, 111 and 121212 are acceptable, but 1111 is not.
 
@@ -66,15 +66,15 @@ A Support PIN must meet the following requirements:
 
 2. Click the **Account** icon in the upper right-hand corner of the home page. This icon is located directly to the left of your username in the upper right-hand corner.
 
-3. Select **User Management** from the dropdown menu.
+3. Select **User Management** from the drop-down menu.
 
 4. You see a list of account users and contacts. Click on your user under the **Username** column to view or edit your Support PIN.
 
-    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. If you must reset the Support PIN of another user you must use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
+    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. If you must reset the Support PIN of another user, you must use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
 
 5. You are now on the user profile page. Scroll to the section labeled **Support PIN**.
 
-6. If your Support PIN is locked you see the message **Support PIN Locked**. Click the **Unlock** link and then click the **Unlock** button on the popup that appears to unlock your Support PIN.
+6. If your Support PIN is locked, you see the message **Support PIN Locked**. Click the **Unlock** link and then click the **Unlock** button on the popup that appears to unlock your Support PIN.
 
    Note: If you do not have the permissions to unlock the Support PIN, a banner appears telling you which account user or contact is permitted to unlock it.
 
