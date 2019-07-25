@@ -5,7 +5,7 @@ title: New user workflow
 type: article
 created_date: '2019-07-22'
 created_by: Justin Wood
-last_modified_date: '2019-07-22'
+last_modified_date: '2019-07-25'
 last_modified_by: Cat Lookabaugh
 product: Account Management
 product_url: account-management
@@ -28,7 +28,9 @@ user for your account:
    **Account > User Management**.
 2. Click **Create User** in the **Users** tab of the **Users & Permissions**
    screen.
-3. Fill out the form and click **Create User**.
+3. Fill out the form and click **Create User**.  For information about access
+    controls for new users, see
+    [Learn about Role-Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
 The system automatically sends an email invitation to the user.  This invitation
 expires in 48 hours.
