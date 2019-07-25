@@ -1,6 +1,6 @@
 ---
 permalink: new-user-workflow/
-audit_date: '2019-07-22'
+audit_date: '2019-07-25'
 title: New user workflow
 type: article
 created_date: '2019-07-22'
