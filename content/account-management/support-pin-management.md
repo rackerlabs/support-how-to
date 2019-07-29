@@ -42,7 +42,7 @@ If your Support PIN is locked, proceed to [View or edit an account user or conta
 
 4. You see a list of account users and contacts. Click on your user under the **Username** column to view or edit your Support PIN.
 
-    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. The only option to change the Support PIN of another user you is to use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
+    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. The only option to change the Support PIN of another user is to use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
 
 5. You are now on the user profile page. Scroll to the section labeled **Support PIN**.
 
@@ -70,7 +70,7 @@ A Support PIN must meet the following requirements:
 
 4. You see a list of account users and contacts. Click on your user under the **Username** column to view or edit your Support PIN.
 
-    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. The only option to change the Support PIN of another user you is to use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
+    **Note:** You are only able to view or edit the Support PIN of the user or contact you are logged in to the control panel as. You are not able to view or edit the Support PIN of other users or contacts. The only option to change the Support PIN of another user is to use the [Rackspace API]( https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/phone-pin-operations/#reset-the-phone-pin) to accomplish this.
 
 5. You are now on the user profile page. Scroll to the section labeled **Support PIN**.
 
