@@ -33,7 +33,14 @@ permissions via the MyRackspace Portal.
         - **Super** - Allows full access to the control panel, and
           includes the ability to create and manage
           administrator accounts.
-        - **Standard** - Allows full access to the control panel, but restricts the administrator from certain areas of the account section of the control panel.
+        - **Standard** - Allows full access to the control panel, but restricts the administrator from the following areas and performing the following functions:
+          - General Information
+          - Contacts
+          - Invoice History
+          - View current Administrators
+          - Add administrator
+          - LogIn As function for Rackspace email
+          - Performing account upgrades
         - **Limited** - Allows access to only the control panel areas
           that you specify. (You can select the specific areas at the bottom of
           the screen after selecting **Limited**. See step 6.)
