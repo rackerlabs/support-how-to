@@ -25,13 +25,13 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Create a tenant ID
 
-The tenant ID that you create is permanent. If you have an existing tenant ID for your Office 365 account, please open a support ticket so we can transfer it for you.
+The tenant ID that you create is permanent. If you have an existing tenant ID for your Office 365 account, open a support ticket so we can transfer it for you.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 2. In the Microsoft Office 365 section, select **Manage Office 365**.
 3. Enter a tenant name using only letters and numbers.
 
-   A tenant is a unique name for your organization within the Office 365 portal. Your tenant name is your "account ID" on Microsoft's systems.
+   A tenant is a unique name for your organization within the Office 365 portal. Your tenant name is your **account ID** on Microsoft's systems.
 
    If the tenant ID that you enter is valid and available, a green check box appears next to the name.
 
@@ -44,7 +44,7 @@ Your SharePoint (**{tenantName}.sharepoint.com**) and OneDrive (**{tenantName}-m
 
 1. Log in to the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com) with the Global Administrator of your tenant.
 
-2. In this portal, you can manage users (add and edit users, reset passwords, edit assigned licenses) and licenses (add, edit, remove licenses). If you need to manage any other settings, such as the Exchange Admin Center or the Security and Compliance center, click on **Office 365 Admin Center** on the left sidebar to be logged in to the Office 365 Admin Center automatically.
+2. In this portal, you can manage users (add or edit users, reset passwords, and edit assigned licenses) and licenses (add, edit, and remove licenses). If you need to manage any other settings, such as the Exchange Admin Center or the Security and Compliance center, click on **Office 365 Admin Center** on the left sidebar to be logged in to the Office 365 Admin Center automatically.
 
 When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is **admin@{tenantName}.onmicrosoft.com**, until new users are created.
 
