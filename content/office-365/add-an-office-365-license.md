@@ -1,12 +1,12 @@
 ---
 permalink: add-an-office-365-license/
-audit_date: '2017-07-10'
+audit_date: '2019-07-30'
 title: Add an Office 365 license
 type: article
 created_date: '2017-06-26'
 created_by: William Loy
-last_modified_date: '2017-07-10'
-last_modified_by: Nate Archer
+last_modified_date: '2019-07-30'
+last_modified_by: Faisal Misle
 product: Office 365
 product_url: office-365
 ---
@@ -20,39 +20,23 @@ For more information about Office 365 subscriptions, see [Set Up Office 365](/ho
 - **Applies to:** Administrator
 - **Difficulty:** Easy
 - **Time needed:** Approximately 15 minutes for the subscription to be visible in Office 365 portal
-- **Tools required:** Cloud Office Control Panel access, an Office 365 tenant with Rackspace Cloud Office
+- **Tools required:** Office 365 tenant Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 
 ### Add an Office 365 license
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
-2. In the Microsoft Office 365 section, click **Manage Office 365**.
-
-   <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-1.png %}" />
-
-3. If "FIRST TIME SETUP", appears above the **Microsoft Office 365** title, perform the steps in [Set up Office 365 - Create a tenant ID](/how-to/set-up-office-365#create-a-tenant-id), and then return to this article.
-
-   If "FIRST TIME SETUP" does not appear (because you have an existing tenant), click **Add Product** to add a new product subscription.
-
-   <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-2.png %}" />
-
-4. Click the gear icon next to an existing product subscription and then select **Change Quantity** to add additional licenses.
-
-    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-3.png %}" />
+1. In the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com), click on **Products** -> **Product Catalog** on the left sidebar.
+2. Select a plan and click **Add Product**. You can learn more about each license by clicking on the arrow next to the details. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
+3. Enter the number of licenses that you need and review the charges.
+4. Click **Add Product**.
 
 ### Assign an Office 365 license to a user
 
-1. Log in to [portal.office.com](portal.office.com) by using your Office 365 administrator credentials.
-2. Click the **Admin** tile.
-3. Under **Users** click **Add User** to create the user that you want to apply the license to.
-
-    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-4.png %}" />
-
-4. Fill in the requested information to create the new user.
-5. Under **Product licenses**, apply the new license you just added in the Cloud Office Control Panel.
-
-    <img src="{% asset_path office-365/add-an-office-365-license/add-office-365-sub-5.png %}" />
-
-6. Scroll down and click **Add**.
+1. In the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com), click on **Users**.
+2. Click **Add User**.
+3. Fill in the requested information to create the new user. It automatically generates a one-time password for you to give to    the user. This password must be changed upon first login.
+4. Select the License you'd like to apply to the user.</br>
+   **Note:** You must have available licenses in order to assign them. See the preceding section to add a more licenses.
+5. Click **Add User** at the bottom of the page to finish the process.
