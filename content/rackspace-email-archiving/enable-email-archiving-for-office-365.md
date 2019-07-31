@@ -29,8 +29,8 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 2. Go to **Products** -> **Product Catalog**
-3. Find the **Rackspace Office 365 Archiving** SKU on the list and click the **Add Product** button.
-4. Review the pricing and click on **Buy Licenses**.<br>
-**Note:** You cannot edit the quantity as it has to be applied to all Exchange mailboxes on the tenant.
+3. Find the **Rackspace Office 365 Archiving** SKU on the list and click **Add Product**.
+4. Review the pricing and click **Buy Licenses**.<br>
+**Note:** You cannot edit the quantity because it has to be applied to all Exchange mailboxes on the tenant.
 
-To learn how to login to the archive, see [Log in to the Archive Manager for Office 365](/how-to/log-in-to-the-archive-manager-for-office-365)
+To learn how to log in to the archive, see [Log in to the Archive Manager for Office 365](/how-to/log-in-to-the-archive-manager-for-office-365)
