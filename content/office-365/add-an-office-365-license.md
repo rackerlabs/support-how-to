@@ -35,8 +35,8 @@ For more information about prerequisite terminology, see [Cloud Office support t
 ### Assign an Office 365 license to a user
 
 1. In the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com), click on **Users**.
-2. Click the **Add User** button.
-3. Fill in the requested information to create the new user. It will automatically generate a one-time password you give to the user and it has to be changed upon first login.
-4. Select the License you'd like to apply to the user.<br>
-**Note:** You must have available licenses in order to assign them. See the section above to add a more licenses.
-5. Click the **Add User** button at the bottom of the page to finish the process.
+2. Click **Add User**.
+3. Fill in the requested information to create the new user. It automatically generates a one-time password for you to give to    the user. This password must be changed upon first login.
+4. Select the License you'd like to apply to the user.</br>
+   **Note:** You must have available licenses in order to assign them. See the preceding section to add a more licenses.
+5. Click **Add User** at the bottom of the page to finish the process.
