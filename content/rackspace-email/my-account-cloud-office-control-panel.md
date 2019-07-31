@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-You use the account section of the Cloud Office Control Panel to directly update and manage your account, including billing info, administrators, service usage, and cancellations. You access this section by clicking your account name in the top-right corner of the control panel and selecting the appropriate item from the menu.
+You use the account section of the Cloud Office Control Panel to directly update and manage your account, including billing information, administrators, service usage, and cancellations. You access this section by clicking your account name in the top-right corner of the control panel and selecting the appropriate item from the menu.
 
 ### Company and billing details
 
@@ -22,8 +22,8 @@ card information, and administrators. You can also review your usage or cancel t
 
 You can add multiple administrators with varying degrees of account
 access. There are Super, Standard, and Limited administrators. Limited
-administrators have access only to specifically assigned sections of the
-control panel. You can also monitor and export logs of all administrator
+administrators have access to only specifically assigned sections of the
+Control Panel. You can also monitor and export logs of all administrator
 logins and actions.
 
 For more information, see [Manage email administrators with the Cloud Office Control Panel](/how-to/manage-email-administrators-with-the-cloud-office-control-panel).
