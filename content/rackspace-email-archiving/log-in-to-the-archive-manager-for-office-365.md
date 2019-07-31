@@ -21,12 +21,12 @@ product_url: rackspace-email-archiving
 For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 
-### Log in to the archive manager
+### Log in to the Archive Manager
 
 You can log in to the Email Archive Manager directly from your domain-specific URL (for example, `http://yourarchiveid.archivesrvr.com`).
 
-Alternatively, you can log in through the Office 365 at Rackspace Control Panel by using the following steps:
+Alternatively, you can log in through the Office 365 on the Rackspace Control Panel by using the following steps:
 
-1.  Log in to the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com)
-2.  Go to **Products** -> **Licenses**
-3.  Find the **Rackspace Office 365 Archiving** tile and click **View Archive**
+1.  Log in to the [Manage Office 365 at the Rackspace Control Panel](https://office365.cp.rackspace.com).
+2.  Go to **Products** -> **Licenses**.
+3.  Find the **Rackspace Office 365 Archiving** tile and click **View Archive**.
