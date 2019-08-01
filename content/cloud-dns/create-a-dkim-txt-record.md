@@ -36,6 +36,15 @@ in the following steps:
 
 4.  Attach the token to each outgoing email.
 
+### What is a DKIM selector?
+
+A selector is specified as an attribute for a DKIM signature, and is recorded in the DKIM-Signature header field.
+
+Because DKIM selectors give different DNS query names, the system uses the selector as an additional name component for validation. Under each domain name, there might be one to many unique DKIM DNS records associated with different selectors.
+
+Selectors enable multiple keys under a domain name, which can provide separate signatory controls among departments, date ranges, or third parties acting on behalf of the domain name owner. No two services or products should use the same selector.
+
+A selector can be anything you want, such as a word, number, or a string of letter and numbers.
 
 ### Create a DKIM TXT record
 
