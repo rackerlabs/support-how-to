@@ -1,12 +1,12 @@
 ---
 permalink: rebuild-a-cloud-server/
-audit_date:
-title: Rebuild a Cloud Server
+audit_date: '2019-08-07'
+title: Rebuild a cloud server
 type: article
 created_date: '2012-07-19'
 created_by: Rackspace Support
-last_modified_date: '2015-12-31'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2019-08-07'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -22,7 +22,10 @@ update your DNS records and wait for DNS propagation.
 sure to back up any data you wish to keep in a safe location prior to
 performing this task.
 
-1.  From the Cloud Servers page, click the **Actions** menu next to the
+Use the following instructions to rebuild your server from the Cloud Control
+Panel:
+
+1.  From the **Cloud Servers** page, click the **Actions** menu next to the
     server name.
 2.  Choose **Rebuild from Image**.
 3.  Select a Rackspace image or one of your own previously saved images
