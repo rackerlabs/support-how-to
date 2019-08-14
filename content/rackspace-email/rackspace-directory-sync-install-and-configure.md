@@ -63,7 +63,7 @@ Enable the following ports on the Directory Sync server:
 
 Communication between Directory Sync and Rackspace is secured through
 HTTPS. Communications between the Active Directory password hook and
-Directory Sync is secured with Microsoft Windows Communication
+Directory Sync are secured with Microsoft Windows Communication
 Foundation (WCF) transport security which uses Windows authentication
 and encryption.
 
