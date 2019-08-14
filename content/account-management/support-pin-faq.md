@@ -39,7 +39,7 @@ To review instructions for using the support PIN system please see [Support PIN 
 
 #### Where can customers locate their support PIN?
 
-- All Rackspace account users can find their support PIN within the MyRack, MyCloud, and the mobile app, under the **User Management** section. See [View or edit an account user or contact Support PIN](/how-to/support-pin-management/#view-or-edit-an-account-user-or-contact-support-pin) for detailed instructions on viewing a Support PIN.
+- All Rackspace account users can find their support PIN within the MyRack, MyCloud, and the mobile app, under the **Support** section. See [View or edit an account user or contact Support PIN](/how-to/support-pin-management/#view-or-edit-an-account-user-or-contact-support-pin) for detailed instructions on viewing a Support PIN.
 
 #### Can customers change their support PIN?
 
@@ -50,9 +50,9 @@ To review instructions for using the support PIN system please see [Support PIN 
 - The support PIN enters a locked status if the Support team is provided an incorrect support PIN six times in a row. If someone posing as one of your users calls the Support team, they cannot receive support without the correct PIN.
 
 #### What does my support PIN is locked mean?
-Customers are still able to log in to their portals. The portal password and support PIN are completely separate and are not tied to each other. To unlock the support PIN, the customer needs to log in to the portal and take the **Unlock** action in the **User Management** section. After the support PIN is unlocked, the customer can call in for phone support. 
+Customers are still able to log in to their portals. The portal password and support PIN are completely separate and are not tied to each other. To unlock the support PIN, the customer needs to log in to the portal and take the **Unlock** action in the **User Management** section. After the support PIN is unlocked, the customer can call in for phone support.
 
-See [Unlock a Support PIN](/how-to/support-pin-management/#unlock-a-support-pin) for further instructions on unlocking a Support PIN. 
+See [Unlock a Support PIN](/how-to/support-pin-management/#unlock-a-support-pin) for further instructions on unlocking a Support PIN.
 
 #### Are there any requirements for a support PIN?
 
