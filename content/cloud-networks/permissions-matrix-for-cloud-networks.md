@@ -66,7 +66,7 @@ Delete security group rule | `DELETE /v2.0/security-group-rules/{rules-security-
 
 ### Shared IP address operations
 
-**Note:** The Shared IP Addresses API is currently in Limited Availability. It is available only to Managed Infrastructure customers and not to RackConnect or Managed Operations customers. To use this feature, contact Rackspace Support.
+**Note:** The Shared IP Addresses API is available to all customers except RackConnect customers.
 
 Method | API action | Role | Description
 --- | --- | --- | ---
