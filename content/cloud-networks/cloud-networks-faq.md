@@ -305,7 +305,7 @@ This feature is supported for all customers except RackConnect customers.
 
 #### Is this feature available from the Cloud Control Panel?
 
-No, this feature is not yet vaialble in the Cloud Control Panel.
+No, this feature is not yet available in the Cloud Control Panel.
 
 #### Is there a limit on the number of shared IP addresses that a tenant can have?
 
