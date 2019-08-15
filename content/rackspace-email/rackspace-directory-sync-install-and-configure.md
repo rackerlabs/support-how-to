@@ -5,15 +5,15 @@ title: 'Rackspace Directory Sync: Install and configure'
 type: article
 created_date: '2013-04-25'
 created_by: Kevin Richey
-last_modified_date: '2018-11-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-08-15'
+last_modified_by: Cat Lookabaugh
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
 Rackspace Directory Sync enables Rackspace Hosted Email customers to
 synchronize their local Microsoft&reg; Active Directory objects and user
-passwords with Rackspace Hosted Email in real time. This article describes
+passwords with Rackspace Hosted Email in real-time. This article describes
 how to install and configure Rackspace Directory Sync.
 
 ### System requirements
@@ -64,7 +64,7 @@ Enable the following ports on the Directory Sync server:
 Communication between Directory Sync and Rackspace is secured through
 HTTPS. Communications between the Active Directory password hook and
 Directory Sync are secured with Microsoft Windows Communication
-Foundation (WCF) transport security which uses Windows authentication
+Foundation (WCF) transport security, which uses Windows authentication
 and encryption.
 
 #### Installation files
@@ -122,7 +122,7 @@ the DC.
 click **No** to manually restart it later. You must restart for the changes
 to take effect. If you restart now, the installation wizard continues.
 
-When installation is complete, the web UI for validation and synchronization
+When the installation is complete, the web UI for validation and synchronization
 automatically opens. A shortcut to the web UI is created on both the Start
 menu and on the desktop.
 
@@ -183,7 +183,7 @@ Directory Sync by performing the following steps:
         click the **Sync History** tab and then click the **Sync
         Now** button.
 
-**Note:** The Directory Sync services never makes changes to the
+**Note:** The Directory Sync services never make changes to the
 directory. All access is read-only.
 
 ### Synchronize users and groups
@@ -203,7 +203,7 @@ the Directory Sync UI and is where Directory Sync is configured.
 
 If you have multiple DCs to manage the Active Directory, you must
 install the Password Handler on all DCs except the primary DC (the
-Password Handler is installed during initial setup). Normally, password
+Password Handler is installed during the initial setup). Normally, password
 changes in a network occur locally and then are replicated to the other
 DCs. Directory Sync is unable to see those password changes after
 replication because of encryption. To ensure that password changes are
@@ -237,7 +237,7 @@ Repeat the following steps for each additional DC in the
 Active Directory forest.
 
 **Important:** You must restart each DC to complete this
-process. Consider performing these steps during off hours
+process. Consider performing these steps during off-hours
 
 1. Copy the **.msi** file to the secondary DC.
 2. Double-click the installation file and click **Next** on the welcome
