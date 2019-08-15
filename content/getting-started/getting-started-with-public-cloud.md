@@ -1,7 +1,7 @@
 ---
 permalink: getting-started-with-public-cloud/
 audit_date: '2019-08-15'
-title: Getting started with Rackspace public cloud
+title: Getting started with Rackspace Public Cloud
 type: article
 created_date: '2019-08-15'
 created_by: Rackspace Support
@@ -11,7 +11,7 @@ product: Getting started
 product_url: getting-started
 ---
 
-This article guides you through creating, managing, building, and growing your Rackspace public cloud account. This guide is designed remove the complexity of getting started on your first public cloud projects. We recommend completing tasks in the following order:
+This article guides you through creating, managing, building, and growing your Rackspace Public Cloud account. This guide is designed remove the complexity of getting started on your first Public Cloud projects. We recommend completing tasks in the following order:
 
 1. [Create an account](#create)
 2. [Manage and secure an account](#manage)
@@ -20,7 +20,7 @@ This article guides you through creating, managing, building, and growing your R
 
 #### Create an account
 
-Whether you are designing, testing, or ready to launch your application in to production, you need a home for your code. Before accomplishing any of that, you must first create your account. Checkout the [tips and best practices](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-aws-or-rackspace-public-cloud/) that bring new customers the greatest success when first creating a public cloud account. If you are looking for specific instructions on signing up for a different product you can click on any of the following options for further details:
+Whether you are designing, testing, or ready to launch your application in to production, you need a home for your code. Before accomplishing any of that, you must first create your account. Checkout the [tips and best practices](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-aws-or-rackspace-public-cloud/) that bring new customers the greatest success when first creating a Public Cloud account. If you are looking for specific instructions on signing up for a different product you can click on any of the following options for further details:
 
 -	[AWS and Rackspace Public Cloud](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-aws-or-rackspace-public-cloud)
 -	[Rackspace Email and applications](/how-to/sign-up-for-rackspace-services/#rackspace-email-and-applications)
@@ -33,7 +33,7 @@ Now that you have created an account there are a few things you should do to pre
 
 1. Protect your account by enabling [Multi-factor authentication](/how-to/multi-factor-authentication-from-the-cloud-control-panel/). Multi-factor authentication is a free tool that can greatly decrease the chances of your account being compromised.
 
-2. Public cloud is billed on an hourly basis and resources such as file storage and traffic can be variable. For this reason, you should [create a billing threshold notification](/how-to/billing-services-overview/#set-a-billing-threshold/) that alerts you to unexpected billing changes.
+2. Public Cloud is billed on an hourly basis and resources such as file storage and traffic can be variable. For this reason, you should [create a billing threshold notification](/how-to/billing-services-overview/#set-a-billing-threshold/) that alerts you to unexpected billing changes.
 
 3. Add users, create user groups, set up role based access, view your bill, or change payment methods and account information using our comprehensive [Account management](/how-to/account-management/) article.
 
@@ -48,7 +48,7 @@ Your account is now ready for you to build devices. Building a cloud environment
 
 #### Grow your cloud
 
-Your business is booming, and you need to grow! Perhaps it is an event or seasonal traffic plans, but your needs have changed.  When you experience growth you can become less fault tolerant and have more security needs. Checkout the following information to ensure you sustain momentum:
+Your business is booming, and you need to grow! Perhaps it is an event, seasonal traffic plans, or your needs have simply changed. When you experience growth you can become less fault tolerant and have more security needs. Checkout the following information to ensure you sustain momentum:
 
 - [Scale for high traffic events](/how-to/prepare-for-high-traffic-events/)
 - [Protect your cloud infrastructure with firewall hardware](/how-to/rackconnect/)
