@@ -13,7 +13,7 @@ product_url: rackspace-email
 
 Rackspace Directory Sync enables Rackspace Hosted Email customers to
 synchronize their local Microsoft&reg; Active Directory objects and user
-passwords with Rackspace Hosted Email in real-time. This article describes
+passwords with Rackspace Hosted Email in real time. This article describes
 how to install and configure Rackspace Directory Sync.
 
 ### System requirements
@@ -118,7 +118,7 @@ the DC.
 2. Open the file and follow the prompts for installing the Directory
    Sync service.
 
-**Note**: When prompted click **Yes** to restart your system now, or
+**Note**: When prompted, click **Yes** to restart your system now or
 click **No** to manually restart it later. You must restart for the changes
 to take effect. If you restart now, the installation wizard continues.
 
@@ -134,7 +134,7 @@ any errors occur when the service is starting, view the event log for
 more information about the error.
 
 **Note:** We recommend creating new security groups in Active Directory
-that will manage the list of synchronized users for each hosted service.
+that manage the list of synchronized users for each hosted service.
 For example, if you are synchronizing Exchange users, create a new
 security group in Active Directory as Rackspace Exchange or Rackspace
 Hosted Exchange.
@@ -152,7 +152,7 @@ Directory Sync by performing the following steps:
     **Register**.
     - Customers who logged in to the [MyRackspace Portal](https://login.rackspace.com)
         will automatically create an admin ID through the MyRackspace
-        Portal before download
+        Portal before download.
     - Customers who logged in to the [Cloud Office Control Panel](https://cp.rackspace.com)
         should create a new admin ID dedicated to the
         sync service.
@@ -180,8 +180,7 @@ Directory Sync by performing the following steps:
         last synchronization. This synchronization type runs
         automatically every 5 minutes by default but can also be
         performed manually. To manually run a delta synchronization,
-        click the **Sync History** tab and then click the **Sync
-        Now** button.
+        click the **Sync History** tab and then click the **Sync Now** button.
 
 **Note:** The Directory Sync services never make changes to the
 directory. All access is read-only.
@@ -227,8 +226,8 @@ the **Directory Sync Password Handler Install** folder was created on
 the desktop. Use the installer in this folder to synchronize your users'
 passwords across multiple DCs.
 
-**Note:** The **.msi** file within the folder should be installed on the
-secondary DCs only.
+**Note:** The **.msi** file within the folder should be installed only on the
+secondary DCs.
 
 <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Installer8_0.png %}" width="563" height="393" />
 
@@ -237,11 +236,10 @@ Repeat the following steps for each additional DC in the
 Active Directory forest.
 
 **Important:** You must restart each DC to complete this
-process. Consider performing these steps during off-hours
+process. Consider performing these steps during off-hours.
 
 1. Copy the **.msi** file to the secondary DC.
-2. Double-click the installation file and click **Next** on the welcome
-    page of the wizard.
+2. Double-click the installation file and click **Next** on the welcome page of the wizard.
 3. On the next page, click **Install**.
 4. After the restart, click **Finish**.
 
