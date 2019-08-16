@@ -5,7 +5,7 @@ title: Support PIN FAQ
 type: article
 created_date: '2019-07-09'
 created_by: Rackspace Support
-last_modified_date: '2019-07-09'
+last_modified_date: '2019-08-16'
 last_modified_by: William Loy
 product: Account Management
 product_url: account-management
