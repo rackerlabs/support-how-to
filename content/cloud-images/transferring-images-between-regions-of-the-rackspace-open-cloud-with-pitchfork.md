@@ -13,7 +13,7 @@ product_url: cloud-images
 
 This article describes how to transfer Rackspace Cloud Servers instance images between regions of the Rackspace Cloud by using [Pitchfork](https://pitchfork.rax.io/). Pitchfork is an interactive Rackspace Cloud API application that simplifies working with the Rackspace Cloud APIs. Using a browser, you can execute any Rackspace API command for any Cloud product without the need to get on a command line or use another CLI tool.
 
-**Note:** The size of the exported virtual hard disk (VHD) must not be allowed to expand past 40 GB, which is the largest allowable disk size for imports. Thus, you will not be able to import any server image sourced from a server larger than 2 GB General Purpose or 1 GB Standard.
+**Note:** The size of the exported virtual hard disk (VHD) must not be allowed to expand past 160 GB, which is the largest allowable disk size for imports. Thus, you will not be able to import any server image sourced from a server larger than 8 GB General Purpose or 4 GB Standard.
 
 ### Getting started
 
