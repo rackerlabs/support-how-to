@@ -18,7 +18,8 @@ terminal software on Linux.
 
 **Note:** For information about using SecureShell (SSH) private keys on Microsoft&reg; 
 Windows&reg; operating systems, see 
-[Logging in with an SSH Private Key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
+[Logging in with an SSH Private Key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows)
+and [Generate RSA keys with SSH by using PuTTYgen](https://support.rackspace.com/how-to/generating-rsa-keys-with-ssh-puttygen/).
 
 ###Prerequisites
 
@@ -27,8 +28,7 @@ To complete this process, you need the following software applications:
  - SSH client software that is installed on your Linux or MacOS X operating system by default.
  - Your favorite text editor. This example uses the **vim** text editor.
  - Your private key.  For more information about generating a key on Linux or MacOS X, see 
- [Connect to a server by using SSH on Linux or Mac OS X](https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/). 
- For Windows, see [Generate RSA keys with SSH by using PuTTYgen](https://support.rackspace.com/how-to/generating-rsa-keys-with-ssh-puttygen/).
+ [Connect to a server by using SSH on Linux or Mac OS X](https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/).
 
 ### Log in with a private key
 
