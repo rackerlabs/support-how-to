@@ -1,7 +1,7 @@
 ---
 permalink: logging-in-with-an-ssh-private-key-on-linuxmac/
 audit_date: '2019-09-19'
-title: Log in with an SSH private key on Linux and Mac
+title: Log in with an SSH private key on Linux and macOS
 type: article
 created_date: '2013-09-25'
 created_by: Brint Ohearn
@@ -12,11 +12,11 @@ product_url: cloud-servers
 ---
 
 This article demonstrates how to use a private key to log in to a Linux&reg;
-server by using a private key with a Terminal session on MacOS&reg; X. However,
+server by using a private key with a Terminal session on macOS&reg;. However,
 you can follow the same process to use a private key when using any
 terminal software on Linux.
 
-**Note:** For information about using SecureShell (SSH) private keys on Microsoft&reg; 
+**Note:** For information about using Secure Shell (SSH) private keys on Microsoft&reg; 
 Windows&reg; operating systems, see 
 [Logging in with an SSH Private Key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows)
 and [Generate RSA keys with SSH by using PuTTYgen](https://support.rackspace.com/how-to/generating-rsa-keys-with-ssh-puttygen/).
@@ -25,9 +25,9 @@ and [Generate RSA keys with SSH by using PuTTYgen](https://support.rackspace.com
 
 To complete this process, you need the following software applications:
 
- - SSH client software that is installed on your Linux or MacOS X operating system by default.
+ - SSH client software that is installed on your Linux or macOS operating system by default.
  - Your favorite text editor. This example uses the **vim** text editor.
- - Your private key.  For more information about generating a key on Linux or MacOS X, see 
+ - Your private key.  For more information about generating a key on Linux or macOS, see 
  [Connect to a server by using SSH on Linux or Mac OS X](https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/).
 
 ### Log in with a private key
@@ -55,7 +55,7 @@ Be sure to include the **BEGIN** and **END** lines.
 
           chmod 600 deployment_key.txt
 
-8. Use the key to log in to the SSH client as shown in the following example, which loads the key in file **deployment\_key.txt**, and logs in as user **demo**,to IP **192.237.248.66**:
+8. Use the key to log in to the SSH client as shown in the following example, which loads the key in file **deployment\_key.txt**, and logs in as user **demo** to IP **192.237.248.66**:
 
           ssh -i deployment_key.txt demo@192.237.248.66
 
