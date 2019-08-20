@@ -4,7 +4,7 @@ audit_date: '2019-08-19'
 title: Cloud-to-cloud migration
 type: article
 created_date: '2019-07-12'
-created_by: Alex Darrke
+created_by: Alex Darke
 last_modified_date: '2019-08-19'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
