@@ -5,7 +5,7 @@ title: Cloud-to-cloud migration
 type: article
 created_date: '2019-07-12'
 created_by: Alex Darke
-last_modified_date: '2019-08-19'
+last_modified_date: '2019-08-22'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -103,6 +103,8 @@ On Linux, you can use `rsync` to copy a directory over the network directly. For
     rsync -e 'ssh' -avl --stats --progress /var/lib/mysql username@123.45.67.89:/var/lib/mysql
 
 For more information about `rsync`, see [Back up your files with rsync](https://support.rackspace.com/how-to/backing-up-your-files-with-rsync/).
+
+**Important**: As long as the two cloud servers are in the same regional data center (DFW, ORD, IAD, LON, HKG, or SYD), you can make use of the `10.x` IP address assigned to the two servers to transfer any data. This means you won't be charged for the bandwidth of the data between the two servers. Any data transferred using public IPs will result in potential bandwidth costs.
 
 #### Application-specific options
 
