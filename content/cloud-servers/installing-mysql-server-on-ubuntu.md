@@ -30,8 +30,11 @@ Install the MySQL server by using the Ubuntu package manager:
 The installer installs MySQL and all dependencies.
 
 If the secure installation utility does not launch automatically after the 
-installation completes, enter `mysql_secure_installation` on the 
-command line. This utility prompts you to define the mysql root password
+installation completes, enter the following command:
+     
+    mysql_secure_installation
+
+This utility prompts you to define the mysql root password
 and other security-related options, including removing remote access
 to the root user and setting the root password.
 
