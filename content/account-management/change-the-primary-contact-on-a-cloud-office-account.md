@@ -11,10 +11,11 @@ product: Account Management
 product_url: account-management
 ---
 
-The primary contact for an account must be an active user. You can update the primary contact by using one of the following methods:
+This article instructs you on how to change the Primary Contact of a Cloud Office account. Primary Contact changes are typically performed when the ownership of an account has changed for any reason.
 
+#### Change a Primary Contact through the control panel
 
-#### Select new primary contact in control panel
+You can update the Primary Contact through your control panel if you are the current Primary Contact of the account. If you are not the current Primary Contact please proceed to the [Request a Primary Contact change](#request-a-primary-contact-change).
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
@@ -28,12 +29,18 @@ The primary contact for an account must be an active user. You can update the pr
 
 You have successfully changed the Primary Contact of the account.
 
-Request a primary contact change
-If you are not the primary contact or unable to select a new primary contact, a primary contact change can be requested.  The requester must contact Rackspace support to initiate this process.  After the request is approved the requester will be added as an administrator and set as the primary contact.
-The new administrator must complete the following to finalize the process.
+#### Request a Primary Contact change
 
+If you are not the current Primary Contact, or are unable to select a new Primary Contact, a primary contact change can be requested.  The requestor must [contact Rackspace support](https://www.rackspace.com/contact#tab-us-contact-info-support) to initiate this process. After the request is approved, the requestor is added as an account administrator, and is also set as the Primary Contact for that account.
 
-1.	In the welcome email click the Password Recovery link.
-2.	Set a password for your Administrator ID.
-3.	Complete the Multi-Factor Authentication Setup.
-4.	Create a security question and answer for your Administrator ID.
+After the requestor is added as an account administrator, they must complete the following steps:
+
+1. A welcome email is sent to the listed email address for the newly added administrator.
+
+2. Click the **Password Recovery** link in the welcome email.
+
+3. Set a password for the newly created administrator.
+
+4. Complete the [Multi-Factor Authentication setup](/how-to/enable-or-disable-two-factor-authentication-for-administrators).
+
+5. Create a security question and answer the newly created administrator.
