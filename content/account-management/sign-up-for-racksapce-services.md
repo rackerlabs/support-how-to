@@ -5,8 +5,8 @@ title: Sign up for Rackspace services
 type: article
 created_date: '2017-06-15'
 created_by: Nate Archer
-last_modified_date: '2017-06-15'
-last_modified_by: Nate Archer
+last_modified_date: '2019-08-30'
+last_modified_by: William Loy
 product: Account Management
 product_url: account-management
 ---
@@ -24,8 +24,10 @@ addition to its own suite of cloud products, including Rackspace Public Cloud. T
 signup process depends on what product or service you want to use. This article
 provides instructions for the following products and services:
 
--	[Fanatical Support for AWS and Rackspace Public Cloud](#fanatical-support-for-aws-or-rackspace-public-cloud)
--	[Rackspace Email and applications](#rackspace-email-and-applications)
+-	[Fanatical Support for Rackspace Public Cloud](#fanatical-support-for-rackspace-public-cloud)
+-	[Fanatical Support for AWS](#fanatical-support-for-amazon-web-services)
+-	[Managed Google Cloud Platform](#managed-google-cloud-platform)
+-	[Rackspace Email or Microsoft Exchange](#rackspace-email-or-microsoft-exchange)
 -	[Office 365](#office-365)
 
 **Who will be the primary user or account owner?**
@@ -39,7 +41,7 @@ when a support ticket is created, updated, or marked as solved.
 
 If the account is for a business or organization, Rackspace recommends creating a username that is specific to your company.
 
-**Is your signup information accurate?**
+**Is your account information accurate?**
 
 Our security precautions start with the signup process. We employ a series of industry standard, enterprise-class tools to help verify and validate all account requests as quickly as possible. Additionally, we have a global team that manages the signup and validation process 24x7x365, and calls customers to verify information within minutes of receiving applications. The most common delay in this process is caused by receiving inaccurate contact information from new customers.
 
@@ -58,30 +60,60 @@ You can ensure the quick processing of your account by verifying that all of the
 
 ### Sign up for a Rackspace account
 
-The signup process is different depending on the Rackspace product or service for which you are signing up, but every new customer should navigate to https://www.rackspace.com to start.
+The signup process is different depending on the Rackspace product or service for which you are signing up, but every new customer should navigate to [rackspace.com](https://www.rackspace.com) to start.
 
-#### Fanatical Support for AWS or Rackspace Public Cloud
+#### Fanatical Support for Rackspace Public Cloud
 
-1. On the https://www.rackspace.com home page, click **Sign Up** and select the product you want to sign up for:
-
-   - **Rackspace Cloud** associates your account with Rackspace Public Cloud services.
-   - **Fanatical Support for AWS** associates your account with AWS.
+1. Navigate to [rackspace.com](https://www.rackspace.com), click **Buy Now** and then select **OpenStack Public Cloud**.
 
 2. Enter your email address, username, password, and the answer to the security question that you select, and then click **Next Step**.
+
 3. Enter your contact information, including name, company, address, and phone number, and then click **Next Step**.
-4. Enter your billing information. Rackspace places a $1 hold on your credit card to confirm your account.
-5. Read and accept the [Rackspace Global Services Agreement](https://www.rackspace.com/information/legal/GSA) and [Fanatical Support for AWS Terms and Conditions](https://www.rackspace.com/information/legal/awssupport) or [Rackspace Cloud Terms of Service](https://www.rackspace.com/information/legal/cloud/tos).
+
+4. Enter your billing information. Rackspace places a $1.00 hold on your credit card to confirm your account.
+
+5. Read and accept the [Rackspace Global Services Agreement](https://www.rackspace.com/information/legal/GSA) and [Rackspace Cloud Terms of Service](https://www.rackspace.com/information/legal/cloud/tos).
+
 6. Click **Create my account**. A confirmation screen appears confirming that your account has been created. You can now log in using the username and password you created.
 
    **Note:** All Rackspace Public Cloud accounts are set to the Managed Infrastructure service level by default. You can upgrade to the Managed Operations service level inside the Cloud Control Panel. At the top of the Cloud Control Panel, click your account username and then select **Upgrade Service Level**. If you want to upgrade to the Managed Operations service level before starting the sign up process, contact Rackspace Sales at 1-844-768-0239.
 
-#### Rackspace Email and applications
+#### Fanatical Support for Amazon Web Services
 
-1. On the https://www.rackspace.com home page, click **Sign Up**, and select **Email & Apps**.
+1. Navigate to [rackspace.com](https://www.rackspace.com), click **Buy Now**, and then select **Fanatical Support for AWS**.
+
+2. Enter your email address, username, password, and the answer to the security question that you select, and then click **Next Step**.
+
+3. Enter your contact information, including name, company, address, and phone number, and then click **Next Step**.
+
+4. Enter your billing information. Rackspace places a $1.00 hold on your credit card to confirm your account.
+
+5. Read and accept the [Rackspace Global Services Agreement](https://www.rackspace.com/information/legal/GSA) and [Fanatical Support for AWS Terms and Conditions](https://www.rackspace.com/information/legal/awssupport).
+
+6. Click **Create my account**. A confirmation screen appears confirming that your account has been created. You can now log in using the username and password you created.
+
+#### Managed Google Cloud Platform
+
+1. Navigate to [rackspace.com](https://www.rackspace.com), click **Buy Now**, and then select **Managed Google Cloud Platform**.
+
+2. Enter your email address, username, password, and the answer to the security question that you select, and then click **Next Step**.
+
+3. Enter your contact information, including name, company, address, and phone number, and then click **Next Step**.
+
+4. Enter your billing information. Rackspace places a $1.00 hold on your credit card to confirm your account.
+
+5. Read and accept the [Rackspace Global Services Agreement](https://www.rackspace.com/information/legal/GSA).
+
+6. Click **Create my account**. A confirmation screen appears confirming that your account has been created. You can now log in using the username and password you created.
+
+#### Rackspace Email or Microsoft Exchange
+
+1. Navigate to the [rackspace.com](https://www.rackspace.com) home page, click **Buy Now**, and then select **Rackspace Email** or **Microsoft Exchange**.
+
 2. Select the applications for which you want to sign up:
 
-      - **Rackspace Email**: A business-class, POP/IMAP service that works with Outlook. It includes a Webmail Application Suite featuring shared salendars and a global address list.
-      - **Microsoft Exchange**: Allows your team to collaborate more efficiently on projects with shared calendars, tasks, and contacts. It includes Skype for Business instant messaging, Outlook Web App (OWA) access, 100 GB of storage, mobile options, and optional Outlook licenses. Exchange also includes the **Add Blackberry Licenses** option, which syncs your email and personal data to your mobile device.
+      - **Rackspace Email**: A business-class, POP/IMAP service that works with Outlook&reg;. It includes a webmail application suite featuring shared calendars and a global address list.
+      - **Microsoft Exchange**: Allows your team to collaborate more efficiently on projects with shared calendars, tasks, and contacts. It includes Skype for Business&reg; instant messaging, Outlook Web App&reg; (OWA) access, 100 GB of storage, mobile options, and optional Outlook licenses.
 
 3. You can also choose the following Add-Ons:
 
@@ -90,13 +122,16 @@ The signup process is different depending on the Rackspace product or service fo
 
 4. Click **Next Step**.
 
-5. Enter your username and the primary domain name for your Rackspace Email mailbox.
+5. Enter your username and the primary domain name for your Rackspace Email  or Microsoft Exchange mailbox.
       - If you own the domain name, select the **I own this domain option**.
       - If you want to buy the domain you entered, select **I want to buy this domain**. The estimated charge to rent the domain appears under your estimated monthly charges.
 
-6. If you chose the Microsoft Office add-on, enter your Microsoft domain. Use 3-27 alphanumeric characters. The value must be unique and will be part of your Office 365 user ID.
+6. If you chose the Microsoft Office add-on, enter your Microsoft domain. Use 3-27 alphanumeric characters. The value must be unique and will be part of your Office 365&reg; user ID.
+
 7. Enter your email address, password, and the answer to the security question that you select, and then click **Next Step**.
+
 8. Enter your account information, including name, company, address, and phone number, and then click **Next Step**.
+
 9. Enter your billing information.
 
    Your estimated monthly total appears on the right side of the signup page. Every new Rackspace customer receives a 14-day free trial. After the trial period ends, your account will be charged close to the estimated monthly total.
@@ -107,18 +142,18 @@ The signup process is different depending on the Rackspace product or service fo
 
 #### Office 365
 
-1. On the https://www.rackspace.com home page, click **Sign Up** and select **Office 365**.
-2. Select the Office 365 plan that you want to use:
+1. Navigate to the [rackspace.com](https://www.rackspace.com) home page, click **Buy Now**, and then select **Office 365**.
 
-     - **Business Essentials**: Includes Exchange, SharePoint, Skype for Business, and Office Online (including Outlook®) as well as OneDrive for Business.
-     - **Business**: Includes the full desktop and mobile Office applications (including Outlook), Office Online, and OneDrive for Business.
-     - **Business Premium**: Includes everything in the Business Essentials and Business plans: Exchange, SharePoint, Skype for Business, Office Online, the full desktop and mobile Office applications (including Outlook), as well as OneDrive for Business.
-     - **Encrypted Exchange Online**: Includes Exchange Online with 50 GB mailboxes, includes Azure Rights Management for encryption and user permissions, and is preconfigured for encryption.
+2. Select your Office 365 plan.
 
 3. Click **Next Step**.
+
 4. Enter your username and the name of your company. Your company name will be used as your Microsoft domain.
+
 4. Enter your email address, password, and the answer to the security question that you select, and then click **Next Step**.
+
 5. Enter your account information, including name, company, address, and phone number, and then click **Next Step**.
+
 7. Enter your billing information.
 
    Your estimated monthly total appears on the right side of the signup page. Every new Rackspace customer receives a free 14-day trial. After the trial period ends, your account will be charged close to the estimated monthly total.
