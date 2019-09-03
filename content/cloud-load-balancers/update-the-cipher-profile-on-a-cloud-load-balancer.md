@@ -19,7 +19,7 @@ ciphers that your cloud load balancers use to better protect your environment.
 You can update the cipher profiles by using either the Cloud Load Balancers
 API or our interactive web application, [Pitchfork](https://pitchfork.rax.io).
 
-For more information about cipher profiles and to see all avaiolable ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
+For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
 developer documentation.
 
 The following cipher profiles are currently available:
@@ -113,5 +113,4 @@ Use the following steps to update the cipher profile by using Pitchfork:
    2. Enter the load balancer ID in the **lb_id** field and click **Send API
       Call**.
 
-   The response that this call returns should confirm that the cipher profile
-   is updated.
+   The response that this call returns should confirm that the cipher profile is updated.
