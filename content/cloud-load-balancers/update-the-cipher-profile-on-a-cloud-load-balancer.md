@@ -5,28 +5,30 @@ title: Update the cipher profile on a cloud load balancer
 type: article
 created_date: '2019-02-07'
 created_by: Rackspace Community
-last_modified_date: '2019-02-07'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-09-03'
+last_modified_by: Cat Lookabaugh
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-SSL ciphers are algorithms that help secure networking connections by using
-Transport Layer Security (TLS). However, the cipher
-`SSL_RSA_WITH_3DES_EDE_CBC_SHA` has been identified as vulnerable to
-potential intrusion. Rackspace is therefore enabling you to update the ciphers
-that your cloud load balancers use to better protect your environment.
+Secure Sockets Layer (SSL) ciphers are algorithms that help secure networking connections by using
+Transport Layer Security (TLS). However, the cipher `SSL_RSA_WITH_3DES_EDE_CBC_SHA` has been 
+identified as vulnerable to potential intrusion. Rackspace is therefore enabling you to update the 
+ciphers that your cloud load balancers use to better protect your environment.
 
 You can update the cipher profiles by using either the Cloud Load Balancers
 API or our interactive web application, [Pitchfork](https://pitchfork.rax.io).
 
-For more information about cipher profiles, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace developer documentation.
+For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
+developer documentation.
 
 The following cipher profiles are currently available:
 
-- `Default`: The `Default` cipher profile
-  has `SSL_RSA_WITH_3DES_EDE_CBC_SHA` enabled.
-- `CLBCipherPolicy2017-08`: This cipher profile has `SSL_RSA_WITH_3DES_EDE_CBC_SHA` disabled.
+- `Default`: The `Default` cipher profile has cipher `SSL_RSA_WITH_3DES_EDE_CBC_SHA` enabled.
+- `CLBCipherPolicy2017-08`: This cipher profile has cipher `SSL_RSA_WITH_3DES_EDE_CBC_SHA` disabled.
+- `CLBCipherPolicy2019-05`: This cipher profile has all ciphers disabled except the following ones:
+   - `SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384`
+   - `SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256`
 
 ### Update cipher profiles by using the API
 
@@ -111,5 +113,4 @@ Use the following steps to update the cipher profile by using Pitchfork:
    2. Enter the load balancer ID in the **lb_id** field and click **Send API
       Call**.
 
-   The response that this call returns should confirm that the cipher profile
-   is updated.
+   The response that this call returns should confirm that the cipher profile is updated.
