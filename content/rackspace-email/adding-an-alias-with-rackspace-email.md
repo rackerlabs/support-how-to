@@ -62,4 +62,3 @@ Aliases are a way to create an alternate email address name for an existing emai
 5. On the Import Aliases page, click **Import**.
     
 Any errors that occur are detailed in the **Import Summary**, which is displayed after the import is complete.
-
