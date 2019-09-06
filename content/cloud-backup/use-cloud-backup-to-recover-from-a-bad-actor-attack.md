@@ -13,21 +13,20 @@ product_url: cloud-backup
 
 ### Introduction
 
-The article shows you how to recover of backups from partial deletion of
-your assets at Rackspace. Recovery from complete deletion is discussed at the
-end of this article in **Related comments**.
+The article shows you how to recover backups from partial deletion of
+your assets at Rackspace. The **Related comments** section at the end of this
+article discusses how to recover from complete asset deletion.
 
 Occasionally, bad actors attempt to destroy your cloud assets, such as files,
-websites, databases, and so on. This might be a foreign attacker that has
-managed to steal cloud account authentication info, or it might be a disgruntled
-employee with access to company assets, or any similar bad actor. Attacks like
-this might cripple or kill a company, and the ability to recover backups makes
+websites, databases, and so on. This might be a foreign attacker who stole
+cloud account authentication info, or it might be a disgruntled employee with
+access to company assets or any similar bad actor. Attacks likethis might
+cripple or kill a company, and the ability to recover backups makes
 the difference between whether the company survives the attack or not.
 
 **NOTE:** It should go without saying that you are responsible for protecting
-the credentials that allow access to their cloud assets. This article outlines
-a best effort to recover from the circumstance where those credentials were
-compromised.
+the credentials that allow access to your cloud assets. This article outlines
+how to recover if your credentials were compromised.
 
 ### Symptoms of an attack
 
@@ -40,7 +39,7 @@ disappearing as fast as the bad actor can destroy them.
 Cloud Backup (CBU).
 
 For each intact backup configuration (config) container in Cloud Files, you
-might well recover backups for that backup config.
+can recover backups for that backup config.
 
 To recover those assets:
 
@@ -50,13 +49,13 @@ To recover those assets:
    configs that have been deleted for this account.
 3) Do a cross-site restore from the recovered backups to new servers.
 
-The preceding steps are described in detail in the following sections.
+The following sections describe the preceding steps in detail.
 
 #### Step 1
 
-Time is of essence in this step. The purpose here is to stop the damage before
-it becomes total. Most importantly, stop the bad actor from deleting any more
-Cloud Files assets. These should be protected first.
+Time is of the essence in this step. You need to stop the damage before it
+becomes total. Most importantly, stop the bad actor from deleting any
+more Cloud Files assets. These should be protected first.
 
 After you discover that assets are being destroyed, contact support to
 immediately halt access to the account and reset credentials. If you have
@@ -74,25 +73,24 @@ the more backups you can salvage.
 
 #### Step 2
 
-**Note**: This step must be done by the Rackspace CBU Operations Engineering
-(OpsEng) or support teams.
+**Note**: The Rackspace CBU Operations Engineering (OpsEng) or support teams
+must perform this step.
 
 If you have any offsite backups of the Cloud Files containers for the backup
-configs in question (see **Related comments** at the end of this article), they
-should be restored to their original locations at this time. For this step to
+configs in question (see **Related comments** at the end of this article), you
+should restore them to their original locations at this time. For this step to
 be successful, you must have at least one undeleted (or restored) Cloud Files
 container for at least one backup configuration.
 
 When requesting help for this step, reference the CBU support wiki article,
-**Cloud Backup - Bad Actor Attack**, in your comments in the ticket. This article
-is not available to the public, but is available to CBU support via internal
-access. The steps described in that wiki article can only be performed by
-Rackspace support. They must revert the deleted assets (machine agents and
-backup configurations) in your account.
+**Cloud Backup - Bad Actor Attack**, in your comments on the ticket. The public
+can't view the article, but CBU support can access it. Only Rackspace Support
+can perform the steps described in that wiki article. They must revert the
+deleted assets (machine agents and backup configurations) in your account.
 
 #### Step 3
 
-For any machine agent and backup config that was successfully restored, use
+For any machine agent and backup config that Support successfully restored, use
 Cloud Backup to do a cross-site restore to a new server.
 
 ### Related comments
@@ -109,7 +107,7 @@ data is worse.
 
 To greatly increase the chance of recovering assets deleted by a bad actor, you
 can choose to have an offsite copy of one Cloud Files container for each backup
-configuration tha you wish to protect. In this context, *offsite* refers to a
+configuration that you wish to protect. In this context, *offsite* refers to a
 copy of Cloud Files containers on media which is not on Rackspace infrastructure
 (which would, of course, be accessible via the stolen credentials). You can
 restore these files to their original locations in Cloud Files and then use
