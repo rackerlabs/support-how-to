@@ -18,7 +18,7 @@ designated "master" of the node. This differs from [Master-Master
 replication](/how-to/mysql-master-master-replication),
 in which data can be updated by any authorized contributor of the group.
 
-This article provides steps for setting up MySQL master-slave database
+This article provides steps for setting up MySQL&reg; master-slave database
 replication between two cloud servers. The operating system used for the
 examples in the article is CentOS&reg; 6, built from a Rackspace Cloud
 Servers base image.
@@ -29,7 +29,7 @@ The steps in this article use two cloud servers, `db01` and `db02`.
 Cloud servers have two IP addresses (one public, one private). The
 examples demonstrate configuring replication over the private IP
 interface so that no bandwidth charges are incurred. For the duration of
-the article, `db01` is considered the *master* MySQL&reg; server (running in
+the article, `db01` is considered the *master* MySQL server (running in
 read-write mode), and `db02` is considered the *slave* server (running in
 read-only mode).
 
@@ -47,9 +47,7 @@ Create two Linux&reg; cloud servers, using the Centos 6 base image. Use the
 following steps to create each server separately.
 
 1.  Log in to the [Cloud Control Panel](https://login.rackspace.com).
-
 2.  In the top navigation bar, click **Select a Product** then **Rackspace Cloud**.
-
 3.  Select **Servers** then **Cloud Servers**.
 4.  Click **Create Server**.
 5.  Name the servers so that you can easily identify them during
