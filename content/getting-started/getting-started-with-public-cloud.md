@@ -22,8 +22,8 @@ This article guides you through creating, managing, building, and growing your R
 
 Whether you are designing, testing, or are ready to launch your application in to production, you need a home for your code. Before accomplishing any of that, you must first create your account. Checkout the [tips and best practices](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-aws-or-rackspace-public-cloud/) that bring new customers the greatest success when first creating a Public Cloud account. If you are looking for specific instructions on signing up for a different product, you can click on any of the following options for further details:
 
--	[Rackspace Public Cloud](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud)
--	[Rackspace Public Cloud](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-amazon-web-services)
+-	[Fanatical Support for Rackspace Public Cloud](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud)
+-	[Fanatical Support for AWS](/how-to/sign-up-for-rackspace-services/#fanatical-support-for-amazon-web-services)
 - [Managed Google Cloud Platform](/how-to/sign-up-for-rackspace-services/#managed-google-cloud-platform)
 -	[Rackspace Email or Microsoft Exchange](/how-to/sign-up-for-rackspace-services/#rackspace-email-or-microsoft-exchange)
 -	[Office 365](/how-to/sign-up-for-rackspace-services/#office-365)
