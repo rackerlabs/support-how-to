@@ -5,7 +5,7 @@ title: Sign up for Rackspace services
 type: article
 created_date: '2017-06-15'
 created_by: Nate Archer
-last_modified_date: '2019-08-30'
+last_modified_date: '2019-09-05'
 last_modified_by: William Loy
 product: Account Management
 product_url: account-management
@@ -50,7 +50,7 @@ You can ensure the quick processing of your account by verifying that all of the
 - Email address
 - Unique username
 - Password (8 to 19 characters with at least one uppercase letter, one lowercase letter, and one number)
-- Security question and answer
+- Set your [Support PIN](/how-to/support-pin-management/)
 - First and last name of primary account owner
 - Company or Organization (optional)
 - Physical address
