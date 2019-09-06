@@ -5,13 +5,11 @@ title: Support PIN FAQ
 type: article
 created_date: '2019-07-09'
 created_by: Rackspace Support
-last_modified_date: '2019-08-16'
+last_modified_date: '2019-09-05'
 last_modified_by: William Loy
 product: Account Management
 product_url: account-management
 ---
-
-**Important:** Rackspace is excited to announce that it is moving to a Personal Identification Number (PIN) based phone and chat support verification system beginning on August 13, 2019. We have prepared the article below in advance of this change.
 
 To review instructions for using the support PIN system please see [Support PIN management](/how-to/support-pin-management).
 
