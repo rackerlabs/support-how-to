@@ -1,0 +1,132 @@
+---
+permalink: use-cloud-backup-to-recover-from-a-bad-actor-attack/
+audit_date: '2019-09-09'
+title: 'Use Cloud Backup to recover from a Bad Actor attack'
+type: article
+created_date: '2019-09-09'
+created_by: Brett Johnson
+last_modified_date: '2019-09-09'
+last_modified_by: Cat Lookabaugh
+product: Cloud Backup
+product_url: cloud-backup
+---
+
+### Introduction
+
+The article shows you how to recover of backups from partial deletion of
+your assets at Rackspace. Recovery from complete deletion is discussed at the
+end of this article in **Related comments**.
+
+Occasionally, bad actors attempt to destroy your cloud assets, such as files,
+websites, databases, and so on. This might be a foreign attacker that has
+managed to steal cloud account authentication info, or it might be a disgruntled
+employee with access to company assets, or any similar bad actor. Attacks like
+this might cripple or kill a company, and the ability to recover backups makes
+the difference between whether the company survives the attack or not.
+
+**NOTE:** It should go without saying that you are responsible for protecting
+the credentials that allow access to their cloud assets. This article outlines
+a best effort to recover from the circumstance where those credentials were
+compromised.
+
+### Symptoms of an attack
+
+Company assets, such as servers, backups, or cloud files, suddenly begin
+disappearing as fast as the bad actor can destroy them.
+
+### Solution
+
+**Note**: This article addresses the recovery of only those assets related to
+Cloud Backup (CBU).
+
+For each intact backup configuration (config) container in Cloud Files, you
+might well recover backups for that backup config.
+
+To recover those assets:
+
+1) Save or recover as much from backup configs' associated Cloud Files
+   containers as possible.
+2) The Rackspace CBU support team must revert any machine agents and backup
+   configs that have been deleted for this account.
+3) Do a cross-site restore from the recovered backups to new servers.
+
+The preceding steps are described in detail in the following sections.
+
+#### Step 1
+
+Time is of essence in this step. The purpose here is to stop the damage before
+it becomes total. Most importantly, stop the bad actor from deleting any more
+Cloud Files assets. These should be protected first.
+
+After you discover that assets are being destroyed, contact support to
+immediately halt access to the account and reset credentials. If you have
+monitoring and alerts in place to immediately notify stakeholders of
+malfunctioning assets, you have an advantage in detecting these attacks.
+
+One advantage of Cloud Files in this scenario is that there is not an easy way
+to do bulk deletes through the web interface, without some high-powered
+utilities that aren't available through our web interface. This means deleting
+these files can be slow enough that you can interrupt the attacker before he
+finishes.
+
+The more Cloud Files assets that can be saved or restored before recovery starts,
+the more backups you can salvage.
+
+#### Step 2
+
+**Note**: This step must be done by the Rackspace CBU Operations Engineering
+(OpsEng) or support teams.
+
+If you have any offsite backups of the Cloud Files containers for the backup
+configs in question (see **Related comments** at the end of this article), they
+should be restored to their original locations at this time. For this step to
+be successful, you must have at least one undeleted (or restored) Cloud Files
+container for at least one backup configuration.
+
+When requesting help for this step, reference the CBU support wiki article,
+**Cloud Backup - Bad Actor Attack**, in your comments in the ticket. This article
+is not available to the public, but is available to CBU support via internal
+access. The steps described in that wiki article can only be performed by
+Rackspace support. They must revert the deleted assets (machine agents and
+backup configurations) in your account.
+
+#### Step 3
+
+For any machine agent and backup config that was successfully restored, use
+Cloud Backup to do a cross-site restore to a new server.
+
+### Related comments
+
+As mentioned earlier, it should go without saying that you are responsible for
+protecting the credentials that allow access to your cloud assets. But sometimes
+the good guys become the bad guys, or in spite of your best efforts, attackers
+manage to defeat your protective measures.
+
+The instructions in this article describe a strategy to recover from the scenario
+where a bad actor compromised those credentials and destroyed some, or all, of
+the assets in your account. The recovery process isn't easy, but losing all your
+data is worse.
+
+To greatly increase the chance of recovering assets deleted by a bad actor, you
+can choose to have an offsite copy of one Cloud Files container for each backup
+configuration tha you wish to protect. In this context, *offsite* refers to a
+copy of Cloud Files containers on media which is not on Rackspace infrastructure
+(which would, of course, be accessible via the stolen credentials). You can
+restore these files to their original locations in Cloud Files and then use
+them to create cross-site restores to new servers.
+
+**Important:** For this solution to provide meaningful protection, you must
+have separation of access. Because we assume bad actors in this scenario have
+full access to your Rackspace assets through the stolen credentials, you must
+make sure that those with access (stolen or otherwise) to the Rackspace asset
+credentials do not have access to the offsite copies of the containers, and
+vice versa. You can do this with policies like physically locking up the offsite
+copies and giving the person who performs the offsite backups read-only access
+to Cloud Files. So, for instance, your system administrator should not have
+access to the offsite backup flash drive, and your secretary should have
+read-only access to Cloud Files.
+
+The Rackspace CBU team currently does not have a tool that can bulk-copy Cloud
+Files containers, but there are third-party tools (such as swiftly) that might
+be used for this. If we create a tool specifically for this purpose in the
+future, we'll update this article.
