@@ -11,8 +11,6 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-### Introduction
-
 The article shows you how to recover backups from partial deletion of
 your assets at Rackspace. The **Related comments** section at the end of this
 article discusses how to recover from complete asset deletion.
@@ -20,11 +18,11 @@ article discusses how to recover from complete asset deletion.
 Occasionally, bad actors attempt to destroy your cloud assets, such as files,
 websites, databases, and so on. This might be a foreign attacker who stole
 cloud account authentication info, or it might be a disgruntled employee with
-access to company assets or any similar bad actor. Attacks likethis might
+access to company assets or any similar bad actor. Attacks like this might
 cripple or kill a company, and the ability to recover backups makes
 the difference between whether the company survives the attack or not.
 
-**NOTE:** It should go without saying that you are responsible for protecting
+**Note:** It should go without saying that you are responsible for protecting
 the credentials that allow access to your cloud assets. This article outlines
 how to recover if your credentials were compromised.
 
@@ -43,7 +41,7 @@ can recover backups for that backup config.
 
 To recover those assets:
 
-1) Save or recover as much from backup configs' associated Cloud Files
+1) Save or recover as much from associated Cloud Files
    containers as possible.
 2) The Rackspace CBU support team must revert any machine agents and backup
    configs that have been deleted for this account.
@@ -63,7 +61,7 @@ monitoring and alerts in place to immediately notify stakeholders of
 malfunctioning assets, you have an advantage in detecting these attacks.
 
 One advantage of Cloud Files in this scenario is that there is not an easy way
-to do bulk deletes through the web interface, without some high-powered
+to do bulk deletes through the web interface without some high-powered
 utilities that aren't available through our web interface. This means deleting
 these files can be slow enough that you can interrupt the attacker before he
 finishes.
@@ -107,7 +105,7 @@ data is worse.
 
 To greatly increase the chance of recovering assets deleted by a bad actor, you
 can choose to have an offsite copy of one Cloud Files container for each backup
-configuration that you wish to protect. In this context, *offsite* refers to a
+configuration that you want to protect. In this context, *offsite* refers to a
 copy of Cloud Files containers on media which is not on Rackspace infrastructure
 (which would, of course, be accessible via the stolen credentials). You can
 restore these files to their original locations in Cloud Files and then use
