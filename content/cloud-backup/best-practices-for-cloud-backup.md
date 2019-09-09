@@ -43,6 +43,7 @@ Knowing the language of backups can help you make informed decisions about your 
 - **Block**: A chunk of data from a file.
 - **Bundle**: Several blocks packaged together.
 - **Cloud Backup agent**: A program installed on your server that helps to perform backups and restores.
+- **Cloud Files**: Where your bundles and other files are stored that are used to restore backups. See [Rackspace Cloud Files](/how-to/cloud-files).
 - **Data churn**: How often a file changes.
 - **Encryption**: A method of scrambling the contents of data by using a key or a password so that only those who have the key or password can read the data.
 - **Restore**: To bring your system back to a previously saved state, usually using a backup as the checkpoint.
@@ -86,7 +87,17 @@ The Cloud Backup agent skips the following types of files automatically:
 - Recycle Bin (Windows)
 - **desktop.ini** and **thumbs.db** (Windows)
 
-### Backup and restore best practices
+### Protecting backups from malicious attacks
+
+Occasionally, a Bad Actor may attempt to destroy a company's cloud assets, such as files, websites, databases, and so on. This might be a foreign attacker who stole cloud account authentication info,
+or it might be a disgruntled employee with access to company assets, or it may be any similar Bad Actor. Attacks like this can cripple or kill a company, and the ability to recover backups
+may make the difference between whether the company survives the attack or not.
+
+It is possible to provide an extra layer of protection from such an attack for critical backups, by keeping an **offsite copy** of the files and container structures that are used to restore
+those backups: an **offsite copy** which is inaccessible to the Bad Actor who has your Rackspace login credentials. General instructions for how and why to do this are at the end of the article:
+[Recovering from a Bad Actor Attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
+
+### Backup and restore strategy best practices
 
 You can configure backups and restores in many ways. To make Cloud Backup work for you, it helps to understand some of the trade-offs you make when you configure the many options available to you.
 

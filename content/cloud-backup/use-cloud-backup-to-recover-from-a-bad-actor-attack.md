@@ -39,13 +39,13 @@ Cloud Backup (CBU).
 For each intact backup configuration (config) container in Cloud Files, you
 can recover backups for that backup config.
 
-To recover those assets:
+A brief summary of the steps outlined below:
 
-1) Save or recover as much from associated Cloud Files
+1. Save or recover as much from associated Cloud Files
    containers as possible.
-2) The Rackspace CBU support team must revert any machine agents and backup
+2. The Rackspace CBU support team must revert any machine agents and backup
    configs that have been deleted for this account.
-3) Do a cross-site restore from the recovered backups to new servers.
+3. Do a cross-site restore from the recovered backups to new servers.
 
 The following sections describe the preceding steps in detail.
 
@@ -70,6 +70,8 @@ The more Cloud Files assets that can be saved or restored before recovery starts
 the more backups you can salvage.
 
 #### Step 2
+
+Revert any valid machine agents and/or backup configs that have been deleted.
 
 **Note**: The Rackspace CBU Operations Engineering (OpsEng) or support teams
 must perform this step.
@@ -105,7 +107,8 @@ data is worse.
 
 To greatly increase the chance of recovering assets deleted by a bad actor, you
 can choose to have an offsite copy of one Cloud Files container for each backup
-configuration that you want to protect. In this context, *offsite* refers to a
+configuration that you want to protect. (Some hints for how to find these
+containers are detailed below.) In this context, *offsite* refers to a
 copy of Cloud Files containers on media which is not on Rackspace infrastructure
 (which would, of course, be accessible via the stolen credentials). You can
 restore these files to their original locations in Cloud Files and then use
@@ -122,7 +125,23 @@ to Cloud Files. So, for instance, your system administrator should not have
 access to the offsite backup flash drive, and your secretary should have
 read-only access to Cloud Files.
 
+It is not an easy process to identify the containers in Cloud Files that hold
+the artifacts necessary to restore backups. Open each machine agent in the
+Cloud Backup Systems list. View the Agent Configuration for each agent. This
+Agent Configuration is a large JSON document. The JSON will have a section named
+"BackupConfigurations". In that section will be an array of records that contain
+backup configuration details. In each record is an item named "VolumeUri". This is
+the private address which the API uses to store the artifacts necessary to restore
+a backup. There will be one such record for each backup configured for each agent,
+and there may be multiple backups configured for a given agent. This means there
+might be multiple VolumeUri addresses for any one agent. At the end of each address
+is a section that starts with "z_DO_NOT_DELETE_CloudBackup_v2_0_" and which has a
+GUID-formatted number appended to it. Search Cloud Files for a container name that
+matches this z-name. This is the container that holds the artifacts that Cloud
+Backup uses to restore files for this backup configuration. Save this entire
+container in your off-site copy.
+
 The Rackspace CBU team currently does not have a tool that can bulk-copy Cloud
-Files containers, but there are third-party tools (such as swiftly) that might
-be used for this. If we create a tool specifically for this purpose in the
-future, we'll update this article.
+Files containers, but there are third-party tools (such as swiftly or rclone)
+that might be used for this. If we create a tool specifically for this purpose
+in the future, we'll update this article.

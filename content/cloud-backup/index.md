@@ -30,8 +30,10 @@ This introduction is designed to get you up and running with Cloud Backup, inclu
 ### Troubleshooting
 
 - [Cloud Backup troubleshooting](/how-to/cloud-backup-troubleshooting)
+- [Recover from a Bad Actor attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack)
 
 ### Best Practices
 
+- [Insure against a Bad Actor attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack)
 - [Best practices for Cloud Backup](/how-to/best-practices-for-cloud-backup)
 - [Best practices for backing up your data - Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)

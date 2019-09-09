@@ -79,6 +79,22 @@ which it was used. You need the password to restore those files. If you forget
 the password that you used to back up the data, that backup data is lost, and
 you cannot recover it.
 
+### Protecting backups from malicious attacks
+
+Occasionally, a Bad Actor may attempt to destroy a company's cloud assets, such
+as files, websites, databases, and so on. This might be a foreign attacker who
+stole cloud account authentication info, or it might be a disgruntled employee
+with access to company assets, or it may be any similar Bad Actor. Attacks like
+this can cripple or kill a company, and the ability to recover backups may make
+the difference between whether the company survives the attack or not.
+
+It is possible to provide an extra layer of protection from such an attack for
+critical backups, by keeping an **offsite copy** of the files and container
+structures that are used to restore those backups: an **offsite copy** which is
+inaccessible to the Bad Actor who has your Rackspace login credentials. General
+instructions for how and why to do this are at the end of the article:
+[Recovering from a Bad Actor Attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
+
 #### Limitations of Cloud Backup
 
 Cloud Backup has the following limitations:
