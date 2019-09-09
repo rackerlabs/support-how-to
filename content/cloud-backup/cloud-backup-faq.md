@@ -79,6 +79,16 @@ Cloud Backup has the following key features:
 For information on getting started with Cloud Backup, see our [introduction to
 Cloud Backup](/how-to/cloud-backup).
 
+#### Why do I have to keep off-site copies of containers on non-Rackspace media?
+
+If you choose to keep off-site copies of backup containers, it is to provide an
+extra layer of protection from Bad Actors who might obtain your Rackspace account
+credentials from you and delete all your cloud assets.
+
+In order to protect these off-site copies from the Bad Actor, they must reside on
+media that is **not** accessible using the stolen credentials; otherwise, the
+Bad Actor would be able to delete them, too.
+
 #### Can Cloud Backup change my system configuration file, even after I have modified it?
 
 Yes. Some Ubuntu&reg; users have older agents installed on their machines.
