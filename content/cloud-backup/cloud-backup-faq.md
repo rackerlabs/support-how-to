@@ -5,8 +5,8 @@ title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2019-01-29'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-09-11'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -78,6 +78,16 @@ Cloud Backup has the following key features:
 
 For information on getting started with Cloud Backup, see our [introduction to
 Cloud Backup](/how-to/cloud-backup).
+
+#### Why do I have to keep offsite copies of containers on non-Rackspace media?
+
+If you choose to keep offsite copies of backup containers, it provides an
+extra layer of protection from bad actors who might obtain your Rackspace account
+credentials from you and delete all your cloud assets.
+
+In order to protect these offsite copies from the bad actor, they must reside on
+media that is *not* accessible by using the stolen credentials. Otherwise, the
+bad actor is able to delete them, too.
 
 #### Can Cloud Backup change my system configuration file, even after I have modified it?
 
