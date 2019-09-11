@@ -81,18 +81,18 @@ you cannot recover it.
 
 ### Protecting backups from malicious attacks
 
-Occasionally, a Bad Actor may attempt to destroy a company's cloud assets, such
-as files, websites, databases, and so on. This might be a foreign attacker who
-stole cloud account authentication info, or it might be a disgruntled employee
-with access to company assets, or it may be any similar Bad Actor. Attacks like
-this can cripple or kill a company, and the ability to recover backups may make
+Occasionally, a bad actor might attempt to destroy a company's cloud assets, such
+as files, websites, databases, and so on. The bad actor might be a foreign attacker who
+stole cloud account authentication info, it might be a disgruntled employee
+with access to company assets, or it might be any similar bad actor. Attacks like
+this can cripple or kill a company, and the ability to recover backups might make
 the difference between whether the company survives the attack or not.
 
 It is possible to provide an extra layer of protection from such an attack for
-critical backups, by keeping an **offsite copy** of the files and container
-structures that are used to restore those backups: an **offsite copy** which is
-inaccessible to the Bad Actor who has your Rackspace login credentials. General
-instructions for how and why to do this are at the end of the article:
+critical backups by keeping an **offsite copy** of the files and container
+structures that are used to restore those backups. An offsite copy is
+inaccessible to the bad actor who has your Rackspace login credentials. General
+instructions for how and why to use offsite copies are at the end of the article
 [Recovering from a Bad Actor Attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
 
 #### Limitations of Cloud Backup
@@ -104,7 +104,7 @@ Cloud Backup has the following limitations:
   that you want to back up, and configure when backups should occur.
 - The Cloud Backup Agent requires a small amount of space on your server.
 - All backups that you perform with Cloud Backup are placed in Cloud Files, so
-  there are no cost control options with different storage types.
+  there are no-cost control options with different storage types.
 
 To get started with Cloud Backup, see the [Cloud Backup introduction
 page](/how-to/cloud-backup).
