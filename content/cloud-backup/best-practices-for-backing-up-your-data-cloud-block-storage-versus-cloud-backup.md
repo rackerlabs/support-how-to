@@ -5,8 +5,8 @@ title: 'Best practices for backing up your data: Cloud Block Storage versus Clou
 type: article
 created_date: '2013-10-01'
 created_by: Kyle Laffoon
-last_modified_date: '2018-11-14'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-09-11'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
