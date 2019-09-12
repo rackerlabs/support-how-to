@@ -5,8 +5,8 @@ title: Microsoft account association issues
 type: article
 created_date: '2018-10-19'
 created_by: Walter Stubbs
-last_modified_date: '2018-10-19'
-last_modified_by: William Loy
+last_modified_date: '2019-09-11'
+last_modified_by: Walter Stubbs
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -61,6 +61,8 @@ To verify that the email address is associated with a Microsoft account, navigat
    You are asked to verify ownership of the new alias. Proceed with sending the address an ownership verification email.
 
 8. After you have successfully changed the primary alias, select **Remove** next to the affected email address to remove it from your Microsoft account.
+
+**Note:** It may take up 48 hours for the email address to be completely unassociated from your Microsoft account.
 
 After your email address is no longer associated with your Microsoft account, restart your device and open Outlook.
 
