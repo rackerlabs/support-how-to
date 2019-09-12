@@ -1,7 +1,7 @@
 ---
 permalink: hkg1-data-center-migration-customer-faq/
 audit_date: '2019-09-12'
-title: HKG1 data-center migration customer FAQ
+title: HKG1 data center migration customer FAQ
 type: article
 created_date: '2018-10-03'
 created_by: Sarah Wellburn
@@ -24,19 +24,19 @@ the underlying infrastructure to enable us to migrate into that space.
 
 All customers currently hosted in the HKG1 facility will be moved to the HKG5
 data center during Q1 of 2020. We're building out HKG5 based on the most
-up-to-date Rackspace standards and taking the opportunity to upgrade the
+current Rackspace standards and taking the opportunity to upgrade the
 hardware used to support our core network infrastructure where appropriate.
 
-Rackspace has had widespread success in data-center migrations over the past
+Rackspace has had widespread success in data center migrations over the past
 decade. During this time, our dedicated migration teams have performed the
 following migrations:
 
--   In 2009, 15,000 devices from our LON2 facility.
--   In 2011, 3,828 devices from our SAT1 and SAT2 facilities.
--   In 2012, 8,200 devices from our IAD1 facility.
--   In 2015, 11,200 devices from our LON1 and LON3/DH4 facilities.
--   In 2017 and 2018, 22,000 devices from our DFW1 to DFW3 facilities.
--   In 2019, 4,500 devices from IAD2 to IAD3 facilities.
+-   In 2009: 15,000 devices from our LON2 facility.
+-   In 2011: 3,828 devices from our SAT1 and SAT2 facilities.
+-   In 2012: 8,200 devices from our IAD1 facility.
+-   In 2015: 11,200 devices from our LON1 and LON3/DH4 facilities.
+-   In 2017 and 2018: 22,000 devices from our DFW1 to DFW3 facilities.
+-   In 2019: 4,500 devices from IAD2 to IAD3 facilities.
 
 You can rest assured that we are investing significant resources to ensure a
 smooth migration for all customers.
@@ -52,7 +52,7 @@ Hong Kong
 #### Will service be interrupted?
 
 Yes. Rackspace will schedule a maintenance window of up to 10 hours, starting
-at 22:00 local data-center time on a Friday or Saturday and closing at 08:00 the
+at 22:00 local data center time on a Friday or Saturday and closing at 08:00 the
 following morning. The goal is to return customers to service as quickly as
 possible within that window. Rackspace has designed the migration plan to occur
 in small, manageable blocks to minimize the amount of downtime for customers.
@@ -61,7 +61,7 @@ including additional resources and multiple contingency plans.
 
 #### Will there be any IP address or DNS changes?
 
-The public IP addresses of the devices are retained and are moved with the
+The public IP addresses of the devices are retained and moved with the
 devices to the new location. In this case, you do not need to make any changes
 to your Domain Name System (DNS). IP addresses used by Rackspace for managed
 backups, managed virtualization, and Dell Remote Access Controller (DRAC) will
@@ -73,22 +73,22 @@ addresses.
 The IP addresses used for the network that runs the Rackspace Managed Backup
 service (BackupNet/ServiceNet) will change for all customers. Because Rackspace
 does not have access to Managed Colocation servers, Managed Colocation
-customers using the Rackspace Managed Backup service will need to change the
+customers using the Rackspace Managed Backup service need to change the
 Managed Backup service IP address themselves. Rackspace will take responsibility
 for updating the Managed Backup service IP addresses for all other customers
 who use this service.
 
 If you are using BackupNet/ServiceNet for any purpose other than Rackspace
-Managed Backup or for ObjectRocket, you will need to make the necessary
+Managed Backup or ObjectRocket, you need to make the necessary
 arrangements to move to ExNet before your move night. In HKG5,
 BackupNet/ServiceNet will be available for use only for Rackspace Managed
-Backup and for ObjectRocket.
+Backup and ObjectRocket.
 
 #### What are the high-level stages of the migration?
 
 The migration will happen in the following stages:
 
-1.	You are allocated to a move group around 100 days prior to the migration.
+1.	You are allocated to a move group around 100 days before the migration.
 
 2.	Leading up to your migration date, Rackspace works with you and your account
    team to establish any specific requirements for the move. For example, do
@@ -96,42 +96,41 @@ The migration will happen in the following stages:
 
 3. Around 2 hours before the maintenance window opens, automated scripts
    are run to place all devices under alert suppression and to make the
-   necessary DRAC IP address changes. All managed backup jobs in progress will
-   be canceled.
+   necessary DRAC IP address changes. All managed backup jobs in progress are canceled.
 
 4.	At the start of your migration window, all affected devices are powered off
-   using another automated script and ServiceNet IPs are changed if applicable.
+   by using another automated script and ServiceNet IPs are changed if applicable.
    Any servers that need to be turned off in a specific order need to be
-   shutdown before the automated shut down script runs at 22:00. If your devices
+   shut down before the automated shutdown script runs at 22:00. If your devices
    must be turned off in a specific order, your account team provides you with
    a revised maintenance start time at least seven days before the maintenance
    date.
 
 5.	The affected devices are removed from the cabinets and securely transported
-   to the new data-center facility.
+   to the new data center.
 
 6.	In the new data center, all devices are racked and turned on.
 
 7.	Your configuration is tested and verified at an infrastructure level.
-   Further testing can be carried out by the migration team, if you have
+   Further testing can be carried out by the migration team if you have
    provided clear instructions in advance of the move date.
 
 #### When are my servers scheduled to be migrated?
 
 The migration period starts in January 2020 and runs through March 2020.
-One hundred days before your migration date, you will receive notification via
+One hundred days before your migration date, you receive notification via
 a ticket in the Rackspace Customer Portal that includes the specific date and
 time that your solution will be moved. All migrations have been scheduled to
 occur on either a Friday or Saturday night, starting at 22:00 and running
-through to 08:00 on the following morning local data-center time.
+through to 08:00 on the following morning local data center time.
 
-#### My solution is sensitive to the way it is handled during a shut down. Can you help?
+#### My solution is sensitive to the way it is handled during a shutdown. Can you help?
 
 Yes, we can work with you to understand what needs to be done to ensure a
 smooth migration, and we can help in various ways, including turning off and
 turning on your devices in a specific order.
 
-#### I want to shut down the environment myself. Is that possible?
+#### I want to shut down the environment myself. Is this possible?
 
 Yes, you may turn off your devices. However, because we make changes to ServiceNet
 and DRAC IP addresses in the hours before the migration, you must tell
@@ -169,7 +168,7 @@ maintenance.
 
 #### I have colocation devices that Rackspace does not have access to. How will these be migrated?
 
-Because we do not have access to your colocation devices, you will be
+Because we do not have access to your colocation devices, you are
 responsible for shutting these devices down. If you contact us, Rackspace might
 be able to assist you, but we will manage this on a case-by-case basis. Our
 standard approach is to remove the power cables from the devices in HKG1
@@ -178,8 +177,8 @@ and reconnect them in HKG5.
 #### I have a leased line that terminates in HKG1. What will happen to this?
 
 You must work with your leased-line provider to understand the options available
-to you. Lead times for leased-line provisioning can traditionally be significant,
-so we recommend that you start talking to your provider as soon as possible to
+to you. Lead times for leased-line provisioning can be significant,
+so we recommend that you talk to your provider as soon as possible to
 determine the options and timeframes.
 
 Send your provider with the following address of the new facility:
@@ -190,7 +189,7 @@ Hong Kong
 
 Ask your account team for further information on leased lines in HKG5.
 
-#### Who will test my environment following the maintenance?
+#### Who tests my environment following the maintenance?
 
 Rackspace will test for basic connectivity. If you want us to run further
 tests, for example, to check whether a website is online, you can provide us
@@ -199,7 +198,7 @@ to do if we encounter issues that we cannot resolve.
 
 #### How do I prepare for the migration?
 
-Rackspace will use all of its experience with data-center migration projects to
+Rackspace will use all of its experience with data center migration projects to
 help support you during the migration to HKG5. We have assembled a dedicated
 migration team, made up of some of the best Rackers from across the business.
 This team will run audits on your servers before the migration to identify and
@@ -235,11 +234,11 @@ night:
     applications and services start correctly. You can schedule reboots from
     the MyRackspace Portal.
 
-#### I would like to run a full backup before my migration. Can this be arranged?
+#### I want to run a full backup before my migration. Can this be arranged?
 
 Because it might not complete in time, we do not recommend that you initiate a
 full backup just before the migration. Approximately three hours before the
-migration is scheduled to start, our automated process will kill any backup
+migration is scheduled to start, our automated process kills any backup
 still in progress so that we can ensure a clean shut down. If your backups
 have been completing successfully in the weeks before the migration, you should
 not need to run an additional backup. However, if you are concerned, you can
@@ -267,12 +266,12 @@ tickets with details about the change.
 If there is an emergency during the change freeze and you cannot wait until
 after the migration to make a change, ensure that the project team is aware of
 the change by updating one of the notification tickets. Failure to do so could
-result in unexpected behavior during the maintenance and could increase
+result in unexpected behavior during maintenance and could increase
 downtime.
 
 #### Is the move date flexible?  Can I choose the date of the migration?
 
-A lot of effort goes in to creating the move groups and the preparations for
+Much effort goes into creating the move groups and the preparations for
 each move group. You will be notified 100 days before the date of your migration
 so that you can plan for the downtime accordingly with your customers and
 end users. To provide a set schedule for all of our customers, we cannot change
@@ -282,8 +281,8 @@ required to stay with the original move date.
 
 #### I have more than one solution in HKG1. Will they all be migrated at the same time?
 
-Yes, we will move an entire account in one move group, so if the footprints are
-in the same account, they will be scheduled to move at the same time.
+Yes, we move an entire account in one move group, so if the footprints are
+in the same account, they are scheduled to move at the same time.
 
 #### Will any of the services that Rackspace currently offers me change?
 
@@ -292,12 +291,12 @@ only change to your solution will be the physical location.
 
 #### How will my solution be transported?
 
-We will be using a third-party specialist transport company to migrate all
+We will use a third-party specialist transport company to migrate all
 hardware. To mitigate risks and ensure the safe transportation of your
 solution, Rackspace has carefully and extensively planned this migration and
 selected appropriate partners.
 
-The vehicles will be loaded within the data-center compound and will be
+The vehicles will be loaded within the data center compound and will be
 subject to our stringent physical security controls. They will be unloaded
 within the same conditions in HKG5. The tailgates of the vehicles will be
 locked with special bolts by two Rackspace personnel, and photographs of the
@@ -311,17 +310,17 @@ turned off at the start of the maintenance windows.
 
 #### Are there any guarantees that my server will not have to be migrated again afterwards?
 
-Rackspace is constantly reviewing its global data-center footprint and makes
+Rackspace is continually reviewing its global data center footprint and makes
 decisions on their management based on the needs of our customers, market
 conditions, and company objectives in effect at that time. At this time, we
 have no plans to relocate out of the new facility.
 
-#### Who should I contact if I have more questions about the migration?
+#### Whom should I contact if I have more questions about the migration?
 
 Contact us in any of the following ways:
 
--   Create a ticket in the MyRackspace Portal. Request in the ticket that it
+-   Create a ticket in the MyRackspace Customer Portal. Request in the ticket that it
     be assigned to the HKG1 Migrations ticket queue.
 -   Ask a member of your account team for more information.
--   Respond to one of the ticket notifications that you will receive before
+-   Respond to one of the ticket notifications that you receive before
     your move night.
