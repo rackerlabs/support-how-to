@@ -113,7 +113,7 @@ add other options as needed.
     It is possible to install Rackspace Cloud Backup on non-Rackspace assets, as long as
     the server has access to public Internet, and the operating system is supported by the
     Cloud Backup agent. These kinds of assets might include servers that run on other clouds,
-    such as AWS EC2, Azure, or Google. They might also include personal laptops and desktops,
+    such as AWS&reg; EC2, Azure&reg;, or Google&reg;. They might also include personal laptops and desktops,
     or servers running in your own company's data center. For any asset outside of Rackspace
     infrastructure, you **must** use the "dedicated" flavor when registering the agent.
 
