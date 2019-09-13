@@ -5,7 +5,7 @@ title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2019-09-11'
+last_modified_date: '2019-09-13'
 last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
@@ -155,9 +155,8 @@ You can use Cloud Backup on virtually any server in the
 Rackspace Cloud. Some exceptions are FreeBSD 9, Debian&reg; 5 and Windows&reg;
 2003.
 
-**Note**: If you have servers that are not in the Rackspace Cloud, if they are running operating
-systems that are supported by the Rackspace Cloud Backup agent, you can install our backup solution
-on them, using the "dedicated" flavor. See installer links below for more details.
+**Note**: If you have servers that are not in the Rackspace Cloud that are running operating
+systems that are supported by the Rackspace the following installer links for more details.
 
 Before you can use Cloud Backup, you must have the backup agent installed and
 running on your cloud server. Cloud servers with a Managed Operations service
