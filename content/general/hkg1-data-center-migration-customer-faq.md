@@ -14,7 +14,7 @@ noindex: true
 
 Rackspace’s HKG1 data center, located in the Fo Tan area of Hong Kong, has been
 in operation since 2008. It is a 2.5 MW facility composed of three data halls
-covering approximately 1,233 square miles, currently consuming around 650 kW of
+covering approximately 1,233 square meters, currently consuming around 650 kW of
 power. The lease for HKG1 expires in 2020, and the landlord has advised that
 they will not be renewing the lease because they are planning to refurbish the
 building.
@@ -45,8 +45,8 @@ smooth migration for all customers.
 
 The new facility is located at:
 
-33 Chun Choi Street,
-Tseung Kwan O
+33 Chun Choi Street,<br>
+Tseung Kwan O<br>
 Hong Kong
 
 #### Will service be interrupted?
@@ -181,10 +181,11 @@ to you. Lead times for leased-line provisioning can be significant,
 so we recommend that you talk to your provider as soon as possible to
 determine the options and timeframes.
 
-Send your provider with the following address of the new facility:
+Because your telco provider needs it, send them the following address of the new
+facility:
 
-33 Chun Choi Street,
-Tseung Kwan O
+33 Chun Choi Street,<br>
+Tseung Kwan O<br>
 Hong Kong
 
 Ask your account team for further information on leased lines in HKG5.
