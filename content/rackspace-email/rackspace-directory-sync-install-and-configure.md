@@ -5,8 +5,8 @@ title: 'Rackspace Directory Sync: Install and configure'
 type: article
 created_date: '2013-04-25'
 created_by: Kevin Richey
-last_modified_date: '2019-08-15'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-09-12'
+last_modified_by: Walter Stubbs
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -145,9 +145,9 @@ Directory Sync by performing the following steps:
 1. Open the Directory Sync service administrative web application, if
     it is not already open:
 
-    <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/Installer6.png %}" class="image-full_width" width="700" height="322" />
+    <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/directory-sync.png %}" class="image-full_width" width="700" height="322" />
 
-2. On the Sync Registration Page, enter the admin ID and password
+2. On the Sync Registration Page, enter the API User Key
     associated with your Rackspace Cloud Office account, and then click
     **Register**.
     - Customers who logged in to the [MyRackspace Portal](https://login.rackspace.com)
