@@ -145,7 +145,7 @@ Directory Sync by performing the following steps:
 1. Open the Directory Sync service administrative web application, if
     it is not already open:
 
-    <img src="{% asset_path assets/img/rackspace-email/rackspace-directory-sync-install-and-configure/directory-sync.png %}" class="image-full_width" width="700" height="322" />
+    <img src="{% asset_path rackspace-email/rackspace-directory-sync-install-and-configure/directory-sync.png %}" class="image-full_width" width="700" height="322" />
 
 2. On the Sync Registration Page, enter the API User Key
     associated with your Rackspace Cloud Office account, and then click
