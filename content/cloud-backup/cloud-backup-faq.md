@@ -5,7 +5,7 @@ title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2019-09-11'
+last_modified_date: '2019-09-13'
 last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
@@ -152,24 +152,19 @@ in the list of Cloud Backup actions.
 #### Can I use Cloud Backup on my server?
 
 You can use Cloud Backup on virtually any server in the
-Rackspace Cloud. The exceptions are FreeBSD 9, Debian&reg; 5 and Windows&reg;
+Rackspace Cloud. Some exceptions are FreeBSD 9, Debian&reg; 5 and Windows&reg;
 2003.
 
-**Note**: If you have servers that are not in the Rackspace Cloud,
-you can use the equivalent service offered by [JungleDisk](https://jungledisk.com/) for those servers.
-
-If you have a server with a Managed Operations service level, you might
-already have the Cloud Backup agent installed on your system. If not,
-contact your Account Representative to get started.
+**Note**: If you have servers that are not in the Rackspace Cloud that are running operating
+systems that are supported by the Rackspace the following installer links for more details.
 
 Before you can use Cloud Backup, you must have the backup agent installed and
 running on your cloud server. Cloud servers with a Managed Operations service
 level should have this additional piece of software installed by default. If it
 is not installed, contact your Account Representative to get started. If you
 have an infrastructure-only account, you must manually install the agent by
-following these instructions for [Linux&reg;](https://support.rackspace.com/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
-or for [Windows](https://support.rackspace.com/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
-
+following these instructions for [Linux&reg;](/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
+or for [Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 For more information, see the [Rackspace Cloud Backup introduction](/how-to/cloud-backup).
 

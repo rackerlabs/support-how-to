@@ -5,8 +5,8 @@ title: Install the Cloud Backup agent on Windows
 type: article
 created_date: '2014-05-01'
 created_by: Megan Meza
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-09-13'
+last_modified_by: Cat Lookabaugh
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -76,6 +76,13 @@ installation and configuration.
     for that server (typically IAD). Click **Next**.
 
     <img src="{% asset_path cloud-backup/rackspace-cloud-backup-install-the-agent-on-windows/select-datacenter-flavor.png %}" width="340" height="267" />
+
+    **Note**: It is possible to install Rackspace Cloud Backup on non-Rackspace assets, as long
+    as the server has access to public Internet and the operating system is supported by the
+    Cloud Backup agent. These kinds of assets might include servers that run on other clouds,
+    such as AWS&reg; EC2, Azure&reg;, or Google&reg;. They might also include personal laptops, desktops,
+    or servers running in your own company's data center. For any asset outside of Rackspace
+    infrastructure, you **must** use the *dedicated* flavor when registering the agent.
 
 4.  Click **OK** when you see the **SUCCESS!** message.
 

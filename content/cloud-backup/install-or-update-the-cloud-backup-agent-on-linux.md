@@ -5,8 +5,8 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-09-13'
+last_modified_by: Cat Lookabaugh
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -91,24 +91,31 @@ add other options as needed.
 
        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost <apiDrivesrvr>
 
-      - Use your Rackspace Cloud account username and API key for `<username>`
-      and `<apiKey>`. For information about how to find your API key, see
-      [View and reset your API key](/how-to/view-and-reset-your-api-key).
+   - Use your Rackspace Cloud account username and API key for `<username>`
+     and `<apiKey>`. For information about how to find your API key, see
+     [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
-      - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
+   - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
 
-      - For the `apihost <apiDrivesrvr>` element, use the following values: For API
-      servers in the US, use `api.drivesrvr.com`. For API servers in the UK,
-      use `api.drivesrvr.co.uk`.
+   - For the `apihost <apiDrivesrvr>` element, use the following values: For API
+     servers in the US, use `api.drivesrvr.com`. For API servers in the UK,
+     use `api.drivesrvr.co.uk`.
 
-      - For installation on an OnMetal server, you must specify the region and
-      host name for the data center to connect. For an OnMetal server, we
-      recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
+   - For installation on an OnMetal server, you must specify the region and
+     host name for the data center to connect. For an OnMetal server, we
+     recommend setting `<flavor>` to `privatecloud` with the `--snet` flag.
 
-    **Note**: If you use any flavor other than `raxcloudserver`, the agent shows
-    as "not installed" in the **Backups** section at the bottom of the Cloud
-    Servers **Details** page in the [Cloud Control Panel](https://login.rackspace.com). However, items do appear
-    as they should on the **Backups** tab in the Cloud Control Panel.
+   **Note**: If you use any flavor other than `raxcloudserver`, the agent shows
+   as "not installed" in the **Backups** section at the bottom of the Cloud
+   Servers **Details** page in the [Cloud Control Panel](https://login.rackspace.com). However, items do appear
+   as they should on the **Backups** tab in the Cloud Control Panel.
+
+   It is possible to install Rackspace Cloud Backup on non-Rackspace assets, as long as
+   the server has access to public Internet and the operating system is supported by the
+   Cloud Backup agent. These kinds of assets might include servers that run on other clouds,
+   such as AWS&reg; EC2, Azure&reg;, or Google&reg;. They might also include personal laptops, desktops,
+   or servers running in your own company's data center. For any asset outside of Rackspace
+   infrastructure, you **must** use the *dedicated* flavor when registering the agent.
 
 8. When prompted to confirm that you want to overwrite your configuration file,
 answer `yes`.
