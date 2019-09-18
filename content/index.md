@@ -10,7 +10,7 @@ permalink: /
 
 			<div class="filter-product-type">
 				<ul>
-				  <li><a id="getting-started" class="inactive">Getting Started</a></li>
+				  <li><a id="gs-ctrl" class="inactive">Getting Started</a></li>
 					<li><a id="cloud-ctrl" class="inactive">Cloud Services</a></li>
 					<li><a id="office-ctrl" class="inactive">Cloud Office</a></li>
 					<li>
