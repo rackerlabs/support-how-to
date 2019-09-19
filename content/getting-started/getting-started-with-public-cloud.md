@@ -13,10 +13,10 @@ product_url: undefined
 
 This article guides you through creating, managing, building, and growing your Rackspace Public Cloud account. This guide is designed remove the complexity of getting started on your first Public Cloud projects. We recommend completing tasks in the following order:
 
-1. [Create an account](#create-an-account)
-2. [Manage and secure an account](#manage-and-secure-an-account)
-3. [Build your cloud](#build-your-cloud)
-4. [Grow your cloud](#grow-your-cloud)
+1. [Create an account](#create-an-account).
+2. [Manage and secure an account](#manage-and-secure-an-account).
+3. [Build your cloud](#build-your-cloud).
+4. [Grow your cloud](#grow-your-cloud).
 
 #### Create an account
 
@@ -52,5 +52,5 @@ Your account is now ready for you to build devices. Building a cloud environment
 
 Your business is booming, and you need to grow! Perhaps it is an event, seasonal traffic plans, or your needs have simply changed. When you experience growth, you can become less fault tolerant and have more security needs. Check out the following information to ensure that you sustain momentum:
 
-- [Scale for high traffic events](/how-to/prepare-for-high-traffic-events/)
-- [Protect your cloud infrastructure with firewall hardware](/how-to/rackconnect/)
+- [Scale for high traffic events](/how-to/prepare-for-high-traffic-events/).
+- [Protect your cloud infrastructure with firewall hardware](/how-to/rackconnect/).
