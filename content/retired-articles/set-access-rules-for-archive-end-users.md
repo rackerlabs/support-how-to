@@ -7,8 +7,6 @@ created_date: '2015-07-27'
 created_by: Beau Bailey
 last_modified_date: '2018-04-06'
 last_modified_by: William Loy
-product: Rackspace Email Archiving
-product_url: rackspace-email-archiving
 ---
 
 This article describes how to set access rules for archive users.
@@ -28,7 +26,7 @@ Use this procedure to limit who can access the email archive by
 verifying registered addresses.
 
 1. Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
-    
+
     For more information, see [Log in to the Archive Manager](/how-to/log-in-to-the-archive-manager).
 
 2. In the upper-right corner of the window, click **Admin User** to access the Admin User dashboard.
@@ -36,8 +34,6 @@ verifying registered addresses.
    **Note:** There are three dashboards for top-level administrators: **Search**, **Admin**, and **Admin User**.
 
 3. Select the tab **End User Access Rules.**
-
-   <img src="{% asset_path rackspace-email-archiving/set-access-rules-for-archive-users/Screen%20Shot%202015-08-27%20at%2011.34.43%20AM.png %}" width="551" height="207" />
 
 4. Specify which domains are allowed to access the archive and which domains are denied access:
 
