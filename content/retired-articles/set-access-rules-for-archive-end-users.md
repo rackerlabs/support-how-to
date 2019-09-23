@@ -35,8 +35,6 @@ verifying registered addresses.
 
 3. Select the tab **End User Access Rules.**
 
-   <img src="{% asset_path rackspace-email-archiving/set-access-rules-for-archive-users/Screen%20Shot%202015-08-27%20at%2011.34.43%20AM.png %}" width="551" height="207" />
-
 4. Specify which domains are allowed to access the archive and which domains are denied access:
 
    - **Allow List** - Specify the email domains that can access the archive. For example,  if you want to allow access only to users with your company domain, **@acme.com**, type **\*@acme.com** under **Allow rules**. Only users with this domain can access the archive in future logins.
