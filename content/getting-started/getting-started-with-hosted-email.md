@@ -11,7 +11,7 @@ product: undefined
 product_url: undefined
 ---
 
-This article guides you through creating, managing, building, and growing your Rackspace Hosted Email account. This guide is designed to remove the complexity of getting started on your first public cloud projects. We recommend completing tasks in the following order:
+This article guides you through creating, managing, building, and growing your Rackspace Hosted Email account. We recommend completing tasks in the following order:
 
 1. [Create an account](#create-an-account).
 2. [Manage and secure an account](#manage-and-secure-an-account).
