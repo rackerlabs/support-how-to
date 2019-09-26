@@ -17,10 +17,9 @@ are unsure if an OS release or kernel version is supported, contact the Rackspac
 
 ### Linux Agent Compatibility
 
-Linux&ref; kernel strings on this page must match your kernel version exactly to be
+Linux&reg; kernel strings on this page must match your kernel version exactly to be
 considered in support. If the kernel is unsupported, agents go into *reduced functionality* mode
 and no longer provide adaquate telemetry to our Security Operations Center (SOC).
-
 
 #### Amazon Linux 2 Supported Versions
 
@@ -50,7 +49,6 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.9.116-43.59.amzn1.x86_64 | 4.9.119-44.140.amzn1.x86_64 | 4.9.58-18.51.amzn1.x86_64 | 4.9.58-18.55.amzn1.x86_64 |
 | 4.9.62-21.56.amzn1.x86_64 | 4.9.70-22.55.amzn1.x86_64 | 4.9.76-3.78.amzn1.x86_64 | 4.9.77-31.58.amzn1.x86_64 |
 | 4.9.81-35.56.amzn1.x86_64 | 4.9.85-37.55.amzn1.x86_64 | 4.9.85-38.58.amzn1.x86_64 | 4.9.93-41.60.amzn1.x86_64 |
-
 
 #### Amazon Linux 2018.03 Supported Versions
 
@@ -197,7 +195,6 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.35-1844.4.5.2.el7uek.x86_64 | 4.14.35-1844.4.5.el7uek.x86_64 | 4.14.35-1844.5.3.el7uek.x86_64 | 4.14.35-1902.0.18.el7uek.x86_64 |
 | 4.14.35-1902.2.0.el7uek.x86_64 | 4.14.35-1902.3.1.el7uek.x86_64 | 4.14.35-1902.3.2.el7uek.x86_64 | 4.14.35-1902.4.8.el7uek.x86_64 |
 
-
 #### RHEL 6 / CentOS 6 Supported Versions
 
 | | | | |
@@ -276,7 +273,6 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 
-
 #### RHEL 8 / CentOS 8 Supported Versions
 
 | | | | |
@@ -324,7 +320,6 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 
-
 #### SLES 12 SP2 Supported Versions
 
 | | | | |
@@ -358,7 +353,6 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 |-|-|-|-|
 | 4.12.14-94.41-default | 4.12.14-95.13-default | 4.12.14-95.16-default | 4.12.14-95.19-default |
 | 4.12.14-95.24-default | 4.12.14-95.29-default | 4.12.14-95.3-default | 4.12.14-95.6-default |
-
 
 #### SLES 15 SP1 Supported Versions
 
@@ -451,7 +445,6 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
 | 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
 | 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
-
 
 #### Ubuntu 18.04 LTS Supported Versions
 
