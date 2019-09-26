@@ -17,12 +17,12 @@ are unsure if an OS release or kernel version is supported, contact the Rackspac
 
 ### Linux Agent Compatibility
 
-Linux kernel strings on this page must match your kernel version exactly to be
+Linux&ref; kernel strings on this page must match your kernel version exactly to be
 considered in support. If the kernel is unsupported, agents go into *reduced functionality* mode
 and no longer provide adaquate telemetry to our Security Operations Center (SOC).
 
 
-**Amazon Linux 2 Supported Versions**
+#### Amazon Linux 2 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -34,7 +34,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.77-80.57.amzn2.x86_64 | 4.14.77-81.59.amzn2.x86_64 | 4.14.77-86.82.amzn2.x86_64 | 4.14.88-88.73.amzn2.x86_64 |
 | 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 | 4.14.97-90.72.amzn2.x86_64 | |
 
-**Amazon Linux 2017.03 Supported Versions**
+#### Amazon Linux 2017.03 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -43,7 +43,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.9.43-17.38.amzn1.x86_64 | 4.9.43-17.39.amzn1.x86_64 | 4.9.51-10.52.amzn1.x86_64 | 4.9.70-25.242.amzn1.x86_64 |
 | 4.9.75-25.55.amzn1.x86_64 | | | |
 
-**Amazon Linux 2017.09 Supported Versions**
+#### Amazon Linux 2017.09 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -52,7 +52,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.9.81-35.56.amzn1.x86_64 | 4.9.85-37.55.amzn1.x86_64 | 4.9.85-38.58.amzn1.x86_64 | 4.9.93-41.60.amzn1.x86_64 |
 
 
-**Amazon Linux 2018.03 Supported Versions**
+#### Amazon Linux 2018.03 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -65,7 +65,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.77-69.57.amzn1.x86_64 | 4.14.77-70.59.amzn1.x86_64 | 4.14.77-70.82.amzn1.x86_64 | 4.14.88-72.73.amzn1.x86_64 |
 | 4.14.88-72.76.amzn1.x86_64 | 4.14.94-73.73.amzn1.x86_64 | 4.14.97-74.72.amzn1.x86_64 | |
 
-**Oracle Linux 6 Supported Versions**
+#### Oracle Linux 6 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -130,7 +130,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.1.12-94.5.9.el6uek.x86_64 | 4.1.12-94.7.8.el6uek.x86_64 | 4.1.12-94.8.10.el6uek.x86_64 | 4.1.12-94.8.2.el6uek.x86_64 |
 | 4.1.12-94.8.3.el6uek.x86_64 | 4.1.12-94.8.4.el6uek.x86_64 | 4.1.12-94.8.5.el6uek.x86_64 | |
 
-**Oracle Linux 7 Supported Versions**
+#### Oracle Linux 7 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -198,7 +198,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.35-1902.2.0.el7uek.x86_64 | 4.14.35-1902.3.1.el7uek.x86_64 | 4.14.35-1902.3.2.el7uek.x86_64 | 4.14.35-1902.4.8.el7uek.x86_64 |
 
 
-**RHEL 6 / CentOS 6 Supported Versions**
+#### RHEL 6 / CentOS 6 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -229,7 +229,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 | Earlier than v3.4 | | | |
 
-**RHEL 7 / CentOS 7 Supported Versions**
+#### RHEL 7 / CentOS 7 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -277,7 +277,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 
 
-**RHEL 8 / CentOS 8 Supported Versions**
+#### RHEL 8 / CentOS 8 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -290,7 +290,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 |-|-|-|-|
 | 3.0.101-108.38-default | | | |
 
-**SLES 11 SP4 Supported Versions**
+#### SLES 11 SP4 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -307,7 +307,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | |
 
-**SLES 12 SP1 Supported Versions**
+#### SLES 12 SP1 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -325,7 +325,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 
 
-**SLES 12 SP2 Supported Versions**
+#### SLES 12 SP2 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -340,7 +340,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.4.90-92.50-default | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 |
 | Earlier than v3.4 | Earlier than v3.4 | Earlier than v3.4 | |
 
-**SLES 12 SP3 Supported Versions**
+#### SLES 12 SP3 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -352,7 +352,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.4.180-94.100-default | 4.4.180-94.103-default | 4.4.180-94.97-default | 4.4.92-6.18-default |
 | 4.4.92-6.30-default | | | |
 
-**SLES 12 SP4 Supported Versions**
+#### SLES 12 SP4 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -360,7 +360,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.12.14-95.24-default | 4.12.14-95.29-default | 4.12.14-95.3-default | 4.12.14-95.6-default |
 
 
-**SLES 15 SP1 Supported Versions**
+#### SLES 15 SP1 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -444,7 +444,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.4.0-97-generic | 4.4.0-97-generic | 4.4.0-98-generic | 4.4.0-98-generic |
 | Ubuntu 14.04LTS | Ubuntu 16.04LTS | | |
 
-**Ubuntu 16.04.5 Supported Versions**
+#### Ubuntu 16.04.5 Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -453,7 +453,7 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
 
 
-**Ubuntu 18.04 LTS Supported Versions**
+#### Ubuntu 18.04 LTS Supported Versions
 
 | | | | |
 |-|-|-|-|
@@ -471,25 +471,25 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.15.0-50-generic | 4.15.0-51-generic | 4.15.0-52-generic | 4.15.0-54-generic |
 | 4.15.0-55-generic | 4.15.0-58-generic | 4.15.0-60-generic | |
 
-**Windows Server 2008 R2 SP1 Supported Versions**
+#### Windows Server 2008 R2 SP1 Supported Versions
 
 | | | | |
 |-|-|-|-|
 | 6.1.7601 | | | |
 
-**Windows Server 2012 Supported Versions**
+#### Windows Server 2012 Supported Versions
 
 | | | | |
 |-|-|-|-|
 | 6.2.9200 | | | |
 
-**Windows Server 2012 R2 Supported Versions**
+#### Windows Server 2012 R2 Supported Versions
 
 | | | | |
 |-|-|-|-|
 | 6.3.9600 | | | |
 
-**Windows Server 2016 Supported Versions**
+#### Windows Server 2016 Supported Versions
 
 | | | | |
 |-|-|-|-|
