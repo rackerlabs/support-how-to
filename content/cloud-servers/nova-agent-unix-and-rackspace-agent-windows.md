@@ -47,7 +47,7 @@ changes in the following situations:
 When | Actions
 ---|---
 Initial server boot | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows Activation
-Password reset request through <br /> <br /> the Cloud Control Panel or API | Sets root password (Administrator for Windows)
+Password reset request through the Cloud Control Panel or API | Sets root password (Administrator for Windows)
 
 ### What does nova-agent require?
 
@@ -150,15 +150,15 @@ any related support tickets with "rm14157" so we can track this issue.
 ##### FreeBSD and Linux only: Nova-agent 2.x branch vs 1.x branch
 
 The 2.x branch of nova-agent is a complete rewrite. We recommend the 2.x branch,
-unless you are using an OS not supported by the 2.x branch (such as FreeBSD).
+unless you are using an OS not supported by the 2.x branch (such as FreeBSD&reg;).
 We don't recommend upgrading from 1.x to 2.x because there is nothing to be
 gained, and the process is extremely messy.
 
- | 2.x branch | 1.3.9 branch
----|--- | ---
-**Recommended** <br /> <br /> **install method** | OS package manager (`yum`, `apt`)| Download the release from github <br /> <br />and run the script
+Topic | 2.x branch | 1.3.9 branch
+---|---|---
+**Recommended** <br /> <br /> **install method** | `yum` or `apt` package managers)| Download the release from github and run the script
 **Github link** | [2.x link](https://github.com/Rackspace-DOT/nova-agent) | [1.3.9 link](https://github.com/rackerlabs/openstack-guest-agents-unix)
-**OS** <br /> <br /> **compatibility** | Only OS currently supported in <br /> <br /> Rackspace Cloud (Fedora&reg;, <br />  <br /> CoreOS&reg;, Red Hat/CentOS&reg;, <br />  <br /> Debian&reg;, and Ubuntu&reg; | Supported OS plus some older <br /> <br /> unsupported OS such as <br /> <br /> OpenSuSE, Gentoo, FreeBSD, <br /> <br /> and Arch
+**OS** <br /> <br /> **compatibility** | Only OS currently supported in <br /> <br /> Rackspace Cloud (Fedora&reg;, <br />  <br /> CoreOS&reg;, Red Hat/CentOS&reg;, <br />  <br /> Debian&reg;, and Ubuntu&reg; | Supported OS plus some older <br /> <br /> unsupported OS such as <br /> <br /> OpenSuSE&reg;, Gentoo&reg;, FreeBSD, <br /> <br /> and Arch&reg;
 **Python3 support** | Yes | No
 
 #### Installing nova-agent on Windows
