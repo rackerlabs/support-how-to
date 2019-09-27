@@ -1,7 +1,7 @@
 ---
 permalink: nova-agent-unix-and-rackspace-agent-windows/
 audit_date: '2019-09-27'
-title: Nova-agent (UNIX) and Rackspace agent (Windows)
+title: Nova-agent (Linux) and Rackspace agent (Windows)
 type: article
 created_date: '2019-09-27'
 created_by: Brian King
@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 This article describes nova-agent (Linux&reg;) and Rackspace agent (Microsoft&reg;
-Windows&reg;), which are required services used in Rackspace Public Cloud
+Windows&reg;), which are required services used in Rackspace public cloud
 virtualized servers. For brevity, both agents are referred to as *nova-agent*
 in this article, but all statements apply equally to nova-agent and Rackspace
 agent.
@@ -20,14 +20,14 @@ agent.
 ### What is nova-agent?
 
 Nova-agent is a required service for all virtualized servers in the Rackspace
-public cloud, thus OnMetal is excluded. The service interacts with XenServer&reg;,
+public cloud. Thus OnMetal is excluded. The service interacts with XenServer&reg;,
 so it is not relevant to typical Rackspace private cloud deployments. According
 to the [Rackspace developer docs](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/),
 nova-agent is a service that:
 
-    provides a means of interacting with the server through the API or the Cloud
+    "provides a means of interacting with the server through the API or the Cloud
     Control Panel. Nova-agent enables components outside the server to control
-    the server by sending messages through the XenStore file system.
+    the server by sending messages through the XenStore file system."
 
 Nova-agent provides the following functionality:
 
@@ -37,7 +37,7 @@ Nova-agent provides the following functionality:
 - Setting and changing network information, such as adding Cloud Networks or
   setting proper IPs and routes at build time
 
-- Red Hat Enterprise Linux registration and Windows Activation
+- Red Hat&reg; Enterprise Linux registration and Windows activation
 
 ### When does nova-agent run?
 
@@ -46,7 +46,7 @@ changes in the following situations:
 
 When | Actions
 ---|---
-Initial server boot | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows Activation
+Initial server boot | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows activation
 Password reset request through the Cloud Control Panel or API | Sets root password (Administrator for Windows)
 
 <br />
@@ -71,20 +71,20 @@ which works for Linux or Windows. Citrix&reg; also has packages for the common
 
 If you don't have nova-agent installed, the following symptoms might occur:
 
-- Builds take forever, but eventually complete. The resulting server has the
+- Builds take a long time, but eventually complete. The resulting server has the
   same IP address information and password as the server used to create its
-  image. Thus, networking doesn't work, but you can login via console.
+  image. Thus, networking doesn't work, but you can log in by using the console.
 
 - You can't reset the root or admin password through the Cloud Control Panel.
 
-- You can't add or remove networks or set proper IP adresses and routes, which
+- You can't add or remove networks or set proper IP addresses and routes, which
   causes build failures.
 
-- No Red Hat&reg; Enterprise Linux registration or Windows activation.
+- Red Hat&reg; Enterprise Linux registration or Windows activation does not occur.
 
 - (Windows only) Versions older versions than 1.3.1 do not work with RackConnect
-  v3, because the agent can't properly create virtual NICs with the Cloud Network
-  names.
+  v3, because the agent can't properly create virtual Network Interface Cards
+  (NICs) with the Cloud Network names.
 
 All images created from a server with a broken nova-agent exhibit these issues.
 If you open the server page in **alerts.ohthree.com**, you typically see an error
@@ -98,8 +98,8 @@ nova-agent to crash.
 
 #### Windows known issues
 
-You must enable IPv6 on the public interface, or the netsh commands that
-nova-agent runs to set network will fail with the following error:
+You must enable IPv6 on the public interface, or the `netsh` commands that
+nova-agent runs to set the network fail with the following error:
 
     {"returncode":"1","message":"Command Failed. , Output:Element not found.\\r\\n"}
 
@@ -107,7 +107,7 @@ nova-agent runs to set network will fail with the following error:
 
 The following sections provide some possible solutions.
 
-#### Operating System (OS) independent bug fixes
+#### Operating system (OS) independent bug fixes
 
 General fixes in order of desirability:
 
@@ -115,7 +115,7 @@ General fixes in order of desirability:
    golden master.
 
 2. If the source server was deleted but you know the root password of the source
-   server, log into the new server by using the console and manually set the IP
+   server, log in to the new server by using the console and manually set the IP
    address information. Then log in and fix nova-agent.
 
 3. If the source server was deleted and you don't have the root or admin password
@@ -132,35 +132,35 @@ General fixes in order of desirability:
 
 If starting the nova-agent service doesn't work, you can troubleshoot by looking
 at the nova-agent logs. The newest version of nova-agent is now available in EPEL
-and Rackspace's internal, Ubuntu, and Debian repos. Typically, package installation
-commands (`yum install nova-agent` or `apt-get install nova-agent`) should
-install or update the agent.
+and Rackspace's internal, Ubuntu&reg;, and Debian&reg; repositories. Typically, package
+installation commands (`yum install nova-agent` or `apt-get install nova-agent`)
+should install or update the agent.
 
-If you're not on on a Rackspace-supported distro, you can try to install an
+If you're not on a Rackspace-supported distribution, you can try to install an
 [older version of nova-agent](https://github.com/rackerlabs/openstack-guest-agents-unix)
-from the rackerlabs Github repo. However, this is technically unsupported.
+from the rackerlabs Github repository. However, this is technically unsupported.
 
-If you're using an imported image of a distro that supports cloud-init, you might
+If you're using an imported image of a distro that supports `cloud-init`, you might
 find it easier to use `cloud-init` instead of nova-agent. This requires setting
 some metadata on your imported image.
 
-**Note**: A RHEL 7.2/CentOS 7.2 update pushed in December 2015 broke legacy
+**Note**: A RHEL&reg; 7.2/CentOS&reg; 7.2 update pushed in December 2015 broke legacy
 behavior that older nova-agents relied on. You might still see this issue on
-older custom images or on servers that haven't been updated lately. Please tag
+older custom images or on servers that haven't been updated lately. Tag
 any related support tickets with "rm14157" so we can track this issue.
 
 ##### FreeBSD and Linux only: Nova-agent 2.x branch vs 1.x branch
 
 The 2.x branch of nova-agent is a complete rewrite. We recommend the 2.x branch,
-unless you are using an OS not supported by the 2.x branch (such as FreeBSD&reg;).
+unless you are using an OS not supported by the 2.x branch (such as FreeBSD).
 We don't recommend upgrading from 1.x to 2.x because there is nothing to be
-gained, and the process is extremely messy.
+gained, and the process is extremely complex.
 
 Topic | 2.x branch | 1.3.9 branch
 ---|---|---
 **Recommended** <br /> <br /> **install method** | `yum` or `apt` package managers| Download the release from github and run the script
 **Github link** | [2.x link](https://github.com/Rackspace-DOT/nova-agent) | [1.3.9 link](https://github.com/rackerlabs/openstack-guest-agents-unix)
-**OS** <br /> <br /> **compatibility** | Only OS currently supported in <br /> <br /> Rackspace Cloud (Fedora&reg;, <br />  <br /> CoreOS&reg;, Red Hat/CentOS&reg;, <br />  <br /> Debian&reg;, and Ubuntu&reg; | Supported OS plus some older <br /> <br /> unsupported OS such as <br /> <br /> OpenSuSE&reg;, Gentoo&reg;, FreeBSD, <br /> <br /> and Arch&reg;
+**OS** <br /> <br /> **compatibility** | Only OS currently supported in <br /> <br /> Rackspace Cloud (Fedora&reg;, <br />  <br /> CoreOS&reg;, Red Hat/CentOS, <br />  <br /> Debian, and Ubuntu; | Supported OS plus some older <br /> <br /> unsupported OS such as <br /> <br /> OpenSuSE&reg;, Gentoo&reg;, FreeBSD, <br /> <br /> and Arch&reg;
 **Python3 support** | Yes | No
 
 <br />
@@ -189,10 +189,10 @@ Topic | 2.x branch | 1.3.9 branch
 
 If you would like the agent to rerun **bootstrap.cmd** on your next reboot, you
 need to set the registry key `cloud-automation-run` in **SOFTWARE/Rackspace**
-to any value. This causes that file to be rerun on next reboot. This is useful f
-or setting up golden images with autoscale.
+to any value. This causes that file to be rerun on next reboot. This is useful
+for setting up golden images with autoscale.
 
 ### Related Articles
 
 [Operating a cloud server with nova-agent](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/)
-[All About Nova-Agent (well, on linux that is)](http://www.syntheticworks.com/rackspace-cloud/linux-rackspace-cloud/all-about-nova-agent-linux/)
+[All About Nova-Agent (on Linux)](http://www.syntheticworks.com/rackspace-cloud/linux-rackspace-cloud/all-about-nova-agent-linux/)
