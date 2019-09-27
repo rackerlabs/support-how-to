@@ -49,16 +49,18 @@ When | Actions
 Initial server boot | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows Activation
 Password reset request through the Cloud Control Panel or API | Sets root password (Administrator for Windows)
 
+<br />
+<br />
 ### What does nova-agent require?
 
-UNIX-like systems (Linux and FreeBSD&reg;) must run the *xe-linux-distribution*
-service (XenServer Tools). You should configure the xe-linux-distribution
-service to start before nova-agent.
+- UNIX-like systems (Linux and FreeBSD&reg;) must run the *xe-linux-distribution*
+  service (XenServer Tools). You should configure the xe-linux-distribution
+  service to start before nova-agent.
 
-**Note:** On newer distributions (distros), this might be called xe-daemon
-instead of xe-linux-distribution.
+  **Note:** On newer distributions (distros), this might be called xe-daemon
+  instead of xe-linux-distribution.
 
-Windows systems must run the XenServer Tools.
+- Windows systems must run the XenServer Tools.
 
 If these required applications are missing, you can download the XenServer Tools
 ISO from [boot.rackspace.com](https://boot.rackspace.com/files/xentools/xs-tools-6.2.0.iso),
@@ -156,10 +158,13 @@ gained, and the process is extremely messy.
 
 Topic | 2.x branch | 1.3.9 branch
 ---|---|---
-**Recommended** <br /> <br /> **install method** | `yum` or `apt` package managers)| Download the release from github and run the script
+**Recommended** <br /> <br /> **install method** | `yum` or `apt` package managers| Download the release from github and run the script
 **Github link** | [2.x link](https://github.com/Rackspace-DOT/nova-agent) | [1.3.9 link](https://github.com/rackerlabs/openstack-guest-agents-unix)
 **OS** <br /> <br /> **compatibility** | Only OS currently supported in <br /> <br /> Rackspace Cloud (Fedora&reg;, <br />  <br /> CoreOS&reg;, Red Hat/CentOS&reg;, <br />  <br /> Debian&reg;, and Ubuntu&reg; | Supported OS plus some older <br /> <br /> unsupported OS such as <br /> <br /> OpenSuSE&reg;, Gentoo&reg;, FreeBSD, <br /> <br /> and Arch&reg;
 **Python3 support** | Yes | No
+
+<br />
+<br />
 
 #### Installing nova-agent on Windows
 
@@ -191,4 +196,3 @@ or setting up golden images with autoscale.
 
 [Operating a cloud server with nova-agent](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/)
 [All About Nova-Agent (well, on linux that is)](http://www.syntheticworks.com/rackspace-cloud/linux-rackspace-cloud/all-about-nova-agent-linux/)
-
