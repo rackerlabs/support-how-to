@@ -20,7 +20,7 @@ This article includes the networking requirements for the Rackspace Proactive De
 | Agent | Threat Manager Appliances | TCP | 443 | Alert Logic agent updates |
 | Agent | vaporator.alertlogic.com | TCP | 443 | Alert Logic agent updates |
 | Your AL Appliances | Agent host | ALL | ALL | Active Scanning from the NIDS appliances |
-| **Agent | Threat Manager Appliances | TCP | 7777 | **cloud platforms only**  Alert Logic agent data transport (between agent and appliance on local network) |
+| Agent | Threat Manager Appliances | TCP | 7777 | **cloud platforms only**  Alert Logic agent data transport (between agent and appliance on local network) |
 
 ### Crowd Strike Egress Requirements
 
@@ -28,7 +28,7 @@ This article includes the networking requirements for the Rackspace Proactive De
 | ------ | ----------- | -------- | ---- | ----------- |
 | Agent | Endpoint IPs Below | TCP | 443 | Crowd Strike agent endpoint |
 
-**Crowd-Strike Agent Endpoint IPs**
+### Crowd-Strike Agent Endpoint IPs
 
 |             |               |               |
 |-------------|---------------|---------------|
