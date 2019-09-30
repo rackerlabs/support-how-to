@@ -48,6 +48,7 @@ When | Actions
 ---|---
 Initial server boot | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows activation
 Password reset request through the Cloud Control Panel or API | Sets root password (Administrator for Windows)
+Attach/detach Cloud Network | Sets/removes interface IPs and routes
 
 <br />
 <br />
@@ -87,13 +88,11 @@ If you don't have nova-agent installed, the following symptoms might occur:
   (NICs) with the Cloud Network names.
 
 All images created from a server with a broken nova-agent exhibit these issues.
-If you open the server page in **alerts.ohthree.com**, you typically see an error
-such as `unable to contact guest agent`.
 
 ### Are there any known bugs?
 
 Nova-agent for Linux and Windows does not deal with unexpected Ethernet
-interfaces. Aso, Tun and Tap devices, created by VPN applications, can cause
+interfaces. For example, Tun and Tap devices, created by VPN applications, can cause
 nova-agent to crash.
 
 #### Windows known issues
