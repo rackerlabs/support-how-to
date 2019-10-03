@@ -5,13 +5,13 @@ type: article
 title: Troubleshoot Cloud Backup on Linux servers
 created_date: '2018-08-23'
 created_by: Shaun Crumpler
-last_modified_date: '2019-02-25'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-10-02'
+last_modified_by: Catherine Richardson
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-**Note:** If your server is running a Windows&reg; operating system, see [Cloud backup troubleshooting on Windows](/how-to/cloud-backup-basic-troubleshooting-on-windows-2008-servers).  
+**Note:** If your server is running a Windows&reg; operating system, see [Cloud backup troubleshooting on Windows](/how-to/cloud-backup-basic-troubleshooting-on-window-2008-servers/). 
 
 This article assists with issues that customers are experiencing when Cloud
 Backup issues are caused by the backup agent being disconnected on the
