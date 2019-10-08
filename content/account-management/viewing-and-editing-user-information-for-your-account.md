@@ -5,8 +5,8 @@ title: Viewing and editing user information for your account
 type: article
 created_date: '2011-09-06'
 created_by: Rackspace Support
-last_modified_date: '2019-07-25'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-10-08'
+last_modified_by: Catherine Richardson
 product: Account Management
 product_url: account-management
 ---
