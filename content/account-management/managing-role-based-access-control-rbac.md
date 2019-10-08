@@ -63,7 +63,8 @@ To create a new user, use the following steps:
 
 6. Click **Create User**.
 
-7. On the page that opens, in the **Rackspace Account Permissions** section, you can either assign the
+7. On the page that opens, in the **Rackspace Account Permissions**
+   section, you can either assign the
    user the **Account Administrator** role, or assign roles for the **Billing
    and Payments** area, the **Tickets** area, or **Product Access** separately.
 
