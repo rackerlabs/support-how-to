@@ -105,6 +105,7 @@ To create a new user, use the following steps:
 Rackspace recommends the following custom role configurations for
 optimal product interaction.
 
+
 <table>
 <colgroup>
 <col width="25%" />
