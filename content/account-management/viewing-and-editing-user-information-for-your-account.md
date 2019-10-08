@@ -21,7 +21,7 @@ Access this page by clicking the user name menu in the top-right corner of the n
 
 Use the **My Profile & Settings** page to view your primary contact information, view or edit your security settings, and view your account and product permissions.
 
-Use the **Security Settings** section to change your password, enable or disable multi-factor authentication, configure a secret question, and view your API key.
+Use the **Security Settings** section to change your password, enable or disable multi-factor authentication, and view your API key.
 
 ### Account Settings page
 
@@ -45,5 +45,5 @@ as email addresses and passwords, and to add new users.
 - To add an identity provider, click the **Identity Federation** tab, and then click **Add Identity Provider**. Enter a description, the email domain, and SAML metadata, and then click **Create Identity Provider**.
 
   **Note:** Identity Federation is currently supported for only Rackspace Cloud and Managed Google Cloud Platform customers.
-  
+
  For information about user groups, see [Rackspace Cloud user groups](/how-to/rackspace-cloud-user-groups).

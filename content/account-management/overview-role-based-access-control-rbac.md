@@ -28,7 +28,7 @@ RBAC enables users to perform actions based on the scope of their
 assigned roles.
 
 Account owners can create up to 100 users, each with
-their own password, secret question and answer, and API key.
+their own password and API key.
 
 ### Why implement RBAC?
 

@@ -5,8 +5,8 @@ title: Use Role Based Access Control (RBAC)
 type: article
 created_date: '2013-06-28'
 created_by: Renee Rendon
-last_modified_date: '2018-10-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-10-08'
+last_modified_by: Catherine Richardson
 product: Account Management
 product_url: account-management
 ---
@@ -30,7 +30,7 @@ determines the user's level of access.
 ### Account credentials
 
 Rackspace recommends that you change the account password
-and secret question before adding new users to the account.
+before adding new users to the account.
 
 When new users are created, a temporary password is assigned to
 them. They should change the temporary password at their first login.
@@ -40,7 +40,7 @@ account. Rackspace does not notify them automatically. You
 can use the following text to notify your users:
 
    **Your access to this account has changed. You have been added as a new
-   user, and you must update your credentials (password and secret question)
+   user, and you must update your credentials (password)
    as soon as possible. See *name* for your temporary access information.**
 
 ### Create new users
@@ -64,10 +64,7 @@ To create a new user, use the following steps:
    These contact types are for reference only. They do not affect the user's
    permissions.
 
-6. In the **Secret Question and Answer** section, enter a **Question** and an
-   **Answer**.
-
-7. In the **Rackspace Account Permissions** section, you can either assign the
+6. In the **Rackspace Account Permissions** section, you can either assign the
    user the **Account Administrator** role, or assign roles for the **Billing
    and Payments** area and the **Support Tickets** area separately.
 
@@ -78,7 +75,7 @@ To create a new user, use the following steps:
    to the **Area** section and select the permission that you want to assign
    from the drop-down menu to the right of each area.
 
-8. Optionally, in the **Product Permissions** section, assign product
+7. Optionally, in the **Product Permissions** section, assign product
    permissions to the user. Click the tab for a product, and then
    select from the permission options.
 
@@ -97,7 +94,7 @@ To create a new user, use the following steps:
    **Note:** Depending on the roles assigned, the Control Panel view is
    different for each user.
 
-9. When you are finished, scroll to the bottom and click **Create User**.
+8. When you are finished, scroll to the bottom and click **Create User**.
 
    **Note:** After a user is assigned a custom role, that custom role
    cannot be modified. However, if the user is later assigned the
