@@ -127,10 +127,10 @@ following steps:
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 2. In the top navigation bar, click **Account > User Management**.
 3. Click on the user for whom you want to assign permissions.
-4. In the **Product Permissions** area, under **Rackspace Cloud Product
-   Permissions** and then **PRODUCT ACCESS**, click **Edit**.
+4. In the **Product Permissions** area under **Rackspace Cloud Product
+   Permissions** and then under **PRODUCT ACCESS**, click **Edit**.
 
-The **Rackspace Cloud Permissions** window opens.
+   The **Rackspace Cloud Permissions** window opens.
 
 5. Under **Cloud Access**, choose the type of global access you want the 
    user to have, including a **Custom** option, or select the individual
