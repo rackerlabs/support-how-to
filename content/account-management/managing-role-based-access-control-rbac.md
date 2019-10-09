@@ -72,7 +72,7 @@ To create a new user, use the following steps:
    to the **AREA** section and select the **PERMISSION** that you want to assign
    by using the pencil menu to the right of each area.
 
-7. Optionally, in the **Product Permissions** section, assign product
+8. Optionally, in the **Product Permissions** section, assign product
    permissions to the user. Click the tab for a product, and then
    **Edit** the **PRODUCT ACCESS**.
 
