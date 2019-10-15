@@ -5,8 +5,8 @@ title: Check the System Load on Linux
 type: article
 created_date: '2012-06-21'
 created_by: Rackspace Support
-last_modified_date: '2015-12-31'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-10-15'
+last_modified_by: Shaun Crumpler
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -54,6 +54,12 @@ resource usage. The first few lines will give you a summary of the
 resource utilisation on your system and you can sort the list of
 processes by CPU (P) or memory (M) use which allows you to quickly see
 where your server is receiving the biggest demands on its resources.
+
+### free
+
+The `free` command displays information regarding the server's
+memory usage. The first few lines will give you a summary of the
+memory utilisation on your system.  The `free` solumn displays the amount of memory that is not being used for anything and is generally minimal as memory not being used is a wasted resource.  The `available` column displays how much memory is available that can be allocated to new processes or existing processes.
 
 ### vmstat
 
