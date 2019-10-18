@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 The [Cloud Control Panel](https://login.rackspace.com) isn't the only way to
 manage Cloud Servers. If you're running a script or program, you can use the
-[Cloud Servers API](http://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/),
+[Cloud Servers API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/),
 but that involves some coding effort.
 
 If you want to manage your servers from the command line without dealing

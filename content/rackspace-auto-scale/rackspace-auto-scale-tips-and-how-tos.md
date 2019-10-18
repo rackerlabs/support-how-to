@@ -20,7 +20,7 @@ Rackspace Auto Scale is written in Python and calls the Rackspace Cloud
 Servers, Rackspace Cloud Load Balancers, and Rackspace RackConnect v3
 APIs. All Rackspace Cloud Server **create server** configuration
 parameters can be used with Auto Scale. For more information, see
-the [Rackspace Cloud Servers documentation](http://Developer.rackspace.com/).
+the [Rackspace Cloud Servers documentation](https://developer.rackspace.com/).
 For technical details, see the public [Auto Scale GitHub
 documentation](https://github.com/rackerlabs/otter/tree/master/doc) and
 the public [Auto Scale GitHub
