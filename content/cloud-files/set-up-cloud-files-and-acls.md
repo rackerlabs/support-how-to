@@ -189,5 +189,5 @@ control for their Cloud Files containers.
 
 You might find the following additional resources helpful:
 
-- [Cloud Files Developer Documentation](http://docs.rackspace.com/files/api/v1/cf-devguide/content/Overview-d1e70.html)
+- [Cloud Files Developer Documentation](https://docs.rackspace.com/files/api/v1/cf-devguide/content/Overview-d1e70.html)
 - [Create Cloud Files container-level Access Control Policies](http://www.rackspace.com/blog/create-cloud-files-container-level-access-control-policies/)

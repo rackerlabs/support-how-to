@@ -93,5 +93,5 @@ Cloud, consider using **boot.rackspace.com**. This method enables you to
 prepare an image from directly inside the Rackspace Open Cloud.
 For details, see the following posts from the Rackspace DevOps Blog:
 
--   [Introducing boot.rackspace.com](http://developer.rackspace.com/blog/introducing-boot-dot-rackspace-dot-com.html)
--   [Custom images via boot.rackspace.com - Training wheels included](http://developer.rackspace.com/blog/custom-images-via-boot-dot-rackspace-dot-com-training-wheels-included.html)
+-   [Introducing boot.rackspace.com](https://developer.rackspace.com/blog/introducing-boot-dot-rackspace-dot-com.html)
+-   [Custom images via boot.rackspace.com - Training wheels included](https://developer.rackspace.com/blog/custom-images-via-boot-dot-rackspace-dot-com-training-wheels-included.html)
