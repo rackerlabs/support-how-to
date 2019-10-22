@@ -1,74 +1,50 @@
 ---
-permalink: remove-vpn-user-myrackspace-portal/
-audit_date: '2019-02-18'
-title: Remove a VPN user in the MyRackspace Portal
+permalink: delete-vpn-user-myrackspace-portal/
+audit_date: '2019-10-22'
+title: Delete a VPN user in the MyRackspace Portal
 type: article
 created_date: '2017-10-16'
 created_by: Trevor Becker
-last_modified_date: '2019-02-18'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-10-22'
+last_modified_by: Trevor Becker
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-Removing a client Virtual Private Network (VPN) user is now an automated task within the MyRackspace Portal.
-You can use the **Delete contact** ticket template to do the following activities:
+Deleting a client VPN users is now an automated task within the MyRackspace Portal. This article describes how to delete a  VPN user using a ticket template.
 
-- Remove a user from the MyRackspace Portal account contacts list and phone support.
-- Automatically delete the client VPN user from all of your Rackspace dedicated firewalls.
+### Create a ticket in the MyRackspace Portal
 
-This article describes how to remove a VPN user by using a ticket template.
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your username and password.
 
-**Warning**: A VPN user who is removed by following these instructions is also deleted from all Windows&reg;,
-Linux&reg;, and security devices as well as network devices.
+2. In the top navigation bar, click **Select a Product > Dedicated Hosting**.
 
-### Remove VPN user
+3. Select **Tickets** > **Create New Ticket**.
 
-To remove the VPN user, use the following steps:
+4. On the **Create New Ticket** page, click the **Subject** text field, and in the drop down menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
 
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com).
+   <IMAGE #1 SENT IN EMAIL TO CAT LOOKABAUGH ON 10-22-2019>
 
-2. In the top navigation bar, click on the **Tickets** tab and select **Create Ticket**.
+5. Check the box next to **Delete VPN user on firewall**.
 
-3. On the **Create New Ticket** page, click the **Subject** text field, and in the drop-down menu,
-select **Delete Contact**.
+6. In the **Firewall** dropdown field, select the appropriate firewall(s).
 
-   <img src="{% asset_path dedicated-hosting/remove-vpn-user-myrackspace-portal/delete-contact.png %}" />
+   a. If you have HA firewalls, you may select only one firewall in the dropdown. Automation will delete the user to both firewalls. 
+   
+   b. If you need to delete the VPN user to all firewalls on the account, ensure you select all firewalls in this field.
 
-4. Complete the following fields:
+7. Enter your desired VPN username in the **VPN Username** field.
 
-   a. Select the contact name in the drop-down field.
+   a. The VPN username is case-sensitive and require at least 3 characters.
+   
+   b. Do not include the question mark (?) or a space ( ) within the VPN username field.
 
-   b. Select the **MyRackspace Portal + Phone Support + Systems & Devices** option.
+8. Click the **Create Ticket** button at the bottom of the page.   
+   
+   After the ticket is created, you are redirected back to your ticket list in the MyRackspace Portal. Automation runs in the background while the ticket is created, which typically takes less than a minute to complete. After you refresh your browser, the ticket *Delete VPN User on Firewall Request (from template)* is in **Confirm Solved** status.
 
-   c. Fill in the name of the VPN user you want to delete.  If you don't know the VPN users,
-   use the following steps to download your firewall's configuration and find the VPN users:
+9. Confirm the details about the deletion of the VPN user by opening the ticket. The details are in the most recent comment.
 
-      i. Log in to the [Control Panel](https://login.rackspace.com) and choose **Dedicated Hosting**.
+   <IMAGE #2 SENT IN EMAIL TO CAT LOOKABAUGH ON 10-22-2019>
 
-      ii. Click the drop-down menu next to **Products** to select devices.
-
-      iii. Hover the mouse over the gear to the left of the **Firewall Device** to download.
-
-      iv. Select **Download network configuration**.
-
-5. Click **Create Ticket**.
-
-   <img src="{% asset_path dedicated-hosting/remove-vpn-user-myrackspace-portal/ticket-details.png %}" />
-
-### Automation process
-
-After you create a ticket, the automation process begins. The following overview describes
-the automation process:
-
-1. The automation creates an array of all the firewalls on your account.
-
-2. The automation then sends the commands to remove the VPN user specified from
-   all firewalls within the array.
-
-3. The ticket is updated and closed if there are no errors.
-
-   If errors occur, a ticket generates in the Network Security queue, which alert a Network
-   Security Racker to complete the task manually.
-
-   **Note:** If the ticket is sent to Network Security, this process might take longer to complete.
+If you need any assistance outside of this article, open a ticket so that Rackspace Support can process your request manually.
