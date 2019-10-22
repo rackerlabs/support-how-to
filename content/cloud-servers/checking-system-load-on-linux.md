@@ -57,9 +57,10 @@ where your server is receiving the biggest demands on its resources.
 
 ### free
 
-The `free` command displays information regarding the server's
-memory usage. The first few lines will give you a summary of the
-memory utilisation on your system.  The `free` solumn displays the amount of memory that is not being used for anything and is generally minimal as memory not being used is a wasted resource.  The `available` column displays how much memory is available that can be allocated to new processes or existing processes.
+The `free` command displays information regarding the server's memory usage. The first few lines provide a 
+summary of the memory usage on your system.  The `free` column displays the amount of memory that is 
+not being used for anything, which is generally minimal because unused memory is a wasted resource.  The 
+`available` column displays how much memory is available to be allocated to new processes or existing processes.
 
 ### vmstat
 
