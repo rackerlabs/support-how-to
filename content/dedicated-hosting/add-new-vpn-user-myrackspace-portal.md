@@ -27,7 +27,7 @@ template.
 4. On the **Create New Ticket** page, click the **Subject** text field, and in
    the drop down menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
 
-   <img src="{% asset_path dedicated-hosting/add-new-vpn-user-myrackspace-portal/add-new-vpn-user-select-ticket.png %}" />
+   <img src="{% asset_path dedicated-hosting/add-new-vpn-user-myrackspace-portal/image1.jpeg %}" />
 
 5. Check the box next to **Create new VPN user on firewall**.
 
@@ -63,7 +63,7 @@ template.
 10. Retrieve the password for your new VPN user by opening the ticket. The
     password is in the most recent comment.
 
-   <img src="{% asset_path dedicated-hosting/add-new-vpn-user-myrackspace-portal/image2.png %}" />
+   <img src="{% asset_path dedicated-hosting/add-new-vpn-user-myrackspace-portal/image2.jpeg %}" />
 
 ### Limitations
 
