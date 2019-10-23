@@ -13,7 +13,9 @@ product_url: rackspace-email-archiving
 
 #### Rackspace Archiving Release Notes ####
 
-Rackspace Archiving is now better than ever. This upgrade provides many improvements, both in the user experience and in system performance. The new user experience includes a fully redesigned portal for managing the archive.
+Rackspace Archiving is now better than ever. This upgrade provides many
+improvements, both in the user experience and in system performance. The new
+user experience includes a fully redesigned portal for managing the archive.
 
 Because many new core improvements fuel the upgrade, there are a few changes to your searches. Click here to read more about these changes.
 
