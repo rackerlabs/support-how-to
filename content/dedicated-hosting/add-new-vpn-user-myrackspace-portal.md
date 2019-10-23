@@ -24,41 +24,42 @@ template.
 
 3. Select **Tickets > Create New Ticket**.
 
-4. On the **Create New Ticket** page, click the **Subject** text field, and in
-   the drop down menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
+4. On the **Create New Ticket** page, click the **Subject** field, and in
+   the drop-down menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
 
    <img src="{% asset_path dedicated-hosting/add-new-vpn-user-myrackspace-portal/image001.jpeg %}" />
 
 5. Check the box next to **Create new VPN user on firewall**.
 
-6. In the **Firewall** dropdown field, select the appropriate firewall(s).
+6. In the **Firewall** drop-down field, select the appropriate firewall(s).
 
-   a. If you have HA firewalls, you may select only one firewall in the dropdown.
-   Automation will add the user to both firewalls.
+   a. If you have high availability (HA) firewalls, you may select only one of the two
+      HA firewalls in the drop-down menu. Automation adds the user to both HA firewalls.
 
    b. If you need to add the VPN user to all firewalls on the account, ensure
-   you select all firewalls in this field.
+      you select all firewalls in this field.
 
 7. Enter your desired VPN username in the **VPN Username** field.
 
-   a. The VPN username is case-sensitive and require at least 3 characters.
+   a. The VPN username is case-sensitive and requires at least three characters.
 
    b. Do not include the question mark (?) or a space ( ) within the VPN username field.
 
-8. The **Generate Random Password** box is checked by default. If you would like
-   to add a custom password, un-check this box.
+8. The **Generate Random Password** box is checked by default. If you want
+   to add a custom password, uncheck this box.
 
-   Once un-checked, the custom password field is displayed.
+   After the box is unchecked, the custom password field displays.
 
-   This password must have at least 8 characters with uppercase, lowercase,
+   This password must have at least eight characters with uppercase, lowercase,
    numbers, and special characters.
 
-9. Click the **Create Ticket** button at the bottom of the page.
+9. Click **Create Ticket** at the bottom of the page.
 
    After the ticket is created, you are redirected back to your ticket list in
    the MyRackspace Portal. Automation runs in the background while the ticket is
    created, which typically takes less than a minute to complete. After you
-   refresh your browser, the ticket *Create New VPN User on Firewall Request (from template)* is in **Confirm Solved** status.
+   refresh your browser, the ticket *Create New VPN User on Firewall Request (from template)*
+   is in **Confirm Solved** status.
 
 10. Retrieve the password for your new VPN user by opening the ticket. The
     password is in the most recent comment.
