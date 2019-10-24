@@ -31,7 +31,7 @@ The following is an example of the URL:
 The updated Archive Dashboard provides quick and valuable insight into the
 health and activity of your archive.
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(1).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(1).png %}" />
 
 
 #### Adding archive users ####
@@ -41,7 +41,7 @@ your archive. With this approach, the user’s role is now selected based on
 company needs instead of clicking a separate section to accomplish the same
 end goal.
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(2).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(2).png %}" />
 
 
 #### Save as new search ####
@@ -58,14 +58,14 @@ The look and feel of the search results review, including viewing specific
 messages, is greatly improved. By having a more “mail client feel,” navigating
 through the search results is more intuitive.
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(4).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(4).png %}" />
 
 #### Improved exports ####
 
 Better filtering to limit size, export formats, and notifications provides a
 better experience, especially on larger exports.
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(5).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(5).png %}" />
 
 
 #### Migration notes ####
@@ -80,4 +80,4 @@ Because administrators and users are re-created as part of the upgrade/
 migration, the ownership of the migrated searches is not preserved. For these
 migrated searches, the new owner displays as “migrated search (unknown user)."
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(7).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(7).png %}" />
