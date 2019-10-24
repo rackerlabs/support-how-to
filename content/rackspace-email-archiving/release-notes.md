@@ -1,11 +1,11 @@
 ---
 permalink: release-notes/
 audit_date: '2019-10-22'
-title: Release Notes for the New Experience
+title: Release Notes for the New Archiving Experience
 type: article
 created_date: '2019-10-22'
 created_by: Ben Smith
-last_modified_date: '2019-10-22'
+last_modified_date: '2019-10-24'
 last_modified_by: Joe Brooks
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
@@ -19,12 +19,14 @@ user experience includes a fully redesigned portal for managing the archive.
 
 Because many new core improvements fuel the upgrade, there are a few changes to your searches. Click here to read more about these changes.
 
-Here are a few notable examples:
+Here are a few notable examples.
+
+####  Direct URL
 
 The new platform now has a direct URL for archive users to access the portal.
 The following is an example of the URL:
 
--	https://view.archivesrvr.com/domaintld/ui/login
+https://view.archivesrvr.com/domaintld/ui/login
 
 #### New Archive Dashboard ####
 
