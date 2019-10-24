@@ -50,7 +50,7 @@ This update allows you to take an existing search and duplicate it as a new
 search. This saves time and effort by not having to start from scratch for
 each new search.
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(3).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(3).png %}" />
 
 #### Improved search result review ####
 
@@ -74,7 +74,7 @@ The migration that accompanies this upgrade is automatic. You see one distinct
 difference. Any saved searches are migrated to the new archive portal as read-
 only, meaning you cannot edit or update the details of the search.
 
-<img src="{% asset_path rackspace-email-archiving/release-notes/release_notes(6).png %}" />
+<img src="{% asset_path rackspace-email-archiving/release_notes/release_notes(6).png %}" />
 
 Because administrators and users are re-created as part of the upgrade/
 migration, the ownership of the migrated searches is not preserved. For these
