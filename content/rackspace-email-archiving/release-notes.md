@@ -4,7 +4,7 @@ audit_date: '2019-10-22'
 title: Release Notes for the New Archiving Experience
 type: article
 created_date: '2019-10-22'
-created_by: Ben Smith
+created_by: Joe Brooks
 last_modified_date: '2019-10-24'
 last_modified_by: Joe Brooks
 product: Rackspace Email Archiving
