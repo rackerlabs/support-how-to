@@ -15,23 +15,25 @@ This article provides steps on how to request live chat Support for Cloud Office
 
 1. Log in to your [Rackspace Customer Portal](https://login.rackspace.com).  
 
-   **Note:** If you are unable to log in to this portal, please try logging in to
-   the [Cloud Office Control Panel](https://cp.rackspace.com) directly and skipping to
+   **Note:** If you are unable to log in to this portal, try to log in to
+   the [Cloud Office Control Panel](https://cp.rackspace.com) directly and skip to
    step 5.
 
-2. Click on the **Products** drop down menu.
+2. Click the **Products** drop-down menu.
 
     <img src="{% asset_path account-management/live-chat-support-for-cloud-office/screenshot1.png %}" />
 
 3. Select **Cloud Office** from the menu.
 
+
     <img src="{% asset_path account-management/live-chat-support-for-cloud-office/screenshot2.png %}" />
 
-4. You are taken to a new page. Click the black button on the left labeled
-   **Open Cloud Office Control Panel**
+4. You are taken to a new page where you click the black button on the left side labeled
+   **Open Cloud Office Control Panel**.
+
 
 5. You are now logged in to your Cloud Office Control Panel. Click the button labeled
-   **Live Chat** in the upper right corner of the screen to begin support chat session
+   **Live Chat** in the upper-right corner of the screen to begin a support chat session
    with a Cloud Office email expert.
 
     <img src="{% asset_path account-management/live-chat-support-for-cloud-office/screenshot4.png %}" />
