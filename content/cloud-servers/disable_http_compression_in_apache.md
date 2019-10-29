@@ -20,16 +20,20 @@ This article outlies the process of checking if HTTP is being compressed on your
 2. Use the following request to check for HTTP compression:
 
        Accept-Encoding:compress,gzip
-       
+
 If compression is enabled, the server will respond by compressing the page. If the serber does not support compression, it will display the page in plain text. 
 
-### Disabling HTTP compression
+### Disabling HTTP compression using Ubuntu or Debian operating system
 
-To disable compression on your Apache server:
+1. Disable the module mod_deflate using the following command :
 
-1. 
+   $ sudo a2dismod deflate
 
-### Procedure (repeat as necessary)
+2. Restart the server using the following command:
+
+   $ sudo /etc/init.d/apache2 restart
+
+### Disabling HTTP compression using Ubuntu or Debian operating system
 
 Provide a descriptive heading for this section that begins with an imperative verb. For example: Create a new server.
 
