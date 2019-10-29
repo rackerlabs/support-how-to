@@ -11,25 +11,23 @@ product: Cloud Product
 product_url: cloud-product
 ---
 
-Provide a descriptive title for the article that begins with an imperative verb in the metadata above. For example: Restore a server from a snapshot.
+This article outlies the process of checking if HTTP is being compressed on your Apache server as well how to disable the HTTP compression. 
 
-Introduce the article by describing the task that the user wants to perform or the issue that the user needs to solve. The primary audience for How-To content are Rackspace customers and Support staff, who might have varying levels of technical expertise.
+### Testing your server for HTTP compression 
 
-Write your article in Markdown. For more information about writing in Markdown, see the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+1. Connect to the server using openssl
 
-For general writing guidelines, see the [contribution guidelines](https://github.com/rackerlabs/rackspace-how-to/blob/master/CONTRIBUTING.md).
+2. Use the following request to check for HTTP compression:
 
-### Prerequisites (optional)
+       Accept-Encoding:compress,gzip
+       
+If compression is enabled, the server will respond by compressing the page. If the serber does not support compression, it will display the page in plain text. 
 
-Include any prerequisites or required system setups. You can use bullets to describe a list of items:
+### Disabling HTTP compression
 
-   - Required software
-   - Rackspace account
-   - Required CPU, networking, disk
+To disable compression on your Apache server:
 
-### Limitations (optional)
-
-Describe any limitations to the task described in this article. For example, the article applies only to Linux systems, or has different requirements based on the environment.
+1. 
 
 ### Procedure (repeat as necessary)
 
