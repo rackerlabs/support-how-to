@@ -33,8 +33,8 @@ for instructions on setting up distribution lists.
 ### Outlook Web App (OWA)
 
 The Outlook Web App is a direct connection to your email without the
-need for additional software; your web browser is enough.
-Messages that are sent and received using OWA will be
+need for additional software. Your web browser is enough.
+Messages that are sent and received using OWA are
 waiting for you the next time you log in to the portal. The OWA portal
 provides most of the functionality that a mail client offers, including
 sending and receiving email, setting up email signatures, and setting
@@ -44,8 +44,8 @@ rules to filter messages to sub-folders.
 
 - There is no need to configure additional server settings for OWA.
 - Email is ready to access 24/7 through your preferred web browser.
-- Messages are stored in the cloud so no local storage is consumed.
-- Changes made to Contacts, Calendar and Mail items are synced down to
+- Messages are stored in the cloud, so no local storage is consumed.
+- Changes made to Contacts, Calendar, and Mail items are synced down to
   all other devices configured with your account.
 
 #### Accessing OWA
