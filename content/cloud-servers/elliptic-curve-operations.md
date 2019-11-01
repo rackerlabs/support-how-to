@@ -34,7 +34,8 @@ EC private keys. These text files contain base-64 encoded data. A traditional
 format private key file in PEM format looks similar to the
 following example in a file with a ``.pem`` extension:
 
-```-----BEGIN EC PRIVATE KEY-----
+```
+-----BEGIN EC PRIVATE KEY-----
 MIIBIAIBAQQYd8yhaE899FaH3sw8aD4F/vtpMVBLfVqmoIHKMIHHAgEBMCQGByqG
 SM49AQECGQD////////////////////+//////////8wSwQY////////////////
 /////v/////////8BBgiEj3COVoFyqdCPa7MyUdgp9RiJWvVaRYDFQDEaWhENd6z
@@ -47,7 +48,8 @@ AzIABBsl8ZSGJqcUpVoP8zekF92DGqDBMERcHhCXmgPXchP+ljybXbzYKINgxbp5
 
 In an encrypted form, the example is similar to this:
 
-```-----BEGIN EC PRIVATE KEY-----
+```
+-----BEGIN EC PRIVATE KEY-----
 Proc-Type: 4,ENCRYPTED
 DEK-Info: DES-EDE3-CBC,258248872DB25390
 
@@ -57,14 +59,15 @@ zvqWMBJO6tQ5RHPLM2FmweyPB/XSL7KvLTe+g6pz/W9wf52CyQ/VeK+yBXqEi7QF
 0f9EKRlePRLAUcQPD4nkckcywX6Nz+TW/SOKt38YytM9MyQsAfcxu7u0nl/dLylk
 n57qUm3nk0z0moYJbfLx59eP0/go8VjeP2fRKkgz1DOM7VkmtPrC7vnyRpKsnP2S
 6n6uacerkNXTmUcz7mTCGGfrsBeACJeX1gwinDZVwkzDxNKhLXOlFFAMWE+SeiFp
-kDny2v3D8sU=``
+kDny2v3D8sU=
 -----END EC PRIVATE KEY-----
 ```
 
 You might also encounter Public Key Crytography Standard 8 (PKCS8) format
 private keys in PEM files, which looks similar to the following example:
 
-```-----BEGIN PRIVATE KEY-----
+```
+-----BEGIN PRIVATE KEY-----
 MIIBMAIBADCB0wYHKoZIzj0CATCBxwIBATAkBgcqhkjOPQEBAhkA////////////
 /////////v//////////MEsEGP////////////////////7//////////AQYIhI9
 wjlaBcqnQj2uzMlHYKfUYiVr1WkWAxUAxGloRDXes3jEtlypWR4qV2MFmi4EMQR9
@@ -77,7 +80,8 @@ KDD4QgmyLDKaqBv2wEWhNAMyAAT5j6o+ojeB6jaFAfx4rtGf5hYbT1N6NnlAWiP1
 
 In an encrypted form, the example is similar to this:
 
-```-----BEGIN ENCRYPTED PRIVATE KEY-----
+```
+-----BEGIN ENCRYPTED PRIVATE KEY-----
 MIIBWTAbBgkqhkiG9w0BBQMwDgQIGIcvnv17Q8oCAggABIIBOK+i1pk7em94F0Bn
 +yKxU5p7e2+cnnW/8b2mjvga0Uj8JVxRHi5eR2/u+3fjHQItq0df+qzyVC0TTCPz
 YZVrgHO9hPilgbGQKQQSpy9bpbGGiZ7I+aFpriEaJzugHUi8XTXY6XtnxgHAqTOX
@@ -150,7 +154,8 @@ key file to an encrypted PKCS8 format DER encoded key:
 EC public keys are also stored in PEM files. A typical EC public key looks
 like the following example:
 
-```-----BEGIN PUBLIC KEY-----
+```
+-----BEGIN PUBLIC KEY-----
 MEkwEwYHKoZIzj0CAQYIKoZIzj0DAQMDMgAE+Y+qPqI3geo2hQH8eK7Rn+YWG09T
 ejZ5QFoj9fmxFrUyYhFap6XmTdJtEi8myBmW
 -----END PUBLIC KEY-----
@@ -162,12 +167,12 @@ keys.
 It is possible to create a public key file from a private key file, although  
 not the other way around, as shown in the following example:
 
-`openssl ec -in ecprivkey.pem -pubout -out ecpubkey.pem
+`openssl ec -in ecprivkey.pem -pubout -out ecpubkey.pem`
 
 As above. a DER encoded version can be created using "-outform DER" by using
 the following command:
 
-`openssl ec -in ecprivkey.pem -pubout -outform DER -out ecpubkey.der
+`openssl ec -in ecprivkey.pem -pubout -outform DER -out ecpubkey.der`
 
 ### Generating EC keys and parameters
 
@@ -220,7 +225,8 @@ The command shows the details for a built-in named curve from a file, but you
 can also do directly by using the `-name` argument instead of `-in`. The
 output looks similar to the following:
 
-```Field Type: prime-field
+```
+Field Type: prime-field
 Prime:
     00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
     ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:fe:ff:
@@ -247,7 +253,8 @@ named curve. OpenSSL version 1.0.2 added new named curves such
 as brainpool512t1. Attempting to use a parameters file or key file in versions
 of OpenSSL earlier than 1.0.2 with this curve results in the following error:
 
-```bash$ openssl ecparam -in brainpoolP512t1.pem -text -noout
+```
+bash$ openssl ecparam -in brainpoolP512t1.pem -text -noout
 unable to load elliptic curve parameters
 140138321110720:error:1009E077:elliptic curve routines:EC_ASN1_PKPARAMETERS2GROUP:ec group new by name failure:ec_asn1.c:1035:
 140138321110720:error:1009107F:elliptic curve routines:d2i_ECPKParameters:pkparameters2group failure:ec_asn1.c:1080:
@@ -261,7 +268,8 @@ use OpenSSL 1.0.2, you can create a parameters file like this:
 
 If you look at the parameters file, you notice that it is much longer:
 
-```-----BEGIN EC PARAMETERS-----
+```
+-----BEGIN EC PARAMETERS-----
 MIIBogIBATBMBgcqhkjOPQEBAkEAqt2duNvpxIs/1OauM8n8B8swjbOzydIO1mOc
 ynAzCHF9TZsAm8ZoQq7NoSrmo4DmKIH/Ly2CxoUoqmBWWDpI8zCBhARAqt2duNvp
 xIs/1OauM8n8B8swjbOzydIO1mOcynAzCHF9TZsAm8ZoQq7NoSrmo4DmKIH/Ly2C
