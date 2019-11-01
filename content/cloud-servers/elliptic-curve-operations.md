@@ -1,7 +1,7 @@
 ---
 permalink: elliptic-curve-operations/
 audit_date:
-title: Command line Elliptic Curve operations
+title: Command-line Elliptic Curve operations
 type: article
 created_date: '2019-11-01'
 created_by: Shaun Crumpler
@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-OpenSSL&reg; provides the following command line tools for working with keys
+OpenSSL&reg; provides the following command-line tools for working with keys
 suitable for Elliptic Curve (EC) Cryptography algorithms:
 
 -  `openssl ecparam`
@@ -22,7 +22,7 @@ Currently, OpenSSL supports the following EC algorithms:
  -  Elliptic Curve Diffie Hellman (ECDH) for key agreement
  -  Elliptic Curve Digital Signature Algorithm (ECDSA) for signing/verifying
 
-`x25519`, `ed25519`, and `ed448` aren't standard EC curves so you can't use
+`x25519`, `ed25519`, and `ed448` aren't standard EC curves, so you can't use
 `ecparams` or `ec` subcommands to work with them. If you need to generate
 `x25519` or `ed25519` keys, see the `genpkey` subcommand.
 
@@ -99,13 +99,13 @@ keys&mdash;not just EC keys.
 You can convert between these formats if you like. All of the conversion
 commands can read either the encrypted or unencrypted forms of the files.
 However, you must specify whether you want the output to be encrypted or not.
-To convert a PKCS8 file to a traditional encrypted EC format use the following
+To convert a PKCS8 file to a traditional encrypted EC format, use the following
 command:
 
 `openssl ec -aes-128-cbc -in p8file.pem -out tradfile.pem`
 
 You can replace the first argument `aes-128-cbc` with any other valid
-openssl cipher name. (See the [OpenSSL documentation](https://wiki.openssl.org/index.php/Main_Page#Reference) for a list of valid cipher names.)
+OpenSSL cipher name. (See the [OpenSSL documentation](https://wiki.openssl.org/index.php/Main_Page#Reference) for a list of valid cipher names.)
 
 To convert a PKCS8 file to a traditional unencrypted EC format,  drop the
 first argument:
@@ -129,7 +129,7 @@ applied by using the `-nocrypt` option.
 
 In addition to PEM format, all of the types of key files shown above can also
 be stored in DER format. DER format is a binary format and is not directly
-human readable&mdash;unlike a PEM file. A PEM file is essentially DER data
+human-readable&mdash;unlike a PEM file. A PEM file is essentially DER data
 encoded by using base 64 encoding rules, with a header and footer added.
 PEM files are often more convenient to work with for this reason.
 
@@ -142,10 +142,10 @@ in the following example:
 `openssl ec -in p8file.pem -outform DER -out tradfile.der`
 
 **Note**: You cannot encrypt a traditional format EC private key in DER
-format. In fact, if you attempt to do so, the argument is silently ignored. The
+format. If you attempt to do so, the argument is silently ignored. The
 same is not true for PKCS8 files. These files can still be encrypted even in
 DER format. For example, the following example converts a traditional format
-key file to an encrypted PKCS8 format DER encoded key:
+key file to an encrypted PKCS8 format DER-encoded key:
 
 `openssl pkcs8 -topk8 -in tradfile.pem -outform DER -out p8file.der`
 
@@ -169,7 +169,7 @@ not the other way around, as shown in the following example:
 
 `openssl ec -in ecprivkey.pem -pubout -out ecpubkey.pem`
 
-As above. a DER encoded version can be created using "-outform DER" by using
+As above, a DER-encoded version can be created using "-outform DER" by using
 the following command:
 
 `openssl ec -in ecprivkey.pem -pubout -outform DER -out ecpubkey.der`
@@ -177,8 +177,8 @@ the following command:
 ### Generating EC keys and parameters
 
 An EC parameters file contains all of the information necessary to define an
-elliptic curve that you can then use for cryptographic operations (for OpenSSL
-this means ECDH and ECDSA). OpenSSL contains a large set of pre-defined curves
+elliptic curve that you can then use for cryptographic operations (for OpenSSL,
+this means ECDH and ECDSA). OpenSSL contains a large set of predefined curves
 that you can use. You can obtain the full list of built-in curves by using the
 following command:
 
@@ -193,7 +193,7 @@ Replace `secp256k1` with whichever curve you are interested in.
 
 You can generate keys by using the `ecparam` command, either through a
 pre-existing parameters file or directly by selecting the name of the curve.
-To generate a private/public key pair from a pre-existing parameters file use
+To generate a private/public key pair from a pre-existing parameters file, use
 the following command:
 
 `openssl ecparam -in secp256k1.pem -genkey -noout -out secp256k1-key.pem`
