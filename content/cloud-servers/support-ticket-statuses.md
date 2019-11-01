@@ -22,15 +22,15 @@ After you create a support ticket, it can have one of the following statuses, de
 The following process explains how a ticket moves through these
 statuses:
 
-1.  After a ticket is reviewed by the Rackspace Cloud support team, it moves to the **In Progress** status.
+1.  After the Rackspace Support team reviews a ticket, it moves to the **In Progress** status.
 
-2.  If the support team needs more information from the customer to fix the issue, the ticket might move to the **Pending Customer** status.
+2.  If the Support team needs more information from the customer to fix the issue, the ticket might move to the **Pending Customer** status.
 
 3.  If the ticket is waiting for an update or release from a vendor, the ticket might move to the **Pending Rackspace** status.
 
 4.  If the ticket is waiting for a maintenance window and is not being actively worked, the ticket might move to the **Pending Rackspace** status.
 
-5. When Rackspace solves the issue, the status is changed to **Solved**.
+5. When Rackspace resolves the issue, the status changes to **Solved**.
 
 6.  After a ticket has a status of **Solved**, a customer can move the ticket to **Closed** or reopen it, which changes the status to **In Progress**.
 
