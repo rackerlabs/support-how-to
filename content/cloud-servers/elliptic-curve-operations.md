@@ -32,7 +32,7 @@ Currently, OpenSSL supports the following EC algorithms:
 By default, OpenSSL works with Privacy Enhanced Mail (PEM) files for storing
 EC private keys. These text files contain base-64 encoded data. A traditional
 format private key file in PEM format looks similar to the
-following example in a file with a ``.pem`` extension:
+following example in a file with a `.pem` extension:
 
 ```
 -----BEGIN EC PRIVATE KEY-----
