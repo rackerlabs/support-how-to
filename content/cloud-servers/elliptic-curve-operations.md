@@ -47,50 +47,48 @@ following example in a file with a `.pem` extension:
 
 In an encrypted form, the example is similar to this:
 
-```
------BEGIN EC PRIVATE KEY-----<br/>
-Proc-Type: 4,ENCRYPTED<br/>
-DEK-Info: DES-EDE3-CBC,258248872DB25390<br/>
 
-JIzhns0nRb+pj6RONAijJli8Rhu2bIrw8D+ruHEWL1IEH6Q5tvzqAI2PDYXbSzCn<br/>
-24JPWx9khmTu6ijerANNYYk0p2Pjxr12MAYpqgtXbRrXLF4AIomzYWq16BH7Y63o<br/>
-zvqWMBJO6tQ5RHPLM2FmweyPB/XSL7KvLTe+g6pz/W9wf52CyQ/VeK+yBXqEi7QF<br/>
-0f9EKRlePRLAUcQPD4nkckcywX6Nz+TW/SOKt38YytM9MyQsAfcxu7u0nl/dLylk<br/>
-n57qUm3nk0z0moYJbfLx59eP0/go8VjeP2fRKkgz1DOM7VkmtPrC7vnyRpKsnP2S<br/>
-6n6uacerkNXTmUcz7mTCGGfrsBeACJeX1gwinDZVwkzDxNKhLXOlFFAMWE+SeiFp<br/>
-kDny2v3D8sU=<br/>
------END EC PRIVATE KEY-----<br/>
-```
+    -----BEGIN EC PRIVATE KEY-----<br/>
+    Proc-Type: 4,ENCRYPTED<br/>
+    DEK-Info: DES-EDE3-CBC,258248872DB25390<br/>
+
+    JIzhns0nRb+pj6RONAijJli8Rhu2bIrw8D+ruHEWL1IEH6Q5tvzqAI2PDYXbSzCn
+    24JPWx9khmTu6ijerANNYYk0p2Pjxr12MAYpqgtXbRrXLF4AIomzYWq16BH7Y63o
+    zvqWMBJO6tQ5RHPLM2FmweyPB/XSL7KvLTe+g6pz/W9wf52CyQ/VeK+yBXqEi7QF
+    0f9EKRlePRLAUcQPD4nkckcywX6Nz+TW/SOKt38YytM9MyQsAfcxu7u0nl/dLylk
+    n57qUm3nk0z0moYJbfLx59eP0/go8VjeP2fRKkgz1DOM7VkmtPrC7vnyRpKsnP2S
+    6n6uacerkNXTmUcz7mTCGGfrsBeACJeX1gwinDZVwkzDxNKhLXOlFFAMWE+SeiFp
+    kDny2v3D8sU=
+    -----END EC PRIVATE KEY-----
 
 You might also encounter Public Key Crytography Standard 8 (PKCS8) format
 private keys in PEM files, which looks similar to the following example:
 
-```
------BEGIN PRIVATE KEY-----
-MIIBMAIBADCB0wYHKoZIzj0CATCBxwIBATAkBgcqhkjOPQEBAhkA////////////
-/////////v//////////MEsEGP////////////////////7//////////AQYIhI9
-wjlaBcqnQj2uzMlHYKfUYiVr1WkWAxUAxGloRDXes3jEtlypWR4qV2MFmi4EMQR9
-KXeBAMZaHaF4NxZYjc4ri0rujiKPGJY4qQ8iY3M3M0tJ3LZqbcj5l4rKdkipQ7AC
-GQD///////////////96YtAxyD9ClPZA7BMCAQEEVTBTAgEBBBiKtwssqrxHY/gu
-KDD4QgmyLDKaqBv2wEWhNAMyAAT5j6o+ojeB6jaFAfx4rtGf5hYbT1N6NnlAWiP1
-+bEWtTJiEVqnpeZN0m0SLybIGZY=``
------END PRIVATE KEY-----
-```
+    -----BEGIN PRIVATE KEY-----
+    MIIBMAIBADCB0wYHKoZIzj0CATCBxwIBATAkBgcqhkjOPQEBAhkA////////////
+    /////////v//////////MEsEGP////////////////////7//////////AQYIhI9
+    wjlaBcqnQj2uzMlHYKfUYiVr1WkWAxUAxGloRDXes3jEtlypWR4qV2MFmi4EMQR9
+    KXeBAMZaHaF4NxZYjc4ri0rujiKPGJY4qQ8iY3M3M0tJ3LZqbcj5l4rKdkipQ7AC
+    GQD///////////////96YtAxyD9ClPZA7BMCAQEEVTBTAgEBBBiKtwssqrxHY/gu
+    KDD4QgmyLDKaqBv2wEWhNAMyAAT5j6o+ojeB6jaFAfx4rtGf5hYbT1N6NnlAWiP1
+    +bEWtTJiEVqnpeZN0m0SLybIGZY=``
+    -----END PRIVATE KEY-----
+
 
 In an encrypted form, the example is similar to this:
 
-```
------BEGIN ENCRYPTED PRIVATE KEY-----
-MIIBWTAbBgkqhkiG9w0BBQMwDgQIGIcvnv17Q8oCAggABIIBOK+i1pk7em94F0Bn
-+yKxU5p7e2+cnnW/8b2mjvga0Uj8JVxRHi5eR2/u+3fjHQItq0df+qzyVC0TTCPz
-YZVrgHO9hPilgbGQKQQSpy9bpbGGiZ7I+aFpriEaJzugHUi8XTXY6XtnxgHAqTOX
-nma2HHoGRic2wNgIGKQ+B1pULy2kFDMvQ/AwvYS13uH2Trfja9M9wRqYjM2MS0Ky
-ii03OsNhJjZQcPmy2ALciR+umG4IQ7qszfrCA7L95F3qVXa7DgAPDZyUSdF3ucSh
-IlrEvaP7FeLfJ1/ilUaXK6XC9EDYPDWMErUQJZJAywczQMqjY4/pdhb8Y+TpbN/r
-q1I5j+JbRwfvvJV7CAHv1EEjvWiWvjHamlb7iqh3gneOYPbvSfjuaOyVd5YhwQ7P
-nGOah+eEf9uyDSZabg==``
------END ENCRYPTED PRIVATE KEY-----
-```
+
+    -----BEGIN ENCRYPTED PRIVATE KEY-----
+    MIIBWTAbBgkqhkiG9w0BBQMwDgQIGIcvnv17Q8oCAggABIIBOK+i1pk7em94F0Bn
+    +yKxU5p7e2+cnnW/8b2mjvga0Uj8JVxRHi5eR2/u+3fjHQItq0df+qzyVC0TTCPz
+    YZVrgHO9hPilgbGQKQQSpy9bpbGGiZ7I+aFpriEaJzugHUi8XTXY6XtnxgHAqTOX
+    nma2HHoGRic2wNgIGKQ+B1pULy2kFDMvQ/AwvYS13uH2Trfja9M9wRqYjM2MS0Ky
+    ii03OsNhJjZQcPmy2ALciR+umG4IQ7qszfrCA7L95F3qVXa7DgAPDZyUSdF3ucSh
+    IlrEvaP7FeLfJ1/ilUaXK6XC9EDYPDWMErUQJZJAywczQMqjY4/pdhb8Y+TpbN/r
+    q1I5j+JbRwfvvJV7CAHv1EEjvWiWvjHamlb7iqh3gneOYPbvSfjuaOyVd5YhwQ7P
+    nGOah+eEf9uyDSZabg==``
+    -----END ENCRYPTED PRIVATE KEY-----
+
 
 PKCS8 private key files are capable of holding many different types of private
 keys&mdash;not just EC keys.
@@ -153,12 +151,12 @@ key file to an encrypted PKCS8 format DER-encoded key:
 EC public keys are also stored in PEM files. A typical EC public key looks
 like the following example:
 
-```
------BEGIN PUBLIC KEY-----
-MEkwEwYHKoZIzj0CAQYIKoZIzj0DAQMDMgAE+Y+qPqI3geo2hQH8eK7Rn+YWG09T
-ejZ5QFoj9fmxFrUyYhFap6XmTdJtEi8myBmW
------END PUBLIC KEY-----
-```
+
+    -----BEGIN PUBLIC KEY-----
+    MEkwEwYHKoZIzj0CAQYIKoZIzj0DAQMDMgAE+Y+qPqI3geo2hQH8eK7Rn+YWG09T
+    ejZ5QFoj9fmxFrUyYhFap6XmTdJtEi8myBmW
+    -----END PUBLIC KEY-----
+
 
 This format is used to store all types of public keys in OpenSSL, not just EC
 keys.
@@ -224,26 +222,26 @@ The command shows the details for a built-in named curve from a file, but you
 can also do directly by using the `-name` argument instead of `-in`. The
 output looks similar to the following:
 
-```
-Field Type: prime-field
-Prime:
-    00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
-    ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:fe:ff:
-    ff:fc:2f
-A:    0
-B:    7 (0x7)
-Generator (uncompressed):
-    04:79:be:66:7e:f9:dc:bb:ac:55:a0:62:95:ce:87:
-    0b:07:02:9b:fc:db:2d:ce:28:d9:59:f2:81:5b:16:
-    f8:17:98:48:3a:da:77:26:a3:c4:65:5d:a4:fb:fc:
-    0e:11:08:a8:fd:17:b4:48:a6:85:54:19:9c:47:d0:
-    8f:fb:10:d4:b8
-Order:
-    00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
-    ff:fe:ba:ae:dc:e6:af:48:a0:3b:bf:d2:5e:8c:d0:
-    36:41:41
-Cofactor:  1 (0x1)
-```
+
+    Field Type: prime-field
+    Prime:
+        00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+        ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:fe:ff:
+        ff:fc:2f
+    A:    0
+    B:    7 (0x7)
+    Generator (uncompressed):
+        04:79:be:66:7e:f9:dc:bb:ac:55:a0:62:95:ce:87:
+        0b:07:02:9b:fc:db:2d:ce:28:d9:59:f2:81:5b:16:
+        f8:17:98:48:3a:da:77:26:a3:c4:65:5d:a4:fb:fc:
+        0e:11:08:a8:fd:17:b4:48:a6:85:54:19:9c:47:d0:
+        8f:fb:10:d4:b8
+    Order:
+        00:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:
+        ff:fe:ba:ae:dc:e6:af:48:a0:3b:bf:d2:5e:8c:d0:
+        36:41:41
+    Cofactor:  1 (0x1)
+
 
 You can generate parameters and key files to include the full explicit
 parameters instead of just the name of the curve if desired. This might be
@@ -252,13 +250,13 @@ named curve. OpenSSL version 1.0.2 added new named curves such
 as brainpool512t1. Attempting to use a parameters file or key file in versions
 of OpenSSL earlier than 1.0.2 with this curve results in the following error:
 
-```
-bash$ openssl ecparam -in brainpoolP512t1.pem -text -noout
-unable to load elliptic curve parameters
-140138321110720:error:1009E077:elliptic curve routines:EC_ASN1_PKPARAMETERS2GROUP:ec group new by name failure:ec_asn1.c:1035:
-140138321110720:error:1009107F:elliptic curve routines:d2i_ECPKParameters:pkparameters2group failure:ec_asn1.c:1080:
-140138321110720:error:0906700D:PEM routines:PEM_ASN1_read_bio:ASN1 lib:pem_oth.c:83:
-```
+
+    bash$ openssl ecparam -in brainpoolP512t1.pem -text -noout
+    unable to load elliptic curve parameters
+    140138321110720:error:1009E077:elliptic curve routines:EC_ASN1_PKPARAMETERS2GROUP:ec group new by name failure:ec_asn1.c:1035:
+    140138321110720:error:1009107F:elliptic curve routines:d2i_ECPKParameters:pkparameters2group failure:ec_asn1.c:1080:
+    140138321110720:error:0906700D:PEM routines:PEM_ASN1_read_bio:ASN1 lib:pem_oth.c:83:
+
 
 You can avoid this problem if you use explicit parameters instead. When you
 use OpenSSL 1.0.2, you can create a parameters file like this:
@@ -267,19 +265,18 @@ use OpenSSL 1.0.2, you can create a parameters file like this:
 
 If you look at the parameters file, you notice that it is much longer:
 
-```
------BEGIN EC PARAMETERS-----
-MIIBogIBATBMBgcqhkjOPQEBAkEAqt2duNvpxIs/1OauM8n8B8swjbOzydIO1mOc
-ynAzCHF9TZsAm8ZoQq7NoSrmo4DmKIH/Ly2CxoUoqmBWWDpI8zCBhARAqt2duNvp
-xIs/1OauM8n8B8swjbOzydIO1mOcynAzCHF9TZsAm8ZoQq7NoSrmo4DmKIH/Ly2C
-xoUoqmBWWDpI8ARAfLu8+UQc+rduGJDkaITq4yH3DAvLSYFSeJdQS+w+NqYrzfoj
-BJdlQPZFAIXy2uFFwiVTtGV2NokYDqJXGGdCPgSBgQRkDs5cEniHF7nBugbLwqb+
-uoWEJFjFbd6dsXWNOcAxPYK6UXNc2z6kmap3p9aUOmT3o/Jf4m8GtRuqJpb6kDXa
-W1NL1ZX1rw+iyJI3bISs4btOMBm3FjTAETEVnK4DzunZkyGEvu8ha9cd8trfhqYn
-MG7P+W27i6zhmLYeAPizMgJBAKrdnbjb6cSLP9TmrjPJ/AfLMI2zs8nSDtZjnMpw
-MwhwVT5cQUypJhlBhmEZf6wQRx2x04EIXdrdtYeWgpypAGkCAQE=
------END EC PARAMETERS-----
-```
+    -----BEGIN EC PARAMETERS-----
+    MIIBogIBATBMBgcqhkjOPQEBAkEAqt2duNvpxIs/1OauM8n8B8swjbOzydIO1mOc
+    ynAzCHF9TZsAm8ZoQq7NoSrmo4DmKIH/Ly2CxoUoqmBWWDpI8zCBhARAqt2duNvp
+    xIs/1OauM8n8B8swjbOzydIO1mOcynAzCHF9TZsAm8ZoQq7NoSrmo4DmKIH/Ly2C
+    xoUoqmBWWDpI8ARAfLu8+UQc+rduGJDkaITq4yH3DAvLSYFSeJdQS+w+NqYrzfoj
+    BJdlQPZFAIXy2uFFwiVTtGV2NokYDqJXGGdCPgSBgQRkDs5cEniHF7nBugbLwqb+
+    uoWEJFjFbd6dsXWNOcAxPYK6UXNc2z6kmap3p9aUOmT3o/Jf4m8GtRuqJpb6kDXa
+    W1NL1ZX1rw+iyJI3bISs4btOMBm3FjTAETEVnK4DzunZkyGEvu8ha9cd8trfhqYn
+    MG7P+W27i6zhmLYeAPizMgJBAKrdnbjb6cSLP9TmrjPJ/AfLMI2zs8nSDtZjnMpw
+    MwhwVT5cQUypJhlBhmEZf6wQRx2x04EIXdrdtYeWgpypAGkCAQE=
+    -----END EC PARAMETERS-----
+
 
 The full parameters are included rather than just the name. This can now be
 processed by versions of OpenSSL earlier than 1.0.2. Using 1.0.1, use this
