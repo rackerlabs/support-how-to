@@ -1,7 +1,7 @@
 ---
 permalink: disable-http-compression-in-apache/ 
 audit_date:
-title: Disable HTTP Compression on Apache Servers 
+title: Disable HTTP compression on Apache servers 
 type: article
 created_date: '2019-10-30'
 created_by: Chadwick Sterling
@@ -11,21 +11,23 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to check if HTTP is being compressed on your Apache server as well as how to disable this compression. 
+This article explains how to check if HTTP is being compressed on your Apache&reg; server. It also explains how to disable this compression. 
 
 ### Testing your server for HTTP compression 
 
-1. Connect to the server using OpenSSl.
+1. Connect to the server using OpenSSL.
 
 2. Add the following request to the header to check for HTTP compression:
 
        Accept-Encoding:compress,gzip
 
-If compression is enabled, the server will respond by compressing the page. If the server does not support compression, it will display the page in plain text. 
+If compression is enabled, the server responds by compressing the page. If the server does not support compression, it  displays the page in plain text. 
 
-### Disabling HTTP compression using Ubuntu or Debian operating systems
+### Disabling HTTP compression by using Ubuntu or Debian operating systems
 
-1. Disable the module mod_deflate using the following command:
+To disable the compression by using Ubuntu&reg; or Debian&reg;, use the following steps:
+
+1. Disable the module **mod_deflate** by using the following command:
 
        $ sudo a2dismod deflate
 
@@ -33,13 +35,15 @@ If compression is enabled, the server will respond by compressing the page. If t
 
        $ sudo /etc/init.d/apache2 restart
 
-### Disabling HTTP compression using Red Hat or CentOS operating system
+### Disabling HTTP compression by using Red Hat or CentOS operating system
+
+To disable the compression by using Red Hat&reg; or CentOS&reg;, use the following steps:
 
 1. Access the main configuraton file:
 
        $ sudo nano /etc/httpd/conf/httpd.conf
 
-2. Comment out the below line:
+2. Comment out the following line:
 
        LoadModule deflate_module modules/mod_deflate.so
 
