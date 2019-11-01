@@ -32,19 +32,19 @@ Currently, OpenSSL supports the following EC algorithms:
 By default, OpenSSL works with Privacy Enhanced Mail (PEM) files for storing
 EC private keys. These text files contain base-64 encoded data. A traditional
 format private key file in PEM format looks similar to the
-following example in a file with a ``.pem`` extension:
+following example in a file with a `.pem` extension:
 
-```
------BEGIN EC PRIVATE KEY-----
-MIIBIAIBAQQYd8yhaE899FaH3sw8aD4F/vtpMVBLfVqmoIHKMIHHAgEBMCQGByqG
-SM49AQECGQD////////////////////+//////////8wSwQY////////////////
-/////v/////////8BBgiEj3COVoFyqdCPa7MyUdgp9RiJWvVaRYDFQDEaWhENd6z
-eMS2XKlZHipXYwWaLgQxBH0pd4EAxlodoXg3FliNziuLSu6OIo8YljipDyJjczcz
-S0nctmptyPmXisp2SKlDsAIZAP///////////////3pi0DHIP0KU9kDsEwIBAaE0
-AzIABBsl8ZSGJqcUpVoP8zekF92DGqDBMERcHhCXmgPXchP+ljybXbzYKINgxbp5
-0g9/pw==
------END EC PRIVATE KEY-----
-```
+
+    -----BEGIN EC PRIVATE KEY-----
+    MIIBIAIBAQQYd8yhaE899FaH3sw8aD4F/vtpMVBLfVqmoIHKMIHHAgEBMCQGByqG
+    SM49AQECGQD////////////////////+//////////8wSwQY////////////////
+    /////v/////////8BBgiEj3COVoFyqdCPa7MyUdgp9RiJWvVaRYDFQDEaWhENd6z
+    eMS2XKlZHipXYwWaLgQxBH0pd4EAxlodoXg3FliNziuLSu6OIo8YljipDyJjczcz
+    S0nctmptyPmXisp2SKlDsAIZAP///////////////3pi0DHIP0KU9kDsEwIBAaE0
+    AzIABBsl8ZSGJqcUpVoP8zekF92DGqDBMERcHhCXmgPXchP+ljybXbzYKINgxbp5
+    0g9/pw==
+    -----END EC PRIVATE KEY-----
+
 
 In an encrypted form, the example is similar to this:
 
