@@ -49,18 +49,18 @@ following example in a file with a `.pem` extension:
 In an encrypted form, the example is similar to this:
 
 ```
------BEGIN EC PRIVATE KEY-----
-Proc-Type: 4,ENCRYPTED
-DEK-Info: DES-EDE3-CBC,258248872DB25390
+-----BEGIN EC PRIVATE KEY-----<br/>
+Proc-Type: 4,ENCRYPTED<br/>
+DEK-Info: DES-EDE3-CBC,258248872DB25390<br/>
 
-JIzhns0nRb+pj6RONAijJli8Rhu2bIrw8D+ruHEWL1IEH6Q5tvzqAI2PDYXbSzCn
-24JPWx9khmTu6ijerANNYYk0p2Pjxr12MAYpqgtXbRrXLF4AIomzYWq16BH7Y63o
-zvqWMBJO6tQ5RHPLM2FmweyPB/XSL7KvLTe+g6pz/W9wf52CyQ/VeK+yBXqEi7QF
-0f9EKRlePRLAUcQPD4nkckcywX6Nz+TW/SOKt38YytM9MyQsAfcxu7u0nl/dLylk
-n57qUm3nk0z0moYJbfLx59eP0/go8VjeP2fRKkgz1DOM7VkmtPrC7vnyRpKsnP2S
-6n6uacerkNXTmUcz7mTCGGfrsBeACJeX1gwinDZVwkzDxNKhLXOlFFAMWE+SeiFp
-kDny2v3D8sU=
------END EC PRIVATE KEY-----
+JIzhns0nRb+pj6RONAijJli8Rhu2bIrw8D+ruHEWL1IEH6Q5tvzqAI2PDYXbSzCn<br/>
+24JPWx9khmTu6ijerANNYYk0p2Pjxr12MAYpqgtXbRrXLF4AIomzYWq16BH7Y63o<br/>
+zvqWMBJO6tQ5RHPLM2FmweyPB/XSL7KvLTe+g6pz/W9wf52CyQ/VeK+yBXqEi7QF<br/>
+0f9EKRlePRLAUcQPD4nkckcywX6Nz+TW/SOKt38YytM9MyQsAfcxu7u0nl/dLylk<br/>
+n57qUm3nk0z0moYJbfLx59eP0/go8VjeP2fRKkgz1DOM7VkmtPrC7vnyRpKsnP2S<br/>
+6n6uacerkNXTmUcz7mTCGGfrsBeACJeX1gwinDZVwkzDxNKhLXOlFFAMWE+SeiFp<br/>
+kDny2v3D8sU=<br/>
+-----END EC PRIVATE KEY-----<br/>
 ```
 
 You might also encounter Public Key Crytography Standard 8 (PKCS8) format
