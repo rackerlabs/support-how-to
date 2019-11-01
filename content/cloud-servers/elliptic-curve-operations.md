@@ -34,7 +34,6 @@ EC private keys. These text files contain base-64 encoded data. A traditional
 format private key file in PEM format looks similar to the
 following example in a file with a `.pem` extension:
 
-
     -----BEGIN EC PRIVATE KEY-----
     MIIBIAIBAQQYd8yhaE899FaH3sw8aD4F/vtpMVBLfVqmoIHKMIHHAgEBMCQGByqG
     SM49AQECGQD////////////////////+//////////8wSwQY////////////////
