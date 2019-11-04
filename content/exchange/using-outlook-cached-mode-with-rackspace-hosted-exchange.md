@@ -21,7 +21,7 @@ Outlook 2013 for Windows&reg; lets you choose how much email to keep in the cach
 3.  In the Change Account window, drag the **Mail to keep offline** slider to the desired number of months.
 4.  Click **Next** and then **Finish**.
 
-For more information, see the Microsoft support article
+For more information, see the Microsoft support article,
 [Only a subset of your Exchange mailbox items are synchronized in Outlook 2013](http://support.microsoft.com/kb/2733062).
 
-We do not recommend using Cached Exchange Mode as a data backup solution as this can become corrupted and unusable. Rackspace offers an [Email Archiving](how-to/rackspace-email-archiving/) solution which offsets the risk of relying on a local cache backup.
+We do not recommend using Cached Exchange Mode as a data backup solution as things can become corrupted and unusable. Rackspace offers an [Email Archiving](how-to/rackspace-email-archiving/) solution, which offsets the risk of relying on a local cache backup.
