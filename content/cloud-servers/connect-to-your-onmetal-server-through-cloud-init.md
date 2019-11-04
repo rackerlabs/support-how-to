@@ -5,7 +5,7 @@ title: Connect to your OnMetal Server through cloud-init
 type: article
 created_date: '2014-07-22'
 created_by: Paul Querna
-last_modified_date: '2014-07-24'
+last_modified_date: '2019-11-4'
 last_modified_by: Kyle Laffoon
 product: Cloud Servers
 product_url: cloud-servers
