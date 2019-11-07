@@ -39,7 +39,7 @@ following user types:
 
 -   **Reviewer** - Provides access to view the results of saved searches that have been explicitly shared with the individual user. Reviewers are unable to download or send the results from the application.
 
--   **End User** - Provides access to ‘MyArchive’ functionality which limits access to archived assets associated with the logged in users’ listed email address.
+-   **End User** - Provides access to **MyArchive** functionality which limits access to archived assets associated with the logged in users’ listed email address.
 
 You can also edit an existing user to change any of the following user
 settings or information:
@@ -79,7 +79,7 @@ Use the following steps to add multiple users to the Archive Manager:
 2.  Click **CSV template** and save the compressed
     folder.
 
-    (**Note**: Please enter **TRUE** or **FALSE** in the 'Send-welcome-email' column.)
+    (**Note**: Please enter **TRUE** or **FALSE** in the **Send-welcome-email** column.)
     <img src="{% asset_path rackspace-email-archiving/add-and-edit-archive-users/add-edit-user-pic.png %}" />
 
 3.  When you have entered the users, save the **Archive Users**
