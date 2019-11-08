@@ -4,8 +4,8 @@ type: article
 audit_date: '2018-11-12'
 created_date: '2018-10-09'
 created_by: Nick Shobe
-last_modified_date: '2019-09-26'
-last_modified_by: Tim Farley
+last_modified_date: '2019-11-08'
+last_modified_by: Shampa Deb
 permalink: rackspace-pdr-agent-compatibility/
 product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
@@ -31,7 +31,14 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.47-64.38.amzn2.x86_64 | 4.14.51-66.38.amzn2.x86_64 | 4.14.55-68.37.amzn2.x86_64 | 4.14.59-68.43.amzn2.x86_64 |
 | 4.14.62-70.117.amzn2.x86_64 | 4.14.67-71.56.amzn2.x86_64 | 4.14.70-72.55.amzn2.x86_64 | 4.14.72-73.55.amzn2.x86_64 |
 | 4.14.77-80.57.amzn2.x86_64 | 4.14.77-81.59.amzn2.x86_64 | 4.14.77-86.82.amzn2.x86_64 | 4.14.88-88.73.amzn2.x86_64 |
-| 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 | 4.14.97-90.72.amzn2.x86_64 | |
+| 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 | 4.14.97-90.72.amzn2.x86_64 | | 4.14.101-91.76.amzn2.x86_64 | 4.14.104-95.84.amzn2.x86_64 | 4.14.106-97.85.amzn2.x86_64 | 4.14.109-99.92.amzn2.x86_64 |
+| 4.14.114-103.97.amzn2.x86_64 | 4.14.114-105.126.amzn2.x86_64 | 4.14.121-109.96.amzn2.x86_64 | 4.14.123-111.109.amzn2.x86_64 |
+| 4.14.128-112.105.amzn2.x86_64 | 4.14.133-113.105.amzn2.x86_64 | 4.14.133-113.112.amzn2.x86_64 | 4.14.138-114.102.amzn2.x86_64 |
+| 4.14.143-118.123.amzn2.x86_64 | 4.14.146-119.123.amzn2.x86_64 | 4.14.47-64.38.amzn2.x86_64 | 4.14.51-66.38.amzn2.x86_64 |
+| 4.14.55-68.37.amzn2.x86_64 | 4.14.59-68.43.amzn2.x86_64 | 4.14.62-70.117.amzn2.x86_64 | 4.14.67-71.56.amzn2.x86_64 |
+| 4.14.70-72.55.amzn2.x86_64 | 4.14.72-73.55.amzn2.x86_64 | 4.14.77-80.57.amzn2.x86_64 | 4.14.77-81.59.amzn2.x86_64 |
+| 4.14.77-86.82.amzn2.x86_64 | 4.14.88-88.73.amzn2.x86_64 | 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 |
+| 4.14.97-90.72.amzn2.x86_64 | | | |
 
 
 ### Amazon Linux 2017.03 Supported Versions
@@ -461,6 +468,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
 | 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
 | 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
+| 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
+| 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
+| 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
 
 
 ### Ubuntu 18.04 LTS Supported Versions
@@ -479,7 +489,27 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.15.0-39-generic | 4.15.0-42-generic | 4.15.0-43-generic | 4.15.0-44-generic |
 | 4.15.0-45-generic | 4.15.0-46-generic | 4.15.0-47-generic | 4.15.0-48-generic |
 | 4.15.0-50-generic | 4.15.0-51-generic | 4.15.0-52-generic | 4.15.0-54-generic |
-| 4.15.0-55-generic | 4.15.0-58-generic | 4.15.0-60-generic | |
+| 4.15.0-55-generic | 4.15.0-58-generic | 4.15.0-60-generic | | 4.15.0-1006-gcp | 4.15.0-1007-aws | 4.15.0-1008-gcp | 4.15.0-1009-aws |
+| 4.15.0-1009-gcp | 4.15.0-1010-aws | 4.15.0-1011-aws | 4.15.0-1014-gcp |
+| 4.15.0-1015-gcp | 4.15.0-1016-aws | 4.15.0-1017-aws | 4.15.0-1017-gcp |
+| 4.15.0-1018-gcp | 4.15.0-1019-aws | 4.15.0-1019-gcp | 4.15.0-1020-aws |
+| 4.15.0-1021-aws | 4.15.0-1021-gcp | 4.15.0-1023-aws | 4.15.0-1023-gcp |
+| 4.15.0-1024-gcp | 4.15.0-1025-aws | 4.15.0-1025-gcp | 4.15.0-1026-gcp |
+| 4.15.0-1027-gcp | 4.15.0-1028-gcp | 4.15.0-1029-aws | 4.15.0-1029-gcp |
+| 4.15.0-1030-gcp | 4.15.0-1031-aws | 4.15.0-1032-aws | 4.15.0-1032-gcp |
+| 4.15.0-1033-aws | 4.15.0-1033-gcp | 4.15.0-1034-aws | 4.15.0-1034-gcp |
+| 4.15.0-1035-aws | 4.15.0-1036-gcp | 4.15.0-1037-aws | 4.15.0-1037-gcp |
+| 4.15.0-1039-aws | 4.15.0-1040-aws | 4.15.0-1040-gcp | 4.15.0-1041-aws |
+| 4.15.0-1042-gcp | 4.15.0-1043-aws | 4.15.0-1044-aws | 4.15.0-1044-gcp |
+| 4.15.0-1045-aws | 4.15.0-1047-aws | 4.15.0-1048-aws | 4.15.0-1050-aws |
+| 4.15.0-1051-aws | 4.15.0-20-generic | 4.15.0-22-generic | 4.15.0-23-generic |
+| 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic | 4.15.0-32-generic |
+| 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic | 4.15.0-38-generic |
+| 4.15.0-39-generic | 4.15.0-42-generic | 4.15.0-43-generic | 4.15.0-44-generic |
+| 4.15.0-45-generic | 4.15.0-46-generic | 4.15.0-47-generic | 4.15.0-48-generic |
+| 4.15.0-50-generic | 4.15.0-51-generic | 4.15.0-52-generic | 4.15.0-54-generic |
+| 4.15.0-55-generic | 4.15.0-58-generic | 4.15.0-60-generic | 4.15.0-62-generic |
+| 4.15.0-64-generic | 4.15.0-65-generic | | |
 
 
 ### Windows Server 2008 R2 SP1 Supported Versions
@@ -508,3 +538,4 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | | | | |
 |-|-|-|-|
 | 10.0.14393 | | | |
+
