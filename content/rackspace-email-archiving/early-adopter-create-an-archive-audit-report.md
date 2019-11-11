@@ -11,7 +11,12 @@ product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-**Note:** The information contained in this article can be obtained by archive users with Administrator or Compliance Officer permissions.
+### Prerequisites
+
+- **Applies to:** Administrator and Compliance Officers
+- **Difficulty:** Easy
+- **Time needed:** Approximately 5 minutes
+- **Tools required:** Archive Portal access
 
 The Archive Manager records all user interactions. To view a report of activity, users with Administrator or Compliance Officer permissions can create an audit report. Reports can include information about the following items:
 
@@ -29,7 +34,7 @@ The Archive Manager records all user interactions. To view a report of activity,
 To create an archive audit report, perform the following steps:
 
 1.  Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
-    
+
     For more information, see [Log in to the Archive Manager](/how-to/log-in-to-the-archive-manager).
 
 2.  In the upper-right corner of the window, click the gear icon.
