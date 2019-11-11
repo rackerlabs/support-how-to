@@ -11,6 +11,8 @@ product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
+This article describes how to create an archive audit report by using the Archive Manager.
+
 ### Prerequisites
 
 - **Applies to:** Administrator and Compliance Officers
@@ -30,6 +32,8 @@ The Archive Manager records all user interactions. To view a report of activity,
 -   Settings and policies
 
 **Note:** You can download reports directly from the Archive Manager.
+
+### Create an archive audit report
 
 To create an archive audit report, perform the following steps:
 
