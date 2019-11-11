@@ -9,7 +9,7 @@ product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-This article describes how to set a retention policy in your email archive. This feature can be useful for companies that enact policies that only allow the retention of email records for a certain duration of time.
+This article describes how to set a retention policy in your email archive. This feature can be used to enact policies that only allow the retention of email records for a certain duration of time.
 
 
 ### Prerequisites
@@ -25,6 +25,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 ### Set an archive retention policy
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
+
 2. Scroll down to the **Domains** section. In the far-right column of this section, click **Email Archiving**.
 
    <img src="{% asset_path rackspace-email-archiving/set-an-archiving-retention-policy/domains_archive.png %}" />
@@ -44,6 +45,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 6. After you set the policy, click **Update**.
 
-    **Warning:** Any items older than the set retention duration are immediately purged from the archive and are unrecoverable. Items that later exceed the retention duration are also permanently deleted.
+    **Warning:** Any items older than the set retention duration are immediately purged from the archive and are       unrecoverable. Items that later exceed the retention duration are also permanently deleted.
 
     <img src="{% asset_path rackspace-email-archiving/set-an-archiving-retention-policy/Set-an-Archiving-Retention-Policy-2.png %}" />
