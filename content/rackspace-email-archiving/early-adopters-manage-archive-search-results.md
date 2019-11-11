@@ -16,8 +16,8 @@ product_url: rackspace-email-archiving
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Archive Portal access
 
-Once a search has been created, the results of the search can be
-reviewed, filtered, tagged, and exported.
+When a search has been created, the results of the search can be
+reviewed, filtered, tagged, and exported. This article explains how to perform various tasks using the archive search features. 
 
 ### Access a saved search ###
 
