@@ -22,7 +22,7 @@ When a search has been created, the results of the search can be reviewed, filte
 
 To access and manage search results, perform the following steps:
 
-1.  Log in to the [Archive Manager](/how-to/log-in-to-the-archive-manager). 
+1.  Log in to the [Archive Manager](/how-to/log-in-to-the-archive-manager).
 
 2.  On the left side of the page, click the **Searches** tab.
 
@@ -31,7 +31,7 @@ To access and manage search results, perform the following steps:
     <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-1.png %}" />
 
 
-#### Filter results 
+#### Filter results
 
 To narrow search results, click **Filter** at the top of the message list.
 
@@ -40,7 +40,7 @@ To narrow search results, click **Filter** at the top of the message list.
 
 #### Sorting
 
-Sort results by choosing one of the following options: 
+Sort results by choosing one of the following options:
 
 - **Date**
 - **Sender** (A-Z or Z-A)
@@ -91,27 +91,27 @@ To place a hold on multiple messages, please follow the steps listed below:
 
       <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-8.png %}" />  
 
-      **Note**: Messages placed on hold are identifiable by a <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/Red-lock-icon.png %}" /> icon.
+      **Note**: Messages placed on hold are identifiable by a **red lock icon**.
 
 3.    To remove holds, check the boxes for the messages that have been identified.
 
       <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-9.png %}" />    
 
-4.    Click the <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/Black-lock-icon.png %}" /> icon, check the boxes for the holds that are no longer needed, then click **Remove**.    
+4.    Click the **black lock icon**, check the boxes for the holds that are no longer needed, then click **Remove**.    
 
       <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-10.png %}" />
 
 
-#### Send a message as an attachment 
+#### Send a message as an attachment
 
 A copy of a message can be sent as an attachment by selecting the message and clicking **Send**. Next, you enter the recipient’s email address and click **Send** again.
 
-**Note**: The attachment is sent in .EML format. 
+**Note**: The attachment is sent in .EML format.
 
   <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-11.png %}" />
 
 
-#### Download the message 
+#### Download the message
 
 
 Messages can be downloaded directly for the results page.
