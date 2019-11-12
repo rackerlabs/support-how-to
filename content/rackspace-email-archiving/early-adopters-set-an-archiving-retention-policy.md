@@ -45,6 +45,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 6. After you set the policy, click **Update**.
 
-    **Warning:** Any items older than the set retention duration are immediately purged from the archive and are       unrecoverable. Items that later exceed the retention duration are also permanently deleted.
+    **Warning:** Items older than the set retention duration are immediately purged from the archive and are       unrecoverable. Items that later exceed the retention duration are also permanently deleted.
 
     <img src="{% asset_path rackspace-email-archiving/set-an-archiving-retention-policy/Set-an-Archiving-Retention-Policy-2.png %}" />
