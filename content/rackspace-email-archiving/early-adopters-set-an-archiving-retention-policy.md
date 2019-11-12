@@ -36,7 +36,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="{% asset_path rackspace-email-archiving/set-an-archiving-retention-policy/manage_archive.png %}" />
 
-4. In the top-right corner, click the <img src="{% asset_path rackspace-email-archiving/set-an-archiving-retention-policy/Gear-icon.png %}" /> icon.
+4. In the top-right corner, click the **Gear** icon.
 
 
 5. In the top navigation bar, click **Policies**.
