@@ -17,7 +17,7 @@ product_url: rackspace-email-archiving
 - **Tools required:** Archive Portal access
 
 When a search has been created, the results of the search can be
-reviewed, filtered, tagged, and exported. This article explains how to perform various tasks using the archive search features. 
+reviewed, filtered, tagged, and exported. This article explains how to perform various tasks using the archive search features.
 
 ### Access a saved search ###
 
@@ -80,7 +80,7 @@ To place a hold on multiple messages, please follow the steps listed below:
 
      <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-7.png %}" />
 
-2.   Then click the <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/Gear-icon.png %}" /> icon, select the hold type, then click **Add**.
+2.   Then click the **Gear** icon, select the hold type, then click **Add**.
 
       <img src="{% asset_path rackspace-email-archiving/manage-archive-search-results/manage-archive-search-results-8.png %}" />  
 
