@@ -1,6 +1,6 @@
 ---
 permalink: properties-of-rdbmss-and-nosql-databases/
-audit_date: '2018-03-20'
+audit_date: '2019-11-14'
 title: 'Properties of RDBMSs and NoSQL databases'
 type: article
 created_date: '2018-02-27'
@@ -21,7 +21,7 @@ For an introduction to relational databases and NoSQL databases, see [Types of d
 
 Relational databases are efficient systems, which makes them a common choice
 for storing financial records, logistical information, personnel data, and
-other information in new databases. Because they're easier
+other information in new databases. Because they are easier
 to understand and use than NoSQL databases, relational databases also
 frequently replace legacy hierarchical databases and network databases.
 
