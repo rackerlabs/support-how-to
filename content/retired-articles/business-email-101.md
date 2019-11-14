@@ -7,8 +7,6 @@ created_date: '2013-05-03'
 created_by: Rackspace Support
 last_modified_date: '2017-11-20'
 last_modified_by: Stephanie Fillmon
-product: undefined
-product_url: undefined
 ---
 
 For many companies today, email is the single most important
