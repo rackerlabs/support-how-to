@@ -3,7 +3,7 @@ permalink: early-adopters-manage-archive-search-results/
 audit_date: '2019-11-12'
 title: `Early Adopters &mdash;Manage Archive Search Results`
 type: article
-created_date: '2019-11-11'
+created_date: '2019-11-12'
 created_by: Joe Brooks
 last_modified_date: '2019-11-12'
 last_modified_by: Joe Brooks
