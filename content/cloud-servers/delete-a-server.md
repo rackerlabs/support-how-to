@@ -16,7 +16,7 @@ do this by using the Cloud Control Panel. If you have already saved a
 backup image of your server, you can use that image to create a new
 server at a future time. A server created from an image is an exact clone of
 the original server at the time the backup image is saved, but the new server
-has a different IP address.
+has a different IP address. 
 
 **Note**: We recommend using Cloud Backup and Cloud Images before you
 delete your cloud server instance to provide options for recovering your
