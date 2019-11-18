@@ -1,5 +1,5 @@
 ---
-permalink: centos-6-apache-and-php-install/
+permalink: centos-7-apache-and-php-install/
 audit_date: '2019-11-19'
 title: Install Apache and PHP on CentOS 6
 type: article
