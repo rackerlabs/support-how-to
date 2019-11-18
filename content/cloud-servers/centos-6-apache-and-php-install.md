@@ -1,20 +1,20 @@
 ---
 permalink: centos-6-apache-and-php-install/
-audit_date: '2018-09-28'
+audit_date: '2019-11-19'
 title: Install Apache and PHP on CentOS 6
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
-last_modified_date: '2018-10-01'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-11-19'
+last_modified_by: Chad Sterling
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article demonstrates how to install Apache&reg; and PHP on CentOS 6.
-CentOS 6 comes with Apache 2.2.3 and PHP 5.1.6. You can install them by using
+This article demonstrates how to install Apache&reg; and PHP on CentOS 7.
+The default CentOS 7 image does not have access to repositories that support PHP version 5.6 and above so we will need to enable a repository that does. We will install this repository by using
 the default CentOS package manager, yum. The advantages of using yum to perform
-the installation (instead of using source code) is that yum also automatically
+the installation (instead of the source code) is that yum also automatically
 installs future security updates and handles dependencies.
 
 ### Install Apache
@@ -23,86 +23,46 @@ Use the following steps to install Apache:
 
 1. Run the following command:
 
-        sudo yum install httpd mod_ssl
+        yum install httpd
 
-2. Because the server doesn't start automatically when you install Apache, you
-   must start it manually by using the following command:
+2. Use systemd's systemctl tool to start the Apache service:
 
-        sudo /usr/sbin/apachectl start
+        systemctl start httpd
 
-    The following message displays:
+3. Enable the service to start automatically on boot:
 
-         Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+        systemctl enable httpd.service
 
-3. Open the main Apache configuration file by using the following command:
+4. Open up port 80 for web traffic:
 
-        sudo nano /etc/httpd/conf/httpd.conf
+        firewall-cmd --add-service=http --permanent
 
-4. Toward the end of the file, locate the code comment that starts with
-   `ServerName` and provides an example name, as shown in the following code:
+5. Reload the firewall:
 
-        #ServerName www.example.com:80
+        firewall-cmd --reload
 
-5. Enter your Cloud Server host name or a fully-qualified domain name. In the
-   following example, the host name is `demo`:
+Confirm successful installation by entering your server's IP address in a browser to view the default Apache test page.
 
-        ServerName demo
+### Install PHP 7.3
 
-     **Note**: Ensure that you don't include the hashtag (#) that appears
-     at the beginning of the comment in step 4.
-
-6. Reload Apache by using the following command:
-
-        sudo /usr/sbin/apachectl restart
-
-### Open the port to run Apache
-
-Apache runs on port 80. In some versions of CentOS, a firewall that is
-installed by default blocks access to this port. Perform the following steps to
-open the port:
+Use yum to install a repository that supports PHP 7.3:
 
 1. Run the following command:
 
-        sudo iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+        yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 
-2. Use the following command to save your firewall rules so that your web
-   server is accessible the next time that you reboot:
+2. Enable the remi-php73 repository to download the correct version:
 
-        sudo service iptables save
+        yum-config-manager --enable remi-php73
 
-### Test the Apache installation
+3. Install PHP and some popular PHP modules:
+        
+        yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
 
-Navigate to your Cloud Server IP address (for example, `http://123.45.67.89`).
+4. Confirm your server is using PHP7.3 by running the following command:
 
-If the default CentOS Apache welcome screen displays, the installation was
-successful. If you have any problems, contact
-[Rackspace Support](https://www.rackspace.com/support).
+        php -v 
 
-### Configure Apache to run automatically
-
-After Apache is installed and working, use the following steps to set it to
-start automatically when the server is rebooted:
-
-1. Run the following command:
-
-        sudo /sbin/chkconfig httpd on
-
-2. Run the following test to confirm that the setting works:
-
-        sudo /sbin/chkconfig --list httpd
-        httpd           0:off        1:off  2:on    3:on    4:on    5:on    6:off
-
-### Install PHP and reload Apache
-
-Use the following steps to install PHP and reload Apache:
-
-1. Run the following command:
-
-        sudo yum install php php-mysql php-devel php-gd php-pecl-memcache php-pspell php-snmp php-xmlrpc php-xml
-
-    **Note**: The preceding command only installs some common modules, rather
-    than all available modules.
-
-2. Use the following command to reload Apache:
-
-        sudo /usr/sbin/apachectl restart
+You should see the following output: 
+        
+        PHP 7.3.11 (cli) (built: Oct 22 2019 08:11:04) ( NTS ) 
