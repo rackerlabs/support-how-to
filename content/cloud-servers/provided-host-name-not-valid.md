@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes what causes the following error message and how to fix
+This article describes the cause of the following error message and how to fix
 the problem:
 
 ``The provided host name is not valid for this server.``
@@ -45,7 +45,7 @@ For example, if you are running your site from a single hostname ``www.example.c
   '^www\.example\.com$',
 );``
 
-**Note**: The ^, \\., and $ are Perl Compatible Regular Expressions  (PCRE) syntax and mean that you want to match
+**Note**: The ^, \\., and $ are Perl Compatible Regular Expressions (PCRE) syntax and mean that you want to match
 ``www.example.com`` precisely, with nothing extra at the beginning or end, and
 that the dots should be treated as dots and not wildcard characters.
 
