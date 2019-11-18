@@ -65,9 +65,7 @@ If you have rebooted and networking is down, complete the following steps:
       
       - Use an [API call](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#reset-network-for-server) to trigger **resetNetwork**.[Pitchfork](https://pitchfork.rax.io/servers/#reset_network-cloud_servers) is a graphical user interface (GUI) API tool that can be used to easily access the API.
       
-      - Trigger the network reset locally on the server.
-      
-        To trigger the reset on the locally on the server itself, run the following command:
+      - Trigger the network reset locally on the server by running the following command:
 
             xenstore-write data/host/$(uuidgen) '{"name":"resetnetwork", "value":""}'
  
