@@ -67,9 +67,9 @@ If you have rebooted and networking is down, complete the following steps:
       
       - Trigger the network reset locally on the server.
       
-       - To trigger the reset on the locally on the server itself, run the following command:
+        To trigger the reset on the locally on the server itself, run the following command:
 
-            ```xenstore-write data/host/$(uuidgen) '{"name":"resetnetwork", "value":""}'```
+            xenstore-write data/host/$(uuidgen) '{"name":"resetnetwork", "value":""}'
  
   Warning: When adding a new Cloud Network,  do not remove or disconnect the existing Public or Private networks, otherwise you may lose your IP address.
    
