@@ -61,11 +61,9 @@ If you have rebooted and networking is down, complete the following steps:
 
 2. Trigger the **nova-agent** to reload the network configuration by using one of the following options:
 
-      - Add a Cloud Network to the server, and then send an application programming interface (API) call to **resetNetwork**
-      to reset the network.
+      - Add a Cloud Network to the server.
       
-       - To use this option an [API call](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#reset-network-for-server) must be used to trigger **resetNetwork**. 
-            [Pitchfork](https://pitchfork.rax.io/servers/#reset_network-cloud_servers) is a graphical user interface (GUI) API tool that can be used to easily access the API.
+      - Use an [API call](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#reset-network-for-server) to trigger **resetNetwork**.[Pitchfork](https://pitchfork.rax.io/servers/#reset_network-cloud_servers) is a graphical user interface (GUI) API tool that can be used to easily access the API.
       
       - Trigger the network reset locally on the server.
       
