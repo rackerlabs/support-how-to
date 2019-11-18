@@ -202,7 +202,7 @@ To do the equivalent operation without a parameters file, use the following:
 Information on the parameters used to generate the key are embedded in the key
 file itself.
 
-By default, when creating a parameters file or generating a key, openssl only
+By default, when creating a parameters file or generating a key, OpenSSL only
 stores the name of the curve in the generated parameters file or key file, not
 the full set of explicit parameters associated with that name. For example:
 
@@ -247,7 +247,7 @@ You can generate parameters and key files to include the full explicit
 parameters instead of just the name of the curve if desired. This might be
 important if, for example, not all the target systems know the details of the
 named curve. OpenSSL version 1.0.2 added new named curves such
-as brainpool512t1. Attempting to use a parameters file or key file in versions
+as **brainpool512t1**. Attempting to use a parameters file or key file in versions
 of OpenSSL earlier than 1.0.2 with this curve results in the following error:
 
 
@@ -258,7 +258,7 @@ of OpenSSL earlier than 1.0.2 with this curve results in the following error:
     140138321110720:error:0906700D:PEM routines:PEM_ASN1_read_bio:ASN1 lib:pem_oth.c:83:
 
 
-You can avoid this problem if you use explicit parameters instead. When you
+To avoid this problem, use explicit parameters instead. When you
 use OpenSSL 1.0.2, you can create a parameters file like this:
 
 `openssl ecparam -name brainpoolP512t1 -out brainpoolP512t1.pem -param_enc explicit`
@@ -296,7 +296,7 @@ This key file can now be processed by versions of OpenSSL that do not know
 about the brainpool curve.
 
 **Note**: After the parameters have been converted from the curve name format
-into explicit parameters, it is not possible to change them back again. There
+into explicit parameters, you cannot change them back again. There
 is no utility to take a set of explicit parameters and work out which named
 curve they are associated with.
 
