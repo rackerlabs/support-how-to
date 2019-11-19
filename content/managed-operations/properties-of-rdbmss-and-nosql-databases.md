@@ -6,7 +6,7 @@ type: article
 created_date: '2018-02-27'
 created_by: Satyakam Mishra
 last_modified_date: '2019-11-19'
-last_modified_by: Chad Sterling 
+last_modified_by: Chad Sterling
 product: Managed Operations
 product_url: managed-operations
 ---
