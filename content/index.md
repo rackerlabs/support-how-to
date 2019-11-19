@@ -224,12 +224,10 @@ permalink: /
 				<h2>Contact Support</h2>
 				<p class="lead">We've got your back 24x7x365.</p>
 				<div class="one-half column">
-					<h3><span>Cloud Hosting</span>1-800-961-4454 <em>Intl.: +1-210-581-0407</em></h3>
-					<h3><span>Dedicated Managed Hosting</span>1-800-961-4454 <em>Intl.: +1-210-312-4600</em>
-					</h3>
+					<h3><span>Cloud Hosting and Managed Support</span>1-800-961-4454</h3>
 				</div>
 				<div class="one-half column">
-					<h3><span>Cloud Office</span>1-800-961-4454 <em>Intl.: +1-210-312-4600</em></h3>
+					<h3><span>Cloud Office Support</span>1-855-348-9067</h3>
 				</div>
 			</div>
 		</div>

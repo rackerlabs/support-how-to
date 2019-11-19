@@ -7,8 +7,6 @@ created_date: '2011-03-25'
 created_by: Rackspace Support
 last_modified_date: '2017-12-15'
 last_modified_by: Cat Lookabaugh
-product: undefined
-product_url: undefined
 ---
 
 Businesses have several choices when it comes to their IT infrastructure, including do-it-yourself (DIY), traditional colocation, [cloud computing](http://www.rackspacecloud.com/), and [managed hosting](http://www.rackspace.com/managed-hosting). Because there are so many offerings on the market, the decision-making process can be overwhelming.
