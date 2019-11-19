@@ -1,7 +1,7 @@
 ---
 permalink: centos-7-apache-and-php-install/
 audit_date: '2019-11-19'
-title: Install Apache and PHP on CentOS 6
+title: Install Apache and PHP on CentOS 7
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
