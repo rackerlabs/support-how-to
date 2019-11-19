@@ -1,7 +1,7 @@
 ---
 permalink: early-adopters-create-an-archive-audit-report/
 audit_date: '2019-11-11'
-title: Early Adopters- Create an archive audit report
+title: Early Adopters&mdash;Create an archive audit report
 type: article
 created_date: '2019-11-11'
 created_by: Joe Brooks
