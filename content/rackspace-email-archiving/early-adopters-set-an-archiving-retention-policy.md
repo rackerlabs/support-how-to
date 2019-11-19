@@ -1,7 +1,7 @@
 ---
 permalink: early-adopters-set-an-archiving-retention-policy/
 audit_date:
-title: Early Adopters &mdash;Set an Archiving Retention Policy
+title: Early Adopters&mdash;Set an Archiving Retention Policy
 type: article
 created_date: '2019-11-11'
 created_by: Joe Brooks
