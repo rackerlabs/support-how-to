@@ -11,11 +11,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article demonstrates how to install Apache&reg; and PHP on CentOS 7.
-The default CentOS 7 image does not have access to repositories that support PHP version 5.6 and above so we will need to enable a repository that does. We will install this repository by using
-the default CentOS package manager, yum. The advantages of using yum to perform
-the installation (instead of the source code) is that yum also automatically
-installs future security updates and handles dependencies.
+This article demonstrates how to install Apache&reg; and PHP on CentOS&reg; 7.
+The default CentOS 7 image does not have access to repositories that support PHP
+version 5.6 and higher, so we need to enable a repository that does. We install
+this repository by using the default CentOS package manager, yum. The advantages
+of using yum to perform the installation (instead of the source code) is that yum
+also automatically installs future security updates and handles dependencies.
 
 ### Install Apache
 
