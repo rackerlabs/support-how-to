@@ -90,7 +90,7 @@ Use the following steps to restart the DriveClient service:
    
 ***For CentOS 7 based systems and above***
 1b. Log in to the server with a terminal and run the command
-   `systemctl driveclient restart`.
+   `systemctl restart driveclient`.
 
 2b. Ensure that the driveclient is set to start at boot by running the command
    `systemctl enable driveclient`.
