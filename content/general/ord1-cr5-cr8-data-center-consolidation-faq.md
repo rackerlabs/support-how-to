@@ -5,7 +5,7 @@ title: ORD1 CR5/CR8 data center consolidation FAQ
 type: article
 created_date: '2019-07-19'
 created_by: Carrie Feiss
-last_modified_date: '2019-07-19'
+last_modified_date: '2019-11-20'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
@@ -27,10 +27,10 @@ customers.
 
 ### Will service be interrupted?
 
-Yes. Rackspace will schedule a six-hour maintenance window starting at 23:00 to 
-05:00 or 7:00 the following morning. We plan to return customers to service as 
-quickly as possible within that window. During this time, all the affected devices 
-will be offline while they are moved from their current physical location to the 
+Yes. Rackspace will schedule a six-hour or eight-hour maintenance window starting at
+23:00 to 05:00 or 7:00 the following morning. We plan to return customers to service
+as quickly as possible within that window. During this time, all the affected devices
+will be offline while they are moved from their current physical location to the
 new location. 
 
 ### Are all of the devices in my environment being moved?
@@ -51,8 +51,8 @@ For most customers, who stay in their allocated move group, the public IP addres
 are retained and moved with the devices to the new location. In this case, you do not need to make 
 any changes to your DNS. 
 
-Rarely, because of an environment’s configuration, we might need to change the IP address change of 
-a firewall or edge device. If a customer needs this modification, the Migration Project Manager or 
+Rarely, because of an environment’s configuration, we might need to change the IP address of a
+firewall or edge device. If a customer needs this modification, the Migration Project Manager or
 your Rackspace Account Manager reaches out to discuss the changes.
 
 #### Exception - Rackspace Managed Backup service
