@@ -42,8 +42,11 @@ After you back up your data on your AWS instance, use one of the
 following methods to transfer your data from AWS to your cloud server.
 You can do this a number of ways:
 
--  Use AWS CLI S3 to copy https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html 
-   aws s3 cp s3://my-bucket/ .
+-  **AWS CLI S3**
+
+    Use AWS CLI S3 to copy https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html.
+    
+    `aws s3 cp s3://my-bucket/`
 
     This is the recommended method for migrating your data to your
     cloud server. Using this method, you install Swift on your AWS
