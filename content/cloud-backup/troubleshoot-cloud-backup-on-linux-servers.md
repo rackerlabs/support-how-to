@@ -81,11 +81,19 @@ Use the following steps to establish a connection:
 
 Use the following steps to restart the DriveClient service:
 
-1. Log in to the server with a terminal and run the command
+***For CentOS 6 based systems***
+1a. Log in to the server with a terminal and run the command
    `service driveclient restart`.
 
-2. Ensure that the driveclient is set to start at boot by running the command
+2a. Ensure that the driveclient is set to start at boot by running the command
    `chkconfig driveclient on`.
+   
+***For CentOS 7 based systems and above***
+1b. Log in to the server with a terminal and run the command
+   `systemctl driveclient restart`.
+
+2b. Ensure that the driveclient is set to start at boot by running the command
+   `systemctl enable driveclient`.
 
 3. Return to the **Cloud Backup System Details Status** in the Cloud Control
    Panel to check that the agent status is now **connected**.
