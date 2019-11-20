@@ -23,7 +23,9 @@ Rackspace defines purge and delete requests in the following way:
 - **Delete**: A delete request is a request to permanently delete a container and the files within it. A delete request 
   is required when a container and the files within it are no longer needed. After the delete request is completed 
   successfully, billing for the files stops.
-  *To use the Swifty client to delete cloud files, follow [these steps](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/).  
+  
+  To use the Swifty client to delete cloud files, follow 
+  [these steps](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/).  
   
 It is important to understand whether you need to request a purge or a delete operation.
 
