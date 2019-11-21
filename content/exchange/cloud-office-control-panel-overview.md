@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article provides an overview of the features available in the Cloud Office control panel.
+This article provides an overview of the features available in the Cloud Office Control Panel.
 
 Choose from the following options to skip to that section:
 
@@ -40,16 +40,16 @@ Choose from the following options to skip to that section:
 
 Use one of the following links to log in to the control panel:
 
-- [Login for new Cloud Office customers](https://cp.rackspace.com/)
-- [Login for UK and MyRackspace customers](https://login.rackspace.com/)
+- [Log in for new Cloud Office customers](https://cp.rackspace.com/)
+- [Log in for UK and MyRackspace customers](https://login.rackspace.com/)
 
-After you log in, you see sections that represent the services for which you signed up. Each section has several options and tools to choose from. As you sign up for additional services, they appear here to enable you to manage them directly from the landing page.
+After you log in, you see sections that represent the services that you signed up for. Each section has several options and tools to choose from. As you sign up for additional services, they appear here to enable you to manage them directly from the landing page.
 
 ### Email hosting
 
-The Email Hosting section provides you with options and tools for Rackspace Email such as spam filtering, group lists, aliases, and mobile devices.
+The Email Hosting section provides you with options and tools for Rackspace Email, such as spam filtering, group lists, aliases, and mobile devices.
 
-Following are some of the options available in the Email Hosting section of the control panel:
+Following are some of the options available in the Email Hosting section of the control panel.
 
 #### Hosted email accounts
 
@@ -57,7 +57,7 @@ Following are some of the options available in the Email Hosting section of the 
 -  **Aliases** - Manage your company's alias addresses.
 -  **Group Lists** - Email a large number of people by assigning them to a group list.
 -  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following **Spam** section.
--  **Mobile Sync** - Enable your mobile devices to handle mail and PIM data (for example, Contacts and Calendars), which syncs to Rackspace Webmail.
+-  **Mobile Sync** - Enable your mobile devices to handle mail and Personal Information Management (PIM) data (for example, Contacts and Calendars), which syncs to Rackspace Webmail.
 
 #### Hosted email spam
 
@@ -67,7 +67,7 @@ Following are some of the options available in the Email Hosting section of the 
 
 ### Microsoft Exchange
 
-The Microsoft&reg; Exchange section provides tools such as spam filtering, distribution lists, contacts, resources, and mobile devices for Microsoft Exchange&reg;.
+The Microsoft&reg; Exchange&reg; section provides tools such as spam filtering, distribution lists, contacts, resources, and mobile devices for Microsoft Exchange.
 
 The following options are available in the **Microsoft Exchange** section of the control panel:
 
@@ -79,7 +79,7 @@ The following options are available in the **Microsoft Exchange** section of the
 -  **Skype for Business** - Connect via instant message, Skype&reg; to Skype audio and video calls, and online status.
 -  **Contacts** - Manage your company's Exchange contacts.
 -  **Folders** - Enable and manage your domain's public folders.
--  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following “Spam” section.
+-  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following **Spam** section.
 
 #### Exchange spam
 
@@ -93,7 +93,7 @@ The Microsoft Office 365&reg; section provides a link to manage your Office 365 
 
 ### Domains
 
-The Domains section provides access your domain's DNS settings, and options to add disclaimers, view domains, and manage spam filter settings.
+The Domains section provides access your domain's DNS settings and options to add disclaimers, view domains, and manage spam filter settings.
 
 Following are some of the options available in the Domains section of the control panel:
 
@@ -129,7 +129,7 @@ Following are some of the options available in the Domains section of the contro
 
 ### My Account
 
-The My Account option is located in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and to find general information.
+The **My Account** option is in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and to find general information.
 
 Following are the options available for the account section:
 
@@ -145,8 +145,8 @@ Following are the options available for the account section:
 -  **Audit Logs** - Review administrator activity taken on your account.
 
 #### Admins & Contacts
--  **Administrators** - View your current domains administrators.
--  **Company Contacts** - Manage your account contact information such as phone number and permissions.
+-  **Administrators** - View your current domain administrators.
+-  **Company Contacts** - Manage your account contact information such as the phone number and permissions.
 -  **API Keys** - Generate your API access key for your domain.
 
 #### Support
@@ -162,7 +162,7 @@ The following options available in the **Support** menu:
 
 The Reseller Tools section provides reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains, sites, and gaining access to the reseller Partner Portal.
 
-Following are some of the options available in Reseller Tools section:
+Following are some of the options available in the Reseller Tools section:
 
 - **Customers** - List customers for your reseller account.
 - **Add customers** - Add new customers to your reseller account.
