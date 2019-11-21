@@ -16,24 +16,24 @@ This article provides an overview of the features available in the Cloud Office 
 Choose from the following options to skip to that section:
 
 [Control panel](#logging-in):
-- [Logging in](#logging-in)
+  - [Logging in](#logging-in)
 [Hosted email](#hosted-email):
-- [Email hosting](#email-hosting)
-- [Hosted email accounts](#hosted-email-accounts)
-- [Hosted email spam](#hosted-email-spam)
+  - [Email hosting](#email-hosting)
+  - [Hosted email accounts](#hosted-email-accounts)
+  - [Hosted email spam](#hosted-email-spam)
 [Microsoft Exchange](#microsoft-exchange):
-- [Microsoft Exchange email accounts](#microsoft-exchange-email-accounts)
-- [Exchange spam](#exchange-spam)
+  - [Microsoft Exchange email accounts](#microsoft-exchange-email-accounts)
+  - [Exchange spam](#exchange-spam)
 [Domains](#domains):
-- [Domain management](#domain-management)
-- [Spam](#spam)
-- [Tools](#tools)
-- [Reports](#reports)
+  - [Domain management](#domain-management)
+  - [Spam](#spam)
+  - [Tools](#tools)
+  - [Reports](#reports)
 [Account settings](#account-settings):
-- [Billing & Payments](#billing-&-payments)
-- [Services & Reports](#services-&-reports)
-- [Admins & Contacts](#admins-&-contacts)
-- [Support](#support)
+  - [Billing & Payments](#billing-&-payments)
+  - [Services & Reports](#services-&-reports)
+  - [Admins & Contacts](#admins-&-contacts)
+  - [Support](#support)
 [Reseller Tools](#reseller-tools)
 
 ### Logging in
