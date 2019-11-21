@@ -19,6 +19,8 @@ the problem:
 When you are working with Drupal 8, you might get this error message when you
 browse to any page and see a plain white page.
 
+**Warning:** Before you use these troubleshooting instructions, make sure that you understand your environment as these troubleshooting steps might not be suitable for all setups or configurations. Also, we recommend that you make a backup before making any changes to your system so that you have the ability to revert changes if needed.
+
 ### Source of the error
 
 This error message comes from a feature that was added to Drupal to protect
