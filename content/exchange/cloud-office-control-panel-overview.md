@@ -160,7 +160,7 @@ The following options available in the **Support** menu:
 
 ### Reseller tools
 
-The Reseller Tools section provides reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains and sites, and gaining access to the reseller Partner Portal.
+The Reseller Tools section provides reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains, sites, and gaining access to the reseller Partner Portal.
 
 Following are some of the options available in Reseller Tools section:
 
