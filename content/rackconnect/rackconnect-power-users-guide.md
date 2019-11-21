@@ -11,6 +11,8 @@ product: RackConnect
 product_url: rackconnect
 ---
 
+*Warning:* This article is no longer being maintained. It will soon be removed from the How-To site.
+
 **Applies to**: RackConnect v2.0
 
 This document is meant to be used by RackConnect "power users." Power
