@@ -118,7 +118,7 @@ Following are some of the options available in the Domains section of the contro
 -  **Mailbox Details** - View a summary of your domains mailboxes.
 -  **Mail Forwarding** - View which mailboxes on your domains have forwarding.
 
-### My Account
+### Account settings
 
 The **My Account** option is in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and to find general information.
 
