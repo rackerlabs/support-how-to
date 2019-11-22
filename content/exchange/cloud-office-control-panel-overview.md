@@ -36,7 +36,7 @@ Use one of the following links to log in to the control panel:
 
 After you log in, you see sections that represent the services that you signed up for. Each section has several options and tools to choose from. As you sign up for additional services, they appear here to enable you to manage them directly from the landing page.
 
-### Email hosting
+### Hosted email
 
 The Email Hosting section provides you with options and tools for Rackspace Email, such as spam filtering, group lists, aliases, and mobile devices.
 
