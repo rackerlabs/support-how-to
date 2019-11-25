@@ -41,7 +41,7 @@ Rackspace products:
 
 ### Mapping of EC2 instance types to Rackspace Cloud instance types
 
-Find the instance type in [the AWS Console](https://aws.amazon.com/ec2/instance-types/), then use the vCPU and RAM values to find a similar size in the [Rackspace Cloud](https://www.rackspace.com/cloud/servers/pricing).
+Find the instance type in [the AWS Console](https://aws.amazon.com/ec2/instance-types/). Then use the vCPU and RAM values to find a similar size in the [Rackspace Cloud](https://www.rackspace.com/cloud/servers/pricing).
 
 ### Support
 
