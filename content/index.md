@@ -10,7 +10,7 @@ permalink: /
 
 			<div class="filter-product-type">
 				<ul>
-				  <li><a id="getting-started" class="inactive">Getting Started</a></li>
+				  <li><a id="gs-ctrl" class="inactive">Getting Started</a></li>
 					<li><a id="cloud-ctrl" class="inactive">Cloud Services</a></li>
 					<li><a id="office-ctrl" class="inactive">Cloud Office</a></li>
 					<li>
@@ -31,7 +31,10 @@ permalink: /
 			<br>
 			<aside class="cta">
 				<p class="button">
-					<a href="/how-to/getting-started-with-public-cloud/" id="email-button" class="banner-button">Get Started with Rackspace Public Cloud</a>
+					<a href="/how-to/getting-started-with-public-cloud/" id="cloud-button" class="banner-button">Get Started with Rackspace Public Cloud</a>
+				</p>
+				<p class="button">
+					<a href="/how-to/getting-started-with-hosted-email/" id="hosted-button" class="banner-button">Get Started with Rackspace Hosted Email</a>
 				</p>
 			</aside>
 			</div>
@@ -221,12 +224,10 @@ permalink: /
 				<h2>Contact Support</h2>
 				<p class="lead">We've got your back 24x7x365.</p>
 				<div class="one-half column">
-					<h3><span>Cloud Hosting</span>1-800-961-4454 <em>Intl.: +1-210-581-0407</em></h3>
-					<h3><span>Dedicated Managed Hosting</span>1-800-961-4454 <em>Intl.: +1-210-312-4600</em>
-					</h3>
+					<h3><span>Cloud Hosting and Managed Support</span>1-800-961-4454</h3>
 				</div>
 				<div class="one-half column">
-					<h3><span>Cloud Office</span>1-800-961-4454 <em>Intl.: +1-210-312-4600</em></h3>
+					<h3><span>Cloud Office Support</span>1-855-348-9067</h3>
 				</div>
 			</div>
 		</div>

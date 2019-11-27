@@ -5,8 +5,8 @@ title: High-level steps for migrating from Amazon Web Services
 type: article
 created_date: '2013-07-01'
 created_by: Rackspace Support
-last_modified_date: '2018-02-27'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-11-20'
+last_modified_by: Chad Sterling
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -40,12 +40,15 @@ Cloud Servers instance.
 
 After you back up your data on your AWS instance, use one of the
 following methods to transfer your data from AWS to your cloud server.
-You can do this a number of ways:
+You can do this in a number of ways:
 
--   **(Preferred) Use OpenStack Swift, a command-line interface, to
-    transfer your data from AWS to Cloud Files**
+-  **AWS CLI S3**
 
-    This is the recommended method for migrating your data to your
+    Use AWS CLI S3 to copy https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html.
+    
+    `aws s3 cp s3://my-bucket/`
+
+    This method is the recommended method for migrating your data to your
     cloud server. Using this method, you install Swift on your AWS
     instance and directly copy your data from AWS to Cloud Files,
     without downloading it locally.
@@ -60,9 +63,10 @@ You can do this a number of ways:
 
 -   **Install a GUI tool on your local computer**
 
-    In certain cases (for example, if your cloud server is Windows
-    based), you need to install a GUI tool (such as an FTP client application)
-    to upload the data on Cloud Files. Several open source and free
+    In certain cases, you need to install a GUI tool,
+    such as a File Transfer Protocol (FTP) client application,
+    to upload the data on Cloud Files. An example is if your cloud server is 
+    Windows&reg;-based. Several open-source and free
     tools exist, and they are described in detail within each migration
     scenario in this document.
 
@@ -74,7 +78,7 @@ You can do this a number of ways:
     for data transfer. However, we do not recommend downloading your
     data locally because it is not the most secure option.
 
-After your data is uploaded to Cloud Files, download and restore the
+After you upload data to Cloud Files, download and restore the
 data on your cloud server.
 
 ### Configure
@@ -84,10 +88,10 @@ database.
 
 ### Test after migration
 
--   Implement monitoring and backup solutions, and focus on
+-   Implement monitoring and backup solutions and focus on
     enhancing security.
 -   Thoroughly test the applications deployed on your cloud server.
 
 ### Next step
 
-[Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+[Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).

@@ -5,8 +5,8 @@ title: RackConnect Global FAQ
 type: article
 created_date: '2015-10-16'
 created_by: Sameer Satyam
-last_modified_date: '2018-06-15'
-last_modified_by: Shannon Enix
+last_modified_date: '2019-11-18'
+last_modified_by: William Loy
 product: RackConnect
 product_url: rackconnect
 ---
@@ -79,7 +79,7 @@ Users can connect via the following means:
 #### What speeds are supported?
 
 Connectivity speeds of 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps,
-5 Gbps, and 10 Gbps are supportedat launch. Higher speeds will be
+5 Gbps, and 10 Gbps are supported at launch. Higher speeds will be
 handled on a case-by-case basis. Note that these are the speeds
 supported by Rackspace and can be supported only if the other end
 of the virtual circuit is capable of

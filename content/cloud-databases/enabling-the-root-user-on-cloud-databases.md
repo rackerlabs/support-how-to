@@ -27,7 +27,7 @@ appropriate data center in the following sample code.
 
 1. Authenticate to obtain an authentication token:
 
-       http://docs.rackspace.com/cdb/api/v1.0/cdb-getting-started/content/Generating_Auth_Token.html
+       https://docs.rackspace.com/cdb/api/v1.0/cdb-getting-started/content/Generating_Auth_Token.html
        curl -i -d \
        '{
          "auth":
@@ -43,7 +43,7 @@ appropriate data center in the following sample code.
 
 2. List databases to obtain your ID:
 
-       http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/Database_Instances.html
+       https://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/Database_Instances.html
        curl -i \
        -H 'X-Auth-Token: YOUR_AUTH_TOKEN' \
        -H 'Content-Type: application/json' \
@@ -54,7 +54,7 @@ appropriate data center in the following sample code.
 
 3. Enable the root user:
 
-       http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/POST_createRoot__version___accountId__instances__instanceId__root_.html
+       https://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/POST_createRoot__version___accountId__instances__instanceId__root_.html
        curl -X POST -i \
        -H 'X-Auth-Token: YOUR_AUTH_TOKEN' \
        -H 'Content-Type: application/json' \
@@ -73,7 +73,7 @@ appropriate data center in the following sample code.
 
 4. Confirm that the root user is enabled:
 
-       http://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/GET_isRootEnabled__version___accountId__instances__instanceId__root_.html
+       https://docs.rackspace.com/cdb/api/v1.0/cdb-devguide/content/GET_isRootEnabled__version___accountId__instances__instanceId__root_.html
        curl -i \
        -H 'X-Auth-Token: YOUR_AUTH_TOKEN' \
        -H 'Content-Type: application/json' \

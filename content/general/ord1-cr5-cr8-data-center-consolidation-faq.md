@@ -5,7 +5,7 @@ title: ORD1 CR5/CR8 data center consolidation FAQ
 type: article
 created_date: '2019-07-19'
 created_by: Carrie Feiss
-last_modified_date: '2019-07-19'
+last_modified_date: '2019-11-20'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
@@ -27,11 +27,11 @@ customers.
 
 ### Will service be interrupted?
 
-Yes. Rackspace will schedule a six-hour maintenance window from 23:00 to 05:00
-on the following morning. We plan to return customers to service as quickly as
-possible within that window. During this time, all affected devices will be
-offline while they are moved from their current physical location to the new
-location.
+Yes. Rackspace will schedule a six-hour or eight-hour maintenance window starting at
+23:00 to 05:00 or 7:00 the following morning. We plan to return customers to service
+as quickly as possible within that window. During this time, all the affected devices
+will be offline while they are moved from their current physical location to the
+new location. 
 
 ### Are all of the devices in my environment being moved?
 
@@ -47,7 +47,30 @@ further information.
 
 ### Will there be any IP address or Domain Name Service (DNS) changes?
 
-There are no changes to any IP addresses.
+For most customers, who stay in their allocated move group, the public IP addresses of the devices 
+are retained and moved with the devices to the new location. In this case, you do not need to make 
+any changes to your DNS. 
+
+Rarely, because of an environment’s configuration, we might need to change the IP address of a
+firewall or edge device. If a customer needs this modification, the Migration Project Manager or
+your Rackspace Account Manager reaches out to discuss the changes.
+
+#### Exception - Rackspace Managed Backup service
+
+The IP addresses used for the network that runs the Rackspace Managed Backup service (BackupNet/ServiceNet) 
+change for all customers. Because Rackspace does not have access to Managed Colocation servers, Managed 
+Colocation customers need to make the Managed Backup service IP address change themselves.
+
+Rackspace takes responsibility for updating the Managed Backup service IP addresses for all other customers 
+who use this service.
+
+If you are using BackupNet/ServiceNet for any purpose other than Rackspace Managed Backup or for ObjectRocket,
+you need to make the necessary arrangements to move to ExNet before your move night. In ORD1, BackupNet/ServiceNet
+is available for use only for Rackspace Managed Backup and for ObjectRocket.
+
+#### Exception - Colocation Account devices and VLAN tags:
+
+Depending on the customer's environment aggregation or data center locations, some customers might undergo a VLAN ID change during the migration. In most cases, this change does not have any discernible impact on customers because Rackspace manages these changes. However, Managed colocation accounts or colocation devices might have instances that are partially managed by the customer, and the customer needs to make changes within their environment. If your environment falls into one of these brackets, the migration project manager reaches out to the customer with the needed information.
 
 ### What are the high-level stages of the migration?
 
@@ -84,8 +107,10 @@ turning on your devices in a certain order.
 
 ### I want to shut down the environment myself. Is that possible?
 
-Yes, you may turn off your devices. We ask that you inform us in advance that
-you are going to do this.
+Yes, you may turn off your devices. However, we do not recommend this. Shutting down your own devices 
+interrupts our Automation and ability to make the necessary back-end network changes. We ask 
+that you inform us in advance that you plan to do this so that we can make the necessary changes manually 
+before you shut your devices down.
 
 ### I am a Managed Colocation customer, and you do not have access to my servers. How will the migration work for me?
 

@@ -5,8 +5,8 @@ title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2019-01-14'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-10-08'
+last_modified_by: Catherine Richardson
 product: Account Management
 product_url: account-management
 ---
@@ -28,7 +28,7 @@ RBAC enables users to perform actions based on the scope of their
 assigned roles.
 
 Account owners can create up to 100 users, each with
-their own password, secret question and answer, and API key.
+their own password and API key.
 
 ### Why implement RBAC?
 
@@ -127,14 +127,16 @@ following steps:
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 2. In the top navigation bar, click **Account > User Management**.
 3. Click on the user for whom you want to assign permissions.
-4. In the **Product Permissions** area, next to **Rackspace Cloud Product
-   Permissions**, click **Edit Permissions**.
+4. In the **Product Permissions** area under **Rackspace Cloud Product
+   Permissions** and then under **PRODUCT ACCESS**, click **Edit**.
 
-   The **Rackspace Cloud Permissions** panel opens.
+   The **Rackspace Cloud Permissions** window opens.
 
-5. Under **Access**, choose **Custom (Per Product Access)**.
-6. In the **Product Access** area, ensure that all product roles are set to
-   **No Access**, then click **Save**.
+5. Under **Cloud Access**, choose the type of global access you want the 
+   user to have, including a **Custom** option, or select the individual
+   product and select from the options available for it, usually **ADMIN**,
+   **CREATOR, or **OBSERVER**.
+6. Then click **Save**.
 
 **Note**: A user may be assigned both a product role and an account role.
 
@@ -142,14 +144,6 @@ following steps:
 
 Contact types are similar to tags. Using contact types can help account owners
 manage users. The Cloud Control Panel offers the following contact types:
-
--   **Primary** - This contact type is automatically assigned to the
-    owner of the account. Each account has a single Primary contact.
-
--   **Billing** - This contact type is automatically assigned to
-    the account and populated with the billing address for the account.
-    There is one Billing contact per account. You don't need to assign
-    a username to the Billing contact.
 
 -   **Administrative** - This contact type is assigned to users who
     primarily handle administrative duties such as billing

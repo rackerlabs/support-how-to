@@ -14,6 +14,7 @@ product_url: account-management
 
 This article provides instructions for using and updating an account user or contact Support PIN. To review frequently asked questions regarding the new Support PIN system, see [Support PIN FAQ](/how-to/support-pin-faq).
 
+**Warning:** Rackspace does not contact customers and ask for their Support PIN under any circumstance. Customers are only required to provide their Support PIN when they initiate the contact with Rackspace.
 
 ### Using your Support PIN
 

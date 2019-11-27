@@ -5,8 +5,8 @@ title: Use Role Based Access Control (RBAC)
 type: article
 created_date: '2013-06-28'
 created_by: Renee Rendon
-last_modified_date: '2018-10-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-10-09'
+last_modified_by: Catherine Richardson
 product: Account Management
 product_url: account-management
 ---
@@ -30,18 +30,14 @@ determines the user's level of access.
 ### Account credentials
 
 Rackspace recommends that you change the account password
-and secret question before adding new users to the account.
+before adding new users to the account.
 
 When new users are created, a temporary password is assigned to
 them. They should change the temporary password at their first login.
 
-Also, new users must be informed that they have been added to the
-account. Rackspace does not notify them automatically. You
-can use the following text to notify your users:
-
-   **Your access to this account has changed. You have been added as a new
-   user, and you must update your credentials (password and secret question)
-   as soon as possible. See *name* for your temporary access information.**
+Also, new users are informed that they have been added to the
+account by an email they receive from Rackspace. In the email, they
+are given instructions about registering as a user of the account.
 
 ### Create new users
 
@@ -49,11 +45,8 @@ To create a new user, use the following steps:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 2. In the upper-right corner of the control panel, click **Account > User Management.**
-3. On the **User Management** page, click **Create User**.
-4. Enter information in the **User Information** section.
-
-   **Note:** The username must be unique. You can't recover the username of a
-   deleted user.
+3. On the **User & Permissions** page, click **Create User**.
+4. Enter information in the **Create a User** section.
 
 5. Select a **Contact Type** to assign to the user. RBAC has the following
    contact types:
@@ -64,40 +57,38 @@ To create a new user, use the following steps:
    These contact types are for reference only. They do not affect the user's
    permissions.
 
-6. In the **Secret Question and Answer** section, enter a **Question** and an
-   **Answer**.
+6. Click **Create User**.
 
-7. In the **Rackspace Account Permissions** section, you can either assign the
-   user the **Account Administrator** role, or assign roles for the **Billing
-   and Payments** area and the **Support Tickets** area separately.
+7. On the page that opens, in the **Rackspace Account Permissions**
+   section, you can either assign the
+   user the **Account Administrator** role, or assign roles for the 
+   **Manage Users** area, the **Billing and Payments** area, the 
+   **Tickets** area, or **Product Access** separately.
 
    To assign a user the account administrator role, click the toggle button
    next to **Account Administrator**.
 
    Alternatively, to assign different permissions for different areas, scroll
-   to the **Area** section and select the permission that you want to assign
-   from the drop-down menu to the right of each area.
+   to the **AREA** section and select the **PERMISSION** that you want to assign
+   by using the pencil menu to the right of each area.
 
 8. Optionally, in the **Product Permissions** section, assign product
    permissions to the user. Click the tab for a product, and then
-   select from the permission options.
+   **Edit** the **PRODUCT ACCESS**.
 
-   The **Rackspace Cloud** tab enables you to assign either global permissions
+   The **Rackspace Cloud** tab enables you to assign either permissions
    for all Rackspace Cloud products, or per-product custom roles.
 
    **Note**: For optimal product interaction, see the "Suggested role
    configurations" section of this article.
 
-   To assign per-product custom roles, choose **Custom (Per Product Access)**
-   under **Product Access**. A list of Rackspace Cloud products appears.
-   The default role for each product is **No Access**. To change the default
-   value, select either **Admin (View, Create, Edit, Delete)** or **Observer
-   (View Only)** from the drop-down menu for the product.
+   To assign per-product custom roles, choose **Custom**
+   under **PRODUCT ACCESS**. A list of Rackspace Cloud products appears.
+   The default role for each product is **NONE**. To change the default
+   value, select either **ADMIN**, **CREATOR**, or **OBSERVER** for the product.
 
    **Note:** Depending on the roles assigned, the Control Panel view is
    different for each user.
-
-9. When you are finished, scroll to the bottom and click **Create User**.
 
    **Note:** After a user is assigned a custom role, that custom role
    cannot be modified. However, if the user is later assigned the
@@ -110,6 +101,7 @@ To create a new user, use the following steps:
 
 Rackspace recommends the following custom role configurations for
 optimal product interaction.
+
 
 <table>
 <colgroup>
@@ -135,9 +127,9 @@ optimal product interaction.
 </tr>
 <tr class="even">
 <td align="left"><strong>Cloud Load Balancers </strong></td>
-<td align="left">A user wants to add a node by using the <strong>Nodes > Add Cloud Servers</strong> option in the Cloud Control Panel.</td>
-<td align="left">The user has been assigned any Cloud Load Balancers role.</td>
-<td align="left">In Cloud Servers, give the user any role. </td>
+<td align="left"><p>A user wants to add a node by using the <strong>Nodes > Add Cloud Servers</strong> option in the Cloud Control Panel.</p></td>
+<td align="left"><p>The user has been assigned any Cloud Load Balancers role.</p></td>
+<td align="left"><p>In Cloud Servers, give the user any role. </p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><strong>Cloud Databases</strong></p></td>

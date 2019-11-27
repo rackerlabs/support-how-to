@@ -62,9 +62,9 @@ Cloud Feeds provides the following options for storing the archive data:
     regions for archiving your Cloud Feeds events, you can select
     **Advanced**. If you select **Advanced**, you must work with
     Rackspace support to configure your advanced archiving settings or
-    use the [Cloud Feeds Archiving Configuration API](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/Preferences_API.html).
+    use the [Cloud Feeds Archiving Configuration API](https://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/Preferences_API.html).
 
 6.  Click **Save Configuration**.
 
-For more information about Cloud Feeds archiving, see [Archiving overview](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/Archiving_Overview.html) in
-the [Rackspace Cloud Feeds Developer Guide](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/overview.html).
+For more information about Cloud Feeds archiving, see [Archiving overview](https://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/Archiving_Overview.html) in
+the [Rackspace Cloud Feeds Developer Guide](https://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/overview.html).

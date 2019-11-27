@@ -5,8 +5,8 @@ title: Windows Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2018-08-02'
 created_by: JP gonzalez
-last_modified_date: '2018-08-02'
-last_modified_by: JP Gonzalez
+last_modified_date: '2018-10-31'
+last_modified_by: Nick Kidd
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -26,6 +26,7 @@ The following operating systems are supported for both Dedicated and Managed Clo
 | Windows Server 2012    | Yes       |                         |                        |                    |                   |                      |
 | Windows Server 2012 R2 | Yes       | Yes                     | Yes                    | Yes                | Yes               | Yes                  |
 | Windows Server 2016    | Yes       | Yes                     |                        | Yes                | Yes               | Yes                  |
+| Windows Server 2019    | Yes       | Yes                     |                        | Yes                | Yes               | Yes                  |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
@@ -108,13 +109,14 @@ The following types of database servers are supported in the indicated areas:
 
 ## Supported OS and MSSQL combinations
 
-| MSSQL version | Windows 2008 32 bit | Windows 2008 64 bit | Windows 2012 64 bit | Windows 2012 R2 64 bit | Windows 2016 |
-|---------------|---------------------|---------------------|---------------------|------------------------|--------------|
-| MSSQL 2008    | Yes                 | Yes                 |                     |                        |              |
-| MSSQL 2008 R2 | Yes                 | Yes                 |                     |                        |              |
-| MSSQL 2012    |                     |                     | Yes                 | Yes                    |              |
-| MSSQL 2014    |                     |                     | Yes                 | Yes                    | Yes          |
-| MSSQL 2016    |                     |                     |                     | Yes                    | Yes          |
+| MSSQL version | Windows 2008 32 bit | Windows 2008 64 bit | Windows 2012 64 bit | Windows 2012 R2 64 bit | Windows 2016 | Windows 2019 |
+|---------------|---------------------|---------------------|---------------------|------------------------|--------------|--------------|
+| MSSQL 2008    | Yes                 | Yes                 |                     |                        |              |              |
+| MSSQL 2008 R2 | Yes                 | Yes                 |                     |                        |              |              |
+| MSSQL 2012    |                     |                     | Yes                 | Yes                    |              |              |
+| MSSQL 2014    |                     |                     | Yes                 | Yes                    | Yes          |              |
+| MSSQL 2016    |                     |                     |                     | Yes                    | Yes          |              |
+| MSSQL 2017    |                     |                     |                     |                        | Yes          | Yes          |
 
 
 ## Supported platforms for Microsoft SQL editions

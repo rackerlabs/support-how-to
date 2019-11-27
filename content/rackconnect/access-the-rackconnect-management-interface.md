@@ -1,6 +1,6 @@
 ---
 permalink: access-the-rackconnect-management-interface/
-audit_date: '2018-06-06'
+audit_date: '2019-10-04'
 title: Access the RackConnect Management Interface
 type: article
 created_date: '2012-08-21'
@@ -15,7 +15,7 @@ product_url: rackconnect
 
 This article describes how to access the RackConnect Management Interface for RackConnect v2.0 users.
 
-**Note:** RackConnect v3.0 does not use network policies and so the management interface is not accessible in the MyRackspace Portal for RackConnect v3.0 users.
+**Note:** RackConnect v3.0 does not use network policies, and so the management interface is not accessible in the MyRackspace Portal for RackConnect v3.0 users.
 
 You can access the RackConnect Management Interface from the
 [MyRackspace Portal](https://login.rackspace.com/).
