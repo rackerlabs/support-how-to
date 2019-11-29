@@ -1,6 +1,6 @@
 ---
 permalink: assign-global-admin-role-office-365/
-audit_date: 
+audit_date: '2019-11-27'
 title: Assign the Global Admin role to a user account in Office 365
 type: article
 created_date: '2019-11-27'
@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-This article describes how to assign the Global Administrator role to a user account Office 365.
+This article describes how to assign the Global Administrator role to an Office 365&reg; user account.
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ This article describes how to assign the Global Administrator role to a user acc
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-Organizations with multiple administrators may need to have more than one account with the Global Administrator role in Office 365. A Global Administrator account is required to access the [Office 365 Control Panel](https://office365.cp.rackspace.com). Global Administrators have almost unlimited access to your organizations settings and most of the data.
+Organizations with multiple administrators may need to have more than one Global Administrator in Office 365. A Global Administrator account is required to access the [Office 365 Control Panel](https://office365.cp.rackspace.com). Global Administrators have almost unlimited access to your organizations settings and most of the data.
 
 **Note:** Each Office 365 account is created with a default administrator account with the Global Administrator role. Credentials for the default administrator account are sent to the email address provided during the sign-up for Office 365 services.
 
@@ -30,7 +30,7 @@ Organizations with multiple administrators may need to have more than one accoun
 
 Use the following steps to assign the Global Administrator role to a user:
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Users**.
 
@@ -42,13 +42,13 @@ Use the following steps to assign the Global Administrator role to a user:
 
 6.	Select **Save**.
 
-7.	Your user now has the Global Administrator role assigned to their account.
+7.	The selected user now has the Global Administrator role assigned to their account.
 
-**Warning:** Microsoft warns that having more than 4 Global Administrators on an account is a security threat.
+**Warning:** Microsoft warns that having more than four Global Administrators on an account is a security threat.
 
 ### Securing your Global Administrator account
 
-As an administrator of your company’s email solution, you have a great deal of control over your account. If your administrator access is compromised, the results can be devastating to your business. A strong security policy is not complete without enabling multi-factor authentication. See [Manage multi-factor authentication for users in Office 365](/how-to/manage-multi-factor-authentication-for-users-in-office-365).
+As an administrator of your company’s email solution, you have a great deal of control over your account. If your administrator access is compromised, the results can be devastating to your business. A strong security policy is not complete without enabling multi-factor authentication. See [Manage multi-factor authentication for users in Office 365](/how-to/manage-multi-factor-authentication-for-users-in-office-365) for instructions.
 
 ### Additional information
 
