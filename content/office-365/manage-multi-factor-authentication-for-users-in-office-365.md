@@ -22,7 +22,7 @@ This article describes how administrators can manage multi-factor authentication
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-Requiring multi-factor authentication for all users safeguards access to your organization's data and applications. Multi-factor authentication requires users to provide a second form of authentication when accessing their account. This second form of authentication is an additional layer of security, and minimizes the chances of account compromise.
+Requiring multi-factor authentication for all users safeguards access to your organization's data and applications. Multi-factor authentication requires users to provide a second form of authentication when accessing their account. This second form of authentication is an additional layer of security and minimizes the chances of account compromise.
 
 ### Enable multi-factor authentication for a user
 
@@ -64,7 +64,7 @@ Use the following steps to enforce multi-factor authentication for a user:
 
 ### Reset existing multi-factor authentication configuration for a user
 
-Your user may lose access to the device that they used to register with multi-factor authentication. When this occurs, you will need to reset their multi-factor settings so that they can re-register.
+Your user may lose access to the device that they used to register with multi-factor authentication. When this occurs, you need to reset their multi-factor settings so that they can re-register.
 
 Use the following steps to reset the existing multi-factor authentication configuration for a user:
 
@@ -78,7 +78,7 @@ Use the following steps to reset the existing multi-factor authentication config
 
 5.	Under quick steps, select **Manage user settings**.
 
-6.	Select the checkbox next to **Require selected users to provide contact methods again**.
+6.	Select the check box next to **Require selected users to provide contact methods again**.
 
 7.	Select **save** then **close**.
 
@@ -104,6 +104,6 @@ Use the following steps to disable multi-factor authentication for a user:
 
 ### Additional information
 
-Microsoft&reg; also provides a guide for deploying multi-factor authentication for your Office 365 tenant, see [Planning a cloud-based Azure Multi-Factor Authentication deployment](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted).
+Microsoft&reg; also provides a guide for deploying multi-factor authentication for your Office 365 tenant. See [Planning a cloud-based Azure Multi-Factor Authentication deployment](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted).
 
-Administrators can configure organization-wide multi-factor authentication requirements by creating a Conditional Access policy in their Azure&reg; Active Directory from the [Azure Portal](https://portal.azure.com). See [Conditional Access: Require MFA for all users](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) for instructions.
+Administrators can configure organization-wide multi-factor authentication requirements by creating a Conditional Access policy in their Azure&reg; Active Directory&reg; from the [Azure Portal](https://portal.azure.com). See [Conditional Access: Require MFA for all users](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) for instructions.
