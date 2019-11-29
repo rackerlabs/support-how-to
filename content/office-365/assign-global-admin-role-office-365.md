@@ -5,8 +5,8 @@ title: Assign the Global Admin role to a user account in Office 365
 type: article
 created_date: '2019-11-27'
 created_by: Walter Stubbs
-last_modified_date: '2019-11-27'
-last_modified_by: Walter Stubbs
+last_modified_date: '2019-11-29'
+last_modified_by: William Loy
 product: Office 365
 product_url: office-365
 ---
