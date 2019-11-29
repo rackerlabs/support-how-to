@@ -1,7 +1,7 @@
 ---
 permalink: configure-dns-for-office-365-services/
 audit_date:
-title: Add a domain in Office 365
+title: Configure DNS for Office 365 Services
 type: article
 created_date: '2019-11-29'
 created_by: Simon Ponder
