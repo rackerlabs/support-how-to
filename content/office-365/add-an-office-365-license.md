@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Add an Office 365 license
 
-1. 	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1. 	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.  From the left menu, select **Products**, then select **Product Catalog**.
 
@@ -37,11 +37,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 4. Click **Add Product**.
 
-**Note:** It may take up to 15 minutes for the license to be added.
+**Note:** It might take up to 15 minutes for the license to be added.
 
 ### Assign a license to a user
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Users**.
 
@@ -51,5 +51,5 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 **Note:** You must have available licenses in order to assign them. See the preceding section to add a more licenses.
 
-5.  Select **Save** at the bottom of the page to finish the process.
+5.  Click **Save** at the bottom of the page to finish the process.
 
