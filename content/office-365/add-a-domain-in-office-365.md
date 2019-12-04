@@ -28,15 +28,15 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
 ### Add a domain in Office 365
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
-3.  From the left menu, select **Settings**, then select **Domains**.
+3. From the left menu, select **Settings**, then select **Domains**.
 
 4. In the **Domains** section, click **Add Domain**.
 
-5. Enter the domain name when prompted, then **Next**.
+5. Enter the domain name when prompted, then click **Next**.
 
 6. Verify that you own the domain.
 
@@ -52,10 +52,10 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
     4. Save this change at your DNS host.
 
-    5. Once the TXT record is fully propagated, select **Verify**.
+    5. After the TXT record is fully propagated, select **Verify**.
 
     **Note:** The TXT record could take 24-48 hours to be verified by Office 365.
 
     **Warning:** It is important to consult your migration plan before continuing through the domain setup. Changing your MX Records before you are ready to migrate can result in a loss of service.
 
-    After your domain has been successfully verified by Office 365, you can begin to assign it to your users. You will not be able to fully utilize your Office 365 services until you [add the appropriate DNS entries to your domain's DNS host](/how-to/configure-dns-for-office-365-services/).
+    After your domain has been successfully verified by Office 365, you can begin to assign it to your users. You cannot fully use your Office 365 services until you [add the appropriate DNS entries to your domain's DNS host](/how-to/configure-dns-for-office-365-services/).
