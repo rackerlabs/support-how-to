@@ -102,11 +102,11 @@ nova-agent runs to set the network fail with the following error:
 
     {"returncode":"1","message":"Command Failed. , Output:Element not found.\\r\\n"}
 
-### Bug fixes
+### Troubleshooting
 
 The following sections provide some possible solutions.
 
-#### Operating system (OS) independent bug fixes
+#### Operating system (OS) independent troubleshooting
 
 General fixes in order of desirability:
 
