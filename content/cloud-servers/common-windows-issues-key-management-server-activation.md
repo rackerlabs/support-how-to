@@ -77,7 +77,7 @@ Locate the appropriate KMS server in the following list:
 
         slmgr.vbs /ato
 
-   **Note**:If you receive the error  ``0xC004F074 The Key Management Server (KMS) is unavailable``
+   **Note**:If you receive the error ``0xC004F074 The Key Management Server (KMS) is unavailable``
    continue with the following steps to ensure the server clock is synced with the KMS clock.
 
 5. If the device does not activate then the server may be set to MAK activation instead of KMS activation.
