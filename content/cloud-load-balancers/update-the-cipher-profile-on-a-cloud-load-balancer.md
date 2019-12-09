@@ -5,8 +5,8 @@ title: Update the cipher profile on a cloud load balancer
 type: article
 created_date: '2019-02-07'
 created_by: Rackspace Community
-last_modified_date: '2019-09-03'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-12-10'
+last_modified_by: Chad Sterling
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
@@ -86,7 +86,7 @@ Balancers API:
 
 Use the following steps to update the cipher profile from the Cloud Load Balancer page of the Control Panel:
 
-1.  Select Secure Traffic (SSL) in the Optional Features section. 
+1.  Select **Secure Traffic (SSL)** in the Optional Features section. 
 
 2.  Select the pencil icon. 
 
