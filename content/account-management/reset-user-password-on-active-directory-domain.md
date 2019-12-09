@@ -13,7 +13,7 @@ product_url: account-management
 
 ### MyRackspace Portal 
 
-This article describes how to reset the password for an Active Directory user by using a ticket template.
+This article explains how to use a ticket template to reset the password for an Active Directory user.
 
 #### Create a ticket in the MyRackspace Portal
 
@@ -21,7 +21,7 @@ This article describes how to reset the password for an Active Directory user by
 
 2. In the top navigation bar, click **Select a Product** > **Dedicated Hosting**.
 
-3. Select **Tickets** > **Create New Ticket**. The Create New Ticket page displays. 
+3. Select **Tickets** > **Create Ticket**. The Create New Ticket page displays. 
 
 4. Select the Subject field.
 
@@ -31,6 +31,6 @@ This article describes how to reset the password for an Active Directory user by
 
     **Note:**A secure password for this user will be generated automatically and provided in the ticket once the request has been completed. You may change this password later if desired.
 
-6. Select **Create Ticket** at the bottom of the page.
+6. Select **Create Ticket**.
 
     **Note:**After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. Automation runs in the background while the ticket is created, which typically takes a few minutes to complete. 
