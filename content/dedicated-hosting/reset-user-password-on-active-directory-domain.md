@@ -7,8 +7,8 @@ created_date: '2019-12-9'
 created_by: Chad Sterling
 last_modified_date: '2019-12-9'
 last_modified_by: Chad Sterling
-product: MyRackspace portal
-product_url: account-management
+product: Dedicated Hosting
+product_url: dedicated-hosting
 ---
 
 ### MyRackspace Portal 
@@ -25,7 +25,11 @@ This article explains how to use a ticket template to reset the password for an 
 
 4. Select the Subject field.
 
+ <img src="{% asset_path dedicated-hosting/firewall-manager-v2-object-groups/ip-groups.png %}" />
+
 5. Select **Reset User Password on Active Directory Domain** from the dropdown menu. 
+
+ <img src="{% asset_path dedicated-hosting/firewall-manager-v2-object-groups/ip-groups.png %}" />
 
 5. Enter the username and Domain for the user account needing the password reset. 
 
