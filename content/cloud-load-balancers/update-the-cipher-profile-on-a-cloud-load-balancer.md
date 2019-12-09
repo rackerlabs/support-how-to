@@ -82,35 +82,12 @@ Balancers API:
 
           # curl -X PUT https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "X-Auth-Token: $TOKEN" -H "Accept: application/json" -H "content-Type: application/json" -d '{"cipherProfile": "CLBCipherPolicy2017-08"}'
 
-### Update the cipher profile by using Pitchfork
+### Update the cipher profile by using the MyCloud portal
 
-Use the following steps to update the cipher profile by using Pitchfork:
+Use the following steps to update the cipher profile from the Cloud Load Balancer page of the Control Panel:
 
-1. In your Internet browser, go to
-   [Pitchfork](https://pitchfork.rax.io) and log in to the application
-   by using your username and API key.
+1.  Select Secure Traffic (SSL) in the Optional Features section. 
 
-   To learn how to find your API key, see [View and
-   reset your API
-   key](/how-to/view-and-reset-your-api-key).
+2.  Select the pencil icon.
 
-2. In the list of products that displays, click **Cloud Load Balancers**.
-
-3. In the drop-down list, select the **Region** where your cloud load balancer
-   is located.
-
-4. Scroll down to the **SSL** section. Then, next to **Update or Configure SSL
-   Termination**, click **Details**.
-
-5. Enter the load balancer ID in the **lb_id** field and the cipher profile
-   that you want to use in the **cipher_profile** field, then click **Send API
-   Call**.
-
-6. Verify that the cipher profile is updated by using the following steps:
-
-   1. In the **SSL** section, go to **SSL Termination Configuration** and
-      click **Details**.
-   2. Enter the load balancer ID in the **lb_id** field and click **Send API
-      Call**.
-
-   The response that this call returns should confirm that the cipher profile is updated.
+3.  Update the ciphers and TLS versions. 
