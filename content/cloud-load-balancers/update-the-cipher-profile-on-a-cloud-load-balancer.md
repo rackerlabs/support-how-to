@@ -84,10 +84,16 @@ Balancers API:
 
 ### Update the cipher profile by using the MyCloud portal
 
-Use the following steps to update the cipher profile from the Cloud Load Balancer page of the Control Panel:
+Use the following steps to update the cipher profile from the Load Balancer page in the Control Panel:
 
-1.  Select **Secure Traffic (SSL)** in the Optional Features section. 
+1. Select **Networking** > **Load Balancers**.
 
-2.  Select the pencil icon. 
+2. Select the Load Balancer you would like to update. 
 
-3.  Update the ciphers and TLS versions. 
+3. Scroll to the Optional Features section.
+
+4. Select the pencil icon next to Secure Traffic (SSL). 
+
+5. Update the ciphers and TLS versions. 
+
+6. Select **Save SSL Configuration**.
