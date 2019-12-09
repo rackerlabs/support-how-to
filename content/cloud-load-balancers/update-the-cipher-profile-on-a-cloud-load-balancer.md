@@ -88,6 +88,6 @@ Use the following steps to update the cipher profile from the Cloud Load Balance
 
 1.  Select Secure Traffic (SSL) in the Optional Features section. 
 
-2.  Select the pencil icon.
+2.  Select the pencil icon. 
 
 3.  Update the ciphers and TLS versions. 
