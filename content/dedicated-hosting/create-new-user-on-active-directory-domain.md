@@ -25,22 +25,22 @@ This article explains how to use a ticket template to add a new Active Directory
 
 4. Select the Subject field.
 
- <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password1.png %}" />
+5. From the dropdown menu, Select **Create New User on Active Directory Domain**. 
 
-5. Fro the dropdown menu, Select **Create New User on Active Directory Domain**. 
+ <img src="{% asset_path dedicated-hosting/create-new-user-on-active-directory-domain/newuser1.png" />
 
- <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password2.png %}" />
-
-5. Specify a username for the account you would like to have created. 
+5. Specify a username for the account you would like to create. 
 
     **Note:**Once the request has been completed, a secure password will be automatically generated for this user and provided in the ticket. You can change this password later if desired.
 
-6. Specify the domain this user will be created in.
+6. Specify a domain for the user.
 
-7. Use the "Give this user Administrative or sudo permissions" check box to grant the user administrative or sudo permissions upon creation. This will automatically add the user to Domain Administrator groups.
+**Note:** Use the "Give this user Administrative or sudo permissions" checkbox to grant the user administrative or sudo permissions. This will automatically add the user to Domain Administrator groups.
 
-8. Use the "Additional Instructions" box to provide any other details needed for the user creation such as user details or group membership permissions
+**Note:** Use the "Additional Instructions" box to provide additional information such as user details or group membership permissions.
+
+ <img src="{% asset_path dedicated-hosting/create-new-user-on-active-directory-domain/newuser2.png %}" />
 
 9. Select **Create Ticket**.
 
-    **Note:**After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete. 
+    **Note:** After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete. 
