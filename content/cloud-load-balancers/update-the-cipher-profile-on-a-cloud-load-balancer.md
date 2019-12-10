@@ -16,8 +16,7 @@ Transport Layer Security (TLS). However, the cipher `SSL_RSA_WITH_3DES_EDE_CBC_S
 identified as vulnerable to potential intrusion. Rackspace is therefore enabling you to update the 
 ciphers that your cloud load balancers use to better protect your environment.
 
-You can update the cipher profiles by using either the Cloud Load Balancers
-API or from the Control panel.
+You can update the cipher profiles from the Control panel.
 
 For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
 developer documentation.
@@ -29,58 +28,6 @@ The following cipher profiles are currently available:
 - `CLBCipherPolicy2019-05`: This cipher profile has all ciphers disabled except the following ones:
    - `SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384`
    - `SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256`
-
-### Update cipher profiles by using the API
-
-This article assumes that you have the cURL utility installed. The cloud load
-balancer will be out of service while the update is being applied. As a
-result, it is important to ensure that you perform this process when it will
-not impact your normal operations.
-
-You need to obtain an authentication token for this process. To learn how to
-obtain your token, see [Authentication](https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) in the Cloud Load Balancer API developer documentation.
-
-Use the following steps to update the cipher profile by using the Cloud Load
-Balancers API:
-
-1. Set the following environment variables:
-
-       # REG={region}
-       # DDI={cloud_account_number}
-       # LBID={Load balancer ID}
-       # TOKEN={API_Token}
-
-2. To see the cipher profile that is enabled on your cloud load balancer, run the
-   following cURL command:
-
-       # curl -sX GET -H "X-Auth-Token: $TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination/ | python -m json.tool | grep cipherProfile
-
-   The output should look like the following example:
-
-       "cipherProfile": "CLBCipherPolicy2017-08"
-
-3. Use the following steps to disable the cipher
-   `SSL_RSA_WITH_3DES_EDE_CBC_SHA` by using the API:
-
-   1. Check if the cipher `SSL_RSA_WITH_3DES_EDE_CBC_SHA` is enabled on your
-      cloud load balancer by running the following cURL command:
-
-          # curl -X GET -H "X-Auth-Token: $TOKEN" https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination/ciphers
-
-      The output should look like the following example:
-
-          {"ciphers":[{"name":"SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA"},{"name":"SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA256"},{"name":"SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256"},{"name":"SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA"},{"name":"SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA384"},{"name":"SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384"},{"name":"SSL_RSA_WITH_3DES_EDE_CBC_SHA"},{"name":"SSL_RSA_WITH_AES_128_CBC_SHA"},{"name":"SSL_RSA_WITH_AES_128_CBC_SHA256"},{"name":"SSL_RSA_WITH_AES_128_GCM_SHA256"},{"name":"SSL_RSA_WITH_AES_256_CBC_SHA"},{"name":"SSL_RSA_WITH_AES_256_CBC_SHA256"},{"name":"SSL_RSA_WITH_AES_256_GCM_SHA384"}]}
-
-   2. The `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher is currently the only cipher
-      that you can disable on your cloud load balancer. The cipher profile
-      `CLBCipherPolicy2017-08` disables the
-      `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher, and `Default` enables it.
-
-       Disable the `SSL_RSA_WITH_3DES_EDE_CBC_SHA` cipher by updating the
-       cipher profile to `CLBCipherPolicy2017-08`, as shown in the following
-       example:
-
-          # curl -X PUT https://$REG.loadbalancers.api.rackspacecloud.com/v1.0/$DDI/loadbalancers/$LBID/ssltermination -H "X-Auth-Token: $TOKEN" -H "Accept: application/json" -H "content-Type: application/json" -d '{"cipherProfile": "CLBCipherPolicy2017-08"}'
 
 ### Update the cipher profile by using the MyCloud portal
 
