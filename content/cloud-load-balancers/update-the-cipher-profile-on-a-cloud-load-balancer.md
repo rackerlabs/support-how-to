@@ -17,7 +17,7 @@ identified as vulnerable to potential intrusion. Rackspace is therefore enabling
 ciphers that your cloud load balancers use to better protect your environment.
 
 You can update the cipher profiles by using either the Cloud Load Balancers
-API or our interactive web application, [Pitchfork](https://pitchfork.rax.io).
+API or from the Control panel.
 
 For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
 developer documentation.
@@ -92,8 +92,12 @@ Use the following steps to update the cipher profile from the Load Balancer page
 
 3. Scroll to the Optional Features section.
 
+<img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture1.png%}" alt="The Optional Features section" />
+
 4. Select the pencil icon next to Secure Traffic (SSL). 
 
 5. Update the ciphers and TLS versions. 
 
 6. Select **Save SSL Configuration**.
+
+<img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture2.png%}" alt="The SSL dialog" />
