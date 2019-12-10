@@ -1,7 +1,7 @@
 ---
 permalink: reset-user-password-on-active-directory-domain/
 audit_date:
-title: Reset User Password on Active Directory Domain
+title: Reset user password on Active Directory domain
 type: article
 created_date: '2019-12-10'
 created_by: Chad Sterling
