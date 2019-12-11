@@ -12,9 +12,9 @@ product_url: undefined
 noindex: true
 ---
 
-#### Overview
+### Overview
 
-In November, 2017, Rackspace completed its acquisition of Datapipe. The
+In November 2017 Rackspace completed its acquisition of Datapipe. The
 acquisition increased Rackspace’s data center footprint across the globe. In
 some regions, including Hong Kong, this has resulted in multiple locations
 within a small geographical area. Rackspace leaders identified which data
@@ -29,18 +29,18 @@ are building the new facility, HKG5, based on Rackspace standards. See
 [this article](https://www.rackspace.com/about/data-centers) for more
 information on the specification of our data centers.
 
-After reviewing our global footprint of data centers, and with the lease for
+After reviewing our global footprint of data centers and with the lease for
 HKG2 coming to an end in 2020, Rackspace decided to reduce our footprint in
 Hong Kong and plans to move all customers from HKG2 to the new HKG5 facility.
 
-This article relates specifically to customers on managed or shared
+**Note:** This article relates specifically to customers on managed or shared
 infrastructure. If you are a colocation customer, request a copy of the *HKG2
 Colocation Customer FAQ* from your account manager.
 
-### When will the relocation occur?
+#### When will the relocation occur?
 
 Rackspace will assign all customers on managed infrastructure to a move group
-and each move group will be scheduled for a date in April or May, 2020. The move
+and each move group will be scheduled for a date in April or May 2020. The move
 groups will be scheduled to run in a maintenance window starting on either a
 Friday or Saturday night and ending on the following morning. We plan to keep
 the maintenance window less than 12 hours. We will confirm the exact timings
@@ -72,7 +72,7 @@ The high-level stages for the move are as follows:
    destination data center.
 -	On the night of the migration, shortly before the maintenance window is due
    to start, we run a final audit, place all devices under alert suppression,
-   and make any required changes to Rackspace manages IP addresses. If you
+   and make any required changes to Rackspace-managed IP addresses. If you
    requested us to shut down your devices in a specific order, we do this
    just before the maintenance window officially opens.
 -	At the start of the maintenance window, Rackspace runs an automated script
@@ -84,7 +84,8 @@ The high-level stages for the move are as follows:
    appropriate cabling and power.
 -	Rackspace performs basic connectivity testing on your environment, and the
    team performs any custom testing requested in advance of the maintenance.
-   You should also be prepared to carry out tests once the move is completed. You can request that we contact you once we have completed our tests.
+   You should also be prepared to carry out tests once the move is completed. You can request that we
+   contact you after we have completed our tests.
 
 #### Will there be any IP address or DNS changes?
 
@@ -159,8 +160,8 @@ instructions as we turn off and turn on your environment. The migration team
 will focus on successfully executing your instructions on the night of the
 migration.
 
-We strongly encourage customers to back up their data, either by using the
-Rackspace Managed Backup service or making their own offsite backups. If your
+We strongly encourage you to back up your data, either by using the
+Rackspace Managed Backup service or making your own offsite backups. If your
 solution is not currently being backed up, you can talk to your account team
 about putting a backup solution in place before the migration date.
 
@@ -178,7 +179,7 @@ night:
 
 -   Perform a test reboot of your servers before the migration to ensure that
     applications and services start correctly. If you want Rackspace to do this,
-   raise a request by using the customer portal.
+    raise a request by using the customer portal.
 
 #### Will I continue to receive the same services that I currently receive?
 
