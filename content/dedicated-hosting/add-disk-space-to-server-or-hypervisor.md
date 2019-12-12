@@ -34,8 +34,8 @@ This article explains how to create a ticket to add disk space to a server or hy
 
     <img src="{% asset_path dedicated-hosting/add-disk-space-to-server-or-hypervisor/adddisk2.png %}" />
 
-7. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting the 'Anytime' checkbox.  Otherwise, fill out the remaining maintenance details to have the work completed in a scheduled maintenance window. 
+8. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting the 'Anytime' checkbox.  Otherwise, fill out the remaining maintenance details to have the work completed in a scheduled maintenance window. 
 
-8. Select **Create Ticket**.
+9. Select **Create Ticket**.
 
    <img src="{% asset_path dedicated-hosting/add-disk-space-to-server-or-hypervisor/adddisk3.png %}" />
