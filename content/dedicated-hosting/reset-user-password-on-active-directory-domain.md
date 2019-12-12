@@ -25,16 +25,16 @@ This article explains how to use a ticket template to reset the password for an 
 
 4. Select the Subject field.
 
- <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password1.png %}" />
+5. From the dropdown menu, Select **Reset User Password on Active Directory Domain**. 
 
-5. Fro the dropdown menu, Select **Reset User Password on Active Directory Domain**. 
+    <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password1.png %}" />
 
- <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password2.png %}" />
-
-5. Enter the username and Domain of the user account for which you would like to reset the password. 
+6. Enter the username and Domain of the user account for which you would like to reset the password. 
 
     **Note:** Once the request has been completed, a secure password will be automatically generated for this user and provided in the ticket. You can change this password later if desired.
 
-6. Select **Create Ticket**.
+7. Select **Create Ticket**.
 
     **Note:** After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete. 
+
+    <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password2.png %}" />
