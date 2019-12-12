@@ -33,7 +33,7 @@ This article explains how to create a ticket to add a CPU to a server or hypervi
    <img src="{% asset_path dedicated-hosting/add-cpu-to-server-or-hypervisor/hypervisor2.png %}" />
 
 7. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting
-   the 'Anytime' checkbox. Otherwise, fill out the remaining maintenance details to have the work completed in
+   the **Anytime** checkbox. Otherwise, fill out the remaining maintenance details to have the work completed in
    a scheduled maintenance window.
 
 8. Select **Create Ticket**.
