@@ -27,7 +27,7 @@ in the MyRackspace portal.
 
 5. From the dropdown menu, Select **Reset User Password on Active Directory Domain**. 
 
-    <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password1.png %}" />
+    <img src="{% asset_path dedicated-hosting/reset-user-password-on-active-directory-domain/password1.png %}" />
 
 6. Enter the username and Domain of the user account for which you want to reset the password. 
 
@@ -39,4 +39,4 @@ in the MyRackspace portal.
    After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal.
    It typically takes a few minutes for the ticket creation process to complete. 
 
-   <img src="{% asset_path cloud-load-balancers/reset-user-password-on-active-directory-domain/password2.png %}" />
+   <img src="{% asset_path dedicated-hosting/reset-user-password-on-active-directory-domain/password2.png %}" />
