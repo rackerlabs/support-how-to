@@ -72,7 +72,7 @@ This article explains how to use a ticket template to manage local users.
 
 #### Audit users or user groups  
 
-These actions will provide a list of users or user groups on each server selected, no additional input is required.
+These actions will provide a list of users or user groups on each selected server, no additional input is required.
 
     <img src="{% asset_path dedicated-hosting/local-user-management/localuser5.png%}" />
 
