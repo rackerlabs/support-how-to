@@ -24,18 +24,39 @@ This article explains how to use a ticket template to manage local users.
 
 4. Select the Subject field.
 
-5. From the dropdown menu, Select **Add RAM to Server or Hypervisor.**
+5. From the dropdown menu, Select **Local User Management.**
 
-    <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram1.png %}" />
+    <img src="{% asset_path %}" />
 
-6. In the Ticket Details section, select a device from the dropdown menu 
+6. Select the affected Device(s) and Action Type.
 
-7. Enter the amount of RAM you would like to add. 
+7. Create user
+Specify the Username, Password, and Full Name of the user to create on the selected device(s). The Password should be at least 8 characters, with at least 3 character types (Upper, Lower, Numeric, and Symbol).
+Optionally, you can select to have this user have the following attributes
+User cannot change their password
+Password never expires
+User login is diabled
+User has admin privileges (This option will add the newly created user to the Administrators group on Windows and will give the user sudo privileges on Linux
 
-    <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram2.png %}" />
 
-8. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting the 'Anytime' checkbox.  Otherwise, fill out the remaining maintenance details to have the work completed in a scheduled maintenance window. 
+Delete user
+Specify the Username to delete from the selected device(s). This action will completely remove the user from the selected device(s).
 
-9. Select **Create Ticket**.
+Enable user
+Specify the Username to enable on the selected device(s).
 
-   <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram3.png %}" />
+Disable/lock user
+Specify the Username to disable/lock on the selected device(s).
+
+Change user password
+Specify the Username and Password to reset on the selected device(s). The Password should be at least 8 characters, with at least 3 character types (Upper, Lower, Numeric, and Symbol).
+
+Audit users
+This action will provide a list of users on each server selected, no additional input is required.
+
+Audit user groups
+This action will provide a list of groups on each server selected and the respective members of the groups, no additional input is required.
+
+8. Click Create Ticket at the bottom of the page.
+After the ticket is created, you are redirected back to your ticket list in the MyRackspace Portal. Automation runs in the background while the ticket is created, which typically takes a few minutes to complete.
+
