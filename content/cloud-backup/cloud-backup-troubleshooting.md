@@ -68,13 +68,13 @@ issues that cause this status are as follows:
 
 -   Non-UTF-8 characters were used in the path of the file in the operating system. The current version of Cloud Backup supports only UTF-8 characters. When non-UTF-8 characters are used, a `Path Not Found` message is displayed.
 
-For more information, see [Back up databases with Cloud Backup](https://support.rackspace.com/how-to/rackspace-cloud-backup-backing-up-databases/).
+For more information, see [Back up databases with Cloud Backup](/how-to/rackspace-cloud-backup-backing-up-databases/).
 
 #### Backup status "Error"
 
 Many issues might cause a backup status of Error to occur, such as cloud account permissions for the user who configured that agent or the DriveClient not being able to connect to the agent APIs.
 
-Rackspace Support must review the **driveclient.log** file to determine the cause. If the agent is not connected, attach the **driveclient.log** file to a ticket so that Support can review it. For more information, see [Cloud Backup agent logging basics - Where to store saved logs](https://support.rackspace.com/how-to/cloud-backup-agent-logging-basics/).
+Rackspace Support must review the **driveclient.log** file to determine the cause. If the agent is not connected, attach the **driveclient.log** file to a ticket so that Support can review it. For more information, see [Cloud Backup agent logging basics - Where to store saved logs](/how-to/cloud-backup-agent-logging-basics/).
 
 Following are some of the issues and some possible fixes:
 
@@ -97,7 +97,7 @@ If the local system has less than 100 MB of free disk space, the backup and even
 -  Automated log uploads made by using the Cloud Control Panel might not be possible.
 -  File restore operations might partially or completely fail.
 
-If disk space is so low that any of the preceding issues occur, we strongly recommend that you move as many extraneous files as possible off of the local system drive. For possible ways to do this with Cloud Backup files, see [Conserving resources with Cloud Backup](https://support.rackspace.com/how-to/best-practices-for-cloud-backup/).
+If disk space is so low that any of the preceding issues occur, we strongly recommend that you move as many extraneous files as possible off of the local system drive. For possible ways to do this with Cloud Backup files, see [Conserving resources with Cloud Backup](/how-to/best-practices-for-cloud-backup/).
 
 ##### Container does not exist
 
