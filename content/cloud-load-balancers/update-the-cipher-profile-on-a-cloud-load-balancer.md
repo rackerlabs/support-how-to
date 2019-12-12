@@ -1,11 +1,11 @@
 ---
 permalink: update-the-cipher-profile-on-a-cloud-load-balancer/
-audit_date: '2019-01-23'
+audit_date: '2019-12-12'
 title: Update the cipher profile on a cloud load balancer
 type: article
 created_date: '2019-02-07'
 created_by: Rackspace Community
-last_modified_date: '2019-12-10'
+last_modified_date: '2019-12-12'
 last_modified_by: Chad Sterling
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
