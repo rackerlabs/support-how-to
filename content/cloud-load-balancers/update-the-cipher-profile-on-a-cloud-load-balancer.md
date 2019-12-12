@@ -39,7 +39,7 @@ Use the following steps to update the cipher profile from the Load Balancer page
 
 3. Scroll to the Optional Features section.
 
-<img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture1.png%}" alt="The Optional Features section" />
+   <img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture1.png%}" alt="The Optional Features section" />
 
 4. Select the pencil icon next to Secure Traffic (SSL). 
 
@@ -47,4 +47,4 @@ Use the following steps to update the cipher profile from the Load Balancer page
 
 6. Select **Save SSL Configuration**.
 
-<img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture2.png%}" alt="The SSL dialog" />
+   <img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture2.png%}" alt="The SSL dialog" />
