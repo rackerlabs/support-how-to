@@ -1,7 +1,7 @@
 ---
-permalink: reset-user-password-on-active-directory-domain/
+permalink: add-ram-to-server-or-hypervisor/
 audit_date: '2019-12-12'
-title: Add RAM to server or hypervisor
+title: Add RAM to a server or hypervisor
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
@@ -11,7 +11,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article explains how to create a ticket to add RAM to a server of hypervisor. 
+This article explains how to create a ticket to add RAM to a server or hypervisor. 
 
 ### Create a ticket in the MyRackspace portal
 
@@ -26,15 +26,17 @@ This article explains how to create a ticket to add RAM to a server of hyperviso
 
 5. From the dropdown menu, Select **Add RAM to Server or Hypervisor.**
 
-    <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram1.png %}" />
+   <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram1.png %}" />
 
 6. In the Ticket Details section, select a device from the dropdown menu 
 
-7. Enter the amount of RAM you would like to add. 
+7. Enter the amount of RAM you want to add. 
 
-    <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram2.png %}" />
+   <img src="{% asset_path dedicated-hosting/add-ram-to-server-or-hypervisor/addram2.png %}" />
 
-8. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting the 'Anytime' checkbox.  Otherwise, fill out the remaining maintenance details to have the work completed in a scheduled maintenance window. 
+8. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by
+   selecting the **Anytime** checkbox.  Otherwise, fill out the remaining maintenance details to
+   have the work completed in a scheduled maintenance window. 
 
 9. Select **Create Ticket**.
 
