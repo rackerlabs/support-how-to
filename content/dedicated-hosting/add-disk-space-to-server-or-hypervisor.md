@@ -24,11 +24,13 @@ This article explains how to create a ticket to add disk space to a server or hy
 
 4. Select the Subject field.
 
-5. From the dropdown menu, Select **Add Disk Space to Server or Hypervisor.**. 
+5. From the dropdown menu, Select **Add Disk Space to Server or Hypervisor.**
 
     <img src="{% asset_path dedicated-hosting/add-disk-space-to-server-or-hypervisor/adddisk1.png  %}" />
 
-6. In the Ticket Details section, select a device from the dropdown menu, enter the amount of disk space needed, and choose whether the space is to be added to an existing volume or configured as a new drive. 
+6. In the Ticket Details section, select a device from the dropdown menu 
+
+7. Enter the amount of disk space needed, and choose whether to add the space to an existing volume or to configure as a new drive. 
 
     <img src="{% asset_path dedicated-hosting/add-disk-space-to-server-or-hypervisor/adddisk2.png %}" />
 
