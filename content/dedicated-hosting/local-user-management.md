@@ -26,37 +26,54 @@ This article explains how to use a ticket template to manage local users.
 
 5. From the dropdown menu, Select **Local User Management.**
 
-    <img src="{% asset_path %}" />
+    <img src="{% asset_path dedicated-hosting/local-user-management/localuser1.png%}" />
 
 6. Select the affected Device(s) and Action Type.
 
-7. Create user
-Specify the Username, Password, and Full Name of the user to create on the selected device(s). The Password should be at least 8 characters, with at least 3 character types (Upper, Lower, Numeric, and Symbol).
-Optionally, you can select to have this user have the following attributes
-User cannot change their password
-Password never expires
-User login is diabled
-User has admin privileges (This option will add the newly created user to the Administrators group on Windows and will give the user sudo privileges on Linux
+#### To create a user: 
+
+1. Enter the Username, Password, and Full Name of the user to be create on the selected device(s). 
+    
+    **Note:** The Password should be at least 8 characters, with at least 3 character types (Upper, Lower, Numeric, and Symbol).
+
+2. You can also assign the following attributes to the user:
+    - User cannot change their password
+    - Password never expires
+    - User login is disabled
+    - User has admin privileges (This option will add the newly created user to the Administrators group on Windows and will give the user sudo privileges on Linux)
+
+3. Select **Create Ticket**.
+
+    <img src="{% asset_path dedicated-hosting/local-user-management/localuser2.png%}" />
 
 
-Delete user
-Specify the Username to delete from the selected device(s). This action will completely remove the user from the selected device(s).
+#### To Delete, Enable or Disable/lock a user 
 
-Enable user
-Specify the Username to enable on the selected device(s).
+1. Select the desired action from the **Action Type** dropdown menu. 
 
-Disable/lock user
-Specify the Username to disable/lock on the selected device(s).
+2. Enter the username. 
 
-Change user password
-Specify the Username and Password to reset on the selected device(s). The Password should be at least 8 characters, with at least 3 character types (Upper, Lower, Numeric, and Symbol).
+   **Note:** Deleting a user will completely remove them from the selected device(s).
 
-Audit users
-This action will provide a list of users on each server selected, no additional input is required.
+3. Select **Create Ticket**.
 
-Audit user groups
-This action will provide a list of groups on each server selected and the respective members of the groups, no additional input is required.
+    <img src="{% asset_path dedicated-hosting/local-user-management/localuser3.png%}" />
 
-8. Click Create Ticket at the bottom of the page.
-After the ticket is created, you are redirected back to your ticket list in the MyRackspace Portal. Automation runs in the background while the ticket is created, which typically takes a few minutes to complete.
 
+#### To Change a user password
+
+1. Specify the Username and Password to reset on the selected device(s). 
+
+    **Note:** The Password should be at least 8 characters, with at least 3 character types (Upper, Lower, Numeric, and Symbol).
+
+2. Select **Create Ticket**.
+
+    <img src="{% asset_path dedicated-hosting/local-user-management/localuser4.png%}" />
+
+#### Audit users or user groups  
+
+These actions will provide a list of users or user groups on each server selected, no additional input is required.
+
+    <img src="{% asset_path dedicated-hosting/local-user-management/localuser5.png%}" />
+
+**Note:** After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete.
