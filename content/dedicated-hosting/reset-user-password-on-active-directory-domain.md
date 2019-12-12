@@ -3,9 +3,9 @@ permalink: reset-user-password-on-active-directory-domain/
 audit_date:
 title: Reset user password on Active Directory domain
 type: article
-created_date: '2019-12-10'
+created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2019-12-10'
+last_modified_date: '2019-12-12'
 last_modified_by: Chad Sterling
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -33,8 +33,8 @@ This article explains how to use a ticket template to reset the password for an 
 
 5. Enter the username and Domain of the user account for which you would like to reset the password. 
 
-    **Note:**Once the request has been completed, a secure password will be automatically generated for this user and provided in the ticket. You can change this password later if desired.
+    **Note:** Once the request has been completed, a secure password will be automatically generated for this user and provided in the ticket. You can change this password later if desired.
 
 6. Select **Create Ticket**.
 
-    **Note:**After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete. 
+    **Note:** After the ticket is created, you will be redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete. 
