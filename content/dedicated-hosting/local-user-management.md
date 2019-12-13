@@ -30,11 +30,11 @@ This article explains how to use a ticket template to manage local users.
 
 6. Select the affected Device(s) and Action Type.
 
-#### Ccreate a user
+#### Create a user
 
 1. Enter the Username, Password, and Full Name of the user that you want to create on the selected device(s). 
     
-   **Note:** The Password should be at least 8 characters, with at least 3 character types
+   The Password should be at least 8 characters, with at least 3 character types
    (Upper, Lower, Numeric, and Symbol).
 
 2. You can also assign the following attributes to the user:
@@ -55,7 +55,7 @@ This article explains how to use a ticket template to manage local users.
 
 2. Enter the username. 
 
-   **Note:** Deleting a user completely removes them from the selected device(s).
+   Deleting a user completely removes them from the selected device(s).
 
 3. Select **Create Ticket**.
 
@@ -65,7 +65,7 @@ This article explains how to use a ticket template to manage local users.
 
 1. Specify the Username and Password to reset on the selected device(s). 
 
-   **Note:** The Password should be at least 8 characters, with at least 3 character types
+   The Password should be at least 8 characters, with at least 3 character types
    (Upper, Lower, Numeric, and Symbol).
 
 2. Select **Create Ticket**.
@@ -78,4 +78,4 @@ These actions provide a list of users or user groups on each selected server, no
 
 <img src="{% asset_path dedicated-hosting/local-user-management/localuser5.png%}" />
 
-After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete.
+    After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete.
