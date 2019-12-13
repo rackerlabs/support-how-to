@@ -1,11 +1,11 @@
 ---
 permalink: hkg2-data-center-migration-customer-faq/
-audit_date: '2020-01-02'
+audit_date: '2019-12-13'
 title: HKG2 data center migration customer FAQ
 type: article
-created_date: '2020-01-02'
+created_date: '2019-12-13'
 created_by: Sarah Wellburn
-last_modified_date: '2020-01-02'
+last_modified_date: '2019-12-13'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
