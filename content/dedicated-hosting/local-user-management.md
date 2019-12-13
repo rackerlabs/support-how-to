@@ -78,4 +78,4 @@ These actions provide a list of users or user groups on each selected server, no
 
 <img src="{% asset_path dedicated-hosting/local-user-management/localuser5.png%}" />
 
-    After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete.
+  After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete.
