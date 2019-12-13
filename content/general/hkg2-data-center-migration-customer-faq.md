@@ -84,8 +84,8 @@ The high-level stages for the move are as follows:
    appropriate cabling and power.
 -	Rackspace performs basic connectivity testing on your environment, and the
    team performs any custom testing requested in advance of the maintenance.
-   You should also be prepared to carry out tests once the move is completed. You can request that we
-   contact you after we have completed our tests.
+   You should also be prepared to carry out tests once the move is completed.
+   You can request that we contact you after we have completed our tests.
 
 #### Will there be any IP address or DNS changes?
 
@@ -97,9 +97,9 @@ Private IP addresses might need to change as we transition your devices to the
 Rackspace Managed Backup service. This product uses a separate backup
 exclusively for backups to avoid degradation of public traffic during backups.
 Rackspace is responsible for making these changes to devices to which we have
-access. If you have devices that use a managed backup that Rackspace cannot
-access, we provide the new IP information so that you can make the necessary
-changes.
+access. If you have devices that use managed backup services that Rackspace
+cannot access, we provide the new IP information so that you can make the
+necessary changes.
 
 #### My data is replicated to another location. How will the migration affect the replication?
 
@@ -122,7 +122,7 @@ and turned on, unless you provide other instructions.
 We provide official notification by creating a ticket in the customer portal
 approximately 100 days in advance of the move. This ticket is closed out
 approximately after 25 days, and we create another ticket 60 days in advance
-of the move that include the date and time of your move. All further updates
+of the move that includes the date and time of your move. All further updates
 are posted into the 60-day notification ticket. Do not close the 60-day ticket
 until the migration has been completed.
 
