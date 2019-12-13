@@ -13,15 +13,15 @@ product_url: dedicated-hosting
 
 ### Creating ticket templates for MyRackspace
 
-The links below explain how to use the ticket templates on the [MyRackspace Portal](https://login.rackspace.com/)
+The links below explain how to use the ticket templates on the [MyRackspace Portal](https://login.rackspace.com/). 
 
 [Create New User on Active domain directory](https://support.rackspace.com/how-to/create-new-user-on-active-directory-domain/)
 
-[Add CPU to Server or Hypervisor]()
+[Add CPU to Server or Hypervisor](https://support.rackspace.com/how-to/add-cpu-to-server-or-hypervisor/)
 
-[Add RAM to Server or Hypervisor]()
+[Add RAM to Server or Hypervisor](https://support.rackspace.com/how-to/add-ram-to-server-or-hypervisor/)
 
-[Add Disk Space to Server or Hypervisor]()
+[Add Disk Space to Server or Hypervisor](https://support.rackspace.com/how-to/add-disk-space-to-server-or-hypervisor/)
 
 [Local User Management](https://support.rackspace.com/how-to/manage-local-users-in-the-myrackspace-portal/)
 
