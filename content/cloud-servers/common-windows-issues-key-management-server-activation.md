@@ -1,23 +1,25 @@
 ---
 permalink: common-windows-issues-key-management-server-activation/
-audit_date: '2017-12-03'
-title: 'Common Windows Issues: Key Management Server Activation'
+audit_date: '2019-12-04'
+title: 'Common Windows issues: Key Management Server activation'
 type: article
 created_date: '2011-08-15'
 created_by: Rackspace Support
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-12-04'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Problem**: Periodic activation requests to the Key Management Server (KMS)
-are rejected and the operating system shows as unlicensed.
+**Problem**: The Key Management Server (KMS) rejects periodic activation requests,
+and the Windows&reg; operating system shows as unlicensed.
 
-**Cause**: There are two main causes of this issue: (1) Windows cannot locate the KMS and (2) the
-server's clock differs from the KMS's clock by more than four hours.
+**Cause**: The two leading causes of this issue are:
 
-Use the steps in the following sections to resolve this issue:
+  - Windows cannot locate the KMS.
+  - The server's clock differs from the KMS clock by more than four hours.
+
+Use the steps in the following sections to resolve this issue.
 
 ### Ensure that the Windows Server is configured to use the correct KMS server
 
@@ -26,7 +28,7 @@ Locate the appropriate KMS server in the following list:
 <table>
      <tr>
        <th>Data center</th>
-       <th>KMS Server</th>
+       <th>KMS server</th>
      </tr>
      <tr>
        <td>ORD (Chicago)</td>
@@ -60,9 +62,9 @@ Locate the appropriate KMS server in the following list:
 
 2. Confirm that you can ping the Rackspace KMS server by running the following command:
 
-        ping kms-server-from-table-above 
+        ping kms-server-from-table-above
 
-   **Note**: If there is a reply, move on to step 1c. No reply means that there
+   **Note**: If there is a reply, continue to step 3. No reply means that there
    is an interface, hardware, or routing issue. We recommend the following
    article for help resolving the issue: [Update ServiceNet routes on cloud
    servers](/how-to/updating-servicenet-routes-on-cloud-servers/)
@@ -75,31 +77,31 @@ Locate the appropriate KMS server in the following list:
 
         slmgr.vbs /ato
 
-    If you recieve the error  ``0xC004F074 The Key
-    Management Server (KMS) is unavailable``, skip to step 2
+   **Note**: If you receive the error ``0xC004F074 The Key Management Server (KMS) is unavailable``,
+   continue with the following steps to ensure the server clock synchronizes with the KMS clock.
 
-5. If the device does not activate then the server may be set to MAK activation instead of KMS activation.
-    To confirm which activation method is set on the device, run the following command:
+5. If the device does not activate, the server might be set to MAK activation instead of KMS activation.
+
+    To confirm the activation method set on the device, run the following command:
 
         slmgr -dlv
 
-    Look for the **Product Key Channel** setting. **Volume:GVLK** means the device is set to **KMS activation**,
-    **Volume:MAK** means the device is set to **MAK** activation.
+    Look for the **Product Key Channel** setting. **Volume:GVLK** means the device uses to **KMS activation**, **Volume:MAK** means the device uses to **MAK** activation.
 
     The following images show sample outputs:
 
-    **KMS Activation Output**:
+    **KMS activation output**:
 
      <img src="{% asset_path cloud-servers/common-windows-issues-key-management-server-activation/kms.jpg %}" />
 
-    **MAK Activation Output**:
+    **MAK activation output**:
 
      <img src="{% asset_path cloud-servers/common-windows-issues-key-management-server-activation/mak.png %}" />
 
-6. If your device is set to **MAK activation** then you should set the device back to **KMS activation**.
-    First find and take note of the appropriate KMS client setup key from Microsoft: [KMS Client Setup Keys](https://technet.microsoft.com/library/jj612867.aspx)
+6. If your device uses **MAK activation**, then you should set the device back to **KMS activation**.
+    First, find and take note of the appropriate KMS client setup key from Microsoft&reg;: [KMS Client Setup Keys](https://technet.microsoft.com/library/jj612867.aspx)
 
-    To find wich Server edition you are running, run the following command and look for the section labelled **OS name**:
+    To find which server edition you are running, run the following command and look for the section labeled **OS name**:
 
         systeminfo | findstr OS
 
@@ -108,22 +110,21 @@ Locate the appropriate KMS server in the following list:
         PS C:\Users\Administrator> systeminfo | findstr OS
         OS Name:                   Microsoft Windows Server 2012 R2 Datacenter
 
-7. Set the device to **KMS acivation** using the key found in the  previously referenced article and entering the following command:
+7. Set the device to **KMS activation** by using the key found in the  previously referenced article and entering the following command:
 
         slmgr /ipk %key%
 
-    Make sure to replace **%key%** with the key from the Microsoft document.
+    Replace **%key%** with the key from the Microsoft&reg; document.
 
 8. To activate the device, run the below command:
 
         slmgr.vbs /ato
 
-### Ensure that the server clock is synced with the KMS clock
+### Ensure that the server clock synchronizes with the KMS clock
 
-If step 1d above returned the error `0xC004F074 The Key Management Server (KMS) is unavailable`, the time on the
-cloud server is drastically different than what is on the KMS.
+If step 1 above returned the error `0xC004F074 The Key Management Server (KMS) is unavailable`, the time on the cloud server is drastically different than what is on the KMS.
 
-1. At this point, you should configure the server to use an NTP time source by executing the appropriate command.
+1. At this point, you should configure the server to use a Network Time Protocol (NTP) time source by executing the appropriate command.
 
      <table>
      <tr>
@@ -156,12 +157,13 @@ cloud server is drastically different than what is on the KMS.
      </tr>
      </table>
 
-2. After the time is synced up, attempt each of the following commands:
+2. After the time synchronizes, attempt each of the following commands:
 
         w32tm /resync
 
         slmgr.vbs /ato
 
-3. You must open UDP port 123 to allow the sync.
+3. You must open User Datagram Protocol (UDP) port 123 to allow the sync.
 
-4. Make sure your firewall allows outbound connections to TCP port 1688.
+4. Make sure your firewall allows outbound connections to Transmission Control Protocol
+(TCP) port 1688.

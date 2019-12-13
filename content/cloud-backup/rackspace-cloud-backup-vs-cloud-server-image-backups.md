@@ -13,7 +13,7 @@ product_url: cloud-backup
 
 Rackspace customers now have two options for backing up their cloud servers:
 
-- **Rackspace Cloud Backup**, which is a fully integrated, file-based backup solution that helps protect your data on cloud servers. For additional information, see the [Cloud Backup introduction](https://support.rackspace.com/how-to/cloud-backup/).
+- **Rackspace Cloud Backup**, which is a fully integrated, file-based backup solution that helps protect your data on cloud servers. For additional information, see the [Cloud Backup introduction](/how-to/cloud-backup/).
 
 - **Cloud server image backup**, which provides a copy of the entire state of a server stored on Cloud Files. Images can be scheduled or created on demand. For additional information, see [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/) and [Scheduled Images FAQ](/how-to/scheduled-images-faq/).
 

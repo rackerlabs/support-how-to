@@ -5,8 +5,8 @@ title: Windows patches for cloud servers with a Managed Operations service level
 type: article
 created_date: '2011-04-04'
 created_by: Rackspace Support
-last_modified_date: '2018-02-08'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-11-13'
+last_modified_by: Hounsou Dansou
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -39,14 +39,14 @@ for update from our WSUS servers.
 
 The following regions have WSUS servers:
 
-| Region | Data Center | WSUS endpoint |
-| ------ | ----------- | ------------- |
-| Dallas | DFW	 | http://microsoftupdate.dfw1.rackspace.com |
-| Chicago	 | ORD | http://microsoftupdate.ord1.rackspace.com |
-| North Virginia | IAD | http://microsoftupdate.iad1.rackspace.com |
-| Hong Kong | HKG | http://microsoftupdate.hkg1.rackspace.com |
-| Sydney | SYD | http://microsoftupdate.syd1.rackspace.com |
-| London | LON | http://microsoftupdate.lon1.rackspace.com |
+| Region         | Data Center | WSUS endpoint                      |
+| -------------- | ----------- | ---------------------------------- |
+| Dallas         | DFW         | https://msupdate.dfw.rackspace.com |
+| Chicago        | ORD         | https://msupdate.ord.rackspace.com |
+| North Virginia | IAD         | https://msupdate.iad.rackspace.com |
+| Hong Kong      | HKG         | https://msupdate.hkg.rackspace.com |
+| Sydney         | SYD         | https://msupdate.syd.rackspace.com |
+| London         | LON         | https://msupdate.lon.rackspace.com |
 
 **Note**: We recommend that you get updates from the closest WSUS server.
 
@@ -63,7 +63,7 @@ The following table provides additional information:
   <tr>
     <td>Windows Server 2008 R2</td>
     <td>WSUS</td>
-    <td>microsoftupdate.[dc].rackspace.com</td>
+    <td>msupdate.[dc].rackspace.com</td>
     <td>
       Nightly between 1 AM and 5 AM in the time zone in which your server is located:<br>
       <ul>
@@ -79,7 +79,7 @@ The following table provides additional information:
   </tr>
   <tr>
     <td>Windows Server 2012 WSUS</td>
-    <td>microsoftupdate.[dc].rackspace.com</td>
+    <td>msupdate.[dc].rackspace.com</td>
     <td>
       Nightly between 1 AM and 5 AM in the time zone in which your server is located:<br>
       <ul>
@@ -97,7 +97,7 @@ The following table provides additional information:
   <tr>
     <td>Windows Server 2012 R2</td>
     <td>WSUS</td>
-    <td>microsoftupdate.[dc].rackspace.com</td>
+    <td>msupdate.[dc].rackspace.com</td>
     <td>
       Nightly between 1 AM and 5 AM in the time zone in which your server is located:<br>
       <ul>
@@ -120,8 +120,8 @@ following registry setting are configured on the Managed Windows Server:
 
     [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate]
     "AcceptTrustedPublisherCerts"=dword:00000001
-    "WUServer"="http://microsoftupdate.dfw1.rackspace.com"
-    "WUStatusServer"="http://microsoftupdate.dfw1.rackspace.com"
+    "WUServer"="http://msupdate.dfw1.rackspace.com"
+    "WUStatusServer"="http://msupdate.dfw1.rackspace.com"
 
     [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate\AU]
     "AUOptions"=dword:00000004 "AutoInstallMinorUpdates"=dword:00000000
@@ -134,20 +134,19 @@ following registry setting are configured on the Managed Windows Server:
 You must set the Windows Updates service (`wuauserv`) to automatically start
 by performing the following steps:
 
-1.	Open a PowerShell command prompt and run the following commands:
+1. Open a PowerShell command prompt and run the following commands:
 
-		    Setting wuauserv Service to Auto
+        Setting wuauserv Service to Auto
 
-		    Set-Service -Name wuauserv -StartupType Automatic
+        Set-Service -Name wuauserv -StartupType Automatic
 
-2.	Ensure that the `wuauserv` service is running by running the following
+2. Ensure that the `wuauserv` service is running by running the following
     commands:
 
-		    Restart-Service -Name wuauserv
+        Restart-Service -Name wuauserv
 
-3.	Apply all of the changes by running the following command:
+3. Apply all of the changes by running the following command:
 
-		    gpupdate.exe /force
+        gpupdate.exe /force
 
-You can find additional information in the [Microsoft Security Update
-Guide](https://portal.msrc.microsoft.com/en-us/).
+You can find additional information in the [Microsoft Security Update Guide](https://portal.msrc.microsoft.com/en-us/).

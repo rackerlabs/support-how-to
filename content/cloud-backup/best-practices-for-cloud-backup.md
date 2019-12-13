@@ -233,7 +233,7 @@ You can change the most commonly changed log file settings by using the **AgentC
 
 After you change any of these values, click **Save**.
 
-For more information, see [Cloud Backup agent logging] (https://support.rackspace.com/how-to/cloud-backup-agent-logging-basics/).
+For more information, see [Cloud Backup agent logging] (/how-to/cloud-backup-agent-logging-basics/).
 
 ### Frequently encountered issues
 
