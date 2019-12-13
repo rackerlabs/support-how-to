@@ -15,7 +15,7 @@ product_url: dedicated-hosting
 
 The links below explain how to use the ticket templates on the [MyRackspace Portal](https://login.rackspace.com/)
 
-[Create New User on Active domain directory]()
+[Create New User on Active domain directory](https://support.rackspace.com/how-to/create-new-user-on-active-directory-domain/)
 
 [Add CPU to Server or Hypervisor]()
 
@@ -23,8 +23,8 @@ The links below explain how to use the ticket templates on the [MyRackspace Port
 
 [Add Disk Space to Server or Hypervisor]()
 
-[Local User Management]()
+[Local User Management](https://support.rackspace.com/how-to/manage-local-users-in-the-myrackspace-portal/)
 
-[Reset User Password on Active Directory Domain]()
+[Reset User Password on Active Directory Domain](https://support.rackspace.com/how-to/reset-user-password-on-active-directory-domain/)
 
 [Generate Certificate Signing Request (CSR)](https://support.rackspace.com/how-to/generate-a-csr/)
