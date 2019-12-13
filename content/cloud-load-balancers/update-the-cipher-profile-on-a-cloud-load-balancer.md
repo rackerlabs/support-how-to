@@ -16,7 +16,7 @@ Transport Layer Security (TLS). However, the cipher `SSL_RSA_WITH_3DES_EDE_CBC_S
 identified as vulnerable to potential intrusion. Rackspace is therefore enabling you to update the 
 ciphers that your cloud load balancers use to better protect your environment.
 
-You can update the cipher profiles from the Control panel.
+You can update the cipher profiles from the [Cloud Control Panel](https://login.rackspace.com).
 
 For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
 developer documentation.
@@ -31,20 +31,24 @@ The following cipher profiles are currently available:
 
 ### Update the cipher profile by using the MyCloud portal
 
-Use the following steps to update the cipher profile from the Load Balancer page in the Control Panel:
+Use the following steps to update the cipher profile from the Load Balancer page in the Cloud Control Panel:
 
-1. Select **Networking** > **Load Balancers**.
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com) with your username and password.
 
-2. Select the Load Balancer you would like to update. 
+2. In the top navigation bar click **Select a Product > Rackspace Cloud**.
 
-3. Scroll to the Optional Features section.
+3. Select **Networking** > **Load Balancers**.
+
+4. Select the Load Balancer you want to update. 
+
+5. Scroll to the Optional Features section.
 
    <img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture1.png%}" alt="The Optional Features section" />
 
-4. Select the pencil icon next to Secure Traffic (SSL). 
+6. Select the pencil icon next to Secure Traffic (SSL). 
 
-5. Update the ciphers and TLS versions. 
+7. Update the ciphers and TLS versions. 
 
-6. Select **Save SSL Configuration**.
+8. Select **Save SSL Configuration**.
 
    <img src="{% asset_path cloud-load-balancers/update-the-cipher-on-a-cloud-load-balancer/picture2.png%}" alt="The SSL dialog" />
