@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-power-users-guide/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect Power Users Guide
 type: article
 created_date: '2012-11-09'
 created_by: Jonathan Hogue
-last_modified_date: '2016-09-13'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---

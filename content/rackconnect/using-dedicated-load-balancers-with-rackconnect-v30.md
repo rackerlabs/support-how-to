@@ -1,11 +1,11 @@
 ---
 permalink: using-dedicated-load-balancers-with-rackconnect-v30/
-audit_date:
+audit_date: '2019-12-16'
 title: Using dedicated load balancers with RackConnect v3.0
 type: article
 created_date: '2014-11-11'
 created_by: Juan Perez
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
