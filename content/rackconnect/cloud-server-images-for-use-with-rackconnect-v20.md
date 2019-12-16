@@ -1,11 +1,11 @@
 ---
 permalink: cloud-server-images-for-use-with-rackconnect-v20/
-audit_date:
+audit_date: '2019-12-16'
 title: Cloud Servers images for use with RackConnect v2.0
 type: article
 created_date: '2012-08-21'
 created_by: David Hendler
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
