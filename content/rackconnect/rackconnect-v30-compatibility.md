@@ -58,4 +58,4 @@ Managed Colocation  | Network devices in a Managed Colocation environment are su
 Managed Storage | The Managed Storage offering is compatible only with dedicated servers in a RackConnect configured dedicated environment. The Managed Storage offering cannot be used directly with cloud servers. | [Managed Storage](https://www.rackspace.com/managed-hosting/data-storage)
 Managed Virtualization | Yes | [Managed Virtualization](https://www.rackspace.com/cloud/private/managed_virtualization/)
 Private Cloud | Yes | [Private Cloud](https://www.rackspace.com/cloud/private/)
-Cloud Load Balancers | Yes | By default, Cloud Load Balancers (CLB) is blocked on RackConnect v3.0. A special process must occur before CLB traffic is allowed. Contact your dedicated support team to request CLB access on RackConnect v3.0.
+Cloud Load Balancers | Yes | By default, Cloud Load Balancers is blocked on RackConnect v3.0. A special process must occur before Cloud Load Balancers traffic is allowed. Contact your dedicated support team to request Cloud Load Balancers access on RackConnect v3.0.
