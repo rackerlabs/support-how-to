@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v30-compatibility/
-audit_date: '2017-10-24'
+audit_date: '2019-12-16'
 title: RackConnect v3.0 compatibility
 type: article
 created_date: '2014-09-08'
 created_by: Juan Perez
-last_modified_date: '2017-11-01'
-last_modified_by: Brian King
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -42,6 +42,8 @@ Network device | Details
 --- | ---
 Cisco ASA Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 Cisco ASA X Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
+Cisco Firepower Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
+Cisco NetScaler | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 Juniper SRX Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 BIG-IP F5 Load Balancers | [Using dedicated load balancers with RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20)
 Brocade Load Balancer | [Using dedicated load balancers with RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20)
@@ -56,3 +58,4 @@ Managed Colocation  | Network devices in a Managed Colocation environment are su
 Managed Storage | The Managed Storage offering is compatible only with dedicated servers in a RackConnect configured dedicated environment. The Managed Storage offering cannot be used directly with cloud servers. | [Managed Storage](https://www.rackspace.com/managed-hosting/data-storage)
 Managed Virtualization | Yes | [Managed Virtualization](https://www.rackspace.com/cloud/private/managed_virtualization/)
 Private Cloud | Yes | [Private Cloud](https://www.rackspace.com/cloud/private/)
+Cloud Load Balancers | Yes | By default, Cloud Load Balancers is blocked on RackConnect v3.0. A special process must occur before Cloud Load Balancers traffic is allowed. Contact your dedicated support team to request Cloud Load Balancers access on RackConnect v3.0.

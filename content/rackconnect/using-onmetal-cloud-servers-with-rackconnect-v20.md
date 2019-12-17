@@ -1,17 +1,17 @@
 ---
 permalink: using-onmetal-cloud-servers-with-rackconnect-v20/
-audit_date:
+audit_date: '2019-12-16'
 title: Using OnMetal Cloud Servers with RackConnect v2.0
 type: article
 created_date: '2014-08-20'
 created_by: Juan Perez
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
 
-**Applies to:** RackConnect v2.0, OnMetal Cloud Servers
+**Applies to:** RackConnect v2.0, OnMetal v1 Cloud Servers
 
 Rackspace now supports OnMetal Cloud Servers with RackConnect. You can now combine the benefits of OnMetal Cloud Servers&mdash;single-tenant, bare-metal, API-driven&mdash; with the features of RackConnect&mdash;public IP address provisioning, network stack
 configuration, software firewall updates&mdash;to create your own custom

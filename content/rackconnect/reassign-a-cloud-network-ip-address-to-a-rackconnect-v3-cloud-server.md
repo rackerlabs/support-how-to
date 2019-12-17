@@ -1,12 +1,12 @@
 ---
 permalink: reassign-a-cloud-network-ip-address-to-a-rackconnect-v3-cloud-server/
-audit_date: '2019-02-14'
+audit_date: '2019-12-16'
 title: Reassign a Cloud Network IP address to a RackConnect v3 Cloud Server
 type: article
 created_date: '2019-02-14'
 created_by: Rackspace Community
-last_modified_date: '2019-02-14'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---

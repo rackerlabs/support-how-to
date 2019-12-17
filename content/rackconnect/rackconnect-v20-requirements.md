@@ -1,11 +1,11 @@
 ---
 permalink: rackconnect-v20-requirements/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v2.0 requirements
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2015-12-31'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
