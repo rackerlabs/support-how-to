@@ -1,12 +1,12 @@
 ---
 permalink: cloud-office-control-panel-overview/
-audit_date: '2019-11-21'
+audit_date: 
 title: Cloud Office Control Panel overview
 type: article
 created_date: '2012-05-23'
 created_by: Rae D. Cabello
-last_modified_date: '2019-11-21'
-last_modified_by: William Loy
+last_modified_date: '2019-12-17'
+last_modified_by: Walter Stubbs
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -48,7 +48,7 @@ Following are some of the options available in the Email Hosting section of the 
 -  **Aliases** - Manage your company's alias addresses.
 -  **Group Lists** - Email a large number of people by assigning them to a group list.
 -  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following **Spam** section.
--  **Mobile Sync** - Enable your mobile devices to handle mail and Personal Information Management (PIM) data (for example, Contacts and Calendars), which syncs to Rackspace Webmail.
+-  **Rackspace Email Plus** - Select a domain to upgrade to Rackspace Email Plus. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus).
 
 #### Hosted email spam
 
@@ -120,7 +120,7 @@ Following are some of the options available in the Domains section of the contro
 
 ### Account settings
 
-The **My Account** option is in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and contacts, and to find general information.
+The **My Account** option is in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and your administrator account, and to find general information.
 
 Following are the options available for the account section:
 
@@ -137,8 +137,19 @@ Following are the options available for the account section:
 
 #### Admins & Contacts
 -  **Administrators** - View your current domain administrators.
--  **Company Contacts** - Manage your account contact information such as the phone number and permissions.
 -  **API Keys** - Generate your API access key for your domain.
+
+#### My Profile
+
+-  **Change Password** - Change your password for your Admin account.
+-  **Generate API Key** - Generate your API access key for your domain.
+-  **Admin Information** - Manage your administrator profile and contact information.
+-  **Security Question** - Manage your own Security Question and Answer.
+-  **Multi-Factor Authentication** - Manage your multi-factor authentication (MFA) setings, including disabling MFA and setting up MFA with a new device.
+-  **Trusted Devices** - Lists the current devices you have selected to trust when accessing the Control Panel.
+-  **Notifications** - Manage which account related notifications you wish to receive.
+-  **Security Settings** - Manage additional security options, including Password Expiration and Login IP Restriction.
+-  **Linked Accounts** - Manage which Office 365 Admin ID is linked to your Admin account.
 
 #### Support
 
@@ -163,7 +174,7 @@ Following are some of the options available in the Reseller Tools section:
 - **Partner Portal** - Link to a portal that provides extra resources for resellers such as documentation and support tools.
 
 #### Audit Logs
-View control panel activity over the last 90 days.
+View control panel activity over the last 6 months.
 
 #### Product Feedback
 Provide feedback about our products and services.
