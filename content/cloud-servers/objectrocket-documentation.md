@@ -31,19 +31,13 @@ steps:
 4.  Create a database
 5.  Add an Access Control List (ACL)
 
-Read the [Getting Started Guide](https://objectrocket.com/docs/getting_started.html)
-
 ### Backup and recovery
 
-Data backups are provided to give you access to point-in-time
-copies of your data. Backups are taken at regular intervals.
-
-Learn more about backups in the [Backup and Recovery guide](https://objectrocket.com/docs/mongodb_backup_and_recovery.html)
+Data backups are provided to give you access to point-in-time copies of your data. Backups are taken at regular intervals. Learn more about backups in the [Backup and Recovery guide](https://objectrocket.com/docs/mongodb_backup_and_recovery.html)
 
 ### ObjectRocket API
 
-The ObjectRocket API is a REST-based HTTP API over SSL. You can use the API in addition to and along with the MongoDB driver access into
-ObjectRocket.
+The ObjectRocket API is a REST-based HTTP API over SSL. You can use the API in addition to and along with the MongoDB driver access into ObjectRocket.
 
 -  [Overview](https://objectrocket.com/docs/api_v2_getting_started.html)
 -  [Authentication](https://objectrocket.com/docs/api_v2_getting_started.html#authentication)
