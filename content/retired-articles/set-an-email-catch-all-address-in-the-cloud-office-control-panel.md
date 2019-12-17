@@ -7,8 +7,6 @@ created_date: '2014-04-10'
 created_by: Mawutor Amesawu
 last_modified_date: '2016-01-15'
 last_modified_by: Kyle Laffoon
-product:
-product_url:
 ---
 
 A *catch-all address* receives all email sent to invalid mailboxes at a user's domain and is sometimes used to avoid missing any emails to a domain.
