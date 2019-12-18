@@ -258,3 +258,8 @@ If you do need to back up these files, we suggest the following workarounds:
 
 No. The agent only makes outgoing Secure Sockets Layer (SSL) connections to
 our API server on port 443.
+
+#### Can Cloud Backup restore files across data centers?
+
+This functionality is not officially supported, but it is physically possible
+to do it. See the following link for more information on [cross-DC restore hacks](/how-to/performing-cross-dc-restores-and-backups/).
