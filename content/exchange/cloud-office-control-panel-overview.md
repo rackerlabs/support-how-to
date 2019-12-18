@@ -1,6 +1,6 @@
 ---
 permalink: cloud-office-control-panel-overview/
-audit_date: 
+audit_date: '2019-12-17'
 title: Cloud Office Control Panel overview
 type: article
 created_date: '2012-05-23'
@@ -15,7 +15,7 @@ This article provides an overview of the features available in the Cloud Office 
 
 Choose from the following options to skip to that section:
 
-- [Control panel](#logging-in)
+- [Control Panel](#logging-in)
   
 - [Hosted email](#hosted-email)
   
@@ -29,7 +29,7 @@ Choose from the following options to skip to that section:
 
 ### Logging in
 
-Use one of the following links to log in to the control panel:
+Use one of the following links to log in to the Control Panel:
 
 - [Log in for new Cloud Office customers](https://cp.rackspace.com/)
 - [Log in for UK and MyRackspace customers](https://login.rackspace.com/)
@@ -40,15 +40,15 @@ After you log in, you see sections that represent the services that you signed u
 
 The Email Hosting section provides you with options and tools for Rackspace Email, such as spam filtering, group lists, aliases, and mobile devices.
 
-Following are some of the options available in the Email Hosting section of the control panel.
+Following are some of the options available in the Email Hosting section of the Control Panel.
 
 #### Hosted email accounts
 
 -  **Mailboxes** - Add new mailboxes for your domain.
 -  **Aliases** - Manage your company's alias addresses.
 -  **Group Lists** - Email a large number of people by assigning them to a group list.
--  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following **Spam** section.
--  **Rackspace Email Plus** - Select a domain to upgrade to Rackspace Email Plus. See [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus).
+-  **Filter Settings** - Control spam-handling settings for users or the entire domain. For more information, see the following **Spam** section.
+-  **Rackspace Email Plus** - Select a domain to [upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus).
 
 #### Hosted email spam
 
@@ -60,14 +60,14 @@ Following are some of the options available in the Email Hosting section of the 
 
 The Microsoft&reg; Exchange&reg; section provides tools such as spam filtering, distribution lists, contacts, resources, and mobile devices for Microsoft Exchange.
 
-The following options are available in the **Microsoft Exchange** section of the control panel:
+The following options are available in the **Microsoft Exchange** section of the Control Panel:
 
 #### Exchange email accounts
 
 -  **Mailboxes** - Add new mailboxes for your domain.
 -  **Lists** - Add members of your domain (and contacts) to one exclusive email address so that emails are automatically sent out to all members of the list.
 -  **Resources** - Set up or reserve an Exchange room for company collaboration.
--  **Skype for Business** - Connect via instant message, Skype&reg; to Skype audio and video calls, and online status.
+-  **Skype for Business** - Connect via instant message, Skype&reg;-to-Skype audio and video calls, and online status.
 -  **Contacts** - Manage your company's Exchange contacts.
 -  **Folders** - Enable and manage your domain's public folders.
 -  **Filter Settings** - Control spam handling settings for users or the entire domain. For more information, see the following **Spam** section.
@@ -120,7 +120,7 @@ Following are some of the options available in the Domains section of the contro
 
 ### Account settings
 
-The **My Account** option is in a drop-down menu in the top-right corner of the control panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and your administrator account, and to find general information.
+The **My Account** option is in a drop-down menu in the top-right corner of the Control Panel, where your active administrator login is displayed. The account section enables you to manage billing, payments, upgrades, services, administrators, and your administrator account, and to find general information.
 
 Following are the options available for the account section:
 
@@ -146,7 +146,7 @@ Following are the options available for the account section:
 -  **Admin Information** - Manage your administrator profile and contact information.
 -  **Security Question** - Manage your own Security Question and Answer.
 -  **Multi-Factor Authentication** - Manage your multi-factor authentication (MFA) setings, including disabling MFA and setting up MFA with a new device.
--  **Trusted Devices** - Lists the current devices you have selected to trust when accessing the Control Panel.
+-  **Trusted Devices** - List the current devices you have selected to trust when accessing the Control Panel.
 -  **Notifications** - Manage which account related notifications you wish to receive.
 -  **Security Settings** - Manage additional security options, including Password Expiration and Login IP Restriction.
 -  **Linked Accounts** - Manage which Office 365 Admin ID is linked to your Admin account.
@@ -160,11 +160,11 @@ The following options available in the **Support** menu:
 -  **Email Setup Wizard** - View useful mailbox information while using step-by-step instructions on how to set up your Cloud Office services.
 -  **View Tickets** - Create a new ticket and view any past tickets on the Support Tickets landing page.
 
-### Reseller tools
+### Reseller Tools
 
-The Reseller Tools section provides reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains, sites, and gaining access to the reseller Partner Portal.
+The **Reseller Tools** section provides reseller options for Rackspace Email, such as adding new customers, managing reseller administrators, domains, sites, and gaining access to the reseller Partner Portal.
 
-Following are some of the options available in the Reseller Tools section:
+Following are some of the options available in the **Reseller Tools** section:
 
 - **Customers** - List customers for your reseller account.
 - **Add customers** - Add new customers to your reseller account.
@@ -174,9 +174,11 @@ Following are some of the options available in the Reseller Tools section:
 - **Partner Portal** - Link to a portal that provides extra resources for resellers such as documentation and support tools.
 
 #### Audit Logs
-View control panel activity over the last 6 months.
+
+View Control Panel activity over the last 6 months.
 
 #### Product Feedback
+
 Provide feedback about our products and services.
 
 If you need help with a specific feature, read about how to use the [Help tool for hosted email and Skype for business](/how-to/help-tool-for-hosted-email-and-skype-for-business).
