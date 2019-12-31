@@ -41,7 +41,7 @@ Use the following steps to install the MSOnline module:
     Install-Module MSOnline
     ```
     
-**Note:** If prompted about installing modules from an untrusted repository, type **Y** and press **Enter**.
+    **Note:** If prompted about installing modules from an untrusted repository, type **Y** and press **Enter**.
 
 4. The following code block is a script that connects you to your Office 365 tenant by using the administrative credentials that you provide. Lines that begin with ```#``` are comments relating to the line of code above them. Copy and paste the  code block into PowerShell and enter your Global Administrator credentials when prompted:
 
