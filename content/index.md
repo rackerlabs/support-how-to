@@ -35,6 +35,9 @@ permalink: /
 				<p class="button">
 					<a href="/how-to/getting-started-with-hosted-email/" id="hosted-button" class="banner-button">Get Started with Rackspace Hosted Email</a>
 				</p>
+				<p class="button">
+					<a href="/how-to/getting-started-with-office-365/" id="office-button" class="banner-button">Get Started with Office 365</a>
+				</p>
 			</aside>
 			</div>
 			</div>
