@@ -7,8 +7,6 @@ created_date: '2012-03-13'
 created_by: Rackspace Support
 last_modified_date: '2016-01-28'
 last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
 ---
 
 This article shows how to setup the BlackBerry
