@@ -7,8 +7,6 @@ created_date: '2013-08-29'
 created_by: Mawutor Amesawu
 last_modified_date: '2016-01-29'
 last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
 ---
 
 This article describes the setup process for users who have an Exchange mailbox
