@@ -13,7 +13,7 @@ product_url: cloud-block-storage
 
 Rackspace occasionally performs maintenance to increase the stability
 and performance of the Cloud Block Storage platform. This article provides
-some tips for minimizing the imapct of maintenance on your environment.
+some tips for minimizing the impact of this maintenance on your environment.
 
 ###  How can I reduce the impact of the maintenance?
 
@@ -26,17 +26,18 @@ You can clone your CBS volume. The resulting clone should land on an unaffected 
 
 **Non-system disk CBS volumes:**
 
-- Once the clone is complete, you stop all writes to your current CBS volume, unmount,
-detach, and attach the new volume. Note: Clones are not verified, so please ensure the
+- Once the clone is complete, you can stop all writes to your current CBS volume, unmount,
+detach, and attach the new volume.
+**Note:** Clones are not verified, please ensure the
 newly-cloned volume is working before deleting your current CBS volume.
 
 **System disk CBS volumes (e.g., Boot From Volume servers):**
 
-- Once the clone is complete, you can deploy a new server using the newly-cloned CBS volume
-as the system disk. In the mycloud portal, click "Servers," then "Create Resources." Under "Images",
-select "Bootable Volumes" as the source, then deploy a new server from the clone. Note: Clones are not
-verified, so please ensure the newly-cloned volume can build a server before deleting your current server.
-Additional note: your new server will have a new IP.
+- After cloning your CBS volume, you can deploy a new server using the new clone
+as the system disk. From the mycloud portal, select **Servers** > **Create Resources**>**Bootable Volumes**, then deploy a new server from the clone.
+**Note:** Clones are not verified, please ensure the newly-cloned volume can build a server
+ before deleting your current server.
+**Note:** Your new server will have a new IP.
 
 **Stopping Writes**
 
@@ -52,7 +53,8 @@ does not work, contact Rackspace Support.
 **System disk CBS volumes (e.g., Boot from Volume servers):**
 
 - Reboot the server. If the server is unresponsive, or does not reboot, you can boot
-into rescue mode using a specific image (note: this feature is not yet available via
-the myrackspace.com portal, so you must use the API). When the server is in rescue mode,
-follow the directions listed above for non-system disk CBS volumes. For additional assistance,
-contact Rackspace Support.
+into rescue mode using a specific image.
+**Note:** this feature is not yet available via
+the myrackspace.com portal, so you must use the API.
+When the server is in rescue mode,
+follow the directions listed above for non-system disk CBS volumes. Contact Rackspace Support for additional assistance.
