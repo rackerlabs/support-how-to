@@ -7,8 +7,6 @@ created_date: '2011-04-21'
 created_by: Rackspace Support
 last_modified_date: '2016-05-17'
 last_modified_by: Stephanie Fillmon
-product: Microsoft Exchange
-product_url: exchange
 ---
 
 Service books determine which services are available on your BlackBerry&reg; device.  At
