@@ -39,7 +39,15 @@ as the system disk. From the mycloud portal, select **Servers** > **Create Resou
  before deleting your current server.
 **Note:** Your new server will have a new IP.
 
-**Stopping Writes**
+#### Stopping Writes
+
+**Non-system disk CBS volumes:**
+
+- Unmount and detach any block storage volume(s) impacted by the maintenance. (Linked instructions include instructions for deleting block storage; you will only need to complete the unmount and detach instructions.)
+
+**System disk CBS volumes (e.g., Boot From Volume servers):**
+
+- To avoid writes to the system disk, you must shutdown your cloud server from the OS at least 10 minutes before the maintenance starts. This will cause your server to show as "Shutoff"  in the mycloud portal. Once you are notified via ticket that the maintenance is complete, reboot the server from the mycloud portal under "Actions-> Reboot" and it should boot up and return to "Active" in the mycloud portal.
 
 #### If your disk goes into read-only mode
 
