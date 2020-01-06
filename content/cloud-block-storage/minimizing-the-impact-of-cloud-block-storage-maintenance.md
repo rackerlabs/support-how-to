@@ -12,59 +12,59 @@ product_url: cloud-block-storage
 ---
 
 Rackspace occasionally performs maintenance to increase the stability
-and performance of the Cloud Block Storage (CBS) platform. This article provides
+and performance of the Cloud Block Storage platform. This article provides
 some tips for minimizing the impact of this maintenance on your environment.
 
 ###  How can I reduce the impact of the maintenance?
 
-- Clone and replace your CBS volume.
+- Clone and replace your Cloud Block Storage volume.
 - Stop all writes to the device until the maintenance is complete.
 
 #### Clone and replace
 
-After you [clone your CBS volume](https://support.rackspace.com/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
+After you [clone your Cloud Block Storage volume](https://support.rackspace.com/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
 
-**Non-system disk CBS volumes:**
+**Non-system disk Cloud Block Storage volumes:**
 
-- Once the clone is complete, you can stop all writes to your current CBS volume, [unmount,
+- After the clone is complete, you can stop all writes to your current Cloud Block Storage volume, [unmount,
 detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/), and [attach the new volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/).
 
-**Note:** Clones are not verified, please ensure the
-newly-cloned volume is working before deleting your current CBS volume.
+**Note:** Clones are not verified. Ensure the
+newly-cloned volume works before you delete your current Cloud Block Storage volume.
 
-**System disk CBS volumes (e.g., Boot From Volume servers):**
+**System disk Cloud Block Storage volumes (Boot from volume servers):**
 
-- After cloning your CBS volume, you can deploy a new server using the new clone
-as the system disk. From the mycloud portal, select **Servers** > **Create Resources**>**Bootable Volumes**, then deploy a new server from the clone.
+- After you clone your Cloud Block Storage volume, you can deploy a new server by using the new clone
+as the system disk. From the [mycloud portal](https://login.rackspace.com/), select **Servers** > **Create Resources**>**Bootable Volumes**. Then deploy a new server from the clone.
 
-**Note:** Clones are not verified, please ensure the newly-cloned volume can build a server before deleting your current server.
+**Note:** Clones are not verified. Ensure the newly-cloned volume can build a server before you delete your current server.
 
-**Note:** Your new server will have a new IP.
+**Note:** Your new server has new IP address.
 
 #### Stop all writes to the device
 
-**Non-system disk CBS volumes:**
+**Non-system disk Cloud Block Storage volumes:**
 
-- [Unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) any block storage volume impacted by the maintenance. (Link includes instructions for deleting block storage&mdash;you should only complete the unmount and detach sections.)
+- [Unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
 
-**System disk CBS volumes (e.g., Boot From Volume servers):**
+**System disk Cloud Block Storage volumes (Boot from volume servers):**
 
-- To avoid writes to the system disk, you must shutdown your cloud server from the OS at least 10 minutes before the maintenance starts. This will cause your server to show as "Shutoff"  in the mycloud portal. Once you receive a ticket confirming that the maintenance is complete, reboot the server from the mycloud portal by selecting **Actions**> **Reboot**. Your server will boot up and display as "Active" in the mycloud portal.
+- To avoid writes to the system disk, you must shut down your cloud server from the operating system (OS) at least 10 minutes before the maintenance starts. This causes your server to show as "Shutoff"  in the mycloud portal. After you receive a ticket confirming that the maintenance is complete, reboot the server from the mycloud portal by selecting **Actions**> **Reboot**. Your server boots up and displays as "Active" in the mycloud portal.
 
 #### If your disk goes into read-only mode
 
-**Non-system disk CBS volumes:**
+**Non-system disk Cloud Block Storage volumes:**
 
-- If your volume is in read-only mode: unmount the volume, run a filesystem check
-(linux with 'ext3/4': fsck, windows: 'chkdsk'), and then remount the volume as described above.
-If the disk is still in read-only mode after a filesystem check, try rebooting. If that
+- If your volume is in read-only mode, unmount the volume, run a filesystem check
+(Linux&reg; with 'ext3/4' or fsck, Windows&reg; with 'chkdsk'), and then remount the volume as described above.
+If the disk is still in read-only mode after a filesystem check, try a reboot to correct the problem. If that
 does not work, contact Rackspace Support.
 
-**System disk CBS volumes (e.g., Boot from Volume servers):**
+**System disk Cloud Bloud Storage volumes (Boot from volume servers):**
 
-- Reboot the server. If the server is unresponsive, or does not reboot, you can [boot
-into rescue mode using a specific image](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#rescue-specified-server).
+- Reboot the server. If the server is unresponsive or does not reboot, you can [boot
+into rescue mode by using a specific image](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#rescue-specified-server).
 
-**Note:** This feature is not yet available via the myrackspace.com portal, so you must use the API.
+**Note:** This feature is not yet available from the myrackspace.com portal, so you must use the API.
 
-When the server is in rescue mode, follow the directions listed above for non-system disk CBS volumes. Contact Rackspace Support for additional assistance.
+When the server is in rescue mode, follow the directions listed above for non-system disk Cloud Block Storage  volumes. Contact Rackspace Support for additional assistance.
