@@ -27,7 +27,7 @@ After you [clone your Cloud Block Storage volume](https://support.rackspace.com/
 
 - Stop all writes to your current Cloud Block Storage volume before initiating the clone. Once all writes to the current Cloud Block Storage volume have been stopped, clone the volume. Once the clone completes, [unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
 
-**Note:** Clones are not verified, so please ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume..
+**Note:** Clones are not verified. Ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume.
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
