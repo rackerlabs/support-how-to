@@ -17,8 +17,7 @@ some tips for minimizing the impact of this maintenance on your environment.
 
 ###  How can I reduce the impact of the maintenance?
 
-- Clone and replace your Cloud Block Storage volume.
-- Stop all writes to the device until the maintenance is complete.
+You can either clone and replace your Cloud Block Storage volume, or stop all writes to the device until the maintenance is complete.
 
 #### Clone and replace
 
@@ -26,11 +25,9 @@ After you [clone your Cloud Block Storage volume](https://support.rackspace.com/
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- After the clone is complete, you can stop all writes to your current Cloud Block Storage volume, [unmount,
-detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/), and [attach the new volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/).
+- Stop all writes to your current Cloud Block Storage volume before initiating the clone. Once all writes to the current Cloud Block Storage volume have been stopped, clone the volume. Once the clone completes, [unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
 
-**Note:** Clones are not verified. Ensure the
-newly-cloned volume works before you delete your current Cloud Block Storage volume.
+**Note:** Clones are not verified, so please ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume..
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
