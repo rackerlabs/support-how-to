@@ -19,8 +19,8 @@ Hosted Email.
 Using Directory Sync for your organization includes these benefits:
 
 -   **Same sign-on**: Users have one password for their
-    local network access and their email accounts for a same
-    sign-on experience.
+    local network access and their email accounts for a
+    same sign-on experience.
 -   **Ease of management**: Administrators can manage mail-enabled objects directly from a
     familiar Microsoft&reg; Active Directory interface. Choose which user
     objects to synchronize. Synchronize a single user in
@@ -29,7 +29,7 @@ Using Directory Sync for your organization includes these benefits:
     employees and managing password policies in large numbers.
 -   **Business automation**: Rackspace Directory Sync is built to use
     the Rackspace Email public REST APIs to facilitate automation.
--   **Secure**: All data exchanged is encrypted using Secure Sockets Layer (SSL) and synchronization
+-   **Secure**: All data exchanged is encrypted by using Secure Sockets Layer (SSL), and synchronization
     is one-way only.
 -   **Cost effective**: Rackspace Directory Sync is available at no
     additional cost.
@@ -59,7 +59,7 @@ Directory Sync supports the following Active Directory platforms:
 
 #### Directory Sync limitations
 
--   Does not synchronize with Hosted Exchange 2007.
+-   Directory Sync does not synchronize with Hosted Exchange 2007.
 -   Existing mail data does not migrate with Directory Sync to our
     hosted environment.
     We offer several methods that you can use to migrate your own data,
@@ -69,7 +69,7 @@ Directory Sync supports the following Active Directory platforms:
     Passwords cannot be synchronized retroactively because they are
     unreadable from Active Directory. Users must change their passwords
     for Directory Sync to synchronize the change with their mailbox.
--   Not Lightweight Directory Access Protocol (LDAP) compatible.
+-   Directory Syns is not Lightweight Directory Access Protocol (LDAP) compatible.
 -   Windows Server 2003 and the Active Directory functional level of
     2003 are not supported.
 
@@ -137,7 +137,7 @@ When you create new mailboxes, those users must change their passwords before
 they can access their email.
 
 If you manage your Active Directory with multiple domain controllers,
-your must install the Directory Sync Password Handler on all secondary
+you must install the Directory Sync Password Handler on all secondary
 domain controllers. This handler is used to synchronize password changes on
 secondary domain controllers to the primary domain controller and then
 synchronize those changes to Rackspace Hosted Mail.
@@ -165,17 +165,17 @@ set the `proxyAddresses` attribute to include `SMTP: userA@example.net`,
 then Directory Sync adds the address `userA@example.net` to the
 environment as an alias to that email address.
 
--   Any address that begins with `SMTP:` in the `proxyAddresses`
+-   Any address that begins with `smtp:` in the `proxyAddresses`
     attribute creates an alternate email address associated with the
     user's mailbox.
 -   These addresses cannot include a domain alias in the address but can
     include either the primary domain or accepted domains.
 -   You can create alternate email addresses associated with domain aliases
     by using the primary domain. For example,
-    `SMTP:userB@example.com` creates the alternate address
+    `smtp:userB@example.com` creates the alternate address
     `userB@example.net`.
 -   Accepted domains are created with the full email address (including
-    the domain). For example, `SMTP:userA@example.org` creates the
+    the domain). For example, `smtp:userA@example.org` creates the
     alternate address `userA@example.org`.
 
 #### How to enable synchronization of proxy addresses:
@@ -233,10 +233,10 @@ Enable the following ports on the Directory Sync server:
     [Rackspace API](http://api.emailsrvr.com)
 -   **8732** - Open for connections from other domain controllers to the
     Directory Sync server. Not used for any connections outside
-    your network. This port is used by the domain controller password
-    hooks.
+    your network. The domain controller password
+    hooks use this port.
 -   **8080** - This port is only used locally on the Directory Sync service machine for
-    web browser. You may block this port for any external connections.
+    the web browser. You may block this port for any external connections.
 
 #### Network encryption
 
