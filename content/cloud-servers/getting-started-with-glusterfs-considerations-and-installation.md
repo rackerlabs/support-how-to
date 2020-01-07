@@ -11,25 +11,25 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article has been updated to cover GlusterFS&reg; 7 installation on CentOS&reg; 7 & Ubuntu&reg; 18.04. All the fundamental work in this document is the same except for the one step where the volume is created with the **replica** keyword.
+This article is updated to cover GlusterFS&reg; 7 installation on CentOS&reg; 7 and Ubuntu&reg; 18.04. All the original work in this document is the same, except for the step where you create the volume with the **replica** keyword.
 
-Before you start to use GlusterFS, you must decide what type of volume you need for your environment. The following methods are used most often to achieve different results:
+Before you start to use GlusterFS, you must decide what type of volume you need for your environment. The following methods are used most often to achieve different results.
 
 
 #### Replicated volume
 
-This type of volume provides file replication across multiple bricks. It is the best choice for environments requiring high availability, high reliability, and scalable storage. This volume type works well if you plan to self-mount the GlusterFS volume, for example, as the web server document root (<strong><code>/var/www</code></strong>) or similar where all files must reside on that node.The value passed to <strong>replica</strong> is the same number of nodes in the volume.
+This type of volume provides file replication across multiple bricks. It is the best choice for environments requiring high availability, high reliability, and scalable storage. This volume type works well if you plan to self-mount the GlusterFS volume, for example, as the web server document root (<strong><code>/var/www</code></strong>) or similar where all files must reside on that node. The value passed to <strong>replica</strong> is the same number of nodes in the volume.
 
-Files are copied to each brick in the volume, similar to a redundant array of independent disks (RAID-1). However, you can have three or more bricks or an odd number of bricks. Usable space is the size of one brick, and all files written to one brick are replicated to all others. Volumes of this type also offer improved read performance in most environments, and are the most common type of volumes used when clients are external to the GlusterFS nodes themselves.
+Files are copied to each brick in the volume, similar to a redundant array of independent disks (RAID-1). However, you can have three or more bricks or an odd number of bricks. Usable space is the size of one brick, and all files written to one brick are replicated to all others. Volumes of this type also offer improved read performance in most environments and are the most common type of volumes used when clients are external to the GlusterFS nodes themselves.
 
-#### Distributed-Replicated volume
+#### Distributed-replicated volume
 
-Similar to a RAID-10, an even number of bricks must be used; usable space is the size of the combined bricks passed to the <strong>replica</strong> value. For example, if there are <strong>four bricks of 20 Gigabytes (GB)</strong> and you pass <strong>replica 2</strong> to the creation, your files are distributed to two nodes (40 GB) and replicated to two nodes. With <strong>six bricks of 20 GB</strong> and <strong>replica 3</strong>, your files are distributed to three nodes (60 GB) and replicated to three nodes, but if you used replica 2, they are then distributed to two nodes (40 GB) and replicated to four nodes in pairs. This distribution and replication is used when your clients are external to the cluster, not local self-mounts.
+Similar to a RAID-10, an even number of bricks must be used. Usable space is the size of the combined bricks passed to the <strong>replica</strong> value. For example, if there are <strong>four bricks of 20 Gigabytes (GB)</strong> and you pass <strong>replica 2</strong> to the creation, your files are distributed to two nodes (40 GB) and replicated to two nodes. With <strong>six bricks of 20 GB</strong> and <strong>replica 3</strong>, your files are distributed to three nodes (60 GB) and replicated to three nodes. If you used replica 2, they are then distributed to two nodes (40 GB) and replicated to four nodes in pairs. This distribution and replication are used when your clients are external to the cluster, not local self-mounts.
 
 
 ### Prerequisites
 
-- Two or more servers with separate storage. The examples in this article are based on CentOS 7 & Ubuntu 18.04 servers.
+- Two or more servers with separate storage. The examples in this article are based on CentOS 7 and Ubuntu 18.04 servers.
 - A private network between servers. The examples in this article use `192.168.0.0/24`.
 
 ### Build setup
@@ -44,11 +44,11 @@ The build described in this document uses the following setup:
 
 Perform the following configuration and installations to prepare the servers:
 
-1. Configure **`/etc/hosts`**
-2. Install operating system (OS) updates
-3. Install GlusterFS software
-4. Configure network access
-5. Connect GlusterFS nodes
+1. Configure **`/etc/hosts`**.
+2. Install the operating system (OS) updates.
+3. Install GlusterFS software.
+4. Configure network access.
+5. Connect GlusterFS nodes.
 
 #### Configure /etc/hosts for intra-node communication
 
@@ -66,8 +66,8 @@ Instead of using DNS, prepare **`/etc/hosts`** on every server and ensure that t
 
 Run the commands in this section to perform the following steps:
 
-1.	Install OS updates
-2.	Install the GlusterFS repository and GlusterFS packages
+1.	Install OS updates.
+2.	Install the GlusterFS repository and GlusterFS packages.
 
 **CentOS**
 
@@ -75,9 +75,9 @@ Run the commands in this section to perform the following steps:
     yum install -y centos-release-gluster7
     yum install -y glusterfs-server
 
-**Ubuntu**
+**Ubuntu operating system**
 
-The default Ubuntu repository has glusterfs 3.13.2 installed. Use the following commands to install 7.1:
+The default Ubuntu repository has GlusterFS 3.13.2 installed. Use the following commands to install 7.1:
 
     apt update
     apt upgrade -y
@@ -93,7 +93,7 @@ Use the following commands to allow Gluster traffic between your nodes and allow
     firewall-cmd --add-service=glusterfs
     firewall-cmd --add-service=glusterfs --permanent
 
-**Ubuntu**
+**Ubuntu operating system**
 
 Use the following commands to allow all traffic over your private network segment to facilitate Gluster communication:
 
@@ -104,15 +104,15 @@ Use the following commands to allow all traffic over your private network segmen
 
 Run the commands in this section to perform the following steps:
 
-1.	Partition block devices
-2.	Create Logical volume manager (LVM) foundation
-3.	Prepare volume bricks
+1.	Partition block devices.
+2.	Create the logical volume manager (LVM) foundation.
+3.	Prepare volume bricks.
 
-The underlying bricks are a standard file system and mount point. Mount each brick in such a way so as to discourage any user from changing to the directory and writing to the underlying bricks themselves.
+The underlying bricks are a standard file system and mount point. Mount each brick in such a way to discourage any user from changing to the directory and writing to the underlying bricks themselves.
 
 **Warning:** Writing directly to a brick corrupts the volume.
 
-The bricks must be unique per node, and there should be a directory within the mount point to use in volume creation. Attempting to create a replicated volume by using the top-level of the mount points results in an error with instructions to use a subdirectory.
+The bricks must be unique per node, and there should be a directory within the mount point to use in volume creation. Attempting to create a replicated volume by using the top level of the mount points results in an error with instructions to use a subdirectory.
 
 **All nodes**
 
@@ -149,7 +149,7 @@ Use the steps below to run the GlusterFS setup.
 
 #### Start the glusterfsd daemon
 
-The daemon can also be restarted at run time by using the following commands:
+You can restart the daemon at run time by using the following commands:
 
     systemctl enable glusterd
     systemctl start glusterd
@@ -192,7 +192,7 @@ By default, glusterd NFS allows global read/write during volume creation, so you
 
 #### Replicated volume
 
-The following example creates replication to all four nodes; each node contains a copy of all data and the size of the volume is the size of a single brick. Note that the output shows `1 x 4 = 4`.
+The following example creates replication to all four nodes. Each node contains a copy of all data, and the size of the volume is the size of a single brick. Note that the output shows `1 x 4 = 4`.
 
 **One node only**:
 
@@ -222,9 +222,9 @@ The following example creates replication to all four nodes; each node contains 
     storage.fips-mode-rchecksum: on
     performance.client-io-threads: off
 
-#### Distributed-Replicated volume
+#### Distributed-replicated volume
 
-This example creates distributed replication to 2x2 nodes; each pair of nodes contains the data and the size of the volume is the size of two bricks. Note that the output shows `2 x 2 = 4`.
+This example creates distributed replication to 2x2 nodes. Each pair of nodes contains the data, and the size of the volume is the size of two bricks. Note that the output shows `2 x 2 = 4`.
 
 **One node only**:
 
@@ -256,7 +256,7 @@ This example creates distributed replication to 2x2 nodes; each pair of nodes co
 
 ### Delete the volume
 
-After you ensure that no clients (either local or remote) are mounting the volume, you can stop the volume and delete it as follows:
+After you ensure that no clients (either local or remote) are mounting the volume, you can stop the volume and delete it by using the following commands:
 
     gluster volume stop gvol0
     gluster volume delete gvol0
@@ -291,7 +291,7 @@ GlusterFS sets an attribute on the brick subdirectories. If you clear this attri
       setfattr -x trusted.gfid /var/lib/gvol0/brick4
       rm -rf /var/lib/gvol0/brick4/.glusterfs
 
-Alternatively, you can delete the subdirectories and then re-create them.
+Alternatively, you can delete the subdirectories and then recreate them.
 
 -  glus-01
 
@@ -319,7 +319,7 @@ You can add more bricks to a running volume. Add an additional brick to our repl
 
     gluster volume add-brick gvol0 replica 5 gluster5:/var/lib/gvol0/brick5
 
-The `add-brick` command can also be used to change the layout of your volume; for example, to change a two-node Distributed volume into a four-node Distributed-Replicated volume. After such an operation, you must rebalance your volume. New files are automatically created on the new nodes, but the old ones do not get moved.
+YOu can use the `add-brick` command to change the layout of your volume, for example, to change a two-node distributed volume into a four-node distributed-replicated volume. After such an operation, you must rebalance your volume. New files are automatically created on the new nodes, but the old ones do not get moved.
 
     gluster volume add-brick gvol0 replica 2 \
     gluster5:/var/lib/gvol0/brick5 ;
@@ -355,12 +355,12 @@ The following is an example output:
     storage.fips-mode-rchecksum: on
     performance.client-io-threads: off
 
-To set an option for a volume, use the **set** keyword, as follows:
+To set an option for a volume, use the **set** keyword as follows:
 
     gluster volume set gvol0 performance.write-behind off
     volume set: success
 
-To clear an option to a volume back to the default, use the **reset** keyword, as follows:
+To clear an option to a volume back to the default, use the **reset** keyword as follows:
 
     gluster volume reset gvol0 performance.read-ahead
     volume reset: success: reset volume successful
@@ -405,6 +405,6 @@ The FUSE client allows the mount to happen with a GlusterFS "round robin" style 
 - https://kifarunix.com/install-and-setup-glusterfs-on-ubuntu-18-04/
 - https://launchpad.net/~gluster
 
-###Next Article
+### Next article
 
 [GlusterFS Troubleshooting](/how-to/glusterfs-troubleshooting)
