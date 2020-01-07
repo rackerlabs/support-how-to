@@ -234,7 +234,7 @@ Enable the following ports on the Directory Sync server:
 -   **8732** - Open for connections from other domain controllers to the
     Directory Sync server. Not used for any connections outside
     your network. The domain controller password
-    hooks uses this port.
+    hooks use this port.
 -   **8080** - This port is only used locally on the Directory Sync service machine for
     the web browser. You may block this port for any external connections.
 
