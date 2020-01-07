@@ -165,17 +165,17 @@ set the `proxyAddresses` attribute to include `SMTP: userA@example.net`,
 then Directory Sync adds the address `userA@example.net` to the
 environment as an alias to that email address.
 
--   Any address that begins with `SMTP:` in the `proxyAddresses`
+-   Any address that begins with `smtp:` in the `proxyAddresses`
     attribute creates an alternate email address associated with the
     user's mailbox.
 -   These addresses cannot include a domain alias in the address but can
     include either the primary domain or accepted domains.
 -   You can create alternate email addresses associated with domain aliases
     by using the primary domain. For example,
-    `SMTP:userB@example.com` creates the alternate address
+    `smtp:userB@example.com` creates the alternate address
     `userB@example.net`.
 -   Accepted domains are created with the full email address (including
-    the domain). For example, `SMTP:userA@example.org` creates the
+    the domain). For example, `smtp:userA@example.org` creates the
     alternate address `userA@example.org`.
 
 #### How to enable synchronization of proxy addresses:
