@@ -11,28 +11,21 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article has been updated to cover GlusterFS&reg; 7 installation on CentOS&reg; 7 & Ubuntu&reg; 18.04.
+This article has been updated to cover GlusterFS&reg; 7 installation on CentOS&reg; 7 & Ubuntu&reg; 18.04. All the fundamental work in this document is the same except for the one step where the volume is created with the **replica** keyword.
 
 Before you start to use GlusterFS, you must decide what type of volume you need for your environment. The following methods are used most often to achieve different results:
 
-<table>
-	<tr>
-		<th>Volume type</th>
-		<th>Description</th>
-	</tr>
-	<tr>
-		<td><strong>Replicated</strong></td>
-		<td>This type of volume provides file replication across multiple bricks. It is the best choice for environments requiring high availability, high reliability, and scalable storage. This volume type works well if you plan to self-mount the GlusterFS volume, for example, as the web server document root (<strong><code>/var/www</code></strong>) or similar where all files must reside on that node.The value passed to <strong>replica</strong> is the same number of nodes in the volume.
 
-		Files are copied to each brick in the volume, similar to a redundant array of independent disks (RAID-1). However, you can have three or more bricks or an odd number of bricks. Usable space is the size of one brick, and all files written to one brick are replicated to all others. Volumes of this type also offer improved read performance in most environments, and are the most common type of volumes used when clients are external to the GlusterFS nodes themselves.</td>
-	</tr>
-	<tr>
-		<td><strong>Distributed-Replicated</strong></td>
-		<td>Somewhat like a RAID-10, an even number of bricks must be used; usable space is the size of the combined bricks passed to the <strong>replica</strong> value. For example, if there are <strong>four bricks of 20 Gigabytes (GB)</strong> and you pass <strong>replica 2</strong> to the creation, your files are distributed to two nodes (40 GB) and replicated to two nodes. With <strong>six bricks of 20 GB</strong> and <strong>replica 3</strong>, your files are distributed to three nodes (60 GB) and replicated to three nodes, but if you used replica 2, they are then distributed to two nodes (40 GB) and replicated to four nodes in pairs. This distribution and replication is used when your clients are external to the cluster, not local self-mounts.</td>
-	</tr>
-</table>
+#### Replicated volume
 
-All the fundamental work in this document is the same except for the one step where the volume is created with the **replica** keyword.
+This type of volume provides file replication across multiple bricks. It is the best choice for environments requiring high availability, high reliability, and scalable storage. This volume type works well if you plan to self-mount the GlusterFS volume, for example, as the web server document root (<strong><code>/var/www</code></strong>) or similar where all files must reside on that node.The value passed to <strong>replica</strong> is the same number of nodes in the volume.
+
+Files are copied to each brick in the volume, similar to a redundant array of independent disks (RAID-1). However, you can have three or more bricks or an odd number of bricks. Usable space is the size of one brick, and all files written to one brick are replicated to all others. Volumes of this type also offer improved read performance in most environments, and are the most common type of volumes used when clients are external to the GlusterFS nodes themselves.
+
+#### Distributed-Replicated volume
+
+Similar to a RAID-10, an even number of bricks must be used; usable space is the size of the combined bricks passed to the <strong>replica</strong> value. For example, if there are <strong>four bricks of 20 Gigabytes (GB)</strong> and you pass <strong>replica 2</strong> to the creation, your files are distributed to two nodes (40 GB) and replicated to two nodes. With <strong>six bricks of 20 GB</strong> and <strong>replica 3</strong>, your files are distributed to three nodes (60 GB) and replicated to three nodes, but if you used replica 2, they are then distributed to two nodes (40 GB) and replicated to four nodes in pairs. This distribution and replication is used when your clients are external to the cluster, not local self-mounts.
+
 
 ### Prerequisites
 
