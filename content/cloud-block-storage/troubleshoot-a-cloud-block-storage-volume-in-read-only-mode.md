@@ -1,12 +1,12 @@
 ---
 permalink: troubleshoot-a-cloud-block-storage-volume-in-read-only-mode/
-audit_date: '2019-01-22'
+audit_date: '2020-01-3'
 title: Troubleshoot a Cloud Block Storage volume in read-only mode
 type: article
 created_date: '2019-02-20'
 created_by: Rackspace Community
-last_modified_date: '2019-02-20'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-12-4'
+last_modified_by: Chad Sterling
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -37,7 +37,7 @@ unmount the server.
 #### Unmount a volume from a Linux server
 
 To unmount a volume from a Linux server, you first need to confirm how the
-volume is presented to the cloud server by using the following steps:
+volume is presented to the cloud server by following these steps:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
@@ -66,11 +66,11 @@ in **/etc/fstab** to prevent the volume from trying to mount on the next boot:
 
 <img src="{% asset_path cloud-block-storage/troubleshoot-a-cloud-block-storage-volume-in-read-only-mode/picture1.png %}" />
 
-Run the `unmount` command, using the `Mounted on` volume that you noted from
+Run the `umount` command, using the `Mounted on` volume that you noted from
 the output of the `df -h` that you used earlier, as shown in the following
 command:
 
-    # unmount /dev/xvdb1/
+    # umount /dev/xvdb1/
 
 The only output from this command is a command prompt.
 
