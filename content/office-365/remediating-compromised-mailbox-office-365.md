@@ -78,7 +78,7 @@ Use the following steps to remove any email forwarding and inbox rules from the 
 
 6.  Close out of the user info screen by selecting the X in the upper right hand part of the screen, then open the Exchange Admin Center by selecting **Exchange** under the Admin centers section of the menu.
 
-7.  In the upper right hand corner of the Exchange Admin Center, select your user icon, then select **Another user...*
+7.  In the upper right hand corner of the Exchange Admin Center, select your user icon, then select **Another user...**
 
 8.  Search for and select the affected user, then click **OK**.
 
