@@ -32,12 +32,12 @@ Use the following steps to install the MSOnline module:
 
 2.	Type the following command to allow PowerShell to run signed scripts, and hit **Enter**:
 
-    ```PowerShell
+    ```
     Set-ExecutionPolicy RemoteSigned
     ```
 3.	To install the MSOnline module, type the following command, and hit **Enter**:
 
-    ```PowerShell
+    ```
     Install-Module MSOnline
     ```
 
@@ -45,7 +45,6 @@ Use the following steps to install the MSOnline module:
 
 4. The following code block is a script that connects you to your Office 365 tenant by using the administrative credentials that you provide. Lines that begin with ```#``` are comments relating to the line of code above them. Copy and paste the  code block into PowerShell and enter your Global Administrator credentials when prompted:
 
-        PowerShell
         Import-Module Msonline
         #Imports the MSOnline module that you just installed
         $Cred = Get-Credential
@@ -60,7 +59,7 @@ Use the following steps to install the MSOnline module:
 
 5.  After you connect to your Office 365 tenant, we recommend validating your connection by running the following simple command to get a list of all of your users:
 
-     ```PowerShell
+     ```
      Get-MSOLUser
      ```
 
