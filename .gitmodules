@@ -1,0 +1,3 @@
+[submodule "submodules/jekyll-netlify-boilerplate"]
+	path = submodules/jekyll-netlify-boilerplate
+	url = git@github.com:danurbanowicz/jekyll-netlify-boilerplate.git
