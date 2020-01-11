@@ -44,3 +44,8 @@ ENV/
 .bak
 /.project
 .python-version
+
+# Jekyll
+rubygems/
+.asset-cache
+.jekyll-cache

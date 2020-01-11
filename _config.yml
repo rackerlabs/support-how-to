@@ -1,12 +1,37 @@
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
+# Inspired by https://github.com/danurbanowicz/jekyll-netlify-boilerplate
+
 source: ./content
 destination: ./how-to
 
 baseurl: "/how-to/"
+# url: ""
+
+# Enable section IDs in frontmatter, useful for identifying current page
+# (used as a hook for styling etc)
+section: true
+
+# set to 'true' to enable Netlify CMS (/admin) in production builds
+netlifycms: true
+
+# set to 'true' to enable Google Analytics tracking code in production builds
+analytics: false
+
+# Compress CSS
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Compress HTML (in liquid via layouts/compress.html)
+compress_html:
+  clippings: all
+
 
 defaults:
   -
     scope:
-      path: ""
+      path: ""  # an empty string here means all files in the project
       type: "pages"
     values:
       permalink: "/:basename/"
@@ -15,3 +40,33 @@ defaults:
 assets:
   sources:
     - _assets/img
+  destination:
+    - ./how-to
+
+# Build settings
+markdown: kramdown
+
+# Kramdown options
+kramdown:
+  # Prevent IDs from being added to h1-h6 tags
+  auto_ids: false
+
+# Include in processing (e.g. Netlify directives)
+#include:
+#  - _redirects
+#  - _headers
+
+# Exclude from processing.
+# The following items will not be processed.
+exclude:
+  - README.md
+  - LICENSE.txt
+  - netlify.toml
+  - feed.xml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
