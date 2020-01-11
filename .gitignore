@@ -49,3 +49,4 @@ ENV/
 rubygems/
 .asset-cache
 .jekyll-cache
+.bundle/
