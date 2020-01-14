@@ -1,7 +1,7 @@
 ---
 permalink: rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/
 audit_date:
-title: Install the Cloud Backup agent on Windows by using silent installation
+title: Install the Cloud Backup agent on Windows&reg; by using silent installation
 type: article
 created_date: '2015-01-20'
 created_by: Rose Contreras
@@ -11,9 +11,9 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-This article describes how to perform a fresh installation or update of the Rackspace Cloud Backup agent on your Windows server by using the silent installation method. If you are using a Linux server, see [Install the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
+This article describes how to perform a fresh installation or update of the Rackspace Cloud Backup agent on your Windows&reg; server by using the silent installation method. If you are using a Linux&reg; server, see [Install the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
 
-**WARNING:** The silent installation procedure described in this article is for advanced users and should be run from only an administrator account. All others should install the Rackspace Cloud Backup agent by using the interactive installation described in [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
+**WARNING:** The silent installation procedure described in this article is for advanced users and should be run from only an administrator account. All others should install the Rackspace Cloud Backup agent by using the interactive installation described in [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
 
 ### Before you install
 
@@ -24,11 +24,11 @@ Reinstalling the agent on a server disconnects any previously registered agents 
 
 ### Download the installer
 
-For a 64-bit Windows server architecture download the latest MSI installation file for that architecture from [64-bit Windows.msi](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This file will almost always be the correct one for your server).
+For a 64-bit Windows&reg; server architecture download the latest MSI installation file for that architecture from [64-bit Windows&reg; MSI](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This file will almost always be the correct one for your server).
 
 ### Perform a silent installation
 
-Use the Windows package installer (**msiexec.exe**) to install the Cloud Backup agent.
+Use the Windows&reg; package installer (**msiexec.exe**) to install the Cloud Backup agent.
 
 A typical installation from the command line or a batch file would be run as an Administrator and look like the following example:
 
@@ -77,4 +77,4 @@ Following are optional, less-frequently used (expert) installation options that 
 
 For more options for installing MSI packages, see [msiexec command line options](http://technet.microsoft.com/en-us/library/cc759262%28v=ws.10%29.aspx).
 
-A successful installation results in two running services, the Driveclient and the Updater. You can see these via **services.msc**. For the verification steps to test the installation, see the section, "Test Windows installation or update," in [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
+A successful installation results in two running services, the Driveclient and the Updater. You can see these via **services.msc**. For the verification steps to test the installation, see the section, "Test Windows&reg; installation or update," in [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).

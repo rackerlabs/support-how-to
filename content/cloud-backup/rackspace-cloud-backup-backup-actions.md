@@ -96,7 +96,7 @@ From the **Actions** menu, select **Configure Backup**.
 
     To save additional overhead, Cloud Backup might compress the files if it reduces the size of the block. You can expect compression rates equivalent to those of gzip. You should not try to manually compress or encrypt your data before running backups; if you do, deduplication will not work, and  you will create larger backups than you need. If you want to encrypt your backups, see the "Encrypting your System" section in this article.
 
-    For advanced Linux users, if you create **tarballs** with `gzip` that will get backed up, use the ` --rsyncable` option, which enables Cloud Backup to use deduplication on those files as well.
+    For advanced Linux&reg; users, if you create **tarballs** with `gzip` that will get backed up, use the ` --rsyncable` option, which enables Cloud Backup to use deduplication on those files as well.
 
 2.  Select how long you want to keep your backups: 30 days, 60 days, or
     indefinitely.

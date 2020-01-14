@@ -11,20 +11,20 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-When you create a maintenance backup plan in SQL Server 2008 R2, you
+When you create a maintenance backup plan in SQL Server&reg; 2008 R2, you
 must identify how you want the plan to be set up. In this example, the
 maintenance plan is set up with full backups, differentials, and
 transactions logs.
 
-### Check SQL Server Agent service
+### Check SQL Server&reg; Agent service
 
-Verify that the SQL Server Agent service is running and set to
+Verify that the SQL Server&reg; Agent service is running and set to
 automatic. The maintenance plan depends on this service to run.
 
 1.  On the server, open the **Run** dialog box, type in **services.msc**
     and press **Enter**.
 
-2.  Find the SQL Server Agent service in the list and double-click it.
+2.  Find the SQL Server&reg; Agent service in the list and double-click it.
 
 3.  Click the **Recovery** tab and set the failure value to **Restart
     the Service**.
@@ -36,7 +36,7 @@ automatic. The maintenance plan depends on this service to run.
 
 ### Create the maintenance plan
 
-1.  Launch the SQL Management Studio and log in.
+1.  Launch the SQL Server&reg; Management Studio and log in.
 
 2.  In the Object Explorer pane, expand the **Management** folder, right-click on **Maintenance Plans**, and the select **Maintenance Plan Wizard**.
 
@@ -199,7 +199,7 @@ transaction log backup according to the following instructions.
 
 16. On the Maintenance Plan Wizard Progress page, click **Close**.
 
-17. When you are returned to the SQL Server Management Studio main
+17. When you are returned to the SQL Server&reg; Management Studio main
     window, press **F5** to refresh the maintenance plan with the new
     settings.
 
@@ -278,8 +278,8 @@ After you finish setting up your maintenance plan, verify that it
 works. You can wait a few days to see if the job completes, or you can
 force the job to run by performing the following steps.
 
-1.  In the Object Explorer pane of SQL Server Management Studio, browse
-    to **SQL Server Agent > Jobs**.
+1.  In the Object Explorer pane of SQL Server&reg; Management Studio, browse
+    to **SQL Server&reg; Agent > Jobs**.
 
 2.  Right-click the maintenance plan and select **Start Job at Step**.
 

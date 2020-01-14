@@ -1,7 +1,7 @@
 ---
 permalink: cloud-backup-troubleshooting-on-windows-2012-servers/
 audit_date:
-title: Cloud Backup - Basic troubleshooting on Windows Server 2012
+title: Cloud Backup - Basic troubleshooting on Windows&reg; Server 2012
 type: article
 created_date: '2018-08-10'
 created_by: Shaun Crumpler
@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides basic troubleshooting steps for Cloud Backup on Windows Server® 2012 if you are experiencing the following issues:
+This article provides basic troubleshooting steps for Cloud Backup on Windows Server&reg; 2012 if you are experiencing the following issues:
 
 - Backups are not running.
 - Backups take too long to complete.
@@ -60,7 +60,7 @@ Use the following steps to establish a connection:
 
 ## Restart the DriveClient service
 
-1. Log in to the server via RDP and click the **Windows** symbol in the bottom-left corner.
+1. Log in to the server via RDP and click the **Windows&reg;** symbol in the bottom-left corner.
 2. Click the **Search** icon in the top-right corner.
 3. Enter **services.msc** in the search field.
 4. Locate the DriveClient service, right-click it, and select the **Restart**. A pop-up windows shows the status of the restart.

@@ -51,7 +51,7 @@ Use the following commands in the Task Manager to stop and restart the DriveClie
 3. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
 
-#### Linux method
+#### Linux&reg; method
 
 Use the following commands in Linux&reg; to stop and restart the DriveClient agent:
 

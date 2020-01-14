@@ -17,16 +17,16 @@ article provides instructions for installing the agent on a Linux &reg; server
 by using the Cloud Backup Updater.
 
 If you are using a Windows &reg; Server &reg;, see
-[Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
-for Windows instructions.
+[Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+for Windows&reg; instructions.
 
 ### Considerations
 
-You can use Cloud Backup on any Linux server in the Rackspace Cloud except FreeBSD
+You can use Cloud Backup on any Linux&reg; server in the Rackspace Cloud except FreeBSD
 &reg; 9 and Debian &reg; 5. For both of these distributions, use an alternative
 method to back up your data.
 
-Also, 32-bit servers and agents on Linux are not supported.
+Also, 32-bit servers and agents on Linux&reg; are not supported.
 
 The agent should already be installed on servers that have the Managed Operations
 service level. See the following section to determine if the agent is already
@@ -46,7 +46,7 @@ If the command runs without an error, the agent is already installed. If you get
 a message that the command can't be found, you must install the agent.
 
 The following instructions detail installation procedures for APT-based, RPM-based,
-or other Linux distributions.
+or other Linux&reg; distributions.
 
 ### Install the agent on APT-based systems
 
@@ -176,9 +176,9 @@ add other options as needed.
 
         sudo service driveclient start
 
-### Install the agent on Arch, Gentoo &reg;, and SUSE &reg; systems
+### Install the agent on Arch&reg;, Gentoo&reg;, and SUSE&reg; systems
 
-For Arch, Gentoo, and SUSE Linux systems, you must first download the tarball.
+For Arch&reg;, Gentoo&reg;, and SUSE&reg; Linux&reg; systems, you must first download the tarball.
 This tarball has the most up-to-date instructions, so, if the following
 instructions differ from the tarball instructions, use the tarball instructions
 instead.
@@ -288,7 +288,7 @@ failed status is severe.
 
 Agent logs are stored in `/var/log`.
 
-### Uninstall the agent from Linux
+### Uninstall the agent from Linux&reg;
 
 To uninstall the agent, stop and remove both the updater and the backup agent by
 using the system package manager.  The following sections provide OS-specific
@@ -308,7 +308,7 @@ Run the following command:
 
 #### Uninstall from Other distributions
 
-For all other Linux operating systems, follow OS-standard uninstallation operations.
+For all other Linux&reg; operating systems, follow OS-standard uninstallation operations.
 Based on the previous installation instructions, use the following commands to
 uninstall the agent.
 

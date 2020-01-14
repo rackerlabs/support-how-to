@@ -1,7 +1,7 @@
 ---
 permalink: rackspace-cloud-backup-install-the-agent-on-windows/
 audit_date:
-title: Install the Cloud Backup agent on Windows
+title: Install the Cloud Backup agent on Windows&reg;
 type: article
 created_date: '2014-05-01'
 created_by: Megan Meza
@@ -11,7 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-This article describes how to install the Rackspace Cloud Backup agent on your Windows server. If you are using a Linux server, see [Install the Cloud Backup agent (Linux)](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
+This article describes how to install the Rackspace Cloud Backup agent on your Windows&reg; server. If you are using a Linux&reg; server, see [Install the Cloud Backup agent (Linux&reg;)](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
 
 To update the agent, see the instructions in [Update the Rackspace Cloud Backup agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
@@ -23,12 +23,10 @@ A new agent installation disconnects any previous registrations from that server
 
 ### Download the installer
 
-Determine whether your Windows server architecture is 64-bit or 32-bit, and download the latest MSI installation file for that architecture from <http://agentrepo.drivesrvr.com/>.
+Determine whether your Windows&reg; server architecture is 64-bit or 32-bit, and download the latest MSI installation file for that architecture from <http://agentrepo.drivesrvr.com/>.
 
--   [32-bit Windows
-    .msi](http://agentrepo.drivesrvr.com/win32/driveclient-latest.msi)
--   [64-bit Windows
-    .msi](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This
+-   [32-bit Windows&reg; MSI](http://agentrepo.drivesrvr.com/win32/driveclient-latest.msi)
+-   [64-bit Windows&reg; MSI](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This
     will almost always be the correct one for your server.)
 
 ### Installation
@@ -41,9 +39,9 @@ You can choose one of the following methods of installation:
 
 #### Interactive installation
 
-Use the Windows package installer (`msiexec.exe`) to install the Cloud
+Use the Windows&reg; package installer (`msiexec.exe`) to install the Cloud
 Backup agent in interactive mode. This command launches the Cloud Backup
-Setup Wizard. Enter this code at the Windows command line to begin
+Setup Wizard. Enter this code at the Windows&reg; command line to begin
 interactive installation:
 
     msiexec /i driveclient-1.18.007148-en-us.msi
@@ -88,21 +86,21 @@ installation and configuration.
 
 5.  Click **Finish** to complete the interactive installation.
 
-See the Test Windows installation or update section below for the verification steps to test the installation.
+See the Test Windows&reg; installation or update section below for the verification steps to test the installation.
 
 #### Silent installation
 
-See [Install the agent on Windows by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
+See [Install the agent on Windows&reg; by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation) to learn how to perform a silent installation.
 
 **Note:** The silent installation works only when you run it from the
 administrator account of the server.
 
-#### Update Cloud Backup agent on Windows
+#### Update Cloud Backup agent on Windows&reg;
 
-For instructions to update the agent on Windows, see [Update the Rackspace Cloud Backup agent.](/how-to/update-the-rackspace-cloud-backup-agent)
+For instructions to update the agent on Windows&reg;, see [Update the Rackspace Cloud Backup agent.](/how-to/update-the-rackspace-cloud-backup-agent)
 
 
-### Test the Windows installation or update
+### Test the Windows&reg; installation or update
 
 If you performed the silent or interactive installation, test the installation. If you performed the updated installation, test the update.
 
@@ -189,7 +187,7 @@ Verify that installation performed the following actions:
 6.  Created the entry driveclient.exe in Control Panel &gt;
     Programs &gt; Programs and Features.
 
-### Test the Windows update
+### Test the Windows&reg; update
 
 Run the following command from the command line:
 
@@ -210,7 +208,7 @@ message if it is run as a non-administrator. If the silent installation
 fails, run the interactive installation.
 
 If the Cloud Backup agent installation is unsuccessful, look at the
-Windows Event log for any errors, or look at the `msiexec` installation
+Windows&reg; Event log for any errors, or look at the `msiexec` installation
 log for diagnostics regarding an unsuccessful installation.
 
 For details about an agent that fails to register or fails to start on
@@ -242,10 +240,10 @@ The backup statuses are defined below:
 
 To troubleshoot these error status, see [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/).
 
-### Uninstall Cloud Backup agent on Windows
+### Uninstall Cloud Backup agent on Windows&reg;
 
 To uninstall the Cloud Backup agent, the preferred method is to use Add/Remove Programs
-in the Windows Control Panel. However, in cases where the Rackspace Cloud Backup entry
+in the Windows&reg; Control Panel. However, in cases where the Rackspace Cloud Backup entry
 does not exist there, you use the command line to uninstall.
 
     msiexec /x driveclient-latest.msi /qb /l*v %tmp%\uninstall.log
@@ -294,7 +292,7 @@ The following changes should occur:
         The specified service does not exist as an installed service.
 
 
-### Uninstall the agent from older versions of Windows
+### Uninstall the agent from older versions of Windows&reg;
 
 **Note**: Complete the following steps **ONLY** if uninstalling the agent
 from Window's agent version 1.18 or lower. You can check your agent

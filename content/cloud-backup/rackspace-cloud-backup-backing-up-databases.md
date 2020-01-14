@@ -30,7 +30,7 @@ a few steps.
 ### Back up your database
 
 Most databases have a utility that dumps a consistent state of the
-database to another file; `mysqldump` is one such utility for MySQL. You
+database to another file; `mysqldump` is one such utility for MySQL&reg;. You
 can safely back up a database using Rackspace Cloud Backup by running
 such a utility before doing the backup. Then back up the output of
 the utility, instead of the internal files that the database manages. Some
@@ -72,6 +72,6 @@ you should *never* compress or encrypt the database files you are backing up.
     5.  Click **Save Changes**.
 
 Remember to add your database dump file or folder saved as part of your
-backup job. You can automate this task by scheduling these dumps with applications like **crontab** on Linux or **Task Scheduler** on Windows.
+backup job. You can automate this task by scheduling these dumps with applications like **crontab** on Linux&reg; or **Task Scheduler** on Windows&reg;.
 
 **Warning**: If you use automated dumps, schedule them far enough ahead of your backup to allow them plenty of time to finish before the backup starts. Otherwise, you might experience file corruption or missing files in your backups.

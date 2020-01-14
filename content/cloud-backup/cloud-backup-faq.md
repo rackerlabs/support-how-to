@@ -193,7 +193,7 @@ You can set backups to run hourly, daily, weekly, or on demand
 
 Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
 
-#### Are 32-bit servers and agents on Linux supported?
+#### Are 32-bit servers and agents on Linux&reg; supported?
 
 No, 32-bit servers and agents on Linux&reg; are not supported.
 

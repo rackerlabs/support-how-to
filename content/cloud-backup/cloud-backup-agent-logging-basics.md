@@ -27,7 +27,7 @@ Cloud Backup agent.
 The log configuration file is named **log4cxx.xml**, and it uses **log4j**
 syntax. The default configuration differs between Microsoft&reg; Windows&reg;
 and Linux&reg; only in the target log file path. Otherwise, the file is
-similar to the following example of a Windows configuration file:
+similar to the following example of a Windows&reg; configuration file:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"[]>
@@ -50,7 +50,7 @@ similar to the following example of a Windows configuration file:
     </log4j:configuration>
 
 For information about how to locate the **log4cxx.xml** configuration file on
-Windows or Linux, see the "Locations of Cloud Backup agent files" section of
+Windows&reg; or Linux&reg;, see the "Locations of Cloud Backup agent files" section of
 this article.
 
 ### Agent logging operations
@@ -174,12 +174,12 @@ links for the log files and paste the links into your support ticket.
 ### Locations of Cloud Backup agent files
 
 The following section lists the locations of the Cloud Backup agent on
-both Linux and Windows servers.
+both Linux&reg; and Windows&reg; servers.
 
-#### Agent file locations (Linux)
+#### Agent file locations (Linux&reg;)
 
 Assuming a default installation, following are the agent file locations
-on Linux systems:
+on Linux&reg; systems:
 
 -   Configuration files: **/etc/driveclient**
 -   Logs: **/var/log** (This value might be different on your server,
@@ -193,17 +193,17 @@ on Linux systems:
 **Note**: If `driveclient` is installed as an individual user,
 most of these files are under **~/.driveclient**.
 
-#### Agent file locations (Windows)
+#### Agent file locations (Windows&reg;)
 
-Finding the `driveclient` files under various flavors of Windows is
+Finding the `driveclient` files under various flavors of Windows&reg; is
 a little complicated. In general, you can find these files under the
 folder to which **CSIDL_COMMON_APPDATA** points.
 
--   For more information about this location on Windows versions
+-   For more information about this location on Windows&reg; versions
     starting with Vista, see
     <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd378457(v=vs.85).aspx">KNOWNFOLDERID</a>.
 -   For more information about this location on earlier versions of
-    Windows, see
+    Windows&reg;, see
     <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/bb762494(v=vs.85).aspx">CSIDL</a>.
 
 In a typical installation, the files are located in the following folders:
