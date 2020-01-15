@@ -1,6 +1,6 @@
 ---
 permalink: preparing-the-cloud-server-to-be-a-mail-server/
-audit_date:
+audit_date: '2020-01-15'
 title: Prepare a Cloud Server to be a mail server
 type: article
 created_date: '2011-03-16'
