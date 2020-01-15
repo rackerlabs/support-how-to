@@ -5,8 +5,8 @@ title: Create a backup
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
