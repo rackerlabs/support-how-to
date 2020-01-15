@@ -81,11 +81,11 @@ databases or log files, you must implement the following workarounds:
 
 The Cloud Backup agent skips the following types of files automatically:
 
-- Memory-only file systems (Linux&reg;: /proc, etc.)
+- Memory-only file systems (Linux: /proc, etc.)
 - Cloud Backup agent data directories
 - Recovery information (Windows&reg;)
-- Recycle Bin (Windows&reg;)
-- **desktop.ini** and **thumbs.db** (Windows&reg;)
+- Recycle Bin (Windows)
+- **desktop.ini** and **thumbs.db** (Windows)
 
 ### Protecting backups from malicious attacks
 
@@ -157,7 +157,7 @@ The files that are necessary to make Cloud Backup work, such as the agent and to
 -  Back up fewer and smaller files.
 -  Back up less frequently.
 
-However, the best way to reduce the size of the backup files on your system drive is to move most of the files from the system drive and to another drive. On both Linux&reg; and Windows&reg;, if you do not already have another drive to which to move the files, you must first create the second drive and then attach it to your system.
+However, the best way to reduce the size of the backup files on your system drive is to move most of the files from the system drive and to another drive. On both Linux and Windows, if you do not already have another drive to which to move the files, you must first create the second drive and then attach it to your system.
 
 #### Move backup files
 
@@ -165,11 +165,11 @@ The files created and used by Cloud Backup are stored by default on the
 system drive. In rare cases, they might become very large and crowd the
 system drive.
 
-On Linux&reg; cloud servers, the solution is to use an external drive for these
+On Linux cloud servers, the solution is to use an external drive for these
 files and create a mount point to the path of the log or database files.
 For information about the location of these paths, see the "Locations of Cloud Backup agent files" section in [Cloud Backup agent logging](/how-to/cloud-backup-agent-logging-basics).
 
-On Windows&reg; cloud servers, you can use the **AgentConfig.exe** tool located in the `C:\Program Files\Driveclient` folder to move these files from the system drive by using the following steps:
+On Windows cloud servers, you can use the **AgentConfig.exe** tool located in the `C:\Program Files\Driveclient` folder to move these files from the system drive by using the following steps:
 
 1.	Shut down the Cloud Backup agent service.
 
