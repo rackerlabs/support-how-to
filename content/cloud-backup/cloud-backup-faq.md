@@ -5,8 +5,8 @@ title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -152,7 +152,7 @@ in the list of Cloud Backup actions.
 #### Can I use Cloud Backup on my server?
 
 You can use Cloud Backup on virtually any server in the
-Rackspace Cloud. Some exceptions are FreeBSD 9, Debian&reg; 5 and Windows&reg;
+Rackspace Cloud. Some exceptions are FreeBSD&reg; 9, Debian&reg; 5 and Windows&reg;
 2003.
 
 **Note**: If you have servers that are not in the Rackspace Cloud that are running operating
@@ -164,7 +164,7 @@ level should have this additional piece of software installed by default. If it
 is not installed, contact your Account Representative to get started. If you
 have an infrastructure-only account, you must manually install the agent by
 following these instructions for [Linux&reg;](/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
-or for [Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
+or for [Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 For more information, see the [Rackspace Cloud Backup introduction](/how-to/cloud-backup).
 
@@ -193,9 +193,9 @@ You can set backups to run hourly, daily, weekly, or on demand
 
 Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
 
-#### Are 32-bit servers and agents on Linux&reg; supported?
+#### Are 32-bit servers and agents on Linux supported?
 
-No, 32-bit servers and agents on Linux&reg; are not supported.
+No, 32-bit servers and agents on Linux are not supported.
 
 #### Why does my backup fail with a 403 error from Cloud Files when the account has subusers?
 
