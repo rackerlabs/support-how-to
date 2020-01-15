@@ -5,13 +5,13 @@ title: Troubleshoot Cloud Backup on Windows 2008 servers
 type: article
 created_date: '2018-08-30'
 created_by: Shaun Crumpler
-last_modified_date: '2019-02-25'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-**Note:** If your server is running a Linux&reg; operating system, see [Cloud backup troubleshooting on Linux&reg;](/how-to/cloud-backup-basic-troubleshooting-on-linux-servers). 
+**Note:** If your server is running a Linux&reg; operating system, see [Cloud backup troubleshooting on Linux](/how-to/cloud-backup-basic-troubleshooting-on-linux-servers). 
 
 This article is to assist you if you are experiencing Cloud Backup issues that
 are caused by the backup agent being disconnected on the Windows&reg; instance,
@@ -79,7 +79,7 @@ Use the following steps to restart the DriveClient service:
 
 1. To restart the DriveClient service, log in to the server by using Remote
    Desktop (RDP) and click the **Start** button in the bottom-left corner of
-   the Windows&reg; desktop.
+   the Windows desktop.
 
 2. In the **Search** field, search for **services.msc**.
 
@@ -109,7 +109,7 @@ Use the following steps to restart the DriveClient service:
 
     - If the status is **connected**, try to run the backup again.
     - If the status is **disconnected**, download the backup log from within
-      Windows&reg; on the server. If it fails again, contact Rackspace Support.
+      Windows on the server. If it fails again, contact Rackspace Support.
       The log is located at C:\ProgramData\Driveclient\log\driveclient.log. To
       expedite the issue response, attach this log to a ticket for Rackspace
       Support.
