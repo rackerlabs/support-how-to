@@ -5,8 +5,8 @@ title: Create a maintenance backup plan in SQL Server 2008 R2 using the wizard
 type: article
 created_date: '2014-04-04'
 created_by: Kyle Laffoon
-last_modified_date: '2016-04-06'
-last_modified_by: Stephanie Fillmon 
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -14,17 +14,17 @@ product_url: cloud-backup
 When you create a maintenance backup plan in SQL Server&reg; 2008 R2, you
 must identify how you want the plan to be set up. In this example, the
 maintenance plan is set up with full backups, differentials, and
-transactions logs.
+transaction logs.
 
-### Check SQL Server&reg; Agent service
+### Check SQL Server Agent service
 
-Verify that the SQL Server&reg; Agent service is running and set to
+Verify that the SQL Server Agent service is running and set to
 automatic. The maintenance plan depends on this service to run.
 
 1.  On the server, open the **Run** dialog box, type in **services.msc**
     and press **Enter**.
 
-2.  Find the SQL Server&reg; Agent service in the list and double-click it.
+2.  Find the SQL Server Agent service in the list and double-click it.
 
 3.  Click the **Recovery** tab and set the failure value to **Restart
     the Service**.
@@ -36,9 +36,9 @@ automatic. The maintenance plan depends on this service to run.
 
 ### Create the maintenance plan
 
-1.  Launch the SQL Server&reg; Management Studio and log in.
+1.  Launch the SQL Server Management Studio and log in.
 
-2.  In the Object Explorer pane, expand the **Management** folder, right-click on **Maintenance Plans**, and the select **Maintenance Plan Wizard**.
+2.  In the Object Explorer pane, expand the **Management** folder, right-click on **Maintenance Plans**, and select **Maintenance Plan Wizard**.
 
     <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/CreatingtheMaintenancePlan1_0.png %}" width="408" height="587" />
 
@@ -84,7 +84,7 @@ according to the following instructions.
 
     <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/fullbackupsetttings1.png %}" width="589" height="941" />
 
-7.  In the Job Schedule Properties dialog box, select **Recurring** for
+7.  In the **Job Schedule Properties** dialog box, select **Recurring** for
     the Schedule type.
 
 8.  Specify the frequency of the backup. The following example shows
@@ -199,7 +199,7 @@ transaction log backup according to the following instructions.
 
 16. On the Maintenance Plan Wizard Progress page, click **Close**.
 
-17. When you are returned to the SQL Server&reg; Management Studio main
+17. When you are returned to the SQL Server Management Studio main
     window, press **F5** to refresh the maintenance plan with the new
     settings.
 
@@ -210,7 +210,7 @@ transaction log backup according to the following instructions.
 
 This section demonstrates how to set up a maintenance cleanup task. This
 task is set to clean up the transaction logs after three days. This
-setting keeps the one-hour transaction logs for three days, until the
+setting keeps the one-hour transaction logs for three days until the
 maintenance cleanup task deletes the old data. The transaction log
 cleanup must include a series of three days, which ensures that if you
 need to revert back to the second differential backup, you can apply the
@@ -278,16 +278,16 @@ After you finish setting up your maintenance plan, verify that it
 works. You can wait a few days to see if the job completes, or you can
 force the job to run by performing the following steps.
 
-1.  In the Object Explorer pane of SQL Server&reg; Management Studio, browse
-    to **SQL Server&reg; Agent > Jobs**.
+1.  In the Object Explorer pane of SQL Server Management Studio, browse
+    to **SQL Server Agent > Jobs**.
 
 2.  Right-click the maintenance plan and select **Start Job at Step**.
 
     This command runs the first section of the maintenance plan.
 
 3.  If the job completes without error, run the next step of the
-    maintenance plan and test-run the setup. Repeat this step for all
-    subplans that you created in the maintenance plan.
+    maintenance plan and test run the setup. Repeat this step for all
+    sub plans that you created in the maintenance plan.
 
 If all of your steps run without error, your maintenance plan works and
 you are finished.
@@ -297,7 +297,7 @@ you are finished.
 If any of the jobs fail when testing the maintenance plan, view the job
 history to see what failed.
 
-1.  In the Object Explorer pane, right-click the failed subplan and
+1.  In the Object Explorer pane, right-click the failed sub plan and
     select **View History**.
 
     The Log File Viewer window, which shows the job history, is
@@ -315,7 +315,7 @@ history to see what failed.
 
     <img src="{% asset_path cloud-backup/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/Errors3.png %}" width="991" height="425" />
 
-3.  Troubleshoot the error and repeat the test-job.
+3.  Troubleshoot the error and repeat the test job.
 
 When your maintenance plan is reliable, check it in a few days to see if
 it is running as expected. Verify that the **.bak** files are being
