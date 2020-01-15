@@ -5,8 +5,8 @@ title: Install or update the Cloud Backup agent on Linux
 type: article
 created_date: '2014-05-05'
 created_by: Kyle Laffoon
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -16,17 +16,17 @@ You must install the agent on every server that you want to back up. This
 article provides instructions for installing the agent on a Linux &reg; server
 by using the Cloud Backup Updater.
 
-If you are using a Windows &reg; Server &reg;, see
+If you are using a Windows Server &reg;, see
 [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
-for Windows&reg; instructions.
+for Windows instructions.
 
 ### Considerations
 
-You can use Cloud Backup on any Linux&reg; server in the Rackspace Cloud except FreeBSD
-&reg; 9 and Debian &reg; 5. For both of these distributions, use an alternative
+You can use Cloud Backup on any Linux server in the Rackspace Cloud except
+FreeBSD&reg; 9 and Debian&reg; 5. For both of these distributions, use an alternative
 method to back up your data.
 
-Also, 32-bit servers and agents on Linux&reg; are not supported.
+Also, 32-bit servers and agents on Linux are not supported.
 
 The agent should already be installed on servers that have the Managed Operations
 service level. See the following section to determine if the agent is already
@@ -46,7 +46,7 @@ If the command runs without an error, the agent is already installed. If you get
 a message that the command can't be found, you must install the agent.
 
 The following instructions detail installation procedures for APT-based, RPM-based,
-or other Linux&reg; distributions.
+or other Linux distributions.
 
 ### Install the agent on APT-based systems
 
@@ -88,7 +88,7 @@ option fixes any outstanding package dependency issues on the system.
    If you get a `command not found` error, run `sudo apt-get install -f` again.
 
 7. Use the following command to run and configure the agent. Be prepared to
-provide your Rackspace Cloud account username and apiKey in this command and
+provide your Rackspace Cloud account username and api key in this command and
 add other options as needed.
 
        sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost <apiDrivesrvr>
@@ -113,9 +113,9 @@ add other options as needed.
    as they should on the **Backups** tab in the Cloud Control Panel.
 
    It is possible to install Rackspace Cloud Backup on non-Rackspace assets, as long as
-   the server has access to public Internet and the operating system is supported by the
+   the server has access to the public Internet and the operating system is supported by the
    Cloud Backup agent. These kinds of assets might include servers that run on other clouds,
-   such as AWS&reg; EC2, Azure&reg;, or Google&reg;. They might also include personal laptops, desktops,
+   such as AWS EC2, Azure&reg;, or Google&reg;. They might also include personal laptops, desktops,
    or servers running in your own company's data center. For any asset outside of Rackspace
    infrastructure, you **must** use the *dedicated* flavor when registering the agent.
 
@@ -126,9 +126,11 @@ answer `yes`.
 
         sudo service driveclient start
 
-### Install the agent on RPM-based systems, such as CentOS &reg; and Red Hat &reg;
+### Install the agent on RPM-based systems, such as CentOS and Red Hat
 
-1.  Use SSH to log in to your server, and run any commands as a user with sudo
+For CentOS&reg; and Red Hat&reg;, use the following steps:
+
+1.  Use SSH to log in to your server and run any commands as a user with sudo
 or superuser privileges.
 
 2.  Download and install the updater.
@@ -148,7 +150,7 @@ or superuser privileges.
     prompt displays, the installation is complete.
 
 4.  Use the following command to run and configure the agent. Be prepared to
-provide your Rackspace Cloud account username and apiKey in this command and
+provide your Rackspace Cloud account username and api key in this command and
 add other options as needed.
 
         sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <dataCenter> --apihost <apiDrivesrvr>
@@ -176,9 +178,9 @@ add other options as needed.
 
         sudo service driveclient start
 
-### Install the agent on Arch&reg;, Gentoo&reg;, and SUSE&reg; systems
+### Install the agent on Arch, Gentoo, and SUSE systems
 
-For Arch&reg;, Gentoo&reg;, and SUSE&reg; Linux&reg; systems, you must first download the tarball.
+For Arch&reg;, Gentoo&reg;, and SUSE&reg; Linux systems, you must first download the tarball.
 This tarball has the most up-to-date instructions, so, if the following
 instructions differ from the tarball instructions, use the tarball instructions
 instead.
@@ -207,7 +209,7 @@ or superuser privileges.
         sudo cp cacert.pem /etc/driveclient
 
 6.  Use the following command to run and configure the agent. Be prepared to
-provide your Rackspace Cloud account username and apiKey in this command and
+provide your Rackspace Cloud account username and api key in this command and
 add other options as needed.
 
           sudo /usr/local/bin/driveclient --configure --username <username> --apikey <apiKey> --flavor <flavor> --datacenter <datacenter> --apihost <apiDrivesrvr>
@@ -288,7 +290,7 @@ failed status is severe.
 
 Agent logs are stored in `/var/log`.
 
-### Uninstall the agent from Linux&reg;
+### Uninstall the agent from Linux
 
 To uninstall the agent, stop and remove both the updater and the backup agent by
 using the system package manager.  The following sections provide OS-specific
@@ -302,13 +304,13 @@ Run the following command:
 
 #### Uninstall from the Ubuntu operating system
 
-Run the following command:
+For the Ubuntu&reg; operating system, un the following command:
 
     sudo apt-get remove cloudbackup-updater driveclient
 
 #### Uninstall from Other distributions
 
-For all other Linux&reg; operating systems, follow OS-standard uninstallation operations.
+For all other Linux operating systems, follow OS-standard uninstallation operations.
 Based on the previous installation instructions, use the following commands to
 uninstall the agent.
 
