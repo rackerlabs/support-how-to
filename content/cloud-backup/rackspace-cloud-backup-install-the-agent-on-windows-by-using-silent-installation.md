@@ -5,13 +5,13 @@ title: Install the Cloud Backup agent on Windows by using silent installation
 type: article
 created_date: '2015-01-20'
 created_by: Rose Contreras
-last_modified_date: '2017-06-23'
-last_modified_by: Catherine Richardson
+last_modified_date: '2020-01-15
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-This article describes how to perform a fresh installation or update of the Rackspace Cloud Backup agent on your Windows server by using the silent installation method. If you are using a Linux server, see [Install the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
+This article describes how to perform a fresh installation or update of the Rackspace Cloud Backup agent on your Windows&reg; server by using the silent installation method. If you are using a Linux&reg; server, see [Install the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
 
 **WARNING:** The silent installation procedure described in this article is for advanced users and should be run from only an administrator account. All others should install the Rackspace Cloud Backup agent by using the interactive installation described in [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
 
@@ -24,7 +24,7 @@ Reinstalling the agent on a server disconnects any previously registered agents 
 
 ### Download the installer
 
-For a 64-bit Windows server architecture download the latest MSI installation file for that architecture from [64-bit Windows.msi](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This file will almost always be the correct one for your server).
+For a 64-bit Windows server architecture download the latest MSI installation file for that architecture from [64-bit Windows MSI](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This file will almost always be the correct one for your server).
 
 ### Perform a silent installation
 
@@ -36,7 +36,7 @@ A typical installation from the command line or a batch file would be run as an 
 
 Use values for `APIUSER`, `APIKEY`, `APIHOSTNAME`, and `DATACENTER` that match your installation.
 
-During a fresh installation, the following values are used:
+During a fresh installation, use the following values:
 
 - `APIUSER` (required): The user name that you use to log in to Rackspace Cloud Control Panel.
 

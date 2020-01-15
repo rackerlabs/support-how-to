@@ -5,8 +5,8 @@ title: Back up databases with Cloud Backup
 type: article
 created_date: '2012-08-23'
 created_by: David Hendler
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -30,12 +30,12 @@ a few steps.
 ### Back up your database
 
 Most databases have a utility that dumps a consistent state of the
-database to another file; `mysqldump` is one such utility for MySQL. You
+database to another file; `mysqldump` is one such utility for MySQL&reg;. You
 can safely back up a database using Rackspace Cloud Backup by running
 such a utility before doing the backup. Then back up the output of
 the utility, instead of the internal files that the database manages. Some
-customers use a utility like `cron` to regularly schedule database
-dumping, and then schedule Rackspace Cloud Backup to automatically back
+customers use a utility like `cron` to schedule database dumping regularly,
+and then schedule Rackspace Cloud Backup to automatically back
 up the output of this utility a couple of hours later.
 
 Cloud Backup's de-duplication and compression capabilities save space and
@@ -50,7 +50,7 @@ you should *never* compress or encrypt the database files you are backing up.
     2.  In the top navigation bar, click **Select a Product > Rackspace
         Cloud**.
     3.  Select **Backups > Systems**.
-    4.  Select your system from the List.
+    4.  Select your system from the list.
     5.  Click the gear icon next to your backup job in the backup list,
         and select **Configure Files**.
     6.  Navigate to your database folder and unselect it.
@@ -72,6 +72,6 @@ you should *never* compress or encrypt the database files you are backing up.
     5.  Click **Save Changes**.
 
 Remember to add your database dump file or folder saved as part of your
-backup job. You can automate this task by scheduling these dumps with applications like **crontab** on Linux or **Task Scheduler** on Windows.
+backup job. You can automate this task by scheduling these dumps with applications like **crontab** on Linux&reg; or **Task Scheduler** on Windows&reg;.
 
 **Warning**: If you use automated dumps, schedule them far enough ahead of your backup to allow them plenty of time to finish before the backup starts. Otherwise, you might experience file corruption or missing files in your backups.

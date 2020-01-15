@@ -5,8 +5,8 @@ title: Create a backup
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -18,8 +18,8 @@ backup of the data on your cloud server.
 
 **Previous sections**:
 
--   [Install the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
--   [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+-   [Install the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+-   [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 
 **Note:** You can use the Cloud Backup tool to back up your data files
 but cannot use it to back up a full operating system. To restore your data, you

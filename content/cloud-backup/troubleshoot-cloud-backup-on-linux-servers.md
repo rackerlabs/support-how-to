@@ -5,8 +5,8 @@ type: article
 title: Troubleshoot Cloud Backup on Linux servers
 created_date: '2018-08-23'
 created_by: Shaun Crumpler
-last_modified_date: '2019-10-02'
-last_modified_by: Catherine Richardson
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -82,14 +82,14 @@ Use the following steps to establish a connection:
 Use the following steps to restart the DriveClient service:
 
 ***For CentOS 6 based systems***
-1a. Log in to the server with a terminal and run the command
+1a. For CentOS&reg; 6, log in to the server with a terminal and run the command
    `service driveclient restart`.
 
 2a. Ensure that the driveclient is set to start at boot by running the command
    `chkconfig driveclient on`.
    
 ***For CentOS 7 based systems and above***
-1b. Log in to the server with a terminal and run the command
+1b. For CentOS 7 and above, log in to the server with a terminal and run the command
    `systemctl restart driveclient`.
 
 2b. Ensure that the driveclient is set to start at boot by running the command

@@ -5,13 +5,13 @@ title: Cloud Backup - Basic troubleshooting on Windows Server 2012
 type: article
 created_date: '2018-08-10'
 created_by: Shaun Crumpler
-last_modified_date: '2018-08-15'
-last_modified_by: Chris Moyer
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides basic troubleshooting steps for Cloud Backup on Windows Server® 2012 if you are experiencing the following issues:
+This article provides basic troubleshooting steps for Cloud Backup on Windows Server&reg; 2012 if you are experiencing the following issues:
 
 - Backups are not running.
 - Backups take too long to complete.
@@ -56,16 +56,16 @@ Use the following steps to establish a connection:
 6. Wait ten seconds to ensure that the status is accurate because it can change after a few seconds.
 7. After 10 seconds, perform one of the following actions:
  - If the status is **connected**, contact Rackspace Support.
- - If the status is **disconnected**, restart the DriveClient service as shown in the next section.
+ - If the status is **disconnected**, restart the DriveClient service, as shown in the next section.
 
 ## Restart the DriveClient service
 
-1. Log in to the server via RDP and click the **Windows** symbol in the bottom-left corner.
+1. Log in to the server via RDP and click the **Windows&reg;** symbol in the bottom-left corner.
 2. Click the **Search** icon in the top-right corner.
 3. Enter **services.msc** in the search field.
-4. Locate the DriveClient service, right-click it, and select the **Restart**. A pop-up windows shows the status of the restart.
+4. Locate the DriveClient service, right-click it, and select the **Restart**. A pop-up window shows the status of the restart.
 5. After the restart completes, find the DriveClient service again in the **Services (Local)** list, and ensure that its status is **Running**.
-6. Ensure that the DriveClient is configured to start at boot up:
+6. Ensure that the DriveClient is configured to start at bootup:
 
    a. Right-click the DriveClient service and click **Properties**.
 

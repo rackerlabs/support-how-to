@@ -5,8 +5,8 @@ title: Restart a stalled DriveClient agent
 type: article
 created_date: '2019-03-07'
 created_by: Rackspace Support
-last_modified_date: '2019-03-07'
-last_modified_by: William Loy
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -46,8 +46,8 @@ Use the following commands at the command prompt to stop and restart the DriveCl
 
 Use the following commands in the Task Manager to stop and restart the DriveClient agent:
 
-1.	Right click **driveclient.exe** and select **End Process** or **End Process Tree**.
-2.	Right click **driveclient.exe** and select **Start**.
+1.	Right-click **driveclient.exe** and select **End Process** or **End Process Tree**.
+2.	Right-click **driveclient.exe** and select **Start**.
 3. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
 
