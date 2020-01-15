@@ -5,8 +5,8 @@ title: Manually update the Rackspace Cloud Backup agent
 type: article
 created_date: '2013-01-08'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -27,8 +27,8 @@ installed.
 
 ### Update the agent for APT-based systems
 
-You might want to review
-[Install or update the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+For APT-based systems, you might want to review
+[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
 **Note:** The Advanced Packaging Tool (APT) automatically stops and restarts
@@ -54,10 +54,10 @@ Use the following steps to update the backup agent for APT-based systems, such a
 
         apt-get install --reinstall --assume-yes driveclient
 
-### Update the agent for yum-based systems, including CentOS and Red Hat.
+### Update the agent for yum-based systems, including CentOS and Red Hat
 
-You might want to review
-[Install or update the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+For yum-based systems, including CentOS&reg; and Red Hat&reg;, you might want to review
+[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
 **Note:** `yum` automatically stops and restarts the driveclient service as
@@ -70,13 +70,13 @@ Cloud Backup updater service, which keeps the agent up-to-date on the system.
 
         yum upgrade -y driveclient
 
-**Note:** Fedora 22 and later use a new package manager called DNF. This is not supported.
+**Note:** Fedora&reg; 22 and later use a new package manager called DNF. This is not supported.
 (Dandified Yum).
 
-### Update the agent for Arch&reg;, Gentoo&reg;, and SUSE&reg; systems
+### Update the agent for Arch, Gentoo, and SUSE systems
 
-You might want to review
-[Install or update the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+For Arch&reg;, Gentoo&reg;, and SUSE&reg; systems, you might want to review
+[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
 **Note:** The `tarball` that you download has the most up-to-date instructions.
@@ -120,15 +120,15 @@ command includes an example of the new directory.
 
 Example init/startup scripts are included in the tarball.
 
-### Update the agent on a Windows&reg; system
+### Update the agent on a Windows system
 
 Run the steps in this section as Administrator or as a user with Administrator
 privileges. You might want to review
-[Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+[Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 before performing these steps.
 
-Because the Windows&reg; agent includes an automated updater, you should rarely need
-to update the Windows&reg; agent manually. This section provides different options
+Because the Windows agent includes an automated updater, you should rarely need
+to update the Windows agent manually. This section provides different options
 to use if you need to manually update.
 
 #### Recommended method
@@ -143,7 +143,7 @@ from the deployment server and simply run it.
         driveclient-setup-latest.exe
 
 You can also run the agent by simply executing the wrapper application from a
-Windows&reg; file browser.
+Windows file browser.
 
 #### Alternative method
 
@@ -166,4 +166,4 @@ without APIUSER and APIKEY.
 Otherwise, updating the agent by using the MSI is the same as a fresh
 installation. You have all the same MSI options available. For the verification
 steps to test the update, see
-[Test the Windows&reg; installation or update](/how-to/rackspace-cloud-backup-install-the-agent-on-windows#test-the-windows-installation-or-update).
+[Test the Windows installation or update](/how-to/rackspace-cloud-backup-install-the-agent-on-windows#test-the-windows-installation-or-update).
