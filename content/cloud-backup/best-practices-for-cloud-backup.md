@@ -62,7 +62,7 @@ using Cloud Backup on the following directories:
 -   User data under `/home`
 -   Systems configuration files under `/etc`
 
-**Note:** Do not compress your data before it is backed up. Doing so defeats the backup deduplication, which is typically more efficient than simple file compression. Deduplication works across all files in all snapshots and stores only the new data. Deduplication almost always saves you more storage space and money during the backup process than simple compression does.
+**Note:** Do not compress your data before you back it up. Doing so defeats the backup deduplication, which is typically more efficient than simple file compression. Deduplication works across all files in all snapshots and stores only the new data. Deduplication almost always saves you more storage space and money during the backup process than simple compression does.
 
 We *do not support* backing up the following items:
 
@@ -181,13 +181,13 @@ On Windows&reg; cloud servers, you can use the **AgentConfig.exe** tool located 
 
 4.  To change the location, click the folder icon next to **Cache Target Location** and select a folder on a different drive.
 
-5.  To move the cache location, click the green arrow at the top of the window. The progress is displayed in  **Move Log**.
+5.  To move the cache location, click the green arrow at the top of the window. The progress displays in  **Move Log**.
 
     Depending on the size of the cache files, this process might take some time.
 
 6.	Restart the Cloud Backup agent service.    
 
-**Note**: To move the cache files, the Cloud Backup agent service must be shut down briefly.
+**Note**: To move the cache files, you must shut down the Cloud Backup agent service briefly.
 
 Alternatively, you can move only the backup local database files for the agent by using the **Database** tab.
 
@@ -217,7 +217,7 @@ To turn on debugging for auto-update, select **Auto Update Debug** and then clic
 
 ##### **Repair the Add/Remove Programs listing**
 
-Older versions of the agent were sometimes installed without adding an entry in the **Add/Remove Programs** console.
+Older versions of the agent are sometimes installed without adding an entry in the **Add/Remove Programs** console.
 
 To repair this issue, select  **Repair Add/Remove Programs Listing** and then click **Save**.
 
@@ -260,4 +260,4 @@ To minimize your chances of experiencing the following issues, keep your backup 
 
 - **My backup or restore is slow. What can I do?**
 
-  If your backup or restore is encrypted, it will be especially slow. Also, review the “Choosing what to back up” section for what you should *not* be backing up. The less there is to back up or restore, the faster the process will be.
+  If your backup or restore is encrypted, it is especially slow. Also, review the “Choosing what to back up” section for what you should *not* be backing up. The less there is to back up or restore, the faster the process is.
