@@ -5,8 +5,8 @@ title: Cloud Backup troubleshooting
 type: article
 created_date: '2015-06-29'
 created_by: Rackspace Support
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -32,15 +32,15 @@ This section describes each of the backup statuses, why you might receive each s
 A status of Skipped indicates that the backup job was skipped because a backup job was already queued. A
 single backup job can be queued only once.
 
-This status likely occurs because the frequency of the backup job is set too high (for example, hourly) and a single backup takes too long (longer than an hour). The backup scheduler will start to skip backups that it cannot meet.
+This status likely occurs because the frequency of the backup job is set too high (for example, hourly), and a single backup takes too long (longer than an hour). The backup scheduler starts to skip backups that it cannot meet.
 
-Consider reducing the frequency of the job, or reducing the amount of data. If this is the initial job, the subsequent jobs might finish faster.
+Consider reducing the frequency of the job or reducing the amount of data. If this is the initial job, the subsequent jobs might finish faster.
 
 On older DriveClient installations, a Skipped status might be caused if the agent was hard-restarted (or the operating system was rebooted) during a backup, cleanup, or restore.
 
 -  For Linux&reg;, a possible fix is to upgrade to the latest version of DriveClient and restart the running agent.
 
--  For Windows&reg;, a possible fix is to restart the DriveClient Windows&reg; service through Window's Service Manager, or through the `sc` command line Windows&reg; utility.
+-  For Windows, a possible fix is to restart the DriveClient Windows service through Window's Service Manager, or through the `sc` command line Windows utility.
 
 #### Backup status "Missed"
 
@@ -59,12 +59,12 @@ terminated.
 #### Backup status "Completed with Errors"
 
 A backup status of Completed with Errors indicates that the backup
-completed but one or more files could not be backed up. The most common
+completed, but one or more files could not be backed up. The most common
 issues that cause this status are as follows:
 
 -   The file was deleted between the time the index of files completed and the copy of that specific file was attempted. This issue is common with any temporary files, such as PHP session files, and is almost always harmless. If it is possible and practical for you to exclude these files from the backup definition, this kind of error goes away.
 
--   The file was exclusively locked (Windows&reg;), so that no other process could read it. This issue is common with database binary files. With databases, you should never back up the binaries themselves, but rather dump the contents of the database to a flat file (such as an SQL file), and back up that flat file. Doing so allows for a quicker backup and an easier restore. We suggest that you break individual databases into different flat files, so that they can be manipulated easier on restore. Then,  you do not have to fully restore the flat file just to restore a single database.
+-   The file was exclusively locked (Windows) so that no other process could read it. This issue is common with database binary files. With databases, you should never back up the binaries themselves, but rather dump the contents of the database to a flat file (such as an SQL file), and back up that flat file. Doing so allows for a quicker backup and an easier restore. We suggest that you break individual databases into different flat files so that they can be manipulated easier on restore. Then,  you do not have to fully restore the flat file just to restore a single database.
 
 -   Non-UTF-8 characters were used in the path of the file in the operating system. The current version of Cloud Backup supports only UTF-8 characters. When non-UTF-8 characters are used, a `Path Not Found` message is displayed.
 
@@ -111,15 +111,15 @@ This message indicates that a networking error is preventing DriveClient from co
 
 This message indicates that the locale is not properly set on the target system, which happens mostly in older operating systems.
 
-This message is also common when you use SSH to connect from a Mac OS desktop to a Linux&reg; server, and run the `sudo service DriveClient status command`. The Mac OS client does not properly provide the locale information in the SSH session.
+This message is also common when you use SSH to connect from a Mac OS desktop to a Linux server and run the `sudo service DriveClient status command`. The Mac OS client does not properly provide the locale information in the SSH session.
 
-If you don't have a Linux&reg; computer available for use, you can access the web console for your server through the [Cloud Control Panel](https://login.rackspace.com/). When you're in the web console for your server, perform the following actions:
+If you don't have a Linux computer available for use, you can access the web console for your server through the [Cloud Control Panel](https://login.rackspace.com/). When you're in the web console for your server, perform the following actions:
 
 1. Open the **/etc/ssh/sshd_config** file for editing.
 
-2. Find the lines that start with `AcceptEnv`, and insert a `#` character in front of each line.
+2. Find the lines that start with `AcceptEnv` and insert a `#` character in front of each line.
 
-3. Save the file and then restart the SSH service (depending on the Linux&reg; distribution) by running either `service ssh restart` or `service sshd restart`.
+3. Save the file and then restart the SSH service (depending on the Linux distribution) by running either `service ssh restart` or `service sshd restart`.
 
 4. Try to connect again.
 
@@ -137,9 +137,9 @@ API know that it is available to take commands. If it can't reach that endpoint,
 
 The following symptoms might occur:
 
--   On Windows&reg;, the following permissions error message might be displayed: `Please check your permissions and try again`. This is the default error message that Windows displays when a service fails to start.
+-   On Windows, the following permissions error message might be displayed: `Please check your permissions and try again`. This is the default error message that Windows displays when a service fails to start.
 
--   On Linux&reg;, the agent will just shut itself down.
+-   On Linux, the agent just shuts itself down.
 
 When the agent shuts itself down, you see a line, similar to the following line, indicating that the logging is being stopped. This is the last thing that is logged before the agent shuts itself off.
 
@@ -169,11 +169,11 @@ If the agent cannot communicate with one or more of the following required API e
 
 The agent logs are stored, by default, in the following directories:
 
--   (Windows&reg;) **C:\\ProgramData\\DriveClient\\logs\\driveclient.log**
+-   (Windows) **C:\\ProgramData\\DriveClient\\logs\\driveclient.log**
 
     The **C:\\ProgramData\\DriveClient** directory can be changed, based on the installer or through the **AgentConfig.exe** executable.
 
--   (Linux&reg;) **/var/log/driveclient.log**
+-   (Linux) **/var/log/driveclient.log**
 
 The **log4cxx.xml** configuration file controls agent logging. This file is located in the Cloud Backup cache folder. Among the things that you can manually edit in this file are the size of the **driveclient.log** file (`MaxFileSize`) and how many previous versions (`MaxBackupIndex`) are saved before they are deleted. For more information about how to configure this file, see [Cloud Backup agent logging basics](/how-to/cloud-backup-agent-logging-basics).
 
@@ -186,7 +186,7 @@ Log lines have the following format:
 - `DATE TIME`: Time stamp indicating when the log line was written.
 - `THREADID`: Because DriveClient is a threaded service, this ID is an indicator to separate the thread from all of the other threads writing to the same log file.
 - `LOGLEVEL`: The depth of the logging. The default is INFO, but Support might increase this level to TRACE or DEBUG. The log levels are common log levels, such as INFO, WARN, and ERROR.
-- `USER`: The user that is running the service. On Linux&reg;,  this value is root, and on Windows&reg;, it is Administrator.
+- `USER`: The user that is running the service. On Linux,  this value is root, and on Windows, it is Administrator.
 - `CONTEXT`: Internal information about where the log was generated.
 - `LOG INFORMATION`: The context of the log.
 
@@ -209,20 +209,20 @@ If the errors continue for more than 5-10 seconds, contact Rackspace Support.
 
 You cannot recover your encrypted vault password. The vault password is stored only on the cloud server that is linked to that encrypted vault. If that password is forgotten, and the **bootstrap.json** file was overwritten or lost, there is no way to recover the password.
 
-### Unable to back up or restore files (Windows&reg; only)
+### Unable to back up or restore files (Windows only)
 
-Windows&reg; has the ability to *exclusively lock* a file, so that no other
+Windows has the ability to *exclusively lock* a file, so that no other
 process can read or write to it. This locking is common in database
 binary files, but many other programs use this locking protocol. If this
 locking occurs, the only workarounds are to close the program that has
-the exclusive lock, or restore the file into a different location.
+the exclusive lock or restore the file into a different location.
 
 If you are backing up a file that you know will be exclusively locked,
-you should think about using VSS snapshots (if your version of Windows&reg;
+you should think about using VSS snapshots (if your version of Windows
 supports it), and back up the contents of the VSS snapshot. Using VSS
 snapshots enables you to get a proper backup of the file.
 
-The latest version of Cloud Backup for Windows&reg; automatically takes a VSS
+The latest version of Cloud Backup for Windows automatically takes a VSS
 snapshot of the drive and attempts to back up files from it.
 
 ### System resource utilization
@@ -275,11 +275,11 @@ The following types of file changes can occur during a backup:
 
 -   Files are overwritten or get deleted. These files are not guaranteed
     to have usable content or to even be included in the backup at all.
--   Files, like logs, are appended to. We will make a best effort to
+-   Files, like logs, are appended to. We make a best effort to
     back up these files, but we expect to be able to restore a
     reasonable and usable form of these files.
 -   Files, like databases, might have random updates to any part
-    of them. We do not in any way guarantee that these files will be
+    of them. We do not in any way guarantee that these files are
     restorable, and even if they are restored, we do not guarantee that
     what is restored is not corrupt.
 
