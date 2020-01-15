@@ -52,7 +52,7 @@ Rackspace Support](https://www.rackspace.com/support).
 Even though the cloud is engineered to prevent data loss, maintaining recent
 backups of your important data is still considered a fundamental best practice.
 Cloud Backup is a file-based backup solution that uses compression, encryption,
-and de-duplication to ensure your data is protected and recoverable.
+and deduplication to ensure your data is protected and recoverable.
 
 Cloud Backup should not be confused with the ability to image your servers,
 which is a strategy for horizontal scalability and not recommended for backup.
@@ -85,15 +85,15 @@ If you choose to keep offsite copies of backup containers, it provides an
 extra layer of protection from bad actors who might obtain your Rackspace account
 credentials from you and delete all your cloud assets.
 
-In order to protect these offsite copies from the bad actor, they must reside on
+To protect these offsite copies from the bad actor, they must reside on
 media that is *not* accessible by using the stolen credentials. Otherwise, the
-bad actor is able to delete them, too.
+bad actor can delete them, too.
 
 #### Can Cloud Backup change my system configuration file, even after I have modified it?
 
 Yes. Some machines running the Ubuntu&reg; operating system have older agents
-installed. In order to communicate properly with your system, the
-configuration file might need to be overwritten with a current version.
+installed. To communicate properly with your system, you might need to overwrite the
+configuration file with a current version.
 
 #### How does Cloud Backup handle corrupt files?
 
@@ -106,8 +106,8 @@ occurs in Cloud Files itself, it might render the backup unusable.
 #### What happens if I lose my encryption key?
 
 Rackspace does not store customer encryption keys. Only you know
-and are able to access your encryption passphrase. If you forget your
-passphrase, you are not be able to restore data from your backups.
+and can access your encryption passphrase. If you forget your
+passphrase, you are not able to restore data from your backups.
 
 For more information, see the section on [Setting up encryption on your Cloud Backup system](/how-to/rackspace-cloud-backup-system-actions)
 in the list of Cloud Backup actions.
@@ -152,11 +152,11 @@ in the list of Cloud Backup actions.
 #### Can I use Cloud Backup on my server?
 
 You can use Cloud Backup on virtually any server in the
-Rackspace Cloud. Some exceptions are FreeBSD&reg; 9, Debian&reg; 5 and Windows&reg;
+Rackspace Cloud. Some exceptions are FreeBSD&reg; 9, Debian&reg; 5, and Windows&reg;
 2003.
 
 **Note**: If you have servers that are not in the Rackspace Cloud that are running operating
-systems that are supported by the Rackspace the following installer links for more details.
+systems that are supported by Rackspace, the following installer links for more details.
 
 Before you can use Cloud Backup, you must have the backup agent installed and
 running on your cloud server. Cloud servers with a Managed Operations service
@@ -164,7 +164,7 @@ level should have this additional piece of software installed by default. If it
 is not installed, contact your Account Representative to get started. If you
 have an infrastructure-only account, you must manually install the agent by
 following these instructions for [Linux&reg;](/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
-or for [Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
+or [Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 For more information, see the [Rackspace Cloud Backup introduction](/how-to/cloud-backup).
 
@@ -188,7 +188,7 @@ want to reconfigure it, click the gear icon next to the backup name and
 select **Configure Backup**. See [Configuring a Backup through Backup Actions](/how-to/rackspace-cloud-backup-backup-actions)
 for more information.
 
-You can set backups to run hourly, daily, weekly, or on demand
+You can set backups to run hourly, daily, weekly, or on-demand
 (manually).
 
 Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
@@ -197,11 +197,11 @@ Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-a
 
 No, 32-bit servers and agents on Linux are not supported.
 
-#### Why does my backup fail with a 403 error from Cloud Files when the account has subusers?
+#### Why does my backup fail with a 403 error from Cloud Files when the account has sub-users?
 
 **Issue**
 
-I am registered as a subuser and am authorized for Cloud Backup and not
+I am registered as a sub-user and am authorized for Cloud Backup and not
 for Cloud Files access. When I attempt to do a backup, all requests to
 Cloud Files return a 403 error. In this case, I attempt to authenticate
 again, but the new authentication token is the same as the old one.
@@ -211,7 +211,7 @@ again, but the new authentication token is the same as the old one.
 Account administrators can manage permission levels in the **User Management**
 section of the [Cloud Control Panel](https://login.rackspace.com).
 Submit a request to your account administrator for **Full** access to your
-account or **Administrative** access to Cloud Files for your subuser account.
+account or **Administrative** access to Cloud Files for your sub-user account.
 
 #### What does Cloud Backup cost?
 
