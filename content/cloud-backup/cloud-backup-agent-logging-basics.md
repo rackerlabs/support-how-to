@@ -5,8 +5,8 @@ title: Cloud Backup agent logging basics
 type: article
 created_date: '2014-05-29'
 created_by: Ross Diaz
-last_modified_date: '2018-12-20'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -27,7 +27,7 @@ Cloud Backup agent.
 The log configuration file is named **log4cxx.xml**, and it uses **log4j**
 syntax. The default configuration differs between Microsoft&reg; Windows&reg;
 and Linux&reg; only in the target log file path. Otherwise, the file is
-similar to the following example of a Windows&reg; configuration file:
+similar to the following example of a Windows configuration file:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"[]>
@@ -50,15 +50,15 @@ similar to the following example of a Windows&reg; configuration file:
     </log4j:configuration>
 
 For information about how to locate the **log4cxx.xml** configuration file on
-Windows&reg; or Linux&reg;, see the "Locations of Cloud Backup agent files" section of
+Windows or Linux, see the "Locations of Cloud Backup agent files" section of
 this article.
 
 ### Agent logging operations
 
 The Cloud Backup agent stores troubleshooting information in a *primary log
 file* and a series of up to 12 *rollover log files*. When logging capacity is
-reached, the primary log file is rolled over to a rollover log file, and a new
-primary log file is started. As more logs are rolled over to the point
+reached, the primary log file rolls over to a rollover log file, and a new
+primary log file is started. As more logs roll over to the point
 that the maximum number of rollover logs is reached, the oldest rollover log
 file is deleted.
 
@@ -174,12 +174,12 @@ links for the log files and paste the links into your support ticket.
 ### Locations of Cloud Backup agent files
 
 The following section lists the locations of the Cloud Backup agent on
-both Linux&reg; and Windows&reg; servers.
+both Linux and Windows servers.
 
-#### Agent file locations (Linux&reg;)
+#### Agent file locations (Linux)
 
 Assuming a default installation, following are the agent file locations
-on Linux&reg; systems:
+on Linux systems:
 
 -   Configuration files: **/etc/driveclient**
 -   Logs: **/var/log** (This value might be different on your server,
@@ -193,17 +193,17 @@ on Linux&reg; systems:
 **Note**: If `driveclient` is installed as an individual user,
 most of these files are under **~/.driveclient**.
 
-#### Agent file locations (Windows&reg;)
+#### Agent file locations (Windows)
 
-Finding the `driveclient` files under various flavors of Windows&reg; is
+Finding the `driveclient` files under various flavors of Windows is
 a little complicated. In general, you can find these files under the
 folder to which **CSIDL_COMMON_APPDATA** points.
 
--   For more information about this location on Windows&reg; versions
+-   For more information about this location on Windows versions
     starting with Vista, see
     <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd378457(v=vs.85).aspx">KNOWNFOLDERID</a>.
 -   For more information about this location on earlier versions of
-    Windows&reg;, see
+    Windows, see
     <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/bb762494(v=vs.85).aspx">CSIDL</a>.
 
 In a typical installation, the files are located in the following folders:
