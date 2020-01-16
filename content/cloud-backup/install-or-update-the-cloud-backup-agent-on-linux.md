@@ -13,10 +13,10 @@ product_url: cloud-backup
 
 The Rackspace Cloud Backup agent facilitates the backup process on your servers.
 You must install the agent on every server that you want to back up. This
-article provides instructions for installing the agent on a Linux &reg; server
+article provides instructions for installing the agent on a Linux&reg; server
 by using the Cloud Backup Updater.
 
-If you are using a Windows Server &reg;, see
+If you are using a Windows Server&reg;, see
 [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 for Windows instructions.
 
