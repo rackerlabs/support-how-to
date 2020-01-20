@@ -24,7 +24,7 @@ Before you configure any sort of mail service, it is vital that your Cloud Serve
 
 The instructions in this article use the following technology:
 
--  The Ubuntu:reg; Hardy operating system. (The instructions might work on other Linux&reg;
+-  The Ubuntu&reg; Hardy operating system. (The instructions might work on other Linux&reg;
    distributions, but it has not been tested and is not guaranteed).
 
 ### Configure the hostname
