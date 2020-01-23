@@ -7,8 +7,8 @@ created_date: '2012-11-09'
 created_by: Jonathan Hogue
 last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
-product: RackConnect
-product_url: rackconnect
+product:
+product_url:
 ---
 
 *Warning:* This article is no longer being maintained. It will soon be removed from the How-To site.
