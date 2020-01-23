@@ -22,7 +22,7 @@ This article describes how to remediate a compromised user account and mailbox i
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-If an attacker has gained access to a user's account credentials, they can sign in as that user and perform actions as that user. The attacker will have full access to the user’s Office 365 Mailbox, SharePoint and OneDrive. Attackers may send email as the user. Securing a compromised account properly is important to prevent further issues from arising.
+If an attacker has gained access to a user's account credentials, they can sign in as that user and perform actions as that user. The attacker has full access to the user’s Office 365 Mailbox, SharePoint&reg; and OneDrive&reg;. Attackers might send email as the user. Securing a compromised account properly is important to prevent further issues from arising.
 
 ### Diagnosing a compromised mailbox
 
@@ -30,13 +30,14 @@ The following symptoms may indicate that a user account or mailbox has been comp
 
 **NOTE:** This is not a definitive list of symptoms. Compromised users may experience symptoms not included in this list, or may not experience any symptoms at all.
 
-  - Missing or deleted emails in the users mailbox.
+  - Missing or deleted emails.
   - Reports of people receiving email from the user that the user does not recall sending.
   - Reports of people receiving email from the user without the corresponding message being in the Sent Items folder.
-  - Inbox rules that were not created by the user. These rules typically forward emails externally or move them to the Notes, Junk Email, RSS Subscription Folders, or the Deleted Items folder.
-  - Strange changes to the user's Display Name or other contact information.
+  - Inbox rules that were not created by the user. These rules typically forward emails externally or move them to the Notes,   Junk Email, RSS Subscription folders, or the Deleted Items folder.
+  - Changes to the user's Display Name or other contact information.
   - Mailbox blocked from sending email.
-  - User receives the following Non-Delivery Report (NDR) when trying to send out email: "Your message couldn't be delivered because you weren't recognized as a valid sender. The most common reason for this is that your email address is suspected of sending spam and it's no longer allowed to send email. Contact your email admin for assistance. Remote Server returned '550 5.1.8 Access denied, bad outbound sender."
+  - User receives the following Non-Delivery Report (NDR) when trying to send out email: 
+    `Your message couldn't be delivered because you weren't recognized as a valid sender. The most common reason for this is  that your email address is suspected of sending spam and it's no longer allowed to send email. Contact your email admin for assistance. Remote Server returned '550 5.1.8 Access denied, bad outbound sender.`
 
 ### Secure a compromised account
 
@@ -46,7 +47,7 @@ Use the following steps to secure a compromised user account:
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
-3.  In the Active Users section, select the impacted user and click the cicle icon with the slash through it under the user's name at the top. The alternate text for the icon should read **Block this user?**.
+3.  In the Active Users section, select the impacted user and click the circle icon with the slash through it under the user's name at the top. The alternate text for the icon should read **Block this user?**.
 
 4.  Click the checkbox the left of **Block this user from signing in**, the select **Save changes**.
 
@@ -76,7 +77,7 @@ Use the following steps to remove any email forwarding and inbox rules from the 
 
 **NOTE:** If forwarding is enabled and you are able to verify that the forwarding is not malicious, you can skip Step 5.
 
-6.  Close out of the user info screen by selecting the X in the upper right hand part of the screen, then open the Exchange Admin Center by selecting **Exchange** under the Admin centers section of the menu.
+6.  Close out of the user info screen by selecting the **X** in the upper right hand part of the screen, then open the Exchange Admin Center by selecting **Exchange** under the Admin centers section of the menu.
 
 7.  In the upper right hand corner of the Exchange Admin Center, select your user icon, then select **Another user...**
 
@@ -84,9 +85,9 @@ Use the following steps to remove any email forwarding and inbox rules from the 
 
 9.  Verify at the top of the window that you are working on behalf of the compromised user, then select **organize email** from the left menu.
 
-10.  On the **inbox rules** screen, audit the list of inbox rules. If there are any suspicious looking rules, you can either uncheck them to turn them off so they can be reviewed later, or delete them using the tashcan icon.
+10.  On the **inbox rules** screen, audit the list of inbox rules. If there are any suspicious rules, you can either uncheck them to turn them off so they can be reviewed later, or delete them using the trashcan icon.
 
-**NOTE:** Administrators are unable to review the inbox Sweep rules through this screen. We recommend you or your user login to their mailbox using the [Outlook Web App](https://outlook.office.com) and audit the Sweep rules in their mailbox.
+**NOTE:** Administrators are unable to review the inbox Sweep Rules through this screen. We recommend you or your user log in to their mailbox using the [Outlook Web App](https://outlook.office.com)&reg; and audit the Sweep Rules in their mailbox.
 
 ### Unblock the user from sending email
 
@@ -94,9 +95,9 @@ Often times when a user is compromised, the compromised account is used to send 
 
 1.	Visit [https://protection.office.com/#/restrictedusers](https://protection.office.com/#/restrictedusers) and sign in with your Global Admin credentials.
 
-2.	This page will list users that are currently restricted from sending by Microsoft. Find the user you are working on and select **Unblock**.
+2.	This page lists users that are currently restricted from sending by Microsoft. Find the user you are working on and select **Unblock**.
 
-3.  A panel will appear detailing the user that was restricted and recommended actions to take, click **Next** when done.
+3.  A panel appears detailing the user that was restricted and recommended actions to take. Click **Next** when done.
 
 4.  Click **Yes** to confirm the change.
 
@@ -104,4 +105,4 @@ Often times when a user is compromised, the compromised account is used to send 
 
 ### Additional information
 
-Having a compromised user can have a negative impact on your business. To reduce the risk of an account compromise, consider enforcing strong password policies and enabling [multi-factor authentication for users in Office 365](/how-to/manage-multi-factor-authentication-for-users-in-office-365/).
+Having a compromised user can negatively impact your business. To reduce the risk of an account compromise, consider enforcing strong password policies and enabling [multi-factor authentication for users in Office 365](/how-to/manage-multi-factor-authentication-for-users-in-office-365/).
