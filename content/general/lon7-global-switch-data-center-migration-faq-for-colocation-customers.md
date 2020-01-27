@@ -39,8 +39,8 @@ requirements and the availability of any necessary Rackspace resources.
 
 Rackspace has extensive experience and success in data-center migrations. The
 dedicated migration team has handled multiple large-scale data center
-consolidation and closures for both Rackspace and legacy Datapipe data centers
-and can provide guidance and advice on all aspects of the move. For those
+consolidation and closures for both Rackspace and legacy Datapipe data centers.
+The team can provide guidance and advice on all aspects of the move. For those
 customers who have never experienced a cabinet migration, we created a
 **Colocation Migration Guide** based on the experience of the migration team.
 If you think this would be useful, reach out to your service delivery manager
@@ -66,11 +66,12 @@ Rackspace needs to understand the interdependencies between the different
 environments and plan accordingly. If you have infrastructure in Global Switch
 that depends on the migrating environment, let your account team know as soon as
 possible so that they can inform the migration team. This request applies even
-if the infrastructure is in a different suite or is not hosted by Rackspace.
+if the infrastructure is in a different suite or if Rackspace does not host the
+infrastructure.
 
 #### We have a leased line that terminates in LON7. What happens to this?
 
-If the leased line is provided through Rackspace, we take care of this and work
+If Rackspace provides the leased line, we take care of this and work
 with you to schedule the change. If not, you must work with your telco provider
 and Rackspace to understand the options for relocating the line. The data
 center you are moving to and your provider determine the options available to
