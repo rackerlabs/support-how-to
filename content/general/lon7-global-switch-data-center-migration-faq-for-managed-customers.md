@@ -33,7 +33,7 @@ Following a review of our global data center footprint, Rackspace decided to
 reduce our footprint in the Global Switch GS2 (LON7) data center by moving all
 managed services customers from suites J1 and J2 to an existing Rackspace data
 center. This document relates specifically to customers with managed
-infrastructure and the Stratosphere products (EStrat, VStrat, and PCIStrat).
+infrastructure and the Stratosphere&reg; products (EStrat, VStrat, and PCIStrat).
 
 #### When will the relocation take place?
 
@@ -155,7 +155,7 @@ help support you before and during the migration. We have assembled a dedicated
 migration team, made up of some of the best Rackers from across the business.
 This team will run audits on your servers before the migration to identify and
 resolve any potential migration issues in advance. Ensure that you work with the
-migration team and your account team to resolve any issues in a timely manner.
+migration team and your account team to resolve any issues promptly.
 If you fail to resolve issues that we are auditing, we might have to perform a
 manual shutdown in advance of the official maintenance window start time.
 
@@ -186,13 +186,13 @@ night:
     applications and services start correctly. If you want Rackspace to do this,
     raise a request by using the customer portal.
 
-#### Will I continue to receive the same services as I currently receive?
+#### Will I continue to receive the same services that I currently receive?
 
-Yes, you will continue to receive the same services.
+Yes, you continue to receive the same services.
 
 #### We have a leased line that terminates in LON7. What happens to this?
 
-If the leased line is provided through Rackspace, we take care of this and work
+If Rackpsace provides the leased line, we take care of this and work
 with you to schedule the change. If not, you must work with your telco provider
 and Rackspace to understand the options for relocating the line. The data
 center you are moving to and your provider determine the options available to
