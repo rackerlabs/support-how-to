@@ -1,11 +1,11 @@
 ---
 permalink: lon7-global-switch-data-center-migration-faq-for-managed-customers/
-audit_date: '2020-01-31'
+audit_date: '2020-01-29'
 title: LON7 (Global Switch) data center migration FAQ for managed customers
 type: article
-created_date: '2020-01-31'
+created_date: '2020-01-29'
 created_by: Sarah Wellburn
-last_modified_date: '2020-01-31'
+last_modified_date: '2020-01-29'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
@@ -51,11 +51,11 @@ offline while moving to the new location.
 
 #### How will the migration be carried out?
 
-We a physical migration method, which means that after we power down the devices
-in the source data center, we remove them from the cabinets and physically
-transport them to the destination data center. Upon arrival, we rack the devices
-in their new locations and bring the environment back online. The high-level
-stages for the move are as follows:
+We will use a physical migration method, which means that after we power down
+the devices in the source data center, we remove them from the cabinets and
+physically transport them to the destination data center. Upon arrival, we rack
+the devices in their new locations and bring the environment back online. The
+high-level stages for the move are as follows:
 
 - You are allocated a move group at least two months in advance of the date.
 - As your maintenance date nears, Rackspace works with you and your account

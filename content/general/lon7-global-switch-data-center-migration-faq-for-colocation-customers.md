@@ -1,11 +1,11 @@
 ---
 permalink: lon7-global-switch-data-center-migration-faq-for-colocation-customers/
-audit_date: '2020-01-31'
+audit_date: '2020-01-29'
 title: LON7 (Global Switch) data center migration FAQ for colocation customers
 type: article
-created_date: '2020-01-31'
+created_date: '2020-01-29'
 created_by: Sarah Wellburn
-last_modified_date: '2020-01-31'
+last_modified_date: '2020-01-29'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
@@ -23,7 +23,7 @@ customers access to the full range of Rackspace products and services.
 
 Following this review, Rackspace decided to vacate suite J2 in the Global Switch
 GS2 (LON7) data center located at Nutmeg Lane, London, and relocate all
-colocation customers to either suite J1 (adjacent to J2) to or our facility in
+colocation customers to either suite J1 (adjacent to J2) or to our facility in
 Crawley, LON5. We are also relocating all customers on managed infrastructure
 from both J1 and J2. If you have colocation cabinets in either J1 or J2 that
 need to be in the same facility as your managed infrastructure, you must
@@ -53,8 +53,8 @@ information on this, request it through your account team.
 #### What support does Rackspace provide for the move?
 
 Rackspace allocates space and power in the new location with all other services
-for which you contract us. Where Rackspace provides the cabinets, we stand up
-new cabinets in advance of your move date if required. Additionally, if
+for which you contract with us. Where Rackspace provides the cabinets, we stand
+up new cabinets in advance of your move date if required. Additionally, if
 requested, we can carry out a physical audit of your environment and take
 responsibility for the physical move. We understand that this move is a
 distraction from your business focus, so we will use all our experience in data
@@ -75,7 +75,9 @@ If Rackspace provides the leased line, we take care of this and work
 with you to schedule the change. If not, you must work with your telco provider
 and Rackspace to understand the options for relocating the line. The data
 center you are moving to and your provider determine the options available to
-you. Because lead times for new leased lines are significant, we advise you to
+you. If you are relocating to the adjacent suite, this might just require a new
+cross connect. However, a move to a different data center might require a new
+line. Because lead times for new leased lines are significant, we advise you to
 reach out to your provider at your earliest convenience to understand the options.
 
 #### Where is LON5 located?
