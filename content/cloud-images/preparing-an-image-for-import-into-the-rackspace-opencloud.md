@@ -18,7 +18,7 @@ and instructions.
 
 ### General requirements
 
-Images must follow the following general requirements:
+General requirements for preparing images for export include the following items:
 
 -   The image must be a single file in the Virtual Hard Disk (VHD) file format.
 
