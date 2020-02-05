@@ -42,7 +42,7 @@ for Windows licenses.
 **Note:** Because of the limitations related to this software
 platform, import is not available for Windows images.
 
-### Preparing an Image
+### Prepare an image
 
 Requirements:
 
@@ -60,7 +60,7 @@ When you get to the **Virtual Machine Storage** page, choose **Enable thin
 provisioning-Optimized Storage for XenDesktop**. This enables you to create
 the correct image type for Rackspace cloud (VHD).
 
-For learn more about preparing an image on Linux, see [Cloud image creation format and process](/how-to/cloud-image-creation-format-and-process).
+To learn more about preparing an image on Linux, see [Cloud image creation format and process](/how-to/cloud-image-creation-format-and-process).
 
 ### Export images from another cloud
 
