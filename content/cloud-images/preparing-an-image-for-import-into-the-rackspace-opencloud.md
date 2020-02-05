@@ -100,3 +100,5 @@ on the image by using the [Cloud Servers API](https://developer.rackspace.com/do
 | vm_mode | hvm | Boots in the correct virtualizaton mode. If you do not set this correctly, you get bootloader errors. |
 | img_config_drive | mandatory| Attaches the Openstack config-drive for metadata information (network, SSH keys) to servers built from this image. |
 | ssh_user| varies | The default SSH user for this image (such as 'debian', 'ubuntu', 'admin', and so on.)|
+
+<br/>
