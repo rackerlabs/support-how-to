@@ -18,7 +18,7 @@ and instructions.
 
 ### General requirements
 
-Images must follow these general requirements:
+Images must follow the following general requirements:
 
 -   The image must be a single file in the Virtual Hard Disk (VHD) file format.
 
@@ -54,40 +54,49 @@ Requirements:
 (https://www.citrix.com/downloads/citrix-hypervisor/)
 or [XCP-ng](https://xcp-ng.org/) 7.0 or later
 
-#### Installing Citrix Hypervisor locally
+#### Install a Citrix Hypervisor locally
 
-When you get to the "Virtual Machine Storage" page, choose "Enable thin
-provisioning-Optimized Storage for XenDesktop". This enables you to create
+When you get to the **Virtual Machine Storage** page, choose **Enable thin
+provisioning-Optimized Storage for XenDesktop**. This enables you to create
 the correct image type for Rackspace cloud (VHD).
 
-For instructions for preparing an image on Linux, see [Cloud image creation format and process](/how-to/cloud-image-creation-format-and-process).
+For learn more about preparing an image on Linux, see [Cloud image creation format and process](/how-to/cloud-image-creation-format-and-process).
 
-### Exporting images from another cloud
+### Export images from another cloud
 
 Amazon EC2®, Microsoft Azure®, and Google Compute Engine® can export images
 in the VHD format, which is required for Rackspace Cloud. (On Google Compute,
-this format is called "VPC"). Recommended workflow:
+this format is called *VPC*). 
 
-1.  In the other cloud, create an image of the server that you want to bring
+To export images from another cloud, use the following recommended workflow:
+
+In the other cloud, perform the following steps:
+
+1.  Create an image of the server that you want to bring
     over to the Rackspace Open Cloud.
-2.  In the other cloud, boot a new server from the image that you
+2.  Boot a new server from the image that you
     just created.
-3.  In the other cloud, make appropriate modifications to the new
+3.  Make appropriate modifications to the new
     server so that it can work in the Rackspace Open Cloud.
-4.  In the other cloud, create an image of the new server.
-5.  In the other cloud, export the image in VHD format.
-6.  Offline, upload the image to your Rackspace Cloud Files account in
+4.  Create an image of the new server.
+5.  Export the image in VHD format.
+
+ While offline, perform the following step:
+ 
+6.  Upload the image to your Rackspace Cloud Files account in
     the region in which you want to boot your server.
-7.  Using Rackspace Cloud Images, import the image into the
-    Rackspace Open Cloud.
+    
+ Using Rackspace Cloud Images, perform the following step:
+ 
+7.  Import the image into the Rackspace Open Cloud.
 
-#### Setting the proper image metadata
+#### Set the proper image metadata
 
-Once the server is imported, set the following metadata key/value pairs
-on the image using the [Cloud Servers API](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-images-operations/#set-image-metadata-for-specified-image):
+After the server is imported, set the following metadata key-value pairs
+on the image by using the [Cloud Servers API](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-images-operations/#set-image-metadata-for-specified-image):
 
 | Key | Value | What it Does |
 | --- | ----- | ------------ |
-| vm_mode | hvm | boot in the correct virtualizaton mode. You will get bootloader errors if you do not set this. |
-| img_config_drive | mandatory| Attaches the Openstack config-drive for metadata information (network, SSH keys) to servers built from this image |
-| ssh_user| varies | The default SSH user for this image (such as 'debian', 'ubuntu', 'admin', etc)|
+| vm_mode | hvm | Boots in the correct virtualizaton mode. If you do not set this correctly, you get bootloader errors. |
+| img_config_drive | mandatory| Attaches the Openstack config-drive for metadata information (network, SSH keys) to servers built from this image. |
+| ssh_user| varies | The default SSH user for this image (such as 'debian', 'ubuntu', 'admin', and so on.)|
