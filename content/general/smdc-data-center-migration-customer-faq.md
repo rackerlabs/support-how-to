@@ -40,9 +40,6 @@ environment directly to AWS, Google Cloud, or Microsoft Azure. IAD3 also has a
 large team of datacenter operations technicians, staffed 24x7x365, to support
 your environment.
 
-**Note:** This article relates specifically to customers on managed or shared
-infrastructure.
-
 #### When will the relocation occur?
 
 Rackspace assigns all customers to a move group, and each move group is
@@ -129,10 +126,10 @@ These IP changes include, but are not limited to, the following:
 -  Whitelists
 -  Third-party network gear
 
-Before the migration, Rackspace will provide documented information about the previous IP
-mapping and the new IP mapping. Review the information carefully and prepare a
-plan, in advance, to make the necessary changes to accommodate the new IP
-addresses, such as  VPN tunnels, DNS, and application interface whitelisting.
+Before the migration, Rackspace will provide documented information about the
+previous IP mapping and the new IP mapping. Review the information carefully and
+prepare a plan, in advance, to make the necessary changes to accommodate the new
+IP addresses, such as  VPN tunnels, DNS, and application interface whitelisting.
 
 #### My environment is sensitive to the way it is handled during a shutdown. Can you help?
 
@@ -156,13 +153,13 @@ Because we do not normally have access to your colocation devices, you are
 responsible for shutting these down. If you do not take any action, our standard
 approach is to remove the power cables from the colocation devices after all
 managed devices in the environment are offline. We then rack them in the
-destination data center following the same cabling configuratio used
+destination data center following the same cabling configuration used
 in the source data center. They are cabled and racked in their new locations
 and turned on, unless you provide other instructions.
 
 #### How will you keep me informed about the migration?
 
-We provide official notification by creating a ticket in the customer portal
+We provide official notification by creating a ticket in the Customer Portal
 approximately 60 days in advance of the move. This ticket remains open until
 your migration to IAD3 completes. We post all further updates into the 60-day
 notification ticket. Do not close the 60-day ticket until the migration is
@@ -190,7 +187,7 @@ If Rackspace provides the leased line, we take care of this and work
 with you to schedule the change. If not, you must work with your leased-line
 provider to provision a line into IAD3. Lead times for leased lines can be
 significant, so we advise you to reach out to your provider at your earliest
-convenience. Your engagement manager can provide pertinent information
+convenience. Your Engagement manager can provide pertinent information
 relating to the new data center that your telecom provider requires.
 
 #### Will I continue to receive the same services that I currently receive?
@@ -235,13 +232,13 @@ night:
 
 -   Perform a test reboot of your servers before the migration to ensure that
     applications and services start correctly. If you want Rackspace to do this,
-    raise a request by using the customer portal.
+    raise a request by using the Customer Portal.
 
 #### Who should I contact if I have more questions about the migration?
 
 Contact us in any of the following ways:
 
--   Ask your Rackspace engagement manager or customer success manager for more
+-   Ask your Rackspace Engagement manager or Customer Success manager for more
     information.
 -   Update one of the ticket notifications that will be published in the
-    customer portal.
+    Customer Portal.
