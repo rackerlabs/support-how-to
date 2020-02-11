@@ -27,7 +27,7 @@ facility, as well as limited capacity
 and aging infrastructure, Rackspace plans to exit the SMDC facility. We will
 migrate your hosted environment from SMDC to the Rackspace IAD3 data center in
 a scheduled maintenance window, occurring on either a Friday or Saturday night
-between March and September 2020. We will communicate the date of your
+between April and September 2020. We will communicate the date of your
 maintenance window to you at least 60 days before the move date. We will
 deploy the new infrastructure in the IAD3 data center and logically migrate
 your virtual machines.
