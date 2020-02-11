@@ -14,7 +14,7 @@ noindex: true
 
 ### Overview
 
-In 2017 Rackspace completed its acquisition of TriCore, which increased the
+In 2017, Rackspace completed its acquisition of TriCore, which increased the
 Rackspace data center footprint across the globe. In some regions, including
 Somerset, Massachusetts, this expansion resulted in multiple locations within
 a small geographical area. Rackspace leaders identified the data
