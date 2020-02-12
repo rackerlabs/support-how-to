@@ -5,13 +5,16 @@ title: Enable or disable two-factor authentication for administrators
 type: article
 created_date: '2017-10-02'
 created_by: William Loy
-last_modified_date: '2019-03-12'
+last_modified_date: '2020-02-12'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
 This article describes how to enable two-factor authentication for Cloud Office Control Panel administrators.
+
+**Important:** Starting on March 31, 2020, enrollment in Multi-Factor Authentication for Control Panel access will be mandatory.
+
 
 ### Prerequisites
 
