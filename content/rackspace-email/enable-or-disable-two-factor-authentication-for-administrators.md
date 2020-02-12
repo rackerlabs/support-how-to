@@ -13,8 +13,7 @@ product_url: rackspace-email
 
 This article describes how to enable two-factor authentication for Cloud Office Control Panel administrators.
 
-**Important:** Enrollment in Multi-Factor Authentication for Control Panel access is
-mandatory starting on March 31st, 2020.
+**Important:** Starting on March 31, 2020, enrollment in Multi-Factor Authentication for Control Panel access will be mandatory.
 
 
 ### Prerequisites
