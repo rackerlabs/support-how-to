@@ -7,7 +7,6 @@ created_date: '2012-07-19'
 created_by: Rackspace Support
 last_modified_date: '2018-10-26'
 last_modified_by: Cat Lookabaugh
-product: Cloud Servers
 ---
 
 After you are finished using your server and are ready to delete it, you can
