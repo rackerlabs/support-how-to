@@ -7,8 +7,6 @@ created_date: '2019-01-18'
 created_by: Rackspace Community
 last_modified_date: '2019-02-15'
 last_modified_by: William Loy
-product: Account Management
-product_url: account-management
 ---
 
 We understand that some of our customers must discontinue their relationship with Rackspace for varying reasons. Before doing so, we encourage you to take extra precaution to ensure that you have properly migrated all data and services that you are using at Rackspace.
