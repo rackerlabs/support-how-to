@@ -84,7 +84,7 @@ RackConnect.
 
     -   HKG region:
 
-            10.189.254.0/24
+            10.189.254.0/23
 
 1. Set the **Destination Type**, **Destination Protocol**, and **Destination Port or Port Range** to specify the resources that the load balancer will access.
 
