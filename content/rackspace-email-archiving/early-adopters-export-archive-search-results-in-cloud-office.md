@@ -3,7 +3,7 @@ permalink: early-adopters-export-archive-search-results-in-cloud-office/
 audit_date: '2019-11-11'
 title: 'Early Adopters&mdash;Export archive search results in Cloud Office'
 type: article
-created_date: '2011-11-11'
+created_date: '2019-11-11'
 created_by: Joe Brooks
 last_modified_date: '2019-11-11'
 last_modified_by: Joe Brooks
@@ -28,7 +28,7 @@ Complete the following steps to export the results of a search in
 the Archive Manager.
 
 1.  Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
-    
+
     For more information, see [Log in to the Archive Manager](/how-to/log-in-to-the-archive-manager).
 
 2.  On the left side of the dashboard, click **Searches**.
@@ -46,6 +46,8 @@ the Archive Manager.
 5.  Click **Next** to confirm the number of messages to exported.
 
     <img src="{% asset_path rackspace-email-archiving/export-archive-search-results/Export-archive-search-results-3.png %}" />
+
+    **Note**: You can export searches with a maximum of 30,000 results or a total size of 20 GB. Which ever limit comes first.
 
 6.  Select a format, **EML**, .**PST**, or .**PDF**, and click **Next**.
 
