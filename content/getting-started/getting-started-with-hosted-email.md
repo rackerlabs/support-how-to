@@ -5,8 +5,8 @@ title: Getting started with Rackspace Hosted Email
 type: article
 created_date: '2019-09-23'
 created_by: Rackspace Support
-last_modified_date: '2019-09-23'
-last_modified_by: William Loy
+last_modified_date: '2020-02-27'
+last_modified_by: James Gentry
 product: undefined
 product_url: undefined
 ---
@@ -16,7 +16,7 @@ This article guides you through creating, managing, building, and growing your R
 1. [Create an account](#create-an-account).
 2. [Manage and secure an account](#manage-and-secure-an-account).
 3. [Create mailboxes](#create-mailboxes).
-4. [Migrate your email](#build-your-cloud).
+4. [Migrate your email](#migrate-your-email).
 5. [Configure your domain to receive email](#configure-your-domain-to-receive-email).
 6. [Configure desktop and mobile devices](#configure-desktop-and-mobile-devices).
 
