@@ -1,7 +1,7 @@
 ---
 permalink: manage-dns-records-in-the-myrackspace-portal
 audit_date:
-title: Manage DNS Records in the MyRackspace Portal
+title: Manage DNS records in the MyRackspace Portal
 created_date: '2020-02-28'
 created_by: Derek Benson
 last_modified_date: `2020-03-02`
@@ -10,12 +10,12 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article explains how to create and manage DNS zones and records within the MyRackspace portal and covers the following topics:
-*    Create and delete DNS zones
-*    Modify zone TTL settings
-*    Create and modify subdomains
-*    Import and export DNS zones
-*    Create, modify, and remove DNS records
+This article explains how to create and manage Domain Name System (DNS) zones and records within the MyRackspace Portal and covers the following topics:
+*    Create and delete DNS zones.
+*    Modify zone Time to Live (TTL) settings.
+*    Create and modify subdomains.
+*    Import and export DNS zones.
+*    Create, modify, and remove DNS records.
 
 ### Access DNS settings
 
@@ -28,15 +28,15 @@ This section covers how to create or delete DNS zones.
 
 #### Create a DNS zone
 
-**Note:** Domains added must already be registered before you can add them to the account. You can
+**Note:** The domains you add must already be registered before you can add them to the account. You can
 choose to register a domain name through one of the many available registrars.
 
 1. To access the zone creation page, click **Actions > Create Zone**.
 2. In the field **Domains (one per line)**, enter the domain of the zone you want to create.
-3. You must create at least one **A** record in the the **Create Records** section when you add a new zone.
+3. You must create at least one **A** record in the **Create Records** section when you add a new zone.
 To modify the number of initial records you need, check or uncheck the box for the record. 
 4. You can add a comment under **Comment**. Use this to describe the purpose of the new zone. It is not 
-accessible publically.
+accessible publicly.
 5. Click **Create New Zone** to finish adding the zone.
 
 #### Delete a DNS zone
@@ -47,14 +47,14 @@ number of zones, you can use the **Filter Zones** search box at the upper right 
 
 ### Modify DNS zone TTL settings
 
-When you modify DNS zone TTL settings, you can adjust the TTL for all zones, or specifically for an individual zone.
+When you modify DNS zone TTL settings, you can adjust the TTL for all zones or specifically for an individual zone.
 
 #### Modify TTL settings for all zones
 
 Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and perform the following steps:
 
 1. Click **Actions > Modify all TTLs**.
-2. Enter a new TTL in seconds ranging from 300 to 864400.
+2. Enter a new TTL in seconds, ranging from 300 to 864400.
 3. Click **Modify All TTLs** to save the change for all zones.
 
 #### Modify TTL settings for a single zone
@@ -64,7 +64,7 @@ Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and 
 1. Click the zone domain name you want to modify. If you have a large number of zones, you can use
 the **Filter Zones** search box at the upper right to locate the necessary zone.
 2. Click **Actions > Modify Zone TTLs**.
-3. Enter a new TTL in seconds ranging from 300 to 864400.
+3. Enter a new TTL in seconds, ranging from 300 to 864400.
 4. Click **Modify All TTLs** to save the change for the zone.
 
 ### Manage subdomains
@@ -90,7 +90,7 @@ Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and 
 1. Click the zone domain name associated with the subdomain. If you have a large number of zones, you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
 2. Click **Actions > Edit Subdomain**.
 3. Click the desired subdomain.
-4. Change subdomain target by using the list.
+4. Change the subdomain target by using the list.
 5. Enter additional info based on the new target.
 6. Click **Save Changes** to finish.
 
@@ -103,8 +103,10 @@ When you export DNS zones, you can either export all zones or a specific zone.
 Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and perform the following steps:
 
 1. Click **Actions > Export All Zone Files**.
-2. This begins the export of all zone files. 
-3. After the export completes, a **.zip** file beginning with the account number is added to the file
+   
+   This begins the export of all zone files. 
+
+2. After the export completes, a **.zip** file beginning with the account number is added to the file
 manager containing **.txt** files for each zone in **BIND9** format.
 
 **Note:** This process might take a while, depending on the number of zones.
@@ -116,7 +118,8 @@ Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and 
 1. Click the zone domain name you want to modify. If you have a large number of zones, you can use the 
 **Filter Zones** search box at the upper right to locate the necessary zone.
 2. Click **Actions > Export Zone File**.
-3. This automatically downloads a **.txt** file named after the exported zone domain name in **BIND9** format.
+
+   This automatically downloads a **.txt** file named after the exported zone domain name in **BIND9** format.
 
 ### DNS records
 
@@ -124,47 +127,47 @@ DNS record types include the following records:
 
 - **A, AAAA, Cname**: Records for webservers and domain aliases.
 - **MX**: Used for indicating the mail server for your domain.
-- **TXT**: Miscelleneous records with various uses. These are largely used by businesses for domain ownership verification as well as email server security.
-- **SRV**: Records related to various domain services, such as Office 365.
+- **TXT**: Miscellaneous records with various uses. These are largely used by businesses for domain ownership verification as well as email server security.
+- **SRV**: Records related to various domain services, such as Office 365&reg;.
 
 #### A record fields
 
-- Host (domain name)
-- TTL (time-to-live): The default is 86400 seconds.
+- Host: Domain name.
+- TTL: The default is 86400 seconds.
 - Type: Choose **IN A**.
-- Target: Accepts IPv4 Addresses. *ex: 192.168.1.1*.
+- Target: Accepts IPv4 addresses. For example, 192.168.1.1.
 - Comment: Optional field used to describe the record.
 
 #### AAAA record fields
 
-- Host (domain name)
+- Host: Domain name.
 - TTL: The default is 86400 seconds.
 - Type: Choose **IN AAAA**.
-- Target: Accepts IPv6 Addresses *ex: 2001:db8::8a2e:370:7334*.
+- Target: Accepts IPv6 addresses. For example, 2001:db8::8a2e:370:7334.
 - Comment: Optional field used to describe the record.
 
 #### Cname record fields
 
-- Host (domain name)
+- Host: Domain name.
 - TTL: The default is 86400 seconds.
-- Type : Choose **IN CNAME**.
-- Target: Accepts hostnames *ex: example.com*.
+- Type: Choose **IN CNAME**.
+- Target: Accepts hostnames. For example, example.com.
 - Comment: Optional field used to describe the record.
 
 #### MX record fields
 
-- Host (domain name)
+- Host: Domain name.
 - TTL: The default is 86400 seconds.
-- Priority: Numerical value that defines the priority of the mail server when multiple MX records are configured. Lower numbers indicatea a higher priority.
+- Priority: Numerical value that defines the priority of the mail server when multiple MX records are configured. Lower numbers indicate a higher priority.
 - Target: Accepts hostnames and IP addresses.
 - Comment: Optional field used to describe the record.
 
 #### TXT record fields
-- Host (domain name)
+- Host: Domain name.
 - TTL: The default is 86400 seconds.
 - Text: Record value as provided by the provider requesting that you add it.
 - Comment: Optional field used to describe the record.
-- Validate: Indicates whether the TXT record is being used for SPF validation.
+- Validate: Indicates whether the TXT record is used for SPF validation.
 
 #### SRV records fields
 - _Service: Service name
