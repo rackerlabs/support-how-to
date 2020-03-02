@@ -5,7 +5,7 @@ title: Manage DNS records in the MyRackspace Portal
 type: article
 created_date: '2020-02-28'
 created_by: Derek Benson
-last_modified_date: `2020-03-02`
+last_modified_date: '2020-03-02'
 last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
