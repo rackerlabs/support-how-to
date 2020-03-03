@@ -172,8 +172,8 @@ DNS record types include the following records:
 - **Validate**: Indicates whether the TXT record is used for SPF validation.
 
 #### SRV records fields
-- _Service: Service name
-- _Protocol: TCP/UDP
+- ***Service***: Service name
+- ***Protocol***: TCP/UDP
 - **Host** (domain name): Record value as provided by the provider requesting that you add it.
 - **TTL**: The default is 86400 seconds.
 - **Priority**: Numerical value that defines the priority of the mail server when there are multiple MX records configured. Lower numbers indicate a higher priority.
