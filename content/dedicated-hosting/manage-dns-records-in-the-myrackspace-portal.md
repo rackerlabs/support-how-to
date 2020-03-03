@@ -1,16 +1,18 @@
 ---
-permalink: manage-dns-records-in-the-myrackspace-portal
+permalink: manage-dns-records-in-the-myrackspace-portal/
 audit_date:
 title: Manage DNS records in the MyRackspace Portal
+type: article
 created_date: '2020-02-28'
 created_by: Derek Benson
-last_modified_date: `2020-03-02`
+last_modified_date: '2020-03-02'
 last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
 This article explains how to create and manage Domain Name System (DNS) zones and records within the MyRackspace Portal and covers the following topics:
+
 *    Create and delete DNS zones.
 *    Modify zone Time to Live (TTL) settings.
 *    Create and modify subdomains.
@@ -132,53 +134,53 @@ DNS record types include the following records:
 
 #### A record fields
 
-- Host: Domain name.
-- TTL: The default is 86400 seconds.
-- Type: Choose **IN A**.
-- Target: Accepts IPv4 addresses. For example, 192.168.1.1.
-- Comment: Optional field used to describe the record.
+- **Host**: Domain name.
+- **TTL**: The default is 86400 seconds.
+- **Type**: Choose **IN A**.
+- **Target**: Accepts IPv4 addresses. For example, 192.168.1.1.
+- **Comment**: Optional field used to describe the record.
 
 #### AAAA record fields
 
-- Host: Domain name.
-- TTL: The default is 86400 seconds.
-- Type: Choose **IN AAAA**.
-- Target: Accepts IPv6 addresses. For example, 2001:db8::8a2e:370:7334.
-- Comment: Optional field used to describe the record.
+- **Host**: Domain name.
+- **TTL**: The default is 86400 seconds.
+- **Type**: Choose **IN AAAA**.
+- **Target**: Accepts IPv6 addresses. For example, 2001:db8::8a2e:370:7334.
+- **Comment**: Optional field used to describe the record.
 
 #### Cname record fields
 
-- Host: Domain name.
-- TTL: The default is 86400 seconds.
-- Type: Choose **IN CNAME**.
-- Target: Accepts hostnames. For example, example.com.
-- Comment: Optional field used to describe the record.
+- **Host**: Domain name.
+- **TTL**: The default is 86400 seconds.
+- **Type**: Choose **IN CNAME**.
+- **Target**: Accepts hostnames. For example, example.com.
+- **Comment**: Optional field used to describe the record.
 
 #### MX record fields
 
-- Host: Domain name.
-- TTL: The default is 86400 seconds.
-- Priority: Numerical value that defines the priority of the mail server when multiple MX records are configured. Lower numbers indicate a higher priority.
-- Target: Accepts hostnames and IP addresses.
-- Comment: Optional field used to describe the record.
+- **Host**: Domain name.
+- **TTL**: The default is 86400 seconds.
+- **Priority**: Numerical value that defines the priority of the mail server when multiple MX records are configured. Lower numbers indicate a higher priority.
+- **Target**: Accepts hostnames and IP addresses.
+- **Comment**: Optional field used to describe the record.
 
 #### TXT record fields
-- Host: Domain name.
-- TTL: The default is 86400 seconds.
-- Text: Record value as provided by the provider requesting that you add it.
-- Comment: Optional field used to describe the record.
-- Validate: Indicates whether the TXT record is used for SPF validation.
+- **Host**: Domain name.
+- **TTL**: The default is 86400 seconds.
+- **Text**: Record value as provided by the provider requesting that you add it.
+- **Comment**: Optional field used to describe the record.
+- **Validate**: Indicates whether the TXT record is used for SPF validation.
 
 #### SRV records fields
-- _Service: Service name
-- _Protocol: TCP/UDP
-- Host (domain name): Record value as provided by the provider requesting that you add it.
-- TTL: The default is 86400 seconds.
-- Priority: Numerical value that defines the priority of the mail server when there are multiple MX records configured. Lower numbers indicate a higher priority.
-- Weight: Helps to prioritize certain servers over others when there are multiple SRV records.
-- Port: The port associated with the service.
-- Target: Accepts hostnames and IP addresses.
-- Comment: Optional field used to describe the record.
+- ***Service***: Service name
+- ***Protocol***: TCP/UDP
+- **Host** (domain name): Record value as provided by the provider requesting that you add it.
+- **TTL**: The default is 86400 seconds.
+- **Priority**: Numerical value that defines the priority of the mail server when there are multiple MX records configured. Lower numbers indicate a higher priority.
+- **Weight**: Helps to prioritize certain servers over others when there are multiple SRV records.
+- **Port**: The port associated with the service.
+- **Target**: Accepts hostnames and IP addresses.
+- **Comment**: Optional field used to describe the record.
 
 #### Zone settings
 
