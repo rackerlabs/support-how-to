@@ -1,19 +1,19 @@
 ---
 permalink: using-the-apache-2-buddy-script-for-performance-and-stability/
-audit_date:
-title: Using the Apache2Buddy Script for Performance and Stability
+audit_date: '2020-03-05'
+title: Using the Apache2Buddy script for performance and stability
 type: article
 created_date: '2020-02-27'
 created_by: Evan Benavides
-last_modified_date: 
-last_modified_by: 
+last_modified_date: '2020-03-05'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 ## What is Apache2Buddy?
 
-The Apache2Buddy script is used to make recommendations for changes to the Apache webserver configuration to assist with performance and stability. It has no impact on the server itself and makes no changes. Once the script is run it will suggest Apache fixes that you can then read through and act upon. Apache2Buddy will check for the following and much more:
+The Apache2Buddy script is used to make recommendations for changes to the Apache webserver configuration to assist with performance and stability. It has no impact on the server itself and makes no changes. After the script runs, it suggests Apache fixes that you can examine and consider applying. Apache2Buddy checks at least the following areas of concern:
 
 •	PHP memory limits
 •	Memcache
@@ -23,15 +23,17 @@ The Apache2Buddy script is used to make recommendations for changes to the Apach
 •	Percentage of total RAM allocated to Apache
 •	MaxRequestWorkers
 
-## How to use Apache2Buddy
-The script to run from a Linux command line is:
+## Run Apache2Buddy
+
+Run the following command to launch the script from a Linux command line:
 
 ```
 curl -sL https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl | perl
 ```
-Once the Apache2Buddy script has been run it will return output similar to the following:
-```
 
+After the Apache2Buddy script completes, it returns output similar to the following:
+
+```
 Apache Tuning with Respect to RAM Footprint of Web Applications
 --------------------------------------------------------------
 
@@ -92,9 +94,11 @@ Settings considered for this report:
 --------------------------------------------------------------------------------
 ```
 
-# Reviewing Results
+# Review the results
 
-It is not uncommon to see similar output from the Apache2Buddy script:
+You might also see output from the Apache2Buddy script that is similar to the following example:
+
+```
 [ !! ] Going by the average Apache process, Apache can potentially use 6448.81 MB RAM: Without considering services: 110.54 % of total installed RAM Considering extra services: 113.16 % of remaining RAM [ !! ] Going by the largest Apache process, Apache can potentially use 8029.81 MB RAM: Without considering services: 137.64 % of total installed RAM Considering extra services: 140.90 % of remaining RAM
 
 It is important to understand that this statement is made with the following assumptions:
@@ -105,3 +109,4 @@ It is important to understand that this statement is made with the following ass
 
 **This statement provided by Apache2Buddy should be considered to be informational regarding the worst case scenario and that further investigation may be required to obtain clarity. For more information please see the following link:**
 https://richardforth.github.io/apache2buddy_ag/
+```
