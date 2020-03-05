@@ -5,8 +5,8 @@ title: Install Apache and PHP on CentOS 7
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
-last_modified_date: '2019-11-19'
-last_modified_by: Chad Sterling
+last_modified_date: '2020-03-05'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -17,6 +17,10 @@ version 5.6 and higher, so we need to enable a repository that does. We install
 this repository by using the default CentOS package manager, yum. The advantages
 of using yum to perform the installation (instead of the source code) is that yum
 also automatically installs future security updates and handles dependencies.
+
+**NOTE**
+This guide enables the IUS repository which provides newer versions of some software in the official CentOS and Red Hat repositories.
+For more information on the IUS repository, please see the following link: [Install EPEL and IUS repositories on CentOS and Red Hat] (https://support.rackspace.com/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat/)
 
 ### Install Apache
 
@@ -50,20 +54,16 @@ Use yum to install a repository that supports PHP 7.3:
 
 1. Run the following command:
 
-        yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+        sudo yum install https://$(rpm -E '%{?centos:centos}%{!?centos:rhel}%{rhel}').iuscommunity.org/ius-release.rpm
 
-2. Enable the remi-php73 repository to download the correct version:
-
-        yum-config-manager --enable remi-php73
-
-3. Install PHP and some popular PHP modules:
+2. Install PHP and some popular PHP modules:
         
-        yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+        yum install mod_php73 php73-bcmath php73-cli php73-gd php73-ldap php73-mbstring php73-mysqlnd php73-soap
 
-4. Confirm your server is using PHP7.3 by running the following command:
+3. Confirm your server is using PHP 7.3 by running the following command:
 
         php -v 
 
 You should see the following output: 
         
-        PHP 7.3.11 (cli) (built: Oct 22 2019 08:11:04) ( NTS ) 
+        PHP 7.3.14 (cli) (built: Feb  9 2020 00:01:37) ( NTS ) 
