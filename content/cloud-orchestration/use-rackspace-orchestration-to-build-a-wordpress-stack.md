@@ -53,16 +53,16 @@ Use the following steps to deploy a Wordpress stack:
     - **The option to install phpMyAdmin**: For remote MySQL access via phpMyAdmin
 4. Along with these default settings, you can specify the following:
     - **Additional Security**
-	- **Disable Password Authentication**: Requires SSH keys to access remotely.
-	- **Install Fail2Ban**: To automatically jail multiple failed remote connection attempts.
+	    - **Disable Password Authentication**: Requires SSH keys to access remotely.
+	    - **Install Fail2Ban**: To automatically jail multiple failed remote connection attempts.
     - **Advanced Options**
-	- **Cloud Database Flavor**: RAM Size of the DB instance.
-	- **Secondary Template**: For specifying a custom Stack Template for secondary servers.
-	- **Cloud Database Disk size**: Data disk up to 1TB.
-	- **Cloud Server Flavor**: Allows for only General Purpose servers up to 8GB.
-	- **Custom Ansible tarball**: For server deployment.
-	- **Number of secondary servers**: Specify number of duplicate Cloud servers to be created in the stack.
-	- **Server Image**: The Wordpress Stack only supports CentOS 7.
+	    - **Cloud Database Flavor**: RAM Size of the DB instance.
+	    - **Secondary Template**: For specifying a custom Stack Template for secondary servers.
+	    - **Cloud Database Disk size**: Data disk up to 1TB.
+	    - **Cloud Server Flavor**: Allows for only General Purpose servers up to 8GB.
+	    - **Custom Ansible tarball**: For server deployment.
+	    - **Number of secondary servers**: Specify number of duplicate Cloud servers to be created in the stack.
+	    - **Server Image**: The Wordpress Stack only supports CentOS 7.
 5. After you specify all of your customization options, click **Create Stack**.
 6. The stack builds the resources necessary and configures the server and load balancer. You
    now have access to the credentials for your stack. Click **View Credentials** on the **Stack**
