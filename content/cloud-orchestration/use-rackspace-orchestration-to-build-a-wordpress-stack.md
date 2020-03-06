@@ -18,25 +18,18 @@ to get you up and running as quickly as possible.
 
 By default, the Wordpress Orchestration template includes the following Cloud resources:
 
-•	CentOS 7 General Purpose Server (1GB)
-
-•	Cloud Database Instance running MySQL 5.6
-
-•	Cloud Load Balancer (Port 80)
+- CentOS 7 General Purpose Server (1GB)
+- Cloud Database Instance running MySQL 5.6
+- Cloud Load Balancer (Port 80)
 
 The Cloud server comes with the following configuration:
 
-•	NGINX 
-
-•	PHP 7.3
-
-•	php-fpm
-
-•	lsyncd (Installed but not configured by default on single server builds)
-
-•	phpMyAdmin (Optional)
-
-•	Latest version of Wordpress
+- NGINX 
+- PHP 7.3
+- php-fpm
+- lsyncd (Installed but not configured by default on single server builds)
+- phpMyAdmin (Optional)
+- Latest version of Wordpress
 
 **Note**:
 NGINX is not enabled to start on boot when the stack is built. If you need NGINX to start on boot, you
@@ -51,25 +44,25 @@ Use the following steps to deploy a Wordpress stack:
 2. From the list of **Most Popular** stacks, hover over the Wordpress CMS box and click **Create Stack**. 
    Click on the **Create Stack** button in the pop-up box to accept the default **Production** option.
 3. On the next page, specify the following information:
-    - **The Stack name** (Display name in the portal)
-    - **The Stack region** (Cloud Resources location)
-    - **The Wordpress Site domain** (www.example.com)
-    - **The Wordpress Site title** (The title diplayed in the browser tab for your site)
-    - **The Wordpress Admin email** (For Wordpress Panel password resets)
-    - **The Wordpress Admin username** (For logging into the Wordpress Panel)
-    - **The option to install phpMyAdmin** (For remote MySQL access via phpMyAdmin)
+    - **The Stack name**: Display name in the portal
+    - **The Stack region**: Cloud Resources location
+    - **The Wordpress Site domain**: www.example.com
+    - **The Wordpress Site title**: The title diplayed in the browser tab for your site
+    - **The Wordpress Admin email**: For Wordpress Panel password resets
+    - **The Wordpress Admin username**: For logging into the Wordpress Panel
+    - **The option to install phpMyAdmin**: For remote MySQL access via phpMyAdmin
 4. Along with these default settings, you can specify the following:
     - **Additional Security**
-	- Disable Password Authentication (Requires SSH keys to access remotely)
-	- Install Fail2Ban (To automatically jail multiple failed remote connection attempts)
+	- **Disable Password Authentication**: Requires SSH keys to access remotely.
+	- **Install Fail2Ban**: To automatically jail multiple failed remote connection attempts.
     - **Advanced Options**
-	- Cloud Database Flavor (RAM Size of the DB instance)
-	- Secondary Template (For specifying a custom Stack Template for secondary servers)
-	- Cloud Database Disk size (Data disk up to 1TB)
-	- Cloud Server Flavor (Only allows for General Purpose servers up to 8GB)
-	- Custom Ansible tarball (for server deployment)
-	- Number of secondary servers (Specify number of duplicate Cloud servers to be created in the stack)
-	- Server Image (The Wordpress Stack only supports CentOS 7)
+	- **Cloud Database Flavor**: RAM Size of the DB instance.
+	- **Secondary Template**: For specifying a custom Stack Template for secondary servers.
+	- **Cloud Database Disk size**: Data disk up to 1TB.
+	- **Cloud Server Flavor**: Allows for only General Purpose servers up to 8GB.
+	- **Custom Ansible tarball**: For server deployment.
+	- **Number of secondary servers**: Specify number of duplicate Cloud servers to be created in the stack.
+	- **Server Image**: The Wordpress Stack only supports CentOS 7.
 5. After you specify all of your customization options, click **Create Stack**.
 6. The stack builds the resources necessary and configures the server and load balancer. You
    now have access to the credentials for your stack. Click **View Credentials** on the **Stack**
@@ -170,12 +163,15 @@ server to avoid bottlenecks and unbalanced server traffic.
    page in the Control Panel. You need substitute this for **$ServiceNet IP** in Step 5.
 3. Edit **/etc/lsyncd/lsync.conf.lua**.
 4. Locate the following lines:
+
 	settings {
         logfile = "/var/log/lsyncd/lsyncd.log",
         statusFile = "/var/log/lsyncd/lsyncd-status.log",
         statusInterval = 20
         }
+	
 5. After the preceding lines, add the following lines to the config file:
+
 	sync {
         default.rsync,
         source = "/var/www/vhosts",
@@ -186,9 +182,10 @@ server to avoid bottlenecks and unbalanced server traffic.
                 acls = true,
                 verbose = true,
                 rsh = "/usr/bin/ssh -p 22 -o StrictHostKeyChecking=no",
-                \_extra = {"-a"}
+                _extra = {"-a"}
         	}
 	}
+	
 6. Save and exit the file. 
 7. Restart the `lsyncd` service. 
 
