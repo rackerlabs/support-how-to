@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-## What is Apache2Buddy?
+### What is Apache2Buddy?
 
 The Apache2Buddy script is used to make recommendations for changes to the Apache webserver configuration to assist with performance and stability. It has no impact on the server itself and makes no changes. After the script runs, it suggests Apache fixes that you can examine and consider applying. Apache2Buddy checks at least the following areas of concern:
 
@@ -23,7 +23,7 @@ The Apache2Buddy script is used to make recommendations for changes to the Apach
 •	Percentage of total RAM allocated to Apache
 •	MaxRequestWorkers
 
-## Run Apache2Buddy
+### Run Apache2Buddy
 
 Run the following command to launch the script from a Linux command line:
 
@@ -92,7 +92,7 @@ After the Apache2Buddy script completes, it returns output similar to the follow
     Percentage of REMAINING RAM allocated to Apache:              140.90  %
     --------------------------------------------------------------------------------
 
-# Review the results
+### Review the results
 
 You might also see output from the Apache2Buddy script that is similar to the following example:
 
