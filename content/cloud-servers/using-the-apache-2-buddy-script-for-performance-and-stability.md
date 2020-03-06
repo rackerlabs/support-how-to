@@ -101,9 +101,16 @@ You might also see output from the Apache2Buddy script that is similar to the fo
 
 You should know that this statement is made with the following assumptions:
 
-•   Going by the average Apache process -- Not all Apache processes will be average sized, some processes may be larger,       others will be smaller.
-•   Without considering services – Apache Buddy attempts to calculate the possible memory usage of the Apache webserver,       it makes no effort to take into consideration that available memory will also be used for other applications such as PHP,     MariaDB and the operating system itself.
-•   Considering extra services – Apache Buddy attempts to calculate the 'possible' memory usage of the Apache webserver       while making assumptions of the memory usage of other available applications which may or may not be correct.
+-  Going by the average Apache process: Not all Apache processes are average sized. Some processes
+   might be larger or smaller.
+-  Without considering services: Apache Buddy attempts to calculate the possible memory usage of
+   the Apache webserver. It does not consider that available memory will also be used for other
+   applications such as PHP, MariaDB, and the operating system itself.
+-  Considering extra services: Apache Buddy attempts to calculate the *possible* memory usage of
+   the Apache webserver while making assumptions of the memory usage of other available applications
+   which might not be correct.
 
-**This statement provided by Apache2Buddy should be considered to be informational regarding the worst case scenario and       that further investigation may be required to obtain clarity. For more information please see the following link:**
-    https://richardforth.github.io/apache2buddy_ag/
+**Note**:
+You should consider this statement, provided by Apache2Buddy, to be informational regarding the worst
+case scenario. You might need to investigate further to gain clarity. For more information, see the
+following link: [https://richardforth.github.io/apache2buddy_ag/](https://richardforth.github.io/apache2buddy_ag/).
