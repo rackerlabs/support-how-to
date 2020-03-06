@@ -165,25 +165,25 @@ server to avoid bottlenecks and unbalanced server traffic.
 4. Locate the following lines:
 
 	settings {
-        logfile = "/var/log/lsyncd/lsyncd.log",
-        statusFile = "/var/log/lsyncd/lsyncd-status.log",
-        statusInterval = 20
+                  logfile = "/var/log/lsyncd/lsyncd.log",
+                  statusFile = "/var/log/lsyncd/lsyncd-status.log",
+                  statusInterval = 20
         }
 	
 5. After the preceding lines, add the following lines to the config file:
 
 	sync {
-        default.rsync,
-        source = "/var/www/vhosts",
-        target = "$ServiceNet IP:/var/www/vhosts",
-        excludeFrom="/etc/lsyncd/lsyncd.exclude.lua",
-        rsync = {
-                compress = true,
-                acls = true,
-                verbose = true,
-                rsh = "/usr/bin/ssh -p 22 -o StrictHostKeyChecking=no",
-                _extra = {"-a"}
-        	}
+              default.rsync,
+              source = "/var/www/vhosts",
+              target = "$ServiceNet IP:/var/www/vhosts",
+              excludeFrom="/etc/lsyncd/lsyncd.exclude.lua",
+              rsync = {
+                      compress = true,
+                      acls = true,
+                      verbose = true,
+                      rsh = "/usr/bin/ssh -p 22 -o StrictHostKeyChecking=no",
+                      _extra = {"-a"}
+              }
 	}
 	
 6. Save and exit the file. 
@@ -218,7 +218,7 @@ Consider the following notes about your stack:
   storage reaches 98%. By default, the database takes daily backups, but you can also setup
   replication nodes from the **Cloud Database details** page if needed. 
 - For security purposes, the Cloud Database does not enable the root user. You can enable it
-  by using the Cloud Database API if needed, but by deafult you would manage your Cloud Database users and databases
+  by using the Cloud Database API if needed, but by default you would manage your Cloud Database users and databases
   from your Rackspace portal.
 - If you opted to install phpMyAdmin, you can access your phpMyAdmin panel via the web at
   **http://SERVERIP/phpMyAdmin.**
