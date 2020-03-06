@@ -5,7 +5,7 @@ title: 'Install a LAMP stack on RHEL 6-based distributions'
 type: article
 created_date: '2014-08-04'
 created_by: Rackspace Support
-last_modified_date: '2020-03-05'
+last_modified_date: '2020-03-06'
 last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
