@@ -6,32 +6,32 @@ type: article
 created_date: '2020-03-04'
 created_by: Chris Silva
 last_modified_date: '2020-03-06'
-last_modified_by: Cat Lookabaugh
+last_modified_by: Chris Silva
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
 
 This article shows you how to set up a functional Wordpress site by using Rackspace Orchestration.
 The article also covers the steps necessary to scale out your Wordpress site by using saved images
-and `lsycnd`. While you can customize your Orchestration Stacks, this guide uses the basic options
+and `lsyncd`. While you can customize your Orchestration Stacks, this guide uses the basic options
 to get you up and running as quickly as possible.
 
 By default, the Wordpress Orchestration template includes the following Cloud resources:
 
-•	CentOS 7 General Purpose Server (1GB)
-•	Cloud Database Instance running MySQL 5.6
-•	Cloud Load Balancer (Port 80)
+- CentOS 7 General Purpose Server (1GB)
+- Cloud Database Instance running MySQL 5.6
+- Cloud Load Balancer (Port 80)
 
 The Cloud server comes with the following configuration:
 
-•	NGINX 
-•	PHP 7.3
-•	php-fpm
-•	lsyncd (Installed but not configured by default on single server builds)
-•	phpMyAdmin (Optional)
-•	Latest version of Wordpress
+- NGINX 
+- PHP 7.3
+- php-fpm
+- lsyncd (Installed but not configured by default on single server builds)
+- phpMyAdmin (Optional)
+- Latest version of Wordpress
 
-**Note**
+**Note**:
 NGINX is not enabled to start on boot when the stack is built. If you need NGINX to start on boot, you
 can run the following command on your server to enable NGINX on system startup:
 	`systemctl enable nginx`
@@ -44,25 +44,25 @@ Use the following steps to deploy a Wordpress stack:
 2. From the list of **Most Popular** stacks, hover over the Wordpress CMS box and click **Create Stack**. 
    Click on the **Create Stack** button in the pop-up box to accept the default **Production** option.
 3. On the next page, specify the following information:
-    - The Stack name (Display name in the portal)
-    - The Stack region (Cloud Resources location)
-    - The Wordpress Site domain (www.example.com)
-    - The Wordpress Site title (The title diplayed in the browser tab for your site)
-    - The Wordpress Admin email (For Wordpress Panel password resets)
-    - The Wordpress Admin username (For logging into the Wordpress Panel)
-    - The option to install phpMyAdmin (For remote MySQL access via phpMyAdmin)
+    - **The Stack name**: Display name in the portal
+    - **The Stack region**: Cloud Resources location
+    - **The Wordpress Site domain**: www.example.com
+    - **The Wordpress Site title**: The title diplayed in the browser tab for your site
+    - **The Wordpress Admin email**: For Wordpress Panel password resets
+    - **The Wordpress Admin username**: For logging into the Wordpress Panel
+    - **The option to install phpMyAdmin**: For remote MySQL access via phpMyAdmin
 4. Along with these default settings, you can specify the following:
-    - Additional Security
-	- Disable Password Authentication (Requires SSH keys to access remotely)
-	- Install Fail2Ban (To automatically jail multiple failed remote connection attempts)
-    - Advanced Options:
-	- Cloud Database Flavor (RAM Size of the DB instance)
-	- Secondary Template (For specifying a custom Stack Template for secondary servers)
-	- Cloud Database Disk size (Data disk up to 1TB)
-	- Cloud Server Flavor (Only allows for General Purpose servers up to 8GB)
-	- Custom Ansible tarball for server deployment)
-	- Number of secondary servers (Specify number of duplicate Cloud servers to be created in the stack)
-	- Server Image (The Wordpress Stack only supports CentOS 7)
+    - **Additional Security**
+	    - **Disable Password Authentication**: Requires SSH keys to access remotely.
+	    - **Install Fail2Ban**: To automatically jail multiple failed remote connection attempts.
+    - **Advanced Options**
+	    - **Cloud Database Flavor**: RAM Size of the DB instance.
+	    - **Secondary Template**: For specifying a custom Stack Template for secondary servers.
+	    - **Cloud Database Disk size**: Data disk up to 1TB.
+	    - **Cloud Server Flavor**: Allows for only General Purpose servers up to 8GB.
+	    - **Custom Ansible tarball**: For server deployment.
+	    - **Number of secondary servers**: Specify number of duplicate Cloud servers to be created in the stack.
+	    - **Server Image**: The Wordpress Stack only supports CentOS 7.
 5. After you specify all of your customization options, click **Create Stack**.
 6. The stack builds the resources necessary and configures the server and load balancer. You
    now have access to the credentials for your stack. Click **View Credentials** on the **Stack**
@@ -105,21 +105,21 @@ at this time, you can modify your host file to allow local access. For more info
 4. Click **Add Record**.
 5. For your first record, you can leave the **Hostname** blank. 
 6. Add the IP address of your **Load Balancer** in the **Target (IP Address)** box. 
-7. Leave the record type set to the default, **A/AAAA*. 
+7. Leave the record type set to the default, **A/AAAA**. 
 8. After you fill out the information, click **Add Record**.
 
 Your website becomes publicly accessible as soon as the DNS record propagates globally.
 
-**NOTE**
+**NOTE**:
 If you want to add a CNAME record for **www** or another subdomain, follow the preceding steps
 but change the record type to **CNAME** and enter the desired subdomain.
 
 #### Log in to your Wordpress panel
 
-Now that your site is live, or you've modified your host file to access the page locally, you
+Now that your site is live or you've modified your local host file to access the page offline, you
 can begin building your Wordpress website by using the Wordpress panel.
 
-1. To log in to your Wordpress panel, navigate to http://yourdomain.com/wp-admin and log in
+1. To log in to your Wordpress panel, navigate to **http://yourdomain.com/wp-admin** and log in
 with the credentials the you chose when you deployed the stack.
 2. After you log in, you can create your new Wordpress website. 
 
@@ -144,7 +144,7 @@ reduce servers if your traffic flow subsides.
 
 ---
 
-**Note**
+**Note**:
 This section assumes that the Stack was deployed with only one node.
 
 #### Create an image
@@ -160,33 +160,37 @@ server to avoid bottlenecks and unbalanced server traffic.
 
 1. After you created your new server, log in to your master server via SSH.
 2. Find the **Service Net IP address** for your newly created server on the **Server Details**
-   page in the Control Panel. You need substitute this for **$ServiceNet IP*** in Step 5.
+   page in the Control Panel. You need substitute this for **$ServiceNet IP** in Step 5.
 3. Edit **/etc/lsyncd/lsync.conf.lua**.
 4. Locate the following lines:
-	settings {
-        logfile = "/var/log/lsyncd/lsyncd.log",
-        statusFile = "/var/log/lsyncd/lsyncd-status.log",
-        statusInterval = 20
+
+       settings {
+                  logfile = "/var/log/lsyncd/lsyncd.log",
+                  statusFile = "/var/log/lsyncd/lsyncd-status.log",
+                  statusInterval = 20
         }
+	
 5. After the preceding lines, add the following lines to the config file:
-	sync {
-        default.rsync,
-        source = "/var/www/vhosts",
-        target = "$ServiceNet IP:/var/www/vhosts",
-        excludeFrom="/etc/lsyncd/lsyncd.exclude.lua",
-        rsync = {
-                compress = true,
-                acls = true,
-                verbose = true,
-                rsh = "/usr/bin/ssh -p 22 -o StrictHostKeyChecking=no",
-                \_extra = {"-a"}
-        	}
-	}
+
+       sync {
+              default.rsync,
+              source = "/var/www/vhosts",
+              target = "$ServiceNet IP:/var/www/vhosts",
+              excludeFrom="/etc/lsyncd/lsyncd.exclude.lua",
+              rsync = {
+                      compress = true,
+                      acls = true,
+                      verbose = true,
+                      rsh = "/usr/bin/ssh -p 22 -o StrictHostKeyChecking=no",
+                      _extra = {"-a"}
+		      }
+	      }
+	
 6. Save and exit the file. 
 7. Restart the `lsyncd` service. 
 
 At this point, the master server syncs the changes that you made at the location
-**/var/www/vhosts** directory to the new server. 
+**/var/www/vhosts** directory to the new server. If you need to add more server nodes, copy the code from section 5 and paste it at the end of the **/etc/lsyncd/lsync.conf.lua** file and edit the new block to include the additional server's **ServiceNet IP** address.
 
 #### Add the new server to the load balancer
 
@@ -214,13 +218,13 @@ Consider the following notes about your stack:
   storage reaches 98%. By default, the database takes daily backups, but you can also setup
   replication nodes from the **Cloud Database details** page if needed. 
 - For security purposes, the Cloud Database does not enable the root user. You can enable it
-  iby using the Cloud Database API, but you can also manage your Cloud Database users and databases
+  by using the Cloud Database API if needed, but by default you would manage your Cloud Database users and databases
   from your Rackspace portal.
 - If you opted to install phpMyAdmin, you can access your phpMyAdmin panel via the web at
-  http://SERVERIP/phpMyAdmin.
-- The Wordpress stack installs PHP-FPM, which you can customize as needed. Be sure to make any
+  **http://SERVERIP/phpMyAdmin.**
+- The Wordpress stack installs PHP-FPM, which you can be customized as needed. Be sure to make any
   changes on all nodes. 
-- This guide configured `lsync` to sync only the web directories, but you can customize the synced
-  content in the master node `lsync` configuration file.
+- This guide configured `lsyncd` to sync only the web directories, but you can customize the synced
+  content in the master node `lsyncd` configuration file.
 
 If you need any further information or assistance, you can reach out to us by raising a ticket or by calling support.
