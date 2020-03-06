@@ -1,6 +1,6 @@
 ---
 permalink: centos-7-apache-and-php-install/
-audit_date: '2019-11-19'
+audit_date: '2020-03-05'
 title: Install Apache and PHP on CentOS 7
 type: article
 created_date: '2011-03-09'
@@ -13,13 +13,14 @@ product_url: cloud-servers
 
 This article demonstrates how to install Apache&reg; and PHP on CentOS&reg; 7.
 The default CentOS 7 image does not have access to repositories that support PHP
-version 5.6 and higher, so we need to enable a repository that does. We install
-this repository by using the default CentOS package manager, yum. The advantages
-of using yum to perform the installation (instead of the source code) is that yum
+version 5.6 and higher, so you should enable a repository that does. Install
+this repository by using the default CentOS package manager, `yum`. The advantages
+of using `yum` to perform the installation (instead of the source code) is that `yum`
 also automatically installs future security updates and handles dependencies.
 
 **NOTE**
-This guide enables the IUS repository which provides newer versions of some software in the official CentOS and Red Hat repositories.
+This guide enables the Inline with Upstream Stable (IUS) repository, which provides 
+newer versions of some software found in the official CentOS and Red Hat repositories.
 For more information on the IUS repository, please see the following link: [Install EPEL and IUS repositories on CentOS and Red Hat] (https://support.rackspace.com/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat/)
 
 ### Install Apache
@@ -30,7 +31,7 @@ Use the following steps to install Apache:
 
         yum install httpd
 
-2. Use systemd's systemctl tool to start the Apache service:
+2. Use the systemd `systemctl` tool to start the Apache service:
 
         systemctl start httpd
 
@@ -50,7 +51,7 @@ Confirm successful installation by entering your server's IP address in a browse
 
 ### Install PHP 7.3
 
-Use yum to install a repository that supports PHP 7.3:
+Use `yum` to install a repository that supports PHP 7.3:
 
 1. Run the following command:
 
