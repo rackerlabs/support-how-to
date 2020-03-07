@@ -101,12 +101,12 @@ After the Apache2Buddy script completes, it returns output similar to the follow
 
 You might also see output from the Apache2Buddy script that is similar to the following example:
 
-        [ !! ] Going by the average Apache process, Apache can potentially use 6448.81 MB RAM: 
-        Without considering services:    110.54 % of total installed RAM 
-        Considering extra services: 113.16 % of remaining RAM 
-        [ !! ] Going by the largest Apache process, Apache can potentially use 8029.81 MB RAM: 
-        Without considering services: 137.64 % of total installed RAM             
-        Considering extra services: 140.90 % of remaining RAM
+     [ !! ] Going by the average Apache process, Apache can potentially use 6448.81 MB RAM: 
+     Without considering services:    110.54 % of total installed RAM 
+     Considering extra services: 113.16 % of remaining RAM 
+     [ !! ] Going by the largest Apache process, Apache can potentially use 8029.81 MB RAM: 
+     Without considering services: 137.64 % of total installed RAM             
+     Considering extra services: 140.90 % of remaining RAM
 
 You should know that this statement is made with the following assumptions:
 
