@@ -5,7 +5,7 @@ title: 'Install a LAMP stack on RHEL 6-based distributions'
 type: article
 created_date: '2014-08-04'
 created_by: Rackspace Support
-last_modified_date: '2020-03-05'
+last_modified_date: '2020-03-06'
 last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
@@ -33,7 +33,7 @@ your preferred set up method.
 1. Use the following one-line command for an expedient set up of your LAMP
 stack on your server operating system:
 
-    sudo sh -c "yum install httpd httpd-devel mysql mysql-server mysql-devel php php-mysql php-common php-gd php-mbstring php-mcrypt php-devel php-xml -y; service mysqld start && mysql_secure_installation && service mysqld restart && service httpd start && chkconfig httpd on && chkconfig mysqld on && iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT && iptables -I INPUT -p tcp -m tcp --dport 443 -j ACCEPT && /etc/init.d/iptables save"
+        sudo sh -c "yum install httpd httpd-devel mysql mysql-server mysql-devel php php-mysql php-common php-gd php-mbstring php-mcrypt php-devel php-xml -y; service mysqld start && mysql_secure_installation && service mysqld restart && service httpd start && chkconfig httpd on && chkconfig mysqld on && iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT && iptables -I INPUT -p tcp -m tcp --dport 443 -j ACCEPT && /etc/init.d/iptables save"
 
 2. Provide answers for the following system prompts:
 
