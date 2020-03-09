@@ -13,10 +13,11 @@ product_url: cloud-servers
 
 ### What is Apache2Buddy?
 
-The Apache2Buddy script is used to make recommendations for changes to the Apache webserver configuration to assist with performance and stability. It has no impact on the server itself and makes no changes. After the script runs, it suggests Apache fixes that you can examine and consider applying. 
+Use the Apache2Buddy script to help make recommendations for changes to the Apache&reg; web server configuration that assist with performance and stability. Apache2Buddy has no impact on the server itself and makes no changes. After the script runs, it suggests Apache fixes that you can examine and consider applying. 
 
 Apache2Buddy checks at least the following areas of concern:
-- PHP memory limits
+
+- PHP&reg; memory limits
 - Memcache
 - MaxClients
 - Memory usage
@@ -26,13 +27,13 @@ Apache2Buddy checks at least the following areas of concern:
 
 ### Run Apache2Buddy
 
-Run the following command to launch the script from a Linux command line:
+Run the following command to launch the script from a Linux&reg; command line:
 
 ```
 curl -sL https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl | perl
 ```
 
-After the Apache2Buddy script completes, it returns output similar to the following:
+After the Apache2Buddy script completes, it returns something similar to the following output:
 
 
     Apache Tuning with Respect to RAM Footprint of Web Applications
@@ -108,17 +109,17 @@ You might also see output from the Apache2Buddy script that is similar to the fo
      Without considering services: 137.64 % of total installed RAM             
      Considering extra services: 140.90 % of remaining RAM
 
-You should know that this statement is made with the following assumptions:
+You should know that this statement makes the following assumptions:
 
--  **Going by the average Apache process**: Not all Apache processes are average sized. Some processes
+-  **Going by the average Apache process**: Not all Apache processes are average-sized. Some processes
    might be larger or smaller.
--  **Without considering services**: Apache Buddy attempts to calculate the possible memory usage of
-   the Apache webserver. It does not consider that available memory will also be used for other
-   applications such as PHP, MariaDB, and the operating system itself.
--  **Considering extra services**: Apache Buddy attempts to calculate the *possible* memory usage of
-   the Apache webserver while making assumptions of the memory usage of other available applications
+-  **Without considering services**: Apache2Buddyy attempts to calculate the possible memory usage of
+   the Apache web server. It does not consider that available memory is also used for other
+   applications such as PHP, MariaDB&reg;, and the operating system itself.
+-  **Considering extra services**: Apache2Buddy attempts to calculate the *possible* memory usage of
+   the Apache web server while making assumptions of the memory usage of other available applications,
    which might not be correct.
 
 **Note**:
-You should consider this statement, provided by Apache2Buddy, to be informational regarding the worst
+You should consider this statement provided by Apache2Buddy to be informational regarding the worst
 case scenario. You might need to investigate further to gain clarity. For more information, see the following link: [https://richardforth.github.io/apache2buddy_ag/](https://richardforth.github.io/apache2buddy_ag/).
