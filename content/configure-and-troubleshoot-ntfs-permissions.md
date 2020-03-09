@@ -11,14 +11,14 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-*This article is applicable to the following Windows Server versions: 2008, 2008 R2, 2012, 2012 R2, 2016, 2019*
+*This article applies to the following Windows Server&reg; versions: 2008, 2008 R2, 2012, 2012 R2, 2016, 2019*
 
-This article addresses how to configure and troubleshoot NTFS file and folder permissions on Windows Servers.
+This article addresses how to configure and troubleshoot New Technology File System (NTFS) file and folder permissions on Windows&reg; servers.
 
 ### NTFS permissions overview
 
 Basic built-in file and folder permission levels allow for easy configuration. The following chart
-lays out built-in permission levels and the access they provide:
+shows built-in permission levels and the access they provide:
 
 | Permissions                      | Full control | Modify  | Read & execute | List folder contents | Read    | Write   |
 | -------------------------------- | ------------ | ------- | -------------- | -------------------- | ------- | ------- |
@@ -41,10 +41,12 @@ lays out built-in permission levels and the access they provide:
 
 ### Configuring permissions for a file or folder
 
-**Note:** When configuring permissions for a file or a folder, log in to the server with a user that
+**Note:** When you configure permissions for a file or a folder, log in to the server with a user that
 has at least **Full Control** permissions for the object you want to modify. To make sure that you have
 appropriate permissions to make the change, log in with a user account that has administrator privileges
 on the device. Administrator accounts can typically override permissions for most files and folders.
+
+Follow these steps to configure permissions:
 
 1. Navigate to the parent directory of the desired file or folder for which you want to set permissions.
 2. **Right-click** the file or folder and choose **Properties**.
@@ -54,11 +56,11 @@ on the device. Administrator accounts can typically override permissions for mos
 5. Click **Edit**.
 6. Look for the user whose permissions you want to modify in the box labeled **Group or user names**.
    *If the user is listed, move to step 7. If not, use the following instructions to add the user to the list*.
-    1. To add an additional user, click **Add**.
+    1. To add a user, click **Add**.
     2. Type in the username in the box marked **Enter the object names to select** and click **Check Names**. 
     3. If you don't see the user, ensure that you listed the correct location in **From this location**.
        If necessary, click **Advanced** to search for the user manually.
-    4. When you find the user, it shows as underlined. Click **Ok**.
+    4. When you find the user, it is underlined. Click **Ok**.
 7. Click the desired user in **Group or user names**.
 8. Check the box under **Allow** in the **Permissions for (username)** section and click **Ok** to save.
 
@@ -69,6 +71,8 @@ in multiple places, such as permissions for a user group and also specific to th
 restrictive permissions set for that user apply to any given file or folder. Keep this in mind when
 troubleshooting.
 
+To troubleshoot permissions issues, follow these steps:
+
 1. Navigate to the parent directory of the problematic file or folder.
 2. **Right-click** the file or folder and choose **Properties**.
 3. Click the **Security** tab.
@@ -77,11 +81,11 @@ troubleshooting.
 5. Click **Advanced**.
 6. Click the **Effective Access** tab.
 7. Click the link labeled **Select a user**.
-8. Type in the username in the box marked **Enter the object names to select** and click **Check Names**. 
+8. Type the username in the box marked **Enter the object names to select** and click **Check Names**. 
 9. If you don't see the user, ensure that you listed the correct location in **From this location**.
    If necessary, click **Advanced** to search for the user manually.
-10. When you find the user, it shows as underlined. Click **Ok** to see the user listed
+10. When you find the user, it is underlined. Click **Ok** to see the user listed
     next to **User/Group**.
 11. Click **View effective access** to see the list of the user's permissions. The final column
-    indicates the policy or group that limits the permission type. This shows you where to make
-    changes to solve the problem.
+    indicates the policy or group that limits the permission type. This information shows you
+    where to make changes to solve the problem.
