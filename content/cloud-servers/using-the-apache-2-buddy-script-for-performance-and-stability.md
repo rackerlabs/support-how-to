@@ -121,5 +121,5 @@ You should know that this statement makes the following assumptions:
    which might not be correct.
 
 **Note**:
-You should consider this statement provided by Apache2Buddy to be informational regarding the worst
-case scenario. You might need to investigate further to gain clarity. For more information, see the following link: [https://richardforth.github.io/apache2buddy_ag/](https://richardforth.github.io/apache2buddy_ag/).
+You should consider this statement provided by Apache2Buddy to be informational regarding the worst-case
+scenario. You might need to investigate further to gain clarity. For more information, see the following link: [https://richardforth.github.io/apache2buddy_ag/](https://richardforth.github.io/apache2buddy_ag/).
