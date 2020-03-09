@@ -37,8 +37,9 @@ lays out built-in permission levels and the access they provide:
 | *Take ownership*	              | **Yes**      | **No**  | **No**         | **No**               | **No**  | **No**  |
 | *Synchronize*                    | **Yes**      | **Yes** | **Yes**        | **Yes**              | **Yes** | **Yes** |
 
-</br>
-## Configuring permissions for a file or folder
+<br />
+
+### Configuring permissions for a file or folder
 
 **Note:** When configuring permissions for a file or a folder, log in to the server with a user that
 has at least **Full Control** permissions for the object you want to modify. To make sure that you have
