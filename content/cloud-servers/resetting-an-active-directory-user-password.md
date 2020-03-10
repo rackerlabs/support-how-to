@@ -1,7 +1,7 @@
 ---
 permalink: resetting-an-active-directory-user-password/
 audit_date:
-title: 'Add and Remove Roles and Features on Windows Server'
+title: 'Resetting an Active Directory User Password'
 type: article
 created_date: '2020-03-06'
 created_by:
