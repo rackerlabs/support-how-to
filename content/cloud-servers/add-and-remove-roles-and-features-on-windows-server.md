@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-*This article applies to the following Microsoft&reg; Windows Server versions: 2012, 2012 R2, 2016, 2019*
+*This article applies to the following Microsoft&reg; Windows&reg; Server versions: 2012, 2012 R2, 2016, 2019*
 
 This article shows how to install and remove Windows Server roles and features by using Server Manager.
 
@@ -49,7 +49,7 @@ Server Manager loads before you add roles and features.
    restart automatically after installation completes, check the box labeled 
    **Restart the destination server automatically if required**.
 
-10. Click **Install** to begin installing the chosen roles and features.
+10. Click **Install** to add the chosen roles and features.
 
 ### Removing Windows roles and features
 
@@ -78,4 +78,4 @@ Server Manager loads before you add roles and features.
    restart automatically after installation completes, check the box labeled 
    **Restart the destination server automatically if required**.
    
-8. Click **Remove** to begin removing the chosen roles and features.
+8. Click **Remove** to remove the chosen roles and features.
