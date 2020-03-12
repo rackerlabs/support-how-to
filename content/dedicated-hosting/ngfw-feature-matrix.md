@@ -97,10 +97,10 @@ product_url: dedicated-hosting
     <td>RackConnect</td>
   </tr>
 </table>
+<pre>
 
 
-
-
+</pre>
 <table>
   <tr>
     <th colspan="4" text-align="center" >NGFW Features - Threat Intelligence Feeds</th>
@@ -178,11 +178,10 @@ product_url: dedicated-hosting
     <td>Profiles (Based on Server OS)</td>
   </tr>
 </table>
+<pre>
 
 
-
-
-
+</pre>
 <table>
   <tr>
     <th colspan="4" text-align="center">MALWARE Protection</th>
@@ -245,8 +244,10 @@ product_url: dedicated-hosting
     <td>File Typle Filtering and Blocking</td>
   </tr>
 </table>
+<pre>
 
 
+</pre>
 <table>
   <tr>
     <th colspan="4" text-align ="center">Endpoint Protection</th>
@@ -261,11 +262,10 @@ product_url: dedicated-hosting
     <td>Anti-malware Protection (AMP for Endpoints)</td>
   </tr>
 </table>
+<pre>
 
 
-
-
-
+</pre>
 <table>
   <tr>
     <th colspan="4" text-align ="center">Advanced Connectivity Options</th>
@@ -304,11 +304,10 @@ product_url: dedicated-hosting
     <td></td>
   </tr>
 </table>
+<pre>
 
 
-
-
-
+</pre>
 <table>
   <tr>
     <th colspan="4" text-align="center">Features not supported:</th>
@@ -323,3 +322,7 @@ product_url: dedicated-hosting
     <td colspan="4">IPsec DMVPN is not supported.</td>
   </tr>
 </table>
+<pre>
+
+
+</pre>
