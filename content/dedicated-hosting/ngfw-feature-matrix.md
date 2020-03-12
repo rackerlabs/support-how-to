@@ -7,7 +7,6 @@ created_date: '2020-03-11'
 created_by: Chad Sterling
 last_modified_date: '2019-03-12'
 last_modified_by: Chad Sterling
-permalink: ngfw-feature-matrix
 product: Dedicated hosting
 product_url: dedicated-hosting
 ---
