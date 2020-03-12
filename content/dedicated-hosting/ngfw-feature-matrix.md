@@ -15,14 +15,14 @@ product_url: dedicated-hosting
 
 <table>
   <tr>
-    <th colspan="4">NGFW Support and Feature Matrix</th>
+    <th colspan="4" text-align="center">NGFW Support and Feature Matrix</th>
   </tr>
   <tr>
     <td colspan="2">NetSec Support for Palo Alto Networks</td>
     <td colspan="2">NetSec Support for Cisco (FTD)</td>
   </tr>
   <tr>
-    <td colspan="4">Standard Firewall Features</td>
+    <td colspan="4" text-align="center">Standard Firewall Features</td>
   </tr>
   <tr>
     <td>Interfaces</td>
@@ -103,7 +103,7 @@ product_url: dedicated-hosting
 
 <table>
   <tr>
-    <th colspan="4">NGFW Features - Threat Intelligence Feeds</th>
+    <th colspan="4" text-align="center" >NGFW Features - Threat Intelligence Feeds</th>
   </tr>
   <tr>
     <td>Threat Prevention (IPS)</td>
@@ -119,7 +119,7 @@ product_url: dedicated-hosting
   </tr>
   <tr>
     <td>Anti-Virus</td>
-    <td>Supported (Deafult template)</td>
+    <td>Supported (Default template)</td>
     <td>Roadmap item</td>
     <td>Umbrella</td>
   </tr>
@@ -185,15 +185,15 @@ product_url: dedicated-hosting
 
 <table>
   <tr>
-    <th>MALWARE Protection</th>
+    <th colspan="4" text-align="center">MALWARE Protection</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
   <tr>
-    <td>Wildfire</td>
+    <td colspan="2" text-align="center">Wildfire</td>
     <td></td>
-    <td>Threat Grid Column</td>
+    <td colspan="2" text-align="center">Threat Grid Column</td>
     <td></td>
   </tr>
   <tr>
@@ -249,7 +249,7 @@ product_url: dedicated-hosting
 
 <table>
   <tr>
-    <th>Endpoint Protection</th>
+    <th colspan="4" text-align ="center">Endpoint Protection</th>
     <th></th>
     <th></th>
     <th></th>
@@ -268,7 +268,7 @@ product_url: dedicated-hosting
 
 <table>
   <tr>
-    <th>Advanced Connectivity Options</th>
+    <th colspan="4" text-align ="center">Advanced Connectivity Options</th>
     <th></th>
     <th></th>
     <th></th>
@@ -311,7 +311,7 @@ product_url: dedicated-hosting
 
 <table>
   <tr>
-    <th colspan="4">Features not supported:</th>
+    <th colspan="4" text-align="center">Features not supported:</th>
   </tr>
   <tr>
     <td colspan="4">Dynamic routing protocols OSPF/OSPFv3 are reasonable endeavor.</td>
