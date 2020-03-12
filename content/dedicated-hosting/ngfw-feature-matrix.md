@@ -1,4 +1,5 @@
 ---
+permalink: ngfw-support-an-reboot/
 title: NGFW Feature Matrix
 type: article
 audit_date: '2020-03-11'
@@ -11,7 +12,7 @@ product: Dedicated hosting
 product_url: dedicated-hosting
 ---
 
-###
+### NGFW Support and Feature Matrix
 
 NGFW Support and Feature Matrix
 ---
@@ -68,3 +69,28 @@ MALWARE Protection
 | Autofocus | Roadmap Item |  |  |  |
 | Wildfire Advanced file support | Roadmap Item | | |
 | Data filtering and File Blocking | Supported (Default Template) | Supported | File Type Filtering and Blocking |
+
+
+Endpoint Protection
+---
+ |  |  |  |  |
+ --- |--- |--- | ---|
+|  Traps | Roadmap Item| Roadmap Item | Anti-Malware Protection (AMP for Endpoints)  |
+
+Endpoint Protection
+---
+ |  |  |  |  |
+ --- |--- |--- | ---|
+|  Global Protect Advanced | Professional Services Required| Professional Services Required | Anti-Malware Protection (AMP for Endpoints) |
+|  Global Protect HIP checks | Professional Services Required |  |  |
+|  Global Protect Mobile Support| Professional Services Required |  |  |
+|  Global Protect IPv6 Support| Professional Services Required |  |  |
+|  Global Protect Clientless Mode| Professional Services Required |  |  |
+
+Features not supported:
+---
+ |  |  |  |  |
+ --- |--- |--- | ---|
+| Dynamic routing protocols OSPF/OSPFv3 are reasonable endeavor. |
+| Active/Active Failover and Clustering are not supported. |
+| IPsec DMVPN is not supported. |
