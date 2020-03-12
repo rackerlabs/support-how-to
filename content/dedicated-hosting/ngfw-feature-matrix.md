@@ -1,14 +1,13 @@
 ---
-permalink: ngfw-support-an-reboot/
+permalink: ngfw-support-and-feature-matrix/
+audit_date: '2020-03-12'
 title: NGFW Feature Matrix
 type: article
-audit_date: '2020-03-11'
-created_date: '2020-03-11'
+created_date: '2020-03-12'
 created_by: Chad Sterling
-last_modified_date: '2019-03-12'
+last_modified_date: '2020-03-12'
 last_modified_by: Chad Sterling
-permalink: ngfw-feature-matrix
-product: Dedicated hosting
+product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
