@@ -99,22 +99,83 @@ product_url: dedicated-hosting
 </table>
 
 
-NGFW Features - Threat Intelligence Feeds
----
- |  |  |  |  |
- --- |--- |--- | ---|
-|  Threat Prevention (IPS) | NetSec - Configure Only | NetSec - Configure Only  | Threat Prevention (IPS)  |
-| Geo Fencing  | Supported  | Supported  |  Geo Fencing *updates included with any advanced license  |
-|  Anti-Virus | Supported (Default Template)  | Roadmap Item   | Umbrella   |
-|  Anti-Spyware          | Supported (Default Template)  |   | Security Intelligence DNS Security          |
-| Vulnerability Protection | Supported (Default Template) | Supported | Security Intelligence for IP and URL |
-| URL Filtering| Supported | Supported | URL Filtering (URL)|
-| SSL Inbound Decryption | Supported | Supported | SSL Inbound Decryption|
-| SSl Outbound Decryption (requires PKI infrastructure) | Roadmap Item| Roadmap Item | SSl Outbound Decryption (requires PKI infrastructure)|
-| SSH Decryption | Roadmap Item| | |
-| DNS Sinkhole | Supported | Supported | DNS Sinkhole|
-| DDoS Profiles| Supported (Default Template)  | Roadmap Item | Rate-Based Attack Prevention|
-| Profiles| Supported (Default Template) | Roadmap Item| Profiles (Based on Server OS)|
+<table>
+  <tr>
+    <th colspan="4">NGFW Features - Threat Intelligence Feeds</th>
+  </tr>
+  <tr>
+    <td>Threat Prevention (IPS)</td>
+    <td>NetSec - Configure Only</td>
+    <td>NetSec - Configure Only</td>
+    <td>Threat Prevention (IPS)</td>
+  </tr>
+  <tr>
+    <td>Geo Fencing</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Geo Fencing *updates included with any advanced license</td>
+  </tr>
+  <tr>
+    <td>Anti-Virus</td>
+    <td>Supported (Deafult template)</td>
+    <td>Roadmap item</td>
+    <td>Umbrella</td>
+  </tr>
+  <tr>
+    <td>Anti-Spyware</td>
+    <td>Supported (Deafult template)</td>
+    <td></td>
+    <td>Security Intelligence DNS Security</td>
+  </tr>
+  <tr>
+    <td>Vulnerability Protection</td>
+    <td>Supported (Deafult template)</td>
+    <td>Supported</td>
+    <td>Security Intelligence for IP and URL</td>
+  </tr>
+  <tr>
+    <td>URL Filtering</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>URL Filtering (URL)</td>
+  </tr>
+  <tr>
+    <td>SSL Inbound Decryption</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>SSL Inbound Decryption</td>
+  </tr>
+  <tr>
+    <td>SSL Outbound Decryption (requires PKI infrastructure)</td>
+    <td>Roadmap Item</td>
+    <td>Roadmap Item</td>
+    <td>SSL Outbound Decryption (requires PKI infrastructure)</td>
+  </tr>
+  <tr>
+    <td>SSH Decryption</td>
+    <td>Roadmap Item</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>DNS Sinkhole</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>DNS Sinkhole</td>
+  </tr>
+  <tr>
+    <td>DDOS Profies</td>
+    <td>Supported (Deafult template)</td>
+    <td>Roadmap item</td>
+    <td>Rate-Based Attack Prevention</td>
+  </tr>
+  <tr>
+    <td>Profiles</td>
+    <td>Supported (Deafult template)</td>
+    <td>Roadmap item</td>
+    <td>Profiles (Based on Server OS)</td>
+  </tr>
+</table>
 
 
 
