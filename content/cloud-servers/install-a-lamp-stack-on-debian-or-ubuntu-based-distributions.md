@@ -11,16 +11,16 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides instructions for installing a LAMP (Linux, Apache, MySQL, PHP) stack
-on your Debian or Ubuntu-based server. Linux (Debian or Ubuntu) is your operating system,
-and Apache is your web daemon, which serves information that is stored in your MySQL database
-through PHP scripting for your users. By the end of this article, you will have a fully
-operational LAMP server, ready to serve out multiple virtual hosts.
+This article describes how to install a LAMP (Linux&reg;, Apache&reg;, MySQL&reg;, PHP) stack
+on your Debian or Ubuntu-based server. Linux is your operating system, system, and Apache is
+your web daemon, which serves information stored in your MySQL database through PHP scripting
+for your users. By the end of this article, you will have a fully operational LAMP server,
+ready to serve out multiple virtual hosts.
 
 ### Prerequisites
 
 - Basic understanding of Secure Shell (SSH)
-- Sudo or admin level access to your server
+- Sudo or administrative access to your server
 - A Cloud Server with Ubuntu 16.04+ or Debian 9+
 
 **IMPORTANT**:
@@ -39,7 +39,7 @@ your preferred set up method.
 
         sudo sh -c "apt install apache2 mysql-server php -y; systemctl start mysql && mysql_secure_installation && systemctl restart mysql && systemctl start apache2 && systemctl enable apache2 && systemctl enable mysql && ufw allow http && ufw allow https"
         
-2.  Provide answers for the following system prompts:
+2.  Provide answers to the following system prompts:
 
     **IMPORTANT**: During the initial setup, MySQL provides the option to use the
        **VALIDATE PASSWORD** plugin, which allows you to set acceptable password parameters based
@@ -53,7 +53,7 @@ your preferred set up method.
     - **Remove test database and access to it? [Y/n]**: Select **Yes**.
     - **Reload privilege tables now? [Y/n]**: Select **Yes**.
 
-The installation is complete. To test it, browse to ***http://serverIpAddress/***.
+The installation is complete. To test it, browse to ***HTTP://serverIpAddress/***.
 
  #### Individual commands method
 
@@ -68,7 +68,7 @@ one-line command, perform the following steps:
 
         sudo sh -c "systemctl start mysql && mysql_secure_installation"
 
-3.  Provide answers for the following system prompts:
+3.  Provide answers to the following system prompts:
 
     **IMPORTANT**: During the initial setup, MySQL provides the option to use the
        **VALIDATE PASSWORD** plugin, which allows you to set acceptable password parameters based
@@ -94,4 +94,4 @@ one-line command, perform the following steps:
     This command allows port 80 (web) and port 443 (secure web) inbound traffic through the
     firewall, and saves the rule for reboots.
 
-The installation is complete. To test it, browse to ***http://serverIpAddress/***.
+The installation is complete. To test it, browse to ***HTTP://serverIpAddress/***.
