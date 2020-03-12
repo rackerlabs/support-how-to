@@ -191,15 +191,10 @@ product_url: dedicated-hosting
 <table>
   <tr>
     <th colspan="4" text-align="center">MALWARE Protection</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td colspan="2" text-align="center">Wildfire</td>
-    <td></td>
     <td colspan="2" text-align="center">Threat Grid Cloud</td>
-    <td></td>
   </tr>
   <tr>
     <td>Wildfire basic</td>
@@ -257,9 +252,6 @@ product_url: dedicated-hosting
 <table>
   <tr>
     <th colspan="4" text-align ="center">Endpoint Protection</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>Traps</td>
@@ -275,15 +267,12 @@ product_url: dedicated-hosting
 <table>
   <tr>
     <th colspan="4" text-align ="center">Advanced Connectivity Options</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
   <tr>
     <td>Global Protect Advanced</td>
     <td>Professional Services Required</td>
     <td>Professional Services Required</td>
-    <td>Anti-Malware Protection (AMP for Endpoints)</td>
+    <td>Anyconnect Apex</td>
   </tr>
   <tr>
     <td>Global Protect HIP checks</td>
