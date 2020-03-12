@@ -64,7 +64,7 @@ product_url: dedicated-hosting
     <td>Global Protect Basic (Client VPN)</td>
     <td>Supported</td>
     <td>Supported</td>
-    <td>Global Protect Basic (Client VPN)</td>
+    <td>Anyconnect Plus</td>
   </tr>
   <tr>
     <td>Management</td>
@@ -73,10 +73,10 @@ product_url: dedicated-hosting
     <td>Management</td>
   </tr>
   <tr>
-    <td>High Availability (HA - Active/Standby</td>
+    <td>High Availability (HA - Active/Standby)</td>
     <td>Supported</td>
     <td>Supported</td>
-    <td>High Availability (HA - Active/Standby</td>
+    <td>High Availability (HA - Active/Standby)</td>
   </tr>
   <tr>
     <td>Routed Mode</td>
@@ -125,7 +125,7 @@ product_url: dedicated-hosting
   </tr>
   <tr>
     <td>Anti-Spyware</td>
-    <td>Supported (Deafult template)</td>
+    <td>Supported (Default template)</td>
     <td></td>
     <td>Security Intelligence DNS Security</td>
   </tr>
@@ -166,14 +166,20 @@ product_url: dedicated-hosting
     <td>DNS Sinkhole</td>
   </tr>
   <tr>
-    <td>DDOS Profies</td>
-    <td>Supported (Deafult template)</td>
+    <td>DDOS Profiles</td>
+    <td>Supported (Default template)</td>
     <td>Roadmap item</td>
-    <td>Rate-Based Attack Prevention</td>
+    <td>Correlation Policies</td>
+  </tr>
+  <tr>
+  <td>Zone based Protection</td>
+  <td>Supported (Default template)</td>
+  <td>Roadmap item</td>
+   <td>Rate-Based Attack Prevention</td>
   </tr>
   <tr>
     <td>Profiles</td>
-    <td>Supported (Deafult template)</td>
+    <td>Supported (Default template)</td>
     <td>Roadmap item</td>
     <td>Profiles (Based on Server OS)</td>
   </tr>
