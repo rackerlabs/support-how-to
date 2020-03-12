@@ -179,37 +179,128 @@ product_url: dedicated-hosting
 
 
 
-MALWARE Protection
----
-| **Wildfire** | **Threat Grid Cloud** |
----| ---|
- |  |  |  |  |
- --- |--- |--- | ---|
-|  Wildfire basic | Supported (Default Template) | Supported on Firepower hardware only | Anti-Malware Protection (AMP for Networks) |
-| Wildfire Signature Updates (24-48 hours)  | Supported  | Not supported on ASA-X hardware  |  Anti-Malware Protection (AMP for Networks)  |
-|  Instant Signature Updates (Less than 5 minutes) | Supported |   |  |
-|  Wildfire API        | Roadmap Item |   |  |
-|  Wildfire Appliance | Roadmap Item | Roadmap Item | Threat Grid Appliance |
-| Autofocus | Roadmap Item |  |  |  |
-| Wildfire Advanced file support | Roadmap Item | | |
-| Data filtering and File Blocking | Supported (Default Template) | Supported | File Type Filtering and Blocking |
+
+<table>
+  <tr>
+    <th>MALWARE Protection</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Wildfire</td>
+    <td></td>
+    <td>Threat Grid Column</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Wildfire basic</td>
+    <td>Supported on Firepower hardware only</td>
+    <td>Not supported on ASA-X hardware</td>
+    <td>Anti-Malware Protection (AMP for Networks)</td>
+  </tr>
+  <tr>
+    <td>Wildfire Signature Updates (24-48 hours)</td>
+    <td>Supported (Deafult template)</td>
+    <td>Roadmap item</td>
+    <td>Umbrella</td>
+  </tr>
+  <tr>
+    <td>Instant Signature Updates (Less than 5 minutes)</td>
+    <td>Supported</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Wildfire API</td>
+    <td>Roadmap Item</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Wildfire Appliance</td>
+    <td>Roadmap Item</td>
+    <td>Roadmap item</td>
+    <td>Threat Grid Appliance</td>
+  </tr>
+  <tr>
+    <td>Autofocus</td>
+    <td>Roadmap Item</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Wildfire Advanced file support</td>
+    <td>Roadmap Item</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Data filtering and File Blocking</td>
+    <td>Supported (Default Template)</td>
+    <td>Supported</td>
+    <td>File Typle Filtering and Blocking</td>
+  </tr>
+</table>
 
 
-Endpoint Protection
----
- |  |  |  |  |
- --- |--- |--- | ---|
-|  Traps | Roadmap Item| Roadmap Item | Anti-Malware Protection (AMP for Endpoints)  |
+<table>
+  <tr>
+    <th>Endpoint Protection</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Traps</td>
+    <td>Roadmap Item</td>
+    <td>Roadmap item</td>
+    <td>Anti-malware Protection (AMP for Endpoints)</td>
+  </tr>
+</table>
 
-Endpoint Protection
----
- |  |  |  |  |
- --- |--- |--- | ---|
-|  Global Protect Advanced | Professional Services Required| Professional Services Required | Anti-Malware Protection (AMP for Endpoints) |
-|  Global Protect HIP checks | Professional Services Required |  |  |
-|  Global Protect Mobile Support| Professional Services Required |  |  |
-|  Global Protect IPv6 Support| Professional Services Required |  |  |
-|  Global Protect Clientless Mode| Professional Services Required |  |  |
+
+
+<table>
+  <tr>
+    <th>Advanced Connectivity Options</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>Global Protect Advanced</td>
+    <td>Professional Services Required</td>
+    <td>Professional Services Required</td>
+    <td>Anti-Malware Protection (AMP for Endpoints)</td>
+  </tr>
+  <tr>
+    <td>Global Protect HIP checks</td>
+    <td>Professional Services Required</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Global Protect Mobile Support</td>
+    <td>Professional Services Required</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Global Protect IPv6 Support</td>
+    <td>Professional Services Required</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Global Protect Clientless Mode</td>
+    <td>Professional Services Required</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
 
 Features not supported:
 ---
