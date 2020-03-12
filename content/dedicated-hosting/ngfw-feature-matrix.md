@@ -13,26 +13,90 @@ product_url: dedicated-hosting
 
 ### NGFW Support and Feature Matrix
 
-NGFW Support and Feature Matrix
----
-| **Netsec Support for Palo Alto Networks** | **NetSec Support for Cisco (FTD)** |
----| ---|
-**Standard Firewall Features**
----
- |  |  |  |  |
- --- |--- |--- | ---|
-|   Interfaces | Supported  | Supported  | Interfaces  |
-|  IPv4 Routing | Supported  | Supported  |  IPv4 Routing   |
-|  IPv6 Routing | Supported  | Supported  | IPv6 Routing  |
-|  NAT          | Supported  | Supported  | NAT           |
-| Packet Filtering | Supported | Supported | Packet Filtering |
-| Site-to-Site VPN | Supported | Supported | Site-to-Site VPN|
-| Global Protect Basic (Client VPN) | Supported | Supported | Anyconnect Plus|
-| Management | Supported | Supported | Management|
-| High Availability (HA - Active/Standby) | Supported | Supported | High Availability (HA - Active/Standby)|
-| Routed Mode | Supported | Supported | Routed Mode|
-| TFA (DUO) | Supported | Supported | TFA (DUO) - FDM Only|
-| RackConnect | Version 3 Only | Version 3 Only | RackConnect|
+<table>
+  <tr>
+    <th colspan="4">NGFW Support and Feature Matrix</th>
+  </tr>
+  <tr>
+    <td colspan="2">NetSec Support for Palo Alto Networks</td>
+    <td colspan="2">NetSec Support for Cisco (FTD)</td>
+  </tr>
+  <tr>
+    <td colspan="4">Standard Firewall Features</td>
+  </tr>
+  <tr>
+    <td>Interfaces</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Interfaces</td>
+  </tr>
+  <tr>
+    <td>IPv4 Routing</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>IPv4 Routing</td>
+  </tr>
+  <tr>
+    <td>IPv6 Routing</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>IPv6 Routing</td>
+  </tr>
+  <tr>
+    <td>NAT</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>NAT</td>
+  </tr>
+  <tr>
+    <td>Packet filtering</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Packet filtering</td>
+  </tr>
+  <tr>
+    <td>Site-to-Site VPN</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Site-to-Site VPN</td>
+  </tr>
+  <tr>
+    <td>Global Protect Basic (Client VPN)</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Global Protect Basic (Client VPN)</td>
+  </tr>
+  <tr>
+    <td>Management</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Management</td>
+  </tr>
+  <tr>
+    <td>High Availability (HA - Active/Standby</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>High Availability (HA - Active/Standby</td>
+  </tr>
+  <tr>
+    <td>Routed Mode</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>Routed Mode</td>
+  </tr>
+  <tr>
+    <td>TFA (DUO</td>
+    <td>Supported</td>
+    <td>Supported</td>
+    <td>TFA (DUO) - FDM Only</td>
+  </tr>
+  <tr>
+    <td>RackConnect</td>
+    <td>Version 3 Only</td>
+    <td>Version 3 Only</td>
+    <td>RackConnect</td>
+  </tr>
+</table>
 
 
 NGFW Features - Threat Intelligence Feeds
