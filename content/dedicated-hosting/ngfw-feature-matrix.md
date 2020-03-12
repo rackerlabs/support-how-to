@@ -99,6 +99,8 @@ product_url: dedicated-hosting
 </table>
 
 
+
+
 <table>
   <tr>
     <th colspan="4">NGFW Features - Threat Intelligence Feeds</th>
@@ -176,6 +178,7 @@ product_url: dedicated-hosting
     <td>Profiles (Based on Server OS)</td>
   </tr>
 </table>
+
 
 
 
@@ -261,6 +264,8 @@ product_url: dedicated-hosting
 
 
 
+
+
 <table>
   <tr>
     <th>Advanced Connectivity Options</th>
@@ -302,10 +307,19 @@ product_url: dedicated-hosting
 
 
 
-Features not supported:
----
- |  |  |  |  |
- --- |--- |--- | ---|
-| Dynamic routing protocols OSPF/OSPFv3 are reasonable endeavor. |
-| Active/Active Failover and Clustering are not supported. |
-| IPsec DMVPN is not supported. |
+
+
+<table>
+  <tr>
+    <th colspan="4">Features not supported:</th>
+  </tr>
+  <tr>
+    <td colspan="4">Dynamic routing protocols OSPF/OSPFv3 are reasonable endeavor.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Active/Active Failover and Clustering are not supported.</td>
+  </tr>
+  <tr>
+    <td colspan="4">IPsec DMVPN is not supported.</td>
+  </tr>
+</table>
