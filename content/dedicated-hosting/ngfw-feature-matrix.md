@@ -198,20 +198,20 @@ product_url: dedicated-hosting
   <tr>
     <td colspan="2" text-align="center">Wildfire</td>
     <td></td>
-    <td colspan="2" text-align="center">Threat Grid Column</td>
+    <td colspan="2" text-align="center">Threat Grid Cloud</td>
     <td></td>
   </tr>
   <tr>
     <td>Wildfire basic</td>
+    <td>Supported (Default template)</td>
     <td>Supported on Firepower hardware only</td>
-    <td>Not supported on ASA-X hardware</td>
     <td>Anti-Malware Protection (AMP for Networks)</td>
   </tr>
   <tr>
     <td>Wildfire Signature Updates (24-48 hours)</td>
-    <td>Supported (Deafult template)</td>
-    <td>Roadmap item</td>
-    <td>Umbrella</td>
+    <td>Supported</td>
+    <td>Not supported on ASA-X hardware</td>
+    <td>Anti-Malware Protection (AMP for Networks)</td>
   </tr>
   <tr>
     <td>Instant Signature Updates (Less than 5 minutes)</td>
@@ -247,7 +247,7 @@ product_url: dedicated-hosting
     <td>Data filtering and File Blocking</td>
     <td>Supported (Default Template)</td>
     <td>Supported</td>
-    <td>File Typle Filtering and Blocking</td>
+    <td>File Type Filtering and Blocking</td>
   </tr>
 </table>
 <pre>
