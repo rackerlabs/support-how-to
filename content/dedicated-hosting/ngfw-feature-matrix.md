@@ -1,5 +1,5 @@
 ---
-permalink: ngfw-support-and-feature-matrix/
+permalink: ngfw-feature-matrix/
 audit_date: '2020-03-12'
 title: NGFW Feature Matrix
 type: article
@@ -11,90 +11,90 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-### NGFW Support and Feature Matrix
+### NGFW Feature Matrix
 
 <table>
   <tr>
-    <th colspan="4" align="center">NGFW Support and Feature Matrix</div></th>
+    <th colspan="4"><div align="center"><b>NGFW Support and Feature Matrix</b></div></th>
   </tr>
   <tr>
-    <td colspan="2">NetSec Support for Palo Alto Networks</td>
-    <td colspan="2">NetSec Support for Cisco (FTD)</td>
+    <td colspan="2"><b>NetSec Support for Palo Alto Networks</b></td>
+    <td colspan="2"><b>NetSec Support for Cisco (FTD)</b></td>
   </tr>
   <tr>
-    <td colspan="4" align="center">Standard Firewall Features</td>
+    <td colspan="4" align="center"><b>Standard Firewall Features</b></td>
   </tr>
   <tr>
-    <td>Interfaces</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Interfaces</td>
+    <td>Interfaces</b></td>
+    <td style="background-color: green; color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Interfaces</b></td>
   </tr>
   <tr>
-    <td>IPv4 Routing</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;"> Supported</td>
-    <td>IPv4 Routing</td>
+    <td><b>IPv4 Routing</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"> <b>Supported</b></td>
+    <td><b>IPv4 Routing</b></td>
   </tr>
   <tr>
-    <td>IPv6 Routing</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>IPv6 Routing</td>
+    <td><b>IPv6 Routing</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>IPv6 Routing</b></td>
   </tr>
   <tr>
-    <td>NAT</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>NAT</td>
+    <td><b>NAT</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>NAT</b></td>
   </tr>
   <tr>
-    <td>Packet filtering</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Packet filtering</td>
+    <td><b>Packet filtering</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Packet filtering</b></td>
   </tr>
   <tr>
-    <td>Site-to-Site VPN</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Site-to-Site VPN</td>
+    <td><b>Site-to-Site VPN</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Site-to-Site VPN</b></td>
   </tr>
   <tr>
-    <td>Global Protect Basic (Client VPN)</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Anyconnect Plus</td>
+    <td><b>Global Protect Basic (Client VPN)</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Anyconnect Plus</b></td>
   </tr>
   <tr>
-    <td>Management</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Management</td>
+    <td><b>Management</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Management</b></td>
   </tr>
   <tr>
-    <td>High Availability (HA - Active/Standby)</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>High Availability (HA - Active/Standby)</td>
+    <td><b>High Availability (HA - Active/Standby)</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>High Availability (HA - Active/Standby)</b></td>
   </tr>
   <tr>
-    <td>Routed Mode</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Routed Mode</td>
+    <td><b>Routed Mode</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Routed Mode</b></td>
   </tr>
   <tr>
-    <td>TFA (DUO</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>TFA (DUO) - FDM Only</td>
+    <td><b>TFA (DUO</td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>TFA (DUO) - FDM Only</b></td>
   </tr>
   <tr>
-    <td>RackConnect</td>
-    <td style="background-color: green;">Version 3 Only</td>
-    <td style="background-color: green;">Version 3 Only</td>
-    <td>RackConnect</td>
+    <td><b>RackConnect</b></td>
+    <td style="background-color: green;color:white;"><b>Version 3 Only</b></td>
+    <td style="background-color: green;color:white;"><b>Version 3 Only</b></td>
+    <td><b>RackConnect</b></td>
   </tr>
 </table>
 <pre>
@@ -103,85 +103,85 @@ product_url: dedicated-hosting
 </pre>
 <table>
   <tr>
-    <th colspan="4" align="center" >NGFW Features - Threat Intelligence Feeds</th>
+    <th colspan="4"><div align="center"><b>NGFW Features - Threat Intelligence Feeds</b></div></th>
   </tr>
   <tr>
-    <td>Threat Prevention (IPS)</td>
-    <td style="background-color: green;">NetSec - Configure Only</td>
-    <td style="background-color: green;">NetSec - Configure Only</td>
-    <td>Threat Prevention (IPS)</td>
+    <td><b>Threat Prevention (IPS)</td>
+    <td style="background-color: green;color:white;"><b>NetSec - Configure Only</b></td>
+    <td style="background-color: green;color:white;"><b>NetSec - Configure Only</b></td>
+    <td><b>Threat Prevention (IPS)</b></td>
   </tr>
   <tr>
-    <td>Geo Fencing</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Geo Fencing *updates included with any advanced license</td>
+    <td><b>Geo Fencing</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Geo Fencing</b> *updates included with any advanced license</td>
   </tr>
   <tr>
-    <td>Anti-Virus</td>
-    <td style="background-color: green;">Supported (Default template)</td>
-    <td style="background-color: yellow;">Roadmap item</td>
-    <td>Umbrella</td>
+    <td><div align="right">Anti-Virus</div></td>
+    <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+    <td style="background-color: yellow;"><b>Roadmap item</b></td>
+    <td><b>Umbrella</td>
   </tr>
   <tr>
-    <td>Anti-Spyware</td>
-    <td style="background-color: green;">Supported (Default template)</td>
-    <td style="background-color: green;"></td>
-    <td>Security Intelligence DNS Security</td>
+    <td><div align="right">Anti-Spyware</div></td>
+    <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+    <td style="background-color: green;color:white;"></td>
+    <td><b>Security Intelligence DNS Security</b></td>
   </tr>
   <tr>
-    <td>Vulnerability Protection</td>
-    <td style="background-color: green;">Supported (Deafult template)</td>
-    <td style="background-color: green;">Supported</td>
-    <td>Security Intelligence for IP and URL</td>
+    <td><div align ="right">Vulnerability Protection</div></td>
+    <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>Security Intelligence for IP and URL</b></td>
   </tr>
   <tr>
-    <td>URL Filtering</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>URL Filtering (URL)</td>
+    <td><b>URL Filtering</td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>URL Filtering (URL)</b></td>
   </tr>
   <tr>
-    <td>SSL Inbound Decryption</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>SSL Inbound Decryption</td>
+    <td><b>SSL Inbound Decryption</td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>SSL Inbound Decryption</b></td>
   </tr>
   <tr>
-    <td>SSL Outbound Decryption (requires PKI infrastructure)</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
-    <td>SSL Outbound Decryption (requires PKI infrastructure)</td>
+    <td><b>SSL Outbound Decryption</b> (requires PKI infrastructure)</td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
+    <td><b>SSL Outbound Decryption</b> (requires PKI infrastructure)</td>
   </tr>
   <tr>
-    <td>SSH Decryption</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
-    <td style="background-color: green;"></td>
+    <td><b>SSH Decryption</b></td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
+    <td style="background-color: green;color:white;"></td>
     <td></td>
   </tr>
   <tr>
-    <td>DNS Sinkhole</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: green;">Supported</td>
-    <td>DNS Sinkhole</td>
+    <td><b>DNS Sinkhole</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>DNS Sinkhole</b></td>
   </tr>
   <tr>
-    <td>DDOS Profiles</td>
-    <td style="background-color: green;">Supported (Default template)</td>
-    <td style="background-color: yellow;">Roadmap item</td>
-    <td>Correlation Policies</td>
+    <td><b>DDOS Profiles</td>
+    <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+    <td style="background-color: yellow;"><b>Roadmap item</b></td>
+    <td><b>Correlation Policies</b></td>
   </tr>
   <tr>
-  <td>Zone based Protection</td>
-  <td style="background-color: green;">Supported (Default template)</td>
-  <td style="background-color: yellow;">Roadmap item</td>
-   <td>Rate-Based Attack Prevention</td>
+  <td><b>Zone based Protection</b></td>
+  <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+  <td style="background-color: yellow;"><b>Roadmap item</b></td>
+   <td><b>Rate-Based Attack Prevention</b></td>
   </tr>
   <tr>
-    <td>Profiles</td>
-    <td style="background-color: green;">Supported (Default template)</td>
-    <td style="background-color: yellow;">Roadmap item</td>
-    <td>Profiles (Based on Server OS)</td>
+    <td><b>Profiles</td>
+    <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+    <td style="background-color: yellow;"><b>Roadmap item</b></td>
+    <td><b>Profiles (Based on Server OS)</b></td>
   </tr>
 </table>
 <pre>
@@ -190,59 +190,59 @@ product_url: dedicated-hosting
 </pre>
 <table>
   <tr>
-    <th colspan="4" align="center">MALWARE Protection</th>
+    <th colspan="4"><div align="center"><b>MALWARE Protection</b></div></th>
   </tr>
   <tr>
-    <td colspan="2" align="center">Wildfire</td>
-    <td colspan="2" align="center">Threat Grid Cloud</td>
+    <td colspan="2"><div align="center"><b>Wildfire</b></div></td>
+    <td colspan="2"><div align="center"><b>Threat Grid Cloud</b></div></td>
   </tr>
   <tr>
-    <td>Wildfire basic</td>
-    <td style="background-color: green;">Supported (Default template)</td>
-    <td style="background-color: green;">Supported on Firepower hardware only</td>
-    <td>Anti-Malware Protection (AMP for Networks)</td>
+    <td><b>Wildfire basic</b></td>
+    <td style="background-color: green;color:white;"><b>Supported (Default template)</b></td>
+    <td style="background-color: green;color:white;"><b>Supported on Firepower hardware only</b></td>
+    <td><b>Anti-Malware Protection (AMP for Networks)</b></td>
   </tr>
   <tr>
-    <td>Wildfire Signature Updates (24-48 hours)</td>
-    <td style="background-color: green;">Supported</td>
-    <td style="background-color: red;">Not supported on ASA-X hardware</td>
-    <td>Anti-Malware Protection (AMP for Networks)</td>
+    <td><b>Wildfire Signature Updates</b> (24-48 hours)</td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td style="background-color: red;"><b>Not supported on ASA-X hardware</b></td>
+    <td><b>Anti-Malware Protection (AMP for Networks)</b></td>
   </tr>
   <tr>
-    <td>Instant Signature Updates (Less than 5 minutes)</td>
-    <td style="background-color: green;">Supported</td>
+    <td><b>Instant Signature Updates</b> (Less than 5 minutes)</td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Wildfire API</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
+    <td><b>Wildfire API</b></td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Wildfire Appliance</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
-    <td style="background-color: yellow;">Roadmap item</td>
-    <td>Threat Grid Appliance</td>
+    <td><b>Wildfire Appliance</b></td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
+    <td style="background-color: yellow;"><b>Roadmap item</b></td>
+    <td><b>Threat Grid Appliance</b></td>
   </tr>
   <tr>
-    <td>Autofocus</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Wildfire Advanced file support</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
+    <td><b>Autofocus</td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>Data filtering and File Blocking</td>
-    <td style="background-color: green;">Supported (Default Template)</td>
-    <td style="background-color: green;">Supported</td>
-    <td>File Type Filtering and Blocking</td>
+    <td><b>Wildfire Advanced file support</b></td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Data filtering and File Blocking</b></td>
+    <td style="background-color: green;color:white;"><b>Supported (Default Template)</b></td>
+    <td style="background-color: green;color:white;"><b>Supported</b></td>
+    <td><b>File Type Filtering and Blocking</b></td>
   </tr>
 </table>
 <pre>
@@ -251,52 +251,13 @@ product_url: dedicated-hosting
 </pre>
 <table>
   <tr>
-    <th colspan="4" align ="center">Endpoint Protection</th>
+    <th colspan="4"><div align ="center"><b>Endpoint Protection</b></div></th>
   </tr>
   <tr>
-    <td>Traps</td>
-    <td style="background-color: yellow;">Roadmap Item</td>
-    <td style="background-color: yellow;">Roadmap item</td>
-    <td>Anti-malware Protection (AMP for Endpoints)</td>
-  </tr>
-</table>
-<pre>
-
-
-</pre>
-<table>
-  <tr>
-    <th colspan="4" align ="center">Advanced Connectivity Options</th>
-  </tr>
-  <tr>
-    <td>Global Protect Advanced</td>
-    <td style="background-color: red;">Professional Services Required</td>
-    <td style="background-color: red;">Professional Services Required</td>
-    <td>Anyconnect Apex</td>
-  </tr>
-  <tr>
-    <td>Global Protect HIP checks</td>
-    <td style="background-color: red;">Professional Services Required</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Global Protect Mobile Support</td>
-    <td style="background-color: red;">Professional Services Required</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Global Protect IPv6 Support</td>
-    <td style="background-color: red;">Professional Services Required</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Global Protect Clientless Mode</td>
-    <td style="background-color: red;">Professional Services Required</td>
-    <td></td>
-    <td></td>
+    <td><b>Traps</b></td>
+    <td style="background-color: yellow;"><b>Roadmap Item</b></td>
+    <td style="background-color: yellow;"><b>Roadmap item</b></td>
+    <td><b>Anti-malware Protection (AMP for Endpoints)</b></td>
   </tr>
 </table>
 <pre>
@@ -305,7 +266,46 @@ product_url: dedicated-hosting
 </pre>
 <table>
   <tr>
-    <th colspan="4" align="center">Features not supported:</th>
+    <th colspan="4"><div align ="center"><b>Advanced Connectivity Options</b></div></th>
+  </tr>
+  <tr>
+    <td><b>Global Protect Advanced</td>
+    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td><b>Anyconnect Apex</td>
+  </tr>
+  <tr>
+    <td><div align="right">Global Protect HIP checks</div></td>
+    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><div align="right">Global Protect Mobile Support</div></td>
+    <td style="background-color: red;"><b>Professional Services Required<</b>/td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><div align="right">Global Protect IPv6 Support</div></td>
+    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><div align="right">Global Protect Clientless Mode</div></td>
+    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+<pre>
+
+
+</pre>
+<table>
+  <tr>
+    <th colspan="4"><div align="center"><b>Features not supported:</b></div></th>
   </tr>
   <tr>
     <td colspan="4">Dynamic routing protocols OSPF/OSPFv3 are reasonable endeavor.</td>
