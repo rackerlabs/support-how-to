@@ -11,7 +11,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-### NGFW Feature Matrix
+### Next Generation Firewall (NGFW) Feature Matrix
 
 <table>
   <tr>
@@ -22,7 +22,7 @@ product_url: dedicated-hosting
     <td colspan="2"><b>NetSec Support for Cisco (FTD)</b></td>
   </tr>
   <tr>
-    <td colspan="4" align="center"><b>Standard Firewall Features</b></td>
+    <td colspan="4"><div align="center"><b>Standard Firewall Features</b></div></td>
   </tr>
   <tr>
     <td>Interfaces</b></td>
