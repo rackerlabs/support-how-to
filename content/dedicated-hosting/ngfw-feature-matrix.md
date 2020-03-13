@@ -205,7 +205,7 @@ product_url: dedicated-hosting
   <tr>
     <td><b>Wildfire Signature Updates</b> (24-48 hours)</td>
     <td style="background-color: green;color:white;"><b>Supported</b></td>
-    <td style="background-color: red;"><b>Not supported on ASA-X hardware</b></td>
+    <td style="background-color: red; green;color:white;"><b>Not supported on ASA-X hardware</b></td>
     <td><b>Anti-Malware Protection (AMP for Networks)</b></td>
   </tr>
   <tr>
@@ -270,31 +270,31 @@ product_url: dedicated-hosting
   </tr>
   <tr>
     <td><b>Global Protect Advanced</td>
-    <td style="background-color: red;"><b>Professional Services Required</b></td>
-    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td style="background-color: red;green;color:white;"><b>Professional Services Required</b></td>
+    <td style="background-color: red;green;color:white;"><b>Professional Services Required</b></td>
     <td><b>Anyconnect Apex</td>
   </tr>
   <tr>
     <td><div align="right">Global Protect HIP checks</div></td>
-    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td style="background-color: red;green;color:white;"><b>Professional Services Required</b></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td><div align="right">Global Protect Mobile Support</div></td>
-    <td style="background-color: red;"><b>Professional Services Required<</b>/td>
+    <td style="background-color: red;green;color:white;"><b>Professional Services Required<</b>/td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td><div align="right">Global Protect IPv6 Support</div></td>
-    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td style="background-color: red; green;color:white;"><b>Professional Services Required</b></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td><div align="right">Global Protect Clientless Mode</div></td>
-    <td style="background-color: red;"><b>Professional Services Required</b></td>
+    <td style="background-color: red;green;color:white;"><b>Professional Services Required</b></td>
     <td></td>
     <td></td>
   </tr>
