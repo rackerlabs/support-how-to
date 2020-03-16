@@ -12,16 +12,18 @@ product_url: cloud-servers
 ---
 
 This article describes how to install a LAMP (Linux&reg;, Apache&reg;, MySQL&reg;, PHP) stack
-on your Debian or Ubuntu-based server. Linux is your operating system, system, and Apache is
+on your Debian&reg; or Ubuntu&reg; server. Linux is your operating system, and Apache is
 your web daemon, which serves information stored in your MySQL database through PHP scripting
-for your users. By the end of this article, you will have a fully operational LAMP server,
-ready to serve out multiple virtual hosts.
+for your users. By the end of this article, you have a fully operational LAMP server,
+ready to serve multiple virtual hosts.
 
 ### Prerequisites
 
+You need to have the following prerequisites:
+
 - Basic understanding of Secure Shell (SSH)
 - Sudo or administrative access to your server
-- A Cloud Server with Ubuntu 16.04+ or Debian 9+
+- A Cloud Server with Ubuntu 16.04 or later or Debian 9 or later
 
 **IMPORTANT**:
 
@@ -30,10 +32,12 @@ to ensure you're installing the latest versions of the LAMP components.
 
 ### Install the LAMP stack
 
-Log on to your server by using SSH and then complete the following steps for
-your preferred set up method.
+Log in to your server by using SSH and then complete the steps in the following sections for
+your preferred setup method.
 
-### One-line command method
+#### One-line command method
+
+Use the following steps for the one-line command method:
 
 1. Use the following one-line command for an expedient set up of your LAMP stack on your server:
 
@@ -42,20 +46,20 @@ your preferred set up method.
 2.  Provide answers to the following system prompts:
 
     **IMPORTANT**: During the initial setup, MySQL provides the option to use the
-       **VALIDATE PASSWORD** plugin, which allows you to set acceptable password parameters based
+       **VALIDATE PASSWORD** plug-in, which allows you to set acceptable password parameters based
        on length and complexity. If you want to enable this feature, select **YES** and choose the
        level of security to implement. 
 
     - **Set root password**: Make your choice a strong and secure password.
-    - **Do you wish to continue with the password provided?**: Only shows if you implemented the *VALIDATE PASSWORD* plugin.
+    - **Do you wish to continue with the password provided?**: Only shows if you implemented the **VALIDATE PASSWORD** plug-in.
     - **Remove anonymous users? [Y/n]**: Select **Yes**.
     - **Disallow root login remotely? [Y/n]**: Select **Yes**.
     - **Remove test database and access to it? [Y/n]**: Select **Yes**.
     - **Reload privilege tables now? [Y/n]**: Select **Yes**.
 
-The installation is complete. To test it, browse to ***HTTP://serverIpAddress/***.
+The installation is complete. To test it, browse to **HTTP://serverIpAddress/**.
 
- #### Individual commands method
+#### Individual commands method
 
 If you prefer to install the LAMP stack by using discrete steps instead of by using the
 one-line command, perform the following steps:
@@ -71,12 +75,12 @@ one-line command, perform the following steps:
 3.  Provide answers to the following system prompts:
 
     **IMPORTANT**: During the initial setup, MySQL provides the option to use the
-       **VALIDATE PASSWORD** plugin, which allows you to set acceptable password parameters based
+       **VALIDATE PASSWORD** plug-in, which allows you to set acceptable password parameters based
        on length and complexity. If you want to enable this feature, select **YES** and choose the
        level of security to implement. 
 
     - **Set root password**: You decide, but make it secure.
-    - **Do you wish to continue with the password provided?**: Only shows if you implemented the VALIDATE PASSWORD plugin.
+    - **Do you wish to continue with the password provided?**: Only shows if you implemented the **VALIDATE PASSWORD** plug-in.
     - **Remove anonymous users? [Y/n]**: Select **Yes**.
     - **Disallow root login remotely? [Y/n]**: Select **Yes**.
     - **Remove test database and access to it? [Y/n]**: Select **Yes**.
@@ -94,4 +98,4 @@ one-line command, perform the following steps:
     This command allows port 80 (web) and port 443 (secure web) inbound traffic through the
     firewall, and saves the rule for reboots.
 
-The installation is complete. To test it, browse to ***HTTP://serverIpAddress/***.
+The installation is complete. To test it, browse to **HTTP://serverIpAddress/**.
