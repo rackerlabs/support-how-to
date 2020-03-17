@@ -5,8 +5,8 @@ title: 'Install a LAMP stack on Debian or Ubuntu-based distributions'
 type: article
 created_date: '2020-03-11'
 created_by: Chris Silva
-last_modified_date: '2020-03-12'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-03-17'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -25,9 +25,7 @@ You need to have the following prerequisites:
 - Sudo or administrative access to your server
 - A Cloud Server with Ubuntu 16.04 or later or Debian 9 or later
 
-**IMPORTANT**:
-
-Before moving forward with the LAMP installation, ensure that you've applied system updates
+**IMPORTANT**: Before moving forward with the LAMP installation, ensure that you've applied system updates
 to ensure you're installing the latest versions of the LAMP components.
 
 ### Install the LAMP stack
