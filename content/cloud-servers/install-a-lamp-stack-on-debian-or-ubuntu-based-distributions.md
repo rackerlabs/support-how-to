@@ -5,8 +5,8 @@ title: 'Install a LAMP stack on Debian or Ubuntu-based distributions'
 type: article
 created_date: '2020-03-11'
 created_by: Chris Silva
-last_modified_date: '2020-03-12'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-03-17'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
