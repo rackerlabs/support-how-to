@@ -25,9 +25,7 @@ You need to have the following prerequisites:
 - Sudo or administrative access to your server
 - A Cloud Server with Ubuntu 16.04 or later or Debian 9 or later
 
-**IMPORTANT**:
-
-Before moving forward with the LAMP installation, ensure that you've applied system updates
+**IMPORTANT**: Before moving forward with the LAMP installation, ensure that you've applied system updates
 to ensure you're installing the latest versions of the LAMP components.
 
 ### Install the LAMP stack
