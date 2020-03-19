@@ -5,8 +5,8 @@ title: Block or restore Rackspace Email access
 type: article
 created_date: '2017-09-13'
 created_by: William Loy
-last_modified_date: '2018-01-10'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-03-40'
+last_modified_by: Chadwick Sterling
 product: Rackspace Email
 product_url: rackspace-email
 ---
