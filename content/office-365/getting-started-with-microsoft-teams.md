@@ -25,33 +25,33 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### License a user for Microsoft Teams
 
-Users must have a valid license that has Microsoft Teams. To see which licenses contain Microsoft Teams and to learn how to buy licenses and assign them to a user, please see [add an Office 365 license](/add-an-office-365-license).
+Users must have a valid license that has Microsoft Teams. To see which licenses contain Microsoft Teams and to learn how to buy licenses and assign them to a user, see [add an Office 365 license](/add-an-office-365-license).
 
-### Download, install, and sign-in to the Microsoft Teams desktop client
+### Download, install, and sign in to the Microsoft Teams desktop client
 
-1. Users can download the Microsoft Teams app on their PC&reg;, Mac&reg;, iOS&reg;, or Android&reg;-powered device by going to the [Download Microsoft Teams site](https://products.office.com/en-us/microsoft-teams/download-app), and choosing the download option of their choice.
+1. Download the Microsoft Teams app for Windows&reg;, MacOS&reg;, iOS&reg;, or Android&reg;-powered devices by going to the [Download Microsoft Teams site](https://products.office.com/en-us/microsoft-teams/download-app).
 
   **Note:** Users licensed for the Office&reg; applications should use the Microsoft Teams app included with their Office installation.
 
-2. If you downloaded the desktop app for PC or Mac, launch the installer and follow the instructions to install the app. If you downloaded the iOS or Android app, the app doesn't need to be installed.
+2. If you downloaded the desktop app for Windows or MacOS, launch the installer and follow the instructions to install the app. If you downloaded the iOS or Android app, you don't need to install anything.
 
-3. Launch Microsoft Teams and sign-in with your Username and Password when prompted.
+3. Launch Microsoft Teams and sign in with your username and password when prompted.
 
-### Sign-in to the Microsoft Teams app on the Web
+### Sign in to the Microsoft Teams app on the Web
 
 Microsoft Teams is accessible using desktop devices, mobile devices, and the Web app through the [Office 365 Portal](https://portal.office.com).
 
-1. Sign in to the [Office 365 Portal](https://portal.office.com) with your Username and Password.
+1. Sign in to the [Office 365 Portal](https://portal.office.com) with your username and password.
 
 2. Select the **Teams** icon from the **Apps** menu. If the Teams icon isn't visible, select the **All apps** icon, then find the **Teams** icon from the expanded list.
 
-  **Note:** If you do not see the Teams icon, please reach out to your administrator to ensure you are properly licensed to use Microsoft Teams.
+   **Note:** If you do not see the Teams icon, reach out to your administrator to ensure you are properly licensed to use Microsoft Teams.
 
 ### Select or join a team
 
 1. After launching Microsoft Teams, select the **Teams** tab from the left menu.
 
-2. Teams that you are a member of are listed under the **Your teams** section. Select the name of the Team you wish to access. If you don't see any Teams listed under **Your teams**, proceed to the next step.
+2. Teams that you are a member of are listed under the **Your teams** section. Select the name of the Team you want to access. If you don't see any Teams listed under **Your teams**, proceed to the next step.
 
 3. If you don't see any Teams listed under **Your teams**, select **Join or create a team**.
 
@@ -65,7 +65,7 @@ Microsoft Teams is accessible using desktop devices, mobile devices, and the Web
 
 Each team can have multiple channels where collaboration occurs. The default channel is the *General* channel. Team Administrators can add more channels as needed.
 
-1. Once you select a channel, you see a chat window appear on the right half of the app. This chat is a public chat for all members of your team.
+1. Once you select a channel, a chat window displays on the right half of the app. This chat is public for all members of your team.
 
 2. Use the `@` symbol to mention another user within the channel.
 
@@ -77,11 +77,11 @@ There are many ways to share files in Microsoft Teams. The primary way to share 
 
 1. Select the **Files** tab from the top of the channel.
 
-2. To open an existing file, select the filename. Most files can be opened within the app itself, others you can download to your device.
+2. To open an existing file, select the file name. Most files can be opened within the app itself, others you can download to your device.
 
 3. You can upload individual files or entire folders. To upload a file or folder, select **Upload** from the top menu, then the option that best fits.
 
-4. You can also create a new Folder, or a new document by using the Office online apps directly in the **Files** tab by selecting **New**, then choosing **Folder** or selecting the type of document you wish to create. You can create Word&reg; documents, Excel&reg; workbooks, PowerPoint&reg; presentations, OneNote&reg; notebooks, and Forms&reg; for Excel all within the Teams app.
+4. You can also create a new Folder, or a new document by using the Office online apps directly in the **Files** tab by selecting **New**, then choosing **Folder** or selecting the type of document you want to create. You can create Word&reg; documents, Excel&reg; workbooks, PowerPoint&reg; presentations, OneNote&reg; notebooks, and Forms&reg; for Excel all within the Teams app.
 
 5. If you have the OneDrive Sync Client&reg; installed, you can sync a channel's **Files** tab by selecting the **Sync** option. This opens the OneDrive Sync Client and walks you through syncing the document library to your desktop.
 
