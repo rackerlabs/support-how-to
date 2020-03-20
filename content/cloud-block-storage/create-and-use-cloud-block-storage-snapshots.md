@@ -5,8 +5,8 @@ title: Create and use Cloud Block Storage snapshots
 type: article
 created_date: '2012-10-22'
 created_by: Rackspace Support
-last_modified_date: '2016-06-06'
-last_modified_by: Nate Archer
+last_modified_date: '2020-03-20'
+last_modified_by: Tyler Watson
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -14,18 +14,22 @@ product_url: cloud-block-storage
 **Previous section:** [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume)
 
 A snapshot is a copy made of your volume at a specific moment in time.
-It contains the full directory structure of the volume. Snapshots can be
-used as incremental backups of your volumes, as restore points for your
-data, as long-term storage for your data, or as starting points for new
-Cloud Block Storage (CBS) volumes. Snapshots are stored in Rackspace
-Cloud Files.
+It contains the full directory structure of the volume. Each subsequent
+snapshot on a volume is a DELTA or "diff" from the previous snapshot. 
+Snapshots can be used as incremental backups of your volumes, as restore
+points for your data, as long-term storage for your data, or as starting
+points for new Cloud Block Storage (CBS) volumes. Snapshots are stored
+in Rackspace Cloud Files. If you plan on making many backups of your 
+volume, then using Cloud Backups would be a better option as it will
+be quicker and allow for better verisioning control.
 
-Snapshots only take up as much storage space as the data that fills
-them. So if you have a 1 TB volume, but only 500 GB of data on it, your
-snapshot is only 500 GB. When you create new volumes from a snapshot,
-the new volume must be of equal size or larger than the original volume
-from which you made the snapshot. The new volume must be in the same
-region. It can, however, be a different type.
+The first snapshot of a volume only take up as much storage space as 
+the data that fills them. So if you have a 1 TB volume, but only 500
+ GB of data on it, your snapshot is only 500 GB. When you create new 
+volumes from a snapshot, the new volume must be of equal size or larger
+than the original volume from which you made the snapshot. The new 
+volume must be in the same region. It can, however, be a different type.
+
 
 ### Create a snapshot
 
