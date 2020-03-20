@@ -31,7 +31,7 @@ Users must have a valid license that has Microsoft Teams. To see which licenses 
 
 1. Download the Microsoft Teams app for Windows&reg;, MacOS&reg;, iOS&reg;, or Android&reg;-powered devices by going to the [Download Microsoft Teams site](https://products.office.com/en-us/microsoft-teams/download-app).
 
-  **Note:** Users licensed for the Office&reg; applications should use the Microsoft Teams app included with their Office installation.
+    **Note:** Users licensed for the Office&reg; applications should use the Microsoft Teams app included with their Office installation.
 
 2. If you downloaded the desktop app for Windows or MacOS, launch the installer and follow the instructions to install the app. If you downloaded the iOS or Android app, you don't need to install anything.
 
