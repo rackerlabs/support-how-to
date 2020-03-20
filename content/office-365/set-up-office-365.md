@@ -1,12 +1,12 @@
 ---
 permalink: set-up-office-365/
-audit_date: '2019-07-30'
+audit_date: '2020-03-19'
 title: Set up Office 365
 type: article
 created_date: '2017-07-05'
 created_by: Nate Archer
-last_modified_date: '2019-07-30'
-last_modified_by: Faisal Misle
+last_modified_date: '2020-03-19'
+last_modified_by: Chris Moyer
 product: Office 365
 product_url: office-365
 ---
