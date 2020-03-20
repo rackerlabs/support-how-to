@@ -1,6 +1,6 @@
 ---
 permalink: create-and-use-cloud-block-storage-snapshots/
-audit_date:
+audit_date: '2020-03-20'
 title: Create and use Cloud Block Storage snapshots
 type: article
 created_date: '2012-10-22'
