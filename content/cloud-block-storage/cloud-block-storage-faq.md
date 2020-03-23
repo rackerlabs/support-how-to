@@ -62,7 +62,7 @@ You might not be a good fit for the Cloud Block Storage service if you:
 
 Cloud Block Storage (CBS) is not meant as a direct replacement of any
 existing Rackspace products (shared or dedicated). CBS allows Rackspace
-Cloud customers to add "a la carte" storage to their existing next
+Cloud customers to add *a la carte* storage to their existing next
 generation Cloud Servers and should be considered a complementary
 cloud-based storage offering that rounds out our entire storage
 portfolio.
@@ -86,8 +86,8 @@ against data loss in the event of a storage node failure.
 #### Can I attach a single volume to multiple Cloud Servers?
 
 Not concurrently. Cloud Block Storage is not a shared storage offering.
-You may attach multiple volumes to a single Cloud Server instance, but
-you may not attach multiple Cloud Servers to a single Cloud Block
+You can attach multiple volumes to a single Cloud Server instance, but
+you cannot attach multiple Cloud Servers to a single Cloud Block
 Storage volume.
 
 #### After I have created a Cloud Block Storage volume, can I resize (increase or decrease) it?
