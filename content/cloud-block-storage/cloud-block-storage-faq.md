@@ -119,7 +119,8 @@ system commands available via their Cloud Server operating system:
 
 #### Is there a limit to the number, frequency or size of snapshots that can be taken on a volume?
 
-There is no limit. You may create an unlimited number of snapshots.
+There is a limit of 5000 snapshots per volume and no more than one
+snapshot can be started at a time.
 
 #### Can I utilize a software RAID to improve the I/O performance of my SATA Cloud Block Storage volumes?
 
