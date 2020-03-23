@@ -23,22 +23,22 @@ volume or 75 GB for an SATA volume. The maximum volume size is 1 TB.
 Depending on your Cloud Server's operating system, you can have up to a
 maximum of 14 Cloud Block Storage volumes attached to a single server.
 
-#### What is the default maximum capacity of Cloud Block Storage that can be consumed by a single customer account?
+#### What is the default maximum capacity of Cloud Block Storage that a single customer account can consume?
 
 The limit for volumes and storage is 10 TB total stored or 50 volumes
 per region (whichever is reached first).
 
 #### What if I need more storage than the default maximum capacity?
 
-No problem. We'll be happy to accommodate any size storage requests for
+No problem. We are happy to accommodate any size storage requests for
 Cloud Block Storage. Simply ask for an increase to your storage quota
-via a support request and include the desired storage amount (TBs or
+by using a support request. Include the desired storage amount (TBs or
 volume count), storage type (SATA or SSD), and region (DFW, ORD, IAD,
-LON, SYD, HKG). Please contact your account team for further details.
+LON, SYD, HKG). Contact your account team for further details.
 
 #### Does Cloud Block Storage have a Service Level Agreement (or SLA)?
 
-Yes. Details regarding the Cloud Block Storage SLA can be found here:
+Yes. You can find details regarding the Cloud Block Storage SLA here:
 [http://www.rackspace.com/cloud/legal/sla](http://www.rackspace.com/cloud/legal/sla/).
 
 #### Is Cloud Block Storage right for me?
@@ -90,18 +90,18 @@ You may attach multiple volumes to a single Cloud Server instance, but
 you may not attach multiple Cloud Servers to a single Cloud Block
 Storage volume.
 
-#### Once I have created a Cloud Block Storage volume, can it be resized (increased or decreased)?
+#### After I have created a Cloud Block Storage volume, can I resize (increase or decrease) it?
 
-Once you have created a volume, you can increase its size using the API
-by either of two methods:
+After you create a volume, you can increase its size using the API
+by using either of the following methods:
 
--   Cloning from a source volume to a new larger volume, or
--   Creating a new larger volume from an existing volume snapshot.
+-   Clone from a source volume to a new larger volume
+-   Create a new larger volume from an existing volume snapshot
 
-Alternatively, in order to move to a larger or smaller volume size, you
+Alternatively, to move to a larger or smaller volume size, you
 might need to create a new volume of the desired size and then copy your
-data from the original volume to the new volume. Please note that you
-will be required to resize your file system when moving to a smaller
+data from the original volume to the new volume. Note that you
+need to resize your file system when moving to a smaller
 volume (if supported by your operating system).
 
 When you copy your data within the same data center via the internal
@@ -109,24 +109,24 @@ ServiceNet network, there is no charge for bandwidth.
 
 #### When I am using a volume, how can I know how much space I have left?
 
-You can verify a volume's capacity and available space using basic
-system commands available via their Cloud Server operating system:
+You can verify a volume's capacity and available space by using basic
+system commands available through their Cloud Server operating system:
 
--   In Linux CLI: From a terminal window, run the "df -h" command and
-    note the Size, Used, Avail, and Capacity of the storage volume
--   Windows Explorer: Right-click on drive icon and select "Properties,"
-    and note Capacity, Free space, and Used space
+-   In the Linux&reg; CLI: From a terminal window, run the `df -h` command and
+    note the **Size**, **Used**, **Avail**, and **Capacity** of the storage volume.
+-   In Windows&reg; Explorer: Right-click on the drive icon and select **Properties** 
+    and note **Capacity**, **Free space**, and **Used space**.
 
 #### Is there a limit to the number, frequency or size of snapshots that can be taken on a volume?
 
-There is a limit of 5000 snapshots per volume and no more than one
-snapshot can be started at a time.
+There is a limit of 5000 snapshots per volume and you can start only one
+snapshot at a time.
 
-#### Can I utilize a software RAID to improve the I/O performance of my SATA Cloud Block Storage volumes?
+#### Can I use a software RAID to improve the I/O performance of my SATA Cloud Block Storage volumes?
 
 Yes. However at some point the cost benefit of utilizing multiple less
-expensive SATA volumes in a RAID configuration will be outweighed by the
-benefit of utilizing a single higher I/O SSD volume. If you want to
+expensive SATA volumes in a RAID configuration is outweighed by the
+benefit of using a single higher I/O SSD volume. If you want to
 increase the I/O performance of your storage volumes, we encourage you
 to use higher performing SSD volumes for increased disk I/O.
 
@@ -149,9 +149,9 @@ Prices vary by region and are detailed on the following pages:
 
 #### How is volume cloning different from volume snapshots?
 
-A volume *clone* is a usable copy of the source volume; it can be
-attached to a server and used immediately. A volume *snapshot* cannot be
-directly used as a volume; you must create a volume from the snapshot
+A volume *clone* is a usable copy of the source volume, which you can
+attach to a server and use immediately. You cannot directly use a volume
+*snapshot* as a volume. Instead, you must create a volume from the snapshot
 and then attach that volume to your server. Snapshots are stored
 redundantly in Cloud Files. However, creating a volume from a snapshot
 is a slower process than creating a volume from a clone. If your
@@ -181,9 +181,9 @@ You can create a copy of a Cloud Block Storage volume using two methods:
 
 This is direct copy from your existing volume to a new blank volume on
 another storage node. Volume data is copied directly between CBS storage
-nodes over our high-speed local storage network. This method is
-recommended if you want to make quick copies of your volume data and use
-them immediately after creation.
+nodes over our high-speed local storage network. If you want to make quick
+copies of your volume data and use them immediately after creation, we
+recommend this method.
 
 -   **Snapshot method** (volume-to-snapshot-to-volume)
 
@@ -192,11 +192,11 @@ snapshot. You first create snapshot from your existing volume, which
 gets stored in Cloud Files. Second, you create a new volume using your
 snapshot as the source. This process requires writing snapshot data in
 and out of Cloud Files so it can take longer than the Cloning Method.
-This method is recommended if you don't require quick access to your
-copied volumes and want the added durability, and lower price, of having
-your volume snapshot stored in Cloud Files.
+If you don't require quick access to your copied volumes and want the
+added durability, and lower price, of having your volume snapshot stored
+in Cloud Files, we recommend this method.
 
-#### Can I rename my volumes once they are created?
+#### Can I rename my volumes after they are created?
 
 Yes. Using the API, you can rename an existing volume using the cinder
 rename command to update the display-name of the volume.
@@ -205,8 +205,8 @@ rename command to update the display-name of the volume.
 
 Yes. Using the API, you can query the progress of a snapshot creation
 using the snapshot-show command.
-The percentage complete value will show up under the
-os-extended-snapshot-attributes:progress property.
+The percentage complete value shows up under the
+``os-extended-snapshot-attributes:progress`` property.
 
 #### Can I use Cloud Backup to backup my Cloud Block Storage volumes?
 
@@ -218,9 +218,9 @@ or to individual files on the drive. Save your Schedule as normal.
 #### What is Rackspace Cloud Block Storage?
 
 Rackspace Cloud Block Storage provides persistent block-level storage
-volumes for use with Rackspace Cloud Servers. Volumes
-can be created and deleted independently of the Cloud Servers they are
-attached to. Rackspace Cloud Block Storage customers can create volumes
+volumes for use with Rackspace Cloud Servers. You can create volumes
+and delete them independently of the Cloud Servers to which they are
+attached. Rackspace Cloud Block Storage customers can create volumes
 ranging from 50 GB for an SSD volume or 75 GB for a SATA volume up to 1
 TB in size.
 
@@ -243,5 +243,5 @@ Cloud Block Storage offers both a low cost per gigabyte option with standard per
 
 For your security, the used portions of the physical disk are
 overwritten with zeroes before the deleted volume's disk space is
-reallocated to the shared pool of disk resources. At this point, your
-data cannot be recovered and is not visible to other customers.
+reallocated to the shared pool of disk resources. At this point, you
+cannot recover the data, and other customers cannot see the data.
