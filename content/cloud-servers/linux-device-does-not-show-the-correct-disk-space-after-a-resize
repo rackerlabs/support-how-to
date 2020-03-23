@@ -16,15 +16,15 @@ and how to correct the issue.
 
 ### Disk configuration types
 
-Some Linux images enable you to select one of the folloiwing disk configurations when creating a server: 
+Some Linux images enable you to select one of the following disk configurations when you create a server:
 
 -  **Automatic**: The default option that formats additional drive space and expands the root partition
-to fill entire system disk with a resize.  
--  **Manual**: Provides additional customization options of the disk and avoids addtional boot process time.
+to fill the entire system disk with a resize.  
+-  **Manual**: The option that provides additional customization options for the disk and avoids additional boot process time.
 This option leaves the root partition unchanged and leaves any additional space unformatted and unpartitioned.  
 
 **Note:** Use the ``df -h``  command to view filesystem information, such as **Name**, **Size**, **Used Space**,
-**Available Space**, **Use Percentage**, and **Mount**). 
+**Available Space**, **Use Percentage**, and **Mount**. 
 
 #### Sample df -h command output
 
@@ -34,12 +34,12 @@ Filesystem      Size  Used Avail Use% Mounted on
 ```
 ### The issue and the solution
 
-With the Manual disk configuration, the root partition shows as unchanged after resize completes.
+With the manual disk configuration, the root partition shows as unchanged after the resize completes.
 To correct this error, use the following command to perform a file system extension:
 
     resize2fs /dev/xvd(xx)
 
-After the command completes, re-run the ``df -h`` command to confirm success.
+After the command completes, rerun the ``df -h`` command to confirm success. You should see output similar to the following:
 
 ```[root@expanse ~]# df -h
 Filesystem      Size  Used Avail Use% Mounted on
