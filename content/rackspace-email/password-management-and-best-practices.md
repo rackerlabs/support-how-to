@@ -12,7 +12,7 @@ product_url: rackspace-email
 ---
 
 
-As the ways to compromise an account become more numerous and sophisticated, it's more important than ever to properly manage password security and protect your business. This article examines common password attack types and best practices to combat them.
+As the ways to compromise an account become more numerous and sophisticated, it's more important than ever to manage password security and protect your business properly. This article examines common password attack types and best practices to combat them.
 
 ### Prerequisites
 
@@ -23,11 +23,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Common password attack types
 
-The following are common methods used by attackers trying to compromise your accounts:
+The following things are common methods used by attackers trying to compromise your accounts.
 
 #### Phishing
 
-Phishing is the act of impersonating a legitimate entity to obtain sensitive information from users like usernames, passwords,and  credit card numbers. In email, phishing scams commonly use a method of email impersonation called [spoofing](/how-to/email-spoofing-best-practices). A successful phishing attack is particularly damaging because you have volunteered your current credentials to the scammer.
+Phishing is the act of impersonating a legitimate entity to obtain sensitive information from users like usernames, passwords, and credit card numbers. In email, phishing scams commonly use a method of email impersonation called [spoofing](/how-to/email-spoofing-best-practices). A successful phishing attack is particularly damaging because you have volunteered your current credentials to the scammer.
 
 Use the following guidelines to protect your passwords from phishing attempts:
 
@@ -59,7 +59,7 @@ Prevent hackers from guessing your passwords by creating a unique password. Usin
 
 #### Password reset protocol attack
 
-Password reset protocols are typically based on alternate contact information like phone numbers or email address. If a hacker has the information to reset your password, they don't need your current password.
+Password reset protocols are typically based on alternate contact information like phone numbers or email addresses. If a hacker has the information to reset your password, they don't need your current password.
 
 Use the following guideline to prevent hackers from guessing your passwords:
 
@@ -75,7 +75,7 @@ Use the following guidelines to protect your accounts and create strong password
 
 1. **User education**.
 
-    A compromise typically starts with one user, and quickly spreads through a whole company. Ensure that your users are taking precautions and know password best practices.
+    A compromise typically starts with one user and quickly spreads through a whole company. Ensure that your users are taking precautions and know password best practices.
 
 2. **Avoid patterns**.
 
@@ -83,12 +83,12 @@ Use the following guidelines to protect your accounts and create strong password
 
       - Do you repeat words or characters in your password to meet the character length requirement? **fourfour44!!**  or **PasswordPassword** might satisfy a password length requirement but is easily predicted by a program trying to access your most valuable information.
 
-      - Are you reusing passwords for many sites, application or accounts? If your social media account is compromised, a hackers is going to try to access your other accounts. Reusing passwords ensures that they succeed.
+      - Are you reusing passwords for many sites, applications, or accounts? If your social media account is compromised, a hacker is going to try to access your other accounts. Reusing passwords ensures that they succeed.
 
       - Is your password construction similar every time you change it?
 
-           - Examine the password example **Predictable2017**. The first letter is capitalized and the password ends in a number. Many people construct their passwords this way which is why malicious hacking programs always check for it.
-           - You might think you can throw off the hacker with some character substitutions like **Pr3dictab132017**. This is also a predictable pattern that many people use in passwords.
+           - Examine the password example **Predictable2017**. The first letter is capitalized and the password ends in a number. Many people construct their passwords this way, which is why malicious hacking programs always check for it.
+           - You might think you can throw off the hacker with some character substitutions like **Pr3dictab132017**. This tactic is also a predictable pattern that many people use in passwords.
 
       - Changing aspects of your password isn't really changing your password. It's only a good idea to implement a password change schedule if you truly create a new unique password each time.
 
@@ -102,9 +102,9 @@ Use the following guidelines to protect your accounts and create strong password
 
       - Don't include public or personal information about yourself or those close to you in the password, including:
 
-         - Birthdays.
-         - Pet names.
-         - Anniversaries.
-         - Company names, founding dates, addresses.
+         - Birthdays
+         - Pet names
+         - Anniversaries
+         - Company names, founding dates, and addresses
 
-      - Try using a memorable phrase. For example: **oneDayWew!llAllH4vEhoV6r:Cars**. In this example, instead of substituting letters for similar looking numbers, substitute random numbers. Instead of capitalizing the first character, leave it lower case. Instead of ending the password with a number, end with a word.
+      - Try using a memorable phrase. For example: **oneDayWew!llAllH4vEhoV6r:Cars**. In this example, instead of substituting letters for similar-looking numbers, substitute random numbers. Instead of capitalizing the first character, leave it lower case. Instead of ending the password with a number, end with a word.
