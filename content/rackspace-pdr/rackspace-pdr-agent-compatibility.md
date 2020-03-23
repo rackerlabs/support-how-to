@@ -12,16 +12,16 @@ product_url: rackspace-pdr
 ---
 
 Our agents support the operating systems (OS) listed on this page. When building or upgrading servers, be sure
-to check this list first so that your systems will remain in support by Rackspace PDR. If you
-are unsure if an OS release or kernel version is supported, contact the Rackspace PDR support team.
+to check this list first so that Rackspace Proactive Detection & Response (PDR) continues to support your systems.
+If you are unsure if an OS release or kernel version is supported, contact the Rackspace PDR support team.
 
-### Linux Agent Compatibility
+### Linux Agent compatibility
 
 Linux&reg; kernel strings on this page must match your kernel version exactly to be
 considered in support. If the kernel is unsupported, agents go into *reduced functionality* mode
 and no longer provide adaquate telemetry to our Security Operations Center (SOC).
 
-### Amazon Linux 2 Supported Versions
+### Amazon&reg; Linux 2 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -42,7 +42,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.154-128.181.amzn2 | 4.14.158-129.185.amzn2.x86_64 | 4.14.165-131.185.amzn2.x86_64 | 4.14.165-133.209.amzn2.x86_64 | 4.19.58-21.57.amzn2.x86_64 | 4.19.58-21.64.amzn2.x86_64 | 4.19.66-22.57.amzn2.x86_64 | 4.19.72-25.58.amzn2.x86_64 |
 4.19.75-27.58.amzn2.x86_64 | 4.19.75-28.73.amzn2.x86_64 | 4.19.82-30.69.amzn2.x86_64 | 4.19.84-33.70.amzn2.x86_64 | 
 
-### Amazon Linux 2017.03 Supported Versions
+<br/>
+
+### Amazon Linux 2017.03 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -51,8 +53,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.9.43-17.38.amzn1.x86_64 | 4.9.43-17.39.amzn1.x86_64 | 4.9.51-10.52.amzn1.x86_64 | 4.9.70-25.242.amzn1.x86_64 |
 | 4.9.75-25.55.amzn1.x86_64 | | | |
 
+<br/>
 
-### Amazon Linux 2017.09 Supported Versions
+### Amazon Linux 2017.09 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -60,8 +63,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.9.62-21.56.amzn1.x86_64 | 4.9.70-22.55.amzn1.x86_64 | 4.9.76-3.78.amzn1.x86_64 | 4.9.77-31.58.amzn1.x86_64 |
 | 4.9.81-35.56.amzn1.x86_64 | 4.9.85-37.55.amzn1.x86_64 | 4.9.85-38.58.amzn1.x86_64 | 4.9.93-41.60.amzn1.x86_64 |
 
+<br/>
 
-### Amazon Linux 2018.03 Supported Versions
+### Amazon Linux 2018.03 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -76,8 +80,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.14.146-93.123.amzn1.x86_64| 4.14.152-98.182.amzn1.x86_64| 4.14.154-99.181.amzn1 | 4.14.158-101.185.amzn1.x86_64 |
 | 4.14.165-102.185.amzn1.x86_64| 4.14.165-103.209.amzn1.x86_64 | | |
 
+<br/>
 
-### Oracle Linux 6 Supported Versions
+### Oracle&reg; Linux 6 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -147,7 +152,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.1.12-124.32.3.2.el6uek.x86_64 | 4.1.12-124.36.1.el6uek.x86_64 | 4.1.12-124.36.1.1.el6uek.x86_64 | 4.1.12-124.36.3.el6uek.x86_64 |
 | 4.1.12-124.36.4.el6uek.x86_64 |
 
-### Oracle Linux 7 Supported Versions
+<br/>
+
+### Oracle Linux 7 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -222,8 +229,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.1.12-124.32.3.2.el7uek.x86_64 | 4.1.12-124.36.1.el7uek.x86_64 | 4.1.12-124.36.1.1.el7uek.x86_64 | 4.1.12-124.36.3.el7uek.x86_64	|
 | 4.1.12-124.36.4.el7uek.x86_64	| 4.14.35-1902.10.4.2.el7uek.x86_64 | 4.14.35-1902.7.3.el7uek.x86_64 | 4.14.35-1902.10.8.el7uek.x86_64 |
 
+<br/>
 
-### RHEL 6 / CentOS 6 Supported Versions
+### RHEL&reg; 6 and CentOS&reg; 6 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -248,8 +256,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 2.6.32-754.22.1.el6.x86_64 | 2.6.32-754.23.1.el6.x86_64 | | 2.6.32-754.24.2.el6.x86_64 | 2.6.32-754.24.3.el6.x86_64 |
 | 2.6.32-754.25.1.el6.x86_64 | 2.6.32-754.27.1.el6.x86_64 | | |
 
+<br/>
 
-### RHEL 7 / CentOS 7 Supported Versions
+### RHEL 7 and CentOS 7 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -292,23 +301,26 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 3.10.0-862.46.1.el7.x86_x64 | 3.10.0-957.43.1.el7.x86_64 | 3.10.0-1062.12.1.el7.x86_64 | 3.10.0-862.48.1.el7.x86_64 |
 | 3.10.0-957.38.2.el7.x86_64 | 3.10.0-1062.4.2.el7.x86_64 | | |
 
+<br/>
 
-### RHEL 8 / CentOS 8 Supported Versions
+### RHEL 8 and CentOS 8 supported versions
 
 | | | | |
 |-|-|-|-|
 | 4.18.0-80.11.1.el8_0.x86_64 | 4.18.0-80.11.2.el8_0.x86_64 | 4.18.0-147.el8.x86_64 | 4.18.0-147.0.2.el8_1.x86_64 |
 | 4.18.0-147.0.3.el8_1.x86_64 | 4.18.0-147.3.1.el8_1.x86_64 | 4.18.0-147.5.1.el8_1.x86_64 | |
 
+<br/>
 
-### SLES 11 SP1 Supported Versions
+### SUSE&reg; Linux Enterprise Server (SLES) 11 SP1 supported versions
 
 | | | | |
 |-|-|-|-|
 | 3.0.101-108.38-default | | | |
 
+<br/>
 
-### SLES 11 SP4 Supported Versions
+### SLES 11 SP4 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -323,8 +335,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 3.0.101-84-default | 3.0.101-88-default | 3.0.101-91-default | 3.0.101-94-default | 
 | 3.0.101-97-default | 3.0.101-108.98-default | 3.0.101-108.101-default | 3.0.101-108.108 |
 
+<br/>
 
-### SLES 12 SP1 Supported Versions
+### SLES 12 SP1 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -339,8 +352,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 3.12.74-60.64.88-default | 3.12.74-60.64.93-default | 3.12.74-60.64.96-default | 3.12.74-60.64.99-default |
 | 3.12.74-60.64.124 | | | |
 
+<br/>
 
-### SLES 12 SP2 Supported Versions
+### SLES 12 SP2 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -354,9 +368,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.4.82-6.3-default | 4.4.82-6.6-default | 4.4.82-6.9-default | 4.4.90-92.45-default |
 | 4.4.90-92.50-default | 4.4.121-92.125-default | | |
 
+<br/>
 
-
-### SLES 12 SP3 Supported Versions
+### SLES 12 SP3 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -368,8 +382,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.4.180-94.100-default | 4.4.180-94.103-default | 4.4.180-94.97-default | 4.4.92-6.18-default |
 | 4.4.92-6.30-default | 4.4.180-94.107 | 4.4.180-94.113 |  |
 
+<br/>
 
-### SLES 12 SP4 Supported Versions
+### SLES 12 SP4 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -377,14 +392,17 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.12.14-95.24-default | 4.12.14-95.29-default | 4.12.14-95.3-default | 4.12.14-95.6-default |
 | 4.12.14-95.32-default | 4.12.14-95.37-default | 4.12.14-95.40 | 4.12.14-95.45 |
 
+<br/>
 
-### SLES 12 SP5 Supported Versions
+### SLES 12 SP5 supported versions
 
 | | | | |
 |-|-|-|-|
 | 4.12.14-120 | 4.12.14-122.7 | 4.12.14-122.12 | |
 
-### SLES 15 Supported Versions
+<br/>
+
+### SLES 15 supported versions
 
 | | | | |
 |-|-|-|-|
@@ -394,16 +412,18 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.12.14-150.27-default | 4.12.14-150.32-default | 4.12.14-197.15-default | 4.12.14-150.35-default |
 | 4.12.14-150.38 | 4.12.14-150.41 | 4.12.14-150.47 | |
 
+<br/>
 
-### SLES 15 SP1 Supported Versions
+### SLES 15 SP1 supported versions
 
 | | | | |
 |-|-|-|-|
 | 4.12.14-195-default | 4.12.14-197.4-default | 4.12.14-197.7-default | 4.12.14-197.10-default |
 | 4.12.14-197.18-default | 4.12.14-197.21 | 4.12.14-197.26 | 4.12.14-197.29 |
 
+<br/>
 
-### Ubuntu 14.04LTS Support Versions
+### Ubuntu&reg; 14.04LTS supported versions
 
 | | | | |
 |-|-|-|-|
@@ -450,74 +470,9 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 3.13.0-169-generic | 4.4.0-146-generic | 3.13.0-170-generic | 4.4.0-148-generic |
 | 4.15.0-60-generic | 4.4.0-161-generic | 4.4.0-1092-aws | | 
 
+<br/>
 
-### Ubuntu 16.04LTS Supported Versions
-
-| | | | |
-|-|-|-|-|
-| 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
-| 4.4.0-31-generic | 4.4.0-34-generic | 4.4.0-36-generic | 4.4.0-38-generic |
-| 4.4.0-42-generic | 4.4.0-43-generic | 4.4.0-45-generic | 4.4.0-47-generic |
-| 4.4.0-51-generic | 4.4.0-53-generic | 4.4.0-57-generic | 4.4.0-59-generic |
-| 4.4.0-62-generic | 4.4.0-63-generic | 4.4.0-64-generic | 4.4.0-66-generic |
-| 4.4.0-67-generic | 4.4.0-70-generic | 4.4.0-71-generic | 4.4.0-72-generic |
-| 4.4.0-75-generic | 4.4.0-77-generic | 4.4.0-78-generic | 4.4.0-79-generic |
-| 4.4.0-81-generic | 4.4.0-83-generic | 4.4.0-87-generic | 4.4.0-89-generic |
-| 4.4.0-91-generic | 4.4.0-92-generic | 4.4.0-93-generic | 4.4.0-96-generic |
-| 4.4.0-97-generic | 4.4.0-98-generic | 4.4.0-101-generic | 4.4.0-103-generic |
-| 4.4.0-104-generic | 4.4.0-108-generic | 4.4.0-109-generic | 4.4.0-112-generic |
-| 4.4.0-116-generic | 4.4.0-119-generic | 4.4.0-121-generic | 4.4.0-122-generic |
-| 4.4.0-124-generic | 4.4.0-127-generic | 4.4.0-128-generic | 4.4.0-130-generic |
-| 4.4.0-131-generic | 4.4.0-133-generic | 4.4.0-134-generic | 4.4.0-135-generic |
-| 4.4.0-137-generic | 4.4.0-1001-aws | 4.4.0-1003-aws | 4.4.0-1004-aws |
-| 4.4.0-1007-aws | 4.4.0-1009-aws | 4.4.0-1011-aws | 4.4.0-1012-aws |
-| 4.4.0-1013-aws | 4.4.0-1016-aws | 4.4.0-1017-aws | 4.4.0-1018-aws |
-| 4.4.0-1020-aws | 4.4.0-1022-aws | 4.4.0-1026-aws | 4.4.0-1028-aws |
-| 4.4.0-1030-aws | 4.4.0-1031-aws | 4.4.0-1032-aws | 4.4.0-1035-aws |
-| 4.4.0-1037-aws | 4.4.0-1038-aws | 4.4.0-1039-aws | 4.4.0-1041-aws |
-| 4.4.0-1043-aws | 4.4.0-1044-aws | 4.4.0-1047-aws | 4.4.0-1048-aws |
-| 4.4.0-1049-aws | 4.4.0-1050-aws | 4.4.0-1052-aws | 4.4.0-1054-aws |
-| 4.4.0-1055-aws | 4.4.0-1057-aws | 4.4.0-1060-aws | 4.4.0-1061-aws |
-| 4.4.0-130-aws | 4.4.0-131-aws | 4.4.0-1065-aws | 4.4.0-1066-aws |
-| 4.4.0-1067-aws | 4.4.0-1069-aws | 4.4.0-138-generic | 4.4.0-1070-aws |
-| 4.15.0-38-generic | 4.4.0-139-generic | 4.4.0-1072-aws | 4.15.0-39-generic |
-| 4.15.0-1027-aws | 4.4.0-140-generic | 4.4.0-1073-aws | 4.15.0-42-generic |
-| 4.4.0-141-generic | 4.4.0-1074-aws | 4.15.0-43-generic | 4.4.0-142-generic |
-| 4.15.0-45-generic | 4.4.0-1075-aws | 4.15.0-46-generic | 4.4.0-143-generic |
-| 4.4.0-1077-aws | 4.15.0-47-generic | 4.4.0-145-generic | 4.4.0-1079-aws |
-| 4.4.0-146-generic | 4.15.0-48-generic | 4.4.0-1081-aws | 4.4.0-148-generic |
-| 4.15.0-50-generic | 4.4.0-1083-aws | 4.4.0-150-generic | 4.4.0-151-generic |
-| 4.15.0-52-generic | 4.15.0-51-generic | 4.4.0-1084-aws | 4.4.0-1085-aws |
-| 4.4.0-154-generic | 4.4.0-1087-aws | 4.15.0-54-generic | 4.4.0-157-generic |
-| 4.4.0-1088-aws | 4.15.0-55-generic | 4.4.0-159-generic | 4.4.0-1090-aws |
-| 4.15.0-58-generic | 4.15.0-62-generic | 4.4.0-164-generic | 4.4.0-1094-aws |
-| 4.15.0-64-generic | 4.4.0-165-generic | 4.4.0-1095-aws | 4.15.0-65-generic |
-| 4.15.0-1014-gcp | 4.15.0-1015-gcp | 4.15.0-1017-gcp | 4.15.0-1018-gcp |
-| 4.15.0-1019-gcp | 4.15.0-1021-gcp | 4.15.0-1023-gcp | 4.15.0-1024-gcp |
-| 4.15.0-1025-gcp | 4.15.0-1026-gcp | 4.15.0-1027-gcp | 4.15.0-1028-gcp |
-| 4.15.0-1029-gcp | 4.15.0-1030-gcp | 4.15.0-1032-gcp | 4.15.0-1033-gcp |
-| 4.15.0-1034-gcp | 4.15.0-1036-gcp | 4.15.0-1037-gcp | 4.15.0-1040-gcp |
-| 4.15.0-1041-gcp | 4.15.0-1042-gcp | 4.15.0-1044-gcp | 4.15.0-1046-gcp |
-| 4.4.0-166-generic | 4.4.0-1096-aws | 4.15.0-66-generic | 4.15.0-1047-gcp |
-| 4.15.0-69-generic | 4.4.0-168-generic | 4.4.0-169-generic | 4.4.0-1098-aws |
-| 4.4.0-170-generic | 4.4.0-1099-aws | 4.15.0-72-generic | 4.15.0-1050-gcp |
-| 4.4.0-171 | 4.15.0-74 | 4.4.0-1100-aws | 4.15.0-1052-gcp | 4.4.0-173-generic |
-| 4.4.0-1101-aws | 4.15.0-76-generic | 4.4.0-1102-aws | 4.15.0-1055-gcp |
-| 4.4.0-174-generic | 4.15.0-88-generic | | |
-
-### Ubuntu 16.04.5 Supported Versions
-
-| | | | |
-|-|-|-|-|
-| 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
-| 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
-| 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
-| 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
-| 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
-| 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
-
-
-### Ubuntu 18.04 LTS Supported Versions
+### Ubuntu 16.04LTS supported versions
 
 | | | | |
 |-|-|-|-|
@@ -571,35 +526,108 @@ and no longer provide adaquate telemetry to our Security Operations Center (SOC)
 | 4.4.0-1101-aws | 4.15.0-76-generic | 4.4.0-1102-aws | 4.15.0-1055-gcp |
 | 4.4.0-174-generic | 4.15.0-88-generic | | |
 
+<br/>
 
-### Windows Server 2008 R2 SP1 Supported Versions
+### Ubuntu 16.04.5 supported versions
+
+| | | | |
+|-|-|-|-|
+| 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
+| 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
+| 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
+| 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
+| 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
+| 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
+
+<br/>
+
+### Ubuntu 18.04 LTS supported versions
+
+| | | | |
+|-|-|-|-|
+| 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
+| 4.4.0-31-generic | 4.4.0-34-generic | 4.4.0-36-generic | 4.4.0-38-generic |
+| 4.4.0-42-generic | 4.4.0-43-generic | 4.4.0-45-generic | 4.4.0-47-generic |
+| 4.4.0-51-generic | 4.4.0-53-generic | 4.4.0-57-generic | 4.4.0-59-generic |
+| 4.4.0-62-generic | 4.4.0-63-generic | 4.4.0-64-generic | 4.4.0-66-generic |
+| 4.4.0-67-generic | 4.4.0-70-generic | 4.4.0-71-generic | 4.4.0-72-generic |
+| 4.4.0-75-generic | 4.4.0-77-generic | 4.4.0-78-generic | 4.4.0-79-generic |
+| 4.4.0-81-generic | 4.4.0-83-generic | 4.4.0-87-generic | 4.4.0-89-generic |
+| 4.4.0-91-generic | 4.4.0-92-generic | 4.4.0-93-generic | 4.4.0-96-generic |
+| 4.4.0-97-generic | 4.4.0-98-generic | 4.4.0-101-generic | 4.4.0-103-generic |
+| 4.4.0-104-generic | 4.4.0-108-generic | 4.4.0-109-generic | 4.4.0-112-generic |
+| 4.4.0-116-generic | 4.4.0-119-generic | 4.4.0-121-generic | 4.4.0-122-generic |
+| 4.4.0-124-generic | 4.4.0-127-generic | 4.4.0-128-generic | 4.4.0-130-generic |
+| 4.4.0-131-generic | 4.4.0-133-generic | 4.4.0-134-generic | 4.4.0-135-generic |
+| 4.4.0-137-generic | 4.4.0-1001-aws | 4.4.0-1003-aws | 4.4.0-1004-aws |
+| 4.4.0-1007-aws | 4.4.0-1009-aws | 4.4.0-1011-aws | 4.4.0-1012-aws |
+| 4.4.0-1013-aws | 4.4.0-1016-aws | 4.4.0-1017-aws | 4.4.0-1018-aws |
+| 4.4.0-1020-aws | 4.4.0-1022-aws | 4.4.0-1026-aws | 4.4.0-1028-aws |
+| 4.4.0-1030-aws | 4.4.0-1031-aws | 4.4.0-1032-aws | 4.4.0-1035-aws |
+| 4.4.0-1037-aws | 4.4.0-1038-aws | 4.4.0-1039-aws | 4.4.0-1041-aws |
+| 4.4.0-1043-aws | 4.4.0-1044-aws | 4.4.0-1047-aws | 4.4.0-1048-aws |
+| 4.4.0-1049-aws | 4.4.0-1050-aws | 4.4.0-1052-aws | 4.4.0-1054-aws |
+| 4.4.0-1055-aws | 4.4.0-1057-aws | 4.4.0-1060-aws | 4.4.0-1061-aws |
+| 4.4.0-130-aws | 4.4.0-131-aws | 4.4.0-1065-aws | 4.4.0-1066-aws |
+| 4.4.0-1067-aws | 4.4.0-1069-aws | 4.4.0-138-generic | 4.4.0-1070-aws |
+| 4.15.0-38-generic | 4.4.0-139-generic | 4.4.0-1072-aws | 4.15.0-39-generic |
+| 4.15.0-1027-aws | 4.4.0-140-generic | 4.4.0-1073-aws | 4.15.0-42-generic |
+| 4.4.0-141-generic | 4.4.0-1074-aws | 4.15.0-43-generic | 4.4.0-142-generic |
+| 4.15.0-45-generic | 4.4.0-1075-aws | 4.15.0-46-generic | 4.4.0-143-generic |
+| 4.4.0-1077-aws | 4.15.0-47-generic | 4.4.0-145-generic | 4.4.0-1079-aws |
+| 4.4.0-146-generic | 4.15.0-48-generic | 4.4.0-1081-aws | 4.4.0-148-generic |
+| 4.15.0-50-generic | 4.4.0-1083-aws | 4.4.0-150-generic | 4.4.0-151-generic |
+| 4.15.0-52-generic | 4.15.0-51-generic | 4.4.0-1084-aws | 4.4.0-1085-aws |
+| 4.4.0-154-generic | 4.4.0-1087-aws | 4.15.0-54-generic | 4.4.0-157-generic |
+| 4.4.0-1088-aws | 4.15.0-55-generic | 4.4.0-159-generic | 4.4.0-1090-aws |
+| 4.15.0-58-generic | 4.15.0-62-generic | 4.4.0-164-generic | 4.4.0-1094-aws |
+| 4.15.0-64-generic | 4.4.0-165-generic | 4.4.0-1095-aws | 4.15.0-65-generic |
+| 4.15.0-1014-gcp | 4.15.0-1015-gcp | 4.15.0-1017-gcp | 4.15.0-1018-gcp |
+| 4.15.0-1019-gcp | 4.15.0-1021-gcp | 4.15.0-1023-gcp | 4.15.0-1024-gcp |
+| 4.15.0-1025-gcp | 4.15.0-1026-gcp | 4.15.0-1027-gcp | 4.15.0-1028-gcp |
+| 4.15.0-1029-gcp | 4.15.0-1030-gcp | 4.15.0-1032-gcp | 4.15.0-1033-gcp |
+| 4.15.0-1034-gcp | 4.15.0-1036-gcp | 4.15.0-1037-gcp | 4.15.0-1040-gcp |
+| 4.15.0-1041-gcp | 4.15.0-1042-gcp | 4.15.0-1044-gcp | 4.15.0-1046-gcp |
+| 4.4.0-166-generic | 4.4.0-1096-aws | 4.15.0-66-generic | 4.15.0-1047-gcp |
+| 4.15.0-69-generic | 4.4.0-168-generic | 4.4.0-169-generic | 4.4.0-1098-aws |
+| 4.4.0-170-generic | 4.4.0-1099-aws | 4.15.0-72-generic | 4.15.0-1050-gcp |
+| 4.4.0-171 | 4.15.0-74 | 4.4.0-1100-aws | 4.15.0-1052-gcp | 4.4.0-173-generic |
+| 4.4.0-1101-aws | 4.15.0-76-generic | 4.4.0-1102-aws | 4.15.0-1055-gcp |
+| 4.4.0-174-generic | 4.15.0-88-generic | | |
+
+<br/>
+
+### Windows Server&reg; 2008 R2 SP1 supported versions
 
 | | | | |
 |-|-|-|-|
 | 6.1.7601 | | | |
 
+<br/>
 
-### Windows Server 2012 Supported Versions
+### Windows Server 2012 supported versions
 
 | | | | |
 |-|-|-|-|
 | 6.2.9200 | | | |
 
+<br/>
 
-### Windows Server 2012 R2 Supported Versions
+### Windows Server 2012 R2 supported versions
 
 | | | | |
 |-|-|-|-|
 | 6.3.9600 | | | |
 
+<br/>
 
-### Windows Server 2016 Supported Versions
+### Windows Server 2016 supported versions
 
 | | | | |
 |-|-|-|-|
 | 10.0.14393 | | | |
 
-### Windows Server 2019 Supported Versions
+### Windows Server 2019 supported versions
 
 | | | | |
 |-|-|-|-|
