@@ -1,22 +1,22 @@
 ---
 permalink: iis-sni-overview/
-audit_date:
+audit_date: '2020-03-23'
 title: 'IIS SNI Overview'
 type: article
 created_date: '2020-03-17'
 created_by: Steven Mondragon-DeVoss
-last_modified_date: 
-last_modified_by:
+last_modified_date: '2020-03-23'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-*This article is applicable to the following Windows Server versions: 2012, 2012 R2, 2016, 2019*
+*This article applies to the following Windows&reg; Server versions: 2012, 2012 R2, 2016, 2019*
 
-Server Name Identification (SNI) is an extension of the Secure Socket Layer (SSL) and Transport Layer Security (TLS) protocol that enables you to host multiple SSL certificates on a single unique Internet Protocol (IP) address. This article provides an overview on using Server Name Indication (SNI) within IIS on a Windows server.
+Server Name Identification (SNI) is an extension of the Secure Socket Layer (SSL) and Transport Layer Security (TLS) protocol that enables you to host multiple SSL certificates on a single unique Internet Protocol (IP) address. This article provides an overview of using Server Name Indication (SNI) within IIS on a Windows server.
 
 
-## Prerequisites
+### Prerequisites
 
 Your server must meet the following requirements to use SNI:
 
@@ -27,39 +27,49 @@ The following operating systems support SNI without additional modifications:
 
     * Windows Server 2012 or later
 
-## Configure SNI
+### Configure SNI
 
-Once you have the certificate installed using the [Install an SSL certificate](https://support.rackspace.com/how-to/install-an-ssl-certificate/#install-certificate-on-windows-servers) article, this section picks up on the **Set up the bindings** section.
+Install the certificate by using the [Install an SSL certificate](https://support.rackspace.com/how-to/install-an-ssl-certificate/#install-certificate-on-windows-servers) article. Then return to this article to set up the bindings by using SNI.
 
-# Set up the bindings
-    * In the IIS Manager, right-click your site and select **Edit Bindings**.
-    * In the **Site Bindings** windows, click **Add**.
-    * In the **Add Site Binding** dialog box, perform the following steps: 
-        * Set the value of **Type** to https
-        * Specify the host name
-        * Check the box for **Require Server Name Indication**
-        * From the SSL certificate list, select your certificate
-        * Click OK.
-****Note** - When hosting multiple sites using different certificates on a single IP, you will need to enable SNI on all sites for that IP. Otherwise, the site will need its own IP.
+#### Set up the bindings
 
-## Supported browsers
+1. In the IIS Manager, right-click your site and select **Edit Bindings**.
+2. In the **Site Bindings** window, click **Add**.
+3. In the **Add Site Binding** dialog box, perform the following steps: 
+         a. Set the value of **Type** to https.
+         b. Specify the host name.
+         c. Check the box for **Require Server Name Indication**.
+         d. From the SSL certificate list, select your certificate.
+         e. Click **OK**.
+        
+****Note** - When you host multiple sites by using different certificates on a single IP address, you 
+need to enable SNI on all sites for that IP address. Otherwise, the site needs its own IP address.
 
-SNI is supported by most browsers, however older browsers such as Internet Explorer® 6 and any Windows® XP® browser do not support SNI.
+### Supported browsers
 
-# Desktop browsers
-    * Internet Explorer 7 and later
-    * Firefox® 2 and later
-    * Opera 8 with TLS 1.1 enabled
-    * Google Chrome®:
-        * Supported on Windows XP on Chrome 6 and later
-        * Supported on Vista and later by default
-        * Supported on OS X 10.5.7 in Chrome Version 5.0.342.0 and later
-    * Chromium® 11.0.696.28 and later
-    * Safari 2.1 and later (requires OS X 10.5.6 and later or Windows Vista and later).
+Most brosers support SNI, but older browsers, such as Internet Explorer® 6 and any Windows® XP® browser,
+do not support SNI.
 
-Note: No versions of Internet Explorer on Windows XP support SNI.
+#### Desktop browsers
 
-# Mobile browsers
-    * Mobile Safari for iOS 4.0 and later
-    * Android 3.0 (Honeycomb) and later
-    * Windows Phone 7 and later
+The following desktop browsers support SNI:
+
+- Internet Explorer 7 and later
+- Firefox® 2 and later
+- Opera 8 with TLS 1.1 enabled
+- Google Chrome®:
+        - Supported on Windows XP on Chrome 6 and later
+        - Supported on Vista and later by default
+       - Supported on OS X 10.5.7 in Chrome Version 5.0.342.0 and later
+- Chromium® 11.0.696.28 and later
+- Safari 2.1 and later (requires OS X 10.5.6 and later or Windows Vista and later).
+
+**Note:** No versions of Internet Explorer on Windows XP support SNI.
+
+#### Mobile browsers
+
+The following desktop browsers support SNI:
+
+- Mobile Safari for iOS 4.0 and later
+- Android 3.0 (Honeycomb) and later
+- Windows Phone 7 and later
