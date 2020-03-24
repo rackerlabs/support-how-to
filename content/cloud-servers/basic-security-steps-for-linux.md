@@ -1,65 +1,19 @@
 ---
 permalink: basic-security-steps-for-linux
-audit_date: '2019-01-25'
+audit_date: '2020-03-24'
 title: Basic security steps for Linux
 type: article
 created_date: '2019-01-25'
 created_by: Rackspace Community
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-03-24'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article discusses basic security settings for an initial setup of a Linux&reg; server.
+This article discusses advanced security settings for a Linux&reg; server. The steps in ths article describe how to modify the `GRUB` or `GRUB2` bootloader to apply password protection to your Emergency Console. 
 
-
-### Root account security
-
-**Note:** The Ubuntu&reg; operating system has disabled the root account by default. If you use the Ubuntu operating system, begin at [disabling root login](#disabling-root-login).
-
-This section covers the importance of root account security and the steps to take to make root more secure.
-Rather than disabling the root account, you should change the password to an unreadable string.
-
-Prior to changing the root account password, you need to establish a pseudo-root user account by using the following commands:
-
-  `groupadd sudoers`
-
-  `useradd -m -G sudoers myuser`
-
-  `passwd myuser`
-
-The password for the new user is now set, and that new user is a member of a non-default group.
-
-Next, you change the root password to an extremely long password that includes characters that cannot be entered by a human by using the following command:
-
-- ```dd if=/dev/urandom bs=256 count=1 |passwd --stdin root```
-
-Now you add the new user to the **sudoers** group. If you are using RHEL7&reg; or a derivative of it, such as CentOS 7&reg;, or Scientific Linux 7&reg;, modify the **sudoers** group by using the following ```visudo``` command:
-
-- ```visudo -f /etc/sudoers.d/local.conf```
-
-**Note:** If you are using any distribution other than the ones listed above, use ```visudo``` without any command line parameters as follows: ```visudo```
-
-Regardless of distribution, add the following line to the end of the file:
-
-- ```%sudoers localhost=(ALL) ALL```
-
-This line indicates that any member of **sudoers** group may use the root account to run any command. If the system does not have access to the sudo command, you are prompted for your pseudo-root user account password.
-
-### Disabling the root login
-
-In this section, you configure Secure Shell (SSH) so that it does not permit root logins. Each distribution's Secure Shell Daemon (SSHD) configuration file is slightly different in this respect. Some default to having the directive commented out, while others have it uncommented and set to ```yes```.
-
-For most Linux distributions, you perform the following steps:
-
-1. Edit the file ```/etc/ssh/sshd_config``` by using a text editor such as **vim**.
-
-2. Locate the line in the SSHD configuration file that contains ```PermitRootLogin```.
-
-3. Edit the ```PermitRootLogin``` line so that it is uncommented and reads ```PermitRootLogin no```.
-
-This configuration change disables the ability to directly login as the root user account over SSH.
+**IMPORTANT**: The steps in this article should only be necessary if you have reason to believe a bad actor has gained access to your Rackspace Portal. These steps could be used as basic server security, however the main focus is protecting your server in the case of an account level compromise. For more information regarding basic Linux server security, please refer to this article: [Linux server security best practices](https://support.rackspace.com/how-to/linux-server-security-best-practices/)
 
 ### Emergency console security
 
@@ -93,7 +47,7 @@ Use the steps below for distributions that use GRUB2:
 
 2. Run the following command:
 
-   `vi /etc/grub.d/40_custom`
+   `vim /etc/grub.d/40_custom`
 
 3. Enter the following lines into this file:
 
@@ -120,7 +74,7 @@ You should be able to start the system without any issue or human intervention, 
 
 2. Run the following command:
 
-   `vi /boot/grub/menu.lst`
+   `vim /boot/grub/menu.lst`
 
 3. Locate the line that begins with ```timeout=```.
 
