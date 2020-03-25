@@ -15,12 +15,7 @@ The following article provides information on how to configure an SSL certificat
 
 Cloud Load Balancers can be configured to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. This functionality can be applied to HTTP Load Balancers. Additionally, you can configure Server Name Indication (`SNI`) on your Cloud Load Balancer through your Rackspace Portal. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. More information is available at this link: [Configure multiple SSL certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/) 
 
-### Prerequisites
-	- You must create an HTTP (80) Load Balancer
-	- You must have an SSL certificate and Private Key for your domain in .pem format.
-	- Must have your domain configured on you server behind the load balancer. 
-
-### SSL Termination
+## SSL Termination
 
 The SSL termination feature enables you to terminate SSL traffic at the load balancer layer versus at the web server layer. You can choose to configure SSL termination using a key and an SSL certificate or an (Intermediate) SSL certificate. When SSL termination is configured on a load balancer, a secure shadow server is created that listens only for secure traffic on a user-specified port. This shadow server is only visible to and manageable by the system. Existing or updated attributes on a load balancer with SSL termination also applies to its shadow server. For example, if Connection Logging is enabled on an SSL load balancer, it is also enabled on the shadow server and Cloud Files logs contain log files for both.
 
@@ -37,10 +32,12 @@ The following table shows the possible response codes for the operation.
 500|Load Balancer Fault|The load balancer has experienced a fault.
 503|Service Unavailable|The service is not available.
 
+### Prerequisites
+	- You must create an HTTP (80) Load Balancer
+	- You must have an SSL certificate and Private Key for your domain in .pem format.
+	- Must have your domain configured on you server behind the load balancer. 
 
-**NOTE**: Load Balancers can host a total of 20 domains, including the main certificate on the Load Balancer. Each domain requires its own certificate mapping, even if the same certificate is used. For example, if you have an SSL certificate that is valid for \*.example.com , and you want to host *abc.example.com* and *def.example.com* from the Cloud Load Balancer, you must create a mapping for both domains.
-
-### Applying an SSL certificate to a Cloud Load Balancer
+## Applying an SSL certificate to a Cloud Load Balancer
 
 1.	From your **Cloud Control Panel** select **Networking** > **Load Balancers**. 
 
@@ -56,7 +53,7 @@ The following table shows the possible response codes for the operation.
 
 At this point, if your server has been configured to accept traffic for the domain behind the load balancer, you should now be able to access the site securely. 
 
-### Removing or updating your SSL certificate
+## Removing or updating an SSL certificate
 
 **IMPORTANT**: If updating the certificate, you will need to provide the Private Key even if the Key did not change. This is intentional and is done for security purposes. 
 
