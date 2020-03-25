@@ -24,7 +24,7 @@ Cloud Load Balancers can be configured to terminate SSL connections. SSL-termina
 **NOTE**: If you haven't added a main certificate to your Load Balancer, please refer to this link: [Configure SSL Certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-SSL-certificates-on-cloud-load-balancers/)
 
 
-### Applying multiple SSL certificates to Cloud Load Balancer
+## Applying multiple SSL certificates to Cloud Load Balancer
 
 **NOTE**: Load Balancers can host a total of 20 domains, including the main certificate on the Load Balancer. Each domain requires its own certificate mapping, even if the same certificate is used. For example, if you have an SSL certificate that is valid for \*.example.com , and you want to host *abc.example.com* and *def.example.com* from the Cloud Load Balancer, you must create a mapping for both domains.
 
@@ -47,8 +47,10 @@ Using `SNI`, your Cloud Load Balancer can serve multiple certificates to provide
 
 Once completed, you should see a new clickable item under **Certificate Mappings** indicating the number of **Certificate Mappings** on the Load Balancer. 
 
+At this point if you've configured your server to receive traffic for the mapped domain, you should now be able to access the site over HTTPS. 
 
-### Removing or replacing a certificate mapping
+
+## Removing or replacing a certificate mapping
 
 If you need to remove or replace a certificate mapping, you can do so by following these steps. 
 
