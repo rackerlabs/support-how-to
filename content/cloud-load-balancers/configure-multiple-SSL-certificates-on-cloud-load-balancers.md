@@ -11,12 +11,9 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-Cloud Load Balancers can be configured to terminate SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. This feature is available to HTTP Load Balancers. Additionally, you can configure **Certiciate Mappings** through Server Name Indication (`SNI`) on your Cloud Load Balancer through your Cloud Control Panel. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. 
-
-
 The following article provides information on how to configure multiple SSL certificates on your Load Balancer.
 
-**NOTE**: Load Balancers can host a total of 20 domains, including the main certificate on the Load Balancer. Each domain requires its own certificate mapping, even if the same certificate is used. For example, if you have an SSL certificate that is valid for \*.example.com , and you want to host abc.example.com and def.example.com from the Cloud Load Balancer, you must create a mapping for both domains.
+Cloud Load Balancers can be configured to terminate SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. This feature is available to HTTP Load Balancers. Additionally, you can configure **Certiciate Mappings** through Server Name Indication (`SNI`) on your Cloud Load Balancer through your Cloud Control Panel. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. 
 
 ### Prerequisites
 	- You must create an HTTP (80) Load Balancer
@@ -24,8 +21,12 @@ The following article provides information on how to configure multiple SSL cert
 	- Must have your domain configured on you server behind the load balancer. 
 	- You must have already configured an SSL on your load balancer.
 
+**NOTE**: If you haven't added a main certificate to your Load Balancer, please refer to this link: [Configure SSL Certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-SSL-certificates-on-cloud-load-balancers/)
+
 
 ### Applying multiple SSL certificates to Cloud Load Balancer
+
+**NOTE**: Load Balancers can host a total of 20 domains, including the main certificate on the Load Balancer. Each domain requires its own certificate mapping, even if the same certificate is used. For example, if you have an SSL certificate that is valid for \*.example.com , and you want to host *abc.example.com* and *def.example.com* from the Cloud Load Balancer, you must create a mapping for both domains.
 
 Using `SNI`, your Cloud Load Balancer can serve multiple certificates to provide secure connections to your domains. 
 
