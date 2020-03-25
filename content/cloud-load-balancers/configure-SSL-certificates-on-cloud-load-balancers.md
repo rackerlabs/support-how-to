@@ -1,11 +1,11 @@
 ---
 permalink: configure-SSL-certificates-on-cloud-load-balancers/
-audit_date: '2020-03-24'
+audit_date: '2020-03-25'
 title: Configure SSL certificates on Cloud Load Balancers
 type: article
 created_date: '2020-03-24
 created_by: Chris Silva
-last_modified_date: '2020-03-24'
+last_modified_date: '2020-03-25'
 last_modified_by: Chris Silva
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
@@ -15,7 +15,7 @@ Cloud Load Balancers can be configured to accept SSL connections. SSL-terminated
 
 The following article provides information on how to configure an SSL certificate on your Load Balancer.
 
-**NOTE**: Load Balancers can host a total of 20 SSL certificates including the main certificate on the Load Balancer. 
+**NOTE**: Load Balancers can host a total of 20 domains, including the main certificate on the Load Balancer. Each domain requires its own certificate mapping, even if the same certificate is used. For example, if you have an SSL certificate that is valid for \*.example.com , and you want to host *abc.example.com* and *def.example.com* from the Cloud Load Balancer, you must create a mapping for both domains. 
 
 ### Prerequisites
 	- You must create an HTTP (80) Load Balancer
@@ -28,21 +28,21 @@ The SSL termination feature enables you to terminate SSL traffic at the load bal
 
 The following table shows the possible response codes for the operation.
 
-| Response Code  | Name  | Description  |
-|:-:|:-:|:-:|---|---|
-| 200  | Success  | Request succeeded.  |
-| 400  |  Bad Request | The request is missing one or more elements, or the values of some elements are invalid.  |
-| 401  |  Unauthorized | You are not authorized to complete this operation. This error can occur if the request is submitted with an invalid authentication token.  |
-| 404  |  Not Found | The requested item was not found.  |
-| 413  |  Over Limit | 	The number of items returned is above the allowed limit.  |
-| 422  |  Immutable Entity | This fault is returned when a user attempts to modify an item that is not currently in a state that allows modification. For example, load balancers in a status of PENDING_UPDATE, BUILD, or DELETED may not be modified.  |
-| 500  |  Load Balancer Fault | The load balancer has experienced a fault.  |
-| 503  |  Service Unavailable | The service is not available.  |
+**Response Code**|**Name**|**Description**
+-----|-----|-----
+200|Success|Request succeeded.
+400|Bad Request|The request is missing one or more elements, or the values of some elements are invalid.
+401|Unauthorized|You are not authorized to complete this operation. This error can occur if the request is submitted with an invalid authentication token.
+404|Not Found|The requested item was not found.
+413|Over Limit|The number of items returned is above the allowed limit.
+422|ImmutableEntity|This fault is returned when a user attempts to modify an item that is not currently in a state that allows modification. For example, load balancers in a status of PENDING\_UPDATE,BUILD, or DELETED may not be modified.
+500|Load Balancer Fault|The load balancer has experienced a fault.
+503|Service Unavailable|The service is not available.
 
 
 ### Applying SSL certificate to Cloud Load Balancer
 
-1.	From your **Rackspace Portal** select **Networking** > **Load Balancers**. 
+1.	From your **Cloud Control Panel** select **Networking** > **Load Balancers**. 
 
 2.	Select the Load Balancer to which you want to apply your SSL Certificate. 
 
@@ -60,7 +60,7 @@ If you've followed these steps and your server has been configured to accept tra
 
 **IMPORTANT**: If updating the certificate, you will need to provide the Private Key even if the Key did not change. This is intentional and is done for security purposes. 
 
-1.	From your **Rackspace Portal** select **Networking** > **Load Balancers**. 
+1.	From your **Cloud Control Panel** select **Networking** > **Load Balancers**. 
 
 2.	Select the Load Balancer to which you want to apply your SSL Certificate. 
 
