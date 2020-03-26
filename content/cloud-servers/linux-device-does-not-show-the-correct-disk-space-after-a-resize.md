@@ -37,9 +37,9 @@ This option leaves the root partition unchanged and leaves any additional space 
 With the manual disk configuration, the root partition shows as unchanged after the resize completes.
 To correct this error, use the following command to perform a file system extension:
 
-    resize2fs /dev/xvd(xx)
+    resize2fs /dev/xvd<xx>
 
-**NOTE**: You'll need to replace the `(xx)` portion of the command with the appropriate filesystem name. (Ex.: `/dev/xvda1`)
+**NOTE**: You need to replace the `<xx>` portion of the command with the appropriate filesystem name, such as `/dev/xvda1`.
 
 After the command completes, rerun the ``df -h`` command to confirm success. You should see output similar to the following:
 
