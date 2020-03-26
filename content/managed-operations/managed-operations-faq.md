@@ -5,8 +5,8 @@ title: Managed Operations FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2018-10-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-3-26'
+last_modified_by: Chad Sterling
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -35,7 +35,7 @@ addresses several issues that the relational model is not designed to address.
 For example, NoSQL databases are able to store semi-unstructured and
 unstructured data.
 
-However, in order to support reliability and security, developers must
+However, to support reliability and security, developers must
 implement their own code, which makes NoSQL systems more complex. This
 complexity limits the number of applications that can rely on NoSQL databases
 for secure and reliable transactions.
@@ -72,7 +72,7 @@ actions by using Java or Python scripting.
 Managed Database Services offers varying levels of support. The level of
 support that is included depends on your service level agreement (SLA).
 
-Under both of the available SLAs, DBAdministrator and DBArchitect, the Managed
+Under both of the available SLAs, DBAdministrator, and DBArchitect, the Managed
 Databases team maintains the availability and security of your database in
 accordance with your SLA. We also regularly back up your database, perform
 required patches at regular intervals, and proactively monitor and respond to
@@ -118,7 +118,7 @@ Yes. For information, go to
 
 You can contact the Managed Operations team via direct chat, a phone
 call to 1-800-961-4454, or by submitting a ticket online. There are
-links to all of these options on the Control Panel.
+links to all these options on the Control Panel.
 
 #### As a Rackspace customer, can I link my Managed Hosting configuration and account to a Cloud Server with Managed Operations Service Level configuration and account?
 
@@ -127,7 +127,7 @@ accounts and your cloud accounts.
 
 #### Is there a cost associated with data migration services?
 
-The Managed Operations team can help you determine if a migration is
+The Managed Operations team can help you decide if a migration is
 needed. If it is, the Managed Operations team works with the Rackspace
 Professional Services team on the migration, or they can recommend a
 Rackspace Partner. Any work performed by the Rackspace Professional
@@ -145,7 +145,7 @@ migration is necessary in order for the appropriate OS images, patching
 and updates, and system administration access provisions to be deployed
 on the server. All of these features are necessary for the Managed
 Operations team to provide you with the highest quality support for your
-server. The Managed Operations support team will help you determine the
+server. The Managed Operations support team helps you find the
 most efficient and effective way to migrate your Managed Infrastructure
 server to a Managed Operations Service Level account.
 
@@ -153,15 +153,15 @@ server to a Managed Operations Service Level account.
 
 Because the Managed Operations is offered at the account level, every
 cloud product in the account receives the Managed Operations. Therefore,
-if you want to have some cloud servers that do not have a Managed
-Operations and some that do, you will need to have a separate account
+if you want to have some cloud servers that don't have a Managed
+Operations and some that do, you need a separate account
 for the Cloud Servers without Managed Operations. Servers on the other
 account will be at the Managed Infrastructure Service Level.
 
 #### What is Rackspace Cloud Backup?
 
 Rackspace Cloud Backup is a file-level storage option for Cloud Servers.
-It allows you to configure backups through the Control Panel and choose
+It lets you configure backups through the Control Panel and choose
 to back up a particular folder or file with the frequency that works
 best for you.
 
@@ -227,7 +227,7 @@ apply](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/)).
 Cloud Servers with a Managed Operations Service Level extends the
 enhanced managed support level from our Managed Hosting offering into
 our Cloud offering. The Managed Operations Service Level provides an
-additional level of support that includes monitoring, OS and application
+additional level of support that includes monitoring, OS, and application
 infrastructure layer support, and technical guidance for your Cloud
 Servers.
 
