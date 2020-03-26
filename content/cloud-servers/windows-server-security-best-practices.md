@@ -1,12 +1,12 @@
 ---
 permalink: windows-server-security-best-practices/
-audit_date: '2016-11-28'
+audit_date: '2020-03-26'
 title: Windows Server security best practices
 type: article
 created_date: '2014-07-15'
 created_by: Rackspace Support
-last_modified_date: '2016-11-11'
-last_modified_by: Hounsou Dansou
+last_modified_date: '2020-03-26'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -18,11 +18,11 @@ do not change the following configurations as you consider security best practic
 
 - When connecting to your server, Rackspace Support logs in as the user **rack** by using Remote Desktop Connection to the public IP address over port 3389. 
 
-- Rebuilding existing servers or building a new server from a snapshot requires that Administrator logins are enabled and port 445 is not blocked in the Windows firewall. 
+- Rebuilding existing servers or building a new server from a snapshot requires that Administrator logins are enabled and port 445 is not blocked in the Microsoft&reg; Windows firewall. 
 
 If you must change these values, contact an administrator at Rackspace to make the
-changes in a way that does not impact our ability to provide you with *Fanatical
-Support*®.
+changes in a way that does not impact our ability to provide you with a *Fanatical
+Experience*®.
 
 
 ------
@@ -75,6 +75,7 @@ Port  | Description
 53 DNS | Default port used for DNS requests
 
 
+
 ### Consider what you share
 
 Consider what data is available to others via file sharing. We do not recommend
@@ -98,7 +99,7 @@ Whether or not you have provisioned a cloud server with a hardware firewall, as
 previously stated, your server is only as secure as the weakest password that has access
 to it. Follow these tips for passwords:
 
-- Use strong passwords of at least 8 to 10 characters that include uppercase and lowercase letters, numbers, and special characters (such as !, #, $, and %). Assigning simple passwords can be extremely dangerous, especially for a cloud server that is available over the public Internet.
+- Use strong passwords of at least 12 to 14 characters that include uppercase and lowercase letters, numbers, and special characters (such as !, #, $, and %). Assigning simple passwords can be extremely dangerous, especially for a cloud server that is available over the public Internet.
 
 - Set an expiration date for each user's password. Although it is inconvenient to have to remember a new password periodically, this practice can make your data more secure.
 
@@ -149,7 +150,7 @@ SQL port 1433 to listen over the public interface, but this rule must be limited
 the IP addresses of the computers where the developers are connecting to the
 databases on the server. 
 
-If you don’t limit these connections to the server, port 1433 will be exposed and outside
+If you don’t limit these connections to the server, port 1433 is exposed and outside
 hackers *will* attempt a brute-force attack on the server over this port. These types of
 attacks cause high network traffic, slow the server's performance, and even bring down
 sites if an important account gets locked out. By limiting access to this port, these issues
@@ -162,7 +163,7 @@ your hard drive
 
 ### Windows updates
 
-Ensure that Windows updates are enabled, and be mindful of the state of your server --
+Ensure that Windows updates are enabled, and be mindful of the state of your server&mdash;
 ensure that your Windows OS is patched. Patch Tuesday, which occurs on the second
 Tuesday of each month in North America, is the day on which Microsoft regularly
 releases security patches. Customers must decide how best to implement a patching
@@ -190,10 +191,12 @@ valid. Create a new server instance from an image to ensure that the image is va
 restore a file from Cloud Backups to verify that the data being backed up can be
 restored.
 
+**Note**: Not all servers can benefit from Cloud Images. Specifically, servers that use *Boot from Volume* configurations cannot be imaged. Additionally, while a server image can be useful, images should never be considered the only source of backup because the image process does not verify the file integrity. Rackspace strongly recommends file-level backups for your most important data. Thus, you should consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
+
 ### Code 
 
 The last attack surface exposed to the Internet is the code. You and
-your developers must ensure that the code is enforcing proper
+your developers must ensure that your code is enforcing proper
 authentication and authorization. For example, a web application should
 not be executed with administrator-level privileges. File authorization
 should be carefully defined and all inputs on the application should
@@ -204,11 +207,10 @@ The following sites provide information about improving ASP .Net security:
 
 -  <http://www.asp.net/web-forms/pluralsight>
 -  <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
--   <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
+-  <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
 
 ### Conclusion
 
 Depending on the use case, customers might have other more specific
 needs to address when leveraging our Cloud Servers product to meet their
-hosting needs. However, these general recommendations are a good start when considering security while creating Windows servers,
-cloud or otherwise.
+hosting needs. However, these general recommendations are a good start when considering security while creating Windows servers, cloud or otherwise.
