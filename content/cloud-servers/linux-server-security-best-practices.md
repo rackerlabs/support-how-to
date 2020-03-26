@@ -1,11 +1,11 @@
 ---
 permalink: linux-server-security-best-practices/
-audit_date: '2020-03-24'
+audit_date: '2020-03-26'
 title: Linux server security best practices
 type: article
-created_date: '2020-03-24'
-created_by: Chris Silva
-last_modified_date: '2020-03-24'
+created_date: '2014-07-16'
+created_by: Christoph Champ and Reese McJunkin
+last_modified_date: '2020-03-26'
 last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
@@ -16,7 +16,7 @@ on it. You should perform this crucial step on every server to prevent bad actor
 from obtaining unwanted access. This action results in a more secure environment that
 helps prevent you and your business from being compromised. Performing these basic
 steps and hardening the security on your server discourages bad actors
-and make them move on to a new target.
+and makes them move on to a new target.
 
 ### User management
 
@@ -24,10 +24,10 @@ By default, the **root** user is created as the first user on every Linux system
 You should disable it via Secure Shell (SSH). Disabling this root user via SSH
 makes it harder for a bad actor to gain access to the system. Because the root user
 is created by default on every Linux server, bad actors already have half the
-information they need to log in to your server if the `root` user is enabled via
+information they need to log in to your server if the root user is enabled via
 SSH. This allows for brute-force SSH attacks until the password hash breaks.
 
-To avoid this situation, you should create a secondary user for use when you need
+To avoid this situation, you should create a secondary user for when you need
 to log in and administer the system. Each end user on the system should have
 their own login credentials for logging purposes. Depending on the actions that
 the end user needs to perform, they might need `sudo` permission to complete
@@ -72,20 +72,19 @@ guidelines advocated by proponents of software system security:
 
     Alternatively, you can modify the **sudoers** file to give the user `sudo` permissions.
 
-    a.  Run the following command as root to edit the list of user permissions:
+    a. Run the following command as root to edit the list of user permissions:
 
         visudo
 
-    **Note:** On some distributions, systems use the `vi` text editor for
-      `visudo`. Because `vi` is not a user-friendly editor, you might need to
-      consult a [vi tutorial](http://bignosebird.com/docs/vi.shtml) for help.       
+       **Note:** On some distributions, systems use the `vi` text editor for 
+       `visudo`. Because `vi` is not a user-friendly editor, you might need to
+       consult a [vi tutorial](http://bignosebird.com/docs/vi.shtml) for help.       
 
-    b.  Add the following line directly after the line containing
-        `root ALL=(ALL:ALL) ALL`:
+    b. Add the following line directly after the line containing `root ALL=(ALL:ALL) ALL`:
 
         {username}     ALL=(ALL:ALL) ALL
 
-    c.  Save and quit.
+    c. Save and quit.
 
 3.  Switch to the new user and test their permissions by using `sudo` to run a
     command that requires root access:
@@ -123,20 +122,20 @@ when you attempt to authenticate.
 
     Alternatively, you can modify the **sudoers** file to give the user `sudo` permissions.
 
-    a.  Run the following command:
+    a. Run the following command:
 
         visudo
 
-      **Note:** On some distributions, the text editor that the system uses for
-      `visudo` is `vi`. Because `vi` is not a user-friendly editor, you might need to
-      consult a [vi tutorial](http://bignosebird.com/docs/vi.shtml) for help. 
+       **Note:** On some distributions, the text editor that the system uses for
+       `visudo` is `vi`. Because `vi` is not a user-friendly editor, you might need to
+       consult a [vi tutorial](http://bignosebird.com/docs/vi.shtml) for help. 
 
-    b.  Add the following line directly after the line containing
-        `root ALL=(ALL:ALL) ALL`:
+    b. Add the following line directly after the line containing
+       `root ALL=(ALL:ALL) ALL`:
 
         {username}     ALL=(ALL)       ALL
 
-    c.  Save and quit.
+    c. Save and quit.
 
 3.  Switch to the new user and test their permissions by using `sudo` to run a
     command that requires root access:
@@ -174,7 +173,8 @@ to generate and add the SSH key pair.
 
         ssh-keygen -b 4096 -t rsa
 
-    When asked where to save the key, use the default location. Adding a password is optional and is more secure, but can be inconvenient.
+    When asked where to save the key, use the default location. Adding a password is optional
+    and is more secure, but can be inconvenient.
 
     This operation creates two files. The default names are `id_rsa` for your private
     key and `id_rsa.pub` for your public key.
@@ -193,7 +193,7 @@ to generate and add the SSH key pair.
 
         cat .ssh/authorized_keys
 
-**NOTE**: At this point, you added `ssh-key` and password authentication for the user. The next
+At this point, you have added `ssh-key` and password authentication for the user. The next
 section goes over optional steps on how to disable password authentication. 
 
 ### Linux SSH daemon configuration
@@ -264,7 +264,7 @@ and disable password authentication.
 
 2.  Change the following lines:
 
-**NOTE**: By default, the `Port` and `PermitRootLogin` lines are commented out as indicated by the `#` symbol. When commented out, these lines are read as default options even if changes are made to the line. In order to implement these changes, you need to uncomment the associated lines by removing the `#` symbol at the beginning of the associated line.  
+**Note**: By default, the `Port` and `PermitRootLogin` lines are commented out as indicated by the `#` symbol. When commented out, these lines are read as default options even if changes are made to the line. In order to implement these changes, you need to uncomment the associated lines by removing the `#` symbol at the beginning of the associated line.  
 
 Change:
 
@@ -299,7 +299,7 @@ However, do not restart the service yet. Restarting SSH now might lock you out o
 
 Each Linux distribution uses a different software firewall solution. In RHEL and CentOS 7, the default firewall is `firewalld`. On Debian and Ubuntu-based distributions, the default firewall solution is Uncomplicated Firewall (`ufw`). For RHEL and CentOS 6, the default solution is `iptables`. Refer to the following section for your server's OS.
 
-# RHEL, CentOS 7, and firewalld
+##### RHEL, CentOS 7, and firewalld
 
 1. Open the new SSH port by running the following commands:
 
@@ -323,7 +323,7 @@ If you followed these steps, you should see something similar to the following o
         tcp6       0      0 :::2222                 :::*                    LISTEN      1341/sshd 
 
 
-# Ubuntu, Debian, and ufw
+##### Ubuntu, Debian, and ufw
 
 1. Open the new SSH port by running the following commands:
 
@@ -345,9 +345,9 @@ If you followed these steps, you should see something similar to the following o
         tcp6       0      0 :::2222                 :::*                    LISTEN      1341/sshd 
 
 
-# CentOS 6 and iptables
+##### CentOS 6 and iptables
 
-**NOTE**: RHEL and CentOS 6 will be marked End of Life in November 2020. For best security practives, we strongly advise that you consider a newer OS version to host your application or website. 
+**Note**: RHEL and CentOS 6 will be marked End of Life in November 2020. For best security practives, we strongly advise that you consider a newer OS version to host your application or website. 
 
 1.  Open the new SSH port by running the following command:
 
@@ -476,7 +476,7 @@ and [rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-m
 
 Keeping your kernel, packages, and dependencies up-to-date is very important, especially for security-related modules and packages. Some updates, such as, kernel updates, require you to reboot your server. You should schedule maintenances to take place during times that are least disruptive to users because these maintenances cause a short period of downtime. 
 
-**IMPORTANT**: While keeping your system up to date is of vital importance, ensure that the updates you're applying do not negatively impact your production environment. 
+**Important**: While keeping your system up to date is of vital importance, ensure that the updates you're applying do not negatively impact your production environment. 
 
 To check for and install updates on Ubuntu operating systems and Debian, run the following commands:
 
