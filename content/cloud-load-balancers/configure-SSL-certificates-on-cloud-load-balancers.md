@@ -13,7 +13,7 @@ product_url: cloud-load-balancers
 
 The following article provides information on how to configure an SSL certificate on your Load Balancer.
 
-Cloud Load Balancers can be configured to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. This functionality can be applied to HTTP Load Balancers. Additionally, you can configure Server Name Indication (`SNI`) on your Cloud Load Balancer through your Rackspace Portal. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. More information is available at this link: [Configure multiple SSL certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/) 
+Cloud Load Balancers can be configured to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. This functionality can be applied to HTTP Load Balancers. Additionally, you can configure Server Name Indication (`SNI`) on your Cloud Load Balancer through your Cloud Control Panel. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. More information is available at this link: [Configure multiple SSL certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/) 
 
 ## SSL Termination
 
