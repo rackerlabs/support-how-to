@@ -1,11 +1,11 @@
 ---
 permalink: build-your-application-on-the-rackspace-cloud/
-audit_date: '2019-01-22'
+audit_date: '2020-03-26'
 title: Build your application on the Rackspace cloud
 type: article
 created_date: '2019-02-05'
 created_by: Rackspace Community
-last_modified_date: '2020-03-24'
+last_modified_date: '2020-03-26'
 last_modified_by: Chad Sterling
 product: Cloud Servers
 product_url: cloud-servers
@@ -31,7 +31,7 @@ You can also use the Cloud Control Panel to perform the following tasks:
 
 ### Access your cloud servers
 
-You can connect to your Rackspace cloud server by using Secure Shell (SSH),
+You can connect to your Rackspace cloud server with the Secure Shell (SSH),
 Remote Desktop (RDP), or Console. For detailed instructions, see [Connect to a
 cloud server](/how-to/connect-to-a-cloud-server/).
 
@@ -60,7 +60,7 @@ one of the [_Five Pillars of
 Cloudiness_](https://blog.rackspace.com/explore-the-five-pillars-of-cloudiness). Modularizing your
 application can eliminate a single point of
 failure, and allows for significantly faster scaling if necessary. The
-following tips help you create a modular application:
+following are some tips help you create a modular application:
 
 - Decouple your database from your web and app servers. You can do this by
   using a cloud database, or by using a separate cloud server to run your
@@ -73,8 +73,8 @@ following tips help you create a modular application:
 ### Send email from your application
 
 If you want your application to send emails (for password resets,
-weekly digests, or to welcome new users), then you need to configure your
-application to do this. Use the following tips for best results:
+weekly digests, or to welcome new users), then you need to configure it
+to do this. Use the following tips for best results:
 
 - To avoid blacklists, relay your mail through Mailgun&reg; rather than
   sending it directly from your cloud servers.
@@ -93,7 +93,7 @@ to secure your application at every level.
 Take the following security measure at the account level:
 
 - Set up [RBAC](/how-to/getting-started-with-role-based-access-control-rbac/)
-  for your team. Use strong passwords and security questions and answers for
+  for your team. Use strong passwords, security questions, and answers for
   each team member.
 
 #### Infrastructure level
@@ -164,7 +164,7 @@ Operations customers automatically dump their databases to this location.
 Managed Infrastructure customers can configure the same backup by using
 the Holland Backup Manager.
 
-**Note**: Rackspace recommend that you back up databases often and retain them
+**Note**:Rackspace recommend that you back up databases often and retain them
 for a long period of time.
 
 ##### Backups on Windows
