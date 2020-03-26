@@ -1,12 +1,12 @@
 ---
 permalink: windows-server-security-best-practices/
-audit_date: '2016-11-28'
+audit_date: '2020-03-26'
 title: Windows Server security best practices
 type: article
 created_date: '2014-07-15'
 created_by: Rackspace Support
-last_modified_date: '2016-11-11'
-last_modified_by: Hounsou Dansou
+last_modified_date: '2020-03-26'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -75,6 +75,7 @@ Port  | Description
 53 DNS | Default port used for DNS requests
 
 
+
 ### Consider what you share
 
 Consider what data is available to others via file sharing. We do not recommend
@@ -98,7 +99,7 @@ Whether or not you have provisioned a cloud server with a hardware firewall, as
 previously stated, your server is only as secure as the weakest password that has access
 to it. Follow these tips for passwords:
 
-- Use strong passwords of at least 8 to 10 characters that include uppercase and lowercase letters, numbers, and special characters (such as !, #, $, and %). Assigning simple passwords can be extremely dangerous, especially for a cloud server that is available over the public Internet.
+- Use strong passwords of at least 12 to 14 characters that include uppercase and lowercase letters, numbers, and special characters (such as !, #, $, and %). Assigning simple passwords can be extremely dangerous, especially for a cloud server that is available over the public Internet.
 
 - Set an expiration date for each user's password. Although it is inconvenient to have to remember a new password periodically, this practice can make your data more secure.
 
@@ -189,6 +190,8 @@ Check backup jobs to ensure that they complete successfully and that the backups
 valid. Create a new server instance from an image to ensure that the image is valid, and
 restore a file from Cloud Backups to verify that the data being backed up can be
 restored.
+
+**NOTE**: Not all servers can benefit from Cloud Images. Specifically, servers that utilize Boot from Volume configurations cannot be imaged. Additionally, while a server image can be useful, Images should never be considered the only source of backup as the file integrity is not verified as part of the image process. Rackspace strongly recommends file level backups for your most important data. As such, it's important to consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](https://support.rackspace.com/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups/)
 
 ### Code 
 
