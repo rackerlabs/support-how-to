@@ -264,7 +264,7 @@ and disable password authentication.
 
 2.  Change the following lines:
 
-**Note**: By default, the `Port` and `PermitRootLogin` lines are commented out as indicated by the `#` symbol. When commented out, these lines are read as default options even if changes are made to the line. In order to implement these changes, you need to uncomment the associated lines by removing the `#` symbol at the beginning of the associated line.  
+**Note**: By default, the `Port` and `PermitRootLogin` lines are commented out as indicated by the `#` symbol. When commented out, these lines are read as default options even if changes are made to the line. In order to implement these changes, you need to uncomment the associated lines by removing the `#` symbol at the beginning of the associated line. Additionally, before disabling `PasswordAuthentication` make sure that you have configured an SSH key or you will be unable to connect to the server.  
 
 Change:
 
