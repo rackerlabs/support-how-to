@@ -191,7 +191,7 @@ valid. Create a new server instance from an image to ensure that the image is va
 restore a file from Cloud Backups to verify that the data being backed up can be
 restored.
 
-**NOTE**: Not all servers can benefit from Cloud Images. Specifically, servers that use *Boot from Volume* configurations cannot be imaged. Additionally, while a server image can be useful, images should never be considered the only source of backup because the image process does not verify the file integrity. Rackspace strongly recommends file-level backups for your most important data. Thus, you should consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](https://support.rackspace.com/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups/)
+**Note**: Not all servers can benefit from Cloud Images. Specifically, servers that use *Boot from Volume* configurations cannot be imaged. Additionally, while a server image can be useful, images should never be considered the only source of backup because the image process does not verify the file integrity. Rackspace strongly recommends file-level backups for your most important data. Thus, you should consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
 
 ### Code 
 
@@ -207,7 +207,7 @@ The following sites provide information about improving ASP .Net security:
 
 -  <http://www.asp.net/web-forms/pluralsight>
 -  <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
--   <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
+-  <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
 
 ### Conclusion
 
