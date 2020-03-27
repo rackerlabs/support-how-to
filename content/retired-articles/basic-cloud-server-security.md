@@ -7,8 +7,6 @@ created_date: '2011-03-16'
 created_by: Everett Toews
 las_modified_date: '2019-12-20'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 This article provides a script to make web servers more secure. Run the
