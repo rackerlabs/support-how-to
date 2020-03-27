@@ -1,12 +1,12 @@
 ---
 permalink: wildcard_ssl_overview/
-audit_date:
+audit_date: ‘2020-03-27’
 title: Wildcard SSL overview
 type: article
 created_date: ‘2020-03-18’
 created_by: Benji Ivey
-last_modified_date: 
-last_modified_by: 
+last_modified_date: ‘2020-03-27’
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -33,4 +33,4 @@ After you share your private key across all your sub-domains, you might have a p
 
 ### Conclusion
 
-If you have a website with multiple sub-domains, we recommend a wildcard SSL from a cost perspective and to make managing multiple SSL certificates easier.
+If you have a website with multiple sub-domains, we recommend a wildcard SSL certificate from a cost perspective and to make managing multiple SSL certificates easier.
