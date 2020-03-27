@@ -19,7 +19,7 @@ You need to have the following prerequisites:
 
 - Basic understanding of Secure Shell (SSH)
 - Sudo or administrative access to your server
-- A Cloud Server with RHEL 6 or CentOS&reg; 6 running `iptables`
+- A cloud server with RHEL 6 or CentOS&reg; 6 running `iptables`
 
 **IMPORTANT**: These steps are only for non-RackConnected Cloud servers. If you are using RackConnect, you can make these changes on your dedicated firewall. 
 
@@ -28,9 +28,7 @@ your preferred setup method.
 
 ### One-line command method
 
-Use the following steps for the one-line command method:
-
-1. Use the following one-line command to open the open the firewall ports:
+Use the following one-line command to open the open the firewall ports:
 
         sudo sh -c "iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT && iptables -I INPUT -p tcp -m tcp --dport 443 -j ACCEPT && service iptables save"
         
@@ -51,4 +49,4 @@ one-line command, perform the following steps:
 
         sudo service iptables save
 
-After you complete the preceding steps, you have configured configured your server to allow HTTP and HTTPS web traffic through your `iptables` software firewall. If you've configured your website to accept traffic on 80 and 443, you should be able to visit both the HTTP and HTTPS versions of your website. 
+After you complete the preceding steps, you have configured configured your server to allow HTTP and HTTPS web traffic through your `iptables` software firewall. If you've configured your website to accept traffic on ports 80 and 443, you should be able to visit both the HTTP and HTTPS versions of your website. 
