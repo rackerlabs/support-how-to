@@ -1,7 +1,7 @@
 ---
 permalink: wildcard_ssl_overview/
 audit_date:
-title: Wildcard SSL Overview
+title: Wildcard SSL overview
 type: article
 created_date: ‘2020-03-18’
 created_by: Benji Ivey
@@ -11,26 +11,26 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-## What are Wildcard SSL certificates?
+## What are wildcard SSL certificates?
 
-A Wildcard Certificate(SSL) is a certificate with a Wildcard character in the domain name field, such as *.(yourdomain).com. A Wildcard Certificate secures a domain and many sub-domains as long as they have the same root domain. For example, the certificate *.([yourdomain.com](http://yourdomain.com)) can be used for [www.yourdomain.com](http://www.yourdomain.com), [mail.yourdomain.com](http://mail.yourdomain.com), or any other additional sub-domain under [yourdomain.com](http://yourdomain.com).
+A wildcard certificate is a Secure Sockets Layer (SSL) certificate with a wildcard character in the domain name field, such as **\*.(yourdomain).com**. A wildcard certificate secures a domain and many sub-domains as long as they have the same root domain. For example, the certificate **\*.([yourdomain.com]**(http://yourdomain.com)) can be used for [**www.yourdomain.com**](http://www.yourdomain.com), [**mail.yourdomain.com**](http://mail.yourdomain.com), or any other additional sub-domain under [**yourdomain.com**](http://yourdomain.com).
 
-### What are the differences between a regular certificates and Wildcard certificates?
+### Regular certificates versus Wildcard certificates
 
-#### Similarities:
+**Similarities**:
 
-* Same industry encryption strength
-* Both come standard with 2048-bit RSA signature keys and facilitate encryption up to 256 bits
+- They have the same industry encryption strength.
+- Both come standard with 2048-bit RSA signature keys and facilitate encryption up to 256 bits.
 
-#### Differences:
+**Differences**:
 
-* Regular SSL Certs can only cover one Domain and one sub-domain.
-* Wildcard SSL on the other hand can cover a Domain with multiple sub-domains (as many as you want.)
+- Regular SSL certificates can only cover one domain and one sub-domain.
+- Wildcard SSL certificates can cover a domain with multiple sub-domains.
 
-### Are there any drawbacks to using Wildcard?
+### Drawbacks to using wildcard certficates
 
-The drawbacks start coming into play once you start sharing your private key across all your sub-domains. If your website is situated on one server then there will be no issue, but if sub-domains are scattered on different servers you'll have to share your private key. If you are securing multiple public-facing sub-domains, a compromised key would impact the security of all of your subdomains instead of just one.
+After you share your private key across all your sub-domains, you might have a problem. If your website is situated on one server, there are no issues. However, if your sub-domains are scattered on different servers, you need to share your private key. If you are securing multiple public-facing sub-domains, a compromised key impacts the security of all of your subdomains instead of just one.
 
 ### Conclusion
 
-If you have a website with multiple sub-domains, a Wildcard SSL is strongly recommended from a cost perspective and for lowering the headache of managing multiple SSL certificates.
+If you have a website with multiple sub-domains, we recommend a wildcard SSL from a cost perspective and to make managing multiple SSL certificates easier.
