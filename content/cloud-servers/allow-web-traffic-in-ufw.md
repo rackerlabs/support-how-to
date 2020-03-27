@@ -20,22 +20,18 @@ You need to have the following prerequisites:
 
 - Sudo or administrative access to your server
 
-- A Cloud Server with Debian or Ubuntu&reg; running `ufw`
+- A cloud server with Debian or Ubuntu&reg; running `ufw`
 
 **IMPORTANT**: These steps are only for non-RackConnected Cloud servers. If you are using RackConnect, you can make similar changes on your dedicated firewall. 
 
 Log in to your server by using SSH and then complete the steps in the following sections for
 your preferred setup method.
 
-**NOTE**: While `ufw` is the default software firewall solution for most Debian-based distributions, you should note that `ufw` acts as a wrapper for `iptables` and you can disable the firewall. Before proceeding with the following steps, ensure that `ufw` is running on your server by running the following command:
-
-        systemctl status ufw
+**NOTE**: While `ufw` is the default software firewall solution for most Debian-based distributions, you should note that `ufw` acts as a wrapper for `iptables` and you can disable the firewall. Before proceeding with the following steps, ensure that `ufw` is running on your server by running ``systemctl status ufw``.
 
 #### One-line command method
 
-Use the following steps for the one-line command method:
-
-1. Use the following one-line command to open the open the firewall ports:
+Use the following one-line command to open the open the firewall ports:
 
         sudo sh -c "ufw allow http && ufw allow https"
         
