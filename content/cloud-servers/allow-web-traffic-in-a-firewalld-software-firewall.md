@@ -40,7 +40,7 @@ Use the following steps for the one-line command method:
          
 ### Individual commands method
 
-If you prefer to configure the software firewall using discrete steps instead of by using the
+If you prefer to configure the software firewall by using discrete steps instead of by using the
 one-line command, perform the following steps:
 
 1.  Run the following command to allow traffic on port 80:
@@ -55,4 +55,4 @@ one-line command, perform the following steps:
 
         sudo firewall-cmd --reload
 
-After you complete the preceding steps, you have configured your server to allow HTTP and HTTPS web traffic through your `firewalld` software firewall. If you configured your website to accept traffic on 80/443, you should be able to visit both the HTTP and HTTPS version of your website. 
+After you complete the preceding steps, you have configured your server to allow HTTP and HTTPS web traffic through your `firewalld` software firewall. If you configured your website to accept traffic on 80/443, you should be able to visit both the HTTP and HTTPS versions of your website. 
