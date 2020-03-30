@@ -1,5 +1,5 @@
 ---
-title: Rackspace PDR Agent compatibility
+title: Rackspace PDR agent compatibility
 type: article
 audit_date: '2020-03-20'
 created_date: '2018-10-09'
@@ -11,15 +11,15 @@ product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
 ---
 
-Our agents support the operating systems (OS) listed on this page. When building or upgrading servers, be sure
-to check this list first so that Rackspace Proactive Detection & Response (PDR) continues to support your systems.
-If you are unsure if an OS release or kernel version is supported, contact the Rackspace PDR support team.
+Our agents support the operating systems (OS) listed on this page. When you build or upgrade servers, be sure
+to check this list first so that Rackspace Proactive Detection and Response (PDR) continues to support your systems.
+If you are unsure if an OS release or kernel version is supported, contact the Rackspace PDR Support team.
 
-### Linux Agent compatibility
+### Linux agent compatibility
 
 Linux&reg; kernel strings on this page must match your kernel version exactly to be
-considered in support. If the kernel is unsupported, agents go into *reduced functionality* mode
-and no longer provide adaquate telemetry to our Security Operations Center (SOC).
+supported. If the kernel is unsupported, agents go into *reduced functionality* mode
+and no longer provide adequate telemetry to our Security Operations Center (SOC).
 
 ### Amazon&reg; Linux 2 supported versions
 
