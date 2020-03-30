@@ -1,20 +1,17 @@
 ---
 permalink: enable-or-disable-two-factor-authentication-for-administrators/
-audit_date: '2019-03-04'
+audit_date: '2020-03-30'
 title: Enable or disable two-factor authentication for administrators
 type: article
 created_date: '2017-10-02'
 created_by: William Loy
-last_modified_date: '2020-02-12'
-last_modified_by: William Loy
+last_modified_date: '2020-03-30'
+last_modified_by: Claire Wolfe
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
 This article describes how to enable two-factor authentication for Cloud Office Control Panel administrators.
-
-**Important:** Starting on March 31, 2020, enrollment in Multi-Factor Authentication for Control Panel access will be mandatory.
-
 
 ### Prerequisites
 
@@ -92,7 +89,7 @@ This administrator is now required to set up multifactor authentication upon the
 
 You have successfully logged in using two-factor authentication.
 
-### Disable two-factor authentication for other administrators
+### Reset two-factor authentication for other administrators
 
 You might need to perform these steps if an administrator gets a new device without first disabling two-factor authentication.
 
@@ -100,17 +97,15 @@ You might need to perform these steps if an administrator gets a new device with
 
 2. Click your username and account number, for example **adminusername (acct#)**, in the upper-right corner to expand the menu.
 
-3. From the menu, select **Admins & Contacts**.
+3. From the menu, select **Administrators**.
 
 4. Click the username for the administrator that you are going to require to use two-factor authentication.
 
-5. Expand the section labeled **Security Settings**.
+5. Click on Reset **Multi-Factor Authentication**.
 
-6. Uncheck the box next to **Require Multi-Factor Authentication**.
+6. Click on **Reset Multi-Factor Authentication** in the pop-up to confirm the request.
 
-7. Click **Save**.
-
-You have successfully disabled two-factor authentication for another adminstrator.
+You have successfully reset MFA for this administrator. They will be prompted to set it up again on their next login attempt.
 
 
 ### Manage multifactor authentication linked devices
