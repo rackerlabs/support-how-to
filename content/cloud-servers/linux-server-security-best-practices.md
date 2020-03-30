@@ -270,26 +270,31 @@ and disable password authentication by using the following steps:
 
 2.  Change the following lines:
 
-**Note**: By default, the `Port` and `PermitRootLogin` lines are commented out as indicated by the `#` symbol. When commented out, these lines are read as default options, even if changes are made to the line. To implement these changes, you need to uncomment the associated lines by removing the `#` symbol at the beginning of the associated line. Additionally, before disabling `PasswordAuthentication` ensure that you have configured an SSH key or you cannot connect to the server.  
+    **Note**: By default, the `Port` and `PermitRootLogin` lines are commented out
+    as indicated by the `#` symbol. When commented out, these lines are read as default
+    options, even if changes are made to the line. To implement these changes, you need
+    to uncomment the associated lines by removing the `#` symbol at the beginning of the
+    associated line. Additionally, before disabling `PasswordAuthentication` ensure that
+    you have configured an SSH key or you cannot connect to the server.  
 
-Change:
+    Change:
 
         #Port 22
         #PermitRootLogin yes
         PasswordAuthentication yes     
 
-To:
+    To:
 
         Port 2222
         PermitRootLogin no
         PasswordAuthentication no
 
-Replace **2222** with the port you want to use. Ensure the new port isn't already in use by another 
-program by using [netstat](/how-to/checking-listening-ports-with-netstat).
+    Replace **2222** with the port you want to use. Ensure the new port isn't already in use by another 
+    program by using [netstat](/how-to/checking-listening-ports-with-netstat).
 
-**Important:** As mentioned previously, you should not make this change to the
-`sshd_config` file if your server has a Managed Operations service level.
-These changes could deny Rackspace access to your server.
+    **Important:** As mentioned previously, you should not make this change to the
+    `sshd_config` file if your server has a Managed Operations service level.
+    These changes could deny Rackspace access to your server.
 
 3.  Test the altered SSH configuration for errors by running the following command:
 
