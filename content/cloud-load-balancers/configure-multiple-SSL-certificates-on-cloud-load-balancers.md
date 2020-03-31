@@ -1,7 +1,7 @@
 ---
 permalink: configure-multiple-SSL-certificates-on-cloud-load-balancers/
 audit_date: '2020-03-25'
-title: Configure multiple SSL certificates on cloud load balancers
+title: Configure multiple SSL certificates on Cloud Load Balancers
 type: article
 created_date: '2020-03-24'
 created_by: Chris Silva
@@ -11,9 +11,9 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-The following article provides information on how to configure multiple Secure Sockets Layer (SSL) certificates on your load balancer.
+The following article provides information about how to configure multiple Secure Sockets Layer (SSL) certificates on your load balancer.
 
-You can configure cloud load balancers to terminate SSL connections. SSL-terminated load balancers decrypt the traffic at the load balancer and pass unencrypted traffic to the nodes behind the load balancer. This feature is available to HTTP load balancers. Additionally, you can configure **Certiciate Mappings** through Server Name Indication (SNI) on your cloud load balancer through the Cloud Control Panel. This enables you to serve multiple SSL certificates on a single cloud load balancer. 
+You can configure Cloud Load Balancers to terminate SSL connections. SSL-terminated load balancers decrypt the traffic at the load balancer and pass unencrypted traffic to the nodes behind the load balancer. This feature is available to HTTP load balancers. Additionally, you can configure **Certificate Mappings** through Server Name Indication (SNI) on your Cloud Load Balancer through the Cloud Control Panel. This configuration enables you to serve multiple SSL certificates on a single Cloud Load Balancer. 
 
 ### Prerequisites
 
@@ -22,14 +22,14 @@ You can configure cloud load balancers to terminate SSL connections. SSL-termina
 - You must configure your domain on the server behind the load balancer. 
 - You must have already configured an SSL on your load balancer.
 
-**NOTE**: If you haven't added a main certificate to your load balancer, see [Configure SSL certificates on cloud load balancers](how-to/configure-SSL-certificates-on-cloud-load-balancers/)
+**NOTE**: If you haven't added a main certificate to your load balancer, see [Configure SSL certificates on Cloud Load Balancers](how-to/configure-SSL-certificates-on-cloud-load-balancers/)
 
 
-### Apply multiple SSL certificates to a cloud load balancer
+### Apply multiple SSL certificates to a Cloud Load Balancer
 
-**NOTE**: Load balancers can host a total of 20 domains, including the main certificate on the load balancer. Each domain requires its own certificate mapping, even if the same certificate is used. For example, if you have an SSL certificate that is valid for **\*.example.com** , and you want to host **abc.example.com** and **def.example.com** from the cloud load balancer, you must create a mapping for both domains.
+**NOTE**: Load balancers can host a total of 20 domains, including the main certificate on the load balancer. Each domain requires its own certificate mapping, even if you use the same certificate. For example, if you have an SSL certificate that is valid for **\*.example.com**, and you want to host **abc.example.com** and **def.example.com** from the Cloud Load Balancer, you must create a mapping for both domains.
 
-By using SNI, your cloud load balancer can serve multiple certificates to provide secure connections to your domains. 
+By using SNI, your Cloud Load Balancer can serve multiple certificates to provide secure connections to your domains. 
 
 1. From the **Cloud Control Panel**, select **Networking** > **Load Balancers**. 
 
@@ -43,11 +43,11 @@ By using SNI, your cloud load balancer can serve multiple certificates to provid
 
 5. Click **Save Certificate Mapping** to apply the certificate. 
 
-6. The Load Balancer takes a moment to build and apply the certificate. 
+6. The load balancer takes a moment to build and apply the certificate. 
 
-You can repeat steps 3-6 for any additional certificates. 
+You can repeat steps 3 through 6 for any additional certificates. 
 
-Afer the build completes, you should see a new clickable item under **Certificate Mappings** that indicates the number of **Certificate Mappings** on the load balancer. 
+After the build completes, you should see a new clickable item under **Certificate Mappings** that indicates the number of **Certificate Mappings** on the load balancer. 
 
 At this point, if you've configured your server to receive traffic for the mapped domain, you can now access the site over HTTPS. 
 
@@ -69,7 +69,7 @@ If you need to remove or replace a certificate mapping, use the following steps:
 
    b. If you need to delete the certificate mapping, click **Delete Mapping**.
 
-**IMPORTANT**: If you are updating the certificate, you need to provide the private key even if the Key did not change. This is done intentionally for security purposes. 
+**IMPORTANT**: If you are updating the certificate, you need to provide the private key even if the key did not change. This is done intentionally for security purposes. 
 
 
-If you've followed this guide, you can now add, update, or remove certificate mappings on your cloud load balancer. 
+If you've followed the steps in this article, you can now add, update, or remove certificate mappings on your Cloud Load Balancer. 
