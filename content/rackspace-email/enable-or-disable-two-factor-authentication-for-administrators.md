@@ -26,7 +26,7 @@ As an administrator of your company's email solution, you have a great deal of c
 
 ### Multifactor authentication options
 
-The Cloud Office Control Panel provides two options for enabling multifactor authentication when you first log in. Upon login you are presented the option to set up multifactor authentication. You can proceed with this option or skip it.
+	The Cloud Office Control Panel provides two options for enabling multifactor authentication when you first log in. Upon login you are required to set up multifactor authentication.
 
 #### Use text message multifactor authentication
 
@@ -58,26 +58,6 @@ Use the following steps to enable a mobile multifactor authentication applicatio
     <img src="{% asset_path rackspace-email/enable-or-disable-two-factor-authentication-for-administrators/mobile_app.png %}" />
 
 4. The last step displays the following message: **You have successfully set up Multi-Factor Authentication!**
-
-
-### Require two-factor authentication for an administrator
-
-1. Log in to your [Cloud Office Control Panel](https://cp.rackspace.com).
-
-2. Click your username and account number, for example **adminusername (acct#)**, in the upper-right corner to expand the menu.
-
-3. From the menu, select **Admins & Contacts**.
-
-4. Click the username for the administrator that you are going to require to use two-factor authentication.
-
-5. Expand the section labeled **Security Settings**.
-
-6. Check the box next to **Require Multi-Factor Authentication**.
-
-This administrator is now required to set up multifactor authentication upon their next login to [Cloud Office Control Panel](https://cp.rackspace.com)). They have the option to [Use text message multifactor authentication](#use-text-message-multifactor-authentication) or [Use a multifactor authentication mobile application](#use-a-multifactor-authentication-mobile-application).
-
-
-**Note:** When you change mobile devices, you will need to [disable two-factor authentication](#disable-two-factor-authentication-for-other-administrators) and re-enable it on the new device.
 
 ### Log in to the control panel with two-factor authentication
 
