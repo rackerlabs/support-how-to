@@ -3,23 +3,23 @@ permalink: configure-SSL-certificates-on-cloud-load-balancers/
 audit_date: '2020-03-25'
 title: Configure SSL certificates on Cloud Load Balancers
 type: article
-created_date: '2020-03-24
+created_date: '2020-03-24'
 created_by: Chris Silva
-last_modified_date: '2020-03-25'
-last_modified_by: Chris Silva
+last_modified_date: '2020-03-31'
+last_modified_by: Cat Lookabaugh
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-The following article provides information on how to configure an SSL certificate on your Load Balancer.
+The following article provides information on how to configure an Secure Socket Layers (SSL) certificate on your Load Balancer.
 
-Cloud Load Balancers can be configured to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. This functionality can be applied to HTTP Load Balancers. Additionally, you can configure Server Name Indication (`SNI`) on your Cloud Load Balancer through your Cloud Control Panel. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. More information is available at this link: [Configure multiple SSL certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/) 
+You can configure Cloud Load Balancers to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the Load Balancer and pass unencrypted traffic to the nodes behind the Load Balancer. You can apply this functionality to HTTP Load Balancers. Additionally, you can configure Server Name Indication (SNI) on your Cloud Load Balancer through your Cloud Control Panel. This allows you to serve multiple SSL certificates on a single Cloud Load Balancer. For more information, see [Configure multiple SSL certificates on Cloud Load Balancers](how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/).
 
-## SSL Termination
+### SSL termination
 
-The SSL termination feature enables you to terminate SSL traffic at the load balancer layer versus at the web server layer. You can choose to configure SSL termination using a key and an SSL certificate or an (Intermediate) SSL certificate. When SSL termination is configured on a load balancer, a secure shadow server is created that listens only for secure traffic on a user-specified port. This shadow server is only visible to and manageable by the system. Existing or updated attributes on a load balancer with SSL termination also applies to its shadow server. For example, if Connection Logging is enabled on an SSL load balancer, it is also enabled on the shadow server and Cloud Files logs contain log files for both.
+The SSL termination feature enables you to terminate SSL traffic at the load balancer layer versus at the web server layer. You can choose to configure SSL termination by using a key and an SSL certificate or an Intermediate SSL certificate. When SSL termination is configured on a load balancer, a secure shadow server is created that listens only for secure traffic on a user-specified port. This shadow server is only visible to and manageable by the system. Existing or updated attributes on a load balancer with SSL termination also applies to its shadow server. For example, if *Connection Logging* is enabled on an SSL load balancer, it is also enabled on the shadow server. Also, Cloud Files logs contain log files for both servers.
 
-The following table shows the possible response codes for the operation.
+The following table shows the possible response codes for the operation:
 
 **Response Code**|**Name**|**Description**
 -----|-----|-----
@@ -33,41 +33,42 @@ The following table shows the possible response codes for the operation.
 503|Service Unavailable|The service is not available.
 
 ### Prerequisites
-	- You must create an HTTP (80) Load Balancer
-	- You must have an SSL certificate and Private Key for your domain in .pem format.
-	- Must have your domain configured on you server behind the load balancer. 
 
-## Applying an SSL certificate to a Cloud Load Balancer
+- You must create an HTTP (port 80) Load Balancer.
+- You must have an SSL certificate and private key for your domain in **.pem** format.
+- You must configure your domain on the server behind the load balancer. 
 
-1.	From your **Cloud Control Panel** select **Networking** > **Load Balancers**. 
+### Apply the SSL certificate to a Cloud Load Balancer
 
-2.	Select the Load Balancer to which you want to apply your SSL Certificate. 
+1. From the **Cloud Control Panel**, select **Networking** > **Load Balancers**. 
 
-3.	Under the **Optional Features** section, select the pencil next to the **Secure Traffic (SSL)** section. 
+2. Select the Load Balancer to which you want to apply your SSL Certificate. 
 
-4.	Paste the SSL certificate data in the appropriate boxes.
+3. Under the **Optional Features** section, select the pencil next to the **Secure Traffic (SSL)** section. 
 
-**NOTE**: You can choose to allow secure and insecure traffic, however when terminating the SSL on the Load Balanacer, the preferred option will be to only allow secure traffic. You can also select your **TLS** and **Cipher Profile** in this section. For more information on **Cipher Profiles** see this link: [Update Cipher Profile on Cloud Load Balancer](https://support.rackspace.com/how-to/update-the-cipher-profile-on-a-cloud-load-balancer). For more information on TLS version, please refer to this link: [Disable TLS 1.0 Cloud Load Balancers](https://support.rackspace.com/how-to/disable-tls1-for-cloud-load-balancers/)
+4. Paste the SSL certificate data in the appropriate boxes.
 
-5.	Click **Save Configuration** to apply the certificate. 
+**NOTE**: You can choose to allow secure and insecure traffic. However, when terminating the SSL on the Load Balanacer, you should only allow secure traffic, as a best practice. You can also select your **TLS** and **Cipher Profile** in this section. For more information on **Cipher Profiles**, see [Update Cipher Profile on Cloud Load Balancer](how-to/update-the-cipher-profile-on-a-cloud-load-balancer). For more information on TLS version,see [Disable TLS 1.0 Cloud Load Balancers](how-to/disable-tls1-for-cloud-load-balancers/).
+
+5. Click **Save Configuration** to apply the certificate. 
 
 At this point, if your server has been configured to accept traffic for the domain behind the load balancer, you should now be able to access the site securely. 
 
-## Removing or updating an SSL certificate
+### Remove or update an SSL certificate
 
-**IMPORTANT**: If updating the certificate, you will need to provide the Private Key even if the Key did not change. This is intentional and is done for security purposes. 
+**IMPORTANT**: When you update a certificate, you need to provide the Private Key even if the Key did not change. This is done intentioanlly for security purposes. 
 
-1.	From your **Cloud Control Panel** select **Networking** > **Load Balancers**. 
+1. From the **Cloud Control Panel**, select **Networking** > **Load Balancers**. 
 
-2.	Select the Load Balancer to which you want to apply your SSL Certificate. 
+2. Select the Load Balancer to which you want to apply your SSL Certificate. 
 
-3.	Under the **Optional Features** section, select the pencil next to the **Secure Traffic (SSL)** section. 
+3. Under the **Optional Features** section, select the pencil next to the **Secure Traffic (SSL)** section. 
 
-	a. If you need to modify the certificate, paste the new certificate data in the boxes. 
+   a. If you need to modify the certificate, paste the new certificate data in the boxes. 
 	
-	b. If removing the certificate from the Load Balancer, click **Remove SSL Configuration**. 
+   b. If you want to remove the certificate from the Load Balancer, click **Remove SSL Configuration**. 
 
-**WARNING**: If you remove the main certificate, it will also remove the **ALL** certificate mappings for the Load Balancer. 
+**WARNING**: If you remove the main certificate, it also removes the **ALL** certificate mappings for the Load Balancer. 
 
 
-If you've followed this guide, you're now equipped with the knowledge to add, remove, or modify your SSL certificate on your Cloud Load Balancer.
+If you've followed this guide, you can now add, remove, or modify your SSL certificate on your Cloud Load Balancer.
