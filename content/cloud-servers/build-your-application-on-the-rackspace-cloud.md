@@ -14,7 +14,7 @@ product_url: cloud-servers
 This article shares a few resources to help you get started with building
 your application on the Rackspace cloud.
 
-### Cloud control panel
+### Cloud Control Panel
 
 The [Cloud Control Panel](https://login.rackspace.com) helps you manage your cloud infrastructure.
 
@@ -31,34 +31,34 @@ You can also use the Cloud Control Panel to perform the following tasks:
 ### Access your cloud servers
 
 Connect to your Rackspace cloud server with the Secure Shell (SSH),
-Remote Desktop (RDP), or Console. For detailed instructions, see [Connect to a
+Remote Desktop (RDP), or the console. For detailed instructions, see [Connect to a
 cloud server](/how-to/connect-to-a-cloud-server/).
 
-### Get a head start with cloud orchestration
+### Get a head start with Cloud Orchestration
 
 If you are building an application from scratch, you might want to try [Cloud
 Orchestration](https://www.rackspace.com/en-us/cloud/orchestration). Cloud Orchestration
 offers stacks that can help you get your application up and
 running much faster than building it from scratch. Orchestration stacks range
 from single-server setups (like a Linux&reg; Apache&reg; MySQL&reg;
-PHP&reg; (LAMP) stack) to complex, multi-server configurations (like a
-multi-server WordPress&reg; stack).
+PHP&reg; (LAMP) stack) to complex, multiserver configurations (like a
+multiserver WordPress&reg; stack).
 
 ### Get migration assistance
 
 If your application is already live at another provider, Rackspace can potentially
-offer some limited help with migrating from that hosting provider. There are also
-professional services partners who can
+offer some limited help with migrating from that hosting provider. Some
+professional services partners can
 offer help. Contact your Launch Manager or Account Team
 for more information.
 
 ### Modularize your application
 
 Rackspace strongly recommends that you create a modular application. Modular design is
-one of the [_Five Pillars of
-Cloudiness_](https://blog.rackspace.com/explore-the-five-pillars-of-cloudiness). Modularizing your
+one of the [Five Pillars of
+Cloudiness](https://blog.rackspace.com/explore-the-five-pillars-of-cloudiness). Modularizing your
 application can eliminate a single point of
-failure, and allows for significantly faster scaling if necessary. The
+failure and allows for significantly faster scaling if necessary. The
 following are some tips to help you create a modular application:
 
 - Decouple your database from your web and app servers. You can do this by
@@ -108,7 +108,7 @@ Take the following security measures at the infrastructure level:
 Take the following security measures at the server level:
 
 - Practice basic server security.
-- Lock down your firewalls manually or by using a service like Dome9 or
+- Lockdown your firewalls manually or by using a service like Dome9 or
   CloudPassage&reg;.
 
 #### Application level
@@ -163,7 +163,7 @@ Operations customers automatically dump their databases to this location.
 Managed Infrastructure customers can configure the same backup by using
 the Holland Backup Manager.
 
-**Note**:Rackspace recommend that you back up databases often and retain them
+**Note**: Rackspace recommends that you back up databases often and retain them
 for a long period of time.
 
 ##### Backups on Windows
@@ -176,14 +176,14 @@ If you are using Windows&reg;, Rackspace recommends that you take the following 
   dumping your database files). You should use frequent backups and
   long retention.
 
-### Back up cloud block storage
+### Back up with Cloud Block Storage
 
 Using block storage is a great way to increase the amount of storage space
 that your application can use. You can include block storage in a cloud
 backup, and also save the volumes as image snapshots. If you’re using Cloud
 Block Storage, it's important to verify the following things:
 
-- Verify and configure backup of any Cloud Block Storage volumes.
+- Verify and configure the backup of any Cloud Block Storage volumes.
 - Verify that your attached Cloud Block Storage volumes reconnect after reboot.
 
 ### Monitoring
