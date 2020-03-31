@@ -5,7 +5,7 @@ title: Build your application on the Rackspace cloud
 type: article
 created_date: '2019-02-05'
 created_by: Rackspace Community
-last_modified_date: '2020-03-26'
+last_modified_date: '2020-03-31'
 last_modified_by: Chad Sterling
 product: Cloud Servers
 product_url: cloud-servers
@@ -16,8 +16,7 @@ your application on the Rackspace cloud.
 
 ### Cloud control panel
 
-The [Cloud Control Panel](https://login.rackspace.com) is the portal that you
-use to manage your cloud infrastructure.
+The [Cloud Control Panel](https://login.rackspace.com) helps you manage your cloud infrastructure.
 
 You can also use the Cloud Control Panel to perform the following tasks:
 
@@ -31,7 +30,7 @@ You can also use the Cloud Control Panel to perform the following tasks:
 
 ### Access your cloud servers
 
-You can connect to your Rackspace cloud server with the Secure Shell (SSH),
+Connect to your Rackspace cloud server with the Secure Shell (SSH),
 Remote Desktop (RDP), or Console. For detailed instructions, see [Connect to a
 cloud server](/how-to/connect-to-a-cloud-server/).
 
@@ -60,7 +59,7 @@ one of the [_Five Pillars of
 Cloudiness_](https://blog.rackspace.com/explore-the-five-pillars-of-cloudiness). Modularizing your
 application can eliminate a single point of
 failure, and allows for significantly faster scaling if necessary. The
-following are some tips help you create a modular application:
+following are some tips to help you create a modular application:
 
 - Decouple your database from your web and app servers. You can do this by
   using a cloud database, or by using a separate cloud server to run your
