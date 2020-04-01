@@ -22,7 +22,7 @@ You can configure Cloud Load Balancers to terminate SSL connections. SSL-termina
 - You must configure your domain on the server behind the load balancer. 
 - You must have already configured an SSL on your load balancer.
 
-**NOTE**: If you haven't added a main certificate to your load balancer, see [Configure SSL certificates on Cloud Load Balancers](how-to/configure-SSL-certificates-on-cloud-load-balancers/)
+**NOTE**: If you haven't added a main certificate to your load balancer, see [Configure SSL certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-SSL-certificates-on-cloud-load-balancers/)
 
 
 ### Apply multiple SSL certificates to a Cloud Load Balancer
