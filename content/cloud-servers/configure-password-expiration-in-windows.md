@@ -39,10 +39,10 @@ Use one of the following methods to configure the password settings.
 2. Type `cmd` in the run box and press **Enter** to bring up the command prompt. You can also click **Start** and type in `cmd`. When you see the command prompt program on the left-hand side of the screen, you can launch the program as an Administrator, if you want to.
 3. To turn on password expiration on Windows 7, 8, or 8.1, type the following command and press **Enter**: 
 
-        wmic path Win32_UserAccount where Name='username' set PasswordExpires=false
+        wmic path Win32_UserAccount where Name='username' set PasswordExpires=true
         
 4. To turn off password expiration on Windows 7, 8, or 8.1, type the following command and press **Enter**: 
 
-        wmic path Win32_UserAccount where Name='username' set PasswordExpires=true
+        wmic path Win32_UserAccount where Name='username' set PasswordExpires=false
 
 For this method, make sure to replace the `username` in the command with the actual user account name.
