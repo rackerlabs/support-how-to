@@ -13,7 +13,7 @@ product_url: cloud-load-balancers
 
 The following article provides information about how to configure a Secure Sockets Layer (SSL) certificate on your load balancer.
 
-You can configure Cloud Load Balancers to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the load balancer and pass unencrypted traffic to the nodes behind the load balancer. You can apply this functionality to HTTP load balancers. Additionally, you can configure Server Name Indication (SNI) on your Cloud Load Balancer through your Cloud Control Panel. This configuration allows you to serve multiple SSL certificates on a single Cloud Load Balancer. For more information, see [Configure multiple SSL certificates on Cloud Load Balancers](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/).
+You can configure Cloud Load Balancers to accept SSL connections. SSL-terminated load balancers decrypt the traffic at the load balancer and pass unencrypted traffic to the nodes behind the load balancer. You can apply this functionality to HTTP load balancers. Additionally, you can configure Server Name Indication (SNI) on your Cloud Load Balancer through your Cloud Control Panel. This configuration allows you to serve multiple SSL certificates on a single Cloud Load Balancer. For more information, see [Configure multiple SSL certificates on Cloud Load Balancers](/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers/).
 
 ### SSL termination
 
@@ -48,7 +48,7 @@ The following table shows the possible response codes for the operation:
 
 4. Paste the SSL certificate data into the appropriate boxes.
 
-**NOTE**: You can choose to allow secure and insecure traffic. However, when terminating the SSL on the load balancer, you should only allow secure traffic, as a best practice. You can also select your Transport Layer Security (**TLS**) and **Cipher Profile** in this section. For more information about your **Cipher Profile**, see [Update Cipher Profile on Cloud Load Balancer](how-to/update-the-cipher-profile-on-a-cloud-load-balancer). For more information on TLS version, see [Disable TLS 1.0 Cloud Load Balancers](how-to/disable-tls1-for-cloud-load-balancers/).
+**NOTE**: You can choose to allow secure and insecure traffic. However, when terminating the SSL on the load balancer, you should only allow secure traffic, as a best practice. You can also select your Transport Layer Security (**TLS**) and **Cipher Profile** in this section. For more information about your **Cipher Profile**, see [Update Cipher Profile on Cloud Load Balancer](/how-to/update-the-cipher-profile-on-a-cloud-load-balancer). For more information on TLS version, see [Disable TLS 1.0 Cloud Load Balancers](/how-to/disable-tls1-for-cloud-load-balancers/).
 
 5. Click **Save Configuration** to apply the certificate. 
 
