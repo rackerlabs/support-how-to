@@ -1,7 +1,7 @@
 ---
 permalink: understanding-the-cloud-computing-stack-saas-paas-iaas/
 audit_date: '2020-03-31'
-title: 'Understanding the cloud computing stack: SaaS, PaaS, IaaS'
+title: 'Understanding the cloud computing stack: SaaS, PaaS, and IaaS'
 type: article
 type: page
 created_date: '2012-07-23'
@@ -12,7 +12,7 @@ product: undefined
 product_url: undefined
 ---
 
-Cloud computing is a broad term that describes a wide range of services. As with other significant developments in technology, many vendors have seized the term _cloud_ and are using it for products that are outside of the common definition. Because cloud is a broad collection of services, organizations can choose where, when, and how they use cloud computing.
+Cloud computing is a broad term that describes a wide range of services. As with other significant developments in technology, many vendors have seized the term _cloud_ and are using it for products that are outside of the common definition. Because the cloud is a broad collection of services, organizations can choose where, when, and how they use cloud computing.
 
 This article explains the different types of cloud computing services commonly referred to as software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS). It also provides some guidance on situations where particular flavors of cloud computing are (or aren't) the best option for an organization.
 
@@ -36,13 +36,13 @@ Cloud computing, often described as a stack, has a broad range of services built
    minimal management effort or service provider interaction.
 ```
 
-This means that end users can quickly acquire and use parts of bulk resources.
+This information means that end users can quickly acquire and use parts of bulk resources.
 
 NIST also describes several characteristics as essential to consider a service to be _cloud_:
 
   - On-demand self-service: End users can sign up and receive services without long delays.
   - Broad network access: Users can access the services by using standard platforms such as desktop, laptop, and mobile devices.
-  - Resource pooling: Resources are pooled across many customers.
+  - Resource pooling: Can pool resources across many customers.
   - Rapid elasticity: Capability can scale to cope with demand peaks.
   - Measured service: Billing is metered and delivered as a utility service.
 
@@ -50,13 +50,13 @@ To maximize the benefits of cloud computing, a solution must show these particul
 
 This article describes all three cloud computing services in detail. The following list is a simplified way of differentiating them:
 
-  - SaaS applications are designed for end-users, delivered over the web.
+  - SaaS applications are designed for end-users and delivered over the web.
   - PaaS is the set of tools and services designed to make coding and deploying those applications quick and efficient.
-  - IaaS is the hardware and software that powers it all including servers, storage, networks, and operating systems.
+  - IaaS is the hardware and software that powers it all, including servers, storage, networks, and operating systems.
 
 ### Software as a service
 
-Software as a service (SaaS) is software that's deployed over the Internet. A provider licenses a SaaS app to customers as an on-demand service, either through a subscription or through a pay-as-you-go model. SaaS can be offered at no charge, when there is opportunity to generate revenue from streams other than the user, such as from advertisement.
+Software as a service (SaaS) is software deployed over the Internet. A provider licenses a SaaS app to customers as an on-demand service, either through a subscription or through a pay-as-you-go model. SaaS can be offered at no charge when there is an opportunity to generate revenue from streams other than the user, such as from advertisement.
 
 SaaS has become commonplace within most organizations, so it's important that buyers and users of technology understand what SaaS is and where it's suitable.
 
@@ -72,15 +72,15 @@ Following are some defining characteristics of SaaS:
 
 #### When to use SaaS
 
-Cloud computing and SaaS in particular, are rapidly growing methods of delivering technology. Organizations moving to the cloud need to consider which applications they need move to SaaS.
+Cloud computing and SaaS, in particular, are rapidly growing methods of delivering technology. Organizations moving to the cloud need to consider which applications they need to move to SaaS.
 
 The following are solutions that are prime candidates for an initial move to SaaS:
 
-  - Standard offerings in which the solution is largely undifferentiated—for example, email. Competitors often use the same email software because this fundamental technology is a requirement for doing business but doesn't award a competitive advantage.
-  - Applications in which there is significant interplay between the organization and the outside world—for example, email newsletter campaign software.
-  - Applications that have a significant need for web or mobile access—for example, mobile sales management software.
+  - Standard offerings in which the solution is largely undifferentiated&mdash;for example, email. Competitors often use the same email software because this fundamental technology is a requirement for doing business but doesn't award a competitive advantage.
+  - Applications in which there is significant interplay between the organization and the outside world&mdash;for example, email newsletter campaign software.
+  - Applications that have a significant need for web or mobile access&mdash;for example, mobile sales management software.
   - Collaboration software for a specific project.
-  - Software for which demand spikes significantly—for example, tax or billing software used after a month.
+  - Software for which demand spikes significantly&mdash;for example, tax or billing software used after a month.
 
 The Salesforce Customer Relationship Management (CRM) product was the first SaaS product made available to the business world. As one of the earliest entrants, CRM remains the most popular SaaS app area, but email, financial management, customer service, and expense management have also become popular SaaS applications.
 
@@ -93,23 +93,23 @@ Although SaaS is a valuable tool, it's not the best option for software delivery
 
 ### Platform as a service
 
-Platform as a service (PaaS) brings the benefits to the software development world that SaaS brought for applications. PaaS can be defined as a computing platform that enables the quick and easy creation of web applications without the necessity of buying and maintaining the software and infrastructure underneath it.
+Platform as a service (PaaS) brings the benefits to the software development world that SaaS brought for applications. PaaS is defined as a computing platform that enables the quick and easy creation of web applications without the necessity of buying and maintaining the software and infrastructure underneath it.
 
-PaaS is similar to SaaS except that, rather than being software delivered over the web, it is a platform for the creation of software, delivered over the web.
+PaaS is similar to SaaS except that, rather than being software delivered over the web, it is a platform for the creation of software delivered over the web.
 
 #### Characteristics of PaaS
 
 Following are some basic characteristics of PaaS:
 
-  - Services to develop, test, deploy, host, and support applications in the same integrated development environment; that is, all the various services needed to fulfill the app development process.
+  - Services to develop, test, deploy, host, and support applications in the same integrated development environment&mdash;all the various services needed to fulfill the app development process.
   - Web-based user interface (UI) creation tools used to create, change, test, and deploy different UI scenarios.
   - Multi-tenant architecture in which many concurrent users use the same development app.
   - Built-in scalability of deployed software, including load balancing and failover.
   - Integration with web services and databases via common standards.
-  - Support for development team collaboration. Some PaaS solutions include project planning and communication tools, to support development team collaboration.
+  - Support for development team collaboration. Some PaaS solutions include project planning and communication tools to support development team collaboration.
   - Tools to handle billing and subscription management.
 
-PaaS, while similar in many ways to Infrastructure as a Service (IaaS), is different from IaaS by the addition of value-added services and comes in two distinct flavors:
+PaaS, while similar in many ways to infrastructure as a service (IaaS), is different from IaaS by the addition of value-added services and comes in two distinct flavors:
 
   - A collaborative platform for software development that focuses on workflow management regardless of the data source for the app. For example, Heroku&reg; is a PaaS that uses the Ruby on Rails&reg; development language.
 
@@ -123,7 +123,7 @@ The popularity of agile software development is increasing the adoption of PaaS 
 
 #### When not to use PaaS
 
-The ability to automate processes, use predefined components and building blocks, and deploy automatically to production creates value that make PaaS highly attractive. However, PaaS might not be ideal in the following situations:
+The ability to automate processes, use predefined components and building blocks, and deploy automatically to production creates value that makes PaaS highly attractive. However, PaaS might not be ideal in the following situations:
 
   - The app needs to be highly portable in terms of hosting.
   - Proprietary languages or approaches would impact the development process.
@@ -140,7 +140,7 @@ You can obtain IaaS as public or private infrastructure, or a combination of the
 
   - _Public cloud_ is infrastructure that consists of shared resources, deployed on a _self-service_ basis over the Internet.
   - _Private cloud_ is infrastructure that emulates some cloud computing features, like virtualization, but does so on a private network.
-  - Some hosting providers offer a _hybrid cloud_. This is a combination of traditional dedicated hosting alongside public cloud networks, private cloud networks, or both.
+  - Some hosting providers offer a _hybrid cloud_. This cloud is a combination of traditional dedicated hosting alongside public cloud networks, private cloud networks, or both.
 
 #### Characteristics of IaaS
 
@@ -157,16 +157,16 @@ The following situations are particularly suitable for cloud infrastructure:
 
   - Any time there are significant spikes and troughs of demand on the infrastructure.
   - For new organizations without the capital to invest in hardware.
-  - When the organization is growing rapidly and scaling hardware would be problematic.
+  - When the organization is growing rapidly, and scaling hardware would be problematic.
   - When there is pressure on the organization to limit capital expenditure and to move to operating expenditure.
-  - For specific line of business, trial, or temporary infrastructure needs.
+  - For a specific line of business, trial, or temporary infrastructure needs.
 
 #### When not to use IaaS
 
-Although IaaS has advantages when scalability and quick provisioning are beneficial, the following are situations in which its limitations might be problematic:
+Although IaaS has advantages when scalability and quick provisioning are beneficial, the following is a situation in which its limitations might be problematic:
 
 - Regulatory compliance makes the offshoring or outsourcing of data storage and processing difficult.
 
 ### Conclusion
 
-_Cloud computing_ doesn't describe a single thing. Instead, it's a general term that describes a variety of services, from IaaS at the base, through PaaS as a development tool, to SaaS replacing on-premises applications. Understanding these differences is critical for an organization considering moving to cloud to ensure cost an performance align with organizational goals.
+_Cloud computing_ doesn't describe a single thing. Instead, it's a general term that describes a variety of services, from IaaS at the base, through PaaS as a development tool, to SaaS replacing on-premises applications. Understanding these differences is critical for an organization considering moving to the cloud to ensure the cost and performance align with organizational goals.
