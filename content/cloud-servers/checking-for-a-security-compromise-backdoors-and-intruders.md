@@ -5,15 +5,15 @@ title: 'Check for a security compromise: back doors and intruders'
 type: article
 created_date: '2013-04-25'
 created_by: Rose Contreras
-last_modified_date: '2020-3-27'
+last_modified_date: '2020-4-3'
 last_modified_by: Chad Sterling
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Cloud servers can be compromised because of various factors: weak passwords, weak ip tables, old software versions with known exploits, and so on.
+Cloud servers can be compromised by various factors: weak passwords, weak ip tables, old software versions with known exploits, and so on.
 
-If your cloud server has been compromised, don't panic. Panic leads to poor decisions, which could make the situation worse. Instead, try to understand what happened and ensure that your cloud server is not compromised again in the same manner. The goal of this article is to help you learn from your mistakes and avoid making the same mistakes again.
+If your cloud server has been compromised, don't panic. Panic leads to poor decisions, which could make the situation worse. Instead, try to understand what happened and ensure that your cloud server is not compromised again in the same manner. The goal of this article is to help you learn from your mistakes and avoid repeating the same mistakes.
 
 This article describes some techniques and tools that you can use to investigate your servers if you suspect that they have been compromised. You should use these tools before going into rescue mode (review [Checking for a security compromise: Rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-mode-investigation) for more information about rescue mode). The cloud server used for this article was running Ubuntu&reg; 8.10. However, the steps demonstrated are similar for other Linux&reg; distributions.
 
@@ -35,7 +35,8 @@ Use the `netstat -an` command, which produces output similar to the following ex
     tcp        0               0                         0.0.0.0:25                               0.0.0.0:*                  LISTEN
     tcp        0             284                      1.2.3.4:6697                           5.6.7.8:34506              ESTABLISHED
 
-In this example, port 6697 is open. This port is commonly used by Internet Relay Chat (IRC) servers. This is not a good sign, unless you are running your own chat server. You can discover any connections to that port by using the following `tcpdump` command:
+In this example, port 6697 is open. This port is commonly used by Internet Relay Chat (IRC) servers. Unless you are running your own chat server,
+this is not a good sign . You can discover any connections to that port by using the following `tcpdump` command:
 
     tcpdump src port 6697
 
@@ -43,7 +44,7 @@ This command captures all the packets with destination port 6697.
 
 ### Use lsof
 
-The list open files (`lsof`) command-line utility is used in many systems based on UNIX&reg; to report a list of all open files and the processes that opened them. By default, Linux treats everything, including devices, as a file. This makes `lsof` a very powerful tool.
+Many UNIX&reg; based systems use the list open files (`lsof`) command-line utility to report a list of all open files and the processes that opened them. By default, Linux treats everything, including devices, as a file. This makes `lsof` a very powerful tool.
 
 Not all virtual machines (VMs) have `lsof` installed by default, so you might
 have to install it by using `yum` or `apt-get` if you see the following
@@ -68,4 +69,4 @@ server, run the following command:
 
 ### Summary
 
-In this article, you've learned some techniques for discovering back doors and tracking intruders on your server. These techniques help you avoid repeating whatever situation or mistake led to the compromise, so you are less likely to get hacked again in the same way. In the next article, [Checking for a security compromise: Rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-mode-investigation), you will learn how to investigate your cloud server in rescue mode.
+In this article, you learned some techniques for discovering back doors and tracking intruders on your server. These techniques help you avoid repeating whatever situation or mistake led to the compromise, so you are less likely to get hacked again in the same way. In the next article, [Checking for a security compromise: Rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-mode-investigation), you learn how to investigate your cloud server in rescue mode.
