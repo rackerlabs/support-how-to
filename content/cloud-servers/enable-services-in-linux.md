@@ -15,7 +15,7 @@ practice ensures that critical services start automatically when the server rebo
 
 **Ubuntu and Debian systems**
 
-With Ubuntu@reg; and Debian&reg; systems, use the following command:
+With Ubuntu&reg; and Debian&reg; systems, use the following command:
 
     systemctl enable apache2
 

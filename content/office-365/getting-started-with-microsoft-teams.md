@@ -25,7 +25,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### License a user for Microsoft Teams
 
-Users must have a valid license that has Microsoft Teams. To see which licenses contain Microsoft Teams and to learn how to buy licenses and assign them to a user, see [add an Office 365 license](/add-an-office-365-license).
+Users must have a valid license that has Microsoft Teams. To see which licenses contain Microsoft Teams and to learn how to buy licenses and assign them to a user, see [add an Office 365 license](/how-to/add-an-office-365-license).
 
 ### Download, install, and sign in to the Microsoft Teams desktop client
 
