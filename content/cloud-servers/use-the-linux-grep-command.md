@@ -5,7 +5,7 @@ title: Use the Linux grep command
 type: article
 created_date: '2020-03-25'
 created_by: John Garcia
-last_modified_date: '2020-04-02'
+last_modified_date: '2020-04-06'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
