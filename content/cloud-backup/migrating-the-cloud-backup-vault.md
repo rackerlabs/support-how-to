@@ -5,7 +5,7 @@ title: Migrating the Cloud Backup Vault
 type: article
 created_date: '2020-03-26'
 created_by: Evan Benavides
-last_modified_date:
+last_modified_date: '2020-04-06'
 last_modified_by:
 product: Cloud Backup
 product_url: cloud-backup
