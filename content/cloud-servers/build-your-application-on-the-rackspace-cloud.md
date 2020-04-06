@@ -199,6 +199,6 @@ You might want to use the following monitoring resources:
 
 - **URL Check**: Add a Cloud Monitoring check for your site’s URL to ensure
   that your site is responding.
-- **New Relic**: Sign up for free trial of a [New Relic&reg;
+- **New Relic**: Sign up for a free trial of a [New Relic&reg;
   account](http://newrelic.com/rackspace), and install New Relic’s server
   and application monitoring agents on your cloud servers.
