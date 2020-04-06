@@ -23,11 +23,11 @@ The following example shows the basic command structure:
 
     grep 'string' filename(s)
 
-The preceding example searches for and returns any lines of text that contain the given criteria *string* in *filename(s)*.
+This command searches for and returns any lines of text that contain the given criteria *string* in *filename(s)*.
 
 **Options:** 
 
-You can add any of the following options indivudually or in comination to refine your search:
+You can add any of the following options individually or in combination to refine your search:
 
 - **-i**: Prints lines with matching criteria while ignores casing (Upper/Lowecase).
 - **-l**: Prints filenames only.
@@ -43,91 +43,81 @@ You can add any of the following options indivudually or in comination to refine
 
 **Example:  file "example.txt" contains the following 5 lines:**
 
-hello world
-Hello World
-Hello Worlds
-Hello Moon
-321 Goodnight
+    hello world
+    Hello World
+    Hello Worlds
+    Hello Moon
+    321 Goodnight
 
 **Basic command: Find and print an exact match for "world"**  
-```
-[root@test ~]# grep world example.txt
-hello world
-```
+
+    [root@test ~]# grep world example.txt
+    hello world
+
 
 **Use "-i" to ignore case** 
-```
-[root@test ~]# grep -i world example.txt
-hello world
-Hello World
-Hello Worlds
-```
+
+    [root@test ~]# grep -i world example.txt
+    hello world
+    Hello World
+    Hello Worlds
+
 
 **Use "-n" to find and print matches and include line numbers.** 
-```
-[root@test ~]# grep -n Hello example.txt
-2:Hello World
-3:Hello Worlds
-4:Hello Moon
-```
+
+    [root@test ~]# grep -n Hello example.txt
+    2:Hello World
+    3:Hello Worlds
+    4:Hello Moon
 
 **Use "-c" to find and print the number of line matches.**
-```
-[root@test ~]# grep -c hello example.txt
-1
-```
+
+    [root@test ~]# grep -c hello example.txt
+    1
 
 **Use a combination of  "-c" and "-i" to refine the search.**
 
-```
-[root@test ~]# grep -ci hello example.txt
-4
-```
+    [root@test ~]# grep -ci hello example.txt
+    4
 
 **Use "-v" to find and print all inverse (non-matching) lines.**
-```
-[root@test ~]# grep -v world example.txt
-Hello World
-Hello Worlds
-Hello Moon
-321 Goodnight
-```
+
+    [root@test ~]# grep -v world example.txt
+    Hello World
+    Hello Worlds
+    Hello Moon
+    321 Goodnight
 
 **Use a combination of  "-v" and "-i" to refine the search.**
-```
-[root@test ~]# grep -vi world example.txt
-Hello Moon
-321 Goodnight
-```
+
+    [root@test ~]# grep -vi world example.txt
+    Hello Moon
+    321 Goodnight
 
 **Use "-w" to find and print whole word matches.**
-```
-[root@test ~]# grep -w World example.txt
-Hello World
-```
+
+    [root@test ~]# grep -w World example.txt
+    Hello World
 
 **Use "-A n" to find and print the matches along with "n" lines after the match.**
-```
-[root@test ~]# grep -A 2 Worlds example.txt
-Hello Worlds
-Hello Moon
-321 Goodnight
-```
+
+    [root@test ~]# grep -A 2 Worlds example.txt
+    Hello Worlds
+    Hello Moon
+    321 Goodnight
 
 **Use "-B n" to find and print the matches along with "n" lines before the match.**
-```
-[root@test ~]# grep -B 2 Goodnight  example.txt
-Hello Worlds
-Hello Moon
-321 Goodnight
-```
+
+    [root@test ~]# grep -B 2 Goodnight  example.txt
+    Hello Worlds
+    Hello Moon
+    321 Goodnight
 
 **Use "CA n" to find and print the match along with "n" lines before and after the match.**
-```
-[root@test ~]# grep -C 2 Worlds  example.txt
-hello world
-Hello World
-Hello Worlds
-Hello Moon
-321 Goodnight
-```
+
+    [root@test ~]# grep -C 2 Worlds  example.txt
+    hello world
+    Hello World
+    Hello Worlds
+    Hello Moon
+    321 Goodnight
