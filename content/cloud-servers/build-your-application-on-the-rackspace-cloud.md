@@ -1,12 +1,12 @@
 ---
 permalink: build-your-application-on-the-rackspace-cloud/
-audit_date: '2019-01-22'
+audit_date: '2020-04-7'
 title: Build your application on the Rackspace cloud
 type: article
 created_date: '2019-02-05'
 created_by: Rackspace Community
-last_modified_date: '2019-02-05'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-04-7'
+last_modified_by: Chad Sterling 
 product: Cloud Servers
 product_url: cloud-servers
 ---
