@@ -8,6 +8,7 @@ last_modified_date: '2020-04-10'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
+---
 
 This article covers a few basic steps to troubleshoot database and log backup failures for MSSQL&reg;. It covers common causes for backup failures at a high level. Because of the complexity of MSSQL backup actions, this guide serves as a starting point for troubleshooting and helps to identify the cause for backup failures by using Microsoft&reg; Windows&reg; Event Viewer.
 
