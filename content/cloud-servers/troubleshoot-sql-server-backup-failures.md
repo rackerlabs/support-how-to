@@ -1,6 +1,6 @@
 permalink: troubleshoot-sql-server-backup-failures/
 audit_date: '2020-03-24'
-title: 'Troubleshoot SQL Server backup failures by using Windows Event Viewer'
+title: Troubleshoot SQL Server backup failures by using Windows Event Viewer
 type: article
 created_date: '2020-03-24'
 created_by: Karoline Mills
