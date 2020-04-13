@@ -1,12 +1,12 @@
 ---
 permalink: security-defaults-office365/
-audit_date:
+audit_date:'2020-04-13'
 title: How to enable Azure Active Directory Security Defaults in Office 365
 type: article
 created_date: '2020-04-09'
 created_by: Walter Stubbs
-last_modified_date: '2020-04-09'
-last_modified_by: Walter Stubbs
+last_modified_date: '2020-04-13'
+last_modified_by: William Loy
 product: Office 365
 product_url: office-365
 ---
@@ -16,36 +16,36 @@ product_url: office-365
 - **Applies to:** Administrator
 - **Difficulty:** Moderate
 - **Time Needed:** Approximately 30 minutes
-- **Tools Needed:** Office 365 Global Administrator access
+- **Tools Needed:** Office 365&reg; Global Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-Administrators looking for a simple solution to quickly secure their Office 365 tenant have the option of turning on Security Defaults for their organization. Security Defaults makes the following changes to your organization's tenant:
+Administrators looking for a simple solution to secure their Office 365 tenant have the option of turning on Security Defaults for their organization. Security Defaults makes the following changes to your organization's tenant:
 
--  Unifies the Multi-Factor Authentication (MFA) Registration experience for all users.
+-  Unifies the Multi-Factor Authentication (MFA) registration experience for all users.
 -  Enforces Multi-Factor Authentication for users and administrators.
--  Blocks legacy authentication methods (such as IMAP, SMTP, and POP3).
--  Blocks requests made my clients that do not use modern authentication (such as Office 2010).
--  Requires additional authentication when accessing highly privileged areas such as the Office 365 Admin Center and Azure Portal.
--  Requires using the Microsoft Authenticator app for MFA.
+-  Blocks legacy authentication methods such as Internet Message Access Protocol (IMAP), Simple Mail Transfer Protocol (SMTP), and Post Office Protocol (POP3).
+-  Blocks requests made by clients that don't use modern authentication.
+-  Requires extra authentication when accessing highly privileged areas such as the Office 365 Admin Center and Azure&reg; Portal.
+-  Requires the Microsoft&reg; Authenticator app for MFA.
 
 This article lists the steps to enable Azure Active Directory Security Defaults.
 
-**Warning:** Security Defaults only supports MFA using the Microsoft Authenticator app and only using the notification method. If any users in your organization do not have a mobile device or are unable to use the Microsoft Authenticator app, do not enable this feature.
+**Warning:** Security Defaults only supports MFA using the Microsoft Authenticator app with the notification method. If any users in your organization don't have a mobile device or are unable to use the Microsoft Authenticator app, don't enable this feature.
 
 ### Enable Security Defaults
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
 3.	From the left menu, select **Azure Active Directory** under **Admin centers**.
 
-**Note:** If you do not see the **Admin centers** section, you may need to select **Show all...**.
+    **Note:** If you don't see the **Admin centers** section, you might need to select **Show all...**.
 
 4.	Select **Azure Active Directory** from the left menu, then **Properties**.
 
-5.	Select **Yes**, then **Save**.
+5.	Select **Yes**, and then **Save**.
 
 ### Additional resources
 
