@@ -1,6 +1,6 @@
 ---
 permalink: azure-ad-sign-in-logs-office365/
-audit_date:'2020-04-13'
+audit_date: '2020-04-13'
 title: How to access and view sign-in logs for your Office 365 users
 type: article
 created_date: '2020-04-09'
@@ -16,7 +16,7 @@ product_url: office-365
 - **Applies to:** Administrator
 - **Difficulty:** Easy
 - **Time Needed:** Approximately 10 minutes
-- **Tools Needed:** Office 365 Global Administrator access
+- **Tools Needed:** Office 365&reg; Global Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
@@ -34,7 +34,7 @@ Use the following steps to view all sign-ins for your organization:
 
     **Note:** If you don't see the **Admin centers** section, you might need to select **Show all...**.
 
-4.	Select **Azure Active Directory** from the left menu, then **Sign-ins** under the **Monitoring** section.
+4.	Select **Azure Active Directory** from the left menu, and then **Sign-ins** under the **Monitoring** section.
 
     **Note:** You can filter your results and change your view by using the **Add filters** and **Columns** options.
 
@@ -48,9 +48,9 @@ Use the following steps to view all sign-ins for your organization:
 
     **Note:** If you don't see the **Admin centers** section, you might need to select **Show all...**.
 
-4.	Select **Azure Active Directory** from the left menu, then **Users**.
+4.	Select **Azure Active Directory** from the left menu, and then **Users**.
 
-5.  Search for the user you wish to view, then click their name.
+5.  Search for the user you want to view, and then click their name.
 
 6.  Select **Sign-ins** from the menu.
 
