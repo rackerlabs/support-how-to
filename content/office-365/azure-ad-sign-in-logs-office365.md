@@ -1,12 +1,12 @@
 ---
 permalink: azure-ad-sign-in-logs-office365/
-audit_date:
+audit_date:'2020-04-13'
 title: How to access and view sign-in logs for your Office 365 users
 type: article
 created_date: '2020-04-09'
 created_by: Josh Knippel
-last_modified_date: '2020-04-09'
-last_modified_by: Walter Stubbs
+last_modified_date: '2020-04-13'
+last_modified_by: William Loy
 product: Office 365
 product_url: office-365
 ---
@@ -24,29 +24,29 @@ This article lists the steps to access and view the sign-in logs for your Office
 
 ### View all sign-ins for your organization
 
-Use the following steps to view all sign-ins for your organization.
+Use the following steps to view all sign-ins for your organization:
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
 3.	From the left menu, select **Azure Active Directory** under **Admin centers**.
 
-**Note:** If you do not see the **Admin centers** section, you may need to select **Show all...**.
+    **Note:** If you don't see the **Admin centers** section, you might need to select **Show all...**.
 
 4.	Select **Azure Active Directory** from the left menu, then **Sign-ins** under the **Monitoring** section.
 
-**Note:** You can filter your results and change your view using the **Add filters** and **Columns** options.
+    **Note:** You can filter your results and change your view by using the **Add filters** and **Columns** options.
 
 ### View sign-ins for a specific user
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
 3.	From the left menu, select **Azure Active Directory** under **Admin centers**.
 
-**Note:** If you do not see the **Admin centers** section, you may need to select **Show all...**.
+    **Note:** If you don't see the **Admin centers** section, you might need to select **Show all...**.
 
 4.	Select **Azure Active Directory** from the left menu, then **Users**.
 
@@ -54,8 +54,8 @@ Use the following steps to view all sign-ins for your organization.
 
 6.  Select **Sign-ins** from the menu.
 
-**Note:** You can filter your results and change your view using the **Add filters** and **Columns** options.
+**Note:** You can filter your results and change your view by using the **Add filters** and **Columns** options.
 
-### Additional Resources
+### Additional resources
 
 To learn more about user activity reports in Office 365, see [Find activity reports in the Azure portal](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-find-activity-reports).
