@@ -16,7 +16,7 @@ product_url: office-365
 - **Applies to:** Administrator
 - **Difficulty:** Easy
 - **Time Needed:** Approximately 10 minutes
-- **Tools Needed:** Office 365 Global Administrator access
+- **Tools Needed:** Office 365&reg; Global Administrator access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
@@ -50,12 +50,12 @@ Use the following steps to view the combined audit logs for all users in your or
 
 4.	Select **Azure Active Directory** from the left menu, then **Users**.
 
-5.  Search for the user you wish to view, then click their name.
+5.  Search for the user you want to view, and then click their name.
 
 6.  Select **Audit logs** from the menu.
 
 **Note:** You can filter your results and change your view by using the **Add filters** and **Columns** options.
 
-### Additional Resources
+### Additional resources
 
 To learn more about user activity reports in Office 365, see [Find activity reports in the Azure portal](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/howto-find-activity-reports).
