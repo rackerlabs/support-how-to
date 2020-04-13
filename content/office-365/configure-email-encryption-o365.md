@@ -1,12 +1,12 @@
 ---
 permalink: configure-email-encryption-o365/
-audit_date:
+audit_date: '2020-04-13'
 title: How to enable Email Encryption in Office 365
 type: article
-created_date: '2020-04-09'
+created_date: '2020-04-13'
 created_by: Jon Muckenfuss
-last_modified_date: '2020-04-09'
-last_modified_by: Walter Stubbs
+last_modified_date: '2020-04-13'
+last_modified_by: William Loy
 product: Office 365
 product_url: office-365
 ---
@@ -16,17 +16,17 @@ product_url: office-365
 - **Applies to:** Administrator
 - **Difficulty:** Moderate
 - **Time Needed:** Approximately 30 minutes
-- **Tools Needed:** Office 365 Global Administrator access, Azure Information Protection Plan 1 or 2
+- **Tools Needed:** Office 365&reg; Global Administrator access, Azure&reg; Information Protection Plan 1 or 2
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-This article lists the steps to enable Office Message Encryption (OME) through use of an Exchange Transport Rule. Administrators can choose which conditions need to be met for email messages to be encrypted automatically by Exchange using a transport rule.
+This article lists the steps to enable Office Message Encryption (OME) through use of an Exchange Transport Rule. Administrators can set conditions which automatically encrypt emails.
 
-**Note:** All users must be licensed with Azure Information Protection Plan 1 or 2 for encryption to work.
+**Note:** All users must have Azure Information Protection Plan 1 or 2 licenses for encryption to work.
 
-### Create the Encryption Transport Rule
+### Create the encryption transport rule
 
-1.	Login to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -34,27 +34,27 @@ This article lists the steps to enable Office Message Encryption (OME) through u
 
 4.	Select **mail flow** from the left menu, then select **rules** from the top menu.
 
-5.	Select **+** then **Create a new rule...**. A pop-up window will appear.
+5.	Select **+** then **Create a new rule...**. A pop-up window should appear.
 
-6.  In the pop-up window, name your rule using the **Name:** field.
+6.  In the pop-up window, name your rule by using the **Name:** field.
 
 7.  Select **More options...** at the bottom of the page.
 
 8.  Under **Apply this rule if...** select which conditions must be met to apply encryption to an email message.
 
-**Note:** This option is customizable based on how you want to send out encrypted email. The following are a few conditions that we believe might be helpful:
+    **Note:** This option is customizable based on how you want to send out encrypted email. The following is a list of recommended conditions:
 
-a.	To encrypt all messages, use **The Sender is… “Internal”**
-b.	To encrypt messages only to specific domains, use **“The Recipient Address Includes…”** and input domains that you would like to have messages encrypted when sending to.
-c.	To encrypt messages with a key word, use **“The Subject or Body Includes…”** then select words such as Encrypt or Secure. When messages are sent with these keywords they will automatically be encrypted.
+    -	To encrypt all messages, use **The Sender is… “Internal”**
+    -	Encrypt messages sent to specific domains by using the  **“The Recipient Address Includes…”** condition and adding those domains.
+    -	Encrypt messages with a key word by using the **“The Subject or Body Includes…”** condition and then select the words which you would like to automatically encrypt a message.
 
 8.  Under **Do the following...** choose **Modify the message security...**, then **Apply Office 365 Message Encryption and rights protection**.
 
-9.  Select **Encrypt** from the **RMS template** options, then **OK**.
+9.  Select **Encrypt** from the **RMS template** options, then click **OK**.
 
 10.  Select **Save**.
 
-Your messages that meet your specified criteria will now have Office Message Encryption applied to them when sending.
+Messages that meet the specified criteria now have Office Message Encryption applied to them when sending.
 
 ### Additional resources
 
