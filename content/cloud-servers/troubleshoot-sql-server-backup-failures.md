@@ -1,15 +1,28 @@
 ---
 permalink: troubleshoot-sql-server-backup-failures/
-audit_date: '2020-03-24'
-title: Troubleshoot SQL Server backup failures by using Windows Event Viewer
+audit_date: '2020-03-26'
+title: Advanced security steps for Linux
 type: article
-created_date: '2020-03-24'
-created_by: Karoline Mills
-last_modified_date: '2020-04-10'
-last_modified_by: Cat Lookabaugh
+created_date: '2019-01-25'
+created_by: Rackspace Community
+last_modified_date: '2020-03-26'
+last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
 ---
+
+
+a permalink: troubleshoot-sql-server-backup-failures/
+a audit_date: '2020-03-24'
+a title: Troubleshoot SQL Server backup failures by using Windows Event Viewer
+a type: article
+a created_date: '2020-03-24'
+a created_by: Karoline Mills
+a last_modified_date: '2020-04-10'
+a last_modified_by: Cat Lookabaugh
+a product: Cloud Servers
+a product_url: cloud-servers
+
 
 This article covers a few basic steps to troubleshoot database and log backup failures for Microsoft&reg; SQL Server&reg;. It covers common causes for backup failures at a high level. Because of the complexity of SQL Server backup actions, this guide serves as a starting point for troubleshooting and helps to identify the cause for backup failures by using Microsoft Windows&reg; Event Viewer.
 
