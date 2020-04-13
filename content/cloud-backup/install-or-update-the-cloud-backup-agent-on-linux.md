@@ -11,10 +11,10 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-   **Note**: Rackspace deprecated the Red Hat&reg and Debian&reg updaters in
-   favor of an updater that is designed to support multiple flavors of Linux&reg. At some point,
-   the old **.rpm** and **.deb** installers and automated updaters will no longer be
-   supported. Instead, see the documentation for the [standard RCBU Linux updater](/how-to/rackspace-cloud-backup-install-the-agent-on-linux).
+   **Note**: Rackspace deprecated the Red Hat&reg; and Debian&reg; updaters in
+   favor of an updater designed to support multiple flavors of Linux&reg;. At some point,
+   we will no longer support the old **.rpm** and **.deb** installers and automated updaters.
+   Instead, see the documentation for the [standard RCBU Linux updater](/how-to/rackspace-cloud-backup-install-the-agent-on-linux).
 
 The Rackspace Cloud Backup agent facilitates the backup process on your servers.
 You must install the agent on every server that you want to back up. This
