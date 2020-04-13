@@ -46,40 +46,40 @@ the following command:
 
     ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor raxcloudserver --datacenter DFW
 
-Change "myuserid" to the primary user ID for your account and "DFW" to the cloud server's region.
+Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region.
 
-Run the following command to display other registration-time controls that are almost never used:
+Run the following command to display other registration-time controls, which you rarely use:
 
     ./cloudbackup-updater --help
 
 For cloud servers that reside in the LON region, you must specify the API host. For
-USA regions, SYD, and HKG, you must use the default API host "api.drivesrvr.com". 
-For the LON region, you must use "api.drivesrvr.co.uk".
+USA regions, SYD, and HKG, you must use the default API host `api.drivesrvr.com`. 
+For the LON region, you must use `api.drivesrvr.co.uk`.
 
 **Note:** A forced agent registration disconnects any previous registrations from
-the server in question. You must do a backup migration to re-associate the backup
+the server in question. You must do a backup migration to reassociate the backup
 data from a disconnected registration. However, the old registration with its backup
-data remains attached to the customer account until you deleted it.
+data remains attached to the customer account until you delete it.
 
 #### Non-cloud, non-Rackspace installation
 
 You might need to install a Cloud Backup agent on
-servers that are not in the Rackspace Public Cloud. YOu can use Rackspace Cloud Backup
-on most Linux computers with a public internet connection. These include machines like
-company laptops and desktops, cloud servers from other providers, such as AWS EC2&reg,
-Google Cloud&reg, and Azure&reg, or Rackspace Private Cloud and Rackspace On-Metal, and so on.
+servers that are not in the Rackspace Public Cloud. You can use Rackspace Cloud Backup
+on most Linux computers with a public Internet connection. These include machines like
+company laptops and desktops, cloud servers from other providers, such as AWS EC2&reg;,
+Google Cloud&reg;, and Azure&reg;, or Rackspace Private Cloud and Rackspace OnMetal, and so on.
 
-To install on such computers or servers, you must use a different "flavor" of installation.
+To install on such computers or servers, you must use a different flavor of installation.
 
-**Note:** The install flavor should not be confused with the Linux flavor. The Cloud
-Backup install flavor is the type or kind of Cloud Backup installation.
+**Note:** Don't confuse the installation flavor with the Linux flavor. The Cloud
+Backup installation flavor is the type or kind of Cloud Backup installation.
 
-Normal installations on Rackspace Cloud servers is *raxcloudserver*. For installation
-on other types of computers, you should use the *dedicated* flavor.
+Normal installations on Rackspace Cloud Servers is `raxcloudserver`. For installation
+on other types of computers, you should use the `dedicated` flavor.
 
     ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor dedicated --datacenter DFW
 
-For dedicated installations, any region accessible by the customer account might be specified.
+For dedicated installations, you can specify any region accessible by the customer account.
 
 #### Installations with existing agents
 
@@ -94,7 +94,7 @@ the command updates the agent.
 #### Check the Linux installation or update
 
 After you have installed the updater and agent, you can verify the installation by using several
-methoids.
+methods.
 
 To verify the version of the updater, first check the latest version number in our repository:
 
@@ -134,7 +134,7 @@ You can view the following agent and updater logs with your favorite file viewer
 - **/var/log/driveclient.log**
 - **/var/log/driveclient.log.1** (and so on for older versions)
 
-If the agent or updater do not behave as expected, you can `grep` these logs to look for 
+If the agent or updater does not behave as expected, you can `grep` these logs to look for 
 "ERROR" or other information. For more information on reading agent logs, see
 [Cloud Backup Logging Basics](/how-to/cloud-backup-agent-logging-basics).
 
@@ -142,14 +142,14 @@ To verify that the agent is registered, look at the bootstrap file, **/etc/drive
 
 To ensure that the agent is registered, running, and connected, look at the Control Panel
 status of this agent by logging in to [Cloud Control Panel](https://login.rackspace.com).
-In the Backup section of the menu, you can create backup configurations, run backups and
+In the **Backup** section of the menu, you can create backup configurations, run backups and
 cleanups, restore old backups, and so on by selecting the name of the server on which you installed
 the agent.
 
 ### Troubleshooting installs, upgrades, and uninstalls
 
 Installation and upgrade of the cloud backup agent or updater might fail for a number of reasons. 
-The folowing troubleshooting tips might help to fix the issues.
+The following troubleshooting tips might help to fix the issues.
 
 We recommend that you enable TRACE logging as part of the troubleshooting process.
 If you need to call the Support team, TRACE logging helps them identify the
@@ -161,10 +161,10 @@ effective log setting is to directly edit **log4cxx.xml** and change the level
 from INFO to DEBUG or TRACE or ALL.
 
 A Cloud Backup connection error indicates that the agent is not currently running
-on the server. In this case, verify that the firewall does not blocking outgoing connections
+on the server. In this case, verify that the firewall does not block outgoing connections
 on port 443.
 
-#### Backup statuses: skipped, missed, errored, and failed
+#### Backup statuses: Skipped, Missed, Errored, and Failed
 
 The backup statuses are defined below:
 
@@ -176,19 +176,19 @@ The backup statuses are defined below:
     run, and it needs to be investigated.
 -   **Failed:** A serious problem occurred, and the backup job did not run.
 
-To troubleshoot these error status, see [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/).
+To troubleshoot these error statuses, see [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/).
 
 #### Uninstall the Cloud Backup agent or updater on Linux
 
 To uninstall the agent, you must also uninstall the updater. Use the service control
 tools provided by the flavor of Linux you are running. The name of the agent service
-is **driveclient**, and the name of the updater is **cloudbackup-updater**. So for instance,
+is `driveclient`, and the name of the updater is `cloudbackup-updater`. So for instance,
 a Linux flavor that uses systemctl might require:
 
     systemctl disable cloudbackup-updater
     systemctl disable driveclient
 
-**Warning:** When disabling the Cloud Backup agent, you **must** first disable the
+**Warning:** When you disable the Cloud Backup agent, you **must** first disable the
 updater, or it eventually re-enables the agent.
 
 ### More troubleshooting tips
