@@ -11,17 +11,17 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-*This article applies to the following Windows Server versions: 2012, 2012 R2, 2016, 2019*
+*This article applies to the following Windows Server&reg; versions: 2012, 2012 R2, 2016, 2019*
 
-This article describes how to reset local user passwords on Windows server.
+This article describes how to reset local user passwords on Windows Server.
 
-### Access local Users and Groups
+### Access Local Users and Groups
 
 1. Log in to the server where you want to add or remove the user.
 
 2. Click **Start > Run**.
 
-3. Enter **lusrmgr.msc** in the box and click **OK** or use Windows Search to search for **Local Users and Groups**.
+3. Enter **lusrmgr.msc** in the box and click **OK** or use the Windows&reg; search to search for **Local Users and Groups**.
 
 4. In the console, double-click **Users** to display a list of users on the right.
 
@@ -33,4 +33,4 @@ This article describes how to reset local user passwords on Windows server.
 
 3. Enter the new password, confirm it, and then select the desired options related to password expiration and change requirements.
 
-4. Click **OK** to save the changes. Older version might have **Set Password** or **Reset Password** buttons instead of **OK**.
+4. Click **OK** to save the changes. An older version might have **Set Password** or **Reset Password** buttons instead of **OK**.
