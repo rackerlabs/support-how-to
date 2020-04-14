@@ -7,8 +7,6 @@ article created_date: '2018-02-21'
 created_by: Brian King
 last_modified_date: '2020-02-04'
 last_modified_by: Catherine Richardson
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 XenServer, which is the virtualization platform used by the Rackspace public cloud, supports multiple
@@ -35,7 +33,7 @@ The following sections describe some advantages and disadvantages of PVHVM.
 PVHVM performance considerations include the following:
 
 -  Network and disk I/O are faster with PVHVM images because Quick Emulator (QEMU) emulation is bypassed.
--  PVHVM requires a bit more memory overhead than PV.  
+-  PVHVM requires a bit more memory overhead than PV.
 -  Work-optimized Rackspace servers, such as Compute, I/O, and Memory, require PVHVM images.
 
 If you try to create a work-optimized server by using a non-PVHVM image, the following error message displays:
