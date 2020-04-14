@@ -13,13 +13,13 @@ product_url: cloud-servers
 
 This article shows you how to troubleshoot Secure Shell (SSH) on a Linux&reg; server.
 
-### Differnt types of errors
+### Different types of errors
 
-If you cannot SSH in to a server, you should pay attention to the errors (or lack of) that you receive. The following list describes some possible errors:
+If you cannot SSH in to a server, you should pay attention to the errors (or lack of them) that you receive. The following list describes some possible errors.
 
 #### Access denied or Authentication refused
 
-This error occurs whenever you log in via ssh with incorrect credentials. If you get this error, you can check the following:
+This type of error occurs whenever you log in via SSH with incorrect credentials. If you get this error, you can check the following:
 
 - Make sure you have typed the username and password correctly.
 - If you are using an SSH key pair, make sure that you have the private key installed on your local machine.
@@ -34,7 +34,7 @@ This error occurs for the following reasons:
 
 #### Network Error: Connection timed out
 
-This error often occurs because of network connectivity issues on either the server or your local machine. Whenever you receive these errors, make sure your local computer is connected to the internet. If it is connected, check the server connection as well to ensure that the server is running.
+This error often occurs because of network connectivity issues on either the server or your local machine. Whenever you receive these errors, make sure your local computer is connected to the Internet. If it is connected, check the server connection as well to ensure that the server is running.
 
 ### Check from the outside
 
@@ -42,7 +42,7 @@ Here are some common ways to troubleshoot SSH from outside your server:
 
 #### `nmap`
 
-`nmap` is a network exploration tool and security or port scanner. You can use this tool to check to see if the port for SSH is open on the server.
+`nmap` is a network exploration tool and security or port scanner. You can use this tool to check to see if the port for SSH is open on the server. The following example provides the command and its output:
 
 ```
 $ nmap <ip-address-of-host>
@@ -62,29 +62,29 @@ Nmap done: 1 IP address (1 host up) scanned in 4.35 seconds
 
 #### `ssh -vvv`
 
-Using `ssh` with the `-vvv` flags produces verbose output as you SSH in to the server. This can provide some useful information for troubleshooting exactly where the issue might be.
+Using `ssh` with the `-vvv` flags produces verbose output as you SSH in to the server. This command can provide some useful information for troubleshooting exactly where the issue might be.
 
 
 ### Check from the inside
 
-If you are having issue with SSH, you can log in by using the emergency console to troubleshoot the server to check the following conditions:
+If you are having issues with SSH, you can log in by using the emergency console to troubleshoot the server to check the following conditions:
 
 #### SSH process
 
-First, make sure that the ssh process is running by running the following command:
+First, make sure that the SSH process is running by running the following command:
 
-- For Ubuntu&reg; 16.04+, Debian&reg; 8+ and Centos&reg; 7+ : `systemctl status sshd`
+- For Ubuntu&reg; 16.04+, Debian&reg; 8+, and Centos&reg; 7+: `systemctl status sshd`
 - For Centos 6: `service sshd status`
 
 If you do not see the service running, you can start the process by using the following command:
 
-- For Ubuntu 16.04+, Debian 8+ and Centos 7+ : `systemctl start sshd`
+- For Ubuntu 16.04+, Debian 8+, and Centos 7+: `systemctl start sshd`
 - For Centos 6: `service sshd start`
 
 
 #### netstat
 
-The `netstat` command shows you the current connections on the server. This is a good way to check and see which port SSH is running on. When you run `netstat`, use the flags `-plnt` to get the following output:
+The `netstat` command shows you the current connections on the server. This command is a good way to check and see which port SSH is running on. When you run `netstat`, use the flags `-plnt` to get the following output:
 
 ```
 # netstat -plnt
@@ -94,9 +94,9 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 
 ```
 
-#### SSH config file
+#### SSH configuration file
 
-The SSH config file, **/etc/ssh/sshd_config**, sets the SSH configuration. There are many options in the config file but here are some to look out for:
+The SSH configuration file, **/etc/ssh/sshd_config**, sets the SSH configuration. There are many options in the configuration file, but here are some to look out for:
 
 ```
 Port 22            <---- The port ssh runs on
@@ -126,7 +126,7 @@ PermitRootLogin yes  <---- Allows or block users logging in as root
 #PubkeyAuthentication yes  <---- Will state whether or not a user needs an ssh key to log in
 ```
 
-Alternatively, you can use the `grep` command to look for these specific lines. When you use the `grep` command, you need to be specific when searhing for a specific phrase. Be careful with punctuation, capitalization and spelling.
+Alternatively, you can use the `grep` command to look for these specific lines. When you use the `grep` command, you need to be specific when searching for a specific phrase. Be careful with punctuation, capitalization, and spelling.
 
 ```
 $ sudo grep Port /etc/ssh/sshd_config
@@ -136,11 +136,11 @@ $ sudo grep Port /etc/ssh/sshd_config
 
 #### The firewall
 
-If you have network connectivity, all the configurations are correct, and you are still unable to connect via SSH, you might want to look at your firewall rules on the server. On linux servers, iptables has these rules. To list the firewall rules in iptables, run the command `iptables -L`. To learn more about iptables, read [Introduction to iptables](/how-to/introduction-to-iptables/ "iptables").
+If you have network connectivity, all the configurations are correct, and you are still unable to connect via SSH, you might want to look at your firewall rules on the server. On Linux servers, **iptables** has these rules. To list the firewall rules in **iptables**, run the command `iptables -L`. To learn more about **iptables**, read [Introduction to iptables](/how-to/introduction-to-iptables/ "iptables").
 
 #### `fail2ban`
 
-`fail2ban` is an application that blocks an IP address after a certain number of failed login attempts. To check the jails, you can run the command `fail2ban-client status`. This command shows you all the configured jails on the server and the IP addresses that are in those jails.
+`fail2ban` is an application that blocks an IP address after a certain number of failed login attempts. To check the jails, you can run the command `fail2ban-client status`. This command shows you all the configured jails on the server, and the IP addresses that are in those jails.
 
 #### The log files
 
