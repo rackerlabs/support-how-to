@@ -44,21 +44,18 @@ Here are some common ways to troubleshoot SSH from outside your server:
 
 `nmap` is a network exploration tool and security or port scanner. You can use this tool to check to see if the port for SSH is open on the server. The following example provides the command and its output:
 
-```
-$ nmap <ip-address-of-host>
+    $ nmap <ip-address-of-host>
 
-Starting Nmap 6.40 ( http://nmap.org ) at 2020-03-21 23:44 UTC
-Nmap scan report for <ip-address-of-host>
-Host is up (0.033s latency).
-Not shown: 997 filtered ports
-PORT    STATE SERVICE
-22/tcp  open  ssh
-80/tcp  open  http
-443/tcp open  https
+    Starting Nmap 6.40 ( http://nmap.org ) at 2020-03-21 23:44 UTC
+    Nmap scan report for <ip-address-of-host>
+    Host is up (0.033s latency).
+    Not shown: 997 filtered ports
+    PORT    STATE SERVICE
+    22/tcp  open  ssh
+    80/tcp  open  http
+    443/tcp open  https
 
-Nmap done: 1 IP address (1 host up) scanned in 4.35 seconds
-
-```
+    Nmap done: 1 IP address (1 host up) scanned in 4.35 seconds
 
 #### `ssh -vvv`
 
@@ -86,53 +83,46 @@ If you do not see the service running, you can start the process by using the fo
 
 The `netstat` command shows you the current connections on the server. This command is a good way to check and see which port SSH is running on. When you run `netstat`, use the flags `-plnt` to get the following output:
 
-```
-# netstat -plnt
-Active Internet connections (only servers)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
-tcp6       0      0 :::22                   :::*                    LISTEN      13631/sshd             
-
-```
+    # netstat -plnt
+    Active Internet connections (only servers)
+    Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+    tcp6       0      0 :::22                   :::*                    LISTEN      13631/sshd             
 
 #### SSH configuration file
 
 The SSH configuration file, **/etc/ssh/sshd_config**, sets the SSH configuration. There are many options in the configuration file, but here are some to look out for:
 
-```
-Port 22            <---- The port ssh runs on
-#AddressFamily any
-#ListenAddress 0.0.0.0
-#ListenAddress ::
+    Port 22            <---- The port ssh runs on
+    #AddressFamily any
+    #ListenAddress 0.0.0.0
+    #ListenAddress ::
 
-~
-~
-~
+    ~
+    ~
+    ~
 
-# Ciphers and keying
-#RekeyLimit default none
+    # Ciphers and keying
+    #RekeyLimit default none
 
-# Logging
-#SyslogFacility AUTH
-#LogLevel INFO
+    # Logging
+    #SyslogFacility AUTH
+    #LogLevel INFO
 
-# Authentication:
+    # Authentication:
 
-#LoginGraceTime 2m
-PermitRootLogin yes  <---- Allows or block users logging in as root
-#StrictModes yes
-#MaxAuthTries 6
-#MaxSessions 10
+    #LoginGraceTime 2m
+    PermitRootLogin yes  <---- Allows or block users logging in as root
+    #StrictModes yes
+    #MaxAuthTries 6
+    #MaxSessions 10
 
-#PubkeyAuthentication yes  <---- Will state whether or not a user needs an ssh key to log in
-```
+    #PubkeyAuthentication yes  <---- Will state whether or not a user needs an ssh key to log in
+
 
 Alternatively, you can use the `grep` command to look for these specific lines. When you use the `grep` command, you need to be specific when searching for a specific phrase. Be careful with punctuation, capitalization, and spelling.
 
-```
-$ sudo grep Port /etc/ssh/sshd_config
-#   Port 22
-
-```
+    $ sudo grep Port /etc/ssh/sshd_config
+    #   Port 22
 
 #### The firewall
 
