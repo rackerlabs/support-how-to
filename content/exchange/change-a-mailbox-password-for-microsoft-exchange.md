@@ -46,9 +46,9 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
-3. In the mailbox list, find the mailbox you want to updated and click the dropdown arrow by the  **Manage** button.
+3. In the mailbox list, find the mailbox you want to update and click the dropdown arrow by the  **Manage** button.
 
-4. Within **Change Password** pop-up, enter the following information:
+4. Within the **Change Password** pop-up, enter the following information:
 
    - **Password:** Enter a new password.
    - **Confirm:** Enter the new password again.
