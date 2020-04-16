@@ -1,12 +1,12 @@
 ---
 permalink: best-practices-for-firewall-rules-configuration/
-audit_date: '2018-04-04'
+audit_date: '2020-04-16'
 title: Best practices for firewall rules configuration
 type: article
 created_date: '2014-12-03'
 created_by: Rose Contreras
-last_modified_date: '2018-04-04'
-last_modified_by: Nate Archer
+last_modified_date: '2020-04-16'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -40,14 +40,14 @@ It's acceptable to enable all source addresses to access your HTTP server. It's 
 
   Server management ports:
 
-    - Linux&reg;SSH : Port 22
-    - Windows&reg; RDP: Port 3389  
+  - Linux&reg;SSH : Port 22
+  - Windows&reg; RDP: Port 3389  
 
   Database ports:
 
-    - SQL&reg; Server : Port 1433
-    - Oracle&reg; : Port 1521
-    - MySQL&reg; : Port 2206
+  - SQL&reg; Server : Port 1433
+  - Oracle&reg; : Port 1521
+  - MySQL&reg; : Port 2206
 
 Be specific about who can reach these ports. When it is impractical to define source IP addresses for network management, you might consider another solution like a remote access VPN as a compensating control to allow the access required and protect your network.
 
