@@ -1,6 +1,6 @@
 ---
 permalink: add-a-user-to-the-local-administrators-group-in-windows-server-2012/
-audit_date:'2020-04-17'
+audit_date: '2020-04-17'
 title: 'Add a User to the Local Administrators Group in Windows Server 2012'
 type: article
 created_date: '2020-04-13'
