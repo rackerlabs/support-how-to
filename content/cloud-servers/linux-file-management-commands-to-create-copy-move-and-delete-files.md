@@ -11,19 +11,21 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains some introductory Linux&reg; file management commands to view, create, copy, move, and delete files and directories.
+This article describes some introductory Linux&reg; file management commands to view, create, copy, move, and delete files and directories.
 
 ### View directories and files
 
-To view the files in a directory use the `ls` command.  To view the contents of a file, use the `cat` command.
+To view the files in a directory, use the `ls` command.  
+
+To view the contents of a file, use the `cat` command.
 
 #### `ls` command
 
-You can use the `ls` command to show the contents of a directory. `ls` command options such as `ls -lah` provide additional information and include a listing of all files (including hidden files) in a human-readable, long-list view.
+You can use the `ls` command to show the contents of a directory. `ls` command options, such as `ls -lah`, provide additional information. They include a listing of all files (including hidden files) in a human-readable, long-list view.
 
 **Syntax**: `ls directoryname`
 
-The following example shows the listing of an empty directory. `ls` returned no files, while `ls -lah` returns hidden files and directories. Directories are shown with a line starting with "d".
+The following example shows the listing of an empty directory. `ls` returns no files, while `ls -lah` returns hidden files and directories. Directories are shown with a line starting with _d_.
 
     [root@server-01 testdir]# ls
     [root@server-01 testdir]#
@@ -38,7 +40,7 @@ The `cat` command displays the contents of a file.
 
 **Syntax**: `cat filename`
 
-The following example shows how to view the contents of **Important** with the `cat` command:
+The following example shows how to view the contents of the **Important** file with the `cat` command:
 
     [root@server-01 testdir]# cat Important
     DON'T DELETE THIS TEXT.
@@ -57,7 +59,7 @@ The `touch` command creates empty files.
 
 **Syntax**: `touch newfilename`
 
-The following example uses the **touch** command to create new files, **demo** and **sample.txt**:
+The following example uses the **touch** command to create the new files, **demo** and **sample.txt**:
 
     [root@server-01 testdir]# ls -lah
     total 8.0K
@@ -72,9 +74,9 @@ The following example uses the **touch** command to create new files, **demo** a
     -rw-r--r--. 1 root root    0 Apr 14 01:50 demo
     -rw-r--r--. 1 root root    0 Apr 14 01:50 sample.txt
 
-You can also use the **touch** command to create multiple files.
+You can also use the **touch** command to create multiple files with a single command.
 
-The following example uses the **touch** command to create new files, **sample1**, **sample2**, and **sample3**:
+The following example uses the **touch** command to create the new files, **sample1**, **sample2**, and **sample3**:
 
     [root@server-01 testdir]# ls -lah
     total 8.0K
@@ -99,7 +101,7 @@ The `cat >` command creates a non-empty file by entering the contents after the 
 
 **Syntax**: `cat > text-to-be-added`
 
-The following example uses `cat >` followed by the content to create new file, **test.txt**, with one line of content:
+The following example uses `cat >` followed by the content to create the new file, **test.txt**, with one line of content:
 
     [root@server-01 testdir]# ls -lah
     total 8.0K
@@ -121,11 +123,11 @@ The following example uses `cat >` followed by the content to create new file, *
 
 **Syntax**: `> newfilename`
 
-The standard redirect symbol, `>` creates a single new file without any content or replaces an existing file with an empty file of the same name.
+The standard redirect symbol, `>`, creates a single new file without any content or replaces an existing file with an empty file of the same name.
 
 **CAUTION:** You should use the redirect symbol with care because you can accidentally overwrite existing files. These changes are permanent. You cannot recover the previous contents.
 
-The following example uses `>` to create a new file, **example.txt**.
+The following example uses `>` to create the new file, **example.txt**:
 
     [root@server-01 testdir]# ls -lah
     total 12K
@@ -154,11 +156,11 @@ The following example demonstrates how you can accidentally rewrite the contents
 
 **Note:** As previously mentioned, the redirect symbol can rewrite, as shown in the preceding example, with no option to recover lost data. If you rewrite critical files, this can cause catastrophic issues.
 
-However, you can use two redirect symbols, `>>`, to append content to the end of an file. If no file exists, `>>` creates the file and adds the contents.  If a file already exists, `>>` appends the new contents to the end of the file.
+However, you can use two redirect symbols, `>>`, to append content to the end of a file. If no file exists, `>>` creates the file and adds the contents. If the file already exists, `>>` appends the new contents to the end of the file.
 
 **Syntax**: `>> filename`
 
-The following example uses `>>` to add the contents of **change.txt** to the end of file, **edit.txt**. The `>>` command prevents a complete rewrite of **edit.txt**.
+The following example uses `>>` to add the contents of **change.txt** to the end of the file, **edit.txt**. The `>>` command prevents a complete rewrite of **edit.txt**.
 
     [root@server-01 testdir]# cat edit.txt
     Examples
@@ -177,7 +179,7 @@ Use `mkdir*` to create an empty directory.
 
 **Syntax**: `mkdir new-dirname`
 
-The following example uses `mkdir` to create new directories, **folder1** and **folder2**.
+The following example uses `mkdir` to create the new directories, **folder1** and **folder2**:
 
     [root@server-01 testdir]# ls -lah
     total 12K
@@ -204,7 +206,7 @@ The following example uses `mkdir` to create new directories, **folder1** and **
 
 You can also use the `mkdir` command to create multiple directories with a single command.
 
-The following example uses `mkdir` to create new directories, **folderA**, **folderB**, and **folderC**:
+The following example uses `mkdir` to create the new directories, **folderA**, **folderB**, and **folderC**:
 
     [root@server-01 testdir]# mkdir folderA folderB folderC
     [root@server-01 testdir]# ls -lah
@@ -265,11 +267,11 @@ The following example uses `cp -r` to make a new directory, **copyfolder1**, fro
 
 ### Move a file or directory
 
-You can uses the `mv` command to move a file into another directory.
+You can use the `mv` command to move a file into another directory.
 
 **Syntax**: `mv filename destination`
 
-The following example uses the `mv` command to move **sample.txt** from its current directory to the **folder1** directory. 
+The following example uses the `mv` command to move **sample.txt** from its current directory to the **folder1** directory: 
 
     [root@server-01 testdir]# ls -lah
     total 16K
@@ -296,11 +298,11 @@ The following example uses the `mv` command to move **sample.txt** from its curr
     drwxr-xr-x. 3 root root 4.0K Apr 14 03:58 ..
     -rw-r--r--. 1 root root    0 Apr 14 01:57 sample.txt
 
-As you can see, **sample.txt** moved the previous directory and now shows in the **folder1** directory.
+As you can see, **sample.txt** moved from the previous directory and now shows in the **folder1** directory.
 
-You can also use the `mv` command to rename existing files or directories:
+You can also use the `mv` command to rename existing files or directories.
 
-The following example uses the `mv` command to rename the **demo** file to **newdemo**. 
+The following example uses the `mv` command to rename the **demo** file to **newdemo**: 
 
     [root@server-01 testdir]# ls -lah
     total 16K
@@ -361,15 +363,15 @@ The following example uses the `rm` command to remove the existing file, **demo*
     dr-xr-x---. 8 root root 4.0K Apr 14 01:47 ..
     drwxr-xr-x. 2 root root 4.0K Apr 14 03:58 newfolder1
 
-**CAUTION:** Using the **rm** command to remove an existing file is permanent and you cannot recover the previous file.
+**CAUTION:** Using the **rm** command to remove an existing file is permanent. You cannot recover the previous file.
 
 ### Delete an empty directory
 
-Use the `rmdir` command to remove an empty directory
+Use the `rmdir` command to remove an empty directory.
 
 **Syntax**: rmdir directoryname
 
-The following example uses the `rmdir` command to remove an empty directory, **emptyfolder**.
+The following example uses the `rmdir` command to remove an empty directory, **emptyfolder**:
 
     [root@server-01 testdir]# ls -lah
     total 16K
@@ -391,11 +393,11 @@ The **rmdir** command cannot remove a directory with contents in it, as shown in
      [root@server-01 testdir]# rmdir newfolder1
      rmdir: failed to remove ‘newfolder1’: Directory not empty
 
-However, you can use `rm` with option `-r` to remove a directory that has content.
+However, you can use `rm` with the option `-r` to remove a directory that has content.
 
 **Syntax:**: rm -r directoryname
 
-The following example uses `rm -r` to remove the non-empty directory, **newfolder1** and its contained file, **sample.txt**.
+The following example uses `rm -r` to remove the non-empty directory, **newfolder1**, and its file, **sample.txt**:
 
     [root@server-01 testdir]# ls -lah
     total 12K
