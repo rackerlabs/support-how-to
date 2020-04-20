@@ -13,57 +13,61 @@ product_url: cloud-servers
 
 ### What is `chkdsk`
 
-The name of the `chkdsk` command comes from "check disk". You can use this Microsoft&reg; Windows utility
+The name of the `chkdsk` command comes from _check disk_. You can use this Microsoft&reg; Windows&reg; utility
 to analyze the integrity and reliability of systems storage devices. Originally intended for hard drives,
-you can use the command on any storage device that uses filesystem and formatting. 
+you can use the command on any storage device that uses a filesystem and formatting. 
 
-`chkdsk` performs the following actiities:
+`chkdsk` performs the following activities:
 
 - Checks the hard drive for potential failure due to read or write errors. 
 - Repairs errors found by moving stored data to other areas of a drive, which are physical locations
   called sectors. 
 - Attempts to salvage any bad or unreliable data stored in the sector and move it to another sector. The
-  operation then marks the original sector as unusable and unavailable for the operating system to use.
-- Scans the file system and analyzes the integrity of the files, file system, and file metadata on the drive.
+  operation then marks the original sector as unusable and unavailable for the operating system.
+- Scans the filesystem and analyzes the integrity of the files, the filesystem, and the file metadata on the drive.
 - Fixes misaligned time stamps, file size data, and security flags on files on the drive.
 - Conducts a complete scan of the drive, accessing and testing every sector of the hardware. Because this method
   is a more thorough check, you should perform it in a maintenance window. The operation divides a hard drive
-  into logical sectors, which are defined areas of the drive where a certain defined quantity of data will be stored.
+  into logical sectors, which are defined areas of the drive where a certain defined quantity of data is stored.
   If sectors develop soft errors, the operation rewrites the data.
 
 ### Prerequisites
 
-Using `chkdsk` requires the administrator account.
+You must have an administrator account to use `chkdsk`.
 
-### Invoke Powershell or the command prompt
+### Invoke PowerShell or the command prompt
 
-To launch Windows PowerShell, use the following instructions:
+To launch Windows PowerShell&reg;, use the following instructions:
 
 1. Press the **Windows Key + X** to bring up the **power users** menu in the **Start** menu. 
-2. Select Powershell from there or just type **powershell** at the **Start** menu.
-3. Right-click the Powershell icon and launch it as Administrator. 
+2. Select **PowerShell** from there or type **powershell** at the **Start** menu.
+3. Right-click the PowerShell icon and launch it as administrator. 
 
 To use the command prompt, perform the following steps:
 
 1. Click the **Windows** key and type **cmd**.
-2. Right-click the command prompt application and launch as Administrator. 
+2. Right-click the command prompt application and launch as administrator. 
 
 ### Invoke `chkdsk`
 
-To invoke the utility in read-only mode, enter `chkdsk`, followed by a space, then the letter of the
-drive you wish to examine. In this mode, you can use the utility safely on a active system because no
+To invoke the utility in read-only mode, enter `chkdsk` followed by a space, and then the letter of the
+drive you wish to examine. In this mode, you can use the utility safely on an active system because no
 changes or repairs occur. `chkdsk` simply runs in diagnosic mode and displays the results when completed.
-Because the utility makes no changes, you don't need administration privileges. As a best practice, you
-should run `chkdsk` in this mode prior to adding arguments to repair. To run `chkdsk` on system drive “C:”,
+Because the utility makes no changes, you don't need administrator privileges. As a best practice, you
+should run `chkdsk` in this mode before you add arguments to repair. To run `chkdsk` on system drive C:,
 use `chkdsk c:`. 
 
 ### Commonly used parameters
 
-**chkdsk C:**: Read-only check, displays errors found, no administrator privileges needed
-**chkdsk /f /v**: Runs after a reboot, checks and fixes errors, verbose mode
-**chkdsk /r**: Runs after reboot assumes functions of `/f`, relocates bad sectors
+The following `chkdsk` parameters are most commonly used:
+
+-  **chkdsk C:**: Performs a read-only check, displays errors found, with no administrator privileges needed.
+-  **chkdsk /f /v**: Runs after a reboot, and checks and fixes errors, in verbose mode.
+-  **chkdsk /r**: Runs after reboot and assumes the functions of `/f`, relocates bad sectors.
 
 ### `chkdsk` operation and parameters
+
+The following description of the operations and parameters might help you with your use of `chkdsk`:
 
 **Syntax**: `chkdsk [drive:] [parameters]`
 
