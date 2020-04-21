@@ -1,5 +1,5 @@
 ---
-permalink: compression-and-archive-tools-in-linux
+permalink: compression-and-archive-methods-in-linux
 audit_date: '2020-04-21'
 title: Compression and archive tools in Linux
 type: article
