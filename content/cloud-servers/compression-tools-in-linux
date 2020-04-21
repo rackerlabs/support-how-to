@@ -1,23 +1,28 @@
 ---
 permalink: compression-tools-in-linux/
-audit_date:
+audit_date: '2020-04-21'
 title: 'Compression Tools in Linux'
 type: article
 created_date: '2020-04-17'
 created_by: John Abercrombie
-last_modified_date:
-last_modified_by:
-product: Linux OS Compression
-product_url: linux-os-compression
+last_modified_date: '2020-04-21'
+last_modified_by: Cat Lookabaugh
+product: Cloud Servers
+product_url: cloud-servers
 ---
 
-# Compression: Creating & Extracting Zip, Tar, Tar.gz, and Tar.bz2 Files in Linux
+This article explains how to create and extract file archives in Linux&reg; by using various methods.
 
-In the digital age we currently live in, sending data over the Internet has become common place. In fact, it is necessary for data distribution. The more we practiced sending data over the Internet, the more we needed to send at one time.
+In this digital age, we commonly send data over the Internet, especially for data distribution.
+When we need to send large amounts of data, we often need to send it all at once.
 
-Thus, we needed a way to send multiple files, documents, or images within a single file. Not only that, we needed a way to do so efficiently and without bogging down bandwidth in the process. Therefore, methods of compressing data before sending it came into being. These methods enable us to send files quicker (due to being smaller) as well as allow us to save on hard drive space.
+Thus, we need a way to send multiple files, documents, or images within a single file. Not only that, but
+we need a way to deliver the data efficiently and without bogging down bandwidth in the process. Therefore,
+methods of compressing data before sending it came into being. Because the compressed files are smaller,
+these methods enable us to send files more quickly. The smaller size also saves space on hard drives.
 
-Data compression and Linux are certainly not strangers. If you have ever noticed the .xyz at the end of a package you have installed from a Linux repository, then you already know that data compression and Linux are old friends.
+Data compression and Linux are certainly not strangers. If you have ever noticed the **.xyz** at the end
+of a package you have installed from a Linux repository, then you've seen an example of Linux data compression.
 
 While there are several methods of data compression available, the most common in Linux are:
 
@@ -26,130 +31,124 @@ While there are several methods of data compression available, the most common i
 - .tar.gz files
 - .tar.bz2 files
 
-# ZIP
+### zip
 
-This particular method is probably to most well known and most commonly used when it comes to archiving or compressing files today. One fact that gives it such a large advantage over other methods is the fact that it is cross-platform accessible. This means that someone is able to access and open this file regardless of operating system. Linux, Windows, and MacOS all support zip files as a baseline.
+This particular method is probably to most well known and most commonly used when it comes to archiving or
+compressing files today. The fact that it is cross-platform accessible gives this method an advantage over
+others. You can access and open a zip file regardless of the operating system because Linux, Windows&reg;, and
+MacOS&reg; all support zip files by default.
 
-The command you will need for compressing a file with zip is:
+The following example shows the basic syntax for compressing a file with zip:
 
-```sh
-$ zip -r (name of zip file).zip (directory or file(s) you want to compress)
-```
+    $ zip -r <name of the zip file>.zip <directory or file(s) you want to compress>
 
-You can also compress directories. An example of a directory that you might want to compress is your Pictures folder/directory. We’ll show two examples: one with the file named example.txt and one with the directory called Pictures.
+You can also compress directories. The following examples show you how to create a zip archive with the file,
+**example.txt** and another zip archive with the directory, **Pictures**:
 
-```sh
-$ zip examples.zip example.txt
-$ zip -r pictures.zip /home/user/Pictures/
-```
+    $ zip examples.zip example.txt
+    $ zip -r pictures.zip /home/user/Pictures/
 
-All of these commands will create a compressed .zip file. You may be wondering why the example for the Pictures directory has the -r switch/option though. That is because you want to recursively include all of the files within the directory (or even sub-directories) in the compressed file. While the recursive switch is not needed for single files, it is necessary for a directory. The -r addition will make sure that everything located within that directory is included in the resulting .zip file.
+Both commands create a compressed **.zip** file. The `-r` option lets you recursively include all of
+the files and sub-directories within the **Pictures** directory in the compressed file. While you don't need the
+recursive switch for single files, you do need it for a directory. The `-r` makes sure to include everything located
+within that directory in the resulting **.zip** file.
 
-Additionally, you can exclude some of the files within the directory you zip. Let’s use our previous Pictures directory except, this time, we only want .jpg files included.
+You can exclude some of the files within the directory that you plan to archiv. Suppose you want to compress the **Pictures** directory,
+but you only want to include .jpg files.
 
-After moving into the Pictures directory, enter the following command:
+After changing directory to the **Pictures**, enter the following command:
 
-```sh
-$ zip -r pictures.zip ‘*.jpg’
-```
+    $ zip -r pictures.zip ‘*.jpg’
 
-This will search the Pictures directory, exclude any .png files it finds, and zip only the .jpg files into the pictures.zip file. This concept will work with any file format (.txt, .doc, etc.).
+This command searches **Pictures**, excludes all non-jpg files, and zips only the **.jpg** files into **pictures.zip**.
+This concept works with any file format (.txt, .doc, and so on).
+
+If you receive a zipped file (**.zip**), use the following command to unzip that file in Linux:
+
+    $ unzip pictures.zip
+
+What if you want to unzip the file into your Pictures directory, and you are currently in a different directory?
+Use the following command:
+
+    $ unzip pictures.zip -d /home/user/Pictures
+
+All of the files contained within the zip file are extracted to the directory of your choice when you add the -d
+option. Otherwise, `unzip` extracts the files into your current directory by default.
+
+### tar
+
+**Note:** Unlike the other archive options, the `tar` command does not compress **.tar** files. `tar` just bundles up
+the files into a single archived file. Therefore, if you ever see a file ending in just ‘.tar’, you already know that
+the archive process applied no compression on the files contained within that archive.
+
+The `tar` command has a few more options than the zip command did. The most commonly used options for the tar command
+includes the following:
+
+- `-c`: creates a new **.tar** archive file
+- `-v`: verbosely shows the tar process so you can see all the steps in the process
+- `-f`: specifies the file name type of the archive file
+- `-x`: extracts files from an existing **.tar** file
+
+The following example shows the basic syntax of the `tar` command to create an archive:
+
+    $ tar -cvf <name of archive file>.tar <directory to archive or files to archive>
+
+Use the following command to archive the **Pictures** directory:
+
+    $ tar -cvf pictures.tar /home/user/Pictures
+
+To extract a preexisting .tar archive file, replace the `-c` with a `-x`, as shown the following example:
+
+    $ tar -xvf <name of archive file>.tar
+
+As in the case of the `unzip` command, `tar` extracts the **.tar** contents to your current location,
+by default. To extract **.tar** file contents somewhere else, use the following command:
+
+    $ tar -xvf (name of archive file).tar -C /path/to/desired/directory/location/
+
+### tar.gz
+
+**Tar.gz** files add compression to the archive function of the tar command by using the `gzip` function.
+
+You need to add only the `-z` option to the basic `tar` command to add compression, as shown in the
+following example:
+
+    $ tar -zcvf <archive name>.tar.gz /directory/you/want/to/compress
+    OR
+    $ tar -zcvf <archive name>.tar.gz ‘*.jpg’
 
 
-If you receive a zipped file (.zip), here is how you unzip that pictures.zip file in Linux.
+As with `tar`,  use ‘-c’ is used to create an archive and ‘-x’ to extract it, as shown in the following example:
 
-```sh
-$ unzip pictures.zip
-```
+    $ tar -zxvf <archive name>.tar.gz
+    OR
+    $ tar -zxvf <archive name>.tar.gz -C /path/to/desired/directory/
 
-What if you want to unzip the file into your Pictures directory, and you are currently in a different directory? Here’s how that is done.
+### tar.bz2
 
-```sh
-$ unzip pictures.zip -d /home/user/Pictures
-```
+Let’s say you have an extra-large directory that you want to compress as much as possible.
+If tar.gz results in an over-sized file, try using tar.bz2 instead. Note that this option does take a little
+longer.
 
-All of the files contained within the zip file will be extracted to the directory of your choice when you add the -d switch/option. Otherwise, the default is to extract into your current location.
+This archive method adds only one new option: `-j`, as shown in the following example:
 
+    $ tar -jcvf <archive name>.tar.bz2 /directory/to/compress
+    OR
+    $ tar -jcvf <archive name>.tar.bz2 ‘*.jpg’
 
-# TAR
+Again, to extract a **.tar.bz2** file, switch the `-c` for `-x`, as shown in the following examples:
 
-First, we need to clarify one aspect of .tar files before proceeding. Contrary to the other options in this list, .tar files are not compressed. They are just bundled up into a single archived file. Therefore, if you ever see a file ending in just ‘.tar’, you already know that no compression was performed on the files contained within it.
+    $ tar -jxvf <archive name>.tar.bz2
+    OR
+    $ tar -jxvf <archive name>.tar.bz2 -C /directory/to/extract/to/
 
-How do we use this command? Where zip was pretty straight-forward, the tar command has a few more options available to it. Here are the most commonly used options for the tar command for .tar files.
+### Conclusion
 
-> -c = creates a new .tar archive file
-> -v = verbosely shows the .tar file process (when you want to see all the steps happening)
-> -f = file name type of the archive file
-> -x = extract files from an existing .tar file
+You now know how to use the most common data compression tools available. Each option has its place. 
 
-When archiving files, here is the command you’ll use:
+- Do you need to send a compressed file to someone who uses a different operating system than you? Try zip. 
+- Would you like to archive some files, but you don’t need to compress them? Use tar. 
+- Perhaps you need to compress the files after all. Use tar.gz. 
+- Finally, if you want that directory squeezed down as much as possible, you have .tar.bz2 at your disposal. 
 
-```sh
-$ tar -cvf (name of archive file).tar (directory to archive / files to archive)
-```
-
-Let’s use that Pictures directory again.
-
-```sh
-$ tar -cvf pictures.tar /home/user/Pictures
-```
-
-To extract a preexisting .tar archive file, you’ll simply replace the -c with a -x, like so:
-
-```sh
-$ tar -xvf (name of archive file).tar
-```
-
-As in the case of the unzip command, the default location that tar will extract the .tar contents to is your current location. In order to extract a .tar file contents somewhere else, you’ll use this command instead:
-
-```sh
-$ tar -xvf (name of archive file).tar -C /path/to/desired/directory/location/
-```
-
-You now know how to archive a file and extract an archived file.
-
-# TAR.GZ
-
-Since we learned that .tar files are simply archived, uncompressed files, we can theoretically assume that a .tar.gz file improves upon that in some way. Tar.gz files add compression to the archive function of the tar command by utilizing the gzip function.
-
-As a bonus, you already know most of the command you’ll use. The only option you’ll add is the -z switch/option.
-
-```sh
-$ tar -zcvf (archive name).tar.gz /directory/you/want/to/compress
-OR
-$ tar -zcvf (archive name).tar.gz ‘*.jpg’
-```
-
-Think of the ‘-c’ as ‘compress’. By that same logic, ‘-x’ would stand for ‘extract.’
-
-```sh
-$ tar -zxvf (archive name).tar.gz
-OR
-$ tar -zxvf (archive name).tar.gz -C /path/to/desired/directory/
-```
-
-Now you know how to compress and archive a directory simultaneously.
-
-# TAR.BZ2
-
-Let’s say you have an extra large directory that you want to make sure you compress as much as possible. You’ve tried tar.gz, but the resulting file is still too large. In that case, you’re going to want to give tar.bz2 a try. This option will take a little longer though.
-
-Fortunately, there’s only one new letter to learn. That would be the -j switch/option.
-
-```sh
-$ tar -jcvf (archive name).tar.bz2 /directory/to/compress
-OR
-$ tar -jcvf (archive name).tar.bz2 ‘*.jpg’
-```
-
-Conversely, to extract a preexisting .tar.bz2 file, you simply switch out the -c for a -x again.
-
-```sh
-$ tar -jxvf (archive name).tar.bz2
-OR
-$ tar -jxvf (archive name).tar.bz2 -C /directory/to/extract/to/
-```
-
-That’s it!
-
-You now know how to use the most common data compression tools available. Each option has their place. Need to send a compressed file to someone who uses a different OS than you? Try zip. Need to archive some files, but you don’t need to compress them? Use tar. Nevermind, you need to compress them after all? Use tar.gz. Finally, you want that directory squeezed down as much as possible? You have .tar.bz2 at your disposal. Through experience, you’ll become comfortable with which tool is going to best suit your needs at any given time.
+With experience, you'll get comfortable with which tool is going to best suit your needs at any given time.
