@@ -1,7 +1,7 @@
 ---
 permalink: compression-and-archive-methods-in-linux
 audit_date: '2020-04-21'
-title: Compression and archive tools in Linux
+title: Compression and archive methods in Linux
 type: article
 created_date: '2020-04-17'
 created_by: John Abercrombie
