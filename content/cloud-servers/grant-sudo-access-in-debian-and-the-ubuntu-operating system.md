@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides the steps to grant a Linux&reg; user sudo, or administravive, access on
+This article provides the steps to grant an existing Linux&reg; user sudo, or administravive, access on
 a Debian&reg; server or a server with the Ubuntu&reg; operating system. 
 
 
@@ -26,7 +26,7 @@ You need to have the following prerequisites:
 
 ### Grant sudo or administrative permissions in Debian or the Ubuntu operating system
 
-The following methods can be used to grant a user sudo-level permissions on a default Debian
+The following methods can be used to grant an existing user sudo-level permissions on a default Debian
 or Ubuntu operating system.
 
 On a server with Debian or the Ubuntu operating system, the default group **admin** has sudo
@@ -38,7 +38,7 @@ Run the following command to verify that you added the user to the **admin** gro
 
        id <user> 
 
-If you added the user successfully, you should see the **admin** group listed in the **groups** section.
+If you added the user to the group successfully, you should see the **admin** group listed in the **groups** section.
 
 ### Modify the sudoers file
 
