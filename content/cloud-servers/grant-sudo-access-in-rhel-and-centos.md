@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides the steps to grant a Linux&reg; user sudo, or administravive, access on a RHEL&reg; or CentOS&reg; server. 
+This article provides the steps to grant an existing Linux&reg; user sudo, or administravive, access on a RHEL&reg; or CentOS&reg; server. 
 
 
 ### Prerequisites
@@ -24,7 +24,7 @@ You need to have the following prerequisites:
 
 ### Grant sudo or administrative permissions in RHEL or CentOS
 
-You can use the following methods to grant a user sudo-level permissions on a default RHEL or
+You can use the following methods to grant an existing user sudo-level permissions on a default RHEL or
 CentOS system.
 
 On a RHEL/CentOS server, the default group **wheel** has sudo permissions. To add a user to this
@@ -36,7 +36,7 @@ Run the following command to verify that you added the user to the wheel group:
 
        id <user> 
 
-If you added the user successfully, you should see the **wheel** group listed in the **groups**
+If you added the user to the group successfully, you should see the **wheel** group listed in the **groups**
 section. 
 
 
