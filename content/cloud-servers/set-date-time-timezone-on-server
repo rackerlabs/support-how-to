@@ -1,0 +1,151 @@
+---
+permalink: set-date-time-timezone-on-server/
+audit_date:'2020-04-23'
+title: 'Set the date, time and timezone on a Linux server'
+type: article
+created_date: '2020-04-23'
+created_by: Morgan Marion
+last_modified_date: '2020-04-23'
+last_modified_by: Morgan Marion
+product: Cloud Servers
+product_url: cloud-servers
+---
+## Set the date, time and timezone on a Linux server
+Keeping the correct time for all servers across an environment aids in accuracy, authentication and troubleshooting. This article goes over the basic commands of the utility `timedatectl`.
+
+#### Prerequisites
+- Basic understanding of Secure Shell (SSH)
+- Sudo or administrative access to your server
+- A Server running Red Hat Enterprise Linux 7, 8, or Ubuntu 16, 18.
+
+## Check the current time date settings
+Command to run:
+```
+timedatectl
+````
+Output example:
+```
+                      Local time: Wed 2020-04-22 09:09:19 EDT
+                  Universal time: Wed 2020-04-22 13:09:19 UTC
+                        RTC time: Wed 2020-04-22 13:09:20
+                       Time zone: America/New_York (EDT, -0400)
+       System clock synchronized: yes
+systemd-timesyncd.service active: yes
+                 RTC in local TZ: no
+```
+## Set the date and/or time
+Use the `YYYY-MM-DD hh:mm:ss` format with the command. Omit the date or time as needed
+
+Command to run:
+```
+timedatectl set-time YYYY-MM-DD hh:mm:ss
+````
+Date and time example:
+```
+timedatectl set-time 2020-04-22 16:32:05
+```
+Date only example:
+```
+timedatectl set-time 2020-10-03
+```
+Time only example:
+```
+timedatectl set-time 7:00:00
+```
+## Choose a time zone from a list
+This is a multi-page listing to look at the available time zones to choose from, based on the public IANA time zone database. You will still need to enter your preferred time zone with the `timedatectl set-timezone` command.
+
+Command to run:
+```
+timedatectl list-timezones
+````
+Output Example (abbreviated):
+```
+Africa/Abidjan
+Africa/Accra
+Africa/Addis_Ababa
+Africa/Algiers
+Africa/Asmara
+Africa/Bamako
+Africa/Bangui
+Africa/Banjul
+Africa/Bissau
+Africa/Blantyre
+lines 1-47
+```  
+Use the space bar to advance to the next page. When you reach the end, you can exit with Ctrl-C.
+## Choose a time zone interactively
+An interactive question and answer tool can also be used to look at the available time zone choices. This does not actually make the change, you will need to enter your preferred time zone with the `timedatectl set-timezone` command.
+
+Command to run:
+```
+tzselect
+````
+Interaction example:
+```
+Please identify a location so that time zone rules can be set correctly.
+Please select a continent, ocean, "coord", or "TZ".
+ 1) Africa
+ 2) Americas
+ 3) Antarctica
+ 4) Asia
+ 5) Atlantic Ocean
+ 6) Australia
+ 7) Europe
+ 8) Indian Ocean
+ 9) Pacific Ocean
+10) coord - I want to use geographical coordinates.
+11) TZ - I want to specify the time zone using the Posix TZ format.
+#?
+``` 
+## Set the time zone
+If your region observes daylight savings time, make sure that you've selected the appropriate time zone to ensure your server time is accurate.
+
+Command to run:
+```
+timedatectl set-timezone
+````
+A change to the central time zone example:
+```
+timedatectl set-timezone America/Chicago
+````
+Checking the status with the `timedatectl` command, we can see the time zone change.
+```
+                      Local time: Wed 2020-04-22 08:38:49 CDT
+                  Universal time: Wed 2020-04-22 13:38:49 UTC
+                        RTC time: Wed 2020-04-22 13:38:51
+                       Time zone: America/Chicago (CDT, -0500)
+       System clock synchronized: yes
+systemd-timesyncd.service active: yes
+                 RTC in local TZ: no
+
+```
+## Enable or disable NTP synchronization
+NTP synchronization can be added to maintain the correct time automatically. Run the `timedatectl set-ntp` command with a `true` or `false` argument.
+
+Example:
+```
+timedatectl set-ntp true
+````
+Here is the NTP status before:
+```
+[user@server ~]$ timedatectl
+                      Local time: Wed 2020-04-22 09:09:19 EDT
+                  Universal time: Wed 2020-04-22 13:09:19 UTC
+                        RTC time: Wed 2020-04-22 13:09:20
+                       Time zone: America/New_York (EDT, -0400)
+       System clock synchronized: yes
+systemd-timesyncd.service active: no
+                 RTC in local TZ: no
+```
+Here is the NTP status after:
+```
+[user@server ~]$ timedatectl
+                      Local time: Wed 2020-04-22 09:09:19 EDT
+                  Universal time: Wed 2020-04-22 13:09:19 UTC
+                        RTC time: Wed 2020-04-22 13:09:20
+                       Time zone: America/New_York (EDT, -0400)
+       System clock synchronized: yes
+systemd-timesyncd.service active: yes
+                 RTC in local TZ: no
+```
