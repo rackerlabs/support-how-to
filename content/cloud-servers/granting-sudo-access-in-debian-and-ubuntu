@@ -1,0 +1,48 @@
+---
+permalink: granting-sudo-access-in-debian-and-ubuntu/
+audit_date: '2020-04-20'
+title: 'Granting sudo access in Debian and Ubuntu'
+type: article
+created_date: '2020-04-20'
+created_by: Chris Silva
+last_modified_date: '2020-04-20'
+last_modified_by: Chris Silva
+product: Cloud Servers
+product_url: cloud-servers
+---
+
+This article goes over the steps necessary to grant a Linux user sudo/admin access on a Debian or Ubuntu server. 
+
+
+### Prerequisites
+You need to have the following prerequisites:
+- Basic understanding of Secure Shell (SSH)
+- Sudo or administrative access to your server
+- A Cloud Server running Debian or Ubuntu based distributions.
+
+
+### Granting sudo/admin permissions in Debian/Ubuntu
+The following methods can be used to grant a user sudo level permissions on a default Debian/Ubuntu system.
+
+On a Debian/Ubuntu server, the default group `admin` is granted sudo permissions. In order to add a user to this group and grant a user sudo permissions, run the following command:
+
+       usermod -aG admin <user>
+
+You can verify the user was added to the `admin` group by running the following command:
+
+       id <user> 
+
+If the user was successfully added, you should see the `admin` group listed in the groups section.
+
+### Modifying the sudoers file
+Another method of granting sudo permissions on a Linux server is by modifying the `/etc/sudoers` file to include the desired user. This allows for direct control per user rather than by adding a user to a group. 
+
+**Warning**: Editing the `/etc/sudoers` file can de destructive to the server and potentially lock you out if there is any incorrect syntax in the file. Exercise caution when modifying this file. 
+
+To edit the `/etc/sudoers` file, the recommended method is to use the `visudo` command. 
+
+Once the file is open, add the following line to the bottom of the file:
+
+       <user> ALL=(ALL)		ALL
+
+Once the change has been made, save and exit the file. This will grant the user sudo permissions without adding the user to the wheel/admin group. 
