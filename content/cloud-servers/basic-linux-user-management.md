@@ -14,11 +14,9 @@ This article describes the options for basic Linux&reg; server user management. 
 add, remove, lock, expire, and modify users on a Linux server. 
 
 **Note**: If you need to give a user sudo or administraive-level permissions on the server, see
-     the following articles:
-
-     [Grant sudo access in RHEL&reg; and CentOS&reg;](/how-to/grant-sudo-access-in-rhel-and-centos/) 
-
-     [Grant sudo access in Debian and the Ubuntu operating system](/how-to/grant-sudo-access-in-debian-and-the-ubuntu-operating-system/)
+   the following articles:
+   [Grant sudo access in RHEL&reg; and CentOS&reg;](/how-to/grant-sudo-access-in-rhel-and-centos/) 
+   [Grant sudo access in Debian and the Ubuntu operating system](/how-to/grant-sudo-access-in-debian-and-the-ubuntu-operating-system/)
 
 ### Prerequisites
 
