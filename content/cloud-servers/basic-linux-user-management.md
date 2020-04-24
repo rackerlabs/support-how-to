@@ -13,17 +13,14 @@ product_url: cloud-servers
 This article describes the options for basic Linux&reg; server user management. It shows you how to
 add, remove, lock, expire, and modify users on a Linux server. 
 
-**Note**: If you need to give a user sudo or administraive-level permissions on the server, see
-   the following articles:
-   [Grant sudo access in RHEL&reg; and CentOS&reg;](/how-to/grant-sudo-access-in-rhel-and-centos/) 
-   [Grant sudo access in Debian and the Ubuntu operating system](/how-to/grant-sudo-access-in-debian-and-the-ubuntu-operating-system/)
-
 ### Prerequisites
 
 You need to have the following prerequisites:
 
-- Basic understanding of Secure Shell (SSH)
-- Sudo or administrative access to your server
+- Basic understanding of Secure Shell (SSH).
+- Sudo or administrative access to your server. Refer to the following articles:
+  - [Grant sudo access in RHEL&reg; and CentOS&reg;](/how-to/grant-sudo-access-in-rhel-and-centos/) 
+  - [Grant sudo access in Debian and the Ubuntu operating system](/how-to/grant-sudo-access-in-debian-and-the-ubuntu-operating-system/)
 - A Cloud Server running supported versions of Linux.
 
 Log in to your server by using SSH and then complete the steps in the following sections to
