@@ -1,11 +1,11 @@
 ---
 permalink: set-the-date-and-time-timezone-on-a-linux-server/
-audit_date: '2020-04-23'
+audit_date: '202-04-23'
 title: 'Set the date, time and timezone on a Linux server'
 type: article
 created_date: '2020-04-23'
 created_by: Morgan Marion
-last_modified_date: '2020-04-24'
+last_modified_date: '2020-04-27'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
