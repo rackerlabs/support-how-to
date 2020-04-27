@@ -1,7 +1,7 @@
 ---
 permalink: set-the-date-and-time-timezone-on-a-linux-server/
 audit_date: '202-04-23'
-title: 'Set the date, time and timezone on a Linux server'
+title: 'Set the date, time, and timezone on a Linux server'
 type: article
 created_date: '2020-04-23'
 created_by: Morgan Marion
@@ -12,13 +12,16 @@ product_url: cloud-servers
 ---
 
 Keeping the correct time for all servers across an environment aids in accuracy, authentication,
-and troubleshooting. This article goes over the basic commands of the `timedatectl` utility.
+and troubleshooting. This article provides information about the basic commands of the
+`timedatectl` utility, which can help you do this.
 
 ### Prerequisites
 
-- Basic understanding of Secure Shell (SSH).
-- Sudo or administrative access to your server.
-- A Server running Red Hat7reg; Enterprise Linux&reg; 7, 8, or Ubuntu 16, 18.
+You need to meet the following prerequisites to use `timedatectl`:
+
+- Have a basic understanding of Secure Shell (SSH).
+- Have sudo or administrative access to your server.
+- Have a server running Red Hat&reg; Enterprise Linux&reg; 7 or 8, or Ubuntu&reg; 16 or 18.
 
 ### Check the current time date settings
 
@@ -35,9 +38,10 @@ To check current time and date, run the following command:
 
 ### Set the date or time
 
-Use the `YYYY-MM-DD hh:mm:ss` format with the command. Omit the date or time as needed.
+To set the date or time, use the `YYYY-MM-DD hh:mm:ss` format with the command.
+Omit the date or time as needed.
 
-To set the time or date, run a command similar to the following:
+To set the date or time, run a command similar to the following:
 
     $ timedatectl set-time <YYYY-MM-DD> <hh:mm:ss>
 
@@ -55,9 +59,9 @@ Example: Time only:
 
 ### Choose a time zone from a list
 
-To set a time zone, you need to know the correct format.  You can display a multi-page listing of time
-zones, based on the public IANA&reg; time zone database. You can then enter your preferred time zone
-with the `timedatectl set-timezone` command.
+To set a time zone, you need to know the correct format. You can display a multipage listing of time
+zones, based on the public Internet Assigned Numbers Authority (IANA&reg;) time zone database. You can
+then enter your preferred time zone with the `timedatectl set-timezone` command.
 
 To list time zones, run the following command:
 
@@ -75,12 +79,12 @@ To list time zones, run the following command:
     lines 1-47
     ...
  
-Use the space bar to advance to the next page. When you reach the end, you can exit with `Ctrl-C`.
+Use the space bar to advance to the next page. When you reach the end, you can exit with **Ctrl-C**.
 
 ### Choose a time zone interactively
 
-You can also use an interactive question and answer tool to look at the available time zone choices.
-This doesn't make the change, sso you still need to enter your preferred time zone with the
+You can also use an interactive question-and-answer tool to look at the available time zone choices.
+This action doesn't make the change, so you still need to enter your preferred time zone with the
 `timedatectl set-timezone` command.
 
 To use the interactive tool, run the following command:
@@ -106,7 +110,7 @@ To use the interactive tool, run the following command:
 If your region observes daylight savings time, make sure that you select the appropriate
 time zone to ensure your server time is accurate.
 
-Toset the timezone, run a command similar to the following:
+To set the timezone, run a command similar to the following one:
 
     $ timedatectl set-timezone <timezone>
 
