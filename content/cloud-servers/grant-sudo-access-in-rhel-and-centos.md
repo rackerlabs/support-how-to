@@ -11,28 +11,27 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides the steps to grant an existing Linux&reg; user sudo, or administravive, access on a RHEL&reg; or CentOS&reg; server. 
+This article provides the steps to grant an existing Linux&reg; user sudo or administrative access on a RHEL&reg; or CentOS&reg; server. 
 
 
 ### Prerequisites
 
 You need to have the following prerequisites:
 
-- Basic understanding of Secure Shell (SSH)
+- A basic understanding of Secure Shell (SSH)
 - Sudo or administrative access to your server
 - A Cloud Server running distributions based on RHEL or CentOS.
 
 ### Grant sudo or administrative permissions in RHEL or CentOS
 
-You can use the following methods to grant an existing user sudo-level permissions on a default RHEL or
-CentOS system.
+You can use the following method to grant an existing user sudo-level permissions on a default RHEL or
+CentOS system:
 
-On a RHEL/CentOS server, the default group **wheel** has sudo permissions. To add a user to this
-group and grant a user sudo permissions, run the following command:
+1. On a RHEL or CentOS server, the default group **wheel** has sudo permissions. To add a user to this group and grant a user sudo permissions, run the following command:
 
        usermod -aG wheel <user>
 
-Run the following command to verify that you added the user to the wheel group:
+2.  Run the following command to verify that you added the user to the wheel group:
 
        id <user> 
 
@@ -43,15 +42,15 @@ section.
 ### Modify the sudoers file
 
 Another method of granting sudo permissions on a Linux server is to modify the **/etc/sudoers**
-file to include the desired user. This method provides direct control by user rather than by adding
+file to include the desired user. This method provides direct control by the user rather than by adding
 a user to a group. 
 
 **Warning**: Editing the **/etc/sudoers** file might be destructive to the server, and the system might
-lock you out if there is any incorrect syntax in the file. Exercise caution when modifying this file. 
+lock you out if there is any incorrect syntax in the file. Exercise caution when you modify this file. 
 
 To edit the **/etc/sudoers** file, we recommend that you use the `visudo` command. 
 
-After you open the file, add the following line to the end of the file:
+After you open the file by using `visudo`, add the following line to the end of the file:
 
        <user> ALL=(ALL)		ALL
 
