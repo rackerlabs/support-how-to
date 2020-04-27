@@ -20,14 +20,15 @@ You need to have the following prerequisites:
 
 - A basic understanding of Secure Shell (SSH)
 - Sudo or administrative access to your server
-- A Cloud Server running distributions based on RHEL or CentOS.
+- A Cloud Server running distributions based on RHEL or CentOS
 
 ### Grant sudo or administrative permissions in RHEL or CentOS
 
 You can use the following method to grant an existing user sudo-level permissions on a default RHEL or
 CentOS system:
 
-1. On a RHEL or CentOS server, the default group **wheel** has sudo permissions. To add a user to this group and grant a user sudo permissions, run the following command:
+1.  On a RHEL or CentOS server, the default group **wheel** has sudo permissions. To add a user to this
+group and grant a user sudo permissions, run the following command:
 
        usermod -aG wheel <user>
 
