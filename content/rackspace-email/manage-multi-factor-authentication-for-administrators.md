@@ -40,7 +40,7 @@ Use the following steps to enable text message multi-factor authentication:
 
 3. Enter the phone number that you want to link the multi-factor SMS messaging with.
 
-4. Enter the code sent to you phone in the verification field and click **Verify Code**.
+4. Enter the code sent to your phone in the verification field and click **Verify Code**.
 
 5. The last step displays the following message: **You have successfully set up Multi-Factor Authentication!**
 
@@ -75,7 +75,7 @@ You might need to perform these steps if an administrator gets a new device with
 
 1. Log in to your [Cloud Office Control Panel](https://cp.rackspace.com).
 
-2. Click your username and account number, for example **adminusername (acct#)**, in the upper-right corner to expand the menu.
+2. Click your username and account number, for example, **adminusername (acct#)**, in the upper-right corner to expand the menu.
 
 3. From the menu, select **Administrators**.
 
@@ -85,7 +85,8 @@ You might need to perform these steps if an administrator gets a new device with
 
 6. Click on **Reset Multi-Factor Authentication** in the pop-up to confirm the request.
 
-You have successfully reset MFA for this administrator. They are prompted to set it up again on their next login attempt.
+You have successfully reset MFA for this administrator. They receive a prompt to set it up again on their next
+login attempt.
 
 
 ### Manage multi-factor authentication linked devices
@@ -96,7 +97,7 @@ Use the following instructions to edit your trusted devices:
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
-2. Click your username and account number, for example **adminusername(acct#)**, in the upper right-hand corner to expand the menu.
+2. Click your username and account number, for example, **adminusername(acct#)**, in the upper right-hand corner to expand the menu.
 
 3. From the menu, select **My Profile**.
 
