@@ -17,7 +17,7 @@ as well as different transaction logging, and users can switch between the model
 
 ### Common backup options
 
-Common backup types in SQL Server include the following types:
+Common backup types for SQL Server databases include the following types:
 
 - **Full database backup**: As the name suggests, this is a backup of the whole database as well as parts of the
   transaction log. This backup enables you to restore the database from a full backup alone. The Event Viewer also
