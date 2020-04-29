@@ -11,22 +11,22 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to set up the default document root for Apache&reg; virtual hosts (vhosts)
+This article describes how to set up the default document root for Apache&reg; virtual hosts (vhosts)
 and Nginx&reg; server blocks.
 
 ### Default document root
 
 By default, both Apache and Nginx have a default document root set up in their base configuration files.
 When you create a virtual host or server block, the web server looks for website files in the
-document root directory specified in theses configuration files. 
+document root directory specified in these configuration files. 
 
 You can find the configuration files in the following file paths:
 
-- **CentOS**:
+- **CentOS&reg;**:
    - Apache: **/etc/httpd/conf/httpd.conf**
    - Nginx: **/etc/nginx/nginx.conf**
 
-- **The Ubuntu operating system**:
+- **The Ubuntu&reg; operating system**:
    - Apache: **/etc/apache2/apache2.conf**
    - Nginx: **/etc/nginx/nginx.conf**
 
