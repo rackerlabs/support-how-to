@@ -1,7 +1,7 @@
 ---
 permalink: sql-server-database-recovery-models/
 audit_date: '2020-04-28'
-title: 'SQL Server database recovery models’
+title: 'SQL Server database recovery models'
 type: article
 created_date: '2020-04-28'
 created_by: Karoline Mills
