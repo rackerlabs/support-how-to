@@ -1,7 +1,7 @@
 ---
 permalink: reset-a-cloud-server-network-with-pitchfork/
 audit_date: '2020-04-30'
-title: 'Reset a Cloud Server's network with Pitchfork'
+title: 'Reset a Cloud Server network with Pitchfork'
 type: article
 created_date: '2020-04-30'
 created_by: Evan Benavides
