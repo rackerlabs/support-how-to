@@ -11,17 +11,16 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article demonstrates how to install Apache&reg; and PHP on CentOS&reg; 7.
-The default CentOS 7 image does not have access to repositories that support PHP
+This article demonstrates how to install Apache&reg; and PHP&reg; on CentOS&reg; 7.
+The default CentOS 7 image doesn't have access to repositories that support PHP
 version 5.6 and higher, so you should enable a repository that does. Install
-this repository by using the default CentOS package manager, `yum`. The advantages
-of using `yum` to perform the installation (instead of the source code) is that `yum`
-also automatically installs future security updates and handles dependencies.
+this repository by using the default CentOS package manager, `yum`. The advantage
+of using `yum` to perform the installation is that `yum` automatically installs
+future security updates and handles dependencies.
 
-**NOTE**
-This guide enables the Inline with Upstream Stable (IUS) repository, which provides 
-newer versions of some software found in the official CentOS and Red Hat repositories.
-For more information on the IUS repository, please see the following link: [Install EPEL and IUS repositories on CentOS and Red Hat] (https://support.rackspace.com/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat/)
+**NOTE**: This guide enables the Inline with Upstream Stable (IUS) repository, which provides
+newer versions of some software found in the official CentOS and Red Hat&reg; repositories.
+For more information about the IUS repository, please see the following link: [Install EPEL and IUS repositories on CentOS and Red Hat] (https://support.rackspace.com/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat/)
 
 ### Install Apache
 
@@ -58,13 +57,13 @@ Use `yum` to install a repository that supports PHP 7.3:
         sudo yum install https://$(rpm -E '%{?centos:centos}%{!?centos:rhel}%{rhel}').iuscommunity.org/ius-release.rpm
 
 2. Install PHP and some popular PHP modules:
-        
+
         yum install mod_php73 php73-bcmath php73-cli php73-gd php73-ldap php73-mbstring php73-mysqlnd php73-soap
 
 3. Confirm your server is using PHP 7.3 by running the following command:
 
-        php -v 
+        php -v
 
-You should see the following output: 
-        
-        PHP 7.3.14 (cli) (built: Feb  9 2020 00:01:37) ( NTS ) 
+You should see the following output:
+
+        PHP 7.3.14 (cli) (built: Feb  9 2020 00:01:37) ( NTS )
