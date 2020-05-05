@@ -5,8 +5,8 @@ title: Overview of FTP and SFTP
 type: article
 created_date: '2019-02-19'
 created_by: Rackspace Community
-last_modified_date: '2019-02-19'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-04-29'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -68,3 +68,9 @@ Vsftpd is an open source FTP server that you can use to transfer files.
 We recommend that you use SFTP instead of FTP to ensure that file
 transmissions are secure. SFTP encrypts the data that it transfers to the
 FTP server and prevents unauthorized access during the transmission.
+
+### Additional resources
+
+- [Set up SFTP users in Linux-based systems](/how-to/set-up-sftp-users-in-linux-based-systems)
+- [Connect to a cloud server with filezilla by using SFTP](/how-to/connect-to-cloud-servers-with-filezilla-by-using-sftp)
+- [Bind mount an SFTP user after using chroot](/how-to/bind-mount-an-sftp-user-after-using-chroot)
