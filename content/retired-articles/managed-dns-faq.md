@@ -5,8 +5,8 @@ title: Managed DNS FAQ
 type: article
 created_date: '2016-03-14'
 created_by: Nicole Hairston
-last_modified_date: '2017-04-17'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-03-15'
+last_modified_by: Cat Lookabaugh
 ---
 
 ### General
@@ -48,8 +48,6 @@ You will not be subject to any usage fees for Managed DNS *Early Access*. After 
 Any customer with a Rackspace Cloud account is eligible for Managed DNS *Early Access* access.
 
 #### What if I am currently using Rackspace Cloud DNS?
-
-**Warning:** If you’re a current Cloud DNS user with a workflow that depends on the Rackspace `pyrax` SDK or Ansible’s Rackspace modules, you need to upgrade to the latest version of `pyrax` (1.9.7) *before you sign up for* Managed DNS (Early Access). Upgrading will prevent the `pyrax` dependency from blocking the use of Cloud DNS.
 
 Rackspace Cloud DNS API users are especially encouraged and able to participate in Managed DNS (Early Access) in order to become familiar with the improvements and associated API contract changes compared to the Cloud DNS API.
 

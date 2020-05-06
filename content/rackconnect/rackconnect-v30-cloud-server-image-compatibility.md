@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v30-cloud-server-image-compatibility/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v3.0 Cloud Servers image compatibility
 type: article
 created_date: '2014-09-19'
 created_by: Juan Perez
-last_modified_date: '2016-09-13'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -20,7 +20,7 @@ of images available for your cloud account by using the
 [Cloud Servers
 API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server/list-images),
 or when you build a new cloud server in the [Cloud Control
-Panel](https://mycloud.rackspace.com/). RackConnect v3.0 is also
+Panel](https://login.rackspace.com/). RackConnect v3.0 is also
 compatible with the following Cloud Servers flavor types: Standard, General Purpose, and I/O, Compute, and Memory optimized.
 
 This enhanced image compatibility is possible because
@@ -32,7 +32,7 @@ v3.0 compatibility matrix](/how-to/rackconnect-v30-compatibility)
 for a list of all products with which RackConnect v3.0 is compatible.
 
 To provide you with the best experience possible, we recommend that you
-use the Cloud Control Panel, rather than the MyRackspace portal, when
+use the Cloud Control Panel, rather than the MyRackspace Portal, when
 building new RackConnect v3.0 cloud servers or when working and
 performing any tasks with your RackConnect v3.0 associated cloud
 account.

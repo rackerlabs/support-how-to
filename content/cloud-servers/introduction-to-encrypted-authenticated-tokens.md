@@ -5,13 +5,13 @@ title: Introduction to encrypted authenticated tokens
 type: article
 created_date: '2015-07-28'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-21'
-last_modified_by: Catherine Richardson
+last_modified_date: '2019-03-15'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Rackspace Cloud Identity supports tokens of
+The Identity service supports tokens of
 different *types* and *formats* to enable a user to authenticate against
 a specific Rackspace Cloud service.
 
@@ -19,7 +19,7 @@ a specific Rackspace Cloud service.
     or federated.
 -   The token *format* specifies the composition of the token itself.
 
-Rackspace Cloud Identity has switched the authentication token format
+Identity has switched the authentication token format
 from UUID to Authenticated Encryption (AE). Rackspace engineers
 have implemented the new token format on the Identity system back
 end. The change has minimal impact to Rackspace customers. The main
@@ -27,7 +27,8 @@ difference that you will notice is that the authentication token value
 returned by the Identity service has a different pattern and length than
 the UUID token values issued previously.
 
-**Note:**  Make sure that you follow Best practices for handling authentication tokens (located further down in this article),
+**Note:**  Make sure that you follow Best practices for handling authentication
+tokens (located further down in this article),
 especially if you use SDK or CLI tools to interact with the Rackspace
 Cloud.
 
@@ -49,7 +50,7 @@ need to the store tokens in persistent storage. When the server receives
 the token, it can parse the token metadata to determine if it is valid.
 
 Because of encryption, the size of an AE-formatted token varies. The
-Rackspace Cloud Identity service limits the size of AE-formatted tokens
+Identity service limits the size of AE-formatted tokens
 to 250 bytes.
 
 The following example shows a token object from the authentication
@@ -67,7 +68,7 @@ response with an AE token ID.
 
 Authentication tokens that use the UUID token format
 are *persistent* tokens. When a user authenticates successfully, the
-Rackspace Cloud Identity service generates a 32 character UUID token
+Identity service generates a 32 character UUID token
 value. It is stored in a persistent storage unit on the back end along
 with metadata about that token such as expiration time stamp, who the
 token is issued to, and so on. The token value is returned to the user
@@ -104,7 +105,7 @@ UUID and AE tokens differ in their persistence, length, and storage.
     not stored on the backend, and the Identity service generates and
     returns a new token value each time the user authenticates.
 -   UUID tokens are 32 characters in length. AE tokens vary in size but
-    for the Rackspace Cloud Identity service they are limited to
+    for the Identity service they are limited to
     250 bytes. With the implementation of AE tokens, you will notice
     that the token value returned when you authenticate is significantly
     longer than the value returned when the Identity service issued
@@ -119,10 +120,10 @@ UUID and AE tokens differ in their persistence, length, and storage.
 
 Following are some best practices for handling authentication tokens.
 
--   When you authenticate to the Rackspace Cloud Identity service be
+-   When you authenticate to the Identity service be
     sure to cache the token value that is returned.
 
-    The Rackspace Cloud Identity service validates the authentication
+    The Identity service validates the authentication
     token in every API request before attempting to complete
     the operation. To optimize your API operations and reduce system
     load, store the authentication token in a secure cache or database
@@ -141,8 +142,7 @@ Following are some best practices for handling authentication tokens.
     expires.
 
 -   To simplify authentication, credential, and token management, use
-    an [OpenStack command-line client application](https://wiki.openstack.org/wiki/OpenStackClients) or
-    one of the [Rackspace SDKs](https://developer.rackspace.com/sdks/).
+    an [OpenStack command-line client application](https://wiki.openstack.org/wiki/OpenStackClients).
 
 For more information, read the [Manage authentication tokens](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#manage-authentication-tokens) section
-in the [Rackspace Cloud Identity Client Developer Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).
+in the [Identity API 2.0 Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).

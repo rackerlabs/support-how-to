@@ -5,7 +5,7 @@ title: Cloud Files cURL Cookbook
 type: article
 created_date: '2012-06-25'
 created_by: Rackspace Support
-last_modified_date: '2016-04-14'
+last_modified_date: '2019-12-20'
 last_modified_by: Stephanie Fillmon
 product: Cloud Files
 product_url: cloud-files
@@ -17,7 +17,7 @@ interface, which is useful for integration with existing applications. At times,
 ### Install cURL
 
 All the major distributions have packages for installing cURL. Following
-is an example of how to install cURL on Debian and Ubuntu:
+is an example of how to install cURL on Debian and the Ubuntu operating system:
 
     $ sudo apt-get install curl
 
@@ -162,7 +162,7 @@ you will always get the same token while it is still valid.
 secret. If another user gets your token, that user might get full access
 to your cloud-based services.
 
-To authenticate you need to query the Cloud Identity API. Version 1.1 of
+To authenticate you need to query the Identity API. Version 1.1 of
 the Identity API service is used in the following example. To query the
 service, you need your Rackspace Cloud account username and API key.
 Instructions for locating these credentials are documented in [View and Reset your API Key](/how-to/view-and-reset-your-api-key).

@@ -10,31 +10,62 @@ permalink: /
 
 			<div class="filter-product-type">
 				<ul>
-					<li><a id="cloud-ctrl" class="inactive">Cloud Hosting</a></li>
+				  <li><a id="gs-ctrl" class="inactive">Getting Started</a></li>
+					<li><a id="cloud-ctrl" class="inactive">Cloud Services</a></li>
 					<li><a id="office-ctrl" class="inactive">Cloud Office</a></li>
+					<li><a id="rpc-ctrl" class="inactive">Private Cloud</a></li>
 					<li>
-						<a href="/how-to/dedicated-hosting">Dedicated Hosting</a>
-                    </li>
+					  <a href="/how-to/account-management">Account Management</a>
+						        </li>
 				</ul>
 			</div>
 		</div>
 	</div>
+
 	<div class="container">
-		<div class="content home product-type product-type-cloud" id="cloud-display">
-		      <div class="row">
-			      <h3>Rackspace Private Cloud</h3>
-			      <div class="twelve columns">
-				      <div class="three columns primary icon private">
-					      <h4><a href="/how-to/rpc-microsoft/"><span>Rackspace Private Cloud</span> Powered by Microsoft Cloud Platform</a></h4>
-					</div>
-					<div class="three columns icon private">
-						<h4><a href="/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
-					</div>
-					<div class="three columns icon private">
-						<h4><a href="/how-to/rpc-vmware/"><span>Rackspace Private Cloud</span> Powered by VMware</a></h4>
+	  <div class="content home product-type product-type-gs" id="gs-display">
+	    <div class="row">
+	    <p>With all the services that the cloud offers, it can be difficult to figure out where to start. Whether you want to build a web server for a content management system, host an email server, or create a system backup, there are a few services that are essential to building an effective cloud.<br><br>The getting started guides help you figure out which services you need to create, in the most effective order, to get your cloud up and running.</p>
+			<br>
+			<aside class="cta">
+				<p class="button">
+					<a href="/how-to/getting-started-with-public-cloud/" id="cloud-button" class="banner-button">Get Started with Rackspace Public Cloud</a>
+				</p>
+				<p class="button">
+					<a href="/how-to/getting-started-with-hosted-email/" id="hosted-button" class="banner-button">Get Started with Rackspace Hosted Email</a>
+				</p>
+				<p class="button">
+					<a href="/how-to/getting-started-with-office-365/" id="office-button" class="banner-button">Get Started with Office 365</a>
+				</p>
+			</aside>
+			</div>
+			</div>
+			</div>
+
+	<div class="container">
+		<div class="content home product-type product-type-cloud inactive" id="cloud-display">
+		   <div class="row">
+			   <h3>Rackspace Managed Security</h3>
+			   <div class="twelve columns">
+				   <div class="primary three columns icon pdr">
+					   <h4><a href="/how-to/rackspace-pdr/"><span>Rackspace</span> Proactive Detection & Response</a></h4>
+				   </div>
+				   <div class="six columns icon alert-logic">
+					   <h4><a href="/how-to/rms-alert-logic/"><span>Alert Logic</span> Security Solutions</a></h4>
+				   </div>
+			   </div>
+		   </div>
+			<hr/>
+
+			<div class="row">
+				<h3>Managed Operations</h3>
+				<div class="twelve columns">
+					<div class="primary twelve columns icon managed-operations">
+						<h4><a href="/how-to/managed-operations"><span>Managed</span> Operations</a></h4>
 					</div>
 				</div>
 			</div>
+
 			<hr/>
 
 			<div class="row">
@@ -129,16 +160,7 @@ permalink: /
 				</div>
 			</div>
 
-			<hr/>
 
-			<div class="row">
-				<h3>Managed Operations</h3>
-				<div class="twelve columns">
-					<div class="primary twelve columns icon managed-operations">
-						<h4><a href="/how-to/managed-operations"><span>Managed</span> Operations</a></h4>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 
@@ -187,20 +209,39 @@ permalink: /
 			</div>
 		</div>
 	</div>
+
+	<div class="container">
+		<div class="content home product-type product-type-cloud inactive" id="rpc-display">
+			<div class="row">
+				<div class="twelve columns">
+					<div class="primary three columns icon private">
+						 <h4><a href="/how-to/dedicated-hosting/"><span>Rackspace</span> Dedicated Hosting</a></h4>
+					</div>
+					<div class="three columns icon private">
+						 <h4><a href="/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
+					</div>
+					<div class="three columns icon private">
+						 <h4><a href="/how-to/rpc-vmware/"><span>Rackspace Private Cloud</span> Powered by VMware</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="river">
 		<div class="container">
 			<div class="row content home contact">
 				<h2>Contact Support</h2>
 				<p class="lead">We've got your back 24x7x365.</p>
 				<div class="one-half column">
-					<h3><span>Cloud Hosting</span>1-800-961-4454 <em>Intl.: +1-210-581-0407</em></h3>
-					<h3><span>Dedicated Managed Hosting</span>1-800-961-4454 <em>Intl.: +1-210-312-4600</em>
-					</h3>
+					<h3><span>Cloud Hosting and Managed Support</span>1-800-961-4454</h3>
 				</div>
 				<div class="one-half column">
-					<h3><span>Cloud Office</span>1-800-961-4454 <em>Intl.: +1-210-312-4600</em></h3>
+					<h3><span>Cloud Office Support</span>1-855-348-9067</h3>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 </article>

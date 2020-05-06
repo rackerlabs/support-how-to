@@ -5,8 +5,8 @@ title: List Cloud Queues
 type: article
 created_date: '2013-09-16'
 created_by: Megan Meza
-last_modified_date: '2016-05-09'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-12-2'
+last_modified_by: Chad Sterling
 product: Cloud Queues
 product_url: cloud-queues
 ---
@@ -24,7 +24,7 @@ Your queues are listed on the Cloud Queues screen.
 
 Use the following cURL command to view your list of queues:
 
-    $ curl -i -X GET https://$ENDPOINT:443/v1/queues -H "X-Auth-Token: $TOKEN"
+    $ curl -i -X GET https://$ENDPOINT -H "X-Auth-Token: $TOKEN"
 
 The response should look similar to the following:
 

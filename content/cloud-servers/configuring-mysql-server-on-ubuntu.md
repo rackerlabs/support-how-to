@@ -1,18 +1,18 @@
 ---
-permalink: configuring-mysql-server-on-ubuntu/
+permalink: configure-mysql-server-on-the-ubuntu-operating-system/
 audit_date:
-title: Configure MySQL server on Ubuntu
+title: Configure MySQL server on the Ubuntu operating system
 type: article
 created_date: '2011-07-29'
 created_by: Jered Heeschen
-last_modified_date: '2016-01-11'
+last_modified_date: '2019-07-23'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the [previous article](/how-to/installing-mysql-server-on-ubuntu)
-we covered a basic MySQL server setup on Ubuntu Linux. We set the root
+In the [previous article](/how-to/install-mysql-server-on-the-ubuntu-operating-system)
+we covered a basic MySQL server setup on the Ubuntu operating system. We set the root
 password, created a database, and created a user for the database. Now
 let's look at MySQL in a little more detail so we can tweak its
 configuration and be ready in case something goes wrong.
@@ -325,3 +325,8 @@ experiment with incremental changes over time.
 
 Now you should have MySQL configured for your environment, and might
 even have accounted for the database engine being used by your tables.
+
+### Related articles
+
+- [Install MySQL server on the Ubuntu operating system](/how-to/install-mysql-server-on-the-ubuntu-operating-system)
+- [Reset a MySQL root password](/how-to/mysql-resetting-a-lost-mysql-root-password)

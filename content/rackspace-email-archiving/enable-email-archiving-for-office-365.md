@@ -20,27 +20,17 @@ For more information about Office 365 subscriptions, see [Set Up Office 365](/ho
 - **Applies to:** Administrator
 - **Difficulty:** Easy
 - **Time needed:** Approximately 24 hours for the archive to provision after it was added
-- **Tools required:** Cloud Office Control Panel access, an Office 365 tenant with Rackspace Cloud Office
+- **Tools required:** Office 365 tenant Administrator access, and an Office 365 tenant with Rackspace Cloud Office
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 
 ### Add Rackspace Office 365 archiving
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
-2. In the Microsoft Office 365 section, click **Manage Office 365**.
+1. Log in to the [Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com/).
+2. Go to **Products** -> **Product Catalog**
+3. Find the **Rackspace Office 365 Archiving** SKU on the list and click **Add Product**.
+4. Review the pricing and click **Buy Licenses**.<br>
+**Note:** You cannot edit the quantity because it has to be applied to all Exchange mailboxes on the tenant.
 
-   <img src="{% asset_path rackspace-email-archiving/enable-email-archiving-for-office-365/manage-365.png %}" />
-
-3. Click the **Add Product** button.
-
-   <img src="{% asset_path rackspace-email-archiving/enable-email-archiving-for-office-365/add-product.png %}" />
-
-4. Click the **Add-Ons** tab.
-5. Click the radio button next to **Rackspace Office 365 Archiving**.
-
-   <img src="{% asset_path rackspace-email-archiving/enable-email-archiving-for-office-365/add-ons.png %}" />
-
-6. A summary appears describing the number of licenses to which archiving has been applied, as well as the total cost per month to add the service. If this summary is correct, click **Add Product**.
-
-**Note:** Your archive will be accessible after a duration of up to 24 hours from the time that it was enabled on the account. For the next step, see [Log in to the Archive Manager for Office 365](/how-to/log-in-to-the-archive-manager-for-office-365)
+To learn how to log in to the archive, see [Log in to the Archive Manager for Office 365](/how-to/log-in-to-the-archive-manager-for-office-365)

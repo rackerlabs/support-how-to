@@ -5,8 +5,8 @@ title: Comparison of dedicated and cloud hosting
 type: article
 created_date: '2012-02-21'
 created_by: Rackspace Support
-last_modified_date: '2017-12-06'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-12-20'
+last_modified_by: Stephanie Fillmon
 product: undefined
 product_url: undefined
 ---
@@ -25,7 +25,7 @@ your business.
   </tr>
   <tr>
     <td><strong>Support level</strong></td>
-    <td>Dedicated hosting includes unlimited **Fanatical Support**&reg; for all supported products, services, and software.</td>
+    <td>Dedicated hosting includes unlimited support for all supported products, services, and software.</td>
     <td>The Cloud Managed Operations service level includes support of the data center environment, host server hardware, and Rackspace Cloud APIs.<br><br>Managed Operations support also gives Rackspace employees direct server access to perform troubleshooting and configuration of supported applications for Linux and Windows.</td>
     <td>The Cloud Managed Infrastructure service level includes support of data center environment, host server hardware, and Rackspace Cloud APIs only.<br><br>Rackspace employees are prohibited from logging in to customers' servers to provide systems administration support.</td>
   </tr>
@@ -56,14 +56,14 @@ your business.
   </tr>
   <tr>
     <td><strong>Operating system availability</strong></td>
-    <td>Red Hat Enterprise Linux<br>CentOS<br>Debian<br>Ubuntu<br>Windows Server (from 2008 R2 to 2016)</td>
+    <td>Red Hat Enterprise Linux<br>CentOS<br>Debian<br>Ubuntu operating systems<br>Windows Server (from 2008 R2 to 2016)</td>
     <td>Same as dedicated
     <td>Please see the following two links for details: <a href="/how-to/cloud-servers-with-managed-operations-support-for-linux">Cloud Servers with Managed Operations support for Linux</a> and <a href="/how-to/cloud-servers-with-managed-operations-support-for-windows">Cloud Servers with Managed Operations support for Windows</a>.</td>
   </tr>
   <tr>
     <td><strong>Ticketing system, control panel</strong></td>
-    <td>my.rackspace.com</td>
-    <td>Cloud Control Panel and API<br><br>If your server is set up with RackConnect or linked to managed Dedicated services, you should still use my.rackspace.com. However, my.rackspace.com does not replace the Cloud Control Panel for managing Cloud services.</td>
-    <td>Cloud Control Panel and API<br><br>If you are using RackConnect, you can also leverage my.rackspace.com to manage your Cloud services.</td>
+    <td><a href="https://login.rackspace.com/" MyRackspace Portal</a></td>
+    <td><a href="https://login.rackspace.com/" Cloud Control Panel</a> and API<br><br>If your server is set up with RackConnect or linked to managed Dedicated services, you should still use the MyRackspace Portal. However, the MyRackspace Portal does not replace the Cloud Control Panel for managing Cloud services.</td>
+    <td><a href="https://login.rackspace.com/" Cloud Control Panel</a> and API<br><br>If you are using RackConnect, you can also leverage the MyRackspace Portal to manage your Cloud services.</td>
   </tr>
 </table>

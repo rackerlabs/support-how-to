@@ -1,12 +1,12 @@
 ---
 permalink: using-cloud-load-balancers-with-rackconnect/
-audit_date:
+audit_date: '2019-12-16'
 title: Use Cloud Load Balancers with RackConnect
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2016-04-24'
-last_modified_by: Blake Moore
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -14,8 +14,7 @@ product_url: rackconnect
 **Applies to:** RackConnect v3.0 and RackConnect v2.0
 
 Because only a highly restricted ServiceNet option is
-available for RackConnect v3.0, RackConnect v3.0 does *not* support the
-Cloud Load Balancers offering by default. If you do require access to Cloud Load Balancers in your RackConnect v3 environment, contact Rackspace Support, and we can help you enable Cloud Load Balancer use in your RackConnect v3 environment. 
+available for RackConnect v3.0, Cloud Load Balancer traffic is blocked by default. If you do require access to Cloud Load Balancers in your RackConnect v3 environment, contact Rackspace Support, and we can help you enable Cloud Load Balancer use in your RackConnect v3 environment.
 For more details about the offerings that are support by RackConnect v3.0 and the differences between RackConnect
 v3.0 and v2.0, see the following articles:
 
@@ -48,7 +47,9 @@ RackConnect.
             10.189.252.0/24
             10.183.248.0/24
             10.187.186.0/24
+            10.187.187.0/26
             10.183.250.0/24
+            10.187.187.0/26
 
     -   IAD region:
 
@@ -83,7 +84,7 @@ RackConnect.
 
     -   HKG region:
 
-            10.189.254.0/24
+            10.189.254.0/23
 
 1. Set the **Destination Type**, **Destination Protocol**, and **Destination Port or Port Range** to specify the resources that the load balancer will access.
 
@@ -136,8 +137,3 @@ The following image shows some use cases that further illustrate the
 limitations of using cloud load balancers:
 
 <img src="{% asset_path rackconnect/using-cloud-load-balancers-with-rackconnect/CLB.Use_.Cases__0.png %}" width="700" />
-
-
-If you have any questions, please reach out to us. Our contact
-information is available on the [Contact
-Us](/how-to/support) page.

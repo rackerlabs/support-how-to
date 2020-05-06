@@ -5,8 +5,8 @@ title: Cloud Feeds FAQ
 type: article
 created_date: '2014-07-31'
 created_by: David Hendler
-last_modified_date: '2016-09-09'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2019-01-25'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -45,7 +45,7 @@ events, that you can receive for various Rackspace Cloud services.
 | Cloud Databases                | /dbaas/events      | Database Memory and Disk Usage                      |
 | Cloud DNS                      | /dns/events        | Domain Create and Delete Events                     |
 | Cloud Files                    | /files/events      | Bandwidth Usage, Storage Usage                      |
-| Cloud Identity                 | /identity/events   | User Status Events                                  |
+| Identity                       | /identity/events   | User Status Events                                  |
 | Cloud Load Balancers           | /lbaas/events      | Load Balancer, Usage System, Status Events          |
 | Cloud Monitoring               | /monitoring/events | Monitoring Usage                                    |
 | Cloud Queues                   | /queues/events     | Bandwidth Usage, System Usage                       |

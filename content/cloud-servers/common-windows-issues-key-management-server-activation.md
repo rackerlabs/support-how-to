@@ -1,75 +1,134 @@
 ---
 permalink: common-windows-issues-key-management-server-activation/
-audit_date: '2017-12-03'
-title: 'Common Windows Issues: Key Management Server Activation'
+audit_date: '2019-12-04'
+title: 'Common Windows issues: Key Management Server activation'
 type: article
 created_date: '2011-08-15'
 created_by: Rackspace Support
-last_modified_date: '2017-12-03'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-12-04'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Problem**:  Periodic activation requests to the KMS are rejected and
-the operating system shows as unlicensed.
+**Problem**: The Key Management Server (KMS) rejects periodic activation requests,
+and the Windows&reg; operating system shows as unlicensed.
 
-**Cause**: Windows cannot locate the Key Management Server (KMS) after
-changing the time zone of the cloud server, so, as a result, your server's
-system clock does not sync with the KMS.
+**Cause**: The two leading causes of this issue are:
 
-**Resolution**: You must resynch your cloud cerver with the KMS
-server:
+  - Windows cannot locate the KMS.
+  - The server's clock differs from the KMS clock by more than four hours.
 
-1. Log in to your cloud server as administrator by clicking 
-   **Start > All Programs > Accessories**. Then, right-click **Command Prompt**,
-   and select **Run as Administrator**.
+Use the steps in the following sections to resolve this issue.
 
-2. Choose the data center in the following table that corresponds to
-   the location of your server, and run the applicable command from the
-   command prompt.
-   
-   | Data Center      | Command                                            |
-   |------------------|----------------------------------------------------|
-   | ORD (Chicago)    | `ping winactivate.ord1.servers.rackspacecloud.com` |
-   | DFW (Dallas)     | `ping winactivate.dfw1.servers.rackspacecloud.com` |
-   | IAD (Ashburn)    | `ping winactivate.iad3.servers.rackspacecloud.com` |
-   | LON (London)     | `ping winactivate.lon3.servers.rackspacecloud.com` |
-   | HKG (Hong Kong)  | `ping winactivate.hkg1.servers.rackspacecloud.com` |
-   | SYD (Sydney)     | `ping winactivate.syd2.servers.rackspacecloud.com` |
-   
-   **Note**: If there is a reply, move on to step 3.  No reply means that there
-   is an interface, hardware, or routing issue, and we recommend the following article 
-   for help resolving the issue: [Update ServiceNet routes on cloud servers created before June 3, 2013](https://support.rackspace.com/how-to/updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/)
+### Ensure that the Windows Server is configured to use the correct KMS server
 
-3. Set the KMS manually within the registry.
-   
-   | Data Center     | Command                                                            |
-   |-----------------|--------------------------------------------------------------------|
-   | ORD (Chicago)   | `slmgr.vbs /skms winactivate.ord1.servers.rackspacecloud.com:1688` |
-   | DFW (Dallas)    | `slmgr.vbs /skms winactivate.dfw1.servers.rackspacecloud.com:1688` |
-   | IAD (Ashburn)   | `slmgr.vbs /skms winactivate.iad3.servers.rackspacecloud.com:1688` |
-   | LON (London)    | `slmgr.vbs /skms winactivate.lon3.servers.rackspacecloud.com:1688` |
-   | HKG (Hong Kong) | `slmgr.vbs /skms winactivate.hkg1.servers.rackspacecloud.com:1688` |
-   | SYD (Sydney)    | `slmgr.vbs /skms winactivate.syd2.servers.rackspacecloud.com:1688` |
+Locate the appropriate KMS server in the following list:
+
+<table>
+     <tr>
+       <th>Data center</th>
+       <th>KMS server</th>
+     </tr>
+     <tr>
+       <td>ORD (Chicago)</td>
+       <td>winactivate.ord1.servers.rackspacecloud.com</td>
+     </tr>
+     <tr>
+       <td>DFW (Dallas)</td>
+       <td>winactivate.dfw1.servers.rackspacecloud.com</td>
+     </tr>
+     <tr>
+       <td>IAD (Ashburn)</td>
+       <td>winactivate.iad3.servers.rackspacecloud.com</td>
+     </tr>
+     <tr>
+       <td>LON (London)</td>
+       <td>winactivate.lon3.servers.rackspacecloud.com</td>
+     </tr>
+     <tr>
+       <td>HKG (Hong Kong)</td>
+       <td>winactivate.hkg1.servers.rackspacecloud.com</td>
+     </tr>
+     <tr>
+       <td>SYD (Sydney)</td>
+       <td>winactivate.syd2.servers.rackspacecloud.com</td>
+     </tr>
+</table>
+
+1. Log in to your cloud server as administrator by clicking
+   **Start > All Programs > Accessories**. Then, right-click **Command
+   Prompt** and select **Run as Administrator**.
+
+2. Confirm that you can ping the Rackspace KMS server by running the following command:
+
+        ping kms-server-from-table-above
+
+   **Note**: If there is a reply, continue to step 3. No reply means that there
+   is an interface, hardware, or routing issue. We recommend the following
+   article for help resolving the issue: [Update ServiceNet routes on cloud
+   servers](/how-to/updating-servicenet-routes-on-cloud-servers/)
+
+3. Set the KMS manually within the registry:
+
+        slmgr.vbs /skms kms-server-from-table-above:1688
 
 4. Request activation from the KMS:
-    
-       slmgr.vbs /ato
 
-5. If step 4 returns the error ``0xC004F074 The Key 
-   Management Server (KMS) is unavailable``, run the following command:
-   
-        w32tm /resync
-   
-6. If the time on the cloud server is drastically different than
-     what is on the KMS the resync will fail.  At this point, you should
-     either set the time manually or configure the server to use an NTP
-     instance over the internet.
-     
+        slmgr.vbs /ato
+
+   **Note**: If you receive the error ``0xC004F074 The Key Management Server (KMS) is unavailable``,
+   continue with the following steps to ensure the server clock synchronizes with the KMS clock.
+
+5. If the device does not activate, the server might be set to MAK activation instead of KMS activation.
+
+    To confirm the activation method set on the device, run the following command:
+
+        slmgr -dlv
+
+    Look for the **Product Key Channel** setting. **Volume:GVLK** means the device uses to **KMS activation**, **Volume:MAK** means the device uses to **MAK** activation.
+
+    The following images show sample outputs:
+
+    **KMS activation output**:
+
+     <img src="{% asset_path cloud-servers/common-windows-issues-key-management-server-activation/kms.jpg %}" />
+
+    **MAK activation output**:
+
+     <img src="{% asset_path cloud-servers/common-windows-issues-key-management-server-activation/mak.png %}" />
+
+6. If your device uses **MAK activation**, then you should set the device back to **KMS activation**.
+    First, find and take note of the appropriate KMS client setup key from Microsoft&reg;: [KMS Client Setup Keys](https://technet.microsoft.com/library/jj612867.aspx)
+
+    To find which server edition you are running, run the following command and look for the section labeled **OS name**:
+
+        systeminfo | findstr OS
+
+    Example:
+
+        PS C:\Users\Administrator> systeminfo | findstr OS
+        OS Name:                   Microsoft Windows Server 2012 R2 Datacenter
+
+7. Set the device to **KMS activation** by using the key found in the  previously referenced article and entering the following command:
+
+        slmgr /ipk %key%
+
+    Replace **%key%** with the key from the Microsoft&reg; document.
+
+8. To activate the device, run the below command:
+
+        slmgr.vbs /ato
+
+### Ensure that the server clock synchronizes with the KMS clock
+
+If step 1 above returned the error `0xC004F074 The Key Management Server (KMS) is unavailable`, the time on the cloud server is drastically different than what is on the KMS.
+
+1. At this point, you should configure the server to use a Network Time Protocol (NTP) time source by executing the appropriate command.
+
      <table>
      <tr>
-       <th>Data Center</th>
+       <th>Data center</th>
        <th>Command</th>
      </tr>
      <tr>
@@ -97,14 +156,14 @@ server:
        <td><code>net stop w32time<br>w32tm /config /manualpeerlist:time.syd2.rackspace.com /syncfromflags:MANUAL <br>net start    w32time</code></td>
      </tr>
      </table>
-   
-7. Once the time is synced up, attempt each of the following commands:
-    
+
+2. After the time synchronizes, attempt each of the following commands:
+
         w32tm /resync
 
         slmgr.vbs /ato
 
-8. You must open UDP port 123 to allow the sync.
+3. You must open User Datagram Protocol (UDP) port 123 to allow the sync.
 
-9. Make sure your firewall allows outbound connections to TCP port
-   1688.
+4. Make sure your firewall allows outbound connections to Transmission Control Protocol
+(TCP) port 1688.

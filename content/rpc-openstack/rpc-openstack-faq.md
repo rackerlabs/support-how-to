@@ -5,8 +5,8 @@ title: Rackspace Private Cloud powered by OpenStack FAQ
 type: article
 created_date: '2014-09-09'
 created_by: Karin Levenstein
-last_modified_date: '2017-04-21'
-last_modified_by: Arun Rajan
+last_modified_date: '2019-12-20'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
@@ -14,7 +14,7 @@ product_url: rpc-openstack
 Rackspace Private Cloud powered by OpenStack delivers the agility and
 efficiency of a public cloud combined with the enhanced security, control and
 performance of a dedicated environment.  It can be deployed in your data center
-or ours, is managed by our OpenStack experts and is backed by **Fanatical Support**&reg;. Rackspace Private Cloud gives you all the power of the cloud without the pain of running it, so you can focus on your core business.
+or ours, is managed by our OpenStack experts and is backed by support that provides a Fanatical Experience&trade;. Rackspace Private Cloud gives you all the power of the cloud without the pain of running it, so you can focus on your core business.
 
 This FAQ provides quick answers to general questions about Rackspace Private Cloud powered by OpenStack.
 
@@ -49,7 +49,7 @@ More information is available at the [Rackspace Private Cloud OpenStack web page
 
 >We offer an industry leading 99.99% OpenStack API uptime guarantee, a reference architecture that uses Linux containers to provide in-place upgrades and independent scaling of each OpenStack service, and a cloud that is designed to scale to hundreds of nodes.
 
->**Fanatical Support**
+>**Support that provides a Fanatical Experience&trade;**
 
 >We provide a dedicated account manager, an optional dedicated OpenStack Engineer service, a 15-minute live response time guarantee to any emergency ticket with Core support, and 24x7x365 access to our team of OpenStack experts
 
@@ -91,7 +91,7 @@ Currently, Rackspace Private Cloud software does not include any images. Users c
 
 #### Why does the node IP address need to have Internet access?
 
-Rackspace Private Cloud software downloads Ubuntu installation files as part of
+Rackspace Private Cloud software downloads Ubuntu operating system installation files as part of
 the installation process to ensure that you have the most up-to-date operating
 system that works with our software. If the node doesn't have Internet access,
 the installation process fails.
@@ -104,7 +104,7 @@ at [rpcsales@rackspace.com](mailto:rpcsales@rackspace.com).
 
 #### What devices are certified for Rackspace Private Cloud compute nodes?
 
-All devices certified for Ubuntu Server 16.04 LTS are certified for Rackspace Private Cloud. Refer to the [Ubuntu Server certified hardware page](http://www.ubuntu.com/certification/server/) for the full list.
+All devices certified for Ubuntu Server 16.04 LTS are certified for Rackspace Private Cloud. Refer to the [Ubuntu operating system certified hardware page](http://www.ubuntu.com/certification/server/) for the full list.
 
 #### Where can I get more technical information?
 

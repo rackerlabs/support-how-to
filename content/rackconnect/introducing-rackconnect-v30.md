@@ -1,19 +1,19 @@
 ---
 permalink: introducing-rackconnect-v30/
-audit_date:
+audit_date: '2019-10-09'
 title: Introducing RackConnect v3.0
 type: article
 created_date: '2014-08-22'
 created_by: Juan Perez
-last_modified_date: '2016-01-06'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2019-10-09'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
 
 **Applies to**: RackConnect v3.0
 
-**Important**: The beginning of each RackConnect article now includes an
+**Important**: The beginning of each RackConnect article includes an
 **Applies to** label to indicate whether the contents apply to
 RackConnect v3.0, RackConnect v2.0, or both.
 
@@ -29,7 +29,7 @@ dedicated [Managed and Intensive service
 levels](http://www.rackspace.com/dedicated-servers/service-levels/) and
 our cloud [Managed Operations and Managed
 Infrastructure](http://www.rackspace.com/cloud/compare-service-levels) service levels,
-giving you the ability to select the level of **Fanatical Support**&reg; that you need to properly manage your hybrid environment.
+giving you the ability to select the level of support that you need to properly manage your hybrid environment.
 
 RackConnect provides an isolated path for network traffic to traverse
 between your cloud and dedicated environments located within the same
@@ -40,6 +40,3 @@ Networks, see [Getting Started with Cloud
 Networks](/how-to/cloud-networks).
 For a complete list of dedicated network devices currently supported by
 RackConnect, see [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison).
-
-If you have any questions, reach out to us. Our contact
-information is available on the [Contact Us](/how-to/support) page.

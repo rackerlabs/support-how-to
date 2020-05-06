@@ -5,29 +5,29 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2017-06-02'
-last_modified_by: Alex Juarez
+last_modified_date: '2019-12-20'
+last_modified_by: Stephanie Fillmon
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article outlines our **Fanatical Support&reg;** of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
+This article outlines our support of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
 
 ### Operating systems
 
 The following operating systems are supported for both Dedicated and Managed Operations:
 
-- CentOS 7
+- CentOS&reg; 7
 - CentOS 6
-- Red Hat Enterprise Linux 7
+- Red Hat&reg; Enterprise Linux&reg; 7
 - Red Hat Enterprise Linux 6
+- Ubuntu&reg; 18.04 LTS (Bionic Beaver)
 - Ubuntu 16.04 LTS (Xenial Xerus)
-- Ubuntu 14.04 LTS (Trusty Tahr)
 
 The following operating systems are supported only for Managed Operations:
 
+- Debian&reg; 9 (Stretch)
 - Debian 8 (Jessie)
-- Debian 7 (Wheezy)
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
@@ -53,8 +53,7 @@ The following types of database servers are supported in the indicated areas:
 
 **Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL. PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply. For more information visit our [DBA Services page](https://www.rackspace.com/en-us/dba-services).
 
-**Note**: Rackspace will install and support the official Oracle MySQL, MariaDB and Percona MySQL
-software from the vendor's repositories.
+**Note**: Rackspace will install and support the official Oracle MySQL, MariaDB and Percona MySQL software from the vendor's repositories.
 
 ### File servers
 
@@ -78,7 +77,7 @@ The following mail servers are supported in the indicated areas:
 | Postfix | Yes | Yes | Yes | Yes |
 | Dovecot | Yes | Yes | Yes | Yes |
 
-**Note**: By their nature, cloud servers have ephemeral IP addresses which most email providers blacklist. Emails sent from a cloud server must go through a third-party application such as [Mailgun](https://www.mailgun.com/). Rackspace does not support mail hosting services on cloud servers and recomends [Rackspace Email Hosting](https://www.rackspace.com/en-us/email-hosting) for cloud environments.
+**Note**: By their nature, cloud servers have ephemeral IP addresses, which most email providers blacklist. Emails sent from a cloud server must go through a third-party application such as [Mailgun](https://www.mailgun.com/). Rackspace recommends [Rackspace Email Hosting](https://www.rackspace.com/en-us/email-hosting) for cloud environments.
 
 ### Application servers
 
@@ -86,8 +85,7 @@ The following authentication tools are supported in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
-| SSSD-AD | Yes | Yes | Yes | Yes |
-| Duo 2FA | Yes | Yes | Yes | Yes |
+| PHP-FPM | Yes | Yes | Yes | Yes |
 
 ### Caching
 
@@ -103,7 +101,7 @@ The following caching tools are supported in the indicated areas:
 
 ### Clustering
 
-The following services are supported on Red Hat Cluster Suite (RHCS) in the indicated areas:
+The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
@@ -113,6 +111,16 @@ The following services are supported on Red Hat Cluster Suite (RHCS) in the indi
 
 **Note**: RHCS is supported only on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported in tandem by the DBA team and Linux OS administrators.
 
+### Containerization technologies
+
+ The following containerization technologies are supported:
+
+ |   | Installation | Configuration | Troubleshooting | Patching |
+ | --- | --- | --- | --- | --- |
+ | Docker| Yes | Yes | Yes | Yes |
+
+ **Note**: Rackspace Support does not extend into the individual containers.
+
 ### Control panels
 
 The following control panel is supported in the indicated area:
@@ -120,6 +128,7 @@ The following control panel is supported in the indicated area:
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
 | Plesk | Yes | Yes | Yes | Yes |
+| PHPMyAdmin| Yes | Yes | Yes | Yes |
 
 **Note**: Plesk is supported only on dedicated Red Hat Enterprise Linux and CentOS platforms.
 
@@ -142,12 +151,12 @@ Although we don't support all technologies, we do offer *reasonable endeavor* su
 -  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
    support is offered to help use Cloud Files via the API.
 -  **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Bind/named are *not* supported at this time.
--  **Firewall**: Support is provided for iptables, Ubuntu ufw, and fail2ban.
+-  **Firewall**: Support is provided for iptables, Ubuntu operating system ufw, and fail2ban.
 -  **Load Balancing**: Cloud Load Balancers are supported.
 
 ### Third-party repositories
 
-Fanatical Support for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
+The Support team for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
 
 - [EPEL](http://fedoraproject.org/wiki/EPEL)
 - [IUS](https://ius.io/)
@@ -170,4 +179,4 @@ Except as set forth in Rackspace general terms and conditions, cloud terms of se
 
 Although part of the document explains how Rackspace services may work with third party products, the information contained in the document is not designed to work with all scenarios. Any use or changes to third party product and/or configurations should be made at the discretion of your administrators and subject to the applicable terms and conditions of such third party. Rackspace does not provide technical support for third party products, other than specified in your hosting services or other agreement you have with Rackspace and Rackspace accepts no responsibility for third-party products.
 
-Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Copyright &copy; 2016 Rackspace &#124; Rackspace&reg;, **Fanatical Support**&reg; and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.
+Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Rackspace&reg; and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.

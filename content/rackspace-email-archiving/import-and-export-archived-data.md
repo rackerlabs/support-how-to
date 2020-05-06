@@ -5,7 +5,7 @@ title: Import and export archived data
 type: article
 created_date: '2015-05-18'
 created_by: Beau Bailey
-last_modified_date: '2016-01-26'
+last_modified_date: '2019-04-23'
 last_modified_by: Catherine Richardson
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
@@ -21,7 +21,7 @@ panel and include your domain name in the request. Rackspace will gather
 the necessary information and provide you with the best import method.
 
 Cost and turnaround time both depend on how much data you want to
-recover:
+recover.
 
 -   The fee for data imports is \$6 per GB of data.
 -   For maximum import completion times, see [Time frames for importing
@@ -39,7 +39,7 @@ Rackspace Archiving account:
     Office](/how-to/export-archive-search-results-in-cloud-office).
 
     **Note:** You can export searches with a maximum of 15,000
-results and the total size of 3.5 GB
+results and a total size of 3.5 GB.
 
 -   If you want to get a bulk export of your archived data, we can
     perform the export and provide you with links from which you can
@@ -51,7 +51,7 @@ The pricing for a bulk export is a one-time fee of \$6 per GB
 for EML format and \$9 per GB for PST format.
 
 When determining which export method to use, consider the following
-questions:
+questions.
 
 **Is an external third party requesting these exports?**
 
@@ -83,9 +83,13 @@ You can also provide search names based on the following criteria:
 
 ### Time frames for importing and exporting data ###
 
-Following are the *maximum* completion times for both importing and
-exporting:
+Following are the *estimated maximum* completion times for both importing and
+exporting data:
 
--   5 - 25 GB in 3 weeks
--   26 - 50 GB in 4 weeks
--   51 GB - 1 TB in 5 weeks
+-  Less than 25 GB in 2 weeks.
+-  25 GB to 49 GB in 3 weeks.
+-  50 GB to 99 GB in 4 weeks.
+-  100 GB to 1 TB in 6 weeks.
+-  If you have over 1 TB of data, contact Rackspace for an estimate.
+
+**Note:** The preceding information gives rough estimates and should not be considered a commitment or a service level agreement (SLA).

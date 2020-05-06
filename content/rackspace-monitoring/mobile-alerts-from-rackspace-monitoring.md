@@ -5,9 +5,9 @@ title: Mobile alerts from Rackspace Monitoring
 type: article
 created_date: '2014-08-13'
 created_by: Bekki Bolthouse
-last_modified_date: '2016-01-22'
+last_modified_date: '2020-04-09'
 last_modified_by: Constanze Kratel
-product: RackspaceMonitoring
+product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
@@ -47,10 +47,6 @@ If you receive too many texts, or you don't want to get alerts during a maintena
 
 The SMS alerting functionality is available to US and UK Rackspace Monitoring customers.
 
-### Contact and help
+### Additional resources
 
-- freenode IRC #cloudmonitoring
-
-- Continue to send us feature requests on the [Rackspace Monitoring Customer Forum](https://feedback.rackspace.com/forums/250746-cloud-hosting/category/81812-cloud-monitoring).
-
-- Complete API documentation for [Rackspace Monitoring](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-developer-guide)
+Complete API documentation for [Rackspace Monitoring](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-developer-guide)

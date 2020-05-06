@@ -5,17 +5,20 @@ title: Check Linux file permissions with ls
 type: article
 created_date: '2011-11-23'
 created_by: Jered Heeschen
-last_modified_date: '2016-06-22'
+last_modified_date: '2019-03-07'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to use the `ls` command to check Linux file permissions.
+This article explains how to use the `ls` command to check Linux&reg; file permissions.
 Being able to check the permissions on a file is useful, especially for
 troubleshooting. You can ensure that a user can read a particular file, for example,
 or examine a directory structure to ensure that users can follow the hierarchy to
 the files that they need.
+
+For a more in depth discussion on Linux file permissions, see
+[Linux file permission concepts](https://support.rackspace.com/how-to/linux-file-permission-concepts/).
 
 ### ls command
 
@@ -176,7 +179,7 @@ After the number of links, two names are listed. In the preceding example, the
 names are `root` and `mail`.
 
 The first name indicates the owner of the file. The `user` permissions apply to
-owner of the file, so in this case, the user 'root' has read,
+the owner of the file, so in this case, the user 'root' has read,
 write, and execute permissions for this directory.
 
 The second name is the file's group. The `group` permissions apply to

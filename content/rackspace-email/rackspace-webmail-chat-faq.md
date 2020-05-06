@@ -63,24 +63,19 @@ support earlier versions of Internet Explorer.
 #### How long are chat logs retained?
 
 We don't store chat logs on our system, but users are able to see any
-messages sent or received during their current Webmail session. [submit your
-feedback](http://feedback.rackspace.com/ "submit your feedback").
+messages sent or received during their current Webmail session.
 
 #### Is it possible to chat with a group or team?
 
-Currently it is not possible to chat with a group or team. Please [submit your
-feedback](http://feedback.rackspace.com/ "submit your feedback").
+Currently it is not possible to chat with a group or team.
 
 #### Can I chat with Skype for Business users?
 
-Currently it is not possible to chat with Skype for Business users. Please
-[submit your
-feedback](http://feedback.rackspace.com/ "submit your feedback").
+Currently it is not possible to chat with Skype for Business users.
 
 #### Can I use Rackspace Webmail Chat with third-party IM clients?
 
-Currently it is not possible to use third-party IM clients. Please [submit your
-feedback](http://feedback.rackspace.com/ "submit your feedback").
+Currently it is not possible to use third-party IM clients. 
 
 #### How do I enable or disable HTML5 notifications after the initial permissions request?
 

@@ -1,11 +1,11 @@
 ---
 permalink: change-a-microsoft-exchange-mailbox-password/
-audit_date:
+audit_date: '2020-04-15'
 title: Change a Microsoft Exchange mailbox password
 type: article
 created_date: '2017-06-08'
 created_by: William Loy
-last_modified_date: '2017-11-29'
+last_modified_date: '2020-04-15'
 last_modified_by: William Loy
 product: Microsoft Exchange
 product_url: exchange
@@ -22,13 +22,13 @@ This article describes how to change the password for a Hosted Microsoft Exchang
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/#cloud-office-terminology).
 
-### Change your password through the User Control Panel
+**Note:** If you are using an Office 365 Microsoft Exchange mailbox, see the [Office 365 documentation](/how-to/office-365/) for assistance with this task.
 
-If you prefer a video tutorial, see [Password Resets: Hosted Exchange](https://emailhelp.rackspace.com/l/password-reset-user).
+### Change your password through the User Control Panel
 
 1. Log in to the [User Control Panel](https://cp.rackspace.com/usercp/Login) with your email address and current password.
 
-   **Note:** If you are unable to log in, attempt to log in at [apps.rackspace.com](https://apps.rackspace.com/index.php). If you cannot log in to either site, you must contact your administrator to have your password reset.
+   **Note:** If you are unable to log in, try to log in at [apps.rackspace.com](https://apps.rackspace.com/index.php). If you cannot log in to either site, you must contact your administrator to have your password reset.
 
 2. Under **Change Password**, enter your current password, your new password, and your new password again to confirm.
 
@@ -38,38 +38,31 @@ If you prefer a video tutorial, see [Password Resets: Hosted Exchange](https://e
 
 3. Click **Change**.
 
-**Warning:** After you change the password, you must update the password on all devices that connect to this mailbox. If you do not update the password on *every* device, the mailbox locks itself and you must contact your administrator to unlock it. Provide your administrator the ["Recover a locked mailbox""](#recover-a-locked-mailbox) instructions at the end of this article.
+**Warning:** After you change the password, you must update the password on all devices that connect to this mailbox. If you do not update the password on *every* device, the mailbox locks itself and you must contact your administrator to unlock it. Give your administrator the ["Recover a locked mailbox""](#recover-a-locked-mailbox) instructions at the end of this article.
 
 ### Reset a password through the Cloud Office Control Panel
-
-**Note:** Only administrators have access to the Cloud Office Control Panel.
-
-If you prefer a video tutorial, please see [Password Resets: Hosted Exchange <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/reset_user_password_thumb.png %}" />](https://emailhelp.rackspace.com/l/password-reset-user).
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
-3. In the mailbox list, click the mailbox name for which you want to change the password.
+3. In the mailbox list, find the mailbox you want to update and click the dropdown arrow by the  **Manage** button.
 
-   <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/CPpasswordResetSC2.png %}" />
-
-4. Under **User Details**, enter the following information:
+4. Within the **Change Password** pop-up, enter the following information:
 
    - **Password:** Enter a new password.
    - **Confirm:** Enter the new password again.
 
     **Note**: We recommend that you create a password that you have never used before and that remains unique from all your other passwords. Also, longer passwords provide better security for your account.
 
-5. Click **Save**.
+5. Click **Change Password**.
 
-   <img src="{% asset_path exchange/change-a-mailbox-password-for-microsoft-exchange/CPpasswordResetSC3.png %}" />
-
-**Warning:** After the password has been changed, the user must update the password on all devices that connect to this mailbox. If the password is not updated on *every* device, the mailbox will lock itself and users cannot access their email.
+**Warning:** After the password has changed, the user must update the password on all devices that connect to this mailbox. If the password isn't updated on *every* device, the mailbox locks itself and users can't access their email.
 
 ### Recover a locked mailbox
 
-If a user's mailbox is locked, the admin and user can follow these steps to unlock it.
+If a user's mailbox locks, the administrator and user can follow the steps in this section
+to unlock it.
 
 1. *(User)* Identify every device that connects to the locked mailbox.
 

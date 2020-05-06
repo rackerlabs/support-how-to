@@ -23,7 +23,7 @@ You can access RPC-V only through a VPN connection to Rackspace.
 
 #### What Rackspace data centers provide RPC-V? {#general-datacenters}
 
-RPC-V is available in the IAD, DFW, LON, ORD, SDY and HKG data centers.
+RPC-V is available in the IAD, DFW, LON, ORD, SYD and HKG data centers.
 
 #### Are backups included with RPC-V? {#general-backup}
 

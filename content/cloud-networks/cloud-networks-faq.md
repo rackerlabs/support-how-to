@@ -169,6 +169,39 @@ A security group can't be added as a child of another security group. You also
 can't edit a security group rule - you must add a new security group to replace
 the old one.
 
+Outbound security group rules can only be created by using the API. You can use the 
+following cURL command but be sure to substitute the variables with
+the appropriate values for your account:
+
+  curl -XPOST https://<region>.networks.api.rackspacecloud.com/v2.0/security-group-rules <br>
+      -H "Content-type: application/json" <br>
+      -H "X-Auth-Token: <yourAuthToken>" <br>
+      -H "User-Agent: python-novaclient" <br>
+      -H "Accept: application/json" <br>
+      -d '{"security_group_rule":{"direction":"egress","port_range_min":"<portNumber or null>","ethertype":"<IPv4 or IPv6>","port_range_max":"<portNumber or null>","protocol":"<desiredProtocol>","security_group_id":"<yourSGID>"}}' 
+      | python -m json.tool
+    
+Following are descriptions of the variables in the command:   
+
+- `region` is the region you are working in.
+
+- `yourAuthToken` is the authentication token for your user account (more on that here https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work).
+
+- `portNumber` is the port number that you want to add to the rule (such as `22`, `80`, or `443`).
+
+- `IPv4` or `IPv6` is which ever ip version you want to use.
+
+- `desiredProtocol` is the protocol you want to use (for example, `tcp`, `icmp`, or `all`).
+
+- `yourSGID` is the Security Group UUID that you can get from the Security Group Details Page next to "Group ID".
+
+- `securityGroupRuleID` is used later to explain how to delete a rule with cURL.
+
+After you run the cURL command, you get output that provides an outline of the
+rule that you have just added in a JSON block. Take note of the `id` field in the
+output because this is the value that you use for `securityGroupRuleID` to delete
+the rule.
+
 #### Will security groups be supported via the neutron client?
 
 Yes. Users can provision security groups via the neutron client.
@@ -262,19 +295,17 @@ The Shared IP sections are:
 
 - [Getting started](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#sharing-ip-address-between-servers)
 
-#### What features are supported for LA?
+#### What features are supported?
 
-The LA release supports the ability to create, associate, disassociate and delete shared IP addresses.
+Shared IP supports the ability to create, associate, disassociate and delete shared IP addresses.
 
 #### Is this feature supported for all Rackspace Cloud customers?
 
-This feature is supported for cloud-only customers that have been approved for
-the Limited Availability (LA) program. Please contact your Account Manager or
-Rackspace Support to considered for LA access.
+This feature is supported for all customers except RackConnect customers.
 
 #### Is this feature available from the Cloud Control Panel?
 
-We do not plan to provide Cloud Control Panel support for LA.
+No, this feature is not yet available in the Cloud Control Panel.
 
 #### Is there a limit on the number of shared IP addresses that a tenant can have?
 

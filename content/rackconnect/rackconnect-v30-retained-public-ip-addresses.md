@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v30-retained-public-ip-addresses/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v3.0 retained public IP addresses
 type: article
 created_date: '2015-12-04'
 created_by: Sean Laszakovits
-last_modified_date: '2015-12-11'
-last_modified_by: Nate Archer
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---

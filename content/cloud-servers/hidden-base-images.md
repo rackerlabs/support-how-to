@@ -1,11 +1,11 @@
 ---
 permalink: hidden-base-images/
-audit_date: '2017-12-19'
+audit_date: '2019-06-07'
 title: Hidden base images
 type: article
 created_date: '2013-11-04'
 created_by: Amanda Clark
-last_modified_date: '2017-05-18'
+last_modified_date: '2019-12-20'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -28,7 +28,8 @@ Arch 2014.2 | b21af3ef-1a1e-46b5-98ef-bb0c81b25292 | 2017-09-06 | Retired
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Debian 7 (Wheezy) | 8dbe1146-3cc4-4c46-8888-64662a3ec809 | 2018-06-15 | Debian LTS support has ended
-
+Debian 8 (Jessie) (PVHVM) | 1f055de1-48b5-42ed-bc5d-d3552dccb96e | 2019-06-07 | Upstream updates ended
+OnMetal - Debian 8 (Jessie) | aaef6263-b4d6-435b-a7d7-bf51cf61118e | 2019-06-07 | Upstream updates ended
 ### Fedora images
 
 Image | ID | Date hidden | Notes
@@ -41,6 +42,10 @@ Fedora 23 (PVHVM) | f597d109-f91f-417e-9818-9ae21dca2262 | 2016-12-27 | No longe
 Fedora 24 (PVHVM) | 4e284168-69fd-44aa-8d4a-0844058118d9 | 2017-08-08 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 25 (PVHVM) | 8c9f3212-8515-484e-9109-00e585be8cf4 | 2017-12-12 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 26 (PVHVM) | 7cf08df8-b4ac-4383-8d16-e515b2fa92f5 | 2018-06-1 | No longer supported by the Fedora Project. This image was the last image of this version published.
+Fedora 27 (PVHVM) | 35c29141-3607-4a4d-ba28-3963d925ed4d | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+OnMetal - Fedora 27 | 15e75b61-a75c-4ac3-ba30-368e8b14856f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+Fedora 28 (PVHVM) | 7b464928-741b-44af-86ad-0352dcf88a2a | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+OnMetal - Fedora 28 | 5cfe8ebd-1b45-4ddc-868f-e98417d0758f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
 
 ### FreeBSD images
 
@@ -70,18 +75,21 @@ Image | ID | Date hidden | Notes
 Scientific Linux 6 (PVHVM) | 51706a83-20cb-42dd-92a8-d704f5a7a1bf | 2017-09-06 | Retired
 Scientific Linux 7 (PVHVM) | 6c0551dd-798d-4b56-b847-de58165dbffa | 2017-09-06 | Retired
 
-### Ubuntu images
+### Ubuntu operating system images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
-Ubuntu 12.04 (PVHVM) | f2d30a56-bc2b-4906-8027-92f8a45bbb10 | 2017-04-28 | No longer supported by Canonical.
-Ubuntu 12.10 (Quantal Quetzal) (PVHVM) | ab5354f6-b7a3-4802-a2ad-911f67961197 | 2014-04-17 | No longer supported by Canonical.
-Ubuntu 13.04 (PVHVM) | 62df001e-87ee-407c-b042-6f4e13f5d7e1 | 2014-01-06 | No longer supported by Canonical.
-Ubuntu 13.10 (Saucy Salamander) (PVHVM) | aca656d3-dd70-4d7e-a9e5-f12182871cde | 2014-06-23 | No longer supported by Canonical.
+Ubuntu 12.04 (PVHVM) | f2d30a56-bc2b-4906-8027-92f8a45bbb10 | 2017-04-28 | No longer supported.
+Ubuntu 12.10 (Quantal Quetzal) (PVHVM) | ab5354f6-b7a3-4802-a2ad-911f67961197 | 2014-04-17 | No longer supported.
+Ubuntu 13.04 (PVHVM) | 62df001e-87ee-407c-b042-6f4e13f5d7e1 | 2014-01-06 | No longer supported.
+Ubuntu 13.10 (Saucy Salamander) (PVHVM) | aca656d3-dd70-4d7e-a9e5-f12182871cde | 2014-06-23 | No longer supported.
 Ubuntu 14.10 (Utopic Unicorn) (PVHVM) | 668b0764-4936-4eec-a2f2-3b5bb2c40b26 | 2015-04-23 | Replaced by 15.04 (Vivid Vervet).
-Ubuntu 15.04 (Vivid Vervet) (PVHVM) | 658a7d3b-4c58-4e29-b339-2509cca0de10 | 2015-10-23 | No longer supported by Canonical.
-Ubuntu 15.10 (Willy Werewolf) (PVHVM) | 59a3fadd-93e7-4674-886a-64883e17115f | 2016-12-07 | No longer supported by Canonical.
-Ubuntu 16.10 (Yakety Yak) (PVHVM) | 321116e4-5c76-42ce-8ddf-5cb4dcbf7cfe | 2017-07-27 | No longer supported by Canonical.
+Ubuntu 15.04 (Vivid Vervet) (PVHVM) | 658a7d3b-4c58-4e29-b339-2509cca0de10 | 2015-10-23 | No longer supported.
+Ubuntu 15.10 (Willy Werewolf) (PVHVM) | 59a3fadd-93e7-4674-886a-64883e17115f | 2016-12-07 | No longer supported.
+Ubuntu 16.10 (Yakety Yak) (PVHVM) | 321116e4-5c76-42ce-8ddf-5cb4dcbf7cfe | 2017-07-27 | No longer supported.
+Ubuntu 17.10 (Artful Aardvark) (PVHVM) | a28b4f0c-64b8-4f5e-a87b-3b0ab17a9c6f | 2018-07-19 | No longer supported.
+Ubuntu 14.04 LTS (Trusty Tahr) (PVHVM) | 74e83199-e007-4a5a-a2b4-019afd6f0917	| 2019-06-07 | No longer supported.
+OnMetal - Ubuntu 14.04 LTS (Trusty Tahr) | d615ebd6-a2d0-431a-9eb7-02bdf609028d	| 2019-06-07 | No longer supported.
 
 ### Windows Server images
 

@@ -5,8 +5,8 @@ title: Cloud Backup troubleshooting
 type: article
 created_date: '2015-06-29'
 created_by: Rackspace Support
-last_modified_date: '2016-07-19'
-last_modified_by: Catherine Richardson
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -19,7 +19,7 @@ If you encounter issues when working with Cloud Backup, use the information in t
 -  Connection errors
 -  Backup agent logs
 -  Recovery of your encrypted vault password
--  Unable to back up or restore files (Windows only)
+-  Unable to back up or restore files (Windows&reg; only)
 -  System resource utilization
 -  Other errors and problems
 
@@ -32,13 +32,13 @@ This section describes each of the backup statuses, why you might receive each s
 A status of Skipped indicates that the backup job was skipped because a backup job was already queued. A
 single backup job can be queued only once.
 
-This status likely occurs because the frequency of the backup job is set too high (for example, hourly) and a single backup takes too long (longer than an hour). The backup scheduler will start to skip backups that it cannot meet.
+This status likely occurs because the frequency of the backup job is set too high (for example, hourly), and a single backup takes too long (longer than an hour). The backup scheduler starts to skip backups that it cannot meet.
 
-Consider reducing the frequency of the job, or reducing the amount of data. If this is the initial job, the subsequent jobs might finish faster.
+Consider reducing the frequency of the job or reducing the amount of data. If this is the initial job, the subsequent jobs might finish faster.
 
 On older DriveClient installations, a Skipped status might be caused if the agent was hard-restarted (or the operating system was rebooted) during a backup, cleanup, or restore.
 
--  For Linux, a possible fix is to upgrade to the latest version of DriveClient and restart the running agent.
+-  For Linux&reg;, a possible fix is to upgrade to the latest version of DriveClient and restart the running agent.
 
 -  For Windows, a possible fix is to restart the DriveClient Windows service through Window's Service Manager, or through the `sc` command line Windows utility.
 
@@ -59,22 +59,22 @@ terminated.
 #### Backup status "Completed with Errors"
 
 A backup status of Completed with Errors indicates that the backup
-completed but one or more files could not be backed up. The most common
+completed, but one or more files could not be backed up. The most common
 issues that cause this status are as follows:
 
 -   The file was deleted between the time the index of files completed and the copy of that specific file was attempted. This issue is common with any temporary files, such as PHP session files, and is almost always harmless. If it is possible and practical for you to exclude these files from the backup definition, this kind of error goes away.
 
--   The file was exclusively locked (Windows), so that no other process could read it. This issue is common with database binary files. With databases, you should never back up the binaries themselves, but rather dump the contents of the database to a flat file (such as an SQL file), and back up that flat file. Doing so allows for a quicker backup and an easier restore. We suggest that you break individual databases into different flat files, so that they can be manipulated easier on restore. Then,  you do not have to fully restore the flat file just to restore a single database.
+-   The file was exclusively locked (Windows) so that no other process could read it. This issue is common with database binary files. With databases, you should never back up the binaries themselves, but rather dump the contents of the database to a flat file (such as an SQL file), and back up that flat file. Doing so allows for a quicker backup and an easier restore. We suggest that you break individual databases into different flat files so that they can be manipulated easier on restore. Then,  you do not have to fully restore the flat file just to restore a single database.
 
 -   Non-UTF-8 characters were used in the path of the file in the operating system. The current version of Cloud Backup supports only UTF-8 characters. When non-UTF-8 characters are used, a `Path Not Found` message is displayed.
 
-For more information, see [Back up databases with Cloud Backup](https://support.rackspace.com/how-to/rackspace-cloud-backup-backing-up-databases/).
+For more information, see [Back up databases with Cloud Backup](/how-to/rackspace-cloud-backup-backing-up-databases/).
 
 #### Backup status "Error"
 
 Many issues might cause a backup status of Error to occur, such as cloud account permissions for the user who configured that agent or the DriveClient not being able to connect to the agent APIs.
 
-Rackspace Support must review the **driveclient.log** file to determine the cause. If the agent is not connected, attach the **driveclient.log** file to a ticket so that Support can review it. For more information, see [Cloud Backup agent logging basics - Where to store saved logs](https://support.rackspace.com/how-to/cloud-backup-agent-logging-basics/).
+Rackspace Support must review the **driveclient.log** file to determine the cause. If the agent is not connected, attach the **driveclient.log** file to a ticket so that Support can review it. For more information, see [Cloud Backup agent logging basics - Where to store saved logs](/how-to/cloud-backup-agent-logging-basics/).
 
 Following are some of the issues and some possible fixes:
 
@@ -97,7 +97,7 @@ If the local system has less than 100 MB of free disk space, the backup and even
 -  Automated log uploads made by using the Cloud Control Panel might not be possible.
 -  File restore operations might partially or completely fail.
 
-If disk space is so low that any of the preceding issues occur, we strongly recommend that you move as many extraneous files as possible off of the local system drive. For possible ways to do this with Cloud Backup files, see [Conserving resources with Cloud Backup](https://support.rackspace.com/how-to/best-practices-for-cloud-backup/).
+If disk space is so low that any of the preceding issues occur, we strongly recommend that you move as many extraneous files as possible off of the local system drive. For possible ways to do this with Cloud Backup files, see [Conserving resources with Cloud Backup](/how-to/best-practices-for-cloud-backup/).
 
 ##### Container does not exist
 
@@ -111,13 +111,13 @@ This message indicates that a networking error is preventing DriveClient from co
 
 This message indicates that the locale is not properly set on the target system, which happens mostly in older operating systems.
 
-This message is also common when you use SSH to connect from a Mac OS desktop to a Linux server, and run the `sudo service DriveClient status command`. The Mac OS client does not properly provide the locale information in the SSH session.
+This message is also common when you use SSH to connect from a Mac OS desktop to a Linux server and run the `sudo service DriveClient status command`. The Mac OS client does not properly provide the locale information in the SSH session.
 
-If you don't have a Linux computer available for use, you can access the web console for your server via the Cloud Control Panel. When you're in the web console for your server, perform the following actions:
+If you don't have a Linux computer available for use, you can access the web console for your server through the [Cloud Control Panel](https://login.rackspace.com/). When you're in the web console for your server, perform the following actions:
 
 1. Open the **/etc/ssh/sshd_config** file for editing.
 
-2. Find the lines that start with `AcceptEnv`, and insert a `#` character in front of each line.
+2. Find the lines that start with `AcceptEnv` and insert a `#` character in front of each line.
 
 3. Save the file and then restart the SSH service (depending on the Linux distribution) by running either `service ssh restart` or `service sshd restart`.
 
@@ -139,13 +139,13 @@ The following symptoms might occur:
 
 -   On Windows, the following permissions error message might be displayed: `Please check your permissions and try again`. This is the default error message that Windows displays when a service fails to start.
 
--   On Linux, the agent will just shut itself down.
+-   On Linux, the agent just shuts itself down.
 
 When the agent shuts itself down, you see a line, similar to the following line, indicating that the logging is being stopped. This is the last thing that is logged before the agent shuts itself off.
 
 `INFO |root|rax::AgentPolicy::TearDown(38)] Tearing down logging...`
 
-You will also see this as a `Disconnected` agent through the **Backups** area of the Cloud Control Panel.
+You also see this as a `Disconnected` agent through the **Backups** area of the Cloud Control Panel.
 
 If the agent cannot communicate with one or more of the following required API endpoints, you can test the communication as indicated:
 
@@ -215,7 +215,7 @@ Windows has the ability to *exclusively lock* a file, so that no other
 process can read or write to it. This locking is common in database
 binary files, but many other programs use this locking protocol. If this
 locking occurs, the only workarounds are to close the program that has
-the exclusive lock, or restore the file into a different location.
+the exclusive lock or restore the file into a different location.
 
 If you are backing up a file that you know will be exclusively locked,
 you should think about using VSS snapshots (if your version of Windows
@@ -237,7 +237,7 @@ Following are other errors and problems that you might encounter.
 
 A registered sub-user is authorized for Cloud Backup but not for Cloud Files access. When this user attempts a backup, all requests to Cloud Files return a 403 error. The user attempts to authenticate again, but the new authentication token is the same as the old one.
 
-Account administrators can manage permission levels in the User Management section of the Cloud Control Panel. Submit a request to your account administrator for Full access to your account or Administrative access to Cloud Files for your sub-user account. Cloud Backup does not support Dedicated Users with Cloud access or Federated users.
+Account administrators can manage permission levels in the User Management section of the [Cloud Control Panel](https://login.rackspace.com). Submit a request to your account administrator for **Full** access to your account or **Administrative** access to Cloud Files for your sub-user account. Cloud Backup does not support Dedicated Users with Cloud access or Federated users.
 
 #### Unable to browse a previous backup or browse a backup to select files to restore
 
@@ -275,11 +275,11 @@ The following types of file changes can occur during a backup:
 
 -   Files are overwritten or get deleted. These files are not guaranteed
     to have usable content or to even be included in the backup at all.
--   Files, like logs, are appended to. We will make a best effort to
+-   Files, like logs, are appended to. We make a best effort to
     back up these files, but we expect to be able to restore a
     reasonable and usable form of these files.
 -   Files, like databases, might have random updates to any part
-    of them. We do not in any way guarantee that these files will be
+    of them. We do not in any way guarantee that these files are
     restorable, and even if they are restored, we do not guarantee that
     what is restored is not corrupt.
 

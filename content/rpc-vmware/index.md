@@ -20,7 +20,7 @@ Certified Professionals. For more information, see the following resources:
 - [Rackspace Private Cloud Powered by VMware product page](https://www.rackspace.com/en-gb/vmware/private-cloud)
 - [Rackspace Private Cloud powered by VMware Customer Handbook](https://developer.rackspace.com/docs/rpc-vmware/rpc-vmware-customer-handbook/)
 
-### Rackspace Private Cloud Powered by VMware versus Server Virtualization  
+### Rackspace Private Cloud Powered by VMware versus Server Virtualization
 
 | Feature | VMware Server Virtualization | Rackspace Private Cloud Powered by VMware |
 | --- | --- | --- |
@@ -38,8 +38,4 @@ Certified Professionals. For more information, see the following resources:
 | Capacity planning | Rackspace assistance provided | VMware vROps Included |
 | Automation tools | No | - vApp Deployment Automation (optional vCloud Director)<br/>- vRealize Automation (optional)<br/>- Chef&reg; / Ansible&reg; / Puppet plug-in Ecosystem |
 
-### More information
 
-For more information, see the following forum:
-
-- [Rackspace Managed Virtualization community forum](https://community.rackspace.com/products/f/52)

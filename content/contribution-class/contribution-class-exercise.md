@@ -2,9 +2,10 @@
 title: Contribution class exercise
 type: practice
 created_date: '2016-05-25'
+type: article
 created_by: Nate Archer
-last_modified_date: '2017-07-04'
-last_modified_by: Paige Warmker
+last_modified_date: '2019-05-16'
+last_modified_by: Hiten Mistry
 product: undefined
 product_url: undefined
 ---
@@ -26,6 +27,8 @@ Yes
 Yes
 Yes
 Yes
+
+Somewhat
 **Answer options**
 - Yes 
 - Somewhat
@@ -43,6 +46,8 @@ Often
 Often
 Somewhat Often
 Often
+
+Somewhat Often
 **Answer options**
 - Often
 - Somewhat often
@@ -58,6 +63,8 @@ Yes
 Yes
 Yes
 Yes
+
+Yes
 **Answer options**
 - Yes
 - No
@@ -72,6 +79,8 @@ Yes
 No
 Yes
 Yes
+
+No
 **Answer options**
 - Yes
 - No
@@ -85,6 +94,9 @@ Finally can update all this out of date documentation
 no
 Thanks!
 Video should be a bit slower or provide download slides
+
+This is a good way of helping others to contribute and learn a bit more about GITHub. Does require a bit of technical know-how!
+
 **Answer options**
 - Open ended
 

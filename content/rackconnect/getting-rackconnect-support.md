@@ -1,12 +1,12 @@
 ---
 permalink: getting-rackconnect-support/
-audit_date:
+audit_date: '2019-10-09'
 title: Getting RackConnect support
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2019-10-09'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -18,7 +18,7 @@ product_url: rackconnect
 RackConnect&reg; is compatible with our dedicated Managed,
 dedicated Intensive, cloud Managed Operations, and cloud Managed
 Infrastructure service-level offerings, giving you the ability to select
-the level of **Fanatical Support**&reg; that you need to properly manage your
+the level of support that you need to properly manage your
 hybrid environment. Your dedicated and cloud support teams are your
 first points of contact for any RackConnect issues that you encounter.
 
@@ -43,8 +43,6 @@ higher levels of support for your hybrid environment.
 For more information about our support service levels, see [Dedicated service levels](http://www.rackspace.com/managed-hosting/service-levels/) and
 [Cloud service levels](http://www.rackspace.com/cloud/compare-service-levels).
 
-If you have any questions,  reach out to us. Our contact
-information is available on the [Contact Us](/how-to/support) page.
 
 ### Next step
 

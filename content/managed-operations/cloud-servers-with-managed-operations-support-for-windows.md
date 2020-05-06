@@ -1,12 +1,12 @@
 ---
 permalink: cloud-servers-with-managed-operations-support-for-windows/
-audit_date: '2017-01-19'
+audit_date: '2018-09-04'
 title: Cloud Servers with Managed Operations support for Windows
 type: article
 created_date: '2011-03-16'
 created_by: David Hendler
-last_modified_date: '2017-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-07-18'
+last_modified_by: Cat Lookabaugh
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -14,27 +14,32 @@ product_url: managed-operations
 The Managed Operations service level provides support beyond the
 Managed Infrastructure service level, including direct assistance
 with resizes, snapshots, host machine issues, adding and removing
-servers, and managing IP addresses. To ensure
-**Fanatical Support**&reg;, Rackspace provides support for
-specific software and server configurations on Windows cloud servers
+servers, and managing IP addresses. To ensure that you have a Fanatical
+Experience, Rackspace provides support for
+specific software and server configurations on Windows&reg; cloud servers
 with Managed Operations support.
 
 ### Operating systems
 
 The Managed Operations spheres of support include the following
-operating systems for Windows cloud servers:
+operating systems for all Windows cloud servers:
 
 - [Windows Server 2008 with Service Pack
  R2](http://technet.microsoft.com/library/dd349801)
 
 - [Windows Server 2012 with Service Pack
  R2](http://technet.microsoft.com/en-US/windowsserver/hh534429)
+ 
+For OnMetal Windows cloud servers, the Managed Operations spheres of support also includes the following
+operating system:
 
-**Note:** Detailed information about Linux support is located in [Linux Spheres of Support for Dedicated and Managed Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
+- [Windows Server 2016](https://docs.microsoft.com/en-us/windows-server/windows-server)
 
-### Web Servers
+**Note:** Detailed information about Linux&reg; support is located in [Linux Spheres of Support for Dedicated and Managed Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
 
-The Managed Operations service level supports the following types of web servers.
+### Web servers
+
+The Managed Operations service level supports the following types of web servers:
 
 #### IIS 7, 7.5
 
@@ -61,7 +66,7 @@ The Managed Operations service level supports the following types of database se
 | [SQL Server 2014 (Standard and Web Edition)](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [MySQL](http://www.mysql.com/why-mysql/windows/) | **Yes** | No | No | **Yes** | No |
 
-**Note:** Rackspace does not support SQL Server Express 2008, 2012, and 2014.
+**Note:** Rackspace does not support Microsoft&reg; SQL Server&reg; Express 2008, 2012, and 2014.
 
 ### Programming languages
 
@@ -106,11 +111,11 @@ Active Directory (AD) is not currently supported. Reach out to [Rackspace suppor
 ### Other packages
 
 Although we don't support all technologies, we do offer reasonable-endeavor
-support which extends our support into offering alternative solutions.
+support, which extends our support into offering alternative solutions.
 Reasonable-endeavor support can include help from Rackspace partners and other
-third party services.
+third-party services.
 
--   **Load Balancing:** Support is provided through the use of Cloud
+-   **Load balancing:** Support is provided through the use of Cloud
     Load Balancers.
 
 -   **DNS:** The use of the Rackspace Cloud name servers for DNS
@@ -128,8 +133,8 @@ third party services.
 ### End-of-life support dates
 
 Rackspace makes every effort to align our support dates for operating
-systems with the manufacturer's support dates. The end-of-life support
-dates listed are provided by the manufacturer and are subject to change.
+systems with the manufacturer's support dates. The following end-of-life
+support dates are provided by the manufacturer and are subject to change.
 If the manufacturer decides to shorten the support life of an
 operating system, Rackspace might be forced to end support sooner than the
 published date.

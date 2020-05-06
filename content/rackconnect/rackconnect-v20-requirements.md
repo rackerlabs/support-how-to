@@ -1,11 +1,11 @@
 ---
 permalink: rackconnect-v20-requirements/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v2.0 requirements
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2015-12-31'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
@@ -65,9 +65,6 @@ device to the cloud. RackConnect automation keeps your dedicated
 configuration and cloud servers secure.
 
 <img src="{% asset_path rackconnect/rackconnect-v20-requirements/With.RC_.png %}" width="320" height="218" />
-
-If you have any questions, reach out to us. Our contact
-information is available on the [Contact Us](/how-to/support) page.
 
 ### Next step
 
