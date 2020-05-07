@@ -5,58 +5,52 @@ title: AIOps alert monitoring
 type: article
 created_date: '2020-03-23'
 created_by: JP Gonzalez
-last_modified_date: '2020-04-10'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-05-06'
+last_modified_by: Alex Juarez
 product: undefined
 product_url: undefined
 ---
 
-This article outlines the Rackspace **Fanatical Experience®** for network and
-server configurations for virtual and physical machines that run a
-supported operating system. The article presents a high-level overview of
-changes to Rackspace alert monitoring offerings. Contact Rackspace Sales
-or your account representative for more information regarding the components
-of specific features that Rackspace supports in our offerings.
+To improve upon your **Fanatical Experience®**, Rackspace is integrating AIOps and event correlation into our ticketing, monitoring, and alert notification system.
+
+This article offers a high-level overview of how AIOps and event correlation improves upon the Rackspace monitoring and alert notification system and highlights what changes you can expect to see.
+
+Contact Rackspace Sales or your account representative for more information regarding AIOps or other features Rackspace supports.
+
+### What is AIOps?
+
+AIOps stands for Artificial Intelligence for IT Operations. It is the practice of using automation to enhance IT operations through analytics and machine learning (ML).
+
+At Rackspace, this means we are using deterministic alert clustering algorithms based on the relationships between alerts to group one or more related alerts into Situations.
 
 ### What is changing
 
-Rackspace has been hard at work to bring you AIOps-powered improvements
-to its event processing system. These improvements, now ready for
-production, bring the value of event correlation to Rackspace’s
-monitoring system.
+As a Rackspace customer, you can expect to see a reduction in the number of tickets you receive when a single event triggers multiple alerts.
 
-The new improvements provide the following additional features to Rackspace’s
-monitoring system:
+For example, if a disk is full and causes your database and your website to stop responding, this could potentially generate three separate tickets.
 
-- Identification of whether an alert is isolated to a single device
-	or multiple devices
-- Improved alert routing to the Rackspace team best suited to
-	provide support
-- Enhanced alert reporting via *situation* notices, which
-	aggregate related alerts into a single notification
+With AIOps and event correlation, these three alerts would be combined into a single ticket and routed to a Racker who can quickly see all the alerts in one place.
 
-### Why
+To summarize, the new features provide the following improvements to Rackspace’s monitoring system:
 
-Rackspace constantly seeks to improve its event-processing system to
-reduce resolution time, decrease ticket noise, and create a better
-overall customer experience.
+- Identification of whether a situation is related to a single device or multiple devices.
+- Improved routing to the Rackspace team best suited to provide support
+- Enhanced alert reporting via *situation* notices, which aggregate related alerts into a single notification
 
-### What is AIOps
+### Why it is changing
 
-Rackspace is using deterministic clustering algorithms that create
-situations defined by the relationships between alerts. Situation creation
-is based on sets of filters, triggers, and other calculations such
-as priority ordering.
+Rackspace continually seeks to reduce resolution time, decrease ticket noise, and create a better overall customer experience.
+
+We believe adopting AIOps helps us meet these growing demands.
 
 ### Change details
 
-MyRackspace RNS notifications and alert tickets have the following charactistics:
+MyRackspace RNS notifications and alert tickets have the following characteristics:
 
 - Alerts are grouped into correlated situations.
 - A Rackspace support ticket is created for each situation.
 - Situations might contain one or more alerts.
-- Individual alerts notifications are sent to the Rackspace Notification
-  system along with each situation ticket created.
+- Individual alerts notifications are sent to the Rackspace Notification system along with each situation ticket created.
 
 ### Situation ticket information
 
