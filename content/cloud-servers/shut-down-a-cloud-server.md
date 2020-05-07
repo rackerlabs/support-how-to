@@ -13,9 +13,7 @@ product_url: cloud-servers
 
 Cloud Server pricing is based on the hours that the server uses resources on the
 host machine. Due to this billing model, shutting down a server is not enough to
-stop billing. You must delete the server to stop charges. You need to
-understand whether the server is in active service before deleting it. Shutting
-down the server is a good way to determine if it is in active use.
+stop billing. 
 
 To shut down a Linux&reg; server, run the following command at the command prompt:
 
@@ -34,8 +32,8 @@ or processes need the server.
 If you determine that the server is still needed, reboot the server by clicking the gear icon in
 the Cloud Control Panel and selecting **reboot**.
 
-If you plan to delete the server and want to retain data for possible future
-needs, create a [Cloud Server Image] (https://support.rackspace.com/how-to/creating-an-image-backup-cloning/)
+To retain data for possible future needs, create a 
+[Cloud Server Image] (https://support.rackspace.com/how-to/creating-an-image-backup-cloning/)
 for Standard and General Purpose server flavors.
 
 For boot-from-volume servers, and servers where only specific files need to be
