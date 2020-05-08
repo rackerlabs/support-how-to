@@ -45,23 +45,43 @@ We believe adopting AIOps helps us meet these growing demands.
 
 ### Change details
 
-MyRackspace RNS notifications and alert tickets have the following characteristics:
+MyRackspace RNS notifications and Situation tickets have the following characteristics:
 
 - Alerts are grouped into correlated situations.
 - A Rackspace support ticket is created for each situation.
-- Situations might contain one or more alerts.
-- Individual alerts notifications are sent to the Rackspace Notification system along with each situation ticket created.
+- Situations might contain one or more alerts
+- Situation tickets will be updated if new alerts come in after the initial alert
+- The subject of a ticket contains the Device and Alert count
+- Individual alert notifications are sent to the Rackspace Notification system (RNS)
+- In the situation ticket a link will be provided to related notifications
 
 ### Situation ticket information
 
-When an alert is triggered, a Situation ticket is created. This Situation ticket
-can contain one or more related alerts depending on the grouping logic.
+A Situation ticket is created when an alert is triggered.
+
+This Situation ticket will contain one or more alerts from one or more devices, depending on the grouping logic.
+
+What is new is that Situation tickets are not static. They are updated whenever the severity, subject, number of devices, or number of alerts changes.
 
 ### Sample situation ticket
+
+In this section we will cover
+
+1. How to identify a Situation ticket in the MyRackspace portal
+2. How to identify how many devices and alerts associated with a situation
+3. How to identify the information in a Situation ticket
+
+#### Identify a Situation ticket
 
 In the MyRackspace portal, situation tickets will start the with SITUATION followed by a description of the grouping.
 
 <img src="https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
+
+#### Identify how many devices and alerts associated with a situation
+
+TODO: Need Image for Subject Line
+
+#### Identify the information in a Situation ticket
 
 In the situation ticket all of the correlated alerts will be listed under CLUSTERED ALERTS:
 
