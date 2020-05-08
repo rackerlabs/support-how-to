@@ -1,7 +1,7 @@
 ---
 permalink: windows-low-memory-diagnostics/
 audit_date: '2020-05-08'
-title: 'Windows low-memory diagnostica'
+title: 'Windows low-memory diagnostics'
 type: article
 created_date: '2020-05-06'
 created_by: Steven Mondragon-DeVoss
