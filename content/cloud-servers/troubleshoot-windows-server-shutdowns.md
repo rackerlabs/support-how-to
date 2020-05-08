@@ -51,6 +51,6 @@ You can use the timestamp to correlate other events and identify the root cause 
 
 Refer to the following articles for additional help:
 
-https://answers.microsoft.com/en-us/windows/forum/windows_7-performance/how-can-you-find-the-cause-of-unexpected-shutdown/54cf6947-0cc2-4719-ab47-9f9cb989de8f
+[How can you find the cause of unexpected shutdown after you put your computer to sleep?](https://answers.microsoft.com/en-us/windows/forum/windows_7-performance/how-can-you-find-the-cause-of-unexpected-shutdown/54cf6947-0cc2-4719-ab47-9f9cb989de8f)
 
-https://support.microsoft.com/en-us/help/326564/event-id-6008-is-unexpectedly-logged-to-the-system-event-log-after-you
+[Event ID 6008 is unexpectedly logged to the System event log after you shut down and restart your computer](https://support.microsoft.com/en-us/help/326564/event-id-6008-is-unexpectedly-logged-to-the-system-event-log-after-you)
