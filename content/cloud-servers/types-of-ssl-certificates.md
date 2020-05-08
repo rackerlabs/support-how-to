@@ -80,4 +80,5 @@ A multi-domain or Subject Alternative Name (SAN) certificate provides the most f
 Refer to the following articles for more information:
 
 [How to generate a CSR](https://support.rackspace.com/how-to/generate-a-csr/)
+
 [Purchasing an SSL certificate through Rackspace](https://support.rackspace.com/how-to/rackspace-ssl-certificates/)
