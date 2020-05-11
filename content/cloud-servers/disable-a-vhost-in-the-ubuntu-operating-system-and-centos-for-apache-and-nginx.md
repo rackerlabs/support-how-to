@@ -24,15 +24,15 @@ an SSL-enabled vhost or server block that uses port 444. The steps are the same.
 
 ### Ubuntu operating system and Apache
 
-Let’s start with the easiest. Ubuntu comes with two commands specifically for managing vhosts in Apache.
+Let’s start with the easiest. Ubuntu&reg; comes with two commands specifically for managing vhosts in Apache&reg;.
 To enable a vhost, use the following command:
 
     sudo a2ensite /etc/apache2/sites-available/domain.com.conf
 
-When you understand what that collection of letters and a number mean, `a2ensite`, then it's easier to
+When you understand what that collection of letters and a number mean in `a2ensite`, then it's easier to
 remember how to enable or disable an Apache vhost in Ubuntu.
 
-Breakdown and explanation of the command:
+Here's the breakdown of the command:
 
 - **a2**: apache2 (what Ubuntu calls Apache)
 - **en**: enable
@@ -73,7 +73,7 @@ stopping the original service. Typically, you want to reload rather than restart
 
 ### Ubuntu operating system and Nginx
 
-Disabling an Nginx server block (what Nginx calls vhosts) is a little different. Nginx uses symlinks to
+Disabling an Nginx&reg; server block (what Nginx calls vhosts) is a little different. Nginx uses symlinks to
 enable or disable server blocks. Apache vhosts can use symlinks, too, but `a2ensite` and `a2dissite`
 don’t work for Nginx.
 
@@ -106,12 +106,12 @@ disrupt any other websites you have.
 
 **Note**: If you run `php-fpm`, you need to restart that service as well, by using the following command:
 
-service php-fpm restart
+    service php-fpm restart
 
 ### CentOS and Apache
 
-Disabling a virtual host in Apache in CentOS is more complicated because CentOS doesn’t have an easy command
-to use. In CentOS, you need to comment out the vhost you want to disable manually.
+Disabling a virtual host in Apache in CentOS&reg; is more complicated because CentOS doesn’t have an easy command
+to use. In CentOS, you manually need to comment out the vhost you want to disable.
 
 Here is an example of a **domain.com** vhost for Apache in CentOS:
 
@@ -125,7 +125,7 @@ Find this virtual host by using the following command:
 
     httpd -S | grep domain.com
 
-The output shows the location of the virtual host, similar to the following output:
+The output shows the location of the virtual host, which is similar to the following output:
 
     /etc/httpd/vhost.d/domain.com.conf
 
@@ -188,7 +188,7 @@ As before, if you have the option, use `reload` rather than `restart`.
 
 ### CentOS and Nginx
 
-Nginx refers to vhosts as server blocks. Use the same process of commenting out server blocks for Nginx 
+Nginx refers to vhosts as server blocks. Use the same process for commenting out server blocks for Nginx 
 in CentOS that you used for Apache.
 
 First, however, we need to find the server block that we want to disable. You do so with the following command:
@@ -207,7 +207,7 @@ or
 
     sudo nano /etc/nginx/conf.d/domain.com.conf
 
-The file looks similar to the following sample:
+The file looks similar to the following example:
 
     server {
 	listen 80;
