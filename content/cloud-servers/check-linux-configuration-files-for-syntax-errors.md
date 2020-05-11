@@ -14,7 +14,7 @@ product_url: cloud-servers
 This article describes how to check the Linux&reg; configuration for Secure Shell (SSH), Apache&reg;, and
 Nginx&reg;, which helps you to troubleshoot errors. For example, you might make a change
 to a configuration file and introduce a syntax error. As a result, when you restart or reload the service, it
-shows an error and fails to restart, resulting in downtime.
+shows an error and fails to restart, which results in downtime.
 
 ### SSH
 
@@ -32,9 +32,9 @@ If there are no errors, nothing displays when you run the command.
 ### Apache
 
 The syntax check command checks the default Apache configuration file and any virtual hosts (vhosts) that you
-have configured on the server. To check the syntax, run `httpd -t` or `apache2ctl -t` for the Ubuntu operating
-system and Debian. If there is an error with the syntax check, the error message displays similarly to the 
-following sample:
+have configured on the server. To check the syntax, run `httpd -t` or `apache2ctl -t` for the Ubuntu&reg; operating
+system and Debian&reg;. If there is an error with the syntax check, the error message displays output similar to the 
+following example:
 
     # httpd -t
 
@@ -49,7 +49,7 @@ check still shows `Syntax OK` when the syntax for the default configuration file
 
 Nginx syntax checks behave differently than Apache. To check the syntax of the default Nginx configuration,
 run the command `nginx -t`. However, if you want to check the syntax of a specific server block, you need
-to add the `-c` flag and specify the path to the server block as shown in the following sample:
+to add the `-c` flag and specify the path to the server block as shown in the following example:
 
     [root@localhost ~]# nginx -t
     nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
