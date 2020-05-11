@@ -13,23 +13,24 @@ product_url: cloud-servers
 
 ### Overview
 
-Microsoft&reg; Windows&reg; servers might shutdown as the result of a user action or a system event. You
+Microsoft&reg; Windows&reg; servers might shut down as the result of a user action or a system event. You
 can identify the cause by searching the **Event Viewer** for the following associated Event IDs located
 in the **System Event Viewer** logs:
 
 - **Event ID 41**: The system rebooted without cleanly shutting down first. This error occurs when the
   system stopped responding, crashed, or lost power unexpectedly.
-- **Event ID 1074**: Logged when an app (such as **Windows Update**) causes the system to restart, or when a
-  user initiates a restart or shutdown.
-- **Event ID 6006**: Logged as a clean shutdown. It gives the message, "The Event log service was stopped".
+- **Event ID 1074**: Logged when an app (such as **Windows Update**) causes the system
+  to restart, or when a user initiates a restart or shutdown.
+- **Event ID 6006**: Logged as a clean shutdown. It gives the message, "The Event log service was stopped."
 - **Event ID 6008**: Logged as a dirty shutdown. It gives the message, "The previous system shutdown at
-  time on date was unexpected".
+  time on date was unexpected."
 
 ### Search for shutdown events in the Event Viewer 
 
 Use the following steps to open the **Event Viewer**:
 
-1. Press the Windows **Start** button + the **R** key to open the **Run** dialog. 
+1. Press the Windows **Start** button and the **R** key at the same time to open the
+   **Run** dialog. 
 
 2. Type `eventvwr` and press **Enter**.
 
@@ -40,7 +41,7 @@ Use the following steps to search for shutdown events in the **Event Viewer**:
 
 1. Expand the **Windows Folder** and right-click the **System** log.
 
-2. Select **Filter Current Log...**.
+2. Select **Filter Current Log**.
 
 3. Enter `41, 1074, 6006, 6008` in the search field to search all four shutdown conditions
    and press **Enter**. 
