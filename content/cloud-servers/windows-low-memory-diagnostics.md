@@ -11,11 +11,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-*This article is applicable to the following Microsoft&reg; Windows&reg; Server versions: 2008, 2012,
-2012 R2, 2016, 2019*
+*This article applies to the following Microsoft&reg; Windows Server&reg; versions: 2008, 2012,
+2012 R2, 2016, and 2019.*
 
-Servers have two types of memory: random access memory (RAM) and virtual memory. All programs use RAM,
-but when programs don't have enough RAM to run, Windows temporarily moves information normally stored
+Servers have two types of memory: random access memory (RAM) and virtual memory. All programs use RAM.
+But when programs don't have enough RAM to run, Windows&reg; temporarily moves information normally stored
 in RAM to a file on your hard disk called a paging file. This temporary data storage in a paging file is
 known as virtual memory. 
 
@@ -30,7 +30,7 @@ run correctly. Low-memory problems can occur under the following conditions:
 
 ### Determining memory usage
 
-You can use the following PowerShell script to determine current memory usage:
+You can use the following PowerShell&reg; script to determine current memory usage:
 
     $ln="--------------------";
     $sp="       ";
@@ -49,7 +49,7 @@ You can use the following PowerShell script to determine current memory usage:
     echo "`n$ln$ln`nCurrent $M Utilization:`n$ln$ln`nPhysical $M ($TP GB)`nAvailable: $FP GB`n % in use: $PP`%`n`nVirtual $M   ($TV GB)`nAvailable: $FV GB`n % in use: $PV`%`n`n$ln$ln$ln$ln`nImage Name$sp$sp$sp`PID Session Name$sp Session#    Mem Usage`n$ln$ln$ln$ln";
     cmd /C "tasklist /NH /FI "MEMUSAGE gt 100000"|sort /R /+64";echo "$ln$ln$ln$ln";
 
-The output should be similar to the information found in Task Manager:
+The output should be similar to the following information found in Task Manager:
 
     ----------------------------------------
     Current Memory Utilization:
@@ -73,12 +73,12 @@ The output should be similar to the information found in Task Manager:
     "service5"     12928 Console                    2      228,096 K
     -----------------------------------------------------------------
 
-After you determine the top process using memory, you can then investigate any issues with the service.
+After you determine the top process that is using memory, you can then investigate any issues with the service.
 You might need to restart the service or the server.
 
 The following services can cause high memory usage:
 
-- MSSQL
-- IIS worker processes (w3wp)
-- CommVault
-- Sophos
+- Microsoft SQL Server&reg;
+- Internet Information Services (IIS) worker processes (w3wp)
+- CommVault&reg;
+- Sophos&reg;
