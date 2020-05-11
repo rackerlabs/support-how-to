@@ -11,10 +11,10 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-*This article applies to the following Microsoft&reg; Windows&reg; Server versions: 2008, 2012, 2016, 2019*
+*This article applies to the following Microsoft&reg; Windows Server&reg; versions: 2008, 2012, 2016, and 2019.*
 
-You can use the Windows Resource Monitor tool, similar to the Task Manager, to analyze server
-performance such as program, application, network connection, and memory usage. It provides
+You can use the Windows&reg; Resource Monitor tool, which is similar to the Task Manager, to analyze server
+performance, such as program, application, network connection, and memory usage. It provides
 performance monitoring data combined with Windows event tracing data to allow for more in-depth
 troubleshooting of issues than the Task Manager provides in real time. 
 
@@ -33,28 +33,28 @@ Launch the Resource Monitor by using one of the following methods:
 
 ### Initial view
 
-The Resource Monitor opens with an Overview (default), CPU, Memory, Disk, and Network tabs. To the right
+The Resource Monitor opens with **Overview** (default), **CPU**, **Memory**, **Disk**, and **Network** tabs. To the right
 of the tabs, you see graphs of each resource in action in real time. The tabs include the following information:
 
-* Overview tab
+* **Overview** tab
     * CPU
     * Disk
     * Network
     * Memory
-* CPU tab
+* **CPU** tab
     * Processes
     * Services
-    * Associated Handles
-    * Associated Modules
-* Memory tab
+    * Associated handles
+    * Associated modules
+* **Memory** tab
     * Processes
-    * Physical Memory
-* Disk tab
-    * Processes with Disk Activity
-    * Disk Activity
+    * Physical memory
+* **Disk** tab
+    * Processes with disk activity
+    * Disk activity
     * Storage
-* Network tab
-    * Processes with Network Activity
+* **Network** tab
+    * Processes with network activity
     * Network Activity
     * TCP Connections
     * Listening Ports
