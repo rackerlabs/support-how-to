@@ -42,7 +42,7 @@ To disable your website, use the `a2dissite` command, as shown in the following 
 
     sudo a2dissite /etc/apache2/sites-enabled/domain.com.conf
 
-Like the enable command, this command has the following components:
+This command has the following components:
 
 - **a2**: apache2 (what Ubuntu calls Apache)
 - **dis**: disable
@@ -77,7 +77,7 @@ Disabling an Nginx server block (what Nginx calls vhosts) is a little different.
 enable or disable server blocks. Apache vhosts can use symlinks, too, but `a2ensite` and `a2dissite`
 don’t work for Nginx.
 
-In order to disable a server block in Nginx in Ubuntu, you need remove the symlink between **sites-enabled**
+To disable a server block in Nginx in Ubuntu, you need to remove the symlink between **sites-enabled**
 and **sites-available**, as shown in the following example:
 
     sudo rm /etc/nginx/sites-enabled/domain.com.conf
@@ -104,14 +104,14 @@ or
 As before, whenever you have the option to do so, use `reload` rather than `restart` so that you don't
 disrupt any other websites you have.
 
-**Note**: If you run `php-fpm`, you need to restart thatservice as well, by using the following command:
+**Note**: If you run `php-fpm`, you need to restart that service as well, by using the following command:
 
 service php-fpm restart
 
 ### CentOS and Apache
 
-Disabling a virtual host in Apache in CentOS is more complex because CentOS doesn’t have an easy command
-to use. In CentOS, you need to manually comment out the vhost you want to disable.
+Disabling a virtual host in Apache in CentOS is more complicated because CentOS doesn’t have an easy command
+to use. In CentOS, you need to comment out the vhost you want to disable manually.
 
 Here is an example of a **domain.com** vhost for Apache in CentOS:
 
@@ -150,7 +150,7 @@ are using `vim`, enter **Insert** mode first. Your vhost configuration should no
     #   DocumentRoot /var/www/vhosts/domain.com/public
     #</VirtualHost>
 
-Save the file, and exit the text editor.
+Save the file and exit the text editor.
 
 Now, you need to check the Apache syntax with the following command:
 
@@ -195,7 +195,7 @@ First, however, we need to find the server block that we want to disable. You do
 
     nginx -T | grep domain.com
 
-Again, look for a pathway ending in **.conf** for your domain. It look similar to the following example:
+Again, look for a pathway ending in **.conf** for your domain. It looks similar to the following example:
 
     /etc/nginx/conf.d/domain.com.conf
 
@@ -253,7 +253,7 @@ mode first. Your server block should look like this:
 
 Save the file and quit the text editor.
 
-Now, check the Nginx syntax with following command:
+Now, check the Nginx syntax with the following command:
 
     nginx -t
 
