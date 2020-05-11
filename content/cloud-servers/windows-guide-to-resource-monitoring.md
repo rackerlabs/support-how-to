@@ -1,7 +1,7 @@
 ---
-permalink: windows-guide-to-resource-monitoring/
+permalink: guide-to-windows-resource-monitoring/
 audit_date: '2020-05-11'
-title: 'Windows guide to resource monitoring'
+title: 'Guide to Windows resource monitoring'
 type: article
 created_date: '2020-05-06'
 created_by: Steven Mondragon-DeVoss
