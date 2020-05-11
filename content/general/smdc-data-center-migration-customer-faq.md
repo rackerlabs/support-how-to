@@ -16,13 +16,13 @@ noindex: true
 
 In 2017, Rackspace completed its acquisition of TriCore, which increased the
 Rackspace data center footprint across the globe. In some regions, including
-Somerset, Massachusetts, this expansion resulted in multiple locations within
+Somerville, Massachusetts, this expansion resulted in multiple locations within
 a small geographical area. Rackspace leaders identified the data
 centers that offer the most reliability, high availability, and efficiency while
 providing our customers access to the full range of Rackspace products and
 services.
 
-Because of previous outages at the Somerset, Massachusetts data center (SMDC)
+Because of previous outages at the Somerville, Massachusetts data center (SMDC)
 facility, as well as limited capacity
 and aging infrastructure, Rackspace plans to exit the SMDC facility. We will
 migrate your hosted environment from SMDC to the Rackspace IAD3 data center in
