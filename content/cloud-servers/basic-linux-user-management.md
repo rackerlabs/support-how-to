@@ -68,7 +68,7 @@ user account.
 Locking a user changes the user's password to an unreadable string, which prevents the user from 
 logging in by using password authentication. Use the following command to lock a Linux user account:
 
-       usermod -L <user>
+       passwd -l <user>
 
 You can verify the user was successfully locked by using the following command: 
 
@@ -80,7 +80,7 @@ If the user was successfully locked, the following message displays:
 
 If you need to unlock the user, use the following command:
 
-     usermod -U <user>
+     passwd -u <user>
 
 You can verify the user is unlocked with the following command:
 

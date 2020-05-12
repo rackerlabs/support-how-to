@@ -1,11 +1,11 @@
 ---
-permalink: delete-a-cloud-server/
-audit_date: '2018-10-26'
-title: Delete a Cloud Server
+permalink: shut-down-a-cloud-server/
+audit_date: '2020-05-06'
+title: Shut down a Cloud Server
 type: article
 created_date: ‘2018-09-05'
 created_by: Shaun Crumpler
-last_modified_date: '2018-10-26'
+last_modified_date: '2020-05-06'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -13,9 +13,7 @@ product_url: cloud-servers
 
 Cloud Server pricing is based on the hours that the server uses resources on the
 host machine. Due to this billing model, shutting down a server is not enough to
-stop billing. You must delete the server to stop charges. Therefore, you should
-understand whether the server is in active service before deleting it. Shutting
-down the server is a good way to determine if it is in active use.
+stop billing. 
 
 To shut down a Linux&reg; server, run the following command at the command prompt:
 
@@ -31,12 +29,11 @@ to the server are accepted during the shutdown. After the shutdown completes,
 you can determine whether the server is needed by noting whether the any users
 or processes need the server.
 
-If you determine that the server is still needed or you need to backup data
-before you delete the server, reboot the server by clicking the gear icon in
+If you determine that the server is still needed, reboot the server by clicking the gear icon in
 the Cloud Control Panel and selecting **reboot**.
 
-If you plan to delete the server and want to retain data for possible future
-needs, create a [Cloud Server Image] (https://support.rackspace.com/how-to/creating-an-image-backup-cloning/)
+To retain data for possible future needs, create a 
+[Cloud Server Image] (https://support.rackspace.com/how-to/creating-an-image-backup-cloning/)
 for Standard and General Purpose server flavors.
 
 For boot-from-volume servers, and servers where only specific files need to be
@@ -45,19 +42,4 @@ saved, use [Cloud Backup] (https://support.rackspace.com/how-to/rackspace-cloud-
 Both Cloud Server images and Cloud Backups are stored in Cloud Files with
 associated storage costs, but for individuals who want to minimize their costs,
 these two options are likely much cheaper than a running an idle server.
-
-**Warning:** Deleting a server also deletes all of the data on the server, a
-process that cannot be reversed. So it is important to take the time complete
-the previously described back up options first.
-
-After you have backed up the data, perform the following actions:
-
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
-
-2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
-
-3. Select **Servers > Cloud Servers**.
-
-4. Click the cog next to the server name, and click **Delete Server** to delete
-   the server and stop the billing for the instance.
 
