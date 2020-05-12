@@ -63,6 +63,65 @@ This Situation ticket will contain one or more alerts from one or more devices, 
 
 What is new is that Situation tickets are not static. They are updated whenever the severity, subject, number of devices, or number of alerts changes.
 
+Starting out there are three major situation groupings
+
+* Device Level - Alerts from a single device
+* Multidevice Level - Alerts from multiple devices
+* Account Level - Alerts from a Custom Monitor
+
+The ticket subject will display different situation names based on the type of grouping. In the table below we see some examples of what you will see in the subject of the ticket and what it means about the grouping of the alerts.
+
+<table>
+<tr>
+<th>Grouping</th>
+<th>Situation / Ticket Subject</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Device Level</td>
+<td>Alerts with similar names / descriptions</td>
+<td>Alerts from the same device with similar names or descriptions are grouped together. Some examples of this could be multiple low-disk space alerts or SQL job failures.</td>
+</tr>
+
+<tr>
+<td>Device Level</td>
+<td>Alerts with the same classification</td>
+<td>Alerts from the same device that are of the same type. Some examples of this could be Base OS Service Failed.</td>
+</tr>
+
+<tr>
+<td>Device or Multi-device</td>
+<td>URL-Port-Ping failures and connected device alerts</td>
+<td>This situation contains alerts from one or more devices due to inaccessible URLs, ports (22, 3306, etc) or unresponsive to pings.</td>
+</tr>
+
+<tr>
+<td>Multi-device</td>
+<td>Situation for associated devices</td>
+<td>Tickets with this subject indicate that the situation contains similar alerts from multiple devices.</td>
+</tr>
+
+<tr>
+<td>Multi-device</td>
+<td>Situation for clustered device</td>
+<td>Groups alerts together with common cluster devices.</td>
+</tr>
+
+<tr>
+<td>Account Level</td>
+<td>Situation for generic alerts per tenant</td>
+<td>The monitoring agent labels some alerts as "generic". These alerts are grouped together and details about the individual alerts are in listed in the ticket.</td>
+</tr>
+
+<tr>
+<td>Account Level</td>
+<td>Situation for custom monitor alerts or monitoring device per tenant</td>
+<td>Customized monitors generate alerts based on a specific criteria. Alerts from these monitors are grouped together into a single situation.</td>
+</tr>
+
+</table>
+
+
 ### Sample situation ticket
 
 In this section we will cover
@@ -78,8 +137,9 @@ In the MyRackspace portal, situation tickets will start the with SITUATION follo
 <img src="https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
 
 #### Identify how many devices and alerts associated with a situation
+In the subject of the ticket there will be a device and alert count to quickly see the scope of the situation.
 
-TODO: Need Image for Subject Line
+<img src="https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/device-alert-count.png" height="25px"/>
 
 #### Identify the information in a Situation ticket
 
