@@ -26,7 +26,7 @@ tool `diskpart`. Keep in mind that you need administrator permissions to perform
 #### Extending by using `diskpart`
 
 To extend a volume by using the `diskpart` command-line tool, use the following steps. The code uses
-the `C:\` drive (disk 0) as an example.
+the `C:\` drive (`disk 0`) as an example.
 
 1. To open the command-line prompt, click the **Start** button and type **cmd**.
 
