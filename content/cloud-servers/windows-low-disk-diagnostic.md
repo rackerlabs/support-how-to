@@ -1,7 +1,7 @@
 ---
 permalink: windows-low-disk-diagnostic/
 audit_date:  '2020-05-12'
-title: 'Windows low-disk-diagnostic'
+title: 'Windows low-disk diagnostics'
 type: article
 created_date: '2020-05-11'
 created_by: Derek Benson
@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 ### Check your current disk usage with PowerShell
 
-When you diagnose low-disk space on Windows Server&reg;, start by verifying the current usage on your
+When you diagnose low-disk space on a Windows&reg; server, start by verifying the current usage on your
 disks by using PowerShell. Use the following command to pull the current disk utilization for all disks
 on the server:
 
@@ -29,7 +29,7 @@ on the server:
 ### Check the top 15 folders by volume
 
 After you determine which volumes are low on disk space, run the following script to determine the top
-folders by disk usage so that you can determine where space can be cleared:
+folders by disk usage so that you can determine where you can clear space:
 
 
     cd \
@@ -68,13 +68,13 @@ folders by disk usage so that you can determine where space can be cleared:
         return $formattedOutput;
     } Get-LowDisk 15 ;
 
-After you run the script, a message prompts you to "Input path to traverse". Type in the drive letter 
-that you found by using the previous script and press enter to proceed. 
+After you run the script, a message prompts you to **Input path to traverse**. Type in the drive letter 
+that you found by using the previous script and press **Enter** to proceed. 
 
-Keep in mind that this can take a while depending on the number of files and folders on the disk. After
-the results are returned, check the folders listed to see if there are any files that are no longer
+Keep in mind that this process can take a while depending on the number of files and folders on the disk. After
+the script returns the results, check the folders listed to see if there are any files that are no longer
 needed. Delete those files to free up disk space.
 
-**Warning:** Make sure to only delete files or folders that you are familiar with. If you delete unknown files or
-folders, you might loose important system or software. This lose could cause the server or software to become
-non-functional.
+**Warning:** Make sure to delete only files or folders that you are familiar with. If you delete unknown files or
+folders, you might lose important system files or software. This loss could cause the server or software to become
+nonfunctional.
