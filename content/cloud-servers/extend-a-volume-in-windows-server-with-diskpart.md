@@ -1,3 +1,4 @@
+---
 permalink: extend-a-volume-in-windows-server-with-diskpart/
 audit_date:  '2020-05-12’
 title: ‘Extend a volume in Windows Server with diskpart’
@@ -8,8 +9,9 @@ last_modified_date: '2020-05-12’
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
+---
 
-This article describes how to extend a volume in Windows Server&reg; 2008 R2, 2012 R2
+This article describes how to extend a volume in Windows Server&reg; 2008 R2, 2012 R2,
 and 2016 with `diskpart`. It also explains the difference between extending and shrinking
 or partitioning a volume.
 
@@ -18,12 +20,12 @@ or partitioning a volume.
 Extending a volume increases the size of an already existing partition. You can do this only if
 unallocated space is available.
 
-To extend a volume, you can either use the built-in *disk management* tool or the command line
+To extend a volume, you can either use the built-in *disk management* tool or the command-line
 tool `diskpart`. Keep in mind that you need administrator permissions to perform these tasks.
 
 #### Extending by using `diskpart`
 
-To extend a volume using the `diskpart` command-line tool, use the following steps. The code uses
+To extend a volume by using the `diskpart` command-line tool, use the following steps. The code uses
 the `C:\` drive as an example.
 
 1. To open the command-line prompt, click the **Start** button and type **cmd**.
@@ -40,7 +42,7 @@ the `C:\` drive as an example.
 
 7. To extend the volume to the maximum available size, enter **extend**.
 
-   You can  specify the amount of space to add to the volume in megabytes, by typing
+   You can specify the amount of space to add to the volume in megabytes by typing
    **extend size=1000**, which adds 1000 MB to the existing volume.
 
 8.	To verify the new volume size, enter **list vol**.
