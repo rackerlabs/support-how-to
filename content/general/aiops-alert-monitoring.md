@@ -51,9 +51,7 @@ MyRackspace RNS notifications and Situation tickets have the following character
 - A Rackspace support ticket is created for each situation.
 - Situations might contain one or more alerts
 - Situation tickets will be updated if new alerts come in after the initial alert
-- The subject of a ticket contains the Device and Alert count
 - Individual alert notifications are sent to the Rackspace Notification system (RNS)
-- In the situation ticket a link will be provided to related notifications
 
 ### Situation ticket information
 
@@ -66,7 +64,7 @@ What is new is that Situation tickets are not static. They are updated whenever 
 Starting out there are three major situation groupings
 
 * Device Level - Alerts from a single device
-* Multidevice Level - Alerts from multiple devices
+* Multi-device Level - Alerts from multiple devices
 * Account Level - Alerts from a Custom Monitor
 
 The ticket subject will display different situation names based on the type of grouping. In the table below we see some examples of what you will see in the subject of the ticket and what it means about the grouping of the alerts.
@@ -135,11 +133,6 @@ In this section we will cover
 In the MyRackspace portal, situation tickets will start the with SITUATION followed by a description of the grouping.
 
 <img src="https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
-
-#### Identify how many devices and alerts associated with a situation
-In the subject of the ticket there will be a device and alert count to quickly see the scope of the situation.
-
-<img src="https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/device-alert-count.png" height="25px"/>
 
 #### Identify the information in a Situation ticket
 
