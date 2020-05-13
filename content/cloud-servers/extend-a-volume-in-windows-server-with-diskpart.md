@@ -1,11 +1,11 @@
 ---
 permalink: extend-a-volume-in-windows-server-with-diskpart/
-audit_date:  '2020-05-12’
-title: ‘Extend a volume in Windows Server with diskpart’
+audit_date:  '2020-05-12'
+title: 'Extend a volume in Windows Server with diskpart'
 type: article
-created_date: '2020-05-10’
+created_date: '2020-05-10'
 created_by: Karoline Mills
-last_modified_date: '2020-05-12’
+last_modified_date: '2020-05-12'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
