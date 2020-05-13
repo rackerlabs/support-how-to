@@ -1,7 +1,7 @@
 ---
-permalink: linux-reboot-commands/
+permalink: linux-reboot-and-shutdown-commands/
 audit_date:
-title: Linux Reboot Commands
+title: Linux Reboot and Shutdown Commands
 type: article
 created_date: '2020-05-12'
 created_by: John Garcia
