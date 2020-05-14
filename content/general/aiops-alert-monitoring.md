@@ -11,63 +11,77 @@ product: undefined
 product_url: undefined
 ---
 
-To improve upon your **Fanatical Experience®**, Rackspace is integrating AIOps and event correlation into our ticketing, monitoring, and alert notification system.
+To improve your **Fanatical Experience®**, Rackspace integrated Artificial Intelligence
+for IT Operations (AIOps) and event correlation into our ticketing, monitoring, and alert
+notification system.
 
-This article offers a high-level overview of how AIOps and event correlation improves upon the Rackspace monitoring and alert notification system and highlights what changes you can expect to see.
+This article presents a high-level overview of how AIOps and event correlation improve on the
+Rackspace monitoring and alert notification system. It also highlights the changes you can expect
+to see.
 
-Contact Rackspace Sales or your account representative for more information regarding AIOps or other features Rackspace supports.
+Contact Rackspace Sales or your account representative for more information regarding AIOps or other
+features Rackspace supports.
 
 ### What is AIOps?
 
-AIOps stands for Artificial Intelligence for IT Operations. It is the practice of using automation to enhance IT operations through analytics and machine learning (ML).
+AIOps is the practice of using automation to enhance IT operations through analytics and machine
+learning (ML).
 
-At Rackspace, this means we are using deterministic alert clustering algorithms based on the relationships between alerts to group one or more related alerts into Situations.
+At Rackspace, we use deterministic alert clustering algorithms based on the relationships between alerts
+to group one or more related alerts into *situations*.
 
 ### What is changing
 
-As a Rackspace customer, you can expect to see a reduction in the number of tickets you receive when a single event triggers multiple alerts.
+As a Rackspace customer, you can expect to see a reduction in the number of tickets you receive when a
+single event triggers multiple alerts.
 
-For example, if a disk is full and causes your database and your website to stop responding, this could potentially generate three separate tickets.
+For example, when a disk is full, causing your database and your website to stop responding, the system
+could potentially generate three separate tickets.
 
-With AIOps and event correlation, these three alerts would be combined into a single ticket and routed to a Racker who can quickly see all the alerts in one place.
+With AIOps and event correlation, these three alerts are combined into a single ticket and routed to a
+Racker who can quickly see all the alerts in one place.
 
-To summarize, the new features provide the following improvements to Rackspace’s monitoring system:
+The new features provide the following improvements to Rackspace’s monitoring system:
 
-- Identification of whether a situation is related to a single device or multiple devices.
-- Improved routing to the Rackspace team best suited to provide support
-- Enhanced alert reporting via *situation* notices, which aggregate related alerts into a single notification
+- Determine if a situation is related to a single device or multiple devices.
+- Improve routing to the Rackspace team best suited to provide support.
+- Enhance alert reporting via *situation* notices, which aggregate related alerts into a single notification.
 
 ### Why it is changing
 
-Rackspace continually seeks to reduce resolution time, decrease ticket noise, and create a better overall customer experience.
+Rackspace continually seeks to reduce resolution time, decrease ticket noise, and create a better
+overall customer experience.
 
 We believe adopting AIOps helps us meet these growing demands.
 
 ### Change details
 
-MyRackspace RNS notifications and Situation tickets have the following characteristics:
+MyRackspace Rackspace Notification System (RNS) notifications and situation tickets have the
+following characteristics:
 
 - Alerts are grouped into correlated situations.
 - A Rackspace support ticket is created for each situation.
-- Situations might contain one or more alerts
-- Situation tickets will be updated if new alerts come in after the initial alert
-- Individual alert notifications are sent to the Rackspace Notification system (RNS)
+- Situations might contain one or more alerts.
+- Situation tickets are updated if new alerts come in after the initial alert.
+- Individual alert notifications are sent to the RNS.
 
 ### Situation ticket information
 
-A Situation ticket is created when an alert is triggered.
+The system creates a situation ticket when an alert occurs.
 
-This Situation ticket will contain one or more alerts from one or more devices, depending on the grouping logic.
+This situation ticket contains one or more alerts from one or more devices, depending on the grouping logic.
 
-What is new is that Situation tickets are not static. They are updated whenever the severity, subject, number of devices, or number of alerts changes.
+However, situation tickets are not static. The system updates situation tickets whenever the severity,
+subject, number of devices, or number of alerts changes.
 
-Starting out there are three major situation groupings
+Initially, the following major situation groupings exist:
 
-* Device Level - Alerts from a single device
-* Multi-device Level - Alerts from multiple devices
-* Account Level - Alerts from a Custom Monitor
+- **Device Level**: Alerts from a single device
+- **Multi-device Level**: Alerts from multiple devices
+- **Account Level**: Alerts from a custom monitor
 
-The ticket subject will display different situation names based on the type of grouping. In the table below we see some examples of what you will see in the subject of the ticket and what it means about the grouping of the alerts.
+The ticket subject displays different situation names based on the type of grouping. The following table
+shows some ticket subject and alert group samples:
 
 <table>
 <tr>
@@ -78,19 +92,19 @@ The ticket subject will display different situation names based on the type of g
 <tr>
 <td>Device Level</td>
 <td>Alerts with similar names / descriptions</td>
-<td>Alerts from the same device with similar names or descriptions are grouped together. Some examples of this could be multiple low-disk space alerts or SQL job failures.</td>
+<td>Alerts from the same device with similar names or descriptions are grouped together. Examples include multiple low-disk space alerts or SQL job failures.</td>
 </tr>
 
 <tr>
 <td>Device Level</td>
 <td>Alerts with the same classification</td>
-<td>Alerts from the same device that are of the same type. Some examples of this could be Base OS Service Failed.</td>
+<td>Alerts from the same device that are of the same type. An example is Base OS Service Failed.</td>
 </tr>
 
 <tr>
 <td>Device or Multi-device</td>
 <td>URL-Port-Ping failures and connected device alerts</td>
-<td>This situation contains alerts from one or more devices due to inaccessible URLs, ports (22, 3306, etc) or unresponsive to pings.</td>
+<td>This situation contains alerts from one or more devices due to inaccessible URLs, ports (22, 3306, and so on) or being unresponsive to pings.</td>
 </tr>
 
 <tr>
@@ -108,7 +122,7 @@ The ticket subject will display different situation names based on the type of g
 <tr>
 <td>Account Level</td>
 <td>Situation for generic alerts per tenant</td>
-<td>The monitoring agent labels some alerts as "generic". These alerts are grouped together and details about the individual alerts are in listed in the ticket.</td>
+<td>The monitoring agent labels some alerts as generic. These alerts are grouped together and details about the individual alerts are in listed in the ticket.</td>
 </tr>
 
 <tr>
@@ -119,31 +133,32 @@ The ticket subject will display different situation names based on the type of g
 
 </table>
 
+</br>
 
 ### Sample situation ticket
 
-In this section we will cover
+This section covers the following tasks:
 
-1. How to identify a Situation ticket in the MyRackspace portal
-2. How to identify how many devices and alerts associated with a situation
-3. How to identify the information in a Situation ticket
+- How to identify a Situation ticket in the MyRackspace portal.
+- How to identify the information in a Situation ticket.
 
-#### Identify a Situation ticket
+#### Identify a situation ticket
 
-In the MyRackspace portal, situation tickets will start the with SITUATION followed by a description of the grouping.
+In the MyRackspace portal, situation tickets start the with **SITUATION** followed by a description of the grouping.
 
 <img src="https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
 
-#### Identify the information in a Situation ticket
+#### Identify the information in a situation ticket
 
-In the situation ticket all of the correlated alerts will be listed under CLUSTERED ALERTS:
+In the situation ticket, all of the correlated alerts are listed under **CLUSTERED ALERTS**:
 
 <img src="https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-text.png" />
 
 ### RNS alert notification information
 
-Information about individual alerts is reported through the Rackspace Notification System (RNS). It is accessed by clicking on Notifications in the upper right-hand corner of the MyRackspace portal.
+The Rackspace Notification System (RNS) reports information about individual alerts. Access this information
+by clicking on **Notifications** in the upper right-hand corner of the MyRackspace portal.
 
-Following is a sample of an alert in the Rackspace Notification System (RNS)
+The following image shows a sample of an alert in the Rackspace Notification System (RNS):
 
 <img src="https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/RNS-Notifications.jpg" />
