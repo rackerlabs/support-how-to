@@ -133,7 +133,7 @@ shows some ticket subject and alert group samples:
 
 </table>
 
-</br>
+<br>
 
 ### Sample situation ticket
 
