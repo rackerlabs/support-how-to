@@ -15,9 +15,9 @@ Because many hackers know about the default Microsoft&reg; Windows&reg; `Adminis
 we recommend that you assign administrative rights to one or more other users and disable the
 `Administrator` user. Taking this step helps protect your server from attacks by bad actors.
 
-**WARNING:** Whether you disable the `Administrator` user by using the steps in this article
-or from the Cloud Control Panel, make sure at least one user with administrative rights
-remembers his or her password. Otherwise, you won't be able to regain full control of your server.
+**WARNING:** If you disable the `Administrator` user by using the steps in this article,
+make sure at least one user with administrative rights remembers his or her password. Otherwise,
+you won't be able to regain full control of your server.
 
 ### Disable the built-in administrator account or other users
 
