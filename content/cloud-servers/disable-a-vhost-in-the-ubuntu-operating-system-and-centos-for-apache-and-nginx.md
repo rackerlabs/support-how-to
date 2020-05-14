@@ -20,7 +20,7 @@ configuration file name.
 
 - This article uses vhosts or server blocks in some of the examples that use port 80 and are not
 Secure Sockets Layer (SSL). Note that these steps do not differ if your vhost or server block is
-an SSL-enabled vhost or server block that uses port 444. The steps are the same.
+an SSL-enabled vhost or server block that uses port 443. The steps are the same.
 
 ### Ubuntu operating system and Apache
 
