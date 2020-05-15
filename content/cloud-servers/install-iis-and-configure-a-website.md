@@ -15,12 +15,12 @@ This article shows you how to install the Internet Information Services (IIS) ro
 server. It also explains how to configure a website in IIS. The steps shown in this article are the same
 for Windows Server 2012 R2, Windows Server 2016 and Windows Server 2019.
 
-#### IIS
+### IIS
 
 IIS is a web server available for Windows operating systems. Use it to host websites, FTP sites and other
 applications on the internet. It offers a graphic user interface to configure and manage these services.
 
-#### Install the IIS role
+### Install the IIS role
 
 Use the following steps to install the IIS role on your Windows Server. Keep in mind that you need
 administrator permissions to perform these tasks.
