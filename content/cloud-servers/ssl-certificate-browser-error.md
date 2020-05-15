@@ -1,35 +1,55 @@
 ---
 permalink: ssl-certificate-browser-error/
-audit_date:
-title: 'SSL Certificate Browser Error'
+audit_date: '2020-05-15'
+title: 'SSL certificate browser error'
 type: article
 created_date: '2020-05-15'
 created_by: Dave Myers
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-05-15'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-## Security Certificate Errors:
+This article discusses Secure Sockets Layer (SSL) security certificates and errors.
 
-### Certificate Is Not Trusted in Web Browser Messages:
-Browsers has a built-in list of trusted certificate providers for the major Certificate Authorities. For some sites, the certificate provider is not on that list. If this is the case, the browser will warn you that the Certificate Authority (CA) who issued the certificate is not trusted. This issue can also occur if the site has a self-signed certificate. While this warning is fairly generic for Internet Explorer, Firefox will distinguish between a certificate issued by the server itself (a self-signed certificate) and another type of untrusted certificate.
-Different browsers will display this message differently. Below we will cover how **Internet Explorer** and **Firefox** displays this error.
+### Certificate types
 
-**Internet Explorer:** "The security certificate presented by this website was not issued by a trusted certificate authority."
+**Self-Signed Certificates**: Companies with private domains commonly use self-signed certificates to cut
+the cost of securing through a Certificate Authority (CA). These certificates still create a secure connection,
+but browsers do not recognize them as being a supported CA. The browser asks you to confirm the
+self-signed certificate and adds it to the database of known CAs for future reference.
 
-**Firefox:** 
+**Intermediate Certificates**: These certificates guarantee greater *trust* of a domain. The CA conducts
+a more in-depth background check of the organization's domain. Intermediate certificates also provide layers
+of encryption that further secure the *root* certificate. 
 
-invalid security certificate - The certificate is not trusted because the issuer certificate is unknown.
-invalid security certificate - The certificate is not trusted because it is self signed.
+### Certificate not trusted in web browser error messages
 
-## Potential Causes for SSL Errors
+Browsers have a built-in list of trusted certificate providers for the major CAs. For some sites, the
+certificate provider is not on that list. In this case, the browser warns you that the CA who issued
+the certificate is not trusted. This issue also occurs if the site has a self-signed certificate. While
+this warning is fairly generic for Microsoft&reg; Internet Explorer, Firefox&reg; distinguishes between
+a certificate issued by the server itself (a self-signed certificate) and another type of untrusted certificate.
 
-Web Browsers have a database of the keys from known Certificate Authorities (CA). So SSLs purchased from the CAs in the supported CAs database will return with no error and have a symbol of a secured lock at the beginning of the Address Bar where the URL is displayed.
+Browsers display this message differently, as shown in the following examples for **Internet Explorer**
+and **Firefox**:
 
-An SSL cert. can fail due to a bad key match to with a (CA) Certificate Authority with in the browser's database resulting in a insecure connection.
+#### Internet Explorer message: 
 
-**Self-Signed Certificates** are mostly used with in a private domain to cut cost of securing through an CA. This still creates a secure connection however will not be recongnized by the browser as being a supported (CA) Certificate Authority and the browser will ask you to confirm Self-Signed cert in which it will add to the database for future reference.
+*The security certificate presented by this website was not issued by a trusted certificate authority.*
 
-**Intermediate Certificates** are used with more complex higher *trust* of a domain. These is a higher degree of background check of the organization's domain. They also can provide layers of encryption that further secure the *root* certificate. 
+#### Firefox messages:
+
+*invalid security certificate - The certificate is not trusted because the issuer certificate is unknown.*
+
+*invalid security certificate - The certificate is not trusted because it is self signed.*
+
+### Potential causes for SSL errors
+
+Web browsers have a database of the keys from known CAs. SSL certificates purchased from the CAs in
+the supported CAs database return with no error. They also have a symbol of a secured lock at the
+beginning of the URL Address Bar.
+
+An SSL certificate can fail due to a bad key match to the CA in the browser's database, which results
+in an insecure connection.
