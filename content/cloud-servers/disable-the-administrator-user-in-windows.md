@@ -11,27 +11,27 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Because many hackers know about the default Microsoft&reg; Windows&reg; `Administrator` user,
+Many hackers know about the default Microsoft&reg; Windows&reg; administrator user. So
 we recommend that you assign administrative rights to one or more other users and disable the
-`Administrator` user. Taking this step helps protect your server from attacks by bad actors.
+administrator user. Taking this step helps protect your server from attacks by bad actors.
 
-**WARNING:** If you disable the `Administrator` user by using the steps in this article,
+**WARNING:** If you disable the administrator user by using the steps in this article,
 make sure at least one user with administrative rights remembers his or her password. Otherwise,
-you won't be able to regain full control of your server.
+you aren't be able to regain full control of your server.
 
 ### Disable the built-in administrator account or other users
 
-To disable the administrator account or any user, remotely access the server and perform the
+To disable the built-in administrator account or any user, remotely access the server and perform the
 following steps:
 
 1. Open up the **Local Users and Groups** by using one of the following methods:
 
-       - Open PowerShell&reg;, enter `lusrmgr.msc`, and click **Enter**.
+    - Open PowerShell&reg;, enter `lusrmgr.msc`, and click **Enter**.
        
-       or
+      or
        
-       - If you are running Windows 2012 R2, click the Windows icon at the bottom left of the screen and
-         type the `lusrmgr.msc` into the Windows search field.
+    - If you are running Windows 2012 R2, click the Windows icon at the bottom left of the screen and
+      type `lusrmgr.msc` into the Windows search field.
 
 2. Double-click **Users**.
 
@@ -39,7 +39,7 @@ following steps:
 
 4. Click **Properties**.
 
-5. To disable the user, select **Account is Disabled** check box.
+5. To disable the user, select the **Account is Disabled** check box.
 
 6. Click **Apply**.
 
