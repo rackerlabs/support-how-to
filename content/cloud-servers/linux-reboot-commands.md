@@ -11,12 +11,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows basic uses for the `shutdown` command in Linux&reg;.
+This article describes basic uses for the `shutdown` command in Linux&reg;.
 
 ### Shutdown command
 
 Use the `shutdown` command in Linux to shut down a device in a safe manner. You can modify the command
-to notify users of the system shutdown, specify a time arguments for shutdown, and prevent any further
+to notify users of the system shutdown, specify time arguments for the shutdown, and prevent any further
 logins.  Users must have `root` or `sudo` privileges to use `shutdown`. The command uses the following
 structure:
 
@@ -24,28 +24,28 @@ structure:
     
 **Explanation of command elements:**
 
-- **Options**: Use options to specify reboot, halt system, cancel request, display messages, and disable
+- **OPTIONS**: Use OPTIONS to specify reboot, halt system, cancel request, display messages, and disable
   logins.
 
-- **Time**: Use this to specify a time argument to schedule a reboot at a specified time, schedule a reboot
+- **TIMEe**: Use TIME to specify a time argument to schedule a reboot at a specified time, schedule a reboot
   after a designated time, or specify an immediate shutdown.
 
-- **Message**: Use this to notify logged-in users of any specified message or instructions. Custom messages
-  need to follow a time argument.
+- **MESSAGE**: Use MESSAGE to notify logged-in users of any specified message or instructions. Custom messages
+  must follow a time argument.
 
 The following example uses the `shutdown` command to begin the shutdown process.  By default, this process
-starts after a  one minute time interval.
+starts after a one-minute time interval.
 
     [root@server-01 ~]# shutdown
     Shutdown scheduled for Wed 2020-05-13 00:21:08 UTC, use 'shutdown -c' to cancel.
 
 ### Specify a shutdown time
 
-You can add time arguments in the following formats: 
+You can add a time argument in the following formats: 
 
-- **hh:mm**: schedule a specific time.
+- **hh:mm**: Schedule a specific time.
 
-- **+m**: indicate a number of minutes until the shutdown.
+- **+m**: Indicate the number of minutes until the shutdown.
 
 The following example uses the **hh:mm** format to schedule a shutdown at 11:30 AM server time:
 
@@ -66,7 +66,7 @@ The following examples use **+0** or **now** for an immediate shutdown:
 
 ### Add a custom shutdown message for logged-in users
 
-**Note:**  Remember, the custom message must follow a time argument.
+**Note:**  Remember that the custom message must follow a time argument.
 
 The following example uses a custom wall message to display information about the shutdown to logged-in users:
 
@@ -106,7 +106,7 @@ The following custom message displays to logged-in users:
 
 You can use the `-c` option to cancel a scheduled shutdown.
 
-The following example uses **-c** to cancel a scheduled shutdown:
+The following example uses `-c` to cancel a scheduled shutdown:
 
     [root@server-01 ~]# shutdown -c
 
