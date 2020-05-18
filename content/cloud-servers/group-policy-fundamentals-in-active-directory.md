@@ -1,7 +1,7 @@
 ---
 permalink: group-policy-fundamentals-in-active-directory/
 audit_date:  '2020-05-13'
-title: 'Group policy fundamentals in Active Directory'
+title: 'Group Policy fundamentals in Active Directory'
 type: article
 created_date: '2020-05-12'
 created_by: Dave Myers
