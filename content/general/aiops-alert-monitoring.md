@@ -11,8 +11,8 @@ product: undefined
 product_url: undefined
 ---
 
-To improve your **Fanatical Experience®**, Rackspace integrated Artificial Intelligence
-for IT Operations (AIOps) and event correlation into our ticketing, monitoring, and alert
+To improve your Fanatical Experience&trade;, Rackspace integrated artificial intelligence
+for IT operations (AIOps) and event correlation into our ticketing, monitoring, and alert
 notification system.
 
 This article presents a high-level overview of how AIOps and event correlation improve on the
@@ -27,10 +27,10 @@ features Rackspace supports.
 AIOps is the practice of using automation to enhance IT operations through analytics and machine
 learning (ML).
 
-At Rackspace, we use deterministic alert clustering algorithms based on the relationships between alerts
+At Rackspace, we use deterministic alert clustering algorithms, based on the relationships between alerts,
 to group one or more related alerts into *situations*.
 
-### What is changing
+### What is changing?
 
 As a Rackspace customer, you can expect to see a reduction in the number of tickets you receive when a
 single event triggers multiple alerts.
@@ -41,13 +41,13 @@ could potentially generate three separate tickets.
 With AIOps and event correlation, these three alerts are combined into a single ticket and routed to a
 Racker who can quickly see all the alerts in one place.
 
-The new features provide the following improvements to Rackspace’s monitoring system:
+The new features provide the following improvements to the Rackspace monitoring system:
 
 - Determine if a situation is related to a single device or multiple devices.
 - Improve routing to the Rackspace team best suited to provide support.
 - Enhance alert reporting via *situation* notices, which aggregate related alerts into a single notification.
 
-### Why it is changing
+### Why it is changing?
 
 Rackspace continually seeks to reduce resolution time, decrease ticket noise, and create a better
 overall customer experience.
@@ -56,7 +56,7 @@ We believe adopting AIOps helps us meet these growing demands.
 
 ### Change details
 
-MyRackspace Rackspace Notification System (RNS) notifications and situation tickets have the
+The MyRackspace Rackspace Notification System (RNS) notifications and situation tickets have the
 following characteristics:
 
 - Alerts are grouped into correlated situations.
@@ -76,9 +76,9 @@ subject, number of devices, or number of alerts changes.
 
 Initially, the following major situation groupings exist:
 
-- **Device Level**: Alerts from a single device
-- **Multi-device Level**: Alerts from multiple devices
-- **Account Level**: Alerts from a custom monitor
+- **Device level**: Alerts from a single device
+- **Multi-device level**: Alerts from multiple devices
+- **Account level**: Alerts from a custom monitor
 
 The ticket subject displays different situation names based on the type of grouping. The following table
 shows some ticket subject and alert group samples:
@@ -86,25 +86,25 @@ shows some ticket subject and alert group samples:
 <table>
 <tr>
 <th>Grouping</th>
-<th>Situation / Ticket Subject</th>
+<th>Situation / Ticket subject</th>
 <th>Description</th>
 </tr>
 <tr>
-<td>Device Level</td>
-<td>Alerts with similar names / descriptions</td>
+<td>Device level</td>
+<td>Alerts with similar names or descriptions</td>
 <td>Alerts from the same device with similar names or descriptions are grouped together. Examples include multiple low-disk space alerts or SQL job failures.</td>
 </tr>
 
 <tr>
-<td>Device Level</td>
+<td>Device level</td>
 <td>Alerts with the same classification</td>
-<td>Alerts from the same device that are of the same type. An example is Base OS Service Failed.</td>
+<td>Alerts from the same device that are of the same type. An example is **Base OS Service Failed**.</td>
 </tr>
 
 <tr>
 <td>Device or Multi-device</td>
 <td>URL-Port-Ping failures and connected device alerts</td>
-<td>This situation contains alerts from one or more devices due to inaccessible URLs, ports (22, 3306, and so on) or being unresponsive to pings.</td>
+<td>This situation contains alerts from one or more devices due to inaccessible URLs, ports (22, 3306, and so on), or being unresponsive to pings.</td>
 </tr>
 
 <tr>
@@ -120,15 +120,15 @@ shows some ticket subject and alert group samples:
 </tr>
 
 <tr>
-<td>Account Level</td>
+<td>Account level</td>
 <td>Situation for generic alerts per tenant</td>
-<td>The monitoring agent labels some alerts as generic. These alerts are grouped together and details about the individual alerts are in listed in the ticket.</td>
+<td>The monitoring agent labels some alerts as generic. These alerts are grouped together, and details about the individual alerts are listed in the ticket.</td>
 </tr>
 
 <tr>
-<td>Account Level</td>
+<td>Account level</td>
 <td>Situation for custom monitor alerts or monitoring device per tenant</td>
-<td>Customized monitors generate alerts based on a specific criteria. Alerts from these monitors are grouped together into a single situation.</td>
+<td>Customized monitors generate alerts based on specific criteria. Alerts from these monitors are grouped together into a single situation.</td>
 </tr>
 
 </table>
@@ -139,12 +139,12 @@ shows some ticket subject and alert group samples:
 
 This section covers the following tasks:
 
-- How to identify a Situation ticket in the MyRackspace portal.
-- How to identify the information in a Situation ticket.
+- How to identify a situation ticket in the MyRackspace portal.
+- How to identify the information in a situation ticket.
 
 #### Identify a situation ticket
 
-In the MyRackspace portal, situation tickets start the with **SITUATION** followed by a description of the grouping.
+In the MyRackspace portal, situation tickets start with **SITUATION** followed by a description of the grouping.
 
 <img src="https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
 
