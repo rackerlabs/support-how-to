@@ -15,8 +15,8 @@ product_url: account-management
 
 #### What are these notifications?
 
-If you have a next-generation firewall (NGFW) or other security devices, it might
-push log events from the security technology's actions to the notification portal
+If you have a next-generation firewall (NGFW) or another security device, it might
+push log events from the security technology's actions to the notification portal.
 
 For example, if you have enabled a threat license on a Cisco&reg; Firepower Threat
 Defense (FTD)-enabled appliance, the device sends notification of events that
