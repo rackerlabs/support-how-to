@@ -15,7 +15,7 @@ This article describes how to list the Cloud Monitoring zones and source IP addr
 
 ### Log into Pitchfork
 
-Log into Pitchfork at: https://pitchfork.rax.io/
+Log into Pitchfork at: [https://pitchfork.rax.io/](https://pitchfork.rax.io/)
 
 Refer to (https://support.rackspace.com/how-to/pitchfork-the-rackspace-cloud-api-web-application/)[Pitchfork - the Rackspace Cloud API web application] to learn how to log in to and use Pitchfork.
 
