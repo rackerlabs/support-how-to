@@ -11,17 +11,18 @@ product: Cloud Monitoring
 product_url: cloud-monitoring
 ---
 
-This article describes how to list the Cloud Monitoring zones and source IP addresses with the API tool, Pitchfork.
+This article describes how to list the Cloud Monitoring zones and source IP addresses with the Rackspace
+Cloud API tool, Pitchfork.
 
-### Log into Pitchfork
+### Log in to Pitchfork
 
-Log into Pitchfork at: [https://pitchfork.rax.io/](https://pitchfork.rax.io/)
+Log in to Pitchfork at [https://pitchfork.rax.io/](https://pitchfork.rax.io/).
 
-Refer to (https://support.rackspace.com/how-to/pitchfork-the-rackspace-cloud-api-web-application/)[Pitchfork - the Rackspace Cloud API web application] to learn how to log in to and use Pitchfork.
+To learn how to log in to and use Pitchfork, refer to (https://support.rackspace.com/how-to/pitchfork-the-rackspace-cloud-api-web-application/)[Pitchfork&mdash;the Rackspace Cloud API web application].
 
 ### List the Cloud Monitoring zones with Pitchfork
 
-1. After you log into Pitchfork, click on the **Cloud Monitoring** icon to pull up the Cloud Monitoring API calls.
+1. After you log in to Pitchfork, click on the **Cloud Monitoring** icon to pull up the Cloud Monitoring API calls.
 
 2. Navigate to the **Zones** section to find the **List Monitoring Zone** API call. Then, click **Details** to expand the call.
 
