@@ -5,8 +5,8 @@ title: Install the Cloud Backup agent on Windows
 type: article
 created_date: '2014-05-01'
 created_by: Megan Meza
-last_modified_date: '2020-01-15'
-last_modified_by: Brett Johnson
+last_modified_date: '2020-05-20'
+last_modified_by: William Loy
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -25,10 +25,6 @@ A new agent installation disconnects any previous registrations from that server
 ### Download the installer
 
 Determine whether your Windows server architecture is 64-bit or 32-bit, and download the latest MSI installation file for that architecture from <http://agentrepo.drivesrvr.com/>.
-
--   [32-bit Windows MSI](http://agentrepo.drivesrvr.com/win32/driveclient-latest.msi)
--   [64-bit Windows MSI](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This
-    will almost always be the correct one for your server.)
 
 ### Installation
 

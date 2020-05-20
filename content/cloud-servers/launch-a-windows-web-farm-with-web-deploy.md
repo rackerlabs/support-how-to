@@ -5,7 +5,7 @@ title: Launch a Windows web farm with Web Deploy
 type: article
 created_date: '2019-01-22'
 created_by: Rackspace Community
-last_modified_date: '2019-01-22'
+last_modified_date: '2020-05-20'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -54,7 +54,7 @@ host name, such as **WEB2**.
 
 ### Web Deploy
 
-Download Web Deploy from [IIS](http://www.iis.net/downloads/microsoft/web-deploy)
+Download Web Deploy from [IIS](https://www.iis.net/downloads/microsoft/web-deploy)
 and install it on each server in the farm.
 
 ### Scripts
