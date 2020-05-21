@@ -1,7 +1,7 @@
 ---
 permalink: create-sudo-user-in-centos/
 audit_date: '2020-05-20'
-title: 'Create Sudo User in CentOS'
+title: 'Create a sudo user in CentOS'
 type: article
 created_date: '2020-05-20'
 created_by: John Garcia
