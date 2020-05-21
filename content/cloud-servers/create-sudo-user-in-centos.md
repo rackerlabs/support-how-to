@@ -15,7 +15,7 @@ This article describes the process of granting sudo access to a new or existing 
 
 ### Create a new user
 
-1. Create a new user by using the **adduser** command followed by the new user's **<username>** as shown in the following example:
+1. Create a new user by using the `adduser` command followed by the new user's **<username>** as shown in the following example:
 
         [root@server-01 ~]# adduser newuser
   
@@ -69,7 +69,7 @@ This article describes the process of granting sudo access to a new or existing 
         ## Read drop-in files from /etc/sudoers.d (the # here does not mean a comment)
         #includedir /etc/sudoers.d
 
-3. Press the **i** key on your keyboard to enter Insert Mode. Next press the **"j"** key to move the cursor down and the **"k"** key to move it up to the following section:
+3. Press the **i** key on your keyboard to enter Insert Mode. Next press the **j** key to move the cursor down and the **k** key to move it up to the following section:
 
         ## Allow root to run any commands anywhere
         root    ALL=(ALL)       ALL
@@ -84,12 +84,12 @@ This article describes the process of granting sudo access to a new or existing 
 
 ### Verify permission change
 
-1. Use the **su** command followed with **"- <username>"** to access the new user account.
+1. Use the `su` command followed with **"- <username>"** to access the new user account.
 
         [root@server-01 ~]# su - newuser
         [newuser@server-01 ~]$ 
 
-2. Use the **sudo -i** command to test if the new user account can elevate permissions. Enter the new user's password. Verify these steps by using the following example:
+2. Use the `sudo -i` command to test if the new user account can elevate permissions. Enter the new user's password. Verify these steps by using the following example:
 
 
         [newuser@server-01 ~]$ sudo -i
@@ -105,7 +105,7 @@ This article describes the process of granting sudo access to a new or existing 
         [root@server-01 ~]# 
 
 
-3. Use the **whoami** command to verify you are currently the root user.
+3. Use the `whoami` command to verify you are currently the root user.
 
         [root@server-01 ~]# whoami
         root
