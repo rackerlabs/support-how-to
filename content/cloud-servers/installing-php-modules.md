@@ -7,8 +7,8 @@ created_date: '2020-05-22'
 created_by: Chris Silva
 last_modified_date: '2020-05-22'
 last_modified_by: William Loy
-product: Cloud Product
-product_url: cloud-product
+product: Cloud Servers
+product_url: cloud-servers
 ---
 
 
