@@ -89,9 +89,9 @@ After identifying the module that you need to install, you can install it by usi
 
   - RHEL/CentOS:
 
-       `yum install <module>`
+       `yum install<module>`
 
-  - Debian/the Ubuntu:
+  - Debian/Ubuntu:
 
        `apt install <module>`
 
