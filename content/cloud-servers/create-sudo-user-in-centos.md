@@ -15,11 +15,11 @@ This article describes the process of granting sudo access to a new or existing 
 
 ### Create a new user
 
-1. Create a new user by using the `adduser` command followed by the new user's **<username>** as shown in the following example:
+1. Create a new user by using the `adduser` command followed by the new user's `<username>` as shown in the following example:
 
         [root@server-01 ~]# adduser newuser
   
-2.  Use the `passwd` command with the **<username>**  to set up a password for the `newuser`. Enter the new password in the verification prompt twice.
+2.  Use the `passwd` command followed by the new user's `<username>` to set up a password for `newuser`. Enter the new password in the verification prompt twice.
 
         [root@server-01 ~]# passwd newuser
         Changing password for user newuser.
@@ -34,7 +34,7 @@ This article describes the process of granting sudo access to a new or existing 
         [root@server-01 ~]# visudo
 
 
-2.  You then see a similar version of the following text:
+2.  You then see a version similar to following text:
 
     
         ## Next comes the main part: which users can run what software on
@@ -69,7 +69,7 @@ This article describes the process of granting sudo access to a new or existing 
         ## Read drop-in files from /etc/sudoers.d (the # here does not mean a comment)
         #includedir /etc/sudoers.d
 
-3. Press the **i** key on your keyboard to enter Insert Mode. Next press the **j** key to move the cursor down and the **k** key to move it up to the following section:
+3. Press the **i** key on your keyboard to enter insert mode. Next press the **j** key to move the cursor down and the **k** key to move it up to the following section:
 
         ## Allow root to run any commands anywhere
         root    ALL=(ALL)       ALL
@@ -80,11 +80,11 @@ This article describes the process of granting sudo access to a new or existing 
         root    ALL=(ALL)       ALL
         newuser ALL=(ALL)       ALL
 
-5.  Press the **i** Key to exit Insert Mode, followed by typing **:wq** to save and exit.  
+5.  Press the **i** key to exit insert mode, followed by typing **:wq** to save and exit.  
 
 ### Verify permission change
 
-1. Use the `su` command followed with **"- <username>"** to access the new user account.
+1. Use the `su` command followed by `- <username>` to access the new user account.
 
         [root@server-01 ~]# su - newuser
         [newuser@server-01 ~]$ 
