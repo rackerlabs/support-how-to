@@ -1,7 +1,7 @@
 ---
 permalink: installing-php-modules/
 audit_date: '2020-05-22'
-title: 'Installing php modules'
+title: 'Install PHP modules'
 type: article
 created_date: '2020-05-22'
 created_by: Chris Silva
@@ -12,12 +12,12 @@ product_url: cloud-servers
 ---
 
 
-This article goes over the steps to install PHP&reg; modules on a Linux&reg; server. 
+This article describes the steps to install PHP&reg; modules on a Linux&reg; server. 
 
 
-A PHP module is an extension of PHP that allows for more features within PHP. The following list contains dozens of available PHP modules: [PHP Modules](https://www.php.net/manual/en/extensions.alphabetical.php)
+A PHP module is an extension of PHP that allows for more features within PHP. The following list contains dozens of available PHP modules: [PHP modules](https://www.php.net/manual/en/extensions.alphabetical.php)
 
-**Note**: This process isn't applicable for Plesk&reg; or other similar control panel solutions. 
+**Note**: This process isn't applicable to Plesk&reg; or other similar control panel solutions. 
 
 
 ### Prerequisites
@@ -26,7 +26,7 @@ The following prerequisites are necessary to install PHP modules:
 
    - A Linux server with PHP installed 
    - Sudo or administrative permissions on the server
-   - The php-cli module (Recommended for listing installed modules and php version)
+   - The php-cli module (recommended for listing installed modules and the PHP version)
 
 
 ### Checking installed PHP modules and PHP version
@@ -35,11 +35,11 @@ You should verify your PHP version and which modules currently exist on your PHP
 
 Verify the version of PHP and existing modules on the server by using the following command:
 
-  - RHEL/CentOS:
+  - RHEL&reg;/CentOS:
 
        `yum list installed | grep -i php`
 
-  - Debian or Ubuntu:
+  - Debian&reg; or Ubuntu&reg;:
 
        `dpkg --get-selections | grep -i php`
 
@@ -50,12 +50,12 @@ After installing the `cli` modules, you can verify the version of PHP or PHP mod
 
        `php -v`
 
-  - Get installed PHP Modules:
+  - Get installed PHP modules:
 
        `php -m`
 
 
-### Installing PHP Modules
+### Installing PHP modules
 
 It's helpful to search your package manager to get the name of the module as listed in the repositories. You can search for those modules by using the following commands: 
 
@@ -63,12 +63,12 @@ It's helpful to search your package manager to get the name of the module as lis
 
        `yum search <module>`
 
-  - Debian or the Ubuntu:
+  - Debian/Ubuntu:
 
        `apt-cache search <module>`
 
 
-The following example is demonstrating a search for the `mbstring` module in CentOS 7:
+The following example demonstrates a search for the `mbstring` module in CentOS 7:
 
 
         # yum search mbstring
@@ -82,18 +82,18 @@ The following example is demonstrating a search for the `mbstring` module in Cen
 
           Name and summary matches only, use "search all" for everything.
 
-**Note**: It is possible there are multiple versions of PHP available in the repositories. You need to ensure that you are installing the module that matches the version of PHP installed on your server. For example, if you have PHP 7.3 installed, you would need to install the `php73-mbstring` module. 
+**Note**: There may be multiple versions of PHP available in the repositories. You need to ensure that you are installing the module that matches the PHP version installed on your server. For example, if you have PHP 7.3 installed, you need to install the `php73-mbstring` module. 
 
 
-After identifying the module that you need to install you can install that module by using the following commands:
+After identifying the module that you need to install, you can install it by using the following commands:
 
   - RHEL/CentOS:
 
-       `yum install <module>``
+       `yum install<module>`
 
-  - Debian/the Ubuntu:
+  - Debian/Ubuntu:
 
        `apt install <module>`
 
 
-Restart your Apache, NGINX, or PHP-FPM service to activate the new module. Repeat this process to install additional modules. 
+Restart your Apache&reg;, NGINX&reg;, or PHP-FastCGI Process Manager (PHP-FPM) service to activate the new module. Repeat this process to install additional modules. 
