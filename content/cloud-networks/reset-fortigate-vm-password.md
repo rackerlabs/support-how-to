@@ -21,9 +21,9 @@ If you have forgotten the admin password to your Fortigate VM, you can reset it 
 
 2. Look for the serial number displayed in the console. You will see something similar to "Serial number is FGTRAXXXXXXXXXXX"
 
-3. If you do not see the serial in the console then you will need to reboot the Fortigate VM from the [Cloud Control Panel](https://login.rackspace.com). Onnce the server comes up you should see the serial number displayed.
+3. If you do not see the serial in the console then you will need to reboot the Fortigate VM from the [Cloud Control Panel](https://login.rackspace.com). Once the server comes up from the rebootyou should see the serial number displayed in the console.
 
-4. The next step is is to hard reboot the server so that you can login with the maintainer user and password. The password is bcpb + the serial number of the firewall (letters of the serial number are in UPPERCASE format)
+4. The last step is is to hard reboot the server so that you can login with the maintainer user and password. The password is bcpb + the serial number of the firewall (letters of the serial number are in UPPERCASE format)
 Example: bcpbFGTRAXXXXXXXXXXX
 
 **Note:** You have only 14 seconds or less to type in the username and password. It might, therefore, be necessary 
