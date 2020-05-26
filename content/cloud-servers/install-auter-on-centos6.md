@@ -5,8 +5,8 @@ title: 'Install Auter on CentOS 6'
 type: article
 created_date: '2017-07-06'
 created_by: Ruth Lee
-last_modified_date: '2017-08-24'
-last_modified_by: Nate Archer
+last_modified_date: '2019-04-01'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -24,7 +24,7 @@ Minor adjustments might be required for other OSs and other major releases of Ce
    - A CentOS 6 or Red Hat Enterprise Linux server configured to use an EPEL repository. For instructions on how to configure an EPEL repository with your server,  see [Install and EPEL, IUS, and Remo repositories on CentOS and Red Hat](/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
    - Your server must be able to successfully reboot with all necessary applications restarting automatically or be able to be started using scripts.
 
-### Install the Auteur package
+### Install the Auter package
 
 **Note:** The following steps are specific to CentOS 6. For other distributions, use that distribution's equivalent command.
 

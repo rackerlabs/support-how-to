@@ -5,7 +5,7 @@ title: Introduction to encrypted authenticated tokens
 type: article
 created_date: '2015-07-28'
 created_by: Constanze Kratel
-last_modified_date: '2019-01-25'
+last_modified_date: '2019-03-15'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -27,7 +27,8 @@ difference that you will notice is that the authentication token value
 returned by the Identity service has a different pattern and length than
 the UUID token values issued previously.
 
-**Note:**  Make sure that you follow Best practices for handling authentication tokens (located further down in this article),
+**Note:**  Make sure that you follow Best practices for handling authentication
+tokens (located further down in this article),
 especially if you use SDK or CLI tools to interact with the Rackspace
 Cloud.
 
@@ -141,8 +142,7 @@ Following are some best practices for handling authentication tokens.
     expires.
 
 -   To simplify authentication, credential, and token management, use
-    an [OpenStack command-line client application](https://wiki.openstack.org/wiki/OpenStackClients) or
-    one of the [Rackspace SDKs](https://developer.rackspace.com/sdks/).
+    an [OpenStack command-line client application](https://wiki.openstack.org/wiki/OpenStackClients).
 
 For more information, read the [Manage authentication tokens](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#manage-authentication-tokens) section
 in the [Identity API 2.0 Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).

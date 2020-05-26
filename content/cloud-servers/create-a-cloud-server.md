@@ -5,7 +5,7 @@ title: Create a cloud server
 type: article
 created_date: '2012-07-17'
 created_by: Rackspace Support
-last_modified_date: '2018-10-26'
+last_modified_date: '2019-08-07'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers

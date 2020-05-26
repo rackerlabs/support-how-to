@@ -5,8 +5,8 @@ title: Transfer files to or from a Linux server without FTP
 type: article
 created_date: '2019-01-24'
 created_by: Rackspace Community
-last_modified_date: '2019-01-24'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-12-20'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -24,7 +24,7 @@ FileZilla&reg;, Cyberduck&reg;, or WinSCP&reg;, this protocol might be listed as
 SFTP (Secure FTP), which does *not* require an extra FTP service. You can use
 any of the following GUI tools to perform a file transfer over SFTP:
 
-- [FileZilla](/how-to/connect-to-cloud-servers-with-filezilla-via-sftp)
+- [FileZilla](/how-to/connect-to-cloud-servers-with-filezilla-by-using-sftp)
 
 - [Cyberduck](https://cyberduck.io/?l=en)
 
@@ -62,9 +62,9 @@ If SFTP has not been installed successfully, the following output displays:
 
     # rpm -qa | grep -E "vsftp|proftp"
 
-#### Ubuntu
+#### Ubuntu operating systems
 
-To confirm whether SFTP has been installed on Ubuntu&reg;, run the following
+To confirm whether SFTP has been installed on Ubuntu&reg; operating systems, run the following
 command:
 
     # dpkg-1 | grep -E "vsftp|proftp"

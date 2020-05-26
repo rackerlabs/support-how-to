@@ -1,12 +1,12 @@
 ---
 permalink: cloud-server-configuration-options/
-audit_date: '2018-08-22'
-title: Cloud Server configuration options
+audit_date: '2019-04-15'
+title: Cloud server configuration options
 type: article
 created_date: '2014-12-01'
 created_by: Rose Contreras
-last_modified_date: '2018-08-22'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-04-15'
+last_modified_by: Brian King
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -15,13 +15,14 @@ To deliver a Managed Cloud experience, Rackspace runs support automation
 on every cloud server that we build. We have extended this capability by
 creating a `build_config` metadata key that you can use to specify the
 Rackspace-provided common tools that you want installed on your Rackspace
-cloud servers and configured with Rackspace-recommended best practices.
+cloud servers configured with Rackspace-recommended best practices.
 
 Many of the `build_config` metadata key options are available only when
 you use the Cloud Servers API to build your servers. Building your
-servers through the API gives you increased flexibility to configure the server how you want it and ensure that it does not
+servers through the API gives you increased flexibility to configure the
+server how you want it and ensures that it does not
 conflict with any automation that you have running. If you build servers
-through the Cloud Control Panel, you have the ability to select
+through the Cloud Control Panel, you can select
 only from the most common of these options.
 
 To take advantage of this feature when using the API, you use any of the
@@ -30,32 +31,39 @@ specific service level (Managed Infrastructure or Managed Operations)
 and pass your specified values to the scripts.
 
 **Note:** This functionality is available only when you create a server.
-If you want any of the tools installed after the server is created, you
+If you want any of the tools installed after you have created the server, you
 must download the tools and configure them individually on the servers.
-If you have the Managed Operations: SysOps service level, ask a Rackspace cloud
+If you have the Managed Operations SysOps service level, ask a Rackspace cloud
 engineer to install the tools on your behalf.
 
 ### Build configuration options
 
-Depending upon your service level, these options are available for the
+Depending upon your service level, the following options are available for the
 `build_config` metadata key:
+
+`gateway`
+
+- Available to all customers.
+- Used with virtual network devices, such as the Fortigate-VM. This option 
+  creates a Cloud Network suitable for routing traffic and configures the 
+  virtual network device as the gateway for the Cloud Network.
 
 `rack_user_only`
 
 -   Available to Managed Operations customers.
--   Creates a Rackspace user name and password for Rackspace Support to
-    deliver System Administrator Level Support. This option does not add
+-   Creates a Rackspace username and password for Rackspace Support to
+    deliver System Administrator level support. This option does not add
     or configure any additional components.
 
 `base_mgdops_config`
 
 -   Available to Managed Operations customers.
 -   Builds a regular Managed Operations server from a base image with a
-    Rackspace user name and password, installs and configures the Cloud
+    Rackspace username and password, installs and configures the Rackspace
     Monitoring agent to the Rackspace defaults, installs and configures
     Cloud Backup to the Rackspace defaults, installs all the support
-    packages, and enables automatic updates. This is the standard Managed
-    Operations configuration.
+    packages, and enables automatic updates. This configuration is the
+    standard Managed Operations configuration.
 
 `backup_agent_only`
 
@@ -88,14 +96,14 @@ Depending upon your service level, these options are available for the
 
 -   Available to Managed Infrastructure customers.
 -   Available to Managed Operations customers.
--   Installs the Cloud Monitoring agent.
+-   Installs the Rackspace Monitoring agent.
 
 `monitoring_defaults`
 
 -   Available to Managed Infrastructure customers.
 -   Available to Managed Operations customers.
--   Installs the Cloud Monitoring agent and configures default
-    Monitoring, Disk, and CPU checks.
+-   Installs the Rackspace Monitoring agent and configures default
+    monitoring, disk, and CPU checks.
 
     For Managed Operations service level customers, this option also
     configures default file system alerts that are sent to Rackspace.
@@ -106,18 +114,18 @@ Depending upon your service level, these options are available for the
 -   Available to Managed Operations customers.
 -   Enables automatic updates of server software.
 
-You can combine the `build_config` options. For example:
+You can combine the `build_config` options, for example:
 
 -   `monitoring_defaults` with `auto_updates` installs the monitoring
     agent configured with Rackspace best practices and turns on
     automatic updates.
 
--   `backup_agent_only` installs the Rackspace Cloud Backup agent
+-   `backup_agent_only` installs the Cloud Backup agent
     but does not configure Rackspace backups. You must separately
     identify the directories that you want backed up after the agent
     is installed.
 
-### Build options for configuration management software (Chef&trade;, Puppet, Ansible&reg;, and Salt)
+### Build options for configuration management software (Chef&reg;, Puppet&reg;, Ansible&reg;, and Salt)
 
 Using the API to build a server with a core option passed does not
 conflict with configuration management software. Such builds have a
@@ -128,7 +136,7 @@ The following example shows the build option for a Managed Infrastructure server
 
     nova boot --flavor 2 --image [image] --meta build_config=core www.example.com
 
-The following example shows the build option for building a Managed Operations server with a Rackspace user name and password only and backup ability:
+The following example shows the build option for building a Managed Operations server with a Rackspace username and password only and backup ability:
 
     nova boot --flavor 2 --image [image] --meta build_config= rack_user_only,driveclient fileserver.example.com
 
@@ -153,5 +161,5 @@ one of the following values:
 - `Build Error`
 - `Authentication Error`
 
-When the metadata key is set to `Complete`, you can begin your
+When the metadata key is `Complete`, you can begin your
 configuration management.

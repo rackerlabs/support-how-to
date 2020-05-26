@@ -13,7 +13,7 @@ product_url: exchange
 
 This article helps [email
 hosting](https://www.rackspace.com/email-hosting/webmail) users to manually
-configure Microsoft&reg; Exchange&reg; 2013 on most Android&trade; devices.
+configure Microsoft&reg; Exchange 2013 on most Android&trade; devices.
 
 **Note:** For personalized user and server information and device-specific
 instructions, use the [Email Help Tool](https://emailhelp.rackspace.com/).

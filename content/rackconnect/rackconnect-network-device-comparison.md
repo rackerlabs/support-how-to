@@ -1,24 +1,27 @@
 ---
 permalink: rackconnect-network-device-comparison/
-audit_date: '2017-10-24'
+audit_date: '2019-12-16'
 title: RackConnect network device comparison
 type: article
 created_date: '2012-11-07'
 created_by: Juan Perez
-last_modified_date: '2017-10-04'
-last_modified_by: Sean Laszakovits
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
 
 **Applies to**: RackConnect v3.0 and RackConnect v2.0
 
-The following tables provide a detailed comparison of the network devices available for use with your RackConnect (RC) configuration. 
+The following tables provide a detailed comparison of the network devices available for use with your RackConnect (RC) configuration.
+
+**Note**: NetScaler, Firepowers, and ASA devices from the moonshine project
+are not available for use.
 
 ### RackConnect network device comparison
 
 Device | Load Balancer Pools | Maximum concurrent connections | Maximum SSL TPS<sup>1</sup> | Maximum Concurrent SSL Connections | Stateful Firewall<sup>2</sup> | VPN Tunneling | High Availability Option
---- | --- | --- | --- | --- | --- | --- | --- 
+--- | --- | --- | --- | --- | --- | --- | ---
 ASA 5505 Sec+ | No | 25,000 | - | - | Yes | Yes | Yes
 ASA 5508-X | No | 100,000 | - | - | Yes | Yes | Yes
 ASA 5510 Sec+ | No | 130,000 | - | - | Yes | Yes | Yes

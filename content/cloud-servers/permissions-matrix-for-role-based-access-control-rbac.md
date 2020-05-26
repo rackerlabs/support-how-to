@@ -38,10 +38,11 @@ Product | Admin | Creator | Observer
 [Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images) | Yes | Yes | Yes
 [Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data) | Yes | Yes | Yes
 [Cloud Big Data v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | Yes | Yes | Yes
-[Cloud Backup](/knowledge_center/detailed-permissions-matrix-for-cloud-backup) | Yes | Yes | Yes
+[Cloud Backup](/how-to/permission-matrix-for-cloud-backup) | Yes | Yes | Yes
 [Cloud Orchestration](/how-to/permissions-matrix-for-cloud-orchestration) | Yes | Yes | Yes
 [Cloud DNS](/how-to/detailed-permissions-matrix-for-dns) | Yes | Yes | Yes
 [Cloud Feeds](/how-to/detailed-permissions-matrix-for-cloud-feeds) | No | No | Yes
+[Cloud Metrics](/how-to/detailed-permissions-matrix-for-cloud-metrics) | Yes | Yes | Yes
 
 ### Account access
 

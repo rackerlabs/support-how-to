@@ -1,11 +1,11 @@
 ---
 permalink: rackconnect-v30-cloud-server-image-compatibility/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v3.0 Cloud Servers image compatibility
 type: article
 created_date: '2014-09-19'
 created_by: Juan Perez
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect

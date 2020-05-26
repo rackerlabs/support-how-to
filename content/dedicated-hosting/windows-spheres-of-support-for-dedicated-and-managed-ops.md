@@ -5,13 +5,13 @@ title: Windows Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2018-08-02'
 created_by: JP gonzalez
-last_modified_date: '2018-08-02'
-last_modified_by: JP Gonzalez
+last_modified_date: '2018-10-31'
+last_modified_by: Nick Kidd
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article outlines Rackspace **Fanatical Support®** for software and server configurations for virtual and physical machines that run a supported Microsoft Windows® operating system. The article presents a high-level overview of Rackspace offerings. Contact Rackspace Sales or your account representative for more information regarding the components of specific Windows roles and features that are supported in Rackspace offerings.
+This article outlines Rackspace support for software and server configurations for virtual and physical machines that run a supported Microsoft Windows® operating system. The article presents a high-level overview of Rackspace offerings. Contact Rackspace Sales or your account representative for more information regarding the components of specific Windows roles and features that are supported in Rackspace offerings.
 
 
 
@@ -26,6 +26,7 @@ The following operating systems are supported for both Dedicated and Managed Clo
 | Windows Server 2012    | Yes       |                         |                        |                    |                   |                      |
 | Windows Server 2012 R2 | Yes       | Yes                     | Yes                    | Yes                | Yes               | Yes                  |
 | Windows Server 2016    | Yes       | Yes                     |                        | Yes                | Yes               | Yes                  |
+| Windows Server 2019    | Yes       | Yes                     |                        | Yes                | Yes               | Yes                  |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
@@ -108,13 +109,14 @@ The following types of database servers are supported in the indicated areas:
 
 ## Supported OS and MSSQL combinations
 
-| MSSQL version | Windows 2008 32 bit | Windows 2008 64 bit | Windows 2012 64 bit | Windows 2012 R2 64 bit | Windows 2016 |
-|---------------|---------------------|---------------------|---------------------|------------------------|--------------|
-| MSSQL 2008    | Yes                 | Yes                 |                     |                        |              |
-| MSSQL 2008 R2 | Yes                 | Yes                 |                     |                        |              |
-| MSSQL 2012    |                     |                     | Yes                 | Yes                    |              |
-| MSSQL 2014    |                     |                     | Yes                 | Yes                    | Yes          |
-| MSSQL 2016    |                     |                     |                     | Yes                    | Yes          |
+| MSSQL version | Windows 2008 32 bit | Windows 2008 64 bit | Windows 2012 64 bit | Windows 2012 R2 64 bit | Windows 2016 | Windows 2019 |
+|---------------|---------------------|---------------------|---------------------|------------------------|--------------|--------------|
+| MSSQL 2008    | Yes                 | Yes                 |                     |                        |              |              |
+| MSSQL 2008 R2 | Yes                 | Yes                 |                     |                        |              |              |
+| MSSQL 2012    |                     |                     | Yes                 | Yes                    |              |              |
+| MSSQL 2014    |                     |                     | Yes                 | Yes                    | Yes          |              |
+| MSSQL 2016    |                     |                     |                     | Yes                    | Yes          |              |
+| MSSQL 2017    |                     |                     |                     |                        | Yes          | Yes          |
 
 
 ## Supported platforms for Microsoft SQL editions
@@ -175,4 +177,4 @@ Except as set forth in Rackspace general terms and conditions, cloud terms of se
 
 Although part of the document explains how Rackspace services may work with third-party products, the information contained in the document is not designed to work with all scenarios. Any use or changes to third-party products and/or configurations should be made at the discretion of your administrators and are subject to the applicable terms and conditions of such third party. Rackspace does not provide technical support for third-party products, other than specified in your hosting services or other agreement you have with Rackspace, and Rackspace accepts no responsibility for third-party products.
 
-Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Copyright &copy; 2016 Rackspace &#124; Rackspace&reg;, **Fanatical Support**&reg;, and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products, and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.
+Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Rackspace&reg; and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products, and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.

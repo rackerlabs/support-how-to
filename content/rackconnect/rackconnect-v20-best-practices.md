@@ -1,11 +1,11 @@
 ---
 permalink: rackconnect-v20-best-practices/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v2.0 best practices
 type: article
 created_date: '2012-08-23'
 created_by: Juan Perez
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect

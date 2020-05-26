@@ -295,19 +295,17 @@ The Shared IP sections are:
 
 - [Getting started](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#sharing-ip-address-between-servers)
 
-#### What features are supported for LA?
+#### What features are supported?
 
-The LA release supports the ability to create, associate, disassociate and delete shared IP addresses.
+Shared IP supports the ability to create, associate, disassociate and delete shared IP addresses.
 
 #### Is this feature supported for all Rackspace Cloud customers?
 
-This feature is supported for cloud-only customers that have been approved for
-the Limited Availability (LA) program. Please contact your Account Manager or
-Rackspace Support to considered for LA access.
+This feature is supported for all customers except RackConnect customers.
 
 #### Is this feature available from the Cloud Control Panel?
 
-We do not plan to provide Cloud Control Panel support for LA.
+No, this feature is not yet available in the Cloud Control Panel.
 
 #### Is there a limit on the number of shared IP addresses that a tenant can have?
 

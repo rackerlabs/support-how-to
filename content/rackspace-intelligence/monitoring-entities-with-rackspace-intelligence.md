@@ -1,12 +1,12 @@
 ---
 permalink: monitoring-entities-with-rackspace-intelligence/
-audit_date:
+audit_date: '2019-03-11'
 title: Monitor entities with Rackspace Intelligence
 type: article
 created_date: '2015-07-17'
 created_by: Rose Coste
-last_modified_date: '2017-01-12'
-last_modified_by: Shane Duan
+last_modified_date: '2019-03-11'
+last_modified_by: Cat Lookabaugh
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
@@ -15,7 +15,7 @@ Rackspace Intelligence lets you create, edit, and view entities.
 
 Like Rackspace Monitoring, Rackspace Intelligence uses *entities* to
 represent any object or resource that you want to monitor. An entity can
-be a set of servers or non-server objects, but most often an entity
+be a set of servers or non-server objects, but most often, an entity
 refers to an individual server.
 
 You can define an entity in Rackspace Intelligence that is something
@@ -24,11 +24,11 @@ can create an entity to represent any server or website that you want to
 monitor, even if it is not hosted at Rackspace.
 
 As you create new Rackspace cloud servers or cloud databases, Rackspace
-Intelligence entities representing them are created automatically.
+Intelligence automatically creates entities representing them.
 
 To see a list of the entities known to Rackspace Intelligence,
-select **Monitor** at the top of the Rackspace Intelligence interface,
-and then click **Entities**.
+select **Monitor** at the top of the Rackspace Intelligence interface
+and click **Entities**.
 
 From the **Monitor Entities** section, you can perform the following actions
 on the list of entities:
@@ -116,8 +116,7 @@ To create a check for an entity:
 2. Select a check from the **Check Type** list, and then enter all the required information.
 
    **Note:** Different check types require different values of input. For
-   more information, see [Working with
-   checks](/how-to/working-with-checks).
+   more information, see [Working with checks](/how-to/working-with-checks).
 
 3. Click **Create Check**.
 
@@ -135,11 +134,10 @@ To create a suppression:
    On the **Create a Suppression** page, your entity is displayed in
    the **Suppression Targets** section.
 
-2. Type a name for your suppression, and specify the start and end dates.
+2. Type a name for your suppression and specify the start and end dates.
 3. To add an additional entity to this supression, click **Add Entities** and select one or more entities.
 4. Click **Create Suppression**.
-5. When asked to confirm that you want to create a suppression,
-   click **Create Suppression Now**.
+5. When asked to confirm that you want to create a suppression, click **Create Suppression Now**.
 
 For more information about suppressions, see [Working with notification
 suppressions](/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
@@ -149,9 +147,9 @@ suppressions](/how-to/working-with-notification-suppressions-in-rackspace-intell
 In the list of entities, click in the **Visualize** column of the row
 for an entity to launch a **Default Graphs** presentation for the
 entity. The page shows any graphs that are available for checks
-configured for the entity.
+configured for the entity, such as the one shown in the following image:
 
 <img src="{% asset_path rackspace-intelligence/monitoring-entities-with-rackspace-intelligence/intelligence-visualize-defaultgraphs-1on1off.png %}" width="743" height="280" />
 
-For checks that are defined but not configured, a link to begin the
-process of configuring the check is provided.
+For checks that are defined but not configured, click the link to begin the
+process of configuring the check.

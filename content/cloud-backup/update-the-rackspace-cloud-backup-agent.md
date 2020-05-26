@@ -5,14 +5,14 @@ title: Manually update the Rackspace Cloud Backup agent
 type: article
 created_date: '2013-01-08'
 created_by: Rackspace Support
-last_modified_date: '2018-08-21'
+last_modified_date: '2020-01-15'
 last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
 If the Cloud Backup updater, which is described in
-[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+[Install or update the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 failed, use the steps in this article to manually update the Rackspace Cloud
 Backup agent.
 
@@ -25,9 +25,9 @@ features, and bug fixes in Cloud Backup.
 **Note:** These instructions assume that the agent has been previously
 installed.
 
-### Update the agent for apt-based systems, including Ubuntu, Debian, and Vyatta.
+### Update the agent for APT-based systems
 
-You might want to review
+For APT-based systems, you might want to review
 [Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
@@ -35,6 +35,8 @@ before performing these steps.
 the driveclient service as part of the update process. Driveclient versions
 1.28 and later install the Cloud Backup updater service, which keeps the agent
 up-to-date on the system.
+
+Use the following steps to update the backup agent for APT-based systems, such as the Ubuntu operating system, Debian, and Vyatta:
 
 1. Use SSH to log in to your server as a user with sudo or superuser privileges.
 
@@ -52,9 +54,9 @@ up-to-date on the system.
 
         apt-get install --reinstall --assume-yes driveclient
 
-### Update the agent for yum-based systems, including CentOS and Red Hat.
+### Update the agent for yum-based systems, including CentOS and Red Hat
 
-You might want to review
+For yum-based systems, including CentOS&reg; and Red Hat&reg;, you might want to review
 [Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
@@ -68,12 +70,12 @@ Cloud Backup updater service, which keeps the agent up-to-date on the system.
 
         yum upgrade -y driveclient
 
-**Note:** Fedora 22 and later use a new package manager called DNF. This is not supported.
+**Note:** Fedora&reg; 22 and later use a new package manager called DNF. This is not supported.
 (Dandified Yum).
 
 ### Update the agent for Arch, Gentoo, and SUSE systems
 
-You might want to review
+For Arch&reg;, Gentoo&reg;, and SUSE&reg; systems, you might want to review
 [Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 

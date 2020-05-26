@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v20-compatibility/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v2.0 compatibility
 type: article
 created_date: '2013-07-24'
 created_by: Juan Perez
-last_modified_date: '2016-01-13'
-last_modified_by: Rose Contreras
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---

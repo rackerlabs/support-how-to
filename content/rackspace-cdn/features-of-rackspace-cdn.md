@@ -5,8 +5,8 @@ title: Features of Rackspace CDN
 type: article
 created_date: '2015-05-11'
 created_by: Catherine Richardson
-last_modified_date: '2016-06-02'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2019-03-15'
+last_modified_by: Cat Lookabaugh
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
@@ -30,9 +30,7 @@ get your site up and running.
 **Multiple interface options**
 
 Rackspace CDN is fully supported via the Rackspace Cloud Control Panel.
-You can also interact with Rackspace CDN via our REST API or one of our
-software development kits (SDK) in Ruby, PHP, Java, node.js, Python, or
-.NET.
+You can also interact with Rackspace CDN by using our REST API.
 
 **Whole site delivery and acceleration**
 

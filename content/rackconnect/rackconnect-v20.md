@@ -1,11 +1,11 @@
 ---
 permalink: rackconnect-v20/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v2.0
 type: article
 created_date: '2012-08-21'
 created_by: Juan Perez
-last_modified_date: '2018-10-25'
+last_modified_date: '2019-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
@@ -24,54 +24,9 @@ new to Rackspace, call us at 1 800 961 2888 to open a new dedicated hosting
 account and learn more about the capabilities of a hybrid
 implementation.
 
-### Setting up a RackConnect configuration
-
-1.  Contact your Dedicated Account Manager or Account Management Team
-    and tell them that you want RackConnect set up in your environment.
-    They will start the process by having network engineers assess your
-    configuration for RackConnect compatibility and readiness.
-
-    -   If you don't have a device that is compatible with RackConnect,
-        our sales and account teams will work with you to upgrade
-        your environment.
-
-    -   If you do have a compatible device, your account team will
-        assess your device for RackConnect readiness (software versions,
-        an available physical interface). After the device has passed
-        the qualification checks, the RackConnect implementation
-        process starts.
-
-2.  When you begin the RackConnect implementation process, you receive a
-    ticket in the [MyRackspace Portal](https://login.rackspace.com/) that
-    outlines the steps that will get your environment ready
-    for RackConnect.
-
-    -   When you receive the ticket, you will have access to the
-        RackConnect Management Interface in the MyRackspace Portal. From
-        the main menu in the portal, navigate to **Network >
-        RackConnect** to review your configuration details, track the
-        status of your implementation, and start setting up your Cloud
-        account and network policies.
-
-    -   RackConnect engineers run the physical cabling to connect your
-        network device to our Cloud network, and set up the
-        configuration on your device to support RackConnect automation.
-
-3.  To move the RackConnect implementation process along as
-    quickly as possible, we encourage you to associate an existing Cloud
-    account to your RackConnect configuration. If you do not already
-    have an existing Cloud account, you can set one up by using the
-    online signup process in the MyRackspace Portal. See the following
-    section for instructions on associating your Cloud account with
-    RackConnect and completing the setup of your network policies.
-
-4.  After we have completed the necessary steps and your RackConnect
-    configuration is ready to use (typically within 5-10 business days
-    of receiving the ticket in step 2), you receive an update in the
-    ticket telling you that the implementation is complete.
-
-To use RackConnect, you must complete the process detailed in the next
-section for at least one Cloud account.
+We are no longer deploying new RackConnect v2.0 environments. If you are
+interested in using RackConnect, contact your account manager for information
+about deploying RackConnect v3.0.
 
 For a collection of recommendations for using RackConnect, see
 [RackConnect best practices](/how-to/rackconnect-v20-best-practices).

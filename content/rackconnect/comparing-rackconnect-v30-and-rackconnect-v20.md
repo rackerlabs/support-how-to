@@ -1,12 +1,12 @@
 ---
 permalink: comparing-rackconnect-v30-and-rackconnect-v20/
-audit_date:
+audit_date: '2019-12-16'
 title: Comparing RackConnect v3.0 and RackConnect v2.0
 type: article
 created_date: '2014-08-26'
 created_by: Juan Perez
-last_modified_date: '2016-01-21'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -19,7 +19,8 @@ RackConnect v2.0 is the second iteration of RackConnect and was released in Nove
 
 ### Migration and maintenance for RackConnect 2.0
 
-A migration path from RackConnect v2.0 to RackConnect v3.0 is being developed, but details about how the migration process will work and when it will be released are not yet available.
+A migration path from RackConnect v2.0 to RackConnect v3.0 is available for
+existing RackConnect v2.0 customers.
 
 Now that RackConnect v3.0 is UA, RackConnect v2.0 will be unavailable to new customers. We will continue to support existing RackConnect v2.0 customer environments.
 
@@ -30,6 +31,10 @@ Cloud Networks is a requirement for and is an inherent part of how RackConnect v
 For more information about how Cloud Networks works with RackConnect v2.0, see the [RackConnect v2.0 with Cloud Networks FAQ](/how-to/rackconnect-v20-with-cloud-networks-faq).
 
 ### QoS policies
+
+**Important**: This QoS policy applies only to our oldest RackConnect v3.0
+customers and is no longer applicable for a majority of RackConnect
+v3.0 deployments.
 
 Traffic across a RackConnect v3.0 link between cloud and dedicated environments has its bandwidth limited by quality of service (QoS) policies. By default, these QoS policies are set to limit bandwidth throughput to 100 Mbps (megabits per second), but this limit may be increased on a case-by-case basis. If you need this value increased, [contact us](/how-to/support).
 

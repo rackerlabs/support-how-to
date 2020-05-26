@@ -5,8 +5,8 @@ title: Cloud Backup agent logging basics
 type: article
 created_date: '2014-05-29'
 created_by: Ross Diaz
-last_modified_date: '2018-12-20'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -57,8 +57,8 @@ this article.
 
 The Cloud Backup agent stores troubleshooting information in a *primary log
 file* and a series of up to 12 *rollover log files*. When logging capacity is
-reached, the primary log file is rolled over to a rollover log file, and a new
-primary log file is started. As more logs are rolled over to the point
+reached, the primary log file rolls over to a rollover log file, and a new
+primary log file is started. As more logs roll over to the point
 that the maximum number of rollover logs is reached, the oldest rollover log
 file is deleted.
 

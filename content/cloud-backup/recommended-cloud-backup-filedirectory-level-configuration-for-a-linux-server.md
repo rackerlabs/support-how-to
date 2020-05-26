@@ -31,4 +31,4 @@ To back up a database, see the article on [backing up databases](/how-to/rackspa
 Instead of listing specific files and directories to back up, you can configure Cloud Backup to back up 
 the entire file system and exclude individual files or directories as needed.
 
-For more information, see [Best practices for Cloud Backup](https://support.rackspace.com/how-to/best-practices-for-cloud-backup/).
+For more information, see [Best practices for Cloud Backup](/how-to/best-practices-for-cloud-backup/).

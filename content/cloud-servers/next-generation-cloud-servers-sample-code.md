@@ -129,7 +129,7 @@ You can also update or delete a user.
 #### Code Sample:  Get Server Details Response (XML)
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <server xmlns:RAX-SERVER="http://docs.rackspace.com/servers/api/ext/server_bandwidth/" xmlns="http://docs.openstack.org/compute/api/v1.1" xmlns:atom="http://www.w3.org/2005/Atom" id="52415800-8b69-11e0-9b19-734f000004d2" tenant_id="1234" user_id="5678" name="sample-server" status="BUILD" updated="2010-10-10T12:00:00Z" created="2010-08-10T12:00:00Z" progress="60" hostId="e4d909c290d0fb1ca068ffaddf22cbd0" accessIPv4="67.23.10.132" accessIPv6="::babe:67.23.10.132">
+    <server xmlns:RAX-SERVER="https://docs.rackspace.com/servers/api/ext/server_bandwidth/" xmlns="http://docs.openstack.org/compute/api/v1.1" xmlns:atom="http://www.w3.org/2005/Atom" id="52415800-8b69-11e0-9b19-734f000004d2" tenant_id="1234" user_id="5678" name="sample-server" status="BUILD" updated="2010-10-10T12:00:00Z" created="2010-08-10T12:00:00Z" progress="60" hostId="e4d909c290d0fb1ca068ffaddf22cbd0" accessIPv4="67.23.10.132" accessIPv6="::babe:67.23.10.132">
         <image id="52415800-8b69-11e0-9b19-734f6f006e54">
             <atom:link rel="self" href="http://servers.api.rackspacecloud.com/v2/1234/images/  52415800-8b69-11e0-9b19-734f6f006e54"/>
             <atom:link rel="bookmark" href="http://servers.api.rackspacecloud.com/1234/images/  52415800-8b69-11e0-9b19-734f6f006e54"/>

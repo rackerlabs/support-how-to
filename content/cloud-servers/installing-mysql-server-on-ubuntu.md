@@ -1,12 +1,12 @@
 ---
-permalink: installing-mysql-server-on-ubuntu/
+permalink: install-mysql-server-on-the-ubuntu-operating-system/
 audit_date: '2018-03-13'
-title: Install MySQL Server on Ubuntu
+title: Install MySQL Server on the Ubuntu operating system
 type: article
 created_date: '2011-07-29'
 created_by: Jered Heeschen
-last_modified_date: '2019-02-27'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-12-20'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -16,22 +16,26 @@ a good choice if you know that you need a database but don't know much about
 all the available options.
 
 This article describes a basic installation of a MySQL database server on
-Ubuntu Linux. You might need to install other packages to let applications use
-MySQL, like extensions for PHP. Check your application documentation for
-details.
+the Ubuntu operating system. You might need to install other packages to let
+applications use MySQL, like extensions for PHP. Check your application
+documentation for details.
 
 ### Install MySQL
 
-Install the MySQL server by using the Ubuntu package manager:
+Install the MySQL server by using the Ubuntu operating system package manager:
 
     sudo apt-get update
     sudo apt-get install mysql-server
 
 The installer installs MySQL and all dependencies.
 
-After installation is complete, the `mysql_secure_installation`
-utility runs. This utility prompts you to define the mysql root password
-and other security related options, including removing remote access
+If the secure installation utility does not launch automatically after the
+installation completes, enter the following command:
+
+    sudo mysql_secure_installation utility
+
+This utility prompts you to define the mysql root password
+and other security-related options, including removing remote access
 to the root user and setting the root password.
 
 ### Allow remote access
@@ -43,6 +47,7 @@ is running on the same server.
 
 Run the following command to allow remote access to the mysql server:
 
+    sudo ufw enable
     sudo ufw allow mysql
 
 ### Start the MySQL service
@@ -51,14 +56,28 @@ After the installation is complete, you can start the database service by
 running the following command. If the service is already started, a message
 informs you that the service is already running:
 
-    systemctl start mysql
+    sudo systemctl start mysql
 
 ### Launch at reboot
 
 To ensure that the database server launches after a reboot, run the following
 command:
 
-    systemctl enable mysql
+    sudo systemctl enable mysql
+
+### Configure interfaces
+
+MySQL, by default is no longer bound to ( listening on ) any remotely accessible interfaces.
+Edit the "bind-address" directive in /etc/mysql/mysql.conf.d/mysqld.cnf:
+
+    bind-address		= 127.0.0.1 ( The default. )
+    bind-address		= XXX.XXX.XXX.XXX ( The ip address of your Public Net interface. )
+    bind-address		= ZZZ.ZZZ.ZZZ.ZZZ ( The ip address of your Service Net interface. )
+    bind-address		= 0.0.0.0 ( All ip addresses. )
+
+Restart the mysql service.
+
+    sudo systemctl restart mysql
 
 ### Start the mysql shell
 
@@ -87,10 +106,10 @@ password that you set, you can create or change the password.
    your new password:
 
        UPDATE mysql.user SET Password = PASSWORD('password') WHERE User = 'root';
-   
+
    For version MySQL 5.7 and later, enter the following command in the `mysql` shell, replacing `password` with
    your new password:
-   
+
        UPDATE mysql.user SET authentication_string = PASSWORD('password') WHERE User = 'root';
 
 
@@ -102,6 +121,8 @@ password that you set, you can create or change the password.
    commands in lowercase, they'll work. By convention, the commands are
    written in all-caps to make them stand out from field names and other
    data that's being manipulated.
+
+If you need to reset the root password later, see [Reset a MySQL root password](/how-to/mysql-resetting-a-lost-mysql-root-password).
 
 ### View users
 
@@ -116,7 +137,7 @@ The following list describes the parts of that command:
 
  - **SELECT** tells MySQL that you are asking for data.
  - **User**, **Host**, **authentication_string** tells MySQL what fields you want it to
-   look in. Fields are categories for the data in a table. In this case you
+   look in. Fields are categories for the data in a table. In this case, you
    are looking for the username, the host associated with the username, and
    the encrypted password entry.
  - **FROM mysql.user** " tells MySQL to get the data from the **mysql**
@@ -140,10 +161,10 @@ The following example is the output for the preceding query:
     | debian-sys-maint | localhost | *27E7CA2445405AB10C656AFD0F86AF76CCC57692 |
     +------------------+-----------+-------------------------------------------+
 
-Users are associated with a host, specifically, the host to which they connect.
+Users are associated with a host, specifically, the host from which they connect.
 The root user in this example is defined for **localhost**, for the IP address
 of **localhost**, and the hostname of the server.
-You'll usually need to set a user for only one host, the one from which you
+You usually need to set a user for only one host, the one from which you
 typically connect.
 
 If you're running your application on the same computer as the MySQL
@@ -260,23 +281,24 @@ but can't be used to make any database changes.
 If you're just creating a database and a user, you are done. The concepts
 covered here should give you a solid start from which to learn more.
 
-### Next section
+### Related articles
 
-[Configuring MySQL server on Ubuntu](/how-to/configuring-mysql-server-on-ubuntu)
+- [Configure MySQL server on the Ubuntu operating system](/how-to/configure-mysql-server-on-the-ubuntu-operating-system)
+- [Reset a MySQL root password](/how-to/mysql-resetting-a-lost-mysql-root-password)
 
 
 <script type="application/ld+json">
    {
    "@context": "http://schema.org/",
    "@type": "HowTo",
-   "name":"Install MySQL Server on Ubuntu",
-   "description": "This article describes a basic installation of a MySQL database server on Ubuntu Linux.",
+   "name":"Install MySQL Server on the Ubuntu operating system",
+   "description": "This article describes a basic installation of a MySQL database server on the Ubuntu operating system.",
    "step": [
    	{
    	"@type": "HowToSection",
    	"name": "Install MySQL",
        "position": "1",
-   	"itemListElement": "To install the MySQL server by using the Ubuntu package manager, run the following command: sudo apt-get install mysql-server"
+   	"itemListElement": "To install the MySQL server by using the Ubuntu operating system package manager, run the following command: sudo apt-get install mysql-server"
    	},{
    	"@type": "HowToSection",
    	"name": "Allow remote access and start the service",

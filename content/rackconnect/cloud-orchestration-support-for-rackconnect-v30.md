@@ -1,18 +1,18 @@
 ---
 permalink: cloud-orchestration-support-for-rackconnect-v30/
-audit_date:
+audit_date: '2019-10-04'
 title: Cloud Orchestration support for RackConnect v3.0
 type: article
 created_date: '2015-02-11'
 created_by: Juan Perez
 last_modified_date: '2016-01-04'
-last_modified_by: Constanze Kratel
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
 
 Rackspace Cloud Orchestration support for RackConnect v3.0 enables you
-to build a stack of RackConnect v3.0 cloud servers and have them
+to build a stack of RackConnect v3.0 cloud servers. It has them
 automatically provisioned on your RackConnect v3.0 cloud network,
 assigned public IP addresses, and automatically added to your
 dedicated load balancer pools. When you use Cloud Orchestration, the
@@ -34,8 +34,7 @@ Although an official RackConnect v3.0 heat template has not been
 released yet, an in-development template is available on GitHub at
 <https://github.com/rackerlabs/heat-ci/blob/master/dev/rackconnect.template>.
 
-If you have the [heat
-client](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/#using-the-heat-client)
+If you have the [heat client](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/#using-the-heat-client)
 installed, you can also get more details about the RackConnect specific
 resources available with Cloud Orchestration by running the
 `resource-type-show` commands as follows:

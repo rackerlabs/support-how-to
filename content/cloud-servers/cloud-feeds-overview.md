@@ -71,8 +71,8 @@ you navigate the list of events in the feed.
 If you want more information, such as a list of URLs, information about
 the feeds and events available, how to determine your tenant ID and
 retrieve authentication tokens, and supported request options, see the
-[Getting Started with Cloud Feeds](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-getting-started/content/index.html)
-and the [Cloud Feeds Developer Guide](http://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/index.html).
+[Getting Started with Cloud Feeds](https://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-getting-started/content/index.html)
+and the [Cloud Feeds Developer Guide](https://docs.rackspace.com/cloud-feeds/api/v1.0/feeds-devguide/content/index.html).
 
 ### Getting help and providing feedback
 

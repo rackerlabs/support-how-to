@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v30-compatibility/
-audit_date: '2017-10-24'
+audit_date: '2019-12-16'
 title: RackConnect v3.0 compatibility
 type: article
 created_date: '2014-09-08'
 created_by: Juan Perez
-last_modified_date: '2017-11-01'
-last_modified_by: Brian King
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---
@@ -31,7 +31,7 @@ Cloud Files | ServiceNet | Cloud Files provides an easy-to-use online storage fo
 Cloud Monitoring | Provisioned public IP address | Cloud Monitoring provides you with timely and accurate information about how your resources are performing. You can quickly create multiple monitors that use predefined checks such as PING, HTTPS, and SMTP to track your cloud resources and receive instant notification when a resource needs your attention. | [Getting Started with Cloud Monitoring](/how-to/cloud-monitoring)
 Cloud Networks | None | RackConnect v3.0 depends on and leverages Cloud Networks to connect from your RackConnect cloud servers to your dedicated environment. You use Cloud Networks to create and manage secure, isolated networks in the cloud. These networks are fully single tenant and you have complete control over the network topology, IP addressing, and which cloud servers are attached. Cloud networks are regional in scope and can be attached to any of your cloud servers in a given region. | [Getting Started with Cloud Networks](/how-to/cloud-networks)
 Cloud Orchestration | None | Rackspace Cloud Orchestration helps you set up projects and servers with just a few clicks instead of lengthy installations. You can usually be up and running in less than five minutes, depending on the template that you choose and other factors. Cloud Orchestration provides templates for a LAMP stack to get your web server up and running quickly, a Minecraft server, and a WordPress blog, just to name a few. | [Quick set up with Rackspace Cloud Orchestration](/how-to/quick-set-up-with-rackspace-cloud-orchestration)
-Managed Operations support level | ServiceNet | Managed Operations provides support beyond Managed Infrastructure, including direct assistance with resizes, snapshots, host machine issues, adding and removing servers, and managing IP addresses. To ensure **Fanatical Support**&reg;, Rackspace provides support for specific software and server configurations on Cloud Servers with Managed Operations support. | [Linux Spheres of Support for Dedicated and Managed Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
+Managed Operations support level | ServiceNet | Managed Operations provides support beyond Managed Infrastructure, including direct assistance with resizes, snapshots, host machine issues, adding and removing servers, and managing IP addresses. Rackspace provides support for specific software and server configurations on Cloud Servers with Managed Operations support. | [Linux Spheres of Support for Dedicated and Managed Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
 ObjectRocket | ServiceNet | The ObjectRocket platform is built for scalability, speed, and safety. It provides fully managed instances of MongoDB and Redis in data centers across the globe. <br /><br /> RackConnect v3.0 is <strong>compatible</strong> with <strong>ObjectRocket Redis </strong>instances that have a ServiceNet IP address in the 10.188.0.0/15 range. If an instance has a ServiceNet IP address that is not in this range, contact ObjectRocket support. <br /><br /> RackConnect v3.0 is <strong>compatible</strong> with <strong>MonogoDB</strong>. | [ObjectRocket Getting Started Guide](https://docs.objectrocket.com/getting_started.html)
 
 ### RackConnect v3.0 compatibility with Rackspace dedicated network device offerings
@@ -42,6 +42,8 @@ Network device | Details
 --- | ---
 Cisco ASA Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 Cisco ASA X Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
+Cisco Firepower Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
+Cisco NetScaler | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 Juniper SRX Series Firewalls | [RackConnect network device comparison](/how-to/rackconnect-network-device-comparison)
 BIG-IP F5 Load Balancers | [Using dedicated load balancers with RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20)
 Brocade Load Balancer | [Using dedicated load balancers with RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20)
@@ -56,3 +58,4 @@ Managed Colocation  | Network devices in a Managed Colocation environment are su
 Managed Storage | The Managed Storage offering is compatible only with dedicated servers in a RackConnect configured dedicated environment. The Managed Storage offering cannot be used directly with cloud servers. | [Managed Storage](https://www.rackspace.com/managed-hosting/data-storage)
 Managed Virtualization | Yes | [Managed Virtualization](https://www.rackspace.com/cloud/private/managed_virtualization/)
 Private Cloud | Yes | [Private Cloud](https://www.rackspace.com/cloud/private/)
+Cloud Load Balancers | Yes | By default, Cloud Load Balancers is blocked on RackConnect v3.0. A special process must occur before Cloud Load Balancers traffic is allowed. Contact your dedicated support team to request Cloud Load Balancers access on RackConnect v3.0.

@@ -14,7 +14,7 @@ product_url: rackspace-monitoring
 ### Getting Started
 
 -   Rackspace Monitoring Getting Started Guide:
-    [https://developer.rackspace.com/docs/cloud-monitoring/getting-started](https://developer.rackspace.com/docs/cloud-monitoring/getting-started/)
+    [https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/)
 -   [Getting started with the Cloud Monitoring CLI
     (Raxmon)](/how-to/getting-started-with-rackspace-monitoring-cli)
 

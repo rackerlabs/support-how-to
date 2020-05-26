@@ -5,8 +5,8 @@ title: Best practices for Cloud Backup
 type: article
 created_date: '2013-04-22'
 created_by: David Hendler
-last_modified_date: '2018-12-18'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-01-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -43,6 +43,7 @@ Knowing the language of backups can help you make informed decisions about your 
 - **Block**: A chunk of data from a file.
 - **Bundle**: Several blocks packaged together.
 - **Cloud Backup agent**: A program installed on your server that helps to perform backups and restores.
+- **Cloud Files**: Where your bundles and other files that are used to restore backups are stored. See [Rackspace Cloud Files](/how-to/cloud-files).
 - **Data churn**: How often a file changes.
 - **Encryption**: A method of scrambling the contents of data by using a key or a password so that only those who have the key or password can read the data.
 - **Restore**: To bring your system back to a previously saved state, usually using a backup as the checkpoint.
@@ -51,7 +52,7 @@ Knowing the language of backups can help you make informed decisions about your 
 
 ### Choosing what to back up
 
-**Warning:** Cloud Backup does *not* follow symlinks. For example, if a symlink points to a file, the symlink itself is backed up, but the file it points to is not backed up. Likewise, if a symlink points to a folder, the symlink itself is backed up, but the folder and anything under the folder is not be backed up. If you want to back up a file or a folder, *do not use a symlink*.
+**Warning:** Cloud Backup does *not* follow symlinks. For example, if a symlink points to a file, the symlink itself is backed up, but the file it points to is not backed up. Likewise, if a symlink points to a folder, the symlink itself is backed up, but the folder and anything under the folder are not backed up. If you want to back up a file or a folder, *do not use a symlink*.
 
 As a best practice for Linux&reg; web servers and database servers, we recommend
 using Cloud Backup on the following directories:
@@ -61,7 +62,7 @@ using Cloud Backup on the following directories:
 -   User data under `/home`
 -   Systems configuration files under `/etc`
 
-**Note:** Do not compress your data before it is backed up. Doing so defeats the backup deduplication, which is typically more efficient than simple file compression. Deduplication works across all files in all snapshots and stores only the new data. This almost always saves you more storage space and money during the backup process than simple compression does.
+**Note:** Do not compress your data before you back it up. Doing so defeats the backup deduplication, which is typically more efficient than simple file compression. Deduplication works across all files in all snapshots and stores only the new data. Deduplication almost always saves you more storage space and money during the backup process than simple compression does.
 
 We *do not support* backing up the following items:
 
@@ -86,7 +87,17 @@ The Cloud Backup agent skips the following types of files automatically:
 - Recycle Bin (Windows)
 - **desktop.ini** and **thumbs.db** (Windows)
 
-### Backup and restore best practices
+### Protecting backups from malicious attacks
+
+Occasionally, a bad actor might attempt to destroy a company's cloud assets, such as files, websites, databases, and so on. The bad actor might be a foreign attacker who stole cloud account authentication info,
+it might be a disgruntled employee with access to company assets, or it might be any similar bad actor. Attacks like this can cripple or kill a company, and the ability to recover backups
+might make the difference between whether the company survives the attack or not.
+
+It is possible to provide an extra layer of protection from such an attack for critical backups by keeping an **offsite copy** of the files and container structures that are used to restore
+those backups. An **offsite copy** is inaccessible to the bad actor who has your Rackspace login credentials. General instructions for how and why to use offsite copies are at the end of the article
+[Recovering from a Bad Actor Attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
+
+### Backup and restore strategy best practices
 
 You can configure backups and restores in many ways. To make Cloud Backup work for you, it helps to understand some of the trade-offs you make when you configure the many options available to you.
 
@@ -170,13 +181,13 @@ On Windows cloud servers, you can use the **AgentConfig.exe** tool located in th
 
 4.  To change the location, click the folder icon next to **Cache Target Location** and select a folder on a different drive.
 
-5.  To move the cache location, click the green arrow at the top of the window. The progress is displayed in  **Move Log**.
+5.  To move the cache location, click the green arrow at the top of the window. The progress displays in  **Move Log**.
 
     Depending on the size of the cache files, this process might take some time.
 
 6.	Restart the Cloud Backup agent service.    
 
-**Note**: In order to move the cache files, the Cloud Backup agent service must be shut down briefly.
+**Note**: To move the cache files, you must shut down the Cloud Backup agent service briefly.
 
 Alternatively, you can move only the backup local database files for the agent by using the **Database** tab.
 
@@ -206,7 +217,7 @@ To turn on debugging for auto-update, select **Auto Update Debug** and then clic
 
 ##### **Repair the Add/Remove Programs listing**
 
-Older versions of the agent were sometimes installed without adding an entry in the **Add/Remove Programs** console.
+Older versions of the agent are sometimes installed without adding an entry in the **Add/Remove Programs** console.
 
 To repair this issue, select  **Repair Add/Remove Programs Listing** and then click **Save**.
 
@@ -218,11 +229,11 @@ You can change the most commonly changed log file settings by using the **AgentC
 
 -  Set the maximum number of rollover logs by changing the value in the **Max Rollover Logs** field.
 
--  You can temporarily change the log level by selecting the value in the **Local Log Level** field. The log level is changed every time that the Cloud Backup API sends a configuration change or update to the agent. To keep logging at the appropriate level, also set the log level in the [Cloud Control Panel](https://login.rackspace.com). The advantage of setting the log level locally is that doing so changes the level prior to receiving a configuration change or update, which is useful for things like debugging agent startup.
+-  You can temporarily change the log level by selecting the value in the **Local Log Level** field. The log level is changed every time that the Cloud Backup API sends a configuration change or update to the agent. To keep logging at the appropriate level, also set the log level in the [Cloud Control Panel](https://login.rackspace.com). The advantage of setting the log level locally is that doing so changes the level before receiving a configuration change or update, which is useful for things like debugging agent startup.
 
 After you change any of these values, click **Save**.
 
-For more information, see [Cloud Backup agent logging] (https://support.rackspace.com/how-to/cloud-backup-agent-logging-basics/).
+For more information, see [Cloud Backup agent logging] (/how-to/cloud-backup-agent-logging-basics/).
 
 ### Frequently encountered issues
 
@@ -249,4 +260,4 @@ To minimize your chances of experiencing the following issues, keep your backup 
 
 - **My backup or restore is slow. What can I do?**
 
-  If your backup or restore is encrypted, it will be especially slow. Also, review the “Choosing what to back up” section for what you should *not* be backing up. The less there is to back up or restore, the faster the process will be.
+  If your backup or restore is encrypted, it is especially slow. Also, review the “Choosing what to back up” section for what you should *not* be backing up. The less there is to back up or restore, the faster the process is.

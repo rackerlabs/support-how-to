@@ -1,12 +1,12 @@
 ---
 permalink: glusterfs-troubleshooting/
-audit_date:
+audit_date: '2020-05-04'
 title: Troubleshoot GlusterFS
 type: article
 created_date: '2014-08-14'
 created_by: Marcin Stangel
-last_modified_date: '2016-06-24'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-05-04'
+last_modified_by: Catherine Richardson
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -20,13 +20,13 @@ This article describes two GlusterFS issues that you might encounter and provide
 
 ### Heal replicated volumes
 
-When any brick in a replicated volume goes offline, the `glusterd` daemons on the remaining nodes keep track of all the files that are not replicated to the offline brick. When the offline brick becomes available again, the cluster initiates a healing process, replicating the updated files to that brick. The start of this process can take up to 10 minutes, based on observation.
+When any brick in a replicated volume goes offline, the `glusterd` daemons on the remaining nodes keep track of all the files not replicated to the offline brick. When the offline brick becomes available again, the cluster initiates a healing process, replicating the updated files to that brick. The start of this process can take up to 10 minutes, based on observation.
 
-You can view information about which files need to be replicated by running the following command:
+You can view information about which files to replicate by running the following command:
 
      gluster volume heal volumeName info
 
-You can view information about the files that have been replicated during the healing process. You can also view information about files that have been independently changed on the offline node (split-brain), or that have failed replication for any reason. Append the following options to the preceding command:
+You can view information about the replicated files during the healing process. You can also view information about independently changed files on the offline node (split-brain), or files that failed replication for any reason. Append the following options to the preceding command:
 
     gluster volume heal volumeName info healed
 
@@ -34,7 +34,7 @@ You can view information about the files that have been replicated during the he
 
     gluster volume heal volumeName info split-brain
 
-You can also force healing manually by invoking the following command. If you use the optional argument `full`, all of the files that weren't marked as needing to be healed are also synchronized.
+You can also force healing manually by invoking the following command. If you use the optional argument `full`, all of the files that aren't marked as needing to be healed are also synchronized.
 
     gluster volume heal volumeName
 
@@ -44,9 +44,9 @@ Optional:
 
 ### Fix a split-brain problem
 
-A *split-brain* problem occurs when one of the replicated nodes goes offline (or is disconnected from the cluster) and a file on one of its bricks is updated. After the node rejoins the GlusterFS cluster, the healing process fails because of the conflict caused by two different versions of the file.
+A *split-brain* problem occurs when one of the replicated nodes goes offline (or is disconnected from the cluster), and a file on one of its bricks is updated. After the node rejoins the GlusterFS cluster, the healing process fails because of the conflict caused by two different versions of the file.
 
-In the following example, this problem is triggered manually and then fixed. The node called `gluster4` is disconnected and one of the files stored on its brick is modified:
+In the following example, this problem is triggered manually and then fixed. The node called `gluster4` is disconnected, and one of the files stored on its brick is modified:
 
     [root@gluster1 ~]# cat /mnt/gluster/gvol0/testfile.txt
     This is version 1 of the file

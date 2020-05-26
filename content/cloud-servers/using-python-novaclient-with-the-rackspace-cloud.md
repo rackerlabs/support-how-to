@@ -23,10 +23,11 @@ We have installation instructions for Windows, Mac OS X, and Linux:
 -   [Installing python-novaclient on
     Windows](/how-to/installing-python-novaclient-on-windows)
 -   [Installing python-novaclient on Linux and Mac
-    OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
+    OS](https://developer.rackspace.com/blog/getting-started-using-python-novaclient-to-manage-cloud-servers/)
 
 You'll find a list of common operations that can be performed with the
 client here:
 
 -   [Useful python-novaclient
     commands](/how-to/useful-python-novaclient-commands)
+

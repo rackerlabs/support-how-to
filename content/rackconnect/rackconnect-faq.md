@@ -1,11 +1,11 @@
 ---
 permalink: rackconnect-faq/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect FAQ
 type: article
 created_date: '2014-09-26'
 created_by: Juan Perez
-last_modified_date: '2018-10-25'
+last_modified_date: '2010-12-16'
 last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect

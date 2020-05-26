@@ -5,13 +5,13 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2018-12-17'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-12-20'
+last_modified_by: Stephanie Fillmon
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article outlines our **Fanatical Support&reg;** of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
+This article outlines our support of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
 
 ### Operating systems
 
@@ -23,13 +23,11 @@ The following operating systems are supported for both Dedicated and Managed Ope
 - Red Hat Enterprise Linux 6
 - Ubuntu&reg; 18.04 LTS (Bionic Beaver)
 - Ubuntu 16.04 LTS (Xenial Xerus)
-- Ubuntu 14.04 LTS (Trusty Tahr)
 
 The following operating systems are supported only for Managed Operations:
 
 - Debian&reg; 9 (Stretch)
 - Debian 8 (Jessie)
-- Ubuntu 18.04 LTS (Bionic Beaver)
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
@@ -153,12 +151,12 @@ Although we don't support all technologies, we do offer *reasonable endeavor* su
 -  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
    support is offered to help use Cloud Files via the API.
 -  **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Bind/named are *not* supported at this time.
--  **Firewall**: Support is provided for iptables, Ubuntu ufw, and fail2ban.
+-  **Firewall**: Support is provided for iptables, Ubuntu operating system ufw, and fail2ban.
 -  **Load Balancing**: Cloud Load Balancers are supported.
 
 ### Third-party repositories
 
-Fanatical Support for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
+The Support team for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
 
 - [EPEL](http://fedoraproject.org/wiki/EPEL)
 - [IUS](https://ius.io/)
@@ -181,4 +179,4 @@ Except as set forth in Rackspace general terms and conditions, cloud terms of se
 
 Although part of the document explains how Rackspace services may work with third party products, the information contained in the document is not designed to work with all scenarios. Any use or changes to third party product and/or configurations should be made at the discretion of your administrators and subject to the applicable terms and conditions of such third party. Rackspace does not provide technical support for third party products, other than specified in your hosting services or other agreement you have with Rackspace and Rackspace accepts no responsibility for third-party products.
 
-Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Copyright &copy; 2016 Rackspace &#124; Rackspace&reg;, **Fanatical Support**&reg; and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.
+Rackspace cannot guarantee the accuracy of any information presented after the date of publication. Rackspace&reg; and other Rackspace marks are either registered service marks or service marks of Rackspace US, Inc. in the United States and other countries. All other trademarks, service marks, images, products and brands remain the sole property of their respective holders and do not imply endorsement or sponsorship.

@@ -5,8 +5,8 @@ title: Migrate your email by using the Self-Service Migration Tool
 type: article
 created_date: '2013-03-18'
 created_by: William Loy
-last_modified_date: '2018-03-30'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2019-05-28'
+last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -65,6 +65,9 @@ For more information about the migration preparation required for POP, IMAP, and
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 2. In the **Domains** section at the bottom of the screen, click **Email Migrations**.
+
+   **Note:** If you do not see the **Email Migrations** option, click the following link to go directly to the [Self Service Migration Tool](https://rackspace.selfmigration.com).
+
 3. Click **Start Migration Now**.
 
    You are redirected to the MigrationWiz portal.

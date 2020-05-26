@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-v30-upgrade-information/
-audit_date:
+audit_date: '2019-12-16'
 title: RackConnect v3.0 upgrade information
 type: article
 created_date: '2015-12-21'
 created_by: Rackspace Support
-last_modified_date: '2018-01-02'
-last_modified_by: Brian King
+last_modified_date: '2019-12-16'
+last_modified_by: Stephanie Fillmon
 product: RackConnect
 product_url: rackconnect
 ---

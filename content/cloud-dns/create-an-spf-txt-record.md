@@ -5,8 +5,8 @@ title: Create an SPF TXT record
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2019-08-12'
+last_modified_by: William Loy
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -46,13 +46,13 @@ The example in this section assumes that you have the following considerations
 for your email on a specific domain:
 
 -   The authorized servers are your cloud server (that is, the incoming mail
-    exchange (MX) details also send mail) and Google mail.
+    exchange (MX) details also send mail).
 -   No other servers are authorized.
 
 In this situation, you would create the following rule and add it to a TXT
 record:
 
-    v=spf1 mx include:\_spf.google.com -all
+    v=spf1 mx include:\_spf.example.com -all
 
 The following list shows how each part of the record is defined:
 
@@ -60,7 +60,7 @@ The following list shows how each part of the record is defined:
 
 -   `mx`: Allows the domain's MX details to send email.
 
--   `include:_spf.google.com`: Includes Google Mail servers as
+-   `include:_spf.example.com`: Includes example mail servers as
     authorized servers.
 
 -   `-all`: Indicates that servers that are not listed previously are
