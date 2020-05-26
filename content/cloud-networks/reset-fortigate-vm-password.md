@@ -33,3 +33,10 @@ application or script that can type input rather than paste. Something like [Aut
 [AutoKey](https://github.com/autokey/autokey) for linux, or [Alfred](https://www.alfredapp.com/) on 
 MacOS (with the [Packal](https://www.packal.org/workflow/type-clipboard) workflow). There is no indicator of when your time runs out so 
 it is possible that it might take more than one attempt to succeed.
+
+Now that you are in to the Fortigate firewall you can reset the admin password with the following command
+
+       config system admin
+          edit admin
+            set password <password>
+       end
