@@ -1,7 +1,7 @@
 ---
 permalink: enable-ssh-remote-root-login-on-centos-and-the-ubuntu-operating-system/
-audit_date: '2020-05-28'
-title: 'Enable SSH remote root login on CentOS and the Ubuntu operating system
+audit_date: '2020-05-128'
+title: 'Enable SSH remote root lgin on CentOS and the Ubuntu operating system'
 type: article
 created_date: '2020-05-26'
 created_by: John Abercrombie
