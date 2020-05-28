@@ -5,24 +5,24 @@ title: 'Base service commands'
 type: article
 created_date: '2020-05-26'
 created_by: Matthew Brown
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-05-28'
+last_modified_by: 'Cat Lookabaugh'
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to manage services using **systemd**.
+This article describes how to manage services by using **systemd**.
 
 ### Introduction
 
-Many modern Linux operating systems available at Rackspace, such as Centos 7 and later and Ubuntu 16.04,
-have adopted **systemd** as a system manager, so you might want to know the ins and outs of how to use it
+Many modern Linux&reg; operating systems available at Rackspace, such as Centos&reg; 7 and later and Ubuntu&reg; 16.04,
+adopted **systemd** as a system manager. So you might want to know the ins and outs of how to use it
 to manage your applications.
 
 ### Use `systemctl`
 
 When you use **systemd** to manage applications, you use the command `systemctl`. The following sections
-describe sever of this comand's functions.
+describe several of this command's functions.
 
 #### Start and stop services
 
