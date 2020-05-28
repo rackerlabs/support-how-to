@@ -15,8 +15,8 @@ product_url: rackconnect
 
 RackConnect&reg; Global is a software-defined, multi-cloud interconnection
 platform that links Rackspace customers with other Rackspace data centers,
-third-party data centers, and third-party clouds via direct, private, low-
-latency, virtual connections. All traffic flowing between every endpoint
+third-party data centers, and third-party clouds via direct, private, low-latency,
+virtual connections. All traffic flowing between every endpoint
 avoids the public Internet, and instead, rides the Rackspace private backbone.
 
 #### Why should I care about avoiding the public Internet?
@@ -27,7 +27,7 @@ hosted private cloud, public cloud, and multiple Software-as-a-Service (SaaS)
 offerings. Data stored and processed in each must flow from one to the other
 rapidly and securely. Over two-thirds of data traffic travels east-west
 between clouds, rather than north-south to the end user. This flow of
-information is susceptible. If an adversary can make their way into the east-west traffic, there's a good chance they could make their way easily across
+information is susceptible to intrusion. If an adversary can make their way into the east-west traffic, there's a good chance they could make their way easily across
 the network and into all of your platforms.
 
 #### How does RackConnect Global work?
@@ -35,8 +35,7 @@ the network and into all of your platforms.
 RackConnect Global is an “ecosystem of ecosystems.” Rackspace has linked the
 leading interconnection exchanges and cloud providers to our proprietary
 backbone. After you’ve connected with the Rackspace backbone via a Rackspace
-data center or edge location (backbone routers in third-party connectivity-
-rich colocation sites), you can spin up virtual connections across the
+data center or edge location (backbone routers in third-party connectivity-rich colocation sites), you can spin up virtual connections across the
 Rackspace footprint as well as Megaport and the Equinix Cloud Exchange Fabric.
 This enables Rackspace to provide multiple paths for connecting with all your
 cloud and colocation providers wherever they are across the globe for an
@@ -53,8 +52,8 @@ RackConnect Global of tremendous value. The private, secure, low-latency
 solution saves traffic flowing between all connected environments&mdash;Rackspace
 and third-party&mdash;from riding the insecure and bogged down public Internet.
 Compared to procuring long-term individual point-to-point connections from a
-telecommunications carrier between each of your clouds, leveraging the
-RackConnect Global Any-to-Any offering is significantly more cost-effective,
+telecommunications carrier between each of your clouds,
+RackConnect Global Any-to-Any connectivity is significantly more cost-effective,
 flexible, and easier to implement.
 
 #### What are the primary use cases?
