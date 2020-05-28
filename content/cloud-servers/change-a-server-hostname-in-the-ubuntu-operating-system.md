@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to change the hostname on a server with the Ubuntu operating system by
+This article describes how to change the hostname on a server with the Ubuntu&reg; operating system by
 editing **/etc/hostname** or using the `hostnamectl` command.
 
 ### Edit /etc/hostname
@@ -22,7 +22,7 @@ reboot the server.
 
 ### Use `hostnamectl`
 
-You can quickly change the hostname by using the `hostnamectl` command. Keep in mind that do this only on
+You can quickly change the hostname by using the `hostnamectl` command. Keep in mind that you do this only on
 systemd-based servers (such as Ubuntu 16.04 and later). To change the hostname with this command, use the
 flag `set-hostname` as shown in the following example:
 
