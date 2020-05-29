@@ -1,6 +1,6 @@
 ---
 permalink: add-domains-with-the-cloud-office-control-panel/
-audit_date:
+audit_date: '2020-05-29'
 title: Add domains with the Cloud Office Control Panel
 type: article
 created_date: '2014-04-10'
