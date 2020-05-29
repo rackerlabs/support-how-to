@@ -1,11 +1,11 @@
 ---
 permalink: change-rackspace-email-mailbox-password/
-audit_date: '2020-05-26'
+audit_date: '2020-05-29'
 title: Change a Rackspace Email mailbox password
 type: article
 created_date: '2017-06-19'
 created_by: William Loy
-last_modified_date: '2020-05-26'
+last_modified_date: '2020-05-29'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
