@@ -57,18 +57,3 @@ Review [Password Management and Best Practices](/how-to/password-management-and-
 4. From the drop-down menu, click **Change Password**.
 
 5. Enter the **New Password** and enter the new password again in the **Confirm Password** field.
-
-
-### Change passwords for multiple mailboxes
-
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
-
-2. In the **Rackspace Email** section, click **Mailboxes**.
-
-3. Click the drop-down arrow next to the **Add Mailbox** and select **Add/Edit Multiple Mailboxes**.
-
-4. Download the sample Comma Separated Values (CSV) file and populate the CSV with the the usernames and new passwords by using the appropriate fields.
-
-5. Select the option **Overwrite existing mailbox details** then click the **Upload** button.
-
-6. Browse your device for the CSV file with the updated password details and select that file.
