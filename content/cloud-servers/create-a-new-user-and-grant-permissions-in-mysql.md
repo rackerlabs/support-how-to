@@ -28,7 +28,7 @@ You do not have to type MySQL commands in capital letters. Both of the following
 However, using capital letters helps you keep the command syntax separate from the data or variable elements
 of the command.
 
-#### `localhost`
+#### localhost parameter
 
 Also, you can change the `localhost` element, which allows the user to access the database from the computer
 you are currently on. If you want to allow the user to access the database from anywhere, use a `%` symbol
