@@ -11,19 +11,19 @@ product: general
 product_url: general
 ---
 
-This article is an overview of the basic terms and concepts of the Domain Name System (DNS). 
+This article provides an overview of the basic terms and concepts of the Domain Name System (DNS). 
 
 ### What is DNS?
 
 DNS is a networking system that takes a given domain name and queries to locate its corresponding
-addressable location, or IP address.  This enables you to enter user-friendly domain names, such
+addressable location or IP address. DNS enables you to enter user-friendly domain names, such
 as "www.rackspace.com" into a web browser for navigation instead of a more complicated string of
-numbers that comprise an IP address.  This is similar to how you can search for contacts by name
-as opposed to using their phone numbers on your mobile device when you make a call. 
+numbers that comprise an IP address. This process is similar to how you can search for contacts by name
+instead of using their phone numbers on your mobile device when you make a call. 
 
 ### DNS components
 
-DNS has the following hierarchical infrastructure of components:
+DNS has the following hierarchical infrastructure of components.
 
 #### Root servers
 
@@ -34,11 +34,11 @@ For example, when a query for "www.rackspace.com" comes in, the root server dire
 top-level domain name server that is responsible for **.com** addresses. The root server has a stored record
 for the **.com** top-level domain server that is responsible for those domains.  
 
-#### Top-level domain (TLD) servers
+#### Top-level domain servers
 
-These servers are the highest level of the hierarchy, They are responsible for top-level domains and contain
-information regarding second-level domain name servers.  In the previous example, a TLD server handles the
-request for "www.rackspace.com" from the root server and finds the IP address of the second-level domain server
+Top-level domain (TLD) servers are the highest level of the hierarchy. They are responsible for top-level domains
+and contain information regarding second-level domain name servers.  In the previous example, a TLD server handles
+the request for "www.rackspace.com" from the root server and finds the IP address of the second-level domain server
 that is responsible for additional information for **rackspace.com**.
 
 ####  Authoritative name server
@@ -53,7 +53,7 @@ Name servers use zone files, which are plain text files, to store information ab
 contain any domain that a name server knows about. The zone described in the zone file is usually a single
 domain with a series of records for that domain.
   
-The following zone file record types are available:
+The following zone file record types are available.
 
 ##### A/AAAA records
 
@@ -70,7 +70,7 @@ for the specified domain name.
 
 ##### CNAME records
 
-**CNAME records (canonical name)**: Map alias names to redirect a canonoical domain name.
+**CNAME records (canonical name)**: Map alias names to redirect a canonical domain name.
 
 ##### NS records
 
@@ -79,7 +79,7 @@ and are used to locate the requested zone files.
 
 ##### PTR records
 
-**PTR records (pointer)**: Serve as reverse DNS records. They map an IP Address to a domain name,
+**PTR records (pointer)**: Serve as reverse DNS records. They map an IP address to a domain name,
 which is the opposite of an A/AAAA Record.  Typically, you use these records for verification, such as
 email authentication.
 
@@ -87,10 +87,11 @@ email authentication.
 
 **SOA records (start of authority)**: Contain all the administrative information about a domain name,
 such as the following details:
-      - Primary Name Server
-      - Email Address of Administrator of the Domain
-      - Serial Number
-      - Refresh Time
-      - Retry Time
-      - Expiration Time
-      - Time To Live.
+
+-  Primary Name Server
+-  Email Address of Administrator of the Domain
+-  Serial Number
+-  Refresh Time
+-  Retry Time
+-  Expiration Time
+-  Time To Live.
