@@ -11,12 +11,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The article describes the MySQL&reg; database permissions.  It also describes how to create a new
+The article describes the MySQL&reg; database permissions. It also describes how to create a new
 user and grant or revoke permissions.
 
 ### Using MySQL commands
 
-Following are helpful suggestions for MySQL commands:
+Following are helpful suggestions for MySQL commands.
 
 #### Capitalization
 
@@ -33,7 +33,7 @@ of the command.
 Also, you can change the `localhost` element, which allows the user to access the database from the computer
 you are currently on. If you want to allow the user to access the database from anywhere, use a `%` symbol
 instead of `localhost`. If you want the user to log into the database from a specific IP address, insert that
-IP address instead. For example: `username’@’22.111.000.34`.
+IP address instead. For example `username’@’22.111.000.34`.
 
 Therefore, you could create a user with any of the following commands:
 
@@ -44,7 +44,7 @@ CREATE USER ‘username’@’22.111.000.34’ IDENTIFIED BY ‘password’;
 **Note:** If you want the user to be able to access the database from two specific locations, and only those
 locations, you should create the user twice. For example, suppose you want your user to be able to log in to
 the database from the computer you are currently on as well as a specific IP address. First, create the user
-by using the `localhost` location in the command. Then, create the user again using the specific IP address.
+by using the `localhost` location in the command. Then, create the user again by using the specific IP address.
 
 ### Permissions
 
@@ -75,7 +75,7 @@ Common permissions include the following:
 
 ### Log in
 
-Log into MySQL as the root user by using the following command:
+Log in to MySQL as the root user by using the following command:
 
     mysql -u root -p
 
@@ -126,7 +126,7 @@ To check what privileges a user has, use the following command:
     
 ### Apply permissions
 
-After you create a users, grant privileges, or revoke privileges, run the following command:
+After you create a user, grant privileges, or revoke privileges, run the following command:
 
     FLUSH PRIVILEGES;
 
@@ -134,6 +134,6 @@ This command reloads the tables with the new users and privileges included. Thin
 
 ### Log out
 
-After you have finished making changes, use the following command to safely exit MySQL:
+After you have finished making changes, use the following command to exit MySQL safely:
 
     EXIT;
