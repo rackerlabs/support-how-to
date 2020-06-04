@@ -1,7 +1,7 @@
 ---
 permalink: delete-downloaded-windows-updates/
 audit_date: '2020-06-04'
-title: ‘Delete downloaded Windows updates’
+title: 'Delete downloaded Windows updates'
 type: article
 created_date: '2020-06-03'
 created_by: Karoline Mills
@@ -31,9 +31,10 @@ Use the following steps to delete these files:
 6. Open the **File Explorer** and navigate to **C:\WINDOWS\SoftwareDistribution\Download**.
 
 7. If you do not see files in this folder, you need to enable viewing of hidden files first:
-        - Click on **View** -> **Options** -> **Change folder and search options**.
-	- In folder options, click **View** and select **Show hidden files, folders and drives**.
-        - Remove the checkmark from **Hide protected operating system files** and click **OK**.
+
+     - Click on **View** -> **Options** -> **Change folder and search options**.
+     - In folder options, click **View** and select **Show hidden files, folders and drives**.
+     - Remove the checkmark from **Hide protected operating system files** and click **OK**.
 
 8. Select all files and right-click to delete them.
 
