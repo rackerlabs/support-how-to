@@ -1,11 +1,11 @@
 ---
 permalink: delete-downloaded-windows-updates/
-audit_date: '2020-06-04’
+audit_date: '2020-06-04'
 title: ‘Delete downloaded Windows updates’
 type: article
-created_date: '2020-06-03’
+created_date: '2020-06-03'
 created_by: Karoline Mills
-last_modified_date: '2020-06-04’
+last_modified_date: '2020-06-04'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
