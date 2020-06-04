@@ -19,8 +19,8 @@ upgrading.
 
 RackConnect v3.0 provides the following benefits:
 
--   **Supported on latest images**: As RackConnect v2 is deprecated, newer images
-such as CentOS 8® and Ubuntu 20® are not available on RackConnect v2 accounts.
+-   **Supported on latest images**: Because RackConnect v2 is deprecated, newer images
+    such as CentOS 8® and Ubuntu 20® are not available on RackConnect v2 accounts.
 
 -   **Built on Rackspace Cloud Networks**: Cloud Networks provides your
     cloud servers with an isolated, single-tenant network that exists
