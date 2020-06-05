@@ -3,32 +3,43 @@
 # Purpose: Identify all *md files in H2 repo where:
 # Created date is after date begin date passed in with script call
 # and before end date passed in with script call
+# and author is a GTS team Racker
 #
-# Example call: newfiles.sh 2016-01-29 2016-04-05
+# Example call: newfiles-by-gts.sh 2016-01-29 2016-04-05
 #
 # If you got a file not found error when you run the script, run the following
 # command instead:
 #
-#               ./newfiles.sh 2016-01-29 2016-04-05
+#               ./newfiles-by-gts.sh 2016-01-29 2016-04-05
 #
 # NOTE: Script assumes you are executing from within the scripts directory of
 #       your local H2 git repo.
 #
 # Process:
 # 1) Get the dates to compare from the arguments passed in
-# 2) Go to H2 repo content directory (assumption is you are in the scripts dir)
-# 3) Use for loop to go through all *md files in each content sub dir
+# 2) Create array of GTS Rackers
+# 3) Go to H2 repo content directory (assumption is you are in the scripts dir)
+# 4) Use for loop to go through all *md files in each content sub dir
 #    and list all file names and directories where:
 #       create_date is between begin and end dates (from the script arguments)
+#       and author is a GTS Racker
 #
 # Updates:
-# 7/10/17: remove criteria that create date and modified date must be the same
-# 6/5/20: fixed instructions and excluded non-article files.
 
 
 # assign date arguments to variables
 begdate=$1
 enddate=$2
+
+# Create array of GTS Rackers
+
+counter=0
+
+while IFS= read -r line
+do
+   GTSmembers+=("$line");
+   counter=$((counter+1));
+done < ../files/GTSmembers.txt
 
 #set counter
 count=0
@@ -55,15 +66,27 @@ do
 # if create date is between the begin and end dates passed in - proceed
   if [[ "$acdate" > "$begdate" ]] && [[ "$acdate" < "$enddate" ]] ;
   then
+
+# Determine if it's a GTS Racker
+     looper=0
+     while [[ $looper -lt  $counter ]]
+     do
+#      echo "aauthor " $aauthor " and membercompare " ${TCTmembers[$looper]}
+       if [[ "$acby" == "${GTSmembers[$looper]}" ]]
+       then
 # pull file name and directory
-     thefile=$(basename $f)
-     thedir=$(dirname $f)
-     theroot="https://support.rackspace.com/how-to/"
-     thepath=$theroot$thefile
-     theoutput=$acdate";"$acby";"$thepath
-# print out all newly created files
-     echo $theoutput
-     count=$((count+1));
+          thefile=$(basename $f)
+          theroot="https://support.rackspace.com/how-to/"
+          thepath=$theroot$thefile
+          theoutput=$acdate";"$acby";"$thepath
+
+# print out all newly created files by GTS Rackers
+          echo $theoutput
+          count=$((count+1));
+          break;
+       fi
+       looper=$((looper+1));
+     done
   fi
 done
-echo $count " new files added between " $begdate " and " $enddate
+echo $count " new GTS files added between " $begdate " and " $enddate
