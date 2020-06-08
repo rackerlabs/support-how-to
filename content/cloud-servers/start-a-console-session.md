@@ -1,12 +1,12 @@
 ---
 permalink: start-a-console-session/
-audit_date: '2018-10-25'
+audit_date: '2020-06-08'
 title: Start an Emergency Console session
 type: article
 created_date: '2012-03-27'
 created_by: Rackspace Support
-last_modified_date: '2018-10-26'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-06-08'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -26,17 +26,10 @@ in to one of your servers by using the Emergency Console feature in the
 A terminal emulator window opens and displays your server's console. If you see
 a blank screen, press **Enter** to bring up a login prompt or Windows&reg; desktop.
 
-If you get a security error message from Java, you might need to add the console
-URL to Java's security exceptions list.  For more information, see
-[How can I configure the Exception Site List?](http://java.com/en/download/faq/exception_sitelist.xml)
-
 ### Working in the console
 
 The top row of the console displays the following functions that you can use
 during a console session.
-
-- Click the **Options** button to open the XVP Viewer Options dialog box, in
-which you can modify certain display and interface options.
 
 - Select the **Ctrl** or **Alt** check boxes while choosing an **F** key from
 the **Fx** list to emulate the corresponding keyboard functions in the Console.
