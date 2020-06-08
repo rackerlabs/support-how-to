@@ -14,13 +14,13 @@ noindex: true
 
 ### Overview
 
-Rackspace brought SJC2 data center, located in downtown San Jose, under the
-Rackspace banner with the acquisition of Datapipe in 2017. It is a nine MW
-facility comprising of 11 data halls covering 65,000 square feet of raised-floor
+Rackspace brought the SJC2 data center, located in downtown San Jose, under the
+Rackspace banner with the acquisition of Datapipe in 2017. It is a 9 MW
+facility comprised of 11 data halls covering 65,000 square feet of raised-floor
 space.  The lease for SJC2 expires in 2022, and the landlord has advised that
 they will not be renewing the lease because they are planning to sell the building.
 
-Rackspace is negotiating the lease on a new facility, SJC3 and is designing the
+Rackspace is negotiating the lease on a new facility, SJC3, and is designing the
 underlying infrastructure to enable us to migrate to that space. We plan to have
 the first 1.2 MW data hall available in April 2021.
 
@@ -47,15 +47,15 @@ smooth migration for all customers.
 
 All colocation customers in SJC2 should vacate the suite by November 30, 2021.
 We will work with you to establish a suitable window for the move according to
-your requirements and availability of Rackspace resources as required.
+your requirements and the availability of Rackspace resources as required.
 
 ### How do I prepare for the relocation?
 
-Rackspace has extensive experience and success in data-center migrations. The
+Rackspace has extensive experience and success in data center migrations. The
 dedicated migration team is responsible for multiple large-scale data center
 consolidation and closure exercises for both Rackspace and legacy Datapipe data
 centers. The migration team can provide guidance and advice on all aspects of
-the move. We have created a Colocation Migration Guide based on the experience
+the move. We have created a *Colocation Migration Guide* based on the experience
 of the migration team for those customers who do not have any experience with
 cabinet migration. Reach out to your service delivery manager or account manager
 to request a copy of the guide.
@@ -89,7 +89,7 @@ The SJC3 data center is located in Santa Clara, just north of Norman Y. Mineta
 San Jose International Airport, approximately 5 miles from SJC2. We will issue
 an update with the address after we finalize the lease.
 
-### Who should I contact with questions about the relocation?
+### Whom should I contact with questions about the relocation?
 
 Contact us in one of the following ways:
 
