@@ -1,12 +1,12 @@
 ---
 permalink: start-a-console-session/
-audit_date: '2018-10-25'
+audit_date: '2020-06-08'
 title: Start an Emergency Console session
 type: article
 created_date: '2012-03-27'
 created_by: Rackspace Support
-last_modified_date: '2018-10-26'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-06-08'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
