@@ -128,12 +128,9 @@ Once the VHD is available in Cloud Files, you will use the Cloud Images API to i
 
 When you make the [image import call](https://pitchfork.rax.io/images/#import_task-images) to the Cloud Images API, the API will respond with an image task ID. Wait a few minutes, then use [the "Get Task Details" call](https://pitchfork.rax.io/images/#get_task_details-images) to check the status of your import. When the image imports successfully, the "Get Task Details" call will contain an image ID.
 
-After the server is imported, set the following metadata key-value pairs
-on the image by using the [Cloud Servers API](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-images-operations/#set-image-metadata-for-specified-image):
-
 #### Set Proper Image Tags
 
-We have to add a few image tags (metadata) before the server will boot properly. Using the image ID you got from the previous step, make the Update Image call for all proper key/value pairs listed below.
+The image is now imported! But we have to add a few image tags (metadata) before the server will boot properly. Using the image ID you got from the previous step, make the [Update Image call](https://pitchfork.rax.io/images/#update_image-images) for all proper key/value pairs listed below.
 
 | parameter | value |
 | --------- | ----- |
