@@ -12,8 +12,8 @@ product_url: cloud-servers
 ---
 
 This article describes the steps to delete downloaded but not yet installed Windows&reg; update files.
-For example, you might need to do this if the update files are incomplete or corrupted.  This guide 
-applies to Windows Server 2012 R2, Windows Server 2016, Windows Server 2019, as well as Windows 10.
+For example, you might need to do this if the update files are incomplete or corrupted. This process 
+applies to Windows Server&reg; 2012 R2, Windows Server 2016, Windows Server 2019, as well as Windows 10.
 Keep in mind that you might need administrator permissions to delete certain files. 
 
 Use the following steps to delete these files:
