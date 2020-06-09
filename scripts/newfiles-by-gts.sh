@@ -71,10 +71,10 @@ do
      looper=0
      while [[ $looper -lt  $counter ]]
      do
-       echo "author " $acby
-       if [[ "$acby" == "Benji Ivey" ]]; then
-         echo "acby " $acby " and membercompare " ${GTSmembers[$looper]}
-       fi
+#       echo "author " $acby
+#       if [[ "$acby" == "Benji Ivey" ]]; then
+#         echo "acby " $acby " and membercompare " ${GTSmembers[$looper]}
+#       fi
        if [[ "$acby" == "${GTSmembers[$looper]}" ]]
        then
 # pull file name and directory
