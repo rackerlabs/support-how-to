@@ -47,7 +47,7 @@ count=0
 # Go to content directory and loop through all 'md' filesi in sub dirs
 cd ../content
 
-FILES=`find .  -type f -name '*md' -print`
+FILES=`find .  -type f -name '*.md' -print`
 
 for f in $FILES
 do
@@ -71,7 +71,10 @@ do
      looper=0
      while [[ $looper -lt  $counter ]]
      do
-#      echo "aauthor " $aauthor " and membercompare " ${TCTmembers[$looper]}
+       echo "author " $acby
+       if [[ "$acby" == "Benji Ivey" ]]; then
+         echo "acby " $acby " and membercompare " ${GTSmembers[$looper]}
+       fi
        if [[ "$acby" == "${GTSmembers[$looper]}" ]]
        then
 # pull file name and directory
