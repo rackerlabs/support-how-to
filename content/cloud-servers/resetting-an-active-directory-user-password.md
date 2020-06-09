@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to reset an Active Directory user password.
+This article describes how to reset an Active Directory&reg; user password.
 
 **Note:** This article only applies to custom Active Directory domains configured on customer devices.
 
@@ -37,7 +37,7 @@ Use the following steps to access the Active Directory domain:
 
    **Option 3**
     
-   Use the Windows search function to search for **Active Directory Users and Computers**.
+   Use the Windows&reg; search function to search for **Active Directory Users and Computers**.
 
 3. In the console, expand **Active Directory Users and Computers** and confirm that the correct domain is listed. If not, you might be on the incorrect domain controller.
 
@@ -46,7 +46,7 @@ Use the following steps to access the Active Directory domain:
 
 Use the following instructions to reset the user password:
 
-1. Verify that the domain listed is the domain in which the user is located. To change the domain to a different one located on the same domain controller:
+1. Verify that the domain listed is the domain in which the user is located. To change the domain to a different one located on the same domain controller, use the following steps:
 
     a. Right-click the current domain.
     
@@ -64,4 +64,4 @@ Use the following instructions to reset the user password:
 
 5. Enter the new password, confirm it, and select the desired options related to password expiration and change requirements.
 
-6. Click **Reset Password** to save the changes. You might see **Set Password** on some older versions of Windows&reg;.
+6. Click **Reset Password** to save the changes. You might see **Set Password** on some older versions of Windows.
