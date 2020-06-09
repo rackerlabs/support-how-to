@@ -39,7 +39,7 @@ while IFS= read -r line
 do
    GTSmembers+=("$line");
    counter=$((counter+1));
-done < ../files/GTSmembers.txt
+done < GTSmembers.txt
 
 #set counter
 count=0
