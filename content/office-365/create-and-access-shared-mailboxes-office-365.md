@@ -65,4 +65,4 @@ Use the following steps to access the shared mailbox by using OWA:
 
 2.	From the top right corner, select the icon with your profile picture or initials.
 
-3.	Select **Open Another Mailbox**. Then search for the shared mailbox from the list, and select **Open**
+3.	Select **Open Another Mailbox**. Then search for the shared mailbox from the list, and select **Open**.
