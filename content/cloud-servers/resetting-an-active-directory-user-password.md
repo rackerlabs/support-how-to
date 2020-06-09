@@ -1,12 +1,12 @@
 ---
 permalink: reset-an-active-directory-user-password/
-audit_date:
+audit_date: '2020-06-09'
 title: 'Reset an Active Directory user password'
 type: article
 created_date: '2020-03-06'
-created_by:
-last_modified_date: '2020-03-10'
-last_modified_by: Derek Benson
+created_by: Derek Benson
+last_modified_date: '2020-06-09'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,11 +15,13 @@ This article describes how to reset an Active Directory user password.
 
 **Note:** This article only applies to custom Active Directory domains configured on customer devices.
 
-## Access the Active Directory domain
+### Access the Active Directory domain
 
-1. Log in to a domain controller for the Active Directory domain that the user belongs to. The user must have permissions to modify users on the domain.
+Use the following steps to access the Active Directory domain:
 
-2. To access **Active Directory users and computers**, use the following options: 
+1. Log in to a domain controller for the Active Directory domain to which the user belongs. The user must have permissions to modify users on the domain.
+
+2. To access **Active Directory users and computers**, use one of the following options: 
 
    **Option 1**
     
@@ -29,9 +31,9 @@ This article describes how to reset an Active Directory user password.
 
    **Option 2**
     
-   a. Open Powershell.
+   a. Open PowerShell&reg;.
    
-   b. Enter **dsa.msc** and press enter.
+   b. Enter **dsa.msc** and press **Enter**.
 
    **Option 3**
     
@@ -40,13 +42,15 @@ This article describes how to reset an Active Directory user password.
 3. In the console, expand **Active Directory Users and Computers** and confirm that the correct domain is listed. If not, you might be on the incorrect domain controller.
 
 
-## Reset the user password
+### Reset the user password
 
-1. Verify that the domain listed is the domain in which the user is located. To change domains to a different one located on the same domain controller:
+Use the following instructions to reset the user password:
+
+1. Verify that the domain listed is the domain in which the user is located. To change the domain to a different one located on the same domain controller:
 
     a. Right-click the current domain.
     
-    b. Click **Change Domain**
+    b. Click **Change Domain**.
     
     c. Select the appropriate domain by using the dialog box.
 
@@ -60,4 +64,4 @@ This article describes how to reset an Active Directory user password.
 
 5. Enter the new password, confirm it, and select the desired options related to password expiration and change requirements.
 
-6. Click **Reset Password** to save the changes. You may see **Set Password** on some older versions of Windows&reg;.
+6. Click **Reset Password** to save the changes. You might see **Set Password** on some older versions of Windows&reg;.
