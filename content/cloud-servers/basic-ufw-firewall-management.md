@@ -49,6 +49,7 @@ After the service starts, list the rules that are active in `ufw` before you add
 
 This lists the active rules in `ufw` on the server. If you haven't added any rules yet, you should see output similar to the following:
 
+
 ```
 # ufw status
 Status: active
@@ -57,6 +58,7 @@ To                         Action      From
 --                         ------      ----
 22                         ALLOW       Anywhere 
 ```
+
 
 **Note**: There might be additional rules in place for Managed Operations customers to allow Rackspace support access to the server from the Rackspace network. 
 
