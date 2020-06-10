@@ -85,6 +85,7 @@ After the service starts, you can list the rules by using the following command:
 
 If you haven't configured any rules yet, the output looks similar to the following example:
 
+
 ```
 Chain INPUT (policy ACCEPT)
 target     prot opt source               destination
@@ -120,6 +121,7 @@ A good rule is to append all rules that end in a drop and to insert all rules th
 |  `iptables -I INPUT -s 12.345.67.89 -j ACCEPT` | This rule accepts all incoming connection from the source IP via any protocol on any port. This rule is inserted to the `INPUT` chain.  |
 |  `service iptables save` | By default, `iptables` does not provide persistence. This command allows you to save the rules.  |
 |  `service iptables reload` | This command reloads the iptables service to allow for processing of new rules.  |
+
 
 
 ### Further reading
