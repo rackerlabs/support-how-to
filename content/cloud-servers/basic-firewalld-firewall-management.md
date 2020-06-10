@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides basic information about how to use your `firewalld` software firewall. This firewall is the default firewall solution for RHEL&reg; 6 and CentOS&reg; 6 based Linux&reg; distributions. 
+This article provides basic information about how to use your `firewalld` software firewall. This firewall is the default firewall solution for RHEL&reg; 7 and CentOS&reg; 7 based Linux&reg; distributions. 
 
 **Note**: If you need to make changes to your firewall on a RackConnect&reg; server, you need to do this through your Dedicated Firewall Manager. 
 
