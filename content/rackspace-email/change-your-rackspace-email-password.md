@@ -30,7 +30,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Click your username in the upper-right corner and then select **Settings**.
 
-3. In the left pane of the **Settings** dialog box, click **Change Password**.
+3. In the left pane of the **Settings** dialog box, click **Security**, then **Change it Now**.
 
 4. Enter the following information:
 
