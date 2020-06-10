@@ -3,7 +3,7 @@ permalink: basic-ufw-firewall-management/
 audit_date: '2020-06-09'
 title: 'Basic ufw firewall management'
 type: article
-created_date: '2020-05-03'
+created_date: '2020-06-03'
 created_by: Chris Silva
 last_modified_date: '2020-06-09'
 last_modified_by: Cat Lookabaugh
