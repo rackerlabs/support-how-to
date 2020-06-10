@@ -23,7 +23,7 @@ This article guides you through creating, managing, building, and growing your O
 
 ### Create an account
 
-Before addressing tasks such as securing your account, creating mailboxes, and even migrating users, you must create an account to house the email solution that your business relies on. We created an article to make [creating your Rackspace Office 365 account](/how-to/sign-up-for-rackspace-services/#office-365) as easy as possible.
+Before addressing tasks such as securing your account, creating mailboxes, and migrating users, you must create an account to house the email solution that your business relies on. We created an article to make [creating your Rackspace Office 365 account](/how-to/sign-up-for-rackspace-services/#office-365) as easy as possible.
 
 ### Manage and secure an account
 
@@ -45,7 +45,7 @@ You are now ready to add your domain to Office 365. Use [this guide to add and v
 
 Your account is now ready for you to create users and assign licenses. Before your email data can be migrated and your users can begin using their new email solution, you need to create their user accounts and assign them licenses. Use the following resource that has short instructions for creating users in Office 365.
 
-  - [Add a license and assign it to a user](/how-to/add-an-office-365-license/)
+  - [Add a license and assign it to a user](/how-to/add-an-office-365-license/).
 
 ### Migrate your email
 
@@ -57,8 +57,8 @@ To protect your organization's data, we recommend that you configure all user ac
 
 ### Configure your domain to receive email
 
-After creating your users, configure your domain to use your Office 365 service. This process can seem intimidating, but users of all technical levels can accomplish it by using our step-by-step instructions. The steps in the article, [Set up DNS records for Office 365](/how-to/configure-dns-for-office-365-services/), set you up for a successful email host transition.
+After creating your users, configure your domain to use your Office 365 service. This process can seem intimidating, but users of all technical levels can accomplish it by using our step-by-step instructions. The steps in [Set up DNS records for Office 365](/how-to/configure-dns-for-office-365-services/) set you up for a successful email host transition.
 
 ### Configure desktop and mobile devices
 
-After your email migration has completed, and your users are ready to start receiving email to their desktop and mobile email clients, they can find detailed instructions for many of the most popular devices by using our [Email Help Tool](https://emailhelp.rackspace.com). This tool walks the user through an interactive portal that asks a series of questions that lead them to their device-specific email configuration instructions. To use the tool, they navigate to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) and log in by using their Office 365 email address and password.
+After your email migration completes, and your users are ready to start receiving email to their desktop and mobile email clients, they can find detailed instructions for many of the most popular devices by using our [Email Help Tool](https://emailhelp.rackspace.com). This tool walks the user through an interactive portal that asks a series of questions that lead them to their device-specific email configuration instructions. To use the tool, they navigate to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) and log in by using their Office 365 email address and password.
