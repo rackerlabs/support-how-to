@@ -1,0 +1,374 @@
+---
+permalink: managing-packages-in-rhel-based-distributions/
+audit_date: '2020-04-20'
+title: 'Managing packages in RHEL based distributions'
+type: article
+created_date: '2020-06-09'
+created_by: Chris Silva
+last_modified_date: '2020-06-09'
+last_modified_by: Chris Silva
+product: Cloud Servers
+product_url: cloud-servers
+---
+
+This article goes over the steps to manage packages with `yum` in Red Hat Enterprise Linux based distributions. 
+
+### Prerequisites
+You need to have the following prerequisites:
+- Basic understanding of Secure Shell (SSH)
+- Sudo or administrative access to your server
+- A Cloud Server running Red Hat Enterprise Linux 6+ or CentOS 6+
+
+
+### Package Management in Linux
+
+Package Management in Linux is the term used to describe installation, removal, or updating of software on your Linux server. Packages are built using source code that would install a piece of software on your server. They are compiled to allow for easy installation rather than installing each component from the source. 
+
+
+### Package tools in RHEL distributions
+
+In RHEL based distributions, there are two forms of package management - `rpm` and `yum`. 
+
+`rpm` is considered a low-level tool that is used to install, remove, gather information, and build packages to be installed on a RHEL based server. 
+
+`yum` is considered a high-level tool that has the same functionality of `rpm` but with the added feature of being able to resolve dependencies to allow for smoother installation of `.rpm` packages. 
+
+**Note**: Rackspace does not support installation of packages from source. 
+
+
+### Usage of yum
+
+The `yum` tool will be your primary tool for installing or otherwise managing the software on your server. 
+
+
+
+## Information Gathering
+
+To see the repositories from which `yum` will pull packages, run the following command: 
+
+       yum repolist
+
+This will show the repositories available on your server: 
+
+```
+# yum repolist
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+repo id                                           repo name                                                                    status
+!drivesrvr                                        drivesrvr                                                                        20
+epel/x86_64                                       Extra Packages for Enterprise Linux 7 - x86_64                               13,314
+ius/x86_64                                        IUS for Enterprise Linux 7 - x86_64                                             609
+rackspace                                         Rackspace Monitoring                                                              1
+rhel-x86_64-server-7                              Red Hat Enterprise Linux Server (v. 7 for 64-bit x86_64)                     29,118
+rhel-x86_64-server-optional-7                     RHEL Server Optional (v. 7 64-bit x86_64)                                    21,287
+repolist: 64,3
+```
+
+To search for a package from your repositories:
+
+      yum search <package name>
+
+
+**Note**: This will locate all instances of the `<package name>` that are available in your repositories. This list can be quite verbose, so if you know the full name of the package, it can narrow your search. 
+
+
+To get more information on a package :
+
+      yum info <package name> 
+
+This will provide you some information on the package. Here's an example of searching for the `httpd` package.
+
+```
+# yum info httpd  
+Available Packages
+Name         : httpd
+Version      : 2.4.43
+Release      : 1.fc31
+Architecture : x86_64
+Size         : 1.4 M
+Source       : httpd-2.4.43-1.fc31.src.rpm
+Repository   : updates
+Summary      : Apache HTTP Server
+URL          : https://httpd.apache.org/
+License      : ASL 2.0
+Description  : The Apache HTTP Server is a powerful, efficient, and extensible
+             : web server.
+```
+
+To see the packages that are currently installed you can run the following command: 
+
+       yum list installed
+
+This command will show you all the packages that are installed on the system. This list can be extensive so if you know the package you're looking for, you can use `grep` to filter your search as shown below:
+
+       yum list installed | grep httpd
+
+This provides a more manageable list:
+
+```
+# yum list installed | grep httpd
+httpd.x86_64                       2.4.6-93.el7            @rhel-x86_64-server-7
+httpd-tools.x86_64                 2.4.6-93.el7            @rhel-x86_64-server-7
+```
+
+
+## Installing packages
+
+To install a package you can use the following command:
+
+       yum install <package>
+
+This will query your repositories and pull down the package to install. During the installation process, `yum` will attempt to resolve dependencies associated with the package to be installed. If it's able to resolve the dependencies, it will show output and ask you to confirm the installation. Here's an example of dependency resolution: 
+
+```
+# yum install httpd
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+drivesrvr                                                                                                     | 2.9 kB  00:00:00     
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-93.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=====================================================================================================================================
+ Package                  Arch                      Version                            Repository                               Size
+=====================================================================================================================================
+Installing:
+ httpd                    x86_64                    2.4.6-93.el7                       rhel-x86_64-server-7                    1.2 M
+
+Transaction Summary
+=====================================================================================================================================
+Install  1 Package
+
+Total download size: 1.2 M
+Installed size: 3.7 M
+Is this ok [y/d/N]:
+```
+
+**Note**: As seen in the output above, when installing `httpd` there are no other dependecies required to install the package. In other situations there may be additional dependencies required for installation that `yum` will need to install. In a situation where the appropriate dependencies cannot be resolved, the errors will be listed in this output. These dependencies will need to be resolved to continue installation. 
+
+
+## Updating packages
+
+To update an installed package you can run the following command: 
+
+      yum update <package>
+
+This will search the repository for updates to the specified package, if available. 
+
+If there is an update available it will show you the change and request confirmation. Otherwise, it will inform you that there is nothing to do:
+
+```
+# yum update httpd
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+drivesrvr                                                                                                     | 2.9 kB  00:00:00     
+No packages marked for update 
+```
+
+You can also use the following command to trigger an update for all packages on the system by typing the following command: 
+
+       yum update
+
+
+This will query the repositories for any updates to the packages installed on your server. 
+
+**Imporant**: This process will attempt to update all packages on the system. Make sure that you've reviewed your environment before proceeding as the changes could cause unexpected issues with applications as a result of updates. 
+
+
+## Removing packages
+
+To remove an installed package you can use the following command:
+
+      yum remove <package name>
+
+This will check the installed packages, provide output, and ask to confirm the change:
+
+```
+# yum remove httpd
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-93.el7 will be erased
+--> Processing Dependency: httpd-mmn = 20120211x8664 for package: mod_php73-7.3.18-1.el7.ius.x86_64
+--> Running transaction check
+---> Package mod_php73.x86_64 0:7.3.18-1.el7.ius will be erased
+--> Finished Dependency Resolution
+drivesrvr                                                                                                     | 2.9 kB  00:00:00     
+
+Dependencies Resolved
+
+=====================================================================================================================================
+ Package                    Arch                    Version                             Repository                              Size
+=====================================================================================================================================
+Removing:
+ httpd                      x86_64                  2.4.6-93.el7                        @rhel-x86_64-server-7                  3.7 M
+Removing for dependencies:
+ mod_php73                  x86_64                  7.3.18-1.el7.ius                    @ius                                   4.8 M
+
+Transaction Summary
+=====================================================================================================================================
+Remove  1 Package (+1 Dependent package)
+
+Installed size: 8.6 M
+Is this ok [y/N]:
+```
+
+**Note**: As seen above, when removing `httpd` it also removes the `mod_php73` package as it is dependent on `httpd`. Make sure that when removing a package it does not negatively impact other parts of your server. 
+
+
+## Reviewing history and reverting changes
+
+In some cases, you need to review the actions taken with the `yum` tool. 
+
+To see the history of the `yum` command usage run the following command:
+
+       yum history
+
+This will provide numbered output that shows the transactions made by `yum`.
+
+```
+# yum history
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+ID     | Login user               | Date and time    | Action(s)      | Altered
+-------------------------------------------------------------------------------
+    19 |  <rack>                  | 2020-06-09 14:58 | Install        |    2   
+    18 |  <rack>                  | 2020-06-09 14:57 | Erase          |    2   
+    17 |  <rack>                  | 2020-06-09 14:56 | Install        |    1   
+    16 |  <rack>                  | 2020-06-09 14:55 | Install        |    4   
+    15 |  <rack>                  | 2020-06-09 14:55 | Erase          |    2   
+    14 |  <rack>                  | 2020-06-09 14:54 | Erase          |    1   
+    13 |  <rack>                  | 2020-06-09 14:50 | Install        |    1   
+    12 |  <rack>                  | 2020-06-09 14:49 | Erase          |    2   
+    11 | root <root>              | 2020-06-09 10:14 | I, U           |    2   
+    10 | root <root>              | 2020-06-09 10:14 | Install        |    2 EE
+     9 |  <rack>                  | 2020-06-09 10:14 | Install        |    4   
+     8 | root <root>              | 2020-06-09 10:14 | Install        |    1 EE
+     7 |  <rack>                  | 2020-06-09 10:14 | Install        |    5   
+     6 | root <root>              | 2020-06-09 10:13 | Install        |    4   
+     5 | root <root>              | 2020-06-09 10:13 | I, U           |   18  <
+     4 | System <unset>           | 2020-01-15 13:02 | Install        |    1 > 
+     3 | System <unset>           | 2020-01-15 13:02 | Install        |    1   
+     2 | System <unset>           | 2020-01-15 13:02 | Erase          |    1   
+     1 | System <unset>           | 2020-01-15 12:55 | Install        |  578   
+history list
+```
+
+This list doesn't give much info on what took place other than the date and action and number of altered package. To get more information on a specific action you can query the `ID` from the left column. Use the following command to view information on the action: 
+
+       yum history info <ID>
+
+This will provide more information about what took place during this transaction: 
+
+```
+# yum history info 18
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+Transaction ID : 18
+Begin time     : Tue Jun  9 14:57:12 2020
+Begin rpmdb    : 609:12b0c5cdd97ae2f0a77a06403b7b16f3d404403c
+End time       :            14:57:13 2020 (1 seconds)
+End rpmdb      : 607:784f813e94127f71465085cd9437377514697243
+User           :  <rack>
+Return-Code    : Success
+Command Line   : remove httpd
+Transaction performed with:
+    Installed     rpm-4.11.3-40.el7.x86_64                    @anaconda/7.7
+    Installed     subscription-manager-1.24.13-3.el7_7.x86_64 @base/7.7
+    Installed     yum-3.4.3-167.el7.noarch                    @rhel-x86_64-server-7
+    Installed     yum-rhn-plugin-2.0.1-10.el7.noarch          @anaconda/7.7
+Packages Altered:
+    Erase httpd-2.4.6-93.el7.x86_64         @rhel-x86_64-server-7
+    Erase mod_php73-7.3.18-1.el7.ius.x86_64 @ius
+history info
+```
+
+With this in mind, if you need to undo a change, this can be done by using the following command: 
+
+       yum history undo <ID>
+
+This will provide information on what will be changed with this action and ask for confirmation. 
+
+```
+# yum history undo 13
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+Undoing transaction 13, from Tue Jun  9 14:50:18 2020
+    Install httpd-2.4.6-93.el7.x86_64 @rhel-x86_64-server-7
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-93.el7 will be erased
+--> Processing Dependency: httpd-mmn = 20120211x8664 for package: mod_php73-7.3.18-1.el7.ius.x86_64
+--> Running transaction check
+---> Package mod_php73.x86_64 0:7.3.18-1.el7.ius will be erased
+--> Finished Dependency Resolution
+drivesrvr                                                                                                     | 2.9 kB  00:00:00     
+
+Dependencies Resolved
+
+=====================================================================================================================================
+ Package                    Arch                    Version                             Repository                              Size
+=====================================================================================================================================
+Removing:
+ httpd                      x86_64                  2.4.6-93.el7                        @rhel-x86_64-server-7                  3.7 M
+Removing for dependencies:
+ mod_php73                  x86_64                  7.3.18-1.el7.ius                    @ius                                   4.8 M
+
+Transaction Summary
+=====================================================================================================================================
+Remove  1 Package (+1 Dependent package)
+
+Installed size: 8.6 M
+Is this ok [y/N]:
+```
+
+
+If you want to roll back all the changes to a specific transaction this can be done with the following command:
+
+       yum history rollback <ID>
+
+This will show you all the changes that will be made and ask for confirmation. Depending on how far you want to rollback, this list can be extensive. The output will be similar to the following example: 
+
+```
+# yum history rollback 17
+Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
+This system is receiving updates from RHN Classic or Red Hat Satellite.
+Rollback to transaction 17, from Tue Jun  9 14:56:03 2020
+  Undoing the following transactions: 18, 19
+    Reinstall httpd-2.4.6-93.el7.x86_64         @rhel-x86_64-server-7
+    Reinstall mod_php73-7.3.18-1.el7.ius.x86_64 @ius
+drivesrvr                                                                                                     | 2.9 kB  00:00:00     
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-93.el7 will be reinstalled
+---> Package mod_php73.x86_64 0:7.3.18-1.el7.ius will be reinstalled
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=====================================================================================================================================
+ Package                    Arch                    Version                              Repository                             Size
+=====================================================================================================================================
+Reinstalling:
+ httpd                      x86_64                  2.4.6-93.el7                         rhel-x86_64-server-7                  1.2 M
+ mod_php73                  x86_64                  7.3.18-1.el7.ius                     ius                                   1.6 M
+
+Transaction Summary
+=====================================================================================================================================
+Reinstall  2 Packages
+
+Total download size: 2.8 M
+Installed size: 8.6 M
+Is this ok [y/d/N]:
+```
+
+
+### Further information
+
+There are more options available within `yum`. The different flags and options can be viewed in the Linux `man` page for `yum` or at this link: [yum man page](https://www.man7.org/linux/man-pages/man8/yum.8.html) 
+
+As a final point, since the `yum` command will make changes to the system, it's always a good idea to ensure that you've tested your environment before installing or updating packages. If possible, make sure you have a usable image to roll back to in the case of an issue post-updates. 
