@@ -23,7 +23,7 @@ You need to have the following prerequisites:
 - Sudo or administrative access to your server
 - A non-RackConnect Cloud Server running RHEL 6 or CentOS 6.
 
-### What is `iptables` and how does it work?
+### What is "iptables" and how does it work?
 
 `iptables` is the default Linux software firewall solution. By using the netfilter kernel module, `iptables` can handle the incoming and outgoing network traffic. `iptables` uses the chains of rules configured as part of a table on the server. A table groups similar chains that accomplish a specific task. 
 
@@ -65,11 +65,11 @@ The following rule is an example of an `iptables` rule:
 
 In this example, traffic that comes from the source IP address, `192.168.1.1`, over the `tcp` protocol is accepted on the `eth0` interface at the destination port `22`. This rule is added to the top of the `INPUT` chain.
 
-### How do `iptables` rules work?
+### How do "iptables" rules work?
 
 One way to limit incoming and outgoing network traffic on server is to implement firewall rules. On a RHEL or CentOS 6 server, the default software firewall solution is `iptables`. `iptables` allows you to setup a configuration similar to that of a dedicated firewall that is running on your server. You configure these rules in a `CHAIN` depending on the rule. This article discusses the `INPUT` chain, which is the default chain to accept traffic through `iptables`. 
 
-### Enable and check the status of `iptables`
+### Enable and check the status of "iptables"
 
 Before you add new rules in `iptables`, you should verify that the service is running and list the current rules.  
 
@@ -98,7 +98,7 @@ target     prot opt source               destination
 ```
 
 
-### `iptables` examples
+### "iptables" examples
 
 The following examples show some rules in `iptables` and their functionality within `iptables`. 
 
