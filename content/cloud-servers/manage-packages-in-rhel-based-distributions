@@ -21,7 +21,6 @@ You need to have the following prerequisites:
 - Sudo or administrative access to your server
 - A Cloud Server running Red Hat Enterprise Linux 6+ or CentOS 6+
 
-
 ### Package management in Linux
 
 The term *package management* in Linux describes the installation, removal, or updating of software on your Linux server.
@@ -42,7 +41,7 @@ dependencies to allow for smoother installation of **.rpm** packages.
 
 ### Using `yum`
 
-The `yum` tool isyour primary tool for installing and managing the software on your server. 
+The `yum` tool is your primary tool for installing and managing the software on your server. 
 
 #### Gather information
 
