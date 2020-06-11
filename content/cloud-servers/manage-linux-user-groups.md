@@ -1,7 +1,7 @@
 ---
-permalink: managing-linux-user-groups/
+permalink: manage-linux-user-groups/
 audit_date: '2020-06-11'
-title: 'Managing Linux user groups'
+title: 'Manage Linux user groups'
 type: article
 created_date: '2020-06-09'
 created_by: Chris Silva
