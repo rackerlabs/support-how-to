@@ -23,7 +23,7 @@ You need to have the following prerequisites:
 - Sudo or administrative access to your server
 - A non-RackConnect Cloud Server running a Debian-based system
 
-### What is `ufw`?
+### What is "ufw"?
 
 The Uncomplicated Firewall (`ufw`) is the default software firewall solution for Debian-based operating systems. It is essentially a wrapper on top of `iptables` that allows for a more streamlined approach to managing the access on your server. 
 
@@ -35,7 +35,7 @@ The following example shows the format for rules within `ufw`:
 
 **Note**: You can also specify ranges of ports by separating the ports by a colon, such as `2222:3333`. Additionally, you can specify a subnet mask for IP addresses, such as `1.2.3.4/32`. Furthermore, `ufw` allows for common service whitelisting by name. This means you can you specify `ssh` in the rule rather than specifying port 22. 
 
-### Enabling and checking status of `ufw`
+### Enabling and checking status of "ufw"
 
 To check the status of `ufw` on your server, run the following command:
 
@@ -63,7 +63,7 @@ To                         Action      From
 **Note**: There might be additional rules in place for Managed Operations customers to allow Rackspace support access to the server from the Rackspace network. 
 
 
-### `ufw` rule examples
+### "ufw" rule examples
 
 The following examples show some basic rules and their function in `ufw`:
 
