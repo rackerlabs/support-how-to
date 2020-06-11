@@ -1,7 +1,7 @@
 ---
-permalink: check-network-connectivity-on-a-server/
+permalink: check-network-connectivity-on-a-linux-server/
 audit_date: '2020-06-11'
-title: 'Check network connectivity on a server'
+title: 'Check network connectivity on a Linux server'
 type: article
 created_date: '2020-06-09'
 created_by: Matthew Brown
@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to check networking from outside the server by using tools such as `ping`,
+This article shows you how to check networking from outside the Linux&reg; server by using tools such as `ping`,
 `traceroute`, `nmap`, and so on.
 
 ### Troubleshooting tools
