@@ -1,11 +1,11 @@
 ---
 permalink: change-rackspace-email-mailbox-password/
-audit_date: '2020-05-29'
+audit_date: '2020-06-11'
 title: Change a Rackspace Email mailbox password
 type: article
 created_date: '2017-06-19'
 created_by: William Loy
-last_modified_date: '2020-05-29'
+last_modified_date: '2020-06-11'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -30,7 +30,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Click your username in the upper-right corner and then select **Settings**.
 
-3. In the left pane of the **Settings** dialog box, click **Change Password**.
+3. In the left pane of the **Settings** dialog box, click **Security**, then **Change it Now**.
 
 4. Enter the following information:
 
