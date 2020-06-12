@@ -1,7 +1,7 @@
 ---
 permalink: windows-local-group-policy/
 audit_date: '2020-06-12'
-title: ‘Windows Local Group Policy’
+title: 'Windows Local Group Policy'
 type: article
 created_date: '2020-06-10'
 created_by: Karoline Mills
