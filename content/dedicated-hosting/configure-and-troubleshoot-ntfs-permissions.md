@@ -1,6 +1,6 @@
 ---
 permalink: configure-and-troubleshoot-ntfs-permissions/
-audit_date:
+audit_date: '2020-06-12'
 title: Configure and troubleshoot NTFS permissions
 type: article
 created_date: '2020-03-06'
