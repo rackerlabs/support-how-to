@@ -13,12 +13,14 @@ product_url: cloud-servers
 
 This article describes how to list the users on a Linux server.
 
-Display a list of the users and user details on a Linux server by using one of the following commands: 
+### Display users and user details on Linux
+
+Display a list of the users and user details on a Linux&reg; server by using one of the following commands: 
 
   `getent passwd` or `less /etc/passwd`
 
-This command displays the login name, optional encrypted password, numerical user ID, numerical group ID, user name or comment field, user home directory, and optional user command interpreter. The following is an example of the output:
-
+This command displays the login name, optional encrypted password, numerical user ID, numerical group ID, user name or comment field, user home directory, and optional user command interpreter. 
+The following is an example of the output:
  
   
          root:x:0:0:root:/root:/bin/bash
@@ -58,7 +60,6 @@ See the users currently logged in by using the following command:
   `w`
 
 This command output looks like the following example:
-
 
          15:23:01 up 77 days,  6:51,  1 user,  load average: 0.00, 0.01, 0.05
          USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
