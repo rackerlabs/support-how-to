@@ -31,9 +31,11 @@ Use the following steps to create a new user in Active Directory:
 
 2. Use one the following options to open **Active Directory Users and Computers**:
 
-      a. Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
-      b. Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
-      c. Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
+      - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
+      
+      - Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
+      
+      - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 3. Expand your domain from the left-hand menu.
 
@@ -51,10 +53,13 @@ Use the following steps to create a new user in Active Directory:
 7. Click **Next**. For the new password, we recommend using an online tool to generate a random password or
    creating a complex password that includes at least three of the four following categories:
    
-      a. English uppercase characters (A through Z)
-      b. English lowercase characters (a through z)
-      c. Base 10 digits (0 through 9)
-      d. Non-alphabetic characters (for example, !, $, #, %)
+      - English uppercase characters (A through Z)
+      
+      - English lowercase characters (a through z)
+      
+      - Base 10 digits (0 through 9)
+      
+      - Non-alphabetic characters (for example, !, $, #, %)
 
 8. Input the password. When finished, click **Next**.
 
@@ -68,9 +73,11 @@ Use the following steps to delete a new user from Active Directory:
 
 2. Use one the following options to open **Active Directory Users and Computers**:
 
-      a. Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
-      b. Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
-      c. Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
+      - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
+      
+      - Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
+      
+      - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 3. Expand your domain from the left-hand menu
 
@@ -80,9 +87,10 @@ Use the following steps to delete a new user from Active Directory:
 
 5. You can delete or disable the user. Deleting the user is not reversible.
 
-     a. To delete the user, right-click the user and select **delete**. Click **Yes** in the confirmation
+     - To delete the user, right-click the user and select **delete**. Click **Yes** in the confirmation
      window if you are sure.
-     b. To disable the user, right-click the user and select **disable**. Click **Yes** in the confirmation
+     
+     - To disable the user, right-click the user and select **disable**. Click **Yes** in the confirmation
      window if you are sure.
 
 ### Create a new group within Active Directory
@@ -93,9 +101,11 @@ Use the following steps to create a new group in Active Directory:
 
 2. Use one the following options to open **Active Directory Users and Computers**:
 
-      a. Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
-      b. Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
-      c. Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
+      - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
+      
+      - Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
+      
+      - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 3. Expand your domain from the left-hand menu.
 
@@ -120,9 +130,11 @@ Use the following steps to add or remove a users to or from groups in Active Dir
 
 2. Use one the following options to open **Active Directory Users and Computers**:
 
-      a. Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
-      b. Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
-      c. Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
+      - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
+      
+      - Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
+      
+      - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 3. Expand your domain from the left-hand menu.
 
@@ -130,9 +142,13 @@ Use the following steps to add or remove a users to or from groups in Active Dir
 
       a. Right-click your domain and select **Find**. Ensure that you select **Users, Contacts, and Groups**
       from the **Find** drop-down menu. Enter the **Name** of the group and click **Find Now**.
+      
       b. Right-click the group and select **Properties**.
+      
       c. Click the **Members** tab.
+      
       d. To remove a user, click the user to highlight it and click **Remove**.
+      
       e. To add a user, click **Add**. Type the username into the **Enter the object names to select**.
       Click **Check Names**. Click **OK**., when the wizard underlines the name.
 
@@ -140,9 +156,13 @@ Use the following steps to add or remove a users to or from groups in Active Dir
 
       a. Right-click your domain and select **Find**. Ensure that you select **Users, Contacts, and Groups**
       from the **Find** drop-down menu. Enter the **Name** of the user and click **Find Now**.
+      
       b. Right-click the user and select **Properties**.
+      
       c. Click the **Member Of** tab.
+      
       d. To remove the user from a group, click the group and click **Remove**.
+      
       e. To add the user to a group click **Add**. Type the group name into the 
       **Enter the object names to select**. Click **Check Names** and click **OK**, when the wizard underlines the name.
 
@@ -153,9 +173,11 @@ Use the following steps to delete a group from Active Directory:
 1. Log into your Domain Controller via Remote Desktop
 2. Use one the following options to open **Active Directory Users and Computers**:
 
-      a. Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
-      b. Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
-      c. Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
+      - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
+      
+      - Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
+      
+      - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 
 3. Expand your domain from the left-hand menu
