@@ -11,15 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to list the users on a Linux server.
+This article describes how to list the users on a Linux&reg; server.
 
 ### Display users and user details on Linux
 
-Display a list of the users and user details on a Linux&reg; server by using one of the following commands: 
+Display a list of the users and user details on a Linux server by using one of the following commands: 
 
   `getent passwd` or `less /etc/passwd`
 
-This command displays the login name, optional encrypted password, numerical user ID, numerical group ID, user name or comment field, user home directory, and optional user command interpreter. 
+These commands display the login name, optional encrypted password, numerical user ID, numerical group ID, user name or comment field, user home directory, and optional user command interpreter. 
 The following is an example of the output:
  
   
@@ -53,7 +53,7 @@ The following is an example of the output:
          testuser:x:1002:1002::/home/testuser:/bin/bash
          apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
 
-You can close the output of this command by entering the `q` key.
+You can close the output of these commands by entering the `q` key.
 
 See the users currently logged in by using the following command: 
 
