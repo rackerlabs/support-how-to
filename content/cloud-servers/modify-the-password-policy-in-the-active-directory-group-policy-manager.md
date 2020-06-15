@@ -13,11 +13,11 @@ product_url: cloud-servers
 
 ### Active Directory Group Policy basics
 
-The following sections describes some Microsoft&reg; Windows&reg; Active Directory concepts:
+The following sections describe some Microsoft&reg; Windows&reg; Active Directory&reg; concepts.
 
-#### Active Directory Domain services
+#### Active Directory Domain Services
 
-Active Directory is a Microsoft Domain Management tool. It provides authentication functions and a
+Active Directory is a Microsoft domain management tool. It provides authentication functions and a
 framework for other such services. The directory itself uses an LDAP database containing networked
 objects.
 
@@ -25,15 +25,15 @@ objects.
 
 An organizational unit (OU) enables you to group resources within a domain into subsets for security
 and authorization purposes. An OU provides a security boundary on elevated privileges and authorization
-and does not limit the replication of AD objects. You should not use OUs to implement and limit security
-and roles among groups, but you can use domains to control replication.
+and does not limit the replication of Active Directory objects. You should not use OUs to implement and
+limit security and roles among groups, but you can use domains to control replication.
 
 #### Objects
 
 Everything within Active Directory is stored as an object. You can also define the class as the *type*
 of an object in the schema. Active Directory contains location information on objects stored in the
-database, but Active Directory uses the Domain Name System (DNS) to locate domain controllers. The
-attributes of an object are defined by its class.
+database, but Active Directory uses the Domain Name System (DNS) to locate domain controllers. Its class
+defines the attributes of an object.
 
 #### Group Policy Manager
 
@@ -46,10 +46,10 @@ For more on Active Directory Groups, see
 
 ###  Update the password policy for user accounts
 
-1. To create a password Group Policy, open the **Server Manager** and under **Tools** and select the
+1. To create a password Group Policy, open the **Server Manager** and under **Tools** select the
    **Local Security Policy**.
 
-2. In the left-hand panel, expand **Account Policy** and click **Password Policy** under **Security Settings** section.
+2. In the left-hand panel, expand **Account Policy** and click **Password Policy** under the **Security Settings** section.
 
 3. The right-hand panel displays the different choices for setting up the password complexity requirements
    for creating a new password. The choices include:
@@ -69,13 +69,13 @@ For more on Active Directory Groups, see
    You can configure each of these policies for different requirements. Click the policy to display
    a window with the **Settings** and **Explain** tabs. 
 
-### Password cojplexity policy
+### Password complexity policy
 
 If the password complexity policy is enabled, passwords must meet the following minimum requirements:
 
-- Not contain the user's account name or parts of the user's full name that exceed two consecutive characters
+- Don't contain the user's account name or parts of the user's full name that exceed two consecutive characters.
 
-- Be at least six characters in length
+- Be at least six characters in length.
 
 - Contain characters from three of the following four categories:
      
@@ -87,8 +87,8 @@ If the password complexity policy is enabled, passwords must meet the following 
      
      - Non-alphabetic characters (for example, !, $, #, %)
 
-- Complexity requirements are enforced when passwords are changed or created.
+When you change or create passwords, the complexity requirements are enforced.
 
-By default the password complexity policy is enabled on domain controllers and disabled on stand-alone servers.
+By default, the password complexity policy is enabled on domain controllers and disabled on stand-alone servers.
 
 **Note:** Member computers follow the configuration of their domain controllers by default.
