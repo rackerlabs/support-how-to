@@ -46,7 +46,7 @@ For more on Active Directory Groups, see
 
 ###  Update the password policy for user accounts
 
-1. To create a password Group Policy, open the **Server Manager** and under **Tools** select the
+1. To create a password Group Policy, open the **Server Manager** and, under **Tools**, select the
    **Local Security Policy**.
 
 2. In the left-hand panel, expand **Account Policy** and click **Password Policy** under the **Security Settings** section.
