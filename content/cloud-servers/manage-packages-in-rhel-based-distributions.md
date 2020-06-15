@@ -11,15 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to manage packages with `yum` in Red Hat® Enterprise Linux®-based distributions. 
+This article describes how to manage packages with `yum` in Red Hat® Enterprise Linux®-based distributions. 
 
 ### Prerequisites
 
 You need to have the following prerequisites:
 
-- Basic understanding of SecureShell (SSH)
+- Basic understanding of Secure Shell (SSH)
 - Sudo or administrative access to your server
-- A Cloud Server running Red Hat Enterprise Linux 6+ or CentOS 6+
+- A Cloud Server running either Red Hat Enterprise Linux 6 or later or CentOS 6 or later
 
 ### Package management in Linux
 
@@ -29,15 +29,15 @@ to allow for easy installation rather than installing each component from the so
 
 ### Package tools in RHEL distributions
 
-In RHEL-based distributions, there are two forms of package management: 
+RHEL&reg;-based distributions include the following two forms of package management: 
 
-- `rpm` is considered a low-level tool that is used to install, remove, gather information, and
-build packages to be installed on a RHEL-based server. 
+- `rpm` is considered a low-level tool used to install, remove, and gather information, as well as to
+build packages to install on a RHEL-based server. 
 
 - `yum` is considered a high-level tool that has the same functionality as `rpm` but also resolves
 dependencies to allow for smoother installation of **.rpm** packages. 
 
-**Note**: Rackspace does not support installation of packages from source. 
+**Note**: Rackspace does not support the installation of packages from source. 
 
 ### Using `yum`
 
@@ -49,7 +49,7 @@ To see the repositories from which `yum` pulls packages, run the following comma
 
     yum repolist
 
-This lists the repositories available on your server: 
+This command lists the repositories available on your server: 
 
     # yum repolist
     Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
@@ -63,19 +63,19 @@ This lists the repositories available on your server:
     rhel-x86_64-server-optional-7                     RHEL Server Optional (v. 7 64-bit x86_64)                                    21,287
     repolist: 64,3
 
-To search for a package from your repositories:
+To search for a package from your repositories, use the following command:
 
     yum search <package name>
 
-**Note**: This command locates all instances of the <package name> that are available in your
+**Note**: This command locates all instances of the `<package name>` that are available in your
 repositories. This list can be quite verbose, so use the full name of the package, if you know it,
 to narrow your search. 
 
-To get more information on a package:
+To get more information on a package, use the following command:
 
     yum info <package name> 
 
-This command provides some information on the package. Here's an example of searching for the `httpd` package:
+This command provides some information about the package. Here's an example of searching for the `httpd` package:
 
     # yum info httpd  
     Available Packages
@@ -91,11 +91,11 @@ This command provides some information on the package. Here's an example of sear
     License      : ASL 2.0
     Description  : The Apache HTTP Server is a powerful, efficient, and extensible web server.
 
-To see the packages that are currently installed, run the following command: 
+To see the currently installed packages, run the following command: 
 
     yum list installed
 
-This command lists all the packages that are installed on the system. This list can be extensive.
+This command lists all the packages installed on the system. This list can be extensive.
 If you know the package you're looking for, you can use `grep` to filter your search as shown in
 the following example:
 
@@ -114,8 +114,8 @@ To install a package, use the following command:
     yum install <package>
 
 This command queries your repositories and pulls down the package to install. During the
-installation process, `yum` tries to resolve dependencies associated with the package to be
-installed. If `yum` can resolve the dependencies, it shows output and asks you to confirm the
+installation process, `yum` tries to resolve dependencies associated with the package you are
+installing. If `yum` can resolve the dependencies, it shows output and asks you to confirm the
 installation. The following example shows dependency resolution: 
 
     # yum install httpd
@@ -143,10 +143,10 @@ installation. The following example shows dependency resolution:
     Installed size: 3.7 M
     Is this ok [y/d/N]:
 
-**Note**: When you install `httpd`, there are no other dependecies required to install the package. In other
+**Note**: When you install `httpd`, there are no other dependencies required to install the package. In other
 situations, there might be additional dependencies required for installation that `yum` needs to install.
-If appropriate dependencies cannot be resolved, the ouput lists the errors. You need to resolve these
-dependencies to continue installation. 
+If `yum` cannot resolve dependencies, the output lists the errors. You need to resolve these
+dependencies to continue the installation. 
 
 #### Update packages
 
@@ -154,7 +154,7 @@ To update an installed package, run the following command:
 
     yum update <package>
 
-This searches the repository for updates to the specified package, if available. 
+This command searches the repository for updates to the specified package, if available. 
 
 If there is an update available, the command shows you the change and requests confirmation. Otherwise,
 it informs you that there is nothing to do:
@@ -165,8 +165,7 @@ it informs you that there is nothing to do:
     drivesrvr                                                                                     | 2.9 kB  00:00:00     
     No packages marked for update 
 
-You can also use the following command to trigger an update for all packages on the system by typing
-the following command: 
+You can also use the following command to trigger an update for all packages on the system: 
 
     yum update
 
@@ -255,12 +254,12 @@ This command provides numbered output that shows the transactions made by `yum`.
     history list
 
 This list provides only the date, action, and number of the altered package. To get more information
-on a specific action you can query the `ID` from the left column. Use the following command to view
+on a specific action, you can query the `ID` from the left column. Use the following command to view
 information on the action: 
 
        yum history info <ID>
 
-This provides more information about what took place during this transaction: 
+Running this command provides more information about what took place during this transaction: 
 
     # yum history info 18
     Loaded plugins: langpacks, product-id, rhnplugin, search-disabled-repos, subscription-manager
@@ -361,8 +360,8 @@ you want to rollback, this list can be extensive. The output is similar to the f
 ### Further information
 
 There are more options available within `yum`. You can view the different flags and options in the Linux
-`man` page for `yum` or at this link: [yum man page](https://www.man7.org/linux/man-pages/man8/yum.8.html) 
+`man` page for `yum` at this link: [yum man page](https://www.man7.org/linux/man-pages/man8/yum.8.html) 
 
 Because the `yum` command makes changes to the system, you should always ensure that you've tested your
 environment before installing or updating packages. If possible, make sure you have a usable image to roll
-back to in the case of anypost-update issues. 
+back to in the case of any post-update issues. 
