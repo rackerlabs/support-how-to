@@ -11,17 +11,18 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to check networking from outside the Linux&reg; server by using tools such as `ping`,
+This article describes how to check networking from outside the Linux&reg; server by using tools such as `ping`,
 `traceroute`, `nmap`, and so on.
 
 ### Troubleshooting tools
 
-Often, you need to troubleshoot network connectivity on a server, but you cannot log into the server.
+Often, you need to troubleshoot network connectivity on a server, but you cannot log in to the server.
 These tools help you to troubleshoot problems from outside the server.
 
 #### `ping` and `traceroute`
 
-These are the most basic tools for troubleshooting network connectivity from outside the server.
+These tools are the most basic tools for troubleshooting network connectivity from outside the server.
+
 The `ping` command sends a packet request to the server. If the packet reaches the server, a reply
 similar to the following example displays:
 
@@ -36,12 +37,12 @@ similar to the following example displays:
     4 packets transmitted, 4 received, 0% packet loss, time 9015ms
     rtt min/avg/max/mdev = 1.683/1.859/2.444/0.203 ms
 
-**Note**: Some servers have ICMP disabled, which means that `ping` probes are blocked. Thus, you will not get
-a response from `ping`, but that doesn't mean networking is down.
+**Note**: Some servers have Internet Control Message Protocol (ICMP) disabled, which means that `ping`
+probes are blocked. Thus, you don't get a response from `ping`, but that doesn't mean networking is down.
 
 The `traceroute` command traces the network hops from your local machine to the host server. This
 tool helps you to determine if there is an issue between your computer and the host server. The following
-example shows the `traceroute` command:
+example shows the `traceroute` command and its output:
 
     $ traceroute google.com
     traceroute to google.com (172.217.1.142), 30 hops max, 60 byte packets
@@ -57,10 +58,10 @@ example shows the `traceroute` command:
 
 #### `curl`
 
-Use the `curl` command, used to transfer data to or from a server, has many features and tools. For
+The `curl` command, used to transfer data to or from a server, has many features and tools. For
 troubleshooting a website, use the flags `IL` and `ILk` (for use with HTTPS sites). These flags return the
-status codes of the sites. They also list any redirects that are in front of the server. The example output
-looks similar to the following:
+status codes of the sites. They also list any redirects that are in front of the server. The output
+looks similar to the following example:
 
     $ curl -IL http://google.com
     HTTP/1.1 301 Moved Permanently
@@ -118,7 +119,7 @@ looks similar to the following:
 #### `nmap`
 
 Use the `nmap` command to scan the ports for a specific host. Some servers do not have this utility
-installed by default, so you might need to install it on your local machine.  If you cannot connect
+installed by default, so you might need to install it on your local machine. If you cannot connect
 to a server by using a specific protocol (even though the server is running), you can run the `nmap`
 command to see if the port is closed or filtered. Here is an example of the output:
 
@@ -138,6 +139,6 @@ command to see if the port is closed or filtered. Here is an example of the outp
 
     Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
 
-If you try all these method and still cannot reach the server, see
+If you try all of these methods and still cannot reach the server, see
 [Troubleshoot a downed Linux cloud server](https://support.rackspace.com/how-to/troubleshoot-a-downed-linux-cloud-server)
 for more steps.
