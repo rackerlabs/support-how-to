@@ -48,7 +48,8 @@ used security settings:
 
     - **Password and Account Lockout Policy**: You can make changes to password requirements such as
       enforcing password history, maximum password age, complexity, and length requirements. You can also
-      adjust account lockout duration and how many failed login attempts Windows locks out a user.
+      adjust the account lockout duration and set the failed-login-attempt threshold that causes Windows to
+      lock out a user.
       
 - **Local Policies**:
 
