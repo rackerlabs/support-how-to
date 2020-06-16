@@ -1,7 +1,7 @@
 ---
-permalink: view-the-firewall-version-in-the-rackspace-portal/
+permalink: view-the-firewall-version-in-the-rackspace-customer-portal/
 audit_date: '2020-06-12'
-title: 'View the firewall version in the Rackspace portal'
+title: 'View the firewall version in the Rackspace Customer Portal'
 type: article
 created_date: '2020-06-10'
 created_by: Derek Pranger
@@ -12,7 +12,7 @@ product_url: dedicated-hosting
 ---
 
 This article describes how to find the current version of your Cisco&reg; Adaptive Security Appliance (ASA)
-firewall by using the Rackspace portal.
+firewall by using the Rackspace Customer Portal.
 
 ### Prerequisites
 
@@ -27,9 +27,9 @@ through the portal.
 
 Use the following instructions to view the firewall version in the **Firewall Manager**:
 
-1. Log into the your [Rackspace portal](https://login.rackspace.com).
+1. Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 
 2. In the top navigation bar, click **Network > Firewall Manager v2**.
 
-3. In the bottom left corner, the **Details** section show the current version of your ASA firewall displays
+3. In the bottom left corner, the **Details** section shows the current version of your ASA firewall. It displays
 by the **SW Version** label.
