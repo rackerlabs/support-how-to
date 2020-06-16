@@ -68,7 +68,7 @@ Lastly, you can specify a specific port to search for processes.
 
 The `netstat` (Network Statistics) command displays network connections, port usage, protocols, and other information.
 
-#### General "netstat" command
+#### General `netstat` command
 
     `netstat -tulpn`
     
@@ -134,7 +134,7 @@ The following list show the options used in the preceding example:
 
 Use the `nmap` (Network Mapper) command for port scanning and host discovery.
 
-#### General "nmap" command
+#### General `nmap` command
 
     `nmap -sT -O localhost`
 
