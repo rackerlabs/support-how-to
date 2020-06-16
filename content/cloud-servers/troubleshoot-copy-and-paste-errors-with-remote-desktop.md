@@ -11,9 +11,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to troubleshoot copy and paste errors with Remote Desktop. 
+This article describes how to troubleshoot copy and paste errors with Remote Desktop. 
 
-*This article applies to Windows 2008, 2012, and 2016.*
+*This article applies to Windows&reg; 2008, 2012, and 2016.*
 
 ### Check client settings
 
@@ -23,19 +23,19 @@ the following steps:
 1. Open the Microsoft&reg; Remote Desktop Protocol (RDP) client that you use to connect to your server.
 2. Navigate to the **Local Resources** tab.
 3. Make sure that you check the **Clipboard** option because this allows you to copy and paste text.
-4. Click More, and check the Drives option, hit ok and then ok again.
+4. Click **More**, check the **Drives** option, click **OK**, and then click **OK** again.
 
-Checking the **Clipboard** option enables only copying an pasting for text and not for files. If you only
-need text and not files copy and paste, you can stop here.
+Checking the **Clipboard** option enables copying and pasting only for text, and not for files. If you only
+need to copy and paste text, and not files, you can stop here.
 
 ### Windows 2008
 
 For Windows 2008, use the following steps:
 
-1. Launch **Remote Desktop Host Configuration"** from the server.
-2. Under **Connections**, right click the connection and select **Properties**.
+1. Launch **Remote Desktop Host Configuration** from the server.
+2. Under **Connections**, right-click the connection and select **Properties**.
 3. Click on the **Client Settings** tab.
-4. Un-check **Clipboard** for copy and paste for text and, for files, make sure **Drive** is un-checked.
+4. Uncheck **Clipboard** for copying and pasting for text, and for files, make sure **Drive** is unchecked.
 
 ### Windows 2012
 
@@ -45,7 +45,7 @@ For Windows 2012, use the following steps:
 2. Select **Remote Desktop Services**.
 3. Select **Collections**.
 4. Select **Tasks** and then choose **Edit Properties**.
-5. Under the **Client Settings** Tab, make sure both **Clipboard** and **Drive** are enabled.
+5. Under the **Client Settings** tab, make sure both **Clipboard** and **Drive** are enabled.
 
 ### Windows 2016
 
