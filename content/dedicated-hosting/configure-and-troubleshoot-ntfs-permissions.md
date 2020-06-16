@@ -20,22 +20,22 @@ This article addresses how to configure and troubleshoot New Technology File Sys
 Basic built-in file and folder permission levels allow for easy configuration. The following chart
 shows built-in permission levels and the access they provide:
 
-| Permissions                      | Full control | Modify  | Read & execute | List folder contents | Read    | Write   |
-| -------------------------------- | ------------ | ------- | -------------- | -------------------- | ------- | ------- |
-| *Traverse folder or execute file*| **Yes**      | **Yes** | **Yes**        | **Yes**              | **No**  | **No**  |
-| *List folder or read data*	     | **Yes**      | **Yes** | **Yes**        | **Yes**              | **Yes** | **No**  |
-| *Read attributes*                | **Yes**      | **Yes** | **Yes**        | **Yes**              | **Yes** | **No**  |
-| *Read extended attributes*       | **Yes**      | **Yes** | **Yes**        | **Yes**              | **Yes** | **No**  |
-| *Create files or write data*	  | **Yes**      | **Yes** | **No**         | **No**               | **No**  | **Yes** |
-| *Create folders or append data*  | **Yes**      | **Yes** | **No**         | **No**               | **No**  | **Yes** |
-| *Write attributes*	              | **Yes**      | **Yes** | **No**         | **No**               | **No**  | **Yes** |
-| *Write extended attributes*      | **Yes**      | **Yes** | **No**         | **No**               | **No**  | **Yes** |
-| *Delete subfolders and files*    | **Yes**      | **No**  | **No**         | **No**               | **No**  | **No**  |
-| *Delete*                         | **Yes**      | **Yes** | **No**         | **No**               | **No**  | **No**  |
-| *Read permissions*	              | **Yes**      | **Yes** | **Yes**        | **Yes**              | **Yes** | **Yes** |
-| *Change permissions*	           | **Yes**      | **No**  | **No**         | **No**               | **No**  | **No**  |
-| *Take ownership*	              | **Yes**      | **No**  | **No**         | **No**               | **No**  | **No**  |
-| *Synchronize*                    | **Yes**      | **Yes** | **Yes**        | **Yes**              | **Yes** | **Yes** |
+| Permissions                      | Full control | Modify  | Read and execute | List folder contents | Read    | Write   |
+| -------------------------------- | ------------ | ------- | ---------------- | -------------------- | ------- | ------- |
+| *Traverse folder or execute file*| **Yes**      | **Yes** | **Yes**          | **Yes**              | **No**  | **No**  |
+| *List folder or read data*	     | **Yes**      | **Yes** | **Yes**          | **Yes**              | **Yes** | **No**  |
+| *Read attributes*                | **Yes**      | **Yes** | **Yes**          | **Yes**              | **Yes** | **No**  |
+| *Read extended attributes*       | **Yes**      | **Yes** | **Yes**          | **Yes**              | **Yes** | **No**  |
+| *Create files or write data*	  | **Yes**      | **Yes** | **No**           | **No**               | **No**  | **Yes** |
+| *Create folders or append data*  | **Yes**      | **Yes** | **No**           | **No**               | **No**  | **Yes** |
+| *Write attributes*	              | **Yes**      | **Yes** | **No**           | **No**               | **No**  | **Yes** |
+| *Write extended attributes*      | **Yes**      | **Yes** | **No**           | **No**               | **No**  | **Yes** |
+| *Delete subfolders and files*    | **Yes**      | **No**  | **No**           | **No**               | **No**  | **No**  |
+| *Delete*                         | **Yes**      | **Yes** | **No**           | **No**               | **No**  | **No**  |
+| *Read permissions*	              | **Yes**      | **Yes** | **Yes**          | **Yes**              | **Yes** | **Yes** |
+| *Change permissions*	           | **Yes**      | **No**  | **No**           | **No**               | **No**  | **No**  |
+| *Take ownership*	              | **Yes**      | **No**  | **No**           | **No**               | **No**  | **No**  |
+| *Synchronize*                    | **Yes**      | **Yes** | **Yes**          | **Yes**              | **Yes** | **Yes** |
 
 <br />
 
