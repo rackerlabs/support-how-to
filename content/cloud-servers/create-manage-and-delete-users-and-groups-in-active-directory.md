@@ -11,37 +11,37 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article descibes how to create, manage and delete users and groups in Microsoft&reg; Active Directory.
+This article describes how to create, manage, and delete users and groups in Microsoft&reg; Active Directory&reg;.
 
 *This article applies only to those customers using their own Active Directory setup. Those customers who
 want to manage Active Directory users in the Rackspace Shared Active Directory domain should open a support
-ticket in your portal*
+ticket in your portal.*
 
 Prerequisites:
 
  - Must have Active Directory Domain Services installed
- - Must have access to the Domain Controller to make changes
- - Must have Domain Admin access to the Domain Controller
+ - Must have access to the domain controller to make changes
+ - Must have domain admin access to the domain controller
 
 ### Create a new user in Active Directory
 
 Use the following steps to create a new user in Active Directory:
 
-1. Log into your Domain Controller by using the Remote Desktop.
+1. Log in to your domain controller by using the Remote Desktop.
 
-2. Use one the following options to open **Active Directory Users and Computers**:
+2. Use one of the following options to open **Active Directory Users and Computers**:
 
       - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
       
-      - Use the Windows search function by clicking on **Start** and entering **dsa.msc**.
+      - Use the Windows&reg; search function by clicking on **Start** and entering **dsa.msc**.
       
       - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 3. Expand your domain from the left-hand menu.
 
-4. Depending on whether you are using Organizational Units or not, find the appropriate object to place
+4. Depending on whether you are using organizational units or not, find the appropriate object to place
    the user in. By default, you can use the **Users** object if you do not have or plan to create an
-   Organizational Unit.
+   organizational unit.
 
 5. After you find the appropriate object for the new user, right-click it, select **New** from the menu,
    and select **User**.
@@ -59,7 +59,7 @@ Use the following steps to create a new user in Active Directory:
       
       - Base 10 digits (0 through 9)
       
-      - Non-alphabetic characters (for example, !, $, #, %)
+      - Non-alphabetic characters (For example, !, $, #, %)
 
 8. Input the password. When finished, click **Next**.
 
@@ -69,9 +69,9 @@ Use the following steps to create a new user in Active Directory:
 
 Use the following steps to delete a new user from Active Directory:
 
-1. Log into your Domain Controller by using Remote Desktop.
+1. Log in to your domain controller by using Remote Desktop.
 
-2. Use one the following options to open **Active Directory Users and Computers**:
+2. Use one of the following options to open **Active Directory Users and Computers**:
 
       - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
       
@@ -79,13 +79,14 @@ Use the following steps to delete a new user from Active Directory:
       
       - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
-3. Expand your domain from the left-hand menu
+3. Expand your domain from the left-hand menu.
 
 4. To use the **Find** function in Active Directory, right-click your domain and select **Find**. Ensure
    that you select **Users, Contacts, and Groups** from the **Find** drop-down menu. Then, type the **Name**
    of the user you want to delete.
 
-5. You can delete or disable the user. Deleting the user is not reversible.
+5. You can delete or disable the user. 
+   **Note**: Deleting the user is not reversible.
 
      - To delete the user, right-click the user and select **delete**. Click **Yes** in the confirmation
      window if you are sure.
@@ -97,9 +98,9 @@ Use the following steps to delete a new user from Active Directory:
 
 Use the following steps to create a new group in Active Directory:
 
-1. Log into your Domain Controller by using the Remote Desktop.
+1. Log in to your domain controller by using the Remote Desktop.
 
-2. Use one the following options to open **Active Directory Users and Computers**:
+2. Use one of the following options to open **Active Directory Users and Computers**:
 
       - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
       
@@ -109,26 +110,26 @@ Use the following steps to create a new group in Active Directory:
 
 3. Expand your domain from the left-hand menu.
 
-4. Depending on whether you are using Organizational Units or not, find the appropriate object to place
-   the user in. By default, the built-in Microsoft default groups are under the **Users** Organization Unit.
-   If you prefer, you can put the user in a custom Organization Unit.
+4. Depending on whether you are using organizational units or not, find the appropriate object to place
+   the user in. By default, the built-in Microsoft default groups are under the **Users** organization unit.
+   If you prefer, you can put the user in a custom organization unit.
    
-5. Right click the object you wan to choose for the user, select **New**, and select **Group**.
+5. Right-click the object you want to choose for the user, select **New**, and select **Group**.
 
 6. In the wizard, enter your group name. By default, the wizard preselects **Global** under **Group Scope**
    and **Security** under **Group Type**. Do not change the group type to **Distribution** because that option
-   creates distribution groups for Microsoft Exchange and e-mail.
+   creates distribution groups for Microsoft Exchange&reg; and e-mail.
 
 ### Add or remove users to or from a group
 
-You can add and remove a user to or from a group from the **Group** or from the **User**.  This sections describes
+You can add and remove a user to or from a group from the **Group** or from the **User**.  This section describes
 both options.
 
 Use the following steps to add or remove a users to or from groups in Active Directory:
 
-1. Log into your Domain Controller via Remote Desktop.
+1. Log in to your domain controller by using Remote Desktop.
 
-2. Use one the following options to open **Active Directory Users and Computers**:
+2. Use one of the following options to open **Active Directory Users and Computers**:
 
       - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
       
@@ -149,8 +150,8 @@ Use the following steps to add or remove a users to or from groups in Active Dir
       
       d. To remove a user, click the user to highlight it and click **Remove**.
       
-      e. To add a user, click **Add**. Type the username into the **Enter the object names to select**.
-      Click **Check Names**. Click **OK**., when the wizard underlines the name.
+      e. To add a user, click **Add**. Type the username into **Enter the object names to select**.
+      Click **Check Names**. Click **OK** when the wizard underlines the name.
 
 5. To add a user to a group from the **User**, use the following steps:
 
@@ -163,15 +164,15 @@ Use the following steps to add or remove a users to or from groups in Active Dir
       
       d. To remove the user from a group, click the group and click **Remove**.
       
-      e. To add the user to a group click **Add**. Type the group name into the 
-      **Enter the object names to select**. Click **Check Names** and click **OK**, when the wizard underlines the name.
+      e. To add the user to a group click **Add**. Type the group name into 
+      **Enter the object names to select**. Click **Check Names** and click **OK** when the wizard underlines the name.
 
-### Delete a Group Within Active Directory
+### Delete a Group within Active Directory
 
 Use the following steps to delete a group from Active Directory:
 
-1. Log into your Domain Controller via Remote Desktop
-2. Use one the following options to open **Active Directory Users and Computers**:
+1. Log in to your domain controller by using Remote Desktop.
+2. Use one of the following options to open **Active Directory Users and Computers**:
 
       - Right-click the **Start** menu, select **Run**, enter **dsa.msc**, and click **OK**.
       
@@ -180,7 +181,7 @@ Use the following steps to delete a group from Active Directory:
       - Click on **Server Manager -> Tools** and select **Active Directory Users and Computers** from the menu.
 
 
-3. Expand your domain from the left-hand menu
+3. Expand your domain from the left-hand menu.
 
 4. To use the **Find** function within Active Directory, right-click your domain and select **Find**. Ensure
    that you select **Users, Contacts, and Groups** from the **Find** drop down menu. Type the **Name** of the
