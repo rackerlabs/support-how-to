@@ -1,5 +1,5 @@
 ---
-permalink: windows-event-viewer/
+permalink: windows-event-viewer-overview/
 audit_date: '2020-6-18'
 title: 'Windows Event Viewer overview'
 type: article
