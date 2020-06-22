@@ -64,7 +64,7 @@ one enabled repository.
 
 To install the IUS release package, run the following command:
 
-    sudo yum install https://$(rpm -E '%{?centos:centos}%{!?centos:rhel}%{rhel}').iuscommunity.org/ius-release.rpm
+    sudo yum install https://repo.ius.io/ius-release-el$(rpm -E '%{rhel}').rpm
 
 ### Upgrade installed packages to IUS versions
 

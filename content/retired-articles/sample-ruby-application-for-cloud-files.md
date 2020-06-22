@@ -7,8 +7,6 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2016-04-18'
 last_modified_by: Stephanie Fillmon
-product: Cloud Files
-product_url: cloud-files
 ---
 
 *From Connection to Objects*
