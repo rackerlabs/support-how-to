@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains the difference between shrinking and truncating the transaction log in Microsoft&reg; SQL Server&reg;. It outlines the different use scenarios and walks you through how to perform these tasks. 
+This article describes the difference between shrinking and truncating the transaction log in Microsoft&reg; SQL Server&reg;. It outlines the different use scenarios and walks you through how to perform these tasks. 
 
 ### Understand truncating the log
 
@@ -27,7 +27,7 @@ Use the following steps to truncate the transaction log file in SQL Server Manag
 
 1.	Right-click the database and select **Properties -> Options**.
 
-2.	Set the recovery model to `Simple`, and exit the menu.
+2.	Set the recovery model to `Simple` and exit the menu.
 
 3.	Right-click the database again and select **Tasks -> Shrink -> Files**.
 
@@ -39,7 +39,7 @@ Use the following steps to truncate the transaction log file in SQL Server Manag
 
 ### Understand shrinking the log
 
-If you need to recover disk space from the transaction log file, you should consider shrinking the log file.  Shrinking recovers space by moving data from the end of the file to unoccupied space at the front of the file. After the process creates enough space at the end of the file, it can be deallocated and returned to the file system. Shrinking logs helps after you perform an action that creates a large number of logs. You can only shrink the log if there is free space on the log file. 
+If you need to recover disk space from the transaction log file, consider shrinking the log file.  Shrinking recovers space by moving data from the end of the file to unoccupied space at the front of the file. After the process creates enough space at the end of the file, it can be deallocated and returned to the file system. Shrinking logs helps after you perform an action that creates a large number of logs. You can only shrink the log if there is free space on the log file. 
 
 ### Shrink the transaction log
 
