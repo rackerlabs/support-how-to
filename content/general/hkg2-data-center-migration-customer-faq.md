@@ -5,7 +5,7 @@ title: HKG2 data center migration customer FAQ
 type: article
 created_date: '2019-12-13'
 created_by: Sarah Wellburn
-last_modified_date: '2019-12-13'
+last_modified_date: '2020-06-03'
 last_modified_by: Cat Lookabaugh
 product: undefined
 product_url: undefined
@@ -40,7 +40,7 @@ Colocation Customer FAQ* from your account manager.
 #### When will the relocation occur?
 
 Rackspace will assign all customers on managed infrastructure to a move group
-and each move group will be scheduled for a date in April or May 2020. The move
+and each move group will be scheduled for a date in October 2020. The move
 groups will be scheduled to run in a maintenance window starting on either a
 Friday or Saturday night and ending on the following morning. We plan to keep
 the maintenance window less than 12 hours. We will confirm the exact timings

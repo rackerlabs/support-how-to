@@ -1,12 +1,12 @@
 ---
 permalink: create-and-access-shared-mailboxes-office-365/
-audit_date:
+audit_date: '2020-06-05'
 title: How to create and access shared mailboxes in Office 365
 type: article
 created_date: '2019-12-24'
 created_by: Jon Muckenfuss
-last_modified_date: '2019-12-24'
-last_modified_by: Walter Stubbs
+last_modified_date: '2020-06-05'
+last_modified_by: Stephanie Fillmon
 product: Office 365
 product_url: office-365
 ---
@@ -65,4 +65,4 @@ Use the following steps to access the shared mailbox by using OWA:
 
 2.	From the top right corner, select the icon with your profile picture or initials.
 
-3.	Select **Open Another Mailbox**. Then search for the shared mailbox from the list, and select **Open**
+3.	Select **Open Another Mailbox**. Then search for the shared mailbox from the list, and select **Open**.
