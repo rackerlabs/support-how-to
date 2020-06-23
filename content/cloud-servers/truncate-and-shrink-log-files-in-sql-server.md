@@ -1,7 +1,7 @@
 ---
 permalink: truncate-and-shrink-log-files-in-sql-server/
 audit_date: '2020-06-18'
-title: ‘Truncate and shrink log files in SQL Server'
+title: 'Truncate and shrink log files in SQL Server'
 type: article
 created_date: '2020-06-16'
 created_by: Karoline Mills
