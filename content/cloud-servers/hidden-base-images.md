@@ -114,3 +114,10 @@ Windows Server 2008 R2 SP1 + SQL Server 2012 SP1 Standard | fa12f54c-259a-4128-a
 Windows Server 2008 R2 SP1 + SQL Server 2012 SP1 Web | 2844cc38-83a0-4e86-b737-eac73c26198b | 2013-10-29 | Base images for Windows Server 2008 now use Datacenter Edition. This is one of the last Windows 2008 Enterprise images released before the switch.
 Windows Server 2008 R2 SP1 + SharePoint 2010 Foundation with SQL Server 2008 R2 Express | 0487cb15-9832-4fb7-b2d9-5fc8f55803ad | 2013-10-293 | Base images for Windows Server 2008 now use Datacenter Edition. This is one of the last Windows 2008 Enterprise images released before the switch.
 Windows Server 2008 R2 SP1 + SharePoint 2010 Foundation with SQL Server 2008 R2 SP1 Standard | fa14596a-1a70-42d0-bf20-699c35439356 | 2013-10-29 | Base images for Windows Server 2008 now use Datacenter Edition. This is one of the last Windows 2008 Enterprise images released before the switch.
+
+
+### Vyatta image
+
+Image | ID | Date hidden | Notes
+--- | --- | --- | ---
+Vyatta Network OS 6.7R12 | 95dbda13-424c-4ce7-baf7-ecf9665eab1d	| 2020-06-22 | No longer supported.
