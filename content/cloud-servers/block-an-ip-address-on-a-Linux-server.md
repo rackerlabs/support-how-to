@@ -27,7 +27,7 @@ make these changes on your dedicated firewall.
 Log on to your server by using SSH and then complete the steps in the following sections for your preferred
 setup method.
 
-### firewallD
+### firewalld
 
 This tool is available on the following Linux versions:
 
@@ -37,7 +37,7 @@ This tool is available on the following Linux versions:
 
 - Fedora&reg; 18 and later
 
-1. To ensure that `firewallD` is running on your server, run the following command. If `firewallD`
+1. To ensure that `firewalld` is running on your server, run the following command. If `firewalld`
    is not running, go to the `iptables` section.
 
        sudo systemctl status firewalld
@@ -46,7 +46,7 @@ This tool is available on the following Linux versions:
 
        sudo firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='xxx.xxx.xxx.xxx' reject"
 
-3. Run the following command to reload the `firewallD` rules:
+3. Run the following command to reload the `firewalld` rules:
 
        sudo firewall-cmd --reload
 
