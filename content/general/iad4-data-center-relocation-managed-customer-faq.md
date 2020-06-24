@@ -22,7 +22,7 @@ availability, and efficiency while offering our customers access to the full
 range of Rackspace products and services.
 
 Following a review of our global footprint of data centers, and with the lease
-for IAD4 coming to an end in 2021, Rackspace decided to reduce our footprint by
+for IAD4 coming to an end in 2020, Rackspace decided to reduce our footprint by
 moving all customers from IAD4 to the IAD3 facility.
 
 This document relates specifically to customers with a managed or shared
