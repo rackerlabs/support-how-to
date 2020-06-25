@@ -11,9 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article will explain how to change the default SSH Port on a Linux server.
-
-# CentOS/RHEL 
+This article will explain how to change the default SSH Port on a CentOS or RHEL (RedHat) Linux Server.
 
 ## Open and Edit SSH daemon configuration file
 
