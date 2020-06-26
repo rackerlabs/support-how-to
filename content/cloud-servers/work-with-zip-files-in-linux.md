@@ -1,12 +1,12 @@
 ---
 permalink: work-with-zip-files-in-linux/
-audit_date:
+audit_date: '2020-06-26'
 title: 'Work with ZIP files in Linux'
 type: article
 created_date: '2020-06-24'
 created_by: Jose Quezada
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-06-26'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
