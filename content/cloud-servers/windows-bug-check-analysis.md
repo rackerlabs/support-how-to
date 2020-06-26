@@ -1,44 +1,51 @@
 ---
 permalink: windows-bug-check-analysis/
-audit_date:
-title: 'Windows Bug Check Analysis'
+audit_date: '2020-06-26'
+title: 'Windows bug check analysis'
 type: article
 created_date: '2020-06-24'
 created_by: Steven Mondragon-DeVoss
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-06-26'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# Windows Bug Check Analysys
+This article is a guide on using bug check analysis to investigate why a Microsoft&reg; Windows&reg; server
+crashed. A server crash, also known as *Blue Screen of Death* or BSOD, displays an error screen and can cause
+the server to shut down or restart unexpectedly. The following terms are common when discussing server
+crashes.
 
-This article is a guide on using bug check analysis to investigate why a Windows server has crashed. A server crash can also be known as Blue Screen or BSOD which will cause the server to stop functioning displaying an error screen a can cause the server to shut down or restart unexpectedly. Here are a few terms to know when a crash occurs.
+- **Blue screen**: When certain hardware problems occurs, a blue error screen displays.
+- **Crash dump file**: This file, stored on the hard drive, contains information collected when the system
+  generates a **STOP** code. The **memory.dmp** file contains information that the debugger needs to analyze.
+- **Debugger**: Use this program to analyze the dump file
+- **STOP code**: This error code identifies what stopped the system kernel from running.
 
-* **Blue Screen**: due to hardware problems and will display a blue screen
-* **Crash Dump File**: information written to a file on the hard drive when a STOP code is generated. The memory.dmp file contains the information the debugger will need to analyze the file.
-* **Debugger**: program used to analyze the dump file
-* **STOP Code**: error code that identifies what stopped the system kernel from running. 
+### Analyzing a bug check code
+
+Microsoft provides `WinDbg` to debug the crash dump. You can 
+[download the debugger](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools).
+
+The system creates a **memory.dmp** file at the time of the crash. Use `WinDbg` to analyze the file and determine
+the cause of the crash.
 
 
-## Analyzing a Bug Check Code
-Microsoft provides WinDbg to debug the crash dump. You can download the debugger from the following.
+### Run `WinDbg`
 
-[WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools)
+To use `WinDbg`, you need do the following tasks.
 
-You will use WinDbg to analyze the MEMORY.DMP file that is created in order to determine the cause of the crash.
+#### Add the symbol path
 
+After you install `WinDbg`, perform the following steps to add the symbol file path for debugging:
 
-## Running WinDbg
-A. After installing WinDbg, you will need to add the symbol file path for debugging.
+1. Open **WinDBG > File > Symbol File Path...** and enter the following:
 
-* Open WinDBG > File > Symbol File Path... > Enter the following:
+       SRV*C:\Windows\symbol_cache*http://msdl.microsoft.com/download/symbols
 
-* SRV*C:\Windows\symbol_cache*http://msdl.microsoft.com/download/symbols
+2. Click **OK**.
 
-* Click OK
-
-The following locations are where Windows can store the dump file.
+Windows might store the dump file in the following locations:
 
 | Memory Dump Type | Default Location | Paging File Requirements |
 | ----------- | ----------- | --------------|
@@ -46,35 +53,52 @@ The following locations are where Windows can store the dump file.
 | Kernel memory dump | C:\Windows\Memory.dmp | Large enough for kernel memory |
 | Complete memory dump | C:\Windows\Memory.dmp | All physical RAM + 1 MB |
 
-B. Once the symbol file path has been added, go to File > Open Crash Dump... > Open the MEMORY.DMP file > Click or type "!analyze -v" to get the detailed debugging information > Wait for the analysis to complete.
+#### Open the memory.dmp file
 
-## Reading the Crash Dump
+To open the dump file, perform the following steps:
 
-Once the analysis has completed, you will need to review the output to determine the cause of the crash. Some examples of causes may be driver issues or memory corruption. The output of the analysis will provide you with the details.
+1. Go to **File > Open Crash Dump... > Open the MEMORY.DMP file**.
 
-Examples:
-FAILURE_BUCKET_ID:  X64_0xA_termdd!IcaDereferenceChannel+8c
-The cause of the error was due to termdd.sys.
+2. Click or type "**!analyze -v** to get the detailed debugging information.
 
-FAILURE_BUCKET_ID: 0xd1_e1k6232+16171
-The cause was the Intel network adapter(e1k6232.sys) drivers
+3. Wait for the analysis to complete.
 
-## Driver Verifier
+#### Read the crash dump
 
-If the crash was due to faulty drivers, you can use Driver Verifier to examine the system's drivers. Driver Verifier is native to Windows and is used to test system drivers to find any improper behaviours.
+After the analysis completes, review the output to determine the cause of the crash. For example, driver issues
+or memory corruption might have caused the crash. The output of the analysis provides you with the details.
 
-To start Driver Verifier
-* Start a command prompt as administrator
-* Type *verifier* to open Driver Verifier Manager
-* Select the task needed, the default is *Create standard settings* and click *Next*
-* Select which drivers to verify and click *Next*
-* Depending on the options selected, you may be required to restart the server. You will notified that a restart is needed prior to the verifier executing your options.
+Example causes include the following possibilities:
 
-Once complete, you will need to review the output of the verifier.
+    FAILURE_BUCKET_ID:  X64_0xA_termdd!IcaDereferenceChannel+8c
+    The cause of the error was due to termdd.sys.
 
-## Bug Check Codes
+    FAILURE_BUCKET_ID: 0xd1_e1k6232+16171
+    The cause was the Intel network adapter(e1k6232.sys) drivers
 
-Below are a listing of some of the bug check codes you may run into.
+#### Use `Driver Verifier`, if necessary
+
+If faulty drivers caused the crash, you can use `Driver Verifier` to examine the system's drivers.
+Use the Windows-native `Driver Verifier` utility to test system drivers to find any improper behaviors.
+
+To use Driver Verifier, perform the following steps:
+
+1. Open a command prompt as the administrator.
+
+2. Type **verifier** to open the `Driver Verifier Manager`.
+
+3. Select the task you want and click **Next**. The default is **Create standard settings**.
+
+4. Select which drivers to verify and click **Next**.
+
+5. Depending on the options selected, you might need to restart the server. In that case, the system notifies
+   you before the verifier executes your options.
+
+6. After the verifier finishes, review the output of the verifier.
+
+### Bug check codes
+
+The following table lists some of the bug check codes you might encounter:
 
 
 | Code | Name |
