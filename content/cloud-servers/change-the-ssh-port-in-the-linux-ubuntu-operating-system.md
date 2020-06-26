@@ -28,11 +28,9 @@ Perform the following steps to edit the configuration file:
        #ListenAddress 0.0.0.0
        #ListenAddress ::
 
-3. Move the cursor to the line below the **#Port 22** line and press the "i" key to enter **insert mode**.
+3. Move the cursor to the line below the **#Port 22** line and press the **i** key to enter *Insert Mode*.
 
-4. Press **Enter** to insert a new line.
-
-5. Enter **Port <Specified Port Number>**.  In the following example, I used **Port 2021** as the new SSH Port:
+4. Press **Enter** to insert a new line and enter **Port <Specified Port Number>**. `Port 2021` is the new SSH port in the following example:
 
        #Port 22
        Port 2021
@@ -40,7 +38,7 @@ Perform the following steps to edit the configuration file:
        #ListenAddress 0.0.0.0
        #ListenAddress ::
        
-6. Press **esc** to exit **insert mode** and enter **:wq** to save your changes and close the file.
+5. Press the **Esc** key to exit *Insert Mode* and enter **:wq** to save your changes and close the file.
 
 ### Restart SSH daemon
 
@@ -74,7 +72,7 @@ Attempt to log into the server with Secure Shell (SSH). You should see the follo
 
     ssh: connect to host 104.239.174.157 port 22: Connection refused
 
-Now, SSH by using the **-p <Port Number>** option. This should work:
+Now, SSH by using the **-p \<Port Number\>** option. This should work:
 
     ssh root@104.239.174.157 -p 2021
     root@104.239.174.157's password:
