@@ -30,7 +30,7 @@ Perform the following steps to edit the configuration file:
 
 3. Move the cursor to the line below the **#Port 22** line and press the **i** key to enter *Insert Mode*.
 
-4. Press **Enter** to insert a new line and enter **Port <Specified Port Number>**. `Port 2021` is the new SSH port in the following example:
+4. Press **Enter** to insert a new line and enter **Port \<Specified Port Number\>**. `Port 2021` is the new SSH port in the following example:
 
        #Port 22
        Port 2021
