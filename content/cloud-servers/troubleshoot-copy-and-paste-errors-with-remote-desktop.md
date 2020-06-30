@@ -3,15 +3,15 @@ permalink: 'troubleshoot-copy-and-paste-errors-with-remote-desktop/'
 audit_date: '2020-06-11'
 title: 'Troubleshoot copy and paste errors with Remote Desktop'
 type: article
-created_date: '2020-06-010'
+created_date: '2020-06-10'
 created_by: Benji Ivey
 last_modified_date: '2020-06-11'
-last_modified_by: Cat Lookabaugh#
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to troubleshoot copy and paste errors with Remote Desktop. 
+This article describes how to troubleshoot copy and paste errors with Microsoft&reg; Windoes&reg; Remote Desktop. 
 
 *This article applies to Windows&reg; 2008, 2012, and 2016.*
 
@@ -20,7 +20,7 @@ This article describes how to troubleshoot copy and paste errors with Remote Des
 Before going into OS-specific troubleshooting, you should first check your own client settings by using
 the following steps:
 
-1. Open the Microsoft&reg; Remote Desktop Protocol (RDP) client that you use to connect to your server.
+1. Open the Remote Desktop Protocol (RDP) client that you use to connect to your server.
 2. Navigate to the **Local Resources** tab.
 3. Make sure that you check the **Clipboard** option because this allows you to copy and paste text.
 4. Click **More**, check the **Drives** option, click **OK**, and then click **OK** again.
