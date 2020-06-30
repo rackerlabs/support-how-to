@@ -1,7 +1,7 @@
 ---
-permalink: add-an-additional-rdp-license-to-windows-server-2012r2/
+permalink: add-an-additional-rdp-license-to-windows-server-2012-r2/
 audit_date: '2020-06-30'
-title: 'Add an additional RDP License to Windows Server 2012r2'
+title: 'Add an additional RDP license to Windows Server 2012 R2'
 type: article
 created_date: '2020-06-25'
 created_by: Paola Howard
@@ -11,8 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to additional RDP licenses to Microsoft&reg; Windows Server&reg; 2012 r2.
-
+This article describes how to add Remote Desktop Protocol (RDP) licenses to Microsoft&reg; Windows Server&reg; 2012 R2.
 
 ### Prerequisites
 
