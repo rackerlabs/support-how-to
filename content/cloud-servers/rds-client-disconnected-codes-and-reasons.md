@@ -11,8 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides a script to get information about client-side Microsoft&reg; Windows&reg Remote Desktop Protocol (RDP)
-connections issues and describes the most up-to-date disconnect codes and reasons.
+This article provides a script to get information about client-side Microsoft&reg; Windows&reg Remote Desktop Services (RDS)
+connection issue with Remote Desktop Protocol (RDP) and describes the most up-to-date disconnect codes and reasons.
 
 **Note**: Some of the disconnect codes that the script returns are extended codes. If you cannot find the disconnect code in the
 following **Disconnect reasons** table, see the following **Extended reasons** table. 
