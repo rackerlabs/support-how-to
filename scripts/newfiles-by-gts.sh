@@ -78,7 +78,8 @@ do
        if [[ "$acby" == "${GTSmembers[$looper]}" ]]
        then
 # pull file name and directory
-          thefile=$(basename $f)
+          thefilewx=$(basename $f)
+          thefile=${thefilewx%.*}
           theroot="https://support.rackspace.com/how-to/"
           thepath=$theroot$thefile
           theoutput=$acdate";"$acby";"$thepath
