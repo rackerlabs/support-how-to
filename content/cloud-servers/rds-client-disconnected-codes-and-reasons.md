@@ -12,12 +12,12 @@ product_url: cloud-servers
 ---
 
 This article provides a script to get information about client-side Microsoft&reg; Windows&reg Remote Desktop Services (RDS)
-connection issue with Remote Desktop Protocol (RDP) and describes the most up-to-date disconnect codes and reasons.
+and Remote Desktop Protocol (RDP) connection issues and describes the most up-to-date disconnect codes and reasons.
 
 **Note**: Some of the disconnect codes that the script returns are extended codes. If you cannot find the disconnect code in the
 following **Disconnect reasons** table, see the following **Extended reasons** table. 
 
-When you troubleshoot client-side connections, be aware that depending on configurations such as security level and encryption,
+When you troubleshoot client-side connections, be aware that depending on configurations, such as security level and encryption,
 the client might attempt a connection multiple times and disconnect before making the final connection.
 
 ### Script
@@ -35,12 +35,12 @@ returns the description.
 
     write-host "description: $($mstsc.GetErrorDescription($disconnectReason,$extendedReason))"
 
-Note: If you get the "an internal error has occurred" message, the script could not find the disconnect code, and the return
+**Note:** If you get the "an internal error has occurred" message, the script could not find the disconnect code, and the return
 description is not valid.
 
 ### Example
 
-The following event log entry example shows event ID 1026 of an RDP client session disconnected event. Event code `263` means no error.
+The following event log entry example shows event ID `1026` of an RDP client session-disconnected event. Event code `263` means no error.
 
     Log Name:      Microsoft-Windows-TerminalServices-RDPClient/Operational
     Source:        Microsoft-Windows-TerminalServices-ClientActiveXCore
