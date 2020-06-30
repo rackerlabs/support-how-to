@@ -1,6 +1,6 @@
 ---
 permalink: create-scheduled-tasks-on-a-windows-server/
-audit_date: '2020-04-28'
+audit_date: '2020-06-30'
 title: 'Create scheduled tasks on a Windows server'
 type: article
 created_date: '2020-04-28'
@@ -28,10 +28,10 @@ Perform the following steps to create a scheduled task:
 1. *Optional* If a folder for custom tasks does not exist already, create one to separate automatically
    created tasks from custom tasks. Right-click **Task Scheduler Library** in the left-hand pane, click
    **New Folder**, enter a name such as **My Custom Tasks**, and click **OK**.
-   
+
 2. To select the folder in which to store the task, such as the previously created
    **My Custom Tasks** folder, click the folder.
-   
+
 3. To create a new task, right-click the chosen folder and click **Create Basic Task** to launch the
    **Create Basic Task Wizard**.
 

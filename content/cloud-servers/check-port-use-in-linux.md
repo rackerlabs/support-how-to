@@ -1,6 +1,6 @@
 ---
 permalink: check-port-use-in-linux/
-audit_date: '2020-06-15'
+audit_date: '2020-06-30'
 title: Check port use in Linux
 type: article
 created_date: '2020-06-12'
@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to verify listening ports and port usage in a Linux&reg; system.  
+This article explains how to verify listening ports and port usage in a Linux&reg; system.
 
 ### Using the `lsof` command
 
@@ -31,7 +31,7 @@ The `lsof` (List Open Files) command produces a list of files that are currently
 
 The last line of the preceding example shows that the app `sshd` is listening on TCP port 22.
 
-The following list shows the options in the preceding command example: 
+The following list shows the options in the preceding command example:
 
 -  `-i`: Display files opened by network (Internet) connections.
 -  `-n`: Prevent networks from being changed to host names.
@@ -53,10 +53,10 @@ Example output:
 
 #### Specify a port in an `lsof` search
 
-Lastly, you can specify a specific port to search for processes. 
+Lastly, you can specify a specific port to search for processes.
 
     `lsof -i :(Port Number)`
-    
+
         [root@server-01 ~]# lsof -i :22
         COMMAND   PID USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
         sshd     1252 root    5u  IPv4   26992      0t0  TCP :ssh (LISTEN)
@@ -70,7 +70,7 @@ The `netstat` (Network Statistics) command displays network connections, port us
 #### General `netstat` command
 
     `netstat -tulpn`
-    
+
 Example output:
 
         [root@server-01 ~]# netstat -tulpn

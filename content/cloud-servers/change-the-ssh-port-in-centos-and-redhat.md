@@ -1,5 +1,5 @@
 ---
-permalink: change-the-ssh-port-in-centos-redhat/
+permalink: change-the-ssh-port-in-centos-and-redhat/
 audit_date: '2020-06-25'
 title: Change the SSH Port in CentOS and Red Hat
 type: article
@@ -28,7 +28,7 @@ This article explains how to change the default Secure Shell (SSH) port on a Cen
         #ListenAddress 0.0.0.0
         #ListenAddress ::
 
-3. Place the cursor on the line below **#Port 22** and press the **i** key to enter *Insert Mode*. 
+3. Place the cursor on the line below **#Port 22** and press the **i** key to enter *Insert Mode*.
 
 4. Press the **Enter** key to create a new line and type `Port <Specified Port Number>`. `Port 2021` is the new SSH port in the following example:
 
@@ -49,7 +49,7 @@ This article explains how to change the default Secure Shell (SSH) port on a Cen
        [root@server-01 ~]# yum install policycoreutils
 
 2. Type `y` and press the **Enter** key to continue with the installation. When this task completes, add the following rules
-   to ensure that the SSH daemon binds with the specified port: 
+   to ensure that the SSH daemon binds with the specified port:
 
        [root@server-01 ~]# semanage port -a -t ssh_port_t -p tcp 2021
        [root@server-01 ~]# semanage port -m -t ssh_port_t -p tcp 2021

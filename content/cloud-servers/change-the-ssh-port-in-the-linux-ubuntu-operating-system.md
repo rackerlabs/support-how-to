@@ -1,5 +1,5 @@
 ---
-permalink: change-the-ssh-port-in-the--linux-ubuntu-operating-system/
+permalink: change-the-ssh-port-in-the-linux-ubuntu-operating-system/
 audit_date: '2020-06-26'
 title: Change the SSH Port in the Linux Ubuntu operating system
 type: article
@@ -37,7 +37,7 @@ Perform the following steps to edit the configuration file:
        #AddressFamily any
        #ListenAddress 0.0.0.0
        #ListenAddress ::
-       
+
 5. Press the **Esc** key to exit *Insert Mode* and enter **:wq** to save your changes and close the file.
 
 ### Restart SSH daemon

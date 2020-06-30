@@ -1,11 +1,11 @@
 ---
 permalink: configure-an-internet-connection-firewall-for-iis/
 audit_date: '2020-06-15'
-title: 'Configure an Internet Connection Firewall (ICF) for IIS'
+title: 'Configure an Internet Connection Firewall for IIS'
 type: article
 created_date: '2020-06-11'
 created_by: Travis Cook
-last_modified_date: '2020-06-15' 
+last_modified_date: '2020-06-15'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -32,7 +32,7 @@ Internet Connection Firewall (ICF) is a software based firewall that prevents un
 7. Within the **Service Settings** dialog box, which appears after you enable a service, proceed with one of the following:
 
      - If you are enabling a service on the same computer you are working on, the correct computer name should be filled in. Click **Ok**.
-   
+
      - If you are enabling a service on a different computer on your network, type the name or IP address of the computer hosting the service you are enabling, and click **Ok**.
 
 8. **Repeat** Steps **6** and **7** until all the services you want accessible to clients are enabled.
