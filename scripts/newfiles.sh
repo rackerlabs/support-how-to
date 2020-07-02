@@ -1,10 +1,15 @@
 #!/bin/bash
 
 # Purpose: Identify all *md files in H2 repo where:
-# Created date is after date begin date passed in with script call 
+# Created date is after date begin date passed in with script call
 # and before end date passed in with script call
 #
-# Example call: new-files.sh 2016-01-29 2016-04-05
+# Example call: newfiles.sh 2016-01-29 2016-04-05
+#
+# If you got a file not found error when you run the script, run the following
+# command instead:
+#
+#               ./newfiles.sh 2016-01-29 2016-04-05
 #
 # NOTE: Script assumes you are executing from within the scripts directory of
 #       your local H2 git repo.
@@ -17,13 +22,13 @@
 #       create_date is between begin and end dates (from the script arguments)
 #
 # Updates:
-# 7/10/17: remove criteria that create date and modified date must be the same 
+# 7/10/17: remove criteria that create date and modified date must be the same
+# 6/5/20: fixed instructions and excluded non-article files.
 
 
 # assign date arguments to variables
 begdate=$1
 enddate=$2
-echo "date range is between " $begdate " and " $enddate
 
 #set counter
 count=0
@@ -39,15 +44,25 @@ do
 # find created_date and last_modified_date in file meta data
    cdate=`grep created_date $f`
    mdate=`grep last_modified_date $f`
+   cby=`grep ^created_by: $f`;
 # separate actual dates from rest of the grepped line
    acdate=`echo $cdate | awk -F\' '{print $2}'`
    amdate=`echo $mdate | awk -F\' '{print $2}'`
+   acby=`echo $cby | awk '{print $2 " " $3 " " $4}'`;
+#trim whitespace
+   acby=`echo $acby | sed 's/ *$//g'`
 
 # if create date is between the begin and end dates passed in - proceed
-  if [[ "$acdate" > "$begdate" ]] && [[ "$acdate" < "$enddate" ]] ; 
+  if [[ "$acdate" > "$begdate" ]] && [[ "$acdate" < "$enddate" ]] ;
   then
+# pull file name and directory
+     thefile=$(basename $f)
+     thedir=$(dirname $f)
+     theroot="https://support.rackspace.com/how-to/"
+     thepath=$theroot$thefile
+     theoutput=$acdate";"$acby";"$thepath
 # print out all newly created files
-     echo "File created: " $acdate " " $f;
+     echo $theoutput
      count=$((count+1));
   fi
 done

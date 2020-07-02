@@ -1,6 +1,6 @@
 ---
 permalink: linux-reboot-and-shutdown-commands/
-audit_date: '2020-05-14'
+audit_date: '2020-06-30'
 title: Linux reboot and shutdown commands
 type: article
 created_date: '2020-05-12'
@@ -21,7 +21,7 @@ logins.  Users must have `root` or `sudo` privileges to use `shutdown`. The comm
 structure:
 
     shutdown [OPTIONS] [TIME] [MESSAGE]
-    
+
 **Explanation of command elements:**
 
 - **OPTIONS**: Use OPTIONS to specify reboot, halt system, cancel request, display messages, and disable
@@ -41,7 +41,7 @@ starts after a one-minute time interval.
 
 ### Specify a shutdown time
 
-You can add a time argument in the following formats: 
+You can add a time argument in the following formats:
 
 - **hh:mm**: Schedule a specific time.
 
@@ -50,7 +50,7 @@ You can add a time argument in the following formats:
 The following example uses the **hh:mm** format to schedule a shutdown at 11:30 AM server time:
 
     [root@server-01 ~]# shutdown 11:30
-    Shutdown scheduled for Wed 2020-05-13 11:30:00 UTC, use 'shutdown -c' to cancel. 
+    Shutdown scheduled for Wed 2020-05-13 11:30:00 UTC, use 'shutdown -c' to cancel.
 
 The following example uses the **+m** format to schedule  a shutdown in 30 minutes:
 
@@ -100,7 +100,7 @@ The following custom message displays to logged-in users:
 
     Rebooting in 10 Minutes for Updates
 
-    The system is going down for reboot at Wed 2020-05-13 01:54:40 UTC!  
+    The system is going down for reboot at Wed 2020-05-13 01:54:40 UTC!
 
 ### Cancel a shutdown
 

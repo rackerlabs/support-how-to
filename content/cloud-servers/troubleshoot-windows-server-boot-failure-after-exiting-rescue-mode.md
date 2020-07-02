@@ -1,11 +1,11 @@
 ---
 permalink: troubleshoot-windows-server-2008-boot-failure-after-exiting-rescue-mode/
-audit_date: '2019-03-25'
+audit_date: '2020-06-10'
 title: Troubleshoot Windows Server 2008 boot failure after exiting rescue mode
 type: article
 created_date: '2019-03-25'
 created_by: Rackspace Community
-last_modified_date: '2019-03-25'
+last_modified_date: '2020-06-10'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -53,7 +53,7 @@ To update the BCD store with the correct boot loader signature, you need
 the unique identifier of the Windows Boot Loader. Use the following command
 to display the settings of the boot loader:
 
-    bcdetit /store D:\boot\bcd
+    bcdedit /store D:\boot\bcd
 
 The output should look similar to the following example:
 
@@ -131,7 +131,7 @@ To update the BCD store with the correct boot loader signature, you need
 the unique identifier of the Windows Boot Loader. Use the following command
 to display the settings of the boot loader:
 
-    bcdetit /store E:\boot\bcd
+    bcdedit /store E:\boot\bcd
 
 The output should look similar to the following example:
 
