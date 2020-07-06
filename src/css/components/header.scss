@@ -1,0 +1,467 @@
+$header-height: 5rem;
+
+.header {
+  align-items: center;
+  background-color: $color-black;
+  border-bottom: 1px solid $color-grey;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+  z-index: 20;
+
+  .left-block {
+    align-items: center;
+    display: flex;
+    height: 75%;
+    justify-content: flex-start;
+    overflow: hidden;
+    transition: all 0.15s linear;
+    width: 140px;
+    background-color: $color-red;
+    margin: 1rem;
+    padding: 0.25rem;
+
+    .logo {
+      backface-visibility: hidden;
+      background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 3rem;
+      line-height: 0;
+      overflow: hidden;
+      transition: width 0.15s linear, opacity 0.15s ease;
+      width: 100%;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      width: 1.5rem;
+
+      .logo {
+        background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+      }
+    }
+  }
+
+  .right-block {
+    align-items: center;
+    display: flex;
+  }
+
+  .search {
+    margin: 1rem;
+    position: relative;
+
+    &::after {
+      background-image: url("/img/search.svg");
+      background-repeat: no-repeat;
+      background-size: 0.9rem;
+      content: "";
+      height: 100%;
+      left: 0.7rem;
+      opacity: 0.25;
+      position: absolute;
+      top: 0.65rem;
+      width: 2rem;
+      z-index: 10;
+    }
+
+    input {
+      padding-left: 2rem;
+    }
+  }
+}
+
+.header.dark {
+  background-color: $color-black;
+  border-bottom: 1px solid $color-dark;
+  color: $color-white;
+
+  .logo {
+    background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+  }
+
+  .nav {
+    color: $color-white;
+
+    &.expanded {
+      color: $color-black;
+    }
+  }
+
+  .button {
+    color: $color-white;
+  }
+
+  @media screen and (max-width: 700px) {
+    .logo {
+      background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+    }
+  }
+}
+
+.header.docs {
+  height: $header-height;
+
+  .nav {
+    &.expanded {
+      display: flex;
+      height: 100%;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      padding: 1.24rem 2rem 2rem;
+
+      @media screen and (min-width: 960px) {
+        padding: 1.21rem 4rem 2rem;
+      }
+
+      ul.main-nav-items {
+        border-bottom: 1px solid $color-grey;
+        padding-bottom: 2rem;
+        width: 100%;
+      }
+
+      li {
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+
+      .docs-nav-items {
+        font-size: 1rem;
+        padding-top: 2rem;
+        width: 100%;
+
+        h2 {
+          margin-bottom: 2rem;
+        }
+
+        h3 {
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+        }
+
+        ul {
+          color: $color-copy-dark;
+          margin-bottom: 2rem;
+        }
+
+        li {
+          line-height: 1.4;
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+
+          a {
+            color: $color-copy-dark;
+            font-weight: 400;
+            text-decoration: none;
+
+            &.active {
+              color: $color-brand;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .buynow-button,
+      .login-button {
+        margin: 2rem 0 0;
+      }
+
+      .mini-nav--logo {
+        display: block;
+        background-color: $color-red;
+      }
+    }
+
+    @media screen and (min-width: 960px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 860px) {
+      .docs-nav-items {
+        display: none;
+      }
+    }
+
+    @media screen and (min-width: 1100px) {
+      display: block;
+    }
+  }
+
+  .mini-nav--toggle {
+    @media screen and (min-width: 960px) {
+      display: block;
+    }
+
+    @media screen and (min-width: 1100px) {
+      display: none;
+    }
+  }
+}
+
+.nav {
+  display: none;
+  position: relative;
+  transition: all 0.15s linear;
+  white-space: nowrap;
+
+  &.expanded {
+    background: $color-black;
+    border-bottom: 1px solid $color-grey;
+    display: flex;
+    height: auto;
+    left: 0;
+    padding: 1.72rem 8vw 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+
+    li {
+      display: block;
+      font-size: 1.5rem;
+      line-height: 1.8;
+      text-transform: uppercase;
+    }
+
+    .buynow-button,
+    .login-button {
+      margin: 2rem 0 0;
+    }
+
+    .mini-nav--logo {
+      display: block;
+      background-color: $color-red;
+    }
+
+    @media screen and (min-width: 960px) {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 960px) {
+    display: flex;
+  }
+}
+
+.nav {
+  li {
+    display: inline;
+    list-style: none;
+    margin-right: 1.5rem;
+    text-transform: uppercase;
+
+    &:last-child {
+      margin: 0;
+    }
+
+    .nav-item {
+      color: $color-white;
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 0.15s ease;
+
+      &:hover {
+        color: $color-white;
+      }
+
+      &.active {
+        color: $color-white;
+      }
+    }
+
+    a {
+      color: $color-white;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "open-sans-bold", Arial, sans-serif;
+      font-style: normal;
+
+      &:hover,
+      &.active {
+        background-color: $color-black;
+      }
+
+      &.active {
+        background: fadeout(shade(white, 3%), 5%);
+      }
+    }
+  }
+}
+
+
+.mini-nav--toggle {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  z-index: 40;
+  margin: 0 0 0 20rem;
+
+  img {
+    display: block;
+    width: 1.2rem;
+  }
+
+  .toggle-open {
+    display: block;
+  }
+
+  .toggle-close {
+    display: none;
+  }
+
+  @media screen and (min-width: 960px) {
+    display: none;
+  }
+}
+
+.nav.expanded+.mini-nav--toggle {
+  .toggle-open {
+    display: none;
+  }
+
+  .toggle-close {
+    display: block;
+  }
+}
+
+.mini-nav--logo {
+  backface-visibility: hidden;
+  background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: none;
+  height: 1.5rem;
+  line-height: 0;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  transition: all 0.15s linear;
+  width: 110px;
+  background-color: $color-red;
+}
+
+.buttons-header {
+  background-color: $color-white;
+}
+
+.buttons-nav-items,
+.main-nav-items {
+  margin: 1rem;
+}
+
+.buttons-nav-items {
+  display: flex;
+
+  li {
+    display: flex;
+
+    a {
+      margin: 0 0 0 1rem;
+    }
+
+    cursor: pointer;
+
+    ul {
+      display: none;
+      cursor: pointer;
+
+      li {
+        margin-bottom: .5em;
+
+        a {
+          color: $color-white;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+  }
+  .buttons-nav-item {
+    ul {
+      position: absolute;
+      padding-left: 0;
+      border-top: 1px solid $color-black;
+      border-radius: 3px;
+      z-index: 20;
+      text-align: right;
+      color: $color-white;
+      right: 2rem;
+      top: 3.15rem;
+    }
+  }
+  .buy-now {
+    ul {
+      background: $color-green;
+    }
+  }
+  .login {
+    ul {
+      background: $color-header-grey;
+    }
+  }
+}
+
+.blog-nav {
+  background-color: $color-black;
+  z-index: 2;
+}
+
+.main-nav-items {
+  .blog-nav {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+
+    .main-nav-items {
+      position: absolute;
+      display: none;
+      margin: 0;
+      background-color: $color-light-grey;
+      text-decoration: none;
+      list-style-type: none;
+      padding: 10px;
+      border-radius: 0 0 4px 4px;
+
+      li {
+        width: 220px;
+        border-radius: 4px;
+
+        a {
+          font-weight: 400;
+          color: $color-dark-grey;
+          font-size: 14px;
+          line-height: 25px;
+          text-decoration: none;
+          text-transform: uppercase;
+          list-style-type: none;
+
+          &:hover,
+          &:focus {
+            color: $color-white;
+            background: transparent;
+          }
+        }
+      }
+    }
+
+    &:hover,
+    &:focus {
+      .main-nav-items {
+        display: grid;
+      }
+    }
+  }
+}

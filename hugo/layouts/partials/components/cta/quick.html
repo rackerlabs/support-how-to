@@ -1,0 +1,7 @@
+{{- if and .headline .textline -}}
+  <section id="{{- .headline | urlize -}}" class="section{{ with .class }} {{ . }}{{- end -}}{{ if or (eq .direction "vertical") (eq .direction "tab") }} center{{ end }}">
+    <div class="container">
+      
+    </div>
+  </section>
+{{- end -}}

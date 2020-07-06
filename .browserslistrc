@@ -1,0 +1,5 @@
+# Configures browser support for
+# Webpack and PostCSS
+# https://github.com/ai/browserslist
+
+defaults

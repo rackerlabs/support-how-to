@@ -1,0 +1,28 @@
+.pagination {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+.pagination > *:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.pagination--item {
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+
+  &.active {
+    background: #000000;
+    color: $color-white;
+    font-weight: bold;
+  }
+}
+
+.pagination--first,
+.pagination--last,
+.pagination--prev,
+.pagination--next,
+.pagination--ellipses {
+  padding: 0.25rem;
+}

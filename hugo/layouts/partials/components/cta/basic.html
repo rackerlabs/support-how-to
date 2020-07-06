@@ -1,0 +1,10 @@
+<section class="section section-cta center">
+  <div class="container">
+    <br><br>
+    {{- with .ctas -}}
+      {{- range . -}}
+      <a href="{{ .RelPermalink }}"{{ if .button }} class="button primary big"{{ end }}>{{ .textline }}</a>
+      {{- end -}}
+      {{- end -}}
+  </div>
+</section>

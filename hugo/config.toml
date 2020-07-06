@@ -1,0 +1,201 @@
+baseurl = "/"
+copyright = ""
+defaultContentLanguage = "en-us"
+destination = "../dist/"
+enableEmoji = true
+enableRobotsTXT = true
+languageCode = "en"
+metaDataFormat = "yaml"
+paginate = 10
+pluralizeListTitles = false
+relativeURLs = false
+title = "Technical Blog"
+[markup]
+defaultMarkdownHandler = "blackfriday"
+[markup.blackFriday]
+angledQuotes = false
+hrefTargetBlank = false
+latexDashes = true
+plainIDAnchors = true
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+style = "monokailight"
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
+autoHeadingIDType = "github"
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = false
+xhtml = false
+[[menu.docs]]
+    name = "Welcome"
+    weight = 1
+
+[[menu.footer]]
+    name = "Developer Center"
+    parent = "Developer Network"
+    url = "/"
+    weight = 1
+[[menu.footer]]
+    name = "API Documentation and User Guides"
+    parent = "Developer Network"
+    url = "/"
+    weight = 2
+[[menu.footer]]
+    name = "SDKs"
+    parent = "Developer Network"
+    url = "/"
+    weight = 3
+[[menu.footer]]
+    name = "Rackspace How-To"
+    parent = "Developer Network"
+    url = "/"
+    weight = 4
+[[menu.footer]]
+    name = "Technical Blog"
+    parent = "Blogs"
+    url = "/blog"
+    weight = 5
+[[menu.footer]]
+    name = "Rackspace Blog"
+    parent = "Blogs"
+    url = "/"
+    weight = 6
+[[menu.footer]]
+    name = "Solve: Thought Leadership"
+    parent = "Blogs"
+    url = "/"
+    weight = 7
+[[menu.footer]]
+    name = "Customer Stories"
+    parent = "Other Information"
+    weight = 8
+[[menu.footer]]
+    name = "Events"
+    parent = "Other Information"
+    weight = 9
+[[menu.footer]]
+    name = "Programs"
+    parent = "Other Information"
+    weight = 10
+[[menu.footer]]
+    name = "Careers"
+    parent = "Other Information"
+    weight = 11
+[[menu.footer]]
+    name = "Style Guide for Technical Content"
+    parent = "Other Information"
+    weight = 12
+
+[[menu.main]]
+    identifier = "support_home"
+    name = "Support Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    identifier = "how_to"
+    name = "How-To"
+    url = "/how-to"
+    weight = 2
+[[menu.main]]
+    identifier = "blogs"
+    name = "Blogs"
+    url = "#"
+    post = "&#9660;"
+    weight = 3
+    [[menu.main]]
+        identifier = "technical-blog"
+        name ="Technical Blog"
+        url ="/blog"
+        weight = 1
+        parent = "blogs"
+    [[menu.main]]
+        identifier = "rackspace-blog"
+        name = "Rackspace Blog"
+        url = "/rackspace-blog"
+        weight = 2
+        parent = "blogs"
+    [[menu.main]]
+        identifier = "solve"
+        name = "Solve: Thought Leadership"
+        url = "/solve"
+        weight = 3
+        parent = "blogs"
+[[menu.main]]
+    identifier = "support_documentation"
+    name = "Support Documentation"
+    url = "/"
+    weight = 4
+[[menu.buttons]]
+    identifier = "buynow"
+    name = "Buy Now"
+    url = "/"
+    weight = 5
+[[menu.buttons]]
+    identifier = "login"
+    name = "Login"
+    url = "/"
+    weight = 6
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+[outputFormats.OpenSearch]
+baseName = "opensearch"
+isPlainText = true
+mediaType = "application/xml"
+notAlternative = true
+[outputFormats.Redirects]
+baseName = "redirects"
+isPlainText = true
+mediatype = "application/json"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "OpenSearch", "Algolia", "Redirects"]
+[params]
+dateformat = "January 2, 2006"
+description = "Rackspace Developer documentation using static site generator and headless CMS"
+ghrepo = "https://github.com/rackerlabs/technical-blog"
+ghrepo_edit = "https://github.com/rackerlabs/technical-blog/edit/master/hugo/content/"
+ghrepo_new = "https://github.com/rackerlabs/technical-blog/issues/new"
+images = ["/img"]
+[params.algolia]
+params = ["tags", "categories", "authors"]
+vars = ["date", "description", "dir", "path", "expirydate", "keywords", "kind", "lang", "permalink", "publishdate", "readingtime", "relpermalink", "summary", "title", "type", "url", "weight", "wordcount", "section"]
+[related]
+includeNewer = true
+threshold = 10
+toLower = true
+[[related.indices]]
+name = "Section"
+weight = 200
+[[related.indices]]
+name = "keywords"
+weight = 150
+[[related.indices]]
+name = "categories"
+weight = 150
+[[related.indices]]
+name = "tags"
+weight = 100
+[[related.indices]]
+name = "date"
+pattern = "2006"
+weight = 10
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
