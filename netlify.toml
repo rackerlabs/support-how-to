@@ -1,0 +1,34 @@
+[build.environment]
+  YARN_VERSION = "1.22.4"
+  NPM_VERSION = "6.14.5"
+
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[context.deploy-preview]
+  publish = "dist"
+
+[[plugins]]
+  package = "netlify-plugin-algolia-index"
+
+[[redirects]]
+  from = "/docs"
+  to = "https://developer.rackspace.com/docs/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+

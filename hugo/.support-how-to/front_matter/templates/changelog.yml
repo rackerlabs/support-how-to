@@ -1,0 +1,35 @@
+---
+label: changelog
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: authors
+  label: Authors
+  type: tag_list
+  hidden: true
+  default:
+  - team
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: now
+  config:
+    date_format: YYYY/MM/DD
+    export_format: YYYY-MM-DD
+    required: true
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+pages:
+- hugo/content

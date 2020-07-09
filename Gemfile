@@ -1,5 +1,3 @@
-# A sample Gemfile
-source "https://rubygems.org"
-
-gem 'jekyll'
-gem 'jekyll-assets'
+# Bundler configuration file [http://gembundler.com]
+source 'https://rubygems.org'
+gem 'asciidoctor'

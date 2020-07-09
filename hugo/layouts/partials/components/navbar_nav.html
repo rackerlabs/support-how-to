@@ -1,0 +1,15 @@
+<ul class="main-nav-items">
+    {{- range . -}}
+    {{- $isHeaderNav := (eq .Identifier "blogs") -}}
+    <li class="{{ if $isHeaderNav }} blog-nav {{ end }}">
+        {{- if .HasChildren -}}
+        <a href="{{ .URL | relURL }}"
+            class="nav-item">{{ .Pre }}&nbsp;{{ .Name }}&nbsp;{{ .Post }}</a>
+        {{- partial "components/navbar_nav.html" .Children . -}}
+        {{- else -}}
+        <a href="{{ .URL | relURL }}"
+            class="nav-item">{{ .Name }}</a>
+        {{- end -}}
+    </li>
+    {{- end -}}
+</ul>

@@ -1,0 +1,29 @@
+{{- define "main" -}}
+  <main class="docs-container">
+    <div class="sidebar">
+      <aside class="sidebar-inner">
+        <h2>
+          <a href="{{ .Section | urlize | relURL }}">
+            {{ .Section | humanize }}
+          </a>
+        </h2>
+        {{- partial "components/sidebar" . -}}
+      </aside>
+    </div>
+    <section class="section section-docs-list">
+      <div class="container">
+
+        {{- range .Paginator.Pages -}}
+          {{- .Render "summary" }}
+        {{- end -}}
+
+        {{- partial "components/pagination/paginator" . -}}
+
+        {{- with  .OutputFormats.Get "RSS" -}}
+        <hr />
+       
+        {{- end }}
+      </div>
+    </section>
+  </main>
+{{- end -}}

@@ -1,0 +1,80 @@
+<section class="blog box">
+    <!-- <div class="box blog">
+        <div class="container">
+            <div class="headline">
+                <h2>News</h2>
+            </div>
+            <div data-tab-set>
+                <div class="tab-buttons">
+                    <ul>
+                        <li>
+                            <a href="#" data-tab-link="blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" data-tab-link="news"><span class="wordy">Product </span>News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs">
+                    <div data-tab="blog">
+                        {{- range .Paginator.Pages -}}
+                        {{ .Render "blog/summary" }}
+                        {{- end -}}
+                        <p class="big-button"><a href="/blog/">View All Blog Posts</a></p>
+                    </div>
+
+                    <div data-tab="news">
+          
+                        <p class="big-button">
+                            <a href="https://blog.rackspace.com/channels/product-and-development/">Read All News</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="blog box ng-scope" data-ng-controller="BlogSidebarCtrl">
+    <div class="container">
+        <div class="headline">
+            <h2>News</h2>
+        </div>
+        <div class="tab-links">
+            <a href="" data-ng-click="clickPostTab('month')"
+                data-ng-class="{'active': isSectionActive('month')}">Blog</a>
+            <a href="" data-ng-click="clickPostTab('forever')"
+                data-ng-class="{'active': isSectionActive('forever')}">Product News</a>
+        </div>
+        <ol data-ng-show="isSectionActive('month')">
+            {{ with .Site.GetPage "/blog" }}
+         
+            {{ .Content }}
+           
+            {{ end }}
+         
+            <li><a href="/blog/understanding-a-sql-server-execution-plan/">Understanding a SQL Server execution
+                    plan</a></li>
+            <li><a href="/blog/lacp-bonding-and-linux-configuration/">LACP bonding and Linux configuration</a>
+            </li>
+            <li><a href="/blog/steps-to-migrate-multiple-iis-sites/">Steps to migrate multiple IIS sites</a>
+            </li>
+            <li><a href="/blog/new-sql-server-2017-features/">New SQL Server 2017 features</a></li>
+            <li><a href="/blog/introduction-to-pgp-encryption-and-decryption/">Introduction to PGP encryption
+                    and
+                    decryption</a></li>
+        </ol>
+        <ol data-ng-show="isSectionActive('forever')" class="ng-hide">
+            <li><a href="/blog/understanding-a-sql-server-execution-plan/">Understanding a SQL Server execution
+                    plan</a></li>
+            <li><a href="/blog/lacp-bonding-and-linux-configuration/">LACP bonding and Linux configuration</a>
+            </li>
+            <li><a href="/blog/powershell-101-from-a-linux-guy/">PowerShell 101 from a Linux guy</a></li>
+            <li><a href="/blog/openstack-orchestration-in-depth-part-1-introduction-to-heat/">OpenStack
+                    Orchestration
+                    in depth, Part 1: Introduction to Heat</a></li>
+            <li><a href="/blog/neutron-networking-l3-agent/">Neutron networking: Neutron routers and the L3
+                    agent</a>
+            </li>
+        </ol>
+    </div>
+</div>
+</section>

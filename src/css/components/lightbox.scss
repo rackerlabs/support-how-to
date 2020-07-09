@@ -1,0 +1,126 @@
+.lightbox {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+
+  /** Position and style */
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  @media screen and (min-width: 1024px) {
+    padding: 2rem;
+  }
+}
+
+.lightbox img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+.box.home,
+.box.rack-cli {
+  background: #f0f5fc;
+}
+
+body.home .box.dev-support,
+body.home .box.rack-cli {
+  border-top: solid 1px #e0e0e0;
+}
+
+.box {
+  text-align: center;
+  padding: 80px 0;
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 90%;
+  }
+}
+
+.box.rack-cli {
+  .container {
+    display: inline;
+  }
+  .cli-grid {
+    display: block;
+    width: calc(100% + 20px);
+    margin-left: -20px;
+    overflow: hidden;
+  }
+
+  .cli-image {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+  .cli-image,
+  .cli-text {
+    display: inline-block;
+    margin-right: -.26rem;
+    margin-left: 20px;
+    vertical-align: top;
+  }
+
+  .cli-image [data-rack-cli-graphic] {
+    margin: 0 auto;
+    position: relative;
+
+    img {
+      margin: 0;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .cli-text {
+    h2 {
+      margin-top: 1em;
+      text-align: center;
+    }
+
+    .action {
+      text-align: center;
+      margin-top: 4em;
+    }
+
+    .download-button {
+      display: inline-block;
+      transition: background .1s ease-in-out;
+      background: #3498db;
+      border: 1px solid #2f89c5;
+      color: #fff;
+      padding: .5em 1.5em;
+      text-decoration: none;
+    }
+
+    .info-button {
+      border-radius: 1px;
+      display: inline-block;
+      text-decoration: none;
+      -webkit-transition: background .1s ease-in-out;
+      -ms-transition: background .1s ease-in-out;
+      transition: background .1s ease-in-out;
+      background: transparent;
+      border: 1px solid transparent;
+      color: #3498db;
+      padding: .5em 1.5em;
+    }
+  }
+}
+
+ul {
+  list-style-type: disc;
+}

@@ -1,0 +1,32 @@
+.section-logos {
+  background-color: $color-light-grey;
+  padding: 3.5rem 0;
+}
+
+.logos--title {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.logos--container {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -0.75rem 2rem;
+  width: 100%;
+
+  @media screen and (min-width: 900px) {
+    justify-content: space-between;
+  }
+}
+
+.logos--logo {
+  flex: 0 0 auto;
+  margin: 0 0.75rem 1rem;
+}
