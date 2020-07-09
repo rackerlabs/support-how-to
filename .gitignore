@@ -2,7 +2,6 @@
 *.DS_Store
 node_modules/
 .env
-yarn.lock
 
 # Don't add personal VS Code settings
 .vscode/
