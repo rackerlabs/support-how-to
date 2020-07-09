@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 paginate = 10
 pluralizeListTitles = false
 relativeURLs = false
-title = "Technical Blog"
+title = "Support How To"
 [markup]
 defaultMarkdownHandler = "blackfriday"
 [markup.blackFriday]
@@ -38,66 +38,95 @@ autoHeadingIDType = "github"
 hardWraps = false
 unsafe = false
 xhtml = false
-[[menu.docs]]
-    name = "Welcome"
-    weight = 1
 
 [[menu.footer]]
-    name = "Developer Center"
-    parent = "Developer Network"
+    name = "Support Network Home"
+    parent = "Support Network"
     url = "/"
     weight = 1
 [[menu.footer]]
-    name = "API Documentation and User Guides"
-    parent = "Developer Network"
+    name = "Rackspace How-To"
+    parent = "Support Network"
     url = "/"
     weight = 2
 [[menu.footer]]
-    name = "SDKs"
-    parent = "Developer Network"
+    name = "API Documentation"
+    parent = "Support Network"
     url = "/"
     weight = 3
 [[menu.footer]]
-    name = "Rackspace How-To"
-    parent = "Developer Network"
+    name = "Developer Center"
+    parent = "Support Network"
     url = "/"
     weight = 4
 [[menu.footer]]
-    name = "Technical Blog"
-    parent = "Blogs"
+    name = "About"
+    parent = "About Rackspace"
     url = "/blog"
     weight = 5
 [[menu.footer]]
-    name = "Rackspace Blog"
-    parent = "Blogs"
+    name = "Customer Stories"
+    parent = "About Rackspace"
     url = "/"
     weight = 6
 [[menu.footer]]
-    name = "Solve: Thought Leadership"
-    parent = "Blogs"
+    name = "Events"
+    parent = "About Rackspace"
     url = "/"
     weight = 7
 [[menu.footer]]
-    name = "Customer Stories"
-    parent = "Other Information"
+    name = "Programs"
+    parent = "About Rackspace"
+    url = "/"
     weight = 8
 [[menu.footer]]
-    name = "Events"
-    parent = "Other Information"
+    name = "News"
+    parent = " "
     weight = 9
 [[menu.footer]]
-    name = "Programs"
-    parent = "Other Information"
+    name = "Contact Information"
+    parent = " "
     weight = 10
 [[menu.footer]]
-    name = "Careers"
-    parent = "Other Information"
+    name = "Legal"
+    parent = " "
     weight = 11
 [[menu.footer]]
-    name = "Style Guide for Technical Content"
-    parent = "Other Information"
+    name = "Careers"
+    parent = " "
     weight = 12
-
+[[menu.footer]]
+    name = "The Rackspace Blog"
+    parent = "Blogs"
+    weight = 13
+[[menu.footer]]
+    name = "Technical Blog"
+    parent = "Blogs"
+    weight = 14
+[[menu.footer]]
+    name = "Solve: Thought Leadership"
+    parent = "Blogs"
+    weight = 15
+[[menu.footer]]
+    name = "Privacy Statement"
+    parent = "Site Information"
+    weight = 16
+[[menu.footer]]
+    name = "Website Terms"
+    parent = "Site Information"
+    weight = 17
+[[menu.footer]]
+    name = "Privacy Statement"
+    parent = "Site Information"
+    weight = 18
+[[menu.footer]]
+    name = "Trademarks"
+    parent = "Site Information"
+    weight = 19
+[[menu.footer]]
+    name = "Style Guide for Technical Content"
+    parent = "Site Information"
+    weight = 20
 [[menu.main]]
     identifier = "support_home"
     name = "Support Home"
@@ -168,9 +197,9 @@ home = ["HTML", "RSS", "OpenSearch", "Algolia", "Redirects"]
 [params]
 dateformat = "January 2, 2006"
 description = "Rackspace Developer documentation using static site generator and headless CMS"
-ghrepo = "https://github.com/rackerlabs/technical-blog"
-ghrepo_edit = "https://github.com/rackerlabs/technical-blog/edit/master/hugo/content/"
-ghrepo_new = "https://github.com/rackerlabs/technical-blog/issues/new"
+ghrepo = "https://github.com/rackerlabs/support-how-to"
+ghrepo_edit = "https://github.com/rackerlabs/support-how-to/edit/master/hugo/content/"
+ghrepo_new = "https://github.com/rackerlabs/support-how-to/issues/new"
 images = ["/img"]
 [params.algolia]
 params = ["tags", "categories", "authors"]

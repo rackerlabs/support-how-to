@@ -465,3 +465,20 @@ $header-height: 5rem;
     }
   }
 }
+
+.search-nav-bar {
+  #rax-header-link {
+    float: left;
+    color: $color-white;
+    h1 {
+      font-size: 3rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      padding: 10px 19px 10px 19px;
+    }
+  }
+  .search {
+    width: 100%;
+    flex: 0 0 20%;
+  }
+}

@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4abc18d8-6c6f-43f6-8d8c-f3a1749c263c/deploy-status)](https://app.netlify.com/sites/zealous-bartik-0f0867/deploys)
 
-# Technical Blog Documentation Website
+# Support How To Documentation Website
 This site wraps [Hugo](gohugo.io) with [Gulp](https://gulpjs.com/) as your asset pipeline.
 
 [PostCSS](http://postcss.org/) and [Webpack](https://webpack.js.org/) + [Babel](https://babeljs.io/) are used for CSS and JS compiling & transpiling.
@@ -70,7 +70,7 @@ For local development, environment variables can be included in `.env.js`. See `
 ├── .tmp/                  // Temporary directory for development server
 ├── dist/                  // The production build
 ├── hugo/                  // The Hugo project, with all content and static files
-|   ├── .technical-blog/         // Contains Technical Blog configuration files
+|   ├── .support-how-to/         // Contains Technical Blog configuration files
 |   ├── content/           // Where all site content is stored 
 |   ├── data/              // TOML, YAML or JSON files containing site data 
 |   ├── layouts/           // Your site's layouts
