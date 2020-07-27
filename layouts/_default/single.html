@@ -1,0 +1,57 @@
+{{- define "main" -}}
+<main id="post-container" class="blog-list-wrapper">
+  {{- partial "components/headline" . -}}
+  {{- partial "components/announcement" . -}}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-lg-10" id="single-post">
+        <div class="container">
+        <h1 class="post--title">{{ .Params.headline | default .Title | markdownify}}</h1>
+        <div class="post-meta">
+          <div class="post-avatar">
+            {{- if .Params.AuthorAvatar -}}
+            <img src="{{.Params.AuthorAvatar }}" class="post-avatar-image racker" alt="post avatar" />
+            {{- else -}}
+            <img src="{{ "/img/avatar-default.svg" | absURL }}" class="post-avatar-image" alt="post avatar" />
+            {{- end -}}
+          </div>
+          <a class="post-author" href="{{ "/blog/author/"}}{{ urlize .Params.Author }}">{{ .Params.Author }}</a>
+          |
+          <span class="post-date">{{ dateFormat .Site.Params.dateFormat .Date.UTC }}</span>
+          <ul class="post-category" data-category="{{ .Section }}">
+            {{- with .Params.categories -}}
+            {{- $len := len . -}}
+            <li>{{ range $index, $value := . }}
+              <a href="{{ "/blog/categories/"}}{{ urlize $value }}" class="post--category"
+                data-category="{{ $value | lower }}">
+                {{ $value | humanize }}
+              </a>{{ if not (eq $len ($index | add 1)) }} / {{- end -}}
+              {{- end -}}</li>
+            {{- end -}}
+            </ul>
+        </div>
+        <hr class="post-line" />
+        {{ .Content }}
+        <div class="author-bio">
+          <div class="avatar">
+            {{- if .Params.AuthorAvatar -}}
+            <img src="{{.Params.AuthorAvatar }}" class="post-avatar-image racker" alt="post avatar" />
+            {{- else -}}
+            <img src="{{ "/img/avatar-default.svg" | absURL }}" class="post-avatar-image" alt="post avatar" />
+            {{- end -}}
+          </div>
+          <div class="author-info">
+            <span class="name">{{ .Params.Author }}</span>
+            <div class="bio">{{ .Params.Bio }}</div>
+          </div>
+        </div>
+        {{- partial "components/share-bar" . -}}
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 col-lg-2">
+        {{- partial "components/popular-posts" . -}}
+      </div>
+    </div>
+  </div>
+</main>
+{{- end -}}
