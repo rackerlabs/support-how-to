@@ -1,4 +1,3 @@
-
 [build]
   publish = "public"
   command = "git submodule update -f --init && npm install && hugo"
