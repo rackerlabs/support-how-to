@@ -1,5 +1,5 @@
 baseurl = "https://docs-support-how-to.netlify.app/"
-theme = "docsy"
+theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
 destination = "public"

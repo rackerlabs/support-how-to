@@ -1,5 +1,5 @@
 ---
-title: Developer Blog
+title: Support How-To
 headline: Support How-To
 textline: Welcome to the Support How-To!
 weight: 4
