@@ -14,6 +14,12 @@ disablePathToLower = true
 uglyURLs = false
 smartDashes = true
 title = "Rackspace Developer Center"
+# Google Custom Search Engine ID
+gcs_engine_id = "006650721361932583448:0tpp1tnttba"
+# Enable offline search with Lunr.js
+offlineSearch = true
+offlineSearchSummaryLength = 70
+offlineSearchMaxResults = 10
 [markup]
 defaultMarkdownHandler = "blackfriday"
 [markup.blackFriday]
