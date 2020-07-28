@@ -1,4 +1,4 @@
 
-[submodule "themes/support-developer-hugo-theme"]
-	path = themes/support-developer-hugo-theme
-	url = https://github.com/rackerlabs/support-developer-hugo-theme
+[submodule "themes/docsy"]
+	path = themes/docsy
+	url = https://github.com/google/docsy
