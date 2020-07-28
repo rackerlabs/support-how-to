@@ -1,5 +1,5 @@
 {
-  "name": "tech-doc-hugo",
+  "name": "support-how-to",
   "version": "0.0.1",
   "description": "Hugo theme for technical documentation.",
   "main": "none.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google/docsy-example.git"
+    "url": "git+https://github.com/rackerlabs/support-how-to.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/google/docsy-example/issues"
+    "url": "https://github.com/rackerlabs/support-how-to/issues"
   },
-  "homepage": "https://github.com/google/docsy-example#readme",
+  "homepage": "https://github.com/rackerlabs/support-how-to#readme",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.0",
