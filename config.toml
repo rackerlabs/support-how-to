@@ -54,44 +54,44 @@ xhtml = false
     weight = 1
 
 [[menu.footer]]
-    name = "Developer Center"
-    parent = "Developer Network"
-    url = "https://docs.rackspace.com"
+    name = "Support Network Home"
+    parent = "Support Network"
+    url = "/"
     weight = 1
 [[menu.footer]]
-    name = "API Documentation and User Guides"
-    parent = "Developer Network"
-    url = "https://docs.rackspace.com/docs"
+    name = "Rackspace How-To"
+    parent = "Support Network"
+    url = "https://support.rackspace.com/how-to"
     weight = 2
 [[menu.footer]]
-    name = "SDKs"
-    parent = "Developer Network"
-    url = "https://docs.rackspace.com/sdks/python/"
+    name = "API Documentation"
+    parent = "Support Network"
+    url = "https://docs.rackspace.com/docs/"
     weight = 3
 [[menu.footer]]
-    name = "Rackspace How-To"
-    parent = "Developer Network"
-    url = "https://support.rackspace.com/how-to/"
+    name = "Developer Center"
+    parent = "Support Network"
+    url = "https://docs.rackspace.com"
     weight = 4
 [[menu.footer]]
-    name = "Technical Blog"
-    parent = "Blogs"
-    url = "/blog"
+    name = "About"
+    parent = "About Rackspace"
+    url = "https://www.rackspace.com/about"
     weight = 5
 [[menu.footer]]
-    name = "Rackspace Blog"
-    parent = "Blogs"
-    url = "https://www.rackspace.com/blog"
+    name = "Customer Stories"
+    parent = "About Rackspace"
+    url = "https://www.rackspace.com/customer-stories"
     weight = 6
 [[menu.footer]]
-    name = "Solve: Thought Leadership"
-    parent = "Blogs"
-    url = "https://www.rackspace.com/solve"
+    name = "Events"
+    parent = "About Rackspace"
+    url = "https://www.rackspace.com/events"
     weight = 7
 [[menu.footer]]
-    name = "Customer Stories"
-    parent = "Other Information"
-    url = "https://www.rackspace.com/customer-stories"
+    name = "Programs"
+    parent = "About Rackspace"
+    url = "https://www.rackspace.com/responsibility"
     weight = 8
 [[menu.footer]]
     name = "Events"

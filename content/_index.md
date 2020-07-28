@@ -1,5 +1,5 @@
 ---
-title: Support How-To
+title: Rackspace Support
 headline: Support How-To
 textline: Welcome to the Support How-To!
 weight: 4
