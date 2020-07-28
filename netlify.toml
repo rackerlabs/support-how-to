@@ -3,11 +3,11 @@
 
 # Default build settings
 [build]
-  publish = "userguide/public"
-  command = "git submodule update -f --init && cd userguide && npm install postcss-cli && hugo --themesDir ../.."
+  publish = "public"
+  command = "git submodule update -f --init && npm install && hugo"
 
 # "production" environment specific build settings
 [build.environment]
-  HUGO_VERSION = "0.55.6"
-  HUGO_THEME = "repo"
+  HUGO_VERSION = "0.74.0"
+  HUGO_THEME = "support-developer-hugo-theme"
   HUGO_ENV = "production"
