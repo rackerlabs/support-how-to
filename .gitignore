@@ -1,16 +1,6 @@
-# Don't commit system files or dependencies
-*.DS_Store
-node_modules/
-.env
 
-# Don't add personal VS Code settings
-.vscode/
-
-# Ensure Hugo builds aren't committed to Git
 public/
-hugo/public/
-dist/
-.tmp/
-resources/_gen
+resources/
+node_modules/
+tech-doc-hugo
 
-# Don't add files that are created in the build process
