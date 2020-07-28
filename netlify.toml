@@ -1,9 +1,25 @@
-[build]
-  publish = "public"
-  command = "git submodule update -f --init && npm install && hugo"
-
-# "production" environment specific build settings
 [build.environment]
   HUGO_VERSION = "0.74.0"
-  HUGO_THEME = "support-developer-hugo-theme"
-  HUGO_ENV = "production"
+
+[build]
+  command = "make build"
+  publish = "public"
+
+[context.deploy-preview]
+  command = "make build-preview"
+  publish = "public"
+
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+
