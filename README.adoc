@@ -3,7 +3,7 @@
 
 = Support How-To
 
-https://app.netlify.com/sites/docs-rackspace-com/deploys[image:https://api.netlify.com/api/v1/badges/4abc18d8-6c6f-43f6-8d8c-f3a1749c263c/deploy-status[title="Netlify Status"]]
+https://app.netlify.com/sites/docs-support-how-to/deploys[image:https://api.netlify.com/api/v1/badges/3bdf5895-daf4-4722-8e5c-5f2fde76ab44/deploy-status[title="Netlify Status"]]
 
 toc::[]
 
