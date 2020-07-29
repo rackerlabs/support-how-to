@@ -94,46 +94,86 @@ xhtml = false
     url = "https://www.rackspace.com/responsibility"
     weight = 8
 [[menu.footer]]
-    name = "Events"
-    parent = "Other Information"
-    url = "https://www.rackspace.com/events"
+    name = "News"
+    parent = " "
+    url = "https://www.rackspace.com/newsroom"
     weight = 9
 [[menu.footer]]
-    name = "Programs"
-    parent = "Other Information"
-    url = "https://www.rackspace.com/responsibility"
+    name = "Contact Information"
+    parent = " "
+    url = "https://www.rackspace.com/contact"
     weight = 10
 [[menu.footer]]
-    name = "Careers"
-    parent = "Other Information"
-    url = "https://jobs.jobvite.com/rackspace/"
+    name = "Legal"
+    parent = " "
+    url = "https://www.rackspace.com/information/legal"
     weight = 11
 [[menu.footer]]
+    name = "Careers"
+    parent = " "
+    url = "https://www.jobvite.com/support/job-seeker-support"
+    weight = 12
+[[menu.footer]]
+    name = "The Rackspace Blog"
+    parent = "Blogs"
+    url = "https://www.rackspace.com/blog"
+    weight = 13
+[[menu.footer]]
+    name = "Technical Blog"
+    parent = "Blogs"
+    url = "https://docs.rackspace.com/blog"
+    weight = 14
+[[menu.footer]]
+    name = "Solve: Thought Leadership"
+    parent = "Blogs"
+    url = "https://www.rackspace.com/solve"
+    weight = 15
+[[menu.footer]]
+    name = "Privacy Statement"
+    parent = "Site Information"
+    url = "https://www.rackspace.com/information/legal/privacystatement"
+    weight = 16
+[[menu.footer]]
+    name = "Website Terms"
+    parent = "Site Information"
+    url = "https://www.rackspace.com/information/legal/websiteterms"
+    weight = 17
+[[menu.footer]]
+    name = "Trademarks"
+    parent = "Site Information"
+    url = "https://www.rackspace.com/information/legal/copyrights_trademarks/"
+    weight = 12
+[[menu.footer]]
     name = "Style Guide for Technical Content"
-    parent = "Other Information"
+    parent = "Site Information"
     url = "https://docs.rackspace.com/docs/style-guide/"
     weight = 12
 
 [[menu.main]]
-    identifier = "developer_home"
-    name = "Developer Home"
-    url = "https://docs.rackspace.com"
+    identifier = "support_home"
+    name = "Support Home"
+    url = "/"
     weight = 1
+[[menu.main]]
+    identifier = "how_to"
+    name = "How-To"
+    url = "/how-to"
+    weight = 2
 [[menu.main]]
     identifier = "developer_documentation"
     name = "Developer Documentation"
     url = "https://docs.rackspace.com/docs"
-    weight = 2
+    weight = 3
 [[menu.main]]
     identifier = "blogs"
     name = "Blogs"
     url = "#"
     post = ""
-    weight = 3
+    weight = 4
     [[menu.main]]
         identifier = "technical-blog"
         name ="Technical Blog"
-        url ="/blog"
+        url ="https://docs.rackspace.com/blog"
         weight = 1
         parent = "blogs"
     [[menu.main]]
@@ -148,11 +188,6 @@ xhtml = false
         url = "https://www.rackspace.com/solve"
         weight = 3
         parent = "blogs"
-[[menu.main]]
-    identifier = "support_documentation"
-    name = "Support Documentation"
-    url = "https://support.rackspace.com/"
-    weight = 4
 [[menu.buttons]]
     identifier = "buynow"
     name = "Buy Now"
@@ -163,6 +198,7 @@ xhtml = false
     name = "Login"
     url = "#"
     weight = 6
+
 
 
 [outputFormats.OpenSearch]

@@ -1,8 +1,8 @@
 <footer class="footer">
   <div class="container">
-    <div class="columns">
+    <div class="row">
       {{- range .Site.Menus.footer -}}
-      <div class="column">
+      <div class="col-sm-12 col-md-4 col-lg-2">
         <span class="footer-title">{{ .Name }}</span>
         {{- if .HasChildren -}}
         <ul>
@@ -20,10 +20,10 @@
       <div class="contact">
         <ul>
           <li><span>©2020 Rackspace US, Inc.</span></li>
-          <li class="text-link"><a href="https://www.rackspace.com/about/">About Rackspace</a></li>
+          <!-- <li class="text-link"><a href="https://www.rackspace.com/about/">About Rackspace</a></li>
           <li class="text-link"><a href="http://www.rackspace.com/information/legal/privacystatement">Privacy Statement</a></li>
           <li class="text-link"><a href="http://www.rackspace.com/information/legal/websiteterms">Website Terms</a></li>
-          <li class="text-link"><a href="http://www.rackspace.com/information/legal/copyrights_trademarks">Trademarks</a></li>
+          <li class="text-link"><a href="http://www.rackspace.com/information/legal/copyrights_trademarks">Trademarks</a></li> -->
         </ul>
       </div>
     </div>

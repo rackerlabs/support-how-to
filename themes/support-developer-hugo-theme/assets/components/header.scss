@@ -517,7 +517,7 @@ $header-height: 5rem;
       position: absolute;
       display: none;
       margin: 0;
-      background-color: $color-light-grey;
+      background-color: #686565;
       text-decoration: none;
       list-style-type: none;
       padding: 10px;
@@ -529,7 +529,7 @@ $header-height: 5rem;
 
         a {
           font-weight: 600;
-          color: $color-dark-grey;
+          color: $color-white;
           font-size: 14px;
           line-height: 25px;
           text-decoration: none;
@@ -538,8 +538,7 @@ $header-height: 5rem;
 
           &:hover,
           &:focus {
-            color: $color-white;
-            background: transparent;
+            background: $color-dark-grey;
           }
         }
       }
