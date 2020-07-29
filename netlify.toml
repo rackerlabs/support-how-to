@@ -1,23 +1,14 @@
 [build.environment]
-  YARN_VERSION = "1.22.4"
-  NPM_VERSION = "6.14.5"
+  HUGO_VERSION = "0.74.0"
 
 [build]
-  command = "yarn build"
-  publish = "dist"
+  command = "make build"
+  publish = "public"
 
 [context.deploy-preview]
-  publish = "dist"
+  command = "make build-preview"
+  publish = "public"
 
-[[plugins]]
-  package = "netlify-plugin-algolia-index"
-
-[[redirects]]
-  from = "/docs"
-  to = "https://developer.rackspace.com/docs/"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
 
 [[headers]]
   for = "/img/*"
