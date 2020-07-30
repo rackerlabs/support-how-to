@@ -10,11 +10,11 @@
         </div>
       </div>
       <div class="filter-product-type row">
-        <div class="col-sm-12 col-md-4 col-sm-2"><a id="gs-ctrl" class="inactive">Getting Started</a></div>
-        <div class="col-sm-12 col-md-4 col-sm-2"><a id="cloud-ctrl" class="inactive">Cloud Services</a></div>
-        <div class="col-sm-12 col-md-4 col-sm-2"><a id="office-ctrl" class="inactive">Cloud Office</a></div>
-        <div class="col-sm-12 col-md-4 col-sm-2"><a id="rpc-ctrl" class="inactive">Private Cloud</a></div>
-        <div class="col-sm-12 col-md-4 col-sm-2"><a href="/how-to/account-management">Account Management</a></div>
+        <div class="col tablink" id="gs-ctrl" ><a href="#getting-started" onclick="openTab(event, 'gs-display');">Getting Started</a></div>
+        <div class="col tablink" id="cloud-ctrl"><a href="#cloud-hosting" onclick="openTab(event, 'cloud-display');">Cloud Services</a></div>
+        <div class="col tablink" id="office-ctrl"><a href="#cloud-office"  onclick="openTab(event, 'office-display');">Cloud Office</a></div>
+        <div class="col tablink" id="rpc-ctrl"><a href="#private-cloud"  onclick="openTab(event, 'rpc-display');">Private Cloud</a></div>
+        <div class="col tablink"><a href="/how-to/account-management">Account Management</a></div>
       </div>
     </div>
   </div>
@@ -84,7 +84,11 @@
       </div>
       <hr />
       <div class="row">
-        <h3>Compute</h3>
+        <div class="col-sm-12">
+          <h3>Compute</h3>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12 col-md-4 icon servers primary">
           <h4><a href="/how-to/cloud-servers/"><span>Cloud</span> Servers</a></h4>
         </div>
@@ -98,8 +102,11 @@
       </div>
       <hr />
       <div class="row">
+        <div class="col-sm-12">
         <h3>Network</h3>
-        <div class="twelve columns">
+        </div>
+      </div>
+        <div class="row">
           <div class="col-sm-12 col-md-3 icon networks primary">
             <h4><a href="/how-to/cloud-networks/"><span>Cloud</span> Networks</a></h4>
           </div>
@@ -112,38 +119,45 @@
           <div class="col-sm-12 col-md-3 icon rackconnect">
             <h4><a href="/how-to/rackconnect/"><span>Rackspace</span> RackConnect</a></h4>
           </div>
-        </div>
       </div>
       <hr />
       <div class="row">
+        <div class="col-sm-12">
         <h3>Storage</h3>
-        <div class="twelve columns">
+        </div>
+      </div>
+      <div class="row">
           <div class="primary col-sm-12 col-md-4 icon files">
             <h4><a href="/how-to/cloud-files"><span>Cloud</span> Files</a></h4>
           </div>
           <div class="col-sm-12 col-md-4 icon block-storage">
             <h4><a href="/how-to/cloud-block-storage"><span>Cloud</span> Block Storage</a></h4>
           </div>
-          <div class="six columns icon cdn">
+          <div class="col-sm-12 col-md-4 icon cdn">
             <h4><a href="/how-to/rackspace-cdn"><span>Rackspace</span> CDN</a></h4>
           </div>
-        </div>
       </div>
       <hr />
       <div class="row">
+        <div class="col-sm-12">
         <h3>Data</h3>
-        <div class="twelve columns">
+        </div>
+      </div>
+      <div class="row">
           <div class="primary col-sm-12 col-md-4 icon databases">
             <h4><a href="/how-to/cloud-databases/"><span>Cloud</span> Databases</a></h4>
           </div>
-          <div class="six columns icon queues">
+          <div class="col-sm-12 col-md-4 icon queues">
             <h4><a href="/how-to/cloud-queues/"><span>Cloud</span> Queues</a></h4>
           </div>
-        </div>
       </div>
       <hr />
       <div class="row">
+        <div class="col-sm-12">
         <h3>Infrastructure &amp; Developer Tools</h3>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12 col-md-4 icon primary backup">
           <h4><a href="/how-to/cloud-backup/"><span>Cloud</span> Backup</a></h4>
         </div>
@@ -153,6 +167,8 @@
         <div class="col-sm-12 col-md-4 icon orchestration">
           <h4><a href="/how-to/cloud-orchestration/"><span>Cloud</span> Orchestration</a></h4>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12 col-md-4 icon auto-scale">
           <h4><a href="/how-to/rackspace-auto-scale/"><span>Rackspace</span> Auto Scale</a></h4>
         </div>
@@ -179,6 +195,8 @@
           <h4><a href="/how-to/rackspace-email-archiving/"><span>Rackspace</span> Email Archiving</a>
           </h4>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12 col-md-4 primary icon office-365">
           <h4><a href="/how-to/office-365/"><span>Microsoft</span> Office 365</a></h4>
         </div>
@@ -195,7 +213,7 @@
         </div>
         <div class="col-sm-12 col-md-4">
           <aside class="cta">
-            <p class="button">
+            <p>
               <a href="https://emailhelp.rackspace.com/" id="email-button" class="banner-button">Get Started</a>
             </p>
           </aside>
@@ -221,8 +239,12 @@
   <div class="river">
     <div class="container">
       <div class="row content home contact">
+        <div class="col-sm-12">
         <h2>Contact Support</h2>
         <p class="lead">We've got your back 24x7x365.</p>
+        </div>
+      </div>
+      <div class="row content home contact">
         <div class="col-sm-12 col-md-6">
           <h3><span>Cloud Hosting and Managed Support</span>1-800-961-4454</h3>
         </div>
@@ -233,4 +255,22 @@
     </div>
   </div>
 </main>
-{{- end -}}
+<script>
+  function openTab(evt, tabName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("product-type");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.parentElement.className += " active";
+}
+window.onload = function() {
+  document.getElementById("gs-ctrl").className += " active"
+}
+</script>
+{{- end -}} 
