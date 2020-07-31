@@ -16,3 +16,22 @@
 </script>
 
 <script async src="https://cse.google.com/cse.js?cx=006650721361932583448:0tpp1tnttba"></script>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("product-type");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.parentElement.className += " active";
+    }
+    window.onload = function () {
+        document.getElementById("gs-ctrl").className += " active"
+    }
+</script>
