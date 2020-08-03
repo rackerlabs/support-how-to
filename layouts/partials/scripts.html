@@ -32,6 +32,8 @@
         evt.currentTarget.parentElement.className += " active";
     }
     window.onload = function () {
-        document.getElementById("gs-ctrl").className += " active"
+        if(document.getElementById("gs-ctrl") != undefined) {
+            document.getElementById("gs-ctrl").className += " active"
+        }
     }
 </script>

@@ -1,5 +1,5 @@
 ---
-permalink: change-account-information/
+permalink: change-account-information
 audit_date: '2018-02-25'
 title: Change account information
 type: article
@@ -9,6 +9,7 @@ last_modified_date: '2019-01-08'
 last_modified_by: Kate Dougherty
 product: Account Management
 product_url: account-management
+slug: change-account-information
 ---
 
 This article describes the various administrative account changes that you can

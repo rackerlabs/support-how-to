@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-hosted-email/
+permalink: getting-started-with-hosted-email
 audit_date: '2019-08-15'
 title: Getting started with Rackspace Hosted Email
 type: article

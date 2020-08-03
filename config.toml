@@ -20,6 +20,8 @@ gcs_engine_id = "006650721361932583448:0tpp1tnttba"
 offlineSearch = true
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
+[permalinks]
+    how-to = "/how-to/:filename"
 [markup]
 defaultMarkdownHandler = "blackfriday"
 [markup.blackFriday]
@@ -61,7 +63,7 @@ xhtml = false
 [[menu.footer]]
     name = "Rackspace How-To"
     parent = "Support Network"
-    url = "https://support.rackspace.com/how-to"
+    url = "/how-to"
     weight = 2
 [[menu.footer]]
     name = "API Documentation"

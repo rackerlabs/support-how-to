@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-public-cloud/
+permalink: getting-started-with-public-cloud
 audit_date: '2019-08-15'
 title: Getting started with Rackspace Public Cloud
 type: article
