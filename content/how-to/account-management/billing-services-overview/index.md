@@ -1,5 +1,5 @@
 ---
-permalink: billing-services-overview/
+permalink: billing-services-overview
 audit_date: '2018-02-14'
 title: Billing services overview
 type: article

@@ -5,7 +5,7 @@ created_date: '2019-05-16'
 created_by: Stephanie Fillmon
 last_modified_date: '2019-05-16'
 last_modified_by: Stephanie Fillmon
-permalink: account-management/
+permalink: account-management
 product: Account Management
 product_url: account-management
 ---

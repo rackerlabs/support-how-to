@@ -14,10 +14,6 @@
 
 <body
   class="{{ with .Section }}section-{{ . | urlize }} {{ end }}{{ with .Kind }}kind-{{ . | urlize }} {{ end }}{{ with .Type }}type-{{ . | urlize }} {{ end }}{{ if .IsHome }}home{{ end }}">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW68KW" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   {{- block "navbar" . -}}
   {{/* Use this block to override the navigation for any layout */}}
   {{- partial "components/navbar" . -}}
