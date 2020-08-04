@@ -6,4 +6,3 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-{% include all-articles-list.html %}
