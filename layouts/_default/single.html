@@ -1,16 +1,13 @@
 {{- define "main" -}}
-<article class="how-to">
+<article class="how-to-wrapper">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-3 col-lg-3">
-                {{- if or (eq .Params.Product_url "account-management") (eq .Params.Product_url "rackspace-pdr") -}}
                     {{- partial "components/sidebar-account" . -}}
-                {{- else -}}
-                    {{- partial "components/sidebar" . -}}
-                {{- end -}}
             </div>
-            <div class="col-sm-12 col-md-9 col-lg-9">
+            <div class="col-sm-12 col-md-9 col-lg-9 account-content">
                 <h2>{{- .Params.Title -}}</h2>
+                {{- if not (in .Params.Permalink "all-articles") -}}
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <p>Last updated on: {{- .Params.Last_modified_date -}}</p>
@@ -19,7 +16,17 @@
                         <p>Authored by: {{- .Params.Last_modified_by -}}</p>
                     </div>
                 </div>
+                {{- else -}}
+                <div></div>
+                {{- end -}}
+                <hr />
+                {{- if or (eq .Params.Permalink "account-management-all-articles/") -}}
                 {{- .Content -}}
+                {{- else if or (eq .Params.Permalink "rackspace-pdr-all-articles/") -}}
+                {{- partial "components/all-pdr-article-list" . -}}
+                {{- else -}}
+                {{- .Content -}}
+                {{- end -}}
                 {{- partial "components/share-bar" . -}}
                 {{- partial "components/cta/basic" . -}}
                 {{- partial "components/legal-footer" . -}}

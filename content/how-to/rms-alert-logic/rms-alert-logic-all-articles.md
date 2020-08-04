@@ -6,4 +6,3 @@ product: Alert Logic Security Solutions
 product_url: rms-alert-logic
 ---
 
-{% include all-articles-list.html %}

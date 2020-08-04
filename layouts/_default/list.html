@@ -1,6 +1,31 @@
 {{- define "main" -}}
 <main id="post-container" class="how-to-wrapper">
-  {{- partial "components/announcement" . -}}
-  {{ .Content }}
+    {{- partial "components/announcement" . -}}
+    {{- if or (eq .Params.Type "product") (eq .Params.Type "article") -}}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                {{- partial "components/sidebar-account" . -}}
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-9 account-content">
+                <h2 class="less-margin">{{ .Params.Title }}</h2>
+                <div class="row account-meta">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>Last updated on: {{ .Params.Last_modified_date }}</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>Authored by: {{ .Params.Last_modified_by }}</p>
+                    </div>
+                </div>
+                {{ .Content }}
+                {{- partial "components/share-bar" . -}}
+                {{- partial "components/cta/basic" . -}}
+                {{- partial "components/legal-footer" . -}}
+            </div>
+        </div>
+    </div>
+    {{- else -}}
+    {{ .Content }}
+    {{- end -}}
 </main>
-{{- end -}} 
+{{- end -}}
