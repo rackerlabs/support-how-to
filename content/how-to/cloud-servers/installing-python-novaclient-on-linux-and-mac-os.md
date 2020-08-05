@@ -20,7 +20,7 @@ but that involves some coding effort.
 
 If you want to manage your servers from the command line without dealing
 directly with the API, you can use an open-source client application
-called [`python-openstackclient`](http://pypi.python.org/pypi/python-openstackclient/).
+called [`python-openstackclient`](https://pypi.python.org/pypi/python-openstackclient/).
 
 **Note**: Rackspace does not maintain the `openstackclient`, and it is not
 guaranteed to operate with Rackspace Cloud.

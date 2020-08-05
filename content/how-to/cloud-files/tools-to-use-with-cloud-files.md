@@ -15,14 +15,14 @@ You can use the following tools to upload and manage content with Cloud Files.
 
 ### Rackspace Cloud Files CDN
 
-[Rackspace Cloud Files CDN](https://wordpress.org/plugins/rackspace-cloud-files-cdn/%20)
+[Rackspace Cloud Files CDN](https://wordpress.org/plugins/rackspace-cloud-files-cdn/)
 is a WordPress plug-in that allows any media in your WordPress **uploads** folder
 to be uploaded to Rackspace Cloud Files, powered by CDN. After the file is
 uploaded, it is deleted from the local server.
 
 ### Django-Cloudfiles
 
-[Django-Cloudfiles](http://github.com/rossdakin/django-cloudfiles/) is an
+[Django-Cloudfiles](https://github.com/rossdakin/django-cloudfiles/) is an
 extension to the management system of Django, which is a popular website framework.
 Django-Cloudfiles lets you synchronize the static content directory of your
 Django-powered website to your Cloud Files account effortlessly.

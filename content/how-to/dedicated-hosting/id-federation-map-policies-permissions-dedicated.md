@@ -201,13 +201,13 @@ Your Attribute Mapping Policy must contain the following information:
     <td>The username of your user as provided by your identity system.</td>
     <td>Alphanumeric string</td>
     <td>SAML attributes:<br />NameID (persistent type preferred)<br /><code>urn:oid:1.3.6.1.4.1.5923.1.1.1.6<br />
-    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</code></td>
+    https://schemas.xmlsoap.org/ws/2005/05/identity/claims/name</code></td>
   </tr>
   <tr>
     <td>email</td>
     <td>The email address of your user as provided by your identity system.</td>
     <td>RFC-valid email address</td>
-    <td>SAML Attributes:<br /> email<br /> <code>http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress <br />urn:oid:1.2.840.113549.1.9.1.10.9.2342.19200300100.1.3</code></td>
+    <td>SAML Attributes:<br /> email<br /> <code>https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress <br />urn:oid:1.2.840.113549.1.9.1.10.9.2342.19200300100.1.3</code></td>
   </tr>
   <tr>
     <td>groups</td>
@@ -254,7 +254,7 @@ guide](https://developer.rackspace.com/docs/rackspace-federation/attribmap-refer
   <tr>
     <td>Attribute matching</td>
     <td>Uses XPath to match a SAML attribute in your SAML assertion by name, returning one or more values.</td>
-    <td>Single value return (<code>At</code>): <code>email: "{At(urn:oid:1.2.840.113549.1.9.1.1)}"</code><br />Multi value return (<code>Ats</code>): <br /><code>groups:</code><br /> <code>multiValue: true</code><br /><code>value: "{Ats(http://schemas.xmlsoap.org/claims/Group)}"</code></td>
+    <td>Single value return (<code>At</code>): <code>email: "{At(urn:oid:1.2.840.113549.1.9.1.1)}"</code><br />Multi value return (<code>Ats</code>): <br /><code>groups:</code><br /> <code>multiValue: true</code><br /><code>value: "{Ats(https://schemas.xmlsoap.org/claims/Group)}"</code></td>
   </tr>
   <tr>
     <td>Path matching</td>
@@ -279,7 +279,7 @@ more customization might be required in some cases.
            # Domain must be set to your Identity Domain
            name: "{D}"
            #  Username will be set from element named "name" value in your SAML
-           email: "{At(http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)}"
+           email: "{At(https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)}"
            #  Locates the attribute with the above URL as the claim type/name
            groups:
            - "billing"
@@ -313,9 +313,9 @@ roles:
        remote:
        - path : |
            (
-               if (mapping:get-attributes('http://schemas.xmlsoap.org/claims/Group')='mycompany.rackspace.admin') then ('admin_group') else (),
-               if (mapping:get-attributes('http://schemas.xmlsoap.org/claims/Group')='mycompany.rackspace.billing') then 'billing_admin_group' else (),
-               if (mapping:get-attributes('http://schemas.xmlsoap.org/claims/Group')='mycompany.rackspace.ticketing') then 'ticketing_admin_group' else ()
+               if (mapping:get-attributes('https://schemas.xmlsoap.org/claims/Group')='mycompany.rackspace.admin') then ('admin_group') else (),
+               if (mapping:get-attributes('https://schemas.xmlsoap.org/claims/Group')='mycompany.rackspace.billing') then 'billing_admin_group' else (),
+               if (mapping:get-attributes('https://schemas.xmlsoap.org/claims/Group')='mycompany.rackspace.ticketing') then 'ticketing_admin_group' else ()
            )
          multiValue: true
 

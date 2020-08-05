@@ -14,14 +14,14 @@ product_url: cloud-servers
 **Note**: Rackspace Support cannot assist with master-master replication setups
 due to the complexity of configuration and likelihood of error.  As an
 alternative to direct MySQL master-master replication, consider either our
-[Cloud Databases](http://www.rackspace.com/cloud/databases/) service or a
+[Cloud Databases](https://www.rackspace.com/cloud/databases/) service or a
 replication engine like [Tungsten](https://code.google.com/p/tungsten-replicator/)
 for more reliable data replication between database instances.
 
 ### MySQL Master-Master Replication
 
 This article shows you how to set up
-[MySQL Master-Master database replication](http://dev.mysql.com/doc/refman/5.6/en/mysql-cluster-replication-multi-master.html)
+[MySQL Master-Master database replication](https://dev.mysql.com/doc/refman/5.6/en/mysql-cluster-replication-multi-master.html)
 between two Cloud Servers. Master-Master data replication enables replicated
 data, stored on multiple computers, to be updated by any authorized contributing
 member of the group. This enables more open collaboration than

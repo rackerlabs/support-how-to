@@ -52,4 +52,4 @@ Hortonworks Data Platform.
 #### Next section
 
 [Rackspace Private Cloud
-Support](http://www.rackspace.com/cloud/private/openstack/support/)
+Support](https://www.rackspace.com/cloud/private/openstack/support/)

@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 This tutorial will walk you through the process of installing the
-[iRedMail](http://code.google.com/p/iredmail/ "http://code.google.com/p/iredmail/")
+[iRedMail](https://code.google.com/p/iredmail/ "https://code.google.com/p/iredmail/")
 bundled mail server to successfully send and receive e-mail.
 
 This tutorial assumes a few things:
@@ -136,8 +136,8 @@ software it needs to function. To do this we need to modify the
 
 Go to the bottom of the file and add the following lines:
 
-    deb http://mirrors.163.com/ubuntu jaunty main universe
-    deb http://mirrors.163.com/ubuntu jaunty-updates main universe
+    deb https://mirrors.163.com/ubuntu jaunty main universe
+    deb https://mirrors.163.com/ubuntu jaunty-updates main universe
 
 To save the file simply press **CTRL-X** followed by **Y** and **Enter**
 
@@ -209,14 +209,14 @@ You should be presented with a *root@* prompt now.
 
 To install iRedMail you will need to download the installation package
 from their website. Please point your web browser to
-<http://code.google.com/p/iredmail/downloads/list> and download the
+<https://code.google.com/p/iredmail/downloads/list> and download the
 latest version. At the time of writing the current version is *0.6.0*.
 For the purposes of our installation we will be using *wget* to download
 the installation package. Note that we are downloading this to the home
 directory of the current user.
 
      cd ~
-     wget http://iredmail.googlecode.com/files/iRedMail-0.6.0.tar.bz2
+     wget https://iredmail.googlecode.com/files/iRedMail-0.6.0.tar.bz2
 
 ### Uncompress iRedMail
 
@@ -362,7 +362,7 @@ Once the server comes back up go ahead and log back in as a normal user.
 ### Setup SPF Record
 
 Now we will need to go setup an SPF record. Go to
-<http://old.openspf.org/wizard.html> to determine what your SPF record
+<https://old.openspf.org/wizard.html> to determine what your SPF record
 should be. Once you have done this please submit a ticket and we will
 process your SPF record. Note that your mail may still function without
 this but you may receive frequent mail rejections.
@@ -419,7 +419,7 @@ Once the server has come back online proceed below.
 
 ### Access WebMail
 
-Point your web-browser to <http://mail.mydomain.com/mail/> and this
+Point your web-browser to <https://mail.mydomain.com/mail/> and this
 should bring up the RoundCubeMail WebMail application. Type in your
 login name and password and click Login. Send yourself an e-mail from
 another e-mail account to see if it is working. You can also send an
@@ -436,9 +436,9 @@ The following links are valid for your iRedMail installation. Please
 replace *mail.mydomain.com* with your FQDN.
 
 -   postfix.admin - <https://mail.mydomain.com/postfixadmin/>
--   RoundCubeMail WebMail - <http://mail.mydomain.com/mail/>
+-   RoundCubeMail WebMail - <https://mail.mydomain.com/mail/>
 -   phpMyAdmin - <https://mail.mydomain.com/phpmyadmin/>
--   AWstats - <http://mail.mydomain.com/awstats/awstats.pl>
+-   AWstats - <https://mail.mydomain.com/awstats/awstats.pl>
 
 ### Troubleshooting: View mail logs
 

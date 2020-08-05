@@ -80,7 +80,7 @@ If you’ve attached Cloud Block Storage volumes, see [Prepare your Cloud Block 
 
 For instructions on formatting and mounting data disks on I/O-optimized servers, see [Prepare data disks on a Linux Cloud Servers](https://support.rackspace.com/how-to/preparing-data-disks-on-linux-cloud-servers/).
 
-If you are setting up attached volumes in a software RAID on Linux, see [the Linux Software-RAID HOWTO](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html) for instructions.
+If you are setting up attached volumes in a software RAID on Linux, see [the Linux Software-RAID HOWTO](https://www.tldp.org/HOWTO/Software-RAID-HOWTO.html) for instructions.
 
 When your attached disks are ready, you can migrate your data.
 

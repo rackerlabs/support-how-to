@@ -38,9 +38,9 @@ The Managed Operations service level supports the following types of web servers
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
-| [**Apache**](http://httpd.apache.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**lighttpd**](http://www.lighttpd.net) | **Yes** | No | No | **Yes** | **Yes** |
-| [**NGINX**](http://nginx.net) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Apache**](https://httpd.apache.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**lighttpd**](https://www.lighttpd.net) | **Yes** | No | No | **Yes** | **Yes** |
+| [**NGINX**](https://nginx.net) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
 ### Database Servers
 
@@ -48,10 +48,10 @@ The Managed Operations service level supports the following types of database se
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Replication** | **Monitoring** | **Patching** | **Backup** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [**MySQL/**](http://www.mysql.com) [**MariaDB**<sup>2</sup>](http://mariadb.org) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Oracle**](http://www.oracle.com/us/products/database/index.html) | No | No | No | No | No | No | No |
-| [**PostgreSQL**](http://postgresql.com) | **Yes** | No | No | No | **Yes** | No | No |
-| [**MongoDB**](http://www.mongodb.org/) | **Yes** | No | No | No | No | No | No |
+| [**MySQL/**](https://www.mysql.com) [**MariaDB**<sup>2</sup>](https://mariadb.org) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Oracle**](https://www.oracle.com/us/products/database/index.html) | No | No | No | No | No | No | No |
+| [**PostgreSQL**](https://postgresql.com) | **Yes** | No | No | No | **Yes** | No | No |
+| [**MongoDB**](https://www.mongodb.org/) | **Yes** | No | No | No | No | No | No |
 
 <sup>1</sup>MariaDB is supported for Red Hat Enterprise Linux 7 and CentOS 7
 
@@ -66,10 +66,10 @@ frameworks like Ruby on Rails.
 
 |   | **Installation** | **Configuration** | **Modules** | **Patching** |
 | --- | --- | --- | --- | --- |
-| [**Perl**](http://www.perl.org) | **Yes** | No | **Yes** | **Yes** |
-| [**PHP**](http://www.php.net) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Python**](http://www.python.org) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Ruby**](http://www.ruby-lang.org) | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Perl**](https://www.perl.org) | **Yes** | No | **Yes** | **Yes** |
+| [**PHP**](https://www.php.net) | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Python**](https://www.python.org) | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Ruby**](https://www.ruby-lang.org) | **Yes** | **Yes** | **Yes** | **Yes** |
 
 
 ### Caching
@@ -78,9 +78,9 @@ The Managed Operations service level supports the following caching tools:
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
 | --- | --- | --- | --- | --- |
-| [**Memcached**](http://memcached.org) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Squid**](http://squid-cache.org) | **Yes** | No | No | **Yes** |
-| [**Varnish**](http://varnish-cache.org) | **Yes** | **Yes** | Yes | **Yes** |
+| [**Memcached**](https://memcached.org) | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Squid**](https://squid-cache.org) | **Yes** | No | No | **Yes** |
+| [**Varnish**](https://varnish-cache.org) | **Yes** | **Yes** | Yes | **Yes** |
 
 
 ### Software firewall
@@ -89,7 +89,7 @@ The Managed Operations service level supports the following firewall software:
 
 |    | **Installation** | **Configuration** | **Troubleshooting** |
 | --- | --- | --- | --- |
-| [**iptables**](http://www.netfilter.org/projects/iptables/) | **Yes** | **Yes** | **Yes** |
+| [**iptables**](https://www.netfilter.org/projects/iptables/) | **Yes** | **Yes** | **Yes** |
 | [**UBUNTU operating system ufw**](https://wiki.ubuntu.com/UncomplicatedFirewall) | **Yes** | **Yes** | **Yes** |
 
 
@@ -108,7 +108,7 @@ The Managed Operations service supports the following SMTP tool:
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
-| [**Postfix, outgoing only**](http://www.postfix.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [**Postfix, outgoing only**](https://www.postfix.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 
 
 ### Other packages
@@ -120,7 +120,7 @@ services.
 -  **API support**:  Managed Operations offers all the support functions listed in the [developer guides](https://developer.rackspace.com/docs/).
 -  **Cloud Files**:  Integration with Cloud Files is supported via the API, however no development support is offered to help utilize Cloud Files via the API.
 -  **Load Balancing**: Cloud Load Balancers are supported by Managed Operations.
--  **Email**:  The default SMTP configuration for outbound email on Linux is through Postfix.  Cloud Servers with a Managed Operations service level are preconfigured to use our mail relay service Mailgun to ensure reliable mail delivery.  The first 50,000 emails sent each month are free, and your mail package can be upgraded if higher volume is expected. For more information, see the [Mailgun Rackspace pricing page](http://www.mailgun.com/rackspace).
--  **Firewalls**: Support is provided for  [iptables](http://www.netfilter.org/),  [Ubuntu operating system ufw](https://help.ubuntu.com/community/UFW), and  [fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page).
+-  **Email**:  The default SMTP configuration for outbound email on Linux is through Postfix.  Cloud Servers with a Managed Operations service level are preconfigured to use our mail relay service Mailgun to ensure reliable mail delivery.  The first 50,000 emails sent each month are free, and your mail package can be upgraded if higher volume is expected. For more information, see the [Mailgun Rackspace pricing page](https://www.mailgun.com/rackspace).
+-  **Firewalls**: Support is provided for  [iptables](https://www.netfilter.org/),  [Ubuntu operating system ufw](https://help.ubuntu.com/community/UFW), and  [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page).
 -  **Control Panels**: Control panel applications such as Plesk, Webmin, or cPanel are  *not* supported at this time.
 -  **DNS**: Managed Operations supports the use of the Rackspace Cloud name servers for DNS.  Bind is *not* supported at this time.

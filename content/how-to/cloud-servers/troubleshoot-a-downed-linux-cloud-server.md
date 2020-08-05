@@ -115,7 +115,7 @@ have attempted to expedite the issue.
 
 <script type="application/ld+json">
 {
-"@context": "http://schema.org/",
+"@context": "https://schema.org/",
 "@type": "HowTo",
 "name": "Troubleshoot a downed Linux cloud server",
 "description": "You can use these troubleshooting steps to diagnose whether you can solve the issue, or escalate the issue to Rackspace support.",

@@ -36,19 +36,19 @@ same. You will need this information to set up the account.
    Links to some major carriers' sites are listed below:
 
 - Alltel:
-  <http://www.alltel.blackberry.com/>
+  <https://www.alltel.blackberry.com/>
 - AT&T / Cingular:
-  <http://bis.na.blackberry.com/html?brand=mycingular>
+  <https://bis.na.blackberry.com/html?brand=mycingular>
 - Nextel / Sprint:
-  <http://sprint.blackberry.com>
+  <https://sprint.blackberry.com>
 - Rogers:
-  [https://bis.na.blackberry.com/html?brand=rogers](https://bis.na.blackberry.com/html?brand=rogers%20)
+  [https://bis.na.blackberry.com/html?brand=rogers](https://bis.na.blackberry.com/html?brand=rogers)
 - Telus:
-  [https://bis.na.blackberry.com/html?brand=telus](https://bis.na.blackberry.com/html?brand=telus%20)
+  [https://bis.na.blackberry.com/html?brand=telus](https://bis.na.blackberry.com/html?brand=telus)
 - T-Mobile (U.K):
-  [http://www.instantemail.t-mobile.co.uk/](http://www.instantemail.t-mobile.co.uk/%20)
+  [https://www.instantemail.t-mobile.co.uk/](https://www.instantemail.t-mobile.co.uk/)
 - T-Mobile (U.S):
-  [https://my.t-mobile.com/Login/Default.aspx](https://my.t-mobile.com/Login/Default.aspx%20)
+  [https://my.t-mobile.com/Login/Default.aspx](https://my.t-mobile.com/Login/Default.aspx)
 - Verizon:
   <https://bis.na.blackberry.com/html?brand=vzw>
 

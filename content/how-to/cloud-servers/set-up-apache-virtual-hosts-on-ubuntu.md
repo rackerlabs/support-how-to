@@ -210,9 +210,9 @@ To create and enable domain2.com, repeat the process as follows:
 
 3.  Navigate to the second domain:
 
-        http://domain2.com
+        https://domain2.com
         or
-        http://www.domain2.com
+        https://www.domain2.com
 
 You should see the 'domain2.com' index file.
 
@@ -405,9 +405,9 @@ You can also specify which .htaccess features to enable, such as:
     AllowOverride AuthConfig Indexes
 
 The Apache
-[htaccess](http://httpd.apache.org/docs/2.2/howto/htaccess.html "http://httpd.apache.org/docs/2.2/howto/htaccess.html")
+[htaccess](https://httpd.apache.org/docs/2.2/howto/htaccess.html "https://httpd.apache.org/docs/2.2/howto/htaccess.html")
 and
-[AllowOverride](http://httpd.apache.org/docs/2.2/mod/core.html#allowoverride "http://httpd.apache.org/docs/2.2/mod/core.html#allowoverride")
+[AllowOverride](https://httpd.apache.org/docs/2.2/mod/core.html#allowoverride "https://httpd.apache.org/docs/2.2/mod/core.html#allowoverride")
 docs have more information about the different features.
 
 Remember to specifically protect your .htaccess file. You can do this by

@@ -44,4 +44,4 @@ The different types of servers are part of the expected growth life
 cycle of using cloud servers. That life cycle goes from general purpose
 virtual servers to workload-optimized virtual servers to
 workload-optimized OnMetal servers. For more information about this
-cloud server life cycle, see the graphic on the [Cloud Servers](http://www.rackspace.com/cloud/servers/) product page.
+cloud server life cycle, see the graphic on the [Cloud Servers](https://www.rackspace.com/cloud/servers/) product page.

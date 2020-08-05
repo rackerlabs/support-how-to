@@ -45,7 +45,7 @@ Use the following command to run Carbon Forwarder.
 | ---------- | --------------- | ----------- |
 | -e | Endpoint to listen on for pickle protocol metrics | tcp:2004 |
 | -i | Metrics send interval, in seconds | 30.0 |
-| -b | Blueflood address | http://localhost:19000 |
+| -b | Blueflood address | https://localhost:19000 |
 | -t | Tenant ID | tenant |
 | -p | Prefix to add to metrics name | metric\_prefix |
 | --ttl | Time-to-live value for metrics, in seconds | 86400 |
@@ -77,5 +77,5 @@ If not using your own LogObserver, use the following command to control logging 
 
 #### References
 
-- For details about carbon daemons, see [http://graphite.readthedocs.org/en/1.0/carbon-daemons.html](http://graphite.readthedocs.org/en/1.0/carbon-daemons.html)
+- For details about carbon daemons, see [https://graphite.readthedocs.org/en/1.0/carbon-daemons.html](https://graphite.readthedocs.org/en/1.0/carbon-daemons.html)
 - For details about the Carbon Forwarder project, see https://github.com/rackerlabs/blueflood-carbon-forwarder

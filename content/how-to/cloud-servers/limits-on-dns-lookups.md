@@ -32,7 +32,7 @@ circumstances at its sole discretion.
 
 If Rackspace determines that the traffic generated is malicious,
 Rackspace will block all DNS traffic to our DNS servers in order to
-protect our shared DNS infrastructure in accordance with [our AUP](http://www.rackspace.com/information/legal/aup) until the situation
+protect our shared DNS infrastructure in accordance with [our AUP](https://www.rackspace.com/information/legal/aup) until the situation
 is resolved.
 
 If your situation requires you to sustain recursive DNS lookup rates in

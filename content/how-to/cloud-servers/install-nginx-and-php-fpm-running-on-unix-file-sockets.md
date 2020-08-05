@@ -41,19 +41,19 @@ After the updates are done, you can restart the server, which ensures that the u
 
 ### Install source repositories
 
-You can get the source from NGINX or add the NGINX repositories to your system. For more information, see [NGINX repositories](http://wiki.nginx.org/Install).
+You can get the source from NGINX or add the NGINX repositories to your system. For more information, see [NGINX repositories](https://wiki.nginx.org/Install).
 
-These instructions use the [Debian backports](http://backports-master.debian.org/Instructions/) as the repository for NGINX. This repo allows for an easy configuration and allows you to install a more up-to-date version of NGINX on your system while giving you a more supported application for your environment.
+These instructions use the [Debian backports](https://backports-master.debian.org/Instructions/) as the repository for NGINX. This repo allows for an easy configuration and allows you to install a more up-to-date version of NGINX on your system while giving you a more supported application for your environment.
 
 1. Add the Debian backports to your repositories by running the following command:
 
-       echo 'deb http://backports.debian.org/debian-backports squeeze-backports main' >> /etc/apt/sources.list.d/backports.list
+       echo 'deb https://backports.debian.org/debian-backports squeeze-backports main' >> /etc/apt/sources.list.d/backports.list
 
 2. Add the Dotdeb repositories to your system by running the following commands:
 
-       echo 'deb http://packages.dotdeb.org stable all' >> /etc/apt/sources.list.d/DotDeb.list
-       echo 'deb-src http://packages.dotdeb.org stable all' >> /etc/apt/sources.list.d/DotDeb.list
-       wget http://www.dotdeb.org/dotdeb.gpg
+       echo 'deb https://packages.dotdeb.org stable all' >> /etc/apt/sources.list.d/DotDeb.list
+       echo 'deb-src https://packages.dotdeb.org stable all' >> /etc/apt/sources.list.d/DotDeb.list
+       wget https://www.dotdeb.org/dotdeb.gpg
        cat dotdeb.gpg | sudo apt-key add -
        rm dotdeb.gpg
 
@@ -75,7 +75,7 @@ Now you can set up NGINX and PHP-FPM to work on your system.
 
 ### Set up NGINX
 
-NGINX enables you to change the outlook on your web application from complexity to simplicity. If you have been using Apache, NGINX might be confusing to you, but you will see some familiar directives and directives that you might recognize. For more information about NGINX, see the [NGINX wiki](http://wiki.nginx.org/Main).
+NGINX enables you to change the outlook on your web application from complexity to simplicity. If you have been using Apache, NGINX might be confusing to you, but you will see some familiar directives and directives that you might recognize. For more information about NGINX, see the [NGINX wiki](https://wiki.nginx.org/Main).
 
 #### Set up NGINX configuration files
 
@@ -211,7 +211,7 @@ Use the following parameters in your **mail.conf** file:
 
     #mail {
     #       # See sample authentication script at:
-    #       # http://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
+    #       # https://wiki.nginx.org/ImapAuthenticateWithApachePhpScript
     #
     #       # auth_http localhost/auth.php;
     #       # pop3_capabilities "TOP" "USER";
@@ -251,7 +251,7 @@ These subdirectories function in much the same way as their Apache equivalents. 
 
         server {
           server_name  www.DOMAINNAME;
-          rewrite ^(.*) http://DOMAINNAME$1 permanent;
+          rewrite ^(.*) https://DOMAINNAME$1 permanent;
         }
 
         server {
@@ -285,7 +285,7 @@ These subdirectories function in much the same way as their Apache equivalents. 
 
         server {
             server_name  www.DOMAINNAME;
-            rewrite ^(.*) http://DOMAINNAME$1 permanent;
+            rewrite ^(.*) https://DOMAINNAME$1 permanent;
         }
 
         server {

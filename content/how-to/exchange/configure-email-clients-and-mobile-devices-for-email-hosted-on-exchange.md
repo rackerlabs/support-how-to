@@ -13,7 +13,7 @@ product_url: exchange
 
 To set up email clients
 and mobile devices to work with your hosted [Microsoft Exchange email
-account](http://www.rackspace.com/email-hosting/hosted-exchange/):
+account](https://www.rackspace.com/email-hosting/hosted-exchange/):
 
 - Find the
 Microsoft Exchange version you are using in one of the sections list below.

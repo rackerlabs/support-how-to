@@ -56,7 +56,7 @@ Perform the following steps to install Froxlor:
 
 2. Download Froxlor.
 
-        wget http://files.froxlor.org/releases/froxlor-latest.tar.gz
+        wget https://files.froxlor.org/releases/froxlor-latest.tar.gz
 
 3. Extract the files.
 
@@ -83,7 +83,7 @@ Perform the following steps to configure the firewall:
 
         firewall-cmd --reload
 
-3. Navigate to **http://<Internet_IP_address>/froxlor** in your browser.
+3. Navigate to **https://<Internet_IP_address>/froxlor** in your browser.
 
 4. Select **Start install** to begin. 
 

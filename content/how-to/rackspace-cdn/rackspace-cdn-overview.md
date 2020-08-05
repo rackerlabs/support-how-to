@@ -11,7 +11,7 @@ product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-[Rackspace CDN](http://www.rackspace.com/cloud/cdn-content-delivery-network) is
+[Rackspace CDN](https://www.rackspace.com/cloud/cdn-content-delivery-network) is
 a content delivery network (CDN) service that you can use to CDN-enable
 your website. It offers features such as pulling content from your
 website's origin servers, rules for caching, access restrictions, and

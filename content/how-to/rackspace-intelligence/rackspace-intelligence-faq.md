@@ -51,7 +51,7 @@ Rackers.
 #### How do I access Rackspace Intelligence?
 
 Go to
-[https://intelligence.rackspace.com](http://intelligence.rackspace.com)
+[https://intelligence.rackspace.com](https://intelligence.rackspace.com)
 and log in by providing the username and password for your Rackspace
 Cloud account.
 

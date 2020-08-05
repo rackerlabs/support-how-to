@@ -12,7 +12,7 @@ last_modified_by: Stephanie Fillmon
 This article shows how to create a certificate signing request (CSR) for an SSL
 certificate, whether it's a traditional SSL from an authority like Verisign, a
 self-signed certificate, or the '\*' Wildcard certificate. Most of the information is
-taken from [RapidSSL's support documentation](http://www.rapidssl.com/ssl-certificate-support/generate-csr/Apache2.htm).
+taken from [RapidSSL's support documentation](https://www.rapidssl.com/ssl-certificate-support/generate-csr/Apache2.htm).
 
 The Rackspace Cloud is not a certificate authority (and does not resell SSL certificates),
 so you need to go to a third party solution,such as RapidSSL, to purchase a certificate

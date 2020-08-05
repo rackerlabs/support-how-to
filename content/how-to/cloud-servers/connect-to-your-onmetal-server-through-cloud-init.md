@@ -32,4 +32,4 @@ OnMetal instance.
 
 **Note**: Many more examples of what cloud-init can do are available in
 the cloud-init's documentation at:
-<http://cloudinit.readthedocs.org/en/latest/>.
+<https://cloudinit.readthedocs.org/en/latest/>.

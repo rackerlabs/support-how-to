@@ -35,7 +35,7 @@ octillion addresses.
 
 ### CIDR Notation in the Cloud Control Panel
 
-If you're using the [Cloud Control Panel](http://mycloud.rackspace.com)
+If you're using the [Cloud Control Panel](https://mycloud.rackspace.com)
 to create a Cloud Network you won't need to worry about calculating the
 IP address. The CIDR field is automatically populated with an IP block
 on the Rackspace Network. You only need to supply a name for the network
@@ -78,7 +78,7 @@ The JSON-format response would look similar to this:
 
 **Note**: To help calculate a subnet, you might use a tool like this:
 
-<http://www.subnet-calculator.com/cidr.php>
+<https://www.subnet-calculator.com/cidr.php>
 
 For more information on using the Cloud Networks API see the Rackspace
 Cloud Networks API Developers Guide.

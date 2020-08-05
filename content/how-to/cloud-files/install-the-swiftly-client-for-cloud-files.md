@@ -23,7 +23,7 @@ For more information about Swiftly, see the following sites:
 
 -   The Python&reg; package index page:
     <https://pypi.python.org/pypi/swiftly/2.02>
--   Swiftly documentation: <http://gholt.github.io/swiftly/>
+-   Swiftly documentation: <https://gholt.github.io/swiftly/>
 -   Swiftly source code: <https://github.com/gholt/swiftly>
 
 #### Install Swiftly on the Ubuntu operating system
@@ -175,7 +175,7 @@ To exit Screen, just type `Control-d` (without prefacing it with
 `Control-a`).
 
 You can learn more about Screen by visiting
-<http://www.gnu.org/software/screen/manual/screen.html>.
+<https://www.gnu.org/software/screen/manual/screen.html>.
 
 #### Reattach to a running Screen session
 

@@ -79,7 +79,7 @@ give you faster access to your data.
 #### What instance sizes do you currently support?
 
 For the most up-to-date information about available instance sizes, see
-the [Cloud Databases website](http://www.rackspace.com/cloud/databases/)
+the [Cloud Databases website](https://www.rackspace.com/cloud/databases/)
 or the _[Cloud Databases Developer
 Guide](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/flavors/#list-flavors)_.
 
@@ -226,7 +226,7 @@ Levels page](https://www.rackspace.com/openstack/public/service-levels).
 #### Where can I find the Cloud Service Level Agreement?
 
 The [Cloud Service Level Agreement
-(SLA)](http://www.rackspace.com/information/legal/cloud/sla) is available on
+(SLA)](https://www.rackspace.com/information/legal/cloud/sla) is available on
 the Rackspace website.
 
 #### How can I monitor my resource use on Cloud Databases?
@@ -571,6 +571,6 @@ replication](https://developer.rackspace.com/docs/cloud-databases/v1/api-referen
 #### How much does Cloud Databases cost?
 
 Pricing information is available at [the Cloud Databases pricing
-page](http://www.rackspace.com/cloud/databases/pricing/). Standard
+page](https://www.rackspace.com/cloud/databases/pricing/). Standard
 charges apply for any Cloud Servers, Cloud Load Balancers, or Cloud
 Sites that are used to access your Cloud Database instances.

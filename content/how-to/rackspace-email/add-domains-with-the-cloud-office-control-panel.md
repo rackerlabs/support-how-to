@@ -69,7 +69,7 @@ Rackspace charges an annual renewal fee to register this domain and hosts your D
 
 2. Confirm your purchase by clicking **Register Domain**.
 
-3. A verification email confirming your domain purchase is sent to the email address on record. You must click the verification link in the email within 15 days to avoid any disruption to your domains. For more information, see [Additional information about Registrant Benefits and Responsibilities](http://www.rackspace.com/information/legal/RAAInfo).
+3. A verification email confirming your domain purchase is sent to the email address on record. You must click the verification link in the email within 15 days to avoid any disruption to your domains. For more information, see [Additional information about Registrant Benefits and Responsibilities](https://www.rackspace.com/information/legal/RAAInfo).
 
 4. [Create mailboxes](/how-to/add-rackspace-email-mailboxes).
 

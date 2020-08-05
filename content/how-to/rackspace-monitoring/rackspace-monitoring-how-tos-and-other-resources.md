@@ -53,14 +53,14 @@ product_url: rackspace-monitoring
 ### Open Source
 
 -   Information about Dreadnot, our open source deployment
-    tool: <http://www.rackspace.com/blog/rackspace-open-sources-dreadnot/>
+    tool: <https://www.rackspace.com/blog/rackspace-open-sources-dreadnot/>
 -   Dreadnot code: <https://github.com/racker/dreadnot>
 
 -   Node.js Library Serialization and Validation for building
-    APIs: <http://www.rackspace.com/blog/node-swiz-node-js-library-for-serializing-deserializing-and-validating-objects-in-rest-apis/>
+    APIs: <https://www.rackspace.com/blog/node-swiz-node-js-library-for-serializing-deserializing-and-validating-objects-in-rest-apis/>
 -   Node.js Library To Build And Parse XML
-    Documents: <http://www.rackspace.com/blog/node-elementtree-node-js-library-to-build-and-parse-xml-documents/>
+    Documents: <https://www.rackspace.com/blog/node-elementtree-node-js-library-to-build-and-parse-xml-documents/>
 
 -   Node.js Cassandra CQL
-    driver: <http://www.rackspace.com/blog/rackspace-contributes-cassandra-cql-driver-for-node-js/>
+    driver: <https://www.rackspace.com/blog/rackspace-contributes-cassandra-cql-driver-for-node-js/>
 -   Virgo monitoring agent: <https://github.com/racker/virgo>

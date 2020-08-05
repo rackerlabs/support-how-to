@@ -144,7 +144,7 @@ Composer takes a while to complete the Magento installation.
 Run the following commands to alter the file permissions for Magento and provide Apache ownership:
 
     cd /var/www/html/magento2
-    sudo bin/magento setup:install --base-url=http://example.com/ --db-host=localhost --db-name=magento --db-user=magentoadmin --db-password=magentopassword --admin-firstname=Admin --admin-lastname=User --admin-email=admin@magentoexample.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1
+    sudo bin/magento setup:install --base-url=https://example.com/ --db-host=localhost --db-name=magento --db-user=magentoadmin --db-password=magentopassword --admin-firstname=Admin --admin-lastname=User --admin-email=admin@magentoexample.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --use-rewrites=1
 
 #### 5. Create a virtual host
 

@@ -55,7 +55,7 @@ Use the following steps for the one-line command method:
     - **Remove test database and access to it? [Y/n]**: Select **Yes**.
     - **Reload privilege tables now? [Y/n]**: Select **Yes**.
 
-The installation is complete. To test it, browse to **HTTP://serverIpAddress/**.
+The installation is complete. To test it, browse to **https://serverIpAddress/**.
 
 #### Individual commands method
 
@@ -96,4 +96,4 @@ one-line command, perform the following steps:
     This command allows port 80 (web) and port 443 (secure web) inbound traffic through the
     firewall, and saves the rule for reboots.
 
-The installation is complete. To test it, browse to **HTTP://serverIpAddress/**.
+The installation is complete. To test it, browse to **https://serverIpAddress/**.

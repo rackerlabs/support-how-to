@@ -135,7 +135,7 @@ firewall setup before you create servers because, at the time this article was w
 the process that connects the firewall and the servers is automated during the build
 process. Physical firewalls are not provisioned as quickly as cloud servers and must be
 requested through our Hybrid teams. For more information about physical firewalls and
-RackConnect, see <http://www.rackspace.com/cloud/hybrid/rackconnect/>.
+RackConnect, see <https://www.rackspace.com/cloud/hybrid/rackconnect/>.
 
 If you do install Active Directory on a cloud server, we recommend that
 you run two domain controllers in case one fails (imaging is currently
@@ -206,9 +206,9 @@ web application and gaining control of the server.
 
 The following sites provide information about improving ASP.NET security:
 
--  <http://www.asp.net/web-forms/pluralsight>
--  <http://www.iis.net/configreference/system.webserver/security/requestfiltering>
--  <http://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
+-  <https://www.asp.net/web-forms/pluralsight>
+-  <https://www.iis.net/configreference/system.webserver/security/requestfiltering>
+-  <https://blogs.iis.net/wadeh/archive/2008/12/18/filtering-for-sql-injection-on-iis-7-and-later.aspx>
 
 ### Conclusion
 

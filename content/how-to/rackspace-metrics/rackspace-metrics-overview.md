@@ -16,8 +16,8 @@ that offers a flexible and affordable platform for storing and serving
 time-series metrics. It provides a REST API for metrics ingestion and
 retrieval. In addition, it also provides out-of-box integration with
 popular open-source tools. The software that powers this service is an
-open-source project named [Blueflood](http://blueflood.io), which is built on
-top of [Apache&reg; Cassandra&reg;](http://cassandra.apache.org/). Rackspace
+open-source project named [Blueflood](https://blueflood.io), which is built on
+top of [Apache&reg; Cassandra&reg;](https://cassandra.apache.org/). Rackspace
 Metrics is designed to meet the functional and performance requirements of
 enterprise-scale metrics.
 
@@ -102,7 +102,7 @@ You can access Rackspace Metrics through simple REST API endpoints. The
 following list provides some examples of tools that can send HTTP requests and
 capture the output:
 
-- [cURL](http://curl.haxx.se/): A command-line tool.
+- [cURL](https://curl.haxx.se/): A command-line tool.
 - [Chrome Advanced REST Client](https://advancedrestclient.com/): A REST
   client.
 

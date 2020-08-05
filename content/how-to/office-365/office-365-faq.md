@@ -136,7 +136,7 @@ support ticket:
 #### What subscription plans can I purchase from Rackspace for Office 365?
 
 You can find detailed business subscription plans
-at <http://o365.rackspace.com/>.
+at <https://o365.rackspace.com/>.
 
 If your company is interested in Enterprise-level plans (E1 or E3),
 contact our [Sales team](https://www.rackspace.com/why-rackspace) for

@@ -13,6 +13,6 @@ product_url: account-management
 
 We do not charge for incoming bandwidth or for intraserver communication that uses a data center's back-end network (ServiceNet). Outbound bandwidth charges vary according to the products that you use. Review the following pages for current product bandwidth pricing:
 
--   [Cloud Servers](http://www.rackspace.com/cloud/servers/pricing/)
--   [Cloud Files](http://www.rackspace.com/cloud/files/pricing/)
--   [Load Balancers](http://www.rackspace.com/cloud/load-balancing/pricing/)
+-   [Cloud Servers](https://www.rackspace.com/cloud/servers/pricing/)
+-   [Cloud Files](https://www.rackspace.com/cloud/files/pricing/)
+-   [Load Balancers](https://www.rackspace.com/cloud/load-balancing/pricing/)

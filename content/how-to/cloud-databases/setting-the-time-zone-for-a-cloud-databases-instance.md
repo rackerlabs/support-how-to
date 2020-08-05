@@ -33,9 +33,9 @@ The server time zone is set in MySQL in the `default_time_zone`
 parameter, and the default value is `SYSTEM`. To set `default_time_zone`
 to a different value you can use the named time zone for the
 region (from the [IANA Time Zone
-Database](http://en.wikipedia.org/wiki/List_of_tz_database_time_zones))
+Database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones))
 or the offset of the time zone from [UTC (Coordinated Universal
-Time)](http://en.wikipedia.org/wiki/Coordinated_Universal_Time). For
+Time)](https://en.wikipedia.org/wiki/Coordinated_Universal_Time). For
 example,` the` name value for the Australian Eastern Standard Time
 (AEST) time zone could be either `Australia/Sydney` for a region that
 observes daylight saving time, or `Australia/Brisbane` for a region that

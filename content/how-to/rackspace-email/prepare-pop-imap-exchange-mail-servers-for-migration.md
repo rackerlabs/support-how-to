@@ -31,7 +31,7 @@ The migration tool typically accesses IMAP servers by using either the incoming 
 
 #### Test IMAP server access
 
-We recommend testing IMAP server access before migrating. Access can be tested using the [DNS wonder tool](http://www.dnswonder.com/Tools/ImapTest.aspx). To use the tool, you need the following information:
+We recommend testing IMAP server access before migrating. Access can be tested using the [DNS wonder tool](https://www.dnswonder.com/Tools/ImapTest.aspx). To use the tool, you need the following information:
 
 - Source server name or IP address
 - Server port number

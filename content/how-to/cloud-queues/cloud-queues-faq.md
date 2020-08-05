@@ -16,7 +16,7 @@ Yes. Cloud Queues will offer both public and snet IP's, so as long as the dedica
 
 #### What does it cost to use Cloud Queues?
 
-Please consult the [Cloud Queues](http://www.rackspace.com/cloud/queues/) product page on our website for the most current pricing.
+Please consult the [Cloud Queues](https://www.rackspace.com/cloud/queues/) product page on our website for the most current pricing.
 
 #### What happens if a message is stuck in a queue? How can this be fixed?
 

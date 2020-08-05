@@ -118,9 +118,9 @@ without decrypting.  There are several tools online that will help
 encrypt your source code.  Here are some links and examples that might
 be helpful:
 
--   [Encrypting source code](http://www.blackbeltcoder.com/Articles/mfc/encrypting-source-code)
--   [Simple encrypting tool](http://www.webtoolhub.com/tn561359-html-encrypter.aspx)<span> </span>
--   [Article discussing options for encryption](http://www.htmlguard.com/articles/about-html-source-code-encryption/)
+-   [Encrypting source code](https://www.blackbeltcoder.com/Articles/mfc/encrypting-source-code)
+-   [Simple encrypting tool](https://www.webtoolhub.com/tn561359-html-encrypter.aspx)<span> </span>
+-   [Article discussing options for encryption](https://www.htmlguard.com/articles/about-html-source-code-encryption/)
 
 This method requires the use of JavaScript, meaning that you need to
 expect your legitimate website traffic to be using browsers and settings

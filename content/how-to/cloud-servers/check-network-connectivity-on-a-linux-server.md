@@ -63,9 +63,9 @@ troubleshooting a website, use the flags `IL` and `ILk` (for use with HTTPS site
 status codes of the sites. They also list any redirects that are in front of the server. The output
 looks similar to the following example:
 
-    $ curl -IL http://google.com
+    $ curl -IL https://google.com
     HTTP/1.1 301 Moved Permanently
-    Location: http://www.google.com/
+    Location: https://www.google.com/
     Content-Type: text/html; charset=UTF-8
     Date: Sat, 06 Jun 2020 00:51:12 GMT
     Expires: Mon, 06 Jul 2020 00:51:12 GMT
@@ -125,7 +125,7 @@ command to see if the port is closed or filtered. Here is an example of the outp
 
     $ nmap x.x.x.x
 
-    Starting Nmap 6.40 ( http://nmap.org ) at 2020-06-06 00:56 UTC
+    Starting Nmap 6.40 ( https://nmap.org ) at 2020-06-06 00:56 UTC
     Nmap scan report for x.x.x.x
     Host is up (0.037s latency).
     Not shown: 992 closed ports

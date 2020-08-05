@@ -43,7 +43,7 @@ When a Cloud Files user marks containers for publishing to the CDN, they are ins
 
 In the Cloud Control Panel, you use the CDN by creating a Cloud Files container (the storage compartment for data), uploading objects (the files to serve over CDN) to it, and marking the container as **public**. The container is then assigned a unique URL that can be combined with object names to embed in web pages, email messages, blog posts, and so on.
 
-For example, a user could upload a photo to a container called **images**. When this Container is published, it is assigned a unique URL such as **http://c0000532.cdn.cloudfiles.rackspace.com**. The user could then share a link to the photo, such as **http://c0000532.cdn.cloudfiles.rackspace.com/IMG_3432.jpg**. When that link is accessed, the photo is served from the CDN.
+For example, a user could upload a photo to a container called **images**. When this Container is published, it is assigned a unique URL such as **https://c0000532.cdn.cloudfiles.rackspace.com**. The user could then share a link to the photo, such as **https://c0000532.cdn.cloudfiles.rackspace.com/IMG_3432.jpg**. When that link is accessed, the photo is served from the CDN.
 
 ### Create a container and make it public
 

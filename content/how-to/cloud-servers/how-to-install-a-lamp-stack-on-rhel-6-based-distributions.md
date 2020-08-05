@@ -80,4 +80,4 @@ steps.
     This command allows port 80 (web) and port 443 (secure web) inbound traffic through the
     firewall, and saves the rule for reboots.
 
-The installation is complete. To test it, browse to ***http://serverIpAddress/***.
+The installation is complete. To test it, browse to ***https://serverIpAddress/***.

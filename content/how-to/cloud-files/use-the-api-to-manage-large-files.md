@@ -22,23 +22,23 @@ Use the following steps:
 1.  Upload the segments:
 
         curl -X PUT -H 'X-Auth-Token: <token>' \
-        http://<storage_url>/container/myobject/1 --data-binary '1'
+        https://<storage_url>/container/myobject/1 --data-binary '1'
 
         curl -X PUT -H 'X-Auth-Token: <token>' \
-        http://<storage_url>/container/myobject/2 --data-binary '2'
+        https://<storage_url>/container/myobject/2 --data-binary '2'
 
         curl -X PUT -H 'X-Auth-Token: <token>' \
-        http://<storage_url>/container/myobject/3 --data-binary '3'
+        https://<storage_url>/container/myobject/3 --data-binary '3'
 
 2.  Create the manifest file:
 
         curl -X PUT -H 'X-Auth-Token: <token>' \
 
         -H 'X-Object-Manifest: container/myobject/' \
-        http://<storage_url>/container/myobject --data-binary ''
+        https://<storage_url>/container/myobject --data-binary ''
 
 3.  Download the segments as a single object:
 
         curl -H 'X-Auth-Token: <token>' \
 
-        http://<storage_url>/container/myobject
+        https://<storage_url>/container/myobject

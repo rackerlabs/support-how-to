@@ -24,7 +24,7 @@ RackConnect v2.0.
 **Note:** To view the full range of API operations available with the
 RackConnect v3.0 API, including sample requests and responses, visit the
 [RackConnect v3.0 Public API reference
-documentation](http://docs.rcv3.apiary.io/) site. This site displays
+documentation](https://docs.rcv3.apiary.io/) site. This site displays
 code samples for the RackConnect v3.0 API calls in multiple languages.
 
 To help you take full advantage of the RackConnect v3.0 API, this
@@ -303,4 +303,4 @@ Sample data entries for this example are as follows:
 -   Cloud server UUID = aaaNNNNNa-aaaa-NNNN-aNaN-aNNaaNaNaNaa
 
 For information about the many other API calls available with the
-RackConnect v3.0 API, visit <http://docs.rcv3.apiary.io/>.
+RackConnect v3.0 API, visit <https://docs.rcv3.apiary.io/>.

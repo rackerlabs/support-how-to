@@ -60,7 +60,7 @@ applications on installation. Cloud Servers are designed for customers who
 want to start from scratch and tune a system for their own purposes.
 
 If you are uncomfortable in the System Administrator role, we also offer a
-[Managed Operations service level](http://www.rackspace.com/cloud/managed_cloud/).
+[Managed Operations service level](https://www.rackspace.com/cloud/managed_cloud/).
 
 #### What level of support comes with Cloud Servers?
 
@@ -122,7 +122,7 @@ space to implement appropriate security measures to protect the
 sensitive information they work with.
 
 To help customers in the healthcare industry meet their compliance
-requirements with regards to HIPAA, Rackspace offers a [Business Associate Agreement](http://www.rackspace.com/information/legal/hipaabaa) in all
+requirements with regards to HIPAA, Rackspace offers a [Business Associate Agreement](https://www.rackspace.com/information/legal/hipaabaa) in all
 of our dedicated hosting services segments, and it is included by
 default in our agreements with customers for those services.
 
@@ -178,7 +178,7 @@ Cloud DNS**.
 
 For example, if you name your server **MyWebServer1.MyExampleDomain.com**,
 you must add an A record for **MyWebServer1.MyExampleDomain.com**
-to your DNS zone ([MyExampleDomain.com](http://myexampledomain.com/))
+to your DNS zone ([MyExampleDomain.com](https://myexampledomain.com/))
 that points to the public IP address of the server. The information that
 you enter in the **Server Name** field helps you identify this server in
 the API and [Cloud Control Panel](https://login.rackspace.com).
@@ -209,7 +209,7 @@ For more information about PVHVM, see [Choosing a virtualization mode (PV versus
 #### Is there a throughput limit on my server's network interface card?
 
 The amount of network throughput varies based on the flavor of the server.
-For more information, see [the Pricing page in the main Rackspace website](http://www.rackspace.com/cloud/public-pricing/#cloud-servers).
+For more information, see [the Pricing page in the main Rackspace website](https://www.rackspace.com/cloud/public-pricing/#cloud-servers).
 
 #### Do you offer internal IP addresses?
 
@@ -244,7 +244,7 @@ unlimited number of images on-demand, or you can schedule an automatic
 daily or weekly image.
 
 Images are compressed and stored on Rackspace Cloud Files at the
-[current storage rates](http://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
+[current storage rates](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
 Please also read this list of [snapshot limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
 
 If you are using a virtual Cloud Server, see [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
@@ -350,7 +350,7 @@ size of the customers' servers and the type of operating system.
 
 The native storage allocation for a Cloud Server is based on the
 Cloud Server flavor that you select, but you can add extra storage at
-any time with our [Cloud Block Storage](http://www.rackspace.com/cloud/blockstorage/) service.
+any time with our [Cloud Block Storage](https://www.rackspace.com/cloud/blockstorage/) service.
 
 #### Can I install the Rackspace Private Cloud on virtual machines?
 
@@ -401,7 +401,7 @@ For more information about General Purpose servers, see [New features in General
 #### Do you offer discounts for Cloud Servers?
 
 Yes. We offer different types of discounts based on usage. For details, see
-the [Cloud Servers discounts page](http://www.rackspace.com/cloud/servers/discounts/) for details.
+the [Cloud Servers discounts page](https://www.rackspace.com/cloud/servers/discounts/) for details.
 
 ------------------------------------------------------------------------
 
@@ -411,7 +411,7 @@ the [Cloud Servers discounts page](http://www.rackspace.com/cloud/servers/discou
 
 For information about PCI-DSS, see [Cloud Security Solutions](/how-to/are-cloud-servers-pci-dss-compliant).
 For information about PCI-DSS for Rackspace Dedicated Hosting
-services, see [PCI-Compliant Hosting for E-commerce Websites](http://www.rackspace.com/ecommerce-hosting/pci/).
+services, see [PCI-Compliant Hosting for E-commerce Websites](https://www.rackspace.com/ecommerce-hosting/pci/).
 
 #### Can I run a firewall on my server?
 

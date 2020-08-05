@@ -65,7 +65,7 @@ following steps:
 
 ### Integrate with your blueflood instance
 
-To configure your StatsD to integrate with your own [blueflood instance](https://blueflood.io), you need to modify the end point URL.  This configuration assumes that blueflood ingestion is running on  IP address http://127.0.0.1 and port 19000.
+To configure your StatsD to integrate with your own [blueflood instance](https://blueflood.io), you need to modify the end point URL.  This configuration assumes that blueflood ingestion is running on  IP address https://127.0.0.1 and port 19000.
 
         {
         backends: ["statsd-blueflood-backend"],
@@ -75,7 +75,7 @@ To configure your StatsD to integrate with your own [blueflood instance](https:/
         deleteIdleStats: true,
         "blueflood": {
             "tenantId": "<tenant_id>",
-            "endpoint": "http://127.0.0.1:19000",
+            "endpoint": "https://127.0.0.1:19000",
             "authModule": "./auth",
             "authClass": "RaxAuth",
             "authParams": {

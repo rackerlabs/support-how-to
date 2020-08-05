@@ -90,7 +90,7 @@ Add the following code to the file:
 
                 listen   80;
                 server_name  www.domain1.com;
-                rewrite ^/(.*) http://domain1.com/$1 permanent;
+                rewrite ^/(.*) https://domain1.com/$1 permanent;
 
                }
 
@@ -132,7 +132,7 @@ To enable your site, reload NGINX by running the following command:
 Navigate to your domain by pasting the following URL into your web browser's
 navigation bar:
 
-**http://www.domain1.com**
+**https://www.domain1.com**
 
 You should see a simple test web page that displays the information in the
 **index.html** file.

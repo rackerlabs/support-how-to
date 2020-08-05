@@ -50,16 +50,16 @@ directly into your application. Following is a simple cURL example of how you
 can use the API:
 
     # First, upload the segments
-    curl -X PUT -H 'X-Auth-Token: <token>' \     http://<storage_url>/container/myobject/1 --data-binary '1'
-    curl -X PUT -H 'X-Auth-Token: <token>' \     http://<storage_url>/container/myobject/2 --data-binary '2'
-    curl -X PUT -H 'X-Auth-Token: <token>' \     http://<storage_url>/container/myobject/3 --data-binary '3'
+    curl -X PUT -H 'X-Auth-Token: <token>' \     https://<storage_url>/container/myobject/1 --data-binary '1'
+    curl -X PUT -H 'X-Auth-Token: <token>' \     https://<storage_url>/container/myobject/2 --data-binary '2'
+    curl -X PUT -H 'X-Auth-Token: <token>' \     https://<storage_url>/container/myobject/3 --data-binary '3'
 
     # Next, create the manifest file
     curl -X PUT -H 'X-Auth-Token: <token>' \
-    -H 'X-Object-Manifest: container/myobject/' \     http://<storage_url>/container/myobject --data-binary ''
+    -H 'X-Object-Manifest: container/myobject/' \     https://<storage_url>/container/myobject --data-binary ''
 
     # Then you can download the segments as a single object
     curl -H 'X-Auth-Token: <token>' \
-    http://<storage_url>/container/myobject
+    https://<storage_url>/container/myobject
 
 For more information, see the [Creating large objects](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#creating-large-objects) section in the Cloud Files Developer Guide.

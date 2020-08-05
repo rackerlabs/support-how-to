@@ -98,4 +98,4 @@ steps:
     the firewall and saves the rule for reboots.
 
 The installation is complete. To test that everything was installed correctly, open your
-browser and navigate to **http://serverIpAddress/**.
+browser and navigate to **https://serverIpAddress/**.

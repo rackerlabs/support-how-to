@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-The instructions in this article are for customers who signed up for their Rackspace Email account at <http://www.rackspace.co.uk>. The steps in this article guide you through setting up your Rackspace mail services.
+The instructions in this article are for customers who signed up for their Rackspace Email account at <https://www.rackspace.co.uk>. The steps in this article guide you through setting up your Rackspace mail services.
 
 
 ### Access your Cloud Office Control Panel
@@ -134,6 +134,6 @@ Rackspace has a 30-day cancellation policy. Inform us of your intentions by eith
 
 ### Mail terms, conditions, and acceptable usage policy
 
-[Rackspace Mail terms and conditions](http://www.rackspace.com/information/legal/mailterms)
+[Rackspace Mail terms and conditions](https://www.rackspace.com/information/legal/mailterms)
 
-[Read the Rackspace mail acceptable use policy](http://www.rackspace.com/information/legal/aup)
+[Read the Rackspace mail acceptable use policy](https://www.rackspace.com/information/legal/aup)

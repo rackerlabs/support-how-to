@@ -39,7 +39,7 @@ LON, SYD, HKG). Contact your account team for further details.
 #### Does Cloud Block Storage have a Service Level Agreement (or SLA)?
 
 Yes. You can find details regarding the Cloud Block Storage SLA here:
-[http://www.rackspace.com/cloud/legal/sla](http://www.rackspace.com/cloud/legal/sla/).
+[https://www.rackspace.com/cloud/legal/sla](https://www.rackspace.com/cloud/legal/sla/).
 
 #### Is Cloud Block Storage right for me?
 
@@ -139,13 +139,13 @@ standard volumes, SSD volumes, and snapshots.
 Prices vary by region and are detailed on the following pages:
 
 -   [USA Pricing for Cloud Block Storage (DFW, ORD, and
-    IAD regions)](http://www.rackspace.com/cloud/block-storage/pricing/)
+    IAD regions)](https://www.rackspace.com/cloud/block-storage/pricing/)
 -   [UK Pricing for Cloud Block Storage
-    (LON region)](http://www.rackspace.co.uk/cloud/block-storage/pricing)
+    (LON region)](https://www.rackspace.co.uk/cloud/block-storage/pricing)
 -   [Australia Pricing for Cloud Block Storage
-    (SYD region)](http://www.rackspace.com.au/cloud/block-storage/pricing)
+    (SYD region)](https://www.rackspace.com.au/cloud/block-storage/pricing)
 -   [Hong Kong Pricing for Cloud Block Storage
-    (HKG region)](http://www.rackspace.com.hk/cloud/block-storage/pricing)
+    (HKG region)](https://www.rackspace.com.hk/cloud/block-storage/pricing)
 
 #### How is volume cloning different from volume snapshots?
 

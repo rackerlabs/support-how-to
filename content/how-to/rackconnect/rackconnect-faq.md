@@ -68,10 +68,10 @@ customer:
 
 -   If you are new to Rackspace, contact a member of our Sales team
     for help. For details about how to contact our Sales teams, go to
-    [Contact Rackspace](http://www.rackspace.com/information/contactus/).
+    [Contact Rackspace](https://www.rackspace.com/information/contactus/).
 -   If you are an existing Rackspace cloud-only customer, contact a
     member of our Sales team for help. For details about how to contact
-    our Sales team, go to [Contact Rackspace](http://www.rackspace.com/information/contactus/).
+    our Sales team, go to [Contact Rackspace](https://www.rackspace.com/information/contactus/).
 -   If you are an existing Rackspace dedicated-only customer, contact
     your account manager for help in getting RackConnect v3.0 set up in
     your environment.
@@ -132,7 +132,7 @@ resolving this error:
     `--no-service-net` option with the nova client `boot` command to
     keep the ServiceNet network from being attached to a cloud server.
     However, consider that ServiceNet is required for cloud servers
-    created in cloud accounts with a [Managed Operations](http://www.rackspace.com/managed-cloud/) service level.
+    created in cloud accounts with a [Managed Operations](https://www.rackspace.com/managed-cloud/) service level.
 -   With the Cloud Servers API, specify the cloud network that you want
     to attach to the cloud server. If you specify one or more networks,
     your server is attached to only those networks. For more information, see the [Create your first Server](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server-intro)

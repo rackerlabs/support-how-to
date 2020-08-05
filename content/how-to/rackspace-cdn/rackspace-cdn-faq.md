@@ -88,12 +88,12 @@ Rackspace CDN currently has the following limits:
 #### Is there a service level agreement (SLA) for Rackspace CDN?
 
 Yes. It is located at [Rackspace CDN
-SLA](http://www.rackspace.com/information/legal/service-level-guarantee-rackspace-cdn).
+SLA](https://www.rackspace.com/information/legal/service-level-guarantee-rackspace-cdn).
 
 #### Can you provide pricing information for Rackspace CDN?
 
 See [Rackspace CDN
-pricing](http://www.rackspace.com/cloud/cdn-content-delivery-network).
+pricing](https://www.rackspace.com/cloud/cdn-content-delivery-network).
 
 #### Is there a list of approved Certificate Authorities (CAs) for Rackspace CDN?
 

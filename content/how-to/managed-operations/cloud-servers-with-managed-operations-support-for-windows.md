@@ -25,10 +25,10 @@ The Managed Operations spheres of support include the following
 operating systems for all Windows cloud servers:
 
 - [Windows Server 2008 with Service Pack
- R2](http://technet.microsoft.com/library/dd349801)
+ R2](https://technet.microsoft.com/library/dd349801)
 
 - [Windows Server 2012 with Service Pack
- R2](http://technet.microsoft.com/en-US/windowsserver/hh534429)
+ R2](https://technet.microsoft.com/en-US/windowsserver/hh534429)
  
 For OnMetal Windows cloud servers, the Managed Operations spheres of support also includes the following
 operating system:
@@ -45,15 +45,15 @@ The Managed Operations service level supports the following types of web servers
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
-| [Web HTTP/HTTPS](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-|[FTP](http://www.iis.net/) | **Yes** | **Yes** | **Yes** |**Yes** | **Yes** |
+| [Web HTTP/HTTPS](https://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+|[FTP](https://www.iis.net/) | **Yes** | **Yes** | **Yes** |**Yes** | **Yes** |
 
 #### IIS 8, 8.5
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
-| [Web HTTP/HTTPS](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [FTP](http://www.iis.net/) | **Yes** | **Yes** | **Yes** |**Yes** | **Yes** |
+| [Web HTTP/HTTPS](https://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [FTP](https://www.iis.net/) | **Yes** | **Yes** | **Yes** |**Yes** | **Yes** |
 
 ### Database servers
 
@@ -61,10 +61,10 @@ The Managed Operations service level supports the following types of database se
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
-| [SQL Server 2008 R2 (Standard and Web Edition)](http://www.microsoft.com/en-us/server-cloud/products/sql-server/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [SQL Server 2012 (Standard and Web Edition)](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** |**Yes** | **Yes** | **Yes** | **Yes** |
-| [SQL Server 2014 (Standard and Web Edition)](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [MySQL](http://www.mysql.com/why-mysql/windows/) | **Yes** | No | No | **Yes** | No |
+| [SQL Server 2008 R2 (Standard and Web Edition)](https://www.microsoft.com/en-us/server-cloud/products/sql-server/) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [SQL Server 2012 (Standard and Web Edition)](https://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** |**Yes** | **Yes** | **Yes** | **Yes** |
+| [SQL Server 2014 (Standard and Web Edition)](https://www.microsoft.com/en-us/server-cloud/products/sql-server/)| **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| [MySQL](https://www.mysql.com/why-mysql/windows/) | **Yes** | No | No | **Yes** | No |
 
 **Note:** Rackspace does not support Microsoft&reg; SQL Server&reg; Express 2008, 2012, and 2014.
 
@@ -75,8 +75,8 @@ The Managed Operations service level supports the following programming language
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
 | [ASP](https://msdn.microsoft.com/en-us/library/aa286483.aspx) |**Yes** | **Yes** | **Yes** | **Yes** | **Yes**|
-| [ASP.NET](http://www.asp.net/) | **Yes** | **Yes** |**Yes** | **Yes** | **Yes** |
-| [PHP (Fast CGI)](http://www.php.net/) | **Yes** | **Yes** | No | No | No |
+| [ASP.NET](https://www.asp.net/) | **Yes** | **Yes** |**Yes** | **Yes** | **Yes** |
+| [PHP (Fast CGI)](https://www.php.net/) | **Yes** | **Yes** | No | No | No |
 
 ### Software firewall
 
@@ -84,7 +84,7 @@ The Managed Operations service level supports the following firewall software:
 
 |    | **Installation** | **Configuration** | **Troubleshooting** |
 | --- | --- | --- | --- |
-| [Windows Firewall](http://windows.microsoft.com/en-us/windows-8/windows-firewall-from-start-to-finish)| **Yes** | **Yes**| **Yes** |
+| [Windows Firewall](https://windows.microsoft.com/en-us/windows-8/windows-firewall-from-start-to-finish)| **Yes** | **Yes**| **Yes** |
 
 ### FTP
 
@@ -101,7 +101,7 @@ The Managed Operations service level supports the following SMTP tool:
 
 |    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
 | --- | --- | --- | --- | --- | --- |
-| [IIS Outgoing Only](http://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | No |
+| [IIS Outgoing Only](https://www.iis.net/) |**Yes** | **Yes** | **Yes** | **Yes** | No |
 
 ### Active Directory
 

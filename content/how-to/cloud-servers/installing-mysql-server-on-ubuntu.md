@@ -289,7 +289,7 @@ covered here should give you a solid start from which to learn more.
 
 <script type="application/ld+json">
    {
-   "@context": "http://schema.org/",
+   "@context": "https://schema.org/",
    "@type": "HowTo",
    "name":"Install MySQL Server on the Ubuntu operating system",
    "description": "This article describes a basic installation of a MySQL database server on the Ubuntu operating system.",

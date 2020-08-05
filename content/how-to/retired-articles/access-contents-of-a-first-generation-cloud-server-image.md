@@ -53,7 +53,7 @@ If the image has multiple parts, you must concatenate the files before decompres
 
 While the `copy` command is running, no progress is shown in the command prompt. To get progress and status information, watch the file grow in the File Explorer, or monitor disk I/O by using task manager.
 
-Windows can't extract the **tar.gz** format natively, but many third party applications have the ability to extract this format. One popular open source application is [7-Zip](http://www.7-zip.org/). The 7-Zip extraction process has two steps: you decompress the file, revealing a **tar** archive, which you then unarchive.
+Windows can't extract the **tar.gz** format natively, but many third party applications have the ability to extract this format. One popular open source application is [7-Zip](https://www.7-zip.org/). The 7-Zip extraction process has two steps: you decompress the file, revealing a **tar** archive, which you then unarchive.
 
 1. Right-click the concatenated **image_name.tar.gz** file and select **7-Zip > Extract Here**.
 2. Right-click the decompressed **image_name.tar** file, and select **7-Zip > Extract Here**.

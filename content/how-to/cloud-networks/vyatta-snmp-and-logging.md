@@ -75,7 +75,7 @@ view of how to execute this configuration.
 
 Following is a sample subset of available Management Information Bases
 (MIBs) on a vRouter. A full list of supported MIBs is available at the
-[Vyatta documentation page](http://www.brocade.com/downloads/documents/html_product_manuals/vyatta/vyatta_5400_manual/wwhelp/wwhimpl/js/html/wwhelp.htm#href=Remote%20Management/SNMP.5.11.html#1952242).
+[Vyatta documentation page](https://www.brocade.com/downloads/documents/html_product_manuals/vyatta/vyatta_5400_manual/wwhelp/wwhimpl/js/html/wwhelp.htm#href=RemoteManagement/SNMP.5.11.html#1952242).
 
 -  HOST-RESOURCES-MIB
 -  SNMPv2-MIB

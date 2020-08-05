@@ -78,9 +78,9 @@ API and retrieve your gateway IP address. Select the version that
 matches your cloud account's service level:
 
 -   **Managed Operations:**
-    [rshybridnetworkconfig-managed-v2.sh](http://scripts.rackconnect.rackspace.com/rshybridnetworkconfig-managed-v2.sh)
+    [rshybridnetworkconfig-managed-v2.sh](https://scripts.rackconnect.rackspace.com/rshybridnetworkconfig-managed-v2.sh)
 -   **Managed Infrastructure:**
-    [rshybridnetworkconfig-v2.sh](http://scripts.rackconnect.rackspace.com/rshybridnetworkconfig-v2.sh)
+    [rshybridnetworkconfig-v2.sh](https://scripts.rackconnect.rackspace.com/rshybridnetworkconfig-v2.sh)
 
 Run the RS Hybrid Network Configuration script, using the appropriate region code:
 

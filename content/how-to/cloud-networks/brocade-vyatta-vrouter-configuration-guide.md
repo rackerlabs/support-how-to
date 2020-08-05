@@ -13,7 +13,7 @@ product_url: cloud-networks
 
 The Brocade Vyatta vRouter is a network appliance that you can spin up in the Rackspace public cloud. It acts as a firewall, VPN gateway, router, and NAT device.
 
-You read more about the Brocade Vyatta vRouter at the [Rackspace virtual cloud servers](http://www.rackspace.com/cloud/servers/vrouter).
+You read more about the Brocade Vyatta vRouter at the [Rackspace virtual cloud servers](https://www.rackspace.com/cloud/servers/vrouter).
 
 The following articles provide detailed configurations for the Brocade Vyatta vrouter:
 

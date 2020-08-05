@@ -10,7 +10,7 @@ last_modified_by: Cat Lookabaugh
 ---
 
 [Phusion's
-Passenger](http://www.modrails.com/ "http://www.modrails.com/")
+Passenger](https://www.modrails.com/ "https://www.modrails.com/")
 (mod\_rails) is an exciting development in serving your Ruby on Rails
 application with the Apache web server.
 

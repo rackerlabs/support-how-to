@@ -15,7 +15,7 @@ The Rackspace Email application programming interface (API) provides most of the
 panel through a REST-based web API. The API allows you to programmatically administer common tasks by using your own application to perform common tasks such as adding mailboxes and more. You can apply these changes independently of your
 application's language or nature. Detailed documentation for using the API is located
 at
-[http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI](http://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI).
+[https://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI](https://api-wiki.apps.rackspace.com/api-wiki/index.php/RestAPI).
 
 ### Prerequisites
 

@@ -53,7 +53,7 @@ solution for highly available CIFS and NFS exports. It adds virtual IP addresses
 heartbeat service to each GlusterFS server node. For those volumes that are exported via
 CIFS, it also adds a locking mechanism.
 
-You can find more information about CTDB at [http://ctdb.samba.org](http://ctdb.samba.org/).
+You can find more information about CTDB at [https://ctdb.samba.org](https://ctdb.samba.org/).
 
 Using CTDB ensures that your clients, whichever method they use (NFS or CIFS), can still
 access the volume in case of a brick failure.
@@ -220,6 +220,6 @@ methods:
 
 ### References
 
--  [http://ctdb.samba.org/](http://ctdb.samba.org/)
+-  [https://ctdb.samba.org/](https://ctdb.samba.org/)
 -  [hhttps://wiki.samba.org/index.php/CTDB_and_Clustered_Samba](https://wiki.samba.org/index.php/CTDB_and_Clustered_Samba)
--  [http://www.zytrax.com/books/dns/ch9/rr.html](http://www.zytrax.com/books/dns/ch9/rr.html)
+-  [https://www.zytrax.com/books/dns/ch9/rr.html](https://www.zytrax.com/books/dns/ch9/rr.html)

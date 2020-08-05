@@ -15,7 +15,7 @@ This article shows you how to migrate a Cloud Databases instance from
 Percona&reg; or MariaDB&reg; back to a MySQL&reg; solution. The steps assume
 that you haven't enabled the root database user on the source or
 destination instance and that you're using the Rackspace [Cloud Control
-Panel](http://login.rackspace.com) to manage your Cloud Databases.
+Panel](https://login.rackspace.com) to manage your Cloud Databases.
 
 Because database replication isn't available, this article includes some
 additional steps to ensure that no content is lost during the migration

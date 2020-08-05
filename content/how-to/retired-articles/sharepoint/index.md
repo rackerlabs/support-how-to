@@ -28,7 +28,7 @@ Our hosted SharePoint service offers all of the benefits of an online SharePoint
 
 ###  SharePoint information
 
-- [Rackspace SharePoint hosting, services, and training](http://sharepoint.rackspace.com/)
+- [Rackspace SharePoint hosting, services, and training](https://sharepoint.rackspace.com/)
 
 ###  SharePoint first steps
 

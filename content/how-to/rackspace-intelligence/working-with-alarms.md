@@ -38,7 +38,7 @@ Before you can create an alarm, you must have [created a check](/how-to/working-
 Use the following steps to create a new alarm:
 
 1.  Log in to the [Rackspace Intelligence
-    interface](http://intelligence.rackspace.com).
+    interface](https://intelligence.rackspace.com).
 
 2.  On the Monitoring page, click the entity for which you want to define an alarm.
 

@@ -38,7 +38,7 @@ The Rackspace-Monitoring CLI tool is available here as open source:
 <https://github.com/racker/rackspace-monitoring-cli>.
 
 The utility can be installed via
-[PIP](http://www.pip-installer.org/en/latest/installing.html):
+[PIP](https://www.pip-installer.org/en/latest/installing.html):
 
     sudo pip install rackspace-monitoring-cli
 

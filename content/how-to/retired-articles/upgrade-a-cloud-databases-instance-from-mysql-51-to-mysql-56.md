@@ -13,7 +13,7 @@ last_modified_by: Kate Dougherty
 This article shows you how to upgrade from a Cloud Databases MySQL&reg; 5.1
 instance to a new MySQL 5.6 instance. The steps assume that you haven't
 enabled the root database user on the source or destination instance and that
-you're using the Rackspace [Cloud Control Panel](http://login.rackspace.com)
+you're using the Rackspace [Cloud Control Panel](https://login.rackspace.com)
 to manage your Cloud Databases.
 
 Because database replication isn't available, this article includes some
@@ -36,9 +36,9 @@ directly.
 
 Review the following change documentation that corresponds to your upgrade:
 
-- **[Changes in MySQL 5.5](http://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html)**: For upgrades from MySQL 5.1 to MySQL 5.5.
+- **[Changes in MySQL 5.5](https://dev.mysql.com/doc/refman/5.5/en/upgrading-from-previous-series.html)**: For upgrades from MySQL 5.1 to MySQL 5.5.
 
-- **[Changes in MySQL 5.6](http://dev.mysql.com/doc/refman/5.6/en/upgrading-from-previous-series.html)**: For upgrades from MySQL 5.5 to MySQL 5.6.
+- **[Changes in MySQL 5.6](https://dev.mysql.com/doc/refman/5.6/en/upgrading-from-previous-series.html)**: For upgrades from MySQL 5.5 to MySQL 5.6.
 
 #### Back up the original Cloud Databases instance
 

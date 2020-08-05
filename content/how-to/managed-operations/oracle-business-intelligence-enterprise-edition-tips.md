@@ -43,7 +43,7 @@ understand the main difference in the process between version 11g and version
 
 #### OBIEE 11g procedure
 
-In version 11g, the Enterprise Manager (EM) URL http://localhost:7001/em was
+In version 11g, the Enterprise Manager (EM) URL https://localhost:7001/em was
 used for uploading the repository ``.rpd`` file. You use the following deployment path in a Business Intelligence Instance to
 upload the latest ``.rpd`` file: **Deployment Upload > BI Server Repository > Upload New Files > Restart
 BI Services > Upload the latest RPD**.
@@ -273,7 +273,7 @@ downloaded in CSV format.
 
 The ``instanceconfig.xml`` file is the parameter file for the Oracle BI
 Presentation Services and stores the configuration settings for the service.
-For more information, see [this OBIEE Blog article](http://obiee-blog.info/uncategorized/65000-rows-csv-limit-hidden-parameter/).
+For more information, see [this OBIEE Blog article](https://obiee-blog.info/uncategorized/65000-rows-csv-limit-hidden-parameter/).
 
 **Note**: In the earlier versions of OBIEE, such as 1.1.1.6.x or 11.1.1.7.x,
 you could download more than 65,000 rows because there were no specific
@@ -512,7 +512,7 @@ Use the following steps to start servers in OBIEE 11g:
         Secure Socket Listener started on port No
 
 6.  Start the Admin and Managed servers simultaneously though the console at
-    http://localhost:7001/console by following these selections:
+    https://localhost:7001/console by following these selections:
     **Environments > Servers > Control**.
 
     Then check the servers from the list, and select **Start**.
@@ -552,7 +552,7 @@ Use the following steps to stop servers in OBIEE 11g:
     All the services should be down.
 
 4.  Stop the Admin and Managed servers simultaneously though the console at
-    http://localhost:7001/console by following these selections:
+    https://localhost:7001/console by following these selections:
     **Environments > Servers > Control**
 
     Then check the servers from the list, and select

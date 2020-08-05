@@ -177,7 +177,7 @@ For an example of how to upgrade between versions of MySQL, see
 
 ### External links
 
-- [MYSQL documentation](http://dev.mysql.com/doc/)
+- [MYSQL documentation](https://dev.mysql.com/doc/)
 
 - [MariaDB documentation](https://mariadb.com/kb/en/mariadb/documentation/)
 

@@ -23,7 +23,7 @@ You need a server running a version of the Windows&reg; Server&reg; operating sy
 
 Nginx comes pre-compiled direct from their website, which makes installation as simple as downloading and extracting a file.  
 
-1. Download the latest mainline release from [http://nginx.org/en/download.html](http://nginx.org/en/download.html).
+1. Download the latest mainline release from [https://nginx.org/en/download.html](https://nginx.org/en/download.html).
 
 2. Extract the file to the location where you want to install Nginx, such as **C:\nginx**. 
 
@@ -38,13 +38,13 @@ Open a CMD prompt and start Nginx with the following command:
 
 **Note**: Replace **C:\nginx\** with the directory location where you installed Nginix.
 
-You should be able to navigate to **http://localhost/** in the server's web browser and see the Nginx default web page.
+You should be able to navigate to **https://localhost/** in the server's web browser and see the Nginx default web page.
 If you see "Welcome to Nginx," everything is working as intended.
 
 ### Useful information
 
 The Nginx project considers the Windows release to be in beta. Functionally, this release is similar to Unix releases, but
-some features are missing. For further information, see [nginx for Windows](http://nginx.org/en/docs/windows.html).
+some features are missing. For further information, see [nginx for Windows](https://nginx.org/en/docs/windows.html).
 
 ### Next steps
 

@@ -62,7 +62,7 @@ records.
 
 ### External links
 
-<http://en.wikipedia.org/wiki/List_of_DNS_record_types>
+<https://en.wikipedia.org/wiki/List_of_DNS_record_types>
 
 This Wikipedia page provides a listing of resource
-records stored in the [zone files](http://en.wikipedia.org/wiki/Zone_file) of the Domain Name System (DNS).
+records stored in the [zone files](https://en.wikipedia.org/wiki/Zone_file) of the Domain Name System (DNS).

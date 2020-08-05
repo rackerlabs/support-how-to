@@ -22,7 +22,7 @@ Windows will not run.
 of bandwidth. Please use wisely!
 
 If you would like information about tunnelling VNC over SSH please visit
-<http://martybugs.net/smoothwall/puttyvnc.cgi>
+<https://martybugs.net/smoothwall/puttyvnc.cgi>
 
 ### Install the Necessary Packages
 
@@ -45,9 +45,9 @@ server and will sit above the Window Manager.
   Window Managers and are the human usable layer that you are probably
 familiar with. This gives you the access to use a mouse and send calls
 to the X11 server.
-  -  [KDE](http://www.kde.org/)
-  -  [GNOME](http://www.gnome.org./)
-  -  [TWM](http://xwinman.org/vtwm.php)
+  -  [KDE](https://www.kde.org/)
+  -  [GNOME](https://www.gnome.org./)
+  -  [TWM](https://xwinman.org/vtwm.php)
 
 -  Install KDE Desktop
 

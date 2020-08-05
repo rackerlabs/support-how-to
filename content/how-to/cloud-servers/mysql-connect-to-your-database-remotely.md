@@ -97,7 +97,7 @@ When you set up a remote user, consider the following information:
 
 <script type="application/ld+json">
 {
-"@context": "http://schema.org/",
+"@context": "https://schema.org/",
 "@type": "HowTo",
 "text":"Connect to a MySQL database remotely",
 "description": "This article explains how to set up a user on your MySQL® server in order to connect to a MySQL database remotely. In order to perform these steps, you must have local server access to log in as the root MySQL user.",

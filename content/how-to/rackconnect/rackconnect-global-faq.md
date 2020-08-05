@@ -41,7 +41,7 @@ This enables Rackspace to provide multiple paths for connecting with all your
 cloud and colocation providers wherever they are across the globe for an
 integrated hybrid cloud experience.
 
-For more details, see [http://www.rackspace.com/cloud/hybrid/rackconnect/global](http://www.rackspace.com/cloud/hybrid/rackconnect/global).
+For more details, see [https://www.rackspace.com/cloud/hybrid/rackconnect/global](https://www.rackspace.com/cloud/hybrid/rackconnect/global).
 
 #### Who is the audience for RackConnect Global, and what pain points does it solve?
 

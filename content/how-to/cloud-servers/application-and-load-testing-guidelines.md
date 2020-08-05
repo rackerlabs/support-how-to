@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 Part of offering a professional experience to your customers is knowing how your applications perform and getting performance benchmarks for your Rackspace-hosted assets. This article provides some helpful application, load, and performance-benchmarking tests to help you get useful data. It also explains your obligations when performing the tests and provides technical guidance for performing the tests.
 
-**Note:** When you perform any testing on or against Rackspace cloud servers, you are operating under the terms of our [Global Acceptable Use Policy (AUP)](http://www.rackspace.com/information/legal/global/aup).
+**Note:** When you perform any testing on or against Rackspace cloud servers, you are operating under the terms of our [Global Acceptable Use Policy (AUP)](https://www.rackspace.com/information/legal/global/aup).
 
 ### Policing and enforcement
 
@@ -30,7 +30,7 @@ Alternatively, there are several load-testing services that are managed with ext
 
 ### Linux virtual servers
 
-Install and use the `screen` package for your Linux distribution to run and view the following commands at the same time. To compile the screen from source, go to the [GNU homepage](http://www.gnu.org/software/screen/).
+Install and use the `screen` package for your Linux distribution to run and view the following commands at the same time. To compile the screen from source, go to the [GNU homepage](https://www.gnu.org/software/screen/).
 
 #### RAM
 

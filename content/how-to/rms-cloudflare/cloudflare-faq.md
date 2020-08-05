@@ -38,7 +38,7 @@ to the Cloudflare nameservers.
 
 Make the change at your registrar. Your registrar is body from whom you
 purchased your domain. If you don't know who your registrar is for the
-domain, you can find this by doing a [WHOis](http://www.whois.net/)
+domain, you can find this by doing a [WHOis](https://www.whois.net/)
 search. Follow the instructions
 in your Rackspace Technology onboarding ticket to change nameservers to
 Cloudflare.
@@ -85,4 +85,4 @@ cost implications.
 #### Does Cloudflare offer domain masking?
 
 No, Cloudflare does not offer domain masking or DNS redirect services. It offers only
-URL forwarding through [Page Rules](http://blog.cloudflare.com/introducing-pagerules-url-forwarding).
+URL forwarding through [Page Rules](https://blog.cloudflare.com/introducing-pagerules-url-forwarding).

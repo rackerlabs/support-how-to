@@ -19,7 +19,7 @@ under the GPL.
 
 ### Streaming
 
-Cloud Files containers that are published and marked as public are delivered over the [Akamai Technologies](http://www.akamai.com/) global content delivery network (CDN). For streaming flash files from your Cloud Files, Akamai provides *pseudostreaming*.
+Cloud Files containers that are published and marked as public are delivered over the [Akamai Technologies](https://www.akamai.com/) global content delivery network (CDN). For streaming flash files from your Cloud Files, Akamai provides *pseudostreaming*.
 
 Pseudostreaming works as follows: When a video is initially loaded, the player reads and stores a list of seek points as part of the video's metadata. These seek points are offsets in the video (both in seconds and in bytes) at which a new key frame starts. To accomplish this, Akamai's streaming supports the [HTTP Range header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35) to identify those seek points. Real Time Messaging Protocol (RTMP) streaming is not supported.
 
@@ -48,7 +48,7 @@ F4F/F4M  | H.264 <br /> VP6  | AAC <br /> MP3 |  None
 
 ### FlowPlayer
 
-1. Go to the [Akamai FlowPlayer](http://mediapm.edgesuite.net/flow/ "http://flowplayer.org") and download the free version of FlowPlayer.
+1. Go to the [Akamai FlowPlayer](https://mediapm.edgesuite.net/flow/ "https://flowplayer.org") and download the free version of FlowPlayer.
 2. Save the zip file to your desktop.
 3. Extract the zip file to your desktop.
 4. Upload the following files to Cloud Files by using the [Cloud Control Panel](https://login.rackspace.com/):
@@ -62,23 +62,23 @@ Create a simple XHTML file that calls Flowplayer and embeds it onto the page. Us
 
     <html>
      <head>
-      <script type="text/javascript" src="http://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.min.js"></script>
+      <script type="text/javascript" src="https://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.min.js"></script>
      </head>
      <body>
       <a
-        href="http://c022320192.cdn.cloudfiles.rackspacecloud.com/video.flv"
+        href="https://c022320192.cdn.cloudfiles.rackspacecloud.com/video.flv"
         style="display:block;width:520px;height:330px"
         id="player">
       </a>
       <script>
-       flowplayer("player","http://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.swf");
+       flowplayer("player","https://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.swf");
       </script>
      </body>
     </html>
 
-- On line 3, replace `http://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.min.js` with your version of this file.
-- On line 7, replace `http://c022320192.cdn.cloudfiles.rackspacecloud.com/video.flv` with the location of your video file.
-- On line 12, replace `http://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.swf` with your version of this file.
+- On line 3, replace `https://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.min.js` with your version of this file.
+- On line 7, replace `https://c022320192.cdn.cloudfiles.rackspacecloud.com/video.flv` with the location of your video file.
+- On line 12, replace `https://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.swf` with your version of this file.
 
 Save this XHTML file and run it from your local machine.
 

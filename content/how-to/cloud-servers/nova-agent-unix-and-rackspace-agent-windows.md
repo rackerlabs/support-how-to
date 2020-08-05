@@ -205,4 +205,4 @@ for setting up golden images with autoscale.
 ### Related Articles
 
 [Operating a cloud server with nova-agent](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/)
-[All About Nova-Agent (on Linux)](http://www.syntheticworks.com/rackspace-cloud/linux-rackspace-cloud/all-about-nova-agent-linux/)
+[All About Nova-Agent (on Linux)](https://www.syntheticworks.com/rackspace-cloud/linux-rackspace-cloud/all-about-nova-agent-linux/)

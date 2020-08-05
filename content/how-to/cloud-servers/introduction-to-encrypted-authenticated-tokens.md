@@ -133,7 +133,7 @@ Following are some best practices for handling authentication tokens.
     remains valid.
 
     **Note:** For an example of how to cache credentials with an SDK,
-    see [Caching credentials](http://php-opencloud.readthedocs.org/en/latest/caching-creds.html) in
+    see [Caching credentials](https://php-opencloud.readthedocs.org/en/latest/caching-creds.html) in
     the php-opencloud documentation.
 
 -   Design applications to reauthenticate after receiving

@@ -319,7 +319,7 @@ And in each of those sub-directories, you'll find potentially thousands of email
     Sender: owner-postfix-users@postfix.org
     Precedence: bulk
     List-Post: <mailto:postfix-users@postfix.org>
-    List-Help: <http://www.postfix.org/lists.html>
+    List-Help: <https://www.postfix.org/lists.html>
     List-Unsubscribe: <mailto:majordomo@postfix.org>
     List-Subscribe: <mailto:majordomo@postfix.org>
 

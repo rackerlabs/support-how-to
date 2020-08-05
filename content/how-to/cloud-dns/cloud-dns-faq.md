@@ -122,7 +122,7 @@ system, but you can modify the Time to Live (TTL) and email address.
 
 The service supports `DKIM` and `SPF` records through formatting `TXT` records with
 custom attributes indicating the record type. We do not currently support the
-`SPF` `RR` type as defined in [RFC 4408](http://tools.ietf.org/html/rfc4408).
+`SPF` `RR` type as defined in [RFC 4408](https://tools.ietf.org/html/rfc4408).
 
 For more information about supported record types, see the
 [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).

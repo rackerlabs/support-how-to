@@ -33,7 +33,7 @@ This article instructs you about how to transfer your domain registration from y
 
 #### Monitor the transfer from your Cloud Office Control Panel
 
-1.	Log in to the [Cloud Office Control Panel](http://cp.rackspace.com).
+1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
 2.	Scroll down to the **Domains** section and select **DNS Settings**.
 

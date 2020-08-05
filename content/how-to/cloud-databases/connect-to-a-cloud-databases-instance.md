@@ -233,7 +233,7 @@ the load balancer.
 **Note**: Using a load balancer to access your database instance incurs
 normal load balancing and bandwidth charges. For more information, see
 [Cloud Load Balancers Pricing and
-Calculator](http://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/pricing/).
+Calculator](https://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/pricing/).
 
 ### Connect to a High Availability instance by using a public IP address
 

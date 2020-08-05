@@ -14,7 +14,7 @@ product_url: undefined
 
 Except where otherwise noted, the Rackspace How-To site and
 documentation is licensed under the [Creative Commons
-Attribution-NonCommercial-NoDerivs 3.0 Unported license](http://creativecommons.org/licenses/by-nc-nd/3.0/).
+Attribution-NonCommercial-NoDerivs 3.0 Unported license](https://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 -   **Attribution:**  Rackspace How-To documents are intended
     for use by Rackspace customers. Credit Rackspace for the

@@ -14,7 +14,7 @@ product_url: cloud-networks
 Neutron is an OpenStack project that will be the basis for all upcoming
 networking services in the Rackspace Public Cloud. If you deploy
 Rackspace Cloud Servers, you can use Rackspace Networking API based on
-OpenStack Neutron in order to create and manage [Cloud Networks](http://www.rackspace.com/cloud/networks/) and perform other
+OpenStack Neutron in order to create and manage [Cloud Networks](https://www.rackspace.com/cloud/networks/) and perform other
 Networking operations.
 
 #### Where are the docs?
@@ -28,7 +28,7 @@ Networking operations.
 At Rackspace we have been using the /os-networksv2 Cloud Servers
 extension to provision networking capabilities in the public cloud. This
 extension was based on nova-network API and could be used primarily to
-take advantage of Rackspace [Cloud Networks](http://www.rackspace.com/cloud/networks/). Since we introduced
+take advantage of Rackspace [Cloud Networks](https://www.rackspace.com/cloud/networks/). Since we introduced
 the existing API, the Neutron OpenStack project has become the primary
 Networking service in OpenStack. Moving forward, Rackspace Networking
 API will be based on OpenStack Neutron API that is more granular than
@@ -40,7 +40,7 @@ consume networking services.
 The API provides three primary top level resources (networks , ports and
 subnets). Users can now:
 
--   Create and manage [Cloud Networks](http://www.rackspace.com/cloud/networks/) using the new API
+-   Create and manage [Cloud Networks](https://www.rackspace.com/cloud/networks/) using the new API
 -   Assign routes to Cloud Servers at boot-time (Host routes)
 -   Configure allocation pools for subnets (CIDRs) on Cloud Networks to
     control the dynamic IP address assignment on your Cloud Servers

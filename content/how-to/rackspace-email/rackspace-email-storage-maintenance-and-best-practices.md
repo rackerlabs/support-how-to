@@ -39,7 +39,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 3. If you have multiple domains, select the domain for which you want to enable storage notifications.
 3. Click **Settings** from the sub-ribbon under **Email Accounts**
 
-   <img src="{% asset_path rackspace-email/rackspace-email-storage-maintenance-and-best-practices/RSEstorageNotificationsSC1.png %}" />
+   <img src="RSEstorageNotificationsSC1.png" />
 
 4. Select **Storage Notification** from the options.
 5. Check the box next to **Activate full mailbox notification** and adjust settings as desired.
@@ -55,7 +55,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php).
 2. Click your username in the upper-right hand corner. The dropdown menu displays the current mailbox storage.
 
-   <img src="{% asset_path rackspace-email/rackspace-email-storage-maintenance-and-best-practices/RSEstorageWebmailSC1.png %}" />
+   <img src="RSEstorageWebmailSC1.png" />
 
 **Note:** Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for your storage available on the server.
 

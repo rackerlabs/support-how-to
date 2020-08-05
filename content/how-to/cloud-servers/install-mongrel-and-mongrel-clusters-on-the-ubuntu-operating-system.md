@@ -15,7 +15,7 @@ There are variety of options open to the sysadmin when serving Ruby
 applications.
 
 One of the original ways is to use [mongrel web
-server](http://mongrel.rubyforge.org/ "http://mongrel.rubyforge.org/").
+server](https://mongrel.rubyforge.org/ "https://mongrel.rubyforge.org/").
 Requests are proxied to the mongrel(s) from the main web server (Apache,
 Nginx, etc).
 

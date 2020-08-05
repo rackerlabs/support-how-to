@@ -178,7 +178,7 @@ MTR is installed by default on Linux, and you can install it on Mac and Windows 
 
 - Mac: Enter the following command: `brew install mtr`
 
-- Windows: Download from http://winmtr.net/download-winmtr/.
+- Windows: Download from https://winmtr.net/download-winmtr/.
 
 **Common flags**
 
@@ -246,7 +246,7 @@ Nmap is most useful when used in conjunction with the following common flags:
 
       $ nmap -Pn $IP
 
-      Starting Nmap 6.40 ( http://nmap.org ) at 2016-04-08 15:34 UTC
+      Starting Nmap 6.40 ( https://nmap.org ) at 2016-04-08 15:34 UTC
       Nmap scan report for 23.253.48.249
       Host is up (0.022s latency).
       Not shown: 998 filtered ports
