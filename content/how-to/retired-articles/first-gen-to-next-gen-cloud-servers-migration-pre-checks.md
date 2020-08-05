@@ -103,7 +103,7 @@ migration window. For Linux distributions, run the following script to
 install or update these drivers.  This action needs to be completed by
 a user with sudo access or as the user root:
 
-    sudo curl http://437117ba0e2524fdae22-6a87f3acbfcde81a104bb18fbb8cb85f.r47.cf2.rackcdn.com/xen_tools_installer.sh | bash
+    sudo curl https://437117ba0e2524fdae22-6a87f3acbfcde81a104bb18fbb8cb85f.r47.cf2.rackcdn.com/xen_tools_installer.sh | bash
 
 For Gentoo, Arch, and FreeBSD, or if this installer fails, you must
 install these drivers manually.  
@@ -122,13 +122,13 @@ The results for this check are pass/fail.
 If your Linux server fails this check, run the following script as root
 to reinstall the agent through SSH or your Java console:
 
-    curl http://e584a326fabd876c3b87-5cc4f7b75bc093abc6d4ecc36a7bc696.r2.cf1.rackcdn.com/linux-nova-agent-installer.sh | bash
+    curl https://e584a326fabd876c3b87-5cc4f7b75bc093abc6d4ecc36a7bc696.r2.cf1.rackcdn.com/linux-nova-agent-installer.sh | bash
 
 If your Windows server fails this check, follow these instructions:
 
 1.  Download the following package to your computer:
 
-        http://e584a326fabd876c3b87-5cc4f7b75bc093abc6d4ecc36a7bc696.r2.cf1.rackcdn.com/AgentService.zip
+        https://e584a326fabd876c3b87-5cc4f7b75bc093abc6d4ecc36a7bc696.r2.cf1.rackcdn.com/AgentService.zip
 
 2.  Unzip the archive.
 

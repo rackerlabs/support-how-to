@@ -12,7 +12,7 @@ product_url: cloud-images
 ---
 
 The [Rackspace Cloud Terms of
-Service](http://www.rackspace.com/information/legal/cloud/tos)
+Service](https://www.rackspace.com/information/legal/cloud/tos)
 refer to standard and non-standard images. This article provides more
 information about those terms.
 
@@ -38,7 +38,7 @@ non-standard images. Note that this list is not exhaustive.
 
 Non-standard images are subject to Rackspace Managed Infrastructure policies.
 For more information about Rackspace service levels, see the [explanation of
-Rackspace service levels](http://www.rackspace.com/cloud/service-levels/).
+Rackspace service levels](https://www.rackspace.com/cloud/service-levels/).
 
 ### Pricing
 

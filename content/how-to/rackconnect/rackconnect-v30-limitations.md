@@ -74,7 +74,7 @@ Consider the following information about cloud servers for RackConnect v3.0:
 
 - ServiceNet network interfaces are optional for Managed Infrastructure service level customers but are required for Managed Operations service level customers.
 
-- Limitations in the Rackspace Cloud Servers service also apply to RackConnect v3.0 cloud servers. For a list of current Rackspace Cloud Server limitations, see the [Cloud Servers FAQ](/how-to/cloud-servers-faq). Cloud server bandwidth limitations are described in [Rackspace Public Cloud Pricing](http://www.rackspace.com/cloud/public-pricing/#cloud-servers).
+- Limitations in the Rackspace Cloud Servers service also apply to RackConnect v3.0 cloud servers. For a list of current Rackspace Cloud Server limitations, see the [Cloud Servers FAQ](/how-to/cloud-servers-faq). Cloud server bandwidth limitations are described in [Rackspace Public Cloud Pricing](https://www.rackspace.com/cloud/public-pricing/#cloud-servers).
 
 - Currently, you cannot have multiple cloud network IP addresses on individual RackConnect v3.0 cloud servers.
 

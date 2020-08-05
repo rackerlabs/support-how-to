@@ -119,7 +119,7 @@ but change the record type to **CNAME** and enter the desired subdomain.
 Now your site is live, or you've modified your local host file to access the page offline. You
 can begin building your Wordpress website by using the Wordpress Panel.
 
-1. To log in to your Wordpress Panel, navigate to **http://yourdomain.com/wp-admin** and log in
+1. To log in to your Wordpress Panel, navigate to **https://yourdomain.com/wp-admin** and log in
 with the credentials that you chose when you deployed the stack.
 2. After you log in, you can create your new Wordpress website. 
 
@@ -221,7 +221,7 @@ Consider the following notes about your stack:
   by using the Cloud Database API if needed, but by default you manage your Cloud Database users and databases
   from your Rackspace portal.
 - If you opted to install phpMyAdmin, you can access your phpMyAdmin panel via the web at
-  **http://SERVERIP/phpMyAdmin.**
+  **https://SERVERIP/phpMyAdmin.**
 - The Wordpress stack installs php-fpm, which you can customize as needed. Be sure to make any
   changes on all nodes. 
 - This guide configured `lsyncd` to sync only the web directories, but you can customize the synced

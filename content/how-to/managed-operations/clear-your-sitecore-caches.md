@@ -13,7 +13,7 @@ product_url: managed-operations
 
 After you [publish changes to your Sitecore site](/how-to/publish-content-to-sitecore/), you might want to manually clear your caches after publishing the changes. 
 
-Sitecore administrators can view their Sitecore cache administration page using the URL **http://{sitecoreurl}/sitecore/admin/cache.aspx**. However, Sitecore cache administration pages are blocked for security purposes. 
+Sitecore administrators can view their Sitecore cache administration page using the URL **https://{sitecoreurl}/sitecore/admin/cache.aspx**. However, Sitecore cache administration pages are blocked for security purposes. 
 
 To clear your caches, Sitecore recommends restarting your Sitecore site's web app in the Microsoft Azure portal. This action creates a fresh cache for your website's content.
 

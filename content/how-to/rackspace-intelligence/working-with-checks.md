@@ -81,7 +81,7 @@ You can also choose to notify someone (for example, on-call technical support) o
 
 To create a new check, complete the following steps:
 
-1. Log in to the [Rackspace Intelligence interface](http://intelligence.rackspace.com).
+1. Log in to the [Rackspace Intelligence interface](https://intelligence.rackspace.com).
 2. On the Monitoring page, click the entity for which you want to create the check.
 3. In the **Monitoring Checks** section of the entity details page, click **Create Check**.
 4. On the Create a Check page, click the **Check Type** box and select the appropriate check type from the list.

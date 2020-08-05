@@ -15,7 +15,7 @@ This article shows you how to store your own data backup in Cloud Files.
 
 **Note**: For information about Cloud Backup as a service,
 see [Safeguard Your Business, with Automatic Cloud
-Backups](http://www.rackspace.com/cloud/backup).
+Backups](https://www.rackspace.com/cloud/backup).
 
 ### Prepare to back up your data
 

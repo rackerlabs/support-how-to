@@ -33,7 +33,7 @@ to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backu
 **Note**: Cloud Backup does not back up live databases. If you want to use data from a live database, we recommend that you configure Microsoft SQL Server to create a local backup, and then use the Cloud Backup agent to create a backup of the database. For
 more information about configuring SQL Server to create local backups, see [Create a maintenance backup place in SQL Server 2008 R2](/how-to/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard).
 
-For more information about Cloud Backup, see <http://www.rackspace.com/cloud/backup>.
+For more information about Cloud Backup, see <https://www.rackspace.com/cloud/backup>.
 
 ### Verify that the server is fully patched
 
@@ -103,7 +103,7 @@ Delete old logs.
 
 If your database log is large, consider truncating it. Microsoft
 provides instructions at
-<http://msdn.microsoft.com/en-us/library/ms189493.aspx>.
+<https://msdn.microsoft.com/en-us/library/ms189493.aspx>.
 
 ### Stop all create and update operations in the database
 

@@ -84,7 +84,7 @@ two uplinks to the data center provider edge (PE) device.
 #### What is the SLA for this service?
 
 The SLA varies based on which redundancy option the customer chooses. If the customer wants only one dedicated aggregation device, the SLA is limited to a 1-hour hardware replacement time for the aggregated device. If the customer uses two dedicated aggregation devices, we have an SLA of 99.9% connection availability between data center edge devices. See the
-[Rackspace RackConnect RegionLink Terms](http://www.rackspace.com/information/legal/rackconnect_regionlink)
+[Rackspace RackConnect RegionLink Terms](https://www.rackspace.com/information/legal/rackconnect_regionlink)
 for the SLA.
 
 #### For an MPLS L3 VPN connection, how many VPN prefixes can be exchanged between the sites?

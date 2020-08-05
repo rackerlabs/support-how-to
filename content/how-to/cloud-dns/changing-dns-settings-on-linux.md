@@ -105,7 +105,7 @@ regular `ping` command to force the system to use IPv6.
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org/",
+  "@context": "https://schema.org/",
   "@type": "HowTo",
       "name":"Change DNS settings on Linux",
   	  "description": "This article describes how to change your Linux&reg; server's Domain Name Server (DNS) settings if they are misconfigured or you prefer to use your own.",

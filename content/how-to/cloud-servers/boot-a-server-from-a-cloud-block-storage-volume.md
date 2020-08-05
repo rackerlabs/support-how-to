@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 You can now boot most cloud servers from a network-attached
-[Cloud Block Storage](http://www.rackspace.com/cloud/block-storage/) volume.
+[Cloud Block Storage](https://www.rackspace.com/cloud/block-storage/) volume.
 This feature enables you to boot a server from a remotely attached volume, which
 moves the system disk from local to remote. Separating the system disk from the
 server allows for future diskless flavors, features such as "shelving," and
@@ -115,7 +115,7 @@ volume separately from booting it, or you can build and boot the volume in one
 step.
 
 **Note:** For more information about how this function uses the Python nova
-client, see [The novaclient Python API OpenStack documentation](http://docs.openstack.org/developer/python-novaclient/api.html).
+client, see [The novaclient Python API OpenStack documentation](https://docs.openstack.org/developer/python-novaclient/api.html).
 
 #### Prepare the volume independently (option 1)
 

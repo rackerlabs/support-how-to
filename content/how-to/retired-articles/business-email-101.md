@@ -29,7 +29,7 @@ expensive and time-consuming tasks for any IT organization, and they are
 especially hard for small businesses with limited resources.
 
 Fortunately, there’s an alternative:
-[Hosted email solutions](http://www.rackspace.com/email-hosting/).
+[Hosted email solutions](https://www.rackspace.com/email-hosting/).
 
 Hosted email providers offer top-flight technology and unbeatable
 expertise; they maintain secure, reliable and scalable systems that can
@@ -44,7 +44,7 @@ enterprise-class email systems – at a fraction of the cost you’ll pay to
 buy and manage those systems on your own.
 
 The challenge is finding a
-[hosted email solution](http://www.rackspace.com/email-hosting/) that fits your
+[hosted email solution](https://www.rackspace.com/email-hosting/) that fits your
 business needs. Service providers offer a bewildering variety of email
 platforms and options; different providers offer different combinations
 of price, performance, support and service levels. Picking the right
@@ -244,13 +244,13 @@ the same time, they still include a complete set of collaboration tools
 (such as shared calendars), support for a wide range of mobile devices,
 and other important features.
 
-[Professional-grade webmail](http://www.rackspace.com/email-hosting/webmail/)
+[Professional-grade webmail](https://www.rackspace.com/email-hosting/webmail/)
 services are a great option for smaller, cost-conscious businesses that want
 to get up and running as quickly as possible.
 
 **Microsoft Exchange-based services**
 
-[Microsoft Exchange](http://www.rackspace.com/email-hosting/hosted-exchange/) is
+[Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange/) is
 the most popular and feature-rich enterprise email platform on the
 market today. Fortunately, businesses that have standardized on Exchange
 (and the Microsoft Outlook desktop client) can also take advantage of
@@ -263,14 +263,14 @@ feature rich Exchange/Outlook environment; they also get access to
 powerful web-based and mobile messaging and collaboration tools.
 
 Hosted Exchange services usually come in two flavors:
-[shared](http://www.rackspace.com/email-hosting/hosted-exchange/) and
-[dedicated](http://www.rackspace.com/managed_hosting/services/dedicated_exchange/)
+[shared](https://www.rackspace.com/email-hosting/hosted-exchange/) and
+[dedicated](https://www.rackspace.com/managed_hosting/services/dedicated_exchange/)
 hosting. Both offer the same level of security, performance and
 reliability, but dedicated servers support a wider range of custom
 options at a slightly higher monthly cost. (See below for a discussion
 of how to choose between shared and dedicated hosting options.)
 
-[Exchange hosting](http://www.rackspace.com/email-hosting/hosted-exchange/) is
+[Exchange hosting](https://www.rackspace.com/email-hosting/hosted-exchange/) is
 an ideal choice for companies that want to migrate to an email service
 provider without giving up their existing Microsoft applications, and
 they are also a good choice for growing businesses that need a wider
@@ -281,7 +281,7 @@ provide.
 
 Webmail and hosted Exchange services don’t have to be mutually exclusive
 options!
-[Hybrid email services](http://www.rackspace.com/email-hosting/webmail-exchange-hybrid/)
+[Hybrid email services](https://www.rackspace.com/email-hosting/webmail-exchange-hybrid/)
 allow a business to provision a mixture of webmail and hosted Exchange
 accounts; both platforms allow seamless viewing and sharing of
 calendars, contacts and other business data.
@@ -297,18 +297,18 @@ expensive webmail accounts for its customer service reps.
 
 If your business decides to use a hosted Microsoft Exchange solution,
 you have another very important choice to make: whether to invest in a
-[dedicated Exchange](http://www.rackspace.com/managed_hosting/services/dedicated_exchange/)
+[dedicated Exchange](https://www.rackspace.com/managed_hosting/services/dedicated_exchange/)
 option.
 
 What’s the difference between the standard hosted Exchange and dedicated
 Exchange?
 
-- A [hosted Exchange solution](http://www.rackspace.com/email-hosting/hosted-exchange/)
+- A [hosted Exchange solution](https://www.rackspace.com/email-hosting/hosted-exchange/)
 is a multi-tenant configuration, using a physical server shared with other users.
 This option is simple to use and less expensive; it provides limited control
 over Exchange’s application-level features without sacrificing security, privacy,
 reliability or performance.
-- A [dedicated Exchange solution](http://www.rackspace.com/managed_hosting/services/dedicated_exchange/)
+- A [dedicated Exchange solution](https://www.rackspace.com/managed_hosting/services/dedicated_exchange/)
 is a single-tenant configuration, using dedicated physical servers that your
 hosting provider maintains. It is a more expensive option, but it gives
 businesses the ability to configure and customize their Exchange environments.
@@ -340,7 +340,7 @@ policies?**
    Hosted Exchange offers same sign-on capabilities to deliver a seamless
    login experience to users and simple user management for admins. For
    true single sign-on capability and
-   [Active Directory integration](http://www.rackspace.com/blog/email-management-made-simple/),
+   [Active Directory integration](https://www.rackspace.com/blog/email-management-made-simple/),
    Dedicated Exchange is most appropriate.
 
 4. **Is your company positioned for rapid growth?**
@@ -390,7 +390,7 @@ your top-tier provider options from the rest of the pack.
 
 3. **Are the provider’s archiving solutions easy to manage?**
 
-   [Archiving, discovery and recovery tools](http://www.rackspace.com/email-hosting/archiving-backup/)
+   [Archiving, discovery and recovery tools](https://www.rackspace.com/email-hosting/archiving-backup/)
    are an important litmus test for an email provider. Ask a potential
    provider to walk you through their policies, capabilities and
    procedures; pay particular attention to the vendor’s testing procedures
@@ -434,7 +434,7 @@ your top-tier provider options from the rest of the pack.
 
    Whether you’re moving from an in-house system or another hosted email
    provider, the
-   [email migration process](http://www.rackspace.com/email-hosting/migrations/)
+   [email migration process](https://www.rackspace.com/email-hosting/migrations/)
    can be very complex and potentially risky. The right provider, with the
    right mix of migration resources, can minimize these risks and ensure
    that you get the ROI you expect from your new hosted email
@@ -443,7 +443,7 @@ your top-tier provider options from the rest of the pack.
 10. **How responsive is the provider’s customer service?**
 
    A provider’s
-   [support options](http://www.rackspace.com/whyrackspace/support/) are
+   [support options](https://www.rackspace.com/whyrackspace/support/) are
    only as good as the help you get using them. Does a provider guarantee
    response times on new support requests? Are there limits on after-hours
    phone support? What is a provider’s escalation process for
@@ -457,7 +457,7 @@ email provider. To help you make a final decision, we have created a
 comparison worksheet that covers the most important points of
 comparison.
 
-[Click here to download the Email Provider Comparison Worksheet](http://www.rackspace.com/apps/documents/Provider_Selection_Worksheet.pdf)
+[Click here to download the Email Provider Comparison Worksheet](https://www.rackspace.com/apps/documents/Provider_Selection_Worksheet.pdf)
 
 ### Step Eight: Plan Your Migration Process
 
@@ -477,7 +477,7 @@ want to add to your migration to-do list:
 A hosted email solution will lighten the load on your IT organization, but
 it may still require training. Your IT staff may, for example, need to get up
 to speed on a provider’s
-[management control panel](http://www.rackspace.com/apps/control_panel/), and
+[management control panel](https://www.rackspace.com/apps/control_panel/), and
 there may be additional training issues associated with a
 customized, dedicated Exchange environment.
 
@@ -526,25 +526,25 @@ pay quick dividends.
 
 ### Resources
 
-<sup>1</sup> <http://www.ostermanresearch.com/ whitepapers/or_or1210c.pdf>
+<sup>1</sup> <https://www.ostermanresearch.com/ whitepapers/or_or1210c.pdf>
 
-<sup>2</sup> <http://www.ostermanresearch.com/ whitepapers/or_or0509b.pdf>
+<sup>2</sup> <https://www.ostermanresearch.com/ whitepapers/or_or0509b.pdf>
 
 ### Additional information
 
-[Rackspace Email:](http://www.rackspace.com/email-hosting/webmail/)
+[Rackspace Email:](https://www.rackspace.com/email-hosting/webmail/)
 Business email hosting with email, calendars, contacts, and more on your
 desktop
 
-[Microsoft&reg; Exchange:](http://www.rackspace.com/apps/email_hosting/exchange_hosting/)
+[Microsoft&reg; Exchange:](https://www.rackspace.com/apps/email_hosting/exchange_hosting/)
 Advanced Outlook&reg; collaboration and optional push email for your
 phone
 
-[Exchange Hybrid:](http://www.rackspace.com/email-hosting/webmail-exchange-hybrid/)
+[Exchange Hybrid:](https://www.rackspace.com/email-hosting/webmail-exchange-hybrid/)
 Compared to using Hosted Exchange alone, a 50-user company can save 40%
 by moving half their users from Exchange to Rackspace Email.
 
-[Rackspace Email Archiving:](http://www.rackspace.com/email-hosting/archiving-backup/)
+[Rackspace Email Archiving:](https://www.rackspace.com/email-hosting/archiving-backup/)
 Email retention and storage service allows you to restore lost email,
 take advantage of search tools, and protect vital email — without extra
 software or expensive hardware.

@@ -57,7 +57,7 @@ the target web page's headers and the response code from the web server.
 For example, enter the following command in your terminal or shell
 window, replacing `yourDomain` with your actual domain:
 
-    curl -I http://www.yourDomain.com
+    curl -I https://www.yourDomain.com
 
 The output should look something like this:
 

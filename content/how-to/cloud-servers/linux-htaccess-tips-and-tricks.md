@@ -113,7 +113,7 @@ to perform the redirect.
 
 For example, if you place the **.htaccess** file in the
 **/www.domain.com/web/content/ folder** (by using FTP), the redirect
-occurs when a visitor goes to http://www.domain.com in their browser.
+occurs when a visitor goes to https://www.domain.com in their browser.
 
 The following table shows how to perform different types of redirects
 by adding code to your **.htaccess** file:
@@ -125,19 +125,19 @@ by adding code to your **.htaccess** file:
   </tr>
   <tr>
     <td>Redirect a single page</td>
-    <td><code>Redirect 301 /pagename.php http://www.domain.com/pagename.html</code></td>
+    <td><code>Redirect 301 /pagename.php https://www.domain.com/pagename.html</code></td>
   </tr>
   <tr>
     <td>Redirect an entire site</td>
-    <td><code>Redirect 301 / http://www.domain.com/</code></td>
+    <td><code>Redirect 301 / https://www.domain.com/</code></td>
   </tr>
   <tr>
     <td>Redirect an entire site to a subfolder</td>
-    <td><code>Redirect 301 / http://www.domain.com/subfolder/</code></td>
+    <td><code>Redirect 301 / https://www.domain.com/subfolder/</code></td>
   </tr>
   <tr>
     <td>Redirect a subfolder to another site</td>
-    <td><code>Redirect 301 /subfolder http://www.domain.com/</code></td>
+    <td><code>Redirect 301 /subfolder https://www.domain.com/</code></td>
   </tr>
 </table>
 
@@ -146,7 +146,7 @@ by adding code to your **.htaccess** file:
 The following syntax redirects a file with the **.html** extension to use
 the same file name, but with the **.php** extension instead:
 
-    RedirectMatch 301 (.*)\.html$ http://www.domain.com$1.php
+    RedirectMatch 301 (.*)\.html$ https://www.domain.com$1.php
 
 You can also perform a 301 redirect by _rewriting_ a URL in your **.htaccess**
 file. Several of the following sections include example code for performing this task.
@@ -156,28 +156,28 @@ file. Several of the following sections include example code for performing this
 Use the following rewrite syntax to redirect from an old domain to a new
 domain:
 
-    RewriteEngine on RewriteBase / RewriteRule (.*) http://www.newdomain.com/$1 [R=301,L]
+    RewriteEngine on RewriteBase / RewriteRule (.*) https://www.newdomain.com/$1 [R=301,L]
 
 **Redirect to a location that uses a subdomain**
 
 Use the following rewriting syntax to redirect to a location that uses the
 subdomain `www`:
 
-    RewriteEngine on RewriteBase / RewriteCond %{HTTP_HOST} ^domain.com [NC] RewriteRule ^(.*)$ http://www.domain.com/$1 [R=301,NC]
+    RewriteEngine on RewriteBase / RewriteCond %{HTTP_HOST} ^domain.com [NC] RewriteRule ^(.*)$ https://www.domain.com/$1 [R=301,NC]
 
 **Redirect to a subdirectory of a location that uses the subdomain**
 
 Use the following rewriting syntax to redirect to a subdirectory of a location
 that uses the subdomain:
 
-    RewriteEngine on RewriteBase / RewriteCond %{HTTP_HOST} domain.com [NC] RewriteRule ^(.*)$ http://www.domain.com/directory/index.html [R=301,NC]
+    RewriteEngine on RewriteBase / RewriteCond %{HTTP_HOST} domain.com [NC] RewriteRule ^(.*)$ https://www.domain.com/directory/index.html [R=301,NC]
 
 **Redirect from a location that uses the the subdomain to one that does not**
 
 Use the following rewriting syntax to redirect from a location that uses the
 subdomain to one that does not:
 
-    RewriteEngine on RewriteBase / RewriteCond %{HTTP_HOST} ^www.domain.com [NC] RewriteRule ^(.*)$ http://domain.com/$1 [R=301,L]
+    RewriteEngine on RewriteBase / RewriteCond %{HTTP_HOST} ^www.domain.com [NC] RewriteRule ^(.*)$ https://domain.com/$1 [R=301,L]
 
 **Note**: Use the [Search Engine Friendly Redirect Checker
 tool](https://www.webconfs.com/redirect-check.php) to verify that your
@@ -212,7 +212,7 @@ you add the following code:
 
 For an extensive list of the MIME types that Apache supports, see the [Apache
 Software Foundation Subversion
-Server](http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types).
+Server](https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types).
 
 **Note**: The formatting in the preceding link might not be entirely correct
 for use in an **.htaccess** file.
@@ -355,7 +355,7 @@ must edit your **.htaccess** file to include the following line:
     php_value date.timezone <TIMEZONE>
 
 For a comprehensive list of possible `TIMEZONE` values, see the
-[List of Supported Timezones](http://www.php.net/manual/en/timezones.php).
+[List of Supported Timezones](https://www.php.net/manual/en/timezones.php).
 
 The following example shows how to set the time zone to Dubai:
 

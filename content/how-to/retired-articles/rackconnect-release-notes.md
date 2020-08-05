@@ -107,4 +107,4 @@ connectivity and thus fails RackConnect automation.
 **Affects:** Snapshots created from Managed Operations Windows Servers where the Cloud Server from which the image is based was spun up before 9/6/12.
 
 **Workaround:** Re-enable IPv6 on the base image before creating snapshots.
-See [http://support.microsoft.com/kb/929852](http://support.microsoft.com/kb/929852) for instructions.
+See [https://support.microsoft.com/kb/929852](https://support.microsoft.com/kb/929852) for instructions.

@@ -52,7 +52,7 @@ last_modified_by: Nate Archer
 #### Code Sample: Create Server Request (XML)
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <server xmlns="http://docs.rackspacecloud.com/servers/api/v1.0" name="new-server-test" imageId="1" flavorId="1">
+    <server xmlns="https://docs.rackspacecloud.com/servers/api/v1.0" name="new-server-test" imageId="1" flavorId="1">
         <metadata>
             <meta key="My Server Name">Apache1</meta>
         </metadata>
@@ -74,7 +74,7 @@ last_modified_by: Nate Archer
 #### Code Sample: Create Server Response (XML)
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <server xmlns="http://docs.rackspacecloud.com/servers/api/v1.0" status="BUILD" progress="0" hostId="312452f3d7a72d3def18a06e09ec01b7" flavorId="2" imageId="119" adminPass="Whul7KK67api-test-server-xml" id="21034280" name="api-test-server-xml">
+    <server xmlns="https://docs.rackspacecloud.com/servers/api/v1.0" status="BUILD" progress="0" hostId="312452f3d7a72d3def18a06e09ec01b7" flavorId="2" imageId="119" adminPass="Whul7KK67api-test-server-xml" id="21034280" name="api-test-server-xml">
         <metadata>
             <meta key="My Server Name">API Test Server XML</meta>
         </metadata>
@@ -91,7 +91,7 @@ last_modified_by: Nate Archer
 #### Code Sample:  Get Server Details Response (XML)
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <server xmlns="http://docs.rackspacecloud.com/servers/api/v1.0" id="1234" name="sample-server" imageId="1" flavorId="1" status="BUILD" progress="60" hostId="e4d909c290d0fb1ca068ffaddf22cbd0">
+    <server xmlns="https://docs.rackspacecloud.com/servers/api/v1.0" id="1234" name="sample-server" imageId="1" flavorId="1" status="BUILD" progress="60" hostId="e4d909c290d0fb1ca068ffaddf22cbd0">
         <metadata>
             <meta key="Server Label">Web Head 1</meta>
             <meta key="Image Version">2.1</meta>
@@ -110,7 +110,7 @@ last_modified_by: Nate Archer
 #### Code Sample:  Reboot Server Request (XML)
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <reboot xmlns="http://docs.rackspacecloud.com/servers/api/v1.0" type="HARD"/>
+    <reboot xmlns="https://docs.rackspacecloud.com/servers/api/v1.0" type="HARD"/>
 
 ### JSON code samples
 

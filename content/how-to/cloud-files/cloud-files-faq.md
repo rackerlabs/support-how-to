@@ -82,7 +82,7 @@ our Public Cloud.
 
 #### Is there a Cloud Files specific SLA?
 
-Please click here to view [The Rackspace Cloud Terms of Service](http://www.rackspace.com/cloud/legal/).
+Please click here to view [The Rackspace Cloud Terms of Service](https://www.rackspace.com/cloud/legal/).
 
 ------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ By allowing the browser to upload directly to the Cloud Files API,
 maximum upload performance can be achieved.
 
 Read more about CORS at
-<http://en.wikipedia.org/wiki/Cross-origin_resource_sharing> .
+<https://en.wikipedia.org/wiki/Cross-origin_resource_sharing> .
 
 #### How do permissions work?
 
@@ -162,10 +162,10 @@ OpenStack Swift uses the **crossdomain.xml** file as a global configuration
 file for installation. The file cannot be modified for multiple tenants,
 such as our Rackspace Public Cloud.
 
-For more information, see [Cross-domain Policy File](http://docs.openstack.org/developer/swift/crossdomain.html).
+For more information, see [Cross-domain Policy File](https://docs.openstack.org/developer/swift/crossdomain.html).
 
 If your site requires a custom **crossdomain.xml** file, we suggest you take
-a look at [Rackspace CDN](http://www.rackspace.com/cloud/cdn-content-delivery-network).
+a look at [Rackspace CDN](https://www.rackspace.com/cloud/cdn-content-delivery-network).
 Rackspace CDN allows you to customize your configuration and define your
 own origin web server.
 
@@ -284,7 +284,7 @@ We have created a tool called Swift to make this process easier. Swift
 segments your large file for you, creates a manifest file, and uploads
 the segments accordingly. After it uploads the segments, Swift manages
 the segments for you, deleting and updating them as needed. You can get
-[information about the Swift Tool](http://docs.openstack.org/developer/swift/) and
+[information about the Swift Tool](https://docs.openstack.org/developer/swift/) and
 [download](https://swiftstack.com/docs/integration/python-swiftclient.html)
 the Swift tool.
 

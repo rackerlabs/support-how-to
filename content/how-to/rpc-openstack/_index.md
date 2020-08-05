@@ -30,20 +30,20 @@ You can learn more about Rackspace Private Cloud and OpenStack [on the main prod
 ###  Rackspace Private Cloud v14 (Newton)
 
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v14/rpc-releasenotes/)
-- [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/newton/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](https://www.rackspace.com/support).
+- [OpenStack Ansible Installation Guide](https://docs.openstack.org/developer/openstack-ansible/newton/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](https://www.rackspace.com/support).
 - [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v14/rpc-swift)
 - [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v14/rpc-faq-external/)
 
 ###  Rackspace Private Cloud v13 (Mitaka)
 
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-releasenotes/)
-- [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/mitaka/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](https://www.rackspace.com/support).
+- [OpenStack Ansible Installation Guide](https://docs.openstack.org/developer/openstack-ansible/mitaka/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](https://www.rackspace.com/support).
 - [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-swift)
 - [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v13/rpc-faq-external/)
 
 ###  Rackspace Private Cloud v12 (Liberty)
 
 - [Release Notes](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-releasenotes/)
-- [OpenStack Ansible Installation Guide](http://docs.openstack.org/developer/openstack-ansible/liberty/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](https://www.rackspace.com/support).
+- [OpenStack Ansible Installation Guide](https://docs.openstack.org/developer/openstack-ansible/liberty/) - For the Rackspace Private Cloud Installation Guide, contact [Rackspace Private Cloud Support](https://www.rackspace.com/support).
 - [Object Storage Deployment Guide](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-swift)
 - [Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v12/rpc-faq-external/)

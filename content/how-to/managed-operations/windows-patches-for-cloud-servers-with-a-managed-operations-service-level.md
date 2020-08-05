@@ -120,8 +120,8 @@ following registry setting are configured on the Managed Windows Server:
 
     [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate]
     "AcceptTrustedPublisherCerts"=dword:00000001
-    "WUServer"="http://msupdate.dfw1.rackspace.com"
-    "WUStatusServer"="http://msupdate.dfw1.rackspace.com"
+    "WUServer"="https://msupdate.dfw1.rackspace.com"
+    "WUStatusServer"="https://msupdate.dfw1.rackspace.com"
 
     [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\WindowsUpdate\AU]
     "AUOptions"=dword:00000004 "AutoInstallMinorUpdates"=dword:00000000

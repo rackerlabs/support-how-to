@@ -283,7 +283,7 @@ Perform the following steps from your local computer.
          ],
          "ports_links": [
             {
-               "href": "http://localhost:9696/v2.0/ports?network_id=00000000-0000-0000-0000-000000000000&marker=0b5a23ec-be78-4ea3-9251-b64444236c1d&page_reverse=True",
+               "href": "https://localhost:9696/v2.0/ports?network_id=00000000-0000-0000-0000-000000000000&marker=0b5a23ec-be78-4ea3-9251-b64444236c1d&page_reverse=True",
                "rel": "previous"
             }
          ]

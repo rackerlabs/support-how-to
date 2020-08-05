@@ -16,7 +16,7 @@ product_url: cloud-servers
 To improve your email server's sending reputation, you need to research and consider using the following solutions:
 
 -   [DomainKeys Identified Mail (DKIM)](/how-to/rackspace-cloud-dns-additional-resources)
--   [Domain-based Message Authentication, Reporting, and Conformance (DMARC) DNS records](http://www.dmarc.org/index.html)
+-   [Domain-based Message Authentication, Reporting, and Conformance (DMARC) DNS records](https://www.dmarc.org/index.html)
 
 Before you configure any sort of mail service, it is vital that your Cloud Server has the hostname and Reverse Domain Name System (RDNS) correctly set. This article reviews the hostname and RDNS settings necessary to configure Cloud Server for email.
 

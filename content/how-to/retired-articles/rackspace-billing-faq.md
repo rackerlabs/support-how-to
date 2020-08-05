@@ -19,7 +19,7 @@ Many of our services follow a utility pricing model and are billed for
 hourly usage each month on the anniversary date of the account creation.
 Charges on invoices are based on service usage since the last invoice
 date. Details about our product pricing are located on our [Cloud Pricing
-Page](http://www.rackspace.com/cloud/public-pricing/).
+Page](https://www.rackspace.com/cloud/public-pricing/).
 
 #### What forms of payment does Rackspace accept?
 
@@ -28,7 +28,7 @@ Visa&reg;, Mastercard&reg;, and American Express&reg;.
 
 #### How can I estimate my monthly bill?
 
-You can use our [Cloud Pricing Page](http://www.rackspace.com/cloud/public-pricing/) and [Cloud Pricing Calculator](http://www.rackspace.com/calculator/)
+You can use our [Cloud Pricing Page](https://www.rackspace.com/cloud/public-pricing/) and [Cloud Pricing Calculator](https://www.rackspace.com/calculator/)
 to estimate pricing.
 
 #### Can I pay in advance?
@@ -40,7 +40,7 @@ the monthly date of your account's anniversary. For example, if your account
 was created on the 25th of the month, you will be billed monthly on the 25th.
 You can find more information about the Commitment Pricing
 Program on the [Cloud Servers Discount
-page](http://www.rackspace.com/cloud/servers/discounts/).
+page](https://www.rackspace.com/cloud/servers/discounts/).
 
 #### What is the duration of my contract for cloud services?
 

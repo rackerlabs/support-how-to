@@ -182,7 +182,7 @@ Use the following instructions if you're running MacOS X 10.6 through 10.12:
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "HowTo",
   "text": "Modify your hosts file",
   "description": "This article provides instructions for locating and editing the hosts file on Microsoft Windows, Linux, and MacOS",

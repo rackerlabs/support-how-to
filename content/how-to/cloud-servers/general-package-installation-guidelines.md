@@ -88,10 +88,10 @@ resources:
 
 - [Debian GNU/Linux
   FAQ: Chapter 8, The Debian package management
-  tools](http://www.debian.org/doc/FAQ/ch-pkgtools.en.html)
+  tools](https://www.debian.org/doc/FAQ/ch-pkgtools.en.html)
 
 - [APT
-  HOWTO](http://www.debian.org/doc/manuals/apt-howto/)
+  HOWTO](https://www.debian.org/doc/manuals/apt-howto/)
 
 #### apt-get (Debian and the Ubuntu operating system)
 
@@ -176,7 +176,7 @@ For more information about Yum and RPM-based package management, see the followi
 - [Red Hat Enterprise Linux 7 System Administrator's Guide:
   Yum](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-yum)
 
-- [Maximum RPM](http://www.rpm.org/max-rpm/)
+- [Maximum RPM](https://www.rpm.org/max-rpm/)
 
 - [Fedora Draft Documentation: RPM
   Guide](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/index.html)
@@ -219,7 +219,7 @@ Use the following commands with Pacman:
         pacman -Ss SEARCHSTRING
 
 For more information about Pacman, see the
-[ArchWiki](http://wiki.archlinux.org/index.php/Pacman).
+[ArchWiki](https://wiki.archlinux.org/index.php/Pacman).
 
 #### Emerge and Portage (Gentoo)
 
@@ -273,7 +273,7 @@ Emerge on Gentoo:
     that you just removed.
 
 For more information about Emerge and Portage, see the [Gentoo X86
-Handbook](http://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=2&chap=1).
+Handbook](https://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=2&chap=1).
 
 ### What if the software I'm looking for isn't in my package manager's repositories?
 
@@ -281,7 +281,7 @@ If you can't find the software you're looking for in your package manager's
 main repositories, the software might not be well-known enough to be included.
 If this occurs, you can try to locate the package by searching the Internet.
 
-[Rpmfind](http://rpmfind.net "http://rpmfind.net") is another
+[Rpmfind](https://rpmfind.net "https://rpmfind.net") is another
 good source for RPM packages. After you have located and downloaded the
 package, you can still use your distribution's package manager to install it.
 

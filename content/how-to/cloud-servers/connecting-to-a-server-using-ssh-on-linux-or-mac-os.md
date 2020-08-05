@@ -126,7 +126,7 @@ Use the following steps to generate an SSH key pair:
 To make it easy to add your key to new cloud servers that you create,
 upload the public key to your cloud account by following these steps:
 
-1.  Log in to the [Cloud Control Panel](http://logon.rackspace.com).
+1.  Log in to the [Cloud Control Panel](https://logon.rackspace.com).
 2.  In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 3.  Select **Servers >  SSH Keys**.
 4.  Click **Add Public Key**.

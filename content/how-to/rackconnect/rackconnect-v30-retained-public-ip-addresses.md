@@ -57,7 +57,7 @@ related to public IP records.
 
     Doing so completely removes the static NAT configuration (used to link the public IP address to its assigned server's private IP address) on the edge network device.
 
-You can find detailed RackConnect v3 API documentation for the Retained Public IP Address feature at [http://docs.rcv3.apiary.io/#reference/public-ips/single-public-ip/modify-public-ip](http://docs.rcv3.apiary.io/#reference/public-ips/single-public-ip/modify-public-ip).
+You can find detailed RackConnect v3 API documentation for the Retained Public IP Address feature at [https://docs.rcv3.apiary.io/#reference/public-ips/single-public-ip/modify-public-ip](https://docs.rcv3.apiary.io/#reference/public-ips/single-public-ip/modify-public-ip).
 
 ### Requirements
 

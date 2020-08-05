@@ -26,8 +26,8 @@ Desktop clients are available for Microsoft Windows and Mac OS X systems. Note t
 
 If you are using Microsoft Office Professional Plus 2013, you already have a Skype for Business application installed. If you do not have Office installed, download the appropriate application for your system:
 
-- [Basic 2013 (32-bit)](http://www.microsoft.com/en-us/download/details.aspx?id=35451)
-- [Basic 2013 (64-bit)](http://www.microsoft.com/en-us/download/details.aspx?id=35450)
+- [Basic 2013 (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35451)
+- [Basic 2013 (64-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35450)
 
 #### Mac OS X
 

@@ -105,7 +105,7 @@ Account Manager or Rackspace Support.
 
 1. Modify `/etc/nginx/conf.d/<your_url>.conf`, where `<your_url>` is the URL that you provided when you deployed your Parse stack.
 
-   If you need help installing your SSL certificate, see NGINX's information on [SSL certificate chains](http://nginx.org/en/docs/http/configuring_https_servers.html#chains).
+   If you need help installing your SSL certificate, see NGINX's information on [SSL certificate chains](https://nginx.org/en/docs/http/configuring_https_servers.html#chains).
 
 2. Validate your SSL certificate by using the following command:
 

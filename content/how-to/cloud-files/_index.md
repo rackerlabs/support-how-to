@@ -11,7 +11,7 @@ product_url: cloud-files
 ---
 
 Store it on Cloud Files, serve it fast on Akamai's CDN. Cloud Files, powered by
-[OpenStack&reg;](http://www.rackspace.com/cloudbuilders/openstack/), provides an
+[OpenStack&reg;](https://www.rackspace.com/cloudbuilders/openstack/), provides an
 easy to use online storage for files and media which can be delivered globally
 at blazing speeds over Akamai's content delivery network (CDN). Whether your
 storage needs are modest - or monumental - you enjoy built-in redundancy and an
@@ -34,8 +34,8 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 
 ### Cloud Files in the Rackspace blog
 
--   [Cloud Files: CDN Video Streaming](http://www.rackspace.com/blog/cloud-files-adds-cdn-video-streaming/)
--   [Cloud Files: How To Create A Static Website](http://www.rackspace.com/blog/rackspace-cloud-files-how-to-create-a-static-website/)
--   [Storing Data In Cloud Files With Rails](http://www.rackspace.com/blog/storing-data-in-cloud-files-with-rails/)
+-   [Cloud Files: CDN Video Streaming](https://www.rackspace.com/blog/cloud-files-adds-cdn-video-streaming/)
+-   [Cloud Files: How To Create A Static Website](https://www.rackspace.com/blog/rackspace-cloud-files-how-to-create-a-static-website/)
+-   [Storing Data In Cloud Files With Rails](https://www.rackspace.com/blog/storing-data-in-cloud-files-with-rails/)
 -   [Cloud Files CDN SSL Delivery](https://blog.rackspace.com/its-here-cloud-files-now-supports-cnames-for-cdn-enabled-content/)
--   [Rackspace Cloud Files: How To Use Object Versioning](http://www.rackspace.com/blog/rackspace-cloud-files-how-to-use-object-versioning/)
+-   [Rackspace Cloud Files: How To Use Object Versioning](https://www.rackspace.com/blog/rackspace-cloud-files-how-to-use-object-versioning/)

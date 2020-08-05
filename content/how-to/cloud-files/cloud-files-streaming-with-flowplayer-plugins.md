@@ -26,7 +26,7 @@ You can set up your video for streaming by using the following steps:
     If your video file is more than 5GB, simply use our large object support.
 
 2.  Download the [Akamai Advanced FlowPlayer Provider
-    plugin](http://mediapm.edgesuite.net/flow/).
+    plugin](https://mediapm.edgesuite.net/flow/).
 
      This plugin is required for your video to play on the Akamai network.
 

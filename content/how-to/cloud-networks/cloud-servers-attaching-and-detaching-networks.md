@@ -12,7 +12,7 @@ product_url: cloud-networks
 ---
 
 You can attach (add) or detach (disconnect) networks from Cloud Servers by using the [Cloud Networks API](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
-or the [Cloud Control Panel](http://mycloud.rackspace.com).
+or the [Cloud Control Panel](https://mycloud.rackspace.com).
 
 This article describes how to attach and detach networks by using the
 Cloud Control Panel. Please be aware that if you attach networks to or
@@ -27,7 +27,7 @@ OnMetal servers cannot attach and detach networks. For OnMetal, you must specify
 ### To Attach (Add) a Network:
 
 1.  Log in to the Cloud Control Panel at
-    [mycloud.rackspace.com](http://mycloud.rackspace.com).
+    [mycloud.rackspace.com](https://mycloud.rackspace.com).
 
 2.  On the Cloud Servers page, click the server to which  you want to
     attach a network. The details page for that server is displayed.
@@ -57,7 +57,7 @@ Networks section. Please refer to the [Cloud Networks Developer Guide](https://d
 Public or ServiceNet interfaces from cloud servers.
 
 1.  Log in to the Cloud Control Panel at
-    [mycloud.rackspace.com](http://mycloud.rackspace.com).
+    [mycloud.rackspace.com](https://mycloud.rackspace.com).
 
     **Note**: Disconnecting networks may also take several minutes. 
 

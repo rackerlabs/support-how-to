@@ -73,21 +73,21 @@ reflect these changes.
     Server installation:
 
     ``` {.screen}
-    $ curl -s -L http://sh.opencenter.rackspace.com/install.sh | <br>
+    $ curl -s -L https://sh.opencenter.rackspace.com/install.sh | <br>
        sudo bash -s - --role=server
     ```
 
     Agent installation:
 
     ``` {.screen}
-     $ curl -s -L http://sh.opencenter.rackspace.com/install.sh | <br>
+     $ curl -s -L https://sh.opencenter.rackspace.com/install.sh | <br>
        sudo bash -s - --role=agent --ip=<OpenCenter-server-IP>
     ```
 
     GUI installation:
 
     ``` {.screen}
-    $ curl -s -L http://sh.opencenter.rackspace.com/install.sh | <br>
+    $ curl -s -L https://sh.opencenter.rackspace.com/install.sh | <br>
         sudo bash -s - --role=dashboard --ip=<OpenCenter-server-IP>
     ```
 

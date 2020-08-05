@@ -50,7 +50,7 @@ official cookbook soon. Get the cookbook here:
 Install it into a chef repo and then you're ready to get started.
 
 *Note: If you are unfamiliar with chef I recommend reading the [Opscode
-Getting Started Guide](http://docs.opscode.com/#getting-started%20).
+Getting Started Guide](https://docs.opscode.com/#getting-started).
  This particular recipe uses data bags, read more about them here, that
 assumes a chef version greater than 0.8.  Also make sure and brush up on
 knife and how it works.*

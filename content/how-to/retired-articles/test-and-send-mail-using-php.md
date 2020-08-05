@@ -38,7 +38,7 @@ you're using to send your email.
 
 - If you're using another service such as Mailgun or Gmail to send email, you must provide the SMTP server for that service. You can access Mailgun server information in the [Mailgun control panel](https://mailgun.com/sessions/new).
 
-**Note**: [Mail.php](http://pear.php.net/package/Mail) is a [PEAR](http://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](http://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](http://php.net/manual/en/function.require.php) it in these scripts works by default.
+**Note**: [Mail.php](https://pear.php.net/package/Mail) is a [PEAR](https://pear.php.net/) module and is installed on the server. It is included in the default [include\_path](https://www.php.net/manual/en/ini.core.php) for PHP, so [requiring](https://php.net/manual/en/function.require.php) it in these scripts works by default.
 
 #### Sending mail with PHP SMTP
 
@@ -155,14 +155,14 @@ You must supply a valid SMTP hostname and user credentials for authentication. I
     require_once "Mail.php";
     require_once "Mail/mime.php";
 
-    // see http://pear.php.net/manual/en/package.mail.mail-mime.php for further extended documentation on Mail_Mime
+    // see https://pear.php.net/manual/en/package.mail.mail-mime.php for further extended documentation on Mail_Mime
 
     $from = "Web Master <webmaster@example.com>";
     $to = "Nobody <nobody@example.com>";
     $subject = "Test HTML email using PHP Pear w/ SMTP\r\n\r\n";
     $text = "This is a text test email message";
     $html = "<html><body><p>This is an html test email message
-      <a href=\"http://www.rackspace.com\">This Is A Link</a></p></body></html>";
+      <a href=\"https://www.rackspace.com\">This Is A Link</a></p></body></html>";
     $crlf = "\n";
 
     // create a new Mail_Mime for use
@@ -172,7 +172,7 @@ You must supply a valid SMTP hostname and user credentials for authentication. I
     // define body for HTML capable recipients
     $mime->setHTMLBody($html);
 
-    // specify a file to attach below, relative to the script's location if not using an attachment, comment these lines out set appropriate MIME type for attachment you are using below, if applicable for reference see http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+    // specify a file to attach below, relative to the script's location if not using an attachment, comment these lines out set appropriate MIME type for attachment you are using below, if applicable for reference see https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
 
     $file = "attachment.jpg";
     $mimetype = "image/jpeg";

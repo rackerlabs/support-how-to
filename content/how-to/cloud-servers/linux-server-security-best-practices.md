@@ -81,7 +81,7 @@ For Debian and Ubuntu&reg; operating systems, add a user by following these step
 
        **Note:** On some distributions, systems use the `vi` text editor for 
        `visudo`. Because `vi` is not a user-friendly editor, you might need to
-       consult a [vi tutorial](http://bignosebird.com/docs/vi.shtml) for help.       
+       consult a [vi tutorial](https://bignosebird.com/docs/vi.shtml) for help.       
 
     b. Add the following line directly after the line containing `root ALL=(ALL:ALL) ALL`:
 
@@ -134,7 +134,7 @@ For Red Hat and CentOS&reg; operating systems, add a user by following these ste
 
        **Note:** On some distributions, the text editor that the system uses for
        `visudo` is `vi`. Because `vi` is not a user-friendly editor, you might need to
-       consult a [vi tutorial](http://bignosebird.com/docs/vi.shtml) for help. 
+       consult a [vi tutorial](https://bignosebird.com/docs/vi.shtml) for help. 
 
     b. Add the following line directly after the line containing
        `root ALL=(ALL:ALL) ALL`:
@@ -219,7 +219,7 @@ security. This information is used to configure your firewall later.
 
 This section outlines only a few options to change and describes what they do. For details
 on other configuration options, see the
-[OpenSSH documentation](http://www.openssh.com/cgi-bin/man.cgi/OpenBSD-current/man5/sshd_config.5).
+[OpenSSH documentation](https://www.openssh.com/cgi-bin/man.cgi/OpenBSD-current/man5/sshd_config.5).
 
 This section focuses on the following options:
 
@@ -398,7 +398,7 @@ If you're connecting from a Windows desktop, when you create the connection in [
 Most would-be intruders run multiple attacks against the same port to try to
 find something that they can exploit in the software running on that port.
 Fortunately, you can set up an intrusion prevention tool like
-[fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page) on your server to
+[fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) on your server to
 block repeated attacks on a port.
 
 **Note:** Managed Operations servers have `fail2Ban` installed and configured
@@ -474,7 +474,7 @@ for suspicious activity and possible exploits.  An IDS is more robust than a
 prevention tool like `fail2ban` but can be more complicated to set up and
 maintain.
 
-A popular open-source IDS is [OSSEC](http://www.ossec.net/). OSSEC maintains
+A popular open-source IDS is [OSSEC](https://www.ossec.net/). OSSEC maintains
 agents on multiple systems that report back to the main server, allowing
 investigation of logs and alerts from a potentially compromised server even if
 that server is shut down.

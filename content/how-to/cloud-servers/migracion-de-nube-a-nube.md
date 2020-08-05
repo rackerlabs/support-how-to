@@ -136,7 +136,7 @@ Para preparar los discos de datos en servidores tipo I/O-optimized puedes ver
 [Prepare data disks on a Linux Cloud Servers](https://support.rackspace.com/how-to/preparing-data-disks-on-linux-cloud-servers).
 
 Si deseas utilizar los discos adicionales en configuración RAID en Linux puedes
-ver [Linux Software-RAID HOWTO](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html).
+ver [Linux Software-RAID HOWTO](https://www.tldp.org/HOWTO/Software-RAID-HOWTO.html).
 
 ### Opciones para migración manual
 

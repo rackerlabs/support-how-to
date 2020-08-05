@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 ### What are wildcard SSL certificates?
 
-A wildcard certificate is a Secure Sockets Layer (SSL) certificate with a wildcard character in the domain name field, such as **\*.(yourdomain).com**. A wildcard certificate secures a domain and many sub-domains as long as they have the same root domain. For example, the certificate **\*.([yourdomain.com]**(http://yourdomain.com)) can be used for [**www.yourdomain.com**](http://www.yourdomain.com), [**mail.yourdomain.com**](http://mail.yourdomain.com), or any other additional sub-domain under [**yourdomain.com**](http://yourdomain.com).
+A wildcard certificate is a Secure Sockets Layer (SSL) certificate with a wildcard character in the domain name field, such as **\*.(yourdomain).com**. A wildcard certificate secures a domain and many sub-domains as long as they have the same root domain. For example, the certificate **\*.([yourdomain.com]**(https://yourdomain.com)) can be used for [**www.yourdomain.com**](https://www.yourdomain.com), [**mail.yourdomain.com**](https://mail.yourdomain.com), or any other additional sub-domain under [**yourdomain.com**](https://yourdomain.com).
 
 ### Regular certificates versus Wildcard certificates
 

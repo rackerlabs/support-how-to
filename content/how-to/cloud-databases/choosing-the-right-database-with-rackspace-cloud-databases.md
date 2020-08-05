@@ -20,7 +20,7 @@ MySQL is an open-source database developed by Oracle and is the recommended
 choice of the MySQL database administrator community. MySQL is a good fit
 for customers who are concerned about maintaining compatibility with upstream,
 and who prefer a quick release schedule for upstream updates. For more
-information, see the [MySQL documentation](http://dev.mysql.com).
+information, see the [MySQL documentation](https://dev.mysql.com).
 
 ### Benefits of using MySQL
 
@@ -44,7 +44,7 @@ improvements when compared to the upstream MySQL. Percona Server
 includes XtraDB, a drop-in replacement for InnoDB with many
 optimizations that improve performance on multi-core systems. For more
 information, see the [Percona Server
-documentation](http://www.percona.com/software/percona-server).
+documentation](https://www.percona.com/software/percona-server).
 
 ### Benefits of using Percona Server
 

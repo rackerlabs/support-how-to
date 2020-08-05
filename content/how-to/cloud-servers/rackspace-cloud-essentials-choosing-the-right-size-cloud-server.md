@@ -12,12 +12,12 @@ product_url: cloud-servers
 ---
 
 One of the great advantages of using [Rackspace Cloud
-Servers](http://www.rackspace.com/cloud/servers/) is the flexibility that you
+Servers](https://www.rackspace.com/cloud/servers/) is the flexibility that you
 have to purchase only the amount of computing power that you need. When
 business is good and you need to increase your server capacity, you can scale
 your implementation horizontally by distributing your traffic over multiple
 servers by using [Cloud Load
-Balancers](http://www.rackspace.com/cloud/load-balancing).
+Balancers](https://www.rackspace.com/cloud/load-balancing).
 
 One way to find out how much computing power you need is to install and test
 your application on a few implementations of different sizes. Then, load test
@@ -40,7 +40,7 @@ machine with similar resources. You can learn more about CPU scheduling by
 reading the "Performance" section of the [Cloud Servers
 FAQ](/how-to/cloud-servers-faq).
 
-[OnMetal Cloud Servers](http://www.rackspace.com/cloud/servers/onmetal) are
+[OnMetal Cloud Servers](https://www.rackspace.com/cloud/servers/onmetal) are
 also available. OnMetal servers are single-tenant, bare metal servers that you
 provision through the same OpenStack&reg; API as a Rackspace cloud server.
 Because you can create or delete them as quickly as virtual machines (VMs),

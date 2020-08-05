@@ -15,7 +15,7 @@ product_url: cloud-networks
 
 Since the Brocade Vyatta vRouter is a network appliance deployed on a
 Cloud Server, the network throughput is dictated by the size of the
-Cloud Server. Refer to [Cloud Servers Pricing](http://www.rackspace.com/cloud/servers/pricing/) for the network throughput for different flavors of Cloud Servers.
+Cloud Server. Refer to [Cloud Servers Pricing](https://www.rackspace.com/cloud/servers/pricing/) for the network throughput for different flavors of Cloud Servers.
 
 #### What is the minimum amount of RAM needed to run a Vyatta?
 

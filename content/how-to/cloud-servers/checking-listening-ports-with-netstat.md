@@ -24,7 +24,7 @@ name.
 You need to run `netstat` on the server that is running the service.
 `Netstat` is not affected by your firewall configuration.
 
-**Note:** You can also use the `lsof` and `ss` commands to check ports. Many of the command flags contained in this article are the same when you run the `lsof` and `ss` commands. However, the output returned when you use these commands might not resemble the output of the `netstat` tool. For more information about both commands, see the [`lsof`](http://linux.die.net/man/8/lsof) and [`ss`](http://linux.die.net/man/8/ss) command manuals.
+**Note:** You can also use the `lsof` and `ss` commands to check ports. Many of the command flags contained in this article are the same when you run the `lsof` and `ss` commands. However, the output returned when you use these commands might not resemble the output of the `netstat` tool. For more information about both commands, see the [`lsof`](https://linux.die.net/man/8/lsof) and [`ss`](https://linux.die.net/man/8/ss) command manuals.
 
 ### Check ports
 
@@ -79,7 +79,7 @@ If using the `netstat` did not resolve your port issues, continue to test connec
 
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org/",
+  "@context": "https://schema.org/",
   "@type": "HowTo",
       "name":"Check listening ports with netstat",
   	  "description": "This article describes how to ensure that a server that you are troubleshooting is listening on the correct network port by using netstat.",

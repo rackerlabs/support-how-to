@@ -22,7 +22,7 @@ The Rackspace Cloud contains the following networks:
     PublicNet connects a cloud server to the Internet. When you create cloud
     servers with PublicNet, your servers get an IPv4 address and an IPv6 address.
     Outbound public traffic is billed according to
-    [published rates](http://www.rackspace.com/cloud/public-pricing/#bandwidth).
+    [published rates](https://www.rackspace.com/cloud/public-pricing/#bandwidth).
     You can create a server without a public network; however, access to operating
     system updates, Cloud Monitoring remote checks, and so on might not work.
     For more information about the limitations of not having a public network,
@@ -120,7 +120,7 @@ No. At this time, you cannot transfer a PublicNet or ServiceNet IP address betwe
 #### What is the network throughput on Cloud Servers?
 
 The amount of network throughput varies based on the Cloud Server flavor. For
-more details, see the [Cloud Servers pricing information](http://www.rackspace.com/cloud/public-pricing/#cloud-servers).
+more details, see the [Cloud Servers pricing information](https://www.rackspace.com/cloud/public-pricing/#cloud-servers).
 
 #### What is the scope of a cloud network?
 

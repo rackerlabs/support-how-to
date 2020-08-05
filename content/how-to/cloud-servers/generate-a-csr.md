@@ -220,7 +220,7 @@ If you are a Managed or Dedicated customer, you can request a CSR through the My
 
 <script type="application/ld+json">
    {
-   "@context": "http://schema.org/",
+   "@context": "https://schema.org/",
    "@type": "HowTo",
    "name":"Generate a certificate signing request",
    "description": "This article explains how to generate a certificate signing request for a variety of operating systems.",

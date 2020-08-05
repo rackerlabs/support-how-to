@@ -58,7 +58,7 @@ license](/how-to/add-an-activesync-or-bes-license).
 #### How can I determine the Cloud Office system status?
 
 For Cloud Office system status verification, use the following link:
-[Cloud Office system status](http://status.apps.rackspace.com/).
+[Cloud Office system status](https://status.apps.rackspace.com/).
 
 #### Where can I view my Cloud Office billing invoice?
 

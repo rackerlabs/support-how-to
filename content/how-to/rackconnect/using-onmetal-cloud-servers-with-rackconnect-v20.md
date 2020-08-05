@@ -21,15 +21,15 @@ environments.
 If you are new to RackConnect or OnMetal, or would just like to learn
 more about them, you can find more details about these offerings at the following links:
 
--   [OnMetal Cloud Servers product page](http://www.rackspace.com/cloud/servers/onmetal/)
--   [RackConnect product page](http://www.rackspace.com/cloud/hybrid/rackconnect/)
+-   [OnMetal Cloud Servers product page](https://www.rackspace.com/cloud/servers/onmetal/)
+-   [RackConnect product page](https://www.rackspace.com/cloud/hybrid/rackconnect/)
 -   [What is new with OnMetal Cloud Servers](/how-to/what-is-new-with-onmetal-cloud-servers)
 -   [Using OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
 -   [Using OnMetal Cloud Servers through API](/how-to/using-onmetal-cloud-servers-through-api)
 
 OnMetal Cloud Servers with RackConnect are compatible with both our
-[Managed Operations](http://www.rackspace.com/managed-cloud/) and
-[Managed Infrastructure](http://www.rackspace.com/managed-cloud/)
+[Managed Operations](https://www.rackspace.com/managed-cloud/) and
+[Managed Infrastructure](https://www.rackspace.com/managed-cloud/)
 service level offerings, allowing you to get the level of support you
 need to properly manage your hybrid environment.
 

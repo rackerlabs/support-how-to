@@ -16,7 +16,7 @@ serving different domains or different subdomains of the same domain, the proced
 
 ### Creating virtual hosts for multiple domains
 
-When a browser sends a request to your server's IP address asking for the contents of your domain name (for example, `http://yourexampledomain.com`), your web server serves up an HTTP representation of your site. If the server is serving only one website, it serves the HTML in your `/var/www/html` directory, starting with `index.html`. But having a unique
+When a browser sends a request to your server's IP address asking for the contents of your domain name (for example, `https://yourexampledomain.com`), your web server serves up an HTTP representation of your site. If the server is serving only one website, it serves the HTML in your `/var/www/html` directory, starting with `index.html`. But having a unique
 server for every website that you want to serve is costly and an inefficient use of your resources.
 
 *Name-based virtual hosts* enable you to serve content for multiple websites from one server.
@@ -38,7 +38,7 @@ The following example shows a virtual host configuration for NGINX:
 
           server_name  www.domain1.com;
 
-          rewrite ^/(.\*) http://domain1.com/$1 permanent;
+          rewrite ^/(.\*) https://domain1.com/$1 permanent;
 
 Each configuration starts slightly differently, but the same principle applies: that particular virtual host responds to queries for `domain1.com` and `www.domain1.com`.
 

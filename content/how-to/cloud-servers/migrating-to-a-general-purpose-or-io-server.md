@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 Migrating your data to a General Purpose or I/O-optimized cloud server
-([product page](http://www.rackspace.com/cloud/servers)) from a Standard cloud
+([product page](https://www.rackspace.com/cloud/servers)) from a Standard cloud
 server can be a straightforward process with some planning and preparation.
 
 ### Preparation
@@ -150,7 +150,7 @@ operating system:
 - [Prepare data disks on a Linux Cloud Servers](/how-to/preparing-data-disks-on-linux-cloud-servers)
 
 If you are setting up attached volumes in a software RAID on Linux, see the
-[Linux Software-RAID HOWTO](http://www.tldp.org/HOWTO/Software-RAID-HOWTO.html)
+[Linux Software-RAID HOWTO](https://www.tldp.org/HOWTO/Software-RAID-HOWTO.html)
 for instructions.
 
 When your attached disks are ready, you can migrate your data.

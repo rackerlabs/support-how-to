@@ -42,11 +42,11 @@ notifications from multiple Rackspace Cloud services by using a single protocol 
 Access Cloud Feeds events by using the simple Atom Publishing Protocol, which is HTTP-based.
 You can use any of the following tools that can send HTTP requests and capture the output:
 
-- [cURL, a command-line tool](http://curl.haxx.se/)
+- [cURL, a command-line tool](https://curl.haxx.se/)
 - [Mozilla Firefox REST client](https://addons.mozilla.org/en-US/firefox/addon/restclient/)
 - [Chrome Poster](https://code.google.com/p/chrome-poster/)
 - [RESTclient, a Java application used to test RESTful web
-  services](http://code.google.com/p/rest-client/)
+  services](https://code.google.com/p/rest-client/)
 
 To retrieve events from a feed, send an HTTP `GET` request to the appropriate URL. The URL depends on
 the **data center**, **feed name**, and your **tenant ID**. You need a valid **authentication token** to

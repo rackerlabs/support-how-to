@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 Welcome to Rackspace Cloud Servers!  This guide provides
 everything that you need to get started, including logging into our
-[Control Panel](http://manage.rackspacecloud.com), creating servers, transferring
+[Control Panel](https://manage.rackspacecloud.com), creating servers, transferring
 domains to be hosted from your Cloud Server, and logging in to your
 server.
 
@@ -25,7 +25,7 @@ The following concepts will help you to get started quickly:
 -   Cloud Servers can resize capacity as your need changes. Billing is
     charged by the number of hours of use at a given rate for the size of
     server being used. For more information, see
-    [current pricing](http://www.rackspace.com/cloud/cloud_hosting_products/servers/pricing/).
+    [current pricing](https://www.rackspace.com/cloud/cloud_hosting_products/servers/pricing/).
 -   Customers have root access to Linux servers and administrator
     access to Windows servers.
 -   The virtual servers are accessible through a remote connection

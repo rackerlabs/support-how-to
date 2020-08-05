@@ -79,7 +79,7 @@ storage requirements, policies, and existing infrastructure, if any. For
 specific architectural recommendations and all configuration
 considerations, you can to talk to a CommVault Systems Engineer.
 
-<img src="{% asset_path rpc-openstack/using-commvault-to-backup-data-in-rackspace-private-cloud/commvault_rackspace_openstack_layout.png %}" class="image-half_width" width="375" height="271" />
+<img src="commvault_rackspace_openstack_layout.png" class="image-half_width" width="375" height="271" />
 
 ### Agent Installation
 

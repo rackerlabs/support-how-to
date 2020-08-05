@@ -13,7 +13,7 @@ product_url: account-management
 
 Every Rackspace product is backed by an industry-leading service level
 agreement (SLA). You can read this agreement at
-<http://www.rackspace.com/information/legal/cloud/sla>. If you
+<https://www.rackspace.com/information/legal/cloud/sla>. If you
 experience a technical or other issue for which you want to receive an
 SLA credit, follow the procedure in this article.
 

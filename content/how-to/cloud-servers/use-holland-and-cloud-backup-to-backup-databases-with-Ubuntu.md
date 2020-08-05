@@ -17,14 +17,14 @@ This article describes how to back up MySQL&reg; databases on the Ubuntu&reg; op
 
 1. Get the release key for Holland by running the following command:
 
-       wget http://download.opensuse.org/repositories/home:/holland-backup/xUbuntu_XX.XX/Release.key -O - | sudo apt-key add -
+       wget https://download.opensuse.org/repositories/home:/holland-backup/xUbuntu_XX.XX/Release.key -O - | sudo apt-key add -
 
    **Note:** Replace `xUbuntu_XX.XX` with the version of the Ubuntu operating system that you are using. For example, for Ubuntu 13.04, use
    `xUbuntu_13.04`.
 
 2. Open the list file **/etc/apt/sources.list.d/holland.list** in a text editor and add the following line:
 
-       deb http://download.opensuse.org/repositories/home:/holland-backup/xUbuntu_XX.XX/ ./
+       deb https://download.opensuse.org/repositories/home:/holland-backup/xUbuntu_XX.XX/ ./
 
    **Note:** Replace `xUbuntu_XX.XX` with the version of the Ubuntu operating system that you are using.
 

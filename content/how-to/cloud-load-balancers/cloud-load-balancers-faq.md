@@ -17,7 +17,7 @@ product_url: cloud-load-balancers
 
 Your business's website, applications, and web-based workloads depend
 on high availability. Rackspace [Cloud Load
-Balancers](http://www.rackspace.com/cloud/load-balancing/) enable you
+Balancers](https://www.rackspace.com/cloud/load-balancing/) enable you
 to quickly balance the workload of multiple Rackspace Cloud Servers for optimal
 traffic management and maximum failover protection. Load balancers
 distribute workloads across two or more servers, network links, or
@@ -90,7 +90,7 @@ time.
 
 In most cases, it takes less than one minute to provision a load
 balancer after the
-[API](http://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/api/)
+[API](https://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/api/)
 request is submitted. During periods of extreme system load, it should
 take no more than a few minutes to complete the provisioning process.
 
@@ -121,7 +121,7 @@ other customer load balancers are processing.
 #### Do Cloud Load Balancers work with dedicated servers?
 
 Yes, but we recommend using RackConnect&reg; to include [dedicated
-servers](http://www.rackspace.com/managed-hosting/dedicated-servers/)
+servers](https://www.rackspace.com/managed-hosting/dedicated-servers/)
 except in low-traffic scenarios, due to the potential for
 significant bandwidth charges. If you don't use RackConnect, you are billed
 bandwidth charges for outbound requests from the load balancer, outbound
@@ -131,7 +131,7 @@ outbound messages from the load balancer to the user.
 #### Can I use Cloud Load Balancers in conjunction with RackConnect?
 
 You can use the
-[RackConnect](http://www.rackspace.com/cloud/hybrid/rackconnect/)
+[RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect/)
 Cisco&reg; Adaptive Security Appliance (ASA) solution to connect dedicated
 servers and Cloud Servers while leveraging Cloud Load Balancers
 to balance the workload between the Cloud Servers. Charges apply for
@@ -166,7 +166,7 @@ Following are the bandwidth charges for public and private traffic:
 #### How much does a Rackspace Cloud Load Balancer cost?
 
 See [Rackspace Cloud Load
-Balancers](http://www.rackspace.com/cloud/load-balancing/pricing/)
+Balancers](https://www.rackspace.com/cloud/load-balancing/pricing/)
 for detailed information about pricing. If you enable log delivery
 to your Cloud Files account, standard charges for Cloud Files apply.
 In addition, standard charges apply for additional (unique) virtual IP

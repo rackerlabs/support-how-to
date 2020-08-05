@@ -96,7 +96,7 @@ To use the following helpful commands, install cURL, and execute the commands fr
 
        - Test the port:  ``telnet <node(s) service net IP address> 80``
 
-       - Test the load balancer with the node:  ``curl -sik http://<Cloud Load Balancer public IP address> -H "host:<domain.com>"``
+       - Test the load balancer with the node:  ``curl -sik https://<Cloud Load Balancer public IP address> -H "host:<domain.com>"``
 
 Further actions depend on the results of the commands.
 

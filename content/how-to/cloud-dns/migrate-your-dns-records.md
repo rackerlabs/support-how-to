@@ -76,7 +76,7 @@ If you are switching to another hosting provider, contact them for assistance in
 
 After following the previous steps, your DNS zone file should be residing with both your current and new DNS hosting provider. It is important to keep both DNS zone files identical and live until you are sure that the migration has completed successfully. We recommend that you wait for about a week before you delete your zone file with your old hosting provider to ensure worldwide propagation.
 
-Log in to the portal of your domain registrar and update the name servers to the name servers of your new DNS hosting provider. Keep in mind that Rackspace is not a domain registrar, like Namecheap, Dreamhost, or GoDaddy. If you are unsure who your domain registrar is, you can use a lookup tool like [Whois](http://whois.domaintools.com/).
+Log in to the portal of your domain registrar and update the name servers to the name servers of your new DNS hosting provider. Keep in mind that Rackspace is not a domain registrar, like Namecheap, Dreamhost, or GoDaddy. If you are unsure who your domain registrar is, you can use a lookup tool like [Whois](https://whois.domaintools.com/).
 
 ### Verify that the NS records are successfully updated
 

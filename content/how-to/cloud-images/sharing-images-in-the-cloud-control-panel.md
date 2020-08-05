@@ -133,7 +133,7 @@ Before you share an image, consider the following questions:
 
 -   Is there any malicious software on the image?
 
-    You are expected to follow the Rackspace [Acceptable Use Policy](http://www.rackspace.com/information/legal/aup) (AUP) with regard to the type of software included on images. Ensure that
+    You are expected to follow the Rackspace [Acceptable Use Policy](https://www.rackspace.com/information/legal/aup) (AUP) with regard to the type of software included on images. Ensure that
     you're familiar with the AUP before you share an image.
 
 #### Share an image

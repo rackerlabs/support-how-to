@@ -19,8 +19,8 @@ might still want to try this procedure, it is available for legacy
 support purposes.
 
 This article describes how to create a simple software [load
-balancer](http://www.rackspace.com/cloud/load-balancing/) by using a
-[cloud server](http://www.rackspace.com/cloud/servers/).
+balancer](https://www.rackspace.com/cloud/load-balancing/) by using a
+[cloud server](https://www.rackspace.com/cloud/servers/).
 
 This article uses Apache as the load balancer in conjunction with the
 Apache module `mod_proxy` and `mod_proxy_balancer`. Both are available
@@ -115,10 +115,10 @@ network, where bandwidth is free.
 
     <Proxy balancer://mycluster>
         # WebHead1
-        BalancerMember http://10.x.x.x:80
+        BalancerMember https://10.x.x.x:80
 
         # WebHead2
-        BalancerMember http://10.x.x.x:80
+        BalancerMember https://10.x.x.x:80
 
         ProxySet lbmethod=byrequests
 
@@ -129,7 +129,7 @@ network, where bandwidth is free.
 The `balance-manager` is a tool packaged with the `mod_proxy_balancer`
 tool, and it enables you to make configurations from a GUI tool through
 the web browser. You can view it at
-<http://domain.com/balancer-manager>. Consider that any changes made by
+<https://domain.com/balancer-manager>. Consider that any changes made by
 this tool end after you restart Apache.
 
     <Location /balancer-manager>
@@ -176,9 +176,9 @@ using 2.2, replace `Require all granted` with
 
             <Proxy balancer://mycluster>
                     # WebHead1
-                    BalancerMember http://10.176.42.144:80
+                    BalancerMember https://10.176.42.144:80
                     # WebHead2
-                    BalancerMember http://10.176.42.148:80
+                    BalancerMember https://10.176.42.148:80
 
                     # Security "technically we aren't blocking
                     # anyone but this is the place to make

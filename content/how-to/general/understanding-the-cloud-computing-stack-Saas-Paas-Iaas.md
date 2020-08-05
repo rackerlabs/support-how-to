@@ -18,7 +18,7 @@ This article explains the different types of cloud computing services commonly r
 
 ### The cloud computing stack
 
-Cloud computing, often described as a stack, has a broad range of services built on top of one another under the name _cloud_. The accepted definition of _cloud computing_ comes from the National Institute of Standards and Technology (NIST). The [NIST definition](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf) runs to several hundred words but begins as follows:
+Cloud computing, often described as a stack, has a broad range of services built on top of one another under the name _cloud_. The accepted definition of _cloud computing_ comes from the National Institute of Standards and Technology (NIST). The [NIST definition](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf) runs to several hundred words but begins as follows:
 
 ```
    `Cloud computing` is a model for enabling ubiquitous, convenient, on-demand network

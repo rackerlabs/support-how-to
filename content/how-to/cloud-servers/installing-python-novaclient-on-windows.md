@@ -22,7 +22,7 @@ manage Cloud Servers. If you're running a script or program, you can use the
 but that involves some coding effort.
 
 If you want to manage your servers from the command line without dealing directly with the
-API you can use an open-source client application called [python-novaclient](http://pypi.python.org/pypi/python-novaclient/).
+API you can use an open-source client application called [python-novaclient](https://pypi.python.org/pypi/python-novaclient/).
 
 **Note**: The nova client is not maintained by Rackspace and should be considered software
 in development.
@@ -34,7 +34,7 @@ run the client from either a desktop machine or from a remote system, like a Clo
 
 The python installation needs to have the "setuptools" package installed as well. This
 is installed with a python distribution like
-[ActiveState ActivePython](http://www.activestate.com/activepython/downloads), which is
+[ActiveState ActivePython](https://www.activestate.com/activepython/downloads), which is
 discussed in the next section.
 
 To run the nova client, you need to have access to your Rackspace Cloud account username
@@ -45,7 +45,7 @@ and password.
 If you don't already have a python installation on your Windows system, download
 and install the community (free) version of ActiveState ActivePython.
 
-You can download the installer from [their website](http://www.activestate.com/activepython/downloads).
+You can download the installer from [their website](https://www.activestate.com/activepython/downloads).
 
 After downloading, run the installer.
 
@@ -75,7 +75,7 @@ When the installations finish, close the command window.
 ### Install with other python distributions
 
 If you're using another python distribution (like the official python distribution), you
-can install the [python setuptools package from pypi](http://pypi.python.org/pypi/setuptools)
+can install the [python setuptools package from pypi](https://pypi.python.org/pypi/setuptools)
 (if it isn't included with the distribution), then use easy_install to install pip:
 
     easy_install pip

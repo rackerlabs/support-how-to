@@ -46,7 +46,7 @@ Here are some common ways to troubleshoot SSH from outside your server:
 
     $ nmap <ip-address-of-host>
 
-    Starting Nmap 6.40 ( http://nmap.org ) at 2020-03-21 23:44 UTC
+    Starting Nmap 6.40 ( https://nmap.org ) at 2020-03-21 23:44 UTC
     Nmap scan report for <ip-address-of-host>
     Host is up (0.033s latency).
     Not shown: 997 filtered ports

@@ -41,10 +41,10 @@ The ObjectRocket API is a REST-based HTTP API over SSL. You can use the API in a
 
 -  [Overview](https://objectrocket.com/docs/api_v2_getting_started.html)
 -  [Authentication](https://objectrocket.com/docs/api_v2_getting_started.html#authentication)
--  [General Resources](http://objectrocket.com/docs/api_v2_general_resources.html)
--  [Instance Resources](http://objectrocket.com/docs/api_v2_instance_resources.html)
--  [MongoDB Resources](http://objectrocket.com/docs/api_v2_mongodb_resources.html)
--  [Redis Resources](http://objectrocket.com/docs/api_v2_redis_resources.html)
+-  [General Resources](https://objectrocket.com/docs/api_v2_general_resources.html)
+-  [Instance Resources](https://objectrocket.com/docs/api_v2_instance_resources.html)
+-  [MongoDB Resources](https://objectrocket.com/docs/api_v2_mongodb_resources.html)
+-  [Redis Resources](https://objectrocket.com/docs/api_v2_redis_resources.html)
 
 ### Connect via native MongoDB Drivers
 

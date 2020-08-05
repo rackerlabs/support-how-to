@@ -31,7 +31,7 @@ Use the following steps to create or drop users by using the `psql` client.
 #### Connect with psql
 
 Connect to the database server by using the
-[psql](http://www.postgresql.org/docs/8.3/static/app-psql.html "http://www.postgresql.org/docs/8.3/static/app-psql.html")
+[psql](https://www.postgresql.org/docs/8.3/static/app-psql.html "https://www.postgresql.org/docs/8.3/static/app-psql.html")
 client with the `postgres` role:
 
     postgres@demo:~$ psql -U postgres
@@ -102,9 +102,9 @@ To exit `psql`, run the following command:
 ### Use shell commands
 
 You can create and drop database roles by using the
-[createuser](http://www.postgresql.org/docs/8.3/static/app-createuser.html "http://www.postgresql.org/docs/8.3/static/app-createuser.html")
+[createuser](https://www.postgresql.org/docs/8.3/static/app-createuser.html "https://www.postgresql.org/docs/8.3/static/app-createuser.html")
 and
-[dropuser](http://www.postgresql.org/docs/8.3/static/app-dropuser.html "http://www.postgresql.org/docs/8.3/static/app-dropuser.html")
+[dropuser](https://www.postgresql.org/docs/8.3/static/app-dropuser.html "https://www.postgresql.org/docs/8.3/static/app-dropuser.html")
 shell commands, which are wrappers for the CREATE and DROP
 SQL statements. A standard postgres installation includes these commands.
 

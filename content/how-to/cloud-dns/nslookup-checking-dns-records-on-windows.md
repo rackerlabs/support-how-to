@@ -198,7 +198,7 @@ see the current maximum TTL for the record.
 
 <script type="application/ld+json">
 	  {
-	  "@context": "http://schema.org/",
+	  "@context": "https://schema.org/",
 	  "@type": "HowTo",
 	      "name":"Check DNS records on Windows with nslookup",
 	  	  "description": "This article describes how to check the status of your Domain Name System (DNS) records from the command line on Windows by using nslookup.",

@@ -43,12 +43,12 @@ This article explains the parts of an Orchestration template, and provides Orche
 
 ### How Heat templates work
 
-Heat Orchestration Templates (HOT) are written in a [YAML](http://yaml.org/) format. Ansible provides a useful [YAML Syntax guide](http://docs.ansible.com/ansible/YAMLSyntax.html). The template is processed by the Heat engine which validates the template and then sends calls to each appropriate API endpoint in the correct order to complete the launch of your stack.
+Heat Orchestration Templates (HOT) are written in a [YAML](https://yaml.org/) format. Ansible provides a useful [YAML Syntax guide](https://docs.ansible.com/ansible/YAMLSyntax.html). The template is processed by the Heat engine which validates the template and then sends calls to each appropriate API endpoint in the correct order to complete the launch of your stack.
 
 
 ### Heat template format
 
-Templates are made up of the parts shown in the following example. You can find more information about the template format in the [HOT specification](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html).
+Templates are made up of the parts shown in the following example. You can find more information about the template format in the [HOT specification](https://docs.openstack.org/developer/heat/template_guide/hot_spec.html).
 
 
     heat_template_version: 2014-10-16
@@ -68,7 +68,7 @@ Templates are made up of the parts shown in the following example. You can find 
 
 #### Template version
 
-The property `heat_template_version` tells Heat what version of the template to use. Formatting and support features can change with each version, so specifying the version is useful when you want to use a feature only available in  a newer version, or a feature in older versions that has been removed in later version. OpenStack documentation lists features and formatting in the [HOT specification](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#heat-template-version).
+The property `heat_template_version` tells Heat what version of the template to use. Formatting and support features can change with each version, so specifying the version is useful when you want to use a feature only available in  a newer version, or a feature in older versions that has been removed in later version. OpenStack documentation lists features and formatting in the [HOT specification](https://docs.openstack.org/developer/heat/template_guide/hot_spec.html#heat-template-version).
 
 
     heat_template_version: 2014-10-16
@@ -159,16 +159,16 @@ Outputs can also be manipulated by using string replacement, so you can construc
         description: Website URL
         value:
           str_replace:
-            template: "http://IP/admin/"
+            template: "https://IP/admin/"
             params:
               IP: { get_attr: [my_server, accessIPv4] }
 
 
-To get a list of available attributes, see the [list of resource types](http://docs.openstack.org/developer/heat/template_guide/openstack.html)
+To get a list of available attributes, see the [list of resource types](https://docs.openstack.org/developer/heat/template_guide/openstack.html)
 
 #### Intrinsic functions
 
-Heat Orchestration provides a set of functions that can be used within a template. For a list of these functions, see the [HOT specification](http://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
+Heat Orchestration provides a set of functions that can be used within a template. For a list of these functions, see the [HOT specification](https://docs.openstack.org/developer/heat/template_guide/hot_spec.html#intrinsic-functions)
 
 ### Example templates
 

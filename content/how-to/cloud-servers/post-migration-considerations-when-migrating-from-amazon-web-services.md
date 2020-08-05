@@ -31,8 +31,8 @@ the following reference that corresponds to your server's operating system
 (OS) distribution:
 
 -   [Ubuntu&reg; operating system](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
--   [CentOS&reg;](http://wiki.centos.org/HowTos/Network/SecuringSSH)
--   [openSUSE](http://en.opensuse.org/SDB:OpenSSH_public_key_authentication)
+-   [CentOS&reg;](https://wiki.centos.org/HowTos/Network/SecuringSSH)
+-   [openSUSE](https://en.opensuse.org/SDB:OpenSSH_public_key_authentication)
 
 Consider disabling password authentication altogether, or at least
 disabling root logon. Also consider limiting simultaneous user logons
@@ -85,7 +85,7 @@ Backups are an integral part of any production-level deployment and an
 essential component of a disaster recovery (DR) strategy. Rackspace
 provides a file-based backup system to help you meet your backup and
 restore needs. You can install the [Rackspace Cloud Backup
-agent](http://www.rackspace.com/cloud/backup/) by following the steps in the
+agent](https://www.rackspace.com/cloud/backup/) by following the steps in the
 article [Install or update the Cloud Backup agent on
 Linux](https://support.rackspace.com/how-to/install-or-update-the-cloud-backup-agent-on-linux/) or [Install the Cloud Backup agent on
 Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).

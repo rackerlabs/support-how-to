@@ -29,7 +29,7 @@ For the latest information about Rackspace Monitoring pricing and other
 general questions, see the [Rackspace Monitoring
 FAQ](/how-to/rackspace-monitoring-faq)
 and the [Rackspace Monitoring main product
-page](http://www.rackspace.com/cloud/monitoring/).
+page](https://www.rackspace.com/cloud/monitoring/).
 
 **Note:** With General Purpose servers, Rackspace Monitoring monitors
 only the system disk. The data disk is not monitored.

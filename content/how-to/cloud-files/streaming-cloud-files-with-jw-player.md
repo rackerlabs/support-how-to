@@ -16,7 +16,7 @@ Cloud Files supports the JW Player for streaming video files. It also supports
 and [OSMF](/how-to/cloud-files-streaming-with-osmf-plugins).
 
 The JW Player has a commercial license, which means you must purchase it
-from [Longtail Video](http://www.longtailvideo.com/order).
+from [Longtail Video](https://www.longtailvideo.com/order).
 
 Supported media formats for JW Player:
 
@@ -31,13 +31,13 @@ Video:
 
 ### Upload JW Player 6 to Cloud Files
 
-1. [Download the JW Player](http://www.longtailvideo.com/jw-player/).
+1. [Download the JW Player](https://www.longtailvideo.com/jw-player/).
 
 2. Unzip the file and upload it to a Cloud Files container.
 
   **Note:** You can upload the player to the container that holds your media or to another container.
 
-3. Download the [Akamai Advanced JW Player Provider plugin files](http://mediapm.edgesuite.net/jw/) for JW Player 6.
+3. Download the [Akamai Advanced JW Player Provider plugin files](https://mediapm.edgesuite.net/jw/) for JW Player 6.
 
 4. Unzip the plugin files and upload them to the same container as the
 JW Player.

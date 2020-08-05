@@ -14,7 +14,7 @@ last_modified_by: Catherine Richardson
 #### How can I determine the Cloud Office system status?
 
 For Cloud Office system status verification, use the following
-link: [Cloud Office system status](http://status.apps.rackspace.com/).
+link: [Cloud Office system status](https://status.apps.rackspace.com/).
 
 ------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ Unfortunately, Business Intelligence features (such as PerformancePoint)
 are not currently available in a shared environment. However, these
 features are included in the SharePoint Server 2013 Enterprise edition
 and are supported in a [dedicated SharePoint
-environment](http://sharepoint.rackspace.com/dedicated-sharepoint).
+environment](https://sharepoint.rackspace.com/dedicated-sharepoint).
 
 #### Can I use Office Web Apps?
 

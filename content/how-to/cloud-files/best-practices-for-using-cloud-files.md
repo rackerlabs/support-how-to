@@ -106,7 +106,7 @@ closely-grouped data. As a result, you're unlikely to need to divide it
 again later. For website acceleration, this enables pathing that
 displays in the browser, as shown in the following example:
 
-    http://c123456.r02.cf3.rackcdn.com/ducks/funny/duckling.jpg
+    https://c123456.r02.cf3.rackcdn.com/ducks/funny/duckling.jpg
 
 In this example, the name of the object is **ducks/funny/duckling.jpg**.
 

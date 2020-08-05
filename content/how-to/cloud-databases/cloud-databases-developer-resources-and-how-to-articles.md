@@ -52,15 +52,15 @@ The following popular technical articles and other resources are available for
 Cloud Databases:
 
 -   [Performance Matters: Rackspace Cloud Databases Is Faster Than Amazon
-    RDS](http://www.rackspace.com/blog/performance-matters-rackspace-cloud-databases-is-faster-than-amazon-rds/)
+    RDS](https://www.rackspace.com/blog/performance-matters-rackspace-cloud-databases-is-faster-than-amazon-rds/)
 -   [Rackspace Cloud Databases Private Beta: New Features and Global
-    Availability](http://www.rackspace.com/blog/rackspace-cloud-databases-private-beta-new-features-and-global-availability/)
+    Availability](https://www.rackspace.com/blog/rackspace-cloud-databases-private-beta-new-features-and-global-availability/)
 -   [Announcing Rackspace MySQL Cloud Database Private
-    Beta](http://www.rackspace.com/blog/announcing-the-rackspace-mysql-cloud-database-private-beta/)
+    Beta](https://www.rackspace.com/blog/announcing-the-rackspace-mysql-cloud-database-private-beta/)
 -   [Using Cloud Databases in the Cloud Control
-    Panel](http://c1776742.r42.cf0.rackcdn.com/downloads/pdfs/Using-Cloud-Databases-in-the-Cloud-Control-Panel.pdf)
+    Panel](https://c1776742.r42.cf0.rackcdn.com/downloads/pdfs/Using-Cloud-Databases-in-the-Cloud-Control-Panel.pdf)
 -   [Rackspace Cloud Databases and Container-based Virtualization
-    Whitepaper](http://c1776742.r42.cf0.rackcdn.com/downloads/pdfs/Rackspace-Cloud-Databases-and-Container-based-Virtualization.pdf)
+    Whitepaper](https://c1776742.r42.cf0.rackcdn.com/downloads/pdfs/Rackspace-Cloud-Databases-and-Container-based-Virtualization.pdf)
 
 ### Trove: the OpenStack Database-as-a-Service Project
 
@@ -81,5 +81,5 @@ To learn more about Trove, see the following resources:
     (Trove)](https://blueprints.launchpad.net/trove)
 -   [Code](https://github.com/openstack/trove)
 -   Test and deployment images:
-    -   <http://c629296.r96.cf2.rackcdn.com/ubuntu-10.04-x86_64-openvz.tar.gz>
-    -   <http://c629296.r96.cf2.rackcdn.com/lucid_ext3_openvz.box>
+    -   <https://c629296.r96.cf2.rackcdn.com/ubuntu-10.04-x86_64-openvz.tar.gz>
+    -   <https://c629296.r96.cf2.rackcdn.com/lucid_ext3_openvz.box>

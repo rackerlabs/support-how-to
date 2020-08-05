@@ -20,7 +20,7 @@ running is "vyatta" and NOT "root." The minimum server size that you
 will be able to choose is one with a 1GB RAM.
 
 The configuration basics for this appliance can be found in Chapter 4 of
-the [quick start guide](http://bit.ly/ZrdYHq).
+the [quick start guide](https://bit.ly/ZrdYHq).
 
 ### Launching the appliance
 
@@ -117,7 +117,7 @@ You can go into configuration mode by typing the command 'configure'
     [edit]
     vyatta@vyatta-thefinal#
 
-Refer to Chapter 4 of the [quick start configuration guide](http://bit.ly/ZrdYHq) for more details.
+Refer to Chapter 4 of the [quick start configuration guide](https://bit.ly/ZrdYHq) for more details.
 
 ### References
 

@@ -19,7 +19,7 @@ Public folders can contain contacts, calendar items, messages, journal
 entries, or notes.
 
 This article provides instructions for working with public folders in a
-[hosted Microsoft Exchange](http://www.rackspace.com/email-hosting/hosted-exchange/)
+[hosted Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange/)
 environment:
 
 

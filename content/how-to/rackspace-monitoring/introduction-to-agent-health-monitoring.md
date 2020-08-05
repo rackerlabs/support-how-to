@@ -79,7 +79,7 @@ procedures:
 
 For a summary of the concepts mentioned in this article, read the
 [Single Pane of Glass for Your IT
-Ops](http://bit.ly/maas-intelligence) blog post or the [Getting Started
+Ops](https://bit.ly/maas-intelligence) blog post or the [Getting Started
 with Rackspace
 Intelligence](/how-to/rackspace-intelligence)
 article.
@@ -99,5 +99,5 @@ and the product that is being monitored.
 
 For more information about agent health monitoring, read the [Watching
 the Watchmen with Agent Health
-Monitoring](http://bit.ly/agent-health-monitoring) blog post by Shane
+Monitoring](https://bit.ly/agent-health-monitoring) blog post by Shane
 Duan.

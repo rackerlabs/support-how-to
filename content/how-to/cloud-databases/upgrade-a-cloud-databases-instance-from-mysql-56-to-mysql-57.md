@@ -15,7 +15,7 @@ This article shows you how to upgrade from a Cloud Databases MySQL&reg;
 5.6 instance to a new MySQL 5.7 instance. The steps assume that you
 haven't enabled the root database user on the source or destination
 instance and that you're using the Rackspace [Cloud Control
-Panel](http://login.rackspace.com) to manage your Cloud Databases.
+Panel](https://login.rackspace.com) to manage your Cloud Databases.
 
 Because database replication isn't available, this article includes some
 additional steps to ensure that no content is lost during the migration

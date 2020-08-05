@@ -81,7 +81,7 @@ certificate or create a repository manually.  This is for Linux distribution onl
 
 1. Log in to the server that you want to monitor.
 
-2. Open a browser to the [Rackspace Monitoring Meta Packages](http://meta.packages.cloudmonitoring.rackspace.com/) page.
+2. Open a browser to the [Rackspace Monitoring Meta Packages](https://meta.packages.cloudmonitoring.rackspace.com/) page.
 
 3. Find your operating system and enter the commands provided.
 

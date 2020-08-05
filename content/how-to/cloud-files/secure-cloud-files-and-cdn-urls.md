@@ -20,13 +20,13 @@ You can access every Cloud Files container through HTTP or HTTPS.
 In the Cloud Control Panel, select **Storage > Files**, click the gear icon for the container,
 and select **View All Links**, which displays the following CDN links:
 
-- HTTP: http://cdc4c16471588d4846bf-cc339a649709710bbecd3db1e126ec2b.r3.cf1.rackcdn.com
+- HTTP: https://cdc4c16471588d4846bf-cc339a649709710bbecd3db1e126ec2b.r3.cf1.rackcdn.com
 
 - HTTPS: https://ac3c779acb946eaf4819-cc339a649709710bbecd3db1e126ec2b.ssl.cf1.rackcdn.com
 
-- Streaming: http://b0c42c537095921be66c-cc339a649709710bbecd3db1e126ec2b.r3.stream.cf1.rackcdn.com
+- Streaming: https://b0c42c537095921be66c-cc339a649709710bbecd3db1e126ec2b.r3.stream.cf1.rackcdn.com
 
-- iOS Streaming: http://09ac235af93af07922d6-cc339a649709710bbecd3db1e126ec2b.iosr.cf1.rackcd
+- iOS Streaming: https://09ac235af93af07922d6-cc339a649709710bbecd3db1e126ec2b.iosr.cf1.rackcd
 
 If you find that the HTTP URL is too long, you can shorten it with a CNAME pointing to that URL.
 
@@ -40,7 +40,7 @@ The HTTPS link is useful if the data transmitted has sensitive information in it
 The cross-origin resource sharing standard (CORS) is also supported, but it solves
 an entirely different problem. Specifically, CORS solves the access problem of asynchronous requests
 by a browser that browses a website with a domain that is different from the Cloud Files link.
-For more information on this topic, see [the Enable CORS site](http://enable-cors.org) or
+For more information on this topic, see [the Enable CORS site](https://enable-cors.org) or
 the Cloud Files [API documentation](https://developer.rackspace.com/docs/cloud-files/v1/use-cases/public-access-to-your-cloud-files-account/#cors).
 
 ### Access CDN-enabled objects

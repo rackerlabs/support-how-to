@@ -83,7 +83,7 @@ Gather the following information before troubleshooting your site:
 
           $ nmap website.com
      
-           Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:23 UTC
+           Starting Nmap 5.51 ( https://nmap.org ) at 2016-08-25 12:23 UTC
            Nmap scan report for website.com (104.130.8.75)
            Host is up (0.0000060s latency).
            rDNS record for 104.130.8.75: elector
@@ -99,7 +99,7 @@ Gather the following information before troubleshooting your site:
 
           $ nmap -Pn -p 443 website.com
      
-            Starting Nmap 5.51 ( http://nmap.org ) at 2016-08-25 12:25 UTC
+            Starting Nmap 5.51 ( https://nmap.org ) at 2016-08-25 12:25 UTC
             Nmap scan report for website.com (104.130.8.75)
             Host is up (0.000052s latency).
             rDNS record for 104.130.8.75: elector

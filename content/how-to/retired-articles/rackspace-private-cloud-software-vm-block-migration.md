@@ -19,7 +19,7 @@ that deploy and manage the suite of OpenStack core projects: Compute
 is installed separately, as described in this document.
 
 Rackspace Private Cloud Software v 2.0 (Alamo) supports the [Folsom
-release of OpenStack](http://www.openstack.org/software/essex/) for
+release of OpenStack](https://www.openstack.org/software/essex/) for
 these components.
 
 ### Intended Audience
@@ -52,8 +52,8 @@ November 15, 2012
 
 -   [Rackspace Private Cloud Knowledge
     Center](/how-to/rpc-openstack)
--   [OpenStack Manuals](http://docs.openstack.org)
--   [OpenStack Documentation: Configuring migrations](http://docs.openstack.org/admin-guide-cloud/compute-configuring-migrations.html)
+-   [OpenStack Manuals](https://docs.openstack.org)
+-   [OpenStack Documentation: Configuring migrations](https://docs.openstack.org/admin-guide-cloud/compute-configuring-migrations.html)
 
 ### OpenStack Compute Migration Concepts
 

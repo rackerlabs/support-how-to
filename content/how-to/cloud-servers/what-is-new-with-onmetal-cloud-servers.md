@@ -86,7 +86,7 @@ reasons:
     not necessary.
 -   The progress in operating systems has delivered a native capability
     to isolate applications by using containers. Companies like
-    [Docker](http://www.docker.com/) and [CoreOS](https://coreos.com/)
+    [Docker](https://www.docker.com/) and [CoreOS](https://coreos.com/)
     provide tools to run fully isolated applications without relying on
     virtualization, and we see this as an emerging trend to run at
     scale: containers on bare metal.

@@ -54,7 +54,7 @@ The following prerequisites are expected for successful completion:
 
 -   Rackspace Cloud account (<https://cart.rackspace.com/cloud/>).
 -   SSH client (Windows users can download PUTTY:
-    <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>).
+    <https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>).
 -   Basic knowledge of Linux.
 -   Basic knowledge of Hadoop.
 
@@ -164,7 +164,7 @@ propagated properly. So you have to run this extra step.
 
 Verify that the master is up by going to the jobtracker at:
 
-    http://<Hadoop Master IP>:50030
+    https://<Hadoop Master IP>:50030
 
 #### Creating a Hadoop Worker
 
@@ -186,7 +186,7 @@ Run the following command:
 
 Verify that the worker is running by going to the jobtracker at:
 
-    http://<Hadoop Master IP>:50030
+    https://<Hadoop Master IP>:50030
 
 #### Running a Map Reduce Application
 

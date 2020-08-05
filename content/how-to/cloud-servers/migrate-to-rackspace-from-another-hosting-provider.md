@@ -57,7 +57,7 @@ Use the following steps for this migration:
 
 3. If you are running an EOL OS, you need to change the base repositories for your
    server (both your old source server and the new Rackspace Cloud server). For
-   example, the CentOS&reg; 5 repository should be `baseurl=http://vault.centos.org/5.11/os/$basearch`.
+   example, the CentOS&reg; 5 repository should be `baseurl=https://vault.centos.org/5.11/os/$basearch`.
    Consult your distribution's documentation for more specifics on this step.
 
 4. Apply all available updates for your OS on both your source server and your

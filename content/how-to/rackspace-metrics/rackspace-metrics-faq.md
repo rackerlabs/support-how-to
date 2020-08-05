@@ -41,7 +41,7 @@ guide](https://developer.rackspace.com/docs/metrics/v2/).
 #### What are the Terms of Service?
 
 The Rackspace Metrics Terms of Service
-are available at <http://www.rackspace.com/information/legal/testterms>.
+are available at <https://www.rackspace.com/information/legal/testterms>.
 When the Early Access Program is over, the Terms of Service will revert
 to the standard Cloud Terms of Service.
 

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-[Colocation](http://www.rackspace.com/managed_hosting/managed_colocation/index.php)
+[Colocation](https://www.rackspace.com/managed_hosting/managed_colocation/index.php)
 typically describes the provisioning of space for IT infrastructure and
 equipment on a service provider's premises. Businesses that choose
 colocation often do so to maintain the control of their operating
@@ -64,7 +64,7 @@ Because many businesses prefer to maintain a substantial level of
 control regarding their mission-critical apps, but don't want to be
 slowed by the complexity of managing a traditional colocation scenario,
 Rackspace offers [Managed
-Colocation](http://www.rackspace.com/managed_hosting/managed_colocation/index.php).
+Colocation](https://www.rackspace.com/managed_hosting/managed_colocation/index.php).
 Managed Colocation offers your the desired level of
 control with the added benefit of a support team to proactively manage
 your configuration. Rackspace Managed Colocation is a level above traditional
@@ -88,7 +88,7 @@ Managed Colocation from Rackspace supplies:
     data centers
 
 Optional services include management options for [Managed Backup](https://www.rackspace.com/vmware),
-[Managed Private Clouds](http://www.rackspace.com/managed_hosting/private_cloud/index.php)
+[Managed Private Clouds](https://www.rackspace.com/managed_hosting/private_cloud/index.php)
 and [Managed Storage](https://www.rackspace.com/managed-hosting/data-storage).
 
 #### Dedicated Support Team

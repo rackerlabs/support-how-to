@@ -17,7 +17,7 @@ product_url: cloud-servers
 ### Check Rackspace status
 
 Before using the following steps, check
-[http://status.rackspace.com](http://status.rackspace.com) for open issues
+[https://status.rackspace.com](https://status.rackspace.com) for open issues
 that might be impacting your server instance.
 
 ### Process overview

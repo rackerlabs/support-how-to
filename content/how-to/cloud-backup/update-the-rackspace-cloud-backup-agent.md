@@ -40,7 +40,7 @@ Use the following steps to update the backup agent for APT-based systems, such a
 
 1. Use SSH to log in to your server as a user with sudo or superuser privileges.
 
-2.  Download the new [Cloud Backup Keyring package](http://agentrepo.drivesrvr.com/debian/pool/main/c/cloudbackup-keyring/cloudbackup-keyring_2016.12.02-1_all.deb).
+2.  Download the new [Cloud Backup Keyring package](https://agentrepo.drivesrvr.com/debian/pool/main/c/cloudbackup-keyring/cloudbackup-keyring_2016.12.02-1_all.deb).
 
 3.  Install the Keyring package manually.
 
@@ -95,7 +95,7 @@ instructions instead.
 
 4. Download the new tarball.
 
-        wget http://agentrepo.drivesrvr.com/tar/driveclient-latest.tar.bz2
+        wget https://agentrepo.drivesrvr.com/tar/driveclient-latest.tar.bz2
 
 5. Extract the files.
 
@@ -136,7 +136,7 @@ to use if you need to manually update.
 The recommended way to perform a manual update is to download the latest agent
 from the deployment server and simply run it.
 
-1. Download the updated agent from http://agentrepo.drivesrvr.com/win64/driveclient-setup-latest.exe
+1. Download the updated agent from https://agentrepo.drivesrvr.com/win64/driveclient-setup-latest.exe
 
 2. Run the updated agent.
 

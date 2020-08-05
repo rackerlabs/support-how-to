@@ -144,7 +144,7 @@ The cost for each load balancer is based on an hourly rate, plus
 the number of concurrent connections, plus bandwidth.  You can view pricing
 details on the following product pages for Cloud Load Balancers:
 
-- [US product page for Cloud Load Balancers](http://www.rackspace.com/cloud/load-balancing/)
-- [UK product page for Cloud Load Balancers](http://www.rackspace.co.uk/cloud-load-balancers/)
+- [US product page for Cloud Load Balancers](https://www.rackspace.com/cloud/load-balancing/)
+- [UK product page for Cloud Load Balancers](https://www.rackspace.co.uk/cloud-load-balancers/)
 
 **Next steps:** [Cloud Files and the Content Delivery Network](/how-to/getting-started-with-cloud-files-and-cdn/)

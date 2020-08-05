@@ -20,7 +20,7 @@ formats of the same file to reach the most people. For audio, you can use
 files in **.mp3** and **.ogg** file formats. For  video, you can use the
 **.mp4**, **.ogv**, and **.webm** file formats. For details about the formats
 that browsers support, see [HTML 5 and browser
-support](http://en.wikipedia.org/wiki/HTML5_video#Browser_support).
+support](https://en.wikipedia.org/wiki/HTML5_video#Browser_support).
 
 ### CDN-enable a container
 
@@ -41,18 +41,18 @@ and video with HTML5.
 ### Stream audio
 
 This section describes how to use [sample audio and web page
-files](http://81310752d5730fb4ef3c-221b4998ec12974102282b6d4a8fafbe.r2.cf1.rackcdn.com/streaming_audio.zip)
+files](https://81310752d5730fb4ef3c-221b4998ec12974102282b6d4a8fafbe.r2.cf1.rackcdn.com/streaming_audio.zip)
 to download and test audio streaming functionality.
 
 HTML5 requires you to use both the **mp3** and **ogg** file formats to maximize
 the number of platforms on which your media can be played. Both formats are
 included in the **zip** archive of sample files. When you use your own audio
-files, you might find [media.io](http://media.io/) convenient for converting
+files, you might find [media.io](https://media.io/) convenient for converting
 **mp3** files into **ogg** files.
 
 Use the following steps to download and test audio streaming functionality:
 
-1. Download the [zip archive](http://81310752d5730fb4ef3c-221b4998ec12974102282b6d4a8fafbe.r2.cf1.rackcdn.com/streaming_audio.zip) and
+1. Download the [zip archive](https://81310752d5730fb4ef3c-221b4998ec12974102282b6d4a8fafbe.r2.cf1.rackcdn.com/streaming_audio.zip) and
    unzip it on your computer.
 2. Upload the files into your CDN-enabled container.
 3. Open the **audiotest.html** file on your computer and locate the **.mp3**
@@ -82,7 +82,7 @@ Use the following steps to download and test audio streaming functionality:
 ### Stream video
 
 This section describes how to use [sample video and web page
-files](http://81310752d5730fb4ef3c-221b4998ec12974102282b6d4a8fafbe.r2.cf1.rackcdn.com/streaming_video.zip) (a zip
+files](https://81310752d5730fb4ef3c-221b4998ec12974102282b6d4a8fafbe.r2.cf1.rackcdn.com/streaming_video.zip) (a zip
 archive of video files) to download and test video streaming functionality.
 
 HTML5 video requires you to use the following three file formats to maximize
@@ -96,7 +96,7 @@ The image in **.png** format acts as a placeholder that appears before a user
 starts the video. When you use your own videos, you might find the Miro Video
 Converter useful for converting your videos into alternate formats. You can
 download this free utility directly from [the Miro
-site](http://www.mirovideoconverter.com/) or from the [Apple&reg; iTunes&reg;
+site](https://www.mirovideoconverter.com/) or from the [Apple&reg; iTunes&reg;
 store](https://itunes.apple.com/us/app/miro-video-converter-mvc/id412699210?mt=12).
 
 Use the following steps to test video streaming functionality:

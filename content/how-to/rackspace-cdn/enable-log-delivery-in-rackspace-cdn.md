@@ -26,7 +26,7 @@ Files until you delete them, even if you subsequently disable logging.
 Log files are named according to the following pattern: service name,
 log date, log hour, and MD5 hash. For example:
 
-    http://www.mywebsite.com/2015/02/01/16/096e6c4473f235db081deb51f42a8d98.log.gz
+    https://www.mywebsite.com/2015/02/01/16/096e6c4473f235db081deb51f42a8d98.log.gz
 
 In this example,` www.mywebsite.com` is the name of the service,
 `2015/02/01` is the date (February 1, 2015), and `16` is the hour that
@@ -69,11 +69,11 @@ The following example shows log entries.
               7109; ms-office; MSOffice 14)"
     173.203.44.122 - - [15/07/2014:20:59:44 +0000] "GET
               /5142b6e5e57f760d7ff4-c591437fc634f2a98934b7738b8b8571.r93.cf1.rackcdn.
-              com/ default.css?ver=3.8.3 HTTP/1.1" 200 17511 "http://www.rackspace.
+              com/ default.css?ver=3.8.3 HTTP/1.1" 200 17511 "https://www.rackspace.
               com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
               like Gecko) Chrome/35.0.1916.153 Safari/537.36"
     173.203.44.122 - - [15/07/2014:20:59:44 +0000] "GET
               /5142b6e5e57f760d7ff4-c591437fc634f2a98934b7738b8b8571.r93.cf1.rackcdn.
-              com/ jquery.min.js?ver=3.8.3 HTTP/1.1" 200 8022 "http://www.rackspace.
+              com/ jquery.min.js?ver=3.8.3 HTTP/1.1" 200 8022 "https://www.rackspace.
               com/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
               like Gecko) Chrome/35.0.1916.153 Safari/537.36"

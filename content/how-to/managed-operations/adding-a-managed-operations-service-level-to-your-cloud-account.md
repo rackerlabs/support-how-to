@@ -29,7 +29,7 @@ and Internet Information Services (IIS), as well as the
 Linux&reg;, Apache&reg;, MySQL&reg;, and PHP (LAMP) stack on Linux.
 Rackspace regularly patches and updates your Cloud Server. We also manage your
 [Cloud
-Databases](http://www.rackspace.com/cloud/public/databases/) and provide
+Databases](https://www.rackspace.com/cloud/public/databases/) and provide
 basic database administrator assistance such as user and table
 management and data backups. The Managed Operations team provides monitoring
 services and proactively responds to any alerts. As a Managed Operations
@@ -86,12 +86,12 @@ least one instance on the account is active or used during that month.
 For more pricing information, see the following web pages:
 
 -   [Managed Operations product pricing
-    page](http://www.rackspace.com/cloud/managed_cloud/pricing/) (USA)
+    page](https://www.rackspace.com/cloud/managed_cloud/pricing/) (USA)
 -   [Managed Operations product pricing
-    page](http://www.rackspace.co.uk/cloud/servers/pricing) (UK)
+    page](https://www.rackspace.co.uk/cloud/servers/pricing) (UK)
 
 You can also use the [Rackspace Cloud Price
-Calculator](http://www.rackspace.com/calculator/) to estimate your costs.
+Calculator](https://www.rackspace.com/calculator/) to estimate your costs.
 
 **Note**: To get pricing information for Cloud Servers with Managed Operations,
 ensure that you check the **Managed Operations: SysOps** box in the lower-left

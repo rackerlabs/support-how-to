@@ -105,7 +105,7 @@ The following items can affect the length of your migration:
 - Mailbox size
 - Total size of attachments
 - Number of mailboxes on the domain
-- Provisioning delays in our Exchange environment. See the [System Status Page](http://status.apps.rackspace.com/) for notice on this type of issue.
+- Provisioning delays in our Exchange environment. See the [System Status Page](https://status.apps.rackspace.com/) for notice on this type of issue.
 
   **Note:** You cannot estimate the length of time a migration will take because of the variance in the preceding items.
 

@@ -33,7 +33,7 @@ hardware environment, tailored to your company's needs, in one of our nine
 world-class data centers around the globe. The "plus" part is that you also gain
 access to Rackspace optional services, such as
 [Managed Backup](https://www.rackspace.com/vmware),
-[Managed Private Clouds](http://www.rackspace.com/managed_hosting/private_cloud/index.php)
+[Managed Private Clouds](https://www.rackspace.com/managed_hosting/private_cloud/index.php)
 and [Managed Storage](https://www.rackspace.com/managed-hosting/data-storage).
 We give you the necessary tools to remotely administer your environment, and you
 have access to our 24x7x365 remote personnel in the data center. No more rushing

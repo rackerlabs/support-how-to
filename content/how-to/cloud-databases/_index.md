@@ -24,7 +24,7 @@ Our Cloud Databases product is a standalone, API-based relational database servi
 
 ###  Cloud Databases Information
 
-- [Cloud Databases Product and Pricing Information](http://www.rackspace.com/cloud/databases)
+- [Cloud Databases Product and Pricing Information](https://www.rackspace.com/cloud/databases)
 - [Public and Private Access for Cloud Databases](/how-to/public-and-private-access-for-cloud-databases)
 - [Cloud Database Instance Parameters](/how-to/cloud-database-instance-parameters)
 

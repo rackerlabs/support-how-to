@@ -24,7 +24,7 @@ and `bzip2`. If these tools are missing, you might not be able to install and us
 #### Download the installer
 
 Download the latest updater installation file from the
-[agent repository](http://agentrepo.drivesrvr.com/updater/cloudbackup-updater-latest.tar.bz2)
+[agent repository](https://agentrepo.drivesrvr.com/updater/cloudbackup-updater-latest.tar.bz2)
 by using a tool such as `curl` or `wget`.
 
 Extract the Linux package files (`cloudbackup-updater-latest.tar.bz2`) to a temporary
@@ -98,7 +98,7 @@ methods.
 
 To verify the version of the updater, first check the latest version number in our repository:
 
-    curl http://agentrepo.drivesrvr.com/updater-version.txt
+    curl https://agentrepo.drivesrvr.com/updater-version.txt
 
 Compare to the version installed on the computer:
 
@@ -106,7 +106,7 @@ Compare to the version installed on the computer:
 
 To verify the version of the agent, first check the latest version number in our repository:
 
-    curl http://agentrepo.drivesrvr.com/version.txt
+    curl https://agentrepo.drivesrvr.com/version.txt
 
 Compare to the version installed on the computer:
 

@@ -68,7 +68,7 @@ server hostname in CentOS&reg;.
 
 <script type="application/ld+json">
  {
- "@context": "http://schema.org/",
+ "@context": "https://schema.org/",
  "@type": "HowTo",
      "name":"Change a server's hostname in CentOS",
  	  "description": "This article describes how to change a server hostname in CentOS.",

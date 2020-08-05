@@ -37,11 +37,11 @@ If you have an existing domain that is already registered with another service p
 ### Finding your current name servers
 
 If you don't know your current name servers, a
-[Whois](http://whois.domaintools.com/ "http://whois.domaintools.com")
+[Whois](https://whois.domaintools.com/ "https://whois.domaintools.com")
 search can provide this information.
 
-**Note**: Rackspace is *not* a domain registrar, like [Namecheap](http://www.namecheap.com/), [Dreamhost](http://dreamhost.com/domains/),
-or [GoDaddy](http://www.godaddy.com/). To host a domain that you have registered on your Rackspace
+**Note**: Rackspace is *not* a domain registrar, like [Namecheap](https://www.namecheap.com/), [Dreamhost](https://dreamhost.com/domains/),
+or [GoDaddy](https://www.godaddy.com/). To host a domain that you have registered on your Rackspace
 Cloud Server, go to your domain registrar and [set the nameservers to Rackspace's nameservers](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud).
 This allows DNS to route to your domain hosted on your Cloud Server.
 

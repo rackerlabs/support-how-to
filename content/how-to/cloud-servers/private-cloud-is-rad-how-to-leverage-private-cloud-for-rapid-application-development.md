@@ -16,7 +16,7 @@ development methodology that uses minimal planning in favor of rapid
 prototyping. One of the many challenges of RAD is the constant demand
 for rapid deployment of stable computing platforms for development and
 testing. A pronounced reliance on prototyping is characteristic of RAD
-methodologies. For this reason, the advanced features of [private cloud](http://www.rackspace.com/cloud/private/) computing can offer
+methodologies. For this reason, the advanced features of [private cloud](https://www.rackspace.com/cloud/private/) computing can offer
 significant advantages for developers employing RAD. This article will
 discuss how private cloud computing can increase developer efficiency in creating rapidly
 deployed, stable systems that include advanced features not available in

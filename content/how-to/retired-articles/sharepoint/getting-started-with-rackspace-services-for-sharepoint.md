@@ -62,7 +62,7 @@ the task bar and enter the following string:
     New-NetFirewallRule -DisplayName "Open Port 80" -Action Allow -Direction Inbound -Enabled True -LocalPort 80 -Protocol TCP
 
 3\. Next, open your preferred browser and head directly to your server's
-URL (e.g. http://example.com). Enter your Administrator credentials to
+URL (e.g. https://example.com). Enter your Administrator credentials to
 access the default web application.
 
 The Central Administration service has been configured and is running on

@@ -17,7 +17,7 @@ cloud database.
 Use the following steps to connect to Cloud Databases by using MySQL
 Workbench.
 
-1.  Go to <http://www.mysql.com/products/workbench/> and install MySQL
+1.  Go to <https://www.mysql.com/products/workbench/> and install MySQL
     WorkBench.
     The following platforms are supported: Windows, Fedora, the Ubuntu
     operating system, Oracle and Redhat, and Mac OS X. Registration

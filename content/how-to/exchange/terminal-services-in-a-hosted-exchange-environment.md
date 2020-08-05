@@ -41,7 +41,7 @@ encourage.
 
 If you still feel that Terminal Services may be a good fit for your setup,
 we recommend researching the topic at [Microsoft's
-TechNet](http://technet.microsoft.com/en-us/default.aspx) site for
+TechNet](https://technet.microsoft.com/en-us/default.aspx) site for
 further information, including the
-[Plan for Outlook 2010](http://technet.microsoft.com/en-us/library/ff394406.aspx)
+[Plan for Outlook 2010](https://technet.microsoft.com/en-us/library/ff394406.aspx)
 article.

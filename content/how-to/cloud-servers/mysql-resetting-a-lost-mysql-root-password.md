@@ -80,7 +80,7 @@ Enter your new password when prompted.
 
 <script type="application/ld+json">
 {
-"@context": "http://schema.org/",
+"@context": "https://schema.org/",
 "@type": "HowTo",
 "text":"Reset a MySQL root password",
 "description": "Use the following steps to reset a MySQL root password by using the command line interface.",

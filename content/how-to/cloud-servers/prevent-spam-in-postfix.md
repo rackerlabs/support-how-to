@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 This article demonstrates some simple configuration changes that you can implement on 
-a [Postfix](http://www.postfix.org) installation on your mail server to reduce spam.
+a [Postfix](https://www.postfix.org) installation on your mail server to reduce spam.
 
 ### Enable Real-time Blackhole Lists
 
@@ -33,7 +33,7 @@ You configure RBLs under the `smtpd_recipient_restrictions` parameter in the mai
 
 After you implement this configuration, entries similar to the following example appear in your mail logs:
 
-    Dec 17 15:58:24 mailserver postfix/smtpd[15573]: NOQUEUE: reject: RCPT from unknown[204.12.225.53]: 554 5.7.1 Service    unavailable; Client host [204.12.225.53] blocked using zen.spamhaus.org ; http://www.spamhaus.org/sbl/query/SBLCSS / http://www.spamhaus.org/query/bl?ip=204.12.225.53; from=<info@lifeyjingu.com> to=<admin@mymailserver.com> proto=ESMTP helo=<hse53.lif eyjingu.com>
+    Dec 17 15:58:24 mailserver postfix/smtpd[15573]: NOQUEUE: reject: RCPT from unknown[204.12.225.53]: 554 5.7.1 Service    unavailable; Client host [204.12.225.53] blocked using zen.spamhaus.org ; https://www.spamhaus.org/sbl/query/SBLCSS / https://www.spamhaus.org/query/bl?ip=204.12.225.53; from=<info@lifeyjingu.com> to=<admin@mymailserver.com> proto=ESMTP helo=<hse53.lif eyjingu.com>
 
 RBLs are typically used in conjunction with other spam-fighting techniques and tools such as Apache&reg; SpamAssasin&trade;. However, because SpamAssassin can be very central processing unit (CPU)-intensive, cutting spam traffic in half by using RBLs first might save valuable CPU resources on your mail server.
 

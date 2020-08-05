@@ -230,7 +230,7 @@ domain controllers.
 Enable the following ports on the Directory Sync server:
 
 -   **443** - Outbound HTTPS connections from Directory Sync service to
-    [Rackspace API](http://api.emailsrvr.com)
+    [Rackspace API](https://api.emailsrvr.com)
 -   **8732** - Open for connections from other domain controllers to the
     Directory Sync server. Not used for any connections outside
     your network. The domain controller password

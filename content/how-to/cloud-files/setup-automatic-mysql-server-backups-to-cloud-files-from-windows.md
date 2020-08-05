@@ -21,13 +21,13 @@ This article shows how to set up automatic MySQL server backups from your Window
 
 First you will need to download a small piece of C# software and compile it on a Windows Cloud Server. Use the following steps to build the Cloud Files upload software:
 
-1. [Download the software](http://c16281.r81.cf2.rackcdn.com/chmouel-upload-to-cf-cs-0.1-0-g79abd66.zip).
+1. [Download the software](https://c16281.r81.cf2.rackcdn.com/chmouel-upload-to-cf-cs-0.1-0-g79abd66.zip).
 
 2. Extract the software into your **C:** drive.
 
   For example, **C:/upload-to-cf-cs-0.1/**.
 
-3. Download and install [NAnt](http://nant.sourceforge.net/), a free .Net Build tool.
+3. Download and install [NAnt](https://nant.sourceforge.net/), a free .Net Build tool.
 
 4. After you have successfully installed NAnt, open a command prompt, navigate to the directory **C:/upload-to-cf-cs-0.1** and run `nant.exe`.
 
@@ -36,7 +36,7 @@ First you will need to download a small piece of C# software and compile it on a
        C:\upload-to-cf-cs-0.1>..\nant-0.90\bin\NAnt.exe
        NAnt 0.90 (Build 0.90.3780.0; release; 5/8/2010)
        Copyright (C) 2001-2010 Gerry Shaw
-       http://nant.sourceforge.net
+       https://nant.sourceforge.net
 
        Buildfile: file:///C:upload-to-cf-cs-0.1/compile.build
        Target framework: Microsoft .NET Framework 2.0

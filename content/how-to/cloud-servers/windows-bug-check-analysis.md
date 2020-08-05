@@ -41,7 +41,7 @@ After you install `WinDbg`, perform the following steps to add the symbol file p
 
 1. Open **WinDBG > File > Symbol File Path...** and enter the following:
 
-       SRV*C:\Windows\symbol_cache*http://msdl.microsoft.com/download/symbols
+       SRV*C:\Windows\symbol_cache*https://msdl.microsoft.com/download/symbols
 
 2. Click **OK**.
 

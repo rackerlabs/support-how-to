@@ -61,4 +61,4 @@ See the following resources for additional information:
     to set up Skype for Business on your devices.)
 
 -   [Skype for Business 2013 deployment guide on
-    TechNet](http://technet.microsoft.com/en-us/library/jj204827.aspx)
+    TechNet](https://technet.microsoft.com/en-us/library/jj204827.aspx)

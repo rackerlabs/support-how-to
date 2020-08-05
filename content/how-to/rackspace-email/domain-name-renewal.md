@@ -13,7 +13,7 @@ product_url: rackspace-email
 
 If your domain name is hosted with Rackspace and need to renew it, you can perform this task in the Cloud Office Control Panel.
 
-1.  Log in to the [Cloud Office Control Panel](http://cp.rackspace.com).
+1.  Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 1.  From the **Go to section** menu, select **Domains**.
 1.  In the **Manage** section, click **DNS Settings**.
 1.  Search for the domain name that you want to renew and click **Renew** in the **Expiration Date** column.

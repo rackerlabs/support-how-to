@@ -24,7 +24,7 @@ displayed by default. Instead, a caution bar is displayed at the top of
 the email (as shown in the following screenshot), and you can click that
 bar to display the images.
 
-<img src="{% asset_path rackspace-email/rackspace-email-protection-from-external-images-in-webmail/Image%20Protection-1_0.jpg %}" width="600" height="429" />
+<img src="ImageProtection-1_0.jpg" width="600" height="429" />
 
 If you understand the risks and would prefer to have images always
 loaded by default, you can disable the blocking in Webmail Settings.
@@ -34,6 +34,6 @@ loaded by default, you can disable the blocking in Webmail Settings.
     check box.
 3.  Click **Save**.
 
-<img src="{% asset_path rackspace-email/rackspace-email-protection-from-external-images-in-webmail/ImageProtectionWebmail.png %}" width="594" height="273" />
+<img src="ImageProtectionWebmail.png" width="594" height="273" />
 
 You can re-enable external image blocking at any time.

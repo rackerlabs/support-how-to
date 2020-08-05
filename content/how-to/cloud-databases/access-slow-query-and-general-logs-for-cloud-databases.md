@@ -27,7 +27,7 @@ To apply configuration groups you will need to enable root access to the databas
 
 You can use the slow query log to find queries that take a long time to execute and are therefore candidates for optimization. You can access the MySQL slow query log by writing it to a table and setting persistent values to appropriate parameters in your configuration group.
 
-For more information about the MySQL slow query log, see the [MySQL documentation on the slow query log](http://dev.mysql.com/doc/refman/5.6/en/slow-query-log.html).
+For more information about the MySQL slow query log, see the [MySQL documentation on the slow query log](https://dev.mysql.com/doc/refman/5.6/en/slow-query-log.html).
 
 To enable the logging of slow queries:
 
@@ -97,7 +97,7 @@ To enable the logging of slow queries:
 
 You can use the general query log to track all activity, including any connections to the database and all queries sent to the database. It can be useful when you want to check the queries being sent by a client for troubleshooting purposes.
 
-For more information about the MySQL general query log, see the [MySQL documentation on the general query log](http://dev.mysql.com/doc/refman/5.6/en/query-log.html).
+For more information about the MySQL general query log, see the [MySQL documentation on the general query log](https://dev.mysql.com/doc/refman/5.6/en/query-log.html).
 
 #### To enable the general query log
 

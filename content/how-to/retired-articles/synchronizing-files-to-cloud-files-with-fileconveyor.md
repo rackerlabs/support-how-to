@@ -13,7 +13,7 @@ product_url: cloud-files
 ---
 --->
 
-Many file synchronization applications exist, but few are as versatile as the open-source [File Conveyor](http://fileconveyor.org/). The File Conveyor source code is fully documented, and the tool is easy to install. In a matter of minutes, you can have the project synchronizing the local files on your server to a destination such as Rackspace Cloud Files.
+Many file synchronization applications exist, but few are as versatile as the open-source [File Conveyor](https://fileconveyor.org/). The File Conveyor source code is fully documented, and the tool is easy to install. In a matter of minutes, you can have the project synchronizing the local files on your server to a destination such as Rackspace Cloud Files.
 
 Using File Conveyor to synchronize files to the content delivery network (CDN) enables you to use Ecommerce solutions like Magento or CMS applications like Drupal or WordPress with Cloud Files without relying on a plug-in to handle the file transfers.
 
@@ -24,8 +24,8 @@ This article documents File Conveyor version 0.3. You can run File Conveyor vers
 - Your system must have Python 2.5 or later installed.
 - Installation of File Conveyor requires Git and the Python package manager pip. If these are not already installed, use the following instructions:
 
-  - You can download Git from the [project's website](http://git-scm.com/). Most Linux distributions also have Git in their main package repository, under the package name `git`.
-  - If you don't have [pip](http://pypi.python.org/pypi/rackspace-novaclient/) installed, the easiest way to get it is to install the Python `setuptools` package. You can download the installer from [its website](http://pypi.python.org/pypi/setuptools).
+  - You can download Git from the [project's website](https://git-scm.com/). Most Linux distributions also have Git in their main package repository, under the package name `git`.
+  - If you don't have [pip](https://pypi.python.org/pypi/rackspace-novaclient/) installed, the easiest way to get it is to install the Python `setuptools` package. You can download the installer from [its website](https://pypi.python.org/pypi/setuptools).
 
   As an alternative you can use a Linux package manager to install `setuptools`. On most distributions the package name is `python-setuptools`.
 
@@ -88,7 +88,7 @@ Before running File Conveyor, you need to configure it by creating a file named 
 
     - In the `<rules>` section set the `path` property to the subdirectory to synchronize to in the container. Leave the value blank to synchronize to the root of the container (path="").
 
-You can perform more complex synchronizations by using multiple rules, synchronizing from  multiple sources, or having File Conveyor change the file name or some of a file's properties before copying it to Cloud Files (using "processors"). You can find details in the File Conveyor documentation and [on the project's website](http://fileconveyor.org/).
+You can perform more complex synchronizations by using multiple rules, synchronizing from  multiple sources, or having File Conveyor change the file name or some of a file's properties before copying it to Cloud Files (using "processors"). You can find details in the File Conveyor documentation and [on the project's website](https://fileconveyor.org/).
 
 ### Run File Conveyor
 
@@ -104,7 +104,7 @@ After the initial synchronization is complete, you should be able to see the res
 
 ### More options
 
-The sample configuration provided in this article is simple, and you can do much more with File Conveyor to customize its operation for your needs. See the documentation in the source directory and the [project web page](http://fileconveyor.org/) for full details, but following are a few more options:
+The sample configuration provided in this article is simple, and you can do much more with File Conveyor to customize its operation for your needs. See the documentation in the source directory and the [project web page](https://fileconveyor.org/) for full details, but following are a few more options:
 
 - Run `verify.py` to check the source directory against the Cloud Files container to confirm that the files synchronized correctly.
 

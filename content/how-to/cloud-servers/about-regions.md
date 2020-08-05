@@ -31,7 +31,7 @@ Following is a list of available Rackspace regions:
 -   Hong Kong (HKG)
 
 For more information about Rackspace data centers, see the
-[Global Infrastructure page](http://www.rackspace.com/about/datacenters/).
+[Global Infrastructure page](https://www.rackspace.com/about/datacenters/).
 
 ### Region availability
 

@@ -15,7 +15,7 @@ This article describes how to install Nginx&reg; on CentOS&reg; 6 by using `yum`
 
 1. Use the following **wget** command to install the Nginx repository by pulling it from the listed address:
 
-       [root@server-01 ~]# wget http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+       [root@server-01 ~]# wget https://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
 
 2. Use the following command to install the RPM package **nginx-release-centos-6-0.el6.ngx.noarch.rpm**:
 

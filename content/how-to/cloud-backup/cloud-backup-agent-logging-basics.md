@@ -31,7 +31,7 @@ similar to the following example of a Windows configuration file:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"[]>
-    <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <log4j:configuration xmlns:log4j="https://jakarta.apache.org/log4j/">
       <appender name="FILE" class="org.apache.log4j.RollingFileAppender">
         <param name="File" value="C:\ProgramData\Driveclient\log\driveclient.log" />
         <param name="MaxFileSize" value="500MB" />
@@ -117,7 +117,7 @@ set higher than the default values:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"[]>
-    <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <log4j:configuration xmlns:log4j="https://jakarta.apache.org/log4j/">
       <appender name="FILE" class="org.apache.log4j.RollingFileAppender">
         <param name="File" value="C:\ProgramData\Driveclient\log\driveclient.log" />
         <param name="MaxFileSize" value=“2000MB" />
@@ -201,10 +201,10 @@ folder to which **CSIDL_COMMON_APPDATA** points.
 
 -   For more information about this location on Windows versions
     starting with Vista, see
-    <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd378457(v=vs.85).aspx">KNOWNFOLDERID</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd378457(v=vs.85).aspx">KNOWNFOLDERID</a>.
 -   For more information about this location on earlier versions of
     Windows, see
-    <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/bb762494(v=vs.85).aspx">CSIDL</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/bb762494(v=vs.85).aspx">CSIDL</a>.
 
 In a typical installation, the files are located in the following folders:
 

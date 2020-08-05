@@ -22,7 +22,7 @@ private Amazon S3 buckets. Also, you cannot
 CDN-enable Cloud Files containers with Rackspace CDN. For
 information about setting up a static website in Cloud Files, see [Point
 and click your way to a Cloud Files static website with the Control
-Panel](http://www.rackspace.com/blog/point-and-click-your-way-to-a-cloud-files-static-website-with-the-control-panel/).
+Panel](https://www.rackspace.com/blog/point-and-click-your-way-to-a-cloud-files-static-website-with-the-control-panel/).
 
 ### Set up the origin server in AWS
 

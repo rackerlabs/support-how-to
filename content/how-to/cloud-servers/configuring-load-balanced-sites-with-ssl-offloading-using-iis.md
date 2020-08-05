@@ -39,7 +39,7 @@ Secure (HTTPS) port 443. Click **Save Protocol/Port**.
 ### Create a conditional redirect
 
 1. IIS version 7 does not support conditional redirects by default. To handle this, 
-install an extension, such as Microsoft&reg; [URL Rewrite](http://www.iis.net/downloads/microsoft/url-rewrite).
+install an extension, such as Microsoft&reg; [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite).
 
 2. The Rackspace Cloud Load Balancers service passes a header value to determine the
 original protocol used by the request (HTTP or HTTPS). This header is

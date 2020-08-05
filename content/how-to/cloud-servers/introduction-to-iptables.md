@@ -18,7 +18,7 @@ all Linux distros and operates by analyzing packets at the kernel level
 as they are received.
 
 For a comprehensive list of IP tables commands, parameters, and other
-options, see the [MAN page](http://linux.die.net/man/8/iptables) and the
+options, see the [MAN page](https://linux.die.net/man/8/iptables) and the
 [IP tables how-to](https://help.ubuntu.com/community/IptablesHowTo/).
 
 ### The Base Ruleset
@@ -52,7 +52,7 @@ that particular Chain, with a standard install all policies will be
 ### Policies
 
 The available policies and other options are extensive, if you would
-like to know more about them check out the [manpage](http://linux.die.net/man/8/iptables "http://linux.die.net/man/8/iptables")
+like to know more about them check out the [manpage](https://linux.die.net/man/8/iptables "https://linux.die.net/man/8/iptables")
 for IPtables. In the scope of this article I will only cover the
 following three policies which are the most common:
 
@@ -68,7 +68,7 @@ following three policies which are the most common:
 
 ### Available Options
 
-IPtables MAN page: <http://linux.die.net/man/8/iptables>
+IPtables MAN page: <https://linux.die.net/man/8/iptables>
 
 The options that are recognized by iptables can be divided into several
 different groups:
@@ -103,7 +103,7 @@ attempts at SSH connections.
          sudo iptables -I INPUT 1 -p tcp  --dport 22 -j ACCEPT
 
   In this command, we will allow connections only coming from a certain IP
-subnet using [CIDR](http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing "http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing")
+subnet using [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing "https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing")
 notation. In this example we are going to lockdown to any IP address
 lying in the range of 192.168.1.0 - 192.168.1.255
 
@@ -127,7 +127,7 @@ port 21.
 -  List of common Ports
 
   Using what you've learned from the above use the following list of
-[common ports](http://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well_known_ports:_1_-_1023)
+[common ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well_known_ports:_1_-_1023)
 from the link to create rules for any running server you have.
 
 -  Changing the Default Policy
@@ -172,9 +172,9 @@ your server from basic attacks. Keep in mind that IPTables is a very
 powerful tool that would take a book to fully go through all of its
 abilities. My next networking article will go through a few simple
 networking tricks like port forwarding and NATing. If you need help
-creating more rules, see [Easy Firewall Generator for IPTables](http://easyfwgen.morizot.net/gen/ "http://easyfwgen.morizot.net/gen/").
+creating more rules, see [Easy Firewall Generator for IPTables](https://easyfwgen.morizot.net/gen/ "https://easyfwgen.morizot.net/gen/").
 
 ### References and links
 
 -   [Ubuntu IPtables Howto](https://help.ubuntu.com/community/IptablesHowTo/ "https://help.ubuntu.com/community/IptablesHowTo/")
--   [Man IPtables](http://linux.die.net/man/8/iptables "http://linux.die.net/man/8/iptables")
+-   [Man IPtables](https://linux.die.net/man/8/iptables "https://linux.die.net/man/8/iptables")

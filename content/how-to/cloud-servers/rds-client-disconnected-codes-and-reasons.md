@@ -54,7 +54,7 @@ The following event log entry example shows event ID `1026` of an RDP client ses
     Description:
     RDP ClientActiveX has been disconnected (Reason= 263)
     Event Xml:
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event Jump ">
+    <Event xmlns="https://schemas.microsoft.com/win/2004/08/events/event Jump ">
       <System>
         <Provider Name="Microsoft-Windows-TerminalServices-ClientActiveXCore" Guid="{28AA95BB-D444-4719-A36F-40462168127E}" />
         <EventID>1026</EventID>

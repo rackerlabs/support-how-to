@@ -240,7 +240,7 @@ You will need to issue the GRANT for this on the master, which replicates to the
 
 Assuming you are behind a firewall, the 'slavePrimaryIP' should be the internal IP of the slave server [192.168.100.x]. In the check_replication.php script, set <code>host='192.168.100.x</code>, the internal IP of the server the script is running on. This is usually the same as <code>slavePrimaryIP</code>.
 
-Contact your account manager and request setup of the SiteScope monitor. The URL should be the public IP of the monitoring server, for example <code>http://68.23.45.32/check_replication.php</code>
+Contact your account manager and request setup of the SiteScope monitor. The URL should be the public IP of the monitoring server, for example <code>https://68.23.45.32/check_replication.php</code>
 
 [https://wiki.rackspace.corp/Databases/MySQL/ReplicationMonitoringScript](https://wiki.rackspace.corp/Databases/MySQL/ReplicationMonitoringScript)
 

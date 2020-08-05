@@ -17,7 +17,7 @@ Adding a site to an existing stack requires changes to the configurations for mu
 
 ### Connect to the backend (database) server
 
-1. Log in to the [Cloud Control Panel](http://mycloud.rackspace.com).
+1. Log in to the [Cloud Control Panel](https://mycloud.rackspace.com).
 
 2. In the top navigation bar, click **Orchestration > Stacks** to view the list of existing stacks.
 
@@ -73,7 +73,7 @@ Now that the database is ready, you can install WordPress on the master node.
 
 3. Use `wget` to download the latest WordPress tarball.
 
-        wget http://wordpress.org/latest.tar.gz
+        wget https://wordpress.org/latest.tar.gz
 
 4. Download a script called [wordpress-cli-installer](https://github.com/nexcess/wordpress-cli-installer).
 
@@ -167,7 +167,7 @@ Now that the database is ready, you can install WordPress on the master node.
 
 14. Run `wordpress-cli-installer`, passing it arguments for the site's base URL, title, admin email address, and WordPress location.
 
-        sudo sh ~/wordpress-cli-installer.sh -b 'http://blogsrock.rackspace.com' -T 'BLOGS ROCK' -e 'admin@example.com' /var/www/vhosts/blogsrock.rackspace.com/http_docs/
+        sudo sh ~/wordpress-cli-installer.sh -b 'https://blogsrock.rackspace.com' -T 'BLOGS ROCK' -e 'admin@example.com' /var/www/vhosts/blogsrock.rackspace.com/http_docs/
 
 ### Set up the system
 

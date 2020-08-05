@@ -59,7 +59,7 @@ an Accept Header and a query extension, the query extension takes
 precedence.
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <domain xmlns="http://docs.rackspacecloud.com/dns/api/v1.0"
+    <domain xmlns="https://docs.rackspacecloud.com/dns/api/v1.0"
         id="2725511" accountId="1234" name="rtb0007.com" ttl="3600" emailAddress="sample@rackspace.com" updated="2011-06-24T01:23:15Z" created="2011-06-24T01:12:51Z" comment="Optional domain comment...">
         <nameservers>
             <nameservername="ns.rackspace.com" />

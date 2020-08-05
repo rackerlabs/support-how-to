@@ -23,11 +23,11 @@ Your choice depends on your goals, technical expertise, budget, and what you wan
 to do.
 
 - For a simple blog or brochure-type site,
-[WordPress](http://www.wordpress.org/) could be the best
+[WordPress](https://www.wordpress.org/) could be the best
 choice (while very friendly for non-developers, it's a flexible platform also capable of
 creating very complex sites).
 - For a complex, highly customized site requiring scalability and complex content
-organization, [Drupal](http://www.drupal.org/) might be
+organization, [Drupal](https://www.drupal.org/) might be
 the best choice.
 - For something in between that has an easier learning curve,
 [Joomla](https://www.joomla.org/) might be the answer.
@@ -49,9 +49,9 @@ you decide.
 
 |   | **Drupal** | **Joomla** | **WordPress** |
 | --- | --- | --- | --- |
-| **Homepage** | [www.drupal.org](http://www.drupal.org) | [www.joomla.org](http://www.joomla.org) | [www.wordpress.org](http://www.wordpress.org) |
+| **Homepage** | [www.drupal.org](https://www.drupal.org) | [www.joomla.org](https://www.joomla.org) | [www.wordpress.org](https://www.wordpress.org) |
 | **About** | Drupal is a powerful, developer-friendly tool for building complex sites. Like most powerful tools, it requires some expertise and experience to operate. | Joomla offers a platform between the developer-oriented, extensive capabilities of Drupal and the user-friendly but more complex site development options that WordPress offers. | WordPress began as an innovative, easy-to-use blogging platform. With an ever-increasing repertoire of themes, plugins, and widgets, this CMS is also widely used for other website formats also. |
-| **Installation** | [Drupal installation forum](http://drupal.org/forum/1) | [Joomla installation forum](https://forum.joomla.org/viewforum.php?f=707) | [WordPress installation forum](http://wordpress.org/support/forum/installation) |
+| **Installation** | [Drupal installation forum](https://drupal.org/forum/1) | [Joomla installation forum](https://forum.joomla.org/viewforum.php?f=707) | [WordPress installation forum](https://wordpress.org/support/forum/installation) |
 | **Ease of use** | Drupal requires the most technical expertise of the three CMSs. However, it also is capable of producing the most advanced sites. With each release, it is becoming easier to use. If you're unable to commit to learning the software or can't hire someone who knows it, it might not be the best choice. | Joomla is less complex than Drupal but more complex than WordPress. It has a relatively uncomplicated installation and setup. With a  small investment of effort into understanding Joomla's structure and terminology, you have the ability to create fairly complex sites. | Technical experience is not necessary; it's intuitive and easy to get a simple site set up quickly. It's easy to paste text from a Microsoft Word document into a WordPress site, but not into Joomla and Drupal sites. |
 | **Caching plug-ins** | Pressflow is a downloadable version of Drupal that comes bundled with popular enhancements in key areas, including performance and scalability. | JotCache offers page caching in the Joomla 1.5, 2.5, and 3.0 search framework, resulting in fast page downloads. It also provides control over what content is cached and what is not. In addition, page caching is supported by the System Cache Plugin that comes with Joomla. | The WP-SuperCache plug-in optimizes performance by generating static HTML files from database-driven content for faster load times. |
 | **Features** | Drupal is known for its powerful taxonomy and ability to tag, categorize, and organize complex content. | Joomla is designed to perform as a community platform, with strong social networking features. | Ease of use is a key benefit for experts and novices alike. WordPress is powerful enough for web developers or designers to efficiently build sites for clients; then, with minimal instruction, clients can take over the site management. WordPress is known for an extensive selection of themes. It's user-friendly with great support and tutorials, making it great for non-technical users to quickly deploy fairly simple sites. |

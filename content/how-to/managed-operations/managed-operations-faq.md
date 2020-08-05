@@ -173,7 +173,7 @@ For additional information, see the following How-To articles:
     or
     [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
 -   Rackspace Cloud Backup - Create and schedule [file-based backups](/how-to/rackspace-cloud-backup-create-a-backup).
--   [Holland Backup Manager](http://hollandbackup.org/) - Find out about an open-source
+-   [Holland Backup Manager](https://hollandbackup.org/) - Find out about an open-source
     backup framework originally developed at Rackspace and written
     in Python.
 
@@ -244,6 +244,6 @@ Servers.
         [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
     -   Rackspace Cloud Backup - Create and schedule [file-based
         backups](/how-to/rackspace-cloud-backup-create-a-backup).
-    -   [Holland Backup Manager](http://hollandbackup.org/) - Find information about an
+    -   [Holland Backup Manager](https://hollandbackup.org/) - Find information about an
         open-source backup framework originally developed at Rackspace
         and written in Python.

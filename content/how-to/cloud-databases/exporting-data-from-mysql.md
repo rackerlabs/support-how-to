@@ -36,4 +36,4 @@ Databases](/how-to/importing-data-into-cloud-databases).
 
 The following external link provides additional information:
 
-- [MYSQL Documentation](http://dev.mysql.com/doc/)
+- [MYSQL Documentation](https://dev.mysql.com/doc/)

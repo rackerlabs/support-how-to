@@ -35,8 +35,8 @@ ready to use:
     Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz
 
 You can also install cURL on Microsoft Windows. To do so, visit
-the [cURL homepage](http://www.curl.com/) and download the executable
-from the [Downloads page](http://www.curl.com/download/). The Windows
+the [cURL homepage](https://www.curl.com/) and download the executable
+from the [Downloads page](https://www.curl.com/download/). The Windows
 binary will require installation of some Microsoft Visual C++ libraries
 to work correctly.
 
@@ -61,7 +61,7 @@ page data.
 Running the following command with your favorite website URL returns the
 HTML markup.
 
-    $ curl http://www.example.com
+    $ curl https://www.example.com
 
 By default, cURL sends the response body returned by the server directly
 to the terminal. You can also capture the output and send it directly to
@@ -70,8 +70,8 @@ this either by using the `-o` flag to specify an output file or by using
 the Linux redirection operator to capture the output, as shown in the
 following example:
 
-    $ curl -o index.html http://www.example.com
-    $ curl http://www.example.com > index.html
+    $ curl -o index.html https://www.example.com
+    $ curl https://www.example.com > index.html
 
 #### Perform an HTTP POST operation
 
@@ -84,8 +84,8 @@ XML documents. To post an XML or JSON file, you need to specify the
 `Content-Type` appropriately so that the receiving server knows what to
 expect, as shown in the following examples:
 
-    $ curl -X POST -d @mydocument.xml -H "Content-Type: application/xml" http://www.example.com/form
-    $ curl -X POST -d @mydocument.json -H "Content-Type: application/json" http://www.example.com/form
+    $ curl -X POST -d @mydocument.xml -H "Content-Type: application/xml" https://www.example.com/form
+    $ curl -X POST -d @mydocument.json -H "Content-Type: application/json" https://www.example.com/form
 
 You can also specify the data as a quoted string, but this can be
 unwieldy when done from the command line.
@@ -101,7 +101,7 @@ receiving server knows what kind of file it is. cURL automatically
 passes through the required `Content-Length` headers to ensure that the
 file is uploaded in a standard fashion. The syntax is as follows:
 
-    $ curl -X PUT -T myobject.jpg -H "Content-Type: image/jpeg" http://www.example.com/upload
+    $ curl -X PUT -T myobject.jpg -H "Content-Type: image/jpeg" https://www.example.com/upload
 
 #### View the HTTP headers
 
@@ -111,9 +111,9 @@ contain useful information such as the HTTP response code. To view the
 HTTP response headers, use the `-I` option, as shown in the following
 example. This option is the equivalent of an HTTP HEAD request (X HEAD):
 
-    $ curl -I http://www.example.com
+    $ curl -I https://www.example.com
     HTTP/1.0 302 Found
-    Location: http://www.iana.org/domains/example/
+    Location: https://www.iana.org/domains/example/
     Server: BigIP
     Connection: Keep-Alive
     Content-Length: 0
@@ -125,7 +125,7 @@ transaction. You can do this by using the verbose (`-v`) flag, which prints out
 practically all the HTTP data that is sent back and forth, including the
 request headers. This flag is quite useful for debugging purposes.
 
-    $ curl -v http://www.example.com
+    $ curl -v https://www.example.com
     * About to connect() to www.example.com port 80 (#0)
     * Trying 192.0.43.10... connected
     * Connected to www.example.com (192.0.43.10) port 80 (#0)
@@ -174,7 +174,7 @@ examples in this article will use XML documents because they are more
 descriptive. Following is an example XML document saved as **auth.xml**:
 
     <?xml version="1.0" encoding="UTF-8"?>
-    <credentials xmlns="http://docs.rackspacecloud.com/auth/api/v1.1"
+    <credentials xmlns="https://docs.rackspacecloud.com/auth/api/v1.1"
     username="johndoe"
     key="4e229b2e0789d9070e8411c9beee1c13"/>
 
@@ -200,7 +200,7 @@ based customer:
 The following examples shows the response to the authentication request:
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-    <auth xmlns="http://docs.rackspacecloud.com/auth/api/v1.1">
+    <auth xmlns="https://docs.rackspacecloud.com/auth/api/v1.1">
     <token expires="2012-01-17T03:52:09.000-06:00" id="3c5c8187-2569-47e0-8a11-edadd384e12b"/>
     <serviceCatalog>
     <service name="cloudFilesCDN">
@@ -495,8 +495,8 @@ The following request enables and publishes the images container:
     ...
     HTTP/1.1 204 No Content Date: Wed, 15 Feb 2012 20:28:29 GMT
     Server: Apache
-    X-CDN-URI: http://c12345.r49.cf2.rackcdn.com
-    X-CDN-SSL-URI: https://c12345.ssl.cf2.rackcdn.com X-CDN-STREAMING-URI: http://c12345.r49.stream.cf2.rackcdn.com
+    X-CDN-URI: https://c12345.r49.cf2.rackcdn.com
+    X-CDN-SSL-URI: https://c12345.ssl.cf2.rackcdn.com X-CDN-STREAMING-URI: https://c12345.r49.stream.cf2.rackcdn.com
     X-CDN-Enabled: True
     X-TTL: 259200
     X-Log-Retention: False
@@ -517,9 +517,9 @@ The following request lists the CDN details of the images container:
     HTTP/1.1 204 No
     Content Date: Mon, 20 Feb 2012 19:39:41 GMT
     Server: Apache
-    X-CDN-URI: http://c4965949.r49.cf2.rackcdn.com
+    X-CDN-URI: https://c4965949.r49.cf2.rackcdn.com
     X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
-    X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
+    X-CDN-STREAMING-URI: https://c4965949.r49.stream.cf2.rackcdn.com
     X-CDN-Enabled: True
     X-TTL: 259200
     X-Log-Retention: False
@@ -558,9 +558,9 @@ The following example request unpublishes a container called images:
     < HTTP/1.1 202 Accepted
     < Date: Mon, 20 Feb 2012 19:33:33 GMT
     < Server: Apache
-    < X-CDN-URI: http://c4965949.r49.cf2.rackcdn.com
+    < X-CDN-URI: https://c4965949.r49.cf2.rackcdn.com
     < X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
-    < X-CDN-STREAMING-URI: http://c4965949.r49.stream.cf2.rackcdn.com
+    < X-CDN-STREAMING-URI: https://c4965949.r49.stream.cf2.rackcdn.com
     < Content-Length: 0
     < Connection: close
     < Content-Type: text/plain; charset=UTF-8

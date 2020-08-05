@@ -147,7 +147,7 @@ The following antivirus software is supported in the indicated areas:
 Although we don't support all technologies, we do offer *reasonable endeavor* support, which extends our support into offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other third-party services.
 
 - **API support**: All the support functions listed in the [API guides](https://developer.rackspace.com/docs) are supported.
-- **Backups**: Rackspace provides solutions for file system and database backups including leveraging the use of open-source projects such as [Holland](http://docs.hollandbackup.org/). For more information, contact Support.
+- **Backups**: Rackspace provides solutions for file system and database backups including leveraging the use of open-source projects such as [Holland](https://docs.hollandbackup.org/). For more information, contact Support.
 -  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
    support is offered to help use Cloud Files via the API.
 -  **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Bind/named are *not* supported at this time.
@@ -158,7 +158,7 @@ Although we don't support all technologies, we do offer *reasonable endeavor* su
 
 The Support team for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
 
-- [EPEL](http://fedoraproject.org/wiki/EPEL)
+- [EPEL](https://fedoraproject.org/wiki/EPEL)
 - [IUS](https://ius.io/)
 - [MariaDB (vendor)](https://downloads.mariadb.org/mariadb/repositories/#mirror=osuosl)
 - [MySQL (vendor)](https://dev.mysql.com/downloads/repo/)

@@ -41,7 +41,7 @@ Different versions of Windows might have slightly different interfaces.
 Use the following steps to download and open PuTTY:
 
 1. Download PuTTY from the
-   [PuTTY website](http://www.chiark.greenend.org.uk/~sgtatham/putty/ "http://www.chiark.greenend.org.uk/~sgtatham/putty/").
+   [PuTTY website](https://www.chiark.greenend.org.uk/~sgtatham/putty/ "https://www.chiark.greenend.org.uk/~sgtatham/putty/").
 
    Ensure that you comply with the license requirements.
 

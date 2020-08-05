@@ -25,7 +25,7 @@ This article describes how to manage configurations by using the Cloud Control
 Panel.
 
 For details about configuration parameters, see the MySQL documentation
-[5.1.4 Server System Variables](http://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html).
+[5.1.4 Server System Variables](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html).
 
 ### Create a new configuration group and apply it to an instance
 

@@ -45,7 +45,7 @@ of hybrid hosting.
     balancer, and cloud servers.
 
 -   Add [Cloud Block
-    Storage](http://www.rackspace.com/cloud/block-storage/) for
+    Storage](https://www.rackspace.com/cloud/block-storage/) for
     easy scalability.
 
 

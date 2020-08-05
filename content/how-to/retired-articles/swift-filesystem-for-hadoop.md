@@ -52,7 +52,7 @@ The different parts of the URL are explained in the following table:
 <tr class="even">
 <td align="left"><p>acontainer</p></td>
 <td align="left"><p>The name of the container in Swift that contain the objects to be accessed.</p>
-<p>Container names must conform to <a href="http://tools.ietf.org/html/rfc952">RFC952</a> restrictions for hostnames, that is, the characters A-Z, numbers 0-9, and the hyphen (-).</p>
+<p>Container names must conform to <a href="https://tools.ietf.org/html/rfc952">RFC952</a> restrictions for hostnames, that is, the characters A-Z, numbers 0-9, and the hyphen (-).</p>
 <p>Nonconforming container names are inaccessible by swiftfs.</p></td>
 </tr>
 <tr class="odd">
@@ -194,4 +194,4 @@ configuration.
 For additional information about Hortonworks Data Platform (HDP) in the
 Rackspace Cloud environment, see the Hortonworks blog post, [OpenStack:
 why it's so great to see HDP in Rackspace
-cloud.](http://hortonworks.com/blog/openstack-why-its-so-great-to-see-hdp-in-rackspace-cloud/)
+cloud.](https://hortonworks.com/blog/openstack-why-its-so-great-to-see-hdp-in-rackspace-cloud/)

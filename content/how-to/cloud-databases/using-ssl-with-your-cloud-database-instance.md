@@ -32,16 +32,16 @@ associated with Cloud Databases.
 Download one of the following SSL certificates, based on when the Cloud Databases instance was created:
 
 -   For instances created before March 1, 2016, [download the SSL
-certificate](http://ssl.rackspaceclouddb.com/ca-cert.pem) from the
+certificate](https://ssl.rackspaceclouddb.com/ca-cert.pem) from the
 following URL:
 
-    `http://ssl.rackspaceclouddb.com/ca-cert.pem`
+    `https://ssl.rackspaceclouddb.com/ca-cert.pem`
     
 -   For instances created on or after March 1, 2016, [download the SSL
-certificate](http://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem) from the
+certificate](https://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem) from the
 following URL:
 
-    `http://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem`
+    `https://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem`
 
 Your applications should use the downloaded certificate as the Certificate Authority (CA)
 certificate for SSL connections to your database.

@@ -69,7 +69,7 @@ Log in to your control panel and click the **Support** menu at the top of the sc
 
 #### How can I determine the Cloud Office system status?
 
-To view the Cloud Office system status, go to <http://status.apps.rackspace.com/>.
+To view the Cloud Office system status, go to <https://status.apps.rackspace.com/>.
 
 #### How do TLS and SSL work in Cloud Office?
 

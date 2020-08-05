@@ -47,4 +47,4 @@ that an upload of a new file with the same name won't overwrite the
 contents of the first until the last moment when the manifest file is
 updated.
 
-For more information on using the swift tool, see the [OpenStack Swift documentation](http://docs.openstack.org/developer/swift/).
+For more information on using the swift tool, see the [OpenStack Swift documentation](https://docs.openstack.org/developer/swift/).

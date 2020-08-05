@@ -26,7 +26,7 @@ command-line scripting tools would simply be too slow or clunky.
 ### Installation
 
 Fwbuilder may either be downloaded from
-[Sourceforge](http://sourceforge.net/project/showfiles.php?group_id=5314&package_id=125359)
+[Sourceforge](https://sourceforge.net/project/showfiles.php?group_id=5314&package_id=125359)
 or installed via your Cloud Server's built-in package manager:
 
     aptitude install fwbuilder
@@ -40,4 +40,4 @@ to launch the application.
 
 ### Additional resources
 
-[Firewall Builder 5 User's Guide](http://www.fwbuilder.org/4.0/docs/users_guide5/ "http://www.fwbuilder.org/4.0/docs/users_guide5/")
+[Firewall Builder 5 User's Guide](https://www.fwbuilder.org/4.0/docs/users_guide5/ "https://www.fwbuilder.org/4.0/docs/users_guide5/")

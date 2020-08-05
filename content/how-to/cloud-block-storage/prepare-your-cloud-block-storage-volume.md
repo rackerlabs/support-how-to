@@ -44,7 +44,7 @@ click the gear icon next to the server name, and select **Change Password**.
         Ubuntu 10.04 LTS
 
         Welcome to the Ubuntu Server!
-        * Documentation:  http://www.ubuntu.com/server/doc
+        * Documentation:  https://www.ubuntu.com/server/doc
         Last login: Thu Oct 18 02:26:38 2012 from 70.114.215.201
 
 3. After you are logged in, list the disks on your server.

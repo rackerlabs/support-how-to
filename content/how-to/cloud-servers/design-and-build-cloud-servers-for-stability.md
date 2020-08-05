@@ -42,7 +42,7 @@ offer a tremendous amount of stability, you can configure them in a RAID
 for extra redundancy.
 
 Learn more about Cloud Block Storage best practices from this
-[blog post](http://www.rackspace.com/blog/best-practices-for-cloud-block-storage/).
+[blog post](https://www.rackspace.com/blog/best-practices-for-cloud-block-storage/).
 
 ### Dynamic DNS and multiple configurations
 
@@ -54,7 +54,7 @@ address when it detects a failure in your primary configuration. This second IP
 address can even be to a configuration in a different region for geographic
 redundancy.
 
-[Cedexis](http://www.cedexis.com/) offers multiple solutions to improve
+[Cedexis](https://www.cedexis.com/) offers multiple solutions to improve
 performance and availability by load balancing between multiple cloud regions.
 
 Through an application-aware global content delivery network (CDN) platform,

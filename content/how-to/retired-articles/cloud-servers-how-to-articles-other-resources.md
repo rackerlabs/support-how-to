@@ -43,21 +43,21 @@ articles:
 
 ### Popular Technical Articles from the Rackspace Blog
 
--  [Rackspace Cloud Does Droid](http://www.rackspace.com/blog/rackspace-cloud-does-droid/)
+-  [Rackspace Cloud Does Droid](https://www.rackspace.com/blog/rackspace-cloud-does-droid/)
 
--  [The Rackspace Cloud Powered By OpenStack](http://www.rackspace.com/blog/next-generation-rackspace-cloud-servers/)
+-  [The Rackspace Cloud Powered By OpenStack](https://www.rackspace.com/blog/next-generation-rackspace-cloud-servers/)
 
--  [Optimizing Your Drupal Site](http://www.rackspace.com/blog/optimizing-your-drupal-site/)
+-  [Optimizing Your Drupal Site](https://www.rackspace.com/blog/optimizing-your-drupal-site/)
 
--  [Coding in the Cloud - Rule 2 - Don't write to the database in real time](http://www.rackspace.com/blog/coding-in-the-cloud-rule-2-dont-write-to-the-database-in-real-time/)
+-  [Coding in the Cloud - Rule 2 - Don't write to the database in real time](https://www.rackspace.com/blog/coding-in-the-cloud-rule-2-dont-write-to-the-database-in-real-time/)
 
--  [Installing and Configuring LVS-TUN](http://www.rackspace.com/blog/installing-and-configuring-lvs-tun/)
+-  [Installing and Configuring LVS-TUN](https://www.rackspace.com/blog/installing-and-configuring-lvs-tun/)
 
--  [Storing Data In Cloud Files With Rails](http://www.rackspace.com/blog/storing-data-in-cloud-files-with-rails/)
+-  [Storing Data In Cloud Files With Rails](https://www.rackspace.com/blog/storing-data-in-cloud-files-with-rails/)
 
--  [Running Multiple Websites on a Cloud Server with 1 IP](http://www.rackspace.com/blog/running-multiple-websites-on-a-cloud-server-with-1-ip/)
+-  [Running Multiple Websites on a Cloud Server with 1 IP](https://www.rackspace.com/blog/running-multiple-websites-on-a-cloud-server-with-1-ip/)
 
--  [Rackspace Cloud Servers vs. VPS Platforms](http://www.rackspace.com/blog/rackspace-cloud-servers-vs-vps-platforms/)
+-  [Rackspace Cloud Servers vs. VPS Platforms](https://www.rackspace.com/blog/rackspace-cloud-servers-vs-vps-platforms/)
 
 ### Learn About the OpenStack Compute Nova Project
 
@@ -67,7 +67,7 @@ your own OpenStack Compute Nova solution or dig into the details of the
 OpenStack project that powers Cloud Servers, check out:
 
 -   Project and bug reporting on [Launchpad](https://launchpad.net/nova), Code on [GitHub](https://github.com/openstack/nova)
--   [Nova Developer Documentation](http://nova.openstack.org/)
--   [Nova Install Instructions](http://wiki.openstack.org/InstallInstructions/Nova)
--   Configuring Nova: listing of nova.conf [configuration options](http://wiki.openstack.org/NovaConfigOptions)
--   [How to Contribute Code](http://wiki.openstack.org/HowToContribute)
+-   [Nova Developer Documentation](https://nova.openstack.org/)
+-   [Nova Install Instructions](https://wiki.openstack.org/InstallInstructions/Nova)
+-   Configuring Nova: listing of nova.conf [configuration options](https://wiki.openstack.org/NovaConfigOptions)
+-   [How to Contribute Code](https://wiki.openstack.org/HowToContribute)

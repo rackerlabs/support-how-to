@@ -90,6 +90,6 @@ available during Early Access might change.
 #### What are the Terms of Service?
 
 During the Early Access period, the Cloud Feeds Terms of Service are
-available at <http://www.rackspace.com/information/legal/testterms>.
+available at <https://www.rackspace.com/information/legal/testterms>.
 When the Early Access Program is over, the Terms of Service will revert
 to the standard Cloud Terms of Service.

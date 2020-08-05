@@ -26,7 +26,7 @@ unavailable, etc. Using Cloud Queues as a middle layer means that
 servers producing work can post messages to the queue as quickly as
 needed, without caring if a server is available to do that work.
  Servers working on tasks can easily be scaled up and down as needed.
-For pricing and service information, please see [the Cloud Queues product page](http://www.rackspace.com/cloud/queues/) on our website.
+For pricing and service information, please see [the Cloud Queues product page](https://www.rackspace.com/cloud/queues/) on our website.
 
 ### Example use cases
 

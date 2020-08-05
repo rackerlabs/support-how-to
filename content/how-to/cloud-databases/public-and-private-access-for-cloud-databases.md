@@ -47,7 +47,7 @@ Database. Choose the connection method that works best for your
 implementation.
 
 ![Accessing a Cloud
-Database](http://c691244.r44.cf2.rackcdn.com/cloud-databases-network-illustration-rev2.png)
+Database](https://c691244.r44.cf2.rackcdn.com/cloud-databases-network-illustration-rev2.png)
 
 ### Related Information
 

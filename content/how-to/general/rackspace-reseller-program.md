@@ -12,7 +12,7 @@ product_url: undefined
 ---
 
 The [Rackspace Reseller program](https://partners.rackspace.com/English/resellers.aspx) is
-built to enable all types of businesses to incorporate [hybrid cloud solutions](http://www.rackspace.com/cloud/hybrid/) into their current
+built to enable all types of businesses to incorporate [hybrid cloud solutions](https://www.rackspace.com/cloud/hybrid/) into their current
 product and service offerings. The reseller program helps you succeed
 by:
 

@@ -24,7 +24,7 @@ Reinstalling the agent on a server disconnects any previously registered agents 
 
 ### Download the installer
 
-For a 64-bit Windows server architecture download the latest MSI installation file for that architecture from [64-bit Windows MSI](http://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This file will almost always be the correct one for your server).
+For a 64-bit Windows server architecture download the latest MSI installation file for that architecture from [64-bit Windows MSI](https://agentrepo.drivesrvr.com/win64/driveclient-latest.msi) (This file will almost always be the correct one for your server).
 
 ### Perform a silent installation
 
@@ -73,8 +73,8 @@ Following are optional, less-frequently used (expert) installation options that 
 
 - `UPGRADEARCH` (default `win64` or `win32` depending on the MSI agent type): The folder on the download server where you find the MSI for the architecture that you want.
 
-- `UPGRADEBASEURL` (default `http://agentrepo.drivesrvr.com/`): The URL for the download server where the setup MSI files are stored.
+- `UPGRADEBASEURL` (default `https://agentrepo.drivesrvr.com/`): The URL for the download server where the setup MSI files are stored.
 
-For more options for installing MSI packages, see [msiexec command line options](http://technet.microsoft.com/en-us/library/cc759262%28v=ws.10%29.aspx).
+For more options for installing MSI packages, see [msiexec command line options](https://technet.microsoft.com/en-us/library/cc759262%28v=ws.10%29.aspx).
 
 A successful installation results in two running services, the Driveclient and the Updater. You can see these via **services.msc**. For the verification steps to test the installation, see the section, "Test Windows installation or update," in [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).

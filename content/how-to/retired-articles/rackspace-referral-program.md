@@ -12,7 +12,7 @@ last_modified_by: Nate Archer
 The [Rackspace Referral Program](https://partners.rackspace.com/English/referrals.aspx)
 provides our partners and customers with a simple and easy way to refer
 [dedicated bare metal](https://www.rackspace.com/dedicated-servers/),
-[cloud](http://www.rackspace.com/cloud/hybrid/), and [email hosting](http://www.rackspace.com/email-hosting/) opportunities. We want
+[cloud](https://www.rackspace.com/cloud/hybrid/), and [email hosting](https://www.rackspace.com/email-hosting/) opportunities. We want
 to help you leverage the Rackspace brand in the global marketplace to
 uncover new opportunities and refer our solutions to your
 customers and prospects.
