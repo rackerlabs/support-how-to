@@ -6,4 +6,5 @@ product: Office 365
 product_url: office-365
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="office-365">}}

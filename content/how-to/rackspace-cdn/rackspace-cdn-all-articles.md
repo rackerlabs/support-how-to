@@ -6,4 +6,5 @@ product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rackspace-cdn">}}

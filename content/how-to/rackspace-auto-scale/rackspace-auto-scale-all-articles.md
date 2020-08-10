@@ -6,4 +6,5 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rackspace-auto-scale">}}

@@ -6,4 +6,4 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-{% include all-articles-list.html %}
+{{<list product_url="cloud-backup">}}

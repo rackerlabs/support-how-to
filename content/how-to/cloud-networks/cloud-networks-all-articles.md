@@ -6,4 +6,5 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-networks">}}

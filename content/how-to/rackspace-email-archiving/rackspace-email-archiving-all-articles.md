@@ -6,4 +6,5 @@ product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rackspace-email-archiving">}}

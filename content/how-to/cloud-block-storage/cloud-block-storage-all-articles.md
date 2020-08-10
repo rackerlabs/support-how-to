@@ -6,4 +6,5 @@ product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-block-storage">}}

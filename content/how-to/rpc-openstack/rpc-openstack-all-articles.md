@@ -6,4 +6,5 @@ product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rpc-openstack">}}

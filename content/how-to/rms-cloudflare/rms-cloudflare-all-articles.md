@@ -6,4 +6,5 @@ product: Cloudflare Edge Security
 product_url: rms-cloudflare
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rms-cloudflare">}}

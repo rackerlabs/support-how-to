@@ -6,4 +6,5 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rackspace-email">}}

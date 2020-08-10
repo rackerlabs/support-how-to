@@ -6,4 +6,5 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-dns">}}

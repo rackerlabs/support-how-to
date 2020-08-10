@@ -6,4 +6,5 @@ product: VMware Server Virtualization
 product_url: vmware-server-virtualization
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="vmware-server-virtualization">}}

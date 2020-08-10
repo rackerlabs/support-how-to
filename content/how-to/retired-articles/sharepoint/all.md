@@ -4,4 +4,4 @@ category: Cloud Office
 permalink: sharepoint-all-articles/
 ---
 
-{% include all-articles-list.html %}
+

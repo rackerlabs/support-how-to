@@ -6,4 +6,5 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-load-balancers">}}

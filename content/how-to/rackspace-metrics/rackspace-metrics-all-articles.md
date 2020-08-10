@@ -6,4 +6,5 @@ product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rackspace-metrics">}}

@@ -6,3 +6,5 @@ product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
 ---
 
+
+{{<list product_url="rackspace-pdr">}}

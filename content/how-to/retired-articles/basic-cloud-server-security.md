@@ -20,6 +20,9 @@ Otherwise, you might be locked out of your virtual machine (VM). For information
 on how to generate public and private key pairs, see
 [Manage SSH Keypairs for cloud servers with-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
+{{< highlight sh >}}
+    /how-to/cloud-servers/basic-cloud-server-security/secure.sh
+{{< /highlight >}}
 <pre><code>
 {% include cloud-servers/basic-cloud-server-security/secure.sh %}
 </code></pre>
