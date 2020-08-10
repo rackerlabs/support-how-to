@@ -6,4 +6,5 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-servers">}}

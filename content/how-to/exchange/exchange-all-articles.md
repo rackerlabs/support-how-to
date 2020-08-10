@@ -6,4 +6,5 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="exchange">}}

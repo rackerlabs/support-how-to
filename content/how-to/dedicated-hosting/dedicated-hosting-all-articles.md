@@ -6,4 +6,5 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="dedicated-hosting">}}

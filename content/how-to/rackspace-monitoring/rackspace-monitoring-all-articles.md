@@ -6,4 +6,5 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="rackspace-monitoring">}}

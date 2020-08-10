@@ -1,5 +1,6 @@
 {{- define "main" -}}
-<article class="how-to-wrapper">
+<main class="how-to-wrapper">
+    {{- partial "components/announcement" . -}}
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-3 col-lg-3">
@@ -20,13 +21,7 @@
                 <div></div>
                 {{- end -}}
                 <hr />
-                {{- if or (eq .Params.Permalink "account-management-all-articles/") -}}
                 {{- .Content -}}
-                {{- else if or (eq .Params.Permalink "rackspace-pdr-all-articles/") -}}
-                {{- partial "components/all-pdr-article-list" . -}}
-                {{- else -}}
-                {{- .Content -}}
-                {{- end -}}
                 {{- partial "components/share-bar" . -}}
                 {{- partial "components/cta/basic" . -}}
                 {{- partial "components/legal-footer" . -}}
@@ -34,5 +29,5 @@
         </div>
     </div>
     </div>
-</article>
+</main>
 {{- end -}}

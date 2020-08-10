@@ -6,4 +6,5 @@ product: Cloud Images
 product_url: cloud-images
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-images">}}

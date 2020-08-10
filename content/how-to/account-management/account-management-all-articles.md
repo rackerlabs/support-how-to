@@ -7,4 +7,4 @@ product_url: account-management
 type: article
 ---
 
-{{<list src="content/how-to/account-management">}}
+{{<list product_url="account-management">}}

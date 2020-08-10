@@ -6,4 +6,5 @@ product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-orchestration">}}

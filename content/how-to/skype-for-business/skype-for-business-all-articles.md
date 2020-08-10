@@ -6,4 +6,5 @@ product: Microsoft Skype for Business
 product_url: skype-for-business
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="skype-for-business">}}

@@ -6,4 +6,5 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-{% include all-articles-list.html %}
+
+{{<list product_url="cloud-queues">}}
