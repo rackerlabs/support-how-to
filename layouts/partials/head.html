@@ -42,6 +42,7 @@
 {{- with .OutputFormats.Get "RSS" -}}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
 <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" />
 {{- end -}}
 {{/* TODO: canonical + multilingual meta */}}
 {{- with $.Site.Params.gtmid -}}
