@@ -233,7 +233,7 @@ images = ["/img"]
 
 [params.algolia]
 params = ["type", "product_url", "created_by"]
-vars = ["audit_date", "description", "permalink", "title", "type", "created_by", "created_date", "last_modified_by", "last_modified_date", "product_url", "product", "relpermalink", "summary", "category"]
+vars = ["audit_date", "description", "summary", "permalink", "title", "type", "created_by", "created_date", "last_modified_by", "last_modified_date", "product_url", "product", "relpermalink", "summary", "category"]
 [related]
 includeNewer = true
 threshold = 10
