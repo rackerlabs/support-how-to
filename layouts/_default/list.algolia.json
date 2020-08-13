@@ -1,6 +1,0 @@
-{{/* Generates a valid Algolia search index */}}
-{{- $.Scratch.Add "index" slice -}}
-{{- range .Site.AllPages -}}
-    {{- $.Scratch.Add "index" (dict "audit_date" .Params.Audit_date "created_date" .Params.Created_date "created_by" .Params.Created_by "title" .Title "type" .Type "last_modified_by" .Params.Last_modified_by "last_modified_date" .Params.Last_modified_date "product" .Params.Product "product_url" .Params.Product_url "category" .Params.Category "description" .Params.Description "permalink" .Permalink "summary" .Params.Summary ) -}}
-{{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
