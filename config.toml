@@ -232,33 +232,40 @@ ghrepo_new = "https://github.com/rackerlabs/support-how-to/issues/new"
 images = ["/img"]
 
 [params.algolia]
-params = ["tags", "categories", "authors"]
-vars = ["date", "description", "dir", "path", "expirydate", "fuzzywordcount", "keywords", "kind", "lang", "lastmod", "permalink", "publishdate", "readingtime", "relpermalink", "summary", "title", "type", "url", "weight", "wordcount", "section"]
-
+params = ["type", "product_url", "created_by"]
+vars = ["audit_date", "description", "permalink", "title", "type", "created_by", "created_date", "last_modified_by", "last_modified_date", "product_url", "product", "relpermalink", "summary", "category"]
 [related]
 includeNewer = true
 threshold = 10
 toLower = true
 [[related.indices]]
-name = "Section"
+name = "Type"
 weight = 200
 [[related.indices]]
-name = "keywords"
+name = "Product_url"
 weight = 150
 [[related.indices]]
-name = "author"
+name = "Product"
 weight = 150
 [[related.indices]]
-name = "categories"
+name = "Created_by"
 weight = 150
 [[related.indices]]
-name = "tags"
+name = "Category"
+weight = 150
+[[related.indices]]
+name = "Title"
 weight = 100
 [[related.indices]]
-name = "date"
+name = "Created_date"
 pattern = "2006"
-weight = 10
+weight = 100
+[[related.indices]]
+name = "Audit_date"
+pattern = "2006"
+weight = 100
 [taxonomies]
-author = "author"
-category = "categories"
-tag = "tags"
+created_by = "created_by"
+category = "category"
+type = "type"
+product = "product"
