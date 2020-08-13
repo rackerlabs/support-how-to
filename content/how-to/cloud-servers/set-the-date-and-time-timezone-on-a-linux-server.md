@@ -1,6 +1,6 @@
 ---
 permalink: set-the-date-and-time-timezone-on-a-linux-server/
-audit_date: '202-04-23'
+audit_date: '2020-04-23'
 title: 'Set the date, time, and timezone on a Linux server'
 type: article
 created_date: '2020-04-23'

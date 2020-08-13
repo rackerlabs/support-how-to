@@ -1,8 +1,8 @@
 ---
 permalink: alert-logic-and-diffie-hellman/
+audit_date: '2020-02-03'
 title: 'Alert Logic and Diffie-Hellman'
 type: article
-audit_date: '2020-02-03'
 created_date: '2020-02-03'
 created_by: RMS Network Defense
 last_modified_date: '2020-02-03'
@@ -31,7 +31,7 @@ Due to the in-abilitiy to decrpyt the traffic, Diffie-Hellman is not supported a
 
 Diffie-Hellman is the most secure key exchanged protocol and as such, it will generally be enabled by default. It may seem a bit ironic that Alert Logic solutions require the use of less robust protocols so that they can perform their function of detecting threats, but the trade-off is considered justified. The benefit of being able to inspect and detect threats in encrypted traffic outweighs any possible downsides to not using Diffie-Hellman.
 
-If a customer would like to still utilize Diffie-Hellman key exchange between their clients and their environment it is recommend that the customer terminate their HTTPS connections on a load balancer or similiar device before the traffic reaches the server. In doing the termination, it will allow the IDS to inspect HTTP traffic between the load balancer and the server and still allow Diffie-Hellman key exchange to be utilize as traffic leaves the environment. In some cases redeployment of the network IDS in on-premise environments may be required for the network IDS to be able to inspect the traffic from the load balanacer to the server. If no such option is avaiable, then Rackspace recommends utilization of a web application firewall with HTTPS termination, in addition to a network IDS, for inspection of web traffic. 
+If a customer would like to still utilize Diffie-Hellman key exchange between their clients and their environment it is recommend that the customer terminate their HTTPS connections on a load balancer or similiar device before the traffic reaches the server. In doing the termination, it will allow the IDS to inspect HTTP traffic between the load balancer and the server and still allow Diffie-Hellman key exchange to be utilize as traffic leaves the environment. In some cases redeployment of the network IDS in on-premise environments may be required for the network IDS to be able to inspect the traffic from the load balanacer to the server. If no such option is avaiable, then Rackspace recommends utilization of a web application firewall with HTTPS termination, in addition to a network IDS, for inspection of web traffic.
 
 #### How to find out if a server supports Diffie-Hellman
 
