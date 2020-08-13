@@ -2,8 +2,6 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- $section := $.Site.GetPage "section" .Section }}
 {{- range .Site.AllPages -}}
-  {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" .Date.UTC.Unix "description" .Description "dir" .File.Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .URL "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.Authors)}}
-  {{- end -}}
+    {{- $.Scratch.Add "index" (dict "audit_date" .Audit_date "created_date" .Created_date "created_by" .Created_by "title" .Title "type" .Type "last_modified_by" .Last_modified_by "last_modified_date" .Last_modified_date "product" .Product "product_url" .Product_url "category" .Category )}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
