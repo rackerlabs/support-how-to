@@ -7,13 +7,16 @@ outputs:
 - HTML
 - RSS
 - OpenSearch
-publishdate: 2017-12-31
-expirydate: 2030-01-01
-date: 2017-12-31
+- Algolia
+type:
+product:
+product_url:
+last_updated_by: 2017-12-31
+last_updated_date: 2030-01-01
+created_date: 2017-12-31
 description: 'Support How-To'
-author: []
-categories: []
-tags: []
+created_by: 
+category: 
 cta:
   headline: ''
   textline: ''
