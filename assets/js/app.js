@@ -15,7 +15,7 @@ search.addWidgets([
       item: `
         <div>
           <div class="hit-name">
-            {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+            {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
           </div>
           <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
