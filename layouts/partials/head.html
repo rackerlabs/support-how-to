@@ -42,7 +42,6 @@
 {{- with .OutputFormats.Get "RSS" -}}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
 <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" />
 {{- end -}}
 {{/* TODO: canonical + multilingual meta */}}
 {{- with $.Site.Params.gtmid -}}
@@ -52,10 +51,6 @@
     opacity: 0 !important
   }
 </style>
-{{ if .Site.Params.offlineSearch }}
-<script src="https://unpkg.com/lunr@2.3.8/lunr.min.js"
-  integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY" crossorigin="anonymous"></script>
-{{end}}
 <script>
   (function (a, s, y, n, c, h, i, d, e) {
     s.className += ' ' + y;

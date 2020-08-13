@@ -7,7 +7,6 @@ outputs:
 - HTML
 - RSS
 - OpenSearch
-- Algolia
 type:
 product:
 product_url:
