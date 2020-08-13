@@ -230,9 +230,11 @@ ghrepo = "https://github.com/rackerlabs/support-how-to"
 ghrepo_edit = "https://github.com/rackerlabs/support-how-to/edit/master/hugo/content/"
 ghrepo_new = "https://github.com/rackerlabs/support-how-to/issues/new"
 images = ["/img"]
+
 [params.algolia]
 params = ["tags", "categories", "authors"]
 vars = ["date", "description", "dir", "path", "expirydate", "fuzzywordcount", "keywords", "kind", "lang", "lastmod", "permalink", "publishdate", "readingtime", "relpermalink", "summary", "title", "type", "url", "weight", "wordcount", "section"]
+
 [related]
 includeNewer = true
 threshold = 10
