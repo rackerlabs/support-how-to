@@ -6,3 +6,4 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
+{{<list product_url="managed-operations">}}
