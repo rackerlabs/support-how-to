@@ -1,4 +1,4 @@
-baseurl = "https://support.rackspace.com/"
+baseurl = "/"
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
