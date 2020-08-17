@@ -1,6 +1,6 @@
 ---
 permalink: build-your-application-on-the-rackspace-cloud/
-audit_date: '2020-04-7'
+audit_date: '2020-04-07'
 title: Build your application on the Rackspace cloud
 type: article
 created_date: '2019-02-05'
