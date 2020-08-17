@@ -1,7 +1,8 @@
 ---
 permalink: basic-application-pool-troubleshooting/
-audit_date:  '2020-06-11'
+audit_date: '2020-06-11'
 title: 'Basic application pool troubleshooting'
+type: article
 created_date: '2020-06-10'
 created_by: Travis Cook
 last_modified_date: '2020-06-11'

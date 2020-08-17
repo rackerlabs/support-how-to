@@ -1,6 +1,6 @@
 ---
 permalink: windows-event-viewer-overview/
-audit_date: '2020-6-18'
+audit_date: '2020-06-18'
 title: 'Windows Event Viewer overview'
 type: article
 created_date: '2020-06-16'
