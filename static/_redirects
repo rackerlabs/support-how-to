@@ -1,4 +1,5 @@
 # Redirects from what the akamai to what we serve
-/                   /support
-/how-to             /support/how-to
-/how-to/:splat      /support/how-to/:splat
+/                     /support/
+/how-to/              /support/how-to/
+/how-to/:splat/        /support/how-to/:splat/
+/how-to/ach-compliance-faq/     /how-to/article-retired/

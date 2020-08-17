@@ -22,6 +22,7 @@ offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 [permalinks]
     how-to = "/how-to/:filename"
+    "/how-to/ach-compliance-faq/" = "/how-to/article-retired/"
 [markup]
 defaultMarkdownHandler = "blackfriday"
 [markup.blackFriday]
@@ -97,22 +98,23 @@ xhtml = false
     weight = 8
 [[menu.footer]]
     name = "News"
-    parent = " "
+    parent = "NA"
+    identifier = "N/A"
     url = "https://www.rackspace.com/newsroom"
     weight = 9
 [[menu.footer]]
     name = "Contact Information"
-    parent = " "
+    parent = "NA"
     url = "https://www.rackspace.com/contact"
     weight = 10
 [[menu.footer]]
     name = "Legal"
-    parent = " "
+    parent = "NA"
     url = "https://www.rackspace.com/information/legal"
     weight = 11
 [[menu.footer]]
     name = "Careers"
-    parent = " "
+    parent = "NA"
     url = "https://www.jobvite.com/support/job-seeker-support"
     weight = 12
 [[menu.footer]]

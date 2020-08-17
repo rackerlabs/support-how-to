@@ -7,6 +7,8 @@ created_date: '2015-04-09'
 created_by: Andrea Gillespie
 last_modified_date: '2018-05-08'
 last_modified_by: Cat Lookabaugh
+product_url: retired-articles
+product: Retired Articles
 ---
 
 Automated Clearing House (ACH) is an electronic network used in the
