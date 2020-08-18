@@ -52,6 +52,10 @@ Articles are grouped into one directory per product. Each directory contains one
 
 #### Create an article
 
+**Important**: Before creating an article, make sure that the product or service you describe is supported by a
+Rackspace Technology Team. We cannot publish or maintain articles without available subject matter experts to
+validate the content.
+
 Follow these steps to create a new article within a product folder of the **rackerlabs/support-how-to** repo.
 
 1. Navigate to the root directory of your local copy of this repo using the command line.
