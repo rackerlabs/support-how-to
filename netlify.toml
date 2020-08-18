@@ -30,14 +30,14 @@
   force = true
   headers = {X-From = "Netlify"}
 [[redirects]]
-  from = "https://docs-support-how-to.netlify.app/support/*"
-  to = "https://docs-support-how-to.netlify.app/*"
+  from = "https://docs-support-how-to.netlify.app/support/:splat"
+  to = "https://docs-support-how-to.netlify.app/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
 [[redirects]]
-  from = "https://docs-support-how-to.netlify.app/support/how-to/*"
-  to = "https://docs-support-how-to.netlify.app/how-to/*"
+  from = "https://docs-support-how-to.netlify.app/support/how-to/:splat"
+  to = "https://docs-support-how-to.netlify.app/how-to/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
