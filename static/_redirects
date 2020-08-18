@@ -1,7 +1,1 @@
 # Redirects
-
-https://docs-support-how-to.netlify.app/support/*     https://docs-support-how-to.netlify.app/*       200
-https://docs-support-how-to.netlify.app/support/how-to/*    https://docs-support-how-to.netlify.app/how-to/*    200
-https://docs-support-how-to.netlify.app/how-to/ach-compliance-faq   https://docs-support-how-to.netlify.app/how-to/article-retired  200
-https://docs-support-how-to.netlify.app/support/     https://docs-support-how-to.netlify.app/       200
-https://docs-support-how-to.netlify.app/support/how-to/    https://docs-support-how-to.netlify.app/how-to/    200
