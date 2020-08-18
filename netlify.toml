@@ -29,3 +29,15 @@
   status = 200
   force = true
   headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "https://docs-support-how-to.netlify.app/"
+  to = "https://docs-support-how-to.netlify.app/support/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "https://docs-support-how-to.netlify.app/how-to/"
+  to = "https://docs-support-how-to.netlify.app/support/how-to/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
