@@ -21,7 +21,7 @@ databases](/how-to/types-of-databases).
 
 ### Understanding when a NoSQL database might be preferable
 
-You might choose a NoSQL database for the following reasons: 
+You might choose a NoSQL database for the following reasons:
 
 - To store large volumes of data that might have little to no structure.
 

@@ -23,7 +23,7 @@ databases](/how-to/types-of-databases/)
 
 ### Understand when a SQL database might be preferable
 
-You might choose an SQL database for the following reasons: 
+You might choose an SQL database for the following reasons:
 
 - You want to ensure ACID compliance. ACID stands for atomicity, consistency,
   isolation, and durability. ACID compliance reduces anomalies and protects
