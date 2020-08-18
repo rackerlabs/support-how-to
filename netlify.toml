@@ -23,33 +23,33 @@
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 
-[[redirects]]
-  from = "https://docs-support-how-to.netlify.app/how-to/ach-compliance-faq/"
-  to = "https://docs-support-how-to.netlify.app/how-to/article-retired/"
-  status = 301
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "https://docs-support-how-to.netlify.app/support/:splat"
-  to = "https://docs-support-how-to.netlify.app/:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "https://docs-support-how-to.netlify.app/support/how-to/:splat"
-  to = "https://docs-support-how-to.netlify.app/how-to/:splat"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "https://docs-support-how-to.netlify.app/support/"
-  to = "https://docs-support-how-to.netlify.app/"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-[[redirects]]
-  from = "https://docs-support-how-to.netlify.app/support/how-to/"
-  to = "https://docs-support-how-to.netlify.app/how-to/"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
+# [[redirects]]
+#   from = "https://docs-support-how-to.netlify.app/how-to/ach-compliance-faq/"
+#   to = "https://docs-support-how-to.netlify.app/how-to/article-retired/"
+#   status = 301
+#   force = true
+#   headers = {X-From = "Netlify"}
+# [[redirects]]
+#   from = "https://docs-support-how-to.netlify.app/support/:splat"
+#   to = "https://docs-support-how-to.netlify.app/:splat"
+#   status = 200
+#   force = true
+#   headers = {X-From = "Netlify"}
+# [[redirects]]
+#   from = "https://docs-support-how-to.netlify.app/support/how-to/:splat"
+#   to = "https://docs-support-how-to.netlify.app/how-to/:splat"
+#   status = 200
+#   force = true
+#   headers = {X-From = "Netlify"}
+# [[redirects]]
+#   from = "https://docs-support-how-to.netlify.app/support/"
+#   to = "https://docs-support-how-to.netlify.app/"
+#   status = 200
+#   force = true
+#   headers = {X-From = "Netlify"}
+# [[redirects]]
+#   from = "https://docs-support-how-to.netlify.app/support/how-to/"
+#   to = "https://docs-support-how-to.netlify.app/how-to/"
+#   status = 200
+#   force = true
+#   headers = {X-From = "Netlify"}

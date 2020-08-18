@@ -1,1 +1,7 @@
 # Redirects
+
+https://docs-support-how-to.netlify.app/support/     https://docs-support-how-to.netlify.app/       200
+https://docs-support-how-to.netlify.app/support/how-to/    https://docs-support-how-to.netlify.app/how-to/    200
+https://docs-support-how-to.netlify.app/how-to/ach-compliance-faq/   https://docs-support-how-to.netlify.app/how-to/article-retired/  301
+https://docs-support-how-to.netlify.app/support/:splat     https://docs-support-how-to.netlify.app/:splat       200
+https://docs-support-how-to.netlify.app/support/how-to/:splat    https://docs-support-how-to.netlify.app/how-to/:splat    200
