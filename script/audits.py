@@ -1,4 +1,4 @@
-# Instructions for using this script are available at https:// pages.github.rackspace.com/IX/writers-handbook/processes/how-to/scripts/list-audited-articles.html
+# Instructions for using this script are available at https:// pages.github.rackspace.com/IX/writers-handbook/processes/support/how-to/scripts/list-audited-articles.html
 
 import os
 import sys
@@ -10,7 +10,7 @@ workbook = xlsxwriter.Workbook('../files/h2-audits.xlsx')
 worksheet = workbook.add_worksheet()
 
 # Set global variables
-dir = "../content/how-to/"
+dir = "../content/support/how-to/"
 info = ([])
 first_arg = sys.argv[1]
 second_arg = sys.argv[2]
@@ -84,7 +84,7 @@ def filter_files(start_date=first_arg, end_date=second_arg):
                             file = "".join(file)
 
                             # Create the link for each file
-                            link = "https://docs.rackspace.com/how-to/" \
+                            link = "https://docs.rackspace.com/support/how-to/" \
                                    + file + "/"
                             # Append the file name and link to "info"
                             info.append([audit_date_slice, path, link])

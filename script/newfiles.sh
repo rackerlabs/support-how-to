@@ -35,7 +35,7 @@ enddate=$2
 count=0
 
 # Go to content directory and loop through all 'md' filesi in sub dirs
-cd ../content/how-to
+cd ../content/support/how-to
 
 FILES=`find .  -type f -name '*md' -print`
 
@@ -59,7 +59,7 @@ do
 # pull file name and directory
      thefile=$(basename $f)
      thedir=$(dirname $f)
-     theroot="https://docs.rackspace.com/how-to/"
+     theroot="https://docs.rackspace.com/support/how-to/"
      thepath=$theroot$thefile
      theoutput=$acdate";"$acby";"$thepath
 # print out all newly created files
