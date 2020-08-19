@@ -1,4 +1,4 @@
-# Instructions for using this script are available at https://pages.github.rackspace.com/IX/writers-handbook/processes/how-to/scripts/list-articles-without-audit-dates.html
+# Instructions for using this script are available at https://pages.github.rackspace.com/IX/writers-handbook/processes/support/how-to/scripts/list-articles-without-audit-dates.html
 
 import os
 import sys
@@ -36,7 +36,7 @@ def filter_files(dir):
                     file = "".join(file)
 
                     # Compose the link for each file
-                    link = "https://docs.rackspace.com/how-to/" + file + "/"
+                    link = "https://docs.rackspace.com/support/how-to/" + file + "/"
                     # Append the file name and link to "info"
                     info.append([path, link])
                     # Increment the counter
@@ -61,5 +61,5 @@ def filter_files(dir):
 
 
 # Call the main function
-filter_files("../content/how-to/")
+filter_files("../content/support/how-to/")
 workbook.close()

@@ -22,7 +22,7 @@ offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 [permalinks]
     how-to = "/support/how-to/:filename"
-    "/how-to/ach-compliance-faq/" = "/how-to/article-retired/"
+    "/support/how-to/ach-compliance-faq/" = "/support/how-to/article-retired/"
 [markup]
 defaultMarkdownHandler = "blackfriday"
 [markup.blackFriday]

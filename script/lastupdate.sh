@@ -29,7 +29,7 @@ echo "date range is between " $begdate " and " $enddate
 count=0
 
 # Go to content directory and loop through all 'md' filesi in sub dirs
-cd ../content/how-to
+cd ../content/support/how-to
 
 FILES=`find .  -type f -name '*md' -print`
 

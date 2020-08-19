@@ -45,7 +45,7 @@ done < GTSmembers.txt
 count=0
 
 # Go to content directory and loop through all 'md' filesi in sub dirs
-cd ../content/how-to
+cd ../content/support/how-to
 
 FILES=`find .  -type f -name '*.md' -print`
 
@@ -80,7 +80,7 @@ do
 # pull file name and directory
           thefilewx=$(basename $f)
           thefile=${thefilewx%.*}
-          theroot="https://support.rackspace.com/how-to/"
+          theroot="https://support.rackspace.com/support/how-to/"
           thepath=$theroot$thefile
           theoutput=$acdate";"$acby";"$thepath
 

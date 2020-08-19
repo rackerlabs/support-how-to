@@ -15,7 +15,7 @@
 
 ## Contributing to the Rackspace How-To content repository
 
-This file describes the general process for maintaining source code for content published at [https://docs.rackspace.com/how-to/](https://docs.rackspace.com/how-to/).
+This file describes the general process for maintaining source code for content published at [https://docs.rackspace.com//support/how-to/](https://docs.rackspace.com/support/how-to/).
 
 See [Treat Documentation Like Code](https://www.youtube.com/watch?v=haFooDkKr-A&feature=youtu.be) for a brief video overview of how to edit articles on the How-To support network.
 If you are a Racker, search MyLearn for the Treat Docs Like Code course.
@@ -60,7 +60,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 1. Navigate to the root directory of your local copy of this repo using the command line.
 
-2. Create a new directory within ```/content/how-to/**product**``` that contains the initial ```.index.md``` by using the following command:
+2. Create a new directory within ```/content/support/how-to/**product**``` that contains the initial ```.index.md``` by using the following command:
 
    `sh hugo new --kind blog-bundle how-to/**product**/article-title`
 
@@ -151,7 +151,7 @@ Your PR will be reviewed. Depending on the review feedback, you might be asked t
 
 You might be asked by a member of the editorial team to update your PR. Follow the steps below to make an update to your PR.
 
-1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/support-how-to/tree/master/content/how-to) and select the **Pull requests** tab.
+1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/support-how-to/tree/master/content/support/how-to) and select the **Pull requests** tab.
 
 2. Find and click your PR.
 
@@ -199,7 +199,7 @@ Following are some specific guidelines for How-To content:
 
 - When code includes placeholders, show them in camelCase and enclose them in angle brackets. For example, `<hostName>`.
 
-- To link to another article, use the following format: `[<articleName>](/how-to/<articleName>)`. For example,  `[Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings)`. Note the use of the leading slash.
+- To link to another article, use the following format: `[<articleName>](/support/how-to/<articleName>)`. For example,  `[Rackspace Email and Hosted Exchange settings](/support/how-to/rackspace-email-and-hosted-exchange-settings)`. Note the use of the leading slash.
 
 - When creating complex lists, such as procedures with sublists, graphics, and code examples, use the spacing guidelines at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists.
 
