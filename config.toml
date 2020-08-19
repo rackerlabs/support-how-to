@@ -21,7 +21,7 @@ offlineSearch = true
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 [permalinks]
-    how-to = "/how-to/:filename"
+    how-to = "/support/how-to/:filename"
     "/how-to/ach-compliance-faq/" = "/how-to/article-retired/"
 [markup]
 defaultMarkdownHandler = "blackfriday"
@@ -59,12 +59,12 @@ xhtml = false
 [[menu.footer]]
     name = "Support Network Home"
     parent = "Support Network"
-    url = "/"
+    url = "https://docs.rackspace.com/support/"
     weight = 1
 [[menu.footer]]
     name = "Rackspace How-To"
     parent = "Support Network"
-    url = "/how-to"
+    url = "https://docs.rackspace.com/support/how-to/"
     weight = 2
 [[menu.footer]]
     name = "API Documentation"
@@ -156,12 +156,12 @@ xhtml = false
 [[menu.main]]
     identifier = "support_home"
     name = "Support Home"
-    url = "/"
+    url = "https://docs.rackspace.com/support/"
     weight = 1
 [[menu.main]]
     identifier = "how_to"
     name = "How-To"
-    url = "/how-to"
+    url = "https://docs.rackspace.com/support/how-to/"
     weight = 2
 [[menu.main]]
     identifier = "developer_documentation"
@@ -202,8 +202,6 @@ xhtml = false
     name = "Login"
     url = "#"
     weight = 6
-
-
 
 [outputFormats.OpenSearch]
 baseName = "opensearch"
