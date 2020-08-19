@@ -22,5 +22,5 @@ cta:
   calls_to_action: []
 private: false
 aliases: []
-slug: '/support/how-to'
+slug: '/how-to'
 ---
