@@ -1,7 +1,7 @@
 # Redirects
 
+/support/how-to/ach-compliance-faq/         /support/how-to/article-retired/       200
 /support       /       200
+/support/how-to/       /how-to/     200
+/support/how-to/*       /how-to/:splat     200
 /how-to/*       /support/how-to/:splat      301
-/support/how-to     /how-to     200
-support/how-to/*      /how-to/:splat    200
-/support/how-to/ach-compliance-faq         /support/how-to/article-retired       301
