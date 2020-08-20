@@ -7,8 +7,8 @@ created_date: '2020-03-23'
 created_by: JP Gonzalez
 last_modified_date: '2020-05-06'
 last_modified_by: Alex Juarez
-product: undefined
-product_url: undefined
+product: General
+product_url: general
 ---
 
 To improve your Fanatical Experience&trade;, Rackspace integrated artificial intelligence

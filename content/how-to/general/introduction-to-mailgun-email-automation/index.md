@@ -7,8 +7,8 @@ created_date: '2012-12-06'
 created_by: Evan Nabors
 last_modified_date: '2017-06-28'
 last_modified_by: Stephanie Fillmon
-product: undefined
-product_url: undefined
+product: General
+product_url: general
 ---
 
 Mailgun is an email automation service provided by Rackspace. It offers

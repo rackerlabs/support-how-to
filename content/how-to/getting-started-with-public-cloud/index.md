@@ -7,8 +7,8 @@ created_date: '2019-08-15'
 created_by: Rackspace Support
 last_modified_date: '2019-08-30'
 last_modified_by: William Loy
-product: undefined
-product_url: undefined
+product: Getting started with public cloud
+product_url: getting-started-with-public-cloud
 ---
 
 This article guides you through creating, managing, building, and growing your Rackspace Public Cloud account. This guide is designed to remove the complexity of getting started on your first Public Cloud projects. We recommend completing tasks in the following order:
