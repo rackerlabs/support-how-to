@@ -7,7 +7,7 @@ created_date: '2019-08-15'
 created_by: Rackspace Support
 last_modified_date: '2019-08-30'
 last_modified_by: William Loy
-product: Getting started with public cloud
+product: undefined
 product_url: getting-started-with-public-cloud
 ---
 

@@ -7,4 +7,4 @@ product_url: rpc-vmware
 ---
 
 
-{{<list product_url="arpc-vmware">}}
+{{<list product_url="rpc-vmware">}}

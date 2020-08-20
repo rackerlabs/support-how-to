@@ -7,7 +7,7 @@ created_date: '2019-09-23'
 created_by: Rackspace Support
 last_modified_date: '2020-02-27'
 last_modified_by: James Gentry
-product: Getting started with Rackspace Hosted Email
+product: undefined
 product_url: getting-started-with-rackspace-hosted-email
 ---
 
