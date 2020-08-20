@@ -39,7 +39,7 @@ be affecting the service. To check your open support tickets, log in to the
 Use the following steps the check the downed server's console:
 
 1. Connect to your cloud server and check the console. For steps on how to connect
-   to the cloud server, see [Connect to a cloud server](/how-to/connect-to-a-cloud-server).
+   to the cloud server, see [Connect to a cloud server](/support/how-to/connect-to-a-cloud-server).
 
    - If you are able to successfully connect using the command line application,
      such as terminal or powershell, then skip to step 5.

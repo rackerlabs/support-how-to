@@ -26,7 +26,7 @@ Command Prompt, or a Linux shell:
 
     ping <targetHostnameorIpaddress>
 
-If the host returns a result of `O packets received`, you might be experiencing network connection issues. Use the `traceroute` networking to diagnose any network issues. For more information about using ping and traceroute for network troubleshooting, see [Common network troubleshooting tools](/how-to/common-network-troubleshooting-tools/).
+If the host returns a result of `O packets received`, you might be experiencing network connection issues. Use the `traceroute` networking to diagnose any network issues. For more information about using ping and traceroute for network troubleshooting, see [Common network troubleshooting tools](/support/how-to/common-network-troubleshooting-tools/).
 
 ### HTTP checks
 
@@ -96,6 +96,6 @@ article, review the information in the following documents:
 
 - [Rackspace Monitoring API status code reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#check-status-codes)
 
-- [Rackspace Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms/)
+- [Rackspace Monitoring Checks and Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms/)
 
 If you need more assistance, contact [Rackspace Support](https://www.rackspace.com/support).

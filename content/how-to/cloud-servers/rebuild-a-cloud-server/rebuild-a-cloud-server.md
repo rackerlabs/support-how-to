@@ -37,4 +37,4 @@ Panel:
 The server's status changes to *Rebuilding*. When the build is complete,
 the status changes back to *Active*.
 
-**Next section:** [Resize standard servers](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
+**Next section:** [Resize standard servers](/support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)

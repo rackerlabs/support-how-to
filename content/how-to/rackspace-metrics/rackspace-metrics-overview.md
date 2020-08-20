@@ -66,7 +66,7 @@ Rackspace Metrics consists of the following components:
     Rackspace Monitoring. In addition, Rackspace Metrics can also integrate
     with Graphite and Grafana&reg;. For more information, see [Create a Grafana
     dashboard for Rackspace
-    Metrics](/how-to/create-a-grafana-dashboard-for-rackspace-metrics/).
+    Metrics](/support/how-to/create-a-grafana-dashboard-for-rackspace-metrics/).
 
      The Rackspace Metrics Query API is currently in
      Limited Availability.
@@ -94,7 +94,7 @@ users automatically. If you see permission-related issues in testing,
 API, see [Role-based access control
 (RBAC)](https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/). For more information about role-based access control,
 see [Learn about Role-Based Access Control
-(RBAC)](/how-to/overview-role-based-access-control-rbac).
+(RBAC)](/support/how-to/overview-role-based-access-control-rbac).
 
 ### Access Rackspace Metrics
 

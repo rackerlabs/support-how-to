@@ -20,9 +20,9 @@ This article describes how to import a copy of your email address data into Outl
 - **Time needed:** Dependent on amount of data being imported
 - **Tools required:**  Access to the Outlook account into which you want to import data
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-If you need to export or import email address data from a different Outlook version, see [Export and Import email address data using Outlook](/how-to/export-and-import-email-address-data-using-outlook) for a list of all version articles.
+If you need to export or import email address data from a different Outlook version, see [Export and Import email address data using Outlook](/support/how-to/export-and-import-email-address-data-using-outlook) for a list of all version articles.
 
 #### Import email address data
 

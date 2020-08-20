@@ -25,7 +25,7 @@ When a search has been created, the results of the search can be reviewed, filte
 
 To access and manage search results, perform the following steps:
 
-1. Log in to the [Archive Manager](/how-to/log-in-to-the-archive-manager).
+1. Log in to the [Archive Manager](/support/how-to/log-in-to-the-archive-manager).
 
 2. On the left side of the page, click the **Searches** tab, and then click **Run**.
 

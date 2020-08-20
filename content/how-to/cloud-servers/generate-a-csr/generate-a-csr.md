@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Before you can install a [Secure Socket Layer (SSL) certificate](/how-to/install-an-ssl-certificate), you must first generate a certificate signing request (CSR). You can do this by using one of the following methods:
+Before you can install a [Secure Socket Layer (SSL) certificate](/support/how-to/install-an-ssl-certificate), you must first generate a certificate signing request (CSR). You can do this by using one of the following methods:
 
 - [(Linux&reg; server) OpenSSL](#openssl)
 - [(Microsoft&reg; Windows&reg; server) Internet Information Services (IIS) Manager](#windows-iis-manager)
@@ -210,8 +210,8 @@ If you are a Managed or Dedicated customer, you can request a CSR through the My
 
 ### Next steps
 
-- [Purchase or renew an SSL certificate](/how-to/purchase-or-renew-an-ssl-certificate)
-- [Install an SSL certificate](/how-to/install-an-ssl-certificate)
+- [Purchase or renew an SSL certificate](/support/how-to/purchase-or-renew-an-ssl-certificate)
+- [Install an SSL certificate](/support/how-to/install-an-ssl-certificate)
 
 ### Reference
 

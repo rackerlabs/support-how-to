@@ -9,9 +9,9 @@ last_modified_date: '2016-01-15'
 last_modified_by: Stephanie Fillmon
 ---
 
-To learn more about the differences between Post Office Protocol (POP) and Internet Message Access Protocol (IMAP), see [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison).
+To learn more about the differences between Post Office Protocol (POP) and Internet Message Access Protocol (IMAP), see [IMAP and POP mail protocol comparison](/support/how-to/imap-and-pop-mail-protocol-comparison).
 
-For increased security, we recommend that you use our Secure Sockets Layer (SSL) servers as detailed in this article. If your internal system configurations require non-SSL ports, see the [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings) page for a list of available servers and ports.
+For increased security, we recommend that you use our Secure Sockets Layer (SSL) servers as detailed in this article. If your internal system configurations require non-SSL ports, see the [Rackspace Email and Hosted Exchange settings](/support/how-to/rackspace-email-and-hosted-exchange-settings) page for a list of available servers and ports.
 
 ### Set up Windows Mail for IMAP
 

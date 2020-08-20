@@ -18,7 +18,7 @@ product_url: rackspace-email-archiving
 - **Time needed:** Approximately 5 minutes
 - **Tools required:** Office 365 tenant Administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Log in to the Archive Manager
 

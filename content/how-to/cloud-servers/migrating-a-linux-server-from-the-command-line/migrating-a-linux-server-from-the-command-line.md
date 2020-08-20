@@ -70,11 +70,11 @@ The more files that you have on the origin server, the longer it will take to mi
 
 Much of what happens when you resize a virtual server
 is similar to what happens when you use rsync to migrate from one server to
-the other. As a result, most of the tips in the [article about speeding up rsync](/how-to/speed-up-rsync-when-migrating-a-linux-server-from-the-command-line) also apply here.
+the other. As a result, most of the tips in the [article about speeding up rsync](/support/how-to/speed-up-rsync-when-migrating-a-linux-server-from-the-command-line) also apply here.
 
 ### Next step
 
 You've compared the origin and destination servers to each other and
 prepared your file systems for the copy.
 
-For information on running rsync manually, see either [Speed up rsync when migrating a Linux server](/how-to/speed-up-rsync-when-migrating-a-linux-server-from-the-command-line) or [Back up your files with rsync](https://support.rackspace.com/how-to/backing-up-your-files-with-rsync/).
+For information on running rsync manually, see either [Speed up rsync when migrating a Linux server](/support/how-to/speed-up-rsync-when-migrating-a-linux-server-from-the-command-line) or [Back up your files with rsync](https://support.rackspace.com/how-to/backing-up-your-files-with-rsync/).

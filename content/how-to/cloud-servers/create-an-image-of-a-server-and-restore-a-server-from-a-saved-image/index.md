@@ -18,7 +18,7 @@ a server, see the [Create Image section in the Cloud Servers Developer Guide](ht
 
 ### Prerequisites
 
-- [Create a cloud server](/how-to/create-a-cloud-server)
+- [Create a cloud server](/support/how-to/create-a-cloud-server)
 
 #### Notes
 
@@ -27,17 +27,17 @@ to accommodate the data in the image.
 
 - Servers that boot from a Cloud Block Storage volume cannot be imaged. Use
 Cloud Block Storage snapshots to copy the boot volume instead. For more
-information, see [Create and use Cloud Block Storage snapshots](/how-to/create-and-use-cloud-block-storage-snapshots).
+information, see [Create and use Cloud Block Storage snapshots](/support/how-to/create-and-use-cloud-block-storage-snapshots).
 
 - Images do not include attached data disks or Cloud Block Storage volumes,
 only a local system disk. Data disks must be backed up using a Cloud Block
 Storage volume, Cloud Backup, or another backup solution. For more information
-about Cloud Backup, see [Getting started with Rackspace Cloud Backup](/how-to/cloud-backup).
+about Cloud Backup, see [Getting started with Rackspace Cloud Backup](/support/how-to/cloud-backup).
 
 -  Image backups are designed primarily to speed deployment of new servers and
 not as a robust backup solution. As such, there are a number of practical
 limitations in place. You can find a list of these limitations in the next
-article in the series [Cloud Server image limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
+article in the series [Cloud Server image limitations](/support/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
 
 ### Create an image backup
 
@@ -99,4 +99,4 @@ Linux&reg;, depending on your server's operating system.
 
 ### Next section
 
-[Snapshot limitations](/how-to/rackspace-cloud-essentials-cloud-server-image-limitations)
+[Snapshot limitations](/support/how-to/rackspace-cloud-essentials-cloud-server-image-limitations)

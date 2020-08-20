@@ -45,4 +45,4 @@ Show webhook details | `GET /v1.0/{tenantId}/groups/{groupId}/policies/{policyId
 
 ### Related article
 
-[Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

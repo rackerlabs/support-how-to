@@ -142,7 +142,7 @@ to focus on more important tasks that add lasting business value.
 ### Step Two: Free or Professional Email Hosting?
 
 For many business owners, and especially cost-conscious small business owners,
-[free email services](/how-to/the-real-costs-of-free-email-services-for-small-businesses)
+[free email services](/support/how-to/the-real-costs-of-free-email-services-for-small-businesses)
 can be a powerful draw. These services offer a number of selling points,
 including fast account setup, convenient web-based interfaces and a
 basic selection of easy-to-use features.
@@ -230,7 +230,7 @@ you’ll face unexpected growth.
 
 Business-grade email hosting providers also offer a wider range of
 hosting options than
-[free, consumer-focused email providers](/how-to/the-real-costs-of-free-email-services-for-small-businesses).
+[free, consumer-focused email providers](/support/how-to/the-real-costs-of-free-email-services-for-small-businesses).
 These options fall into three main categories, each of which offers a
 unique mix of capabilities and business benefits.
 

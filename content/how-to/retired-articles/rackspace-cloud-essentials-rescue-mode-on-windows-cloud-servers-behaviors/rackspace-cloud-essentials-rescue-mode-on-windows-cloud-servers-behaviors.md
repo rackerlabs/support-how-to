@@ -151,4 +151,4 @@ Using Rescue Mode is a useful process if you are required to save data from your
 
 ### Related articles
 
-[Rescue Mode on Windows Cloud Servers](/how-to/rescue-mode-on-windows-servers)
+[Rescue Mode on Windows Cloud Servers](/support/how-to/rescue-mode-on-windows-servers)

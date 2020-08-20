@@ -77,7 +77,7 @@ following requirements:
     manual intervention.
 -   To learn more about cloud bursting see [Using Dedicated Load
     Balancers with
-    RackConnect](/how-to/using-dedicated-load-balancers-with-rackconnect-v20).
+    RackConnect](/support/how-to/using-dedicated-load-balancers-with-rackconnect-v20).
 
 To get the name of one or more load balancer pools, contact your Support
 team.

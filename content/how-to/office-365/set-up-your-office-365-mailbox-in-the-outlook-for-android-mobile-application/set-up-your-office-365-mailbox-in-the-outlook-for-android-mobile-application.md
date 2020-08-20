@@ -19,7 +19,7 @@ product_url: office-365
 - **Tools Needed:** Outlook&reg; for Android&reg; mobile application installed with valid credentials for your
   Office 365&reg; Exchange Online mailbox.
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 The following article takes you through the steps to properly configure your Office 365 Exchange Online mailbox
 for use with the Outlook for Android mobile application.

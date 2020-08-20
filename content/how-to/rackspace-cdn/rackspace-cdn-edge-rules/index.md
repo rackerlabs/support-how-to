@@ -13,7 +13,7 @@ product_url: rackspace-cdn
 
 [Rackspace CDN](https://www.rackspace.com/cloud/cdn-content-delivery-network)
 enables you to create rules for content that is served over the content delivery
-network (or CDN). You create the rules after you [create the Rackspace CDN service](/how-to/create-a-rackspace-cdn-service).
+network (or CDN). You create the rules after you [create the Rackspace CDN service](/support/how-to/create-a-rackspace-cdn-service).
 
 *Edge rules* are a set of policies that tell the CDN how to handle your
 traffic. They are called edge rules because these policies are applied
@@ -149,7 +149,7 @@ into the **Referrer** field.
 #### Geography restrictions
 
 You can restrict content based on geographical
-regions. For a list of the Rackspace CDN geographical regions and the countries and territories within them, see [Rackspace CDN geography mapping](/how-to/rackspace-cdn-geography-mapping).
+regions. For a list of the Rackspace CDN geographical regions and the countries and territories within them, see [Rackspace CDN geography mapping](/support/how-to/rackspace-cdn-geography-mapping).
 
 #### Client IP address restrictions
 

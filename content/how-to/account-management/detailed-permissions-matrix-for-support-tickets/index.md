@@ -29,4 +29,4 @@ Close ticket | **Admin** | Closes the ticket for the current account.
 
 ### Related articles
 
-[Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

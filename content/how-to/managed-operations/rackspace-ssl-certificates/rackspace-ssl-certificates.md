@@ -40,5 +40,5 @@ shows the following information:
 ### After you have a certificate
 
 For help installing your new SSL certificate, see [Install an SSL certificate
-on Apache](/how-to/installing-an-ssl-certificate-on-apache/).
+on Apache](/support/how-to/installing-an-ssl-certificate-on-apache/).
 

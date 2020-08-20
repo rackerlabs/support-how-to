@@ -23,7 +23,7 @@ administrator-designated users.
 - **Time needed:** Approximately 24 hours for the archive to provision after it was added
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Enable archiving
 
@@ -43,4 +43,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    <img src="success.png" />
 
-You will receive a welcome email from **appmail@archivesrvr.com**. See [Rackspace Email Archiving](/how-to/rackspace-email-archiving) for common Archiving instructions.
+You will receive a welcome email from **appmail@archivesrvr.com**. See [Rackspace Email Archiving](/support/how-to/rackspace-email-archiving) for common Archiving instructions.

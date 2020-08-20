@@ -13,11 +13,11 @@ product_url: cloud-servers
 
 **Note:** The commands and utilities in this article have been tested on
 a Debian Cloud Server. They are not guaranteed to function correctly on
-other distributions. However, the [General Package Installation Guidelines](/how-to/general-package-installation-guidelines) article may assist in "porting" this article to another distro.
+other distributions. However, the [General Package Installation Guidelines](/support/how-to/general-package-installation-guidelines) article may assist in "porting" this article to another distro.
 
 ### Prerequisites
 
-[VNC Install](/how-to/vnc-install "VNC Install")
+[VNC Install](/support/how-to/vnc-install "VNC Install")
 
 Fwbuilder is an advanced graphical firewall configuration tool. It is
 used to set up complex firewall policies in situations where

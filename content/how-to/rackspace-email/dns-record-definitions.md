@@ -14,13 +14,13 @@ product_url: rackspace-email
 
 This article provides a brief overview of common email related DNS records.
 
-If you need to configure your DNS for Rackspace Cloud Office Email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
+If you need to configure your DNS for Rackspace Cloud Office Email products, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email).
 
 ### Prerequisite
 
 - **Applies to:** Administrators and Users
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### DNS records
 
@@ -82,7 +82,7 @@ Following are some common email-related TXT records:
 
    **Note:** If you send email from other providers on behalf of your domain, be sure to include their sending servers in the same SPF record entry. Do not create multiple SPF records.
 
-- **DomainKeys Identified Mail (DKIM)** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel/).
+- **DomainKeys Identified Mail (DKIM)** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instruction to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/support/how-to/enable-dkim-in-the-cloud-office-control-panel/).
 
 - **Domain Message Authentication Reporting and Compliance (DMARC)** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies.
 

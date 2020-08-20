@@ -95,7 +95,7 @@ how much access others have to that folder.
 
 4. Select the permission type that will work best for the user.
 
-  For a list of available roles and permissions, see [Public folder permissions for Exchange](/how-to/public-folder-permissions-for-exchange).
+  For a list of available roles and permissions, see [Public folder permissions for Exchange](/support/how-to/public-folder-permissions-for-exchange).
 
   **Note:** You might see a few groups on the **Permissions** tab, and
   that is normal. It is important to leave these groups intact so that we

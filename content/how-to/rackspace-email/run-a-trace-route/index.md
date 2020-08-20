@@ -21,7 +21,7 @@ Trace routes help identify connectivity issues when you are trying to connect to
 - **Time needed:** Approximately 5 minutes
 - **Tools required:** Access to the computer experiencing connectivity issues
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 A trace route illustrates the path created between your personal device and our mail server. Trace routes are useful in scenarios where the connection issue seems to be intermittent.
 

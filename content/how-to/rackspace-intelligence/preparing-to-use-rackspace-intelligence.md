@@ -30,10 +30,10 @@ status.
 
 To be able to view all relevant data, you should [install the Cloud
 Monitoring
-agent](/how-to/install-and-configure-the-rackspace-monitoring-agent)
+agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent)
 on any cloud server that you want to monitor with Rackspace
 Intelligence. [Setting up a server to work with Rackspace
-Intelligence](/how-to/set-up-a-server-to-work-with-rackspace-intelligence)
+Intelligence](/support/how-to/set-up-a-server-to-work-with-rackspace-intelligence)
 shows the process of installing the agent on a cloud server and shows
 how that server appears to Rackspace Intelligence before and after the
 agent is installed.
@@ -41,6 +41,6 @@ agent is installed.
 ### Begin monitoring a cloud database
 
 [Setting up a database to work with Rackspace
-Intelligence](/how-to/setting-up-a-database-to-work-with-rackspace-intelligence)
+Intelligence](/support/how-to/setting-up-a-database-to-work-with-rackspace-intelligence)
 shows how to define the characteristics of a database for Rackspace
 Intelligence's monitoring.

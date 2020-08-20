@@ -19,7 +19,7 @@ This is an example of a site-to-site VPN configuration with a Vyatta firewall on
 
 ### NAT and IPsec
 
-Network Address Translation (NAT) and the IPsec engine work the same on the Vyatta vRouter as a Cisco Adaptive Security Appliance (ASA) in that NAT happens before the interesting traffic is evaluated for encryption by the IPsec engine. The reverse is also true: when a packet is received via the VPN tunnel, the packet is decrypted before it goes to the NAT engine. Policy NAT and Policy Port Address Translation (PAT) for site-to-site VPN tunnels is also possible. See [Creating NAT rules for Vyatta vRouter](/how-to/creating-nat-rules-for-vyatta-vrouter) for the current standards for NAT rule numbering.
+Network Address Translation (NAT) and the IPsec engine work the same on the Vyatta vRouter as a Cisco Adaptive Security Appliance (ASA) in that NAT happens before the interesting traffic is evaluated for encryption by the IPsec engine. The reverse is also true: when a packet is received via the VPN tunnel, the packet is decrypted before it goes to the NAT engine. Policy NAT and Policy Port Address Translation (PAT) for site-to-site VPN tunnels is also possible. See [Creating NAT rules for Vyatta vRouter](/support/how-to/creating-nat-rules-for-vyatta-vrouter) for the current standards for NAT rule numbering.
 
 ### Outbound PAT
 

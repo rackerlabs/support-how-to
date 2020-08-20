@@ -39,7 +39,7 @@ in the top navigation bar.
 Use the following steps the check the downed server's console:
 
 1. Connect to your cloud server and check the console. For steps on how to
-   connect to the cloud server, see [Connect to a cloud server](/how-to/connect-to-a-cloud-server).
+   connect to the cloud server, see [Connect to a cloud server](/support/how-to/connect-to-a-cloud-server).
 
    - If you are able to successfully connect using the **Remote Desktop**
       application, such as terminal or powershell, then skip to step 4.

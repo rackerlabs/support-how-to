@@ -16,7 +16,7 @@ up-to-date license file to use Sitecore.
 
 ### Prerequisites
 
-- Familiarity with [deploying to Sitecore Cloud using FTP](/how-to/deploy-to-sitecore-cloud-using-ftp). 
+- Familiarity with [deploying to Sitecore Cloud using FTP](/support/how-to/deploy-to-sitecore-cloud-using-ftp). 
 If your content includes changes that depend on custom code, deploy your updated code 
 before publishing new content.
 
@@ -32,7 +32,7 @@ want to update.
 
 For details on how to set or obtain your deployment credentials, see the **Set 
 Deployment Credentials** section of 
-[deploying to Sitecore Cloud using FTP](/how-to/deploy-to-sitecore-cloud-using-ftp).
+[deploying to Sitecore Cloud using FTP](/support/how-to/deploy-to-sitecore-cloud-using-ftp).
 
 Use the following steps to deploy your license file:
 

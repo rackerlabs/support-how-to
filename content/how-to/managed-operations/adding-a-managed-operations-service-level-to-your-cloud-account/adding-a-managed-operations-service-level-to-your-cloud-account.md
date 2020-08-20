@@ -41,11 +41,11 @@ combination of ping, port, and URL.
 For a list of supported operating system versions and applications for Linux,
 see [Linux
 Spheres of Support for Dedicated and Managed
-Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
+Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
 
 **Note:** For information about support for Windows, see [Cloud Servers
 with Managed Operations Support for
-Windows](/how-to/cloud-servers-with-managed-operations-support-for-windows).
+Windows](/support/how-to/cloud-servers-with-managed-operations-support-for-windows).
 
 ### Does my server's IP address or host name change when I upgrade?
 

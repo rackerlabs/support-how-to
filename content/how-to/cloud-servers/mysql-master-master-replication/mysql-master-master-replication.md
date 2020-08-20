@@ -25,7 +25,7 @@ This article shows you how to set up
 between two Cloud Servers. Master-Master data replication enables replicated
 data, stored on multiple computers, to be updated by any authorized contributing
 member of the group. This enables more open collaboration than
-[Master-Slave replication](/how-to/set-up-mysql-master-slave-replication) where
+[Master-Slave replication](/support/how-to/set-up-mysql-master-slave-replication) where
 any needed changes identified by a group member must to be submitted to the
 designated "master" of the node.
 

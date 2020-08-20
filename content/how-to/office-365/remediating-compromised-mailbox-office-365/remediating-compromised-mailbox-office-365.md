@@ -20,7 +20,7 @@ This article describes how to remediate a compromised user account and mailbox i
 - **Time Needed:** Approximately 1 hour
 - **Tools Needed:** Administrators need Global Administrator permissions to the Office 365.
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 If an attacker has gained access to a user's account credentials, they can sign in as that user and perform actions as that user. The attacker has full access to the user's Office 365 Mailbox, SharePoint&reg; and OneDrive&reg;. Attackers might send emails as the user. Securing a compromised account is essential to prevent further issues from arising.
 
@@ -105,4 +105,4 @@ Often when a user is compromised, the compromised account is used to send spam, 
 
 ### Additional information
 
-Having a compromised user can negatively impact your business. To reduce the risk of an account compromise, consider enforcing strong password policies and enabling [multi-factor authentication for users in Office 365](/how-to/manage-multi-factor-authentication-for-users-in-office-365/).
+Having a compromised user can negatively impact your business. To reduce the risk of an account compromise, consider enforcing strong password policies and enabling [multi-factor authentication for users in Office 365](/support/how-to/manage-multi-factor-authentication-for-users-in-office-365/).

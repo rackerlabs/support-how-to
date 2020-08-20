@@ -36,7 +36,7 @@ Rackspace Archiving account:
     exporting the results of the searches. For information about how to
     export the results of a search, see [Export archive search results
     in Cloud
-    Office](/how-to/export-archive-search-results-in-cloud-office).
+    Office](/support/how-to/export-archive-search-results-in-cloud-office).
 
     **Note:** You can export searches with a maximum of 15,000
 results and a total size of 3.5 GB.

@@ -24,7 +24,7 @@ with your new Rackspace Email account. After the new server is added,
 mail sent to Rackspace will start to arrive in the same Inbox.
 
 To learn more about the differences between POP and
-IMAP, see [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison).
+IMAP, see [IMAP and POP mail protocol comparison](/support/how-to/imap-and-pop-mail-protocol-comparison).
 
 ### Prerequisites
 
@@ -32,15 +32,15 @@ Before performing the steps below, make sure that mailboxes have already
 been created on the Rackspace environment and that the MX records have
 been updated so to that email is routing correctly to Rackspace.
 
--   [Add Rackspace Email mailboxes](/how-to/add-rackspace-email-mailboxes)
--   [Set up DNS records for Cloud Office email and Skype for Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
+-   [Add Rackspace Email mailboxes](/support/how-to/add-rackspace-email-mailboxes)
+-   [Set up DNS records for Cloud Office email and Skype for Business](/support/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business)
 
 ### Change settings
 
 For increased security, we recommend that you use our secure (SSL)
 servers. If your internal system configurations
 require non-SSL ports, those settings are available in the article
-referenced previously, [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison).
+referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/imap-and-pop-mail-protocol-comparison).
 
 1.  In Outlook 2010, select **File &gt; Account Settings**.
 

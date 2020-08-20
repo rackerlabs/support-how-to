@@ -16,7 +16,7 @@ relational database, a NoSQL database, or a hybrid solution.
 
 ### Prerequisite
 
-For an introduction to relational databases and NoSQL databases, see [Types of databases](/how-to/types-of-databases).
+For an introduction to relational databases and NoSQL databases, see [Types of databases](/support/how-to/types-of-databases).
 
 ### Features of relational databases and NoSQL databases
 
@@ -175,7 +175,7 @@ or a NoSQL database is best for your application.
 ### Get support
 
 For more information about relational databases and NoSQL databases, see the
-[Managed Operations FAQ](/how-to/managed-operations-faq/). If you have further
+[Managed Operations FAQ](/support/how-to/managed-operations-faq/). If you have further
 questions, contact support.
 
 Learn more about [Rackspace database

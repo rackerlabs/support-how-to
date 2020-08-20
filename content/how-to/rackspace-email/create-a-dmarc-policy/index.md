@@ -28,12 +28,12 @@ This article shows how to create a DMARC policy to use with Cloud Office.
 - **Time needed:** 24-48 hours for DNS record changes to propagate
 - **Tools required:** DNS host Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 If you prefer a video tutorial, please see [Rackspace Email - DMARC / DKIM: What It Is & How to Setup <img src="dmarc_thumb.png" />](https://emailhelp.rackspace.com/l/dmarc-dkim-records-setup).
 
 **DMARC** enforces **SPF** and **DKIM**. DMARC is useful only if you have already set up SPF
-and DKIM records. Before creating your DMARC policy, you must first [**create an SPF record policy**](/how-to/create-an-spf-policy), then [**create a DKIM record**](/how-to/enable-dkim-in-the-cloud-office-control-panel), and lastly create a DMARC record policy.
+and DKIM records. Before creating your DMARC policy, you must first [**create an SPF record policy**](/support/how-to/create-an-spf-policy), then [**create a DKIM record**](/support/how-to/enable-dkim-in-the-cloud-office-control-panel), and lastly create a DMARC record policy.
 
 ### Considerations for DMARC
 
@@ -65,7 +65,7 @@ Each part of the policy is defined as follows:
 
 ### Create a DMARC policy in your DNS settings
 
-**Note:** If your DNS is not hosted with Rackspace, you need access to your DNS provider to add the DMARC policy. If you do not know where your DNS is hosted, see [Find DNS host](/how-to/find-dns-host).
+**Note:** If your DNS is not hosted with Rackspace, you need access to your DNS provider to add the DMARC policy. If you do not know where your DNS is hosted, see [Find DNS host](/support/how-to/find-dns-host).
 
 To add your DMARC policy as a TXT record in the Control Panel, follow these steps:
 
@@ -84,7 +84,7 @@ To add your DMARC policy as a TXT record in the Control Panel, follow these step
 
 7. Click **Add Record**
 
-Your new settings take 24 to 48 hours to propagate. For more information on propagation, see [DNS propagation](/how-to/dns-record-definitions#dns-propagation).
+Your new settings take 24 to 48 hours to propagate. For more information on propagation, see [DNS propagation](/support/how-to/dns-record-definitions#dns-propagation).
 
 ### Select an aggregator
 

@@ -20,7 +20,7 @@ This article describes how to delete a Microsoft Exchange mailbox in the Cloud O
 - **Time needed:** Approximately 5 minutes
 - **Tools required:**  Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Disable versus delete
 
@@ -30,7 +30,7 @@ It is important to know the difference between disabling a mailbox and deleting 
 
 - Deleting a mailbox removes that mailbox and all of its data from Rackspace's servers. After you have deleted a mailbox, you must contact Support to have that change reflected on your bill.
 
-If you need any of the data in the mailbox, you must export the data before you delete the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology) such as Outlook.
+If you need any of the data in the mailbox, you must export the data before you delete the mailbox. Data exports must be performed through a [local mail client](/support/how-to/cloud-office-support-terminology) such as Outlook.
 
 ### Delete a mailbox
 
@@ -42,7 +42,7 @@ If you need any of the data in the mailbox, you must export the data before you 
 3.	If you have multiple domains, select the domain that contains the mailbox that you want to delete.
 4. Select the check box next to the mailbox that you want to delete.
 
-   **Warning:** A deleted mailbox can only be recovered for 14 days. For more information, see [Recover a deleted Microsoft Exchange mailbox](/how-to/recover-a-deleted-microsoft-exchange-mailbox/).
+   **Warning:** A deleted mailbox can only be recovered for 14 days. For more information, see [Recover a deleted Microsoft Exchange mailbox](/support/how-to/recover-a-deleted-microsoft-exchange-mailbox/).
 
 5. Expand the **Select Action** menu at the bottom of the mailbox list, and select **Delete mailboxes**.
 

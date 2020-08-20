@@ -82,7 +82,7 @@ seconds.
 
 You can create new HA instance groups and convert from a replica set to an HA
 group by using the [Cloud Control
-Panel](/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel)
+Panel](/support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel)
 and the API. For more information about HA-related API calls, see the [Cloud
 Databases Developer
 Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#high-availability-instance-group).
@@ -132,7 +132,7 @@ We recommend that you take the following steps:
 -   Monitor and set up alarms for the replicas to ensure that they are
     in a healthy state. For more information about monitoring replicas, see
     [Database replication with Cloud
-    Databases](/how-to/database-replication-with-cloud-databases).
+    Databases](/support/how-to/database-replication-with-cloud-databases).
 
 ### Limitations
 

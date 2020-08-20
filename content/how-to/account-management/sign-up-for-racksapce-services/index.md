@@ -50,7 +50,7 @@ You can ensure the quick processing of your account by verifying that all of the
 - Email address
 - Unique username
 - Password (8 to 19 characters with at least one uppercase letter, one lowercase letter, and one number)
-- Set your [Support PIN](/how-to/support-pin-management/)
+- Set your [Support PIN](/support/how-to/support-pin-management/)
 - First and last name of primary account owner
 - Company or Organization (optional)
 - Physical address

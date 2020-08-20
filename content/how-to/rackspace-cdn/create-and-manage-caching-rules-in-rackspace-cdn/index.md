@@ -23,7 +23,7 @@ to most specific.
 
 For more information about rules, see the following sections and
 [Rackspace CDN edge
-rules](/how-to/rackspace-cdn-edge-rules).
+rules](/support/how-to/rackspace-cdn-edge-rules).
 
 After you create your service, you enter caching rules in the **Caching
 Rules** section of the CDN service page.
@@ -83,5 +83,5 @@ list.
 
 ### Additional resources
 
-- [Work with origins and origin rules in Rackspace CDN](/how-to/work-with-origins-and-origin-rules-in-rackspace-cdn)
-- [Create and manage restrictions in Rackspace CDN](/how-to/create-and-manage-restrictions-in-rackspace-cdn)
+- [Work with origins and origin rules in Rackspace CDN](/support/how-to/work-with-origins-and-origin-rules-in-rackspace-cdn)
+- [Create and manage restrictions in Rackspace CDN](/support/how-to/create-and-manage-restrictions-in-rackspace-cdn)

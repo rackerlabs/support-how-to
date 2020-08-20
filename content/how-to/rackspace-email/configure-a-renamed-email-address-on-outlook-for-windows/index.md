@@ -20,9 +20,9 @@ After you have renamed a Rackspace Email address, your devices receive new email
 - **Time needed:** Approximately 20 minutes
 - **Tools required:**  Mailbox password and access to the devices you want to connect
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost in the rename configuration. Follow the instructions in [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/) before continuing with the instructions in this article.
+**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost in the rename configuration. Follow the instructions in [Migrate from a POP server to Rackspace Email IMAP using Outlook](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/) before continuing with the instructions in this article.
 
 #### Configure mail setttings
 
@@ -91,4 +91,4 @@ The steps for Outlook 2010, 2013, and 2016 for Windows are nearly identical.
 
 14. Open Outlook.
 
-**Note:** If you see items missing in the new Outlook account, import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/).
+**Note:** If you see items missing in the new Outlook account, import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP using Outlook](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/).

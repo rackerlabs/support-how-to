@@ -71,7 +71,7 @@ responses in XML.
 
 #### Can I share or accept images in the Cloud Control Panel?
 
-Yes, image sharing is available in the Cloud Control Panel. For detailed instructions, see [Sharing images in the Cloud Control Panel](/how-to/sharing-images-in-the-cloud-control-panel).
+Yes, image sharing is available in the Cloud Control Panel. For detailed instructions, see [Sharing images in the Cloud Control Panel](/support/how-to/sharing-images-in-the-cloud-control-panel).
 
 #### Where can I read a quick summary about image sharing?
 
@@ -212,7 +212,7 @@ The following product-specific roles are also available:
 #### What are the capabilities of these roles?
 
 For details on Cloud Image roles, see the [Permission matrix for Cloud
-Images](/how-to/detailed-permissions-matrix-for-cloud-images).
+Images](/support/how-to/detailed-permissions-matrix-for-cloud-images).
 
 ------------------------------------------------------------------------
 
@@ -276,7 +276,7 @@ format](https://en.wikipedia.org/wiki/VHD_(file_format)). The image
 must also follow Rackspace open cloud bootstrapping practices. For
 details about these practices, see [Preparing an image for import into the
 Rackspace open
-cloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).
+cloud](/support/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).
 
 #### Are there any limitations on the operating system that is installed on an image?
 
@@ -342,7 +342,7 @@ export the image.
 
 Detailed instructions for exporting an image are available in the example at
 [Transfer images between regions of the Rackspace open
-cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
+cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
 
 #### Where is my exported image?
 
@@ -370,7 +370,7 @@ The corruption occurs because part of the image is missing.
 
 We recommend using the **Swiftly** Cloud Files client to download your
 exported image. For more information, see [Use Swiftly to download an exported
-image](/how-to/use-swiftly-to-download-an-exported-image).
+image](/support/how-to/use-swiftly-to-download-an-exported-image).
 
 #### If I have cloud servers in multiple regions, is the image that I import available in all regions?
 
@@ -384,14 +384,14 @@ region B to import the image into region B.
 
 For instructions on transferring an image to another region, see [Transfer
 images between regions of the Rackspace Open
-Cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
+Cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
 
 #### Can I use image export and import to move between Infrastructure and Managed accounts?
 
 Yes. It is possible to move images between Infrastructure and
 Managed accounts by following the steps in the article [Transfer images
 between regions of the Rackspace Open
-Cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud)
+Cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud)
 to export the required image, then import it into the account that the
 customer requires. Any images that are shared, imported, or exported are
 deemed to be non-standard. Therefore the *Infrastructure* service level
@@ -404,19 +404,19 @@ upon successful import or share.
 
 To learn how to prepare an image for import, see [Preparing an image for
 import into the Rackspace open
-cloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).
+cloud](/support/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).
 
 #### Can you recommend a way to upload my image to Cloud Files so that I can import it?
 
 We recommend using the **Swiftly** Cloud Files client to upload your image to
 Cloud Files. For more information on using Swiftly, see [Use Swiftly to upload
-an image](/how-to/use-swiftly-to-upload-an-image).
+an image](/support/how-to/use-swiftly-to-upload-an-image).
 
 #### Can you give me step-by-step instructions for importing an image?
 
 Detailed instructions for importing an image are available in the example at
 [Transfer images between regions of the Rackspace Open
-Cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
+Cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
 
 #### Why is the checksum on my imported or exported image different from the one that the API shows?
 
@@ -519,7 +519,7 @@ the pages linked above.
 
 Imported and shared images are considered non-standard images. Learn more
 about [Rackspace standard and non-standard
-images](/how-to/rackspace-standard-and-non-standard-images).
+images](/support/how-to/rackspace-standard-and-non-standard-images).
 
 For servers booted from non-standard images, we ensure that the host servers
 are functioning properly and that API availability meets the Service Level

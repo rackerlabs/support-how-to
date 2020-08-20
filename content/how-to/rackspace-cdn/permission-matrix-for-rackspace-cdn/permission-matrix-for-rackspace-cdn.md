@@ -64,4 +64,4 @@ Retrieve analytics data | `GET /v1.0/{project_id}/services/{service_id}/analytic
 
 ### Related article
 
-[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

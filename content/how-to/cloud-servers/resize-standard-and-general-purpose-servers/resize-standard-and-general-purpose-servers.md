@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Create a Cloud Server](/how-to/create-a-cloud-server)
+**Previous section:** [Create a Cloud Server](/support/how-to/create-a-cloud-server)
 
 This article shows how to resize your server in the [Cloud Control Panel](https://login.rackspace.com).
 Resizing a server changes the vCPU and RAM, and might also change disk size.
@@ -59,7 +59,7 @@ Use the following steps to resize a server:
    **Note**: Servers that were booted from a Cloud Block Storage volume do not gain disk space after a resize.
 
    With a Windows server, you must complete additional steps in order to use the additional space after a resize. For more
-   information, see [Adding Disk Space After Resizing a Windows Server 2012 Cloud Server](/how-to/adding-disk-space-after-
+   information, see [Adding Disk Space After Resizing a Windows Server 2012 Cloud Server](/support/how-to/adding-disk-space-after-
    resizing-a-windows-server-2012-cloud-server).
 
 7. After you've verified the system resources and checked your file systems, select **Confirm** to confirm the resize or
@@ -72,8 +72,8 @@ Use the following steps to resize a server:
 
 ### Additional resources
 
-- [Reset your server password](/how-to/reset-your-server-password)
-- [Basic Cloud Server security](/how-to/basic-cloud-server-security)
-- [Reboot your server](/how-to/reboot-your-server)
-- [Rebuild a Cloud Server](/how-to/rebuild-a-cloud-server)
-- [Delete a server](/how-to/delete-a-server)
+- [Reset your server password](/support/how-to/reset-your-server-password)
+- [Basic Cloud Server security](/support/how-to/basic-cloud-server-security)
+- [Reboot your server](/support/how-to/reboot-your-server)
+- [Rebuild a Cloud Server](/support/how-to/rebuild-a-cloud-server)
+- [Delete a server](/support/how-to/delete-a-server)

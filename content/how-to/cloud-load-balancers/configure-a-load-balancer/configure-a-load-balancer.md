@@ -59,7 +59,7 @@ Use the following steps to set up a load balancer:
 
     **Note**: For more information about the protocols that you can choose
     when configuring a load balancer, see [Choosing the Right
-    Protocol](/how-to/available-protocols-when-configuring-a-cloud-load-balancer).
+    Protocol](/support/how-to/available-protocols-when-configuring-a-cloud-load-balancer).
 
 8. Choose the appropriate algorithm for your load balancer.
 
@@ -147,4 +147,4 @@ details on the following product pages for Cloud Load Balancers:
 - [US product page for Cloud Load Balancers](https://www.rackspace.com/cloud/load-balancing/)
 - [UK product page for Cloud Load Balancers](https://www.rackspace.co.uk/cloud-load-balancers/)
 
-**Next steps:** [Cloud Files and the Content Delivery Network](/how-to/getting-started-with-cloud-files-and-cdn/)
+**Next steps:** [Cloud Files and the Content Delivery Network](/support/how-to/getting-started-with-cloud-files-and-cdn/)

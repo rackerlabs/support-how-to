@@ -20,7 +20,7 @@ This article describes how to recover email messages that have been purged from 
 - **Time needed:** Approximately 5 minutes depending on the number of items to be recovered
 - **Tools required:**  Webmail access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Recover deleted email
 

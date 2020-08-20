@@ -58,4 +58,4 @@ permission, you must have one of the following permissions:
     ability to manage the device or service, as well as which users can access the device or service.
 
 For details about how to manage permissions, see [Manage user permissions for
-Dedicated Hosting](/how-to/manage-user-permissions-for-dedicated-hosting).
+Dedicated Hosting](/support/how-to/manage-user-permissions-for-dedicated-hosting).

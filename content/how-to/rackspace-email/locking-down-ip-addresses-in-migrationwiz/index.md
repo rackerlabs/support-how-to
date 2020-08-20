@@ -37,7 +37,7 @@ migration profile. If your migration is assisted, your migration
 specialist performs these actions. If you are performing the migration
 yourself, complete the following steps.
 
-1. Log in to the [full version of MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
+1. Log in to the [full version of MigrationWiz](/support/how-to/accessing-the-full-version-of-migrationwiz).
 
 2. If you have already created a migration, click **Manage Connectors**. If you are creating a new migration, click **Create a  Connector**.
 

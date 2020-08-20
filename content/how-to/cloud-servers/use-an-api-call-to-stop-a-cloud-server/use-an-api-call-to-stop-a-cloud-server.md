@@ -25,7 +25,7 @@ Pitchfork, see [Pitchfork - the Rackspace Cloud API web application to](how-to/p
 To use Pitchfork to stop a server, perform the following steps:
 
 1. Log in to [Pithfork](https://pitchfork.rax.io/) and enter your credentials. If you don't know how to find
-   your credentials, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+   your credentials, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 2. Under **Available Product**, click **Cloud Server**. 
 3. Scroll down to **Stop Server** in the **Server Actions** section.
 4. Click on **Details**.

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-After you [generate a certificate signing request (CSR)](/how-to/generate-a-csr)
+After you [generate a certificate signing request (CSR)](/support/how-to/generate-a-csr)
 and [purchase or renew a Secure Socket Layer (SSL) certificate](https://support.rackspace.com/how-to/purchase-or-renew-an-ssl-certificate/),
 you'll need to install it. This article shows you how to install an SSL
 certificate on various servers and operating systems. The following sections
@@ -275,7 +275,7 @@ SSL certificate to an application with a custom domain.
 
 You need your login credentials for the Azure portal. For information about
 how to log in to the Azure portal, see
-[Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
+[Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
 
 #### Get an SSL certificate
 
@@ -298,7 +298,7 @@ secure multiple domains with one certificate, you need to use a wildcard name
 might experience irreproducible interoperability problems on some clients.
 
 For more information on getting a certificate, see
-[generate a certificate signing request (CSR)](/how-to/generate-a-csr)
+[generate a certificate signing request (CSR)](/support/how-to/generate-a-csr)
 and [purchase or renew a Secure Socket Layer (SSL certificate](https://support.rackspace.com/how-to/purchase-or-renew-an-ssl-certificate/).
 
 #### Add the SSL certificate to Microsoft Azure

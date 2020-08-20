@@ -15,7 +15,7 @@ OnMetal Cloud Servers enables you to boot bare metal servers via the
 Rackspace Cloud Servers API. Use the following steps to set up an
 OnMetal server through the API:
 
-**Note:** For the parallel steps in the Cloud Control Panel, see [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers).
+**Note:** For the parallel steps in the Cloud Control Panel, see [Create OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers).
 
 ### Set up the API client
 
@@ -59,7 +59,7 @@ Thus, you should ignore the administrator password returned by a create
 server operation because it does not allow access to the OnMetal server.
 For information about generating SSH Keys, see [Manage SSH Key Pairs for
 Cloud Servers with
-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
 ### Upload an SSH key pair
 
@@ -74,7 +74,7 @@ For example:
 
 For information on generating SSH Keys, see [Manage SSH Key Pairs for
 Cloud Servers with
-python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
 ### Boot your server
 
@@ -222,4 +222,4 @@ few minutes.
 The flash cards included with the OnMetal I/O flavor are unformatted.
 You can format them however you like. For more information, see
 [Configure flash drives in High I/O instances as Data
-drives](/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).
+drives](/support/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).

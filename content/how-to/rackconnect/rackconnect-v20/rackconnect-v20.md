@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section:** [Getting RackConnect support](/how-to/getting-rackconnect-support)
+**Previous section:** [Getting RackConnect support](/support/how-to/getting-rackconnect-support)
 
 **Applies to:** RackConnect v2.0
 
@@ -29,7 +29,7 @@ interested in using RackConnect, contact your account manager for information
 about deploying RackConnect v3.0.
 
 For a collection of recommendations for using RackConnect, see
-[RackConnect best practices](/how-to/rackconnect-v20-best-practices).
+[RackConnect best practices](/support/how-to/rackconnect-v20-best-practices).
 
 ### Associating your Cloud account with your RackConnect configuration
 
@@ -84,4 +84,4 @@ from your cloud servers before creating new cloud servers.
 ### Next step
 
 [Access the RackConnect Management
-Interface](/how-to/access-the-rackconnect-management-interface)
+Interface](/support/how-to/access-the-rackconnect-management-interface)

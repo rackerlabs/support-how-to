@@ -30,7 +30,7 @@ following Rackspace Monitoring actions on your mobile device:
 First, you need to install Rackspace Monitoring on your cloud resources,
 if it is not already installed.  For information about using the Cloud
 Control Panel, or the Rackspace Monitoring API, to set up monitoring,
-see [Getting Started With Rackspace Monitoring](/how-to/cloud-monitoring).
+see [Getting Started With Rackspace Monitoring](/support/how-to/cloud-monitoring).
 
 ### Download the application
 

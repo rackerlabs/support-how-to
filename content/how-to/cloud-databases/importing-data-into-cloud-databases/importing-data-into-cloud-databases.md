@@ -25,7 +25,7 @@ in your own data center. If you are importing the data from a location without
 Rackspace ServiceNet access, such as another cloud or your data center, you must
 either create a cloud server to copy your import file to or enable external
 access on your database by using either a high availability (HA) instance group
-or a [Rackspace Cloud Load Balancer](/how-to/connect-to-a-cloud-databases-instance#lb).
+or a [Rackspace Cloud Load Balancer](/support/how-to/connect-to-a-cloud-databases-instance#lb).
 
 **Important:** Before you begin, read through the Best practices and Limitations
 sections of this article.
@@ -40,11 +40,11 @@ sections of this article.
 
       **Note:** If you want to enable external access by using an HA instance
       group, you must pick that option when creating the database. See
-      [Manage Cloud Databases HA instance groups in the Cloud Control Panel](https://support.rackspace.com/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/)
+      [Manage Cloud Databases HA instance groups in the Cloud Control Panel](https://support.rackspace.com/support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/)
       for more detailed instructions.
 
 2.  If you need to change any configuration parameters, do so by using
-    [configuration groups](/how-to/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel)
+    [configuration groups](/support/how-to/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel)
     on the new database instance.
 
       **Important:** Changing configuration parameters *after* the import could have unexpected effects on the data and applications connecting to it.
@@ -73,7 +73,7 @@ sections of this article.
     - `database_name.sql` is the name of the exported database file.
 
     **Note**: If you are exporting from a Cloud Databases instance, see
-    [exporting data](/how-to/exporting-data-from-mysql) for information about
+    [exporting data](/support/how-to/exporting-data-from-mysql) for information about
     how to perform this action.
 
 3.  Use SFTP to copy the exported **.sql** file to the cloud server that will
@@ -126,7 +126,7 @@ sections of this article.
     - `database_name.sql` is the name of the exported database file.
 
     **Note**: If you are exporting from a Cloud Databases instance, see
-    [exporting data](/how-to/exporting-data-from-mysql) for information about
+    [exporting data](/support/how-to/exporting-data-from-mysql) for information about
     how to perform this action.
 
 3.  Run the following MySQL import command:
@@ -159,7 +159,7 @@ review the release notes of the destination datastore to learn about possible
 issues that might modify the expected behavior of your application.
 
 For an example of how to upgrade between versions of MySQL, see
-[Upgrade a Cloud Databases instance from MySQL 5.1 to MySQL 5.6](/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56).
+[Upgrade a Cloud Databases instance from MySQL 5.1 to MySQL 5.6](/support/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56).
 
 ### Limitations
 

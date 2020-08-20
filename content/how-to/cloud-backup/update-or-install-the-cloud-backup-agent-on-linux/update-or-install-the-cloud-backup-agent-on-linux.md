@@ -13,7 +13,7 @@ product_url: cloud-backup
 
 This article describes how to install the Rackspace Cloud Backup agent on your Linux&reg;
 server. If you are using a Windows&reg; server, see [Install the Cloud Backup agent
-(Windows)](/how-to/rackspace-cloud-backup-install-the-agent-on-windows) for instructions.
+(Windows)](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows) for instructions.
 
 ### Installation
 
@@ -136,7 +136,7 @@ You can view the following agent and updater logs with your favorite file viewer
 
 If the agent or updater does not behave as expected, you can `grep` these logs to look for 
 "ERROR" or other information. For more information on reading agent logs, see
-[Cloud Backup Logging Basics](/how-to/cloud-backup-agent-logging-basics).
+[Cloud Backup Logging Basics](/support/how-to/cloud-backup-agent-logging-basics).
 
 To verify that the agent is registered, look at the bootstrap file, **/etc/driveclient/boostrap.json**.
 
@@ -154,7 +154,7 @@ The following troubleshooting tips might help to fix the issues.
 We recommend that you enable TRACE logging as part of the troubleshooting process.
 If you need to call the Support team, TRACE logging helps them identify the
 problem. For more information about TRACE logging, see [Cloud Backup agent logging
-basics](/how-to/cloud-backup-agent-logging-basics).
+basics](/support/how-to/cloud-backup-agent-logging-basics).
 
 If the agent fails to start up, due to registration failure, for example, the most
 effective log setting is to directly edit **log4cxx.xml** and change the level
@@ -176,7 +176,7 @@ The backup statuses are defined below:
     run, and it needs to be investigated.
 -   **Failed:** A serious problem occurred, and the backup job did not run.
 
-To troubleshoot these error statuses, see [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/).
+To troubleshoot these error statuses, see [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/).
 
 #### Uninstall the Cloud Backup agent or updater on Linux
 
@@ -195,6 +195,6 @@ updater, or it eventually re-enables the agent.
 
 For more troubleshooting tips and FAQs, see the following articles:
 
-    [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/)
-    [Cloud Backup FAQs](/how-to/cloud-backup-faq/)
+    [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/)
+    [Cloud Backup FAQs](/support/how-to/cloud-backup-faq/)
     

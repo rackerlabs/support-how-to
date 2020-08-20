@@ -18,7 +18,7 @@ This article describes how to set access rules for archive users.
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Set access rules
 
@@ -27,7 +27,7 @@ verifying registered addresses.
 
 1. Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
 
-    For more information, see [Log in to the Archive Manager](/how-to/log-in-to-the-archive-manager).
+    For more information, see [Log in to the Archive Manager](/support/how-to/log-in-to-the-archive-manager).
 
 2. In the upper-right corner of the window, click **Admin User** to access the Admin User dashboard.
 

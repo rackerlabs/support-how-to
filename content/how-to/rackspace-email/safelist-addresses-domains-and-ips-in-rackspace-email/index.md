@@ -20,11 +20,11 @@ This article explains how to add an email address, IP address, or domain to a sa
 - **Time needed:** Approximately 5 minutes
 - **Tools required:**  apps.rackspace.com access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Why use a safelist?
 
-**Safelisting** an address creates a rule that moves any message flagged as spam from the address you safelisted to the **Inbox** so that you do not miss the message. If you need to **blacklist** a sender, see [Blacklist addresses, domains and IP addresses in Rackspace Email](/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email).
+**Safelisting** an address creates a rule that moves any message flagged as spam from the address you safelisted to the **Inbox** so that you do not miss the message. If you need to **blacklist** a sender, see [Blacklist addresses, domains and IP addresses in Rackspace Email](/support/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email).
 
 **Warning:** Safelisting does not prevent a sender from being flagged as spam or from being blocked.
 

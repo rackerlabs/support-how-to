@@ -48,16 +48,16 @@ After your stack is active, on the Stack Details page, click **View Credentials*
 
 The Stack Credentials pop-up dialog box displays the root passwords for the database, an SSH private key that you can use to access the servers in your stack as the root user, and the WordPress password.
 
-For more information about using the provided SSH key to access your servers, see [Logging in with an SSH Private Key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows) or [Log in with a SSH private key on Linux and Mac](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac).
+For more information about using the provided SSH key to access your servers, see [Logging in with an SSH Private Key on Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows) or [Log in with a SSH private key on Linux and Mac](/support/how-to/logging-in-with-an-ssh-private-key-on-linuxmac).
 
 ###  Set up DNS
 
-If you host your DNS with Rackspace Cloud DNS, you can add a DNS record for your new WordPress stack. For information about adding a DNS record, see [Create DNS Records for cloud servers](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel). Point your domain to the public IP address of the load balancer that was created for you.
+If you host your DNS with Rackspace Cloud DNS, you can add a DNS record for your new WordPress stack. For information about adding a DNS record, see [Create DNS Records for cloud servers](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel). Point your domain to the public IP address of the load balancer that was created for you.
 
-If you don't want to use public DNS with WordPress, modify your desktop's hosts file to point your domain to your new stack. For more information see [Modify your hosts file](/how-to/modify-your-hosts-file). Be sure to use the load balancer public IP address.
+If you don't want to use public DNS with WordPress, modify your desktop's hosts file to point your domain to your new stack. For more information see [Modify your hosts file](/support/how-to/modify-your-hosts-file). Be sure to use the load balancer public IP address.
 
 After you are finished, you can start using WordPress by navigating to the URL that you entered during the stack configuration.
 
 ### Related Articles
 
-For more information about creating and working with stacks in Cloud Orchestration, see [Get started quickly with Rackspace Cloud Orchestration](/how-to/quick-set-up-with-rackspace-cloud-orchestration).
+For more information about creating and working with stacks in Cloud Orchestration, see [Get started quickly with Rackspace Cloud Orchestration](/support/how-to/quick-set-up-with-rackspace-cloud-orchestration).

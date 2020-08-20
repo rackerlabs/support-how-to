@@ -18,4 +18,4 @@ you interact with a specialist trained to support our products.
 
 ### Additional resources
 
-- [Create a support ticket in the Cloud Control Panel](/how-to/create-a-support-ticket-in-the-cloud-control-panel)
+- [Create a support ticket in the Cloud Control Panel](/support/how-to/create-a-support-ticket-in-the-cloud-control-panel)

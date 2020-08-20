@@ -21,13 +21,13 @@ Monitoring Developer
 Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-example-operations).
 
 You can also use
-[raxmon](/how-to/getting-started-with-rackspace-monitoring-cli),
+[raxmon](/support/how-to/getting-started-with-rackspace-monitoring-cli),
 a command-line interface, to perform these and other actions on a
 monitoring check.
 
 For the latest information about Rackspace Monitoring pricing and other
 general questions, see the [Rackspace Monitoring
-FAQ](/how-to/rackspace-monitoring-faq)
+FAQ](/support/how-to/rackspace-monitoring-faq)
 and the [Rackspace Monitoring main product
 page](https://www.rackspace.com/cloud/monitoring/).
 

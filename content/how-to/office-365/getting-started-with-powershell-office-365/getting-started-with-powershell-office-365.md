@@ -18,7 +18,7 @@ product_url: office-365
 - **Time Needed:** Approximately 15 minutes
 - **Tools Needed:** Office 365&reg; administrator access, 64-Bit Version of Windows&reg;, Microsoft&reg; .NET Framework&reg; 4.5.x, Windows Management Framework&reg; 4.0
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 As an Office 365 administrator, you might have to use PowerShell&reg; to perform certain administrative tasks on your tenant. PowerShell is also useful for performing bulk operations and accessing data.
 

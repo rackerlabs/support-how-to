@@ -14,26 +14,26 @@ This introduction gets you up and running with Cloud Backup, including tips for 
 
 ###  Install the agent
 
-- [Install the agent on Linux&reg; systems](/how-to/install-or-update-the-cloud-backup-agent-on-linux)
-- [Install the agent on Windows&reg; systems](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
-- [Install the agent on Windows systems by using silent installation](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation)
+- [Install the agent on Linux&reg; systems](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux)
+- [Install the agent on Windows&reg; systems](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+- [Install the agent on Windows systems by using silent installation](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation)
 
 ###  Backup actions
 
-- [Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)
-- [View backup information](/how-to/rackspace-cloud-backup-view-backup-information)
-- [Generate your encrypted key](/how-to/generating-your-encrypted-key-in-cloud-backup)
-- [Backup actions](/how-to/rackspace-cloud-backup-backup-actions)
-- [System actions](/how-to/rackspace-cloud-backup-system-actions)
-- [Set account notification preferences](/how-to/rackspace-cloud-backup-preferences)
+- [Create a backup](/support/how-to/rackspace-cloud-backup-create-a-backup)
+- [View backup information](/support/how-to/rackspace-cloud-backup-view-backup-information)
+- [Generate your encrypted key](/support/how-to/generating-your-encrypted-key-in-cloud-backup)
+- [Backup actions](/support/how-to/rackspace-cloud-backup-backup-actions)
+- [System actions](/support/how-to/rackspace-cloud-backup-system-actions)
+- [Set account notification preferences](/support/how-to/rackspace-cloud-backup-preferences)
 
 ### Troubleshooting
 
-- [Cloud Backup troubleshooting](/how-to/cloud-backup-troubleshooting)
-- [Recover from a bad actor attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack)
+- [Cloud Backup troubleshooting](/support/how-to/cloud-backup-troubleshooting)
+- [Recover from a bad actor attack](/support/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack)
 
 ### Best Practices
 
-- [Insure against a bad actor attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack)
-- [Best practices for Cloud Backup](/how-to/best-practices-for-cloud-backup)
-- [Best practices for backing up your data - Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
+- [Insure against a bad actor attack](/support/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack)
+- [Best practices for Cloud Backup](/support/how-to/best-practices-for-cloud-backup)
+- [Best practices for backing up your data - Cloud Block Storage versus Cloud Backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)

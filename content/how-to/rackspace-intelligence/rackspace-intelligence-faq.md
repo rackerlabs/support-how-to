@@ -39,7 +39,7 @@ credentials.
 
 #### Can I use Rackspace Intelligence for both Cloud and Dedicated accounts?
 
-Yes, both Cloud and Dedicated accounts have access to Rackspace Intelligence. For more information, see [Getting Started with Rackspace Intelligence for the cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud) and [Getting Started with Rackspace Intelligence for dedicated accounts](/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts).
+Yes, both Cloud and Dedicated accounts have access to Rackspace Intelligence. For more information, see [Getting Started with Rackspace Intelligence for the cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud) and [Getting Started with Rackspace Intelligence for dedicated accounts](/support/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts).
 
 #### What are the benefits of using Rackspace Intelligence?
 

@@ -85,7 +85,7 @@ The output shows that the `nc` program (which appears in the `Program name`
 column) is listening on port 80 (which appears in the `Local Address`
 column). Stopping this program should enable `httpd` to be started.
 
-**Note**: For more information about the `netstat` command, see [Check listening ports with netstat](/how-to/checking-listening-ports-with-netstat).
+**Note**: For more information about the `netstat` command, see [Check listening ports with netstat](/support/how-to/checking-listening-ports-with-netstat).
 
 ### Check xinetd status
 
@@ -100,11 +100,11 @@ that the issue is resolved:
 
 ### Check logs
 
-If you can’t start your service, [review your logs](/how-to/linux-log-files) to
+If you can’t start your service, [review your logs](/support/how-to/linux-log-files) to
 see if they contain information about the issue.
 
 ### Next steps
 
 After you're sure that the application is running, check the
-[server resources](/how-to/checking-system-load-on-linux) to verify how much
+[server resources](/support/how-to/checking-system-load-on-linux) to verify how much
 your application is consuming.

@@ -20,7 +20,7 @@ This article explains how to edit your domain's DNS settings in the Cloud Office
 - **Time needed:** Approximately 24-48 hours for DNS record changes to propagate
 - **Tools required:**  Cloud Office Control Panel access, DNS hosting at Rackspace Cloud Office
 
-If you are not sure who is hosting your domain's DNS, see [Find your DNS host](/how-to/find-dns-host).
+If you are not sure who is hosting your domain's DNS, see [Find your DNS host](/support/how-to/find-dns-host).
 
 To edit DNS records at Cloud Office, log in to the [Cloud Office Control Panel](https://cp.rackspace.com), and perform the following steps:
 
@@ -44,4 +44,4 @@ To edit DNS records at Cloud Office, log in to the [Cloud Office Control Panel](
 
 5. After you have completed your edits, click **Save**.
 
-If your DNS is hosted elsewhere, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
+If your DNS is hosted elsewhere, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email).

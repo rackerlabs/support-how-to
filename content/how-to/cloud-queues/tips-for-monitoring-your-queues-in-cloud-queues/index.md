@@ -11,7 +11,7 @@ product: Cloud Queues
 product_url: cloud-queues
 ---
 
-**Note:** Be sure to set up your [authentication token](/how-to/cloud-queues-curl-cookbook) before following the steps to create a queue by submitting an API request from the terminal.
+**Note:** Be sure to set up your [authentication token](/support/how-to/cloud-queues-curl-cookbook) before following the steps to create a queue by submitting an API request from the terminal.
 
 Use the following procedures to get queue statistics, including the number of messages that exist in the queue, and the number of messages for each message status.
 

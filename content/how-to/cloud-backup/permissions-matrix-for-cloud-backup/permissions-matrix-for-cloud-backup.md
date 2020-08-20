@@ -88,4 +88,4 @@ List all activity for a user | `GET /v1.0/{tenant_id}/activity` | **Observer, Cr
 
 ### Related article
 
-[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

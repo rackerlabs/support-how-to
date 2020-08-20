@@ -25,9 +25,9 @@ server from brute-force login attempts.
 For more information about using SSH to connect to servers, see the following
 articles:
 
- - For information on connecting and generating keys on the Linux&reg; command line or macOS&reg; X Terminal, see: [Connecting to a server using SSH on Linux or Mac OS](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
- - For information on using PuTTY on Microsoft&reg; Windows&reg; to make SSH connections, see: [Connecting to Linux from Windows by using PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty)
- - For information on using PuTTYgen on Windows to generate key pairs, see: [Generating RSA Keys With SSH - PuTTYgen](/how-to/generating-rsa-keys-with-ssh-puttygen)
+ - For information on connecting and generating keys on the Linux&reg; command line or macOS&reg; X Terminal, see: [Connecting to a server using SSH on Linux or Mac OS](/support/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
+ - For information on using PuTTY on Microsoft&reg; Windows&reg; to make SSH connections, see: [Connecting to Linux from Windows by using PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty)
+ - For information on using PuTTYgen on Windows to generate key pairs, see: [Generating RSA Keys With SSH - PuTTYgen](/support/how-to/generating-rsa-keys-with-ssh-puttygen)
 
 This article discusses using the python-novaclient command-line tool to
 generate a key pair and assign its public key to a Linux server when the server
@@ -41,7 +41,7 @@ You can also manage key pairs directly by using the
 The instructions in this article assume that the python-nova client is installed
 and configured for use with cloud servers. You can find detailed instructions
 for setting up the client in
-[Using python-novaclient with the Rackspace Cloud](/how-to/using-python-novaclient-with-the-rackspace-cloud).
+[Using python-novaclient with the Rackspace Cloud](/support/how-to/using-python-novaclient-with-the-rackspace-cloud).
 
 ### Create a key pair
 

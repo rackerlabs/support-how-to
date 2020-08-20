@@ -21,18 +21,18 @@ The [Cloud Control Panel](https://login.rackspace.com) helps you manage your clo
 You can also use the Cloud Control Panel to perform the following tasks:
 
 - Assign user permissions with [Role Based Access Control
-  (RBAC)](/how-to/getting-started-with-role-based-access-control-rbac/).
+  (RBAC)](/support/how-to/getting-started-with-role-based-access-control-rbac/).
 
-- Manage your [contact information](/how-to/change-to-new-primary-contact/).
+- Manage your [contact information](/support/how-to/change-to-new-primary-contact/).
 
 - Manage [billing information and view
-  invoices](/how-to/billing-services-overview/).
+  invoices](/support/how-to/billing-services-overview/).
 
 ### Access your cloud servers
 
 Connect to your Rackspace cloud server with the Secure Shell (SSH),
 Remote Desktop (RDP), or the console. For detailed instructions, see [Connect to a
-cloud server](/how-to/connect-to-a-cloud-server/).
+cloud server](/support/how-to/connect-to-a-cloud-server/).
 
 ### Get a head start with Cloud Orchestration
 
@@ -89,11 +89,11 @@ to secure your application at every level.
 
 Take the following security measure at the account level:
 
-- Set up [RBAC](/how-to/getting-started-with-role-based-access-control-rbac/)
+- Set up [RBAC](/support/how-to/getting-started-with-role-based-access-control-rbac/)
   for your team. Use strong passwords, security questions, and answers for
   each team member.
 - Configure [two-factor
-  authentication](/how-to/myrackspace-multi-factor-authentication/).
+  authentication](/support/how-to/myrackspace-multi-factor-authentication/).
 
 #### Infrastructure level
 

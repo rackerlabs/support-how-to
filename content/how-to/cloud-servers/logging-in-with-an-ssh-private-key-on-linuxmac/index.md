@@ -18,7 +18,7 @@ terminal software on Linux.
 
 **Note:** For information about using Secure Shell (SSH) private keys on Microsoft&reg; 
 Windows&reg; operating systems, see 
-[Logging in with an SSH Private Key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows)
+[Logging in with an SSH Private Key on Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows)
 and [Generate RSA keys with SSH by using PuTTYgen](https://support.rackspace.com/how-to/generating-rsa-keys-with-ssh-puttygen/).
 
 ###Prerequisites

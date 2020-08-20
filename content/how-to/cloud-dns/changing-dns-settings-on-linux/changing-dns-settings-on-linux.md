@@ -17,7 +17,7 @@ change your Linux&reg; server's DNS settings.
 
 If you want to test your site without the test link prior to going live with SSL
 or verify that an alias site works prior to DNS changes, you can
-[Modify your hosts file](/how-to/modify-your-hosts-file) to override the
+[Modify your hosts file](/support/how-to/modify-your-hosts-file) to override the
 DNS for a domain on a specific machine.
 
 ### Add name servers to the configuration file

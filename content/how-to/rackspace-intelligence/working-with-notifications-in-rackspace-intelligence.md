@@ -12,7 +12,7 @@ product_url: rackspace-intelligence
 ---
 
 Before you can build [notification plans for Rackspace
-Intelligence](/how-to/working-with-rackspace-intelligence-notification-plans),
+Intelligence](/support/how-to/working-with-rackspace-intelligence-notification-plans),
 you must define notification methods. For example, you can define a
 method of contacting a support engineer by SMS and a method of
 contacting a manager by email.

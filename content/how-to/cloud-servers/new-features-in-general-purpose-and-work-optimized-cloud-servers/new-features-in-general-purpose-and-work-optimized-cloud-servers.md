@@ -37,12 +37,12 @@ servers is on Cloud Block Storage.
 ### Disk structure
 
 General Purpose and I/O flavors use faster solid state
-drives (SSD). I/O flavors also have secondary data disks, which are not captured during an imaging operation. For more information about data disk imaging limitations, see the article [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+drives (SSD). I/O flavors also have secondary data disks, which are not captured during an imaging operation. For more information about data disk imaging limitations, see the article [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 
 You can back up the data on your data disk or disks by leveraging either
 Rackspace Cloud Backup or Rackspace Cloud Block Storage which
 can used to increase the storage capacity of your server, if
-needed. For a comparison of the two data disk backup options, see [Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
+needed. For a comparison of the two data disk backup options, see [Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
 
 ### Faster server provisioning
 
@@ -100,7 +100,7 @@ scaling*, adding or removing the number of servers managed by a load
 balancer to manage your available resources to suit your needs.
 
 For information about reducing the size of your General Purpose server
-or changing the size of your work-optimized server, see [Upgrading resources for General Purpose or I/O optimized Cloud Servers](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
+or changing the size of your work-optimized server, see [Upgrading resources for General Purpose or I/O optimized Cloud Servers](/support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
 ### (I/O flavors only) Preparing the data disk for use
 
@@ -108,8 +108,8 @@ Because I/O-optimized servers have a separate system disk and data disk, you mus
 mounting it to your server before you can use it. Follow the
 instructions in these articles to prepare your data disk for use:
 
--   [Preparing Data Disks on Windows Cloud Servers](/how-to/preparing-data-disks-on-windows-cloud-servers)
--   [Preparing Data Disks on Linux Cloud Servers](/how-to/preparing-data-disks-on-linux-cloud-servers)
+-   [Preparing Data Disks on Windows Cloud Servers](/support/how-to/preparing-data-disks-on-windows-cloud-servers)
+-   [Preparing Data Disks on Linux Cloud Servers](/support/how-to/preparing-data-disks-on-linux-cloud-servers)
 
 ### No 512 MB RAM servers
 

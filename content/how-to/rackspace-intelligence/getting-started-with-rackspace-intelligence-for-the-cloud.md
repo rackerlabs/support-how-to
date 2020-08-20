@@ -14,7 +14,7 @@ product_url: rackspace-intelligence
 **Note**: This guide is for Rackspace Intelligence on a standard cloud
 account. If you have a dedicated account, see
 [Getting started with Rackspace Intelligence for dedicated
-accounts](/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts).
+accounts](/support/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts).
 
 Rackspace Intelligence provides a *dashboard* that shows actionable insights
 into the health of your infrastructure. You can use these insights to improve
@@ -41,7 +41,7 @@ Use the following steps to access Rackspace Intelligence:
 
    If your account is configured to require it, you might need to perform
    additional steps to [lMulti-factor authentication from the Cloud Control
-   Panel](/how-to/multi-factor-authentication-from-the-cloud-control-panel).
+   Panel](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel).
 
 2. In the top navigation bar, click **Select a Product > Rackspace
    Intelligence**.
@@ -52,7 +52,7 @@ To fully use the features that Rackspace Intelligence offers, you
 should familiarize yourself with the basic concepts about entity
 monitoring and metrics. For more information, see [Learning the Rackspace
 Intelligence
-vocabulary](/how-to/learning-the-rackspace-intelligence-vocabulary).
+vocabulary](/support/how-to/learning-the-rackspace-intelligence-vocabulary).
 
 ### Explore the Rackspace Intelligence dashboard
 
@@ -60,7 +60,7 @@ Actions that you can perform in the user interface are grouped into four
 sections: **Monitor**, **Alert**, **Suppress**, and **Visualize**. Within
 each section, you can view details about the action. For more information, see
 [Understanding the Rackspace Intelligence user
-interface](/how-to/understanding-the-rackspace-intelligence-dashboard-user-interface).
+interface](/support/how-to/understanding-the-rackspace-intelligence-dashboard-user-interface).
 
 ### Begin working with a new entity
 
@@ -71,7 +71,7 @@ configure that entity to provide more information. For
 suggestions on steps that you can take to maximize the information
 available to Rackspace Intelligence, see [Preparing to use
 Rackspace
-Intelligence](/how-to/preparing-to-use-rackspace-intelligence).
+Intelligence](/support/how-to/preparing-to-use-rackspace-intelligence).
 
 ### Manage how Rackspace Intelligence monitors your infrastructure
 
@@ -93,16 +93,16 @@ following items:
 -   Notifications that were suppressed in the past
 
 You can also use the Rackspace Intelligence dashboard to [generate
-graphs](/how-to/rackspace-intelligence) to visualize infrastructure status.
+graphs](/support/how-to/rackspace-intelligence) to visualize infrastructure status.
 
 #### Monitor entities
 
 The [list of
-entities](/how-to/monitoring-entities-with-rackspace-intelligence) identifies
+entities](/support/how-to/monitoring-entities-with-rackspace-intelligence) identifies
 all entities known to Rackspace Intelligence. While displaying the list
 of known entities, you can perform management functions such
 as [defining new
-entities](/how-to/monitoring-entities-with-rackspace-intelligence#create-entities).
+entities](/support/how-to/monitoring-entities-with-rackspace-intelligence#create-entities).
 
 The **Monitor** section of the interface also displays information about
 **Notifications** and **Notification Plans**.
@@ -110,17 +110,17 @@ The **Monitor** section of the interface also displays information about
 #### Monitor open alerts
 
 The [list of open
-alerts](/how-to/monitoring-open-alerts-with-rackspace-intelligence) identifies
+alerts](/support/how-to/monitoring-open-alerts-with-rackspace-intelligence) identifies
 all entities that are currently in a status for which you have asked
 Rackspace Intelligence to trigger alarms.
 
 Depending on the [notification
-plans](/how-to/working-with-rackspace-intelligence-notification-plans) that
+plans](/support/how-to/working-with-rackspace-intelligence-notification-plans) that
 you have defined, appropriate communications and actions might have
 already occurred in response to these alerts. Examine the list directly to
 investigate infrastructure status in context whether
 or not you were automatically
-[notified](/how-to/working-with-notifications-in-rackspace-intelligence)
+[notified](/support/how-to/working-with-notifications-in-rackspace-intelligence)
 about status changes.
 
 ### Change how Rackspace Intelligence communicates its findings
@@ -142,24 +142,24 @@ by a
 To customize how Rackspace Intelligence responds when it detects a
 status change, perform the following actions:
 
-- Define [notifications](/how-to/working-with-notifications-in-rackspace-intelligence)
+- Define [notifications](/support/how-to/working-with-notifications-in-rackspace-intelligence)
   . Ensure that you also provide contact details as part of this process.
 - Define [notification
-  plans](/how-to/working-with-rackspace-intelligence-notification-plans).
+  plans](/support/how-to/working-with-rackspace-intelligence-notification-plans).
   Ensure that you also define the notifications that you want to perform,
   and under which circumstances.
 
 #### Suppress reporting of infrastructure status
 
 Rackspace Intelligence enables you to [suppress
-notifications](/how-to/working-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
+notifications](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
 scheduled maintenance activity.
 
 #### Examine the suppression log
 
 To investigate the alerts that the system muted but that ordinarily would have
 prompted notifications, you can [examine the suppression
-log](/how-to/examining-the-log-of-alerts-suppressed-by-rackspace-intelligence).
+log](/support/how-to/examining-the-log-of-alerts-suppressed-by-rackspace-intelligence).
 
 ### View what Rackspace Intelligence sees
 
@@ -172,11 +172,11 @@ Rackspace Intelligence can report its findings visually through the following
 types of graphs:
 
 -   **[Basic
-    graphs](/how-to/viewing-basic-graphs-of-activity-in-rackspace-intelligence)**: These predefined graphs enable you to observe changes in the status of
+    graphs](/support/how-to/viewing-basic-graphs-of-activity-in-rackspace-intelligence)**: These predefined graphs enable you to observe changes in the status of
     an entity that occurred within a specific time range.
 
 -   **[Custom
-    graphs](/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence)**: These graphs enable you to compare multiple entities and multiple
+    graphs](/support/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence)**: These graphs enable you to compare multiple entities and multiple
     metrics.
 
 ### Create checks and alarms for your entities
@@ -188,10 +188,10 @@ your entities.
 
 Rackspace Intelligence provides a wizard that enables you to [create
 monitoring
-checks](/how-to/working-with-checks) that
+checks](/support/how-to/working-with-checks) that
 collect metric data for your infrastructure. You can [set up
-alarms](/how-to/working-with-alarms) for
+alarms](/support/how-to/working-with-alarms) for
 your checks to receive notifications when certain metric data meet criteria.
 You can also perform management functions, such as [editing your
-checks](/how-to/working-with-checks) and [editing your
-alarms](/how-to/working-with-alarms).
+checks](/support/how-to/working-with-checks) and [editing your
+alarms](/support/how-to/working-with-alarms).

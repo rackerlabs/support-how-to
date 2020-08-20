@@ -52,4 +52,4 @@ Database](https://c691244.r44.cf2.rackcdn.com/cloud-databases-network-illustrati
 ### Related Information
 
 [Connecting to Your Cloud
-Database](/how-to/connect-to-a-cloud-databases-instance "Connecting to Your Cloud Database")
+Database](/support/how-to/connect-to-a-cloud-databases-instance "Connecting to Your Cloud Database")

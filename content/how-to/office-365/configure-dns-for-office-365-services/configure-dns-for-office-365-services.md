@@ -22,9 +22,9 @@ This article describes how to add a domain in Office 365. By adding your own dom
 - **Time needed:** 24-48 hours for the domain to be verified
 - **Tools required:**  Office 365 Global Administrator access and access to your DNS host
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-Before you can set up a domain in the Office 365 portal, you must [create your Office 365 tenant with Rackspace](/how-to/office-365/set-up-office-365/) and [add the product licenses](/how-to/add-an-office-365-license/) that you need.
+Before you can set up a domain in the Office 365 portal, you must [create your Office 365 tenant with Rackspace](/support/how-to/office-365/set-up-office-365/) and [add the product licenses](/support/how-to/add-an-office-365-license/) that you need.
 
 After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the DNS entries for your Office 365 services.
 
@@ -54,7 +54,7 @@ Use the following steps to configure the DNS records for your Office 365 service
 
 8.  After selecting your online services, click **Next**.
 
-This step requires you to log in to your domain's DNS host portal. If you do not know who your DNS host is, see [Find your DNS host](/how-to/find-your-dns-host/).
+This step requires you to log in to your domain's DNS host portal. If you do not know who your DNS host is, see [Find your DNS host](/support/how-to/find-your-dns-host/).
 
 9.  Log in to your DNS host and copy the records from the table provided into your DNS host.
 

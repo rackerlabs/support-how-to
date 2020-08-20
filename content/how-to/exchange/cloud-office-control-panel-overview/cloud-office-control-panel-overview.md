@@ -48,7 +48,7 @@ Following are some of the options available in the Email Hosting section of the 
 -  **Aliases** - Manage your company's alias addresses.
 -  **Group Lists** - Email a large number of people by assigning them to a group list.
 -  **Filter Settings** - Control spam-handling settings for users or the entire domain. For more information, see the following **Spam** section.
--  **Rackspace Email Plus** - Select a domain to [upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus).
+-  **Rackspace Email Plus** - Select a domain to [upgrade to Rackspace Email Plus](/support/how-to/upgrade-to-rackspace-email-plus).
 
 #### Hosted email spam
 
@@ -181,4 +181,4 @@ View Control Panel activity over the last 6 months.
 
 Provide feedback about our products and services.
 
-If you need help with a specific feature, read about how to use the [Help tool for hosted email and Skype for business](/how-to/help-tool-for-hosted-email-and-skype-for-business).
+If you need help with a specific feature, read about how to use the [Help tool for hosted email and Skype for business](/support/how-to/help-tool-for-hosted-email-and-skype-for-business).

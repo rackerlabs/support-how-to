@@ -21,18 +21,18 @@ simplify your domain management.
 
 ### Introduction to Cloud DNS
 
-- [Rackspace Cloud DNS - Overview](/how-to/rackspace-cloud-dns-overview)
-- [Rackspace Cloud DNS - Available features](/how-to/rackspace-cloud-dns-available-features)
-- [Rackspace Cloud DNS - Technical details](/how-to/rackspace-cloud-dns-technical-details)
-- [Rackspace Cloud DNS - API example](/how-to/rackspace-cloud-dns-api-example)
-- [Rackspace Cloud DNS - Additional resources](/how-to/rackspace-cloud-dns-additional-resources)
-- [Cloud DNS FAQ](/how-to/cloud-dns-faq)
-- [Choosing DNS record types](/how-to/choosing-dns-record-types)
-- [Modify your hosts file](/how-to/modify-your-hosts-file)
+- [Rackspace Cloud DNS - Overview](/support/how-to/rackspace-cloud-dns-overview)
+- [Rackspace Cloud DNS - Available features](/support/how-to/rackspace-cloud-dns-available-features)
+- [Rackspace Cloud DNS - Technical details](/support/how-to/rackspace-cloud-dns-technical-details)
+- [Rackspace Cloud DNS - API example](/support/how-to/rackspace-cloud-dns-api-example)
+- [Rackspace Cloud DNS - Additional resources](/support/how-to/rackspace-cloud-dns-additional-resources)
+- [Cloud DNS FAQ](/support/how-to/cloud-dns-faq)
+- [Choosing DNS record types](/support/how-to/choosing-dns-record-types)
+- [Modify your hosts file](/support/how-to/modify-your-hosts-file)
 
 ### Create DNS records
 
-- [Create DNS records with Cloud DNS](/how-to/creating-dns-records-with-cloud-dns)
-- [Create a DKIM TXT record](/how-to/create-a-dkim-txt-record)
-- [Create a reverse DNS record](/how-to/create-a-reverse-dns-record)
-- [Create an SPF TXT record](/how-to/create-an-spf-txt-record)
+- [Create DNS records with Cloud DNS](/support/how-to/creating-dns-records-with-cloud-dns)
+- [Create a DKIM TXT record](/support/how-to/create-a-dkim-txt-record)
+- [Create a reverse DNS record](/support/how-to/create-a-reverse-dns-record)
+- [Create an SPF TXT record](/support/how-to/create-an-spf-txt-record)

@@ -42,7 +42,7 @@ not available when these networks are removed from a Cloud Server:
 
 ### More Information on Cloud Networks
 
--  [Create an isolated network and attach it to a server](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server)
--  [Attach a Cloud Network to an Existing Cloud Server](/how-to/attach-a-cloud-network-to-an-existing-cloud-server)
--  [Using CIDR notation in Cloud Networks](/how-to/using-cidr-notation-in-cloud-networks)
+-  [Create an isolated network and attach it to a server](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server)
+-  [Attach a Cloud Network to an Existing Cloud Server](/support/how-to/attach-a-cloud-network-to-an-existing-cloud-server)
+-  [Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks)
 -  [Cloud Networks Developer Guide](https://developer.rackspace.com/docs/)

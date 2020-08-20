@@ -22,9 +22,9 @@ Download the [Advanced Streaming Plugin for OSMF](https://mediapm.edgesuite.net/
 Since OSMF plugins allow you to develop your own Flash video player and
 embed it as needed into your website, Rackspace does not have
 step-by-step instructions. If you are looking for a player that does
-not require development by your team, try our [FlowPlayer plugins for Streaming over the Akamai CDN](/how-to/cloud-files-streaming-with-flowplayer-plugins).
+not require development by your team, try our [FlowPlayer plugins for Streaming over the Akamai CDN](/support/how-to/cloud-files-streaming-with-flowplayer-plugins).
 
 For more resources on OSMF, visit
 <https://mediapm.edgesuite.net/akamai-osmf-plugins/samples/>.
 
-For more information on streaming, please visit the [Cloud Files FAQ](/how-to/cloud-files-faq).
+For more information on streaming, please visit the [Cloud Files FAQ](/support/how-to/cloud-files-faq).

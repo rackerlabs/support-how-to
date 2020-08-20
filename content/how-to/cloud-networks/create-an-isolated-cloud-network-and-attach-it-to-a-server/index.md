@@ -49,7 +49,7 @@ Server separate from the Rackspace network, the Internet, or both.
 
     **Warning:** Before you remove ServiceNet or PublicNet from your
     Cloud Server, read [Removing Networks from a Cloud
-    Server](/how-to/removing-networks-from-a-cloud-server "Disabling Networks from a Cloud Server")
+    Server](/support/how-to/removing-networks-from-a-cloud-server "Disabling Networks from a Cloud Server")
     for a complete description of the limitations that will be placed on
     your new server.
 
@@ -69,10 +69,10 @@ Network named My Private Network:
 
 ### More information about Cloud Networks
 
-[Attach an Isolated Network to an Existing Cloud Server](/how-to/attach-a-cloud-network-to-an-existing-cloud-server)
+[Attach an Isolated Network to an Existing Cloud Server](/support/how-to/attach-a-cloud-network-to-an-existing-cloud-server)
 
-[Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
+[Removing Networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server)
 
-[CIDR Notation](/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
+[CIDR Notation](/support/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
 
 [Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)

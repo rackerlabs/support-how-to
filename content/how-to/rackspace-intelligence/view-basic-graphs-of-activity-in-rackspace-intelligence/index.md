@@ -15,7 +15,7 @@ Rackspace Intelligence provides a set of predefined graphs that show the activit
 the metrics and checks that have been defined for your monitoring entities. 
 
 If you want to explore a metric across multiple entities, consider using
-custom graphs. For more information, see [Creating custom graphs of activity in Rackspace Intelligence](/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence).
+custom graphs. For more information, see [Creating custom graphs of activity in Rackspace Intelligence](/support/how-to/creating-custom-graphs-of-activity-in-rackspace-intelligence).
 
 ### View basic graphs
 
