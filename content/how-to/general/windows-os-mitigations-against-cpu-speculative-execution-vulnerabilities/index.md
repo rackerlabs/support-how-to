@@ -7,8 +7,8 @@ created_date: '2018-01-16'
 created_by: Marc Nourani
 last_modified_date: '2018-08-10'
 last_modified_by: Stephanie Fillmon
-product: undefined
-product_url: undefined
+product: General
+product_url: general
 ---
 
 Rackspace continues to evaluate and address a set of speculative execution vulnerabilities affecting certain central processing units (CPUs). You can find more information about the vulnerabilities in the following locations:

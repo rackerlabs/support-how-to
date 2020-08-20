@@ -8,7 +8,7 @@ created_by: Rackspace Support
 last_modified_date: '2020-02-27'
 last_modified_by: James Gentry
 product: undefined
-product_url: undefined
+product_url: getting-started-with-rackspace-hosted-email
 ---
 
 This article guides you through creating, managing, building, and growing your Rackspace Hosted Email account. We recommend completing tasks in the following order:
