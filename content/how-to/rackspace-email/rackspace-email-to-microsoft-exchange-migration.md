@@ -19,7 +19,7 @@ Use the information in this article to plan, schedule, and complete a migration 
 - **Time needed:** Minimum of 5 business days to schedule a migration
 - **Tools required:** Administrator access to the Cloud Office Control Panel
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 To determine if migrating your users to Microsoft Exchange&reg; is necessary for your business, compare the available solutions:
 
@@ -36,14 +36,14 @@ To determine if migrating your users to Microsoft Exchange&reg; is necessary for
 |**Online document and spreadsheet editors**| | &#10003;| |
 | **Maximum mailbox storage**| 25 GB | 25 GB | 100 GB|
 
-**Note:** Upgrading from Rackspace Email to Rackspace Email Plus does *not* require a migration. For details, see [Upgrade to Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/).
+**Note:** Upgrading from Rackspace Email to Rackspace Email Plus does *not* require a migration. For details, see [Upgrade to Rackspace Email Plus](/support/how-to/upgrade-to-rackspace-email-plus/).
 
-If you are considering the migration because your Rackspace Email mailbox is at maximum capacity, you might want to reconsider because migration does not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/how-to/rackspace-email-storage-maintenance-and-best-practices/).
+If you are considering the migration because your Rackspace Email mailbox is at maximum capacity, you might want to reconsider because migration does not immediately resolve the issue. Try the recommendations in [Rackspace Email storage maintenance and best practices](/support/how-to/rackspace-email-storage-maintenance-and-best-practices/).
 
 ### Before migration
 
 - Consider the number of users migrating. All of them must prepare for the migration.
-- Set up Autodiscover for your domain. See [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email/) for the necessary autodiscover record.
+- Set up Autodiscover for your domain. See [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email/) for the necessary autodiscover record.
 
    - Autodiscover enables users to set up email in Outlook&reg; by using only their email address and password.
    - Outlook 2016 setups require Autodiscover.
@@ -54,14 +54,14 @@ If you are considering the migration because your Rackspace Email mailbox is at 
 
    If any of your users are using a POP connection to their mailbox, direct them to the following instructions to synchronize their locally stored mail to apps.rackspace.com:
 
-   - Windows&reg;: [Migrate from a POP server to Rackspace Email IMAP using Outlook](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/)
-   - Mac&reg;: [Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/)
+   - Windows&reg;: [Migrate from a POP server to Rackspace Email IMAP using Outlook](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/)
+   - Mac&reg;: [Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/)
 
 - Remove special characters from folder names.
 
    Folder names with special characters—such as commas, periods, slashes, and ampersands—cause migration issues. For example, the period in the folder name **1.Inbox** causes migration failures. Change folder names with special characters to use only alphanumeric characters.
 
-- Consider the special preparation that Mac users require when migrating from Rackspace Email to Microsoft Exchange. For more information, see [Prepare your Mac users for migration from Rackspace Email to Microsoft Exchange](/how-to/prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration/).
+- Consider the special preparation that Mac users require when migrating from Rackspace Email to Microsoft Exchange. For more information, see [Prepare your Mac users for migration from Rackspace Email to Microsoft Exchange](/support/how-to/prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration/).
 
 
 ### Data that migrates
@@ -71,7 +71,7 @@ Review the following lists to understand which items migrate and which do *not* 
 #### Items migrated
 
 - Mail stored in webmail migrates. You can verify what email is stored in webmail by logging in at [apps.rackspace.com](https://apps.rackspace.com/index.php).
-- Calendar and contact data stored in Rackspace Webmail is *not guaranteed to migrate, but migration is attempted*. We recommend backing up your contact data to a **.csv** file. For instructions on exporting contacts from Rackspace Email, see [Import or export contacts in Rackspace Email](/how-to/import-or-export-contacts-in-rackspace-email/).
+- Calendar and contact data stored in Rackspace Webmail is *not guaranteed to migrate, but migration is attempted*. We recommend backing up your contact data to a **.csv** file. For instructions on exporting contacts from Rackspace Email, see [Import or export contacts in Rackspace Email](/support/how-to/import-or-export-contacts-in-rackspace-email/).
 - Users remain members of any aliases or lists they are a part of.
 
 #### Items not migrated
@@ -127,13 +127,13 @@ Our Internal Migrations team replies to you within five business days to confirm
 
 After you receive notification that the migration completed, you and your users must perform some final steps to ensure that everyone can access their new Microsoft Exchange mailboxes.
 
-1. User passwords change during the migration, so you must update all the users' passwords through the Cloud Office Control Panel. See [Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password/#reset-a-mailbox-password-through-the-cloud-office-control-panel).
+1. User passwords change during the migration, so you must update all the users' passwords through the Cloud Office Control Panel. See [Change a Microsoft Exchange mailbox password](/support/how-to/change-a-microsoft-exchange-mailbox-password/#reset-a-mailbox-password-through-the-cloud-office-control-panel).
 
 2. After you have updated all of the passwords, instruct users to log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that they can access their new mailboxes and that all their email migrated.
 
-3. Users can reset their own passwords by using the instructions in [Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password).
+3. Users can reset their own passwords by using the instructions in [Change a Microsoft Exchange mailbox password](/support/how-to/change-a-microsoft-exchange-mailbox-password).
 
-3. Users must configure their [mail client](/how-to/cloud-office-support-terminology/) on all devices, including desktop and mobile devices, to connect to their new mailboxes. They can obtain instructions at [emailhelp.rackspace.com](https://emailhelp.rackspace.com/).
+3. Users must configure their [mail client](/support/how-to/cloud-office-support-terminology/) on all devices, including desktop and mobile devices, to connect to their new mailboxes. They can obtain instructions at [emailhelp.rackspace.com](https://emailhelp.rackspace.com/).
 
    **Warning:** If users do not configure their mail client to connect to the new Microsoft Exchange mailbox, they do not receive new mail in their mail client.
 

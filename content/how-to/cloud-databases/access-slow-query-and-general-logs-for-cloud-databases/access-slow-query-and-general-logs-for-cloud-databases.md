@@ -15,9 +15,9 @@ Database logs can be useful tools when analyzing database performance or trouble
 
 ### Prerequisites
 
-The steps in this article require that you have an existing MySQL configuration group or create a new one. A MySQL configuration group holds the values for MySQL options used at startup. To learn more about MySQL configuration groups, see [Managing configuration groups for cloud databases with the Trove command line tool](/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
+The steps in this article require that you have an existing MySQL configuration group or create a new one. A MySQL configuration group holds the values for MySQL options used at startup. To learn more about MySQL configuration groups, see [Managing configuration groups for cloud databases with the Trove command line tool](/support/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
 
-The examples use trove to make changes to configuration groups. Instructions for installing and configuring trove can be found in [Managing configuration groups for cloud databases with the Trove command line tool](/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
+The examples use trove to make changes to configuration groups. Instructions for installing and configuring trove can be found in [Managing configuration groups for cloud databases with the Trove command line tool](/support/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
 
 To apply configuration groups you will need to enable root access to the database instance. This can be done through the [Cloud Databases API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/) or with a trove command:
 

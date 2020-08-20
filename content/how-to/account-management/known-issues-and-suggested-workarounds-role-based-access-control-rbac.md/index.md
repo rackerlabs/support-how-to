@@ -12,7 +12,7 @@ product_url: account-management
 ---
 
 **Previous section**: [Role-Based Access Control (RBAC)
-FAQ](/how-to/faq-role-based-access-control-rbac)
+FAQ](/support/how-to/faq-role-based-access-control-rbac)
 
 This article describes known issues with Role-Based Access Control
 (RBAC). We are diligently working to resolve these issues. If you're
@@ -64,4 +64,4 @@ using the API or by contacting support at 1 800 961 4454.
 
 ### Next section
 [Getting started with
-RBAC](/how-to/getting-started-with-role-based-access-control-rbac)
+RBAC](/support/how-to/getting-started-with-role-based-access-control-rbac)

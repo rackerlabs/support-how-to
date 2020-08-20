@@ -41,7 +41,7 @@ Consider the following issues:
     DBMS vendor for more information. If you have such a DBMS and you
     want to create an image of the server, read [Using task states with
     server
-    imaging](/how-to/using-task-states-with-server-imaging).
+    imaging](/support/how-to/using-task-states-with-server-imaging).
 -   As is the case with a manual image, a scheduled image is an image of
     the system disk only.
 
@@ -57,7 +57,7 @@ and API users:
     like the image created.  Finally, specify the number of images you
     want to retain and then click **Create Schedule**.  To learn more about
     the Cloud Control Panel, see
-    [Introducing the Rackspace Cloud Control Panel](/how-to/introducing-the-rackspace-cloud-control-panel).
+    [Introducing the Rackspace Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
 -   **API users**: See the Cloud Servers [API documentation for the
     Scheduled Images
     extension](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
@@ -90,7 +90,7 @@ it:
 
 For information about using the novaclient tool for scheduled images,
 see [Using python-novaclient to manage scheduled
-images](/how-to/using-python-novaclient-to-manage-scheduled-images).
+images](/support/how-to/using-python-novaclient-to-manage-scheduled-images).
 
 #### Is there a minimum or maximum time between scheduled images?
 
@@ -190,7 +190,7 @@ Control Panel. If you don't want to make API calls directly, a
 command-line tool called `novaclient` is available. For more information
 about using the novaclient tool to manage your scheduled images, see
 [Using python-novaclient to manage scheduled
-images](/how-to/using-python-novaclient-to-manage-scheduled-images).
+images](/support/how-to/using-python-novaclient-to-manage-scheduled-images).
 
 #### How can I change the retention value on my server?
 
@@ -247,4 +247,4 @@ options will remain the same as they are now.
 -   [Scheduled Images API Extension
     Documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
 -   [Using python-novaclient to manage scheduled
-    images](/how-to/using-python-novaclient-to-manage-scheduled-images)
+    images](/support/how-to/using-python-novaclient-to-manage-scheduled-images)

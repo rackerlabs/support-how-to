@@ -22,7 +22,7 @@ Life status.
 
 Next Generation is the Cloud Servers environment powered by OpenStack.
 For more information about the details and features of this change, see
-[Next Generation Cloud Servers migration considerations and options](/how-to/next-generation-cloud-servers-migration-considerations-and-options).
+[Next Generation Cloud Servers migration considerations and options](/support/how-to/next-generation-cloud-servers-migration-considerations-and-options).
 
 #### How will I be notified about the migration of my servers?
 
@@ -105,7 +105,7 @@ Cloud Files rate.
 
 Backup schedules for First Generation servers *will not* be carried over to
 Next Generation servers. The Next Generation cloud offers several data
-backup options, including [Rackspace Cloud Backup](/how-to/cloud-backup) and [Rackspace Cloud Block Storage](/how-to/cloud-block-storage) volume
+backup options, including [Rackspace Cloud Backup](/support/how-to/cloud-backup) and [Rackspace Cloud Block Storage](/support/how-to/cloud-block-storage) volume
 snapshots. You can schedule images, but image scheduling works
 differently than backup schedules, and may not be appropriate for all
 use cases. For instance, with Scheduled Backups in the Next
@@ -135,13 +135,13 @@ The migration involves transferring data, so anything that you can do to
 ensure a healthy file system will make the move smoother. This includes
 performing routine maintenance and trimming log and temporary files from
 the server. The following article provides steps that you can take
-before your migration: [Preparing for a Cloud Server Migration](/how-to/prepare-to-migrate-a-linux-server).
+before your migration: [Preparing for a Cloud Server Migration](/support/how-to/prepare-to-migrate-a-linux-server).
 
 #### What should I do after I have migrated my Windows severs?
 
 We recommend installing XenServer Tools 6.2 onto your server. A mismatch between the Xenserver Tools on your server's operating system and the version of XenServer on the hypervisor host can result in server instability.
 
-You can find instructions in the article, [Upgrade Citrix Tools for windows cloud servers](/how-to//upgrade-citrix-xen-server-tools-for-windows-cloud-servers).
+You can find instructions in the article, [Upgrade Citrix Tools for windows cloud servers](/support/how-to//upgrade-citrix-xen-server-tools-for-windows-cloud-servers).
 
 #### Will the flavor (size) of my server remain the same?
 

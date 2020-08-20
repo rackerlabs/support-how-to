@@ -49,7 +49,7 @@ as the *producer*, and the person who wants to use that image as the
 and the "consumer" is the share-ee.)
 
 -   **Support for shared images:** Shared images are considered
-    *nonstandard images* (for more information, see [Standard and Non-Standard Images](/how-to/rackspace-standard-and-non-standard-images)).
+    *nonstandard images* (for more information, see [Standard and Non-Standard Images](/support/how-to/rackspace-standard-and-non-standard-images)).
 
     **Note:** Regardless of the service level that you are subscribed to, we cannot
     guarantee supportability of these images. Your service level agreement (SLA)
@@ -93,7 +93,7 @@ and the "consumer" is the share-ee.)
     you might want to notify them that the image is available.  Because
     of the anti-spam feature, the image won't display in their image list.
 
-For more information, see the image sharing section of the [Cloud Images FAQ](/how-to/cloud-images-faq).
+For more information, see the image sharing section of the [Cloud Images FAQ](/support/how-to/cloud-images-faq).
 
 #### Permissions
 
@@ -108,7 +108,7 @@ The roles are briefly described as follows:
     or equivalent role).
 
 For more information about Cloud Images RBAC, see the How To article 
-[Detailed Permission Matrix for Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images).
+[Detailed Permission Matrix for Cloud Images](/support/how-to/detailed-permissions-matrix-for-cloud-images).
 
 ### Sharing an image in the Cloud Control Panel
 
@@ -246,7 +246,7 @@ your normal workflow. However, we encourage you to consider the
 following information before booting a server from a shared image:
 
 -   **Shared images are nonstandard images.** For more information, see
-    [Standard and Non-Standard Images](/how-to/rackspace-standard-and-non-standard-images).
+    [Standard and Non-Standard Images](/support/how-to/rackspace-standard-and-non-standard-images).
     For servers booted from nonstandard images, you can expect that we
     ensure that host servers are functioning properly and that the API
     availability meets the SLA.

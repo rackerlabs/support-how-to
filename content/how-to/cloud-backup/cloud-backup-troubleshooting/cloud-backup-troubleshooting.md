@@ -11,7 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-**Previous section**: [Rackspace Cloud Backup - Preferences](/how-to/rackspace-cloud-backup-preferences)
+**Previous section**: [Rackspace Cloud Backup - Preferences](/support/how-to/rackspace-cloud-backup-preferences)
 
 If you encounter issues when working with Cloud Backup, use the information in this article to help you troubleshoot.
 
@@ -68,13 +68,13 @@ issues that cause this status are as follows:
 
 -   Non-UTF-8 characters were used in the path of the file in the operating system. The current version of Cloud Backup supports only UTF-8 characters. When non-UTF-8 characters are used, a `Path Not Found` message is displayed.
 
-For more information, see [Back up databases with Cloud Backup](/how-to/rackspace-cloud-backup-backing-up-databases/).
+For more information, see [Back up databases with Cloud Backup](/support/how-to/rackspace-cloud-backup-backing-up-databases/).
 
 #### Backup status "Error"
 
 Many issues might cause a backup status of Error to occur, such as cloud account permissions for the user who configured that agent or the DriveClient not being able to connect to the agent APIs.
 
-Rackspace Support must review the **driveclient.log** file to determine the cause. If the agent is not connected, attach the **driveclient.log** file to a ticket so that Support can review it. For more information, see [Cloud Backup agent logging basics - Where to store saved logs](/how-to/cloud-backup-agent-logging-basics/).
+Rackspace Support must review the **driveclient.log** file to determine the cause. If the agent is not connected, attach the **driveclient.log** file to a ticket so that Support can review it. For more information, see [Cloud Backup agent logging basics - Where to store saved logs](/support/how-to/cloud-backup-agent-logging-basics/).
 
 Following are some of the issues and some possible fixes:
 
@@ -97,7 +97,7 @@ If the local system has less than 100 MB of free disk space, the backup and even
 -  Automated log uploads made by using the Cloud Control Panel might not be possible.
 -  File restore operations might partially or completely fail.
 
-If disk space is so low that any of the preceding issues occur, we strongly recommend that you move as many extraneous files as possible off of the local system drive. For possible ways to do this with Cloud Backup files, see [Conserving resources with Cloud Backup](/how-to/best-practices-for-cloud-backup/).
+If disk space is so low that any of the preceding issues occur, we strongly recommend that you move as many extraneous files as possible off of the local system drive. For possible ways to do this with Cloud Backup files, see [Conserving resources with Cloud Backup](/support/how-to/best-practices-for-cloud-backup/).
 
 ##### Container does not exist
 
@@ -175,7 +175,7 @@ The agent logs are stored, by default, in the following directories:
 
 -   (Linux) **/var/log/driveclient.log**
 
-The **log4cxx.xml** configuration file controls agent logging. This file is located in the Cloud Backup cache folder. Among the things that you can manually edit in this file are the size of the **driveclient.log** file (`MaxFileSize`) and how many previous versions (`MaxBackupIndex`) are saved before they are deleted. For more information about how to configure this file, see [Cloud Backup agent logging basics](/how-to/cloud-backup-agent-logging-basics).
+The **log4cxx.xml** configuration file controls agent logging. This file is located in the Cloud Backup cache folder. Among the things that you can manually edit in this file are the size of the **driveclient.log** file (`MaxFileSize`) and how many previous versions (`MaxBackupIndex`) are saved before they are deleted. For more information about how to configure this file, see [Cloud Backup agent logging basics](/support/how-to/cloud-backup-agent-logging-basics).
 
 #### Format of log lines
 
@@ -227,7 +227,7 @@ snapshot of the drive and attempts to back up files from it.
 
 ### System resource utilization
 
-The amount of resources (memory, CPU, and load) used by the DriveClient is directly related to how many files are being backed up in each backup configuration. An increased number of files (or the size of files) can cause the agent to consume more resources. For best practice suggestions, see [Best practices for Cloud Backup](/how-to/best-practices-for-cloud-backup).
+The amount of resources (memory, CPU, and load) used by the DriveClient is directly related to how many files are being backed up in each backup configuration. An increased number of files (or the size of files) can cause the agent to consume more resources. For best practice suggestions, see [Best practices for Cloud Backup](/support/how-to/best-practices-for-cloud-backup).
 
 ### Other errors and problems
 
@@ -292,5 +292,5 @@ their data is meant to be discarded.
 If you need to back up these types of files, we recommend the following
 workarounds:
 
--   For databases, take a snapshot of the database (for example, a database dump) and back up the dump. See [Back up databases with Cloud Backup](/how-to/rackspace-cloud-backup-backing-up-databases) for full instructions.
+-   For databases, take a snapshot of the database (for example, a database dump) and back up the dump. See [Back up databases with Cloud Backup](/support/how-to/rackspace-cloud-backup-backing-up-databases) for full instructions.
 -   For log files, take snapshots of your log files and back them up. To avoid running out of disk space, rotate your log files periodically.

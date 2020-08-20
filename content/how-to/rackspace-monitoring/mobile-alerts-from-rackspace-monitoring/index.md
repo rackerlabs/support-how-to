@@ -11,7 +11,7 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-Sometimes, an email alert isn't enough. If you are on call, on the go, or far from Wi-Fi, mobile alerts are a necessity. For the most critical problems, you can set up notifications from multiple form factors, combining SMS with any of our other [notification types](https://support.rackspace.com/how-to/rackspace-monitoring-checks-and-alarms/).
+Sometimes, an email alert isn't enough. If you are on call, on the go, or far from Wi-Fi, mobile alerts are a necessity. For the most critical problems, you can set up notifications from multiple form factors, combining SMS with any of our other [notification types](https://support.rackspace.com/support/how-to/rackspace-monitoring-checks-and-alarms/).
 
 <img src="CMSMS1.png" alt="" width="320" height="254" border="2" />
 
@@ -32,7 +32,7 @@ If you are not yet using Rackspace Monitoring, sign up at no cost on [the Racksp
 
 ## Set up alerts
 
-You configure SMS alerts for your account by adding one or more new notifications via the [raxmon CLI](/how-to/getting-started-with-rackspace-monitoring-cli). You can add SMS alerts to an existing notification plan, or you can create a new one. Be sure to attach the notification plan to one or more alarms. For step-by-step guidance, see the tutorial on setting up notifications and notification plans in the Rackspace Monitoring [_Getting Started Guide_](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notifications-operations).
+You configure SMS alerts for your account by adding one or more new notifications via the [raxmon CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli). You can add SMS alerts to an existing notification plan, or you can create a new one. Be sure to attach the notification plan to one or more alarms. For step-by-step guidance, see the tutorial on setting up notifications and notification plans in the Rackspace Monitoring [_Getting Started Guide_](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notifications-operations).
 
 **Note:** You can create alarms and notifications in any order, but to create a new notification plan, you need to create a notification first.
 

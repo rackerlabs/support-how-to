@@ -126,7 +126,7 @@ Alternatively, you can use the `grep` command to look for these specific lines. 
 
 #### The firewall
 
-If you have network connectivity, all the configurations are correct, and you are still unable to connect via SSH, you might want to look at your firewall rules on the server. On Linux servers, **iptables** has these rules. To list the firewall rules in **iptables**, run the command `iptables -L`. To learn more about **iptables**, read [Introduction to iptables](/how-to/introduction-to-iptables/ "iptables").
+If you have network connectivity, all the configurations are correct, and you are still unable to connect via SSH, you might want to look at your firewall rules on the server. On Linux servers, **iptables** has these rules. To list the firewall rules in **iptables**, run the command `iptables -L`. To learn more about **iptables**, read [Introduction to iptables](/support/how-to/introduction-to-iptables/ "iptables").
 
 #### `fail2ban`
 

@@ -79,7 +79,7 @@ host](https://support.rackspace.com/how-to/find-dns-host/).
 #### Configure Rackspace Cloud DNS
 
 If you are using Rackspace Cloud DNS as your DNS hosting provider, you must
-complete the steps in [Transfer your DNS hosting to Rackspace](https://support.rackspace.com/how-to/transferring-your-dns-hosting-to-rackspace/).
+complete the steps in [Transfer your DNS hosting to Rackspace](https://support.rackspace.com/support/how-to/transferring-your-dns-hosting-to-rackspace/).
 
 #### Wait for the changes to propagate
 

@@ -144,7 +144,7 @@ sections in the Auto Scale API Developer's Guide.
 
 For information on the parameters used with the Auto Scale Control
 Panel, see the [Create a scaling
-group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
+group](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
 section in the Rackspace Auto Scale Control Panel User Guide.
 
 #### Are monitoring rules for the entire scaling group or can I monitor specific servers in the scaling group?
@@ -174,7 +174,7 @@ multiple scaling groups and a tree of load balancers to service requests
 or using RackConnect to use a higher capacity hardware load balancer
 solution. For more information on RackConnect, see [How do I get started
 with
-RackConnect?](/how-to/rackconnect-v20)
+RackConnect?](/support/how-to/rackconnect-v20)
 
 #### Do the servers that I'm going to automatically scale up have to be associated with a group? If so, why?
 

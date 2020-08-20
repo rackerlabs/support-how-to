@@ -24,7 +24,7 @@ This article discusses the following topics:
 -   [openSUSE installation](#opensuse-installation)
 -   [How to use VNstat](#how-to-use-vnstat)
 -   [How to use IPtraf](#how-to-use-iptraf)
--   [How to use Tcpdump](/how-to/capturing-packets-with-tcpdump)
+-   [How to use Tcpdump](/support/how-to/capturing-packets-with-tcpdump)
 
 Basic administration principles state that the administrator
 should have a strong grasp on what a server is doing at all times.
@@ -41,7 +41,7 @@ going to, and leaving, your server.
 Rackspace offers its [Cloud
 Monitoring](https://www.rackspace.com/cloud/monitoring/) service at no
 cost for use with Cloud Servers. For more information about this
-flexible service, see [Getting Started with Cloud Monitoring](/how-to/cloud-monitoring).
+flexible service, see [Getting Started with Cloud Monitoring](/support/how-to/cloud-monitoring).
 
 ### Monitoring in Linux
 

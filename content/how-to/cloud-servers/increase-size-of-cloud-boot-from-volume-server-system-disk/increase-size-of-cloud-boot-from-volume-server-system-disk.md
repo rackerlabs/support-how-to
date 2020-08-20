@@ -124,4 +124,4 @@ In the Cloud Control Panel, run the **Reboot** command.
 
 After the VM is in **Active** status, you are able to
 log in to the VM again by using SSH and RDP or the [Emergency
-Console](/how-to/start-a-console-session/).
+Console](/support/how-to/start-a-console-session/).

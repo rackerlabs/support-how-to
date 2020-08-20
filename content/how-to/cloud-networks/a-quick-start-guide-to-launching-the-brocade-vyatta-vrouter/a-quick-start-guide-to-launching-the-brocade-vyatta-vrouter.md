@@ -124,19 +124,19 @@ Refer to Chapter 4 of the [quick start configuration guide](https://bit.ly/ZrdYH
 For Help with Vyatta configuration for specific use cases please refer
 to the following links:
 
-Firewall: [Configuring interface-based firewall on the Vyatta network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
+Firewall: [Configuring interface-based firewall on the Vyatta network appliance](/support/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 
 Outbound
-NAT:[Enable internet access on Cloud Servers using SNAT on a Vyatta network appliance](/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance)
+NAT:[Enable internet access on Cloud Servers using SNAT on a Vyatta network appliance](/support/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance)
 
 Site-to-Site
-VPN: [Configure a site to site VPN using the Vyatta network appliance](/how-to/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance)
+VPN: [Configure a site to site VPN using the Vyatta network appliance](/support/how-to/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance)
 
 L2TP/IPSec
-VPN:[Configure remote access on a Vyatta appliance](/how-to/configure-remote-access-vpn-service-on-a-vyatta-appliance)
+VPN:[Configure remote access on a Vyatta appliance](/support/how-to/configure-remote-access-vpn-service-on-a-vyatta-appliance)
 
 Accessing Rackspace Services via Isolated networks using
-SNAT: [Accessing Rackspace services via isolaged networks through the Vyatta network appliance](/how-to/accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance)
+SNAT: [Accessing Rackspace services via isolaged networks through the Vyatta network appliance](/support/how-to/accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance)
 
 Control Panel "Actions" and limitations for
-Vyatta: [Brocade Vyatta vRouter supported actions through the Cloud Control Panel](/how-to/brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel)
+Vyatta: [Brocade Vyatta vRouter supported actions through the Cloud Control Panel](/support/how-to/brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel)

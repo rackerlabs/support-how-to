@@ -72,9 +72,9 @@ Follow these steps to view your invoice:
 
 Invoices are available as a summarized PDF, a more detailed
 comma-separated-values (CSV) file, and a [detailed HTML
-view](/how-to/detailed-invoices-overview/).
+view](/support/how-to/detailed-invoices-overview/).
 We also provide [pivot tables in downloadable
-spreadsheets](/how-to/use-pivot-tables-with-your-cloud-billing-invoice)
+spreadsheets](/support/how-to/use-pivot-tables-with-your-cloud-billing-invoice)
 to help you organize your billing information.
 
 #### How do I view current service usage?
@@ -185,7 +185,7 @@ Yes, RBAC is available to all Rackspace customers.
 #### When I add a user login to an existing contact, can I configure custom role assignments?
 
 Yes, you can. For instructions, see [Use Role-Based Access Control
-(RBAC)](/how-to/managing-role-based-access-control-rbac).
+(RBAC)](/support/how-to/managing-role-based-access-control-rbac).
 
 #### How do I query the capability of a given user?
 
@@ -229,7 +229,7 @@ Yes.
 With RBAC, account owners can leave permissions as
 they are in MyRackspace or set up restricted access to specific products
 for users through the Cloud Control Panel. For more detailed information,
-see [Learn about Role-Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac/).
+see [Learn about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac/).
 
 #### Can I link dedicated, hybrid, and cloud permissions?
 
@@ -251,8 +251,8 @@ Following is the initial pop-up window that appears when you enable RBAC.
 [<img src="RBAC.png" width="526" height="378" />](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RBAC.png)
 
 For information about additional products that will be RBAC-enabled in
-the future, see [Learn about Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
+the future, see [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
 
-For information about changing your admin credentials, see [Use Role-Based Access Control (RBAC)](/how-to/managing-role-based-access-control-rbac).
+For information about changing your admin credentials, see [Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac).
 
 For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).

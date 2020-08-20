@@ -13,11 +13,11 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a new tool within the MyRackspace Portal. This article describes the port-group feature within this tool.
 
-To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/support/how-to/firewall-manager-v2).
 
 ### What is a port-group?
 
-A port-group is a form of an object-group. Object-groups are used to group like items, such as IP addresses, ports, or protocols. Object-groups are commonly used to make the configuration of a firewall's access-list more easily readable and controlled, which assists in support and troubleshooting. For more information about object-groups, see [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups).
+A port-group is a form of an object-group. Object-groups are used to group like items, such as IP addresses, ports, or protocols. Object-groups are commonly used to make the configuration of a firewall's access-list more easily readable and controlled, which assists in support and troubleshooting. For more information about object-groups, see [Firewall Manager v2 object-groups](/support/how-to/firewall-manager-v2-object-groups).
 
 A port-group is a single configuration item that logically groups ports together. The benefit to using a port-group is that you can reference a port-group in access-list entries that have object-groups as well. This option
 is better than the alternative of having to create individual access-list entries for each component of the port-group.
@@ -36,7 +36,7 @@ In Firewall Manager v2, you can now view, modify, and delete any port-group on y
 
 ### View port-groups
 
-1. Log in to Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
+1. Log in to Firewall Manager v2 by following the steps in the [Firewall Manager v2](/support/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see port-groups.
 

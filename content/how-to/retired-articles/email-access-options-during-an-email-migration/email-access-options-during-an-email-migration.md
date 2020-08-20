@@ -47,7 +47,7 @@ This option is for users who are familiar with email client configurations and w
 
 #### Tips for Outlook 2007
 
-Outlook 2007 does not support multiple Exchange accounts in the same profile. Therefore, a new profile must be created through the Windows Control Panel. IMAP and POP for Rackspace Email can be added into the same profile. For instructions on creating a new profile for Exchange, see [Manually configure Outlook 2007 for email hosted on Exchange 2010](/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2010).
+Outlook 2007 does not support multiple Exchange accounts in the same profile. Therefore, a new profile must be created through the Windows Control Panel. IMAP and POP for Rackspace Email can be added into the same profile. For instructions on creating a new profile for Exchange, see [Manually configure Outlook 2007 for email hosted on Exchange 2010](/support/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2010).
 
 #### Tips for Outlook 2010 and later
 
@@ -59,5 +59,5 @@ To add an account, click the **File** tab, and then click **Add Account** on the
 
 - [Webmail link for Rackspace Email and Exchange](https://apps.rackspace.com)
 - [Email help tool](https://emailhelp.rackspace.com) (recommended for new client setups)
-- [Configure email clients and mobile devices for email hosted on Exchange](/how-to/configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange)
-- [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings)
+- [Configure email clients and mobile devices for email hosted on Exchange](/support/how-to/configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange)
+- [Rackspace Email and Hosted Exchange settings](/support/how-to/rackspace-email-and-hosted-exchange-settings)

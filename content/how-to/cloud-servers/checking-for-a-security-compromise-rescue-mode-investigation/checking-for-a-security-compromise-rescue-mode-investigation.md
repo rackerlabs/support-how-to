@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the article [Check for a security compromise: Back doors and intruders](/how-to/check-for-a-security-compromise-back-doors-and-intruders),
+In the article [Check for a security compromise: Back doors and intruders](/support/how-to/check-for-a-security-compromise-back-doors-and-intruders),
 you learned some basic techniques for collecting the information needed to
 identify intruders who have compromised your server. This article describes how
 to use the [Cloud Control Panel's](https://login.rackspace.com/) *Rescue Mode*
@@ -29,7 +29,7 @@ compromise.
 
 You can do this by using the rescue mode feature provided in the
 [Cloud Control Panel](https://login.rackspace.com/). For instructions and more
-information, see [Rescue Mode](/how-to/rescue-mode/).
+information, see [Rescue Mode](/support/how-to/rescue-mode/).
 
 While your server is in rescue mode, you can perform the following actions to
 locate the source of the compromise.
@@ -178,7 +178,7 @@ You can also look at log files in the **/var/log** directory. For example,
 
 ### Summary
 
-In [Checking for a security compromise: Backdoors and Intruders](/how-to/check-for-a-security-compromise-back-doors-and-intruders),
+In [Checking for a security compromise: Backdoors and Intruders](/support/how-to/check-for-a-security-compromise-back-doors-and-intruders),
 you learned some techniques to use to discover back doors and track intruders
 on your Cloud Server. This will help you to avoid the situation or mistake that
 led to the compromise, minimizing the chance of future compromises. In this
@@ -192,4 +192,4 @@ some options to help you secure your files:
 -   [Rackspace Cloud Backup](https://www.rackspace.com/cloud/backup/) is a good
 choice for Cloud Servers customers. It is fully integrated with Cloud Servers,
 and is a file-based backup alternative to whole image server backup.
--   For those who prefer to do it themselves, see [Back up your files with rsync](/how-to/backing-up-your-files-with-rsync/).
+-   For those who prefer to do it themselves, see [Back up your files with rsync](/support/how-to/backing-up-your-files-with-rsync/).

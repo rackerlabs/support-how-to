@@ -19,22 +19,22 @@ centers and comparable managed security service offerings.
 
 ### Introduction to Rackspace PDR
 
-- [Rackspace PDR Overview](/how-to/rackspace-pdr-overview/)
+- [Rackspace PDR Overview](/support/how-to/rackspace-pdr-overview/)
 
 ### Rackspace PDR platform guides
 
-- [Rackspace PDR on Rackspace Dedicated Servers](/how-to/rackspace-pdr-dedicated-servers/)
-- [Rackspace PDR on Managed AWS](/how-to/rackspace-pdr-aws/)
-- [Rackspace PDR on Managed Azure Cloud](/how-to/rackspace-pdr-azure/)
-- [Rackspace PDR on Managed Google Cloud Platform](/how-to/rackspace-pdr-gcp/)
+- [Rackspace PDR on Rackspace Dedicated Servers](/support/how-to/rackspace-pdr-dedicated-servers/)
+- [Rackspace PDR on Managed AWS](/support/how-to/rackspace-pdr-aws/)
+- [Rackspace PDR on Managed Azure Cloud](/support/how-to/rackspace-pdr-azure/)
+- [Rackspace PDR on Managed Google Cloud Platform](/support/how-to/rackspace-pdr-gcp/)
 
 ### Rackspace PDR networking guides
 
-- [Rackspace PDR Agent networking](/how-to/rackspace-pdr-agent-networking/)
-- [Rackspace PDR NIDS networking](/how-to/rackspace-pdr-nids-networking/)
-- [Rackspace PDR SSL decryption guide](/how-to/rackspace-pdr-ssl-decryption/)
+- [Rackspace PDR Agent networking](/support/how-to/rackspace-pdr-agent-networking/)
+- [Rackspace PDR NIDS networking](/support/how-to/rackspace-pdr-nids-networking/)
+- [Rackspace PDR SSL decryption guide](/support/how-to/rackspace-pdr-ssl-decryption/)
 
 ### Rackspace PDR Agent guides
 
-- [Rackspace PDR Agent compatibility](/how-to/rackspace-pdr-agent-compatibility/)
-- [Rackspace PDR imaging hosts](/how-to/rackspace-pdr-imaging/)
+- [Rackspace PDR Agent compatibility](/support/how-to/rackspace-pdr-agent-compatibility/)
+- [Rackspace PDR imaging hosts](/support/how-to/rackspace-pdr-imaging/)

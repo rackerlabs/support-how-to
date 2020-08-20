@@ -24,7 +24,7 @@ release](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 **Note**: These instructions apply to using PuTTY on the Windows&reg; operating system.
 For information about using SSH private keys on Linux and OS X&reg;
 operating systems, see [Log in with an SSH Private Key on Linux and
-Mac](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac).
+Mac](/support/how-to/logging-in-with-an-ssh-private-key-on-linuxmac).
 
 ### Save your private SSH key to a text file
 

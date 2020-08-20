@@ -20,7 +20,7 @@ aside an appropriate amount of time for completion.
 
 - **Applies to:** Administrator
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Export options avaliable
 
@@ -68,7 +68,7 @@ deciding to export an archive.
   as messages from a particular sender, or messages delivered within a specific
   time frame, exporting search results is a more efficient option. For
   information about how to export search results, see [
-  Export archive search results in Cloud Office](/how-to/export-archive-search-results-in-cloud-office).
+  Export archive search results in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
 
 **Warning:** If you reach your cancellation date before completing the archive
 export, the export will be cancelled and you will be unable retrieve the rest
@@ -82,7 +82,7 @@ Archiving account:
 -   Export your data from the Archive Manager by creating searches and
     exporting the results of the searches. For information about how to
     export the results of a search, see [Export archive search results
-    in Cloud Office](/how-to/export-archive-search-results-in-cloud-office).
+    in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
 
     **Note:** You can export searches with a maximum of 15,000 results or a total size of 3.5 GB
 

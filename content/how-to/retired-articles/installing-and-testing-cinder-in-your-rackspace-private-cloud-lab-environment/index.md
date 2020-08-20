@@ -1106,4 +1106,4 @@ separation and performance tiering for your instances.
 You may also find the following references helpful as you explore cinder
 functionality further.
 
-RPC block storage configuration - </how-to/configuring-openstack-block-storage>
+RPC block storage configuration - </support/how-to/configuring-openstack-block-storage>

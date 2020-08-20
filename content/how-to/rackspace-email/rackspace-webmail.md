@@ -89,7 +89,7 @@ In the **Composing Email** section, you can manage settings for composing, ident
 
 ##### Signatures
 
-- **Add New Signature** adds a new signature and assigns it to your outgoing email and also to specific identities. To learn more, see [Add a Rackspace Email signature](/how-to/adding-a-signature-to-rackspace-email).
+- **Add New Signature** adds a new signature and assigns it to your outgoing email and also to specific identities. To learn more, see [Add a Rackspace Email signature](/support/how-to/adding-a-signature-to-rackspace-email).
 
 #### Incoming Email
 

@@ -27,7 +27,7 @@ You can retain the operating system and configuration information from
 your system disk by using our Cloud Servers imaging feature, but it will
 not save any information from the data disk(s). To save your data
 disk(s) you have the option of using [Rackspace Cloud
-Backup](/how-to/cloud-backup), which is a
+Backup](/support/how-to/cloud-backup), which is a
 granular file level backup system that you can configure to save only
 the files and folders you wish to keep.
 
@@ -47,7 +47,7 @@ Horizontal scaling is the most flexible approach, but it requires that
 your application be able to work in a clustered environment.  With
 horizontal scaling in place you can add and remove servers on demand,
 either manually or with our [Auto Scale
-features](/how-to/rackspace-auto-scale).
+features](/support/how-to/rackspace-auto-scale).
 
 To recreate the server you can take an image of your server and build a
 new server with a different size, or migrate data to a new server using
@@ -55,7 +55,7 @@ a tool like rsync.  If you use a Cloud Block Storage volume as your
 server's boot device, you can also clone your boot volume and use the
 clone to create a new server (see [Boot a server from a Cloud Block
 Storage
-volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume)).
+volume](/support/how-to/boot-a-server-from-a-cloud-block-storage-volume)).
 Note that the server IP address is not preserved with any of these
 approaches.  If you require a persistent IP address, consider a load
 balancer or other proxying solution so the IP address is maintained

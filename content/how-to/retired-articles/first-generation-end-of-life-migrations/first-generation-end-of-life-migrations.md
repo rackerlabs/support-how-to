@@ -104,8 +104,8 @@ customers, this means that no action need be taken on your part. To
 ensure a smooth transition, however, we have created articles with
 recommendations for your OS.
 
--   [Preparing for Migration - Linux](/how-to/prepare-to-migrate-a-linux-server)
--   [Preparing for Migration - Windows](/how-to/prepare-to-migrate-a-windows-server)
+-   [Preparing for Migration - Linux](/support/how-to/prepare-to-migrate-a-linux-server)
+-   [Preparing for Migration - Windows](/support/how-to/prepare-to-migrate-a-windows-server)
 
 ### Migrating prior to your designated window
 
@@ -115,7 +115,7 @@ customer who needs it during the transition. As such, we will be unable
 to provide this process early.
 
 If you want to make the transition early, you can do so via the
-traditional [Image-Based migration method](/how-to/next-generation-cloud-servers-migration-considerations-and-options),
+traditional [Image-Based migration method](/support/how-to/next-generation-cloud-servers-migration-considerations-and-options),
 with the caveats that accompany it. Be aware that image-based migration
 does not allow for IP address retention across platforms. If this
 retention is a necessity, you might want to wait until your designated
@@ -124,5 +124,5 @@ migration window.
 ### Finding more information
 
 For more information, contact your support team or refer to
-[First Generation to Next Generation Migration FAQ](/how-to/first-generation-to-next-generation-cloud-server-migration-faq)
+[First Generation to Next Generation Migration FAQ](/support/how-to/first-generation-to-next-generation-cloud-server-migration-faq)
 

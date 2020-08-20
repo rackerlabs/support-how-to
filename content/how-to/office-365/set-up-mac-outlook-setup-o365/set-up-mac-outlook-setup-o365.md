@@ -20,7 +20,7 @@ This article describes how to install, configure, and perform basic functions wi
 - **Time Needed:** 20 Minutes for installation and initial setup. The full propagation of email varies based on the size of the mailbox.
 - **Tools Needed:** Installed Outlook for Mac desktop application. This article does not cover the pre-installed native Apple Mail application.
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Install Outlook for Mac 
 
@@ -79,7 +79,7 @@ continue to receive password prompts, use the following steps:
 1.	To verify your credentials, attempt to log in at **office.com** with your Office 365 email address and password.
 
 2.	Clear old entries from the **Keychain Access** for Mac, because Outlook might be trying to authenticate with
-    an old password. For more information, see (Clear keychain access for Mac)[/how-to/clear-keychain-access-for-mac].
+    an old password. For more information, see (Clear keychain access for Mac)[/support/how-to/clear-keychain-access-for-mac].
 
 If you are unable to connect to the server, use the following steps:
 

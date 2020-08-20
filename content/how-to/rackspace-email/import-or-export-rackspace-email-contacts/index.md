@@ -20,7 +20,7 @@ This article describes how to import contacts to your Rackspace Email account fr
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Rackspace Email access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 ### Import contacts to Rackspace Email
 

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-After you have [created a new Cloud Server](/how-to/create-a-cloud-server)
+After you have [created a new Cloud Server](/support/how-to/create-a-cloud-server)
 with the Cloud Control Panel, you need to make a secure remote
 connection from your local computer to your Cloud Server. This article
 describes how to use a client called PuTTY to form a Secure Shell (SSH)
@@ -24,11 +24,11 @@ Rackspace in any way, but the software is simple to use, freely
 available, and reputable.
 
 If you are a MacOS&reg; X user, you can
-[connect to a Linux server by using Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal),
+[connect to a Linux server by using Terminal](/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal),
 a console program included with the operating system.
 
 For an OnMetal server, see
-[Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
+[Create OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers)
 for applicable OnMetal steps.
 
 #### Windows version

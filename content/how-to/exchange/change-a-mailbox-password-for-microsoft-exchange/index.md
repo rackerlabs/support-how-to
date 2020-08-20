@@ -20,9 +20,9 @@ This article describes how to change the password for a Hosted Microsoft Exchang
 - **Time needed**: Approximately 10 minutes
 - **Tools required**: Users need their current mailbox password; administrators need Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/#cloud-office-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology).
 
-**Note:** If you are using an Office 365 Microsoft Exchange mailbox, see the [Office 365 documentation](/how-to/office-365/) for assistance with this task.
+**Note:** If you are using an Office 365 Microsoft Exchange mailbox, see the [Office 365 documentation](/support/how-to/office-365/) for assistance with this task.
 
 ### Change your password through the User Control Panel
 
@@ -32,7 +32,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Under **Change Password**, enter your current password, your new password, and your new password again to confirm.
 
-   **Note:** We recommend that you create a password that you have never used before and that remains unique from all your other passwords. Review [Password Management and Best Practices](/how-to/password-management-and-best-practices) for guidance on password creation.
+   **Note:** We recommend that you create a password that you have never used before and that remains unique from all your other passwords. Review [Password Management and Best Practices](/support/how-to/password-management-and-best-practices) for guidance on password creation.
 
    <img src="UserpasswordResetCPSC2.png" />
 

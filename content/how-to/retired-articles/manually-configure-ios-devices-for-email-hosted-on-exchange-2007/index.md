@@ -16,7 +16,7 @@ account on your iPhone using the ActiveSync technology.
 iOS 4.0 or higher.*
 
 **Note:** Before you can begin, your administrator must
-[Add an ActiveSync license](/how-to/add-an-activesync-or-bes-license)
+[Add an ActiveSync license](/support/how-to/add-an-activesync-or-bes-license)
 and assign it to your email address.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/usercp).

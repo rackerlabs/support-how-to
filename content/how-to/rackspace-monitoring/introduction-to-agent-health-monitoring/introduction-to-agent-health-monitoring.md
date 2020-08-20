@@ -22,11 +22,11 @@ a result, you can quickly alert the appropriate person or team when any
 one of the agents has an issue.
 
 For more information, see the [Working with
-alarms](/how-to/working-with-alarms),
+alarms](/support/how-to/working-with-alarms),
 [Working with
-checks](/how-to/working-with-checks),
+checks](/support/how-to/working-with-checks),
 and [Working with Rackspace Intelligence notification
-plans](/how-to/working-with-rackspace-intelligence-notification-plans)
+plans](/support/how-to/working-with-rackspace-intelligence-notification-plans)
 articles.
 
 ### How does agent health monitoring work?
@@ -75,13 +75,13 @@ procedures:
     connection is working, verify whether the agent has stopped running
     or is experiencing issues. For information about debugging the
     agent, see [Troubleshooting the Rackspace Monitoring
-    Agent](/how-to/troubleshooting-the-rackspace-monitoring-agent).
+    Agent](/support/how-to/troubleshooting-the-rackspace-monitoring-agent).
 
 For a summary of the concepts mentioned in this article, read the
 [Single Pane of Glass for Your IT
 Ops](https://bit.ly/maas-intelligence) blog post or the [Getting Started
 with Rackspace
-Intelligence](/how-to/rackspace-intelligence)
+Intelligence](/support/how-to/rackspace-intelligence)
 article.
 
 ### Start using agent health monitoring

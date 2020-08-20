@@ -51,7 +51,7 @@ November 15, 2012
 ### Additional Resources
 
 -   [Rackspace Private Cloud Knowledge
-    Center](/how-to/rpc-openstack)
+    Center](/support/how-to/rpc-openstack)
 -   [OpenStack Manuals](https://docs.openstack.org)
 -   [OpenStack Documentation: Configuring migrations](https://docs.openstack.org/admin-guide-cloud/compute-configuring-migrations.html)
 

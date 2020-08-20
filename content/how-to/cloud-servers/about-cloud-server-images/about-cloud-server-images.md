@@ -36,7 +36,7 @@ images:
 
 
 -   **Cloud Server images can be shared between accounts, but not between regions**.
-    You can share images between accounts **in the same region**. This allows you to build a server from the shared image, and then create a copy of the newly created server. To move images between regions, see [Transfer images between regions of the Rackspace open cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
+    You can share images between accounts **in the same region**. This allows you to build a server from the shared image, and then create a copy of the newly created server. To move images between regions, see [Transfer images between regions of the Rackspace open cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
 
 -   Image creation can take several hours if the disk is extremely large, so be
     sure to allot an appropriate amount of time to create an image of your server.
@@ -71,7 +71,7 @@ images:
  documentation for the recommended backup and restore procedures.
 
 #### Fortinet Fortigate-VM
-- [Back up the Fortinet Fortigate-VM (Rackspace Guide)](/how-to/back-up-the-fortinet-fortigate-vm/)
+- [Back up the Fortinet Fortigate-VM (Rackspace Guide)](/support/how-to/back-up-the-fortinet-fortigate-vm/)
 - [How to download a FortiGate configuration file and upload firmware file using secure file copy (Vendor doc)](https://kb.fortinet.com/kb/microsites/search.do?cmd=displayKC&docType=kc&externalId=FD43754)
 
 ### Considerations for Windows servers
@@ -91,4 +91,4 @@ images:
 
 -   To be successful, images imported to Rackspace must conform to the general
     requirements described in
-    [Preparing an image for import into the Rackspace OpenCloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).
+    [Preparing an image for import into the Rackspace OpenCloud](/support/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).

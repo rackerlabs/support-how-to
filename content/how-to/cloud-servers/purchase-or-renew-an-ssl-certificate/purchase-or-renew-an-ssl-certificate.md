@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-After you [generate a certificate signing request (CSR)](/how-to/generate-a-csr), you can purchase a Secure Sockets Layer (SSL) certificate for your server. This article describes how to purchase a new SSL certificate or renew an existing certificate.
+After you [generate a certificate signing request (CSR)](/support/how-to/generate-a-csr), you can purchase a Secure Sockets Layer (SSL) certificate for your server. This article describes how to purchase a new SSL certificate or renew an existing certificate.
 
 - [Purchase a certificate](#purchase-a-certificate)
 - [Renew a certificate](#renew-a-certificate)
@@ -36,7 +36,7 @@ Thawte accepts only the following email addresses when sending the authorizing e
   - postmaster@
   - Administrative contact listed in WHOIS, if found
 
-After you have purchased and validated your certificate, you're ready to [install it](/how-to/install-an-ssl-certificate).
+After you have purchased and validated your certificate, you're ready to [install it](/support/how-to/install-an-ssl-certificate).
 
 ### Renew a certificate
 
@@ -57,4 +57,4 @@ When it is time to renew your certificate, Rackspace will contact you before the
 
 ### Next steps
 
-- [Install an SSL certificate](/how-to/install-an-ssl-certificate)
+- [Install an SSL certificate](/support/how-to/install-an-ssl-certificate)

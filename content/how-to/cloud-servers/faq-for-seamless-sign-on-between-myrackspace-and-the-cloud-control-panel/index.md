@@ -137,7 +137,7 @@ functionality, the following options are available:
 
 1.  Use the Nova Client to issue these commands. The Nova Client allows you to
     provision and delete servers, work with metadata, and more. See the
-    [python nova client command reference](/how-to/useful-python-novaclient-commands)
+    [python nova client command reference](/support/how-to/useful-python-novaclient-commands)
     for more information.
 2.  Use the Cloud Servers API to specify your server's metadata. The
     [Cloud Servers Developer Guide](https://bit.ly/2tKspm2) provides

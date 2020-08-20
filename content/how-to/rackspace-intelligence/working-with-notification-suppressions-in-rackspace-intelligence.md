@@ -12,7 +12,7 @@ product_url: rackspace-intelligence
 ---
 
 Rackspace Intelligence enables you to temporarily suspend
-[Rackspace Intelligence notifications](/how-to/working-with-notifications-in-rackspace-intelligence)
+[Rackspace Intelligence notifications](/support/how-to/working-with-notifications-in-rackspace-intelligence)
 during scheduled outages or maintenance periods.
 
 You access the **Suppressions** page by clicking **Suppress** at the top of the Rackspace Intelligence Control Panel.

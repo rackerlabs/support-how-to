@@ -20,7 +20,7 @@ This article describes when you might want to export or import email address dat
 - **Time needed:** Dependent on amount of data being imported or exported
 - **Tools required:**  Access to the Outlook account that you want to import into or export from
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 ### Export or import email address data
 
@@ -39,16 +39,16 @@ Following are instructions for exporting and importing email address data by usi
 
 #### Export email address data
 
-- [Export email address data from Outlook 2016 for Windows](/how-to/export-email-address-data-from-outlook-2016-for-windows)
-- [Export email address data from Outlook 2013 for Windows](/how-to/export-email-address-data-from-outlook-2013-for-windows)
-- [Export email address data from Outlook 2010 for Windows](/how-to/export-email-address-data-from-outlook-2010-for-windows)
-- [Export email address data from Outlook 2016 for Mac OS](/how-to/export-email-address-data-from-outlook-2016-for-mac)
-- [Export email address data from Outlook 2011 for Mac OS](/how-to/export-email-address-data-from-outlook-2011-for-mac)
+- [Export email address data from Outlook 2016 for Windows](/support/how-to/export-email-address-data-from-outlook-2016-for-windows)
+- [Export email address data from Outlook 2013 for Windows](/support/how-to/export-email-address-data-from-outlook-2013-for-windows)
+- [Export email address data from Outlook 2010 for Windows](/support/how-to/export-email-address-data-from-outlook-2010-for-windows)
+- [Export email address data from Outlook 2016 for Mac OS](/support/how-to/export-email-address-data-from-outlook-2016-for-mac)
+- [Export email address data from Outlook 2011 for Mac OS](/support/how-to/export-email-address-data-from-outlook-2011-for-mac)
 
 #### Import email address data
 
-- [Import email address data into Outlook 2016 for Windows](/how-to/import-email-address-data-into-outlook-2016-for-windows)
-- [Import email address data into Outlook 2013 for Windows](/how-to/import-email-address-data-into-outlook-2013-for-windows)
-- [Import email address data into Outlook 2010 for Windows](/how-to/import-email-address-data-into-outlook-2010-for-windows)
-- [Import email address data into Outlook 2016 for Mac OS](/how-to/import-email-address-data-into-outlook-2016-for-mac)
-- [Import email address data into Outlook 2011 for Mac OS](/how-to/import-email-address-data-into-outlook-2011-for-mac)
+- [Import email address data into Outlook 2016 for Windows](/support/how-to/import-email-address-data-into-outlook-2016-for-windows)
+- [Import email address data into Outlook 2013 for Windows](/support/how-to/import-email-address-data-into-outlook-2013-for-windows)
+- [Import email address data into Outlook 2010 for Windows](/support/how-to/import-email-address-data-into-outlook-2010-for-windows)
+- [Import email address data into Outlook 2016 for Mac OS](/support/how-to/import-email-address-data-into-outlook-2016-for-mac)
+- [Import email address data into Outlook 2011 for Mac OS](/support/how-to/import-email-address-data-into-outlook-2011-for-mac)

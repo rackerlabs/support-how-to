@@ -86,4 +86,4 @@ You can set your scheduled backup to run as frequently as you want.
 ### Back up Holland by using Cloud Backup
 
 For instructions about how to back up your Holland backup files to Rackspace Cloud Backup, see
-[Create a backup](/how-to/rackspace-cloud-backup-create-a-backup).
+[Create a backup](/support/how-to/rackspace-cloud-backup-create-a-backup).

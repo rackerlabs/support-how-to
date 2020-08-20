@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-If you are having issues setting up Microsoft&reg; Exchange mailboxes on your domain in Outlook&reg; 2016 or later, you might be experiencing issues related to your [Autodiscover](/how-to/dns-record-definitions/#cname-record) record. This article outlines the symptoms for this problem and suggested solutions.
+If you are having issues setting up Microsoft&reg; Exchange mailboxes on your domain in Outlook&reg; 2016 or later, you might be experiencing issues related to your [Autodiscover](/support/how-to/dns-record-definitions/#cname-record) record. This article outlines the symptoms for this problem and suggested solutions.
 
 ### Prerequisites
 

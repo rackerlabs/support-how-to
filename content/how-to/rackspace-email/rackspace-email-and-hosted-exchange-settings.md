@@ -37,10 +37,10 @@ configure your email client or device by using the settings in this section.
 set up the connection to use the Internet Message Access Protocol (IMAP) or
 Post Office Protocol (POP), you can find information for specific clients and
 devices in [Configure email clients and mobile devices for email hosted on
-Exchange](/how-to/configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange).
+Exchange](/support/how-to/configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange).
 
 To learn more about the differences between IMAP and POP, see [IMAP and POP
-mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison). We
+mail protocol comparison](/support/how-to/imap-and-pop-mail-protocol-comparison). We
 recommend using IMAP for the incoming mail connection.
 
 #### Server settings

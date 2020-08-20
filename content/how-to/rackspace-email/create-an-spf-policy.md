@@ -20,15 +20,15 @@ This article explains how to create an SPF policy to protect your email traffic.
 - **Time needed:** Approximately 15 minutes to create record, 24-48 hours for the record to propagate
 - **Tools required:**  DNS host administrator access
 
-You also need access to update DNS entries for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/how-to/find-dns-host).
+You also need access to update DNS entries for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/support/how-to/find-dns-host).
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 An SPF policy alone is not enough to protect the integrity of your domain's email. In order to create a secure email verification policy, we recommend the following:
 
 1. Create an SPF record policy.
-2. [Create a DKIM record](/how-to/enable-dkim-in-the-cloud-office-control-panel).
-3. [Create a DMARC record policy](/how-to/create-a-dmarc-policy).
+2. [Create a DKIM record](/support/how-to/enable-dkim-in-the-cloud-office-control-panel).
+3. [Create a DMARC record policy](/support/how-to/create-a-dmarc-policy).
 
 ### Create an SPF record
 

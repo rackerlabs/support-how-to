@@ -18,11 +18,11 @@ product_url: rackspace-email
 - **Time needed:** Depends on migration type
 - **Tools required:** Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 #### What types of environments can you migrate from?
 
-We support migrations from Exchange Server 2003, 2007, and 2010 (in-house and hosted), Google Apps, Gmail, GroupWise 7 and 8, Zimbra, Lotus Notes, POP, and IMAP. See [Email migration services](/how-to/email-migration-services) for a list of migration options.
+We support migrations from Exchange Server 2003, 2007, and 2010 (in-house and hosted), Google Apps, Gmail, GroupWise 7 and 8, Zimbra, Lotus Notes, POP, and IMAP. See [Email migration services](/support/how-to/email-migration-services) for a list of migration options.
 
 #### How much does a migration to Rackspace cost?
 
@@ -34,7 +34,7 @@ Migration times vary per customer. Some migrate in hours and others migrate in d
 
 #### Is the migration manual or is it automated?
 
-We use a combination of automated tools and experienced Rackers to perform the migration. At each step of the migration, we stay in close contact with your team to help you get a successful outcome.  See [Email migration services](/how-to/email-migration-services) for a list of migration options.
+We use a combination of automated tools and experienced Rackers to perform the migration. At each step of the migration, we stay in close contact with your team to help you get a successful outcome.  See [Email migration services](/support/how-to/email-migration-services) for a list of migration options.
 
 #### What server information do you need for the migration?
 
@@ -46,7 +46,7 @@ Yes, users can continue to access and use their mailbox normally. However, we st
 
 #### What types of email data will be migrated?
 
-See [Items migrated during a Cloud Office migration](/how-to/items-migrated-during-an-cloud-office-migration).
+See [Items migrated during a Cloud Office migration](/support/how-to/items-migrated-during-an-cloud-office-migration).
 
 #### Can I upgrade from Rackspace Email or Microsoft Exchange to Office 365 with Rackspace?
 

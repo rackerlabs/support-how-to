@@ -13,11 +13,11 @@ product_url: dedicated-hosting
 
 Before you modify your environment's access control list (ACL) rules in Firewall Manager v2, you should be familiar with ACL theory and best practices.
 
-Firewall Manager v2 is a tool within the MyRackspace Portal. To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
+Firewall Manager v2 is a tool within the MyRackspace Portal. To learn more about the tool, see [Firewall Manager v2](/support/how-to/firewall-manager-v2).
 
 ### Firewall Manager v2 ACL process
 
-To learn more about the ACL process, see [Firewall Manager v2 access-list rules](/how-to/firewall-manager-v2-access-list-rules).
+To learn more about the ACL process, see [Firewall Manager v2 access-list rules](/support/how-to/firewall-manager-v2-access-list-rules).
 
 ### What is an ACL?
 

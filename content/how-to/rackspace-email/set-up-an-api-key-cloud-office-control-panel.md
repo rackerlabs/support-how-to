@@ -24,7 +24,7 @@ at
 - **Time needed:** 5 minutes
 - **Tools required:** Super admin access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 To implement the API into your application, you must first generate an
 API key. API keys are unique to each administrator. To differentiate

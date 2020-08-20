@@ -20,10 +20,10 @@ This article describes how to add and edit archive users.
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 After you have completed the steps in [Log in to the Archive
-Manager](/how-to/log-in-to-the-archive-manager),
+Manager](/support/how-to/log-in-to-the-archive-manager),
 you can add additional users to the Archive Manager and assign the
 following user types:
 

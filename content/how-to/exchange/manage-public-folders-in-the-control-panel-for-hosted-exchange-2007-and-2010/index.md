@@ -184,4 +184,4 @@ steps.
 ### Where to go from here
 
 See [Working with public folders through Outlook for Exchange 2007 and
-2010](/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010).
+2010](/support/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010).

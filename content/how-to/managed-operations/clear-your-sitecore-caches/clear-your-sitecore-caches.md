@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-After you [publish changes to your Sitecore site](/how-to/publish-content-to-sitecore/), you might want to manually clear your caches after publishing the changes. 
+After you [publish changes to your Sitecore site](/support/how-to/publish-content-to-sitecore/), you might want to manually clear your caches after publishing the changes. 
 
 Sitecore administrators can view their Sitecore cache administration page using the URL **https://{sitecoreurl}/sitecore/admin/cache.aspx**. However, Sitecore cache administration pages are blocked for security purposes. 
 
@@ -21,7 +21,7 @@ To clear your caches, Sitecore recommends restarting your Sitecore site's web ap
 
 ### Prerequisite
 
-- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
+- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
 
 ### Restart the web app for Azure
 

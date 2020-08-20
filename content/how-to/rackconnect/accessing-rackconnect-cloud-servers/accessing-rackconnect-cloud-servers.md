@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section:** [Managing RackConnect v2.0 network policies](/how-to/managing-rackconnect-v20-network-policies)
+**Previous section:** [Managing RackConnect v2.0 network policies](/support/how-to/managing-rackconnect-v20-network-policies)
 
 **Applies to:** RackConnect v3.0 and RackConnect v2.0
 

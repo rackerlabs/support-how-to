@@ -12,7 +12,7 @@ product_url: rackspace-cdn
 ---
 
 When you access Rackspace CDN through the Cloud Control Panel (as
-described in [Access Rackspace CDN](/how-to/access-rackspace-cdn)),
+described in [Access Rackspace CDN](/support/how-to/access-rackspace-cdn)),
 the **Content Delivery Network (CDN)** page is displayed. If you have
 already created any services, they are listed. To create a new service,
 perform the following steps.
@@ -30,7 +30,7 @@ URL you need to use to create your CNAME record.
    - **Service Name:** A human-readable name for your service.
    - **Choose Traffic Type:** Choose HTTP or HTTPS.
 
-   When you choose HTTPS, **Choose Certificate Type** displays to enable you to select the kind of certificate your service will use. After June 10, 2015, any new domains that are enabled for HTTPS deliver both HTTPS and HTTP traffic. Domains that existed before June 10, 2015 also support this; to turn this support on, you edit and save the TTL (edit without changing the value). Note that your origin must have a secure certificate before traffic can be routed to your origin with HTTPS. For more information on serving secure traffic, see [Rackspace CDN secure delivery options](/how-to/rackspace-cdn-secure-delivery-options).
+   When you choose HTTPS, **Choose Certificate Type** displays to enable you to select the kind of certificate your service will use. After June 10, 2015, any new domains that are enabled for HTTPS deliver both HTTPS and HTTP traffic. Domains that existed before June 10, 2015 also support this; to turn this support on, you edit and save the TTL (edit without changing the value). Note that your origin must have a secure certificate before traffic can be routed to your origin with HTTPS. For more information on serving secure traffic, see [Rackspace CDN secure delivery options](/support/how-to/rackspace-cdn-secure-delivery-options).
 
    **Shared SAN Certificate** enables you to use your own domain name with Rackspace CDN and serve traffic securely. (Note that pricing information displays below under the type of certificate chosen.) When you create a service using a shared SAN certificate, when you click **Create Service**, you are also creating your SAN certificate. The following steps are involved when you create a service using a shared SAN certificate:
 
@@ -47,7 +47,7 @@ URL you need to use to create your CNAME record.
 
 3. Click **Create Service**.
 
-   A box opens showing the progress of the creating of the service. When the setup of the service is complete, a box opens that provides the URL to use to create your CNAME record and a link to update DNS to complete the setup. (For instructions to update DNS, see [Change DNS to enable Rackspace CDN](/how-to/change-dns-to-enable-rackspace-cdn).)
+   A box opens showing the progress of the creating of the service. When the setup of the service is complete, a box opens that provides the URL to use to create your CNAME record and a link to update DNS to complete the setup. (For instructions to update DNS, see [Change DNS to enable Rackspace CDN](/support/how-to/change-dns-to-enable-rackspace-cdn).)
 
    **Note:** Before you update DNS, you must make sure that your web servers are configured to accept the domain name that you chose because the domain that is generated for https will produce an error.
 
@@ -62,15 +62,15 @@ URL you need to use to create your CNAME record.
 4.  Click **Close** to close this box and open a page with all the
 details about the new service.
 
-   On this page, [add and manage your domains](/how-to/add-and-manage-domains-in-rackspace-cdn) and define the following optional rules:
+   On this page, [add and manage your domains](/support/how-to/add-and-manage-domains-in-rackspace-cdn) and define the following optional rules:
 
-   - [Origin rules](/how-to/work-with-origins-and-origin-rules-in-rackspace-cdn/)
-   - [Caching rules](/how-to/create-and-manage-caching-rules-in-rackspace-cdn/)
-   - [Restrictions](/how-to/create-and-manage-restrictions-in-rackspace-cdn/)
+   - [Origin rules](/support/how-to/work-with-origins-and-origin-rules-in-rackspace-cdn/)
+   - [Caching rules](/support/how-to/create-and-manage-caching-rules-in-rackspace-cdn/)
+   - [Restrictions](/support/how-to/create-and-manage-restrictions-in-rackspace-cdn/)
 
-   **Note**: The **Actions** menu on the top right side of the page enables the actions for managing your service, which are described in [Section 3. Manage a CDN Service](/how-to/rackspace-cdn).
+   **Note**: The **Actions** menu on the top right side of the page enables the actions for managing your service, which are described in [Section 3. Manage a CDN Service](/support/how-to/rackspace-cdn).
 
 ### Additional resources
 
-- [Access Rackspace CDN](/how-to/access-rackspace-cdn)
-- [Add and manage domains in Rackspace CDN](/how-to/add-and-manage-domains-in-rackspace-cdn)
+- [Access Rackspace CDN](/support/how-to/access-rackspace-cdn)
+- [Add and manage domains in Rackspace CDN](/support/how-to/add-and-manage-domains-in-rackspace-cdn)

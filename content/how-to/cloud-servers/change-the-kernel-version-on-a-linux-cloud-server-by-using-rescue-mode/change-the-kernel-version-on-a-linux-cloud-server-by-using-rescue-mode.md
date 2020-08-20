@@ -18,7 +18,7 @@ walks you through this process.
 
 ### Enter rescue mode
 
-Place your server into [rescue mode](/how-to/rescue-mode/).
+Place your server into [rescue mode](/support/how-to/rescue-mode/).
 
 **Important**: Ensure that you copy the temporary root
 password that displays so that you can access your rescued server.

@@ -25,7 +25,7 @@ Rackspace defines purge and delete requests in the following way:
   successfully, billing for the files stops.
   
   To use the Swifty client to delete cloud files, follow 
-  [these steps](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/).  
+  [these steps](https://support.rackspace.com/support/how-to/install-the-swiftly-client-for-cloud-files/).  
   
 It is important to understand whether you need to request a purge or a delete operation.
 

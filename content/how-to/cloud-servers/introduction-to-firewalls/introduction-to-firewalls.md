@@ -108,4 +108,4 @@ You might also find the following resources helpful:
 
 - [Best practices for firewall rules configuration](https://support.rackspace.com/how-to/best-practices-for-firewall-rules-configuration/)
 
-- [Introduction to iptables](/how-to/introduction-to-iptables/)
+- [Introduction to iptables](/support/how-to/introduction-to-iptables/)

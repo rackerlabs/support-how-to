@@ -39,7 +39,7 @@ To create an archive audit report, perform the following steps:
 
 1.  Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
 
-    For more information, see [Log in to the Archive Manager](/how-to/log-in-to-the-archive-manager).
+    For more information, see [Log in to the Archive Manager](/support/how-to/log-in-to-the-archive-manager).
 
 2.  In the upper-right corner of the window, click the gear icon.
 

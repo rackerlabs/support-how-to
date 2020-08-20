@@ -23,7 +23,7 @@ Before you can transfer the images, perform the following steps:
 
 2. Copy your Rackspace Cloud username and API key, which you need to log in to Pitchfork, and paste them into the text file.
 
-   If you don't know your username or API key, use the instructions in [View and reset your API key](/how-to/view-and-reset-your-api-key) to find them.
+   If you don't know your username or API key, use the instructions in [View and reset your API key](/support/how-to/view-and-reset-your-api-key) to find them.
 
 3. In **Cloud Files**, create containers for the image export and the image import by using the following instructions:
 
@@ -31,7 +31,7 @@ Before you can transfer the images, perform the following steps:
    
    - In the region to which you want to transfer the image, create a container to import the image to, and give the container a descriptive name, such as `ORD_IMG_ImportContainer`. Then copy and paste the name of the container to the text file.
    
-   For instructions about how to create a container, see [Getting started with Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn). 
+   For instructions about how to create a container, see [Getting started with Cloud Files and CDN](/support/how-to/getting-started-with-cloud-files-and-cdn). 
 
 4. Find the image that you want to transfer, and copy and paste that image's UUID to the text file.
 
@@ -97,6 +97,6 @@ While the API transfers the image from the container to the available images lis
 ### Related information
 
 -   [Rackspace Cloud Images API information](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
--   [Cloud Images FAQ](/how-to/cloud-images-faq)
--   [Transferring images between regions of the Rackspace Open Cloud](/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud)
+-   [Cloud Images FAQ](/support/how-to/cloud-images-faq)
+-   [Transferring images between regions of the Rackspace Open Cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud)
 -   [Pitchfork on Github](https://github.com/oldarmyc/pitchfork)

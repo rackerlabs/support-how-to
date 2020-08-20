@@ -18,7 +18,7 @@ monitor. The agent gathers data based on the checks that you configure,
 including checks for host information and host metrics, and
 custom-defined checks.
 
-Rackspace Montioring agent supports both Windows and Linux platforms. For a list of detailed supported operating systems, see [Rackspace Monitoring support matrix](/how-to/rackspace-monitoring-support-matrix/).
+Rackspace Montioring agent supports both Windows and Linux platforms. For a list of detailed supported operating systems, see [Rackspace Monitoring support matrix](/support/how-to/rackspace-monitoring-support-matrix/).
 
 This article describes the following tasks:
 
@@ -148,10 +148,10 @@ After you have installed and configured the monitoring agent, the next
 steps are to create *checks* to gather metrics (specific data points)
 and *alarms* that trigger a notification at certain thresholds. You also
 need to create a notification and notification plan. For details about
-performing these steps in the Cloud Control Panel, see [Rackspace Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms "Rackspace Cloud Monitoring Checks and Alarms") and
-[Creating a monitoring check using the Control Panel](/how-to/creating-a-monitoring-check-using-the-cloud-control-panel "Creating a Monitoring Check Using the Control Panel").
+performing these steps in the Cloud Control Panel, see [Rackspace Monitoring Checks and Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms "Rackspace Cloud Monitoring Checks and Alarms") and
+[Creating a monitoring check using the Control Panel](/support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel "Creating a Monitoring Check Using the Control Panel").
 
 ### Related information
 
--   [About the Rackspace Monitoring Agent](/how-to/about-the-rackspace-monitoring-agent "About the Monitoring Agent")
--   [Troubleshooting the Monitoring Agent](/how-to/troubleshooting-the-rackspace-monitoring-agent "Troubleshoot the Monitoring Agent")
+-   [About the Rackspace Monitoring Agent](/support/how-to/about-the-rackspace-monitoring-agent "About the Monitoring Agent")
+-   [Troubleshooting the Monitoring Agent](/support/how-to/troubleshooting-the-rackspace-monitoring-agent "Troubleshoot the Monitoring Agent")

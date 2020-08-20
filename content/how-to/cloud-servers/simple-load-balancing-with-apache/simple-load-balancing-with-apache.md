@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 **Note:** This article was written before the introduction of [Cloud
 Load
-Balancers](/how-to/cloud-load-balancers),
+Balancers](/support/how-to/cloud-load-balancers),
 which is our recommended solution for load balancing. Because customers
 might still want to try this procedure, it is available for legacy
 support purposes.

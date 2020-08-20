@@ -20,7 +20,7 @@ If an incoming or outgoing message might not have been delivered, try the troubl
 - **Time needed:** Approximately 1 hour
 - **Tools required:** Online email access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).  
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).  
 
 ### Troubleshooting steps
 
@@ -32,9 +32,9 @@ If an incoming message never arrived, try the following steps:
 
 1. **Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that the message is not in the mailbox.**
 
-   If you see the message online, but not in your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology), see [Troubleshoot a failed email connection](/how-to/troubleshoot-failed-email-connection).
+   If you see the message online, but not in your [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology), see [Troubleshoot a failed email connection](/support/how-to/troubleshoot-failed-email-connection).
 
-   **Warning:** If you verify that you are not getting any new email in apps.rackspace.com, contact your account administrator and provide this article [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email/).
+   **Warning:** If you verify that you are not getting any new email in apps.rackspace.com, contact your account administrator and provide this article [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email/).
 
 2. **Search for the message in your mailbox.**
 
@@ -51,13 +51,13 @@ If an incoming message never arrived, try the following steps:
 
 5. **Verify whether rules or filters might have been applied.**
 
-   Rules and filters move or even delete messages. Rules and filters can exist in webmail or your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology).
+   Rules and filters move or even delete messages. Rules and filters can exist in webmail or your [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology).
 
 6. **Allow ample time to ensure there is not a message delay.**
 
 7. **Determine whether the sender received a bounce message.**   
 
-   If so, see [Common email bounce messages](/how-to/common-email-bounces) for possible solutions.
+   If so, see [Common email bounce messages](/support/how-to/common-email-bounces) for possible solutions.
 
 8. **Determine whether the message was sent to an Alias, Contact, Group List, or Distribution List.**
 
@@ -81,13 +81,13 @@ If an incoming message never arrived, try the following steps:
 
 1. **Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) and try to send the message again.**
 
-   If you can successfully send a message from webmail but not from a [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) you can verify that your SMTP settings are correct by logging in to the [Email Help Tool](https://emailhelp.rackspace.com/).
+   If you can successfully send a message from webmail but not from a [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology) you can verify that your SMTP settings are correct by logging in to the [Email Help Tool](https://emailhelp.rackspace.com/).
 
 2. **Determine whether you got a bounce message.**
 
-   If so, see [Common email bounce messages](/how-to/common-email-bounces) for possible solutions.
+   If so, see [Common email bounce messages](/support/how-to/common-email-bounces) for possible solutions.
 
-3. **If you are sending from a [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) check your Drafts and Outbox folders for the message.**    
+3. **If you are sending from a [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology) check your Drafts and Outbox folders for the message.**    
 
    If the message is in one of those folders, attempt to resend it.
 
@@ -105,12 +105,12 @@ If an incoming message never arrived, try the following steps:
 
 7. **Verify with the recipient that your message was not marked as spam.**
 
-   If your message was marked as spam, see [Best practices for sending person to person email](/how-to/best-practices-for-sending-person-to-person-email/) to prevent this in the future.
+   If your message was marked as spam, see [Best practices for sending person to person email](/support/how-to/best-practices-for-sending-person-to-person-email/) to prevent this in the future.
 
 ### References
 
-- [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
+- [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology)
 - [Cloud Office Email Portal](https://apps.rackspace.com/index.php)
 - [Email Help Tool](https://emailhelp.rackspace.com/)
-- [Common email bounce messages](/how-to/common-email-bounces)
-- [Troubleshoot a failed email connection](/how-to/troubleshoot-failed-email-connection)
+- [Common email bounce messages](/support/how-to/common-email-bounces)
+- [Troubleshoot a failed email connection](/support/how-to/troubleshoot-failed-email-connection)

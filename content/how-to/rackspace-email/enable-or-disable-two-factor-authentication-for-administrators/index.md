@@ -20,7 +20,7 @@ This article describes how to enable two-factor authentication for Cloud Office 
 - **Time Needed:** Approximately 5 minutes
 - **Tools Needed:** Administrators need access to their Cloud Office Control Panel
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 As an administrator of your company's email solution, you have a great deal of control over your account. If your administrator access is compromised, the results can be devastating to your business. A strong security policy is not complete without enabling two-factor authentication.
 

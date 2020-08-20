@@ -86,4 +86,4 @@ or the neutron client.
 - [API guide](https://developer.rackspace.com/docs/cloud-networks/v2/api-reference/sec-group-operations/)
 - [Getting started guide](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/controlling-network-access/security-groups/)
 - [Neutron security group resource](https://developer.rackspace.com/docs/cloud-orchestration/v1/resources-reference/openstack/#os-neutron-securitygroup)
-- [Security groups FAQ](https://support.rackspace.com/how-to/cloud-servers-faq/)
+- [Security groups FAQ](https://support.rackspace.com/support/how-to/cloud-servers-faq/)

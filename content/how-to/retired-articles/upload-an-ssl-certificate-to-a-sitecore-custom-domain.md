@@ -15,7 +15,7 @@ However, the default Azure SSL certificate does not work if you use a custom dom
 
 ### Prerequisite
 
-- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
+- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
 
 ### Get an SSL certificate
 

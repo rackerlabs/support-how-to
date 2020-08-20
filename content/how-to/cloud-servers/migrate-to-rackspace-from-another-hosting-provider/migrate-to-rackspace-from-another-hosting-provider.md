@@ -26,7 +26,7 @@ For an overview of the Rackspace Cloud products, see the [Rackspace Core Infrast
 
 ### Provision and configure the Cloud Servers instance
 
-Select an instance type equivalent to that of your current server and operating system, and then [provision a new instance](/how-to/create-a-cloud-server) on Rackspace Cloud Servers.
+Select an instance type equivalent to that of your current server and operating system, and then [provision a new instance](/support/how-to/create-a-cloud-server) on Rackspace Cloud Servers.
 
 ### Migrate data
 
@@ -50,7 +50,7 @@ Use the following steps for this migration:
 
 2. Create a new destination server in the Rackspace Public Cloud and record
    the public IPv4 address and root password of your new Rackspace server. See
-   [Create a general purpose Cloud Server](/how-to/creating-a-general-purpose-cloud-server)
+   [Create a general purpose Cloud Server](/support/how-to/creating-a-general-purpose-cloud-server)
    for assistance. If your current servers are running an end-of-life (EOL)
    operating system (OS), such as Ubuntu&reg; 14, contact Rackspace Support for
    assistance building the destination server.
@@ -76,4 +76,4 @@ Use the following steps for this migration:
 
 ### Next steps
 
-Implement monitoring and backup solutions on your cloud server and begin [enhancing security](/how-to/configuring-basic-security).
+Implement monitoring and backup solutions on your cloud server and begin [enhancing security](/support/how-to/configuring-basic-security).

@@ -28,7 +28,7 @@ More details about Cloud Orchestration are available in the following documents:
 
 -   [Rackspace Cloud Orchestration API v1 Developer Guide](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)
 -   [Rackspace Cloud Orchestration API v1 Templates User Guide](https://developer.rackspace.com/docs/user-guides/orchestration/)
--   [Cloud Orchestration FAQ](/how-to/cloud-orchestration-faq)
+-   [Cloud Orchestration FAQ](/support/how-to/cloud-orchestration-faq)
 
 Although an official RackConnect v3.0 heat template has not been
 released yet, an in-development template is available on GitHub at

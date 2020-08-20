@@ -48,7 +48,7 @@ RackConnect.
     cloud servers (via a test account which the customer will *not* be
     billed for) and perform several quality assurance checks before
     removing the servers and marking the configuration complete.
--   The [AutoNAT](/how-to/rackconnect-auto-nat-feature)
+-   The [AutoNAT](/support/how-to/rackconnect-auto-nat-feature)
     feature is now available.
 
 ### November 19, 2012

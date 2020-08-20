@@ -33,13 +33,13 @@ point. For example:
 | Cloud server, which used to have 100 GB | 5 GB | 115 GB |
 
 For more information about the VHD format and the imaging process, see
-[Understanding the Cloud Imaging Process](/how-to/understanding-the-cloud-imaging-process/).
+[Understanding the Cloud Imaging Process](/support/how-to/understanding-the-cloud-imaging-process/).
 
 ### Image creation process
 
 The following steps outline high level process of creating a cloud server image.
 For a more in-depth guide, see
-[Understanding the Cloud Imaging Process](/how-to/understanding-the-cloud-imaging-process/).
+[Understanding the Cloud Imaging Process](/support/how-to/understanding-the-cloud-imaging-process/).
 
 1. The image is queued for creation or is preparing to start.  During this
 time, the coalesce is preformed to eliminate duplicate data between the
@@ -88,7 +88,7 @@ If the image creation fails, one of the following issues might be the reason.
 **Age of the server** - Older flavor classes, such as Standard and Classic,
 exist on older hardware that has limited network bandwidth for imaging
 operations. This limit causes imaging to take longer to complete. To work
-around this issue, you can [migrate to a newer flavor type](/how-to/migrating-to-a-general-purpose-or-io-server), such as General
+around this issue, you can [migrate to a newer flavor type](/support/how-to/migrating-to-a-general-purpose-or-io-server), such as General
 Purpose, or use a file-level backup tool such as Cloud Backup.
 
 **Coalesce timeout** - If you do not image your cloud server frequently, or if

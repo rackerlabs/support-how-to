@@ -27,7 +27,7 @@ Sitecore on Azure PaaS services is available in the following Azure regions and 
 
 #### How do I log in into my Sitecore content management site?
 
-For instructions, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
+For instructions, see [Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
 
 #### How do I deploy to Sitecore using FTP?
 
@@ -35,23 +35,23 @@ See [Deploy to Sitecore Cloud using FTP](https://support.rackspace.com/how-to/de
 
 #### How do I publish content to Sitecore?
 
-For instructions, see [Publish content to Sitecore](/how-to/publish-content-to-sitecore/).
+For instructions, see [Publish content to Sitecore](/support/how-to/publish-content-to-sitecore/).
 
 #### Can you upload an SSL certificate in Azure if you have a custom domain?
 
-Yes. For instructions, see [Upload an SSL certificate to a custom domain](/how-to/upload-an-ssl-certificate-to-a-custom-domain/).
+Yes. For instructions, see [Upload an SSL certificate to a custom domain](/support/how-to/upload-an-ssl-certificate-to-a-custom-domain/).
 
 #### How do I install my Sitecore package to my Sitecore content management site?
 
-For instructions, see [Install a Sitecore package](/how-to/install-a-sitecore-package/).
+For instructions, see [Install a Sitecore package](/support/how-to/install-a-sitecore-package/).
 
 #### How do I manually clear my Sitecore cache?
 
-For instructions, see [Clear your Sitecore caches](/how-to/clear-your-sitecore-caches/).
+For instructions, see [Clear your Sitecore caches](/support/how-to/clear-your-sitecore-caches/).
 
 #### How do I connect to my Azure SQL database?
 
-For instructions, see [Connect to Azure SQL database](/how-to/connect-to-azure-sql-database/).
+For instructions, see [Connect to Azure SQL database](/support/how-to/connect-to-azure-sql-database/).
 
 
 

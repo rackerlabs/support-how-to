@@ -11,9 +11,9 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-This article describes how to perform a fresh installation or update of the Rackspace Cloud Backup agent on your Windows&reg; server by using the silent installation method. If you are using a Linux&reg; server, see [Install the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
+This article describes how to perform a fresh installation or update of the Rackspace Cloud Backup agent on your Windows&reg; server by using the silent installation method. If you are using a Linux&reg; server, see [Install the Cloud Backup agent on Linux](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux) for the parallel instructions.
 
-**WARNING:** The silent installation procedure described in this article is for advanced users and should be run from only an administrator account. All others should install the Rackspace Cloud Backup agent by using the interactive installation described in [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
+**WARNING:** The silent installation procedure described in this article is for advanced users and should be run from only an administrator account. All others should install the Rackspace Cloud Backup agent by using the interactive installation described in [Install the Cloud Backup agent on Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
 
 ### Before you install
 
@@ -40,7 +40,7 @@ During a fresh installation, use the following values:
 
 - `APIUSER` (required): The user name that you use to log in to Rackspace Cloud Control Panel.
 
-- `APIKEY` (required): Your Rackspace Cloud API key. For information about viewing your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+- `APIKEY` (required): Your Rackspace Cloud API key. For information about viewing your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
 - `APIHOSTNAME` (required): The host address where the Cloud Backup API endpoints reside. Host addresses for various data centers are listed in the
 [Service Access endpoints](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
@@ -77,4 +77,4 @@ Following are optional, less-frequently used (expert) installation options that 
 
 For more options for installing MSI packages, see [msiexec command line options](https://technet.microsoft.com/en-us/library/cc759262%28v=ws.10%29.aspx).
 
-A successful installation results in two running services, the Driveclient and the Updater. You can see these via **services.msc**. For the verification steps to test the installation, see the section, "Test Windows installation or update," in [Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
+A successful installation results in two running services, the Driveclient and the Updater. You can see these via **services.msc**. For the verification steps to test the installation, see the section, "Test Windows installation or update," in [Install the Cloud Backup agent on Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows).

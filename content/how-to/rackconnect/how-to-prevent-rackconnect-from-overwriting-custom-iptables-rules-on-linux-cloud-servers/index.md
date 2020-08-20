@@ -33,14 +33,14 @@ own iptables rules.
 This article is for advanced Linux users who are familiar with the
 iptables software firewall and who have a need to create custom iptables
 rules to perform tasks that are beyond the scope of [network
-policies](/how-to/managing-rackconnect-v20-network-policies).
+policies](/support/how-to/managing-rackconnect-v20-network-policies).
 
 If you are unfamiliar with iptables syntax or how to write custom
 iptables rules in Linux, or if you do not have a pressing need to create
 and maintain your own iptables rules, we recommend that you do not
 modify the default behavior of RackConnect Automation. [RackConnect
 network
-policies](/how-to/managing-rackconnect-v20-network-policies)
+policies](/support/how-to/managing-rackconnect-v20-network-policies)
 provide a friendlier and more scalable solution for software firewall
 management than writing your own custom iptables rules on each
 individual cloud server.

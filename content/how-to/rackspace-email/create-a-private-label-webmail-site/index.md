@@ -20,7 +20,7 @@ Private label Webmail sites allow you to customize and to secure the portal used
 - **Time needed:** Approximately 5 minutes to create the site, and 24 to 48 hours for the DNS changes to propagate
 - **Tools required:**  DNS host administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Customize and secure a private label Webmail site
 
@@ -72,7 +72,7 @@ To customize and secure your private label Webmail site, perform the following s
         |---|---|---|
         |CNAME| mail| pl-10.webmail.emailsrvr.com |
 
-    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/how-to/find-dns-host)
+    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/support/how-to/find-dns-host)
 
 The site appears in the **Webmail Sites** listing. After the DNS change is propagated, it has a green locked icon to the right of the name, indicating that the site is secure.
 

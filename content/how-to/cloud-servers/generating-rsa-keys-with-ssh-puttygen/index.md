@@ -32,7 +32,7 @@ In Windows, use PuTTYgen to generate your public and private keys.
 3.  Enter a unique key passphrase in the **Key passphrase** and
     **Confirm passphrase** fields.
     For additional information about using passphrases,
-    see [Log in with a SSH Private Key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
+    see [Log in with a SSH Private Key on Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows).
 4.  Save the public and private keys by clicking the **Save public key**
     and **Save private key** buttons.
 5.  From the **Public key for pasting into OpenSSH authorized\_keys** file
@@ -107,4 +107,4 @@ connect to your server.
 
 ### Related article
 
--   [Connecting to a server using SSH on Linux or Mac OS](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
+-   [Connecting to a server using SSH on Linux or Mac OS](/support/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)

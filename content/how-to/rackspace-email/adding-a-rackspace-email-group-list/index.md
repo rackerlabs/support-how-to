@@ -20,7 +20,7 @@ This article shows how to create a group list.
 - **Time needed:** 5 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 A group list is a great way to manage users in a select team or group on your domain. There is no limit to the number of internal address recipients (addresses within your domain) and a limit of 250 additional recipients outside of the internal domain. For example, suppose that you have a billing team you want to group together - bob@domain.com, amy@domain.com, and scott@domain.com. You can create a group list for the team so that they can communicate new upcoming billing updates within the team, at billingupdates@domain.com.
 

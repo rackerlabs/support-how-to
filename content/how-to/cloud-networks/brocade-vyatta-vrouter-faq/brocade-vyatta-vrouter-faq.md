@@ -25,7 +25,7 @@ The minimum RAM size needed to run a vRouter is 1 GB.
 
 Each Vyatta appliance comes with one public IPv4 address assigned. Up to
 four additional public IPv4 addresses can be allocated (for a total of
-5) . Please see this article for more details: [Requesting Additional IPv4 Addresses for Cloud Servers](/how-to/requesting-additional-ipv4-addresses-for-cloud-servers)
+5) . Please see this article for more details: [Requesting Additional IPv4 Addresses for Cloud Servers](/support/how-to/requesting-additional-ipv4-addresses-for-cloud-servers)
 
 #### Can Vyatta be used along with RackConnect?
 
@@ -57,4 +57,4 @@ Please log in with username 'vyatta' to login to the appliance.
 #### What actions are supported on Vyatta through the control panel?
 
 Control panel actions and limitations are described at the following
-link: [Vyatta Network Appliance: Supported Actions Through Cloud Control Panel](/how-to/brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel)
+link: [Vyatta Network Appliance: Supported Actions Through Cloud Control Panel](/support/how-to/brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel)

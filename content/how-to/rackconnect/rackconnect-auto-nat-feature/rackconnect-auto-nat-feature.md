@@ -70,4 +70,4 @@ that is still active.
 ### Additional information
 
 For details about the RackConnect automation features, see the
-[RackConnect v2.0 automation features FAQ](/how-to/rackconnect-v20-automation-features-faq).
+[RackConnect v2.0 automation features FAQ](/support/how-to/rackconnect-v20-automation-features-faq).

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In the [previous article](/how-to/install-mysql-server-on-the-ubuntu-operating-system)
+In the [previous article](/support/how-to/install-mysql-server-on-the-ubuntu-operating-system)
 we covered a basic MySQL server setup on the Ubuntu operating system. We set the root
 password, created a database, and created a user for the database. Now
 let's look at MySQL in a little more detail so we can tweak its
@@ -328,5 +328,5 @@ even have accounted for the database engine being used by your tables.
 
 ### Related articles
 
-- [Install MySQL server on the Ubuntu operating system](/how-to/install-mysql-server-on-the-ubuntu-operating-system)
-- [Reset a MySQL root password](/how-to/mysql-resetting-a-lost-mysql-root-password)
+- [Install MySQL server on the Ubuntu operating system](/support/how-to/install-mysql-server-on-the-ubuntu-operating-system)
+- [Reset a MySQL root password](/support/how-to/mysql-resetting-a-lost-mysql-root-password)

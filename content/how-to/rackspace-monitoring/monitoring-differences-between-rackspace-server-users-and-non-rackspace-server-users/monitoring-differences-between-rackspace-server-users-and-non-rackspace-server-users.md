@@ -119,7 +119,7 @@ of these circumstances. This article describes the following circumstances.
   - Windows: **c:\ProgramData\Rackspace Monitoring\config\rackspace-monitoring-agent.cfg**
 
   To learn more about agent configuration, see
-  [Install and configure the Rackspace Monitoring Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent).
+  [Install and configure the Rackspace Monitoring Agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent).
 
 - By default, the monitoring agent must be manually installed. For details, see the [
   Cloud Monitoring documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).

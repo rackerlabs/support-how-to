@@ -39,7 +39,7 @@ RackConnect v2.0 environment. Note that only *cloud servers* will be compatible 
 No. Because of access list limitations, we currently support the Brocade
 ADX 1000 devices only in the connected device role. For a full list of
 network devices that are compatible with RackConnect v3.0, see
-[RackConnect network device comparison](/how-to/rackconnect-network-device-comparison).
+[RackConnect network device comparison](/support/how-to/rackconnect-network-device-comparison).
 
 #### Does RackConnect v3.0 support IPv6?
 
@@ -59,7 +59,7 @@ Network devices in a Managed Colocation environment are supported only
 if the network devices are managed by the Rackspace Network Security
 team. Customer-managed network devices are not supported. For more
 details about RackConnect v3.0 compatibility with other Rackspace
-offerings, see [RackConnect v3.0 compatibility](/how-to/rackconnect-v30-compatibility).
+offerings, see [RackConnect v3.0 compatibility](/support/how-to/rackconnect-v30-compatibility).
 
 #### How do I get RackConnect v3.0?
 
@@ -99,11 +99,11 @@ built before RackConnect v3.0 was associated with the cloud account.
 
 #### What network subnet (CIDR) should I assign to my RackConnect v3.0 cloud network?
 
-See the "Cloud Networks" section of [RackConnect v3.0 limitations](/how-to/rackconnect-v30-limitations).
+See the "Cloud Networks" section of [RackConnect v3.0 limitations](/support/how-to/rackconnect-v30-limitations).
 
 #### What requirements must be met to implement RackConnect v3.0 in my environment?
 
-For the full list of requirements, see [RackConnect v3.0 requirements](/how-to/rackconnect-v30-requirements).
+For the full list of requirements, see [RackConnect v3.0 requirements](/support/how-to/rackconnect-v30-requirements).
 
 #### Whom do I contact for help with RackConnect v3.0?
 
@@ -114,7 +114,7 @@ is directly related to your cloud servers, we recommend contacting your
 cloud hosting team first. However, if you are certain that the issue is
 related to your network device, we recommend contacting your dedicated
 hosting team first. For details about how to contact your support teams,
-visit the [Contact Us](/how-to/support) page.
+visit the [Contact Us](/support/how-to/support) page.
 
 #### Why do I receive 403 Forbidden HTTP status code responses when I try to build RackConnect v3.0 cloud servers by using the Cloud Servers API or the nova client?
 
@@ -163,7 +163,7 @@ ServiceNet.
 
 #### Where do I go for help with RackConnect?
 
-If you need help with RackConnect, contact us via any of our [usual Support channels](/how-to/support), and our team will help you with your issue or direct you on to the relevant support group. We are available via phone, chat, or tickets 24x7x365.
+If you need help with RackConnect, contact us via any of our [usual Support channels](/support/how-to/support), and our team will help you with your issue or direct you on to the relevant support group. We are available via phone, chat, or tickets 24x7x365.
 
 If you believe your issue is cloud-server specific, send the
 appropriate query to the Cloud team through the Cloud Control Panel;
@@ -307,7 +307,7 @@ network policies that allow full access between your cloud and dedicated
 environments.
 
 **Important:** RackConnect network policies are limited to port ranges
-of 100. For details, see [Managing RackConnect network policies](/how-to/managing-rackconnect-v20-network-policies).
+of 100. For details, see [Managing RackConnect network policies](/support/how-to/managing-rackconnect-v20-network-policies).
 
 **Note**: Connecting cloud servers to the Intensive Active Directory
 domains is not currently supported.
@@ -319,7 +319,7 @@ the private interface. The best workaround for hosting multiple SSL
 sites would be to host each site on a separate cloud server, or use
 PAT (Port Address Translation).
 
-For more details about PAT, see [Multiple SSL certificates on a single RackConnect cloud server (PAT)](/how-to/multiple-ssl-certificates-on-a-single-rackconnected-cloud-server-pat).
+For more details about PAT, see [Multiple SSL certificates on a single RackConnect cloud server (PAT)](/support/how-to/multiple-ssl-certificates-on-a-single-rackconnected-cloud-server-pat).
 
 #### Can Cloud Load Balancers be used with RackConnect?
 
@@ -337,7 +337,7 @@ outbound bandwidth at the standard Load Balancers rate. This bandwidth is not
 included in the "included" bandwidth that comes with each dedicated
 server.
 
-For more details, see [Use Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect).
+For more details, see [Use Cloud Load Balancers with RackConnect](/support/how-to/using-cloud-load-balancers-with-rackconnect).
 
 #### Do pre-existing snapshots cause issues after an account is set up with RackConnect?
 

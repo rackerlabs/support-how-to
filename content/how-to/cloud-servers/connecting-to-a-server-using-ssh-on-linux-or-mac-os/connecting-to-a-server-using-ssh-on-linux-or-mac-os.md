@@ -28,8 +28,8 @@ for these communications to be intercepted and read.
 **Note:** Many of the commands in this article must be run on your local
 computer. The default commands listed are for the Linux command line or
 MacOS X Terminal. To make SSH connections from Windows&reg;, you can use a client
-similar to the free program, [PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty).
-To generate keys, you can use a related program, [PuTTYGen](/how-to/generating-rsa-keys-with-ssh-puttygen).
+similar to the free program, [PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty).
+To generate keys, you can use a related program, [PuTTYGen](/support/how-to/generating-rsa-keys-with-ssh-puttygen).
 
 ### Log in
 
@@ -55,7 +55,7 @@ rebuild a cloud server, that remote host key changes, so your computer
 warns you of possibly suspicious activity.
 
 To ensure the security of your server, you can
-[use the web console in the Cloud Control Panel to verify your server's new key](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
+[use the web console in the Cloud Control Panel to verify your server's new key](/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
 If you're confident that you aren't being spoofed, you can skip that
 step and delete the record of the old SSH host key as follows:
 
@@ -81,7 +81,7 @@ option to replace the saved host key.
 You can secure SSH access to your cloud server against brute force
 password attacks by using a public-private key pair. A public key is placed on
 the server and a matching private key is placed on your local computer. If you
-[configure SSH on your server to accept only connections using keys](/how-to/basic-cloud-server-security),
+[configure SSH on your server to accept only connections using keys](/support/how-to/basic-cloud-server-security),
 then no one can log in by using just a password. Connecting clients
 are required to use a private key that has a public key registered on
 the server. For more on security, review

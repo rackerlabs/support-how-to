@@ -15,7 +15,7 @@ You can use the **Domains &gt; Tools** section of the [Cloud Office Control Pane
 
 The following articles provide instructions for using these settings and tools:
 
-- [Split Domain Routing](/how-to/split-domain-routing)
-- [Email Everyone](/how-to/email-everyone-cloud-office-control-panel)
-- [Set an email catch-all address](/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel)
-- [Migrations FAQ](/how-to/cloud-office-migrations-faq)
+- [Split Domain Routing](/support/how-to/split-domain-routing)
+- [Email Everyone](/support/how-to/email-everyone-cloud-office-control-panel)
+- [Set an email catch-all address](/support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel)
+- [Migrations FAQ](/support/how-to/cloud-office-migrations-faq)

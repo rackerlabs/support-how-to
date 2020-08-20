@@ -11,7 +11,7 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-**Previous section:** [Rackspace Cloud DNS - API Example](/how-to/rackspace-cloud-dns-api-example)
+**Previous section:** [Rackspace Cloud DNS - API Example](/support/how-to/rackspace-cloud-dns-api-example)
 
 For more information regarding the API, we encourage you to review the [Rackspace Cloud DNS API documentation](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
 
@@ -44,4 +44,4 @@ e-mail, thereby allowing an organization to take responsibility for a
 message in a way that can be validated by a recipient.
 -   **SRV** - Used to define the location (hostname and port) of servers used for a specific service.
 
-**Next steps:** [Cloud DNS FAQ](/how-to/cloud-dns-faq)
+**Next steps:** [Cloud DNS FAQ](/support/how-to/cloud-dns-faq)

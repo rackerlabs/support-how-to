@@ -20,7 +20,7 @@ the [Cloud Control Panel](https://login.rackspace.com/) by using the following s
 
 **Note:** If you are a Dedicated Hosting customer, you can request all of the forms described in this article from your account manager.
 
-**Note:** Before completing the service transfer form, read the "Best practices for legal change forms" section of [Change account information](/how-to/change-account-information).
+**Note:** Before completing the service transfer form, read the "Best practices for legal change forms" section of [Change account information](/support/how-to/change-account-information).
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 2. In the upper-right corner of the control panel, click **Account > Docs and Forms**.
@@ -48,4 +48,4 @@ evidence of the name change. These forms are available from the Secretary of Sta
 - Certificate of Amendment
 
 To learn more about changing your cloud accounts information, see
-[Change Account Information](/how-to/change-account-information).
+[Change Account Information](/support/how-to/change-account-information).

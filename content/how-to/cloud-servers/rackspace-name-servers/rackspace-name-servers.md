@@ -42,10 +42,10 @@ search can provide this information.
 
 **Note**: Rackspace is *not* a domain registrar, like [Namecheap](https://www.namecheap.com/), [Dreamhost](https://dreamhost.com/domains/),
 or [GoDaddy](https://www.godaddy.com/). To host a domain that you have registered on your Rackspace
-Cloud Server, go to your domain registrar and [set the nameservers to Rackspace's nameservers](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud).
+Cloud Server, go to your domain registrar and [set the nameservers to Rackspace's nameservers](/support/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud).
 This allows DNS to route to your domain hosted on your Cloud Server.
 
 ### Related Information
 
--  [Serving your domain from a Rackspace Cloud Server](/how-to/serving-your-domain-from-a-rackspace-cloud-server "Serving Your Domain From a Rackspace Cloud Server")
--  [Create DNS records for Cloud Servers with the control panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel "Create DNS Records for Cloud Servers with the Control Panel")
+-  [Serving your domain from a Rackspace Cloud Server](/support/how-to/serving-your-domain-from-a-rackspace-cloud-server "Serving Your Domain From a Rackspace Cloud Server")
+-  [Create DNS records for Cloud Servers with the control panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel "Create DNS Records for Cloud Servers with the Control Panel")

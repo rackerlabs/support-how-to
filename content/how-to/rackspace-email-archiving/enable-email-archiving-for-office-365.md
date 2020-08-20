@@ -13,7 +13,7 @@ product_url: rackspace-email-archiving
 
 This article describes how to add Email Archiving to an existing Office 365 tenant.
 
-For more information about Office 365 subscriptions, see [Set Up Office 365](/how-to/set-up-office-365).
+For more information about Office 365 subscriptions, see [Set Up Office 365](/support/how-to/set-up-office-365).
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ For more information about Office 365 subscriptions, see [Set Up Office 365](/ho
 - **Time needed:** Approximately 24 hours for the archive to provision after it was added
 - **Tools required:** Office 365 tenant Administrator access, and an Office 365 tenant with Rackspace Cloud Office
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 
 ### Add Rackspace Office 365 archiving
@@ -33,4 +33,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 4. Review the pricing and click **Buy Licenses**.<br>
 **Note:** You cannot edit the quantity because it has to be applied to all Exchange mailboxes on the tenant.
 
-To learn how to log in to the archive, see [Log in to the Archive Manager for Office 365](/how-to/log-in-to-the-archive-manager-for-office-365)
+To learn how to log in to the archive, see [Log in to the Archive Manager for Office 365](/support/how-to/log-in-to-the-archive-manager-for-office-365)

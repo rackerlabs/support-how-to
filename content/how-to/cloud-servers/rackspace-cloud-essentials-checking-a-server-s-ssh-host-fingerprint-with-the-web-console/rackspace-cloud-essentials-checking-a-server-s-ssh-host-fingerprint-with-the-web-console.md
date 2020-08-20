@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-One of the fundamentals of [Secure Shell (SSH)](/how-to/connecting-to-linux-from-windows-by-using-putty)
+One of the fundamentals of [Secure Shell (SSH)](/support/how-to/connecting-to-linux-from-windows-by-using-putty)
 is that it uses a "fingerprint" generated using a server's unique "host
 key" to identify the server to a client. You might have seen a warning
 sometime related to the host fingerprint, either that it can't be
@@ -87,7 +87,7 @@ interfere with you connecting directly to the console through the Cloud
 Control Panel.
 
 You can connect to the web console for your server through the Cloud
-Control Panel.  If you need assistance opening the web console, [see this article](/how-to/start-a-console-session).
+Control Panel.  If you need assistance opening the web console, [see this article](/support/how-to/start-a-console-session).
 
 If you don't have a username and password to use (if you've disabled
 passwords for all accounts, for example) you can use the Cloud Control
@@ -262,7 +262,7 @@ handy if you need to check the fingerprint again. It's a little
 inconvenience at the outset in return for a pretty comforting security
 check you can run through easily when you connect from a new machine.
 
-Next we are going to look at the [basics of security in a Linux system](/how-to/basic-cloud-server-security),
+Next we are going to look at the [basics of security in a Linux system](/support/how-to/basic-cloud-server-security),
 adding to what we learned about SSH connections and host keys.
 
-**Next section:** [Basics of security in a Linux system](/how-to/basic-cloud-server-security)
+**Next section:** [Basics of security in a Linux system](/support/how-to/basic-cloud-server-security)

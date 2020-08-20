@@ -15,6 +15,6 @@ You can add multiple administrators with varying degrees of account access. Ther
 
 The following articles provide instructions for managing your administrators:
 
-- [Manage administrators](/how-to/manage-email-administrators-with-the-cloud-office-control-panel)
-- [View administrator activity](/how-to/view-administrator-activity-in-the-cloud-office-control-panel)
-- [Set up an API key](/how-to/set-up-an-api-key-cloud-office-control-panel)
+- [Manage administrators](/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel)
+- [View administrator activity](/support/how-to/view-administrator-activity-in-the-cloud-office-control-panel)
+- [Set up an API key](/support/how-to/set-up-an-api-key-cloud-office-control-panel)

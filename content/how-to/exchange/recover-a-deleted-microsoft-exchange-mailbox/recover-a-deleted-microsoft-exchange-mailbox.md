@@ -20,7 +20,7 @@ This article describes how to recover a deleted Exchange mailbox in the Cloud Of
 - **Time needed:** At least 24 hours for the deleted Microsoft Exchange mailbox to recreate
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Recover a deleted Exchange mailbox
 
@@ -29,5 +29,5 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 3. If you have multiple domains, select the domain that contains the mailbox that you want to recover.
-4. Create a mailbox with the *same* username as the mailbox that was deleted. For instructions on how to create a mailbox, see [Add Microsoft Exchange mailbox](/how-to/adding-microsoft-exchange-mailboxes/).
+4. Create a mailbox with the *same* username as the mailbox that was deleted. For instructions on how to create a mailbox, see [Add Microsoft Exchange mailbox](/support/how-to/adding-microsoft-exchange-mailboxes/).
 5. Allow 24 hours for the mailbox to recreate. After the recreation process completes, contact support to reconnect the mailbox.

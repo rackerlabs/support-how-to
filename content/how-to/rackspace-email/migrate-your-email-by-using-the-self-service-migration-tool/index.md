@@ -20,9 +20,9 @@ Use the Self-Service Migration Tool provided in the Cloud Office Control Panel t
 - **Time needed:** Up to several hours, depending on how much data is migrated
 - **Tools required:** Cloud Office Control Panel access, DNS host Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-**Note**: Some of the full version features of MigrationWiz (at migrationwiz.com) are not available within the Self-Service Migration Tool. If you want to use the full version, see [Access the full version of MigrationWiz](/how-to/accessing-the-full-version-of-migrationwiz).
+**Note**: Some of the full version features of MigrationWiz (at migrationwiz.com) are not available within the Self-Service Migration Tool. If you want to use the full version, see [Access the full version of MigrationWiz](/support/how-to/accessing-the-full-version-of-migrationwiz).
 
 ### Create mailboxes
 
@@ -30,10 +30,10 @@ Before you begin your migration, you must create your mailboxes on the Rackspace
 
 Use the following resources to help you create your mailboxes:
 
-- Rackspace Email: [Add Rackspace Email mailboxes](/how-to/add-rackspace-email-mailboxes)
-- Microsoft Exchange: [Add Microsoft Exchange mailboxes](/how-to/adding-microsoft-exchange-mailboxes-0)
+- Rackspace Email: [Add Rackspace Email mailboxes](/support/how-to/add-rackspace-email-mailboxes)
+- Microsoft Exchange: [Add Microsoft Exchange mailboxes](/support/how-to/adding-microsoft-exchange-mailboxes-0)
 - Rackspace Office 365:
-  - [Add an Office 365 Licenses](/how-to/add-an-office-365-license/)
+  - [Add an Office 365 Licenses](/support/how-to/add-an-office-365-license/)
   - [Add users individually or in bulk to Office 365](https://support.office.com/en-US/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) (Microsoft Support site)
   - [Create a shared mailbox](https://support.office.com/en-us/article/Create-shared-mailboxes-in-Office-365-871a246d-3acd-4bba-948e-5de8be0544c9) (Microsoft Support site)
 
@@ -47,19 +47,19 @@ Use the following resources to help you create your mailboxes:
 
    **Note:** The username for a mailbox is typically the same username you would use to log in to the Outlook Web App (OWA) or webmail in a web browser. For Rackspace Email, the username is the full email address.
 
-- Ensure that you can update your email DNS records at your current DNS host. If you do not know where to update your email DNS records, read [Find your DNS host](/how-to/find-dns-host/).  You can find information about the best DNS records for Rackspace in [Set up DNS records for Cloud Office email ](/how-to/set-up-dns-records-for-cloud-office-email).
+- Ensure that you can update your email DNS records at your current DNS host. If you do not know where to update your email DNS records, read [Find your DNS host](/support/how-to/find-dns-host/).  You can find information about the best DNS records for Rackspace in [Set up DNS records for Cloud Office email ](/support/how-to/set-up-dns-records-for-cloud-office-email).
 
-- Review the list of [items migrated during a Cloud Office migration](/how-to/items-migrated-during-a-cloud-office-migration/).
+- Review the list of [items migrated during a Cloud Office migration](/support/how-to/items-migrated-during-a-cloud-office-migration/).
 
 - Ensure that the size of your source mailbox does not exceed 70 percent of your new mailbox's capacity.
 
-- Copy email from the source server so that no data is lost. Some email messages might be corrupt and not migrate. If you want to back up your mailbox locally, see the "Export data into a .PST file" section in [Migrating Exchange to Exchange via Outlook](/how-to/migrating-exchange-to-exchange-via-outlook/).
+- Copy email from the source server so that no data is lost. Some email messages might be corrupt and not migrate. If you want to back up your mailbox locally, see the "Export data into a .PST file" section in [Migrating Exchange to Exchange via Outlook](/support/how-to/migrating-exchange-to-exchange-via-outlook/).
 
 - Inform users to refrain from changing their passwords during the migration process.
 
-**Note:** After the migration is complete, users must reconfigure Outlook, [mail clients](/how-to/cloud-office-support-terminology/), and mobile devices to connect to their mailbox at Rackspace. Users can visit https://emailhelp.rackspace.com for configuration instructions.
+**Note:** After the migration is complete, users must reconfigure Outlook, [mail clients](/support/how-to/cloud-office-support-terminology/), and mobile devices to connect to their mailbox at Rackspace. Users can visit https://emailhelp.rackspace.com for configuration instructions.
 
-For more information about the migration preparation required for POP, IMAP, and Exchange servers, see [Prepare POP, IMAP, and Exchange mail servers for migration](/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/).
+For more information about the migration preparation required for POP, IMAP, and Exchange servers, see [Prepare POP, IMAP, and Exchange mail servers for migration](/support/how-to/prepare-pop-imap-exchange-mail-servers-for-migration/).
 
 ### Migrate your email
 
@@ -115,9 +115,9 @@ For more information about the migration preparation required for POP, IMAP, and
 
     <img src="13-2_0.png" width="450" height="302" />
 
-    Several factors influence how long your email takes to migrate. For a list of possible factors, see [Factors that affect the duration of email migrations](/how-to/factors-that-affect-the-duration-of-email-migrations).
+    Several factors influence how long your email takes to migrate. For a list of possible factors, see [Factors that affect the duration of email migrations](/support/how-to/factors-that-affect-the-duration-of-email-migrations).
 
-12. After your migration has completed, you can run the migration tool again by clicking **Migrate new items.** For more information about running additional migrations, see [Run additional passes with MigrationWiz](/how-to/running-additional-passes-with-migrationwiz). Otherwise, click **Finish**.
+12. After your migration has completed, you can run the migration tool again by clicking **Migrate new items.** For more information about running additional migrations, see [Run additional passes with MigrationWiz](/support/how-to/running-additional-passes-with-migrationwiz). Otherwise, click **Finish**.
 
     <img src="14-2_0.png" width="450" height="335" />
 

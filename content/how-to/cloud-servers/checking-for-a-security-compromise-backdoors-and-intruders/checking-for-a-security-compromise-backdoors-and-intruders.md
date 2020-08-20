@@ -15,7 +15,7 @@ Cloud servers can be compromised by various factors: weak passwords, weak ip tab
 
 If your cloud server has been compromised, don't panic. Panic leads to poor decisions, which could make the situation worse. Instead, try to understand what happened and ensure that your cloud server is not compromised again in the same manner. The goal of this article is to help you learn from your mistakes and avoid repeating the same mistakes.
 
-This article describes some techniques and tools that you can use to investigate your servers if you suspect that they have been compromised. You should use these tools before going into rescue mode (review [Checking for a security compromise: Rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-mode-investigation) for more information about rescue mode). The cloud server used for this article was running Ubuntu&reg; 8.10. However, the steps demonstrated are similar for other Linux&reg; distributions.
+This article describes some techniques and tools that you can use to investigate your servers if you suspect that they have been compromised. You should use these tools before going into rescue mode (review [Checking for a security compromise: Rescue mode investigation](/support/how-to/check-for-a-security-compromise-rescue-mode-investigation) for more information about rescue mode). The cloud server used for this article was running Ubuntu&reg; 8.10. However, the steps demonstrated are similar for other Linux&reg; distributions.
 
 ### Important warning
 
@@ -69,4 +69,4 @@ server, run the following command:
 
 ### Summary
 
-In this article, you learned some techniques for discovering back doors and tracking intruders on your server. These techniques help you avoid repeating whatever situation or mistake led to the compromise, so you are less likely to get hacked again in the same way. In the next article, [Checking for a security compromise: Rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-mode-investigation), you learn how to investigate your cloud server in rescue mode.
+In this article, you learned some techniques for discovering back doors and tracking intruders on your server. These techniques help you avoid repeating whatever situation or mistake led to the compromise, so you are less likely to get hacked again in the same way. In the next article, [Checking for a security compromise: Rescue mode investigation](/support/how-to/check-for-a-security-compromise-rescue-mode-investigation), you learn how to investigate your cloud server in rescue mode.

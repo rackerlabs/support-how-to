@@ -15,7 +15,7 @@ This article explains how to recover a Rackspace Email mailbox that was deleted 
 
 To recover a Rackspace Email mailbox, create a new mailbox by using the same username as the recently deleted mailbox. You'll be prompted with the option to restore the mailbox from the backup stored on our system.
 
-**Note:** If you created an [email alias](/how-to/adding-an-alias-with-rackspace-email/) with the same username as the deleted mailbox, you must first delete the alias.
+**Note:** If you created an [email alias](/support/how-to/adding-an-alias-with-rackspace-email/) with the same username as the deleted mailbox, you must first delete the alias.
 
 <img src="ScreenShot2015-01-21at2.53.38PM.png" width="699" height="410" />
 

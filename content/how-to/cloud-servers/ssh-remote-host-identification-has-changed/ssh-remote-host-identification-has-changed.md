@@ -59,5 +59,5 @@ key is unknown and ask if you want to connect and save the new key.
 
 For more information about the SSH key and its security implications,
 see [this article about checking the SSH key via the web
-console](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
+console](/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
 

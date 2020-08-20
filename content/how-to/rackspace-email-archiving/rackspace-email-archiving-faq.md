@@ -58,11 +58,11 @@ admins to do so. However, they must be added as archive users.
 
 To add a user to the archive, follow the instructions in [Add and edit
 archive users in Cloud
-Office](/how-to/add-and-edit-archive-users-in-cloud-office).
+Office](/support/how-to/add-and-edit-archive-users-in-cloud-office).
 
 #### Does email archiving integrate with Outlook?
 
 Yes. However, Outlook integration with Email Archiving is not enabled by
 default. To enable integration, follow the directions in [Integrate
 Rackspace Email Archiving with
-Outlook](/how-to/integrate-rackspace-email-archiving-with-outlook).
+Outlook](/support/how-to/integrate-rackspace-email-archiving-with-outlook).

@@ -13,7 +13,7 @@ product_url: office-365
 
 This article describes how to add an Office 365@reg; product license in the Cloud Office Control Panel. This license allows a Cloud Office user to access an Office 365 subscription, depending on the number of licenses allotted in the Cloud Office Control Panel.
 
-For more information about Office 365 subscriptions, see [Set Up Office 365](/how-to/set-up-office-365).
+For more information about Office 365 subscriptions, see [Set Up Office 365](/support/how-to/set-up-office-365).
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ For more information about Office 365 subscriptions, see [Set Up Office 365](/ho
 - **Time needed:** Approximately 15 minutes for the subscription to be visible in Office 365 portal
 - **Tools required:** Office 365 Global Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 
 ### Add an Office 365 license

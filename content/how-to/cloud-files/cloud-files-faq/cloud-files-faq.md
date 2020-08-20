@@ -55,7 +55,7 @@ you can use either the Cloud Files user interface in the Rackspace [Cloud
 Control Panel](https://login.rackspace.com/) or one of our programming
 interfaces.
 
-See [Cloud Files and CDN](https://support.rackspace.com/how-to/getting-started-with-cloud-files-and-cdn/) for more details.
+See [Cloud Files and CDN](https://support.rackspace.com/support/how-to/getting-started-with-cloud-files-and-cdn/) for more details.
 
 #### What does *eventual consistency* mean in Cloud Files?
 
@@ -174,11 +174,11 @@ own origin web server.
 When you create a container in Cloud Files and you make that container
 public, the files within that container have a designated TTL. The TTL
 is the time interval after which the CDN will reread the contents of the
-container. For more information on how to mange the TTL attribute, see [Manage Time to Live (TTL) in a Cloud Files Container](/how-to/manage-ttl-in-a-cloud-files-container).
+container. For more information on how to mange the TTL attribute, see [Manage Time to Live (TTL) in a Cloud Files Container](/support/how-to/manage-ttl-in-a-cloud-files-container).
 
 #### What is the CDN?
 
-Using the Akamai content delivery network (CDN) service, Cloud Files brings you a powerful and easy way to publish content over a world-class industry leading CDN. For more information on how to use CDN with Cloud Files, see [Getting Started with Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn).
+Using the Akamai content delivery network (CDN) service, Cloud Files brings you a powerful and easy way to publish content over a world-class industry leading CDN. For more information on how to use CDN with Cloud Files, see [Getting Started with Cloud Files and CDN](/support/how-to/getting-started-with-cloud-files-and-cdn).
 
 #### Who is Akamai?
 
@@ -292,13 +292,13 @@ the Swift tool.
 
 If you are interested in developing against the Rackspace Large File
 Support code to incorporate into your application, you should work
-directly with the Cloud Files API. For more information, see [Use the API to manage large files](/how-to/use-the-api-to-manage-large-files).
+directly with the Cloud Files API. For more information, see [Use the API to manage large files](/support/how-to/use-the-api-to-manage-large-files).
 
 #### When should I use the Swift tool instead of the API, and what is the process?
 
 If you want to upload large files but do not want to incorporate our
 code into an application, you might find it easier to use the [Swift tool](https://swiftstack.com/docs/integration/python-swiftclient.html) for
-your uploads and management. For more information, see [Use Swift to manage large files](/how-to/use-swift-to-manage-large-files).
+your uploads and management. For more information, see [Use Swift to manage large files](/support/how-to/use-swift-to-manage-large-files).
 
 #### What will the download experience be like?
 

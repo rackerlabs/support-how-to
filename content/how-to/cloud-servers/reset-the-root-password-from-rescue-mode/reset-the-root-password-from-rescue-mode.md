@@ -18,7 +18,7 @@ this task by using rescue mode:
 1. Place the server into rescue mode. 
 
    For more information on placing your server into rescue mode, see
-   [Rescue Mode](/how-to/rescue-mode).
+   [Rescue Mode](/support/how-to/rescue-mode).
 
 2. Connect to the server that is in rescue mode by using the following
    command, replacing `ip address of the server` with the Internet Protocol

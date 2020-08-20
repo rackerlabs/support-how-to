@@ -40,7 +40,7 @@ operating system to install and configure pyrax.
 
 6.  Create the credential file. Use your Rackspace Cloud account
     username and API key. For information about how to find your API
-    key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+    key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
     **Note:** This file can be located anywhere on the server, but it is
     usually safest in the home directory of the user who is using
@@ -79,7 +79,7 @@ operating system to install and configure pyrax.
 
 6.  Create the credential file. Use your Rackspace Cloud account
     username and API key. For information about how to find your API
-    key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+    key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
     **Note:** This file can be located anywhere on the server, but it is
     usually safest in the home directory of the user who is using

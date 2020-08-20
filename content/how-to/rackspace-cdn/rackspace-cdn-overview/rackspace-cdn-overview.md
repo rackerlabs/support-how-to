@@ -50,14 +50,14 @@ The Rackspace CDN architecture includes the following components:
 The following articles provide more general information about Rackspace
 CDN:
 
--   [Features of Rackspace CDN](/how-to/features-of-rackspace-cdn)
--   [Uses of Rackspace CDN](/how-to/uses-of-rackspace-cdn)
--   [Limits for Rackspace CDN](/how-to/limits-for-rackspace-cdn)
--   [Rackspace CDN terminology](/how-to/rackspace-cdn-terminology)
--   [Differences between Rackspace CDN and Rackspace Cloud Files](/how-to/differences-between-rackspace-cdn-and-rackspace-cloud-files)
--   [Access Rackspace CDN](/how-to/access-rackspace-cdn)
+-   [Features of Rackspace CDN](/support/how-to/features-of-rackspace-cdn)
+-   [Uses of Rackspace CDN](/support/how-to/uses-of-rackspace-cdn)
+-   [Limits for Rackspace CDN](/support/how-to/limits-for-rackspace-cdn)
+-   [Rackspace CDN terminology](/support/how-to/rackspace-cdn-terminology)
+-   [Differences between Rackspace CDN and Rackspace Cloud Files](/support/how-to/differences-between-rackspace-cdn-and-rackspace-cloud-files)
+-   [Access Rackspace CDN](/support/how-to/access-rackspace-cdn)
 
 ### Additional resources
 
-- [Rackspace CDN User Guide](/how-to/rackspace-cdn)
-- [Features of Rackspace CDN](/how-to/features-of-rackspace-cdn)
+- [Rackspace CDN User Guide](/support/how-to/rackspace-cdn)
+- [Features of Rackspace CDN](/support/how-to/features-of-rackspace-cdn)

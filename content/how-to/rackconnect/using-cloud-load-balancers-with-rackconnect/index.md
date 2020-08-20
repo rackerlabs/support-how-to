@@ -18,9 +18,9 @@ available for RackConnect v3.0, Cloud Load Balancer traffic is blocked by defaul
 For more details about the offerings that are support by RackConnect v3.0 and the differences between RackConnect
 v3.0 and v2.0, see the following articles:
 
--   [RackConnect v3.0 compatibility](/how-to/rackconnect-v30-compatibility)
+-   [RackConnect v3.0 compatibility](/support/how-to/rackconnect-v30-compatibility)
 
--   [Comparing RackConnect v3.0 and RackConnect v2.0](/how-to/comparing-rackconnect-v30-and-rackconnect-v20)
+-   [Comparing RackConnect v3.0 and RackConnect v2.0](/support/how-to/comparing-rackconnect-v30-and-rackconnect-v20)
 
 **Note:** The rest of this article applies only to RackConnect v2.0.
 

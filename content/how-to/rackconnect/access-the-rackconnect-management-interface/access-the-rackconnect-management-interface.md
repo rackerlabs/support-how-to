@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section**: [RackConnect v2.0](/how-to/rackconnect-v20)
+**Previous section**: [RackConnect v2.0](/support/how-to/rackconnect-v20)
 
 This article describes how to access the RackConnect Management Interface for RackConnect v2.0 users.
 
@@ -37,5 +37,5 @@ colored status indicators.
 
 ### Related articles
 
-- [Managing RackConnect v2.0 network policies](/how-to/managing-rackconnect-v20-network-policies)
-- [Add authorized users in the RackConnect Management Interface](/how-to/add-authorized-users-in-the-rackconnect-management-interface)
+- [Managing RackConnect v2.0 network policies](/support/how-to/managing-rackconnect-v20-network-policies)
+- [Add authorized users in the RackConnect Management Interface](/support/how-to/add-authorized-users-in-the-rackconnect-management-interface)

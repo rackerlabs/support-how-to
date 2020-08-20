@@ -101,9 +101,9 @@ line.  If you haven't used it before, here are some How-To
 articles to check out:
 
 -   [Installing python-novaclient on Linux and Mac
-    OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
+    OS](/support/how-to/installing-python-novaclient-on-linux-and-mac-os)
 -   [Installing python-novaclient on
-    Windows](/how-to/installing-python-novaclient-on-windows)
+    Windows](/support/how-to/installing-python-novaclient-on-windows)
 
 These articles will provide you with an overview of python-novaclient
 and complete instructions for installing it on your operating system of

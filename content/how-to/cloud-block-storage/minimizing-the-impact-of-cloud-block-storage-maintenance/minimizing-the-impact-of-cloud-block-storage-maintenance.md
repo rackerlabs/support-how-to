@@ -21,11 +21,11 @@ You can either clone and replace your Cloud Block Storage volume, or stop all wr
 
 #### Clone and replace
 
-After you [clone your Cloud Block Storage volume](https://docs.rackspace.com/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
+After you [clone your Cloud Block Storage volume](https://docs.rackspace.com/support/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- Stop all writes to your current Cloud Block Storage volume before initiating the clone. Once all writes to the current Cloud Block Storage volume have been stopped, clone the volume. Once the clone completes, [unmount and detach](https://docs.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://docs.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
+- Stop all writes to your current Cloud Block Storage volume before initiating the clone. Once all writes to the current Cloud Block Storage volume have been stopped, clone the volume. Once the clone completes, [unmount and detach](https://docs.rackspace.com/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://docs.rackspace.com/support/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
 
 **Note:** Clones are not verified. Ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume.
 
@@ -42,7 +42,7 @@ as the system disk. From the [mycloud portal](https://login.rackspace.com/), sel
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- [Unmount and detach](https://docs.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
+- [Unmount and detach](https://docs.rackspace.com/support/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 

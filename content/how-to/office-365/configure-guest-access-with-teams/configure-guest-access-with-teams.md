@@ -15,7 +15,7 @@ Guest Access is disabled by default in Office 365&reg;. A global administrator m
 
 With Guest Access, organizations can offer access to teams to their partners while maintaining control over their data. All guests in teams are covered under the same compliance rules as the rest of Office 365 and can be securely managed with Azure Active Directory&reg;.
 
-For more information about Office 365 subscriptions, see [Set Up Office 365](/how-to/set-up-office-365).
+For more information about Office 365 subscriptions, see [Set Up Office 365](/support/how-to/set-up-office-365).
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ For more information about Office 365 subscriptions, see [Set Up Office 365](/ho
 - **Time needed:** Up to 24 hours for changes to take effect
 - **Tools required:** Administrators need Office 365 Global Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Turn on Guest Access in the Teams Admin Center
 

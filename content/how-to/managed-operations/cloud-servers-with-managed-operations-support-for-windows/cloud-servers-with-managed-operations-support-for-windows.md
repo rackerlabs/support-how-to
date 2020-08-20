@@ -35,7 +35,7 @@ operating system:
 
 - [Windows Server 2016](https://docs.microsoft.com/en-us/windows-server/windows-server)
 
-**Note:** Detailed information about Linux&reg; support is located in [Linux Spheres of Support for Dedicated and Managed Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
+**Note:** Detailed information about Linux&reg; support is located in [Linux Spheres of Support for Dedicated and Managed Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
 
 ### Web servers
 
