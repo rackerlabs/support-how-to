@@ -44,20 +44,12 @@ During a fresh installation, use the following values:
 
 - `APIHOSTNAME` (required): The host address where the Cloud Backup API endpoints reside. Host addresses for various data centers are listed in the
 [Service Access endpoints](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
-
-	<table>
-		<tr>
-			<td colspan="2" align="center"><strong>Example</strong></td>
-		</tr>
-		<tr>
-			<td align="right"><strong>Correct:</strong></td>
-			<td><code>dfw.backup.api.rackspacecloud.com</code></td>
-		</tr>
-		<tr>
-			<td align="right"><strong>Incorrect:</strong>
-			<td><code>https://dfw.backup.api.rackspacecloud.com/v1.0/1234/</code></td>
-		</tr>
-	</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+|   | <strong>Example</strong> |
+|---------|--------|
+| <strong>Correct:</strong>    |   <code>dfw.backup.api.rackspacecloud.com</code>   |
+| <strong>Incorrect:</strong>    |   <code>https://dfw.backup.api.rackspacecloud.com/v1.0/1234/</code>   |
+{{< /table >}}
 
 - `DATACENTER` (required): The data center associated with this server. The data center is the same as the region. Possible values are ORD, DFW, SYD, IAD, HKG, and LON.
 

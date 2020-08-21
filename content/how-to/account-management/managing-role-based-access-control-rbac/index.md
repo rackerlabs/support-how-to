@@ -102,43 +102,13 @@ To create a new user, use the following steps:
 Rackspace recommends the following custom role configurations for
 optimal product interaction.
 
-
-<table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Product</th>
-<th align="left">If</th>
-<th align="left">And</th>
-<th align="left">Then</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>Cloud Load Balancers</strong></td>
-<td align="left"><p>A user has been assigned any Cloud Load Balancers role.</p></td>
-<td align="left"><p>n/a</p></td>
-<td align="left"><p>In Cloud Servers, give the user the <strong>Observer</strong> role (minimum action).</p></td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Cloud Load Balancers </strong></td>
-<td align="left"><p>A user wants to add a node by using the <strong>Nodes > Add Cloud Servers</strong> option in the Cloud Control Panel.</p></td>
-<td align="left"><p>The user has been assigned any Cloud Load Balancers role.</p></td>
-<td align="left"><p>In Cloud Servers, give the user any role. </p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><strong>Cloud Databases</strong></p></td>
-<td align="left"><p>A user wants to create a backup in Cloud Databases.</p></td>
-<td align="left"><p>n/a</p></td>
-<td align="left"><p>In Cloud Files, give the user the <strong>Admin</strong> role.</p></td>
-</tr>
-</tbody>
-</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+| Product  | If | And | Then |
+|---------|--------|--------|--------|
+| Cloud Load Balancers     |   A user has been assigned any Cloud Load Balancers role.   |   n/a   | In Cloud Servers, give the user the <strong>Observer</strong> role (minimum action).   |
+| Cloud Load Balancers     |   A user wants to add a node by using the <strong>Nodes > Add Cloud Servers</strong> option in the Cloud Control Panel.   |   The user has been assigned any Cloud Load Balancers role. | In Cloud Servers, give the user any role.   |
+| Cloud Databases   |   A user wants to create a backup in Cloud Databases.  | n/a | In Cloud Files, give the user the <strong>Admin</strong> role. |
+{{< /table >}}
 
 ### Rackspace customers with multiple accounts
 

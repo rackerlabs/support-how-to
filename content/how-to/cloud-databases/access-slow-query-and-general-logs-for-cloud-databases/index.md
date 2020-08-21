@@ -34,52 +34,24 @@ To enable the logging of slow queries:
 1.  Grant root access to the `mysql.slow_log` table.
 
 2.  Set the configuration parameters that enable logging slow queries to the `mysql.slow_log` table:
-
-	<table border="1">
-		<tbody>
-			<tr>
-				<th>Parameter name</th>
-				<th>Suggested value</th>
-				<th>Description</th>
-			</tr>
-			<tr>
-				<td><code>log_output</code></td>
-				<td><code>'TABLE'</code></td>
-				<td>Tells MySQL to write logs to a table</td>
-			</tr>
-			<tr>
-				<td>slow_query_log</td>
-				<td>1</td>
-				<td>Enables the slow query log</td>
-			</tr>
-		</tbody>
-	</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+| Parameter name  | Suggested value | Description |
+|---------|--------|--------|
+| <code>log_output</code>    |   <code>'TABLE'</code>   |   Tells MySQL to write logs to a table   |
+| slow_query_log    |   1   |   Enables the slow query log |
+{{< /table >}}
 
 	For example, to create a new configuration group with trove that enables slow query logging, run:
 
         trove configuration-create EnableSlowQueryLog '{"log_output":"'TABLE'"}' --datastore MySQL
 
 3.  Optionally, set the configuration parameters that define the conditions under which queries are written to the slow query log:
-
-	<table border="1">
-		<tbody>
-			<tr>
-				<th>Parameter name</th>
-				<th>Suggested value</th>
-				<th>Description</th>
-			</tr>
-			<tr>
-				<td>long_query_time</td>
-				<td>0 or more</td>
-				<td>The duration of a query to be logged as slow, in seconds. The default is 10 seconds.</td>
-			</tr>
-			<tr>
-				<td>log_queries_not_using_indexes</td>
-				<td>0 or 1</td>
-				<td>Queries that don't use an index, or that perform a full index scan where the index doesn't limit the number of rows, will be logged to the slow query log (regardless of time taken). The slow query log needs to be enabled for this to have an effect.</td>
-			</tr>
-		</tbody>
-	</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+| Parameter name  | Suggested value | Description |
+|---------|--------|--------|
+| long_query_time | 0 or more | The duration of a query to be logged as slow, in seconds. The default is 10 seconds. |
+| log_queries_not_using_indexes | 0 or 1 | Queries that don't use an index, or that perform a full index scan where the index doesn't limit the number of rows, will be logged to the slow query log (regardless of time taken). The slow query log needs to be enabled for this to have an effect. |
+{{< /table >}}
 
 	For example, to add parameters to the configuration group created in the previous step that set the slow query duration to 15 seconds and cause logs to be deleted after one day, run:
 
@@ -104,21 +76,11 @@ For more information about the MySQL general query log, see the [MySQL documenta
 1.  Grant root access to the `mysql.general_log` table.
 
 2.  Set the configuration parameters that enable logging server activity to the `mysql.general_log` table:
-
-	<table border="1">
-			<tbody>
-				<tr>
-					<th>Parameter name</th>
-					<th>Suggested value</th>
-					<th>Description</th>
-				</tr>
-				<tr>
-					<td>log_output</td>
-					<td>'TABLE'</td>
-					<td>Tells MySQL to write logs to a table</td>
-				</tr>
-			</tbody>
-		</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+| Parameter name  | Suggested value | Description |
+|---------|--------|--------|
+| <code>log_output</code>    |   <code>'TABLE'</code>   |   Tells MySQL to write logs to a table   |
+{{< /table >}}
 
 	For example, to create a new configuration group with trove that enables general query logging, run:
 
