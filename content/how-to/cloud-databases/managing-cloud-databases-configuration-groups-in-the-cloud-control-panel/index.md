@@ -241,40 +241,15 @@ required to rebuild indexes on all tables with FULLTEXT indexes. After you have 
 the index, only then will the modified value be reflected in your database. Use
 <code>REPAIR TABLE tbl_name QUICK;</code>:
 
-<table border="0">
-<tbody>
-<tr>
-	<td>innodb_ft_max_token_size</td>
-	<td>innodb_ft_min_token_size</td>
-	<td>innodb_ft_num_word_optimize</td>
-</tr>
-<tr>
-	<td>innodb_ft_enable_stopword</td>
-	<td>innodb_ft_server_stopword_table</td>
-	<td>innodb_ft_user_stopword_table</td>
-</tr>
-<tr>
-	<td>ft_min_word_len</td>
-	<td>ft_max_word_len</td>
-	<td>innodb_ft_cache_size</td>
-</tr>
-<tr>
-	<td>innodb_ft_enable_stopword</td>
-	<td>innodb_ft_max_token_size</td>
-	<td>innodb_ft_min_token_size</td>
-</tr>
-<tr>
-	<td>innodb_ft_num_word_optimize</td>
-	<td>innodb_ft_result_cache_limit</td>
-	<td>innodb_ft_server_stopword_table</td>
-</tr>
-<tr>
-	<td>innodb_ft_sort_pll_degree</td>
-	<td>innodb_ft_total_cache_size</td>
-	<td>innodb_ft_sort_pll_degree</td>
-</tr>
-<tr>
-	<td>innodb_ft_total_cache_size</td>
-</tr>
-</tbody>
-</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+|  |  |  |
+|---------|--------|--------|
+| innodb_ft_max_token_size  | innodb_ft_min_token_size| innodb_ft_num_word_optimize |
+| innodb_ft_enable_stopword    |  innodb_ft_server_stopword_table   |   innodb_ft_user_stopword_table   |
+| ft_min_word_len    |   innodb_ft_server_stopword_table   |   innodb_ft_user_stopword_table |
+| innodb_ft_enable_stopword | innodb_ft_max_token_size |  innodb_ft_min_token_size |
+| innodb_ft_num_word_optimize | innodb_ft_result_cache_limit | innodb_ft_server_stopword_table |
+| innodb_ft_sort_pll_degree | innodb_ft_total_cache_size | innodb_ft_sort_pll_degree |
+| innodb_ft_total_cache_size | | |
+{{< /table >}}
+

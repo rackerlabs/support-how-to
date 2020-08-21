@@ -150,34 +150,14 @@ The rule number increments in sets of 10 to allow for additions without having t
 ### Troubleshooting
 
 Following are some NAT troubleshooting commands with ASA equivalent (when available).
-
-<table>
-	<tr>
-		<th><strong>NAT troubleshooting command</strong></th>
-		<th><strong>Equivalent ASA command</strong></th>
-	</tr>
-	<tr>
-		<td><code>show nat &lt;source/destination&gt; rules</code></td>
-		<td><code>sh run nat</code></td>
-	</tr>
-	<tr>
-		<td><code>show nat &lt;source/destination&gt; translation</code></td>
-		<td><code>sh xlate</code></td>
-	</tr>
-	<tr>
-		<td><code>show nat &lt;source/destination&gt; statistics</code></td>
-		<td><strong>None</strong</td>
-	</tr>
-	<tr>
-		<td><code>show conntrack table &lt;ipv4/ipv6&gt;</code></td>
-		<td><code>show connection</code></td>
-	</tr>
-	<tr>
-    	<td><code>show conntrack table &lt;ipv4/ipv6&gt; conn-id &lt;conn_id_number&gt;</code></td>
-		<td><strong>None</strong></td>
-	</tr>
-	<tr>
-		<td><code>delete conntrack table &lt;ipv4/ipv6&gt; source &lt;address&gt; [&lt;destination_address&gt;]</code></td>
-		<td><code>clear connection address</code></td>
-	</tr>
-</table>
+{{< table "table table-dark table-striped table-bordered" >}}
+| <strong>NAT troubleshooting command</strong>  | <strong>Equivalent ASA command</strong> |
+|---------|--------|
+| <code>show nat &lt;source/destination&gt; rules</code> | <code>sh run nat</code> |
+| <code>show nat &lt;source/destination&gt; translation</code> | <code>sh run nat</code> |
+| <code>show nat &lt;source/destination&gt; translation</code> | <code>sh xlate</code> |
+| <code>show nat &lt;source/destination&gt; statistics</code> | <strong>None</strong> |
+| <code>show conntrack table &lt;ipv4/ipv6&gt;</code> | <code>show connection</code> |
+| <code>show conntrack table &lt;ipv4/ipv6&gt; conn-id &lt;conn_id_number&gt;</code> | <strong>None</strong> |
+| <code>delete conntrack table &lt;ipv4/ipv6&gt; source &lt;address&gt; [&lt;destination_address&gt;]</code> | <code>clear connection address</code> |
+{{< /table >}}

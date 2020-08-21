@@ -166,42 +166,23 @@ permission to see when those tickets concern one or more devices.
 
 The following table shows the ticketing settings that are required for common
 actions or views:
+{{< table "table table-dark table-striped table-bordered" >}}
+| Ticketing setting  | Functionality |
+|---------|--------|
+| Flexible Ticket Viewing (default setting)     | Enables users to see tickets that include a device that they have permission to view. For example, if a user has access to device A, they see all of the tickets that include device A, even if another device is on the ticket. If device C is later added to the ticket and the user does not have access to device C, the user can still see the ticket.   |
+| Strict Ticket Viewing     | Requires users to have access to all of the devices on a ticket in order to see that ticket. For example, if a ticket includes device A and device B, then the user must have permissions to both devices to see the ticket. If device C is later added to the ticket and the user does not have access to device C, the user is no longer be able to see the ticket.   |
+{{< /table >}}
 
-<table>
-  <tr>
-    <th>Ticketing setting</th>
-    <th>Functionality</th>
-  </tr>
-  <tr>
-    <td>Flexible Ticket Viewing (default setting)</td>
-    <td>Enables users to see tickets that include a device that they have permission to view. For example, if a user has access to device A, they see all of the tickets that include device A, even if another device is on the ticket. If device C is later added to the ticket and the user does not have access to device C, the user can still see the ticket.</td>
-  </tr>
-  <tr>
-    <td>Strict Ticket Viewing</td>
-    <td>Requires users to have access to all of the devices on a ticket in order to see that ticket. For example, if a ticket includes device A and device B, then the user must have permissions to both devices to see the ticket. If device C is later added to the ticket and the user does not have access to device C, the user is no longer be able to see the ticket.</td>
-  </tr>
-</table>
 
 ### How permissions impact the user experience for tickets
 
 The following table shows the permissions that a user needs to perform common
 tasks with tickets:
+{{< table "table table-dark table-striped table-bordered" >}}
+| Permission required  | Task |
+|---------|--------|
+| <b>View Tickets</b> or <b>Edit Tickets</b> permission   | View or include another user on an account ticket (a ticket that doesn't have a device or service associated with it)   |
+| <b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that device   | View or include another user on a ticket that has a device associated with it   |
+| <b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that service   | View or include another user on a ticket that has a service associated with it (such as tickets for Managed Antivirus)   |
+{{< /table >}}
 
-<table>
-  <tr>
-    <th>Permission required</th>
-    <th>Task</th>
-  </tr>
-  <tr>
-    <td><b>View Tickets</b> or <b>Edit Tickets</b> permission</td>
-    <td>View or include another user on an account ticket (a ticket that doesn't have a device or service associated with it)</td>
-  </tr>
-  <tr>
-    <td><b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that device</td>
-    <td>View or include another user on a ticket that has a device associated with it</td>
-  </tr>
-  <tr>
-    <td><b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that service</td>
-    <td>View or include another user on a ticket that has a service associated with it (such as tickets for Managed Antivirus)</td>
-  </tr>
-</table>
