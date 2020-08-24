@@ -23,10 +23,10 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
-The following article describes how to install and configure the OneDrive for Business application for Android mobile devices.
+This article describes how to install and configure the OneDrive for Business application for Android mobile devices.
 
 
-**Note:** If you are unsure of whether your license includes OneDrive, contact your administrator.
+**Note:** If you are unsure whether your license includes OneDrive, contact your administrator.
 
 
 ### Install OneDrive for Android mobile devices
