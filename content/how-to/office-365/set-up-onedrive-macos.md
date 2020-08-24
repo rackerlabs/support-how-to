@@ -1,7 +1,7 @@
 ---
 permalink: set-up-onedrive-for-business-for-macos/
 audit_date: '2020-08-24'
-title: Setup OneDrive for Business for macOS
+title: Set up OneDrive for Business for macOS
 type: article
 created_date: '2020-08-19'
 created_by: Allison Battles
