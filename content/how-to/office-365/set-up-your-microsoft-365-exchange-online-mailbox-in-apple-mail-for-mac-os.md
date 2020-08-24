@@ -56,7 +56,7 @@ Use the following steps to configure your Microsoft 365 Exchange Online mailbox 
 
 1. Within Apple Mail, click the **New Message** icon.
 
-2. Once you have composed a message, then select the **Send** icon.
+2. After you write a message, select the **Send** icon.
 
 
 **Replying and Forwarding:**
@@ -72,7 +72,7 @@ Use the following steps to configure your Microsoft 365 Exchange Online mailbox 
 
 **Add an email signature:**
 
-1. Within Apple Mail, click **Mail** and select **Preferences**->**Signatures**.
+1. In Apple Mail, click **Mail** and select **Preferences**->**Signatures**.
 
 2. Select the email account for which you want to create the signature from the left-hand column.
 
