@@ -23,7 +23,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
-The following article describes how to enable *authenticated SMTP* for Microsoft 365&reg; Exchange&reg; Online mailboxes and
+This article describes how to enable *authenticated SMTP* for Microsoft 365 Exchange&reg; Online mailboxes and
 outlines the server settings for SMTP, IMAP, and POP protocols.
 
 
@@ -36,7 +36,7 @@ To send messages by using SMTP from an Exchange Online mailbox, an administrator
 **Authenticated SMTP** for the user through the [Microsoft 365 Admin Center](https://portal.office.com/Adminportal/Home)
 by using the following steps:
 
-1. Sign In through the [Microsoft 365 Admin Center](https://portal.office.com/Adminportal/Home).
+1. Sign in through the [Microsoft 365 Admin Center](https://portal.office.com/Adminportal/Home).
 
 2. Select **Users**->**Active Users**.
 
