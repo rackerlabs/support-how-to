@@ -1,7 +1,7 @@
 ---
-permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-apple-mail-for-mac-os/
+permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-apple-mail-for-macos/
 audit_date: '2020-08-24'
-title: Set up your Microsoft 365 Exchange Online mailbox in Apple Mail for Mac OS
+title: Set up your Microsoft 365 Exchange Online mailbox in Apple Mail for macOS
 type: article
 created_date: '2020-08-18'
 created_by: Allison Battles
@@ -17,7 +17,7 @@ product_url: office-365
 - **Applies to:** User
 - **Difficulty:** Easy
 - **Time needed:** Five Minutes for the initial configuration. Sync time varies based on mailbox size and network speed.
-- **Tools required:** Microsoft Office 365&reg; email address and password (Exchange Online licensing), Mac OS&reg; desktop device, and an active network connection
+- **Tools required:** Microsoft Office 365&reg; email address and password (Exchange Online licensing), macOS&reg; desktop device, and an active network connection
 
 For additional information about Microsoft 365 licensing, see our [Product Comparison Chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
@@ -28,7 +28,7 @@ This article describes how to set up your Office 365 Exchange Online mailbox in 
 **Note:** If you are unsure whether your license includes Exchange Online, contact your administrator.
 
 
-### Configure your Microsoft 365 mailbox within Apple Mail for Mac OS
+### Configure your Microsoft 365 mailbox within Apple Mail for macOS
 
 
 Use the following steps to configure your Microsoft 365 Exchange Online mailbox in the Apple Mail&reg; desktop client:
