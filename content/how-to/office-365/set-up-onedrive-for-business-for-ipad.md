@@ -22,7 +22,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
-The following article describes how to install and configure the OneDrive for Business&reg; application for iPad.
+This article describes how to install and configure the OneDrive for Business&reg; application for iPad.
 
 **Note:** If you are unsure whether your license includes OneDrive, contact your administrator.
 
