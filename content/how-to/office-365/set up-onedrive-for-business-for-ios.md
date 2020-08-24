@@ -62,7 +62,7 @@ Use the following the steps to add a Microsoft 365 account to an existing instal
 5. Enter your Microsoft 365 email address and password when prompted and select **Sign in**.
 
 
-**Note:** You can also sign into your organization's SharePoint&reg; site by entering the corresponding URL in the
+**Note:** You can also sign in to your organization's SharePoint&reg; site by entering the corresponding URL in the
 *SharePoint Server URL* feature.
 
 ### Upload a file to OneDrive for iOS
