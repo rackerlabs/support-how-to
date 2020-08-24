@@ -27,7 +27,7 @@ The following article describes how to enable *authenticated SMTP* for Microsoft
 outlines the server settings for SMTP, IMAP, and POP protocols.
 
 
-**Note:** If you are unsure of whether or not your license includes Exchange Online, contact your administrator.
+**Note:** If you are unsure whether your license includes Exchange Online, contact your administrator.
 
 
 ### Enable SMTP authentication for Microsoft 365 Exchange Online mailboxes
