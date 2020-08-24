@@ -16,13 +16,13 @@ product_url: office-365
 - **Applies to:** User
 - **Difficulty:** Easy
 - **Time needed:** 10 Minutes
-- **Tools required:** Microsoft 365 user licensed with OneDrive, Android tablet, active network connection
+- **Tools required:** Microsoft 365&reg; user licensed with OneDrive&reg;, Android&trade; tablet, active network connection
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
-The following article describes how to install and configure the OneDrive for Business application for Android tablets.
+This article describes how to install and configure the OneDrive for Business&reg; application for Android tablets.
 
 **Note:** If you are unsure whether your license includes OneDrive, contact your administrator.
 
@@ -30,7 +30,7 @@ The following article describes how to install and configure the OneDrive for Bu
 
 Use the following steps to install the OneDrive application for Android tablets:
 
-1. Navigate to the **Google Play store**.
+1. Navigate to the **Google Play&trade; store**.
 
 2. Use **Search** to find **OneDrive** and select **Install**.
 
