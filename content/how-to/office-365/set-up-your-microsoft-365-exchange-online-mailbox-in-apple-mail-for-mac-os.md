@@ -17,14 +17,13 @@ product_url: office-365
 - **Applies to:** User
 - **Difficulty:** Easy
 - **Time needed:** Five Minutes for the initial configuration. Sync time varies based on mailbox size and network speed.
-- **Tools required:** Microsoft 365&reg; email address and password (Exchange Online licensing), Mac OS&reg; desktop device, and an active network connection
+- **Tools required:** Microsoft Office 365&reg; email address and password (Exchange Online licensing), Mac OS&reg; desktop device, and an active network connection
 
 For additional information about Microsoft 365 licensing, see our [Product Comparison Chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-The following article describes the initial setup of your Office 365 Exchange Online mailbox within the Apple Mail client.
-
+This article describes how to set up your Office 365 Exchange Online mailbox in the Apple Mail client for the first time.
 
 **Note:** If you are unsure whether your license includes Exchange Online, contact your administrator.
 
@@ -32,7 +31,7 @@ The following article describes the initial setup of your Office 365 Exchange On
 ### Configure your Microsoft 365 mailbox within Apple Mail for Mac OS
 
 
-Use the following steps to configure your Microsoft 365 Exchange Online mailbox within the Apple Mail&reg; desktop client:
+Use the following steps to configure your Microsoft 365 Exchange Online mailbox in the Apple Mail&reg; desktop client:
 
 1. Open **Apple Mail**.
 
@@ -49,19 +48,19 @@ Use the following steps to configure your Microsoft 365 Exchange Online mailbox 
 7. Click **Done**.
 
 
-### Helpful Tips when using the Apple Mail desktop application
+### Helpful tips when using the Apple Mail desktop application
 
 
-**Composing a new message:**
+**Compose a new message:**
 
-1. Within Apple Mail, click the **New Message** icon.
+1. In Apple Mail, click the **New Message** icon.
 
 2. After you write a message, select the **Send** icon.
 
 
-**Replying and Forwarding:**
+**Reply and Forward:**
 
-1. Select the message you wish to reply to, then choose one of the following options:
+1. Select the message you want to reply to and choose one of the following options:
 
 - **Reply** - Compose a message and send it to only the original sender.
 - **Reply All** - Compose a message and send it to the sender and all recipients of the message (including carbon-copied recipients).
