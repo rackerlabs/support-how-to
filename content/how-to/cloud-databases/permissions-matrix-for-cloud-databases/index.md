@@ -165,4 +165,4 @@ The matrix displays the Cloud Databases methods grouped by category, their corre
 ### Related article
 - [Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)
 
-- [Cloud Databases API reference documentation](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/)
+- [Cloud Databases API reference documentation](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/)

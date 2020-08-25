@@ -35,7 +35,7 @@ You must create outbound rules by using the API. Use the Client URL (`curl`) com
 
 - `region` - Use the region for the security group.
 
-- `yourAuthToken` - Use the authentication token for your user account. See [How curl commands work](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work) for information on authentication using `curl` commands.
+- `yourAuthToken` - Use the authentication token for your user account. See [How curl commands work](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work) for information on authentication using `curl` commands.
 
 - `portNumber or null` - Replace this with the port number that you want to add to the rule (such as 22, 80, or 443).
 
@@ -100,7 +100,7 @@ Update the following variables in the following curl example by using the approp
 
 - `securityGroupRuleID` - The `id` field in the JSON output from creating the rule originally is the value you use for the `securityGroupRuleID`.
 
-- `yourAuthToken` - Use the authentication token for your user account. See [How curl commands work](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work) for information on authentication using `curl` commands.
+- `yourAuthToken` - Use the authentication token for your user account. See [How curl commands work](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work) for information on authentication using `curl` commands.
 
 Use the following `curl` command example to delete a security group rule through the API:
 

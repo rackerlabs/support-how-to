@@ -28,7 +28,7 @@ popup dialog box with the CDN links to the container displays, as shown in the f
 <img src="1080-2_2.png" width="492" height="246" />
 
 Alternatively, you can request your container information by using the [Cloud
-Files API](https://developer.rackspace.com/docs/cloud-files/v1/).
+Files API](https://docs.rackspace.com/docs/cloud-files/v1/).
 
 ### Set up CNAME records
 

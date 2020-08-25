@@ -144,5 +144,5 @@ Following are some best practices for handling authentication tokens.
 -   To simplify authentication, credential, and token management, use
     an [OpenStack command-line client application](https://wiki.openstack.org/wiki/OpenStackClients).
 
-For more information, read the [Manage authentication tokens](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#manage-authentication-tokens) section
-in the [Identity API 2.0 Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).
+For more information, read the [Manage authentication tokens](https://docs.rackspace.com/docs/cloud-identity/v2/developer-guide/#manage-authentication-tokens) section
+in the [Identity API 2.0 Guide](https://docs.rackspace.com/docs/cloud-identity/v2/developer-guide/).

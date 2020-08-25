@@ -42,8 +42,8 @@ Rackspace Intelligence supports the following agent checks:
 - SQL Server Version
 - Windows PerfOS
 
-For detailed descriptions of these agent checks, see [Agent check types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-type-ref). For information
-on how to install the monitoring agent, see [Install and configure the agent](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/install-configure/).
+For detailed descriptions of these agent checks, see [Agent check types](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-type-ref). For information
+on how to install the monitoring agent, see [Install and configure the agent](https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/install-configure/).
 
 ### Remote checks
 
@@ -63,7 +63,7 @@ Rackspace Intelligence supports the following remote checks:
 - TCP
 - Telnet Banner
 
-For detailed descriptions of these remote checks, see [Remote check types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/#remote-check-type-ref).
+For detailed descriptions of these remote checks, see [Remote check types](https://docs.rackspace.com/docs/rackspace-monitoring/v1/#remote-check-type-ref).
 
 ### Checks available through CLI or API
 

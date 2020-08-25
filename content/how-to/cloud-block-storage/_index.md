@@ -42,5 +42,5 @@ bigger server.
 
 ###  API Developer Guide and FAQ
 
-- [Cloud Block Storage API Developer Guide](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)
+- [Cloud Block Storage API Developer Guide](https://docs.rackspace.com/docs/cloud-block-storage/v1/developer-guide/)
 - [Cloud Block Storage FAQ](/support/how-to/cloud-block-storage-faq/)

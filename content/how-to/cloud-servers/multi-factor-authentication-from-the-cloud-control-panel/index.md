@@ -86,7 +86,7 @@ complete the setup process.
         requests to the Rackspace Cloud.
 
 -   You can also manage multi-factor authentication from the
-[Identity API 2.0 Guide.](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops)
+[Identity API 2.0 Guide.](https://docs.rackspace.com/docs/cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops)
 
 ### Configure your account to authenticate by using an SMS device
 

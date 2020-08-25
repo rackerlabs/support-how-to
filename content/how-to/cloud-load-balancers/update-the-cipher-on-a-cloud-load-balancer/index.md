@@ -18,7 +18,7 @@ ciphers that your cloud load balancers use to better protect your environment.
 
 You can update the cipher profiles from the [Cloud Control Panel](https://login.rackspace.com).
 
-For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
+For more information about cipher profiles and to see all available ciphers, see [Ciphers](https://docs.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ciphers/) in the Rackspace 
 developer documentation.
 
 The following cipher profiles are currently available:

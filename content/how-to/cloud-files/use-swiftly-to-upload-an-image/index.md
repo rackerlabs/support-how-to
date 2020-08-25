@@ -27,7 +27,7 @@ the segments in parallel, and creates a manifest for you automatically.
 This article describes how to use Swiftly to upload a file larger than 5
 GB to Cloud Files as a Static Large Object.
 
-For more information about Cloud Files Large Objects, see the [Cloud Files documentation](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
+For more information about Cloud Files Large Objects, see the [Cloud Files documentation](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).
 
 **Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/support/how-to/use-the-api-to-manage-large-files), and if you prefer Swift, see [Use Swift to manage large files](/support/how-to/use-swift-to-manage-large-files).
 

@@ -53,7 +53,7 @@ You submit annotations for events through the `/events` API endpoint. Following 
     > date -r 1451940237
     Mon Jan 4 12:43:57 PST 2016
 
-For more information about this operation, see [Send an annotation](https://developer.rackspace.com/docs/metrics/v2/ingestion-api-reference/ingestion-events/#send-an-annotation).
+For more information about this operation, see [Send an annotation](https://docs.rackspace.com/docs/metrics/v2/ingestion-api-reference/ingestion-events/#send-an-annotation).
 
 ### Add annotations to a Grafana dashboard
 
@@ -95,7 +95,7 @@ If you want to use the API command to retrieve data about your annotations, use 
 
     [{"tags":"deployment","tenantId":"737305","what":"app03 deployment","when":1452105873000,"data":"deploying prod"}]
 
-For more information about this operation, see [Retrieve an annotation](https://developer.rackspace.com/docs/metrics/v2/query-api-reference/query-views/#retrieve-an-annotation).
+For more information about this operation, see [Retrieve an annotation](https://docs.rackspace.com/docs/metrics/v2/query-api-reference/query-views/#retrieve-an-annotation).
 
 ### Troubleshooting
 

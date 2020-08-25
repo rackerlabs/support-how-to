@@ -18,7 +18,7 @@ Cisco&reg;, that's proactively managed 24x7x365 by our VMware
 Certified Professionals. For more information, see the following resources:
 
 - [Rackspace Private Cloud Powered by VMware product page](https://www.rackspace.com/en-gb/vmware/private-cloud)
-- [Rackspace Private Cloud powered by VMware Customer Handbook](https://developer.rackspace.com/docs/rpc-vmware/rpc-vmware-customer-handbook/)
+- [Rackspace Private Cloud powered by VMware Customer Handbook](https://docs.rackspace.com/docs/rpc-vmware/rpc-vmware-customer-handbook/)
 
 ### Rackspace Private Cloud Powered by VMware versus Server Virtualization
 

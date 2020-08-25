@@ -162,7 +162,7 @@ The following types of database servers are supported in the indicated areas:
 
 Although we don't support all technologies, we do offer *reasonable endeavor* support, which extends our support into offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other third-party services.
 
--  **API support**: All of the support functions listed in the [API guides](https://developer.rackspace.com/docs) are supported.
+-  **API support**: All of the support functions listed in the [API guides](https://docs.rackspace.com/docs) are supported.
 -  **Cloud Files**: Integration with Cloud Files is supported through the API. However, we do not offer development support for using the Cloud Files API.
 -  **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Named servers that use BIND are not supported at this time.
 -  **Load Balancing**: Rackspace Cloud Load Balancers are supported.

@@ -17,7 +17,7 @@ content delivery network (CDN) service.
 
 ### What is Cloud Files?
 
-Cloud Files is a cloud storage system rather than a traditional file system. You use it to store data in the Rackspace infrastructure. You can perform most data management tasks from the [Cloud Control Panel](https://login.rackspace.com/), but the [Cloud Files API Developer Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
+Cloud Files is a cloud storage system rather than a traditional file system. You use it to store data in the Rackspace infrastructure. You can perform most data management tasks from the [Cloud Control Panel](https://login.rackspace.com/), but the [Cloud Files API Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/)
 and some third-party tools are also available.
 
 Cloud Files has the following characteristics:
@@ -75,4 +75,4 @@ Use the following steps to upload files to a container:
 
     Options for sharing your file are displayed.
 
-To learn more about how to operate with Cloud Files through the API, see [Connecting to Cloud Files](/support/how-to/connecting-to-cloudfiles) and the [Cloud Files API Developer Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
+To learn more about how to operate with Cloud Files through the API, see [Connecting to Cloud Files](/support/how-to/connecting-to-cloudfiles) and the [Cloud Files API Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).

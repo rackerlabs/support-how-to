@@ -60,7 +60,7 @@ does not work, contact Rackspace Support.
 **System disk Cloud Bloud Storage volumes (Boot from volume servers):**
 
 - Reboot the server. If the server is unresponsive or does not reboot, you can [boot
-into rescue mode by using a specific image](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#rescue-specified-server).
+into rescue mode by using a specific image](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#rescue-specified-server).
 
 **Note:** This feature is not yet available from the myrackspace.com portal, so you must use the API.
 

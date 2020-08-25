@@ -46,14 +46,14 @@ List agent connections | `GET /v1.0/agents/{agentId}/connections/:connId` | **Ob
 Method 	| API action | Role | Description
 --- | --- | --- | ---
 Get agent host info types | `GET /v1.0/agents/{agentId}/host_info_types` | **Observer, Creator,Admin** | Get information about the types of host information data supported by the agent.
-Get information | `GET /v1.0/agents/{agentId}/host_info/{type}` | **Observer, Creator, Admin** | Gets the host information specified by {type}. For a complete list of agent host information, see [agent host information check](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#hostinfo-check-type-ref).
+Get information | `GET /v1.0/agents/{agentId}/host_info/{type}` | **Observer, Creator, Admin** | Gets the host information specified by {type}. For a complete list of agent host information, see [agent host information check](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#hostinfo-check-type-ref).
 
 
 ### Agent targets operations
 
 Method | API action | Role | Description
 --- | --- | --- | ---
-List agent check targets for {agentCheckType} | `GET /entities/{entityId}/agent/check_types/{agentCheckType}/targets` | **Observer, Creator, Admin** | Enumerates the devices allowed for the specified agent check type on the server where the agent is installed.  For complete list of check types, see [remote checks](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-check-type-ref) and [agent checks](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-types).
+List agent check targets for {agentCheckType} | `GET /entities/{entityId}/agent/check_types/{agentCheckType}/targets` | **Observer, Creator, Admin** | Enumerates the devices allowed for the specified agent check type on the server where the agent is installed.  For complete list of check types, see [remote checks](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-check-type-ref) and [agent checks](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-types).
 
 
 ### Agent tokens operations
@@ -111,7 +111,7 @@ List checks for an entity | `GET /v1.0/entities/{entityId}/checks` | **Creator, 
 Get a check by ID | `GET /v1.0/entities/{entityId}/checks/{checkId}` | **Creator, Admin** | Returns information about the specified check.
 Update a check by ID | `PUT /v1.0/entities/{entityId}/checks/{checkId}` | **Admin** | Updates the specified check.
 Delete a check by ID | `DELETE /v1.0/entities/{entityId}/checks/{checkId}` | **Admin** | Deletes the specfied check from your account.
-Create a check | `POST /v1.0/entities/{entityId}/checks` | **Creator, Admin** | Creates a new check and associates it with an entity using the parameters listed in [Attributes used for all checks](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/check-operations/#check-operations).
+Create a check | `POST /v1.0/entities/{entityId}/checks` | **Creator, Admin** | Creates a new check and associates it with an entity using the parameters listed in [Attributes used for all checks](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/check-operations/#check-operations).
 Test an existing check | `POST /v1.0/entities/{entityId}/checks/{checkId}/test` | **Observer, Creator, Admin** | Tests a check inline.
 Test a check | `POST /v1.0/entities/{entityId}/test-check` | **Observer Creator, Admin** | Tests a check before you create it.
 

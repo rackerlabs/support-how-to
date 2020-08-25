@@ -14,7 +14,7 @@ product_url: cloud-databases
 You can set the server time zone for a Cloud Databases instance so that
 it is persistent by using the configuration groups feature of Cloud
 Databases. You can use either the [Cloud Databases
-API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-getting-started/manage-tz-ovw)
+API](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-getting-started/manage-tz-ovw)
 or the [trove command line
 tool](/support/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool) to
 make the configuration changes. The examples in this article use the

@@ -19,7 +19,7 @@ The steps in this article require that you have an existing MySQL configuration 
 
 The examples use trove to make changes to configuration groups. Instructions for installing and configuring trove can be found in [Managing configuration groups for cloud databases with the Trove command line tool](/support/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
 
-To apply configuration groups you will need to enable root access to the database instance. This can be done through the [Cloud Databases API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/) or with a trove command:
+To apply configuration groups you will need to enable root access to the database instance. This can be done through the [Cloud Databases API](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/) or with a trove command:
 
 		trove root-enable instanceID
 

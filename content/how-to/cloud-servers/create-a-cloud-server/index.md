@@ -43,7 +43,7 @@ Control Panel interface.
 8.  In the **Flavor** section, choose the appropriate configuration for
     the server.
 
-    For more information about flavors, see the [Cloud Core Infrastructure User Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/flavor-class/#cloud-servers-flavor-class).
+    For more information about flavors, see the [Cloud Core Infrastructure User Guide](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/flavor-class/#cloud-servers-flavor-class).
 
 9.  *(Optional)* Assign a public key to the server by selecting an
     existing key under **Advanced Options**.

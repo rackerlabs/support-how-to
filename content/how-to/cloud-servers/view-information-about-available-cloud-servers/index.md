@@ -42,7 +42,7 @@ All available server configurations are displayed. The list contains the followi
 Copy the ID of the configuration that you want to use from the ID field. You need it to create your server.
 
 For instructions on creating a cloud server through the nova client, see the
-[Cloud Servers API guide](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/).
+[Cloud Servers API guide](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/).
 
 ### View server information through the Cloud Control Panel
 

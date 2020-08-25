@@ -12,14 +12,13 @@ product_url: cloud-servers
 ---
 
 ### Getting started
-
-#### I want to install version x.y of software in Linux, but your system doesn't allow me to? How do I install it?
+{{<accordion title="I want to install version x.y of software in Linux, but your system doesn't allow me to? How do I install it?" col="in" href="accordion1">}}
 
 The repository for your operating system's package manager probably has an
 older approved version. If so, you must remove that installation and then
 compile the newer version yourself. Refer to the software vendor for instructions.
-
-#### Will you help me install my software package?
+{{</accordion>}}
+{{<accordion title="Will you help me install my software package?" col="in" href="accordion2">}}
 
 It depends on your service level. For Managed Infrastructure Cloud
 accounts, you are responsible for installing and maintaining all
@@ -27,8 +26,8 @@ software on your server. If your account has a Managed Operations service
 level, Rackspace provides support for specific software and server configurations
 on Cloud Servers. For more information about supported systems and third party
 packages, see [Linux Spheres of Support for Dedicated and Managed Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
-
-#### What programming languages or applications are supported?
+{{</accordion>}}
+{{<accordion title="What programming languages or applications are supported?" col="in" href="accordion3">}}
 
 All of our Cloud Servers can be configured as development stacks,
 database servers, and web servers. Apache, Lighttpd, Mongrel, and Visual
@@ -36,21 +35,21 @@ Studio are some options.
 
 You can use the programming language of your choice to interact with
 Cloud Servers.
-
-#### Do you host DNS?
+{{</accordion>}}
+{{<accordion title="Do you host DNS?" col="in" href="accordion4">}}
 
 Yes. The Cloud Control Panel has a DNS menu for maintaining domain records for
 your Cloud Servers. For more information, see [Create DNS records for Cloud Servers with the Control Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
-
-#### What are the DNS servers for my Cloud Server?
+{{</accordion>}}
+{{<accordion title="What are the DNS servers for my Cloud Server?" col="in" href="accordion5">}}
 
 **ns.rackspace.com** and **ns2.rackspace.com**
-
-#### How many domains can I host?
+{{</accordion>}}
+{{<accordion title="How many domains can I host?" col="in" href="accordion6">}}
 
 Because you are in control of everything on your server, there is no limit.
-
-#### I'm kind of new to this. Will it be difficult?
+{{</accordion>}}
+{{<accordion title="I'm kind of new to this. Will it be difficult?" col="in" href="accordion7">}}
 
 The answer depends largely on your experience as a Systems Administrator
 for Linux or Windows Server. Our Linux servers are full Linux
@@ -61,8 +60,8 @@ want to start from scratch and tune a system for their own purposes.
 
 If you are uncomfortable in the System Administrator role, we also offer a
 [Managed Operations service level](https://www.rackspace.com/cloud/managed_cloud/).
-
-#### What level of support comes with Cloud Servers?
+{{</accordion>}}
+{{<accordion title="What level of support comes with Cloud Servers?" col="in" href="accordion8">}}
 
 We have two service levels: **Managed Infrastructure** and **Managed
 Operations**.
@@ -81,22 +80,22 @@ The [Managed Operations service](/support/how-to/linux-spheres-of-support-for-de
 level provides additional support on Cloud Servers, which includes monitoring,
 operating system and application infrastructure layer support, and
 technical guidance.
-
-#### What can I do with a Cloud Server?
+{{</accordion>}}
+{{<accordion title="What can I do with a Cloud Server?" col="in" href="accordion9">}}
 
 The Rackspace Cloud Servers solution is a fully unrestricted,
 root/Administrator level access, Linux or Windows environment. Any
 application or service that you can run from a traditional, physical,
 dedicated-unmanaged operations server can be run from your Cloud Server.
-
-#### Can I reinstall a different distribution or start over?
+{{</accordion>}}
+{{<accordion title="Can I reinstall a different distribution or start over?" col="in" href="accordion10">}}
 
 Yes! Select the **Rebuild** option in the Cloud Control Panel to select
 a new distribution. However, be sure to backup of your data first because this
 process destroys any data that is on the server. The rebuild process does allow
 you to save your IP address.
-
-#### What if I mess up my Cloud Server?
+{{</accordion>}}
+{{<accordion title="What if I mess up my Cloud Server?" col="in" href="accordion11">}}
 
 You can [reboot your server](/support/how-to/reboot-your-server).
 You can [restore from a backup](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
@@ -106,12 +105,13 @@ and attempt fix the problem. There are many options for recovering from
 mistakes, but the easiest is to keep regular backups and to [make a fresh backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
 before attempting any major configuration changes or before installing
 new software.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Account services
 
-#### Are Rackspace Cloud Servers HIPAA compliant?
+{{<accordion title="Are Rackspace Cloud Servers HIPAA compliant?" col="in" href="accordion12">}}
 
 Rackspace cannot determine if a given customer is meeting their
 obligations under the laws applicable to them, and it remains our
@@ -125,19 +125,19 @@ To help customers in the healthcare industry meet their compliance
 requirements with regards to HIPAA, Rackspace offers a [Business Associate Agreement](https://www.rackspace.com/information/legal/hipaabaa) in all
 of our dedicated hosting services segments, and it is included by
 default in our agreements with customers for those services.
-
-#### How do Cloud Servers prevent my data from potentially becoming visible when I delete a server?
+{{</accordion>}}
+{{<accordion title="How do Cloud Servers prevent my data from potentially becoming visible when I delete a server?" col="in" href="accordion13">}}
 
 For your security, the Virtual Hard Drive (VHD) on the hypervisor is
 deleted when you delete a server. After it is deleted, data cannot be
 retrieved and customers do not have logical or direct access to the
 physical drive.
-
-#### Can I read your SLA?
+{{</accordion>}}
+{{<accordion title="Can I read your SLA?" col="in" href="accordion14">}}
 
 Yes. Go to [https://www.rackspace.com/information/legal/cloud/sla](https://www.rackspace.com/information/legal/cloud/sla).
-
-#### How do I contact Support?
+{{</accordion>}}
+{{<accordion title="How do I contact Support?" col="in" href="accordion15">}}
 
 At Rackspace, our goal is to make the cloud easy for you to use. To meet
 that goal, we have created many different ways for you to get the
@@ -155,12 +155,13 @@ support that you need to get the most out of the cloud.
     **Tickets > Create Ticket** to open a ticket directly with our support
     teams to report a problem or make a service request.
 -   Call us 24x7x365 at 800 961 4454 (toll-free) or +1 210 312 4000 (international).
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Server management
 
-#### What do I enter in the Server Name field?
+{{<accordion title="What do I enter in the Server Name field?" col="in" href="accordion16">}}
 
 The information that you enter in the **Server Name** field helps you
 identify this server in the API and Cloud Control Panel. The name that
@@ -168,8 +169,9 @@ you enter when you create a server is used as the server's host name. If
 you rename the server later, the name that is displayed in the API and
 Cloud Control Panel is updated. However, the host name on the computer
 is not updated.
-
-#### Can I connect to a server by using the server name?
+{{</accordion>}}
+{{<accordion title="" col="in" href="accordion17">}}
+Can I connect to a server by using the server name?
 
 To connect to the server from outside of the server's local network, you
 need to configure an A record in Cloud DNS. To access Cloud DNS, in the
@@ -182,13 +184,13 @@ to your DNS zone ([MyExampleDomain.com](https://myexampledomain.com/))
 that points to the public IP address of the server. The information that
 you enter in the **Server Name** field helps you identify this server in
 the API and [Cloud Control Panel](https://login.rackspace.com).
-
-#### How do I set up reverse DNS setup for my server?
+{{</accordion>}}
+{{<accordion title="How do I set up reverse DNS setup for my server?" col="in" href="accordion18">}}
 
 You can set up reverse DNS from the Cloud Control Panel. For instructions,
 see [Create a reverse DNS record.](/support/how-to/create-a-reverse-dns-record)
-
-#### What are PVHVM images?
+{{</accordion>}}
+{{<accordion title="What are PVHVM images?" col="in" href="accordion19">}}
 
 PVHVM refers to the virtualization mode used by the hypervisor to run
 the virtual machine (VM). PVHVM images are VM images that use
@@ -205,13 +207,13 @@ non-PVHVM image, the following error message is displayed:
 `Image cannot be built with provided flavor`.
 
 For more information about PVHVM, see [Choosing a virtualization mode (PV versus PVHVM)](/support/how-to/choosing-a-virtualization-mode-pv-versus-pvhvm).
-
-#### Is there a throughput limit on my server's network interface card?
+{{</accordion>}}
+{{<accordion title="Is there a throughput limit on my server's network interface card?" col="in" href="accordion20">}}
 
 The amount of network throughput varies based on the flavor of the server.
 For more information, see [the Pricing page in the main Rackspace website](https://www.rackspace.com/cloud/public-pricing/#cloud-servers).
-
-#### Do you offer internal IP addresses?
+{{</accordion>}}
+{{<accordion title="Do you offer internal IP addresses?" col="in" href="accordion21">}}
 
 Yes. Each server comes with an internal IP address that is used to
 communicate between servers. The traffic that flows over this interface
@@ -220,12 +222,12 @@ referred to as ServiceNet. ServiceNet is an internal-only,
 multitenant network connection within each Rackspace data center.
 ServiceNet IP addresses are not accessible from the public Internet and are local
 per data center. You can also deploy with Cloud Networks, which are single-tenant.
-
-#### Can I buy extra public IP addresses?
+{{</accordion>}}
+{{<accordion title="Can I buy extra public IP addresses?" col="in" href="accordion22">}}
 
 Yes. For more information, see [Requesting Additional IPv4 Addresses for Cloud Servers](/support/how-to/requesting-additional-ipv4-addresses-for-cloud-servers).
-
-#### I want to set up multiple servers from the same image. Can I do this?
+{{</accordion>}}
+{{<accordion title="I want to set up multiple servers from the same image. Can I do this?" col="in" href="accordion23">}}
 
 As a Cloud Servers customer, you can create both on-demand
 images and scheduled images of your Cloud Server. All server
@@ -235,8 +237,8 @@ deleted. It also gives you the flexibility to create an unlimited number of
 on-demand images of your server. All Cloud Server images can be used to create
 new Cloud Servers or to restore an existing Cloud Server.
 For details, see [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
-
-#### Do you offer on-demand images (snapshots) and scheduled images and what are the prices?
+{{</accordion>}}
+{{<accordion title="Do you offer on-demand images (snapshots) and scheduled images and what are the prices?" col="in" href="accordion24">}}
 
 You can create an image of any general purpose Cloud Server, and you can
 use this image to restore a server or clone a new one. You can create an
@@ -250,14 +252,14 @@ Please also read this list of [snapshot limitations](/support/how-to/rackspace-c
 If you are using a virtual Cloud Server, see [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 for more information about the image options associated with virtual cloud
 servers.
-
-#### Can I use the GUI interface for my Linux Cloud Server?
+{{</accordion>}}
+{{<accordion title="Can I use the GUI interface for my Linux Cloud Server?" col="in" href="accordion25">}}
 
 Yes. For instructions on how to install VNC and X-Windows, see
 [Install VNC on a Cloud Server](/support/how-to/vnc-install "VNC Install").
 Note that using a GUI requires a large amount of bandwidth on your server.
-
-#### Do you have a Control Panel?
+{{</accordion>}}
+{{<accordion title="Do you have a Control Panel?" col="in" href="accordion26">}}
 
 Yes, the Rackspace [Cloud Control Panel](https://login.rackspace.com)
 is a web-based management interface for restarting your Cloud Server,
@@ -273,8 +275,8 @@ the Managed Operations SLA because it interferes with our server administration.
 Also, consider installing the free monitoring agent on your
 server and using the [Rackspace Intelligence dashboard](https://intelligence.rackspace.com/),
 which offers many of the same functions as a control panel.
-
-#### Do you provide Console access?
+{{</accordion>}}
+{{<accordion title="Do you provide Console access?" col="in" href="accordion27">}}
 
 Yes, via an HTML5 web terminal that you can access through the Cloud Control Panel. On the
 details section for your server, click **Actions > Emergency Console**.
@@ -283,13 +285,13 @@ details section for your server, click **Actions > Emergency Console**.
 a different connection from the traditional way to connect via SSH for
 Linux or RDP for Windows. Console can be a useful troubleshooting tool
 if your server is unresponsive or you have locked yourself out.
-
-#### Can I reboot my server?
+{{</accordion>}}
+{{<accordion title="Can I reboot my server?" col="in" href="accordion28">}}
 
 Yes. On the server details page for the server in the Cloud Control Panel,
 select **Actions > Reboot**. Use this method if the server is unresponsive.
-
-#### Am I billed if my server is powered off?
+{{</accordion>}}
+{{<accordion title="Am I billed if my server is powered off?" col="in" href="accordion29">}}
 
 Yes. You are billed for the resources that are used on the host
 while your server is in the **Active** status. When your server is
@@ -317,20 +319,19 @@ After you restore your server from the saved image, the primary difference
 will be that your new server has a different IP address from the old
 one. Putting the new server into production might require you to update
 any associated DNS records to reflect the new IP address.
-
-#### How do I power on my server after shutting it down?
+{{</accordion>}}
+{{<accordion title="How do I power on my server after shutting it down?" col="in" href="accordion30">}}
 
 Instructions are located in [Reboot a server](/support/how-to/reboot-a-server)
-
-#### Which distributions do you offer?
+{{</accordion>}}
+{{<accordion title="Which distributions do you offer?" col="in" href="accordion31">}}
 
 To see the Linux distributions and Windows operating systems that we have
 available, go to the Cloud Control Panel, click
 **Select a Product > Rackspace Cloud**, **Servers > CloudServers**, and
 then **Create Server**.
-
-#### Can I upgrade my server later?
-
+{{</accordion>}}
+{{<accordion title="Can I upgrade my server later?" col="in" href="accordion32">}}
 If you have a General Purpose server, you can change the size of your
 data storage space in one of the following ways:
 
@@ -340,25 +341,25 @@ data storage space in one of the following ways:
 -   Migrate to a larger size server with more RAM, disk space,
     and vCPUs. For more information about resizing, see
     [Upgrade resources for General Purpose or I/O optimized Cloud Servers](/support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
-
-#### How many users go onto each host machine?
+{{</accordion>}}
+{{<accordion title="How many users go onto each host machine?" col="in" href="accordion33">}}
 
 The number of customers on a Cloud Server host machine depends on the
 size of the customers' servers and the type of operating system.
-
-#### Can I buy extra storage?
+{{</accordion>}}
+{{<accordion title="Can I buy extra storage?" col="in" href="accordion34">}}
 
 The native storage allocation for a Cloud Server is based on the
 Cloud Server flavor that you select, but you can add extra storage at
 any time with our [Cloud Block Storage](https://www.rackspace.com/cloud/blockstorage/) service.
-
-#### Can I install the Rackspace Private Cloud on virtual machines?
+{{</accordion>}}
+{{<accordion title="Can I install the Rackspace Private Cloud on virtual machines?" col="in" href="accordion35">}}
 
 Rackspace strongly recommends that you install Rackspace Private Cloud
 on physical hardware nodes. Installation on virtual platforms should only be performed for
 evaluation purposes.
-
-#### What is live migration?
+{{</accordion>}}
+{{<accordion title="What is live migration?" col="in" href="accordion36">}}
 
 Live migration is the process of moving a virtual server from one host hypervisor
 to another by using virtual memory streaming. A duplicate of the original virtual
@@ -371,12 +372,13 @@ off of a host that needs to be patched and rebooted to a host that is already
 updated. During live migration, most customers experience no downtime; a small
 percentage may notice a brief pause in their workloads, but the result is
 generally of low impact compared to a full reboot of a host and virtual server.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Performance
-
-#### What is the difference between Standard, General Purpose, and work-optimized servers?
+{{<accordion title="What is the difference between Standard, General Purpose, and work-optimized servers?" col="in" href="accordion37">}}
+What is the difference between Standard, General Purpose, and work-optimized servers?
 
 There are several noteworthy differences between Standard, General Purpose, and work-optimized Cloud Servers:
 
@@ -393,34 +395,35 @@ There are several noteworthy differences between Standard, General Purpose, and 
     Maximum network bandwidth on work-optimized servers is 5Gbps public and 10Gbps private network.
 
 For more information about General Purpose servers, see [New features in General Purpose and work-optimized Cloud Servers](/support/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Billing and account
 
-#### Do you offer discounts for Cloud Servers?
+{{<accordion title="Do you offer discounts for Cloud Servers?" col="in" href="accordion38">}}
 
 Yes. We offer different types of discounts based on usage. For details, see
 the [Cloud Servers discounts page](https://www.rackspace.com/cloud/servers/discounts/) for details.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Security
 
-#### Are Cloud Servers PCI-DSS compliant?
-
+{{<accordion title="Are Cloud Servers PCI-DSS compliant?" col="in" href="accordion39">}}
 For information about PCI-DSS, see [Cloud Security Solutions](/support/how-to/are-cloud-servers-pci-dss-compliant).
 For information about PCI-DSS for Rackspace Dedicated Hosting
 services, see [PCI-Compliant Hosting for E-commerce Websites](https://www.rackspace.com/ecommerce-hosting/pci/).
-
-#### Can I run a firewall on my server?
+{{</accordion>}}
+{{<accordion title="Can I run a firewall on my server?" col="in" href="accordion40">}}
 
 Yes, and we encourage it! Each Linux server is capable of running
 the Linux-standard firewall called iptables; some even have it
 pre-configured. Other firewall systems have been tested on Cloud Servers
 as well.
-
-#### What are security groups?
+{{</accordion>}}
+{{<accordion title="What are security groups?" col="in" href="accordion41">}}
 
 Security groups are a named collection of network access rules
 that enable Rackspace Public Cloud users the ability to specify the
@@ -430,51 +433,51 @@ container for security group rules. After you launch an instance, you
 can assign one or more security groups to ports on that instance.
 Security groups act as a stateful firewall for your Cloud Server
 instances.
-
-#### What happens when a security group rule is added to a security group?
+{{</accordion>}}
+{{<accordion title="What happens when a security group rule is added to a security group?" col="in" href="accordion42">}}
 
 Traffic matching the security group rule is allowed to go through.
-
-#### Can I apply security groups to ports on an instance at boot time?
+{{</accordion>}}
+{{<accordion title="Can I apply security groups to ports on an instance at boot time?" col="in" href="accordion43">}}
 
 No. Security groups can only be applied only after the instance is active.
-
-#### Is there a default security group that gets applied to my instances?
+{{</accordion>}}
+{{<accordion title="Is there a default security group that gets applied to my instances?" col="in" href="accordion44">}}
 
 No default security group is applied. You just create a Security Group and
 apply it to the ports on an instance.
-
-#### Are security groups supported for OnMetal users?
+{{</accordion>}}
+{{<accordion title="Are security groups supported for OnMetal users?" col="in" href="accordion45">}}
 
 No. Security Groups are currently supported only for virtual cloud servers.
-
-#### Will the security group feature be integrated and available to use via the Cloud Control Panel?
+{{</accordion>}}
+{{<accordion title="Will the security group feature be integrated and available to use via the Cloud Control Panel?" col="in" href="accordion46">}}
 
 NO. Customers can use either the neutron client or the API to manage security groups.
-
-#### Are security groups supported via the neutron client?
+{{</accordion>}}
+{{<accordion title="Are security groups supported via the neutron client?" col="in" href="accordion47">}}
 
 Yes. Users can provision security groups by using the neutron client.
+{{</accordion>}}
+{{<accordion title="Are security groups on Cloud Networks supported?" col="in" href="accordion48">}}
 
-#### Are security groups on Cloud Networks supported?
+Yes. For additional information see [Cloud Networks API Getting Started](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
+{{</accordion>}}
+{{<accordion title="Are Outbound Security Groups supported?" col="in" href="accordion49">}}
 
-Yes. For additional information see [Cloud Networks API Getting Started](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
-
-#### Are Outbound Security Groups supported?
-
-Yes. For additional information see [Cloud Networks API Getting Started](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
-
-#### Is the security group feature supported for all Cloud customers?
+Yes. For additional information see [Cloud Networks API Getting Started](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
+{{</accordion>}}
+{{<accordion title="Is the security group feature available to all Cloud users?" col="in" href="accordion50">}}
 
 Security groups are supported only for Managed Infrastructure,
 non-RackConnect customers.
-
-#### Is the security group feature available to all Cloud users?
+{{</accordion>}}
+{{<accordion title="Is the security group feature available to all Cloud users?" col="in" href="accordion51">}}
 
 Security groups is in Limited Availability in all data centers. Contact
 Rackspace support to enable this feature.
-
-#### What are the benefits of using security groups?
+{{</accordion>}}
+{{<accordion title="What are the benefits of using security groups?" col="in" href="accordion52">}}
 
 Prior to this feature being available, customers had to manage traffic
 to and from their instances individually via, for example, iptables rules on
@@ -483,45 +486,45 @@ overhead. Security groups make it possible to use a self-service API to define a
 common set of rules and apply them to the neutron ports (Public/ServiceNet) on cloud
 servers without needing to configure iptables rules on each server, thereby simplifying
 administration of security policies.
-
-#### Is there a limit to the number of security group rules per user?
+{{</accordion>}}
+{{<accordion title="Is there a limit to the number of security group rules per user?" col="in" href="accordion53">}}
 
 During Limited Availability, there is an aggregate limit of 100 security group rules per user.
 Contact Rackspace Support if you need this limit raised.
-
-#### Is there a limit to the number of rules per security group?
+{{</accordion>}}
+{{<accordion title="Is there a limit to the number of rules per security group?" col="in" href="accordion54">}}
 
 There is a limit of 20 security group rules per security group.
 Contact Rackspace Support if you need this limit raised.
-
-#### How many security groups can I apply per port?
+{{</accordion>}}
+{{<accordion title="How many security groups can I apply per port?" col="in" href="accordion55">}}
 
 Up to 5 security groups are allowed per port. Contact Rackspace
 Support if you need this limit raised.
-
-#### Are security groups applied to instances?
+{{</accordion>}}
+{{<accordion title="Are security groups applied to instances?" col="in" href="accordion56">}}
 
 Security groups are applied to neutron ports (PublicNet and ServiceNet)
 on Cloud Server instances.
-
-#### Can I have a security group with no rules?
+{{</accordion>}}
+{{<accordion title="Can I have a security group with no rules?" col="in" href="accordion57">}}
 
 Yes. Such a security group denies or blocks all traffic.
-
-#### What kinds of traffic can be matched by the security group rules?
+{{</accordion>}}
+{{<accordion title="What kinds of traffic can be matched by the security group rules?" col="in" href="accordion58">}}
 
 TCP, UDP, and ICMP traffic can be matched in addition to traffic from a
 source IP address or CIDR. Both IPv4 and IPv6 traffic can be matched.
-
-#### Is there any traffic that is permitted or allowed by default by security groups?
+{{</accordion>}}
+{{<accordion title="Is there any traffic that is permitted or allowed by default by security groups?" col="in" href="accordion59">}}
 
 DNS responses from Rackspace Provider DNS servers (UDP source port 53 )
 are allowed by default even if they are not explicitly allowed by a
 security group.
 
 TCP flags ACK and RST are also permitted by default.
-
-#### What are the maximum limits for the Cloud Servers service?
+{{</accordion>}}
+{{<accordion title="What are the maximum limits for the Cloud Servers service?" col="in" href="accordion60">}}
 
 The maximum limits are as follows:
 
@@ -535,21 +538,23 @@ The maximum limits are as follows:
 | maxTotalInstances       | The maximum number of Cloud Servers that can exist in your account at any one time.                                                    | 100    |
 | maxTotalPrivateNetworks | The maximum number of isolated networks that you can create. Set to 0 when Cloud Networks is disabled, 10 when Cloud Networks enabled. | 10     |
 | maxTotalRAMSize         | The maximum total amount of RAM (MB) of all Cloud Servers in your account at any one time.                                             | 131072 |
-
-#### When a Cloud Server is deleted how is the data removed from the host server?
+{{</accordion>}}
+{{<accordion title="When a Cloud Server is deleted how is the data removed from the host server?" col="in" href="accordion61">}}
 
 Cloud Servers use VHD storage. When a server is deleted, the VHD file is securely and immediately
 deleted. It is not possible to recover a server that has been deleted.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### API
 
-#### Where are your APIs?
+{{<accordion title="Where are your APIs?" col="in" href="accordion62">}}
 
 The documentation for the API for Cloud Servers and our other products is
-located on the [Rackspace Developer Docs site](https://developer.rackspace.com/docs/).
+located on the [Rackspace Developer Docs site](https://docs.rackspace.com/docs/).
 
 Before you can start using our APIs, you will need your API Key. You can
 obtain your API key by following the instructions in
 [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
+{{</accordion>}}

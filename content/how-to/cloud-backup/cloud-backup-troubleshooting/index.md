@@ -264,7 +264,7 @@ You might get a Skipped notification if you have reregistered servers (the old s
 
 **Warning**: We do *not* recommend reregistering a DriveClient agent, especially if the server has existing backup configurations and data backed up. Reregistering disassociates the server from the prior backup configurations and backed up data.
 
-If you have reregistered a DriveClient agent and are unintentionally disassociated from your backups, you can use the [migrate vault API operation](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault) to migrate the previous backup vault from the previous agent to a new agent that has no backup configurations or previous backups run against it.
+If you have reregistered a DriveClient agent and are unintentionally disassociated from your backups, you can use the [migrate vault API operation](https://docs.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault) to migrate the previous backup vault from the previous agent to a new agent that has no backup configurations or previous backups run against it.
 
 #### Files modified during backup are missing or corrupted
 

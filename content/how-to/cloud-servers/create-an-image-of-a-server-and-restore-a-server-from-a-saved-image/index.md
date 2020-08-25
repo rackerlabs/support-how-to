@@ -14,7 +14,7 @@ product_url: cloud-servers
 This article describes how to create an image of a cloud server (also known as
 cloning a server) and restore a server from a saved image in the Cloud Control
 Panel. For information about using the Cloud Servers API to create an image from
-a server, see the [Create Image section in the Cloud Servers Developer Guide](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
+a server, see the [Create Image section in the Cloud Servers Developer Guide](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
 
 ### Prerequisites
 

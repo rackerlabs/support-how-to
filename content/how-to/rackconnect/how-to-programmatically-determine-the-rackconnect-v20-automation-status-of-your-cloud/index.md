@@ -103,7 +103,7 @@ preceding step. Enter these values for ``<cloudAccountNumber>``, ``<serverID>``,
 
 This is just a brief introduction to get you started on using the Cloud
 Servers API to query the RackConnect statuses of your servers. If
-you need more information about the Cloud Servers API, see the [Cloud Servers API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/).
+you need more information about the Cloud Servers API, see the [Cloud Servers API documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/).
 
 ### Determining when the Managed Operations post-build automation process is complete
 

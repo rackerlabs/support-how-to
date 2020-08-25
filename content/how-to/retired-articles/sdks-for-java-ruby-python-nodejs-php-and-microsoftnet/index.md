@@ -10,7 +10,7 @@ last_modified_by: Cat Lookabaugh
 ---
 
 You can download the language-specific software development kits (SDKs)
-for Cloud Files from the [Rackspace Developer website](https://developer.rackspace.com/#home-sdks).
+for Cloud Files from the [Rackspace Developer website](https://docs.rackspace.com/#home-sdks).
 This site includes links to the SDKs for the following languages:
 
 -   Java

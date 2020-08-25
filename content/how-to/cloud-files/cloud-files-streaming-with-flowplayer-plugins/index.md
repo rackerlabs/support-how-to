@@ -20,7 +20,7 @@ Flash players.
 You can set up your video for streaming by using the following steps:
 
 1. Upload your file to Cloud Files through the
-   [API](https://developer.rackspace.com/docs/cloud-files/v1/) or the [Cloud
+   [API](https://docs.rackspace.com/docs/cloud-files/v1/) or the [Cloud
    Control Panel](https://login.rackspace.com/).
 
     If your video file is more than 5GB, simply use our large object support.

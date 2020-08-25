@@ -96,7 +96,7 @@ While the API transfers the image from the container to the available images lis
 
 ### Related information
 
--   [Rackspace Cloud Images API information](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
+-   [Rackspace Cloud Images API information](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/)
 -   [Cloud Images FAQ](/support/how-to/cloud-images-faq)
 -   [Transferring images between regions of the Rackspace Open Cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud)
 -   [Pitchfork on Github](https://github.com/oldarmyc/pitchfork)

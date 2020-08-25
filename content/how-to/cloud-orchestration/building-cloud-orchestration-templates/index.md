@@ -13,7 +13,7 @@ product_url: cloud-orchestration
 
 Rackspace Cloud Orchestration is based on the OpenStack® Heat project, which enables infrastructure creation and software deployment from a single template. This is called infrastructure as code (IoC). For Cloud Orchestration, Rackspace provides resources such as cloud servers, cloud networks, and cloud load balancers. Instead of using the Cloud Control Panel or API to build your infrastructure, you create a template that defines the infrastructure, links together each component of that infrastructure, and deploys it.
 
-This article explains the parts of an Orchestration template, and provides Orchestration templates for certain use cases. For more examples of Orchestration templates, read the [Orchestration templates user guide](https://developer.rackspace.com/docs/user-guides/orchestration/).
+This article explains the parts of an Orchestration template, and provides Orchestration templates for certain use cases. For more examples of Orchestration templates, read the [Orchestration templates user guide](https://docs.rackspace.com/docs/user-guides/orchestration/).
 
 - [How Heat templates work](#how-heat-templates-work)
 - [Heat template format](#heat-template-format)

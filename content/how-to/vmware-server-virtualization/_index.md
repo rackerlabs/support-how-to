@@ -24,7 +24,7 @@ to offload the maintenance and monitoring of the guest operating system (OS), VM
 stack, and underlying hardware to Rackspace. For more information, see the following resources:
 
 - [VMware Server Virtualization product page](https://www.rackspace.com/managed-hosting/vmware/server-virtualization)
-- [VMware Server Virtualization Customer Handbook](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook)
+- [VMware Server Virtualization Customer Handbook](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook)
 
 ### VMware Server Virtualization versus Rackspace Private Cloud Powered by VMware
 

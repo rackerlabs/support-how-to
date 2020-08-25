@@ -38,7 +38,7 @@ To work in the source region, use the following steps:
 
     This example uses a server named Slave Database 3 in the
     source region. You can use either the [Cloud Servers
-    API](https://developer.rackspace.com/docs/cloud-servers/v2/getting-started/)
+    API](https://docs.rackspace.com/docs/cloud-servers/v2/getting-started/)
     or the [Cloud Control Panel](https://login.rackspace.com) to create the
     image. For information about creating an image of a server by using the
     Cloud Control Panel, see [Create an image backup
@@ -282,5 +282,5 @@ can import it for use with Cloud Servers.
 ### Related information
 
 -   [Rackspace Cloud Images Developer
-    Guide](https://developer.rackspace.com/docs/cloud-images/v2/)
+    Guide](https://docs.rackspace.com/docs/cloud-images/v2/)
 -   [Cloud Images FAQ](/support/how-to/cloud-images-faq)

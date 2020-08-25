@@ -117,7 +117,7 @@ volume when you delete the cloud server.
     **Note**: The Cloud Control Panel sets this flag to `False` by
     default. If you are unsure whether your volume is properly flagged, contact
     Support. For more detailed information, see the `delete-on-termination`
-    flag in the examples in [this section of the API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#create-bootable-volume-and-server).
+    flag in the examples in [this section of the API documentation](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#create-bootable-volume-and-server).
 
 2. [Delete the server](/support/how-to/delete-a-server).
 

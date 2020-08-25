@@ -36,7 +36,7 @@ have an unlimited number of containers available to you.
 These files are not directly accessible from any server by default. However,
 you can use Cloudfuse to _mount_ the files to a server. You can access and
 manage your Cloud Files by using our [Cloud Files application programming
-interface (API)](https://developer.rackspace.com/docs/cloud-files/v1/).
+interface (API)](https://docs.rackspace.com/docs/cloud-files/v1/).
 Utilities like Cloudfuse, Cyberduck&reg;, and FireUploader can all use our API
 to access the files. You can publish each container to Akamai's CDN on a
 per-container basis.

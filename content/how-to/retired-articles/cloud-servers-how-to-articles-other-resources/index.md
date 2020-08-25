@@ -14,11 +14,11 @@ last_modified_by: Kyle Laffoon
 
 ### Documentation
 
--  [Rackspace Cloud Servers API 2.0](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/)
+-  [Rackspace Cloud Servers API 2.0](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/)
 
--  [Rackspace Cloud Servers Getting Started Guide](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started)
+-  [Rackspace Cloud Servers Getting Started Guide](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started)
 
--  [Rackspace Cloud Servers Release Notes](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-release-notes)
+-  [Rackspace Cloud Servers Release Notes](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-release-notes)
 
 ### Popular articles from Rackspace How-To
 

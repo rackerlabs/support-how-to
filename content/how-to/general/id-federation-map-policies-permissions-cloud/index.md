@@ -68,9 +68,9 @@ SAML provider.
 For instructions, see the following reference that corresponds to your SAML
 provider:
 
-- [Configure AD FS](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/config-adfs/adfs-setup/)
-- [Configure Okta](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/config-okta/)
-- [SAML configuration items](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/generic-3p-saml/#saml-configuration-items)
+- [Configure AD FS](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/config-adfs/adfs-setup/)
+- [Configure Okta](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/config-okta/)
+- [SAML configuration items](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/generic-3p-saml/#saml-configuration-items)
 
 #### Export the SAML metadata
 
@@ -83,7 +83,7 @@ automatically or after some basic configuration has been completed.
 
 For specific instructions for exporting a SAML metadata file from Okta, see
 [Configure
-Okta](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/config-okta/okta-setup/).
+Okta](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/config-okta/okta-setup/).
 
 ### Add your Identity Provider to your Rackspace account
 
@@ -158,14 +158,14 @@ Panel by using the following steps:
 5. In the **Attribute Mapping Policy** section, click **Download**.
 
 You can also retrieve the policy by using the [Get IDP mapping
-policy](https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/identity-provider-operations/#get-idp-mapping-policy) API endpoint.
+policy](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/identity-provider-operations/#get-idp-mapping-policy) API endpoint.
 
 #### Edit the mappings in your default Attribute Mapping Policy
 
 This section shows you how to edit your default Attribute Mapping Policy.
 
 We recommend that you start by reading [Attribute mapping
-basics](https://developer.rackspace.com/docs/rackspace-federation/attribmapping-basics/).
+basics](https://docs.rackspace.com/docs/rackspace-federation/attribmapping-basics/).
 
 ##### Required SAML attributes
 
@@ -223,7 +223,7 @@ concisely retrieve values and simplify the policy. There are additional ways
 to accomplish the same scenario. For more examples and a complete guide to the
 Attribute Mapping Policy language, see the
 [Attribute Mapping Policy reference
-guide](https://developer.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
+guide](https://docs.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
 
 <table>
   <tr>
@@ -280,7 +280,7 @@ more customization might be required in some cases.
 
 **Note**: For considerations for specific third-party SAML providers, see
 [Configure Third-Party SAML
-providers](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/#index-configuring-3p-saml-ug).
+providers](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/#index-configuring-3p-saml-ug).
 
 #### Assign Rackspace permissions
 
@@ -314,7 +314,7 @@ For basic Identity Federation setups, this example might be sufficient.
 
 For a full list of Rackspace Cloud product roles, see the [Rackspace Cloud
 roles
-reference](https://developer.rackspace.com/docs/rackspace-federation/attribmapping-basics/full-roles/#full-roles-ug).
+reference](https://docs.rackspace.com/docs/rackspace-federation/attribmapping-basics/full-roles/#full-roles-ug).
 
 ##### Permissions by groups example
 
@@ -353,20 +353,20 @@ values of the first `remote` rule to be substituted in its place.)
 
 For more examples and a complete guide to the Attribute Mapping Policy
 language, see the [Attribute Mapping Policy reference
-guide](https://developer.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
+guide](https://docs.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
 
 ##### View example Attribute Mapping Policies
 
 To view example Attribute Mapping Policies for specific third-party providers,
 see the following reference that corresponds to your SAML provider:
 
-- [Attribute Mapping for AD FS](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/config-adfs/adfs-attribmapping/)
+- [Attribute Mapping for AD FS](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/config-adfs/adfs-attribmapping/)
 
-- [Attribute Mapping for Okta](https://developer.rackspace.com/docs/rackspace-federation/config-3p-saml/config-okta/okta-attribmapping/)
+- [Attribute Mapping for Okta](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/config-okta/okta-attribmapping/)
 
 For more examples and a complete guide to the Attribute Mapping Policy
 language, see the [Attribute Mapping Policy reference
-guide](https://developer.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
+guide](https://docs.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
 
 ##### Upload your customized Attribute Mapping Policy
 
@@ -383,4 +383,4 @@ steps:
 
 If you're using the API, you can also update the policy
 by using the [Update IDP mapping
-policy](https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/identity-provider-operations/#update-idp-mapping-policy) endpoint.
+policy](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/identity-provider-operations/#update-idp-mapping-policy) endpoint.

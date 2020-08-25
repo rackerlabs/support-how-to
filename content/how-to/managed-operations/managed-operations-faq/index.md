@@ -12,8 +12,7 @@ product_url: managed-operations
 ---
 
 ### Security
-
-#### Are cloud servers PCI-DSS compliant?
+{{<accordion title="Are cloud servers PCI-DSS compliant?" col="in" href="accordion1">}}
 
 The Rackspace Cloud environment has not been formally assessed for for
 compliance with the Payment Card Industry (PCI) Data Security Standard
@@ -22,12 +21,12 @@ Solutions](https://support.rackspace.com/support/how-to/are-cloud-servers-pci-ds
 information about PCI-DSS when using Rackspace Dedicated Hosting
 services, see [PCI-Compliant Hosting for E-commerce
 Websites](https://www.rackspace.com/ecommerce-hosting/pci/).
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### NoSQL databases
-
-#### Are NoSQL databases secure, reliable, and scalable?
+{{<accordion title="Are NoSQL databases secure, reliable, and scalable?" col="in" href="accordion2">}}
 
 NoSQL databases offer greater scalability and higher performance than
 relational databases. In addition, the data model that NoSQL databases use
@@ -39,35 +38,36 @@ However, to support reliability and security, developers must
 implement their own code, which makes NoSQL systems more complex. This
 complexity limits the number of applications that can rely on NoSQL databases
 for secure and reliable transactions.
-
-#### Can I use NoSQL databases for all types of applications?
+{{</accordion>}}
+{{<accordion title="Can I use NoSQL databases for all types of applications?" col="in" href="accordion3">}}
 
 NoSQL databases are well-suited for applications in social media, analytics,
 and big data. However, relational databases are still preferable for
 applications that require ACID (Atomicity, Consistency, Isolation, Durability)
 transactions, such as banking applications.
-
-#### What data security, backup, and recovery work do NoSQL databases require, including database tuning and monitoring?
+{{</accordion>}}
+{{<accordion title="What data security, backup, and recovery work do NoSQL databases require, including database tuning and monitoring?" col="in" href="accordion4">}}
 
 Because NoSQL databases are decentralized, most have their own automatic
 backup and recovery processes. By fine-tuning certain database elements such
 as index use, query structure, data models, system configuration (such as
 hardware and operating system settings), and application design, you can
 significantly impact the overall performance of your application.
-
-#### How do I create databases and objects and read and write data without SQL?
+{{</accordion>}}
+{{<accordion title="How do I create databases and objects and read and write data without SQL?" col="in" href="accordion5">}}
 
 NoSQL databases are designed to enable the insertion of data without a
 predefined schema. Every NoSQL platform has a unique method of creating
 databases and objects. While few NoSQL platforms use query languages to build
 databases and read and write data, some enable users to perform these
 actions by using Java or Python scripting.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Rackspace Managed Database Services
 
-#### What do Managed Database Services include?
+{{<accordion title="What do Managed Database Services include?" col="in" href="accordion6">}}
 
 Managed Database Services offers varying levels of support. The level of
 support included depends on your service level agreement (SLA).
@@ -82,50 +82,52 @@ For information about what each Managed Database Services
 SLA includes, visit the [DBA Services](https://www.rackspace.com/dba-services) product
 page. Scroll down to the product category that you want to use (**Relational
 SQL** or **NoSQL**), and click the **Troubleshooting** tab.
-
-#### Does Rackspace tune my database?
+{{</accordion>}}
+{{<accordion title="Does Rackspace tune my database?" col="in" href="accordion7">}}
 
 The level of support included in Managed Database Services depends on
 your SLA. The DBArchitect SLA for Managed Database Services includes
 performance tuning and diagnostics. If you're unsure whether your SLA includes
 database tuning, contact the Managed Operations team for assistance.
-
-#### What is the cost for Managed Database Services?
+{{</accordion>}}
+{{<accordion title="What is the cost for Managed Database Services?" col="in" href="accordion8">}}
 
 For full pricing information for Managed Database Services, visit
 the [DBA Services](https://www.rackspace.com/dba-services) product
 page. Scroll down to the product category you want to use (**Relational SQL**
 or **NoSQL**), and click the **Pricing** tab.
-
+<p class="callout-note">
 **Note**: This pricing is for new databases only.
-
-#### How do I contact the Managed Operations team?
+</p>
+{{</accordion>}}
+{{<accordion title="How do I contact the Managed Operations team?" col="in" href="accordion9">}}
 
 You can contact the Managed Operations team by logging in to the [Cloud
 Control Panel](https://login.rackspace.com/) and submitting a ticket or chat
 request, or by calling 1 800 961 4454.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### General
 
-#### Do you have servers with a Managed Operations Service Level in the UK?
+{{<accordion title="Do you have servers with a Managed Operations Service Level in the UK?" col="in" href="accordion10">}}
 
 Yes. For information, go to
 [https://www.rackspace.co.uk/cloud/managed](https://www.rackspace.co.uk/cloud/managed/).
-
-#### How do I contact the Managed Operations Team?
+{{</accordion>}}
+{{<accordion title="How do I contact the Managed Operations Team?" col="in" href="accordion11">}}
 
 You can contact the Managed Operations team via direct chat, a phone
 call to 1-800-961-4454, or by submitting a ticket online. There are
 links to all these options on the Control Panel.
-
-#### As a Rackspace customer, can I link my Managed Hosting configuration and account to a Cloud Server with Managed Operations Service Level configuration and account?
+{{</accordion>}}
+{{<accordion title="As a Rackspace customer, can I link my Managed Hosting configuration and account to a Cloud Server with Managed Operations Service Level configuration and account?" col="in" href="accordion12">}}
 
 Yes, the same way you are currently able to link your Managed Hosting
 accounts and your cloud accounts.
-
-#### Is there a cost associated with data migration services?
+{{</accordion>}}
+{{<accordion title="Is there a cost associated with data migration services?" col="in" href="accordion13">}}
 
 The Managed Operations team can help you decide if a migration is
 needed. If it is, the Managed Operations team works with the Rackspace
@@ -135,8 +137,8 @@ Services team or a partner incurs additional charges.
 
 For more information, see [Rackspace Professional
 Services](https://www.rackspace.com/en-us/professional-services/).
-
-#### Can I move my servers from my current account to a Managed Operations Service Level account?
+{{</accordion>}}
+{{<accordion title="Can I move my servers from my current account to a Managed Operations Service Level account?" col="in" href="accordion14">}}
 
 If you want Managed Operations Service Level support for a server that
 is in your current Managed Infrastructure account, you must migrate that
@@ -148,8 +150,8 @@ Operations team to provide you with the highest quality support for your
 server. The Managed Operations support team helps you find the
 most efficient and effective way to migrate your Managed Infrastructure
 server to a Managed Operations Service Level account.
-
-#### Do I need a separate account for Cloud Servers with a Managed Operations?
+{{</accordion>}}
+{{<accordion title="Do I need a separate account for Cloud Servers with a Managed Operations?" col="in" href="accordion15">}}
 
 Because Rackspace offers the Managed Operations at the account level, every
 cloud product in the account receives the Managed Operations. Therefore,
@@ -157,8 +159,8 @@ if you want to have some cloud servers that don't have a Managed
 Operations and some that do, you need a separate account
 for the Cloud Servers without Managed Operations. Servers on the other
 account are at the Managed Infrastructure Service Level.
-
-#### What is Rackspace Cloud Backup?
+{{</accordion>}}
+{{<accordion title="What is Rackspace Cloud Backup?" col="in" href="accordion16">}}
 
 Rackspace Cloud Backup is a file-level storage option for Cloud Servers.
 It lets you configure backups through the Control Panel and choose
@@ -171,7 +173,7 @@ For additional information, see the following How-To articles:
     Control
     Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
     or
-    [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
+    [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
 -   Rackspace Cloud Backup - Create and schedule [file-based backups](/support/how-to/rackspace-cloud-backup-create-a-backup).
 -   [Holland Backup Manager](https://hollandbackup.org/) - Find out about an open-source
     backup framework originally developed at Rackspace and written
@@ -180,8 +182,8 @@ For additional information, see the following How-To articles:
 For a comparison of Cloud Server images and Rackspace Cloud Backup, see
 [Rackspace Cloud Backup vs. Cloud Server Image
 Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
-
-#### Is my Rackspace Cloud Server with a Managed Operations Service Level account automatically backed up?
+{{</accordion>}}
+{{<accordion title="Is my Rackspace Cloud Server with a Managed Operations Service Level account automatically backed up?" col="in" href="accordion17">}}
 
 No, Rackspace does back up your server until you configure and schedule
 backups. 
@@ -189,25 +191,25 @@ backups.
 For a comparison of Cloud Server images and Rackspace Cloud Backup, see
 [Rackspace Cloud Backup vs. Cloud Server Image
 Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
-
-#### Will Rackspace troubleshoot programming or code for customers?
+{{</accordion>}}
+{{<accordion title="Will Rackspace troubleshoot programming or code for customers?" col="in" href="accordion18">}}
 
 No. The Managed Infrastructure and Managed Operations Service Level
 teams do troubleshoot your code or programs.
-
-#### Will the Rackspace support team automatically scale Cloud Servers if necessary?
+{{</accordion>}}
+{{<accordion title="Will the Rackspace support team automatically scale Cloud Servers if necessary?" col="in" href="accordion19">}}
 
 Not at this time. However, if you notice issues or have questions about
 capacity, the Managed Operations team works with you and recommend
 solutions.
-
-#### What does a server with Managed Operations Service Level support cost?
+{{</accordion>}}
+{{<accordion title="What does a server with Managed Operations Service Level support cost?" col="in" href="accordion20">}}
 
 See our [Cloud Servers Pricing
 Page](https://www.rackspace.com/cloud/servers/pricing/) for full pricing
 details.
-
-#### What does a Managed Operations Service Level account include?
+{{</accordion>}}
+{{<accordion title="What does a Managed Operations Service Level account include?" col="in" href="accordion21">}}
 
 Cloud Servers with a Managed Operations Service Level include access to
 a dedicated, 24x7x365 support team via phone, chat, and online support
@@ -221,8 +223,8 @@ user-defined ports as well as user-defined URL content.
 We provide free licensing for the Rackspace Cloud Backup file-based
 backup option ( [standard Cloud Files storage fees
 apply](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/)).
-
-#### What is Cloud Servers with a Managed Operations Service Level?
+{{</accordion>}}
+{{<accordion title="What is Cloud Servers with a Managed Operations Service Level?" col="in" href="accordion22">}}
 
 Cloud Servers with a Managed Operations Service Level extends the
 enhanced managed support level from our Managed Hosting offering into
@@ -241,9 +243,10 @@ Servers.
         Control
         Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
         or
-        [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
+        [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
     -   Rackspace Cloud Backup - Create and schedule [file-based
         backups](/support/how-to/rackspace-cloud-backup-create-a-backup).
     -   [Holland Backup Manager](https://hollandbackup.org/) - Find information about an
         open-source backup framework originally developed at Rackspace
         and written in Python.
+{{</accordion>}}

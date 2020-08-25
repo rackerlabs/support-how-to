@@ -29,7 +29,7 @@ the procedure at a time when it will not impact your normal operations.
 ### Get an authentication token
 
 You need to [obtain an authentication
-token](https://developer.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) to complete this process. If you experience any issues with
+token](https://docs.rackspace.com/docs/cloud-load-balancers/quickstart/#authentication) to complete this process. If you experience any issues with
 obtaining a token, contact Rackspace Support.
 
 ### Create variables

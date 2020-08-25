@@ -52,7 +52,7 @@ Panel or through the API.
     2.  Select **Make Public (Enable CDN)**.
     3.  Click **Publish to CDN** to confirm.
 
-  From *the API*, see [the API Dev Guide section, "CDN-Enable a Container"](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#cdn-enabling-the-container-and-setting-a-ttl).
+  From *the API*, see [the API Dev Guide section, "CDN-Enable a Container"](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#cdn-enabling-the-container-and-setting-a-ttl).
 
 ### Add JW Player 6 to your web page
 

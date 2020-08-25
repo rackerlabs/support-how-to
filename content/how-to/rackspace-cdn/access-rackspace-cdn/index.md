@@ -19,7 +19,7 @@ following steps:
 3. Click **Storage > CDN** or **Networking > CDN**.
 
 You can interact with Rackspace CDN programmatically through the
-Rackspace CDN API. For instructions, see the [API Developer Guide](https://developer.rackspace.com/docs/cdn/v1/developer-guide/).
+Rackspace CDN API. For instructions, see the [API Developer Guide](https://docs.rackspace.com/docs/cdn/v1/developer-guide/).
 
 
 ### Additional resources

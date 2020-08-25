@@ -94,7 +94,7 @@ To exit Telnet, type `Ctrl  \]`, press the **Enter** key, and then type `quit`.
 If you're unable to solve the problem by using the steps outlined in this
 article, review the information in the following documents:
 
-- [Rackspace Monitoring API status code reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#check-status-codes)
+- [Rackspace Monitoring API status code reference](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#check-status-codes)
 
 - [Rackspace Monitoring Checks and Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms/)
 

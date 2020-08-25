@@ -45,7 +45,7 @@ volume that you use to boot your server. This control enables you to fine-tune
 the storage to the needs of your operating system or application.
 
 You can get started by using the [Control Panel](https://login.rackspace.com) or
-through the [API](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
+through the [API](https://docs.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
 
 ### Setup options
 

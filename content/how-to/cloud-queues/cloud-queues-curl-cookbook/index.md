@@ -22,7 +22,7 @@ independently and be less prone to individual failures.
 Cloud Queues support publisher-subscriber and producer-consumer
 patterns. This article reviews the terminology used with Cloud Queues followed by examples of common cURL commands.
 
-For more information on available Cloud Queues API resources and methods and cURL request and response examples, see the API Reference section in the [Cloud Queues Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-api-reference).
+For more information on available Cloud Queues API resources and methods and cURL request and response examples, see the API Reference section in the [Cloud Queues Developer Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-api-reference).
 
 ### Cloud Queues terminology
 
@@ -59,7 +59,7 @@ To send requests to the Rackspace Cloud Queues API, you need an authentication t
 
 With a valid token, you can send API requests to any of the API service endpoints that you are authorized to use. The authentication response includes a token expiration date. When a token expires, you can send another authentication request to get a new one.
 
-Follow the steps in the [Cloud Queues Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-getting-started/authenticate) to authenticate to the Rackspace Cloud.
+Follow the steps in the [Cloud Queues Developer Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-getting-started/authenticate) to authenticate to the Rackspace Cloud.
 
 #### List queues
 
@@ -154,7 +154,7 @@ This operation creates a new queue, which is required before you can post any me
 
 This operation posts the specified number of messages. You can submit up to 10 messages in a single request, but you must always encapsulate the messages in a collection container. For example, an array in JSON.
 
-For more information about the `POST` message operation, see the [Cloud Queues Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#post-message).
+For more information about the `POST` message operation, see the [Cloud Queues Developer Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#post-message).
 
 **Request**
 
@@ -204,4 +204,4 @@ process, you probably need more workers. Determine this ratio by
 creating a call to the `/queues/{queue_name}/stats endpoint` and looking
 at the number of messages free vs. the total.
 
-**Note:** Additional API calls with request and response examples can be found in the API Reference section of the [Cloud Queues Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-api-reference).
+**Note:** Additional API calls with request and response examples can be found in the API Reference section of the [Cloud Queues Developer Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-api-reference).

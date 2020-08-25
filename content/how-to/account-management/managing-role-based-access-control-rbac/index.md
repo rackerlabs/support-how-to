@@ -21,7 +21,7 @@ Panel](https://login.rackspace.com/).
 
 For information about setting up RBAC through the API, see the [Rackspace
 Identity API
-Guide](https://developer.rackspace.com/docs/cloud-identity/v2/developer-guide/).
+Guide](https://docs.rackspace.com/docs/cloud-identity/v2/developer-guide/).
 
 **Note:** It is possible to assign a mix of multiple-product roles and
 per-product roles to one user through the API. The most permissive role

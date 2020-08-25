@@ -20,7 +20,7 @@ This article describes how to perform a fresh installation or update of the Rack
 The Rackspace Cloud Backup agent requires .NET 4.0 or later.
 
 Reinstalling the agent on a server disconnects any previously registered agents that were running on that server. The only way to associate the backup data from a disconnected agent registration is to perform a backup migration. You can perform a
-[vault migration](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault) to a connected agent by using the Cloud Backup API call.
+[vault migration](https://docs.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault) to a connected agent by using the Cloud Backup API call.
 
 ### Download the installer
 
@@ -43,7 +43,7 @@ During a fresh installation, use the following values:
 - `APIKEY` (required): Your Rackspace Cloud API key. For information about viewing your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
 - `APIHOSTNAME` (required): The host address where the Cloud Backup API endpoints reside. Host addresses for various data centers are listed in the
-[Service Access endpoints](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
+[Service Access endpoints](https://docs.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
 {{< table "table table-dark table-striped table-bordered" >}}
 |   | <strong>Example</strong> |
 |---------|--------|

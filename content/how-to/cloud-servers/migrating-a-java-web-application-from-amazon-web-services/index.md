@@ -64,7 +64,7 @@ Complete the following steps to install OpenJDK on the cloud:
 
 1.  Using Secure Shell (SSH), connect to the Cloud Servers instance by using
     the [Rackspace
-    PublicNet](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/publicnet/) URL and
+    PublicNet](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/publicnet/) URL and
     the root password.
 
 2.  Enter the root password to log in.

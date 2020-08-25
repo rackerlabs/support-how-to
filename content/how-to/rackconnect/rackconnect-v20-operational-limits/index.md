@@ -61,6 +61,6 @@ Potential time to build 100 (1 GB) Windows cloud servers (bursting 50 at a time)
 
 For more information about using the available APIs, see the following documentation:
 
--   [Cloud Servers API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/)
+-   [Cloud Servers API documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/)
 -   [RackConnect v2.0 API](/support/how-to/the-rackconnect-v20-api)
 -   [Programmatically determine the RackConnect v2.0 automation status of your cloud servers](/support/how-to/support/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud)

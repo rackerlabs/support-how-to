@@ -56,4 +56,4 @@ You can view statistics for a queue in the Cloud Control Panel.
 
 **Note:** If total is 0, the display does not include statistics for *oldest* and *newest* messages.
 
-You can find more developer information in the [Getting Started Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started) and [API Developer Guide for Cloud Queues](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-developer-guide).
+You can find more developer information in the [Getting Started Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started) and [API Developer Guide for Cloud Queues](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-developer-guide).

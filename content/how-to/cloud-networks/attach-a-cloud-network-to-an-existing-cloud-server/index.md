@@ -15,7 +15,7 @@ When you create a new cloud server, you can attach an isolated network
 to it. You can also attach an isolated network to an existing server by
 using one of the following methods:
 
--   By using the [Cloud Networks API](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+-   By using the [Cloud Networks API](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)
 -   By creating an image of the server and building a new server based
     on that image in the Cloud Control Panel
 
@@ -65,4 +65,4 @@ attached to the networks that you selected.
 
 [Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks)
 
-[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)

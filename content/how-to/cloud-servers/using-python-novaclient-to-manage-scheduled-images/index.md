@@ -275,4 +275,4 @@ done through the API or python-novaclient.
 -   [Scheduled Images
     FAQ](/support/how-to/scheduled-images-faq "Scheduled Images FAQ")
 -   [Scheduled Images API Extension
-    Documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-extensions/ext-scheduled-images)
+    Documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-extensions/ext-scheduled-images)

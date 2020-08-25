@@ -228,10 +228,10 @@ configuration file.
 
 For information about configuring the monitoring agent by using the
 agent configuration file, see [Configure the agent
-manually](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#configure-agent-manually).
+manually](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#configure-agent-manually).
 For information about the agent configuration file, see [Agent
 configuration
-file](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-configuration-file).
+file](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent-configuration-file).
 
 ### Related information
 

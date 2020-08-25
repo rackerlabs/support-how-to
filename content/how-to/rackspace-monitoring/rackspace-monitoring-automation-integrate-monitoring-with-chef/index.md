@@ -153,7 +153,7 @@ matches the criteria to alert with a destination to send the
 notifications. The alarm leverages our Javascript-like language to
 create criteria based on metrics for a particular check. You can read in
 depth about the alarm language here:
-<https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-language>.
+<https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-language>.
 
 We are going to create an Alarm for a ping either not returning (which
 would happen by default) or is below 80% or 95% on the number of

@@ -60,7 +60,7 @@ Click the gear icon to the left of the object and then choose **Refresh File
 If the file was deleted and you need it deleted from the CDN, this option is
 not available in the Cloud Control Panel because the object is not present.
 You have the option of using the API to [Delete CDN Enabled
-Objects](https://developer.rackspace.com/docs/cloud-files/v1/cdn-api-reference/cdn-object-services-operations/#delete-cdn-enabled-object). The 25-object
+Objects](https://docs.rackspace.com/docs/cloud-files/v1/cdn-api-reference/cdn-object-services-operations/#delete-cdn-enabled-object). The 25-object
 limit also applies with API calls.
 
 **Note**: Some instances have thousands of objects in a container. If an

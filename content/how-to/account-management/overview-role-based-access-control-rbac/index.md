@@ -180,7 +180,7 @@ account. Account owners can add users through the
 [Cloud Control Panel](https://login.rackspace.com/) or the API.
 
 For more information about specific RBAC-related APIs, see the [Rackspace
-API documentation](https://developer.rackspace.com/docs/).
+API documentation](https://docs.rackspace.com/docs/).
 
 ### Which products are currently RBAC-enabled?
 

@@ -54,7 +54,7 @@ policies you created.
     the next set of steps.
 
     You can now execute a POST request against this URL in order to use
-    your webhook manually via CURL. For more information, see the [Auto Scale Developer Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
+    your webhook manually via CURL. For more information, see the [Auto Scale Developer Guide](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
 
 ### Set up Rackspace Monitoring
 

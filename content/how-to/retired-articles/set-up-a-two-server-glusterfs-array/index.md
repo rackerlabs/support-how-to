@@ -24,7 +24,7 @@ Parts of this article involve formatting disks and removing files, which could e
 
 You need two Rackspace Cloud servers running Ubuntu Trusty. This article uses the new Performance flavor servers. The data disk's main partition `/dev/xvde1` is  set apart for GlusterFS.
 
-If you are using [Nova](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#using-the-nova-client), you can build two 4-GB Performance severs with Ubuntu Trusty and PVHVM as follows:
+If you are using [Nova](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#using-the-nova-client), you can build two 4-GB Performance severs with Ubuntu Trusty and PVHVM as follows:
 
     nova boot --image bb02b1a3-bc77-4d17-ab5b-421d89850fca --flavor performance1-4 web1
     nova boot --image bb02b1a3-bc77-4d17-ab5b-421d89850fca --flavor performance1-4 web2

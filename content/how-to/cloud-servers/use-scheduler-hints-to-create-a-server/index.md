@@ -22,7 +22,7 @@ authentication tokens and how to interact with the API by using curl is required
 The scheduler hint extension enables you to specify the proximity of newly
 provisioned cloud servers to already existing cloud servers on your account.
 For more details on why this is important, see our
-[Cloud Server API Guide](https://developer.rackspace.com/docs/cloud-servers/v2/extensions/ext-sched-hint/).
+[Cloud Server API Guide](https://docs.rackspace.com/docs/cloud-servers/v2/extensions/ext-sched-hint/).
 
 ### Create a server with scheduler hints
 

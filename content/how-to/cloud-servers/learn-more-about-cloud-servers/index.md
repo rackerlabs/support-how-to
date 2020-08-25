@@ -39,4 +39,4 @@ Looking for information about Cloud Servers? The following sections contain link
 
 [Cloud Servers Product Page](https://www.rackspace.com/cloud/servers): Provides product information about Cloud Servers.
 
-[API Documentation](https://developer.rackspace.com/docs/): Provides documentation for using the Cloud Servers API.
+[API Documentation](https://docs.rackspace.com/docs/): Provides documentation for using the Cloud Servers API.

@@ -58,22 +58,22 @@ xhtml = false
 [[menu.footer]]
     name = "Support Network Home"
     parent = "Support Network"
-    url = "https://docs.rackspace.com/support/"
+    url = "/support/"
     weight = 1
 [[menu.footer]]
     name = "Rackspace How-To"
     parent = "Support Network"
-    url = "https://docs.rackspace.com/support/how-to/"
+    url = "/support/how-to/"
     weight = 2
 [[menu.footer]]
     name = "API Documentation"
     parent = "Support Network"
-    url = "https://docs.rackspace.com/docs/"
+    url = "/docs/"
     weight = 3
 [[menu.footer]]
     name = "Developer Center"
     parent = "Support Network"
-    url = "https://docs.rackspace.com"
+    url = "/"
     weight = 4
 [[menu.footer]]
     name = "About"
@@ -149,23 +149,23 @@ xhtml = false
 [[menu.footer]]
     name = "Style Guide for Technical Content"
     parent = "Site Information"
-    url = "https://docs.rackspace.com/docs/style-guide/"
+    url = "/docs/style-guide/"
     weight = 12
 
 [[menu.main]]
     identifier = "support_home"
     name = "Support Home"
-    url = "https://docs.rackspace.com/support/"
+    url = "/support/"
     weight = 1
 [[menu.main]]
     identifier = "how_to"
     name = "How-To"
-    url = "https://docs.rackspace.com/support/how-to/"
+    url = "/support/how-to/"
     weight = 2
 [[menu.main]]
     identifier = "developer_documentation"
     name = "Developer Documentation"
-    url = "https://docs.rackspace.com/docs"
+    url = "/docs"
     weight = 3
 [[menu.main]]
     identifier = "blogs"
@@ -176,7 +176,7 @@ xhtml = false
     [[menu.main]]
         identifier = "technical-blog"
         name ="Technical Blog"
-        url ="https://docs.rackspace.com/blog"
+        url ="/blog"
         weight = 1
         parent = "blogs"
     [[menu.main]]

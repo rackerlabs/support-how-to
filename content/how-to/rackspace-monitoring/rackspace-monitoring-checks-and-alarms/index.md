@@ -23,13 +23,13 @@ You can configure monitoring checks and alarms in the following web portals:
 - Common checks are displayed with cloud servers in the Cloud Control panel.  For more information, see [Create a monitoring check using the Cloud Control Panel](https://support.rackspace.com/support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
 - The complete list of checks can be configured in Rackspace Intelligence. For more information, see [Understand and work with checks](https://support.rackspace.com/support/how-to/working-with-checks/)
 
-The major groups of checks are remote checks, agent checks, and Hostinfo checks. The following sections describe each type of remote check. For more information about all the check types, see the [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/) section of the Rackspace Monitoring API documentation.
+The major groups of checks are remote checks, agent checks, and Hostinfo checks. The following sections describe each type of remote check. For more information about all the check types, see the [Check types reference](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/) section of the Rackspace Monitoring API documentation.
 
 ### Poll-based Remote checks
 
 Remote monitoring continually checks your systems and platforms for external availability by testing connectivity from regional zones deployed in our global data centers. These regional zones are called *monitoring zones*. You can choose to perform a remote check from any zone. Each zone that you select performs the configured remote check, and the collected data from each zone is used to evaluate the alarm criteria. You receive notifications only if the observations from the monitoring zones reach a quorum on the resulting alarm state. As a result, you can filter out cases where a single monitoring zone is having an isolated issue connecting to your server.
 
-For complete list of remote checks, see the [Remote check types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-check-type-ref) section of the Rackspace Monitoring API documentation.
+For complete list of remote checks, see the [Remote check types](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-check-type-ref) section of the Rackspace Monitoring API documentation.
 
 #### Recommended monitoring zones
 
@@ -50,7 +50,7 @@ From the metrics that Rackspace has collected in the system, we noticed that the
 
 You can get deep insight into your resources—including servers and database instances (anything with a standard OS and outgoing network connectivity)—by using the Rackspace Monitoring agent. The agent is lightweight with a small memory footprint, using about 5 MB of memory and rarely consuming more than 2 percent of CPU time. In addition, automatic upgrades keep the agent up-to-date with the latest features, enhancements, bug fixes, and security patches. Lastly, Agent Health monitoring automatically monitors the connectivity of all your monitoring agents
 
-For complete list of agent checks, see the [Agent check types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-types) section of the Rackspace Monitoring API documentation.
+For complete list of agent checks, see the [Agent check types](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-types) section of the Rackspace Monitoring API documentation.
 
 ### On-demand Hostinfo checks
 
@@ -60,18 +60,18 @@ Through the API and CLI, you can conduct advanced host interrogation from wherev
 * **System performance**: Retrieve current information for compute, memory, disk, and networking.
 * **Processes and users**: Retrieve detailed information about currently running processes and logged-in users.
 
-For a complete list of Hostinfo checks, see the [Hostinfo checks](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#hostinfo-checks) section of the Rackspace Monitoring API documentation.
+For a complete list of Hostinfo checks, see the [Hostinfo checks](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#hostinfo-checks) section of the Rackspace Monitoring API documentation.
 
 ### Alarms and notifications
 
 Rackspace Monitoring uses alarms to evaluate the metrics of a check and decide if a notification plan should be executed. Alarms are the primary way to describe exactly what you want to be alerted on.
 
-This section provides some high-level information ab out alarms and notifications. For details about alerting, including an explanation of the alert flow, the alarm language, the policies that you can create using alarms, and example best practices, see the [Alert Triggering and Alarms](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/) documentation.
+This section provides some high-level information ab out alarms and notifications. For details about alerting, including an explanation of the alert flow, the alarm language, the policies that you can create using alarms, and example best practices, see the [Alert Triggering and Alarms](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/) documentation.
 
 
 #### Consistency level
 
-The system determines the alarm state through quorum-based voting from the monitoring zones. This is specified in the alarm criteria as **consistencyLevel**, an important attribute that is typically left with a value of **QUORUM** (the default) unless there is a specific reason to change it. The other two values for this setting are **ONE** and **ALL**. For more information about alerting policies and consistency levels, see [Alert policies](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/#alert-policies).
+The system determines the alarm state through quorum-based voting from the monitoring zones. This is specified in the alarm criteria as **consistencyLevel**, an important attribute that is typically left with a value of **QUORUM** (the default) unless there is a specific reason to change it. The other two values for this setting are **ONE** and **ALL**. For more information about alerting policies and consistency levels, see [Alert policies](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/#alert-policies).
 
 #### Consecutive count
 
@@ -85,4 +85,4 @@ The time window in which an observation is included is determined based on the c
 
 Remote checks are generally noisier than agent checks because of external factors that can’t be controlled by Rackspace Monitoring. With the combination of these settings, we believe you can tune your monitoring configuration to the level that suits you.
 
-For other notification types, see the [Notification types](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/notification-type-operations/) documentation.
+For other notification types, see the [Notification types](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/notification-type-operations/) documentation.

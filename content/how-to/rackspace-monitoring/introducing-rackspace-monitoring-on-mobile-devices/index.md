@@ -94,7 +94,7 @@ for that resource.  You can configure alarms for Cloud Servers in the
 Cloud Control Panel. To configure alarms for all other resources, use the Monitoring API.
 For information about how to use the API, see the
 *[Rackspace Monitoring Developer
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)*.
+Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)*.
 
 ### Monitor Cloud Databases
 
@@ -109,6 +109,6 @@ threshold.  There is no status change if other checks are high or low,
 because no alarms or thresholds have been set.  You can configure
 additional alarms and notification plans by using the Cloud Databases
 API.  For more information, see the [Monitoring Cloud
-Databases](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-cloud-databases)
+Databases](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-cloud-databases)
 section in the *Cloud Databases Developer Guide*.  At
 this time, Cloud Database users cannot configure additional checks.

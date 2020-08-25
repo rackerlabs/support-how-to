@@ -55,7 +55,7 @@ Use the following steps to create an OnMetal server in the Cloud Control Panel:
      share public and service network access redundantly in case one of the
      connections goes down. For details about all of the available flavors, see
      [OnMetal Cloud Server
-     flavors](https://developer.rackspace.com/docs/cloud-servers/v2/general-api-info/flavors/#onmetal-cloud-server-flavors).
+     flavors](https://docs.rackspace.com/docs/cloud-servers/v2/general-api-info/flavors/#onmetal-cloud-server-flavors).
 
 11. If you're working with a Linux server, assign a public Secure Shell (SSH)
     key to the Linux server by either selecting an existing key or adding a
@@ -93,7 +93,7 @@ This section shows you how to boot the following types of OnMetal servers:
 - [Microsoft Windows](#boot-a-windows-onmetal-server)
 
 **Note**: To boot an OnMetal server, you must first install the [nova
-client](https://developer.rackspace.com/docs/cloud-servers/v2/getting-started/send-request-ovw/#id2).
+client](https://docs.rackspace.com/docs/cloud-servers/v2/getting-started/send-request-ovw/#id2).
 
 #### Boot an OnMetal Linux server
 

@@ -35,6 +35,6 @@ The following permissions matrix displays specific permissions for the roles in 
 **Note:** Beginning January 20, users must have one of the cloudfeeds roles to access feeds (read or write).
 
 ### Related articles
--  [API Documentation](https://developer.rackspace.com/docs/)
+-  [API Documentation](https://docs.rackspace.com/docs/)
 -  [Cloud Feeds FAQ](/support/how-to/cloud-feeds-faq)
 -  [Permission Matrices for RBAC](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

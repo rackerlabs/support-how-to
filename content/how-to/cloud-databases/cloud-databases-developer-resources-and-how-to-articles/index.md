@@ -21,11 +21,11 @@ Cloud Databases.
 The following documentation and binding are available for Cloud Databases:
 
 -   [API Developer
-    Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/)
+    Guide](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/)
 -   [Getting Started
-    Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#getting-started)
+    Guide](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#getting-started)
 -   [Release
-    notes](https://developer.rackspace.com/docs/cloud-databases/v1/release-notes/)
+    notes](https://docs.rackspace.com/docs/cloud-databases/v1/release-notes/)
 -   [Fog Binding](https://github.com/rackspace/fog) (replaces Ruby
     Binding, which is now deprecated)
 

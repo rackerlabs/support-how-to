@@ -43,7 +43,7 @@ When creating a cloud server, use the metadata option to specify the pool or poo
 - **Metadata Value:** The exact name of the pool as defined on the load
 balancer. Use a semicolon separated list for more than one pool.
 
-You can specify the metadata values when you use the Cloud Servers API to create new cloud servers. View the [API documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#set-server-metadata) for details
+You can specify the metadata values when you use the Cloud Servers API to create new cloud servers. View the [API documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#set-server-metadata) for details
 about how to use the API to enter metadata information for a cloud server.
 
 This is the method to use if you want Auto Scale to use RackConnect with

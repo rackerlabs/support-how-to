@@ -13,22 +13,21 @@ product_url: cloud-servers
 
 Get quick answers to common questions about the Rackspace Cloud
 Feeds service.
-
-#### Who can use Cloud Feeds?
+{{<accordion title="Who can use Cloud Feeds?" col="in" href="accordion1">}}
 
 All Rackspace customers with a Cloud services account can use Cloud
 Feeds.
-
-#### How much does Cloud Feeds cost?
+{{</accordion>}}
+{{<accordion title="How much does Cloud Feeds cost?" col="in" href="accordion1">}}
 
 Cloud Feeds is available at no charge.
-
-#### How do I grant access to Cloud Feeds?
+{{</accordion>}}
+{{<accordion title="How do I grant access to Cloud Feeds?" col="in" href="accordion1">}}
 
 For information about how to add Cloud Feeds to individual users on your
 Cloud account, see [Cloud Feeds overview](/support/how-to/cloud-feeds-overview).
-
-#### What can I use Cloud Feeds for?
+{{</accordion>}}
+{{<accordion title="What can I use Cloud Feeds for?" col="in" href="accordion1">}}
 
 During the Early Access Program, Cloud Feeds has limited functionality
 and event notifications. Additional features will be added as
@@ -55,8 +54,8 @@ Event notifications are stored for up to three days so they can be
 retrieved when convenient. Events are published in XML format. At this
 time most events are related to usage, with few system and security
 events.
-
-#### What features will be available in the future?
+{{</accordion>}}
+{{<accordion title="What features will be available in the future?" col="in" href="accordion1">}}
 
 We plan to provide the following features in future releases:
 
@@ -67,8 +66,8 @@ We plan to provide the following features in future releases:
 -   Daily usage summary for usage-related events
 -   Feed aggregation across data centers
 -   Near real-time latency
-
-#### Where is Cloud Feeds available?
+{{</accordion>}}
+{{<accordion title="Where is Cloud Feeds available?" col="in" href="accordion1">}}
 
 Cloud Feeds is available in the following regions:
 
@@ -78,18 +77,19 @@ Cloud Feeds is available in the following regions:
 -   London (LON)
 -   Northern Virginia (IAD)
 -   Sydney (SYD)
-
-#### What is the Early Access Program?
+{{</accordion>}}
+{{<accordion title="What is the Early Access Program?" col="in" href="accordion1">}}
 
 The Early Access Program lets customers use and give feedback on our
 products before a final version is released. This program ensures that
 our features align with customer business needs. Additional features
 will be added as development continues, and some existing functionality
 available during Early Access might change.
-
-#### What are the Terms of Service?
+{{</accordion>}}
+{{<accordion title="What are the Terms of Service?" col="in" href="accordion1">}}
 
 During the Early Access period, the Cloud Feeds Terms of Service are
 available at <https://www.rackspace.com/information/legal/testterms>.
 When the Early Access Program is over, the Terms of Service will revert
 to the standard Cloud Terms of Service.
+{{</accordion>}}

@@ -32,11 +32,11 @@ information on the specification of our data centers.
 After reviewing our global footprint of data centers and with the lease for
 HKG2 coming to an end in 2020, Rackspace decided to reduce our footprint in
 Hong Kong and plans to move all customers from HKG2 to the new HKG5 facility.
-
+<p class="callout-note">
 **Note:** This article relates specifically to customers on managed or shared
 infrastructure. If you are a colocation customer, request a copy of the *HKG2
 Colocation Customer FAQ* from your account manager.
-
+</p>
 #### When will the relocation occur?
 
 Rackspace will assign all customers on managed infrastructure to a move group

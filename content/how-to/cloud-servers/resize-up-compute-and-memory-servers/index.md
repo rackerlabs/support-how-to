@@ -113,7 +113,7 @@ navigating to the **Server Details** page for the server that you resized.
 
 For more information, see the following resources:
 
-- [Cloud Servers API reference: Resize specified server](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#resize-specified-server)
+- [Cloud Servers API reference: Resize specified server](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#resize-specified-server)
 - [Pitchfork - the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
 - [Reset a server password](/support/how-to/reset-a-server-password)
 - [Basic Cloud Server security](/support/how-to/basic-cloud-server-security)

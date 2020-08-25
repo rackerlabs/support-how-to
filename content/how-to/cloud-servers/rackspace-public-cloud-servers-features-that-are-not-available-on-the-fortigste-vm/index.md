@@ -25,7 +25,7 @@ For details on how to backup your Fortigate-VM in the Rackspace Cloud, see
 ### Administrator password resets
 
 Because the Fortigate-VM cannot run
-[nova-agent](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/),
+[nova-agent](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/),
 you cannot make administrator (admin) password resets by using the Cloud Control Panel
 or the Cloud Servers application programmer interface (API).
 

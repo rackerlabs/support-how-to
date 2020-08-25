@@ -99,10 +99,10 @@ changes.
 
 Yes. If you tell us the order in which we should shut down and restart devices,
 we can follow these steps on the night of your move.
-
+<p class="callout-note">
 **Note**: If you need us to shut down the devices in a specific order, we might
 need to start the process before the standard maintenance window begins.
-
+</p>
 If you prefer to shut down your devices or require us to involve you in the
 process, let us know in advance of the move.
 

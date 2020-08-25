@@ -53,7 +53,7 @@ Auto Scale:
      }
 
 For more information see the [Auto Scale API Developer Guide: Set Launch
-Configuration.](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/configurations)
+Configuration.](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/configurations)
 
 ### Important notes
 

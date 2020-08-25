@@ -55,7 +55,7 @@ If you want to host your DNS elsewhere, inquire the authoritative name servers f
 ### Export your DNS zone file from your current DNS hosting provider
 
 If Rackspace hosts your DNS, you can export your domain to a bind9-formatted file by using the API:
-[Rackspace Cloud DNS API 1.0](https://developer.rackspace.com/docs/cloud-dns/v1/?_ga=2.82690198.1048316456.1584305948-1177037268.1583792228).
+[Rackspace Cloud DNS API 1.0](https://docs.rackspace.com/docs/cloud-dns/v1/?_ga=2.82690198.1048316456.1584305948-1177037268.1583792228).
 
 Alternatively, you can open a support ticket, and we assist you in exporting your DNS zone file.
 
@@ -66,7 +66,7 @@ After you export the DNS zone file, be sure not to make any changes to the DNS r
 ### Import your DNS zone file at your new DNS hosting provider
 
 If you want to host your DNS with Rackspace, you can import a valid bind9-formatted zone file by using the Cloud API:
-[Rackspace Cloud DNS API 1.0](https://developer.rackspace.com/docs/cloud-dns/v1/?_ga=2.82690198.1048316456.1584305948-1177037268.1583792228).
+[Rackspace Cloud DNS API 1.0](https://docs.rackspace.com/docs/cloud-dns/v1/?_ga=2.82690198.1048316456.1584305948-1177037268.1583792228).
 
 Alternatively, you can open a support ticket, and we assist you in importing a bind9-formatted  zone file.
 

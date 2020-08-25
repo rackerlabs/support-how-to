@@ -13,15 +13,16 @@ product_url: cloud-servers
 
 ### - Scheduled Images -
 
-#### What are Scheduled Images?
+
+{{<accordion title="What are Scheduled Images?" col="in" href="accordion1">}}
 
 Cloud Servers users can create two different kinds of images from their
 running servers: *manual* or *scheduled*. A *manual image* is initiated
 by the user, and runs only one time. A *scheduled image* is an
 automatically captured image that is taken either daily or weekly, and
 retains up to the number of images specified by the user.
-
-#### Why would I use Scheduled Images?
+{{</accordion>}}
+{{<accordion title="Why would I use Scheduled Images?" col="in" href="accordion2">}}
 
 By having images automatically captured, versus manually triggering them
 each time, you create an image history. That history can be used to
@@ -44,8 +45,8 @@ Consider the following issues:
     imaging](/support/how-to/using-task-states-with-server-imaging).
 -   As is the case with a manual image, a scheduled image is an image of
     the system disk only.
-
-#### How do I use Scheduled Images?
+{{</accordion>}}
+{{<accordion title="How do I use Scheduled Images?" col="in" href="accordion3">}}
 
 Initiating Scheduled Images is easy, and available to both Cloud Control Panel
 and API users:
@@ -60,15 +61,16 @@ and API users:
     [Introducing the Rackspace Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
 -   **API users**: See the Cloud Servers [API documentation for the
     Scheduled Images
-    extension](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
+    extension](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
 
 Images are stored in **Cloud Images**.  You're charged for them as if they were
 stored in your Cloud Files account.  Thus, you'll be charged your normal Cloud
 Files rate (including any applicable tiering or volume discounts).
+{{</accordion>}}
 
 ### - Scheduling -
 
-#### How can I tell scheduled images from snapshots I took myself when I look at my image list?
+{{<accordion title="How can I tell scheduled images from snapshots I took myself when I look at my image list?" col="in" href="accordion4">}}
 
 Scheduled images will originally be created with a name based on this
 scheme:
@@ -91,8 +93,8 @@ it:
 For information about using the novaclient tool for scheduled images,
 see [Using python-novaclient to manage scheduled
 images](/support/how-to/using-python-novaclient-to-manage-scheduled-images).
-
-#### Is there a minimum or maximum time between scheduled images?
+{{</accordion>}}
+{{<accordion title="Is there a minimum or maximum time between scheduled images?" col="in" href="accordion5">}}
 
 No (see next answer), but daily scheduled images will be roughly 24
 hours apart and occur on different dates UTC.
@@ -103,8 +105,8 @@ much more popular than others for scheduling images, in rare
 circumstances we may create your weekly scheduled image in a window
 beginning 12:00 UTC the day before the day of the week you specify and
 ending at 12:00 UTC the day after the day of the week you specify.
-
-#### Will they occur on the same time each day?
+{{</accordion>}}
+{{<accordion title="Will they occur on the same time each day?" col="in" href="accordion6">}}
 
 In order to operate the scheduled images service with minimal impact on
 on-demand snapshots and other network-intensive data transfers, the time
@@ -112,16 +114,16 @@ a snapshot occurs may be changed at any time to optimize load.  We
 reserve the right to modify the time your image is made so that we can
 balance the number of image creations in flight throughout the cloud
 and throughout the day.
-
-#### Will the image created\_at reflect the completion or start time?
+{{</accordion>}}
+{{<accordion title="Will the image created\_at reflect the completion or start time?" col="in" href="accordion7">}}
 
 The implementation uses the normal OpenStack snapshotting process, so
 the created\_at timestamp will be the time the call was made, i.e., at
 the start of the snapshot.  The time it will be available for you to use
 (that is, when its status is ACTIVE) depends on factors such as the size
 of the image and overall network congestion in the cloud.
-
-#### Can I miss a day?
+{{</accordion>}}
+{{<accordion title="Can I miss a day?" col="in" href="accordion8">}}
 
 If you mean "Can I tell the service to skip a day?" the answer is no. We
 do not recommend trying to do this manually by disabling scheduled
@@ -142,10 +144,11 @@ upon how the service is performing.)
 
 If you notice two or more consecutively skipped days, contact Rackspace
 support.
+{{</accordion>}}
 
 ### Retention
 
-#### What is the "retention" value?
+{{<accordion title=`What is the "retention" value?` col="in" href="accordion9">}}
 
 The retention value is the maximum number of scheduled images for that
 particular server that will be retained in your account.  Once the
@@ -155,20 +158,20 @@ of scheduled images for this server does not exceed the retention value.
 
 The retention value is set on a per-server basis. Therefore, you may
 specify a different retention value for each server.
-
-#### What is the maximum retention value?
+{{</accordion>}}
+{{<accordion title="What is the maximum retention value?" col="in" href="accordion10">}}
 
 The maximum retention value in the Rackspace open cloud is 65535.
 (That's about 179 years of daily images.)
-
-#### When does automatic deletion occur?
+{{</accordion>}}
+{{<accordion title="When does automatic deletion occur?" col="in" href="accordion11">}}
 
 When a scheduled image of a server has successfully completed, the
 scheduled images service creates a list of all that server's scheduled
 images and (if necessary) deletes the oldest image(s) until the
 retention value for that server is reached.
-
-#### What if I don't want certain images automatically deleted?
+{{</accordion>}}
+{{<accordion title="What if I don't want certain images automatically deleted?" col="in" href="accordion12">}}
 
 Let's suppose that we're talking about the scheduled images for server
 'd615a437-aaa9-4a52-a1c0-5bcb0d33038c'. In order to determine how many
@@ -191,8 +194,8 @@ command-line tool called `novaclient` is available. For more information
 about using the novaclient tool to manage your scheduled images, see
 [Using python-novaclient to manage scheduled
 images](/support/how-to/using-python-novaclient-to-manage-scheduled-images).
-
-#### How can I change the retention value on my server?
+{{</accordion>}}
+{{<accordion title="How can I change the retention value on my server?" col="in" href="accordion13">}}
 
 You can change the retention value the same way you originally enabled
 scheduled images on your server, by
@@ -202,23 +205,24 @@ scheduled images on your server, by
 -   novaclient command-line tool
 
 Just specify the new value you wish to use for the retention.
-
-#### What happens to the scheduled images in my account when I change the retention value?
+{{</accordion>}}
+{{<accordion title="What happens to the scheduled images in my account when I change the retention value?" col="in" href="accordion14">}}
 
 Nothing at first, but when your next scheduled image is completed, the
 scheduled images service will use the new retention value when it
 calculates whether any images need to be deleted from your account.
-
-#### What if I want to delete a scheduled image right away?
+{{</accordion>}}
+{{<accordion title="What if I want to delete a scheduled image right away?" col="in" href="accordion15">}}
 
 A scheduled image is just a normal snapshot. You can do what you like
 with it just as you can with your other snapshots. You can delete a
 scheduled image at any time using your normal workflow (Cloud Control Panel,
 novaclient, direct API calls).
+{{</accordion>}}
 
 ### Miscellaneous
 
-#### Can I schedule when my image starts or completes?
+{{<accordion title="Can I schedule when my image starts or completes?" col="in" href="accordion16">}}
 
 You may not specify a particular time
 at which your server snapshot will be taken, nor can we guarantee what
@@ -236,15 +240,16 @@ In using scheduled images, please keep the following in mind:
     the next day's scheduled snapshot from occurring
 -   if you have a large amount of data to save, you may wish to explore
     other backup options
-
-#### A service similar to scheduled images exists in the Classic Rackspace Cloud. Will the Classic service stay the same, or will it change to work like scheduled images in the Rackspace Open Cloud?
+{{</accordion>}}
+{{<accordion title="A service similar to scheduled images exists in the Classic Rackspace Cloud. Will the Classic service stay the same, or will it change to work like scheduled images in the Rackspace Open Cloud?" col="in" href="accordion17">}}
 
 There are no plans to change the Classic service; its configuration
 options will remain the same as they are now.
-
-#### Where can I get more information about Scheduled Images?
+{{</accordion>}}
+{{<accordion title="Where can I get more information about Scheduled Images?" col="in" href="accordion18">}}
 
 -   [Scheduled Images API Extension
-    Documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
+    Documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
 -   [Using python-novaclient to manage scheduled
     images](/support/how-to/using-python-novaclient-to-manage-scheduled-images)
+{{</accordion>}}

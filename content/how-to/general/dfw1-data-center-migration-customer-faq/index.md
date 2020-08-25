@@ -33,27 +33,27 @@ following migrations:
 You can rest assured that we are investing significant resources to ensure a
 smooth migration for all customers.
 
-#### Why is Rackspace closing DFW1?
+{{<accordion title="Why is Rackspace closing DFW1?" col="in" href="accordion1">}}
 
 Because DFW1 has been operational for 12 years and is Rackspace’s oldest
 running data center, Rackspace is closing DFW1. Rackspace has made the decision
 to consolidate all DFW1 and DFW3 customers into its newest data center in the
 Dallas area, DFW3.
-
-#### Where is DFW3 located?
+{{</accordion>}}
+{{<accordion title="Where is DFW3 located?" col="in" href="accordion2">}}
 
 This facility is located in the Richardson area of Dallas, approximately 30
 miles from DFW1.
-
-#### What are the advantages of moving to DFW3?
+{{</accordion>}}
+{{<accordion title="What are the advantages of moving to DFW3?" col="in" href="accordion3">}}
 
 DFW3 is one of Rackspace’s newest data center facilities. It benefits from the latest infrastructure and networking, enabling efficiencies through higher power densities.
 
 From a power perspective, the busway combined with taller cabinets gives us much more capability to run cabinets at higher power levels than in DFW1. Lower cost is one positive side effect of this improvement, and another advantage is the reduced likelihood of having to migrate a customer solution because of power concerns. Power redundancy is also doubled (full 2N) from the cabinet to the floor power distribution units (PDU).
 
 From a networking perspective, DFW3 has our latest shared aggregation platform (Nexus 7k) providing 20G redundant connections from the Top-of-Rack (ToR) switches to the aggregation (aggr) switch layer and standard 1G in cabinets. We also have aggregated exnet throughout, again lessening the likelihood of requiring in-DC migrations because of localized network constraints. This is a big departure from DFW1, which has areas with no aggregated exnet, no 1G connections between ToR and aggr switches, and has 100Mb in cabinets in many areas.
-
-#### Will service be interrupted?
+{{</accordion>}}
+{{<accordion title="Will service be interrupted?" col="in" href="accordion4">}}
 
 Yes. Rackspace will schedule an eight-hour maintenance window starting at
 23:00 on a Friday or Saturday and closing at 07:00 the following morning. The
@@ -62,22 +62,22 @@ window. Rackspace has designed the migration plan to occur in small, manageable
 blocks in order to minimize the amount of downtime for customers. Our project
 plan also aims to reduce the amount of unplanned downtime by including
 additional resources and multiple contingency plans.
-
-#### Will there be any IP or DNS changes?
+{{</accordion>}}
+{{<accordion title="Will there be any IP or DNS changes?" col="in" href="accordion5">}}
 
 For most customers, who stay in their allocated move group, the
 public IP addresses of the devices are retained and are moved with the devices
 to the new location. In this case, you do not need to make any changes to your
 DNS.
-
-##### Exception - some edge devices
+{{</accordion>}}
+{{<accordion title="#Exception - some edge devices" col="in" href="accordion6">}}
 
 In some very rare cases, the public IP address of your edge device, which is
 usually a firewall but might be a load balancer or a server, might need to
 change. In this event, we will work with you and your account team to prepare
 and execute the IP address change before your migration date.
-
-##### Exception - Rackspace Managed Backup service
+{{</accordion>}}
+{{<accordion title="#Exception - Rackspace Managed Backup service" col="in" href="accordion7">}}
 
 The IP addresses used for the network that runs the Rackspace Managed Backup
 service (BackupNet/ServiceNet) will change for all customers. Because Rackspace
@@ -91,8 +91,8 @@ Managed Backup or for ObjectRocket, you will need to make the necessary
 arrangements to move to ExNet before your move night. In DFW3,
 BackupNet/ServiceNet, will be available for use only for Rackspace Managed
 Backup and for ObjectRocket.
-
-#### What are the high-level stages of the migration?
+{{</accordion>}}
+{{<accordion title="What are the high-level stages of the migration?" col="in" href="accordion8">}}
 
 The migration will happen in the following stages:
 
@@ -122,8 +122,8 @@ The migration will happen in the following stages:
 7.	Your configuration is tested and verified at an infrastructure level.
    Further testing can be carried out by the migration team, if you have
    provided clear instructions in advance of the move date.
-
-#### When are my servers scheduled to be migrated?
+{{</accordion>}}
+{{<accordion title="When are my servers scheduled to be migrated?" col="in" href="accordion9">}}
 
 The migration period starts in September 2017 and runs through October 2018.
 One hundred days before your migration date, you will receive notification via
@@ -131,14 +131,14 @@ a ticket in the Rackspace Customer Portal that includes the specific date and
 time that your solution will be moved. All migrations have been scheduled to
 occur on either a Friday or Saturday night, starting at 23:00 and running
 through to 07:00 the following morning.
-
-#### My solution is sensitive to the way it is handled during a shut down. Can you help?
+{{</accordion>}}
+{{<accordion title="My solution is sensitive to the way it is handled during a shut down. Can you help?" col="in" href="accordion10">}}
 
 Yes, we can work with you to understand what needs to be done to ensure a
 smooth migration, and we can help in various ways, including turning off and
 turning on your devices in a certain order.
-
-#### I want to shut down the environment myself. Is that possible?
+{{</accordion>}}
+{{<accordion title="I want to shut down the environment myself. Is that possible?" col="in" href="accordion11">}}
 
 Yes, you may turn off your devices. However, because the changes to ServiceNet
 and DRAC IP addresses are made in the hours before the migration, you must tell
@@ -151,8 +151,8 @@ You also need to tell us if you want to be responsible for turning on your
 devices after the migration. In this case, we will rack your devices in the
 new cabinets and await instruction from you to turn them on. If you do not give
 us instruction to keep the devices turned off, we will turn them on by default.
-
-#### I am a Managed Colocation customer and you do not have access to my servers. How will the migration work for me?
+{{</accordion>}}
+{{<accordion title="I am a Managed Colocation customer and you do not have access to my servers. How will the migration work for me?" col="in" href="accordion12">}}
 
 Because Rackspace cannot access devices under the Managed Colocation terms, you
 must turn off your devices before the start of the maintenance window. If
@@ -166,22 +166,22 @@ the IP addresses for the network used to run this service.  At least a week
 before your migration, we will create a ticket that contains the new IP
 addresses and provides instructions for updating them. We recommend that you
 make this change prior to the migration.
-
-#### My data is replicated to another location. How will the migration affect this replication?
+{{</accordion>}}
+{{<accordion title="My data is replicated to another location. How will the migration affect this replication?" col="in" href="accordion13">}}
 
 It depends on the replication method that you have set up. We recommend that
 you tell us about any replication or log shipping so that we can work with you
 to ensure that it is re-established following the maintenance.
-
-#### I have colocation devices that Rackspace does not have access to. How will these be migrated?
+{{</accordion>}}
+{{<accordion title="I have colocation devices that Rackspace does not have access to. How will these be migrated?" col="in" href="accordion14">}}
 
 Because we do not have access to your colocation devices, you will be
 responsible for shutting these devices down. If you contact us, Rackspace might
 be able to assist you, but this will be managed on a case-by-case basis. Our
 standard approach will be to remove the power cables from the devices in DFW1
 and reconnect them in DFW3.
-
-#### I have a leased line that terminates in DFW1. What will happen to this?
+{{</accordion>}}
+{{<accordion title="I have a leased line that terminates in DFW1. What will happen to this?" col="in" href="accordion15">}}
 
 You must work with your leased-line provider to provision a line in to DFW3.
 Options are provisioning a new line and decommissioning the old line, or
@@ -192,15 +192,15 @@ significant so we recommend that you start talking to your provider as soon as
 possible to determine the options and timeframes.
 
 Please ask your account team for further information on leased lines in DFW3.
-
-#### Who will test my environment following the maintenance?
+{{</accordion>}}
+{{<accordion title="Who will test my environment following the maintenance?" col="in" href="accordion16">}}
 
 Rackspace will test for basic connectivity. If you want us to run further
 tests, for example, to check whether a website is online, you can provide us
 with the steps to follow to run these checks and with instructions about what
 to do if we encounter issues that we cannot resolve.
-
-#### How do I prepare for the migration?
+{{</accordion>}}
+{{<accordion title="How do I prepare for the migration?" col="in" href="accordion17">}}
 
 Rackspace will use all of its experience with data-center migration projects to help support you during the migration to DFW3. We have assembled a dedicated migration team, made up of some of the best Rackers from across the business. This team will run audits on your servers before the migration to identify and resolve any potential migration issues in advance. Ensure that you work with the migration team and your account team to resolve any issues in a timely manner. If you fail to resolve issues that we are auditing, we might have to perform a manual shutdown in advance of the official 23:00 maintenance start time.  
 
@@ -227,8 +227,8 @@ night:
 -   Perform a test reboot of your servers before the migration to ensure that
     applications and services start correctly. You can schedule reboots from
     the MyRackspace Portal.
-
-#### I would like to run a full backup before my migration. Can this be arranged?
+{{</accordion>}}
+{{<accordion title="I would like to run a full backup before my migration. Can this be arranged?" col="in" href="accordion18">}}
 
 Because it may not complete in time, we do not recommend that you initiate a
 full backup just before the migration. Approximately two hours before the
@@ -238,8 +238,8 @@ have been completing successfully in the weeks before the migration, you should
 not need to run an additional backup. However, if you are concerned, you may
 raise a ticket with the Managed Backup team to review the possibility of
 running a differential (or incremental) backup before the migration.
-
-#### How will you keep me informed about the migration?
+{{</accordion>}}
+{{<accordion title="How will you keep me informed about the migration?" col="in" href="accordion19">}}
 
 You will receive notification via a ticket 100 days from your move date, and
 then receive notification 45 and 14 before the date, with the
@@ -247,8 +247,8 @@ final notification created a day before your move date. The final
 notification ticket will be used to update you throughout the move night. We
 will issue updates to confirm that the migration has begun, to confirm that
 devices are in transit, and to confirm that the devices are back online.
-
-#### What if I need to make changes to my environment between now and the move night?
+{{</accordion>}}
+{{<accordion title="What if I need to make changes to my environment between now and the move night?" col="in" href="accordion20">}}
 
 We will impose a change freeze on your environment two weeks before the move
 date. The change freeze will apply to networking, physical hardware, disk
@@ -262,8 +262,8 @@ after the migration to make a change, ensure that the project team is aware of
 the change by updating one of the notification tickets. Failure to do so could
 result in unexpected behavior during the maintenance and could increase
 downtime.
-
-#### Is the move date flexible?  Can I choose the date of the migration?
+{{</accordion>}}
+{{<accordion title="Is the move date flexible?  Can I choose the date of the migration?" col="in" href="accordion21">}}
 
 Your move group is determined by the VLAN that your solutions is in. We will
 move an entire VLAN in one move night so that you can retain your IP addresses,
@@ -277,8 +277,8 @@ required to stay with the original move date.
 If it is absolutely necessary for you to change your move date, then you might
 be required to change the public IP addresses of your solution's edge device.
 These changes will include DNS changes and potential configuration work on your side.
-
-#### I have more than one solution in DFW1. Will they all be migrated at the same time?
+{{</accordion>}}
+{{<accordion title="I have more than one solution in DFW1. Will they all be migrated at the same time?" col="in" href="accordion22">}}
 
 The migration date depends on the VLANs in which your solutions are located.  If the
 solutions are in the same VLAN, they will be moved at the same time.  If they are in
@@ -286,13 +286,13 @@ different VLANs, they might be scheduled to move on different dates.
 
 **Note**: Solution means everything behind the edge device, which is usually a
 firewall but might be a load balancer or a server.
-
-#### Will any of the services that Rackspace currently offers me change?
+{{</accordion>}}
+{{<accordion title="Will any of the services that Rackspace currently offers me change?" col="in" href="accordion23">}}
 
 There will be no change to any of the services that you currently consume. The
 only change to your solution will be the physical location.
-
-#### How will my solution be transported?
+{{</accordion>}}
+{{<accordion title="How will my solution be transported?" col="in" href="accordion24">}}
 
 We will be using a third-party specialist transport company to migrate all
 hardware. To mitigate risks and ensure the safe transportation of your
@@ -310,14 +310,14 @@ logo, and will be followed by Rackspace personnel.
 Data in our shared SAN environment will be replicated over to DFW3 before each
 migration date and will be kept synchronized with DFW1 until the devices are
 turned off at the start of the maintenance windows.
-
-#### Are there any guarantees that my server will not have to be migrated again afterwards?
+{{</accordion>}}
+{{<accordion title="Are there any guarantees that my server will not have to be migrated again afterwards?" col="in" href="accordion25">}}
 
 Rackspace has invested heavily in the design of the DFW3 data center and has no
 current plans to move away from it. The lease is set to run for at least 15
 years.
-
-#### Who should I contact if I have more questions about the migration?
+{{</accordion>}}
+{{<accordion title="Who should I contact if I have more questions about the migration?" col="in" href="accordion26">}}
 
 Contact us in any of the following ways:
 
@@ -326,3 +326,4 @@ Contact us in any of the following ways:
 -   Ask a member of your account team for more information.
 -   Respond to one of the ticket notifications that you will receive before
     your move night.
+{{</accordion>}}

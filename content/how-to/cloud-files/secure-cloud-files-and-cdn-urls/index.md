@@ -41,14 +41,14 @@ The cross-origin resource sharing standard (CORS) is also supported, but it solv
 an entirely different problem. Specifically, CORS solves the access problem of asynchronous requests
 by a browser that browses a website with a domain that is different from the Cloud Files link.
 For more information on this topic, see [the Enable CORS site](https://enable-cors.org) or
-the Cloud Files [API documentation](https://developer.rackspace.com/docs/cloud-files/v1/use-cases/public-access-to-your-cloud-files-account/#cors).
+the Cloud Files [API documentation](https://docs.rackspace.com/docs/cloud-files/v1/use-cases/public-access-to-your-cloud-files-account/#cors).
 
 ### Access CDN-enabled objects
 
 Cloud Files does not support access control on CDN-enabled objects.
 
 To access those objects, you should self-host the files on a server and configure
-[Rackspace CDN](https://developer.rackspace.com/docs/cdn/v1/getting-started/),
+[Rackspace CDN](https://docs.rackspace.com/docs/cdn/v1/getting-started/),
 which allows you to restrict access based on Internet Protocol (IP) address ranges.
 
 You should not daisy chain CDN services, but you can set up a Rackspace CDN configuration that has

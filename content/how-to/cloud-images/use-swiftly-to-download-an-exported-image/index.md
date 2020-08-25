@@ -20,7 +20,7 @@ Large Objects (DLOs), and that you have installed the Swiftly client for Cloud
 Files. If you need help with any of these topics, see the following sources:
 
 -   Cloud Images API documentation: [Task to export
-image](https://developer.rackspace.com/docs/cloud-images/v2/api-reference/image-task-operations/#task-to-export-image)
+image](https://docs.rackspace.com/docs/cloud-images/v2/api-reference/image-task-operations/#task-to-export-image)
 -   Cloud Images FAQ: [Where is my exported image?](/support/how-to/cloud-images-faq)
 -   [Install the Swiftly client for Cloud
 Files](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/)

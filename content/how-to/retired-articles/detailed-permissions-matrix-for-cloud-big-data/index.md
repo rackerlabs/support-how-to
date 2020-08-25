@@ -11,7 +11,7 @@ last_modified_by: Renee Rendon
 
 The following permissions matrix displays specific permissions for the roles in Cloud Big Data v1. The matrix displays the method names, their corresponding RESTful API commands, and the roles that are supported.
 
-**Note:** For additional information about RBAC, see the [API Documentation](https://developer.rackspace.com/docs).
+**Note:** For additional information about RBAC, see the [API Documentation](https://docs.rackspace.com/docs).
 
 ### As of February 4, 2014
 

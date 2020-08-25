@@ -62,4 +62,4 @@ can use the API:
     curl -H 'X-Auth-Token: <token>' \
     https://<storage_url>/container/myobject
 
-For more information, see the [Creating large objects](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#creating-large-objects) section in the Cloud Files Developer Guide.
+For more information, see the [Creating large objects](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#creating-large-objects) section in the Cloud Files Developer Guide.

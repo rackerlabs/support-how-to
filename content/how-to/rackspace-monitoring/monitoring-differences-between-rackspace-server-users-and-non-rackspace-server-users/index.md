@@ -48,7 +48,7 @@ of these circumstances. This article describes the following circumstances.
 
 - For Cloud Databases customers, the monitoring agent is installed with monitoring configured
   automatically, by default. For details, see the
-  [Cloud Databases documentation](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
+  [Cloud Databases documentation](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/).
 
 - You can access some monitoring features through the Cloud Control Panel and all the
   features through API. You can see more monitoring features, as well as metrics, through
@@ -76,11 +76,11 @@ of these circumstances. This article describes the following circumstances.
   identify the server it is installed on to the server.
 
 - By default, the monitoring agent must be manually installed. For details, see the
-  [Rackspace Monitoring documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
+  [Rackspace Monitoring documentation](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
 
 - For Cloud Databases customers, the monitoring agent is installed with monitoring configured
   automatically, by default. For details, see the
-  [Cloud Databases documentation](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/).
+  [Cloud Databases documentation](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/).
 
 - You can access some monitoring features through the Cloud Control Panel and all the
   features through API. You can see more monitoring features, as well as metrics, through
@@ -122,7 +122,7 @@ of these circumstances. This article describes the following circumstances.
   [Install and configure the Rackspace Monitoring Agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent).
 
 - By default, the monitoring agent must be manually installed. For details, see the [
-  Cloud Monitoring documentation](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
+  Cloud Monitoring documentation](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#install-and-configure-the-agent).
 
 - You can see monitoring features, as well as metrics, through the
   [Rackspace Intelligence interface](https://intelligence.rackspace.com/).
