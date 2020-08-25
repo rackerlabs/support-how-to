@@ -12,8 +12,7 @@ product_url: skype-for-business
 ---
 
 ### Account services
-
-#### Why am I having audio problems?
+{{<accordion title="Why am I having audio problems?" col="in" href="accordion1">}}
 
 If there's a problem, a notification is displayed in the conversation
 window or the Skype&reg; for Business main window. You can click the
@@ -25,20 +24,20 @@ If you're not hearing audio, check the following things:
     computer, and that the speaker volume is set high enough to hear it.
 -   If you are using a phone to receive audio, ensure that your telephone handset is on the cradle.
 -   Make sure the device you're using is selected on the **Devices** tab.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### General
-
-#### How do I prevent Skype for Business from starting automatically every time I log in to Windows?
+{{<accordion title="How do I prevent Skype for Business from starting automatically every time I log in to Windows?" col="in" href="accordion2">}}
 
 1.  From the Skype for Business main window, select
     **Options &gt; Personal.**
 2.  Uncheck the box labeled **Automatically start Skype for Business
     when I log on to Windows**. The next time you log on, if you want to
     use Skype for Business, you'll need to select it from the **Start** menu.
-
-#### How do I confine Skype for Business to the task bar until it's needed?
+{{</accordion>}}
+{{<accordion title="How do I confine Skype for Business to the task bar until it's needed?" col="in" href="accordion3">}}
 
 1.  From the Skype for Business main window, select
     **Options &gt; Personal**.
@@ -47,22 +46,22 @@ If you're not hearing audio, check the following things:
     The next time you log on, the Skype for Business icon appears on
     the task bar at bottom of your screen. You need to select it to
     open the Skype for Business main window.
-
-#### How do I keep my Skype for Business conversation window visible?
+{{</accordion>}}
+{{<accordion title="How do I keep my Skype for Business conversation window visible?" col="in" href="accordion4">}}
 
 Select the drop-down button next to the **Options** icon, select **Tools**,
 and then select **Always on Top**.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Contacts
-
-#### What does the red star or asterisk next to a contact's status mean?
+{{<accordion title="What does the red star or asterisk next to a contact's status mean?" col="in" href="accordion5">}}
 
 The red asterisk next to a contact's status indicates that they have
 turned on the **Out of Office** reply in Outlook&reg;.
-
-#### Why does the relationships view of my contacts list include people I didn't personally add, and how do I remove them?
+{{</accordion>}}
+{{<accordion title="Why does the relationships view of my contacts list include people I didn't personally add, and how do I remove them?" col="in" href="accordion6">}}
 
 Every contact you interact within Microsoft Office&reg;, whether in your
 Skype for Business contacts list or not, has a default relationship
@@ -75,8 +74,8 @@ relationship.
 Remove any of these unlisted contacts from your **Relationships** view
 by right-clicking on the contact, clicking **Change Privacy Relationship**, and
 selecting **Auto-assign Relationship**.
-
-#### How do I turn off all pictures in Skype for Business, including my own?
+{{</accordion>}}
+{{<accordion title="How do I turn off all pictures in Skype for Business, including my own?" col="in" href="accordion7">}}
 
 Select **Options &gt; Personal**, then clear the check box labeled
 **Show pictures of contacts**.
@@ -85,12 +84,12 @@ This action removes pictures from your contacts list. It also
 eliminates pictures of the sender and receiver from instant messages (IM) and group
 conversations, and it removes your own picture from Skype for
 Business.
-
-#### How many contacts can I have?
+{{</accordion>}}
+{{<accordion title="How many contacts can I have?" col="in" href="accordion8">}}
 
 The default maximum number of contacts that you can add is 1000.
-
-#### How do I create a group?
+{{</accordion>}}
+{{<accordion title="How do I create a group?" col="in" href="accordion9">}}
 
 1.  In the Skype for Business main window, in your **Contacts** list,
     right-click any group name, then click **Create New Group**.
@@ -99,14 +98,14 @@ The default maximum number of contacts that you can add is 1000.
 
 2.  In the space that opens at the bottom of the window, type over
     the phrase *New Group* to give your group a descriptive name.
-
-#### How do I organize my contacts by location, department, or other criteria?
+{{</accordion>}}
+{{<accordion title="How do I organize my contacts by location, department, or other criteria?" col="in" href="accordion10">}}
 
 Create a new group based on the category you need. For instance, you
 might create a group called _Headquarters staff_ and add contacts to
 that group.
-
-#### How do I get added to or removed from a list of delegates?
+{{</accordion>}}
+{{<accordion title="How do I get added to or removed from a list of delegates?" col="in" href="accordion11">}}
 
 Depending on your authorization within your organization, use one of the following methods to modify delegate lists.
 
@@ -117,13 +116,13 @@ Depending on your authorization within your organization, use one of the followi
     Forwarding**, and then click the **Edit my delegate members** link
     at bottom of the window. A dialog box opens where you can add,
     remove, or change the permissions of delegates.
-
-#### How do I delete contacts from my Contacts list?
+{{</accordion>}}
+{{<accordion title="How do I delete contacts from my Contacts list?" col="in" href="accordion12">}}
 
 Right-click the contact you want to delete, and then click **Remove from
 Contacts List**.
-
-#### How do I display only those contacts who are online?
+{{</accordion>}}
+{{<accordion title="How do I display only those contacts who are online?" col="in" href="accordion13">}}
 
 Although you can't completely remove offline contacts from your contacts
 list, you can send them to a separate group, so they don't clutter it up.
@@ -132,8 +131,8 @@ Click **Options>Contacts List**, and then select the check box labeled
 **Show contacts with away, offline and unknown presences in a separate
 group**. Unavailable contacts now appear at the bottom of the
 display in a group called **Away and Offline Contacts**.
-
-#### How do I block contacts from reaching me via Skype for Business?
+{{</accordion>}}
+{{<accordion title="How do I block contacts from reaching me via Skype for Business?" col="in" href="accordion14">}}
 
 **Note**: Although your name and email address display to blocked
 contacts, they can't reach you through Skype for Business.
@@ -143,13 +142,13 @@ To block a contact in Skype for Business, use these steps:
 1.  Right-click the contact you want to block.
 2.  Click **Change Privacy Relationship**.
 3.  Select click **Blocked Contacts**.
-
-#### How do I find contacts within my organization?
+{{</accordion>}}
+{{<accordion title="How do I find contacts within my organization?" col="in" href="accordion15">}}
 
 In the **Search** field on the Skype for Business main window, type the
 name, email address, or phone number of the contact you are looking for.
-
-#### How do I add an internal contact to my Contacts list?
+{{</accordion>}}
+{{<accordion title="How do I add an internal contact to my Contacts list?" col="in" href="accordion16">}}
 
 Use the following steps:
 
@@ -162,8 +161,8 @@ Use the following steps:
     you want to add to your **Contacts** list. Right-click the person's
     search listing, and then click **Add to Contacts List**.
 5.  Select a group from the list to which to add your new contact.
-
-#### Can I automatically add everyone in the domain to my Skype for Business contacts?
+{{</accordion>}}
+{{<accordion title="Can I automatically add everyone in the domain to my Skype for Business contacts?" col="in" href="accordion17">}}
 
 No. Skype for Business does not have the ability to automatically add
 all users in the domain to the contacts list. This is a limitation of
@@ -175,16 +174,18 @@ The basic premise is that you do not want to have every employee in
 the whole company in your list. You create smaller groups composed of
 the people with whom you work closely, and then you add other groups or
 individuals to your contact list as needed.
+{{</accordion>}}
+
 ------------------------------------------------------------------------
 
 ### Instant messages
 
-#### Can I recall (block the delivery of) an instant message?
+{{<accordion title="Can I recall (block the delivery of) an instant message?" col="in" href="accordion18">}}
 
 No, you can't recall an instant message (IM) after you press the **Enter** key to
 send it.
-
-#### How do I disable IM alert sounds?
+{{</accordion>}}
+{{<accordion title="How do I disable IM alert sounds?" col="in" href="accordion19">}}
 
 You can configure Skype for Business to not play IM or
 phone alerts whenever your presence is set to **Do not Disturb**. You can also
@@ -203,13 +204,13 @@ To turn the audible alerts off altogether, use the following action:
     click **Ringtones and Sounds**, and then clear the **Play sounds in
     Skype for Business (including ringtones for incoming alerts and IM
     alerts)** check box.
-
-#### How do I set an alert to notify me as soon as a particular contact becomes available?
+{{</accordion>}}
+{{<accordion title="How do I set an alert to notify me as soon as a particular contact becomes available?" col="in" href="accordion20">}}
 
 In the Skype for Business main window, within your **Contacts** list,
 right-click a contact, and then click **Tag for Status Change Alerts**.
-
-#### How do I change fonts in my IMs?
+{{</accordion>}}
+{{<accordion title="How do I change fonts in my IMs?" col="in" href="accordion21">}}
 
 To change the font, style, size, or color for a specific IM you are
 writing, use the following actions:
@@ -232,22 +233,22 @@ To change the default font details for incoming IMs as well, use the following a
     click **General**, click **Change Font**, and then select a default
     font, font style, font size, and font color. Then select the **Apply
     settings to incoming messages** check box, and click **OK**.
-
-#### Can I add customized emoticons to my Skype for Business IMs?
+{{</accordion>}}
+{{<accordion title="Can I add customized emoticons to my Skype for Business IMs?" col="in" href="accordion22">}}
 
 No, you can't. But there are 80 emoticons in the Skype for Business
 assortment. To see them, click the emoticon icon to the right of the
 text input area on the conversation window.
-
-#### Can I use spell checking in my Skype for Business IMs?
+{{</accordion>}}
+{{<accordion title="Can I use spell checking in my Skype for Business IMs?" col="in" href="accordion23">}}
 
 Yes, Skype for Business checks your spelling automatically. Skype for
 Business won't mark as misspelled any word that you've added to your
 Office custom dictionary. To turn off spell checking in Skype for
 Business, click the **Options** button, then click **General** and clear the
 **Check spelling as I type** check box.
-
-#### Where can I find previous IM conversations, records of Skype for Business calls, or IM requests I may have missed?
+{{</accordion>}}
+{{<accordion title="Where can I find previous IM conversations, records of Skype for Business calls, or IM requests I may have missed?" col="in" href="accordion24">}}
 
 By default, if you are using Microsoft&reg; Outlook, Skype for Business saves
 all incoming and outgoing conversations in your Outlook **Conversation
@@ -269,8 +270,8 @@ follow these steps:
 Unless your Skype for Business administrator has set a policy to retain
 all messages, you can also delete conversations from the **Conversation
 History** folder.
-
-#### How can I make the IM alerts more prominent, so I don't miss incoming IM requests?
+{{</accordion>}}
+{{<accordion title="How can I make the IM alerts more prominent, so I don't miss incoming IM requests?" col="in" href="accordion25">}}
 
 Unless you have set notifications so alerts do not display when you
 are in **Do not Disturb** mode, Skype for Business by default always
@@ -295,12 +296,13 @@ To help ensure that your IM alerts are noticeable, try the following things:
     boxes in the panel are not selected.
 -   Consider choosing a more distinctive or more prominent alert sound
     than the default to notify you of an incoming message.
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### User status
 
-#### What do the various presence states mean, which ones are set automatically, and which ones can I set myself?
+{{<accordion title="What do the various presence states mean, which ones are set automatically, and which ones can I set myself?" col="in" href="accordion26">}}
 
 The following table describes the contact presence states that
 people can see, what each state means, and how it gets set.
@@ -319,15 +321,16 @@ people can see, what each state means, and how it gets set.
 | Offline              | You're not signed in. If you have blocked individuals from seeing your presence, you'll appear offline to them. (Automatic)                                                |
 | Unknown              | Your presence is not known. If others are not using Skype for Business as their instant messaging (IM) program, your presence might appear as unknown to them. (Automatic) |
 
-#### How can I give people more information about my status?
+{{</accordion>}}
+{{<accordion title="How can I give people more information about my status?" col="in" href="accordion27">}}
 
 Although the presence states in Skype for Business are preset, you can
 always write a personal note at the top of the Skype for Business main
 window to provide more details about where you are and what you're
 doing. Just click the note display area and type over the note that's
 currently displayed.
-
-#### What do the settings on the Status options window mean?
+{{</accordion>}}
+{{<accordion title="What do the settings on the Status options window mean?" col="in" href="accordion28">}}
 
 On the **Status options** window, you can change the number of minutes that
 elapse before your presence status changes to **Inactive** and **Away**. You can also have Skype
@@ -351,8 +354,8 @@ present my desktop** and **Show me as Do Not Disturb when my monitor is
 duplicated** to let others know not to interrupt you when you are
 giving a presentation or otherwise collaborating online from your Skype
 for Business-enabled computer.
-
-#### Why can't I set my presence status to "Appear Away"?
+{{</accordion>}}
+{{<accordion title=`Why can't I set my presence status to "Appear Away"?` col="in" href="accordion29">}}
 
 Your organization may have turned off the **Appear Away** status option, on
 the grounds that it can interfere with the reliability of the presence
@@ -362,8 +365,8 @@ relationships to avoid interruptions. For example, if you don't want to
 be disturbed by most people, you can set your status as **Do Not Disturb**
 and then grant certain people permission to interrupt you by adding them
 to your work group.
-
-#### How do I get rid of the Out of Office note in Skype for Business?
+{{</accordion>}}
+{{<accordion title="How do I get rid of the Out of Office note in Skype for Business?" col="in" href="accordion30">}}
 
 If your Skype for Business account is synced via Microsoft Exchange to your Outlook calendar, an out-of-office message appears in
 Skype for Business after you turn on the **Out of Office** reply in
@@ -376,5 +379,6 @@ Outlook by using the following actions:
 
 **Note**: It may take several minutes for the message to disappear in
 Skype for Business.
+{{</accordion>}}
 
 ------------------------------------------------------------------------

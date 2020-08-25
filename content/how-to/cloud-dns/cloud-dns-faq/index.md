@@ -13,7 +13,7 @@ product_url: cloud-dns
 
 ### General
 
-#### What is a domain name system (DNS)?
+{{< accordion title="What is a domain name system (DNS)?" col="in" href="accordion1" >}}
 
 The Domain Name System (DNS) determines Internet domain name-to-address
 and address-to-name resolutions. All domains and their components,
@@ -26,33 +26,40 @@ of the master invokes the slave. DNS servers might also be clustered or replicat
 such that changes made to one DNS server are automatically propagated to other
 active servers.
 
-#### What types of customers or accounts can access Cloud DNS?
+{{< /accordion >}}
+
+{{< accordion title="What types of customers or accounts can access Cloud DNS?" col="in" href="accordion2" >}}
 
 Anyone who has a Rackspace Cloud account can access the Cloud DNS service.
 Existing Cloud customers have access to the Rackspace Cloud DNS by default.
 
-#### Where can I find the Cloud DNS API documentation?
+{{< /accordion >}}
+
+{{< accordion title="Where can I find the Cloud DNS API documentation?" col="in" href="accordion3" >}}
 
 See the [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for information about the Cloud DNS API.
 
+{{< /accordion >}}
+
 ### Billing and usage
 
-#### How much does this service cost?
+{{< accordion title="How much does this service cost?" col="in" href="accordion4" >}}
 
 Cloud DNS is currently available at no additional cost and is intended for use
 with Cloud accounts that have provisioned and active resources.
+{{< /accordion >}}
 
 ### Existing product compatibility
-
-#### Can this service be used for Dedicated Servers?
+{{< accordion title="Can this service be used for Dedicated Servers?" col="in" href="accordion5" >}}
 
 No. The Cloud DNS service is only available for Cloud account resources. Managed
 and Dedicated customers with RackConnect (that is, customers who also have a
 Cloud account) have access but can only use the service to manage DNS for their
 Rackspace Cloud resources.
+{{< /accordion >}}
 
-#### How does this work for Hybrid customers?
+{{< accordion title="How does this work for Hybrid customers?" col="in" href="accordion6" >}}
 
 A Hybrid customer can continue to use the [MyRackspace
 Portal](https://login.rackspace.com) to manage
@@ -61,10 +68,9 @@ manage domains for their Cloud resources.
 
 **Note:** Duplicate domains cannot exist between Managed Hosting and Cloud
 Hosting resources.
-
+{{< /accordion >}}
 ### Accessing Cloud DNS
-
-#### How do I authenticate with the Cloud DNS API?
+{{< accordion title="How do I authenticate with the Cloud DNS API?" col="in" href="accordion7" >}}
 
 The process for authenticating with the Cloud DNS API is the same as when
 authenticating with all other Rackspace Cloud APIs.
@@ -78,22 +84,24 @@ Rackspace Cloud Control Panel. Place it in the `X-Auth-Key` x-header.
 
 For full authentication details, see the
 [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+{{< /accordion >}}
 
-#### What account number do I use to access the service?
+{{< accordion title="What account number do I use to access the service?" col="in" href="accordion8" >}}
 
 Customers should use their existing Cloud account number.
+{{< /accordion >}}
 
-#### What is the difference between US and UK Cloud DNS?
+{{< accordion title="What is the difference between US and UK Cloud DNS?" col="in" href="accordion9" >}}
 
 The functionality is the same. The only difference is that the US and the UK
 each have the following separate API endpoints:
 
 -  US = `https://dns.api.rackspacecloud.com/v1.0/1234/`
 -  UK = `https://lon.dns.api.rackspacecloud.com/v1.0/1234/`
+{{< /accordion >}}
 
 ### Features and functionality
-
-#### What DNS management operations does the Cloud DNS API support?
+{{< accordion title="What DNS management operations does the Cloud DNS API support?" col="in" href="accordion10" >}}
 
 Customers can create, modify, remove, and list domains, subdomains, and records.
 
@@ -102,8 +110,9 @@ records.
 
 For a full list of supported API operations, see the [
 Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+{{< /accordion >}}
 
-#### What record types does Cloud DNS support?
+{{< accordion title="What record types does Cloud DNS support?" col="in" href="accordion11" >}}
 
 The Cloud DNS API currently supports the following record types:
 
@@ -126,23 +135,26 @@ custom attributes indicating the record type. We do not currently support the
 
 For more information about supported record types, see the
 [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+{{< /accordion >}}
 
-#### Can I import and export domains?
+{{< accordion title="Can I import and export domains?" col="in" href="accordion12" >}}
 
 Yes, you can do this by using the API. You can import a domain from external providers by using a
 valid `bind9-formatted` zone file. Similarly, you can export their domain to a
 `bind9-formatted` file. Currently, you cannot transfer zones from MyRackspace
 to Cloud DNS and should contact Support to request a domain transfer from
 dedicated resources to Cloud resources.
+{{< /accordion >}}
 
-#### What are the Rackspace DNS servers?
+{{< accordion title="What are the Rackspace DNS servers?" col="in" href="accordion13" >}}
 
 Our default DNS servers are:
 
 -  dns1.stabletransit.com
 -  dns2.stabletransit.com
+{{< /accordion >}}
 
-#### What type of DNS network does Rackspace use?
+{{< accordion title="What type of DNS network does Rackspace use?" col="in" href="accordion14" >}}
 
 Rackspace leverages a globally distributed Anycast network. Currently, we have
 DNS servers located in Texas, Virginia, Chicago, and London. Using Anycast, we
@@ -153,26 +165,30 @@ Additionally, all of our DNS servers are monitored 24/7, and if an entire
 data center were to fail, or even if all of the DNS servers within a specific
 data center were to fail, the DNS queries automatically start going to the
 next best location.
+{{< /accordion >}}
 
-#### What are the limitations of the search functionality?
+{{< accordion title="What are the limitations of the search functionality?" col="in" href="accordion15" >}}
 
 You can search for domains within your own account. The functionality
 does not allow you to search for records.
+{{< /accordion >}}
 
-#### Do my TTL settings expire?
+{{< accordion title="Do my TTL settings expire?" col="in" href="accordion16" >}}
 
 No.
+{{< /accordion >}}
 
 ### Performance
 
-#### What are the default TTLs for domains and records?
+{{< accordion title="What are the default TTLs for domains and records?" col="in" href="accordion17" >}}
 
 When a domain or record is created, and no TTL is specified,
 a default value of 3600 seconds is used. When the domain or record TTL is
 supplied by the user through a create or update operation, the specified TTL values
 must be 300 seconds or more.
+{{< /accordion >}}
 
-#### How long does it take for DNS changes to be propagated globally?
+{{< accordion title="How long does it take for DNS changes to be propagated globally?" col="in" href="accordion18" >}}
 
 Typical DNS propagation to Rackspace name servers (globally) might take up to
 one minute. Propagation refers to the time between when a change is made to a
@@ -184,8 +200,9 @@ a few minutes to propagate to our Rackspace name servers.
 
 When changing name servers for a domain, complete propagation takes about 2
 days for most domains. This is enforced by the registries.
+{{< /accordion >}}
 
-#### Are there API rate limits?
+{{< accordion title="Are there API rate limits?" col="in" href="accordion19" >}}
 
 By default, all accounts have a preconfigured set of thresholds (or limits) to
 manage capacity and prevent abuse of the system. The system recognizes two kinds
@@ -193,10 +210,10 @@ of limits: *rate limits* and *absolute limits*. Rate limits are thresholds that 
 reset after a certain amount of time passes. Absolute limits are fixed. See the [
 Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for more information on rate limits.
-
+{{< /accordion >}}
 ### Support
 
-#### How many Cloud DNS domains and records can I have?
+{{< accordion title="How many Cloud DNS domains and records can I have?" col="in" href="accordion20" >}}
 
 By default, Cloud DNS users can have up to 500 domains (including sub-domains)
 and 500 records per domain per Cloud account. When a user submits a request to
@@ -207,8 +224,10 @@ the entire request is rejected, and a `413 Request Entity Too Large` message is
 returned. See the
 [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for more information on absolute limits.
+{{< /accordion >}}
 
-#### How can I create a Cloud DNS ticket?
+{{< accordion title="How can I create a Cloud DNS ticket?" col="in" href="accordion21" >}}
 
 Submit Cloud DNS requests by using the standard Support ticket interface in
 the Control Panel.
+{{< /accordion >}}

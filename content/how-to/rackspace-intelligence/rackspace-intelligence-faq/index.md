@@ -13,7 +13,7 @@ product_url: rackspace-intelligence
 
 ### Getting started
 
-#### What is Rackspace Intelligence?
+{{<accordion title="What is Rackspace Intelligence?" col="in" href="accordion1">}}
 
 Rackspace Intelligence delivers an intuitive interface that gives you a
 transparent view into the health of your infrastructure, along with
@@ -24,31 +24,31 @@ infrastructure. You can use it to configure monitoring on your entities,
 such as servers and databases, and view their monitoring status. It also
 provides visualizations that give you a view of the trends in your
 resource use.
-
-#### Who can use Rackspace Intelligence?
+{{</accordion>}}
+{{<accordion title="Who can use Rackspace Intelligence?" col="in" href="accordion12">}}
 
 All Rackspace customers with a Cloud services account can use Rackspace
 Intelligence.
-
-#### How do I sign up for Rackspace Intelligence?
+{{</accordion>}}
+{{<accordion title="How do I sign up for Rackspace Intelligence?" col="in" href="accordion3">}}
 
 There is no separate sign-up process for Rackspace Intelligence. If you
 have a Cloud services account, log in to
 <https://intelligence.rackspace.com> using your Rackspace Cloud
 credentials.
-
-#### Can I use Rackspace Intelligence for both Cloud and Dedicated accounts?
+{{</accordion>}}
+{{<accordion title="Can I use Rackspace Intelligence for both Cloud and Dedicated accounts?" col="in" href="accordion4">}}
 
 Yes, both Cloud and Dedicated accounts have access to Rackspace Intelligence. For more information, see [Getting Started with Rackspace Intelligence for the cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud) and [Getting Started with Rackspace Intelligence for dedicated accounts](/support/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts).
-
-#### What are the benefits of using Rackspace Intelligence?
+{{</accordion>}}
+{{<accordion title="What are the benefits of using Rackspace Intelligence?" col="in" href="accordion5">}}
 
 With this set of visualization and analytics tools, you no longer have
 to set up, maintain, or pay for an additional set of tools.
 Additionally, the intuitive dashboard enables collaboration with Support
 Rackers.
-
-#### How do I access Rackspace Intelligence?
+{{</accordion>}}
+{{<accordion title="How do I access Rackspace Intelligence?" col="in" href="accordion6">}}
 
 Go to
 [https://intelligence.rackspace.com](https://intelligence.rackspace.com)
@@ -59,75 +59,77 @@ Alternatively, if you already logged in to the [Cloud Control
 Panel](https://login.rackspace.com), you can click the **Servers**
 menu and then click **Rackspace Intelligence**. A new browser tab
 displays the Rackspace Intelligence portal.
-
-#### How much does Rackspace Intelligence cost?
+{{</accordion>}}
+{{<accordion title="How much does Rackspace Intelligence cost?" col="in" href="accordion7">}}
 
 Rackspace Intelligence is available at no charge for Rackspace customers
 with a Cloud services account.
-
-#### Is there an API for Rackspace Intelligence?
+{{</accordion>}}
+{{<accordion title="Is there an API for Rackspace Intelligence?" col="in" href="accordion8">}}
 
 Rackspace Intelligence currently does not expose an API. However, many
 monitoring-related features, such as the creation and editing of checks
 and alarms, are built using the
 [Rackspace Monitoring API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/).
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Account services
 
-#### Are any features of Rackspace Intelligence limited to specific service levels?
+{{<accordion title="Are any features of Rackspace Intelligence limited to specific service levels?" col="in" href="accordion9">}}
 
 All the features in Rackspace Intelligence are available to all service
 levels (Managed Infrastructure and Managed Operations) for all Cloud
 customers.
-
-#### How can I provide feedback about Rackspace Intelligence?
+{{</accordion>}}
+{{<accordion title="How can I provide feedback about Rackspace Intelligence?" col="in" href="accordion10">}}
 
 If you want to suggest features to add to Rackspace Intelligence, or if
 you discover any issues, click the **Support** link at the top of the
 [Rackspace Intelligence Portal](https://intelligence.rackspace.com/).
+{{</accordion>}}
 
 ------------------------------------------------------------------------
 
 ### Features
 
-#### What is an entity?
+{{<accordion title="What is an entity?" col="in" href="accordion11">}}
 
 An *entity* is a resource (for example, a website or server) that you
 want to monitor.
-
-#### Do I need to create entities manually to monitor them?
+{{</accordion>}}
+{{<accordion title="Do I need to create entities manually to monitor them?" col="in" href="accordion12">}}
 
 Rackspace Intelligence automatically creates entities for all of your
 Rackspace cloud servers and databases. If you want to monitor other
 systems, you must manually create entities for them.
-
-#### What is a check?
+{{</accordion>}}
+{{<accordion title="What is a check?" col="in" href="accordion13">}}
 
 A *check* specifies the aspect of the resource that you want to monitor.
-
-#### What is an alarm?
+{{</accordion>}}
+{{<accordion title="What is an alarm?" col="in" href="accordion14">}}
 
 An *alarm* is a set of rules that determine what status is returned
 based on the result of the check.
-
-#### Why are the concepts of checks and alarms separate?
+{{</accordion>}}
+{{<accordion title="Why are the concepts of checks and alarms separate?" col="in" href="accordion15">}}
 
 We wanted to build a state-of-the-art monitoring platform, which
 requires that data collection be separate from thresholds.
-
-#### What is a notification?
+{{</accordion>}}
+{{<accordion title="What is a notification?" col="in" href="accordion16">}}
 
 A *notification* defines how the customer wants to be contacted in the
 case of a system failure.
-
-#### What is a notification plan?
+{{</accordion>}}
+{{<accordion title="What is a notification plan?" col="in" href="accordion1">}}
 
 A *notification plan* specifies a set of actions that are performed when
 a certain status is returned by the check.
-
-#### What features will be available in the future?
+{{</accordion>}}
+{{<accordion title="What features will be available in the future?" col="in" href="accordion17">}}
 
 We plan to provide the following features in future releases:
 
@@ -138,3 +140,4 @@ We plan to provide the following features in future releases:
 -   **Available in future** - Customizable dashboards: Provides the ability to
     customize your dashboard in Rackspace Intelligence by adding widgets for
     graphs, drag-and-drop widgets, and more.
+{{</accordion>}}

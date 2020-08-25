@@ -13,7 +13,7 @@ product_url: office-365
 
 ### Getting started
 
-#### Where do I access my Office 365 account?
+{{<accordion title="Where do I access my Office 365 account?" col="in" href="accordion1">}}
 
 Log in to the [Office 365 Control Panel](https://office365.cp.rackspace.com)
 with your Global Administrator credentials to manage users and licenses, open
@@ -23,14 +23,14 @@ To manage other settings, such as the Exchange Admin Center or the Security and
 Compliance center, click **Office 365 Admin Center** on the left sidebar.
 This action automatically logs you in to the Office 365 Admin Center.
 
-
-#### What are the system requirements to run Office 365?
+{{</accordion>}}
+{{<accordion title="What are the system requirements to run Office 365?" col="in" href="accordion2">}}
 
 You can find up-to-date system requirements for Office 365 on the
 [Microsoft support
 website](https://products.office.com/en-US/office-system-requirements/#Office365forBEG).
-
-#### Do I need to have an installed email client to use Office 365?
+{{</accordion>}}
+{{<accordion title="Do I need to have an installed email client to use Office 365?" col="in" href="accordion3">}}
 
 No, you don't need a stand-alone email client to use Office 365. However, many
 Office 365 plans have the option of using an Office suite, which would
@@ -39,16 +39,16 @@ of Outlook to ensure the most complete experience.
 
 To learn about the features that Office 365 supports, see the [Outlook help
 center](https://support.office.com/en-us/outlook).
-
-#### Does Office 365 support IMAP, POP, and SMTP connections?
+{{</accordion>}}
+{{<accordion title="Does Office 365 support IMAP, POP, and SMTP connections?" col="in" href="accordion4">}}
 
 Yes. You can use IMAP and SMTP connections instead of the default MAPI-based
 connection that comes with Office 365.
 
 **Note**: Using an IMAP or SMTP connection reduces functionality outside of
 your email program.
-
-#### What ports does Office 365 use for IMAP, POP, and SMTP connections?
+{{</accordion>}}
+{{<accordion title="What ports does Office 365 use for IMAP, POP, and SMTP connections?" col="in" href="accordion5">}}
 
 Office 365 uses the following ports:
 
@@ -67,7 +67,8 @@ Office 365 uses the following ports:
 - Outgoing server: smtp.office365.com
 - Port: 587
 
-#### What information do I need to provide to get started?
+{{</accordion>}}
+{{<accordion title="What information do I need to provide to get started?" col="in" href="accordion6">}}
 
 You need to provide the following information when you sign up for Office
 365:
@@ -90,13 +91,13 @@ You need to provide the following information when you sign up for Office
      working with our [onboarding and migrations
      team](https://www.rackspace.com/en-us/migration), this process is
      covered during the migration process.
-
-#### Can I add my domain to Office 365?
+{{</accordion>}}
+{{<accordion title="Can I add my domain to Office 365?" col="in" href="accordion7">}}
 
 Yes. You can find instructions about how to add your domain in [this support article](https://support.rackspace.com/support/how-to/add-a-domain-in-office-365/).
 
-
-#### What administrative centers exist for Office 365?
+{{</accordion>}}
+{{<accordion title="What administrative centers exist for Office 365?" col="in" href="accordion8">}}
 
 The following administration centers are available for Office 365:
 
@@ -114,10 +115,11 @@ The following administration centers are available for Office 365:
 -   [The Skype for Business admin
     center](https://support.office.com/en-NZ/article/Skype-for-Business-Online-admin-center-289cca0b-5751-4454-ae35-1efe65950f05?ui=en-US&rs=en-NZ&ad=NZ&fromAR=1)
     is the central location for managing Skype and instant messaging.
+{{</accordion>}}
 
 ### Support
 
-#### How do I contact support?
+{{<accordion title="How do I contact support?" col="in" href="accordion9">}}
 
 You can contact our support team 24x7x365 by phone, chat, or
 support ticket:
@@ -132,8 +134,8 @@ support ticket:
     [login.rackspace.com](https://login.rackspace.com) and select
     **Support > View Tickets**. On the ticket page, click **New
     Ticket**.
-
-#### What subscription plans can I purchase from Rackspace for Office 365?
+{{</accordion>}}
+{{<accordion title="What subscription plans can I purchase from Rackspace for Office 365?" col="in" href="accordion10">}}
 
 You can find detailed business subscription plans
 at <https://o365.rackspace.com/>.
@@ -141,3 +143,4 @@ at <https://o365.rackspace.com/>.
 If your company is interested in Enterprise-level plans (E1 or E3),
 contact our [Sales team](https://www.rackspace.com/why-rackspace) for
 more information.
+{{</accordion>}}

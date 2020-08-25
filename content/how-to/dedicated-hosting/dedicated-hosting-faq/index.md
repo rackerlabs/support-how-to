@@ -14,12 +14,12 @@ product_url: dedicated-hosting
 
 ### General
 
-#### Where can I learn more about the service levels for Dedicated Managed Hosting?
+{{<accordion title="Where can I learn more about the service levels for Dedicated Managed Hosting?" col="in" href="accordion1">}}
 
 You can find a comparison of the service levels on the [Managed Hosting
 product page](https://www.rackspace.com/managed-hosting/service-levels).
-
-#### Where can I find your SLAs?
+{{</accordion>}}
+{{<accordion title="Where can I find your SLAs?" col="in" href="accordion2">}}
 
 Our service level agreements (SLAs) are located on the following pages:
 
@@ -27,22 +27,23 @@ Our service level agreements (SLAs) are located on the following pages:
   Conditions](https://www.rackspace.com/information/legal/managedterms)
 - [Managed Hosting Services Terms and Conditions
   (Intensive)](https://www.rackspace.com/information/legal/intensiveterms)
-
-#### Where can I read more about Rackspace's support lifecycle and terms?
+{{</accordion>}}
+{{<accordion title="Where can I read more about Rackspace's support lifecycle and terms?" col="in" href="accordion3">}}
 
 You can find information about support lifecycles and terms on the [Extended
 Lifecycle Support page](https://www.rackspace.com/information/legal/eolterms).
+{{</accordion>}}
 
 ### Permissions
 
-#### Why do I need to set up permissions?
+{{<accordion title="Why do I need to set up permissions?" col="in" href="accordion4">}}
 
 Permissions enable you to determine the amount of access that your users have
 in the [MyRackspace
 portal](https://login.rackspace.com). Our Support teams review these
 permissions to help determine user access when responding to support requests.
-
-#### How do I manage permissions?
+{{</accordion>}}
+{{<accordion title="How do I manage permissions?" col="in" href="accordion5">}}
 
 You manage permissions in the [MyRackspace
 portal](https://login.rackspace.com) under **Account > Permissions** in the
@@ -59,3 +60,4 @@ permission, you must have one of the following permissions:
 
 For details about how to manage permissions, see [Manage user permissions for
 Dedicated Hosting](/support/how-to/manage-user-permissions-for-dedicated-hosting).
+{{</accordion>}}

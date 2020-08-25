@@ -11,12 +11,12 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-####Does RackConnect support cloud servers that are part of a Cloud Network?
+{{<accordion title="Does RackConnect support cloud servers that are part of a Cloud Network?" col="in" href="accordion1">}}
 
 RackConnect support for Cloud Networks is available as of January 16,
 2013.
-
-####IMPORTANT: Can I attach/detach a Cloud Network on a running RackConnected Cloud Server?
+{{</accordion>}}
+{{<accordion title="IMPORTANT: Can I attach/detach a Cloud Network on a running RackConnected Cloud Server?" col="in" href="accordion2">}}
 
 Attaching/detaching a Cloud Network on a running RackConnected Cloud
 Server causes the network stack to be reset, which will break the cloud
@@ -24,8 +24,8 @@ server's RackConnect connectivity. Therefore, we do not recommend
 attaching or detaching Cloud Networks to running RackConnect servers.
 If you do need to attach or detach a network, please contact your
 Support team prior to making the change.
-
-####What are the requirements for using Cloud Networks with RackConnect?
+{{</accordion>}}
+{{<accordion title="What are the requirements for using Cloud Networks with RackConnect?" col="in" href="accordion3">}}
 
 1. You must be a RackConnect 2.0 with Automation Features enabled
  customer. For further details on RackConnect Automation Features,
@@ -56,8 +56,8 @@ Support team prior to making the change.
 **Note:** This Network Policy will need to be created, even if you already
 have a "Cloud Server(s) to Cloud Server(s)" Network Policy allowing all
 traffic.
-
-####What network ranges can I use with Cloud Networks for RackConnected cloud servers?
+{{</accordion>}}
+{{<accordion title="What network ranges can I use with Cloud Networks for RackConnected cloud servers?" col="in" href="accordion4">}}
 
 Cloud Networks itself normally supports any network range, but if you
 plan to use the Cloud Network with RackConnected cloud servers, we
@@ -75,8 +75,8 @@ Address Spaces:
    - ****Avoid using** a network range that is already in use in your
  Dedicated environment.**
    - ****Avoid using Public IP address network ranges.****
-
-####Can I use RackConnect and Cloud Networks to create one large Layer 2 Broadcast Domain that spans my Dedicated and Cloud environments?
+{{</accordion>}}
+{{<accordion title="Can I use RackConnect and Cloud Networks to create one large Layer 2 Broadcast Domain that spans my Dedicated and Cloud environments?" col="in" href="accordion5">}}
 
 In other words, can you have a single network, let's say 192.168.x.x/24,
 for your dedicated servers and also for your cloud servers, so that they
@@ -86,3 +86,4 @@ ServiceNet NIC, and a separate Cloud Networks NIC is used for Cloud
 Networks connectivity. The ServiceNet Network and the Cloud Network are
 two distinct networks that do not have direct connectivity between
 them. 
+{{</accordion>}}
