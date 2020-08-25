@@ -25,14 +25,14 @@ To gather this information and proceed with the migration, use the following ste
 
 ### Find your current DNS hosting provider
 
-If you are running Windows, see [Checking DNS records on Windows](https://support.rackspace.com/how-to/nslookup-checking-dns-records-on-windows). This article explains the steps to query the *primary name server* of the domain. The primary name server is the location where your DNS zone file is hosted.
+If you are running Windows, see [Checking DNS records on Windows](/support/how-to/nslookup-checking-dns-records-on-windows). This article explains the steps to query the *primary name server* of the domain. The primary name server is the location where your DNS zone file is hosted.
 
 If you are running Linux, you can run the following command: 
     
     dig NS +short example.com.
     
 The output is the authoritative name servers for the domain. It shows you where your DNS zone file is hosted. See
-[Use dig to query nameservers](https://support.rackspace.com/how-to/using-dig-to-query-nameservers) for a more in-depth guide.
+[Use dig to query nameservers](/support/how-to/using-dig-to-query-nameservers) for a more in-depth guide.
 
 Alternatively, you can use one of the many free third-party tools and websites to query the DNS records for your domain. When you look at the results, the authoritative name servers are listed under the NS record.
 
@@ -88,5 +88,5 @@ After you have verified that the new name servers have propagated correctly, wai
 
 ### Related Articles
 
-- [How to Cloud DNS](https://support.rackspace.com/how-to/cloud-dns/)
-- [Cloud DNS Supported record types](https://support.rackspace.com/how-to/rackspace-cloud-dns-additional-resources/)
+- [How to Cloud DNS](/support/how-to/cloud-dns/)
+- [Cloud DNS Supported record types](/support/how-to/rackspace-cloud-dns-additional-resources/)

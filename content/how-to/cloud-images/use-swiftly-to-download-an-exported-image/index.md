@@ -23,7 +23,7 @@ Files. If you need help with any of these topics, see the following sources:
 image](https://docs.rackspace.com/docs/cloud-images/v2/api-reference/image-task-operations/#task-to-export-image)
 -   Cloud Images FAQ: [Where is my exported image?](/support/how-to/cloud-images-faq)
 -   [Install the Swiftly client for Cloud
-Files](https://support.rackspace.com/how-to/install-the-swiftly-client-for-cloud-files/)
+Files](/support/how-to/install-the-swiftly-client-for-cloud-files/)
 
 ### Download your entire image at once
 
@@ -41,7 +41,7 @@ In a bash shell, set the following environment variables:
     IMAGEFILENAME=    # the name of your exported image in Cloud Files
 
 For information about viewing your Rackspace API key, see [View and reset your
-API key](https://support.rackspace.com/how-to/view-and-reset-your-api-key/).
+API key](/support/how-to/view-and-reset-your-api-key/).
 
 #### Invoke Swiftly
 

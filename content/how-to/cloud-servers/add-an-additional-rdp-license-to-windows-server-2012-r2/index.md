@@ -15,11 +15,11 @@ This article describes how to add Remote Desktop Protocol (RDP) licenses to Micr
 
 ### Prerequisites
 
-You should promote the server to a Domain Controller. See [Install Active Directory on Windows Server 2012](https://support.rackspace.com/how-to/installing-active-directory-on-windows-server-2012/).
+You should promote the server to a Domain Controller. See [Install Active Directory on Windows Server 2012](/support/how-to/installing-active-directory-on-windows-server-2012/).
 
 ### Limitations
 
-This task does not fall within the [Windows Spheres of Support for Dedicated and Managed Operations](https://support.rackspace.com/how-to/windows-spheres-of-support-for-dedicated-and-managed-ops/).
+This task does not fall within the [Windows Spheres of Support for Dedicated and Managed Operations](/support/how-to/windows-spheres-of-support-for-dedicated-and-managed-ops/).
 
 ### Add the Remote Services Desktop role
 
@@ -37,4 +37,4 @@ Perform the following steps to add the Remote Desktop Services role:
 
 - [Best practices for setting up Remote Desktop Licensing (Terminal Server Licensing) across Active Directory Domains/Forests or Workgroup](https://support.microsoft.com/en-us/help/2473823/best-practices-for-setting-up-remote-desktop-licensing-terminal-server/)
 
-- [Install licensing services to Cloud Servers for Windows 2008 and Windows 2008 R2 to prevent a licensing error](https://support.rackspace.com/how-to/install-licensing-services-to-cloud-servers-for-windows-2008-to-prevent-licensing-error/)
+- [Install licensing services to Cloud Servers for Windows 2008 and Windows 2008 R2 to prevent a licensing error](/support/how-to/install-licensing-services-to-cloud-servers-for-windows-2008-to-prevent-licensing-error/)

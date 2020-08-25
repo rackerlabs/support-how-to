@@ -31,7 +31,7 @@ For instructions, see [Sitecore Cloud portals and account management](/support/h
 
 #### How do I deploy to Sitecore using FTP?
 
-See [Deploy to Sitecore Cloud using FTP](https://support.rackspace.com/how-to/deploy-to-sitecore-cloud-using-ftp/).
+See [Deploy to Sitecore Cloud using FTP](/support/how-to/deploy-to-sitecore-cloud-using-ftp/).
 
 #### How do I publish content to Sitecore?
 

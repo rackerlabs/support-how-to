@@ -272,7 +272,7 @@ every instance.
 In addition, you can use Rackspace Intelligence to observe usage patterns for
 any unexpected changes in your environment. For more information, see [Getting
 started with Rackspace Intelligence for the
-cloud](https://support.rackspace.com/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
+cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
 {{< /accordion >}}
 
 {{< accordion title="Can I create a Cloud Databases support ticket?" col="in" href="accordion25" >}}

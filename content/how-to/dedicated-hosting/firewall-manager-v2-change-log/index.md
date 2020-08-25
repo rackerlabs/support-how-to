@@ -23,7 +23,7 @@ The change log documents the events that Firewall Manager v2 executes on your Ci
 
 ### Access the change log
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](https://support.rackspace.com/support/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/support/support/how-to/firewall-manager-v2) article.
 
 2. Select the correct firewall from the firewall list in the left pane.
 

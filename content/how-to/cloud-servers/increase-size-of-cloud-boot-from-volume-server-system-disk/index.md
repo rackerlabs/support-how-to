@@ -44,7 +44,7 @@ Use the following steps to detach the volume from the VM:
 
    **Note**: To learn how to obtain your API key, see [View and reset
    your API
-   key](https://support.rackspace.com/how-to/view-and-reset-your-api-key/).
+   key](/support/how-to/view-and-reset-your-api-key/).
 
 3. After you are logged in to Pitchfork, select **Cloud Servers**.
 4. Scroll to the **Volumes** section. Next to **List Attached Volumes**,

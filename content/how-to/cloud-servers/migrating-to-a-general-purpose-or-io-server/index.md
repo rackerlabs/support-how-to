@@ -19,7 +19,7 @@ server can be a straightforward process with some planning and preparation.
 
 For detailed advice on preparing a server for migration, see the recommendations
 in [Prepare to migrate a Linux server](/support/how-to/prepare-to-migrate-a-linux-server)
-or [Prepare to migrate a Windows server](https://support.rackspace.com/how-to/prepare-to-migrate-a-windows-server/).
+or [Prepare to migrate a Windows server](/support/how-to/prepare-to-migrate-a-windows-server/).
 You can reduce the amount of data to be migrated by deleting old installers,
 rotating logs, and removing old cache and session files.
 

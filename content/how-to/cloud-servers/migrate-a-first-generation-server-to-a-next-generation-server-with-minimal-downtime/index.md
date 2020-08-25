@@ -139,7 +139,7 @@ previously from the load balancer:
 At this time, you can delete the load balancer, but you must update the DNS.
 Optionally, you can keep the load balancer and add a second copy of the server
 behind it to increase your availability. For more information, see
-[Tiered configuration using Cloud Load Balancers](https://support.rackspace.com/how-to/tiered-configuration-using-cloud-load-balancers/).
+[Tiered configuration using Cloud Load Balancers](/support/how-to/tiered-configuration-using-cloud-load-balancers/).
 
 ### Optional synchronization tools
 

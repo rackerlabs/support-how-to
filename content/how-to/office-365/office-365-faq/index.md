@@ -94,7 +94,7 @@ You need to provide the following information when you sign up for Office
 {{</accordion>}}
 {{<accordion title="Can I add my domain to Office 365?" col="in" href="accordion7">}}
 
-Yes. You can find instructions about how to add your domain in [this support article](https://support.rackspace.com/support/how-to/add-a-domain-in-office-365/).
+Yes. You can find instructions about how to add your domain in [this support article](/support/support/how-to/add-a-domain-in-office-365/).
 
 {{</accordion>}}
 {{<accordion title="What administrative centers exist for Office 365?" col="in" href="accordion8">}}

@@ -67,7 +67,7 @@ Ubuntu operating system
 or `vi` on RPM or CENTOS servers.  For simplicity, this article just uses `nano`. If you prefer to use `vi`,
 substitute `vi` for `nano` in the edit commands.
 For more on using `nano`, see
-[https://support.rackspace.com/how-to/modify-your-hosts-file/](https://support.rackspace.com/how-to/modify-your-hosts-file/).
+[/support/how-to/modify-your-hosts-file/](/support/how-to/modify-your-hosts-file/).
 
     nano ~/.ssh/known_hosts
 
@@ -85,7 +85,7 @@ the server and a matching private key is placed on your local computer. If you
 then no one can log in by using just a password. Connecting clients
 are required to use a private key that has a public key registered on
 the server. For more on security, review
-[Linux server security best practices](https://support.rackspace.com/how-to/linux-server-security-best-practices/).
+[Linux server security best practices](/support/how-to/linux-server-security-best-practices/).
 
 Use the following steps to generate an SSH key pair:
 
@@ -144,7 +144,7 @@ upload the public key to your cloud account by following these steps:
 8.  Click **Add Public Key**.
 
 If you want to add the key manually, instead of by using the Control Panel, review
-[Linux server security best practices](https://support.rackspace.com/how-to/linux-server-security-best-practices/)
+[Linux server security best practices](/support/how-to/linux-server-security-best-practices/)
 and use the following command:
 
      ssh-copy-id -i ~/.ssh/id_rsa.pub {username}@{remotePublicIPAddress}

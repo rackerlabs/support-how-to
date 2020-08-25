@@ -33,11 +33,11 @@ If you determine that the server is still needed, reboot the server by clicking 
 the Cloud Control Panel and selecting **reboot**.
 
 To retain data for possible future needs, create a 
-[Cloud Server Image] (https://support.rackspace.com/support/how-to/creating-an-image-backup-cloning/)
+[Cloud Server Image] (/support/support/how-to/creating-an-image-backup-cloning/)
 for Standard and General Purpose server flavors.
 
 For boot-from-volume servers, and servers where only specific files need to be
-saved, use [Cloud Backup] (https://support.rackspace.com/support/how-to/rackspace-cloud-backup-create-a-backup/).
+saved, use [Cloud Backup] (/support/support/how-to/rackspace-cloud-backup-create-a-backup/).
 
 Both Cloud Server images and Cloud Backups are stored in Cloud Files with
 associated storage costs, but for individuals who want to minimize their costs,

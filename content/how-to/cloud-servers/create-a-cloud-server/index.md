@@ -37,7 +37,7 @@ Control Panel interface.
 7.  In the **Image** section, select the operating system that you want to
     use.
 
-    For a complete list of available images, see the [Images section](https://support.rackspace.com/how-to/hidden-base-images/)
+    For a complete list of available images, see the [Images section](/support/how-to/hidden-base-images/)
     of the Cloud Servers product page.
 
 8.  In the **Flavor** section, choose the appropriate configuration for

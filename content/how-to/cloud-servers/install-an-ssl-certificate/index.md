@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 After you [generate a certificate signing request (CSR)](/support/how-to/generate-a-csr)
-and [purchase or renew a Secure Socket Layer (SSL) certificate](https://support.rackspace.com/how-to/purchase-or-renew-an-ssl-certificate/),
+and [purchase or renew a Secure Socket Layer (SSL) certificate](/support/how-to/purchase-or-renew-an-ssl-certificate/),
 you'll need to install it. This article shows you how to install an SSL
 certificate on various servers and operating systems. The following sections
 provide instructions for the installation process:
@@ -42,8 +42,8 @@ Before you install your certificate, make sure that you have the following items
 
 - A certificate from your preferred SSL vendor stored on your server. If you
 don't already have a certificate, see
-[Generate a CSR](https://support.rackspace.com/how-to/generate-a-csr/) and
-[Purchase or renew an SSL certificate](https://support.rackspace.com/how-to/purchase-or-renew-an-ssl-certificate/)
+[Generate a CSR](/support/how-to/generate-a-csr/) and
+[Purchase or renew an SSL certificate](/support/how-to/purchase-or-renew-an-ssl-certificate/)
 for instructions.
 - The Certificate Authority (CA) bundle with the root and intermediate
 certificates provided by the SSL vendor.
@@ -299,7 +299,7 @@ might experience irreproducible interoperability problems on some clients.
 
 For more information on getting a certificate, see
 [generate a certificate signing request (CSR)](/support/how-to/generate-a-csr)
-and [purchase or renew a Secure Socket Layer (SSL certificate](https://support.rackspace.com/how-to/purchase-or-renew-an-ssl-certificate/).
+and [purchase or renew a Secure Socket Layer (SSL certificate](/support/how-to/purchase-or-renew-an-ssl-certificate/).
 
 #### Add the SSL certificate to Microsoft Azure
 

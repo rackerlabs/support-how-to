@@ -22,7 +22,7 @@ volume to a server, and connecting the volume in a Microsoft&reg; Windows&reg;
 server.
 
 **Note**: Before you can delete an OnMetal server, you must detach the volume.
-See [Detach and delete Cloud Block Storage volumes](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) for instructions.
+See [Detach and delete Cloud Block Storage volumes](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) for instructions.
 
 ### Create a new Cloud Block Storage volume
 

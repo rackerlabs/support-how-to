@@ -69,16 +69,16 @@ For a single-server environment, you must migrate to a new server if your RAM or
 
 Alternatively, you might plan your environment to use horizontal scaling, where more than one server runs your application, with a load balancer to manage traffic to the different servers. Horizontal scaling might not work with all applications, but after you set it up, you can easily add or remove servers to account for fluctuating load requirements.
 
-See the [open-cloud reference architectures article](https://support.rackspace.com/how-to/rackspace-open-cloud-reference-architecture/) for some example environments.
+See the [open-cloud reference architectures article](/support/how-to/rackspace-open-cloud-reference-architecture/) for some example environments.
 
-**Note**: If you are currently using Performance servers, the data disks are not captured when you create an image. To back up data disks, you must rely on Rackspace Cloud Backup or a similar file-based backup approach. If you want your additional storage to be more portable or you want to take data snapshots, consider adding one or more Cloud Block Storage volumes to the new server. See [Create and attach a Cloud Block Storage volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) to learn more.
+**Note**: If you are currently using Performance servers, the data disks are not captured when you create an image. To back up data disks, you must rely on Rackspace Cloud Backup or a similar file-based backup approach. If you want your additional storage to be more portable or you want to take data snapshots, consider adding one or more Cloud Block Storage volumes to the new server. See [Create and attach a Cloud Block Storage volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume/) to learn more.
 
 Format and configure any Cloud Block Storage volumes or data disks
 After you create your server, prepare any attached data disks or Cloud Block Storage volumes by formatting them and configuring the system to use them.
 
-If you’ve attached Cloud Block Storage volumes, see [Prepare your Cloud Block Storage volume](https://support.rackspace.com/how-to/prepare-your-cloud-block-storage-volume/) for more information.
+If you’ve attached Cloud Block Storage volumes, see [Prepare your Cloud Block Storage volume](/support/how-to/prepare-your-cloud-block-storage-volume/) for more information.
 
-For instructions on formatting and mounting data disks on I/O-optimized servers, see [Prepare data disks on a Linux Cloud Servers](https://support.rackspace.com/how-to/preparing-data-disks-on-linux-cloud-servers/).
+For instructions on formatting and mounting data disks on I/O-optimized servers, see [Prepare data disks on a Linux Cloud Servers](/support/how-to/preparing-data-disks-on-linux-cloud-servers/).
 
 If you are setting up attached volumes in a software RAID on Linux, see [the Linux Software-RAID HOWTO](https://www.tldp.org/HOWTO/Software-RAID-HOWTO.html) for instructions.
 
@@ -102,13 +102,13 @@ On Linux, you can use `rsync` to copy a directory over the network directly. For
 
     rsync -e 'ssh' -avl --stats --progress /var/lib/mysql username@123.45.67.89:/var/lib/mysql
 
-For more information about `rsync`, see [Back up your files with rsync](https://support.rackspace.com/how-to/backing-up-your-files-with-rsync/).
+For more information about `rsync`, see [Back up your files with rsync](/support/how-to/backing-up-your-files-with-rsync/).
 
 **Important**: As long as the two cloud servers are in the same regional data center (DFW, ORD, IAD, LON, HKG, or SYD), you can make use of the `10.x` IP address assigned to the two servers to transfer any data. This means you won't be charged for the bandwidth of the data between the two servers. Any data transferred using public IPs will result in potential bandwidth costs.
 
 #### Application-specific options
 
-Other applications might have their own means of facilitating data migration. For example, to migrate a database, you could make the destination server a slave of the origin database to automatically replicate your data to the destination server. You can find information on how to do MySQL&reg; master-slave replication [here](https://support.rackspace.com/how-to/set-up-mysql-master-slave-replication/).
+Other applications might have their own means of facilitating data migration. For example, to migrate a database, you could make the destination server a slave of the origin database to automatically replicate your data to the destination server. You can find information on how to do MySQL&reg; master-slave replication [here](/support/how-to/set-up-mysql-master-slave-replication/).
 
 ### Post-migration tasks
 

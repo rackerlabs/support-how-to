@@ -66,7 +66,7 @@ customer so that you can bill customers individually.
 ### Step 2: Retrieve the CDN access logs recursively (all CDN container logs)
 
 You can download the **.CDN_ACCESS_LOGS** by using cURL, but this
-example uses [Swiftly](https://support.rackspace.com/support/how-to/install-the-swiftly-client-for-cloud-files/),
+example uses [Swiftly](/support/support/how-to/install-the-swiftly-client-for-cloud-files/),
 a Rackspace-developed client tool that
 enables you to download from and upload to Cloud Files. This tool
 simplifies the process and enables you to automate it.

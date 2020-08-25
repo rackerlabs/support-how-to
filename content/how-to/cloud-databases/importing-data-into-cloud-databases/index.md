@@ -40,7 +40,7 @@ sections of this article.
 
       **Note:** If you want to enable external access by using an HA instance
       group, you must pick that option when creating the database. See
-      [Manage Cloud Databases HA instance groups in the Cloud Control Panel](https://support.rackspace.com/support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/)
+      [Manage Cloud Databases HA instance groups in the Cloud Control Panel](/support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/)
       for more detailed instructions.
 
 2.  If you need to change any configuration parameters, do so by using
