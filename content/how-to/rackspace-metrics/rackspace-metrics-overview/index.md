@@ -57,7 +57,7 @@ Rackspace Metrics consists of the following components:
      to compare the results against Rackspace Metrics.
 
      The Metrics Ingestion API is currently in the [Early Access
-     program](https://developer.rackspace.com/docs/metrics/v2/early-access-program/).
+     program](https://docs.rackspace.com/docs/metrics/v2/early-access-program/).
 
 -   **Metrics query**: Rackspace Metrics enables you to retrieve
     metrics data via a public API. Through its Query API, Rackspace
@@ -80,7 +80,7 @@ access data through the Query API.
 
 To obtain access to the Rackspace Metrics Ingestion API, sign up through
 the [Early Access
-program](https://developer.rackspace.com/docs/metrics/v2/early-access-program/).
+program](https://docs.rackspace.com/docs/metrics/v2/early-access-program/).
 
 ### Add appropriate roles
 
@@ -92,7 +92,7 @@ users automatically. If you see permission-related issues in testing,
 
 **Note:** For information on the roles that may access the Rackspace Metrics
 API, see [Role-based access control
-(RBAC)](https://developer.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/). For more information about role-based access control,
+(RBAC)](https://docs.rackspace.com/docs/metrics/v2/general-api-info/role-based-access-control/). For more information about role-based access control,
 see [Learn about Role-Based Access Control
 (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
 
@@ -112,9 +112,9 @@ For more information about Rackspace Metrics, such as access
 endpoints, how to determine your tenant ID and retrieve authentication
 tokens, and supported request options, see the [Rackspace Metrics getting
 started
-guide](https://developer.rackspace.com/docs/metrics/v2/getting-started/)
+guide](https://docs.rackspace.com/docs/metrics/v2/getting-started/)
 and the [Rackspace Metrics general API
-information](https://developer.rackspace.com/docs/metrics/v2/general-api-info/).
+information](https://docs.rackspace.com/docs/metrics/v2/general-api-info/).
 
 ### Get help and provide feedback
 

@@ -96,7 +96,7 @@ The following example creates the container `ACL_Container` by using cURL:
 
     curl -XPUT -H 'X-Auth-Token: $token' https://storage101.iad3.clouddrive.com/v1/MossoCloudFS_0a0a000a-000a-000a-000a-00a00000a00a/ACL_Container
 
-Alternatively, you can use the python-swiftclient, or _[swift](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/cli/swift/)_, a Python-based tool that is primarily used to manage Rackspace Cloud
+Alternatively, you can use the python-swiftclient, or _[swift](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/cli/swift/)_, a Python-based tool that is primarily used to manage Rackspace Cloud
 Files.
 
 The following example creates the same container by using swift:
@@ -165,7 +165,7 @@ because the restricted user does not have access to Cloud Files, this command
 returns a `403 Forbidden` HTTP response and then attempts to upload the file
 `testfile`.
 
-You can avoid this issue by using another tool for swift, _[swiftly](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/cli/swiftly/#swiftly)_. You can pass additional parameters with swiftly, which
+You can avoid this issue by using another tool for swift, _[swiftly](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-interfaces/cli/swiftly/#swiftly)_. You can pass additional parameters with swiftly, which
 enables your restricted user to upload the file directly, without attempting
 to create the container. The swiftly command for performing this action looks
 like the following example:

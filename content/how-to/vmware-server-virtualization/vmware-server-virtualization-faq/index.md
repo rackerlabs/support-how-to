@@ -16,13 +16,13 @@ product_url: vmware-server-virtualization
 
 Rackspace offers two different solutions for DR:
 
-- [Replication Manager](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/replication-manager/):
+- [Replication Manager](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/replication-manager/):
 
   Replication Manager (SRM) is an add-on service for VMware&reg; Server Virtualization
   that utilizes VMware vCenter&trade; Site Recover Manager&trade; (SRM) to automate portions
   of the customer’s disaster recovery (DR) plan.
 
-- [VM Replication](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/vm-replication/):
+- [VM Replication](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/vm-replication/):
 
   VM Replication provides geographical redundancy and helps protect
   business-critical VMs in the event of a data center outage or unplanned
@@ -33,7 +33,7 @@ Rackspace offers two different solutions for DR:
 {{</accordion>}}
 {{<accordion title="Are image-based backups part of the VMware Server Virtualization offering?" col="in" href="accordion2">}}
 
-- [Virtual Machine Recovery](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/vm-recovery/):
+- [Virtual Machine Recovery](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/getting-started/vm-recovery/):
 
   Managed Backup Virtual Machine Recovery (VMR) is the Rackspace-productized
   version of VMware’s API for Data Protection (VADP) based backups to
@@ -89,7 +89,7 @@ they are not in use by powering down VMs through the MyRackspace Portal.
 By powering off a VM from within the OS, you not only generate an
 alert ticket for support to investigate, but the VM continues billing
 at the daily utility rate. To power down VMs through the portal, see
-[Powering a virtual machine on and off](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/managing-vms/#svh-power-vm).
+[Powering a virtual machine on and off](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/managing-vms/#svh-power-vm).
 {{</accordion>}}
 {{<accordion title="How are my VMs backed up?" col="in" href="accordion10">}}
 
@@ -187,18 +187,18 @@ specify the virtual disk that you want expanded.
 
 You can use the MyRackspace Portal to view hypervisor and virtual machine
 performance. For instructions on how to view performance, see the
-[Viewing hypervisor and virtual machine performance section](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/managing-hyps-clusters/) of
+[Viewing hypervisor and virtual machine performance section](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/managing-hyps-clusters/) of
 the Server Virtualization Customer Handbook.
 {{</accordion>}}
 {{<accordion title="How do I create and delete clones or templates?" col="in" href="accordion20">}}
 
 For information on how to create and delete clones or templates, see the [Copy and cloning virtual machines
-section](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/copy-clone-vms/)
+section](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/copy-clone-vms/)
 of the Server Virtualization Customer Handbook.
 {{</accordion>}}
 {{<accordion title="How do I create and delete snapshots?" col="in" href="accordion1">}}
 
-For information on how to create and delete snapshots, see the [Snapshotting a virtual machine section](https://developer.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/managing-vms/#snapshotting-a-virtual-machine) of
+For information on how to create and delete snapshots, see the [Snapshotting a virtual machine section](https://docs.rackspace.com/docs/docs-vmware-server-virt/server-virt-handbook/user-manual/managing-vms/#snapshotting-a-virtual-machine) of
 the Server Virtualization Customer Handbook.
 {{</accordion>}}
 {{<accordion title="Can I have a copy of my Rackspace VM?" col="in" href="accordion21">}}

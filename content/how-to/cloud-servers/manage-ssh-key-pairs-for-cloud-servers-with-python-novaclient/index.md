@@ -34,7 +34,7 @@ generate a key pair and assign its public key to a Linux server when the server
 is created.
 
 You can also manage key pairs directly by using the
-[Cloud Servers API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-a-server-key-pair).
+[Cloud Servers API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-a-server-key-pair).
 
 ### Prepare python-novaclient
 

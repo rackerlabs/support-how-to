@@ -29,7 +29,7 @@ avoid network overload.
 The connection's `X-Forwarded-For` HTTP header stores a visitor's
 originating Internet Protocol (IP) address by default. For more information,
 see [the API documentation for creating a Cloud Load
-Balancer](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#creating-a-load-balancer).
+Balancer](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#creating-a-load-balancer).
 {{< /accordion >}}
 {{< accordion title="Do Cloud Load Balancers support SSL termination?" col="in" href="accordion3" >}}
 
@@ -43,7 +43,7 @@ service has the following features:
 -   HTTP and HTTPS session persistence
 
 Both [the
-API](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#document-api-operations/ssl-termination) and the [Cloud Control
+API](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#document-api-operations/ssl-termination) and the [Cloud Control
 Panel](https://login.rackspace.com/) support SSL termination on Cloud Load
 Balancers.
 
@@ -184,7 +184,7 @@ understand the following requirements:
     issuing a command through the API.
 
     To learn how to complete this process by using the API,
-    see [SSL termination](https://developer.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ssl-termination/).
+    see [SSL termination](https://docs.rackspace.com/docs/cloud-load-balancers/v1/api-reference/ssl-termination/).
 
     To learn how to complete this process by using the Cloud Control Panel,
     see "How do I configure SSL termination by using the Cloud Control Panel?"

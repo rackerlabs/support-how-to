@@ -209,7 +209,7 @@ Yes, you can. For instructions, see [Use Role-Based Access Control
 
 {{< accordion title="How do I query the capability of a given user?" col="in" href="accordion20" >}}
 
-You can query the roles for a given user by using the [List global roles assigned to a user](https://developer.rackspace.com/docs/cloud-identity/v2/api-reference/role-operations/#list-global-roles-assigned-to-a-user) API operation described in the *Identity API Guide*. Additionally, you can view the roles that a user has through the [Cloud Control Panel](https://login.rackspace.com).
+You can query the roles for a given user by using the [List global roles assigned to a user](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/role-operations/#list-global-roles-assigned-to-a-user) API operation described in the *Identity API Guide*. Additionally, you can view the roles that a user has through the [Cloud Control Panel](https://login.rackspace.com).
 {{</ accordion >}}
 
 {{< accordion title="Can I view multiple accounts in the Cloud Control Panel?" col="in" href="accordion21" >}}
@@ -244,7 +244,7 @@ directories.
 {{< accordion title="Does the API offer more features for RBAC than the Cloud Control Panel offers?" col="in" href="accordion25" >}}
 
 Yes, at this time more features are available through the API. For more
-information about using the API for RBAC, see the [Rackspace API Documentation](https://developer.rackspace.com/docs/).
+information about using the API for RBAC, see the [Rackspace API Documentation](https://docs.rackspace.com/docs/).
 {{</ accordion >}}
 
 {{< accordion title="Do account users automatically inherit the RackConnect and Managed Cloud features?" col="in" href="accordion26" >}}

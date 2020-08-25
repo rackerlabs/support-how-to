@@ -22,11 +22,11 @@ Instead of calculating the min/max/average values that only apply to numeric val
 Again, this is assuming that there is limited number of values. Violating that assumption can cause uncertain behavior from the system and would not be supported. Rackspace Metrics team will put monitoring in place to detect and catch cases where a metrics is containing too many values.
 
 #### Ingesting Enum Data through API
-For api commands and additional information on sending enum metrics, see [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
+For api commands and additional information on sending enum metrics, see [Sending enum metrics](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
 
 #### Retrieving Enum Data from API
 
-For api command and additional information on retrieving enum metrics, see [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
+For api command and additional information on retrieving enum metrics, see [Retrieving enum metrics](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
 
 ### Enum Support in Search API
 
@@ -83,9 +83,9 @@ The following are the screen shots of steps to create dashboard based on enum va
 
 
 
-For API commands and information about sending enum metrics, see  [Sending enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
+For API commands and information about sending enum metrics, see  [Sending enum metrics](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#sending-enum-metrics) in the API documentation.
 
-For API command and information about retrieving enum metrics, see  [Retrieving enum metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
+For API command and information about retrieving enum metrics, see  [Retrieving enum metrics](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#retrieving-enum-metrics) in the API documentation.
 
 
 ### FAQ
@@ -96,16 +96,16 @@ For API command and information about retrieving enum metrics, see  [Retrieving 
 
 #### Where is the public documentation for this feature?
 
- - Ingest: [https://developer.rackspace.com/docs/metrics/v2/developer-guide/#send-aggregated-enum-metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#send-aggregated-enum-metrics)
- - Query: [https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-aggregated-set-of-enum-metrics](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-aggregated-set-of-enum-metrics)
+ - Ingest: [https://docs.rackspace.com/docs/metrics/v2/developer-guide/#send-aggregated-enum-metrics](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#send-aggregated-enum-metrics)
+ - Query: [https://docs.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-aggregated-set-of-enum-metrics](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#retrieve-an-aggregated-set-of-enum-metrics)
  - Grafana Support:  (To be Updated)
 
 #### How can I learn more about Rackspace Metrics product?
 
  - Product Overview:  [https://bit.ly/rax-metrics-overview](https://bit.ly/rax-metrics-overview)
- - Getting Started: [https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started)
+ - Getting Started: [https://docs.rackspace.com/docs/metrics/v2/developer-guide/#getting-started](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#getting-started)
  - Grafana support article: [https://support.rackspace.com/how-to/create-a-grafana-dashboard-for-rackspace-metrics/](https://support.rackspace.com/how-to/create-a-grafana-dashboard-for-rackspace-metrics/)
 
 #### How do I sign up an account for EAP?
 
-Sign up at [https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started](https://developer.rackspace.com/docs/metrics/v2/developer-guide/#getting-started).
+Sign up at [https://docs.rackspace.com/docs/metrics/v2/developer-guide/#getting-started](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#getting-started).

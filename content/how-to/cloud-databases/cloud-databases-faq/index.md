@@ -86,7 +86,7 @@ give you faster access to your data.
 For the most up-to-date information about available instance sizes, see
 the [Cloud Databases website](https://www.rackspace.com/cloud/databases/)
 or the _[Cloud Databases Developer
-Guide](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/flavors/#list-flavors)_.
+Guide](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/flavors/#list-flavors)_.
 {{< /accordion >}}
 
 {{< accordion title="What types of Rackspace products and accounts can use Cloud Databases?" col="in" href="accordion7" >}}
@@ -175,17 +175,17 @@ directly to your Cloud Files account for storage.
 
 Scheduled backup, on-demand backup, and restore operations are currently
 supported by the Cloud Control Panel and the [Cloud Databases
-API](https://developer.rackspace.com/docs/cloud-databases/v1/). For more
+API](https://docs.rackspace.com/docs/cloud-databases/v1/). For more
 information, see [Scheduled backups for Cloud
 Databases](/support/how-to/scheduled-backups-for-cloud-databases) and [Manage
 backups for Cloud Databases](/support/how-to/managing-backups-for-cloud-databases).
 For details about using the Cloud Databases
 API, see the [API
-Reference](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/).
+Reference](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/).
 You can also use backup and restore features through the Trove command-line
 interface (CLI) tool. For information about using this tool, see
 [Using the Trove
-client](https://developer.rackspace.com/docs/cloud-databases/v1/getting-started/send-request-ovw/#id2).
+client](https://docs.rackspace.com/docs/cloud-databases/v1/getting-started/send-request-ovw/#id2).
 {{< /accordion >}}
 
 {{< accordion title="How long does a database backup take?" col="in" href="accordion16" >}}
@@ -261,7 +261,7 @@ memory, disk storage, network, and a number of MySQL metrics. You can
 monitor your Cloud Databases instances by using the [Cloud Control
 Panel](/support/how-to/monitoring-cloud-databases-in-the-cloud-control-panel),
 the [Cloud Monitoring
-API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/), or the
+API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/), or the
 [Cloud Monitoring
 CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli).
 
@@ -387,7 +387,7 @@ based on instance size.
 
 For release notes, API documentation, and a _Getting started_ guide for Cloud
 Databases, see [Rackspace Cloud Databases API
-v1.0](https://developer.rackspace.com/docs/cloud-databases/v1/).
+v1.0](https://docs.rackspace.com/docs/cloud-databases/v1/).
 {{< /accordion >}}
 
 {{< accordion title="Are there API or account limits for my Cloud Database instances?" col="in" href="accordion34" >}}
@@ -400,7 +400,7 @@ passes. _Absolute limits_ are fixed at the account level. For the most
 up-to-date information about rate and absolute limits (which include
 instance and volume limits), see the _[Rackspace
 Cloud Databases Developer
-Guide](https://developer.rackspace.com/docs/cloud-databases/v1/general-api-info/limits/)_.
+Guide](https://docs.rackspace.com/docs/cloud-databases/v1/general-api-info/limits/)_.
 {{< /accordion >}}
 
 {{< accordion title="If my database instance is unavailable, what happens to my data?" col="in" href="accordion35" >}}
@@ -428,7 +428,7 @@ You can also use the Cloud Control Panel, the API, or the CLI to manage your
 database instance. While some features are not available in the Cloud Control
 Panel, you can access these features through the API or the CLI. More
 information about the API and the CLI is available in the [Cloud Databases API
-documentation](https://developer.rackspace.com/docs/cloud-databases/v1/).
+documentation](https://docs.rackspace.com/docs/cloud-databases/v1/).
 {{< /accordion >}}
 
 {{< accordion title="How do I set the default time zone for MySQL?" col="in" href="accordion37" >}}
@@ -455,7 +455,7 @@ and [Export Data from MySQL](/support/how-to/exporting-data-from-mysql).
 Yes. Configuration settings for Cloud Databases instances can be stored
 and applied by using the [Cloud Control
 Panel](https://login.rackspace.com/) and the [Cloud Databases
-API](https://developer.rackspace.com/docs/cloud-databases/v1/).
+API](https://docs.rackspace.com/docs/cloud-databases/v1/).
 You can save your settings in configuration groups, and then apply each
 configuration group to multiple instances. You can maintain multiple
 configuration groups to account for different workloads.
@@ -565,7 +565,7 @@ instance to an HA group at a later date.
 Yes. You can monitor replication using the monitoring agent installed on
 the instance. For more information, see [Database replication with Cloud Databases](how-to/database-replication-with-cloud-databases/) and
 [Monitoring Read
-Replication](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-read-replication)
+Replication](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-general-api-info/monitoring-read-replication)
 in the API documentation.
 {{< /accordion >}}
 
@@ -622,7 +622,7 @@ Yes we do support master-slave replication. You can add and manage
 replicas using [Cloud Control Panel](https://login.rackspace.com/) and
 Cloud Databases API. For more information about managing replication
 by using the API, see the [API documentation for
-replication](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/replication/).
+replication](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/replication/).
 
 ------------------------------------------------------------------------
 {{< /accordion >}}

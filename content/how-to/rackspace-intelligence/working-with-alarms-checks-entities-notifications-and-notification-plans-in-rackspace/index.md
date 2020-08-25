@@ -36,14 +36,14 @@ were created for an entity. Customers with dedicated accounts can use
 remote checks. Remote checks monitor an entity's Internet
 connectivity. Remote checks are performed by attempting to contact the
 entity from outside the entity. For more information, see [Remote check
-types](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-check-type-ref).
+types](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-check-type-ref).
 
 Rackspace Intelligence for dedicated accounts supports the following
 remote checks:
 
-- [ping](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ping)
-- [tcp](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-tcp)
-- [http](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-http)
+- [ping](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ping)
+- [tcp](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-tcp)
+- [http](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-http)
 
 To view a check on the Intelligence interface, perform the following
 steps:

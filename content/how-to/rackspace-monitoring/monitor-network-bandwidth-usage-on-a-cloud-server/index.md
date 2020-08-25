@@ -48,10 +48,10 @@ compromise and correct the issue.
 The best course of action is to avoid compromise in the first place. See
 the following documents for some security suggestions:
 
-- [Best practices in the cloud](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-ops/bestpractice/)
+- [Best practices in the cloud](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-ops/bestpractice/)
 - [Windows Server security best practices](https://support.rackspace.com/support/how-to/windows-server-security-best-practices/)
 - [Best practices for firewall rules configuration](https://support.rackspace.com/support/how-to/best-practices-for-firewall-rules-configuration/)
-- [Controlling network traffic by using security groups and rules](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/controlling-network-access/security-groups/)
+- [Controlling network traffic by using security groups and rules](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/controlling-network-access/security-groups/)
 
 ### Site and application configuration
 

@@ -15,7 +15,7 @@ Monitoring is included with Cloud Databases to help you manage the
 health of your instances. You can configure monitoring checks and alarms by
 using the [Cloud Control Panel](https://login.rackspace.com/) or the
 [Cloud Monitoring
-API](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
+API](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
 
 *Monitoring checks* describe the metrics that are being monitored, and
 monitoring alarms are actions that can be triggered when a check meets
@@ -129,12 +129,12 @@ for a check:
 
     The metrics that are available for use as criteria are listed in the
     **Available Metrics** section of the alarm editing screen. A description
-    of each metric is provided in the ["Agent check types"](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-type-ref) section of the
+    of each metric is provided in the ["Agent check types"](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-type-ref) section of the
     Cloud Monitoring API documentation.
 
     The language that is used to define criteria for alarms is documented in
     the ["Alert Triggering and
-    Alarms"](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/)
+    Alarms"](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/)
     section of the Cloud Monitoring API documentation.
 
     <img src="dbcpualarm.png" />
@@ -154,11 +154,11 @@ statuses. By default, `Warning` and `Critical` statuses cause the text of
 the returned status to be emailed to the technical contact for your
 account. You can define more complex notification plans by using the
 [Cloud Monitoring
-API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/create-first-monitor/#gsg-make-notification-plan).
+API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/create-first-monitor/#gsg-make-notification-plan).
 
 The available metrics for all of the alarms are displayed in the alarm
 creation dialog box and are explained in the [Cloud Monitoring API
-documentation](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
+documentation](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
 
 ### CPU alarms
 

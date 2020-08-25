@@ -52,12 +52,12 @@ prerequisites:
     is booted. You can do this with various programs such as Chef,
     Puppet, and Salt. You can create your images with the API or through
     the Cloud Control Panel. See the [Cloud Servers Developer
-    Guide](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/)
+    Guide](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/)
     for information about using the API.
 -   *(Optional)* A load balancer. One is allowed per each group of 25
     server images. You can create a load balancer with the API or the
     Cloud Control Panel. See the [Cloud Load Balancers Developer
-    Guide](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/)
+    Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/)
     for information about using the API.
 
 After you are set up, there are some concepts that you should

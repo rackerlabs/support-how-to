@@ -79,4 +79,4 @@ consists of the following items:
     page](/support/how-to/rackspace-auto-scale).
 -   To learn more about the Rackspace Auto Scale API, see the [Rackspace
     Auto Scale API Getting Started
-    Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-getting-started).
+    Guide](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#document-getting-started).

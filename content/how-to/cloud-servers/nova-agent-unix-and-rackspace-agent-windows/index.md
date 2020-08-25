@@ -21,7 +21,7 @@ agent.
 
 Nova-agent is a required service for all virtualized servers in the Rackspace
 public cloud. Thus OnMetal is excluded. The service interacts with XenServer&reg. According
-to the [Rackspace developer docs](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/),
+to the [Rackspace developer docs](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/),
 nova-agent is a service that:
 
     "provides a means of interacting with the server through the API or the Cloud
@@ -204,5 +204,5 @@ for setting up golden images with autoscale.
 
 ### Related Articles
 
-[Operating a cloud server with nova-agent](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/)
+[Operating a cloud server with nova-agent](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/)
 [All About Nova-Agent (on Linux)](https://www.syntheticworks.com/rackspace-cloud/linux-rackspace-cloud/all-about-nova-agent-linux/)

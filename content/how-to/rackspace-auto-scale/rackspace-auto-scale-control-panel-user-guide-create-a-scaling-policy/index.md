@@ -47,7 +47,7 @@ There are two steps to create a scaling policy:
         -   **Webhook URL**: You must create and configure the webhook
             by using the Auto Scale API. To learn more about this, read
             about
-            [Webhooks](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls)
+            [Webhooks](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls)
             in the *Auto Scale API Developer's Guide*.
     -   **Amount**: Select **Scale Up** or **Scale Down**, enter an
         integer, and select **Servers** or **Percent**. If you specify
@@ -89,7 +89,7 @@ next steps that you might take:
 
 -   To learn about the Auto Scale API, see the [Rackspace Auto Scale
     Developer
-    Guide](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-developer-guide).
+    Guide](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#document-developer-guide).
 
 ### User Guide sections
 

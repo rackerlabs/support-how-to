@@ -120,7 +120,7 @@ You can create the policy with the webhook by using the control panel,
 but you have to use the Auto Scale API to create and configure the
 webhook. You can learn more about webhooks in the *Auto Scale API
 Developers Guide* section on
-[Webhooks](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
+[Webhooks](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
 
 The following diagrams illustrate some of the principles governing
 scaling policies.

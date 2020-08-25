@@ -14,7 +14,7 @@ product_url: cloud-servers
 The [Cloud Control Panel](https://login.rackspace.com/) gives you GUI access to
 all of your Rackspace services, but sometimes you might want to manage your
 assets through a scripting interface like the API. (See our
-[catalog of APIs](https://developer.rackspace.com/docs/) for reference.)
+[catalog of APIs](https://docs.rackspace.com/docs/) for reference.)
 
 Before you can start using Rackspace APIs, you need to have your API key. Your
 API key is a unique alphanumeric identifier associated with your account that

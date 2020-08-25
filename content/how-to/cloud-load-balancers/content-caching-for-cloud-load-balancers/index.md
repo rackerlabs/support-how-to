@@ -18,7 +18,7 @@ easily retrieve them.
 ### Enable content caching
 
 You can enable content caching through the [Cloud Load Balancers
-API](https://developer.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/) or the [Cloud Control Panel](https://login.rackspace.com).
+API](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/) or the [Cloud Control Panel](https://login.rackspace.com).
 
 Content caching can be enabled or disabled for a load balancer in the
 Cloud Control Panel by going to its details screen, scrolling down to

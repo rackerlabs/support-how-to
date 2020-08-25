@@ -37,7 +37,7 @@ Existing Cloud customers have access to the Rackspace Cloud DNS by default.
 
 {{< accordion title="Where can I find the Cloud DNS API documentation?" col="in" href="accordion3" >}}
 
-See the [Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
+See the [Cloud DNS Developer Guide](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for information about the Cloud DNS API.
 
 {{< /accordion >}}
@@ -83,7 +83,7 @@ the `XAuth-User` x-header.
 Rackspace Cloud Control Panel. Place it in the `X-Auth-Key` x-header.
 
 For full authentication details, see the
-[Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+[Cloud DNS Developer Guide](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/).
 {{< /accordion >}}
 
 {{< accordion title="What account number do I use to access the service?" col="in" href="accordion8" >}}
@@ -109,7 +109,7 @@ Additionally, users can search domains by filtering. We do not support filtering
 records.
 
 For a full list of supported API operations, see the [
-Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+Cloud DNS Developer Guide](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/).
 {{< /accordion >}}
 
 {{< accordion title="What record types does Cloud DNS support?" col="in" href="accordion11" >}}
@@ -134,7 +134,7 @@ custom attributes indicating the record type. We do not currently support the
 `SPF` `RR` type as defined in [RFC 4408](https://tools.ietf.org/html/rfc4408).
 
 For more information about supported record types, see the
-[Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+[Cloud DNS Developer Guide](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/).
 {{< /accordion >}}
 
 {{< accordion title="Can I import and export domains?" col="in" href="accordion12" >}}
@@ -208,7 +208,7 @@ By default, all accounts have a preconfigured set of thresholds (or limits) to
 manage capacity and prevent abuse of the system. The system recognizes two kinds
 of limits: *rate limits* and *absolute limits*. Rate limits are thresholds that are
 reset after a certain amount of time passes. Absolute limits are fixed. See the [
-Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
+Cloud DNS Developer Guide](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for more information on rate limits.
 {{< /accordion >}}
 ### Support
@@ -222,7 +222,7 @@ only if the total number of existing  domains plus requested domains, sub-domain
 or records is within the account limits. If the total exceeds the account limit,
 the entire request is rejected, and a `413 Request Entity Too Large` message is
 returned. See the
-[Cloud DNS Developer Guide](https://developer.rackspace.com/docs/cloud-dns/v1/developer-guide/)
+[Cloud DNS Developer Guide](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/)
 for more information on absolute limits.
 {{< /accordion >}}
 

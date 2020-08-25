@@ -19,9 +19,9 @@ Networking operations.
 
 {{<accordion title="Where are the docs?" col="in" href="accordion1">}}
 
--  [Security Groups concepts and introduction](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-concepts/concepts-security-groups)
--  [Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide)
--  [Cloud Networks Getting Started Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-getting-started)
+-  [Security Groups concepts and introduction](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-concepts/concepts-security-groups)
+-  [Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide)
+-  [Cloud Networks Getting Started Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-getting-started)
 {{</accordion>}}
 {{<accordion title="Why are you introducing Rackspace Networking based on the OpenStack Neutron API?" col="in" href="accordion2">}}
 

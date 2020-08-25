@@ -33,7 +33,7 @@ The following concepts will help you to get started quickly:
     Windows and Linux servers are accessible through a web console
     from our Control Panel as well.
 -   Customers can manage Cloud Servers through the [Control Panel](https://manage.rackspacecloud.com), or an
-    [Application Programming Interface](https://developer.rackspace.com/docs/)(API).
+    [Application Programming Interface](https://docs.rackspace.com/docs/)(API).
 -   The hardware that hosts your Cloud Server can be located in any of our
     [data centers](https://www.rackspace.com/en-us/about/datacenters).
 
@@ -58,8 +58,8 @@ The following concepts will help you to get started quickly:
 
 ### Advanced Cloud Server operations
 
--   [Cloud Servers Developer Guide](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/)
--   [Cloud Servers API Reference](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-api-reference)
+-   [Cloud Servers Developer Guide](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/)
+-   [Cloud Servers API Reference](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-api-reference)
 
 ### Managed Services Cloud Server operations
 

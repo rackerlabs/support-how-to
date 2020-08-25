@@ -61,7 +61,7 @@ and API users:
     [Introducing the Rackspace Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
 -   **API users**: See the Cloud Servers [API documentation for the
     Scheduled Images
-    extension](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
+    extension](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
 
 Images are stored in **Cloud Images**.  You're charged for them as if they were
 stored in your Cloud Files account.  Thus, you'll be charged your normal Cloud
@@ -249,7 +249,7 @@ options will remain the same as they are now.
 {{<accordion title="Where can I get more information about Scheduled Images?" col="in" href="accordion18">}}
 
 -   [Scheduled Images API Extension
-    Documentation](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
+    Documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
 -   [Using python-novaclient to manage scheduled
     images](/support/how-to/using-python-novaclient-to-manage-scheduled-images)
 {{</accordion>}}

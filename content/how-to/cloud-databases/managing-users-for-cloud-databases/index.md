@@ -111,17 +111,17 @@ privileges for individual users.
 
 There are two ways to enable root user on Cloud Databases. One way is by
 using the [Trove Command Line
-Tool](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#using-the-trove-client),
+Tool](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#using-the-trove-client),
 generally referred to as the CLI. Instructions for using this tool
 follow. Another way to enable the root user is through the
-[API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#enable-root-user).
+[API](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#enable-root-user).
 Support for access-level control on Cloud Databases through our
 Control Panel will be provided in the future.
 
 #### Use the Trove command-line tool
 
 In order to use the CLI, first you must [install the trove
-client](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#id5).
+client](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#id5).
 After installing the trove client, you can enable the root user for the
 database instance by using the following command, where &lt;instance&gt;
 is the ID of the instance:
@@ -165,4 +165,4 @@ calls to enable the root user.
 
 If you want to enable the root user via the API, you can follow the
 examples located in our [API
-documentation](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#enable-root-user).
+documentation](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#enable-root-user).

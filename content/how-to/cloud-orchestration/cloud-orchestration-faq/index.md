@@ -25,7 +25,7 @@ modifications to ensure a positive customer experience on our cloud.
 You can create, edit, update, and delete full stack configurations by using
 the [Cloud Control Panel](https://login.rackspace.com), the [Cloud
 Orchestration
-API](https://developer.rackspace.com/docs/cloud-orchestration/v1/?&_ga=2.260382863.302649394.1521129640-20219293.1519936242#document-getting-started), or a
+API](https://docs.rackspace.com/docs/cloud-orchestration/v1/?&_ga=2.260382863.302649394.1521129640-20219293.1519936242#document-getting-started), or a
 command-line interface (CLI). The [Cloud Control
 Panel](https://login.rackspace.com) has a **Rackspace
 Templates** area that provides access to pre-built templates. These templates
@@ -53,7 +53,7 @@ use the open source Heat Python client developed by the OpenStack
 community. The Python Heat Client is compatible with Rackspace's Cloud
 Orchestration Service. You can find instructions for obtaining and installing
 the command-line client in the Cloud Orchestration [Getting
-Started Guide](https://developer.rackspace.com/docs/cloud-orchestration/v1/#document-getting-started).
+Started Guide](https://docs.rackspace.com/docs/cloud-orchestration/v1/#document-getting-started).
 
 The Heat Python client provides command-line access to Cloud Orchestration
 API operations. We recommend that you use this client to run simple
@@ -211,7 +211,7 @@ resources to a hybrid environment.
 
 {{< accordion title="Can a template be applied on top of an existing stack?" col="in" href="accordion17" >}}
 
-Yes. You can use the [update stack](https://developer.rackspace.com/docs/cloud-orchestration/v1/api-reference/stack-operations/#update-stack) operation in the Cloud Orchestration API to
+Yes. You can use the [update stack](https://docs.rackspace.com/docs/cloud-orchestration/v1/api-reference/stack-operations/#update-stack) operation in the Cloud Orchestration API to
 apply a template to an existing stack.
 
 **WARNING**: If the template is unable to detect your existing
@@ -221,7 +221,7 @@ your data. Back up your data before you begin this task.
 
 {{< accordion title="Can a Rackspace template be installed on existing deployed infrastructure?" col="in" href="accordion18" >}}
 
-Yes. You can use the [adopt stack](https://developer.rackspace.com/docs/cloud-orchestration/v1/api-reference/stack-operations/#adopt-stack) operation in the Cloud Orchestration
+Yes. You can use the [adopt stack](https://docs.rackspace.com/docs/cloud-orchestration/v1/api-reference/stack-operations/#adopt-stack) operation in the Cloud Orchestration
 API to use existing cloud resources in a new stack.
 {{< /accordion >}}
 
@@ -306,7 +306,7 @@ Yes. Because Rackspace Cloud Orchestration is based on OpenStack Heat, you can
 easily deploy your existing Heat template on Rackspace Cloud. However, the
 template must use resources that are in the [Rackspace Cloud Orchestration
 Resource
-Reference](https://developer.rackspace.com/docs/cloud-orchestration/v1/resources-reference/).
+Reference](https://docs.rackspace.com/docs/cloud-orchestration/v1/resources-reference/).
 
 You can obtain a current list of resources through a CLI.
 {{< /accordion >}}
@@ -327,7 +327,7 @@ Yes. There are two main differences:
 
     Rackspace-specific resources are clearly marked in our documentation
     and begin with the word **Rackspace**. To obtain a full list of supported
-    resource types, see the documentation for the [list resources](https://developer.rackspace.com/docs/cloud-orchestration/v1/api-reference/stack-resources/#list-resources) API operation.
+    resource types, see the documentation for the [list resources](https://docs.rackspace.com/docs/cloud-orchestration/v1/api-reference/stack-resources/#list-resources) API operation.
 
     **Note**: The **OS:Heat:ChefSolo** resource in this list is a
     Rackspace-contributed resource that is incorrectly labeled as Heat.
@@ -408,7 +408,7 @@ configuration management artifacts that are needed to install the appropriate
 applications. Templates are written using the Heat Orchestration Template
 (HOT) syntax, which is written in YAML. For documentation on how to
 write templates, see the [Rackspace Cloud Orchestration templates user
-guide](https://developer.rackspace.com/docs/user-guides/orchestration/).
+guide](https://docs.rackspace.com/docs/user-guides/orchestration/).
 {{< /accordion >}}
 
 {{< accordion title="How are Cloud Orchestration templates different from Chef or Puppet?" col="in" href="accordion33" >}}

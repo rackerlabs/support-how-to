@@ -20,7 +20,7 @@ configurations of its own.
 
 You also cannot migrate an encrypted vault.
 
-See the [Migrate Vault API call](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault)
+See the [Migrate Vault API call](https://docs.rackspace.com/docs/cloud-backup/v1/developer-guide/#migrate-vault)
 for a description.
 {{< /accordion >}}
 

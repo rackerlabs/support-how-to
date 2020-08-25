@@ -39,7 +39,7 @@ in your terminal to begin posting messages to your Queue.
 You can create a queue from the command line by submitting a request to the Rackspace Cloud
 Queues API. You need to provide the following values in your request:
 
--  `$TOKEN` - [valid Rackspace Cloud authentication token](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-getting-started/authenticate)
+-  `$TOKEN` - [valid Rackspace Cloud authentication token](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#document-getting-started/authenticate)
 -  `$ENDPOINT` -  the Cloud Queues API endpoint returned in the service catalog
 
 Use the following cURL command to create a queue using the Cloud Queues API:

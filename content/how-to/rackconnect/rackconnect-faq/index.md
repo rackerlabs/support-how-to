@@ -136,7 +136,7 @@ resolving this error:
     created in cloud accounts with a [Managed Operations](https://www.rackspace.com/managed-cloud/) service level.
 -   With the Cloud Servers API, specify the cloud network that you want
     to attach to the cloud server. If you specify one or more networks,
-    your server is attached to only those networks. For more information, see the [Create your first Server](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server-intro)
+    your server is attached to only those networks. For more information, see the [Create your first Server](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-getting-started/create-server-intro)
     section of the Cloud Servers v2 Developer Guide.
 {{</accordion>}}
 
@@ -365,7 +365,7 @@ the following places:
 -   You can retrieve the public IP address through the Cloud Servers API
     by querying for server details. The field containing the RackConnect
     Public IP address is called `accessIPv4`. For details about using
-    the API to retrieve server information, see the [Getting server details](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#getting-server-details)
+    the API to retrieve server information, see the [Getting server details](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#getting-server-details)
     section in the *Cloud Servers v2 Developer Guide*.
 {{</accordion>}}
 {{<accordion title="Can I use cloud server images to create cloud servers in different regions?" col="in" href="accordion32">}}

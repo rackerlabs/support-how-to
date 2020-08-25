@@ -11,7 +11,7 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-Rackspace Monitoring provides a powerful [alarm language](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#alarm-language) that enables you to set thresholds and create complex alarms. Using Rackspace Monitoring rather than a Nagios server, for example, provides the following benefits:
+Rackspace Monitoring provides a powerful [alarm language](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#alarm-language) that enables you to set thresholds and create complex alarms. Using Rackspace Monitoring rather than a Nagios server, for example, provides the following benefits:
 
 - Create expressive alarms that validate multiple criteria, using a JavaScript-like language rather than a JSON API. Following is an example alarm definition:
 
@@ -31,13 +31,13 @@ Rackspace Monitoring provides a powerful [alarm language](https://developer.rack
 
 - Put developers in control by letting them build thresholds similar to how you create your application code.
 
-- Test thresholds before you configure them. Use data from the [test check API operation](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#testing-the-check) and feed that into the [test alarm operation](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#test-an-alarm) to simulate an alerting scenario.
+- Test thresholds before you configure them. Use data from the [test check API operation](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#testing-the-check) and feed that into the [test alarm operation](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#test-an-alarm) to simulate an alerting scenario.
 
 - Use multiple data center alert policies to seamlessly evaluate alarm criteria from multiple data centers. The following graph shows a check running in three monitoring zones. The yellow and red areas represent when an alarm is in WARNING and CRITICAL, respectively.
 
    <img src="alarm-language-monitoring-graph.png" alt="sample graph that shows a check running in three monitoring zones" />
 
-- Send an alert to [different notification addresses depending on severity](https://developer.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
+- Send an alert to [different notification addresses depending on severity](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
 
 - Reduce false alerts on network issues.
 

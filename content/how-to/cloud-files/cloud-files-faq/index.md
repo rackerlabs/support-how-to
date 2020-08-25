@@ -71,8 +71,8 @@ Storage systems become distributed as they grow. OpenStack Swift (the basis for 
 
 {{< accordion title="Where can I find Cloud Files documentation?" col="in" href="accordion6" >}}
 
--   [Cloud Files Developer Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
--   [Cloud Files Getting Started Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started)
+-   [Cloud Files Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/)
+-   [Cloud Files Getting Started Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started)
 
 ------------------------------------------------------------------------
 {{< /accordion >}}
@@ -372,8 +372,8 @@ Developer guides are available on the Rackspace API documentation site.
 Documentation is available for the raw API and for language-specific
 SDKs.
 
--   [Cloud Files API Getting Started Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started)
--   [Cloud Files Developers Guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/)
+-   [Cloud Files API Getting Started Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started)
+-   [Cloud Files Developers Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/)
 {{< /accordion >}}
 
 {{< accordion title="Why does one of my Cloud Files scheduled tasks get terminated abruptly?" col="in" href="accordion35" >}}

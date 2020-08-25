@@ -20,7 +20,7 @@ Rackspace Auto Scale is written in Python and calls the Rackspace Cloud
 Servers, Rackspace Cloud Load Balancers, and Rackspace RackConnect v3
 APIs. All Rackspace Cloud Server **create server** configuration
 parameters can be used with Auto Scale. For more information, see
-the [Rackspace Cloud Servers documentation](https://developer.rackspace.com/).
+the [Rackspace Cloud Servers documentation](https://docs.rackspace.com/).
 For technical details, see the public [Auto Scale GitHub
 documentation](https://github.com/rackerlabs/otter/tree/master/doc) and
 the public [Auto Scale GitHub
@@ -75,7 +75,7 @@ This tip shows you how to use a webhook to trigger an Auto Scale policy.
 It does not explain how to create a check or an Auto Scale group.  For
 information about creating checks and alarms, see the *[Rackspace Monitoring
 Developer
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)*
+Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)*
 or the [Rackspace Monitoring Checks and
 Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms)
 article.
@@ -155,7 +155,7 @@ Intelligence](https://intelligence.rackspace.com/) UI.
 To quickly add servers to or remove servers from a scaling group, send a
 request to change the value of the **minEntities** or **maxEntities**
 parameter, as documented in the [Update scaling group
-configuration](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#update-scaling-group-configuration)
+configuration](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#update-scaling-group-configuration)
 section of the *Rackspace Auto Scale API Developer* *Guide.*
 
 Following is an example request:
@@ -173,7 +173,7 @@ Following is an example request:
 You can remove a specific server from a scaling group by using the
 delete server operation. For more information, see the [Delete server
 from scaling
-group](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
+group](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
 section of the *Rackspace Auto Scale API Developer Guide.*
 
 ### maxEntities and minEntities settings affect scaling
@@ -356,7 +356,7 @@ two servers will be deleted.
 You can remove a specific server from a scaling group by using the
 delete server operation. For more information, see the [Delete server
 from scaling
-group](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
+group](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
 section *Rackspace Auto Scale API Developer Guide.*
 
 ###Choose the flavor of a server for a scaling group
@@ -366,7 +366,7 @@ scaling group, you must choose a flavor in the scaling group that is
 equal to, or greater than, the capacity of the flavor of the server from
 which the image was created. For more information about available server
 flavors, see
-[Flavors](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#flavors)
+[Flavors](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#flavors)
 in the Cloud Servers API documentation.
 
 ### Cloud bursting with Auto Scale and RackConnect

@@ -72,7 +72,7 @@ this endpoint to bring Auto Scale back in sync with the correct number
 of servers in a group when a server has been deleted through the API or
 the Cloud Control Panel. For more information, see the Rackspace Auto
 Scale Developer's Guide [Delete server from scaling
-group](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
+group](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
 section.
 {{</accordion>}}
 {{<accordion title="Can I suspend servers and restore them quickly to the same IP address?" col="in" href="accordion9">}}
@@ -136,9 +136,9 @@ endpoing you call to invoke the policy execution.
 
 For information on the parameters used with the Auto Scale API, see the
 [Scaling group
-configurations](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/autoscale-groups)
+configurations](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/autoscale-groups)
 and [Launch
-configuration](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/configurations)
+configuration](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#document-api-operations/configurations)
 sections in the Auto Scale API Developer's Guide.
 
 For information on the parameters used with the Auto Scale Control
@@ -152,7 +152,7 @@ No. There are no specific rules within Auto Scale for monitoring
 specific servers. However, you can do this through Monitoring
 configurations, which are documented in the [Cloud Monitoring API
 Developer's
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
+Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/).
 {{</accordion>}}
 {{<accordion title="Can I have multiple load balancers in a scaling group?" col="in" href="accordion19">}}
 

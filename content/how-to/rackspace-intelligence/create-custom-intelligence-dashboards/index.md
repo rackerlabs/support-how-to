@@ -33,7 +33,7 @@ A widget is a component of a custom dashboard that is customized to show the mon
 
 #### Add performance graphs
 
-Performance graphs show the relationships among various check types and metrics for specific entities. For more information about check types, see [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/). For more information about metrics, see the Metrics section of the [Rackspace Monitoring API reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
+Performance graphs show the relationships among various check types and metrics for specific entities. For more information about check types, see [Check types reference](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/). For more information about metrics, see the Metrics section of the [Rackspace Monitoring API reference](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/metrics-operations/).
 
 Use the following process to add a performance graph to your custom dashboard:
 

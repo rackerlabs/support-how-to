@@ -21,7 +21,7 @@ and be familiar with the following elements:
 -   JSON or XML data serialization formats
 
 For the full list and technical details of all available Cloud DNS API operations, see the 
-[Cloud DNS API reference](https://developer.rackspace.com/docs/cloud-dns/v1/api-reference/).
+[Cloud DNS API reference](https://docs.rackspace.com/docs/cloud-dns/v1/api-reference/).
 
 Currently available domain and record operations include those shown in the following chart:
 {{< table "table table-dark table-striped table-bordered" >}}
@@ -41,7 +41,7 @@ Currently available domain and record operations include those shown in the foll
 | Provisions a new DNS domain under the account specified by the BIND9-formatted file configuration contents defined in the request object. Failures in the validation process are non-recoverable and require the caller to correct the cause of the failure and POST the request again. | Provides the BIND9-formatted contents of the requested domain. This operation is intended for a single domain only, so no subdomain information is provided. |
 {{< /table >}}
 
-The [Cloud DNS API service](https://developer.rackspace.com/docs/cloud-dns/v1/) provides support for Name Server (NS), TXT and SRV records. The following detailed information describes each of these record types:
+The [Cloud DNS API service](https://docs.rackspace.com/docs/cloud-dns/v1/) provides support for Name Server (NS), TXT and SRV records. The following detailed information describes each of these record types:
 
 -   *NS* records indicate where the domain's DNS hosting
     services are located. They effectively delegate a domain to use a set

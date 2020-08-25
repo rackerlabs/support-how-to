@@ -13,7 +13,7 @@ product_url: cloud-databases
 
 You can save and manage the settings for Cloud Databases instances in
 configuration groups by using the [Cloud Databases
-API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-developer-guide)
+API](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-developer-guide)
 or the
 [python-troveclient](https://pypi.python.org/pypi/python-troveclient)
 command-line interface for the API.
@@ -41,7 +41,7 @@ the Python package manager tool [pip](https://pypi.python.org/pypi/pip).
 
 For full installation instructions for the trove client, see the [Cloud
 Databases Getting Started
-Guide](https://developer.rackspace.com/docs/cloud-databases/v1/getting-started/).
+Guide](https://docs.rackspace.com/docs/cloud-databases/v1/getting-started/).
 
 Further documentation for the trove client is available at the
 [`python-troveclient` project

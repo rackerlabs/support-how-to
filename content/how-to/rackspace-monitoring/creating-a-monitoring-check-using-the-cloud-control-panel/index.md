@@ -18,7 +18,7 @@ based on predefined check templates.
 
 You can view the settings for each check template in the [Rackspace
 Monitoring Developer
-Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-example-operations).
+Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-example-operations).
 
 You can also use
 [raxmon](/support/how-to/getting-started-with-rackspace-monitoring-cli),

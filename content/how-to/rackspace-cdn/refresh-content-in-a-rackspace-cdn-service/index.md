@@ -26,7 +26,7 @@ Files** or **Refresh Files By Path**.
 4. Click **Refresh Content** to activate the refresh action.
 
 For information about handling a content refresh via the API, see the
-[purge a cached asset](https://developer.rackspace.com/docs/cdn/v1/developer-guide/#purge-a-cached-asset)
+[purge a cached asset](https://docs.rackspace.com/docs/cdn/v1/developer-guide/#purge-a-cached-asset)
 operation.
 
 

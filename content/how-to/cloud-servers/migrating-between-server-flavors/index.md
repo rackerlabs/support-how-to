@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 Within the Rackspace Cloud, you have different server flavors from which to choose. 
-You can view the list [here](https://developer.rackspace.com/docs/cloud-servers/v2/general-api-info/flavors/).
+You can view the list [here](https://docs.rackspace.com/docs/cloud-servers/v2/general-api-info/flavors/).
 
 If you outgrow your server and need more resources, the best option is to scale horizontally by cloning your
 servers and placing them behind a load balancer. Horizontal scaling, in most cases, works better than

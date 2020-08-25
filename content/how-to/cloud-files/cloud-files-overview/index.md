@@ -70,4 +70,4 @@ container are directly accessible over the CDN.
 You can also access Cloud Files by using the following tools:
 
 - Other graphical user interfaces, such as Cyberduck
-- The [Cloud Files API](https://developer.rackspace.com/docs/cloud-files/v1/)
+- The [Cloud Files API](https://docs.rackspace.com/docs/cloud-files/v1/)

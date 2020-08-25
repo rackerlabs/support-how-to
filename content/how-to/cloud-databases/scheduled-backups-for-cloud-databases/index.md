@@ -150,7 +150,7 @@ Use the following steps to delete a scheduled backup:
 
 You can enable, modify, and delete scheduled backups through the API by using
 the API operations that are described in the [Cloud Databases API
-Reference](https://developer.rackspace.com/docs/cloud-databases/v1/api-reference/automated-backups/).
+Reference](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/automated-backups/).
 
 The following table provides a brief overview of the scheduled backup API
 operations:

@@ -13,7 +13,7 @@ product_url: cloud-networks
 
 The Vyatta&reg; vRouter has been discontinued by its vendor AT&T, and as a result, 
 Rackspace no longer offers support for this platform. We recommend switching
-your virtual firewall to our new offering, the [Fortinet&reg; Fortigate&reg;-VM](https://developer.rackspace.com/blog/introducing-fortigate-vm-for-rackspace-openstack-public-cloud/).
+your virtual firewall to our new offering, the [Fortinet&reg; Fortigate&reg;-VM](https://docs.rackspace.com/blog/introducing-fortigate-vm-for-rackspace-openstack-public-cloud/).
 
 ### Frequently Asked Questions
 {{<accordion title="Are you removing my current Vyatta vRouter server(s)?" col="in" href="accordion1">}}

@@ -90,5 +90,5 @@ is deleted.
 
 For additional API documentations, see the following resources:
 
-- [Rackspace Cloud Queues Getting Started Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started)
-- [Rackspace Cloud Queues API Developer Guide](https://developer.rackspace.com/docs/cloud-queues/v1/developer-guide/#developer-guide)
+- [Rackspace Cloud Queues Getting Started Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#getting-started)
+- [Rackspace Cloud Queues API Developer Guide](https://docs.rackspace.com/docs/cloud-queues/v1/developer-guide/#developer-guide)

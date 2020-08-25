@@ -30,5 +30,5 @@ Our Cloud Databases product is a standalone, API-based relational database servi
 
 ###  Cloud Databases API
 
-- [Getting Started with the Cloud Databases API](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#getting-started)
-- [Cloud Databases API Developer's Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/)
+- [Getting Started with the Cloud Databases API](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#getting-started)
+- [Cloud Databases API Developer's Guide](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/)

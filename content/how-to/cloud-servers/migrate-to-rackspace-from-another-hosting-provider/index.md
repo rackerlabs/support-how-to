@@ -22,7 +22,7 @@ This article provides instructions for developers who are migrating their infras
 
 Based on the size and configuration of your existing cloud instance, select an equivalent size and configuration for the Rackspace Cloud Servers instance. Consider any resources, such as application and database resources, that you want to migrate from your current hosting provider.
 
-For an overview of the Rackspace Cloud products, see the [Rackspace Core Infrastructure Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-intro/cloud-tour/).
+For an overview of the Rackspace Cloud products, see the [Rackspace Core Infrastructure Guide](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-intro/cloud-tour/).
 
 ### Provision and configure the Cloud Servers instance
 

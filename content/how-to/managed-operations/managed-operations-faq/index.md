@@ -173,7 +173,7 @@ For additional information, see the following How-To articles:
     Control
     Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
     or
-    [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
+    [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
 -   Rackspace Cloud Backup - Create and schedule [file-based backups](/support/how-to/rackspace-cloud-backup-create-a-backup).
 -   [Holland Backup Manager](https://hollandbackup.org/) - Find out about an open-source
     backup framework originally developed at Rackspace and written
@@ -243,7 +243,7 @@ Servers.
         Control
         Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
         or
-        [API](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
+        [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
     -   Rackspace Cloud Backup - Create and schedule [file-based
         backups](/support/how-to/rackspace-cloud-backup-create-a-backup).
     -   [Holland Backup Manager](https://hollandbackup.org/) - Find information about an

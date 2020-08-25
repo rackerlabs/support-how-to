@@ -210,7 +210,7 @@ Before deleting the original server, ensure that *all important data* has been
 properly restored to the new server. This includes any data that may reside on
 an ephemeral disk drive that is not included in the image of the original server.
 If you are not sure what an ephemeral drive is,
-[the Rackspace Core Infrastructure User Guide](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/diskconfig/).
+[the Rackspace Core Infrastructure User Guide](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/diskconfig/).
 If you are still uncertain, please contact Rackspace support for further guidance.
 
 If the original server does have ephemeral storage, you can migrate the data to

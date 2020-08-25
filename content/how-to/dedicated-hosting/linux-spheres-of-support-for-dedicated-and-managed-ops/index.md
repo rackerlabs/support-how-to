@@ -146,7 +146,7 @@ The following antivirus software is supported in the indicated areas:
 
 Although we don't support all technologies, we do offer *reasonable endeavor* support, which extends our support into offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other third-party services.
 
-- **API support**: All the support functions listed in the [API guides](https://developer.rackspace.com/docs) are supported.
+- **API support**: All the support functions listed in the [API guides](https://docs.rackspace.com/docs) are supported.
 - **Backups**: Rackspace provides solutions for file system and database backups including leveraging the use of open-source projects such as [Holland](https://docs.hollandbackup.org/). For more information, contact Support.
 -  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
    support is offered to help use Cloud Files via the API.

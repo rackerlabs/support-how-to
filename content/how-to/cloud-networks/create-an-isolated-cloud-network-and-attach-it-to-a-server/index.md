@@ -75,4 +75,4 @@ Network named My Private Network:
 
 [CIDR Notation](/support/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
 
-[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)

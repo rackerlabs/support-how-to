@@ -26,15 +26,15 @@ network.
 
 More details about Cloud Orchestration are available in the following documents:
 
--   [Rackspace Cloud Orchestration API v1 Developer Guide](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)
--   [Rackspace Cloud Orchestration API v1 Templates User Guide](https://developer.rackspace.com/docs/user-guides/orchestration/)
+-   [Rackspace Cloud Orchestration API v1 Developer Guide](https://docs.rackspace.com/docs/cloud-orchestration/v1/developer-guide/)
+-   [Rackspace Cloud Orchestration API v1 Templates User Guide](https://docs.rackspace.com/docs/user-guides/orchestration/)
 -   [Cloud Orchestration FAQ](/support/how-to/cloud-orchestration-faq)
 
 Although an official RackConnect v3.0 heat template has not been
 released yet, an in-development template is available on GitHub at
 <https://github.com/rackerlabs/heat-ci/blob/master/dev/rackconnect.template>.
 
-If you have the [heat client](https://developer.rackspace.com/docs/cloud-orchestration/v1/developer-guide/#using-the-heat-client)
+If you have the [heat client](https://docs.rackspace.com/docs/cloud-orchestration/v1/developer-guide/#using-the-heat-client)
 installed, you can also get more details about the RackConnect specific
 resources available with Cloud Orchestration by running the
 `resource-type-show` commands as follows:

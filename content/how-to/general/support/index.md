@@ -50,7 +50,7 @@ You can also log in to the [Fanatical Support for AWS Control Panel](https://man
 
 Call Cloud support at 1-800-961-4454.
 
-Find API documentation at the [Rackspace Developer Docs site](https://developer.rackspace.com/docs/) and support documentation at the [How-To site](/support/how-to/).
+Find API documentation at the [Rackspace Developer Docs site](https://docs.rackspace.com/docs/) and support documentation at the [How-To site](/support/how-to/).
 
 You can also log in to the [Cloud Control Panel](https://login.rackspace.com/) to access chat support.
 
@@ -75,4 +75,4 @@ You can call the following numbers for legacy Datapipe support:
 ### Additional support resources
 
 - [How-To articles](/support/how-to/)
-- [Developer and API documentation](https://developer.rackspace.com/docs/)
+- [Developer and API documentation](https://docs.rackspace.com/docs/)

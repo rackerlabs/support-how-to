@@ -179,7 +179,7 @@ environments.
 
 Yes. The Next Generation platform has a different API. Information about
 getting starting with the Next Generation API is located at
-[https://developer.rackspace.com/docs](https://developer.rackspace.com/docs/).
+[https://docs.rackspace.com/docs](https://docs.rackspace.com/docs/).
 Any third-party tools or SDKs that you are currently using will need to
 be updated.
 

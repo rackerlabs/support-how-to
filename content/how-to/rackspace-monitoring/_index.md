@@ -27,6 +27,6 @@ Here are some resources to get you started with Rackspace Monitoring.
 
 ###  Rackspace Monitoring API
 
-- [Getting Started with the Rackspace Monitoring API](https://developer.rackspace.com/docs/rackspace-monitoring/v1/getting-started/)
-- [Rackspace Monitoring API Documentation](https://developer.rackspace.com/docs/rackspace-monitoring/v1/)
+- [Getting Started with the Rackspace Monitoring API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/)
+- [Rackspace Monitoring API Documentation](https://docs.rackspace.com/docs/rackspace-monitoring/v1/)
 - [Getting Started with Rackspace Monitoring CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli)

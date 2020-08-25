@@ -39,7 +39,7 @@ reading [Installing the Monitoring Agent](/support/how-to/install-and-configure-
 After the agent is installed on your Cloud Server, it immediately
 provides CPU, Filesystem, and Memory metrics. You can manage the agent
 using either the Cloud Control panel or the Monitoring API, which you
-can learn about by reading the [Rackspace Monitoring API Developer Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/ "Rackspace Monitoring API Developer Guide").
+can learn about by reading the [Rackspace Monitoring API Developer Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/ "Rackspace Monitoring API Developer Guide").
 
 ### Live host statistics in the Cloud Control Panel
 

@@ -59,7 +59,7 @@ GUI interface of the [Cloud Control Panel](https://login.rackspace.com/) or
 through the API. This product introduction walks you through Cloud Control
 Panel access. If you prefer to interact with Cloud Block Storage
 programmatically, view the
-[Developer Guide](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
+[Developer Guide](https://docs.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
 
 ### Limits of Cloud Block Storage
 

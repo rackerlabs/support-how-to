@@ -87,7 +87,7 @@ After you delete the replica instance, your data will no longer be replicated. Y
 
 ### Create and manage replicas with the Cloud Databases API
 
-All of the preceding functions are also available in the Cloud Databases API. You can find more information about how to manage replicas with the API in the [Cloud Databases Developer Docs](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-api-operations/replication)
+All of the preceding functions are also available in the Cloud Databases API. You can find more information about how to manage replicas with the API in the [Cloud Databases Developer Docs](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#document-api-operations/replication)
 
 ### Monitoring read replicas
 

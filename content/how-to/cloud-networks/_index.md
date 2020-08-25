@@ -10,11 +10,11 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Cloud Networks lets you create and manage secure, isolated networks in the cloud. These networks are fully single tenant, and you have complete control over the network topology, IP addressing (IPv4 or IPv6), and which Cloud Servers are attached. Cloud Networks are regional in scope, and you can attach them to any of your Cloud Servers in a given region. You can also attach Cloud Servers to multiple Cloud Networks. You can combine Cloud Networks with [gateway instances](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/network-gateway-instances/#network-gateway-instances) to create more complex topologies to route traffic between Cloud Networks or to external data centers over VPN. You can create and manage Cloud Networks via an API or by using the Rackspace Cloud Control Panel.
+Cloud Networks lets you create and manage secure, isolated networks in the cloud. These networks are fully single tenant, and you have complete control over the network topology, IP addressing (IPv4 or IPv6), and which Cloud Servers are attached. Cloud Networks are regional in scope, and you can attach them to any of your Cloud Servers in a given region. You can also attach Cloud Servers to multiple Cloud Networks. You can combine Cloud Networks with [gateway instances](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/network-gateway-instances/#network-gateway-instances) to create more complex topologies to route traffic between Cloud Networks or to external data centers over VPN. You can create and manage Cloud Networks via an API or by using the Rackspace Cloud Control Panel.
 
 ### Using Cloud Networks
 
-You can use the Cloud Control Panel or the [Cloud Servers API](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-reference) to manage Cloud Networks. This section provides links to both the Cloud Control Panel How-To articles and API developer resources.
+You can use the Cloud Control Panel or the [Cloud Servers API](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-reference) to manage Cloud Networks. This section provides links to both the Cloud Control Panel How-To articles and API developer resources.
 
 ### Using the Cloud Control Panel with Cloud Networks
 
@@ -24,7 +24,7 @@ You can use the Cloud Control Panel or the [Cloud Servers API](https://developer
 
 ### Using the Cloud Networks API
 
-- [Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+- [Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)
 
 ### Fortinet Fortigate-VM
 

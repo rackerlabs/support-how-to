@@ -117,7 +117,7 @@ Although we don’t support all technologies, we do offer reasonable endeavor su
 offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other thirdparty
 services.
 
--  **API support**:  Managed Operations offers all the support functions listed in the [developer guides](https://developer.rackspace.com/docs/).
+-  **API support**:  Managed Operations offers all the support functions listed in the [developer guides](https://docs.rackspace.com/docs/).
 -  **Cloud Files**:  Integration with Cloud Files is supported via the API, however no development support is offered to help utilize Cloud Files via the API.
 -  **Load Balancing**: Cloud Load Balancers are supported by Managed Operations.
 -  **Email**:  The default SMTP configuration for outbound email on Linux is through Postfix.  Cloud Servers with a Managed Operations service level are preconfigured to use our mail relay service Mailgun to ensure reliable mail delivery.  The first 50,000 emails sent each month are free, and your mail package can be upgraded if higher volume is expected. For more information, see the [Mailgun Rackspace pricing page](https://www.mailgun.com/rackspace).

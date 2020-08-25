@@ -63,7 +63,7 @@ Nova-Network API. This version of the service is now superseded by the current
 networking API, based on OpenStack Neutron, which offers a richer suite of
 networking services. Both APIs continue to function, but the Neutron API will be
 the base for all new networking services that Rackspace offers. For more information,
-see [Networking: Neutron versus Nova-Network](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#networking-neutron-versus-nova-network)
+see [Networking: Neutron versus Nova-Network](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#networking-neutron-versus-nova-network)
 in the Cloud Networks Developer Guide.
 {{</accordion>}}
 {{<accordion title="How many cloud networks can I create?" col="in" href="accordion3">}}
@@ -101,9 +101,9 @@ make networking changes to your existing deployments without having to rebuild
 Cloud Servers.
 
 For more information, see the
-[Virtual Interfaces extension](https://developer.rackspace.com/docs/cloud-servers/v2/developer-guide/#virtual-interfaces-extension)
+[Virtual Interfaces extension](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#virtual-interfaces-extension)
 in the Cloud Servers Developer Guide (using the nova-network API) or
-[Boot a new server with your cloud network](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-getting-started/managing-networks/boot-server)
+[Boot a new server with your cloud network](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-getting-started/managing-networks/boot-server)
 in the Cloud Networks Getting Started Guide (using the neutron API).
 
 **Note**: Be aware that removing PublicNet or ServiceNet interfaces might impact
@@ -147,9 +147,9 @@ ports on that instance.
 {{</accordion>}}
 {{<accordion title="Where is the documentation?" col="in" href="accordion11">}}
 
-[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/floating-ip-address-operations)
+[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/floating-ip-address-operations)
 
-[Cloud Networks API Reference](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/sec-group-operations)
+[Cloud Networks API Reference](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/sec-group-operations)
 {{</accordion>}}
 {{<accordion title="What are the benefits of using security groups?" col="in" href="accordion12">}}
 
@@ -186,7 +186,7 @@ Following are descriptions of the variables in the command:
 
 - `region` is the region you are working in.
 
-- `yourAuthToken` is the authentication token for your user account (more on that here https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work).
+- `yourAuthToken` is the authentication token for your user account (more on that here https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/send-request-ovw/#how-curl-commands-work).
 
 - `portNumber` is the port number that you want to add to the rule (such as `22`, `80`, or `443`).
 
@@ -286,15 +286,15 @@ applications can then achieve full redundancy in our cloud.
 {{</accordion>}}
 {{<accordion title="Where is the documentation?" col="in" href="accordion28">}}
 
-[Cloud Networks API Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks API Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)
 
 The Shared IP sections are:
 
-- [Concepts](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#shared-ip-addresses)
+- [Concepts](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#shared-ip-addresses)
 
-- [API operations](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/shared-ip-address-operations)
+- [API operations](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#document-api-operations/shared-ip-address-operations)
 
-- [Getting started](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/#sharing-ip-address-between-servers)
+- [Getting started](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/#sharing-ip-address-between-servers)
 {{</accordion>}}
 {{<accordion title="What features are supported?" col="in" href="accordion29">}}
 

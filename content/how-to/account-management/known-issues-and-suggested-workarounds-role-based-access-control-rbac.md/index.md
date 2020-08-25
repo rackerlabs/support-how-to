@@ -43,14 +43,14 @@ Support at 1 800 961 4454.
 ### Multiple roles for one user
 
 You can only assign multiple roles for one user by using the
-[API](https://developer.rackspace.com/docs/). The Cloud Control
+[API](https://docs.rackspace.com/docs/). The Cloud Control
 Panel displays only the first role that is assigned to users that have multiple
 roles.
 
 #### Workaround
 
 You can view multiple roles that are associated with a user by
-using the [API](https://developer.rackspace.com/docs/).
+using the [API](https://docs.rackspace.com/docs/).
 
 ### Suspended accounts
 

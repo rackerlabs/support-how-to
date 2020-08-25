@@ -461,11 +461,11 @@ Yes. Users can provision security groups by using the neutron client.
 {{</accordion>}}
 {{<accordion title="Are security groups on Cloud Networks supported?" col="in" href="accordion48">}}
 
-Yes. For additional information see [Cloud Networks API Getting Started](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
+Yes. For additional information see [Cloud Networks API Getting Started](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
 {{</accordion>}}
 {{<accordion title="Are Outbound Security Groups supported?" col="in" href="accordion49">}}
 
-Yes. For additional information see [Cloud Networks API Getting Started](https://developer.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
+Yes. For additional information see [Cloud Networks API Getting Started](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/concepts/#security-groups-and-rules-concepts).
 {{</accordion>}}
 {{<accordion title="Is the security group feature available to all Cloud users?" col="in" href="accordion50">}}
 
@@ -552,7 +552,7 @@ deleted. It is not possible to recover a server that has been deleted.
 {{<accordion title="Where are your APIs?" col="in" href="accordion62">}}
 
 The documentation for the API for Cloud Servers and our other products is
-located on the [Rackspace Developer Docs site](https://developer.rackspace.com/docs/).
+located on the [Rackspace Developer Docs site](https://docs.rackspace.com/docs/).
 
 Before you can start using our APIs, you will need your API Key. You can
 obtain your API key by following the instructions in

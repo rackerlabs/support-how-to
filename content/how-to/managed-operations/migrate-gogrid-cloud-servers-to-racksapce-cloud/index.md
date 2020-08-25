@@ -94,7 +94,7 @@ flavor.  For SSD-based GoGrid flavors, you should choose the Rackspace General
 Purpose flavor.
 
 For more information on Rackspace Cloud server flavors, see
-[Understanding flavor classes](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/flavor-class/?_ga=2.184726953.1235559400.1548081702-2066683424.1543957190).
+[Understanding flavor classes](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/flavor-class/?_ga=2.184726953.1235559400.1548081702-2066683424.1543957190).
 
 The following image shows a flavor-to-flavor comparison between GoGrid and
 Rackspace:

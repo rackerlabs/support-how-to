@@ -94,4 +94,4 @@ Server](/support/how-to/attach-a-cloud-network-to-an-existing-cloud-server "Atta
 [Removing Networks from a Cloud
 Server](/support/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
 
-[Cloud Networks Developer Guide](https://developer.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)

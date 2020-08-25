@@ -85,7 +85,7 @@ group by using the [Cloud Control
 Panel](/support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel)
 and the API. For more information about HA-related API calls, see the [Cloud
 Databases Developer
-Guide](https://developer.rackspace.com/docs/cloud-databases/v1/developer-guide/#high-availability-instance-group).
+Guide](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#high-availability-instance-group).
 
 **Notes:**
 

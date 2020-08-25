@@ -137,7 +137,7 @@ When Rackspace Intelligence detects a status change, it can report its
 findings by sending email or a text message. Rackspace Intelligence can
 also respond to a status change by executing a policy that is defined
 by a
-[webhook](https://developer.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
+[webhook](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
 
 To customize how Rackspace Intelligence responds when it detects a
 status change, perform the following actions:

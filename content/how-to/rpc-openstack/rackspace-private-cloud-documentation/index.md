@@ -25,7 +25,7 @@ a familiar approach for Linux system administrators.
 For documentation for Rackspace Private Cloud, see the following resources:
 
 - [Developer
-  documentation](https://developer.rackspace.com/docs/#docs-private-cloud)
+  documentation](https://docs.rackspace.com/docs/#docs-private-cloud)
 - [Support documentation](/support/how-to/rpc-openstack)
 
 For developer communities, see the following resources:

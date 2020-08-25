@@ -31,8 +31,8 @@ server](https://enable-cors.org/server.html).
 
 The process for Cloud Files CDN is more involved, and you make the modifications 
 by using the [Cloud Files Storage
-API](https://developer.rackspace.com/docs/cloud-files/v1/storage-api-reference/#storage-api-reference) and the 
-[Cloud Files CDN API](https://developer.rackspace.com/docs/cloud-files/v1/cdn-api-reference/). 
+API](https://docs.rackspace.com/docs/cloud-files/v1/storage-api-reference/#storage-api-reference) and the 
+[Cloud Files CDN API](https://docs.rackspace.com/docs/cloud-files/v1/cdn-api-reference/). 
 This section shows you how to perform this task.
 
 #### Set headers on containers
@@ -47,9 +47,9 @@ allowed to make cross-origin requests. Ensure that you separate each origin by
 using spaces.
 
 You use this header with the [Static
-Websites](https://developer.rackspace.com/docs/cloud-files/v1/use-cases/static-websites-using-cdn-enabled-containers/) functionality of Cloud Files CDN.
+Websites](https://docs.rackspace.com/docs/cloud-files/v1/use-cases/static-websites-using-cdn-enabled-containers/) functionality of Cloud Files CDN.
 
-For detailed instructions, see the [Create or update container metadata](https://developer.rackspace.com/docs/cloud-files/v1/storage-api-reference/container-services-operations/#create-or-update-container-metadata) section of the Cloud Files Developer Guide.
+For detailed instructions, see the [Create or update container metadata](https://docs.rackspace.com/docs/cloud-files/v1/storage-api-reference/container-services-operations/#create-or-update-container-metadata) section of the Cloud Files Developer Guide.
 
 The following code shows an example cURL request that sets the
 `X-Container-Meta-Access-Control-Allow-Origin` header on the default object:
@@ -61,7 +61,7 @@ The following code shows an example cURL request that sets the
 The preceding example uses the following placeholders:
 
 - `AUTHTOKEN`: The token that the Identity API generates when you
-  [make an authentication request](https://developer.rackspace.com/docs/cloud-identity/v2/getting-started/send-request-ovw/).
+  [make an authentication request](https://docs.rackspace.com/docs/cloud-identity/v2/getting-started/send-request-ovw/).
 
 - `Account UUID`: The unique identifier for your cloud account. You can find
   this identifier in the service catalog that is returned when you generate
@@ -128,11 +128,11 @@ The following code shows an example purge request:
 Note that the domain name is different in this request. This difference occurs
 because you are using the Cloud Files CDN API to make the purge request, and
 not the standard Cloud Files Storage API. To see a list of Cloud Files CDN
-endpoints, see [Service access endpoints](https://developer.rackspace.com/docs/cloud-files/v1/general-api-info/service-access/#service-access-endpoints).
+endpoints, see [Service access endpoints](https://docs.rackspace.com/docs/cloud-files/v1/general-api-info/service-access/#service-access-endpoints).
 
 For more information about performing purges on CDN-enabled objects by using
 the Cloud Files CDN API, see the [Delete CDN-enabled
-object](https://developer.rackspace.com/docs/cloud-files/v1/cdn-api-reference/cdn-object-services-operations/#delete-cdn-enabled-object) section of the
+object](https://docs.rackspace.com/docs/cloud-files/v1/cdn-api-reference/cdn-object-services-operations/#delete-cdn-enabled-object) section of the
 Cloud Files API Developer Guide.
 
 ### Additional information

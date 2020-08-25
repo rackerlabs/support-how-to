@@ -16,7 +16,7 @@ monitoring.  It offers a simple yet powerful feature set, allowing
 extreme flexibility in configuration and execution.
 
 This guide is intended to be a supplement to the 
-[Rackspace Monitoriing Developer Guide](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/),
+[Rackspace Monitoriing Developer Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/),
 not a replacement for it.
 
 Getting started with an API-based monitoring system can be daunting when
@@ -83,11 +83,11 @@ triggers an alert if the response is something like a 404.
 Raxmon mostly follows CRUD methodology, Create, Read (list), Update,
 Delete with five types:
 
--   [Checks](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/check-operations)
--   [Entities](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
--   [Alarms](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarms-operations)
--   [Notifications](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations)
--   [Notification Plans](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
+-   [Checks](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/check-operations)
+-   [Entities](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
+-   [Alarms](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarms-operations)
+-   [Notifications](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations)
+-   [Notification Plans](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations)
 
 Type \$ **raxmon --help** to see all of the commands available to
 raxmon.
@@ -108,7 +108,7 @@ input lists and dictionaries in the terminal:
 
 ### Create an entity
 
-[Entities](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
+[Entities](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/entities-operations)
 are Rackspace Monitoring's name for server-like objects. Anything that has
 an IP address is defined as an entity. Currently Rackspace Monitoring has no
 concept of our environment, so lets create an entity. The
@@ -123,11 +123,11 @@ If the operation was successful, you'll receive the following message:
     Resource created. ID: entZ4JPIfA
 
 Now we need to create a
-[check](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#checks)
+[check](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#checks)
 . To create a check we'll need a few things.
 
 -   **Check Type** - In this case,
-    [remote.HTTP](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-http).
+    [remote.HTTP](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-http).
 -   A **Label**
 -   **Entity ID** - In this case 'entZ4JPIfA' as returned in the example
     above
@@ -164,7 +164,7 @@ If the operation was successful, you'll receive the following message:
 ### Notification addresses and alarms
 
 Checks are great, but you also need to be able to receive
-[notifications](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations).
+[notifications](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notifications-operations).
 Lets create an e-mail address notification type now.
 
     $ raxmon-notifications-create --label example-email --type email --details="address=user@email.com"
@@ -174,7 +174,7 @@ If the operation was successful, you'll receive the following message:
     Resource created. ID: ntYgMnnipC
 
 You also need to create a [notification
-plan](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
+plan](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
 This allows Rackspace Monitoring to emit different types of alerts on
 different states.
 
@@ -191,7 +191,7 @@ Notification" will be used.
 
 Now that you have a notification address and plan, you also need to
 create the
-[alarm](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarms-operations)
+[alarm](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#document-api-operations/alarms-operations)
 itself. Rackspace Monitoring uses alarms to evaluate the metrics
 of a check and decide if a notification plan should be executed.
 
@@ -216,6 +216,6 @@ With these simple principles, you'll be able to create a robust and
 scalable monitoring system that gives you better insight into
 your infrastructure.  For more information, be sure to consult the
 [Development Guide for Rackspace
-Monitoring](https://developer.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#developer-guide)
+Monitoring](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#developer-guide)
 as well as the [Rackspace Monitoring
 FAQ](/support/how-to/rackspace-monitoring-faq).

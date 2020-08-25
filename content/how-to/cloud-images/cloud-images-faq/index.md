@@ -17,10 +17,10 @@ product_url: cloud-images
 
 The following types of documentation are available:
 
--   The [Cloud Images 2.0 Getting started guide](https://developer.rackspace.com/docs/cloud-images/v2/getting-started/)
+-   The [Cloud Images 2.0 Getting started guide](https://docs.rackspace.com/docs/cloud-images/v2/getting-started/)
     walks you through the basics of using the Images API for all of your
     image-related needs.
--   The [Rackspace Cloud Images Developer guide](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/)
+-   The [Rackspace Cloud Images Developer guide](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/)
     provides detailed information about the Cloud Images v2 API.
 -   At the appropriate places in this article, there are links to Rackspace
     How-To articles that provide step-by-step instructions for using Cloud Images operations.
@@ -42,7 +42,7 @@ OpenStack Images v2 API that's powered by OpenStack Glance.
 
 Glance features that aren't available in the Compute API or the [Cloud
 Control Panel](https://login.rackspace.com/) can be accessed directly through
-the [Cloud Images API](https://developer.rackspace.com/docs/cloud-images/v2/).
+the [Cloud Images API](https://docs.rackspace.com/docs/cloud-images/v2/).
 You already use Glance behind the scenes whenever you boot a cloud server,
 make an image from a server, view a list of images, or view
 detailed information for a particular image. The Cloud Images API
@@ -82,7 +82,7 @@ Yes, image sharing is available in the Cloud Control Panel. For detailed instruc
 {{< accordion title="" col="in" href="accordion8" >}}
  Where can I read a quick summary about image sharing?
 
-For a brief overview of this functionality, see _[Image sharing](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/#image-sharing)_ in the Cloud Images API documentation.
+For a brief overview of this functionality, see _[Image sharing](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/#image-sharing)_ in the Cloud Images API documentation.
 {{< /accordion >}}
 
 {{< accordion title="Does it cost anything to share images?" col="in" href="accordion9" >}}
@@ -134,7 +134,7 @@ before you can see the image. To do this, you need to
 know the universally unique identifier (UUID) of the image that was shared
 with you. For instructions for accepting an image, consult the [Cloud Images
 v2 API
-documentation](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/#image-sharing).
+documentation](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/#image-sharing).
 {{< /accordion >}}
 
 {{< accordion title="What if someone shares an image with me that I don't want, or if I don't know the person?" col="in" href="accordion14" >}}
@@ -151,7 +151,7 @@ using the image. Only create servers from images that you trust.
 You can reject the image so that it no longer appears in your
 image list. For instructions on how to reject an image, see the [Cloud Images
 v2 API
-documentation](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/#image-sharing).
+documentation](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/#image-sharing).
 {{< /accordion >}}
 
 {{< accordion title="What happens if someone accidentally (or intentionally) shares an image with malware, root kits, backdoors, or other vulnerabilities? Who is liable?" col="in" href="accordion16" >}}
@@ -266,7 +266,7 @@ You must have an **Admin** role to create tasks.
 {{< accordion title="Where can I find out more about tasks?" col="in" href="accordion29" >}}
 
 For more information about tasks, see the [Rackspace Cloud Images Developer
-Guide](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/).
+Guide](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/).
 {{< /accordion >}}
 
 ------------------------------------------------------------------------

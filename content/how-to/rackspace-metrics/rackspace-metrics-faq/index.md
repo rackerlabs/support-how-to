@@ -31,9 +31,9 @@ All Rackspace customers with a Cloud services account can use the Rackspace Metr
 
 Rackspace Metrics is available through global endpoints that can be
 accessed from anywhere. For more information, see the [Service access
-endpoints](https://developer.rackspace.com/docs/metrics/v2/general-api-info/service-access/)
+endpoints](https://docs.rackspace.com/docs/metrics/v2/general-api-info/service-access/)
 section in the [Rackspace Metrics API
-guide](https://developer.rackspace.com/docs/metrics/v2/).
+guide](https://docs.rackspace.com/docs/metrics/v2/).
 
 {{</accordion>}}
 
@@ -54,5 +54,5 @@ Dedicated accounts.
 {{<accordion title="How can I get support?" col="in" href="accordion6">}}
 
 To obtain more information about Rackspace Metrics, see the [Rackspace Metrics API
-guide](https://developer.rackspace.com/docs/metrics/v2/).
+guide](https://docs.rackspace.com/docs/metrics/v2/).
 {{</accordion>}}

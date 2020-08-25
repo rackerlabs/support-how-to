@@ -85,11 +85,11 @@ Cloud Backup offers the following benefits and functionality:
 4. Logical application written in the C programming language, which adds many
    features for automating backup to Cloud Files.
 
-5. No bandwidth charges for data sent through [ServiceNet](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/servicenet/?_ga=2.71460947.1749091142.1548687618-526875459.1547481082).
+5. No bandwidth charges for data sent through [ServiceNet](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/servicenet/?_ga=2.71460947.1749091142.1548687618-526875459.1547481082).
 
 6. Uses Cloud Files, but fully managed.
 
-7. Backs up by using ServiceNet or [PublicNet](https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/publicnet/?_ga=2.37243872.1749091142.1548687618-526875459.1547481082).
+7. Backs up by using ServiceNet or [PublicNet](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/network/cloud-networks-product-concepts/publicnet/?_ga=2.37243872.1749091142.1548687618-526875459.1547481082).
 
 #### How Cloud Backup works
 
@@ -103,7 +103,7 @@ that also runs the agent.
 
 For more information about using Cloud Backup, see the [Cloud Backup API
 Developer
-Guide](https://developer.rackspace.com/docs/cloud-backup/v1/developer-guide/).
+Guide](https://docs.rackspace.com/docs/cloud-backup/v1/developer-guide/).
 
 ### Cloud Images
 
@@ -146,7 +146,7 @@ before you rely on it.
 
 For more information about using Cloud Images, see the [Cloud Images API
 developer
-guide](https://developer.rackspace.com/docs/cloud-images/v2/developer-guide/).
+guide](https://docs.rackspace.com/docs/cloud-images/v2/developer-guide/).
 
 ### Rackspace Cloud Files
 
@@ -219,7 +219,7 @@ and Node.js.
 
 For more information about using Cloud Files, see the [Cloud Files API
 developer
-guide](https://developer.rackspace.com/docs/cloud-files/v1/developer-guide/).
+guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).
 
 ### Cloud Block Storage
 
@@ -246,4 +246,4 @@ using Cloud Block Storage is its very fast speed and suitability for many small,
 files.
 
 For more information, see the [Cloud Block Storage API developer
-guide](https://developer.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).
+guide](https://docs.rackspace.com/docs/cloud-block-storage/v1/developer-guide/).

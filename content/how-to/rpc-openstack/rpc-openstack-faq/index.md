@@ -112,7 +112,7 @@ All devices certified for Ubuntu Server 16.04 LTS are certified for Rackspace Pr
 {{<accordion title="Where can I get more technical information?" col="in" href="accordion12">}}
 
 Get quick answers to common technical questions about Rackspace Private Cloud
-in [the Rackspace Private Cloud v14 Technical FAQ](https://developer.rackspace.com/docs/private-cloud/rpc/v14/rpc-faq-external/).
+in [the Rackspace Private Cloud v14 Technical FAQ](https://docs.rackspace.com/docs/private-cloud/rpc/v14/rpc-faq-external/).
 {{</accordion>}}
 {{<accordion title="Where can I learn more?" col="in" href="accordion13">}}
 
