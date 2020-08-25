@@ -11,17 +11,18 @@ permalink: /support/how-to/
           <p class="lead">Quickly find answers and troubleshooting resources.</p>
         </div>
       </div>
-      <div class="filter-product-type row">
-        <div class="col tablink" id="gs-ctrl" ><a href="#getting-started" onclick="openTab(event, 'gs-display');">Getting Started</a></div>
-        <div class="col tablink" id="cloud-ctrl"><a href="#cloud-hosting" onclick="openTab(event, 'cloud-display');">Cloud Services</a></div>
-        <div class="col tablink" id="office-ctrl"><a href="#cloud-office"  onclick="openTab(event, 'office-display');">Cloud Office</a></div>
-        <div class="col tablink" id="rpc-ctrl"><a href="#private-cloud"  onclick="openTab(event, 'rpc-display');">Private Cloud</a></div>
-        <div class="col tablink"><a href="/support/how-to/account-management">Account Management</a></div>
-      </div>
+      <ul class="nav nav-tabs responsive-tabs filter-product-type row" id= "nav-tab" role="tablist">
+        <li class="tablink" id="gs-ctrl" ><a href="#getting-started" onclick="openTab(event, 'gs-display');">Getting Started</a></li>
+        <li class="tablink" id="cloud-ctrl"><a href="#cloud-hosting" onclick="openTab(event, 'cloud-display');">Cloud Services</a></li>
+        <div class="tablink" id="office-ctrl"><a href="#cloud-office"  onclick="openTab(event, 'office-display');">Cloud Office</a></div>
+        <div class="tablink" id="rpc-ctrl"><a href="#private-cloud"  onclick="openTab(event, 'rpc-display');">Private Cloud</a></div>
+        <div class="tablink"><a href="/support/how-to/account-management">Account Management</a></div>
+      </ul>
     </div>
   </div>
+  
   <div class="container">
-    <div class="content home product-type product-type-gs" id="gs-display">
+    <div class="content home product-type product-type-gs tab-content" id="gs-display">
       <div class="row">
         <div class="col-sm-12">
           <p>With all the services that the cloud offers, it can be difficult to figure out where to start. Whether you
