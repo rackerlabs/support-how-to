@@ -39,7 +39,7 @@ still image your current Vyatta or build from an existing custom image of your V
 {{</accordion>}}
 {{<accordion title="Can I move to a supported product without losing my IP?" col="in" href="accordion4">}}
 
-Yes. If you want to keep your current public IPs, you can [rebuild a cloud server](https://support.rackspace.com/how-to/rebuild-a-cloud-server/) on top of your current Vyatta server. Note that all data is lost on the current Vyatta server. 
+Yes. If you want to keep your current public IPs, you can [rebuild a cloud server](/support/how-to/rebuild-a-cloud-server/) on top of your current Vyatta server. Note that all data is lost on the current Vyatta server. 
 
 {{</accordion>}}
 {{<accordion title="Can I migrate my existing Vyatta configuration?" col="in" href="accordion5">}}

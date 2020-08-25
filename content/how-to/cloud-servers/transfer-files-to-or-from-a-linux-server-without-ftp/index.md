@@ -34,9 +34,9 @@ If you cannot connect after you have logged in by using SSH, you should verify
 that FTP has been used in the past. If you need assistance getting logged in
 with SSH, review the following article for your platform:
 
-- [Windows](https://support.rackspace.com/support/how-to/connecting-to-linux-from-windows-by-using-putty/)
+- [Windows](/support/support/how-to/connecting-to-linux-from-windows-by-using-putty/)
 
-- [Mac OSX](https://support.rackspace.com/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/)
+- [Mac OSX](/support/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/)
 
 ### Log in to a Linux server
 

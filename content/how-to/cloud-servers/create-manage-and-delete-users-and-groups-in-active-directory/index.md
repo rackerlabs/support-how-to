@@ -194,6 +194,6 @@ Use the following steps to delete a group from Active Directory:
 
 - [Group Policy fundamentals in Active Directory](/support/how-to/group-policy-fundamentals-in-active-directory/)
 - [Reset an Active Directory user password](/support/how-to/reset-an-active-directory-user-password/)
-- [Install Active Directory on Windows Server 2012](https://support.rackspace.com/how-to/installing-active-directory-on-windows-server-2012/)
+- [Install Active Directory on Windows Server 2012](/support/how-to/installing-active-directory-on-windows-server-2012/)
 - [Reset user password on Active Directory domain - Rackspace Shared Domain](/support/how-to/reset-user-password-on-active-directory-domain/)
 - [Create new user on Active Directory domain - Rackspace Shared Domain](/support/how-to/create-new-user-on-active-directory-domain/)

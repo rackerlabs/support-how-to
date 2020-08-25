@@ -20,7 +20,7 @@ workarounds.
 
 Images are disabled on the Fortigate-VM because they cannot be used for backups.
 For details on how to backup your Fortigate-VM in the Rackspace Cloud, see
-[Back up the Fortinet Fortigate VM](https://support.rackspace.com/support/how-to/back-up-the-fortinet-fortigate-vm/).
+[Back up the Fortinet Fortigate VM](/support/support/how-to/back-up-the-fortinet-fortigate-vm/).
 
 ### Administrator password resets
 
@@ -42,5 +42,5 @@ Console or rebuild the server and
 IP addresses are set automatically at server build time, but adding a new Cloud
 Network to an existing server requires you to log in to the Fortigate-VM and set
 the interface IP address manually. See
-[Attach a Cloud Network to an existing Fortigate-VM](https://support.rackspace.com/support/how-to/attach-a-cloud-network-to-an-existing-fortigate-vm/)
+[Attach a Cloud Network to an existing Fortigate-VM](/support/support/how-to/attach-a-cloud-network-to-an-existing-fortigate-vm/)
 for more details.

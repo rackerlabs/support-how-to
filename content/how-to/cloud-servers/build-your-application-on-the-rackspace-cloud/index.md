@@ -106,7 +106,7 @@ Take the following security measures at the infrastructure level:
 
 Take the following security measures at the server level:
 
-- Practice [basic server security](https://support.rackspace.com/how-to/configuring-basic-security/).
+- Practice [basic server security](/support/how-to/configuring-basic-security/).
 - Lockdown your firewalls manually or by using a service like Dome9 or
   CloudPassage&reg;.
 
@@ -162,7 +162,7 @@ Operations customers automatically dump their databases to this location.
 Managed Infrastructure customers can configure the same backup by using
 the Holland Backup Manager.
 
-[This article](https://support.rackspace.com/how-to/install-or-update-the-cloud-backup-agent-on-linux/) provides more information about setting up Rackspace Cloud Backup for your Linux system.
+[This article](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux/) provides more information about setting up Rackspace Cloud Backup for your Linux system.
 
 **Note**: Rackspace recommends that you back up databases often and retain them
 for a long period of time.
@@ -177,7 +177,7 @@ If you are using Windows&reg;, Rackspace recommends that you take the following 
   dumping your database files). You should use frequent backups and
   long retention.
 
-[This article](https://support.rackspace.com/how-to/rackspace-cloud-backup-install-the-agent-on-windows/) provides more information about setting up Rackspace Cloud Backup for your Windows system.
+[This article](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows/) provides more information about setting up Rackspace Cloud Backup for your Windows system.
 
 ### Back up with Cloud Block Storage
 

@@ -20,7 +20,7 @@ This task requires a user with administrative privileges on the server.
 
 #### Install IIS by using Server Manager
 
-1. [Log](https://support.rackspace.com/how-to/connect-to-a-cloud-server/) in to
+1. [Log](/support/how-to/connect-to-a-cloud-server/) in to
    the server.
 
 2. Press the **Start** button, type **Server Manager**, and press **Enter** to open
@@ -60,9 +60,9 @@ button and typing **IIS**.
 #### Related articles
 
 - [Install IIS and configure a
-  website](https://support.rackspace.com/how-to/install-iis-and-configure-a-website/)
+  website](/support/how-to/install-iis-and-configure-a-website/)
 - [Configure an IIS FTP
-  site](https://support.rackspace.com/how-to/configure-an-iis-ftp-site/)
+  site](/support/how-to/configure-an-iis-ftp-site/)
 - [Install an SSL
-  certificate](https://support.rackspace.com/how-to/install-an-ssl-certificate/)
-- [IIS SNI overview](https://support.rackspace.com/how-to/iis-sni-overview/)
+  certificate](/support/how-to/install-an-ssl-certificate/)
+- [IIS SNI overview](/support/how-to/iis-sni-overview/)

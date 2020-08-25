@@ -61,7 +61,7 @@ a couple of things that you need:
 
 2. Generate a public-private key pair by using a tool such as ssh-keygen on
    Linux or PuTTYgen on Windows. For help creating key pairs, see
-   [Generate RSA keys with SSH by using PuTTYgen](https://support.rackspace.com/support/how-to/generating-rsa-keys-with-ssh-puttygen).
+   [Generate RSA keys with SSH by using PuTTYgen](/support/how-to/generating-rsa-keys-with-ssh-puttygen).
 
 
 ### Create a DKIM TXT record

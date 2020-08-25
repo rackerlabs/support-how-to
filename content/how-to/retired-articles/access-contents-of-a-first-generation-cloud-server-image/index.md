@@ -29,7 +29,7 @@ If you do not have swiftly installed, install it by using `pip`.
 
     pip install swiftly
 
-If you need more detailed instructions for installing swiftly, see [Install the Swiftly Client for Cloud Files](https://support.rackspace.com/support/how-to/install-the-swiftly-client-for-cloud-files/).
+If you need more detailed instructions for installing swiftly, see [Install the Swiftly Client for Cloud Files](/support/support/how-to/install-the-swiftly-client-for-cloud-files/).
 
 The following example uses swiftly to download an image. Because the full file name is not specified, swiftly can systematically download all of the **tar.gz** parts.
 

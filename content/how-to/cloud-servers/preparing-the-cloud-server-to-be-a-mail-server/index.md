@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Warning:** Managing a mail server in the cloud provides no guarantee email is delivered to recipients' inboxes. Establishing and maintaining email deliverability is a complex undertaking. If you need a managed email solution, see our [hosted email offerings](https://support.rackspace.com/how-to/#cloud-office).  
+**Warning:** Managing a mail server in the cloud provides no guarantee email is delivered to recipients' inboxes. Establishing and maintaining email deliverability is a complex undertaking. If you need a managed email solution, see our [hosted email offerings](/support/how-to/#cloud-office).  
 
 To improve your email server's sending reputation, you need to research and consider using the following solutions:
 

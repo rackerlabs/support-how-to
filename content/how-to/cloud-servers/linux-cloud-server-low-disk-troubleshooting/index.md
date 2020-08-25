@@ -34,7 +34,7 @@ This article describes the following troubleshooting steps in detail:
 
 Log in to your server by opening a remote desktop connection. For instructions,
 see [Connect to a server by using SSH on Linux or Mac OS
-X](https://support.rackspace.com/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/).
+X](/support/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os/).
 
 ### Check open support tickets
 

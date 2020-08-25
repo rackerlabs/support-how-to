@@ -66,10 +66,10 @@ If you need to modify the scope of IP addresses for the rule, right-click the ru
 
 ### Related articles
 
-- [Manage the Windows Server 2012 Firewall](https://support.rackspace.com/how-to/managing-the-windows-server-2012-firewall/)
+- [Manage the Windows Server 2012 Firewall](/support/how-to/managing-the-windows-server-2012-firewall/)
 
-- [Windows Server Security Best Practices](https://support.rackspace.com/how-to/windows-server-security-best-practices/)
+- [Windows Server Security Best Practices](/support/how-to/windows-server-security-best-practices/)
 
-- [Best Practices for Firewall Rules Configuration](https://support.rackspace.com/how-to/best-practices-for-firewall-rules-configuration/)
+- [Best Practices for Firewall Rules Configuration](/support/how-to/best-practices-for-firewall-rules-configuration/)
 
-- [Using Security Groups](https://support.rackspace.com/how-to/using-security-groups/)
+- [Using Security Groups](/support/how-to/using-security-groups/)

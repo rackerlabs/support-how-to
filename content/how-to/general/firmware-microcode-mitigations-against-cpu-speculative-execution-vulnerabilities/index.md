@@ -61,7 +61,7 @@ For additional information, see [Windows OS mitigations against CPU speculative 
 
 After the firmware/microcode updates are installed, an ESXi upgrade might be necessary. In some cases, this upgrade might require a re-kick, resulting in downtime for virtual machines. Because of this, Rackspace will coordinate ESXi Hypervisor firmware/microcode updates separately and will **not** include them in the initial maintenance process.
 
-For additional information, see [VMware OS mitigations against CPU speculative execution vulnerabilities](https://support.rackspace.com/how-to/vmware-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+For additional information, see [VMware OS mitigations against CPU speculative execution vulnerabilities](/support/how-to/vmware-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 **Hyper-V**
 

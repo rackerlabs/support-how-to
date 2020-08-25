@@ -55,7 +55,7 @@ following figure:
 ### Back up data from AWS to Rackspace Cloud Files
 
 Using the FTP client that you installed in the preceding section, upload the .NET project folder to the Rackspace Cloud Files container
-that you created in the article [Provision cloud resources when migrating from Amazon Web Services](https://support.rackspace.com/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services/).
+that you created in the article [Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services/).
 
 ### Restore data from Cloud Files to Cloud Servers
 

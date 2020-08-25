@@ -99,7 +99,7 @@ permalink: /support/how-to/
           <h4><a href="/support/how-to/cloud-images/"><span>Cloud</span> Images</a></h4>
         </div>
         <div class="col-sm-12 col-md-4 icon vmware">
-          <h4><a href="/support/how-to/managed-vmware-services/"><span>VMware</span> Server Virtualization</a>
+          <h4><a href="/support/how-to/vmware-server-virtualization/"><span>VMware</span> Server Virtualization</a>
           </h4>
         </div>
       </div>

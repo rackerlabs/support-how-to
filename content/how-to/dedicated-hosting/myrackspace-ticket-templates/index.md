@@ -14,16 +14,16 @@ product_url: dedicated-hosting
 
 The folowing articles describe how to use the ticket templates in the [MyRackspace Portal](https://login.rackspace.com/):
 
-- [Create New User on Active domain directory](https://support.rackspace.com/how-to/create-new-user-on-active-directory-domain/)
+- [Create New User on Active domain directory](/support/how-to/create-new-user-on-active-directory-domain/)
 
-- [Add CPU to Server or Hypervisor](https://support.rackspace.com/how-to/add-cpu-to-server-or-hypervisor/)
+- [Add CPU to Server or Hypervisor](/support/how-to/add-cpu-to-server-or-hypervisor/)
 
-- [Add RAM to Server or Hypervisor](https://support.rackspace.com/how-to/add-ram-to-server-or-hypervisor/)
+- [Add RAM to Server or Hypervisor](/support/how-to/add-ram-to-server-or-hypervisor/)
 
-- [Add Disk Space to Server or Hypervisor](https://support.rackspace.com/how-to/add-disk-space-to-server-or-hypervisor/)
+- [Add Disk Space to Server or Hypervisor](/support/how-to/add-disk-space-to-server-or-hypervisor/)
 
-- [Local User Management](https://support.rackspace.com/how-to/manage-local-users-in-the-myrackspace-portal/)
+- [Local User Management](/support/how-to/manage-local-users-in-the-myrackspace-portal/)
 
-- [Reset User Password on Active Directory Domain](https://support.rackspace.com/how-to/reset-user-password-on-active-directory-domain/)
+- [Reset User Password on Active Directory Domain](/support/how-to/reset-user-password-on-active-directory-domain/)
 
-- [Generate Certificate Signing Request (CSR)](https://support.rackspace.com/how-to/generate-a-csr/)
+- [Generate Certificate Signing Request (CSR)](/support/how-to/generate-a-csr/)

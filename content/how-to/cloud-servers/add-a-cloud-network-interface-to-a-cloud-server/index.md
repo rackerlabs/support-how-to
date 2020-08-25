@@ -77,4 +77,4 @@ You might find the following additional resources helpful:
 
 - [Install CLI client and Cloud Servers Virtual Interface
   extension](https://docs.rackspace.com/docs/cloud-servers/v2/getting-started/send-request-ovw/#id2)
-- [Install python-novaclient on Windows](https://support.rackspace.com/support/how-to/installing-python-novaclient-on-windows/)
+- [Install python-novaclient on Windows](/support/support/how-to/installing-python-novaclient-on-windows/)

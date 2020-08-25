@@ -51,7 +51,7 @@ the following steps:
    a third-party tool that can be configured to use direct calls with the
    Cloud Files API. For more information, see [How to configure Cyberduck for
    Rackspace Cloud
-   Files](https://support.rackspace.com/support/how-to/configure-rackspace-cloud-files-with-cyberduck/).
+   Files](/support/support/how-to/configure-rackspace-cloud-files-with-cyberduck/).
 
     If you receive an error message, document it so that you can include it in
     your support request and then skip to step 6.

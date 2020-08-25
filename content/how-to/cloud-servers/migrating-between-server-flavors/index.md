@@ -38,8 +38,8 @@ larger. If you try to attach a too-large image through the API, you get an `HTTP
 
 If your Standard or General Purpose server is small enough, you should be able to take an image of your server
 and create a bootable volume that you can use to boot Compute or Memory flavor servers. To learn more, see
-[Boot a server from a Cloud Block Storage volume](https://support.rackspace.com/how-to/boot-a-server-from-a-cloud-block-storage-volume/).
+[Boot a server from a Cloud Block Storage volume](/support/how-to/boot-a-server-from-a-cloud-block-storage-volume/).
 
 However, if your server falls under the category listed in the preceding **Limitations** section, you need to perform
 a manual cloud-to-cloud migration of the server's data to move to the other flavor. To learn more, see
-[Cloud-to-cloud migration](https://support.rackspace.com/how-to/cloud-to-cloud-migration/).
+[Cloud-to-cloud migration](/support/how-to/cloud-to-cloud-migration/).

@@ -80,7 +80,7 @@ do
 # pull file name and directory
           thefilewx=$(basename $f)
           thefile=${thefilewx%.*}
-          theroot="https://support.rackspace.com/support/how-to/"
+          theroot="/support/support/how-to/"
           thepath=$theroot$thefile
           theoutput=$acdate";"$acby";"$thepath
 

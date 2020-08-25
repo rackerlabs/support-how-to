@@ -20,16 +20,16 @@ The Cloud Load Balancers permissions matrix displays specific permissions for th
  The matrix displays the Cloud Load Balancers methods grouped by category, their corresponding RESTful API commands, and the RBAC roles that are supported.
 
 ### Load balancer
-
+{{<table "table table-dark table-striped table-bordered">}}
 Method | API action | Role | Description
---- | --- | --- | ---
+|---------|--------|--------|--------|
 List load balancers | `GET /v1.0/{account}/loadbalancers` | **Admin,<br/>Creator,<br/>Observer** | Lists load balancers configured and associated with your account.
 Show load balancer details | `GET /v1.0/{account}/loadbalancers/{loadBalancerId}` | **Admin,<br/>Creator,<br/>Observer** | Shows details for a specified load balancer.
 Create load balancer | `POST /v1.0/{account}/loadbalancers` | **Admin,<br/>Creator** | Creates a new load balancer with the configuration defined by the request.
 Update load balancer properties | `PUT /v1.0/{account}/loadbalancers/{loadBalancerId}` | **Admin,<br/>Creator** | Updates the properties of the specified load balancer.
 Delete load balancer | `DELETE /v1.0/{account}/loadbalancers/{loadBalancerId}` | **Admin** | Deletes the specified load balancer and its associated configuration from the account.
 Bulk-delete load balancers | `DELETE /v1.0/{account}/loadbalancers?id={loadBalancerId}` | **Admin** | Deletes all of the load balancers that you specify.
-
+{{</table>}}
 ### Error pages
 
 Method | API action | Role | Description

@@ -27,7 +27,7 @@ As a customer with a dedicated account, you can perform the following tasks:
 - View the availability of your applications.
 - Create customized visualizations and graphs.
 - Use the following types of [remote
-  checks](https://support.rackspace.com/support/how-to/working-with-alarms/):
+  checks](/support/support/how-to/working-with-alarms/):
 
     - Ping
 
@@ -36,7 +36,7 @@ As a customer with a dedicated account, you can perform the following tasks:
     - HTTP
 
 For more information, see [Working with
-alarms](https://support.rackspace.com/support/how-to/working-with-alarms/).
+alarms](/support/support/how-to/working-with-alarms/).
 
 ### Prerequisites
 

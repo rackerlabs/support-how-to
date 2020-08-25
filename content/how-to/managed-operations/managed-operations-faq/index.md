@@ -17,7 +17,7 @@ product_url: managed-operations
 The Rackspace Cloud environment has not been formally assessed for for
 compliance with the Payment Card Industry (PCI) Data Security Standard
 (DSS). For information about PCI-DSS, see [Cloud Security
-Solutions](https://support.rackspace.com/support/how-to/are-cloud-servers-pci-dss-compliant/). For
+Solutions](/support/support/how-to/are-cloud-servers-pci-dss-compliant/). For
 information about PCI-DSS when using Rackspace Dedicated Hosting
 services, see [PCI-Compliant Hosting for E-commerce
 Websites](https://www.rackspace.com/ecommerce-hosting/pci/).

@@ -50,7 +50,7 @@ servers by default.
 Swap space is the amount of space that is reserved whenever the random access memory (RAM) is
 used up. You can use the commands in the preceding sections to view the swap space along with the memory. If you
 want to learn more about swap space, see
-[Swap space on Cloud Servers](https://support.rackspace.com/how-to/swap-space-on-cloud-servers/).
+[Swap space on Cloud Servers](/support/how-to/swap-space-on-cloud-servers/).
 
 ### OOM Killer
 

@@ -12,4 +12,4 @@ product_url: retired-articles
 
 ### Retired Articles
 
-The content that you are looking for is no longer available. To see other article options, go to the [Rackspace How-To landing page](https://support.rackspace.com/).
+The content that you are looking for is no longer available. To see other article options, go to the [Rackspace How-To landing page](/support/).
