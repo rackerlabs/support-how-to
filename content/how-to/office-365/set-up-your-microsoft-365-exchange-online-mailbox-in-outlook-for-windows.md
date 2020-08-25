@@ -1,7 +1,7 @@
 ---
-permalink: set-up-your-microsoft-365=exchange-online-mailbox-in-outlook-for-windows/
+permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-outlook-for-windows/
 audit_date: '2020-08-25'
-title: Setting up your Microsoft 365 Exchange Online mailbox in Outlook for Windows
+title: Set up your Microsoft 365 Exchange Online mailbox in Outlook for Windows
 type: article
 created_date: '2020-08-18'
 created_by: Allison Battles
