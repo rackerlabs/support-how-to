@@ -23,9 +23,9 @@
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 
-# [[redirects]]
-#   from = "https://docs-support-how-to.netlify.app/support/how-to/ach-compliance-faq/"
-#   to = "https://docs-support-how-to.netlify.app/support/how-to/article-retired/"
-#   status = 301
-#   force = true
-#   headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/support/how-to/ach-compliance-faq/"
+  to = "/support/how-to/article-retired/"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
