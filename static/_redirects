@@ -1,6 +1,8 @@
 # Redirects
 
-/how-to/ach-compliance-faq/ /how-to/article-retired/ 200!
+/how-to/ach-compliance-faq/  /support/how-to/ach-compliance-faq/  301
+/how-to/article-retired/  /support/how-to/article-retired/  301
+/support/how-to/ach-compliance-faq/ /support/how-to/article-retired/ 200!
 /how-to/managing-your-server-resizing-standard-and-general-purpose-servers/ /how-to/resize-standard-and-general-purpose-servers/ 404!
 
 /support       /       200
