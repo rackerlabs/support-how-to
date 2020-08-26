@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -34,14 +34,13 @@ This article describes how to set up and configure your Microsoft 365 Exchange O
 
 ### Configure your Exchange Online mailbox in the Outlook for iPad OS application
 
-1. **Open** the Outlook application on your iPad and select **Get Started**.  
+1. **Open** the Outlook application on your iPad and select **Get Started**.
 
 2. Enter your Microsoft 365 Exchange Online email address, select **Add Account**, and **Continue**.
 
 3. Enter your mailbox password when prompted and select **Sign In**.
 
 4. Select **Maybe Later** to complete the setup process, or **Let’s Do It!** to continue setting up additional mail accounts.
-
 
 **Note:** If Multi-Factor Authentication is enabled, Outlook prompts you for the default verification method when
 configuring your account for the first time.

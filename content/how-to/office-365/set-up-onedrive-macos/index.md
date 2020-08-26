@@ -11,8 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy

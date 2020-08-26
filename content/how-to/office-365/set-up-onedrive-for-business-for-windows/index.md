@@ -11,8 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -29,7 +28,6 @@ The following article describes how to install and configure the OneDrive for Bu
 
 ### Install OneDrive For Business
 
-
 Use the following steps to install OneDrive for Business:
 
 1. Navigate to the following link to begin the installation process: [OneDrive for Business](https://www.microsoft.com/en-us/microsoft-365/onedrive/download).
@@ -38,9 +36,7 @@ Use the following steps to install OneDrive for Business:
 
 3. **Save** and **Run** the **OneDriveSetup.exe** application when prompted.
 
-
 ### Configure OneDrive for Business
-
 
 Use the following steps to configure OneDrive for business:
 

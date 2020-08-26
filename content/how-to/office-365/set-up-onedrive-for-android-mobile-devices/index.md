@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -25,9 +25,7 @@ For additional information about Microsoft 365 licensing, see our [product compa
 
 This article describes how to install and configure the OneDrive for Business application for Android mobile devices.
 
-
 **Note:** If you are unsure whether your license includes OneDrive, contact your administrator.
-
 
 ### Install OneDrive for Android mobile devices
 

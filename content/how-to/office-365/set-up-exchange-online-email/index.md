@@ -11,8 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User (Admin to enable authentication via SMTP)
 - **Difficulty:** Easy
@@ -26,9 +25,7 @@ For additional information about Microsoft 365 licensing, see our [product compa
 This article describes how to enable *authenticated SMTP* for Microsoft 365 Exchange&reg; Online mailboxes and
 outlines the server settings for SMTP, IMAP, and POP protocols.
 
-
 **Note:** If you are unsure whether your license includes Exchange Online, contact your administrator.
-
 
 ### Enable SMTP authentication for Microsoft 365 Exchange Online mailboxes
 

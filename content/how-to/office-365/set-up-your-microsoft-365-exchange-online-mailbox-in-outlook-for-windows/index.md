@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -24,7 +24,7 @@ For additional information about Microsoft 365 licensing, see our [Product Compa
 
 This article describes how to install the desktop Office 365 suite and set up Exchange Online mailboxes within the Outlook for Windows client for the first time.
 
-### Install Office Applications, including Outlook, on a Windows device 
+### Install Office Applications, including Outlook, on a Windows device
 
 **Note:** If you are unsure whether your license includes the Office suite, contact your administrator.
 
@@ -85,7 +85,7 @@ Use the following steps to set up your Microsoft 365 Exchange Online mailbox wit
 
 2. After you compose the message, select **Send**.
 
-**Reply and Forward:**
+**Reply and forward:**
 
 1. Select the message to which you want to replay and choose one of the following options:
 

@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User and Admin
 - **Difficulty:** Easy
@@ -40,9 +40,7 @@ Use the following steps to install the Microsoft Support and Recovery Assistant:
 
 6. Select **I agree** when prompted with the Service Agreement to complete the installation.
 
-
 ### Troubleshoot Exchange issues with the Microsoft Support and Recovery Assistant
-
 
 Use the following steps to troubleshoot various Exchange online issues with the Microsoft Support and Recovery Assistant:
 

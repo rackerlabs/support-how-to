@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -27,7 +27,6 @@ This article describes how to install the Outlook Application for Android tablet
 Exchange Online mailbox the first time.
 
 **Note:** If you are unsure whether your license includes Exchange Online, contact your administrator.
-
 
 ### Install he Outlook for Android application
 
