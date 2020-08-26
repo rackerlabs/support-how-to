@@ -22,7 +22,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 
-
 This article describes how to install the Microsoft Support and Recovery Assistant and troubleshoot Outlook issues with the Support and Recovery Assistant.
 
 ### Install the Microsoft Support and Recovery Assistant
