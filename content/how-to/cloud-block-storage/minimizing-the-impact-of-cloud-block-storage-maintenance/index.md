@@ -5,8 +5,8 @@ title: Minimizing the impact of Cloud Block Storage maintenance
 type: article
 created_date: '2020-01-7'
 created_by: Brian King
-last_modified_date: '2020-01-7'
-last_modified_by: Chad Sterling
+last_modified_date: '2020-08-25'
+last_modified_by: Mason Stevens
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -21,28 +21,25 @@ You can either clone and replace your Cloud Block Storage volume, or stop all wr
 
 #### Clone and replace
 
-After you [clone your Cloud Block Storage volume](https://docs.rackspace.com/support/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
+After you [clone your Cloud Block Storage volume](https://support.rackspace.com/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- Stop all writes to your current Cloud Block Storage volume before initiating the clone. Once all writes to the current Cloud Block Storage volume have been stopped, clone the volume. Once the clone completes, [unmount and detach](https://docs.rackspace.com/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://docs.rackspace.com/support/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
+- Stop all writes to your current Cloud Block Storage volume before initiating the clone. Once all writes to the current Cloud Block Storage volume have been stopped, clone the volume. Once the clone completes, [unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
 
 **Note:** Clones are not verified. Ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume.
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
-- After you clone your Cloud Block Storage volume, you can deploy a new server by using the new clone
-as the system disk. From the [mycloud portal](https://login.rackspace.com/), select **Servers** > **Create Resources**>**Bootable Volumes**. Then deploy a new server from the clone.
+- [Replace your current system disk with a clone.](https://support.rackspace.com/how-to/increase-size-of-cloud-boot-from-volume-server-system-disk/)
 
-**Note:** Clones are not verified. Ensure the newly-cloned volume can build a server before you delete your current server.
-
-**Note:** Your new server has new IP address.
+**Note:** Clones are not verified. Ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume.
 
 #### Stop all writes to the device
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- [Unmount and detach](https://docs.rackspace.com/support/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
+- [Unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
@@ -60,7 +57,7 @@ does not work, contact Rackspace Support.
 **System disk Cloud Bloud Storage volumes (Boot from volume servers):**
 
 - Reboot the server. If the server is unresponsive or does not reboot, you can [boot
-into rescue mode by using a specific image](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#rescue-specified-server).
+into rescue mode by using a specific image](https://developer.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#rescue-specified-server).
 
 **Note:** This feature is not yet available from the myrackspace.com portal, so you must use the API.
 

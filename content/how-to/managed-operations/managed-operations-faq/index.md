@@ -96,9 +96,9 @@ For full pricing information for Managed Database Services, visit
 the [DBA Services](https://www.rackspace.com/dba-services) product
 page. Scroll down to the product category you want to use (**Relational SQL**
 or **NoSQL**), and click the **Pricing** tab.
-<p class="callout-note">
+
 **Note**: This pricing is for new databases only.
-</p>
+
 {{</accordion>}}
 {{<accordion title="How do I contact the Managed Operations team?" col="in" href="accordion9">}}
 

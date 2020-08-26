@@ -79,10 +79,10 @@ customer:
 {{<accordion title="Is it possible to attach a RackConnect v3.0 cloud network to pre-existing cloud servers?" col="in" href="accordion8">}}
 
 Yes, but with the following caveats:
-<p class="callout-note">
+
 **Note:** *Pre-existing cloud servers* refers to cloud servers that were
 built before RackConnect v3.0 was associated with the cloud account.
-</p>
+
 
 -   For the best possible experience, we recommend using a clean cloud
     account (meaning a cloud account with no pre-existing cloud servers)
@@ -305,14 +305,14 @@ Additionally, Active Directory requires a large number of open ports to
 function properly, so we recommended that you create RackConnect
 network policies that allow full access between your cloud and dedicated
 environments.
-<p class="callout-important">
+
 **Important:** RackConnect network policies are limited to port ranges
 of 100. For details, see [Managing RackConnect network policies](/support/how-to/managing-rackconnect-v20-network-policies).
-</p>
-<p class="callout-note">
+
+
 **Note**: Connecting cloud servers to the Intensive Active Directory
 domains is not currently supported.
-</p>
+
 
 {{</accordion>}}
 {{<accordion title="Can I have an additional private IP address on my RackConnect cloud servers for SSL routing?" col="in" href="accordion28">}}
