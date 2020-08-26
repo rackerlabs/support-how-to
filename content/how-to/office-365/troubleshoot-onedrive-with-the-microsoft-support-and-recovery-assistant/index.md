@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User and Admin
 - **Difficulty:** Easy
@@ -66,7 +66,6 @@ Recovery Assistant:
 
 7. You can review the summary of the resolved issue and click **Next** to complete the process.
 
-
 **Note:** If your issue was not resolved, you can repeat the preceding steps after changing the criteria in **Step 3**.
 
 ### Common issues in OneDrive for Business
@@ -78,5 +77,4 @@ Recovery Assistant:
 
 - If your **OneDrive for Business** account exceeds the maximum storage limit for more than three months, the account will be frozen.
 
-
-**NOte:** For more information about invalid file names and file types within OneDrive, refer to this [Microsoft Support article](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa?ui=en-us&rs=en-us&ad=us).
+**Note:** For more information about invalid file names and file types within OneDrive, refer to this [Microsoft Support article](https://support.microsoft.com/en-us/office/invalid-file-names-and-file-types-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa?ui=en-us&rs=en-us&ad=us).

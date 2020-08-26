@@ -11,8 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -26,7 +25,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 This article describes how to set up your Office 365 Exchange Online mailbox in the Apple Mail client for the first time.
 
 **Note:** If you are unsure whether your license includes Exchange Online, contact your administrator.
-
 
 ### Configure your Microsoft 365 mailbox within Apple Mail for macOS
 
@@ -75,7 +73,7 @@ Use the following steps to configure your Microsoft 365 Exchange Online mailbox 
 
 2. Select the email account for which you want to create the signature from the left-hand column.
 
-3. Click the **+** sign and assign a name to your signature.   
+3. Click the **+** sign and assign a name to your signature.
 
 4. Compose your signature in the right-hand column and close the menu when you finish.
 

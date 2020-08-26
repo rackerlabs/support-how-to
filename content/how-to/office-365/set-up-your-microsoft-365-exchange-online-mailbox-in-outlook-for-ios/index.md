@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -45,13 +45,12 @@ Use the following steps to set up your Microsoft 365 Exchange Online mailbox in 
 4. Accept any prompts for permissions after successfully adding the account.
 
 5. When asked *Would you like to add another account?*, select either **Maybe Later** to complete the setup or **Add** to continue setting up additional mailboxes.
-     
 
 Use the following steps to add your Microsoft 365 account to a previously installed version of Outlook for iOS:
 
 1. Open **Outlook**.
 
-2. Click your portrait in the top-left corner and select the **Settings** cogwheel icon.  
+2. Click your portrait in the top-left corner and select the **Settings** cogwheel icon.
 
 3. Select **Add Mail Account** in the **Mail Accounts** section and select **Add Email Account**.
 
@@ -61,7 +60,6 @@ Use the following steps to add your Microsoft 365 account to a previously instal
 
 
 ### Helpful tips when using Outlook for iOS
-
 
 **Composing a new message:**
 

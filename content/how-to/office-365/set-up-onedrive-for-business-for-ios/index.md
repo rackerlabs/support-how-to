@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -36,7 +36,6 @@ Use the following the steps to install the OneDrive application:
 
 3. After the download completes, click **Get** and select **Open**.
 
-
 ### Configure OneDrive for iOS
 
 Use the following the steps to configure OneDrive:
@@ -60,7 +59,6 @@ Use the following the steps to add a Microsoft 365 account to an existing instal
 4. Select **Add Account** in the **Accounts** section.
 
 5. Enter your Microsoft 365 email address and password when prompted and select **Sign in**.
-
 
 **Note:** You can also sign in to your organization's SharePoint&reg; site by entering the corresponding URL in the
 *SharePoint Server URL* feature.

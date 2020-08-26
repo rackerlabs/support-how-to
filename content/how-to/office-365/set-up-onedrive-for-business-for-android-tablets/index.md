@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -46,7 +46,6 @@ Use the following steps to configure OneDrive for Android:
 
 3. Enter your Microsoft 365 password when prompted and select **Sign in**.
 
-
 To set up additional OneDrive accounts within the application, use the following steps:
 
 1. Select the **Me** icon in the bottom-right corner.
@@ -58,7 +57,6 @@ To set up additional OneDrive accounts within the application, use the following
 4. Enter your Microsoft 365 username and press the **arrow** icon to continue.
 
 5. Enter your Microsoft 365 password when prompted and select **Sign in**.
-
 
 ### Upload and Share files through OneDrive for Android tablets
 

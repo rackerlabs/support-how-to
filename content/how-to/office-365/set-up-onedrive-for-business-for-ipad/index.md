@@ -11,7 +11,7 @@ product: Office 365
 product_url: office-365
 ---
 
-### Prerequisites 
+### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
@@ -36,9 +36,7 @@ Use the following steps to install the OneDrive for Business application:
 
 3. After the download completes, click **Get**, then select **Open**.
 
-
 ### Configuring OneDrive for Business on iPadOS
-
 
 Use the following steps to configure OneDrive for Business:
 
@@ -49,7 +47,6 @@ Use the following steps to configure OneDrive for Business:
 3. Enter your Microsoft 365 password when prompted and select **Sign in**.
 
 4. Select whether you want to receive notifications from OneDrive through **Keep Up with File Changes** to complete the setup process.
-
 
 Use the following steps to add a Microsoft 365 account to an existing installation of OneDrive:
 
