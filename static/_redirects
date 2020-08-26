@@ -4,5 +4,3 @@
 /support/how-to/       /how-to/     200
 /support/how-to/*       /how-to/:splat     200
 /how-to/*       /support/how-to/:splat      301
-https://docs.rackspace.com/how-to/*      https://docs.rackspace.com/support/how-to/:splat       301
-https://docs-support-how-to.netlify.app/how-to/*        https://docs-support-how-to.netlify.app/support/how-to/:splat       301
