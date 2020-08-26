@@ -3,6 +3,9 @@
 /article-retired/      /ach-compliance-faq/      200
 /managing-your-server-resizing-standard-and-general-purpose-servers/        /resize-standard-and-general-purpose-servers/       200
 /resize-standard-and-general-purpose-servers/       /managing-your-server-resizing-standard-and-general-purpose-servers/    200
+/support/how-to/article-retired/      /support/how-to/ach-compliance-faq/      200
+/support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/        /support/how-to/resize-standard-and-general-purpose-servers/       200
+/support/how-to/resize-standard-and-general-purpose-servers/       /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/    200
 /support       /       200
 /support/how-to/       /how-to/     200
 /support/how-to/*       /how-to/:splat     200
