@@ -220,11 +220,11 @@ You can have one clone, one template, and unlimited snapshots. Snapshots can be 
 in that they take up to the original size of the original disk. The
 snapshots take up customer storage and do count toward the required 15%
 overhead.
-<p class="callout-important">
+
 **IMPORTANT** We do not recommend having more snapshots than is necessary. Snapshots
 can consume your resources and cause performance issues. Speak to your
 VMware support team for more information.
-</p>
+
 {{</accordion>}}
 {{<accordion title="How long will it take to provision a VM?" col="in" href="accordion24">}}
 

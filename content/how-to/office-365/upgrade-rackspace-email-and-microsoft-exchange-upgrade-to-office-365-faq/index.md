@@ -34,10 +34,10 @@ listed to prepare for migration:
  2.  [Add your domain in Office 365](/support/how-to/add-a-domain-in-office-365)
  3.  [Add an Office 365 license](/support/how-to/add-an-office-365-license)
  4.  [Assign an Office 365 license to a user](/support/how-to/add-an-office-365-license#assign-an-office-365-license-to-a-user)
-<p class="callout-note">
+
 **Note:** You must complete these steps before self-migrating or requesting an
 assisted migration.
-</p>
+
 
 #### Can the Rackspace Migrations Team migrate my data?
 

@@ -29,11 +29,11 @@ line to quickly solve the problem.
 
 Cloudflare offers [free DNS services](https://www.cloudflare.com/dns) to
 customers in all plans.
-<p class="callout-note">
+
 **Note**: You do not need to move away from your registrar. The only change
 that you make with your registrar is to point the authoritative nameservers
 to the Cloudflare nameservers.
-</p>
+
 
 ### Where do I change my nameservers to point to Cloudflare?
 
@@ -49,11 +49,11 @@ Cloudflare.
 The Cloudflare DNS default Time-To-Live (TTL) is 300 seconds (five minutes). Any
 changes or additions you make to your Cloudflare zone file push out in five
 minutes or less.
-<p class="callout-note">
+
 **Note**: Your local DNS cache might take longer to update. Thus,
 propagation everywhere might take longer than five minutes. In rare cases,
 it could take up to 48 hours.
-</p>
+
 
 #### Can I add domains to my Cloudflare account?
 

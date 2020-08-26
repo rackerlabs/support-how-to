@@ -5,7 +5,7 @@ title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2020-03-23'
+last_modified_date: '2020-08-10'
 last_modified_by: Tyler Watson
 product: Cloud Block Storage
 product_url: cloud-block-storage
