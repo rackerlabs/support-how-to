@@ -62,7 +62,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 2. Create a new directory within ```/content/how-to/**product**``` that contains the initial ```.index.md``` by using the following command:
 
-   `sh hugo new --kind blog-bundle how-to/**product**/article-title`
+   `sh hugo new --kind support-bundle how-to/**product**/article-title`
 
    **Note:** If your post has images,  place the image files within the newly created post folder.
 
@@ -72,23 +72,22 @@ Follow these steps to create a new article within a product folder of the **rack
 
 5. At the bottom of the page, click **Propose new file**.
 
-6. Create a pull request (PR). On the "Open a pull request" page, check the following settings:
+6. Create a pull request (PR). On the **Open a pull request** page, check the following settings:
 
     - `base fork: rackerlabs/rackspace-how-to`
     - `base: master`
     - `head fork: {your-username}/rackspac...`
     - `compare: {your-branch}`
 
-   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus may not be present.
+   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus might not be present.
 
 7. Describe the reasons for your change in the comment box, and then select **Create pull request**.
 
-**Note:** If your article includes images, send an email to <how-to@rackspace.com> with the image files. Note where the images belong in the article by using comments: `<!--this is a comment-->`.
+**Note:** If your article includes images, add the image to your article directory and add a link to the image in your article.  For example, assuming your image is named **Picture1.png**: {{<img src="Picture1.png" title="" alt="">}}
 
-8. Request reviews of your PR from the Information Development team in the
-    ``#how-to`` channel in Slack.
+8. Request reviews of your PR from the Information Development team in the ``#how-to`` channel in Slack.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
+The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
 
 <!---##### Using article templates
 
@@ -106,13 +105,14 @@ Article templates are available for three types of article: task-based, conceptu
 
 5. Submit your article as a pull request as detailed in the previous section.
 --->
+
 #### Edit an article
 
 Follow these steps to edit an existing article within a product folder of the **rackerlabs/support-how-to** repo.
 
 1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/support-how-to/tree/master/content/how-to) and click the product for which you want to edit an article.
 
-2. Find the article you want to edit and click to open the file.
+2. Find the article you want to edit and click to open the index.md file within the article folder.
 
 3. At the top of the article, click the pencil (Edit this file) icon.
 
@@ -131,7 +131,7 @@ Follow these steps to edit an existing article within a product folder of the **
     - `head fork: {your-username}/rackspac...`
     - `compare: {your-branch}`
 
-   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus may not be present.
+   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus might not be present.
 
 7. Describe the changes that you made in a PR message.
 
@@ -145,7 +145,7 @@ Follow these steps to edit an existing article within a product folder of the **
 9. Request reviews of your PR from the Information Development team in the
     ``#how-to`` channel in Slack.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
+The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
 
 #### Make a change to a PR
 
