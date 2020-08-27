@@ -44,12 +44,12 @@ Before migrating to a later Exchange version, consider the following information
 
 #### Back up your data
 
-Although we do not anticipate any issues with the migration, we recommend that you back up your data before the migration. You can back up your data by performing a [Personal Storage Table (PST) export with Outlook](/support/how-to/export-and-import-email-address-data-using-outlook/).
+Although we do not anticipate any issues with the migration, we recommend that you back up your data before the migration. You can back up your data by performing a [Personal Storage Table (PST) export with Outlook](/how-to/export-and-import-email-address-data-using-outlook/).
 
   **Note:** The process does not migrate corrupt data.
 
 #### Autodiscover
-The [Autodiscover record](/support/how-to/dns-record-definitions/#cname-record) of the domain you plan to migrate must point to the Rackspace environment. For instructions on setting up a DNS record, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email/).
+The [Autodiscover record](/how-to/dns-record-definitions/#cname-record) of the domain you plan to migrate must point to the Rackspace environment. For instructions on setting up a DNS record, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email/).
 
 #### Public folders
 
@@ -57,7 +57,7 @@ Our hosted Exchange environment offers public folders with the following limitat
 
 - There is a limit of 25 folders with a maximum size of 250 megabytes per folder, including the root folder.
 
-- Exchange administrators must use the control panel to [manage public folders](/support/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/).
+- Exchange administrators must use the control panel to [manage public folders](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2013/).
 
 - The environment disables public folder administration actions such as creating, editing, or moving public folders in Outlook for Exchange users.
 
@@ -79,7 +79,7 @@ This section provides answers to questions that you might have about the Exchang
 
 #### Do I need to change my Mail Exchange records?
 
-In most cases, you do not need to change your Mail Exchange (MX) records because they should already point to our environment. You can review our MX record details in the article [Set up DNS records for Cloud Office email](/support/support/how-to/set-up-dns-records-for-cloud-office-email/).
+In most cases, you do not need to change your Mail Exchange (MX) records because they should already point to our environment. You can review our MX record details in the article [Set up DNS records for Cloud Office email](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email/).
 
 #### Can we migrate only some of our mailboxes?
 
@@ -105,7 +105,7 @@ The following items can affect the length of your migration:
 - Mailbox size
 - Total size of attachments
 - Number of mailboxes on the domain
-- Provisioning delays in our Exchange environment. See the [System Status Page](https://status.apps.rackspace.com/) for notice on this type of issue.
+- Provisioning delays in our Exchange environment. See the [System Status Page](http://status.apps.rackspace.com/) for notice on this type of issue.
 
   **Note:** You cannot estimate the length of time a migration will take because of the variance in the preceding items.
 

@@ -44,8 +44,4 @@ stack, and underlying hardware to Rackspace. For more information, see the follo
 | Capacity planning | Rackspace assistance provided | VMware vROps Included |
 | Automation tools | No | - vApp Deployment Automation (optional vCloud Director)<br/>- vRealize Automation (optional)<br/>- Chef&reg; / Ansible&reg; / Puppet plug-in Ecosystem |
 
-### More information
 
-For more information, see the following forum:
-
-- [Rackspace Managed Virtualization community forum](https://community.rackspace.com/products/f/52)
