@@ -2,7 +2,7 @@
 permalink: support/
 audit_date: '2018-12-13'
 title: How to contact Rackspace Support
-type: page
+type: article
 created_date: '2013-06-17'
 created_by: Rackspace Support
 last_modified_date: '2018-12-13'
