@@ -2,128 +2,128 @@
 
 # Main Redirects
 
-/support       /       200
+/support       /      200
 /support/how-to/       /how-to/     200
 
 # Retired Articles
 
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/  200
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix/  200
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/  200
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app/  200
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-set-up-credentials-to-access-cloud-files/  200
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-share-a-file-with-another-person/  200
-/support/how-to/cloud-storage-app-for-microsoft-sharepoint-overview/  200
-/support/how-to/determine-if-your-server-is-a-first-generation-cloud-server/  200
-/support/how-to/first-generation-to-next-generation-cloud-server-migration-faq/  200
-/support/how-to/first-gen-to-next-gen-cloud-servers-migration-pre-checks/  200
-/support/how-to/first-generation-cloud-servers-sample-code/  200
-/support/how-to/add-another-wordpress-site-to-an-existing-cloud-orchestration-stack/  200
-/support/how-to/first-generation-end-of-life-migrations/  200
-/support/how-to/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/  200
-/support/how-to/next-generation-cloud-servers-migration-considerations-and-options/  200
-/support/how-to/permissions-matrix-for-first-generation-cloud-servers/  200
-/support/how-to/use-a-custom-kernel-with-pv-grub/  200
-/support/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services/  200
-/support/how-to/use-enum-metrics/  200
-/support/how-to/rackspace-private-cloud-software-package-update-20-march-2013/  200
-/support/how-to/rackspace-private-cloud-spheres-of-support/  200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/  /how-to/article-retired/ 200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix/  /how-to/article-retired/ 200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/  /how-to/article-retired/ 200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app/  /how-to/article-retired/ 200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-set-up-credentials-to-access-cloud-files/  /how-to/article-retired/ 200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-share-a-file-with-another-person/  /how-to/article-retired/ 200
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-overview/  /how-to/article-retired/ 200
+/support/how-to/determine-if-your-server-is-a-first-generation-cloud-server/  /how-to/article-retired/ 200
+/support/how-to/first-generation-to-next-generation-cloud-server-migration-faq/  /how-to/article-retired/ 200
+/support/how-to/first-gen-to-next-gen-cloud-servers-migration-pre-checks/  /how-to/article-retired/ 200
+/support/how-to/first-generation-cloud-servers-sample-code/  /how-to/article-retired/ 200
+/support/how-to/add-another-wordpress-site-to-an-existing-cloud-orchestration-stack/  /how-to/article-retired/ 200
+/support/how-to/first-generation-end-of-life-migrations/  /how-to/article-retired/ 200
+/support/how-to/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/  /how-to/article-retired/ 200
+/support/how-to/next-generation-cloud-servers-migration-considerations-and-options/  /how-to/article-retired/ 200
+/support/how-to/permissions-matrix-for-first-generation-cloud-servers/  /how-to/article-retired/ 200
+/support/how-to/use-a-custom-kernel-with-pv-grub/  /how-to/article-retired/ 200
+/support/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services/  /how-to/article-retired/ 200
+/support/how-to/use-enum-metrics/  /how-to/article-retired/ 200
+/support/how-to/rackspace-private-cloud-software-package-update-20-march-2013/  /how-to/article-retired/ 200
+/support/how-to/rackspace-private-cloud-spheres-of-support/  /how-to/article-retired/ 200
 /support/how-to/detailed-permissions-matrix-for-cloud-big-data(/*.|)$"
-/support/how-to/rackspace-private-cloud-partner-devices/  200
-/support/how-to/bare-metal-to-rackspace-private-cloud/  200
-/support/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes/  200
-/support/how-to/compute-cloud-nova-using-seamicro-sm15000/  200
-/support/how-to/installing-and-testing-cinder-in-your-rackspace-private-cloud-lab-environment/  200
-/support/how-to/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/  200
-/support/how-to/private-cloud-certified-devices-compute/  200
-/support/how-to/private-cloud-tech-resources/  200
-/support/how-to/rackspace-private-cloud-software-vm-block-migration/  200
-/support/how-to/using-commvault-to-backup-data-in-rackspace-private-cloud/  200
-/support/how-to/synchronizing-files-to-cloud-files-with-fileconveyor/  200
-/support/how-to/openstack-glossary-of-terms/  200
-/support/how-to/managed-cloud-service-level-pricing/  200
-/support/how-to/creating-a-centos-65-image-for-the-rackspace-open-cloud/  200
-/support/how-to/migrating-your-drupal-database-to-cloud-servers/  200
-/support/how-to/adding-a-mobile-sync-license/  200
-/support/how-to/delete-a-server/  200
-/support/how-to/close-your-rackspace-account/  200
-/support/how-to/rackconnect-power-users-guide/  200
-/support/how-to/rackconnect-release-notes/  200
-/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2010/  200
-/support/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server/  200
-/support/how-to/cloud-server-name-transitions/  200
-/support/how-to/cloud-big-data/  200
-/support/how-to/cloud-big-data-faq/  200
-/support/how-to/cloud-big-data-platform-provisioning-and-pricing/  200
-/support/how-to/deploying-rackspace-cloud-big-data/  200
-/support/how-to/detailed-permissions-matrix-for-cloud-big-data-v2/  200
-/support/how-to/limits-for-cloud-big-data/  200
-/support/how-to/rackspace-cloud-big-data-service-glossary/  200
-/support/how-to/getting-data-into-your-big-data-cluster/  200
-/support/how-to/use-tableau-desktop-with-hive-on-cloud-big-data/  200
-/support/how-to/configure-cloud-feeds-archiving-in-the-cloud-control-panel/  200
-/support/how-to/security-for-rackspace-private-cloud-powered-by-openstack/  200
-/support/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts/  200
-/support/how-to/about-volume-types/  200
-/support/how-to/managed-dns-faq/  200
-/support/how-to/migrating-a-linux-server-from-the-command-line-2/  200
-/support/how-to/administrator-management-cloud-office-control-panel/  200
-/support/how-to/test-and-send-mail-using-php/  200
-/support/how-to/email-access-options-during-an-email-migration/  200
-/support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel/  200
-/support/how-to/sharepoint//  200
-/support/how-to/sharepoint-faq/  200
-/support/how-to/getting-started-with-rackspace-services-for-sharepoint/  200
-/support/how-to/how-to-install-the-rackspace-cloud-storage-app-for-microsoft-sharepoint/  200
-/support/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel/  200
-/support/how-to/ach-compliance-faq/  200
-/support/how-to/cloud-servers-how-to-articles-other-resources/  200
-/support/how-to/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/  200
-/support/how-to/add-authorized-users-in-the-rackconnect-management-interface/  200
-/support/how-to/upcoming-deprecation-of-resource-rackspacecloudserver-for-cloud-orchestration/  200
-/support/how-to/using-automatic-and-manual-disk-partitioning-on-cloud-servers/  200
-/support/how-to/rackconnect-10-post-upgrade-faq/  200
-/support/how-to/upgrades-cloud-office-control-panel/  200
-/support/how-to/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/  200
-/support/how-to/rackspace-cloud-essentials-rescue-mode-on-windows-cloud-servers-behaviors/  200
-/support/how-to/rescue-mode-on-windows-servers/  200
-/support/how-to/upgrade-email-hosting-cloud-office-control-panel/  200
-/support/how-to/email-sorting-issues-on-ios-and-android-after-an-email-migration/  200
-/support/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-windows-phone-devices-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-entourage-ews-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-android-devices-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/  200
-/support/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010/  200
-/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2007/  200
-/support/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-2007/  200
-/support/how-to/setting-up-imap-or-pop-windows-mail/  200
-/support/how-to/set-up-a-two-server-glusterfs-array/  200
-/support/how-to/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/  200
-/support/how-to/ubuntu-mod-rails-installation/  200
-/support/how-to/sdks-for-java-ruby-python-nodejs-php-and-microsoftnet/  200
-/support/how-to/using-the-private-ip-address-on-your-cloud-server/  200
-/support/how-to/rackconnect-image-validation-scripts/  200
-/support/how-to/windows-overview/  200
-/support/how-to/rackspace-referral-program/  200
-/support/how-to/email-migration-from-google/  200
-/support/how-to/set-access-rules-for-archive-end-users/  200
-/support/how-to/basic-cloud-server-use-scenarios/  200
-/support/how-to/configure-a-renamed-email-address-on-windows-phones/  200
-/support/how-to/php-opencloud-sdk-errors-due-to-outdated-certificate-authority-list/  200
-/support/how-to/build-a-new-cloud-server-with-automatic-updates-enabled/  200
-/support/how-to/create-an-email-archive-login-message/  200
-/support/how-to/business-email-101-an-8-step-guide-to-selecting-email-for-your-business/  200
-/support/how-to/manage-company-contacts-in-the-cloud-office-control-panel/  200
-/support/how-to/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/  200
-/support/how-to/set-up-bis-blackberry-internet-service-with-exchange/  200
-/support/how-to/deleting-and-resending-blackberry-service-books-bes/  200
-/support/how-to/converting-your-server-from-pv-to-pvhvm//  200
-/support/how-to/cloud-native-security/  200
-/support/how-to/sample-ruby-application-for-cloud-files/  200
-/support/how-to/swift-filesystem-for-hadoop/  200
+/support/how-to/rackspace-private-cloud-partner-devices/  /how-to/article-retired/ 200
+/support/how-to/bare-metal-to-rackspace-private-cloud/  /how-to/article-retired/ 200
+/support/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes/  /how-to/article-retired/ 200
+/support/how-to/compute-cloud-nova-using-seamicro-sm15000/  /how-to/article-retired/ 200
+/support/how-to/installing-and-testing-cinder-in-your-rackspace-private-cloud-lab-environment/  /how-to/article-retired/ 200
+/support/how-to/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/  /how-to/article-retired/ 200
+/support/how-to/private-cloud-certified-devices-compute/  /how-to/article-retired/ 200
+/support/how-to/private-cloud-tech-resources/  /how-to/article-retired/ 200
+/support/how-to/rackspace-private-cloud-software-vm-block-migration/  /how-to/article-retired/ 200
+/support/how-to/using-commvault-to-backup-data-in-rackspace-private-cloud/  /how-to/article-retired/ 200
+/support/how-to/synchronizing-files-to-cloud-files-with-fileconveyor/  /how-to/article-retired/ 200
+/support/how-to/openstack-glossary-of-terms/  /how-to/article-retired/ 200
+/support/how-to/managed-cloud-service-level-pricing/  /how-to/article-retired/ 200
+/support/how-to/creating-a-centos-65-image-for-the-rackspace-open-cloud/  /how-to/article-retired/ 200
+/support/how-to/migrating-your-drupal-database-to-cloud-servers/  /how-to/article-retired/ 200
+/support/how-to/adding-a-mobile-sync-license/  /how-to/article-retired/ 200
+/support/how-to/delete-a-server/  /how-to/article-retired/ 200
+/support/how-to/close-your-rackspace-account/  /how-to/article-retired/ 200
+/support/how-to/rackconnect-power-users-guide/  /how-to/article-retired/ 200
+/support/how-to/rackconnect-release-notes/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2010/  /how-to/article-retired/ 200
+/support/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server/  /how-to/article-retired/ 200
+/support/how-to/cloud-server-name-transitions/  /how-to/article-retired/ 200
+/support/how-to/cloud-big-data/  /how-to/article-retired/ 200
+/support/how-to/cloud-big-data-faq/  /how-to/article-retired/ 200
+/support/how-to/cloud-big-data-platform-provisioning-and-pricing/  /how-to/article-retired/ 200
+/support/how-to/deploying-rackspace-cloud-big-data/  /how-to/article-retired/ 200
+/support/how-to/detailed-permissions-matrix-for-cloud-big-data-v2/  /how-to/article-retired/ 200
+/support/how-to/limits-for-cloud-big-data/  /how-to/article-retired/ 200
+/support/how-to/rackspace-cloud-big-data-service-glossary/  /how-to/article-retired/ 200
+/support/how-to/getting-data-into-your-big-data-cluster/  /how-to/article-retired/ 200
+/support/how-to/use-tableau-desktop-with-hive-on-cloud-big-data/  /how-to/article-retired/ 200
+/support/how-to/configure-cloud-feeds-archiving-in-the-cloud-control-panel/  /how-to/article-retired/ 200
+/support/how-to/security-for-rackspace-private-cloud-powered-by-openstack/  /how-to/article-retired/ 200
+/support/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts/  /how-to/article-retired/ 200
+/support/how-to/about-volume-types/  /how-to/article-retired/ 200
+/support/how-to/managed-dns-faq/  /how-to/article-retired/ 200
+/support/how-to/migrating-a-linux-server-from-the-command-line-2/  /how-to/article-retired/ 200
+/support/how-to/administrator-management-cloud-office-control-panel/  /how-to/article-retired/ 200
+/support/how-to/test-and-send-mail-using-php/  /how-to/article-retired/ 200
+/support/how-to/email-access-options-during-an-email-migration/  /how-to/article-retired/ 200
+/support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel/  /how-to/article-retired/ 200
+/support/how-to/sharepoint//  /how-to/article-retired/ 200
+/support/how-to/sharepoint-faq/  /how-to/article-retired/ 200
+/support/how-to/getting-started-with-rackspace-services-for-sharepoint/  /how-to/article-retired/ 200
+/support/how-to/how-to-install-the-rackspace-cloud-storage-app-for-microsoft-sharepoint/  /how-to/article-retired/ 200
+/support/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel/  /how-to/article-retired/ 200
+/support/how-to/ach-compliance-faq/  /how-to/article-retired/ 200
+/support/how-to/cloud-servers-how-to-articles-other-resources/  /how-to/article-retired/ 200
+/support/how-to/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/  /how-to/article-retired/ 200
+/support/how-to/add-authorized-users-in-the-rackconnect-management-interface/  /how-to/article-retired/ 200
+/support/how-to/upcoming-deprecation-of-resource-rackspacecloudserver-for-cloud-orchestration/  /how-to/article-retired/ 200
+/support/how-to/using-automatic-and-manual-disk-partitioning-on-cloud-servers/  /how-to/article-retired/ 200
+/support/how-to/rackconnect-10-post-upgrade-faq/  /how-to/article-retired/ 200
+/support/how-to/upgrades-cloud-office-control-panel/  /how-to/article-retired/ 200
+/support/how-to/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/  /how-to/article-retired/ 200
+/support/how-to/rackspace-cloud-essentials-rescue-mode-on-windows-cloud-servers-behaviors/  /how-to/article-retired/ 200
+/support/how-to/rescue-mode-on-windows-servers/  /how-to/article-retired/ 200
+/support/how-to/upgrade-email-hosting-cloud-office-control-panel/  /how-to/article-retired/ 200
+/support/how-to/email-sorting-issues-on-ios-and-android-after-an-email-migration/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-windows-phone-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-outlook-/how-to/article-retired/ 2007-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-outlook-2010-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-entourage-ews-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-android-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/working-with-public-folders-through-outlook-for-exchange-/how-to/article-retired/ 2007-and-2010/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/setting-up-imap-or-pop-windows-mail/  /how-to/article-retired/ 200
+/support/how-to/set-up-a-two-server-glusterfs-array/  /how-to/article-retired/ 200
+/support/how-to/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/  /how-to/article-retired/ 200
+/support/how-to/ubuntu-mod-rails-installation/  /how-to/article-retired/ 200
+/support/how-to/sdks-for-java-ruby-python-nodejs-php-and-microsoftnet/  /how-to/article-retired/ 200
+/support/how-to/using-the-private-ip-address-on-your-cloud-server/  /how-to/article-retired/ 200
+/support/how-to/rackconnect-image-validation-scripts/  /how-to/article-retired/ 200
+/support/how-to/windows-overview/  /how-to/article-retired/ 200
+/support/how-to/rackspace-referral-program/  /how-to/article-retired/ 200
+/support/how-to/email-migration-from-google/  /how-to/article-retired/ 200
+/support/how-to/set-access-rules-for-archive-end-users/  /how-to/article-retired/ 200
+/support/how-to/basic-cloud-server-use-scenarios/  /how-to/article-retired/ 200
+/support/how-to/configure-a-renamed-email-address-on-windows-phones/  /how-to/article-retired/ 200
+/support/how-to/php-opencloud-sdk-errors-due-to-outdated-certificate-authority-list/  /how-to/article-retired/ 200
+/support/how-to/build-a-new-cloud-server-with-automatic-updates-enabled/  /how-to/article-retired/ 200
+/support/how-to/create-an-email-archive-login-message/  /how-to/article-retired/ 200
+/support/how-to/business-email-101-an-8-step-guide-to-selecting-email-for-your-business/  /how-to/article-retired/ 200
+/support/how-to/manage-company-contacts-in-the-cloud-office-control-panel/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/  /how-to/article-retired/ 200
+/support/how-to/set-up-bis-blackberry-internet-service-with-exchange/  /how-to/article-retired/ 200
+/support/how-to/deleting-and-resending-blackberry-service-books-bes/  /how-to/article-retired/ 200
+/support/how-to/converting-your-server-from-pv-to-pvhvm//  /how-to/article-retired/ 200
+/support/how-to/cloud-native-security/  /how-to/article-retired/ 200
+/support/how-to/sample-ruby-application-for-cloud-files/  /how-to/article-retired/ 200
+/support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 200
 
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
@@ -230,8 +230,8 @@
 /support/how-to/upgrade-to-managed-operations-service-level/  /how-to/upgrade-to-the-managed-operations-service-level/ 404
 /how-to/upgrade-to-the-managed-operations-service-level/  /support/how-to/upgrade-to-the-managed-operations-service-level/  301
 
-/support/how-to/public-folder-permissions-for-exchange/  /how-to/public-folder-permissions-for-exchange-2007-and-2010/ 404
-/how-to/public-folder-permissions-for-exchange-2007-and-2010/  /support/how-to/public-folder-permissions-for-exchange-2007-and-2010/  301
+/support/how-to/public-folder-permissions-for-exchange/  /how-to/public-folder-permissions-for-exchange-/how-to/article-retired/ 2007-and-2010/ 404
+/how-to/public-folder-permissions-for-exchange-/how-to/article-retired/ 2007-and-2010/  /support/how-to/public-folder-permissions-for-exchange-/how-to/article-retired/ 2007-and-2010/  301
 
 /support/how-to/items-migrated-during-an-cloud-office-migration/  /how-to/items-migrated-during-a-cloud-office-migration/ 404
 /how-to/items-migrated-during-a-cloud-office-migration/  /support/how-to/items-migrated-during-a-cloud-office-migration/  301
@@ -370,10 +370,10 @@
 /support/how-to/updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/  /how-to/updating-servicenet-routes-on-cloud-servers/ 404
 /how-to/updating-servicenet-routes-on-cloud-servers/  /support/how-to/updating-servicenet-routes-on-cloud-servers/  301
 
-/support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/  /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/ 404
+/support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/ 404
 /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/  /support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/  301
 
-/support/how-to/install-ssl-certificates-on-windows-server-2008r2-and-2012/  /how-to/install-an-ssl-certificate/ 404
+/support/how-to/install-ssl-certificates-on-windows-server-/how-to/article-retired/ 2008r2-and-2012/  /how-to/install-an-ssl-certificate/ 404
 /how-to/install-an-ssl-certificate/  /support/how-to/install-an-ssl-certificate/  301
 
 /support/how-to/upload-an-ssl-certificate-to-a-custom-domain/  /how-to/install-an-ssl-certificate/ 404
@@ -473,5 +473,5 @@
 
 # Main Redirects
 
-/support/how-to/*       /how-to/:splat     200
+/support/how-to/*       /how-to/:splat      200
 /how-to/*       /support/how-to/:splat      301
