@@ -3,7 +3,6 @@ permalink: dedicated-hosting-faq/
 audit_date: '2016-11-09'
 title: Dedicated Hosting FAQ
 type: article
-type: product
 created_date: '2016-11-01'
 created_by: Stephanie Fillmon
 last_modified_date: '2018-11-28'
