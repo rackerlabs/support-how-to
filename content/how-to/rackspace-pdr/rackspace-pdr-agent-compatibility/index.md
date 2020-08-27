@@ -22,9 +22,9 @@ supported. If the kernel is unsupported, agents go into *reduced functionality* 
 and no longer provide adequate telemetry to our Security Operations Center (SOC).
 
 ### Amazon&reg; Linux 2 supported versions
-
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.14.101-91.76.amzn2.x86_64 | 4.14.104-95.84.amzn2.x86_64 | 4.14.106-97.85.amzn2.x86_64 | 4.14.109-99.92.amzn2.x86_64 |
 | 4.14.114-103.97.amzn2.x86_64 | 4.14.114-105.126.amzn2.x86_64 | 4.14.121-109.96.amzn2.x86_64 | 4.14.123-111.109.amzn2.x86_64 |
 | 4.14.128-112.105.amzn2.x86_64 | 4.14.133-113.105.amzn2.x86_64 | 4.14.133-113.112.amzn2.x86_64 | 4.14.138-114.102.amzn2.x86_64 |
@@ -41,13 +41,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.14.97-90.72.amzn2.x86_64 | 4.14.146-120.181.amzn2.x86_64 | 4.14.152-124.171.amzn2.x86_64| 4.14.152-127.182.amzn2.x86_64 |
 | 4.14.154-128.181.amzn2 | 4.14.158-129.185.amzn2.x86_64 | 4.14.165-131.185.amzn2.x86_64 | 4.14.165-133.209.amzn2.x86_64 | 4.19.58-21.57.amzn2.x86_64 | 4.19.58-21.64.amzn2.x86_64 | 4.19.66-22.57.amzn2.x86_64 | 4.19.72-25.58.amzn2.x86_64 |
 4.19.75-27.58.amzn2.x86_64 | 4.19.75-28.73.amzn2.x86_64 | 4.19.82-30.69.amzn2.x86_64 | 4.19.84-33.70.amzn2.x86_64 | 
-
+{{</table>}}
 <br/>
 
 ### Amazon Linux 2017.03 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.9.17-8.31.amzn1.x86_64 | 4.9.20-10.30.amzn1.x86_64 | 4.9.20-11.31.amzn1.x86_64 | 4.9.27-14.31.amzn1.x86_64 |
 | 4.9.27-14.33.amzn1.x86_64 | 4.9.32-15.41.amzn1.x86_64 | 4.9.38-16.33.amzn1.x86_64 | 4.9.38-16.35.amzn1.x86_64 |
 | 4.9.43-17.38.amzn1.x86_64 | 4.9.43-17.39.amzn1.x86_64 | 4.9.51-10.52.amzn1.x86_64 | 4.9.70-25.242.amzn1.x86_64 |
@@ -57,8 +58,9 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Amazon Linux 2017.09 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.9.116-43.59.amzn1.x86_64 | 4.9.119-44.140.amzn1.x86_64 | 4.9.58-18.51.amzn1.x86_64 | 4.9.58-18.55.amzn1.x86_64 |
 | 4.9.62-21.56.amzn1.x86_64 | 4.9.70-22.55.amzn1.x86_64 | 4.9.76-3.78.amzn1.x86_64 | 4.9.77-31.58.amzn1.x86_64 |
 | 4.9.81-35.56.amzn1.x86_64 | 4.9.85-37.55.amzn1.x86_64 | 4.9.85-38.58.amzn1.x86_64 | 4.9.93-41.60.amzn1.x86_64 |
@@ -67,8 +69,9 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Amazon Linux 2018.03 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.14.101-75.76.amzn1.x86_64 | 4.14.104-78.84.amzn1.x86_64 | 4.14.106-79.86.amzn1.x86_64 | 4.14.109-80.92.amzn1.x86_64 |
 | 4.14.114-82.97.amzn1.x86_64 | 4.14.114-83.126.amzn1.x86_64 | 4.14.121-85.96.amzn1.x86_64 | 4.14.123-86.109.amzn1.x86_64 |
 | 4.14.128-87.105.amzn1.x86_64 | 4.14.133-88.105.amzn1.x86_64 | 4.14.133-88.112.amzn1.x86_64 | 4.14.138-89.102.amzn1.x86_64 |
@@ -79,13 +82,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.14.88-72.76.amzn1.x86_64 | 4.14.94-73.73.amzn1.x86_64 | 4.14.97-74.72.amzn1.x86_64 | 4.14.143-91.122.amzn1.x86_64 |
 | 4.14.146-93.123.amzn1.x86_64| 4.14.152-98.182.amzn1.x86_64| 4.14.154-99.181.amzn1 | 4.14.158-101.185.amzn1.x86_64 |
 | 4.14.165-102.185.amzn1.x86_64| 4.14.165-103.209.amzn1.x86_64 | | |
-
+{{</table>}}
 <br/>
 
 ### Oracle&reg; Linux 6 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.8.13-118.10.2.el6uek.x86_64 | 3.8.13-118.11.2.el6uek.x86_64 | 3.8.13-118.13.2.el6uek.x86_64 | 3.8.13-118.13.3.el6uek.x86_64 |
 | 3.8.13-118.14.1.el6uek.x86_64 | 3.8.13-118.14.2.el6uek.x86_64 | 3.8.13-118.15.1.el6uek.x86_64 | 3.8.13-118.15.2.el6uek.x86_64 |
 | 3.8.13-118.16.2.el6uek.x86_64 | 3.8.13-118.16.3.el6uek.x86_64 | 3.8.13-118.16.4.el6uek.x86_64 | 3.8.13-118.17.4.el6uek.x86_64 |
@@ -151,13 +155,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 3.8.13-118.42.1.el6uek.x86_64 | 4.1.12-124.35.1.el6uek.x86_64 | 4.1.12-124.35.2.el6uek.x86_64 | 4.1.12-124.35.4.el6uek.x86_64 |
 | 4.1.12-124.32.3.2.el6uek.x86_64 | 4.1.12-124.36.1.el6uek.x86_64 | 4.1.12-124.36.1.1.el6uek.x86_64 | 4.1.12-124.36.3.el6uek.x86_64 |
 | 4.1.12-124.36.4.el6uek.x86_64 |
-
+{{</table>}}
 <br/>
 
 ### Oracle Linux 7 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.8.13-118.10.2.el7uek.x86_64 | 3.8.13-118.11.2.el7uek.x86_64 | 3.8.13-118.13.2.el7uek.x86_64 | 3.8.13-118.13.3.el7uek.x86_64 |
 | 3.8.13-118.14.1.el7uek.x86_64 | 3.8.13-118.14.2.el7uek.x86_64 | 3.8.13-118.15.1.el7uek.x86_64 | 3.8.13-118.15.2.el7uek.x86_64 |
 | 3.8.13-118.15.3.el7uek.x86_64 | 3.8.13-118.16.2.el7uek.x86_64 | 3.8.13-118.16.3.el7uek.x86_64 | 3.8.13-118.16.4.el7uek.x86_64 |
@@ -228,13 +233,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.14.35-1902.10.2.1.el7uek.x86_64 | 4.14.35-1902.10.4.el7uek.x86_64 | 4.14.35-1902.10.4.1.el7uek.x86_64 | 4.14.35-1902.10.7.el7uek.x86_64 |	
 | 4.1.12-124.32.3.2.el7uek.x86_64 | 4.1.12-124.36.1.el7uek.x86_64 | 4.1.12-124.36.1.1.el7uek.x86_64 | 4.1.12-124.36.3.el7uek.x86_64	|
 | 4.1.12-124.36.4.el7uek.x86_64	| 4.14.35-1902.10.4.2.el7uek.x86_64 | 4.14.35-1902.7.3.el7uek.x86_64 | 4.14.35-1902.10.8.el7uek.x86_64 |
-
+{{</table>}}
 <br/>
 
 ### RHEL&reg; 6 and CentOS&reg; 6 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 2.6.32-573.el6.x86_64	Earlier than v3.4 | 2.6.32-573.1.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.3.1.el6.x86_64	Earlier than v3.4 | 2.6.32-573.7.1.el6.x86_64 Earlier than v3.4 |
 | 2.6.32-573.8.1.el6.x86_64	Earlier than v3.4 | 2.6.32-573.12.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.18.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.22.1.el6.x86_64 Earlier than v3.4 |
 | 2.6.32-573.32.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.34.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.35.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.35.2.el6.x86_64 Earlier than v3.4 |
@@ -255,13 +261,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 2.6.32-754.14.2.el6.x86_64 | 2.6.32-754.15.3.el6.x86_64 | 2.6.32-754.17.1.el6.x86_64 | 2.6.32-754.18.2.el6.x86_64 | 
 | 2.6.32-754.22.1.el6.x86_64 | 2.6.32-754.23.1.el6.x86_64 | | 2.6.32-754.24.2.el6.x86_64 | 2.6.32-754.24.3.el6.x86_64 |
 | 2.6.32-754.25.1.el6.x86_64 | 2.6.32-754.27.1.el6.x86_64 | | |
-
+{{</table>}}
 <br/>
 
 ### RHEL 7 and CentOS 7 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.10.0-229.el7.x86_64 Earlier than v3.4 | 3.10.0-229.1.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.4.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.7.2.el7.x86_64 Earlier than v3.4 |
 | 3.10.0-229.11.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.14.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.20.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.24.2.el7.x86_64 Earlier than v3.4 |
 | 3.10.0-229.26.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.28.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.30.1.el7.x86_64 Earlier than v3.5 | 3.10.0-229.34.1.el7.x86_64 Earlier than v3.4 |
@@ -300,30 +307,34 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 3.10.0-862.44.2.el7.x86_64 | 3.10.0-1062.7.1.el7.x86_64 | 3.10.0-1062.9.1.el7.x86_64 | 3.10.0-957.41.1.el7.x86_64 |
 | 3.10.0-862.46.1.el7.x86_x64 | 3.10.0-957.43.1.el7.x86_64 | 3.10.0-1062.12.1.el7.x86_64 | 3.10.0-862.48.1.el7.x86_64 |
 | 3.10.0-957.38.2.el7.x86_64 | 3.10.0-1062.4.2.el7.x86_64 | | |
-
+{{</table>}}
 <br/>
 
 ### RHEL 8 and CentOS 8 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.18.0-80.11.1.el8_0.x86_64 | 4.18.0-80.11.2.el8_0.x86_64 | 4.18.0-147.el8.x86_64 | 4.18.0-147.0.2.el8_1.x86_64 |
 | 4.18.0-147.0.3.el8_1.x86_64 | 4.18.0-147.3.1.el8_1.x86_64 | 4.18.0-147.5.1.el8_1.x86_64 | |
-
+{{</table>}}
 <br/>
 
 ### SUSE&reg; Linux Enterprise Server (SLES) 11 SP1 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.0.101-108.38-default | | | |
+{{</table>}}
 
 <br/>
 
 ### SLES 11 SP4 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.0.101-100-default | 3.0.101-104-default | 3.0.101-107-default | 3.0.101-108.10-default |
 | 3.0.101-108.101-default | 3.0.101-108.13-default | 3.0.101-108.18-default | 3.0.101-108.21-default |
 | 3.0.101-108.35-default | 3.0.101-108.41-default | 3.0.101-108.48-default | 3.0.101-108.52-default |
@@ -334,13 +345,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 3.0.101-68-default | 3.0.101-71-default | 3.0.101-77-default | 3.0.101-80-default |
 | 3.0.101-84-default | 3.0.101-88-default | 3.0.101-91-default | 3.0.101-94-default | 
 | 3.0.101-97-default | 3.0.101-108.98-default | 3.0.101-108.101-default | 3.0.101-108.108 |
-
+{{</table>}}
 <br/>
 
 ### SLES 12 SP1 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.12.49-11-default | 3.12.51-60.20-default | 3.12.51-60.25-default | 3.12.53-60.30-default |
 | 3.12.57-60.35-default | 3.12.59-60.41-default | 3.12.59-60.45-default | 3.12.62-60.62-default |
 | 3.12.62-60.64.8-default | 3.12.67-60.64.18-default | 3.12.67-60.64.21-default | 3.12.67-60.64.24-default |
@@ -351,13 +363,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 3.12.74-60.64.63-default | 3.12.74-60.64.66-default | 3.12.74-60.64.69-default | 3.12.74-60.64.82-default |
 | 3.12.74-60.64.88-default | 3.12.74-60.64.93-default | 3.12.74-60.64.96-default | 3.12.74-60.64.99-default |
 | 3.12.74-60.64.124 | | | |
-
+{{</table>}}
 <br/>
 
 ### SLES 12 SP2 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4-92.64 | 4.4.121-92.101-default | 4.4.121-92.104-default | 4.4.121-92.109-default |
 | 4.4.121-92.114-default | 4.4.121-92.117-default | 4.4.121-92.120-default | 4.4.121-92.73-default |
 | 4.4.121-92.80-default | 4.4.121-92.85-default | 4.4.121-92.92-default | 4.4.121-92.95-default |
@@ -367,13 +380,13 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.4.74-92.29-default | 4.4.74-92.32-default | 4.4.74-92.35-default | 4.4.74-92.38-default |
 | 4.4.82-6.3-default | 4.4.82-6.6-default | 4.4.82-6.9-default | 4.4.90-92.45-default |
 | 4.4.90-92.50-default | 4.4.121-92.125-default | | |
-
+{{</table>}}
 <br/>
 
 ### SLES 12 SP3 supported versions
-
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4-94.11 | 4.4.103-6.33-default | 4.4.103-6.38-default | 4.4.103-92.53-default |
 | 4.4.103-92.56-default | 4.4.114-94.14-default | 4.4.126-94.22-default | 4.4.132-94.33-default |
 | 4.4.138-94.39-default | 4.4.140-94.42-default | 4.4.143-94.47-default | 4.4.155-94.50-default |
@@ -381,52 +394,58 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.4.162-94.72-default | 4.4.175-94.79-default | 4.4.176-94.88-default | 4.4.178-94.91-default |
 | 4.4.180-94.100-default | 4.4.180-94.103-default | 4.4.180-94.97-default | 4.4.92-6.18-default |
 | 4.4.92-6.30-default | 4.4.180-94.107 | 4.4.180-94.113 |  |
-
+{{</table>}}
 <br/>
 
 ### SLES 12 SP4 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.12.14-94.41-default | 4.12.14-95.13-default | 4.12.14-95.16-default | 4.12.14-95.19-default |
 | 4.12.14-95.24-default | 4.12.14-95.29-default | 4.12.14-95.3-default | 4.12.14-95.6-default |
 | 4.12.14-95.32-default | 4.12.14-95.37-default | 4.12.14-95.40 | 4.12.14-95.45 |
-
+{{</table>}}
 <br/>
 
 ### SLES 12 SP5 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.12.14-120 | 4.12.14-122.7 | 4.12.14-122.12 | |
+{{</table>}}
 
 <br/>
 
 ### SLES 15 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.12.14-23.1 | 4.12.14-25.3.1 | 4.12.14-25.6.1 | 4.12.14-25.13.1 |
 | 4.12.14-25.16.1 | 4.12.14-25.19.1 | 4.12.14-25.22.1 | 4.12.14-25.25.1 |
 | 4.12.14-25.28.1 | 4.12.14-150.14.2 | 4.12.14-150.17-default | 4.12.14-150.22-default |
 | 4.12.14-150.27-default | 4.12.14-150.32-default | 4.12.14-197.15-default | 4.12.14-150.35-default |
 | 4.12.14-150.38 | 4.12.14-150.41 | 4.12.14-150.47 | |
-
+{{</table>}}
 <br/>
 
 ### SLES 15 SP1 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.12.14-195-default | 4.12.14-197.4-default | 4.12.14-197.7-default | 4.12.14-197.10-default |
 | 4.12.14-197.18-default | 4.12.14-197.21 | 4.12.14-197.26 | 4.12.14-197.29 |
-
+{{</table>}}
 <br/>
 
 ### Ubuntu&reg; 14.04LTS supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 3.13.0-24-generic | 3.13.0-27-generic | 3.13.0-29-generic | 3.13.0-30-generic |
 | 3.13.0-32-generic | 3.13.0-33-generic | 3.13.0-34-generic | 3.13.0-35-generic |
 | 3.13.0-36-generic | 3.13.0-37-generic | 3.13.0-39-generic | 3.13.0-40-generic |
@@ -469,13 +488,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 3.13.0-167-generic | 4.4.0-143-generic | 3.13.0-168-generic | 4.4.0-144-generic |
 | 3.13.0-169-generic | 4.4.0-146-generic | 3.13.0-170-generic | 4.4.0-148-generic |
 | 4.15.0-60-generic | 4.4.0-161-generic | 4.4.0-1092-aws | | 
-
+{{</table>}}
 <br/>
 
 ### Ubuntu 16.04LTS supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
 | 4.4.0-31-generic | 4.4.0-34-generic | 4.4.0-36-generic | 4.4.0-38-generic |
 | 4.4.0-42-generic | 4.4.0-43-generic | 4.4.0-45-generic | 4.4.0-47-generic |
@@ -525,26 +545,28 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.4.0-171 | 4.15.0-74 | 4.4.0-1100-aws | 4.15.0-1052-gcp | 4.4.0-173-generic |
 | 4.4.0-1101-aws | 4.15.0-76-generic | 4.4.0-1102-aws | 4.15.0-1055-gcp |
 | 4.4.0-174-generic | 4.15.0-88-generic | | |
-
+{{</table>}}
 <br/>
 
 ### Ubuntu 16.04.5 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
 | 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
 | 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
 | 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
 | 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
 | 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
-
+{{</table>}}
 <br/>
 
 ### Ubuntu 18.04 LTS supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
 | 4.4.0-31-generic | 4.4.0-34-generic | 4.4.0-36-generic | 4.4.0-38-generic |
 | 4.4.0-42-generic | 4.4.0-43-generic | 4.4.0-45-generic | 4.4.0-47-generic |
@@ -594,41 +616,47 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 | 4.4.0-171 | 4.15.0-74 | 4.4.0-1100-aws | 4.15.0-1052-gcp | 4.4.0-173-generic |
 | 4.4.0-1101-aws | 4.15.0-76-generic | 4.4.0-1102-aws | 4.15.0-1055-gcp |
 | 4.4.0-174-generic | 4.15.0-88-generic | | |
-
+{{</table>}}
 <br/>
 
 ### Windows Server&reg; 2008 R2 SP1 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 6.1.7601 | | | |
-
+{{</table>}}
 <br/>
 
 ### Windows Server 2012 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 6.2.9200 | | | |
-
+{{</table>}}
 <br/>
 
 ### Windows Server 2012 R2 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 6.3.9600 | | | |
-
+{{</table>}}
 <br/>
 
 ### Windows Server 2016 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 10.0.14393 | | | |
-
+{{</table>}}
 ### Windows Server 2019 supported versions
 
-| | | | |
-|-|-|-|-|
+{{<table "table table-dark table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|--------|
 | 10.0.17763 | | | |
+{{</table>}}
