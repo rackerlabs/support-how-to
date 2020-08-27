@@ -44,7 +44,7 @@ This article describes how to create an Inbound port allow rule for Windows Fire
    
    Click **Next** to continue.
 
-    <img src="inboundrulewiz6.png" alt="inboundrulewiz6.png" />
+   <img src="inboundrulewiz6.png" alt="inboundrulewiz6.png" />
 
 7. Give the rule a name and any description that you want. Click **Finish** to create the rule and go back to the main screen.
 

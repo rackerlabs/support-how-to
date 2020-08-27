@@ -124,6 +124,7 @@
 /support/how-to/cloud-native-security/  /how-to/article-retired/ 200
 /support/how-to/sample-ruby-application-for-cloud-files/  /how-to/article-retired/ 200
 /support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 200
+/support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/ /how-to/article-retired/ 200
 
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
@@ -469,7 +470,15 @@
 /support/how-to/delete-a-cloud-server/  /how-to/shut-down-a-cloud-server/ 404
 /how-to/shut-down-a-cloud-server/  /support/how-to/shut-down-a-cloud-server/  301
 
+/support/how-to/integrate-rackspace-email-archiving-with-outlook/  /how-to/integrate-email-archiving-with-outlook/  404
+/how-to/integrate-email-archiving-with-outlook/  /support/how-to/integrate-email-archiving-with-outlook/  301
 
+
+
+#Individual Redirects
+
+/support/how-to/sign-up-for-rackspace-services/  /how-to/how-to/sign-up-for-rackspace-services/ 200
+/support/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud  /how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud 200
 
 # Main Redirects
 
