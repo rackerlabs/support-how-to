@@ -1,14 +1,96 @@
 # Redirects
 
-/how-to/ach-compliance-faq/ /how-to/article-retired/ 200!
-/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/ /how-to/resize-standard-and-general-purpose-servers/ 404!
+# Main Redirects
 
 /support       /       200
 /support/how-to/       /how-to/     200
+
+# Retired Articles
+
 /support/how-to/ach-compliance-faq/  /how-to/article-retired/  200
 /how-to/article-retired/  /support/how-to/article-retired/   301
+
+# 404 Redirects
+
 /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
 /how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
+
+/support/how-to/centos-6-apache-and-php-install/  /how-to/centos-7-apache-and-php-install/ 404
+/how-to/centos-7-apache-and-php-install/  /support/how-to/centos-7-apache-and-php-install/  301
+
+/support/how-to/getting-started-with-role-based-access-control-rbac-0/  /how-to/getting-started-with-role-based-access-control-rbac/ 404
+/how-to/getting-started-with-role-based-access-control-rbac/  /support/how-to/getting-started-with-role-based-access-control-rbac/  301
+
+
+/support/how-to/cloud-monitoring/  /how-to/rackspace-monitoring/ 404
+/how-to/rackspace-monitoring/  /support/how-to/rackspace-monitoring/  301
+
+/support/how-to/generating-your-encrypted-key-in-cloud-backup/  /how-to/generate-your-encrypted-key-in-cloud-backup/ 404
+/how-to/generate-your-encrypted-key-in-cloud-backup/  /support/how-to/generate-your-encrypted-key-in-cloud-backup/  301
+
+/support/how-to/rackspace-auto-scale-overview-0/  /how-to/rackspace-auto-scale-overview/ 404
+/how-to/rackspace-auto-scale-overview/  /support/how-to/rackspace-auto-scale-overview/  301
+
+/support/how-to/getting-started-with-cloud-files-and-cdn-0/  /how-to/getting-started-with-cloud-files-and-cdn/ 404
+/how-to/getting-started-with-cloud-files-and-cdn/  /support/how-to/getting-started-with-cloud-files-and-cdn/  301
+
+/support/how-to/rackspace-private-cloud-backup-and-recovery/  /how-to/rpc-openstack/ 404
+/how-to/rpc-openstack/  /support/how-to/rpc-openstack/  301
+
+/support/how-to/rackspace-cloud-backup-overview/  /how-to/best-practices-for-cloud-backup/ 404
+/how-to/best-practices-for-cloud-backup/  /support/how-to/best-practices-for-cloud-backup/  301
+
+/support/how-to/ackspace-cloud-backup-preferences-0/  /how-to/rackspace-cloud-backup-preferences/ 404
+/how-to/rackspace-cloud-backup-preferences/  /support/how-to/rackspace-cloud-backup-preferences/  301
+
+/support/how-to/limits-for-rackspace-cdn/  /how-to/rackspace-cdn-faq/ 404
+/how-to//  /support/how-to//  301
+
+/support/how-to/alarm-language-generic-thresholds-made-easy/  /how-to/alarm-language-in-rackspace-monitoring/ 404
+/how-to/alarm-language-in-rackspace-monitoring/  /support/how-to/alarm-language-in-rackspace-monitoring/  301
+
+/support/how-to/general-purpose-cloud-servers-how-to-articles-and-other-resources/  /how-to/cloud-servers-how-to-articles-other-resources/ 404
+/how-to/cloud-servers-how-to-articles-other-resources/  /support/how-to/cloud-servers-how-to-articles-other-resources/  301
+
+/support/how-to/getting-fanatical-support-6-tickets/  /how-to/create-a-support-ticket-in-the-cloud-control-panel/ 404
+/how-to/create-a-support-ticket-in-the-cloud-control-panel/  /support/how-to/create-a-support-ticket-in-the-cloud-control-panel/  301
+
+/support/how-to/rackspace-cloud-essentials-what-are-your-name-servers/  /how-to/rackspace-name-servers/ 404
+/how-to/rackspace-name-servers/  /support/how-to/rackspace-name-servers/  301
+
+/support/how-to/installing-nginx-and-php-fpm-preface/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm-running-on-unix-file-sockets/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm-setup-for-nginx/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm-setup-for-php-fpm/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+
+/support/how-to/installing-nginx-and-php-fpm-the-fun-begins/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/test-php-smtp-functionality/  /how-to/test-and-send-mail-using-php/ 404
+/how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
+
+/support/how-to/sending-html-mail-via-php-in-cloud-sites/  /how-to/test-and-send-mail-using-php/ 404
+/how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
+
+/support/how-to/test-php-mail-functionality/  /how-to/test-and-send-mail-using-php/ 404
+/how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
+
+
+/support/how-to/  /how-to/ 404
+/how-to/  /support/how-to/  301
+
+# Main Redirects
 
 /support/how-to/*       /how-to/:splat     200
 /how-to/*       /support/how-to/:splat      301
