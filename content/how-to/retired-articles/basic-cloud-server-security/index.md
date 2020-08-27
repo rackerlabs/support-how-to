@@ -23,9 +23,9 @@ on how to generate public and private key pairs, see
 {{< highlight sh >}}
     /support/how-to/cloud-servers/basic-cloud-server-security/secure.sh
 {{< /highlight >}}
-<pre><code>
-{% include cloud-servers/basic-cloud-server-security/secure.sh %}
-</code></pre>
+{{<highlight sh>}}
+    {% include cloud-servers/basic-cloud-server-security/secure.sh %}
+{{</highlight>}}
 
 ### Script activities
 
