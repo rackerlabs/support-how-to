@@ -86,6 +86,80 @@
 /support/how-to/test-php-mail-functionality/  /how-to/test-and-send-mail-using-php/ 404
 /how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
 
+/support/how-to/deploying-rackspace-metrics/  /how-to/integrate-statsd-with-rackspace-metrics/ 404
+/how-to/integrate-statsd-with-rackspace-metrics/  /support/how-to/integrate-statsd-with-rackspace-metrics/  301
+
+/support/how-to/migrate-your-email-by-using-the-self-service-tool/  /how-to/migrate-your-email-by-using-the-self-service-migration-tool/ 404
+/how-to/migrate-your-email-by-using-the-self-service-migration-tool/  /support/how-to/migrate-your-email-by-using-the-self-service-migration-tool/  301
+
+/support/how-to/managing-cloud-databases-ha-groups-in-the-cloud-control-panel/  /how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/ 404
+/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/  /support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/  301
+
+/support/how-to/how-to-serve-multiple-domains-using-virtual-hosts/  /how-to/serve-multiple-domains-by-using-virtual-hosts/ 404
+/how-to/serve-multiple-domains-by-using-virtual-hosts/  /support/how-to/serve-multiple-domains-by-using-virtual-hosts/  301
+
+/support/how-to/troubleshooting-alarms/  /how-to/troubleshooting-alerts/ 404
+/how-to/troubleshooting-alerts/  /support/how-to/troubleshooting-alerts/  301
+
+/support/how-to/upgrading-to-exchange-2013/  /how-to/upgrading-to-exchange-2016/ 404
+/how-to/upgrading-to-exchange-2016/  /support/how-to/upgrading-to-exchange-2016/  301
+
+/support/how-to/configuring-ms-sql-server-for-remote-access/  /how-to/troubleshoot-remote-access-to-sql-server/ 404
+/how-to/troubleshoot-remote-access-to-sql-server/  /support/how-to/troubleshoot-remote-access-to-sql-server/  301
+
+/support/how-to/rackspace-cloud-essentials-cloud-server-image-limitations/  /how-to/cloud-server-image-limitations/ 404
+/how-to/cloud-server-image-limitations/  /support/how-to/cloud-server-image-limitations/  301
+
+/support/how-to/upgrade-to-managed-operations-service-level/  /how-to/upgrade-to-the-managed-operations-service-level/ 404
+/how-to/upgrade-to-the-managed-operations-service-level/  /support/how-to/upgrade-to-the-managed-operations-service-level/  301
+
+/support/how-to/public-folder-permissions-for-exchange/  /how-to/public-folder-permissions-for-exchange-2007-and-2010/ 404
+/how-to/public-folder-permissions-for-exchange-2007-and-2010/  /support/how-to/public-folder-permissions-for-exchange-2007-and-2010/  301
+
+/support/how-to/items-migrated-during-an-cloud-office-migration/  /how-to/items-migrated-during-a-cloud-office-migration/ 404
+/how-to/items-migrated-during-a-cloud-office-migration/  /support/how-to/items-migrated-during-a-cloud-office-migration/  301
+
+/support/how-to/migrating-from-parse-to-rackspace/  /how-to/migrate-from-parse-to-rackspace/ 404
+/how-to/migrate-from-parse-to-rackspace/  /support/how-to/migrate-from-parse-to-rackspace/  301
+
+/support/how-to/accelerating-wordpress-with-cloud-files-cdn-and-the-w3-total-cache-plugin/  /how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/ 404
+/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/  /support/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/  301
+
+/support/how-to/cloud-servers-with-managed-operations-support-for-linux/  /how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/ 404
+/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/  /support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/  301
+
+/support/how-to/set-up-mobile-sync-for-webmail-on-ios-devices/  /how-to/set-up-mobile-sync/ 404
+/how-to/set-up-mobile-sync/  /support/how-to/set-up-mobile-sync/  301
+
+/support/how-to/before-you-move-to-general-purpose-or-io-cloud-server-checklist/  /how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/ 404
+/how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/  /support/how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/  301
+
+/support/how-to/cloud-office-control-panel/  /how-to/cloud-office-control-panel-overview/ 404
+/how-to/cloud-office-control-panel-overview/  /support/how-to/cloud-office-control-panel-overview/  301
+
+/support/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/  /how-to/set-up-dns-records-for-cloud-office-email/ 404
+/how-to/set-up-dns-records-for-cloud-office-email/  /support/how-to/set-up-dns-records-for-cloud-office-email/  301
+
+/support/how-to/using-the-myrackspace-firewall-manager/  /how-to/firewall-manager-v2/ 404
+/how-to/firewall-manager-v2/  /support/how-to/firewall-manager-v2/  301
+
+/support/how-to/using-rbac-with-myrackspace/  /how-to/overview-role-based-access-control-rbac/ 404
+/how-to/overview-role-based-access-control-rbac/  /support/how-to/overview-role-based-access-control-rbac/  301
+
+/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux/  /how-to/update-or-install-the-cloud-backup-agent-on-linux/ 404
+/how-to/update-or-install-the-cloud-backup-agent-on-linux/  /support/how-to/update-or-install-the-cloud-backup-agent-on-linux/  301
+
+/support/how-to/adding-microsoft-exchange-mailboxes/  /how-to/add-microsoft-exchange-mailboxes/ 404
+/how-to/add-microsoft-exchange-mailboxes/  /support/how-to/add-microsoft-exchange-mailboxes/  301
+
+/support/how-to/list-cloud-servers-and-cloud-server-information/  /how-to/view-information-about-available-cloud-servers/ 404
+/how-to/view-information-about-available-cloud-servers/  /support/how-to/view-information-about-available-cloud-servers/  301
+
+/support/how-to/viewing-basic-graphs-of-activity-in-rackspace-intelligence/  /how-to/view-basic-graphs-of-activity-in-rackspace-intelligence/ 404
+/how-to/view-basic-graphs-of-activity-in-rackspace-intelligence/  /support/how-to/view-basic-graphs-of-activity-in-rackspace-intelligence/  301
+
+/support/how-to/rackspace-email-mailbox-features/  /how-to/rackspace-email-control-panel-overview/ 404
+/how-to/rackspace-email-control-panel-overview/  /support/how-to/rackspace-email-control-panel-overview/  301
 
 /support/how-to/  /how-to/ 404
 /how-to/  /support/how-to/  301
