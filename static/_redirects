@@ -477,8 +477,11 @@
 
 #Individual Redirects
 
-/support/how-to/sign-up-for-rackspace-services/  /how-to/how-to/sign-up-for-rackspace-services/ 200
+/support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
+/how-to/sign-up-for-rackspace-services/  /support/how-to/sign-up-for-rackspace-services/  301
+
 /support/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud  /how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud 200
+/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud  /support/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud  301
 
 # Main Redirects
 
