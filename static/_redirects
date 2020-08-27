@@ -28,7 +28,7 @@
 /support/how-to/use-enum-metrics/  /how-to/article-retired/ 200
 /support/how-to/rackspace-private-cloud-software-package-update-20-march-2013/  /how-to/article-retired/ 200
 /support/how-to/rackspace-private-cloud-spheres-of-support/  /how-to/article-retired/ 200
-/support/how-to/detailed-permissions-matrix-for-cloud-big-data(/*.|)$"
+/support/how-to/detailed-permissions-matrix-for-cloud-big-data/ /how-to/article-retired/ 200
 /support/how-to/rackspace-private-cloud-partner-devices/  /how-to/article-retired/ 200
 /support/how-to/bare-metal-to-rackspace-private-cloud/  /how-to/article-retired/ 200
 /support/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes/  /how-to/article-retired/ 200
@@ -230,8 +230,8 @@
 /support/how-to/upgrade-to-managed-operations-service-level/  /how-to/upgrade-to-the-managed-operations-service-level/ 404
 /how-to/upgrade-to-the-managed-operations-service-level/  /support/how-to/upgrade-to-the-managed-operations-service-level/  301
 
-/support/how-to/public-folder-permissions-for-exchange/  /how-to/public-folder-permissions-for-exchange-/how-to/article-retired/ 2007-and-2010/ 404
-/how-to/public-folder-permissions-for-exchange-/how-to/article-retired/ 2007-and-2010/  /support/how-to/public-folder-permissions-for-exchange-/how-to/article-retired/ 2007-and-2010/  301
+/support/how-to/public-folder-permissions-for-exchange/  /how-to/public-folder-permissions-for-exchange-2007-and-2010/ 404
+/how-to/public-folder-permissions-for-exchange-2007-and-2010/  /support/how-to/public-folder-permissions-for-exchange-2007-and-2010/  301
 
 /support/how-to/items-migrated-during-an-cloud-office-migration/  /how-to/items-migrated-during-a-cloud-office-migration/ 404
 /how-to/items-migrated-during-a-cloud-office-migration/  /support/how-to/items-migrated-during-a-cloud-office-migration/  301
