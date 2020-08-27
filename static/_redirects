@@ -89,16 +89,16 @@
 /support/how-to/rescue-mode-on-windows-servers/  /how-to/article-retired/ 200
 /support/how-to/upgrade-email-hosting-cloud-office-control-panel/  /how-to/article-retired/ 200
 /support/how-to/email-sorting-issues-on-ios-and-android-after-an-email-migration/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-windows-phone-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-outlook-/how-to/article-retired/ 2007-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-outlook-2010-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-entourage-ews-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-android-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/working-with-public-folders-through-outlook-for-exchange-/how-to/article-retired/ 2007-and-2010/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
-/support/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-windows-phone-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-entourage-ews-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-android-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
+/support/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 200
 /support/how-to/setting-up-imap-or-pop-windows-mail/  /how-to/article-retired/ 200
 /support/how-to/set-up-a-two-server-glusterfs-array/  /how-to/article-retired/ 200
 /support/how-to/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/  /how-to/article-retired/ 200
@@ -370,10 +370,10 @@
 /support/how-to/updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/  /how-to/updating-servicenet-routes-on-cloud-servers/ 404
 /how-to/updating-servicenet-routes-on-cloud-servers/  /support/how-to/updating-servicenet-routes-on-cloud-servers/  301
 
-/support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-/how-to/article-retired/ 2007/  /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/ 404
+/support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/  /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/ 404
 /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/  /support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/  301
 
-/support/how-to/install-ssl-certificates-on-windows-server-/how-to/article-retired/ 2008r2-and-2012/  /how-to/install-an-ssl-certificate/ 404
+/support/how-to/install-ssl-certificates-on-windows-server-2008r2-and-2012/  /how-to/install-an-ssl-certificate/ 404
 /how-to/install-an-ssl-certificate/  /support/how-to/install-an-ssl-certificate/  301
 
 /support/how-to/upload-an-ssl-certificate-to-a-custom-domain/  /how-to/install-an-ssl-certificate/ 404
