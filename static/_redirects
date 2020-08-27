@@ -71,7 +71,7 @@
 /support/how-to/test-and-send-mail-using-php/  /how-to/article-retired/ 200
 /support/how-to/email-access-options-during-an-email-migration/  /how-to/article-retired/ 200
 /support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel/  /how-to/article-retired/ 200
-/support/how-to/sharepoint//  /how-to/article-retired/ 200
+/support/how-to/sharepoint/  /how-to/article-retired/ 200
 /support/how-to/sharepoint-faq/  /how-to/article-retired/ 200
 /support/how-to/getting-started-with-rackspace-services-for-sharepoint/  /how-to/article-retired/ 200
 /support/how-to/how-to-install-the-rackspace-cloud-storage-app-for-microsoft-sharepoint/  /how-to/article-retired/ 200
@@ -120,7 +120,7 @@
 /support/how-to/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/  /how-to/article-retired/ 200
 /support/how-to/set-up-bis-blackberry-internet-service-with-exchange/  /how-to/article-retired/ 200
 /support/how-to/deleting-and-resending-blackberry-service-books-bes/  /how-to/article-retired/ 200
-/support/how-to/converting-your-server-from-pv-to-pvhvm//  /how-to/article-retired/ 200
+/support/how-to/converting-your-server-from-pv-to-pvhvm/  /how-to/article-retired/ 200
 /support/how-to/cloud-native-security/  /how-to/article-retired/ 200
 /support/how-to/sample-ruby-application-for-cloud-files/  /how-to/article-retired/ 200
 /support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 200
@@ -161,7 +161,7 @@
 /how-to/rackspace-cloud-backup-preferences/  /support/how-to/rackspace-cloud-backup-preferences/  301
 
 /support/how-to/limits-for-rackspace-cdn/  /how-to/rackspace-cdn-faq/ 404
-/how-to//  /support/how-to//  301
+/how-to/rackspace-cdn-faq/  /support/how-to/rackspace-cdn-faq/  301
 
 /support/how-to/alarm-language-generic-thresholds-made-easy/  /how-to/alarm-language-in-rackspace-monitoring/ 404
 /how-to/alarm-language-in-rackspace-monitoring/  /support/how-to/alarm-language-in-rackspace-monitoring/  301
