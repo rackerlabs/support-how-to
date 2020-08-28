@@ -59,27 +59,27 @@ The following are the screen shots of steps to create dashboard based on enum va
 
 1. Enter the metric name manually.
 
-    ![](Enumsupport-manually.png" alt="" />
+    ![](Enumsupport-manually.png)
 
 2. Click **Off**. The menu appears.         
 
-    ![](Enumsupport-click-off.png" alt="" />
+    ![](Enumsupport-click-off.png)
 
 3. Select a value.
 
-    ![](Enumsupport-select-value.png" alt="" />
+    ![](Enumsupport-select-value.png)
 
 4. Click **duplicate**.
 
-    ![](Enumsupport-clickduplicate.png" alt="" />
+    ![](Enumsupport-clickduplicate.png)
 
 5. Select all values.
 
-    ![](Enumsupport-selectall.png" alt="" />
+    ![](Enumsupport-selectall.png)
 
 6. Change graph style to **bar chart** and the stack to **100%**.
 
-     ![](Enumsupport-graphstyle.png" alt="" />
+     ![](Enumsupport-graphstyle.png)
 
 
 

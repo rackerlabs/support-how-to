@@ -26,7 +26,7 @@ You must set up your audio device and test your audio device before using Skype 
     click the **Select Your Primary Device** icon, and select **Audio
     Device Settings** from the menu.
 
-    ![](4372.1.png" width="277" height="157" />
+    ![](4372.1.png)
 
 2.  Click **Select the device you want to use for audio calls**, and select the device that you want to use.
 
@@ -38,7 +38,7 @@ You must set up your audio device and test your audio device before using Skype 
         choose the appropriate level. If you are using a handset, speak into the receiver. If you are using a headset,
         speak into the microphone.
 
-        ![](4372.2.png" width="426" height="286" />
+        ![](4372.2.png)
 
 
 

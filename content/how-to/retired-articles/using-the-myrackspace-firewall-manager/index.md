@@ -117,11 +117,11 @@ You can open a single port to all server IP addresses for a specific IP address.
 
 In the following image, a policy was added to allow an alternate SMTP (Port 587) mail traffic through the firewall from the IP address 207.250.49.146.
 
-![](Add-image-policy-image-1.png" width="550" height="236" border="2" alt=""  />
+![](Add-image-policy-image-1.png)
 
 The following image shows a protocol that was changed to IP (all ports). When you select this protocol, you cannot enter or select a port number.
 
-![](926-476-2.png" width="552" height="236" border="1" alt=""  />
+![](926-476-2.png)
 
 ### Copy a policy
 

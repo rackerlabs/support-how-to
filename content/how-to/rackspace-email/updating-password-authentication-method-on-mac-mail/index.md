@@ -15,19 +15,19 @@ To ensure that the settings for Mac Mail are correctly configured, perform the f
 
 1. In Mac Mail, go to **Mail &gt; Preferences**.
 
-    ![](1_49.png" width="268" height="236" />
+    ![](1_49.png)
 
 2. Click the **Accounts** tab.  
 3. Under **Account Information**, click the drop-down button next to **Outgoing Mail Server** and select **Edit SMTP Server List**.
 
-    ![](2_46.png" width="549" height="572" />
+    ![](2_46.png)
 
 4. Click the **Advanced** tab.
 
 5. For **Authentication**, ensure **Password** is selected rather than **MD5 Challenge-Response**.
 
-    ![](3_44.png" width="551" height="570" />
+    ![](3_44.png)
 
 6. Click **OK** to close the SMTP window, and then click **OK** again to close Preferences.
 
-    ![](4_37.png" width="552" height="568" />
+    ![](4_37.png)

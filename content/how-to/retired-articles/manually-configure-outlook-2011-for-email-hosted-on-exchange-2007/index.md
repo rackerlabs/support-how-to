@@ -24,12 +24,12 @@ Microsoft Outlook 2011 email client.
    select **Preferences**. In the **Outlook Preferences** menu,
    select **Accounts**.
 
-   ![]((E&A)Outlook2011IMAP.png" alt="" />
-   ![]((E&A)Outlook2011IMAP2.png" alt="" />
+   ![]((E&A)Outlook2011IMAP.png)
+   ![]((E&A)Outlook2011IMAP2.png)
 
 3. On the **Accounts** screen, select **Exchange Account**.
 
-   ![]((E&A)Outlook2011Exchange.png" alt="" />
+   ![]((E&A)Outlook2011Exchange.png)
 
 4. Enter the following information:
 
@@ -46,14 +46,14 @@ Microsoft Outlook 2011 email client.
    - Server - Enter the Exchange Web Server (EWS) address from your
      Outlook 2011 Setup Guide.
 
-   ![]((E&A)Outlook2011Exchange2.png" alt="" />
+   ![]((E&A)Outlook2011Exchange2.png)
 
 5. Select **Add Account** and confirm that the amber-colored dot next to the
    account name turns from an amber color to a solid green color. (this may take a
    moment). Close all windows and you're done!
 
-   ![]((E&A)Outlook2011Exchange4.png" alt="" />
-   ![]((E&A)Outlook2011Exchange3.png" alt="" />
+   ![]((E&A)Outlook2011Exchange4.png)
+   ![]((E&A)Outlook2011Exchange3.png)
 
 **Note:** The amber dot may take a minute or two to change from amber to
 green; if it doesn't change, check the accounts settings and password and make

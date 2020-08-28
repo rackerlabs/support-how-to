@@ -25,18 +25,18 @@ You can find instructions on how to set up this service by using our Help Tool.
 
 2. Under Support Tools, tap **Set Up My Email**.
 
-   ![](mobile-sync-setup-1.PNG" />
+   ![](mobile-sync-setup-1.PNG)
 
 3. Depending on the device you are setting up, tap either **Phone** or **Tablet**.
 
-   ![](mobile-sync-setup-2.PNG" />
+   ![](mobile-sync-setup-2.PNG)
 
 4. Select the operating system of your mobile device. If applicable, select the version or manufacturer on the subsequent screen.
 
-   ![](mobile-sync-setup-3.PNG" />
+   ![](mobile-sync-setup-3.PNG)
 
 5. When asked "How would you like to connect to the mail server?", tap the **Mobile Sync** button.
 
-   ![](mobile-sync-setup-4.PNG" />
+   ![](mobile-sync-setup-4.PNG)
 
 6. Follow the instructions which are customized to your specific device type.

@@ -29,12 +29,12 @@ and assign it to your email address.
 3. With your **Setting Up ActiveSync** window open, tap the
    **Settings** icon on the iPhone.
 
-   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone1.png" alt="" />
+   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone1.png)
 
 4. Tap **Mail, Contacts,
    Calendars, Add Account** then **Microsoft Exchange**.
 
-   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone2.png" alt="" />   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone3.png" alt="" />   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone4.png" alt="" />
+   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone2.png)   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone3.png)   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone4.png)
 
 5. The Exchange setup screen will open; you'll then enter the following
    information:
@@ -54,7 +54,7 @@ and assign it to your email address.
    - Description - Enter a descriptive name for your account (for example, My
      Work Account). This description will be visible only to you.
 
-   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone5.png" alt="" />
+   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone5.png)
 
 6. Tap the **Next** button and the device will attempt to verify the
    account.
@@ -68,7 +68,7 @@ and assign it to your email address.
    tap the **Server** field and enter the **Server address** exactly as it
    is from the **Setting Up ActiveSync** window.
 
-   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone6.png" alt="" />
+   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone6.png)
 
 8. Tap the **Next** button and the device will then try to create a
    secure (SSL) connection to your Exchange server.
@@ -80,7 +80,7 @@ and assign it to your email address.
 9. Tap the **ON/OFF** buttons to select which information to synchronize
    with the Exchange server and then tap the **Done** button when finished.
 
-   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone7.png" alt="" />
+   ![]((E&A)SettingUpMicrosoftExchangeEmailIphone7.png)
 
 **Note:** Your iPhone may take a moment to sync all your information
 depending on how much you have on the Exchange server. To learn more

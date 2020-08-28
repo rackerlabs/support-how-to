@@ -29,13 +29,13 @@ To access and manage search results, perform the following steps:
 
 2. On the left side of the page, click the **Searches** tab, and then click **Run**.
 
-   ![](manage-archive-search-results-1.png" />
+   ![](manage-archive-search-results-1.png)
 
 #### Filter results
 
 To narrow search results, click **Filter** at the top of the message list.
 
-![](manage-archive-search-results-2.png" />
+![](manage-archive-search-results-2.png)
 
 #### Sorting
 
@@ -46,7 +46,7 @@ Sort results by choosing one of the following options:
 - **Subject**
 - **Attachments**
 
-![](manage-archive-search-results-3.png" />
+![](manage-archive-search-results-3.png)
 
 #### Tags
 
@@ -56,11 +56,11 @@ Use the following steps to tag a specific message for review:
 
 2. On the right, click **Tag this email**.
 
-   ![](manage-archive-search-results-4.png" />
+   ![](manage-archive-search-results-4.png)
 
 3. After you have reviewed the message, click **Needs Review** to remove the tag.    
 
-   ![](manage-archive-search-results-5.png" />
+   ![](manage-archive-search-results-5.png)
 
 
 #### Single message holds
@@ -71,7 +71,7 @@ Holds can be enabled for individual or multiple messages. To place a hold on an 
 
 2. Select a Hold type, then click **Save**.
 
-   ![](manage-archive-search-results-6.png" />
+   ![](manage-archive-search-results-6.png)
 
 3. To remove hold on an individual message, simply click **Hold** (**#**), uncheck the previous selection(s) then click **Save** when finished.
 
@@ -81,20 +81,20 @@ Use the following steps to place a hold on multiple messages:
 
 1. Check the box on left of each message to be included in the hold.
 
-   ![](manage-archive-search-results-7.png" />
+   ![](manage-archive-search-results-7.png)
 
 2. Then click the **Gear** icon, select the hold type, and then click **Add**.
 
-   ![](manage-archive-search-results-8.png" />  
+   ![](manage-archive-search-results-8.png)  
    **Note**: Messages placed on hold are identifiable by a **red lock icon**.
 
 3. To remove holds, check the boxes for the messages that have been identified.
 
-   ![](manage-archive-search-results-9.png" /> 
+   ![](manage-archive-search-results-9.png) 
 
 4. Click the **black lock icon**, check the boxes for the holds that are no longer needed, then click **Remove**.    
 
-   ![](manage-archive-search-results-10.png" />
+   ![](manage-archive-search-results-10.png)
 
 #### Send a message as an attachment
 
@@ -102,7 +102,7 @@ You can send a copy of a message as an attachment by selecting the message and c
 
 **Note**: The attachment is sent in .EML format.
 
-![](manage-archive-search-results-11.png" />
+![](manage-archive-search-results-11.png)
 
 #### Download the message
 
@@ -110,4 +110,4 @@ You can download messages directly from the results page.
 
 **Note**: The message must be viewed in a mail client and can be forwarded as an individual email or sent as an attachment.
 
-![](manage-archive-search-results-12.png" />
+![](manage-archive-search-results-12.png)

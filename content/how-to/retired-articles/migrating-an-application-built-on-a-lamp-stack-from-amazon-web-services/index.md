@@ -51,7 +51,7 @@ the target application.
 
 3.  To install the application stack, select **LAMP server**.
 
-    ![](4.1-5.png" width="650" />
+    ![](4.1-5.png)
 
 4.  After the LAMP stack is installed, download and configure WordPress.
 

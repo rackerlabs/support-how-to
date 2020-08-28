@@ -46,7 +46,7 @@ boot-from-volume functionality" section at the end of this article.
 
 4. Use the value under `Mounted on` in the `unmount` command.
 
-   ![](fstab2_0.png" width="883" height="328" />
+   ![](fstab2_0.png)
 
 5. Comment out the second line (highlighted in the screenshot) in the
     `/etc/fstab` file to prevent the volume from trying to mount on the next

@@ -91,4 +91,4 @@ while using the same Inbox in Outlook.
 After the change, your email will look very similar to your previous
 setup.
 
-![](2013-11-27_1232.png" width="435" height="600" />
+![](2013-11-27_1232.png)

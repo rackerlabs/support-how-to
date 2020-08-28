@@ -30,31 +30,31 @@ If you need to export or import email address data from a different Outlook vers
 
 2. In the **Outlook Options** window, click **Advanced**.
 
-    ![](advanced2010.png" />
+    ![](advanced2010.png)
 
 3. In the Export section, click **Export**.
 
-    ![](export2010.png" />
+    ![](export2010.png)
     
     The Import and Export Wizard launches.
 
 4. In the Import and Export Wizard, click **Export to a file**, and then click **Next**.
 
-    ![](export_to_a_file2010.png" />
+    ![](export_to_a_file2010.png)
 
 5. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-    ![](outlook_data_file2010.png" />
+    ![](outlook_data_file2010.png)
 
 6. Select the folder that you want to export, and then click **Next**. 
 
    Select the email address at the top of the folder list to export all data and select the checkbox for **include subfolders** to export all data.
 
-    ![](folder_list2010.png" />
+    ![](folder_list2010.png)
 
 7. Click **Browse**, and then select the location where you want to save the new **.pst** file export.
 
-    ![](browse_finish2010.png" />
+    ![](browse_finish2010.png)
 
     **Note:** Save the file somewhere that you can easily locate for later use, such as the Desktop.
 
@@ -62,7 +62,7 @@ If you need to export or import email address data from a different Outlook vers
 
     **Note:** You might prompted to enter a password. This is optional and you can simply click **OK** to skip it.
 
-    ![](password_ok2010.png" />
+    ![](password_ok2010.png)
 
 9. Click **Finish**.
 

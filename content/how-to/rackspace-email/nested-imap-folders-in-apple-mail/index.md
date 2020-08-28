@@ -65,7 +65,7 @@ configuration and all mail will stay in Apple Mail.
 You can find the file in the following
 directory: ***userName***/**Library**/**Containers**/**com.apple.mail**/**Data**/**Library**/**Preferences**
 
-![](4_39.png" width="335" height="164" />
+![](4_39.png)
 
 By default, the **Library** folder (under your username folder)
 is hidden. To access it, perform the following steps:

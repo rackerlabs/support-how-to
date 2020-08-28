@@ -56,7 +56,7 @@ To manage your domain-level spam settings, go to the **Domains** section of the 
 
     **Note:** The override options are not presented if you chose to set options for an individual Rackspace Email mailbox.
 
-    ![](SpamFilteringOverride.png" width="403" height="153" />
+    ![](SpamFilteringOverride.png)
 
 5. Click **Save**.
 
@@ -73,14 +73,14 @@ Safelists allow you to add a sender's email address, domains, or IP address to d
 
    **Note:** If you have multiple domain names or email addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    ![](SpamFilteringSLDomainsandEmail.png" width="335" height="385" />
+    ![](SpamFilteringSLDomainsandEmail.png)
 
 4.  To add an IP address to the safelist, enter the IP address (or range) in the box and then click **Add**.
 5.  To remove an IP address, select the address in the list and then click **Remove**. To remove all IP addresses listed in the window, click **Clear**.
 
     **Note:** If you have multiple IP addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    ![](SpamFilteringSLIP.png" width="327" height="377" />
+    ![](SpamFilteringSLIP.png)
 
 6.  Click **Save**.
 
@@ -97,13 +97,13 @@ Blacklists allow you block a sender's email address, domain, or IP address from 
 
     **Note:** If you have multiple domain names or email addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    ![](SpamFilteringBLDomainsandEmail.png" width="331" height="389" />
+    ![](SpamFilteringBLDomainsandEmail.png)
 
 4. To add an IP address to the blacklist, enter the IP address (or range) in the box and then click **Add**.
 5. To remove an IP address, select the address in the list and then click **Remove**. To remove all IP addresses listed in the window, click **Clear**.
 
     **Note:** If you have multiple IP addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    ![](SpamFilteringBLIP.png" width="346" height="374" />
+    ![](SpamFilteringBLIP.png)
 
 6.  Click **Save**.

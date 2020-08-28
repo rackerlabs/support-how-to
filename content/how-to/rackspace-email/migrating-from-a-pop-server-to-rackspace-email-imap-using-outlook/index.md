@@ -73,12 +73,12 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
 10. Set the incoming port to **993** and the outgoing port to
     **465**, and enable SSL encryption.
 
-    ![](portsimapcopy.jpg" width="369" height="258" />
+    ![](portsimapcopy.jpg)
 
 11. Navigate to your Inbox and note that your new IMAP account is listed in the left folder pane. Click on the account to expand the folders. You should see mail
     items for that account start to appear.
 
-    ![](IMAPaccount.png" width="173" height="277" />
+    ![](IMAPaccount.png)
 
 12. Now that you have added your Rackspace account via IMAP, you can
     drag emails from your POP inbox to your IMAP inbox. As
@@ -95,4 +95,4 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
 
 After the change, your email will look similar to the following screenshot.
 
-![](2013-11-27_1204.png" width="437" height="600" />
+![](2013-11-27_1204.png)

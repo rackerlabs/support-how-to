@@ -23,28 +23,28 @@ Exchange on an ActiveSync device.
 3. Locate the **Settings** options from within your
    application menu.
 
-   ![](0000.png" width="358" height="360" />
+   ![](0000.png)
 
 4. Select **Email + Accounts**.
 
-   ![](image002_2.png" width="215" height="338" />
+   ![](image002_2.png)
 
 5. Select **Add an Account**.
 
-   ![](image003_2.png" width="365" height="196" />
+   ![](image003_2.png)
 
 6. Select the option for **Advanced Setup**.
 
-   ![](image004_2.png" width="201" height="332" />
+   ![](image004_2.png)
 
 7. Enter your full email address and the password for your account, then
    press the **sign in** button.
 
-   ![](image005_2.png" width="208" height="338" />
+   ![](image005_2.png)
 
 8. Select **Exchange ActiveSync**.
 
-   ![](image006_2.png" width="200" height="335" />
+   ![](image006_2.png)
 
 9. The Exchange setup screen will open. Enter the following
    information:

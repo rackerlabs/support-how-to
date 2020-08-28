@@ -34,6 +34,6 @@ loaded by default, you can disable the blocking in Webmail Settings.
     check box.
 3.  Click **Save**.
 
-![](ImageProtectionWebmail.png" width="594" height="273" />
+![](ImageProtectionWebmail.png)
 
 You can re-enable external image blocking at any time.

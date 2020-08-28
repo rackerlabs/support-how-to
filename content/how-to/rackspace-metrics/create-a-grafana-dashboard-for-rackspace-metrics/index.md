@@ -123,7 +123,7 @@ For more information, see the following articles:
 The following screenshot shows where you can locate the entity ID on
 the **Monitoring Details** page:
 
-![](grafana-monitoring-details_0.png" alt="" />
+![](grafana-monitoring-details_0.png)
 
 You can also locate the monitoring and check IDs by looking at the
 Rackspace Intelligence URL for a particular check. The following link provides

@@ -88,7 +88,7 @@ Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) and then u
 
 6. Under **Permissions,** select the user type for the new user.
 
-   ![](4683.1.png" width="644" height="192" />
+   ![](4683.1.png)
 
 7. Enter additional contact information.
 

@@ -35,7 +35,7 @@ fighting ever adaptive and motivated adversaries.
 
 The following image shows the difference between good and bad bots:
 
-![](good-bad-bots.png" />
+![](good-bad-bots.png)
 
 ### The module
 

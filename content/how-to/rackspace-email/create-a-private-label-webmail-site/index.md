@@ -30,25 +30,25 @@ To customize and secure your private label Webmail site, perform the following s
 
 2. In the **Reseller Tools** section of the home page, click **Webmail Sites**.
 
-   ![](webmail_sites.png"/>
+   ![](webmail_sites.png)
 
 3. On the **Webmail Sites** page, click **Add Site**.
 
-   ![](add_webmail_site1.png"/>
+   ![](add_webmail_site1.png)
 
 4. On the **Customer Selection** page, select the customer company for which you are creating a private label Webmail site.
 
-   ![](customer_selection.png"/>
+   ![](customer_selection.png)
 
 5. In the **Webmail Site Settings** window, enter the Webmail website address that you want to create in the **Webmail            Address** field. You can choose to allow your customers to customize their site themselves or to copy the look and feel of    an existing Webmail site.
 
-    ![](site_settings.png"/>
+    ![](site_settings.png)
 
    **Warning:** You cannot create a private label Webmail site that uses a site name that already exists, that uses the root      domain of mymailsrvr.com, or that is listed on *Google Safe Browsing*.
 
 6. When you are presented with instructions to update the DNS entry for your site with new information, copy these                instructions by clicking **Copy Instructions** and then clicking **Ok, Got It**.
 
-   ![](site_being_created.png"/>
+   ![](site_being_created.png)
 
     - The DNS for most existing sites is an ``A`` record that points to a specific IP address. You need to change the ``A`` record type to ``CNAME`` and change the IP address to the hostname provided. For example, if your Webmail site is going to be **mail.yourdomainexample.com**, change the hostname to **mail** or **mail.yourdomainexample.com**. The following tables illustrate this change.
 
@@ -76,4 +76,4 @@ To customize and secure your private label Webmail site, perform the following s
 
 The site appears in the **Webmail Sites** listing. After the DNS change is propagated, it has a green locked icon to the right of the name, indicating that the site is secure.
 
-![](secure_completed.png"/>
+![](secure_completed.png)

@@ -34,18 +34,18 @@ Complete the following steps to export the results of a search in the Archive Ma
 
 3. 	Locate the search name to be exported and click **Run**.
 
-    ![](Export-archive-search-results-1.png" />
+    ![](Export-archive-search-results-1.png)
 
     **Note**: This option is available to users with **Administrator**, **Compliance Officer**, or 
     **Search Administrator** permissions.
 
 4. 	Check the box for the messages to be exported and click the **Export** icon above the message list.
 
-    ![](Export-archive-search-results-2.png" />
+    ![](Export-archive-search-results-2.png)
 
 5.  Click **Next** to confirm the number of messages to exported.
 
-    ![](Export-archive-search-results-3.png" />
+    ![](Export-archive-search-results-3.png)
 
     **Note**: You can export searches with a maximum of 30,000 results or a total size of 20 gigabytes, 
     whichever limit comes first.
@@ -60,6 +60,6 @@ Complete the following steps to export the results of a search in the Archive Ma
 
 10. Locate the search that was exported and click **Download**.
 
-    ![](Export-archive-search-results-4.png" />
+    ![](Export-archive-search-results-4.png)
 
     **Note**: The export remains available for approximately 30 days.

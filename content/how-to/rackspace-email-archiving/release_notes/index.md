@@ -33,7 +33,7 @@ https://view.archivesrvr.com/domaintld/ui/login
 The updated Archive Dashboard provides quick and valuable insight into the
 health and activity of your archive.
 
-![](release_notes(1).png" />
+![](release_notes(1).png)
 
 
 #### Adding archive users ####
@@ -43,7 +43,7 @@ your archive. With this approach, the user’s role is now selected based on
 company needs instead of clicking a separate section to accomplish the same
 end goal.
 
-![](release_notes(2).png" />
+![](release_notes(2).png)
 
 
 #### Save as new search ####
@@ -52,7 +52,7 @@ This update allows you to take an existing search and duplicate it as a new
 search. This saves time and effort by not having to start from scratch for
 each new search.
 
-![](release_notes(3).png" />
+![](release_notes(3).png)
 
 #### Improved search result review ####
 
@@ -60,14 +60,14 @@ The look and feel of the search results review, including viewing specific
 messages, is greatly improved. By having a more “mail client feel,” navigating
 through the search results is more intuitive.
 
-![](release_notes(4).png" />
+![](release_notes(4).png)
 
 #### Improved exports ####
 
 Better filtering to limit size, export formats, and notifications provides a
 better experience, especially on larger exports.
 
-![](release_notes(5).png" />
+![](release_notes(5).png)
 
 
 #### Migration notes ####
@@ -76,10 +76,10 @@ The migration that accompanies this upgrade is automatic. You see one distinct
 difference. Any saved searches are migrated to the new archive portal as read-
 only, meaning you cannot edit or update the details of the search.
 
-![](release_notes(6).png" />
+![](release_notes(6).png)
 
 Because administrators and users are re-created as part of the upgrade/
 migration, the ownership of the migrated searches is not preserved. For these
 migrated searches, the new owner displays as “migrated search (unknown user)."
 
-![](release_notes(7).png" />
+![](release_notes(7).png)

@@ -50,7 +50,7 @@ may be configured with the following:
 A total raw capacity of 6,848 TB or 6.69 PB may be attached to the
 system, including both internal and external drives.
 
-![](seamicro.png" width="538" height="257" />
+![](seamicro.png)
 
 An interesting and powerful aspect of the SM15000&trade; is the supercompute
 fabric, which is able to deliver 1.28 Terabits/second of bandwidth

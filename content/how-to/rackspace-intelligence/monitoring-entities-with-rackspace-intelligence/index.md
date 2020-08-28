@@ -149,7 +149,7 @@ for an entity to launch a **Default Graphs** presentation for the
 entity. The page shows any graphs that are available for checks
 configured for the entity, such as the one shown in the following image:
 
-![](intelligence-visualize-defaultgraphs-1on1off.png" width="743" height="280" />
+![](intelligence-visualize-defaultgraphs-1on1off.png)
 
 For checks that are defined but not configured, click the link to begin the
 process of configuring the check.

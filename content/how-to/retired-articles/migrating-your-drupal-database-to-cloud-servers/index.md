@@ -64,7 +64,7 @@ accept the RSA key, simply type **yes**.
 
 Your screen should look similar to this once connected:
 
-![](sites_mysql_ssh_login.png" alt="sites\_mysql\_ssh\_login.png" />
+![](sites_mysql_ssh_login.png)
 
 ### Change Root Password
 
@@ -102,7 +102,7 @@ You'll be presented with a screen that looks like the image below.
 Select your geographical location to select your time zone and then
 select **<Ok>**.
 
-![](sites_mysql_tzdata_reconfig.png" alt="sites\_mysql\_tzdata\_reconfig.png" />
+![](sites_mysql_tzdata_reconfig.png)
 
 After you have set your time zone you'll be sent back to the command
 prompt and you'll see something similar to the following:
@@ -224,7 +224,7 @@ following:
 Once you have the server installed you can go to your server's IP
 address in a web-browser and you should see something like this:
 
-![](sites_mysql_apache_test.png" alt="sites\_mysql\_apache\_test.png" />
+![](sites_mysql_apache_test.png)
 
 ### Install MySQL
 
@@ -240,7 +240,7 @@ server and have permissions to ALL data!
 
 You will be asked for this password twice.
 
-![](sites_mysql_mysql_root_password.png" alt="sites\_mysql\_mysql\_root\_password.png" />
+![](sites_mysql_mysql_root_password.png)
 
 ### Install phpMyAdmin
 
@@ -256,29 +256,29 @@ asking you which web-server to auto configure. We will select
 **apache2** by pressing the space bar and pressing **Enter**. A
 screenshot is below:
 
-![](sites_mysql_phpmyadmin_webserver_config.png" alt="sites\_mysql\_phpmyadmin\_webserver\_config.png" />
+![](sites_mysql_phpmyadmin_webserver_config.png)
 
 You will be prompted to configure a database required for phpMyAdmin to
 function. Select **Yes** and press **Enter**.
 
-![](sites_mysql_config_phpmyadmin_db.png" alt="sites\_mysql\_config\_phpmyadmin\_db.png" />
+![](sites_mysql_config_phpmyadmin_db.png)
 
 You will be asked for the *root* password for the database to create the
 associated database and tables. Type this in and press **Enter**.
 
-![](sites_mysql_configure_phpmyadmin_root_pw.png" alt="sites\_mysql\_configure\_phpmyadmin\_root\_pw.png" />
+![](sites_mysql_configure_phpmyadmin_root_pw.png)
 
 You will be prompted for the password that you'd like to set for the
 *phpmyadmin* user. Since we will never use this account to login we will
 allow it to generate a random password. Press **Enter** to allow this.
 
-![](sites_mysql_phpmyadmin_pw.png" alt="sites\_mysql\_phpmyadmin\_pw.png" />
+![](sites_mysql_phpmyadmin_pw.png)
 
 Once the install finishes we need to test our phpMyAdmin installation.
 Point your web browser to **<https://12.34.56.78/phpmyadmin>** (change to
 your Server's IP). You should see a screen like the one below:
 
-![](sites_mysql_phpmyadmin_test.png" alt="sites\_mysql\_phpmyadmin\_test.png" />
+![](sites_mysql_phpmyadmin_test.png)
 
 You may test your login by using the *root* user and entering your MySQL
 root password.
@@ -303,13 +303,13 @@ associated with your Drupal website. You will also need to select the
 appropriate MySQL attached to your database. You can find all of this in
 the Control Panel on your site's *Features* tab.
 
-![](sites_mysql_dfw_pma_login.png" alt="sites\_mysql\_dfw\_pma\_login.png" />
+![](sites_mysql_dfw_pma_login.png)
 
 Once you are logged in we need to begin pulling a copy of the database.
 To do this scroll down on the right window pane and find the **Export**
 link; click this.
 
-![](sites_mysql_pma_export.png" alt="sites\_mysql\_pma\_export.png" />
+![](sites_mysql_pma_export.png)
 
 You will be presented with an export screen. On the left side under
 *Export* select your Drupal database (eg: 388488\_drupal). Scroll down
@@ -318,9 +318,9 @@ will save your database output to a file. Finally click the **Go**
 button on the bottom right. You may get prompted where to save your
 file... save it somewhere on your computer.
 
-![](sites_mysql_pma_dump_choosedb.png" alt="sites\_mysql\_pma\_dump\_choosedb.png" />
-![](sites_mysql_pma_dump_savefile.png" alt="sites\_mysql\_pma\_dump\_savefile.png" />
-![](sites_mysql_pma_dump_gobutton.png" alt="sites\_mysql\_pma\_dump\_gobutton.png" />
+![](sites_mysql_pma_dump_choosedb.png)
+![](sites_mysql_pma_dump_savefile.png)
+![](sites_mysql_pma_dump_gobutton.png)
 
 Once you have your database file (it may take a while to download) you
 can close phpMyAdmin.
@@ -337,12 +337,12 @@ You should see the login screen. Type in **root** for the login and type
 in your MySQL root password that we chose earlier. Click **Go** to
 login.
 
-![](sites_mysql_cs_pma_login.png" alt="sites\_mysql\_cs\_pma\_login.png" />
+![](sites_mysql_cs_pma_login.png)
 
 Once you are logged in you will need to click on the **Import** tab at
 the top.
 
-![](sites_mysql_cs_pma_importlink.png" alt="sites\_mysql\_cs\_pma\_importlink.png" />
+![](sites_mysql_cs_pma_importlink.png)
 
 You will be presented with an import screen asking for some variables.
 Click on the **Choose File** button and choose your backup file that we
@@ -353,13 +353,13 @@ begin the import.
 size. If your database is larger than this it will have to be executed
 from the command line or through the SQL window.
 
-![](sites_mysql_cs_pma_import1.png" alt="sites\_mysql\_cs\_pma\_import1.png" />
-![](sites_mysql_cs_pma_import2.png" alt="sites\_mysql\_cs\_pma\_import2.png" />
+![](sites_mysql_cs_pma_import1.png)
+![](sites_mysql_cs_pma_import2.png)
 
 If your import worked successfully you will see something like the
 picture below. You may close the window.
 
-![](sites_mysql_cs_pma_import3.png" alt="sites\_mysql\_cs\_pma\_import3.png" />
+![](sites_mysql_cs_pma_import3.png)
 
 **Importing databases over 2MB:**
 
@@ -384,12 +384,12 @@ the Drupal user yet. We can add these permissions easily with
 phpMyAdmin. Return back to the phpMyAdmin window that we have open and
 click on the **Privileges** tab.
 
-![](sites_mysql_cs_pma_priv_tab.png" alt="sites\_mysql\_cs\_pma\_priv\_tab.png" />
+![](sites_mysql_cs_pma_priv_tab.png)
 
 Once you click on the tab you will be presented with a list of users.
 Click on the **Add a new user** link near the bottom.
 
-![](sites_mysql_cs_pma_priv_addlink.png" alt="sites\_mysql\_cs\_pma\_priv\_addlink.png" />
+![](sites_mysql_cs_pma_priv_addlink.png)
 
 You will be presented with a form asking several pieces of information.
 We are going to duplicate the user information that was used on your
@@ -399,14 +399,14 @@ user in Cloud Sites. Type it again in the box that follows. Once you
 have this filled in scroll down to the bottom and click **Go**. Refer to
 the examples below:
 
-![](sites_mysql_cs_pma_adduser_details.png" alt="sites\_mysql\_cs\_pma\_adduser\_details.png" />
-![](sites_mysql_cs_pma_adduser_gobutton.png" alt="sites\_mysql\_cs\_pma\_adduser\_gobutton.png" />
+![](sites_mysql_cs_pma_adduser_details.png)
+![](sites_mysql_cs_pma_adduser_gobutton.png)
 
 Once the user is created you will be asked what permissions to grant
 this user. Scroll down to **Database-specific Privileges' and type your
 Drupal database name in the text box. Once you have done this click
 the** Go **button.**
-![](sites_mysql_cs_pma_dbspec_privs.png" alt="sites\_mysql\_cs\_pma\_dbspec\_privs.png" />
+![](sites_mysql_cs_pma_dbspec_privs.png)
 
 Locate the box titled *Data* and check the following boxes:
 
@@ -418,7 +418,7 @@ Locate the box titled *Data* and check the following boxes:
 The image below shows the boxes that should be checked. Scroll down and
 click the **Go** button.
 
-![](sites_mysql_cs_pma_dbspec_privs_add.png" alt="sites\_mysql\_cs\_pma\_dbspec\_privs\_add.png" />
+![](sites_mysql_cs_pma_dbspec_privs_add.png)
 
 You should now have the correct user setup for your Drupal installation.
 Next we need to modify your settings.php file to connect to your new

@@ -30,35 +30,35 @@ If you need to export or import email address data from a different Outlook vers
 
 1. In Outlook 2010, click **File > Options**.
 
-    ![](file_options2010.png" />
+    ![](file_options2010.png)
 
 2. In the Outlook Options window, click **Advanced**.
 
-    ![](advanced2010.png" />
+    ![](advanced2010.png)
 
 3. In the Export section, click **Export**.
 
-    ![](export2010.png" />
+    ![](export2010.png)
     
     The Import and Export Wizard launches.
 
 4. In the Import and Export Wizard, click **Import from a file**, and then click **Next**.
 
-    ![](import_from_a_file2010.png" />
+    ![](import_from_a_file2010.png)
 
 5. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-    ![](outlook_data_file2010.png" />
+    ![](outlook_data_file2010.png)
 
 6. Click **Browse**, and then select the Outlook data file that you want to import.
 
-    ![](browse2010.png" />
+    ![](browse2010.png)
 
 7. Select the folder to import from. If you wish to import all folders, select the **Outlook Data File** and check the **Include subfolders** box. 
 
 8. Select **Import items into the same folder in:** and select the email address to which you want to import data.
 
-    ![](folder_to_import_from2010.png" />
+    ![](folder_to_import_from2010.png)
 
 9. Click **Finish**. The **Outlook Data File** begins importing. It could take several minutes to several hours to import, depending on the size of the importing file.
 

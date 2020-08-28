@@ -35,14 +35,14 @@ following changes to our ACH process:
 
 2. Click **Account**, and then select **Payments** from the menu.
 
-  ![](ACHFAQ1.png" width="185" height="305" />
+  ![](ACHFAQ1.png)
 
 
 #### Do I need to update any of my ACH information?
 
 You need to enter information in the fields on the **Direct Debit / E-Check** tab. To get to this tab, go to the Payments page in the MyRackspace Portal and click **Recurring Payment** at the top of the screen.
 
-![](ACHFAQ2a.png" width="595" height="326" />
+![](ACHFAQ2a.png)
 
 On the **Direct Debit / E-Check tab**, enter or update the following information:
 
@@ -57,7 +57,7 @@ On the **Direct Debit / E-Check tab**, enter or update the following information
 Yes. You can find this new feature on the **Payments** page of the
 portal. In the top menu, click  **E-Check Payment History**.
 
-![](ACHFAQ4a.png" width="454" height="120" />
+![](ACHFAQ4a.png)
 
 **Note**: This feature maintains a history of e-Check payments only.
 Payments made with other payment methods do not appear in this list.

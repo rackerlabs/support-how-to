@@ -28,25 +28,25 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 2. In the **Reseller Tools** section of the home page, click the **Custom Control Panel** link.
 
-   ![](custom_control_panel.png"/>
+   ![](custom_control_panel.png)
 
 3. On the **Custom Control Panel Site** page, click **LET's GET STARTED**.
 
-   ![](get_started.png"/>
+   ![](get_started.png)
 
 4. In the **Control Panel Settings** step, enter the control panel website address you want to create in the Control Panel Address field, and click **NEXT STEP**.
 
-   ![](cp_address.png"/>
+   ![](cp_address.png)
 
   **Warning:** You cannot create a control panel site that uses a site name that already exists or that uses the root domains of mymailsrvr.com, mycpsrvr.com, or a domain that is listed on Google Safe Browsing.
 
 5. On the **Secure Certificate Information** step, enter or verify the company information for your site. This information is used to register the security certificate that secures your site. If your end users choose to view the certificate from their browser, this information is visible to them. Click **ADD CONTROL PANEL SITE**.
 
-   ![](company_info.png"/>
+   ![](company_info.png)
 
 6. You are then presented with instructions to update the DNS entry for your site with new information. Copy these instructions by clicking **COPY INSTRUCTIONS** before clicking **OK, GOT IT**.
 
-   ![](dns_info.png"/>
+   ![](dns_info.png)
 
     - The DNS for most existing sites is an A record that points to a specific IP address. You need to change the A record type to a CNAME and change the IP address to the hostname provided. For example, if your control panel site is going to be **cp.yourdomainexample.com**, you would change the hostname to **cp** or **cp.yourdomainexample.com**. The following tables illustrate this change.
 
@@ -74,4 +74,4 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 The site now appears in the **Custom Control Panel** listing. After the DNS change is propagated, a green "locked" icon appears to the right of the name to show that the site is secure.
 
-![](secured.png"/>
+![](secured.png)
