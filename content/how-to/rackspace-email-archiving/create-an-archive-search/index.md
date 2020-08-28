@@ -87,4 +87,4 @@ give the search, the better and more accurate your results will be.
 Enter as much available search information as possible in the fields
 under **Search Options**.
 
-<img src="searchoptionsadvanced.png" width="615" height="424" />
+![](searchoptionsadvanced.png" width="615" height="424" />

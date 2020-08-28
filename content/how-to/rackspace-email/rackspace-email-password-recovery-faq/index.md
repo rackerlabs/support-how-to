@@ -43,11 +43,11 @@ On the login page for [apps.rackspace.com](https://apps.rackspace.com), click th
 your password. A one-time passcode is sent in a text message to the
 mobile phone number on file for your account.
 
-<img src="1481.2b.png" width="303" height="199" />
+![](1481.2b.png" width="303" height="199" />
 
 You use this passcode to change your password.
 
-<img src="1481.1b.png" width="414" height="273" />
+![](1481.1b.png" width="414" height="273" />
 
 **Warning:** After you have changed your password, update the password on any device used to check this mailbox.
 

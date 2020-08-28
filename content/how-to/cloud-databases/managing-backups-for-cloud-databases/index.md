@@ -88,7 +88,7 @@ steps:
    You can hover over the backup name for additional details or click the
    gear icon to copy, restore, or delete the backup.
 
-<img src="ListDetailsInstance.png" width="611" height="471" />
+![](ListDetailsInstance.png" width="611" height="471" />
 
 ### Delete a backup
 

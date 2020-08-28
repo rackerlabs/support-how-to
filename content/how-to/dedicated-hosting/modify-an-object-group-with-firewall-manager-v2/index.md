@@ -39,7 +39,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 5. Under **Rules** in the navigation pane, click **IP Groups**.
 
-    <img src="ip-groups.png" />
+    ![](ip-groups.png" />
 
 6. Scroll through or search the object-group list and click the group that you want to modify.
 
@@ -47,7 +47,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 8. To add an entry, click **Add IP(s)** and add IP hosts or subnet ranges to the group. For instructions, see [Add an object-group](/support/how-to/create-an-object-group-with-firewall-manager-v2).
 
-   <img src="modify-object-group.png" />
+   ![](modify-object-group.png" />
 
 9. To remove an entry, click on the minus (-) symbol to the right of the object-group entry.
 

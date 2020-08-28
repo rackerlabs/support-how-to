@@ -16,27 +16,27 @@ Mobile phone.
 
 1. Locate the **Settings** options from within your application menu.
 
-    <img src="1.jpg" width="275" height="277" />
+    ![](1.jpg" width="275" height="277" />
 
 2. Tao **email + accounts**.
 
-    <img src="2.jpg" width="277" height="438" />
+    ![](2.jpg" width="277" height="438" />
 
 3.  Tap **add an account**.
 
-    <img src="3.jpg" width="281" height="151" />
+    ![](3.jpg" width="281" height="151" />
 
 4. Tap **other account**.
 
-    <img src="4.jpg" width="275" height="399" />
+    ![](4.jpg" width="275" height="399" />
 
 5. Enter your full email address and password for your account, and then tap **sign in**.
 
-    <img src="5.jpg" width="277" height="443" />
+    ![](5.jpg" width="277" height="443" />
 
 6. If the device does not auto-detect your settings, tap the **advanced** option on this screen.
 
-    <img src="6.jpg" width="279" height="439" />
+    ![](6.jpg" width="279" height="439" />
 
 7. Add your account name, enter your name, and the enter the following server settings. (You need to scroll down on this screen to see the additional fields.)
 
@@ -54,9 +54,9 @@ Mobile phone.
 
     -   Use the same user name and password for sending email: **Enabled**
 
-    <img src="8.jpg" width="279" height="444" />
+    ![](8.jpg" width="279" height="444" />
 
-    <img src="9.jpg" width="277" height="446" />
+    ![](9.jpg" width="277" height="446" />
 
 8. Tap **sign in**.
 

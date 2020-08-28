@@ -27,11 +27,11 @@ Use the following steps to manage your domain's spam settings:
 
 4. In the **Spam Settings** section, makes your selection from the following three options under the **Status** section:
 
-    <img src="status_options.png" />
+    ![](status_options.png" />
 
 5. Scroll down to the section labeled **Microsoft Exchange Handling** and make your selections from the following available options:
 
-    <img src="exchange_settings.png" />
+    ![](exchange_settings.png" />
 
 
 6. In the **Override Options** section, select one of the following options:
@@ -53,7 +53,7 @@ A safelist identifies sources of trusted email and ensure emails from those sour
 4. Add a domain name or email address to the safelist by entering the
    domain in the box labeled **Enter a domain or email address**, then click the **Add** button.
 
-   <img src="safelist_domain.png" />
+   ![](safelist_domain.png" />
 
    - Remove a domain or email address by selecting the name in the list, then
    clicking the **Remove** button.
@@ -66,7 +66,7 @@ A safelist identifies sources of trusted email and ensure emails from those sour
 
 5. Add an Internet Protocol (IP) address to the domain-wide safelist by entering the IP address in the box labeled **Enter an IP address (or range)** and then click the **Add** button.
 
-    <img src="safelist_ip.png" />
+    ![](safelist_ip.png" />
 
    - Remove an IP address by selecting the address in the list then clicking the **Remove** button.
 
@@ -90,7 +90,7 @@ A blacklist identifies sources of untrusted email. Messages from blacklisted add
 4. Add a domain name or email address to the blacklist by entering the
    domain in the box labeled **Enter a domain or email address**, then click the **Add** button.
 
-   <img src="blacklist_domain.png" />
+   ![](blacklist_domain.png" />
 
 
    - Remove a domain or email address by selecting the name in the list, then
@@ -104,7 +104,7 @@ A blacklist identifies sources of untrusted email. Messages from blacklisted add
 
 5. To add an IP address to the blacklist, enter the IP address in the box labeled **Enter an IP address (or range)**, then select the **Add** button.
 
-   <img src="blacklist_ip.png" />
+   ![](blacklist_ip.png" />
 
    - Remove an IP address by selecting the address in the list, then clicking the **Remove** button.
 

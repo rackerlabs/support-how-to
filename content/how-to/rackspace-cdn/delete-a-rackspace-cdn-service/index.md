@@ -22,7 +22,7 @@ that you want to delete and select **Delete Service**.
 3. In the popup dialog box, note the warning and then click **Delete
 Service**.
 
-<img src="DeleteService.png" width="500" height="109" />
+![](DeleteService.png" width="500" height="109" />
 
 ### Additional resources
 

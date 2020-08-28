@@ -29,7 +29,7 @@ The change log documents the events that Firewall Manager v2 executes on your Ci
 
 3. Under **Rules**, click **Change Log**.
 
-    <img src="change-log.png" />
+    ![](change-log.png" />
 
 
 ### Change log features
@@ -38,7 +38,7 @@ The Firewall Manager v2 change log has an export function. To use this feature, 
 
 The change log also has a search function that filters the entries based on the value that you enter, such as a username or an IP address.
 
-<img src="example-change-log.png" />
+![](example-change-log.png" />
 
 ### What information does the change log document?
 

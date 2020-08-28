@@ -47,7 +47,7 @@ database in the [Cloud Control Panel](https://login.rackspace.com) by clicking o
 
 The following image shows an example Server Details page:
 
-<img src="ServerDetails.png" alt="Cloud Server Details" />
+![](ServerDetails.png" alt="Cloud Server Details" />
 
 #### Related Information
 

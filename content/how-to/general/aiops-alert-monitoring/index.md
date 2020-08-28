@@ -146,13 +146,13 @@ This section covers the following tasks:
 
 In the MyRackspace portal, situation tickets start with **SITUATION** followed by a description of the grouping.
 
-<img src="https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
+![](https://5190c7d0c790dd6a46c5-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-example-1.png" />
 
 #### Identify the information in a situation ticket
 
 In the situation ticket, all of the correlated alerts are listed under **CLUSTERED ALERTS**:
 
-<img src="https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-text.png" />
+![](https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/situation-ticket-text.png" />
 
 ### RNS alert notification information
 
@@ -161,4 +161,4 @@ by clicking on **Notifications** in the upper right-hand corner of the MyRackspa
 
 The following image shows a sample of an alert in the Rackspace Notification System (RNS):
 
-<img src="https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/RNS-Notifications.jpg" />
+![](https://94699ff2b15c95457dd6-c6926f0c34f49651f083091aa08ad521.ssl.cf1.rackcdn.com/aiops_images/RNS-Notifications.jpg" />

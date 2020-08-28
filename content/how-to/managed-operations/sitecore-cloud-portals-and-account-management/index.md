@@ -50,7 +50,7 @@ The Azure portal contains the URL for the content management site. You use URL  
 
 1. Log in to the [Azure portal](https://portal.azure.com/) by using the credentials sent to you by Rackspace. If you need to get these credentials, see "Get your login credentials."
 
-   <img src="azure-login.png" alt=""  />   
+   ![](azure-login.png" alt=""  />   
 
 2. Select **Resource Groups**.
 
@@ -60,7 +60,7 @@ The Azure portal contains the URL for the content management site. You use URL  
 
 5. On the app service overview screen, locate the content management website URL in the URL column.
 
-   <img src="cm-azure-url.png" alt=""  />   
+   ![](cm-azure-url.png" alt=""  />   
 
 
 ### Sitecore Cloud content management site
@@ -69,7 +69,7 @@ The Sitecore Cloud content management site manages the content of your Sitecore 
 
 1. Enter the URL of your content management website to verify the site loads. The URL should look similar to **https://gsdk-cm.azurewebsites.net/**. You can find the URL by logging in to the Azure portal.
 
-   <img src="sitecore-login.png" alt=""  />   
+   ![](sitecore-login.png" alt=""  />   
 
 2. Add **/sitecore/login** to the URL to open the Sitecore login page. The URL should look similar to **https://gsdk-cm.azurewebsites.net/sitecore/login**.
 

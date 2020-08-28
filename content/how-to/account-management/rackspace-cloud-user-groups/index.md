@@ -62,6 +62,6 @@ when the user was created.  CloudCharles keeps the *Ticketing Admin* permission
 even though no permissions for Ticketing are assigned as part of this group.
 
 
-<img src="Picture1.png" />
+![](Picture1.png" />
 
-<img src="Picture2.png" />
+![](Picture2.png" />

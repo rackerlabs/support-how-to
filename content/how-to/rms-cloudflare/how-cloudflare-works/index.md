@@ -19,7 +19,7 @@ software, or changes to your code.
 The following graphic illustrates how Cloudflare works to protect your
 site against malicious traffic:
 
-<img src="cloudflare-diagram.png" />
+![](cloudflare-diagram.png" />
 
 ### Security
 

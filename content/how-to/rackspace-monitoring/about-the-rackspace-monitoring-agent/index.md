@@ -46,7 +46,7 @@ can learn about by reading the [Rackspace Monitoring API Developer Guide](https:
 You can view the host statistics of a Cloud Server provided by the agent
 on the Server Details page of the Cloud Control Panel:
 
-<img src="ServerDetails_1.png" width="569" height="416" />
+![](ServerDetails_1.png" width="569" height="416" />
 
 ### Related Information
 

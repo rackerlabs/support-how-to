@@ -24,12 +24,12 @@ Use the following steps to attach a Cloud Network to an existing Fortigate&reg;-
 4. Navigate to the **Server Details** page for your Fortigate-VM as shown in the
    following image:
 
-   <img src="cloud_servers_details.png" class="image-half_width" width="500" height="350" />
+   ![](cloud_servers_details.png" class="image-half_width" width="500" height="350" />
 
 5. In **Networks and Security Groups**, click **Add Network** and choose the
    Cloud Network that you want to attach as shown in the following image:
 
-   <img src="add_network.png" class="image-half_width" width="500" height="350" />
+   ![](add_network.png" class="image-half_width" width="500" height="350" />
 
 
 6. Click **Add Network** in the dialog box.
@@ -43,7 +43,7 @@ Use the following steps to attach a Cloud Network to an existing Fortigate&reg;-
 2. Find the Cloud Network that you attached previously and record its CIDR,
 which is usually `ip-address/24`) as shown in the following image.
 
-<img src="cloud_networks.png" class="image-half_width" width="500" height="350" />
+![](cloud_networks.png" class="image-half_width" width="500" height="350" />
 
 ### Set the IP address in the Fortigate-VM GUI
 
@@ -58,9 +58,9 @@ click **Edit**.
 4. In the **Address** section, fill in the Cloud Network IP address and CIDR
 that you recorded earlier and click **OK** as shown in the following images.
 
-<img src="display_fgvm.png" class="image-half_width" width="700" height="500" />
+![](display_fgvm.png" class="image-half_width" width="700" height="500" />
 
-<img src="ipset.png" class="image-half_width" width="=700" height="500" />
+![](ipset.png" class="image-half_width" width="=700" height="500" />
 
 ### (Optional) Backup the new configuration
 

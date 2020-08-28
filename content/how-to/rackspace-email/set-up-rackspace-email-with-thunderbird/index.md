@@ -18,7 +18,7 @@ your Thunderbird email client.
 2. In the navigation pane, click **Local Folders**.
 3. Under **Create a new account**, click **Email**.
 
-   <img src="thunderbird-create-account.png" />
+   ![](thunderbird-create-account.png" />
 
 4. When prompted to create a new email address, click **Skip this and use my existing email** at the bottom of the dialog box.
 5. In the Mail Account Setup dialog box, enter the following information in the fields provided:
@@ -35,7 +35,7 @@ your Thunderbird email client.
 
    The dialog box expands to show new fields.
 
-    <img src="thunderbird-dialog-fields.png"  />
+    ![](thunderbird-dialog-fields.png"  />
 
 8.  Enter the following values in the **Incoming** row:
     -   IMAP

@@ -35,7 +35,7 @@ When creating your signature you should be cautious about what is included. Sign
 
 5. In the **Add New Signature** dialog box, enter a descriptive name for your signature. In the **Edit Signature** area, enter the text for your signature. You can use plain text, HTML, or rich text with the formatting options available in the editor (for example, bold, italics, and colored text).
 
-    <img src="edit-signature.png" />
+    ![](edit-signature.png" />
 
     **Note:** If you switch to plain text, you lose any HTML formatting that you have applied.
 
@@ -43,7 +43,7 @@ When creating your signature you should be cautious about what is included. Sign
 
 7. Click the name of your signature file in the **Current Signatures** and then choose any of the additional options.
 
-    <img src="enable-signature-options.png" />
+    ![](enable-signature-options.png" />
 
     - To automatically insert the signature when composing a new email, select the **Always show signature when composing an email** check box.
     - To automatically insert the signature when you are replying to an email, select the **When replying to an email, insert my signature** check box. Also, specify whether the signature should appear above or below the body of the message.
@@ -53,7 +53,7 @@ When creating your signature you should be cautious about what is included. Sign
 
 9. Click the **Identities** tab, double-click your email address, and then enter the following information in the spaces provided.
 
-    <img src="edit-identity.png" alt="" />
+    ![](edit-identity.png" alt="" />
 
     - **Full Name**: This name will appear in the **From** field of messages that you send.
     - **Email Address**: Enter the email address that should be displayed as the **From** email address.

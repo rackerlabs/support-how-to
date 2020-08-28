@@ -25,13 +25,13 @@ This article describes how to publish new content to your Sitecore content manag
 
 2. In the Sitecore dashboard, click **Content Editor**.
 
-    <img src="sitecore-dashboard.png" alt=""  />   
+    ![](sitecore-dashboard.png" alt=""  />   
 
 3. In the navigation bar, click the **Publish** tab.
 
 4. On the tab, click the small arrow on the **Publish** button, and then select **Publish site**.
 
-    <img src="publish-dashboard.png" alt=""  />
+    ![](publish-dashboard.png" alt=""  />
 
 5. Select the publishing type, and then click **Publish**. You can choose from the following publishing types:
 

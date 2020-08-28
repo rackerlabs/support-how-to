@@ -220,7 +220,7 @@ authentication**
     authentication are logged out after seeing an error message like the
     following one:
 
-    <img src="mfa-force-logout.png" alt="Force user to log out when mulit-factor authentication requirement is not met." width="513" height="112" />
+    ![](mfa-force-logout.png" alt="Force user to log out when mulit-factor authentication requirement is not met." width="513" height="112" />
 
     When these users log back in, they are guided through the
     multi-factor authentication set up.

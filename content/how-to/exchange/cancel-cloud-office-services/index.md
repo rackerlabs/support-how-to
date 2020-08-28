@@ -17,12 +17,12 @@ To cancel your Cloud Office services, log in to the Cloud Office Control Panel a
 2.  From the menu, select **Services and Reports**.
 3.  In the options listed in the ribbon toward the top of the screen, click **Cancel Account**.
 
-    <img src="cancel_tab.png" />
+    ![](cancel_tab.png" />
 
 4.  A warning is then displayed that describes what happens after you cancel the account.
 
-    <img src="cancel_warning.png" />
+    ![](cancel_warning.png" />
 
 5.  After you read the details of the cancellation request and agree to the conditions, confirm the cancellation by typing **CANCEL** into the empty box, and then click **CANCEL ACCOUNT ON MM/DD/YYYY**.  
 
-    <img src="confirm_cancel.png" />
+    ![](confirm_cancel.png" />

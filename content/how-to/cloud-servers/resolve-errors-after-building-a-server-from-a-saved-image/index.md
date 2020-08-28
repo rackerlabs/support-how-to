@@ -37,7 +37,7 @@ server from a saved image:
 
    The output is similar to the following image:
 
-   <img src="picture1.png" />
+   ![](picture1.png" />
 
    Because this is a new server, nova-agent (`S20nova-agent` in blue in the
    image, or s20) is set to start immediately after xe-linux-distribution

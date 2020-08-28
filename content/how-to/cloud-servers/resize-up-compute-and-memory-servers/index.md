@@ -91,7 +91,7 @@ Use the following steps to resize up your server by using Pitchfork:
 4. Scroll down to **List Flavors** and click **Details**. Enter
    **limit=100** for the **Filter** parameter, and then click **Send API Call**.
 
-   <img src="pitchfork-list-flavors.png" />
+   ![](pitchfork-list-flavors.png" />
 
 5. Find the server that you want to resize and take note of the server
    **UUID** and **flavor_id**. You need these values for the **Resize Server** API call.
@@ -100,13 +100,13 @@ Use the following steps to resize up your server by using Pitchfork:
    the **server_id (UUID)** and **flavor_id** that you gathered in the previous
    step, and then click **Send API Call**.
 
-   <img src="pitchfork-resize-server.png" />
+   ![](pitchfork-resize-server.png" />
 
 The server status in the Cloud Control Panel should change to **Resizing**.
 After the operation is complete, you must verify the server resize by
 navigating to the **Server Details** page for the server that you resized.
 
-<img src="pitchfork-verify-resize.png" />
+![](pitchfork-verify-resize.png" />
 
 
 ### Additional resources

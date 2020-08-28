@@ -44,7 +44,7 @@ the file **deployment_key.txt**.
 4. Paste your private key, such as the one in the following image, into the file.
 Be sure to include the **BEGIN** and **END** lines.
         
-     <img src="Linux2.png" width="764" height="660" />
+     ![](Linux2.png" width="764" height="660" />
 
 5. To save your changes, press **Esc**. 
 

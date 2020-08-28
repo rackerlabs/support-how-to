@@ -34,7 +34,7 @@ restriction:
 
 1. Click **Add Rule**. A popup dialog box displays.
 
-<img src="ScreenShot2015-10-02at11.54.43AM.png" width="399" height="244" />
+![](ScreenShot2015-10-02at11.54.43AM.png" width="399" height="244" />
 
 2. Enter the following information to define the rule:
 
@@ -62,7 +62,7 @@ To edit a restriction, follow these steps:
 2. Edit the **Name**, **Type**, **Access**, **Referrer**, or the
 **Path** for the rule.
 
-   <img src="ScreenShot2015-10-02at12.09.39PM.png" width="376" height="227" />
+   ![](ScreenShot2015-10-02at12.09.39PM.png" width="376" height="227" />
 
 3. Click **Save Rule**.
 

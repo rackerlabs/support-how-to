@@ -18,7 +18,7 @@ override the spam filtering for the entire domain. This article describes how to
 
 To manage your domain-level spam settings, go to the **Domains** section of the control panel and select **Filter Settings**, **Blacklists**, or **Safelists**.
 
-<img src="DomainsSpam_1.JPG" width="537" height="133" />
+![](DomainsSpam_1.JPG" width="537" height="133" />
 
 **Note:** If you have multiple domains, you might be prompted to select the domain you intend to make changes to.
 
@@ -26,21 +26,21 @@ To manage your domain-level spam settings, go to the **Domains** section of the 
 
 1. To manage individual user's spam settings, go to the **Rackspace Email** section of the control panel and select **Filter Settings**, **Blacklists**, or **Safelists**.
 
-    <img src="RSSpam.JPG" width="527" height="148" />
+    ![](RSSpam.JPG" width="527" height="148" />
 
 2. Select the user for which you want to update spam settings.
 
-    <img src="RSEUsers_0.JPG" width="658" height="241" />
+    ![](RSEUsers_0.JPG" width="658" height="241" />
 
 ### Set spam filtering options
 
 1. For individual mailboxes, click **Filter Settings** in the **Rackspace Email** section. For the domain, click **Filter Settings** in the **Domains** section.
 
-    <img src="DomainsSpam_0.JPG" width="527" height="110" />
+    ![](DomainsSpam_0.JPG" width="527" height="110" />
 
 2. In the Status section, turn the spam filtering on or off. You can also select **Exclusive** to receive email *only* from senders on your domain's safelist.
 
-    <img src="Afterdomain1_1.JPG" width="499" height="398" />
+    ![](Afterdomain1_1.JPG" width="499" height="398" />
 
 3. Select the preferred settings for Rackspace Email in your domain. Following is a description of each option:
 
@@ -56,7 +56,7 @@ To manage your domain-level spam settings, go to the **Domains** section of the 
 
     **Note:** The override options are not presented if you chose to set options for an individual Rackspace Email mailbox.
 
-    <img src="SpamFilteringOverride.png" width="403" height="153" />
+    ![](SpamFilteringOverride.png" width="403" height="153" />
 
 5. Click **Save**.
 
@@ -66,21 +66,21 @@ Safelists allow you to add a sender's email address, domains, or IP address to d
 
 1. For individual mailboxes, click **Safelists** in the **Rackspace Email** section. For the domain, click **Safelists** in the **Domains** section.
 
-     <img src="CPFiltersettingsSL_0.jpg" width="519" height="106" />
+     ![](CPFiltersettingsSL_0.jpg" width="519" height="106" />
 
 2. To add a domain name or email address to the safelist, enter the domain or email address in the box, and then click **Add**.
 3. To remove a domain or email address, select the name in the list and then click **Remove**. To remove all domain names or email addresses listed in the window, click **Clear**.
 
    **Note:** If you have multiple domain names or email addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    <img src="SpamFilteringSLDomainsandEmail.png" width="335" height="385" />
+    ![](SpamFilteringSLDomainsandEmail.png" width="335" height="385" />
 
 4.  To add an IP address to the safelist, enter the IP address (or range) in the box and then click **Add**.
 5.  To remove an IP address, select the address in the list and then click **Remove**. To remove all IP addresses listed in the window, click **Clear**.
 
     **Note:** If you have multiple IP addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    <img src="SpamFilteringSLIP.png" width="327" height="377" />
+    ![](SpamFilteringSLIP.png" width="327" height="377" />
 
 6.  Click **Save**.
 
@@ -90,20 +90,20 @@ Blacklists allow you block a sender's email address, domain, or IP address from 
 
 1. For individual mailboxes, click **Backlists** in the **Rackspace Email** section. For the domain, click **Blacklists** in the **Domains** section.
 
-    <img src="CPFiltersettingsBL_0.jpg" width="519" height="106" />
+    ![](CPFiltersettingsBL_0.jpg" width="519" height="106" />
 
 2.  To add a domain name or email address to the blacklist, enter the domain or email address in the box, and then click **Add**.
 3.  To remove a domain or email address, select the name in the list and then click **Remove**. To remove all domain names or email addresses listed in the window, click **Clear**.
 
     **Note:** If you have multiple domain names or email addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    <img src="SpamFilteringBLDomainsandEmail.png" width="331" height="389" />
+    ![](SpamFilteringBLDomainsandEmail.png" width="331" height="389" />
 
 4. To add an IP address to the blacklist, enter the IP address (or range) in the box and then click **Add**.
 5. To remove an IP address, select the address in the list and then click **Remove**. To remove all IP addresses listed in the window, click **Clear**.
 
     **Note:** If you have multiple IP addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
-    <img src="SpamFilteringBLIP.png" width="346" height="374" />
+    ![](SpamFilteringBLIP.png" width="346" height="374" />
 
 6.  Click **Save**.

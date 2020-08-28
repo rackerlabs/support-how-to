@@ -56,7 +56,7 @@ Use the following steps to create an image backup:
 
 5. After the **Server Information** page loads, click **Actions** and select **Create Image**.
 
-    <img src="ScreenShot2015-01-12at5.25.09AM.png" width="160" height="364" border="2" alt=""  />
+    ![](ScreenShot2015-01-12at5.25.09AM.png" width="160" height="364" border="2" alt=""  />
 
 6. Enter a name for the image and click **Create Image**.
 

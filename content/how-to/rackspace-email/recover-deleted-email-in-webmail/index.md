@@ -28,23 +28,23 @@ Users can recover email messages from the **Recover Deleted Email** tool up to 1
 
 1. Verify the missing items are not in **Trash** or another folder.
 
-    <img src="{% asset_path rackspace-email/recover-deleted-email-in-webmail/no_trash.png %}" alt="" />
+    ![]({% asset_path rackspace-email/recover-deleted-email-in-webmail/no_trash.png %}" alt="" />
 
 1. Right-click the **Trash** folder and select **Recover Deleted Email**.
 
-    <img src="{% asset_path rackspace-email/recover-deleted-email-in-webmail/recover_deleted_email.png %}" alt="" />
+    ![]({% asset_path rackspace-email/recover-deleted-email-in-webmail/recover_deleted_email.png %}" alt="" />
 
 2. Select the messages that you want to recover.
 
-    <img src="{% asset_path rackspace-email/recover-deleted-email-in-webmail/select_to_recover.png %}" alt="" />
+    ![]({% asset_path rackspace-email/recover-deleted-email-in-webmail/select_to_recover.png %}" alt="" />
 
 3. Click **Recover to Folder** and select the destination folder for the recovered emails.
 
-    <img src="{% asset_path rackspace-email/recover-deleted-email-in-webmail/recover_to_folder.png %}" alt="" />
+    ![]({% asset_path rackspace-email/recover-deleted-email-in-webmail/recover_to_folder.png %}" alt="" />
 
 4. When you see the confirmation ``Message(s) Recovered``, close the recovery tool, and verify that the messages are now in the destination folder that you chose.
 
-   <img src="{% asset_path rackspace-email/recover-deleted-email-in-webmail/inbox_recovered.png %}" alt="" />
+   ![]({% asset_path rackspace-email/recover-deleted-email-in-webmail/inbox_recovered.png %}" alt="" />
 
 **Note:** Admins can perform this task on behalf of their users by using the **Log In As**
 functionality available in the Cloud Office Control Panel.

@@ -28,15 +28,15 @@ If you need to export or import email address data from a different Outlook vers
 
 1. In Outlook 2016, click the **File > Import** from the navigation bar.
 
-    <img src="file_import2016.png" />
+    ![](file_import2016.png" />
 
 2. A dialog box appears asking **What do you want to import?**. Select **Outlook for Mac archive file(.olm)** if the file you want to import was also exported from Outlook for Mac, and then click **Continue**.
 
-    <img src="import_file_type2016.png" />
+    ![](import_file_type2016.png" />
 
 4. Browse for the file that you want to import into Outlook.
 5. A dialog box displays the message **Your data has been imported.**. Click **Finish**.
 
-    <img src="import_finish2016.png" />
+    ![](import_finish2016.png" />
 
 You have imported a copy of your email address data into Outlook 2016 for Mac. This can take several minutes to a few hours to complete depending on the size of the file you just imported.

@@ -39,17 +39,17 @@ If the mailbox is set up in a [local email client](/support/how-to/cloud-office-
 
 4. Click the **More** button, expanding the dropdown menu, and select **Rename Email Address**.
 
-   <img src="edit-mailbox-options.png" />
+   ![](edit-mailbox-options.png" />
 
 5. In the Rename Email Address dialog box, enter the user name portion of the new email address, and then click **Rename Email Address**.
 
-    <img src="rename-pop-up-SC1.png" />
+    ![](rename-pop-up-SC1.png" />
 
     If you receive a `This email address is already taken` message, it means the address is already in use as an alias, group list, distribution list, or as a Microsoft Exchange mailbox on this domain. Try a different email address.
 
     A confirmation message will appear with the banner **Email Address Renamed!**, displaying the old email address and the new email address.
 
-    <img src="success-message.png" />
+    ![](success-message.png" />
 
 6. Click **OK**.
 

@@ -64,7 +64,7 @@ shown in the following example:
 Comment out the line or lines that begin with `/dev/xvdb1` (which are circled in the following image)
 in **/etc/fstab** to prevent the volume from trying to mount on the next boot:
 
-<img src="picture1.png" />
+![](picture1.png" />
 
 Run the `umount` command, using the `Mounted on` volume that you noted from
 the output of the `df -h` that you used earlier, as shown in the following

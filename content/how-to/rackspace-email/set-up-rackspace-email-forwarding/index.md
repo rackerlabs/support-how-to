@@ -42,7 +42,7 @@ Use the following steps to forward email from your Rackspace Email address to an
 
 7. Enter the email address to which you want to forward email in the **Forward to** field.
 
-   <img src="ForwardRSEWebmailSC2.png" />
+   ![](ForwardRSEWebmailSC2.png" />
 
 8. Click **Save**.
 
@@ -55,7 +55,7 @@ Use the following steps to forward email from your Rackspace Email address to an
 3. Select the domain that contains the mailbox that you want to forward.
 4. From the mailbox list, click the blue highlighted mailbox name that you want to forward.
 
-   <img src="ForwardRSEcontrolpanelSC2.png" />
+   ![](ForwardRSEcontrolpanelSC2.png" />
 
 5. Click the **Forwarding/Auto-Reply** tab.
 6. Check the box for **Forward email to**.
@@ -63,7 +63,7 @@ Use the following steps to forward email from your Rackspace Email address to an
    A. In the field under **Forward email to**, type in the email address to which you want to forward email.
    B. Check the box for **Save copies of forwarded email**.
 
-   <img src="ForwardRSEcontrolpanelSC3.png" />
+   ![](ForwardRSEcontrolpanelSC3.png" />
 
    **Warning:** If **Save a copy of forwarded email** is not checked, this mailbox will *not* store any messages sent to it.
 

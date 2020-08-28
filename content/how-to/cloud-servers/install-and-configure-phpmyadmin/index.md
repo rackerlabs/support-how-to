@@ -237,7 +237,7 @@ expected by using the following command:
 You should now be able to view phpMyAdmin through a web browser, as shown
 in the following image:
 
-<img src="phpmyadmin-browser.png" />
+![](phpmyadmin-browser.png" />
 
 #### NGINX web server
 
@@ -313,7 +313,7 @@ expected by using the following command:
 You should now be able to view phpMyAdmin through a web browser, as shown
 in the following image:
 
-<img src="phpmyadmin-browser.png" />
+![](phpmyadmin-browser.png" />
 
 ### Configure phpMyAdmin on the Ubuntu operating system
 
@@ -331,7 +331,7 @@ you can do by running the following command:
 After installing phpMyAdmin, the package configuration screen displays, as
 shown in the following image.
 
-<img src="phpmyadmin-package-configuration-select-apache2.png" />
+![](phpmyadmin-package-configuration-select-apache2.png" />
 
 Use the space bar to select **apache2**, press **Tab** to select
 **Ok**, and then press **Enter**.
@@ -468,14 +468,14 @@ expected by running the following command:
 You should now be able to view phpMyAdmin through a web browser, as shown
 in the following image:
 
-<img src="phpmyadmin-browser.png" />
+![](phpmyadmin-browser.png" />
 
 #### NGINX web server
 
 After installing phpMyAdmin, the package configuration screen displays, as
 shown in the following image:
 
-<img src="phpmyadmin-package-configuration-select-apache2.png" />
+![](phpmyadmin-package-configuration-select-apache2.png" />
 
 Use the space bar to select **apache2**, press **Tab** to select
 **Ok**, and then press **Enter**.
@@ -565,7 +565,7 @@ expected by running the following command:
 You should now be able to view phpMyAdmin through a web browser, as shown
 in the following image:
 
-<img src="phpmyadmin-browser.png" />
+![](phpmyadmin-browser.png" />
 
 ### Configure additional security (optional)
 

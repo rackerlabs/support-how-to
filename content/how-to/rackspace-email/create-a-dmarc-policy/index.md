@@ -30,7 +30,7 @@ This article shows how to create a DMARC policy to use with Cloud Office.
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-If you prefer a video tutorial, please see [Rackspace Email - DMARC / DKIM: What It Is & How to Setup <img src="dmarc_thumb.png" />](https://emailhelp.rackspace.com/l/dmarc-dkim-records-setup).
+If you prefer a video tutorial, please see [Rackspace Email - DMARC / DKIM: What It Is & How to Setup ![](dmarc_thumb.png" />](https://emailhelp.rackspace.com/l/dmarc-dkim-records-setup).
 
 **DMARC** enforces **SPF** and **DKIM**. DMARC is useful only if you have already set up SPF
 and DKIM records. Before creating your DMARC policy, you must first [**create an SPF record policy**](/support/how-to/create-an-spf-policy), then [**create a DKIM record**](/support/how-to/enable-dkim-in-the-cloud-office-control-panel), and lastly create a DMARC record policy.

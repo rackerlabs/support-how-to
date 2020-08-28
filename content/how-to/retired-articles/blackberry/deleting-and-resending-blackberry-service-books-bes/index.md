@@ -42,11 +42,11 @@ resend them to the device by using the Cloud Office Control Panel:
 1. Mouse over the **Go to section** drop-down menu and select
    **Microsoft Exchange**.
 
-   <img src="eaDeleting&ResendingBBServiceBooks1.png" alt="" />
+   ![](eaDeleting&ResendingBBServiceBooks1.png" alt="" />
 
 2. In the **Email Accounts** section, click the **Mobile Messaging** link.
 
-   <img src="eaDeleting&ResendingBBServiceBooks2.png" alt="" />
+   ![](eaDeleting&ResendingBBServiceBooks2.png" alt="" />
 
 3. If you have multiple domains, select the appropriate domain name.
 
@@ -58,7 +58,7 @@ resend them to the device by using the Cloud Office Control Panel:
 
 6. Under **Resend Service Books**, click the **Send to Device** button.
 
-   <img src="eaDeleting&ResendingBBServiceBooks3.png" alt="" />
+   ![](eaDeleting&ResendingBBServiceBooks3.png" alt="" />
 
 After you resend the service books, you can confirm that they have been received by going
 back to the **Options** section of the user's BlackBerry as described above.

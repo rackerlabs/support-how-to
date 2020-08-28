@@ -19,7 +19,7 @@ this article to add an ActiveSync or BES license.
 1. Log in to the Cloud Office Control Panel and select **Go to section** ->
    **Microsoft Exchange**.
 
-   <img src="(EA)ActivesyncBES.png" alt="" />
+   ![]((EA)ActivesyncBES.png" alt="" />
 
    **Note**: The Cloud Office Control Panel that you access depends on the
    region in which the service was started.
@@ -35,13 +35,13 @@ this article to add an ActiveSync or BES license.
 2. In the Exchange **Email Accounts** section, select **Other Services** -> **Mobile
    Messaging**.
 
-   <img src="(EA)ActivesyncBes2.png" alt="" />
+   ![]((EA)ActivesyncBes2.png" alt="" />
 
 3. Select **View Users** for either **Blackberry** or **Activesync
    (iPhone, Android, Windows Mobile)**, depending on your device, and
    then click **Add**.
 
-   <img src="(EA)ActivesyncBes3.png" alt="" />
+   ![]((EA)ActivesyncBes3.png" alt="" />
 
 4. Select the user to whom you are assigning the license.
 
@@ -52,13 +52,13 @@ this article to add an ActiveSync or BES license.
      4-digit activation pin under **Activation Password**, and click
      **Save**.
 
-     <img src="(EA)ActivesyncBes5.png" alt="" />
+     ![]((EA)ActivesyncBes5.png" alt="" />
 
    - If you're adding an Activesync license, select the user to whom
      you are assigning the license from the **Eligible Users in this Domain**
      window, click **Add** in the middle, and then click **Save**.
 
-     <img src="(EA)ActivesyncBes6.png" alt="" />
+     ![]((EA)ActivesyncBes6.png" alt="" />
 
      **Note**: After you've assigned your licenses, allow 10 minutes for
      them to fully propagate.

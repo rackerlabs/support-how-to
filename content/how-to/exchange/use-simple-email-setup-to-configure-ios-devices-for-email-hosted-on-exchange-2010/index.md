@@ -24,7 +24,7 @@ using, contact your administrator.
    [connect.emailsrvr.com](https://connect.emailsrvr.com) with your email
    address and password.
 
-   <img src="1_0.png" class="image-half_width" />
+   ![](1_0.png" class="image-half_width" />
 
 2. In the top right hand corner, select **Options** and then select
    **See All Options**.
@@ -32,13 +32,13 @@ using, contact your administrator.
    On the next screen, select **Setup your iPhone**
    under **Shortcuts to things you can do**
 
-   <img src="2_1.png" width="210" height="241" />
-   <img src="3_1.png" width="306" height="220" />
+   ![](2_1.png" width="210" height="241" />
+   ![](3_1.png" width="306" height="220" />
 
 3. On the next screen, fill in the fields that apply to you
    and select **Send**.
 
-   <img src="4_1.png" class="image-full_width" />
+   ![](4_1.png" class="image-full_width" />
 
 4. You'll receive a text message with a link.
    Click that link.
@@ -47,9 +47,9 @@ using, contact your administrator.
 
    On the next screen, enter the password for your email address.
 
-   <img src="iPhone1.png" class="image-quarter_width" />
-   <img src="iPhone2.png" class="image-quarter_width" />
-   <img src="iPhone4.png" class="image-quarter_width" />
+   ![](iPhone1.png" class="image-quarter_width" />
+   ![](iPhone2.png" class="image-quarter_width" />
+   ![](iPhone4.png" class="image-quarter_width" />
 
    **Note:** if you have the passcode protection on your phone, you may
    receive a passcode notification to confirm the installation.
@@ -63,7 +63,7 @@ using, contact your administrator.
    from the server on your phone. The time required for this process can vary
    depending on your connection speed and how many days of mail is syncing.
 
-   <img src="iPhone5.png" class="image-quarter_width" />
+   ![](iPhone5.png" class="image-quarter_width" />
 
 ### Remove email account from iPhone
 
@@ -76,8 +76,8 @@ iPhone, follow the steps below:
 2. On the next screen, select **Remove**. Select **Remove** again on the
    confirmation screen.
 
-   <img src="iPhone6.png" class="image-quarter_width" />
-   <img src="iPhone7.png" class="image-quarter_width" />
+   ![](iPhone6.png" class="image-quarter_width" />
+   ![](iPhone7.png" class="image-quarter_width" />
 
 **Note:** if you have passcode protection on your phone, you may
 receive a passcode notification to confirm the removal of your account.

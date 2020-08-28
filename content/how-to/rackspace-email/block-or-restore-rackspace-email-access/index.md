@@ -31,16 +31,16 @@ Blocking access to a mailbox prevents users from logging into that mailbox. You 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") by using your Rackspace Cloud Office admin ID and password.
 2. In the **Rackspace Email** section, click **Mailboxes**.
 
-   <img src="add-mailbox-sc1.png" />
+   ![](add-mailbox-sc1.png" />
 
 3. If you have multiple domains, select the domain for the mailbox to which you intend to block access.
 4. Next, you see a list of your mailboxes. In the far-right column, **Action**, click **Block Access** to block access to the corresponding mailbox in that row.
 
-   <img src="list_block_access.png" />
+   ![](list_block_access.png" />
 
 5. A message displays confirming that you want to block access. Read the message, and then click **YES, BLOCK ACCESS**.
 
-   <img src="block_pop_up.png" />
+   ![](block_pop_up.png" />
 
 The mailbox is then greyed out in the mailbox list. You have now blocked users from accessing that mailbox.
 
@@ -49,15 +49,15 @@ The mailbox is then greyed out in the mailbox list. You have now blocked users f
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") by using your Rackspace Cloud Office admin ID and password.
 2. In the **Rackspace Email** section, click **Mailboxes**.
 
-   <img src="add-mailbox-sc1.png" />
+   ![](add-mailbox-sc1.png" />
 
 3. If you have multiple domains, select the domain for the mailbox to which you intend to restore access.
 4. Next, you see a list of your mailboxes. In the far right column **Action**, click **Restore Access** to restore access to the corresponding mailbox in that row.
 
-    <img src="restore_access.png" />
+    ![](restore_access.png" />
 
 5. A message displays confirming that you want to restore access. Read the message and click **YES, RESTORE ACCESS**.
 
-    <img src="restore_pop_up.png" />
+    ![](restore_pop_up.png" />
 
 The mailbox is no longer greyed out in the mailbox list. Users can now access that mailbox.

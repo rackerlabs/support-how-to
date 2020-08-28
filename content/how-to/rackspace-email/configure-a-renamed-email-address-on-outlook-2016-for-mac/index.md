@@ -31,21 +31,21 @@ For more information about prerequisite terminology, see [Cloud Office support t
 3. Highlight **Outlook 2016** in the application menu, and right-click the icon.
 4. Click **Show Package Contents**.
 
-    <img src="show-pack-contents.png" />
+    ![](show-pack-contents.png" />
 
 5. Click the **Contents** folder, and then click the **SharedSupport** folder.
 
-    <img src="shared-support.png" />
+    ![](shared-support.png" />
 
 6. Open **Outlook Profile Manager** to view the list of existing profiles. Click the **+** sign to add a new profile, and name the new profile. Highlight the new profile, click the gear icon, and select **Set as Default**.
 
-    <img src="profile-manager.png" />
+    ![](profile-manager.png" />
 
 7. Close **Outlook Profile Manager**, and open **Outlook 2016** so that you can set up your email in the new profile.
 
 8. When prompted, enter the renamed email address, and click **Continue**.
 
-    <img src="OL16mac-setup-SC1.png" />
+    ![](OL16mac-setup-SC1.png" />
 
     Note: If Outlook 2016 defaults to selecting Exchange as the account type, select **Not Exchange?** in the upper-right corner.
 
@@ -64,7 +64,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
       - **Port:** 465
       - **Use SSL to connect:** Selected
 
-    <img src="OL16mac-setup-SC2.png" />
+    ![](OL16mac-setup-SC2.png" />
 
 10. Click **Add Account**, and click **Done**.
 

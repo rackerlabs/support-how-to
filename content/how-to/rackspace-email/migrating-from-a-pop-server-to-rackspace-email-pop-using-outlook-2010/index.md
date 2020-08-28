@@ -52,7 +52,7 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
     **secure.emailsrvr.com** for the incoming and outgoing mail servers,
     and your user name and password.
 
-    <img src="settings_screencopy_1.jpg" width="339" height="312" />
+    ![](settings_screencopy_1.jpg" width="339" height="312" />
 
     Select the **Remember Password** check box if you don't want to type your
     password each time you launch Outlook.
@@ -71,7 +71,7 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
 9.  Set the incoming server port to **995** and the outgoing server port to
     **465**, and enable SSL encryption.
 
-    <img src="Portscopy_0.jpg" width="368" height="273" />
+    ![](Portscopy_0.jpg" width="368" height="273" />
 
 10. If you want to leave copies of email messages on the
     server, select the **Leave a copy of messages on server** check box.
@@ -91,4 +91,4 @@ while using the same Inbox in Outlook.
 After the change, your email will look very similar to your previous
 setup.
 
-<img src="2013-11-27_1232.png" width="435" height="600" />
+![](2013-11-27_1232.png" width="435" height="600" />

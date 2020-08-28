@@ -44,14 +44,14 @@ RackConnect configuration:
     Accounts**. From that screen, you can either link an existing
     account or sign up for a new account.
 
-    [<img src="MyRack_Link_Cloud_Account.png" width="650" />](MyRack_Link_Cloud_Account.png)
+    [![](MyRack_Link_Cloud_Account.png" width="650" />](MyRack_Link_Cloud_Account.png)
 
 2.  After you have linked an account, you can click the plus
     sign (+) at the right of the account's row to associate the
     account with one of your RackConnect configurations. In most
     cases, you have only one RackConnect configuration.
 
-    [<img src="MyRack_Associate_with_RC.png" width="650" />](MyRack_Associate_with_RC.png)
+    [![](MyRack_Associate_with_RC.png" width="650" />](MyRack_Associate_with_RC.png)
 
 3.  After establishing the association, Rackspace begins the process of
     validating the provisioning region for both Cloud Servers and Cloud

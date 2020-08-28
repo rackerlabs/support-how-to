@@ -61,11 +61,11 @@ server, read the following description of the process:
 
 **Traffic flow between dedicated and cloud servers: RackConnect Firewall**
 
-<img src="RC.Traffic.Flow_.png" class="image-full_width" />
+![](RC.Traffic.Flow_.png" class="image-full_width" />
 
 **Traffic flow between dedicated and cloud servers: RackConnect Load Balancer**
 
-<img src="RC.Traffic.Flow_.LB_.png" class="image-full_width" />
+![](RC.Traffic.Flow_.LB_.png" class="image-full_width" />
 
 ### Cautions
 

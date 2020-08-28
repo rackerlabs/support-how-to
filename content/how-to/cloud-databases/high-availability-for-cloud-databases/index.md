@@ -65,7 +65,7 @@ by using a virtual IP (VIP). Figure 1 provides an overview of a Cloud Databases
 HA setup.
 
 **Figure 1. Cloud Databases HA setup**
-<img src="HighAvailabilityforCloudDatabases1b.png" width="600" />
+![](HighAvailabilityforCloudDatabases1b.png" width="600" />
 
 The MHA Manager lives within the source HAProxy node and monitors the
 source database instance. If the source database instance becomes

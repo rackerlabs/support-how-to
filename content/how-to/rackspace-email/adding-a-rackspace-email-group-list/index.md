@@ -29,22 +29,22 @@ A group list is a great way to manage users in a select team or group on your do
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 2. In the Rackspace Email section, click **Group Lists**.
 
-    <img src="group_lists_CP1.png" />
+    ![](group_lists_CP1.png" />
 
 3. On the Group Lists page, click **Add Group List**.
 
-    <img src="add_group_list.png" />
+    ![](add_group_list.png" />
 
 4. Enter in an email address for your group list, enter a subject tag, and select a list type. You can choose to send replies to the sender only or send replies to the entire group list.
 
-    <img src="example_list.png" />
+    ![](example_list.png" />
 
 5. Select the recipients to include in the group list. You can add recipients outside your domain.
 
-    <img src="recipients.png" />
+    ![](recipients.png" />
 
 6. Select who will be authorized to send email to this group list.
 
-    <img src="authsenders.png" />
+    ![](authsenders.png" />
 
 7. Click **Save**.

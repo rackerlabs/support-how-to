@@ -37,9 +37,9 @@ see [Getting Started With Rackspace Monitoring](/support/how-to/cloud-monitoring
 To download the Rackspace cloud app for mobile devices, click the
 following link for your device:
 
-[<img src="Download_on_the_App_Store_Badge_US-UK.png" width="203" height="60" />](https://itunes.apple.com/us/app/rackspace-cloud-control/id672443103?mt=8)
+[![](Download_on_the_App_Store_Badge_US-UK.png" width="203" height="60" />](https://itunes.apple.com/us/app/rackspace-cloud-control/id672443103?mt=8)
 
-[<img src="en_app_rgb_wo_60.png" width="172" height="60" />](https://play.google.com/store/apps/details?id=com.rackspace.cloudmobile)
+[![](en_app_rgb_wo_60.png" width="172" height="60" />](https://play.google.com/store/apps/details?id=com.rackspace.cloudmobile)
 
 ### Open the monitoring screen
 
@@ -71,7 +71,7 @@ In the following example, the Remote Ping check has a problem.  Click on
 the check to expand the view and see a graph of data over time. You can
 swipe to view multiple graphs.
 
-<img src="newMonitoringDetails.png" width="498" height="678" />
+![](newMonitoringDetails.png" width="498" height="678" />
 
 ### View errors
 

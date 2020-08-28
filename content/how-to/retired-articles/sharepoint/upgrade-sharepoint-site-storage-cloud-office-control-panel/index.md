@@ -17,11 +17,11 @@ To upgrade SharePoint storage, [log in to the Cloud Office Control Panel](https:
 
 1. At the top of the page, click the **Add Storage** link under **Microsoft SharePoint**.
 
-    <img src="SharePoint1.3.png" width="488" height="113" />
+    ![](SharePoint1.3.png" width="488" height="113" />
 
 2. In the **Quantity** field, enter the integer amount of additional storage that you want. Your current monthly rate, your new monthly rate, and the prorated charges display in the **Summary** section.
 
-    <img src="SharePoint2.3.png" width="692" height="317" />
+    ![](SharePoint2.3.png" width="692" height="317" />
 
 3. Click **Review Order**.
 

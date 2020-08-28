@@ -29,12 +29,12 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 2. In the Rackspace Email section, click Mailboxes. 
 
-   <img src="add-mailbox-sc1.png" />
+   ![](add-mailbox-sc1.png" />
    
 3. If you have multiple domains, select the domain to which you want to add a mailbox.
 4. Click **Add Mailbox**.
 
-    <img src="add-mailbox-sc2.png" />
+    ![](add-mailbox-sc2.png" />
     
     **Note:** If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
      
@@ -66,12 +66,12 @@ The mailbox appears in the mailboxes list. To manage additional features for the
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") using your Rackspace Cloud Office admin ID and password.
 2. In the Rackspace Email section, click **Mailboxes**. 
 
-    <img src="add-mailbox-sc1.png" />
+    ![](add-mailbox-sc1.png" />
     
 3. If you have multiple domains, select the domain to which you want to add a mailbox.
 4. Click **Add/Edit Multiple Mailboxes**.
 
-    <img src="add-multi-mailboxes.png" />
+    ![](add-multi-mailboxes.png" />
     
     **Note:** If the **Add/Edit Multiple Mailboxes** button is unavailable, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
     
@@ -100,11 +100,11 @@ If the buttons to add one or more mailboxes are unavailable, you must add the ne
 
 1. Click the **Upgrade this plan** link.
 
-    <img src="add-rse-license-sc1.png" />
+    ![](add-rse-license-sc1.png" />
     
 2. Under **Rackspace Email Mailboxes**, add the number of mailboxes that you want to make available to your account.
 
-    <img src="add-rse-license-sc2.png" />
+    ![](add-rse-license-sc2.png" />
     
 3. Click **Continue**.
 4. If the order summary looks correct, click **Complete Order**.

@@ -40,7 +40,7 @@ For more information about how to view, modify, add, and delete access-lists, se
 
 3. Under **Rules**, click **All Rules**.
 
-    <img src="image-rules.png" />
+    ![](image-rules.png" />
 
 4. The **Rules** page shows the rules for the access-list on the selected tab. To view the rules for a different access-list, click that access-list's tab.
 

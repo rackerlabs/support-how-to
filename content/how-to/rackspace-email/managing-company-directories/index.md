@@ -32,11 +32,11 @@ the following steps:
 
 1.  Click **Rackspace Email**.
 
-    <img src="rackspace_email.png" />
+    ![](rackspace_email.png" />
 
 2.  Click the **Webmail** tab in the ribbon at the top of the screen.
 
-    <img src="webmail.png" />
+    ![](webmail.png" />
 
 From here, you can add, edit, or delete an alias. See the following instructions specific to the action you want to take.
 
@@ -44,7 +44,7 @@ From here, you can add, edit, or delete an alias. See the following instructions
 
 1. While viewing the **Company Directory** list, click the name of the directory that you want to edit. If you are creating a new directory, click **Add Directory**.
 
-   <img src="add_directory.png" />
+   ![](add_directory.png" />
 
 
 2. Enter or change the following information as needed.
@@ -62,11 +62,11 @@ From here, you can add, edit, or delete an alias. See the following instructions
 
    - To add mailboxes that are outside your domain, type their email addresses in the **Add Members outside this Domain** box and click **Add**. Then, click on the newly listed email address and click on **Edit Contact Info**. Enter additional information as needed in the new window, and then click **Ok**.
 
-     <img src="add_domain.png" />
+     ![](add_domain.png" />
 
 3. Click **Save**.
 
-   <img src="directory_added.png" />
+   ![](directory_added.png" />
 
 ### Delete a company directory
 

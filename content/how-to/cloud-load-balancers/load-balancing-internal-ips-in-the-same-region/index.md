@@ -26,7 +26,7 @@ The following screenshot shows the three IP address in the **Server Details**
 section for a server named "Zippy" in the
 [Cloud Control Panel](https://login.rackspace.com):
 
-<img src="IPs.png" alt="Server Details" />
+![](IPs.png" alt="Server Details" />
 
 ### Use regions and the Rackspace Network to manage bandwidth charges
 

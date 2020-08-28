@@ -30,13 +30,13 @@ steps:
 
 1. In the top right-hand corner of the page, click your admin ID name or account number and select **Billing & Payments** from the drop-down menu.
 
-    <img src="admindropmenu.png" />
+    ![](admindropmenu.png" />
 
 2. On the **Billing & Payments** tab, click **Invoices**.
 
    A list of invoices displays with the amount of each invoice and a brief description.
 
-   <img src="invoices.png" />
+   ![](invoices.png" />
 
 3. Click an invoice number to view a detailed invoice.
 

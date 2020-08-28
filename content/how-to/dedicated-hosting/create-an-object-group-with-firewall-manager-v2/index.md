@@ -35,11 +35,11 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 4. Under **Rules** in the navigation pane, click **IP Groups**.
 
-    <img src="ip-groups.png" />
+    ![](ip-groups.png" />
 
 5. Under the **IP Groups** label, click **Add Group**. The **Add Group** page is displayed.
 
-    <img src="add-object-group.png" />
+    ![](add-object-group.png" />
 
 6. In the **Group Name** field, type the name of the object-group.
 
