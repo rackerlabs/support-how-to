@@ -42,7 +42,7 @@ NAT.
 For a comprehensive guide to configuring NAT on the Vyatta appliance,
 click [here](https://54712289bdd910def82d-5cc7866f7aae0a382278b5bce7412a4a.ssl.cf1.rackcdn.com/Vyatta-NAT_6.5R1_v01.pdf).
 
-<img src="FirewallFrontendingWebApp.png" width="563" height="283" />
+![](FirewallFrontendingWebApp.png)
 
 ### Configure an Outbound NAT Rule
 

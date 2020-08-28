@@ -28,24 +28,24 @@ If you need to export or import email address data from a different Outlook vers
 
 1. In Outlook 2011, click **File > Export** from the top navigation bar.
 
-   <img src="file_export2011.png" />
+   ![](file_export2011.png)
    
    The Export window displays.
 
 2. In the Export window, select **Outlook for Mac Data File(.olm)**, and then check off all of the items that you want to export. Click the right arrow in the lower right corner to continue.
 
-    <img src="items_export2011.png" />
+    ![](items_export2011.png)
 
 3. A dialog window appears asking if you want to delete items from Outlook after exporting. We do not recommend deleting anything. Select **No, do not delete items** and click the right arrow in the lower right corner to continue.
 
-    <img src="delete_export2011.png" />
+    ![](delete_export2011.png)
 
 4. Enter a name for the file, and then click the expand arrow to choose a location in which to save the file.
 
-    <img src="save_as2011.png" />
+    ![](save_as2011.png)
 
 5. A box will appear with the message **Outlook has finished exporting your data.**. Click **Done**.
 
-    <img src="export_complete2011.png" />
+    ![](export_complete2011.png)
 
 If you need to import email address data into Outlook 2011 for Mac, see [Import email address data into Outlook 2011 for Mac](/support/how-to/import-email-address-data-into-outlook-2011-for-mac).

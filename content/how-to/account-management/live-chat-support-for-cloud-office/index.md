@@ -21,12 +21,12 @@ This article provides steps on how to request live chat Support for Cloud Office
 
 2. Click the **Products** drop-down menu.
 
-    <img src="screenshot1.png" />
+    ![](screenshot1.png)
 
 3. Select **Cloud Office** from the menu.
 
 
-    <img src="screenshot2.png" />
+    ![](screenshot2.png)
 
 4. You are taken to a new page where you click the black button on the left side labeled
    **Open Cloud Office Control Panel**.
@@ -36,4 +36,4 @@ This article provides steps on how to request live chat Support for Cloud Office
    **Live Chat** in the upper-right corner of the screen to begin a support chat session
    with a Cloud Office email expert.
 
-    <img src="screenshot4.png"/>
+    ![](screenshot4.png)

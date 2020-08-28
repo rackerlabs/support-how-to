@@ -27,7 +27,7 @@ Microsoft Outlook 2013 email client.
 3. With these settings recorded, navigate to the
    **Start Menu -&gt; Control Panel -&gt; Mail**.
 
-   <img src="1.ControlPanelMail_0.png" width="921" height="586" />
+   ![](1.ControlPanelMail_0.png)
 
 4. Select **Show Profiles...** then **Add**. Fill in the Profile's Name
    (this can be whatever you like), and select **OK**.
@@ -36,7 +36,7 @@ Microsoft Outlook 2013 email client.
    additional server types**, then select
    **Next**.
 
-   <img src="2.AddAccount07.png" width="700" height="497" />
+   ![](2.AddAccount07.png)
 
 6. Select **Microsoft Exchange Server or compatible service**, then
    select **Next**.
@@ -45,14 +45,14 @@ Microsoft Outlook 2013 email client.
    your server name and user name. After you fill in those fields,
    select **More Settings...**.
 
-   <img src="3.ServerSettings_0.png" width="694" height="491" />
+   ![](3.ServerSettings_0.png)
 
 8. On the **Connection** tab check the **Connect to Microsoft Exchange using
    HTTP** box, select **Exchange Proxy Settings...**, and click **OK.**
 
    Click **Apply** and **OK** on the resulting screen.
 
-   <img src="4.ProxySettings_0.png" width="483" height="411" />
+   ![](4.ProxySettings_0.png)
 
 9. On the **Add Account** screen, click **Check Name**.
 
@@ -66,4 +66,4 @@ Microsoft Outlook 2013 email client.
 
    Click **Next** and click **Finish**.
 
-   <img src="5.Checkname.png" width="694" height="491" />
+   ![](5.Checkname.png)

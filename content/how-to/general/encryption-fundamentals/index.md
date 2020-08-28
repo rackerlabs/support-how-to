@@ -569,7 +569,7 @@ add their secret color into the other person's mix to generate a new color
 (their shared private key). Here's an example illustration of this process
 provided by Wikipedia. <sup>[4](#4)</sup>
 
-<img src="color-key-exchange.svg" width="427" height="641" />
+![](color-key-exchange.svg)
 
 #### Diffie-Hellmann Key Exchange
 

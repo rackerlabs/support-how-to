@@ -39,6 +39,6 @@ archived mail.
 
    c.  Click **OK**.
 
-   <img src="IntegrateArchivingwithOutlook1A.png" width="401" height="533" />
+   ![](IntegrateArchivingwithOutlook1A.png)
 
 7. Open your newly integrated Microsoft Outlook folder. You should now be directly connected to your personal archive.

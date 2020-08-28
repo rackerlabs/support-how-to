@@ -32,7 +32,7 @@ Use the following steps to add a domain:
 5.  In the pop-up window, and enter the domain name, email address, and time to
     live (TTL), as shown in the following example:
 
-    <img src="2.png" alt="" />
+    ![](2.png)
 
     **Note**: Time to live indicates how long a DNS record is cached before it's updated.
 
@@ -54,7 +54,7 @@ Use the following steps to add an A record for your domain:
     Select **A/AAAA Record** for the type, and fill out the fields shown in
     the following image:
 
-    <img src="3.png" alt="" />
+    ![](3.png)
 
 5.  When you're finished entering information, click **Add Record**.
 
@@ -72,7 +72,7 @@ Use the following steps to add a CNAME record for your domain:
     **CNAME Record** for the type, and fill out the fields shown in the
     following image:
 
-    <img src="4.png" alt="" />
+    ![](4.png)
 
 5.  When you're finished entering information, click **Add Record**.
 
@@ -90,7 +90,7 @@ Use the following steps to add an MX record for your domain:
     **MX Record** for the type, and fill out the fields shown in the following
     image:
 
-    <img src="5.png" alt="" />
+    ![](5.png)
 
 5.  When you're finished entering information, click **Add Record**.
 
@@ -107,7 +107,7 @@ Use the following steps to delete a record from your domain:
 4.  Click the gear icon next to the desired domain, and then click **Delete
     Record**, as shown in the following image:
 
-    <img src="6.png" alt="" />
+    ![](6.png)
 
 ### Delete a domain
 
@@ -122,7 +122,7 @@ Use the following steps to delete a record for a domain:
 4.  Click the gear icon next to the desired domain, and then click **Delete
     Domain**, as shown in the following image:
 
-    <img src="7.png" alt="" />
+    ![](7.png)
 
 ### Canonical DNS servers for Cloud Servers
 

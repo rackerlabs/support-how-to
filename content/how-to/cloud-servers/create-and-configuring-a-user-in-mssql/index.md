@@ -27,7 +27,7 @@ Use the following steps to create and configure a user in MSSQL&reg;:
    enforcement options for password policy and expiration as well as whether or not the user
    needs to change their password when they log in.
 
-   <img src="ssmsnewlogin1.PNG" alt="ssmsnewlogin1.PNG" />
+   ![](ssmsnewlogin1.PNG)
 
 6. In the left-hand panel, click **Server Roles** to assign any server roles you want
    this user to have, including **bulkadmin**, **dbcreator**, **public**, and so on.
@@ -44,7 +44,7 @@ Use the following steps to create and configure a user in MSSQL&reg;:
    securable, and **Deny** expressly denies permission to the securable no matter what roles or
    permissions the user might have.
 
-   <img src="ssmsnewlogin3.PNG" alt="ssmsnewlogin3.PNG" />
+   ![](ssmsnewlogin3.PNG)
 
 9. In the left-hand panel, click **Status** to grant or deny permission to the database engine,
    enable or disable the login, and to unlock the account should it get

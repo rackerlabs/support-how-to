@@ -36,17 +36,17 @@ If you would prefer a video tutorial see [Email Help - Blacklisting / Safelistin
 
 2. Click your email address in the upper right-hand corner, and select **Settings** from the menu.
 
-    <img src="blacklist_settings.png"/>
+    ![](blacklist_settings.png)
 
 3. Click **Spam Settings** on the left side of the pop-up box, and the select the **Blacklist** tab.
 
-    <img src="spam_settings.png"/>
+    ![](spam_settings.png)
 
 4. In the **Blacklisted Domains & Email Addresses** box, click **Add**.
 
 5. When prompted to **Add Blacklisted Domain or Email Address**, enter the domain or email address that you want to blacklist in the field under **Enter a domain or email address**, and then click **Add**.
 
-    <img src="add_blacklist.png"/>
+    ![](add_blacklist.png)
 
 6. Confirm that the address is now listed in the box under **Blacklisted Domains & Email Addresses**, and click **Save**.
 
@@ -58,6 +58,6 @@ If you need to blacklist an IP address, follow steps 1-3 in the preceding sectio
 
 2. When prompted to **Add Blacklisted IP Address**, enter the IP address you want to blacklist in the field under **Enter an IP address(or range)**, and then click **Add**.
 
-    <img src="add_ip.png"/>
+    ![](add_ip.png)
 
 3. Confirm that the address is now listed in the box under **Blacklisted Domains & Email Addresses**, and click **Save**.

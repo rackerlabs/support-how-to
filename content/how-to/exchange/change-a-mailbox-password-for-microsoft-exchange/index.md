@@ -34,7 +34,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    **Note:** We recommend that you create a password that you have never used before and that remains unique from all your other passwords. Review [Password Management and Best Practices](/support/how-to/password-management-and-best-practices) for guidance on password creation.
 
-   <img src="UserpasswordResetCPSC2.png" />
+   ![](UserpasswordResetCPSC2.png)
 
 3. Click **Change**.
 

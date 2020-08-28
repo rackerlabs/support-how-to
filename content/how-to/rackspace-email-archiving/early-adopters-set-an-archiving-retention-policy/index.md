@@ -34,26 +34,26 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Scroll down to the **Domains** section. In the far-right column of this section, click **Email Archiving**.
 
-   <img src="domains_archive.png" />
+   ![](domains_archive.png)
 
 3. Select the domain for which you want to enable a retention policy, and then click **Manage My Archive**.
 
    The dashboard for the domain's archive displays.
 
-   <img src="manage_archive.png" />
+   ![](manage_archive.png)
 
 4. In the top-right corner, click the **Gear** icon.
 
 
 5. In the top navigation bar, click **Policies**.
 
-   <img src="Set-an-Archiving-Retention-Policy-1.png" />
+   ![](Set-an-Archiving-Retention-Policy-1.png)
 
 6. After you set the policy, click **Update**.
 
     **Warning:** Items older than the set retention duration are immediately purged from the archive and are unrecoverable.
     Items that later exceed the retention duration are also permanently deleted.
 
-    <img src="Set-an-Archiving-Retention-Policy-2.png" />
+    ![](Set-an-Archiving-Retention-Policy-2.png)
 
     **Note:** To remove a retention policy, uncheck the **Enable retention policy** box and then click **Update**.

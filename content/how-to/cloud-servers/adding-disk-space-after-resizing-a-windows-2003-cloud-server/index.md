@@ -25,7 +25,7 @@ product_url: cloud-servers
 
 4. Right-click on the Unallocated space and choose **New Partition** from the menu.
 
-   <img src="Win2003NewPartition.png" alt="" />
+   ![](Win2003NewPartition.png)
 
 5. The **New Partition Wizard** pop-up dialog box displays. Click **Next** to begin the wizard.
 
@@ -41,7 +41,7 @@ product_url: cloud-servers
 
    You can also assign a name to the partition in the **Volume label** field. Keep the other settings as default and click **Next**.
 
-   <img src="Win2003FormatPartition.png" alt="" />
+   ![](Win2003FormatPartition.png)
 
 10. The summary screen displays, showing the settings you selected for the partition. Click **Back** to make any changes to the partition settings or click **Finish** to finalize and exit the wizard.
 

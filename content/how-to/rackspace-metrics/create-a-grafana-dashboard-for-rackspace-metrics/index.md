@@ -55,7 +55,7 @@ To create a Grafana dashboard, complete the following steps:
      After the template is complete, a details page displays that shows
      information about your custom template, as shown in the following image:
 
-     <img src="grafana-customized-template1.png" width="513"/>
+     ![](grafana-customized-template1.png)
 
 8.  From the **Actions** menu, select **Create Stack from Template**.
 9.  On the **Create Stack** page, enter a name for the stack and then
@@ -75,7 +75,7 @@ When the stack is finished building, the **Status** field changes to
 password, and a Grafana authentication username that you can use to access
 your Grafana dashboard. Ensure that you record this information.
 
-<img src="grafana-metrics-up1.png" width="408"/>
+![](grafana-metrics-up1.png)
 
 ### Use the Grafana dashboard
 
@@ -96,7 +96,7 @@ To access the Grafana dashboard, perform the following steps:
     the JSON code found in the [Rackspace Cloud Orchestration template for
     Grafana](https://github.com/rackspace-orchestration-templates/grafana/blob/master/dashboards/default_dashboard.json).
 
-     <img src="grafana-home-page_0.png" width="432" height="284" />
+     ![](grafana-home-page_0.png)
 
 All of the metrics that Rackspace Monitoring submits display in the following
 format:
@@ -123,7 +123,7 @@ For more information, see the following articles:
 The following screenshot shows where you can locate the entity ID on
 the **Monitoring Details** page:
 
-<img src="grafana-monitoring-details_0.png" alt="" />
+![](grafana-monitoring-details_0.png)
 
 You can also locate the monitoring and check IDs by looking at the
 Rackspace Intelligence URL for a particular check. The following link provides
@@ -148,7 +148,7 @@ complete the following steps:
     instances of `\_rax\_entity\_id\_` in the file with the entity ID of
     your database instance, as shown in the following image:
 
-     <img src="grafana-replace-entty-id1.png" width="639" height="76" />
+     ![](grafana-replace-entty-id1.png)
 
 3.  On the Grafana dashboard, click the folder icon in the top-right corner,
     click **Import > Choose File**, and then upload the file to Grafana.
@@ -156,7 +156,7 @@ complete the following steps:
      The dashboard automatically appears and displays your MySQL database
      instances, as shown in the following image:
 
-     <img src="grafana-mysql-data.png" width="428" height="337" />
+    ![](grafana-mysql-data.png)
 
 #### Use annotation (optional)
 

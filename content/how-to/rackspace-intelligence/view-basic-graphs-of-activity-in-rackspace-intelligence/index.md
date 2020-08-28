@@ -68,4 +68,4 @@ side-by-side in a grid or display them in a linear sequence.
 
 The following example shows a grid layout:
 
-<img src="gridlayout.png" width="765" height="594" />
+![](gridlayout.png)

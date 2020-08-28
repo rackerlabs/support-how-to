@@ -17,7 +17,7 @@ Outlook 2010, complete the following steps:
 1.  In the bottom left corner of the Outlook Navigation Pane, click
     **Calendar** .
 
-    <img src="4094.1a.png" width="213" height="195" />
+    ![](4094.1a.png)
 
     The calendar appears in the Outlook window.
 
@@ -26,14 +26,14 @@ Outlook 2010, complete the following steps:
 
 3.  In the menu, click **Share** &gt; **Share Calendar**.
 
-    <img src="4094.2a.png" width="601" height="528" />
+    ![](4094.2a.png)
 
 4.  In the Sharing invitation window that opens, enter the name of the person
     with whom you want to share your calendar in the **To:** field. Then
     choose the level of access that you want to grant the recipient of
     this sharing invitation.
 
-    <img src="4094.3b.png" width="561" height="374" />
+    ![](4094.3b.png)
 
 5.  Click **Send**.
     The recipient will receive a sharing invitation with a link that

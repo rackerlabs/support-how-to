@@ -50,7 +50,7 @@ After you log in with a mailbox that is enabled for Skype for Business, you can
 find the DNS settings through the [Help Tool](https://emailhelp.rackspace.com/)
 as shown in the following image.
 
-<img src="SkypeforBusinessa.png" width="656" height="261" />
+![](SkypeforBusinessa.png)
 
 If you know exactly which Exchange environment your domain is hosted on, you can
 locate your specific records in the tables below.

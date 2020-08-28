@@ -135,7 +135,7 @@ and select **Shared Rackspace Domain Certificate** in **Choose
 Certificate Type**. For more information, see [Create a Rackspace CDN
 service](/support/how-to/create-a-rackspace-cdn-service).
 
-<img src="ScreenShot2015-12-17at9.49.51AM.png" width="665" height="548" />
+![](ScreenShot2015-12-17at9.49.51AM.png)
 
 In the **Domain Name** field, enter the domain that you want to use in the
 shared domain URL. This name must be unique across all Rackspace CDN
@@ -166,14 +166,14 @@ Name** with a subdomain and also enter an **Origin**. Then click **Create
 Service**. For more information, see [Create a Rackspace CDN
 service](/support/how-to/create-a-rackspace-cdn-service).
 
-<img src="ScreenShot2015-12-17at10.28.59AM.png" width="672" height="555" />
+![](ScreenShot2015-12-17at10.28.59AM.png)
 
 When you click **Create Service**, the process is started to create the
 SAN certificate. You can follow the process on the CDN Service
 page in the **Domains** section. In the following example, you see that the **Status** is
 ``Certificate Pending``.
 
-<img src="ScreenShot2015-12-17at10.13.35AM.png" width="622" height="449" />
+![](ScreenShot2015-12-17at10.13.35AM.png)
 
 The CA contacts the administrator of the domain to confirm that Rackspace has the right to 
 add the domain to a shared SAN certificate. The CA uses the domain's WHOIS information to
@@ -219,14 +219,14 @@ deployed, you can request a certificate by clicking the **Request a
 Secure Certificate** link in **CUSTOM SECURE CERTIFICATES** in the
 sidebar, which is shown in the following figure.
 
-<img src="ScreenShot2015-12-17at10.35.08AM.png" width="771" height="531" />
+![](ScreenShot2015-12-17at10.35.08AM.png)
 
 This link routes you to a page to create a ticket. When you request a
 Custom certificate, you need to supply multiple types of information.
 Fill in all bolded items in the **Custom** section of the ticket
 message.
 
-<img src="CustomCertificateTicket.png" width="764" height="447" />
+![](CustomCertificateTicket.png)
 
 After you submit the ticket, a support technician contacts you to
 verify your information and sends your request to a CA to be processed.

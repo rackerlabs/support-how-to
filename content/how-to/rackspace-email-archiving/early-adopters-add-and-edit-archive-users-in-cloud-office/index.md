@@ -80,7 +80,7 @@ Use the following steps to add multiple users to the Archive Manager:
     folder.
 
     **Note**: Enter **TRUE** or **FALSE** in the **Send-welcome-email** column.
-    <img src="add-edit-user-pic.png" />
+    ![](add-edit-user-pic.png)
 
 3.  When you have entered the users, save the **Archive Users**
     worksheet as a CSV file.

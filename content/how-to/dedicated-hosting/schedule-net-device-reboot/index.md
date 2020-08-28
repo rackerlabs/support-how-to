@@ -27,7 +27,7 @@ For more information about the reboot button process, see the [Network device re
 3. On the **Devices** page, click the gear icon next to network device that you
    want to reboot, and select **Schedule Reboot**.
 
-   <img src="schedule-reboot.png" />
+   ![](schedule-reboot.png)
 
 4. On the **Schedule Reboot** page, enter the following information:
 
@@ -37,7 +37,7 @@ For more information about the reboot button process, see the [Network device re
 
      - **HA network devices**: Select only one net device in an HA pair for code version updates. The standby unit will be updated automatically as a part of failover/HA functionality.
 
-   <img src="enter-reboot-info-rev.png" />
+   ![](enter-reboot-info-rev.png)
 
 5. Click **Schedule Reboot**.
 
@@ -48,11 +48,11 @@ For more information about the reboot button process, see the [Network device re
 
    A message displays **Reboot(s) successfully scheduled** at the top of the panel.
 
-   <img src="notification-message.png" />
+   ![](notification-message.png)
 
 You can see details on your scheduled reboots in the **Firewall Reboots** tab.
 If you need to make changes to your scheduled reboot, click **Edit/Cancel** to
 modify an entry. Enter a new date and time, and then click **Save Changes** and
 **OK**.
 
-<img src="edit-reboot.png" />
+![](edit-reboot.png)

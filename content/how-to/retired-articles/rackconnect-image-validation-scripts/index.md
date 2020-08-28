@@ -135,12 +135,12 @@ If there are no issues, script still exits with a zero (successful) exit status.
     When the script has finished gathering data, it displays a results
     report:
 
-    <img src="winpreflight-fail.png" alt=" True" width="354" height="233" />
+    ![](winpreflight-fail.png)
 
 5.  If there are any issues, click the + icon to expand the item and
     display more detail:
 
-    <img src="winpreflight-fail-expanded.png" alt="Preflight results report, Firewall error expanded" width="354" height="255" />
+    ![Preflight results report, Firewall error expanded](winpreflight-fail-expanded.png)
 
 6.  After you resolve any issues, repeat steps 3 and 4 until
     the script reports that all tests have passed with the message **RackConnect ready**.
@@ -155,6 +155,6 @@ To run the script successfully on Windows, you might need to disable Windows Fir
 
 2.  Click the **Windows Firewall Properties** link.
 
-    <img src="winfirewall-overview.png" alt="Windows Firewall overview page; Clicking Windows Firewall Properties" width="550" />
+    ![Windows Firewall overview page; Clicking Windows Firewall Properties](winfirewall-overview.png)
 
 3.  From the Windows Firewall Properties page, disable Windows Firewall for all three profiles. On the **Domain Profile** tab, choose **Off** for the **Firewall state** setting. Do the same for the Public and Private profiles if Windows Firewall is still enabled for either profile.

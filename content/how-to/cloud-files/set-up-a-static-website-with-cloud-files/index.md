@@ -58,7 +58,7 @@ URL.
 2.  Click the gear icon next to the name of your container and select
     **View All Links**.
 
-    <img src="set-up-static-view-all-links.png" alt="" />
+    ![](set-up-static-view-all-links.png)
 
     **Note**: All of the CDN URLs for your container are displayed. For HTML pages
     and pictures, use the HTTP link to access your static website. If

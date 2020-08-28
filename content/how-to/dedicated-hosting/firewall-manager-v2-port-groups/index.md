@@ -42,7 +42,7 @@ In Firewall Manager v2, you can now view, modify, and delete any port-group on y
 
 3. Under **Rules** in the navigation pane, click **Port-groups**.
 
-   <img src="FWCPv2-port-group.png" alt="port-groups are located under rules in the left-hand navigation menu" />
+   ![port-groups are located under rules in the left-hand navigation menu](FWCPv2-port-group.png)
 
 4. Scroll through or search the port-group list and click the appropriate port-group. The contents of the port-group are automatically displayed.
 
@@ -82,7 +82,7 @@ To create a port-group, use the following steps:
 
    Firewall Manager v2 interacts with your firewall and adds the configurations. This process typically takes about one minute, depending on the size of your firewall's configuration.
 
-<img src="FWCPv2-add-port-group.png" alt="" />
+![](FWCPv2-add-port-group.png)
 
 ### Modify a port-group
 
@@ -102,7 +102,7 @@ It is important that you understand the impact of modifying an existing port-gro
 
    Firewall Manager v2 interacts with your firewall and adds the configurations. This process typically takes about 30 seconds, depending on the size of your firewall's configuration.
 
-<img src="FWCPv2-modify-port-group.png" alt="" />
+![](FWCPv2-modify-port-group.png)
 
 ### Delete a port-group
 
@@ -116,4 +116,4 @@ It is important that you understand the impact of modifying an existing port-gro
 
    A ticket is submitted on your behalf to manually remove the port-group and delete any configuration items that reference the group, such as access-lists, VPN encryption domains, or even other port-groups. The ticket is automatically forwarded to the appropriate Network Security team, and a team member performs quality checks and confirms with you directly if anything appears to be incorrect.
 
-<img src="FWCPv2-delete-port-group.png" alt="" />
+![](FWCPv2-delete-port-group.png)

@@ -32,7 +32,7 @@ enter the **Domain Name** of the domain that you want to add. For secure
 domains, the name must be a single word and cannot contain periods (.),
 but can contain hyphens (-).
 
-  <img src="ScreenShot2015-12-16at3.28.18PM.png" width="559" height="318" />
+  ![](ScreenShot2015-12-16at3.28.18PM.png)
 
 5. Click **Add Domain**.  In the **Domains** section, you can see the
 Domain Name, along with the **Certificate Type**, and the **Status** of
@@ -44,7 +44,7 @@ get instructions and to see the Rackspace CDN URL that you need for the CNAME re
 The instructions that see see when you click on **Domain Not
 Configured** are similar to those in the following figure:
 
-<img src="ScreenShot2015-12-16at3.57.27PM.png" width="485" height="240" />
+![](ScreenShot2015-12-16at3.57.27PM.png)
 
 It might take some time for your DNS change to propagate across the
 internet. After this has happened (based on the TTL you have set with

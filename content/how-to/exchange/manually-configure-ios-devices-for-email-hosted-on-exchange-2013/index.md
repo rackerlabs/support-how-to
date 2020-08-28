@@ -26,22 +26,22 @@ Internet Service Provider (ISP).
 1. On the home screen of your device, tap **Settings &gt;** **Mail,
    Contacts, Calendars** &gt; **Add Account**.
 
-   <img src="1.PNG" width="256" height="454" />
-   <img src="2.PNG" width="256" height="454" />
-   <img src="3.PNG" width="256" height="454" />
+   ![](1.PNG)
+   ![](2.PNG)
+   ![](3.PNG)
 
 2. Tap **Exchange** and enter your email address, password, and an
    optional description.
 
 3. Tap **Next**.
 
-   <img src="4.PNG" width="256" height="454" />
-   <img src="5.PNG" width="256" height="454" />
+   ![](4.PNG)
+   ![](5.PNG)
 
 4. Make your selections and tap **Save**.
 
-   <img src="6.PNG" width="256" height="454" />
-   <img src="7.PNG" width="256" height="454" />
+   ![](6.PNG)
+   ![](7.PNG)
 
    **Note:** If autodiscovery is not configured on your domain, the device
    displays the server settings page. Perform the following steps to
@@ -52,14 +52,14 @@ Internet Service Provider (ISP).
 
 6. Click **Next**.
 
-   <img src="8.PNG" width="256" height="454" />
+   ![](8.PNG)
 
 7. Select the services that you want to synchronize from the Exchange
    server.
 
 8. Tap **Save**.
 
-   <img src="7.PNG" width="256" height="454" />
+   ![](7.PNG)
 
 You have successfully added your Exchange email account on your iOS
 device.

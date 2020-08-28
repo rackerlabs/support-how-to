@@ -43,7 +43,7 @@ configuration:
 new connection by clicking on the **Open Connection** icon and selecting
 **Rackspace Cloud Files** from the drop-down list of protocols.
 
-    <img src="CyberDuckCFMenuSelectProtocol.png" width="941" height="529" border="1" alt=""  />
+    ![](CyberDuckCFMenuSelectProtocol.png)
 
 2.	Enter your Rackspace Cloud username and paste the API key into the **Password**
 field.
@@ -57,7 +57,7 @@ configuration:
 
 1.	Click the plus symbol (+) in the lower-left corner to add a bookmark.
 
-    <img src="cyberduck_for_UK_1.png" width="393" height="319" border="1" alt=""  />
+    ![](cyberduck_for_UK_1.png)
 
 2.	In the pop-up dialog box, perform the following steps:
 
@@ -67,7 +67,7 @@ configuration:
 
     C. In the **Username** field, enter your Rackspace Cloud username.
 
-	<img src="cyberduck6.png" width="299" height="373" border="1" alt=""  />
+	![](cyberduck6.png)
 
 3.	Close the dialog box, and then double-click on the bookmark.
 

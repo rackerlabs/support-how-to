@@ -32,23 +32,23 @@ The steps for Outlook 2010, 2013, and 2016 for Windows are nearly identical.
 2. In the **Control Panel** window, change the **View by** setting in the upper-right corner to **Small icons**.
 3. Click **Mail (Microsoft Outlook 2016)** in the **Control Panel** menu.
 
-   <img src="OL16windowsSC1.png" />
+   ![](OL16windowsSC1.png)
 
     **Note:** **Mail** or **Mail (32-bit)** might be the icon displayed for your Outlook version.
 
 4. In the **Mail Setup** dialog box, click **Show Profiles**.
 
-   <img src="OL16windowsSC2.png" />
+   ![](OL16windowsSC2.png)
 
 5. Click **Add** to create a profile to connect to the renamed email address.
 
-   <img src="OL16windowsSC3.png" />
+   ![](OL16windowsSC3.png)
 
 6. When prompted, enter a name for the new profile. We recommend that you use your new email address for the profile name to clearly identify it. Then, click **OK**.
 
 7. In the **Add Account** wizard, select **Manual setup or additional server types**, and then click **Next**.
 
-    <img src="OL16windowsSC4.png" />
+    ![](OL16windowsSC4.png)
 
 8. Select **POP or IMAP**, and then click **Next**.
 
@@ -64,7 +64,7 @@ The steps for Outlook 2010, 2013, and 2016 for Windows are nearly identical.
     - **Username:** The new mailbox address
     - **Password:** Your mailbox password
 
-    <img src="OL16windowsSC5.png" />
+    ![](OL16windowsSC5.png)
 
 10. Click the **More Settings** button in the lower-right corner, and then perform the following steps:
 
@@ -74,12 +74,12 @@ The steps for Outlook 2010, 2013, and 2016 for Windows are nearly identical.
     4. Set the **Outgoing server(SMTP)** value to port: 465.
     5. Click **OK**.
 
-    <img src="OL16windowsSC6.png" />
+    ![](OL16windowsSC6.png)
 
 11. On the **POP and IMAP Account Settings** page, click **Next**.
 12. On the **Test Account Settings** page, after both **Log onto incoming mail server(IMAP)** and **Send test e-mail message** show a status of **Completed**, click **Close**.
 
-    <img src="OL16windowsSC7.png" />
+    ![](OL16windowsSC7.png)
 
 13. On the profile list page, perform the following steps: 
 
@@ -87,7 +87,7 @@ The steps for Outlook 2010, 2013, and 2016 for Windows are nearly identical.
     2. From the drop down list, select the newly created profile.
     3. Click **Apply**, and then **OK**,
 
-    <img src="OL16windowsSC8.png" />
+    ![](OL16windowsSC8.png)
 
 14. Open Outlook.
 

@@ -41,7 +41,7 @@ resides.
 
 3. Enter the path for the origin. You can use a wildcard for the path.
 
-   <img src="AddOrigin.png" width="376" height="166" />
+   ![](AddOrigin.png)
 
 4. Click **Save Origin**.
 
@@ -93,7 +93,7 @@ follow these steps to create an origin rule:
 
    The **Add Rule** button appears only if you have multiple origins for the service. A popup dialog box appears.
 
-   <img src="createOriginRule.png" width="370" height="176" />
+   ![](createOriginRule.png)
 
 2. Enter the following information to define the rule:
 

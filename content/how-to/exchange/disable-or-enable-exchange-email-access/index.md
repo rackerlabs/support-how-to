@@ -31,16 +31,16 @@ Blocking access to a mailbox prevents users from logging in to that mailbox. You
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") by using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
-   <img src="hex_mailboxes.png" />
+   ![](hex_mailboxes.png)
 
 3. If you have multiple domains, select the domain for the mailbox to which you intend to block access.
 4. Next, you see a list of your mailboxes. In the far-right column, **Action**, click **Disable** to block access to the corresponding mailbox in that row.
 
-   <img src="hex_disable.png" />
+   ![](hex_disable.png)
 
 5. A message displays confirming that you have disabled access to the mailbox.
 
-   <img src="disable_success.png" />
+   ![](disable_success.png)
 
 The mailbox is then greyed out in the mailbox list. You have now blocked users from accessing that mailbox.
 
@@ -49,11 +49,11 @@ The mailbox is then greyed out in the mailbox list. You have now blocked users f
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") by using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
-   <img src="hex_mailboxes.png" />
+   ![](hex_mailboxes.png)
 
 3. If you have multiple domains, select the domain for the mailbox to which you intend to restore access.
 4. Next, you see a list of your mailboxes. In the far-right column, **Action**, click **Enable** to restore access to the corresponding mailbox in that row.
 
-   <img src="hex_enable.png" />
+   ![](hex_enable.png)
 
 The mailbox is no longer greyed out in the mailbox list. Users can now access that mailbox.

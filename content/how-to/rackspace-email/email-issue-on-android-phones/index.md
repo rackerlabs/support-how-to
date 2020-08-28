@@ -47,15 +47,15 @@ Additionally, confirm that the email settings on your Android phone match the fo
 
 1. On your phone, navigate to **Settings > More Networks**.
 
-    <img src="1710-4631_1_2.png" width="270" height="283" border="1" alt=""  />
+    ![](1710-4631_1_2.png)
 
 2. Go to **Mobile Networks > Access Point Names**.
 
-    <img src="1710-4631_2_1.png" width="268" height="268" border="1" alt=""  />
+    ![](1710-4631_2_1.png)
 
     Only one APN should be listed.
 
-    <img src="1710-4631_3_1.png" width="270" height="114" border="1" alt=""  />
+    ![](1710-4631_3_1.png)
 
 3. To add another APN, tap the **&#43;** symbol and specify the following settings only:
 
@@ -67,7 +67,7 @@ Additionally, confirm that the email settings on your Android phone match the fo
 
 4. Select the new APN.
 
-    <img src="1710-4631_4_1.png" width="268" height="128" border="1" alt=""  />
+    ![](1710-4631_4_1.png)
 
 5. Restart your phone.
 

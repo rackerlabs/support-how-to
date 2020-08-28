@@ -30,11 +30,11 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 3. In the message preview pane tool bar, click **More**, and then select **View Full Header**.
 
-    <img src="view_full_header.png" />
+    ![](view_full_header.png)
 
 4. The **Full Header** box displays with the full contents of the message header.
 
-    <img src="full_header.png" />
+    ![](full_header.png)
 
 You have successfully viewed the message headers in Rackspace Email webmail.
 

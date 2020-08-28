@@ -134,7 +134,7 @@ The new cloud server, upon creation, will inherit the automation features settin
 2. Click **Network > RackConnect** to open the RackConnect Management Interface.
 3. In the left pane, select your RackConnect configuration, and then select your cloud account. The cloud account's overview page lists your current automation features settings.
 
-    <img src="New.MyRack.Automation.Features.status.png" class="image-full_width" width="700" height="487" />
+    ![](New.MyRack.Automation.Features.status.png)
 
 #### How do I verify the current automation features settings for my cloud servers?
 
@@ -143,7 +143,7 @@ The new cloud server, upon creation, will inherit the automation features settin
 2. Click **Network > RackConnect** to open the RackConnect Management Interface.
 3. In the left pane, select your RackConnect configuration, select your cloud account, and then select one of your cloud servers. The cloud server's overview page lists your current automation features settings.
 
-    <img src="New.MyRack.CS_.Automation.Features.status.png" class="image-full_width" width="700" height="566" />
+    ![](New.MyRack.CS_.Automation.Features.status.png)
 
 #### How does enabling the automation features affect my pre-existing cloud servers?
 

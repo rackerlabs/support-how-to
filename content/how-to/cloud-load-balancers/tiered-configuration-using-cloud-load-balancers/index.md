@@ -19,7 +19,7 @@ You can optimize your infrastructure by splitting your single server into a tier
 
 Tiered configurations augment a single server with a cloud load balancer and at least one web server. The following diagram provides an example of a tiered configuration:
 
-<img src="tiered-config.svg" alt="Tiered configuration diagram" />
+![Tiered configuration diagram](tiered-config.svg)
 
 The size of both general purpose servers are half the size of the single server. For example, if your single server is 4 GB, the size of your web servers is 2 GB.
 

@@ -28,15 +28,15 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. [Log in to the Cloud Office Control Panel](https://cp.rackspace.com/).
 2. Scroll down to the **Domains** section and select **DNS Settings**.
 
-   <img src="edit_who_is.png" />  
+   ![](edit_who_is.png) 
 
 3. Find the domain for which you want to manage WHOIS information, and click **Edit WHOIS**.
 
-   <img src="domain_list.png" />  
+   ![](domain_list.png) 
 
 4. Make changes as needed and then click **Save**.
 
-   <img src="contact_info.png" />  
+   ![](contact_info.png) 
 
 5. Log in to the mailbox listed as the WHOIS contact email address to receive the email asking you to verify the changes you just made.  
 

@@ -77,14 +77,14 @@ directly into your server:
 On the **Server Details** page for a particular server, items that are instantly
 configurable have links to the right of them.
 
-<img src="1512NewImage-1.png" width="369" height="275" alt="" border="1"  />
+![](1512NewImage-1.png)
 
 For example, next to the **System Image** field, you can click **Rebuild** to
 rebuild your server from a default Rackspace image or a previously saved image.
 You specify the required information in the popup dialog box and then click
 **Rebuild Server**.
 
-<img src="1512NewImage-2.png" width="465" height="268" alt="" border="1"  />
+![](1512NewImage-2.png)
 
 ### Related Information
 

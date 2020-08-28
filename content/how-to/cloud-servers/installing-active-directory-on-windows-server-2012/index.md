@@ -57,7 +57,7 @@ Use the following steps to install Active Directory on the server:
    features that you want to install during the AD DS installation process and
    click **Next**.
 
-    <img src="features_0.png" width="700" height="496" />
+    ![](features_0.png)
 
 7. Review the information on the **AD DS** tab, then click **Next**.
 
@@ -98,7 +98,7 @@ for your domain by using the following steps:
     Configuration** notification. Click the **Promote this server to a domain
     controller** link that appears in the notification.
 
-    <img src="promote.png" width="705" height="502" />
+    ![](promote.png)
 
 3. From the **Deployment Configuration** tab, select **Radial options > Add a
    new forest**. Enter your root domain name in the **Root domain name** field

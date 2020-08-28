@@ -194,7 +194,7 @@ Alternatively, you can look at your Cloud Files account in the Cloud
 Control Panel. The following example shows the Containers page in the
 Control Panel, which displays the containers in the DFW region.
 
-<img src="swiftly-containers-list.png" width="700" />
+![](swiftly-containers-list.png)
 
 The `uploaded-images` container existed before the upload, and was
 indicated in the invocation to Swiftly as the container to hold the

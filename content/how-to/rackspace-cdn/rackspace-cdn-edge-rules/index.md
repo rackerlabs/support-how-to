@@ -41,7 +41,7 @@ You can still set a higher TTL for your static content while setting the
 rest of your content's TTL to 0. For sites with dynamic content, your
 rules might be set up as shown in the following image:
 
-<img src="CachingRulesExample_2_0.png" width="683" height="192" />
+![](CachingRulesExample_2_0.png)
 
 #### Default TTL values
 
@@ -73,7 +73,7 @@ To setup a new origin, perform the following steps:
 
    Rackspace recommends that you specify a domain name because an IP address can change over time. When entering the domain name or IP address, do *not* enter **https://**.
 
-   <img src="ScreenShot2015-10-02at1.43.49PM.png" width="435" height="181" />
+   ![](ScreenShot2015-10-02at1.43.49PM.png)
 
    **Note**: Verify that the origin can accept traffic from the domain listed in your CDN service. For example, if your CDN service has a domain of **cdn.customer1.com**, you might need to alter your origin server's **.htaccess** file to allow traffic for that domain.
 
@@ -129,7 +129,7 @@ To implement multiple referrer domains to a single path, you can use a
 space to separate the list of domains that you want to have access in
 the **Referrer** field. Following is an example:
 
-<img src="ScreenShot2015-10-02at1.46.58PM.png" width="407" height="247" />
+![](ScreenShot2015-10-02at1.46.58PM.png)
 
 **Note**: Rackspace does not recommend implementing referrer
 restrictions for an entire domain.

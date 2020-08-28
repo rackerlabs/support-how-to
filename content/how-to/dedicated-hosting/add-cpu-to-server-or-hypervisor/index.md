@@ -25,12 +25,12 @@ This article explains how to create a ticket to add a CPU to a server or hypervi
 
 5. From the dropdown menu, Select **Add CPU to Server or Hypervisor**. 
 
-   <img src="hypervisor1.png" />
+   ![](hypervisor1.png)
 
 6. In the Ticket Details section, select a device from the dropdown menu and enter the number of
    CPUs that you want to add. 
 
-   <img src="hypervisor2.png" />
+   ![](hypervisor2.png)
 
 7. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting
    the **Anytime** checkbox. Otherwise, fill out the remaining maintenance details to have the work completed in
@@ -38,7 +38,7 @@ This article explains how to create a ticket to add a CPU to a server or hypervi
 
 8. Select **Create Ticket**.
 
-   <img src="hypervisor3.png" />
+   ![](hypervisor3.png)
 
 
 
