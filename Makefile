@@ -35,13 +35,13 @@ muffet:
 	@if ! curl -s --fail http://localhost:1313 > /dev/null ; then echo "You must start a Hugo local server!"; exit 1; fi
 	@mkdir -p $(CURDIR)/output/muffet
 	@ if [ ! -f $(CURDIR)/output/muffet/bin/muffet ] ; then GOPATH=$(CURDIR)/output/muffet go get -u github.com/raviqqe/muffet; fi
-	@$(CURDIR)/output/muffet/bin/muffet --exclude \#\!\(forum\|msg\)\/docs-developer-blog-\(dev\|users\)\/? --exclude https?:\/\/localhost:20001\/? --exclude \/documentation\/developer-api http://localhost:1313/
+	@$(CURDIR)/output/muffet/bin/muffet -f -x -s http://localhost:1313/
 
 # Targets used to build and use the Hugo+Asciidoctor+Rst docker image
 
 .PHONY: hugo-docker
 hugo-docker:
-	${CONTAINER_RUNTIME} build --build-arg HUGO_VERSION=${HUGO_VERSION} -t docs-developer-blog/hugo:${HUGO_VERSION} hugo
+	${CONTAINER_RUNTIME} build --build-arg HUGO_VERSION=${HUGO_VERSION} -t support-how-to/hugo:${HUGO_VERSION} hugo
 
 .PHONY: hugo-serve
 hugo-serve: hugo-docker
