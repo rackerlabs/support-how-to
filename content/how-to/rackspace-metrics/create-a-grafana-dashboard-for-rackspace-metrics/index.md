@@ -75,7 +75,7 @@ When the stack is finished building, the **Status** field changes to
 password, and a Grafana authentication username that you can use to access
 your Grafana dashboard. Ensure that you record this information.
 
-<img src="grafana-metrics-up1.png" width="408"/>
+<img src="https://docs-support-how-to.netlify.app/how-to/grafana-metrics-up1.png" width="408"/>
 
 ### Use the Grafana dashboard
 

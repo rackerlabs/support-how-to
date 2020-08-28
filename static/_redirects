@@ -482,4 +482,4 @@
 # Main Redirects
 
 /support/how-to/*       /how-to/:splat      200
-/how-to/*       /support/how-to/:splat      301
+# /how-to/*       /support/how-to/:splat      301
