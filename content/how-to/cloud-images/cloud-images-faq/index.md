@@ -395,7 +395,7 @@ object follows the format `{image_uuid}.vhd`.) Cloud Files streams all of the
 segments in the correct order. The following image shows what displays in the
 Cloud Control Panel when you download an image:
 
-![](file-listing_0.png" alt="" />
+![](file-listing_0.png)
 
 In the image, the manifest objects are contained in red boxes.
 Note that each object is zero bytes in size and has a filename that follows

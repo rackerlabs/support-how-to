@@ -104,7 +104,7 @@ can be forwarded to your application via the use of an HTTP POST or your
 inbox. The following screenshot presents an example route from the Mailgun
 control panel.
 
-![](1560-3231-newimg2_0.png" width="700" />
+![](1560-3231-newimg2_0.png)
 
 Routes can be created for static email addresses and for a regular
 expression (regex) pattern match. They are also available to forward an

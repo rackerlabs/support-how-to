@@ -42,12 +42,12 @@ account:
    on **Personal Folders**, select **Properties **and then
    the **Advanced** button.
 
-   ![](1.png" alt="" />
+   ![](1.png)
 
 5. Highlight all the text in the **Filename** box to
    copy the text and then select **Cancel**.
 
-   ![](three.png" alt="" />
+   ![](three.png)
 
    **Note:** Paste your copied text into a Notepad or Word
    document since you will need this text in a later step.
@@ -57,13 +57,13 @@ account:
    File** (.pst), and then select
    the **Next** button.
 
-   ![](5.png" alt="" />
-   ![](6.png" alt="" />
+   ![](5.png)
+   ![](6.png)
 
 7. In the **File to Import** box, paste the path to
    your .pst file an select the **Next** button.
 
-   ![](7.png" alt="" />
+   ![](7.png)
 
 8. Select the top folder you want to import, and be
    sure to select the **Include
@@ -73,7 +73,7 @@ account:
    to import your data to and then
    select **Finish**.
 
-   ![](10.png" alt="" />
+   ![](10.png)
 
 **Note:** Your
 import may take some time to finish depending on the size of the .PST file.
@@ -88,12 +88,12 @@ account:
    on **Personal Folders**, select **Properties** and then
    the **Advanced** button.
 
-   ![](1.png" alt="" />
+   ![](1.png)
 
 2. Highlight all the text in the **Filename** box to
    copy the text and then select **Cancel**.
 
-   ![](three.png" alt="" />
+   ![](three.png)
 
    **Note:** Paste your copied text into a Notepad or Word
    doc since you will need this text in a future step.
@@ -103,13 +103,13 @@ account:
    File** (.pst), and then select
    the **Next** button.
 
-   ![](5.png" alt="" />
-   ![](6.png" alt="" />
+   ![](5.png)
+   ![](6.png)
 
 4. In the **File to Import** box, paste the path to
    your .pst file an select the **Next** button.
 
-   ![](7.png" alt="" />
+   ![](7.png)
 
 5. Select the top folder you want to import, and be
    sure to select the **Include
@@ -120,7 +120,7 @@ account:
    to import your data. Then
    select **Finish**.
 
-   ![](10.png" alt="" />
+   ![](10.png)
 
 **Note:** Your
 import may take some time to finish depending on the size of the .PST

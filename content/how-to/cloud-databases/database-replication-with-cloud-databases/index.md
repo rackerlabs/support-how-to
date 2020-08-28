@@ -44,7 +44,7 @@ Follow these steps for creating a read replica for your database instance using 
 
 4. On the instance list page, click the plus sign (+) in the **Replicas** column for the database instance that you want to replicate, as shown in the following image:
 
-	![](create_replica-4_0.png" width="400" height="148" border="1" alt=""  />
+	![](create_replica-4_0.png)
 
     **Tip:** You can also click the gear icon next to the instance and select **Create Replica**, or click the instance and then click **Add Replica** in the replication section of the instance page.
 
@@ -54,7 +54,7 @@ Follow these steps for creating a read replica for your database instance using 
 
 After you have created a replica, it appears with the database instances, as shown in the following image:
 
-![](view_replica-1.png" width="450" height="194" border="1" alt=""  />
+![](view_replica-1.png)
 
 View the replica by clicking on it in the **Name** column or the **Replicas** column. The replication instance details page is displayed.
 

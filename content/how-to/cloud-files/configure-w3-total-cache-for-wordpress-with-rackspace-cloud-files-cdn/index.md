@@ -29,19 +29,19 @@ You need to have a WordPress website and database.
 
 4. In the search results, click **Install Now** in the W3 Total Cache box.
 
-   ![](install-w3-total-cache.png" alt="click the install now button in the search results for w3 total cache" />
+   ![click the install now button in the search results for w3 total cache](install-w3-total-cache.png)
 
    After the plug-in installs, the **Install Now** button changes to **Activate**.
 
 5. Click **Activate** to enable the plug-in.
 
-   ![](activate-w3-total-cache.png" alt="click the activate button after the plug-in has installed" />
+   ![click the activate button after the plug-in has installed](activate-w3-total-cache.png)
 
 6. In the navigation sidebar, click **Performance > General Settings**.
 
 7. In the CDN section, select the **Enable** check box, and choose Rackspace Cloud Files as the CDN type.
 
-    ![](enable-cloud-files.png" alt="click the enable check box and choose rackspace cloud files as the cdn type" />
+    ![click the enable check box and choose rackspace cloud files as the cdn type](enable-cloud-files.png)
 
 8. Click **Save all settings**.
 
@@ -55,7 +55,7 @@ You need to have a WordPress website and database.
 
 3. Enter your Rackspace cloud account username and API key, and then click **Next**.
 
-   ![](add-account-information.png" alt="enter your rackspace cloud account information into the username and api key fields" />
+   ![enter your rackspace cloud account information into the username and api key fields](add-account-information.png)
 
    **Note:** If you need help finding your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
@@ -71,4 +71,4 @@ You need to have a WordPress website and database.
 
 7. In the **General** section, select the check box next to each type of content that you want to host on the CDN, and then click **Save all settings**.
 
-   ![](select-file-types-to-upload.png" alt="click the check box by each file type that you want to host on the cdn" />
+   ![lick the check box by each file type that you want to host on the cdn](select-file-types-to-upload.png)

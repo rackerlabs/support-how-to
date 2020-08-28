@@ -26,7 +26,7 @@ This article describes how to delete a VPN user by using a ticket template.
 4. On the **Create New Ticket** page, click the **Subject** text field and in
    the drop down menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
 
-   ![](image003.jpeg" />
+   ![](image003.jpeg)
 
 5. Check the box next to **Delete VPN user on firewall**.
 
@@ -55,7 +55,7 @@ This article describes how to delete a VPN user by using a ticket template.
 9. Confirm the details about the deletion of the VPN user by opening the ticket.
    The details are in the most recent comment.
 
-   ![](image004.jpeg" />
+   ![](image004.jpeg)
 
 If you need any assistance outside of this article, open a ticket so that
 Rackspace Support can process your request.

@@ -40,7 +40,7 @@ For more information about how to view, add, or modify access-lists, see the fol
 
 3. Under **Rules**, click **All Rules**.
 
-    ![](image-rules.png" />
+    ![](image-rules.png)
 
 4. In the navigation pane on the left side of the panel, click the firewall for which you want to delete an access-list rule.
 
@@ -48,7 +48,7 @@ For more information about how to view, add, or modify access-lists, see the fol
 
 6. Click the gear icon next to the line number of the rule that you want delete, and select **Delete**.
 
-    ![](image-delete.png" />
+    ![](image-delete.png)
 
     Firewall Manager v2 interacts with your firewall and deletes the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
 

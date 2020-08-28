@@ -75,7 +75,7 @@ then chose your server from the list.
 
 4. Click **Create Volume**.
 
-    <img alt="" height="349" src="Step1-3.png" width="543" />
+    ![](Step1-3.png)
 
 ### Create a Cloud Files container (optional)
 

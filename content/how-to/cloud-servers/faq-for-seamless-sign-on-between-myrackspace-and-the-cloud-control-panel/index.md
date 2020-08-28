@@ -29,7 +29,7 @@ When you navigate Cloud accounts in the MyRackspace Portal, hyperlinks for
 products such as Cloud Servers, Cloud Networks, and Cloud DNS take you
 to the Cloud Control Panel, where you are logged in automatically.
 
-![](sso_howto_use.png" alt="MyRackspace screenshot - Access SSO from the cog next to the user name" />
+![MyRackspace screenshot - Access SSO from the cog next to the user name](sso_howto_use.png)
 
 #### How do I disable seamless SSO?
 
@@ -43,7 +43,7 @@ Assign by Product**.
 Your permissions are based on your access level for the Cloud account that you
 are trying to access.
 
-![](sso_permissions_layout.png" alt="MyRackspace screenshot - layout of permissions screen" />
+![MyRackspace screenshot - layout of permissions screen](sso_permissions_layout.png)
 
 #### How do MyRackspace permissions map to Cloud Control Panel permissions?
 
@@ -106,13 +106,13 @@ permissions by user or by product.
 
 The following image shows how to view permissions by user in MyRackspace:
 
-![](sso_permissions_by_user.png" alt="MyRackspace screenshot - Assign SSO permissions by user" />
+![MyRackspace screenshot - Assign SSO permissions by user](sso_permissions_by_user.png)
 
 **View permissions by product**
 
 The following image shows how to view permissions by product in MyRackspace:
 
-![](sso_permission_by_product.png" alt="MyRackspace screenshot - Assign SSO permissions by product" />
+![MyRackspace screenshot - Assign SSO permissions by product](sso_permission_by_product.png)
 
 #### Can I link back to MyRackspace from the Cloud Control Panel?
 

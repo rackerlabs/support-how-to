@@ -43,7 +43,7 @@ Use the following steps to update the cipher profile from the Load Balancer page
 
 5. Scroll to the Optional Features section.
 
-   ![](picture1.png" alt="The Optional Features section" />
+   ![The Optional Features section](picture1.png)
 
 6. Select the pencil icon next to Secure Traffic (SSL). 
 
@@ -51,4 +51,4 @@ Use the following steps to update the cipher profile from the Load Balancer page
 
 8. Select **Save SSL Configuration**.
 
-   ![](picture2.png" alt="The SSL dialog" />
+   ![The SSL dialog](picture2.png)

@@ -30,7 +30,7 @@ Download the most recent version of Web PI on your server from
 3.  Select **MySQL Windows 5.1** (or current version), click **Add**, and then
     click **Install** to start the installation.
 
-    ![](install.png" width="629" height="471" />
+    ![](install.png)
 
 4.  Provide a password for the **root** account of the server.
 

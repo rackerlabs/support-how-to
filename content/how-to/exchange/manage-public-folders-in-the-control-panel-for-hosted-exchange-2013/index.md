@@ -38,7 +38,7 @@ folders that you have created:
 - Whether the folders are mail-enabled
 - The amount of storage that the folders are using
 
-![](Basic_0.png" width="757" height="264" />
+![](Basic_0.png)
 
 ### Manage your public folders
 
@@ -47,7 +47,7 @@ can choose to rename folders, edit mail settings, create subfolders, or delete a
 folder. Additionally, on this page you can bulk delete folders, create new folders, and
 manage different components of a folder.
 
-![](Manage_0.png" width="740" height="269" />
+![](Manage_0.png)
 
 #### Create a folder
 
@@ -91,7 +91,7 @@ From the list of public folders, you can delete multiple folders at once
 2. Click the gear icon next to the **Folder Name** label at the top of
    the list and select **Delete**.
 
-   ![](bulk%2520delete2.png" width="849" height="317" />
+   ![](bulk%2520delete2.png)
 
 3. In the confirmation popup box, click **Delete Folders** to
    permanently delete the selected folders.
@@ -114,7 +114,7 @@ breadcrumb trail along the top of Folders page. The path is listed as
 ***domain* &gt; root &gt; *parentFolder***, and the page you are on is
 the subfolder list. See the following example:
 
-![](childsubfolder_a.png" width="753" height="208" />
+![](childsubfolder_a.png)
 
 You can create a subfolder in the following ways:
 
@@ -158,7 +158,7 @@ You can find a specific folder in the following ways:
   application returns all folders with the word *sales* in their
   name.
 
-![](search_0.png" width="643" height="169" />
+![](search_0.png)
 
 ### Edit mail settings
 

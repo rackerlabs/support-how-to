@@ -20,15 +20,15 @@ Microsoft Outlook 2011 email client.
 
 2. In the Outlook drop-down menu, select **Preferences**.
 
-   ![](1_53.png" width="231" height="238" />
+   ![](1_53.png)
 
 3. In the **Outlook Preferences** menu, select **Accounts**.
 
-   ![](2_50.png" width="640" height="364" />
+   ![](2_50.png)
 
 4. On the **Add an Account** page, click **Exchange Account**.
 
-   ![](01_0.png" width="496" height="529" />
+   ![](01_0.png)
 
 5. Enter the following information:
 
@@ -44,7 +44,7 @@ Microsoft Outlook 2011 email client.
 
    - **Server** - Enter **mex06.emailsrvr.com**.
 
-   ![](3_47.png" width="739" height="627" />
+   ![](3_47.png)
 
 
 6. Click **Add Account**.
@@ -52,8 +52,8 @@ Microsoft Outlook 2011 email client.
 7. Confirm that the amber-colored dot next to the account name turns from an amber
    color to a solid green color.
 
-   ![](amber.png" width="190" height="56" />
-   ![](green.png" width="190" height="56" />
+   ![](amber.png)
+   ![](green.png)
 
    **Note:** The dot might take a minute or two to change from amber to green.
    If the dot doesn't change, check the account settings and password and

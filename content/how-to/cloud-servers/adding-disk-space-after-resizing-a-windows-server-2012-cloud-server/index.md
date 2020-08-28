@@ -41,7 +41,7 @@ Use the following steps to extend your drive:
    can keep the default selections and press **Next**, as shown in the
    following image:
 
-    ![](extend_2.png" alt="" />
+    ![](extend_2.png)
 
     The **C:&#92;** drive expands to the maximum available space.
 

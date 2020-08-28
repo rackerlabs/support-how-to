@@ -18,7 +18,7 @@ This article provides instructions about configuring Outlook&reg; 2010 email cli
 1. Click the Windows&reg; **Start** button, select **Control Panel**, and then select the
    **Mail** icon. Change the **View by** setting to **Large Icons** if you do not see the **Mail** icon on this screen.
 
-   ![]((EA)Outlook2010ExchangeTwo.png" alt="" />
+   ![]((EA)Outlook2010ExchangeTwo.png)
 
    **Note:** Depending on which version of Windows you are running, you might need
    to switch to **Classic** view to find the **Mail** entry. Otherwise, it is
@@ -27,17 +27,17 @@ This article provides instructions about configuring Outlook&reg; 2010 email cli
 2. Select the **Show Profiles** button, then select the **Add** button.
    Next, enter a name for the new profile, and select the **OK** button.
 
-   ![]((EA)Outlook2010Exchange4.png" alt="" />
+   ![]((EA)Outlook2010Exchange4.png)
 
 3. Select the **Manually configure server settings or additional server**
    **types** check box and then select the **Next** button.
 
-   ![]((EA)Outlook2010Exchange50.png" alt="" />
+   ![]((EA)Outlook2010Exchange50.png)
 
 4. Select the **Microsoft Exchange** option and click
    the **Next** button.
 
-   ![]((EA)Outlook2010Exchange6.png" alt="" />
+   ![]((EA)Outlook2010Exchange6.png)
 
 5. Enter the exact case-sensitive word, `outlook`, in the Microsoft Exchange server address field
    and then check the **Use Cached Exchange Mode** check box.
@@ -45,13 +45,13 @@ This article provides instructions about configuring Outlook&reg; 2010 email cli
    In the **User Name** box, enter your entire email address.
    Then select **More Settings**.
 
-   ![]((EA)Outlook2010WithExchange2010.png" alt="" />
+   ![]((EA)Outlook2010WithExchange2010.png)
 
 6. Select the **Connection** tab, and then select the **Connect to**
   **Microsoft Exchange using HTTP** check box. Next, click
    the **Exchange Proxy Settings** button.
 
-   ![]((EA)Outlook2010Exchange8.png" alt="" />
+   ![]((EA)Outlook2010Exchange8.png)
 
 7. Enter `connect.emailsrvr.com` as the proxy server address.
 
@@ -64,7 +64,7 @@ This article provides instructions about configuring Outlook&reg; 2010 email cli
 
    Then select **Apply** and **OK** to close the **More Settings** window.
 
-   ![]((EA)Outlook2010WithExchange20102.png" alt="" />
+   ![]((EA)Outlook2010WithExchange20102.png)
 
 8. Click the **Check Name** box in the **Connect** window, enter the password that your  administrator assigned to your
    email account, and select the **OK** button.
@@ -77,7 +77,7 @@ This article provides instructions about configuring Outlook&reg; 2010 email cli
 
    Select **Next**, and then select **finish**.
 
-   ![]((EA)Outlook2010WithExchange20103.png" alt="" />
+   ![]((EA)Outlook2010WithExchange20103.png)
 
 10. You are then taken back to the **Show Profiles** page. Select the new profile that you named in step 2 from the drop-down menu labeled **Always use this profile**.
 

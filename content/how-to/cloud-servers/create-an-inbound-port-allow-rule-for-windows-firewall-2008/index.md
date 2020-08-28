@@ -15,26 +15,26 @@ This article describes how to create an Inbound port allow rule for Windows Fire
 
 1. Launch Windows Firewall with Advanced Security by clicking **Start > Administrative Tools > Windows Firewall with Advanced Security**.
 
-   ![](firewalllaunch.png" alt="firewalllaunch.png" />
+   ![](firewalllaunch.png)
 
 2. Select **Inbound Rules** in the left pane and click **New Rule** under Inbound Rules in the Actions Pane
 
-   ![](inboundrule.png" alt="inboundrule.png" />
+   ![](inboundrule.png)
 
 3. The **New Inbound Rule Wizard** will launch. Select **Port** and click **Next**.
 
-   ![](inboundport1.png" alt="inboundport1.png" />
+   ![](inboundport1.png)
 
 4. This step of the Wizard specifies which ports the rule is applied to and whether that rule applies to connections established using the TCP and UDP protocol. 
 
    - If *no* specific ports are applicable, select **All local ports** to apply the rule to all local ports.
    - If specifc ports are applicable, select **Specific local ports**, and then fill in the port(s), seperating each port with a comma.
 
-    ![](inboundport2.png" alt="inboundport2.png" />
+    ![](inboundport2.png)
 
 5. Because this is an allow rule, select whether to allow traffic over all connections (secure and insecure) or only secure connections. If you require a secure connection, you can specify whether it also requires encryption, or if it overrides block rules. Click **Next** to continue.
 
-    ![](inboundport3.png" alt="inboundport3.png" />
+    ![](inboundport3.png)
 
 6. Select the profiles to which this rule applies. 
 
@@ -44,7 +44,7 @@ This article describes how to create an Inbound port allow rule for Windows Fire
    
    Click **Next** to continue.
 
-   ![](inboundrulewiz6.png" alt="inboundrulewiz6.png" />
+   ![](inboundrulewiz6.png)
 
 7. Give the rule a name and any description that you want. Click **Finish** to create the rule and go back to the main screen.
 

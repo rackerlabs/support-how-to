@@ -141,7 +141,7 @@ Use one of the following methods to access the server.
 Enter the name of your FTP site into a browser address bar, as shown in the
 following screenshot, and supply the login credentials when prompted.
 
-![](ftp.png" width="538" height="73" />
+![](ftp.png)
 
 #### Using an FTP client
 

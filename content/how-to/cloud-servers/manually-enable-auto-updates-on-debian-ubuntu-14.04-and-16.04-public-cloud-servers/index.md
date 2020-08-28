@@ -33,7 +33,7 @@ Ubuntu 14.04 and 16.04 for Rackspace public Cloud Servers:
 
     The following image shows the output that the command generates:
 
-    ![](picture1.png" />
+    ![](picture1.png)
 
 3. Enter the following command to open the configuration file:
 
@@ -41,7 +41,7 @@ Ubuntu 14.04 and 16.04 for Rackspace public Cloud Servers:
 
     The following image shows what the configuration file looks like:
 
-    ![](picture2.png" />
+    ![](picture2.png)
 
     The lines that begin with two forward slashes (`//`) are comments that are
     ignored. The configuration options that appear on those lines are
@@ -58,7 +58,7 @@ Ubuntu 14.04 and 16.04 for Rackspace public Cloud Servers:
     The following image shows that the color of that line of code changes to
     indicate that it is now active, rather than a comment:
 
-    ![](picture3.png" />
+    ![](picture3.png)
 
 5. If you want to enable other configuration options, use the same steps to
    uncomment additional lines.
@@ -67,12 +67,12 @@ Ubuntu 14.04 and 16.04 for Rackspace public Cloud Servers:
    shown in the following image), then type **:wq** and press **Enter** or
    **Return** to save the configuration file:
 
-    ![](picture4-1.png" />
+    ![](picture4-1.png)
 
     A message stating that the file was properly written displays, as shown in
     the following image:
 
-    ![](picture4-2.png" />
+    ![](picture4-2.png)
 
 ### Configure automatic updates
 
@@ -93,14 +93,14 @@ Use the following steps to configure automatic updates:
    following example shows that three of the updates are performed daily,
    while the `AutocleanInterval` is every 14 days:
 
-    ![](picture5.png" />
+    ![](picture5.png)
 
     When you're finished making changes, press the **Esc** key, then type
     **:wq** and press **Enter** or **Return** to save the configuration. A
     message stating that the file was properly written displays, as shown in
     the following image:
 
-    ![](picture6.png" />
+    ![](picture6.png)
 
 #### Configure notifications for automatic package updates (optional)
 
@@ -132,7 +132,7 @@ Use the following steps to set up notifications:
 5. Between the same set of quotes, enter the email
    address that you want to use, as shown in the following image:
 
-    ![](picture8.png" />
+    ![](picture8.png)
 
 6. After you're finished making changes, press the **Esc** key, then type
    **:wq** and press **Enter** or **Return** to save the configuration.
@@ -140,7 +140,7 @@ Use the following steps to set up notifications:
     A message stating that the file was properly written displays, as shown in
     the following image:
 
-    ![](picture9.png" />
+    ![](picture9.png)
 
 7. Next, enter the following command:
 
@@ -153,7 +153,7 @@ Use the following steps to set up notifications:
 9. Between the same set of quotation marks, enter the email address to which
    you want to send the notifications, as shown in the following image:
 
-    ![](picture10.png" />
+    ![](picture10.png)
 
 10. When you're finished making changes, press the **Esc** key, then type
     **:wq** and press **Enter** or **Return** to save the configuration.
@@ -161,4 +161,4 @@ Use the following steps to set up notifications:
      A message stating that the file was properly written displays, as shown
      in the following image:
 
-     ![](picture11.png" />
+     ![](picture11.png)

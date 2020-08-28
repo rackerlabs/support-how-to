@@ -37,13 +37,13 @@ Use the following steps to forward email from your Exchange address to another a
 3. Select the domain that contains the mailbox that you want to forward.
 4. In the mailbox list, select the name of the mailbox that you want to forward.
 
-   ![](hex-forward-2.png" />
+   ![](hex-forward-2.png)
 
 5. Click the **Mail Forwarding** tab. On Mail Forwarding page, select **Forward to an Exchange address within this domain**.
 6. Select the address to which you want to forward email from the list.
 7. Select the **Save copies of forwarded email** option.
 
-    ![](hex-forward-3.png" />
+    ![](hex-forward-3.png)
 
     If **Save a copy of forwarded email** is not checked, this mailbox will _not_ store any messages sent to it.
 
@@ -58,7 +58,7 @@ To forward to a mailbox on an external domain, use the following steps to create
 3. If you have multiple domains, select the domain that contains the mailbox that you want to forward.
 4. Click **Add Contact**.
 
-   ![](hex-forward-contact-2.png" />
+   ![](hex-forward-contact-2.png)
 
    Fill out the requested information in the fields provided.
 
@@ -67,12 +67,12 @@ To forward to a mailbox on an external domain, use the following steps to create
     - **Username:** Enter the **Contact address**. This is not a physical mailbox.
     - **External Email:** Enter the actual email address to which you want to forward email.
 
-       ![](hex-forward-contact-3.png" />
+       ![](hex-forward-contact-3.png)
 
 5. Click **Save** to create the contact.
 6. Click the **Mailboxes** tab.
 
-   ![](hex-forward-contact-4.png" />
+   ![](hex-forward-contact-4.png)
 
 7. In the mailbox list, select the name of the mailbox that you want to forward.
 8. Click the **Mail Forwarding** tab. On the Mail Forwarding page, select **Forward to an Exchange address within this domain**.
@@ -81,7 +81,7 @@ To forward to a mailbox on an external domain, use the following steps to create
 
 9. Select the **Save copies of forwarded email** option.
 
-    ![](hex-forward-contact-6.png" />
+    ![](hex-forward-contact-6.png)
 
     If **Save a copy of forwarded email** is not checked, this mailbox _not_ store any messages sent to it.
 
@@ -98,7 +98,7 @@ Use the following steps to create a *Distribution List*, from which you can forw
 3. Select the domain that contains the mailbox that you want to forward.
 4. Click **Add Distribution List**.  
 
-   ![](hex-forward-multi-2.png" />
+   ![](hex-forward-multi-2.png)
 
 5. Fill out the required fields under **General**.
 
@@ -106,21 +106,21 @@ Use the following steps to create a *Distribution List*, from which you can forw
     - **Email Address:** Enter the **Distribution List Address**. This is not a physical mailbox. This is used forward to multiple email addresses inside the selected **Distribution List**.
     - **Members:** Enter the members that you want receive a copy of email sent to the Distribution List.
 
-    ![](hex-forward-multi-3.png" />
+    ![](hex-forward-multi-3.png)
 
 6. In the **Advanced** section, click **Selected addresses on this domain** and select the addresses you want to forward.
 
-   ![](hex-forward-multi-4.png" />
+   ![](hex-forward-multi-4.png)
 
 7. Click **Create Distribution List**. The created list displays on the next page.
 
-   ![](hex-forward-multi-5.png" />
+   ![](hex-forward-multi-5.png)
 
 8. Click the **Mailboxes** tab.
 
 9. In the mailbox list, click the mailbox name that you want to forward.
 
-   ![](hex-forward-multi-6.png" />
+   ![](hex-forward-multi-6.png)
 
 10. Click the **Mail Forwarding** tab. On the Mail Forwarding page, select **Forward to an Exchange address within this domain**.
 
@@ -130,7 +130,7 @@ Use the following steps to create a *Distribution List*, from which you can forw
 
 12. Select the **Save copies of forwarded email** option.
 
-    ![](hex-forward-multi-7.png" />
+    ![](hex-forward-multi-7.png)
 
     If **Save a copy of forwarded email** is not checked, this mailbox _not_ store any messages sent to it.
 

@@ -92,11 +92,11 @@ Locate the appropriate KMS server in the following list:
 
     **KMS activation output**:
 
-     ![](kms.jpg" />
+     ![](kms.jpg)
 
     **MAK activation output**:
 
-     ![](mak.png" />
+     ![](mak.png)
 
 6. If your device uses **MAK activation**, then you should set the device back to **KMS activation**.
     First, find and take note of the appropriate KMS client setup key from Microsoft&reg;: [KMS Client Setup Keys](https://technet.microsoft.com/library/jj612867.aspx)

@@ -23,17 +23,14 @@ contacts outside of the domain, or both.
 To view all distribution lists, log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following steps:
 
 1. Click the **Go to section** menu and select **Microsoft Exchange**.
-
-   <img alt="" height="225" src="dl1.png" width="195"  />
+   ![](dl1.png)
 
 2. Click the **Lists** tab.
-
-	 <img alt="" height="77" src="DL6.png" width="414"  />
+   ![](DL6.png)
 
 3. If you have multiple domains, select the appropriate domain name.
    To change domains at any time, click the arrow next to the currently selected domain.
-
-   <img alt="" height="164" src="DL7.png" width="409"  />
+   ![](DL7.png)
 
 Starting from the list of distribution lists available in your domain,
 you can add, edit, or delete a distribution list.
@@ -44,8 +41,7 @@ Follow the instructions below for the action you want to perform.
 1. While viewing your distribution lists on the **Lists** tab,
    click on the display name of the list you want to edit.
 	 If you are creating a new list, click **Add Distribution List**.
-
-	 <img alt="" height="127" src="DL11.png" width="552"  />
+   ![](DL11.png)
 
 2. On the **General** page, enter or edit the following fields:
 
@@ -60,8 +56,7 @@ Follow the instructions below for the action you want to perform.
 3. To add a mailbox as a member of the list, select the check box next to
    the mailbox userid in the **Members** section.
 	 Use the search tool to locate specific email addresses.
-
-	 <img alt="" height="318" src="DL8.png" width="433"  />
+   ![](DL8.png)
 
 4. To configure the following optional sections, click **Advanced**:
 
@@ -72,8 +67,7 @@ Follow the instructions below for the action you want to perform.
 		 If you select **Selected addresses on this domain**, specify the users.
 
    - **Email Addresses:** Create alias (or alternative) email addresses for the list.
-
-	 <img alt="" height="447" src="DL9_0.png" width="455"  />
+   ![](DL9_0.png)
 
 5. Click **Create Distribution List** or **Save Distribution List**.
 
@@ -85,8 +79,7 @@ Follow the instructions below for the action you want to perform.
 	 **Delete** button at the bottom of the page.
 
 2. Click **Delete**.
-
-   <img alt="" height="321" src="DL10.png" width="415"  />
+   ![](DL10.png)
 
    A pop-up box appears to confirm that you want to delete the list.
 

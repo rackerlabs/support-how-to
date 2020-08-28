@@ -19,7 +19,7 @@ Rackspace Cloud. It takes about 30 minutes to complete.
 
 The following diagram shows the topology of the application:
 
-![](4.4-diagram.png" width="650" />
+![](4.4-diagram.png)
 
 ### Prerequisites
 

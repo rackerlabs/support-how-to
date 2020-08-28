@@ -28,15 +28,15 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 2. Select the message for which you want to view the headers.
 
-    ![](inbox_preview.png" />
+    ![](inbox_preview.png)
 
 3. On the right-hand side of the **Message Preview** pane, click the **down arrow** to the right of **Reply all**, and then select **View message details**.
 
-    ![](view_message_details.png" />
+    ![](view_message_details.png)
 
 4. The **Full header** box displays with all of the contents in the message header.
 
-    ![](header_window.png" />
+    ![](header_window.png)
 
     **Note:** If the **Message details** box is blank, click **Close** and repeat steps 2-4. The message details should populate.
 

@@ -53,7 +53,7 @@ We have aligned with Microsoft guidance to patch your device and mitigate the vu
 
 We have added new steps both for understanding and for those who want to fully remediate vulnerabilities.
 
-![](windows-os-remediation.png" />
+![](windows-os-remediation.png)
 
 
 #### Step 1: Install the update

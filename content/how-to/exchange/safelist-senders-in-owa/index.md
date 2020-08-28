@@ -32,15 +32,15 @@ For administrator instructions on safelisting senders through the control panel,
 
 2. Click the gear icon in the upper right-hand corner, and then select **Options** from the drop down menu.
 
-    ![](options_gear.png" />
+    ![](options_gear.png)
 
 3. In the **Options** menu, click **Mail > Accounts > Block or Allow**.
 
-    ![](block_or_allow.png" />
+    ![](block_or_allow.png)
 
 4. Enter the email address or domain of the sender that you want to safelist.
 
-    ![](safe_senders.png" />
+    ![](safe_senders.png)
 
 5. Click **Save**
 

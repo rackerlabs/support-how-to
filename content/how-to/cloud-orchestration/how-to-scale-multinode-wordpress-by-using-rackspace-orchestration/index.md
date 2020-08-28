@@ -39,7 +39,7 @@ Use the following steps to create the server:
 
 9. Click the gear icon next to the name of the new image, and select **Create Server with Image** from the menu.
 
-    ![](cpviewimage.png" width="600" alt="" border="1"  />
+    ![](cpviewimage.png)
 
 10. On the server creation page, enter a name for the new server, and select the region where it will be created.
 
@@ -57,7 +57,7 @@ Use the following steps to prepare the new server:
 
 1. From the server details page, note the ServiceNet IP address of the new server. You will need this information in a later step.
 
-    ![](cpservicenet.png" width="600" border="2" alt="" />
+    ![](cpservicenet.png)
 
 2. Click the **Orchestration** link at the top of the page, and return to the stack that you are scaling out.
 

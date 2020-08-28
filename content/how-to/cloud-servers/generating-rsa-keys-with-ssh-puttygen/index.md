@@ -94,14 +94,12 @@ use it when connecting to your cloud server.
 
 5.  Browse to the location of the key file, and load the private key.
 
-    ![](PuTTY_Configuration3.png" width="463" height="439" />
-
+    ![](PuTTY_Configuration3.png)
 6.  Go to the Session page, and save the session. This saves the configuration
     so that PuTTY uses the key every time that you connect to your cloud
     server.
 
-    ![](PuTTY_Configuration4.png" width="463" height="439" />
-
+    ![](PuTTY_Configuration4.png)
 After you save your session, your key is loaded automatically when you
 connect to your server.
 

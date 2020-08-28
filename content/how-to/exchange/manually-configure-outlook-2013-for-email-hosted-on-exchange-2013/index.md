@@ -19,7 +19,7 @@ email account with Microsoft Outlook&reg; 2013 email client.
 1. Click the Windows&reg; **Start** button, select **Control Panel**, and
    then click **Mail (32-bit)**.
 
-   ![](Step1_0.png" width="620" height="276" />
+   ![](Step1_0.png)
 
    **Note:** Depending on the version of Windows you're running, you might
    need to switch to Classic view to find the **Mail** entry or it might
@@ -32,12 +32,12 @@ email account with Microsoft Outlook&reg; 2013 email client.
    **Manual setup or additional server types**, and
    then click **Next**.
 
-   ![](Step2_0.png" width="694" height="489" />
+   ![](Step2_0.png)
 
 4. On the **Choose Service** page, select **Microsoft Exchange or compatible
    service**, and then click **Next**.
 
-   ![](Step3_0.png" width="694" height="492" />
+   ![](Step3_0.png)
 
 5. On the **Server Settings** page, perform the following actions:
 
@@ -53,13 +53,13 @@ email account with Microsoft Outlook&reg; 2013 email client.
    is downloaded to your local machine.  This can be adjusted, using the
    **Mail to keep offline slider**.
 
-   ![](Step4_0.png" width="694" height="492" />
+   ![](Step4_0.png)
 
 6. In the Microsoft Exchange dialog box, click the **Connection** tab
    and select the **Connect to Microsoft Exchange using HTTP** check box.
    Then click **Exchange Proxy Settings**.
 
-   ![](Step5_0.png" width="354" height="438" />
+   ![](Step5_0.png)
 
 7. In the **Microsoft Exchange Proxy Settings** dialog box, perform the
    following actions:
@@ -75,7 +75,7 @@ email account with Microsoft Outlook&reg; 2013 email client.
 
    d. Click **OK**.
 
-   ![](Step6_0.png" width="483" height="411" />
+   ![](Step6_0.png)
 
 8. In the **Microsoft Exchange** dialog box, click **Apply** and then click
    **OK**.
@@ -95,7 +95,7 @@ email account with Microsoft Outlook&reg; 2013 email client.
 
 10. Click **Next**. On the next page, click **Finish**.
 
-    ![](Step7_0.png" width="694" height="491" />
-    ![](Step8_0.png" width="694" height="490" />
+    ![](Step7_0.png)
+    ![](Step8_0.png)
 
 11. Open Outlook to select your new Exchange profile.

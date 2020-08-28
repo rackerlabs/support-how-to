@@ -26,7 +26,7 @@ This article explains how to use a ticket template to manage local users.
 
 5. From the dropdown menu, Select **Local User Management.**
 
-   ![](localuser1.png" />
+   ![](localuser1.png)
 
 6. Select the affected Device(s) and Action Type.
 
@@ -47,7 +47,7 @@ This article explains how to use a ticket template to manage local users.
 
 3. Select **Create Ticket**.
 
-   ![](localuser2.png" />
+   ![](localuser2.png)
 
 #### Delete, Enable or Disable/lock a user 
 
@@ -59,7 +59,7 @@ This article explains how to use a ticket template to manage local users.
 
 3. Select **Create Ticket**.
 
-   ![](localuser3.png" />
+   ![](localuser3.png)
 
 #### Change a user password
 
@@ -70,12 +70,12 @@ This article explains how to use a ticket template to manage local users.
 
 2. Select **Create Ticket**.
 
-   ![](localuser4.png" />
+   ![](localuser4.png)
 
 #### Audit users or user groups  
 
 These actions provide a list of users or user groups on each selected server, no additional input is required.
 
-![](localuser5.png" />
+![](localuser5.png)
 
   After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal. It typically takes a few minutes for the ticket creation process to complete.
