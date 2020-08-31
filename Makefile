@@ -26,7 +26,8 @@ build:
 	rm -rf public
 	@hugo version
 	hugo
-
+check-links:
+	check-links 'https://docs-support-how-to.netlify.app/' --max-threads 500
 serve:
 	@hugo $(PREVIEW_ARGS) serve
 
@@ -35,7 +36,7 @@ muffet:
 	@if ! curl -s --fail http://localhost:1313 > /dev/null ; then echo "You must start a Hugo local server!"; exit 1; fi
 	@mkdir -p $(CURDIR)/output/muffet
 	@ if [ ! -f $(CURDIR)/output/muffet/bin/muffet ] ; then GOPATH=$(CURDIR)/output/muffet go get -u github.com/raviqqe/muffet; fi
-	@$(CURDIR)/output/muffet/bin/muffet -f -x -s http://localhost:1313/
+	@$(CURDIR)/output/muffet/bin/muffet https://docs.rackspace.com/
 
 # Targets used to build and use the Hugo+Asciidoctor+Rst docker image
 

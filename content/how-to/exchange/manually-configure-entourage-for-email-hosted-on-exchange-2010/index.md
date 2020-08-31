@@ -32,8 +32,8 @@ Alternatively, you can set up your account using IMAP as described at
    **Note:** If the setup assistant window appears, select **Configure Account
    Manually**, select **New**, and then **Exchange**.
 
-   ![]((EA)Entourage2008EWSExchange.png)
-   ![]((EA)Entourage2008EWSExchange2.png)
+   ![](EAEntourage2008EWSExchange.png)
+   ![](EAEntourage2008EWSExchange2.png)
 
 2. In the pop-up window, enter the following information into the
    fields:

@@ -19,7 +19,7 @@ Microsoft Outlook 2007 email client.
 1. Click the Windows **Start** button, select **Control Panel**, then select the
    **Mail** icon.
 
-   ![]((EA)Outlook2010ExchangeTwo.png)
+   ![](EAOutlook2010ExchangeTwo.png)
 
    **Note:** Depending on what version of Windows you're running, you may need
    to switch to Classic view to find the mail icon or it may state 32-Bit.
@@ -27,17 +27,17 @@ Microsoft Outlook 2007 email client.
 2. Select **Show Profiles**, click **Add**, enter a name for this
    profile. and select **OK**.
 
-   ![]((EA)Outlook2010Exchange4.png)
+   ![](EAOutlook2010Exchange4.png)
 
 3. Select **Manually configure server settings or
    additional server types** and click **Next**.
 
-   ![]((EA)Outlook2010Exchange50.png)
+   ![](EAOutlook2010Exchange50.png)
 
 4. Select **Microsoft Exchange** and click
    **Next**.
 
-   ![]((EA)Outlook2010Exchange6.png)
+   ![](EAOutlook2010Exchange6.png)
 
 5. Type **outlook** in the Microsoft Exchange server address field and
    select **Use Cached Exchange Mode**.
@@ -45,7 +45,7 @@ Microsoft Outlook 2007 email client.
    In the **User Name** field, enter
    your entire email address and then select **More Settings**.
 
-   ![]((EA)Outlook2010WithExchange2010.png)
+   ![](EAOutlook2010WithExchange2010.png)
 
 6. Select the **Connection** tab and select
    **Connect to Microsoft Exchange using HTTP**.
@@ -55,7 +55,7 @@ Microsoft Outlook 2007 email client.
    Server address**
    from the Outlook 2010 setup guide in the control panel.
 
-   ![]((EA)Outlook2010Exchange8.png)
+   ![](EAOutlook2010Exchange8.png)
 
 7. Enter **connect.emailsrvr.com** as the **Proxy Server** address.
 
@@ -63,7 +63,7 @@ Microsoft Outlook 2007 email client.
 
    Under **Proxy authentication settings**, select **Basic Authentication**.
 
-   ![]((EA)Outlook2010WithExchange20102.png)
+   ![](EAOutlook2010WithExchange20102.png)
 
 8. Click **Ok**, **Apply**, and **Ok** again, then select the
    **Check Name** box in the **Connect** window. Type the password
