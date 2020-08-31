@@ -24,14 +24,14 @@
     Cache-Control = "public, s-max-age=604800"
 
 [[plugins]]
-package = "netlify-plugin-checklinks"
+  package = "netlify-plugin-checklinks"
   [plugins.inputs]
   entryPoints = [
     "*.html",
   ]
-  recursive = true
+  recursive = false
   pretty = true
-  skipPatterns = ["public/blog", "public/docs", "public/docs/*", "code.jquery.com/*"]
-  todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to", "https://maxcdn.bootstrapcdn.com/*", "https://stackpath.bootstrapcdn.com/*", "https://fonts.googleapis.com/*"]
+  skipPatterns = ["public/blog", "public/docs", "public/docs/*"]
+  todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to"]
   checkExternal = false
   followSourceMaps = false
