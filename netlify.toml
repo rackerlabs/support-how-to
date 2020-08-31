@@ -31,7 +31,7 @@ package = "netlify-plugin-checklinks"
   ]
   recursive = true
   pretty = true
-  skipPatterns = ["public/blog", "public/docs", "public/docs/*", "code.jquery.com/*", "maxcdn.bootstrapcdn.com/*", "stackpath.bootstrapcdn.com/*", "fonts.googleapis.com/*"]
-  todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to"]
+  skipPatterns = ["public/blog", "public/docs", "public/docs/*", "code.jquery.com/*"]
+  todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to", "https://maxcdn.bootstrapcdn.com/*", "https://stackpath.bootstrapcdn.com/*", "https://fonts.googleapis.com/*"]
   checkExternal = false
   followSourceMaps = false
