@@ -24,7 +24,7 @@ Application](https://github.com/SpringSource/spring-petclinic/).
 
 The following figure shows the application's topology:
 
-![](3588-1.png)
+{{<image src="3588-1.png" alt="" title="">}}
 
 ### Prerequisites
 

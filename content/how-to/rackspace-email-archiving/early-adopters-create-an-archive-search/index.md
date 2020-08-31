@@ -32,7 +32,7 @@ Use the following instructions to create an archive search:
 
 2. On the left side of the screen, click **Search**.
 
-  ![](Create-an-archive-search-1.png)
+  {{<image src="Create-an-archive-search-1.png" alt="" title="">}}
 
 3. Click the **+New** tab.
 
@@ -58,16 +58,16 @@ Use the following instructions to create an archive search:
 
 Sometimes a search might require additional search criteria. In these cases, it is often best to use the **Advanced** option. The more specific the information you give, the better and more accurate the results are.
 
-![](Create-an-archive-search-2.png)
+{{<image src="Create-an-archive-search-2.png" alt="" title="">}}
 
 Enter as much available search information as possible in the fields under **Add Criteria**.
 
-![](Create-an-archive-search-3.png)
+{{<image src="Create-an-archive-search-3.png" alt="" title="">}}
 
 **Note**: If you require a more granular search, after selecting **Add Criteria**, click **Add Group**.
 
-![](Create-an-archive-search-4.png)
+{{<image src="Create-an-archive-search-4.png" alt="" title="">}}
 
 Add more search details for each search criteria, and then click **Search** at the bottom.
 
-![](Create-an-archive-search-5.png)
+{{<image src="Create-an-archive-search-5.png" alt="" title="">}}

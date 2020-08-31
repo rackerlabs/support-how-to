@@ -60,7 +60,7 @@ rack, 2.4 PB solution. The solution is easy to deploy with no top of
 rack switches. Only a small number of cables are required due to the
 integration of compute, networking and storage in the SM15000.
 
- ![](FrontofRackViewandWiringDiagram.jpg" width="664" height="716" />
+ {{<image src="FrontofRackViewandWiringDiagram.jpg" alt="" title="">}}
 
 **Figure 1: Front of Rack View and Wiring Diagram**
 
@@ -76,7 +76,7 @@ the Freedom&trade; Fabric. There is no single point of failure and the
 Freedom&trade; Fabric is "self-healing", re-routing any traffic that would
 otherwise be unable to reach its destination.
 
-** ![](SeaMicroFabric.jpg" width="508" height="282" />**
+** {{<image src="SeaMicroFabric.jpg" alt="" title="">}} **
 
 **Figure 2: SeaMicro Fabric**
 
@@ -101,7 +101,7 @@ logical groups of resources that can be different datacenters, racks,
 servers, or disk drives. The goal is for failures in one zone to have no
 effect on the others.
 
- ![](DistributedObjectStorageReferenceArchitecture.jpg" width="721" height="520" />
+ {{<image src="DistributedObjectStorageReferenceArchitecture.jpg" alt="" title="">}}
 
 **Figure 3: Distributed Object Storage Reference Architecture**
 
@@ -136,11 +136,11 @@ architecture will have:
 
 
 
- ![](SwiftinaRackReferenceArchitecture.jpg" width="669" height="415" />
+ {{<image src="SwiftinaRackReferenceArchitecture.jpg" alt="" title="">}}
 
 **Figure 4: "Swift in a Rack" Reference Architecture**
 
-![](SwiftinaRackRecommendedConfiguration.jpg" width="686" height="515" />
+{{<image src="Swift4inaRackRecommendedConfiguration.jpg" alt="" title="">}}
 
 **Figure 5: "Swift in a Rack" Recommended Configuration**
 

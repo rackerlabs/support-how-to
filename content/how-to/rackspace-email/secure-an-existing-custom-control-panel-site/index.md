@@ -30,24 +30,24 @@ To secure your control panel site, perform the following steps:
 
 2. In the **Reseller Tools** section of the home page, click the **Custom Control Panel** link.
 
-   ![](custom_control_panel.png)
+   {{<image src="custom_control_panel.png" alt="" title="">}}
 
 3. On the **Custom Control Panel Site** page, locate the site that you want to secure. It should have a red “unlocked” icon to the right of the name.
 
 4. Click **Secure Site** from the **ACTIONS** drop-down list.
 
-   ![](secure_site.png)
+   {{<image src="secure_site.png" alt="" title="">}}
 
 
   **Warning:** You cannot secure a control panel site using a site name that uses the root domains of **mymailsrvr.com**, **mycpsrvr.com**, or a domain that is listed on Google Safe Browsing.
 
 5. On the **Secure Certificate Information** step, enter or verify the company information for your site. This information is used to register the security certificate that secures your site. If your end users choose to view the certificate from their browser, this information is visible to them. Click **SECURE CONTROL PANEL SITE**.
 
-   ![](company_info.png)
+   {{<image src="company_info.png" alt="" title="">}}
 
 6. Instructions to update the DNS entry for your site with new information appears. Copy these instructions by clicking **COPY INSTRUCTIONS** before clicking **OK, GOT IT**.
 
-   ![](dns_info.png)
+   {{<image src="dns_info.png" alt="" title="">}}
 
     - The DNS for most existing sites is an A record that points to a specific IP address. You need to change the A record type to a CNAME and change the IP address to the host name provided. For example, if your control panel site is going to be **cp.yourdomainexample.com**, change the host name to **cp** or **cp.yourdomainexample.com**. The following tables illustrate this change:
 
@@ -75,4 +75,4 @@ To secure your control panel site, perform the following steps:
 
 The site should now appear as a secured **CUSTOM CONTROL PANEL** listing. After the DNS change is propagated, a green "locked" icon appears to the right of the name to show that the site is secure.
 
-![](secured.png)
+{{<image src="secured.png" alt="" title="">}}

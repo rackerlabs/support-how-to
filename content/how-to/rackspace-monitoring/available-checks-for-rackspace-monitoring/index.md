@@ -111,4 +111,4 @@ You can edit the following options for an existing Network check:
 
  You can view graphical information about resource use on the server details page. In the **Monitoring Data** section of the page, you can view historical check data. This viewing option is available for all checks and does not require the monitoring agent to be installed. Use the drop-down menu to select the monitoring check that you want to view.
 
-<p><img alt="" height="317" src="Monitoring-Data.png" width="742" /></p>
+{{<image src="Monitoring-Data.png" alt="" title="">}}

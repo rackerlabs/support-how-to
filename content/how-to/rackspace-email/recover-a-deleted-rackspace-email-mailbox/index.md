@@ -17,7 +17,7 @@ To recover a Rackspace Email mailbox, create a new mailbox by using the same use
 
 **Note:** If you created an [email alias](/how-to/adding-an-alias-with-rackspace-email/) with the same username as the deleted mailbox, you must first delete the alias.
 
-![]({% asset_path rackspace-email/recover-a-deleted-rackspace-email-mailbox/Screen%20Shot%202015-01-21%20at%202.53.38%20PM.png %}" width="699" height="410" />
+{{<image src="ScreenShot2015-01-21at2.53.38PM.png" alt="" title="">}}
 
 -   To restore all messages to the new mailbox, click **Restore**.
 -   To create the mailbox without restoring any messages, click **No thanks, just create new mailbox**.

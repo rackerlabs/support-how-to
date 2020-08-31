@@ -29,11 +29,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. In Apple Mail, select the email address that you want to export.
 2. In the top navigation bar, click **Mailbox > Export Mailbox**.
 
-   ![](selectExportMailbox.png)
+   {{<image src="selectExportMailbox.png" alt="" title="">}}
 
 3. Choose an existing folder or create a new folder in which to save the exported file, and then click **Choose**.
 
-    ![](selectMailbox.png)
+    {{<image src="selectMailbox.png" alt="" title="">}}
 
    After you select the file destination, the mailbox is exported.
 
@@ -43,7 +43,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 1. In the top navigation bar, click **Mail > Accounts**.
 
-   ![](selectMailAccounts.png)
+   {{<image src="selectMailAccounts.png" alt="" title="">}}
 
 2. Click the IMAP account that you want to remove.
 

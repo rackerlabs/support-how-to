@@ -30,19 +30,19 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. In the Microsoft Exchange section, click **Mailboxes**.
 
-   ![](add-hex-mailbox-sc1.png)
+   {{<image src="add-hex-mailbox-sc1.png" alt="" title="">}}
 
 3. If you have multiple domains, select the domain to which you want to add a mailbox.
 
 4. Click **Add Mailbox**.
 
-   ![](add-hex-mailbox-sc2.png)
+   {{<image src="add-hex-mailbox-sc2.png" alt="" title="">}}
 
    If the **Add Mailbox** button is unavailable, you must add the necessary licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
 5. Enter the requested information in the fields provided:
 
-   ![](add-hex-mailbox-sc3.png)
+   {{<image src="add-hex-mailbox-sc3.png" alt="" title="">}}
 
 	 * **First Name and Last Name** (optional): Enter first and last name information for the mailbox owner.
 
@@ -79,13 +79,13 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. In the Microsoft Exchange section, click **Mailboxes**.
 
-   ![](add-hex-mailbox-sc1.png)
+   {{<image src="add-hex-mailbox-sc1.png" alt="" title="">}}
 
 3. If you have multiple domains, select the domain to which you want to add a mailbox.
 
 4. Click **Add Multiple Mailboxes**.
 
-    ![](add-multi-hex-sc1.png)
+    {{<image src="add-multi-hex-sc1.png" alt="" title="">}}
 
     If the **Add Mailboxes** button is unavailable, you must add the necessary number of licenses to your account before you can add a mailbox. See [Add a mailbox license](#add-a-mailbox-license) for instructions.
 
@@ -108,11 +108,11 @@ If the buttons to add one or more mailboxes are unavailable, you must add the ne
 
 1. Click the **Upgrade this plan** link.
 
-   ![](add-hex-license-sc1.png)
+   {{<image src="add-hex-license-sc1.png" alt="" title="">}}
 
 2. Under **Microsoft Exchange Mailboxes**, add the number of mailboxes that you want to make available to your account.
 
-   ![](add-hex-license-sc2.png)
+   {{<image src="add-hex-license-sc2.png" alt="" title="">}}
 
 3. Click **Continue**.
 

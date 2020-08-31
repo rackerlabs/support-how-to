@@ -50,7 +50,7 @@ may be configured with the following:
 A total raw capacity of 6,848 TB or 6.69 PB may be attached to the
 system, including both internal and external drives.
 
-![](seamicro.png)
+{{<image src="seamicro.png" alt="" title="">}}
 
 An interesting and powerful aspect of the SM15000&trade; is the supercompute
 fabric, which is able to deliver 1.28 Terabits/second of bandwidth
@@ -89,7 +89,7 @@ You can interact with the APIs using OpenStack python-bindings or you
 can use Horizon, which is a graphical user interface to interact with
 the cloud.
 
-![](masscompute_1-web.jpg" width="600" height="398" />
+{{<image src="masscompute_1-web.jpg" alt="" title="">}}
 
 ### Recommended architecture
 

@@ -40,7 +40,7 @@ relational and NoSQL databases:
 The following image visualizes the structures of various types of databases,
 as well as the data complexity that they are designed to accommodate:
 
-![](data-complexity-value-in-relationships.png)
+{{<image src="data-complexity-value-in-relationships.png" alt="" title="">}}
 
 The following table compares the characteristics of relational databases and
 NoSQL graph databases:

@@ -19,11 +19,11 @@ emergency outages.
 
 The page lists all Cloud services, their current status, and a recent history.
 
-![](picture1.png)
+{{<image src="picture1.png" alt="" title="">}}
 
 If a service has an alert, you can click the icon for that day
 to view any related messages.
 
 You can also click on a service to view its status by data center.
 
-![](picture2.png)
+{{<image src="picture2.png" alt="" title="">}}

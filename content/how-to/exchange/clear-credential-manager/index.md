@@ -31,11 +31,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
     - **Windows 10:**
 
-       ![](win10_start_menu.png)
+       {{<image src="win10_start_menu.png" alt="" title="">}}
 
     - **Windows 7 (or earlier):**
 
-       ![](win7_start_menu.png)
+       {{<image src="win7_start_menu.png" alt="" title="">}}
 
 3.  Click on <b>Credential Manager</b> to open it, and then click <b>Windows Credentials</b>.
 
@@ -46,11 +46,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 4.  Click the arrow next to the entry to display it.
 
-       ![](CredentialManager.png)
+       {{<image src="CredentialManager.png" alt="" title="">}}
 
 5.  On the detail page of the credential entry, click **remove** to remove the credential from the manager.
 
-       ![](CredentialManagerDetail.png)
+       {{<image src="CredentialManagerDetail.png" alt="" title="">}}
 
 6.  Repeat this process for all credentials matching Outlook(15/16) and your email address. There may be anywhere from one to three entries listed.
 

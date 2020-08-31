@@ -76,7 +76,7 @@ For more information about the migration preparation required for POP, IMAP, and
 
 4. In the **Email Address** box, enter a contact email address that will *not* be migrating. Then, agree to the User Agreement (BitTitan is MigrationWiz), and click **Login**.
 
-   ![](MigWizSC1.png)
+   {{<image src="MigWizSC1.png" alt="" title="">}}
 
    A notification informs you that an email with a secure link has been sent to your email address. Follow the instructions in the email to log in to the MigrationWiz portal.
 
@@ -97,11 +97,11 @@ For more information about the migration preparation required for POP, IMAP, and
 
     **Note:** If you are migrating to a hybrid solution (both Rackspace Email and Rackspace Exchange), you must create more than one migration project. Step 12 explains how to start a new project when the current one is completed.
 
-    ![](8-2_0.png)
+    {{<image src="8-2_0.png" alt="" title="">}}
 
 8. Enter the email addresses, usernames, and passwords for the source and destination mailboxes. You can migrate multiple mailboxes by clicking the + symbol or by entering your mailbox information in the spreadsheet provided. Then, click **Next**.
 
-   ![](9-2_0.png)
+   {{<image src="9-2_0.png" alt="" title="">}}
 
    The next step is a trial migration to ensure that connectivity is successful to both the source and destination mailboxes based on the information that you entered.
 
@@ -113,14 +113,14 @@ For more information about the migration preparation required for POP, IMAP, and
 
 11. On the Ready to migrate page, click **Next** to begin the migration of your email data.
 
-    ![](13-2_0.png)
+    {{<image src="13-2_0.png" alt="" title="">}}
 
     Several factors influence how long your email takes to migrate. For a list of possible factors, see [Factors that affect the duration of email migrations](/support/how-to/factors-that-affect-the-duration-of-email-migrations).
 
 12. After your migration has completed, you can run the migration tool again by clicking **Migrate new items.** For more information about running additional migrations, see [Run additional passes with MigrationWiz](/support/how-to/running-additional-passes-with-migrationwiz). Otherwise, click **Finish**.
 
-    ![](14-2_0.png)
+    {{<image src="14-2_0.png" alt="" title="">}}
 
 13. To begin a new migration project, click **My Migrations** in the top-right corner of your migration portal. On the My Migrations page, click **Start new migration**.
 
-    ![](15-2_0.png)
+    {{<image src="15-2_0.png" alt="" title="">}}

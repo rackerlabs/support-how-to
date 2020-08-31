@@ -42,11 +42,11 @@ boot-from-volume functionality" section at the end of this article.
 
 3. On your server, use the `df -h` command to see how the volume is mounted.
 
-   ![](mount_point.png)
+   {{<image src="mount_point.png" alt="" title="">}}
 
 4. Use the value under `Mounted on` in the `unmount` command.
 
-   ![](fstab2_0.png)
+   {{<image src="fstab2_0.png" alt="" title="">}}
 
 5. Comment out the second line (highlighted in the screenshot) in the
     `/etc/fstab` file to prevent the volume from trying to mount on the next
@@ -72,7 +72,7 @@ boot-from-volume functionality" section at the end of this article.
 
 5. If the **Take Disk Offline** warning window appears, click **Yes**.
 
-    ![](win_bringoffline_0.jpeg)
+    {{<image src="win_bringoffline_0.jpeg" alt="" title="">}}
 
 The Cloud Block Storage volume no longer displays as a drive under **Computer**.
 

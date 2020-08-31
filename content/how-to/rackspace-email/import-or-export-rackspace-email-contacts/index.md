@@ -28,11 +28,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 2. Click the **Contacts** tab.
 3. Click **Import/Export Contacts**.
 
-   ![](ImportContactsRSE1.png)
+   {{<image src="ImportContactsRSE1.png" alt="" title="">}}
 
 4. Under **Import Contacts**, click **Choose File**.
 
-   ![](ImportContactsRSE2.png)
+   {{<image src="ImportContactsRSE2.png" alt="" title="">}}
 
 5. Save the **.csv** file that contains the contacts that you want to import.
 6. Click **Continue**.
@@ -46,7 +46,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 3. Click **My Contacts**.
 4. Click **Import/Export Contacts**.
 
-   ![](ExportContactsRSE.png)
+   {{<image src="ExportContactsRSE.png" alt="" title="">}}
 
 5. Under **Export Contacts**, select your mail client.
 6. Click **Export**.

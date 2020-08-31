@@ -98,7 +98,7 @@ steps:
 4.  Click the action gear next to the name of the domain that you want
     to modify, and select **Add DNS Record**.
 
-     ![](SPFRecordDNS.png)
+     {{<image src="SPFRecordDNS.png" alt="" title="">}}
 
 5.  Select **TXT Record** for the record type.
 

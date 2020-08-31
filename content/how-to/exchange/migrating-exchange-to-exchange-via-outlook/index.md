@@ -26,13 +26,13 @@ personal storage (PST) files.
    previous Microsoft Exchange mailbox. Select **File > Import and
    Export**, as shown in the following image:
 
-    ![](1.png)
+    {{<image src="1.png" alt="" title="">}}
 
     The Import and Export Wizard opens.
 
 2. Select **Export to a file** and click **Next**.
 
-    ![](2.png)
+    {{<image src="2.png" alt="" title="">}}
 
 3. On the next screen, select **Personal Folder File (.pst)** and click
    **Next**.
@@ -56,7 +56,7 @@ personal storage (PST) files.
    and Settings\\(user name)\\Local Settings\\Application
    Data\\Microsoft\\Outlook\\backup.pst.`
 
-    ![](3.png)
+    {{<image src="3.png" alt="" title="">}}
 
     **Note**: To make it easier to locate the file later, save it to
     your desktop. You need to know the location of the file to import it
@@ -67,9 +67,9 @@ personal storage (PST) files.
    that you leave the option **Replace duplicates with items exported** selected, then click **Finish** to begin your export, as shown in the
    following images:
 
-    ![Export personal folders](ExportPersonalFolders.png)
+    ![Export personal folders](ExportPersonalFolders.png" alt="" title="">}}
 
-    ![](5.png)
+    {{<image src="5.png" alt="" title="">}}
 
 **Note**: Because this file is only used temporarily for export and import, we
 recommend that you use **No Encryption** for speed and compatibility purposes by leaving the password blank.
@@ -84,26 +84,26 @@ your account is set up, perform the following steps:
    Microsoft Exchange mailbox, and select **File > Import and Export**, as
    shown in the following image:
 
-    ![](1.png)
+    {{<image src="1.png" alt="" title="">}}
 
     The Import and Export Wizard opens.
 
 2. Select **Import from another program or file**
    and click **Next**, as shown in the following image:
 
-    ![](6.png)
+    {{<image src="6.png" alt="" title="">}}
 
 3. Select **Personal Folder File (.pst)** and click **Next**. On the next
    screen, click **Browse** to locate the **PST file** that you exported, as
    shown in the following image:
 
-    ![](7.png)
+    {{<image src="7.png" alt="" title="">}}
 
 4. Click **Open**. Then, leave the option **Replace duplicates
    with items imported** selected and click **Next**, as shown in the
    following image:
 
-    ![](8.png)
+    {{<image src="8.png" alt="" title="">}}
 
 5. Select **Personal Folders**, then select the **Include
    subfolders** check box, and click **Import items into the same
@@ -112,7 +112,7 @@ your account is set up, perform the following steps:
    Click **Finish** to begin the import process, as shown in the following
    image:
 
-    ![](10.png)
+    {{<image src="10.png" alt="" title="">}}
 
 **Note**: Your import might take some time to finish, depending on the size of
 the PST file.

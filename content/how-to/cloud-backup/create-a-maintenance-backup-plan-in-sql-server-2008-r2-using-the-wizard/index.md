@@ -32,7 +32,7 @@ automatic. The maintenance plan depends on this service to run.
 4.  Click the **General** tab, and select **Automatic** as the startup type,
     and then start the service by clicking on **Start**.
 
-    ![](CheckSQLServerAgent3.png)
+    {{<image src="CheckSQLServerAgent3.png" alt="" title="">}}
 
 ### Create the maintenance plan
 
@@ -40,7 +40,7 @@ automatic. The maintenance plan depends on this service to run.
 
 2.  In the Object Explorer pane, expand the **Management** folder, right-click on **Maintenance Plans**, and select **Maintenance Plan Wizard**.
 
-    ![](CreatingtheMaintenancePlan1_0.png)
+    {{<image src="CreatingtheMaintenancePlan1_0.png" alt="" title="">}}
 
 3.  On the welcome page of the wizard, click **Next**.
 
@@ -53,7 +53,7 @@ automatic. The maintenance plan depends on this service to run.
     Up Database (Transaction Log)** check boxes, and then click
     **Next**.
 
-    ![](Creatingthemaintenanceplan4.png)
+    {{<image src="Creatingthemaintenanceplan4.png" alt="" title="">}}
 
 6.  On the Select Maintenance Task Order page, leave the order as shown,
     and then click **Next**.
@@ -82,7 +82,7 @@ according to the following instructions.
 6.  To configure the scheduling options for this task, click **Change**
     near the bottom of the page.
 
-    ![](fullbackupsetttings1.png)
+    {{<image src="fullbackupsetttings1.png" alt="" title="">}}
 
 7.  In the **Job Schedule Properties** dialog box, select **Recurring** for
     the Schedule type.
@@ -97,7 +97,7 @@ according to the following instructions.
 10. Under **Duration**, adjust the **Start** and **End** dates. In the
     example **No end date** is selected.
 
-    ![](fullbackupsetttings2.png)
+    {{<image src="fullbackupsetttings2.png" alt="" title="">}}
 
 11. Click **OK**.
 
@@ -185,7 +185,7 @@ transaction log backup according to the following instructions.
 11. Under **Duration**, adjust the **Start date** and **End date**
     fields.
 
-    ![](TransactionLogBackupSettings2.png)
+    {{<image src="TransactionLogBackupSettings2.png" alt="" title="">}}
 
 12. Click **OK**.
 
@@ -243,7 +243,7 @@ transaction log backups between the full and differential backups.
 10. Select the **Delete files based on the age of the file at task run
     time** check box, and set the file age to **3 Days**.
 
-    ![](TransactionLogCleanupTask3.png)
+    {{<image src="TransactionLogCleanupTask3.png" alt="" title="">}}
 
 11. Click **OK** to return to the Management Studio main window.
 
@@ -252,7 +252,7 @@ transaction log backups between the full and differential backups.
 
 13. Double-click the connected green line.
 
-    ![](TransactionLogCleanupTask4.png)
+    {{<image src="TransactionLogCleanupTask4.png" alt="" title="">}}
 
 14. In the Precedence Constraint Editor, set **Value** to Completion.
 
@@ -261,12 +261,12 @@ transaction log backups between the full and differential backups.
     task is not run, or if the backup did run, the cleanup task is
     run.
 
-    ![](TransactionLogCleanupTask5.png)
+    {{<image src="TransactionLogCleanupTask5.png" alt="" title="">}}
 
 15. Click **OK** to return to the Management Studio main window.
     The line should now appear blue.
 
-    ![](TransactionLogCleanupTask6.png)
+    {{<image src="TransactionLogCleanupTask6.png" alt="" title="">}}
 
 16. Save your work by selecting **Save All** from the File menu.
     You have finished setting up your maintenance backup plan. You can
@@ -303,7 +303,7 @@ history to see what failed.
     The Log File Viewer window, which shows the job history, is
     displayed.
 
-    ![](Errors2_0.png)
+    {{<image src="Errors2_0.png" alt="" title="">}}
 
     If the job failed a red X icon is displayed next to the time that
     you ran the job.
@@ -313,7 +313,7 @@ history to see what failed.
     Details about the error appear below the table. Scroll or expand the
     pane to see more information.
 
-    ![](Errors3.png)
+    {{<image src="Errors3.png" alt="" title="">}}
 
 3.  Troubleshoot the error and repeat the test job.
 

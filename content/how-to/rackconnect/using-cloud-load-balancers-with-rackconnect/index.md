@@ -108,7 +108,7 @@ RackConnect:
 -   Use RackConnect to provide back-end connectivity to dedicated
     database servers from your cloud servers.
 
-![](RC.CLB_.png)
+{{<image src="RC.CLB_.png" alt="" title="">}}
 
 In this example, a cloud load balancer balances traffic between cloud
 web servers, and RackConnect provides connectivity from the web servers
@@ -131,9 +131,9 @@ To reiterate, RackConnect *cannot* be used to balance traffic between
 cloud and dedicated servers, or to protect your inbound cloud load
 balancer Internet connections.
 
-![](How.CLB_.RC_.Do_.Not_.Work_.png)
+{{<image src="How.CLB_.RC_.Do_.Not_.Work_.png" alt="" title="">}}
 
 The following image shows some use cases that further illustrate the
 limitations of using cloud load balancers:
 
-![](CLB.Use_.Cases__0.png)
+{{<image src="CLB.Use_.Cases__0.png" alt="" title="">}}

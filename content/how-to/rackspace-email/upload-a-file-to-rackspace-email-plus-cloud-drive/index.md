@@ -30,15 +30,15 @@ After you have installed Cloud Drive, follow these instructions to upload a file
 
 1. Click the Windows start menu in the lower-left hand corner of your screen, and then select the file explorer application.
 
-    ![](cloud_drive_file_explorer.png)
+    {{<image src="cloud_drive_file_explorer.png" alt="" title="">}}
 
 2. Copy or move the desired file to the folder of your choice within the Rackspace Cloud Drive.
 
-    ![](drag_doc.png)
+    {{<image src="drag_doc.png" alt="" title="">}}
 
 3. Verify that the file is in its intended folder.
 
-    ![](file_example.png)
+    {{<image src="file_example.png" alt="" title="">}}
 
 You can confirm that the file has synced to the Cloud Drive by logging in to apps.rackspace.com.
 
@@ -46,7 +46,7 @@ You can confirm that the file has synced to the Cloud Drive by logging in to app
 
 2. Select the folder that you saved your document to on your desktop device.
 
-    ![](webmail_drive.png)
+    {{<image src="webmail_drive.png" alt="" title="">}}
 
 You can see the file that you moved to the Cloud Drive. You can now access the file from your other desktop devices that have Cloud Drive installed.
 

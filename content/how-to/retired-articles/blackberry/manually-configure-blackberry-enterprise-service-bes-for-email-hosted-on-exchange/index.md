@@ -34,14 +34,14 @@ meantime, please feel free to continue using ActiveSync.
 1. From the home screen on your Blackberry select
    **Messaging**, then select **Options**.
 
-   ![](EABlackBerryBES.png)
-   ![](EABlackBerryBES2.png)
+   {{<image src="EABlackBerryBES.png" alt="" title="">}}
+   {{<image src="EABlackBerryBES2.png" alt="" title="">}}
 
 2. Select **Advanced Options** and then select **Enterprise
    Activation**.
 
-   ![](EABlackBerryBES3.png)
-   ![](EABlackBerryBES4.png)
+   {{<image src="EABlackBerryBES3.png" alt="" title="">}}
+   {{<image src="EABlackBerryBES4.png" alt="" title="">}}
 
 3. Enter your full **email address** and the
    **ActivationPassword** provided by your administrator,
@@ -50,8 +50,8 @@ meantime, please feel free to continue using ActiveSync.
    "**Acquiring service connection**" and your device will
    begin the process of setting up your account.
 
-   ![](EABlackBerryBES5.png)
-   ![](EABlackBerryBES6.png)
+   {{<image src="EABlackBerryBES5.png" alt="" title="">}}
+   {{<image src="EABlackBerryBES6.png" alt="" title="">}}
 
    **Note:** This process can take anywhere from 2 - 20 mins depending on
    your connection and how much data you have.
@@ -62,8 +62,8 @@ meantime, please feel free to continue using ActiveSync.
    **Setup** icon and then select the **Email
    Accounts** icon.
 
-   ![](EABlackBerryBES7.png)
-   ![](EABlackBerryBES8.png)
+   {{<image src="EABlackBerryBES7.png" alt="" title="">}}
+   {{<image src="EABlackBerryBES8.png" alt="" title="">}}
 
 2. Select **Enterprise Activation**, fill in your
    **Email Address** and **Activation Password**
@@ -71,8 +71,8 @@ meantime, please feel free to continue using ActiveSync.
    "**Acquiring service connection**" and your device will
    begin the process of setting up your account.
 
-   ![](EABlackBerryBES9.png)
-   ![](EABlackBerryBES10.png)
+   {{<image src="EABlackBerryBES9.png" alt="" title="">}}
+   {{<image src="EABlackBerryBES10.png" alt="" title="">}}
 
    **Note:** This process can take anywhere from 2 - 20 mins depending on
    your connection and how much data you have.

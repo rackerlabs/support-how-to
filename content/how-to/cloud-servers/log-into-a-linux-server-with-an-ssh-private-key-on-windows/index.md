@@ -37,7 +37,7 @@ Open a text editor, paste your SSH private key, and save the file.
 
 Your SSH private key should look similar to the key in the following image:
 
-![](Windows1.png)
+{{<image src="Windows1.png" alt="" title="">}}
 You need to include all of the text that appears in the image in your key file.
 
 ### Load your SSH private key in PuTTY Key Generator
@@ -74,7 +74,7 @@ Use the following steps to log in to PuTTY by using your SSH private key:
     session based on the Internet Protocol (IP) address of the server to which
     the user is connecting.
 
-   ![](Windows9.png)
+   {{<image src="Windows9.png" alt="" title="">}}
 
 2. Click **Connection > Data** in the left navigation pane and set the
    **Auto-login username** to root.

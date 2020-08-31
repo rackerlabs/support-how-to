@@ -25,11 +25,11 @@ If you do not have remote access to the vRouter, connect to the vRouter via the 
 
 3.	From the **Actions** menu on the vRouter details page, select **Emergency Console**.
 
-    ![](880-1_0.png)
+    {{<image src="880-1_0.png" alt="" title="">}}
 
     A Java-based applet is launched, and you are presented with a CLI console interface.
 
-    ![](880-2.png)
+    {{<image src="880-2.png" alt="" title="">}}
 
 4.	Log in with the *Vyatta* account and the root password that was given when the vRouter was first created.
 

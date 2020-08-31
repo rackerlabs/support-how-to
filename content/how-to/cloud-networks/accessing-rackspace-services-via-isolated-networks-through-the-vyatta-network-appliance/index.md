@@ -42,7 +42,7 @@ and is used as the default gateway by the server in question. The Vyatta
 appliance is connected to all three networks (Public, SNET and
 Isolated).
 
-![](Vyatta.jpg)
+{{<image src="Vyatta.jpg" alt="" title="">}}
 
 <span style="line-height: 1.538em;">The table below summarizes what
 services can be accessed if the Vyatta is configured as described in the

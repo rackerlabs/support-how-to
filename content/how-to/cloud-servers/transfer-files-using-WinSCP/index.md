@@ -30,7 +30,7 @@ This article describes how to download, install, and use WinSCP to transfer file
     * PuTTYgen (key generator)
     * Translations
 
-    ![](install-type.png)
+    {{<image src="install-type.png" alt="" title="">}}
 
 4. Choose the interface type with which you want to work and click **Next**.
 
@@ -38,7 +38,7 @@ This article describes how to download, install, and use WinSCP to transfer file
 
     We recommend starting with the **Commander** interface. You can change the default style later in the **Preferences** menu.
 
-    ![](interface-type.png)
+    {{<image src="interface-type.png" alt="" title="">}}
 
 5. Configure `sshd` (the ssh/sftp server) to listen to a port that is different from the default.
 
@@ -64,7 +64,7 @@ This article describes how to download, install, and use WinSCP to transfer file
 
     This warning is not shown during subsequent connections to this server.
 
-    ![](accept-key.png)
+    {{<image src="accept-key.png" alt="" title="">}}
 
 ### Transfer files
 
@@ -78,7 +78,7 @@ This article describes how to download, install, and use WinSCP to transfer file
 
     If you use WinSCP to connect an ftp server, the lock icon does not appear because ftp doesn't provide secure (encrypted) communication.
 
-    ![](transfer-files.png)
+    {{<image src="transfer-files.png" alt="" title="">}}
 
 ### Create files and directories
 
@@ -86,7 +86,7 @@ This article describes how to download, install, and use WinSCP to transfer file
 
 2. Enter a file name and click **OK**.
 
-    ![](file-name.png)
+    {{<image src="file-name.png" alt="" title="">}}
 
 3. In the text editor, enter the contents of the new file and click the **Save** icon.
 
@@ -102,6 +102,6 @@ This article describes how to download, install, and use WinSCP to transfer file
 
     You can also see the equivalent octal value for your settings. The user you used to login via sftp owns new directory.
 
-    ![](permissions.png)
+    {{<image src="permissions.png" alt="" title="">}}
 
 7. To change permissions, right-click the file or directory and select **Properties**.

@@ -50,22 +50,22 @@ Use the following steps to view billing data in pivot tables:
 6.  Open Microsoft Excel, and create a new workbook. Do not open the CSV invoice file.
 7.  In the new workbook, click **Data > From Text/CSV**.
 
-    ![](step2.png)
+    {{<image src="step2.png" alt="" title="">}}
 
 8. In the import dialog box, select your CSV invoice file, and click **Get Data**.
 9. In the import wizard, select **Delimited** (using commas as the delimiter
 value), change the file origin to **Unicode (UTF-8)**, and click **Load**.
 
-    ![](step4.png)
+    {{<image src="step4.png" alt="" title="">}}
 
     The resulting spreadsheet looks similar to the following example:
 
-    ![](result.png)
+    {{<image src="result.png" alt="" title="">}}
 
 10. Click the small blank square at the top left of the spreadsheet to
     select all of the values.
 
-    ![](2-billing_SelectAll_arrow.png)
+    {{<image src="2-billing_SelectAll_arrow.png" alt="" title="">}}
 
 11. Copy the data to your clipboard.
 12. Open the spreadsheet file that you downloaded in step 1.
@@ -73,7 +73,7 @@ value), change the file origin to **Unicode (UTF-8)**, and click **Load**.
 
     **Note:** Ensure that you select the A1 cell when you paste.
 
-    ![](3-billing_csvTab_arrow.png)
+    {{<image src="3-billing_csvTab_arrow.png" alt="" title="">}}
 
 14. In each of the three pivot tables (worksheets), right-click the pivot table,
 and select **Refresh**.

@@ -122,7 +122,7 @@ After you log in to your server in rescue mode, run the following command:
 
 Your output should look similar to the following example:
 
-![](fdisk.png)
+{{<image src="fdisk.png" alt="" title="">}}
 
 Several disks appear in the output. A disk entry looks similar to the
 following example:
@@ -187,7 +187,7 @@ the file system.
     When the program is running, the output should resemble the following
     image, which shows the device and the size of the disk:
 
-    ![](diskmgmtoutput.png)
+    {{<image src="diskmgmtoutput.png" alt="" title="">}}
 
     The image shows the following disks:
 
@@ -200,7 +200,7 @@ the file system.
      Your system disk is set as drive **D**, and you can now access your data,
      as shown in the following image:
 
-     ![](ddrive.png)
+     {{<image src="ddrive.png" alt="" title="">}}
 
 #### Revert a Windows server from rescue mode
 
@@ -218,7 +218,7 @@ disk is brought online. Due to this issue, the OS rewrites the ID of the disk.
 After this takes place the boot loader can no longer find the boot disk. This
 problem is what causes the server to crash.
 
-![](boot-fail-message.png)
+{{<image src="boot-fail-message.png" alt="" title="">}}
 
 ##### Resolve the ID conflict
 
@@ -241,7 +241,7 @@ Use the following steps to resolve the ID conflict on your Windows server.
 
     The Boot Configuration Data (BCD) output should look like the following example:
 
-    ![](goodBCD.png)
+    {{<image src="goodBCD.png" alt="" title="">}}
 
 4. If the objects do not point to drive **C**, run the following commands:
 

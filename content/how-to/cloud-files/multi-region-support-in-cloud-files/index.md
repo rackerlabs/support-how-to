@@ -46,7 +46,7 @@ locations, as well as related bandwidth charges.
 The Service Catalog that the API returns now shows multiple endpoints
 under `object-store`, as shown in the following image:
 
-![](cf-apiaccesspoints.png)
+{{<image src="cf-apiaccesspoints.png" alt="" title="">}}
 
 ### Changes to Rackspace web interfaces
 

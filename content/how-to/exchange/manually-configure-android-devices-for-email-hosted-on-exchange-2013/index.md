@@ -31,26 +31,26 @@ Use the following steps to configure your Android device:
 1. On your device, tap the system **Settings** icon, as shown in the following
    image:
 
-    ![](1.Settings_2.png)
+    {{<image src="1.Settings_2.png" alt="" title="">}}
 
 2. Tap **Accounts & sync** (**Accounts** on some devices), as shown in the
    following image:
 
-    ![](2.AccountsandSync_2.png)
+    {{<image src="2.AccountsandSync_2.png" alt="" title="">}}
 
 3. Tap **Add**, as shown in the following image:
 
-    ![](3.Add_2.png)
+    {{<image src="3.Add_2.png" alt="" title="">}}
 
 4. Tap **Exchange ActiveSync** (**Microsoft Exchange ActiveSync** on some
    devices), as shown in the following image:
 
-    ![](4.ExchangeActiveSync_2.png)
+    {{<image src="4.ExchangeActiveSync_2.png" alt="" title="">}}
 
 5. Enter your email address and password, and then tap **Manual setup**, as
    shown in the following image:
 
-    ![](5.ManualSetup_2.png)
+    {{<image src="5.ManualSetup_2.png" alt="" title="">}}
 
 6. On the next page, enter information in the following fields, then tap
    **Next**:
@@ -77,18 +77,18 @@ Use the following steps to configure your Android device:
     perform a factory reset (delete all data) on the device from the Outlook
     Web App (OWA).
 
-    ![](4_40.png)
+    {{<image src="4_40.png" alt="" title="">}}
 
 8. Select the services that you want to synchronize with the Exchange server,
    and specify how often you want to synchronize, as shown in the following
    image. Then, tap **Next**.
 
-    ![](7.SyncOptions_2.png)
+    {{<image src="7.SyncOptions_2.png" alt="" title="">}}
 
 9. Enter a descriptive name for your account as shown in the following image,
    then tap **Finish setup**.
 
-    ![](8.Finalize_1.png)
+    {{<image src="8.Finalize_1.png" alt="" title="">}}
 
 
 

@@ -25,12 +25,12 @@ Mac**.
     lower-left corner.
 3.  Select **Exchange** and then click **Continue.**
 
-    ![](MM101.png)
+    {{<image src="MM101.png" alt="" title="">}}
 
 4.  On the next page, enter your full name and your entire Microsoft
     Exchange email address and password. Then click **Continue**.
 
-    ![](MM102.png)
+    {{<image src="MM102.png" alt="" title="">}}
 
     -   If your Autodiscover CNAME record is set correctly, Mail
         automatically pulls the correct server settings for you. Skip to
@@ -47,15 +47,15 @@ Mac**.
         account you are setting up.
     -   **Server Address** - Enter **connect.emailsrvr.com**.
 
-    ![](MM104_0.png)
+    {{<image src="MM104_0.png" alt="" title="">}}
 
 6.  Confirm the settings and then click **Continue**.
 
-    ![](MM103.png)
+    {{<image src="MM103.png" alt="" title="">}}
     
 7.  Choose any other options that you want to enable, and then click
     **Done**.
 
-    ![](MM105_0.png)
+    {{<image src="MM105_0.png" alt="" title="">}}
 
 Your Microsoft Exchange 2010 email account is now set up with Mac Mail.

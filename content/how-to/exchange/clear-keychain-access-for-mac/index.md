@@ -27,24 +27,24 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 1. Click the **Spotlight** Magnifying glass in the top right corner of your screen, or press **command + space** on your keyboard.
 
-   ![](mag_glass.png)
+   {{<image src="mag_glass.png" alt="" title="">}}
 
 2. In the **Spotlight Search** search bar, type **Keychain Access**.
 
-   ![](spotlight_search.png)
+   {{<image src="spotlight_search.png" alt="" title="">}}
 
 3. Select **Keychain Access** from the list of results.
 
-   ![](keychain_access_result.png)
+   {{<image src="keychain_access_result.png" alt="" title="">}}
 
 4. In the top right corner of **Keychain Access** enter your email address in the search bar.
 5. Select the entry that you want to remove and then press the **Delete** button on your keyboard.
 
-   ![](search_email.png)
+   {{<image src="search_email.png" alt="" title="">}}
 
 6. A box displays asking you to confirm the deletion. If it looks correct, click **Delete**.
 
-   ![](delete_keychain.png)
+   {{<image src="delete_keychain.png" alt="" title="">}}
 
 
 After you have completed the above process, you can reopen your desktop mail application, where you will be prompted to enter your email credentials. If you continue to be prompted for your credentials, navigate to the Cloud Office Control Panel to unlock the mailbox.

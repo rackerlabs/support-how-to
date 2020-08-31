@@ -45,14 +45,14 @@ To create an archive audit report, perform the following steps:
 
 3.  On the **Reports** line, click **Manage**.
 
-    ![](Create-an-archive-audit-report-1.png)
+    {{<image src="Create-an-archive-audit-report-1.png" alt="" title="">}}
 
 4.  Under the **Audits** section, click **+New**.
 
-    ![](Create-an-archive-audit-report-2.png)
+    {{<image src="Create-an-archive-audit-report-2.png" alt="" title="">}}
 
 5.  After entering the guidelines for the audit report, click **Create**.
 
-    ![](Create-an-archive-audit-report-3.png)
+    {{<image src="Create-an-archive-audit-report-3.png" alt="" title="">}}
 
 6.  After the audit report is created, you can download it as a **.CSV** file.

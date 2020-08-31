@@ -37,7 +37,7 @@ If you need any of the data in the mailbox, you must export the data before you 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
-   ![](delete-hexbox-sc1.png)
+   {{<image src="delete-hexbox-sc1.png" alt="" title="">}}
 
 3.	If you have multiple domains, select the domain that contains the mailbox that you want to delete.
 4. Select the check box next to the mailbox that you want to delete.
@@ -46,7 +46,7 @@ If you need any of the data in the mailbox, you must export the data before you 
 
 5. Expand the **Select Action** menu at the bottom of the mailbox list, and select **Delete mailboxes**.
 
-   ![](delete-hexbox-sc2.png)
+   {{<image src="delete-hexbox-sc2.png" alt="" title="">}}
 
 6. Read the information in the popup box that appears. If there is no conflict, click **Delete 1 mailbox**.
 

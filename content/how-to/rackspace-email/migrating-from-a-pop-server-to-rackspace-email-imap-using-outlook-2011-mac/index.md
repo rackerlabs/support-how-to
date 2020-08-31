@@ -53,16 +53,16 @@ export it to a file from Outlook 2011.
 
     **Note:** Only mail data will sync from Outlook 2011 to Rackspace Email. All other items will continue to be stored locally.
 
-    ![](Export_Shot_Mac.png)
+    {{<image src="Export_Shot_Mac.png" alt="" title="">}}
 
 5.  Choose whether you want to delete the items from your local client
     after export. Click the arrow to continue.
 
-    ![](Delete.png)
+    {{<image src="Delete.png" alt="" title="">}}
 
 6.  In the Save window, choose a location that is easy to remember, such as the **Desktop**.
 
-    ![](Location_filecopy.jpg)
+    {{<image src="Location_filecopy.jpg" alt="" title="">}}
 
 The items are exported. A progress bar shows how much of the process has completed.
 
@@ -88,7 +88,7 @@ the **.olm** file into the new mailbox.
 2.  In the Import window, select **Outlook Data File (.pst or .olm)** and then click the
     arrow on the bottom-right corner of the window to continue.
 
-    ![](Import.png)
+    {{<image src="Import.png" alt="" title="">}}
 
 3.  On the next page, select **Outlook for Mac Data File (.olm)** and
     then click the arrow.
@@ -96,7 +96,7 @@ the **.olm** file into the new mailbox.
 4.  In the new window that appears, select the location of the **.olm** file
     and then click the **Import** button. A progress bar is displayed while the data is imported.
 
-    ![](Import_2copy.jpg)
+    {{<image src="Import_2copy.jpg" alt="" title="">}}
 
 5.  Move items from the **.olm** file to the newly configured Rackspace Email mailbox.
 
@@ -104,6 +104,6 @@ When the process is complete, a new section is displayed in the left sidebar of 
 
 **Note:** You might want to create a new folder in your Rackspace Email account to help keep track of the items you have imported.
 
- ![](2013-11-25_1013copy_0.jpg" width="199" height="660" />
+ {{<image src="2013-11-25_1013copy_0.jpg" alt="" title="">}}
 
 After the items are moved into the Rackspace Email account in Outlook 2011, it will start to sync with Webmail and any other device connected as IMAP to this mailbox.

@@ -145,7 +145,7 @@ Directory Sync by performing the following steps:
 1. Open the Directory Sync service administrative web application, if
     it is not already open:
 
-    ![](directory-sync.png)
+    {{<image src="directory-sync.png" alt="" title="">}}
 
 2. On the Sync Registration Page, enter the API User Key
     associated with your Rackspace Cloud Office account, and then click
@@ -217,7 +217,7 @@ synchronized to Rackspace.
 
 The following figure illustrates this communication process.
 
-![](MultipleDCsync.PNG)
+{{<image src="MultipleDCsync.png" alt="" title="">}}
 
 #### Install the Password Handler service on secondary domain DCs
 
@@ -229,7 +229,7 @@ passwords across multiple DCs.
 **Note:** The **.msi** file within the folder should be installed only on the
 secondary DCs.
 
-![](Installer8_0.png)
+{{<image src="Installer8_0.png" alt="" title="">}}
 
 This process applies to multiple DCs (two or more).
 Repeat the following steps for each additional DC in the

@@ -88,7 +88,7 @@ steps:
    You can hover over the backup name for additional details or click the
    gear icon to copy, restore, or delete the backup.
 
-![](ListDetailsInstance.png)
+{{<image src="ListDetailsInstance.png" alt="" title="">}}
 
 ### Delete a backup
 

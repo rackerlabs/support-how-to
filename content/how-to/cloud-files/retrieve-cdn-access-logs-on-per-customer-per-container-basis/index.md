@@ -220,7 +220,7 @@ You can use this script to process your own CDN log files:
 
 Your GoAccess CDN access logs should look like the following example:
 
-![](cdn-access-logs.png)
+{{<image src="cdn-access-logs.png" alt="" title="">}}
 
 ### Install httpd for the CDN log server
 

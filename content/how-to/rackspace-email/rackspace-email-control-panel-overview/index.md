@@ -29,7 +29,7 @@ and tools. The main landing page includes the
 (for example, Microsoft SharePoint), each product has its own section so
 that you can manage it directly from the landing page.
 
-![](CP_Main.png)
+{{<image src="CP_Main.png" alt="" title="">}}
 
 ### Rackspace Email section
 
@@ -37,12 +37,12 @@ The **Rackspace Email** section provides you with various options and
 tools like spam filtering, creating aliases, as well as creating and
 managing Group Lists.
 
-![](RSE_Section.png)
+{{<image src="RSE_Section.png" alt="" title="">}}
 
 To view the available range of options for Rackspace Email, you can
 click on Rackspace Email in the **Go to section** menu.
 
-![](Go_To_Section.png)
+{{<image src="Go_To_Section.png" alt="" title="">}}
 
 After you click **Rackspace Email**, new options appear, such as
 collaboration, and the ability to upgrade your services, like adding

@@ -24,12 +24,12 @@ You can access the **Backup Actions** menu in the following ways:
     on the gear icon next to the backup name on the **Configured Backups**
     page.
 
-    ![](ScreenShot2015-10-15at4.20.11PM.png)
+    {{<image src="ScreenShot2015-10-15at4.20.11PM.png" alt="" title="">}}
 
 -   Click on the **Actions** menu at the top of the **Configuration Details**
     page for a configured backup.
 
-    ![](ScreenShot2015-10-15at4.18.36PM.png)
+    {{<image src="ScreenShot2015-10-15at4.18.36PM.png" alt="" title="">}}
 
 From the **Actions** menu, you can perform the following actions:
 
@@ -47,7 +47,7 @@ system, based on the configurations that are currently set for that configured b
 If you are looking at the **Configuration Details** page, the backup
 progress bar is displayed until the backup is completed.
 
-![](ScreenShot2015-10-15at4.29.20PM.png)
+{{<image src="ScreenShot2015-10-15at4.29.20PM.png" alt="" title="">}}
 
 ### Restore a backup
 
@@ -71,7 +71,7 @@ progress bar is displayed until the backup is completed.
     by clicking the **Selected & Excluded Items** tab. The files included in the restore and specifically excluded are listed.
     3. When you are done, click **Next Step**.
 
-    ![](ScreenShot2015-10-15at4.53.59PM.png)
+    {{<image src="ScreenShot2015-10-15at4.53.59PM.png" alt="" title="">}}
 
 5.  On the next page, select the destination folder.
 
@@ -87,7 +87,7 @@ You can change the name, recurrence, and notifications for your backup job.
 
 From the **Actions** menu, select **Configure Backup**.
 
-![](ScreenShot2015-10-16at1.23.19PM.png)
+{{<image src="ScreenShot2015-10-16at1.23.19PM.png" alt="" title="">}}
 
 1.  Enter a new name for your backup job, and under **Schedule**, select
     how often you want to run the backup. All times are Central Time.
@@ -139,7 +139,7 @@ You can change the files and folders that are saved in your backup.
 You can prevent a backup from running by selecting **Disable Backup**
 from the **Actions** menu.
 
-![](ScreenShot2015-10-16at2.36.44PM.png)
+{{<image src="ScreenShot2015-10-16at2.36.44PM.png" alt="" title="">}}
 
 When you disable a backup, the following actions occur:
 

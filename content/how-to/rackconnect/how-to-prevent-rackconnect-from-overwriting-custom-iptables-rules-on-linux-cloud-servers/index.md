@@ -73,11 +73,11 @@ merge method on a particular server, perform the following steps:
 
     ![Add Network Policy Screenshot; Name TempPolicy, Access Scenario Dedicated to Cloud Server, Source 1.1.1.1, Destination All, Destination Protocol All](framed-netpolicy_0.jpg)
 
-    ![Network Policy Indicator Screenshot; Yellow, still syncing](framed-netpolicy-syncing_0.jpg" alt="Network Policy Indicator Screenshot; Yellow, still syncing" width="749" height="63" />
+    ![Network Policy Indicator Screenshot; Yellow, still syncing](framed-netpolicy-syncing_0.jpg)
 
-    ![Network Policy Indicator Screenshot; Green, sync complete](framed-netpolicy-synced_0.jpg" alt="Network Policy Indicator Screenshot; Green, sync complete" width="750" height="58" />
+    ![Network Policy Indicator Screenshot; Green, sync complete](framed-netpolicy-synced_0.jpg)
 
-    ![Network Policy Delete Screenshot; Check TempPolicy, Click Delete Policy](framed-netpolicy-delete_0.jpg" alt="Network Policy Delete Screenshot; Check TempPolicy, Click Delete Policy" width="749" height="238" />
+    ![Network Policy Delete Screenshot; Check TempPolicy, Click Delete Policy](framed-netpolicy-delete_0.jpg)
 
 3.  Verify that RackConnect Automation is using the merge method
     by looking at the last iptables rule in the `RS-RackConnect-INBOUND`

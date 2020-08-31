@@ -25,7 +25,7 @@ Use the following steps to get the URL for your CDN:
 5. On the **CDN Service** page, in the **Domains** section, click on **Domain Not Configured** under **Status**.
 6. Use the URL and the instructions in the box that opens, which is similar to the following figure, to configure your service.
 
-   ![](ScreenShot2015-12-16at4.56.08PM.png)
+   {{<image src="ScreenShot2015-12-16at4.56.08PM.png" alt="" title="">}}
 
 ### Create a CNAME record with your DNS provider
 

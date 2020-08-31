@@ -26,7 +26,7 @@ Use the following steps to view information for a single backup:
 A list of all of the backup processes that you currently have on your account
 displays, as shown in the following image:
 
-![](1842-2039-IMG-1.png)
+{{<image src="1842-2039-IMG-1.png" alt="" title="">}}
 
 The list of backups has three columns: **Name**, **System**, and **Last Run**. You can sort by each column by clicking on its title.
 
@@ -34,7 +34,7 @@ If you have a long list of backups, you can search for the one that you want in 
 
 To view the settings for a particular backup, click its name in the list of backups. The backup details page is displayed.
 
-![](1842-2039-IMG-2.png)
+{{<image src="1842-2039-IMG-2.png" alt="" title="">}}
 
 -  The Configuration Details section displays the configuration details for the backup.
 
@@ -56,7 +56,7 @@ You can also view the server details by clicking the name of the server, or you 
 
 You can view the backup activity for all of your systems by selecting the **Backups > Activity** from the top navigation bar of the Cloud Control Panel. The Activity list displays all the actions that the backups have performed (such as Backup, Cleanup, and Restore) listed historically. The most recent actions are at the  top.
 
-![](1842-2039-IMG-3.png)
+{{<image src="1842-2039-IMG-3.png" alt="" title="">}}
 
 If the list of activities is long, you can limit your list by performing a search. Enter your search term in the Search box. You can
 search by the following terms:

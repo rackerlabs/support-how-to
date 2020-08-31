@@ -26,7 +26,7 @@ You must set up your audio device and test your audio device before using Skype 
     click the **Select Your Primary Device** icon, and select **Audio
     Device Settings** from the menu.
 
-    ![](4372.1.png)
+    {{<image src="4372.1.png" alt="" title="">}}
 
 2.  Click **Select the device you want to use for audio calls**, and select the device that you want to use.
 
@@ -38,7 +38,7 @@ You must set up your audio device and test your audio device before using Skype 
         choose the appropriate level. If you are using a handset, speak into the receiver. If you are using a headset,
         speak into the microphone.
 
-        ![](4372.2.png)
+        {{<image src="4372.2.png" alt="" title="">}}
 
 
 
@@ -48,13 +48,13 @@ In your contact list, hover your mouse pointer over the picture of the
 person you want to call, and then click the **Phone** icon.<span
 id="cke_bm_432E"> </span>
 
-![](audio1a.jpg" alt="" />
+{{<image src="audio1a.jpg" alt="" title="">}}
 
 ### Answer an audio call
 
 When you receive a call, the following notification appears on your screen:
 
-![](Audio2.JPG" width="170" height="204" />
+{{<image src="Audio2.JPG" alt="" title="">}}
 
 You can perform any of the following actions:
 

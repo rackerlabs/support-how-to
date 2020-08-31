@@ -56,7 +56,7 @@ submission processed quickly and efficiently.
     contact or the existing contact if that is not changing.
 
 
-![Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information](change-account-2.jpg)
+![Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information](change-account-2.jpg" alt="" title="">}}
 
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
 representative completes this section.

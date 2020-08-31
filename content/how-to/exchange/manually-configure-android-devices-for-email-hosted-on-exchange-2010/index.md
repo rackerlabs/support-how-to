@@ -20,18 +20,18 @@ and assign it to your email address.
 
 1. Tap the **Settings** icon, and then tap **Accounts and Sync**.
 
-   ![](1.Settings.png)
-   ![](2.AccountsandSync.png)
+   {{<image src="1.Settings.png" alt="" title="">}}
+   {{<image src="2.AccountsandSync.png" alt="" title="">}}
 
 2. Tap the **Add** icon, and then tap **Exchange ActiveSync**.
 
-  ![](3.Add.png)
-  ![](4.ExchangeActiveSync.png)
+  {{<image src="3.Add.png" alt="" title="">}}
+  {{<image src="4.ExchangeActiveSync.png" alt="" title="">}}
 
 3. Enter your email address and password, and then tap **Manual
    setup**.
 
-   ![](5.ManualSetup.png)
+   {{<image src="5.ManualSetup.png" alt="" title="">}}
 
 4. On the next page, enter the rest of the necessary information and
    then tap **Next**:
@@ -53,7 +53,7 @@ and assign it to your email address.
 
    - Select **This server requires an encrypted SSL connection**.
 
-   ![](6.ServerSettingsExchange.png)
+   {{<image src="6.ServerSettingsExchange.png" alt="" title="">}}
 
 5. If you are prompted to enable remote security administration, tap
    **Ok** or **Allow**.
@@ -64,11 +64,11 @@ and assign it to your email address.
 6. Select the services that you want to synchronize with the Exchange
    server and when to synchronize. Then, tap **Next**.
 
-   ![](7.SyncOptions.png)
+   {{<image src="7.SyncOptions.png" alt="" title="">}}
 
 7. Enter a descriptive name for your account and then tap **Finish
    setup**.
 
-   ![](8.Finalize.png)
+   {{<image src="8.Finalize.png" alt="" title="">}}
 
 Your Android phone and Microsoft Exchange account are now synchronized.

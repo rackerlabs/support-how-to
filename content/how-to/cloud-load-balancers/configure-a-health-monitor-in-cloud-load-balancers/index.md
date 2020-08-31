@@ -47,7 +47,7 @@ that the node is functional.
         health checks. Provide the required information for this
         monitor.
 
-        ![](1492-confighealthmon-3.png)
+        {{<image src="1492-confighealthmon-3.png" alt="" title="">}}
 
         -   **Interval**: Minimum number of seconds to wait before
             executing the health monitor; must be a number between 1
@@ -64,7 +64,7 @@ that the node is functional.
         the actual condition of a node. Provide the required information
         for this monitor.
 
-        ![](1492-confighealthmon-4.png)
+        {{<image src="1492-confighealthmon-4.png" alt="" title="">}}
 
         -   **Interval**: Minimum number of seconds to wait before
             executing the health monitor; must be a number between 1

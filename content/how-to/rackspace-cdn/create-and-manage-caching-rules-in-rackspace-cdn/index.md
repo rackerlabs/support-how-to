@@ -37,7 +37,7 @@ caching rule:
 
    A popup dialog box appears.
 
-   ![](ScreenShot2015-10-02at11.22.58AM.png)
+   {{<image src="ScreenShot2015-10-02at11.22.58AM.png" alt="" title="">}}
 
 2. Enter the following information to define the rule:
 
@@ -60,7 +60,7 @@ To edit a caching rule, follow these steps:
 
 2. Edit the name, the TTL, or the path for the rule.
 
-   ![](ScreenShot2015-10-02at11.39.23AM.png)
+   {{<image src="ScreenShot2015-10-02at11.39.23AM.png" alt="" title="">}}
 
 3. Click **Save Rule**.
 

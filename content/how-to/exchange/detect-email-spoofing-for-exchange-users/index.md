@@ -52,11 +52,11 @@ The first three properties can be easily altered by using settings in your Micro
 
 In the following example, the recipient appears to have received a message from their office assistant requesting money:
 
-![](from_assistant.png)
+{{<image src="from_assistant.png" alt="" title="">}}
 
 The subject line (Send $$$) should alert you immediately. The recipient should contact their assistant through another form of communication to confirm that they did not send this message. Next, discover who actually sent the message by opening the message headers. They should look similar to the following example:
 
-![](reply_to.png)
+{{<image src="reply_to.png" alt="" title="">}}
 
 In the message header snippet shown above, the **From:** field shows the message being sent from **"Assistant"\<assistant@yourdomainexample.com\>**. However, the **REPLY-TO:** field lists **spoofer@scam.com**, which is a clear example of a spoofed message.
 

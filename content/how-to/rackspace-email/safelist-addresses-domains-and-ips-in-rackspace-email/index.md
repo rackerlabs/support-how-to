@@ -36,17 +36,17 @@ If you would prefer a video tutorial see [Email Help - Blacklisting / Safelistin
 
 2. Click your email address in the upper-right corner, and select **Settings** from the menu.
 
-    ![](safelist_settings.png)
+    {{<image src="safelist_settings.png" alt="" title="">}}
 
 3. Click **Spam Settings** on the left-hand side of the pop-up box, and then click the **Safelist** tab.
 
-    ![](settings_safelist.png)
+    {{<image src="settings_safelist.png" alt="" title="">}}
 
 4. In the **Safelisted Domains & Email Addresses**, click **Add**.
 
 5. When prompted to **Add Safelisted Domain or Email Address**, enter the domain or email address you want to safelist in the field under **Enter a domain or email address**, and then click **Add**.
 
-    ![](safelist_domain.png)
+    {{<image src="safelist_domain.png" alt="" title="">}}
 
 6. Confirm that the address is now listed in the box under **Safelisted Domains & Email Addresses**, and click **Save**.
 
@@ -58,6 +58,6 @@ If you need to safelist an IP, follow steps 1-3 in the preceding section, and th
 
 2. When prompted to **Add Safelisted IP Address**, enter the IP address that you want to safelist in the field under **Enter an IP address(or range)**, and then click **Add**.
 
-    ![](safelist_ip.png)
+    {{<image src="safelist_ip.png" alt="" title="">}}
 
 3. Confirm that the address is now listed in the box under **Safelisted Domains & Email Addresses**, and click **Save**.

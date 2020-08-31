@@ -13,7 +13,7 @@ product_url: rackspace-monitoring
 
 Sometimes, an email alert isn't enough. If you are on call, on the go, or far from Wi-Fi, mobile alerts are a necessity. For the most critical problems, you can set up notifications from multiple form factors, combining SMS with any of our other [notification types](/support/support/how-to/rackspace-monitoring-checks-and-alarms/).
 
-![](CMSMS1.png)
+{{<image src="CMSMS1.png" alt="" title="">}}
 
 ### Get notified with SMS
 

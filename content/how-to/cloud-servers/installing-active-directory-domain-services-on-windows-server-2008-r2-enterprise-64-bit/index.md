@@ -62,7 +62,7 @@ server address of the same private network adapter, as follows:
     box and paste it in the **Preferred DNS server** box. Then, click
     **OK**.
 
-    ![edit IPv4 properties](2K8_64R2_ADDS(2).jpg)
+    ![edit IPv4 properties](2K8_64R2_ADDS(2).jpg" alt="" title="">}}
 
 6.  Click **OK** in the Properties dialog box, and close the
     Network Connections window.

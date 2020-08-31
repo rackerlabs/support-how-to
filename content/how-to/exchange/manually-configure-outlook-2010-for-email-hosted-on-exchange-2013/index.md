@@ -19,7 +19,7 @@ Outlook 2010 email client.
 1. Click the Windows **Start** button, select **Control Panel**, and
    then click **Mail** (32-bit).
 
-   ![](Step1.png)
+   {{<image src="Step1.png" alt="" title="">}}
 
    **Note:** Depending on which version of Windows you are running, you may need
    to switch to Classic view to find the **Mail** entry or it might be
@@ -33,12 +33,12 @@ Outlook 2010 email client.
    **Manually configure server settings or additional server types** and
    click **Next**.
 
-   ![](Step2.png)
+   {{<image src="Step2.png" alt="" title="">}}
 
 4. On the **Choose Service** page, select **Microsoft Exchange or compatible
    service** and click **Next**.
 
-   ![](Step3.png)
+   {{<image src="Step3.png" alt="" title="">}}
 
 5. On the Server Settings page, perform the following actions:
 
@@ -47,13 +47,13 @@ Outlook 2010 email client.
    3. In the **User Name** text box, enter your entire email address.
    4. Click **More Settings**.
 
-   ![](Step4.png)
+   {{<image src="Step4.png" alt="" title="">}}
 
 6. In the Microsoft Exchange dialog box, click the **Connection** tab
    and select the **Connect to Microsoft Exchange using HTTP** check box.
    Then click **Exchange Proxy Settings**.
 
-   ![](Step5.png)
+   {{<image src="Step5.png" alt="" title="">}}
 
 7. In the Microsoft Exchange Proxy Settings dialog box, perform the
    following actions:
@@ -69,7 +69,7 @@ Outlook 2010 email client.
 
    4. Click **OK**.
 
-   ![](Step6.png)
+   {{<image src="Step6.png" alt="" title="">}}
 
 8. In the Microsoft Exchange dialog box, click **Apply** and then click
    **OK**.
@@ -89,7 +89,7 @@ Outlook 2010 email client.
 
 10. Click **Next**, and on the next page, click **Finish**.
 
-    ![](Step7.png)
-    ![](Step8.png)
+    {{<image src="Step7.png" alt="" title="">}}
+    {{<image src="Step8.png" alt="" title="">}}
 
 11. Open Outlook to select your new Exchange profile.
