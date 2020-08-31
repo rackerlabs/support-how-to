@@ -40,7 +40,7 @@ complete you can switch them to the Rackspace MX records listed here:
 [Set up DNS records for Cloud Office email and Skype for
 Business](/support/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
 
-![]((EA)SplitDomainRouting.png)
+![](EASplitDomainRouting.png)
 
 ### Enabling SDR through the Cloud Office Control Panel
 
@@ -53,7 +53,7 @@ that external mail server. We will use this address only to validate the
 server. You must also open port 25 on the external mail server so that
 our system can connect to it.
 
-![]((EA)SplitDomainRouting2.png)
+![](EASplitDomainRouting2.png)
 
 #### To enable SDR
 
@@ -108,7 +108,7 @@ The following should be in place:
 -   Ensure that you have requested your **rackspace.example.com**
     subdomain as a *domain alias*. In order to do this, contact Support (chat, phone call, or open a ticket).
 
-![]((EA)SplitDomainRouting6.png)
+![](EASplitDomainRouting6.png)
 
 If Rackspace is your DNS host, enter this subdomain name in the Mail Records (MX) section of the DNS Settings page in the control panel.
 

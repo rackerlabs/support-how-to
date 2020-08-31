@@ -22,7 +22,7 @@ Microsoft Outlook 2007 email client.
 2.  Click the **Windows Start** button, select **Control Panel**,
     and then select the **Mail icon**.
 
-    ![]((EA)Outlook2010ExchangeTwo.png)
+    ![](EAOutlook2010ExchangeTwo.png)
 
     **Note**: In some cases, you may need to switch to Classic View to
     find the mail icon or it may state 32-Bit.
@@ -30,17 +30,17 @@ Microsoft Outlook 2007 email client.
 3.  Select the **Show Profiles** button, click the **Add** button,
     enter a name for this profile and select the **OK** button.
 
-    ![]((EA)Outlook2010Exchange4.png)
+    ![](EAOutlook2010Exchange4.png)
 
 4.  Select the **Manually configure server settings or additional server
     types** check box and click the **Next** button.
 
-    ![]((EA)Outlook2010Exchange50.png)
+    ![](EAOutlook2010Exchange50.png)
 
 5.  Select the **Microsoft Exchange** option and click
     the **Next** button.
 
-    ![]((EA)Outlook2010Exchange6.png)
+    ![](EAOutlook2010Exchange6.png)
 
 6.  Enter the Microsoft Exchange server address from the Outlook 2007
     Setup guide in the control panel.
@@ -48,7 +48,7 @@ Microsoft Outlook 2007 email client.
     Select the **Use Cached Exchange Mode** check box.
     In the **User Name** box, enter your entire email address.
 
-    ![]((EA)Outlook2010Exchange7.png)
+    ![](EAOutlook2010Exchange7.png)
 
 7.  Select the **More Settings** button, select the **Connection** tab
     and select the **Connect to Microsoft Exchange** **using HTTP**
@@ -56,13 +56,13 @@ Microsoft Outlook 2007 email client.
     the **Proxy Server address** from the
     Outlook 2007 setup guide in the control panel..
 
-    ![]((EA)Outlook2010Exchange8.png)
+    ![](EAOutlook2010Exchange8.png)
 
 8.  Select both the **On fast networks** and **On slow networks** check
     boxes and, under **Proxy authentication** settings, select **Basic
     Authentication**.
 
-    ![]((EA)Outlook2010Exchange9.png)
+    ![](EAOutlook2010Exchange9.png)
 
 9.  Click **Ok**, **Apply**, **Ok** again, then select the **Check
     Name** box in the Connect window, enter in the Password and select
@@ -75,4 +75,4 @@ Microsoft Outlook 2007 email client.
     username field which indicates your profile has been configured.
     Select **Next**, **Finish**, and open Outlook. You're finished!
 
-    ![]((EA)Outlook2010Exchange10.png)
+    ![](EAOutlook2010Exchange10.png)

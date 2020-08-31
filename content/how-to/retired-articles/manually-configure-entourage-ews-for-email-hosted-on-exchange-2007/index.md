@@ -30,8 +30,8 @@ Edition**.
    Account Manually**, then **New**,
    then **Exchange**.
 
-   ![]((EA)Entourage2008EWSExchange.png)
-   ![]((EA)Entourage2008EWSExchange2.png)
+   ![](EAEntourage2008EWSExchange.png)
+   ![](EAEntourage2008EWSExchange2.png)
 
 3. Enter the following information into the fields:
 
@@ -54,13 +54,13 @@ Edition**.
    - **Password** - Enter the password associated with
     the email address you're setting up.
 
-   ![]((EA)Entourage2008EWSExchange4.png)
+   ![](EAEntourage2008EWSExchange4.png)
 
 4. Next, click the **Advanced** tab and, in the
    **Exchange Server** box, enter the **EWS Server** address from
    the **Setting Up Entourage 2008** window.
 
-   ![]((EA)Entourage2008EWSExchange5.png)
+   ![](EAEntourage2008EWSExchange5.png)
 
 5. Check the **This DAV service requires a secure
    connection (SSL)** box and then click the **OK** button.

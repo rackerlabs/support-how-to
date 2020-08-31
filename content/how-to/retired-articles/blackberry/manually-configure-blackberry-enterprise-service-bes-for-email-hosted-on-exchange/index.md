@@ -34,14 +34,14 @@ meantime, please feel free to continue using ActiveSync.
 1. From the home screen on your Blackberry select
    **Messaging**, then select **Options**.
 
-   ![]((EA)BlackBerryBES.png)
-   ![]((EA)BlackBerryBES2.png)
+   ![](EABlackBerryBES.png)
+   ![](EABlackBerryBES2.png)
 
 2. Select **Advanced Options** and then select **Enterprise
    Activation**.
 
-   ![]((EA)BlackBerryBES3.png)
-   ![]((EA)BlackBerryBES4.png)
+   ![](EABlackBerryBES3.png)
+   ![](EABlackBerryBES4.png)
 
 3. Enter your full **email address** and the
    **ActivationPassword** provided by your administrator,
@@ -50,8 +50,8 @@ meantime, please feel free to continue using ActiveSync.
    "**Acquiring service connection**" and your device will
    begin the process of setting up your account.
 
-   ![]((EA)BlackBerryBES5.png)
-   ![]((EA)BlackBerryBES6.png)
+   ![](EABlackBerryBES5.png)
+   ![](EABlackBerryBES6.png)
 
    **Note:** This process can take anywhere from 2 - 20 mins depending on
    your connection and how much data you have.
@@ -62,8 +62,8 @@ meantime, please feel free to continue using ActiveSync.
    **Setup** icon and then select the **Email
    Accounts** icon.
 
-   ![]((EA)BlackBerryBES7.png)
-   ![]((EA)BlackBerryBES8.png)
+   ![](EABlackBerryBES7.png)
+   ![](EABlackBerryBES8.png)
 
 2. Select **Enterprise Activation**, fill in your
    **Email Address** and **Activation Password**
@@ -71,8 +71,8 @@ meantime, please feel free to continue using ActiveSync.
    "**Acquiring service connection**" and your device will
    begin the process of setting up your account.
 
-   ![]((EA)BlackBerryBES9.png)
-   ![]((EA)BlackBerryBES10.png)
+   ![](EABlackBerryBES9.png)
+   ![](EABlackBerryBES10.png)
 
    **Note:** This process can take anywhere from 2 - 20 mins depending on
    your connection and how much data you have.

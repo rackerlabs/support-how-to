@@ -19,12 +19,12 @@ Microsoft Outlook 2011 email client.
 1. Open Outlook and from the Outlook drop-down menu, select
    **Preferences**. In the Outlook Preferences menu, select **Accounts**.
 
-   ![]((E&A)Outlook2011IMAP.png)
-   ![]((E&A)Outlook2011IMAP2.png)
+   ![](E&AOutlook2011IMAP.png)
+   ![](E&AOutlook2011IMAP2.png)
 
 2. On the **Accounts** screen, select **Exchange Account**.
 
-   ![]((E&A)Outlook2011Exchange.png)
+   ![](E&AOutlook2011Exchange.png)
 
 3. Enter the following information:
 
@@ -48,8 +48,8 @@ Microsoft Outlook 2011 email client.
 
    Close all windows and you're done!
 
-   ![]((E&A)Outlook2011Exchange4.png)
-   ![]((E&A)Outlook2011Exchange3.png)
+   ![](E&AOutlook2011Exchange4.png)
+   ![](E&AOutlook2011Exchange3.png)
 
 **Note:** The amber dot may take a minute or two to change from amber to
 green. If it doesn't change, check the accounts settings and password and make
