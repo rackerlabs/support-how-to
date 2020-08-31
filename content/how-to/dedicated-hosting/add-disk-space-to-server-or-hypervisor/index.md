@@ -26,14 +26,14 @@ This article explains how to create a ticket to add disk space to a server or hy
 
 5. From the dropdown menu, Select **Add Disk Space to Server or Hypervisor.**
 
-   ![](adddisk1.png)
+   {{<image src="adddisk1.png" alt="" title="">}}
 
 6. In the Ticket Details section, select a device from the dropdown menu 
 
 7. Enter the amount of disk space needed, and choose whether to add the space to an existing volume or to
    configure as a new drive. 
 
-   ![](adddisk2.png)
+   {{<image src="adddisk2.png" alt="" title="">}}
 
 8. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by selecting
    the **Anytime** checkbox.  Otherwise, fill out the remaining maintenance details to have the work
@@ -41,4 +41,4 @@ This article explains how to create a ticket to add disk space to a server or hy
 
 9. Select **Create Ticket**.
 
-   ![](adddisk3.png)
+   {{<image src="adddisk3.png" alt="" title="">}}

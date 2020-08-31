@@ -138,7 +138,7 @@ information to and from your server in a secure fashion.
     If the password is correct, you connect to your server. You see
     a screen similar to the following one:
 
-    ![](3768.16.png)
+    {{<image src="3768.16.png" alt="" title="">}}
 
 #### Install Apache
 
@@ -199,7 +199,7 @@ Now that the correct HTML file is uploaded to the correct directory, you
 should see your site when you refresh your browser, as shown in the following
 image:
 
-![](3768.26.png)
+{{<image src="3768.26.png" alt="" title="">}}
 
 ### Next steps
 

@@ -19,12 +19,12 @@ Microsoft Outlook 2011 email client.
 1. Open Outlook and from the Outlook drop-down menu, select
    **Preferences**. In the Outlook Preferences menu, select **Accounts**.
 
-   ![](E&AOutlook2011IMAP.png)
-   ![](E&AOutlook2011IMAP2.png)
+   {{<image src="E&AOutlook2011IMAP.png" alt="" title="">}}
+   {{<image src="E&AOutlook2011IMAP2.png" alt="" title="">}}
 
 2. On the **Accounts** screen, select **Exchange Account**.
 
-   ![](E&AOutlook2011Exchange.png)
+   {{<image src="E&AOutlook2011Exchange.png" alt="" title="">}}
 
 3. Enter the following information:
 
@@ -40,7 +40,7 @@ Microsoft Outlook 2011 email client.
 
    - Server - Enter **connect.emailsrvr.com**.
 
-    ![](Outlook2011WithExchange2010.png)
+    {{<image src="Outlook2011WithExchange2010.png" alt="" title="">}}
 
 4. Click **Add Account** and confirm that the amber-colored dot
    next to the account name turns from an amber color to a solid green color
@@ -48,8 +48,8 @@ Microsoft Outlook 2011 email client.
 
    Close all windows and you're done!
 
-   ![](E&AOutlook2011Exchange4.png)
-   ![](E&AOutlook2011Exchange3.png)
+   {{<image src="E&AOutlook2011Exchange4.png" alt="" title="">}}
+   {{<image src="E&AOutlook2011Exchange3.png" alt="" title="">}}
 
 **Note:** The amber dot may take a minute or two to change from amber to
 green. If it doesn't change, check the accounts settings and password and make

@@ -68,4 +68,4 @@ side-by-side in a grid or display them in a linear sequence.
 
 The following example shows a grid layout:
 
-![](gridlayout.png)
+{{<image src="gridlayout.png" alt="" title="">}}

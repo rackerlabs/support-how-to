@@ -28,18 +28,18 @@ For up to 14 days from when an item is purged from the trash, you can recover em
 
 1. Right-click the **Deleted Items** folder and select **Recover deleted items** in the dropdown menu.
 
-    ![](recover_deleted_items.png)
+    {{<image src="recover_deleted_items.png" alt="" title="">}}
     
     The **Recover deleted items** tool opens in a separate window.
 
 3. Select the items that you want to recover, and click **Recover**.
 
-    ![](recover_messages.png)
+    {{<image src="recover_messages.png" alt="" title="">}}
 
 4. A confirmation box appears that describes where the messages will be placed. Click **OK**.
 
-    ![](ok.png)
+    {{<image src="ok.png" alt="" title="">}}
 
 5. Exit the **Recover deleted items** tool and confirm that the messages are restored to their original folder.
 
-   ![](inbox.png)
+   {{<image src="inbox.png" alt="" title="">}}

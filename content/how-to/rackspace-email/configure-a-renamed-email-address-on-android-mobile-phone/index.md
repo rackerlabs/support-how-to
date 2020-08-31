@@ -31,7 +31,7 @@ The following steps use general settings for Android devices. Some steps might v
 3. Tap **Add Account**.
 4. Select **Email** as the Account Type.
 
-   ![](android-typemail.png)
+   {{<image src="android-typemail.png" alt="" title="">}}
 
 5. Enter the following information:
    - **Email Address:** Your renamed Rackspace Email address
@@ -40,7 +40,7 @@ The following steps use general settings for Android devices. Some steps might v
 5. Tap **Sign In**.
 6. Tap **IMAP account**.
 
-    ![](account-type-imap.png)
+    {{<image src="account-type-imap.png" alt="" title="">}}
 
 7. Enter the following account and server information:
 

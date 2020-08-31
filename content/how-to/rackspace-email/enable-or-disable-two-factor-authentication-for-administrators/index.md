@@ -55,7 +55,7 @@ Use the following steps to enable a mobile multi-factor authentication applicati
 
 3. Link your mobile device to your administrator account by using the following the instructions in the prompt:
 
-    ![](mobile_app.png)
+    {{<image src="mobile_app.png" alt="" title="">}}
 
 4. The last step displays the following message: **You have successfully set up Multi-Factor Authentication!**
 

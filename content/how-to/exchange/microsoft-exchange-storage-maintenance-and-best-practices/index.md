@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel") by using your Rackspace Cloud Office admin ID and password.
 2. In the **Microsoft Exchange** section, click **Mailboxes**.
 
-   ![](HEXstorageCPSC1.png)
+   {{<image src="HEXstorageCPSC1.png" alt="" title="">}}
 
 3. If you have multiple domains, select the domain for which you want to check storage.
 
@@ -37,11 +37,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 4. To increase a user's storage quota, click the blue link for the corresponding mailbox name in the **Display Name** column.
 
-   ![](HEXstorageCPSC2.png)
+   {{<image src="HEXstorageCPSC2.png" alt="" title="">}}
 
 5. Under **Storage**, use the slide bar to increase the mailbox storage quota.
 
-   ![](HEXstorageCPSC3.png)
+   {{<image src="HEXstorageCPSC3.png" alt="" title="">}}
 
 6. Click **Save**.
 

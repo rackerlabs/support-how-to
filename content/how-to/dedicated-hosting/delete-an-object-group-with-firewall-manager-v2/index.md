@@ -38,7 +38,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 5. Under **Rules** in the navigation pane, click **IP Groups**.
 
-    ![](ip-groups.png)
+    {{<image src="ip-groups.png" alt="" title="">}}
 
 6. Scroll through or search the object-group list and click the object-group that you want to delete.
 
@@ -46,7 +46,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 8. Enter any additional information in the text box, and then click **Submit Ticket**.
 
-    ![](delete-object-group.png)
+    {{<image src="delete-object-group.png" alt="" title="">}}
 
 A ticket is submitted on your behalf to manually remove the object-group and
 delete any configuration items that reference the group, such as access lists, VPN encryption domains, or even other object-groups. The ticket is automatically forwarded to the appropriate Rackspace Network Security team, and a team member will perform quality checks and confirm with you directly if anything appears to be incorrect.

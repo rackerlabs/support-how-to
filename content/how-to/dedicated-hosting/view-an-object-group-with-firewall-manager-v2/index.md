@@ -37,7 +37,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 5. Under **Rules** in the navigation pane, click **IP Groups**.
 
-    ![](ip-groups.png)
+    {{<image src="ip-groups.png" alt="" title="">}}
 
 6. Scroll through or search the object-group list and click the appropriate object-group. The contents of the object-group are automatically displayed.
 

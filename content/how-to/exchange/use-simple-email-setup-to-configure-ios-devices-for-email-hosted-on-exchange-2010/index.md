@@ -24,7 +24,7 @@ using, contact your administrator.
    [connect.emailsrvr.com](https://connect.emailsrvr.com) with your email
    address and password.
 
-   ![](1_0.png)
+   {{<image src="1_0.png" alt="" title="">}}
 
 2. In the top right hand corner, select **Options** and then select
    **See All Options**.
@@ -32,13 +32,13 @@ using, contact your administrator.
    On the next screen, select **Setup your iPhone**
    under **Shortcuts to things you can do**
 
-   ![](2_1.png)
-   ![](3_1.png)
+   {{<image src="2_1.png" alt="" title="">}}
+   {{<image src="3_1.png" alt="" title="">}}
 
 3. On the next screen, fill in the fields that apply to you
    and select **Send**.
 
-   ![](4_1.png)
+   {{<image src="4_1.png" alt="" title="">}}
 
 4. You'll receive a text message with a link.
    Click that link.
@@ -47,9 +47,9 @@ using, contact your administrator.
 
    On the next screen, enter the password for your email address.
 
-   ![](iPhone1.png)
-   ![](iPhone2.png)
-   ![](iPhone4.png)
+   {{<image src="iPhone1.png" alt="" title="">}}
+   {{<image src="iPhone2.png" alt="" title="">}}
+   {{<image src="iPhone4.png" alt="" title="">}}
 
    **Note:** if you have the passcode protection on your phone, you may
    receive a passcode notification to confirm the installation.
@@ -63,7 +63,7 @@ using, contact your administrator.
    from the server on your phone. The time required for this process can vary
    depending on your connection speed and how many days of mail is syncing.
 
-   ![](iPhone5.png)
+   {{<image src="iPhone5.png" alt="" title="">}}
 
 ### Remove email account from iPhone
 
@@ -76,8 +76,8 @@ iPhone, follow the steps below:
 2. On the next screen, select **Remove**. Select **Remove** again on the
    confirmation screen.
 
-   ![](iPhone6.png)
-   ![](iPhone7.png)
+   {{<image src="iPhone6.png" alt="" title="">}}
+   {{<image src="iPhone7.png" alt="" title="">}}
 
 **Note:** if you have passcode protection on your phone, you may
 receive a passcode notification to confirm the removal of your account.

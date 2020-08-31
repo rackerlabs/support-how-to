@@ -65,7 +65,7 @@ default configuration details.
 
 5. Select the flavor (includes CPU, RAM and disk) on the resulting screen.
 
-    ![](4SelectFlavorScreen.png)
+    {{<image src="4SelectFlavorScreen.png" alt="" title="">}}
 
 6. After you return to the Select Options page, tap **Create Server**.
 

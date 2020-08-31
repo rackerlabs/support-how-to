@@ -139,7 +139,7 @@ To ensure that the task runs, click **Enable All Tasks History** in the
 running, you can highlight it and click on the **History** tab to ensure that
 it is running regularly every minute as shown in the following image:
 
-![](History.png)
+{{<image src="History.png" alt="" title="">}}
 
 ### Testing
 

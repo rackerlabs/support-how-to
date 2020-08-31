@@ -25,7 +25,7 @@ servers, see [New Features in General Purpose and Work-Optimized Cloud Servers](
         next to the image that you want to use to create the server, and
         select **Create Server with Image**. Skip to step 3.
 
-        ![](SavedImages.png)
+        {{<image src="SavedImages.png" alt="" title="">}}
 
     -   To create a new server, select **Servers > Cloud Servers**, and then
         click **Create Server**.
@@ -49,7 +49,7 @@ servers, see [New Features in General Purpose and Work-Optimized Cloud Servers](
 8.  In the **Flavor** section, select the flavor class and specific
     flavor for your server.
 
-    ![](FlavorImg.png)
+    {{<image src="FlavorImg.png" alt="" title="">}}
 
 9.  In the **Advanced Options** section, click **Select Networks** and
     choose the networks to which your server will be connected.

@@ -333,15 +333,15 @@ The following examples show some common IPtraf commands with sample output:
 
 **General output**: `iptraf -g`
 
-![](IMAGE1.png)
+{{<image src="IMAGE1.png" alt="" title="">}}
 
 **Detailed Information on a selected interface**: `iptraf -d iface`
 
-![](IMAGE2.png)
+{{<image src="IMAGE2.png" alt="" title="">}}
 
 **Semi-Graphical interface**: `iptraf`
 
-![](IPtrafe-IMAGE3.jpg)
+{{<image src="IPtrafe-IMAGE3.jpg" alt="" title="">}}
 
 ### Conclusion
 

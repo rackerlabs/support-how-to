@@ -17,17 +17,17 @@ the Outlook Web App to set up your Outlook email client with Exchange 2010.
 1.  Log in to [connect.emailsrvr.com](https://connect.emailsrvr.com) with
     your email address and password.
 
-    ![](2133.1b.png)
+    {{<image src="2133.1b.png" alt="" title="">}}
 
 2.  In the top right corner of the screen, click **Options** and then
     select **See All Options**.
 
-    ![](2133.2a_1.png)
+    {{<image src="2133.2a_1.png" alt="" title="">}}
 
 3.  In the screen that opens, select **Setup Outlook** under **Shortcuts
     to things you can do**.
 
-    ![](2133.3a.png)
+    {{<image src="2133.3a.png" alt="" title="">}}
 
     After you've selected **Setup Outlook** your configuration file
     begins to download.
@@ -35,7 +35,7 @@ the Outlook Web App to set up your Outlook email client with Exchange 2010.
 4.  After the download is complete, locate the configuration file and
     double-click the file to run the configuration.
 
-    ![](2133.4a.png)
+    {{<image src="2133.4a.png" alt="" title="">}}
 
     As soon as the configuation finishes, a pop screen will appear
     asking you for your credentials.
@@ -43,7 +43,7 @@ the Outlook Web App to set up your Outlook email client with Exchange 2010.
 5.  Enter in email address and password for the email account your
     creating, and then click **Create**.
 
-    ![](2133.5b.png)
+    {{<image src="2133.5b.png" alt="" title="">}}
 
     The verification process begins. After your credentials are
     verified, Outlook opens and presents another screen asking for your
@@ -51,7 +51,7 @@ the Outlook Web App to set up your Outlook email client with Exchange 2010.
 
 6.  Enter your email address and password, and then click **OK**.
 
-    ![](2133.6a.png)
+    {{<image src="2133.6a.png" alt="" title="">}}
 
     If everything is correct, your profile is created and mail starts to
     sync to your inbox.

@@ -47,7 +47,7 @@ Cisco firewalls also use a fail-close approach that means that there is an impli
 
 3. Under **Rules**, click **All Rules**.
 
-    ![](image-rules.png)
+    {{<image src="image-rules.png" alt="" title="">}}
 
 4. In the navigation pane on the left side of the panel, click the firewall for which you want to modify the execution order of the access-list's rules.
 
@@ -55,7 +55,7 @@ Cisco firewalls also use a fail-close approach that means that there is an impli
 
 6. Select the **Change order** option.
 
-    ![](image-line-number.png)
+    {{<image src="image-line-number.png" alt="" title="">}}
 
 7. Specify the line number to which to move this entry to.
 

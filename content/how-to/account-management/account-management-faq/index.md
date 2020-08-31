@@ -279,7 +279,7 @@ account might have access to.
 
 Following is the initial pop-up window that appears when you enable RBAC.
 
-![](RBAC.png)
+{{<image src="RBAC.png" alt="" title="">}}
 
 For information about additional products that will be RBAC-enabled in
 the future, see [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).

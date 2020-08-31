@@ -16,37 +16,37 @@ ActiveSync on a Windows Phone:
 
 1. Locate the **Settings** options from within your application menu.
 
-   ![](0000.png)
+   {{<image src="0000.png" alt="" title="">}}
 
 2. Select **Email + Accounts**.
 
-   ![](image002_2.png)
+   {{<image src="image002_2.png" alt="" title="">}}
 
 3. Select **Add an Account**.
 
-   ![](image003_2.png)
+   {{<image src="image003_2.png" alt="" title="">}}
 
 4. Select the option for **Advanced Setup**.
 
-   ![](image004_2.png)
+   {{<image src="image004_2.png" alt="" title="">}}
 
 5. Enter your full email address and password for your account.
    Then press the **sign in** button.
 
-   ![](image005_2.png)
+   {{<image src="image005_2.png" alt="" title="">}}
 
 6. Select **Exchange ActiveSync**.
 
-   ![](image006_2.png)
+   {{<image src="image006_2.png" alt="" title="">}}
 
 7. Ensure your email address remains correct.  
    Leave the **Domain** field blank.
    Enter the following address for **Server**: **connect.emailsrvr.com.**
 
-   ![](image001_2.png)
+   {{<image src="image001_2.png" alt="" title="">}}
 
 8. Select the **sign in** button. Once connected, you will see a
    new icon within your settings menu with the name of your new email
    account.
 
-   ![](image007_2.png)
+   {{<image src="image007_2.png" alt="" title="">}}

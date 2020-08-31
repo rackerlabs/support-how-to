@@ -26,7 +26,7 @@ no single point of failure in front of our DNS servers.
 The following architecture diagram shows the Rackspace Cloud DNS
 infrastructure:
 
-![](dnsoverview.png)
+{{<image src="dnsoverview.png" alt="" title="">}}
 
 By using Anycast, Rackspace broadcast Internet Protocol (IP) addresses from
 each location, which offers the following advantages:

@@ -45,7 +45,7 @@ cinder-volume). In my case I want to also run cinder-volume on this node
 and I am specifying neutron, heat and other components as well just for
 demonstration purposes.
 
-![](blogvisios.png)
+{{<image src="blogvisios.png" alt="" title="">}}
 
 Running this command in your environment should look similar to this:
 

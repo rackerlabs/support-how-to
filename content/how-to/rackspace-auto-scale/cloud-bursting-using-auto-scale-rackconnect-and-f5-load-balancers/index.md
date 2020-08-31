@@ -25,7 +25,7 @@ The following diagram shows the path that inbound (and return) load
 balancer pool traffic follows to your cloud servers when you use Auto
 Scale with a F5 BIG-IP load balancer and RackConnect.
 
-![](F5_AS-5-13-14%5B1%5D.jpg" width="700" />
+{{<image src="F5_AS-5-13-14B1D.jpg" alt="" title="">}}
 [View image at full
 resolution](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/F5_AS-5-13-14%5B1%5D.jpg)
 

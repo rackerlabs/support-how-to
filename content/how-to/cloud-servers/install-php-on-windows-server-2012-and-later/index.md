@@ -40,7 +40,7 @@ PHP choices.
 3. Select **Add** next to the version of PHP you want to install and
 click **Install**.
 
-   ![](php_webpi.png)
+   {{<image src="php_webpi.png" alt="" title="">}}
 
 4. When prompted to accept the license terms, review them and click **I Accept**.
 
@@ -75,7 +75,7 @@ file as **info.php** in the IIS root directory.
    **Note**: This information can be sensitive so be sure to delete
    the **info.php** file after the installation is successfully tested.
 
-   ![](php_info.png)
+   {{<image src="php_info.png" alt="" title="">}}
 
 ### Customize PHP
 
@@ -119,6 +119,6 @@ server homepage.
 5. Select the **index.php** option and move it to the top of the
 list.
 
-   ![](php_top.png)
+   {{<image src="php_top.png" alt="" title="">}}
 
 IIS now serves **index.php** files from the **wwwroot** folder before all other document types.

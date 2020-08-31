@@ -47,7 +47,7 @@ following tools:
 The tutorial sets up a four-node cluster, runs an application on it, and
 gauges the performance, as shown in the following image:
 
-![](HPC_Cluster.png)
+{{<image src="HPC_Cluster.png" alt="" title="">}}
 
 *Figure 1 - HPC on the Cloud High Level Architecture*
 

@@ -27,43 +27,43 @@ assign it to your email address, and provide you with an activation PIN.
 
 3. Locate the **Settings** options from within your home menu.
 
-   ![](1_42.png)
+   {{<image src="1_42.png" alt="" title="">}}
 
 4. Select **Accounts**.
 
-   ![](2_39.png)
+   {{<image src="2_39.png" alt="" title="">}}
 
 5. Select **Advanced** from the bottom of the screen, or you may need to
    select **Add Account** first if you already have an account set up.
 
-   ![](3_37.png)
+   {{<image src="3_37.png" alt="" title="">}}
 
 6. Select **Microsoft&reg; Exchange ActiveSync**.
 
-   ![](4_28.png)
+   {{<image src="4_28.png" alt="" title="">}}
 
 7. Enter your full email address, server address, and domain exactly as it
    is in the **Setting up ActiveSync** window. Then enter your mailbox
    password.
 
-   ![](5_26.png)
+   {{<image src="5_26.png" alt="" title="">}}
 
 8. Confirm which personal information you would like to sync from your
    Exchange mailbox to your Blackberry, then select **Done**.
 
-   ![](6_15.png)
+   {{<image src="6_15.png" alt="" title="">}}
 
 9. Wait for your Blackberry to complete verifying your settings.
 
-   ![](7_8.png)
+   {{<image src="7_8.png" alt="" title="">}}
 
 10. When this is complete, you will see your list of accounts as well as
     the new account that was setup.
 
-    ![](8_6.png)
+    {{<image src="8_6.png" alt="" title="">}}
 
 11. To check for new messages swipe, up from the bottom of the screen
     then to the right, and then select your mail account to view your
     inbox.
 
-    ![](9_5.png)
+    {{<image src="9_5.png" alt="" title="">}}

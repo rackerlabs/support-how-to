@@ -18,7 +18,7 @@ by [suppressing notification](/support/how-to/working-with-notification-suppress
 When you [log in to Rackspace Intelligence](/support/how-to/logging-in-to-the-rackspace-intelligence-dashboard),
 you can view all your relevant information on the dashboard:
 
-![](intelligence-dashboard-overview.png)
+{{<image src="intelligence-dashboard-overview.png" alt="" title="">}}
 
 The dashboard provides a main overview of all of your monitoring
 activities.

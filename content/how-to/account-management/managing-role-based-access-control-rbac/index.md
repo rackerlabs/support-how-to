@@ -117,4 +117,4 @@ same user to access each account. In this situation, the account
 owner must configure that user with a different username for
 each account. The following graphic illustrates this scenario.
 
-![](MutiAccountsRBAC.png)
+{{<image src="MutiAccountsRBAC.png" alt="" title="">}}

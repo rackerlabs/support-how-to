@@ -20,10 +20,10 @@ relates to the purpose of the suppression. For example, if all alerts
 were suppressed during a scheduled maintenance period, alerts related to
 servers that were not expected to be disrupted should be investigated.
 
-![](intelligence-suppression-log.png)
+{{<image src="intelligence-suppression-log.png" alt="" title="">}}
 
 To learn more about an entity, notification plan, or suppression in the
 log, click its name. If it has not been deleted, you can then see its
 detailed description.
 
-![](intelligence-suppression-inactive.png)
+{{<image src="intelligence-suppression-inactive.png" alt="" title="">}}

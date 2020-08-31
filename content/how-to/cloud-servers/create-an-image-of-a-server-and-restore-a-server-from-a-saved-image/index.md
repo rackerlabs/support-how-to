@@ -56,7 +56,7 @@ Use the following steps to create an image backup:
 
 5. After the **Server Information** page loads, click **Actions** and select **Create Image**.
 
-    ![](ScreenShot2015-01-12at5.25.09AM.png)
+    {{<image src="ScreenShot2015-01-12at5.25.09AM.png" alt="" title="">}}
 
 6. Enter a name for the image and click **Create Image**.
 
@@ -88,7 +88,7 @@ Use the following steps to restore a server from a saved image:
 
 8. When presented with your root admin password, copy the password to a secure location and then click **Dismiss Password**.
 
-	![](1405-7.png)
+	{{<image src="1405-7.png" alt="" title="">}}
 
 While your server goes through the build process, a **Building** notification
 is displayed.

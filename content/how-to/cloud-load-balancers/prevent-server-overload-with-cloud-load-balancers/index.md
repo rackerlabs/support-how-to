@@ -38,7 +38,7 @@ balancer:
 
      The following pop-up window appears:
 
-     ![](827-1496.png)
+     {{<image src="827-1496.png" alt="" title="">}}
 
 5.  Enter a value between 1 and 100000 for **Max. Connections**.
 

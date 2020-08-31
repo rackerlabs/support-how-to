@@ -45,7 +45,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     The following example shows the **Step By Step** instructions for a Linux platform. Follow the instructions
     to install, configure, and start the agent.
 
-    ![](intelligence-install-agent-linux_0.png)
+    {{<image src="intelligence-install-agent-linux_0.png" alt="" title="">}}
 
     The instructions require you to send commands to the server. The
     commands you must send to the server vary depending on what kind of
@@ -80,7 +80,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     following example, two CPU-related checks are configured, monitoring
     CPU usage and average CPU load.
 
-    ![](intelligence-check-selection.png)
+    {{<image src="intelligence-check-selection.png" alt="" title="">}}
 
 9.  Click **Apply Checks** to activate the checks that you defined. When
     the checks are activated, their status is reported on the entities

@@ -71,7 +71,7 @@ Complete the following steps to access the full version of MigrationWiz:
    logs you into the correct area. However, for any future logins,
    just go to [migrationwiz.com](https://migrationwiz.com) and log in.
 
-   ![](FullMigrationWiz1.png)
+   {{<image src="FullMigrationWiz1.png" alt="" title="">}}
 
 3. Enter the email address that you used to sign up for MigrationWiz and click
    **Reset Password**.
@@ -85,4 +85,4 @@ Complete the following steps to access the full version of MigrationWiz:
 
 5. Click **Go To My Projects** to access your migration.
 
-   ![](FullMigrationWiz2.png)
+   {{<image src="FullMigrationWiz2.png" alt="" title="">}}

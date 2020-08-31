@@ -35,7 +35,7 @@ Rackspace Monitoring provides a powerful [alarm language](https://docs.rackspace
 
 - Use multiple data center alert policies to seamlessly evaluate alarm criteria from multiple data centers. The following graph shows a check running in three monitoring zones. The yellow and red areas represent when an alarm is in WARNING and CRITICAL, respectively.
 
-   ![sample graph that shows a check running in three monitoring zones](alarm-language-monitoring-graph.png)
+   ![sample graph that shows a check running in three monitoring zones](alarm-language-monitoring-graph.png" alt="" title="">}}
 
 - Send an alert to [different notification addresses depending on severity](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
 

@@ -31,16 +31,16 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Scroll down to the **Domains** and select **Email Archiving** from the far right column.
 
-   ![](email_archiving_link.png)
+   {{<image src="email_archiving_link.png" alt="" title="">}}
 
 3. Select the domain for which you want to enable **Email Archiving**.  
 4. You are presented with information on what **Email Archiving** is and what it provides as well as a per mailbox price to enable it. After you have read this and want to proceed with adding **Email Archiving**, click **Add Archiving to this domain**.
 
-   ![](add_arc.png)
+   {{<image src="add_arc.png" alt="" title="">}}
 
 5.  After archiving has been enabled, a green banner displays stating **Successfully enabled archiving for yourdomainexample.com**, and the status states **Enabled** in green.
 6.  Click **Complete Order**.
 
-   ![](success.png)
+   {{<image src="success.png" alt="" title="">}}
 
 You will receive a welcome email from **appmail@archivesrvr.com**. See [Rackspace Email Archiving](/support/how-to/rackspace-email-archiving) for common Archiving instructions.

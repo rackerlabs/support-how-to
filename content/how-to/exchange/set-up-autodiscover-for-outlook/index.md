@@ -45,7 +45,7 @@ To determine if Autodiscover is configured properly, use the **Test E-mail AutoC
 
 3. From the menu, select **Test E-mail AutoConfiguration**.
 
-    ![](autodiscover1.png)
+    {{<image src="autodiscover1.png" alt="" title="">}}
 
 4. Uncheck the **Use Guessmart** and **Secure Guessmart Authentication** checkboxes. **Use Autodiscover** is the only checkbox that is selected.
 
@@ -53,7 +53,7 @@ To determine if Autodiscover is configured properly, use the **Test E-mail AutoC
 
 6. Click **Test**.
     
-    ![](autodiscover2.png)
+    {{<image src="autodiscover2.png" alt="" title="">}}
 
    As shown in the preceding figure, the **Results** tab shows that Autodiscover is detected.
    

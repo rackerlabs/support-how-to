@@ -32,11 +32,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. In the upper-left corner of the menu bar, select **Mail > Add Account**.
 
-   ![](mail_addaccountdropdown.png)
+   {{<image src="mail_addaccountdropdown.png" alt="" title="">}}
 
 3. In the pop-up window, select **Other Mail Account**, and then click **Continue**.
 
-   ![](accounttype_imap.png)
+   {{<image src="accounttype_imap.png" alt="" title="">}}
 
 4. Enter the following information:
 
@@ -57,7 +57,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
    - **Incoming Mail Server:** secure.emailsrvr.com
    - **Outgoing Mail Server:** secure.emailsrvr.com
 
-   ![](imap_serversettings.png)
+   {{<image src="imap_serversettings.png" alt="" title="">}}
 
    **Note:** Apple Mail typically clears the **User Name** field after values are entered in the **Incoming Mail Server** and **Outgoing Mail Server** fields. Ensure that the **User Name** field is filled in with your email address *after* you enter the server information and *before* you click **Sign in**.
 

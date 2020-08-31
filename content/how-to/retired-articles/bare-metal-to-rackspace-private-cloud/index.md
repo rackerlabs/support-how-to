@@ -15,7 +15,7 @@ Using this deployment system, the installation of a customized OpenStack
 environment across multiple servers can start as fast as they come
 online.
 
-![](deploymentsystem-razor.png)
+{{<image src="deploymentsystem-razor.png" alt="" title="">}}
 
 ### Razor and Chef
 

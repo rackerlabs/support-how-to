@@ -30,14 +30,14 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2. Click the gear icon in the upper right-hand corner, and then select **Options** from the drop down menu.
 
-    ![](options_gear.png)
+    {{<image src="options_gear.png" alt="" title="">}}
 
 3. In the **Options** menu, click **Mail > Accounts > Block or Allow**.
 
-    ![](block_or_allow.png)
+    {{<image src="block_or_allow.png" alt="" title="">}}
 
 4. Enter the email address or domain of the sender that you want to automatically mark as junk.
 
-    ![](blocked_senders.png)
+    {{<image src="blocked_senders.png" alt="" title="">}}
 
 5. Click **Save**.     

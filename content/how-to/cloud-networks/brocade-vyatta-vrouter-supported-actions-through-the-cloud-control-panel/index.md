@@ -23,7 +23,7 @@ You can access available actions for Brocade Vyatta vRouter in the following way
 
 - In the Cloud Servers list, click the gear icon to the left of the appliance name to see a list of the available actions, as shown in the following image
 
-  ![](1555-3480-1.png)
+  {{<image src="1555-3480-1.png" alt="" title="">}}
 
 The following table describes you which actions you can perform and which actions you should avoid.
 

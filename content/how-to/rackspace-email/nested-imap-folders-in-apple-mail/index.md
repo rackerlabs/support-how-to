@@ -18,7 +18,7 @@ underneath the main Inbox folder (as shown in the following figure). This issue 
 functionality of Apple Mail and the IMAP protocol. Nested folders with
 Apple Mail are not specific to the Rackspace Email environment.
 
-![](Nestedcopy.jpg" width="296" height="316" />
+{{<image src="Nestedcopy.jpg" alt="" title="">}}
 
 The information in this article might help you in resolving the issue
 with nested folders. If you are unable to correct the issue, we
@@ -42,7 +42,7 @@ mailbox, as follows:
     - Change the case of the prefix. For example, change INBOX to Inbox.
     - Add a slash (/) at the end of the prefix - for example, INBOX/ or Inbox/. A slash helps Apple Mail recognize that the path ends in a folder.
 
-![](2_1.jpg" width="542" height="560" />
+{{<image src="2_1.jpg" alt="" title="">}}
 
 ###  Change mailbox behavior
 
@@ -51,7 +51,7 @@ example, the **Trash** folder is causing an issue. Try enabling and
 disabling the **Move deleted messages to the Trash mailbox** option and
 the **Store deleted messages on the server** option.
 
-![](3_2.jpg" width="547" height="562" />
+{{<image src="3_2.jpg" alt="" title="">}}
 
 ### Reset Apple Mail preferences
 
@@ -65,7 +65,7 @@ configuration and all mail will stay in Apple Mail.
 You can find the file in the following
 directory: ***userName***/**Library**/**Containers**/**com.apple.mail**/**Data**/**Library**/**Preferences**
 
-![](4_39.png)
+{{<image src="4_39.png" alt="" title="">}}
 
 By default, the **Library** folder (under your username folder)
 is hidden. To access it, perform the following steps:
@@ -81,4 +81,4 @@ is hidden. To access it, perform the following steps:
 You can now navigate to the path where your **com.apple.mail.plist** file is
 located.
 
-![](Library.jpg" width="511" height="321" />
+{{<image src="Library.jpg" alt="" title="">}}

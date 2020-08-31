@@ -41,7 +41,7 @@ future applications. Typically, this is the first step our customers take when m
 
 The tiered architecture is the next step in configuring an application for the Open Cloud. This configuration enables you to scale each tier (web, app, caching, and database) horizontally as you grow. This example uses replicated database servers instead of the Cloud Databases platform, which allows for more customization. This configuration also shows the power of the asynchronous processing of tasks, which makes each tier more modular.
 
-![](tiered-cloud-arch.svg)
+{{<image src="tiered-cloud-arch.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Load Balancers](https://www.rackspace.com/cloud/public/loadbalancers/):
 Cloud load balancers have multiple balancing options, and support SSL
@@ -57,7 +57,7 @@ termination for secure sites.
 
 This architecture shows a typical web application configuration in the Open Cloud. In this architecture, the web servers use Cloud Block Storage for extra disk space. Load balancers are also used in multiple levels of the application, balancing not only web workloads but also application workloads.
 
-![](web-app-config.svg)
+{{<image src="web-app-config.svg" alt="" title="">}}
 
 1.  [Rackspace Cloud Monitoring](https://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -73,7 +73,7 @@ This architecture shows a typical web application configuration in the Open Clou
 
 Rackspace Support technicians might use this architecture for a content management system (CMS) such as Drupal. Typically, we configure the application to heavily use caching, with Varnish for some static content and Memcached for database query caching. This configuration also enables you to scale horizontally quickly for events or high traffic.
 
-![](content-management-arch.svg)
+{{<image src="content-management-arch.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Monitoring](https://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -89,7 +89,7 @@ Rackspace Support technicians might use this architecture for a content manageme
 
 The Rackspace Managed Cloud Servers team might use the following architecture to configure the Open Cloud for WordPress.
 
-![](wordpress-cloud-arch.svg)
+{{<image src="wordpress-cloud-arch.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Monitoring](https://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -110,7 +110,7 @@ termination for secure sites.
 This architecture uses cloud servers acting as reverse proxies for specialized workloads. This architecture could be used for caching, SSL termination, or other use cases. It also displays a use case for Cloud networks, where you can create virtual private clouds for application servers, limiting their accessibility for better security.
 
 
-![](reverse-proxy-cloud-arch.svg)
+{{<image src="reverse-proxy-cloud-arch.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Monitoring](https://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -128,7 +128,7 @@ termination for secure sites.
 
 This architecture is similar to the CMS and web application architectures, but it uses dedicated hardware for part of the configuration where more customization or bare metal is required. Typically customers use bare metal servers for database workloads or parts of their application that have a high number of I/O operations. RackConnect configurations are also used for customers who require higher levels of PCI compliance.
 
-![](basic-rackconnect-config.svg)
+{{<image src="basic-rackconnect-config.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Monitoring](https://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -145,7 +145,7 @@ high-performance custom MySQL.
 
 This high-level overview shows the possibilities of mixing private and public clouds. This configuration is for customers who want to take advantage of cloud technology but might still need to maintain an in-house solution. Customers also use private clouds to have dedicated host machines, which eliminates the so-called "noisy neighbor" problem present with every multitenant public cloud hosting provider. The power of OpenStack enables customers to move workloads between their in-house private cloud and the Rackspace Open Cloud without having to change their application to suit a new API. Customers can link their in-house private cloud to a Rackspace hosted private cloud for the same purpose.
 
-![](hybrid-cloud-configuration.svg)
+{{<image src="hybrid-cloud-configuration.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Monitoring](https://www.rackspace.com/cloud/public/monitoring/): Cloud Monitoring watches the infrastructure to ensure that everything is working efficiently and properly.
 
@@ -164,7 +164,7 @@ SendGrid for end-user email deliverability. This architecture also
 takes advantage of a bare metal database server for PCI compliance
 standards and to takes full advantage of computing resources.
 
-![](ecommerce-open-cloud.svg)
+{{<image src="ecommerce-open-cloud.svg" alt="" title="">}}
 
 1. [Rackspace Cloud Servers](https://www.rackspace.com/cloud/public/servers/): When a visitor loads a web page, cloud servers are used as web and application servers. A firewall and load balancer are also used.
 

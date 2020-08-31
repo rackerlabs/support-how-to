@@ -38,7 +38,7 @@ ServiceNet from your Cloud Server, it cannot access certain Rackspace
 products and services. The graphic below depicts the services that are
 not available when these networks are removed from a Cloud Server:
 
-![Removing Networks from a Cloud Server](cloud-networks-infographic-revised4.png)
+![Removing Networks from a Cloud Server](cloud-networks-infographic-revised4.png" alt="" title="">}}
 
 ### More Information on Cloud Networks
 

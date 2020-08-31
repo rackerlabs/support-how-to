@@ -24,16 +24,16 @@ issue, but in the interim you can use the following workaround.
 2.  Right-click the **Unread Mail** folder and select **Customize This
     Search Folder**.
 
-    ![](1_55.png)
+    {{<image src="1_55.png" alt="" title="">}}
 
 3.  Click **Browse**.
 
-    ![](2_52.png)
+    {{<image src="2_52.png" alt="" title="">}}
 
 4.  Clear the **Search subfolders** check box at the bottom of the
     dialog box.
 
-    ![](3a.png)
+    {{<image src="3a.png" alt="" title="">}}
 
 5.  In the Select Folder(s) window, uncheck all folders except for
     the Inbox. If there are any rules that move new emails into any

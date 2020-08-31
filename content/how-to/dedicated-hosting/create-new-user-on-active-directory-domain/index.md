@@ -25,7 +25,7 @@ This article explains how to use a ticket template to add a new Active Directory
 
 5. From the dropdown menu, Select **Create New User on Active Directory Domain**. 
 
-   ![](newuser1.png)
+   {{<image src="newuser1.png" alt="" title="">}}
 
 5. Specify a username for the account you want to create. 
    
@@ -45,4 +45,4 @@ This article explains how to use a ticket template to add a new Active Directory
    After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal. It
    typically takes a few minutes for the ticket creation process to complete. 
 
-  ![](newuser2.png)
+  {{<image src="newuser2.png" alt="" title="">}}

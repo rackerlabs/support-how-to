@@ -146,13 +146,13 @@ This section covers the following tasks:
 
 In the MyRackspace portal, situation tickets start with **SITUATION** followed by a description of the grouping.
 
-![](situation-ticket-example-1.png)
+{{<image src="situation-ticket-example-1.png" alt="" title="">}}
 
 #### Identify the information in a situation ticket
 
 In the situation ticket, all of the correlated alerts are listed under **CLUSTERED ALERTS**:
 
-![](situation-ticket-text.png)
+{{<image src="situation-ticket-text.png" alt="" title="">}}
 
 ### RNS alert notification information
 
@@ -161,4 +161,4 @@ by clicking on **Notifications** in the upper right-hand corner of the MyRackspa
 
 The following image shows a sample of an alert in the Rackspace Notification System (RNS):
 
-![](RNS-Notifications.jpg)
+{{<image src="RNS-Notifications.jpg" alt="" title="">}}

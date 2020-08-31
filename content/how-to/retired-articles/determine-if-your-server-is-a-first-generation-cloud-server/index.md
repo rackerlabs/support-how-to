@@ -19,4 +19,4 @@ in the following ways:
 -   In the list of servers on the Cloud Servers page, all First
     Generation servers are marked with a blue asterisk.
 
-    ![](1stvs2ndgenserversa.png)
+    {{<image src="1stvs2ndgenserversa.png" alt="" title="">}}

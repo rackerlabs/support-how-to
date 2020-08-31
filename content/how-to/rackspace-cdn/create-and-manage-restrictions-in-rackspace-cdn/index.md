@@ -34,7 +34,7 @@ restriction:
 
 1. Click **Add Rule**. A popup dialog box displays.
 
-![](ScreenShot2015-10-02at11.54.43AM.png)
+{{<image src="ScreenShot2015-10-02at11.54.43AM.png" alt="" title="">}}
 
 2. Enter the following information to define the rule:
 
@@ -62,7 +62,7 @@ To edit a restriction, follow these steps:
 2. Edit the **Name**, **Type**, **Access**, **Referrer**, or the
 **Path** for the rule.
 
-   ![](ScreenShot2015-10-02at12.09.39PM.png)
+   {{<image src="ScreenShot2015-10-02at12.09.39PM.png" alt="" title="">}}
 
 3. Click **Save Rule**.
 
