@@ -25,15 +25,6 @@
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
-{{- if .IsHome -}}
-{{- range .Site.AllPages -}}
-{{- $section := .Section -}}
-{{- with .OutputFormats.Get "opensearch" -}}
-<link rel="search" type="application/opensearchdescription+xml"
-  title="{{ $title }}{{ with $section }} {{ . }}{{ end }} search" href="{{ .RelPermalink | safeURL }}" />
-{{- end -}}
-{{- end -}}
-{{- end -}}
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" />
 <link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="32x32" />

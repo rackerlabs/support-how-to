@@ -23,65 +23,66 @@ offlineSearchMaxResults = 10
 [permalinks]
     how-to = "/how-to/:filename"
 [markup]
-    defaultMarkdownHandler = "goldmark"
-    [markup.asciidocExt]
-        backend = "html5"
-        docType = "article"
-        extensions = []
-        failureLevel = "fatal"
-        noHeaderOrFooter = true
-        safeMode = "unsafe"
-        sectionNumbers = false
-        trace = false
-        verbose = true
-        workingFolderCurrent = false
+defaultMarkdownHandler = "goldmark"
+[markup.asciidocExt]
+    backend = "html5"
+    docType = "article"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = false
+    verbose = true
+    workingFolderCurrent = false
     [markup.asciidocExt.attributes]
-    [markup.blackFriday]
-        angledQuotes = false
-        hrefTargetBlank = false
-        latexDashes = true
-        plainIDAnchors = true
-        footnoteAnchorPrefix = ""
-        footnoteReturnLinkContents = ""
-        fractions = true
-        nofollowLinks = false
-        noreferrerLinks = false
-        skipHTML = false
-        smartDashes = true
-        smartypants = true
-        smartypantsQuotesNBSP = false
-        taskLists = true
-    [markup.highlight]
-        codeFences = true
-        guessSyntax = true
-        hl_Lines = ""
-        lineNoStart = 1
-        lineNos = false
-        lineNumbersInTable = true
-        noClasses = true
-        style = "monokai"
-        tabWidth = 4
-    [markup.goldmark]
-        [markup.goldmark.extensions]
-            definitionList = true
-            footnote = true
-            linkify = true
-            strikethrough = true
-            table = true
-            taskList = true
-            typographer = true
-        [markup.goldmark.parser]
-            attribute = true
-            autoHeadingID = true
-            autoHeadingIDType = "github"
-        [markup.goldmark.renderer]
-            hardWraps = false
-            unsafe = false
-            xhtml = false
-        [markup.tableOfContents]
-            endLevel = 3
-            ordered = false
-            startLevel = 2
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
 [[menu.docs]]
     name = "Welcome"
     weight = 1
@@ -233,11 +234,6 @@ offlineSearchMaxResults = 10
     url = "#"
     weight = 6
 
-[outputFormats.OpenSearch]
-baseName = "opensearch"
-isPlainText = true
-mediaType = "application/xml"
-
 
 [outputFormats.Redirects]
 baseName = "redirects"
@@ -246,7 +242,7 @@ mediatype = "application/json"
 notAlternative = true
 
 [outputs]
-home = ["HTML", "RSS", "OpenSearch", "Redirects"]
+home = ["HTML", "RSS", "Redirects"]
 
 [params]
 dateformat = "January 2, 2006"
