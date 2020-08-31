@@ -5,9 +5,9 @@ type: article
 audit_date: '2020-06-11'
 created_date: '2020-06-11'
 created_by: Rackspace Managed Security
-last_modified_date: '2020-06-11'
+last_modified_date: '2020-08-28'
 last_modified_by: Stephanie Fillmon
-product: Cloudflare Edge Security
+product: Cloudflare with Rackspace Managed Services
 product_url: rms-cloudflare
 ---
 
