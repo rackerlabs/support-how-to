@@ -29,8 +29,7 @@ If you need to export or import email address data from a different Outlook vers
 ### Import email address data
 
 1. In Outlook 2010, click **File > Options**.
-
-    ![](file_options2010.png)
+    {{<image src="file_options2010.png" alt="" title="">}}
 
 2. In the Outlook Options window, click **Advanced**.
 
