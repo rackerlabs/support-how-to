@@ -6,7 +6,6 @@ weight: 4
 outputs:
 - HTML
 - RSS
-- OpenSearch
 type:
 product:
 product_url:

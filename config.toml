@@ -234,11 +234,6 @@ defaultMarkdownHandler = "goldmark"
     url = "#"
     weight = 6
 
-[outputFormats.OpenSearch]
-baseName = "opensearch"
-isPlainText = true
-mediaType = "application/xml"
-
 
 [outputFormats.Redirects]
 baseName = "redirects"
@@ -247,7 +242,7 @@ mediatype = "application/json"
 notAlternative = true
 
 [outputs]
-home = ["HTML", "RSS", "OpenSearch", "Redirects"]
+home = ["HTML", "RSS", "Redirects"]
 
 [params]
 dateformat = "January 2, 2006"
