@@ -58,5 +58,5 @@ The following websites provide instructions for editing your DNS records for som
 - [GoDaddy](https://www.godaddy.com/help/manage-dns-680)
 - [BlueHost](https://my.bluehost.com/cgi/help/559)
 - [HostGator](https://support.hostgator.com/articles/changing-dns-records)
-- [Network Solutions](https://www.networksolutions.com/support/support/how-to-manage-advanced-dns-records/)
+- [Network Solutions](https://www.networksolutions.com/support/how-to-manage-advanced-dns-records/)
 - [1&1](https://help.1and1.com/domains-c36931/manage-domains-c79822/dns-c37586)
