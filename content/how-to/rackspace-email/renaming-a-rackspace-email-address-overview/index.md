@@ -52,7 +52,7 @@ After you have backed up the mail data locally, you are ready to connect to the 
 
 #### I renamed my Rackspace Email address, but now Outlook and my phone are not receiving messages. How do I fix this?
 
-Your devices are not receiving mail because they are configured to connect using the old email address. If you log in at [apps.rackspace.com](apps.rackspace.com) using the new email address, you can see that the mailbox is still receiving mail. Select your mail client in [Desktop clients](#desktop-clients) or [Mobile clients](#mobile-clients) for specific instructions.
+Your devices are not receiving mail because they are configured to connect using the old email address. If you log in at [apps.rackspace.com](https://apps.rackspace.com) using the new email address, you can see that the mailbox is still receiving mail. Select your mail client in [Desktop clients](#desktop-clients) or [Mobile clients](#mobile-clients) for specific instructions.
 
 #### I followed the configuration instructions and now I am missing mail! What happened?
 

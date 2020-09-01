@@ -33,7 +33,7 @@ To locate the IP addresses for your Cloud Server, execute the following steps:
 
 Following is a sample **Networks** table:
 
-![Networks Table](NetworksTable.png" alt="" title="">}}
+{{<image alt="Networks Table" src="NetworksTable.png" title="Networks Table">}}
 
 ### Related Information
 

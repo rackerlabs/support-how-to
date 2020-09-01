@@ -25,7 +25,7 @@ When you create a load balancer by using the [Cloud Control
 Panel](https://login.rackspace.com), you see that Add Nodes is part of the
 configuration process, as shown in the following image:
 
-![add nodes to load balancer in control panel](load-balancer-add-nodes.png" alt="" title="">}}
+{{<image alt="add nodes to load balancer in control panel" src="load-balancer-add-nodes.png" title="add nodes to load balancer in control panel">}}
 
 This is where you specify the things you want to load balance. You can
 add an existing Rackspace Cloud Server or an External IP.

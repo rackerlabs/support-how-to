@@ -65,7 +65,7 @@ Networks table for a server that is attached to PublicNet (Internet),
 ServiceNet (the Rackspace data center network), and an isolated Cloud
 Network named My Private Network:
 
-![Cloud Networks List](CloudNetworksList.png" alt="" title="">}}
+{{<image alt="Cloud Networks List" src="CloudNetworksList.png" title="Cloud Networks List">}}
 
 ### More information about Cloud Networks
 

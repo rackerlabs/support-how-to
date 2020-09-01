@@ -19,13 +19,13 @@ Your 30-day billing cycle begins on the day that you activate your account, and 
 
 ### Estimate costs
 
-Each product page accessed from the [main Rackspace website](https://www.rackspace.com/) includes the most current pricing for that product and a cost calculator to help you estimate your monthly charges. For an example, see the [pricing information for Cloud Servers](https://www.rackspace.com/cloud/servers/pricing).
+Each product page accessed from the [main Rackspace website" src="https://www.rackspace.com/) includes the most current pricing for that product and a cost calculator to help you estimate your monthly charges. For an example, see the [pricing information for Cloud Servers" src="https://www.rackspace.com/cloud/servers/pricing).
 
 ### Access your account information
 
 To access your account information, use the following steps:
 
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
+1. Log in to the [Cloud Control Panel" src="https://login.rackspace.com/).
 
 2. In the upper-right corner of the control panel, click the **Billing**
    button.
@@ -71,7 +71,7 @@ To access detailed information for your most recent invoice:
 
    Your most recent invoice opens in a detailed view.
 
-   ![Invoice details](invoice-detailed.png" alt="" title="">}}
+   {{<image alt="Invoice details" src="invoice-detailed.png" title="Invoice details">}}
 
 2. Line items appear under the **Total Charges** section. To expand a line
    item, click the down arrow to the left of the item description.
@@ -81,7 +81,7 @@ To access detailed information for your most recent invoice:
    the cost associated with each device, click the down arrow to the left of
    **Devices**.
 
-   ![Devices area](devices.png" alt="" title="">}}
+   {{<image alt="Devices area" src="devices.png" title="Devices area">}}
 
 3. To download an invoice, click the **PDF** link or the **CSV** link at the
    top-right corner of the screen.
@@ -134,4 +134,4 @@ If you're a VAT-registered business or organization, in most cases you can recla
 If you're not a VAT-registered business or organization, you can't reclaim the VAT that you pay when you buy goods and services.
 
 ### Next step
-[Viewing and editing user information for your account ](/support/how-to/viewing-and-editing-user-information-for-your-account)
+[Viewing and editing user information for your account](/support/how-to/viewing-and-editing-user-information-for-your-account)
