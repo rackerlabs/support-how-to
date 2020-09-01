@@ -55,7 +55,7 @@ You need to have a WordPress website and database.
 
 3. Enter your Rackspace cloud account username and API key, and then click **Next**.
 
-   {{<image alt="enter your rackspace cloud account information into the username and api key fields" src="add-account-information.png" title="">}}
+   {{<image alt="enter your rackspace cloud account information into the username and api key fields" src="add-account-information.png" title="enter your rackspace cloud account information into the username and api key fields">}}
 
    **Note:** If you need help finding your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
