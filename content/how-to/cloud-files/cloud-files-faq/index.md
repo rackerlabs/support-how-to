@@ -59,7 +59,7 @@ you can use either the Cloud Files user interface in the Rackspace [Cloud
 Control Panel](https://login.rackspace.com/) or one of our programming
 interfaces.
 
-See [Cloud Files and CDN](/support/support/how-to/getting-started-with-cloud-files-and-cdn/) for more details.
+See [Cloud Files and CDN](/support/how-to/getting-started-with-cloud-files-and-cdn/) for more details.
 {{< /accordion >}}
 
 {{< accordion title="What does *eventual consistency* mean in Cloud Files?" col="in" href="accordion5" >}}

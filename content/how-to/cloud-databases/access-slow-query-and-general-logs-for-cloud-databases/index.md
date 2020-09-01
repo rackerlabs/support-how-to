@@ -34,7 +34,7 @@ To enable the logging of slow queries:
 1.  Grant root access to the `mysql.slow_log` table.
 
 2.  Set the configuration parameters that enable logging slow queries to the `mysql.slow_log` table:
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Parameter name  | Suggested value | Description |
 |---------|--------|--------|
 | <code>log_output</code>    |   <code>'TABLE'</code>   |   Tells MySQL to write logs to a table   |
@@ -46,7 +46,7 @@ To enable the logging of slow queries:
         trove configuration-create EnableSlowQueryLog '{"log_output":"'TABLE'"}' --datastore MySQL
 
 3.  Optionally, set the configuration parameters that define the conditions under which queries are written to the slow query log:
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Parameter name  | Suggested value | Description |
 |---------|--------|--------|
 | long_query_time | 0 or more | The duration of a query to be logged as slow, in seconds. The default is 10 seconds. |
@@ -76,7 +76,7 @@ For more information about the MySQL general query log, see the [MySQL documenta
 1.  Grant root access to the `mysql.general_log` table.
 
 2.  Set the configuration parameters that enable logging server activity to the `mysql.general_log` table:
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Parameter name  | Suggested value | Description |
 |---------|--------|--------|
 | <code>log_output</code>    |   <code>'TABLE'</code>   |   Tells MySQL to write logs to a table   |

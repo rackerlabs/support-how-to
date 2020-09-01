@@ -22,7 +22,7 @@ supported. If the kernel is unsupported, agents go into *reduced functionality* 
 and no longer provide adequate telemetry to our Security Operations Center (SOC).
 
 ### Amazon&reg; Linux 2 supported versions
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.14.101-91.76.amzn2.x86_64 | 4.14.104-95.84.amzn2.x86_64 | 4.14.106-97.85.amzn2.x86_64 | 4.14.109-99.92.amzn2.x86_64 |
@@ -46,7 +46,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Amazon Linux 2017.03 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.9.17-8.31.amzn1.x86_64 | 4.9.20-10.30.amzn1.x86_64 | 4.9.20-11.31.amzn1.x86_64 | 4.9.27-14.31.amzn1.x86_64 |
@@ -58,7 +58,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Amazon Linux 2017.09 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.9.116-43.59.amzn1.x86_64 | 4.9.119-44.140.amzn1.x86_64 | 4.9.58-18.51.amzn1.x86_64 | 4.9.58-18.55.amzn1.x86_64 |
@@ -69,7 +69,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Amazon Linux 2018.03 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.14.101-75.76.amzn1.x86_64 | 4.14.104-78.84.amzn1.x86_64 | 4.14.106-79.86.amzn1.x86_64 | 4.14.109-80.92.amzn1.x86_64 |
@@ -87,7 +87,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Oracle&reg; Linux 6 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.8.13-118.10.2.el6uek.x86_64 | 3.8.13-118.11.2.el6uek.x86_64 | 3.8.13-118.13.2.el6uek.x86_64 | 3.8.13-118.13.3.el6uek.x86_64 |
@@ -160,7 +160,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Oracle Linux 7 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.8.13-118.10.2.el7uek.x86_64 | 3.8.13-118.11.2.el7uek.x86_64 | 3.8.13-118.13.2.el7uek.x86_64 | 3.8.13-118.13.3.el7uek.x86_64 |
@@ -238,7 +238,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### RHEL&reg; 6 and CentOS&reg; 6 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 2.6.32-573.el6.x86_64	Earlier than v3.4 | 2.6.32-573.1.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.3.1.el6.x86_64	Earlier than v3.4 | 2.6.32-573.7.1.el6.x86_64 Earlier than v3.4 |
@@ -266,7 +266,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### RHEL 7 and CentOS 7 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.10.0-229.el7.x86_64 Earlier than v3.4 | 3.10.0-229.1.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.4.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.7.2.el7.x86_64 Earlier than v3.4 |
@@ -312,7 +312,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### RHEL 8 and CentOS 8 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.18.0-80.11.1.el8_0.x86_64 | 4.18.0-80.11.2.el8_0.x86_64 | 4.18.0-147.el8.x86_64 | 4.18.0-147.0.2.el8_1.x86_64 |
@@ -322,7 +322,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SUSE&reg; Linux Enterprise Server (SLES) 11 SP1 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.0.101-108.38-default | | | |
@@ -332,7 +332,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 11 SP4 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.0.101-100-default | 3.0.101-104-default | 3.0.101-107-default | 3.0.101-108.10-default |
@@ -350,7 +350,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 12 SP1 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.12.49-11-default | 3.12.51-60.20-default | 3.12.51-60.25-default | 3.12.53-60.30-default |
@@ -368,7 +368,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 12 SP2 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4-92.64 | 4.4.121-92.101-default | 4.4.121-92.104-default | 4.4.121-92.109-default |
@@ -384,7 +384,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 <br/>
 
 ### SLES 12 SP3 supported versions
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4-94.11 | 4.4.103-6.33-default | 4.4.103-6.38-default | 4.4.103-92.53-default |
@@ -399,7 +399,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 12 SP4 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.12.14-94.41-default | 4.12.14-95.13-default | 4.12.14-95.16-default | 4.12.14-95.19-default |
@@ -410,7 +410,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 12 SP5 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.12.14-120 | 4.12.14-122.7 | 4.12.14-122.12 | |
@@ -420,7 +420,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 15 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.12.14-23.1 | 4.12.14-25.3.1 | 4.12.14-25.6.1 | 4.12.14-25.13.1 |
@@ -433,7 +433,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### SLES 15 SP1 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.12.14-195-default | 4.12.14-197.4-default | 4.12.14-197.7-default | 4.12.14-197.10-default |
@@ -443,7 +443,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Ubuntu&reg; 14.04LTS supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 3.13.0-24-generic | 3.13.0-27-generic | 3.13.0-29-generic | 3.13.0-30-generic |
@@ -493,7 +493,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Ubuntu 16.04LTS supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
@@ -550,7 +550,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Ubuntu 16.04.5 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
@@ -564,7 +564,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Ubuntu 18.04 LTS supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
@@ -621,7 +621,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Windows Server&reg; 2008 R2 SP1 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 6.1.7601 | | | |
@@ -630,7 +630,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Windows Server 2012 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 6.2.9200 | | | |
@@ -639,7 +639,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Windows Server 2012 R2 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 6.3.9600 | | | |
@@ -648,14 +648,14 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 ### Windows Server 2016 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 10.0.14393 | | | |
 {{</table>}}
 ### Windows Server 2019 supported versions
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
    | | | |     
 |---------|--------|--------|--------|--------|
 | 10.0.17763 | | | |

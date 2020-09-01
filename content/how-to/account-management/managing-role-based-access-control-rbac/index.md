@@ -102,7 +102,7 @@ To create a new user, use the following steps:
 Rackspace recommends the following custom role configurations for
 optimal product interaction.
 
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Product  | If | And | Then |
 |---------|--------|--------|--------|
 | Cloud Load Balancers     |   A user has been assigned any Cloud Load Balancers role.   |   n/a   | In Cloud Servers, give the user the <strong>Observer</strong> role (minimum action).   |

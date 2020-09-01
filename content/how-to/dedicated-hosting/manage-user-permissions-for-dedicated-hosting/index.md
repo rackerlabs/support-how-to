@@ -166,7 +166,7 @@ permission to see when those tickets concern one or more devices.
 
 The following table shows the ticketing settings that are required for common
 actions or views:
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Ticketing setting  | Functionality |
 |---------|--------|
 | Flexible Ticket Viewing (default setting)     | Enables users to see tickets that include a device that they have permission to view. For example, if a user has access to device A, they see all of the tickets that include device A, even if another device is on the ticket. If device C is later added to the ticket and the user does not have access to device C, the user can still see the ticket.   |
@@ -178,7 +178,7 @@ actions or views:
 
 The following table shows the permissions that a user needs to perform common
 tasks with tickets:
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Permission required  | Task |
 |---------|--------|
 | <b>View Tickets</b> or <b>Edit Tickets</b> permission   | View or include another user on an account ticket (a ticket that doesn't have a device or service associated with it)   |

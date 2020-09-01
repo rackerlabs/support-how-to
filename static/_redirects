@@ -125,6 +125,7 @@
 /support/how-to/sample-ruby-application-for-cloud-files/  /how-to/article-retired/ 200
 /support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 200
 /support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/ /how-to/article-retired/ 200
+/support/how-to/sharepoint-all-articles/ /how-to/article-retired/ 200
 
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
@@ -476,6 +477,17 @@
 /support/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone/  /how-to/configure-a-renamed-email-address-on-android-devices/  404
 /how-to/configure-a-renamed-email-address-on-android-devices/  /support/how-to/configure-a-renamed-email-address-on-android-devices/  301
 
+/support/how-to/cloudflare-faq/  /how-to/rms-cloudflare-faq/  404
+/how-to/rms-cloudflare-faq/  /support/how-to/rms-cloudflare-faq/  301
+
+/support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
+/how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
+
+/support/how-to/vmware-server-virt-faq/  /how-to/vmware-server-virtualization-faq/  404
+/how-to/vmware-server-virtualization-faq/  /support/how-to/vmware-server-virtualization-faq/  301
+
+/support/how-to/c-data-center-migration-customer-faq/  /how-to/smdc-data-center-migration-customer-faq/  404
+/how-to/smdc-data-center-migration-customer-faq/  /support/how-to/smdc-data-center-migration-customer-faq/  301
 
 #Individual Redirects
 

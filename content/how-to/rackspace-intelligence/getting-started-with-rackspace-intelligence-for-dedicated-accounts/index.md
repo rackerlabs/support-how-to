@@ -27,7 +27,7 @@ As a customer with a dedicated account, you can perform the following tasks:
 - View the availability of your applications.
 - Create customized visualizations and graphs.
 - Use the following types of [remote
-  checks](/support/support/how-to/working-with-alarms/):
+  checks](/support/how-to/working-with-alarms/):
 
     - Ping
 
@@ -36,7 +36,7 @@ As a customer with a dedicated account, you can perform the following tasks:
     - HTTP
 
 For more information, see [Working with
-alarms](/support/support/how-to/working-with-alarms/).
+alarms](/support/how-to/working-with-alarms/).
 
 ### Prerequisites
 

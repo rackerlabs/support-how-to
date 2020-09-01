@@ -150,7 +150,7 @@ The rule number increments in sets of 10 to allow for additions without having t
 ### Troubleshooting
 
 Following are some NAT troubleshooting commands with ASA equivalent (when available).
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | <strong>NAT troubleshooting command</strong>  | <strong>Equivalent ASA command</strong> |
 |---------|--------|
 | <code>show nat &lt;source/destination&gt; rules</code> | <code>sh run nat</code> |
