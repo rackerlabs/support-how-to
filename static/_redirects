@@ -125,6 +125,7 @@
 /support/how-to/sample-ruby-application-for-cloud-files/  /how-to/article-retired/ 200
 /support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 200
 /support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/ /how-to/article-retired/ 200
+/support/how-to/sharepoint-all-articles/ /how-to/article-retired/ 200
 
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
@@ -481,6 +482,9 @@
 
 /support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
 /how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
+
+/support/how-to/vmware-server-virt-faq/  /how-to/vmware-server-virtualization-faq/  404
+/how-to/vmware-server-virtualization-faq//  /support/how-to/vmware-server-virtualization-faq/  301
 
 #Individual Redirects
 
