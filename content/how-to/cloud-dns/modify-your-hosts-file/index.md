@@ -379,3 +379,4 @@ Use the following instructions if you're running MacOS X 10.6 through 10.12:
 		"@type": "HowToStep",
 		"text": "To force your changes to take effect, flush the DNS cache by entering the following command: dscacheutil -flushcache"
 		}]}]}
+</script>
