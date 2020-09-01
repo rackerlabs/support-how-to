@@ -15,12 +15,12 @@
 
 ## Contributing to the Rackspace How-To content repository
 
-This file describes the general process for maintaining source code for content published at [https://docs.rackspace.com//support/how-to/](https://docs.rackspace.com/support/how-to/).
+This file describes the general process for maintaining source code for content published at [https://docs.rackspace.com/support/how-to/](https://docs.rackspace.com/support/how-to/).
 
 See [Treat Documentation Like Code](https://www.youtube.com/watch?v=haFooDkKr-A&feature=youtu.be) for a brief video overview of how to edit articles on the How-To support network.
 If you are a Racker, search MyLearn for the Treat Docs Like Code course.
 
-**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the Edit This Article button on the left-hand side of the page.
+**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the **Edit This Article** button on the left-hand side of the page.
 
 ### Getting started with GitHub
 
@@ -34,7 +34,7 @@ Before you create a new article or make edits to an existing one, create a *fork
 
 2. In the pop-up box, select your personal GitHub account.
 
-A personal copy of the How-To repository is created in your GitHub account. You can access your fork by going to the [GitHub home page](https://github.com) and selecting **rackspace-how-to** under **Your repositories**.
+A personal copy of the How-To repository is created in your GitHub account. You can access your fork by going to the [GitHub home page](https://github.com) and selecting **support-how-to** under **Your repositories**.
 
 #### Keeping your fork up to date
 
@@ -52,8 +52,7 @@ Articles are grouped into one directory per product. Each directory contains one
 
 #### Create an article
 
-**Important**: Before creating an article, make sure that the product or service you describe is supported by a
-Rackspace Technology Team. We cannot publish or maintain articles without available subject matter experts to
+**Important**: Before creating an article, make sure that the product or service you describe is supported by a Rackspace Technology Team. We cannot publish or maintain articles without available subject matter experts to
 validate the content.
 
 Follow these steps to create a new article within a product folder of the **rackerlabs/support-how-to** repo.
@@ -64,7 +63,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
    `sh hugo new --kind support-bundle how-to/**product**/article-title`
 
-   **Note:** If your post has images,  place the image files within the newly created post folder.
+   **Note:** If your post has images, place the image files within the newly created post folder.
 
 3. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
 
@@ -74,7 +73,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 6. Create a pull request (PR). On the **Open a pull request** page, check the following settings:
 
-    - `base fork: rackerlabs/rackspace-how-to`
+    - `base fork: rackerlabs/support-how-to`
     - `base: master`
     - `head fork: {your-username}/rackspac...`
     - `compare: {your-branch}`
