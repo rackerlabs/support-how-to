@@ -45,7 +45,7 @@ Use the following steps to ensure your domain properly routes incoming and outgo
 
 2. Set the DNS entries to the values shown in the following table. Ensure that no other MX record entries exist or you will experience complications with your email. For more information, see [Add or edit entries for your DNS host](/support/how-to/find-dns-host#add-or-edit-entries-for-your-dns-host).
 
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
 | Type  | Hostname | Hostname | Priority | TTL |
 |---------|--------|--------|--------|--------|
 | MX    |   @ or left blank   |   **mx1.emailsrvr.com**   | 10 | 3600 seconds or lowest allowed |

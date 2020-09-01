@@ -24,7 +24,7 @@ For the full list and technical details of all available Cloud DNS API operation
 [Cloud DNS API reference](https://docs.rackspace.com/docs/cloud-dns/v1/api-reference/).
 
 Currently available domain and record operations include those shown in the following chart:
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | Domains  | Records |
 |---------|--------|
 | <strong>List domains</strong>  | <strong>List records</strong> |

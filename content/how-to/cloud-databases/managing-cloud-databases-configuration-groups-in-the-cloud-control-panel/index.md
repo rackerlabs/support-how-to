@@ -241,7 +241,7 @@ required to rebuild indexes on all tables with FULLTEXT indexes. After you have 
 the index, only then will the modified value be reflected in your database. Use
 <code>REPAIR TABLE tbl_name QUICK;</code>:
 
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 |  |  |  |
 |---------|--------|--------|
 | innodb_ft_max_token_size  | innodb_ft_min_token_size| innodb_ft_num_word_optimize |

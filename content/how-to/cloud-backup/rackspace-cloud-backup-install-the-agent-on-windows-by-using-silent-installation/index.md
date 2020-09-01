@@ -44,7 +44,7 @@ During a fresh installation, use the following values:
 
 - `APIHOSTNAME` (required): The host address where the Cloud Backup API endpoints reside. Host addresses for various data centers are listed in the
 [Service Access endpoints](https://docs.rackspace.com/docs/cloud-backup/v1/developer-guide/#document-general-api-info/service-access-endpoints). The Service Access endpoints should only be passing in the domain name of the endpoint and not the full URL.
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 |   | <strong>Example</strong> |
 |---------|--------|
 | <strong>Correct:</strong>    |   <code>dfw.backup.api.rackspacecloud.com</code>   |
