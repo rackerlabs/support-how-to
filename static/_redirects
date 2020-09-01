@@ -489,6 +489,9 @@
 /support/how-to/c-data-center-migration-customer-faq/  /how-to/smdc-data-center-migration-customer-faq/  404
 /how-to/smdc-data-center-migration-customer-faq/  /support/how-to/smdc-data-center-migration-customer-faq/  301
 
+/support/how-to/adding-microsoft-exchange-mailboxes-0/  /how-to/adding-microsoft-exchange-mailboxes/  404
+/how-to/adding-microsoft-exchange-mailboxes/  /support/how-to/adding-microsoft-exchange-mailboxes/  301
+
 #Individual Redirects
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200

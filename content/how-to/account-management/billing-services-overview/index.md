@@ -19,13 +19,13 @@ Your 30-day billing cycle begins on the day that you activate your account, and 
 
 ### Estimate costs
 
-Each product page accessed from the [main Rackspace website" src="https://www.rackspace.com/) includes the most current pricing for that product and a cost calculator to help you estimate your monthly charges. For an example, see the [pricing information for Cloud Servers" src="https://www.rackspace.com/cloud/servers/pricing).
+Each product page accessed from the [main Rackspace website](https://www.rackspace.com/) includes the most current pricing for that product and a cost calculator to help you estimate your monthly charges. For an example, see the [pricing information for Cloud Servers](https://www.rackspace.com/cloud/servers/pricing).
 
 ### Access your account information
 
 To access your account information, use the following steps:
 
-1. Log in to the [Cloud Control Panel" src="https://login.rackspace.com/).
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 
 2. In the upper-right corner of the control panel, click the **Billing**
    button.
