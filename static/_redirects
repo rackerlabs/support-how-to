@@ -476,6 +476,11 @@
 /support/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone/  /how-to/configure-a-renamed-email-address-on-android-devices/  404
 /how-to/configure-a-renamed-email-address-on-android-devices/  /support/how-to/configure-a-renamed-email-address-on-android-devices/  301
 
+/support/how-to/cloudflare-faq/  /how-to/rms-cloudflare-faq/  404
+/how-to/rms-cloudflare-faq/  /support/how-to/rms-cloudflare-faq/  301
+
+/support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
+/how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
 
 #Individual Redirects
 
