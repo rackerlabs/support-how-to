@@ -67,7 +67,7 @@ personal storage (PST) files.
    that you leave the option **Replace duplicates with items exported** selected, then click **Finish** to begin your export, as shown in the
    following images:
 
-    ![Export personal folders](ExportPersonalFolders.png" alt="" title="">}}
+    {{<image alt="Export personal folders" src="ExportPersonalFolders.png" title="Export personal folders">}}
 
     {{<image src="5.png" alt="" title="">}}
 

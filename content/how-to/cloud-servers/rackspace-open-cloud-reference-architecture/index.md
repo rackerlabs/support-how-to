@@ -19,7 +19,7 @@ you could use for your business or personal project.
 The basic cloud architecture is a starting point that you can build on for
 future applications. Typically, this is the first step our customers take when moving an application to the cloud, yet it uses platform services like Cloud Databases and Cloud Files to replace dedicated database servers and expensive storage arrays.
 
-![Diagram detailing basic cloud configuration](basic-cloud-configuration.svg)
+{{<image alt="Diagram detailing basic cloud configuration" src="basic-cloud-configuration.svg" title="Diagram detailing basic cloud configuration">}}
 
 1. **Public network**: Each cloud server has two networks, the public network and the service network. In a basic cloud configuration, the cloud server is accessible from the Internet over the public network.
 

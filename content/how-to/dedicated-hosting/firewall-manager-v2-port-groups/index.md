@@ -42,7 +42,7 @@ In Firewall Manager v2, you can now view, modify, and delete any port-group on y
 
 3. Under **Rules** in the navigation pane, click **Port-groups**.
 
-   ![port-groups are located under rules in the left-hand navigation menu](FWCPv2-port-group.png" alt="" title="">}}
+   {{<image alt="port-groups are located under rules in the left-hand navigation menu" src="FWCPv2-port-group.png" title="port-groups are located under rules in the left-hand navigation menu">}}
 
 4. Scroll through or search the port-group list and click the appropriate port-group. The contents of the port-group are automatically displayed.
 

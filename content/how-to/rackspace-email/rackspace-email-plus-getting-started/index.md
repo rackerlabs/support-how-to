@@ -27,7 +27,7 @@ Rackspace Email Plus gives you access to the following services:
 [Log in to Rackspace Webmail](https://apps.rackspace.com/) to access your inbox,
 drive, calendar, and contacts. No setup or configuration is required.
 
-![Cloud Drive link in webmail](screenshot_01.png" alt="" title="">}}
+{{<image alt="Cloud Drive link in webmail" src="screenshot_01.png" title="Cloud Drive link in webmail">}}
 
 ### Cloud Drive for Desktop
 
@@ -35,7 +35,7 @@ To get the most out of Rackspace Email Plus, install Cloud Drive for Desktop
 directly from the Cloud Drive web application. Access the web application by
 logging in to Rackspace Webmail and clicking the **Install Now** button.
 
-![Cloud Drive for Desktop download link in webmail](screenshot_02.png" alt="" title="">}}
+{{<image alt="Cloud Drive for Desktop download link in webmail" src="screenshot_02.png" title="Cloud Drive for Desktop download link in webmail">}}
 
 ### Mail on your desktop and phone
 To receive email on your phone or your favorite desktop mail program, use the

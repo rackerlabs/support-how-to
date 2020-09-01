@@ -29,19 +29,19 @@ A WordPress website and database
 
 4. In the search results, click **Install Now** in the W3 Total Cache box.
 
-   ![click install now in the w3 total cache search result box](configure-w3-Search-W3-Total-Cache.png" alt="" title="">}}
+   {{<image alt="click install now in the w3 total cache search result box" src="configure-w3-Search-W3-Total-Cache.png" alt="" title="click install now in the w3 total cache search result box">}}
 
    After the plug-in is installed, the **Install Now** button changes to **Activate**.
 
 5. Click **Activate** to enable the plug-in.
 
-   ![click activate in the w3 total cache search result box](configure-w3-Activate-W3-Total-Cache.png" alt="" title="">}}
+   {{<image alt="click activate in the w3 total cache search result box" src="configure-w3-Activate-W3-Total-Cache.png" title="click install now in the w3 total cache search result box">}}
 
 6. In the navigation sidebar, click **Performance > General Settings**.
 
 7. In the CDN section, select the **Enable** check box, and choose Rackspace CDN as the CDN type.
 
-   ![select the enable check box and choose rackspace cdn as the cdn type. click save all settings](configure-w3-Select-Rackspace-CDN.png" alt="" title="">}}
+   {{<image alt="select the enable check box and choose rackspace cdn as the cdn type. click save all settings" src="configure-w3-Select-Rackspace-CDN.png" title="select the enable check box and choose rackspace cdn as the cdn type. click save all settings">}}
 
 8. Click **Save all settings**.
 
@@ -59,6 +59,6 @@ A WordPress website and database
 
 5. Click **Create Service**.
 
-   ![fill in the information to create a new service](configure-w3-mycloud-Setup-Origin-CDN.png" alt="" title="">}}
+   {{<image alt="fill in the information to create a new service" src="configure-w3-mycloud-Setup-Origin-CDN.png" title="fill in the information to create a new service">}}
 
 You must set up the new CDN service in your domain's DNS before it is active. For information about enabling Rackspace CDN, see [Change DNS to enable Rackspace CDN](/support/how-to/change-dns-to-enable-rackspace-cdn).

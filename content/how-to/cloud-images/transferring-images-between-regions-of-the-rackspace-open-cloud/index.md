@@ -68,7 +68,7 @@ To work in the source region, use the following steps:
           "$OS_IMAGE_URL/v2/images/$MY_IMG"
           
     The `OS_IMAGE_URL` in the preceding example could be the same URL provided by authenticating to Cloud Identity.
-    For example, https://iad.images.api.rackspacecloud.com/v2, where "iad" is the region.
+    For example, [https://iad.images.api.rackspacecloud.com/v2](https://iad.images.api.rackspacecloud.com/v2), where "iad" is the region.
 
     **Note**: Images are stored differently inside the cloud. They are not in
     the same Virtual Hard Disk (VHD) format that is used for image
