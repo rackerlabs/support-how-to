@@ -20,6 +20,7 @@ title = "Rackspace Developer Center"
 offlineSearch = true
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
+canonifyURLs = true
 [permalinks]
     how-to = "/how-to/:filename"
 [markup]
