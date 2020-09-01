@@ -25,7 +25,7 @@ For Linux migration preparation, see [Prepare to migrate a Linux server](/suppor
 Before you perform a migration, create a tested, file-level backup of
 important data. Rackspace offers a backup solution, Cloud Backup, which
 requires a backup agent on the server. For instructions
-on installing this agent, see [Rackspace Cloud Backup - Install the agent (Windows)](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
+on installing this agent, see [Rackspace Cloud Backup - Install the agent (Windows)](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 To set up your backup directory and a schedule for exporting your backup
 to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/support/how-to/rackspace-cloud-backup-create-a-backup).
