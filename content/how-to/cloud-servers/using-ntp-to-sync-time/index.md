@@ -1,11 +1,11 @@
 ---
 permalink: using-ntp-to-sync-time/
-audit_date:
+audit_date: '2020-09-01'
 title: Use NTP to Sync Time
 type: article
 created_date: '2013-04-15'
 created_by: Jered Heeschen
-last_modified_date: '2019-12-20'
+last_modified_date: '2020-09-01'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -65,40 +65,19 @@ running:
 
     sudo chkconfig ntpd on
 
-#### Arch:
-
-    sudo pacman -Sy ntp
-
-Once installed, you can ensure the service will run at boot time by
-adding "ntpd" to the "DAEMONS" value in the rc.conf file here:
-
-    /etc/rc.conf
-
-#### Gentoo:
-
-    sudo emerge -sync
-    sudo emerge ntp
-
-Once installed, you can ensure the service will run at boot time by
-running:
-
-    sudo ln -s /etc/init.d/ntpd /etc/runlevels/default
 
 ### Start the service
 
 To make sure the NTP service starts after installing it, run:
 
-#### Ubuntu operating systems / Debian / CentOS / RHEL / Gentoo:
+**Ubuntu operating systems / Debian / CentOS / RHEL**:
 
     sudo /etc/init.d/ntp start
 
-#### Fedora:
+**Fedora**:
 
     sudo /etc/init.d/ntpd start
 
-#### Arch:
-
-    sudo /etc/rc.d/ntpd start
 
 As is usual for Linux services, you can stop or restart the NTP service
 by running the above command with
@@ -123,9 +102,7 @@ automatically. Congratulations on a job well done!
 
 If you want to use NTP to sync several of your own machines, or if you
 want to choose NTP servers other than the defaults, the NTP
-configuration file can be found at
-
-    /etc/ntp.conf
+configuration file can be found at **/etc/ntp.conf**.
 
 There are a few settings that can be changed, but the only settings of
 interest to most users include any server entries. Use the default
@@ -157,12 +134,12 @@ as the master NTP server. Set up the master server to connect to an
 outside NTP server, then have the other machines sync to the master.
 This setup reduces the number of outgoing connections and guarantees
 that all of your machines have their time set to the same value. This
-configuration requires changes to the server settings in the ntp.conf
+configuration requires changes to the server settings in the **ntp.conf**
 files on each machine.
 
 Set up any external servers you want to use on the master machine. For
-example, if you want to use the NTP pool servers you can set the server values in the master
-ntp.conf file to:
+example, if you want to use the NTP pool servers you can set the server values
+in the master **ntp.conf** file to:
 
     server 0.pool.ntp.org iburst
     server 1.pool.ntp.org iburst
@@ -171,7 +148,7 @@ ntp.conf file to:
 
 Point the ntp.conf to your master server on every other machine for
 which you want to sync the time. For example, if your master server is
-"main.example.com," you would alter the ntp.conf files on the secondary
+"main.example.com," you would alter the **ntp.conf** files on the secondary
 machines so that the server entries are as follows:
 
     server main.example.com iburst
@@ -225,7 +202,7 @@ millisecond; they just want to know what time it is. Use the pool
 servers unless you need pinpoint accuracy.
 
 Using the NTP pool servers is as easy as setting the server entries in
-your ntp.conf file to:
+your **ntp.conf** file to:
 
     server 0.pool.ntp.org iburst
     server 1.pool.ntp.org iburst
@@ -253,7 +230,7 @@ primary server unless you're looking for extreme scientific accuracy.
 
 A secondary server usually gets its time from a primary server. If you
 want accuracy down to the millisecond level, having three secondary
-servers in your ntp.conf will work well.
+servers in your **ntp.conf** will work well.
 
 You can see what public servers are available in either tier by
 selecting either list from the [NTP Servers
@@ -288,57 +265,51 @@ follows:
 Before using an external NTP server to sync your time you should make
 sure you can actually connect to the server from your machine.
 Fortunately there's a tool for that included with the NTP server called
-**ntpdate**.
+`ntpdate`.
 
-The ntpdate command will sync your clock with an NTP server. It's
+The `ntpdate` command will sync your clock with an NTP server. It's
 similar to what the NTP server does on a regular basis. The ntpd program
-is a separate package on Ubuntu operating systems and Debian. The other distributions
-install ntpdate at the time of ntpd installation. To use ntpdate, Ubuntu operating system
-and Debian users must first install it.
+is a separate package on Ubuntu operating systems and Debian. The other
+distributions install `ntpdate` at the time of ntpd installation. To
+use `ntpdate`, Ubuntu operating system and Debian users must first install it.
 
     sudo aptitude install ntpdate
 
 Set your clock to sync at times you specify by using cron to run
-ntpdate. Otherwise, run the NTP server as it uses less bandwidth and
+`ntpdate`. Otherwise, run the NTP server as it uses less bandwidth and
 keeps time more accurately by tracking your clock's drift over time and
-adjusting accordingly. Use ntpdate for testing purposes only.
+adjusting accordingly. Use `ntpdate` for testing purposes only.
 
-The ntpdate command will not run when the NTP server is running. If you
-run ntpdate and get a response like "the NTP socket is in use," this
+The `ntpdate` command will not run when the NTP server is running. If you
+run `ntpdate` and get a response like "the NTP socket is in use," this
 means your NTP server is running. Stop it with the appropriate command
 for your distribution:
 
-#### Ubuntu operating systems / Debian
+**Ubuntu operating systems / Debian**
 
     sudo /etc/init.d/ntp stop
 
-#### CentOS / Fedora / RHEL / Gentoo
+**CentOS / Fedora / RHEL**
 
     sudo /etc/init.d/ntpd stop
 
-#### Arch
 
-    sudo /etc/r.d/ntpd stop
-
-You can now run ntpdate with the server you want to sync against as an
-argument. For example, to tell ntpdate to try and sync with
+You can now run `ntpdate` with the server you want to sync against as an
+argument. For example, to tell `ntpdate` to try and sync with
 "pool.ntp.org", run:
 
     sudo ntpdate pool.ntp.org
 
 When you're finished testing, remember to restart NTP:
 
-#### Ubuntu operating systems / Debian
+**Ubuntu operating systems / Debian**
 
     sudo /etc/init.d/ntp start
 
-#### CentOS / Fedora / RHEL / Gentoo
+**CentOS / Fedora / RHEL**
 
     sudo /etc/init.d/ntpd start
 
-#### Arch
-
-    sudo /etc/rc.d/ntpd start
 
 ### Summary
 
