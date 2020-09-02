@@ -37,9 +37,7 @@ might need to download and install the following software:
   - An SSH File Transfer Protocol (SFTP) client application
 
 If you don't have a website to upload, you can use the following sample HTML
-file that we created for this exercise. Right-click on the link to save the file.
-
-{{<ref "index.html">}}
+file that we created for this exercise. Right-click on the link to save the [file](index.html).
 
 ### Build the infrastructure
 
