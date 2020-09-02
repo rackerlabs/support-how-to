@@ -36,9 +36,10 @@ might need to download and install the following software:
   - A Secure Shell (SSH) client application
   - An SSH File Transfer Protocol (SFTP) client application
 
-If you don't have a website to upload, you can use a [sample HTML
-file](https://90df0b8db988dcfbf5da-c1875553a16f2a6d80002cac1a22fc37.r75.cf1.rackcdn.com/index.html) that we
-created for this exercise. Right-click on the link to save the file.
+If you don't have a website to upload, you can use the following sample HTML
+file that we created for this exercise. Right-click on the link to save the file.
+
+{{<ref "index.html">}}
 
 ### Build the infrastructure
 
