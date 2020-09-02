@@ -1,6 +1,6 @@
 ---
-permalink: quick-start-guide-create-your-first-website-on-cloud-servers/
-audit_date:
+permalink: create-your-first-website-on-cloud-servers-quickly/
+audit_date: '2020-09-02'
 title: Create your first website on Cloud Servers quickly
 type: article
 created_date: '2013-11-11'
@@ -11,9 +11,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The Rackspace Cloud can save you both time and money. This guide shows
+The Rackspace Cloud can save you both time and money. This article shows
 you how you can accomplish this by turning your idea into a working site.
-This process includes the following basic steps:
+This process includes the following steps:
 
 1.  Build the infrastructure.
 2.  Upload your code.
@@ -36,14 +36,14 @@ might need to download and install the following software:
   - A Secure Shell (SSH) client application
   - An SSH File Transfer Protocol (SFTP) client application
 
-If you don't have a website to upload, you can use a [sample HTML
-file](download.html) that we
-created for this exercise. Right-click on the link to save the file.
+If you don't have a website to upload, you can use the following sample HTML
+file that we created for this exercise. Right-click the [link](download.html) to
+save the file and rename the file to **index.html**.
 
 ### Build the infrastructure
 
 In this section, you create your server, connect to it, and install the
-Apache&reg; web server package to turn the server into a web server.
+Apache&reg; webserver package to turn the server into a web server.
 
 #### Create a cloud server
 
@@ -94,9 +94,9 @@ Use the following steps to create a cloud server:
 
 7.  Verify that the build is complete.
 
-    The time it takes for your cloud server to build depends on the
-    image and flavor that you selected. The server is finished building
-    and is ready for a connection when the **Server Status** is **Active**.
+    The time it takes for your cloud server to build depends on your
+    selected image and flavor. The server is finished building
+    and is ready to connect when the **Server Status** is **Active**.
 
 8.  Copy the public IP address.
 
@@ -108,11 +108,11 @@ Use the following steps to create a cloud server:
 
 Now that you have an active cloud server, you need to make it a
 web server. You do this by connecting to it and installing the
-Apache web server package.
+Apache webserver package.
 
 You can connect to a server in several ways, but the standard and most
-secure method is called Secure Shell (SSH). SSH enables you to send
-information to and from your server in a secure fashion.
+secure method is Secure Shell (SSH). SSH enables you to send
+information to and from your server securely.
 
 1.  Connect from either a MacOS&reg; X or Windows&reg; computer. For
     instructions about how to connect, select the article that corresponds
@@ -146,18 +146,18 @@ To install Apache, enter the following command in the Terminal window:
 
     apt-get install apache2 -y
 
-Some information scrolls by in your Terminal window. This is your server
-downloading and installing Apache and any software that Apache might need to
+Some information scrolls by in your Terminal window as your server
+downloads and installs Apache and any software that Apache might need to
 operate correctly.
 
 #### Test Apache with your web browser
 
-After the command is finished running, ensure that Apache is installed
+After the command finishes, ensure that Apache is installed
 and turned on. Paste the (PublicNet) IPv4 address of your cloud server
-into the navigation bar of a web browser. If you see the message "It works!",
+into the browser's navigation bar. If you see the message, "It works!",
 you now have a web server installed on your cloud server.
 
-This "It works!" site file is stored as ``index.html`` in your
+The working site file is stored as ``index.html`` in your
 **DocumentRoot** directory.
 
 ### Upload your code
@@ -178,24 +178,24 @@ Use the following steps to establish an SFTP connection with your server:
     server.
 4.  For the username, enter ``root``.
 5.  For the password, enter the root user's password.
-6.  Click the option to establish the new connection to your server.
+6.  Click the option to establish a new connection to your server.
 
 ### Upload your site
 
 The next step is to upload your site to the cloud server. However, you must
 upload the HTML file to the correct location on the cloud server.
 
-Apache is configured to look in a specific directory for content to
-serve on the web. This special directory is referred to as the
-**DocumentRoot**.
+Apache is configured to look in a specific directory, **DocumentRoot**, for
+content to serve on the web.
 
-On a server running the Ubuntu&reg; operating system, the DocumentRoot is located at ``/var/www``, so you
-must upload your site file to that directory. Navigate to that directory in
-your SFTP client, then replace the existing **index.html** file with your file.
+On a server running the Ubuntu&reg; operating system, **DocumentRoot** is
+located at ``/var/www``, so you must upload your site file to that directory.
+Navigate to that directory in your SFTP client, then replace the existing
+**index.html** file with your file.
 
 ### Test your site
 
-Now that the correct HTML file is uploaded to the correct directory, you
+Now that you uploaded the correct HTML file to the correct directory, you
 should see your site when you refresh your browser, as shown in the following
 image:
 
