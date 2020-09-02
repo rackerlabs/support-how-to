@@ -5,8 +5,8 @@ title: Configure DNS for Office 365 services
 type: article
 created_date: '2019-11-29'
 created_by: Simon Ponder
-last_modified_date: '2019-11-29'
-last_modified_by: Walter Stubbs
+last_modified_date: '2020-09-02'
+last_modified_by: Stephanie Fillmon
 product: Office 365
 product_url: office-365
 ---
@@ -24,7 +24,7 @@ This article describes how to add a domain in Office 365. By adding your own dom
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-Before you can set up a domain in the Office 365 portal, you must [create your Office 365 tenant with Rackspace](/support/how-to/office-365/set-up-office-365/) and [add the product licenses](/support/how-to/add-an-office-365-license/) that you need.
+Before you can set up a domain in the Office 365 portal, you must [create your Office 365 tenant with Rackspace](/support/how-to/set-up-office-365/) and [add the product licenses](/support/how-to/add-an-office-365-license/) that you need.
 
 After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the DNS entries for your Office 365 services.
 
