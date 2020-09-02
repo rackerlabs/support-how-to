@@ -23,7 +23,7 @@ This article explains how to rename a Rackspace Email address from the Cloud Off
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-For a video tutorial of the following steps, see [Rackspace Email - Adding/Editing/Renaming/Restoring](emailhelp.rackspace.com/l/add-edit-rename-rse-mailbox).
+For a video tutorial of the following steps, see [Rackspace Email - Adding/Editing/Renaming/Restoring](https://emailhelp.rackspace.com/l/add-edit-rename-rse-mailbox).
 
 ### Before you begin
 
