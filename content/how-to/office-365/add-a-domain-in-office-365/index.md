@@ -40,7 +40,7 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
 6. Verify that you own the domain.
 
-   This step requires you to log in to your domain's DNS host portal. If you do not know what your DNS host is, see [Find your DNS host](/support/how-to/find-your-dns-host/).
+   This step requires you to log in to your domain's DNS host portal. If you do not know what your DNS host is, see [Find your DNS host](/support/how-to/find-dns-host/).
 
     1. Select the **Add a TXT record instead** option, and then select **Next**.
 
