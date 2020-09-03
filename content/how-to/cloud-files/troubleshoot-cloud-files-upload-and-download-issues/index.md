@@ -46,8 +46,7 @@ the following steps:
 1. Check if the issue is related to the way that the upload or download is
    being processed. If the failure is occurring
    through the Cloud Control Panel, try another method such as
-   [Cyberduck](https://docs.rackspace.com/docs/cloud-files/v1/getting-
-   started/tools-and-applications-for-Cloud-Files/#cyberduck),
+   [Cyberduck](https://docs.rackspace.com/docs/cloud-files/v1/getting-started/tools-and-applications-for-Cloud-Files/#cyberduck),
    a third-party tool that can be configured to use direct calls with the
    Cloud Files API. For more information, see [How to configure Cyberduck for
    Rackspace Cloud
