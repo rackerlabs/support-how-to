@@ -242,7 +242,6 @@ Assuming you are behind a firewall, the 'slavePrimaryIP' should be the internal 
 
 Contact your account manager and request setup of the SiteScope monitor. The URL should be the public IP of the monitoring server, for example <code>https://68.23.45.32/check_replication.php</code>
 
-[https://wiki.rackspace.corp/Databases/MySQL/ReplicationMonitoringScript](https://wiki.rackspace.corp/Databases/MySQL/ReplicationMonitoringScript)
 
 **Note:** The script can have additional elements in the <code>dsn list</code> array and check multiple slaves with a single SiteScope probe. The PHP documentation states that the comma after the last array element is optional and can be omitted. However, with the SiteScope probe checking multiple slaves, it may be less clear which slave had a problem when the alert clears quickly. In this regard, it can make sense to have a check_replication.php and corresponding SiteScope probe running on each slave.
 
