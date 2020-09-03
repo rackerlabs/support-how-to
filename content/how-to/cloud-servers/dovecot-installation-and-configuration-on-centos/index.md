@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-If you have installed the [Postfix](https://www.postfix.org) mail server to
+If you have installed the [Postfix](http://www.postfix.org) mail server to
 operate as the Simple Mail Transfer Protocol (SMTP) service on an
 email server, you might still need a way to retrieve the incoming mail
 from the server.
