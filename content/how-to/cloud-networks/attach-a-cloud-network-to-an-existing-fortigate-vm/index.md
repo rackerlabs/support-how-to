@@ -15,7 +15,7 @@ Use the following steps to attach a Cloud Network to an existing Fortigate&reg;-
 
 ### Add the Cloud Network in the Cloud Control Panel
 
-1. Log in to the [Cloud Control Panel](login.rackspace.com).
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
 2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 

@@ -41,9 +41,9 @@ types](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remo
 Rackspace Intelligence for dedicated accounts supports the following
 remote checks:
 
-- [ping](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-ping)
-- [tcp](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-tcp)
-- [http](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#remote-http)
+- [ping](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-ping)
+- [tcp](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-tcp)
+- [http](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-http)
 
 To view a check on the Intelligence interface, perform the following
 steps:
