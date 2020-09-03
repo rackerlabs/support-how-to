@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 Choosing the right [hosting
-solution](https://www.rackspace.com/hosting_solutions.php) is a very
+solution](https://www.rackspace.com/solutions/website-hosting) is a very
 critical piece to your business. According to many hosting providers,
 the standard way of choosing hosting is to look at the market and try to
 fit your company into the model that has already been established.
@@ -40,7 +40,7 @@ The responsibility is lessened due to the provider maintaining the
 physical space, power, and networking, but any issues that arise outside
 of the provider's responsibilities must be resolved by the customer - day
 or night. A
-[colocation](https://www.rackspace.com/managed_hosting/managed_colocation/index.php)
+[colocation](https://www.rackspace.com/colocation)
 strategy requires that the customer select a vendor with a data center
 located within a reasonable distance from the IT staff, as any issues
 with devices, operating systems, application infrastructure, and
@@ -55,7 +55,7 @@ and administrative responsibility over the hosting environment
 responsibility. With the hosting provider managing the hardware, network
 and power, the responsibility of the operating system and application
 lies with the customer's staff. [Managed
-Colocation](https://www.rackspace.com/managed_hosting/managed_colocation/index.php)
+Colocation](https://www.rackspace.com/colocation)
 provides the desired level of control that businesses get with
 traditional colocation, but removes the day-to-day management of servers
 and network devices.
@@ -79,7 +79,7 @@ and allows businesses to focus fully on their core mission.
 
 The provider has complete ownership of the IT management stack,
 including the data center, network, devices,
-[virtualization](https://www.rackspace.com/managed_hosting/private_cloud/index.php)
+[virtualization](https://www.rackspace.com/openstack/private/openstack)
 software, operating systems, application infrastructure and
 applications. Fully outsourced solution providers offer service level
 agreements (SLAs) promising specified levels of application availability
