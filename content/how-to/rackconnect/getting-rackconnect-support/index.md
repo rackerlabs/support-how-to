@@ -41,7 +41,7 @@ RackConnect hybrid solution. These service levels provide you with
 higher levels of support for your hybrid environment.
 
 For more information about our support service levels, see [Dedicated service levels](https://www.rackspace.com/managed-hosting/service-levels/) and
-[Cloud service levels](https://www.rackspace.com/cloud/compare-service-levels).
+[Cloud service levels](https://www.rackspace.com/openstack/public/service-levels).
 
 
 ### Next step

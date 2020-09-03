@@ -40,8 +40,8 @@ dedicated intrusion detection system (IDS) and web application firewall
 (WAF) offerings.
 
 RackConnect is also compatible with our dedicated [Managed and
-Intensive](https://www.rackspace.com/dedicated-servers/service-levels) service
+Intensive](https://www.rackspace.com/library/cloud-vs-dedicated) service
 levels and our cloud [Managed Operations and Managed
-Infrastructure](https://www.rackspace.com/cloud/compare-service-levels) service levels.
+Infrastructure](https://www.rackspace.com/openstack/public/service-levels) service levels.
 This gives you the ability to select the level of support that
 you need to properly manage your hybrid environment.
