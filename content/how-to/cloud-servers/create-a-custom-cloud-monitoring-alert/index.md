@@ -104,9 +104,6 @@ After you have created your alarm language, you need to add the alarm to the ent
 by using one of the following methods:
 
 - The [Cloud Control Panel](/support/how-to/working-with-alarms/)
-- The [raxmon command-line
-  tool](https://docs.rackspace.com/blog/using-raxmon-to-configure-rackspace-cloud-monitoring/) for interacting with the Rackspace Cloud
-  Monitoring application programming interface (API)
 - A [cURL POST command](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/alarms-operations/#create-an-alarm)
 
 ### Use an Ansible playbook to install plug-ins
