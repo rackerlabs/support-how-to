@@ -28,7 +28,7 @@ To perform this action, use Secure Shell (SSH) and Remote Desktop (RDP) to log
 in to the server, then shut it down by using its respective shutdown method.
 
 After you shut off the server, it displays in the Rackspace [Cloud
-Control Panel](https://www.login.rackspace.com) as **Shutoff**.
+Control Panel](https://login.rackspace.com) as **Shutoff**.
 
 ### Detach the volume from the VM
 
