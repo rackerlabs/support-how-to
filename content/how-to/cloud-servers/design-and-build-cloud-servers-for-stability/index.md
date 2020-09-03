@@ -41,8 +41,8 @@ and a maximum of 50 volumes per region. Although these volumes already
 offer a tremendous amount of stability, you can configure them in a RAID
 for extra redundancy.
 
-Learn more about Cloud Block Storage best practices from this
-[blog post](https://www.rackspace.com/blog/best-practices-for-cloud-block-storage/).
+<!-- Learn more about Cloud Block Storage best practices from this
+[blog post](https://www.rackspace.com/blog/best-practices-for-cloud-block-storage/). -->
 
 ### Dynamic DNS and multiple configurations
 
