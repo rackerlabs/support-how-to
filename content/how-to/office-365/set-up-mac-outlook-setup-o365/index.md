@@ -20,7 +20,7 @@ This article describes how to install, configure, and perform basic functions wi
 - **Time Needed:** 20 Minutes for installation and initial setup. The full propagation of email varies based on the size of the mailbox.
 - **Tools Needed:** Installed Outlook for Mac desktop application. This article does not cover the pre-installed native Apple Mail application.
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Install Outlook for Mac 
 

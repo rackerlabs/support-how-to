@@ -19,7 +19,7 @@ product_url: office-365
 - **Time Needed:** Varies
 - **Tools Needed:** None
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 This article outlines the **Fanatical Experience&trade;** we offer and the **Rackspace&reg; Application Services** support for **Microsoft 365&reg;**.
 

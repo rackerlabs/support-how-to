@@ -492,6 +492,12 @@
 /support/how-to/adding-microsoft-exchange-mailboxes-0/  /how-to/add-microsoft-exchange-mailboxes/  404
 /how-to/add-microsoft-exchange-mailboxes/  /support/how-to/add-microsoft-exchange-mailboxes/  301
 
+/support/how-to/spam-preferences-safe-lists-and-black-list-in-microsoft-exchange/  /how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/  404
+/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/  /support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/  301
+
+/support/how-to/alert-logic-faq/  /how-to/rms-alert-logic-faq/  404
+/how-to/rms-alert-logic-faq/  /support/how-to/rms-alert-logic-faq/  301
+
 #Individual Redirects
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
