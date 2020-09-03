@@ -30,7 +30,7 @@ You can create a server with scheduler hints by using curl calls or API browser
 plug-ins. Make sure that you have the server Universal Uniform Identifiers (UUIDs)
 for any servers that you want to build *close to* or *far away* from. You can
 find the UUIDs on the **Server Details** page in the **Servers** section of the
-[Cloud Control Panel](https:\\login.rackspace.com).
+[Cloud Control Panel](https://login.rackspace.com).
 
 In the following cURL examples, substitute the following variables with the
 corresponding values for your account:
