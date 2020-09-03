@@ -81,7 +81,7 @@ from the IUS repository, run the following command:
 
     sudo yum replace php --replace-with php56u
 
-For more information, see the [IUS Usage Guide](https://ius.io/Usage/).
+For more information, see the [IUS Usage Guide](https://ius.io/usage).
 
 ### Check for available repositories
 
