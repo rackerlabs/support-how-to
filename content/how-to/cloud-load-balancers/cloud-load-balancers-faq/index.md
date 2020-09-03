@@ -132,7 +132,7 @@ outbound messages from the load balancer to the user.
 {{< accordion title="Can I use Cloud Load Balancers in conjunction with RackConnect?" col="in" href="accordion12" >}}
 
 You can use the
-[RackConnect](https://www.rackspace.com/cloud/hybrid/rackconnect/)
+[RackConnect](https://www.rackspace.com/cloud-connectivity/rackconnect)
 Cisco&reg; Adaptive Security Appliance (ASA) solution to connect dedicated
 servers and Cloud Servers while leveraging Cloud Load Balancers
 to balance the workload between the Cloud Servers. Charges apply for
