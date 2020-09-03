@@ -385,7 +385,7 @@ Detailed instructions for exporting an image are available in the example at
 cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
 
 {{< /accordion >}}
-{{< accordion title="Where is my exported image?" col="in" href="accordion40" >}}
+{{< accordion title="Where is my exported image?" col="in" href="accordion40" hasImage="yes">}}
 
 Your image is exported into a container that you specify in your Cloud Files
 account. It is stored as a _Dynamic Large Object_ (DLO) in Cloud Files. A DLO
