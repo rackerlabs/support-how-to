@@ -44,31 +44,32 @@ More information is available at the [Rackspace Private Cloud OpenStack web page
 {{</accordion>}}
 
 {{<accordion title="What are Rackspace Private Cloud's main differentiators?" col="in" href="accordion4">}}
-{{<image alt="What differentiates Rackspace Private Cloud" src="rpc-differentiators.png" alt="" title="What differentiates Rackspace Private Cloud">}}
 
->**Stable and available**
+<image alt="What differentiates Rackspace Private Cloud" src="rpc-differentiators.png" title="What differentiates Rackspace Private Cloud">
 
->We offer an industry leading 99.99% OpenStack API uptime guarantee, a reference architecture that uses Linux containers to provide in-place upgrades and independent scaling of each OpenStack service, and a cloud that is designed to scale to hundreds of nodes.
+**Stable and available**
 
->**Support that provides a Fanatical Experience&trade;**
+We offer an industry leading 99.99% OpenStack API uptime guarantee, a reference architecture that uses Linux containers to provide in-place upgrades and independent scaling of each OpenStack service, and a cloud that is designed to scale to hundreds of nodes.
 
->We provide a dedicated account manager, an optional dedicated OpenStack Engineer service, a 15-minute live response time guarantee to any emergency ticket with Core support, and 24x7x365 access to our team of OpenStack experts
+**Support that provides a Fanatical Experience&trade;**
 
->**Automation**
+We provide a dedicated account manager, an optional dedicated OpenStack Engineer service, a 15-minute live response time guarantee to any emergency ticket with Core support, and 24x7x365 access to our team of OpenStack experts
 
->Rackspace Private Cloud powered by OpenStack is deployed using Ansible software, supports OpenStack Orchestration (Heat), can be combined with our DevOps Automation Service to help automate a customer's process for deploying and scaling applications, and provides solution templates that enable customers to deploy production-ready application stacks in minutes.
+**Automation**
 
->**Deploy anywhere**
+Rackspace Private Cloud powered by OpenStack is deployed using Ansible software, supports OpenStack Orchestration (Heat), can be combined with our DevOps Automation Service to help automate a customer's process for deploying and scaling applications, and provides solution templates that enable customers to deploy production-ready application stacks in minutes.
 
->Deploy anywhere in the world.  You can host Rackspace Private Cloud in your data center, in our data center, in a colocation facility or in multiple locations.
+**Deploy anywhere**
 
->**Expertise**
+Deploy anywhere in the world.  You can host Rackspace Private Cloud in your data center, in our data center, in a colocation facility or in multiple locations.
 
->We manage one of the world's largest OpenStack powered clouds, are #1 in all-time code contributions to the OpenStack project and offer an extensive OpenStack training curriculum.
+**Expertise**
 
->**Hybrid**
+We manage one of the world's largest OpenStack powered clouds, are #1 in all-time code contributions to the OpenStack project and offer an extensive OpenStack training curriculum.
 
->Add elasticity to your infrastructure with the capability to automatically add and remove public cloud resources as needed to support your private cloud workloads.
+**Hybrid**
+
+Add elasticity to your infrastructure with the capability to automatically add and remove public cloud resources as needed to support your private cloud workloads.
 
 {{</accordion>}}
 

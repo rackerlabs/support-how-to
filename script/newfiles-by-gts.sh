@@ -80,7 +80,7 @@ do
 # pull file name and directory
           thefilewx=$(basename $f)
           thefile=${thefilewx%.*}
-          theroot="/support/support/how-to/"
+          theroot="/support/how-to/"
           thepath=$theroot$thefile
           theoutput=$acdate";"$acby";"$thepath
 

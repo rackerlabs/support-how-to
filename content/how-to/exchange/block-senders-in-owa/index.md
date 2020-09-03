@@ -26,7 +26,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 **Warning:** Outlook Web App does not include a setting to reject senders. It only automatically marks blocked senders as junk. Administrators can reference [Blacklists in Microsoft Exchange](/support/how-to/spam-preferences-safe-lists-and-black-list-in-microsoft-exchange/#manage-black-list) for instructions on how to reject senders.
 
-1. Log in to your Exchange mailbox at [apps.rackspace.com](apps.rackspace.com)
+1. Log in to your Exchange mailbox at [apps.rackspace.com](https://apps.rackspace.com)
 
 2. Click the gear icon in the upper right-hand corner, and then select **Options** from the drop down menu.
 
