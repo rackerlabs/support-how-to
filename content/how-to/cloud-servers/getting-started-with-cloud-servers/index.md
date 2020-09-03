@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 Welcome to Rackspace Cloud Servers!  This guide provides
 everything that you need to get started, including logging into our
-[Control Panel](https://manage.rackspacecloud.com), creating servers, transferring
+[Control Panel](https://login.rackspace.com), creating servers, transferring
 domains to be hosted from your Cloud Server, and logging in to your
 server.
 
@@ -32,7 +32,7 @@ The following concepts will help you to get started quickly:
     client like Remote Desktop (Windows) or an ssh client (Linux). Both
     Windows and Linux servers are accessible through a web console
     from our Control Panel as well.
--   Customers can manage Cloud Servers through the [Control Panel](https://manage.rackspacecloud.com), or an
+-   Customers can manage Cloud Servers through the [Control Panel](https://login.rackspace.com), or an
     [Application Programming Interface](https://docs.rackspace.com/docs/)(API).
 -   The hardware that hosts your Cloud Server can be located in any of our
     [data centers](https://www.rackspace.com/en-us/about/datacenters).
