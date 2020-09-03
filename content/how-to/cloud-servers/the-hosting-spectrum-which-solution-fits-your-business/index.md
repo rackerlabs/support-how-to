@@ -79,7 +79,7 @@ and allows businesses to focus fully on their core mission.
 
 The provider has complete ownership of the IT management stack,
 including the data center, network, devices,
-[virtualization](https://www.rackspace.com/openstack/private/openstack)
+[virtualization](https://www.rackspace.com/managed-hosting)
 software, operating systems, application infrastructure and
 applications. Fully outsourced solution providers offer service level
 agreements (SLAs) promising specified levels of application availability
