@@ -212,7 +212,7 @@ Use the following steps to install Apache&reg; Tomcat&reg;:
 
 You can find instructions for installing MongoDB on the Rackspace Cloud at the
 [MongoDB Documentation
-website](https://docs.mongodb.org/ecosystem/platforms/rackspace-cloud/).
+website](https://developer.rackspace.com/databases/mongodb/#MongoDB).
 
 For a production deployment, you should use a replica set with at least
 three nodes.
