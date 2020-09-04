@@ -11,16 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Some new task states have been exposed in the OpenStack Server Extended
-Status Extension that provide more fine-grained visibility into server
-state during the image-create (or "snapshot") process.  In this article,
-I'll tell you what they are and make some suggestions for how you can
-make use of them.
+The OpenStack Server Extended Status Extension has exposed some new
+task states that provide more fine-grained visibility into the server
+state during the image-create (or "snapshot") process.  This article
+describes what they are and suggests how you can make use of them.
 
 Before the OpenStack Grizzly release, when you requested a create image
-action on a server, the server would go into a special "task state" of
-image\_snapshot, and it would stay in this task state until the image
-was completed.  This single task state hid the fact that there are three
+action on a server, the server would go into a special *task state* of
+`image_snapshot`, and it would stay in this task state until the image
+was completed. This single task state hid the fact that there are three
 distinct phases to a snapshot operation:
 
 1.  The hypervisor creates an image of the server's virtual hard disk.
@@ -28,48 +27,44 @@ distinct phases to a snapshot operation:
     image store.
 3.  The hypervisor uploads the packaged image to the image store.
 
-By far, the phase that takes the longest is the third phase, in which
-the upload occurs.  Further, in both phases 2 and 3, while the
-hypervisor is working on your server's behalf, it isn't doing anything
-with your virtual hard disk.  So only during phase 1 is it important
-that you avoid any operations that would modify data on the server's
-virtual hard disk.  (Otherwise, the recorded snapshot might include
+During phase 1, you should avoid any operations that would modify data on
+the server's virtual hard disk. Otherwise, the recorded snapshot might include
 inconsistencies from which certain application programs on your
-server--I'm thinking primarily of databases here--might not be able to
-recover when you boot from the image.)
+server, primarily databases, might not be able to recover when you boot from the image.
 
-With the OpenStack Grizzly release, the semantics of the image\_snapshot
-task state were modified slightly and two new task states were added.
- So now the task states that your server will go through while
-processing an image create action are:
+In both phases 2 and 3, the hypervisor works on your server's behalf
+but doesn't do anything with your virtual hard disk. By far, the third phase,
+in which the upload occurs, takes the longest to complete.
 
-1.  image\_snapshot: the hypervisor is creating an image of the server's
+The OpenStack Grizzly release modified the semantics of the image\_snapshot
+task state slightly and added two new task states. So now, your server goes
+through the following task states while processing an image create action:
+
+1.  image\_snapshot: the hypervisor creates an image of the server's
     virtual hard disk
-2.  image\_pending\_upload: the hypervisor is packaging the image and
-    preparing it for upload
-3.  image\_uploading: the hypervisor is uploading the image to the image
+2.  image\_pending\_upload: the hypervisor packages the image and
+    prepares it for upload
+3.  image\_uploading: the hypervisor uploads the image to the image
     store
 
 While your server is any of these task states, you can't issue another
-create image action on that server.  As you can see from the task state
+create image action on that server. As you can see from the task state
 descriptions, the hypervisor is involved in all three phases of the
 image create action, so all the extra bookkeeping resources the
-hypervisor has allocated to your server are in use.  You have to wait
-until the entire snapshot process has completed and these resources are
-released before you can create another snapshot.
+hypervisor has allocated to your server are in use. You have to wait
+until the entire snapshot process completes and releases these resources
+before you can create another snapshot.
 
-Notice, however, that once the first phase is completed, you no longer
-have to worry about operations occuring on your server that might
-interfere with the effectiveness of your snapshot.  Unfortunately,
-server task states are not currently exposed in the control panel.  You
-can, however, easily check them by using the API or the
-python-novaclient.
+After the first phase is completed, you no longer have to worry that
+operations on your server might interfere with the effectiveness of your
+snapshot. Unfortunately, the Control Panel does not expose server task
+states. However, you can check them by using the API or `python-novaclient`.
 
-### Using the API to Check Server Task State
+### Use the API to check the server task state
 
-The task states are included in the server detail response:
+The task states appear in the following server detail operation response:
 
-GET /v2/servers/{serverId}
+    GET /v2/servers/{serverId}
 
 Here's an abbreviated JSON server detail response:
 
@@ -87,17 +82,17 @@ Here's an abbreviated JSON server detail response:
        }
     }
 
-You're looking for the element named "OS-EXT-STS:task\_state".  (Since a
-JSON object is unordered, it might not be right near the top of the
-response, as it is in this example.)  From the value displayed in this
-example, you can see that the hypervisor has completed creating the
+Look for the `OS-EXT-STS:task_state` element. Because a
+JSON object is unordered, it might appear anywhere in the
+response. From the value displayed in this
+example, you can see that the hypervisor finished creating the
 image of the server's virtual hard disk and is now packaging and
 preparing the image for upload.
 
-### Using the Python-Novaclient to Check Server Task State
+### Use python-novaclient to check the server task state
 
-The python-novaclient is a handy program you can run from the command
-line.  If you haven't used it before, here are some How-To
+`python-novaclient` is a handy program that you can run from the command
+line. If you haven't used it before, here are some How-To
 articles to check out:
 
 -   [Installing python-openstackclient on Linux and Mac
@@ -105,14 +100,13 @@ articles to check out:
 -   [Installing python-novaclient on
     Windows](/support/how-to/installing-python-novaclient-on-windows)
 
-These articles will provide you with an overview of python-novaclient
-and complete instructions for installing it on your operating system of
-choice.
+These articles provide an overview of `python-novaclient`
+and complete instructions for installing it on your operating system.
 
-To see the task state for a server using the python-novaclient, simply
-do a "show" on the server:
+To see the task state for a server by using `python-novaclient`,
+do a `show` operation on the server:
 
-\$ nova show {serverId}
+    $ nova show {serverId}
 
 Here's an abbreviated response:
 
@@ -131,30 +125,28 @@ Here's an abbreviated response:
     +------------------------+---------------------------------------+
 
 In this example, you can see that there's no task state for the server,
-so it could accept an image-create request.
+so it could accept an `image-create` request.
 
-### Polling to Check Server Task State
+### Poll to check the server task state
 
-The use case for server task states we're discussing here is the
-ability to:
+You might want to discover the current server task state before performing
+one of the following tasks:
 
 1.  Stop activities on the server that would affect the
-    quality of the disk image (e.g., stop a database
-    management system).
-2.  Issue an image-create command (via API, novaclient, or
-    control panel) for the server.
-3.  Monitor the server to see when it exits the
-    'image\_snapshot' task state.
+    quality of the disk image, such as stopping a database
+    management system.
+2.  Issue an server `image-create` command by using the API, novaclient, or
+    Control Panel.
+3.  Monitor the server to see when it exits the `image_snapshot` task state.
 4.  Restart the activities stopped before you took the
-    snapshot (e.g., bring your database management system
-    back up).
+    snapshot, such as bringing your database management system
+    back up.
 
-You can write a simple Bash script to monitor your server.
- How elaborate you want the script to be is up to you, here's a sample
-of the most relevant part.  (Please read through and make sure you know
-what it's doing before using it.)  It uses four programs (curl, egrep,
-sed, and date) that are installed by default on most linux systems.
-This fragment is pretty primitive, you have to control-C to stop the
+You can write a simple Bash script to monitor your server. Here's a sample of
+the most relevant part, but feel free to expand on it. Do read through and make
+sure you know what it's doing before using it. It uses four programs (`curl`, `egrep`,
+`sed`, and `date`) that are installed by default on most Linux&reg; systems.
+This fragment is pretty primitive, so you have to use control-C to stop the
 script.
 
     # set these vars
@@ -207,8 +199,8 @@ script.
       sleep ${SLEEP_TIME:-45}
     done
 
-If you start a script that contains the above fragment and then take a
-server snapshot, you'll see something like this:
+If you start a script that contains the preceding fragment and then take a
+server snapshot, you see something similar to the following example:
 
     17:14:41   status: ACTIVE   vm_state: active   task_state: null   power_state: 1
     17:14:44   status: ACTIVE   vm_state: active   task_state: null   power_state: 1
