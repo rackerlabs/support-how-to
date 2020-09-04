@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
@@ -9,7 +9,7 @@ languageCode = "en"
 metaDataFormat = "yaml"
 paginate = 10
 pluralizeListTitles = false
-relativeURLs = false
+relativeURLs = true
 disablePathToLower = true
 uglyURLs = false
 smartDashes = true
