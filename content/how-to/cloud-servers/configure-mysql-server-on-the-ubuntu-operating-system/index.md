@@ -329,4 +329,4 @@ even have accounted for the database engine being used by your tables.
 ### Related articles
 
 - [Install MySQL server on the Ubuntu operating system](/support/how-to/install-mysql-server-on-the-ubuntu-operating-system)
-- [Reset a MySQL root password](/support/how-to/mysql-resetting-a-lost-mysql-root-password)
+- [Reset a MySQL root password](/support/how-to/reset-a-mysql-root-password)

@@ -174,7 +174,8 @@ policy](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/identity
 This section shows you how to edit your default Attribute Mapping Policy.
 
 We recommend that you start by reading [Attribute mapping
-basics](https://docs.rackspace.com/docs/rackspace-federation/attribmapping-basics/).
+
+basics](https://docs.rackspace.com/docs/rackspace-federation/config-attribute-mapping/full-roles/).
 
 ##### Required SAML attributes
 
@@ -233,7 +234,7 @@ concisely retrieve values and simplify the policy. There are additional ways
 to accomplish the same scenario. For more examples and a complete guide to the
 Attribute Mapping Policy language, see the
 [Attribute Mapping Policy reference
-guide](https://docs.rackspace.com/docs/rackspace-federation/attribmap-reference/#attribmap-reference).
+guide](https://docs.rackspace.com/docs/rackspace-federation/appendix/).
 
 <table>
   <tr>

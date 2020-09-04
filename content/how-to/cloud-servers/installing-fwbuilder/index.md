@@ -40,4 +40,4 @@ to launch the application.
 
 ### Additional resources
 
-[Firewall Builder 5 User's Guide](https://www.fwbuilder.org/4.0/docs/users_guide5/ "https://www.fwbuilder.org/4.0/docs/users_guide5/")
+[Firewall Builder 5 User's Guide](http://fwbuilder.sourceforge.net/4.0/docs/users_guide5/ "http://fwbuilder.sourceforge.net/4.0/docs/users_guide5/")

@@ -2,7 +2,6 @@
 title: Contribution class exercise
 type: practice
 created_date: '2016-05-25'
-type: article
 created_by: Nate Archer
 last_modified_date: '2019-05-16'
 last_modified_by: Hiten Mistry

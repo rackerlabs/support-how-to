@@ -1596,8 +1596,6 @@ while consuming fewer CPU cycles.
 2. [https://en.wikipedia.org/wiki/Data_Encryption_Standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard) <a name="2"></a>
 3. [https://en.wikipedia.org/wiki/Advanced_Encryption_Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) <a name="3"></a>
 4. [https://en.wikipedia.org/wiki/File:Diffie-Hellman_Key_Exchange.svg (Public Domain)](https://en.wikipedia.org/wiki/File:Diffie-Hellman_Key_Exchange.svg) <a name="4"></a>
-5. [https://www.brynmawr.edu/math/people/stromquist/numbers/primitive.html](https://www.brynmawr.edu/math/people/stromquist/numbers/primitive.html) <a name="5"></a>
-6. [https://imgs.xkcd.com/comics/alice_and_bob.png](https://imgs.xkcd.com/comics/alice_and_bob.png" alt="" title="">}} <a name="6"></a>
-7. [https://en.wikipedia.org/wiki/Transport_Layer_Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) <a name="7"></a>
-8. [https://tim.dierks.org/2014/05/security-standards-and-name-changes-in.html](https://tim.dierks.org/2014/05/security-standards-and-name-changes-in.html) <a name="8"></a>
-9. [https://en.wikipedia.org/wiki/Man-in-the-middle_attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) <a name="9"></a>
+5. [https://imgs.xkcd.com/comics/alice_and_bob.png](https://imgs.xkcd.com/comics/alice_and_bob.png)<a name="6"></a>
+6. [https://en.wikipedia.org/wiki/Transport_Layer_Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) <a name="7"></a>
+7. [https://en.wikipedia.org/wiki/Man-in-the-middle_attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) <a name="9"></a>
