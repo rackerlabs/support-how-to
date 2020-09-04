@@ -324,7 +324,7 @@ Mapping Policy in conjunction with XPath to observe the SAML `groups` value.
 
 For more examples and a complete guide to the Attribute Mapping Policy
 language, see the [Attribute Mapping Policy reference
-guide](https://docs.rackspace.com/docs/rackspace-federation/appendix/).
+guide](https://docs.rackspace.com/docs/rackspace-federation/config-attribute-mapping).
 
 ##### View example Attribute Mapping Policies
 
