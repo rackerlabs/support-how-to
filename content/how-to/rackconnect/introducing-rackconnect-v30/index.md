@@ -26,9 +26,9 @@ cloud computing&mdash;flexibility, scalability, and elasticity&mdash;with the
 benefits of traditional dedicated hosting&mdash;enhanced security and
 performance characteristics. RackConnect is compatible with our
 dedicated [Managed and Intensive service
-levels](https://www.rackspace.com/dedicated-servers/service-levels/) and
+levels](https://www.rackspace.com/library/cloud-vs-dedicated) and
 our cloud [Managed Operations and Managed
-Infrastructure](https://www.rackspace.com/cloud/compare-service-levels) service levels,
+Infrastructure](https://www.rackspace.com/openstack/public/service-levels) service levels,
 giving you the ability to select the level of support that you need to properly manage your hybrid environment.
 
 RackConnect provides an isolated path for network traffic to traverse

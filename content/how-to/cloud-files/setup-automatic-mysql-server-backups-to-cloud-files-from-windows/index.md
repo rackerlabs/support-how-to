@@ -27,7 +27,7 @@ First you will need to download a small piece of C# software and compile it on a
 
   For example, **C:/upload-to-cf-cs-0.1/**.
 
-3. Download and install [NAnt](https://nant.sourceforge.net/), a free .Net Build tool.
+3. Download and install [NAnt](http://nant.sourceforge.net), a free .Net Build tool.
 
 4. After you have successfully installed NAnt, open a command prompt, navigate to the directory **C:/upload-to-cf-cs-0.1** and run `nant.exe`.
 
@@ -48,7 +48,7 @@ First you will need to download a small piece of C# software and compile it on a
             [copy] Copying 2 files to 'C:\upload-to-cf-cs-0.1\bin'.
 
         BUILD SUCCEEDED
-        Total time: 1.9 seconds.  
+        Total time: 1.9 seconds.
 
   The above command will compile the binary file `upload-to-cf.exe`. You will be using this binary file to upload your backup files to Cloud Files. You can test this command using the following syntax:
 

@@ -34,7 +34,7 @@ Cloud Files is a user- and developer-friendly service. Security mechanisms, desc
 
 ### Affordability
 
-Pricing for Cloud Files with CDN comprises the amount of total data that you have stored (per GB) and the amount of bandwidth used to serve the data (outbound bandwidth only, charged per GB to any edge location on the CDN around the globe). There are no "per request" fees for CDN. The [current pricing for Cloud Files](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/) is located on our website.
+Pricing for Cloud Files with CDN comprises the amount of total data that you have stored (per GB) and the amount of bandwidth used to serve the data (outbound bandwidth only, charged per GB to any edge location on the CDN around the globe). There are no "per request" fees for CDN. The [current pricing for Cloud Files](https://www.rackspace.com/openstack/public/servers/pricing) is located on our website.
 
 ### Flexibility
 

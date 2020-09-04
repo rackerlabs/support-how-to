@@ -1,21 +1,28 @@
 ---
-permalink: mysql-resetting-a-lost-mysql-root-password/
+permalink: reset-a-mysql-root-password/
 audit_date: '2016-06-13'
 title: Reset a MySQL root password
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-04'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The MySQL root password allows the root user to have full access to the [MySQL database](https://www.rackspace.com/cloud/databases). You must have (Linux) root or (Windows) Administrator access to the [Cloud Server](https://www.rackspace.com/cloud) to reset the MySQL root password.
+The MySQL&reg; root password allows the root user to have full access to the
+[MySQL database](https://www.rackspace.com/cloud/databases). You must have
+(Linux&reg;) root or (Windows&reg;) Administrator access to the
+[Cloud Server](https://www.rackspace.com/cloud) to reset the MySQL root password.
 
-**Note:** The Cloud Server (Linux) root or (Windows) Administrator account password is not the same as the MySQL password.  The Cloud Server password allows access to the server. The MySQL root password allows access only to the MySQL database.
+**Note:** The Cloud Server (Linux) root or (Windows) Administrator account
+password is not the same as the MySQL password.  The Cloud Server password allows
+access to the server. The MySQL root password allows access only to the MySQL
+database.
 
-Use the following steps to reset a MySQL root password by using the command line interface.
+Use the following steps to reset a MySQL root password by using the command line
+interface.
 
 ### Stop the MySQL service
 
