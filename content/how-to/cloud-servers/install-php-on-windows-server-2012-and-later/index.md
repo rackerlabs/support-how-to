@@ -19,7 +19,7 @@ the source.
 ### Prerequisites
 
 Before installing PHP on Windows Server 2012 and later, you should install
-the [Internet Information Services (IIS) framework](https://docs.microsoft.com/en-us/dynamics-nav/support/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client).
+the [Internet Information Services (IIS) framework](https://docs.microsoft.com/en-us/dynamics-nav/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client).
 
 You should also install the
 [Microsoft Windows Cache extension for PHP](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php).
@@ -80,7 +80,7 @@ file as **info.php** in the IIS root directory.
 ### Customize PHP
 
 The **php.ini** file that resides in the root of the local installation stores
-the configuration parameters for PHP. To customize PHP, use the following 
+the configuration parameters for PHP. To customize PHP, use the following
 steps:
 
 1. Open the File Explorer and set the path to the **php.ini** file.
@@ -94,11 +94,11 @@ steps:
 
 3. Save the file after you complete your modifications.
 
-4. Next, restart the IIS service to load any configuration changes. 
+4. Next, restart the IIS service to load any configuration changes.
 
-5. Open the **Server Manager** from the task bar. 
+5. Open the **Server Manager** from the task bar.
 
-6. From the **Tools** menu, select **Internet Information Services(IIS) Manager**. 
+6. From the **Tools** menu, select **Internet Information Services(IIS) Manager**.
 
 7. Select the server in the right-hand screen and click **Restart** in the **Manage Server** section.
 

@@ -3,7 +3,6 @@ permalink: legal/
 audit_date:
 title: RACKSPACE HOW-TO LICENSE
 type: article
-type: page
 created_date: '2012-08-24'
 created_by: Rackspace Support
 last_modified_date: '2018-11-27'

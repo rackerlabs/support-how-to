@@ -67,4 +67,4 @@ features associated with them:
 
 ### Next step
 
-[Reasons to use an SQL database](/support/how-to/reasons-to-use-an-sql-database/)
+[Reasons to use an SQL database](/support/how-to/reasons-to-use-an-sql-db)

@@ -16,9 +16,9 @@ product_url: cloud-servers
 To ensure that Rackspace has access to your server when needed, we request that you
 do not change the following configurations as you consider security best practices:
 
-- When connecting to your server, Rackspace Support logs in as the user **rack** by using Remote Desktop Connection to the public IP address over port 3389. 
+- When connecting to your server, Rackspace Support logs in as the user **rack** by using Remote Desktop Connection to the public IP address over port 3389.
 
-- Rebuilding existing servers or building a new server from a snapshot requires that Administrator logins are enabled, and port 445 is not blocked in the Microsoft&reg; Windows&reg; firewall. 
+- Rebuilding existing servers or building a new server from a snapshot requires that Administrator logins are enabled, and port 445 is not blocked in the Microsoft&reg; Windows&reg; firewall.
 
 If you must change these values, contact an administrator at Rackspace to make the
 changes in a way that does not impact our ability to provide you with a *Fanatical
@@ -37,7 +37,7 @@ Public Cloud Servers running Windows.
 By default, Rackspace Public Cloud Servers do not have a firewall device. For servers that
 interact with the public Internet with no firewall device, the Windows firewall is the only
 protection between your server resources and your private data and anyone with
-access to an Internet connection. 
+access to an Internet connection.
 
 Disable as many rules on the firewall as possible. Disabling rules means that fewer ports
 are open and listening over the public interface, which limits the server’s exposure to
@@ -48,7 +48,7 @@ in those specific rules. Add the IP address from your local home or office compu
 the whitelist, even if your internet service provider (ISP) provides dynamic public IP
 addresses that change over time. You can make changes to the firewall rules as needed from
 the Cloud Control Panel by logging in to the server remotely via the console and adding a
-new IP address. 
+new IP address.
 
 By limiting access to the server via IP address whitelisting, you can ensure that users
 who need access to the server have it, but those who don't are blocked from those open
@@ -81,7 +81,7 @@ Port  | Description
 
 Consider what data is available to others via file sharing. We do not recommend
 enabling Windows file sharing because the ports open on the firewall (ports
-445 and 139) expose the server to unwanted connection attempts. 
+445 and 139) expose the server to unwanted connection attempts.
 
 Some customers use their servers to host back-office software such as QuickBooks&reg;,
 PeachTree, Microsoft Office&reg; (Outlook&reg; for Remote Desktop sessions), or other third-party
@@ -127,7 +127,7 @@ We typically discourage running Active Directory on a cloud server because the o
 protection from intrusion is the Windows firewall, and Active Directory introduces issues
 into a cloud server environment. Active Directory is generally better used in a dedicated
 server environment where servers are placed behind physical firewalls and
-connected over VPN tunneling through that firewall appliance. 
+connected over VPN tunneling through that firewall appliance.
 
 Rackspace supports a Virtual Private Network (VPN) only if it is through a hardware
 firewall in a solution called RackConnect. It is easier to implement this physical
@@ -135,7 +135,7 @@ firewall setup before you create servers because, at the time this article was w
 the process that connects the firewall and the servers is automated during the build
 process. Physical firewalls are not provisioned as quickly as cloud servers and must be
 requested through our Hybrid teams. For more information about physical firewalls and
-RackConnect, see <https://www.rackspace.com/cloud/hybrid/rackconnect/>.
+RackConnect, see <https://www.rackspace.com/cloud-connectivity/rackconnect/>.
 
 If you do install Active Directory on a cloud server, we recommend that
 you run two domain controllers in case one fails (imaging is currently
@@ -149,13 +149,13 @@ the internal interface only, preferably listening only for connections from a li
 IP addresses of other servers needing to access SQL Server on the server. You can allow
 SQL port 1433 to listen over the public interface, but you must limit this rule to only
 the IP addresses of the computers where the developers are connecting to the
-databases on the server. 
+databases on the server.
 
 If you don’t limit these connections to the server, port 1433 is exposed and outside
 hackers *will* attempt a brute-force attack on the server over this port. These types of
 attacks cause high network traffic, slow the server's performance, and even bring down
 sites if an important account gets locked out. By limiting access to this port, you
-mitigate these issues before they start. 
+mitigate these issues before they start.
 
 For servers running SQL Server Standard or SQL Server Web editions, we recommend
 configuring maintenance plans to dump the data from the live database files into flat
@@ -182,7 +182,7 @@ from that image.
 We also offer file-level backup through Cloud Backups. We don't recommend backing
 up the entire **C:** drive because live files that are locked cause the backup job to
 complete with errors. Furthermore, the Windows system files are contained in the base
-images provided by us or in any custom images taken of the servers, so you don’t need to back up that data on a daily basis. 
+images provided by us or in any custom images taken of the servers, so you don’t need to back up that data on a daily basis.
 We do recommend backing up the **C:\inetpub** (IIS) directory and any other user data that needs to be backed up.
 Additionally, if you configured SQL Server maintenance plans to dump the live data into flat files for
 backups, we recommend that you also include those directories in the backup.
@@ -194,15 +194,15 @@ restored.
 
 **Note**: Not all servers can benefit from Cloud Images. Specifically, you cannot image servers that use *Boot from Volume* configurations. Additionally, while a server image can be useful, images should never be considered the only source of backup because the image process does not verify the file integrity. Rackspace strongly recommends file-level backups for your most important data. Thus, you should consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
 
-### Code 
+### Code
 
 The last attack surface exposed to the Internet is the code. You and
 your developers must ensure that your code is enforcing proper
-authentication and authorization. For example, you should not allow a 
+authentication and authorization. For example, you should not allow a
 web application to be executed with administrator-level privileges. File authorization
 should be carefully defined, and all inputs on the application should
 have the best validation possible to prevent hackers from exploiting the
-web application and gaining control of the server. 
+web application and gaining control of the server.
 
 The following sites provide information about improving ASP.NET security:
 

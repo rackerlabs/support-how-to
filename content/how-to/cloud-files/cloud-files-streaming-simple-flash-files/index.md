@@ -25,7 +25,7 @@ Pseudostreaming works as follows: When a video is initially loaded, the player r
 
 Pseudostreaming differs from what Akamai offers with their iOS streaming. iOS streaming is a form of adaptive streaming. The encoder (or a separate segmented process) produces H.264/AAC content in a sequence of small content segments, in MPEG-2 TS format (.ts). There is also a m3u8 index file that references these segments; in the case of live content, the M3U8 is continuously updated to reflect the latest content.
 
-For more information about pseudostreaming, see [JW6: Pseudo Streaming in Flash](https://support.jwplayer.com/customer/portal/articles/1430518-pseudo-streaming-in-flash).
+For more information about pseudostreaming, see [JW6: Pseudo Streaming in Flash](https://www.joomlarulez.com).
 
 For more information about iOS streaming, see [Technical Note TN2224](https://developer.apple.com/library/content/technotes/tn2224/_index.html) on the Apple
 Developer site.

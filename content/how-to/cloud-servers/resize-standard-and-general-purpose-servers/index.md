@@ -76,4 +76,4 @@ Use the following steps to resize a server:
 - [Basic Cloud Server security](/support/how-to/basic-cloud-server-security)
 - [Reboot your server](/support/how-to/reboot-your-server)
 - [Rebuild a Cloud Server](/support/how-to/rebuild-a-cloud-server)
-- [Delete a server](/support/how-to/delete-a-server)
+

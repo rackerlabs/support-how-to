@@ -22,7 +22,7 @@ If you are new to RackConnect or OnMetal, or would just like to learn
 more about them, you can find more details about these offerings at the following links:
 
 -   [OnMetal Cloud Servers product page](https://www.rackspace.com/cloud/servers/onmetal/)
--   [RackConnect product page](https://www.rackspace.com/cloud/hybrid/rackconnect/)
+-   [RackConnect product page](https://www.rackspace.com/cloud-connectivity/rackconnect)
 -   [What is new with OnMetal Cloud Servers](/support/how-to/what-is-new-with-onmetal-cloud-servers)
 -   [Using OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers)
 -   [Using OnMetal Cloud Servers through API](/support/how-to/using-onmetal-cloud-servers-through-api)
