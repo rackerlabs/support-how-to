@@ -56,8 +56,7 @@ complete the setup process.
 
 -   MyRackspace also implements multi-factor authentication, but it is
     not implemented through the Identity 2.0 API. For
-    information about using multi-factor authentication with
-    MyRackspace, see [MyRackspace Two-Factor Authentication](/support/how-to/myrackspace-two-factor-authentication).
+    information, see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
 
 -   When multi-factor authentication is enabled for an account, it is
     enabled only for authentication via username and password
@@ -178,7 +177,7 @@ If your account has been configured with both SMS and OTP devices, you
 can select the default multi-factor authentication method from the
 My Profile & Settings page.
 
-1.  Log in to the [Rackspace Cloud Control Panel]((https://login.rackspace.com).
+1.  Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
 2.  In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 
@@ -200,7 +199,7 @@ accounts until they add and verify a device on their account.
 **To configure account-wide settings for multi-factor
 authentication**
 
-1.  Log in to the [Rackspace Cloud Control Panel]((https://login.rackspace.com).
+1.  Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
 2.  In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 
