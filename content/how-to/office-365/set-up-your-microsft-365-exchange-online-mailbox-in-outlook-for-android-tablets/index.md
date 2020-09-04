@@ -95,4 +95,3 @@ when you configure your account for the first time.
      - The **Magnifying Glass** icon allows you to search your Mailbox for individual messages, contacts, calendar events, and so on.
 
      - The **Calendar** icon displays the calendar associated with your Microsoft 365 Exchange Online mailbox.
-
