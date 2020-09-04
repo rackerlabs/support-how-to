@@ -23,10 +23,9 @@ through the Cloud Files user interface.
 New values take effect after the current TTL cycle is completed. The TTL
 can be any value between 15 minutes and 50 years. Use higher numbers for
 static content that doesn't change often, and use smaller numbers for
-content that changes more often. If you require a longer TTL, see the
-following blog post about using the Cloud Files Application Programming 
-Interface (API) to set TTL: 
-[Extending TTL for Cloud Files CDN Users](https://blog.rackspace.com/extending-ttl-for-cloud-files-cdn-users).
+content that changes more often. If you require a longer TTL, use
+the [Cloud Files Application Programming](https://developer.rackspace.com/docs/cloud-files/v1/)
+Interface (API) to set TTL.
 
 Use the following steps to modify a container's TTL within the Cloud
 Control Panel:
