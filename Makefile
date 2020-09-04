@@ -2,7 +2,7 @@ HUGO_VERSION ?= 0.74.3
 HUGO_EXTENDED = "extended_"
 CONTAINER_RUNTIME ?= docker
 # Show build warnings, posts tagged as draft, and posts with a future date
-PREVIEW_ARGS = --path-warnings --verbose --buildDrafts --buildFuture
+PREVIEW_ARGS = --path-warnings --verbose --buildDrafts --buildFuture --port 8888
 
 install: checkDep
 	@echo Installing AsciiDoctor

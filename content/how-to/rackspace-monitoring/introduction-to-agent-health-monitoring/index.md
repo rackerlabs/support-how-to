@@ -77,9 +77,7 @@ procedures:
     agent, see [Troubleshooting the Rackspace Monitoring
     Agent](/support/how-to/troubleshooting-the-rackspace-monitoring-agent).
 
-For a summary of the concepts mentioned in this article, read the
-[Single Pane of Glass for Your IT
-Ops](https://bit.ly/maas-intelligence) blog post or the [Getting Started
+For a summary of the concepts mentioned in this article, read the [Getting Started
 with Rackspace
 Intelligence](/support/how-to/rackspace-intelligence)
 article.
@@ -89,7 +87,7 @@ article.
 
 The Agent Health Monitoring feature is initially offered at Limited
 Availability (LA). If you are interested in using this feature, submit a support
-ticket to express your interest for this feature. The Rackspace Monitoring 
+ticket to express your interest for this feature. The Rackspace Monitoring
 team will contact you with detailed information.
 
 The agent.health check and alarm will be created automatically on all
