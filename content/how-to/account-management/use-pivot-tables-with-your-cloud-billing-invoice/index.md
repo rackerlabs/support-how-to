@@ -27,7 +27,7 @@ Use the following steps to view billing data in pivot tables:
 
 1.  Select the pivot table spreadsheet from the following list, and download it:
     -   Old Excel: Microsoft Office &reg; versions earlier than 2007
-        ([download](rackspace_billing_old_excel_pivot_tables.xls))
+        [download](rackspace_billing_old_excel_pivot_tables.xls)
     -   New Excel: Microsoft Office 2007 and later, Libre Office &reg;,
         and Google Sheets &trade;
         ([download](https://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_new_excel_pivot_tables.xlsx))
