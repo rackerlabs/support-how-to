@@ -1,12 +1,12 @@
 ---
 permalink: using-task-states-with-server-imaging/
-audit_date:
+audit_date: '2020-09-04'
 title: Use task states with server imaging
 type: article
 created_date: '2013-08-28'
 created_by: Brian Rosmaita
-last_modified_date: '2019-01-25'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-09-04'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -100,8 +100,8 @@ The python-novaclient is a handy program you can run from the command
 line.  If you haven't used it before, here are some How-To
 articles to check out:
 
--   [Installing python-novaclient on Linux and Mac
-    OS](/support/how-to/installing-python-novaclient-on-linux-and-mac-os)
+-   [Installing python-openstackclient on Linux and Mac
+    OS](/support/how-to/installing-python-openstackclient-on-linux-and-mac-os)
 -   [Installing python-novaclient on
     Windows](/support/how-to/installing-python-novaclient-on-windows)
 
