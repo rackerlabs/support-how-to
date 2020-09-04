@@ -122,7 +122,7 @@ password that you set, you can create or change the password.
    written in all-caps to make them stand out from field names and other
    data that's being manipulated.
 
-If you need to reset the root password later, see [Reset a MySQL root password](/support/how-to/mysql-resetting-a-lost-mysql-root-password).
+If you need to reset the root password later, see [Reset a MySQL root password](/support/how-to/reset-a-mysql-root-password).
 
 ### View users
 
@@ -284,7 +284,7 @@ covered here should give you a solid start from which to learn more.
 ### Related articles
 
 - [Configure MySQL server on the Ubuntu operating system](/support/how-to/configure-mysql-server-on-the-ubuntu-operating-system)
-- [Reset a MySQL root password](/support/how-to/mysql-resetting-a-lost-mysql-root-password)
+- [Reset a MySQL root password](/support/how-to/reset-a-mysql-root-password)
 
 
 <script type="application/ld+json">
