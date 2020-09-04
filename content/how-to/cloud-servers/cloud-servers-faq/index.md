@@ -125,10 +125,10 @@ requirements with regards to HIPAA, Rackspace offers a [Business Associate Agree
 of our dedicated hosting services segments, and it is included by
 default in our agreements with customers for those services.
 {{</accordion>}}
-{{<accordion title="How do Cloud Servers prevent my data from potentially becoming visible when I delete a server?" col="in" href="accordion13">}}
+{{<accordion title="How do Cloud Servers prevent my data from potentially becoming visible when a server is deleted?" col="in" href="accordion13">}}
 
 For your security, the Virtual Hard Drive (VHD) on the hypervisor is
-deleted when you delete a server. After it is deleted, data cannot be
+deleted when you request a server deletion. After it is deleted, data cannot be
 retrieved and customers do not have logical or direct access to the
 physical drive.
 {{</accordion>}}
