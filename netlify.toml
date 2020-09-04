@@ -5,6 +5,12 @@
   command = "make build"
   publish = "public"
 
+[dev]
+  command = "make serve"
+  port = 8888
+  publish = "public"
+  autoLaunch = true
+
 [context.deploy-preview]
   command = "make build-preview"
   publish = "public"
@@ -34,3 +40,10 @@
 #   todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to"]
 #   checkExternal = false
 #   followSourceMaps = false
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+
+	[plugins.inputs]
+	# If it should show more verbose logs (optional, default = true)
+	debug = true
