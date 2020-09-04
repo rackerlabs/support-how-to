@@ -35,7 +35,7 @@ The following terms are used in this article:
 
 The following diagram illustrates how DNAT and SNAT are processed at different stages of packet processing. It is important to know this because firewall rules must be created using the correct, either pre-NAT or post-NAT, addresses and ports. Because DNAT is processed first and SNAT is processed last, traffic that is subject to NAT most likely needs to be identified by using the real IP address of the host.
 
-<img src="883-1_0.png" width="780" height="368" border="1" alt=""  />
+{{<image src="883-1_0.png" alt="" title="">}}
 
 ### Important NAT notes
 
@@ -150,7 +150,7 @@ The rule number increments in sets of 10 to allow for additions without having t
 ### Troubleshooting
 
 Following are some NAT troubleshooting commands with ASA equivalent (when available).
-{{< table "table table-dark table-striped table-bordered" >}}
+{{< table "table  table-striped table-bordered" >}}
 | <strong>NAT troubleshooting command</strong>  | <strong>Equivalent ASA command</strong> |
 |---------|--------|
 | <code>show nat &lt;source/destination&gt; rules</code> | <code>sh run nat</code> |

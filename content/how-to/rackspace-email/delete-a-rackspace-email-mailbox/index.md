@@ -38,20 +38,20 @@ If you need any of the data in the mailbox, you must export the data before you 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 2. In the Rackspace Email section, click **Mailboxes**.
 
-   <img src="add-mailbox-sc1.png" />
+   {{<image src="add-mailbox-sc1.png" alt="" title="">}}
 
 3. If you have multiple domains, select the domain that contains the mailbox that you want to delete.
 4. Click the name of the mailbox you want to delete.
 
-    <img src="click_username.png" />
+    {{<image src="click_username.png" alt="" title="">}}
 
 5. Click **DELETE MAILBOX** in the upper-right corner.
 
-    <img src="delete_button.png" />
+    {{<image src="delete_button.png" alt="" title="">}}
 
 6. A pop up appears informing you of what services and data will be deleted. After you review the information and want to continue with deleting the mailbox click **YES, DELETE MAILBOX**.
 
-    <img src="yes_delete.png" />
+    {{<image src="yes_delete.png" alt="" title="">}}
 
     **Warning:** A deleted mailbox can be recovered for up to 14 days. For instructions, see [Recover a deleted mailbox](/support/how-to/recover-a-deleted-rackspace-email-mailbox/).
 
@@ -62,7 +62,7 @@ If you need any of the data in the mailbox, you must export the data before you 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 2. In the Rackspace Email section, click **Mailboxes**.
 
-   <img src="add-mailbox-sc1.png" />
+   {{<image src="add-mailbox-sc1.png" alt="" title="">}}
 
 3. If you have multiple domains, select the domain that contains the mailbox that you want to delete.
 
@@ -70,10 +70,10 @@ If you need any of the data in the mailbox, you must export the data before you 
 
 5. Expand the **Select Action** menu at the bottom of the mailbox list, and select **Delete mailboxes**
 
-   <img src="delete-rse-box-sc2.png" />
+   {{<image src="delete-rse-box-sc2.png" alt="" title="">}}
 
 6.  A pop up appears informing you of what services and data will be deleted. After you review the information and want to continue with deleting the mailbox click **Delete # mailboxes**.
 
-    <img src="delete_mult_mailboxes.png" />
+    {{<image src="delete_mult_mailboxes.png" alt="" title="">}}
 
 7. You are returned to the mailbox list where you can see that the mailbox has been removed from the list.

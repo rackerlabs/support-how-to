@@ -5,7 +5,7 @@ title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
-last_modified_date: '2019-03-15'
+last_modified_date: '2020-09-04'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -59,7 +59,7 @@ applications on installation. Cloud Servers are designed for customers who
 want to start from scratch and tune a system for their own purposes.
 
 If you are uncomfortable in the System Administrator role, we also offer a
-[Managed Operations service level](https://www.rackspace.com/cloud/managed_cloud/).
+[Managed Operations service level](https://www.rackspace.com/cloud).
 {{</accordion>}}
 {{<accordion title="What level of support comes with Cloud Servers?" col="in" href="accordion8">}}
 
@@ -99,11 +99,10 @@ you to save your IP address.
 
 You can [reboot your server](/support/how-to/reboot-your-server).
 You can [restore from a backup](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
-You can [delete your server](/support/how-to/delete-a-server)
-and start over. You can [boot into an emergency rescue mode](/support/how-to/rescue-mode)
-and attempt fix the problem. There are many options for recovering from
+You can [boot into an emergency rescue mode](/support/how-to/rescue-mode)
+and attempt fix the problem. You have many options to recover from
 mistakes, but the easiest is to keep regular backups and to [make a fresh backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
-before attempting any major configuration changes or before installing
+before attempting any major configuration changes or installing
 new software.
 {{</accordion>}}
 
@@ -126,10 +125,10 @@ requirements with regards to HIPAA, Rackspace offers a [Business Associate Agree
 of our dedicated hosting services segments, and it is included by
 default in our agreements with customers for those services.
 {{</accordion>}}
-{{<accordion title="How do Cloud Servers prevent my data from potentially becoming visible when I delete a server?" col="in" href="accordion13">}}
+{{<accordion title="How do Cloud Servers prevent my data from potentially becoming visible when a server is deleted?" col="in" href="accordion13">}}
 
 For your security, the Virtual Hard Drive (VHD) on the hypervisor is
-deleted when you delete a server. After it is deleted, data cannot be
+deleted when you request a server deletion. After it is deleted, data cannot be
 retrieved and customers do not have logical or direct access to the
 physical drive.
 {{</accordion>}}
@@ -246,7 +245,7 @@ unlimited number of images on-demand, or you can schedule an automatic
 daily or weekly image.
 
 Images are compressed and stored on Rackspace Cloud Files at the
-[current storage rates](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
+[current storage rates](https://www.rackspace.com/openstack/public/pricing).
 Please also read this list of [snapshot limitations](/support/how-to/rackspace-cloud-essentials-cloud-server-image-limitations).
 
 If you are using a virtual Cloud Server, see [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
@@ -351,7 +350,7 @@ size of the customers' servers and the type of operating system.
 
 The native storage allocation for a Cloud Server is based on the
 Cloud Server flavor that you select, but you can add extra storage at
-any time with our [Cloud Block Storage](https://www.rackspace.com/cloud/blockstorage/) service.
+any time with our [Cloud Block Storage](https://www.rackspace.com/openstack/public/block-storage) service.
 {{</accordion>}}
 {{<accordion title="Can I install the Rackspace Private Cloud on virtual machines?" col="in" href="accordion35">}}
 
@@ -414,7 +413,7 @@ the [Cloud Servers discounts page](https://www.rackspace.com/cloud/servers/disco
 {{<accordion title="Are Cloud Servers PCI-DSS compliant?" col="in" href="accordion39">}}
 For information about PCI-DSS, see [Cloud Security Solutions](/support/how-to/are-cloud-servers-pci-dss-compliant).
 For information about PCI-DSS for Rackspace Dedicated Hosting
-services, see [PCI-Compliant Hosting for E-commerce Websites](https://www.rackspace.com/ecommerce-hosting/pci/).
+services, see [Rackspace Compliance Assistance](https://www.rackspace.com/managed-security-services/compliance-assistance).
 {{</accordion>}}
 {{<accordion title="Can I run a firewall on my server?" col="in" href="accordion40">}}
 

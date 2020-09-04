@@ -134,7 +134,7 @@ The new cloud server, upon creation, will inherit the automation features settin
 2. Click **Network > RackConnect** to open the RackConnect Management Interface.
 3. In the left pane, select your RackConnect configuration, and then select your cloud account. The cloud account's overview page lists your current automation features settings.
 
-    <img src="New.MyRack.Automation.Features.status.png" class="image-full_width" width="700" height="487" />
+    {{<image src="New.MyRack.Automation.Features.status.png" alt="" title="">}}
 
 #### How do I verify the current automation features settings for my cloud servers?
 
@@ -143,7 +143,7 @@ The new cloud server, upon creation, will inherit the automation features settin
 2. Click **Network > RackConnect** to open the RackConnect Management Interface.
 3. In the left pane, select your RackConnect configuration, select your cloud account, and then select one of your cloud servers. The cloud server's overview page lists your current automation features settings.
 
-    <img src="New.MyRack.CS_.Automation.Features.status.png" class="image-full_width" width="700" height="566" />
+    {{<image src="New.MyRack.CS_.Automation.Features.status.png" alt="" title="">}}
 
 #### How does enabling the automation features affect my pre-existing cloud servers?
 
@@ -251,6 +251,6 @@ RackConnect network policies. In the event of multiple software
 firewall update failures for a cloud server, a support ticket is
 automatically generated.
 
-For Linux cloud servers only, you can create iptables rules that are not overwritten by these periodic software firewall updates; for details about how to accomplish this, see [Prevent RackConnect from overwriting custom iptables rules on Linux cloud servers](/support/how-to/support/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers).
+For Linux cloud servers only, you can create iptables rules that are not overwritten by these periodic software firewall updates; for details about how to accomplish this, see [Prevent RackConnect from overwriting custom iptables rules on Linux cloud servers](/support/how-to/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers).
 
 Software firewall modifications should only be made via the network policies section of the MyRackspace Portal. For more information, see [Managing RackConnect v2.0 network policies](/support/how-to/managing-rackconnect-v20-network-policies).

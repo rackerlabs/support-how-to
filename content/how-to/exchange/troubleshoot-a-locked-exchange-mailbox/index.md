@@ -33,7 +33,7 @@ Answering yes to any of the following questions could mean that your Exchange ma
 
 - Are you repeatedly being prompted for a password on any of your devices?
 
-- Have you attempted to log in to [apps.rackspace.com](apps.rackspace.com) without success?
+- Have you attempted to log in to [apps.rackspace.com](https://apps.rackspace.com) without success?
 
 It could also be time to [update your password](/support/how-to/change-a-microsoft-exchange-mailbox-password) if you are having trouble remembering the current password.
 
@@ -65,7 +65,7 @@ Administrators must coordinate several steps with the locked-out user through th
 6. In the mailbox list, select the name of the mailbox that you want to unlock.
 7. If the mailbox is locked, you will see an alert stating that the Mailbox is locked.
 
-   <img src="CP_unlock.png" />
+   {{<image src="CP_unlock.png" alt="" title="">}}
 
 8. Unlock the mailbox and allow 5 minutes for the unlock to complete.
 9. Instruct the user to open their email application on each device one at a time, imputing their email address and password when prompted.

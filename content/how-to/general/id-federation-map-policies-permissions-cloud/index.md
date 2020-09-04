@@ -165,7 +165,7 @@ policy](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/identity
 This section shows you how to edit your default Attribute Mapping Policy.
 
 We recommend that you start by reading [Attribute mapping
-basics](https://docs.rackspace.com/docs/rackspace-federation/attribmapping-basics/).
+basics](https://docs.rackspace.com/docs/rackspace-federation/config-attribute-mapping/full-roles/).
 
 ##### Required SAML attributes
 
@@ -314,7 +314,7 @@ For basic Identity Federation setups, this example might be sufficient.
 
 For a full list of Rackspace Cloud product roles, see the [Rackspace Cloud
 roles
-reference](https://docs.rackspace.com/docs/rackspace-federation/attribmapping-basics/full-roles/#full-roles-ug).
+reference](https://docs.rackspace.com/docs/rackspace-federation/config-attribute-mapping/full-roles/).
 
 ##### Permissions by groups example
 

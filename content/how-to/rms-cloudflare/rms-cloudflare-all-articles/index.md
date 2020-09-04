@@ -1,8 +1,8 @@
 ---
-title: Cloudflare Edge Security solutions All Articles
+title: Cloudflare with Rackspace Managed Services All Articles
 category: Managed Security
 permalink: rms-cloudflare-all-articles/
-product: Cloudflare Edge Security
+product: Cloudflare with Rackspace Managed Services
 product_url: rms-cloudflare
 ---
 

@@ -29,7 +29,7 @@ Firewall Manager, commonly referred to as the Firewall Control Panel (FWCP), is 
 
 Rackspace requires each customer contact who attempts to use Firewall Manager to accept the Firewall User Agreement terms. These terms are prompted for each device, every 90 days. Only customer contacts who have edit or admin permissions on firewalls are permitted to make modifications. When the customer contact accepts the terms, a confirmation email is sent to the customer contact and primary contact. If the customer contact chooses not to accept the terms, that contact can only view their firewall configuration.
 
-<img src="user-agreement.png" alt="" />
+{{<image src="user-agreement.png" alt="" title="">}}
 
 ### Firewall Manager v2 features
 

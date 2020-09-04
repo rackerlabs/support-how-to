@@ -79,7 +79,7 @@ This section provides answers to questions that you might have about the Exchang
 
 #### Do I need to change my Mail Exchange records?
 
-In most cases, you do not need to change your Mail Exchange (MX) records because they should already point to our environment. You can review our MX record details in the article [Set up DNS records for Cloud Office email](/support/support/how-to/set-up-dns-records-for-cloud-office-email/).
+In most cases, you do not need to change your Mail Exchange (MX) records because they should already point to our environment. You can review our MX record details in the article [Set up DNS records for Cloud Office email](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email/).
 
 #### Can we migrate only some of our mailboxes?
 
@@ -105,7 +105,7 @@ The following items can affect the length of your migration:
 - Mailbox size
 - Total size of attachments
 - Number of mailboxes on the domain
-- Provisioning delays in our Exchange environment. See the [System Status Page](https://status.apps.rackspace.com/) for notice on this type of issue.
+- Provisioning delays in our Exchange environment. See the [System Status Page](http://status.apps.rackspace.com/) for notice on this type of issue.
 
   **Note:** You cannot estimate the length of time a migration will take because of the variance in the preceding items.
 

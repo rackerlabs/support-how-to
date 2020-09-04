@@ -29,30 +29,30 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 2. Scroll down to the **Domains** section. In the far right column of this section, click **Email Archiving**.
 
-   <img src="domains_archive.png" />
+   {{<image src="domains_archive.png" alt="" title="">}}
 
 3. Select the domain for which you want to enable a retention policy, and then click **Manage My Archive**. 
 
    The dashboard for the domain's archive displays.
 
-   <img src="manage_archive.png" />
+   {{<image src="manage_archive.png" alt="" title="">}}
 
 4. In the top right corner, click **Admin**.
 
-   <img src="admin_tab.png" />
+   {{<image src="admin_tab.png" alt="" title="">}}
 
 5. In the top navigation bar, click **Policies**.
 
-   <img src="policies.png" />
+   {{<image src="policies.png" alt="" title="">}}
 
 6. Check the box to the right of **Enable Retention Policy**. Set the duration that you want items to be retained in the email archive.
 
     **Warning:** Any items older than the set retention duration will be immediately purged from the archive and be unrecoverable. Items that later exceed the retention duration will also be permanently deleted.
 
-    <img src="enable_retention.png" />
+    {{<image src="enable_retention.png" alt="" title="">}}
 
 7. Click **OK** to confirm that you want to implement the retention policy.
 
-    <img src="warning.png" />
+    {{<image src="warning.png" alt="" title="">}}
 
 Archive retention polices should be created only for specific reasons. There is no need to keep your archive under a certain data limit should you choose to not have a retention policy.

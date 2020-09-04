@@ -20,7 +20,7 @@ Exchange alias that points to a real mailbox outside of your domain.
 
 2. In the Microsoft Exchange section, click the **Contacts** link.
 
-   <img src="microsoft-exchange-contacts-link.png" alt="Contacts link highlighted." />
+   {{<image alt="Contacts link highlighted." src="microsoft-exchange-contacts-link.png" title="Contacts link highlighted.">}}
 
 3. If you have multiple domains, select the appropriate domain name.
    Or, to change domains, click the **Change Domain** link.

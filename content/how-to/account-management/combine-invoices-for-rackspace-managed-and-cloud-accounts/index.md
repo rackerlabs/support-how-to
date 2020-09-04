@@ -36,17 +36,17 @@ contracting entities, or have an outstanding balance on a child account.
 
 5. On the **Add Account** screen, enter the account number that you want to add to the invoice.
 
-   <img src="add-account.png" />
+   {{<image src="add-account.png" alt="" title="">}}
 
 6. Enter the username and password for that account.
 
-   <img src="add-account-details.png" />
+   {{<image src="add-account-details.png" alt="" title="">}}
 
 7. Select the check box to agree to the terms of service, and then click **Add Account**.
 
 8. A pop-up dialog box displays the account information that you want to add to the invoice. Click **Add Account** to confirm.
 
-   <img src="confirm-add-account.png" />
+   {{<image src="confirm-add-account.png" alt="" title="">}}
 
 After the accounts are consolidated, the **Invoiced Accounts** section of the
 **Billing Settings** page displays the new account.

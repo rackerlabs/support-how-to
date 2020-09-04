@@ -19,7 +19,7 @@ high traffic.
 
 Rackspace offers an [additional service-level
 guarantee](/support/how-to/managed-cloud-service-levels-faq/#guarantees) for Managed
-Operations service level customers who notify us in advance of their 
+Operations service level customers who notify us in advance of their
 high-traffic event. This guarantee is only available for our Managed Operations
 service level customers and does have a few restrictions, including advanced
 notice and code freezes. If you are interested in this advanced service level
@@ -54,7 +54,7 @@ a single server to multiple servers. This section shares tips for scaling up.
 
 Use the following steps to scale at the web and app tier:
 
-- Learn about the _[seed configuration](https://blog.rackspace.com/fundamentals-of-cloud-architecture-the-seed-config-video?cm_mmc=community-_-activation-_-gsg-_-links)_, our architecture recommendation for a scale-ready cloud application.
+- Learn about the seed configuration, our architecture recommendation for a scale-ready cloud application.
 - After you have the seed configuration in place, start scaling horizontally by using
   additional app and web servers.
 

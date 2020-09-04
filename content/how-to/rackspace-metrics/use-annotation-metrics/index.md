@@ -21,11 +21,11 @@ The concept of *annotations* can be traced back to a blog post by the Etsy team.
 
 Through Grafana, Rackspace Metrics users can create a dashboard that can help identify the performance changes in a system. Although detection is the first step toward managing the application, the next step is to determine what has changed.
 
-<img src="Anotationsupport-what-changed.png" alt="" />
+{{<image src="Anotationsupport-what-changed.png" alt="" title="">}}
 
 With annotation support, users can submit information about change events that appears with the graph. These annotations add information for the graph on the dashboard.
 
-<img src="Anotattionsupport-change-event.png" alt="" />
+{{<image src="Anotattionsupport-change-event.png" alt="" title="">}}
 
 #### Submit annotations through the API
 
@@ -65,17 +65,17 @@ For more information about this operation, see [Send an annotation](https://docs
 
 4. On the **Add** tab, enter a name for the annotation and select **RackspaceMetrics** as the data source.
 
-   <img src="Annotationsupport-datasource.png" alt="" />
+   {{<image src="Annotationsupport-datasource.png" alt="" title="">}}
 
 5. In the **Blueflood event tags** field, search for the annotation's tag.
 
 6. Click **Add**.
 
-   <img src="Anotattionsupport-change-event.png" alt="" />
+   {{<image src="Anotattionsupport-change-event.png" alt="" title="">}}
 
 The new annotation appears in Grafana.
 
-<img src="Annotationsupport-annotation-appears.png" alt="" />
+{{<image src="Annotationsupport-annotation-appears.png" alt="" title="">}}
 
 ### Retrieve annotations from the API (optional)
 

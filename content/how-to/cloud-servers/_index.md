@@ -12,12 +12,12 @@ product_url: cloud-servers
 
 This introduction covers everything you need to know as a new Rackspace customer, including how to manage your account, create servers, set up security, and schedule server imaging.
 
-### Saving server images
+### Manage server images
 
 - [Create a cloud server](/support/how-to/create-a-cloud-server)
 - [Save a cloud server image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 - [Restore a server from an image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
-- [Image limitations](/support/how-to/rackspace-cloud-essentials-cloud-server-image-limitations)
+- [Image limitations](/support/how-to/cloud-server-image-limitations)
 
 ### Remote access
 
@@ -30,7 +30,7 @@ This introduction covers everything you need to know as a new Rackspace customer
 - [Basic Linux cloud server security](/support/how-to/basic-cloud-server-security)
 - [Windows firewall rules](/support/how-to/create-an-inbound-port-allow-rule-for-windows-firewall-2008)
 
-### Uploading your content
+### Upload your content
 
 - [CentOS - installing vsftpd](/support/how-to/rackspace-cloud-essentials-centos-installing-vsftpd)
 - [CentOS - configuring a user in vsftpd](/support/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
@@ -40,23 +40,23 @@ This introduction covers everything you need to know as a new Rackspace customer
 - [Transferring your domain to the Rackspace Cloud](/support/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
 - [Managing DNS](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
 
-### Managing your account
+### Manage your account
 
 - [Billing services overview](/support/how-to/billing-services-overview)
 - [Navigating the Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel)
 - [Generating your API key](/support/how-to/view-and-reset-your-api-key)
 
-### Managing your server
+### Manage your server
 
 - [Start a console session](/support/how-to/start-a-console-session)
 - [Manage a cloud server](/support/how-to/manage-a-cloud-server)
-- [Reboot your server](/support/how-to/reboot-your-server)
+- [Reboot your server](/support/how-to/reboot-a-server)
 - [Stop your server](/support/how-to/use-an-api-call-to-stop-a-cloud-server)
 - [Rescue mode](/support/how-to/rescue-mode)
 - [Rebuild a cloud server](/support/how-to/rebuild-a-cloud-server)
-- [Resize standard servers](/support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
+- [Resize standard servers](/support/how-to/resize-standard-and-general-purpose-servers)
 - [Resize up compute and memory servers](/support/how-to/resize-up-compute-and-memory-servers/)
-- [Troubleshooting low disk space for a Linux cloud server](/support/how-to/troubleshooting-low-disk-space-for-a-linux-cloud-server)
+- [Troubleshooting low disk space for a Linux cloud server](/support/how-to/linux-cloud-server-low-disk-troubleshooting)
 - [Using server logs](/support/how-to/using-server-logs)
-- [Reset your server password](/support/how-to/reset-your-server-password)
+- [Reset your server password](/support/how-to/reset-a-server-password)
 - [Deleting your server](/support/how-to/delete-a-server)

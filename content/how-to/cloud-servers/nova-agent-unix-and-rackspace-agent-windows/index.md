@@ -66,7 +66,7 @@ Attach/detach Cloud Network | Sets/removes interface IPs and routes
 If these required applications are missing, you can download the XenServer Tools
 ISO from [boot.rackspace.com](https://boot.rackspace.com/files/xentools/xs-tools-6.2.0.iso),
 which works for Linux or Windows. Citrix&reg; also has packages for the common
-[Linux distros](downloads.vmd.citrix.com/OpenStack/xe-guest-utilities).
+[Linux distros](https://downloads.vmd.citrix.com/OpenStack/xe-guest-utilities).
 
 ### What happens when nova-agent is broken or missing?
 

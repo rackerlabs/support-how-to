@@ -40,7 +40,7 @@ The balance to date for the Rackspace products that you are using is displayed.
 
 To see usage details such as type, unit price, quantity, and estimated total, click the arrow to the right of the dollar amount.
 
-<img src="chargestodate.png" alt="" />
+{{<image src="chargestodate.png" alt="" title="">}}
 
 **Note**: This page only displays the Rackspace Cloud usage that you accrued after your last invoice was generated. Usage accrues throughout the month, and
 totals update on a daily basis. Some products and services might take up to 24 hours to appear on this page. Additionally, some charge totals only appear after any discounts have been applied.
@@ -71,7 +71,7 @@ To access detailed information for your most recent invoice:
 
    Your most recent invoice opens in a detailed view.
 
-   <img src="invoice-detailed.png" alt="Invoice details" />
+   {{<image alt="Invoice details" src="invoice-detailed.png" title="Invoice details">}}
 
 2. Line items appear under the **Total Charges** section. To expand a line
    item, click the down arrow to the left of the item description.
@@ -81,7 +81,7 @@ To access detailed information for your most recent invoice:
    the cost associated with each device, click the down arrow to the left of
    **Devices**.
 
-   <img src="devices.png" alt="Devices area" />
+   {{<image alt="Devices area" src="devices.png" title="Devices area">}}
 
 3. To download an invoice, click the **PDF** link or the **CSV** link at the
    top-right corner of the screen.
@@ -134,4 +134,4 @@ If you're a VAT-registered business or organization, in most cases you can recla
 If you're not a VAT-registered business or organization, you can't reclaim the VAT that you pay when you buy goods and services.
 
 ### Next step
-[Viewing and editing user information for your account ](/support/how-to/viewing-and-editing-user-information-for-your-account)
+[Viewing and editing user information for your account](/support/how-to/viewing-and-editing-user-information-for-your-account)

@@ -21,7 +21,7 @@ Windows&reg; operating systems, see
 [Logging in with an SSH Private Key on Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows)
 and [Generate RSA keys with SSH by using PuTTYgen](/support/how-to/generating-rsa-keys-with-ssh-puttygen/).
 
-###Prerequisites
+### Prerequisites
 
 To complete this process, you need the following software applications:
 
@@ -44,7 +44,7 @@ the file **deployment_key.txt**.
 4. Paste your private key, such as the one in the following image, into the file.
 Be sure to include the **BEGIN** and **END** lines.
         
-     <img src="Linux2.png" width="764" height="660" />
+     {{<image src="Linux2.png" alt="" title="">}}
 
 5. To save your changes, press **Esc**. 
 

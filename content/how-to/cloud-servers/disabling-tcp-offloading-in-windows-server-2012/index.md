@@ -35,7 +35,7 @@ fail.
     the **Advanced** tab. The window displays the TCP offload settings for the
     Citrix adapter as shown in the following image:
 
-    <img src="TCPOffloading9.png" width="410" height="459" />
+    {{<image src="TCPOffloading9.png" alt="" title="">}}
 
 4.  Select each of the following TCP offload options, changing the value to **Disabled**, and click **OK**:
 

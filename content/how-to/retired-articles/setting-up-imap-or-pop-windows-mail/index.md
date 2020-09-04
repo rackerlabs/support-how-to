@@ -36,7 +36,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
     - **Outgoing e-mail server (SMTP) name** - Enter the secure server name: **secure.emailsrvr.com**
     - Select the **Outgoing server requires authentication** check box.
 
-    <img src="EA_ServerSettings_01.png" alt=" Server addresses form" />
+    {{<image alt="Server addresses form" src="EA_ServerSettings_01.png" alt="" title="Server addresses form">}}
 
 9. Click **Next**.
 
@@ -62,7 +62,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 19. In the **Outgoing mail (SMTP)** field, enter the secure outgoing port: **465**
 
-    <img src="EA_AdvancedSettings_02.png" alt=" Port addresses form" />
+    {{<image alt="Port addresses form" src="EA_AdvancedSettings_02.png" title="Port addresses form">}}
 
 20. Click **OK**.
 
@@ -91,7 +91,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
     - **Outgoing e-mail server (SMTP)** - Enter the secure server name: **secure.emailsrvr.com**
     - Select the **Outgoing server requires authentication** check box.
 
-    <img src="EA_SetupServers_01.png" alt=" Server address form" />
+    {{<image alt="Server address form" src="EA_SetupServers_01.png" title="Server address form">}}
 
 9. Click **Next**.
 
@@ -117,7 +117,7 @@ For increased security, we recommend that you use our Secure Sockets Layer (SSL)
 
 19. In the **Outgoing mail (SMTP)** field, enter the secure outgoing port: **465**
 
-    <img src="EA_AdvancedSettings_02.png" alt=" Port numbers form" />
+    {{<image alt="Port numbers form" src="EA_AdvancedSettings_02.png" alt="Port numbers form" title="Port numbers form">}}
 
 20. A POP connection typically removes the email messages from the email server after you have downloaded new messages to your computer. If you want to leave copies on the server, select the **Leave a copy of messages on server** check box. To avoid exceeding your account's storage limits, indicate whether the server should delete messages after a certain number of days and/or delete messages when you manually delete them from the Deleted Items folder.
 

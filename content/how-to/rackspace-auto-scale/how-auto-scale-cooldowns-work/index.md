@@ -70,6 +70,6 @@ cooldowns allow you to scale up fast and scale down slowly.
 
 The following graphs illustrate how cooldowns affect policy execution:
 
-<img src="Slide6.png" width="720" height="540" />
+{{<image src="Slide6.png" alt="" title="">}}
 
-<img src="Slide7.png" width="720" height="540" />
+{{<image src="Slide7.png" alt="" title="">}}

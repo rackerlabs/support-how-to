@@ -32,25 +32,25 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
  1. Within the **Mail** app, select **Mail** > **Preferences**.
 
-     <img src="preference-mapping-sierra.png" />
+     {{<image src="preference-mapping-sierra.png" alt="" title="">}}
 
  2. Select the **Accounts** tab at the top of the window, and then select your IMAP email account in the left pane.
  
  3. Select the **Mailbox Behaviors** tab.
 
-     <img src="IMAP_MailboxBehaviors.png" />
+     {{<image src="IMAP_MailboxBehaviors.png" alt="" title="">}}
 
  4. Click the **Sent Mailbox** menu, and select the **Sent** folder that is listed under your email (*not* the folder listed under **On My Mac**).
 
-     <img src="IMAP_SentFolderMapping.png" />
+     {{<image src="IMAP_SentFolderMapping.png" alt="" title="">}}
 
  5. Click the **Junk Mailbox** menu, and select the **Spam** folder that is listed under your email (*not* the folder listed under **On My Mac**).
 
-     <img src="IMAP_SpamFolderMapping.png" />
+     {{<image src="IMAP_SpamFolderMapping.png" alt="" title="">}}
 
  6. Click the **Trash Mailbox** menu, and select the **Trash** folder that is listed under your email (*not* the folder listed under **On My Mac**).
 
-     <img src="IMAP_TrashFolderMapping.png" />
+     {{<image src="IMAP_TrashFolderMapping.png" alt="" title="">}}
 
 
  7. Test the functionality of each of these folders to ensure that the mapping was successful.  
@@ -61,11 +61,11 @@ For more information about prerequisite terminology, see [Cloud Office support t
  
  2. Under your email account, click on the **Sent** folder  (*not* the **Sent** folder with the paper airplane icon).
 
-    <img src="el_capitan_yosemite_MailboxFolderList.png" />
+    {{<image src="el_capitan_yosemite_MailboxFolderList.png" alt="" title="">}}
 
  3. From the **Mailbox** menu, select **Use This Mailbox As** > **Sent Mailbox**.
 
-    <img src="el_capitan_yosemite_FolderMapping_Sent.png" />
+    {{<image src="el_capitan_yosemite_FolderMapping_Sent.png" alt="" title="">}}
 
  4. Repeat steps 2 & 3 for the **Junk/Spam** and **Trash** folders.
 

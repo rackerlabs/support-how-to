@@ -55,4 +55,4 @@ Use the following steps to truncate the transaction log file:
 
 **Related Articles:**
 
-[SQL Server database recovery models](/support/support/how-to/sql-server-database-recovery-models/)
+[SQL Server database recovery models](/support/how-to/sql-server-database-recovery-models/)

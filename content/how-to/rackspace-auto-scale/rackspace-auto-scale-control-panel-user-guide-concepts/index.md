@@ -131,14 +131,14 @@ The following diagram illustrates how a percentage scale-up policy
 translates into a different amount of scaling each time that it is
 invoked and changes the total number of servers.
 
-<img src="image003_3.png" width="600" height="450" />
+{{<image src="image003_3.png" alt="" title="">}}
 
 #### Scale by schedule policy
 
 The following diagram illustrates how a scheduled scale-up policy can be
 configured to respond to anticipated increases in traffic.
 
-<img src="image005_3.png" width="600" height="450" />
+{{<image src="image005_3.png" alt="" title="">}}
 
 #### Scaling policies restricted by minimum and maximum values
 
@@ -146,7 +146,7 @@ The following diagram illustrates how the configured minimum and maximum
 number of servers in the scaling group restricts scale-ups and
 scale-downs.
 
-<img src="image007_3.png" width="600" height="450" />
+{{<image src="image007_3.png" alt="" title="">}}
 
 ####  Delete servers policy
 
@@ -154,7 +154,7 @@ The following diagram illustrates how a scale-down policy operates first
 on pending servers (servers in the process of being added) and then on
 the oldest servers in the scaling group.
 
-<img src="image009_1.png" width="598" height="449" />
+{{<image src="image009_1.png" alt="" title="">}}
 
 ### Load balancers
 

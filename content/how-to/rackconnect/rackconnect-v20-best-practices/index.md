@@ -36,7 +36,7 @@ Windows Firewall in Windows.
 #### Monitor your cloud server status during a rebuild
 
 If you rebuild a server, you can monitor its automation status in the RackConnect Management Interface in the
-[MyRackspace Portal](https://login.rackspace.com/) or you can use the [API to monitor the automation status](/support/how-to/support/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
+[MyRackspace Portal](https://login.rackspace.com/) or you can use the [API to monitor the automation status](/support/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
 
 #### Understand how your servers use RackConnect
 
@@ -61,11 +61,11 @@ server, read the following description of the process:
 
 **Traffic flow between dedicated and cloud servers: RackConnect Firewall**
 
-<img src="RC.Traffic.Flow_.png" class="image-full_width" />
+{{<image src="RC.Traffic.Flow_.png" alt="" title="">}}
 
 **Traffic flow between dedicated and cloud servers: RackConnect Load Balancer**
 
-<img src="RC.Traffic.Flow_.LB_.png" class="image-full_width" />
+{{<image src="RC.Traffic.Flow_.LB_.png" alt="" title="">}}
 
 ### Cautions
 

@@ -15,26 +15,26 @@ This article describes how to create an Inbound port allow rule for Windows Fire
 
 1. Launch Windows Firewall with Advanced Security by clicking **Start > Administrative Tools > Windows Firewall with Advanced Security**.
 
-   <img src="firewalllaunch.png" alt="firewalllaunch.png" />
+   {{<image src="firewalllaunch.png" alt="" title="">}}
 
 2. Select **Inbound Rules** in the left pane and click **New Rule** under Inbound Rules in the Actions Pane
 
-   <img src="inboundrule.png" alt="inboundrule.png" />
+   {{<image src="inboundrule.png" alt="" title="">}}
 
 3. The **New Inbound Rule Wizard** will launch. Select **Port** and click **Next**.
 
-   <img src="inboundport1.png" alt="inboundport1.png" />
+   {{<image src="inboundport1.png" alt="" title="">}}
 
 4. This step of the Wizard specifies which ports the rule is applied to and whether that rule applies to connections established using the TCP and UDP protocol. 
 
    - If *no* specific ports are applicable, select **All local ports** to apply the rule to all local ports.
    - If specifc ports are applicable, select **Specific local ports**, and then fill in the port(s), seperating each port with a comma.
 
-    <img src="inboundport2.png" alt="inboundport2.png" />
+    {{<image src="inboundport2.png" alt="" title="">}}
 
 5. Because this is an allow rule, select whether to allow traffic over all connections (secure and insecure) or only secure connections. If you require a secure connection, you can specify whether it also requires encryption, or if it overrides block rules. Click **Next** to continue.
 
-    <img src="inboundport3.png" alt="inboundport3.png" />
+    {{<image src="inboundport3.png" alt="" title="">}}
 
 6. Select the profiles to which this rule applies. 
 
@@ -44,7 +44,7 @@ This article describes how to create an Inbound port allow rule for Windows Fire
    
    Click **Next** to continue.
 
-    <img src="inboundrulewiz6.png" alt="inboundrulewiz6.png" />
+   {{<image src="inboundrulewiz6.png" alt="" title="">}}
 
 7. Give the rule a name and any description that you want. Click **Finish** to create the rule and go back to the main screen.
 

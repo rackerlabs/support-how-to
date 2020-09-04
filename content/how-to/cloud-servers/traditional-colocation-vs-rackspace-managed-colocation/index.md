@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-[Colocation](https://www.rackspace.com/managed_hosting/managed_colocation/index.php)
+[Colocation](https://www.rackspace.com/colocation)
 typically describes the provisioning of space for IT infrastructure and
 equipment on a service provider's premises. Businesses that choose
 colocation often do so to maintain the control of their operating

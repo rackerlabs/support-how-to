@@ -19,7 +19,7 @@ you follow the instructions step by step.
 The topology of the application in this scenario is presented in
 the following figure:
 
-<img src="4.1-1a.jpg" width="650" />
+{{<image src="4.1-1a.jpg" alt="" title="">}}
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ the target application.
 
 3.  To install the application stack, select **LAMP server**.
 
-    <img src="4.1-5.png" width="650" />
+    {{<image src="4.1-5.png" alt="" title="">}}
 
 4.  After the LAMP stack is installed, download and configure WordPress.
 

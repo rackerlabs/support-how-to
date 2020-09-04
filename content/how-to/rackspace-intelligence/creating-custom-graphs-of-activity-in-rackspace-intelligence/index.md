@@ -23,7 +23,7 @@ When you focus on a single metric, you can simultaneously view that
 metric on any of the entities you have defined. For example, you can
 choose to see the percentage of idle time for all your entities.
 
-<img src="4743.1a.png" width="678" height="364" />
+{{<image src="4743.1a.png" alt="" title="">}}
 
 ### Explore an entity
 
@@ -31,7 +31,7 @@ When you focus on a single entity, you can simultaneously view any of
 the metrics available for that entity. For example, you can choose to
 see the entity's percentage of idle time and its maximum usage.
 
-<img src="4743.2a.png" width="670" height="353" />
+{{<image src="4743.2a.png" alt="" title="">}}
 
 ### Generate graphs
 

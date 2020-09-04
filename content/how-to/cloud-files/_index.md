@@ -19,7 +19,7 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 
 ###  Cloud Files basics
 
-- [Cloud Files and CDN](/support/support/how-to/getting-started-with-cloud-files-and-cdn/)
+- [Cloud Files and CDN](/support/how-to/getting-started-with-cloud-files-and-cdn/)
 - [Key Concepts of Cloud Files](/support/how-to/cloud-files-key-concepts)
 - [Why Should I Use Cloud Files?](/support/how-to/why-choose-cloud-files)
 - [Best practices for using Cloud Files](/support/how-to/best-practices-for-using-cloud-files)

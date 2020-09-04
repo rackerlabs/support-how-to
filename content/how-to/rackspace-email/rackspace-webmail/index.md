@@ -55,7 +55,7 @@ Rackspace Email provides various options for you to manage your email account. W
 
 In the General Settings section, you can manage settings for email options, your calendar, your preferred language, and date and time settings.
 
-<img src="{% asset_path rackspace-email/rackspace-webmail/general_settings.png %}" alt="" />
+{{<image src="general_settings.png" alt="" title="">}}
 
 ##### Email options
 
@@ -76,7 +76,7 @@ In the General Settings section, you can manage settings for email options, your
 
 In the **Composing Email** section, you can manage settings for composing, identities, and signatures.
 
-<img src="{% asset_path rackspace-email/rackspace-webmail/composing_email.png %}" alt="" />
+{{<image src="composing_email.png" alt="" title="">}}
 
 ###### Composing
 
@@ -89,13 +89,13 @@ In the **Composing Email** section, you can manage settings for composing, ident
 
 ##### Signatures
 
-- **Add New Signature** adds a new signature and assigns it to your outgoing email and also to specific identities. To learn more, see [Add a Rackspace Email signature](/how-to/adding-a-signature-to-rackspace-email).
+- **Add New Signature** adds a new signature and assigns it to your outgoing email and also to specific identities. To learn more, see [Add a Rackspace Email signature](/support/how-to/adding-a-signature-to-rackspace-email).
 
 #### Incoming Email
 
 In the **Incoming Email** section, you can manage settings for auto-reply, forwarding, and filtering.
 
-<img src="{% asset_path rackspace-email/rackspace-webmail/incoming_email.png %}" alt="" />
+{{<image src="incoming_email.png" alt="" title="">}}
 
 - **Auto-Reply** activates the auto-reply feature for times when you are out of the office.
 - **Forwarding** forwards any mail to any email address with the option to save a copy in your inbox.
@@ -105,7 +105,7 @@ In the **Incoming Email** section, you can manage settings for auto-reply, forwa
 
 In the Spam Settings section, you can manage settings for spam preferences, safelists, and blacklists.
 
-<img src="{% asset_path rackspace-email/rackspace-webmail/spam_settings.png %}" alt="" />
+{{<image src="spam_settings.png" alt="" title="">}}
 
 ##### Preferences
 

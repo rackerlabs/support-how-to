@@ -19,7 +19,7 @@ and create or deactivate users.
    - Inactive user has not been invited.
    - Invited user has been sent activation information and is in a pending type of status.
 
-###Create a new user
+### Create a new user
 
 Complete the following steps to create and authorize new user.
 

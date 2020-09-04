@@ -27,7 +27,7 @@ in the MyRackspace portal.
 
 5. From the dropdown menu, Select **Reset User Password on Active Directory Domain**. 
 
-    <img src="password1.png" />
+    {{<image src="password1.png" alt="" title="">}}
 
 6. Enter the username and Domain of the user account for which you want to reset the password. 
 
@@ -39,4 +39,4 @@ in the MyRackspace portal.
    After the ticket is created, you are redirected to your ticket list in the MyRackspace Portal.
    It typically takes a few minutes for the ticket creation process to complete. 
 
-   <img src="password2.png" />
+   {{<image src="password2.png" alt="" title="">}}

@@ -29,11 +29,11 @@ following steps:
 
 1.  From the **Go to section** menu, select **Domains**.
 
-    <img src="go_to_section.png"/>
+    {{<image src="go_to_section.png" alt="" title="">}}
 
 2.  In the **Spam Filtering** section, click **Blacklists**.
 
-    <img src="spam_settings.png"/>
+    {{<image src="spam_settings.png" alt="" title="">}}
 
 3.  If you have multiple domains, you may be prompted to select a
     domain name. Or, to change domains at any time, click the **change
@@ -44,7 +44,7 @@ following steps:
     to block, use the bulk import option to upload a **.csv** or **.txt** file
     containing the information.
 
-    <img src="add_address.png"/>
+    {{<image src="add_address.png" alt="" title="">}}
 
 6.  To remove a domain or email address, click the name in the list, and
     then click **Remove**. To remove all domains or email addresses listed in the window, click **Clear**.

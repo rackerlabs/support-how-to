@@ -45,7 +45,7 @@ enters on the Public interface on the Vyatta appliance.
 session is established. The outside-address X.X.X.X address is the
 Vyatta's Public IP address.
 
-<img src="VPNwithVyatta.png" width="600" height="334" />
+{{<image src="VPNwithVyatta.png" alt="" title="">}}
 
 ### Configure the L2TP/IPsec VPN on the Vyatta Appliance
 
@@ -212,15 +212,15 @@ Select System Preferences from the Apple menu, then click Network.
 
 Select the Vyatta VPN (LT2P) network and update the following options:
 
-<img src="MACNetworkPrefs.png" width="623" height="414" />
+{{<image src="MACNetworkPrefs.png" alt="" title="">}}
 
 #### Mac Client Connection Details
 
-<img src="MACConnectionDetails.png" width="627" height="419" />
+{{<image src="MACConnectionDetails.png" alt="" title="">}}
 
 #### Mac Client Authentication Settings
 
-<img src="MACAuthenticationSettings.png" width="631" height="419" />
+{{<image src="MACAuthenticationSettings.png" alt="" title="">}}
 
 #### Configure Split Tunnel on the Mac Native IPsec Client
 
@@ -229,7 +229,7 @@ servers, and all other traffic (internet traffic) will not use the IPsec
 tunnel , ensure that **Send all traffic over VPN connection** is unchecked
 under Options.
 
-<img src="MACSplitTunnell.png" width="539" height="465" />
+{{<image src="MACSplitTunnell.png" alt="" title="">}}
 
 After enabling split tunnel on a MAC client, you may need to add a
 static route to force all traffic destined to the VPN network over the
@@ -241,7 +241,7 @@ Where 192.168.x.0/24 is the CIDR of your Cloud Network.
 
 The following screenshot shows a successful connection:
 
-<img src="MACSuccessfulConnection.png" width="630" height="535" />
+{{<image src="MACSuccessfulConnection.png" alt="" title="">}}
 
 ### Windows Client Configuration
 
@@ -249,35 +249,35 @@ To configure Windows clients, update the following network options.
 
 #### Set up a virtual private network (VPN) connection
 
-<img src="WindowsSetUpVPN.png" width="523" height="527" />
+{{<image src="WindowsSetUpVPN.png" alt="" title="">}}
 
 #### Type the Internet Address to Connect To
 
-<img src="WinTypetheinternetaddresstoconnectto.png" width="581" height="387" />
+{{<image src="WinTypetheinternetaddresstoconnectto.png" alt="" title="">}}
 
 #### Enter Login Credentials
 
-<img src="WinUsernameandPassword.png" width="531" height="363" />
+{{<image src="WinUsernameandPassword.png" alt="" title="">}}
 
 #### Connect to the VPN
 
-<img src="WinTheconnectionisready.png" width="548" height="364" />
+{{<image src="WinTheconnectionisready.png" alt="" title="">}}
 
 #### Configure Vyatta VPN Properities
 
-<img src="WinConnecttoaNetwork_0.png" width="712" height="452" />
+{{<image src="WinConnecttoaNetwork_0.png" alt="" title="">}}
 
 #### Configure VPN Properities General Configuration Tab
 
-<img src="WinVyattaVPNProperties.png" width="461" height="554" />
+{{<image src="WinVyattaVPNProperties.png" alt="" title="">}}
 
 #### Configure VPN Security Settings Tab
 
-<img src="WinVyattaVPNSecurityTab.png" width="467" height="562" />
+{{<image src="WinVyattaVPNSecurityTab.png" alt="" title="">}}
 
 #### Configure Advanced Properties
 
-<img src="WinVyattaAdvancedProperites.png" width="566" height="347" />
+{{<image src="WinVyattaAdvancedProperites.png" alt="" title="">}}
 
 #### Configure Split Tunnel on the Windows Native IPsec Client
 
@@ -294,7 +294,7 @@ client VPN configuration as follows:
     network" checkbox.
 4.  Click OK three times.
 
-<img src="WinSplitTunneling.png" width="490" height="586" />
+{{<image src="WinSplitTunneling.png" alt="" title="">}}
 
 #### View Client Connection
 

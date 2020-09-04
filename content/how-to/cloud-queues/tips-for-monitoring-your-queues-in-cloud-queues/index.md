@@ -52,7 +52,7 @@ You can view statistics for a queue in the Cloud Control Panel.
 
 3. Click on a queue name to go to the Queue Details page.
 
-      <img src="3658-tipsformonitoring-2_0.png" width="793" height="590" border="1" alt=""  />
+      {{<image src="3658-tipsformonitoring-2_0.png" alt="" title="">}}
 
 **Note:** If total is 0, the display does not include statistics for *oldest* and *newest* messages.
 

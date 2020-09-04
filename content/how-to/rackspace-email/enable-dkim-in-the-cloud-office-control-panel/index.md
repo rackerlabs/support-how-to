@@ -36,12 +36,12 @@ For a video tutorial of the following steps, see [Rackspace Email - DMARC / DKIM
 
 2. In the **Domains** section of the home page, click the **Sender Authentication (DKIM)** link.
 
-   <img src="domain-home-page.png"/>
+   {{<image src="domain-home-page.png" alt="" title="">}}
 
 3. On the **Sender Authentication (DKIM)** page, click the domain for which you
 want to enable DKIM.  
 
-    <img src="domains-list.png"/>
+    {{<image src="domains-list.png" alt="" title="">}}
 
 4. Click the **Enable DKIM for** button.  
 
@@ -55,6 +55,6 @@ want to enable DKIM.
 
    If validation fails, then an appropriate error message is displayed to help you correct the problem.  
 
-   <img src="domain-verify-fail.png"/>
+   {{<image src="domain-verify-fail.png" alt="" title="">}}
 
    After DKIM is enabled, all new outgoing email messages are signed using your new DKIM key. You can repeat the DKIM enabling process on other supported domains.  

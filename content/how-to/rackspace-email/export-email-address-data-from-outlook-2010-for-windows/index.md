@@ -30,31 +30,31 @@ If you need to export or import email address data from a different Outlook vers
 
 2. In the **Outlook Options** window, click **Advanced**.
 
-    <img src="advanced2010.png" />
+    {{<image src="advanced2010.png" alt="" title="">}}
 
 3. In the Export section, click **Export**.
 
-    <img src="export2010.png" />
+    {{<image src="export2010.png" alt="" title="">}}
     
     The Import and Export Wizard launches.
 
 4. In the Import and Export Wizard, click **Export to a file**, and then click **Next**.
 
-    <img src="export_to_a_file2010.png" />
+    {{<image src="export_to_a_file2010.png" alt="" title="">}}
 
 5. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-    <img src="outlook_data_file2010.png" />
+    {{<image src="outlook_data_file2010.png" alt="" title="">}}
 
 6. Select the folder that you want to export, and then click **Next**. 
 
    Select the email address at the top of the folder list to export all data and select the checkbox for **include subfolders** to export all data.
 
-    <img src="folder_list2010.png" />
+    {{<image src="folder_list2010.png" alt="" title="">}}
 
 7. Click **Browse**, and then select the location where you want to save the new **.pst** file export.
 
-    <img src="browse_finish2010.png" />
+    {{<image src="browse_finish2010.png" alt="" title="">}}
 
     **Note:** Save the file somewhere that you can easily locate for later use, such as the Desktop.
 
@@ -62,8 +62,8 @@ If you need to export or import email address data from a different Outlook vers
 
     **Note:** You might prompted to enter a password. This is optional and you can simply click **OK** to skip it.
 
-    <img src="password_ok2010.png" />
+    {{<image src="password_ok2010.png" alt="" title="">}}
 
 9. Click **Finish**.
 
-Check the folder where you saved the export to confirm that the export completed. If you are ready to import the data into another Outlook 2010 profile, see [Import email address data into Outlook 2010 for Windows](/support/how-to/import-email-address-data-into-outlook-2010).
+Check the folder where you saved the export to confirm that the export completed. If you are ready to import the data into another Outlook 2010 profile, see [Import email address data into Outlook 2010 for Windows](/support/how-to/import-email-address-data-into-outlook-2010-for-windows).

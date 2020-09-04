@@ -29,19 +29,19 @@ You need to have a WordPress website and database.
 
 4. In the search results, click **Install Now** in the W3 Total Cache box.
 
-   <img src="install-w3-total-cache.png" alt="click the install now button in the search results for w3 total cache" />
+   {{<image alt="click the install now button in the search results for w3 total cache" src="install-w3-total-cache.png" title="click the install now button in the search results for w3 total cache">}}
 
    After the plug-in installs, the **Install Now** button changes to **Activate**.
 
 5. Click **Activate** to enable the plug-in.
 
-   <img src="activate-w3-total-cache.png" alt="click the activate button after the plug-in has installed" />
+   {{<image alt="click the activate button after the plug-in has installed" src="activate-w3-total-cache.png" title="click the activate button after the plug-in has installed">}}
 
 6. In the navigation sidebar, click **Performance > General Settings**.
 
 7. In the CDN section, select the **Enable** check box, and choose Rackspace Cloud Files as the CDN type.
 
-    <img src="enable-cloud-files.png" alt="click the enable check box and choose rackspace cloud files as the cdn type" />
+    {{<image alt="click the enable check box and choose rackspace cloud files as the cdn type" src="enable-cloud-files.png" title="click the enable check box and choose rackspace cloud files as the cdn type">}}
 
 8. Click **Save all settings**.
 
@@ -55,7 +55,7 @@ You need to have a WordPress website and database.
 
 3. Enter your Rackspace cloud account username and API key, and then click **Next**.
 
-   <img src="add-account-information.png" alt="enter your rackspace cloud account information into the username and api key fields" />
+   {{<image alt="enter your rackspace cloud account information into the username and api key fields" src="add-account-information.png" title="enter your rackspace cloud account information into the username and api key fields">}}
 
    **Note:** If you need help finding your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
@@ -71,4 +71,4 @@ You need to have a WordPress website and database.
 
 7. In the **General** section, select the check box next to each type of content that you want to host on the CDN, and then click **Save all settings**.
 
-   <img src="select-file-types-to-upload.png" alt="click the check box by each file type that you want to host on the cdn" />
+   {{<image alt="lick the check box by each file type that you want to host on the cdn" src="select-file-types-to-upload.png" title="lick the check box by each file type that you want to host on the cdn">}}

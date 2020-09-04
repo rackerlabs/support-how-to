@@ -55,7 +55,7 @@ To remain secure and follow compliance requirements, use the following best prac
 
 3. Under **Rules**, click **All Rules**.
 
-    <img src="image-rules.png" />
+    {{<image src="image-rules.png" alt="" title="">}}
 
 4. In the navigation pane on the left side of the panel, click the firewall for which you want to add an access-list rules.
 
@@ -72,7 +72,7 @@ To remain secure and follow compliance requirements, use the following best prac
 
     - Rule Type: Specify whether the rule allows (permits) traffic or blocks (denies) traffic.
 
-       <img src="image-details.png" />
+       {{<image src="image-details.png" alt="" title="">}}
 
 7. On the **Traffic coming from** page, select one of the following options for incoming traffic, provide the necessary information, and then click **Next**:
 
@@ -84,7 +84,7 @@ To remain secure and follow compliance requirements, use the following best prac
 
       - Any IP: This option defines the source as **any**. Before choosing this option, refer to the best practices section in the [Firewall Manager v2 access-list theory and best practices](/support/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
-         <img src="image-traffic-coming-from.png" />
+         {{<image src="image-traffic-coming-from.png" alt="" title="">}}
 
 8. On the **Traffic going to**, select one of the options for outgoing traffic, provide the necessary information, and then click **Next**. The options are the same as those shown for incoming traffic.
 
@@ -94,7 +94,7 @@ To remain secure and follow compliance requirements, use the following best prac
 
     -  The same options provided on preceding pages for IP addresses are provided here for ports. Use extreme caution if you select **any** for the port, which is typically not a good security decision.     
 
-       <img src="image-using-protocol.png" />
+       {{<image src="image-using-protocol.png" alt="" title="">}}
 
 10. Click **Add to Firewall**.
 

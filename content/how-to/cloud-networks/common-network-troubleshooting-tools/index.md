@@ -258,6 +258,6 @@ Nmap is most useful when used in conjunction with the following common flags:
 
 ### Next steps
 
-For help troubleshooting an offline website, see [Troubleshooting an offline website](/support/support/how-to/troubleshooting-an-offline-website/).
+For help troubleshooting an offline website, see [Troubleshooting an offline website](/support/how-to/troubleshooting-an-offline-website/).
 
 If you have received any of the preceding *unsuccessful* responses, contact [Rackspace Support](https://www.rackspace.com/en-us/support) with the steps that you have taken to troubleshoot your network.

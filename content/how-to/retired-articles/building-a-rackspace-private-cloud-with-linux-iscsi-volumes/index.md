@@ -21,7 +21,7 @@ compute servers and two storage servers to maintain resiliency and availability.
 
 #### Cinder software architecture
 
-<img src="cinder-refarch-sims.png" class="image-full_width" width="700" height="624" />
+{{<image src="cinder-refarch-sims.png" alt="" title="">}}
 
 **Figure 1: The Cinder Architecture provides horizontally scaling volume
 servers to serve block device volumes to guest instances**
@@ -31,7 +31,7 @@ instances and attaching volumes to them. KVM presents the iSCSI luns that are ex
 
 ### Reference architecture: Mass compute with external storage
 
-<img src="ScreenShot2013-03-27at12.08.10PM.png" width="741" height="839" />
+{{<image src="ScreenShot2013-03-27at12.08.10PM.png" alt="" title="">}}
 
 **Figure 2: The Mass Compute with
 External Storage reference architecture provides scaling compute and

@@ -26,6 +26,6 @@ Panel](https://cp.rackspace.com) and perform the following steps:
 1.  At the top right-hand corner of the page, click your account number and select **Audit Logs**.
 2.  Filter by date, control panel area, or action.
 
-    <img src="audit_logs.png" />
+    {{<image src="audit_logs.png" alt="" title="">}}
 
 3.  Click **Export List (.csv)** to export the administrator activity report as an Excel&reg;-compatible Comma Separated Values(CSV) file.

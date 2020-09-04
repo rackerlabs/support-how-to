@@ -29,31 +29,31 @@ If you need to export or import email address data from a different Outlook vers
 
 1. In Outlook 2016, click **File > Options**.
 
-   <img src="options2016.png" />
+   {{<image src="options2016.png" alt="" title="">}}
 
 2. In the Outlook Options window, click **Advanced**.
 
-   <img src="advanced2016.png" />
+   {{<image src="advanced2016.png" alt="" title="">}}
 
 3. In the Export section, click **Export**.
 
-   <img src="export2016.png" />
+   {{<image src="export2016.png" alt="" title="">}}
 
    The Import and Export wizard launches.
 
 4. In the Import and Export wizard, click **Export to a file**, and then click **Next**.
 
-   <img src="export_to_file2016.png" />
+   {{<image src="export_to_file2016.png" alt="" title="">}}
 
 5. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-   <img src="outlook_data_file2016.png" />
+   {{<image src="outlook_data_file2016.png" alt="" title="">}}
 
 6. Select the folder that you want to export, and then click **Next**.
 
    In this case, select the email address at the top of the folder list and select the checkbox for **Include subfolders** to export all data.  
 
-   <img src="export_folder_list2016.png" />
+   {{<image src="export_folder_list2016.png" alt="" title="">}}
 
 7. Click **Browse** and then select the location where you want to save the **.pst** file.
 
@@ -63,7 +63,7 @@ If you need to export or import email address data from a different Outlook vers
 
    **Note:** You might be prompted to enter a password. This is optional and you can click **OK** to skip it.
 
-   <img src="browse_finish2016.png" />
+   {{<image src="browse_finish2016.png" alt="" title="">}}
 
 9. Click **Finish**.
 

@@ -24,7 +24,7 @@ you want to enable or disable logging.
 dialog box appears. Note the information about managing the data that is
 stored.
 
-  <img src="EnableLogging.png" width="468" height="229" />
+  {{<image src="EnableLogging.png" alt="" title="">}}
 
 4. To turn logging on, click the **Enable Logging** button. The
 **Service Status** is **Pending** until the value for **Logging**
@@ -39,7 +39,7 @@ the **Service Details** section of the CDN service page. Then, click
 **Disable Logging** again in the dialog box that opens. Note the
 information that is displayed in the dialog box about created logs.
 
-   <img src="DisableLogging.png" width="449" height="206" />
+   {{<image src="DisableLogging.png" alt="" title="">}}
 
 ### Additional resources
 

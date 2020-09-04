@@ -93,7 +93,7 @@ flavor (server size).
 
 #### Supported Flavors
 
-<img src="SupportedFlavors_0.png" width="704" height="168" />
+{{<image src="SupportedFlavors_0.png" alt="" title="">}}
 
 -   All flavors have a 32 GB system disk.
 -   All flavors include dual 10 GigE NICs in a high availability bonded

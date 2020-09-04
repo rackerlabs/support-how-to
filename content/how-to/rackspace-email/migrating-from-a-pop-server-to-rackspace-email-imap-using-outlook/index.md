@@ -54,7 +54,7 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
     **secure.emailsrvr.com** for the incoming and outgoing mail servers,
     and your user name and password.
 
-    <img src="settings_screenIMAPcopy_0.jpg" width="339" height="312" />
+    {{<image src="settings_screenIMAPcopy_0.jpg" alt="" title="">}}
 
 4.  Select the **Remember Password** check box if you don't want to type your
     password each time you launch Outlook.
@@ -73,12 +73,12 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
 10. Set the incoming port to **993** and the outgoing port to
     **465**, and enable SSL encryption.
 
-    <img src="portsimapcopy.jpg" width="369" height="258" />
+    {{<image src="portsimapcopy.jpg" alt="" title="">}}
 
 11. Navigate to your Inbox and note that your new IMAP account is listed in the left folder pane. Click on the account to expand the folders. You should see mail
     items for that account start to appear.
 
-    <img src="IMAPaccount.png" width="173" height="277" />
+    {{<image src="IMAPaccount.png" alt="" title="">}}
 
 12. Now that you have added your Rackspace account via IMAP, you can
     drag emails from your POP inbox to your IMAP inbox. As
@@ -95,4 +95,4 @@ referenced previously, [IMAP and POP mail protocol comparison](/support/how-to/i
 
 After the change, your email will look similar to the following screenshot.
 
-<img src="2013-11-27_1204.png" width="437" height="600" />
+{{<image src="2013-11-27_1204.png" alt="" title="">}}

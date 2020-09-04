@@ -20,7 +20,7 @@ minutes to complete, if you follow the instructions step by step.
 The topology of the application in this scenario is represented in the
 following figure:
 
-<img src="4-2-1.png" width="365" height="198" />
+{{<image src="4-2-1.png" alt="" title="">}}
 
 ### Prerequisites
 
@@ -42,13 +42,13 @@ following figure:
 
     1.  Connect to the AWS instance by using Remote Desktop Connection.
 
-        <img src="4-2-6.png" width="434" height="496" />
+        {{<image src="4-2-6.png" alt="" title="">}}
 
     2.  After you are connected, install an FTP client application that you will use to back up data to Rackspace Cloud Files. You can use any browser to download the client.
 
     3.  Create a connection to Rackspace Cloud Files by using your Rackspace account user name and API key. You will use this connection to back up data during the migration steps.
 
-        <img src="4-2-7.png" width="512" height="328" />
+        {{<image src="4-2-7.png" alt="" title="">}}
 
 2.  Install IIS 8 by using the instructions located at <https://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012> .
 
@@ -66,7 +66,7 @@ that you created in the article [Provision cloud resources when migrating from A
 
 3.  Open IIS Manager, click **Add Website**, and enter details: site name, physical path, and host name.
 
-    <img src="4-2-8.png" width="564" height="533" />
+    {{<image src="4-2-8.png" alt="" title="">}}
 
 4.  After the website is created, stop the Default Web Site pre-installed application and start your web application.
 

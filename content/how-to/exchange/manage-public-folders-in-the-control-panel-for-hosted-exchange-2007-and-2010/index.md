@@ -40,7 +40,7 @@ folders that you have created:
 -   Whether the folders are mail-enabled
 -   The amount of storage that the folders are using
 
-<img src="Basic_a.png" height="250" />
+{{<image src="Basic_a.png" alt="" title="">}}
 
 ### Manage public folders
 
@@ -67,13 +67,13 @@ steps:
 7.  Specify or edit the reply-to address.
 8.  Click **Save** to create the folder.
  
-    <img src="Create_a.png" height="250" />
+    {{<image src="Create_a.png" alt="" title="">}}
 
 ### Delete public folder
 
 1.  In the list on the **Folders** page, click the gear icon next to the
     folder that you want to delete.
-    <img src="delete_a.png" height="250" />
+    {{<image src="delete_a.png" alt="" title="">}}
 2.  From the menu, select **Delete**.
 3.  In the confirmation pop up box, click **Delete Folder**, to
     permanently delete the folder.
@@ -91,7 +91,7 @@ From the list of public folders, you can delete multiple folders at once
     the list and select **Delete**.
     The delete dialog pops up to confirm that you are about to delete
     the selected folders.
-    <img src="bulkdelete2.png" height="250" />
+    {{<image src="bulkdelete2.png" alt="" title="">}}
 3.  In the confirmation popup box, click **Delete Folders** to
     permanently delete the selected folders.
 
@@ -101,7 +101,7 @@ From the list of public folders, you can delete multiple folders at once
     to the folder that you want to rename.
 2.  Select **Rename**, and then enter a new name for the folder.
 3.  Click **Rename**.
-    <img src="rename_a.png" height="250" />
+    {{<image src="rename_a.png" alt="" title="">}}
 
 ### View and create subfolders (child folders)
 
@@ -114,7 +114,7 @@ page. The path is listed as ***domain* &gt; root &gt; *parentFolder***,
 and the page you are on is the subfolder list. See the following
 example:
 
-<img src="childsubfolder.png" width="500" />
+{{<image src="childsubfolder.png" alt="" title="">}}
 
 You can create a subfolder in several ways:
 
@@ -151,7 +151,7 @@ You can create a subfolder in several ways:
 5.  To mail-enable the folder, select the **Enabled** check box.
 6.  Click **Save** to create the folder.
 
-<img src="subfolders2_a.png" height="250" />
+{{<image src="subfolders2_a.png" alt="" title="">}}
 
 #### Search for a specific folder or subfolder
 
@@ -165,7 +165,7 @@ You can find a specific folder in the following ways:
   the word *sales* in it, you can search for the term *sales*. The
   application returns all folders with the word *sales* in their name.
 
-<img src="search.png" width="500" />
+{{<image src="search.png" alt="" title="">}}
 
 ### Edit mail settings
 

@@ -51,8 +51,29 @@
             }
             $('a[data-toggle="collapse"]').addClass('inactive');
         }
-        $("table").addClass(["table", "table-dark", "table-striped", "table-bordered"]);
-        
+        $("table").addClass(["table", "table-striped", "table-bordered"]);
+
+        var arrOfPtags = document.getElementsByTagName("p");
+        for (var i = 0;i < arrOfPtags.length; i++){
+            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note:</strong>")) {
+                arrOfPtags[i].className += "callout-note";
+            }
+            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important:</strong>")) {
+                arrOfPtags[i].className += "callout-important";
+            }
+            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning:</strong>")) {
+                arrOfPtags[i].className += "callout-warning";
+            }
+            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip:</strong>")) {
+                arrOfPtags[i].className += "callout-tip";
+            }
+        }
+        // var paragraphs = document.getElementsByTagName("p");
+        // for(var i = 0; i < paragraphs.length; i++)
+        // {
+        //     console.log(paragraphs[i].innerText.includes("**Note:**"));
+        // }
+
     }
 </script>
 

@@ -22,7 +22,7 @@ abusive traffic from reaching your server and its installed applications.
 This procedure assumes that you're working with an existing load balancer. If
 you don't have a load balancer yet, follow the instructions in the article
 [Configure a load
-balancer](/support/support/how-to/configure-a-load-balancer/) to
+balancer](/support/how-to/configure-a-load-balancer/) to
 create one.
 
 ### Configure connection throttling
@@ -38,7 +38,7 @@ balancer:
 
      The following pop-up window appears:
 
-     <img src="827-1496.png" width="529" height="210" />
+     {{<image src="827-1496.png" alt="" title="">}}
 
 5.  Enter a value between 1 and 100000 for **Max. Connections**.
 

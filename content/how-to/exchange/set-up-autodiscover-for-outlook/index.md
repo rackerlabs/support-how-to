@@ -12,9 +12,9 @@ product_url: exchange
 ---
 
 
-For certain features in your Microsoft&reg; Exchange&reg; account to work with Outlook&reg;, you must configure your domain name with an [Autodiscover](/support/support/how-to/dns-record-definitions/#cname-record) record that points to the Rackspace Cloud Office Autodiscover server.
+For certain features in your Microsoft&reg; Exchange&reg; account to work with Outlook&reg;, you must configure your domain name with an [Autodiscover](/support/how-to/dns-record-definitions/#cname-record) record that points to the Rackspace Cloud Office Autodiscover server.
 
-**Note:** If you are troubleshooting issues with connecting Outlook to Exchange by using Autodiscover, reference [Autodiscover connection issues](/support/support/how-to/autodiscover-connection-issues/) or [Microsoft account association issues](/support/support/how-to/microsoft-account-association-issues/) for more information.
+**Note:** If you are troubleshooting issues with connecting Outlook to Exchange by using Autodiscover, reference [Autodiscover connection issues](/support/how-to/autodiscover-connection-issues/) or [Microsoft account association issues](/support/how-to/microsoft-account-association-issues/) for more information.
 
 
 ### Outlook features enabled by using Autodiscover
@@ -33,7 +33,7 @@ Use Autodiscover to set up Outlook to enable the following Exchange features:
 
 - Automatic mapping of shared mailboxes
 
-For information about configuring Autodiscover for your domain, see [DNS record definitions](/support/support/how-to/dns-record-definitions/#cname-record).
+For information about configuring Autodiscover for your domain, see [DNS record definitions](/support/how-to/dns-record-definitions/#cname-record).
 
 ### Test Autodiscover functionality in Outlook
 
@@ -45,7 +45,7 @@ To determine if Autodiscover is configured properly, use the **Test E-mail AutoC
 
 3. From the menu, select **Test E-mail AutoConfiguration**.
 
-    <img src="autodiscover1.png" alt="" />
+    {{<image src="autodiscover1.png" alt="" title="">}}
 
 4. Uncheck the **Use Guessmart** and **Secure Guessmart Authentication** checkboxes. **Use Autodiscover** is the only checkbox that is selected.
 
@@ -53,7 +53,7 @@ To determine if Autodiscover is configured properly, use the **Test E-mail AutoC
 
 6. Click **Test**.
     
-    <img src="autodiscover2.png" alt="" />
+    {{<image src="autodiscover2.png" alt="" title="">}}
 
    As shown in the preceding figure, the **Results** tab shows that Autodiscover is detected.
    

@@ -34,21 +34,21 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 3. Create a new identity by clicking the **+** sign and then naming the identity.
 
-   <img src="microsoft-database-utility.png" />
+   {{<image src="microsoft-database-utility.png" alt="" title="">}}
 
 4. Set the new identity as the default by highlighting it, clicking the gear icon, and then selecting **Set as Default**.
 
-    <img src="microsoft-database-utility-default.png" />
+    {{<image src="microsoft-database-utility-default.png" alt="" title="">}}
 
 5. Close the Microsoft Database Utility and open Outlook 2011.
 
 6. In the upper-left corner of the menu bar, click **Outlook > Preferences**.
 
-   <img src="Outlook_Dropdown.png" />
+   {{<image src="Outlook_Dropdown.png" alt="" title="">}}
 
 7. On the Preferences screen, under **Personal Settings**, click **Accounts**.
 
-   <img src="OL2011-accounts.png" />
+   {{<image src="OL2011-accounts.png" alt="" title="">}}
 
 8. On the Accounts screen, click **Other Email** and enter the following information:
 
@@ -69,7 +69,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
       - **Use SSL to connect (recommended):** Selected
       - **Outgoing Server Port:** 465
 
-   <img src="server-settings.png" />
+   {{<image src="server-settings.png" alt="" title="">}}
 
 9. Click **Add Account**.
 
@@ -78,7 +78,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
     - **Authentication:** Use Incoming Server information
     - **Unqualified domain:** Leave this field blank
 
-    <img src="more-options.png" />
+    {{<image src="more-options.png" alt="" title="">}}
 
 11. Click **OK**.
 

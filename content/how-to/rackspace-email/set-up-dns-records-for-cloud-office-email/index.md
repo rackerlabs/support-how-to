@@ -3,7 +3,6 @@ permalink: set-up-dns-records-for-cloud-office-email/
 audit_date: '2017-05-30'
 title: Set up DNS records for Cloud Office email
 type: article
-type: article
 created_date: '2014-08-15'
 created_by: William Loy
 last_modified_date: '2017-10-20'
@@ -45,12 +44,14 @@ Use the following steps to ensure your domain properly routes incoming and outgo
 
 2. Set the DNS entries to the values shown in the following table. Ensure that no other MX record entries exist or you will experience complications with your email. For more information, see [Add or edit entries for your DNS host](/support/how-to/find-dns-host#add-or-edit-entries-for-your-dns-host).
 
-   | Type | Hostname | Destination | Priority | TTL |
-   | :---: | :---: | --- | :---: | :---: |
-   | MX | @ or left blank | **mx1.emailsrvr.com** | 10 | 3600 seconds or lowest allowed |
-   | MX | @ or left blank | **mx2.emailsrvr.com** | 20 | 3600 seconds or lowest allowed |   
-   | TXT | @ or left blank | **v=spf1 include:emailsrvr.com ~all** | NA | 3600 seconds or lowest allowed |
-   | CNAME | autodiscover | **autodiscover.emailsrvr.com** | NA | 3600 seconds or lowest allowed |
+{{<table "table  table-striped table-bordered">}}
+| Type  | Hostname | Hostname | Priority | TTL |
+|---------|--------|--------|--------|--------|
+| MX    |   @ or left blank   |   **mx1.emailsrvr.com**   | 10 | 3600 seconds or lowest allowed |
+| MX | @ or left blank | **mx2.emailsrvr.com** | 20 | 3600 seconds or lowest allowed |   
+| TXT | @ or left blank | **v=spf1 include:emailsrvr.com ~all** | NA | 3600 seconds or lowest allowed |
+| CNAME | autodiscover | **autodiscover.emailsrvr.com** | NA | 3600 seconds or lowest allowed |
+{{</table>}}
 
     **Note:** Your new settings take 24 to 48 hours to propagate to the world. For more information on **propagation**, see [DNS propagation](/support/how-to/dns-record-definitions#dns-propagation).
 

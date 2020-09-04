@@ -102,7 +102,7 @@ Yes. Have your web server set the **Cache-Control** header to
 You can set this header in apache by adding a config block similar to
 the following to your apache config:
 
-    <FilesMatch ".(ico|flv|jpg|jpeg)$">
+    <FilesMatch ".(ico|flv|jpg|jpeg" alt="" title="">}}$">
         Header set Cache-Control "no-cache"
     </FilesMatch>
 

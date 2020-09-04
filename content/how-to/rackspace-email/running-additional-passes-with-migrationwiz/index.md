@@ -50,4 +50,4 @@ the upper-right corner of the page.
 the **Migrate New Items** icon. The **Status** changes to
 Processing, indicating that the pass has begun.
 
-<img src="2013-12-04_1555copy.jpg" width="756" height="422" />
+{{<image src="2013-12-04_1555copy.jpg" alt="" title="">}}

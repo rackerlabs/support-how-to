@@ -18,7 +18,7 @@ someone.
 When you [log in to Rackspace Intelligence](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)[,](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)
 you can view all your relevant information on the dashboard:
 
-<img src="Dashboard.png" alt="screenshot of rackspace intelligence dashboard landing page" />
+{{<image alt="screenshot of rackspace intelligence dashboard landing page" src="Dashboard.png" title="screenshot of rackspace intelligence dashboard landing page">}}
 
 The dashboard provides a main overview of all of your monitoring
 activities.

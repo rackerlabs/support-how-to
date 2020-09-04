@@ -76,4 +76,3 @@ Use the following steps to configure your Microsoft 365 Exchange Online mailbox 
 3. Click the **+** sign and assign a name to your signature.
 
 4. Compose your signature in the right-hand column and close the menu when you finish.
-

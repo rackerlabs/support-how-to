@@ -61,7 +61,7 @@ Control Panel interface.
 
     d. After you have your entered your Key Name and the Public Key, click **Add Public Key**.
 
-    <img src="create-server-add-public-key.png" />
+    {{<image src="create-server-add-public-key.png" alt="" title="">}}
 
     Then, confirm that your key is listed in the SSH Key list for your new
     server.

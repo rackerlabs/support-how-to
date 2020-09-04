@@ -46,8 +46,7 @@ Here's a visual representation of how you connect to your Cloud
 Database. Choose the connection method that works best for your
 implementation.
 
-![Accessing a Cloud
-Database](https://c691244.r44.cf2.rackcdn.com/cloud-databases-network-illustration-rev2.png)
+{{<image alt="Accessing a Cloud Database" src="cloud-databases-network-illustration-rev2.png" title="Accessing a Cloud Database">}}
 
 ### Related Information
 

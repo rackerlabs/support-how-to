@@ -27,12 +27,12 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
 2. Scroll down to the **Domains** section. In the far right column of this section, click **Email Archiving**.
 
-   <img src="log-in-to-the-archive-manager/domains_archive.png" />
+   {{<image src="domains_archive.png" alt="" title="">}}
 
 3. Select the domain for the archive that you want to log in to, and then click **Manage My Archive**.
 
    The dashboard for the domain's archive displays.
 
-   <img src="log-in-to-the-archive-manager/manage_archive.png" />
+   {{<image src="manage_archive.png" alt="" title="">}}
 
 After you are logged into your Rackspace Hosted Email Archive, you can perform many additional functions such as [creating searches](/support/how-to/create-an-archive-search), [exporting searches](/support/how-to/export-archive-search-results-in-cloud-office), [adding archive users](/support/how-to/add-and-edit-archive-users-in-cloud-office), and more.

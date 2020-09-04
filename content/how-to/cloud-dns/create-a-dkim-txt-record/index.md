@@ -94,7 +94,7 @@ Panel:
    When you finish, the TXT record looks similar to the following
    example:
 
-   <img src="AddDKIMDNSTXTRecord.png" alt="DKIM DNS TXT Record" />
+   {{<image src="AddDKIMDNSTXTRecord.png" alt="" title="">}}
 
 8.  Click **Add Record**.
 

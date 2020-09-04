@@ -103,7 +103,7 @@ deployed by the Rackspace Cloud Private Cloud software. Add the
 Hadoop instances on the Compute node as described in the Hadoop installation 
 and set up instructions. 
 
-<img src="masscompute-web.jpg" width="600" height="398" />
+{{<image src="masscompute-web.jpg" alt="" title="">}}
 
 
 While performance of a Hadoop cluster might be superior with dedicated

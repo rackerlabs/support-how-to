@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Cloud computing in the [public cloud](https://www.rackspacecloud.com/)
+Cloud computing in the [public cloud](https://www.rackspace.com/cloud)
 has raised some security questions for businesses that have regulatory
 compliance requirements. Barriers to adopting public cloud for
 security-sensitive applications have been created because many

@@ -25,12 +25,12 @@ Mac**.
 
 3. Select **Exchange** and then click **Continue.**
 
-    <img src="MM071.png" width="441" height="451" />
+    {{<image src="MM071.png" alt="" title="">}}
 
 4. On the next page, enter your full name and your entire Microsoft
    Exchange email address and password. Then click **Continue**.
 
-    <img src="MM072.png" width="434" height="374" />
+    {{<image src="MM072.png" alt="" title="">}}
 
     -   If your Autodiscover CNAME record is set correctly, Mail
         automatically pulls the correct server settings for you.
@@ -59,15 +59,15 @@ Mac**.
     -   **Server Address** - From the **Setting Up Mac Mail** window (from
         Step 6), remove **https://** and **/ews/exchange.asmx**.
 
-    <img src="MM073.png" width="412" height="352" />
+    {{<image src="MM073.png" alt="" title="">}}
 
 8.  Confirm the settings and then click **Continue**.
 
-    <img src="MM074.png" width="422" height="361" />
+    {{<image src="MM074.png" alt="" title="">}}
 
 9.  Choose any other options that you want to enable, and then click
     **Done**.
 
-    <img src="MM075.png" width="407" height="342" />
+    {{<image src="MM075.png" alt="" title="">}}
 
 Your Microsoft Exchange 2007 email account is now set up with Mac Mail.

@@ -16,7 +16,7 @@ connectivity between Rackspace and your off-premises data centers or
 your infrastructure at other cloud hosting providers, such as Microsoft
 Azure. It allows you to share application workloads and data across
 environments. For more details about the product, see
-<https://www.rackspace.com/cloud/hybrid/rackconnect/global>.
+<https://www.rackspace.com/cloud-connectivity/rackconnect>.
 
 This document shows the steps needed to establish a RackConnect Global
 virtual circuit with Rackspace.

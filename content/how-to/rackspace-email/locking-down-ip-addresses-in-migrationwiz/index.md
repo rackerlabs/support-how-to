@@ -41,23 +41,23 @@ yourself, complete the following steps.
 
 2. If you have already created a migration, click **Manage Connectors**. If you are creating a new migration, click **Create a  Connector**.
 
-    <img src="Step_1.png" width="410" height="378" />
+    {{<image src="Step_1.png" alt="" title="">}}
 
 3. In the top-right corner of the window that opens, click **Advanced Options**.
 
-    <img src="advanced.png" width="872" height="95" />
+    {{<image src="advanced.png" alt="" title="">}}
 
 4. Click the **Performance** tab.
 
-    <img src="Step_3.png" width="207" height="360" />
+    {{<image src="Step_3.png" alt="" title="">}}
 
 5. Set the **Preferred Data Center** value to **North America**.
 
-    <img src="Step_4.png" width="435" height="235" />
+    {{<image src="Step_4.png" alt="" title="">}}
 
 6. Click the **Support** tab and type the following text in the blank field: **ProcessingRequirement=Local**
 
-    <img src="Step_5.png" width="786" height="281" />
+    {{<image src="Step_5.png" alt="" title="">}}
 
 7. Save all changes.
 

@@ -30,25 +30,25 @@ To customize and secure your private label Webmail site, perform the following s
 
 2. In the **Reseller Tools** section of the home page, click **Webmail Sites**.
 
-   <img src="webmail_sites.png"/>
+   {{<image src="webmail_sites.png" alt="" title="">}}
 
 3. On the **Webmail Sites** page, click **Add Site**.
 
-   <img src="add_webmail_site1.png"/>
+   {{<image src="add_webmail_site1.png" alt="" title="">}}
 
 4. On the **Customer Selection** page, select the customer company for which you are creating a private label Webmail site.
 
-   <img src="customer_selection.png"/>
+   {{<image src="customer_selection.png" alt="" title="">}}
 
 5. In the **Webmail Site Settings** window, enter the Webmail website address that you want to create in the **Webmail            Address** field. You can choose to allow your customers to customize their site themselves or to copy the look and feel of    an existing Webmail site.
 
-    <img src="site_settings.png"/>
+    {{<image src="site_settings.png" alt="" title="">}}
 
    **Warning:** You cannot create a private label Webmail site that uses a site name that already exists, that uses the root      domain of mymailsrvr.com, or that is listed on *Google Safe Browsing*.
 
 6. When you are presented with instructions to update the DNS entry for your site with new information, copy these                instructions by clicking **Copy Instructions** and then clicking **Ok, Got It**.
 
-   <img src="site_being_created.png"/>
+   {{<image src="site_being_created.png" alt="" title="">}}
 
     - The DNS for most existing sites is an ``A`` record that points to a specific IP address. You need to change the ``A`` record type to ``CNAME`` and change the IP address to the hostname provided. For example, if your Webmail site is going to be **mail.yourdomainexample.com**, change the hostname to **mail** or **mail.yourdomainexample.com**. The following tables illustrate this change.
 
@@ -76,4 +76,4 @@ To customize and secure your private label Webmail site, perform the following s
 
 The site appears in the **Webmail Sites** listing. After the DNS change is propagated, it has a green locked icon to the right of the name, indicating that the site is secure.
 
-<img src="secure_completed.png"/>
+{{<image src="secure_completed.png" alt="" title="">}}

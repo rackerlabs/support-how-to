@@ -37,7 +37,7 @@ caching rule:
 
    A popup dialog box appears.
 
-   <img src="ScreenShot2015-10-02at11.22.58AM.png" width="392" height="185" />
+   {{<image src="ScreenShot2015-10-02at11.22.58AM.png" alt="" title="">}}
 
 2. Enter the following information to define the rule:
 
@@ -60,7 +60,7 @@ To edit a caching rule, follow these steps:
 
 2. Edit the name, the TTL, or the path for the rule.
 
-   <img src="ScreenShot2015-10-02at11.39.23AM.png" width="354" height="172" />
+   {{<image src="ScreenShot2015-10-02at11.39.23AM.png" alt="" title="">}}
 
 3. Click **Save Rule**.
 

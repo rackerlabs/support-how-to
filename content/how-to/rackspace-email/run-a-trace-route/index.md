@@ -34,11 +34,11 @@ A trace route illustrates the path created between your personal device and our 
 
 2. Open the **Command Prompt** application.
 
-    <img src="command_prompt.png"/>
+    {{<image src="command_prompt.png" alt="" title="">}}
 
 3. Enter the command `tracert secure.emailsrvr.com`.
 
-    <img src="secure_emailsrvr_trace.png"/>
+    {{<image src="secure_emailsrvr_trace.png" alt="" title="">}}
 
 4. At the command prompt, a list of times and server names displays. When complete, a trace route ends with `Trace complete.`
 
@@ -49,11 +49,11 @@ A trace route illustrates the path created between your personal device and our 
 
 2. Open the **Terminal** application.
 
-    <img src="terminal.png"/>
+    {{<image src="terminal.png" alt="" title="">}}
 
 3. Enter the command ```traceroute secure.emailsrvr.com```.
 
-    <img src="secure_emailsrvr.png"/>
+    {{<image src="secure_emailsrvr.png" alt="" title="">}}
 
    A list of times and server names displays.
 

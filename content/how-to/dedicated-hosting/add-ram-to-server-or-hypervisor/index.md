@@ -26,13 +26,13 @@ This article explains how to create a ticket to add RAM to a server or hyperviso
 
 5. From the dropdown menu, Select **Add RAM to Server or Hypervisor.**
 
-   <img src="addram1.png" />
+   {{<image src="addram1.png" alt="" title="">}}
 
 6. In the Ticket Details section, select a device from the dropdown menu 
 
 7. Enter the amount of RAM you want to add. 
 
-   <img src="addram2.png" />
+   {{<image src="addram2.png" alt="" title="">}}
 
 8. In the Preferred Maintenance Schedule section, you can choose to have the work done at any time by
    selecting the **Anytime** checkbox.  Otherwise, fill out the remaining maintenance details to
@@ -40,4 +40,4 @@ This article explains how to create a ticket to add RAM to a server or hyperviso
 
 9. Select **Create Ticket**.
 
-   <img src="addram3.png" />
+   {{<image src="addram3.png" alt="" title="">}}

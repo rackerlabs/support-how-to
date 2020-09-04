@@ -19,7 +19,7 @@ minimizes response time and helps avoid overload. This article discusses
 the options that are available when you use dedicated load balancers
 with RackConnect v3.0.
 
-<img src="Fig1-Ded.-LB-and-RCv3-Figure-Traffic-Flow-PNG-.5xhalf-border.png" width="599" height="484" />
+{{<image src="Fig1-Ded.-LB-and-RCv3-Figure-Traffic-Flow-PNG-.5xhalf-border.png" alt="" title="">}}
 
 ### Supported load balancers
 
@@ -56,7 +56,7 @@ cloud server from a list of automation-compatible load balancer pools.
 1.  In the **RackConnect Details** section of the cloud server's details page, click **Select Pools**.
 2.  In the pop-up dialog box, select the check box for each load balancer pool to which you want to add the cloud server.
 
-    <img src="Fig3_REACH_LB_Pool_Modal_PNG_smaller-border.png" width="500" height="241" />
+    {{<image src="Fig3_REACH_LB_Pool_Modal_PNG_smaller-border.png" alt="" title="">}}
 
 3.  Click **Save Selected Load Balancer Pools**.
 

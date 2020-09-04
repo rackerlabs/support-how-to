@@ -15,5 +15,5 @@ Each flavor class is designed for a specific workload range. Review the
 following list of workloads to identify which flavor class fits your
 current needs.
 
-<img src="FlavorClassesTable.jpg" width="805" height="607" />
+{{<image src="FlavorClassesTable.jpg" alt="" title="">}}
 

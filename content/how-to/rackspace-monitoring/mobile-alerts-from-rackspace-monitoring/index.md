@@ -11,9 +11,9 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-Sometimes, an email alert isn't enough. If you are on call, on the go, or far from Wi-Fi, mobile alerts are a necessity. For the most critical problems, you can set up notifications from multiple form factors, combining SMS with any of our other [notification types](/support/support/how-to/rackspace-monitoring-checks-and-alarms/).
+Sometimes, an email alert isn't enough. If you are on call, on the go, or far from Wi-Fi, mobile alerts are a necessity. For the most critical problems, you can set up notifications from multiple form factors, combining SMS with any of our other [notification types](/support/how-to/rackspace-monitoring-checks-and-alarms/).
 
-<img src="CMSMS1.png" alt="" width="320" height="254" border="2" />
+{{<image src="CMSMS1.png" alt="" title="">}}
 
 ### Get notified with SMS
 
@@ -40,7 +40,7 @@ You configure SMS alerts for your account by adding one or more new notification
 
 If you receive too many texts, or you don't want to get alerts during a maintenance period, you can perform the following actions:
 
-- Set up [Suppressions](https://www.rackspace.com/blog/mute-cloud-monitoring-notifications-with-suppressions/) to mute alerts during planned events.
+- Set up suppressions to mute alerts during planned events.
 - Reconfigure your alerting preferences in the Cloud Control Panel or use the raxmon CLI.
 - Tune your notification plans to ensure that only the most important notifications are sent by SMS.
 - Reply STOP to any text. This action stops all SMS alerts for that phone number - for all alarms.

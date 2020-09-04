@@ -28,17 +28,17 @@ If you need to export or import email address data from a different Outlook vers
 
 1. In Outlook 2016, click **File > Export** from the top navigation bar.
 
-    <img src="file_export2016.png" />
+    {{<image src="file_export2016.png" alt="" title="">}}
     
     The Export to Archive File window displays.
 
 2. In the Export to Archive File window, check all applicable items that you want to export and then click **Continue**.
 
-    <img src="items_exported2016.png" />
+    {{<image src="items_exported2016.png" alt="" title="">}}
 
 3. Enter a name for the file, and then click the expand arrow to choose a location in which to save the file.
 
-    <img src="save_as2016.png" />
+    {{<image src="save_as2016.png" alt="" title="">}}
 
 4. A box displays that your data has been exported, Click **Finish**.
 

@@ -7,14 +7,14 @@
                     {{- partial "components/sidebar-account" . -}}
             </div>
             <div class="col-sm-12 col-md-9 col-lg-9 account-content" id="account-content">
-                <h2>{{- .Params.Title -}}</h2>
+                <h2>{{- .Params.Title | markdownify -}}</h2>
                 {{- if not (in .Params.Permalink "all-articles") -}}
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <p>Last updated on: &nbsp; {{- .Params.Last_modified_date -}}</p>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">
-                        <p>Authored by: &nbsp; {{- .Params.Last_modified_by -}}</p>
+                        <p>Authored by: &nbsp; {{- .Params.Created_by -}}</p>
                     </div>
                 </div>
                 {{- else -}}

@@ -42,12 +42,12 @@ account:
    on **Personal Folders**, select **Properties **and then
    the **Advanced** button.
 
-   <img src="1.png" alt="" />
+   {{<image src="1.png" alt="" title="">}}
 
 5. Highlight all the text in the **Filename** box to
    copy the text and then select **Cancel**.
 
-   <img src="three.png" alt="" />
+   {{<image src="three.png" alt="" title="">}}
 
    **Note:** Paste your copied text into a Notepad or Word
    document since you will need this text in a later step.
@@ -57,13 +57,13 @@ account:
    File** (.pst), and then select
    the **Next** button.
 
-   <img src="5.png" alt="" />
-   <img src="6.png" alt="" />
+   {{<image src="5.png" alt="" title="">}}
+   {{<image src="6.png" alt="" title="">}}
 
 7. In the **File to Import** box, paste the path to
    your .pst file an select the **Next** button.
 
-   <img src="7.png" alt="" />
+   {{<image src="7.png" alt="" title="">}}
 
 8. Select the top folder you want to import, and be
    sure to select the **Include
@@ -73,7 +73,7 @@ account:
    to import your data to and then
    select **Finish**.
 
-   <img src="10.png" alt="" />
+   {{<image src="10.png" alt="" title="">}}
 
 **Note:** Your
 import may take some time to finish depending on the size of the .PST file.
@@ -88,12 +88,12 @@ account:
    on **Personal Folders**, select **Properties** and then
    the **Advanced** button.
 
-   <img src="1.png" alt="" />
+   {{<image src="1.png" alt="" title="">}}
 
 2. Highlight all the text in the **Filename** box to
    copy the text and then select **Cancel**.
 
-   <img src="three.png" alt="" />
+   {{<image src="three.png" alt="" title="">}}
 
    **Note:** Paste your copied text into a Notepad or Word
    doc since you will need this text in a future step.
@@ -103,13 +103,13 @@ account:
    File** (.pst), and then select
    the **Next** button.
 
-   <img src="5.png" alt="" />
-   <img src="6.png" alt="" />
+   {{<image src="5.png" alt="" title="">}}
+   {{<image src="6.png" alt="" title="">}}
 
 4. In the **File to Import** box, paste the path to
    your .pst file an select the **Next** button.
 
-   <img src="7.png" alt="" />
+   {{<image src="7.png" alt="" title="">}}
 
 5. Select the top folder you want to import, and be
    sure to select the **Include
@@ -120,7 +120,7 @@ account:
    to import your data. Then
    select **Finish**.
 
-   <img src="10.png" alt="" />
+   {{<image src="10.png" alt="" title="">}}
 
 **Note:** Your
 import may take some time to finish depending on the size of the .PST

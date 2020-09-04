@@ -20,7 +20,7 @@ The Cloud Load Balancers permissions matrix displays specific permissions for th
  The matrix displays the Cloud Load Balancers methods grouped by category, their corresponding RESTful API commands, and the RBAC roles that are supported.
 
 ### Load balancer
-{{<table "table table-dark table-striped table-bordered">}}
+{{<table "table  table-striped table-bordered">}}
 Method | API action | Role | Description
 |---------|--------|--------|--------|
 List load balancers | `GET /v1.0/{account}/loadbalancers` | **Admin,<br/>Creator,<br/>Observer** | Lists load balancers configured and associated with your account.

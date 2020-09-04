@@ -39,7 +39,7 @@ Optionally, you can provide the following information:
 -  **Email address:** admin@mygreatcompany.com
 -  **Organizational unit:** Accounting Department
 
-If you want to obtain a CSR, refer to [How to generate a CSR](/support/support/how-to/generate-a-csr/). If you are renewing an SSL certificate and the organization’s information has not changed, you do not need a new CSR.
+If you want to obtain a CSR, refer to [How to generate a CSR](/support/how-to/generate-a-csr/). If you are renewing an SSL certificate and the organization’s information has not changed, you do not need a new CSR.
 
 ### Types of validation
 
@@ -79,6 +79,6 @@ A multi-domain or Subject Alternative Name (SAN) certificate provides the most f
 
 Refer to the following articles for more information:
 
--  [How to generate a CSR](/support/support/how-to/generate-a-csr/)
+-  [How to generate a CSR](/support/how-to/generate-a-csr/)
 
--  [Purchasing an SSL certificate through Rackspace](/support/support/how-to/rackspace-ssl-certificates/)
+-  [Purchasing an SSL certificate through Rackspace](/support/how-to/rackspace-ssl-certificates/)

@@ -30,7 +30,7 @@ To secure a Webmail private label site site, perform the following steps:
 
 2. In the **Reseller Tools** section of the home page, click the **Webmail Sites** link.
 
-   <img src="webmail_sites.png"/>
+   {{<image src="webmail_sites.png" alt="" title="">}}
 
 3. On the **Webmail Sites** page, locate the site that you want to secure. It should have a red unlocked icon to the right of the name.
 
@@ -38,15 +38,15 @@ To secure a Webmail private label site site, perform the following steps:
 
 4. Click **Secure Site** from the **Actions** drop-down list.
 
-   <img src="action_secure_sites.png"/>
+   {{<image src="action_secure_sites.png" alt="" title="">}}
 
 5. On the **Secure Webmail Site** page, enter or verify the company information for your site. This information is used to register the security certificate that secures your site. If your end users choose to view the certificate from their browser, this information is visible to them. Click **Secure Webmail Site**.
 
-   <img src="secure_webmail_site.png"/>
+   {{<image src="secure_webmail_site.png" alt="" title="">}}
 
 6. Copy the displayed instructions to update the DNS entry for your site with new information by clicking **Copy Instructions**.  Then click **Ok, Got It**.
 
-   <img src="site_being_created.png"/>
+   {{<image src="site_being_created.png" alt="" title="">}}
 
     - The DNS for most existing sites is an ``A`` record that points to a specific IP address. Change the ``A`` record type to ``CNAME``, and change the IP address to the host name provided. For example, if your Webmail site is going to be **mail.yourdomainexample.com**, you would change the host name to **mail** or **mail.yourdomainexample.com**. The following tables illustrate this change.
 
@@ -74,4 +74,4 @@ To secure a Webmail private label site site, perform the following steps:
 
 After the DNS change is propagated, the site displays as secured in the **Webmail Sites** listing and has a green locked icon to the right of the name.
 
-<img src="secure_completed.png"/>
+{{<image src="secure_completed.png" alt="" title="">}}

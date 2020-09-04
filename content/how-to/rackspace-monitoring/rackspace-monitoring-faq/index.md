@@ -362,10 +362,8 @@ a message if even just one check returns a failure status.
 
 {{<accordion title="How can I see monitors for both your dedicated and cloud servers?" col="in" href="accordion42">}}
 
-Through the API by using a check. For more information, see the [Checks section](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/check-operations/) of the API refrence.
+Through the API by using a check or through the Raxmon CLI. For more information, see the [Checks section](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/check-operations/) of the API refrence.
 
-Through the Raxmon CLI see
-[Using raxmon to configure Rackspace Cloud Monitoring](https://docs.rackspace.com/blog/using-raxmon-to-configure-rackspace-cloud-monitoring/).
 {{</accordion>}}
 {{<accordion title="Can I view historical metrics for monitoring checks?" col="in" href="accordion43">}}
 

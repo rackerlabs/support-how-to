@@ -275,17 +275,20 @@ of resources but share a pool of resources that other users of the
 account might have access to.
 {{</ accordion >}}
 
-{{< accordion title="Where can I view the pop-up window that appeared when I initially enabled RBAC?" col="in" href="accordion30" >}}
+{{< accordion title="Where can I view the pop-up window that appeared when I initially enabled RBAC?" col="in" href="accordion30" hasImage="yes">}}
 
-Following is the initial pop-up window that appears when you enable RBAC.
+<p>Following is the initial pop-up window that appears when you enable RBAC.</p>
 
-[<img src="RBAC.png" width="526" height="378" />](https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RBAC.png)
 
-For information about additional products that will be RBAC-enabled in
+
+{{<image src="RBAC.png" alt="" title="">}}
+
+
+<p>For information about additional products that will be RBAC-enabled in
 the future, see [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
 
 For information about changing your admin credentials, see [Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac).
 
-For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).
+For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).</p>
 
 {{</ accordion >}}

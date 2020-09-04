@@ -32,18 +32,18 @@ steps:
 
 1. In the top navigation bar, click your account number and select **Billing & Payments**.
 
-    <img src="admindropmenu.png" />
+    {{<image src="admindropmenu.png" alt="" title="">}}
 
 2. On the **Billing & Payments** tab, click **Invoices**.
 
     A list of invoices displays showing the amount of each invoice and a brief description.
 
-    <img src="invoices.png" />
+    {{<image src="invoices.png" alt="" title="">}}
 
 3. To view a detailed invoice, click the invoice number.
 4. To pay the invoice, click **Pay** in the **Action** column.
 
-    <img src="pay_invoice.png" />
+    {{<image src="pay_invoice.png" alt="" title="">}}
 
 5. If necessary, update the credit card information to process the payment.
 6. Make any necessary changes, and then click **Pay Invoice** to pay your invoice.

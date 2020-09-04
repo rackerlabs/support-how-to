@@ -245,9 +245,9 @@ This program has been tested on the following base images:
 
 2. If you are using Internet Explorer to download the program and Enhanced Security is configured (the default for all Windows Server base images), you might be prompted that the domain is not part of your Trusted Sites. If so, add https://7c1f6a0506404b3af970-42fdda7fdbf4103081a78c20ac1c54cb.r51.cf1.rackcdn.com to your Trusted Sites and retry step 1.
 
-    <img src="winnew12-1_0.jpg" alt="URL not in Trusted Sites dialog box; Clicking Add" width="550" />
+    {{<image alt="URL not in Trusted Sites dialog box; Clicking Add" src="winnew12-1_0.jpg" title="URL not in Trusted Sites dialog box; Clicking Add">}}
 
-    <img src="winnew12-2_0.jpg" alt="Add URL to Trusted Sites dialog box; Clicking Add" width="550" />
+    {{<image alt="Add URL to Trusted Sites dialog box; Clicking Add" src="winnew12-2_0.jpg" title="Add URL to Trusted Sites dialog box; Clicking Add">}}
 
 3. Because the program requires command-line switches, save it to a location on your disk that you can navigate to easily from the command line. For these steps, it is in a directory called `C:\\scripts\\`.
 

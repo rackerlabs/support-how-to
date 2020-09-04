@@ -27,7 +27,7 @@ As a customer with a dedicated account, you can perform the following tasks:
 - View the availability of your applications.
 - Create customized visualizations and graphs.
 - Use the following types of [remote
-  checks](/support/support/how-to/working-with-alarms/):
+  checks](/support/how-to/working-with-alarms/):
 
     - Ping
 
@@ -36,7 +36,7 @@ As a customer with a dedicated account, you can perform the following tasks:
     - HTTP
 
 For more information, see [Working with
-alarms](/support/support/how-to/working-with-alarms/).
+alarms](/support/how-to/working-with-alarms/).
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ following resources:
 - [Understanding the Rackspace Intelligence User Interface for dedicated
   accounts](/support/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
 - [Differences between Rackspace Intelligence for cloud accounts and dedicated
-  accounts](/support/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account)
+  accounts](https://docs.rackspace.com/support/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account/)
 
 ### Access Rackspace Intelligence
 

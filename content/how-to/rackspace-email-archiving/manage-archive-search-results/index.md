@@ -36,7 +36,7 @@ These options include:
 To narrow search results, click **Filter My Results** at the top of the
 window.
 
-<img src="ManageArchiveSearchResults1.png" width="858" height="220" />
+{{<image src="ManageArchiveSearchResults1.png" alt="" title="">}}
 
 #### Multiple views ####
 
@@ -52,7 +52,7 @@ window.
 Click the appropriate option by which to sort: **Date**, **Relevance**,
 **Sender**, **Subject**, or **\# of Attachments**.
 
-<img src="ManageArchiveSearchResults2.png" width="413" height="27" />
+{{<image src="ManageArchiveSearchResults2.png" alt="" title="">}}
 
 #### Tags ####
 

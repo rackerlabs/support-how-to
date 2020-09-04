@@ -15,12 +15,12 @@
 
 ## Contributing to the Rackspace How-To content repository
 
-This file describes the general process for maintaining source code for content published at [https://docs.rackspace.com//support/how-to/](https://docs.rackspace.com/support/how-to/).
+This file describes the general process for maintaining source code for content published at [https://docs.rackspace.com/support/how-to/](https://docs.rackspace.com/support/how-to/).
 
 See [Treat Documentation Like Code](https://www.youtube.com/watch?v=haFooDkKr-A&feature=youtu.be) for a brief video overview of how to edit articles on the How-To support network.
 If you are a Racker, search MyLearn for the Treat Docs Like Code course.
 
-**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the Edit This Article button on the left-hand side of the page.
+**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the **Edit This Article** button on the left-hand side of the page.
 
 ### Getting started with GitHub
 
@@ -34,7 +34,7 @@ Before you create a new article or make edits to an existing one, create a *fork
 
 2. In the pop-up box, select your personal GitHub account.
 
-A personal copy of the How-To repository is created in your GitHub account. You can access your fork by going to the [GitHub home page](https://github.com) and selecting **rackspace-how-to** under **Your repositories**.
+A personal copy of the How-To repository is created in your GitHub account. You can access your fork by going to the [GitHub home page](https://github.com) and selecting **support-how-to** under **Your repositories**.
 
 #### Keeping your fork up to date
 
@@ -52,8 +52,7 @@ Articles are grouped into one directory per product. Each directory contains one
 
 #### Create an article
 
-**Important**: Before creating an article, make sure that the product or service you describe is supported by a
-Rackspace Technology Team. We cannot publish or maintain articles without available subject matter experts to
+**Important**: Before creating an article, make sure that the product or service you describe is supported by a Rackspace Technology Team. We cannot publish or maintain articles without available subject matter experts to
 validate the content.
 
 Follow these steps to create a new article within a product folder of the **rackerlabs/support-how-to** repo.
@@ -62,9 +61,9 @@ Follow these steps to create a new article within a product folder of the **rack
 
 2. Create a new directory within ```/content/how-to/**product**``` that contains the initial ```.index.md``` by using the following command:
 
-   `sh hugo new --kind blog-bundle how-to/**product**/article-title`
+   `sh hugo new --kind support-bundle how-to/**product**/article-title`
 
-   **Note:** If your post has images,  place the image files within the newly created post folder.
+   **Note:** If your post has images, place the image files within the newly created post folder.
 
 3. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
 
@@ -72,23 +71,22 @@ Follow these steps to create a new article within a product folder of the **rack
 
 5. At the bottom of the page, click **Propose new file**.
 
-6. Create a pull request (PR). On the "Open a pull request" page, check the following settings:
+6. Create a pull request (PR). On the **Open a pull request** page, check the following settings:
 
-    - `base fork: rackerlabs/rackspace-how-to`
+    - `base fork: rackerlabs/support-how-to`
     - `base: master`
     - `head fork: {your-username}/rackspac...`
     - `compare: {your-branch}`
 
-   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus may not be present.
+   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus might not be present.
 
 7. Describe the reasons for your change in the comment box, and then select **Create pull request**.
 
-**Note:** If your article includes images, send an email to <how-to@rackspace.com> with the image files. Note where the images belong in the article by using comments: `<!--this is a comment-->`.
+**Note:** If your article includes images, add the image to your article directory and add a link to the image in your article.  For example, assuming your image is named **Picture1.png**: {{<img src="Picture1.png" title="" alt="">}}
 
-8. Request reviews of your PR from the Information Development team in the
-    ``#how-to`` channel in Slack.
+8. Request reviews of your PR from the Information Development team in the ``#how-to`` channel in Slack.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
+The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
 
 <!---##### Using article templates
 
@@ -106,13 +104,14 @@ Article templates are available for three types of article: task-based, conceptu
 
 5. Submit your article as a pull request as detailed in the previous section.
 --->
+
 #### Edit an article
 
 Follow these steps to edit an existing article within a product folder of the **rackerlabs/support-how-to** repo.
 
 1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/support-how-to/tree/master/content/how-to) and click the product for which you want to edit an article.
 
-2. Find the article you want to edit and click to open the file.
+2. Find the article you want to edit and click to open the index.md file within the article folder.
 
 3. At the top of the article, click the pencil (Edit this file) icon.
 
@@ -131,7 +130,7 @@ Follow these steps to edit an existing article within a product folder of the **
     - `head fork: {your-username}/rackspac...`
     - `compare: {your-branch}`
 
-   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus may not be present.
+   If the settings are not correct, use the drop down menus to select the correct settings. The fork menus might not be present.
 
 7. Describe the changes that you made in a PR message.
 
@@ -145,7 +144,7 @@ Follow these steps to edit an existing article within a product folder of the **
 9. Request reviews of your PR from the Information Development team in the
     ``#how-to`` channel in Slack.
 
-Your PR will be reviewed. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
+The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
 
 #### Make a change to a PR
 

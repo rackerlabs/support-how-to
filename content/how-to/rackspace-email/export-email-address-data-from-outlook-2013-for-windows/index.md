@@ -30,27 +30,27 @@ If you need to export or import email address data by using a different Outlook 
 1. In Outlook 2013, click **File > Options**.
 2. In the Outlook Options window, click **Advanced**.
 
-    <img src="advanced2013.png" />
+    {{<image src="advanced2013.png" alt="" title="">}}
 
 3. In the **Export** section, click **Export**.
 
-    <img src="export2013.png" />
+    {{<image src="export2013.png" alt="" title="">}}
 
     The Import and Export Wizard launches.
 
 4. In the Import and Export Wizard, click **Export to a file**, and then click **Next**.
 
-    <img src="export_to_file2013.png" />
+    {{<image src="export_to_file2013.png" alt="" title="">}}
 
 5. Click **Outlook Data File (.pst)**, and then click **Next**.
 
-    <img src="outlook_data_file2013.png" />
+    {{<image src="outlook_data_file2013.png" alt="" title="">}}
 
 6. Select the folder that you want to export, and then click **Next**.
 
    Click the email address at the top of the folder list, and then click the checkbox for **Include subfolders** to export all data.
 
-    <img src="export_folder_list2013.png" />
+    {{<image src="export_folder_list2013.png" alt="" title="">}}
 
 8. Click **Browse**, and then select the location where you want to save the **.pst** file.
 
@@ -60,7 +60,7 @@ If you need to export or import email address data by using a different Outlook 
 
     **Note:** You might be prompted to enter a password. This step is optional, and you can click **OK** to skip it.
 
-    <img src="browse_finish2013.png" />
+    {{<image src="browse_finish2013.png" alt="" title="">}}
 
 10. Click **Finish**.
 

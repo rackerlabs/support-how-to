@@ -52,7 +52,7 @@ The following steps use  general settings for iPhone iOS and might vary across i
     - **User Name:** Your renamed Rackspace Email address
     - **Password:** Your mailbox password
 
-  <img src="imap-serversettings.png" />
+  {{<image src="imap-serversettings.png" title="" alt="">}}
 
   **Warning:** Before you enter any information, the outgoing server fields display *Optional*. Do *not* skip this step. For your outgoing email to function, you must enter the outgoing server information.
 
@@ -68,11 +68,11 @@ The following steps use  general settings for iPhone iOS and might vary across i
 3. In the account settings, tap **Advanced**.
 4. Under **MAILBOX BEHAVIORS**, tap **Sent Mailbox**.
 
-    <img src="mapping-folderlist.png" />
+    {{<image src="mapping-folderlist.png" title="" alt="">}}
 
 5. Under **ON THE SERVER**, tap the **Sent** folder.
 
-   <img src="mapping-ontheserver.png" />
+   {{<image src="mapping-ontheserver.png" title="" alt="">}}
 
 6. Repeat steps 4 and 5 for **Deleted Mailbox**.
 

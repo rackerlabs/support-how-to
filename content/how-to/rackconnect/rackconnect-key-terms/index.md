@@ -36,7 +36,7 @@ are used if you perform a rebuild or make other changes to your cloud
 server. The following figure shows an example of an automation features
 configuration:
 
-<img src="Automation.Features.png" width="257" height="84" />
+{{<image src="Automation.Features.png" alt="" title="">}}
 
 **Note:** Currently you cannot adjust automation features settings; they
 are displayed for informational purposes only. If you need to modify

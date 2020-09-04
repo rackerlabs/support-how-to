@@ -45,7 +45,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     The following example shows the **Step By Step** instructions for a Linux platform. Follow the instructions
     to install, configure, and start the agent.
 
-    <img src="intelligence-install-agent-linux_0.png" width="649" height="527" />
+    {{<image src="intelligence-install-agent-linux_0.png" alt="" title="">}}
 
     The instructions require you to send commands to the server. The
     commands you must send to the server vary depending on what kind of
@@ -67,7 +67,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     but you are able to log in to the Cloud Control Panel for your
     account, you can change the server's password as described at [How
     to change your server root/admin password from your
-    account](/support/how-to/support/how-to-change-your-server-rootadmin-password-from-your-account).
+    account](/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account).
 
     In the terminal session where you entered the installation commands,
     you can confirm that the installation succeeded if you see the
@@ -80,7 +80,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     following example, two CPU-related checks are configured, monitoring
     CPU usage and average CPU load.
 
-    <img src="intelligence-check-selection.png" width="637" height="555" />
+    {{<image src="intelligence-check-selection.png" alt="" title="">}}
 
 9.  Click **Apply Checks** to activate the checks that you defined. When
     the checks are activated, their status is reported on the entities

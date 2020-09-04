@@ -23,7 +23,7 @@ Microsoft Exchange 2010 is fully compatible with most browsers.
 
 Log in to OWA for Exchange 2010 at [https://connect.emailsrvr.com](https://connect.emailsrvr.com).
 
-<img src="2.png" alt="" />
+{{<image src="2.png" alt="" title="">}}
 
 When you log in, OWA offers the following options:
 
@@ -67,7 +67,7 @@ options.
 
 -   Shortcuts: Set up your out-of-office notification and access the auto configuration tool to set up your Outlook email client.
 
-<img src="OWA1.png" alt="" />
+{{<image src="OWA1.png" alt="" title="">}}
 
 **Organize Email**
 
@@ -77,7 +77,7 @@ options.
 
 -   Delivery Reports: Search for delivery information about messages that you have sent or received. You can narrow the search to messages with certain keywords in the subject.
 
-<img src="OWA2.png" alt="" />
+{{<image src="OWA2.png" alt="" title="">}}
 
 **Settings: Mail**
 
@@ -89,7 +89,7 @@ options.
 
 -   Conversations: Choose how to sort messages in your reading pane and conversation lists.
 
-<img src="OWA3.png" alt="" />
+{{<image src="OWA3.png" alt="" title="">}}
 
 **Settings: Calendar**
 
@@ -117,13 +117,13 @@ options.
 
 -   Text Messaging (SMS): Send notifications to your mobile device for calendar events and inbox rules.
 
-<img src="OWA4.png" alt="" />
+{{<image src="OWA4.png" alt="" title="">}}
 
 **Block or Allow**
 
 -   Junk Email Settings: Automatically filter junk email or move it to the junk folder; monitor and set up safelists and blacklists for incoming email.
 
-<img src="OWA5.png" alt="" />
+{{<image src="OWA5.png" alt="" title="">}}
 
 ### Microsoft Exchange 2007 OWA features
 
@@ -132,7 +132,7 @@ Microsoft Exchange 2007 is fully compatible with Internet Explorer 7 and later r
 Log in to OWA for Exchange 2007 at
 [https://outlook.rackspace.com](https://outlook.rackspace.com).
 
-<img src="OWA.png" alt="" />
+{{<image src="OWA.png" alt="" title="">}}
 
 When you log in, OWA offers the following options:
 
