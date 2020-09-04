@@ -5,7 +5,7 @@ title: Using the python-novaclient with Rackspace Cloud Servers
 type: article
 created_date: '2012-07-23'
 created_by: Jered Heeschen
-last_modified_date: '2018-10-25'
+last_modified_date: '2020-09-04'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -23,7 +23,7 @@ We have installation instructions for Windows, Mac OS X, and Linux:
 -   [Installing python-novaclient on
     Windows](/support/how-to/installing-python-novaclient-on-windows)
 -   [Installing python-novaclient on Linux and Mac
-    OS](https://docs.rackspace.com/blog/getting-started-using-python-novaclient-to-manage-cloud-servers/)
+    OS](/support/how-to/installing-python-novaclient-on-linux-and-mac-os)
 
 You'll find a list of common operations that can be performed with the
 client here:
