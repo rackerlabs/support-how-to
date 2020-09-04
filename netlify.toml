@@ -9,10 +9,6 @@
   command = "make build-preview"
   publish = "public"
 
-[dev]
-  command = "make install && make serve"
-  target =  8080
-
 [[headers]]
   for = "/img/*"
   [headers.values]
