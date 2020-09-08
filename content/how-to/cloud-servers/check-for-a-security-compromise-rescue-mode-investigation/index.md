@@ -45,7 +45,7 @@ for rootkits.
 example, some compromised versions of `ps` have "`/dev/ptyp`" inside them. We
 recommend installing `chkrootkit` by using your package manager rather than
 compiling from source. For more options and information on using chkrootkit,
-see [http://www.chkrootkit.org/README[(http://www.chkrootkit.org/README).
+see [http://www.chkrootkit.org/README](http://www.chkrootkit.org/README).
 
 1. To install it, run the following command:
 
