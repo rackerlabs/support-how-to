@@ -26,10 +26,9 @@ build:
 	rm -rf public
 	@hugo version
 	hugo
-check-links:
-	check-links 'https://docs-support-how-to.netlify.app/' --max-threads 500
+
 serve:
-	@hugo $(PREVIEW_ARGS) --port=8888 serve
+	@hugo $(PREVIEW_ARGS) serve
 
 # muffet - checks for broken links - you have to have hugo running for this to work
 muffet:
