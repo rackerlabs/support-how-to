@@ -44,9 +44,10 @@ for rootkits.
 `chkrootkit` looks for known signatures in compromised binary systems. For
 example, some compromised versions of `ps` have "`/dev/ptyp`" inside them. We
 recommend installing `chkrootkit` by using your package manager rather than
-compiling from source.
+compiling from source. For more options and information on using chkrootkit,
+see [http://www.chkrootkit.org/README[(http://www.chkrootkit.org/README).
 
-1. Run the following command:
+1. To install it, run the following command:
 
         apt-get install chkrootkit
 
