@@ -37,7 +37,7 @@ might need to download and install the following software:
   - An SSH File Transfer Protocol (SFTP) client application
 
 If you don't have a website to upload, you can use the following sample HTML
-file that we created for this exercise. Right-click the [link](download.html) to
+file that we created for this exercise. Right-click the [link](/support/how-to/create-your-first-website-on-cloud-servers-quickly/download.html) to
 save the file and rename the file to **index.html**.
 
 ### Build the infrastructure
