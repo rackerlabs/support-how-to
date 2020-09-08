@@ -27,7 +27,7 @@ public folders.
 This article provides information and instructions for working with
 public folders in the Cloud Office Control Panel:
 
-###List public folders
+### List public folders
 
 When you click on **Folders**, a page that lists all of your public
 folders is displayed.
