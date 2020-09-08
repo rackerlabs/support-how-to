@@ -292,7 +292,7 @@ The example uses an existing container named AppData.
 First, retrieve your data from EC2. You can transfer the data directly in one
 of the following ways:
 
-- Use [rsync](/support/how-to/migrating-a-linux-server-from-the-command-line-1)
+- Use [rsync](/support/how-to/migrating-a-linux-server-from-the-command-line)
   or SSH File Transfer Protocol (SFTP).
 
 - Use the OpenStack Swift client to transfer your data to Cloud Files, and
