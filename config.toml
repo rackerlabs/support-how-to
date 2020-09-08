@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "/"
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
@@ -9,7 +9,7 @@ languageCode = "en"
 metaDataFormat = "yaml"
 paginate = 10
 pluralizeListTitles = false
-relativeURLs = true
+relativeURLs = false
 disablePathToLower = true
 uglyURLs = false
 smartDashes = true
@@ -91,17 +91,17 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "Support Network Home"
     parent = "Support Network"
-    url = "/"
+    url = "/support/"
     weight = 1
 [[menu.footer]]
     name = "Rackspace How-To"
     parent = "Support Network"
-    url = "/how-to/"
+    url = "/support/how-to/"
     weight = 2
 [[menu.footer]]
     name = "API Documentation"
     parent = "Support Network"
-    url = "docs/"
+    url = "/docs/"
     weight = 3
 [[menu.footer]]
     name = "Developer Center"

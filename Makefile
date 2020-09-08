@@ -26,8 +26,7 @@ build:
 	rm -rf public
 	@hugo version
 	hugo
-check-links:
-	check-links 'https://docs-support-how-to.netlify.app/' --max-threads 500
+
 serve:
 	@hugo $(PREVIEW_ARGS) serve
 

@@ -30,9 +30,9 @@ Use the following steps to view billing data in pivot tables:
         [download](rackspace_billing_old_excel_pivot_tables.xls)
     -   New Excel: Microsoft Office 2007 and later, Libre Office &reg;,
         and Google Sheets &trade;
-        ([download](https://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_new_excel_pivot_tables.xlsx))
+        [download](rackspace_billing_new_excel_pivot_tables.xlsx)
     -   OpenOffice
-        ([download](https://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_open_office_pivot_tables.ods))
+        [download](rackspace_billing_open_office_pivot_tables.ods)
 
     **Note:** The following steps use the current version of Microsoft Excel on Windows &reg; or Mac &reg; OSX &reg;.
     If you are using a different spreadsheet application version or a different OS,
@@ -85,9 +85,9 @@ and select **Refresh**.
 The following videos show how to view your data in a pivot table:
 
 -   Import invoice into the New Excel spreadsheet
-    ([download](https://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_new_excel_pivot_tables_demo.mov))
+    [download](rackspace_billing_new_excel_pivot_tables_demo.mov)
 -   Import invoice into the Open Office spreadsheet
-    ([download](https://cf86f577ce3eeb804b0b-b288f28026fa4fe9b175ca1cf838e8ff.r99.cf2.rackcdn.com/rackspace_billing_open_office_pivot_tables_demo.mov))
+    [download](rackspace_billing_open_office_pivot_tables_demo.mov)
 
 ### About the CSV file
 
