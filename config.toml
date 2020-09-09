@@ -9,17 +9,11 @@ languageCode = "en"
 metaDataFormat = "yaml"
 paginate = 10
 pluralizeListTitles = false
-relativeURLs = true
+relativeURLs = false
 disablePathToLower = true
 uglyURLs = false
 smartDashes = true
 title = "Rackspace Developer Center"
-# Google Custom Search Engine ID
-# gcs_engine_id = "006650721361932583448:0tpp1tnttba"
-# Enable offline search with Lunr.js
-offlineSearch = true
-offlineSearchSummaryLength = 70
-offlineSearchMaxResults = 10
 canonifyURLs = true
 [permalinks]
     how-to = "/support/how-to/:filename"
@@ -97,12 +91,12 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "API Documentation"
     parent = "Support Network"
-    url = "/docs"
+    url = "https://docs.rackspace.com/docs/"
     weight = 3
 [[menu.footer]]
     name = "Developer Center"
     parent = "Support Network"
-    url = "/"
+    url = "https://docs.rackspace.com/"
     weight = 4
 [[menu.footer]]
     name = "About"
@@ -153,7 +147,7 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "Technical Blog"
     parent = "Blogs"
-    url = "https://docs.rackspace.com/blog"
+    url = "https://docs.rackspace.com/blog/"
     weight = 14
 [[menu.footer]]
     name = "Solve: Thought Leadership"
@@ -178,7 +172,7 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "Style Guide for Technical Content"
     parent = "Site Information"
-    url = "/docs/style-guide/"
+    url = "https://docs.rackspace.com/docs/style-guide/"
     weight = 12
 
 [[menu.main]]
@@ -194,7 +188,7 @@ defaultMarkdownHandler = "goldmark"
 [[menu.main]]
     identifier = "developer_documentation"
     name = "Developer Documentation"
-    url = "/docs"
+    url = "https://docs.rackspace.com/docs/"
     weight = 3
 [[menu.main]]
     identifier = "blogs"
@@ -205,7 +199,7 @@ defaultMarkdownHandler = "goldmark"
     [[menu.main]]
         identifier = "technical-blog"
         name ="Technical Blog"
-        url ="/blog"
+        url ="https://docs.rackspace.com/blog/"
         weight = 1
         parent = "blogs"
     [[menu.main]]
