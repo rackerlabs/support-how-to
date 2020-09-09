@@ -283,6 +283,7 @@ Following is the initial pop-up window that appears when you enable RBAC.
 
 {{<image src="RBAC.png" alt="" title="">}}
 
+<br />
 
 For information about additional products that will be RBAC-enabled in
 the future, see [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
