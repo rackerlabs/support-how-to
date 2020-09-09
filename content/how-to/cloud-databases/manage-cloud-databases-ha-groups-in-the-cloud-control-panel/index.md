@@ -11,7 +11,7 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-A [high availability \(HA\) instance group](/support/how-to/high-availability-for-cloud-databases/) is a Cloud Databases option that provides better performance and reliability, and reduces downtime by providing automatic failover to a replica instance.
+A [high availability \(HA\) instance group](/how-to/high-availability-for-cloud-databases/) is a Cloud Databases option that provides better performance and reliability, and reduces downtime by providing automatic failover to a replica instance.
 
 This article describes how to create and manage HA instance groups by using the Cloud Control Panel.
 
@@ -62,7 +62,7 @@ Use the following steps to create a new HA instance group:
    **Note:** You can specify networks only when you are creating the HA group. You can't enable public network access after the HA group is created.
 
 9.  In the **Advanced Options** section, specify settings for [scheduled
-    backups](/support/how-to/scheduled-backups-for-cloud-databases/).
+    backups](/how-to/scheduled-backups-for-cloud-databases/).
 
     We recommend that you schedule regular backups by selecting the **Protect your data with Daily Scheduled Backups** check box and then clicking **Specify Scheduled Backup Settings** to specify the schedule. You can enter a day of the week for a full backup and the time of day when that backup and daily incremental backups will occur. Alternatively, you can select **Random** for one or both options, and a random time or day will be selected during creation that will then be used for all subsequent backups.
 

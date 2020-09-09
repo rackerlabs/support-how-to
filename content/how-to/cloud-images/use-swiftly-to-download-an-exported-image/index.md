@@ -21,9 +21,9 @@ Files. If you need help with any of these topics, see the following sources:
 
 -   Cloud Images API documentation: [Task to export
 image](https://docs.rackspace.com/docs/cloud-images/v2/api-reference/image-task-operations/#task-to-export-image)
--   Cloud Images FAQ: [Where is my exported image?](/support/how-to/cloud-images-faq)
+-   Cloud Images FAQ: [Where is my exported image?](/how-to/cloud-images-faq)
 -   [Install the Swiftly client for Cloud
-Files](/support/how-to/install-the-swiftly-client-for-cloud-files/)
+Files](/how-to/install-the-swiftly-client-for-cloud-files/)
 
 ### Download your entire image at once
 
@@ -41,7 +41,7 @@ In a bash shell, set the following environment variables:
     IMAGEFILENAME=    # the name of your exported image in Cloud Files
 
 For information about viewing your Rackspace API key, see [View and reset your
-API key](/support/how-to/view-and-reset-your-api-key/).
+API key](/how-to/view-and-reset-your-api-key/).
 
 #### Invoke Swiftly
 
@@ -51,7 +51,7 @@ line to perform the download, as follows.
 **Note:** Consider using a screen session to perform this task. If
 you're not familiar with the GNU Screen program, you can find an
 introduction in [Install the Swiftly client for Cloud
-Files](/support/how-to/install-the-swiftly-client-for-cloud-files).
+Files](/how-to/install-the-swiftly-client-for-cloud-files).
 
     swiftly
       --auth-url=https://identity.api.rackspacecloud.com/v2.0
@@ -193,7 +193,7 @@ alphabetical order.
 #### Get the detailed list of segments
 
 **Note**: Before reading this section, you might want to review [Where is my
-exported image?](/support/how-to/cloud-images-faq) in the Cloud Images FAQ for a
+exported image?](/how-to/cloud-images-faq) in the Cloud Images FAQ for a
 reminder of the naming conventions used by Cloud Images export task.
 
 Now that you know the container and pattern that will be used to locate
@@ -275,7 +275,7 @@ In this example, the following segments were downloaded:
     -rw-rw-r-- 1 joeuser joeuser  362443328 Feb 28 21:35 9af8acc8-8189-48b9-b3d6-8152c60074d8.vhd-00002
     -rw-rw-r-- 1 joeuser joeuser  487424512 Feb 28 21:36 9af8acc8-8189-48b9-b3d6-8152c60074d8.vhd-00003
 
-Recall from [Where is my exported image?](/support/how-to/cloud-images-faq) in the
+Recall from [Where is my exported image?](/how-to/cloud-images-faq) in the
 Cloud Images FAQ that each segment should be the same size except for the
 final segment, which can be smaller. Therefore, segment-00002 should be the
 same size as segment-00001, and it is not. This information indicates that
@@ -421,4 +421,4 @@ DLO and your VHD file.
 
 ### Related articles
 
-- [Use Swiftly to upload an image](/support/how-to/use-swiftly-to-upload-an-image)
+- [Use Swiftly to upload an image](/how-to/use-swiftly-to-upload-an-image)

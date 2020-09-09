@@ -18,20 +18,20 @@ common issues identified by Rackspace support technicians and are not required
 operations. Some of these recommendations can cause significant
 downtime, so schedule them accordingly.
 
-For Linux migration preparation, see [Prepare to migrate a Linux server](/support/how-to/prepare-to-migrate-a-linux-server).
+For Linux migration preparation, see [Prepare to migrate a Linux server](/how-to/prepare-to-migrate-a-linux-server).
 
 ### Back up your data
 
 Before you perform a migration, create a tested, file-level backup of
 important data. Rackspace offers a backup solution, Cloud Backup, which
 requires a backup agent on the server. For instructions
-on installing this agent, see [Rackspace Cloud Backup - Install the agent (Windows)](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
+on installing this agent, see [Rackspace Cloud Backup - Install the agent (Windows)](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 To set up your backup directory and a schedule for exporting your backup
-to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/support/how-to/rackspace-cloud-backup-create-a-backup).
+to Cloud Files, see the instructions at [Rackspace Cloud Backup - Create a Backup](/how-to/rackspace-cloud-backup-create-a-backup).
 
 **Note**: Cloud Backup does not back up live databases. If you want to use data from a live database, we recommend that you configure Microsoft SQL Server to create a local backup, and then use the Cloud Backup agent to create a backup of the database. For
-more information about configuring SQL Server to create local backups, see [Create a maintenance backup place in SQL Server 2008 R2](/support/how-to/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard).
+more information about configuring SQL Server to create local backups, see [Create a maintenance backup place in SQL Server 2008 R2](/how-to/create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard).
 
 For more information about Cloud Backup, see <https://www.rackspace.com/cloud/backup>.
 

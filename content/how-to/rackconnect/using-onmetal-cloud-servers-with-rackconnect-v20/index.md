@@ -23,9 +23,9 @@ more about them, you can find more details about these offerings at the followin
 
 -   [OnMetal Cloud Servers product page](https://www.rackspace.com/cloud/servers/onmetal/)
 -   [RackConnect product page](https://www.rackspace.com/cloud-connectivity/rackconnect)
--   [What is new with OnMetal Cloud Servers](/support/how-to/what-is-new-with-onmetal-cloud-servers)
--   [Using OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers)
--   [Using OnMetal Cloud Servers through API](/support/how-to/using-onmetal-cloud-servers-through-api)
+-   [What is new with OnMetal Cloud Servers](/how-to/what-is-new-with-onmetal-cloud-servers)
+-   [Using OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
+-   [Using OnMetal Cloud Servers through API](/how-to/using-onmetal-cloud-servers-through-api)
 
 OnMetal Cloud Servers with RackConnect are compatible with both our
 [Managed Operations](https://www.rackspace.com/managed-cloud/) and
@@ -44,7 +44,7 @@ infrastructure with these offerings:
     we normally recommend the [MyRackspace
     portal](https://login.rackspace.com/). However, support for creating OnMetal servers is currently limited to the
     [Cloud Control Panel](https://login.rackspace.com/). Additionally,
-    you can also use the [Cloud Servers API](/support/how-to/using-onmetal-cloud-servers-through-api)
+    you can also use the [Cloud Servers API](/how-to/using-onmetal-cloud-servers-through-api)
     to create your OnMetal servers.
 
 -   OnMetal servers might not be available in all regions. To view the regions where OnMetal is currently available, connect to the [Cloud Control
@@ -64,6 +64,6 @@ a new server. Select a region to see if the OnMetal Server tab is available.
     network device, your OnMetal server's throughput via RackConnect
     is limited to approximately 150 Mbps (megabits per second). For
     a detailed comparison of RackConnect network devices, see [RackConnect network device
-    comparison](/support/how-to/rackconnect-network-device-comparison).
+    comparison](/how-to/rackconnect-network-device-comparison).
 
--   Even though OnMetal servers require the use of SSH keys, the RackConnect automation systems still create and use a "rackconnect" user account for administering the OnMetal servers. Do not disable, modify, or remove this user account. Additionally, the other [RackConnect best practices](/support/how-to/rackconnect-v20-best-practices) still apply to OnMetal servers.
+-   Even though OnMetal servers require the use of SSH keys, the RackConnect automation systems still create and use a "rackconnect" user account for administering the OnMetal servers. Do not disable, modify, or remove this user account. Additionally, the other [RackConnect best practices](/how-to/rackconnect-v20-best-practices) still apply to OnMetal servers.

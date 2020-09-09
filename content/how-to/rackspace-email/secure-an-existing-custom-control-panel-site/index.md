@@ -20,7 +20,7 @@ Custom control panel sites created before September 2017 were deployed to an env
 - **Time needed:** Approximately 5 minutes to create the site and 24 to 48 hours for the DNS changes to propagate
 - **Tools required:**  DNS host administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Secure a Custom Control Panel Site
 
@@ -71,7 +71,7 @@ To secure your control panel site, perform the following steps:
         |---|---|---|
         |CNAME| cp | pl-10.admin.emailsrvr.com |
 
-    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/support/how-to/find-dns-host)
+    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/how-to/find-dns-host)
 
 The site should now appear as a secured **CUSTOM CONTROL PANEL** listing. After the DNS change is propagated, a green "locked" icon appears to the right of the name to show that the site is secure.
 

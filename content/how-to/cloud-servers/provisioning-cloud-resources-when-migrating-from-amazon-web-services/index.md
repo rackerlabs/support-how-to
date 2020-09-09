@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [High-level steps for migrating from Amazon Web Services](/support/how-to/high-level-steps-for-migrating-from-amazon-web-services)
+**Previous section:** [High-level steps for migrating from Amazon Web Services](/how-to/high-level-steps-for-migrating-from-amazon-web-services)
 
 This article describes how to provision your Rackspace Cloud services when
 migrating from Amazon Web Services (AWS).
@@ -36,7 +36,7 @@ Use the following instructions to provision a new Cloud Server:
    and click **Create Server**.
 
    For information about instance size mapping, see
-   [Mapping of Amazon Web Services resources to Rackspace resources](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources).
+   [Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources).
 
    **Note**: You can add more storage to your cloud server after it is created
    by adding a Cloud Block Storage volume. For instructions, see
@@ -122,7 +122,7 @@ the PublicNet address:
         ssh root@<ipAddress>
 
     If you're connecting from a Windows computer,
-    [use PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty) or a
+    [use PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty) or a
     similar `SSH` command to connect to your server's IP address.
 
 4. Enter your root password to log on.
@@ -133,7 +133,7 @@ After your Rackspace Cloud services are provisioned, you can build your
 applications and transfer your data from AWS. The following articles provide
 detailed descriptions of migration scenarios:
 
-- [Migrate an application built on a LAMP stack from Amazon Web Services](/support/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
-- [Migrate a .NET application from Amazon Web Services](/support/how-to/migrating-a-net-application-from-amazon-web-services)
-- [Migrate a Java web application from Amazon Web Services](/support/how-to/migrating-a-java-web-application-from-amazon-web-services)
-- [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/support/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+- [Migrate an application built on a LAMP stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
+- [Migrate a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
+- [Migrate a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+- [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)

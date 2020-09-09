@@ -42,7 +42,7 @@ are setup as OUs. Use the GPM to assign users and group permissions and operatin
 grant for a particular resource or function. 
 
 For more on Active Directory Groups, see
-(Group Policy fundamentals in Active Directory)[/support/how-to/group-policy-fundamentals-in-active-directory/)
+(Group Policy fundamentals in Active Directory)[/how-to/group-policy-fundamentals-in-active-directory/)
 
 ###  Update the password policy for user accounts
 

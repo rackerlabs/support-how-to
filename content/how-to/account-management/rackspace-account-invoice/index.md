@@ -17,7 +17,7 @@ services, promotions, and discounts. This article provides a detailed
 description of the pages in your PDF or CSV invoice.
 
 **Note:** For an explanation of a detailed invoice that shows an itemized,
-per-service, per-device overview of your billing charges, see [Billing services overview](/support/how-to/billing-services-overview/).
+per-service, per-device overview of your billing charges, see [Billing services overview](/how-to/billing-services-overview/).
 
 ### Account and billing information
 

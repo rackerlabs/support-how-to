@@ -19,12 +19,12 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 
 ###  Cloud Files basics
 
-- [Cloud Files and CDN](/support/how-to/getting-started-with-cloud-files-and-cdn/)
-- [Key Concepts of Cloud Files](/support/how-to/cloud-files-key-concepts)
-- [Why Should I Use Cloud Files?](/support/how-to/why-choose-cloud-files)
-- [Best practices for using Cloud Files](/support/how-to/best-practices-for-using-cloud-files)
-- [Using CNAMEs with Cloud Files containers](/support/how-to/using-cnames-with-cloud-files-containers)
-- [Cloud Files delete and purge requests](/support/how-to/cloud-files-deletion-and-purge-requests)
+- [Cloud Files and CDN](/how-to/getting-started-with-cloud-files-and-cdn/)
+- [Key Concepts of Cloud Files](/how-to/cloud-files-key-concepts)
+- [Why Should I Use Cloud Files?](/how-to/why-choose-cloud-files)
+- [Best practices for using Cloud Files](/how-to/best-practices-for-using-cloud-files)
+- [Using CNAMEs with Cloud Files containers](/how-to/using-cnames-with-cloud-files-containers)
+- [Cloud Files delete and purge requests](/how-to/cloud-files-deletion-and-purge-requests)
 
 ###  Cloud Files API and developer guides
 

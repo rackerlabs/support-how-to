@@ -22,7 +22,7 @@ to most specific.
 
 For more information about rules, see the following sections and
 [Rackspace CDN edge
-rules](/support/how-to/rackspace-cdn-edge-rules).
+rules](/how-to/rackspace-cdn-edge-rules).
 
 After you create your service, you enter restriction rules in the
 **Restrictions** section of the CDN service page.
@@ -86,5 +86,5 @@ After the restriction is deleted, it is removed from the
 
 
 ### Additional resources
-- [Create and manage caching rules in Rackspace CDN](/support/how-to/create-and-manage-caching-rules-in-rackspace-cdn)
-- [Enable or disable logging in Rackspace CDN](/support/how-to/enable-or-disable-logging-in-rackspace-cdn)
+- [Create and manage caching rules in Rackspace CDN](/how-to/create-and-manage-caching-rules-in-rackspace-cdn)
+- [Enable or disable logging in Rackspace CDN](/how-to/enable-or-disable-logging-in-rackspace-cdn)

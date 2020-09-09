@@ -73,8 +73,8 @@ once.
 
 5. Select the permission type that will work best for the user.
 
-  For a list of available roles and permissions, see [Public folder permissions for Exchange](/support/how-to/public-folder-permissions-for-exchange).
+  For a list of available roles and permissions, see [Public folder permissions for Exchange](/how-to/public-folder-permissions-for-exchange).
 
 ### Where to go from here
 
-[Manage public folders in the control panel for Hosted Exchange 2007 and 2010](/support/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010)
+[Manage public folders in the control panel for Hosted Exchange 2007 and 2010](/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010)

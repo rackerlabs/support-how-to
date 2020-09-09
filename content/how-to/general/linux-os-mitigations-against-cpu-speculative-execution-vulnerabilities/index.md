@@ -53,7 +53,7 @@ Customers on managed colocation (colo) or Managed Infrastructure Rackspace Publi
 
 Further remediation might be necessary as evaluation of these vulnerabilities continues.
 
-To fully remediate against the Spectre/Meltdown variants referenced in [CVE-2017-5753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5753), [CVE-2017-5715](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5715), and [CVE-2017-5754](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5754), dedicated devices will also need a BIOS firmware update. Instructions for applying firmware updates are outlined in [Firmware/Microcode mitigations against CPU speculative execution vulnerabilities](/support/how-to/firmware-microcode-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+To fully remediate against the Spectre/Meltdown variants referenced in [CVE-2017-5753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5753), [CVE-2017-5715](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5715), and [CVE-2017-5754](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5754), dedicated devices will also need a BIOS firmware update. Instructions for applying firmware updates are outlined in [Firmware/Microcode mitigations against CPU speculative execution vulnerabilities](/how-to/firmware-microcode-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 Further remediation might be necessary as evaluation of these vulnerabilities continues.
 

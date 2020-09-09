@@ -49,7 +49,7 @@ download:
 - The username that you use to log in to the [Cloud Control
   Panel](https://login.rackspace.com)
 
-- Your [API key](/support/how-to/view-and-reset-your-api-key/)
+- Your [API key](/how-to/view-and-reset-your-api-key/)
 
 - The universally unique identifier (UUID) of the image that you want to export
 

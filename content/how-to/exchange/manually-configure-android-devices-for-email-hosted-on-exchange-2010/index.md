@@ -15,7 +15,7 @@ The following steps are required to configure Microsoft Exchange 2010 on
 most Android devices:
 
 **Note:** Before you can begin, your administrator must
-[Add an ActiveSync license](/support/how-to/add-an-activesync-or-bes-license)
+[Add an ActiveSync license](/how-to/add-an-activesync-or-bes-license)
 and assign it to your email address.
 
 1. Tap the **Settings** icon, and then tap **Accounts and Sync**.

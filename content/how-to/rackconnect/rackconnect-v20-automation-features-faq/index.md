@@ -240,7 +240,7 @@ accounts, submit a request to your Rackspace Support Team.
 
 **Note**: If automation features are disabled on your cloud account, you
 would need to manually configure the network stack on your new cloud
-servers, as described in the [RackConnect 1.0 post-upgrade FAQ](/support/how-to/rackconnect-10-post-upgrade-faq) article. You might also need to clean up any preexisting network policies that are no longer valid in an environment where automation features are disabled.
+servers, as described in the [RackConnect 1.0 post-upgrade FAQ](/how-to/rackconnect-10-post-upgrade-faq) article. You might also need to clean up any preexisting network policies that are no longer valid in an environment where automation features are disabled.
 
 #### What are periodic software firewall updates?
 
@@ -251,6 +251,6 @@ RackConnect network policies. In the event of multiple software
 firewall update failures for a cloud server, a support ticket is
 automatically generated.
 
-For Linux cloud servers only, you can create iptables rules that are not overwritten by these periodic software firewall updates; for details about how to accomplish this, see [Prevent RackConnect from overwriting custom iptables rules on Linux cloud servers](/support/how-to/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers).
+For Linux cloud servers only, you can create iptables rules that are not overwritten by these periodic software firewall updates; for details about how to accomplish this, see [Prevent RackConnect from overwriting custom iptables rules on Linux cloud servers](/how-to/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers).
 
-Software firewall modifications should only be made via the network policies section of the MyRackspace Portal. For more information, see [Managing RackConnect v2.0 network policies](/support/how-to/managing-rackconnect-v20-network-policies).
+Software firewall modifications should only be made via the network policies section of the MyRackspace Portal. For more information, see [Managing RackConnect v2.0 network policies](/how-to/managing-rackconnect-v20-network-policies).

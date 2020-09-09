@@ -15,7 +15,7 @@ This article describes the process of migrating an existing First Generation
 (First Gen) Cloud Server to a Next Generation (Next Gen) Cloud Server with
 little to no downtime by using Cloud Load Balancers and Cloud Server Images. To learn
 more about the Next Generation Cloud Servers platform and the migration process,
-see [Next-Generation Cloud Servers migration considerations and options](/support/how-to/next-generation-cloud-servers-migration-considerations-and-options).
+see [Next-Generation Cloud Servers migration considerations and options](/how-to/next-generation-cloud-servers-migration-considerations-and-options).
 
 **Note:** This article assumes that you host your Cloud Servers and Domain Name
 Servers (DNS) with Rackspace. However, if you host DNS elsewhere, you need to
@@ -81,7 +81,7 @@ You can use this image to create a Next Gen server.
 resize down to a 1 GB flavor before taking the image. When you create the new
 Next Gen server from the image, you can choose any flavor that allows you to
 boot the server from a volume, as described in the
-[Boot a server from a Cloud Block Storage volume](/support/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
+[Boot a server from a Cloud Block Storage volume](/how-to/boot-a-server-from-a-cloud-block-storage-volume) article.
 
 1. On the **Cloud Servers** page of the [Cloud Control Panel](https://login.rackspace.com),
 click the gear icon next to the First Gen server that you are imaging and select
@@ -139,7 +139,7 @@ previously from the load balancer:
 At this time, you can delete the load balancer, but you must update the DNS.
 Optionally, you can keep the load balancer and add a second copy of the server
 behind it to increase your availability. For more information, see
-[Tiered configuration using Cloud Load Balancers](/support/how-to/tiered-configuration-using-cloud-load-balancers/).
+[Tiered configuration using Cloud Load Balancers](/how-to/tiered-configuration-using-cloud-load-balancers/).
 
 ### Optional synchronization tools
 

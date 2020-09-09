@@ -114,11 +114,11 @@ Panel](https://login.rackspace.com/) on the Rackspace Intelligence
 
 For more information, see the following articles:
 
-- [Getting Started with Rackspace Intelligence for the cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud)
+- [Getting Started with Rackspace Intelligence for the cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud)
 
-- [Monitor entities with Rackspace Intelligence](/support/how-to/monitoring-entities-with-rackspace-intelligence)
+- [Monitor entities with Rackspace Intelligence](/how-to/monitoring-entities-with-rackspace-intelligence)
 
-- [Working with checks](/support/how-to/working-with-checks)
+- [Working with checks](/how-to/working-with-checks)
 
 The following screenshot shows where you can locate the entity ID on
 the **Monitoring Details** page:
@@ -162,7 +162,7 @@ complete the following steps:
 
 Annotation support enables you to submit change events to show along with the
 graph. Taking this step adds information to the graph on the dashboard. For
-more information, see [Use annotation metrics](/support/how-to/use-annotation-metrics).
+more information, see [Use annotation metrics](/how-to/use-annotation-metrics).
 
 ### Grafana FAQ
 
@@ -197,4 +197,4 @@ Rackspace Intelligence and Grafana use the same metrics that are stored in
 the Rackspace Metrics service. As a result, you can try both services and
 choose the one that works well for you. For more information,
 see [Getting started with Rackspace Intelligence for the
-cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud).
+cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud).

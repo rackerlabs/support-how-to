@@ -66,7 +66,7 @@ functionalities, the workarounds are described below.
     not completed. To address this functionality, you can include Swift
     Signal resources such as OS Heat SwiftSignal and OS Heat SwiftSignalHandle
     to indicate whether the user data script has completed. For detailed
-    documentation about using Swift Signal resources, see [Use Swift Signal resources with Cloud Orchestration user data scripts](/support/how-to/using-swift-signal-resources-to-determine-status-for-cloud-orchestration-user-data-scripts).
+    documentation about using Swift Signal resources, see [Use Swift Signal resources with Cloud Orchestration user data scripts](/how-to/using-swift-signal-resources-to-determine-status-for-cloud-orchestration-user-data-scripts).
 
 2.  If user data script execution had a failure, the server create would
     show as failed.
@@ -77,7 +77,7 @@ functionalities, the workarounds are described below.
     succeeded. To address this functionality, you can include Swift
     Signal resources such as OS Heat SwiftSignal and OS Heat SwiftSignalHandle
     to indicate whether the user data scripts succeed or failed. For detailed
-    documentation about using Swift Signal resources, see [Use Swift Signal resources with Cloud Orchestration user data scripts](/support/how-to/using-swift-signal-resources-to-determine-status-for-cloud-orchestration-user-data-scripts).
+    documentation about using Swift Signal resources, see [Use Swift Signal resources with Cloud Orchestration user data scripts](/how-to/using-swift-signal-resources-to-determine-status-for-cloud-orchestration-user-data-scripts).
 
 3.  The pre-assigned server admin password could be retrieved without
     any additional instrumentation.

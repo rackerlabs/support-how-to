@@ -38,4 +38,4 @@ each location, which offers the following advantages:
    automatically start going to the next best location.
 
 **Next steps:** [Rackspace Cloud DNS - Available
-Features](/support/how-to/rackspace-cloud-dns-available-features)
+Features](/how-to/rackspace-cloud-dns-available-features)

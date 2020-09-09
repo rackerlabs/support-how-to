@@ -68,7 +68,7 @@ steps:
    plug-in for WordPress. For detailed instructions, see [Quick Tip: How to
    Utilize Akamai CDN with Your WordPress Site](https://code.tutsplus.com/articles/quick-tip-how-to-utilize-akamai-cdn-with-your-wordpress-site--wp-23403).
 2. [Upload the content to the Cloud Files
-   container](/support/how-to/getting-started-with-cloud-files-and-cdn/) that is
+   container](/how-to/getting-started-with-cloud-files-and-cdn/) that is
    published to the CDN by using the [Cloud Control
    Panel](https://login.rackspace.com).
 3. Ensure that you have marked your Cloud Files container for publishing to

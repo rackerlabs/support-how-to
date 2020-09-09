@@ -61,4 +61,4 @@ Release claim | `DELETE /{version}/{project_id}/queues/{queue_name}/claims/{clai
 
 ### Related Article
 
-[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac/)
+[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac/)

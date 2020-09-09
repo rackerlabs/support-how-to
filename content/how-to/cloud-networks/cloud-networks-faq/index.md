@@ -26,7 +26,7 @@ The Rackspace Cloud contains the following networks:
     You can create a server without a public network; however, access to operating
     system updates, Cloud Monitoring remote checks, and so on might not work.
     For more information about the limitations of not having a public network,
-    see [Removing Networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server).
+    see [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server).
 
     **Note**: PublicNet is required for RackConnect and Managed Operations service level customers.
 
@@ -41,7 +41,7 @@ The Rackspace Cloud contains the following networks:
     We recommend that cloud servers be connected to ServiceNet and that all new
     connections inbound to the server be denied by a software firewall such as
     iptables or Windows Firewall. For more information, see
-    [Removing Networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server).
+    [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server).
 
     **Note**: ServiceNet is required for RackConnect and Managed Operations
     service level customers.

@@ -99,7 +99,7 @@ to create other servers. To begin, SSH into it and run the following commands:
     export RACKSPACE_ENDPOINT=https://dfw.servers.api.rackspacecloud.com/v2
     curl -L https://raw.github.com/sacharya/random-scripts/master/knife-rackspace-hadoop/chef-knife-install.sh | bash
 
-Note: for information about how to find your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
+Note: for information about how to find your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
 
 This installs the Chef server, installs knife-rackspace plugin, uploads the
 chef hdp-cookbooks, and configures them to talk to Rackspace Cloud using

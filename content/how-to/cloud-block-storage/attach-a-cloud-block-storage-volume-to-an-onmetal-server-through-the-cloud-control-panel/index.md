@@ -115,13 +115,13 @@ You must use a command-line interface (CLI) to complete steps 5 - 12.
         sdd      8:48   0     2G  0 disk
 
 Now you can use the device just like other cloud servers. For more
-information, see [Prepare your Cloud Block Storage volume](/support/how-to/prepare-your-cloud-block-storage-volume).
+information, see [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume).
 
 ### Detach a volume
 
 If you want detach a volume from an OnMetal server, ensure that the
 volume is [fully
-unmounted](/support/how-to/detach-and-delete-cloud-block-storage-volumes)
+unmounted](/how-to/detach-and-delete-cloud-block-storage-volumes)
 from within the OnMetal server before completing the following steps.
 
 1. Under the Storage tab, choose Block Storage Volumes.

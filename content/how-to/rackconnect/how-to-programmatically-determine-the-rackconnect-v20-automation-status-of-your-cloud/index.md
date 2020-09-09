@@ -22,7 +22,7 @@ You can use the RackConnect API to query RackConnect Automation status
 from any of your cloud servers. You can also use it to query the
 RackConnect Gateway IP, automation status, automation status details,
 and automation features. If you want to use the
-RackConnect API, see [RackConnect v2.0 API](/support/how-to/the-rackconnect-v20-api) for more details.
+RackConnect API, see [RackConnect v2.0 API](/how-to/the-rackconnect-v20-api) for more details.
 
 ### Using the Cloud Servers API to query the metadata of your cloud servers
 

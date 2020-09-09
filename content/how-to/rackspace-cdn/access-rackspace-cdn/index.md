@@ -24,5 +24,5 @@ Rackspace CDN API. For instructions, see the [API Developer Guide](https://docs.
 
 ### Additional resources
 
-- [Differences between Rackspace CDN and Rackspace Cloud Files](/support/how-to/differences-between-rackspace-cdn-and-rackspace-cloud-files)
-- [Create a Rackspace CDN service](/support/how-to/create-a-rackspace-cdn-service)
+- [Differences between Rackspace CDN and Rackspace Cloud Files](/how-to/differences-between-rackspace-cdn-and-rackspace-cloud-files)
+- [Create a Rackspace CDN service](/how-to/create-a-rackspace-cdn-service)

@@ -19,7 +19,7 @@ devices. This article describes the differences between the IMAP and POP
 mail protocols.
 
 For Rackspace Email settings for both IMAP and POP, see [Rackspace Email
-and Hosted Exchange settings](/support/how-to/rackspace-email-and-hosted-exchange-settings).
+and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings).
 
 ### IMAP
 
@@ -82,7 +82,7 @@ server. Following are some features of POP:
 When you check your email by using Mobile Sync, you are accessing and
 managing your email directly from the email server. Following are some features of Mobile Sync:
 
-**Note**: This service is only available to Rackspace Email Plus users. See [Getting started with Rackspace Email Plus](/support/how-to/rackspace-email-plus-getting-started) for details.
+**Note**: This service is only available to Rackspace Email Plus users. See [Getting started with Rackspace Email Plus](/how-to/rackspace-email-plus-getting-started) for details.
 
 -   **Access**: Because emails are stored on the email server, you can
     access and manage your email and email folders from multiple

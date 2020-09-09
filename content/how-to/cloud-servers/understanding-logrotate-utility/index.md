@@ -277,4 +277,4 @@ This article provides an overview of what logrotate does and what kind of
 configuration options are available to you. You should now be able to explore
 the existing configurations and adapt them to your needs. To learn how to
 create an example configuration (to rotate the logs for custom virtual hosts),
-see [Sample logrotate configurations and troubleshooting](/support/how-to/sample-logrotate-configuration-and-troubleshooting).
+see [Sample logrotate configurations and troubleshooting](/how-to/sample-logrotate-configuration-and-troubleshooting).

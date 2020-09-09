@@ -30,7 +30,7 @@ remote host's address so that you don't have to enter it on the command line.
 
 If you want to import this data to another database, see
 [Import data into Cloud
-Databases](/support/how-to/importing-data-into-cloud-databases).
+Databases](/how-to/importing-data-into-cloud-databases).
 
 ### External links
 

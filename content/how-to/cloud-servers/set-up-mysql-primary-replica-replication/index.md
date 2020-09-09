@@ -17,7 +17,7 @@ Primary/replica data replication enables you to copy replicated data to
 multiple computers for backup and analysis by multiple parties. You should submit
 necessary changes identified by a group member to the
 designated primary of the node. This differs from [Primary-Primary
-replication](/support/how-to/mysql-master-master-replication),
+replication](/how-to/mysql-master-master-replication),
 in which any authorized contributor of the group can update data.
 
 This article provides steps for setting up MySQL&reg; primary-replica database

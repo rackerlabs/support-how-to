@@ -192,7 +192,7 @@ valid. Create a new server instance from an image to ensure that the image is va
 restore a file from Cloud Backups to verify that the data backed up is
 restored.
 
-**Note**: Not all servers can benefit from Cloud Images. Specifically, you cannot image servers that use *Boot from Volume* configurations. Additionally, while a server image can be useful, images should never be considered the only source of backup because the image process does not verify the file integrity. Rackspace strongly recommends file-level backups for your most important data. Thus, you should consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
+**Note**: Not all servers can benefit from Cloud Images. Specifically, you cannot image servers that use *Boot from Volume* configurations. Additionally, while a server image can be useful, images should never be considered the only source of backup because the image process does not verify the file integrity. Rackspace strongly recommends file-level backups for your most important data. Thus, you should consider the best solution for disaster recovery for your business. You can review the differences between Server Images and Cloud Backup in this article: [Rackspace Cloud Backup vs. Cloud Server Image Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
 
 ### Code
 

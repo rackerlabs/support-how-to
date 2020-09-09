@@ -30,7 +30,7 @@ on your internal DNS.
 
 We highly recommend that you perform this step because all of the Hosted
 Skype for Business features work only if DNS is correctly configured. For
-instructions, see [Set up Cloud Office Skype for Business DNS records](/support/how-to/set-up-dns-records-for-cloud-office-skype-for-business/).
+instructions, see [Set up Cloud Office Skype for Business DNS records](/how-to/set-up-dns-records-for-cloud-office-skype-for-business/).
 
 **Note:** If you are a Rackspace Hosted Exchange customer, these
 settings are in addition to what you might currently have for Hosted
@@ -55,7 +55,7 @@ download a basic version for free.
 See the following resources for additional information:
 
 -   [Skype for Business
-    client download](/support/how-to/download-a-skype-for-business-client)
+    client download](/how-to/download-a-skype-for-business-client)
 
 -   [Skype for Business client setup tool](https://emailhelp.rackspace.com/) - (Log in
     to set up Skype for Business on your devices.)

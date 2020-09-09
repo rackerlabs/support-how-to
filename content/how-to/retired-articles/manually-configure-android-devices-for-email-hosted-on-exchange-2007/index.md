@@ -13,7 +13,7 @@ The following steps are required to configure Microsoft Exchange 2007 on
 most Android devices:
 
 **Note:** Before you can begin, your administrator must
-[Add an ActiveSync license](/support/how-to/add-an-activesync-or-bes-license)
+[Add an ActiveSync license](/how-to/add-an-activesync-or-bes-license)
 and assign it to your email address.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/usercp).

@@ -74,12 +74,12 @@ they point to Rackspace's servers.
 ready to send traffic to Rackspace.
 
 To learn how to perform this step, see [Find your DNS
-host](/support/how-to/find-dns-host/).
+host](/how-to/find-dns-host/).
 
 #### Configure Rackspace Cloud DNS
 
 If you are using Rackspace Cloud DNS as your DNS hosting provider, you must
-complete the steps in [Transfer your DNS hosting to Rackspace](/support/how-to/transferring-your-dns-hosting-to-rackspace/).
+complete the steps in [Transfer your DNS hosting to Rackspace](/how-to/transferring-your-dns-hosting-to-rackspace/).
 
 #### Wait for the changes to propagate
 

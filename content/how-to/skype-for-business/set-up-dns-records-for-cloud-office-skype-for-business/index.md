@@ -13,7 +13,7 @@ product_url: skype-for-business
 
 This article describes how to set up DNS for the Skype for Business offering from
 Rackspace Cloud Office. If you need to configure your DNS for Rackspace Cloud
-Office email products, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email).
+Office email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ Office email products, see [Set up DNS records for Cloud Office email](/support/
 - **Time needed:** Approximately 30 minutes to configure and an additional 24-48 hours to propagate
 - **Tools required:** DNS host administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Set up DNS records for Skype for Business
 
@@ -113,4 +113,4 @@ Rackspace, contact our Support team to learn more.
 
 ### Related article
 
-[Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email)
+[Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email)

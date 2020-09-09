@@ -51,4 +51,4 @@ implementation.
 ### Related Information
 
 [Connecting to Your Cloud
-Database](/support/how-to/connect-to-a-cloud-databases-instance "Connecting to Your Cloud Database")
+Database](/how-to/connect-to-a-cloud-databases-instance "Connecting to Your Cloud Database")

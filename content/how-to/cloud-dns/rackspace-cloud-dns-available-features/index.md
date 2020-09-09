@@ -11,7 +11,7 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-**Previous section:** [Rackspace Cloud DNS - Overview](/support/how-to/rackspace-cloud-dns-overview)
+**Previous section:** [Rackspace Cloud DNS - Overview](/how-to/rackspace-cloud-dns-overview)
 
 Rackspace Cloud DNS automates and simplifies your domain name system
 management and offers many of the features you need, including the following capabilities:
@@ -43,4 +43,4 @@ sub-domains, and records by using the RESTful API. Additionally, advanced
 operations are available that allow you to easily manage mail servers and
 zone delegation, as well as create SPF records.
 
-**Next steps:** [Rackspace Cloud DNS technical details](/support/how-to/rackspace-cloud-dns-technical-details)
+**Next steps:** [Rackspace Cloud DNS technical details](/how-to/rackspace-cloud-dns-technical-details)

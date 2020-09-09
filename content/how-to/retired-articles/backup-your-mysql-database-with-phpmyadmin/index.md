@@ -11,7 +11,7 @@ last_modified_by: Kyle Laffoon
 
 ### Backing Up Your MySQL Database
 
-1. Log in to the [online manager (phpMyAdmin)](/support/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
+1. Log in to the [online manager (phpMyAdmin)](/how-to/rackspace-cloud-sites-essentials-phpmyadmin-database-management-interface).
 
 2. To view information, click on a database or table in the left frame.
 

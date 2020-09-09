@@ -17,7 +17,7 @@ not. They are especially useful for handling big data.
 ### Prerequisite
 
 For an introduction to relational databases and NoSQL databases, see [Types of
-databases](/support/how-to/types-of-databases).
+databases](/how-to/types-of-databases).
 
 ### Understanding when a NoSQL database might be preferable
 
@@ -51,4 +51,4 @@ You might choose a NoSQL database for the following reasons:
 
 ### Next step
 
-[Examples of RDBMS and NoSQL databases](/support/how-to/examples-of-rdbms-and-nosql-databases/)
+[Examples of RDBMS and NoSQL databases](/how-to/examples-of-rdbms-and-nosql-databases/)

@@ -13,5 +13,5 @@ You can use the Cloud Office Control Panel to upgrade any Cloud Office service s
 
 The following articles provide instructions for upgrading your Email Hosting and SharePoint applications:
 
--   [Upgrade email hosting in the Cloud Office Control Panel](/support/how-to/upgrade-email-hosting-cloud-office-control-panel)
--   [Upgrade SharePoint site storage in the Cloud Office Control Panel](/support/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel)
+-   [Upgrade email hosting in the Cloud Office Control Panel](/how-to/upgrade-email-hosting-cloud-office-control-panel)
+-   [Upgrade SharePoint site storage in the Cloud Office Control Panel](/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel)

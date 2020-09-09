@@ -20,13 +20,13 @@ Here are some resources to get you started with Rackspace Monitoring.
 
 ###  Rackspace Monitoring Resources
 
-- [How-Tos and Other Resources](/support/how-to/rackspace-monitoring-how-tos-and-other-resources)
-- [Control Panel Monitoring: What do the Options do?](/support/how-to/available-checks-for-rackspace-monitoring)
-- [Rackspace Monitoring Checks and Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms)
-- [Monitoring on the Go with Mobile App](/support/how-to/introducing-rackspace-monitoring-on-mobile-devices)
+- [How-Tos and Other Resources](/how-to/rackspace-monitoring-how-tos-and-other-resources)
+- [Control Panel Monitoring: What do the Options do?](/how-to/available-checks-for-rackspace-monitoring)
+- [Rackspace Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms)
+- [Monitoring on the Go with Mobile App](/how-to/introducing-rackspace-monitoring-on-mobile-devices)
 
 ###  Rackspace Monitoring API
 
 - [Getting Started with the Rackspace Monitoring API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/)
 - [Rackspace Monitoring API Documentation](https://docs.rackspace.com/docs/rackspace-monitoring/v1/)
-- [Getting Started with Rackspace Monitoring CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli)
+- [Getting Started with Rackspace Monitoring CLI](/how-to/getting-started-with-rackspace-monitoring-cli)

@@ -68,4 +68,4 @@ Guide](https://docs.rackspace.com/docs/cloud-feeds/v1/developer-guide/#document-
 
 ### Getting help and providing feedback
 
-If you have questions about Cloud Feeds, see the [Cloud Feeds FAQ](/support/how-to/cloud-feeds-faq).
+If you have questions about Cloud Feeds, see the [Cloud Feeds FAQ](/how-to/cloud-feeds-faq).

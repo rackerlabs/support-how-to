@@ -20,7 +20,7 @@ This article describes how to monitor and adjust user storage from the Cloud Off
 - **Time needed:** At least 15 minutes for any changes made to storage
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Check and adjust mailbox storage
 
@@ -47,13 +47,13 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    Allow at least 15 minutes for the storage quota to be increased.
 
-**Warning:** Most [mail clients](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology) have maximum storage limits. For example, Outlook 2016 allows a maximum of 50 GB of mail storage. If your Exchange mailbox size exceeds your mail client limit you will experience mail synchronization issues with your mail client.
+**Warning:** Most [mail clients](/how-to/cloud-office-support-terminology/#cloud-office-terminology) have maximum storage limits. For example, Outlook 2016 allows a maximum of 50 GB of mail storage. If your Exchange mailbox size exceeds your mail client limit you will experience mail synchronization issues with your mail client.
 
 ### Recommendations for users nearing their storage capacity
 
 Check mailbox usage regularly to determine which users are nearing capacity. Following are some recommendations for users nearing their storage capacity:
 
-- Notify users about their capacity and advise them to archive items to free up mailbox storage. Rackspace Email Archiving ensures that email traffic to and from your domain is archived. For more information, see [Enable email archiving: Cloud Office Control Panel](/support/how-to/enable-email-archiving-cloud-office-control-panel/).
+- Notify users about their capacity and advise them to archive items to free up mailbox storage. Rackspace Email Archiving ensures that email traffic to and from your domain is archived. For more information, see [Enable email archiving: Cloud Office Control Panel](/how-to/enable-email-archiving-cloud-office-control-panel/).
 - Deleting emails frees up mailbox storage. However if a user deletes an excessive number of emails at once, it takes longer to process the deletion. Allow ample time for that deletion to be reflected in the storage quota.
 - Email in the **Deleted Items** folder counts toward the storage quota of the mailbox. To ensure that a deleted message does *not* count toward your mailbox storage, delete the message from the **Deleted Items** folder.
 
@@ -63,7 +63,7 @@ Check mailbox usage regularly to determine which users are nearing capacity. Fol
 
 ### Mailbox storage best practices
 
-- Enable [**Rackspace Cloud Office Archiving**](/support/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains. 
+- Enable [**Rackspace Cloud Office Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains. 
 - Never store more than 10,000 items in one folder.
 - Consider removing items from your **Spam** and **Deleted Items** folders.
 - Do not exceed more than three levels of folders. For example:
@@ -76,4 +76,4 @@ Check mailbox usage regularly to determine which users are nearing capacity. Fol
 
                 - Not a best-practice folder
 
-- If you archive or delete messages on your [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology) log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that those changes are reflected in Outlook Web Access.
+- If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that those changes are reflected in Outlook Web Access.

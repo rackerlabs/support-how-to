@@ -62,9 +62,9 @@ Follow these steps to view your invoice:
 
 Invoices are available as a summarized PDF, a more detailed
 comma-separated-values (CSV) file, and a [detailed HTML
-view](/support/how-to/detailed-invoices-overview/).
+view](/how-to/detailed-invoices-overview/).
 We also provide [pivot tables in downloadable
-spreadsheets](/support/how-to/use-pivot-tables-with-your-cloud-billing-invoice)
+spreadsheets](/how-to/use-pivot-tables-with-your-cloud-billing-invoice)
 to help you organize your billing information.
 
 #### How do I view current service usage?

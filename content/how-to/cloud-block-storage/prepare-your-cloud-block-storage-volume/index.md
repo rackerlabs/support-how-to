@@ -12,9 +12,9 @@ product_url: cloud-block-storage
 ---
 
 **Previous section:** [Create and attach a Cloud Block Storage
-volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
+volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
 
-After you have [created and attached](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
+After you have [created and attached](/how-to/create-and-attach-a-cloud-block-storage-volume)
 your Cloud Block Storage volume, you must prepare it for use on your
 server. To prepare your volume, you must partition, format, and mount
 it.  After you have successfully completed these steps, your volume is
@@ -51,7 +51,7 @@ click the gear icon next to the server name, and select **Change Password**.
     Your volume is typically listed as the last drive in this list. In
     the following example, the 100 GB volume that was created in the
     [Create and Attach a Cloud Block Storage
-    Volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
+    Volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
     article is attached to /dev/xvdb. (It is shown as 107.4 GB because
     of the way that megabytes are counted.)
 
@@ -316,4 +316,4 @@ Windows terminology, is required before running this wizard.
 
    Your volume is now ready for use.
 
-**Next steps**: [Create and use Cloud Block Storage snapshots](/support/how-to/create-and-use-cloud-block-storage-snapshots)
+**Next steps**: [Create and use Cloud Block Storage snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)

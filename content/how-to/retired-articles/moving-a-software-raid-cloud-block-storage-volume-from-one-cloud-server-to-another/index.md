@@ -18,7 +18,7 @@ task when you need to build to a larger General Purpose server.
 ### Prerequisites
 
 Before you can perform this task, you must have a software RAID volume.
-For information about creating a RAID volume, see [Configure a software RAID on a Linux General Purpose Cloud server](/support/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server).
+For information about creating a RAID volume, see [Configure a software RAID on a Linux General Purpose Cloud server](/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server).
 
 ### Detach the RAID volume
 

@@ -165,7 +165,7 @@ to your cloud-based services.
 To authenticate you need to query the Identity API. Version 1.1 of
 the Identity API service is used in the following example. To query the
 service, you need your Rackspace Cloud account username and API key.
-Instructions for locating these credentials are documented in [View and Reset your API Key](/support/how-to/view-and-reset-your-api-key).
+Instructions for locating these credentials are documented in [View and Reset your API Key](/how-to/view-and-reset-your-api-key).
 
 Authenticating requires sending a POST request to the Identity service
 with a document that contains your Cloud credentials. You can submit XML

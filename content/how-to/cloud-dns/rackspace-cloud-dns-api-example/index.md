@@ -11,7 +11,7 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-**Previous section:** [Rackspace Cloud DNS - Technical details](/support/how-to/rackspace-cloud-dns-technical-details)
+**Previous section:** [Rackspace Cloud DNS - Technical details](/how-to/rackspace-cloud-dns-technical-details)
 
 This article shows a simple example using the API.
 
@@ -74,4 +74,4 @@ precedence.
         </recordsList>
     </domain>
 
-**Next steps:** [Rackspace Cloud DNS - Additional resources](/support/how-to/rackspace-cloud-dns-additional-resources)
+**Next steps:** [Rackspace Cloud DNS - Additional resources](/how-to/rackspace-cloud-dns-additional-resources)

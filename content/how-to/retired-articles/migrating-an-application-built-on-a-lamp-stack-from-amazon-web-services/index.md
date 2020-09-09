@@ -9,7 +9,7 @@ last_modified_date: '2016-01-14'
 last_modified_by: Stephanie Fillmon
 ---
 
-**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 This article describes the migration of WordPress or other LAMP stack
 (Linux, Apache, MySQL, PHP) applications from Amazon Web Services (AWS)
@@ -35,12 +35,12 @@ the following figure:
 -   Create a list of all additional Amazon services that are being used
     in the application - for example, Simple Email Service (SES) for email
     or Relational Database Service (RDS) for databases.
--   If you have not already, [create a Cloud Server instance](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+-   If you have not already, [create a Cloud Server instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
     and any supporting Rackspace Cloud services.
 
 ### Install software packages
 
-After your [cloud server is set up](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services),
+After your [cloud server is set up](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services),
 install your LAMP stack and application. In this scenario, WordPress is
 the target application.
 
@@ -159,10 +159,10 @@ typing `https://<cloudServerIPAddress>/wp-admin`.
 
 ### Next step
 
-[Post-migration considerations when migrating from Amazon Web Services](/support/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
+[Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
--   [Migrate a .NET application from Amazon Web Services](/support/how-to/migrating-a-net-application-from-amazon-web-services)
--   [Migratie a Java web application from Amazon Web Services](/support/how-to/migrating-a-java-web-application-from-amazon-web-services)
--   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/support/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+-   [Migrate a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
+-   [Migratie a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+-   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)

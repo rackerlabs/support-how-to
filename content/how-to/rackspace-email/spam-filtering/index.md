@@ -24,7 +24,7 @@ This article describes the spam filtering system used in Rackspace Cloud Office.
 
 **Applies to:** Administrators
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Blocked Email
 
@@ -65,15 +65,15 @@ the Rackspace Cloud Office environment. Spam definitions change rapidly, but
 you can follow certain practices to prevent your message from becoming spam:
 
 - When sending transactional, promotional, or marketing emails, see
-  [Best practices for sending emails to many recipients](/support/how-to/best-practices-for-sending-emails-to-many-recipients/).
+  [Best practices for sending emails to many recipients](/how-to/best-practices-for-sending-emails-to-many-recipients/).
 
 - If your personal emails to friends and business partners are flagged as
-  spam, see [Best practices for sending person to person email](/support/how-to/best-practices-for-sending-person-to-person-email/).
+  spam, see [Best practices for sending person to person email](/how-to/best-practices-for-sending-person-to-person-email/).
 
 - Ask your frequent recipients to add your domain to their safelist or
   whitelist to ensure your messages are delivered to their inboxes.
   For more information, see
-  [Manage Safelists at Rackspace Cloud Office](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
+  [Manage Safelists at Rackspace Cloud Office](/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
 
 **Note:** Outbound messages are likely scanned by the recipient's mail provider. Each provider has its own policies for flagging and filtering spam.
 
@@ -86,10 +86,10 @@ When a legitimate message is flagged as spam, follow these recommendations:
   long-term solution.
 
 - Advise the sender that they are being flagged as spam and provide them with
-  [Best practices for sending person to person email](/support/how-to/best-practices-for-sending-person-to-person-email/).
+  [Best practices for sending person to person email](/how-to/best-practices-for-sending-person-to-person-email/).
 
 - Add the sender to your safelist. For more information, see
-  [Manage Safelists at Rackspace Cloud Office](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
+  [Manage Safelists at Rackspace Cloud Office](/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
 
    **Note:** Using a safelist ensures that the messages from the sender are delivered to your inbox, but it does not remove a spam flag from a message.
 

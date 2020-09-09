@@ -30,7 +30,7 @@ user for your account:
    screen.
 3. Fill out the form and click **Create User**.  For information about access
     controls for new users, see
-    [Learn about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
+    [Learn about Role-Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
 The system automatically sends an email invitation to the user.  This invitation
 expires in 48 hours.

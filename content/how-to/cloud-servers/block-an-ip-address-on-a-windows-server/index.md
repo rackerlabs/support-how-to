@@ -66,10 +66,10 @@ If you need to modify the scope of IP addresses for the rule, right-click the ru
 
 ### Related articles
 
-- [Manage the Windows Server 2012 Firewall](/support/how-to/managing-the-windows-server-2012-firewall/)
+- [Manage the Windows Server 2012 Firewall](/how-to/managing-the-windows-server-2012-firewall/)
 
-- [Windows Server Security Best Practices](/support/how-to/windows-server-security-best-practices/)
+- [Windows Server Security Best Practices](/how-to/windows-server-security-best-practices/)
 
-- [Best Practices for Firewall Rules Configuration](/support/how-to/best-practices-for-firewall-rules-configuration/)
+- [Best Practices for Firewall Rules Configuration](/how-to/best-practices-for-firewall-rules-configuration/)
 
-- [Using Security Groups](/support/how-to/using-security-groups/)
+- [Using Security Groups](/how-to/using-security-groups/)

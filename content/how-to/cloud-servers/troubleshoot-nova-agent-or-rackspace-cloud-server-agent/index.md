@@ -131,7 +131,7 @@ As noted above, the `nova-agent` is responsible for managing password changes. I
 after changing the password, the `nova-agent` service might have stopped.
 
 If you can't access your server, you need to enter Rescue Mode and troubleshoot. See 
-[Rescue Mode](/support/how-to/rescue-mode/) for more information.
+[Rescue Mode](/how-to/rescue-mode/) for more information.
 
 ### Rescue Mode on a Linux Server  
 

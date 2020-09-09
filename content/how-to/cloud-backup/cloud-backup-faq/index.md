@@ -78,7 +78,7 @@ Cloud Backup has the following key features:
 -   Create unlimited backups.
 
 For information on getting started with Cloud Backup, see our [introduction to
-Cloud Backup](/support/how-to/cloud-backup).
+Cloud Backup](/how-to/cloud-backup).
 {{< /accordion >}}
 
 {{< accordion title="Why do I have to keep offsite copies of containers on non-Rackspace media?" col="in" href="accordion4" >}}
@@ -114,7 +114,7 @@ Rackspace does not store customer encryption keys. Only you know
 and can access your encryption passphrase. If you forget your
 passphrase, you are not able to restore data from your backups.
 
-For more information, see the section on [Setting up encryption on your Cloud Backup system](/support/how-to/rackspace-cloud-backup-system-actions)
+For more information, see the section on [Setting up encryption on your Cloud Backup system](/how-to/rackspace-cloud-backup-system-actions)
 in the list of Cloud Backup actions.
 {{< /accordion >}}
 
@@ -122,7 +122,7 @@ in the list of Cloud Backup actions.
 
 If you want to create your own encrypted key and bypass the default
 client-side encryption, see [Generate your encrypted key in Cloud
-Backup](/support/how-to/generate-your-encrypted-key-in-cloud-backup).
+Backup](/how-to/generate-your-encrypted-key-in-cloud-backup).
 {{< /accordion >}}
 
 {{< accordion title="Where are my Cloud Backups stored?" col="in" href="accordion8" >}}
@@ -142,7 +142,7 @@ account until you begin storing things in it.
 You can create any number of backup jobs for each of your servers, and
 you can include a nearly unlimited number of files in each job.
 
-For more information, see [Creating a Backup](/support/how-to/rackspace-cloud-backup-create-a-backup).
+For more information, see [Creating a Backup](/how-to/rackspace-cloud-backup-create-a-backup).
 {{< /accordion >}}
 
 {{< accordion title="What is deduplication?" col="in" href="accordion11" >}}
@@ -156,7 +156,7 @@ data. An added benefit is that this capability enables you to retrieve
 previous versions of your files (up to the limits specified in your data
 retention settings).
 
-See the section on [Scheduling and Deduplication](/support/how-to/rackspace-cloud-backup-backup-actions)
+See the section on [Scheduling and Deduplication](/how-to/rackspace-cloud-backup-backup-actions)
 in the list of Cloud Backup actions.
 {{< /accordion >}}
 
@@ -174,10 +174,10 @@ running on your cloud server. Cloud servers with a Managed Operations service
 level should have this additional piece of software installed by default. If it
 is not installed, contact your Account Representative to get started. If you
 have an infrastructure-only account, you must manually install the agent by
-following these instructions for [Linux&reg;](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
-or [Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
+following these instructions for [Linux&reg;](/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
+or [Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
-For more information, see the [Rackspace Cloud Backup introduction](/support/how-to/cloud-backup).
+For more information, see the [Rackspace Cloud Backup introduction](/how-to/cloud-backup).
 {{< /accordion >}}
 
 {{< accordion title="How long are my Cloud Backups kept?" col="in" href="accordion13" >}}
@@ -185,7 +185,7 @@ For more information, see the [Rackspace Cloud Backup introduction](/support/how
 You choose how long your backups are saved: 30 days, 60 days, or
 indefinitely.
 
-See the section on [Retaining your Backup](/support/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
+See the section on [Retaining your Backup](/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
 {{< /accordion >}}
 
 {{< accordion title="How do I configure my cloud backups?" col="in" href="accordion14" >}}
@@ -198,13 +198,13 @@ select **Backups**.
 If you need to create a new backup, click the **System** that you want to
 back up, and then click **Create Backup**. If you already have a backup and
 want to reconfigure it, click the gear icon next to the backup name and
-select **Configure Backup**. See [Configuring a Backup through Backup Actions](/support/how-to/rackspace-cloud-backup-backup-actions)
+select **Configure Backup**. See [Configuring a Backup through Backup Actions](/how-to/rackspace-cloud-backup-backup-actions)
 for more information.
 
 You can set backups to run hourly, daily, weekly, or on-demand
 (manually).
 
-Read more about [Scheduling your Backup](/support/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
+Read more about [Scheduling your Backup](/how-to/rackspace-cloud-backup-backup-actions) in the list of Cloud Backup actions.
 {{< /accordion >}}
 
 {{< accordion title="Are 32-bit servers and agents on Linux supported?" col="in" href="accordion15" >}}
@@ -266,7 +266,7 @@ their data is meant to be discarded.
 If you do need to back up these files, we suggest the following workarounds:
 
 -   **For databases**: Take a snapshot of the database (a
-    database dump) and back up the dump. See [Rackspace Cloud Backup - Backing up Databases](/support/how-to/rackspace-cloud-backup-backing-up-databases)
+    database dump) and back up the dump. See [Rackspace Cloud Backup - Backing up Databases](/how-to/rackspace-cloud-backup-backing-up-databases)
     for full instructions.
 -   **For log files**: Take snapshots of your log files and back them up. To
     avoid running out of disk space, rotate your log files periodically.
@@ -281,5 +281,5 @@ our API server on port 443.
 {{< accordion title="Can Cloud Backup restore files across data centers?" col="in" href="accordion20" >}}
 
 This functionality is not officially supported, but it is physically possible
-to do it. See the following link for more information on [cross-DC restore hacks](/support/how-to/performing-cross-dc-restores-and-backups/).
+to do it. See the following link for more information on [cross-DC restore hacks](/how-to/performing-cross-dc-restores-and-backups/).
 {{< /accordion >}}

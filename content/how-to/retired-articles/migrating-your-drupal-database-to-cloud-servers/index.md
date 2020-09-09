@@ -29,7 +29,7 @@ A few pieces of advice that should be noted before beginning:
 
 ### Creating Your Cloud Server
 
-To begin we will need to create your Cloud Server via the [Cloud Control Panel](https://mycloud.rackspace.com). For more information, refer to [Create a Cloud Server](/support/how-to/create-a-cloud-server).
+To begin we will need to create your Cloud Server via the [Cloud Control Panel](https://mycloud.rackspace.com). For more information, refer to [Create a Cloud Server](/how-to/create-a-cloud-server).
 
 ### Connecting to the server
 
@@ -50,7 +50,7 @@ the *ssh* application that comes pre-installed with the computer.
 You can access the *ssh* application on your Mac through Terminal.
 
 To connect from your Windows computer with PuTTY please use the
-following article to help you: [Connecting with PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty "Logging in via Putty")
+following article to help you: [Connecting with PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty "Logging in via Putty")
 
 To connect with your Mac or Linux computer simply type the
 following:

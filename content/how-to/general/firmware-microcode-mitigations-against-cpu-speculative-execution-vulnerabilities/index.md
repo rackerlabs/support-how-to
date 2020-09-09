@@ -49,25 +49,25 @@ This section includes specific information for different operating systems (OSs)
 
 Linux operating systems require both a kernel update and firmware/microcode update, along with a subsequent reboot, for remediation against all known variants of the vulnerabilities. For those devices submitted for the opt-in maintenance, Rackspace will perform an audit to detect environment details that are likely to cause delays or issues during a kernel patch or reboot maintenance, and will take the steps necessary to remediate any issues that appear in the audit. If the device is not running a patched kernel, Rackspace will install the updated kernel prior to the firmware/microcode update and the subsequent reboot.
 
-For additional information, see [Linux OS mitigations against CPU speculative execution vulnerabilities](/support/how-to/linux-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+For additional information, see [Linux OS mitigations against CPU speculative execution vulnerabilities](/how-to/linux-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 **Windows OS**
 
 After the firmware/microcode updates are installed, the application of three additional registry keys is required to fully remediate these vulnerabilities. Rackspace will add these remaining keys at the time of the firmware/microcode updates.
 
-For additional information, see [Windows OS mitigations against CPU speculative execution vulnerabilities](/support/how-to/windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+For additional information, see [Windows OS mitigations against CPU speculative execution vulnerabilities](/how-to/windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 **VMware**
 
 After the firmware/microcode updates are installed, an ESXi upgrade might be necessary. In some cases, this upgrade might require a re-kick, resulting in downtime for virtual machines. Because of this, Rackspace will coordinate ESXi Hypervisor firmware/microcode updates separately and will **not** include them in the initial maintenance process.
 
-For additional information, see [VMware OS mitigations against CPU speculative execution vulnerabilities](/support/how-to/vmware-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+For additional information, see [VMware OS mitigations against CPU speculative execution vulnerabilities](/how-to/vmware-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 **Hyper-V**
 
 After the firmware/microcode update is applied to the hypervisor, mitigation of the vulnerability will require patching the hypervisor OS, application of registry keys, and a firmware update. This process requires a reboot for both the OS and firmware updates, potentially resulting in downtime for virtual machines. Because of this, Rackspace will coordinate Hyper-V Hypervisor firmware/microcode updates separately and will **not** include them in the initial maintenance process.
 
-For additional information, see [Windows OS mitigations against CPU speculative execution vulnerabilities](/support/how-to/windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+For additional information, see [Windows OS mitigations against CPU speculative execution vulnerabilities](/how-to/windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 ### Managed colocation
 

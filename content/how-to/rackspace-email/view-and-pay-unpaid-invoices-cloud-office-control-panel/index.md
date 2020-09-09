@@ -22,7 +22,7 @@ This article describes how to view and pay unpaid invoices in the Cloud Office C
 - **Time needed:** Approximately 5 minutes
 - **Tools required:**  Control Panel billing permissions
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### View unpaid invoices
 

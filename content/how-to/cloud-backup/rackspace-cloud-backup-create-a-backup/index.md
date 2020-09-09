@@ -18,15 +18,15 @@ backup of the data on your cloud server.
 
 **Previous sections**:
 
--   [Install the Cloud Backup agent on Linux&reg;](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
--   [Install the Cloud Backup agent on Windows&reg;](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+-   [Install the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+-   [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 
 **Note:** You can use the Cloud Backup tool to back up your data files
 but cannot use it to back up a full operating system. To restore your data, you
 need to restore only your files; you do not need to restore all of the
 operating system files. To back up the operating system, create an image
 of your server. For more information about restoring a server from an
-image, see [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+image, see [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 
 ### Create a server backup
 
@@ -44,7 +44,7 @@ image, see [Create an image of a server and restore a server from a saved image]
     with the Managed Operations service level, check with your account
     manager to install the agent. If your account has a different
     service level, follow the instructions in [How to Install the
-    Agent](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux).
+    Agent](/how-to/rackspace-cloud-backup-install-the-agent-on-linux).
 
 5.  On the **Configure Backup** page, perform the following steps:
 
@@ -66,4 +66,4 @@ image, see [Create an image of a server and restore a server from a saved image]
     **Save**.
 
 
-**Next steps**: [View backup information with Cloud Backup](/support/how-to/rackspace-cloud-backup-view-backup-information)
+**Next steps**: [View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)

@@ -202,7 +202,7 @@ active schedule`.
 
 You can manage and restore scheduled backups in the same manner as on-demand
 backups. For details, see [Managing backups for Cloud
-Databases](/support/how-to/managing-backups-for-cloud-databases).
+Databases](/how-to/managing-backups-for-cloud-databases).
 
 ### Backup retention policy
 
@@ -238,4 +238,4 @@ Backups for Cloud Databases have the following limitations:
 ### Related articles
 
 - [Managing backups for Cloud
-Databases](/support/how-to/managing-backups-for-cloud-databases)
+Databases](/how-to/managing-backups-for-cloud-databases)

@@ -19,7 +19,7 @@ cases.
 ### Prerequisite
 
 For an introduction to relational databases and NoSQL databases, see [Types of
-databases](/support/how-to/types-of-databases/)
+databases](/how-to/types-of-databases/)
 
 ### Understand when a SQL database might be preferable
 
@@ -36,4 +36,4 @@ You might choose an SQL database for the following reasons:
 
 ### Next step
 
-[Reasons to use a NoSQL database](/support/how-to/reasons-to-use-a-nosql-db/)
+[Reasons to use a NoSQL database](/how-to/reasons-to-use-a-nosql-db/)

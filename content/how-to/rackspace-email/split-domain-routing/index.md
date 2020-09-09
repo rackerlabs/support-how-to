@@ -38,7 +38,7 @@ for the domain pointing to your existing server (described as your
 external mail server in this documentation). Once the migration is
 complete you can switch them to the Rackspace MX records listed here:
 [Set up DNS records for Cloud Office email and Skype for
-Business](/support/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
+Business](/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business).
 
 {{<image src="EASplitDomainRouting.png" alt="" title="">}}
 

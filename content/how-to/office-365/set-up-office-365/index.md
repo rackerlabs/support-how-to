@@ -20,7 +20,7 @@ This article helps Rackspace Cloud Office customers set up Office 365 for the fi
 - **Time needed:** 10 minutes
 - **Tools required:**  Office 365 tenant Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 
 ### Create a tenant ID

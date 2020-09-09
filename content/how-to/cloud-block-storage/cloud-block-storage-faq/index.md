@@ -176,7 +176,7 @@ application is time sensitive, consider using volume cloning.
 
 For instructions on volume cloning, see [How to create a clone of a
 Cloud Block Storage
-volume](/support/how-to/create-a-clone-of-a-cloud-block-storage-volume).
+volume](/how-to/create-a-clone-of-a-cloud-block-storage-volume).
 {{< /accordion >}}
 
 {{< accordion title="What can I do if I need to change volume types (SATA vs. SSD)?" col="in" href="accordion18" >}}
@@ -187,9 +187,9 @@ switch volume types by using the cloning or snapshot method outlined in
 the following articles:
 
 -   [How to create a clone of a Cloud Block Storage
-    volume](/support/how-to/create-a-clone-of-a-cloud-block-storage-volume) .
+    volume](/how-to/create-a-clone-of-a-cloud-block-storage-volume) .
 -   [Create and use Cloud Block Storage
-    snapshots](/support/how-to/create-and-use-cloud-block-storage-snapshots)
+    snapshots](/how-to/create-and-use-cloud-block-storage-snapshots)
 {{< /accordion >}}
 
 {{< accordion title="How can I make a copy of a Cloud Block Storage volume?" col="in" href="accordion19" >}}
@@ -252,7 +252,7 @@ TB in size.
 
 Cloud Block Storage provides persistent data storage for Cloud Servers. Persistent storage can exist independent of your server, even after the server has been deleted. The local storage bundled with Cloud Servers is ephemeral and exists only as long as the Cloud Server exists. When the server is deleted, so is its local storage.
 
-We recommend that you [unmount and detach Cloud Block Storage](/support/how-to/detach-and-delete-cloud-block-storage-volumes)
+We recommend that you [unmount and detach Cloud Block Storage](/how-to/detach-and-delete-cloud-block-storage-volumes)
 volumes before deleting the server.
 {{< /accordion >}}
 

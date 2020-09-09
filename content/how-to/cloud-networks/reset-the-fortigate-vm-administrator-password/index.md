@@ -17,7 +17,7 @@ If you have forgotten the administrator password to your Fortigate&reg; virtual 
 
 **Note:** If you already have the Fortigate VM serial number, skip to step 4.
 
-1. Navigate to the [emergency console](/support/how-to/start-a-console-session/).
+1. Navigate to the [emergency console](/how-to/start-a-console-session/).
 
 2. Look for the serial number displayed in the console. It looks similar to "Serial number is FGTRAXXXXXXXXXXX."
 

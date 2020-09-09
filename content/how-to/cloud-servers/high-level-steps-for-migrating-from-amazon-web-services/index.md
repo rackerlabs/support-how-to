@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Mapping of Amazon Web Services resources to Rackspace resources](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
+**Previous section:** [Mapping of Amazon Web Services resources to Rackspace resources](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
 
 This article provides a high-level overview of the steps to perform to
 migrate your applications to Rackspace Cloud from Amazon Web Services
@@ -29,7 +29,7 @@ application and database resources.
 Depending on the size of your existing AWS instance and OS, select an
 equivalent instance type and follow the steps to provision a new
 instance on Rackspace Cloud Servers. You can find a list of equivalent
-instances in the [equivalent instance types list.](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
+instances in the [equivalent instance types list.](/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
 
 ### Install software packages
 
@@ -56,7 +56,7 @@ You can do this in a number of ways:
 -   **rsync**
 
     You can use
-    [rsync](/support/how-to/backing-up-your-files-with-rsync)
+    [rsync](/how-to/backing-up-your-files-with-rsync)
     to tunnel between your two instances and transfer your data. The
     other methods listed here, however, have you create backups in Cloud
     Files so that you can always return to them.
@@ -94,4 +94,4 @@ database.
 
 ### Next step
 
-[Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).
+[Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services).

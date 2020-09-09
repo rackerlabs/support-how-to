@@ -17,13 +17,13 @@ This article describes how to reset a Cloud Server's network with the API tool, 
 
 ### Prerequisites
 
-You need to ensure the `nova-agent` service is running on the Cloud Server before proceeding. If the service isn't running, the API call doesn't complete successfully despite responding with a `202` status code. For more information on `nova-agent` see [Nova agent (Linux) and Rackspace Agent (Windows)](/support/how-to/nova-agent-unix-and-rackspace-agent-windows/).
+You need to ensure the `nova-agent` service is running on the Cloud Server before proceeding. If the service isn't running, the API call doesn't complete successfully despite responding with a `202` status code. For more information on `nova-agent` see [Nova agent (Linux) and Rackspace Agent (Windows)](/how-to/nova-agent-unix-and-rackspace-agent-windows/).
 
 ### Log in to Pitchfork
 
 Log in to Pitchfork at: [https://pitchfork.rax.io/](https://pitchfork.rax.io/)
 
-Refer to [Pitchfork - the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application/) to learn how to log in to and use Pitchfork.
+Refer to [Pitchfork - the Rackspace Cloud API web application](/how-to/pitchfork-the-rackspace-cloud-api-web-application/) to learn how to log in to and use Pitchfork.
 
 ### Reset the network with Pitchfork
 

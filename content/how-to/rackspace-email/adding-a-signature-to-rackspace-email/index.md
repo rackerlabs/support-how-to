@@ -21,9 +21,9 @@ This article describes how to set up your email signature, which can include you
 - **Time needed:** 5 minutes
 - **Tools required:** Webmail access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-When creating your signature you should be cautious about what is included. Signatures now more frequently contain elements that are viewed as spam by common email filters, which can hinder email deliverability. See [Best practices for sending person-to-person email](/support/how-to/best-practices-for-sending-person-to-person-email) for guidance on signature creation.
+When creating your signature you should be cautious about what is included. Signatures now more frequently contain elements that are viewed as spam by common email filters, which can hinder email deliverability. See [Best practices for sending person-to-person email](/how-to/best-practices-for-sending-person-to-person-email) for guidance on signature creation.
 
 1. Log in to your Rackspace Email account by going to [apps.rackspace.com](https://apps.rackspace.com).
 

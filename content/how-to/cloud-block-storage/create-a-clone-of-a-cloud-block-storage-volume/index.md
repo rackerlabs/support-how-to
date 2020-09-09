@@ -48,7 +48,7 @@ writing information while you are backing it up. That could get your
 data out of sync and could create a problem. To detach your volume, see
 the instructions on "Detach and delete volumes". You can always
 re-attach the volume by following the "Attach volume to a server" steps
-on the [Create and attach a Cloud Block Storage volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
+on the [Create and attach a Cloud Block Storage volume](/how-to/create-and-attach-a-cloud-block-storage-volume)
 article.
 
 More advanced users may sync the file system in order ensure the

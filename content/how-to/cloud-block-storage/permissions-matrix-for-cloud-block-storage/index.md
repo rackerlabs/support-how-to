@@ -49,4 +49,4 @@ Delete a snapshot | `DELETE /v1/{tenant_id}/snapshots/{snapshot_id}` | **Admin o
 
 ### Related articles
 
-- [Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)
+- [Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)

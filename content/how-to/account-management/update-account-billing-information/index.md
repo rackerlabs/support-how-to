@@ -24,4 +24,4 @@ Use the following steps to update your billing information, including billing ad
    - To update the credit card on file, click **Payment Methods > Manage Payment Methods** and make your changes in the field where they are needed.
 
 To learn more about changing your cloud account's information, see
-[Change account information](/support/how-to/change-account-information).
+[Change account information](/how-to/change-account-information).

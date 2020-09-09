@@ -16,8 +16,8 @@ Rackspace offers its monitoring solution through three pillars of products: Rack
 {{<image src="monitoring-mmi.svg" alt="Monitoring and Intelligence improve data gathering, alert generation, and data storage." alt="" title="">}}
 
 - Rackspace Monitoring offers reliable data gathering and accurate alert generation. For details, see the following concepts section.
-- Rackspace Metrics provides on economical and reliable data storage at scale. For details, see the [Rackspace Metrics overview](/support/how-to/rackspace-metrics-overview/).
-- Rackspace Intelligence delivers an intuitive interface that gives users a transparent view into their (infrastructure health along with actionable insights. For details, see the [Rackspace Intelligence Introduction](/support/how-to/rackspace-intelligence/).
+- Rackspace Metrics provides on economical and reliable data storage at scale. For details, see the [Rackspace Metrics overview](/how-to/rackspace-metrics-overview/).
+- Rackspace Intelligence delivers an intuitive interface that gives users a transparent view into their (infrastructure health along with actionable insights. For details, see the [Rackspace Intelligence Introduction](/how-to/rackspace-intelligence/).
 
 
 ### Monitoring concepts

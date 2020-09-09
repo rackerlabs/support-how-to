@@ -59,7 +59,7 @@ In the example, the term `bricks` is used because each directory in the setup is
 
 ### Set up a Rackspace network
 
-Run GlusterFS on its own [Rackspace cloud network](/support/how-to/cloud-networks), which allows you to manage the network and firewall settings more easily.
+Run GlusterFS on its own [Rackspace cloud network](/how-to/cloud-networks), which allows you to manage the network and firewall settings more easily.
 
 As an example, you can set up a network by using the Nova client on your laptop as follows:
 
@@ -71,7 +71,7 @@ The first command returns the UUID of the network, which you can copy and paste 
 
     nova network-associate-host 4dad2eb0-5ed7-4147-8196-bba7dc2bb45f 23.253.156.109
 
-You could also perform these steps by using [the web UI](/support/how-to/cloud-networks) instead of using the Nova command line.
+You could also perform these steps by using [the web UI](/how-to/cloud-networks) instead of using the Nova command line.
 
 #### Open the firewall
 
@@ -161,7 +161,7 @@ web01:
 
 In this example, `/var/www` must be on GlusterFS.  Ensure that web01 has the correct `/var/www`.
 
-If you are running this on an already live server, you must to shut down Apache on both servers. You could set up a custom `down for maintenance` page and health monitoring on the [load balancer](/support/how-to/configure-a-load-balancer) first if you like, but that's beyond the scope of this article.
+If you are running this on an already live server, you must to shut down Apache on both servers. You could set up a custom `down for maintenance` page and health monitoring on the [load balancer](/how-to/configure-a-load-balancer) first if you like, but that's beyond the scope of this article.
 
 1.  On **web01**, move `/var/www/` to `/srv/www/`:
 
@@ -230,4 +230,4 @@ You have installed GlusterFS and configured your servers to share your web conte
 
 ### Where to go from here
 
-The next article in this GlusterFS series describes how to [Add and remove GlusterFS servers](/support/how-to/add-and-remove-glusterfs-servers) in a GlusterFS array.
+The next article in this GlusterFS series describes how to [Add and remove GlusterFS servers](/how-to/add-and-remove-glusterfs-servers) in a GlusterFS array.

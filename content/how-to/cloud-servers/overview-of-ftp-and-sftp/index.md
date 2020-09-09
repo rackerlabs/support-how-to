@@ -59,9 +59,9 @@ that show you how to install and configure vsftpd on a cloud server.
 Vsftpd is an open source FTP server that you can use to transfer files.
 
   - [Rackspace Cloud Essentials - Install vsftpd for
-    CentOS](/support/how-to/rackspace-cloud-essentials-centos-installing-vsftpd/)
+    CentOS](/how-to/rackspace-cloud-essentials-centos-installing-vsftpd/)
   - [Rackspace Cloud Essentials - Configure a user in vsftpd for
-    CentOS](/support/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd/)
+    CentOS](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd/)
 
 ### Recommendation
 
@@ -71,6 +71,6 @@ FTP server and prevents unauthorized access during the transmission.
 
 ### Additional resources
 
-- [Set up SFTP users in Linux-based systems](/support/how-to/set-up-sftp-users-in-linux-based-systems)
-- [Connect to a cloud server with filezilla by using SFTP](/support/how-to/connect-to-cloud-servers-with-filezilla-by-using-sftp)
-- [Bind mount an SFTP user after using chroot](/support/how-to/bind-mount-an-sftp-user-after-using-chroot)
+- [Set up SFTP users in Linux-based systems](/how-to/set-up-sftp-users-in-linux-based-systems)
+- [Connect to a cloud server with filezilla by using SFTP](/how-to/connect-to-cloud-servers-with-filezilla-by-using-sftp)
+- [Bind mount an SFTP user after using chroot](/how-to/bind-mount-an-sftp-user-after-using-chroot)

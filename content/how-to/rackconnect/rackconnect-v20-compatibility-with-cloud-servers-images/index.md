@@ -25,7 +25,7 @@ Managed Infrastructure service level customers.
 
 **Note:** Some images at the Managed Infrastructure service level are
 incompatible with RackConnect. You can find a list of these images in
-[Cloud Servers images for use with RackConnect v2.0](/support/how-to/cloud-server-images-for-use-with-rackconnect-v20).
+[Cloud Servers images for use with RackConnect v2.0](/how-to/cloud-server-images-for-use-with-rackconnect-v20).
 
 ### Server flavors and regions
 
@@ -55,4 +55,4 @@ values.
 
 ### Related article
 
-[RackConnect v2.0 API](/support/how-to/rackconnect-v20-api)
+[RackConnect v2.0 API](/how-to/rackconnect-v20-api)

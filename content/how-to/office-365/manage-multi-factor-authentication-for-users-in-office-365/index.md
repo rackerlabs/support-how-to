@@ -20,7 +20,7 @@ This article describes how administrators can manage multi-factor authentication
 - **Time Needed:** Approximately 15 minutes
 - **Tools Needed:** Administrators need access to the Office 365 Control Panel
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 Requiring multi-factor authentication for all users safeguards access to your organization's data and applications. Multi-factor authentication requires users to provide a second form of authentication when accessing their account. This second form of authentication is an additional layer of security and minimizes the chances of account compromise.
 

@@ -13,7 +13,7 @@ The Managed Operations service level provides support beyond the Managed Infrast
 assistance with resizes, snapshots, host machine issues, adding and removing servers, and managing IP addresses. Rackspace provides support for specific software and server configurations on Linux cloud
 servers with Managed Operations support.
 
-**Note:** For information about Windows support, see [Cloud Servers with Managed Operations support for Windows](/support/how-to/cloud-servers-with-managed-operations-support-for-windows).
+**Note:** For information about Windows support, see [Cloud Servers with Managed Operations support for Windows](/how-to/cloud-servers-with-managed-operations-support-for-windows).
 
 ### Operating systems
 

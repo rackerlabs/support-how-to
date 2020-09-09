@@ -35,4 +35,4 @@ Use the following steps to delete a server:
 Before the server and its data are deleted permanently, you are asked for confirmation.
 
 To create a new server from the saved image of the server that you deleted,
-see the article [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+see the article [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).

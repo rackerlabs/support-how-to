@@ -50,7 +50,7 @@ in the Cloud Control Panel, perform the following steps:
     click **Create Network** to create a new one. If you are creating a
     network, enter a network name, and then click **Create Network**.
 
-    **Note**: All new servers are automatically attached to the PublicNet (the Internet) and ServiceNet (the Rackspace data center network) networks. If you are considering removing these networks from the server, we strongly recommend that you read [Removing Networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server) to fully understand the limitations that will be placed on this server if you remove these networks.
+    **Note**: All new servers are automatically attached to the PublicNet (the Internet) and ServiceNet (the Rackspace data center network) networks. If you are considering removing these networks from the server, we strongly recommend that you read [Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server) to fully understand the limitations that will be placed on this server if you remove these networks.
 
 11. Click **Create Server**.
 
@@ -59,10 +59,10 @@ attached to the networks that you selected.
 
 ### More information about Cloud Networks
 
-[Create an Isolated Cloud Network](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server)
+[Create an Isolated Cloud Network](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server)
 
-[Removing Networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server)
+[Removing Networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
 
-[Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks)
+[Using CIDR notation in Cloud Networks](/how-to/using-cidr-notation-in-cloud-networks)
 
 [Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)

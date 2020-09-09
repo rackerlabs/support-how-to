@@ -140,5 +140,5 @@ command to see if the port is closed or filtered. Here is an example of the outp
     Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
 
 If you try all of these methods and still cannot reach the server, see
-[Troubleshoot a downed Linux cloud server](/support/how-to/troubleshoot-a-downed-linux-cloud-server)
+[Troubleshoot a downed Linux cloud server](/how-to/troubleshoot-a-downed-linux-cloud-server)
 for more steps.

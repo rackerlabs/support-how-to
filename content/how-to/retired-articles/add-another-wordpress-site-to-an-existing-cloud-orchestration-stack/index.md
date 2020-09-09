@@ -33,7 +33,7 @@ Adding a site to an existing stack requires changes to the configurations for mu
 
         ssh user@<ip_address_of_backend_server> -i /path/to/key
 
-  If you do not have the private key, you can reset the back end server's root password. For help connecting to your server via SSH, see the articles on using SSH with a private key in our How To center for [Mac and Linux](/support/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows).
+  If you do not have the private key, you can reset the back end server's root password. For help connecting to your server via SSH, see the articles on using SSH with a private key in our How To center for [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
 ### Set up a database
 

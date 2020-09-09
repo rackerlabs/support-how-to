@@ -11,7 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-**Previous section:** [Cloud Backup System Actions](/support/how-to/rackspace-cloud-backup-system-actions)
+**Previous section:** [Cloud Backup System Actions](/how-to/rackspace-cloud-backup-system-actions)
 
 When you created your backups, you determined how Cloud Backup would
 inform you about that single backup's activity. On the Preferences page,
@@ -31,4 +31,4 @@ account: Daily, Weekly, or Both.
 
 You may cancel your Daily or Weekly emails by unchecking the respective boxes and click **Save Preferences** button.
 
-**Next steps:** [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting)
+**Next steps:** [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting)

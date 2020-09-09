@@ -12,7 +12,7 @@ product_url: cloud-backup
 ---
 
 
-**Previous section**: [View backup information with Cloud Backup](/support/how-to/rackspace-cloud-backup-view-backup-information)
+**Previous section**: [View backup information with Cloud Backup](/how-to/rackspace-cloud-backup-view-backup-information)
 
 This article describes the actions that you can perform during a single backup.
 
@@ -159,4 +159,4 @@ Confirm that you want to delete the backup.
 
 After a backup is deleted, it cannot be recovered.
 
-**Next step**: [Cloud Backup system actions](/support/how-to/rackspace-cloud-backup-system-actions)
+**Next step**: [Cloud Backup system actions](/how-to/rackspace-cloud-backup-system-actions)

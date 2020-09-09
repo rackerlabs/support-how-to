@@ -45,5 +45,5 @@ These, and other differences, are summarized in the following table:
 
 ### Additional resources
 
-- [Rackspace CDN terminology](/support/how-to/rackspace-cdn-terminology)
-- [Access Rackspace CDN](/support/how-to/access-rackspace-cdn)
+- [Rackspace CDN terminology](/how-to/rackspace-cdn-terminology)
+- [Access Rackspace CDN](/how-to/access-rackspace-cdn)

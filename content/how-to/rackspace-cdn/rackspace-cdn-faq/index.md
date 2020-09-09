@@ -14,7 +14,7 @@ product_url: rackspace-cdn
 Get quick answers to common questions about the Rackspace CDN service.
 If you have any questions about the terms used in this FAQ, see the
 [Rackspace CDN
-terminology](/support/how-to/rackspace-cdn-terminology)
+terminology](/how-to/rackspace-cdn-terminology)
 page.
 
 ### Getting Started
@@ -24,7 +24,7 @@ page.
 Benefits include fast load times when serving your content, access
 control, and origin protection. For detailed information, see [Features
 of Rackspace
-CDN](/support/how-to/features-of-rackspace-cdn).
+CDN](/how-to/features-of-rackspace-cdn).
 
 #### How many edge servers does Rackspace CDN give me access to?
 
@@ -98,7 +98,7 @@ pricing](https://www.rackspace.com/cloud/cdn-content-delivery-network).
 #### Is there a list of approved Certificate Authorities (CAs) for Rackspace CDN?
 
 Yes. See [Rackspace CDN secure delivery
-options](/support/how-to/rackspace-cdn-secure-delivery-options#Secure%2520origin).
+options](/how-to/rackspace-cdn-secure-delivery-options#Secure%2520origin).
 
 #### Will I be charged for edge node storage when I use Rackspace CDN?
 

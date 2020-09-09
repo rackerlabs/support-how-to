@@ -16,7 +16,7 @@ Content Delivery Network (CDN) pulls content. Because that content comes from
 a different domain, you need to _allow_ your CDN to pull it for
 security reasons. This article shows you how to use CDN access control to
 allow [Rackspace CDN and Cloud Files
-CDN](/support/how-to/differences-between-rackspace-cdn-and-rackspace-cloud-files/)
+CDN](/how-to/differences-between-rackspace-cdn-and-rackspace-cloud-files/)
 to pull content from your origin.
 
 ### Overview for Rackspace CDN

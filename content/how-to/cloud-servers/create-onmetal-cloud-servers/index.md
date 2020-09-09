@@ -16,7 +16,7 @@ Rackspace Cloud Control Panel interface. This article shows you how to
 set up an OnMetal server through the Cloud Control Panel.
 
 **Note**: For the parallel steps in the API, see [Manage OnMetal Cloud Servers
-through the API](/support/how-to/using-onmetal-cloud-servers-through-api).
+through the API](/how-to/using-onmetal-cloud-servers-through-api).
 
 ### Create an OnMetal server in the Cloud Control Panel
 
@@ -65,7 +65,7 @@ Use the following steps to create an OnMetal server in the Cloud Control Panel:
      **Note**: You *must* create OnMetal Linux servers by using an SSH
      key pair. For information about generating public and private
      key pairs, see [Manage SSH Key Pairs for Cloud Servers with
-     python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+     python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
      To assign an existing public key to a Linux server, select the key name
      for an existing public key in the **SSH Key** list. You can also add a
@@ -103,7 +103,7 @@ Use the following steps to boot an OnMetal v1 server that is running Linux:
     Your Server Now** in the right-hand column. For more information,
     see [Connect to a server by using SSH on
     Linux or Mac OS
-    X](/support/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
+    X](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
     for more information.
 2.  Use the following command format to boot your OnMetal server, substituting
     the appropriate region:
@@ -258,4 +258,4 @@ The flash drives that are included with the OnMetal IO flavor are
 unformatted. You can combine them in a redundant array of independent disks
 (RAID) and format them in any way that you want. For more information, see
 [Configure flash drives in High IO instances as Data
-drives](/support/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).
+drives](/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).

@@ -19,7 +19,7 @@ environment using an FTP client.
 To set up your deployment, you need the following:
 
 - Familiarity with
-[Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/)
+[Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/)
 
 - An FTP client application
 
@@ -31,7 +31,7 @@ credentials and the FTP hostname enable you to deploy your application files.
 
 1. Sign in to the [Azure portal](https://portal.azure.com/). For information
 about where to find your credentials to log in to the Azure portal, see
-[Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
+[Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
 2. Click **All resources** and then select the webapp for which you need to set
 credentials.

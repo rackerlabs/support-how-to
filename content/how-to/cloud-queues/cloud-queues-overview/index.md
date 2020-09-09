@@ -64,5 +64,5 @@ this case, will poll the queue every 1-5 minutes to see if any new
 updates have been posted.  If so, they will email anyone who has signed
 up for updates.
 
-Please see the [Cloud Queues FAQ](/support/how-to/cloud-queues-faq)
+Please see the [Cloud Queues FAQ](/how-to/cloud-queues-faq)
 for more information on features, limits, support, and more.

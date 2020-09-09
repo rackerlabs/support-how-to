@@ -27,7 +27,7 @@ domain is **hostmaster@rackspace.com**. You can see the SOA record for
 
 **Note**: You use the `dig` command to perform DNS queries on Linux&reg;
 systems. If you have a Microsoft&reg; Windows&reg; server, use the
-[nslookup](/support/how-to/nslookup-checking-dns-records-on-windows) tool instead.
+[nslookup](/how-to/nslookup-checking-dns-records-on-windows) tool instead.
 
 The command returns the following response:
 

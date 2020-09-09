@@ -14,7 +14,7 @@ product_url: rackspace-monitoring
 This article shows you how to install the Ansible&reg; playbook for Cloud
 Monitoring on your cloud server by using the following steps:
 
-1. [Connect to the cloud server](/support/how-to/connect-to-a-cloud-server/) on which
+1. [Connect to the cloud server](/how-to/connect-to-a-cloud-server/) on which
    you want to run Ansible locally.
 
 2. Update the operating system (OS) and install Python plug-ins by running the

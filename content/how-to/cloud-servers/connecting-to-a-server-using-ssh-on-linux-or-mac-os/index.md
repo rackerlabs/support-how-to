@@ -28,8 +28,8 @@ for these communications to be intercepted and read.
 **Note:** Many of the commands in this article must be run on your local
 computer. The default commands listed are for the Linux command line or
 MacOS X Terminal. To make SSH connections from Windows&reg;, you can use a client
-similar to the free program, [PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty).
-To generate keys, you can use a related program, [PuTTYGen](/support/how-to/generating-rsa-keys-with-ssh-puttygen).
+similar to the free program, [PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty).
+To generate keys, you can use a related program, [PuTTYGen](/how-to/generating-rsa-keys-with-ssh-puttygen).
 
 ### Log in
 
@@ -55,7 +55,7 @@ rebuild a cloud server, that remote host key changes, so your computer
 warns you of possibly suspicious activity.
 
 To ensure the security of your server, you can
-[use the web console in the Cloud Control Panel to verify your server's new key](/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
+[use the web console in the Cloud Control Panel to verify your server's new key](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console).
 If you're confident that you aren't being spoofed, you can skip that
 step and delete the record of the old SSH host key as follows:
 
@@ -67,7 +67,7 @@ Ubuntu operating system
 or `vi` on RPM or CENTOS servers.  For simplicity, this article just uses `nano`. If you prefer to use `vi`,
 substitute `vi` for `nano` in the edit commands.
 For more on using `nano`, see
-[/support/how-to/modify-your-hosts-file/](/support/how-to/modify-your-hosts-file/).
+[/how-to/modify-your-hosts-file/](/how-to/modify-your-hosts-file/).
 
     nano ~/.ssh/known_hosts
 
@@ -81,11 +81,11 @@ option to replace the saved host key.
 You can secure SSH access to your cloud server against brute force
 password attacks by using a public-private key pair. A public key is placed on
 the server and a matching private key is placed on your local computer. If you
-[configure SSH on your server to accept only connections using keys](/support/how-to/basic-cloud-server-security),
+[configure SSH on your server to accept only connections using keys](/how-to/basic-cloud-server-security),
 then no one can log in by using just a password. Connecting clients
 are required to use a private key that has a public key registered on
 the server. For more on security, review
-[Linux server security best practices](/support/how-to/linux-server-security-best-practices/).
+[Linux server security best practices](/how-to/linux-server-security-best-practices/).
 
 Use the following steps to generate an SSH key pair:
 
@@ -144,7 +144,7 @@ upload the public key to your cloud account by following these steps:
 8.  Click **Add Public Key**.
 
 If you want to add the key manually, instead of by using the Control Panel, review
-[Linux server security best practices](/support/how-to/linux-server-security-best-practices/)
+[Linux server security best practices](/how-to/linux-server-security-best-practices/)
 and use the following command:
 
      ssh-copy-id -i ~/.ssh/id_rsa.pub {username}@{remotePublicIPAddress}

@@ -10,7 +10,7 @@ last_modified_by: Catherine Richardson
 ---
 
 **Previous section:** [Cloud Storage App for Microsoft SharePoint:
-Overview](/support/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
+Overview](/how-to/cloud-storage-app-for-microsoft-sharepoint-overview)
 
 Follow the steps below to add the Rackspace Cloud Storage App from the
 SharePoint Store:
@@ -51,4 +51,4 @@ The app for SharePoint is added and appears in the Apps section of your
 
 Now that you have installed the app, you are ready to follow the steps
 in the article [How to set up credentials to access Cloud
-Files](/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-set-up-credentials-to-access-cloud-files).
+Files](/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-set-up-credentials-to-access-cloud-files).

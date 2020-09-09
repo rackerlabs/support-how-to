@@ -16,4 +16,4 @@ The Managed Operations Service Level includes access to a dedicated, 24x7x365 su
 
 We will provide free licensing for the Rackspace Cloud Backup file-based backup option [standard Cloud Files storage fees apply](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
 
-For more information, see the [Managed Operations Frequently Asked Questions](/support/how-to/managed-operations-faq/)
+For more information, see the [Managed Operations Frequently Asked Questions](/how-to/managed-operations-faq/)

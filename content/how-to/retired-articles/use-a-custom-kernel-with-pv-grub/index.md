@@ -9,7 +9,7 @@ last_modified_date: '2016-02-04'
 last_modified_by: Stephanie Fillmon
 ---
 
-**Note:** During 2015, all First Generation cloud servers will be migrated to Next Generation cloud servers on a rolling basis. Therefore, the instructions listed in this article might or might not work depending on whether your servers have been migrated. If you have questions about the server migration, see [First Generation to Next Generation Cloud Servers migration FAQ](/support/how-to/first-generation-to-next-generation-cloud-server-migration-faq). If you need assistance with using a custom kernel, contact Rackspace Support at 1 800 961 4454.
+**Note:** During 2015, all First Generation cloud servers will be migrated to Next Generation cloud servers on a rolling basis. Therefore, the instructions listed in this article might or might not work depending on whether your servers have been migrated. If you have questions about the server migration, see [First Generation to Next Generation Cloud Servers migration FAQ](/how-to/first-generation-to-next-generation-cloud-server-migration-faq). If you need assistance with using a custom kernel, contact Rackspace Support at 1 800 961 4454.
 
 This article describes the steps required to modify an older First Generation server to boot from a kernel installed in the instance using `pv-grub`. First Generation servers load their kernel from the host machine by default unless modified to use `pv-grub`.
 

@@ -82,8 +82,8 @@ Enter your new password when prompted.
 
 ### Related articles
 
-- [Install MySQL server on the Ubuntu operating system](/support/how-to/install-mysql-server-on-the-ubuntu-operating-system)
-- [Configure MySQL server on the Ubuntu operating system](/support/how-to/configure-mysql-server-on-the-ubuntu-operating-system)
+- [Install MySQL server on the Ubuntu operating system](/how-to/install-mysql-server-on-the-ubuntu-operating-system)
+- [Configure MySQL server on the Ubuntu operating system](/how-to/configure-mysql-server-on-the-ubuntu-operating-system)
 
 <script type="application/ld+json">
 {

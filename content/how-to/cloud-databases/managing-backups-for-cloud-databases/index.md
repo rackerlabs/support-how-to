@@ -20,7 +20,7 @@ files, which are automatically deleted based on a set retention period.
 This article describes how to create a backup for your database, view details
 about a backup, and delete or restore a backup. You can also schedule
 automatic backups of your databases. For more information, see
-[Scheduled backups for Cloud Databases](/support/how-to/scheduled-backups-for-cloud-databases).
+[Scheduled backups for Cloud Databases](/how-to/scheduled-backups-for-cloud-databases).
 
 ### Create a Backup
 

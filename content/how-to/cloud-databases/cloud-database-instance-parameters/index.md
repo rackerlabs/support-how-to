@@ -29,6 +29,6 @@ Here are some important facts to consider when you create a new instance:
 For enhanced security, database instances are directly accessible on the
 internal Rackspace network and by using a cloud resource within the same
 regional data center. For example, a database instance in Dallas-Fort Worth (DFW) can only be accessed by a cloud server in DFW. For more information, see [Public and private access for Cloud
-Databases](/support/how-to/public-and-private-access-for-cloud-databases)
+Databases](/how-to/public-and-private-access-for-cloud-databases)
 and [Connect to a Cloud Databases
-instance](/support/how-to/connect-to-a-cloud-databases-instance).
+instance](/how-to/connect-to-a-cloud-databases-instance).

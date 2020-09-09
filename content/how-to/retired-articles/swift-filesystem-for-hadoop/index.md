@@ -102,7 +102,7 @@ Each of these services is seeded with the cloud credentials (Rackspace
 user name and API key) from your Cloud Big Data profile, if you supplied
 them. (For information about viewing your Rackspace API key, see [View
 and reset your API
-key](/support/how-to/view-and-reset-your-api-key).
+key](/how-to/view-and-reset-your-api-key).
 Also, each service is configured appropriately to use the public or
 private network, depending on the Swift region and the location of your
 cluster.

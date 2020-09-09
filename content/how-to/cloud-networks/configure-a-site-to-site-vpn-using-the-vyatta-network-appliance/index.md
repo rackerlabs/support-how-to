@@ -23,7 +23,7 @@ Click the link for a [comprehensive guide to VPN configuration on the Vyatta](ht
 
 For guidance on configuring the relevant firewall rules to allow VPN traffic on the Vyatta please refer to the following article:
 
-[Configuring interface-based firewall on the Vyatta Network appliance](/support/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
+[Configuring interface-based firewall on the Vyatta Network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 
 ### IPsec on Vyatta
 
@@ -290,7 +290,7 @@ Verify the tunnel status:
 
 #### Step 7. Exclude site-to-site VPN traffic from NAT
 
-This configuration will be needed if you are using Vyatta to [perform outbound NAT for internet access](/support/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance).
+This configuration will be needed if you are using Vyatta to [perform outbound NAT for internet access](/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance).
 
 In case Source NAT has been configured already or needs to be configured, the following configuration needs to be applied so that the VPN traffic doesn't get translated on the Vyatta.
 

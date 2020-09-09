@@ -20,7 +20,7 @@ This article describes how to recover messages that have been purged from the **
 - **Time needed:** Approximately 5 minutes depending on the number of items being recovered
 - **Tools required:** apps.rackspace.com access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 ### Recover deleted mail
 

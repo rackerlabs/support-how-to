@@ -40,7 +40,7 @@ Follow these steps to add a mailbox.
 
 ### Change your MX records
 
-MX records tell the Internet where to deliver your mail. You must have access to your Domain Name System (DNS) records in order to point your MX records to the Rackspace email servers. For instructions on setting up your DNS records, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email).
+MX records tell the Internet where to deliver your mail. You must have access to your Domain Name System (DNS) records in order to point your MX records to the Rackspace email servers. For instructions on setting up your DNS records, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
 
 If you do not have access to your DNS records, contact your domain registrar and have them update your MX records by using the following values:
 
@@ -103,7 +103,7 @@ You can migrate your email data to your Rackspace mail account in the following 
 
 -   **Do it yourself** - If you are currently using a POP mailbox, this is your only option. If you are not certain or have any questions, contact our Support team at 0800 954 1007 or 020 8734 4029. You can also create a support ticket in the [MyRackspace Portal](https://login.rackspace.com/).
 
--   **Self-service tool** - Run your migration at any time of the day or night with our easy-to-use version of MigrationWiz. For more information, see [Migrate your email by using the Self-Service tool](/support/how-to/migrate-your-email-by-using-the-self-service-migration-tool/).
+-   **Self-service tool** - Run your migration at any time of the day or night with our easy-to-use version of MigrationWiz. For more information, see [Migrate your email by using the Self-Service tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/).
 
 -   **Assisted migrations** - This option is for companies that need help with consulting, planning, and scheduling a migration project. Contact our Assisted Migrations team by creating a support ticket in the [MyRackspace Portal](https://login.rackspace.com/). They will provide you with all the necessary information.
 

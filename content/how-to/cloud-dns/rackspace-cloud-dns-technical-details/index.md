@@ -11,7 +11,7 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
-**Previous section:** [Rackspace Cloud DNS available features](/support/how-to/rackspace-cloud-dns-available-features)
+**Previous section:** [Rackspace Cloud DNS available features](/how-to/rackspace-cloud-dns-available-features)
 
 Implementation of Rackspace Cloud DNS is available through our RESTful API. To
 use our API, you should have a general understanding of Domain Name Systems (DNS) management
@@ -58,6 +58,6 @@ The [Cloud DNS API service](https://docs.rackspace.com/docs/cloud-dns/v1/) provi
     of servers used for a specific service.
 
 For a full list of record types and their definitions, click
-[here](/support/how-to/rackspace-cloud-dns-additional-resources).
+[here](/how-to/rackspace-cloud-dns-additional-resources).
 
-**Next steps:** [Rackspace Cloud DNS API example](/support/how-to/rackspace-cloud-dns-api-example)
+**Next steps:** [Rackspace Cloud DNS API example](/how-to/rackspace-cloud-dns-api-example)

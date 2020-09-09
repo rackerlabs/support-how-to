@@ -62,11 +62,11 @@ prerequisites:
 
 After you are set up, there are some concepts that you should
 understand. Those are addressed in the next section,
-[Concepts](/support/how-to/rackspace-auto-scale-control-panel-user-guide-concepts).
+[Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts).
 
 ### User Guide sections
 
--   [Rackspace Auto Scale Control Panel User Guide - Introduction](/support/how-to/rackspace-auto-scale-control-panel-user-guide-introduction)
--   [Rackspace Auto Scale Control Panel User Guide - Concepts](/support/how-to/rackspace-auto-scale-control-panel-user-guide-concepts)
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling group](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling policy](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy)
+-   [Rackspace Auto Scale Control Panel User Guide - Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction)
+-   [Rackspace Auto Scale Control Panel User Guide - Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts)
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy)

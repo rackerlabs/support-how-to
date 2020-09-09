@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-If the demands being placed on a [running program](/support/how-to/checking-running-services-on-linux)
+If the demands being placed on a [running program](/how-to/checking-running-services-on-linux)
 cause it to request excessive resources from your server this can lead
 to poor performance and system instability.
 
@@ -120,4 +120,4 @@ server to better match your requirements.
 Assuming your application is running and looks healthy, let's now check
 that it is listening for network connections. We can see if the service
 is listening on the correct socket using the netstat command, which
-we'll cover in [Checking Listening Ports with netstat](/support/how-to/checking-listening-ports-with-netstat).
+we'll cover in [Checking Listening Ports with netstat](/how-to/checking-listening-ports-with-netstat).

@@ -17,7 +17,7 @@ a terminal emulation program included with MacOS X that you can use
 to run SSH.
 
 **Note**: For the corresponding steps for an OnMetal server, see
-[Create OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers).
+[Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers).
 
 ### Connect to the server
 
@@ -90,6 +90,6 @@ Use the new password with the root user when you connect to your server.
 
 ### Next steps
 
-The next article shows you how to use [Rescue Mode](/support/how-to/rescue-mode)
+The next article shows you how to use [Rescue Mode](/how-to/rescue-mode)
 to connect to your Cloud Server. Rescue Mode is useful when you're
 troubleshooting and when your server becomes unresponsive.

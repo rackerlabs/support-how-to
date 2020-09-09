@@ -14,18 +14,18 @@ Cloud Queues is an open-source messaging system, designed to help customers buil
 
 ###  Overview
 
-- [Cloud Queues Overview](/support/how-to/cloud-queues-overview)
-- [Cloud Queues message patterns](/support/how-to/cloud-queues-message-patterns)
+- [Cloud Queues Overview](/how-to/cloud-queues-overview)
+- [Cloud Queues message patterns](/how-to/cloud-queues-message-patterns)
 
 ###  Working with queues
 
-- [Creating Cloud Queues](/support/how-to/creating-cloud-queues)
-- [Listing Cloud Queues](/support/how-to/listing-cloud-queues)
-- [Tips for Monitoring Your Queues in Cloud Queues](/support/how-to/tips-for-monitoring-your-queues-in-cloud-queues)
+- [Creating Cloud Queues](/how-to/creating-cloud-queues)
+- [Listing Cloud Queues](/how-to/listing-cloud-queues)
+- [Tips for Monitoring Your Queues in Cloud Queues](/how-to/tips-for-monitoring-your-queues-in-cloud-queues)
 
 ###  API access
 
-- [Cloud Queues cURL Cookbook](/support/how-to/cloud-queues-curl-cookbook)
+- [Cloud Queues cURL Cookbook](/how-to/cloud-queues-curl-cookbook)
 
 ### Additonal resources
 

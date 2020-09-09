@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 This article discusses advanced security settings for a Linux&reg; server. The steps in this article describe how to modify the `GRUB` or `GRUB2` bootloader to apply password protection to your emergency console. 
 
-**Important**: Use the steps in this article only if you have reason to believe a bad actor has gained access to your Rackspace Portal. You can use these steps as basic server security. However, these steps mainly focus on protecting your server in the case of an account-level compromise. For more information regarding basic Linux server security, refer to [Linux server security best practices](/support/how-to/linux-server-security-best-practices/).
+**Important**: Use the steps in this article only if you have reason to believe a bad actor has gained access to your Rackspace Portal. You can use these steps as basic server security. However, these steps mainly focus on protecting your server in the case of an account-level compromise. For more information regarding basic Linux server security, refer to [Linux server security best practices](/how-to/linux-server-security-best-practices/).
 
 ### Emergency console security
 

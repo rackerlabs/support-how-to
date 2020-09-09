@@ -18,7 +18,7 @@ high traffic.
 ### Additional guarantees for high-traffic events
 
 Rackspace offers an [additional service-level
-guarantee](/support/how-to/managed-cloud-service-levels-faq/#guarantees) for Managed
+guarantee](/how-to/managed-cloud-service-levels-faq/#guarantees) for Managed
 Operations service level customers who notify us in advance of their
 high-traffic event. This guarantee is only available for our Managed Operations
 service level customers and does have a few restrictions, including advanced
@@ -32,7 +32,7 @@ The following issues might occur during high-traffic periods:
 - Over-saturation of traffic to **Web01** from other web servers
 - Resource exhaustion and contention
 - [Forced reboot checks that cause longer
-  downtimes](/support/how-to/ensure-servers-reboot-successfully/)
+  downtimes](/how-to/ensure-servers-reboot-successfully/)
 
 ### Create awareness of the event and document important facts in advance
 
@@ -63,7 +63,7 @@ Use the following steps to scale at the web and app tier:
 Use the following steps to scale at the data tier:
 
 - Scale your databases and add
-  [replication](/support/how-to/database-replication-with-cloud-databases/). Your
+  [replication](/how-to/database-replication-with-cloud-databases/). Your
   database can be a significant bottleneck for your application. Because most
   transactions must pass through the database, consider scaling this tier both
   vertically and horizontally.
@@ -71,7 +71,7 @@ Use the following steps to scale at the data tier:
   more data faster. Adding replication gives your application redundancy, and
   you can use replicants as read-only versions for faster data access.
 - Rackspace Cloud Databases can help you with both scaling and
-  [replication](/support/how-to/database-replication-with-cloud-databases/).
+  [replication](/how-to/database-replication-with-cloud-databases/).
 - Consider using a query caching layer to [speed up the site and improve
   scalability](https://blog.rackspace.com/preparing-ddpyoga-com-for-the-shark-tank-effect?cm_mmc=community-_-activation-_-gsg-_-links).
 - Test thoroughly.

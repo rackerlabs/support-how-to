@@ -28,7 +28,7 @@ This article includes tips to perform the following tasks:
 - [Customize the OBIEE 11g Analytics banner text](#customize-the-obiee-11g-analytics-banner-text)
 - [Start and stop servers in OBIEE 11g and 12c](#start-and-stop-servers-in-obiee-11g-and-12c)
 
-You might also be interested in the article [Oracle Business Intelligence 12c release features](/support/how-to/oracle-business-intelligence-12c-release-new-features/).
+You might also be interested in the article [Oracle Business Intelligence 12c release features](/how-to/oracle-business-intelligence-12c-release-new-features/).
 
 For more information,
 [contact us](https://www.tricoresolutions.com/about-us/contact-us/).

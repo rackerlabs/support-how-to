@@ -28,7 +28,7 @@ Complete the following steps to export the results of a search in the Archive Ma
 
 1.  Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
 
-    For more information, see [Log in to the Archive Manager](/support/how-to/log-in-to-the-archive-manager).
+    For more information, see [Log in to the Archive Manager](/how-to/log-in-to-the-archive-manager).
 
 2.  On the left side of the dashboard, click **Searches**.
 

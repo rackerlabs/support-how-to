@@ -20,7 +20,7 @@ using the CSR that you create here.
 
 **Note:** You can also generate a CSR and private key by using a
 [feature in the Cloud Control Panel](https://csrgenerator.rackspace.com/). For more
-information, see [Create a CSR in the Cloud Control Panel](/support/how-to/create-a-csr-in-the-cloud-control-panel).
+information, see [Create a CSR in the Cloud Control Panel](/how-to/create-a-csr-in-the-cloud-control-panel).
 
 ### Install OpenSSL
 
@@ -104,4 +104,4 @@ Submit the CSR that you created to a certificate authority. We recommend
 Verisign, Thawte and RapidSSL, but there are other certificate authorities that
 you can choose to use.
 
-**Next section** - [Install an SSL certificate on Apache](/support/how-to/installing-an-ssl-certificate-on-apache)
+**Next section** - [Install an SSL certificate on Apache](/how-to/installing-an-ssl-certificate-on-apache)
