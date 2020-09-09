@@ -49,7 +49,7 @@ Cloud Block Storage has the following limitations:
   to the volume after you configure it on your server.
 
 To get started with Cloud Block Storage, see [Create and attach a Cloud Block
-Storage volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume).
+Storage volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
 
 ### Use Cloud Backup for incremental backups
 
@@ -93,7 +93,7 @@ critical backups by keeping an **offsite copy** of the files and container
 structures that are used to restore those backups. An offsite copy is
 inaccessible to the bad actor who has your Rackspace login credentials. General
 instructions for how and why to use offsite copies are at the end of the article
-[Recovering from a Bad Actor Attack](/support/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
+[Recovering from a Bad Actor Attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
 
 #### Limitations of Cloud Backup
 
@@ -107,4 +107,4 @@ Cloud Backup has the following limitations:
   there are no-cost control options with different storage types.
 
 To get started with Cloud Backup, see the [Cloud Backup introduction
-page](/support/how-to/cloud-backup).
+page](/how-to/cloud-backup).

@@ -22,24 +22,24 @@ last_modified_by: Kyle Laffoon
 
 ### Popular articles from Rackspace How-To
 
-[Rackspace How-To](/support/how-to/) houses "how-to" articles, getting started guides, code samples, security best practices and hundreds of tips for getting the most out of your Cloud Servers. Check out these popular
+[Rackspace How-To](/how-to/) houses "how-to" articles, getting started guides, code samples, security best practices and hundreds of tips for getting the most out of your Cloud Servers. Check out these popular
 articles:
 
-- [Cloud Servers FAQ](/support/how-to/cloud-servers-faq)
+- [Cloud Servers FAQ](/how-to/cloud-servers-faq)
 
-- [Cloud Servers Overview](/support/how-to/getting-started-with-cloud-servers)
+- [Cloud Servers Overview](/how-to/getting-started-with-cloud-servers)
 
-- [Basic Cloud Server Security](/support/how-to/basic-cloud-server-security)
+- [Basic Cloud Server Security](/how-to/basic-cloud-server-security)
 
-- [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+- [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 
-- [Create DNS Records for cloud servers with the Control Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
+- [Create DNS Records for cloud servers with the Control Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
 
-- [CentOS 6 - Apache and PHP Install](/support/how-to/centos-6-apache-and-php-install)
+- [CentOS 6 - Apache and PHP Install](/how-to/centos-6-apache-and-php-install)
 
-- [MySQL - Connect to your database remotely](/support/how-to/mysql-connect-to-your-database-remotely)
+- [MySQL - Connect to your database remotely](/how-to/mysql-connect-to-your-database-remotely)
 
-- [Install EPEL and additional repositories on CentOS and Red Hat](/support/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat)
+- [Install EPEL and additional repositories on CentOS and Red Hat](/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat)
 
 ### Popular Technical Articles from the Rackspace Blog
 

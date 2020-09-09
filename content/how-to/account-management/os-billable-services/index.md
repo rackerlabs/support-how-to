@@ -16,8 +16,8 @@ Rackspace Fanatical Support™ Teams for help. With the *OS Billable Services*
 offering, Managed Infrastructure customers gain access to Rackspace Fanatical
 Support Teams to help complete Windows- or Linux-specific tasks
 that are within the
-[Linux®](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
-and [Windows®](/support/how-to/windows-spheres-of-support-for-dedicated-and-managed-ops)
+[Linux®](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
+and [Windows®](/how-to/windows-spheres-of-support-for-dedicated-and-managed-ops)
 Spheres of Support.
 
 ### Criteria and guidelines

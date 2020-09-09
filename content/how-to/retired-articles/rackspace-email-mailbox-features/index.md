@@ -23,7 +23,7 @@ group together - bob@domain.com, amy@domain.com, and scott@domain.com. You
 can create a group list for the team so that they can communicate new
 upcoming billing updates within the team, at billingupdates@domain.com.
 
-To set up a group list, follow the instructions in [Add a Rackspace Email group list](/support/how-to/adding-a-rackspace-email-group-list).
+To set up a group list, follow the instructions in [Add a Rackspace Email group list](/how-to/adding-a-rackspace-email-group-list).
 
 ### Aliases
 
@@ -32,7 +32,7 @@ For example, John likes to go by Johnny and would like to receive emails to both
 John@domain.com, for business partners, and Johnny@domain.com, for
 friends and family, without checking two different accounts.
 
-To setup an alias, follow the instructions in [Add an alias with Rackspace Email](/support/how-to/adding-an-alias-with-rackspace-email).
+To setup an alias, follow the instructions in [Add an alias with Rackspace Email](/how-to/adding-an-alias-with-rackspace-email).
 
 ### Webmail
 

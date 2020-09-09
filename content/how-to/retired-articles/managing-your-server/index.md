@@ -11,17 +11,17 @@ last_modified_by: Cat Lookabaugh
 
 ### Previous section
 
-[Create a Cloud Server](/support/how-to/create-a-cloud-server)
+[Create a Cloud Server](/how-to/create-a-cloud-server)
 
-Once you have learned how to [Create a new Cloud Server](/support/how-to/create-a-cloud-server),
+Once you have learned how to [Create a new Cloud Server](/how-to/create-a-cloud-server),
 you may use several of our tools that allow control over your server.
 
--   [Reboot Server](/support/how-to/reboot-your-server)
--   [Rebuild Server](/support/how-to/rebuild-a-cloud-server)
--   [Resize Server](/support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
+-   [Reboot Server](/how-to/reboot-your-server)
+-   [Rebuild Server](/how-to/rebuild-a-cloud-server)
+-   [Resize Server](/how-to/managing-your-server-resizing-standard-and-general-purpose-servers)
     (resize Standard Cloud Servers up or down and General Purpose Servers only up)
--   [Reset Password](/support/how-to/reset-your-server-password)
--   [Delete Server](/support/how-to/deleting-your-server)
+-   [Reset Password](/how-to/reset-your-server-password)
+-   [Delete Server](/how-to/deleting-your-server)
 
 To access these tools, begin by clicking on the hyperlinked name of your
 server under the **Cloud Servers** section to take you to the **Cloud
@@ -34,4 +34,4 @@ screen.
 
 ### Next section
 
-[Start a Console session](/support/how-to/start-a-console-session)
+[Start a Console session](/how-to/start-a-console-session)

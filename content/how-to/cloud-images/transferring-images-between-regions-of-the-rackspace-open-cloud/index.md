@@ -27,7 +27,7 @@ The following list presents introductory concepts that you should be aware of:
         server that is identical to the one that you have in the source region.
 -   Because not all images can be exported, not all images can
     be transferred. For details, see [How can I tell if an image can be
-    exported?](/support/how-to/cloud-images-faq) in the Cloud Images FAQ.
+    exported?](/how-to/cloud-images-faq) in the Cloud Images FAQ.
 -   Cloud Images uses JSON only and does not use XML.
 
 ### Working in the source region
@@ -42,7 +42,7 @@ To work in the source region, use the following steps:
     or the [Cloud Control Panel](https://login.rackspace.com) to create the
     image. For information about creating an image of a server by using the
     Cloud Control Panel, see [Create an image backup
-    (cloning)](/support/how-to/creating-an-image-backup-cloning/).
+    (cloning)](/how-to/creating-an-image-backup-cloning/).
 
 2.  Optionally, use the metadata function of the API to assign an
     identifying property to the image. If you want to transfer several
@@ -183,9 +183,9 @@ server.) How you accomplish this is up to you. Here are some suggestions:
 -   Use [turbolift](https://github.com/cloudnull/turbolift).
 -   Use [Swiftly](https://github.com/gholt/swiftly):
     -   [Use Swiftly to download an exported
-        image](/support/how-to/use-swiftly-to-download-an-exported-image).
+        image](/how-to/use-swiftly-to-download-an-exported-image).
     -   [Use Swiftly to upload an
-        image](/support/how-to/use-swiftly-to-upload-an-image).
+        image](/how-to/use-swiftly-to-upload-an-image).
 
 We don't recommend that you use the Cloud Control Panel for this operation.
 The large size of most images would likely result in a poor user experience.  
@@ -283,4 +283,4 @@ can import it for use with Cloud Servers.
 
 -   [Rackspace Cloud Images Developer
     Guide](https://docs.rackspace.com/docs/cloud-images/v2/)
--   [Cloud Images FAQ](/support/how-to/cloud-images-faq)
+-   [Cloud Images FAQ](/how-to/cloud-images-faq)

@@ -107,4 +107,4 @@ Also, verify that the dates of the events are within the time window specified b
 
 ### More information
 
-To learn more about the Rackspace Metrics product, see the [Rackspace Metrics Overview](/support/how-to/rackspace-metrics-overview/).
+To learn more about the Rackspace Metrics product, see the [Rackspace Metrics Overview](/how-to/rackspace-metrics-overview/).

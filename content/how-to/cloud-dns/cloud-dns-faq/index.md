@@ -79,7 +79,7 @@ To authenticate, you must supply your username and API access key in x-headers.
 
 -  Use your Rackspace Cloud username as the username for the API. Place it in
 the `XAuth-User` x-header.
--  [View and reset your API key](/support/how-to/view-and-reset-your-api-key/) in the
+-  [View and reset your API key](/how-to/view-and-reset-your-api-key/) in the
 Rackspace Cloud Control Panel. Place it in the `X-Auth-Key` x-header.
 
 For full authentication details, see the

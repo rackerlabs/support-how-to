@@ -37,7 +37,7 @@ For a DDoS, you might use a company that does DDoS mitigation. For example,
 Cloud Flare&reg; excels at providing protections for this scenario.
 
 Compromised servers are much trickier. According to the
-[Rackspace Terms of Service](/support/how-to/terms-of-service/),
+[Rackspace Terms of Service](/how-to/terms-of-service/),
 the customer is responsible for ensuring that their cloud servers are secured.
 
 ### What to do with compromised servers
@@ -49,8 +49,8 @@ The best course of action is to avoid compromise in the first place. See
 the following documents for some security suggestions:
 
 - [Best practices in the cloud](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-ops/bestpractice/)
-- [Windows Server security best practices](/support/how-to/windows-server-security-best-practices/)
-- [Best practices for firewall rules configuration](/support/how-to/best-practices-for-firewall-rules-configuration/)
+- [Windows Server security best practices](/how-to/windows-server-security-best-practices/)
+- [Best practices for firewall rules configuration](/how-to/best-practices-for-firewall-rules-configuration/)
 - [Controlling network traffic by using security groups and rules](https://docs.rackspace.com/docs/cloud-networks/v2/getting-started/controlling-network-access/security-groups/)
 
 ### Site and application configuration

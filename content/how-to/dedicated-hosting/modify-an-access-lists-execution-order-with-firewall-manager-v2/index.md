@@ -25,9 +25,9 @@ An access control entry (ACE) is an individual entry in an ACL. ACEs are referre
 
 For more information about how to view, add, and delete access-lists, see the following articles:
 
-- [View an access-list rule](/support/how-to/view-an-access-list-rules-with-firewall-manager-v2)
-- [Add an access-list rule](/support/how-to/add-an-access-list-rule-with-firewall-manager-v2)
-- [Delete an access-list rule](/support/how-to/delete-an-access-list-rule-with-firewall-manager-v2)
+- [View an access-list rule](/how-to/view-an-access-list-rules-with-firewall-manager-v2)
+- [Add an access-list rule](/how-to/add-an-access-list-rule-with-firewall-manager-v2)
+- [Delete an access-list rule](/how-to/delete-an-access-list-rule-with-firewall-manager-v2)
 
 ### Rule order and execution
 
@@ -41,7 +41,7 @@ Cisco firewalls also use a fail-close approach that means that there is an impli
 
 **Warning:** Because of a Cisco limitation, when you change the execution order of a rule, the rule is temporarily removed and then re-added. Do not change the execution order of a rule unless a momentary change in access for that rule is acceptable.
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/support/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see access-list rules.
 
@@ -63,13 +63,13 @@ Cisco firewalls also use a fail-close approach that means that there is an impli
 
 ### Related articles
 
-- [Firewall Manager v2 object-groups](/support/how-to/firewall-manager-v2-object-groups)
+- [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups)
 
-   - [View an object-group](/support/how-to/view-an-object-group-with-firewall-manager-v2)
-   - [Create an object-group](/support/how-to/create-an-object-group-with-firewall-manager-v2)
-   - [Modify an object-group](/support/how-to/modify-an-object-group-with-firewall-manager-v2)
-   - [Delete an object-group](/support/how-to/delete-an-object-group-with-firewall-manager-v2)
+   - [View an object-group](/how-to/view-an-object-group-with-firewall-manager-v2)
+   - [Create an object-group](/how-to/create-an-object-group-with-firewall-manager-v2)
+   - [Modify an object-group](/how-to/modify-an-object-group-with-firewall-manager-v2)
+   - [Delete an object-group](/how-to/delete-an-object-group-with-firewall-manager-v2)
 
-- [Firewall Manager v2 port-objects](/support/how-to/firewall-manager-v2-port-groups)
-- [Firewall Manager v2 change log](/support/how-to/firewall-manager-v2-change-log)
-- [Firewall Manager v2 access-list theory and best practices](/support/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
+- [Firewall Manager v2 port-objects](/how-to/firewall-manager-v2-port-groups)
+- [Firewall Manager v2 change log](/how-to/firewall-manager-v2-change-log)
+- [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices)

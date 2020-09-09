@@ -34,7 +34,7 @@ distributions, the default version of PHP is PHP 5.6, which is no longer support
 The IUS repositories contain versions of PHP up to 7.3, which is the latest 
 version available for RHEL 7 distributions.
 
-For more information the IUS Repository, see [Install EPEL and IUS repositories on CentOS and Red Hat](/support/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
+For more information the IUS Repository, see [Install EPEL and IUS repositories on CentOS and Red Hat](/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
 
 To install the IUS release package, run the following command:
 

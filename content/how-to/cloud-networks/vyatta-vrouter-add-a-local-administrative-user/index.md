@@ -35,7 +35,7 @@ If you do not have remote access to the vRouter, connect to the vRouter via the 
 
     **Note:** The vRouter does not use the *root* account. Its root-like account is the *Vyatta* account. Removal of this account is not recommended.
 
-**Tip:** At this point, you should follow the steps in [Vyatta vRouter: Allowing IP to access the vRouter via SSH](/support/how-to/vyatta-vrouter-allow-an-ip-address-to-access-the-vrouter-via-ssh).
+**Tip:** At this point, you should follow the steps in [Vyatta vRouter: Allowing IP to access the vRouter via SSH](/how-to/vyatta-vrouter-allow-an-ip-address-to-access-the-vrouter-via-ssh).
 
 ### Add a local administrative user
 

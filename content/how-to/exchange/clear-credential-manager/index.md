@@ -21,7 +21,7 @@ This article describes how to remove previously stored passwords from your Outlo
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Access to device with stored credentials
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Clear old credentials
 

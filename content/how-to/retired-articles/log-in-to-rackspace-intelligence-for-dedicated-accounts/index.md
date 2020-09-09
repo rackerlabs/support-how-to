@@ -29,7 +29,7 @@ After you have launched the **Entities** page, you can explore different
 features that pertain to your entities. For more information, see
 [Working with alarms, checks, entities, notifications, and notification
 plans in Rackspace Intelligence for dedicated
-accounts](/support/how-to/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace)
+accounts](/how-to/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace)
 and [Understanding the Rackspace Intelligence user interface for
 dedicated
-accounts](/support/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts).
+accounts](/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts).

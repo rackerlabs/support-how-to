@@ -21,7 +21,7 @@ This article describes the troubleshooting process for when an Exchange mailbox 
 - **Time needed:** Approximately 30 minutes to unlock mailbox
 - **Tools required:** [Cloud Office Control Panel](https://cp.rackspace.com) access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 **Warning:** You must gather all devices that can connect to the locked mailbox to successfully resolve the issue.
 
@@ -35,7 +35,7 @@ Answering yes to any of the following questions could mean that your Exchange ma
 
 - Have you attempted to log in to [apps.rackspace.com](https://apps.rackspace.com) without success?
 
-It could also be time to [update your password](/support/how-to/change-a-microsoft-exchange-mailbox-password) if you are having trouble remembering the current password.
+It could also be time to [update your password](/how-to/change-a-microsoft-exchange-mailbox-password) if you are having trouble remembering the current password.
 
 ### User instructions for mailbox lockouts
 

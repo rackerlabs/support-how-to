@@ -17,7 +17,7 @@ product_url: managed-operations
 The Rackspace Cloud environment has not been formally assessed for for
 compliance with the Payment Card Industry (PCI) Data Security Standard
 (DSS). For information about PCI-DSS, see [Cloud Security
-Solutions](/support/how-to/are-cloud-servers-pci-dss-compliant/). For
+Solutions](/how-to/are-cloud-servers-pci-dss-compliant/). For
 information about PCI-DSS when using Rackspace Dedicated Hosting
 services, see [PCI-Compliant Hosting for E-commerce
 Websites](https://www.rackspace.com/compliance/pci).
@@ -171,17 +171,17 @@ For additional information, see the following How-To articles:
 
 -   Cloud Server images - Create and restore images via our [Cloud
     Control
-    Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+    Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
     or
     [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
--   Rackspace Cloud Backup - Create and schedule [file-based backups](/support/how-to/rackspace-cloud-backup-create-a-backup).
+-   Rackspace Cloud Backup - Create and schedule [file-based backups](/how-to/rackspace-cloud-backup-create-a-backup).
 -   [Holland Backup Manager](https://hollandbackup.org/) - Find out about an open-source
     backup framework originally developed at Rackspace and written
     in Python.
 
 For a comparison of Cloud Server images and Rackspace Cloud Backup, see
 [Rackspace Cloud Backup vs. Cloud Server Image
-Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
+Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
 {{</accordion>}}
 {{<accordion title="Is my Rackspace Cloud Server with a Managed Operations Service Level account automatically backed up?" col="in" href="accordion17">}}
 
@@ -190,7 +190,7 @@ backups.
 
 For a comparison of Cloud Server images and Rackspace Cloud Backup, see
 [Rackspace Cloud Backup vs. Cloud Server Image
-Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
+Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
 {{</accordion>}}
 {{<accordion title="Will Rackspace troubleshoot programming or code for customers?" col="in" href="accordion18">}}
 
@@ -234,18 +234,18 @@ infrastructure layer support, and technical guidance for your Cloud
 Servers.
 
 -   [Rackspace Cloud Backup
-    FAQ](/support/how-to/cloud-backup-faq)
+    FAQ](/how-to/cloud-backup-faq)
 -   [Rackspace Cloud Backup: Getting Started
-    Guide](/support/how-to/cloud-backup)
+    Guide](/how-to/cloud-backup)
 -   [Rackspace Cloud Backup (File-Level) vs. Cloud Server
-    Images](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
+    Images](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups)
     -   Cloud Server images - Create and restore images via our [Cloud
         Control
-        Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+        Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
         or
         [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-image-of-specified-server).
     -   Rackspace Cloud Backup - Create and schedule [file-based
-        backups](/support/how-to/rackspace-cloud-backup-create-a-backup).
+        backups](/how-to/rackspace-cloud-backup-create-a-backup).
     -   [Holland Backup Manager](https://hollandbackup.org/) - Find information about an
         open-source backup framework originally developed at Rackspace
         and written in Python.

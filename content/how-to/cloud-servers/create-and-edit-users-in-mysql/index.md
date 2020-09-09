@@ -15,7 +15,7 @@ This article shows you how to create and edit users in MySQL&reg;.
 
 ### Log in
 
-1. [Log in to your cloud server](/support/how-to/connect-to-a-cloud-server/).
+1. [Log in to your cloud server](/how-to/connect-to-a-cloud-server/).
 2. Log in to MySQL by running the following command:
 
        mysql -u root -p

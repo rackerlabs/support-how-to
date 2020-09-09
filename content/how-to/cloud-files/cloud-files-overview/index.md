@@ -56,7 +56,7 @@ or mount virtual disk drives like you can with other forms of storage
 such as a storage area network (SAN) or network-attached storage (NAS).
 Because Cloud Files is a different kind of storage solution, we recommend that
 you take a few moments to [review some key
-concepts](/support/how-to/cloud-files-key-concepts).
+concepts](/how-to/cloud-files-key-concepts).
 
 ### Using Cloud Files
 

@@ -212,4 +212,4 @@ You must supply a valid SMTP hostname and user credentials for authentication. I
 
 ### Related article
 
-[Test CDOSYS SMTP functionality](/support/how-to/test-cdosys-smtp-functionality)
+[Test CDOSYS SMTP functionality](/how-to/test-cdosys-smtp-functionality)

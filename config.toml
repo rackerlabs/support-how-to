@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
@@ -9,7 +9,7 @@ languageCode = "en"
 metaDataFormat = "yaml"
 paginate = 10
 pluralizeListTitles = false
-relativeURLs = false
+relativeURLs = true
 disablePathToLower = true
 uglyURLs = false
 smartDashes = true
@@ -22,7 +22,7 @@ offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 canonifyURLs = true
 [permalinks]
-    how-to = "/how-to/:filename"
+    how-to = "/support/how-to/:filename"
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.asciidocExt]
@@ -91,17 +91,17 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "Support Network Home"
     parent = "Support Network"
-    url = "/support/"
+    url = "/support"
     weight = 1
 [[menu.footer]]
     name = "Rackspace How-To"
     parent = "Support Network"
-    url = "/support/how-to/"
+    url = "/support/how-to"
     weight = 2
 [[menu.footer]]
     name = "API Documentation"
     parent = "Support Network"
-    url = "/docs/"
+    url = "/docs"
     weight = 3
 [[menu.footer]]
     name = "Developer Center"
@@ -188,12 +188,12 @@ defaultMarkdownHandler = "goldmark"
 [[menu.main]]
     identifier = "support_home"
     name = "Support Home"
-    url = "/support/"
+    url = "/support"
     weight = 1
 [[menu.main]]
     identifier = "how_to"
     name = "How-To"
-    url = "/support/how-to/"
+    url = "/how-to"
     weight = 2
 [[menu.main]]
     identifier = "developer_documentation"

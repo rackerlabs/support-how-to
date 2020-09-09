@@ -20,9 +20,9 @@ This article explains email spoofing and describes the steps that you can take t
 - **Time needed:** Approximately 5 minutes
 - **Tools required:**  Email access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-If you prefer a video tutorial, see [Exchange - Spoofing: How to identify and protect your organization](https://emailhelp.rackspace.com/l/support/how-to-prevent-email-spoofing).
+If you prefer a video tutorial, see [Exchange - Spoofing: How to identify and protect your organization](https://emailhelp.rackspace.com/l/how-to-prevent-email-spoofing).
 
 ### What is email spoofing?
 
@@ -62,39 +62,39 @@ In the message header snippet shown above, the **From:** field shows the message
 
 You should blacklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
 
-For more information on viewing and understanding email headers, see [View and read email headers in the Outlook Web App](/support/how-to/view-and-read-email-headers-in-owa).
+For more information on viewing and understanding email headers, see [View and read email headers in the Outlook Web App](/how-to/view-and-read-email-headers-in-owa).
 
 ### Combat spoofing
 
 User education is the first line of defense against these types of attacks. If a user receives a spoofed message, they should perform the following tasks:
 
- - Blacklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** field that you have determined to be fraudulent. For instructions, see [Block senders in Outlook Web App](/support/how-to/block-senders-in-owa).
- - Immediately [change your email account password](/support/how-to/change-a-microsoft-exchange-mailbox-password) if you or your users provided that information at any point.
+ - Blacklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** field that you have determined to be fraudulent. For instructions, see [Block senders in Outlook Web App](/how-to/block-senders-in-owa).
+ - Immediately [change your email account password](/how-to/change-a-microsoft-exchange-mailbox-password) if you or your users provided that information at any point.
  - Alert all of your users to the situation.
 
 Spoofing is a frustrating issue to deal with because you cannot totally stop it with any single method. Spoofing is similar to writing paper letters and signing someone else's name to them. You can imagine how difficult that would be to trace.
 
 The most impactful change you can make as an administrator is to implement **Sender Policy Framework (SPF)**, **DomainKeys Identified Mail (DKIM)**, and **DomainKeys Identified Mail (DKIM)** records, in that order. These DNS records add extra layers of protection to prevent malicious email from being sent out using your domain name.
 
-   - **SPF** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing). The first step in the process is to [Create an SPF record policy](/support/how-to/create-an-spf-policy).
+   - **SPF** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing). The first step in the process is to [Create an SPF record policy](/how-to/create-an-spf-policy).
 
        **Note:** If you send email from external providers on behalf of your domain, you must include their sending servers in the same SPF record entry. Do not create multiple SPF records.
 
-   - **DKIM** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instructions to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/support/how-to/enable-dkim-in-the-cloud-office-control-panel). Creating a DKIM record is the second step in the process.
+   - **DKIM** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instructions to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel). Creating a DKIM record is the second step in the process.
 
-   - **DMARC** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC policy](/support/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records, which is the last step in the process.
+   - **DMARC** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC policy](/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records, which is the last step in the process.
 
-Record policies protect the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multistep process that you must carefully follow. For more information, see [Create a DMARC policy](/support/how-to/create-a-dmarc-policy).
+Record policies protect the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multistep process that you must carefully follow. For more information, see [Create a DMARC policy](/how-to/create-a-dmarc-policy).
 
 
 ### References
 
-- [Change a Microsoft Exchange mailbox password](/support/how-to/change-a-microsoft-exchange-mailbox-password)
-- [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology)
-- [Exchange - Spoofing: How to identify and protect your organization](https://emailhelp.rackspace.com/l/support/how-to-prevent-email-spoofing)
-- [Create an SPF record policy](/support/how-to/create-an-spf-policy)
-- [Enable DKIM in the Cloud Office Control Panel](/support/how-to/enable-dkim-in-the-cloud-office-control-panel)
-- [Create a DMARC policy](/support/how-to/create-a-dmarc-policy)
-- [View and read email headers in the Outlook Web App](/support/how-to/view-and-read-email-headers-in-owa)
-- [Block senders in Outlook Web App](/support/how-to/block-senders-in-owa)
-- [Change a Microsoft Exchange email mailbox password](/support/how-to/change-a-microsoft-exchange-mailbox-password)
+- [Change a Microsoft Exchange mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password)
+- [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
+- [Exchange - Spoofing: How to identify and protect your organization](https://emailhelp.rackspace.com/l/how-to-prevent-email-spoofing)
+- [Create an SPF record policy](/how-to/create-an-spf-policy)
+- [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel)
+- [Create a DMARC policy](/how-to/create-a-dmarc-policy)
+- [View and read email headers in the Outlook Web App](/how-to/view-and-read-email-headers-in-owa)
+- [Block senders in Outlook Web App](/how-to/block-senders-in-owa)
+- [Change a Microsoft Exchange email mailbox password](/how-to/change-a-microsoft-exchange-mailbox-password)

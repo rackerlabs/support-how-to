@@ -18,4 +18,4 @@ To set up Webmail Mobile Sync with your Rackspace Email account on your mobile d
 
 
 
-For more information about setting up email on mobile devices, see [Rackspace Email and Hosted Exchange settings](/support/how-to/rackspace-email-and-hosted-exchange-settings).
+For more information about setting up email on mobile devices, see [Rackspace Email and Hosted Exchange settings](/how-to/rackspace-email-and-hosted-exchange-settings).

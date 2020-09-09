@@ -13,7 +13,7 @@ product_url: rackspace-cdn
 
 This tutorial shows the basic steps for setting up the W3 Total Cache plug-in to work with Rackspace Content Delivery Network (CDN). Rackspace CDN is an origin pull CDN, which automatically pulls the content from your web servers and stores a cached copy of the assets on the remote edge nodes. When you use an origin pull CDN, it is common to set up a subdomain and host only static assets such as CSS, JavaScript, and images.
 
-**Note:** Origin pull CDNs work better for sites that experience consistently moderate to high levels of traffic. If your site frequently experiences surges in traffic that might require servers to scale up or down, see [Configure W3 Total Cache for WordPress with Rackspace Cloud Files](/support/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn).
+**Note:** Origin pull CDNs work better for sites that experience consistently moderate to high levels of traffic. If your site frequently experiences surges in traffic that might require servers to scale up or down, see [Configure W3 Total Cache for WordPress with Rackspace Cloud Files](/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn).
 
 ### Prerequisite
 
@@ -61,4 +61,4 @@ A WordPress website and database
 
    {{<image alt="fill in the information to create a new service" src="configure-w3-mycloud-Setup-Origin-CDN.png" title="fill in the information to create a new service">}}
 
-You must set up the new CDN service in your domain's DNS before it is active. For information about enabling Rackspace CDN, see [Change DNS to enable Rackspace CDN](/support/how-to/change-dns-to-enable-rackspace-cdn).
+You must set up the new CDN service in your domain's DNS before it is active. For information about enabling Rackspace CDN, see [Change DNS to enable Rackspace CDN](/how-to/change-dns-to-enable-rackspace-cdn).

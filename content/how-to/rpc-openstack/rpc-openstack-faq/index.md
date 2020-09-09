@@ -30,7 +30,7 @@ they can focus on their core business and applications.
 {{</accordion>}}
 {{<accordion title="What new enhancements were delivered with the latest release of Rackspace Private Cloud?" col="in" href="accordion2">}}
 
-See [Rackspace Private Cloud Powered by OpenStack](/support/how-to//rpc-openstack/)
+See [Rackspace Private Cloud Powered by OpenStack](/how-to//rpc-openstack/)
 for the latest release notes.
 {{</accordion>}}
 {{<accordion title="What support services are available for Rackspace Private Cloud?" col="in" href="accordion3">}}

@@ -10,7 +10,7 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-**Note:** This feature is currently an [Early Access](/support/how-to/rackspace-product-release-phases/) feature and is therefore subject to additional [test terms](https://www.rackspace.com/information/legal/testterms).
+**Note:** This feature is currently an [Early Access](/how-to/rackspace-product-release-phases/) feature and is therefore subject to additional [test terms](https://www.rackspace.com/information/legal/testterms).
 
 Cloud Databases now offers the ability to replicate database backups to other regions. Replicating database backups can protect against total outages in one region or more easily facilitate migration of Cloud Databases from one region to another.
 
@@ -20,7 +20,7 @@ Each backup copy costs the same as the original backup: by size of backup in Clo
 
 ### Copy a single backup to another region
 
-Use the following steps to copy individual backups from one region to another. These steps assume that you already have database backups available in your cloud account. For instructions on how to create backups, see [Managing Backups for Cloud Databases](/support/how-to/managing-backups-for-cloud-databases/).
+Use the following steps to copy individual backups from one region to another. These steps assume that you already have database backups available in your cloud account. For instructions on how to create backups, see [Managing Backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases/).
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
@@ -46,8 +46,8 @@ You can now use the copied backup to create new instances or just as an addition
 
 ### Limitations
 
-This feature is provided as an [EA](/support/how-to/rackspace-product-release-phases/) feature and therefore carries different [test terms](https://www.rackspace.com/information/legal/testterms) and additional limitations. It is not yet recommended for production use cases.
+This feature is provided as an [EA](/how-to/rackspace-product-release-phases/) feature and therefore carries different [test terms](https://www.rackspace.com/information/legal/testterms) and additional limitations. It is not yet recommended for production use cases.
 
 - This feature is available only in US regions (IAD, ORD, and DFW). Copies to or from the LON, SYD, or HKG regions are not available at this time.
 - Incremental backups can be copied only if the related full backup has been copied.
-- You cannot delete a copied backup. Because this feature is still [EA](/support/how-to/rackspace-product-release-phases/) and we will be continually improving it, we want to protect against inadvertently deleting a good backup at this time.
+- You cannot delete a copied backup. Because this feature is still [EA](/how-to/rackspace-product-release-phases/) and we will be continually improving it, we want to protect against inadvertently deleting a good backup at this time.

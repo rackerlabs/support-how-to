@@ -18,7 +18,7 @@ product_url: office-365
 - **Time Needed:** Approximately 10 minutes
 - **Tools Needed:** Office 365&reg; Global Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 This article lists the steps to access and view the audit logs for your Office 365 organization and users.
 

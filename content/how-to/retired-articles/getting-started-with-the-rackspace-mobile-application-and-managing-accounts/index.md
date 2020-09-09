@@ -81,7 +81,7 @@ On your server list, select the cloud server you want to manage. Once on
 your Server Details page you will be able to Rebuild, Reboot, and Rename
 your server.
 
-**Note**: If you need to changed the size of your server, see [Changing the size of your General Purpose Cloud Server](/support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
+**Note**: If you need to changed the size of your server, see [Changing the size of your General Purpose Cloud Server](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers).
 
 - **Rebuild** - Tap the Image button. You are prompted to confirm the Rebuild.
 

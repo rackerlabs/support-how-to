@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section** - [GlusterFS build steps](/support/how-to/getting-started-with-glusterfs-considerations-and-installation)
+**Previous section** - [GlusterFS build steps](/how-to/getting-started-with-glusterfs-considerations-and-installation)
 
 This article describes two GlusterFS issues that you might encounter and provides steps for resolving them:
 
@@ -138,4 +138,4 @@ On one of the nodes, the file itself, as well as the associated GFID file (in th
     [root@gluster4 ~]# cat /var/lib/gvol0/brick4/testfile.txt
     This is version 1 of the file
 
-**Next section** - [GlusterFS HA and load balancing](/support/how-to/glusterfs-high-availability-through-ctdb)
+**Next section** - [GlusterFS HA and load balancing](/how-to/glusterfs-high-availability-through-ctdb)

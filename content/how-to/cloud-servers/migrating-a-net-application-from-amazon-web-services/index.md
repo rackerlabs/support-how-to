@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 This article describes the migration of a .NET web application from
 Amazon Web Services (AWS) to Rackspace Cloud. It takes an estimated 30
@@ -33,7 +33,7 @@ following figure:
 
 -   Identify the resources to migrate, including application and
     database resources.
--   If you have not already, [create a Cloud Server instance](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+-   If you have not already, [create a Cloud Server instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
     and any supporting Rackspace Cloud services.
 
 ### Install software packages
@@ -55,7 +55,7 @@ following figure:
 ### Back up data from AWS to Rackspace Cloud Files
 
 Using the FTP client that you installed in the preceding section, upload the .NET project folder to the Rackspace Cloud Files container
-that you created in the article [Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services/).
+that you created in the article [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services/).
 
 ### Restore data from Cloud Files to Cloud Servers
 
@@ -76,10 +76,10 @@ Click on **Browse \*:80 (http)** to see the application in the browser.
 
 ### Next step
 
-[Post-migration considerations when migrating from Amazon Web Services](/support/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
+[Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
--   [Migrate an application built on a LAMP stack from Amazon Web Services](/support/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
--   [Migrate a Java web application from Amazon Web Services](/support/how-to/migrating-a-java-web-application-from-amazon-web-services)
--   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/support/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+-   [Migrate an application built on a LAMP stack from Amazon Web Services](/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services)
+-   [Migrate a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+-   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)

@@ -26,4 +26,4 @@ administrators have access to only specifically assigned sections of the
 Control Panel. You can also monitor and export logs of all administrator
 logins and actions.
 
-For more information, see [Manage email administrators with the Cloud Office Control Panel](/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel).
+For more information, see [Manage email administrators with the Cloud Office Control Panel](/how-to/manage-email-administrators-with-the-cloud-office-control-panel).

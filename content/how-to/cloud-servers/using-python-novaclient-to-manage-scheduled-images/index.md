@@ -57,9 +57,9 @@ First, if you haven't used python-novaclient before, take a look at one
 of these How-To articles:
 
 -   [Installing python-novaclient on Linux and Mac
-    OS](/support/how-to/installing-python-novaclient-on-linux-and-mac-os)
+    OS](/how-to/installing-python-novaclient-on-linux-and-mac-os)
 -   [Installing python-novaclient on
-    Windows](/support/how-to/installing-python-novaclient-on-windows)
+    Windows](/how-to/installing-python-novaclient-on-windows)
 
 These articles will provide you with an overview of python-novaclient
 and complete instructions for installing it on your operating system of
@@ -273,6 +273,6 @@ done through the API or python-novaclient.
 ### More Information
 
 -   [Scheduled Images
-    FAQ](/support/how-to/scheduled-images-faq "Scheduled Images FAQ")
+    FAQ](/how-to/scheduled-images-faq "Scheduled Images FAQ")
 -   [Scheduled Images API Extension
     Documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#document-extensions/ext-scheduled-images)

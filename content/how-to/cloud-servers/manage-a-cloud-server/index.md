@@ -42,7 +42,7 @@ You can rename your server or add tags (descriptive labels) to it:
 
 - Click **Rename** to change the server name.
 - Click **Add Tag** to add new tags or remove existing tags.  For more
-information on tags, see [Using Tags](/support/how-to/using-cloud-servers-tags).
+information on tags, see [Using Tags](/how-to/using-cloud-servers-tags).
 
 #### Image and recover your server
 
@@ -88,4 +88,4 @@ You specify the required information in the popup dialog box and then click
 
 ### Related Information
 
-[Learn More About Cloud Servers](/support/how-to/learn-more-about-cloud-servers)
+[Learn More About Cloud Servers](/how-to/learn-more-about-cloud-servers)

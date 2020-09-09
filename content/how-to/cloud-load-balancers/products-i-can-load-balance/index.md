@@ -35,4 +35,4 @@ region of the load balancer can impact performance of the load balancer.
 We recommend creating the load balancer in the region that is closest to
 your external nodes.
 
-For more information, see [Load Balancing Internal IPs in the same region](/support/how-to/load-balancing-internal-ips-in-the-same-region).
+For more information, see [Load Balancing Internal IPs in the same region](/how-to/load-balancing-internal-ips-in-the-same-region).

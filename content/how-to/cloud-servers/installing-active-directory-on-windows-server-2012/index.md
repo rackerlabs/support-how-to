@@ -21,7 +21,7 @@ controller for an existing Active Directory forest.
 Services (AD DS) role on Microsoft Windows Server 2008 R2 Enterprise 64-bit
 (W2K8), see [Install Active Directory Domain Services on Windows Server 2008
 R2 Enterprise
-64-bit](/support/how-to/installing-active-directory-domain-services-on-windows-server-2008-r2-enterprise-64-bit).
+64-bit](/how-to/installing-active-directory-domain-services-on-windows-server-2008-r2-enterprise-64-bit).
 
 ### Install Active Directory
 

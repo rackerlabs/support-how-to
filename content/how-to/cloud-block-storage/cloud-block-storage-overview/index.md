@@ -24,7 +24,7 @@ leveraging the power of the Cloud, you only pay for what you use. Cloud
 Block Storage offers you power and ease with the kind of storage that
 works for you. For information on Cloud Block Storage and Cloud Backup
 options on General Purpose servers, see [
-Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
+Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
 
 There are two types of volumes that you can attach to your server:
 
@@ -102,12 +102,12 @@ Storage uses:
 
 In this product overview, you learn how to perform the following tasks:
 
--   [Create and attach a volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume).
--   [Prepare your volume for use with a server (Linux or Windows)](/support/how-to/create-and-attach-a-cloud-block-storage-volume).
--   [Take snapshots of your volume](/support/how-to/create-and-use-cloud-block-storage-snapshots).
--   [Detach and delete a volume](/support/how-to/detach-and-delete-cloud-block-storage-volumes).
--   [Attach a Cloud Block Storage volume to an OnMetal server](/support/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server).
+-   [Create and attach a volume](/how-to/create-and-attach-a-cloud-block-storage-volume).
+-   [Prepare your volume for use with a server (Linux or Windows)](/how-to/create-and-attach-a-cloud-block-storage-volume).
+-   [Take snapshots of your volume](/how-to/create-and-use-cloud-block-storage-snapshots).
+-   [Detach and delete a volume](/how-to/detach-and-delete-cloud-block-storage-volumes).
+-   [Attach a Cloud Block Storage volume to an OnMetal server](/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server).
 
 
 Let's get started and [create your first
-volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume).
+volume](/how-to/create-and-attach-a-cloud-block-storage-volume).

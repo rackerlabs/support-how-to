@@ -15,7 +15,7 @@ This article demonstrates how to configure an IP address to connect to a Brocade
 
 ### Connect to the vRouter
 
-**Note:** After you've accessed the vRouter, you should add a local user. If you are not logged in via SSH as the user *Vyatta* or as an administrative user, then access the vRouter remotely or through the console, then add a local user. Follow the procedure described in [Vyatta vRouter: Adding a local administrative user](/support/how-to/vyatta-vrouter-add-a-local-administrative-user).
+**Note:** After you've accessed the vRouter, you should add a local user. If you are not logged in via SSH as the user *Vyatta* or as an administrative user, then access the vRouter remotely or through the console, then add a local user. Follow the procedure described in [Vyatta vRouter: Adding a local administrative user](/how-to/vyatta-vrouter-add-a-local-administrative-user).
 
 ### Add the IP address to the SSH group
 
@@ -38,6 +38,6 @@ Verify that the group is applied to the vRouter's local firewall of the public i
 
 ### More information about SSH
 
--  [Connecting to a server using SSH on Linux or Mac OS](/support/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
--  [Rackspace Cloud Essentials - Checking a server's SSH host fingerprint with the web console](/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
--  [Generating RSA Keys With SSH - PuTTYgen](/support/how-to/generating-rsa-keys-with-ssh-puttygen)
+-  [Connecting to a server using SSH on Linux or Mac OS](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
+-  [Rackspace Cloud Essentials - Checking a server's SSH host fingerprint with the web console](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
+-  [Generating RSA Keys With SSH - PuTTYgen](/how-to/generating-rsa-keys-with-ssh-puttygen)

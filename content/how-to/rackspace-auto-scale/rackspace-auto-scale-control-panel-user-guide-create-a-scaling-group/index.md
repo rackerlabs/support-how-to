@@ -12,7 +12,7 @@ product_url: rackspace-auto-scale
 ---
 
 The
-[Concepts](/support/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts") article
+[Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts") article
 reviews what Auto Scale does and the core concepts that drive it. This
 article provides instructions on how to set the parameters for scaling
 policies through scaling group configuration. The scaling group
@@ -90,7 +90,7 @@ policies operate.
     group without any scaling policies, but no scaling actions will
     occur until you create policies for the scaling group. If you
     haven't configured any scaling policies yet, see [Create a scaling
-    policy](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy).
+    policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy).
 
 15. When you are done, click **Create Scaling Group**.
 
@@ -135,7 +135,7 @@ Following are a few things you should know about the pages in the Auto Scale con
 
 ### User Guide sections
 
--   [Rackspace Auto Scale Control Panel User Guide - Introduction](/support/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
--   [Rackspace Auto Scale Control Panel User Guide - Concepts](/support/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling group](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
--   [Rackspace Auto Scale Control Panel User Guide - Create a scaling policy](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Creating Scaling Policies")
+-   [Rackspace Auto Scale Control Panel User Guide - Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction "Introduction")
+-   [Rackspace Auto Scale Control Panel User Guide - Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts "Concepts")
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group "Creating Scaling Groups")
+-   [Rackspace Auto Scale Control Panel User Guide - Create a scaling policy](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy "Creating Scaling Policies")

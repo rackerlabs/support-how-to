@@ -22,7 +22,7 @@ Complete the following steps to create a login message for Archive Manager users
 1\. Log in to the [Archive
     Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
     For more information, see [Log in to the Archive
-    Manager](/support/how-to/log-in-to-the-archive-manager).
+    Manager](/how-to/log-in-to-the-archive-manager).
 
 2\. Click **Admin** in the upper-right corner.
 

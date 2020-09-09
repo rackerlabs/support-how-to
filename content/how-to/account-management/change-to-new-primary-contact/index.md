@@ -20,7 +20,7 @@ Contact Change** form and submit it by using a support ticket.
 
 You can download this form directly from the Cloud Control Panel or MyRackspace Control Panel by using the following steps:
 
-**Note:** Before completing the form to change a primary contact, read the "Best practices for legal change forms" section of [Change account information](/support/how-to/change-account-information).
+**Note:** Before completing the form to change a primary contact, read the "Best practices for legal change forms" section of [Change account information](/how-to/change-account-information).
 
 #### MyRackspace Control Panel (Dedicated customers)
 
@@ -57,4 +57,4 @@ Use the following steps to submit a ticket to change the primary contact for you
 8. Click **Create Ticket**.
 
 To learn more about changing your cloud account's information, see
-[Change account information](/support/how-to/change-account-information).
+[Change account information](/how-to/change-account-information).

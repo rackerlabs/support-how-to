@@ -14,7 +14,7 @@ product_url: cloud-servers
 ### Applying knowledge
 
 In the [previous
-article](/support/how-to/understanding-logrotate-utility)
+article](/how-to/understanding-logrotate-utility)
 we talked about what logrotate does and how you can configure it. In
 this article we'll apply this new knowledge to putting together a log
 rotation solution for a custom virtual host or two (or three, or four,

@@ -27,9 +27,9 @@ matrix.
 ### Rackspace Monitoring support for Cloud Servers
 
 For a list of the operating systems and other features that are
-officially supported by Rackspace Monitoring, refer to the [Linux Spheres of Support for Dedicated and Managed Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
+officially supported by Rackspace Monitoring, refer to the [Linux Spheres of Support for Dedicated and Managed Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
 and [Cloud Servers with Managed Operations support for
-Windows](/support/how-to/cloud-servers-with-managed-operations-support-for-windows)
+Windows](/how-to/cloud-servers-with-managed-operations-support-for-windows)
 articles.
 
 **Note:** Managed Operations

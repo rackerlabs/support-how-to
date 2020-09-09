@@ -18,13 +18,13 @@ server can be a straightforward process with some planning and preparation.
 ### Preparation
 
 For detailed advice on preparing a server for migration, see the recommendations
-in [Prepare to migrate a Linux server](/support/how-to/prepare-to-migrate-a-linux-server)
-or [Prepare to migrate a Windows server](/support/how-to/prepare-to-migrate-a-windows-server/).
+in [Prepare to migrate a Linux server](/how-to/prepare-to-migrate-a-linux-server)
+or [Prepare to migrate a Windows server](/how-to/prepare-to-migrate-a-windows-server/).
 You can reduce the amount of data to be migrated by deleting old installers,
 rotating logs, and removing old cache and session files.
 
 You can also find a list of items to consider before migrating in this
-[article](/support/how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/).
+[article](/how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/).
 
 If you plan to remove files from your server to speed up your migration, we
 recommend that you create a backup first to ensure that no essential data is lost.
@@ -44,7 +44,7 @@ be able to resize it down to 4 GB or smaller and then create an image to build
 a General Purpose server.
 
 To test whether or not image of your server is too large, use the steps in
-[this article](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+[this article](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
 to try to restore the image to a new server. If the image size is too
 large for a General Purpose server, you won't have the option to create a General
 Purpose server.
@@ -122,7 +122,7 @@ traffic to the different servers. Horizontal scaling might not work with all
 applications, but after it is set up, you can easily add or remove servers to
 account for fluctuating load requirements.
 
-The [open cloud reference architectures](/support/how-to/rackspace-open-cloud-reference-architecture)
+The [open cloud reference architectures](/how-to/rackspace-open-cloud-reference-architecture)
 article provides some example environments.
 
 **Note:** If you are currently using Performance servers, note that the
@@ -130,7 +130,7 @@ data disks are not captured when you create an image. To back up data disks, you
 must rely on Rackspace Cloud Backup or a similar file-based backup approach.
 If you want your additional storage to be more portable or need to be able to
 take data snapshots, consider
-[adding one or more Cloud Block Storage volumes](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
+[adding one or more Cloud Block Storage volumes](/how-to/create-and-attach-a-cloud-block-storage-volume)
 to the new server.
 
 #### Format and configure any Cloud Block Storage volumes or data disks
@@ -139,15 +139,15 @@ After you create your server, prepare any attached data disks or Cloud Block
 Storage volumes by formatting them and configuring the system to use them.
 
 If you've attached Cloud Block Storage volumes, see
-[Prepare your Cloud Block Storage volume](/support/how-to/prepare-your-cloud-block-storage-volume)
+[Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume)
 for more information.
 
 For instructions on formatting and mounting data disks on I/O-optimized
 servers, see the following article that is appropriate for your server's
 operating system:
 
-- [Prepare data disks on a Windows Cloud Servers](/support/how-to/preparing-data-disks-on-windows-cloud-servers)
-- [Prepare data disks on a Linux Cloud Servers](/support/how-to/preparing-data-disks-on-linux-cloud-servers)
+- [Prepare data disks on a Windows Cloud Servers](/how-to/preparing-data-disks-on-windows-cloud-servers)
+- [Prepare data disks on a Linux Cloud Servers](/how-to/preparing-data-disks-on-linux-cloud-servers)
 
 If you are setting up attached volumes in a software RAID on Linux, see the
 [Linux Software-RAID HOWTO](https://www.tldp.org/HOWTO/Software-RAID-HOWTO.html)
@@ -163,13 +163,13 @@ Deploy or the Microsoft Web Farm Framework (WFF).
 
 #### Cloud Backup
 
-To migrate particular directories, you can use [Cloud Backup](/support/how-to/cloud-backup).
+To migrate particular directories, you can use [Cloud Backup](/how-to/cloud-backup).
 Create a backup of your data on the origin server and then restore it to the
 destination server.
 
 #### Cloud Block Storage
 
-To migrate specific data, you can use [Cloud Block Storage](/support/how-to/cloud-block-storage-overview).
+To migrate specific data, you can use [Cloud Block Storage](/how-to/cloud-block-storage-overview).
 Attach the drive to your origin server and copy your data to it. Then detach the
 drive from the origin server, attach it to the destination server, and copy your
 data from the drive.
@@ -181,13 +181,13 @@ example, from the origin server you can run the following command to copy `/var/
 
     rsync -e 'ssh' -avl --stats --progress /var/lib/mysql username@123.45.67.89:/var/lib/mysql
 
-For more information about rsync, see [Back up your files with rsync](/support/how-to/backing-up-your-files-with-rsync).
+For more information about rsync, see [Back up your files with rsync](/how-to/backing-up-your-files-with-rsync).
 
 #### Full Linux migration with rsync
 
 If you want to migrate a Linux server to a new General Purpose server, you can
 use rsync to migrate your server from the command line. See
-[Migrating a Linux server from the command line](/support/how-to/migrating-a-linux-server-from-the-command-line-1).
+[Migrating a Linux server from the command line](/how-to/migrating-a-linux-server-from-the-command-line-1).
 
 #### WFF on Windows 2008
 
@@ -197,7 +197,7 @@ WFF.
 #### Web Deploy on Windows 2012
 
 To migrate IIS and SQL Server data on Windows 2012, you can use the Microsoft
-Web Deploy tool. See [Launch a Windows Web Farm with Web Deploy](/support/how-to/launch-a-windows-web-farm-with-web-deploy).
+Web Deploy tool. See [Launch a Windows Web Farm with Web Deploy](/how-to/launch-a-windows-web-farm-with-web-deploy).
 
 #### Application-specific options
 

@@ -18,9 +18,9 @@ You can use the Cloud Control Panel or the [Cloud Servers API](https://docs.rack
 
 ### Using the Cloud Control Panel with Cloud Networks
 
-- [Attach an isolated network to a new Cloud Server](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an isolated Cloud Network")
-- [Removing networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server "Removing networks from a Cloud Server")
-- [Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
+- [Attach an isolated network to a new Cloud Server](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an isolated Cloud Network")
+- [Removing networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server "Removing networks from a Cloud Server")
+- [Using CIDR notation in Cloud Networks](/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
 
 ### Using the Cloud Networks API
 
@@ -34,7 +34,7 @@ The Fortinet Fortigate-VM is a next-generation firewall (NGFW) and unified threa
 - [Launching FortiGate on Rackspace](https://docs2.fortinet.com/vm/rackspace/fortigate/6.0/rackspace-cookbook/6.0.4/962534/launching-fortigate-on-rackspace)
 - [Connecting to the FortiGate](https://docs2.fortinet.com/vm/rackspace/fortigate/6.0/rackspace-cookbook/6.0.4/956706/connecting-to-the-fortigate)
 - [Building a server behind the FortiGate](https://docs2.fortinet.com/vm/rackspace/fortigate/6.0/rackspace-cookbook/6.0.4/57735/building-a-server-behind-the-fortigate)
-- [Attach a Cloud Network to an Existing Fortigate-VM](/support/how-to/attach-a-cloud-network-to-an-existing-fortigate-vm/ "Attach a Cloud Network to an Existing Fortigate-VM")
-- [Back up the Fortinet Fortigate-VM](/support/how-to/back-up-the-fortinet-fortigate-vm/ "Back up the Fortinet Fortigate-VM")
-- [Using Configure as Gateway for virtual net devices](/support/how-to/using-configure-as-a-gateway-for-virtual-net-devices/ "Using Configure as Gateway for virtual net devices")
-- [Rackspace Cloud Servers features that are not available on the Fortigate-VM](/support/how-to/rackspace-cloud-servers-features-that-are-not-available-on-the-fortigate-vm/ "Rackspace Cloud Servers features that are not available on the Fortigate-VM")
+- [Attach a Cloud Network to an Existing Fortigate-VM](/how-to/attach-a-cloud-network-to-an-existing-fortigate-vm/ "Attach a Cloud Network to an Existing Fortigate-VM")
+- [Back up the Fortinet Fortigate-VM](/how-to/back-up-the-fortinet-fortigate-vm/ "Back up the Fortinet Fortigate-VM")
+- [Using Configure as Gateway for virtual net devices](/how-to/using-configure-as-a-gateway-for-virtual-net-devices/ "Using Configure as Gateway for virtual net devices")
+- [Rackspace Cloud Servers features that are not available on the Fortigate-VM](/how-to/rackspace-cloud-servers-features-that-are-not-available-on-the-fortigate-vm/ "Rackspace Cloud Servers features that are not available on the Fortigate-VM")

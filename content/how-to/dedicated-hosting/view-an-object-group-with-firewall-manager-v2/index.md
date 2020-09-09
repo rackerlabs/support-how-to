@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a tool within the MyRackspace Portal. This article describes how to view object-groups, an easy to use feature that groups and sorts like items such as Internet protocol (IP) addresses, ports, or protocols.
 
-To learn more about the tool, see [Firewall Manager v2](/support/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
 
 ### Why should I use an object-group?
 
@@ -21,9 +21,9 @@ Object-groups improve the organization and readability of a firewall's running c
 
 In Firewall Manager v2, object-groups are referred to as *IP groups*. You can view, create, modify, and delete any object-group on your firewall. For more information, see the following articles:
 
-- [Add an object-group](/support/how-to/create-an-object-group-with-firewall-manager-v2)
-- [Modify an object-group](/support/how-to/modify-an-object-group-with-firewall-manager-v2)
-- [Delete an object-group](/support/how-to/delete-an-object-group-with-firewall-manager-v2)
+- [Add an object-group](/how-to/create-an-object-group-with-firewall-manager-v2)
+- [Modify an object-group](/how-to/modify-an-object-group-with-firewall-manager-v2)
+- [Delete an object-group](/how-to/delete-an-object-group-with-firewall-manager-v2)
 
 ### View object-groups
 
@@ -47,7 +47,7 @@ You can also search the contents of an object-group. This feature enables you to
 
 ### Related articles
 
-- [Firewall Manager v2 access-list theory and best practices](/support/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
-- [Firewall Manager v2 access-list rules](/support/how-to/firewall-manager-v2-access-list-rules)
-- [Firewall Manager v2 port-objects](/support/how-to/firewall-manager-v2-port-groups)
-- [Firewall Manager v2 change log](/support/how-to/firewall-manager-v2-change-log)
+- [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
+- [Firewall Manager v2 access-list rules](/how-to/firewall-manager-v2-access-list-rules)
+- [Firewall Manager v2 port-objects](/how-to/firewall-manager-v2-port-groups)
+- [Firewall Manager v2 change log](/how-to/firewall-manager-v2-change-log)

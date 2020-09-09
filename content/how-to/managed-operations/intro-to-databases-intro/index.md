@@ -26,4 +26,4 @@ Services](https://www.rackspace.com/en-us/digital/rackspace-application-services
 
 ### Next step
 
-[Types of databases](/support/how-to/types-of-databases/)
+[Types of databases](/how-to/types-of-databases/)

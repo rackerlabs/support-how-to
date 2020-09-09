@@ -21,7 +21,7 @@ This article describes which features are available in Hosted Microsoft Skype fo
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 ### Available features
 
@@ -46,6 +46,6 @@ The following table describes which features are available in Hosted Skype for B
 |Schedule web conferences| | &#10003;
 |Maximum number of people who are allowed to attend a meeting organized by user with this type of license| 100 | 250 |
 
-If you want to upgrade your Hosted Microsoft Exchange and Skype for Business to our Office 365 offering, see [Rackspace Office 365](/support/how-to/office-365) for more information and next steps.
+If you want to upgrade your Hosted Microsoft Exchange and Skype for Business to our Office 365 offering, see [Rackspace Office 365](/how-to/office-365) for more information and next steps.
 
 **Note:** Skype for Business Dial-in Conferencing is not supported for both licenses.

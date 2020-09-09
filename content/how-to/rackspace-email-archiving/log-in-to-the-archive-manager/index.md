@@ -20,7 +20,7 @@ This article describes how to log in to your Rackspace Hosted Email Archive.
 - **Time needed:** Approximately 5 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Log in to the Archive Manager
 
@@ -35,4 +35,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    {{<image src="manage_archive.png" alt="" title="">}}
 
-After you are logged into your Rackspace Hosted Email Archive, you can perform many additional functions such as [creating searches](/support/how-to/create-an-archive-search), [exporting searches](/support/how-to/export-archive-search-results-in-cloud-office), [adding archive users](/support/how-to/add-and-edit-archive-users-in-cloud-office), and more.
+After you are logged into your Rackspace Hosted Email Archive, you can perform many additional functions such as [creating searches](/how-to/create-an-archive-search), [exporting searches](/how-to/export-archive-search-results-in-cloud-office), [adding archive users](/how-to/add-and-edit-archive-users-in-cloud-office), and more.

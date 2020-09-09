@@ -15,7 +15,7 @@ Modifying your hosts file enables you to override the domain name system
 (DNS) for a domain on a specific machine. [DNS management](https://www.rackspace.com/cloud/dns)
 is useful when you want to test your site without the test link prior to going live with SSL,
 verify that an alias site works prior to DNS changes, and for other DNS-related reasons.
-For information about changing your DNS settings, see [Changing DNS settings on Linux](/support/how-to/changing-dns-settings-on-linux).
+For information about changing your DNS settings, see [Changing DNS settings on Linux](/how-to/changing-dns-settings-on-linux).
 
 Modifying your hosts file causes your local machine to look directly at
 the Internet Protocol (IP) address that you specify. Rackspace offers

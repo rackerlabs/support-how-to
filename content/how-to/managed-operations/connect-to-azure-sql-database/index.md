@@ -17,7 +17,7 @@ This article describes how to connect to an Azure SQL Database.
 
 ### Prerequisite
 
-- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
+- Your login credentials for the Azure portal. For information about how to log in to the Azure portal, see [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
 
 ### Install the latest version of SQL Server Management Studio
 

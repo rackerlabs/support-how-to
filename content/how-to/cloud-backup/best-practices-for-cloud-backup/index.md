@@ -31,7 +31,7 @@ Following are the key features of Cloud Backup:
 -   Create unlimited backups.
 
 **Note:** Cloud Backup does not take snapshots of your server. To read more about
-how Cloud Backup differs from snapshots, see [Rackspace Cloud Backup vs. Cloud Server Image Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups). For backup consideration for your General Purpose server, see [Best practices for backing up your data: Cloud Block Storage versus Cloud Backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
+how Cloud Backup differs from snapshots, see [Rackspace Cloud Backup vs. Cloud Server Image Backups](/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups). For backup consideration for your General Purpose server, see [Best practices for backing up your data: Cloud Block Storage versus Cloud Backup](/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
 
 
 ### Key concepts
@@ -43,7 +43,7 @@ Knowing the language of backups can help you make informed decisions about your 
 - **Block**: A chunk of data from a file.
 - **Bundle**: Several blocks packaged together.
 - **Cloud Backup agent**: A program installed on your server that helps to perform backups and restores.
-- **Cloud Files**: Where your bundles and other files that are used to restore backups are stored. See [Rackspace Cloud Files](/support/how-to/cloud-files).
+- **Cloud Files**: Where your bundles and other files that are used to restore backups are stored. See [Rackspace Cloud Files](/how-to/cloud-files).
 - **Data churn**: How often a file changes.
 - **Encryption**: A method of scrambling the contents of data by using a key or a password so that only those who have the key or password can read the data.
 - **Restore**: To bring your system back to a previously saved state, usually using a backup as the checkpoint.
@@ -66,10 +66,10 @@ using Cloud Backup on the following directories:
 
 We *do not support* backing up the following items:
 
-- Running databases. To back up a database, see the article on [backing up databases](/support/how-to/rackspace-cloud-backup-backing-up-databases).
+- Running databases. To back up a database, see the article on [backing up databases](/how-to/rackspace-cloud-backup-backing-up-databases).
 - Caches and session files.
 - Frequently changing files, such as logs.
-- Root. To save all data and the server, [make an image of the server](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image) instead.
+- Root. To save all data and the server, [make an image of the server](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image) instead.
 
 These file types either change too rapidly (databases, logs, caches) or
 don't exist long enough (session files) to be backed up. You should
@@ -95,13 +95,13 @@ might make the difference between whether the company survives the attack or not
 
 It is possible to provide an extra layer of protection from such an attack for critical backups by keeping an **offsite copy** of the files and container structures that are used to restore
 those backups. An **offsite copy** is inaccessible to the bad actor who has your Rackspace login credentials. General instructions for how and why to use offsite copies are at the end of the article
-[Recovering from a Bad Actor Attack](/support/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
+[Recovering from a Bad Actor Attack](/how-to/use-cloud-backup-to-recover-from-a-bad-actor-attack/#related-comments).
 
 ### Backup and restore strategy best practices
 
 You can configure backups and restores in many ways. To make Cloud Backup work for you, it helps to understand some of the trade-offs you make when you configure the many options available to you.
 
-**Note:** With Performance Cloud Servers, Cloud Monitoring only monitors the system disk. The data disk is not monitored. For data disk backup, use [Cloud Block Storage](/support/how-to/cloud-block-storage-overview).
+**Note:** With Performance Cloud Servers, Cloud Monitoring only monitors the system disk. The data disk is not monitored. For data disk backup, use [Cloud Block Storage](/how-to/cloud-block-storage-overview).
 
 **Note:** When you configure your backup, choose your contact email carefully. If anything goes wrong, the first alert is sent to that email address.
 
@@ -167,7 +167,7 @@ system drive.
 
 On Linux cloud servers, the solution is to use an external drive for these
 files and create a mount point to the path of the log or database files.
-For information about the location of these paths, see the "Locations of Cloud Backup agent files" section in [Cloud Backup agent logging](/support/how-to/cloud-backup-agent-logging-basics).
+For information about the location of these paths, see the "Locations of Cloud Backup agent files" section in [Cloud Backup agent logging](/how-to/cloud-backup-agent-logging-basics).
 
 On Windows cloud servers, you can use the **AgentConfig.exe** tool located in the `C:\Program Files\Driveclient` folder to move these files from the system drive by using the following steps:
 
@@ -233,7 +233,7 @@ You can change the most commonly changed log file settings by using the **AgentC
 
 After you change any of these values, click **Save**.
 
-For more information, see [Cloud Backup agent logging](/support/how-to/cloud-backup-agent-logging-basics/).
+For more information, see [Cloud Backup agent logging](/how-to/cloud-backup-agent-logging-basics/).
 
 ### Frequently encountered issues
 

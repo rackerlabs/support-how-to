@@ -25,29 +25,29 @@ RackConnect is not RBAC-enabled.
 
 Product | Admin | Creator | Observer
 --- | --- | --- | ---
-[Cloud Servers](/support/how-to/permissions-matrix-for-next-generation-cloud-servers) | Yes | Yes | Yes
-[Cloud Files](/support/how-to/permissions-matrix-for-cloud-files) | Yes | No | Yes
-[Rackspace CDN](/support/how-to/permission-matrix-for-rackspace-cdn) || Yes | Yes | Yes
-[Cloud Databases](/support/how-to/permissions-matrix-for-cloud-databases) | Yes | Yes | Yes
-[Cloud Load Balancers](/support/how-to/permissions-matrix-for-cloud-load-balancers) | Yes | Yes | Yes
-[Cloud Queues](/support/how-to/permissions-matrix-for-cloud-queues) | Yes | Yes | Yes
-[Cloud Networks](/support/how-to/permissions-matrix-for-cloud-networks) | Yes | Yes | Yes
-[Cloud Monitoring](/support/how-to/permissions-matrix-for-rackspace-monitoring) | Yes | Yes | Yes
-[Cloud Block Storage](/support/how-to/permissions-matrix-for-cloud-block-storage) | Yes | Yes | Yes
-[Rackspace Auto Scale](/support/how-to/permissions-matrix-for-auto-scale) | Yes | No | Yes
-[Cloud Images](/support/how-to/detailed-permissions-matrix-for-cloud-images) | Yes | Yes | Yes
-[Cloud Big Data v1](/support/how-to/detailed-permissions-matrix-for-cloud-big-data) | Yes | Yes | Yes
-[Cloud Big Data v2](/support/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | Yes | Yes | Yes
-[Cloud Backup](/support/how-to/permission-matrix-for-cloud-backup) | Yes | Yes | Yes
-[Cloud Orchestration](/support/how-to/permissions-matrix-for-cloud-orchestration) | Yes | Yes | Yes
-[Cloud DNS](/support/how-to/detailed-permissions-matrix-for-dns) | Yes | Yes | Yes
-[Cloud Feeds](/support/how-to/detailed-permissions-matrix-for-cloud-feeds) | No | No | Yes
-[Cloud Metrics](/support/how-to/detailed-permissions-matrix-for-cloud-metrics) | Yes | Yes | Yes
+[Cloud Servers](/how-to/permissions-matrix-for-next-generation-cloud-servers) | Yes | Yes | Yes
+[Cloud Files](/how-to/permissions-matrix-for-cloud-files) | Yes | No | Yes
+[Rackspace CDN](/how-to/permission-matrix-for-rackspace-cdn) || Yes | Yes | Yes
+[Cloud Databases](/how-to/permissions-matrix-for-cloud-databases) | Yes | Yes | Yes
+[Cloud Load Balancers](/how-to/permissions-matrix-for-cloud-load-balancers) | Yes | Yes | Yes
+[Cloud Queues](/how-to/permissions-matrix-for-cloud-queues) | Yes | Yes | Yes
+[Cloud Networks](/how-to/permissions-matrix-for-cloud-networks) | Yes | Yes | Yes
+[Cloud Monitoring](/how-to/permissions-matrix-for-rackspace-monitoring) | Yes | Yes | Yes
+[Cloud Block Storage](/how-to/permissions-matrix-for-cloud-block-storage) | Yes | Yes | Yes
+[Rackspace Auto Scale](/how-to/permissions-matrix-for-auto-scale) | Yes | No | Yes
+[Cloud Images](/how-to/detailed-permissions-matrix-for-cloud-images) | Yes | Yes | Yes
+[Cloud Big Data v1](/how-to/detailed-permissions-matrix-for-cloud-big-data) | Yes | Yes | Yes
+[Cloud Big Data v2](/how-to/detailed-permissions-matrix-for-cloud-big-data-v2) | Yes | Yes | Yes
+[Cloud Backup](/how-to/permission-matrix-for-cloud-backup) | Yes | Yes | Yes
+[Cloud Orchestration](/how-to/permissions-matrix-for-cloud-orchestration) | Yes | Yes | Yes
+[Cloud DNS](/how-to/detailed-permissions-matrix-for-dns) | Yes | Yes | Yes
+[Cloud Feeds](/how-to/detailed-permissions-matrix-for-cloud-feeds) | No | No | Yes
+[Cloud Metrics](/how-to/detailed-permissions-matrix-for-cloud-metrics) | Yes | Yes | Yes
 
 ### Account access
 
 Account service | Admin | Observer
 --------------- | --- | ---
-[Billing services](/support/how-to/detailed-permissions-matrix-for-billing-services) | Yes | Yes
-[Payment services](/support/how-to/detailed-permissions-matrix-for-billing-services) | Yes | Yes
-[Support tickets](/support/how-to/detailed-permissions-matrix-for-support-tickets) | Yes | Yes
+[Billing services](/how-to/detailed-permissions-matrix-for-billing-services) | Yes | Yes
+[Payment services](/how-to/detailed-permissions-matrix-for-billing-services) | Yes | Yes
+[Support tickets](/how-to/detailed-permissions-matrix-for-support-tickets) | Yes | Yes

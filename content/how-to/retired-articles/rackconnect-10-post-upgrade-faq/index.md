@@ -27,7 +27,7 @@ originally configured with RackConnect v1.0, you can disregard this article.
 -   A RackConnect API, accessible from within each of your cloud
     servers, provides basic details such as RackConnect automation
     status and the gateway IP address. Documentation of this API is available in
-    the [RackConnect v2.0 API](/support/how-to/the-rackconnect-v20-api) article.
+    the [RackConnect v2.0 API](/how-to/the-rackconnect-v20-api) article.
 
 -   Automation responsiveness to cloud server events has been improved. This
     means that changes in your cloud environment are picked up by
@@ -37,7 +37,7 @@ originally configured with RackConnect v1.0, you can disregard this article.
 
 #### What's the difference between this upgrade and the full RackConnect v2.0 feature set?
 
-Three [automation features](/support/how-to/rackconnect-v20-automation-features-faq) were not included in this original v1.0 upgrade that complete the
+Three [automation features](/how-to/rackconnect-v20-automation-features-faq) were not included in this original v1.0 upgrade that complete the
 RackConnect 2.0 feature set:
 
 -   Automatic assignment and provisioning of a public IP address,
@@ -56,7 +56,7 @@ RackConnect v1.0 users have implemented. Because these features are not currentl
 
 These automation features are now available to all RackConnect
 customers. View the [RackConnect v2.0 automation features
-FAQ](/support/how-to/rackconnect-v20-automation-features-faq)
+FAQ](/how-to/rackconnect-v20-automation-features-faq)
 for details about getting automation features enabled on your cloud
 accounts.
 
@@ -117,7 +117,7 @@ following information:
     each automation feature for a specific cloud server.
 
 Full documenation about the RackConnect API is located in the
-[RackConnect v2.0 API](/support/how-to/the-rackconnect-v20-api) article.
+[RackConnect v2.0 API](/how-to/the-rackconnect-v20-api) article.
 
 #### Who do I contact if I have additional questions?
 

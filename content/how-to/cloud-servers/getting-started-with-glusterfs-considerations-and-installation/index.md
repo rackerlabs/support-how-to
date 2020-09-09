@@ -407,4 +407,4 @@ The FUSE client allows the mount to happen with a GlusterFS "round robin" style 
 
 ### Next article
 
-[GlusterFS Troubleshooting](/support/how-to/glusterfs-troubleshooting)
+[GlusterFS Troubleshooting](/how-to/glusterfs-troubleshooting)

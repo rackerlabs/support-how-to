@@ -54,5 +54,5 @@ Delete default payment method | **Admin** | Deletes the default payment method f
 
 ### Related articles
 
--  [Billing services overview](/support/how-to/billing-services-overview)
--  [Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)
+-  [Billing services overview](/how-to/billing-services-overview)
+-  [Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)

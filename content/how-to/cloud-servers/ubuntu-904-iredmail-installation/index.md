@@ -45,7 +45,7 @@ spamming them or sending falsified e-mail.
 
 Setting up reverse DNS through our Control Panel is very easy. Please
 refer to our instruction on [how to setup a reverse DNS
-record](/support/how-to/create-a-reverse-dns-record-0).
+record](/how-to/create-a-reverse-dns-record-0).
 Keep in mind that DNS changes may take up to 24 hours to propagate
 across the Internet.
 

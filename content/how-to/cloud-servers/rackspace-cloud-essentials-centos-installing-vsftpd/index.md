@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Create a Cloud Server](/support/how-to/create-a-cloud-server)
+**Previous section:** [Create a Cloud Server](/how-to/create-a-cloud-server)
 
 By following the previous articles in this series, you should now have an
 active cloud server that is secured and has scheduled backups configured.
@@ -157,4 +157,4 @@ Use the following syntax to open an FTP session from the command line, where
 
 To close the FTP session, type **exit** in the session window.
 
-**Next section:** [Rackspace Cloud Essentials - Configure a user in vsftpd](/support/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
+**Next section:** [Rackspace Cloud Essentials - Configure a user in vsftpd](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)

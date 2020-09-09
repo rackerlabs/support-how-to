@@ -41,7 +41,7 @@ administrators can set privileges for users to access a folder, or the
 folder can be made available to everyone within your organization.
 Public folders contain contacts, calendar items, messages, journal
 entries, or notes. For more information, see [Microsoft Exchange public
-folders](/support/how-to/microsoft-exchange-public-folders).
+folders](/how-to/microsoft-exchange-public-folders).
 {{</accordion>}}
 {{<accordion title="Where do I add an Activesync/Blackberry BES liscense?" col="in" href="accordion5">}}
 
@@ -49,7 +49,7 @@ Adding a Blackberry or Activesync license is done by your
 administrator through the Cloud Office Control Panel. To learn more
 about adding the license, see [Adding An
 Activesync/BES
-license](/support/how-to/add-an-activesync-or-bes-license).
+license](/how-to/add-an-activesync-or-bes-license).
 {{</accordion>}}
 
 ------------------------------------------------------------------------

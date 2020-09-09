@@ -15,7 +15,7 @@ This article describes how to add and remove GlusterFS servers from your server 
 
 ### Prerequisite
 
-- [Set up a two-server GlusterFS array](/support/how-to/set-up-a-two-server-glusterfs-array)
+- [Set up a two-server GlusterFS array](/how-to/set-up-a-two-server-glusterfs-array)
 
 ### Create a new server
 
@@ -23,7 +23,7 @@ Use the `nova boot` command from the previous article to create a server called 
 
     nova boot --image bb02b1a3-bc77-4d17-ab5b-421d89850fca --flavor performance1-4 web3
 
-You can also use the [Rackspace Cloud Control Panel](/support/how-to/create-a-cloud-server) to create the new server.
+You can also use the [Rackspace Cloud Control Panel](/how-to/create-a-cloud-server) to create the new server.
 
 ### Add the server to the Rackspace custom network
 
@@ -49,7 +49,7 @@ Use the following steps to format the server partition and install GlusterFS:
 
 1.  Use Secure Shell (SSH) to log in to the server.
 
-2.  By using the instructions from the [previous article](/support/how-to/set-up-a-two-server-glusterfs-array), install GlusterFS and format the `bricks` partition as follows:
+2.  By using the instructions from the [previous article](/how-to/set-up-a-two-server-glusterfs-array), install GlusterFS and format the `bricks` partition as follows:
 
         apt-get update
         apt-get install -y glusterfs-server glusterfs-client
@@ -198,4 +198,4 @@ Now that you have a clean location in which to store the brick, adding the brick
 
 ### Next steps
 
-- [How to recover from a failed server in a GlusterFS array](/support/how-to/recover-from-a-failed-server-in-a-glusterfs-array)
+- [How to recover from a failed server in a GlusterFS array](/how-to/recover-from-a-failed-server-in-a-glusterfs-array)

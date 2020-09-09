@@ -18,7 +18,7 @@ product_url: rackconnect
 RackConnect v2.0, RackConnect v3.0, or both.
 
 **Note:** This article is a high-level overview of RackConnect v2.0. For
-more technical information about RackConnect, see [RackConnect v2.0 requirements](/support/how-to/rackconnect-v20-requirements).
+more technical information about RackConnect, see [RackConnect v2.0 requirements](/how-to/rackconnect-v20-requirements).
 
 RackConnect gives you the freedom to choose the best platform for your
 applications by unifying the breadth of the Rackspace portfolio into a
@@ -52,4 +52,4 @@ of hybrid hosting.
 
 ### Next step
 
-[Features introduced in RackConnect v2.0](/support/how-to/features-introduced-in-rackconnect-v20)
+[Features introduced in RackConnect v2.0](/how-to/features-introduced-in-rackconnect-v20)

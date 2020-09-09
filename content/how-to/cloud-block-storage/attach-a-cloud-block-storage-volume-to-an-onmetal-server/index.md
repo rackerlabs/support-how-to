@@ -23,7 +23,7 @@ Compute and Memory v1 flavors.
 
 To use the CLI in your terminal window, use the following procedure to
 attach a volume to your OnMetal server. (For information about
-installing the nova client, see [Installing python-novaclient on Linux and Mac OS](/support/how-to/installing-python-novaclient-on-linux-and-mac-os).)
+installing the nova client, see [Installing python-novaclient on Linux and Mac OS](/how-to/installing-python-novaclient-on-linux-and-mac-os).)
 The procedure assumes that the server instance and volume already exist.
 
 1. Set up the instance and the volume with their IDs as environment variables so that they are in the environment for use by subsequently executed commands.
@@ -135,7 +135,7 @@ string.
         sdd      8:48   0     2G  0 disk
 
 Now you can use the device, just like on other cloud servers. For more
-information, see [Prepare your Cloud Block Storage volume](/support/how-to/prepare-your-cloud-block-storage-volume).
+information, see [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume).
 
 ### Detach a volume
 
@@ -144,7 +144,7 @@ detach a volume from your OnMetal server.
 
 1. From inside the instance, perform all commands as root.
 
-2. Unmount file systems. (For instructions, see [Detach and delete Cloud Block Storage volumes](/support/how-to/detach-and-delete-cloud-block-storage-volumes)).
+2. Unmount file systems. (For instructions, see [Detach and delete Cloud Block Storage volumes](/how-to/detach-and-delete-cloud-block-storage-volumes)).
 
 3. Disconnect the volume.
 

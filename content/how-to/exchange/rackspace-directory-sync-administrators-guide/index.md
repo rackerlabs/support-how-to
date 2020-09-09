@@ -64,7 +64,7 @@ Directory Sync supports the following Active Directory platforms:
     hosted environment.
     We offer several methods that you can use to migrate your own data,
     as described in the article [Email migration
-    services](/support/how-to/email-migration-services).
+    services](/how-to/email-migration-services).
 -   Synchronizes user passwords at the moment a password is changed.
     Passwords cannot be synchronized retroactively because they are
     unreadable from Active Directory. Users must change their passwords
@@ -76,7 +76,7 @@ Directory Sync supports the following Active Directory platforms:
 #### Installation and configuration
 
 See [Rackspace Directory Sync: Install and
-configure](/support/how-to/rackspace-directory-sync-install-and-configure)
+configure](/how-to/rackspace-directory-sync-install-and-configure)
 to get started.
 
 **Note:** You *must* restart the domain controller during installation

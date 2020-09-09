@@ -28,12 +28,12 @@ provided by the Alert Logic&reg; Threat Manger&trade; offering. Rackspace PDR ha
 platform requirements:
 
 - Be a Rackspace Dedicated customer.
-- Set up egress and ingress firewall rules as defined in [Rackspace PDR Threat Manager Network Requirements](/support/how-to/rackspace-pdr-nids-networking/).
+- Set up egress and ingress firewall rules as defined in [Rackspace PDR Threat Manager Network Requirements](/how-to/rackspace-pdr-nids-networking/).
 
 #### NIDS appliance network configuration
 
 If you have self-managed networks or firewalls, use the
-[Rackspace PDR Threat Manager Network Requirements](/support/how-to/rackspace-pdr-nids-networking/) to
+[Rackspace PDR Threat Manager Network Requirements](/how-to/rackspace-pdr-nids-networking/) to
 implement appropriate firewall access control lists (ACLs) and routing to ensure proper opperation of
 our NIDS appliances.
 
@@ -41,7 +41,7 @@ our NIDS appliances.
 
 Many appliactions terminate Secure Socket Layer (SSL) and Transport Layer Security (TLS) at the network
 edge with a load-balancer or web application firewall. If your application uses end-to-end encryption,
-see the [Rackspace PDR SSL Decryption Guide](/support/how-to/rackspace-pdr-ssl-decryption/).
+see the [Rackspace PDR SSL Decryption Guide](/how-to/rackspace-pdr-ssl-decryption/).
 
 ### Deployment of vendor agents
 
@@ -58,11 +58,11 @@ Following these steps helps to ensure successful agent deployments:
 
 Due to the various vendors that we have selected to provide the nessessary telemetry to our systems, it is important
 that you select operating systems and kernel versions that are compatable with the vendor agents. For more
-information, see the [Rackspace PDR System Requirements](/support/how-to/rackspace-pdr-agent-compatibility/).
+information, see the [Rackspace PDR System Requirements](/how-to/rackspace-pdr-agent-compatibility/).
 
 #### Golden or Base images
 
-It is important that images taken from hosts that have Rackspace PDR agents deployed be prepared for deployment before using them as base images. Follow the [Rackspace PDR imaging hosts](/support/how-to/rackspace-pdr-imaging/) guide to ensure Golden images are properly prepared.
+It is important that images taken from hosts that have Rackspace PDR agents deployed be prepared for deployment before using them as base images. Follow the [Rackspace PDR imaging hosts](/how-to/rackspace-pdr-imaging/) guide to ensure Golden images are properly prepared.
 
 #### Remote management
 
@@ -73,7 +73,7 @@ Linux&reg; systems and Windows&reg; Remote Management (WinRM) for Windows system
 
 The agents that are used to provide telementry to our Security Operations Center (SOC) have specific networking
 requirements that must be implemented. Use the
-[Rackspace PDR Agent network requirements](/support/how-to/rackspace-pdr-agent-networking/) guide to
+[Rackspace PDR Agent network requirements](/how-to/rackspace-pdr-agent-networking/) guide to
 correctly implement network ACLs and firewall rules for your platform.
 
 ### Additional infomation

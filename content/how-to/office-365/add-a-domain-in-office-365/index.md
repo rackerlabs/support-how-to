@@ -22,9 +22,9 @@ This article describes how to add a domain in Office 365. By adding your own dom
 - **Time needed:** 24-48 hours for the domain to be verified
 - **Tools required:**  Office 365 Global Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-Before you can set up a domain in the Office 365 portal, you must [create your Office 365 tenant with Rackspace](/support/how-to/set-up-office-365/) and [add the product licenses](/support/how-to/add-an-office-365-license/) that you need.
+Before you can set up a domain in the Office 365 portal, you must [create your Office 365 tenant with Rackspace](/how-to/set-up-office-365/) and [add the product licenses](/how-to/add-an-office-365-license/) that you need.
 
 ### Add a domain in Office 365
 
@@ -40,7 +40,7 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
 6. Verify that you own the domain.
 
-   This step requires you to log in to your domain's DNS host portal. If you do not know what your DNS host is, see [Find your DNS host](/support/how-to/find-dns-host/).
+   This step requires you to log in to your domain's DNS host portal. If you do not know what your DNS host is, see [Find your DNS host](/how-to/find-dns-host/).
 
     1. Select the **Add a TXT record instead** option, and then select **Next**.
 
@@ -58,4 +58,4 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
     **Warning:** It is important to consult your migration plan before continuing through the domain setup. Changing your MX records before you are ready to migrate can result in a loss of service.
 
-    After Office 365 successfully verifies your domain, you can begin to assign it to your users. You cannot fully use your Office 365 services until you [add the appropriate DNS entries to your domain's DNS host](/support/how-to/configure-dns-for-office-365-services/).
+    After Office 365 successfully verifies your domain, you can begin to assign it to your users. You cannot fully use your Office 365 services until you [add the appropriate DNS entries to your domain's DNS host](/how-to/configure-dns-for-office-365-services/).

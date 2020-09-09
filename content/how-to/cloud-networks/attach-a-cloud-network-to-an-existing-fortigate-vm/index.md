@@ -65,5 +65,5 @@ that you recorded earlier and click **OK** as shown in the following images.
 ### (Optional) Backup the new configuration
 
 Because you just changed its configuration, we recommend that you
-[back up the Fortigate-VM](/support/how-to/back-up-the-fortinet-fortigate-vm/).
+[back up the Fortigate-VM](/how-to/back-up-the-fortinet-fortigate-vm/).
 

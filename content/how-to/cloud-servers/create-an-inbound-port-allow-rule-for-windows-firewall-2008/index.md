@@ -51,5 +51,5 @@ This article describes how to create an Inbound port allow rule for Windows Fire
 ### Related information
 
 
-- [Create a Cloud Server](/support/how-to/create-a-cloud-server)
-- [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+- [Create a Cloud Server](/how-to/create-a-cloud-server)
+- [Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)

@@ -30,7 +30,7 @@ on your internal DNS.
 
 We highly recommend that you perform this step because all of the Hosted
 Lync features will work only if DNS is correctly configured. For
-instructions, see [Set up Cloud Office Skype for Business DNS records](/support/how-to/set-up-dns-records-for-cloud-office-skype-for-business/).
+instructions, see [Set up Cloud Office Skype for Business DNS records](/how-to/set-up-dns-records-for-cloud-office-skype-for-business/).
 
 **Note:** If you are a Rackspace Hosted Exchange customer, these
 settings are in addition to what you might currently have for Hosted
@@ -51,7 +51,7 @@ part of the Microsoft Office Professional Plus bundle. You can also
 download a basic version for free.
 
 -   [Lync
-    client download](/support/how-to/download-a-skype-for-business-client)
+    client download](/how-to/download-a-skype-for-business-client)
 
 -   [Lync client setup tool](https://emailhelp.rackspace.com/) - (Login
     for setting up Lync on your devices)

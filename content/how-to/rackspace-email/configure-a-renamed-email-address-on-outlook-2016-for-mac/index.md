@@ -20,9 +20,9 @@ After you have renamed a Rackspace Email address, your devices such as desktop c
 - **Time needed:** Approximately 20 minutes
 - **Tools required:**  Mailbox password and access to the devices that you want to connect
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost in the rename configuration. Follow the instructions in [Migrate from a POP server to IMAP in Outlook for Mac](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/), before continuing with the instructions for Outlook for 2016 Mac.
+**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost in the rename configuration. Follow the instructions in [Migrate from a POP server to IMAP in Outlook for Mac](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/), before continuing with the instructions for Outlook for 2016 Mac.
 
 #### Configure mail settings
 
@@ -70,4 +70,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 You have now successfully configured Outlook 2016 to connect to the renamed email address.
 
-**Note:** If you notice items missing in the new Outlook account, import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).
+**Note:** If you notice items missing in the new Outlook account, import the data from the old profile. See [Migrate from a POP server to Rackspace Email IMAP](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/).

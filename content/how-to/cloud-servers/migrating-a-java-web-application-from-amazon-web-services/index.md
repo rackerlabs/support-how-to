@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 **Previous section:** [Provision cloud resources when migrating from Amazon
 Web
-Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 This article shows you how to migrate an Apache&reg; Tomcat&reg; and
 Java&trade;-based Spring web application from Amazon&reg; Web Services&reg;
@@ -48,7 +48,7 @@ exercise:
   uses (for example, Simple Email Server (SES) for email
   or Relational Database Service (RDS) for databases).
 - If you haven't already, [create a Cloud Server
-  instance](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services) and any supporting Rackspace Cloud services.
+  instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services) and any supporting Rackspace Cloud services.
 
 ### Install software packages
 
@@ -324,12 +324,12 @@ Access the web application in your browser at
 ### Next step
 
 [Post-migration considerations when migrating from Amazon Web
-Services](/support/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
+Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
 - [Migrate a .NET application from Amazon Web
-  Services](/support/how-to/migrating-a-net-application-from-amazon-web-services)
+  Services](/how-to/migrating-a-net-application-from-amazon-web-services)
 - [Migrate an application based on Backbone.js, Node.js, and MongoDB from
   Amazon Web
-  Services](/support/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+  Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)

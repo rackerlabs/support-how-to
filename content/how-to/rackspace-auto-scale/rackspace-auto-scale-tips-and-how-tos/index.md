@@ -77,7 +77,7 @@ information about creating checks and alarms, see the *[Rackspace Monitoring
 Developer
 Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)*
 or the [Rackspace Monitoring Checks and
-Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms)
+Alarms](/how-to/rackspace-monitoring-checks-and-alarms)
 article.
 
 Modify the example values used for the configurations to meet your
@@ -382,7 +382,7 @@ disabled and will begin receiving Private Cloud traffic from the
 RackConnect load balancer. The following KC article describes this
 process in detail: [Cloud Bursting using Auto Scale RackConnect and F5
 Load
-Balancers](/support/how-to/cloud-bursting-using-auto-scale-rackconnect-and-f5-load-balancers).
+Balancers](/how-to/cloud-bursting-using-auto-scale-rackconnect-and-f5-load-balancers).
 
 Example RackConnect metadata key and value pair for Auto Scale:
 
@@ -395,7 +395,7 @@ Example RackConnect metadata key and value pair for Auto Scale:
 General Purpose and work-optimized servers do not resize as simply as Standard servers. You have to go through a process
 to resize, detailed in [Upgrading resources for General Purpose or I/O
 optimized Cloud
-Servers](/support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers), in
+Servers](/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers), in
 order to resize, and your server does not keep its IP address. You can
 use Auto Scale to accomplish server resizing, keeping your IP address,
 and have it happen dynamically in response to load. You pay for the

@@ -23,7 +23,7 @@ cause you to lose access to some Rackspace services.
 The following article describes what services are impacted by disconnecting
 Public and/or SNET interfaces from your cloud servers:
 
--  [Removing networks from a Cloud Server](/support/how-to/removing-networks-from-a-cloud-server)
+-  [Removing networks from a Cloud Server](/how-to/removing-networks-from-a-cloud-server)
 
 ### Vyatta Network Appliance
 
@@ -67,7 +67,7 @@ In order for the services listed in the table above to work as explained, the Vy
 more comprehensive explanation of Source NAT configuration, visit the
 following link:
 
--  [Enable internet access on Cloud Servers using SNAT on a Vyatta Network appliance](/support/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance)
+-  [Enable internet access on Cloud Servers using SNAT on a Vyatta Network appliance](/how-to/enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance)
 
 **Note**: The cloud servers are on the isolated interface 192.168.1.0/24 and they are using the Vyatta network appliance as their default gateway
 
@@ -112,4 +112,4 @@ in the table. You may also want to configure firewall policies on the
 Vyatta appliance. For configuration assistance of firewall policies on
 Vyatta please visit the following article:
 
--  [Configuring interface-based firewall on the Vyatta Network appliance](/support/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
+-  [Configuring interface-based firewall on the Vyatta Network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)

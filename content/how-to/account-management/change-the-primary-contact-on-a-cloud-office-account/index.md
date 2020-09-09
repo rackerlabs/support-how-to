@@ -41,6 +41,6 @@ After the requestor is added as an account administrator, they must complete the
 
 3. Set a password for the newly created administrator.
 
-4. Complete the [Multi-Factor Authentication setup](/support/how-to/enable-or-disable-two-factor-authentication-for-administrators).
+4. Complete the [Multi-Factor Authentication setup](/how-to/enable-or-disable-two-factor-authentication-for-administrators).
 
 5. Create a security question and answer the newly created administrator.

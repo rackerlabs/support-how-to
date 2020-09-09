@@ -13,7 +13,7 @@ product_url: exchange
 
 This article describes how to forward a Microsoft Exchange mailbox to forward to another email address.
 
-If you need to configure forwarding for a Rackspace Email mailbox, see [Set up forwarding for a Rackspace Email mailbox](/support/how-to/set-up-rackspace-email-forwarding/).
+If you need to configure forwarding for a Rackspace Email mailbox, see [Set up forwarding for a Rackspace Email mailbox](/how-to/set-up-rackspace-email-forwarding/).
 
 - [Forward to a mailbox on the same domain](#forward-to-a-mailbox-on-the-same-domain)
 - [Forward to an external domain's email address](#forward-to-an-external-domains-email-address)
@@ -26,7 +26,7 @@ If you need to configure forwarding for a Rackspace Email mailbox, see [Set up f
 - **Time needed:** Approximately 10 minutes to set forward / Additional 15 minutes for forward to enable
 - **Tools required:** [Cloud Office Control Panel](https://cp.rackspace.com) access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### Forward to a mailbox on the same domain
 
@@ -139,6 +139,6 @@ Use the following steps to create a *Distribution List*, from which you can forw
 ### References
 
 - [Cloud Office Control Panel](https://cp.rackspace.com/)
-- [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology)
+- [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
 - [Cloud Office Email Portal](https://apps.rackspace.com/index.php)
-- [Set up Rackspace Email forwarding](/support/how-to/set-up-rackspace-email-forwarding/)
+- [Set up Rackspace Email forwarding](/how-to/set-up-rackspace-email-forwarding/)

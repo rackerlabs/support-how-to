@@ -20,7 +20,7 @@ In addition to uptime, the `net statistics server` command also displays statist
 files that are being accessed, systems errors, permission violations, password violations, and the total uptime since the last 
 time the server was restarted. Use the following steps to check server uptime by using the `net statistics server` command:
 
-1. [Connect to your cloud server](/support/how-to/connect-to-a-cloud-server/) on the command line.
+1. [Connect to your cloud server](/how-to/connect-to-a-cloud-server/) on the command line.
 2. Type `net statistics server` and press **Enter**.
 
    **Note**: You can also shorten this command to `net stats srv`.
@@ -47,6 +47,6 @@ that is installed on the server:
 
 Use the following steps to check server uptime by using the `systeminfo` command:
 
-1. [Connect to your cloud server](/support/how-to/connect-to-a-cloud-server/) on the command line. 
+1. [Connect to your cloud server](/how-to/connect-to-a-cloud-server/) on the command line. 
 2. Type `systeminfo` and press **Enter**.
 3. Look for the line that starts with `Statistics since`, which indicates the date and time when the uptime started.

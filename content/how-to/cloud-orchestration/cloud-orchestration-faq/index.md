@@ -114,14 +114,14 @@ applications that use the credentials that you are resetting.
 
 After your stack has completed, you are provided with private keys and
 passwords for your cloud resources. To reset your server passwords, see
-[Change your server root/admin password from your account](/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account).
+[Change your server root/admin password from your account](/how-to/how-to-change-your-server-rootadmin-password-from-your-account).
 {{< /accordion >}}
 
 {{< accordion title="How do I log in to my servers?" col="in" href="accordion8" >}}
 
 After your stack has completed, you are provided with the credentials for
 your servers. If you aren't sure how to log in with those credentials,
-see [Connect to a cloud server](/support/how-to/connect-to-a-cloud-server).
+see [Connect to a cloud server](/how-to/connect-to-a-cloud-server).
 {{< /accordion >}}
 
 {{< accordion title="How do I access my application?" col="in" href="accordion9" >}}
@@ -180,7 +180,7 @@ domain.
 {{< accordion title="How do I enable monitoring on the servers?" col="in" href="accordion14" >}}
 
 For information about how to configure monitoring on the servers in your
-stack, see the [Rackspace Monitoring FAQ](/support/how-to/rackspace-monitoring-faq/).
+stack, see the [Rackspace Monitoring FAQ](/how-to/rackspace-monitoring-faq/).
 
 ------------------------------------------------------------------------
 {{< /accordion >}}
@@ -380,7 +380,7 @@ community.
 Rackspace supports the stack at the system level with the Managed Operations
 Service Level of support. Only the software in our [Linux Spheres of Support
 for Dedicated and Managed
-Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
+Operations](/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
 is supported. Software installed on top of a web server or database
 server is not directly supported. (Some examples of this type of software are
 WordPress and Drupal.) However, the underlying system, web server, and

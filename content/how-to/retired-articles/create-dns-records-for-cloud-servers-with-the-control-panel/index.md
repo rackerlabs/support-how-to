@@ -9,7 +9,7 @@ last_modified_date: '2018-05-16'
 last_modified_by: Cat Lookabaugh
 ---
 
-**Previous section:** [Getting Started with Cloud Servers](/support/how-to/create-a-cloud-server)
+**Previous section:** [Getting Started with Cloud Servers](/how-to/create-a-cloud-server)
 
 This article provides instructions for creating a DNS zone for your
 domain and adding basic A, MX, and CNAME records by using the Cloud

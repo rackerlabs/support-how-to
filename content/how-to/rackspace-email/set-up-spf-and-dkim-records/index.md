@@ -20,6 +20,6 @@ SPF and DKIM are frequently used in combination since they attack email problems
 
 For instructions on how to create DNS TXT records for DKIM and SPF, see the following articles:
 
-- [Create a DKIM TXT record](/support/how-to/create-a-dkim-txt-record "Creating a DKIM TXT Record")
+- [Create a DKIM TXT record](/how-to/create-a-dkim-txt-record "Creating a DKIM TXT Record")
 
-- [Create a SPF TXT record](/support/how-to/create-an-spf-txt-record "Creating a SPF TXT Record")
+- [Create a SPF TXT record](/how-to/create-an-spf-txt-record "Creating a SPF TXT Record")

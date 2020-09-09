@@ -129,7 +129,7 @@ on the system availability and operation.
 Installation of RPCS is well documented in the following article:
 
 [Getting Started with Rackspace Private Cloud -
-OpenStack](/support/how-to/rpc-openstack "/support/how-to/rpc-openstack")
+OpenStack](/how-to/rpc-openstack "/how-to/rpc-openstack")
 
 ### Conclusion
 

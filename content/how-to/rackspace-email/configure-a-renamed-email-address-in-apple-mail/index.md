@@ -20,7 +20,7 @@ After you have renamed a Rackspace Email address, your email client will receive
 - **Time needed:** Approximately 20 minutes
 - **Tools required:**  Mailbox password and access to the email client that you want to receive mail in
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 **Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost.
 
@@ -66,4 +66,4 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
    **Note:** You can use the default settings.
 
-**Warning:** You must configure your Mac to synchronize various IMAP folders and prevent duplicate folder creation. This is called **Folder Mapping**. For instructions, see [Sync IMAP folders for new accounts in Apple Mail](/support/how-to/synchronize-imap-folders-for-new-accounts-in-apple-mail/) for instructions.
+**Warning:** You must configure your Mac to synchronize various IMAP folders and prevent duplicate folder creation. This is called **Folder Mapping**. For instructions, see [Sync IMAP folders for new accounts in Apple Mail](/how-to/synchronize-imap-folders-for-new-accounts-in-apple-mail/) for instructions.

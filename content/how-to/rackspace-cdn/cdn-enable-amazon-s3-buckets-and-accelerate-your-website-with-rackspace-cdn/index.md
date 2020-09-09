@@ -80,7 +80,7 @@ perform the following actions:
 
 1. After your site is serving from Amazon S3, configure a new Rackspace CDN service.
 
-   For information about creating a new Rackspace CDN service, see [Create a Rackspace CDN service](/support/how-to/create-a-rackspace-cdn-service).
+   For information about creating a new Rackspace CDN service, see [Create a Rackspace CDN service](/how-to/create-a-rackspace-cdn-service).
 
 2. When you specify the origin, enter the URL of your Amazon S3 bucket as your origin domain. For example, `yourBucket.s3-website-yourBucketRegion.amazonaws.com`. 
 
@@ -90,4 +90,4 @@ perform the following actions:
 
 4. Configure your DNS.
 
-   Update your DNS settings to add a CNAME record for the **raxcdn.com** URL returned by Rackspace CDN For more information about changing DNS settings, see [Change DNS to enable Rackspace CDN](/support/how-to/change-dns-to-enable-rackspace-cdn).
+   Update your DNS settings to add a CNAME record for the **raxcdn.com** URL returned by Rackspace CDN For more information about changing DNS settings, see [Change DNS to enable Rackspace CDN](/how-to/change-dns-to-enable-rackspace-cdn).

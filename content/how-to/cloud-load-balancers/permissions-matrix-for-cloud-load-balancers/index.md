@@ -184,4 +184,4 @@ List limits | `GET /v1.0/{account}/loadbalancers/limits` | **Admin,<br/>Creator,
 
 ### Related article
 
-[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)

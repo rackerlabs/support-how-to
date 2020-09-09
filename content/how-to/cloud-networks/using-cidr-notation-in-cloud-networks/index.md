@@ -43,7 +43,7 @@ and click **Create Network**.
 
 For complete instructions on how to create a Cloud Network using the
 Cloud Control Panel see [Create an Isolated Cloud Network and attach it
-to a server](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an Isolated Cloud Network and attach it to a server").
+to a server](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an Isolated Cloud Network and attach it to a server").
 
 ### CIDR Notation in the Cloud Networks API
 
@@ -86,12 +86,12 @@ Cloud Networks API Developers Guide.
 ### More Information on Cloud Networks
 
 [Attach an Isolated Network to a New Cloud
-Server](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Attach an Isolated Network to a New Cloud Server")
+Server](/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Attach an Isolated Network to a New Cloud Server")
 
 [Attach an Isolated Network to an Existing Cloud
-Server](/support/how-to/attach-a-cloud-network-to-an-existing-cloud-server "Attach an Isolated Network to an Existing Cloud Server")
+Server](/how-to/attach-a-cloud-network-to-an-existing-cloud-server "Attach an Isolated Network to an Existing Cloud Server")
 
 [Removing Networks from a Cloud
-Server](/support/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
+Server](/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
 
 [Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)

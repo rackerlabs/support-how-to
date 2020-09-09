@@ -16,7 +16,7 @@ This page presents several common relational database management systems
 
 ### Prerequisite
 
-For an introduction to RDBMSs and NoSQL databases, see [Properties of RDBMSs and NoSQL databases](/support/how-to/properties-of-rdbmss-and-nosql-databases/).
+For an introduction to RDBMSs and NoSQL databases, see [Properties of RDBMSs and NoSQL databases](/how-to/properties-of-rdbmss-and-nosql-databases/).
 
 ### Popular relational databases and RDBMSs
 
@@ -63,4 +63,4 @@ The following list describes popular NoSQL databases:
 
 ### Next step
 
-[Introduction to MongoDB](/support/how-to/introduction-to-mongodb)
+[Introduction to MongoDB](/how-to/introduction-to-mongodb)

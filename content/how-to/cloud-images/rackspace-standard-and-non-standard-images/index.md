@@ -49,4 +49,4 @@ costs for the underlying services that you use.
 
 For information to help you determine whether an image is standard or
 non-standard, see [Identifying Rackspace standard
-images](/support/how-to/identifying-rackspace-standard-images).
+images](/how-to/identifying-rackspace-standard-images).

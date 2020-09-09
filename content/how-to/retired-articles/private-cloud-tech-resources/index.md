@@ -12,25 +12,25 @@ last_modified_by: Rose Contreras
 #### Previous section
 
 [Getting Started with Rackspace Private Cloud -
-OpenStack](/support/how-to/rpc-openstack/)
+OpenStack](/how-to/rpc-openstack/)
 
 ### Private Cloud Tech Center
 
-#### [**Apache Hadoop on Rackspace Private Cloud**](/support/how-to/apache-hadoop-on-rackspace-private-cloud)
+#### [**Apache Hadoop on Rackspace Private Cloud**](/how-to/apache-hadoop-on-rackspace-private-cloud)
 
 Implementing an enterprise-ready Hadoop platform using Hortonworks Data
 Platform (HDP) on top of Rackspace Private Cloud for processing
 big-data.
 
-#### [**Compute Cloud (Nova) using SeaMicro SM15000**](/support/how-to/compute-cloud-nova-using-seamicro-sm15000)
+#### [**Compute Cloud (Nova) using SeaMicro SM15000**](/how-to/compute-cloud-nova-using-seamicro-sm15000)
 
 Deploying RackSpace Private Cloud Cluster on an AMD SM15000.
 
-#### [**Bare Metal to Rackspace Private Cloud**](/support/how-to/bare-metal-to-rackspace-private-cloud)
+#### [**Bare Metal to Rackspace Private Cloud**](/how-to/bare-metal-to-rackspace-private-cloud)
 
 Deploy large Rackspace Private Clouds with Razor and Chef.
 
-#### [**Building a Rackspace Private Cloud with Linux iSCSI Volumes**](/support/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes)
+#### [**Building a Rackspace Private Cloud with Linux iSCSI Volumes**](/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes)
 
 An implementation guide to building a Rackspace Private Cloud with
 external storage that targets Enterprise IT applications. Volumes are

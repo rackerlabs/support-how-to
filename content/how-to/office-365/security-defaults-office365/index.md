@@ -18,7 +18,7 @@ product_url: office-365
 - **Time Needed:** Approximately 30 minutes
 - **Tools Needed:** Office 365&reg; Global Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 Administrators looking for a simple solution to secure their Office 365 tenant have the option of turning on security defaults for their organization. Security defaults make the following changes to your organization's tenant:
 

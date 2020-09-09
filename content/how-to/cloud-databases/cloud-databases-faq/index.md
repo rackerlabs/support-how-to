@@ -50,10 +50,10 @@ connection.
 
 For more information about connecting to a Cloud Databases instance, see
 [Connect to a Cloud Databases
-instance](/support/how-to/connect-to-a-cloud-databases-instance).
+instance](/how-to/connect-to-a-cloud-databases-instance).
 
 For more information on HA instance groups, see [High Availability for Cloud
-Databases](/support/how-to/high-availability-for-cloud-databases) or the "High
+Databases](/how-to/high-availability-for-cloud-databases) or the "High
 Availability" section of this FAQ.
 {{< /accordion >}}
 
@@ -117,10 +117,10 @@ Yes. Use the following steps to access Cloud Databases:
 3. Select **Databases**.
 
 Connecting to a Cloud Database instance remotely requires a [high availability
-instance group](/support/how-to/connect-to-a-cloud-databases-instance) with a public
+instance group](/how-to/connect-to-a-cloud-databases-instance) with a public
 IP, or a single or replica instance connected either to a Cloud Server or a
 Cloud Load Balancer to [proxy the
-connection](/support/how-to/connect-to-a-cloud-databases-instance).
+connection](/how-to/connect-to-a-cloud-databases-instance).
 
 ------------------------------------------------------------------------
 {{< /accordion >}}
@@ -177,8 +177,8 @@ Scheduled backup, on-demand backup, and restore operations are currently
 supported by the Cloud Control Panel and the [Cloud Databases
 API](https://docs.rackspace.com/docs/cloud-databases/v1/). For more
 information, see [Scheduled backups for Cloud
-Databases](/support/how-to/scheduled-backups-for-cloud-databases) and [Manage
-backups for Cloud Databases](/support/how-to/managing-backups-for-cloud-databases).
+Databases](/how-to/scheduled-backups-for-cloud-databases) and [Manage
+backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases).
 For details about using the Cloud Databases
 API, see the [API
 Reference](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/).
@@ -229,7 +229,7 @@ remove any stored backups.
 
 {{< accordion title="Can I automate my backups?" col="in" href="accordion21" >}}
 
-Yes. [Scheduled backups](/support/how-to/scheduled-backups-for-cloud-databases)
+Yes. [Scheduled backups](/how-to/scheduled-backups-for-cloud-databases)
 enable you to set a time of day to take a daily backup and a day of the week
 to take a full backup. You can also specify the maximum number of full backups
 to retain.  
@@ -259,11 +259,11 @@ Monitoring is available for all Cloud Databases instances through
 pre-configured Cloud Monitoring checks, including load average, CPU,
 memory, disk storage, network, and a number of MySQL metrics. You can
 monitor your Cloud Databases instances by using the [Cloud Control
-Panel](/support/how-to/monitoring-cloud-databases-in-the-cloud-control-panel),
+Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel),
 the [Cloud Monitoring
 API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/), or the
 [Cloud Monitoring
-CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli).
+CLI](/how-to/getting-started-with-rackspace-monitoring-cli).
 
 You can also set up alarms that send email alerts to you that are based on
 thresholds that you define. An alert for disk space is set up by default for
@@ -272,7 +272,7 @@ every instance.
 In addition, you can use Rackspace Intelligence to observe usage patterns for
 any unexpected changes in your environment. For more information, see [Getting
 started with Rackspace Intelligence for the
-cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
+cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
 {{< /accordion >}}
 
 {{< accordion title="Can I create a Cloud Databases support ticket?" col="in" href="accordion25" >}}
@@ -363,7 +363,7 @@ MariaDB because they offer significant performance improvements and
 newer features. For more information that will help you choose the right
 database version for your application, see [Choosing the right
 database with Rackspace Cloud
-Databases](/support/how-to/choosing-the-right-database-with-rackspace-cloud-databases).
+Databases](/how-to/choosing-the-right-database-with-rackspace-cloud-databases).
 {{< /accordion >}}
 
 {{< accordion title="What bandwidth limitations are enforced on the ServiceNet network?" col="in" href="accordion32" >}}
@@ -416,13 +416,13 @@ database, which gives you complete flexibility in how you access your
 database. You can connect to your database by using the following methods:
 
 - [Public and private access with High Availability
-  Groups](/support/how-to/high-availability-for-cloud-databases)
+  Groups](/how-to/high-availability-for-cloud-databases)
 
 - [Public and private access for Cloud
-  Databases Instances](/support/how-to/public-and-private-access-for-cloud-databases)
+  Databases Instances](/how-to/public-and-private-access-for-cloud-databases)
 
 - [Connect to a Cloud Databases
-  instance](/support/how-to/connect-to-a-cloud-databases-instance)
+  instance](/how-to/connect-to-a-cloud-databases-instance)
 
 You can also use the Cloud Control Panel, the API, or the CLI to manage your
 database instance. While some features are not available in the Cloud Control
@@ -439,15 +439,15 @@ MySQL by creating a configuration group that sets the
 `-6:00` for CST.)
 
 For more information, see [Set the time zone for a Cloud Databases
-instance](/support/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
+instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance).
 {{< /accordion >}}
 
 {{< accordion title="Do you support importing and exporting data into the database?" col="in" href="accordion38" >}}
 
 Yes. You can use standard MySQL client tools to import data into and export
 data from your instance. For more information, see [Import data into Cloud
-Databases](/support/how-to/importing-data-into-cloud-databases)
-and [Export Data from MySQL](/support/how-to/exporting-data-from-mysql).
+Databases](/how-to/importing-data-into-cloud-databases)
+and [Export Data from MySQL](/how-to/exporting-data-from-mysql).
 {{< /accordion >}}
 
 {{< accordion title="Do you support MySQL configuration (my.cnf) file modifications?" col="in" href="accordion39" >}}
@@ -509,7 +509,7 @@ group and cannot be applied to individual instances in the HA group.
 
 For details on the technical architecture used to create Cloud Databases
 HA instances, see [High Availability for Cloud
-Databases](/support/how-to/high-availability-for-cloud-databases).
+Databases](/how-to/high-availability-for-cloud-databases).
 {{< /accordion >}}
 
 {{< accordion title="Do HA instances support automatic failover?" col="in" href="accordion47" >}}
@@ -546,7 +546,7 @@ number of replicas that you can add to an HA group.
 {{< accordion title="Where can I find more technical details about High Availability?" col="in" href="accordion51" >}}
 
 For more information about HA, see [High Availability for
-Cloud Databases](/support/how-to/high-availability-for-cloud-databases).
+Cloud Databases](/how-to/high-availability-for-cloud-databases).
 {{< /accordion >}}
 
 {{< accordion title="Can I convert regular instances to High Availability Instances?" col="in" href="accordion52" >}}
@@ -613,7 +613,7 @@ do not support replication for MySQL 5.1 because this is an older version of
 MySQL and there have been significant improvements for replication
 support in newer versions of MySQL. We highly recommend all users to
 [upgrade from MySQL 5.1 to MySQL
-5.6](/support/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56).
+5.6](/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56).
 {{< /accordion >}}
 
 {{< accordion title="Do you support replication?" col="in" href="accordion59" >}}

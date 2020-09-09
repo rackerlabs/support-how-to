@@ -27,7 +27,7 @@ Yes, RBAC is available to all Rackspace customers.
 #### When I add a user login to an existing contact, can I configure custom role assignments?
 
 Yes, you can. For instructions, see [Use Role-Based Access Control
-(RBAC)](/support/how-to/managing-role-based-access-control-rbac).
+(RBAC)](/how-to/managing-role-based-access-control-rbac).
 
 #### How do I query the capability of a given user?
 
@@ -71,7 +71,7 @@ Yes.
 With RBAC, account owners can leave permissions as
 they are in MyRackspace or set up restricted access to specific products
 for users through the Cloud Control Panel. For more detailed information,
-see [Learn about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac/).
+see [Learn about Role-Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac/).
 
 #### Can I link dedicated, hybrid, and cloud permissions?
 
@@ -93,13 +93,13 @@ Following is the initial pop-up window that appears when you enable RBAC.
 {{<image src="RBAC.png" alt="" title="">}}(https://8026b2e3760e2433679c-fffceaebb8c6ee053c935e8915a3fbe7.ssl.cf2.rackcdn.com/field/image/RBACInitialPDF_0.png" alt="" title="">}}
 
 For information about additional products that will be RBAC-enabled in
-the future, see [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
+the future, see [Learn about Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac).
 
-For information about changing your admin credentials, see [Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac).
+For information about changing your admin credentials, see [Use Role-Based Access Control (RBAC)](/how-to/managing-role-based-access-control-rbac).
 
 For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).
 
 #### Additional resources
 
--  [Permissions Matrix for Role-Based Access Control (RBAC)](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)
--  [Known issues and suggested workarounds for RBAC](/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac)
+-  [Permissions Matrix for Role-Based Access Control (RBAC)](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+-  [Known issues and suggested workarounds for RBAC](/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac)

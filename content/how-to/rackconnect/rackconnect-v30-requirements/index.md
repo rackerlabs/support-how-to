@@ -39,7 +39,7 @@ To use RackConnect v3.0, you must have a Dedicated Hosting account with Rackspac
 -   For a detailed list of the network devices currently supported by
     RackConnect v3.0 and their capabilities, see the article
     [RackConnect network device
-    comparison](/support/how-to/rackconnect-network-device-comparison).
+    comparison](/how-to/rackconnect-network-device-comparison).
 
 ### Supported region
 
@@ -64,13 +64,13 @@ To use RackConnect v3.0, you must have a Dedicated Hosting account with Rackspac
     implementation process. RackConnect v3.0 supports up to 10
     cloud networks. For details about Cloud Networks limitations, see
     the article, [RackConnect v3.0
-    limitations](/support/how-to/rackconnect-v30-limitations).
+    limitations](/how-to/rackconnect-v30-limitations).
 -   During the implementation process, you must provide the
     subnet (CIDR) and network segment name that you want to use with
     your cloud networks.
 -   With RackConnect v3.0,  multiple cloud networks can be associated
     with a single cloud account. However, to have RackConnect
-    connectivity, the networks must be created by Rackspace. [Contact us](/support/how-to/support) if
+    connectivity, the networks must be created by Rackspace. [Contact us](/how-to/support) if
     you want to add additional cloud networks to your RackConnect
     v3.0 configuration.
 -   Additionally, to have RackConnect v3.0 connectivity, any cloud

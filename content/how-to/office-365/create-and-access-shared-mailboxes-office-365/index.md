@@ -18,7 +18,7 @@ product_url: office-365
 - **Time Needed:** Approximately 15 minutes
 - **Tools Needed:** Administrators need access to the Office 365&reg; Control Panel. Users need access to Outlook&reg; or the Outlook Web Application&reg; (OWA).
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 This article lists steps for creating users, assigning users, and accessing shared mailboxes in Office 365. Shared mailboxes are primarily used for things such as a shared calendar, sending and receiving a common email address such as Sales, or using a common email address as a shared address list.
 

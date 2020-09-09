@@ -53,4 +53,4 @@ button to end the session.
 
 ### Related article
 
-[Reboot your server](/support/how-to/reboot-your-server)
+[Reboot your server](/how-to/reboot-your-server)

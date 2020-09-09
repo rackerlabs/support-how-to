@@ -20,7 +20,7 @@ Hosted Microsoft&reg; Exchange to Rackspace Office 365.
 - **Difficulty:** Moderate
 
 For more information about prerequisite terminology, see
-[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+[Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 ### Upgrade FAQ
 
@@ -30,10 +30,10 @@ Administrators add the Office 365 licenses to their account and create their
 new Office 365 environment. See the following instructional articles in the order
 listed to prepare for migration:
 
- 1.  [Create your Office 365 Tenant](/support/how-to/set-up-office-365#create-a-tenant-id)
- 2.  [Add your domain in Office 365](/support/how-to/add-a-domain-in-office-365)
- 3.  [Add an Office 365 license](/support/how-to/add-an-office-365-license)
- 4.  [Assign an Office 365 license to a user](/support/how-to/add-an-office-365-license#assign-an-office-365-license-to-a-user)
+ 1.  [Create your Office 365 Tenant](/how-to/set-up-office-365#create-a-tenant-id)
+ 2.  [Add your domain in Office 365](/how-to/add-a-domain-in-office-365)
+ 3.  [Add an Office 365 license](/how-to/add-an-office-365-license)
+ 4.  [Assign an Office 365 license to a user](/how-to/add-an-office-365-license#assign-an-office-365-license-to-a-user)
 
 **Note:** You must complete these steps before self-migrating or requesting an
 assisted migration.
@@ -42,7 +42,7 @@ assisted migration.
 #### Can the Rackspace Migrations Team migrate my data?
 
 Yes! Admins can request Assisted Migration with our team or use the
-[Self-Service Migration tool](/support/how-to/migrate-your-email-by-using-the-self-service-migration-tool/)
+[Self-Service Migration tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/)
 located within the [Cloud Office Control Panel](https://cp.rackspace.com).
 Admins are responsible for re-creating their entire environment within Office
 365 and the Migrations team migrates the email data by using MigrationWiz.
@@ -77,7 +77,7 @@ Rackspace does not have access to your externally hosted DNS and cannot accept
 access to external DNS hosting accounts.
 
 If you use the self-service migration tool, follow the instructions in
-[Add your domain in Office 365](/support/how-to/add-a-domain-in-office-365) to update
+[Add your domain in Office 365](/how-to/add-a-domain-in-office-365) to update
 your domain's DNS records.
 
 #### Are my Rackspace Email or Microsoft Exchange passwords migrated over?

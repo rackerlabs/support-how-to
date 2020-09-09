@@ -28,7 +28,7 @@ defined for the **Add Rule** button to be shown in the dialog.
 If you create multiple origin rules, you must order the rules from least
 specific to most specific. For more information about rules, see the
 following sections and [Rackspace CDN edge
-rules](/support/how-to/rackspace-cdn-edge-rules).
+rules](/how-to/rackspace-cdn-edge-rules).
 
 ### Add an origin
 
@@ -139,5 +139,5 @@ the rule is deleted, it is removed from the **Origin Rules** list.
 
 ### Additional resources
 
-- [Add and manage domains with Rackspace CDN](/support/how-to/add-and-manage-domains-in-rackspace-cdn)
-- [Create and manage caching rules in Rackspace CDN](/support/how-to/create-and-manage-caching-rules-in-rackspace-cdn)
+- [Add and manage domains with Rackspace CDN](/how-to/add-and-manage-domains-in-rackspace-cdn)
+- [Create and manage caching rules in Rackspace CDN](/how-to/create-and-manage-caching-rules-in-rackspace-cdn)

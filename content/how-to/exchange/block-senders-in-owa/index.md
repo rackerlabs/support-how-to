@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-This article describes how to automatically mark senders as junk through the Outlook Web App interface. If you need to safelist a sender, see [Safelist senders in Outlook Web App](/support/how-to/safelist-senders-in-owa).
+This article describes how to automatically mark senders as junk through the Outlook Web App interface. If you need to safelist a sender, see [Safelist senders in Outlook Web App](/how-to/safelist-senders-in-owa).
 
 ### Prerequisites
 
@@ -20,11 +20,11 @@ This article describes how to automatically mark senders as junk through the Out
 - **Time needed:** Approximately 15 minutes for change to complete
 - **Tools Required:** Mailbox access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
 ### Block Senders
 
-**Warning:** Outlook Web App does not include a setting to reject senders. It only automatically marks blocked senders as junk. Administrators can reference [Blacklists in Microsoft Exchange](/support/how-to/spam-preferences-safe-lists-and-black-list-in-microsoft-exchange/#manage-black-list) for instructions on how to reject senders.
+**Warning:** Outlook Web App does not include a setting to reject senders. It only automatically marks blocked senders as junk. Administrators can reference [Blacklists in Microsoft Exchange](/how-to/spam-preferences-safe-lists-and-black-list-in-microsoft-exchange/#manage-black-list) for instructions on how to reject senders.
 
 1. Log in to your Exchange mailbox at [apps.rackspace.com](https://apps.rackspace.com)
 

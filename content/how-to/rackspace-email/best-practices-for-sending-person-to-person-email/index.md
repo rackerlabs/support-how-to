@@ -13,13 +13,13 @@ product_url: rackspace-email
 
 This article provides best practices that can help you avoid having your legitimate person-to-person email messages flagged as spam.
 
-If you need recommendations for sending email to many recipients, see [Best practices for sending email to many recipients](/support/how-to/best-practices-for-sending-emails-to-many-recipients). If you receive a bounce message when sending an email, see our list of [common email bounce messages](/support/how-to/common-email-bounces) for more information.
+If you need recommendations for sending email to many recipients, see [Best practices for sending email to many recipients](/how-to/best-practices-for-sending-emails-to-many-recipients). If you receive a bounce message when sending an email, see our list of [common email bounce messages](/how-to/common-email-bounces) for more information.
 
 ### Prerequisite
 
 - **Applies to:** Users
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 For a video tutorial, see [Rackspace Email - Spam Flags: Best Sending Practices](https://emailhelp.rackspace.com/l/spam-overview).
 

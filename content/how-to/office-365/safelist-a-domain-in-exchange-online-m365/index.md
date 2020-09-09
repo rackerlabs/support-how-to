@@ -20,7 +20,7 @@ This article provides two methods to safelist, or whitelist, a domain in Exchang
 - **Time Needed:** Approximately 25 minutes
 - **Tools Needed:** Global administrator access for Microsoft 365
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 #### Safelist a domain by using the allowed senders list
 

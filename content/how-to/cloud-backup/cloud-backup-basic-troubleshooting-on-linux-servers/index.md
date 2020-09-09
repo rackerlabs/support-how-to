@@ -11,7 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-**Note:** If your server is running a Windows&reg; operating system, see [Cloud backup troubleshooting on Windows](/support/how-to/cloud-backup-basic-troubleshooting-on-window-2008-servers/). 
+**Note:** If your server is running a Windows&reg; operating system, see [Cloud backup troubleshooting on Windows](/how-to/cloud-backup-basic-troubleshooting-on-window-2008-servers/). 
 
 This article assists with issues that customers are experiencing when Cloud
 Backup issues are caused by the backup agent being disconnected on the
@@ -105,7 +105,7 @@ Use the following steps to restart the DriveClient service:
    - If the status is **disconnected**, download the log from the server that
      is located at **/var/log/driveclient.log**. (For assistance with
      downloading a file locally, check out [this helpful
-     article](/support/how-to/transfer-files-to-or-from-a-linux-server-without-ftp)).
+     article](/how-to/transfer-files-to-or-from-a-linux-server-without-ftp)).
 
 5. After saving the file, attach it to a support ticket to send to Rackspace
    Support. This assists in expediting the issue response.

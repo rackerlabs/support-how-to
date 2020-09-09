@@ -76,7 +76,7 @@ The preceding output identifies the location of each hop along a networks route,
 
 If a hop is located within a Rackspace network and other networking issues exist, contact [Rackspace Support](https://www.rackspace.com/en-us/support) with the steps that you have taken to troubleshoot your network. If a hop is *not* located within a Rackspace network and other networking issues exist, contact your Internet service provider.
 
-To learn more about how to troubleshoot latency issues with traceroute, see this MaxCDN tutorial: [Reading a Traceroute](https://www.maxcdn.com/one/tutorial/support/how-to-read-a-traceroute/).
+To learn more about how to troubleshoot latency issues with traceroute, see this MaxCDN tutorial: [Reading a Traceroute](https://www.maxcdn.com/one/tutorial/how-to-read-a-traceroute/).
 
 ### Additional tools installed by default for Mac and Linux
 
@@ -258,6 +258,6 @@ Nmap is most useful when used in conjunction with the following common flags:
 
 ### Next steps
 
-For help troubleshooting an offline website, see [Troubleshooting an offline website](/support/how-to/troubleshooting-an-offline-website/).
+For help troubleshooting an offline website, see [Troubleshooting an offline website](/how-to/troubleshooting-an-offline-website/).
 
 If you have received any of the preceding *unsuccessful* responses, contact [Rackspace Support](https://www.rackspace.com/en-us/support) with the steps that you have taken to troubleshoot your network.

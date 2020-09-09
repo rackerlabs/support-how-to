@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Rackspace Cloud Essentials - Install vsftpd for CentOS](/support/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
+**Previous section:** [Rackspace Cloud Essentials - Install vsftpd for CentOS](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
 
 This article describes how to create system users in vstfpd and
 `chroot` them (isolate or "jail" them to their home directory) if necessary.

@@ -19,7 +19,7 @@ versions at the moment.
 
 **Note:** A BES data plan must be purchased through your provider and
 added to your account; your administrator will then purchase a [BES
-license](/support/how-to/add-an-activesync-or-bes-license),
+license](/how-to/add-an-activesync-or-bes-license),
 assign it to your email address, and provide you with an activation PIN.
 
 **Note:** We are currently investigating BES10 and awaiting

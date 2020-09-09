@@ -21,7 +21,7 @@ be set up by email address, domain, or IP address.
 - **Time needed:** Approximately 15 minutes
 - **Tools required:**  Control Panel access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 To modify the domains or IP addresses on your domain blacklist, [log
 in to the Cloud Office Control Panel](https://cp.rackspace.com) and perform the

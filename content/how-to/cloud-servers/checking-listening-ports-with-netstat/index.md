@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-If you're troubleshooting a service that you know [is running normally](/support/how-to/checking-system-load-on-linux),
+If you're troubleshooting a service that you know [is running normally](/how-to/checking-system-load-on-linux),
 the next step is to ensure it's listening on the correct network port.
 
 The `netstat` command shows the services listening to ports on a Linux
@@ -61,7 +61,7 @@ Common outcomes include the following results:
 -   The correct service is listening on the correct port. In this case
     you need to test the service more thoroughly. Skip to the article on
     [testing the listening service for response using
-    netcat](/support/how-to/testing-network-services-with-netcat).
+    netcat](/how-to/testing-network-services-with-netcat).
 -   Something other than the expected service appears to be listening on
     the port.
 
@@ -75,7 +75,7 @@ If you make any changes because the incorrect service is listening, run the `net
 
 If you make changes at this point, be sure to test your setup to verify that you have resolved your issue.
 
-If using the `netstat` did not resolve your port issues, continue to test connections to the service by using [the netcat command.](/support/how-to/testing-network-services-with-netcat)
+If using the `netstat` did not resolve your port issues, continue to test connections to the service by using [the netcat command.](/how-to/testing-network-services-with-netcat)
 
 <script type="application/ld+json">
   {

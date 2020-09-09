@@ -26,9 +26,9 @@ We don't support or recommend backing up active databases or directories such as
 Because the live database is actively writing to these directories, the files can't be effectively 
 backed up. 
 
-To back up a database, see the article on [backing up databases](/support/how-to/rackspace-cloud-backup-backing-up-databases).
+To back up a database, see the article on [backing up databases](/how-to/rackspace-cloud-backup-backing-up-databases).
 
 Instead of listing specific files and directories to back up, you can configure Cloud Backup to back up 
 the entire file system and exclude individual files or directories as needed.
 
-For more information, see [Best practices for Cloud Backup](/support/how-to/best-practices-for-cloud-backup/).
+For more information, see [Best practices for Cloud Backup](/how-to/best-practices-for-cloud-backup/).

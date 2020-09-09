@@ -29,7 +29,7 @@ Cyberduck website](https://trac.cyberduck.io/wiki/help/en/howto/cloudfiles).
 to retrieve your API key.
 
 4.	Follow the instructions in
-[View and reset your API key](/support/how-to/view-and-reset-your-api-key) to find your
+[View and reset your API key](/how-to/view-and-reset-your-api-key) to find your
 API key.
 
 5.	Open the Cyberduck FTP client.

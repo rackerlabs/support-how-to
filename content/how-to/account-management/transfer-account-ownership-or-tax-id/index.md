@@ -19,7 +19,7 @@ the [Cloud Control Panel](https://login.rackspace.com/) by using the following s
 
 **Note:** If you are a Dedicated Hosting customer, you can request all of the forms described in this article from your account manager.
 
-**Note:** Before completing the service transfer form, read the "Best practices for legal change forms" section of [Change account information](/support/how-to/change-account-information).
+**Note:** Before completing the service transfer form, read the "Best practices for legal change forms" section of [Change account information](/how-to/change-account-information).
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 2. In the upper-right corner of the page, click **Account > Docs and Forms**.
@@ -35,4 +35,4 @@ the [Cloud Control Panel](https://login.rackspace.com/) by using the following s
 7. Fill out the details for your ticket and attach your saved account change form to your ticket.
 
 To learn more about changing your cloud account's information, see
-[Change Account Information](/support/how-to/change-account-information).
+[Change Account Information](/how-to/change-account-information).

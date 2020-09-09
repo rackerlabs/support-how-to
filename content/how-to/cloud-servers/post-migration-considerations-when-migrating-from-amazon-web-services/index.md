@@ -15,9 +15,9 @@ product_url: cloud-servers
 
 Migrate an application from Amazon Web Services to Rackspace:
 
--   [Migrate a .NET application from Amazon Web Services](/support/how-to/migrating-a-net-application-from-amazon-web-services)
--   [Migrate a Java web application from Amazon Web Services](/support/how-to/migrating-a-java-web-application-from-amazon-web-services)
--   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/support/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
+-   [Migrate a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
+-   [Migrate a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+-   [Migrate an application based on Backbone.js, Node.js, and MongoDB from Amazon Web Services](/how-to/migrating-an-application-based-on-backbonejs-nodejs-and-mongodb-from-amazon-web-services)
 
 ### Security
 
@@ -63,7 +63,7 @@ To create a robust and scalable monitoring system, consider using
 Rackspace Cloud Monitoring. For information about installing, configuring, and
 running an agent and enabling monitoring checks by using the Cloud Control
 Panel, read [Install and configure the Rackspace Monitoring
-Agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent).
+Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent).
 
 After you have installed the agent, based on your requirements, you can
 configure one or more of the following checks and alerts:
@@ -87,8 +87,8 @@ provides a file-based backup system to help you meet your backup and
 restore needs. You can install the [Rackspace Cloud Backup
 agent](https://www.rackspace.com/cloud/backup/) by following the steps in the
 article [Install or update the Cloud Backup agent on
-Linux](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux/) or [Install the Cloud Backup agent on
-Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
+Linux](/how-to/install-or-update-the-cloud-backup-agent-on-linux/) or [Install the Cloud Backup agent on
+Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows).
 
 Cloud Backup has the following key features:
 

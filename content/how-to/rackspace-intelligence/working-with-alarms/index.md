@@ -14,7 +14,7 @@ product_url: rackspace-intelligence
 Rackspace Intelligence provides a wizard that guides you through the
 process of creating an alarm for a check on an entity.
 
-Before you can create an alarm, you must have [created a check](/support/how-to/working-with-checks).
+Before you can create an alarm, you must have [created a check](/how-to/working-with-checks).
 The following table lists the alarms that are associated with each type of check in Rackspace Intelligence.
 
 | Check type | Alarm name |
@@ -31,7 +31,7 @@ The following table lists the alarms that are associated with each type of check
 | **remote.ssh** | SSH fingerprint match |
 | **remote.tcp** | Connection time |
 
-Before you can create an alarm, you must have [created a check](/support/how-to/working-with-checks).
+Before you can create an alarm, you must have [created a check](/how-to/working-with-checks).
 
 ### Create an alarm
 

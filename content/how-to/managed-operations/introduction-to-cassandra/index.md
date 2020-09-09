@@ -18,8 +18,8 @@ NoSQL database.
 
 For an introduction to NoSQL databases, see the following articles:
 
-- [Types of databases](/support/how-to/types-of-databases)
-- [Examples of RDBMS and NoSQL databases](/support/how-to/examples-of-rdbms-and-nosql-databases)
+- [Types of databases](/how-to/types-of-databases)
+- [Examples of RDBMS and NoSQL databases](/how-to/examples-of-rdbms-and-nosql-databases)
 
 ### Benefits of using Cassandra
 
@@ -137,4 +137,4 @@ additional search clauses, additional conditions, or sorting on non-key fields.
 
 ### Next step
 
-[Choosing between an RDBMS and NoSQL](/support/how-to/choosing-between-rdbms-and-nosql)
+[Choosing between an RDBMS and NoSQL](/how-to/choosing-between-rdbms-and-nosql)

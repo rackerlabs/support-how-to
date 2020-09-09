@@ -62,7 +62,7 @@ after the server is rebooted. You must configure services to restart after the
 server reboots. To learn how to perform this task, select the following
 resource that corresponds to your server's operating system (OS):
 
-- Windows: [Prepare to migrate a Windows server](/support/how-to/prepare-to-migrate-a-windows-server/#ensureAutoStart)
+- Windows: [Prepare to migrate a Windows server](/how-to/prepare-to-migrate-a-windows-server/#ensureAutoStart)
 - Ubuntu&reg; operating system: [UPDATE-RC.D(8)](https://manpages.debian.org/wheezy/sysv-rc/update-rc.d.8.en.html)
 - RHEL&reg; and CentOS&reg;: [Using the chkconfig utility](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s2-services-chkconfig)
 

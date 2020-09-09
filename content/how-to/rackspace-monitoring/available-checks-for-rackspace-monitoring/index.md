@@ -11,13 +11,13 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-In the Cloud Control Panel, you can choose to set most common monitoring checks on your servers. This article explains these common check and the options that you can set for them on Cloud Control Panel. For information about setting up one of these monitoring checks, see [Create a monitoring check using the Cloud Control Panel](/support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel).
+In the Cloud Control Panel, you can choose to set most common monitoring checks on your servers. This article explains these common check and the options that you can set for them on Cloud Control Panel. For information about setting up one of these monitoring checks, see [Create a monitoring check using the Cloud Control Panel](/how-to/creating-a-monitoring-check-using-the-cloud-control-panel).
 
 ### All other Rackspace Monitoring checks
 
-For configuration of all the supported checks and plugin checks, suppressions, notification plans, see [Rackspace Intelligence documentation](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
+For configuration of all the supported checks and plugin checks, suppressions, notification plans, see [Rackspace Intelligence documentation](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/).
 
-For complete list of checks you can create with Rackspace Monioring, see [Rackspace Monitoring checks and alarms](/support/how-to/rackspace-monitoring-checks-and-alarms/).
+For complete list of checks you can create with Rackspace Monioring, see [Rackspace Monitoring checks and alarms](/how-to/rackspace-monitoring-checks-and-alarms/).
 
 ### Available monitoring checks through Cloud Control Panel for Cloud Servers
 Monitoring checks and alarms are located in the Cloud Servers section of the Cloud Control Panel.
@@ -100,7 +100,7 @@ When you create a Network check, you set the following options:
 
 - Select which network interface to use (typically eth0 or eth1).
 - Set the receive rate alert for warning and critical states.
-- Set the transmit rate alert for warning and critical states. (For more information, see [Rackspace Monitoring Checks and Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms).)
+- Set the transmit rate alert for warning and critical states. (For more information, see [Rackspace Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms).)
 
 You can edit the following options for an existing Network check:
 

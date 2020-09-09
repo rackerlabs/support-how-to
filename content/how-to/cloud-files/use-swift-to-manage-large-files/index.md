@@ -15,7 +15,7 @@ If you want to upload large files but do not want to incorporate our
 code into an application, you might find it easier to use the [Swift tool](https://swiftstack.com/docs/integration/python-swiftclient.html) for
 your uploads and management.
 
-**Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/support/how-to/use-the-api-to-manage-large-files), and if you prefer Swiftly, see [Use Swiftly to upload an image](/support/how-to/use-swiftly-to-upload-an-image).
+**Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/how-to/use-the-api-to-manage-large-files), and if you prefer Swiftly, see [Use Swiftly to upload an image](/how-to/use-swiftly-to-upload-an-image).
 
 If you are using the tool, the process looks as follows:
 

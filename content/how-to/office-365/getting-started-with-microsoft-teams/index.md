@@ -13,7 +13,7 @@ product_url: office-365
 
 This article helps organizations begin using Microsoft Teams&reg;. This article isn't intended to be a comprehensive administrative or end user guide.
 
-For more information about Office 365&reg; subscriptions, see [Set Up Office 365](/support/how-to/set-up-office-365).
+For more information about Office 365&reg; subscriptions, see [Set Up Office 365](/how-to/set-up-office-365).
 
 ### Prerequisites
 
@@ -21,11 +21,11 @@ For more information about Office 365&reg; subscriptions, see [Set Up Office 365
 - **Time needed:** Approximately 1 hour
 - **Tools required:** Administrators need Office 365 Global Administrator access, users need their Office 365 Credentials
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 ### License a user for Microsoft Teams
 
-Users must have a valid license that has Microsoft Teams. To see which licenses contain Microsoft Teams and to learn how to buy licenses and assign them to a user, see [add an Office 365 license](/support/how-to/add-an-office-365-license).
+Users must have a valid license that has Microsoft Teams. To see which licenses contain Microsoft Teams and to learn how to buy licenses and assign them to a user, see [add an Office 365 license](/how-to/add-an-office-365-license).
 
 ### Download, install, and sign in to the Microsoft Teams desktop client
 

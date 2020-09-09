@@ -99,7 +99,7 @@ Choose the appropriate installer, based on either 32- or 64-bit platforms.
 
 To learn more about the features of the Directory Sync and how to use it
 after installation, see the [Rackspace Directory Sync: Administrator's
-Guide](/support/how-to/rackspace-directory-sync-administrators-guide).
+Guide](/how-to/rackspace-directory-sync-administrators-guide).
 
 ### Install the Directory Sync service
 
@@ -190,7 +190,7 @@ directory. All access is read-only.
 For information about how to start synchronizing your Active Directory
 objects to your mailboxes and distribution lists, see the [Rackspace Directory
 Sync Operations
-Guide](/support/how-to/rackspace-directory-sync-operation-guide).
+Guide](/how-to/rackspace-directory-sync-operation-guide).
 
 ### Install password synchronization for multiple DCs (optional)
 
@@ -248,4 +248,4 @@ The Password Handler of Directory Sync is installed.
 **Note:** This application runs in the background. You do not have to
 configure any settings. Settings are taken from the primary DC.
 
-Now that the installation is complete, see the [Rackspace Directory Sync Administrator's Guide](/support/how-to/rackspace-directory-sync-administrators-guide) and the [Directory Sync Operations Guide](/support/how-to/rackspace-directory-sync-operation-guide) to learn how to use Directory Sync and its features.
+Now that the installation is complete, see the [Rackspace Directory Sync Administrator's Guide](/how-to/rackspace-directory-sync-administrators-guide) and the [Directory Sync Operations Guide](/how-to/rackspace-directory-sync-operation-guide) to learn how to use Directory Sync and its features.

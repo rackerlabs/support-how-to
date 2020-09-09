@@ -31,7 +31,7 @@ when removing a cloud server from an active load balancer.
 
 5.  Monitor the applicable port of the currently draining node for
     continued activity (for a Linux server check
-    [netstat](/support/how-to/checking-listening-ports-with-netstat)
+    [netstat](/how-to/checking-listening-ports-with-netstat)
     for new connections).
 6.  When activity has ceased, repeat the first 5 steps above (as needed)
     and select **Disabled** in the repeated 5th step.

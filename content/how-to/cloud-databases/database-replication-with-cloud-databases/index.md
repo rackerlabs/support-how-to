@@ -11,7 +11,7 @@ product: Cloud Databases
 product_url: cloud-databases
 ---
 
-This article describes how you create and manage read replicas for your Cloud Database instance. Replication is available for MySQL 5.6, Percona 5.6, and MariaDB 10 databases. If you are using MySQL 5.1, you must upgrade to MySQL 5.6. For instructions on upgrading on how to migrate MySQL 5.1 to MySQL 5.6, see [Upgrade a Cloud Databases instance from MySQL 5.1 to MySQL 5.6](/support/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56).
+This article describes how you create and manage read replicas for your Cloud Database instance. Replication is available for MySQL 5.6, Percona 5.6, and MariaDB 10 databases. If you are using MySQL 5.1, you must upgrade to MySQL 5.6. For instructions on upgrading on how to migrate MySQL 5.1 to MySQL 5.6, see [Upgrade a Cloud Databases instance from MySQL 5.1 to MySQL 5.6](/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56).
 
 ### Replication overview
 

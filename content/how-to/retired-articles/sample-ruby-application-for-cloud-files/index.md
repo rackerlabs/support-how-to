@@ -14,7 +14,7 @@ last_modified_by: Stephanie Fillmon
 In the sample command below, use your Rackspace Cloud account username
 and API key, where indicated by 'UsernameGoesHere' and 'APIKeyGoesHere' in
 the following command. For information about how to find your API key,
-see [View and reset your API key.](/support/how-to/view-and-reset-your-api-key)
+see [View and reset your API key.](/how-to/view-and-reset-your-api-key)
 
     #!/usr/bin/env ruby
     require 'rubygems'
