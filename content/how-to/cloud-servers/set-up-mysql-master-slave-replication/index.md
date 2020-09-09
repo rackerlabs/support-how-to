@@ -5,8 +5,8 @@ title: Set up MySQL master-slave replication
 type: article
 created_date: '2011-06-02'
 created_by: Rackspace Support
-last_modified_date: '2019-09-06'
-last_modified_by: William Loy
+last_modified_date: '2020-09-09'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -130,10 +130,12 @@ replication.
 1.  Run the following commands to set up the MySQL user, updating the
     entries in brackets with strings or values that you plan to use
     with your setup:
-
+    
+    **Note:** You might not need to create the user in the follow code.
 
         # mysql -u root -p
-        mysql> grant replication slave on *.* TO [replication_username]@'[private IP of db02]' identified by '[some password]';
+        mysql> create user [replication_username]@'[private IP of db02]' identified by '[some password]';
+        mysql> grant replication slave on *.* TO [replication_username]@'[private IP of db02]';
         mysql> flush privileges;
         mysql> quit
 
