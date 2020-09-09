@@ -5,17 +5,14 @@ title: Add and remove GlusterFS servers
 type: article
 created_date: '2014-06-03'
 created_by: Matt Sherborne
-last_modified_date: '2018-05-09'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-04'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 This article describes how to add and remove GlusterFS servers from your server array.
 
-### Prerequisite
-
-- [Set up a two-server GlusterFS array](/support/how-to/set-up-a-two-server-glusterfs-array)
 
 ### Create a new server
 

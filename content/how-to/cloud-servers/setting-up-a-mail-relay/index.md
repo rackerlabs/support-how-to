@@ -18,7 +18,7 @@ should not be accepted. For this reason, email from Cloud Servers may
 not reliably get through to your intended recipients.
 
 To be able to send email reliably from your server, we recommend you
-sign up for a [Rackspace Email account](https://www.rackspace.com/apps/email_hosting/),
+sign up for a [Rackspace Email account](https://www.rackspace.com/email-hosting),
 use a relay service like
 [Mailgun](/support/how-to/introduction-to-mailgun-email-automation),
 or use any email account that allows you to send email via secure SMTP
