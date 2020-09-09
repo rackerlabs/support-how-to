@@ -45,7 +45,7 @@ More information is available at the [Rackspace Private Cloud OpenStack web page
 
 {{<accordion title="What are Rackspace Private Cloud's main differentiators?" col="in" href="accordion4" hasImage="true">}}
 
-{{<image alt="What differentiates Rackspace Private Cloud" src="rpc-differentiators.png" title="What differentiates Rackspace Private Cloud">}}
+<img class="fig-img" src="/support/how-to/rpc-openstack-faq/rpc-differentiators.png" alt="What differentiates Rackspace Private Cloud">
 
 <p><strong>Stable and available</strong></p>
 
