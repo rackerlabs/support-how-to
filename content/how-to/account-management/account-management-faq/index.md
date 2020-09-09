@@ -277,7 +277,7 @@ account might have access to.
 
 {{< accordion title="Where can I view the pop-up window that appeared when I initially enabled RBAC?" col="in" href="accordion30" hasImage="yes">}}
 
-Following is the initial pop-up window that appears when you enable RBAC.<
+Following is the initial pop-up window that appears when you enable RBAC.
 
 
 
